@@ -1,4 +1,4 @@
-"""Ephemeral, tab-scoped state. No database stores patient information."""
+"""Ephemeral, tab-scoped state. No database stores medical information."""
 from __future__ import annotations
 
 import secrets
@@ -7,20 +7,8 @@ import threading
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any
-
-import numpy as np
 
 from web_app.profile import HealthProfile
-
-
-@dataclass
-class UploadedDocument:
-    name: str
-    chunks: list[dict[str, Any]]
-    vectors: np.ndarray
-    size_bytes: int
-    summary: str = ""
 
 
 @dataclass
@@ -32,9 +20,9 @@ class SessionData:
     last_seen: float = field(default_factory=time.monotonic)
     profile: HealthProfile = field(default_factory=HealthProfile)
     history: list[dict[str, str]] = field(default_factory=list)
-    documents: list[UploadedDocument] = field(default_factory=list)
     report_bytes: bytes | None = None
     report_id: str | None = None
+    auto_report_pending: bool = False
     lock: threading.RLock = field(default_factory=threading.RLock)
 
     def touch(self) -> None:
@@ -43,14 +31,6 @@ class SessionData:
     def clear_report(self) -> None:
         self.report_bytes = None
         self.report_id = None
-
-    @property
-    def uploaded_bytes(self) -> int:
-        return sum(item.size_bytes for item in self.documents)
-
-    @property
-    def chunk_count(self) -> int:
-        return sum(len(item.chunks) for item in self.documents)
 
 
 class SessionStore:
@@ -61,7 +41,6 @@ class SessionStore:
         self.max_seconds = max_seconds
         self._sessions: dict[tuple[str, str], SessionData] = {}
         self._lock = threading.RLock()
-        # All data in this directory belongs to an earlier, ended process.
         for child in self.temp_root.iterdir():
             if child.is_dir():
                 shutil.rmtree(child, ignore_errors=True)
@@ -96,7 +75,6 @@ class SessionStore:
         session = self._sessions.pop(key, None)
         if session:
             session.clear_report()
-            session.documents.clear()
             session.history.clear()
             shutil.rmtree(session.directory, ignore_errors=True)
 

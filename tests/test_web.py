@@ -1,30 +1,23 @@
-"""Container smoke tests for the local web application; no live xAI requests."""
+"""Smoke tests for the local web application; no live xAI requests."""
 from __future__ import annotations
 
 import io
-import json
 import os
-import shutil
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-import numpy as np
-from docx import Document
 from fastapi.testclient import TestClient
-from PIL import Image, ImageDraw, ImageFont
 from pypdf import PdfReader
-from reportlab.pdfgen import canvas
-from reportlab.lib.utils import ImageReader
 
+from search_medical_embeddings import _normalize_fastembed_metadata
 from web_app import main
-from web_app.ai import AIUnavailable, XAIClient
+from web_app.ai import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from web_app.config import settings
-from web_app.documents import DocumentError, ingest
-from web_app.profile import HealthProfile
-from web_app.reports import create_pdf
-from web_app.retrieval import consultation_queries
+from web_app.profile import HEALTH_PROBLEM_QUESTION, HealthProfile
+from web_app.reports import create_pdf, format_recommendation, report_title
+from web_app.retrieval import Retriever, _meaningful_words, consultation_queries
 from web_app.sessions import SessionStore
 
 
@@ -35,248 +28,283 @@ class FakeRequest:
 
 
 class FakeAI:
-    follow_up_calls = 0
-    follow_up_profile = None
+    generate_calls = 0
     report_profile = None
 
     def close(self):
         pass
 
-    def extract_profile(self, message, asked_field):
-        if asked_field == "age":
-            return {"age": 57}
-        if asked_field == "weight_kg":
-            return {"weight_kg": 93}
-        if asked_field == "height_cm":
-            return {"height_cm": 178}
-        if asked_field == "health_problem":
-            return {"health_conditions": ["hipertensiune"], "symptoms": ["durere de cap"]}
-        return {}
-
-    def generate_follow_up_questions(self, profile):
-        type(self).follow_up_calls += 1
-        type(self).follow_up_profile = profile
-        return ["De când au apărut simptomele?", "Ce medicamente luați în prezent?"]
-
-    def extract_document_facts(self, name, text):
-        return {"summary": "simptome declarate", "symptoms": ["tuse"]}
-
     def generate(self, profile, evidence):
+        type(self).generate_calls += 1
         type(self).report_profile = profile
         first = next(iter(evidence))
-        return {"uz_intern": [{"text": "Informație adjuvantă de verificat în sursă.", "evidence_ids": [first]}],
-                "nutritie": [], "uz_extern": [], "alte_recomandari": [], "atentionari": []}
+        return {
+            "uz_intern": [{"text": "Informație adjuvantă din sursă.", "evidence_ids": [first]}],
+            "nutritie": [],
+            "uz_extern": [],
+            "alte_recomandari": [],
+            "atentionari": [],
+        }
 
-    def verify(self, sections, evidence):
-        return sections
+
+class FakeRetriever:
+    def collect(self, session):
+        return {
+            "C1": {
+                "source": "documents/plan.md:1-5",
+                "text": "Informație locală relevantă.",
+            }
+        }
 
 
 class FakeResponse:
-    def __init__(self, zdr: bool, content: str = "{}"):
-        self.headers = {"x-zero-data-retention": "true"} if zdr else {}
+    def __init__(self, content: str):
         self._content = content
 
     def raise_for_status(self):
         return None
 
     def json(self):
-        return {"choices": [{"message": {"content": self._content}}]}
+        return {
+            "status": "completed",
+            "output": [{
+                "type": "message",
+                "content": [{"type": "output_text", "text": self._content}],
+            }],
+        }
 
 
 class WebTests(unittest.TestCase):
-    def test_profile_missing_then_unknown(self):
+    def test_fastembed_metadata_paths_are_portable_between_windows_and_linux(self):
+        with tempfile.TemporaryDirectory() as temp:
+            model_dir = Path(temp) / "models--test--model"
+            model_dir.mkdir()
+            metadata_file = model_dir / "files_metadata.json"
+            metadata_file.write_text(
+                '{"snapshots\\\\revision\\\\onnx\\\\model.onnx": {"size": 42}}',
+                encoding="utf-8",
+            )
+
+            _normalize_fastembed_metadata(Path(temp))
+
+            self.assertEqual(
+                metadata_file.read_text(encoding="utf-8"),
+                '{"snapshots/revision/onnx/model.onnx": {"size": 42}}',
+            )
+
+    def test_profile_asks_only_health_problem(self):
         profile = HealthProfile()
-        self.assertIn("numiți", profile.next_question())
-        profile.set_full_name("Popescu Ion")
-        self.assertIn("vârstă", profile.next_question())
-        profile.merge(FakeAI().extract_profile("57", "age"), scalar_field="age")
-        self.assertEqual(profile.age, 57)
-        self.assertIn("greutatea", profile.next_question())
-        self.assertTrue(profile.mark_unknown_answer("nu știu"))
-        self.assertIn("weight_kg", profile.unknown)
-        self.assertIn("înălțimea", profile.next_question())
-        profile.merge({"height_cm": 178}, scalar_field="height_cm")
-        self.assertIn("problemă", profile.next_question())
-        profile.set_health_problem("Durere persistentă de cap")
-        profile.set_follow_up_questions(["De când?"])
-        self.assertEqual(profile.next_question(), "De când?")
-        profile.record_follow_up_answer("De două săptămâni")
+        self.assertEqual(profile.next_question(), HEALTH_PROBLEM_QUESTION)
+        profile.add_transcript("assistant", HEALTH_PROBLEM_QUESTION)
+        profile.add_transcript("user", "Gripă și răceală")
+        profile.set_health_problem("Gripă și răceală")
+
         self.assertTrue(profile.report_ready)
+        self.assertIsNone(profile.next_question())
+        self.assertEqual(profile.as_dict()["health_problem"], "Gripă și răceală")
+        self.assertEqual(set(profile.as_dict()), {"health_problem", "health_context", "transcript"})
 
-        prefilled = HealthProfile(full_name="Popescu Ion")
-        prefilled.merge({"age": 40, "weight_kg": 80, "height_cm": 180})
-        self.assertIn("vârstă", prefilled.next_question())
+    def test_recommendation_label_is_bold_and_underlined(self):
+        formatted = format_recommendation("Tinctură de soc: 2 linguri pe zi")
+        self.assertEqual(formatted, "<b><u>Tinctură de soc</u></b>: 2 linguri pe zi")
+        self.assertEqual(
+            format_recommendation("Suc din morcovi, ananas, ghimbir și usturoi pentru răceală."),
+            "<b><u>Suc din morcovi, ananas, ghimbir și usturoi</u></b> pentru răceală.",
+        )
+        self.assertEqual(
+            format_recommendation("Lichen piatră cu rădăcină de brusture și echinaceea pulbere în părți egale"),
+            "<b><u>Lichen piatră cu rădăcină de brusture și echinaceea</u></b> pulbere în părți egale",
+        )
 
-    def test_failed_follow_up_generation_allows_report(self):
-        profile = HealthProfile(full_name="Popescu Ion", health_problem="durere de cap")
-        profile.completed_fields.update({"age", "weight_kg", "height_cm"})
-        profile.fail_follow_up()
-        self.assertEqual(profile.follow_up_status, "failed")
-        self.assertTrue(profile.report_ready)
+    def test_report_title_restores_common_romanian_diacritics(self):
+        self.assertEqual(
+            report_title({"health_problem": "gripa si raceala"}),
+            "Recomandări naturiste pentru gripă și răceală",
+        )
 
-    def test_follow_up_questions_are_cleaned_deduplicated_and_limited(self):
+    def test_generate_uses_one_ai_request_with_all_evidence(self):
         client = XAIClient(settings)
-        values = ["  Întrebarea unu?  ", "întrebarea unu?", "", 7]
-        values.extend(f"Întrebarea {number}?" for number in range(2, 15))
-        with patch.object(client, "complete_json", return_value={"questions": values}):
-            questions = client.generate_follow_up_questions({"health_problem": "test"})
+        calls = []
+        result = {
+            "uz_intern": [
+                {"text": f"Recomandarea {number}", "evidence_ids": [f"E{number}"]}
+                for number in range(12)
+            ],
+            "nutritie": [],
+            "uz_extern": [],
+            "alte_recomandari": [],
+            "atentionari": [],
+        }
+        evidence = {
+            f"E{number}": {"source": "documents/plan.md", "text": f"Fragmentul {number}"}
+            for number in range(12)
+        }
+
+        def complete_json(system, user, max_tokens):
+            calls.append((system, user, max_tokens))
+            return result
+
+        with patch.object(client, "complete_json", side_effect=complete_json):
+            sections = client.generate({"health_problem": "gripă"}, evidence)
         client.close()
-        self.assertEqual(len(questions), 10)
-        self.assertEqual(questions[0], "Întrebarea unu?")
-        self.assertEqual(len({question.casefold() for question in questions}), 10)
 
-    def test_consultation_queries_include_full_long_transcript(self):
-        profile = HealthProfile(full_name="Popescu Ion", health_problem="durere articulară")
-        profile.health_conditions = ["gută"]
-        profile.add_transcript("assistant", "De când aveți durerea?")
-        profile.add_transcript("user", "De trei zile")
-        marker = "FINAL-CONTEXT"
-        profile.add_health_context(("simptom repetat " * 100) + marker)
-        queries = consultation_queries(profile)
-        self.assertTrue(any("De când aveți durerea?" in query and "De trei zile" in query for query in queries))
-        self.assertTrue(any(marker in query for query in queries))
-        self.assertTrue(all(len(query) <= 900 for query in queries))
+        self.assertEqual(len(calls), 1)
+        self.assertEqual(
+            calls[0][0],
+            GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(encoding="utf-8").strip(),
+        )
+        self.assertTrue(all(f"Fragmentul {number}" in calls[0][1] for number in range(12)))
+        self.assertEqual(calls[0][2], 20000)
+        self.assertEqual(len(sections["uz_intern"]), 12)
 
-    def test_zdr_gate_never_sends_sensitive_data_without_confirmation(self):
+    def test_responses_api_sends_exactly_one_http_request(self):
         with patch.dict(os.environ, {"GROK_API_KEY_MED": "synthetic-test-key"}):
             client = XAIClient(settings)
             calls = []
+
             def post(url, **kwargs):
-                calls.append(kwargs["json"])
-                return FakeResponse(False)
+                calls.append((url, kwargs["json"]))
+                return FakeResponse('{"uz_intern": []}')
+
             client.http.post = post
-            with self.assertRaises(AIUnavailable):
-                client.complete_json("system", "SENSITIVE PATIENT DATA")
-            self.assertEqual(len(calls), 1)
-            self.assertNotIn("SENSITIVE", json.dumps(calls))
+            result = client.complete_json("system prompt", "user prompt", 321)
             client.close()
 
-    def test_document_extraction_and_rejection(self):
-        sid = SessionStore(Path(tempfile.mkdtemp()), 60, 120)
-        session = sid.get("synthetic-cookie", "synthetic-tab", create=True)
-        with tempfile.TemporaryDirectory() as cache:
-            root = Path(cache)
-            docx_path = root / "sample.docx"
-            word = Document()
-            word.add_paragraph("Informații: tuse și somn neliniștit.")
-            word.save(docx_path)
-            item = ingest(docx_path, session, settings, root, lambda texts: np.ones((len(texts), 384), dtype=np.float32))
-            self.assertIn("tuse", item.chunks[0]["text"])
-            self.assertFalse(docx_path.exists())
-            pdf_path = root / "sample.pdf"
-            pdf = canvas.Canvas(str(pdf_path))
-            pdf.drawString(50, 780, "Synthetic medical note with cough and headache.")
-            pdf.save()
-            item_pdf = ingest(pdf_path, session, settings, root, lambda texts: np.ones((len(texts), 384), dtype=np.float32))
-            self.assertTrue(item_pdf.chunks)
-            img_path = root / "sample.png"
-            image = Image.new("RGB", (1600, 360), "white")
-            windows_font = Path(os.environ.get("WINDIR", "C:\\Windows")) / "Fonts" / "arial.ttf"
-            linux_font = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
-            font_path = windows_font if windows_font.is_file() else linux_font
-            font = ImageFont.truetype(str(font_path), 90)
-            ImageDraw.Draw(image).text((40, 80), "DURERE DE CAP", fill="black", font=font)
-            image.save(img_path)
-            if shutil.which("tesseract"):
-                item_image = ingest(
-                    img_path, session, settings, root,
-                    lambda texts: np.ones((len(texts), 384), dtype=np.float32),
-                )
-                self.assertTrue(item_image.chunks)
-            if shutil.which("tesseract") and shutil.which("pdftoppm"):
-                scan_path = root / "scan.pdf"
-                scanned = canvas.Canvas(str(scan_path))
-                scanned.drawImage(ImageReader(image), 30, 650, width=550, height=125)
-                scanned.save()
-                item_scan = ingest(
-                    scan_path, session, settings, root,
-                    lambda texts: np.ones((len(texts), 384), dtype=np.float32),
-                )
-                self.assertTrue(item_scan.chunks)
-            bad = root / "bad.pdf"
-            bad.write_bytes(b"not a pdf")
-            with self.assertRaises(DocumentError):
-                ingest(bad, session, settings, root, lambda texts: None)
-            self.assertFalse(bad.exists())
-        sid.delete("synthetic-cookie", "synthetic-tab")
+        self.assertEqual(result, {"uz_intern": []})
+        self.assertEqual(len(calls), 1)
+        url, request = calls[0]
+        self.assertTrue(url.endswith("/v1/responses"))
+        self.assertEqual(request["input"][0], {"role": "system", "content": "system prompt"})
+        self.assertEqual(request["text"]["format"], {"type": "json_object"})
+        self.assertEqual(request["max_output_tokens"], 321)
+        self.assertNotIn("messages", request)
 
-    def test_chat_retrieval_report_download_and_isolation(self):
+    def test_consultation_queries_keep_entire_long_context(self):
+        profile = HealthProfile(health_problem="durere articulară")
+        profile.add_transcript("assistant", HEALTH_PROBLEM_QUESTION)
+        profile.add_transcript("user", "Durere de trei zile")
+        marker = "FINAL-CONTEXT"
+        profile.add_health_context(("simptom repetat " * 100) + marker)
+        queries = consultation_queries(profile)
+
+        self.assertTrue(any(HEALTH_PROBLEM_QUESTION in query for query in queries))
+        self.assertTrue(any(marker in query for query in queries))
+        self.assertTrue(all(len(query) <= 900 for query in queries))
+
+    def test_flu_query_retrieves_reflection_fragment_from_internal_dictionary(self):
+        profile = HealthProfile()
+        profile.set_health_problem("vreau recomandari naturiste pentru gripa")
+        session = type("SyntheticSession", (), {"profile": profile})()
+        evidence = Retriever(settings.index_dir, settings.documents_dir).collect(session)
+
+        self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
+        self.assertLessEqual(len(evidence), 500)
+        self.assertTrue(any(
+            "Marele dict" in item["source"]
+            and "13522-13575" in item["source"]
+            and "nevoie de\nodihnă sau de o pauză" in item["text"]
+            for item in evidence.values()
+        ))
+        self.assertTrue(any(
+            "Plan tratament naturist" in item["source"]
+            and "Tinctură fructe de soc" in item["text"]
+            for item in evidence.values()
+        ))
+
+    def test_chat_automatically_generates_report_after_single_answer(self):
         sid_a = "A" * 43
         sid_b = "B" * 43
         req_a = FakeRequest(sid_a, "tab-a")
         req_b = FakeRequest(sid_b, "tab-b")
-        FakeAI.follow_up_calls = 0
-        FakeAI.follow_up_profile = None
+        FakeAI.generate_calls = 0
         FakeAI.report_profile = None
-        with patch.object(main, "ai", FakeAI()):
-            history, *_ = main.on_load(req_a)
-            self.assertIn("Bună", history[0]["content"])
-            self.assertIn("numiți", history[-1]["content"])
+
+        with patch.object(main, "ai", FakeAI()), patch.object(main, "retriever", FakeRetriever()):
+            history, link = main.on_load(req_a)
+            self.assertEqual(history[-1]["content"], HEALTH_PROBLEM_QUESTION)
+            self.assertEqual(link, "")
             main.on_load(req_b)
-            main.on_message("Popescu Ion", req_a)
-            main.on_message("57", req_a)
-            main.on_message("93", req_a)
-            main.on_message("178", req_a)
-            _, history_a, profile, _ = main.on_message("Am hipertensiune și durere de cap.", req_a)
-            self.assertIn("57", profile)
-            self.assertIn("De când", history_a[-1]["content"])
-            self.assertEqual(FakeAI.follow_up_profile["full_name"], "Popescu Ion")
-            self.assertEqual(FakeAI.follow_up_profile["age"], 57)
-            self.assertEqual(FakeAI.follow_up_profile["weight_kg"], 93)
-            self.assertEqual(FakeAI.follow_up_profile["height_cm"], 178)
-            self.assertIn("hipertensiune", FakeAI.follow_up_profile["health_problem"])
-            blocked_history, blocked_link = main.on_report(req_a)
-            self.assertEqual(blocked_link, "")
-            self.assertIn("2 întrebări", blocked_history[-1]["content"])
-            main.on_message("De trei zile", req_a)
-            _, history_a, profile, _ = main.on_message("Iau tratamentul prescris", req_a)
-            self.assertIn("2/2", profile)
-            self.assertEqual(FakeAI.follow_up_calls, 1)
-            self.assertEqual(history_a[-1]["role"], "assistant")
-            self.assertEqual(len(main.store.get(sid_b, "tab-b").history), 2)
-            history_a, link = main.on_report(req_a)
-            report_dialogue = " ".join(entry["content"] for entry in FakeAI.report_profile["transcript"])
-            self.assertIn("De când au apărut simptomele?", report_dialogue)
-            self.assertIn("De trei zile", report_dialogue)
+
+            _, history, link = main.on_message("Gripă și răceală", req_a)
+            self.assertIn("a început generarea", history[-1]["content"])
+            self.assertEqual(link, "")
+            self.assertEqual(FakeAI.generate_calls, 0)
+
+            history, link = main.on_auto_report(req_a)
+            self.assertEqual(FakeAI.generate_calls, 1)
+            self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
             self.assertIn("Descarcă PDF", link)
-            self.assertIn("Uz intern", history_a[-1]["content"])
-            self.assertIn("documents/", history_a[-1]["content"])
+            self.assertIn("Uz intern", history[-1]["content"])
+            self.assertIn("[1]", history[-1]["content"])
+            self.assertIn("Bibliografie", history[-1]["content"])
+            self.assertIn("1 - plan.md:1-5", history[-1]["content"])
+            self.assertEqual(len(main.store.get(sid_b, "tab-b").history), 2)
+
             session_a = main.store.get(sid_a, "tab-a")
             self.assertTrue(session_a.report_bytes.startswith(b"%PDF-"))
-            reader = PdfReader(io.BytesIO(session_a.report_bytes))
-            content = "\n".join(page.extract_text() for page in reader.pages)
-            self.assertIn("Recomandări naturiste pentru Popescu Ion", content)
-            self.assertIn("De când au apărut simptomele?", content)
-            self.assertIn("De trei zile", content)
-            self.assertIn("Nutriție", content)
-            self.assertIn("Atenționări", content)
+            content = "\n".join(
+                page.extract_text() for page in PdfReader(io.BytesIO(session_a.report_bytes)).pages
+            )
+            self.assertIn("Recomandări naturiste", content)
+            self.assertIn("Gripă și răceală", content)
+
             with TestClient(main.app, base_url="https://testserver") as http:
                 url = f"/api/reports/tab-a/{session_a.report_id}"
-                ok = http.get(url, cookies={main.COOKIE: sid_a})
-                self.assertEqual(ok.status_code, 200)
-                self.assertEqual(ok.headers["content-type"], "application/pdf")
-                other = http.get(url, cookies={main.COOKIE: sid_b})
-                self.assertEqual(other.status_code, 404)
-                cache = http.get("/gradio_api/file=/tmp/gradio-cache/fake.pdf")
-                self.assertEqual(cache.status_code, 403)
+                self.assertEqual(http.get(url, cookies={main.COOKIE: sid_a}).status_code, 200)
+                self.assertEqual(http.get(url, cookies={main.COOKIE: sid_b}).status_code, 404)
+
             main.on_end(req_a)
             self.assertIsNone(main.store.get(sid_a, "tab-a"))
             self.assertIsNotNone(main.store.get(sid_b, "tab-b"))
-        main.store.delete(sid_b, "tab-b")
+            main.store.delete(sid_b, "tab-b")
+
+    def test_public_report_link_uses_gradio_root_path(self):
+        sid = "C" * 43
+        request = FakeRequest(sid, "tab-public")
+        session = main.store.get(sid, "tab-public", create=True)
+        session.report_id = "report-1"
+        with patch.dict(os.environ, {"GRADIO_ROOT_PATH": "/medicina"}):
+            link = main._download_html(session)
+        self.assertIn('/medicina/api/reports/tab-public/report-1', link)
+        main.store.delete(sid, "tab-public")
 
     def test_pdf_diacritics_and_pagination(self):
-        evidence = {"C1": {"source": "documents/test.md:1-3", "text": "Text suport"}}
-        sections = {"uz_intern": [{"text": "Recomandare cu ă â î ș ț " + "îngrijire " * 300,
-                                  "evidence_ids": ["C1"]} for _ in range(5)]}
-        profile = {"full_name": "Popescu Ion", "health_conditions": ["tuse"], "symptoms": ["oboseală"],
-                   "age": None, "sex": None, "weight_kg": None, "height_cm": None,
-                   "health_problem": "tuse și oboseală", "transcript": []}
+        evidence = {
+            "C1": {"source": "documents/test.md:1-3", "text": "Text suport"},
+            "C2": {"source": "documents/alt-test.md:4-8", "text": "Alt text suport"},
+        }
+        sections = {
+            "uz_intern": [{
+                "text": "Recomandare cu ă â î ș ț " + "îngrijire " * 300,
+                "evidence_ids": ["C1", "C2"] if number == 0 else ["C1"],
+            } for number in range(5)]
+        }
+        profile = {"health_problem": "tuse și oboseală", "transcript": []}
         pdf = create_pdf(profile, sections, evidence)
         pages = PdfReader(io.BytesIO(pdf)).pages
         self.assertGreater(len(pages), 1)
         text = "\n".join(page.extract_text() for page in pages)
         self.assertIn("ă â î ș ț", text)
-        self.assertIn("documents/test.md:1-3", text)
+        self.assertIn("[1]", text)
+        self.assertIn("[2]", text)
+        self.assertIn("6. Bibliografie", text)
+        self.assertIn("1 - test.md:1-3", text)
+        self.assertIn("2 - alt-test.md:4-8", text)
+        self.assertNotIn("documents/test.md:1-3", text)
+        links = [
+            annotation.get_object()
+            for page in pages
+            for annotation in page.get("/Annots", [])
+            if annotation.get_object().get("/Subtype") == "/Link"
+        ]
+        self.assertGreaterEqual(len(links), 2)
+        self.assertTrue(all("/Dest" in link for link in links))
+
+    def test_session_store_has_no_attachment_state(self):
+        store = SessionStore(Path(tempfile.mkdtemp()), 60, 120)
+        session = store.get("synthetic-cookie", "synthetic-tab", create=True)
+        self.assertFalse(hasattr(session, "documents"))
+        store.delete("synthetic-cookie", "synthetic-tab")
 
 
 if __name__ == "__main__":

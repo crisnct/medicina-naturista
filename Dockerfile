@@ -4,11 +4,11 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONIOENCODING=utf-8 \
     HF_HUB_OFFLINE=1 \
+    ORT_DISABLE_TELEMETRY=1 \
     GRADIO_ANALYTICS_ENABLED=False
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    antiword tesseract-ocr tesseract-ocr-ron tesseract-ocr-eng \
-    poppler-utils fonts-liberation2 fonts-dejavu-core \
+    fonts-liberation2 fonts-dejavu-core \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
