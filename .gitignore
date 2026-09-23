@@ -152,6 +152,7 @@ activemq-data/
 .envrc
 .venv
 /model_cache/
+/embedings/
 /chunks.jsonl
 /embeddings.npy
 /index.sqlite3

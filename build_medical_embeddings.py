@@ -293,6 +293,8 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         raise ValueError("Output directory must not be inside the source directory")
 
     output.mkdir(parents=True, exist_ok=True)
+    index_dir = output / "embedings"
+    index_dir.mkdir(parents=True, exist_ok=True)
     cache_dir = output / "model_cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
     started_at = utc_now()
@@ -391,7 +393,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         "source_file_count": str(len(source_files)),
     }
 
-    staging = Path(tempfile.mkdtemp(prefix="index-build-", dir=output))
+    staging = Path(tempfile.mkdtemp(prefix="index-build-", dir=index_dir))
     try:
         np.save(staging / "embeddings.npy", embeddings, allow_pickle=False)
         write_jsonl(staging / "chunks.jsonl", chunks)
@@ -406,7 +408,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
             "created_utc": started_at,
             "completed_utc": utc_now(),
             "source_root": str(source),
-            "output_root": str(output),
+            "output_root": str(index_dir),
             "source_file_count": len(source_files),
             "source_total_bytes": sum(item.size_bytes for item in source_files),
             "source_digest_sha256": source_digest,
@@ -441,7 +443,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         (staging / "SHA256SUMS.txt").write_text("\n".join(checksum_lines) + "\n", encoding="ascii")
 
         for name in core_names + ["SHA256SUMS.txt"]:
-            os.replace(staging / name, output / name)
+            os.replace(staging / name, index_dir / name)
     finally:
         try:
             staging.rmdir()
@@ -454,7 +456,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         "chunks": len(chunks),
         "embedding_shape": list(embeddings.shape),
         "warnings": len(warnings),
-        "output": str(output),
+        "output": str(index_dir),
     }, ensure_ascii=False), flush=True)
 
 

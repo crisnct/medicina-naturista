@@ -1,15 +1,15 @@
 # Index local pentru arhiva medicală
 
-Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `documents`. Indexul și modelul descărcat sunt generate local și nu sunt păstrate în Git.
+Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `documents`. Cele șase artefacte ale indexului sunt păstrate în `embedings`, iar modelul descărcat în `model_cache`. Ambele foldere sunt generate local și nu sunt păstrate în Git.
 
 ## Conținut
 
-- `manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
-- `source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
-- `chunks.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
-- `embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
-- `index.sqlite3` — metadate, fragmente și index lexical FTS5.
-- `SHA256SUMS.txt` — sume de control pentru artefactele principale.
+- `embedings/manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
+- `embedings/source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
+- `embedings/chunks.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
+- `embedings/embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
+- `embedings/index.sqlite3` — metadate, fragmente și index lexical FTS5.
+- `embedings/SHA256SUMS.txt` — sume de control pentru artefactele principale.
 - `search_medical_embeddings.py` — căutare hibridă semantică + lexicală.
 - `search.ps1` — lansator PowerShell offline.
 - `rebuild.ps1` — reconstruiește indexul după modificarea surselor.
