@@ -36,7 +36,7 @@ logger = logging.getLogger("naturist")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 COOKIE = "naturist_sid"
 COOKIE_RE = re.compile(r"^[A-Za-z0-9_-]{32,64}$")
-WELCOME = "Bună ziua! Descrieți liber ce probleme sau simptome doriți să luăm în considerare. Puteți încărca și documente."
+WELCOME = "Bună ziua! Vă voi adresa pe rând câteva întrebări pentru pregătirea raportului."
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
 ai = XAIClient(settings)
@@ -77,12 +77,15 @@ def _current(request: gr.Request, create: bool = False) -> SessionData:
 def _profile_text(session: SessionData) -> str:
     profile = session.profile
     known = [
+        f"Nume: {profile.full_name or '—'}",
         f"Vârstă: {profile.age if profile.age is not None else '—'}",
         f"Sex: {profile.sex or '—'}",
         f"Greutate: {profile.weight_kg if profile.weight_kg is not None else '—'} kg",
         f"Înălțime: {profile.height_cm if profile.height_cm is not None else '—'} cm",
         f"Probleme: {', '.join(profile.health_conditions) or '—'}",
         f"Simptome: {', '.join(profile.symptoms) or '—'}",
+        f"Descriere: {profile.health_problem or '—'}",
+        f"Clarificări: {len(profile.follow_up_answers)}/{len(profile.follow_up_questions)}",
     ]
     return " | ".join(known)
 
@@ -102,6 +105,11 @@ def _append(session: SessionData, role: str, content: str) -> None:
     session.history.append({"role": role, "content": content})
     if len(session.history) > 60:
         session.history = session.history[-60:]
+
+
+def _ask(session: SessionData, question: str) -> None:
+    _append(session, "assistant", question)
+    session.profile.add_transcript("assistant", question)
 
 
 def _recommendation_text(sections: dict, evidence: dict) -> str:
@@ -216,6 +224,9 @@ def on_load(request: gr.Request):
     with session.lock:
         if not session.history:
             _append(session, "assistant", WELCOME)
+            question = session.profile.next_question()
+            if question:
+                _ask(session, question)
         return list(session.history), _profile_text(session), _files_text(session), _download_html(session)
 
 
@@ -228,17 +239,48 @@ def on_message(message: str, request: gr.Request):
         raise gr.Error(f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
     with session.lock:
         _append(session, "user", message)
+        session.profile.add_transcript("user", message)
         session.clear_report()
+        expected = session.profile.asked_field
         try:
-            unknown_answer = session.profile.mark_unknown_answer(message)
-            if not unknown_answer:
-                update = ai.extract_profile(message, session.profile.asked_field)
+            if expected == "full_name":
+                session.profile.set_full_name(message)
+            elif expected in {"age", "weight_kg", "height_cm"}:
+                unknown_answer = session.profile.mark_unknown_answer(message)
+                if not unknown_answer:
+                    update = ai.extract_profile(message, expected)
+                    session.profile.merge(update, scalar_field=expected)
+            elif expected == "health_problem":
+                session.profile.set_health_problem(message)
+                try:
+                    update = ai.extract_profile(message, expected)
+                    session.profile.merge(update)
+                    questions = ai.generate_follow_up_questions(session.profile.as_dict())
+                except AIUnavailable as exc:
+                    session.profile.fail_follow_up()
+                    _append(session, "assistant", f"{exc} Raportul poate fi generat din datele deja colectate.")
+                    return "", list(session.history), _profile_text(session), _download_html(session)
+                session.profile.set_follow_up_questions(questions)
+                if not questions:
+                    _append(
+                        session, "assistant",
+                        "Nu au fost generate întrebări suplimentare. Raportul poate fi generat din datele colectate.",
+                    )
+                    return "", list(session.history), _profile_text(session), _download_html(session)
+            elif expected == "follow_up":
+                session.profile.record_follow_up_answer(message)
+            else:
+                session.profile.add_health_context(message)
+                update = ai.extract_profile(message, None)
                 session.profile.merge(update)
             question = session.profile.next_question()
             if question:
-                _append(session, "assistant", question)
+                _ask(session, question)
             else:
-                _append(session, "assistant", "Am notat informațiile oferite. Puteți adăuga detalii sau genera raportul PDF.")
+                _append(
+                    session, "assistant",
+                    "Am parcurs toate întrebările. Puteți adăuga detalii sau genera raportul PDF.",
+                )
         except AIUnavailable as exc:
             _append(session, "assistant", str(exc))
         except Exception as exc:
@@ -279,8 +321,16 @@ def on_upload(paths: list[str] | str | None, request: gr.Request):
 def on_report(request: gr.Request):
     session = _current(request)
     with session.lock:
-        if not (session.profile.health_conditions or session.profile.symptoms):
+        if not session.profile.health_problem:
             _append(session, "assistant", "Am nevoie de cel puțin o problemă sau un simptom descris înainte de raport.")
+            return list(session.history), _download_html(session)
+        if not session.profile.report_ready:
+            remaining = session.profile.remaining_follow_up_count
+            message = (
+                f"Mai sunt {remaining} întrebări de parcurs înainte de generarea raportului."
+                if remaining else "Completați chestionarul înainte de generarea raportului."
+            )
+            _append(session, "assistant", message)
             return list(session.history), _download_html(session)
         try:
             evidence = retriever.collect(session)
@@ -313,6 +363,15 @@ def on_unload(request: gr.Request) -> None:
         store.delete(cookie, tab)
     except Exception:
         pass
+
+
+theme = gr.themes.Soft(
+    font=[
+        gr.themes.GoogleFont("Inter"),
+        "Arial",
+        "sans-serif",
+    ]
+)
 
 
 with gr.Blocks(
@@ -350,6 +409,6 @@ app = gr.mount_gradio_app(
     max_file_size=settings.max_upload_bytes,
     show_error=False,
     footer_links=[],
-    theme=gr.themes.Soft(font=("Arial", "Helvetica", "sans-serif")),
+    theme=theme,
     css=".pdf-download { display:inline-block; background:#176c73; color:white !important; padding:12px 18px; border-radius:8px; font-weight:700; text-decoration:none; }",
 )

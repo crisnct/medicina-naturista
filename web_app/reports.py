@@ -80,8 +80,8 @@ def create_pdf(
     body = styles["NaturalBody"]
     source_style = styles["NaturalSource"]
     problems = profile.get("health_conditions") or []
-    label = ", ".join(str(value) for value in problems[:2]) if problems else "problemele descrise"
-    title = f"Recomandări naturiste pentru {label}"
+    full_name = str(profile.get("full_name") or "utilizator")
+    title = f"Recomandări naturiste pentru {full_name}"
     story: list[Any] = [Paragraph(escape(title), styles["NaturalTitle"])]
     story.append(Paragraph(
         "Material informativ adjuvant. Nu stabilește diagnostice și nu înlocuiește consultul sau "
@@ -89,11 +89,13 @@ def create_pdf(
     ))
     story.append(Paragraph("Rezumat utilizator", styles["NaturalSubtitle"]))
     rows = [
+        ("Nume și prenume", full_name),
         ("Vârstă", f"{profile['age']} ani" if profile.get("age") is not None else "Necunoscut / nefurnizat"),
         ("Sex", str(profile.get("sex") or "Necunoscut / nefurnizat")),
         ("Greutate", f"{profile['weight_kg']} kg" if profile.get("weight_kg") is not None else "Necunoscut / nefurnizat"),
         ("Înălțime", f"{profile['height_cm']} cm" if profile.get("height_cm") is not None else "Necunoscut / nefurnizat"),
         ("Simptome", ", ".join(profile.get("symptoms") or []) or "Necunoscut / nefurnizat"),
+        ("Descrierea problemei", str(profile.get("health_problem") or "Necunoscut / nefurnizat")),
     ]
     for key, value in rows:
         story.append(Paragraph(f"<b>{escape(key)}:</b> {escape(str(value))}", body))
@@ -103,6 +105,17 @@ def create_pdf(
             story.append(Paragraph("• " + escape(str(value)), body))
     else:
         story.append(Paragraph("Nu au fost declarate probleme de sănătate distincte.", body))
+
+    transcript = profile.get("transcript") or []
+    if transcript:
+        story.append(Paragraph("Discuția medicală", styles["NaturalSubtitle"]))
+        for entry in transcript:
+            if not isinstance(entry, dict):
+                continue
+            role = "Chatbot" if entry.get("role") == "assistant" else "Utilizator"
+            content = str(entry.get("content") or "").strip()
+            if content:
+                story.append(Paragraph(f"<b>{escape(role)}:</b> {escape(content)}", body))
 
     headings = (
         ("uz_intern", "1. Uz intern"),

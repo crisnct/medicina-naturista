@@ -19,6 +19,59 @@ def _plain(value: str) -> str:
     return "".join(char for char in value if not unicodedata.combining(char))
 
 
+def _split_query(value: str, limit: int = 900) -> list[str]:
+    """Split long consultation text without dropping its tail."""
+    remaining = " ".join(value.split())
+    parts: list[str] = []
+    while remaining:
+        if len(remaining) <= limit:
+            parts.append(remaining)
+            break
+        boundary = remaining.rfind(" ", 0, limit + 1)
+        if boundary < limit // 2:
+            boundary = limit
+        parts.append(remaining[:boundary].strip())
+        remaining = remaining[boundary:].strip()
+    return [part for part in parts if part]
+
+
+def consultation_queries(profile: Any, document_summaries: list[str] | None = None) -> list[str]:
+    """Build bounded queries from every meaningful consultation exchange."""
+    values: list[str] = []
+    structured = " ".join(profile.health_conditions + profile.symptoms).strip()
+    if structured:
+        values.append(structured)
+    if profile.health_problem:
+        values.append(profile.health_problem)
+
+    pending_question = ""
+    for entry in profile.transcript:
+        role = entry.get("role")
+        content = str(entry.get("content") or "").strip()
+        if not content:
+            continue
+        if role == "assistant":
+            pending_question = content
+        elif role == "user":
+            values.append(
+                f"Întrebare: {pending_question} Răspuns: {content}"
+                if pending_question else f"Informație utilizator: {content}"
+            )
+            pending_question = ""
+
+    values.extend(profile.health_context)
+    values.extend(summary[:400] for summary in (document_summaries or []) if summary)
+    queries: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        for part in _split_query(value):
+            key = part.casefold()
+            if key not in seen:
+                seen.add(key)
+                queries.append(part)
+    return queries
+
+
 class Retriever:
     def __init__(self, index_dir: Path, documents_dir: Path) -> None:
         self.index_dir = index_dir.resolve()
@@ -64,39 +117,54 @@ class Retriever:
 
     def collect(self, session: SessionData) -> dict[str, dict[str, str]]:
         profile = session.profile
-        terms = profile.health_conditions + profile.symptoms
-        for document in session.documents:
-            if document.summary:
-                terms.append(document.summary[:200])
-        query = " ".join(terms).strip()
-        if not query:
+        queries = consultation_queries(profile, [document.summary for document in session.documents])
+        if not queries:
             return {}
-        query = query[:1000]
-        word_set = {word for word in re.findall(r"\w+", _plain(query)) if len(word) >= 4}
-        evidence: dict[str, dict[str, str]] = {}
-        searches = [query, f"{query} contraindicații interacțiuni atenționări"]
-        for search_query in searches:
+        search_queries = queries + [f"{query} contraindicații interacțiuni atenționări" for query in queries]
+        batches: list[list[dict[str, Any]]] = []
+        for search_query in search_queries:
+            word_set = {word for word in re.findall(r"\w+", _plain(search_query)) if len(word) >= 4}
+            accepted: list[dict[str, Any]] = []
             for result in rank(self.index_dir, search_query, limit=18, candidates=120):
-                token = f"C{result['chunk_id']}"
                 source_text = " ".join([
                     str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
                 ])
                 matching = any(word in _plain(source_text) for word in word_set)
                 safety = "ATENTIONARI-SI-CONTRAINDICATII" in str(result["source_relative_path"])
-                if not (result.get("lexical_rank") is not None and matching) and not safety:
-                    continue
-                evidence[token] = {
-                    "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
-                    "text": self._context(result)[:1800],
-                }
+                if (result.get("lexical_rank") is not None and matching) or safety:
+                    accepted.append(result)
+            if accepted:
+                batches.append(accepted)
+
+        evidence: dict[str, dict[str, str]] = {}
+        positions = [0] * len(batches)
+        while len(evidence) < 24:
+            progressed = False
+            for batch_number, results in enumerate(batches):
+                while positions[batch_number] < len(results):
+                    result = results[positions[batch_number]]
+                    positions[batch_number] += 1
+                    token = f"C{result['chunk_id']}"
+                    if token in evidence:
+                        continue
+                    evidence[token] = {
+                        "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
+                        "text": self._context(result)[:1800],
+                    }
+                    progressed = True
+                    break
                 if len(evidence) >= 24:
                     break
-        query_vector = self._embed([query], query=True)[0]
+            if not progressed:
+                break
+
+        query_vectors = self._embed(queries, query=True)
         user_candidates: list[tuple[float, str, dict[str, str]]] = []
         for doc_number, document in enumerate(session.documents, start=1):
-            if not len(document.vectors):
+            if not len(document.vectors) or not len(query_vectors):
                 continue
-            scores = np.asarray(document.vectors @ query_vector)
+            all_scores = np.asarray(document.vectors @ query_vectors.T)
+            scores = np.max(all_scores, axis=1)
             for row in np.argsort(scores)[-min(5, len(scores)):][::-1]:
                 chunk = document.chunks[int(row)]
                 token = f"U{doc_number}-{int(row) + 1}"
