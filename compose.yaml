@@ -1,0 +1,69 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    init: true
+    read_only: true
+    user: "10001:10001"
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 256
+    mem_limit: 2g
+    environment:
+      GROK_API_KEY_MED: ${GROK_API_KEY_MED:?GROK_API_KEY_MED must be set in .env}
+      XAI_MODEL: ${XAI_MODEL:-grok-4.3}
+      XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
+      XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
+      DOCUMENTS_DIR: /app/documents
+      INDEX_DIR: /app/embedings
+      SESSION_TEMP_DIR: /tmp/naturist-sessions
+      GRADIO_TEMP_DIR: /tmp/gradio-cache
+      SESSION_IDLE_SECONDS: ${SESSION_IDLE_SECONDS:-3600}
+      SESSION_MAX_SECONDS: ${SESSION_MAX_SECONDS:-14400}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-10}
+      MAX_SESSION_UPLOAD_MB: ${MAX_SESSION_UPLOAD_MB:-50}
+      MAX_PDF_PAGES: ${MAX_PDF_PAGES:-60}
+      MAX_CHAT_CHARS: ${MAX_CHAT_CHARS:-4000}
+      MAX_DOCUMENT_CHARS: ${MAX_DOCUMENT_CHARS:-500000}
+      MAX_SESSION_CHUNKS: ${MAX_SESSION_CHUNKS:-900}
+      MAX_REQUESTS_PER_MINUTE: ${MAX_REQUESTS_PER_MINUTE:-60}
+      COOKIE_SECURE: ${COOKIE_SECURE:-true}
+      TRUST_PROXY: "true"
+    volumes:
+      - type: bind
+        source: ./documents
+        target: /app/documents
+        read_only: true
+      - type: bind
+        source: ./embedings
+        target: /app/embedings
+        read_only: true
+      - type: bind
+        source: ./model_cache
+        target: /app/model_cache
+    tmpfs:
+      - /tmp:size=536870912,mode=1777
+    ports:
+      - "127.0.0.1:7860:7860"
+    networks: [internal]
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks: [internal]
+networks:
+  internal:
+volumes:
+  caddy_data:
+  caddy_config:

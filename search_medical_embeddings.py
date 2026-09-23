@@ -10,11 +10,13 @@ import os
 import re
 import sqlite3
 import sys
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
 
 
+@lru_cache(maxsize=4)
 def create_model(model_name: str, dimension: int, cache_dir: Path):
     os.environ.setdefault("HF_HUB_OFFLINE", "1")
     from fastembed import TextEmbedding
@@ -91,6 +93,7 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
                 "chunk_id": chunk_id,
                 "hybrid_score": scores[chunk_id],
                 "semantic_similarity": float(semantic_scores[int(row["embedding_row"])]),
+                "lexical_rank": lexical_rank.get(chunk_id),
                 "source_relative_path": row["source_relative_path"],
                 "source_absolute_path": row["source_absolute_path"],
                 "line_start": row["line_start"],

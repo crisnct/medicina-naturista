@@ -1,0 +1,8 @@
+{$APP_DOMAIN} {
+    encode zstd gzip
+    reverse_proxy app:7860
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+    }
+}
