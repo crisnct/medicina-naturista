@@ -16,9 +16,26 @@ from pathlib import Path
 import numpy as np
 
 
+def _normalize_fastembed_metadata(cache_dir: Path) -> None:
+    """Make FastEmbed metadata created on Windows portable to Linux containers."""
+    for metadata_file in cache_dir.glob("models--*/files_metadata.json"):
+        try:
+            metadata = json.loads(metadata_file.read_text(encoding="utf-8"))
+            normalized = {str(path).replace("\\", "/"): value for path, value in metadata.items()}
+            if normalized != metadata:
+                metadata_file.write_text(
+                    json.dumps(normalized, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+        except (OSError, ValueError, TypeError):
+            continue
+
+
 @lru_cache(maxsize=4)
 def create_model(model_name: str, dimension: int, cache_dir: Path):
     os.environ.setdefault("HF_HUB_OFFLINE", "1")
+    os.environ.setdefault("ORT_DISABLE_TELEMETRY", "1")
+    _normalize_fastembed_metadata(cache_dir)
     from fastembed import TextEmbedding
 
     supported = {item["model"] for item in TextEmbedding.list_supported_models()}

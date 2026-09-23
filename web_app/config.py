@@ -28,13 +28,8 @@ class Settings:
     xai_api_base: str = os.getenv("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/")
     session_idle_seconds: int = _int("SESSION_IDLE_SECONDS", 3600)
     session_max_seconds: int = _int("SESSION_MAX_SECONDS", 14400)
-    max_upload_bytes: int = _int("MAX_UPLOAD_MB", 10) * 1024 * 1024
-    max_session_upload_bytes: int = _int("MAX_SESSION_UPLOAD_MB", 50) * 1024 * 1024
-    max_pdf_pages: int = _int("MAX_PDF_PAGES", 60)
     max_chat_chars: int = _int("MAX_CHAT_CHARS", 4000)
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
-    max_document_chars: int = _int("MAX_DOCUMENT_CHARS", 500_000)
-    max_session_chunks: int = _int("MAX_SESSION_CHUNKS", 900)
 
     def api_key(self) -> str:
         return os.getenv("GROK_API_KEY_MED", "").strip()

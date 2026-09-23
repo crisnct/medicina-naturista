@@ -14,12 +14,15 @@ from pathlib import Path
 from urllib.parse import quote, urlparse
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import Response
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import Response
 
 from web_app.config import settings
 
-CACHE_ROOT = Path(os.getenv("GRADIO_TEMP_DIR", "/tmp/gradio-cache" if os.name != "nt" else str(settings.temp_dir.parent / ".gradio_tmp"))).resolve()
+CACHE_ROOT = Path(os.getenv(
+    "GRADIO_TEMP_DIR",
+    "/tmp/gradio-cache" if os.name != "nt" else str(settings.temp_dir.parent / ".gradio_tmp"),
+)).resolve()
 CACHE_ROOT.mkdir(parents=True, exist_ok=True)
 os.environ["GRADIO_TEMP_DIR"] = str(CACHE_ROOT)
 os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
@@ -27,8 +30,7 @@ os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
 import gradio as gr  # noqa: E402
 
 from web_app.ai import AIUnavailable, XAIClient
-from web_app.documents import DocumentError, ingest
-from web_app.reports import create_pdf
+from web_app.reports import bibliography_label, build_reference_index, create_pdf, report_title
 from web_app.retrieval import Retriever
 from web_app.sessions import SessionData, SessionStore
 
@@ -36,7 +38,8 @@ logger = logging.getLogger("naturist")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 COOKIE = "naturist_sid"
 COOKIE_RE = re.compile(r"^[A-Za-z0-9_-]{32,64}$")
-WELCOME = "Bună ziua! Vă voi adresa pe rând câteva întrebări pentru pregătirea raportului."
+WELCOME = "Bună ziua!"
+REPORT_STARTED = "Acum a început generarea recomandărilor naturiste. Vă rog să așteptați."
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
 ai = XAIClient(settings)
@@ -74,31 +77,23 @@ def _current(request: gr.Request, create: bool = False) -> SessionData:
     return session
 
 
-def _profile_text(session: SessionData) -> str:
-    profile = session.profile
-    known = [
-        f"Nume: {profile.full_name or '—'}",
-        f"Vârstă: {profile.age if profile.age is not None else '—'}",
-        f"Sex: {profile.sex or '—'}",
-        f"Greutate: {profile.weight_kg if profile.weight_kg is not None else '—'} kg",
-        f"Înălțime: {profile.height_cm if profile.height_cm is not None else '—'} cm",
-        f"Probleme: {', '.join(profile.health_conditions) or '—'}",
-        f"Simptome: {', '.join(profile.symptoms) or '—'}",
-        f"Descriere: {profile.health_problem or '—'}",
-        f"Clarificări: {len(profile.follow_up_answers)}/{len(profile.follow_up_questions)}",
-    ]
-    return " | ".join(known)
-
-
-def _files_text(session: SessionData) -> str:
-    return "Fișiere în sesiune: " + (", ".join(item.name for item in session.documents) or "niciunul")
+def _report_filename(session: SessionData) -> str:
+    title = report_title(session.profile.as_dict())
+    safe = re.sub(r'[\x00-\x1f<>:"/\\|?*]', "-", title)
+    safe = re.sub(r"\s+", " ", safe).strip(" .")
+    return f"{safe or 'Recomandări naturiste'}.pdf"
 
 
 def _download_html(session: SessionData) -> str:
     if not session.report_id:
         return ""
-    url = f"/api/reports/{quote(session.tab_id, safe='')}/{quote(session.report_id, safe='')}"
-    return f'<a href="{html.escape(url, quote=True)}" download="recomandari-naturiste.pdf" class="pdf-download">Descarcă PDF</a>'
+    prefix = os.getenv("GRADIO_ROOT_PATH", "").rstrip("/")
+    url = f"{prefix}/api/reports/{quote(session.tab_id, safe='')}/{quote(session.report_id, safe='')}"
+    filename = _report_filename(session)
+    return (
+        f'<a href="{html.escape(url, quote=True)}" download="{html.escape(filename, quote=True)}" '
+        'class="pdf-download">Descarcă PDF</a>'
+    )
 
 
 def _append(session: SessionData, role: str, content: str) -> None:
@@ -120,6 +115,7 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
         ("alte_recomandari", "Alte Recomandări"),
         ("atentionari", "Atenționări"),
     )
+    reference_numbers, references = build_reference_index(sections, evidence)
     lines = ["Raportul este gata. Recomandările susținute de surse:"]
     found = False
     for key, label in labels:
@@ -130,9 +126,17 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
         lines.append(f"\n{label}:")
         for item in items:
             citations = [evidence[token]["source"] for token in item.get("evidence_ids", []) if token in evidence]
-            lines.append(f"• {item['text']} ({'; '.join(citations)})")
+            unique_numbers = list(dict.fromkeys(reference_numbers[source] for source in citations))
+            markers = "".join(f"[{number}]" for number in unique_numbers)
+            lines.append(f"• {item['text']} {markers}".rstrip())
     if not found:
         lines.append("Nu au fost identificate recomandări specifice suficient susținute de fragmentele disponibile.")
+    if references:
+        lines.append("\nBibliografie:")
+        lines.extend(
+            f"{number} - {bibliography_label(source)}"
+            for number, source in enumerate(references, start=1)
+        )
     lines.append("\nFolosiți butonul Descarcă PDF pentru raportul complet.")
     return "\n".join(lines)[:14000]
 
@@ -209,11 +213,12 @@ def download(tab_id: str, report_id: str, request: Request):
     session = store.get(sid or "", tab_id, create=False)
     if session is None or session.report_id != report_id or session.report_bytes is None:
         raise HTTPException(status_code=404, detail="Raportul nu este disponibil pentru această sesiune.")
+    filename = _report_filename(session)
     return Response(
         session.report_bytes,
         media_type="application/pdf",
         headers={
-            "Content-Disposition": 'attachment; filename="recomandari-naturiste.pdf"',
+            "Content-Disposition": f"attachment; filename*=UTF-8''{quote(filename, safe='')}",
             "Cache-Control": "no-store",
         },
     )
@@ -227,118 +232,41 @@ def on_load(request: gr.Request):
             question = session.profile.next_question()
             if question:
                 _ask(session, question)
-        return list(session.history), _profile_text(session), _files_text(session), _download_html(session)
+        return list(session.history), _download_html(session)
 
 
 def on_message(message: str, request: gr.Request):
     session = _current(request)
     message = (message or "").strip()
     if not message:
-        return "", list(session.history), _profile_text(session), _download_html(session)
+        return "", list(session.history), _download_html(session)
     if len(message) > settings.max_chat_chars:
         raise gr.Error(f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
     with session.lock:
         _append(session, "user", message)
         session.profile.add_transcript("user", message)
         session.clear_report()
-        expected = session.profile.asked_field
-        try:
-            if expected == "full_name":
-                session.profile.set_full_name(message)
-            elif expected in {"age", "weight_kg", "height_cm"}:
-                unknown_answer = session.profile.mark_unknown_answer(message)
-                if not unknown_answer:
-                    update = ai.extract_profile(message, expected)
-                    session.profile.merge(update, scalar_field=expected)
-            elif expected == "health_problem":
-                session.profile.set_health_problem(message)
-                try:
-                    update = ai.extract_profile(message, expected)
-                    session.profile.merge(update)
-                    questions = ai.generate_follow_up_questions(session.profile.as_dict())
-                except AIUnavailable as exc:
-                    session.profile.fail_follow_up()
-                    _append(session, "assistant", f"{exc} Raportul poate fi generat din datele deja colectate.")
-                    return "", list(session.history), _profile_text(session), _download_html(session)
-                session.profile.set_follow_up_questions(questions)
-                if not questions:
-                    _append(
-                        session, "assistant",
-                        "Nu au fost generate întrebări suplimentare. Raportul poate fi generat din datele colectate.",
-                    )
-                    return "", list(session.history), _profile_text(session), _download_html(session)
-            elif expected == "follow_up":
-                session.profile.record_follow_up_answer(message)
-            else:
-                session.profile.add_health_context(message)
-                update = ai.extract_profile(message, None)
-                session.profile.merge(update)
-            question = session.profile.next_question()
-            if question:
-                _ask(session, question)
-            else:
-                _append(
-                    session, "assistant",
-                    "Am parcurs toate întrebările. Puteți adăuga detalii sau genera raportul PDF.",
-                )
-        except AIUnavailable as exc:
-            _append(session, "assistant", str(exc))
-        except Exception as exc:
-            logger.error("chat failed: %s", type(exc).__name__)
-            _append(session, "assistant", "Nu am putut procesa mesajul. Încercați din nou.")
-        return "", list(session.history), _profile_text(session), _download_html(session)
-
-
-def on_upload(paths: list[str] | str | None, request: gr.Request):
-    session = _current(request)
-    values = [paths] if isinstance(paths, str) else (paths or [])
-    outcomes: list[str] = []
-    with session.lock:
-        for value in values:
-            try:
-                document = ingest(Path(value), session, settings, CACHE_ROOT, retriever.embed_passages)
-                session.documents.append(document)
-                session.clear_report()
-                try:
-                    excerpt = "\n".join(item["text"] for item in document.chunks)[:8500]
-                    facts = ai.extract_document_facts(document.name, excerpt)
-                    session.profile.merge(facts)
-                    document.summary = str(facts.get("summary") or "")[:400]
-                except AIUnavailable:
-                    outcomes.append(f"{document.name}: text extras local; sumarul AI nu este momentan disponibil.")
-                else:
-                    outcomes.append(f"{document.name}: procesat.")
-            except DocumentError as exc:
-                outcomes.append(f"{Path(value).name}: {exc}")
-            except Exception as exc:
-                logger.error("upload failed: %s", type(exc).__name__)
-                outcomes.append(f"{Path(value).name}: fișierul nu a putut fi procesat.")
-        if outcomes:
-            _append(session, "assistant", "\n".join(outcomes))
-        return list(session.history), _files_text(session), _profile_text(session)
+        if not session.profile.health_problem:
+            session.profile.set_health_problem(message)
+        else:
+            session.profile.add_health_context(message)
+        session.auto_report_pending = True
+        _append(session, "assistant", REPORT_STARTED)
+        return "", list(session.history), _download_html(session)
 
 
 def on_report(request: gr.Request):
     session = _current(request)
     with session.lock:
-        if not session.profile.health_problem:
-            _append(session, "assistant", "Am nevoie de cel puțin o problemă sau un simptom descris înainte de raport.")
-            return list(session.history), _download_html(session)
         if not session.profile.report_ready:
-            remaining = session.profile.remaining_follow_up_count
-            message = (
-                f"Mai sunt {remaining} întrebări de parcurs înainte de generarea raportului."
-                if remaining else "Completați chestionarul înainte de generarea raportului."
-            )
-            _append(session, "assistant", message)
+            _append(session, "assistant", "Descrieți problema de sănătate înainte de generarea raportului.")
             return list(session.history), _download_html(session)
         try:
             evidence = retriever.collect(session)
             if not evidence:
-                _append(session, "assistant", "Nu am găsit fragmente relevante în sursele permise. Puteți adăuga detalii sau documente.")
+                _append(session, "assistant", "Nu am găsit fragmente relevante în sursele locale.")
                 return list(session.history), _download_html(session)
             sections = ai.generate(session.profile.as_dict(), evidence)
-            sections = ai.verify(sections, evidence)
             report = create_pdf(session.profile.as_dict(), sections, evidence)
             session.report_bytes = report
             session.report_id = secrets.token_urlsafe(18)
@@ -351,10 +279,21 @@ def on_report(request: gr.Request):
         return list(session.history), _download_html(session)
 
 
+def on_auto_report(request: gr.Request):
+    session = _current(request)
+    with session.lock:
+        if not session.auto_report_pending:
+            return list(session.history), _download_html(session)
+        session.auto_report_pending = False
+        return on_report(request)
+
+
 def on_end(request: gr.Request):
     cookie, tab = _identity(request)
     store.delete(cookie, tab)
-    return [{"role": "assistant", "content": "Sesiunea a fost închisă. Reîncărcați pagina pentru o conversație nouă."}], "", "", ""
+    return [
+        {"role": "assistant", "content": "Sesiunea a fost închisă. Reîncărcați pagina pentru o conversație nouă."}
+    ], ""
 
 
 def on_unload(request: gr.Request) -> None:
@@ -366,49 +305,142 @@ def on_unload(request: gr.Request) -> None:
 
 
 theme = gr.themes.Soft(
-    font=[
-        gr.themes.GoogleFont("Inter"),
-        "Arial",
-        "sans-serif",
-    ]
+    font=[gr.themes.GoogleFont("Inter"), "Arial", "sans-serif"]
 )
 
+AUTO_SCROLL_JS = """
+() => {
+    const scrollToLatestMessage = () => {
+        const chat = document.getElementById("medical-chatbot");
+        const messages = chat?.querySelectorAll('[data-testid="bot"], [data-testid="user"], .message');
+        const latest = messages?.length ? messages[messages.length - 1] : chat?.lastElementChild;
+        if (latest) {
+            latest.scrollIntoView({behavior: "smooth", block: "end"});
+        } else {
+            window.scrollTo({top: document.documentElement.scrollHeight, behavior: "smooth"});
+        }
+    };
+    requestAnimationFrame(() => setTimeout(scrollToLatestMessage, 80));
+}
+"""
 
-with gr.Blocks(
-    title="Recomandări naturiste",
-    analytics_enabled=False,
-    delete_cache=(60, 60),
-) as demo:
+APP_CSS = """
+.pdf-download {
+    display: inline-block;
+    background: #176c73;
+    color: white !important;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#medical-chatbot,
+#medical-chatbot > div,
+#medical-chatbot .wrap,
+#medical-chatbot .bubble-wrap {
+    height: auto !important;
+    max-height: none !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+}
+
+#message-row {
+    align-items: end;
+    gap: 10px;
+}
+
+#send-message {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: 88px !important;
+    max-width: 110px !important;
+    align-self: end;
+    margin-bottom: 1px;
+}
+
+#session-actions {
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#end-session {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: 130px !important;
+    max-width: 170px !important;
+}
+
+@media (max-width: 640px) {
+    #message-row { flex-wrap: nowrap; }
+    #send-message { min-width: 76px !important; }
+}
+"""
+
+
+with gr.Blocks(title="Recomandări naturiste", analytics_enabled=False, delete_cache=(60, 60)) as demo:
     gr.Markdown("# Recomandări naturiste")
-    gr.Markdown("Discutați liber și primiți un raport informativ, bazat pe sursele locale. Nu înlocuiește îngrijirea medicală.")
-    chatbot = gr.Chatbot(height=470, render_markdown=False, sanitize_html=True, allow_file_downloads=False)
-    profile_box = gr.Textbox(label="Profil colectat", interactive=False)
-    files_box = gr.Textbox(label="Fișiere încărcate", interactive=False)
-    message = gr.Textbox(label="Mesaj", placeholder="Descrieți ce vă preocupă...", lines=2, max_lines=5)
-    with gr.Row():
-        send = gr.Button("Trimite", variant="primary")
-        upload = gr.UploadButton("Atașează fișiere", file_types=list({".pdf", ".docx", ".doc", ".png", ".jpg", ".jpeg"}), file_count="multiple", type="filepath")
-        generate = gr.Button("Generează raportul")
+    gr.Markdown(
+        "Discutați liber și primiți un raport informativ, bazat pe sursele locale. "
+        "Nu înlocuiește îngrijirea medicală."
+    )
+    chatbot = gr.Chatbot(
+        height=None,
+        max_height=None,
+        autoscroll=True,
+        elem_id="medical-chatbot",
+        render_markdown=False,
+        sanitize_html=True,
+        allow_file_downloads=False,
+    )
+    with gr.Row(elem_id="message-row"):
+        message = gr.Textbox(
+            label="Mesaj",
+            placeholder="Descrieți problema de sănătate...",
+            lines=2,
+            max_lines=5,
+            scale=1,
+        )
+        send = gr.Button("Trimite", variant="primary", size="sm", scale=0, elem_id="send-message")
     download_box = gr.HTML()
-    end = gr.Button("Închide sesiunea")
-    demo.load(on_load, outputs=[chatbot, profile_box, files_box, download_box], queue=False)
-    send.click(on_message, inputs=[message], outputs=[message, chatbot, profile_box, download_box], queue=False)
-    message.submit(on_message, inputs=[message], outputs=[message, chatbot, profile_box, download_box], queue=False)
-    upload.upload(on_upload, inputs=[upload], outputs=[chatbot, files_box, profile_box], queue=False)
-    generate.click(on_report, outputs=[chatbot, download_box], queue=False)
-    end.click(on_end, outputs=[chatbot, profile_box, files_box, download_box], queue=False)
+    with gr.Row(elem_id="session-actions"):
+        end = gr.Button("Închide sesiunea", size="sm", scale=0, elem_id="end-session")
+    load_event = demo.load(on_load, outputs=[chatbot, download_box], queue=False)
+    send_event = send.click(
+        on_message, inputs=[message], outputs=[message, chatbot, download_box], queue=False
+    )
+    submit_event = message.submit(
+        on_message, inputs=[message], outputs=[message, chatbot, download_box], queue=False
+    )
+    end_event = end.click(on_end, outputs=[chatbot, download_box], queue=False)
+    for event in (load_event, end_event):
+        event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
+    for event in (send_event, submit_event):
+        notice_event = event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
+        report_event = notice_event.then(
+            on_auto_report,
+            outputs=[chatbot, download_box],
+            queue=False,
+        )
+        report_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
     demo.unload(on_unload)
 
+_gradio_root_path = os.getenv("GRADIO_ROOT_PATH") or None
 app = gr.mount_gradio_app(
-    app, demo, path="/",
+    app,
+    demo,
+    path="/",
+    root_path=_gradio_root_path,
     blocked_paths=[
-        str(CACHE_ROOT), str(settings.temp_dir.resolve()), str(settings.documents_dir.resolve()),
-        str(settings.index_dir.resolve()), str((settings.index_dir.parent / "model_cache").resolve()),
+        str(CACHE_ROOT),
+        str(settings.temp_dir.resolve()),
+        str(settings.documents_dir.resolve()),
+        str(settings.index_dir.resolve()),
+        str((settings.index_dir.parent / "model_cache").resolve()),
         str((settings.index_dir.parent / ".env").resolve()),
     ],
-    max_file_size=settings.max_upload_bytes,
     show_error=False,
     footer_links=[],
     theme=theme,
-    css=".pdf-download { display:inline-block; background:#176c73; color:white !important; padding:12px 18px; border-radius:8px; font-weight:700; text-decoration:none; }",
+    css=APP_CSS,
 )
