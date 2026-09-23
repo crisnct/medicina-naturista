@@ -47,7 +47,7 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
     if embeddings.ndim != 2 or embeddings.shape[1] != dimension:
         raise RuntimeError(f"Invalid embedding matrix shape: {embeddings.shape}")
 
-    model = create_model(model_name, dimension, index_dir / "model_cache")
+    model = create_model(model_name, dimension, index_dir.parent / "model_cache")
     query_vector = np.asarray(list(model.query_embed([f"query: {query}"]))[0], dtype=np.float32)
     query_vector /= np.linalg.norm(query_vector)
     semantic_scores = np.asarray(embeddings @ query_vector, dtype=np.float32)
@@ -111,7 +111,7 @@ def main() -> None:
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()
     parser.add_argument("query")
-    parser.add_argument("--index", type=Path, default=Path(__file__).resolve().parent)
+    parser.add_argument("--index", type=Path, default=Path(__file__).resolve().parent / "embedings")
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--candidates", type=int, default=100)
     parser.add_argument("--json", action="store_true")

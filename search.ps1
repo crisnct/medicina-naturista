@@ -13,7 +13,7 @@ $env:PYTHONIOENCODING = 'utf-8'
 $arguments = @(
     (Join-Path $root 'search_medical_embeddings.py'),
     $Query,
-    '--index', $root,
+    '--index', (Join-Path $root 'embedings'),
     '--limit', $Limit.ToString()
 )
 if ($Json) { $arguments += '--json' }
