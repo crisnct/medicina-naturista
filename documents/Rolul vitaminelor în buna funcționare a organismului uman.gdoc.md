@@ -1,0 +1,34 @@
+---
+source_path: "C:\\GoogleDrive\\Medicina\\Rolul vitaminelor în buna funcționare a organismului uman.gdoc"
+source_relative_path: "Rolul vitaminelor în buna funcționare a organismului uman.gdoc"
+source_pointer_sha256: "15566509ed78d32cd20f58ae644c8b6632d76cc22a9e5479a8e0e8c085e44e36"
+source_pointer_bytes: 181
+google_doc_id: "1zYfSTv0UT4jyDzbG6oeXGvc3UIY_WEo-K8IHGSuPWgE"
+source_format: gdoc_pointer
+native_export_format: text/markdown
+content_status: exported_from_authenticated_google_drive
+embedded_image_payloads_removed: 0
+---
+
+# Rolul vitaminelor în buna funcționare a organismului uman
+
+## Conținut extras
+
+# **Rolul vitaminelor în buna funcționare a organismului uman**
+
+| Vit | Descriere | Efecte secundare posibile |
+| :---- | :---- | :---- |
+| A | sinonim:  **retinol** solubilitate: grăsimi doza maximă pe zi: 10000 UI antioxidant puternic imbunatateste sanatatea ochiului poate proteja impotriva unor forme de cancer stimuleaza sistemul imunitar sustine sanatatea oaselor | greață vărsături amețeală vedere încețoșată fragilizarea oaselor afectarea ficatului cefalee diaree iritarea pielii dureri la nivelul articulațiilor |
+| B1 | sinonim:  **tiamină** solubilitate: apă doza maximă pe zi: 250mg transformă glucoza în energie este degradată de căldură protejează nervii crește randamentul intelectual previne bolile de inimă, cataracta și Alzeimer încetinește îmbătrânirea și previne apariția petelor pe piele care apar odată cu vârsta stimulează apetitul îmbunătățește memoria stimulează producerea de globule roșii **țânțarii nu te mai înțeapă dacă vei avea un nivel suficient de mare de vit B1 în organism.** | \- |
+| B2 | sinonim: **riboflavină** solubilitate: apă doza maximă pe zi: 400mg ajută la descompunerea proteinelor în aminoacizi crește nivelul de energie protejează nervii previne bolile de inimă, de sânge, anemia, durerile de cap, îmbătrânirea pielii, scăderea nivelului de colagen, Parkinson. ajută la sănătatea ochilor, părului și a pielii scade nivelul de homocisteină **elimină durerile de cap** | greață |
+| B3 | sinonim: **niacină** solubilitate: apă doza maximă pe zi: 500mg ajută la producerea de energie prin descompunerea proteinelor, carbohidraților și grăsimilor reduce colesterolul LDL cu 20% și crește HDL reduce trigliceridele cu 20-50% previne bolile cardiace crește randamentul intelectual combate așa numita “ceață cerebrală” previne degradarea neuronilor crește grăsimea abdominală | înroșirea pielii probleme la ficat, rinichi și vezica biliară scăderea tensiunii arteriale diaree schimbări în ritmul cardiac mâncărimi ale pielii crește riscul de gută în doze mari crește glicemia scade nivelul de tiroxina Aspirina poate ajuta  la diminuarea unor simptome. |
+| B4 | sinonim: **adenină, carnitină, colină** solubilitate: apă doza maximă pe zi: 500mg **Adenina**: protejează nervii ajută la formarea globulelor roșii, la formarea ADN-ului și a ARN-ului, metabolizarea proteinelor, diviziunea celulară previne cancerul de col uterin stimulează regenerarea leucocitelor **Carnitina**: ajută la producerea de energie din carbohidrați  are rol important în utilizarea zaharurilor și a aminoacizilor scade colesterolul și trigliceridele ajută în caz de angină pectorală, insuficiență renală, creșterea fertilității, scăderea în greutate reduce riscul de miocardită **Colina**: îmbunătățește memoria, starea de spirit și controlul mușchilor ajută la metabolizarea grăsimilor și la scăderea în greutate un nivel scăzut de colină duce la creșterea în greutate reduce riscul de demență și Alzeimer | **Adenina: \- Carnitina**: greață diaree convulsii – în cazul persoanelor predispuse miros de pește al pielii agravează hipotiroidismul **Colina**:  scade efectul atropinei |
+| B5 | sinonim: **acid pantotenic** solubilitate: apă doza maximă pe zi: 500mg ajută la metabolizarea grăsimilor și carbohidraților menține sănătatea părului, pielii, ochilor și ficatului ajută la producerea hormonilor sexuali și de stres ajută la scăderea colesterolului și a trigliceridelor transformă alimentele în glucoză ajută la sinteza colesterolului crește randamenul intelectual previne degradarea funcțiilor creierului ce pot apărea odată cu vârsta, cum ar fi Alzeimer reglează activitatea hormonală ameliorează acneea facială ajută semnificativ la vindecarea leziunilor previne poliartrita reumatoidă este degradată de fierbere | diaree  |
+| B6 | sinonim: **piridoxină** solubilitate: apă doza maximă pe zi: 250mg transformă alimentele în energie ajută la crearea de globule roșii ajută la crearea de neurotransmițători care reglează emoțiile ajută la secreția de dopamina, serotonină, norepinefrina, melatonină, acidul gamma-aminobutiric (GABA) combate stresul îmbunătățește starea de spirit reduce nivelul de homocisteină crește randamenul intelectual previne degradarea funcțiilor creierului ce pot apărea odată cu vârsta, cum ar fi Alzeimer tratează simptomele sindromului premenstrual previne înfundarea arterelor previne cancerul previne bolile oculare reduce inflamațiile tratează artrita reumatoidă dacă este luată împreună cu B1 duce la creșterea masei de grăsime | greață dureri de stomac pierderea poftei de mâncare dureri de cap dozele foarte mari de 1000mg pe zi pot cauza probleme la nivelul creierului și al nervilor. |
+| B7 | sinonim: **biotină** solubilitate: apă doza maximă pe zi: 300mg transformă alimentele în glucoză ajută la sinteza acizilor grași, aminoacizilor valină și izoleucină ajută în caz de scleroză multiplă ajută în caz de depresie și letargie **menține sănătatea părului, pielii și unghiilor** stimulează secreția de insulină reduce leziunile nervoase în următoarele cazuri nivelul de B7 din organism este scăzut: infecție bacteriană sau fungică, depresie, convulsii, halucinații, amorțeli, fumători, inflamații intestinale. | poate produce probleme cardio-vasculare afectează rezultatele testelor de sânge |
+| B8 | sinonim: **inozitol** solubilitate: apă ajută în caz de depresie ajută la metabolizarea insulinei  |  |
+| B9 | sinonim: **acid folic** solubilitate: apă  |  |
+| B10 | sinonim:  **acid para-aminobenzoic (PABA)** solubilitate: apă (parțial) combate ateroscleroza  |  |
+| B11 | sinonim:  **acid pteroilheptaglutamic (PHGA), salicylic acid**  solubilitate: apă  |  |
+| B12 | sinonim: **cobalamină** solubilitate: apă  |  |
+| B13 | sinonim: **acid orotic** solubilitate: apă(parțial) hepatoprotector |  |
