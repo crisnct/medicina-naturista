@@ -1,4 +1,4 @@
-{$APP_DOMAIN} {
+{$CADDY_SITE_SCHEME}://{$APP_DOMAIN} {
     encode zstd gzip
     reverse_proxy app:7860
     header {

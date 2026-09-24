@@ -51,6 +51,7 @@ services:
         condition: service_healthy
     environment:
       APP_DOMAIN: ${APP_DOMAIN:-localhost}
+      CADDY_SITE_SCHEME: ${CADDY_SITE_SCHEME:-http}
     ports:
       - "80:80"
       - "443:443"

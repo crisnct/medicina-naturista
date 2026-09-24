@@ -11,11 +11,25 @@ ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / ".env", override=False)
 
 
+# Read an integer setting and reject values below its safety minimum.
 def _int(name: str, default: int, minimum: int = 1) -> int:
     value = int(os.getenv(name, str(default)))
     if value < minimum:
         raise ValueError(f"{name} must be >= {minimum}")
     return value
+
+
+# Parse a human-friendly boolean environment variable with strict validation.
+def _bool(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    normalized = value.strip().casefold()
+    if normalized in {"1", "true", "yes", "on"}:
+        return True
+    if normalized in {"0", "false", "no", "off"}:
+        return False
+    raise ValueError(f"{name} must be a boolean value")
 
 
 @dataclass(frozen=True)
@@ -30,7 +44,15 @@ class Settings:
     session_max_seconds: int = _int("SESSION_MAX_SECONDS", 14400)
     max_chat_chars: int = _int("MAX_CHAT_CHARS", 4000)
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
+    retrieval_limit: int = _int("RETRIEVAL_LIMIT", 120)
+    retrieval_candidates: int = _int("RETRIEVAL_CANDIDATES", 720)
+    evidence_context_chars: int = _int("EVIDENCE_CONTEXT_CHARS", 3000)
+    max_evidence: int = _int("MAX_EVIDENCE", 2000)
+    log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
+    log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
+    log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)
 
+    # Return the configured xAI API key without surrounding whitespace.
     def api_key(self) -> str:
         return os.getenv("GROK_API_KEY_MED", "").strip()
 
