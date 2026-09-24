@@ -280,11 +280,11 @@ class WebTests(unittest.TestCase):
         report = main._recommendation_text(sections, {})
 
         labels = [
-            "• Rețete culinare",
-            "• Alimente recomandate",
-            "• Alimente nerecomandate",
-            "• Alimente total interzise",
-            "• Alte recomandări",
+            "**• Rețete culinare:**",
+            "**• Alimente recomandate:**",
+            "**• Alimente nerecomandate:**",
+            "**• Alimente total interzise:**",
+            "**• Alte recomandări:**",
         ]
         self.assertEqual(labels, sorted(labels, key=report.index))
         self.assertLess(report.index("    - Salată de hrean"), report.index("    - Supă ușoară cu țelină"))
@@ -306,10 +306,10 @@ class WebTests(unittest.TestCase):
         }
         combined_report = main._recommendation_text(combined_sections, {})
 
-        self.assertIn("• Alimente recomandate: hrean, țelină.", combined_report)
-        self.assertIn("• Alimente nerecomandate: zahăr.", combined_report)
-        self.assertIn("• Alimente total interzise: -", combined_report)
-        self.assertNotIn("  • Alimente recomandate:", combined_report)
+        self.assertIn("**• Alimente recomandate:** hrean, țelină.", combined_report)
+        self.assertIn("**• Alimente nerecomandate:** zahăr.", combined_report)
+        self.assertIn("**• Alimente total interzise:** -", combined_report)
+        self.assertNotIn("  **• Alimente recomandate:**", combined_report)
 
         prefixed_sections = {
             "uz_intern": [],
@@ -327,11 +327,15 @@ class WebTests(unittest.TestCase):
         }
         prefixed_report = main._recommendation_text(prefixed_sections, {})
 
-        self.assertLess(prefixed_report.index("• Rețete culinare"), prefixed_report.index("• Alimente recomandate"))
+        self.assertLess(
+            prefixed_report.index("**• Rețete culinare:**"),
+            prefixed_report.index("**• Alimente recomandate:**"),
+        )
         self.assertIn("    - supă ușoară.", prefixed_report)
         self.assertIn("    - ceai de ghimbir.", prefixed_report)
-        self.assertIn("• Alimente nerecomandate: zahăr.", prefixed_report)
-        self.assertIn("• Alte recomandări: probiotic.", prefixed_report)
+        self.assertIn("**• Alimente nerecomandate:** zahăr.", prefixed_report)
+        self.assertIn("**• Alte recomandări:** probiotic.", prefixed_report)
+        self.assertTrue(main.chatbot.render_markdown)
 
     # Verify that compaction logs both original and shortened fragment metadata.
     def test_compaction_logs_fragments_before_and_after_with_removed_chars(self):
@@ -425,7 +429,9 @@ class WebTests(unittest.TestCase):
         FakeAI.generate_calls = 0
         FakeAI.report_profile = None
 
-        with patch.object(main, "ai", FakeAI()), patch.object(main, "retriever", FakeRetriever()):
+        with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
+            main, "ai", FakeAI()
+        ), patch.object(main, "retriever", FakeRetriever()):
             history, link = main.on_load(req_a)
             self.assertEqual(history[-1]["content"], HEALTH_PROBLEM_QUESTION)
             self.assertEqual(link, "")
@@ -438,6 +444,10 @@ class WebTests(unittest.TestCase):
 
             history, link = main.on_auto_report(req_a)
             self.assertEqual(FakeAI.generate_calls, 1)
+            send_report_mock.assert_called_once()
+            self.assertEqual(send_report_mock.call_args.args[0], "Gripă și răceală")
+            self.assertTrue(send_report_mock.call_args.args[1].startswith(b"%PDF-"))
+            self.assertTrue(send_report_mock.call_args.args[2].endswith(".pdf"))
             self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
             self.assertIn("Descarcă PDF", link)
             self.assertIn("Uz intern", history[-1]["content"])
@@ -452,7 +462,7 @@ class WebTests(unittest.TestCase):
                 page.extract_text() for page in PdfReader(io.BytesIO(session_a.report_bytes)).pages
             )
             self.assertIn("Recomandări naturiste", content)
-            self.assertIn("Gripă și răceală", content)
+            self.assertIn("Gripă și răceală", " ".join(content.split()))
 
             with TestClient(main.app, base_url="https://testserver") as http:
                 url = f"/api/reports/tab-a/{session_a.report_id}"
@@ -464,6 +474,27 @@ class WebTests(unittest.TestCase):
             self.assertIsNotNone(main.store.get(sid_b, "tab-b"))
             main.store.delete(sid_b, "tab-b")
 
+    # Verify Google API failure does not remove the generated report or add an email error to chat history.
+    def test_email_failure_keeps_report_available_and_history_unchanged(self):
+        sid = "D" * 43
+        request = FakeRequest(sid, "tab-email-failure")
+
+        with patch.object(main, "ai", FakeAI()), patch.object(main, "retriever", FakeRetriever()), patch.object(
+            main, "send_report", side_effect=OSError("SMTP unavailable")
+        ):
+            main.on_load(request)
+            main.on_message("Gripă și răceală", request)
+            with self.assertLogs("naturist.web", level="ERROR") as captured:
+                history, link = main.on_auto_report(request)
+
+        session = main.store.get(sid, "tab-email-failure")
+        self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
+        self.assertIn("Descarcă PDF", link)
+        self.assertIn("Raportul este gata", history[-1]["content"])
+        self.assertIn("stage=email", "\n".join(captured.output))
+        self.assertNotIn("email", history[-1]["content"].lower())
+        main.store.delete(sid, "tab-email-failure")
+
     # Verify generated download links include the configured public Gradio prefix.
     def test_public_report_link_uses_gradio_root_path(self):
         sid = "C" * 43
@@ -474,6 +505,16 @@ class WebTests(unittest.TestCase):
             link = main._download_html(session)
         self.assertIn('/medicina/api/reports/tab-public/report-1', link)
         main.store.delete(sid, "tab-public")
+
+    # Verify the chat has content-driven height and a half-width desktop layout.
+    def test_chat_layout_is_content_driven_and_half_width(self):
+        self.assertIn("width: min(50%, 700px) !important", main.APP_CSS)
+        self.assertIn(".app-content-width", main.APP_CSS)
+        self.assertIn('[data-testid="markdown"]', main.APP_CSS)
+        self.assertIn("text-align: left !important", main.APP_CSS)
+        self.assertIn("flex: 0 1 auto !important", main.APP_CSS)
+        self.assertIn("#medical-chatbot .wrapper", main.APP_CSS)
+        self.assertIn("height: auto !important", main.APP_CSS)
 
     # Verify PDF pagination, Romanian characters, citations, and bibliography links.
     def test_pdf_diacritics_and_pagination(self):
@@ -489,16 +530,19 @@ class WebTests(unittest.TestCase):
         }
         profile = {"health_problem": "tuse și oboseală", "transcript": []}
         pdf = create_pdf(profile, sections, evidence)
-        pages = PdfReader(io.BytesIO(pdf)).pages
+        reader = PdfReader(io.BytesIO(pdf))
+        pages = reader.pages
         self.assertGreater(len(pages), 1)
         text = "\n".join(page.extract_text() for page in pages)
         self.assertIn("ă â î ș ț", text)
-        self.assertIn("[1]", text)
-        self.assertIn("[2]", text)
-        self.assertIn("6. Bibliografie", text)
+        self.assertIn("Surse 1-2", text)
+        self.assertNotIn("Cuprins", text)
+        self.assertIn("Bibliografie", text)
         self.assertIn("1 - test.md:1-3", text)
         self.assertIn("2 - alt-test.md:4-8", text)
         self.assertNotIn("documents/test.md:1-3", text)
+        self.assertNotIn("\x00", text)
+        self.assertGreaterEqual(len(reader.outline), 6)
         links = [
             annotation.get_object()
             for page in pages

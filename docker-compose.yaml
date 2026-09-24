@@ -12,6 +12,11 @@ services:
     mem_limit: 2g
     environment:
       GROK_API_KEY_MED: ${GROK_API_KEY_MED:?GROK_API_KEY_MED must be set in .env}
+      MAIL_FROM: ${MAIL_FROM:-}
+      GMAIL_USERNAME: ${GMAIL_USERNAME:-}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      GOOGLE_REFRESH_TOKEN: ${GOOGLE_REFRESH_TOKEN:-}
       XAI_MODEL: ${XAI_MODEL:-grok-4.3}
       XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
       XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
