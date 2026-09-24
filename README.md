@@ -54,7 +54,19 @@ Interfața este Gradio, montată în FastAPI. Nu are conturi. Refolosește model
 
 ### Docker Compose
 
-Necesare: Docker cu Compose, folderele existente `documents/`, `embedings/` și `model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent:
+Necesare: Docker cu Compose, folderele existente `documents/`, `embedings/` și `model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
+
+Parametrii de căutare ai arhivei medicale sunt configurați prin variabilele:
+
+- `RETRIEVAL_LIMIT=120` — numărul maxim de rezultate păstrate pentru fiecare interogare;
+- `RETRIEVAL_CANDIDATES=720` — numărul de candidați analizați de căutarea hibridă înainte de limitare;
+- `EVIDENCE_CONTEXT_CHARS=3000` — numărul maxim de caractere păstrate din fiecare fragment trimis generatorului de raport;
+- `MAX_EVIDENCE=2000` — numărul maxim de fragmente distincte reunite în contextul raportului.
+- `LOG_LEVEL=INFO` — nivelul minim pentru logurile aplicației.
+- `LOG_FRAGMENT_TEXT=true` — include textul fragmentelor în loguri; setați `false` dacă logurile sunt colectate într-un sistem fără control de acces.
+- `LOG_FRAGMENT_TEXT_MAX_CHARS=4000` — limita textului unui fragment inclus într-o singură linie de log.
+
+Valorile controlează volumul de dovezi. Creșterea lor poate mări timpul și dimensiunea requestului către AI:
 
 ```powershell
 docker compose build
@@ -63,9 +75,11 @@ docker compose ps
 Invoke-WebRequest http://localhost:7860/healthz
 ```
 
+Logurile pentru generarea raportului includ statisticile de căutare, numărul și dimensiunea fragmentelor, sursele unice și inventarul fragmentelor trimise efectiv către AI (`fragments_sent_to_ai`). Dacă este necesară compactarea contextului, sunt logate separat fragmentele înainte de compactare (`fragments_before_compaction`) și fragmentele după compactare, cu `original_text_chars` și `compaction_removed_chars` pentru fiecare fragment. Textul logat este JSON cu newline-urile escapate, pentru a putea fi analizat automat.
+
 Fișierul `.env` este ignorat de Git. Compose transmite variabila `GROK_API_KEY_MED` aplicației la pornire; cheia nu este inclusă în imagine. Indexul și `documents/` sunt montate doar pentru citire. `model_cache/` este persistat separat. Fișierele temporare sunt în `tmpfs`.
 
-Interfața este disponibilă prin Caddy la `https://APP_DOMAIN`. Pentru un domeniu public, configurați DNS-ul către server și permiteți intrarea pe porturile 80/443. Cu `APP_DOMAIN=localhost`, certificatul local Caddy poate necesita încredere explicită în browser. Portul 7860 este expus doar pe localhost pentru diagnostic; nu îl publicați direct pe internet.
+`APP_DOMAIN` trebuie să conțină doar hostname-ul, fără `https://` și fără calea aplicației. Pentru tunel ngrok, folosiți `CADDY_SITE_SCHEME=http`: ngrok termină HTTPS, iar tunelul trebuie să trimită către portul local `80` (`ngrok http 80`). URL-ul public al aplicației rămâne `https://APP_DOMAIN/medicina`, deoarece `GRADIO_ROOT_PATH` este `/medicina`. Pentru un domeniu controlat direct de server, setați `CADDY_SITE_SCHEME=https`, configurați DNS-ul și permiteți accesul public pe porturile 80/443 pentru validarea certificatului Caddy. Portul 7860 este expus doar pe localhost pentru diagnostic; nu îl publicați direct pe internet.
 
 Oprire:
 

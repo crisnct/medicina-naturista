@@ -16,6 +16,7 @@ from pathlib import Path
 import numpy as np
 
 
+# Normalize cached FastEmbed metadata paths so Windows caches work in Linux containers.
 def _normalize_fastembed_metadata(cache_dir: Path) -> None:
     """Make FastEmbed metadata created on Windows portable to Linux containers."""
     for metadata_file in cache_dir.glob("models--*/files_metadata.json"):
@@ -32,6 +33,7 @@ def _normalize_fastembed_metadata(cache_dir: Path) -> None:
 
 
 @lru_cache(maxsize=4)
+# Load or register the offline FastEmbed model used for semantic search.
 def create_model(model_name: str, dimension: int, cache_dir: Path):
     os.environ.setdefault("HF_HUB_OFFLINE", "1")
     os.environ.setdefault("ORT_DISABLE_TELEMETRY", "1")
@@ -53,11 +55,13 @@ def create_model(model_name: str, dimension: int, cache_dir: Path):
     return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=max(1, (os.cpu_count() or 2) - 1))
 
 
+# Convert user text into a bounded SQLite FTS5 OR query.
 def fts_query(text: str) -> str:
     tokens = re.findall(r"[^\W_]+", text, flags=re.UNICODE)
     return " OR ".join(f'"{token.replace(chr(34), chr(34) * 2)}"' for token in tokens[:32])
 
 
+# Combine semantic and lexical rankings with reciprocal rank fusion.
 def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[str, object]]:
     manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
     dimension = int(manifest["embedding"]["dimension"])
@@ -124,6 +128,7 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
         connection.close()
 
 
+# Parse search arguments, execute hybrid ranking, and print human or JSON results.
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")

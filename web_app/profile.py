@@ -14,16 +14,19 @@ class HealthProfile:
     transcript: list[dict[str, str]] = field(default_factory=list)
     asked_field: str | None = None
 
+    # Store a normalized conversation entry when its role and content are allowed.
     def add_transcript(self, role: str, content: str) -> None:
         clean = " ".join((content or "").split())[:4000]
         if role in {"assistant", "user"} and clean:
             self.transcript.append({"role": role, "content": clean})
 
+    # Add a unique normalized user detail to the profile context.
     def add_health_context(self, message: str) -> None:
         clean = " ".join((message or "").split())[:4000]
         if clean and clean.casefold() not in {value.casefold() for value in self.health_context}:
             self.health_context.append(clean)
 
+    # Set the primary health problem and add it to the searchable context.
     def set_health_problem(self, message: str) -> None:
         clean = " ".join((message or "").split())[:4000]
         if clean:
@@ -32,9 +35,11 @@ class HealthProfile:
             self.asked_field = None
 
     @property
+    # Indicate whether the profile contains enough information to generate a report.
     def report_ready(self) -> bool:
         return bool(self.health_problem)
 
+    # Return the next required profile question, if the health problem is missing.
     def next_question(self) -> str | None:
         if not self.health_problem:
             self.asked_field = "health_problem"
@@ -42,6 +47,7 @@ class HealthProfile:
         self.asked_field = None
         return None
 
+    # Serialize the profile into the structure consumed by retrieval and AI generation.
     def as_dict(self) -> dict[str, Any]:
         return {
             "health_problem": self.health_problem,

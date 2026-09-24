@@ -55,14 +55,17 @@ class Chunk:
     char_count: int
 
 
+# Return the current UTC timestamp in a stable ISO-8601 representation.
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
+# Compute the SHA-256 digest of an in-memory byte sequence.
 def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+# Compute a file digest incrementally to keep memory usage bounded.
 def sha256_file(path: Path, block_size: int = 1024 * 1024) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as stream:
@@ -71,6 +74,7 @@ def sha256_file(path: Path, block_size: int = 1024 * 1024) -> str:
     return digest.hexdigest()
 
 
+# Read a Markdown file using the supported encodings and return raw bytes as well.
 def read_markdown(path: Path) -> tuple[str, str, bytes]:
     raw = path.read_bytes()
     for encoding in ("utf-8-sig", "utf-8", "utf-16", "cp1250", "cp1252"):
@@ -81,10 +85,12 @@ def read_markdown(path: Path) -> tuple[str, str, bytes]:
     return raw.decode("utf-8", errors="replace"), "utf-8-replace", raw
 
 
+# Normalize null characters and line endings before indexing source text.
 def normalize_text(text: str) -> str:
     return text.replace("\x00", "").replace("\r\n", "\n").replace("\r", "\n")
 
 
+# Split oversized text near word boundaries while retaining overlap for context.
 def split_long_piece(text: str, line_start: int, line_end: int) -> Iterator[tuple[str, int, int]]:
     """Split oversized text near whitespace while retaining conservative line bounds."""
     remaining = text.strip()
@@ -103,6 +109,7 @@ def split_long_piece(text: str, line_start: int, line_end: int) -> Iterator[tupl
         yield remaining, line_start, line_end
 
 
+# Parse Markdown into heading-aware blocks with source line ranges.
 def markdown_blocks(text: str) -> list[tuple[str, int, int, str]]:
     lines = text.split("\n")
     blocks: list[tuple[str, int, int, str]] = []
@@ -110,9 +117,11 @@ def markdown_blocks(text: str) -> list[tuple[str, int, int, str]]:
     buffer: list[str] = []
     buffer_start = 1
 
+    # Return the current nested heading path for the buffered Markdown block.
     def heading_path() -> str:
         return " > ".join(heading_stack)
 
+    # Emit the buffered non-empty block and reset the line buffer.
     def flush(end_line: int) -> None:
         nonlocal buffer
         body = "\n".join(buffer).strip()
@@ -140,6 +149,7 @@ def markdown_blocks(text: str) -> list[tuple[str, int, int, str]]:
     return blocks
 
 
+# Combine Markdown blocks into bounded overlapping chunks for embedding.
 def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
     raw_blocks = markdown_blocks(text)
     pieces: list[tuple[str, int, int, str]] = []
@@ -151,6 +161,7 @@ def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
     current: list[tuple[str, int, int, str]] = []
     current_chars = 0
 
+    # Emit the current chunk and retain a small overlap for the next chunk.
     def flush() -> None:
         nonlocal current, current_chars
         if not current:
@@ -187,6 +198,7 @@ def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
     return chunks
 
 
+# Convert chunks into model inputs containing source context and passage text.
 def iter_embedding_inputs(chunks: Sequence[Chunk]) -> Iterator[str]:
     for chunk in chunks:
         context = Path(chunk.source_relative_path).stem
@@ -195,6 +207,7 @@ def iter_embedding_inputs(chunks: Sequence[Chunk]) -> Iterator[str]:
         yield f"passage: {context}\n{chunk.text}"
 
 
+# Load or register the configured FastEmbed model in the local cache.
 def create_embedding_model(model_name: str, cache_dir: Path):
     from fastembed import TextEmbedding
 
@@ -213,10 +226,12 @@ def create_embedding_model(model_name: str, cache_dir: Path):
     return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=max(1, (os.cpu_count() or 2) - 1))
 
 
+# Serialize one JSON value as readable UTF-8 text.
 def write_json(path: Path, value: object) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+# Serialize an iterable of values or dataclass records as compact JSON Lines.
 def write_jsonl(path: Path, rows: Iterable[object]) -> None:
     with path.open("w", encoding="utf-8", newline="\n") as stream:
         for row in rows:
@@ -225,6 +240,7 @@ def write_jsonl(path: Path, rows: Iterable[object]) -> None:
             stream.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
 
 
+# Create the SQLite metadata, chunk, and FTS5 tables for the generated index.
 def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Chunk], metadata: dict[str, str]) -> None:
     if path.exists():
         path.unlink()
@@ -284,6 +300,7 @@ def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Ch
         connection.close()
 
 
+# Build embeddings, searchable metadata, checksums, and manifests atomically.
 def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
     source = source.resolve()
     output = output.resolve()
@@ -460,6 +477,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
     }, ensure_ascii=False), flush=True)
 
 
+# Parse command-line options for the embedding index build.
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=Path(__file__).resolve().parent / "documents")
