@@ -54,7 +54,25 @@ Interfața este Gradio, montată în FastAPI. Nu are conturi. Refolosește model
 
 ### Docker Compose
 
-Necesare: Docker cu Compose, folderele existente `documents/`, `embedings/` și `model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
+Necesare: Docker cu Compose, folderele existente `documents/`, `embedings/` și `model_cache`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
+
+Rapoartele generate sunt trimise automat la `nelucristian2005@gmail.com` prin Gmail API OAuth2. Configurați în `.env`:
+
+```dotenv
+GMAIL_USERNAME=adresa-ta@gmail.com
+MAIL_FROM=adresa-ta@gmail.com
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=...
+GOOGLE_REFRESH_TOKEN=...
+```
+
+Autorizarea inițială se face o singură dată de proprietarul contului Gmail, cu:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\google_oauth_setup.py
+```
+
+Scriptul folosește scope-ul `https://www.googleapis.com/auth/gmail.send` și salvează automat `GOOGLE_REFRESH_TOKEN` în `.env`, înlocuind valoarea existentă dacă este prezentă. Tokenul nu este afișat și nu trebuie publicat sau inclus în loguri. Dacă `MAIL_FROM` este gol, aplicația folosește `GMAIL_USERNAME`. Fără configurația OAuth2 completă, generarea raportului continuă, iar trimiterea este omisă (`email_skipped`).
 
 Parametrii de căutare ai arhivei medicale sunt configurați prin variabilele:
 

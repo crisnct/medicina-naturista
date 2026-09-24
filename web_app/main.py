@@ -30,6 +30,7 @@ os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
 import gradio as gr  # noqa: E402
 
 from web_app.ai import AIUnavailable, XAIClient
+from web_app.mailer import send_report
 from web_app.reports import (
     bibliography_label,
     build_reference_index,
@@ -156,14 +157,14 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
                     markers = " ".join(f"[{number}]" for number in unique_numbers)
                     formatted_items.append(f"{item['text']} {markers}".rstrip())
                 if nutrition_key == "recipes":
-                    lines.append(f"• {nutrition_label}:")
+                    lines.append(f"**• {nutrition_label}:**")
                     if not formatted_items:
                         lines.append("    -")
                     else:
                         lines.extend(f"    - {item}" for item in formatted_items)
                     continue
                 content = "; ".join(formatted_items) if formatted_items else "-"
-                lines.append(f"• {nutrition_label}: {content}")
+                lines.append(f"**• {nutrition_label}:** {content}")
             continue
         for item in items:
             citations = [evidence[token]["source"] for token in item.get("evidence_ids", []) if token in evidence]
@@ -363,6 +364,27 @@ def on_report(request: gr.Request):
             logger.info("report_stage_completed stage=pdf tab_id=%s bytes=%s", session.tab_id, len(report))
             session.report_bytes = report
             session.report_id = secrets.token_urlsafe(18)
+            logger.info("report_stage_started stage=email tab_id=%s", session.tab_id)
+            try:
+                email_status = send_report(
+                    session.profile.health_problem,
+                    session.report_bytes,
+                    _report_filename(session),
+                )
+            except Exception as exc:
+                # Email is best-effort: the already stored PDF and chat history
+                # must remain available when Google API delivery is unavailable.
+                logger.exception(
+                    "report_stage_failed stage=email tab_id=%s type=%s",
+                    session.tab_id,
+                    type(exc).__name__,
+                )
+            else:
+                logger.info(
+                    "report_stage_completed stage=email tab_id=%s result=%s",
+                    session.tab_id,
+                    email_status,
+                )
             _append(session, "assistant", _recommendation_text(sections, evidence))
         except AIUnavailable as exc:
             logger.error("report_failed tab_id=%s stage=ai type=%s", session.tab_id, type(exc).__name__)
@@ -443,6 +465,7 @@ APP_CSS = """
 #medical-chatbot,
 #medical-chatbot > div,
 #medical-chatbot .wrap,
+#medical-chatbot .wrapper,
 #medical-chatbot .bubble-wrap {
     height: auto !important;
     max-height: none !important;
@@ -451,12 +474,48 @@ APP_CSS = """
 }
 
 /* Limit the chat window width while keeping it centered and responsive. */
-#medical-chatbot {
-    width: min(100%, 1400px) !important;
-    max-width: 1400px !important;
+.app-content-width {
+    width: min(50%, 700px) !important;
+    max-width: 700px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    flex: 0 1 1400px !important;
+}
+
+/* Gradio repeats elem_classes on the inner Markdown element. Keep its
+   wrapper and rendered content full-width instead of halving the
+   title/description. */
+#app-title [data-testid="markdown-wrapper"],
+#app-description [data-testid="markdown-wrapper"],
+#app-title [data-testid="markdown"],
+#app-description [data-testid="markdown"] {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+}
+
+#app-title [data-testid="markdown"] > .md,
+#app-description [data-testid="markdown"] > .md,
+#app-title [data-testid="markdown"] h1,
+#app-description [data-testid="markdown"] p {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+}
+
+#medical-chatbot {
+    width: min(50%, 700px) !important;
+    max-width: 700px !important;
+    flex: 0 1 auto !important;
+    align-self: center !important;
+}
+
+#medical-chatbot .wrap,
+#medical-chatbot .wrapper {
+    flex: 0 0 auto !important;
 }
 
 #medical-chatbot > div {
@@ -506,8 +565,6 @@ APP_CSS = """
 #message-row {
     position: relative !important;
     display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
     box-sizing: border-box !important;
     padding: 0 !important;
 }
@@ -567,6 +624,11 @@ APP_CSS = """
 }
 
 @media (max-width: 640px) {
+    .app-content-width,
+    #medical-chatbot {
+        width: calc(100% - 24px) !important;
+        max-width: calc(100% - 24px) !important;
+    }
     #message-row { flex-wrap: nowrap; }
     #send-message { min-width: 76px !important; }
 }
@@ -574,10 +636,12 @@ APP_CSS = """
 
 
 with gr.Blocks(title="Recomandări naturiste", analytics_enabled=False, delete_cache=(60, 60)) as demo:
-    gr.Markdown("# Recomandări naturiste")
+    gr.Markdown("# Recomandări naturiste", elem_id="app-title", elem_classes=["app-content-width"])
     gr.Markdown(
         "Discutați liber și primiți un raport informativ, bazat pe sursele locale. "
-        "Nu înlocuiește îngrijirea medicală."
+        "Nu înlocuiește îngrijirea medicală.",
+        elem_id="app-description",
+        elem_classes=["app-content-width"],
     )
     chatbot = gr.Chatbot(
         label="Dr. Cuișor",
@@ -585,11 +649,12 @@ with gr.Blocks(title="Recomandări naturiste", analytics_enabled=False, delete_c
         max_height=None,
         autoscroll=True,
         elem_id="medical-chatbot",
-        render_markdown=False,
+        elem_classes=["app-content-width"],
+        render_markdown=True,
         sanitize_html=True,
         allow_file_downloads=False,
     )
-    with gr.Row(elem_id="message-row"):
+    with gr.Row(elem_id="message-row", elem_classes=["app-content-width"]):
         message = gr.Textbox(
             label="",
             show_label=False,
@@ -600,7 +665,7 @@ with gr.Blocks(title="Recomandări naturiste", analytics_enabled=False, delete_c
         )
         send = gr.Button("➤  Trimite", variant="primary", size="sm", scale=0, elem_id="send-message")
     download_box = gr.HTML()
-    with gr.Row(elem_id="session-actions"):
+    with gr.Row(elem_id="session-actions", elem_classes=["app-content-width"]):
         end = gr.Button("Închide sesiunea", size="sm", scale=0, elem_id="end-session")
     load_event = demo.load(on_load, outputs=[chatbot, download_box], queue=False)
     send_event = send.click(

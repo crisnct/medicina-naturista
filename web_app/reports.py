@@ -14,9 +14,25 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import HRFlowable, KeepTogether, Paragraph, SimpleDocTemplate, Spacer
+from reportlab.platypus import (
+    Flowable,
+    Paragraph,
+    SimpleDocTemplate,
+    Spacer,
+)
 
 SECTION_KEYS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
+
+TEXT_COLOR = "#203139"
+MUTED_TEXT_COLOR = "#52636D"
+SOURCE_COLOR = "#0F5C5E"
+SECTION_PRESENTATION = {
+    "uz_intern": {"number": "1", "label": "Uz intern", "symbol": "●", "color": "#087F73", "light": "#E8F6F3"},
+    "nutritie": {"number": "2", "label": "Nutriție", "symbol": "●", "color": "#B7791F", "light": "#FFF4D8"},
+    "uz_extern": {"number": "3", "label": "Uz extern", "symbol": "→", "color": "#3973B9", "light": "#EDF4FC"},
+    "alte_recomandari": {"number": "4", "label": "Alte recomandări", "symbol": "i", "color": "#8059A5", "light": "#F5EEFA"},
+    "atentionari": {"number": "5", "label": "Atenționări", "symbol": "!", "color": "#B8423E", "light": "#FFF0ED"},
+}
 
 FONT_CANDIDATES = (
     Path("C:/Windows/Fonts/arial.ttf"),
@@ -44,14 +60,213 @@ def _register_fonts() -> tuple[str, str]:
     return "NaturistRegular", "NaturistBold"
 
 
-# Draw the common footer with the report label and current page number.
-def _page(canvas: Any, document: Any) -> None:
+def _draw_footer(canvas: Any, document: Any) -> None:
+    """Draw the shared footer without interfering with the reading order."""
     canvas.saveState()
+    accent = colors.HexColor(getattr(document, "footer_color", "#087F73"))
+    canvas.setFillColor(accent)
+    canvas.roundRect(18 * mm, 15.5 * mm, 26 * mm, 1.6 * mm, 0.8 * mm, stroke=0, fill=1)
     canvas.setFont("NaturistRegular", 8)
     canvas.setFillColor(colors.HexColor("#64748b"))
-    canvas.drawString(18 * mm, 12 * mm, "Recomandări naturiste")
+    canvas.drawString(18 * mm, 12 * mm, "Recomandări naturiste de la Dr. Cuișor")
     canvas.drawRightString(A4[0] - 18 * mm, 12 * mm, f"Pagina {document.page}")
     canvas.restoreState()
+
+
+def _draw_botanical_motif(canvas: Any, origin_x: float, origin_y: float, scale: float = 1.0) -> None:
+    """Draw a layered botanical illustration; it is decorative only."""
+    canvas.saveState()
+    canvas.setLineWidth(1.25 * scale)
+    canvas.setStrokeColor(colors.HexColor("#BFE8CF"))
+    main_stem = canvas.beginPath()
+    main_stem.moveTo(origin_x, origin_y)
+    main_stem.curveTo(
+        origin_x + 9 * mm * scale, origin_y + 7 * mm * scale,
+        origin_x + 16 * mm * scale, origin_y + 19 * mm * scale,
+        origin_x + 31 * mm * scale, origin_y + 28 * mm * scale,
+    )
+    canvas.drawPath(main_stem, stroke=1, fill=0)
+    branch = canvas.beginPath()
+    branch.moveTo(origin_x + 14 * mm * scale, origin_y + 14 * mm * scale)
+    branch.curveTo(
+        origin_x + 10 * mm * scale, origin_y + 21 * mm * scale,
+        origin_x + 8 * mm * scale, origin_y + 26 * mm * scale,
+        origin_x + 6 * mm * scale, origin_y + 31 * mm * scale,
+    )
+    canvas.drawPath(branch, stroke=1, fill=0)
+    leaves = (
+        (6, 6, 38, 1.00), (11, 11, -38, 0.92), (17, 17, 38, 1.05),
+        (23, 22, -38, 0.92), (29, 27, 35, 0.86), (8, 26, -30, 0.72),
+    )
+    for offset_x, offset_y, angle, leaf_scale in leaves:
+        x = origin_x + offset_x * mm * scale
+        y = origin_y + offset_y * mm * scale
+        canvas.saveState()
+        canvas.translate(x, y)
+        canvas.rotate(angle)
+        canvas.setFillColor(colors.HexColor("#91D0AB"))
+        canvas.setStrokeColor(colors.HexColor("#D7F2E1"))
+        canvas.ellipse(
+            -3.2 * mm * scale * leaf_scale,
+            0,
+            3.2 * mm * scale * leaf_scale,
+            8.4 * mm * scale * leaf_scale,
+            stroke=1,
+            fill=1,
+        )
+        canvas.setStrokeColor(colors.HexColor("#5FAE87"))
+        canvas.line(0, 0.6 * mm * scale, 0, 7.3 * mm * scale * leaf_scale)
+        canvas.restoreState()
+    canvas.restoreState()
+
+
+def _first_page(canvas: Any, document: Any) -> None:
+    """Draw the illustrated cover background behind the first-page content."""
+    canvas.saveState()
+    width, height = A4
+    header_height = 76 * mm
+    canvas.setFillColor(colors.HexColor("#0F5C5E"))
+    canvas.rect(0, height - header_height, width, header_height, stroke=0, fill=1)
+    canvas.setFillColor(colors.HexColor("#176F70"))
+    canvas.circle(width - 18 * mm, height - 22 * mm, 22 * mm, stroke=0, fill=1)
+    canvas.setFillColor(colors.HexColor("#2B8982"))
+    canvas.circle(width - 4 * mm, height - 57 * mm, 15 * mm, stroke=0, fill=1)
+    canvas.restoreState()
+    _draw_botanical_motif(canvas, width - 48 * mm, height - 98 * mm, 0.72)
+    _draw_footer(canvas, document)
+
+
+def _later_page(canvas: Any, document: Any) -> None:
+    """Keep later pages calm while retaining the cover's botanical identity."""
+    canvas.saveState()
+    width, height = A4
+    canvas.setFillColor(colors.HexColor("#F4F9F7"))
+    canvas.circle(width - 16 * mm, height - 16 * mm, 7 * mm, stroke=0, fill=1)
+    canvas.restoreState()
+    _draw_footer(canvas, document)
+
+
+class BookmarkedParagraph(Paragraph):
+    """Paragraph carrying a named destination and an outline entry for PDF readers."""
+
+    def __init__(self, text: str, style: ParagraphStyle, bookmark: str | None = None, outline: str | None = None):
+        super().__init__(text, style)
+        self.bookmark = bookmark
+        self.outline = outline
+
+
+class RoundedSection(Flowable):
+    """A splittable, rounded container for a full recommendation section."""
+
+    def __init__(
+        self,
+        content: list[Flowable],
+        background: str,
+        border: str,
+        bookmark: str | None = None,
+        outline: str | None = None,
+    ) -> None:
+        super().__init__()
+        self.content = content
+        self.background_hex = background
+        self.border_hex = border
+        self.background = colors.HexColor(background)
+        self.border = colors.HexColor(border)
+        self.bookmark = bookmark
+        self.outline = outline
+        self.padding = 10
+        self.radius = 11
+        self._metrics: list[tuple[Flowable, float, float, float]] = []
+        self._height = 0.0
+        self._inner_width = 0.0
+
+    def _measure(self, available_width: float) -> list[tuple[Flowable, float, float, float]]:
+        inner_width = max(1, available_width - 2 * self.padding)
+        measurements: list[tuple[Flowable, float, float, float]] = []
+        for flowable in self.content:
+            _, height = flowable.wrap(inner_width, 1_000_000)
+            measurements.append((
+                flowable,
+                flowable.getSpaceBefore(),
+                height,
+                flowable.getSpaceAfter(),
+            ))
+        return measurements
+
+    def wrap(self, available_width: float, available_height: float) -> tuple[float, float]:
+        self.width = available_width
+        self._inner_width = max(1, available_width - 2 * self.padding)
+        self._metrics = self._measure(available_width)
+        self._height = 2 * self.padding + sum(
+            space_before + height + space_after
+            for _, space_before, height, space_after in self._metrics
+        )
+        return available_width, self._height
+
+    def split(self, available_width: float, available_height: float) -> list[Flowable]:
+        capacity = available_height - 2 * self.padding
+        if capacity <= 0:
+            return []
+        metrics = self._measure(available_width)
+        first_content: list[Flowable] = []
+        remainder: list[Flowable] = []
+        for index, (flowable, space_before, height, space_after) in enumerate(metrics):
+            required = space_before + height + space_after
+            if required <= capacity:
+                first_content.append(flowable)
+                capacity -= required
+                continue
+
+            split_height = capacity - space_before - space_after
+            parts = flowable.split(max(1, available_width - 2 * self.padding), max(0, split_height))
+            if parts:
+                first_content.append(parts[0])
+                remainder.extend(parts[1:])
+            else:
+                remainder.append(flowable)
+            remainder.extend(item for item, _, _, _ in metrics[index + 1:])
+            break
+
+        if not first_content or (len(first_content) == 1 and remainder):
+            return []
+        first = RoundedSection(
+            first_content,
+            self.background_hex,
+            self.border_hex,
+            bookmark=self.bookmark,
+            outline=self.outline,
+        )
+        first.wrap(available_width, available_height)
+        if not remainder:
+            return [first]
+        continuation = RoundedSection(remainder, self.background_hex, self.border_hex)
+        return [first, continuation]
+
+    def draw(self) -> None:
+        self.canv.saveState()
+        self.canv.setFillColor(self.background)
+        self.canv.setStrokeColor(self.border)
+        self.canv.setLineWidth(0.8)
+        self.canv.roundRect(0, 0, self.width, self._height, self.radius, stroke=1, fill=1)
+        y = self._height - self.padding
+        for flowable, space_before, height, space_after in self._metrics:
+            y -= space_before + height
+            flowable.drawOn(self.canv, self.padding, y)
+            y -= space_after
+        self.canv.restoreState()
+
+
+class NatureReportDocTemplate(SimpleDocTemplate):
+    """A document template that turns visual section headings into PDF bookmarks."""
+
+    def afterFlowable(self, flowable: Any) -> None:
+        bookmark = getattr(flowable, "bookmark", None)
+        if not bookmark:
+            return
+        self.canv.bookmarkPage(bookmark)
+        outline = getattr(flowable, "outline", None)
+        if outline:
+            self.canv.addOutlineEntry(outline, bookmark, level=0, closed=False)
 
 
 # Assign stable bibliography numbers to cited internal sources in display order.
@@ -257,6 +472,44 @@ def format_recommendation(text: str) -> str:
     return f"<b>{label}</b>{remainder}"
 
 
+def _compress_reference_numbers(numbers: list[int]) -> str:
+    """Return citation numbers as a compact, human-readable range list."""
+    if not numbers:
+        return ""
+    ranges: list[str] = []
+    start = previous = numbers[0]
+    for number in numbers[1:]:
+        if number == previous + 1:
+            previous = number
+            continue
+        ranges.append(str(start) if start == previous else f"{start}-{previous}")
+        start = previous = number
+    ranges.append(str(start) if start == previous else f"{start}-{previous}")
+    return ", ".join(ranges)
+
+
+def _reference_group_label(source: str) -> str:
+    """Return a source filename/path without the line range for bibliography grouping."""
+    return re.sub(r":\d+(?:-\d+)?$", "", bibliography_label(source))
+
+
+def _section_heading(
+    key: str,
+    style: ParagraphStyle,
+) -> Paragraph:
+    """Create the heading rendered inside its rounded section container."""
+    presentation = SECTION_PRESENTATION[key]
+    anchor = f"section-{key}"
+    color = presentation["color"]
+    text = (
+        f'<a name="{anchor}"/>'
+        f'<font size="28" color="{color}">{presentation["number"]}</font> '
+        f'<font size="17" color="{color}"><b>{presentation["symbol"]} '
+        f'{escape(presentation["label"])}</b></font>'
+    )
+    return Paragraph(text, style)
+
+
 # Build the complete PDF report with sections, inline citations, and bibliography.
 def create_pdf(
     profile: dict[str, Any],
@@ -266,135 +519,199 @@ def create_pdf(
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
     styles.add(ParagraphStyle(
-        name="NaturalTitle", fontName=bold, fontSize=21, leading=27,
-        textColor=colors.HexColor("#173c46"), spaceAfter=12,
+        name="NaturalCoverEyebrow", fontName=bold, fontSize=9, leading=12,
+        textColor=colors.white, tracking=1.2, spaceAfter=5,
     ))
     styles.add(ParagraphStyle(
-        name="NaturalSubtitle", fontName=bold, fontSize=11, leading=15,
-        textColor=colors.HexColor("#176c73"), spaceBefore=13, spaceAfter=7,
+        name="NaturalCoverTitle", fontName=bold, fontSize=27, leading=32,
+        textColor=colors.white, spaceAfter=7,
     ))
     styles.add(ParagraphStyle(
-        name="NaturalSection", fontName=bold, fontSize=14, leading=19,
-        textColor=colors.HexColor("#176c73"), spaceBefore=11, spaceAfter=8,
+        name="NaturalCoverSubtitle", fontName=regular, fontSize=11, leading=16,
+        textColor=colors.HexColor("#D8F1E6"), spaceAfter=5,
     ))
     styles.add(ParagraphStyle(
-        name="NaturalBody", fontName=regular, fontSize=9.5, leading=15,
-        textColor=colors.HexColor("#21333c"), spaceAfter=7,
+        name="NaturalCoverInfo", fontName=regular, fontSize=10.5, leading=16,
+        textColor=colors.HexColor("#E4F5EC"), spaceAfter=0,
     ))
     styles.add(ParagraphStyle(
-        name="NaturalSource", fontName=regular, fontSize=7.5, leading=11,
-        textColor=colors.HexColor("#526774"), leftIndent=8, spaceAfter=8,
+        name="NaturalBody", fontName=regular, fontSize=11, leading=17,
+        textColor=colors.HexColor(TEXT_COLOR), spaceAfter=0,
+    ))
+    styles.add(ParagraphStyle(
+        name="NaturalEmpty", parent=styles["NaturalBody"], fontSize=10.5, leading=16,
+        textColor=colors.HexColor(MUTED_TEXT_COLOR), spaceAfter=0,
+    ))
+    styles.add(ParagraphStyle(
+        name="NaturalBibliographyGroup", fontName=bold, fontSize=11.5, leading=16,
+        textColor=colors.HexColor("#52636D"), spaceBefore=7, spaceAfter=3,
+        keepWithNext=True,
+    ))
+    styles.add(ParagraphStyle(
+        name="NaturalBibliography", fontName=regular, fontSize=9.2, leading=14,
+        textColor=colors.HexColor(TEXT_COLOR), leftIndent=5, spaceAfter=4,
         wordWrap="CJK",
     ))
-    styles.add(ParagraphStyle(
-        name="NaturalNote", fontName=regular, fontSize=8.5, leading=13,
-        textColor=colors.HexColor("#526774"), spaceAfter=10,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalNutritionItem", parent=styles["NaturalBody"], leftIndent=12,
-    ))
-    body = styles["NaturalBody"]
-    nutrition_item = styles["NaturalNutritionItem"]
-    nutrition_recipe = ParagraphStyle(
-        "NaturalNutritionRecipe", parent=nutrition_item, leftIndent=24,
-    )
-    source_style = styles["NaturalSource"]
+    section_styles: dict[str, ParagraphStyle] = {}
+    item_styles: dict[str, ParagraphStyle] = {}
+    for key, presentation in SECTION_PRESENTATION.items():
+        section_styles[key] = ParagraphStyle(
+            f"NaturalSection{key}", fontName=bold, fontSize=17, leading=34,
+            textColor=colors.HexColor(presentation["color"]), spaceBefore=0, spaceAfter=8,
+        )
+        item_styles[key] = ParagraphStyle(
+            f"NaturalItem{key}", parent=styles["NaturalBody"],
+            leftIndent=5, spaceAfter=7,
+        )
+
     title = report_title(profile)
-    story: list[Any] = [Paragraph(escape(title), styles["NaturalTitle"])]
+    story: list[Any] = [
+        Paragraph("GHID INFORMATIV", styles["NaturalCoverEyebrow"]),
+        Paragraph(escape(title), styles["NaturalCoverTitle"]),
+        Paragraph(
+            "Informații locale organizate pentru lectură rapidă și consultare responsabilă.",
+            styles["NaturalCoverSubtitle"],
+        ),
+        Spacer(1, 2 * mm),
+    ]
     story.append(Paragraph(
-        "Material informativ adjuvant. Nu stabilește diagnostice și nu înlocuiește consultul sau "
-        "tratamentul recomandat de un profesionist în sănătate.", styles["NaturalNote"]
+        "<b>i Material informativ adjuvant.</b> Nu stabilește diagnostice și nu înlocuiește consultul "
+        "sau tratamentul recomandat de un profesionist în sănătate.<br/>"
+        "<font color=\"#F8C4B9\"><b>! Citește secțiunea Atenționări înainte de a aplica o recomandare.</b></font><br/>"
+        "<font color=\"#D8F1E6\">→ Sursele aferente fiecărei recomandări sunt accesibile din document.</font>",
+        styles["NaturalCoverInfo"],
     ))
+    story.append(Spacer(1, 10.5 * mm))
+
     headings = (
-        ("uz_intern", "1. Uz intern"),
-        ("nutritie", "2. Nutriție"),
-        ("uz_extern", "3. Uz extern"),
-        ("alte_recomandari", "4. Alte Recomandări"),
-        ("atentionari", "5. Atenționări"),
+        "uz_intern",
+        "nutritie",
+        "uz_extern",
+        "alte_recomandari",
+        "atentionari",
     )
     sections = sort_sections_by_source_count(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
-    for key, heading in headings:
-        section_story: list[Any] = [
-            HRFlowable(
-                width="100%", thickness=0.8, color=colors.HexColor("#cbd5e1"),
-                spaceBefore=8, spaceAfter=10,
-            ),
-            Paragraph(heading, styles["NaturalSection"]),
+    source_targets: dict[str, str] = {}
+
+    def citations_for(item: dict[str, Any]) -> list[str]:
+        return [
+            evidence[token]["source"]
+            for token in item.get("evidence_ids", [])
+            if token in evidence
         ]
+
+    def source_chip(citations: list[str]) -> str:
+        if not citations:
+            return ""
+        numbers = list(dict.fromkeys(reference_numbers[source] for source in citations))
+        return (
+            ' <link href="#section-bibliografie" color="#0F5C5E">'
+            f'<font size="8.7"><b>→ Surse {_compress_reference_numbers(numbers)}</b></font></link>'
+        )
+
+    def add_recommendation(
+        section_content: list[Flowable],
+        key: str,
+        text: str,
+        citations: list[str],
+        anchor: str,
+    ) -> None:
+        for source in citations:
+            source_targets.setdefault(source, anchor)
+        section_content.append(Paragraph(
+            f'<a name="{anchor}"/>{text}{source_chip(citations)}', item_styles[key]
+        ))
+
+    for key in headings:
+        presentation = SECTION_PRESENTATION[key]
+        section_content: list[Flowable] = [_section_heading(key, section_styles[key])]
         items = sections.get(key) or []
         if not items:
-            section_story.append(Paragraph(
-                "Nu au fost identificate informații suficient de relevante în sursele disponibile.", body
+            section_content.append(Paragraph(
+                "i Nu au fost identificate informații suficient de relevante în sursele disponibile.",
+                styles["NaturalEmpty"],
             ))
-            story.append(KeepTogether(section_story))
-            continue
-        if key == "nutritie":
+        elif key == "nutritie":
+            nutrition_index = 0
             for nutrition_key, nutrition_label, nutrition_items in nutrition_display_groups(items):
-                formatted_items = []
-                for item in nutrition_items:
-                    citations = [
-                        evidence[token]["source"]
-                        for token in item.get("evidence_ids", [])
-                        if token in evidence
-                    ]
-                    text = escape(str(item["text"])).replace("\n", "<br/>")
-                    inline_sources = ""
-                    if citations:
-                        unique_numbers = list(dict.fromkeys(reference_numbers[source] for source in citations))
-                        markers = " ".join(
-                            f'<link href="#bibliografie-{number}" color="#176c73"><u>[{number}]</u></link>'
-                            for number in unique_numbers
-                        )
-                        inline_sources = f' <font size="7.5" color="#526774"><b>Surse:</b> {markers}</font>'
-                    formatted_items.append((text, inline_sources))
                 if nutrition_key == "recipes":
-                    section_story.append(Paragraph(f"• {escape(nutrition_label)}:", body))
-                    if not formatted_items:
-                        section_story.append(Paragraph("-", nutrition_recipe))
-                    else:
-                        for text, inline_sources in formatted_items:
-                            section_story.append(Paragraph(f"- {text}{inline_sources}", nutrition_recipe))
+                    for item in nutrition_items:
+                        nutrition_index += 1
+                        item_text = escape(str(item["text"])).replace(chr(10), "<br/>")
+                        add_recommendation(
+                            section_content,
+                            key,
+                            f'<b>• {escape(nutrition_label)}</b><br/>{item_text}',
+                            citations_for(item),
+                            f"recommendation-{key}-{nutrition_index}",
+                        )
                     continue
-                content = "; ".join(
-                    f"{text}{inline_sources}" for text, inline_sources in formatted_items
-                ) or "-"
-                section_story.append(
-                    Paragraph(f"• {escape(nutrition_label)}: {content}", body)
+                if not nutrition_items:
+                    continue
+                nutrition_index += 1
+                texts = "; ".join(
+                    escape(str(item["text"])).replace(chr(10), "<br/>") for item in nutrition_items
                 )
-            story.append(KeepTogether(section_story))
-            continue
-        for item in items:
-            citations = [
-                evidence[token]["source"] for token in item.get("evidence_ids", []) if token in evidence
-            ]
-            elements = [Paragraph("• " + format_recommendation(str(item["text"])), body)]
-            if citations:
-                unique_numbers = list(dict.fromkeys(reference_numbers[source] for source in citations))
-                markers = " ".join(
-                    f'<link href="#bibliografie-{number}" color="#176c73"><u>[{number}]</u></link>'
-                    for number in unique_numbers
+                citations = [source for item in nutrition_items for source in citations_for(item)]
+                add_recommendation(
+                    section_content,
+                    key,
+                    f"<b>• {escape(nutrition_label)}</b><br/>{texts}",
+                    list(dict.fromkeys(citations)),
+                    f"recommendation-{key}-{nutrition_index}",
                 )
-                inline_sources = (
-                    f' <font size="7.5" color="#526774"><b>Surse:</b> {markers}</font>'
+        else:
+            for index, item in enumerate(items, start=1):
+                add_recommendation(
+                    section_content,
+                    key,
+                    "● " + format_recommendation(str(item["text"])),
+                    citations_for(item),
+                    f"recommendation-{key}-{index}",
                 )
-                elements = [Paragraph("• " + format_recommendation(str(item["text"])) + inline_sources, body)]
-            section_story.append(KeepTogether(elements))
-        story.append(KeepTogether(section_story))
-    story.append(Paragraph("6. Bibliografie", styles["NaturalSection"]))
+        story.append(RoundedSection(
+            section_content,
+            presentation["light"],
+            presentation["color"],
+            bookmark=f"section-{key}",
+            outline=f'{presentation["number"]}. {presentation["label"]}',
+        ))
+        story.append(Spacer(1, 4 * mm))
+
+    bibliography_heading = BookmarkedParagraph(
+        '<a name="section-bibliografie"/><font size="28" color="#52636D">6</font> '
+        '<font size="17" color="#52636D"><b>→ Bibliografie</b></font>',
+        ParagraphStyle(
+            "NaturalBibliographyHeading", fontName=bold, fontSize=17, leading=34,
+            textColor=colors.HexColor("#52636D"), spaceBefore=12, spaceAfter=11,
+            keepWithNext=True,
+        ),
+        bookmark="section-bibliografie",
+        outline="6. Bibliografie",
+    )
+    story.append(bibliography_heading)
     if references:
+        previous_group = ""
         for number, source in enumerate(references, start=1):
+            group = _reference_group_label(source)
+            if group != previous_group:
+                story.append(Paragraph(escape(group), styles["NaturalBibliographyGroup"]))
+                previous_group = group
+            target = source_targets.get(source, "section-uz_intern")
             story.append(Paragraph(
-                f'<a name="bibliografie-{number}"/>{number} - {escape(bibliography_label(source))}',
-                body,
+                f'<a name="bibliografie-{number}"/><b>{number} -</b> {escape(bibliography_label(source))} '
+                f'<link href="#{target}" color="#52636D"><font size="8.5">← înapoi</font></link>',
+                styles["NaturalBibliography"],
             ))
     else:
-        story.append(Paragraph("Nu există referințe bibliografice utilizate.", body))
+        story.append(Paragraph("Nu există referințe bibliografice utilizate.", styles["NaturalEmpty"]))
     buffer = BytesIO()
-    doc = SimpleDocTemplate(
+    doc = NatureReportDocTemplate(
         buffer, pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm,
-        topMargin=19 * mm, bottomMargin=20 * mm,
+        topMargin=20 * mm, bottomMargin=22 * mm,
         title=title, author="Chatbot naturist",
     )
-    doc.build(story, onFirstPage=_page, onLaterPages=_page)
+    doc.footer_color = "#087F73"
+    doc.build(story, onFirstPage=_first_page, onLaterPages=_later_page)
     return buffer.getvalue()
