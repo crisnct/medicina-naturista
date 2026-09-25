@@ -4,8 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-HEALTH_PROBLEM_QUESTION = "Pentru ce problema de sanatate doriti recomandari naturiste?"
-
+HEALTH_PROBLEM_QUESTION = "Bine ați venit în cabinetul meu. Eu nu am acces la leacuri de pe internet, nici nu întreb chatGPT dar am multe cărți scanate și mă voi uita rapid în ele pentru a găsi recomandări de tratamente naturiste adjuvante pentru afecțiunea d-voastră. Vă rog să-mi spuneți care este problema de sănătate cu care vă confruntați."
 
 @dataclass
 class HealthProfile:
@@ -33,6 +32,17 @@ class HealthProfile:
             self.health_problem = clean
             self.add_health_context(clean)
             self.asked_field = None
+
+    # Start a distinct report context and discard medical details from the
+    # previously generated report while leaving the visual chat history intact.
+    def replace_health_problem(self, message: str) -> None:
+        clean = " ".join((message or "").split())[:4000]
+        if not clean:
+            return
+        self.health_problem = clean
+        self.health_context = [clean]
+        self.transcript = [{"role": "user", "content": clean}]
+        self.asked_field = None
 
     @property
     # Indicate whether the profile contains enough information to generate a report.

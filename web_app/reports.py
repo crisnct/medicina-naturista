@@ -8,12 +8,13 @@ import re
 from typing import Any
 
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER
+from reportlab.lib.enums import TA_RIGHT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
     Flowable,
     Paragraph,
@@ -27,11 +28,11 @@ TEXT_COLOR = "#203139"
 MUTED_TEXT_COLOR = "#52636D"
 SOURCE_COLOR = "#0F5C5E"
 SECTION_PRESENTATION = {
-    "uz_intern": {"number": "1", "label": "Uz intern", "symbol": "●", "color": "#087F73", "light": "#E8F6F3"},
-    "nutritie": {"number": "2", "label": "Nutriție", "symbol": "●", "color": "#B7791F", "light": "#FFF4D8"},
-    "uz_extern": {"number": "3", "label": "Uz extern", "symbol": "→", "color": "#3973B9", "light": "#EDF4FC"},
-    "alte_recomandari": {"number": "4", "label": "Alte recomandări", "symbol": "i", "color": "#8059A5", "light": "#F5EEFA"},
-    "atentionari": {"number": "5", "label": "Atenționări", "symbol": "!", "color": "#B8423E", "light": "#FFF0ED"},
+    "uz_intern": {"number": "1", "label": "Uz intern", "color": "#087F73"},
+    "nutritie": {"number": "2", "label": "Nutriție", "color": "#B7791F"},
+    "uz_extern": {"number": "3", "label": "Uz extern", "color": "#3973B9"},
+    "alte_recomandari": {"number": "4", "label": "Alte recomandări", "color": "#8059A5"},
+    "atentionari": {"number": "5", "label": "Atenționări", "color": "#B8423E"},
 }
 
 FONT_CANDIDATES = (
@@ -44,6 +45,7 @@ BOLD_CANDIDATES = (
     Path("/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf"),
     Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"),
 )
+ORNAMENT_PNG = Path(__file__).with_name("ornament-fitoterapie-antet.png")
 
 
 # Locate Unicode fonts, register them with ReportLab, and return their names.
@@ -63,9 +65,6 @@ def _register_fonts() -> tuple[str, str]:
 def _draw_footer(canvas: Any, document: Any) -> None:
     """Draw the shared footer without interfering with the reading order."""
     canvas.saveState()
-    accent = colors.HexColor(getattr(document, "footer_color", "#087F73"))
-    canvas.setFillColor(accent)
-    canvas.roundRect(18 * mm, 15.5 * mm, 26 * mm, 1.6 * mm, 0.8 * mm, stroke=0, fill=1)
     canvas.setFont("NaturistRegular", 8)
     canvas.setFillColor(colors.HexColor("#64748b"))
     canvas.drawString(18 * mm, 12 * mm, "Recomandări naturiste de la Dr. Cuișor")
@@ -121,18 +120,27 @@ def _draw_botanical_motif(canvas: Any, origin_x: float, origin_y: float, scale: 
 
 
 def _first_page(canvas: Any, document: Any) -> None:
-    """Draw the illustrated cover background behind the first-page content."""
+    """Draw the SVG-derived botanical ornament behind the first-page content."""
     canvas.saveState()
     width, height = A4
     header_height = 76 * mm
-    canvas.setFillColor(colors.HexColor("#0F5C5E"))
+    canvas.setFillColor(colors.HexColor("#F4F9F7"))
     canvas.rect(0, height - header_height, width, header_height, stroke=0, fill=1)
-    canvas.setFillColor(colors.HexColor("#176F70"))
-    canvas.circle(width - 18 * mm, height - 22 * mm, 22 * mm, stroke=0, fill=1)
-    canvas.setFillColor(colors.HexColor("#2B8982"))
-    canvas.circle(width - 4 * mm, height - 57 * mm, 15 * mm, stroke=0, fill=1)
+    if ORNAMENT_PNG.is_file():
+        ornament_width = width - 36 * mm
+        ornament_height = ornament_width * 724 / 2172
+        canvas.setFillAlpha(0.34)
+        canvas.drawImage(
+            ImageReader(str(ORNAMENT_PNG)),
+            18 * mm,
+            height - header_height,
+            width=ornament_width,
+            height=ornament_height,
+            preserveAspectRatio=True,
+            mask="auto",
+        )
+        canvas.setFillAlpha(1)
     canvas.restoreState()
-    _draw_botanical_motif(canvas, width - 48 * mm, height - 98 * mm, 0.72)
     _draw_footer(canvas, document)
 
 
@@ -155,8 +163,50 @@ class BookmarkedParagraph(Paragraph):
         self.outline = outline
 
 
+class CoverPanel(Flowable):
+    """Reserve the cover band and vertically center its readable content."""
+
+    def __init__(
+        self,
+        content: list[Flowable],
+        visible_height: float,
+        page_top_extension: float,
+    ) -> None:
+        super().__init__()
+        self.content = content
+        self.visible_height = visible_height
+        self.page_top_extension = page_top_extension
+        self._metrics: list[tuple[Flowable, float, float, float]] = []
+
+    def wrap(self, available_width: float, available_height: float) -> tuple[float, float]:
+        self.width = available_width
+        self.height = self.visible_height
+        self._metrics = []
+        for flowable in self.content:
+            _, height = flowable.wrap(available_width, 1_000_000)
+            self._metrics.append((
+                flowable,
+                flowable.getSpaceBefore(),
+                height,
+                flowable.getSpaceAfter(),
+            ))
+        return available_width, self.height
+
+    def draw(self) -> None:
+        total_height = sum(
+            space_before + height + space_after
+            for _, space_before, height, space_after in self._metrics
+        )
+        full_band_height = self.visible_height + self.page_top_extension
+        y = (full_band_height + total_height) / 2
+        for flowable, space_before, height, space_after in self._metrics:
+            y -= space_before + height
+            flowable.drawOn(self.canv, 0, y)
+            y -= space_after
+
+
 class RoundedSection(Flowable):
-    """A splittable, rounded container for a full recommendation section."""
+    """A splittable white card with a colored heading and matching outline."""
 
     def __init__(
         self,
@@ -174,7 +224,7 @@ class RoundedSection(Flowable):
         self.border = colors.HexColor(border)
         self.bookmark = bookmark
         self.outline = outline
-        self.padding = 10
+        self.padding = 7
         self.radius = 11
         self._metrics: list[tuple[Flowable, float, float, float]] = []
         self._height = 0.0
@@ -227,7 +277,11 @@ class RoundedSection(Flowable):
             remainder.extend(item for item, _, _, _ in metrics[index + 1:])
             break
 
-        if not first_content or (len(first_content) == 1 and remainder):
+        # Keep the colored heading, its white breathing room, and at least one
+        # content item together when a card starts near the bottom of a page.
+        heading_would_be_orphaned = self.bookmark and len(first_content) <= 2 and remainder
+        continuation_cannot_start = not self.bookmark and len(first_content) == 1 and remainder
+        if not first_content or heading_would_be_orphaned or continuation_cannot_start:
             return []
         first = RoundedSection(
             first_content,
@@ -244,10 +298,22 @@ class RoundedSection(Flowable):
 
     def draw(self) -> None:
         self.canv.saveState()
-        self.canv.setFillColor(self.background)
+        self.canv.setFillColor(colors.white)
         self.canv.setStrokeColor(self.border)
-        self.canv.setLineWidth(0.8)
+        self.canv.setLineWidth(1.0)
         self.canv.roundRect(0, 0, self.width, self._height, self.radius, stroke=1, fill=1)
+        if self.bookmark and self._metrics:
+            _, heading_before, heading_height, heading_after = self._metrics[0]
+            header_height = self.padding + heading_before + heading_height + heading_after
+            header_y = self._height - header_height
+            self.canv.setFillColor(self.border)
+            self.canv.roundRect(
+                0, header_y, self.width, header_height, self.radius, stroke=0, fill=1
+            )
+            self.canv.rect(0, header_y, self.width, self.radius, stroke=0, fill=1)
+            self.canv.setStrokeColor(self.border)
+            self.canv.setLineWidth(1.0)
+            self.canv.roundRect(0, 0, self.width, self._height, self.radius, stroke=1, fill=0)
         y = self._height - self.padding
         for flowable, space_before, height, space_after in self._metrics:
             y -= space_before + height
@@ -500,11 +566,9 @@ def _section_heading(
     """Create the heading rendered inside its rounded section container."""
     presentation = SECTION_PRESENTATION[key]
     anchor = f"section-{key}"
-    color = presentation["color"]
     text = (
         f'<a name="{anchor}"/>'
-        f'<font size="28" color="{color}">{presentation["number"]}</font> '
-        f'<font size="17" color="{color}"><b>{presentation["symbol"]} '
+        f'<font size="15" color="#FFFFFF"><b>{presentation["number"]}. '
         f'{escape(presentation["label"])}</b></font>'
     )
     return Paragraph(text, style)
@@ -520,22 +584,27 @@ def create_pdf(
     styles = getSampleStyleSheet()
     styles.add(ParagraphStyle(
         name="NaturalCoverEyebrow", fontName=bold, fontSize=9, leading=12,
-        textColor=colors.white, tracking=1.2, spaceAfter=5,
+        textColor=colors.HexColor("#0F5C5E"), tracking=1.2, spaceAfter=5,
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverTitle", fontName=bold, fontSize=27, leading=32,
-        textColor=colors.white, spaceAfter=7,
+        textColor=colors.HexColor("#203139"), spaceAfter=2,
+    ))
+    styles.add(ParagraphStyle(
+        name="NaturalCoverByline", fontName=bold, fontSize=10.5, leading=13,
+        textColor=colors.HexColor("#0F5C5E"), alignment=TA_RIGHT,
+        rightIndent=14 * mm, spaceAfter=4,
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverSubtitle", fontName=regular, fontSize=11, leading=16,
-        textColor=colors.HexColor("#D8F1E6"), spaceAfter=5,
+        textColor=colors.HexColor("#52636D"), spaceAfter=5,
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverInfo", fontName=regular, fontSize=10.5, leading=16,
-        textColor=colors.HexColor("#E4F5EC"), spaceAfter=0,
+        textColor=colors.HexColor("#203139"), spaceAfter=0,
     ))
     styles.add(ParagraphStyle(
-        name="NaturalBody", fontName=regular, fontSize=11, leading=17,
+        name="NaturalBody", fontName=regular, fontSize=10.5, leading=15.5,
         textColor=colors.HexColor(TEXT_COLOR), spaceAfter=0,
     ))
     styles.add(ParagraphStyle(
@@ -552,36 +621,46 @@ def create_pdf(
         textColor=colors.HexColor(TEXT_COLOR), leftIndent=5, spaceAfter=4,
         wordWrap="CJK",
     ))
+    styles.add(ParagraphStyle(
+        name="NaturalBibliographyHeading", fontName=bold, fontSize=15, leading=19,
+        textColor=colors.white, spaceBefore=0, spaceAfter=5,
+    ))
     section_styles: dict[str, ParagraphStyle] = {}
     item_styles: dict[str, ParagraphStyle] = {}
     for key, presentation in SECTION_PRESENTATION.items():
         section_styles[key] = ParagraphStyle(
-            f"NaturalSection{key}", fontName=bold, fontSize=17, leading=34,
-            textColor=colors.HexColor(presentation["color"]), spaceBefore=0, spaceAfter=8,
+            f"NaturalSection{key}", fontName=bold, fontSize=15, leading=19,
+            textColor=colors.white, spaceBefore=0, spaceAfter=5,
         )
         item_styles[key] = ParagraphStyle(
             f"NaturalItem{key}", parent=styles["NaturalBody"],
-            leftIndent=5, spaceAfter=7,
+            leftIndent=4, spaceAfter=4,
         )
 
     title = report_title(profile)
-    story: list[Any] = [
+    cover_content: list[Flowable] = [
         Paragraph("GHID INFORMATIV", styles["NaturalCoverEyebrow"]),
         Paragraph(escape(title), styles["NaturalCoverTitle"]),
+        Paragraph("de la dr. Cuișor", styles["NaturalCoverByline"]),
         Paragraph(
             "Informații locale organizate pentru lectură rapidă și consultare responsabilă.",
             styles["NaturalCoverSubtitle"],
         ),
         Spacer(1, 2 * mm),
     ]
-    story.append(Paragraph(
+    cover_content.append(Paragraph(
         "<b>i Material informativ adjuvant.</b> Nu stabilește diagnostice și nu înlocuiește consultul "
         "sau tratamentul recomandat de un profesionist în sănătate.<br/>"
-        "<font color=\"#F8C4B9\"><b>! Citește secțiunea Atenționări înainte de a aplica o recomandare.</b></font><br/>"
-        "<font color=\"#D8F1E6\">→ Sursele aferente fiecărei recomandări sunt accesibile din document.</font>",
+        "<font color=\"#C85C4A\"><b>! Citește secțiunea Atenționări înainte de a aplica o recomandare.</b></font><br/>"
+        "<font color=\"#0F5C5E\">→ Sursele aferente fiecărei recomandări sunt accesibile din document.</font>",
         styles["NaturalCoverInfo"],
     ))
-    story.append(Spacer(1, 10.5 * mm))
+    story: list[Any] = [CoverPanel(
+        cover_content,
+        visible_height=56 * mm,
+        page_top_extension=20 * mm,
+    )]
+    story.append(Spacer(1, 6 * mm))
 
     headings = (
         "uz_intern",
@@ -625,11 +704,14 @@ def create_pdf(
 
     for key in headings:
         presentation = SECTION_PRESENTATION[key]
-        section_content: list[Flowable] = [_section_heading(key, section_styles[key])]
+        section_content: list[Flowable] = [
+            _section_heading(key, section_styles[key]),
+            Spacer(1, 2.5 * mm),
+        ]
         items = sections.get(key) or []
         if not items:
             section_content.append(Paragraph(
-                "i Nu au fost identificate informații suficient de relevante în sursele disponibile.",
+                "Nu au fost identificate informații suficient de relevante în sursele disponibile.",
                 styles["NaturalEmpty"],
             ))
         elif key == "nutritie":
@@ -672,40 +754,48 @@ def create_pdf(
                 )
         story.append(RoundedSection(
             section_content,
-            presentation["light"],
+            "#FFFFFF",
             presentation["color"],
             bookmark=f"section-{key}",
             outline=f'{presentation["number"]}. {presentation["label"]}',
         ))
         story.append(Spacer(1, 4 * mm))
 
-    bibliography_heading = BookmarkedParagraph(
-        '<a name="section-bibliografie"/><font size="28" color="#52636D">6</font> '
-        '<font size="17" color="#52636D"><b>→ Bibliografie</b></font>',
-        ParagraphStyle(
-            "NaturalBibliographyHeading", fontName=bold, fontSize=17, leading=34,
-            textColor=colors.HexColor("#52636D"), spaceBefore=12, spaceAfter=11,
-            keepWithNext=True,
+    bibliography_content: list[Flowable] = [
+        Paragraph(
+            '<a name="section-bibliografie"/><font size="15" color="#FFFFFF">'
+            '<b>6. Bibliografie</b></font>',
+            styles["NaturalBibliographyHeading"],
         ),
-        bookmark="section-bibliografie",
-        outline="6. Bibliografie",
-    )
-    story.append(bibliography_heading)
+        Spacer(1, 2.5 * mm),
+    ]
     if references:
         previous_group = ""
         for number, source in enumerate(references, start=1):
             group = _reference_group_label(source)
             if group != previous_group:
-                story.append(Paragraph(escape(group), styles["NaturalBibliographyGroup"]))
+                bibliography_content.append(
+                    Paragraph(escape(group), styles["NaturalBibliographyGroup"])
+                )
                 previous_group = group
             target = source_targets.get(source, "section-uz_intern")
-            story.append(Paragraph(
+            bibliography_content.append(Paragraph(
                 f'<a name="bibliografie-{number}"/><b>{number} -</b> {escape(bibliography_label(source))} '
                 f'<link href="#{target}" color="#52636D"><font size="8.5">← înapoi</font></link>',
                 styles["NaturalBibliography"],
             ))
     else:
-        story.append(Paragraph("Nu există referințe bibliografice utilizate.", styles["NaturalEmpty"]))
+        bibliography_content.append(Paragraph(
+            "Nu există referințe bibliografice utilizate.",
+            styles["NaturalEmpty"],
+        ))
+    story.append(RoundedSection(
+        bibliography_content,
+        "#FFFFFF",
+        "#52636D",
+        bookmark="section-bibliografie",
+        outline="6. Bibliografie",
+    ))
     buffer = BytesIO()
     doc = NatureReportDocTemplate(
         buffer, pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm,
