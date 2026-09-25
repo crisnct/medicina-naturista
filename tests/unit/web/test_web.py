@@ -594,8 +594,9 @@ class WebTests(unittest.TestCase):
 
     # Verify the redesigned chat keeps its responsive, accessible visual contract.
     def test_chat_layout_uses_warm_responsive_design(self):
-        self.assertIn("width: min(100%, 880px) !important", main.APP_CSS)
-        self.assertIn("--chat-content-width: 88%", main.APP_CSS)
+        self.assertIn("width: min(100%, 680px) !important", main.APP_CSS)
+        self.assertIn("zoom: 66%", main.APP_CSS)
+        self.assertIn("--chat-content-width: 100%", main.APP_CSS)
         self.assertIn("width: var(--chat-content-width) !important", main.APP_CSS)
         self.assertIn("--chat-content-width: 100%", main.APP_CSS)
         self.assertIn("--nature-bg: #fff9f2", main.APP_CSS)
@@ -611,7 +612,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(main.message.lines, 1)
         self.assertEqual(main.message.max_lines, 1)
         self.assertIn("#health-message", main.APP_CSS)
-        self.assertIn("height: 56px !important", main.APP_CSS)
+        self.assertIn("height: 76px !important", main.APP_CSS)
         self.assertIn("min-width: 96px !important", main.APP_CSS)
         self.assertIn("#health-message input", main.COMPOSER_STATE_JS)
         self.assertNotIn("event.ctrlKey || event.metaKey", main.COMPOSER_STATE_JS)
@@ -619,14 +620,32 @@ class WebTests(unittest.TestCase):
         self.assertIn("background: transparent !important", main.APP_CSS)
         self.assertIn("#medical-chatbot [data-testid=\"user\"] *", main.APP_CSS)
         self.assertIn("#medical-chatbot .message-row:hover + .message-buttons", main.APP_CSS)
-        self.assertIn("Tratamente Naturiste Adjuvante", main.HERO_HTML)
-        self.assertIn("ornament-fitoterapie-antet.svg", main.APP_CSS)
+        self.assertIn("padding: 14px 18px !important", main.APP_CSS)
+        self.assertIn("text-align: left", main.APP_CSS)
+        self.assertIn(
+            ".hero-title-block {\n    width: 100%;\n    max-width: none;\n    margin: 0;\n}",
+            main.APP_CSS,
+        )
+        self.assertIn("border-right: 4px solid var(--nature-accent)", main.APP_CSS)
+        self.assertIn('#health-message input[data-testid="textbox"]', main.APP_CSS)
+        self.assertIn("font: 32px/1.25 Arial, sans-serif !important", main.APP_CSS)
+        self.assertIn("height: 76px !important", main.APP_CSS)
+        self.assertIn("#medical-chatbot .bubble-wrap > .message-wrap:first-child", main.APP_CSS)
+        self.assertIn("Recomandări Naturiste", main.HERO_HTML)
+        self.assertIn(
+            'background: #f4f9f7 url("data:image/svg+xml;base64,',
+            main.APP_CSS,
+        )
+        self.assertNotIn("__HERO_ORNAMENT_DATA_URI__", main.APP_CSS)
+        self.assertNotIn("#hero-panel::before", main.APP_CSS)
+        self.assertNotIn("#hero-panel::after", main.APP_CSS)
         self.assertTrue(main.ORNAMENT_SVG.is_file())
         self.assertIn('<p class="hero-byline">de la Dr. Cuișor</p>', main.HERO_HTML)
         self.assertIn(".hero-byline", main.APP_CSS)
-        self.assertIn("max-width: min(100%, 620px)", main.APP_CSS)
         self.assertIn("text-align: right", main.APP_CSS)
         self.assertIn("message.submit", Path(main.__file__).read_text(encoding="utf-8"))
+        self.assertNotIn('elem_id="end-session"', Path(main.__file__).read_text(encoding="utf-8"))
+        self.assertNotIn("Închide sesiunea", Path(main.__file__).read_text(encoding="utf-8"))
 
     # Verify PDF pagination, Romanian characters, citations, and bibliography links.
     def test_pdf_diacritics_and_pagination(self):
