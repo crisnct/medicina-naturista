@@ -110,14 +110,20 @@ class Retriever:
         self.max_evidence = settings.max_evidence
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
+        connection = sqlite3.connect(self.index_dir / "index.sqlite3")
+        try:
+            self.document_count = connection.execute("SELECT COUNT(*) FROM files").fetchone()[0]
+        finally:
+            connection.close()
         logger.info(
             "retriever_initialized index=%s search_limit=%s candidates=%s "
-            "context_chars=%s max_evidence=%s",
+            "context_chars=%s max_evidence=%s document_count=%s",
             self.index_dir,
             self.search_limit,
             self.search_candidates,
             self.evidence_context_chars,
             self.max_evidence,
+            self.document_count,
         )
 
     # Expand short indexed excerpts with nearby source lines when the file is available.
@@ -241,6 +247,9 @@ class Retriever:
             evidence[token] = {
                 "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
                 "text": self._context(result)[: self.evidence_context_chars],
+                # Exact-phrase matches never go through rank(), so there is no
+                # hybrid_score to report — they are the strongest possible match.
+                "relevance": "Potrivire exactă pe subiect",
             }
         positions = [0] * len(batches)
         while len(evidence) < self.max_evidence:
@@ -255,6 +264,7 @@ class Retriever:
                     evidence[token] = {
                         "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
                         "text": self._context(result)[: self.evidence_context_chars],
+                        "relevance": f"Scor relevanță: {result['hybrid_score']:.4f}",
                     }
                     progressed = True
                     break

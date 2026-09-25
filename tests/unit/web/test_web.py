@@ -61,6 +61,7 @@ class FakeRetriever:
             "C1": {
                 "source": "documents/plan.md:1-5",
                 "text": "Informație locală relevantă.",
+                "relevance": "Scor relevanță: 0.0167",
             }
         }
 
@@ -420,14 +421,34 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        evidence = Retriever(settings.index_dir, settings.documents_dir).collect(session)
+        # Pin generous retrieval parameters instead of relying on whatever
+        # RETRIEVAL_LIMIT/RETRIEVAL_CANDIDATES/MAX_EVIDENCE happen to be set
+        # to in .env. Those are meant to stay freely tunable for the running
+        # app, so this test's correctness must not be coupled to them —
+        # otherwise a legitimate production tuning change makes this test
+        # flaky without any real regression in the retrieval logic. `settings`
+        # is a frozen dataclass, so the override is applied to the Retriever
+        # instance's own (plain, mutable) attributes instead.
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever.search_limit = 250
+        retriever.search_candidates = 1500
+        retriever.max_evidence = 2000
+        evidence = retriever.collect(session)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
         self.assertLessEqual(len(evidence), 2000)
+        # Whitespace-normalized: when the raw chunk text is short (< 600 chars,
+        # true here), retrieval.py's _context() re-expands it from the source
+        # file's own lines (±5/4 lines of surrounding context). That source
+        # file carries incidental trailing spaces before some line breaks, so
+        # the rebuilt text's line-wrapping doesn't exactly match the chunk's
+        # originally stored text. A literal "\n"-exact match is therefore
+        # fragile against that formatting artifact — normalize like the
+        # source_excerpt comparison below already does.
         reflection = next(
             item for item in evidence.values()
             if "Marele dict" in item["source"]
-            and "nevoie de\nodihnă sau de o pauză" in item["text"]
+            and "nevoie de odihnă sau de o pauză" in " ".join(item["text"].split())
         )
         relative_path, line_range = reflection["source"].removeprefix("documents/").rsplit(":", 1)
         line_start, line_end = (int(value) for value in line_range.split("-", 1))
@@ -459,6 +480,59 @@ class WebTests(unittest.TestCase):
         self.assertTrue(context.startswith("Secțiune: Gripă > Uz intern\n\n"))
         self.assertIn(result["text"], context)
 
+    # Verify exact-topic matches are pulled into their own top section ahead
+    # of every numeric-scored fragment, and that fragments within each
+    # remaining document group are sorted by relevance score descending.
+    def test_fragments_panel_prioritizes_exact_matches_and_sorts_by_score(self):
+        evidence = {
+            "C1": {
+                "source": "documents/doc-a.md:1-5",
+                "text": "Scor mic",
+                "relevance": "Scor relevanță: 0.0100",
+            },
+            "C2": {
+                "source": "documents/doc-z-exact.md:10-15",
+                "text": "Potrivire z",
+                "relevance": "Potrivire exactă pe subiect",
+            },
+            "C3": {
+                "source": "documents/doc-a.md:20-25",
+                "text": "Scor mare",
+                "relevance": "Scor relevanță: 0.0500",
+            },
+            "C4": {
+                "source": "documents/doc-b-exact.md:1-5",
+                "text": "Potrivire b",
+                "relevance": "Potrivire exactă pe subiect",
+            },
+        }
+
+        fragments_html = main._fragments_panel_html(evidence)
+
+        # Flat list, no per-document grouping and no section heading for
+        # exact matches — just ordering: exact matches (by document name),
+        # then everything else (by score, descending).
+        self.assertIn("fragments-panel-header", fragments_html)
+        self.assertNotIn("Potriviri exacte pe subiect", fragments_html)
+        self.assertNotIn('class="fragments-panel-doc"', fragments_html)
+
+        position_b = fragments_html.index("Potrivire b")
+        position_z = fragments_html.index("Potrivire z")
+        position_high_score = fragments_html.index("Scor mare")
+        position_low_score = fragments_html.index("Scor mic")
+        self.assertLess(position_b, position_z, "exact matches must be ordered by document name")
+        self.assertLess(position_z, position_high_score, "exact matches must lead over every scored fragment")
+        self.assertLess(position_high_score, position_low_score, "higher relevance score must render first")
+
+        # Score/relevance and source document render together, one per
+        # fragment, as "Scor relevanță: X, document.md".
+        self.assertIn("Potrivire exactă pe subiect, doc-b-exact.md", fragments_html)
+        self.assertIn("Potrivire exactă pe subiect, doc-z-exact.md", fragments_html)
+        self.assertIn("Scor relevanță: 0.0500, doc-a.md", fragments_html)
+        self.assertIn("Scor relevanță: 0.0100, doc-a.md", fragments_html)
+
+        self.assertIn("Total: 4 fragmente din 3 documente.", fragments_html)
+
     # Verify that one submitted health answer triggers report generation and download.
     def test_chat_automatically_generates_report_after_single_answer(self):
         sid_a = "A" * 43
@@ -476,13 +550,43 @@ class WebTests(unittest.TestCase):
             self.assertEqual(link, "")
             main.on_load(req_b)
 
-            _, history, link = main.on_message("Gripă și răceală", req_a)
-            self.assertIn("Pregătesc recomandările", history[-1]["content"])
+            _, history, link, fragments_html, generate_update = main.on_message("Gripă și răceală", req_a)
+            self.assertIn("Caut în cele", history[-1]["content"])
             self.assertEqual(link, "")
+            self.assertEqual(fragments_html, "")
+            self.assertEqual(generate_update, main.gr.update(visible=False))
             self.assertEqual(FakeAI.generate_calls, 0)
 
-            history, link = main.on_auto_report(req_a)
+            history, fragments_html, row_update, button_update = main.on_find_fragments(req_a)
+            self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
+            # The "found N fragments" summary now lives inside the fragments
+            # panel itself, not as a separate chat bubble — chat history is
+            # unchanged by on_find_fragments on the success path.
+            self.assertIn("Caut în cele", history[-1]["content"])
+            self.assertIn("Fragmentele relevante", fragments_html)
+            self.assertIn("Am găsit", fragments_html)
+            self.assertIn("1 fragmente", fragments_html)
+            self.assertIn("Informație locală relevantă.", fragments_html)
+            self.assertIn("plan.md", fragments_html)
+            self.assertIn("Scor relevanță", fragments_html)
+            self.assertIn("Total: 1 fragmente din 1 documente.", fragments_html)
+            self.assertEqual(row_update, main.gr.update(visible=True))
+            self.assertEqual(button_update, main.generate_button_ready_update())
+            self.assertEqual(
+                main.store.get(sid_a, "tab-a").pending_evidence,
+                {
+                    "C1": {
+                        "source": "documents/plan.md:1-5",
+                        "text": "Informație locală relevantă.",
+                        "relevance": "Scor relevanță: 0.0167",
+                    }
+                },
+            )
+
+            history, link, row_update, button_update = main.on_generate_report(req_a)
             self.assertEqual(FakeAI.generate_calls, 1)
+            self.assertEqual(row_update, main.gr.update(visible=False))
+            self.assertIsNone(main.store.get(sid_a, "tab-a").pending_evidence)
             send_report_mock.assert_called_once()
             self.assertEqual(send_report_mock.call_args.args[0], "Gripă și răceală")
             self.assertTrue(send_report_mock.call_args.args[1].startswith(b"%PDF-"))
@@ -526,19 +630,24 @@ class WebTests(unittest.TestCase):
         ), patch.object(main, "retriever", FakeRetriever()):
             main.on_load(request)
             main.on_message("Gripă și răceală", request)
-            main.on_auto_report(request)
+            main.on_find_fragments(request)
+            main.on_generate_report(request)
             first_report_id = main.store.get(sid, "tab-latest-problem").report_id
 
-            _, _, link = main.on_message("Migrenă", request)
+            _, _, link, fragments_html, generate_update = main.on_message("Migrenă", request)
             session = main.store.get(sid, "tab-latest-problem")
             self.assertEqual(link, "")
+            self.assertEqual(fragments_html, "")
+            self.assertEqual(generate_update, main.gr.update(visible=False))
             self.assertIsNone(session.report_id)
             self.assertIsNone(session.report_bytes)
+            self.assertIsNone(session.pending_evidence)
             self.assertEqual(session.profile.health_problem, "Migrenă")
             self.assertEqual(session.profile.health_context, ["Migrenă"])
             self.assertEqual(session.profile.transcript, [{"role": "user", "content": "Migrenă"}])
 
-            _, link = main.on_auto_report(request)
+            main.on_find_fragments(request)
+            _, link, _, _ = main.on_generate_report(request)
             session = main.store.get(sid, "tab-latest-problem")
             self.assertEqual(FakeAI.generate_calls, 2)
             self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
@@ -565,8 +674,9 @@ class WebTests(unittest.TestCase):
         ):
             main.on_load(request)
             main.on_message("Gripă și răceală", request)
+            main.on_find_fragments(request)
             with self.assertLogs("naturist.web", level="ERROR") as captured:
-                history, link = main.on_auto_report(request)
+                history, link, _, _ = main.on_generate_report(request)
 
         session = main.store.get(sid, "tab-email-failure")
         self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
@@ -612,7 +722,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(main.message.lines, 1)
         self.assertEqual(main.message.max_lines, 1)
         self.assertIn("#health-message", main.APP_CSS)
-        self.assertIn("height: 76px !important", main.APP_CSS)
+        self.assertIn("height: 38px !important", main.APP_CSS)
         self.assertIn("min-width: 96px !important", main.APP_CSS)
         self.assertIn("#health-message input", main.COMPOSER_STATE_JS)
         self.assertNotIn("event.ctrlKey || event.metaKey", main.COMPOSER_STATE_JS)
@@ -628,8 +738,8 @@ class WebTests(unittest.TestCase):
         )
         self.assertIn("border-right: 4px solid var(--nature-accent)", main.APP_CSS)
         self.assertIn('#health-message input[data-testid="textbox"]', main.APP_CSS)
-        self.assertIn("font: 32px/1.25 Arial, sans-serif !important", main.APP_CSS)
-        self.assertIn("height: 76px !important", main.APP_CSS)
+        self.assertIn("font: 22px/1.15 Arial, sans-serif !important", main.APP_CSS)
+        self.assertIn("height: 38px !important", main.APP_CSS)
         self.assertIn("#medical-chatbot .bubble-wrap > .message-wrap:first-child", main.APP_CSS)
         self.assertIn("Recomandări Naturiste", main.HERO_HTML)
         self.assertIn(

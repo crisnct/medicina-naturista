@@ -10,6 +10,8 @@
     --nature-border: #dde9e2;
     --nature-soft: #f1f8f4;
     --nature-focus: #be5d3f;
+    --nature-danger: #c1352b;
+    --nature-danger-hover: #a02a22;
 }
 
 body,
@@ -372,6 +374,172 @@ body,
     margin-bottom: 0.65em;
 }
 
+#fragments-panel {
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+#fragments-panel:not(:has(.fragments-panel-inner)) {
+    display: none !important;
+}
+
+#fragments-panel {
+    margin-top: -14px !important;
+}
+
+.fragments-panel-inner {
+    box-sizing: border-box;
+    max-height: 640px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 18px 16px;
+    border: 1px solid var(--nature-border);
+    border-radius: 16px;
+    background: var(--nature-soft);
+}
+
+/* Stays pinned above the scrollable fragment list (position: sticky) so it
+   never scrolls out of view. The negative side margins + matching padding
+   cancel out .fragments-panel-inner's own side padding so the sticky header
+   spans the full width and fully covers scrolled-under content, instead of
+   leaving a gap at the edges. */
+.fragments-panel-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin: 0 -18px;
+    padding: 16px 18px 12px;
+    background: var(--nature-soft);
+}
+
+.fragments-panel-title {
+    margin: 0 0 10px;
+    color: var(--nature-text);
+    font-size: 19px;
+    font-weight: 700;
+    overflow-wrap: break-word;
+}
+
+.fragments-panel-banner {
+    margin: 0;
+    padding: 12px 14px;
+    border-left: 3px solid var(--nature-primary);
+    border-radius: 8px;
+    background: var(--nature-surface);
+    color: var(--nature-text);
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
+.fragments-panel-fragment {
+    margin: 0 0 10px;
+    padding: 8px 10px;
+    border-left: 3px solid var(--nature-border);
+    overflow-wrap: break-word;
+}
+
+.fragments-panel-fragment:last-child {
+    margin-bottom: 0;
+}
+
+.fragments-panel-fragment-text {
+    margin: 0;
+    color: var(--nature-text);
+    font-size: 17.5px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.fragments-panel-fragment-score {
+    margin: 4px 0 0;
+    color: var(--nature-muted);
+    font-size: 15px;
+    overflow-wrap: break-word;
+    font-style: italic;
+}
+
+.fragments-panel-summary {
+    margin: 14px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--nature-border);
+    color: var(--nature-muted);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#generate-recipe-panel {
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 18px !important;
+    padding: 16px 18px !important;
+    border: 1px solid #f0c9c5 !important;
+    border-radius: 16px !important;
+    background: #fdf1f0 !important;
+}
+
+.generate-recipe-copy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--nature-text);
+}
+
+.generate-recipe-icon {
+    font-size: 24px;
+}
+
+.generate-recipe-copy strong {
+    display: block;
+    color: #000;
+    font-weight: 700;
+}
+
+#generate-recipe {
+    display: inline-flex !important;
+    width: auto !important;
+    min-height: 46px !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 11px 17px !important;
+    border: 0 !important;
+    border-radius: 12px !important;
+    background: var(--nature-primary) !important;
+    box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22) !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+}
+
+#generate-recipe:hover:not(:disabled) {
+    background: var(--nature-primary-hover) !important;
+    transform: translateY(-1px);
+}
+
+#generate-recipe:disabled {
+    cursor: not-allowed !important;
+    background: #9cb9b0 !important;
+    box-shadow: none !important;
+    opacity: 0.75 !important;
+}
+
+#generate-recipe:focus-visible {
+    outline: 3px solid var(--nature-focus) !important;
+    outline-offset: 3px !important;
+}
+
 #report-download {
     width: var(--chat-content-width) !important;
     max-width: var(--chat-content-width) !important;
@@ -462,9 +630,9 @@ body,
 }
 
 #health-message {
-    height: 76px !important;
-    min-height: 76px !important;
-    max-height: 76px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
     min-width: 0 !important;
     padding: 0 !important;
     border: 0 !important;
@@ -475,23 +643,23 @@ body,
 
 #health-message > label,
 #health-message .input-container {
-    height: 76px !important;
-    min-height: 76px !important;
-    max-height: 76px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
 }
 
 #health-message input[data-testid="textbox"],
 #health-message textarea {
     box-sizing: border-box !important;
-    height: 76px !important;
-    min-height: 76px !important;
-    max-height: 76px !important;
-    padding: 12px 16px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+    padding: 6px 16px !important;
     border: 1px solid var(--nature-border) !important;
     border-radius: 14px !important;
     background: #fffdf9 !important;
     color: var(--nature-text) !important;
-    font: 32px/1.25 Arial, sans-serif !important;
+    font: 22px/1.15 Arial, sans-serif !important;
     resize: none !important;
     overflow: hidden !important;
 }
@@ -512,9 +680,9 @@ body,
     width: 180px !important;
     min-width: 180px !important;
     max-width: 180px !important;
-    height: 76px !important;
-    min-height: 76px !important;
-    max-height: 76px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
     align-self: stretch !important;
     align-items: center !important;
     justify-content: center !important;
@@ -583,12 +751,14 @@ body,
     }
 
     .report-ready-panel,
+    #generate-recipe-panel,
     #message-row {
         align-items: stretch !important;
         flex-direction: column !important;
     }
 
     .pdf-download,
+    #generate-recipe,
     #send-message {
         width: 100% !important;
         min-width: 100% !important;
@@ -596,9 +766,9 @@ body,
     }
 
     #send-message {
-        height: 76px !important;
-        min-height: 76px !important;
-        max-height: 76px !important;
+        height: 38px !important;
+        min-height: 38px !important;
+        max-height: 38px !important;
     }
 }
 
