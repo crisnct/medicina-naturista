@@ -82,7 +82,10 @@ class SessionData:
     history: list[dict[str, str]] = field(default_factory=list)
     report_bytes: bytes | None = None
     report_id: str | None = None
-    auto_report_pending: bool = False
+    # Evidence found by the retrieval-only stage, shown to the patient before
+    # they choose to send it to the AI. Consumed (not recomputed) by report
+    # generation, so the fragments the patient reviewed are exactly the ones sent.
+    pending_evidence: dict[str, dict[str, str]] | None = None
     lock: threading.RLock = field(default_factory=threading.RLock)
 
     def touch(self) -> None:
