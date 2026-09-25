@@ -10,14 +10,16 @@ from unittest.mock import patch
 
 from fastapi.testclient import TestClient
 from pypdf import PdfReader
+from reportlab.lib import colors
+from reportlab.lib.styles import ParagraphStyle
 
 from search_medical_embeddings import _normalize_fastembed_metadata
-from web_app import main
+from web_app import main, reports as reports_module
 import web_app.ai as ai_module
 from web_app.ai import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from web_app.config import settings
 from web_app.profile import HEALTH_PROBLEM_QUESTION, HealthProfile
-from web_app.reports import create_pdf, format_recommendation, report_title
+from web_app.reports import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
 from web_app.retrieval import Retriever, _meaningful_words, consultation_queries
 from web_app.sessions import SessionStore
 
@@ -113,6 +115,19 @@ class WebTests(unittest.TestCase):
         self.assertIsNone(profile.next_question())
         self.assertEqual(profile.as_dict()["health_problem"], "Gripă și răceală")
         self.assertEqual(set(profile.as_dict()), {"health_problem", "health_context", "transcript"})
+
+    # Verify a later problem fully replaces the active retrieval/report context.
+    def test_profile_replaces_previous_health_problem_context(self):
+        profile = HealthProfile()
+        profile.set_health_problem("Gripă și răceală")
+        profile.add_transcript("user", "Gripă și răceală")
+        profile.add_health_context("Simptome de trei zile")
+
+        profile.replace_health_problem("Migrenă")
+
+        self.assertEqual(profile.health_problem, "Migrenă")
+        self.assertEqual(profile.health_context, ["Migrenă"])
+        self.assertEqual(profile.transcript, [{"role": "user", "content": "Migrenă"}])
 
     # Verify that report recommendation labels use bold emphasis without underlining.
     def test_recommendation_label_is_bold_and_underlined(self):
@@ -438,7 +453,7 @@ class WebTests(unittest.TestCase):
             main.on_load(req_b)
 
             _, history, link = main.on_message("Gripă și răceală", req_a)
-            self.assertIn("a început generarea", history[-1]["content"])
+            self.assertIn("Pregătesc recomandările", history[-1]["content"])
             self.assertEqual(link, "")
             self.assertEqual(FakeAI.generate_calls, 0)
 
@@ -454,6 +469,7 @@ class WebTests(unittest.TestCase):
             self.assertIn("[1]", history[-1]["content"])
             self.assertIn("Bibliografie", history[-1]["content"])
             self.assertIn("1 - plan.md:1-5", history[-1]["content"])
+            self.assertNotIn("Folosiți butonul Descarcă PDF", history[-1]["content"])
             self.assertEqual(len(main.store.get(sid_b, "tab-b").history), 2)
 
             session_a = main.store.get(sid_a, "tab-a")
@@ -473,6 +489,47 @@ class WebTests(unittest.TestCase):
             self.assertIsNone(main.store.get(sid_a, "tab-a"))
             self.assertIsNotNone(main.store.get(sid_b, "tab-b"))
             main.store.delete(sid_b, "tab-b")
+
+    # Verify a second submission in the same session generates only for the latest problem.
+    def test_second_health_problem_replaces_first_report_context(self):
+        sid = "C" * 43
+        request = FakeRequest(sid, "tab-latest-problem")
+        FakeAI.generate_calls = 0
+        FakeAI.report_profile = None
+
+        with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
+            main, "ai", FakeAI()
+        ), patch.object(main, "retriever", FakeRetriever()):
+            main.on_load(request)
+            main.on_message("Gripă și răceală", request)
+            main.on_auto_report(request)
+            first_report_id = main.store.get(sid, "tab-latest-problem").report_id
+
+            _, _, link = main.on_message("Migrenă", request)
+            session = main.store.get(sid, "tab-latest-problem")
+            self.assertEqual(link, "")
+            self.assertIsNone(session.report_id)
+            self.assertIsNone(session.report_bytes)
+            self.assertEqual(session.profile.health_problem, "Migrenă")
+            self.assertEqual(session.profile.health_context, ["Migrenă"])
+            self.assertEqual(session.profile.transcript, [{"role": "user", "content": "Migrenă"}])
+
+            _, link = main.on_auto_report(request)
+            session = main.store.get(sid, "tab-latest-problem")
+            self.assertEqual(FakeAI.generate_calls, 2)
+            self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
+            self.assertEqual(FakeAI.report_profile["health_context"], ["Migrenă"])
+            self.assertNotEqual(session.report_id, first_report_id)
+            self.assertIn("Descarcă PDF", link)
+            self.assertEqual(send_report_mock.call_count, 2)
+            self.assertEqual(send_report_mock.call_args.args[0], "Migrenă")
+            pdf_text = " ".join(
+                page.extract_text() for page in PdfReader(io.BytesIO(session.report_bytes)).pages
+            )
+            self.assertIn("Migrenă", " ".join(pdf_text.split()))
+            self.assertNotIn("Gripă și răceală", " ".join(pdf_text.split()))
+
+        main.store.delete(sid, "tab-latest-problem")
 
     # Verify Google API failure does not remove the generated report or add an email error to chat history.
     def test_email_failure_keeps_report_available_and_history_unchanged(self):
@@ -504,17 +561,48 @@ class WebTests(unittest.TestCase):
         with patch.dict(os.environ, {"GRADIO_ROOT_PATH": "/medicina"}):
             link = main._download_html(session)
         self.assertIn('/medicina/api/reports/tab-public/report-1', link)
+        self.assertIn('class="report-ready-panel"', link)
+        self.assertIn('aria-hidden="true">✅</span>', link)
+        self.assertIn("<strong>Raportul complet este gata</strong>", link)
+        self.assertIn("📄</span> Descarcă PDF", link)
+        self.assertIn('aria-label="Descarcă raportul complet în format PDF"', link)
         main.store.delete(sid, "tab-public")
 
-    # Verify the chat has content-driven height and a half-width desktop layout.
-    def test_chat_layout_is_content_driven_and_half_width(self):
-        self.assertIn("width: min(50%, 700px) !important", main.APP_CSS)
-        self.assertIn(".app-content-width", main.APP_CSS)
-        self.assertIn('[data-testid="markdown"]', main.APP_CSS)
-        self.assertIn("text-align: left !important", main.APP_CSS)
-        self.assertIn("flex: 0 1 auto !important", main.APP_CSS)
+    # Verify the redesigned chat keeps its responsive, accessible visual contract.
+    def test_chat_layout_uses_warm_responsive_design(self):
+        self.assertIn("width: min(100%, 880px) !important", main.APP_CSS)
+        self.assertIn("--chat-content-width: 88%", main.APP_CSS)
+        self.assertIn("width: var(--chat-content-width) !important", main.APP_CSS)
+        self.assertIn("--chat-content-width: 100%", main.APP_CSS)
+        self.assertIn("--nature-bg: #fff9f2", main.APP_CSS)
+        self.assertIn("--nature-primary: #2f7d6d", main.APP_CSS)
+        self.assertIn("font-family: Arial", main.APP_CSS)
+        self.assertIn("assistant left, user right", main.APP_CSS)
+        self.assertIn("#report-download:not(:has(.report-ready-panel))", main.APP_CSS)
+        self.assertIn("@media (max-width: 640px)", main.APP_CSS)
+        self.assertIn("@media (prefers-reduced-motion: reduce)", main.APP_CSS)
         self.assertIn("#medical-chatbot .wrapper", main.APP_CSS)
         self.assertIn("height: auto !important", main.APP_CSS)
+        self.assertEqual(main.chatbot.buttons, ["copy"])
+        self.assertEqual(main.message.lines, 1)
+        self.assertEqual(main.message.max_lines, 1)
+        self.assertIn("#health-message", main.APP_CSS)
+        self.assertIn("height: 56px !important", main.APP_CSS)
+        self.assertIn("min-width: 96px !important", main.APP_CSS)
+        self.assertIn("#health-message input", main.COMPOSER_STATE_JS)
+        self.assertNotIn("event.ctrlKey || event.metaKey", main.COMPOSER_STATE_JS)
+        self.assertIn("#medical-chatbot .message-row.user-row > .flex-wrap", main.APP_CSS)
+        self.assertIn("background: transparent !important", main.APP_CSS)
+        self.assertIn("#medical-chatbot [data-testid=\"user\"] *", main.APP_CSS)
+        self.assertIn("#medical-chatbot .message-row:hover + .message-buttons", main.APP_CSS)
+        self.assertIn("Tratamente Naturiste Adjuvante", main.HERO_HTML)
+        self.assertIn("ornament-fitoterapie-antet.svg", main.APP_CSS)
+        self.assertTrue(main.ORNAMENT_SVG.is_file())
+        self.assertIn('<p class="hero-byline">de la Dr. Cuișor</p>', main.HERO_HTML)
+        self.assertIn(".hero-byline", main.APP_CSS)
+        self.assertIn("max-width: min(100%, 620px)", main.APP_CSS)
+        self.assertIn("text-align: right", main.APP_CSS)
+        self.assertIn("message.submit", Path(main.__file__).read_text(encoding="utf-8"))
 
     # Verify PDF pagination, Romanian characters, citations, and bibliography links.
     def test_pdf_diacritics_and_pagination(self):
@@ -535,6 +623,7 @@ class WebTests(unittest.TestCase):
         self.assertGreater(len(pages), 1)
         text = "\n".join(page.extract_text() for page in pages)
         self.assertIn("ă â î ș ț", text)
+        self.assertIn("de la dr. Cuișor", text)
         self.assertIn("Surse 1-2", text)
         self.assertNotIn("Cuprins", text)
         self.assertIn("Bibliografie", text)
@@ -551,6 +640,42 @@ class WebTests(unittest.TestCase):
         ]
         self.assertGreaterEqual(len(links), 2)
         self.assertTrue(all("/Dest" in link for link in links))
+
+    # Verify the PDF uses clean numbered headers and outlined white section cards.
+    def test_pdf_section_headers_use_colored_bands_without_symbols(self):
+        for presentation in SECTION_PRESENTATION.values():
+            self.assertNotIn("symbol", presentation)
+
+        _, bold = reports_module._register_fonts()
+        heading = reports_module._section_heading(
+            "uz_intern",
+            ParagraphStyle(
+                "TestSectionHeading",
+                fontName=bold,
+                fontSize=15,
+                leading=20,
+                textColor=colors.white,
+            ),
+        )
+        self.assertIn("1. Uz intern", heading.text)
+        self.assertNotIn("●", heading.text)
+
+        source = Path(reports_module.__file__).read_text(encoding="utf-8")
+        self.assertIn("class CoverPanel", source)
+        self.assertIn("visible_height=56 * mm", source)
+        self.assertIn("self.canv.setFillColor(colors.white)", source)
+        self.assertIn("self.canv.setFillColor(self.border)", source)
+        self.assertIn("ORNAMENT_PNG", source)
+        self.assertIn("ornament_width = width - 36 * mm", source)
+        self.assertIn("ornament_height = ornament_width * 724 / 2172", source)
+        self.assertNotIn("canvas.roundRect(18 * mm, 15.5 * mm", source)
+        self.assertIn('Paragraph("de la dr. Cuișor", styles["NaturalCoverByline"])', source)
+        self.assertIn("self.padding = 7", source)
+        self.assertIn("story.append(Spacer(1, 6 * mm))", source)
+        self.assertIn("Spacer(1, 2.5 * mm)", source)
+        self.assertIn("self.bookmark and len(first_content) <= 2", source)
+        self.assertIn('bookmark="section-bibliografie"', source)
+        self.assertIn('"#52636D",', source)
 
     # Verify sessions do not retain unsupported attachment state.
     def test_session_store_has_no_attachment_state(self):

@@ -15,7 +15,7 @@ from urllib.parse import quote, urlparse
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import Response
+from fastapi.responses import FileResponse, Response
 
 from web_app.config import settings
 
@@ -49,13 +49,14 @@ logging.basicConfig(
 )
 COOKIE = "naturist_sid"
 COOKIE_RE = re.compile(r"^[A-Za-z0-9_-]{32,64}$")
-WELCOME = "Bună ziua!"
-REPORT_STARTED = "Acum a început generarea recomandărilor naturiste. Vă rog să așteptați."
+WELCOME = "Bună ziua! 👋"
+REPORT_STARTED = "⏳ Pregătesc recomandările naturiste pe baza surselor locale. Vă rog să așteptați."
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
 ai = XAIClient(settings)
 app = FastAPI(title="Chatbot naturist", docs_url=None, redoc_url=None, openapi_url=None)
 app.add_middleware(CORSMiddleware, allow_origins=[], allow_methods=[], allow_headers=[])
+ORNAMENT_SVG = Path(__file__).with_name("ornament-fitoterapie-antet.svg")
 
 rate_lock = __import__("threading").Lock()
 rate_events: dict[str, deque[float]] = defaultdict(deque)
@@ -107,8 +108,16 @@ def _download_html(session: SessionData) -> str:
     url = f"{prefix}/api/reports/{quote(session.tab_id, safe='')}/{quote(session.report_id, safe='')}"
     filename = _report_filename(session)
     return (
+        '<section class="report-ready-panel" role="status" aria-live="polite">'
+        '<div class="report-ready-copy">'
+        '<span class="report-ready-icon" aria-hidden="true">✅</span>'
+        '<span><strong>Raportul complet este gata</strong>'
+        '<small>Îl puteți salva pentru a-l consulta oricând.</small></span>'
+        '</div>'
         f'<a href="{html.escape(url, quote=True)}" download="{html.escape(filename, quote=True)}" '
-        'class="pdf-download">Descarcă PDF</a>'
+        'class="pdf-download" aria-label="Descarcă raportul complet în format PDF">'
+        '<span aria-hidden="true">📄</span> Descarcă PDF</a>'
+        '</section>'
     )
 
 
@@ -136,7 +145,7 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
     )
     sections = sort_sections_by_source_count(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
-    lines = ["Raportul este gata. Recomandările susținute de surse:"]
+    lines = ["✅ Raportul este gata. Recomandările susținute de surse:"]
     found = False
     for key, label in labels:
         items = sections.get(key) or []
@@ -179,7 +188,6 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
             f"{number} - {bibliography_label(source)}"
             for number, source in enumerate(references, start=1)
         )
-    lines.append("\nFolosiți butonul Descarcă PDF pentru raportul complet.")
     return "\n".join(lines)[:14000]
 
 
@@ -270,6 +278,12 @@ def healthz():
     return {"status": "ok", "index": "ready"}
 
 
+@app.get("/assets/ornament-fitoterapie-antet.svg")
+async def ornament_asset() -> FileResponse:
+    """Serve the shared botanical ornament to the Gradio page."""
+    return FileResponse(ORNAMENT_SVG, media_type="image/svg+xml")
+
+
 @app.get("/api/reports/{tab_id}/{report_id}")
 # Return the PDF belonging to the current tab and report identifier.
 def download(tab_id: str, report_id: str, request: Request):
@@ -312,21 +326,17 @@ def on_message(message: str, request: gr.Request):
     if len(message) > settings.max_chat_chars:
         raise gr.Error(f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
     with session.lock:
-        had_health_problem = bool(session.profile.health_problem)
+        previous_health_problem = session.profile.health_problem
         _append(session, "user", message)
-        session.profile.add_transcript("user", message)
         session.clear_report()
-        if not session.profile.health_problem:
-            session.profile.set_health_problem(message)
-        else:
-            session.profile.add_health_context(message)
+        session.profile.replace_health_problem(message)
         session.auto_report_pending = True
         _append(session, "assistant", REPORT_STARTED)
         logger.info(
-            "user_message_accepted tab_id=%s chars=%s new_health_problem=%s health_context_entries=%s",
+            "user_message_accepted tab_id=%s chars=%s replaced_health_problem=%s health_context_entries=%s",
             session.tab_id,
             len(message),
-            not had_health_problem,
+            bool(previous_health_problem),
             len(session.profile.health_context),
         )
         return "", list(session.history), _download_html(session)
@@ -431,12 +441,9 @@ def on_unload(request: gr.Request) -> None:
         pass
 
 
-theme = gr.themes.Soft(
-    font=[gr.themes.GoogleFont("Inter"), "Arial", "sans-serif"]
-)
+theme = gr.themes.Soft(font=["Arial", "sans-serif"])
 
-AUTO_SCROLL_JS = """
-() => {
+AUTO_SCROLL_JS = """() => {
     const scrollToLatestMessage = () => {
         const chat = document.getElementById("medical-chatbot");
         const messages = chat?.querySelectorAll('[data-testid="bot"], [data-testid="user"], .message');
@@ -451,15 +458,264 @@ AUTO_SCROLL_JS = """
 }
 """
 
+COMPOSER_STATE_JS = """() => {
+    const root = document.getElementById("app-shell") || document;
+    const getField = () => root.querySelector("#health-message input, #health-message textarea");
+    const getButton = () => root.querySelector("#send-message");
+
+    const syncButton = () => {
+        const field = getField();
+        const button = getButton();
+        if (!field || !button) return;
+        const processing = button.textContent.includes("Se pregătește");
+        const disabled = processing || field.value.trim().length === 0;
+        button.disabled = disabled;
+        button.setAttribute("aria-disabled", String(disabled));
+    };
+
+    if (!window.__naturistComposerBound) {
+        window.__naturistComposerBound = true;
+        document.addEventListener("input", (event) => {
+            if (event.target.matches?.("#health-message input, #health-message textarea")) syncButton();
+        });
+        document.addEventListener("click", (event) => {
+            if (event.target.closest?.("#send-message")) {
+                window.setTimeout(syncButton, 120);
+            }
+        });
+        new MutationObserver(() => window.requestAnimationFrame(syncButton)).observe(root, {
+            childList: true,
+            subtree: true,
+        });
+    }
+    syncButton();
+}
+"""
+
 APP_CSS = """
-.pdf-download {
-    display: inline-block;
-    background: #176c73;
-    color: white !important;
-    padding: 12px 18px;
-    border-radius: 8px;
+:root {
+    --nature-bg: #fff9f2;
+    --nature-surface: #ffffff;
+    --nature-primary: #2f7d6d;
+    --nature-primary-hover: #246657;
+    --nature-accent: #ed8a68;
+    --nature-text: #24332e;
+    --nature-muted: #66736e;
+    --nature-border: #dde9e2;
+    --nature-soft: #f1f8f4;
+    --nature-focus: #be5d3f;
+}
+
+body,
+.gradio-container {
+    min-height: 100vh;
+    font-family: Arial, sans-serif !important;
+    color: var(--nature-text) !important;
+    background:
+        radial-gradient(circle at 8% 10%, rgba(237, 138, 104, 0.12), transparent 24rem),
+        radial-gradient(circle at 94% 4%, rgba(47, 125, 109, 0.13), transparent 27rem),
+        var(--nature-bg) !important;
+}
+
+.gradio-container {
+    padding: 24px 16px 48px !important;
+}
+
+.gradio-container .main,
+.gradio-container .wrap,
+.gradio-container main.contain {
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#app-shell {
+    width: min(100%, 880px) !important;
+    max-width: 880px !important;
+    margin: 0 auto !important;
+    gap: 20px !important;
+}
+
+#app-shell .html-container {
+    padding: 0 !important;
+}
+
+#hero-panel {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 34px 38px 30px;
+    border: 1px solid rgba(47, 125, 109, 0.18);
+    border-radius: 20px;
+    background-color: #f4f9f7;
+    background-image: url("/assets/ornament-fitoterapie-antet.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 18px 46px rgba(36, 51, 46, 0.08);
+}
+
+#hero-component {
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+#hero-panel::before,
+#hero-panel::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: 60% 40% 64% 36%;
+    transform: rotate(-24deg);
+}
+
+#hero-panel::before {
+    width: 170px;
+    height: 105px;
+    right: -40px;
+    top: -28px;
+    background: rgba(47, 125, 109, 0.13);
+}
+
+#hero-panel::after {
+    width: 110px;
+    height: 70px;
+    right: 72px;
+    bottom: -38px;
+    background: rgba(237, 138, 104, 0.16);
+}
+
+.hero-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+    padding: 8px 12px;
+    border: 1px solid rgba(47, 125, 109, 0.2);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.78);
+    color: var(--nature-primary);
+    font-size: 14px;
     font-weight: 700;
-    text-decoration: none;
+}
+
+#hero-title {
+    max-width: 620px;
+    margin: 0;
+    color: var(--nature-text);
+    font-size: clamp(30px, 5vw, 44px);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+}
+
+.hero-title-block {
+    width: fit-content;
+    max-width: min(100%, 620px);
+}
+
+.hero-byline {
+    margin: 7px 3px 0;
+    color: var(--nature-primary);
+    font-size: clamp(16px, 2.2vw, 20px);
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: right;
+}
+
+.hero-description {
+    max-width: 615px;
+    margin: 16px 0 20px;
+    color: var(--nature-muted);
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.medical-disclaimer {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: fit-content;
+    margin: 0;
+    padding: 10px 14px;
+    border-left: 4px solid var(--nature-accent);
+    border-radius: 10px;
+    background: #fff7f2;
+    color: #5e4a42;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+#conversation-card {
+    --chat-content-width: 88%;
+    gap: 14px !important;
+    padding: 22px !important;
+    border: 1px solid var(--nature-border) !important;
+    border-radius: 20px !important;
+    background: var(--nature-surface) !important;
+    box-shadow: 0 18px 46px rgba(36, 51, 46, 0.08) !important;
+}
+
+#chat-header {
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 16px !important;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--nature-border);
+}
+
+.assistant-identity {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.assistant-avatar {
+    display: grid;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    place-items: center;
+    border-radius: 14px;
+    background: var(--nature-soft);
+    font-size: 23px;
+}
+
+.assistant-identity strong,
+.assistant-identity small {
+    display: block;
+}
+
+.assistant-identity strong {
+    color: var(--nature-text);
+    font-size: 18px;
+}
+
+.assistant-identity small {
+    margin-top: 2px;
+    color: var(--nature-muted);
+    font-size: 13px;
+}
+
+#end-session {
+    flex: 0 0 auto !important;
+    min-width: 174px !important;
+    max-width: 190px !important;
+    min-height: 44px !important;
+    border: 1px solid var(--nature-border) !important;
+    border-radius: 12px !important;
+    background: #fff !important;
+    color: var(--nature-muted) !important;
+    font-weight: 700 !important;
+}
+
+#end-session:hover {
+    border-color: #c86c50 !important;
+    background: #fff7f2 !important;
+    color: #9c452f !important;
 }
 
 #medical-chatbot,
@@ -473,44 +729,13 @@ APP_CSS = """
     overflow: visible !important;
 }
 
-/* Limit the chat window width while keeping it centered and responsive. */
-.app-content-width {
-    width: min(50%, 700px) !important;
-    max-width: 700px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-/* Gradio repeats elem_classes on the inner Markdown element. Keep its
-   wrapper and rendered content full-width instead of halving the
-   title/description. */
-#app-title [data-testid="markdown-wrapper"],
-#app-description [data-testid="markdown-wrapper"],
-#app-title [data-testid="markdown"],
-#app-description [data-testid="markdown"] {
-    width: 100% !important;
-    max-width: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    text-align: left !important;
-}
-
-#app-title [data-testid="markdown"] > .md,
-#app-description [data-testid="markdown"] > .md,
-#app-title [data-testid="markdown"] h1,
-#app-description [data-testid="markdown"] p {
-    width: 100% !important;
-    max-width: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    text-align: left !important;
-}
-
 #medical-chatbot {
-    width: min(50%, 700px) !important;
-    max-width: 700px !important;
-    flex: 0 1 auto !important;
-    align-self: center !important;
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
+    margin: 0 auto 0 0 !important;
+    border: 0 !important;
+    background: transparent !important;
 }
 
 #medical-chatbot .wrap,
@@ -518,155 +743,495 @@ APP_CSS = """
     flex: 0 0 auto !important;
 }
 
-#medical-chatbot > div {
-    width: 100% !important;
-    max-width: 100% !important;
+#medical-chatbot button[aria-label="Clear"] {
+    display: none !important;
 }
 
-/* Keep chatbot messages on the right and user messages on the left. */
-#medical-chatbot .message-row.bot-row {
-    margin-left: auto !important;
-    margin-right: 20px !important;
-}
-
-#medical-chatbot .message-row.user-row {
-    margin-left: 20px !important;
-    margin-right: auto !important;
-}
-
+/* Follow the familiar chat convention: assistant left, user right. */
+#medical-chatbot .message-row.bot-row,
 #medical-chatbot .message-row.bot,
 #medical-chatbot .message-wrap.bot,
 #medical-chatbot [data-testid="bot"] {
-    justify-content: flex-end !important;
-    margin-left: auto !important;
-    margin-right: 0 !important;
-}
-
-#medical-chatbot .message-row.user,
-#medical-chatbot .message-wrap.user,
-#medical-chatbot [data-testid="user"] {
     justify-content: flex-start !important;
     margin-left: 0 !important;
     margin-right: auto !important;
 }
 
-#medical-chatbot .message-row.bot .message-wrap,
-#medical-chatbot [data-testid="bot"] .message-wrap {
+#medical-chatbot .message-row.user-row,
+#medical-chatbot .message-row.user,
+#medical-chatbot .message-wrap.user {
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: flex-end !important;
     margin-left: auto !important;
     margin-right: 0 !important;
 }
 
-#medical-chatbot .message-row.user .message-wrap,
-#medical-chatbot [data-testid="user"] .message-wrap {
+#medical-chatbot .message-row.user-row > .flex-wrap {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: flex-end !important;
+}
+
+#medical-chatbot [data-testid="bot"] .message,
+#medical-chatbot .bot .message {
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 1px solid var(--nature-border) !important;
+    border-radius: 6px 16px 16px 16px !important;
+    background: var(--nature-soft) !important;
+    color: var(--nature-text) !important;
+    line-height: 1.6 !important;
+}
+
+#medical-chatbot [data-testid="user"] .message,
+#medical-chatbot .user .message {
+    max-width: 72% !important;
+    border: 1px solid var(--nature-primary) !important;
+    border-radius: 16px 6px 16px 16px !important;
+    background: var(--nature-primary) !important;
+    color: #fff !important;
+    line-height: 1.55 !important;
+}
+
+#medical-chatbot .bot.message > .message {
+    width: 100% !important;
+    max-width: 100% !important;
     margin-left: 0 !important;
     margin-right: auto !important;
 }
 
-#message-row {
-    position: relative !important;
-    display: block !important;
-    box-sizing: border-box !important;
-    padding: 0 !important;
-}
-
-#message-row > div:first-child {
+#medical-chatbot .bot.message,
+#medical-chatbot .message-row.bot-row,
+#medical-chatbot .message-row.bot-row > .flex-wrap {
     width: 100% !important;
-    min-width: 0 !important;
     max-width: 100% !important;
 }
 
-#message-row > div:first-child,
-#message-row > div:first-child > div,
-#message-row textarea {
+#medical-chatbot .bot.message {
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+#medical-chatbot .user.message > .message {
+    display: block !important;
     box-sizing: border-box !important;
-    width: 100% !important;
+    width: auto !important;
+    min-width: 96px !important;
+    max-width: 100% !important;
+    flex: 0 1 auto !important;
+    margin: 0 !important;
+    padding: 12px 16px !important;
+    border: 1px solid var(--nature-primary) !important;
+    border-radius: 16px 6px 16px 16px !important;
+    background: var(--nature-primary) !important;
+    box-shadow: 0 6px 16px rgba(47, 125, 109, 0.16) !important;
+}
+
+#medical-chatbot .user.message {
+    display: block !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 72% !important;
+    flex: 0 1 auto !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+#medical-chatbot .user.message > .message [data-testid="user"],
+#medical-chatbot [data-testid="user"] .message-content {
+    width: auto !important;
     min-width: 0 !important;
 }
 
-#send-message {
-    position: absolute !important;
-    right: 12px !important;
-    top: 16px !important;
-    bottom: 16px !important;
-    height: auto !important;
-    z-index: 10 !important;
-    width: 110px !important;
-    min-width: 110px !important;
-    max-width: 110px !important;
+#medical-chatbot [data-testid="user"] {
     margin: 0 !important;
-    padding-bottom: 0 !important;
-    display: flex !important;
-    align-items: stretch !important;
+    color: #fff !important;
 }
 
-#send-message > button {
-    flex: 0 0 auto !important;
-    width: auto !important;
-    min-width: 88px !important;
-    max-width: 110px !important;
-    height: 100% !important;
+#medical-chatbot [data-testid="user"] .message-content {
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+}
+
+#medical-chatbot [data-testid="user"] *,
+#medical-chatbot [data-testid="user"] p {
+    color: #fff !important;
+}
+
+#medical-chatbot [data-testid="user"] p {
+    margin: 0 !important;
+}
+
+#medical-chatbot .message-buttons {
+    opacity: 0 !important;
+    transition: opacity 150ms ease !important;
+}
+
+#medical-chatbot .message-row:hover + .message-buttons,
+#medical-chatbot .message-buttons:hover,
+#medical-chatbot .message-buttons:focus-within {
+    opacity: 1 !important;
+}
+
+#medical-chatbot .message-buttons-right {
+    width: 100% !important;
+    justify-content: flex-end !important;
+    padding-right: 4px !important;
+}
+
+#medical-chatbot .message p,
+#medical-chatbot .message li {
+    font-size: 16px !important;
+}
+
+#medical-chatbot .message h2,
+#medical-chatbot .message h3,
+#medical-chatbot .message p,
+#medical-chatbot .message ul,
+#medical-chatbot .message ol {
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+
+#report-download {
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
     min-height: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+#report-download:not(:has(.report-ready-panel)) {
+    display: none !important;
+}
+
+.report-ready-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 16px 18px;
+    border: 1px solid #bfd8c9;
+    border-radius: 16px;
+    background: #eff8f3;
+}
+
+.report-ready-copy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--nature-text);
+}
+
+.report-ready-icon {
+    font-size: 24px;
+}
+
+.report-ready-copy strong,
+.report-ready-copy small {
+    display: block;
+}
+
+.report-ready-copy small {
+    margin-top: 3px;
+    color: var(--nature-muted);
+    font-size: 13px;
+}
+
+.pdf-download {
+    display: inline-flex;
+    min-height: 46px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 17px;
+    border-radius: 12px;
+    background: var(--nature-primary);
+    box-shadow: 0 8px 18px rgba(47, 125, 109, 0.2);
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: background-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.pdf-download:hover {
+    background: var(--nature-primary-hover);
+    box-shadow: 0 10px 22px rgba(47, 125, 109, 0.26);
+    transform: translateY(-1px);
+}
+
+#message-helper {
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
+    padding: 0 2px !important;
+    color: var(--nature-muted);
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+#message-row {
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    padding: 0 !important;
+}
+
+#health-message {
+    height: 56px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
+    min-width: 0 !important;
+}
+
+#health-message > div {
+    height: 56px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
+}
+
+#health-message textarea {
+    box-sizing: border-box !important;
+    height: 56px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
+    padding: 14px 16px !important;
+    border: 1px solid var(--nature-border) !important;
+    border-radius: 14px !important;
+    background: #fffdf9 !important;
+    color: var(--nature-text) !important;
+    font: 16px/1.5 Arial, sans-serif !important;
+    resize: none !important;
+    overflow: hidden !important;
+}
+
+#health-message textarea::placeholder {
+    color: #88938e !important;
+}
+
+#health-message textarea:focus {
+    border-color: var(--nature-primary) !important;
+    box-shadow: 0 0 0 3px rgba(47, 125, 109, 0.18) !important;
+}
+
+#send-message {
+    display: flex !important;
+    width: 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+    height: 56px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
     align-self: stretch !important;
-    margin: 0 !important;
-    white-space: nowrap;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 16px !important;
+    border: 0 !important;
+    border-radius: 14px !important;
+    background: var(--nature-primary) !important;
+    box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22) !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+    line-height: 1 !important;
 }
 
-#session-actions {
-    justify-content: flex-end;
-    margin-top: 10px;
+#send-message:hover:not(:disabled) {
+    background: var(--nature-primary-hover) !important;
+    transform: translateY(-1px);
 }
 
-#end-session {
-    flex: 0 0 auto !important;
-    width: auto !important;
-    min-width: 130px !important;
-    max-width: 170px !important;
+#send-message:disabled {
+    cursor: not-allowed !important;
+    background: #9cb9b0 !important;
+    box-shadow: none !important;
+    opacity: 0.75 !important;
+}
+
+#end-session:focus-visible,
+#send-message:focus-visible,
+.pdf-download:focus-visible {
+    outline: 3px solid var(--nature-focus) !important;
+    outline-offset: 3px !important;
 }
 
 @media (max-width: 640px) {
-    .app-content-width,
-    #medical-chatbot {
-        width: calc(100% - 24px) !important;
-        max-width: calc(100% - 24px) !important;
+    .gradio-container.gradio-container-6-28-0 {
+        padding: 12px 10px 28px !important;
     }
-    #message-row { flex-wrap: nowrap; }
-    #send-message { min-width: 76px !important; }
+
+    #app-shell {
+        gap: 14px !important;
+    }
+
+    #hero-panel {
+        padding: 26px 22px 22px;
+        border-radius: 16px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    #conversation-card {
+        --chat-content-width: 100%;
+        padding: 16px !important;
+        border-radius: 16px !important;
+    }
+
+    #chat-header {
+        align-items: flex-start !important;
+        flex-direction: column !important;
+    }
+
+    #end-session {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    #medical-chatbot [data-testid="user"] .message,
+    #medical-chatbot .user .message {
+        max-width: 88% !important;
+    }
+
+    .report-ready-panel,
+    #message-row {
+        align-items: stretch !important;
+        flex-direction: column !important;
+    }
+
+    .pdf-download,
+    #send-message {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: none !important;
+    }
+
+    #send-message {
+        height: 56px !important;
+        min-height: 56px !important;
+        max-height: 56px !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
 """
 
 
-with gr.Blocks(title="Recomandări naturiste", analytics_enabled=False, delete_cache=(60, 60)) as demo:
-    gr.Markdown("# Recomandări naturiste", elem_id="app-title", elem_classes=["app-content-width"])
-    gr.Markdown(
-        "Discutați liber și primiți un raport informativ, bazat pe sursele locale. "
-        "Nu înlocuiește îngrijirea medicală.",
-        elem_id="app-description",
-        elem_classes=["app-content-width"],
-    )
-    chatbot = gr.Chatbot(
-        label="Dr. Cuișor",
-        height=None,
-        max_height=None,
-        autoscroll=True,
-        elem_id="medical-chatbot",
-        elem_classes=["app-content-width"],
-        render_markdown=True,
-        sanitize_html=True,
-        allow_file_downloads=False,
-    )
-    with gr.Row(elem_id="message-row", elem_classes=["app-content-width"]):
-        message = gr.Textbox(
-            label="",
-            show_label=False,
-            placeholder="Descrieți problema de sănătate...",
-            lines=1,
-            max_lines=1,
-            scale=1,
-        )
-        send = gr.Button("➤  Trimite", variant="primary", size="sm", scale=0, elem_id="send-message")
-    download_box = gr.HTML()
-    with gr.Row(elem_id="session-actions", elem_classes=["app-content-width"]):
-        end = gr.Button("Închide sesiunea", size="sm", scale=0, elem_id="end-session")
+def _processing_button_update():
+    return gr.update(value="⏳ Se pregătește...", interactive=False)
+
+
+def _ready_button_update():
+    return gr.update(value="📨 Trimite", interactive=True)
+
+
+HERO_HTML = """
+<section id="hero-panel" aria-labelledby="hero-title">
+    <div class="hero-kicker"><span aria-hidden="true">🌿</span> Ghid naturist bazat pe surse locale</div>
+    <div class="hero-title-block">
+        <h1 id="hero-title">Tratamente Naturiste Adjuvante</h1>
+        <p class="hero-byline">de la Dr. Cuișor</p>
+    </div>
+    <p class="hero-description">
+        Descrieți problema cu care vă confruntați și primiți un raport informativ, clar și ușor de consultat.
+    </p>
+    <p class="medical-disclaimer">
+        <span aria-hidden="true">ℹ️</span>
+        <span>Informațiile sunt orientative și nu înlocuiesc consultul sau îngrijirea medicală.</span>
+    </p>
+</section>
+"""
+
+ASSISTANT_HEADER_HTML = """
+<div class="assistant-identity">
+    <span class="assistant-avatar" aria-hidden="true">🩺</span>
+    <span><strong>Dr. Cuișor</strong><small>Răspunsuri bazate pe surse locale</small></span>
+</div>
+"""
+
+MESSAGE_HELPER_HTML = """
+<div><span aria-hidden="true">📝</span> Specificați strict problema de sănătate și nimic altceva..</div>
+"""
+
+
+with gr.Blocks(
+    title="Tratamente Naturiste Adjuvante",
+    analytics_enabled=False,
+    delete_cache=(60, 60),
+    fill_width=True,
+) as demo:
+    with gr.Column(elem_id="app-shell"):
+        gr.HTML(HERO_HTML, elem_id="hero-component")
+        with gr.Column(elem_id="conversation-card"):
+            with gr.Row(elem_id="chat-header"):
+                gr.HTML(ASSISTANT_HEADER_HTML)
+                end = gr.Button(
+                    "🔒 Închide sesiunea",
+                    variant="secondary",
+                    size="sm",
+                    scale=0,
+                    elem_id="end-session",
+                )
+            chatbot = gr.Chatbot(
+                show_label=False,
+                height=None,
+                max_height=None,
+                autoscroll=True,
+                elem_id="medical-chatbot",
+                render_markdown=True,
+                sanitize_html=True,
+                allow_file_downloads=False,
+                buttons=["copy"],
+                feedback_options=None,
+                layout="bubble",
+            )
+            download_box = gr.HTML(elem_id="report-download")
+            gr.HTML(MESSAGE_HELPER_HTML, elem_id="message-helper")
+            with gr.Row(elem_id="message-row"):
+                message = gr.Textbox(
+                    label="Descrierea problemei de sănătate",
+                    show_label=False,
+                    placeholder="Pentru ce problemă de sănătate doriți recomandări de tratamente naturiste...",
+                    lines=1,
+                    max_lines=1,
+                    max_length=settings.max_chat_chars,
+                    scale=1,
+                    elem_id="health-message",
+                    html_attributes={
+                        "aria-label": "Descrieți problema de sănătate",
+                        "aria-describedby": "message-helper",
+                    },
+                )
+                send = gr.Button(
+                    "📨 Trimite",
+                    variant="primary",
+                    size="lg",
+                    scale=0,
+                    elem_id="send-message",
+                )
+
     load_event = demo.load(on_load, outputs=[chatbot, download_box], queue=False)
     send_event = send.click(
         on_message, inputs=[message], outputs=[message, chatbot, download_box], queue=False
@@ -675,16 +1240,23 @@ with gr.Blocks(title="Recomandări naturiste", analytics_enabled=False, delete_c
         on_message, inputs=[message], outputs=[message, chatbot, download_box], queue=False
     )
     end_event = end.click(on_end, outputs=[chatbot, download_box], queue=False)
-    for event in (load_event, end_event):
-        event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
+    load_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
+    end_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
     for event in (send_event, submit_event):
         notice_event = event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
-        report_event = notice_event.then(
+        processing_event = notice_event.then(
+            _processing_button_update,
+            outputs=[send],
+            queue=False,
+        )
+        report_event = processing_event.then(
             on_auto_report,
             outputs=[chatbot, download_box],
             queue=False,
         )
-        report_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
+        report_event.then(_ready_button_update, outputs=[send], queue=False).then(
+            fn=None, js=AUTO_SCROLL_JS, queue=False
+        )
     demo.unload(on_unload)
 
 _gradio_root_path = os.getenv("GRADIO_ROOT_PATH") or None
@@ -705,4 +1277,5 @@ app = gr.mount_gradio_app(
     footer_links=[],
     theme=theme,
     css=APP_CSS,
+    js=COMPOSER_STATE_JS,
 )
