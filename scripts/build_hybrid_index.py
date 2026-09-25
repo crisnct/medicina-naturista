@@ -35,6 +35,10 @@ MAX_CHARS = 1400
 OVERLAP_CHARS = 240
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
+# Directory containing the complete semantic and lexical retrieval index.
+INDEX_DIRECTORY_NAME = "hybrid_index"
+# Traceable JSON Lines export of the fragments represented by the index.
+FRAGMENTS_FILE_NAME = "fragments.jsonl"
 
 @dataclass(frozen=True)
 class SourceFile:
@@ -456,7 +460,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         raise ValueError("Output directory must not be inside the source directory")
 
     output.mkdir(parents=True, exist_ok=True)
-    index_dir = output / "embeddings"
+    index_dir = output / INDEX_DIRECTORY_NAME
     index_dir.mkdir(parents=True, exist_ok=True)
     cache_dir = output / "model_cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -550,7 +554,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
     staging = Path(tempfile.mkdtemp(prefix="index-build-", dir=index_dir))
     try:
         np.save(staging / "embeddings.npy", embeddings, allow_pickle=False)
-        write_jsonl(staging / "chunks.jsonl", chunks)
+        write_jsonl(staging / FRAGMENTS_FILE_NAME, chunks)
         write_jsonl(staging / "source_manifest.jsonl", source_files)
         create_sqlite(staging / "index.sqlite3", source_files, chunks, metadata)
 
@@ -583,7 +587,11 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
                 "query_prefix": "query: ",
                 "inference": "local ONNX via FastEmbed",
             },
-            "index": {"semantic": "embeddings.npy", "lexical": "index.sqlite3 FTS5"},
+            "index": {
+                "semantic": "embeddings.npy",
+                "lexical": "index.sqlite3 FTS5",
+                "fragments": FRAGMENTS_FILE_NAME,
+            },
             "warnings": warnings,
             "medical_use_notice": (
                 "Retrieval index only. Source claims may be inaccurate, contradictory, or unsafe. "
@@ -593,7 +601,13 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         }
         write_json(staging / "manifest.json", manifest)
 
-        core_names = ["chunks.jsonl", "embeddings.npy", "index.sqlite3", "manifest.json", "source_manifest.jsonl"]
+        core_names = [
+            FRAGMENTS_FILE_NAME,
+            "embeddings.npy",
+            "index.sqlite3",
+            "manifest.json",
+            "source_manifest.jsonl",
+        ]
         checksum_lines = [f"{sha256_file(staging / name)}  {name}" for name in core_names]
         (staging / "SHA256SUMS.txt").write_text("\n".join(checksum_lines) + "\n", encoding="ascii")
 

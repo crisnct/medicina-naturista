@@ -139,7 +139,7 @@ def main() -> None:
     parser.add_argument(
         "--index",
         type=Path,
-        default=Path(__file__).resolve().parents[3] / "data" / "embeddings",
+        default=Path(__file__).resolve().parents[3] / "data" / "hybrid_index",
     )
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--candidates", type=int, default=100)

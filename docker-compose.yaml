@@ -21,7 +21,7 @@ services:
       XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
       XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
       DOCUMENTS_DIR: /app/data/documents
-      INDEX_DIR: /app/data/embeddings
+      INDEX_DIR: /app/data/hybrid_index
       SESSION_TEMP_DIR: /tmp/naturist-sessions
       GRADIO_TEMP_DIR: /tmp/gradio-cache
       GRADIO_ROOT_PATH: ${GRADIO_ROOT_PATH:-/medicina}
@@ -37,8 +37,8 @@ services:
         target: /app/data/documents
         read_only: true
       - type: bind
-        source: ./data/embeddings
-        target: /app/data/embeddings
+        source: ./data/hybrid_index
+        target: /app/data/hybrid_index
         read_only: true
       - type: bind
         source: ./data/model_cache

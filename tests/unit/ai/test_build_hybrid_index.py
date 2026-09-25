@@ -1,12 +1,16 @@
 from __future__ import annotations
 
 import io
+import json
+import tempfile
 import unittest
 from contextlib import redirect_stdout
+from pathlib import Path
+from unittest import mock
 
 import numpy as np
 
-from scripts import build_medical_embeddings as builder
+from scripts import build_hybrid_index as builder
 
 
 def make_chunk(chunk_id: int, text: str = "text") -> builder.Chunk:
@@ -198,6 +202,52 @@ class EmbeddingProgressTests(unittest.TestCase):
             )
 
         self.assertNotIn("Embedding completed", output.getvalue())
+
+
+class BuildArtifactTests(unittest.TestCase):
+    def test_build_writes_complete_index_to_hybrid_index_with_fragments_file(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            source = root / "documents"
+            output = root / "data"
+            source.mkdir()
+            (source / "document.md").write_text(
+                "# Remedii\n\nCeai de mușețel și atenționări.",
+                encoding="utf-8",
+            )
+
+            def fake_embed(_model, chunks, _batch_size):
+                vectors = np.ones((len(chunks), builder.MODEL_DIMENSION), dtype=np.float32)
+                vectors /= np.linalg.norm(vectors, axis=1, keepdims=True)
+                return vectors
+
+            with (
+                mock.patch.object(builder, "create_embedding_model", return_value=object()),
+                mock.patch.object(builder, "embed_chunks", side_effect=fake_embed),
+                redirect_stdout(io.StringIO()),
+            ):
+                builder.build(source, output, builder.DEFAULT_MODEL, batch_size=64)
+
+            index_dir = output / "hybrid_index"
+            self.assertTrue(index_dir.is_dir())
+            self.assertTrue((index_dir / "fragments.jsonl").is_file())
+            self.assertFalse((index_dir / "chunks.jsonl").exists())
+            self.assertEqual(
+                {path.name for path in index_dir.iterdir()},
+                {
+                    "SHA256SUMS.txt",
+                    "embeddings.npy",
+                    "fragments.jsonl",
+                    "index.sqlite3",
+                    "manifest.json",
+                    "source_manifest.jsonl",
+                },
+            )
+            manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(manifest["index"]["fragments"], "fragments.jsonl")
+            checksums = (index_dir / "SHA256SUMS.txt").read_text(encoding="ascii")
+            self.assertIn("  fragments.jsonl\n", checksums)
+            self.assertNotIn("chunks.jsonl", checksums)
 
 
 if __name__ == "__main__":

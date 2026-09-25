@@ -14,7 +14,7 @@ $env:PYTHONPATH = Join-Path $projectRoot 'src'
 $arguments = @(
     '-m', 'medicina_naturista.ai.search',
     $Query,
-    '--index', (Join-Path $projectRoot 'data\embeddings'),
+    '--index', (Join-Path $projectRoot 'data\hybrid_index'),
     '--limit', $Limit.ToString()
 )
 if ($Json) { $arguments += '--json' }
