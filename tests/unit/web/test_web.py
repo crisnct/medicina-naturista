@@ -403,8 +403,9 @@ class WebTests(unittest.TestCase):
         self.assertEqual(request["max_output_tokens"], 321)
         self.assertNotIn("messages", request)
 
-    # Verify long consultation context is split without losing its final marker.
-    def test_consultation_queries_keep_entire_long_context(self):
+    # Verify conversation history (transcript, health_context) is excluded from
+    # search queries — only the health problem itself should drive retrieval.
+    def test_consultation_queries_ignore_conversation_history(self):
         profile = HealthProfile(health_problem="durere articulară")
         profile.add_transcript("assistant", HEALTH_PROBLEM_QUESTION)
         profile.add_transcript("user", "Durere de trei zile")
@@ -412,9 +413,9 @@ class WebTests(unittest.TestCase):
         profile.add_health_context(("simptom repetat " * 100) + marker)
         queries = consultation_queries(profile)
 
-        self.assertTrue(any(HEALTH_PROBLEM_QUESTION in query for query in queries))
-        self.assertTrue(any(marker in query for query in queries))
-        self.assertTrue(all(len(query) <= 900 for query in queries))
+        self.assertEqual(queries, ["durere articulară"])
+        self.assertFalse(any(HEALTH_PROBLEM_QUESTION in query for query in queries))
+        self.assertFalse(any(marker in query for query in queries))
 
     # Verify retrieval preserves both reflection and treatment-plan flu fragments.
     def test_flu_query_retrieves_reflection_fragment_from_internal_dictionary(self):

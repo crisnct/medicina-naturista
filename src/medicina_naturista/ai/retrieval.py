@@ -65,29 +65,15 @@ def _contains_exact_phrase(value: str, phrase: str) -> bool:
     ))
 
 
-# Build deduplicated bounded queries from the entire consultation profile.
+# Build deduplicated bounded queries from the consultation profile.
 def consultation_queries(profile: Any) -> list[str]:
-    """Build bounded queries from every meaningful consultation exchange."""
+    """Build bounded queries from the health problem. Conversation history
+    (profile.transcript, profile.health_context) is intentionally excluded:
+    it steered retrieval away from the actual topic being searched."""
     values: list[str] = []
     if profile.health_problem:
         values.append(profile.health_problem)
 
-    pending_question = ""
-    for entry in profile.transcript:
-        role = entry.get("role")
-        content = str(entry.get("content") or "").strip()
-        if not content:
-            continue
-        if role == "assistant":
-            pending_question = content
-        elif role == "user":
-            values.append(
-                f"Întrebare: {pending_question} Răspuns: {content}"
-                if pending_question else f"Informație utilizator: {content}"
-            )
-            pending_question = ""
-
-    values.extend(profile.health_context)
     queries: list[str] = []
     seen: set[str] = set()
     for value in values:
@@ -221,8 +207,7 @@ class Retriever:
                     str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
                 ])
                 matching = any(word in _plain(source_text) for word in word_set)
-                safety = "ATENTIONARI-SI-CONTRAINDICATII" in str(result["source_relative_path"])
-                if (result.get("lexical_rank") is not None and matching) or safety:
+                if result.get("lexical_rank") is not None and matching:
                     accepted.append(result)
             if accepted:
                 batches.append(accepted)
