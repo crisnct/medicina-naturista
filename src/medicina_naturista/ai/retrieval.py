@@ -52,19 +52,6 @@ def _meaningful_words(value: str) -> set[str]:
     }
 
 
-# Check whether a complete phrase occurs after normalizing case and diacritics.
-def _contains_exact_phrase(value: str, phrase: str) -> bool:
-    """Match the complete user problem while ignoring case and diacritics."""
-    normalized_value = " ".join(_plain(value).split())
-    normalized_phrase = " ".join(_plain(phrase).split())
-    if not normalized_phrase:
-        return False
-    return bool(re.search(
-        rf"(?<!\w){re.escape(normalized_phrase)}(?!\w)",
-        normalized_value,
-    ))
-
-
 # Build deduplicated bounded queries from the consultation profile.
 def consultation_queries(profile: Any) -> list[str]:
     """Build bounded queries from the health problem. Conversation history
@@ -133,45 +120,8 @@ class Retriever:
                 context = text
         return f"Secțiune: {heading}\n\n{context}" if heading else context
 
-    # Return and prioritize every chunk containing the complete health problem phrase.
-    def _topic_coverage_chunks(self, topic_text: str) -> list[dict[str, Any]]:
-        """Return every indexed chunk that contains the complete user problem."""
-        if not topic_text.strip():
-            return []
-        connection = sqlite3.connect(self.index_dir / "index.sqlite3")
-        connection.row_factory = sqlite3.Row
-        try:
-            selected: list[dict[str, Any]] = []
-            for row in connection.execute("SELECT * FROM chunks"):
-                item = dict(row)
-                haystack = _plain(" ".join([
-                    str(item.get("heading") or ""), str(item.get("text") or "")
-                ]))
-                if _contains_exact_phrase(haystack, topic_text):
-                    selected.append(item)
-            selected.sort(key=lambda item: (
-                # Put documents whose filename names the problem first. This keeps
-                # dedicated treatment plans at the front of the single AI context.
-                0 if any(
-                    word in _plain(Path(str(item.get("source_relative_path") or "")).stem)
-                    for word in _meaningful_words(topic_text)
-                ) else 1,
-                -sum(
-                    _plain(" ".join([
-                        str(item.get("heading") or ""), str(item.get("text") or "")
-                    ])).count(word)
-                    for word in _meaningful_words(topic_text)
-                ),
-                str(item.get("source_relative_path") or "").casefold(),
-                int(item.get("line_start") or 0),
-                int(item.get("chunk_id") or 0),
-            ))
-            return selected
-        finally:
-            connection.close()
-
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
-    def collect(self, session: SessionData) -> dict[str, dict[str, str]]:
+    def collect(self, session: SessionData) -> dict[str, dict[str, Any]]:
         profile = session.profile
         queries = consultation_queries(profile)
         if not queries:
@@ -219,23 +169,11 @@ class Retriever:
                 len(accepted),
             )
 
-        evidence: dict[str, dict[str, str]] = {}
-        topic_chunks = self._topic_coverage_chunks(topic_text)
-        logger.info(
-            "retrieval_priority_chunks topic_coverage=%s",
-            len(topic_chunks),
-        )
-        for result in topic_chunks:
-            if len(evidence) >= self.max_evidence:
-                break
-            token = f"C{result['chunk_id']}"
-            evidence[token] = {
-                "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
-                "text": self._context(result)[: self.evidence_context_chars],
-                # Exact-phrase matches never go through rank(), so there is no
-                # hybrid_score to report — they are the strongest possible match.
-                "relevance": "Potrivire exactă pe subiect",
-            }
+        # Every accepted chunk (including exact-phrase matches on the topic, which
+        # now surface here too via the phrase-based lexical query) carries its
+        # hybrid_score from rank(): a single, consistent relevance measure for the
+        # whole evidence set, with no separate scoring path or label.
+        evidence: dict[str, dict[str, Any]] = {}
         positions = [0] * len(batches)
         while len(evidence) < self.max_evidence:
             progressed = False
@@ -249,7 +187,12 @@ class Retriever:
                     evidence[token] = {
                         "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
                         "text": self._context(result)[: self.evidence_context_chars],
-                        "relevance": f"Scor relevanță: {result['hybrid_score']:.4f}",
+                        # Raw hybrid_score from rank() — the single relevance
+                        # value for this fragment. Every consumer (the UI
+                        # panel, the AI-context budget trimming) reads this
+                        # field directly and formats/orders from it; nothing
+                        # keeps a separate pre-formatted copy that could drift.
+                        "score": result["hybrid_score"],
                     }
                     progressed = True
                     break
