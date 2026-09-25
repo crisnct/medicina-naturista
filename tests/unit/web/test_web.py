@@ -424,17 +424,40 @@ class WebTests(unittest.TestCase):
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
         self.assertLessEqual(len(evidence), 2000)
-        self.assertTrue(any(
-            "Marele dict" in item["source"]
-            and "13522-13575" in item["source"]
+        reflection = next(
+            item for item in evidence.values()
+            if "Marele dict" in item["source"]
             and "nevoie de\nodihnă sau de o pauză" in item["text"]
-            for item in evidence.values()
-        ))
+        )
+        relative_path, line_range = reflection["source"].removeprefix("documents/").rsplit(":", 1)
+        line_start, line_end = (int(value) for value in line_range.split("-", 1))
+        source_lines = (settings.documents_dir / relative_path).read_text(
+            encoding="utf-8", errors="replace"
+        ).splitlines()
+        source_excerpt = "\n".join(source_lines[line_start - 1:line_end])
+        self.assertIn("nevoie de odihnă sau de o pauză", " ".join(source_excerpt.split()))
         self.assertTrue(any(
             "Plan tratament naturist" in item["source"]
             and "Tinctură fructe de soc" in item["text"]
             for item in evidence.values()
         ))
+
+    # Verify long evidence sent to the AI retains its semantic section heading.
+    def test_retrieval_context_prefixes_heading_for_long_chunks(self):
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = settings.documents_dir
+        result = {
+            "source_relative_path": "missing.md",
+            "line_start": 1,
+            "line_end": 1,
+            "heading": "Gripă > Uz intern",
+            "text": "Conținut medical. " * 50,
+        }
+
+        context = retriever._context(result)
+
+        self.assertTrue(context.startswith("Secțiune: Gripă > Uz intern\n\n"))
+        self.assertIn(result["text"], context)
 
     # Verify that one submitted health answer triggers report generation and download.
     def test_chat_automatically_generates_report_after_single_answer(self):
