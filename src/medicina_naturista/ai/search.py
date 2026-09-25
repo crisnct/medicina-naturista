@@ -55,10 +55,31 @@ def create_model(model_name: str, dimension: int, cache_dir: Path):
     return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=max(1, (os.cpu_count() or 2) - 1))
 
 
-# Convert user text into a bounded SQLite FTS5 OR query.
+# Build a single FTS5 phrase clause from a text segment (words in exact, adjacent order).
+def _fts_phrase(segment: str) -> str | None:
+    words = re.findall(r"[^\W_]+", segment, flags=re.UNICODE)[:32]
+    if not words:
+        return None
+    joined = " ".join(words)
+    return f'"{joined.replace(chr(34), chr(34) * 2)}"'
+
+
+# Convert user text into a bounded SQLite FTS5 query: comma-separated segments become
+# separate exact-phrase clauses combined with OR; a segment with 2+ words is searched
+# as a strict phrase (words adjacent, in that order).
 def fts_query(text: str) -> str:
-    tokens = re.findall(r"[^\W_]+", text, flags=re.UNICODE)
-    return " OR ".join(f'"{token.replace(chr(34), chr(34) * 2)}"' for token in tokens[:32])
+    if "," in text:
+        clauses = [_fts_phrase(segment) for segment in text.split(",")]
+        return " OR ".join(clause for clause in clauses if clause)
+    return _fts_phrase(text) or ""
+
+
+# Fallback query used when the strict phrase search finds nothing: every word from
+# every comma-separated segment, OR-ed individually, so single relevant words can
+# still surface results.
+def fts_query_fallback(text: str) -> str:
+    tokens = re.findall(r"[^\W_]+", text, flags=re.UNICODE)[:32]
+    return " OR ".join(f'"{token.replace(chr(34), chr(34) * 2)}"' for token in tokens)
 
 
 # Combine semantic and lexical rankings with reciprocal rank fusion.
@@ -89,6 +110,15 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
                 "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT ?",
                 (lexical, candidates),
             ).fetchall()
+            if not rows:
+                # Strict phrase match found nothing: fall back to OR-of-words so a
+                # single matching term can still surface lexical candidates.
+                fallback = fts_query_fallback(query)
+                if fallback:
+                    rows = connection.execute(
+                        "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT ?",
+                        (fallback, candidates),
+                    ).fetchall()
             lexical_rank = {int(row["rowid"]): rank for rank, row in enumerate(rows, start=1)}
 
         combined_ids = set(semantic_rank) | set(lexical_rank)
