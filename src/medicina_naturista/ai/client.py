@@ -117,6 +117,12 @@ class XAIClient:
                 and isinstance(block.get("text"), str)
             ]
             content = "".join(parts)
+            if self.settings.log_ai_response_text:
+                logger.info(
+                    "ai_response_text chars=%s text=%s",
+                    len(content),
+                    content[: self.settings.log_ai_response_text_max_chars],
+                )
             if not content:
                 raise ValueError("empty content")
             result = json.loads(content)

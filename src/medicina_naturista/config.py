@@ -38,7 +38,7 @@ class Settings:
     index_dir: Path = Path(os.getenv("INDEX_DIR", str(ROOT / "data" / "hybrid_index")))
     temp_dir: Path = Path(os.getenv("SESSION_TEMP_DIR", "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")))
     xai_model: str = os.getenv("XAI_MODEL", "grok-4.3")
-    xai_reasoning_effort: str = os.getenv("XAI_REASONING_EFFORT", "low")
+    xai_reasoning_effort: str = os.getenv("XAI_REASONING_EFFORT", "medium")
     xai_api_base: str = os.getenv("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/")
     session_idle_seconds: int = _int("SESSION_IDLE_SECONDS", 3600)
     session_max_seconds: int = _int("SESSION_MAX_SECONDS", 14400)
@@ -51,6 +51,8 @@ class Settings:
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)
+    log_ai_response_text: bool = _bool("LOG_AI_RESPONSE_TEXT", False)
+    log_ai_response_text_max_chars: int = _int("LOG_AI_RESPONSE_TEXT_MAX_CHARS", 8000)
 
     # Return the configured xAI API key without surrounding whitespace.
     def api_key(self) -> str:
