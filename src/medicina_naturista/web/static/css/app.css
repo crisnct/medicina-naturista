@@ -37,10 +37,11 @@ body,
 }
 
 #app-shell {
-    width: min(100%, 880px) !important;
-    max-width: 880px !important;
+    width: min(100%, 680px) !important;
+    max-width: 680px !important;
     margin: 0 auto !important;
     gap: 20px !important;
+    zoom: 66%;
 }
 
 #app-shell .html-container {
@@ -56,11 +57,7 @@ body,
     padding: 34px 38px 30px;
     border: 1px solid rgba(47, 125, 109, 0.18);
     border-radius: 20px;
-    background-color: #f4f9f7;
-    background-image: url("/assets/ornament-fitoterapie-antet.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: #f4f9f7 url("__HERO_ORNAMENT_DATA_URI__") center / 100% 100% no-repeat;
     box-shadow: 0 18px 46px rgba(36, 51, 46, 0.08);
 }
 
@@ -68,31 +65,6 @@ body,
     padding: 0 !important;
     border: 0 !important;
     background: transparent !important;
-}
-
-#hero-panel::before,
-#hero-panel::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    border-radius: 60% 40% 64% 36%;
-    transform: rotate(-24deg);
-}
-
-#hero-panel::before {
-    width: 170px;
-    height: 105px;
-    right: -40px;
-    top: -28px;
-    background: rgba(47, 125, 109, 0.13);
-}
-
-#hero-panel::after {
-    width: 110px;
-    height: 70px;
-    right: 72px;
-    bottom: -38px;
-    background: rgba(237, 138, 104, 0.16);
 }
 
 .hero-kicker {
@@ -116,15 +88,17 @@ body,
     font-size: clamp(30px, 5vw, 44px);
     line-height: 1.08;
     letter-spacing: -0.035em;
+    text-align: left;
 }
 
 .hero-title-block {
-    width: fit-content;
-    max-width: min(100%, 620px);
+    width: 100%;
+    max-width: none;
+    margin: 0;
 }
 
 .hero-byline {
-    margin: 7px 3px 0;
+    margin: 7px 0 0;
     color: var(--nature-primary);
     font-size: clamp(16px, 2.2vw, 20px);
     font-weight: 700;
@@ -148,6 +122,7 @@ body,
     margin: 0;
     padding: 10px 14px;
     border-left: 4px solid var(--nature-accent);
+    border-right: 4px solid var(--nature-accent);
     border-radius: 10px;
     background: #fff7f2;
     color: #5e4a42;
@@ -156,7 +131,7 @@ body,
 }
 
 #conversation-card {
-    --chat-content-width: 88%;
+    --chat-content-width: 100%;
     gap: 14px !important;
     padding: 22px !important;
     border: 1px solid var(--nature-border) !important;
@@ -167,7 +142,7 @@ body,
 
 #chat-header {
     align-items: center !important;
-    justify-content: space-between !important;
+    justify-content: flex-start !important;
     gap: 16px !important;
     padding-bottom: 14px;
     border-bottom: 1px solid var(--nature-border);
@@ -206,24 +181,6 @@ body,
     font-size: 13px;
 }
 
-#end-session {
-    flex: 0 0 auto !important;
-    min-width: 174px !important;
-    max-width: 190px !important;
-    min-height: 44px !important;
-    border: 1px solid var(--nature-border) !important;
-    border-radius: 12px !important;
-    background: #fff !important;
-    color: var(--nature-muted) !important;
-    font-weight: 700 !important;
-}
-
-#end-session:hover {
-    border-color: #c86c50 !important;
-    background: #fff7f2 !important;
-    color: #9c452f !important;
-}
-
 #medical-chatbot,
 #medical-chatbot > div,
 #medical-chatbot .wrap,
@@ -247,6 +204,14 @@ body,
 #medical-chatbot .wrap,
 #medical-chatbot .wrapper {
     flex: 0 0 auto !important;
+}
+
+#medical-chatbot .bubble-wrap {
+    padding-top: 0 !important;
+}
+
+#medical-chatbot .bubble-wrap > .message-wrap:first-child .message-row {
+    margin-top: 0 !important;
 }
 
 #medical-chatbot button[aria-label="Clear"] {
@@ -282,8 +247,10 @@ body,
 
 #medical-chatbot [data-testid="bot"] .message,
 #medical-chatbot .bot .message {
+    box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
+    padding: 14px 18px !important;
     border: 1px solid var(--nature-border) !important;
     border-radius: 6px 16px 16px 16px !important;
     background: var(--nature-soft) !important;
@@ -495,37 +462,46 @@ body,
 }
 
 #health-message {
-    height: 56px !important;
-    min-height: 56px !important;
-    max-height: 56px !important;
+    height: 76px !important;
+    min-height: 76px !important;
+    max-height: 76px !important;
     min-width: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    overflow: visible !important;
 }
 
-#health-message > div {
-    height: 56px !important;
-    min-height: 56px !important;
-    max-height: 56px !important;
+#health-message > label,
+#health-message .input-container {
+    height: 76px !important;
+    min-height: 76px !important;
+    max-height: 76px !important;
 }
 
+#health-message input[data-testid="textbox"],
 #health-message textarea {
     box-sizing: border-box !important;
-    height: 56px !important;
-    min-height: 56px !important;
-    max-height: 56px !important;
-    padding: 14px 16px !important;
+    height: 76px !important;
+    min-height: 76px !important;
+    max-height: 76px !important;
+    padding: 12px 16px !important;
     border: 1px solid var(--nature-border) !important;
     border-radius: 14px !important;
     background: #fffdf9 !important;
     color: var(--nature-text) !important;
-    font: 16px/1.5 Arial, sans-serif !important;
+    font: 32px/1.25 Arial, sans-serif !important;
     resize: none !important;
     overflow: hidden !important;
 }
 
+#health-message input[data-testid="textbox"]::placeholder,
 #health-message textarea::placeholder {
     color: #88938e !important;
 }
 
+#health-message input[data-testid="textbox"]:focus,
 #health-message textarea:focus {
     border-color: var(--nature-primary) !important;
     box-shadow: 0 0 0 3px rgba(47, 125, 109, 0.18) !important;
@@ -536,9 +512,9 @@ body,
     width: 180px !important;
     min-width: 180px !important;
     max-width: 180px !important;
-    height: 56px !important;
-    min-height: 56px !important;
-    max-height: 56px !important;
+    height: 76px !important;
+    min-height: 76px !important;
+    max-height: 76px !important;
     align-self: stretch !important;
     align-items: center !important;
     justify-content: center !important;
@@ -566,7 +542,6 @@ body,
     opacity: 0.75 !important;
 }
 
-#end-session:focus-visible,
 #send-message:focus-visible,
 .pdf-download:focus-visible {
     outline: 3px solid var(--nature-focus) !important;
@@ -602,11 +577,6 @@ body,
         flex-direction: column !important;
     }
 
-    #end-session {
-        width: 100% !important;
-        max-width: none !important;
-    }
-
     #medical-chatbot [data-testid="user"] .message,
     #medical-chatbot .user .message {
         max-width: 88% !important;
@@ -626,9 +596,9 @@ body,
     }
 
     #send-message {
-        height: 56px !important;
-        min-height: 56px !important;
-        max-height: 56px !important;
+        height: 76px !important;
+        min-height: 76px !important;
+        max-height: 76px !important;
     }
 }
 
@@ -641,4 +611,22 @@ body,
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
     }
+}
+
+/* Elimină spațiul de deasupra aplicației */
+.gradio-container,
+.gradio-container > .main,
+.gradio-container .wrap,
+.gradio-container .contain {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+#app-shell {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+#hero-component {
+    margin-top: 0 !important;
 }

@@ -368,13 +368,6 @@ with gr.Blocks(
         with gr.Column(elem_id="conversation-card"):
             with gr.Row(elem_id="chat-header"):
                 gr.HTML(ASSISTANT_HEADER_HTML)
-                end = gr.Button(
-                    "🔒 Închide sesiunea",
-                    variant="secondary",
-                    size="sm",
-                    scale=0,
-                    elem_id="end-session",
-                )
             chatbot = gr.Chatbot(
                 show_label=False,
                 height=None,
@@ -394,7 +387,7 @@ with gr.Blocks(
                 message = gr.Textbox(
                     label="Descrierea problemei de sănătate",
                     show_label=False,
-                    placeholder="Pentru ce problemă de sănătate doriți recomandări de tratamente naturiste...",
+                    placeholder="Problema de sănătate...",
                     lines=1,
                     max_lines=1,
                     max_length=settings.max_chat_chars,
@@ -420,9 +413,7 @@ with gr.Blocks(
     submit_event = message.submit(
         on_message, inputs=[message], outputs=[message, chatbot, download_box], queue=False
     )
-    end_event = end.click(on_end, outputs=[chatbot, download_box], queue=False)
     load_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
-    end_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
     for event in (send_event, submit_event):
         notice_event = event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
         processing_event = notice_event.then(

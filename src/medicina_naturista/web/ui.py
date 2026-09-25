@@ -1,18 +1,29 @@
 """Static assets and presentational constants for the Gradio interface."""
 from __future__ import annotations
 
+import base64
 from pathlib import Path
 
 import gradio as gr
 
 STATIC_ROOT = Path(__file__).resolve().parent / "static"
+ORNAMENT_SVG_PATH = STATIC_ROOT / "images" / "ornament-fitoterapie-antet.svg"
 
 
 def _read_static(relative_path: str) -> str:
     return (STATIC_ROOT / relative_path).read_text(encoding="utf-8")
 
 
-APP_CSS = _read_static("css/app.css")
+# Embed the ornament in the delivered CSS so reverse-proxy prefixes cannot break its URL.
+def _svg_data_uri(path: Path) -> str:
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:image/svg+xml;base64,{encoded}"
+
+
+APP_CSS = _read_static("css/app.css").replace(
+    "__HERO_ORNAMENT_DATA_URI__",
+    _svg_data_uri(ORNAMENT_SVG_PATH),
+)
 COMPOSER_STATE_JS = _read_static("js/app.js")
 AUTO_SCROLL_JS = _read_static("js/auto_scroll.js")
 
@@ -22,7 +33,7 @@ HERO_HTML = """
 <section id="hero-panel" aria-labelledby="hero-title">
     <div class="hero-kicker"><span aria-hidden="true">🌿</span> Ghid naturist bazat pe surse locale</div>
     <div class="hero-title-block">
-        <h1 id="hero-title">Tratamente Naturiste Adjuvante</h1>
+        <h1 id="hero-title">Recomandări Naturiste</h1>
         <p class="hero-byline">de la Dr. Cuișor</p>
     </div>
     <p class="hero-description">

@@ -1,74 +1,238 @@
-# Index local pentru arhiva medicală
+<div align="center">
 
-Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `data/documents`. Cele șase artefacte ale indexului sunt păstrate în `data/hybrid_index`, iar modelul descărcat în `data/model_cache`. Folderele cu artefacte generate local nu sunt păstrate în Git.
+# 🌿 Recomandări Naturiste Adjuvante
 
-## Structura proiectului
+### Chatbot medical informativ bazat pe o arhivă locală și căutare hibridă
 
-- `src/medicina_naturista/core/` — modelele aplicației și sesiunile izolate pe tab.
-- `src/medicina_naturista/ai/` — clientul xAI, retrieval, căutarea locală, prompturile și resursele AI.
-- `src/medicina_naturista/reporting/` — generarea PDF și resursele raportului.
-- `src/medicina_naturista/integrations/` — integrările cu servicii externe, inclusiv Gmail.
-- `src/medicina_naturista/web/` — aplicația FastAPI/Gradio, handler-ele UI și fișierele statice.
-- `scripts/` — operațiile administrative și utilitarele proiectului.
-- `tests/` — teste unitare organizate pe componente și teste de integrare.
-- `data/` — documentele, indexul și cache-ul modelului.
-- `var/` — rapoarte, sesiuni și fișiere temporare generate la rulare.
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Gradio](https://img.shields.io/badge/Gradio-6.x-FF7C00?logo=gradio&logoColor=white)](https://www.gradio.app/)
+[![Hybrid retrieval](https://img.shields.io/badge/Retrieval-Semantic%20%2B%20FTS5-6A5ACD)](#-cum-funcționează)
+[![License](https://img.shields.io/badge/License-Apache%202.0-D22128)](LICENSE)
 
-## Conținut
+🟢 **surse locale** · 🔵 **căutare semantică** · 🟠 **căutare lexicală** · 🟣 **raport PDF**
 
-- `data/hybrid_index/manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
-- `data/hybrid_index/source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
-- `data/hybrid_index/fragments.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
-- `data/hybrid_index/embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
-- `data/hybrid_index/index.sqlite3` — metadate, fragmente și index lexical FTS5.
-- `data/hybrid_index/SHA256SUMS.txt` — sume de control pentru artefactele principale.
-- `src/medicina_naturista/ai/search.py` — căutare hibridă semantică + lexicală.
-- `scripts/search_index.ps1` — lansator PowerShell offline.
-- `scripts/rebuild_index.ps1` — reconstruiește indexul după modificarea surselor.
+</div>
 
-## Căutare
+> [!IMPORTANT]
+> Aplicația oferă informații orientative și recomandări adjuvante. Nu înlocuiește diagnosticul, consultația, tratamentul prescris sau îngrijirea medicală de urgență.
 
-La prima utilizare, instalează Python 3.11 și reconstruiește indexul:
+## ✨ Despre proiect
+
+Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator, caută dovezi în arhiva locală, solicită xAI să redacteze un răspuns structurat exclusiv pe baza fragmentelor selectate și generează un raport PDF cu trimiteri la surse.
+
+| 🧩 Componentă | Rol |
+|---|---|
+| **Index semantic** | Identifică fragmente apropiate ca sens cu vectori E5 de 384 dimensiuni. |
+| **Index lexical** | Găsește termeni exacți prin SQLite FTS5 și ordonare BM25. |
+| **Fuziune RRF** | Combină clasamentele semantic și lexical prin Reciprocal Rank Fusion. |
+| **Retriever medical** | Prioritizează expresia exactă, documentele dedicate și atenționările. |
+| **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
+| **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
+| **Livrare e-mail** | Poate trimite raportul prin Gmail API cu OAuth2, dacă este configurat. |
+
+## 🎨 Cum funcționează
+
+```text
+📚 documente Markdown
+        ↓
+✂️ fragmente coerente, cu sursă și interval de linii
+        ↓
+🧠 embeddings E5  +  🔎 SQLite FTS5
+        ↓
+⚖️ fuziune RRF și prioritizarea dovezilor
+        ↓
+🤖 un singur request structurat către xAI
+        ↓
+💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
+```
+
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate sunt trimise către API-ul xAI pentru redactarea raportului. Livrarea prin Gmail este opțională.
+
+## 🛠️ Tehnologii folosite
+
+| Zonă | Tehnologii |
+|---|---|
+| **Limbaj și runtime** | Python 3.11, PowerShell |
+| **Interfață și API** | Gradio 6, FastAPI, Uvicorn |
+| **Embeddings locale** | FastEmbed, ONNX Runtime, `intfloat/multilingual-e5-small` |
+| **Calcul vectorial** | NumPy, cosine similarity pe vectori normalizați L2 |
+| **Căutare lexicală** | SQLite, FTS5, BM25 |
+| **Fuziunea rezultatelor** | Reciprocal Rank Fusion — RRF (`k=60`) |
+| **Generare AI** | xAI Responses API, răspuns JSON structurat |
+| **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
+| **E-mail** | Gmail API, OAuth2 cu refresh token |
+| **Configurare** | python-dotenv, variabile de mediu |
+| **Rulare și publicare** | Docker, Docker Compose, Caddy |
+| **Testare** | `unittest`, teste unitare și de integrare |
+
+## 🗺️ Documentație de arhitectură
+
+| Document | Ce explică |
+|---|---|
+| 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → fragmente → embeddings → FTS5 → publicarea atomică a indexului. |
+| 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → xAI → PDF → download și e-mail opțional. |
+
+## 📁 Structura proiectului
+
+```text
+medicina-naturista/
+├── architecture/                 # documentația fluxurilor principale
+├── data/
+│   ├── documents/                # corpusul Markdown local
+│   ├── hybrid_index/             # indexul generat; ignorat de Git
+│   └── model_cache/              # modelul ONNX local; ignorat de Git
+├── scripts/
+│   ├── build_hybrid_index.py     # construirea indexului
+│   ├── rebuild_index.ps1         # lansator PowerShell pentru rebuild
+│   ├── search_index.ps1          # căutare locală din terminal
+│   └── google_oauth_setup.py     # autorizare Gmail OAuth2
+├── src/medicina_naturista/
+│   ├── ai/                       # căutare, retrieval, client xAI și prompturi
+│   ├── core/                     # modele și sesiuni izolate
+│   ├── integrations/             # integrarea Gmail
+│   ├── reporting/                # generarea raportului PDF
+│   └── web/                      # FastAPI, Gradio și resursele UI
+├── tests/                        # teste unitare și de integrare
+├── docker-compose.yaml
+├── Dockerfile
+└── pyproject.toml
+```
+
+## 🚀 Pornire rapidă
+
+### 1. Pregătirea mediului
 
 ```powershell
 py -3.11 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements-web.txt
+```
+
+Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate.
+
+### 2. Construirea indexului
+
+```powershell
 .\scripts\rebuild_index.ps1
 ```
 
-Prima reconstruire descarcă modelul în `data/model_cache` și poate dura câteva zeci de minute. După aceea, căutarea funcționează offline.
+Batch size-ul implicit este `64`; poate fi schimbat astfel:
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\scripts\search_index.ps1' "plante și măsuri pentru tuse"
+.\scripts\rebuild_index.ps1 -BatchSize 32
 ```
 
-Pentru rezultate JSON:
+Prima construire descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute. Următoarele căutări folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
+
+### 3. Căutarea locală
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\scripts\search_index.ps1' "plante și măsuri pentru tuse" -Json
+.\scripts\search_index.ps1 "plante și măsuri pentru tuse"
 ```
 
-Rezultatele indică fișierul absolut și intervalul de linii. Aceste referințe trebuie păstrate în orice document creat ulterior.
-
-## Reconstruire
-
-După adăugarea sau modificarea fișierelor-sursă:
+Pentru rezultate ușor de procesat programatic:
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\scripts\rebuild_index.ps1'
+.\scripts\search_index.ps1 "plante și măsuri pentru tuse" -Limit 20 -Json
 ```
 
-`scripts/rebuild_index.ps1` găsește `data/documents` relativ la rădăcina proiectului, inclusiv dacă este lansat din alt director. Pentru rularea directă a scriptului Python, `--source` folosește implicit același folder; opțiunea poate fi specificată pentru o altă sursă. Modelul este descărcat o singură dată în `data/model_cache`; inferența și interogările rulează local. `scripts/search_index.ps1` activează modul offline.
+Fiecare rezultat păstrează documentul sursă și intervalul de linii, astfel încât pasajul să poată fi verificat în fișierul original.
 
-## Aplicația web
+### 4. Pornirea aplicației în dezvoltare
 
-Interfața este Gradio, montată în FastAPI. Nu are conturi. Refolosește modelul local, indexul hibrid și fișierele din `data/documents/`. Conversațiile și PDF-urile sunt temporare și separate pe sesiune/tab. După descrierea problemei, căutarea rulează local, iar raportul este redactat printr-un singur request xAI.
+Adăugați în fișierul local `.env` cel puțin:
 
-### Docker Compose
+```dotenv
+GROK_API_KEY_MED=...
+COOKIE_SECURE=false
+```
 
-Necesare: Docker cu Compose, folderele existente `data/documents/`, `data/hybrid_index/` și `data/model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
+Apoi porniți aplicația:
 
-Rapoartele generate sunt trimise automat la `nelucristian2005@gmail.com` prin Gmail API OAuth2. Configurați în `.env`:
+```powershell
+$env:PYTHONPATH = "src"
+.\.venv\Scripts\python.exe -m uvicorn medicina_naturista.web.main:app --host 127.0.0.1 --port 7860
+```
+
+Deschideți `http://127.0.0.1:7860`. Endpointul de stare este `http://127.0.0.1:7860/healthz`.
+
+## 📦 Artefactele indexului hibrid
+
+Construirea reușită publică atomic șase fișiere în `data/hybrid_index/`:
+
+| Fișier | Conținut |
+|---|---|
+| `embeddings.npy` | Matricea semantică `float32`, normalizată L2. |
+| `index.sqlite3` | Metadate, fragmente și indexul lexical FTS5. |
+| `fragments.jsonl` | Export auditabil al fragmentelor și al intervalelor de linii. |
+| `source_manifest.jsonl` | Inventarul surselor, metadatele și SHA-256. |
+| `manifest.json` | Modelul, dimensiunea vectorilor și strategia de chunking. |
+| `SHA256SUMS.txt` | Sumele de control ale artefactelor principale. |
+
+Configurația curentă de chunking este:
+
+```text
+TARGET_CHARS  = 1200
+MAX_CHARS     = 1400
+OVERLAP_CHARS = 240
+```
+
+Titlurile Markdown sunt limite stricte de secțiune, diacriticele sunt păstrate prin normalizare Unicode NFC, iar blocurile prea mari sunt separate preferențial la final de propoziție, linie sau cuvânt.
+
+## 🐳 Rulare cu Docker Compose
+
+Înainte de pornire, trebuie să existe `data/documents/`, `data/hybrid_index/`, `data/model_cache/` și fișierul local `.env` cu cheia xAI.
+
+```powershell
+docker compose build
+docker compose up -d
+docker compose ps
+Invoke-WebRequest http://localhost:7860/healthz
+```
+
+Aplicația rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele și indexul sunt montate read-only, iar fișierele temporare folosesc `tmpfs`.
+
+Oprire fără ștergerea stării Caddy:
+
+```powershell
+docker compose down
+```
+
+> [!WARNING]
+> `docker compose down -v` șterge volumele Caddy, inclusiv starea și certificatele gestionate de acesta.
+
+Pentru publicare, `APP_DOMAIN` conține doar hostname-ul. Cu ngrok, folosiți `CADDY_SITE_SCHEME=http` și tunelul către portul `80`. Pentru un domeniu administrat direct de server, folosiți `CADDY_SITE_SCHEME=https` și configurați DNS-ul și porturile 80/443.
+
+## ⚙️ Configurare
+
+Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplicație sunt:
+
+| Variabilă | Implicit | Rol |
+|---|---:|---|
+| `GROK_API_KEY_MED` | — | Cheia necesară pentru generarea raportului. |
+| `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
+| `XAI_REASONING_EFFORT` | `low` | Nivelul de reasoning solicitat. |
+| `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
+| `INDEX_DIR` | `data/hybrid_index` | Directorul indexului hibrid. |
+| `RETRIEVAL_LIMIT` | `120` | Rezultate păstrate pentru fiecare interogare. |
+| `RETRIEVAL_CANDIDATES` | `720` | Candidați analizați înainte de limitare. |
+| `EVIDENCE_CONTEXT_CHARS` | `3000` | Limita de context pentru un fragment. |
+| `MAX_EVIDENCE` | `2000` | Numărul maxim de fragmente distincte. |
+| `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
+| `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |
+| `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
+| `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
+| `COOKIE_SECURE` | `false` | Impune transmiterea cookie-ului numai prin HTTPS. |
+| `LOG_LEVEL` | `INFO` | Nivelul minim al logurilor. |
+| `LOG_FRAGMENT_TEXT` | `true` | Include textul fragmentelor în loguri. |
+| `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
+
+Creșterea limitelor de retrieval și evidence poate mări timpul de procesare și dimensiunea requestului trimis către xAI. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
+
+La pornirea directă, aplicația citește aceste valori din `.env`. În Docker, `docker-compose.yaml` transmite numai variabilele enumerate în secțiunea `environment`; pentru un override suplimentar, adăugați explicit variabila respectivă în acea secțiune.
+
+### ✉️ Gmail OAuth2 — opțional
 
 ```dotenv
 GMAIL_USERNAME=adresa-ta@gmail.com
@@ -78,59 +242,41 @@ GOOGLE_CLIENT_SECRET=...
 GOOGLE_REFRESH_TOKEN=...
 ```
 
-Autorizarea inițială se face o singură dată de proprietarul contului Gmail, cu:
+Autorizarea inițială se face o singură dată:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\google_oauth_setup.py
 ```
 
-Scriptul folosește scope-ul `https://www.googleapis.com/auth/gmail.send` și salvează automat `GOOGLE_REFRESH_TOKEN` în `.env`, înlocuind valoarea existentă dacă este prezentă. Tokenul nu este afișat și nu trebuie publicat sau inclus în loguri. Dacă `MAIL_FROM` este gol, aplicația folosește `GMAIL_USERNAME`. Fără configurația OAuth2 completă, generarea raportului continuă, iar trimiterea este omisă (`email_skipped`).
+Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebuie publicat. Dacă integrarea nu este complet configurată, raportul rămâne disponibil în aplicație, iar livrarea e-mail este omisă.
 
-Parametrii de căutare ai arhivei medicale sunt configurați prin variabilele:
+## 🔐 Confidențialitate și siguranță
 
-- `RETRIEVAL_LIMIT=120` — numărul maxim de rezultate păstrate pentru fiecare interogare;
-- `RETRIEVAL_CANDIDATES=720` — numărul de candidați analizați de căutarea hibridă înainte de limitare;
-- `EVIDENCE_CONTEXT_CHARS=3000` — numărul maxim de caractere păstrate din fiecare fragment trimis generatorului de raport;
-- `MAX_EVIDENCE=2000` — numărul maxim de fragmente distincte reunite în contextul raportului.
-- `LOG_LEVEL=INFO` — nivelul minim pentru logurile aplicației.
-- `LOG_FRAGMENT_TEXT=true` — include textul fragmentelor în loguri; setați `false` dacă logurile sunt colectate într-un sistem fără control de acces.
-- `LOG_FRAGMENT_TEXT_MAX_CHARS=4000` — limita textului unui fragment inclus într-o singură linie de log.
+- 🔒 `.env`, cache-ul modelului și indexurile generate sunt ignorate de Git.
+- 🧭 fiecare fragment rămâne legat de fișierul și liniile sursă;
+- 🧹 conversațiile și PDF-urile sunt temporare, separate pe sesiune și eliminate la închiderea tabului, la expirare sau la repornirea aplicației;
+- 🚫 requesturile xAI folosesc `store=false`;
+- 🩺 răspunsurile sunt informative și trebuie verificate medical înainte de utilizare.
 
-Valorile controlează volumul de dovezi. Creșterea lor poate mări timpul și dimensiunea requestului către AI:
+## 🧪 Testare
 
-```powershell
-docker compose build
-docker compose up -d
-docker compose ps
-Invoke-WebRequest http://localhost:7860/healthz
-```
-
-Logurile pentru generarea raportului includ statisticile de căutare, numărul și dimensiunea fragmentelor, sursele unice și inventarul fragmentelor trimise efectiv către AI (`fragments_sent_to_ai`). Dacă este necesară compactarea contextului, sunt logate separat fragmentele înainte de compactare (`fragments_before_compaction`) și fragmentele după compactare, cu `original_text_chars` și `compaction_removed_chars` pentru fiecare fragment. Textul logat este JSON cu newline-urile escapate, pentru a putea fi analizat automat.
-
-Fișierul `.env` este ignorat de Git. Compose transmite variabila `GROK_API_KEY_MED` aplicației la pornire; cheia nu este inclusă în imagine. Indexul și `data/documents/` sunt montate doar pentru citire. `data/model_cache/` este persistat separat. Fișierele temporare sunt în `tmpfs`.
-
-`APP_DOMAIN` trebuie să conțină doar hostname-ul, fără `https://` și fără calea aplicației. Pentru tunel ngrok, folosiți `CADDY_SITE_SCHEME=http`: ngrok termină HTTPS, iar tunelul trebuie să trimită către portul local `80` (`ngrok http 80`). URL-ul public al aplicației rămâne `https://APP_DOMAIN/medicina`, deoarece `GRADIO_ROOT_PATH` este `/medicina`. Pentru un domeniu controlat direct de server, setați `CADDY_SITE_SCHEME=https`, configurați DNS-ul și permiteți accesul public pe porturile 80/443 pentru validarea certificatului Caddy. Portul 7860 este expus doar pe localhost pentru diagnostic; nu îl publicați direct pe internet.
-
-Oprire:
+Rulați întreaga suită:
 
 ```powershell
-docker compose down
-```
-
-`docker compose down -v` șterge și certificatele/starea Caddy. Repornirea aplicației elimină conversațiile active. Închiderea sesiunii din UI șterge imediat datele ei, iar sesiunile inactive sunt curățate periodic.
-
-### Pornire directă pentru dezvoltare
-
-Instalați `requirements-web.txt`, configurați `GROK_API_KEY_MED` și `COOKIE_SECURE=false` în fișierul `.env` pentru HTTP local și asigurați existența fonturilor Unicode. Lansați:
-
-```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements-web.txt
 $env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe -m uvicorn medicina_naturista.web.main:app --host 127.0.0.1 --port 7860
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-PDF-urile se descarcă prin endpointul FastAPI asociat cookie-ului și tabului curent. Modelul configurat implicit este `grok-4.3`, cu `XAI_REASONING_EFFORT=low`. Recomandările sunt informative, adjuvante și trebuie susținute de sursele locale. Fontul interfeței este Inter, cu fallback Arial și sans-serif; PDF-ul folosește Arial pe Windows și Liberation Sans în Docker.
+Testele acoperă fragmentarea și progresul construirii indexului, retrieval-ul hibrid, sesiunile web, răspunsurile xAI simulate, generarea PDF și integrarea Gmail simulată. Nu sunt necesare requesturi xAI reale pentru testele unitare.
 
-### Dacă mesajele nu sunt procesate
+## 📜 Licență
 
-Dacă apare „Lipsește GROK_API_KEY_MED”, verificați variabila în `.env`, apoi recreați containerul cu `docker compose up -d --force-recreate app`.
+Codul proiectului este distribuit sub [Apache License 2.0](LICENSE).
+
+---
+
+<div align="center">
+
+🌱 **Surse verificabile · retrieval local · recomandări adjuvante**
+
+</div>

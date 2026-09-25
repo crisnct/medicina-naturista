@@ -1,190 +1,190 @@
-# Final Report Generation Flow
+# Fluxul de generare a raportului final
 
-**Input:** the user's health-problem description and the local hybrid index.
+**Intrare:** descrierea problemei de sănătate furnizată de utilizator și indexul hibrid local.
 
-**Output:** recommendations displayed in the chat and a downloadable PDF report, with optional email delivery.
+**Ieșire:** recomandările afișate în chat și un raport PDF descărcabil, cu livrare opțională prin e-mail.
 
-## 1. Accept the user's health-problem description — `on_message()`
+## 1. Preluarea descrierii problemei de sănătate — `on_message()`
 
-- **1.1.** Resolve the current browser-tab session from the session cookie and Gradio session identifier.
-- **1.2.** Trim the submitted message.
-- **1.3.** Ignore an empty message.
-- **1.4.** Reject a message that exceeds the configured maximum length.
-- **1.5.** Acquire the session lock.
-- **1.6.** Append the user's message to the chat history.
-- **1.7.** Clear any previously generated report from the session.
-- **1.8.** Replace the current health problem in the user profile with the new message.
-- **1.9.** Set `auto_report_pending=True`.
-- **1.10.** Append the “Preparing recommendations” status message to the chat.
-- **1.11.** Return the updated chat history to the browser.
+- **1.1.** Identifică sesiunea tabului curent folosind cookie-ul de sesiune și identificatorul de sesiune Gradio.
+- **1.2.** Elimină spațiile inutile din mesajul trimis.
+- **1.3.** Ignoră mesajul dacă este gol.
+- **1.4.** Respinge mesajul dacă depășește lungimea maximă configurată.
+- **1.5.** Obține blocarea exclusivă a sesiunii.
+- **1.6.** Adaugă mesajul utilizatorului în istoricul conversației.
+- **1.7.** Elimină din sesiune orice raport generat anterior.
+- **1.8.** Înlocuiește problema de sănătate curentă din profilul utilizatorului cu noul mesaj.
+- **1.9.** Setează `auto_report_pending=True`.
+- **1.10.** Adaugă în chat mesajul de stare „Se pregătesc recomandările”.
+- **1.11.** Returnează către browser istoricul actualizat al conversației.
 
-## 2. Trigger report generation — `on_auto_report()` and `on_report()`
+## 2. Declanșarea generării raportului — `on_auto_report()` și `on_report()`
 
-- **2.1.** Gradio invokes `on_auto_report()` after the message-submission handler completes.
-- **2.2.** Resolve the current session again.
-- **2.3.** Acquire the session lock.
-- **2.4.** Stop when no automatic report is pending.
-- **2.5.** Set `auto_report_pending=False` so the same submission is processed only once.
-- **2.6.** Call `on_report()`.
-- **2.7.** Verify that the profile contains a health problem.
-- **2.8.** Stop with a user-facing message when the profile is not ready for report generation.
+- **2.1.** Gradio apelează `on_auto_report()` după finalizarea handlerului care procesează mesajul.
+- **2.2.** Identifică din nou sesiunea curentă.
+- **2.3.** Obține blocarea exclusivă a sesiunii.
+- **2.4.** Se oprește dacă nu există un raport automat în așteptare.
+- **2.5.** Setează `auto_report_pending=False`, astfel încât aceeași trimitere să fie procesată o singură dată.
+- **2.6.** Apelează `on_report()`.
+- **2.7.** Verifică dacă profilul conține o problemă de sănătate.
+- **2.8.** Se oprește cu un mesaj pentru utilizator dacă profilul nu este pregătit pentru generarea raportului.
 
-## 3. Build the search-query set — `Retriever.collect()`
+## 3. Construirea setului de interogări — `Retriever.collect()`
 
-- **3.1.** Generate consultation queries from the current health profile.
-- **3.2.** Stop retrieval when no usable query can be generated.
-- **3.3.** Extract meaningful words from the complete health-problem text.
-- **3.4.** Add the exact health-problem text as a priority query.
-- **3.5.** Add a query made from the meaningful topic words.
-- **3.6.** Add the remaining consultation queries derived from the profile.
-- **3.7.** Create safety variants by appending contraindication, interaction, and warning terms to every base query.
+- **3.1.** Generează interogări de consultare din profilul medical curent.
+- **3.2.** Oprește căutarea dacă nu poate fi generată nicio interogare utilizabilă.
+- **3.3.** Extrage cuvintele relevante din textul complet al problemei de sănătate.
+- **3.4.** Adaugă textul exact al problemei de sănătate ca interogare prioritară.
+- **3.5.** Adaugă o interogare formată din cuvintele relevante ale subiectului.
+- **3.6.** Adaugă celelalte interogări de consultare derivate din profil.
+- **3.7.** Creează variante de siguranță prin adăugarea termenilor despre contraindicații, interacțiuni și atenționări la fiecare interogare de bază.
 
-## 4. Run hybrid retrieval for every query — `search.rank()`
+## 4. Rularea retrieval-ului hibrid pentru fiecare interogare — `search.rank()`
 
-- **4.1.** Read the embedding model and vector dimension from `data/hybrid_index/manifest.json`.
-- **4.2.** Memory-map `data/hybrid_index/embeddings.npy`.
-- **4.3.** Generate the E5 query vector with the `query: ` prefix.
-- **4.4.** Normalize the query vector.
-- **4.5.** Calculate semantic similarity against all document vectors.
-- **4.6.** Retain the configured number of top semantic candidates.
-- **4.7.** Convert the query into an SQLite FTS5 expression.
-- **4.8.** Retrieve lexical candidates from `index.sqlite3`, ordered by BM25.
-- **4.9.** Combine semantic and lexical ranks with Reciprocal Rank Fusion using `k=60`.
-- **4.10.** Keep the configured number of top hybrid results.
-- **4.11.** Load fragment text, source path, heading, and line range from SQLite.
-- **4.12.** Return hybrid score, semantic similarity, lexical rank, and traceability metadata.
+- **4.1.** Citește modelul de embedding și dimensiunea vectorilor din `data/hybrid_index/manifest.json`.
+- **4.2.** Încarcă prin mapare în memorie `data/hybrid_index/embeddings.npy`.
+- **4.3.** Generează vectorul E5 al interogării folosind prefixul `query: `.
+- **4.4.** Normalizează vectorul interogării.
+- **4.5.** Calculează similaritatea semantică față de toți vectorii documentelor.
+- **4.6.** Păstrează numărul configurat de candidați semantici cu cele mai bune scoruri.
+- **4.7.** Convertește interogarea într-o expresie SQLite FTS5.
+- **4.8.** Preia candidații lexicali din `index.sqlite3`, ordonați prin BM25.
+- **4.9.** Combină clasamentele semantic și lexical prin Reciprocal Rank Fusion, folosind `k=60`.
+- **4.10.** Păstrează numărul configurat de rezultate hibride cu cele mai bune scoruri.
+- **4.11.** Încarcă din SQLite textul fragmentului, calea sursei, titlul și intervalul de linii.
+- **4.12.** Returnează scorul hibrid, similaritatea semantică, poziția lexicală și metadatele de trasabilitate.
 
-## 5. Filter, prioritize, and assemble evidence — `Retriever.collect()`
+## 5. Filtrarea, prioritizarea și asamblarea dovezilor — `Retriever.collect()`
 
-- **5.1.** For each search query, retain results that have a lexical rank and contain a meaningful query word.
-- **5.2.** Retain safety-document results even when the regular lexical condition is not satisfied.
-- **5.3.** Find additional fragments that directly cover the complete health problem.
-- **5.4.** Find fragments from documents dedicated to the detected topic words.
-- **5.5.** Add exact-topic fragments to the evidence first.
-- **5.6.** Add dedicated-document fragments second.
-- **5.7.** Add the remaining accepted query results in round-robin order across query batches.
-- **5.8.** Deduplicate fragments by their `C<chunk_id>` evidence identifier.
-- **5.9.** Stop after reaching the configured maximum evidence count.
-- **5.10.** Expand each fragment with its semantic heading and nearby source context.
-- **5.11.** Limit each evidence text to the configured evidence-context size.
-- **5.12.** Store each evidence entry as an ID, source path with line range, and text.
-- **5.13.** Return the ordered evidence inventory to `on_report()`.
-- **5.14.** Stop report generation with a user-facing message when no evidence is found.
+- **5.1.** Pentru fiecare interogare, păstrează rezultatele care au o poziție lexicală și conțin un cuvânt relevant din interogare.
+- **5.2.** Păstrează rezultatele din documentele de siguranță chiar dacă nu îndeplinesc condiția lexicală obișnuită.
+- **5.3.** Găsește fragmente suplimentare care tratează direct întreaga problemă de sănătate.
+- **5.4.** Găsește fragmente din documente dedicate cuvintelor-cheie detectate.
+- **5.5.** Adaugă mai întâi la dovezi fragmentele care corespund exact subiectului.
+- **5.6.** Adaugă apoi fragmentele din documentele dedicate.
+- **5.7.** Adaugă celelalte rezultate acceptate prin alternare între loturile de interogări.
+- **5.8.** Deduplică fragmentele după identificatorul de dovadă `C<chunk_id>`.
+- **5.9.** Se oprește după atingerea numărului maxim configurat de dovezi.
+- **5.10.** Extinde fiecare fragment cu titlul semantic și contextul apropiat din sursă.
+- **5.11.** Limitează textul fiecărei dovezi la dimensiunea configurată pentru context.
+- **5.12.** Stochează fiecare dovadă sub forma unui ID, a unei căi-sursă cu interval de linii și a textului.
+- **5.13.** Returnează inventarul ordonat al dovezilor către `on_report()`.
+- **5.14.** Oprește generarea raportului cu un mesaj pentru utilizator dacă nu este găsită nicio dovadă.
 
-## 6. Prepare the evidence payload — `XAIClient.generate()`
+## 6. Pregătirea payloadului cu dovezi — `XAIClient.generate()`
 
-- **6.1.** Log the total evidence count and character count.
-- **6.2.** Convert the evidence dictionary into ordered entries containing `id`, `source`, and `text`.
-- **6.3.** Serialize the evidence entries to estimate the request-context size.
-- **6.4.** Keep every evidence entry unchanged when the serialized context is at most 2,400,000 characters.
-- **6.5.** When the limit is exceeded, log the complete pre-compaction inventory.
-- **6.6.** Calculate the text budget remaining after JSON metadata is accounted for.
-- **6.7.** Reduce fragment texts proportionally while initially retaining at least 256 characters per entry.
-- **6.8.** Continue trimming long entries evenly until the serialized evidence fits the hard limit.
-- **6.9.** Preserve every evidence ID and source during compaction.
-- **6.10.** Log the exact inventory sent to the AI and the number of characters removed from each fragment.
-- **6.11.** Build the user prompt from the health profile and all admitted evidence entries.
-- **6.12.** Load the report-generation system prompt from `ai/prompts/generate_report_system.md`.
+- **6.1.** Înregistrează în log numărul total al dovezilor și numărul total de caractere.
+- **6.2.** Convertește dicționarul de dovezi în înregistrări ordonate care conțin `id`, `source` și `text`.
+- **6.3.** Serializează înregistrările pentru a estima dimensiunea contextului cererii.
+- **6.4.** Păstrează fiecare dovadă neschimbată dacă textul serializat are cel mult 2.400.000 de caractere.
+- **6.5.** Dacă limita este depășită, înregistrează în log inventarul complet de dinaintea compactării.
+- **6.6.** Calculează bugetul de text rămas după includerea metadatelor JSON.
+- **6.7.** Reduce proporțional textele fragmentelor, păstrând inițial cel puțin 256 de caractere pentru fiecare înregistrare.
+- **6.8.** Continuă să reducă uniform înregistrările lungi până când dovezile serializate respectă limita strictă.
+- **6.9.** Păstrează ID-ul și sursa fiecărei dovezi în timpul compactării.
+- **6.10.** Înregistrează în log inventarul exact trimis către AI și numărul de caractere eliminate din fiecare fragment.
+- **6.11.** Construiește promptul utilizatorului din profilul medical și toate dovezile acceptate.
+- **6.12.** Încarcă promptul de sistem pentru generarea raportului din `ai/prompts/generate_report_system.md`.
 
-## 7. Request the structured report from xAI
+## 7. Solicitarea raportului structurat de la xAI
 
-- **7.1.** Read `GROK_API_KEY_MED` from the application settings.
-- **7.2.** Stop with `AIUnavailable` when the API key is missing.
-- **7.3.** Create one xAI Responses API request.
-- **7.4.** Use the configured xAI model and reasoning effort.
-- **7.5.** Send the system prompt and user payload as separate input messages.
-- **7.6.** Request a JSON-object response.
-- **7.7.** Set `max_output_tokens=20000`.
-- **7.8.** Set `store=false`.
-- **7.9.** Send the request to the configured `/responses` endpoint.
-- **7.10.** Record HTTP status, duration, response size, and request ID in the logs.
-- **7.11.** Convert HTTP or connection failures into a user-facing `AIUnavailable` error.
+- **7.1.** Citește `GROK_API_KEY_MED` din configurația aplicației.
+- **7.2.** Se oprește cu `AIUnavailable` dacă lipsește cheia API.
+- **7.3.** Creează o singură cerere către xAI Responses API.
+- **7.4.** Folosește modelul xAI și nivelul de reasoning configurate.
+- **7.5.** Trimite promptul de sistem și payloadul utilizatorului ca mesaje de intrare separate.
+- **7.6.** Solicită un răspuns de tip obiect JSON.
+- **7.7.** Setează `max_output_tokens=20000`.
+- **7.8.** Setează `store=false`.
+- **7.9.** Trimite cererea către endpointul `/responses` configurat.
+- **7.10.** Înregistrează în log statusul HTTP, durata, dimensiunea răspunsului și ID-ul cererii.
+- **7.11.** Convertește erorile HTTP sau de conexiune într-o eroare `AIUnavailable` afișabilă utilizatorului.
 
-## 8. Parse and normalize the AI response
+## 8. Parsarea și normalizarea răspunsului AI
 
-- **8.1.** Parse the HTTP response as JSON.
-- **8.2.** Verify that the xAI response status is `completed`.
-- **8.3.** Extract every `output_text` block from message outputs.
-- **8.4.** Join the extracted text blocks.
-- **8.5.** Parse the joined content as a JSON object.
-- **8.6.** Reject an empty, incomplete, or non-object response.
-- **8.7.** Initialize the five report sections:
-  - **8.7.1.** `uz_intern` — internal use.
-  - **8.7.2.** `nutritie` — nutrition.
-  - **8.7.3.** `uz_extern` — external use.
-  - **8.7.4.** `alte_recomandari` — other recommendations.
-  - **8.7.5.** `atentionari` — warnings.
-- **8.8.** Normalize nutrition into recipes, recommended, not recommended, forbidden, and other foods.
-- **8.9.** Normalize recommendation text while preserving meaningful line breaks.
-- **8.10.** Retain only string evidence IDs attached to each recommendation.
-- **8.11.** Return the normalized section dictionary to `on_report()`.
+- **8.1.** Parsează răspunsul HTTP ca JSON.
+- **8.2.** Verifică dacă starea răspunsului xAI este `completed`.
+- **8.3.** Extrage fiecare bloc `output_text` din mesajele de ieșire.
+- **8.4.** Concatenează blocurile de text extrase.
+- **8.5.** Parsează conținutul rezultat ca obiect JSON.
+- **8.6.** Respinge un răspuns gol, incomplet sau care nu este un obiect.
+- **8.7.** Inițializează cele cinci secțiuni ale raportului:
+  - **8.7.1.** `uz_intern` — uz intern.
+  - **8.7.2.** `nutritie` — nutriție.
+  - **8.7.3.** `uz_extern` — uz extern.
+  - **8.7.4.** `alte_recomandari` — alte recomandări.
+  - **8.7.5.** `atentionari` — atenționări.
+- **8.8.** Normalizează nutriția în rețete și alimente recomandate, nerecomandate, interzise sau din alte categorii.
+- **8.9.** Normalizează textul recomandărilor, păstrând întreruperile de linie relevante.
+- **8.10.** Păstrează numai ID-urile de dovezi de tip șir atașate fiecărei recomandări.
+- **8.11.** Returnează dicționarul normalizat al secțiunilor către `on_report()`.
 
-## 9. Generate the PDF — `create_pdf()`
+## 9. Generarea PDF-ului — `create_pdf()`
 
-- **9.1.** Register the available report fonts.
-- **9.2.** Build the report title and informational cover panel.
-- **9.3.** Sort recommendation sections using their source coverage.
-- **9.4.** Build a stable source-number index from recommendation evidence IDs.
-- **9.5.** Render the five recommendation sections in the configured order.
-- **9.6.** Render an explicit “no sufficiently relevant information” message for an empty section.
-- **9.7.** Render nutrition with its dedicated recipe and food-category layout.
-- **9.8.** Add inline source links to recommendations that have valid evidence IDs.
-- **9.9.** Build the bibliography from the cited source paths and line ranges.
-- **9.10.** Add links from recommendations to bibliography entries and back-links from bibliography entries.
-- **9.11.** Add the medical-information notice and the configured visual styling.
-- **9.12.** Build the document with ReportLab in memory.
-- **9.13.** Return the completed PDF as bytes.
+- **9.1.** Înregistrează fonturile disponibile pentru raport.
+- **9.2.** Construiește titlul raportului și panoul informativ de început.
+- **9.3.** Sortează secțiunile de recomandări folosind acoperirea surselor.
+- **9.4.** Construiește un index stabil al numerelor surselor din ID-urile dovezilor asociate recomandărilor.
+- **9.5.** Redă cele cinci secțiuni de recomandări în ordinea configurată.
+- **9.6.** Afișează un mesaj explicit că nu există informații suficient de relevante pentru o secțiune goală.
+- **9.7.** Redă secțiunea de nutriție folosind formatul dedicat rețetelor și categoriilor alimentare.
+- **9.8.** Adaugă legături inline către surse pentru recomandările care au ID-uri de dovezi valide.
+- **9.9.** Construiește bibliografia din căile surselor citate și intervalele de linii.
+- **9.10.** Adaugă legături de la recomandări la intrările bibliografice și legături de întoarcere de la bibliografie.
+- **9.11.** Adaugă notificarea privind caracterul informativ medical și stilizarea vizuală configurată.
+- **9.12.** Construiește documentul în memorie folosind ReportLab.
+- **9.13.** Returnează PDF-ul final sub formă de octeți.
 
-## 10. Store the report in the current session
+## 10. Stocarea raportului în sesiunea curentă
 
-- **10.1.** Store the PDF bytes in `session.report_bytes`.
-- **10.2.** Generate a cryptographically random `report_id`.
-- **10.3.** Associate the report ID with the current browser-tab session.
-- **10.4.** Keep the report in process memory until the session is cleared, expires, or the application restarts.
+- **10.1.** Stochează octeții PDF în `session.report_bytes`.
+- **10.2.** Generează un `report_id` aleatoriu și sigur criptografic.
+- **10.3.** Asociază ID-ul raportului cu sesiunea tabului curent.
+- **10.4.** Păstrează raportul în memoria procesului până când sesiunea este eliminată, expiră sau aplicația este repornită.
 
-## 11. Attempt email delivery — `send_report()`
+## 11. Încercarea de livrare prin e-mail — `send_report()`
 
-- **11.1.** Load the Gmail OAuth configuration.
-- **11.2.** Return `email_skipped` when email delivery is not configured.
-- **11.3.** Build the email message and attach the generated PDF.
-- **11.4.** Refresh the Google OAuth access token.
-- **11.5.** Send the message through the Gmail API.
-- **11.6.** Return `email_sent` after successful delivery.
-- **11.7.** Log an email failure without deleting the already generated PDF.
-- **11.8.** Continue the report flow even when email delivery fails.
+- **11.1.** Încarcă configurația Gmail OAuth.
+- **11.2.** Returnează `email_skipped` dacă livrarea prin e-mail nu este configurată.
+- **11.3.** Construiește mesajul e-mail și atașează PDF-ul generat.
+- **11.4.** Reînnoiește tokenul de acces Google OAuth.
+- **11.5.** Trimite mesajul prin Gmail API.
+- **11.6.** Returnează `email_sent` după livrarea reușită.
+- **11.7.** Înregistrează în log o eroare de e-mail fără a șterge PDF-ul deja generat.
+- **11.8.** Continuă fluxul raportului chiar dacă livrarea prin e-mail eșuează.
 
-## 12. Display and download the result
+## 12. Afișarea și descărcarea rezultatului
 
-- **12.1.** Convert the normalized report sections into chat-friendly recommendation text.
-- **12.2.** Append the recommendation text to the assistant chat history.
-- **12.3.** Build a download URL containing the current `tab_id` and `report_id`.
-- **12.4.** Return the updated chat history and download control to the browser.
-- **12.5.** When the user requests the PDF, resolve the session from the browser cookie.
-- **12.6.** Verify that the requested tab and report IDs belong to that session.
-- **12.7.** Return HTTP 404 when the report does not belong to the current session or is no longer available.
-- **12.8.** Return the PDF as an attachment with `Cache-Control: no-store` when validation succeeds.
+- **12.1.** Convertește secțiunile normalizate ale raportului într-un text de recomandări potrivit pentru chat.
+- **12.2.** Adaugă textul recomandărilor în istoricul conversației asistentului.
+- **12.3.** Construiește un URL de descărcare care conține `tab_id` și `report_id` curente.
+- **12.4.** Returnează către browser istoricul actualizat al conversației și controlul de descărcare.
+- **12.5.** Când utilizatorul solicită PDF-ul, identifică sesiunea folosind cookie-ul browserului.
+- **12.6.** Verifică dacă ID-urile tabului și raportului solicitate aparțin sesiunii respective.
+- **12.7.** Returnează HTTP 404 dacă raportul nu aparține sesiunii curente sau nu mai este disponibil.
+- **12.8.** Returnează PDF-ul ca atașament cu `Cache-Control: no-store` dacă validarea reușește.
 
-## 13. Handle report-generation failures
+## 13. Tratarea erorilor de generare a raportului
 
-- **13.1.** Show a specific user-facing message when the health problem is missing.
-- **13.2.** Show a specific user-facing message when local retrieval returns no evidence.
-- **13.3.** Show the `AIUnavailable` message when the AI service or its response is unavailable.
-- **13.4.** Log the exception type, message, and traceback for unexpected failures.
-- **13.5.** Show a generic report-generation failure message for unexpected errors.
-- **13.6.** Treat email delivery as best-effort so an email failure does not invalidate the report.
+- **13.1.** Afișează un mesaj specific dacă lipsește problema de sănătate.
+- **13.2.** Afișează un mesaj specific dacă retrieval-ul local nu găsește dovezi.
+- **13.3.** Afișează mesajul `AIUnavailable` dacă serviciul AI sau răspunsul acestuia nu este disponibil.
+- **13.4.** Înregistrează în log tipul excepției, mesajul și traceback-ul pentru erorile neașteptate.
+- **13.5.** Afișează un mesaj generic de eroare la generarea raportului pentru situațiile neașteptate.
+- **13.6.** Tratează livrarea prin e-mail ca operație best-effort, astfel încât o eroare de e-mail să nu invalideze raportul.
 
-## Final result
+## Rezultatul final
 
 ```text
-User message
-    -> session profile
-    -> hybrid local retrieval
-    -> prioritized evidence inventory
-    -> one structured xAI request
-    -> normalized recommendation sections
-    -> in-memory PDF report
-    -> chat response and secure download link
-    -> optional Gmail delivery
+Mesajul utilizatorului
+    -> profilul sesiunii
+    -> retrieval hibrid local
+    -> inventarul prioritizat al dovezilor
+    -> o singură cerere structurată către xAI
+    -> secțiuni normalizate de recomandări
+    -> raport PDF în memorie
+    -> răspuns în chat și link securizat de descărcare
+    -> livrare opțională prin Gmail
 ```
 
-This document complements the detailed technical diagram in `02-generare-raport-final.md` and explains the flow without Mermaid syntax or sequence-diagram complexity.
+Acest document completează diagrama tehnică detaliată din `02-generare-raport-final.md` și explică fluxul fără sintaxă Mermaid sau complexitatea unei diagrame de secvență.
