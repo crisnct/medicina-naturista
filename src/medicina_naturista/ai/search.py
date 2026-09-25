@@ -15,6 +15,14 @@ from pathlib import Path
 
 import numpy as np
 
+# Reciprocal Rank Fusion constant used to combine semantic and lexical ranks
+# into hybrid_score (see rank() below). A fragment ranked #1 by both signals
+# scores 1/(RRF_K + 1) per signal, so RRF_MAX_SCORE is the highest hybrid_score
+# any fragment can ever reach — the fixed ceiling other layers (the UI's
+# score-to-percentage display) can rely on without duplicating this constant.
+RRF_K = 60.0
+RRF_MAX_SCORE = 2.0 / (RRF_K + 1.0)
+
 
 # Normalize cached FastEmbed metadata paths so Windows caches work in Linux containers.
 def _normalize_fastembed_metadata(cache_dir: Path) -> None:
@@ -74,14 +82,6 @@ def fts_query(text: str) -> str:
     return _fts_phrase(text) or ""
 
 
-# Fallback query used when the strict phrase search finds nothing: every word from
-# every comma-separated segment, OR-ed individually, so single relevant words can
-# still surface results.
-def fts_query_fallback(text: str) -> str:
-    tokens = re.findall(r"[^\W_]+", text, flags=re.UNICODE)[:32]
-    return " OR ".join(f'"{token.replace(chr(34), chr(34) * 2)}"' for token in tokens)
-
-
 # Combine semantic and lexical rankings with reciprocal rank fusion.
 def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[str, object]]:
     manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
@@ -106,26 +106,21 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
         lexical_rank: dict[int, int] = {}
         lexical = fts_query(query)
         if lexical:
+            # Strict phrase match only — no fallback to individual words. If the
+            # exact phrase (or, for comma-separated input, none of the exact
+            # phrases) isn't found verbatim, this fragment contributes nothing
+            # to the lexical signal; semantic search is the only remaining path
+            # to surfacing it.
             rows = connection.execute(
                 "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT ?",
                 (lexical, candidates),
             ).fetchall()
-            if not rows:
-                # Strict phrase match found nothing: fall back to OR-of-words so a
-                # single matching term can still surface lexical candidates.
-                fallback = fts_query_fallback(query)
-                if fallback:
-                    rows = connection.execute(
-                        "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT ?",
-                        (fallback, candidates),
-                    ).fetchall()
             lexical_rank = {int(row["rowid"]): rank for rank, row in enumerate(rows, start=1)}
 
         combined_ids = set(semantic_rank) | set(lexical_rank)
-        rrf_k = 60.0
         scores = {
-            chunk_id: (1.0 / (rrf_k + semantic_rank[chunk_id]) if chunk_id in semantic_rank else 0.0)
-            + (1.0 / (rrf_k + lexical_rank[chunk_id]) if chunk_id in lexical_rank else 0.0)
+            chunk_id: (1.0 / (RRF_K + semantic_rank[chunk_id]) if chunk_id in semantic_rank else 0.0)
+            + (1.0 / (RRF_K + lexical_rank[chunk_id]) if chunk_id in lexical_rank else 0.0)
             for chunk_id in combined_ids
         }
         best_ids = sorted(combined_ids, key=lambda item: scores[item], reverse=True)[:limit]

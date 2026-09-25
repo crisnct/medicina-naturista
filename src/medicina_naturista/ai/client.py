@@ -204,49 +204,65 @@ class XAIClient:
                 ),
             )
 
-    # Convert evidence to AI input entries and compact text only when the context limit is exceeded.
+    # Convert evidence to AI input entries, ordered by relevance score, and drop the
+    # lowest-relevance fragments (never truncate any kept fragment's text) when the
+    # serialized payload exceeds the context budget.
     def _evidence_entries(self, evidence: dict[str, dict[str, str]]) -> list[dict[str, str]]:
+        # Highest hybrid_score first: the same raw "score" field Retriever.collect()
+        # writes and the UI panel sorts by. When the payload must be cut down, the
+        # fragments at the end of this order — the least relevant — go first.
+        ordered_tokens = sorted(
+            evidence.keys(),
+            key=lambda token: evidence[token].get("score", float("-inf")),
+            reverse=True,
+        )
         entries = [
-            {"id": token, "source": value["source"], "text": value["text"]}
-            for token, value in evidence.items()
+            {"id": token, "source": evidence[token]["source"], "text": evidence[token]["text"]}
+            for token in ordered_tokens
         ]
         serialized_length = len(json.dumps(entries, ensure_ascii=False))
         if serialized_length <= MAX_CONTEXT_CHARS:
             return entries
 
-        original_length = serialized_length
-        original_lengths = {entry["id"]: len(entry["text"]) for entry in entries}
+        original_count = len(entries)
         self._log_fragment_inventory(entries, "fragments_before_compaction")
-        text_length = sum(len(entry["text"]) for entry in entries)
-        fixed_length = serialized_length - text_length
-        available_text = max(0, MAX_CONTEXT_CHARS - fixed_length)
-        scale = available_text / text_length if text_length else 0
-        for entry in entries:
-            original_text = entry["text"]
-            keep = min(len(original_text), max(256, int(len(original_text) * scale)))
-            entry["text"] = original_text[:keep]
 
-        # JSON punctuation and source strings can push the first estimate over
-        # the budget. Trim evenly while retaining every evidence entry and ID.
-        while len(json.dumps(entries, ensure_ascii=False)) > MAX_CONTEXT_CHARS:
-            candidates = [entry for entry in entries if len(entry["text"]) > 256]
-            if not candidates:
+        # entries[:k] serialized length = 2 (brackets) + sum of each kept
+        # entry's own serialized length + 2 * (k - 1) (", " separators). Scan
+        # forward while entries stay sorted best-first, so this keeps exactly
+        # the highest-scored prefix that fits — dropping the rest from the
+        # tail (lowest score) — without repeatedly re-serializing the whole
+        # array (O(n) here vs. O(n²) for a pop-and-recheck loop).
+        budget = MAX_CONTEXT_CHARS - 2
+        running_total = 0
+        keep = 0
+        for index, entry in enumerate(entries):
+            addition = len(json.dumps(entry, ensure_ascii=False)) + (2 if index > 0 else 0)
+            if running_total + addition > budget:
                 break
-            trim = max(1, (len(json.dumps(entries, ensure_ascii=False)) - MAX_CONTEXT_CHARS) // len(candidates))
-            for entry in candidates:
-                entry["text"] = entry["text"][:-trim]
+            running_total += addition
+            keep = index + 1
+        entries = entries[:keep]
+        if not entries and original_count:
+            logger.error(
+                "fragment_compaction_emptied_context original_entries=%s limit=%s "
+                "reason=single_highest_scored_fragment_exceeds_budget",
+                original_count,
+                MAX_CONTEXT_CHARS,
+            )
 
         compacted_length = len(json.dumps(entries, ensure_ascii=False))
         logger.warning(
-            "fragment_compaction_completed entries=%s serialized_chars=%s->%s limit=%s "
-            "text_chars_removed=%s",
+            "fragment_compaction_completed entries=%s->%s serialized_chars=%s->%s limit=%s "
+            "dropped_lowest_relevance=%s",
+            original_count,
             len(entries),
-            original_length,
+            serialized_length,
             compacted_length,
             MAX_CONTEXT_CHARS,
-            sum(original_lengths.values()) - sum(len(entry["text"]) for entry in entries),
+            original_count - len(entries),
         )
-        self._log_fragment_inventory(entries, "fragments_sent_to_ai", original_lengths)
+        self._log_fragment_inventory(entries, "fragments_sent_to_ai")
         return entries
 
     # Send the full evidence context to xAI and normalize all returned report sections.

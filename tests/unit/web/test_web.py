@@ -13,8 +13,8 @@ from pypdf import PdfReader
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 
-from medicina_naturista.ai.search import _normalize_fastembed_metadata
-from medicina_naturista.web import main
+from medicina_naturista.ai.search import RRF_MAX_SCORE, _normalize_fastembed_metadata
+from medicina_naturista.web import handlers, main
 from medicina_naturista.reporting import pdf as reports_module
 import medicina_naturista.ai.client as ai_module
 from medicina_naturista.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
@@ -61,7 +61,7 @@ class FakeRetriever:
             "C1": {
                 "source": "documents/plan.md:1-5",
                 "text": "Informație locală relevantă.",
-                "relevance": "Scor relevanță: 0.0167",
+                "score": 0.0167,
             }
         }
 
@@ -354,30 +354,46 @@ class WebTests(unittest.TestCase):
         self.assertIn("**• Alte recomandări:** probiotic.", prefixed_report)
         self.assertTrue(main.chatbot.render_markdown)
 
-    # Verify that compaction logs both original and shortened fragment metadata.
-    def test_compaction_logs_fragments_before_and_after_with_removed_chars(self):
+    # Verify that once the serialized payload exceeds the context budget, the
+    # lowest-relevance fragment is dropped entirely — never truncated — while
+    # every fragment that survives keeps its full original text.
+    def test_compaction_drops_lowest_scored_fragment_and_keeps_others_intact(self):
         client = XAIClient(settings)
         evidence = {
-            "E1": {"source": "documents/plan-a.md:1-10", "text": "A" * 700},
-            "E2": {"source": "documents/plan-b.md:20-30", "text": "B" * 700},
+            # Lower score: must be the one dropped when the budget is tight,
+            # even though it is inserted first.
+            "E2": {"source": "documents/plan-b.md:20-30", "text": "B" * 300, "score": 0.0100},
+            "E1": {"source": "documents/plan-a.md:1-10", "text": "A" * 300, "score": 0.0500},
         }
 
         with patch.object(ai_module, "MAX_CONTEXT_CHARS", 500), self.assertLogs(
-            "naturist.ai", level="INFO"
+            "naturist.ai", level="WARNING"
         ) as captured:
             entries = client._evidence_entries(evidence)
         client.close()
 
         output = "\n".join(captured.output)
-        self.assertEqual(len(entries), 2)
-        self.assertIn("fragments_before_compaction count=2", output)
-        self.assertIn("fragments_sent_to_ai count=2", output)
-        self.assertIn('documents_count=2', output)
-        self.assertIn("source=documents/plan-a.md", output)
-        self.assertIn("source=documents/plan-b.md", output)
-        self.assertIn('"original_text_chars": 700', output)
-        self.assertIn('"compaction_removed_chars":', output)
-        self.assertLess(sum(len(entry["text"]) for entry in entries), 1400)
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0]["id"], "E1")
+        # The surviving fragment's text is untouched — no partial truncation.
+        self.assertEqual(entries[0]["text"], "A" * 300)
+        self.assertIn("entries=2->1", output)
+        self.assertIn("dropped_lowest_relevance=1", output)
+
+    # Verify a fragment with no serialized-length budget problem is returned
+    # unmodified and in relevance-score order (highest first), independent of
+    # the evidence dict's own insertion order.
+    def test_evidence_entries_orders_by_score_when_no_compaction_needed(self):
+        client = XAIClient(settings)
+        evidence = {
+            "E_low": {"source": "documents/plan-a.md:1-5", "text": "scor mic", "score": 0.0100},
+            "E_high": {"source": "documents/plan-b.md:1-5", "text": "scor mare", "score": 0.0500},
+        }
+
+        entries = client._evidence_entries(evidence)
+        client.close()
+
+        self.assertEqual([entry["id"] for entry in entries], ["E_high", "E_low"])
 
     # Verify the Responses API payload and ensure only one HTTP request is sent.
     def test_responses_api_sends_exactly_one_http_request(self):
@@ -481,58 +497,71 @@ class WebTests(unittest.TestCase):
         self.assertTrue(context.startswith("Secțiune: Gripă > Uz intern\n\n"))
         self.assertIn(result["text"], context)
 
-    # Verify exact-topic matches are pulled into their own top section ahead
-    # of every numeric-scored fragment, and that fragments within each
-    # remaining document group are sorted by relevance score descending.
-    def test_fragments_panel_prioritizes_exact_matches_and_sorts_by_score(self):
+    # Verify every fragment carries the same relevance measure (its raw
+    # "score" field, written by Retriever.collect() as hybrid_score from
+    # rank()); the panel interpolates that raw value onto a 0-100 integer
+    # percentage for display ("Scor relevanță: NN%") while sorting the flat
+    # list by the raw score itself, descending — no separate section or
+    # ordering rule for any subset of fragments.
+    def test_fragments_panel_sorts_by_relevance_score(self):
         evidence = {
             "C1": {
                 "source": "documents/doc-a.md:1-5",
                 "text": "Scor mic",
-                "relevance": "Scor relevanță: 0.0100",
+                "score": RRF_MAX_SCORE * 0.1,  # -> 10%
             },
             "C2": {
-                "source": "documents/doc-z-exact.md:10-15",
-                "text": "Potrivire z",
-                "relevance": "Potrivire exactă pe subiect",
+                "source": "documents/doc-z.md:10-15",
+                "text": "Scor mediu z",
+                "score": RRF_MAX_SCORE * 0.5,  # -> 50%
             },
             "C3": {
                 "source": "documents/doc-a.md:20-25",
                 "text": "Scor mare",
-                "relevance": "Scor relevanță: 0.0500",
+                "score": RRF_MAX_SCORE,  # -> 100%, the ceiling from ai/search.py
             },
             "C4": {
-                "source": "documents/doc-b-exact.md:1-5",
-                "text": "Potrivire b",
-                "relevance": "Potrivire exactă pe subiect",
+                "source": "documents/doc-b.md:1-5",
+                "text": "Scor mediu b",
+                "score": RRF_MAX_SCORE * 0.5,  # -> 50%, tied with C2
             },
         }
 
         fragments_html = main._fragments_panel_html(evidence)
 
-        # Flat list, no per-document grouping and no section heading for
-        # exact matches — just ordering: exact matches (by document name),
-        # then everything else (by score, descending).
+        # Flat list, no per-document grouping and no separate section for
+        # any subset of fragments.
         self.assertIn("fragments-panel-header", fragments_html)
-        self.assertNotIn("Potriviri exacte pe subiect", fragments_html)
         self.assertNotIn('class="fragments-panel-doc"', fragments_html)
 
-        position_b = fragments_html.index("Potrivire b")
-        position_z = fragments_html.index("Potrivire z")
         position_high_score = fragments_html.index("Scor mare")
+        position_mid_z = fragments_html.index("Scor mediu z")
+        position_mid_b = fragments_html.index("Scor mediu b")
         position_low_score = fragments_html.index("Scor mic")
-        self.assertLess(position_b, position_z, "exact matches must be ordered by document name")
-        self.assertLess(position_z, position_high_score, "exact matches must lead over every scored fragment")
-        self.assertLess(position_high_score, position_low_score, "higher relevance score must render first")
+        self.assertLess(position_high_score, position_mid_z, "higher relevance score must render first")
+        # Equal scores keep their original (stable-sort) relative order.
+        self.assertLess(position_mid_z, position_mid_b, "equal scores must preserve original order")
+        self.assertLess(position_mid_b, position_low_score, "lower relevance score must render last")
 
         # Score/relevance and source document render together, one per
-        # fragment, as "Scor relevanță: X, document.md".
-        self.assertIn("Potrivire exactă pe subiect, doc-b-exact.md", fragments_html)
-        self.assertIn("Potrivire exactă pe subiect, doc-z-exact.md", fragments_html)
-        self.assertIn("Scor relevanță: 0.0500, doc-a.md", fragments_html)
-        self.assertIn("Scor relevanță: 0.0100, doc-a.md", fragments_html)
+        # fragment, as "Scor relevanță: NN%, document.md".
+        self.assertIn("Scor relevanță: 100%, doc-a.md", fragments_html)
+        self.assertIn("Scor relevanță: 50%, doc-z.md", fragments_html)
+        self.assertIn("Scor relevanță: 50%, doc-b.md", fragments_html)
+        self.assertIn("Scor relevanță: 10%, doc-a.md", fragments_html)
 
         self.assertIn("Total: 4 fragmente din 3 documente.", fragments_html)
+
+    # Verify the raw-to-percentage interpolation clamps out-of-range scores
+    # instead of producing a negative or over-100 percentage: a score above
+    # the RRF ceiling (should not happen, but defensively) still reads 100%,
+    # and a fragment with no score at all (the "-inf" default) reads 0%
+    # rather than a nonsensical negative number.
+    def test_relevance_percent_clamps_out_of_range_scores(self):
+        self.assertEqual(handlers._relevance_percent(RRF_MAX_SCORE * 2), 100)
+        self.assertEqual(handlers._relevance_percent(RRF_MAX_SCORE), 100)
+        self.assertEqual(handlers._relevance_percent(0.0), 0)
+        self.assertEqual(handlers._relevance_percent(float("-inf")), 0)
 
     # Verify that one submitted health answer triggers report generation and download.
     def test_chat_automatically_generates_report_after_single_answer(self):
@@ -579,7 +608,7 @@ class WebTests(unittest.TestCase):
                     "C1": {
                         "source": "documents/plan.md:1-5",
                         "text": "Informație locală relevantă.",
-                        "relevance": "Scor relevanță: 0.0167",
+                        "score": 0.0167,
                     }
                 },
             )

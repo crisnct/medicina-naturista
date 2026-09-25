@@ -8,6 +8,7 @@ from urllib.parse import quote
 
 import gradio as gr
 
+from medicina_naturista.ai.search import RRF_MAX_SCORE
 from medicina_naturista.core.models import SessionData
 from medicina_naturista.reporting.pdf import (
     bibliography_label,
@@ -86,18 +87,15 @@ def _normalize_text(text: str) -> str:
     return " ".join(text.split())
 
 
-# Sort key for fragments within a document: numeric hybrid scores rank by
-# value, and an exact-topic match ("Potrivire exactă pe subiect" — has no
-# number to parse) ranks above every numeric score, since it is the
-# strongest possible match.
-def _relevance_sort_key(relevance: str) -> float:
-    match = re.search(r"[\d.]+", relevance)
-    if match:
-        try:
-            return float(match.group())
-        except ValueError:
-            pass
-    return float("inf")
+# Map a raw hybrid_score (0 .. RRF_MAX_SCORE, see ai/search.py) to an integer
+# percentage for the patient-facing display only — internal ordering and the
+# AI-context budget trimming (ai/client.py) both keep using the raw float;
+# only this presentation layer interpolates it into a 0-100 scale. Scores are
+# clamped first: a fragment that never got a score defaults to -inf (see
+# below), which would otherwise interpolate to a large negative percentage.
+def _relevance_percent(score: float) -> int:
+    clamped = max(0.0, min(score, RRF_MAX_SCORE))
+    return round(clamped / RRF_MAX_SCORE * 100)
 
 
 # Build the scrollable panel showing every retrieved fragment as a single
@@ -106,10 +104,13 @@ def _relevance_sort_key(relevance: str) -> float:
 # shown — no chunk ids, line ranges, or other internal metadata — per the
 # patient-facing transparency requirement.
 #
-# Ordering: exact-topic matches ("Potrivire exactă pe subiect") lead, sorted
-# by document name, since they are the strongest possible match; every
-# remaining fragment follows, sorted purely by relevance score (descending),
-# regardless of which document it came from.
+# Ordering: every fragment carries the same "score" field — its raw
+# hybrid_score from rank(), written by Retriever.collect() — so the whole
+# list is sorted purely by that value, descending, regardless of which
+# document or query produced it. The percentage shown to the patient is
+# interpolated from that same raw value at render time (see
+# _relevance_percent), so the UI never displays a number that could drift
+# from what was actually used to rank and select fragments.
 #
 # The title and "found N fragments" banner sit in their own header, kept
 # pinned above the scrollable fragment list (see .fragments-panel-header in
@@ -121,19 +122,13 @@ def _relevance_sort_key(relevance: str) -> float:
 def _fragments_panel_html(evidence: dict) -> str:
     if not evidence:
         return ""
-    exact_entries: list[tuple[str, str]] = []  # (document, text)
-    scored_entries: list[tuple[str, str, str]] = []  # (document, text, relevance)
+    entries: list[tuple[str, str, float]] = []  # (document, text, score)
     all_documents: set[str] = set()
     for item in evidence.values():
         document = item["source"].split(":", 1)[0].removeprefix("documents/")
         all_documents.add(document)
-        relevance = item.get("relevance", "")
-        if relevance == "Potrivire exactă pe subiect":
-            exact_entries.append((document, item["text"]))
-        else:
-            scored_entries.append((document, item["text"], relevance))
-    exact_entries.sort(key=lambda entry: entry[0].casefold())
-    scored_entries.sort(key=lambda entry: _relevance_sort_key(entry[2]), reverse=True)
+        entries.append((document, item["text"], item.get("score", float("-inf"))))
+    entries.sort(key=lambda entry: entry[2], reverse=True)
 
     parts = ['<div class="fragments-panel-inner">']
     parts.append(
@@ -145,15 +140,8 @@ def _fragments_panel_html(evidence: dict) -> str:
         "</div>"
         "</div>"
     )
-    for document, text in exact_entries:
-        parts.append('<div class="fragments-panel-fragment">')
-        parts.append(f'<p class="fragments-panel-fragment-text">{html.escape(_normalize_text(text))}</p>')
-        parts.append(
-            '<p class="fragments-panel-fragment-score">'
-            f'{html.escape("Potrivire exactă pe subiect")}, {html.escape(document)}</p>'
-        )
-        parts.append("</div>")
-    for document, text, relevance in scored_entries:
+    for document, text, score in entries:
+        relevance = f"Scor relevanță: {_relevance_percent(score)}%"
         parts.append('<div class="fragments-panel-fragment">')
         parts.append(f'<p class="fragments-panel-fragment-text">{html.escape(_normalize_text(text))}</p>')
         parts.append(f'<p class="fragments-panel-fragment-score">{html.escape(relevance)}, {html.escape(document)}</p>')
