@@ -15,14 +15,14 @@ Behavior:
 - reports missing page ranges but DOES NOT stop;
 - stops on overlapping/invalid page ranges;
 - optionally checks actual PDF page counts;
-- ALWAYS saves the result next to this script;
+- saves the result in `<project>/var/output` unless `--output-dir` is provided;
 - the output filename is the source folder name + ".pdf".
 
 Install:
     py -m pip install pypdf
 
 Run:
-    py merge_book_pdfs.py "C:\\GoogleDrive\\Medicina\\Vindecare prin nutritie"
+    py scripts/merge_book_pdfs.py "C:\\GoogleDrive\\Medicina\\Vindecare prin nutritie"
 """
 
 from __future__ import annotations
@@ -171,7 +171,7 @@ def merge_pdfs(parts: list[PdfPart], output_path: Path) -> None:
             )
             writer.append(str(part.path))
 
-        # The output is always next to this script.
+        # Create the configured output directory only when a merge is ready to be written.
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         with output_path.open("wb") as output_file:
@@ -185,7 +185,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
             "Merge pag<first>-<last>.pdf files in numeric book-page order. "
-            "The result is saved next to this script, using the source "
+            "The result is saved in var/output by default, using the source "
             "folder name as the PDF filename."
         )
     )
@@ -205,6 +205,12 @@ def build_parser() -> argparse.ArgumentParser:
         ),
     )
 
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        help="Destination folder. Defaults to <project>/var/output.",
+    )
+
     return parser
 
 
@@ -220,14 +226,12 @@ def main() -> int:
         )
         return 2
 
-    # IMPORTANT:
-    # Output location is based ONLY on the physical location of this script,
-    # never on the source PDF folder and never on the current PowerShell folder.
-    script_dir = Path(__file__).resolve().parent
+    project_root = Path(__file__).resolve().parents[1]
+    output_dir = (args.output_dir or project_root / "var" / "output").expanduser().resolve()
     output_filename = f"{source_folder.name}.pdf"
-    output_path = script_dir / output_filename
+    output_path = output_dir / output_filename
 
-    print(f"Script folder : {script_dir}")
+    print(f"Project root  : {project_root}")
     print(f"Source folder : {source_folder}")
     print(f"Output PDF    : {output_path}")
 

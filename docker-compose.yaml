@@ -20,8 +20,8 @@ services:
       XAI_MODEL: ${XAI_MODEL:-grok-4.3}
       XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
       XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
-      DOCUMENTS_DIR: /app/documents
-      INDEX_DIR: /app/embedings
+      DOCUMENTS_DIR: /app/data/documents
+      INDEX_DIR: /app/data/embeddings
       SESSION_TEMP_DIR: /tmp/naturist-sessions
       GRADIO_TEMP_DIR: /tmp/gradio-cache
       GRADIO_ROOT_PATH: ${GRADIO_ROOT_PATH:-/medicina}
@@ -33,16 +33,16 @@ services:
       TRUST_PROXY: "true"
     volumes:
       - type: bind
-        source: ./documents
-        target: /app/documents
+        source: ./data/documents
+        target: /app/data/documents
         read_only: true
       - type: bind
-        source: ./embedings
-        target: /app/embedings
+        source: ./data/embeddings
+        target: /app/data/embeddings
         read_only: true
       - type: bind
-        source: ./model_cache
-        target: /app/model_cache
+        source: ./data/model_cache
+        target: /app/data/model_cache
     tmpfs:
       - /tmp:size=536870912,mode=1777
     ports:

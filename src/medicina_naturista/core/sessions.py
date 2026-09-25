@@ -6,36 +6,11 @@ import logging
 import shutil
 import threading
 import time
-from dataclasses import dataclass, field
 from pathlib import Path
 
-from web_app.profile import HealthProfile
+from medicina_naturista.core.models import SessionData
 
 logger = logging.getLogger("naturist.sessions")
-
-
-@dataclass
-class SessionData:
-    cookie_id: str
-    tab_id: str
-    directory: Path
-    created_at: float = field(default_factory=time.monotonic)
-    last_seen: float = field(default_factory=time.monotonic)
-    profile: HealthProfile = field(default_factory=HealthProfile)
-    history: list[dict[str, str]] = field(default_factory=list)
-    report_bytes: bytes | None = None
-    report_id: str | None = None
-    auto_report_pending: bool = False
-    lock: threading.RLock = field(default_factory=threading.RLock)
-
-    # Refresh the last-activity timestamp for this session.
-    def touch(self) -> None:
-        self.last_seen = time.monotonic()
-
-    # Remove the generated report and its download identifier from the session.
-    def clear_report(self) -> None:
-        self.report_bytes = None
-        self.report_id = None
 
 
 class SessionStore:

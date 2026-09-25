@@ -9,13 +9,13 @@ from typing import Any
 
 import httpx
 
-from web_app.config import Settings
+from medicina_naturista.config import Settings
 
 logger = logging.getLogger("naturist.ai")
 SECTIONS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
 MAX_CONTEXT_CHARS = 2_400_000
 GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
-    Path(__file__).resolve().parent / "prompts" / "generate-raport-system-prompt.md"
+    Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
 class AIUnavailable(RuntimeError):
     pass

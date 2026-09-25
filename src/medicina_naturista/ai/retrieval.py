@@ -8,13 +8,15 @@ import unicodedata
 from pathlib import Path
 from typing import Any
 
-from search_medical_embeddings import rank
-from web_app.config import settings
-from web_app.sessions import SessionData
+from medicina_naturista.ai.search import rank
+from medicina_naturista.config import settings
+from medicina_naturista.core.models import SessionData
 
 logger = logging.getLogger("naturist.retrieval")
 
-GENERIC_QUERY_WORDS_PATH = Path(__file__).with_name("generic_query_words.txt")
+GENERIC_QUERY_WORDS_PATH = (
+    Path(__file__).resolve().parent / "resources" / "generic_query_words.txt"
+)
 GENERIC_QUERY_WORDS = frozenset(
     GENERIC_QUERY_WORDS_PATH.read_text(encoding="utf-8").split()
 )

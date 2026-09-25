@@ -1,7 +1,10 @@
 """Minimal medical context collected before report generation."""
 from __future__ import annotations
 
+import threading
+import time
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
 HEALTH_PROBLEM_QUESTION = "Bine ați venit în cabinetul meu. Eu nu am acces la leacuri de pe internet, nici nu întreb chatGPT dar am multe cărți scanate și mă voi uita rapid în ele pentru a găsi recomandări de tratamente naturiste adjuvante pentru afecțiunea d-voastră. Vă rog să-mi spuneți care este problema de sănătate cu care vă confruntați."
@@ -64,3 +67,29 @@ class HealthProfile:
             "health_context": list(self.health_context),
             "transcript": [dict(entry) for entry in self.transcript],
         }
+
+
+@dataclass
+class SessionData:
+    """Ephemeral state isolated to one browser tab."""
+
+    cookie_id: str
+    tab_id: str
+    directory: Path
+    created_at: float = field(default_factory=time.monotonic)
+    last_seen: float = field(default_factory=time.monotonic)
+    profile: HealthProfile = field(default_factory=HealthProfile)
+    history: list[dict[str, str]] = field(default_factory=list)
+    report_bytes: bytes | None = None
+    report_id: str | None = None
+    auto_report_pending: bool = False
+    lock: threading.RLock = field(default_factory=threading.RLock)
+
+    def touch(self) -> None:
+        """Refresh the session's last-activity timestamp."""
+        self.last_seen = time.monotonic()
+
+    def clear_report(self) -> None:
+        """Discard the generated report and download identifier."""
+        self.report_bytes = None
+        self.report_id = None

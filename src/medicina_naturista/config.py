@@ -7,7 +7,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env", override=False)
 
 
@@ -34,9 +34,9 @@ def _bool(name: str, default: bool) -> bool:
 
 @dataclass(frozen=True)
 class Settings:
-    documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "documents")))
-    index_dir: Path = Path(os.getenv("INDEX_DIR", str(ROOT / "embedings")))
-    temp_dir: Path = Path(os.getenv("SESSION_TEMP_DIR", "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / ".session_tmp")))
+    documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
+    index_dir: Path = Path(os.getenv("INDEX_DIR", str(ROOT / "data" / "embeddings")))
+    temp_dir: Path = Path(os.getenv("SESSION_TEMP_DIR", "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")))
     xai_model: str = os.getenv("XAI_MODEL", "grok-4.3")
     xai_reasoning_effort: str = os.getenv("XAI_REASONING_EFFORT", "low")
     xai_api_base: str = os.getenv("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/")
