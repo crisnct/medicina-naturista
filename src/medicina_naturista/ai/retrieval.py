@@ -141,30 +141,6 @@ class Retriever:
                 context = text
         return f"Secțiune: {heading}\n\n{context}" if heading else context
 
-    # Return all chunks from files whose names explicitly mention the health topic.
-    def _dedicated_document_chunks(self, topic_words: set[str]) -> list[dict[str, Any]]:
-        """Return every chunk from documents whose filename explicitly names a consultation topic."""
-        if not topic_words:
-            return []
-        connection = sqlite3.connect(self.index_dir / "index.sqlite3")
-        connection.row_factory = sqlite3.Row
-        try:
-            sources = [
-                str(row[0]) for row in connection.execute("SELECT relative_path FROM files")
-                if any(word in _plain(Path(str(row[0])).stem) for word in topic_words)
-            ]
-            if not sources:
-                return []
-            placeholders = ",".join("?" for _ in sources)
-            rows = connection.execute(
-                f"SELECT * FROM chunks WHERE source_relative_path IN ({placeholders}) "
-                "ORDER BY source_relative_path, line_start, chunk_id",
-                sources,
-            ).fetchall()
-            return [dict(row) for row in rows]
-        finally:
-            connection.close()
-
     # Return and prioritize every chunk containing the complete health problem phrase.
     def _topic_coverage_chunks(self, topic_text: str) -> list[dict[str, Any]]:
         """Return every indexed chunk that contains the complete user problem."""
@@ -254,21 +230,11 @@ class Retriever:
 
         evidence: dict[str, dict[str, str]] = {}
         topic_chunks = self._topic_coverage_chunks(topic_text)
-        dedicated_chunks = self._dedicated_document_chunks(topic_words)
         logger.info(
-            "retrieval_priority_chunks topic_coverage=%s dedicated_document=%s",
+            "retrieval_priority_chunks topic_coverage=%s",
             len(topic_chunks),
-            len(dedicated_chunks),
         )
         for result in topic_chunks:
-            if len(evidence) >= self.max_evidence:
-                break
-            token = f"C{result['chunk_id']}"
-            evidence[token] = {
-                "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
-                "text": self._context(result)[: self.evidence_context_chars],
-            }
-        for result in dedicated_chunks:
             if len(evidence) >= self.max_evidence:
                 break
             token = f"C{result['chunk_id']}"
