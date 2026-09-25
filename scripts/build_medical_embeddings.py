@@ -12,21 +12,29 @@ import re
 import sqlite3
 import sys
 import tempfile
+import time
+import unicodedata
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Iterable, Iterator, Sequence
+from typing import Callable, Iterable, Iterator, Sequence
 
 import numpy as np
 
-
+# Default multilingual model used for Romanian and English medical retrieval.
 DEFAULT_MODEL = "intfloat/multilingual-e5-small"
+# Vector width produced by DEFAULT_MODEL and required by the generated index.
 MODEL_DIMENSION = 384
+# ONNX artifact loaded from the local Hugging Face model snapshot.
 MODEL_FILE = "onnx/model.onnx"
+# Preferred chunk size; complete content units may extend up to MAX_CHARS.
 TARGET_CHARS = 1200
-MAX_CHARS = 1600
-OVERLAP_CHARS = 180
-
+# Hard upper bound for chunk text before embedding.
+MAX_CHARS = 1400
+# Maximum complete trailing context carried into the next chunk.
+OVERLAP_CHARS = 240
+# Minimum elapsed time between embedding progress messages.
+PROGRESS_INTERVAL_SECONDS = 10.0
 
 @dataclass(frozen=True)
 class SourceFile:
@@ -87,46 +95,82 @@ def read_markdown(path: Path) -> tuple[str, str, bytes]:
 
 # Normalize null characters and line endings before indexing source text.
 def normalize_text(text: str) -> str:
-    return text.replace("\x00", "").replace("\r\n", "\n").replace("\r", "\n")
+    normalized = text.replace("\x00", "").replace("\r\n", "\n").replace("\r", "\n")
+    return unicodedata.normalize("NFC", normalized)
 
 
-# Split oversized text near word boundaries while retaining overlap for context.
+# Find a readable split point without exceeding the configured chunk limit.
+def find_split_boundary(text: str, *, prefer_newline: bool = False) -> int:
+    search_end = min(len(text), MAX_CHARS)
+    search_start = min(TARGET_CHARS, search_end)
+    preferred_start = min(TARGET_CHARS // 2, search_start)
+    window = text[:search_end]
+
+    newline = window.rfind("\n", preferred_start, search_end + 1)
+    if prefer_newline and newline >= 0:
+        return newline + 1
+
+    sentence_ends = [
+        match.end()
+        for match in re.finditer(r"[.!?…](?:[\"'”’\)\]]*)\s+", window)
+        if preferred_start <= match.end() <= search_end
+    ]
+    if sentence_ends:
+        return sentence_ends[-1]
+    if newline >= 0:
+        return newline + 1
+
+    whitespace = max(
+        window.rfind(" ", preferred_start, search_end + 1),
+        window.rfind("\t", preferred_start, search_end + 1),
+    )
+    return whitespace + 1 if whitespace >= 0 else search_end
+
+
+# Split oversized text at sentence or word boundaries without creating raw overlap.
 def split_long_piece(text: str, line_start: int, line_end: int) -> Iterator[tuple[str, int, int]]:
-    """Split oversized text near whitespace while retaining conservative line bounds."""
+    """Split oversized text while retaining conservative source line bounds."""
     remaining = text.strip()
+    lines = remaining.splitlines()
+    structured = len(lines) > 1 and any(
+        re.match(r"^\s*(?:[-*+]\s+|\d+[.)]\s+|\|)", line)
+        for line in lines
+    )
     while len(remaining) > MAX_CHARS:
-        cut = remaining.rfind(" ", TARGET_CHARS, MAX_CHARS + 1)
-        if cut < TARGET_CHARS // 2:
-            cut = remaining.find(" ", TARGET_CHARS)
-        if cut < 0 or cut > MAX_CHARS:
-            cut = MAX_CHARS
+        cut = find_split_boundary(remaining, prefer_newline=structured)
         piece = remaining[:cut].strip()
         if piece:
             yield piece, line_start, line_end
-        tail_start = max(0, cut - OVERLAP_CHARS)
-        remaining = remaining[tail_start:].strip()
+        remaining = remaining[cut:].strip()
     if remaining:
         yield remaining, line_start, line_end
 
 
+# Treat generated PDF page markers as soft boundaries rather than semantic titles.
+def is_page_heading(title: str) -> bool:
+    return bool(re.fullmatch(r"(?:pagina|page)\s+\d+(?:\s+(?:din|of)\s+\d+)?", title.strip(), flags=re.IGNORECASE))
+
+
 # Parse Markdown into heading-aware blocks with source line ranges.
-def markdown_blocks(text: str) -> list[tuple[str, int, int, str]]:
+def markdown_blocks(text: str) -> list[tuple[str, int, int, str, str]]:
     lines = text.split("\n")
-    blocks: list[tuple[str, int, int, str]] = []
-    heading_stack: list[str] = []
+    blocks: list[tuple[str, int, int, str, str]] = []
+    heading_stack: list[tuple[str, bool]] = []
     buffer: list[str] = []
     buffer_start = 1
+    pending_boundary = "none"
 
-    # Return the current nested heading path for the buffered Markdown block.
+    # Return semantic headings while excluding generated page-number markers.
     def heading_path() -> str:
-        return " > ".join(heading_stack)
+        return " > ".join(title for title, is_soft in heading_stack if not is_soft)
 
     # Emit the buffered non-empty block and reset the line buffer.
     def flush(end_line: int) -> None:
-        nonlocal buffer
+        nonlocal buffer, pending_boundary
         body = "\n".join(buffer).strip()
         if body:
-            blocks.append((body, buffer_start, end_line, heading_path()))
+            blocks.append((body, buffer_start, end_line, heading_path(), pending_boundary))
+            pending_boundary = "none"
         buffer = []
 
     for number, line in enumerate(lines, start=1):
@@ -135,9 +179,13 @@ def markdown_blocks(text: str) -> list[tuple[str, int, int, str]]:
             flush(number - 1)
             level = len(match.group(1))
             title = match.group(2).strip()
+            soft_boundary = is_page_heading(title)
             heading_stack[:] = heading_stack[: level - 1]
-            heading_stack.append(title)
-            blocks.append((line.strip(), number, number, heading_path()))
+            heading_stack.append((title, soft_boundary))
+            if not soft_boundary:
+                pending_boundary = "hard"
+            elif pending_boundary == "none":
+                pending_boundary = "soft"
             continue
         if not line.strip():
             flush(number - 1)
@@ -152,49 +200,84 @@ def markdown_blocks(text: str) -> list[tuple[str, int, int, str]]:
 # Combine Markdown blocks into bounded overlapping chunks for embedding.
 def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
     raw_blocks = markdown_blocks(text)
-    pieces: list[tuple[str, int, int, str]] = []
-    for body, start, end, heading in raw_blocks:
-        for piece, piece_start, piece_end in split_long_piece(body, start, end):
-            pieces.append((piece, piece_start, piece_end, heading))
+    pieces: list[tuple[str, int, int, str, str]] = []
+    for body, start, end, heading, boundary in raw_blocks:
+        for index, (piece, piece_start, piece_end) in enumerate(split_long_piece(body, start, end)):
+            pieces.append((piece, piece_start, piece_end, heading, boundary if index == 0 else "none"))
 
     chunks: list[tuple[str, int, int, str]] = []
-    current: list[tuple[str, int, int, str]] = []
+    current: list[tuple[str, int, int, str, str]] = []
     current_chars = 0
+    new_content_items = 0
 
-    # Emit the current chunk and retain a small overlap for the next chunk.
-    def flush() -> None:
-        nonlocal current, current_chars
+    # Return trailing complete units that fit entirely inside the overlap budget.
+    def trailing_overlap() -> list[tuple[str, int, int, str, str]]:
+        overlap: list[tuple[str, int, int, str, str]] = []
+        size = 0
+        for item in reversed(current):
+            item_size = len(item[0]) + (2 if overlap else 0)
+            if size + item_size > OVERLAP_CHARS:
+                break
+            overlap.insert(0, item)
+            size += item_size
+        return overlap
+
+    # Carry one complete sentence or short unit over a generated page boundary.
+    def page_sentence_overlap() -> list[tuple[str, int, int, str, str]]:
         if not current:
+            return []
+        item = current[-1]
+        matches = list(re.finditer(r"[^.!?…]+[.!?…](?:[\"'”’\)\]]*)", item[0], flags=re.DOTALL))
+        candidate = matches[-1].group(0).strip() if matches else item[0].strip()
+        if not candidate or len(candidate) > OVERLAP_CHARS:
+            return []
+        return [(candidate, item[1], item[2], item[3], "none")]
+
+    # Emit only chunks containing new content; optionally retain bounded overlap.
+    def flush(retain_overlap: bool) -> None:
+        nonlocal current, current_chars, new_content_items
+        if not current or new_content_items == 0:
             return
         combined = "\n\n".join(item[0] for item in current).strip()
         start = min(item[1] for item in current)
         end = max(item[2] for item in current)
-        heading = next((item[3] for item in reversed(current) if item[3]), "")
+        heading = current[-1][3]
         if combined:
+            if len(combined) > MAX_CHARS:
+                raise RuntimeError(f"Chunk exceeds {MAX_CHARS} characters: {len(combined)}")
             chunks.append((combined, start, end, heading))
-        if len(combined) > OVERLAP_CHARS and len(current) > 1:
-            overlap: list[tuple[str, int, int, str]] = []
-            size = 0
-            for item in reversed(current):
-                overlap.insert(0, item)
-                size += len(item[0]) + 2
-                if size >= OVERLAP_CHARS:
-                    break
-            current = overlap
-            current_chars = sum(len(item[0]) + 2 for item in current)
-        else:
-            current = []
-            current_chars = 0
+        current = trailing_overlap() if retain_overlap else []
+        current_chars = sum(len(item[0]) for item in current) + max(0, len(current) - 1) * 2
+        new_content_items = 0
 
     for piece in pieces:
+        boundary = piece[4]
+        if boundary == "hard":
+            flush(retain_overlap=False)
+            current = []
+            current_chars = 0
+            new_content_items = 0
+        elif boundary == "soft":
+            overlap = page_sentence_overlap()
+            flush(retain_overlap=False)
+            current = overlap
+            current_chars = sum(len(item[0]) for item in current) + max(0, len(current) - 1) * 2
+            new_content_items = 0
+
         additional = len(piece[0]) + (2 if current else 0)
         if current and current_chars + additional > MAX_CHARS:
-            flush()
+            flush(retain_overlap=True)
+            additional = len(piece[0]) + (2 if current else 0)
+            if current and current_chars + additional > MAX_CHARS:
+                current = []
+                current_chars = 0
+                additional = len(piece[0])
         current.append(piece)
         current_chars += additional
+        new_content_items += 1
         if current_chars >= TARGET_CHARS:
-            flush()
-    flush()
+            flush(retain_overlap=True)
+    flush(retain_overlap=False)
     return chunks
 
 
@@ -300,6 +383,69 @@ def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Ch
         connection.close()
 
 
+# Format elapsed and estimated durations as stable terminal-friendly timestamps.
+def format_duration(seconds: float) -> str:
+    total_seconds = max(0, int(seconds))
+    hours, remainder = divmod(total_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+
+
+# Generate, validate, and normalize embeddings while reporting measured progress.
+def embed_chunks(
+    model: object,
+    chunks: Sequence[Chunk],
+    batch_size: int,
+    *,
+    progress_interval_seconds: float = PROGRESS_INTERVAL_SECONDS,
+    clock: Callable[[], float] | None = None,
+) -> np.ndarray:
+    if progress_interval_seconds <= 0:
+        raise ValueError("Progress interval must be greater than zero")
+
+    monotonic = clock or time.monotonic
+    total = len(chunks)
+    vectors: list[np.ndarray] = []
+    started = monotonic()
+    last_report = started
+
+    for processed, vector in enumerate(
+        model.embed(iter_embedding_inputs(chunks), batch_size=batch_size, parallel=None),
+        start=1,
+    ):
+        vectors.append(vector)
+        now = monotonic()
+        if processed < total and now - last_report >= progress_interval_seconds:
+            elapsed = max(now - started, 1e-9)
+            rate = processed / elapsed
+            eta = (total - processed) / rate if rate > 0 else 0.0
+            percent = processed * 100.0 / total
+            print(
+                f"Embedding progress: {processed}/{total} ({percent:.1f}%) | "
+                f"elapsed {format_duration(elapsed)} | rate {rate:.1f} chunks/s | "
+                f"ETA {format_duration(eta)}",
+                flush=True,
+            )
+            last_report = now
+
+    embeddings = np.asarray(vectors, dtype=np.float32)
+    if embeddings.shape != (total, MODEL_DIMENSION):
+        raise RuntimeError(f"Unexpected embedding matrix shape: {embeddings.shape}")
+    norms = np.linalg.norm(embeddings, axis=1)
+    if not np.isfinite(embeddings).all() or np.any(norms == 0):
+        raise RuntimeError("Embedding matrix contains non-finite or zero vectors")
+    embeddings /= norms[:, None]
+
+    elapsed = monotonic() - started
+    rate = total / max(elapsed, 1e-9)
+    print(
+        f"Embedding completed: {total}/{total} (100.0%) | "
+        f"elapsed {format_duration(elapsed)} | rate {rate:.1f} chunks/s",
+        flush=True,
+    )
+    return embeddings
+
+
 # Build embeddings, searchable metadata, checksums, and manifests atomically.
 def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
     source = source.resolve()
@@ -379,17 +525,8 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
 
     print(f"Loading local embedding model {model_name}", flush=True)
     model = create_embedding_model(model_name, cache_dir)
-    print(f"Embedding {len(chunks)} chunks", flush=True)
-    embeddings = np.asarray(
-        list(model.embed(iter_embedding_inputs(chunks), batch_size=batch_size, parallel=None)),
-        dtype=np.float32,
-    )
-    if embeddings.shape != (len(chunks), MODEL_DIMENSION):
-        raise RuntimeError(f"Unexpected embedding matrix shape: {embeddings.shape}")
-    norms = np.linalg.norm(embeddings, axis=1)
-    if not np.isfinite(embeddings).all() or np.any(norms == 0):
-        raise RuntimeError("Embedding matrix contains non-finite or zero vectors")
-    embeddings /= norms[:, None]
+    print(f"Embedding {len(chunks)} chunks (batch size {batch_size})", flush=True)
+    embeddings = embed_chunks(model, chunks, batch_size)
 
     changed_during_build: list[str] = []
     for path in paths:
@@ -431,6 +568,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
             "source_digest_sha256": source_digest,
             "chunk_count": len(chunks),
             "chunking": {
+                "strategy_version": 2,
                 "strategy": "Markdown headings and paragraphs with bounded character windows",
                 "target_chars": TARGET_CHARS,
                 "max_chars": MAX_CHARS,

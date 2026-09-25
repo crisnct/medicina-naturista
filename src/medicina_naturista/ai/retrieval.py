@@ -122,20 +122,24 @@ class Retriever:
 
     # Expand short indexed excerpts with nearby source lines when the file is available.
     def _context(self, result: dict[str, Any]) -> str:
-        """Read a few neighboring lines from documents/ when the indexed excerpt is short."""
+        """Add its semantic heading and expand short excerpts with nearby source lines."""
+        text = str(result["text"])
+        heading = str(result.get("heading") or "").strip()
         relative = Path(str(result["source_relative_path"]))
         path = (self.documents_dir / relative).resolve()
         if not path.is_relative_to(self.documents_dir) or not path.is_file():
-            return str(result["text"])
-        if len(str(result["text"])) >= 600:
-            return str(result["text"])
-        try:
-            lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
-            start = max(0, int(result["line_start"]) - 5)
-            end = min(len(lines), int(result["line_end"]) + 4)
-            return "\n".join(lines[start:end])[:1800]
-        except (OSError, ValueError):
-            return str(result["text"])
+            context = text
+        elif len(text) >= 600:
+            context = text
+        else:
+            try:
+                lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+                start = max(0, int(result["line_start"]) - 5)
+                end = min(len(lines), int(result["line_end"]) + 4)
+                context = "\n".join(lines[start:end])[:1800]
+            except (OSError, ValueError):
+                context = text
+        return f"Secțiune: {heading}\n\n{context}" if heading else context
 
     # Return all chunks from files whose names explicitly mention the health topic.
     def _dedicated_document_chunks(self, topic_words: set[str]) -> list[dict[str, Any]]:
