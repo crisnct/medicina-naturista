@@ -6,16 +6,17 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+$projectRoot = Split-Path -Parent $PSScriptRoot
 $env:HF_HUB_OFFLINE = '1'
 $env:PYTHONIOENCODING = 'utf-8'
+$env:PYTHONPATH = Join-Path $projectRoot 'src'
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $arguments = @(
-    (Join-Path $root 'search_medical_embeddings.py'),
+    '-m', 'medicina_naturista.ai.search',
     $Query,
-    '--index', (Join-Path $root 'embedings'),
+    '--index', (Join-Path $projectRoot 'data\embeddings'),
     '--limit', $Limit.ToString()
 )
 if ($Json) { $arguments += '--json' }
-& (Join-Path $root '.venv\Scripts\python.exe') @arguments
+& (Join-Path $projectRoot '.venv\Scripts\python.exe') @arguments
 exit $LASTEXITCODE

@@ -151,8 +151,8 @@ activemq-data/
 .env
 .envrc
 .venv
-/model_cache/
-/embedings/
+/data/model_cache/
+/data/embeddings/
 /chunks.jsonl
 /embeddings.npy
 /index.sqlite3
@@ -226,5 +226,6 @@ __marimo__/
 .streamlit/secrets.toml
 /.idea
 /.secrets/
-/.session_tmp/
-/.gradio_tmp/
+/var/sessions/
+/var/tmp/
+/var/output/

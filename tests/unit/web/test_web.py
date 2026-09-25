@@ -13,15 +13,16 @@ from pypdf import PdfReader
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 
-from search_medical_embeddings import _normalize_fastembed_metadata
-from web_app import main, reports as reports_module
-import web_app.ai as ai_module
-from web_app.ai import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
-from web_app.config import settings
-from web_app.profile import HEALTH_PROBLEM_QUESTION, HealthProfile
-from web_app.reports import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
-from web_app.retrieval import Retriever, _meaningful_words, consultation_queries
-from web_app.sessions import SessionStore
+from medicina_naturista.ai.search import _normalize_fastembed_metadata
+from medicina_naturista.web import main
+from medicina_naturista.reporting import pdf as reports_module
+import medicina_naturista.ai.client as ai_module
+from medicina_naturista.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
+from medicina_naturista.config import settings
+from medicina_naturista.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile
+from medicina_naturista.reporting.pdf import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
+from medicina_naturista.ai.retrieval import Retriever, _meaningful_words, consultation_queries
+from medicina_naturista.core.sessions import SessionStore
 
 
 class FakeRequest:

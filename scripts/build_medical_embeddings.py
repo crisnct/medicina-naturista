@@ -310,7 +310,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         raise ValueError("Output directory must not be inside the source directory")
 
     output.mkdir(parents=True, exist_ok=True)
-    index_dir = output / "embedings"
+    index_dir = output / "embeddings"
     index_dir.mkdir(parents=True, exist_ok=True)
     cache_dir = output / "model_cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -480,7 +480,8 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
 # Parse command-line options for the embedding index build.
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", type=Path, default=Path(__file__).resolve().parent / "documents")
+    project_root = Path(__file__).resolve().parents[1]
+    parser.add_argument("--source", type=Path, default=project_root / "data" / "documents")
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--batch-size", type=int, default=64)

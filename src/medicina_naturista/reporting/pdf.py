@@ -45,7 +45,9 @@ BOLD_CANDIDATES = (
     Path("/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf"),
     Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"),
 )
-ORNAMENT_PNG = Path(__file__).with_name("ornament-fitoterapie-antet.png")
+ORNAMENT_PNG = (
+    Path(__file__).resolve().parent / "assets" / "ornament-fitoterapie-antet.png"
+)
 
 
 # Locate Unicode fonts, register them with ReportLab, and return their names.

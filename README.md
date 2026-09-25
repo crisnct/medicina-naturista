@@ -1,18 +1,30 @@
 # Index local pentru arhiva medicală
 
-Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `documents`. Cele șase artefacte ale indexului sunt păstrate în `embedings`, iar modelul descărcat în `model_cache`. Ambele foldere sunt generate local și nu sunt păstrate în Git.
+Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `data/documents`. Cele șase artefacte ale indexului sunt păstrate în `data/embeddings`, iar modelul descărcat în `data/model_cache`. Folderele cu artefacte generate local nu sunt păstrate în Git.
+
+## Structura proiectului
+
+- `src/medicina_naturista/core/` — modelele aplicației și sesiunile izolate pe tab.
+- `src/medicina_naturista/ai/` — clientul xAI, retrieval, căutarea locală, prompturile și resursele AI.
+- `src/medicina_naturista/reporting/` — generarea PDF și resursele raportului.
+- `src/medicina_naturista/integrations/` — integrările cu servicii externe, inclusiv Gmail.
+- `src/medicina_naturista/web/` — aplicația FastAPI/Gradio, handler-ele UI și fișierele statice.
+- `scripts/` — operațiile administrative și utilitarele proiectului.
+- `tests/` — teste unitare organizate pe componente și teste de integrare.
+- `data/` — documentele, indexul și cache-ul modelului.
+- `var/` — rapoarte, sesiuni și fișiere temporare generate la rulare.
 
 ## Conținut
 
-- `embedings/manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
-- `embedings/source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
-- `embedings/chunks.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
-- `embedings/embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
-- `embedings/index.sqlite3` — metadate, fragmente și index lexical FTS5.
-- `embedings/SHA256SUMS.txt` — sume de control pentru artefactele principale.
-- `search_medical_embeddings.py` — căutare hibridă semantică + lexicală.
-- `search.ps1` — lansator PowerShell offline.
-- `rebuild.ps1` — reconstruiește indexul după modificarea surselor.
+- `data/embeddings/manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
+- `data/embeddings/source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
+- `data/embeddings/chunks.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
+- `data/embeddings/embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
+- `data/embeddings/index.sqlite3` — metadate, fragmente și index lexical FTS5.
+- `data/embeddings/SHA256SUMS.txt` — sume de control pentru artefactele principale.
+- `src/medicina_naturista/ai/search.py` — căutare hibridă semantică + lexicală.
+- `scripts/search_embeddings.ps1` — lansator PowerShell offline.
+- `scripts/rebuild_embeddings.ps1` — reconstruiește indexul după modificarea surselor.
 
 ## Căutare
 
@@ -21,19 +33,19 @@ La prima utilizare, instalează Python 3.11 și reconstruiește indexul:
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\rebuild.ps1
+.\scripts\rebuild_embeddings.ps1
 ```
 
-Prima reconstruire descarcă modelul în `model_cache` și poate dura câteva zeci de minute. După aceea, căutarea funcționează offline.
+Prima reconstruire descarcă modelul în `data/model_cache` și poate dura câteva zeci de minute. După aceea, căutarea funcționează offline.
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\search.ps1' "plante și măsuri pentru tuse"
+& 'D:\Workspace\medicina-naturista\scripts\search_embeddings.ps1' "plante și măsuri pentru tuse"
 ```
 
 Pentru rezultate JSON:
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\search.ps1' "plante și măsuri pentru tuse" -Json
+& 'D:\Workspace\medicina-naturista\scripts\search_embeddings.ps1' "plante și măsuri pentru tuse" -Json
 ```
 
 Rezultatele indică fișierul absolut și intervalul de linii. Aceste referințe trebuie păstrate în orice document creat ulterior.
@@ -43,18 +55,18 @@ Rezultatele indică fișierul absolut și intervalul de linii. Aceste referințe
 După adăugarea sau modificarea fișierelor-sursă:
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\rebuild.ps1'
+& 'D:\Workspace\medicina-naturista\scripts\rebuild_embeddings.ps1'
 ```
 
-`rebuild.ps1` găsește `documents` relativ la propria locație, inclusiv dacă este lansat din alt director. Pentru rularea directă a scriptului Python, `--source` folosește implicit același folder; opțiunea poate fi specificată pentru o altă sursă. Modelul este descărcat o singură dată în `model_cache`; inferența și interogările rulează local. `search.ps1` activează modul offline.
+`scripts/rebuild_embeddings.ps1` găsește `data/documents` relativ la rădăcina proiectului, inclusiv dacă este lansat din alt director. Pentru rularea directă a scriptului Python, `--source` folosește implicit același folder; opțiunea poate fi specificată pentru o altă sursă. Modelul este descărcat o singură dată în `data/model_cache`; inferența și interogările rulează local. `scripts/search_embeddings.ps1` activează modul offline.
 
 ## Aplicația web
 
-Interfața este Gradio, montată în FastAPI. Nu are conturi. Refolosește modelul local, indexul hibrid și fișierele din `documents/`. Conversațiile și PDF-urile sunt temporare și separate pe sesiune/tab. După descrierea problemei, căutarea rulează local, iar raportul este redactat printr-un singur request xAI.
+Interfața este Gradio, montată în FastAPI. Nu are conturi. Refolosește modelul local, indexul hibrid și fișierele din `data/documents/`. Conversațiile și PDF-urile sunt temporare și separate pe sesiune/tab. După descrierea problemei, căutarea rulează local, iar raportul este redactat printr-un singur request xAI.
 
 ### Docker Compose
 
-Necesare: Docker cu Compose, folderele existente `documents/`, `embedings/` și `model_cache`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
+Necesare: Docker cu Compose, folderele existente `data/documents/`, `data/embeddings/` și `data/model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
 
 Rapoartele generate sunt trimise automat la `nelucristian2005@gmail.com` prin Gmail API OAuth2. Configurați în `.env`:
 
@@ -95,7 +107,7 @@ Invoke-WebRequest http://localhost:7860/healthz
 
 Logurile pentru generarea raportului includ statisticile de căutare, numărul și dimensiunea fragmentelor, sursele unice și inventarul fragmentelor trimise efectiv către AI (`fragments_sent_to_ai`). Dacă este necesară compactarea contextului, sunt logate separat fragmentele înainte de compactare (`fragments_before_compaction`) și fragmentele după compactare, cu `original_text_chars` și `compaction_removed_chars` pentru fiecare fragment. Textul logat este JSON cu newline-urile escapate, pentru a putea fi analizat automat.
 
-Fișierul `.env` este ignorat de Git. Compose transmite variabila `GROK_API_KEY_MED` aplicației la pornire; cheia nu este inclusă în imagine. Indexul și `documents/` sunt montate doar pentru citire. `model_cache/` este persistat separat. Fișierele temporare sunt în `tmpfs`.
+Fișierul `.env` este ignorat de Git. Compose transmite variabila `GROK_API_KEY_MED` aplicației la pornire; cheia nu este inclusă în imagine. Indexul și `data/documents/` sunt montate doar pentru citire. `data/model_cache/` este persistat separat. Fișierele temporare sunt în `tmpfs`.
 
 `APP_DOMAIN` trebuie să conțină doar hostname-ul, fără `https://` și fără calea aplicației. Pentru tunel ngrok, folosiți `CADDY_SITE_SCHEME=http`: ngrok termină HTTPS, iar tunelul trebuie să trimită către portul local `80` (`ngrok http 80`). URL-ul public al aplicației rămâne `https://APP_DOMAIN/medicina`, deoarece `GRADIO_ROOT_PATH` este `/medicina`. Pentru un domeniu controlat direct de server, setați `CADDY_SITE_SCHEME=https`, configurați DNS-ul și permiteți accesul public pe porturile 80/443 pentru validarea certificatului Caddy. Portul 7860 este expus doar pe localhost pentru diagnostic; nu îl publicați direct pe internet.
 
@@ -113,7 +125,8 @@ Instalați `requirements-web.txt`, configurați `GROK_API_KEY_MED` și `COOKIE_S
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements-web.txt
-.\.venv\Scripts\python.exe -m uvicorn web_app.main:app --host 127.0.0.1 --port 7860
+$env:PYTHONPATH = "src"
+.\.venv\Scripts\python.exe -m uvicorn medicina_naturista.web.main:app --host 127.0.0.1 --port 7860
 ```
 
 PDF-urile se descarcă prin endpointul FastAPI asociat cookie-ului și tabului curent. Modelul configurat implicit este `grok-4.3`, cu `XAI_REASONING_EFFORT=low`. Recomandările sunt informative, adjuvante și trebuie susținute de sursele locale. Fontul interfeței este Inter, cu fallback Arial și sans-serif; PDF-ul folosește Arial pe Windows și Liberation Sans în Docker.

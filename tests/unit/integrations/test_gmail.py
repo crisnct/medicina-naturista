@@ -8,7 +8,7 @@ import unittest
 from email import message_from_bytes
 from unittest.mock import patch
 
-from web_app.mailer import (
+from medicina_naturista.integrations.gmail import (
     EMAIL_SENT,
     EMAIL_SKIPPED,
     GMAIL_SEND_SCOPE,
