@@ -1,6 +1,6 @@
 # Index local pentru arhiva medicală
 
-Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `data/documents`. Cele șase artefacte ale indexului sunt păstrate în `data/embeddings`, iar modelul descărcat în `data/model_cache`. Folderele cu artefacte generate local nu sunt păstrate în Git.
+Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv în folderul `data/documents`. Cele șase artefacte ale indexului sunt păstrate în `data/hybrid_index`, iar modelul descărcat în `data/model_cache`. Folderele cu artefacte generate local nu sunt păstrate în Git.
 
 ## Structura proiectului
 
@@ -16,15 +16,15 @@ Proiectul construiește un index hibrid din fișierele Markdown aflate recursiv 
 
 ## Conținut
 
-- `data/embeddings/manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
-- `data/embeddings/source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
-- `data/embeddings/chunks.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
-- `data/embeddings/embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
-- `data/embeddings/index.sqlite3` — metadate, fragmente și index lexical FTS5.
-- `data/embeddings/SHA256SUMS.txt` — sume de control pentru artefactele principale.
+- `data/hybrid_index/manifest.json` — configurația, numărul de surse și fragmente, modelul și avertismentele.
+- `data/hybrid_index/source_manifest.jsonl` — câte o înregistrare pentru fiecare fișier, cu SHA-256 și metadate.
+- `data/hybrid_index/fragments.jsonl` — fragmentele indexate, cu calea-sursă, titlul/secțiunea și liniile.
+- `data/hybrid_index/embeddings.npy` — matricea semantică `float32`, normalizată; rândul este indicat de `embedding_row`.
+- `data/hybrid_index/index.sqlite3` — metadate, fragmente și index lexical FTS5.
+- `data/hybrid_index/SHA256SUMS.txt` — sume de control pentru artefactele principale.
 - `src/medicina_naturista/ai/search.py` — căutare hibridă semantică + lexicală.
-- `scripts/search_embeddings.ps1` — lansator PowerShell offline.
-- `scripts/rebuild_embeddings.ps1` — reconstruiește indexul după modificarea surselor.
+- `scripts/search_index.ps1` — lansator PowerShell offline.
+- `scripts/rebuild_index.ps1` — reconstruiește indexul după modificarea surselor.
 
 ## Căutare
 
@@ -33,19 +33,19 @@ La prima utilizare, instalează Python 3.11 și reconstruiește indexul:
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\scripts\rebuild_embeddings.ps1
+.\scripts\rebuild_index.ps1
 ```
 
 Prima reconstruire descarcă modelul în `data/model_cache` și poate dura câteva zeci de minute. După aceea, căutarea funcționează offline.
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\scripts\search_embeddings.ps1' "plante și măsuri pentru tuse"
+& 'D:\Workspace\medicina-naturista\scripts\search_index.ps1' "plante și măsuri pentru tuse"
 ```
 
 Pentru rezultate JSON:
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\scripts\search_embeddings.ps1' "plante și măsuri pentru tuse" -Json
+& 'D:\Workspace\medicina-naturista\scripts\search_index.ps1' "plante și măsuri pentru tuse" -Json
 ```
 
 Rezultatele indică fișierul absolut și intervalul de linii. Aceste referințe trebuie păstrate în orice document creat ulterior.
@@ -55,10 +55,10 @@ Rezultatele indică fișierul absolut și intervalul de linii. Aceste referințe
 După adăugarea sau modificarea fișierelor-sursă:
 
 ```powershell
-& 'D:\Workspace\medicina-naturista\scripts\rebuild_embeddings.ps1'
+& 'D:\Workspace\medicina-naturista\scripts\rebuild_index.ps1'
 ```
 
-`scripts/rebuild_embeddings.ps1` găsește `data/documents` relativ la rădăcina proiectului, inclusiv dacă este lansat din alt director. Pentru rularea directă a scriptului Python, `--source` folosește implicit același folder; opțiunea poate fi specificată pentru o altă sursă. Modelul este descărcat o singură dată în `data/model_cache`; inferența și interogările rulează local. `scripts/search_embeddings.ps1` activează modul offline.
+`scripts/rebuild_index.ps1` găsește `data/documents` relativ la rădăcina proiectului, inclusiv dacă este lansat din alt director. Pentru rularea directă a scriptului Python, `--source` folosește implicit același folder; opțiunea poate fi specificată pentru o altă sursă. Modelul este descărcat o singură dată în `data/model_cache`; inferența și interogările rulează local. `scripts/search_index.ps1` activează modul offline.
 
 ## Aplicația web
 
@@ -66,7 +66,7 @@ Interfața este Gradio, montată în FastAPI. Nu are conturi. Refolosește model
 
 ### Docker Compose
 
-Necesare: Docker cu Compose, folderele existente `data/documents/`, `data/embeddings/` și `data/model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
+Necesare: Docker cu Compose, folderele existente `data/documents/`, `data/hybrid_index/` și `data/model_cache/`, plus o cheie xAI. Configurați `APP_DOMAIN` și limitele în fișierul `.env` existent. Pentru rularea în Docker, setați `GROK_API_KEY_MED` în fișierul `.env` existent.
 
 Rapoartele generate sunt trimise automat la `nelucristian2005@gmail.com` prin Gmail API OAuth2. Configurați în `.env`:
 

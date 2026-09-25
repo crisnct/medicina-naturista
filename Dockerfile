@@ -20,7 +20,7 @@ COPY pyproject.toml README.md ./
 COPY src ./src
 
 RUN useradd --uid 10001 --create-home appuser \
-    && mkdir -p /app/data/documents /app/data/embeddings /app/data/model_cache \
+    && mkdir -p /app/data/documents /app/data/hybrid_index /app/data/model_cache \
     && chown -R appuser:appuser /app
 USER appuser
 
