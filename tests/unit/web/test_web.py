@@ -491,9 +491,8 @@ class WebTests(unittest.TestCase):
     # percentage for display ("Scor relevanță: NN%") while sorting the flat
     # list by the raw score itself, descending — no separate section or
     # ordering rule for any subset of fragments. Each fragment also carries
-    # independent found_by_lexical / found_by_semantic booleans (from
-    # ai/search.py), combined into a Romanian label right after the
-    # percentage.
+    # a found_by_lexical boolean (from ai/search.py), shown as a Romanian
+    # label right after the percentage when true.
     def test_fragments_panel_sorts_by_relevance_score(self):
         evidence = {
             "C1": {
@@ -501,28 +500,24 @@ class WebTests(unittest.TestCase):
                 "text": "Scor mic",
                 "score": RRF_MAX_SCORE * 0.1,  # -> 10%
                 "found_by_lexical": True,
-                "found_by_semantic": False,
             },
             "C2": {
                 "source": "documents/doc-z.md:10-15",
                 "text": "Scor mediu z",
                 "score": RRF_MAX_SCORE * 0.5,  # -> 50%
                 "found_by_lexical": False,
-                "found_by_semantic": True,
             },
             "C3": {
                 "source": "documents/doc-a.md:20-25",
                 "text": "Scor mare",
                 "score": RRF_MAX_SCORE,  # -> 100%, the ceiling from ai/search.py
                 "found_by_lexical": True,
-                "found_by_semantic": True,
             },
             "C4": {
                 "source": "documents/doc-b.md:1-5",
                 "text": "Scor mediu b",
                 "score": RRF_MAX_SCORE * 0.5,  # -> 50%, tied with C2
                 "found_by_lexical": True,
-                "found_by_semantic": False,
             },
         }
 
@@ -545,14 +540,14 @@ class WebTests(unittest.TestCase):
         # Score/relevance, match-type label and source document render
         # together, one per fragment, as
         # "Scor relevanță: NN%, Găsire ..., document.md".
-        self.assertIn("Scor relevanță: 100%, Găsire Lexicală și Semantică, doc-a.md", fragments_html)
-        self.assertIn("Scor relevanță: 50%, Găsire Semantică, doc-z.md", fragments_html)
+        self.assertIn("Scor relevanță: 100%, Găsire Lexicală, doc-a.md", fragments_html)
+        self.assertIn("Scor relevanță: 50%, doc-z.md", fragments_html)
         self.assertIn("Scor relevanță: 50%, Găsire Lexicală, doc-b.md", fragments_html)
         self.assertIn("Scor relevanță: 10%, Găsire Lexicală, doc-a.md", fragments_html)
 
         self.assertIn("Total: 4 fragmente din 3 documente.", fragments_html)
 
-    # A fragment missing found_by_lexical/found_by_semantic (older cached
+    # A fragment missing found_by_lexical (older cached
     # evidence, or a caller that doesn't set them) must still render — just
     # without the middle segment — rather than crashing or printing a blank
     # label.
@@ -560,7 +555,7 @@ class WebTests(unittest.TestCase):
         evidence = {
             "C1": {
                 "source": "documents/doc-a.md:1-5",
-                "text": "Fragment fără found_by_*",
+                "text": "Fragment fără found_by_lexical",
                 "score": RRF_MAX_SCORE,
             },
         }

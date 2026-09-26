@@ -102,16 +102,14 @@ def _relevance_percent(score: float, top_score: float = RRF_MAX_SCORE) -> int:
     return round(clamped / top_score * 100)
 
 
-# Romanian label for a fragment's provenance, built from the independent
-# found_by_<signal> booleans set by ai/search.py's rank() (propagated via
-# Retriever.collect()). Shown next to the relevance score so the patient can
-# see whether a result came from an exact lexical match, from semantic
-# similarity, or both. Adding a signal later — a fourth "found_by_x" flag —
-# only means adding one more (label, flag) pair to _MATCH_TYPE_SIGNALS below;
-# every existing flag and combination keeps working unchanged.
+# Romanian label for a fragment's provenance, built from the found_by_<signal>
+# booleans set by ai/search.py's rank() (propagated via Retriever.collect()).
+# Shown next to the relevance score so the patient can see when a result was an
+# exact lexical match. There is no semantic label: every fragment is ranked
+# semantically, so it would appear on all of them. Adding a selective signal
+# later only means adding one more (label, flag) pair to _MATCH_TYPE_SIGNALS.
 _MATCH_TYPE_SIGNALS: tuple[tuple[str, str], ...] = (
     ("Lexicală", "found_by_lexical"),
-    ("Semantică", "found_by_semantic"),
 )
 
 

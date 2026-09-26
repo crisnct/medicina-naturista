@@ -86,12 +86,10 @@ def fts_query(text: str) -> str:
 # signals always run — there is no per-call or per-deployment toggle to turn
 # either off — so every fragment's hybrid_score is a genuine fusion of the
 # two ranks, never a single-signal score dressed up in RRF's positional
-# formula. Each result also carries one independent boolean per signal
-# ("found_by_lexical", "found_by_semantic"), recording whether that signal
-# actually surfaced it. Callers combine these flags however they need (e.g.
-# for display); a future third signal is added the same way — one more
-# independent "found_by_<signal>" flag — with no existing flag or its
-# combinations touched.
+# formula. The semantic ranking covers every fragment, so only the lexical
+# signal is selective: each result carries "found_by_lexical", recording
+# whether the exact phrase matched it. A future selective signal is added the
+# same way — one more independent "found_by_<signal>" flag.
 def rank(
     index_dir: Path,
     query: str,
@@ -144,8 +142,6 @@ def rank(
                 "semantic_similarity": float(semantic_scores[embedding_row]),
                 "lexical_rank": fragment_lexical_rank,
                 "found_by_lexical": fragment_lexical_rank is not None,
-                # Always True: the semantic ranking covers every fragment.
-                "found_by_semantic": True,
                 "source_relative_path": row["source_relative_path"],
                 "source_absolute_path": row["source_absolute_path"],
                 "line_start": row["line_start"],
@@ -187,8 +183,7 @@ def main() -> None:
         print(
             f"    semantic={result['semantic_similarity']:.4f} "
             f"hybrid={result['hybrid_score']:.6f} "
-            f"found_by_lexical={result['found_by_lexical']} "
-            f"found_by_semantic={result['found_by_semantic']}"
+            f"found_by_lexical={result['found_by_lexical']}"
         )
         preview = re.sub(r"\s+", " ", str(result["text"]))[:500]
         print(f"    {preview}")
