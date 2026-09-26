@@ -52,6 +52,7 @@ from medicina_naturista.web.ui import (
     APP_CSS,
     ASSISTANT_HEADER_HTML,
     AUTO_SCROLL_JS,
+    COLLAPSE_FRAGMENTS_JS,
     COMPOSER_STATE_JS,
     HERO_HTML,
     MESSAGE_HELPER_HTML,
@@ -429,7 +430,6 @@ with gr.Blocks(
             with gr.Row(elem_id="generate-recipe-panel", visible=False) as generate_row:
                 gr.HTML(
                     '<div class="generate-recipe-copy">'
-                    '<span class="generate-recipe-icon" aria-hidden="true">💊</span>'
                     '<span><strong>Trimite-le la AI pentru a le combina și generează apoi '
                     'documentul cu recomandări</strong></span>'
                     '</div>',
@@ -479,7 +479,9 @@ with gr.Blocks(
     )
     load_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
     for event in (send_event, submit_event):
-        notice_event = event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
+        notice_event = event.then(fn=None, js=COLLAPSE_FRAGMENTS_JS, queue=False).then(
+            fn=None, js=AUTO_SCROLL_JS, queue=False
+        )
         processing_event = notice_event.then(
             processing_button_update,
             outputs=[send],
@@ -496,7 +498,9 @@ with gr.Blocks(
 
     generate_event = generate_button.click(
         generate_button_processing_update, outputs=[generate_button], queue=False
-    ).then(fn=None, js=AUTO_SCROLL_JS, queue=False).then(
+    ).then(fn=None, js=COLLAPSE_FRAGMENTS_JS, queue=False).then(
+        fn=None, js=AUTO_SCROLL_JS, queue=False
+    ).then(
         on_generate_report,
         outputs=[chatbot, download_box, generate_row, generate_button],
         queue=False,

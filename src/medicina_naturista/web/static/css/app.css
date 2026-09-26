@@ -73,7 +73,7 @@ body,
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
     margin-left: -14px;
     padding: 8px 12px;
     border: 1px solid rgba(47, 125, 109, 0.2);
@@ -408,7 +408,7 @@ body,
     cursor: pointer;
     border-left: 3px solid var(--nature-primary);
     border-radius: 8px;
-    background: var(--nature-surface);
+    background: var(--nature-soft);
     color: var(--nature-text);
     font-size: 17.5px;
     line-height: 1.5;
@@ -461,10 +461,10 @@ body,
     align-items: center !important;
     justify-content: space-between !important;
     gap: 18px !important;
-    padding: 16px 18px !important;
-    border: 1px solid #f0c9c5 !important;
+    padding: 16px 4px 16px 18px !important;
+    border: 2px solid #d64545 !important;
     border-radius: 16px !important;
-    background: #fdf1f0 !important;
+    background: var(--nature-soft) !important;
 }
 
 .generate-recipe-copy {
@@ -481,14 +481,14 @@ body,
 .generate-recipe-copy strong {
     display: block;
     color: #000;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #generate-recipe {
     display: flex !important;
-    width: 180px !important;
-    min-width: 180px !important;
-    max-width: 180px !important;
+    width: 198px !important;
+    min-width: 198px !important;
+    max-width: 198px !important;
     height: 38px !important;
     min-height: 38px !important;
     max-height: 38px !important;
@@ -631,6 +631,16 @@ body,
     height: 38px !important;
     min-height: 38px !important;
     max-height: 38px !important;
+    border-radius: 14px !important;
+    background: transparent !important;
+    overflow: visible !important;
+}
+
+/* No gray wrapper corners behind the rounded field. */
+#health-message *:not(input):not(textarea) {
+    border-color: transparent !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 #health-message input[data-testid="textbox"],
@@ -640,7 +650,7 @@ body,
     min-height: 38px !important;
     max-height: 38px !important;
     padding: 6px 16px !important;
-    border: 1px solid var(--nature-border) !important;
+    border: 2px solid #15803d !important;
     border-radius: 14px !important;
     background: #fffdf9 !important;
     color: var(--nature-text) !important;
@@ -656,15 +666,15 @@ body,
 
 #health-message input[data-testid="textbox"]:focus,
 #health-message textarea:focus {
-    border-color: var(--nature-primary) !important;
+    border-color: #15803d !important;
     box-shadow: 0 0 0 3px rgba(47, 125, 109, 0.18) !important;
 }
 
 #send-message {
     display: flex !important;
-    width: 180px !important;
-    min-width: 180px !important;
-    max-width: 180px !important;
+    width: 198px !important;
+    min-width: 198px !important;
+    max-width: 198px !important;
     height: 38px !important;
     min-height: 38px !important;
     max-height: 38px !important;
@@ -743,15 +753,19 @@ body,
     }
 
     .pdf-download,
-    #generate-recipe,
     #send-message {
         width: 100% !important;
         min-width: 100% !important;
         max-width: none !important;
     }
 
-    #send-message,
     #generate-recipe {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: none !important;
+    }
+
+    #send-message {
         height: 38px !important;
         min-height: 38px !important;
         max-height: 38px !important;
