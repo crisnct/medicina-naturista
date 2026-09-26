@@ -87,15 +87,19 @@ def _normalize_text(text: str) -> str:
     return " ".join(text.split())
 
 
-# Map a raw hybrid_score (0 .. RRF_MAX_SCORE, see ai/search.py) to an integer
-# percentage for the patient-facing display only — internal ordering and the
-# AI-context budget trimming (ai/client.py) both keep using the raw float;
-# only this presentation layer interpolates it into a 0-100 scale. Scores are
-# clamped first: a fragment that never got a score defaults to -inf (see
-# below), which would otherwise interpolate to a large negative percentage.
-def _relevance_percent(score: float) -> int:
-    clamped = max(0.0, min(score, RRF_MAX_SCORE))
-    return round(clamped / RRF_MAX_SCORE * 100)
+# Map a raw score to an integer percentage of the best score in the displayed
+# list (patient-facing display only — ordering and the AI-context budget trimming
+# in ai/client.py keep using the raw float). The best fragment is 100%; measuring
+# against the theoretical ceiling RRF_MAX_SCORE instead would cap a fragment found
+# by a single signal or query at ~50% even when it is the top result. `top_score`
+# defaults to that ceiling. Scores are clamped first: a fragment that never got a
+# score defaults to -inf (see below), which would otherwise interpolate to a large
+# negative percentage.
+def _relevance_percent(score: float, top_score: float = RRF_MAX_SCORE) -> int:
+    if top_score <= 0:
+        return 0
+    clamped = max(0.0, min(score, top_score))
+    return round(clamped / top_score * 100)
 
 
 # Romanian label for a fragment's provenance, built from the independent
@@ -128,7 +132,7 @@ def _match_type_label(item: dict) -> str:
 # hybrid_score from rank(), written by Retriever.collect() — so the whole
 # list is sorted purely by that value, descending, regardless of which
 # document or query produced it. The percentage shown to the patient is
-# interpolated from that same raw value at render time (see
+# that raw value relative to the best fragment's, computed at render time (see
 # _relevance_percent), so the UI never displays a number that could drift
 # from what was actually used to rank and select fragments.
 #
@@ -149,6 +153,7 @@ def _fragments_panel_html(evidence: dict) -> str:
         all_documents.add(document)
         entries.append((document, item["text"], item.get("score", float("-inf")), _match_type_label(item)))
     entries.sort(key=lambda entry: entry[2], reverse=True)
+    top_score = entries[0][2]
 
     parts = ['<details class="fragments-panel-inner">']
     parts.append(
@@ -159,7 +164,7 @@ def _fragments_panel_html(evidence: dict) -> str:
     )
     parts.append('<div class="fragments-panel-list">')
     for document, text, score, match_label in entries:
-        relevance = f"Scor relevanță: {_relevance_percent(score)}%"
+        relevance = f"Scor relevanță: {_relevance_percent(score, top_score)}%"
         line_parts = [relevance]
         if match_label:
             line_parts.append(match_label)
