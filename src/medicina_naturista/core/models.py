@@ -86,6 +86,9 @@ class SessionData:
     # they choose to send it to the AI. Consumed (not recomputed) by report
     # generation, so the fragments the patient reviewed are exactly the ones sent.
     pending_evidence: dict[str, dict[str, str]] | None = None
+    # Set when the last chat message was an email address for the finished
+    # report, so the chained retrieval step does not treat it as a health problem.
+    email_request_handled: bool = False
     lock: threading.RLock = field(default_factory=threading.RLock)
 
     def touch(self) -> None:

@@ -34,7 +34,7 @@ COMPOSER_STATE_JS = _read_static("js/app.js")
 AUTO_SCROLL_JS = _read_static("js/auto_scroll.js")
 # Fold the fragments panel back up (it is a <details> element).
 COLLAPSE_FRAGMENTS_JS = (
-    "() => { document.querySelectorAll('#fragments-panel details').forEach(d => { d.open = false; }); }"
+    "() => { document.querySelectorAll('#medical-chatbot .fragments-panel-inner').forEach(d => { d.open = false; }); }"
 )
 
 THEME = gr.themes.Soft(font=["Arial", "sans-serif"])

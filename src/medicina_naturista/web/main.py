@@ -32,7 +32,7 @@ os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
 import gradio as gr  # noqa: E402
 
 from medicina_naturista.ai.client import AIUnavailable, XAIClient, fit_evidence_to_context
-from medicina_naturista.integrations.gmail import send_report
+from medicina_naturista.integrations.gmail import EMAIL_SKIPPED, send_report
 from medicina_naturista.reporting.pdf import create_pdf
 from medicina_naturista.ai.retrieval import Retriever
 from medicina_naturista.core.models import SessionData
@@ -75,6 +75,10 @@ OWNER_ONLY_MESSAGE = "Generarea rețetei nu este disponibilă momentan pentru ac
 WELCOME = "Bună ziua! 👋"
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
+EMAIL_OFFER = (
+    "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
+)
+EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
 REPORT_STARTED = (
     f"🔍 Caut rapid în cele {retriever.document_count} documente interne disponibile. Vă rog să așteptați."
 )
@@ -281,7 +285,7 @@ def on_load(request: gr.Request):
             if question:
                 _ask(session, question)
         logger.info("session_loaded tab_id=%s history_entries=%s", session.tab_id, len(session.history))
-        return list(session.history), _download_html(session)
+        return list(session.history)
 
 
 # Store a user message and reset any state tied to a previous health problem.
@@ -289,12 +293,19 @@ def on_message(message: str, request: gr.Request):
     session = _current(request)
     message = (message or "").strip()
     if not message:
-        return "", list(session.history), _download_html(session), "", generate_row_hidden_update()
+        return "", list(session.history), generate_row_hidden_update()
     if len(message) > settings.max_chat_chars:
         raise gr.Error(f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
     with session.lock:
+        session.email_request_handled = False
+        if session.report_bytes is not None and EMAIL_PATTERN.fullmatch(message):
+            _append(session, "user", message)
+            session.email_request_handled = True
+            _append(session, "assistant", _send_report_email(session, message))
+            return "", list(session.history), generate_row_hidden_update()
         previous_health_problem = session.profile.health_problem
         _append(session, "user", message)
+        _drop_stale_download_panels(session)
         session.clear_report()
         session.pending_evidence = None
         session.profile.replace_health_problem(message)
@@ -306,7 +317,30 @@ def on_message(message: str, request: gr.Request):
             bool(previous_health_problem),
             len(session.profile.health_context),
         )
-        return "", list(session.history), _download_html(session), "", generate_row_hidden_update()
+        return "", list(session.history), generate_row_hidden_update()
+
+
+# Remove download panels whose report was discarded, so no dead link stays in the chat.
+def _drop_stale_download_panels(session: SessionData) -> None:
+    session.history = [m for m in session.history if "report-ready-panel" not in m["content"]]
+
+
+# Email the finished report to the address typed in chat and return the chat reply.
+def _send_report_email(session: SessionData, address: str) -> str:
+    try:
+        status = send_report(
+            session.profile.health_problem,
+            session.report_bytes,
+            _report_filename(session),
+            address,
+        )
+    except Exception as exc:
+        logger.exception("report_stage_failed stage=email tab_id=%s type=%s", session.tab_id, type(exc).__name__)
+        return "Nu am putut trimite documentul pe mail. Încercați din nou."
+    logger.info("report_stage_completed stage=email tab_id=%s result=%s", session.tab_id, status)
+    if status == EMAIL_SKIPPED:
+        return "Trimiterea pe mail nu este configurată momentan."
+    return f"✅ Am trimis documentul la {address}."
 
 
 # Retrieve local evidence only — no AI request — and show it to the patient
@@ -314,10 +348,13 @@ def on_message(message: str, request: gr.Request):
 def on_find_fragments(request: gr.Request):
     session = _current(request)
     with session.lock:
+        if session.email_request_handled:
+            session.email_request_handled = False
+            return list(session.history), generate_row_hidden_update(), generate_button_ready_update()
         if not session.profile.report_ready:
             logger.info("fragments_skipped tab_id=%s reason=health_problem_missing", session.tab_id)
             _append(session, "assistant", "Descrieți problema de sănătate înainte de căutare.")
-            return list(session.history), "", generate_row_hidden_update(), generate_button_ready_update()
+            return list(session.history), generate_row_hidden_update(), generate_button_ready_update()
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
         # Show only what the AI request can carry (MAX_CONTEXT_CHARS), so the UI
         # never lists fragments that would be dropped later.
@@ -331,16 +368,13 @@ def on_find_fragments(request: gr.Request):
         if not evidence:
             session.pending_evidence = None
             _append(session, "assistant", "Nu am găsit fragmente relevante în sursele locale.")
-            return list(session.history), "", generate_row_hidden_update(), generate_button_ready_update()
+            return list(session.history), generate_row_hidden_update(), generate_button_ready_update()
         session.pending_evidence = evidence
-        # The "found N fragments in M documents" summary is rendered inside
-        # the fragments panel itself (see _fragments_panel_html), not posted
-        # as a separate chat message — that lets it sit directly above the
-        # fragment list with its own styling instead of blending in with
-        # every other assistant chat bubble.
+        # The panel (summary + fragment list) is posted as a chat message so it
+        # appears in chronological order between the search notice and the report.
+        _append(session, "assistant", _fragments_panel_html(evidence))
         return (
             list(session.history),
-            _fragments_panel_html(evidence),
             generate_row_visible_update(),
             generate_button_ready_update(),
         )
@@ -354,7 +388,6 @@ def on_generate_report(request: gr.Request):
         with session.lock:
             return (
                 list(session.history),
-                _download_html(session),
                 generate_row_visible_update(),
                 generate_button_ready_update(),
                 f'<div class="owner-notice-panel" role="alert">{html.escape(OWNER_ONLY_MESSAGE)}</div>',
@@ -372,7 +405,6 @@ def _generate_report(request: gr.Request):
             _append(session, "assistant", "Nu există fragmente pregătite. Descrieți din nou problema de sănătate.")
             return (
                 list(session.history),
-                _download_html(session),
                 generate_row_hidden_update(),
                 generate_button_ready_update(),
             )
@@ -389,35 +421,15 @@ def _generate_report(request: gr.Request):
             logger.info("report_stage_completed stage=pdf tab_id=%s bytes=%s", session.tab_id, len(report))
             session.report_bytes = report
             session.report_id = secrets.token_urlsafe(18)
-            logger.info("report_stage_started stage=email tab_id=%s", session.tab_id)
-            try:
-                email_status = send_report(
-                    session.profile.health_problem,
-                    session.report_bytes,
-                    _report_filename(session),
-                )
-            except Exception as exc:
-                # Email is best-effort: the already stored PDF and chat history
-                # must remain available when Google API delivery is unavailable.
-                logger.exception(
-                    "report_stage_failed stage=email tab_id=%s type=%s",
-                    session.tab_id,
-                    type(exc).__name__,
-                )
-            else:
-                logger.info(
-                    "report_stage_completed stage=email tab_id=%s result=%s",
-                    session.tab_id,
-                    email_status,
-                )
             _append(session, "assistant", _recommendation_text(sections, evidence))
+            _append(session, "assistant", _download_html(session))
+            _append(session, "assistant", EMAIL_OFFER)
             session.pending_evidence = None
         except AIUnavailable as exc:
             logger.error("report_failed tab_id=%s stage=ai type=%s", session.tab_id, type(exc).__name__)
             _append(session, "assistant", str(exc))
             return (
                 list(session.history),
-                _download_html(session),
                 generate_row_visible_update(),
                 generate_button_ready_update(),
             )
@@ -430,13 +442,11 @@ def _generate_report(request: gr.Request):
             _append(session, "assistant", "Raportul nu a putut fi generat. Încercați din nou.")
             return (
                 list(session.history),
-                _download_html(session),
                 generate_row_visible_update(),
                 generate_button_ready_update(),
             )
         return (
             list(session.history),
-            _download_html(session),
             generate_row_hidden_update(),
             generate_button_ready_update(),
         )
@@ -486,7 +496,6 @@ with gr.Blocks(
                 feedback_options=None,
                 layout="bubble",
             )
-            fragments_panel = gr.HTML(elem_id="fragments-panel")
             owner_notice = gr.HTML(elem_id="owner-notice")
             with gr.Row(elem_id="generate-recipe-panel", visible=False) as generate_row:
                 gr.HTML(
@@ -500,7 +509,6 @@ with gr.Blocks(
                     "💊 Generează rețeta",
                     elem_id="generate-recipe",
                 )
-            download_box = gr.HTML(elem_id="report-download")
             gr.HTML(MESSAGE_HELPER_HTML, elem_id="message-helper")
             with gr.Row(elem_id="message-row"):
                 message = gr.Textbox(
@@ -525,17 +533,17 @@ with gr.Blocks(
                     elem_id="send-message",
                 )
 
-    load_event = demo.load(on_load, outputs=[chatbot, download_box], queue=False)
+    load_event = demo.load(on_load, outputs=[chatbot], queue=False)
     send_event = send.click(
         on_message,
         inputs=[message],
-        outputs=[message, chatbot, download_box, fragments_panel, generate_row],
+        outputs=[message, chatbot, generate_row],
         queue=False,
     )
     submit_event = message.submit(
         on_message,
         inputs=[message],
-        outputs=[message, chatbot, download_box, fragments_panel, generate_row],
+        outputs=[message, chatbot, generate_row],
         queue=False,
     )
     load_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
@@ -550,7 +558,7 @@ with gr.Blocks(
         )
         fragments_event = processing_event.then(
             on_find_fragments,
-            outputs=[chatbot, fragments_panel, generate_row, generate_button],
+            outputs=[chatbot, generate_row, generate_button],
             queue=False,
         )
         fragments_event.then(ready_button_update, outputs=[send], queue=False).then(
@@ -563,7 +571,7 @@ with gr.Blocks(
         queue=False,
     ).then(fn=None, js=COLLAPSE_FRAGMENTS_JS, queue=False).then(
         on_generate_report,
-        outputs=[chatbot, download_box, generate_row, generate_button, owner_notice],
+        outputs=[chatbot, generate_row, generate_button, owner_notice],
         queue=False,
     )
     demo.unload(on_unload)
