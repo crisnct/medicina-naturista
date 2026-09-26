@@ -20,7 +20,7 @@ from medicina_naturista.reporting.pdf import (
 
 
 def processing_button_update():
-    return gr.update(value="⏳ Se pregătește...", interactive=False)
+    return gr.update(value="⏳ Caută...", interactive=False)
 
 
 def ready_button_update():
@@ -150,16 +150,14 @@ def _fragments_panel_html(evidence: dict) -> str:
         entries.append((document, item["text"], item.get("score", float("-inf")), _match_type_label(item)))
     entries.sort(key=lambda entry: entry[2], reverse=True)
 
-    parts = ['<div class="fragments-panel-inner">']
+    parts = ['<details class="fragments-panel-inner">']
     parts.append(
-        '<div class="fragments-panel-header">'
-        '<p class="fragments-panel-title">🔎 Fragmentele relevante</p>'
-        '<div class="fragments-panel-banner">'
+        '<summary class="fragments-panel-banner">'
         f"Am găsit {len(evidence)} fragmente relevante în {len(all_documents)} documente locale "
         "(le puteți vedea mai jos). Dacă vi se par potrivite, apăsați „Generează rețeta”."
-        "</div>"
-        "</div>"
+        "</summary>"
     )
+    parts.append('<div class="fragments-panel-list">')
     for document, text, score, match_label in entries:
         relevance = f"Scor relevanță: {_relevance_percent(score)}%"
         line_parts = [relevance]
@@ -177,6 +175,7 @@ def _fragments_panel_html(evidence: dict) -> str:
         "</p>"
     )
     parts.append("</div>")
+    parts.append("</details>")
     return "".join(parts)
 
 

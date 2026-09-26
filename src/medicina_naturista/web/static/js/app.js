@@ -7,7 +7,7 @@
         const field = getField();
         const button = getButton();
         if (!field || !button) return;
-        const processing = button.textContent.includes("Se pregătește");
+        const processing = button.textContent.includes("Caută");
         const disabled = processing || field.value.trim().length === 0;
         button.disabled = disabled;
         button.setAttribute("aria-disabled", String(disabled));
