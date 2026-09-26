@@ -355,14 +355,11 @@ class WebTests(unittest.TestCase):
         self.assertIn("**• Alte recomandări:** probiotic.", prefixed_report)
         self.assertTrue(main.chatbot.render_markdown)
 
-    # Verify that once the serialized payload exceeds the context budget, the
-    # lowest-relevance fragment is dropped entirely — never truncated — while
-    # every fragment that survives keeps its full original text.
-    def test_compaction_drops_lowest_scored_fragment_and_keeps_others_intact(self):
-        client = XAIClient(settings)
+    # Verify the fragments shown to the patient are exactly those the AI request
+    # will carry: fit_evidence_to_context keeps the highest-scored prefix that fits
+    # MAX_CONTEXT_CHARS. The budget is applied only there, never in the AI request.
+    def test_fit_evidence_to_context_matches_what_is_sent_to_ai(self):
         evidence = {
-            # Lower score: must be the one dropped when the budget is tight,
-            # even though it is inserted first.
             "E2": {"source": "documents/plan-b.md:20-30", "text": "B" * 300, "score": 0.0100},
             "E1": {"source": "documents/plan-a.md:1-10", "text": "A" * 300, "score": 0.0500},
         }
@@ -370,21 +367,25 @@ class WebTests(unittest.TestCase):
         with patch.object(ai_module, "MAX_CONTEXT_CHARS", 500), self.assertLogs(
             "naturist.ai", level="WARNING"
         ) as captured:
-            entries = client._evidence_entries(evidence)
+            fitted = ai_module.fit_evidence_to_context(evidence)
+        self.assertEqual(list(fitted), ["E1"])
+        self.assertIn("entries=2->1", "\n".join(captured.output))
+
+        # The AI request applies no budget of its own: it sends every fragment it
+        # is given, even with a tiny MAX_CONTEXT_CHARS.
+        client = XAIClient(settings)
+        with patch.object(ai_module, "MAX_CONTEXT_CHARS", 10):
+            self.assertEqual([entry["id"] for entry in client._evidence_entries(fitted)], ["E1"])
+            self.assertEqual([entry["id"] for entry in client._evidence_entries(evidence)], ["E1", "E2"])
         client.close()
 
-        output = "\n".join(captured.output)
-        self.assertEqual(len(entries), 1)
-        self.assertEqual(entries[0]["id"], "E1")
-        # The surviving fragment's text is untouched — no partial truncation.
-        self.assertEqual(entries[0]["text"], "A" * 300)
-        self.assertIn("entries=2->1", output)
-        self.assertIn("dropped_lowest_relevance=1", output)
+        # Within budget: the very same evidence object comes back untouched.
+        self.assertIs(ai_module.fit_evidence_to_context(evidence), evidence)
 
     # Verify a fragment with no serialized-length budget problem is returned
     # unmodified and in relevance-score order (highest first), independent of
     # the evidence dict's own insertion order.
-    def test_evidence_entries_orders_by_score_when_no_compaction_needed(self):
+    def test_evidence_entries_orders_by_score(self):
         client = XAIClient(settings)
         evidence = {
             "E_low": {"source": "documents/plan-a.md:1-5", "text": "scor mic", "score": 0.0100},

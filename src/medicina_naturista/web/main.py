@@ -28,7 +28,7 @@ os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
 
 import gradio as gr  # noqa: E402
 
-from medicina_naturista.ai.client import AIUnavailable, XAIClient
+from medicina_naturista.ai.client import AIUnavailable, XAIClient, fit_evidence_to_context
 from medicina_naturista.integrations.gmail import send_report
 from medicina_naturista.reporting.pdf import create_pdf
 from medicina_naturista.ai.retrieval import Retriever
@@ -274,7 +274,9 @@ def on_find_fragments(request: gr.Request):
             _append(session, "assistant", "Descrieți problema de sănătate înainte de căutare.")
             return list(session.history), "", generate_row_hidden_update(), generate_button_ready_update()
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
-        evidence = retriever.collect(session)
+        # Show only what the AI request can carry (MAX_CONTEXT_CHARS), so the UI
+        # never lists fragments that would be dropped later.
+        evidence = fit_evidence_to_context(retriever.collect(session))
         logger.info(
             "report_stage_completed stage=retrieval tab_id=%s evidence_entries=%s evidence_chars=%s",
             session.tab_id,

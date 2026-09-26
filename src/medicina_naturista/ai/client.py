@@ -9,14 +9,63 @@ from typing import Any
 
 import httpx
 
-from medicina_naturista.config import Settings
+from medicina_naturista.config import Settings, settings
 
 logger = logging.getLogger("naturist.ai")
 SECTIONS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
-MAX_CONTEXT_CHARS = 2_400_000
+MAX_CONTEXT_CHARS = settings.max_context_chars
 GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
     Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
+# Evidence fragments as the AI request carries them, highest hybrid score first.
+def _ordered_entries(evidence: dict[str, dict[str, Any]]) -> list[dict[str, str]]:
+    ordered_tokens = sorted(
+        evidence.keys(),
+        key=lambda token: evidence[token].get("score", float("-inf")),
+        reverse=True,
+    )
+    return [
+        {"id": token, "source": evidence[token]["source"], "text": evidence[token]["text"]}
+        for token in ordered_tokens
+    ]
+
+
+# How many leading entries fit `limit` characters once serialized. entries[:k]
+# serialized length = 2 (brackets) + sum of each kept entry's own serialized
+# length + 2 * (k - 1) (", " separators). Scanning forward over best-first
+# entries keeps exactly the highest-scored prefix that fits, in O(n).
+def _entries_within_budget(entries: list[dict[str, str]], limit: int) -> int:
+    budget = limit - 2
+    running_total = 0
+    keep = 0
+    for index, entry in enumerate(entries):
+        addition = len(json.dumps(entry, ensure_ascii=False)) + (2 if index > 0 else 0)
+        if running_total + addition > budget:
+            break
+        running_total += addition
+        keep = index + 1
+    return keep
+
+
+# The only place MAX_CONTEXT_CHARS is applied: keep the highest-scored prefix of
+# fragments that fits it. It runs once, right after retrieval, so the patient sees
+# exactly the fragments the AI request will carry; the request itself sends them
+# all, unchanged.
+def fit_evidence_to_context(evidence: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    entries = _ordered_entries(evidence)
+    keep = _entries_within_budget(entries, MAX_CONTEXT_CHARS)
+    if keep == len(entries):
+        return evidence
+    logger.warning(
+        "fragments_limited_to_context_budget entries=%s->%s limit=%s dropped_lowest_relevance=%s",
+        len(entries),
+        keep,
+        MAX_CONTEXT_CHARS,
+        len(entries) - keep,
+    )
+    return {entry["id"]: evidence[entry["id"]] for entry in entries[:keep]}
+
+
 class AIUnavailable(RuntimeError):
     pass
 
@@ -204,66 +253,10 @@ class XAIClient:
                 ),
             )
 
-    # Convert evidence to AI input entries, ordered by relevance score, and drop the
-    # lowest-relevance fragments (never truncate any kept fragment's text) when the
-    # serialized payload exceeds the context budget.
+    # Convert evidence to AI input entries, ordered by relevance score. Every fragment
+    # is sent: the context budget was already applied when the fragments were selected.
     def _evidence_entries(self, evidence: dict[str, dict[str, str]]) -> list[dict[str, str]]:
-        # Highest hybrid_score first: the same raw "score" field Retriever.collect()
-        # writes and the UI panel sorts by. When the payload must be cut down, the
-        # fragments at the end of this order — the least relevant — go first.
-        ordered_tokens = sorted(
-            evidence.keys(),
-            key=lambda token: evidence[token].get("score", float("-inf")),
-            reverse=True,
-        )
-        entries = [
-            {"id": token, "source": evidence[token]["source"], "text": evidence[token]["text"]}
-            for token in ordered_tokens
-        ]
-        serialized_length = len(json.dumps(entries, ensure_ascii=False))
-        if serialized_length <= MAX_CONTEXT_CHARS:
-            return entries
-
-        original_count = len(entries)
-        self._log_fragment_inventory(entries, "fragments_before_compaction")
-
-        # entries[:k] serialized length = 2 (brackets) + sum of each kept
-        # entry's own serialized length + 2 * (k - 1) (", " separators). Scan
-        # forward while entries stay sorted best-first, so this keeps exactly
-        # the highest-scored prefix that fits — dropping the rest from the
-        # tail (lowest score) — without repeatedly re-serializing the whole
-        # array (O(n) here vs. O(n²) for a pop-and-recheck loop).
-        budget = MAX_CONTEXT_CHARS - 2
-        running_total = 0
-        keep = 0
-        for index, entry in enumerate(entries):
-            addition = len(json.dumps(entry, ensure_ascii=False)) + (2 if index > 0 else 0)
-            if running_total + addition > budget:
-                break
-            running_total += addition
-            keep = index + 1
-        entries = entries[:keep]
-        if not entries and original_count:
-            logger.error(
-                "fragment_compaction_emptied_context original_entries=%s limit=%s "
-                "reason=single_highest_scored_fragment_exceeds_budget",
-                original_count,
-                MAX_CONTEXT_CHARS,
-            )
-
-        compacted_length = len(json.dumps(entries, ensure_ascii=False))
-        logger.warning(
-            "fragment_compaction_completed entries=%s->%s serialized_chars=%s->%s limit=%s "
-            "dropped_lowest_relevance=%s",
-            original_count,
-            len(entries),
-            serialized_length,
-            compacted_length,
-            MAX_CONTEXT_CHARS,
-            original_count - len(entries),
-        )
-        self._log_fragment_inventory(entries, "fragments_sent_to_ai")
-        return entries
+        return _ordered_entries(evidence)
 
     # Send the full evidence context to xAI and normalize all returned report sections.
     # Normalize the structured nutrition object into the internal recommendation-item format.
@@ -330,8 +323,7 @@ class XAIClient:
             sum(len(value.get("text", "")) for value in evidence.values()),
         )
         entries = self._evidence_entries(evidence)
-        if len(json.dumps(entries, ensure_ascii=False)) <= MAX_CONTEXT_CHARS:
-            self._log_fragment_inventory(entries, "fragments_sent_to_ai")
+        self._log_fragment_inventory(entries, "fragments_sent_to_ai")
         user = f"""
             Problema pentru care se solicită recomandări naturiste:
             {json.dumps(profile, ensure_ascii=False)}
