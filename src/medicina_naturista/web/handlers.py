@@ -14,7 +14,7 @@ from medicina_naturista.reporting.pdf import (
     build_reference_index,
     nutrition_display_groups,
     report_title,
-    sort_sections_by_source_count,
+    sort_sections_by_relevance,
 )
 
 
@@ -194,7 +194,7 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
         ("alte_recomandari", "Alte Recomandări"),
         ("atentionari", "Atenționări"),
     )
-    sections = sort_sections_by_source_count(sections, evidence)
+    sections = sort_sections_by_relevance(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
     lines = ["✅ Raportul este gata. Recomandările susținute de surse:"]
     found = False

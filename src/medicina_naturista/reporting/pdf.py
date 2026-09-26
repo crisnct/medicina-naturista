@@ -377,25 +377,27 @@ def build_reference_index(
     return numbers, references
 
 
-# Sort every report section by descending count of distinct cited sources.
-def sort_sections_by_source_count(
+# Sort every report section by the best relevance_percent among the fragments it cites,
+# then by descending count of distinct cited sources, then by original position.
+def sort_sections_by_relevance(
     sections: dict[str, list[dict[str, Any]]],
-    evidence: dict[str, dict[str, str]],
+    evidence: dict[str, dict[str, Any]],
 ) -> dict[str, list[dict[str, Any]]]:
-    """Order every section by descending number of distinct cited sources."""
+    """Order every section by the highest relevance_percent of the fragments each item cites."""
+
+    def sort_key(pair: tuple[int, dict[str, Any]]) -> tuple[float, int, int]:
+        index, item = pair
+        tokens = [token for token in item.get("evidence_ids", []) if token in evidence]
+        best_relevance = max(
+            (float(evidence[token].get("relevance_percent", 0.0)) for token in tokens),
+            default=float("-inf"),
+        )
+        source_count = len({evidence[token]["source"] for token in tokens})
+        return (-best_relevance, -source_count, index)
+
     ordered: dict[str, list[dict[str, Any]]] = {}
     for section, items in sections.items():
-        indexed_items = list(enumerate(items))
-        indexed_items.sort(
-            key=lambda pair: (
-                -len({
-                    evidence[token]["source"]
-                    for token in pair[1].get("evidence_ids", [])
-                    if token in evidence
-                }),
-                pair[0],
-            )
-        )
+        indexed_items = sorted(enumerate(items), key=sort_key)
         ordered[section] = [item for _, item in indexed_items]
     return ordered
 
@@ -616,7 +618,7 @@ def create_pdf(
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverByline", fontName=bold, fontSize=10.5, leading=13,
-        textColor=colors.HexColor("#0F5C5E"), spaceAfter=14,
+        textColor=colors.HexColor("#0F5C5E"), spaceBefore=8, spaceAfter=6,
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverSubtitle", fontName=regular, fontSize=11, leading=16,
@@ -690,7 +692,7 @@ def create_pdf(
         "alte_recomandari",
         "atentionari",
     )
-    sections = sort_sections_by_source_count(sections, evidence)
+    sections = sort_sections_by_relevance(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
     source_targets: dict[str, str] = {}
 

@@ -262,29 +262,51 @@ class WebTests(unittest.TestCase):
             ],
         )
 
-    # Verify source-count ordering independently for every report section.
-    def test_report_orders_every_section_by_descending_source_count(self):
+    # Verify each section is ordered by the best relevance_percent among an item's fragments.
+    def test_report_orders_every_section_by_max_relevance_percent(self):
         evidence = {
-            "C1": {"source": "documents/a.md:1-2", "text": "A"},
-            "C2": {"source": "documents/b.md:1-2", "text": "B"},
-            "C3": {"source": "documents/c.md:1-2", "text": "C"},
+            "C1": {"source": "documents/a.md:1-2", "text": "A", "relevance_percent": 35.0},
+            "C2": {"source": "documents/b.md:1-2", "text": "B", "relevance_percent": 90.0},
+            "C3": {"source": "documents/c.md:1-2", "text": "C", "relevance_percent": 30.0},
         }
         sections = {
             "uz_intern": [
-                {"text": "Puține surse", "evidence_ids": ["C1"]},
-                {"text": "Multe surse", "evidence_ids": ["C1", "C2", "C3"]},
+                {"text": "Multe surse slabe", "evidence_ids": ["C1", "C3"]},
+                {"text": "O sursa puternica", "evidence_ids": ["C2"]},
             ],
             "nutritie": [
-                {"text": "Mediu", "evidence_ids": ["C1", "C2"]},
-                {"text": "Mult", "evidence_ids": ["C1", "C2", "C3"]},
+                {"text": "Slab", "evidence_ids": ["C1"]},
+                {"text": "Puternic", "evidence_ids": ["C1", "C2"]},
             ],
         }
 
         report = main._recommendation_text(sections, evidence)
 
-        self.assertLess(report.index("Multe surse"), report.index("Puține surse"))
-        self.assertLess(report.index("Mult"), report.index("Mediu"))
-        self.assertIn("[1] [2] [3]", report)
+        self.assertLess(report.index("O sursa puternica"), report.index("Multe surse slabe"))
+        self.assertLess(report.index("Puternic"), report.index("Slab"))
+
+    # Verify ties on max relevance fall back to source count, then original order; unsourced last.
+    def test_relevance_ties_use_source_count_then_original_order(self):
+        evidence = {
+            "C1": {"source": "documents/a.md:1-2", "text": "A", "relevance_percent": 80.0},
+            "C2": {"source": "documents/b.md:1-2", "text": "B", "relevance_percent": 40.0},
+        }
+        sections = {
+            "uz_intern": [
+                {"text": "fara sursa", "evidence_ids": []},
+                {"text": "id necunoscut", "evidence_ids": ["UNKNOWN"]},
+                {"text": "o sursa", "evidence_ids": ["C1"]},
+                {"text": "doua surse", "evidence_ids": ["C1", "C2"]},
+                {"text": "repetat", "evidence_ids": ["C1"]},
+            ],
+        }
+
+        ordered = reports_module.sort_sections_by_relevance(sections, evidence)
+
+        self.assertEqual(
+            [item["text"] for item in ordered["uz_intern"]],
+            ["doua surse", "o sursa", "repetat", "fara sursa", "id necunoscut"],
+        )
 
     # Verify nutrition subsections keep their fixed order and recipes are rendered one per line.
     def test_nutrition_subsections_are_ordered_and_recipes_are_split(self):
