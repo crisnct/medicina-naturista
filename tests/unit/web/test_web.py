@@ -62,6 +62,7 @@ class FakeRetriever:
                 "source": "documents/plan.md:1-5",
                 "text": "Informație locală relevantă.",
                 "score": 0.0167,
+                "relevance_percent": 51.0,
             }
         }
 
@@ -468,6 +469,63 @@ class WebTests(unittest.TestCase):
             for item in evidence.values()
         ))
 
+    # Build synthetic rank() output for one query, as rank() returns every fragment.
+    @staticmethod
+    def _ranked(chunk_id, path, start, end, fraction, lexical=False, text="fără cuvinte comune"):
+        return {
+            "chunk_id": chunk_id,
+            "hybrid_score": RRF_MAX_SCORE * fraction,
+            "found_by_lexical": lexical,
+            "source_relative_path": path,
+            "line_start": start,
+            "line_end": end,
+            "heading": "",
+            "text": text,
+        }
+
+    # Verify only fragments at or above MIN_RELEVANCE_PERCENT (of RRF_MAX_SCORE)
+    # are kept, with no word-overlap or lexical exemption, before neighbours merge.
+    def test_collect_keeps_only_fragments_above_relevance_threshold(self):
+        profile = HealthProfile()
+        profile.set_health_problem("gripa")
+        session = type("SyntheticSession", (), {"profile": profile})()
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever.min_relevance_percent = 10
+        ranked = [
+            self._ranked(1, "a.md", 1, 10, 0.50),                 # kept, shares no word with the query
+            self._ranked(2, "a.md", 12, 20, 0.05),                # below threshold, neighbour of 1
+            self._ranked(3, "b.md", 1, 5, 0.90, lexical=True),   # kept
+            self._ranked(4, "c.md", 1, 5, 0.09, lexical=True),    # lexical match, still below threshold
+        ]
+
+        with patch("medicina_naturista.ai.retrieval.rank", return_value=ranked):
+            evidence = retriever.collect(session)
+
+        self.assertEqual(set(evidence), {"C1", "C3"})
+        # The weak neighbour is not pulled into the group.
+        self.assertEqual(evidence["C1"]["source"], "documents/a.md:1-10")
+        self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 50.0)
+        self.assertAlmostEqual(evidence["C3"]["relevance_percent"], 90.0)
+        self.assertFalse(evidence["C1"]["found_by_lexical"])
+        self.assertTrue(evidence["C3"]["found_by_lexical"])
+
+    # Verify a fragment exactly at the threshold is kept and one just below is not.
+    def test_collect_threshold_is_inclusive(self):
+        profile = HealthProfile()
+        profile.set_health_problem("gripa")
+        session = type("SyntheticSession", (), {"profile": profile})()
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever.min_relevance_percent = 50
+        ranked = [
+            self._ranked(1, "a.md", 1, 5, 0.5),
+            self._ranked(2, "b.md", 1, 5, 0.4999),
+        ]
+
+        with patch("medicina_naturista.ai.retrieval.rank", return_value=ranked):
+            evidence = retriever.collect(session)
+
+        self.assertEqual(set(evidence), {"C1"})
+
     # Verify neighbouring fragments of one file (overlapping or at most 5 lines
     # apart) are grouped, while distant fragments and other files stay separate.
     def test_merge_adjacent_groups_neighbours_within_line_gap(self):
@@ -540,25 +598,29 @@ class WebTests(unittest.TestCase):
             "C1": {
                 "source": "documents/doc-a.md:1-5",
                 "text": "Scor mic",
-                "score": RRF_MAX_SCORE * 0.1,  # -> 10%
+                "score": RRF_MAX_SCORE * 0.1,
+                "relevance_percent": 10.0,
                 "found_by_lexical": True,
             },
             "C2": {
                 "source": "documents/doc-z.md:10-15",
                 "text": "Scor mediu z",
-                "score": RRF_MAX_SCORE * 0.5,  # -> 50%
+                "score": RRF_MAX_SCORE * 0.5,
+                "relevance_percent": 50.0,
                 "found_by_lexical": False,
             },
             "C3": {
                 "source": "documents/doc-a.md:20-25",
                 "text": "Scor mare",
-                "score": RRF_MAX_SCORE,  # -> 100%, the ceiling from ai/search.py
+                "score": RRF_MAX_SCORE,
+                "relevance_percent": 100.0,
                 "found_by_lexical": True,
             },
             "C4": {
                 "source": "documents/doc-b.md:1-5",
                 "text": "Scor mediu b",
-                "score": RRF_MAX_SCORE * 0.5,  # -> 50%, tied with C2
+                "score": RRF_MAX_SCORE * 0.5,  # tied with C2
+                "relevance_percent": 50.0,
                 "found_by_lexical": True,
             },
         }
@@ -599,6 +661,7 @@ class WebTests(unittest.TestCase):
                 "source": "documents/doc-a.md:1-5",
                 "text": "Fragment fără found_by_lexical",
                 "score": RRF_MAX_SCORE,
+                "relevance_percent": 100.0,
             },
         }
 
@@ -607,16 +670,18 @@ class WebTests(unittest.TestCase):
         self.assertIn("Scor relevanță: 100%, doc-a.md", fragments_html)
         self.assertNotIn("Găsire", fragments_html)
 
-    # Verify the raw-to-percentage interpolation clamps out-of-range scores
-    # instead of producing a negative or over-100 percentage: a score above
-    # the RRF ceiling (should not happen, but defensively) still reads 100%,
-    # and a fragment with no score at all (the "-inf" default) reads 0%
-    # rather than a nonsensical negative number.
-    def test_relevance_percent_clamps_out_of_range_scores(self):
-        self.assertEqual(handlers._relevance_percent(RRF_MAX_SCORE * 2), 100)
-        self.assertEqual(handlers._relevance_percent(RRF_MAX_SCORE), 100)
-        self.assertEqual(handlers._relevance_percent(0.0), 0)
-        self.assertEqual(handlers._relevance_percent(float("-inf")), 0)
+    # Verify the panel shows the backend-computed relevance_percent as is (rounded
+    # for display) and omits the percentage for a fragment that carries none.
+    def test_fragments_panel_shows_backend_relevance_percent(self):
+        evidence = {
+            "C1": {"source": "documents/doc-a.md:1-5", "text": "Cu procent", "score": 0.02, "relevance_percent": 61.6},
+            "C2": {"source": "documents/doc-b.md:1-5", "text": "Fără procent", "score": 0.01},
+        }
+
+        fragments_html = main._fragments_panel_html(evidence)
+
+        self.assertIn("Scor relevanță: 62%, doc-a.md", fragments_html)
+        self.assertEqual(fragments_html.count("Scor relevanță"), 1)
 
     # Verify that one submitted health answer triggers report generation and download.
     def test_chat_automatically_generates_report_after_single_answer(self):
@@ -664,6 +729,7 @@ class WebTests(unittest.TestCase):
                         "source": "documents/plan.md:1-5",
                         "text": "Informație locală relevantă.",
                         "score": 0.0167,
+                        "relevance_percent": 51.0,
                     }
                 },
             )

@@ -11,11 +11,13 @@ ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env", override=False)
 
 
-# Read an integer setting and reject values below its safety minimum.
-def _int(name: str, default: int, minimum: int = 1) -> int:
+# Read an integer setting and reject values outside its safety bounds.
+def _int(name: str, default: int, minimum: int = 1, maximum: int | None = None) -> int:
     value = int(os.getenv(name, str(default)))
     if value < minimum:
         raise ValueError(f"{name} must be >= {minimum}")
+    if maximum is not None and value > maximum:
+        raise ValueError(f"{name} must be <= {maximum}")
     return value
 
 
@@ -44,6 +46,7 @@ class Settings:
     session_max_seconds: int = _int("SESSION_MAX_SECONDS", 14400)
     max_chat_chars: int = _int("MAX_CHAT_CHARS", 4000)
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
+    min_relevance_percent: int = _int("MIN_RELEVANCE_PERCENT", 10, minimum=0, maximum=100)
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)

@@ -9,7 +9,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from medicina_naturista.ai.search import rank
+from medicina_naturista.ai.search import RRF_MAX_SCORE, rank
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import SessionData
 
@@ -54,6 +54,7 @@ class Retriever:
     def __init__(self, index_dir: Path, documents_dir: Path) -> None:
         self.index_dir = index_dir.resolve()
         self.documents_dir = documents_dir.resolve()
+        self.min_relevance_percent = settings.min_relevance_percent
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
         connection = sqlite3.connect(self.index_dir / "index.sqlite3")
@@ -62,8 +63,9 @@ class Retriever:
         finally:
             connection.close()
         logger.info(
-            "retriever_initialized index=%s document_count=%s",
+            "retriever_initialized index=%s min_relevance_percent=%s document_count=%s",
             self.index_dir,
+            self.min_relevance_percent,
             self.document_count,
         )
 
@@ -153,84 +155,77 @@ class Retriever:
             len(topic_words),
         )
         total_candidates = 0
-        total_accepted = 0
-        # Per chunk: the sum of its hybrid_score over every query that accepted it.
+        # Per chunk: the sum of its hybrid_score over every query. rank() returns
+        # every fragment of the index for each query, so no fragment is dropped here.
         score_sums: dict[int, float] = {}
         chunks: dict[int, dict[str, Any]] = {}
         found_by_lexical: dict[int, bool] = {}
-        # Normalized source text per chunk, computed once and reused by every query
-        # (rank() returns every fragment of the index on each call).
-        plain_sources: dict[int, str] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
-            word_set = _meaningful_words(search_query)
-            accepted = 0
             candidates = rank(self.index_dir, search_query)
             total_candidates += len(candidates)
             for result in candidates:
                 chunk_id = int(result["chunk_id"])
-                # Word-overlap guards against embedding drift, so it only applies
-                # to semantic-only hits. A lexical hit already contains the exact
-                # query phrase, so it is accepted without this check.
-                if not result["found_by_lexical"]:
-                    if chunk_id not in plain_sources:
-                        plain_sources[chunk_id] = _plain(" ".join([
-                            str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
-                        ]))
-                    if not any(word in plain_sources[chunk_id] for word in word_set):
-                        continue
                 score_sums[chunk_id] = score_sums.get(chunk_id, 0.0) + result["hybrid_score"]
                 chunks.setdefault(chunk_id, result)
                 found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]
-                accepted += 1
-            total_accepted += accepted
             logger.info(
-                "retrieval_query_completed number=%s candidates=%s accepted=%s",
+                "retrieval_query_completed number=%s candidates=%s",
                 query_number,
                 len(candidates),
-                accepted,
             )
 
         # Multi-query RRF: a chunk's score is the sum of its per-query hybrid_score
         # (which itself fuses the semantic and lexical ranks, see ai/search.py)
-        # divided by the number of queries run. A query that did not accept the
-        # chunk contributes 0, so the ceiling stays RRF_MAX_SCORE (top-ranked by
-        # both signals in every query) and a chunk found by more queries scores
-        # higher. This is the single relevance value for the whole evidence set.
-        #
-        # Neighbouring fragments of the same file are then merged into one evidence
-        # fragment. The merged fragment takes the id, heading and score of its
-        # best-scored member (the maximum, so a document split into many pieces
-        # does not outrank a single strong one) and is found_by_lexical if any
-        # member is.
+        # divided by the number of queries run, so the ceiling stays RRF_MAX_SCORE.
+        # Its relevance_percent is that score as a percentage of the ceiling. Only
+        # fragments at or above MIN_RELEVANCE_PERCENT are kept: this is the single
+        # selection rule, shared by the UI panel and the request sent to the AI.
+        query_count = len(search_queries)
+        relevance_percent = {
+            chunk_id: total / query_count / RRF_MAX_SCORE * 100.0
+            for chunk_id, total in score_sums.items()
+        }
+        kept = {
+            chunk_id: result for chunk_id, result in chunks.items()
+            if relevance_percent[chunk_id] >= self.min_relevance_percent
+        }
+
+        # Neighbouring kept fragments of the same file are then merged into one
+        # evidence fragment. The merged fragment takes the id, heading, score and
+        # relevance_percent of its best-scored member (the maximum, so a document
+        # split into many pieces does not outrank a single strong one) and is
+        # found_by_lexical if any member is.
         evidence: dict[str, dict[str, Any]] = {}
         merged: list[tuple[float, int, dict[str, Any]]] = []
-        for group in self._merge_adjacent(chunks):
+        for group in self._merge_adjacent(kept):
             best_id = max(group["members"], key=score_sums.__getitem__)
             merged.append((score_sums[best_id], best_id, group))
         merged.sort(key=lambda item: item[0], reverse=True)
         for best_sum, best_id, group in merged:
-            best = chunks[best_id]
+            best = kept[best_id]
             if len(group["members"]) == 1:
                 text = self._context(best)
             else:
-                text = self._group_context(group, chunks, str(best.get("heading") or ""))
+                text = self._group_context(group, kept, str(best.get("heading") or ""))
             evidence[f"C{best_id}"] = {
                 "source": f"documents/{group['path']}:{group['start']}-{group['end']}",
                 "text": text,
                 # Every consumer (the UI panel, the AI-context budget trimming)
-                # reads this field directly and formats/orders from it.
-                "score": best_sum / len(search_queries),
+                # reads these fields directly and formats/orders from them.
+                "score": best_sum / query_count,
+                "relevance_percent": relevance_percent[best_id],
                 # Whether any query matched a member's exact phrase, for the UI.
                 # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": any(found_by_lexical[chunk_id] for chunk_id in group["members"]),
             }
 
         logger.info(
-            "retrieval_completed queries=%s search_candidates=%s search_accepted=%s "
-            "evidence_entries=%s evidence_chars=%s unique_sources=%s",
+            "retrieval_completed queries=%s search_candidates=%s above_threshold=%s "
+            "min_relevance_percent=%s evidence_entries=%s evidence_chars=%s unique_sources=%s",
             len(search_queries),
             total_candidates,
-            total_accepted,
+            len(kept),
+            self.min_relevance_percent,
             len(evidence),
             sum(len(item["text"]) for item in evidence.values()),
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),
