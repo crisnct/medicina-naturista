@@ -77,10 +77,8 @@ class Retriever:
     def __init__(self, index_dir: Path, documents_dir: Path) -> None:
         self.index_dir = index_dir.resolve()
         self.documents_dir = documents_dir.resolve()
-        self.search_limit = settings.retrieval_limit
         self.search_candidates = settings.retrieval_candidates
         self.evidence_context_chars = settings.evidence_context_chars
-        self.max_evidence = settings.max_evidence
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
         connection = sqlite3.connect(self.index_dir / "index.sqlite3")
@@ -89,13 +87,11 @@ class Retriever:
         finally:
             connection.close()
         logger.info(
-            "retriever_initialized index=%s search_limit=%s candidates=%s "
-            "context_chars=%s max_evidence=%s document_count=%s",
+            "retriever_initialized index=%s candidates=%s "
+            "context_chars=%s document_count=%s",
             self.index_dir,
-            self.search_limit,
             self.search_candidates,
             self.evidence_context_chars,
-            self.max_evidence,
             self.document_count,
         )
 
@@ -148,7 +144,6 @@ class Retriever:
             candidates = list(rank(
                 self.index_dir,
                 search_query,
-                limit=self.search_limit,
                 candidates=self.search_candidates,
             ))
             total_candidates += len(candidates)
@@ -182,7 +177,7 @@ class Retriever:
         # whole evidence set, with no separate scoring path or label.
         evidence: dict[str, dict[str, Any]] = {}
         positions = [0] * len(batches)
-        while len(evidence) < self.max_evidence:
+        while True:
             progressed = False
             for batch_number, results in enumerate(batches):
                 while positions[batch_number] < len(results):
@@ -208,8 +203,6 @@ class Retriever:
                         "found_by_semantic": result["found_by_semantic"],
                     }
                     progressed = True
-                    break
-                if len(evidence) >= self.max_evidence:
                     break
             if not progressed:
                 break

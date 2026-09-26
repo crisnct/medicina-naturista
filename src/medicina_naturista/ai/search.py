@@ -95,7 +95,6 @@ def fts_query(text: str) -> str:
 def rank(
     index_dir: Path,
     query: str,
-    limit: int,
     candidates: int,
 ) -> list[dict[str, object]]:
     manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
@@ -124,10 +123,11 @@ def rank(
             # exact phrase (or, for comma-separated input, none of the exact
             # phrases) isn't found verbatim, this fragment contributes nothing
             # to the lexical signal; semantic search is the only remaining path
-            # to surfacing it.
+            # to surfacing it. Every matching fragment is kept (no LIMIT):
+            # `candidates` only bounds the semantic signal.
             rows = connection.execute(
-                "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT ?",
-                (lexical, candidates),
+                "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts)",
+                (lexical,),
             ).fetchall()
             lexical_rank = {int(row["rowid"]): rank for rank, row in enumerate(rows, start=1)}
 
@@ -137,7 +137,7 @@ def rank(
             + (1.0 / (RRF_K + lexical_rank[chunk_id]) if chunk_id in lexical_rank else 0.0)
             for chunk_id in combined_ids
         }
-        best_ids = sorted(combined_ids, key=lambda item: scores[item], reverse=True)[:limit]
+        best_ids = sorted(combined_ids, key=lambda item: scores[item], reverse=True)
         if not best_ids:
             return []
         placeholders = ",".join("?" for _ in best_ids)
@@ -190,9 +190,8 @@ def main() -> None:
     results = rank(
         args.index.resolve(),
         args.query,
-        max(1, args.limit),
         max(args.limit, args.candidates),
-    )
+    )[: max(1, args.limit)]
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return

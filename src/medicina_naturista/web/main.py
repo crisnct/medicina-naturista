@@ -166,10 +166,9 @@ async def session_and_limits(request: Request, call_next):
 # Start periodic session cleanup and log the application configuration.
 async def startup() -> None:
     logger.info(
-        "application_started index=%s documents=%s max_evidence=%s log_fragment_text=%s",
+        "application_started index=%s documents=%s log_fragment_text=%s",
         settings.index_dir,
         settings.documents_dir,
-        settings.max_evidence,
         settings.log_fragment_text,
     )
 
