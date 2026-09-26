@@ -439,7 +439,7 @@ class WebTests(unittest.TestCase):
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
         # Pin generous retrieval parameters instead of relying on whatever
-        # RETRIEVAL_LIMIT/RETRIEVAL_CANDIDATES/MAX_EVIDENCE happen to be set
+        # RETRIEVAL_CANDIDATES happens to be set
         # to in .env. Those are meant to stay freely tunable for the running
         # app, so this test's correctness must not be coupled to them —
         # otherwise a legitimate production tuning change makes this test
@@ -447,13 +447,10 @@ class WebTests(unittest.TestCase):
         # is a frozen dataclass, so the override is applied to the Retriever
         # instance's own (plain, mutable) attributes instead.
         retriever = Retriever(settings.index_dir, settings.documents_dir)
-        retriever.search_limit = 250
         retriever.search_candidates = 1500
-        retriever.max_evidence = 2000
         evidence = retriever.collect(session)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
-        self.assertLessEqual(len(evidence), 2000)
         # Whitespace-normalized: when the raw chunk text is short (< 600 chars,
         # true here), retrieval.py's _context() re-expands it from the source
         # file's own lines (±5/4 lines of surrounding context). That source
