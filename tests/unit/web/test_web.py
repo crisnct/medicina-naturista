@@ -155,7 +155,11 @@ class WebTests(unittest.TestCase):
     def test_report_title_restores_common_romanian_diacritics(self):
         self.assertEqual(
             report_title({"health_problem": "gripa si raceala"}),
-            "Recomandări naturiste pentru gripă și răceală",
+            "Remedii naturiste pentru gripă și răceală",
+        )
+        self.assertEqual(
+            report_title({"health_problem": "răceală, gripă"}),
+            "Remedii naturiste pentru răceală",
         )
 
     # Verify that report generation sends all evidence in one AI request.
@@ -797,7 +801,7 @@ class WebTests(unittest.TestCase):
             content = "\n".join(
                 page.extract_text() for page in PdfReader(io.BytesIO(session_a.report_bytes)).pages
             )
-            self.assertIn("Recomandări naturiste", content)
+            self.assertIn("Remedii naturiste", content)
             self.assertIn("Gripă și răceală", " ".join(content.split()))
 
             with TestClient(main.app, base_url="https://testserver") as http:
@@ -1010,8 +1014,8 @@ class WebTests(unittest.TestCase):
         self.assertIn("self.canv.setFillColor(colors.white)", source)
         self.assertIn("self.canv.setFillColor(self.border)", source)
         self.assertIn("ORNAMENT_PNG", source)
-        self.assertIn("ornament_width = width - 36 * mm", source)
-        self.assertIn("ornament_height = ornament_width * 724 / 2172", source)
+        self.assertIn("ornament_width = width", source)
+        self.assertIn("ornament_height = ornament_width * ORNAMENT_SIZE[1] / ORNAMENT_SIZE[0]", source)
         self.assertNotIn("canvas.roundRect(18 * mm, 15.5 * mm", source)
         self.assertIn('Paragraph("de la dr. Cuișor", styles["NaturalCoverByline"])', source)
         self.assertIn("self.padding = 7", source)

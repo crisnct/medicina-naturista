@@ -8,7 +8,6 @@ import re
 from typing import Any
 
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_RIGHT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
@@ -45,9 +44,13 @@ BOLD_CANDIDATES = (
     Path("/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf"),
     Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"),
 )
+# The same portrait the web UI uses (a single copy of the file).
+DOCTOR_IMAGE = Path(__file__).resolve().parents[1] / "web" / "static" / "images" / "dr-cuisor.webp"
+# Same botanical ornament, widened so the left and right clusters reach the page edges.
 ORNAMENT_PNG = (
-    Path(__file__).resolve().parent / "assets" / "ornament-fitoterapie-antet.png"
+    Path(__file__).resolve().parent / "assets" / "ornament-fitoterapie-antet-wide.png"
 )
+ORNAMENT_SIZE = (2621, 724)
 
 
 # Locate Unicode fonts, register them with ReportLab, and return their names.
@@ -69,7 +72,7 @@ def _draw_footer(canvas: Any, document: Any) -> None:
     canvas.saveState()
     canvas.setFont("NaturistRegular", 8)
     canvas.setFillColor(colors.HexColor("#64748b"))
-    canvas.drawString(18 * mm, 12 * mm, "Recomandări naturiste de la Dr. Cuișor")
+    canvas.drawString(18 * mm, 12 * mm, "Remedii naturiste de la Dr. Cuișor")
     canvas.drawRightString(A4[0] - 18 * mm, 12 * mm, f"Pagina {document.page}")
     canvas.restoreState()
 
@@ -129,12 +132,12 @@ def _first_page(canvas: Any, document: Any) -> None:
     canvas.setFillColor(colors.HexColor("#F4F9F7"))
     canvas.rect(0, height - header_height, width, header_height, stroke=0, fill=1)
     if ORNAMENT_PNG.is_file():
-        ornament_width = width - 36 * mm
-        ornament_height = ornament_width * 724 / 2172
+        ornament_width = width
+        ornament_height = ornament_width * ORNAMENT_SIZE[1] / ORNAMENT_SIZE[0]
         canvas.setFillAlpha(0.34)
         canvas.drawImage(
             ImageReader(str(ORNAMENT_PNG)),
-            18 * mm,
+            0,
             height - header_height,
             width=ornament_width,
             height=ornament_height,
@@ -173,11 +176,16 @@ class CoverPanel(Flowable):
         content: list[Flowable],
         visible_height: float,
         page_top_extension: float,
+        image_path: Path | None = None,
+        image_size: float = 0.0,
     ) -> None:
         super().__init__()
         self.content = content
         self.visible_height = visible_height
         self.page_top_extension = page_top_extension
+        self.image_path = image_path
+        self.image_size = image_size if image_path and image_path.is_file() else 0.0
+        self.image_gap = 6 * mm
         self._metrics: list[tuple[Flowable, float, float, float]] = []
 
     def wrap(self, available_width: float, available_height: float) -> tuple[float, float]:
@@ -185,7 +193,10 @@ class CoverPanel(Flowable):
         self.height = self.visible_height
         self._metrics = []
         for flowable in self.content:
-            _, height = flowable.wrap(available_width, 1_000_000)
+            # Content next to the portrait wraps before it; the rest uses the full width.
+            beside = self.image_size and getattr(flowable, "beside_image", False)
+            width = available_width - self.image_size - self.image_gap if beside else available_width
+            _, height = flowable.wrap(width, 1_000_000)
             self._metrics.append((
                 flowable,
                 flowable.getSpaceBefore(),
@@ -201,6 +212,15 @@ class CoverPanel(Flowable):
         )
         full_band_height = self.visible_height + self.page_top_extension
         y = (full_band_height + total_height) / 2
+        if self.image_size:
+            self.canv.drawImage(
+                str(self.image_path),
+                self.width - self.image_size,
+                y - self.image_size,
+                width=self.image_size,
+                height=self.image_size,
+                mask="auto",
+            )
         for flowable, space_before, height, space_after in self._metrics:
             y -= space_before + height
             flowable.drawOn(self.canv, 0, y)
@@ -518,7 +538,9 @@ def report_title(profile: dict[str, Any]) -> str:
     problem = _restore_romanian_diacritics(
         " ".join(str(profile.get("health_problem") or "").split())[:240]
     )
-    return f"Recomandări naturiste pentru {problem}" if problem else "Recomandări naturiste"
+    # Several synonyms may be typed comma-separated; only the first names the report.
+    problem = problem.split(",")[0].strip()
+    return f"Remedii naturiste pentru {problem}" if problem else "Remedii naturiste"
 
 
 # Format the leading intervention or product label for readable PDF output.
@@ -594,8 +616,7 @@ def create_pdf(
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverByline", fontName=bold, fontSize=10.5, leading=13,
-        textColor=colors.HexColor("#0F5C5E"), alignment=TA_RIGHT,
-        rightIndent=14 * mm, spaceAfter=4,
+        textColor=colors.HexColor("#0F5C5E"), spaceAfter=14,
     ))
     styles.add(ParagraphStyle(
         name="NaturalCoverSubtitle", fontName=regular, fontSize=11, leading=16,
@@ -640,27 +661,25 @@ def create_pdf(
         )
 
     title = report_title(profile)
+    # The portrait sits at the top right of the cover; these paragraphs wrap
+    # before it, while the info block below spans the full width.
     cover_content: list[Flowable] = [
         Paragraph("GHID INFORMATIV", styles["NaturalCoverEyebrow"]),
         Paragraph(escape(title), styles["NaturalCoverTitle"]),
         Paragraph("de la dr. Cuișor", styles["NaturalCoverByline"]),
         Paragraph(
-            "Informații locale organizate pentru lectură rapidă și consultare responsabilă.",
+            "Informații din documente locale organizate pentru lectură rapidă și consultare responsabilă. Nu stabilește diagnostice și nu înlocuiește consultul sau tratamentul recomandat de un profesionist în sănătate.",
             styles["NaturalCoverSubtitle"],
         ),
-        Spacer(1, 2 * mm),
     ]
-    cover_content.append(Paragraph(
-        "<b>i Material informativ adjuvant.</b> Nu stabilește diagnostice și nu înlocuiește consultul "
-        "sau tratamentul recomandat de un profesionist în sănătate.<br/>"
-        "<font color=\"#C85C4A\"><b>! Citește secțiunea Atenționări înainte de a aplica o recomandare.</b></font><br/>"
-        "<font color=\"#0F5C5E\">→ Sursele aferente fiecărei recomandări sunt accesibile din document.</font>",
-        styles["NaturalCoverInfo"],
-    ))
+    for flowable in cover_content:
+        flowable.beside_image = True
     story: list[Any] = [CoverPanel(
         cover_content,
         visible_height=56 * mm,
         page_top_extension=20 * mm,
+        image_path=DOCTOR_IMAGE,
+        image_size=44 * mm,
     )]
     story.append(Spacer(1, 6 * mm))
 
