@@ -98,11 +98,31 @@ def _relevance_percent(score: float) -> int:
     return round(clamped / RRF_MAX_SCORE * 100)
 
 
+# Romanian label for a fragment's provenance, built from the independent
+# found_by_<signal> booleans set by ai/search.py's rank() (propagated via
+# Retriever.collect()). Shown next to the relevance score so the patient can
+# see whether a result came from an exact lexical match, from semantic
+# similarity, or both. Adding a signal later — a fourth "found_by_x" flag —
+# only means adding one more (label, flag) pair to _MATCH_TYPE_SIGNALS below;
+# every existing flag and combination keeps working unchanged.
+_MATCH_TYPE_SIGNALS: tuple[tuple[str, str], ...] = (
+    ("Lexicală", "found_by_lexical"),
+    ("Semantică", "found_by_semantic"),
+)
+
+
+def _match_type_label(item: dict) -> str:
+    found_labels = [label for label, key in _MATCH_TYPE_SIGNALS if item.get(key)]
+    if not found_labels:
+        return ""
+    return "Găsire " + " și ".join(found_labels)
+
+
 # Build the scrollable panel showing every retrieved fragment as a single
 # flat list, before the patient decides to send them to the AI. Only the
-# fragment text and its relevance (score + source document, on one line) are
-# shown — no chunk ids, line ranges, or other internal metadata — per the
-# patient-facing transparency requirement.
+# fragment text and its relevance line (score + match type + source
+# document, on one line) are shown — no chunk ids, line ranges, or other
+# internal metadata — per the patient-facing transparency requirement.
 #
 # Ordering: every fragment carries the same "score" field — its raw
 # hybrid_score from rank(), written by Retriever.collect() — so the whole
@@ -122,12 +142,12 @@ def _relevance_percent(score: float) -> int:
 def _fragments_panel_html(evidence: dict) -> str:
     if not evidence:
         return ""
-    entries: list[tuple[str, str, float]] = []  # (document, text, score)
+    entries: list[tuple[str, str, float, str]] = []  # (document, text, score, match_label)
     all_documents: set[str] = set()
     for item in evidence.values():
         document = item["source"].split(":", 1)[0].removeprefix("documents/")
         all_documents.add(document)
-        entries.append((document, item["text"], item.get("score", float("-inf"))))
+        entries.append((document, item["text"], item.get("score", float("-inf")), _match_type_label(item)))
     entries.sort(key=lambda entry: entry[2], reverse=True)
 
     parts = ['<div class="fragments-panel-inner">']
@@ -140,11 +160,16 @@ def _fragments_panel_html(evidence: dict) -> str:
         "</div>"
         "</div>"
     )
-    for document, text, score in entries:
+    for document, text, score, match_label in entries:
         relevance = f"Scor relevanță: {_relevance_percent(score)}%"
+        line_parts = [relevance]
+        if match_label:
+            line_parts.append(match_label)
+        line_parts.append(document)
+        score_line = ", ".join(html.escape(part) for part in line_parts)
         parts.append('<div class="fragments-panel-fragment">')
         parts.append(f'<p class="fragments-panel-fragment-text">{html.escape(_normalize_text(text))}</p>')
-        parts.append(f'<p class="fragments-panel-fragment-score">{html.escape(relevance)}, {html.escape(document)}</p>')
+        parts.append(f'<p class="fragments-panel-fragment-score">{score_line}</p>')
         parts.append("</div>")
     parts.append(
         '<p class="fragments-panel-summary">'

@@ -502,28 +502,39 @@ class WebTests(unittest.TestCase):
     # rank()); the panel interpolates that raw value onto a 0-100 integer
     # percentage for display ("Scor relevanță: NN%") while sorting the flat
     # list by the raw score itself, descending — no separate section or
-    # ordering rule for any subset of fragments.
+    # ordering rule for any subset of fragments. Each fragment also carries
+    # independent found_by_lexical / found_by_semantic booleans (from
+    # ai/search.py), combined into a Romanian label right after the
+    # percentage.
     def test_fragments_panel_sorts_by_relevance_score(self):
         evidence = {
             "C1": {
                 "source": "documents/doc-a.md:1-5",
                 "text": "Scor mic",
                 "score": RRF_MAX_SCORE * 0.1,  # -> 10%
+                "found_by_lexical": True,
+                "found_by_semantic": False,
             },
             "C2": {
                 "source": "documents/doc-z.md:10-15",
                 "text": "Scor mediu z",
                 "score": RRF_MAX_SCORE * 0.5,  # -> 50%
+                "found_by_lexical": False,
+                "found_by_semantic": True,
             },
             "C3": {
                 "source": "documents/doc-a.md:20-25",
                 "text": "Scor mare",
                 "score": RRF_MAX_SCORE,  # -> 100%, the ceiling from ai/search.py
+                "found_by_lexical": True,
+                "found_by_semantic": True,
             },
             "C4": {
                 "source": "documents/doc-b.md:1-5",
                 "text": "Scor mediu b",
                 "score": RRF_MAX_SCORE * 0.5,  # -> 50%, tied with C2
+                "found_by_lexical": True,
+                "found_by_semantic": False,
             },
         }
 
@@ -543,14 +554,33 @@ class WebTests(unittest.TestCase):
         self.assertLess(position_mid_z, position_mid_b, "equal scores must preserve original order")
         self.assertLess(position_mid_b, position_low_score, "lower relevance score must render last")
 
-        # Score/relevance and source document render together, one per
-        # fragment, as "Scor relevanță: NN%, document.md".
-        self.assertIn("Scor relevanță: 100%, doc-a.md", fragments_html)
-        self.assertIn("Scor relevanță: 50%, doc-z.md", fragments_html)
-        self.assertIn("Scor relevanță: 50%, doc-b.md", fragments_html)
-        self.assertIn("Scor relevanță: 10%, doc-a.md", fragments_html)
+        # Score/relevance, match-type label and source document render
+        # together, one per fragment, as
+        # "Scor relevanță: NN%, Găsire ..., document.md".
+        self.assertIn("Scor relevanță: 100%, Găsire Lexicală și Semantică, doc-a.md", fragments_html)
+        self.assertIn("Scor relevanță: 50%, Găsire Semantică, doc-z.md", fragments_html)
+        self.assertIn("Scor relevanță: 50%, Găsire Lexicală, doc-b.md", fragments_html)
+        self.assertIn("Scor relevanță: 10%, Găsire Lexicală, doc-a.md", fragments_html)
 
         self.assertIn("Total: 4 fragmente din 3 documente.", fragments_html)
+
+    # A fragment missing found_by_lexical/found_by_semantic (older cached
+    # evidence, or a caller that doesn't set them) must still render — just
+    # without the middle segment — rather than crashing or printing a blank
+    # label.
+    def test_fragments_panel_omits_match_type_label_when_absent(self):
+        evidence = {
+            "C1": {
+                "source": "documents/doc-a.md:1-5",
+                "text": "Fragment fără found_by_*",
+                "score": RRF_MAX_SCORE,
+            },
+        }
+
+        fragments_html = main._fragments_panel_html(evidence)
+
+        self.assertIn("Scor relevanță: 100%, doc-a.md", fragments_html)
+        self.assertNotIn("Găsire", fragments_html)
 
     # Verify the raw-to-percentage interpolation clamps out-of-range scores
     # instead of producing a negative or over-100 percentage: a score above

@@ -82,8 +82,22 @@ def fts_query(text: str) -> str:
     return _fts_phrase(text) or ""
 
 
-# Combine semantic and lexical rankings with reciprocal rank fusion.
-def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[str, object]]:
+# Combine semantic and lexical rankings with reciprocal rank fusion. Both
+# signals always run — there is no per-call or per-deployment toggle to turn
+# either off — so every fragment's hybrid_score is a genuine fusion of the
+# two ranks, never a single-signal score dressed up in RRF's positional
+# formula. Each result also carries one independent boolean per signal
+# ("found_by_lexical", "found_by_semantic"), recording whether that signal
+# actually surfaced it. Callers combine these flags however they need (e.g.
+# for display); a future third signal is added the same way — one more
+# independent "found_by_<signal>" flag — with no existing flag or its
+# combinations touched.
+def rank(
+    index_dir: Path,
+    query: str,
+    limit: int,
+    candidates: int,
+) -> list[dict[str, object]]:
     manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
     dimension = int(manifest["embedding"]["dimension"])
     model_name = str(manifest["embedding"]["model"])
@@ -98,7 +112,7 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
     semantic_count = min(candidates, len(semantic_scores))
     semantic_ids = np.argpartition(semantic_scores, -semantic_count)[-semantic_count:]
     semantic_ids = semantic_ids[np.argsort(semantic_scores[semantic_ids])[::-1]]
-    semantic_rank = {int(row) + 1: rank for rank, row in enumerate(semantic_ids, start=1)}
+    semantic_rank: dict[int, int] = {int(row) + 1: rank for rank, row in enumerate(semantic_ids, start=1)}
 
     connection = sqlite3.connect(index_dir / "index.sqlite3")
     connection.row_factory = sqlite3.Row
@@ -135,11 +149,14 @@ def rank(index_dir: Path, query: str, limit: int, candidates: int) -> list[dict[
         results: list[dict[str, object]] = []
         for chunk_id in best_ids:
             row = by_id[chunk_id]
+            semantic_similarity = float(semantic_scores[int(row["embedding_row"])])
             results.append({
                 "chunk_id": chunk_id,
                 "hybrid_score": scores[chunk_id],
-                "semantic_similarity": float(semantic_scores[int(row["embedding_row"])]),
+                "semantic_similarity": semantic_similarity,
                 "lexical_rank": lexical_rank.get(chunk_id),
+                "found_by_lexical": chunk_id in lexical_rank,
+                "found_by_semantic": chunk_id in semantic_rank,
                 "source_relative_path": row["source_relative_path"],
                 "source_absolute_path": row["source_absolute_path"],
                 "line_start": row["line_start"],
@@ -170,7 +187,12 @@ def main() -> None:
     parser.add_argument("--candidates", type=int, default=100)
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-    results = rank(args.index.resolve(), args.query, max(1, args.limit), max(args.limit, args.candidates))
+    results = rank(
+        args.index.resolve(),
+        args.query,
+        max(1, args.limit),
+        max(args.limit, args.candidates),
+    )
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return
@@ -178,7 +200,12 @@ def main() -> None:
         print(f"[{position}] {result['source_relative_path']}:{result['line_start']}-{result['line_end']}")
         if result["heading"]:
             print(f"    {result['heading']}")
-        print(f"    semantic={result['semantic_similarity']:.4f} hybrid={result['hybrid_score']:.6f}")
+        print(
+            f"    semantic={result['semantic_similarity']:.4f} "
+            f"hybrid={result['hybrid_score']:.6f} "
+            f"found_by_lexical={result['found_by_lexical']} "
+            f"found_by_semantic={result['found_by_semantic']}"
+        )
         preview = re.sub(r"\s+", " ", str(result["text"]))[:500]
         print(f"    {preview}")
         print()
