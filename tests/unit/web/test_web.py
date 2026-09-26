@@ -29,7 +29,8 @@ class FakeRequest:
     # Create the minimal request object required by the Gradio callbacks.
     def __init__(self, sid: str, tab: str):
         self.session_hash = tab
-        self.headers = {"cookie": f"naturist_sid={sid}"}
+        # Test requests come from the owner, the only visitor allowed to generate reports.
+        self.headers = {"cookie": f"naturist_sid={sid}; {main.OWNER_COOKIE}={main._owner_token()}"}
 
 
 class FakeAI:
@@ -88,6 +89,11 @@ class FakeResponse:
 
 
 class WebTests(unittest.TestCase):
+    def setUp(self):
+        owner_key = patch.dict(os.environ, {"OWNER_KEY": "synthetic-owner-key"})
+        owner_key.start()
+        self.addCleanup(owner_key.stop)
+
     # Verify that cached model metadata paths are normalized across operating systems.
     def test_fastembed_metadata_paths_are_portable_between_windows_and_linux(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -769,7 +775,7 @@ class WebTests(unittest.TestCase):
                 },
             )
 
-            history, link, row_update, button_update = main.on_generate_report(req_a)
+            history, link, row_update, button_update, _ = main.on_generate_report(req_a)
             self.assertEqual(FakeAI.generate_calls, 1)
             self.assertEqual(row_update, main.gr.update(visible=False))
             self.assertIsNone(main.store.get(sid_a, "tab-a").pending_evidence)
@@ -833,7 +839,7 @@ class WebTests(unittest.TestCase):
             self.assertEqual(session.profile.transcript, [{"role": "user", "content": "Migrenă"}])
 
             main.on_find_fragments(request)
-            _, link, _, _ = main.on_generate_report(request)
+            _, link, _, _, _ = main.on_generate_report(request)
             session = main.store.get(sid, "tab-latest-problem")
             self.assertEqual(FakeAI.generate_calls, 2)
             self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
@@ -862,7 +868,7 @@ class WebTests(unittest.TestCase):
             main.on_message("Gripă și răceală", request)
             main.on_find_fragments(request)
             with self.assertLogs("naturist.web", level="ERROR") as captured:
-                history, link, _, _ = main.on_generate_report(request)
+                history, link, _, _, _ = main.on_generate_report(request)
 
         session = main.store.get(sid, "tab-email-failure")
         self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
@@ -926,7 +932,7 @@ class WebTests(unittest.TestCase):
         self.assertIn("font: 22px/1.15 Arial, sans-serif !important", main.APP_CSS)
         self.assertIn("height: 38px !important", main.APP_CSS)
         self.assertIn("#medical-chatbot .bubble-wrap > .message-wrap:first-child", main.APP_CSS)
-        self.assertIn("Recomandări Naturiste", main.HERO_HTML)
+        self.assertIn("Remedii Naturiste", main.HERO_HTML)
         self.assertIn(
             'background: #f4f9f7 url("data:image/svg+xml;base64,',
             main.APP_CSS,
@@ -937,7 +943,7 @@ class WebTests(unittest.TestCase):
         self.assertTrue(main.ORNAMENT_SVG.is_file())
         self.assertIn('<p class="hero-byline">de la Dr. Cuișor</p>', main.HERO_HTML)
         self.assertIn(".hero-byline", main.APP_CSS)
-        self.assertIn("text-align: right", main.APP_CSS)
+        self.assertNotIn("text-align: right", main.APP_CSS)
         self.assertIn("message.submit", Path(main.__file__).read_text(encoding="utf-8"))
         self.assertNotIn('elem_id="end-session"', Path(main.__file__).read_text(encoding="utf-8"))
         self.assertNotIn("Închide sesiunea", Path(main.__file__).read_text(encoding="utf-8"))

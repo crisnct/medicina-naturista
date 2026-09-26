@@ -8,6 +8,7 @@ import gradio as gr
 
 STATIC_ROOT = Path(__file__).resolve().parent / "static"
 ORNAMENT_SVG_PATH = STATIC_ROOT / "images" / "ornament-fitoterapie-antet.svg"
+DOCTOR_IMAGE_PATH = STATIC_ROOT / "images" / "dr-cuisor.webp"
 
 
 def _read_static(relative_path: str) -> str:
@@ -18,6 +19,11 @@ def _read_static(relative_path: str) -> str:
 def _svg_data_uri(path: Path) -> str:
     encoded = base64.b64encode(path.read_bytes()).decode("ascii")
     return f"data:image/svg+xml;base64,{encoded}"
+
+
+def _webp_data_uri(path: Path) -> str:
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:image/webp;base64,{encoded}"
 
 
 APP_CSS = _read_static("css/app.css").replace(
@@ -35,9 +41,10 @@ THEME = gr.themes.Soft(font=["Arial", "sans-serif"])
 
 HERO_HTML = """
 <section id="hero-panel" aria-labelledby="hero-title">
+    <img class="hero-doctor" src="__DOCTOR_DATA_URI__" alt="Dr. Cuișor">
     <div class="hero-kicker"><span aria-hidden="true">🌿</span> Ghid naturist bazat pe surse locale</div>
     <div class="hero-title-block">
-        <h1 id="hero-title">Recomandări Naturiste</h1>
+        <h1 id="hero-title">Remedii Naturiste</h1>
         <p class="hero-byline">de la Dr. Cuișor</p>
     </div>
     <p class="hero-description">
@@ -45,6 +52,7 @@ HERO_HTML = """
     </p>
 </section>
 """
+HERO_HTML = HERO_HTML.replace("__DOCTOR_DATA_URI__", _webp_data_uri(DOCTOR_IMAGE_PATH))
 
 ASSISTANT_HEADER_HTML = """
 <div class="assistant-identity">
