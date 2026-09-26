@@ -117,7 +117,6 @@ class Retriever:
         score_sums: dict[int, float] = {}
         chunks: dict[int, dict[str, Any]] = {}
         found_by_lexical: dict[int, bool] = {}
-        found_by_semantic: dict[int, bool] = {}
         # Normalized source text per chunk, computed once and reused by every query
         # (rank() returns every fragment of the index on each call).
         plain_sources: dict[int, str] = {}
@@ -141,7 +140,6 @@ class Retriever:
                 score_sums[chunk_id] = score_sums.get(chunk_id, 0.0) + result["hybrid_score"]
                 chunks.setdefault(chunk_id, result)
                 found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]
-                found_by_semantic[chunk_id] = found_by_semantic.get(chunk_id, False) or result["found_by_semantic"]
                 accepted += 1
             total_accepted += accepted
             logger.info(
@@ -166,10 +164,9 @@ class Retriever:
                 # Every consumer (the UI panel, the AI-context budget trimming)
                 # reads this field directly and formats/orders from it.
                 "score": score_sums[chunk_id] / len(search_queries),
-                # Independent per-signal flags, OR-ed across queries, for the UI.
-                # A future signal adds its own "found_by_<signal>" flag here.
+                # Whether any query matched this fragment's exact phrase, for the UI.
+                # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": found_by_lexical[chunk_id],
-                "found_by_semantic": found_by_semantic[chunk_id],
             }
 
         logger.info(
