@@ -27,23 +27,6 @@ def _plain(value: str) -> str:
     return "".join(char for char in value if not unicodedata.combining(char))
 
 
-# Split long consultation text into bounded search queries without losing its tail.
-def _split_query(value: str, limit: int = 900) -> list[str]:
-    """Split long consultation text without dropping its tail."""
-    remaining = " ".join(value.split())
-    parts: list[str] = []
-    while remaining:
-        if len(remaining) <= limit:
-            parts.append(remaining)
-            break
-        boundary = remaining.rfind(" ", 0, limit + 1)
-        if boundary < limit // 2:
-            boundary = limit
-        parts.append(remaining[:boundary].strip())
-        remaining = remaining[boundary:].strip()
-    return [part for part in parts if part]
-
-
 # Extract searchable words while excluding short and generic terms.
 def _meaningful_words(value: str) -> set[str]:
     return {
@@ -52,24 +35,13 @@ def _meaningful_words(value: str) -> set[str]:
     }
 
 
-# Build deduplicated bounded queries from the consultation profile.
+# Build the search queries from the consultation profile.
 def consultation_queries(profile: Any) -> list[str]:
-    """Build bounded queries from the health problem. Conversation history
+    """Use the whole health problem as a single query. Conversation history
     (profile.transcript, profile.health_context) is intentionally excluded:
     it steered retrieval away from the actual topic being searched."""
-    values: list[str] = []
-    if profile.health_problem:
-        values.append(profile.health_problem)
-
-    queries: list[str] = []
-    seen: set[str] = set()
-    for value in values:
-        for part in _split_query(value):
-            key = part.casefold()
-            if key not in seen:
-                seen.add(key)
-                queries.append(part)
-    return queries
+    problem = " ".join((profile.health_problem or "").split())
+    return [problem] if problem else []
 
 
 class Retriever:
@@ -151,15 +123,12 @@ class Retriever:
                 source_text = " ".join([
                     str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
                 ])
-                # Word-overlap is the sole guard against embedding drift, for
-                # every candidate regardless of which signal(s) surfaced it
-                # (see result["found_by_lexical"] / result["found_by_semantic"])
-                # — a lexical phrase match on its own no longer bypasses this
-                # check, and neither does a semantic-only hit: both still need
-                # at least one meaningful query word to actually appear near
-                # the fragment.
-                matching = any(word in _plain(source_text) for word in word_set)
-                if matching:
+                # Word-overlap guards against embedding drift, so it only applies
+                # to semantic-only hits. A lexical hit already contains the exact
+                # query phrase, so it is accepted without this check.
+                if result["found_by_lexical"] or any(
+                    word in _plain(source_text) for word in word_set
+                ):
                     accepted.append(result)
             if accepted:
                 batches.append(accepted)
