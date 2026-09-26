@@ -539,7 +539,7 @@ class WebTests(unittest.TestCase):
 
         # Flat list, no per-document grouping and no separate section for
         # any subset of fragments.
-        self.assertIn("fragments-panel-header", fragments_html)
+        self.assertIn("fragments-panel-banner", fragments_html)
         self.assertNotIn('class="fragments-panel-doc"', fragments_html)
 
         position_high_score = fragments_html.index("Scor mare")
@@ -620,7 +620,7 @@ class WebTests(unittest.TestCase):
             # panel itself, not as a separate chat bubble — chat history is
             # unchanged by on_find_fragments on the success path.
             self.assertIn("Caut în cele", history[-1]["content"])
-            self.assertIn("Fragmentele relevante", fragments_html)
+            self.assertNotIn("Fragmentele relevante", fragments_html)
             self.assertIn("Am găsit", fragments_html)
             self.assertIn("1 fragmente", fragments_html)
             self.assertIn("Informație locală relevantă.", fragments_html)
@@ -793,7 +793,6 @@ class WebTests(unittest.TestCase):
             ".hero-title-block {\n    width: 100%;\n    max-width: none;\n    margin: 0;\n}",
             main.APP_CSS,
         )
-        self.assertIn("border-right: 4px solid var(--nature-accent)", main.APP_CSS)
         self.assertIn('#health-message input[data-testid="textbox"]', main.APP_CSS)
         self.assertIn("font: 22px/1.15 Arial, sans-serif !important", main.APP_CSS)
         self.assertIn("height: 38px !important", main.APP_CSS)

@@ -37,11 +37,7 @@ HERO_HTML = """
         <p class="hero-byline">de la Dr. Cuișor</p>
     </div>
     <p class="hero-description">
-        Descrieți problema cu care vă confruntați și primiți un raport informativ, clar și ușor de consultat.
-    </p>
-    <p class="medical-disclaimer">
-        <span aria-hidden="true">ℹ️</span>
-        <span>Informațiile sunt orientative și nu înlocuiesc consultul sau îngrijirea medicală.</span>
+        Descrieți problema cu care vă confruntați și primiți un raport informativ, clar și ușor de consultat. Informațiile sunt orientative și nu înlocuiesc consultul sau îngrijirea medicală.
     </p>
 </section>
 """
@@ -54,5 +50,5 @@ ASSISTANT_HEADER_HTML = """
 """
 
 MESSAGE_HELPER_HTML = """
-<div><span aria-hidden="true">📝</span> Specificați strict problema de sănătate și nimic altceva.</div>
+<div><span aria-hidden="true">📝</span> Specificați strict problema de sănătate și nimic altceva. Puteți menționa mai multe sinonime separate prin virgulă.</div>
 """
