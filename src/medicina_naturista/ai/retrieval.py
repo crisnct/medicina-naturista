@@ -156,8 +156,15 @@ class Retriever:
                 source_text = " ".join([
                     str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
                 ])
+                # Word-overlap is the sole guard against embedding drift, for
+                # every candidate regardless of which signal(s) surfaced it
+                # (see result["found_by_lexical"] / result["found_by_semantic"])
+                # — a lexical phrase match on its own no longer bypasses this
+                # check, and neither does a semantic-only hit: both still need
+                # at least one meaningful query word to actually appear near
+                # the fragment.
                 matching = any(word in _plain(source_text) for word in word_set)
-                if result.get("lexical_rank") is not None and matching:
+                if matching:
                     accepted.append(result)
             if accepted:
                 batches.append(accepted)
@@ -193,6 +200,12 @@ class Retriever:
                         # field directly and formats/orders from it; nothing
                         # keeps a separate pre-formatted copy that could drift.
                         "score": result["hybrid_score"],
+                        # Independent per-signal flags straight from rank(),
+                        # for the UI to show alongside the score. A future
+                        # signal adds its own "found_by_<signal>" flag here
+                        # without touching these two.
+                        "found_by_lexical": result["found_by_lexical"],
+                        "found_by_semantic": result["found_by_semantic"],
                     }
                     progressed = True
                     break
