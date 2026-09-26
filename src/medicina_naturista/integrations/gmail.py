@@ -20,7 +20,6 @@ GMAIL_TOKEN_URI = "https://oauth2.googleapis.com/token"
 GMAIL_SEND_URI = "https://gmail.googleapis.com/gmail/v1/users/me/messages/send"
 GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send"
 GMAIL_HTTP_TIMEOUT_SECONDS = 20
-REPORT_RECIPIENT = "nelucristian2005@gmail.com"
 
 EMAIL_SKIPPED = "email_skipped"
 EMAIL_SENT = "email_sent"
@@ -67,7 +66,7 @@ def build_report_message(
     pdf_bytes: bytes,
     filename: str,
     from_address: str,
-    to_address: str = REPORT_RECIPIENT,
+    to_address: str,
 ) -> EmailMessage:
     """Build the Romanian report email and attach the generated PDF."""
     clean_problem = problem.strip()
@@ -160,6 +159,7 @@ def send_report(
     problem: str,
     pdf_bytes: bytes,
     filename: str,
+    to_address: str,
     *,
     config: MailConfig | None = None,
     urlopen_factory: Callable[..., object] = urlopen,
@@ -169,7 +169,9 @@ def send_report(
     if not config.is_configured:
         return EMAIL_SKIPPED
 
-    message = build_report_message(problem, pdf_bytes, filename, config.from_address)
+    message = build_report_message(
+        problem, pdf_bytes, filename, config.from_address, to_address
+    )
     access_token = _refresh_access_token(config, urlopen_factory=urlopen_factory)
     _send_gmail_message(config, access_token, message, urlopen_factory=urlopen_factory)
     return EMAIL_SENT

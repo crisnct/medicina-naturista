@@ -380,24 +380,6 @@ body,
     margin-bottom: 0.65em;
 }
 
-#fragments-panel {
-    width: var(--chat-content-width) !important;
-    max-width: var(--chat-content-width) !important;
-    align-self: flex-start !important;
-    min-height: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    background: transparent !important;
-}
-
-#fragments-panel:not(:has(.fragments-panel-inner)) {
-    display: none !important;
-}
-
-#fragments-panel {
-    margin-top: -14px !important;
-}
-
 .fragments-panel-inner {
     box-sizing: border-box;
     padding: 0;
@@ -536,18 +518,13 @@ body,
     outline-offset: 3px !important;
 }
 
-#report-download {
-    width: var(--chat-content-width) !important;
-    max-width: var(--chat-content-width) !important;
-    align-self: flex-start !important;
-    min-height: 0 !important;
+/* Fragments and download panels are chat messages: drop the bubble around them. */
+#medical-chatbot .message:has(.fragments-panel-inner),
+#medical-chatbot .message:has(.report-ready-panel) {
     padding: 0 !important;
     border: 0 !important;
     background: transparent !important;
-}
-
-#report-download:not(:has(.report-ready-panel)) {
-    display: none !important;
+    box-shadow: none !important;
 }
 
 #owner-notice {

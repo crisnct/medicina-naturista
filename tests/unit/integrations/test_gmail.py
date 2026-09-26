@@ -53,9 +53,10 @@ class MailerTests(unittest.TestCase):
             b"%PDF-test",
             "Raport gripă.pdf",
             "reports@gmail.com",
+            "dest@example.com",
         )
 
-        self.assertEqual(message["To"], "nelucristian2005@gmail.com")
+        self.assertEqual(message["To"], "dest@example.com")
         self.assertEqual(message["From"], "reports@gmail.com")
         self.assertEqual(message["Subject"], "Raport recomandări naturiste pentru Gripă și răceală")
         attachment = next(message.iter_attachments())
@@ -93,7 +94,7 @@ class MailerTests(unittest.TestCase):
                 "GOOGLE_REFRESH_TOKEN": "",
             },
         ):
-            result = send_report("Gripă", b"%PDF-test", "raport.pdf", urlopen_factory=RecordingUrlopen())
+            result = send_report("Gripă", b"%PDF-test", "raport.pdf", "dest@example.com", urlopen_factory=RecordingUrlopen())
         self.assertEqual(result, EMAIL_SKIPPED)
 
     def test_send_report_refreshes_token_and_sends_mime_message_once(self):
@@ -110,6 +111,7 @@ class MailerTests(unittest.TestCase):
             "Gripă",
             b"%PDF-test",
             "raport.pdf",
+            "dest@example.com",
             config=config,
             urlopen_factory=opener,
         )
@@ -131,7 +133,7 @@ class MailerTests(unittest.TestCase):
 
         payload = json.loads(send_request.data.decode("utf-8"))
         message = message_from_bytes(base64.urlsafe_b64decode(payload["raw"]))
-        self.assertEqual(message["To"], "nelucristian2005@gmail.com")
+        self.assertEqual(message["To"], "dest@example.com")
         self.assertEqual(message.get_payload()[1].get_content_type(), "application/pdf")
         self.assertEqual(GMAIL_SEND_SCOPE, "https://www.googleapis.com/auth/gmail.send")
 
