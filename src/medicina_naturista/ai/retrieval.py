@@ -55,6 +55,7 @@ class Retriever:
         self.index_dir = index_dir.resolve()
         self.documents_dir = documents_dir.resolve()
         self.min_relevance_percent = settings.min_relevance_percent
+        self.merge_max_percent_diff = settings.merge_max_percent_diff
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
         connection = sqlite3.connect(self.index_dir / "index.sqlite3")
@@ -63,9 +64,11 @@ class Retriever:
         finally:
             connection.close()
         logger.info(
-            "retriever_initialized index=%s min_relevance_percent=%s document_count=%s",
+            "retriever_initialized index=%s min_relevance_percent=%s "
+            "merge_max_percent_diff=%s document_count=%s",
             self.index_dir,
             self.min_relevance_percent,
+            self.merge_max_percent_diff,
             self.document_count,
         )
 
@@ -107,10 +110,16 @@ class Retriever:
         return f"Secțiune: {heading}\n\n{context}" if heading else context
 
     # Group fragments of the same file whose line ranges overlap or are at most
-    # NEIGHBOR_LINE_GAP lines apart. Each group keeps its members' chunk ids
+    # NEIGHBOR_LINE_GAP lines apart, and only while the spread of their relevance
+    # percentages (highest minus lowest in the group, the candidate included) stays
+    # strictly below `max_percent_diff`. Each group keeps its members' chunk ids
     # (in file order) and the united line range.
     @staticmethod
-    def _merge_adjacent(chunks: dict[int, dict[str, Any]]) -> list[dict[str, Any]]:
+    def _merge_adjacent(
+        chunks: dict[int, dict[str, Any]],
+        relevance_percent: dict[int, float],
+        max_percent_diff: float,
+    ) -> list[dict[str, Any]]:
         by_file: dict[str, list[int]] = defaultdict(list)
         for chunk_id, result in chunks.items():
             by_file[str(result["source_relative_path"])].append(chunk_id)
@@ -121,11 +130,21 @@ class Retriever:
             for chunk_id in chunk_ids:
                 result = chunks[chunk_id]
                 start, end = int(result["line_start"]), int(result["line_end"])
-                if current is not None and start <= current["end"] + NEIGHBOR_LINE_GAP:
+                percent = relevance_percent[chunk_id]
+                if (
+                    current is not None
+                    and start <= current["end"] + NEIGHBOR_LINE_GAP
+                    and max(current["max_percent"], percent) - min(current["min_percent"], percent) < max_percent_diff
+                ):
                     current["members"].append(chunk_id)
                     current["end"] = max(current["end"], end)
+                    current["min_percent"] = min(current["min_percent"], percent)
+                    current["max_percent"] = max(current["max_percent"], percent)
                 else:
-                    current = {"path": path, "start": start, "end": end, "members": [chunk_id]}
+                    current = {
+                        "path": path, "start": start, "end": end, "members": [chunk_id],
+                        "min_percent": percent, "max_percent": percent,
+                    }
                     groups.append(current)
         return groups
 
@@ -197,7 +216,7 @@ class Retriever:
         # found_by_lexical if any member is.
         evidence: dict[str, dict[str, Any]] = {}
         merged: list[tuple[float, int, dict[str, Any]]] = []
-        for group in self._merge_adjacent(kept):
+        for group in self._merge_adjacent(kept, relevance_percent, self.merge_max_percent_diff):
             best_id = max(group["members"], key=score_sums.__getitem__)
             merged.append((score_sums[best_id], best_id, group))
         merged.sort(key=lambda item: item[0], reverse=True)

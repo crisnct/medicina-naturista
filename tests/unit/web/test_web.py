@@ -541,12 +541,46 @@ class WebTests(unittest.TestCase):
             5: chunk("b.md", 1, 10),    # other file -> own group
         }
 
-        groups = Retriever._merge_adjacent(chunks)
+        same_percent = {chunk_id: 50.0 for chunk_id in chunks}
+        groups = Retriever._merge_adjacent(chunks, same_percent, 9)
         by_members = {tuple(group["members"]): group for group in groups}
 
         self.assertEqual(set(by_members), {(1, 2, 3), (4,), (5,)})
         merged = by_members[(1, 2, 3)]
         self.assertEqual((merged["path"], merged["start"], merged["end"]), ("a.md", 1, 30))
+
+    # Verify a group only grows while the spread of its relevance percentages
+    # (highest - lowest, candidate included) stays strictly below the limit:
+    # compared against the whole group, so no drift is possible.
+    def test_merge_adjacent_limits_percent_spread_within_group(self):
+        def chunk(start):
+            return {"source_relative_path": "a.md", "line_start": start, "line_end": start + 4, "text": "t"}
+
+        chunks = {1: chunk(1), 2: chunk(6), 3: chunk(11), 4: chunk(16)}
+
+        # Consecutive gaps are 5, 7 and 8 (all < 9) but 50 -> 30 spans 20 points.
+        drift = {1: 50.0, 2: 45.0, 3: 38.0, 4: 30.0}
+        groups = Retriever._merge_adjacent(chunks, drift, 9)
+        self.assertEqual([group["members"] for group in groups], [[1, 2], [3, 4]])
+
+        # A spread of exactly 9 is not "below 9"; 8.9 is.
+        self.assertEqual(
+            [group["members"] for group in Retriever._merge_adjacent(chunks, {1: 50.0, 2: 41.0, 3: 41.0, 4: 41.0}, 9)],
+            [[1], [2, 3, 4]],
+        )
+        self.assertEqual(
+            [group["members"] for group in Retriever._merge_adjacent(chunks, {1: 50.0, 2: 41.1, 3: 41.1, 4: 41.1}, 9)],
+            [[1, 2, 3, 4]],
+        )
+
+        # The line-gap rule still applies on top of the percent rule.
+        far = {1: chunk(1), 2: chunk(40)}
+        groups = Retriever._merge_adjacent(far, {1: 50.0, 2: 50.0}, 9)
+        self.assertEqual([group["members"] for group in groups], [[1], [2]])
+
+        # A limit of 0 disables merging altogether.
+        groups = Retriever._merge_adjacent(chunks, {1: 50.0, 2: 50.0, 3: 50.0, 4: 50.0}, 0)
+        self.assertEqual([group["members"] for group in groups], [[1], [2], [3], [4]])
 
     # Verify a merged group reads its whole united line range from the source
     # file, and falls back to the members' texts when the file is missing.

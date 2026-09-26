@@ -48,6 +48,7 @@ class Settings:
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
     min_relevance_percent: int = _int("MIN_RELEVANCE_PERCENT", 10, minimum=0, maximum=100)
     max_context_chars: int = _int("MAX_CONTEXT_CHARS", 2_400_000)
+    merge_max_percent_diff: int = _int("MERGE_MAX_PERCENT_DIFF", 9, minimum=0, maximum=100)
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)
