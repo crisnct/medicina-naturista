@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 import asyncio
+import hashlib
+import hmac
+import html
 import logging
 import os
 import re
@@ -14,7 +17,7 @@ from urllib.parse import quote, urlparse
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, Response
+from fastapi.responses import FileResponse, RedirectResponse, Response
 
 from medicina_naturista.config import settings
 
@@ -66,11 +69,14 @@ logging.basicConfig(
 )
 COOKIE = "naturist_sid"
 COOKIE_RE = re.compile(r"^[A-Za-z0-9_-]{32,64}$")
+OWNER_COOKIE = "naturist_owner"
+OWNER_COOKIE_MAX_AGE = 10 * 365 * 24 * 3600
+OWNER_ONLY_MESSAGE = "Generarea rețetei nu este disponibilă momentan pentru acest cont."
 WELCOME = "Bună ziua! 👋"
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
 REPORT_STARTED = (
-    f"🔍 Caut în cele {retriever.document_count} documente interne disponibile. Vă rog să așteptați."
+    f"🔍 Caut rapid în cele {retriever.document_count} documente interne disponibile. Vă rog să așteptați."
 )
 ai = XAIClient(settings)
 app = FastAPI(title="Chatbot naturist", docs_url=None, redoc_url=None, openapi_url=None)
@@ -92,6 +98,28 @@ def _cookie_from_header(header: str) -> str | None:
         return value if value and COOKIE_RE.fullmatch(value) else None
     except Exception:
         return None
+
+
+# Derive the owner cookie value from the secret key; empty when no OWNER_KEY is configured.
+def _owner_token() -> str:
+    key = os.getenv("OWNER_KEY", "")
+    if not key:
+        return ""
+    return hmac.new(key.encode(), b"naturist-owner", hashlib.sha256).hexdigest()
+
+
+# Tell whether the raw Cookie header carries a valid owner cookie (fails closed without OWNER_KEY).
+def _is_owner(cookie_header: str) -> bool:
+    expected = _owner_token()
+    if not expected:
+        return False
+    try:
+        cookies = SimpleCookie()
+        cookies.load(cookie_header)
+        value = cookies[OWNER_COOKIE].value if OWNER_COOKIE in cookies else ""
+    except Exception:
+        return False
+    return hmac.compare_digest(value, expected)
 
 
 # Resolve the authenticated browser tab to its cookie and Gradio session identifiers.
@@ -201,6 +229,22 @@ def healthz():
     return {"status": "ok", "index": "ready"}
 
 
+@app.get("/owner")
+# Mark this browser as the owner's by setting a long-lived cookie when the secret key matches.
+def owner_login(key: str = ""):
+    expected = os.getenv("OWNER_KEY", "")
+    if not expected or not hmac.compare_digest(key.encode(), expected.encode()):
+        raise HTTPException(status_code=404)
+    response = RedirectResponse(url="./", status_code=303)
+    response.set_cookie(
+        OWNER_COOKIE, _owner_token(), max_age=OWNER_COOKIE_MAX_AGE, httponly=True,
+        secure=os.getenv("COOKIE_SECURE", "false").lower() == "true",
+        samesite="strict", path="/",
+    )
+    logger.info("owner_cookie_issued")
+    return response
+
+
 @app.get("/assets/ornament-fitoterapie-antet.svg")
 async def ornament_asset() -> FileResponse:
     """Serve the shared botanical ornament to the Gradio page."""
@@ -302,8 +346,24 @@ def on_find_fragments(request: gr.Request):
         )
 
 
-# Send the fragments the patient already reviewed to the AI, generate the PDF, and update the chat.
+# Reject non-owner visitors with a red notice below the fragments; otherwise generate the report.
 def on_generate_report(request: gr.Request):
+    if not _is_owner(str(dict(request.headers).get("cookie", ""))):
+        session = _current(request)
+        logger.info("report_skipped tab_id=%s reason=not_owner", session.tab_id)
+        with session.lock:
+            return (
+                list(session.history),
+                _download_html(session),
+                generate_row_visible_update(),
+                generate_button_ready_update(),
+                f'<div class="owner-notice-panel" role="alert">{html.escape(OWNER_ONLY_MESSAGE)}</div>',
+            )
+    return (*_generate_report(request), "")
+
+
+# Send the fragments the patient already reviewed to the AI, generate the PDF, and update the chat.
+def _generate_report(request: gr.Request):
     session = _current(request)
     with session.lock:
         evidence = session.pending_evidence
@@ -427,6 +487,7 @@ with gr.Blocks(
                 layout="bubble",
             )
             fragments_panel = gr.HTML(elem_id="fragments-panel")
+            owner_notice = gr.HTML(elem_id="owner-notice")
             with gr.Row(elem_id="generate-recipe-panel", visible=False) as generate_row:
                 gr.HTML(
                     '<div class="generate-recipe-copy">'
@@ -483,8 +544,8 @@ with gr.Blocks(
             fn=None, js=AUTO_SCROLL_JS, queue=False
         )
         processing_event = notice_event.then(
-            processing_button_update,
-            outputs=[send],
+            lambda: (processing_button_update(), ""),
+            outputs=[send, owner_notice],
             queue=False,
         )
         fragments_event = processing_event.then(
@@ -496,16 +557,15 @@ with gr.Blocks(
             fn=None, js=AUTO_SCROLL_JS, queue=False
         )
 
-    generate_event = generate_button.click(
-        generate_button_processing_update, outputs=[generate_button], queue=False
+    generate_button.click(
+        lambda: (generate_button_processing_update(), ""),
+        outputs=[generate_button, owner_notice],
+        queue=False,
     ).then(fn=None, js=COLLAPSE_FRAGMENTS_JS, queue=False).then(
-        fn=None, js=AUTO_SCROLL_JS, queue=False
-    ).then(
         on_generate_report,
-        outputs=[chatbot, download_box, generate_row, generate_button],
+        outputs=[chatbot, download_box, generate_row, generate_button, owner_notice],
         queue=False,
     )
-    generate_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
     demo.unload(on_unload)
 
 _gradio_root_path = os.getenv("GRADIO_ROOT_PATH") or None

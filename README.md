@@ -223,6 +223,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
 | `COOKIE_SECURE` | `false` | Impune transmiterea cookie-ului numai prin HTTPS. |
+| `OWNER_KEY` | _(gol)_ | Cheie secretă lungă. Doar browserele care au deschis o dată `/owner?key=<OWNER_KEY>` primesc un cookie (valabil ~10 ani) și pot genera rețeta; ceilalți văd un mesaj de indisponibilitate. Fără cheie, nimeni nu poate genera. |
 | `LOG_LEVEL` | `INFO` | Nivelul minim al logurilor. |
 | `LOG_FRAGMENT_TEXT` | `true` | Include textul fragmentelor în loguri. |
 | `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
