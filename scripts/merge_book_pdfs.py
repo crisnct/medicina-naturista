@@ -15,14 +15,14 @@ Behavior:
 - reports missing page ranges but DOES NOT stop;
 - stops on overlapping/invalid page ranges;
 - optionally checks actual PDF page counts;
-- saves the result in `<project>/var/output` unless `--output-dir` is provided;
+- saves the result in `<project>/data/documents` unless `--output-dir` is provided;
 - the output filename is the source folder name + ".pdf".
 
 Install:
     py -m pip install pypdf
 
 Run:
-    py scripts/merge_book_pdfs.py "C:\\GoogleDrive\\Medicina\\Vindecare prin nutritie"
+    python scripts/merge_book_pdfs.py "C:\GoogleDrive\Medicina\_DeExtrasTextulCuAI\Vindecare prin nutritie"
 """
 
 from __future__ import annotations
@@ -185,7 +185,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
             "Merge pag<first>-<last>.pdf files in numeric book-page order. "
-            "The result is saved in var/output by default, using the source "
+            "The result is saved in data/documents by default, using the source "
             "folder name as the PDF filename."
         )
     )
@@ -208,7 +208,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        help="Destination folder. Defaults to <project>/var/output.",
+        help="Destination folder. Defaults to <project>/data/documents.",
     )
 
     return parser
@@ -227,7 +227,7 @@ def main() -> int:
         return 2
 
     project_root = Path(__file__).resolve().parents[1]
-    output_dir = (args.output_dir or project_root / "var" / "output").expanduser().resolve()
+    output_dir = (args.output_dir or project_root / "scripts").expanduser().resolve()
     output_filename = f"{source_folder.name}.pdf"
     output_path = output_dir / output_filename
 
