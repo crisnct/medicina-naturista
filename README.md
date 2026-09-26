@@ -19,14 +19,14 @@
 
 ## ✨ Despre proiect
 
-Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator, caută dovezi în arhiva locală, solicită xAI să redacteze un răspuns structurat exclusiv pe baza fragmentelor selectate și generează un raport PDF cu trimiteri la surse.
+Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator și afișează fragmentele relevante găsite în arhiva locală. După verificarea fragmentelor și acțiunea unui utilizator autorizat, trimite dovezile către xAI pentru redactarea răspunsului structurat și generează un raport PDF cu trimiteri la surse.
 
 | 🧩 Componentă | Rol |
 |---|---|
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori E5 de 384 dimensiuni. |
 | **Index lexical** | Găsește termeni exacți prin SQLite FTS5 și ordonare BM25. |
 | **Fuziune RRF** | Combină clasamentele semantic și lexical prin Reciprocal Rank Fusion. |
-| **Retriever medical** | Prioritizează expresia exactă, documentele dedicate și atenționările. |
+| **Retriever medical** | Combină căutarea exactă, semantică și lexicală, apoi aplică pragul de relevanță și prioritățile medicale. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
 | **Livrare e-mail** | Poate trimite raportul prin Gmail API cu OAuth2, dacă este configurat. |
@@ -42,7 +42,9 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
         ↓
 ⚖️ fuziune RRF și prioritizarea dovezilor
         ↓
-🤖 un singur request structurat către xAI
+👁️ utilizatorul verifică fragmentele găsite
+        ↓
+🤖 utilizator autorizat: request structurat către xAI
         ↓
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
@@ -71,7 +73,8 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | Document | Ce explică |
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → fragmente → embeddings → FTS5 → publicarea atomică a indexului. |
-| 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → xAI → PDF → download și e-mail opțional. |
+| 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează rețeta” (owner) → xAI → PDF → download și trimitere pe e-mail către altă persoană. |
+| 🔎 [Căutarea, unirea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: interogări → rank hibrid RRF → procent de relevanță → filtrare → unirea vecinilor → limitarea contextului. |
 
 ## 📁 Structura proiectului
 
@@ -86,7 +89,11 @@ medicina-naturista/
 │   ├── build_hybrid_index.py     # construirea indexului
 │   ├── rebuild_index.ps1         # lansator PowerShell pentru rebuild
 │   ├── search_index.ps1          # căutare locală din terminal
-│   └── google_oauth_setup.py     # autorizare Gmail OAuth2
+│   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
+│   ├── extract_pdf_text.py       # extragerea textului din PDF
+│   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
+│   ├── text_to_markdown.py       # conversia textului în Markdown
+│   └── merge_book_pdfs.py        # combinarea părților de carte PDF
 ├── src/medicina_naturista/
 │   ├── ai/                       # căutare, retrieval, client xAI și prompturi
 │   ├── core/                     # modele și sesiuni izolate
@@ -178,7 +185,7 @@ MAX_CHARS     = 1400
 OVERLAP_CHARS = 240
 ```
 
-Titlurile Markdown sunt limite stricte de secțiune, diacriticele sunt păstrate prin normalizare Unicode NFC, iar blocurile prea mari sunt separate preferențial la final de propoziție, linie sau cuvânt.
+`TARGET_CHARS` este dimensiunea preferată, nu o limită strictă: unitățile complete pot depăși ținta până la `MAX_CHARS`. Titlurile Markdown sunt limite stricte de secțiune, diacriticele sunt păstrate prin normalizare Unicode NFC, iar conținutul prea mare este împărțit preferențial la granițe lizibile. Lista și tabelul rămân întregi când încap.
 
 ## 🐳 Rulare cu Docker Compose
 
@@ -212,13 +219,15 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 |---|---:|---|
 | `GROK_API_KEY_MED` | — | Cheia necesară pentru generarea raportului. |
 | `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
-| `XAI_REASONING_EFFORT` | `low` | Nivelul de reasoning solicitat. |
+| `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
+| `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
 | `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
 | `INDEX_DIR` | `data/hybrid_index` | Directorul indexului hibrid. |
+| `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `MIN_RELEVANCE_PERCENT` | `10` | Pragul minim de potrivire (0–100, procent din scorul maxim posibil); fragmentele sub prag nu sunt afișate și nu sunt trimise către AI. |
 | `MAX_CONTEXT_CHARS` | `2400000` | Dimensiunea maximă (în caractere, serializat JSON) a fragmentelor trimise către AI; fragmentele cu scor mai mic care nu încap sunt eliminate și nu apar în UI. |
-| `MERGE_MAX_PERCENT_DIFF` | `10` | Fragmentele vecine din același document se unesc doar dacă diferența dintre cel mai mare și cel mai mic scor procentual din grup este strict mai mică decât această valoare (puncte procentuale, 0–100; `0` dezactivează unirea). |
+| `MERGE_MAX_PERCENT_DIFF` | `9` | Fragmentele vecine din același document se unesc doar dacă diferența dintre cel mai mare și cel mai mic scor procentual din grup este strict mai mică decât această valoare (puncte procentuale, 0–100; `0` dezactivează unirea). |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
@@ -227,10 +236,15 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `LOG_LEVEL` | `INFO` | Nivelul minim al logurilor. |
 | `LOG_FRAGMENT_TEXT` | `true` | Include textul fragmentelor în loguri. |
 | `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
+| `LOG_AI_RESPONSE_TEXT` | `false` | Include textul răspunsului xAI în loguri. |
+| `LOG_AI_RESPONSE_TEXT_MAX_CHARS` | `8000` | Limita textului răspunsului xAI logat. |
+| `GRADIO_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice Gradio, necesar când aplicația este expusă prin Caddy sub `/medicina`. |
+| `GRADIO_TEMP_DIR` | gestionat de Gradio / `/tmp/gradio-cache` (Docker Compose) | Cache temporar Gradio; setat de aplicație la directorul temporar izolat. |
+| `TRUST_PROXY` | `false` (direct) / `true` (Docker Compose) | Folosește primul IP din `X-Forwarded-For` pentru limitarea cererilor când traficul vine prin proxy de încredere. |
 
 Creșterea limitelor de retrieval și evidence poate mări timpul de procesare și dimensiunea requestului trimis către xAI. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
 
-La pornirea directă, aplicația citește aceste valori din `.env`. În Docker, `docker-compose.yaml` transmite numai variabilele enumerate în secțiunea `environment`; pentru un override suplimentar, adăugați explicit variabila respectivă în acea secțiune.
+La pornirea directă, aplicația citește valorile din `.env`; valorile implicite diferă unde este indicat. Docker Compose transmite variabilele enumerate în secțiunea `environment`; `COOKIE_SECURE` este implicit `false` la pornire directă și `true` în Compose. `OWNER_KEY` este opțional, dar fără el generarea raportului este dezactivată; setați o cheie secretă și deschideți `/owner?key=<OWNER_KEY>` în browserul autorizat. `TRUST_PROXY` este activat în Compose deoarece Caddy se află în fața aplicației.
 
 ### ✉️ Gmail OAuth2 — opțional
 
