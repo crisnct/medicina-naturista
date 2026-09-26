@@ -217,6 +217,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `INDEX_DIR` | `data/hybrid_index` | Directorul indexului hibrid. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `MIN_RELEVANCE_PERCENT` | `10` | Pragul minim de potrivire (0–100, procent din scorul maxim posibil); fragmentele sub prag nu sunt afișate și nu sunt trimise către AI. |
+| `MAX_CONTEXT_CHARS` | `2400000` | Dimensiunea maximă (în caractere, serializat JSON) a fragmentelor trimise către AI; fragmentele cu scor mai mic care nu încap sunt eliminate și nu apar în UI. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
