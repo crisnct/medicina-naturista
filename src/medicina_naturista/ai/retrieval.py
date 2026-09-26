@@ -49,7 +49,6 @@ class Retriever:
     def __init__(self, index_dir: Path, documents_dir: Path) -> None:
         self.index_dir = index_dir.resolve()
         self.documents_dir = documents_dir.resolve()
-        self.search_candidates = settings.retrieval_candidates
         self.evidence_context_chars = settings.evidence_context_chars
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
@@ -59,10 +58,9 @@ class Retriever:
         finally:
             connection.close()
         logger.info(
-            "retriever_initialized index=%s candidates=%s "
+            "retriever_initialized index=%s "
             "context_chars=%s document_count=%s",
             self.index_dir,
-            self.search_candidates,
             self.evidence_context_chars,
             self.document_count,
         )
@@ -102,7 +100,7 @@ class Retriever:
             queries.insert(1, " ".join(sorted(topic_words)))
         search_queries: list[str] = []
         seen_queries: set[str] = set()
-        for query in queries + [f"{query} contraindicații interacțiuni atenționări" for query in queries]:
+        for query in queries:
             key = " ".join(query.split()).casefold()
             if key not in seen_queries:
                 seen_queries.add(key)
@@ -120,27 +118,26 @@ class Retriever:
         chunks: dict[int, dict[str, Any]] = {}
         found_by_lexical: dict[int, bool] = {}
         found_by_semantic: dict[int, bool] = {}
+        # Normalized source text per chunk, computed once and reused by every query
+        # (rank() returns every fragment of the index on each call).
+        plain_sources: dict[int, str] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
             word_set = _meaningful_words(search_query)
             accepted = 0
-            candidates = list(rank(
-                self.index_dir,
-                search_query,
-                candidates=self.search_candidates,
-            ))
+            candidates = rank(self.index_dir, search_query)
             total_candidates += len(candidates)
             for result in candidates:
-                source_text = " ".join([
-                    str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
-                ])
+                chunk_id = int(result["chunk_id"])
                 # Word-overlap guards against embedding drift, so it only applies
                 # to semantic-only hits. A lexical hit already contains the exact
                 # query phrase, so it is accepted without this check.
-                if not (result["found_by_lexical"] or any(
-                    word in _plain(source_text) for word in word_set
-                )):
-                    continue
-                chunk_id = int(result["chunk_id"])
+                if not result["found_by_lexical"]:
+                    if chunk_id not in plain_sources:
+                        plain_sources[chunk_id] = _plain(" ".join([
+                            str(result["source_relative_path"]), str(result["heading"]), str(result["text"])
+                        ]))
+                    if not any(word in plain_sources[chunk_id] for word in word_set):
+                        continue
                 score_sums[chunk_id] = score_sums.get(chunk_id, 0.0) + result["hybrid_score"]
                 chunks.setdefault(chunk_id, result)
                 found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]

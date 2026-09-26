@@ -215,7 +215,6 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `XAI_REASONING_EFFORT` | `low` | Nivelul de reasoning solicitat. |
 | `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
 | `INDEX_DIR` | `data/hybrid_index` | Directorul indexului hibrid. |
-| `RETRIEVAL_CANDIDATES` | `720` | Candidați semantici analizați pe interogare (potrivirile lexicale nu sunt limitate). |
 | `EVIDENCE_CONTEXT_CHARS` | `3000` | Limita de context pentru un fragment. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |

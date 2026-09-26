@@ -438,16 +438,7 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        # Pin generous retrieval parameters instead of relying on whatever
-        # RETRIEVAL_CANDIDATES happens to be set
-        # to in .env. Those are meant to stay freely tunable for the running
-        # app, so this test's correctness must not be coupled to them —
-        # otherwise a legitimate production tuning change makes this test
-        # flaky without any real regression in the retrieval logic. `settings`
-        # is a frozen dataclass, so the override is applied to the Retriever
-        # instance's own (plain, mutable) attributes instead.
         retriever = Retriever(settings.index_dir, settings.documents_dir)
-        retriever.search_candidates = 1500
         evidence = retriever.collect(session)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})

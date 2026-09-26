@@ -44,7 +44,6 @@ class Settings:
     session_max_seconds: int = _int("SESSION_MAX_SECONDS", 14400)
     max_chat_chars: int = _int("MAX_CHAT_CHARS", 4000)
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
-    retrieval_candidates: int = _int("RETRIEVAL_CANDIDATES", 720)
     evidence_context_chars: int = _int("EVIDENCE_CONTEXT_CHARS", 3000)
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)

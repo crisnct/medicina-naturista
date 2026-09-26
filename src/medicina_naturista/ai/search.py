@@ -95,7 +95,6 @@ def fts_query(text: str) -> str:
 def rank(
     index_dir: Path,
     query: str,
-    candidates: int,
 ) -> list[dict[str, object]]:
     manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
     dimension = int(manifest["embedding"]["dimension"])
@@ -108,10 +107,11 @@ def rank(
     query_vector = np.asarray(list(model.query_embed([f"query: {query}"]))[0], dtype=np.float32)
     query_vector /= np.linalg.norm(query_vector)
     semantic_scores = np.asarray(embeddings @ query_vector, dtype=np.float32)
-    semantic_count = min(candidates, len(semantic_scores))
-    semantic_ids = np.argpartition(semantic_scores, -semantic_count)[-semantic_count:]
-    semantic_ids = semantic_ids[np.argsort(semantic_scores[semantic_ids])[::-1]]
-    semantic_rank: dict[int, int] = {int(row) + 1: rank for rank, row in enumerate(semantic_ids, start=1)}
+    # Every fragment is ranked semantically (no top-N cut-off), so each one
+    # always carries a semantic rank: 1 = most similar, len(scores) = least.
+    semantic_order = np.argsort(-semantic_scores, kind="stable")
+    semantic_rank_by_row = np.empty(len(semantic_scores), dtype=np.int64)
+    semantic_rank_by_row[semantic_order] = np.arange(1, len(semantic_scores) + 1)
 
     connection = sqlite3.connect(index_dir / "index.sqlite3")
     connection.row_factory = sqlite3.Row
@@ -122,41 +122,30 @@ def rank(
             # Strict phrase match only — no fallback to individual words. If the
             # exact phrase (or, for comma-separated input, none of the exact
             # phrases) isn't found verbatim, this fragment contributes nothing
-            # to the lexical signal; semantic search is the only remaining path
-            # to surfacing it. Every matching fragment is kept (no LIMIT):
-            # `candidates` only bounds the semantic signal.
+            # to the lexical signal. Every matching fragment is kept (no LIMIT).
             rows = connection.execute(
                 "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts)",
                 (lexical,),
             ).fetchall()
             lexical_rank = {int(row["rowid"]): rank for rank, row in enumerate(rows, start=1)}
 
-        combined_ids = set(semantic_rank) | set(lexical_rank)
-        scores = {
-            chunk_id: (1.0 / (RRF_K + semantic_rank[chunk_id]) if chunk_id in semantic_rank else 0.0)
-            + (1.0 / (RRF_K + lexical_rank[chunk_id]) if chunk_id in lexical_rank else 0.0)
-            for chunk_id in combined_ids
-        }
-        best_ids = sorted(combined_ids, key=lambda item: scores[item], reverse=True)
-        if not best_ids:
-            return []
-        placeholders = ",".join("?" for _ in best_ids)
-        rows = connection.execute(
-            f"SELECT * FROM chunks WHERE chunk_id IN ({placeholders})", best_ids
-        ).fetchall()
-        by_id = {int(row["chunk_id"]): row for row in rows}
-
         results: list[dict[str, object]] = []
-        for chunk_id in best_ids:
-            row = by_id[chunk_id]
-            semantic_similarity = float(semantic_scores[int(row["embedding_row"])])
+        for row in connection.execute("SELECT * FROM chunks"):
+            chunk_id = int(row["chunk_id"])
+            embedding_row = int(row["embedding_row"])
+            semantic_rank = int(semantic_rank_by_row[embedding_row])
+            fragment_lexical_rank = lexical_rank.get(chunk_id)
+            score = 1.0 / (RRF_K + semantic_rank)
+            if fragment_lexical_rank is not None:
+                score += 1.0 / (RRF_K + fragment_lexical_rank)
             results.append({
                 "chunk_id": chunk_id,
-                "hybrid_score": scores[chunk_id],
-                "semantic_similarity": semantic_similarity,
-                "lexical_rank": lexical_rank.get(chunk_id),
-                "found_by_lexical": chunk_id in lexical_rank,
-                "found_by_semantic": chunk_id in semantic_rank,
+                "hybrid_score": score,
+                "semantic_similarity": float(semantic_scores[embedding_row]),
+                "lexical_rank": fragment_lexical_rank,
+                "found_by_lexical": fragment_lexical_rank is not None,
+                # Always True: the semantic ranking covers every fragment.
+                "found_by_semantic": True,
                 "source_relative_path": row["source_relative_path"],
                 "source_absolute_path": row["source_absolute_path"],
                 "line_start": row["line_start"],
@@ -165,6 +154,7 @@ def rank(
                 "text": row["text"],
                 "source_sha256": row["source_sha256"],
             })
+        results.sort(key=lambda item: item["hybrid_score"], reverse=True)
         return results
     finally:
         connection.close()
@@ -184,14 +174,9 @@ def main() -> None:
         default=Path(__file__).resolve().parents[3] / "data" / "hybrid_index",
     )
     parser.add_argument("--limit", type=int, default=10)
-    parser.add_argument("--candidates", type=int, default=100)
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-    results = rank(
-        args.index.resolve(),
-        args.query,
-        max(args.limit, args.candidates),
-    )[: max(1, args.limit)]
+    results = rank(args.index.resolve(), args.query)[: max(1, args.limit)]
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return
