@@ -5,6 +5,7 @@ import logging
 import re
 import sqlite3
 import unicodedata
+from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -20,6 +21,10 @@ GENERIC_QUERY_WORDS_PATH = (
 GENERIC_QUERY_WORDS = frozenset(
     GENERIC_QUERY_WORDS_PATH.read_text(encoding="utf-8").split()
 )
+
+# Fragments of the same file whose line ranges overlap or lie at most this many
+# lines apart are merged into a single evidence fragment.
+NEIGHBOR_LINE_GAP = 5
 
 # Normalize text for case-insensitive and diacritic-insensitive comparisons.
 def _plain(value: str) -> str:
@@ -49,7 +54,6 @@ class Retriever:
     def __init__(self, index_dir: Path, documents_dir: Path) -> None:
         self.index_dir = index_dir.resolve()
         self.documents_dir = documents_dir.resolve()
-        self.evidence_context_chars = settings.evidence_context_chars
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
         connection = sqlite3.connect(self.index_dir / "index.sqlite3")
@@ -58,10 +62,8 @@ class Retriever:
         finally:
             connection.close()
         logger.info(
-            "retriever_initialized index=%s "
-            "context_chars=%s document_count=%s",
+            "retriever_initialized index=%s document_count=%s",
             self.index_dir,
-            self.evidence_context_chars,
             self.document_count,
         )
 
@@ -85,6 +87,45 @@ class Retriever:
             except (OSError, ValueError):
                 context = text
         return f"Secțiune: {heading}\n\n{context}" if heading else context
+
+    # Text of a merged group: the source lines of its whole (united) line range,
+    # or the members' own texts in file order when the source file is unavailable.
+    def _group_context(self, group: dict[str, Any], chunks: dict[int, dict[str, Any]], heading: str) -> str:
+        path = (self.documents_dir / str(group["path"])).resolve()
+        context = ""
+        if path.is_relative_to(self.documents_dir) and path.is_file():
+            try:
+                lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+                context = "\n".join(lines[max(0, group["start"] - 1):group["end"]])
+            except OSError:
+                context = ""
+        if not context:
+            context = "\n\n".join(str(chunks[chunk_id]["text"]) for chunk_id in group["members"])
+        heading = heading.strip()
+        return f"Secțiune: {heading}\n\n{context}" if heading else context
+
+    # Group fragments of the same file whose line ranges overlap or are at most
+    # NEIGHBOR_LINE_GAP lines apart. Each group keeps its members' chunk ids
+    # (in file order) and the united line range.
+    @staticmethod
+    def _merge_adjacent(chunks: dict[int, dict[str, Any]]) -> list[dict[str, Any]]:
+        by_file: dict[str, list[int]] = defaultdict(list)
+        for chunk_id, result in chunks.items():
+            by_file[str(result["source_relative_path"])].append(chunk_id)
+        groups: list[dict[str, Any]] = []
+        for path, chunk_ids in by_file.items():
+            chunk_ids.sort(key=lambda item: (chunks[item]["line_start"], chunks[item]["line_end"]))
+            current: dict[str, Any] | None = None
+            for chunk_id in chunk_ids:
+                result = chunks[chunk_id]
+                start, end = int(result["line_start"]), int(result["line_end"])
+                if current is not None and start <= current["end"] + NEIGHBOR_LINE_GAP:
+                    current["members"].append(chunk_id)
+                    current["end"] = max(current["end"], end)
+                else:
+                    current = {"path": path, "start": start, "end": end, "members": [chunk_id]}
+                    groups.append(current)
+        return groups
 
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
     def collect(self, session: SessionData) -> dict[str, dict[str, Any]]:
@@ -155,18 +196,33 @@ class Retriever:
         # chunk contributes 0, so the ceiling stays RRF_MAX_SCORE (top-ranked by
         # both signals in every query) and a chunk found by more queries scores
         # higher. This is the single relevance value for the whole evidence set.
+        #
+        # Neighbouring fragments of the same file are then merged into one evidence
+        # fragment. The merged fragment takes the id, heading and score of its
+        # best-scored member (the maximum, so a document split into many pieces
+        # does not outrank a single strong one) and is found_by_lexical if any
+        # member is.
         evidence: dict[str, dict[str, Any]] = {}
-        for chunk_id in sorted(score_sums, key=score_sums.__getitem__, reverse=True):
-            result = chunks[chunk_id]
-            evidence[f"C{chunk_id}"] = {
-                "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
-                "text": self._context(result)[: self.evidence_context_chars],
+        merged: list[tuple[float, int, dict[str, Any]]] = []
+        for group in self._merge_adjacent(chunks):
+            best_id = max(group["members"], key=score_sums.__getitem__)
+            merged.append((score_sums[best_id], best_id, group))
+        merged.sort(key=lambda item: item[0], reverse=True)
+        for best_sum, best_id, group in merged:
+            best = chunks[best_id]
+            if len(group["members"]) == 1:
+                text = self._context(best)
+            else:
+                text = self._group_context(group, chunks, str(best.get("heading") or ""))
+            evidence[f"C{best_id}"] = {
+                "source": f"documents/{group['path']}:{group['start']}-{group['end']}",
+                "text": text,
                 # Every consumer (the UI panel, the AI-context budget trimming)
                 # reads this field directly and formats/orders from it.
-                "score": score_sums[chunk_id] / len(search_queries),
-                # Whether any query matched this fragment's exact phrase, for the UI.
+                "score": best_sum / len(search_queries),
+                # Whether any query matched a member's exact phrase, for the UI.
                 # A future selective signal adds its own "found_by_<signal>" flag here.
-                "found_by_lexical": found_by_lexical[chunk_id],
+                "found_by_lexical": any(found_by_lexical[chunk_id] for chunk_id in group["members"]),
             }
 
         logger.info(

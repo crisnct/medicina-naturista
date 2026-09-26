@@ -468,6 +468,48 @@ class WebTests(unittest.TestCase):
             for item in evidence.values()
         ))
 
+    # Verify neighbouring fragments of one file (overlapping or at most 5 lines
+    # apart) are grouped, while distant fragments and other files stay separate.
+    def test_merge_adjacent_groups_neighbours_within_line_gap(self):
+        def chunk(path, start, end):
+            return {"source_relative_path": path, "line_start": start, "line_end": end, "text": "t"}
+
+        chunks = {
+            1: chunk("a.md", 1, 10),
+            2: chunk("a.md", 8, 20),    # overlaps 1
+            3: chunk("a.md", 25, 30),   # 5 lines after 2 -> still merged
+            4: chunk("a.md", 36, 40),   # 6 lines after 3 -> new group
+            5: chunk("b.md", 1, 10),    # other file -> own group
+        }
+
+        groups = Retriever._merge_adjacent(chunks)
+        by_members = {tuple(group["members"]): group for group in groups}
+
+        self.assertEqual(set(by_members), {(1, 2, 3), (4,), (5,)})
+        merged = by_members[(1, 2, 3)]
+        self.assertEqual((merged["path"], merged["start"], merged["end"]), ("a.md", 1, 30))
+
+    # Verify a merged group reads its whole united line range from the source
+    # file, and falls back to the members' texts when the file is missing.
+    def test_group_context_reads_united_range_or_falls_back_to_member_texts(self):
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        chunks = {
+            1: {"text": "primul"},
+            2: {"text": "al doilea"},
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            retriever.documents_dir = Path(directory).resolve()
+            (retriever.documents_dir / "doc.md").write_text(
+                "\n".join(f"linia {number}" for number in range(1, 11)), encoding="utf-8"
+            )
+            group = {"path": "doc.md", "start": 3, "end": 6, "members": [1, 2]}
+
+            text = retriever._group_context(group, chunks, "Titlu")
+            self.assertEqual(text, "Sec\u021biune: Titlu\n\nlinia 3\nlinia 4\nlinia 5\nlinia 6")
+
+            missing = {"path": "lipsa.md", "start": 1, "end": 2, "members": [1, 2]}
+            self.assertEqual(retriever._group_context(missing, chunks, ""), "primul\n\nal doilea")
+
     # Verify long evidence sent to the AI retains its semantic section heading.
     def test_retrieval_context_prefixes_heading_for_long_chunks(self):
         retriever = object.__new__(Retriever)
