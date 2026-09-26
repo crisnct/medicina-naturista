@@ -100,19 +100,29 @@ class Retriever:
         if topic_words:
             queries.insert(0, topic_text.strip())
             queries.insert(1, " ".join(sorted(topic_words)))
-        search_queries = queries + [f"{query} contraindicații interacțiuni atenționări" for query in queries]
+        search_queries: list[str] = []
+        seen_queries: set[str] = set()
+        for query in queries + [f"{query} contraindicații interacțiuni atenționări" for query in queries]:
+            key = " ".join(query.split()).casefold()
+            if key not in seen_queries:
+                seen_queries.add(key)
+                search_queries.append(query)
         logger.info(
             "retrieval_started base_queries=%s search_queries=%s topic_words=%s",
             len(queries),
             len(search_queries),
             len(topic_words),
         )
-        batches: list[list[dict[str, Any]]] = []
         total_candidates = 0
         total_accepted = 0
+        # Per chunk: the sum of its hybrid_score over every query that accepted it.
+        score_sums: dict[int, float] = {}
+        chunks: dict[int, dict[str, Any]] = {}
+        found_by_lexical: dict[int, bool] = {}
+        found_by_semantic: dict[int, bool] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
             word_set = _meaningful_words(search_query)
-            accepted: list[dict[str, Any]] = []
+            accepted = 0
             candidates = list(rank(
                 self.index_dir,
                 search_query,
@@ -126,63 +136,51 @@ class Retriever:
                 # Word-overlap guards against embedding drift, so it only applies
                 # to semantic-only hits. A lexical hit already contains the exact
                 # query phrase, so it is accepted without this check.
-                if result["found_by_lexical"] or any(
+                if not (result["found_by_lexical"] or any(
                     word in _plain(source_text) for word in word_set
-                ):
-                    accepted.append(result)
-            if accepted:
-                batches.append(accepted)
-            total_accepted += len(accepted)
+                )):
+                    continue
+                chunk_id = int(result["chunk_id"])
+                score_sums[chunk_id] = score_sums.get(chunk_id, 0.0) + result["hybrid_score"]
+                chunks.setdefault(chunk_id, result)
+                found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]
+                found_by_semantic[chunk_id] = found_by_semantic.get(chunk_id, False) or result["found_by_semantic"]
+                accepted += 1
+            total_accepted += accepted
             logger.info(
                 "retrieval_query_completed number=%s candidates=%s accepted=%s",
                 query_number,
                 len(candidates),
-                len(accepted),
+                accepted,
             )
 
-        # Every accepted chunk (including exact-phrase matches on the topic, which
-        # now surface here too via the phrase-based lexical query) carries its
-        # hybrid_score from rank(): a single, consistent relevance measure for the
-        # whole evidence set, with no separate scoring path or label.
+        # Multi-query RRF: a chunk's score is the sum of its per-query hybrid_score
+        # (which itself fuses the semantic and lexical ranks, see ai/search.py)
+        # divided by the number of queries run. A query that did not accept the
+        # chunk contributes 0, so the ceiling stays RRF_MAX_SCORE (top-ranked by
+        # both signals in every query) and a chunk found by more queries scores
+        # higher. This is the single relevance value for the whole evidence set.
         evidence: dict[str, dict[str, Any]] = {}
-        positions = [0] * len(batches)
-        while True:
-            progressed = False
-            for batch_number, results in enumerate(batches):
-                while positions[batch_number] < len(results):
-                    result = results[positions[batch_number]]
-                    positions[batch_number] += 1
-                    token = f"C{result['chunk_id']}"
-                    if token in evidence:
-                        continue
-                    evidence[token] = {
-                        "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
-                        "text": self._context(result)[: self.evidence_context_chars],
-                        # Raw hybrid_score from rank() — the single relevance
-                        # value for this fragment. Every consumer (the UI
-                        # panel, the AI-context budget trimming) reads this
-                        # field directly and formats/orders from it; nothing
-                        # keeps a separate pre-formatted copy that could drift.
-                        "score": result["hybrid_score"],
-                        # Independent per-signal flags straight from rank(),
-                        # for the UI to show alongside the score. A future
-                        # signal adds its own "found_by_<signal>" flag here
-                        # without touching these two.
-                        "found_by_lexical": result["found_by_lexical"],
-                        "found_by_semantic": result["found_by_semantic"],
-                    }
-                    progressed = True
-                    break
-            if not progressed:
-                break
+        for chunk_id in sorted(score_sums, key=score_sums.__getitem__, reverse=True):
+            result = chunks[chunk_id]
+            evidence[f"C{chunk_id}"] = {
+                "source": f"documents/{result['source_relative_path']}:{result['line_start']}-{result['line_end']}",
+                "text": self._context(result)[: self.evidence_context_chars],
+                # Every consumer (the UI panel, the AI-context budget trimming)
+                # reads this field directly and formats/orders from it.
+                "score": score_sums[chunk_id] / len(search_queries),
+                # Independent per-signal flags, OR-ed across queries, for the UI.
+                # A future signal adds its own "found_by_<signal>" flag here.
+                "found_by_lexical": found_by_lexical[chunk_id],
+                "found_by_semantic": found_by_semantic[chunk_id],
+            }
 
         logger.info(
             "retrieval_completed queries=%s search_candidates=%s search_accepted=%s "
-            "batches=%s evidence_entries=%s evidence_chars=%s unique_sources=%s",
+            "evidence_entries=%s evidence_chars=%s unique_sources=%s",
             len(search_queries),
             total_candidates,
             total_accepted,
-            len(batches),
             len(evidence),
             sum(len(item["text"]) for item in evidence.values()),
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),
