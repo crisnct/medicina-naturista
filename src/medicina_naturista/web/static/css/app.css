@@ -399,8 +399,6 @@ body,
    first fragment. */
 .fragments-panel-list {
     padding: 0 18px 16px;
-    max-height: 832px;
-    overflow-y: auto;
     overflow-x: hidden;
 }
 
