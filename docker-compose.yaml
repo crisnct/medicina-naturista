@@ -39,6 +39,7 @@ services:
       LOG_AI_RESPONSE_TEXT_MAX_CHARS: ${LOG_AI_RESPONSE_TEXT_MAX_CHARS:-8000}
       COOKIE_SECURE: ${COOKIE_SECURE:-true}
       TRUST_PROXY: "true"
+      OWNER_KEY: ${OWNER_KEY:-}
     volumes:
       - type: bind
         source: ./data/documents

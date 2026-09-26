@@ -736,7 +736,7 @@ class WebTests(unittest.TestCase):
             main.on_load(req_b)
 
             _, history, link, fragments_html, generate_update = main.on_message("Gripă și răceală", req_a)
-            self.assertIn("Caut în cele", history[-1]["content"])
+            self.assertIn("Caut rapid în cele", history[-1]["content"])
             self.assertEqual(link, "")
             self.assertEqual(fragments_html, "")
             self.assertEqual(generate_update, main.gr.update(visible=False))
@@ -747,7 +747,7 @@ class WebTests(unittest.TestCase):
             # The "found N fragments" summary now lives inside the fragments
             # panel itself, not as a separate chat bubble — chat history is
             # unchanged by on_find_fragments on the success path.
-            self.assertIn("Caut în cele", history[-1]["content"])
+            self.assertIn("Caut rapid în cele", history[-1]["content"])
             self.assertNotIn("Fragmentele relevante", fragments_html)
             self.assertIn("Am găsit", fragments_html)
             self.assertIn("1 fragmente", fragments_html)
