@@ -10,6 +10,7 @@ import os
 import platform
 import re
 import sqlite3
+import subprocess
 import sys
 import tempfile
 import time
@@ -39,6 +40,7 @@ PROGRESS_INTERVAL_SECONDS = 10.0
 INDEX_DIRECTORY_NAME = "hybrid_index"
 # Traceable JSON Lines export of the fragments represented by the index.
 FRAGMENTS_FILE_NAME = "fragments.jsonl"
+INDEX_FILE_NAMES = (FRAGMENTS_FILE_NAME, "embeddings.npy", "index.sqlite3", "manifest.json", "source_manifest.jsonl", "SHA256SUMS.txt")
 
 @dataclass(frozen=True)
 class SourceFile:
@@ -450,8 +452,34 @@ def embed_chunks(
     return embeddings
 
 
+# Fail fast if another program (editor, IDE, ...) holds existing index files, since Windows then refuses to replace them.
+def ensure_index_files_replaceable(index_dir: Path) -> None:
+    locked: list[str] = []
+    for name in INDEX_FILE_NAMES:
+        path = index_dir / name
+        if not path.exists():
+            continue
+        probe = path.with_name(path.name + ".lockcheck")
+        try:
+            os.replace(path, probe)
+            os.replace(probe, path)
+        except OSError:
+            locked.append(name)
+    if locked:
+        raise PermissionError(
+            f"Index files are in use by another program: {', '.join(locked)}. "
+            "Close them in your editor/IDE (and stop anything reading them), then run the build again."
+        )
+
+
 # Build embeddings, searchable metadata, checksums, and manifests atomically.
-def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
+def build(
+    source: Path,
+    output: Path,
+    model_name: str,
+    batch_size: int,
+    before_publish: Callable[[], None] | None = None,
+) -> None:
     source = source.resolve()
     output = output.resolve()
     if not source.is_dir():
@@ -462,6 +490,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
     output.mkdir(parents=True, exist_ok=True)
     index_dir = output / INDEX_DIRECTORY_NAME
     index_dir.mkdir(parents=True, exist_ok=True)
+    ensure_index_files_replaceable(index_dir)
     cache_dir = output / "model_cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
     started_at = utc_now()
@@ -552,6 +581,7 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
     }
 
     staging = Path(tempfile.mkdtemp(prefix="index-build-", dir=index_dir))
+    published = False
     try:
         np.save(staging / "embeddings.npy", embeddings, allow_pickle=False)
         write_jsonl(staging / FRAGMENTS_FILE_NAME, chunks)
@@ -611,13 +641,23 @@ def build(source: Path, output: Path, model_name: str, batch_size: int) -> None:
         checksum_lines = [f"{sha256_file(staging / name)}  {name}" for name in core_names]
         (staging / "SHA256SUMS.txt").write_text("\n".join(checksum_lines) + "\n", encoding="ascii")
 
-        for name in core_names + ["SHA256SUMS.txt"]:
-            os.replace(staging / name, index_dir / name)
-    finally:
+        if before_publish is not None:
+            before_publish()
         try:
-            staging.rmdir()
-        except OSError:
-            pass
+            for name in core_names + ["SHA256SUMS.txt"]:
+                os.replace(staging / name, index_dir / name)
+        except OSError as exc:
+            raise RuntimeError(
+                f"Could not publish the new index ({exc}). It is complete in {staging}; "
+                "close whatever holds the files and move them into the index directory manually."
+            ) from exc
+        published = True
+    finally:
+        if published:
+            try:
+                staging.rmdir()
+            except OSError:
+                pass
 
     print(json.dumps({
         "status": "ok",
@@ -637,13 +677,31 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--batch-size", type=int, default=64)
+    parser.add_argument("--skip-docker", action="store_true", help="Do not stop/start the docker compose stack")
     return parser.parse_args()
+
+
+# Run a docker compose command from the project root; fail loudly if it does not succeed.
+def docker_compose(*compose_args: str) -> None:
+    project_root = Path(__file__).resolve().parents[1]
+    command = ["docker", "compose", *compose_args]
+    print(f"Running: {' '.join(command)}", flush=True)
+    subprocess.run(command, cwd=project_root, check=True)
 
 
 if __name__ == "__main__":
     arguments = parse_args()
     try:
-        build(arguments.source, arguments.output, arguments.model, arguments.batch_size)
+        # The app stays online during the long embedding step and is stopped only while the new files are swapped in.
+        build(
+            arguments.source,
+            arguments.output,
+            arguments.model,
+            arguments.batch_size,
+            before_publish=None if arguments.skip_docker else lambda: docker_compose("down"),
+        )
+        if not arguments.skip_docker:
+            docker_compose("up", "-d", "--build")
     except Exception as exc:
         print(f"ERROR: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
         raise

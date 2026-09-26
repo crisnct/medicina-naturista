@@ -131,4 +131,4 @@ data/hybrid_index/
 └── SHA256SUMS.txt
 ```
 
-Acest document completează diagrama tehnică detaliată din `01-generare-embeddings.md` și explică fluxul fără sintaxă Mermaid sau complexitatea unei diagrame de secvență.
+Indexul este consumat la rulare de `src/medicina_naturista/ai/search.py` (`rank()`) și `ai/retrieval.py`; vezi [fluxul de generare a raportului final](final-report-generation.md).
