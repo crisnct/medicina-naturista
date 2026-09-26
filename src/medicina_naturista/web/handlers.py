@@ -8,7 +8,6 @@ from urllib.parse import quote
 
 import gradio as gr
 
-from medicina_naturista.ai.search import RRF_MAX_SCORE
 from medicina_naturista.core.models import SessionData
 from medicina_naturista.reporting.pdf import (
     bibliography_label,
@@ -87,21 +86,6 @@ def _normalize_text(text: str) -> str:
     return " ".join(text.split())
 
 
-# Map a raw score to an integer percentage of the best score in the displayed
-# list (patient-facing display only — ordering and the AI-context budget trimming
-# in ai/client.py keep using the raw float). The best fragment is 100%; measuring
-# against the theoretical ceiling RRF_MAX_SCORE instead would cap a fragment found
-# by a single signal or query at ~50% even when it is the top result. `top_score`
-# defaults to that ceiling. Scores are clamped first: a fragment that never got a
-# score defaults to -inf (see below), which would otherwise interpolate to a large
-# negative percentage.
-def _relevance_percent(score: float, top_score: float = RRF_MAX_SCORE) -> int:
-    if top_score <= 0:
-        return 0
-    clamped = max(0.0, min(score, top_score))
-    return round(clamped / top_score * 100)
-
-
 # Romanian label for a fragment's provenance, built from the found_by_<signal>
 # booleans set by ai/search.py's rank() (propagated via Retriever.collect()).
 # Shown next to the relevance score so the patient can see when a result was an
@@ -129,10 +113,9 @@ def _match_type_label(item: dict) -> str:
 # Ordering: every fragment carries the same "score" field — its raw
 # hybrid_score from rank(), written by Retriever.collect() — so the whole
 # list is sorted purely by that value, descending, regardless of which
-# document or query produced it. The percentage shown to the patient is
-# that raw value relative to the best fragment's, computed at render time (see
-# _relevance_percent), so the UI never displays a number that could drift
-# from what was actually used to rank and select fragments.
+# document or query produced it. The percentage shown to the patient is the
+# "relevance_percent" computed by Retriever.collect() (the same value it used to
+# drop fragments below MIN_RELEVANCE_PERCENT); the UI does not compute it.
 #
 # The title and "found N fragments" banner sit in their own header, kept
 # pinned above the scrollable fragment list (see .fragments-panel-header in
@@ -144,14 +127,20 @@ def _match_type_label(item: dict) -> str:
 def _fragments_panel_html(evidence: dict) -> str:
     if not evidence:
         return ""
-    entries: list[tuple[str, str, float, str]] = []  # (document, text, score, match_label)
+    # (document, text, score, relevance_percent, match_label)
+    entries: list[tuple[str, str, float, float | None, str]] = []
     all_documents: set[str] = set()
     for item in evidence.values():
         document = item["source"].split(":", 1)[0].removeprefix("documents/")
         all_documents.add(document)
-        entries.append((document, item["text"], item.get("score", float("-inf")), _match_type_label(item)))
+        entries.append((
+            document,
+            item["text"],
+            item.get("score", float("-inf")),
+            item.get("relevance_percent"),
+            _match_type_label(item),
+        ))
     entries.sort(key=lambda entry: entry[2], reverse=True)
-    top_score = entries[0][2]
 
     parts = ['<details class="fragments-panel-inner">']
     parts.append(
@@ -161,9 +150,10 @@ def _fragments_panel_html(evidence: dict) -> str:
         "</summary>"
     )
     parts.append('<div class="fragments-panel-list">')
-    for document, text, score, match_label in entries:
-        relevance = f"Scor relevanță: {_relevance_percent(score, top_score)}%"
-        line_parts = [relevance]
+    for document, text, _score, relevance_percent, match_label in entries:
+        line_parts = []
+        if relevance_percent is not None:
+            line_parts.append(f"Scor relevanță: {round(relevance_percent)}%")
         if match_label:
             line_parts.append(match_label)
         line_parts.append(document)
