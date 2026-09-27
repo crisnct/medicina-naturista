@@ -69,6 +69,27 @@ class HealthProfile:
         }
 
 
+MAX_KEPT_SEARCHES = 12
+MAX_KEPT_REPORTS = 12
+
+
+@dataclass
+class PendingSearch:
+    """Fragments found for one health problem, waiting for "Generează rețeta"."""
+
+    profile: dict[str, Any]
+    evidence: dict[str, dict[str, str]]
+
+
+@dataclass
+class StoredReport:
+    """A generated PDF kept so its download link stays valid while the chat continues."""
+
+    data: bytes
+    filename: str
+    health_problem: str
+
+
 @dataclass
 class SessionData:
     """Ephemeral state isolated to one browser tab."""
@@ -85,7 +106,12 @@ class SessionData:
     # Evidence found by the retrieval-only stage, shown to the patient before
     # they choose to send it to the AI. Consumed (not recomputed) by report
     # generation, so the fragments the patient reviewed are exactly the ones sent.
-    pending_evidence: dict[str, dict[str, str]] | None = None
+    # One entry per search shown in the chat, keyed by the id carried by its
+    # "Generează rețeta" section, so several searches can wait at the same time.
+    searches: dict[str, PendingSearch] = field(default_factory=dict)
+    # Every generated PDF, keyed by report id; report_bytes/report_id above
+    # always point at the latest one (used when the patient asks for it by email).
+    reports: dict[str, StoredReport] = field(default_factory=dict)
     # Set when the last chat message was an email address for the finished
     # report, so the chained retrieval step does not treat it as a health problem.
     email_request_handled: bool = False
@@ -96,6 +122,21 @@ class SessionData:
         self.last_seen = time.monotonic()
 
     def clear_report(self) -> None:
-        """Discard the generated report and download identifier."""
+        """Discard every generated report and download identifier."""
         self.report_bytes = None
         self.report_id = None
+        self.reports.clear()
+
+    def add_search(self, search_id: str, search: PendingSearch) -> None:
+        """Remember a search's fragments, dropping the oldest beyond the cap."""
+        self.searches[search_id] = search
+        while len(self.searches) > MAX_KEPT_SEARCHES:
+            self.searches.pop(next(iter(self.searches)))
+
+    def add_report(self, report_id: str, report: StoredReport) -> None:
+        """Store a generated PDF and make it the latest one."""
+        self.reports[report_id] = report
+        self.report_id = report_id
+        self.report_bytes = report.data
+        while len(self.reports) > MAX_KEPT_REPORTS:
+            self.reports.pop(next(iter(self.reports)))

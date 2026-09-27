@@ -27,43 +27,54 @@ def ready_button_update():
 
 
 GENERATE_LABEL = "💊 Generează rețeta"
+GENERATE_BUSY_LABEL = "⏳ Se generează rețeta..."
 
 
-# Show the panel holding "Generează rețeta" once fragments were found.
-def generate_row_visible_update():
-    return gr.update(visible=True)
+# Build the "Generează rețeta" section posted in the chat after a search. The
+# search id travels in a "gen-<id>" class (Gradio's sanitizer strips data-*
+# attributes); a small script in app.js forwards a click on the button to the
+# hidden Gradio button that runs the generation for that search.
+def _generate_panel_html(search_id: str, busy: bool = False) -> str:
+    attrs = ' disabled aria-disabled="true"' if busy else ""
+    label = GENERATE_BUSY_LABEL if busy else GENERATE_LABEL
+    return (
+        f'<section class="generate-recipe-panel gen-{search_id}">'
+        '<div class="generate-recipe-copy"><strong>Trimite-le la AI pentru a le combina și generează apoi '
+        'documentul cu recomandări</strong></div>'
+        f'<button type="button" class="generate-inline gen-{search_id}"{attrs}>{label}</button>'
+        '</section>'
+    )
 
 
-# Hide the "Generează rețeta" panel (no fragments, or a report was just generated).
-def generate_row_hidden_update():
-    return gr.update(visible=False)
+# Swap (or, with html=None, remove) the chat message holding one search's
+# "Generează rețeta" section, leaving every other message untouched.
+def _set_generate_panel(session: SessionData, search_id: str, new_html: str | None) -> None:
+    marker = f'class="generate-recipe-panel gen-{search_id}"'
+    for index, message in enumerate(session.history):
+        if marker in message["content"]:
+            if new_html is None:
+                del session.history[index]
+            else:
+                session.history[index] = {"role": "assistant", "content": new_html}
+            return
 
-
-# Reset the button label/state to its clickable default (fragments ready, or
-# a previous attempt failed and the patient may retry without losing them).
-def generate_button_ready_update():
-    return gr.update(value=GENERATE_LABEL, interactive=True)
-
-
-# Disable the "Generează rețeta" button while the AI request is in flight.
-def generate_button_processing_update():
-    return gr.update(value="⏳ Se generează rețeta...", interactive=False)
 
 # Convert the health problem into a safe downloadable PDF filename.
-def _report_filename(session: SessionData) -> str:
-    title = report_title(session.profile.as_dict())
+def _report_filename(session: SessionData, profile: dict | None = None) -> str:
+    title = report_title(profile if profile is not None else session.profile.as_dict())
     safe = re.sub(r'[\x00-\x1f<>:"/\\|?*]', "-", title)
     safe = re.sub(r"\s+", " ", safe).strip(" .")
     return f"{safe or 'Recomandări naturiste'}.pdf"
 
 
 # Build the session-scoped HTML link for downloading the generated PDF.
-def _download_html(session: SessionData) -> str:
-    if not session.report_id:
+def _download_html(session: SessionData, report_id: str | None = None, profile: dict | None = None) -> str:
+    report_id = report_id or session.report_id
+    if not report_id:
         return ""
     prefix = os.getenv("GRADIO_ROOT_PATH", "").rstrip("/")
-    url = f"{prefix}/api/reports/{quote(session.tab_id, safe='')}/{quote(session.report_id, safe='')}"
-    filename = _report_filename(session)
+    url = f"{prefix}/api/reports/{quote(session.tab_id, safe='')}/{quote(report_id, safe='')}"
+    filename = _report_filename(session, profile)
     return (
         '<section class="report-ready-panel" role="status" aria-live="polite">'
         '<div class="report-ready-copy">'

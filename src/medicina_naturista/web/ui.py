@@ -41,15 +41,15 @@ THEME = gr.themes.Soft(font=["Arial", "sans-serif"])
 
 HERO_HTML = """
 <section id="hero-panel" aria-labelledby="hero-title">
-    <img class="hero-doctor" src="__DOCTOR_DATA_URI__" alt="Dr. Cuișor">
     <div class="hero-kicker"><span aria-hidden="true">🌿</span> Ghid naturist bazat pe surse locale</div>
+    <img class="hero-doctor" src="__DOCTOR_DATA_URI__" alt="Dr. Cuișor">
     <div class="hero-title-block">
         <h1 id="hero-title">Remedii Naturiste</h1>
         <p class="hero-byline">de la Dr. Cuișor</p>
+        <p class="hero-description">
+            Descrieți problema cu care vă confruntați și primiți un raport informativ, clar și ușor de consultat. Informațiile sunt orientative și nu înlocuiesc consultul sau îngrijirea medicală.
+        </p>
     </div>
-    <p class="hero-description">
-        Descrieți problema cu care vă confruntați și primiți un raport informativ, clar și ușor de consultat. Informațiile sunt orientative și nu înlocuiesc consultul sau îngrijirea medicală.
-    </p>
 </section>
 """
 HERO_HTML = HERO_HTML.replace("__DOCTOR_DATA_URI__", _webp_data_uri(DOCTOR_IMAGE_PATH))
