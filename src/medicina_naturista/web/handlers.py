@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import html
+import json
 import os
 import re
 from urllib.parse import quote
@@ -16,6 +17,24 @@ from medicina_naturista.reporting.pdf import (
     report_title,
     sort_sections_by_relevance,
 )
+
+
+# Parse the JSON array category_filter.js writes into the hidden
+# #category-selection textbox (the checked real category ids) into a plain
+# set. Never raises: malformed, missing, or non-list/non-string input is
+# treated the same as no selection at all — "every category" — since that is
+# always a safe fallback, never a silent narrowing of the search.
+def _parse_category_selection(raw: str) -> set[str]:
+    try:
+        parsed = json.loads(raw or "[]")
+    except (TypeError, ValueError):
+        return set()
+    if not isinstance(parsed, list):
+        return set()
+    # "" is itself a valid category id (documents placed directly in the
+    # source root, see ROOT_CATEGORY_ID in build_hybrid_index.py), so it is
+    # not filtered out here — only non-string entries are.
+    return {item for item in parsed if isinstance(item, str)}
 
 
 def processing_button_update():

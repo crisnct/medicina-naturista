@@ -43,6 +43,7 @@ from medicina_naturista.web.handlers import (
     _download_html,
     _fragments_panel_html,
     _generate_panel_html,
+    _parse_category_selection,
     _recommendation_text,
     _report_filename,
     _set_generate_panel,
@@ -53,11 +54,13 @@ from medicina_naturista.web.ui import (
     APP_CSS,
     ASSISTANT_HEADER_HTML,
     AUTO_SCROLL_JS,
+    CATEGORY_FILTER_JS,
     COLLAPSE_FRAGMENTS_JS,
     COMPOSER_STATE_JS,
     HERO_HTML,
     MESSAGE_HELPER_HTML,
     THEME,
+    category_filter_panel_html,
 )
 
 logger = logging.getLogger("naturist.web")
@@ -73,6 +76,12 @@ OWNER_ONLY_MESSAGE = "Generarea rețetei nu este disponibilă momentan pentru ac
 WELCOME = "Bună ziua! 👋"
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
+# Static starting markup for the "Filtrează sursele" panel, built once from
+# the category tree Retriever loaded (None on an index built before category
+# support existed — the panel then shows an explanatory notice instead).
+# Rebuilding the index regenerates categories.json; picking it up here only
+# takes restarting the application, same as the rest of the loaded index.
+CATEGORY_FILTER_HTML = category_filter_panel_html(retriever.category_tree)
 EMAIL_OFFER = (
     "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
 )
@@ -289,7 +298,13 @@ def on_load(request: gr.Request):
 
 # Store a user message and start a new health-problem context. Earlier searches,
 # their "Generează rețeta" sections and their PDFs stay available in the chat.
-def on_message(message: str, request: gr.Request):
+# categories_json is the JSON array category_filter.js keeps in the hidden
+# #category-selection field (see _parse_category_selection); it is read here,
+# once per message, and stored on the session so the retrieval step chained
+# after this one (on_find_fragments) applies exactly what was selected when
+# the patient hit send — a later change to the panel does not retroactively
+# affect a search already in flight.
+def on_message(message: str, request: gr.Request, categories_json: str = "[]"):
     session = _current(request)
     message = (message or "").strip()
     if not message:
@@ -306,13 +321,16 @@ def on_message(message: str, request: gr.Request):
         previous_health_problem = session.profile.health_problem
         _append(session, "user", message)
         session.profile.replace_health_problem(message)
+        session.selected_categories = _parse_category_selection(categories_json)
         _append(session, "assistant", REPORT_STARTED)
         logger.info(
-            "user_message_accepted tab_id=%s chars=%s replaced_health_problem=%s health_context_entries=%s",
+            "user_message_accepted tab_id=%s chars=%s replaced_health_problem=%s health_context_entries=%s "
+            "selected_categories=%s",
             session.tab_id,
             len(message),
             bool(previous_health_problem),
             len(session.profile.health_context),
+            len(session.selected_categories),
         )
         return "", list(session.history)
 
@@ -495,6 +513,20 @@ with gr.Blocks(
             # sets the target search id here and clicks the hidden button (see app.js).
             generate_target = gr.Textbox(elem_id="generate-target", elem_classes=["hidden-control"], show_label=False)
             generate_button = gr.Button("Generează rețeta", elem_id="generate-recipe", elem_classes=["hidden-control"])
+            # The checked real category ids, kept in sync by category_filter.js
+            # (see static/js/category_filter.js); read once per sent message by
+            # on_message (see _parse_category_selection). Empty ("[]") means
+            # every category — the panel's unopened default.
+            category_selection = gr.Textbox(
+                value="[]", elem_id="category-selection", elem_classes=["hidden-control"], show_label=False
+            )
+            # elem_id lands on Gradio's own wrapper (a direct flex child of this
+            # Column, unlike anything inside CATEGORY_FILTER_HTML) — the same
+            # pattern MESSAGE_HELPER_HTML/"message-helper" below uses, so the
+            # panel's width/alignment CSS rule (#category-filter-panel in
+            # app.css) actually applies. category_filter.js's panel() lookup
+            # targets this same id.
+            gr.HTML(CATEGORY_FILTER_HTML, elem_id="category-filter-panel")
             gr.HTML(MESSAGE_HELPER_HTML, elem_id="message-helper")
             with gr.Row(elem_id="message-row"):
                 message = gr.Textbox(
@@ -522,16 +554,17 @@ with gr.Blocks(
     load_event = demo.load(on_load, outputs=[chatbot], queue=False)
     send_event = send.click(
         on_message,
-        inputs=[message],
+        inputs=[message, category_selection],
         outputs=[message, chatbot],
         queue=False,
     )
     submit_event = message.submit(
         on_message,
-        inputs=[message],
+        inputs=[message, category_selection],
         outputs=[message, chatbot],
         queue=False,
     )
+    load_event.then(fn=None, js=CATEGORY_FILTER_JS, queue=False)
     load_event.then(fn=None, js=AUTO_SCROLL_JS, queue=False)
     for event in (send_event, submit_event):
         notice_event = event.then(fn=None, js=COLLAPSE_FRAGMENTS_JS, queue=False).then(

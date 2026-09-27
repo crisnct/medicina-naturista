@@ -40,7 +40,17 @@ PROGRESS_INTERVAL_SECONDS = 10.0
 INDEX_DIRECTORY_NAME = "hybrid_index"
 # Traceable JSON Lines export of the fragments represented by the index.
 FRAGMENTS_FILE_NAME = "fragments.jsonl"
-INDEX_FILE_NAMES = (FRAGMENTS_FILE_NAME, "embeddings.npy", "index.sqlite3", "manifest.json", "source_manifest.jsonl", "SHA256SUMS.txt")
+# The category tree derived from the source folder structure (see
+# build_category_tree()), consumed by the web app to let a patient restrict
+# retrieval to chosen source folders before searching.
+CATEGORIES_FILE_NAME = "categories.json"
+INDEX_FILE_NAMES = (
+    FRAGMENTS_FILE_NAME, "embeddings.npy", "index.sqlite3", "manifest.json",
+    "source_manifest.jsonl", CATEGORIES_FILE_NAME, "SHA256SUMS.txt",
+)
+# Category id used for files placed directly in the source root, with no
+# containing folder.
+ROOT_CATEGORY_ID = ""
 
 @dataclass(frozen=True)
 class SourceFile:
@@ -52,6 +62,11 @@ class SourceFile:
     encoding: str
     line_count: int
     char_count: int
+    # The document's category: its containing folder's path relative to the
+    # source root (posix-separated), or ROOT_CATEGORY_ID when the file sits
+    # directly in the source root. Defaulted so existing call sites (and
+    # fixtures built before category support existed) keep working unchanged.
+    category_id: str = ROOT_CATEGORY_ID
 
 
 @dataclass(frozen=True)
@@ -67,6 +82,8 @@ class Chunk:
     text: str
     text_sha256: str
     char_count: int
+    # Inherited from the source document's category_id (see SourceFile).
+    category_id: str = ROOT_CATEGORY_ID
 
 
 # Return the current UTC timestamp in a stable ISO-8601 representation.
@@ -354,6 +371,71 @@ def write_jsonl(path: Path, rows: Iterable[object]) -> None:
             stream.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
 
 
+# Depth of a category id in the tree: the root ("") is depth 0, a top-level
+# folder is depth 1, and each "/" below that adds one more level.
+def _category_depth(category_id: str) -> int:
+    return 0 if category_id == ROOT_CATEGORY_ID else category_id.count("/") + 1
+
+
+# Derive the full category tree from the folder each source document lives
+# in (see SourceFile.category_id): every folder that directly holds at least
+# one document becomes a category, and every one of ITS ancestor folders
+# (even ones holding no document directly, only subfolders) becomes a purely
+# structural parent category. Only categories with own_documents > 0 ever tag
+# a chunk (see Chunk.category_id) — an ancestor-only category exists in the
+# tree for navigation/UI purposes but is never itself a valid retrieval
+# filter. Written to CATEGORIES_FILE_NAME and reloaded (never recomputed) by
+# the web app through medicina_naturista.ai.categories.load_category_tree().
+def build_category_tree(sources: Sequence[SourceFile]) -> dict[str, object]:
+    own_documents: dict[str, int] = {}
+    for item in sources:
+        own_documents[item.category_id] = own_documents.get(item.category_id, 0) + 1
+
+    all_ids: set[str] = {ROOT_CATEGORY_ID}
+    for category_id in own_documents:
+        prefix = ROOT_CATEGORY_ID
+        all_ids.add(prefix)
+        if category_id == ROOT_CATEGORY_ID:
+            continue
+        for part in category_id.split("/"):
+            prefix = f"{prefix}/{part}" if prefix else part
+            all_ids.add(prefix)
+
+    parent_of: dict[str, str | None] = {ROOT_CATEGORY_ID: None}
+    children: dict[str, list[str]] = {category_id: [] for category_id in all_ids}
+    for category_id in all_ids:
+        if category_id == ROOT_CATEGORY_ID:
+            continue
+        parent = category_id.rsplit("/", 1)[0] if "/" in category_id else ROOT_CATEGORY_ID
+        parent_of[category_id] = parent
+        children[parent].append(category_id)
+    for sibling_ids in children.values():
+        sibling_ids.sort(key=str.casefold)
+
+    # Accumulate each category's own document count into its own total, then
+    # add that total into its parent's total, deepest categories first, so a
+    # parent's total is only ever added upward after every one of its own
+    # descendants has already been folded into it.
+    total_documents: dict[str, int] = {category_id: own_documents.get(category_id, 0) for category_id in all_ids}
+    for category_id in sorted(all_ids, key=_category_depth, reverse=True):
+        parent = parent_of[category_id]
+        if parent is not None:
+            total_documents[parent] += total_documents[category_id]
+
+    nodes = {
+        category_id: {
+            "id": category_id,
+            "label": "(fără categorie)" if category_id == ROOT_CATEGORY_ID else category_id.rsplit("/", 1)[-1],
+            "parent": parent_of[category_id],
+            "children": children[category_id],
+            "own_documents": own_documents.get(category_id, 0),
+            "total_documents": total_documents[category_id],
+        }
+        for category_id in all_ids
+    }
+    return {"version": 1, "root_id": ROOT_CATEGORY_ID, "nodes": nodes}
+
+
 # Create the SQLite metadata, chunk, and FTS5 tables for the generated index.
 def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Chunk], metadata: dict[str, str]) -> None:
     if path.exists():
@@ -373,7 +455,8 @@ def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Ch
                 sha256 TEXT NOT NULL,
                 encoding TEXT NOT NULL,
                 line_count INTEGER NOT NULL,
-                char_count INTEGER NOT NULL
+                char_count INTEGER NOT NULL,
+                category_id TEXT NOT NULL
             );
             CREATE TABLE chunks (
                 chunk_id INTEGER PRIMARY KEY,
@@ -386,9 +469,11 @@ def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Ch
                 heading TEXT NOT NULL,
                 text TEXT NOT NULL,
                 text_sha256 TEXT NOT NULL,
-                char_count INTEGER NOT NULL
+                char_count INTEGER NOT NULL,
+                category_id TEXT NOT NULL
             );
             CREATE INDEX idx_chunks_source ON chunks(source_relative_path, line_start);
+            CREATE INDEX idx_chunks_category ON chunks(category_id);
             CREATE VIRTUAL TABLE chunks_fts USING fts5(
                 text, heading, source_relative_path,
                 tokenize='unicode61 remove_diacritics 2'
@@ -397,11 +482,11 @@ def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Ch
         )
         connection.executemany("INSERT INTO metadata(key,value) VALUES (?,?)", sorted(metadata.items()))
         connection.executemany(
-            "INSERT INTO files VALUES (?,?,?,?,?,?,?,?)",
+            "INSERT INTO files VALUES (?,?,?,?,?,?,?,?,?)",
             [tuple(asdict(item).values()) for item in sources],
         )
         chunk_rows = [tuple(asdict(item).values()) for item in chunks]
-        connection.executemany("INSERT INTO chunks VALUES (?,?,?,?,?,?,?,?,?,?,?)", chunk_rows)
+        connection.executemany("INSERT INTO chunks VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", chunk_rows)
         connection.executemany(
             "INSERT INTO chunks_fts(rowid,text,heading,source_relative_path) VALUES (?,?,?,?)",
             [(item.chunk_id, item.text, item.heading, item.source_relative_path) for item in chunks],
@@ -535,6 +620,12 @@ def build(
 
     for index, path in enumerate(paths, start=1):
         relative = path.relative_to(source).as_posix()
+        # The document's category is its containing folder, relative to the
+        # source root — ROOT_CATEGORY_ID for a file placed directly in the
+        # source root. See build_category_tree() for how this becomes a tree.
+        category_id = path.parent.relative_to(source).as_posix()
+        if category_id == ".":
+            category_id = ROOT_CATEGORY_ID
         stat = path.stat()
         initial_stats[relative] = (stat.st_size, stat.st_mtime_ns)
         decoded, encoding, raw = read_markdown(path)
@@ -553,6 +644,7 @@ def build(
                 encoding=encoding,
                 line_count=line_count,
                 char_count=len(normalized),
+                category_id=category_id,
             )
         )
         document_chunks = chunk_document(normalized)
@@ -572,6 +664,7 @@ def build(
                     text=body,
                     text_sha256=sha256_bytes(body.encode("utf-8")),
                     char_count=len(body),
+                    category_id=category_id,
                 )
             )
             next_id += 1
@@ -612,6 +705,8 @@ def build(
         write_jsonl(staging / FRAGMENTS_FILE_NAME, chunks)
         write_jsonl(staging / "source_manifest.jsonl", source_files)
         create_sqlite(staging / "index.sqlite3", source_files, chunks, metadata)
+        category_tree = build_category_tree(source_files)
+        write_json(staging / CATEGORIES_FILE_NAME, category_tree)
 
         source_digest = sha256_bytes(
             "\n".join(f"{item.relative_path}\t{item.sha256}" for item in source_files).encode("utf-8")
@@ -647,6 +742,11 @@ def build(
                 "lexical": "index.sqlite3 FTS5",
                 "fragments": FRAGMENTS_FILE_NAME,
             },
+            "categories": {
+                "file": CATEGORIES_FILE_NAME,
+                "schema_version": 1,
+                "category_count": len(category_tree["nodes"]) - 1,
+            },
             "warnings": warnings,
             "medical_use_notice": (
                 "Retrieval index only. Source claims may be inaccurate, contradictory, or unsafe. "
@@ -662,6 +762,7 @@ def build(
             "index.sqlite3",
             "manifest.json",
             "source_manifest.jsonl",
+            CATEGORIES_FILE_NAME,
         ]
         checksum_lines = [f"{sha256_file(staging / name)}  {name}" for name in core_names]
         (staging / "SHA256SUMS.txt").write_text("\n".join(checksum_lines) + "\n", encoding="ascii")

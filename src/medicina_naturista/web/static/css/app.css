@@ -886,3 +886,139 @@ body,
     animation-duration: 1.5s !important;
     animation-iteration-count: infinite !important;
 }
+
+/* "Filtrează sursele" — the collapsible category tree shown above the
+   composer. Its checkbox tri-state (checked/unchecked/mixed) is driven
+   entirely by category_filter.js; this only lays the tree out. */
+#category-filter-panel {
+    width: var(--chat-content-width) !important;
+    max-width: var(--chat-content-width) !important;
+    align-self: flex-start !important;
+    margin: 0 0 4px !important;
+    padding: 0 2px !important;
+}
+
+.category-filter-details {
+    border: 1px solid var(--nature-border);
+    border-radius: 14px;
+    background: var(--nature-soft);
+}
+
+.category-filter-summary {
+    padding: 10px 16px;
+    cursor: pointer;
+    color: var(--nature-text);
+    font-size: 16px;
+    font-weight: 700;
+    list-style: none;
+}
+
+.category-filter-summary::-webkit-details-marker {
+    display: none;
+}
+
+.category-filter-unavailable {
+    margin: 0;
+    padding: 10px 16px;
+    color: var(--nature-muted);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.category-filter-body {
+    padding: 0 16px 14px;
+}
+
+.category-filter-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.category-filter-status {
+    margin: 0;
+    color: var(--nature-muted);
+    font-size: 13px;
+}
+
+.category-filter-reset {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    border: 1px solid var(--nature-border);
+    border-radius: 999px;
+    background: var(--nature-surface);
+    color: var(--nature-primary);
+    cursor: pointer;
+    font: 700 12.5px Arial, sans-serif;
+    white-space: nowrap;
+}
+
+.category-filter-reset:hover {
+    background: var(--nature-soft);
+    border-color: var(--nature-primary);
+}
+
+.category-tree,
+.cat-children {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.cat-children {
+    padding-left: 22px;
+}
+
+.cat-children[hidden] {
+    display: none;
+}
+
+.cat-node {
+    margin: 2px 0;
+}
+
+.cat-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cat-toggle {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--nature-muted);
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.cat-toggle-spacer {
+    cursor: default;
+}
+
+.cat-check-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--nature-text);
+    font-size: 14.5px;
+}
+
+.cat-checkbox {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--nature-primary);
+}
+
+.cat-count {
+    color: var(--nature-muted);
+    font-size: 12.5px;
+}

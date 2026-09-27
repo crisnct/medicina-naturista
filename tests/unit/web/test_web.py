@@ -13,8 +13,10 @@ from pypdf import PdfReader
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 
+from medicina_naturista.ai.categories import CategoryNode, CategoryTree
 from medicina_naturista.ai.search import RRF_MAX_SCORE, _normalize_fastembed_metadata
 from medicina_naturista.web import handlers, main
+from medicina_naturista.web.ui import category_filter_panel_html
 from medicina_naturista.reporting import pdf as reports_module
 import medicina_naturista.ai.client as ai_module
 from medicina_naturista.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
@@ -467,6 +469,36 @@ class WebTests(unittest.TestCase):
         self.assertFalse(any(HEALTH_PROBLEM_QUESTION in query for query in queries))
         self.assertFalse(any(marker in query for query in queries))
 
+    # Verify the hidden #category-selection field's JSON is parsed leniently:
+    # a good array of ids parses, and anything malformed falls back to "no
+    # selection" (every category) rather than raising.
+    def test_parse_category_selection_accepts_ids_and_falls_back_safely(self):
+        self.assertEqual(handlers._parse_category_selection('["Cancer", "Sex"]'), {"Cancer", "Sex"})
+        self.assertEqual(handlers._parse_category_selection("[]"), set())
+        self.assertEqual(handlers._parse_category_selection(""), set())
+        self.assertEqual(handlers._parse_category_selection("not json"), set())
+        self.assertEqual(handlers._parse_category_selection('{"Cancer": true}'), set())
+        self.assertEqual(handlers._parse_category_selection('["Cancer", 3, null]'), {"Cancer"})
+        # "" is itself a valid category id (documents with no folder).
+        self.assertEqual(handlers._parse_category_selection('[""]'), {""})
+
+    # Verify on_message stores the parsed selection on the session before the
+    # chained retrieval step runs, and that omitting it (as every pre-existing
+    # caller in this file does) keeps defaulting to "every category".
+    def test_on_message_stores_selected_categories_on_session(self):
+        sid = "E" * 43
+        request = FakeRequest(sid, "tab-categories")
+        main.on_load(request)
+
+        main.on_message("Gripă și răceală", request, '["Cancer", "Sex"]')
+        session = main.store.get(sid, "tab-categories")
+        self.assertEqual(session.selected_categories, {"Cancer", "Sex"})
+
+        main.on_message("Migrenă", request)
+        self.assertEqual(session.selected_categories, set())
+
+        main.store.delete(sid, "tab-categories")
+
     # Verify retrieval preserves both reflection and treatment-plan flu fragments.
     def test_flu_query_retrieves_reflection_fragment_from_internal_dictionary(self):
         profile = HealthProfile()
@@ -558,6 +590,62 @@ class WebTests(unittest.TestCase):
             evidence = retriever.collect(session)
 
         self.assertEqual(set(evidence), {"C1"})
+
+    # Verify session.selected_categories reaches rank() as category_ids,
+    # restricted to ids the loaded category tree actually knows about.
+    def test_collect_passes_known_selected_categories_to_rank(self):
+        profile = HealthProfile()
+        profile.set_health_problem("gripa")
+        session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"Cancer", "necunoscuta"}})()
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever._known_category_ids = frozenset({"Cancer", "Sex"})
+        captured_kwargs = []
+
+        def fake_rank(_index_dir, _query, **kwargs):
+            captured_kwargs.append(kwargs.get("category_ids"))
+            return []
+
+        with patch("medicina_naturista.ai.retrieval.rank", side_effect=fake_rank):
+            retriever.collect(session)
+
+        self.assertTrue(captured_kwargs, "rank() must be called at least once")
+        # The unknown id is dropped; only the known one is forwarded.
+        self.assertTrue(all(value == frozenset({"Cancer"}) for value in captured_kwargs))
+
+    # An empty selection, or a selection with nothing the tree recognizes,
+    # must mean "no filter" (None) — the same as never opening the panel.
+    def test_collect_passes_none_when_no_known_category_is_selected(self):
+        profile = HealthProfile()
+        profile.set_health_problem("gripa")
+        session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"necunoscuta"}})()
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever._known_category_ids = frozenset({"Cancer", "Sex"})
+        captured_kwargs = []
+
+        def fake_rank(_index_dir, _query, **kwargs):
+            captured_kwargs.append(kwargs.get("category_ids"))
+            return []
+
+        with patch("medicina_naturista.ai.retrieval.rank", side_effect=fake_rank):
+            retriever.collect(session)
+
+        self.assertTrue(captured_kwargs, "rank() must be called at least once")
+        self.assertTrue(all(value is None for value in captured_kwargs))
+
+    # A caller/test double without a selected_categories attribute at all
+    # (like the SyntheticSession objects used throughout this file) must not
+    # crash collect() — it is treated the same as an empty selection.
+    def test_collect_tolerates_missing_selected_categories_attribute(self):
+        profile = HealthProfile()
+        profile.set_health_problem("gripa")
+        session = type("SyntheticSession", (), {"profile": profile})()
+        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever._known_category_ids = frozenset({"Cancer"})
+
+        with patch("medicina_naturista.ai.retrieval.rank", return_value=[]):
+            evidence = retriever.collect(session)  # must not raise
+
+        self.assertEqual(evidence, {})
 
     # Verify neighbouring fragments of one file (overlapping or at most 5 lines
     # apart) are grouped, while distant fragments and other files stay separate.
@@ -987,6 +1075,63 @@ class WebTests(unittest.TestCase):
         self.assertIn("message.submit", Path(main.__file__).read_text(encoding="utf-8"))
         self.assertNotIn('elem_id="end-session"', Path(main.__file__).read_text(encoding="utf-8"))
         self.assertNotIn("Închide sesiunea", Path(main.__file__).read_text(encoding="utf-8"))
+
+    # Verify the "Filtrează sursele" panel renders a checkbox per category,
+    # nests subfolders under their parent (collapsed), marks which nodes
+    # carry documents of their own (data-real, consumed by category_filter.js
+    # to decide what gets serialized), and shows aggregate counts.
+    def test_category_filter_panel_renders_nested_tree_with_real_flags(self):
+        tree = CategoryTree(
+            root_id="",
+            nodes={
+                "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer", "Centrul"), own_documents=0, total_documents=3),
+                "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=2, total_documents=2),
+                "Centrul": CategoryNode(id="Centrul", label="Centrul", parent="", children=("Centrul/Anatomie",), own_documents=0, total_documents=1),
+                "Centrul/Anatomie": CategoryNode(id="Centrul/Anatomie", label="Anatomie", parent="Centrul", children=(), own_documents=1, total_documents=1),
+            },
+        )
+
+        panel = category_filter_panel_html(tree)
+
+        self.assertIn('data-id="Cancer"', panel)
+        self.assertIn('data-real="1"', panel)  # Cancer and Anatomie both carry documents
+        self.assertIn('data-id="Centrul"', panel)
+        # "Centrul" itself holds no document — a purely structural branch.
+        self.assertIn('<li class="cat-node" data-id="Centrul" data-real="0">', panel)
+        self.assertIn('<li class="cat-node" data-id="Centrul/Anatomie" data-real="1">', panel)
+        self.assertIn("Cancer <span", panel)
+        self.assertIn("(2)</span>", panel)
+        # Subfolders start collapsed.
+        self.assertIn('<ul class="cat-children" hidden>', panel)
+        # No wrapping "select everything" row — the root itself is never rendered.
+        self.assertNotIn('data-id=""', panel)
+
+    # A root with documents of its own (files with no folder) becomes one
+    # more top-level, non-branching entry — never a wrapper around everything.
+    def test_category_filter_panel_renders_root_documents_as_plain_top_level_entry(self):
+        tree = CategoryTree(
+            root_id="",
+            nodes={
+                "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer",), own_documents=5, total_documents=6),
+                "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=1, total_documents=1),
+            },
+        )
+
+        panel = category_filter_panel_html(tree)
+
+        self.assertIn('data-id="" data-real="1"', panel)
+        self.assertIn("(fără categorie)", panel)
+        # The root entry has no expand toggle and no nested list of its own.
+        self.assertIn('<li class="cat-node" data-id="" data-real="1"><div class="cat-row">'
+                       '<span class="cat-toggle cat-toggle-spacer"', panel)
+
+    # An index built before category support existed has no category tree —
+    # the panel must explain that instead of rendering an empty/broken tree.
+    def test_category_filter_panel_shows_notice_when_tree_is_unavailable(self):
+        panel = category_filter_panel_html(None)
+
+        self.assertIn("category-filter-unavailable", panel)
+        self.assertNotIn("cat-checkbox", panel)
 
     # Verify PDF pagination, Romanian characters, citations, and bibliography links.
     def test_pdf_diacritics_and_pagination(self):

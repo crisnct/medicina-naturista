@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import json
+import sqlite3
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -225,6 +226,79 @@ class EmbeddingProgressTests(unittest.TestCase):
         self.assertNotIn("Embedding completed", output.getvalue())
 
 
+def make_source(relative_path: str, category_id: str) -> builder.SourceFile:
+    return builder.SourceFile(
+        relative_path=relative_path,
+        absolute_path=f"C:/documents/{relative_path}",
+        size_bytes=10,
+        modified_utc="2026-01-01T00:00:00Z",
+        sha256="hash",
+        encoding="utf-8",
+        line_count=1,
+        char_count=10,
+        category_id=category_id,
+    )
+
+
+class CategoryTreeTests(unittest.TestCase):
+    def test_builds_recursive_tree_from_folder_structure(self):
+        sources = [
+            make_source("Cancer/a.md", "Cancer"),
+            make_source("Cancer/b.md", "Cancer"),
+            make_source("Centrul de studii/Anatomie/c.md", "Centrul de studii/Anatomie"),
+            make_source("root.md", ""),
+        ]
+
+        tree = builder.build_category_tree(sources)
+
+        self.assertEqual(tree["root_id"], "")
+        nodes = tree["nodes"]
+        self.assertEqual(set(nodes), {"", "Cancer", "Centrul de studii", "Centrul de studii/Anatomie"})
+
+        # "Cancer" has documents of its own and no children.
+        self.assertEqual(nodes["Cancer"]["own_documents"], 2)
+        self.assertEqual(nodes["Cancer"]["total_documents"], 2)
+        self.assertEqual(nodes["Cancer"]["children"], [])
+        self.assertEqual(nodes["Cancer"]["parent"], "")
+
+        # "Centrul de studii" is a purely structural ancestor: no document of
+        # its own, but its subfolder's document counts toward its total.
+        self.assertEqual(nodes["Centrul de studii"]["own_documents"], 0)
+        self.assertEqual(nodes["Centrul de studii"]["total_documents"], 1)
+        self.assertEqual(nodes["Centrul de studii"]["children"], ["Centrul de studii/Anatomie"])
+
+        self.assertEqual(nodes["Centrul de studii/Anatomie"]["own_documents"], 1)
+        self.assertEqual(nodes["Centrul de studii/Anatomie"]["label"], "Anatomie")
+        self.assertEqual(nodes["Centrul de studii/Anatomie"]["parent"], "Centrul de studii")
+
+        # The root category (files with no folder) and the whole-tree total.
+        self.assertEqual(nodes[""]["own_documents"], 1)
+        self.assertEqual(nodes[""]["total_documents"], 4)
+        self.assertEqual(set(nodes[""]["children"]), {"Cancer", "Centrul de studii"})
+
+    def test_root_children_are_sorted_case_insensitively(self):
+        sources = [
+            make_source("zebra/a.md", "zebra"),
+            make_source("Alpha/b.md", "Alpha"),
+            make_source("beta/c.md", "beta"),
+        ]
+
+        tree = builder.build_category_tree(sources)
+
+        self.assertEqual(tree["nodes"][""]["children"], ["Alpha", "beta", "zebra"])
+
+    def test_deeply_nested_folders_each_become_their_own_category(self):
+        sources = [make_source("A/B/C/D/doc.md", "A/B/C/D")]
+
+        tree = builder.build_category_tree(sources)
+
+        self.assertEqual(set(tree["nodes"]), {"", "A", "A/B", "A/B/C", "A/B/C/D"})
+        self.assertEqual(tree["nodes"]["A/B/C/D"]["total_documents"], 1)
+        self.assertEqual(tree["nodes"]["A"]["total_documents"], 1)
+        for ancestor in ("A", "A/B", "A/B/C"):
+            self.assertEqual(tree["nodes"][ancestor]["own_documents"], 0)
+
+
 class BuildArtifactTests(unittest.TestCase):
     def test_build_writes_complete_index_to_hybrid_index_with_fragments_file(self):
         with tempfile.TemporaryDirectory() as temporary_directory:
@@ -262,13 +336,32 @@ class BuildArtifactTests(unittest.TestCase):
                     "index.sqlite3",
                     "manifest.json",
                     "source_manifest.jsonl",
+                    "categories.json",
                 },
             )
             manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
             self.assertEqual(manifest["index"]["fragments"], "fragments.jsonl")
+            self.assertEqual(manifest["categories"]["file"], "categories.json")
             checksums = (index_dir / "SHA256SUMS.txt").read_text(encoding="ascii")
             self.assertIn("  fragments.jsonl\n", checksums)
+            self.assertIn("  categories.json\n", checksums)
             self.assertNotIn("chunks.jsonl", checksums)
+
+            # document.md sits directly in the source root, so it falls under
+            # the root ("no folder") category.
+            categories = json.loads((index_dir / "categories.json").read_text(encoding="utf-8"))
+            self.assertEqual(categories["root_id"], "")
+            self.assertEqual(categories["nodes"][""]["own_documents"], 1)
+            self.assertEqual(categories["nodes"][""]["children"], [])
+
+            connection = sqlite3.connect(index_dir / "index.sqlite3")
+            try:
+                row = connection.execute("SELECT category_id FROM files").fetchone()
+                self.assertEqual(row[0], "")
+                chunk_row = connection.execute("SELECT category_id FROM chunks").fetchone()
+                self.assertEqual(chunk_row[0], "")
+            finally:
+                connection.close()
 
 
 if __name__ == "__main__":
