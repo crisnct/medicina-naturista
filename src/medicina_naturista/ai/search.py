@@ -169,10 +169,9 @@ def main() -> None:
         type=Path,
         default=Path(__file__).resolve().parents[3] / "data" / "hybrid_index",
     )
-    parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-    results = rank(args.index.resolve(), args.query)[: max(1, args.limit)]
+    results = rank(args.index.resolve(), args.query)
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return

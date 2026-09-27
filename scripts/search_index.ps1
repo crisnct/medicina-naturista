@@ -1,7 +1,6 @@
 param(
     [Parameter(Mandatory = $true, Position = 0)]
     [string]$Query,
-    [int]$Limit = 10,
     [switch]$Json
 )
 
@@ -14,8 +13,7 @@ $env:PYTHONPATH = Join-Path $projectRoot 'src'
 $arguments = @(
     '-m', 'medicina_naturista.ai.search',
     $Query,
-    '--index', (Join-Path $projectRoot 'data\hybrid_index'),
-    '--limit', $Limit.ToString()
+    '--index', (Join-Path $projectRoot 'data\hybrid_index')
 )
 if ($Json) { $arguments += '--json' }
 & (Join-Path $projectRoot '.venv\Scripts\python.exe') @arguments

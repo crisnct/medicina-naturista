@@ -135,21 +135,46 @@ def find_split_boundary(text: str, *, prefer_newline: bool = False) -> int:
 
 # Split oversized text at sentence or word boundaries without creating raw overlap.
 def split_long_piece(text: str, line_start: int, line_end: int) -> Iterator[tuple[str, int, int]]:
-    """Split oversized text while retaining conservative source line bounds."""
-    remaining = text.strip()
-    lines = remaining.splitlines()
+    """Split oversized text, giving each piece its own line range within
+    (line_start, line_end) instead of stamping every piece with the whole
+    block's range. A block with no blank lines (e.g. one large table row
+    after row) is a single multi-thousand-line block to markdown_blocks(), so
+    reusing its full range for every split-out piece previously made each
+    piece's "context" expand to the entire block when read back from disk."""
+    body = text.strip()
+    if not body:
+        return
+    lines = body.splitlines()
     structured = len(lines) > 1 and any(
         re.match(r"^\s*(?:[-*+]\s+|\d+[.)]\s+|\|)", line)
         for line in lines
     )
-    while len(remaining) > MAX_CHARS:
-        cut = find_split_boundary(remaining, prefer_newline=structured)
-        piece = remaining[:cut].strip()
+    total = len(body)
+    pos = 0
+    while True:
+        while pos < total and body[pos].isspace():
+            pos += 1
+        if total - pos <= MAX_CHARS:
+            break
+        window = body[pos:]
+        cut = find_split_boundary(window, prefer_newline=structured)
+        raw_piece = window[:cut]
+        piece = raw_piece.strip()
         if piece:
-            yield piece, line_start, line_end
-        remaining = remaining[cut:].strip()
-    if remaining:
-        yield remaining, line_start, line_end
+            lead = len(raw_piece) - len(raw_piece.lstrip())
+            start_index = pos + lead
+            end_index = start_index + len(piece)
+            piece_start = line_start + body.count("\n", 0, start_index)
+            piece_end = min(line_end, line_start + body.count("\n", 0, end_index))
+            yield piece, piece_start, piece_end
+        pos += cut
+    while pos < total and body[pos].isspace():
+        pos += 1
+    tail = body[pos:]
+    if tail:
+        tail_start = line_start + body.count("\n", 0, pos)
+        tail_end = min(line_end, line_start + body.count("\n", 0, pos + len(tail)))
+        yield tail, tail_start, tail_end
 
 
 # Treat generated PDF page markers as soft boundaries rather than semantic titles.
