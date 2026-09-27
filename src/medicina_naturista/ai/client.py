@@ -74,7 +74,10 @@ class XAIClient:
     # Initialize the HTTP client and load the report-generation system prompt.
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
-        self.http = httpx.Client(timeout=httpx.Timeout(75.0, connect=10.0))
+        # Read timeout raised to 5 minutes: without a MIN_RELEVANCE_PERCENT
+        # floor, a request can carry close to MAX_CONTEXT_CHARS (2.4M chars,
+        # ~600K tokens), which routinely took longer than the previous 75s.
+        self.http = httpx.Client(timeout=httpx.Timeout(300.0, connect=10.0))
         self.generate_system_prompt = GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(
             encoding="utf-8"
         ).strip()
@@ -337,7 +340,7 @@ class XAIClient:
             len(user) // 4,
             len(entries),
         )
-        result = self.complete_json(self.generate_system_prompt, user, 20000)
+        result = self.complete_json(self.generate_system_prompt, user, 25000)
         sections: dict[str, list[dict[str, Any]]] = {name: [] for name in SECTIONS}
         for section in SECTIONS:
             items = result.get(section, [])
