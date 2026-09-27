@@ -26,6 +26,15 @@ GENERIC_QUERY_WORDS = frozenset(
 # lines apart are merged into a single evidence fragment.
 NEIGHBOR_LINE_GAP = 5
 
+# Some source documents (e.g. a spreadsheet converted to one blank-line-free
+# Markdown table) are parsed as a single oversized block, so every chunk split
+# out of it is stamped with that block's whole (conservative) line range —
+# possibly thousands of lines. Reading that range back from disk to expand or
+# merge such a chunk would pull in most of the document as "one fragment" and
+# starve every other source of the context budget. Past this many lines, skip
+# the disk read and fall back to the chunk's own (already bounded) text.
+MAX_SOURCE_EXPANSION_LINES = 200
+
 # Normalize text for case-insensitive and diacritic-insensitive comparisons.
 def _plain(value: str) -> str:
     value = unicodedata.normalize("NFKD", value.casefold())
@@ -79,26 +88,29 @@ class Retriever:
         heading = str(result.get("heading") or "").strip()
         relative = Path(str(result["source_relative_path"]))
         path = (self.documents_dir / relative).resolve()
+        line_start, line_end = int(result["line_start"]), int(result["line_end"])
         if not path.is_relative_to(self.documents_dir) or not path.is_file():
             context = text
-        elif len(text) >= 600:
+        elif len(text) >= 600 or line_end - line_start > MAX_SOURCE_EXPANSION_LINES:
             context = text
         else:
             try:
                 lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
-                start = max(0, int(result["line_start"]) - 5)
-                end = min(len(lines), int(result["line_end"]) + 4)
+                start = max(0, line_start - 5)
+                end = min(len(lines), line_end + 4)
                 context = "\n".join(lines[start:end])[:1800]
             except (OSError, ValueError):
                 context = text
         return f"Secțiune: {heading}\n\n{context}" if heading else context
 
     # Text of a merged group: the source lines of its whole (united) line range,
-    # or the members' own texts in file order when the source file is unavailable.
+    # or the members' own texts in file order when the source file is unavailable
+    # or that united range is implausibly large (see MAX_SOURCE_EXPANSION_LINES).
     def _group_context(self, group: dict[str, Any], chunks: dict[int, dict[str, Any]], heading: str) -> str:
         path = (self.documents_dir / str(group["path"])).resolve()
         context = ""
-        if path.is_relative_to(self.documents_dir) and path.is_file():
+        within_bounds = group["end"] - group["start"] <= MAX_SOURCE_EXPANSION_LINES
+        if within_bounds and path.is_relative_to(self.documents_dir) and path.is_file():
             try:
                 lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
                 context = "\n".join(lines[max(0, group["start"] - 1):group["end"]])

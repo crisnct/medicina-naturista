@@ -153,6 +153,27 @@ class ChunkingTests(unittest.TestCase):
             for paragraph in chunk_text.split("\n\n"):
                 self.assertIn(paragraph, source_excerpt)
 
+    def test_splitting_a_blank_line_free_block_gives_each_piece_its_own_range(self):
+        # A table-like block with no blank lines between rows (e.g. a spreadsheet
+        # converted to Markdown) is one huge block to markdown_blocks(). Every
+        # piece split out of it must get its own line range, not the whole
+        # block's range, or reading a piece's "context" back from disk pulls in
+        # the entire table.
+        rows = [f"| Rând {index} | Valoare {index} |" for index in range(400)]
+        text = "# Tabel\n\n" + "\n".join(rows)
+        source_lines = text.splitlines()
+
+        chunks = builder.chunk_document(text)
+
+        self.assertGreater(len(chunks), 1)
+        ranges = [(line_start, line_end) for _, line_start, line_end, _ in chunks]
+        self.assertGreater(len(set(ranges)), 1)
+        for chunk_text, line_start, line_end, _ in chunks:
+            self.assertLessEqual(line_end - line_start, len(chunk_text.splitlines()) + 1)
+            source_excerpt = "\n".join(source_lines[line_start - 1:line_end])
+            for row_line in chunk_text.splitlines():
+                self.assertIn(row_line, source_excerpt)
+
 
 class EmbeddingProgressTests(unittest.TestCase):
     def test_reports_periodic_progress_and_completion(self):
