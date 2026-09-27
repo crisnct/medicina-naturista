@@ -564,13 +564,6 @@ with gr.Blocks(
                 elem_classes=["hidden-control"],
                 show_label=False,
             )
-            # elem_id lands on Gradio's own wrapper (a direct flex child of this
-            # Column, unlike anything inside CATEGORY_FILTER_HTML) — the same
-            # pattern MESSAGE_HELPER_HTML/"message-helper" below uses, so the
-            # panel's width/alignment CSS rule (#category-filter-panel in
-            # app.css) actually applies. category_filter.js's panel() lookup
-            # targets this same id.
-            gr.HTML(CATEGORY_FILTER_HTML, elem_id="category-filter-panel")
             gr.HTML(MESSAGE_HELPER_HTML, elem_id="message-helper")
             with gr.Row(elem_id="message-row"):
                 message = gr.Textbox(
@@ -594,6 +587,14 @@ with gr.Blocks(
                     scale=0,
                     elem_id="send-message",
                 )
+            # elem_id lands on Gradio's own wrapper (a direct flex child of this
+            # Column, unlike anything inside CATEGORY_FILTER_HTML) — the same
+            # pattern MESSAGE_HELPER_HTML/"message-helper" above uses, so the
+            # panel's width/alignment CSS rule (#category-filter-panel in
+            # app.css) actually applies. category_filter.js's panel() lookup
+            # targets this same id. Placed below the composer, per the
+            # request to keep "Setează sursele" under the message box.
+            gr.HTML(CATEGORY_FILTER_HTML, elem_id="category-filter-panel")
 
     load_event = demo.load(on_load, outputs=[chatbot], queue=False)
     send_event = send.click(
