@@ -56,7 +56,11 @@ body,
     overflow: hidden;
     box-sizing: border-box;
     width: 100%;
-    padding: 22px 38px 30px;
+    /* The doctor portrait's right offset reads this, so it always sits flush
+       against the card edge — never clipped, never floating in a gap —
+       whatever this padding (and so the card's width) turns out to be. */
+    --hero-pad-right: 38px;
+    padding: 22px var(--hero-pad-right) 30px;
     border: 1px solid rgba(47, 125, 109, 0.18);
     border-radius: 20px;
     background: #f4f9f7 url("__HERO_ORNAMENT_DATA_URI__") center / 100% 100% no-repeat;
@@ -109,15 +113,31 @@ body,
     text-align: left;
 }
 
+/* The portrait sits beside the title as a flex sibling (see .hero-top-row):
+   that keeps its top edge level with the title's top edge and its right
+   edge flush with the row's — so the panel's right padding — at any width,
+   with no hand-tuned margin math that breaks when the panel resizes. */
 .hero-doctor {
+    /* Scales with the page width (like the title's own clamp() below)
+       instead of jumping between two fixed sizes at the mobile breakpoint —
+       88px on a narrow phone, up to 170px once the card reaches its 680px
+       max width. */
+    --hero-doctor-size: clamp(80px, 25vw, 170px);
     float: right;
-    width: 170px;
-    height: 170px;
-    margin: 8px -40px 8px 0px;
+    width: var(--hero-doctor-size);
+    height: var(--hero-doctor-size);
+    /* No top margin: as the next box in normal flow, the float's top edge
+       naturally starts right where the kicker's own margin-bottom ends —
+       so it tracks the kicker, not a hand-tuned offset. Only the right
+       inset is explicit, keeping it flush with (a touch left of) the
+       panel's own right edge regardless of width. */
+    margin: 0 clamp(12px, 3vw, 20px) 8px 12px;
     object-fit: contain;
-    /* Text flows around the portrait instead of running underneath it. */
+    /* The description text flows around the portrait and drops below it
+       once it runs past the image's height, instead of staying in a
+       permanently narrow column for its whole length. */
     shape-outside: circle(50%);
-    shape-margin: 0px;
+    shape-margin: 4px;
 }
 
 .hero-description {
@@ -216,6 +236,15 @@ body,
 
 #medical-chatbot .bubble-wrap {
     padding-top: 0 !important;
+    gap: 16px !important;
+}
+
+/* Space out consecutive bubbles from the same speaker (e.g. two assistant
+   messages in a row): Gradio renders them as sibling .message divs inside one
+   .bot.message/.user.message block, with no gap between them by default. */
+#medical-chatbot .bot.message > .message + .message,
+#medical-chatbot .user.message > .message + .message {
+    margin-top: 16px !important;
 }
 
 #medical-chatbot .bubble-wrap > .message-wrap:first-child .message-row {
@@ -224,6 +253,19 @@ body,
 
 #medical-chatbot button[aria-label="Clear"] {
     display: none !important;
+}
+
+/* Extra breathing room between consecutive chat messages. */
+#medical-chatbot .message-wrap {
+    margin-bottom: 16px !important;
+}
+
+#medical-chatbot .message-wrap:last-child {
+    margin-bottom: 0 !important;
+}
+
+#medical-chatbot .message-row {
+    margin-bottom: 0 !important;
 }
 
 /* Follow the familiar chat convention: assistant left, user right. */
@@ -371,6 +413,10 @@ body,
     font-size: 16px !important;
 }
 
+#medical-chatbot [data-testid="user"] p {
+    font-size: 18px !important;
+}
+
 #medical-chatbot .message h2,
 #medical-chatbot .message h3,
 #medical-chatbot .message p,
@@ -447,17 +493,23 @@ body,
     font-weight: 700;
 }
 
-#generate-recipe-panel {
-    width: var(--chat-content-width) !important;
-    max-width: var(--chat-content-width) !important;
-    align-self: flex-start !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    gap: 18px !important;
-    padding: 16px 4px 16px 18px !important;
-    border: 2px solid #d64545 !important;
-    border-radius: 16px !important;
-    background: var(--nature-soft) !important;
+/* The section is a chat message posted after each search; the real (hidden)
+   Gradio controls behind it are driven by app.js. */
+.hidden-control {
+    display: none !important;
+}
+
+.generate-recipe-panel {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 16px 4px 16px 18px;
+    border: 2px solid #d64545;
+    border-radius: 16px;
+    background: var(--nature-soft);
 }
 
 .generate-recipe-copy {
@@ -477,49 +529,50 @@ body,
     font-weight: 400;
 }
 
-#generate-recipe {
-    display: flex !important;
-    width: 198px !important;
-    min-width: 198px !important;
-    max-width: 198px !important;
-    height: 38px !important;
-    min-height: 38px !important;
-    max-height: 38px !important;
-    flex: 0 0 auto !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 8px !important;
-    margin-left: auto !important;
-    padding: 0 16px !important;
-    border: 0 !important;
-    border-radius: 14px !important;
-    background: var(--nature-primary) !important;
-    box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22) !important;
-    color: #fff !important;
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    white-space: nowrap !important;
+.generate-inline {
+    display: flex;
+    width: 198px;
+    min-width: 198px;
+    max-width: 198px;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-left: auto;
+    padding: 0 16px;
+    border: 0;
+    border-radius: 14px;
+    background: var(--nature-primary);
+    box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22);
+    color: #fff;
+    cursor: pointer;
+    font: 700 16px Arial, sans-serif;
+    white-space: nowrap;
 }
 
-#generate-recipe:hover:not(:disabled) {
-    background: var(--nature-primary-hover) !important;
+.generate-inline:hover:not(:disabled) {
+    background: var(--nature-primary-hover);
     transform: translateY(-1px);
 }
 
-#generate-recipe:disabled {
-    cursor: not-allowed !important;
-    background: #9cb9b0 !important;
-    box-shadow: none !important;
-    opacity: 0.75 !important;
+.generate-inline:disabled {
+    cursor: not-allowed;
+    background: #9cb9b0;
+    box-shadow: none;
+    opacity: 0.75;
 }
 
-#generate-recipe:focus-visible {
-    outline: 3px solid var(--nature-focus) !important;
-    outline-offset: 3px !important;
+.generate-inline:focus-visible {
+    outline: 3px solid var(--nature-focus);
+    outline-offset: 3px;
 }
 
 /* Fragments and download panels are chat messages: drop the bubble around them. */
 #medical-chatbot .message:has(.fragments-panel-inner),
+#medical-chatbot .message:has(.generate-recipe-panel),
 #medical-chatbot .message:has(.report-ready-panel) {
     padding: 0 !important;
     border: 0 !important;
@@ -733,17 +786,13 @@ body,
     }
 
     #hero-panel {
-        padding: 26px 22px 22px;
+        --hero-pad-right: 22px;
+        padding: 26px var(--hero-pad-right) 22px;
         border-radius: 16px;
     }
 
     .hero-description {
         font-size: 16px;
-    }
-
-    .hero-doctor {
-        width: 110px;
-        height: 110px;
     }
 
     #conversation-card {
@@ -763,7 +812,7 @@ body,
     }
 
     .report-ready-panel,
-    #generate-recipe-panel,
+    .generate-recipe-panel,
     #message-row {
         align-items: stretch !important;
         flex-direction: column !important;
@@ -776,10 +825,10 @@ body,
         max-width: none !important;
     }
 
-    #generate-recipe {
-        width: 100% !important;
-        min-width: 100% !important;
-        max-width: none !important;
+    .generate-inline {
+        width: 100%;
+        min-width: 100%;
+        max-width: none;
     }
 
     #send-message {

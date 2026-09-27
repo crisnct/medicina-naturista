@@ -766,16 +766,18 @@ class WebTests(unittest.TestCase):
             self.assertEqual(history[-1]["content"], HEALTH_PROBLEM_QUESTION)
             main.on_load(req_b)
 
-            _, history, generate_update = main.on_message("Gripă și răceală", req_a)
+            _, history = main.on_message("Gripă și răceală", req_a)
             self.assertIn("Caut rapid în cele", history[-1]["content"])
-            self.assertEqual(generate_update, main.gr.update(visible=False))
             self.assertEqual(FakeAI.generate_calls, 0)
 
-            history, row_update, button_update = main.on_find_fragments(req_a)
+            history = main.on_find_fragments(req_a)
             self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
-            # The fragments panel is the newest chat message, right after the search notice.
-            self.assertIn("Caut rapid în cele", history[-2]["content"])
-            fragments_html = history[-1]["content"]
+            # Chronological order: search notice, fragments panel, then the "Generează rețeta" section.
+            self.assertIn("Caut rapid în cele", history[-3]["content"])
+            fragments_html = history[-2]["content"]
+            generate_html = history[-1]["content"]
+            self.assertIn("generate-recipe-panel", generate_html)
+            self.assertIn("Generează rețeta", generate_html)
             self.assertNotIn("Fragmentele relevante", fragments_html)
             self.assertIn("Am găsit", fragments_html)
             self.assertIn("1 fragmente", fragments_html)
@@ -783,10 +785,10 @@ class WebTests(unittest.TestCase):
             self.assertIn("plan.md", fragments_html)
             self.assertIn("Scor relevanță", fragments_html)
             self.assertIn("Total: 1 fragmente din 1 documente.", fragments_html)
-            self.assertEqual(row_update, main.gr.update(visible=True))
-            self.assertEqual(button_update, main.generate_button_ready_update())
+            ((search_id, search),) = main.store.get(sid_a, "tab-a").searches.items()
+            self.assertIn(f'gen-{search_id}"', generate_html)
             self.assertEqual(
-                main.store.get(sid_a, "tab-a").pending_evidence,
+                search.evidence,
                 {
                     "C1": {
                         "source": "documents/plan.md:1-5",
@@ -797,17 +799,20 @@ class WebTests(unittest.TestCase):
                 },
             )
 
-            history, row_update, button_update, _ = main.on_generate_report(req_a)
+            history, _ = main.on_generate_start(search_id, req_a)
+            self.assertIn("disabled", history[-1]["content"])
+            history, notice = main.on_generate_report(search_id, req_a)
+            self.assertEqual(notice, "")
             self.assertEqual(FakeAI.generate_calls, 1)
-            self.assertEqual(row_update, main.gr.update(visible=False))
-            self.assertIsNone(main.store.get(sid_a, "tab-a").pending_evidence)
+            self.assertEqual(main.store.get(sid_a, "tab-a").searches, {})
+            self.assertFalse(any("generate-recipe-panel" in m["content"] for m in history))
             send_report_mock.assert_not_called()
             # Chronological order: report, download panel, then the email offer.
             self.assertIn("Uz intern", history[-3]["content"])
             self.assertIn("Descarcă PDF", history[-2]["content"])
             self.assertEqual(history[-1]["content"], main.EMAIL_OFFER)
-            _, history, _ = main.on_message("prieten@example.com", req_a)
-            self.assertEqual(main.on_find_fragments(req_a)[0], history)
+            _, history = main.on_message("prieten@example.com", req_a)
+            self.assertEqual(main.on_find_fragments(req_a), history)
             send_report_mock.assert_called_once()
             self.assertEqual(send_report_mock.call_args.args[0], "Gripă și răceală")
             self.assertTrue(send_report_mock.call_args.args[1].startswith(b"%PDF-"))
@@ -841,47 +846,50 @@ class WebTests(unittest.TestCase):
             self.assertIsNotNone(main.store.get(sid_b, "tab-b"))
             main.store.delete(sid_b, "tab-b")
 
-    # Verify a second submission in the same session generates only for the latest problem.
-    def test_second_health_problem_replaces_first_report_context(self):
+    # Verify each search keeps its own "Generează rețeta" section and PDF in the same chat.
+    def test_each_search_keeps_its_own_generate_section_and_report(self):
         sid = "C" * 43
         request = FakeRequest(sid, "tab-latest-problem")
         FakeAI.generate_calls = 0
         FakeAI.report_profile = None
 
-        with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
+        with patch.object(main, "send_report", return_value="email_sent"), patch.object(
             main, "ai", FakeAI()
         ), patch.object(main, "retriever", FakeRetriever()):
             main.on_load(request)
             main.on_message("Gripă și răceală", request)
             main.on_find_fragments(request)
-            main.on_generate_report(request)
-            first_report_id = main.store.get(sid, "tab-latest-problem").report_id
-
-            _, history, generate_update = main.on_message("Migrenă", request)
+            main.on_message("Migrenă", request)
+            history = main.on_find_fragments(request)
             session = main.store.get(sid, "tab-latest-problem")
-            self.assertFalse(any("report-ready-panel" in m["content"] for m in history))
-            self.assertEqual(generate_update, main.gr.update(visible=False))
-            self.assertIsNone(session.report_id)
-            self.assertIsNone(session.report_bytes)
-            self.assertIsNone(session.pending_evidence)
             self.assertEqual(session.profile.health_problem, "Migrenă")
             self.assertEqual(session.profile.health_context, ["Migrenă"])
-            self.assertEqual(session.profile.transcript, [{"role": "user", "content": "Migrenă"}])
+            self.assertEqual(sum("generate-recipe-panel" in m["content"] for m in history), 2)
+            first_id, second_id = list(session.searches)
+            self.assertEqual(session.searches[first_id].profile["health_problem"], "Gripă și răceală")
 
-            main.on_find_fragments(request)
-            history, _, _, _ = main.on_generate_report(request)
-            session = main.store.get(sid, "tab-latest-problem")
+            # Generating the FIRST search uses its own problem, even though the chat moved on.
+            history, _ = main.on_generate_report(first_id, request)
+            self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
+            remaining = [m["content"] for m in history if "generate-recipe-panel" in m["content"]]
+            self.assertEqual(len(remaining), 1)
+            self.assertIn(f'gen-{second_id}"', remaining[0])
+            first_report_id = session.report_id
+
+            history, _ = main.on_generate_report(second_id, request)
             self.assertEqual(FakeAI.generate_calls, 2)
             self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
-            self.assertEqual(FakeAI.report_profile["health_context"], ["Migrenă"])
+            self.assertFalse(any("generate-recipe-panel" in m["content"] for m in history))
+            self.assertEqual(sum("Descarcă PDF" in m["content"] for m in history), 2)
             self.assertNotEqual(session.report_id, first_report_id)
-            self.assertIn("Descarcă PDF", history[-2]["content"])
-            send_report_mock.assert_not_called()
-            pdf_text = " ".join(
-                page.extract_text() for page in PdfReader(io.BytesIO(session.report_bytes)).pages
+
+            # Both PDFs stay downloadable, each for its own problem.
+            self.assertEqual(len(session.reports), 2)
+            first_text = " ".join(
+                page.extract_text() for page in PdfReader(io.BytesIO(session.reports[first_report_id].data)).pages
             )
-            self.assertIn("Migrenă", " ".join(pdf_text.split()))
-            self.assertNotIn("Gripă și răceală", " ".join(pdf_text.split()))
+            self.assertIn("Gripă și răceală", " ".join(first_text.split()))
+            self.assertNotIn("Migrenă", " ".join(first_text.split()))
 
         main.store.delete(sid, "tab-latest-problem")
 
@@ -896,9 +904,10 @@ class WebTests(unittest.TestCase):
             main.on_load(request)
             main.on_message("Gripă și răceală", request)
             main.on_find_fragments(request)
-            main.on_generate_report(request)
+            (search_id,) = main.store.get(sid, "tab-email-failure").searches
+            main.on_generate_report(search_id, request)
             with self.assertLogs("naturist.web", level="ERROR") as captured:
-                _, history, _ = main.on_message("prieten@example.com", request)
+                _, history = main.on_message("prieten@example.com", request)
 
         session = main.store.get(sid, "tab-email-failure")
         self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
@@ -934,6 +943,7 @@ class WebTests(unittest.TestCase):
         self.assertIn("font-family: Arial", main.APP_CSS)
         self.assertIn("assistant left, user right", main.APP_CSS)
         self.assertIn("#medical-chatbot .message:has(.report-ready-panel)", main.APP_CSS)
+        self.assertIn("#medical-chatbot .message:has(.generate-recipe-panel)", main.APP_CSS)
         self.assertIn("@media (max-width: 640px)", main.APP_CSS)
         self.assertIn("@media (prefers-reduced-motion: reduce)", main.APP_CSS)
         self.assertIn("#medical-chatbot .wrapper", main.APP_CSS)
@@ -956,6 +966,8 @@ class WebTests(unittest.TestCase):
             ".hero-title-block {\n    width: 100%;\n    max-width: none;\n    margin: 0;\n}",
             main.APP_CSS,
         )
+        self.assertIn("float: right", main.APP_CSS)
+        self.assertIn("shape-outside: circle(50%)", main.APP_CSS)
         self.assertIn('#health-message input[data-testid="textbox"]', main.APP_CSS)
         self.assertIn("font: 22px/1.15 Arial, sans-serif !important", main.APP_CSS)
         self.assertIn("height: 38px !important", main.APP_CSS)
