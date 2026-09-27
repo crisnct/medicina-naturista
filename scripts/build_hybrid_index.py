@@ -332,9 +332,13 @@ def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
 # Convert chunks into model inputs containing source context and passage text.
 def iter_embedding_inputs(chunks: Sequence[Chunk]) -> Iterator[str]:
     for chunk in chunks:
-        context = Path(chunk.source_relative_path).stem
+        lines = []
+        if chunk.category_id:
+            lines.append(chunk.category_id.replace("/", " > "))
+        lines.append(Path(chunk.source_relative_path).stem)
         if chunk.heading:
-            context += f"\n{chunk.heading}"
+            lines.append(chunk.heading)
+        context = "\n".join(lines)
         yield f"passage: {context}\n{chunk.text}"
 
 
