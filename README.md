@@ -225,8 +225,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `INDEX_DIR` | `data/hybrid_index` | Directorul indexului hibrid. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `MIN_RELEVANCE_PERCENT` | `10` | Pragul minim de potrivire (0–100, procent din scorul maxim posibil); fragmentele sub prag nu sunt afișate și nu sunt trimise către AI. |
-| `MAX_CONTEXT_CHARS` | `2400000` | Dimensiunea maximă (în caractere, serializat JSON) a fragmentelor trimise către AI; fragmentele cu scor mai mic care nu încap sunt eliminate și nu apar în UI. |
+| `MAX_CONTEXT_CHARS` | `2400000` | Dimensiunea maximă (în caractere, serializat JSON) a fragmentelor trimise către AI; fragmentele cu scor mai mic care nu încap sunt eliminate și nu apar în UI. Nu mai există un prag de relevanță separat — toate fragmentele găsite sunt candidate, iar acest buget e singurul loc unde unele sunt eliminate. |
 | `MERGE_MAX_PERCENT_DIFF` | `9` | Fragmentele vecine din același document se unesc doar dacă diferența dintre cel mai mare și cel mai mic scor procentual din grup este strict mai mică decât această valoare (puncte procentuale, 0–100; `0` dezactivează unirea). |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |

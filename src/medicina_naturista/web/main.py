@@ -5,6 +5,7 @@ import asyncio
 import hashlib
 import hmac
 import html
+import json
 import logging
 import os
 import re
@@ -76,19 +77,50 @@ OWNER_ONLY_MESSAGE = "Generarea rețetei nu este disponibilă momentan pentru ac
 WELCOME = "Bună ziua! 👋"
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.index_dir, settings.documents_dir)
-# Static starting markup for the "Filtrează sursele" panel, built once from
+# Static starting markup for the "Setează sursele" panel, built once from
 # the category tree Retriever loaded (None on an index built before category
 # support existed — the panel then shows an explanatory notice instead).
 # Rebuilding the index regenerates categories.json; picking it up here only
 # takes restarting the application, same as the rest of the loaded index.
 CATEGORY_FILTER_HTML = category_filter_panel_html(retriever.category_tree)
+# Default value for the hidden #category-selection field: every known
+# category, matching the panel's own default (every checkbox starts checked —
+# see category_filter_panel_html). Computed here, not left as "[]", so the
+# very first search — before category_filter.js has had a chance to run —
+# already carries the same "search everywhere" selection the checkboxes show,
+# instead of racing with the JS that would otherwise be the only thing to set it.
+DEFAULT_CATEGORY_SELECTION = (
+    json.dumps(sorted(retriever.category_tree.known_ids())) if retriever.category_tree is not None else "[]"
+)
+NO_CATEGORY_SELECTED_MESSAGE = (
+    "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Setează sursele” înainte de căutare."
+)
 EMAIL_OFFER = (
     "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
 )
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
-REPORT_STARTED = (
-    f"🔍 Caut rapid în cele {retriever.document_count} documente interne disponibile. Vă rog să așteptați."
-)
+
+
+# Documents the given category ids actually cover, for the "Caut rapid în
+# cele N documente" notice — the whole corpus (retriever.document_count) when
+# the index has no category tree (nothing to restrict by), otherwise the sum
+# of each selected category's own_documents (never total_documents, which
+# would double-count a folder together with its own subfolders if both ended
+# up selected). An id outside the known set (stale, or no tree at all) is
+# simply not counted, same as everywhere else category ids are consumed.
+def _document_count_for_categories(category_ids: set[str]) -> int:
+    tree = getattr(retriever, "category_tree", None)
+    if tree is None:
+        return getattr(retriever, "document_count", 0)
+    known = tree.known_ids()
+    return sum(tree.nodes[category_id].own_documents for category_id in category_ids if category_id in known)
+
+
+# Build the "Caut rapid în cele N documente..." notice for the categories
+# currently selected on the session.
+def _report_started_message(session: SessionData) -> str:
+    count = _document_count_for_categories(session.selected_categories)
+    return f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați."
 ai = XAIClient(settings)
 app = FastAPI(title="Chatbot naturist", docs_url=None, redoc_url=None, openapi_url=None)
 app.add_middleware(CORSMiddleware, allow_origins=[], allow_methods=[], allow_headers=[])
@@ -322,7 +354,7 @@ def on_message(message: str, request: gr.Request, categories_json: str = "[]"):
         _append(session, "user", message)
         session.profile.replace_health_problem(message)
         session.selected_categories = _parse_category_selection(categories_json)
-        _append(session, "assistant", REPORT_STARTED)
+        _append(session, "assistant", _report_started_message(session))
         logger.info(
             "user_message_accepted tab_id=%s chars=%s replaced_health_problem=%s health_context_entries=%s "
             "selected_categories=%s",
@@ -366,6 +398,15 @@ def on_find_fragments(request: gr.Request):
         if not session.profile.report_ready:
             logger.info("fragments_skipped tab_id=%s reason=health_problem_missing", session.tab_id)
             _append(session, "assistant", "Descrieți problema de sănătate înainte de căutare.")
+            return list(session.history)
+        # An index without category support (no categories.json) has no
+        # panel to select from, so it never requires a selection — only an
+        # index that actually loaded a category tree enforces this. getattr
+        # also covers test doubles standing in for `retriever` with no
+        # category_tree attribute at all.
+        if getattr(retriever, "category_tree", None) is not None and not session.selected_categories:
+            logger.info("fragments_skipped tab_id=%s reason=no_category_selected", session.tab_id)
+            _append(session, "assistant", NO_CATEGORY_SELECTED_MESSAGE)
             return list(session.history)
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
         # Show only what the AI request can carry (MAX_CONTEXT_CHARS), so the UI
@@ -518,7 +559,10 @@ with gr.Blocks(
             # on_message (see _parse_category_selection). Empty ("[]") means
             # every category — the panel's unopened default.
             category_selection = gr.Textbox(
-                value="[]", elem_id="category-selection", elem_classes=["hidden-control"], show_label=False
+                value=DEFAULT_CATEGORY_SELECTION,
+                elem_id="category-selection",
+                elem_classes=["hidden-control"],
+                show_label=False,
             )
             # elem_id lands on Gradio's own wrapper (a direct flex child of this
             # Column, unlike anything inside CATEGORY_FILTER_HTML) — the same

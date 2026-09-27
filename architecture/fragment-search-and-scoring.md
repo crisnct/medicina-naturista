@@ -65,7 +65,7 @@ Se rulează pentru fiecare dintre cele `N` interogări și întoarce **toate** f
 - **3.2.** Se rețin o singură dată datele fragmentului (prima apariție) și `found_by_lexical`, care devine adevărat dacă **oricare** interogare l-a găsit lexical.
 - **3.3.** Se înregistrează în log numărul de candidați pentru fiecare interogare.
 
-## 4. Scorul de relevanță și pragul
+## 4. Scorul de relevanță
 
 - **4.1.** Formula:
 
@@ -74,13 +74,12 @@ Se rulează pentru fiecare dintre cele `N` interogări și întoarce **toate** f
   ```
 
   Împărțirea la `N` menține plafonul la `RRF_MAX_SCORE`, indiferent de numărul de interogări.
-- **4.2.** Se păstrează doar fragmentele cu `relevance_percent >= MIN_RELEVANCE_PERCENT` (implicit `10`, interval 0–100).
-- **4.3.** Aceasta este **singura regulă de selecție**, comună panoului din UI și cererii către AI.
-- **4.4.** Repere pentru o singură interogare, fără potrivire lexicală: rangul semantic 1 dă ≈ 50%, iar pragul de 10% este atins până la rangul semantic ≈ 245 (`30,5 / (60 + rang) ≥ 0,10`). O potrivire lexicală exactă adaugă un al doilea termen, deci ridică scorul.
+- **4.2.** Nu există un prag minim de relevanță: **fiecare** candidat întors de `rank()`, pentru fiecare interogare, devine dovadă (după unirea vecinilor la pasul 5). Singurul loc unde un fragment poate fi eliminat mai târziu este bugetul `MAX_CONTEXT_CHARS`, aplicat o singură dată de `fit_evidence_to_context()` (vezi [final-report-generation.md](final-report-generation.md)), nu aici.
+- **4.3.** `relevance_percent` rămâne calculat și afișat (scorul din panoul UI), doar că nu mai e folosit ca regulă de selecție — e pur informativ pentru pacient.
 
 ## 5. Unirea fragmentelor vecine — `Retriever._merge_adjacent()`
 
-Se aplică doar fragmentelor păstrate la pasul 4.
+Se aplică tuturor candidaților rezultați la pasul 4 (nu mai există o etapă de filtrare între ele).
 
 - **5.1.** Grupează fragmentele după fișierul sursă.
 - **5.2.** În fiecare fișier le ordonează după `(line_start, line_end)`.
@@ -109,7 +108,7 @@ Se aplică doar fragmentelor păstrate la pasul 4.
   | `relevance_percent` | procentul reprezentantului (maximul din grup) |
   | `found_by_lexical` | adevărat dacă oricare membru a fost găsit lexical |
 
-- **6.5.** Se înregistrează în log numărul de interogări, candidați, fragmente peste prag, dovezi, caractere și surse unice.
+- **6.5.** Se înregistrează în log numărul de interogări, candidați, dovezi, caractere și surse unice.
 
 ## 7. Limitarea la bugetul de context — `fit_evidence_to_context()`
 
@@ -133,7 +132,6 @@ Se apelează în `on_find_fragments()`, imediat după `collect()`.
 
 | Variabilă | Implicit | Rol |
 |---|---|---|
-| `MIN_RELEVANCE_PERCENT` | 10 | Pragul minim al procentului de relevanță |
 | `MERGE_MAX_PERCENT_DIFF` | 9 | Diferența maximă de procent într-un grup unit |
 | `MAX_CONTEXT_CHARS` | 2.400.000 | Bugetul serializat al dovezilor |
 | `INDEX_DIR` | `data/hybrid_index` | Directorul indexului |
@@ -149,11 +147,10 @@ Problema de sănătate
     -> pentru fiecare: rang semantic (E5) + rang lexical (FTS5, frază exactă)
     -> hybrid_score = RRF pe cele două rangări, pentru toate fragmentele
     -> suma scorurilor pe interogări, împărțită la N
-    -> relevance_percent = scor / RRF_MAX_SCORE × 100
-    -> filtrare: relevance_percent >= MIN_RELEVANCE_PERCENT
+    -> relevance_percent = scor / RRF_MAX_SCORE × 100 (afișat, dar nu mai filtrează)
     -> unirea vecinilor (≤ 5 linii, diferență de procent < MERGE_MAX_PERCENT_DIFF)
     -> dovadă = interval unit, scor și procent ale celui mai bun membru
-    -> ordonare descrescătoare și limitare la MAX_CONTEXT_CHARS
+    -> ordonare descrescătoare și limitare la MAX_CONTEXT_CHARS (singurul filtru rămas)
     -> panou cu fragmente pentru pacient și, la cerere, payload către AI
 ```
 

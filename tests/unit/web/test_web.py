@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import io
+import json
 import os
 import tempfile
 import unittest
@@ -483,8 +484,10 @@ class WebTests(unittest.TestCase):
         self.assertEqual(handlers._parse_category_selection('[""]'), {""})
 
     # Verify on_message stores the parsed selection on the session before the
-    # chained retrieval step runs, and that omitting it (as every pre-existing
-    # caller in this file does) keeps defaulting to "every category".
+    # chained retrieval step runs. Omitting categories_json (as every
+    # pre-existing caller in this file does) parses to an empty set — no
+    # longer "every category" (see on_find_fragments below for what an empty
+    # set now means at search time).
     def test_on_message_stores_selected_categories_on_session(self):
         sid = "E" * 43
         request = FakeRequest(sid, "tab-categories")
@@ -498,6 +501,109 @@ class WebTests(unittest.TestCase):
         self.assertEqual(session.selected_categories, set())
 
         main.store.delete(sid, "tab-categories")
+
+    # Verify the "Caut rapid în cele N documente" notice reflects the
+    # documents covered by the selected categories, not the whole corpus —
+    # summed from own_documents (never total_documents, which would
+    # double-count a folder together with its own subfolders).
+    def test_report_started_message_counts_only_selected_categories(self):
+        class RetrieverWithCategories:
+            category_tree = CategoryTree(
+                root_id="",
+                nodes={
+                    "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer", "Centrul"), own_documents=0, total_documents=15),
+                    "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=4, total_documents=4),
+                    "Centrul": CategoryNode(id="Centrul", label="Centrul", parent="", children=("Centrul/Anatomie",), own_documents=0, total_documents=11),
+                    "Centrul/Anatomie": CategoryNode(id="Centrul/Anatomie", label="Anatomie", parent="Centrul", children=(), own_documents=11, total_documents=11),
+                },
+            )
+            document_count = 15
+
+        sid = "H" * 43
+        request = FakeRequest(sid, "tab-doc-count")
+        with patch.object(main, "retriever", RetrieverWithCategories()):
+            main.on_load(request)
+            main.on_message("Gripă", request, '["Cancer"]')
+            history = main.store.get(sid, "tab-doc-count").history
+            self.assertIn("Caut rapid în cele 4 documente", history[-1]["content"])
+
+            main.on_message("Migrenă", request, '["Cancer", "Centrul/Anatomie"]')
+            history = main.store.get(sid, "tab-doc-count").history
+            self.assertIn("Caut rapid în cele 15 documente", history[-1]["content"])
+
+            # An id the tree doesn't know (stale selection) contributes nothing.
+            main.on_message("Alergie", request, '["necunoscuta"]')
+            history = main.store.get(sid, "tab-doc-count").history
+            self.assertIn("Caut rapid în cele 0 documente", history[-1]["content"])
+        main.store.delete(sid, "tab-doc-count")
+
+    # An index with no category tree falls back to the whole-corpus count,
+    # exactly like before category filtering existed — regardless of what
+    # (if anything) is in the selection.
+    def test_report_started_message_falls_back_to_total_without_a_category_tree(self):
+        class RetrieverWithoutCategories:
+            category_tree = None
+            document_count = 42
+
+        with patch.object(main, "retriever", RetrieverWithoutCategories()):
+            self.assertEqual(main._document_count_for_categories(set()), 42)
+            self.assertEqual(main._document_count_for_categories({"anything"}), 42)
+
+    # Verify searching with nothing selected is refused with an explanatory
+    # message, and never reaches Retriever.collect() — only when the loaded
+    # index actually has a category tree to select from.
+    def test_on_find_fragments_rejects_empty_category_selection(self):
+        sid = "F" * 43
+        request = FakeRequest(sid, "tab-no-categories")
+
+        class RetrieverWithCategories:
+            category_tree = CategoryTree(
+                root_id="",
+                nodes={
+                    "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer",), own_documents=0, total_documents=1),
+                    "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=1, total_documents=1),
+                },
+            )
+            document_count = 1
+
+            def collect(self, session):
+                raise AssertionError("collect() must not run with nothing selected")
+
+        with patch.object(main, "retriever", RetrieverWithCategories()):
+            main.on_load(request)
+            main.on_message("Gripă și răceală", request, "[]")
+            history = main.on_find_fragments(request)
+
+        self.assertEqual(history[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
+        main.store.delete(sid, "tab-no-categories")
+
+    # An index with no category tree at all (no categories.json, or a test
+    # double standing in for one) never enforces a selection — collect() runs
+    # exactly as it always has, so existing deployments without a rebuilt
+    # index are unaffected.
+    def test_on_find_fragments_allows_empty_selection_without_a_category_tree(self):
+        sid = "G" * 43
+        request = FakeRequest(sid, "tab-no-tree")
+
+        with patch.object(main, "retriever", FakeRetriever()):
+            main.on_load(request)
+            main.on_message("Gripă și răceală", request, "[]")
+            history = main.on_find_fragments(request)
+
+        self.assertNotEqual(history[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
+        main.store.delete(sid, "tab-no-tree")
+
+    # The hidden #category-selection field's default value must match every
+    # category the loaded tree knows about — the panel itself starts with
+    # every checkbox checked, and this is what makes the very first search
+    # (before category_filter.js has run) carry the same selection.
+    def test_default_category_selection_matches_every_known_category(self):
+        if main.retriever.category_tree is None:
+            self.skipTest("current index has no category tree")
+        self.assertEqual(
+            json.loads(main.DEFAULT_CATEGORY_SELECTION),
+            sorted(main.retriever.category_tree.known_ids()),
+        )
 
     # Verify retrieval preserves both reflection and treatment-plan flu fragments.
     def test_flu_query_retrieves_reflection_fragment_from_internal_dictionary(self):
@@ -548,48 +654,36 @@ class WebTests(unittest.TestCase):
             "text": text,
         }
 
-    # Verify only fragments at or above MIN_RELEVANCE_PERCENT (of RRF_MAX_SCORE)
-    # are kept, with no word-overlap or lexical exemption, before neighbours merge.
-    def test_collect_keeps_only_fragments_above_relevance_threshold(self):
+    # Verify every candidate rank() returns becomes evidence — there is no
+    # relevance_percent floor any more (removed so a large selected category
+    # can no longer make a smaller one's fragments disappear from collect()
+    # itself; the only remaining cut is fit_evidence_to_context()'s
+    # MAX_CONTEXT_CHARS budget, downstream of collect(), tested separately).
+    def test_collect_keeps_every_candidate_regardless_of_relevance_percent(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = Retriever(settings.index_dir, settings.documents_dir)
-        retriever.min_relevance_percent = 10
+        # Four separate files, so none of this is about neighbour-merging
+        # (see test_merge_adjacent_* below for that) — purely about whether a
+        # low score still survives into evidence.
         ranked = [
-            self._ranked(1, "a.md", 1, 10, 0.50),                 # kept, shares no word with the query
-            self._ranked(2, "a.md", 12, 20, 0.05),                # below threshold, neighbour of 1
-            self._ranked(3, "b.md", 1, 5, 0.90, lexical=True),   # kept
-            self._ranked(4, "c.md", 1, 5, 0.09, lexical=True),    # lexical match, still below threshold
+            self._ranked(1, "a.md", 1, 5, 0.50),
+            self._ranked(2, "b.md", 1, 5, 0.05),  # would have failed the old default 10% threshold
+            self._ranked(3, "c.md", 1, 5, 0.90, lexical=True),
+            self._ranked(4, "d.md", 1, 5, 0.001, lexical=True),  # near-zero score, still kept
         ]
 
         with patch("medicina_naturista.ai.retrieval.rank", return_value=ranked):
             evidence = retriever.collect(session)
 
-        self.assertEqual(set(evidence), {"C1", "C3"})
-        # The weak neighbour is not pulled into the group.
-        self.assertEqual(evidence["C1"]["source"], "documents/a.md:1-10")
+        self.assertEqual(set(evidence), {"C1", "C2", "C3", "C4"})
         self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 50.0)
+        self.assertAlmostEqual(evidence["C2"]["relevance_percent"], 5.0)
         self.assertAlmostEqual(evidence["C3"]["relevance_percent"], 90.0)
+        self.assertAlmostEqual(evidence["C4"]["relevance_percent"], 0.1)
         self.assertFalse(evidence["C1"]["found_by_lexical"])
         self.assertTrue(evidence["C3"]["found_by_lexical"])
-
-    # Verify a fragment exactly at the threshold is kept and one just below is not.
-    def test_collect_threshold_is_inclusive(self):
-        profile = HealthProfile()
-        profile.set_health_problem("gripa")
-        session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
-        retriever.min_relevance_percent = 50
-        ranked = [
-            self._ranked(1, "a.md", 1, 5, 0.5),
-            self._ranked(2, "b.md", 1, 5, 0.4999),
-        ]
-
-        with patch("medicina_naturista.ai.retrieval.rank", return_value=ranked):
-            evidence = retriever.collect(session)
-
-        self.assertEqual(set(evidence), {"C1"})
 
     # Verify session.selected_categories reaches rank() as category_ids,
     # restricted to ids the loaded category tree actually knows about.
@@ -1105,6 +1199,25 @@ class WebTests(unittest.TestCase):
         self.assertIn('<ul class="cat-children" hidden>', panel)
         # No wrapping "select everything" row — the root itself is never rendered.
         self.assertNotIn('data-id=""', panel)
+        # Every checkbox starts checked — the default is "every category".
+        self.assertEqual(panel.count("<input type=\"checkbox\""), panel.count("checked>"))
+        self.assertIn(
+            '<input type="checkbox" class="cat-checkbox" data-id="Cancer" data-own="2" checked>', panel
+        )
+        self.assertIn(
+            '<input type="checkbox" class="cat-checkbox" data-id="Centrul/Anatomie" data-own="1" checked>',
+            panel,
+        )
+        # "Centrul" is a purely structural branch — data-own="0", never
+        # summed by category_filter.js's per-category document total.
+        self.assertIn(
+            '<input type="checkbox" class="cat-checkbox" data-id="Centrul" data-own="0" checked>', panel
+        )
+        self.assertIn("Setează sursele", panel)
+        self.assertIn("Selectează tot", panel)
+        # The whole-corpus total (root.total_documents) shown at the bottom,
+        # matching every checkbox starting checked.
+        self.assertIn('<p class="category-filter-total" data-category-total>Total: 3 documente selectate.</p>', panel)
 
     # A root with documents of its own (files with no folder) becomes one
     # more top-level, non-branching entry — never a wrapper around everything.
@@ -1132,6 +1245,23 @@ class WebTests(unittest.TestCase):
 
         self.assertIn("category-filter-unavailable", panel)
         self.assertNotIn("cat-checkbox", panel)
+
+    # Verify the checkbox and expand-toggle both render with a visible
+    # border, and that the JS sums each checked category's own document
+    # count (data-own) into the panel's bottom total whenever the selection
+    # changes.
+    def test_category_filter_panel_has_bordered_controls_and_live_document_total(self):
+        self.assertIn(".cat-checkbox {", main.APP_CSS)
+        checkbox_rule = main.APP_CSS.split(".cat-checkbox {", 1)[1].split("}", 1)[0]
+        self.assertIn("border:", checkbox_rule)
+
+        self.assertIn(".cat-toggle {", main.APP_CSS)
+        toggle_rule = main.APP_CSS.split(".cat-toggle {", 1)[1].split("}", 1)[0]
+        self.assertIn("border:", toggle_rule)
+        self.assertNotIn("border: 0", toggle_rule)
+
+        self.assertIn("data-category-total", main.CATEGORY_FILTER_JS)
+        self.assertIn("data-own", main.CATEGORY_FILTER_JS)
 
     # Verify PDF pagination, Romanian characters, citations, and bibliography links.
     def test_pdf_diacritics_and_pagination(self):
