@@ -144,8 +144,8 @@ def _match_type_label(item: dict) -> str:
 # hybrid_score from rank(), written by Retriever.collect() — so the whole
 # list is sorted purely by that value, descending, regardless of which
 # document or query produced it. The percentage shown to the patient is the
-# "relevance_percent" computed by Retriever.collect() (the same value it used to
-# drop fragments below MIN_RELEVANCE_PERCENT); the UI does not compute it.
+# "relevance_percent" computed by Retriever.collect() — every candidate, with
+# no relevance floor; the UI does not compute it.
 #
 # The title and "found N fragments" banner sit in their own header, kept
 # pinned above the scrollable fragment list (see .fragments-panel-header in

@@ -71,13 +71,15 @@ MESSAGE_HELPER_HTML = """
 
 
 # Render one category as a tree list item, recursing into its subfolders.
-# Every node — leaf or branch — gets its own checkbox: category_filter.js
-# makes checking a branch cascade to everything under it, and makes a
-# branch's own checkbox reflect the aggregate (checked/unchecked/mixed) of
-# its descendants. data-real="1" marks a category with documents of its own
-# (own_documents > 0) — the only ids category_filter.js ever serializes into
-# the hidden #category-selection field, since a purely structural branch
-# (subfolders only) is never a chunk's category_id (see ai/categories.py).
+# Every node — leaf or branch — gets its own checkbox, checked by default
+# (every category is selected until the patient narrows it down):
+# category_filter.js makes checking/unchecking a branch cascade to everything
+# under it, and makes a branch's own checkbox reflect the aggregate
+# (checked/unchecked/mixed) of its descendants. data-real="1" marks a
+# category with documents of its own (own_documents > 0) — the only ids
+# category_filter.js ever serializes into the hidden #category-selection
+# field, since a purely structural branch (subfolders only) is never a
+# chunk's category_id (see ai/categories.py).
 # force_leaf renders a node without its children list even if it has some —
 # used once, for the synthetic "documents with no subfolder" root entry,
 # whose real children are already rendered as separate top-level siblings.
@@ -98,7 +100,11 @@ def _category_node_html(tree: CategoryTree, node_id: str, *, force_leaf: bool = 
         '<div class="cat-row">'
         f"{toggle}"
         '<label class="cat-check-label">'
-        f'<input type="checkbox" class="cat-checkbox" data-id="{node_id_attr}">'
+        # data-own carries this node's own_documents (0 for a purely
+        # structural branch) — category_filter.js sums it over every checked
+        # data-real="1" checkbox for the total shown at the panel's bottom.
+        f'<input type="checkbox" class="cat-checkbox" data-id="{node_id_attr}" '
+        f'data-own="{node.own_documents}" checked>'
         f'<span class="cat-label-text">{label} <span class="cat-count">({node.total_documents})</span></span>'
         "</label>"
         "</div>"
@@ -114,11 +120,12 @@ def _category_node_html(tree: CategoryTree, node_id: str, *, force_leaf: bool = 
     )
 
 
-# Build the collapsible "Filtrează sursele" panel from the category tree
+# Build the collapsible "Setează sursele" panel from the category tree
 # loaded by Retriever (None when the current index predates category
 # support). Selection state lives entirely client-side, in category_filter.js
-# — this only renders the static starting markup, always fully unchecked
-# ("every category" is the unopened-panel default, per session.selected_categories).
+# — this only renders the static starting markup, always fully checked (every
+# category selected is the unopened-panel default; an empty selection is
+# rejected as an error before search runs — see main.on_find_fragments).
 def category_filter_panel_html(tree: CategoryTree | None) -> str:
     # No id on this outer <section> — main.py sets elem_id="category-filter-panel"
     # on the gr.HTML(...) call instead, so that id lands on Gradio's own wrapper
@@ -137,18 +144,24 @@ def category_filter_panel_html(tree: CategoryTree | None) -> str:
         top_items.append(_category_node_html(tree, tree.root_id, force_leaf=True))
     top_items.extend(_category_node_html(tree, child_id) for child_id in root.children)
     tree_html = f'<ul class="category-tree" data-category-tree>{"".join(top_items)}</ul>'
+    # Every checkbox starts checked, so the initial total is the whole
+    # corpus — root.total_documents already sums every category's own_documents.
+    total_documents = root.total_documents
     return (
         '<section class="category-filter-panel">'
         '<details class="category-filter-details">'
         '<summary class="category-filter-summary">'
-        '<span aria-hidden="true">🗂️</span> Filtrează sursele (opțional)'
+        '<span aria-hidden="true">🗂️</span> Setează sursele'
         "</summary>"
         '<div class="category-filter-body">'
         '<div class="category-filter-toolbar">'
         '<p class="category-filter-status" data-category-status>Se caută în toate sursele.</p>'
-        '<button type="button" class="category-filter-reset" data-category-reset>Toate sursele</button>'
+        '<button type="button" class="category-filter-reset" data-category-reset>Selectează tot</button>'
         "</div>"
         f"{tree_html}"
+        '<p class="category-filter-total" data-category-total>'
+        f"Total: {total_documents} documente selectate."
+        "</p>"
         "</div>"
         "</details>"
         "</section>"

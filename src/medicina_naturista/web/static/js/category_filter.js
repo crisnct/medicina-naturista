@@ -47,12 +47,32 @@
         }
     };
 
+    // Every category selected is the default/normal state ("search
+    // everywhere"); zero selected is an error state — on_find_fragments
+    // refuses to search and tells the patient to pick at least one source —
+    // so the status line calls that out instead of the composer.
     const updateStatus = (count) => {
         const status = panel()?.querySelector("[data-category-status]");
         if (!status) return;
-        status.textContent = count === 0
-            ? "Se caută în toate sursele."
-            : `Se caută doar în ${count} categorie${count === 1 ? "" : "i"} selectată${count === 1 ? "" : "e"}.`;
+        const total = root.querySelectorAll(realCheckboxSelector).length;
+        if (count === 0) {
+            status.textContent = "Nicio sursă selectată — căutarea va fi respinsă până bifați cel puțin una.";
+        } else if (count >= total) {
+            status.textContent = "Se caută în toate sursele.";
+        } else {
+            status.textContent = `Se caută doar în ${count} categorie${count === 1 ? "" : "i"} selectată${count === 1 ? "" : "e"}.`;
+        }
+    };
+
+    // Sum of own_documents (data-own) over every checked real checkbox — the
+    // count of actual documents the current selection covers, shown at the
+    // bottom of the panel. Never total_documents: that would double-count a
+    // folder together with its own (separately checkable) subfolders.
+    const updateTotal = (checkedBoxes) => {
+        const total = panel()?.querySelector("[data-category-total]");
+        if (!total) return;
+        const documents = checkedBoxes.reduce((sum, box) => sum + (Number(box.dataset.own) || 0), 0);
+        total.textContent = `Total: ${documents} document${documents === 1 ? "" : "e"} selectate.`;
     };
 
     // Push the checked real category ids into the hidden Gradio textbox the
@@ -60,16 +80,17 @@
     // value through the native setter (so React/Gradio notices it) and
     // dispatch "input" so the component picks it up.
     const serialize = () => {
-        const ids = Array.from(root.querySelectorAll(realCheckboxSelector))
-            .filter((box) => box.checked)
-            .map((box) => box.dataset.id);
+        const checkedBoxes = Array.from(root.querySelectorAll(realCheckboxSelector)).filter((box) => box.checked);
         const field = getHiddenField();
         if (field) {
             const prototype = field.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
-            Object.getOwnPropertyDescriptor(prototype, "value").set.call(field, JSON.stringify(ids));
+            Object.getOwnPropertyDescriptor(prototype, "value").set.call(
+                field, JSON.stringify(checkedBoxes.map((box) => box.dataset.id))
+            );
             field.dispatchEvent(new Event("input", { bubbles: true }));
         }
-        updateStatus(ids.length);
+        updateStatus(checkedBoxes.length);
+        updateTotal(checkedBoxes);
     };
 
     if (!window.__naturistCategoryFilterBound) {
@@ -103,16 +124,23 @@
             serialize();
         });
 
+        // "Selectează tot" restores the default state — every category
+        // checked — rather than clearing it, since an empty selection is
+        // now an error state, not a valid "search everywhere" shorthand.
         document.addEventListener("click", (event) => {
             if (!event.target.closest?.("[data-category-reset]")) return;
             if (!panel()?.contains(event.target)) return;
             root.querySelectorAll(".category-tree .cat-checkbox").forEach((box) => {
-                box.checked = false;
+                box.checked = true;
                 box.indeterminate = false;
             });
             serialize();
         });
     }
 
-    updateStatus(Array.from(root.querySelectorAll(realCheckboxSelector)).filter((box) => box.checked).length);
+    // Push the current (server-rendered, fully-checked by default) state
+    // into the hidden field on every load, so it never relies on the
+    // Textbox's own static default value staying in sync with the tree's
+    // markup — this is the single source of truth for what gets serialized.
+    serialize();
 }

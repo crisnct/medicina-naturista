@@ -66,13 +66,13 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 ## 6. Selecția, îmbinarea și asamblarea dovezilor — `Retriever.collect()`
 
 - **6.1.** Calculează `relevance_percent = suma_scorurilor / număr_interogări / RRF_MAX_SCORE × 100`.
-- **6.2.** Păstrează numai fragmentele cu `relevance_percent >= MIN_RELEVANCE_PERCENT` (implicit 10). Aceasta este **singura regulă de selecție**, comună panoului din UI și cererii către AI.
-- **6.3.** Grupează fragmentele păstrate din același fișier ale căror intervale de linii se suprapun sau sunt la cel mult 5 linii distanță (`NEIGHBOR_LINE_GAP`), doar cât timp diferența dintre cel mai mare și cel mai mic procent din grup rămâne strict sub `MERGE_MAX_PERCENT_DIFF` (implicit 9).
+- **6.2.** Nu se aplică niciun prag pe `relevance_percent` — toate fragmentele întoarse de `rank()`, pentru fiecare interogare, devin dovezi. Singura selecție rămasă e bugetul `MAX_CONTEXT_CHARS`, la pasul 7, comună panoului din UI și cererii către AI.
+- **6.3.** Grupează fragmentele din același fișier ale căror intervale de linii se suprapun sau sunt la cel mult 5 linii distanță (`NEIGHBOR_LINE_GAP`), doar cât timp diferența dintre cel mai mare și cel mai mic procent din grup rămâne strict sub `MERGE_MAX_PERCENT_DIFF` (implicit 9).
 - **6.4.** Ordonează grupurile după scorul celui mai bun membru, descrescător.
 - **6.5.** Pentru un grup cu un singur fragment, construiește textul cu `_context()`: adaugă titlul secțiunii și, pentru fragmente sub 600 de caractere, liniile apropiate din fișierul sursă (limitat la 1800 de caractere).
 - **6.6.** Pentru un grup cu mai multe fragmente, construiește textul cu `_group_context()`: liniile sursă ale intervalului unit; dacă fișierul nu este disponibil, textele membrilor în ordinea din fișier.
 - **6.7.** Fiecare dovadă primește ID-ul `C<chunk_id>` al celui mai bun membru și conține `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text`, `score`, `relevance_percent` și `found_by_lexical`.
-- **6.8.** Înregistrează în log numărul de interogări, candidați, fragmente peste prag, dovezi, caractere și surse unice.
+- **6.8.** Înregistrează în log numărul de interogări, candidați, dovezi, caractere și surse unice.
 
 ## 7. Afișarea fragmentelor pacientului — `_fragments_panel_html()`
 
@@ -153,8 +153,8 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 Mesajul utilizatorului („Trimite”)
     -> profilul sesiunii (problema înlocuiește contextul anterior)
     -> retrieval hibrid local (semantic E5 + lexical FTS5, RRF)
-    -> filtrare după MIN_RELEVANCE_PERCENT + îmbinarea fragmentelor vecine
-    -> limitare la MAX_CONTEXT_CHARS
+    -> îmbinarea fragmentelor vecine (fără filtrare pe relevanță)
+    -> limitare la MAX_CONTEXT_CHARS (singurul filtru)
     -> panou cu fragmentele găsite, afișat pacientului (fără AI)
     -> „Generează rețeta” (doar owner)
     -> o singură cerere structurată către xAI, cu exact fragmentele afișate

@@ -990,16 +990,24 @@ body,
     height: 20px;
     flex: 0 0 auto;
     padding: 0;
-    border: 0;
-    background: transparent;
+    border: 1px solid var(--nature-border);
+    border-radius: 5px;
+    background: var(--nature-surface);
     color: var(--nature-muted);
     cursor: pointer;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 18px;
     text-align: center;
 }
 
+.cat-toggle:hover {
+    border-color: var(--nature-primary);
+    color: var(--nature-primary);
+}
+
 .cat-toggle-spacer {
+    border-color: transparent;
+    background: transparent;
     cursor: default;
 }
 
@@ -1015,10 +1023,21 @@ body,
 .cat-checkbox {
     width: 16px;
     height: 16px;
+    border: 1px solid var(--nature-border);
+    border-radius: 4px;
     accent-color: var(--nature-primary);
 }
 
 .cat-count {
     color: var(--nature-muted);
     font-size: 12.5px;
+}
+
+.category-filter-total {
+    margin: 10px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid var(--nature-border);
+    color: var(--nature-text);
+    font-size: 13px;
+    font-weight: 700;
 }

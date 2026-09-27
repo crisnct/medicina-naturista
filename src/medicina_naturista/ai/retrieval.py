@@ -64,7 +64,6 @@ class Retriever:
     def __init__(self, index_dir: Path, documents_dir: Path) -> None:
         self.index_dir = index_dir.resolve()
         self.documents_dir = documents_dir.resolve()
-        self.min_relevance_percent = settings.min_relevance_percent
         self.merge_max_percent_diff = settings.merge_max_percent_diff
         if not (self.index_dir / "index.sqlite3").is_file():
             raise FileNotFoundError("Local retrieval index is missing.")
@@ -81,10 +80,9 @@ class Retriever:
             self.category_tree.known_ids() if self.category_tree is not None else frozenset()
         )
         logger.info(
-            "retriever_initialized index=%s min_relevance_percent=%s "
+            "retriever_initialized index=%s "
             "merge_max_percent_diff=%s document_count=%s category_count=%s",
             self.index_dir,
-            self.min_relevance_percent,
             self.merge_max_percent_diff,
             self.document_count,
             len(self._known_category_ids),
@@ -191,11 +189,19 @@ class Retriever:
         # session.selected_categories is patient-chosen source folders (see
         # medicina_naturista.ai.categories); getattr guards callers/test doubles
         # that predate this field. Unknown ids (a stale selection from before a
-        # reindex renamed/removed a folder) are dropped rather than rejected, and
-        # an empty result — nothing selected, or every id unknown — means "every
-        # category", exactly like a patient who never opened the filter.
+        # reindex renamed/removed a folder) are dropped rather than rejected.
+        # The panel now defaults to every category checked (main.py's
+        # DEFAULT_CATEGORY_SELECTION and category_filter_panel_html's initial
+        # markup both start fully checked; an empty selection is instead
+        # rejected before collect() is ever called — see on_find_fragments).
+        # Selecting literally every known category is still treated as "no
+        # filter" here (category_ids=None) so the common case — nobody having
+        # touched the panel — takes rank()'s cheaper unfiltered path instead
+        # of a same-result IN(...) query over every category id.
         requested_categories = getattr(session, "selected_categories", None) or ()
-        category_ids = frozenset(requested_categories) & self._known_category_ids or None
+        category_ids = frozenset(requested_categories) & self._known_category_ids
+        if not category_ids or category_ids == self._known_category_ids:
+            category_ids = None
         logger.info(
             "retrieval_started base_queries=%s search_queries=%s topic_words=%s "
             "requested_categories=%s applied_categories=%s",
@@ -228,36 +234,36 @@ class Retriever:
         # Multi-query RRF: a chunk's score is the sum of its per-query hybrid_score
         # (which itself fuses the semantic and lexical ranks, see ai/search.py)
         # divided by the number of queries run, so the ceiling stays RRF_MAX_SCORE.
-        # Its relevance_percent is that score as a percentage of the ceiling. Only
-        # fragments at or above MIN_RELEVANCE_PERCENT are kept: this is the single
-        # selection rule, shared by the UI panel and the request sent to the AI.
+        # Its relevance_percent is that score as a percentage of the ceiling.
+        #
+        # No relevance_percent threshold is applied here — every candidate rank()
+        # returned (across every query) becomes evidence, merged below. The only
+        # place a fragment is ever dropped now is fit_evidence_to_context()'s
+        # MAX_CONTEXT_CHARS budget cut (see medicina_naturista.ai.client), applied
+        # once, downstream, by the caller — not here.
         query_count = len(search_queries)
         relevance_percent = {
             chunk_id: total / query_count / RRF_MAX_SCORE * 100.0
             for chunk_id, total in score_sums.items()
         }
-        kept = {
-            chunk_id: result for chunk_id, result in chunks.items()
-            if relevance_percent[chunk_id] >= self.min_relevance_percent
-        }
 
-        # Neighbouring kept fragments of the same file are then merged into one
+        # Neighbouring fragments of the same file are then merged into one
         # evidence fragment. The merged fragment takes the id, heading, score and
         # relevance_percent of its best-scored member (the maximum, so a document
         # split into many pieces does not outrank a single strong one) and is
         # found_by_lexical if any member is.
         evidence: dict[str, dict[str, Any]] = {}
         merged: list[tuple[float, int, dict[str, Any]]] = []
-        for group in self._merge_adjacent(kept, relevance_percent, self.merge_max_percent_diff):
+        for group in self._merge_adjacent(chunks, relevance_percent, self.merge_max_percent_diff):
             best_id = max(group["members"], key=score_sums.__getitem__)
             merged.append((score_sums[best_id], best_id, group))
         merged.sort(key=lambda item: item[0], reverse=True)
         for best_sum, best_id, group in merged:
-            best = kept[best_id]
+            best = chunks[best_id]
             if len(group["members"]) == 1:
                 text = self._context(best)
             else:
-                text = self._group_context(group, kept, str(best.get("heading") or ""))
+                text = self._group_context(group, chunks, str(best.get("heading") or ""))
             evidence[f"C{best_id}"] = {
                 "source": f"documents/{group['path']}:{group['start']}-{group['end']}",
                 "text": text,
@@ -271,12 +277,10 @@ class Retriever:
             }
 
         logger.info(
-            "retrieval_completed queries=%s search_candidates=%s above_threshold=%s "
-            "min_relevance_percent=%s evidence_entries=%s evidence_chars=%s unique_sources=%s",
+            "retrieval_completed queries=%s search_candidates=%s "
+            "evidence_entries=%s evidence_chars=%s unique_sources=%s",
             len(search_queries),
             total_candidates,
-            len(kept),
-            self.min_relevance_percent,
             len(evidence),
             sum(len(item["text"]) for item in evidence.values()),
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),
