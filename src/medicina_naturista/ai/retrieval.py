@@ -9,6 +9,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+from medicina_naturista.ai.categories import CategoryTree, load_category_tree
 from medicina_naturista.ai.search import RRF_MAX_SCORE, rank
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import SessionData
@@ -72,13 +73,21 @@ class Retriever:
             self.document_count = connection.execute("SELECT COUNT(*) FROM files").fetchone()[0]
         finally:
             connection.close()
+        # None on an index built before category support existed (an older
+        # index has no categories.json) — collect() then never filters, which
+        # is the same as every category being selected.
+        self.category_tree: CategoryTree | None = load_category_tree(self.index_dir)
+        self._known_category_ids: frozenset[str] = (
+            self.category_tree.known_ids() if self.category_tree is not None else frozenset()
+        )
         logger.info(
             "retriever_initialized index=%s min_relevance_percent=%s "
-            "merge_max_percent_diff=%s document_count=%s",
+            "merge_max_percent_diff=%s document_count=%s category_count=%s",
             self.index_dir,
             self.min_relevance_percent,
             self.merge_max_percent_diff,
             self.document_count,
+            len(self._known_category_ids),
         )
 
     # Expand short indexed excerpts with nearby source lines when the file is available.
@@ -179,11 +188,22 @@ class Retriever:
             if key not in seen_queries:
                 seen_queries.add(key)
                 search_queries.append(query)
+        # session.selected_categories is patient-chosen source folders (see
+        # medicina_naturista.ai.categories); getattr guards callers/test doubles
+        # that predate this field. Unknown ids (a stale selection from before a
+        # reindex renamed/removed a folder) are dropped rather than rejected, and
+        # an empty result — nothing selected, or every id unknown — means "every
+        # category", exactly like a patient who never opened the filter.
+        requested_categories = getattr(session, "selected_categories", None) or ()
+        category_ids = frozenset(requested_categories) & self._known_category_ids or None
         logger.info(
-            "retrieval_started base_queries=%s search_queries=%s topic_words=%s",
+            "retrieval_started base_queries=%s search_queries=%s topic_words=%s "
+            "requested_categories=%s applied_categories=%s",
             len(queries),
             len(search_queries),
             len(topic_words),
+            len(requested_categories),
+            len(category_ids) if category_ids else 0,
         )
         total_candidates = 0
         # Per chunk: the sum of its hybrid_score over every query. rank() returns
@@ -192,7 +212,7 @@ class Retriever:
         chunks: dict[int, dict[str, Any]] = {}
         found_by_lexical: dict[int, bool] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
-            candidates = rank(self.index_dir, search_query)
+            candidates = rank(self.index_dir, search_query, category_ids=category_ids)
             total_candidates += len(candidates)
             for result in candidates:
                 chunk_id = int(result["chunk_id"])

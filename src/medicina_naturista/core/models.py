@@ -115,6 +115,10 @@ class SessionData:
     # Set when the last chat message was an email address for the finished
     # report, so the chained retrieval step does not treat it as a health problem.
     email_request_handled: bool = False
+    # Source-folder categories (see medicina_naturista.ai.categories) the patient
+    # chose in the "Filtrează sursele" panel before the last search. Empty means
+    # every category — the panel's own default, unopened state.
+    selected_categories: set[str] = field(default_factory=set)
     lock: threading.RLock = field(default_factory=threading.RLock)
 
     def touch(self) -> None:
