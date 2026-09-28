@@ -10,9 +10,7 @@ export function GeneratePanel({
   return (
     <section className="generate-recipe-panel">
       <div className="generate-recipe-copy">
-        <strong>
-          Trimite-le la AI pentru a le combina și generează apoi documentul cu recomandări
-        </strong>
+        Trimite-le la AI pentru a le combina și generează apoi documentul cu recomandări
       </div>
       <button
         type="button"
