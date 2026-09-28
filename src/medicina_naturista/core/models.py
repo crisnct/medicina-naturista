@@ -100,7 +100,10 @@ class SessionData:
     created_at: float = field(default_factory=time.monotonic)
     last_seen: float = field(default_factory=time.monotonic)
     profile: HealthProfile = field(default_factory=HealthProfile)
-    history: list[dict[str, str]] = field(default_factory=list)
+    # Each entry is a small JSON-serializable dict distinguished by "kind"
+    # ("text", "fragments", "generate" or "download") — see web/handlers.py's
+    # message builders. Never HTML: the frontend renders each kind itself.
+    history: list[dict[str, Any]] = field(default_factory=list)
     report_bytes: bytes | None = None
     report_id: str | None = None
     # Evidence found by the retrieval-only stage, shown to the patient before
@@ -112,9 +115,6 @@ class SessionData:
     # Every generated PDF, keyed by report id; report_bytes/report_id above
     # always point at the latest one (used when the patient asks for it by email).
     reports: dict[str, StoredReport] = field(default_factory=dict)
-    # Set when the last chat message was an email address for the finished
-    # report, so the chained retrieval step does not treat it as a health problem.
-    email_request_handled: bool = False
     # Source-folder categories (see medicina_naturista.ai.categories) the patient
     # chose in the "Filtrează sursele" panel before the last search. Empty means
     # every category — the panel's own default, unopened state.

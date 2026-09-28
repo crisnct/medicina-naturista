@@ -96,7 +96,7 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 - **9.2.** Ordonează dovezile după `score`, descrescător, în înregistrări `id`, `source`, `text`. **Toate** sunt trimise nemodificate (fără compactare sau trunchiere); bugetul de context a fost deja aplicat la secțiunea 3.5.
 - **9.3.** Înregistrează inventarul fragmentelor trimise (textul este logat doar dacă `LOG_FRAGMENT_TEXT` este activ).
 - **9.4.** Construiește promptul utilizatorului: profilul medical serializat JSON și lista completă a fragmentelor admise; promptul de sistem este `ai/prompts/generate_report_system.md`.
-- **9.5.** `complete_json()` trimite o singură cerere către xAI Responses API (`{XAI_API_BASE}/responses`) cu `Authorization: Bearer GROK_API_KEY_MED`, modelul și nivelul de reasoning din configurare (implicit `grok-4.3`, `medium`), format `json_object`, `max_output_tokens=20000`, `store=false`, timeout 75 s (conectare 10 s).
+- **9.5.** `complete_json()` trimite o singură cerere către xAI Responses API (`{XAI_API_BASE}/responses`) cu `Authorization: Bearer X_API_KEY`, modelul și nivelul de reasoning din configurare (implicit `grok-4.3`, `medium`), format `json_object`, `max_output_tokens=20000`, `store=false`, timeout 75 s (conectare 10 s).
 - **9.6.** Lipsa cheii API sau erorile HTTP/conexiune/răspuns invalid devin `AIUnavailable` cu mesaj afișabil utilizatorului; se înregistrează statusul, durata, dimensiunea răspunsului și ID-ul cererii.
 - **9.7.** Verifică `status == "completed"`, concatenează blocurile `output_text`, parsează JSON-ul și respinge un răspuns gol sau care nu este obiect.
 - **9.8.** Normalizează cele cinci secțiuni: `uz_intern`, `nutritie`, `uz_extern`, `alte_recomandari`, `atentionari`.
