@@ -340,7 +340,7 @@ class XAIClient:
             len(user) // 4,
             len(entries),
         )
-        result = self.complete_json(self.generate_system_prompt, user, 25000)
+        result = self.complete_json(self.generate_system_prompt, user, 20000)
         sections: dict[str, list[dict[str, Any]]] = {name: [] for name in SECTIONS}
         for section in SECTIONS:
             items = result.get(section, [])

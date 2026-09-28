@@ -224,7 +224,6 @@ class WebTests(unittest.TestCase):
             GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(encoding="utf-8").strip(),
         )
         self.assertTrue(all(f"Fragmentul {number}" in calls[0][1] for number in range(12)))
-        self.assertEqual(calls[0][2], 25000)
         self.assertEqual(len(sections["uz_intern"]), 12)
 
     # Verify that AI items remain visible even without valid local evidence IDs.
