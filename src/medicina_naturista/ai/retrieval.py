@@ -3,13 +3,13 @@ from __future__ import annotations
 
 import logging
 import re
-import sqlite3
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
 from medicina_naturista.ai.categories import CategoryTree, load_category_tree
+from medicina_naturista.ai.db import get_pool
 from medicina_naturista.ai.search import RRF_MAX_SCORE, rank
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import SessionData
@@ -60,29 +60,20 @@ def consultation_queries(profile: Any) -> list[str]:
 
 
 class Retriever:
-    # Configure retrieval limits and verify that the local index is available.
-    def __init__(self, index_dir: Path, documents_dir: Path) -> None:
-        self.index_dir = index_dir.resolve()
+    # Configure retrieval limits and verify that the Postgres index is reachable.
+    def __init__(self, documents_dir: Path) -> None:
         self.documents_dir = documents_dir.resolve()
         self.merge_max_percent_diff = settings.merge_max_percent_diff
-        if not (self.index_dir / "index.sqlite3").is_file():
-            raise FileNotFoundError("Local retrieval index is missing.")
-        connection = sqlite3.connect(self.index_dir / "index.sqlite3")
-        try:
-            self.document_count = connection.execute("SELECT COUNT(*) FROM files").fetchone()[0]
-        finally:
-            connection.close()
-        # None on an index built before category support existed (an older
-        # index has no categories.json) — collect() then never filters, which
-        # is the same as every category being selected.
-        self.category_tree: CategoryTree | None = load_category_tree(self.index_dir)
+        with get_pool().connection() as connection:
+            self.document_count = connection.execute("SELECT COUNT(*) FROM documents").fetchone()[0]
+        # None when no document has been synced yet — collect() then never
+        # filters, which is the same as every category being selected.
+        self.category_tree: CategoryTree | None = load_category_tree()
         self._known_category_ids: frozenset[str] = (
             self.category_tree.known_ids() if self.category_tree is not None else frozenset()
         )
         logger.info(
-            "retriever_initialized index=%s "
-            "merge_max_percent_diff=%s document_count=%s category_count=%s",
-            self.index_dir,
+            "retriever_initialized merge_max_percent_diff=%s document_count=%s category_count=%s",
             self.merge_max_percent_diff,
             self.document_count,
             len(self._known_category_ids),
@@ -218,7 +209,7 @@ class Retriever:
         chunks: dict[int, dict[str, Any]] = {}
         found_by_lexical: dict[int, bool] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
-            candidates = rank(self.index_dir, search_query, category_ids=category_ids)
+            candidates = rank(search_query, category_ids=category_ids)
             total_candidates += len(candidates)
             for result in candidates:
                 chunk_id = int(result["chunk_id"])

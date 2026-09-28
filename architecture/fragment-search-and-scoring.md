@@ -1,6 +1,6 @@
 # Fluxul de căutare, unire și scoring al fragmentelor
 
-**Intrare:** problema de sănătate din profilul sesiunii și indexul hibrid din `data/hybrid_index`.
+**Intrare:** problema de sănătate din profilul sesiunii și indexul hibrid din Postgres.
 
 **Ieșire:** inventarul de dovezi (`evidence`): fragmente unite, filtrate după relevanță și ordonate descrescător, gata de afișat pacientului și de trimis către AI.
 
@@ -33,17 +33,17 @@ Se rulează pentru fiecare dintre cele `N` interogări și întoarce **toate** f
 
 ### 2.1. Semnalul semantic
 
-- **2.1.1.** Citește modelul și dimensiunea vectorilor din `manifest.json` și încarcă `embeddings.npy` prin mapare în memorie; validează forma `(fragmente, dimensiune)`.
+- **2.1.1.** Citește modelul și dimensiunea vectorilor din `sync_metadata` (Postgres) — scrise acolo de `build_hybrid_index.py` la fiecare sincronizare.
 - **2.1.2.** Încarcă modelul FastEmbed (ONNX) din `data/model_cache`, offline, păstrat în cache pe proces.
 - **2.1.3.** Generează vectorul E5 al interogării cu prefixul `query: ` și îl normalizează L2.
-- **2.1.4.** Calculează similaritatea (produs scalar) față de toți vectorii documentelor.
-- **2.1.5.** Ordonează toate fragmentele descrescător după similaritate. Fiecare primește un **rang semantic** de la 1 (cel mai similar) la `F` (cel mai puțin similar); nu există limită top-N.
+- **2.1.4.** Interoghează Postgres: `ORDER BY embedding <#> vector_interogare` (produs scalar negativ; cum toți vectorii sunt normalizați L2, ordinea este identică cu similaritatea cosinus), peste tot subsetul filtrat pe categorie, fără `LIMIT`.
+- **2.1.5.** `ROW_NUMBER()` peste acea ordonare dă **rangul semantic** fiecărui fragment, de la 1 (cel mai similar) la `F` (cel mai puțin similar); nu există limită top-N — niciun index aproximativ (HNSW/ivfflat) nu e folosit, tocmai ca să nu existe acest cutoff.
 
 ### 2.2. Semnalul lexical
 
-- **2.2.1.** Convertește interogarea într-o expresie SQLite FTS5. Un text fără virgulă devine o **frază exactă** (cuvinte adiacente, în ordine, maximum 32). Segmentele separate prin virgulă devin fraze exacte combinate cu `OR`.
+- **2.2.1.** Convertește interogarea într-o expresie Postgres `tsquery`. Un text fără virgulă devine o **frază exactă** (`phraseto_tsquery`, cuvinte adiacente, în ordine, maximum 32). Segmentele separate prin virgulă devin fraze exacte combinate cu `||` (OR).
 - **2.2.2.** Nu există revenire la potrivirea pe cuvinte individuale: dacă fraza nu apare identic, fragmentul nu primește niciun scor lexical.
-- **2.2.3.** Preia din `chunks_fts` toate fragmentele potrivite, ordonate prin BM25, fără `LIMIT`. Ele primesc un **rang lexical** de la 1 în sus; celelalte nu au rang lexical.
+- **2.2.3.** Interoghează Postgres: fragmentele ale căror `text_search @@ tsquery`, ordonate prin `ts_rank_cd`, fără `LIMIT`. Ele primesc un **rang lexical** de la 1 în sus (`ROW_NUMBER()`); celelalte nu au rang lexical.
 
 ### 2.3. Fuziunea — Reciprocal Rank Fusion
 
@@ -134,7 +134,7 @@ Se apelează în `on_find_fragments()`, imediat după `collect()`.
 |---|---|---|
 | `MERGE_MAX_PERCENT_DIFF` | 9 | Diferența maximă de procent într-un grup unit |
 | `MAX_CONTEXT_CHARS` | 2.400.000 | Bugetul serializat al dovezilor |
-| `INDEX_DIR` | `data/hybrid_index` | Directorul indexului |
+| `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului |
 | `DOCUMENTS_DIR` | `data/documents` | Documentele sursă pentru extinderea contextului |
 
 Constantele din cod: `RRF_K = 60`, `NEIGHBOR_LINE_GAP = 5`, lungimea minimă a unui cuvânt relevant 4, pragul de extindere a contextului 600 de caractere.

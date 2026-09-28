@@ -1,39 +1,54 @@
 """Tests for medicina_naturista.ai.categories (loading the category tree)."""
 from __future__ import annotations
 
-import json
-import tempfile
 import unittest
-from pathlib import Path
 
+from medicina_naturista.ai import db as db_module
 from medicina_naturista.ai.categories import load_category_tree
+from tests.support.postgres import PostgresFixture
+
+_fixture = PostgresFixture()
+
+
+def setUpModule():
+    _fixture.start()
+
+
+def tearDownModule():
+    _fixture.stop()
+
+
+# Insert a minimal `documents` row with just the columns load_category_tree()
+# reads. category_id is a GENERATED column (derived from relative_path, see
+# db.py's SCHEMA_SQL) — it is never inserted explicitly.
+def _insert_document(relative_path: str) -> None:
+    with db_module.get_pool().connection() as connection:
+        connection.execute(
+            """
+            INSERT INTO documents (relative_path, absolute_path, size_bytes, modified_utc,
+                                    sha256, encoding, line_count, char_count)
+            VALUES (%s, %s, 1, now(), 'hash', 'utf-8', 1, 1)
+            """,
+            (relative_path, f"C:/documents/{relative_path}"),
+        )
+        connection.commit()
 
 
 class LoadCategoryTreeTests(unittest.TestCase):
     def setUp(self):
-        self.tmp = tempfile.TemporaryDirectory()
-        self.addCleanup(self.tmp.cleanup)
-        self.index_dir = Path(self.tmp.name)
+        _fixture.reset()
 
-    # An index built before category support existed has no categories.json —
-    # callers must treat that as "no filtering available", not as an error.
-    def test_returns_none_when_categories_file_is_missing(self):
-        self.assertIsNone(load_category_tree(self.index_dir))
+    # No document has been synced yet — callers must treat that as "no
+    # filtering available", not as an error.
+    def test_returns_none_when_no_documents_are_synced(self):
+        self.assertIsNone(load_category_tree())
 
     def test_loads_nodes_and_known_ids_exclude_structural_branches(self):
-        payload = {
-            "version": 1,
-            "root_id": "",
-            "nodes": {
-                "": {"id": "", "label": "(fără categorie)", "parent": None, "children": ["Cancer", "Centrul"], "own_documents": 0, "total_documents": 3},
-                "Cancer": {"id": "Cancer", "label": "Cancer", "parent": "", "children": [], "own_documents": 2, "total_documents": 2},
-                "Centrul": {"id": "Centrul", "label": "Centrul", "parent": "", "children": ["Centrul/Anatomie"], "own_documents": 0, "total_documents": 1},
-                "Centrul/Anatomie": {"id": "Centrul/Anatomie", "label": "Anatomie", "parent": "Centrul", "children": [], "own_documents": 1, "total_documents": 1},
-            },
-        }
-        (self.index_dir / "categories.json").write_text(json.dumps(payload), encoding="utf-8")
+        _insert_document("Cancer/a.md")
+        _insert_document("Cancer/b.md")
+        _insert_document("Centrul/Anatomie/c.md")
 
-        tree = load_category_tree(self.index_dir)
+        tree = load_category_tree()
 
         self.assertIsNotNone(tree)
         self.assertEqual(tree.root_id, "")

@@ -15,7 +15,8 @@ from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 
 from medicina_naturista.ai.categories import CategoryNode, CategoryTree
-from medicina_naturista.ai.search import RRF_MAX_SCORE, _normalize_fastembed_metadata
+from medicina_naturista.ai.embedding_model import _normalize_fastembed_metadata
+from medicina_naturista.ai.search import RRF_MAX_SCORE
 from medicina_naturista.web import handlers, main
 from medicina_naturista.web.ui import category_filter_panel_html
 from medicina_naturista.reporting import pdf as reports_module
@@ -199,7 +200,7 @@ class WebTests(unittest.TestCase):
             GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(encoding="utf-8").strip(),
         )
         self.assertTrue(all(f"Fragmentul {number}" in calls[0][1] for number in range(12)))
-        self.assertEqual(calls[0][2], 20000)
+        self.assertEqual(calls[0][2], 25000)
         self.assertEqual(len(sections["uz_intern"]), 12)
 
     # Verify that AI items remain visible even without valid local evidence IDs.
@@ -610,7 +611,7 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever = Retriever(settings.documents_dir)
         evidence = retriever.collect(session)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
@@ -663,7 +664,7 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever = Retriever(settings.documents_dir)
         # Four separate files, so none of this is about neighbour-merging
         # (see test_merge_adjacent_* below for that) — purely about whether a
         # low score still survives into evidence.
@@ -691,11 +692,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"Cancer", "necunoscuta"}})()
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever = Retriever(settings.documents_dir)
         retriever._known_category_ids = frozenset({"Cancer", "Sex"})
         captured_kwargs = []
 
-        def fake_rank(_index_dir, _query, **kwargs):
+        def fake_rank(_query, **kwargs):
             captured_kwargs.append(kwargs.get("category_ids"))
             return []
 
@@ -712,11 +713,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"necunoscuta"}})()
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever = Retriever(settings.documents_dir)
         retriever._known_category_ids = frozenset({"Cancer", "Sex"})
         captured_kwargs = []
 
-        def fake_rank(_index_dir, _query, **kwargs):
+        def fake_rank(_query, **kwargs):
             captured_kwargs.append(kwargs.get("category_ids"))
             return []
 
@@ -733,7 +734,7 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever = Retriever(settings.documents_dir)
         retriever._known_category_ids = frozenset({"Cancer"})
 
         with patch("medicina_naturista.ai.retrieval.rank", return_value=[]):
@@ -799,7 +800,7 @@ class WebTests(unittest.TestCase):
     # Verify a merged group reads its whole united line range from the source
     # file, and falls back to the members' texts when the file is missing.
     def test_group_context_reads_united_range_or_falls_back_to_member_texts(self):
-        retriever = Retriever(settings.index_dir, settings.documents_dir)
+        retriever = Retriever(settings.documents_dir)
         chunks = {
             1: {"text": "primul"},
             2: {"text": "al doilea"},

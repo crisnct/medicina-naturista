@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
-"""Offline hybrid search over the generated local medical index."""
+"""Offline hybrid search over the Postgres-backed medical index: pgvector
+cosine similarity for the semantic signal, tsvector phrase matching for the
+lexical signal, combined with Reciprocal Rank Fusion (RRF)."""
 
 from __future__ import annotations
 
 import argparse
 import json
-import math
-import os
 import re
-import sqlite3
 import sys
-from functools import lru_cache
-from pathlib import Path
 
 import numpy as np
+from psycopg.rows import namedtuple_row
+
+from medicina_naturista.ai.db import get_pool
+from medicina_naturista.ai.embedding_model import cached_query_model
+from medicina_naturista.config import settings
 
 # Reciprocal Rank Fusion constant used to combine semantic and lexical ranks
 # into hybrid_score (see rank() below). A fragment ranked #1 by both signals
@@ -24,62 +26,37 @@ RRF_K = 60.0
 RRF_MAX_SCORE = 2.0 / (RRF_K + 1.0)
 
 
-# Normalize cached FastEmbed metadata paths so Windows caches work in Linux containers.
-def _normalize_fastembed_metadata(cache_dir: Path) -> None:
-    """Make FastEmbed metadata created on Windows portable to Linux containers."""
-    for metadata_file in cache_dir.glob("models--*/files_metadata.json"):
-        try:
-            metadata = json.loads(metadata_file.read_text(encoding="utf-8"))
-            normalized = {str(path).replace("\\", "/"): value for path, value in metadata.items()}
-            if normalized != metadata:
-                metadata_file.write_text(
-                    json.dumps(normalized, ensure_ascii=False),
-                    encoding="utf-8",
-                )
-        except (OSError, ValueError, TypeError):
-            continue
+# Read the embedding model name/dimension the currently-synced index was
+# built with (see scripts/build_hybrid_index.py's sync_metadata upsert) —
+# the query-time replacement for manifest.json's "embedding" section.
+def _embedding_metadata(cursor) -> tuple[str, int]:
+    rows = dict(
+        cursor.execute(
+            "SELECT key, value FROM sync_metadata WHERE key IN ('model_name', 'model_dimension')"
+        ).fetchall()
+    )
+    if "model_name" not in rows or "model_dimension" not in rows:
+        raise RuntimeError("Index has not been synced yet (sync_metadata is empty).")
+    return rows["model_name"], int(rows["model_dimension"])
 
 
-@lru_cache(maxsize=4)
-# Load or register the offline FastEmbed model used for semantic search.
-def create_model(model_name: str, dimension: int, cache_dir: Path):
-    os.environ.setdefault("HF_HUB_OFFLINE", "1")
-    os.environ.setdefault("ORT_DISABLE_TELEMETRY", "1")
-    _normalize_fastembed_metadata(cache_dir)
-    from fastembed import TextEmbedding
-
-    supported = {item["model"] for item in TextEmbedding.list_supported_models()}
-    if model_name not in supported:
-        from fastembed.common.model_description import ModelSource, PoolingType
-
-        TextEmbedding.add_custom_model(
-            model=model_name,
-            pooling=PoolingType.MEAN,
-            normalization=True,
-            sources=ModelSource(hf=model_name),
-            dim=dimension,
-            model_file="onnx/model.onnx",
-        )
-    return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=max(1, (os.cpu_count() or 2) - 1))
-
-
-# Build a single FTS5 phrase clause from a text segment (words in exact, adjacent order).
-def _fts_phrase(segment: str) -> str | None:
+# Extract up to 32 words from a text segment, space-joined — the raw phrase
+# text handed to Postgres's phraseto_tsquery(), which turns adjacent words
+# into a strict "followed by" (<->) tsquery on its own; never build tsquery
+# syntax by hand from user text.
+def _phrase_words(segment: str) -> str | None:
     words = re.findall(r"[^\W_]+", segment, flags=re.UNICODE)[:32]
-    if not words:
-        return None
-    joined = " ".join(words)
-    return f'"{joined.replace(chr(34), chr(34) * 2)}"'
+    return " ".join(words) if words else None
 
 
-# Convert user text into a bounded SQLite FTS5 query: comma-separated segments become
-# separate exact-phrase clauses combined with OR; a segment with 2+ words is searched
-# as a strict phrase (words adjacent, in that order).
-def fts_query(text: str) -> str:
-    if "," in text:
-        clauses = [_fts_phrase(segment) for segment in text.split(",")]
-        return " OR ".join(clause for clause in clauses if clause)
-    return _fts_phrase(text) or ""
+# Convert user text into the phrase texts a lexical query should OR together:
+# comma-separated segments each become one exact-phrase clause (words
+# adjacent, in that order); a plain segment yields a single clause. Empty
+# segments are dropped. Mirrors the old SQLite FTS5 fts_query()'s behaviour,
+# minus the SQL string-building — callers parameterize each phrase text.
+def fts_clauses(text: str) -> list[str]:
+    segments = text.split(",") if "," in text else [text]
+    return [phrase for phrase in (_phrase_words(segment) for segment in segments) if phrase]
 
 
 # Combine semantic and lexical rankings with reciprocal rank fusion. Both
@@ -94,105 +71,95 @@ def fts_query(text: str) -> str:
 # category_ids optionally restricts ranking to chunks whose category_id is
 # one of the given ids (see medicina_naturista.ai.categories) — None or an
 # empty set means every chunk, matching the pre-category behaviour exactly.
-# When given, BOTH signals are ranked over the filtered subset only, not
-# computed over the whole index and then filtered: filtering after the fact
-# would leave gaps in the rank sequence (e.g. semantic ranks 1, 4, 9, ...)
-# that skew every fragment's RRF score relative to a fresh ranking of just
-# that subset. Excluded chunks must never affect the ranks assigned to kept
-# ones.
-def rank(
-    index_dir: Path,
-    query: str,
-    category_ids: frozenset[str] | None = None,
-) -> list[dict[str, object]]:
-    manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
-    dimension = int(manifest["embedding"]["dimension"])
-    model_name = str(manifest["embedding"]["model"])
-    embeddings = np.load(index_dir / "embeddings.npy", mmap_mode="r", allow_pickle=False)
-    if embeddings.ndim != 2 or embeddings.shape[1] != dimension:
-        raise RuntimeError(f"Invalid embedding matrix shape: {embeddings.shape}")
+# When given, BOTH signals are ranked over the filtered subset only (the SQL
+# WHERE clause is applied before ROW_NUMBER() computes ranks), not computed
+# over the whole index and then filtered: filtering after the fact would
+# leave gaps in the rank sequence that skew every fragment's RRF score
+# relative to a fresh ranking of just that subset.
+def rank(query: str, category_ids: frozenset[str] | None = None) -> list[dict[str, object]]:
+    with get_pool().connection() as connection:
+        with connection.cursor(row_factory=namedtuple_row) as cursor:
+            model_name, dimension = _embedding_metadata(cursor)
+            model = cached_query_model(model_name, dimension, settings.model_cache_dir)
+            query_vector = np.asarray(list(model.query_embed([f"query: {query}"]))[0], dtype=np.float32)
+            query_vector /= np.linalg.norm(query_vector)
 
-    model = create_model(model_name, dimension, index_dir.parent / "model_cache")
-    query_vector = np.asarray(list(model.query_embed([f"query: {query}"]))[0], dtype=np.float32)
-    query_vector /= np.linalg.norm(query_vector)
+            category_filter = ""
+            semantic_params: dict[str, object] = {"qvec": query_vector}
+            if category_ids:
+                category_filter = "WHERE category_id = ANY(%(cats)s)"
+                semantic_params["cats"] = list(category_ids)
 
-    connection = sqlite3.connect(index_dir / "index.sqlite3")
-    connection.row_factory = sqlite3.Row
-    try:
-        if category_ids:
-            placeholders = ",".join("?" for _ in category_ids)
-            chunk_rows = connection.execute(
-                f"SELECT * FROM chunks WHERE category_id IN ({placeholders})",
-                tuple(category_ids),
+            # embedding <#> vector = negative inner product; vectors are unit
+            # length (see build_hybrid_index.py's embed_chunks()), so the
+            # inner product is genuine cosine similarity and ascending <#>
+            # order is descending similarity order. No LIMIT: every selected
+            # fragment gets a full-range semantic_rank (1 = most similar),
+            # matching the exhaustive numpy ranking the old index did.
+            semantic_rows = cursor.execute(
+                f"""
+                SELECT chunk_id, source_relative_path, source_absolute_path, line_start, line_end,
+                       heading, text, source_sha256,
+                       -(embedding <#> %(qvec)s) AS semantic_similarity,
+                       ROW_NUMBER() OVER (ORDER BY embedding <#> %(qvec)s) AS semantic_rank
+                FROM chunks
+                {category_filter}
+                """,
+                semantic_params,
             ).fetchall()
-        else:
-            chunk_rows = connection.execute("SELECT * FROM chunks").fetchall()
-        allowed_chunk_ids = {int(row["chunk_id"]) for row in chunk_rows} if category_ids else None
 
-        # Semantic ranking runs only over the rows selected above: fancy-index
-        # the embedding matrix down to that subset (a full-index unfiltered
-        # query skips this entirely and reuses the original mmap array).
-        if category_ids:
-            embedding_rows = np.asarray([row["embedding_row"] for row in chunk_rows], dtype=np.int64)
-            subset_embeddings = embeddings[embedding_rows]
-        else:
-            subset_embeddings = embeddings
-        subset_scores = np.asarray(subset_embeddings @ query_vector, dtype=np.float32)
-        # Every selected fragment is ranked semantically (no top-N cut-off), so
-        # each one always carries a semantic rank: 1 = most similar within the
-        # selected subset, len(subset) = least.
-        subset_order = np.argsort(-subset_scores, kind="stable")
-        semantic_rank_by_position = np.empty(len(subset_scores), dtype=np.int64)
-        semantic_rank_by_position[subset_order] = np.arange(1, len(subset_scores) + 1)
+            lexical_rank: dict[int, int] = {}
+            phrases = fts_clauses(query)
+            if phrases:
+                # Strict phrase match only — no fallback to individual words.
+                # If none of the phrase(s) appear verbatim, this fragment
+                # contributes nothing to the lexical signal. Every matching
+                # fragment is kept (no LIMIT), ranked by ts_rank_cd with
+                # normalization=1 (rank divided by 1+log(document length), so
+                # a short focused match outranks the same phrase buried in a
+                # much longer document — the closest built-in equivalent to
+                # BM25's own length normalization), then renumbered 1.. — so
+                # a category filter can never leave gaps in the lexical rank
+                # sequence.
+                tsquery_sql = " || ".join(["phraseto_tsquery('simple', unaccent(%s))"] * len(phrases))
+                lexical_params: list[object] = list(phrases)
+                lexical_filter = ""
+                if category_ids:
+                    lexical_filter = "AND category_id = ANY(%s)"
+                    lexical_params.append(list(category_ids))
+                lexical_rows = cursor.execute(
+                    f"""
+                    SELECT chunk_id,
+                           ROW_NUMBER() OVER (ORDER BY ts_rank_cd(text_search, query, 1) DESC) AS lexical_rank
+                    FROM chunks, (SELECT ({tsquery_sql}) AS query) AS q
+                    WHERE text_search @@ query {lexical_filter}
+                    """,
+                    lexical_params,
+                ).fetchall()
+                lexical_rank = {row.chunk_id: row.lexical_rank for row in lexical_rows}
 
-        lexical_rank: dict[int, int] = {}
-        lexical = fts_query(query)
-        if lexical:
-            # Strict phrase match only — no fallback to individual words. If the
-            # exact phrase (or, for comma-separated input, none of the exact
-            # phrases) isn't found verbatim, this fragment contributes nothing
-            # to the lexical signal. Every matching fragment is kept (no LIMIT).
-            # Matches outside the category filter are skipped, and the kept
-            # ones are renumbered 1.. in their original (bm25) order, so the
-            # lexical rank sequence has no gaps left by the skipped rows.
-            fts_rows = connection.execute(
-                "SELECT rowid FROM chunks_fts WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts)",
-                (lexical,),
-            ).fetchall()
-            next_lexical_rank = 1
-            for fts_row in fts_rows:
-                chunk_id = int(fts_row["rowid"])
-                if allowed_chunk_ids is not None and chunk_id not in allowed_chunk_ids:
-                    continue
-                lexical_rank[chunk_id] = next_lexical_rank
-                next_lexical_rank += 1
-
-        results: list[dict[str, object]] = []
-        for position, row in enumerate(chunk_rows):
-            chunk_id = int(row["chunk_id"])
-            semantic_rank = int(semantic_rank_by_position[position])
-            fragment_lexical_rank = lexical_rank.get(chunk_id)
-            score = 1.0 / (RRF_K + semantic_rank)
-            if fragment_lexical_rank is not None:
-                score += 1.0 / (RRF_K + fragment_lexical_rank)
-            results.append({
-                "chunk_id": chunk_id,
-                "hybrid_score": score,
-                "semantic_similarity": float(subset_scores[position]),
-                "lexical_rank": fragment_lexical_rank,
-                "found_by_lexical": fragment_lexical_rank is not None,
-                "source_relative_path": row["source_relative_path"],
-                "source_absolute_path": row["source_absolute_path"],
-                "line_start": row["line_start"],
-                "line_end": row["line_end"],
-                "heading": row["heading"],
-                "text": row["text"],
-                "source_sha256": row["source_sha256"],
-            })
-        results.sort(key=lambda item: item["hybrid_score"], reverse=True)
-        return results
-    finally:
-        connection.close()
+    results: list[dict[str, object]] = []
+    for row in semantic_rows:
+        fragment_lexical_rank = lexical_rank.get(row.chunk_id)
+        score = 1.0 / (RRF_K + row.semantic_rank)
+        if fragment_lexical_rank is not None:
+            score += 1.0 / (RRF_K + fragment_lexical_rank)
+        results.append({
+            "chunk_id": row.chunk_id,
+            "hybrid_score": score,
+            "semantic_similarity": float(row.semantic_similarity),
+            "lexical_rank": fragment_lexical_rank,
+            "found_by_lexical": fragment_lexical_rank is not None,
+            "source_relative_path": row.source_relative_path,
+            "source_absolute_path": row.source_absolute_path,
+            "line_start": row.line_start,
+            "line_end": row.line_end,
+            "heading": row.heading,
+            "text": row.text,
+            "source_sha256": row.source_sha256,
+        })
+    results.sort(key=lambda item: item["hybrid_score"], reverse=True)
+    return results
 
 
 # Parse search arguments, execute hybrid ranking, and print human or JSON results.
@@ -203,14 +170,9 @@ def main() -> None:
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()
     parser.add_argument("query")
-    parser.add_argument(
-        "--index",
-        type=Path,
-        default=Path(__file__).resolve().parents[3] / "data" / "hybrid_index",
-    )
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-    results = rank(args.index.resolve(), args.query)
+    results = rank(args.query)
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return

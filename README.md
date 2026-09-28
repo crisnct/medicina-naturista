@@ -23,8 +23,8 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 
 | 🧩 Componentă | Rol |
 |---|---|
-| **Index semantic** | Identifică fragmente apropiate ca sens cu vectori E5 de 384 dimensiuni. |
-| **Index lexical** | Găsește termeni exacți prin SQLite FTS5 și ordonare BM25. |
+| **Index semantic** | Identifică fragmente apropiate ca sens cu vectori E5 de 384 dimensiuni, stocați în Postgres (`pgvector`). |
+| **Index lexical** | Găsește termeni exacți prin `tsvector`/`ts_rank_cd` în Postgres. |
 | **Fuziune RRF** | Combină clasamentele semantic și lexical prin Reciprocal Rank Fusion. |
 | **Retriever medical** | Combină căutarea exactă, semantică și lexicală, apoi aplică pragul de relevanță și prioritățile medicale. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
@@ -38,7 +38,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
         ↓
 ✂️ fragmente coerente, cu sursă și interval de linii
         ↓
-🧠 embeddings E5  +  🔎 SQLite FTS5
+🧠 embeddings E5  +  🔎 tsvector, în Postgres/pgvector
         ↓
 ⚖️ fuziune RRF și prioritizarea dovezilor
         ↓
@@ -58,14 +58,13 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Limbaj și runtime** | Python 3.11, PowerShell |
 | **Interfață și API** | Gradio 6, FastAPI, Uvicorn |
 | **Embeddings locale** | FastEmbed, ONNX Runtime, `intfloat/multilingual-e5-small` |
-| **Calcul vectorial** | NumPy, cosine similarity pe vectori normalizați L2 |
-| **Căutare lexicală** | SQLite, FTS5, BM25 |
+| **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
 | **Fuziunea rezultatelor** | Reciprocal Rank Fusion — RRF (`k=60`) |
 | **Generare AI** | xAI Responses API, răspuns JSON structurat |
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
 | **Configurare** | python-dotenv, variabile de mediu |
-| **Rulare și publicare** | Docker, Docker Compose, Caddy |
+| **Rulare și publicare** | Docker, Docker Compose, Caddy, PostgreSQL (`pgvector/pgvector`) |
 | **Testare** | `unittest`, teste unitare și de integrare |
 
 ## 🗺️ Documentație de arhitectură
@@ -83,11 +82,10 @@ medicina-naturista/
 ├── architecture/                 # documentația fluxurilor principale
 ├── data/
 │   ├── documents/                # corpusul Markdown local
-│   ├── hybrid_index/             # indexul generat; ignorat de Git
 │   └── model_cache/              # modelul ONNX local; ignorat de Git
 ├── scripts/
-│   ├── build_hybrid_index.py     # construirea indexului
-│   ├── rebuild_index.ps1         # lansator PowerShell pentru rebuild
+│   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
+│   ├── rebuild_index.ps1         # lansator PowerShell pentru sincronizare
 │   ├── search_index.ps1          # căutare locală din terminal
 │   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
 │   ├── extract_pdf_text.py       # extragerea textului din PDF
@@ -118,7 +116,9 @@ py -3.11 -m venv .venv
 
 Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate.
 
-### 2. Construirea indexului
+Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`.
+
+### 2. Sincronizarea indexului
 
 ```powershell
 .\scripts\rebuild_index.ps1
@@ -130,7 +130,7 @@ Batch size-ul implicit este `64`; poate fi schimbat astfel:
 .\scripts\rebuild_index.ps1 -BatchSize 32
 ```
 
-Prima construire descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute. Următoarele căutări folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
+Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele. Rularea următoarelor căutări folosește modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
 
 ### 3. Căutarea locală
 
@@ -164,18 +164,17 @@ $env:PYTHONPATH = "src"
 
 Deschideți `http://127.0.0.1:7860`. Endpointul de stare este `http://127.0.0.1:7860/healthz`.
 
-## 📦 Artefactele indexului hibrid
+## 📦 Schema indexului hibrid (Postgres)
 
-Construirea reușită publică atomic șase fișiere în `data/hybrid_index/`:
+Sincronizarea scrie în trei tabele:
 
-| Fișier | Conținut |
+| Tabel | Conținut |
 |---|---|
-| `embeddings.npy` | Matricea semantică `float32`, normalizată L2. |
-| `index.sqlite3` | Metadate, fragmente și indexul lexical FTS5. |
-| `fragments.jsonl` | Export auditabil al fragmentelor și al intervalelor de linii. |
-| `source_manifest.jsonl` | Inventarul surselor, metadatele și SHA-256. |
-| `manifest.json` | Modelul, dimensiunea vectorilor și strategia de chunking. |
-| `SHA256SUMS.txt` | Sumele de control ale artefactelor principale. |
+| `documents` | Un rând per fișier sursă: cale, SHA-256, categorie — folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
+| `chunks` | Un rând per fragment: text, interval de linii, categorie, vectorul semantic (`embedding vector(384)`) și coloana lexicală (`text_search tsvector`). |
+| `sync_metadata` | Modelul de embeddings folosit și data ultimei sincronizări. |
+
+Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 
 Configurația curentă de chunking este:
 
@@ -189,7 +188,7 @@ OVERLAP_CHARS = 240
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `data/documents/`, `data/hybrid_index/`, `data/model_cache/` și fișierul local `.env` cu cheia xAI.
+Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` și fișierul local `.env` cu cheia xAI și `POSTGRES_PASSWORD`. Serviciul `db` (Postgres + `pgvector`) pornește automat împreună cu restul stivei.
 
 ```powershell
 docker compose build
@@ -198,7 +197,7 @@ docker compose ps
 Invoke-WebRequest http://localhost:7860/healthz
 ```
 
-Aplicația rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele și indexul sunt montate read-only, iar fișierele temporare folosesc `tmpfs`.
+Aplicația rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele sunt montate read-only, iar fișierele temporare folosesc `tmpfs`. Indexul locuiește în Postgres (volum named `pg_data`), nu mai e nevoie de bind-mount sau de oprirea aplicației la resincronizare.
 
 Oprire fără ștergerea stării Caddy:
 
@@ -222,7 +221,8 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
 | `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
-| `INDEX_DIR` | `data/hybrid_index` | Directorul indexului hibrid. |
+| `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
+| `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `MAX_CONTEXT_CHARS` | `2400000` | Dimensiunea maximă (în caractere, serializat JSON) a fragmentelor trimise către AI; fragmentele cu scor mai mic care nu încap sunt eliminate și nu apar în UI. Nu mai există un prag de relevanță separat — toate fragmentele găsite sunt candidate, iar acest buget e singurul loc unde unele sunt eliminate. |
@@ -265,7 +265,7 @@ Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebu
 
 ## 🔐 Confidențialitate și siguranță
 
-- 🔒 `.env`, cache-ul modelului și indexurile generate sunt ignorate de Git.
+- 🔒 `.env` și cache-ul modelului sunt ignorate de Git; indexul locuiește în Postgres, nu în fișiere din repo.
 - 🧭 fiecare fragment rămâne legat de fișierul și liniile sursă;
 - 🧹 conversațiile și PDF-urile sunt temporare, separate pe sesiune și eliminate la închiderea tabului, la expirare sau la repornirea aplicației;
 - 🚫 requesturile xAI folosesc `store=false`;

@@ -14,11 +14,17 @@ dependencies = [
     "gradio>=6,<7",
     "httpx>=0.28,<1",
     "numpy>=2.4,<3",
+    "pgvector>=0.3,<1",
+    "psycopg[binary]>=3,<4",
+    "psycopg-pool>=3,<4",
     "pypdf>=6,<7",
     "python-dotenv>=1,<2",
     "reportlab>=4.4,<5",
     "uvicorn>=0.35,<1",
 ]
+
+[project.optional-dependencies]
+dev = ["testcontainers[postgres]>=4,<5"]
 
 [project.scripts]
 medical-search = "medicina_naturista.ai.search:main"
