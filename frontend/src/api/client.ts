@@ -22,8 +22,16 @@ export class ApiError extends Error {
   }
 }
 
+// Vite's own base path (PUBLIC_BASE_PATH at build time — see vite.config.ts),
+// e.g. "/medicina/" behind the nginx/Caddy sub-path deployment, or "/" at the
+// domain root. Every API call must be prefixed with it too: unlike asset URLs
+// (which Vite rewrites automatically), a hand-written fetch("/api/...") is an
+// absolute path from the DOMAIN root, not from the app's own mount point — it
+// would reach the reverse proxy's root location instead of this app's.
+const API_BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(path, {
+  const response = await fetch(`${API_BASE}${path}`, {
     ...init,
     credentials: "same-origin",
     headers: {
