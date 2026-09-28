@@ -11,7 +11,6 @@ requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.115,<1",
     "fastembed>=0.8,<1",
-    "gradio>=6,<7",
     "httpx>=0.28,<1",
     "numpy>=2.4,<3",
     "pgvector>=0.3,<1",
@@ -41,9 +40,8 @@ medicina_naturista = [
     "ai/prompts/*.md",
     "ai/resources/*.txt",
     "reporting/assets/*.png",
-    "web/static/css/*.css",
-    "web/static/js/*.js",
     "web/static/images/*.svg",
+    "web/static/images/*.webp",
 ]
 
 [tool.pytest.ini_options]

@@ -1,13 +1,17 @@
-"""Reusable conversation rendering and Gradio event-result helpers."""
+"""Reusable conversation rendering and structured chat-message builders.
+
+Every chat message is a small JSON-serializable dict, distinguished by its
+"kind": "text" (plain assistant/user text), "fragments" (the retrieval
+results shown before generation), "generate" (the "Generează rețeta" call to
+action for one search) or "download" (the finished PDF link). The frontend
+renders each kind as its own component; nothing here produces HTML.
+"""
 from __future__ import annotations
 
-import html
-import json
 import os
 import re
+from typing import Any
 from urllib.parse import quote
-
-import gradio as gr
 
 from medicina_naturista.core.models import SessionData
 from medicina_naturista.reporting.pdf import (
@@ -19,62 +23,30 @@ from medicina_naturista.reporting.pdf import (
 )
 
 
-# Parse the JSON array category_filter.js writes into the hidden
-# #category-selection textbox (the checked real category ids) into a plain
-# set. Never raises: malformed, missing, or non-list/non-string input is
-# treated the same as no selection at all — "every category" — since that is
-# always a safe fallback, never a silent narrowing of the search.
-def _parse_category_selection(raw: str) -> set[str]:
-    try:
-        parsed = json.loads(raw or "[]")
-    except (TypeError, ValueError):
-        return set()
-    if not isinstance(parsed, list):
-        return set()
-    # "" is itself a valid category id (documents placed directly in the
-    # source root, see ROOT_CATEGORY_ID in build_hybrid_index.py), so it is
-    # not filtered out here — only non-string entries are.
-    return {item for item in parsed if isinstance(item, str)}
-
-
-def processing_button_update():
-    return gr.update(value="⏳ Caută...", interactive=False)
-
-
-def ready_button_update():
-    return gr.update(value="📨 Trimite", interactive=True)
+# Build a plain text chat message.
+def _text(role: str, content: str) -> dict[str, Any]:
+    return {"role": role, "kind": "text", "content": content}
 
 
 GENERATE_LABEL = "💊 Generează rețeta"
-GENERATE_BUSY_LABEL = "⏳ Se generează rețeta..."
 
 
-# Build the "Generează rețeta" section posted in the chat after a search. The
-# search id travels in a "gen-<id>" class (Gradio's sanitizer strips data-*
-# attributes); a small script in app.js forwards a click on the button to the
-# hidden Gradio button that runs the generation for that search.
-def _generate_panel_html(search_id: str, busy: bool = False) -> str:
-    attrs = ' disabled aria-disabled="true"' if busy else ""
-    label = GENERATE_BUSY_LABEL if busy else GENERATE_LABEL
-    return (
-        f'<section class="generate-recipe-panel gen-{search_id}">'
-        '<div class="generate-recipe-copy"><strong>Trimite-le la AI pentru a le combina și generează apoi '
-        'documentul cu recomandări</strong></div>'
-        f'<button type="button" class="generate-inline gen-{search_id}"{attrs}>{label}</button>'
-        '</section>'
-    )
+# Build the "Generează rețeta" call-to-action message for one search.
+def _generate_message(search_id: str, busy: bool = False) -> dict[str, Any]:
+    return {"role": "assistant", "kind": "generate", "searchId": search_id, "busy": busy}
 
 
-# Swap (or, with html=None, remove) the chat message holding one search's
-# "Generează rețeta" section, leaving every other message untouched.
-def _set_generate_panel(session: SessionData, search_id: str, new_html: str | None) -> None:
-    marker = f'class="generate-recipe-panel gen-{search_id}"'
+# Replace (or, with replacements=None, remove) the message holding one
+# search's "generate" call to action, splicing `replacements` in its place so
+# they land exactly where the removed message was — keeping chronological
+# order. Looks the message up by its typed searchId field, not by scanning
+# text for a marker.
+def _replace_generate_message(
+    session: SessionData, search_id: str, replacements: list[dict[str, Any]] | None
+) -> None:
     for index, message in enumerate(session.history):
-        if marker in message["content"]:
-            if new_html is None:
-                del session.history[index]
-            else:
-                session.history[index] = {"role": "assistant", "content": new_html}
+        if message.get("kind") == "generate" and message.get("searchId") == search_id:
+            session.history[index : index + 1] = replacements or []
             return
 
 
@@ -86,26 +58,21 @@ def _report_filename(session: SessionData, profile: dict | None = None) -> str:
     return f"{safe or 'Recomandări naturiste'}.pdf"
 
 
-# Build the session-scoped HTML link for downloading the generated PDF.
-def _download_html(session: SessionData, report_id: str | None = None, profile: dict | None = None) -> str:
+# Build the session-scoped download message for the generated PDF.
+def _download_message(
+    session: SessionData, report_id: str | None = None, profile: dict | None = None
+) -> dict[str, Any]:
     report_id = report_id or session.report_id
     if not report_id:
-        return ""
-    prefix = os.getenv("GRADIO_ROOT_PATH", "").rstrip("/")
+        return _text("assistant", "")
+    # Kept behind an env var read here (not cached Settings) so a reverse
+    # proxy that mounts the app under a sub-path (see PUBLIC_ROOT_PATH in the
+    # deployment Caddyfile/compose) can be changed without a restart, and so
+    # tests can monkeypatch it around a single call.
+    prefix = os.getenv("PUBLIC_ROOT_PATH", os.getenv("GRADIO_ROOT_PATH", "")).rstrip("/")
     url = f"{prefix}/api/reports/{quote(session.tab_id, safe='')}/{quote(report_id, safe='')}"
     filename = _report_filename(session, profile)
-    return (
-        '<section class="report-ready-panel" role="status" aria-live="polite">'
-        '<div class="report-ready-copy">'
-        '<span class="report-ready-icon" aria-hidden="true">✅</span>'
-        '<span><strong>Raportul complet este gata</strong>'
-        '<small>Îl puteți salva pentru a-l consulta oricând.</small></span>'
-        '</div>'
-        f'<a href="{html.escape(url, quote=True)}" download="{html.escape(filename, quote=True)}" '
-        'class="pdf-download" aria-label="Descarcă raportul complet în format PDF">'
-        '<span aria-hidden="true">📄</span> Descarcă PDF</a>'
-        '</section>'
-    )
+    return {"role": "assistant", "kind": "download", "reportId": report_id, "url": url, "filename": filename}
 
 
 # Collapse a fragment's whitespace/newlines into single spaces for display.
@@ -134,88 +101,52 @@ def _match_type_label(item: dict) -> str:
     return "Găsire " + " și ".join(found_labels)
 
 
-# Build the scrollable panel showing every retrieved fragment as a single
-# flat list, before the patient decides to send them to the AI. Only the
-# fragment text and its relevance line (score + match type + source
-# document, on one line) are shown — no chunk ids, line ranges, or other
-# internal metadata — per the patient-facing transparency requirement.
-#
-# Ordering: every fragment carries the same "score" field — its raw
-# hybrid_score from rank(), written by Retriever.collect() — so the whole
-# list is sorted purely by that value, descending, regardless of which
-# document or query produced it. The percentage shown to the patient is the
-# "relevance_percent" computed by Retriever.collect() — every candidate, with
-# no relevance floor; the UI does not compute it.
-#
-# The title and "found N fragments" banner sit in their own header, kept
-# pinned above the scrollable fragment list (see .fragments-panel-header in
-# app.css) so they stay visible while the patient scrolls. That banner used
-# to be posted as a separate chat message; it now lives here instead, so it
-# can carry its own styling and sit with no gap before the fragments — both
-# awkward to do reliably from inside a chat bubble shared with every other
-# assistant message.
-def _fragments_panel_html(evidence: dict) -> str:
-    if not evidence:
-        return ""
-    # (document, text, score, relevance_percent, match_label)
-    entries: list[tuple[str, str, float, float | None, str]] = []
+# Build the structured "fragments found" message shown before the patient
+# decides to send them to the AI — a single flat list, sorted by relevance
+# score (evidence's raw "score" field, from Retriever.collect()), descending.
+def _fragments_message(search_id: str, evidence: dict) -> dict[str, Any]:
+    entries: list[dict[str, Any]] = []
     all_documents: set[str] = set()
     for item in evidence.values():
         document = item["source"].split(":", 1)[0].removeprefix("documents/")
         all_documents.add(document)
-        entries.append((
-            document,
-            item["text"],
-            item.get("score", float("-inf")),
-            item.get("relevance_percent"),
-            _match_type_label(item),
-        ))
-    entries.sort(key=lambda entry: entry[2], reverse=True)
-
-    parts = ['<details class="fragments-panel-inner">']
-    parts.append(
-        '<summary class="fragments-panel-banner">'
-        f"Am găsit {len(evidence)} fragmente relevante în {len(all_documents)} documente locale "
-        "(le puteți vedea mai jos). Dacă vi se par potrivite, apăsați „Generează rețeta”."
-        "</summary>"
-    )
-    parts.append('<div class="fragments-panel-list">')
-    for document, text, _score, relevance_percent, match_label in entries:
-        line_parts = []
-        if relevance_percent is not None:
-            line_parts.append(f"Scor relevanță: {round(relevance_percent)}%")
-        if match_label:
-            line_parts.append(match_label)
-        line_parts.append(document)
-        score_line = ", ".join(html.escape(part) for part in line_parts)
-        parts.append('<div class="fragments-panel-fragment">')
-        parts.append(f'<p class="fragments-panel-fragment-text">{html.escape(_normalize_text(text))}</p>')
-        parts.append(f'<p class="fragments-panel-fragment-score">{score_line}</p>')
-        parts.append("</div>")
-    parts.append(
-        '<p class="fragments-panel-summary">'
-        f"Total: {len(evidence)} fragmente din {len(all_documents)} documente."
-        "</p>"
-    )
-    parts.append("</div>")
-    parts.append("</details>")
-    return "".join(parts)
+        entries.append({
+            "document": document,
+            "text": _normalize_text(item["text"]),
+            "score": item.get("score", float("-inf")),
+            "relevancePercent": item.get("relevance_percent"),
+            "matchLabel": _match_type_label(item),
+        })
+    entries.sort(key=lambda entry: entry["score"], reverse=True)
+    for entry in entries:
+        del entry["score"]
+    return {
+        "role": "assistant",
+        "kind": "fragments",
+        "searchId": search_id,
+        "fragmentsCount": len(evidence),
+        "documentsCount": len(all_documents),
+        "fragments": entries,
+    }
 
 
 # Append a chat message while keeping history bounded to recent entries.
-def _append(session: SessionData, role: str, content: str) -> None:
-    session.history.append({"role": role, "content": content})
+def _append(session: SessionData, message: dict[str, Any]) -> None:
+    session.history.append(message)
     if len(session.history) > 60:
         session.history = session.history[-60:]
 
 
 # Add an assistant question to both the visible history and the profile transcript.
 def _ask(session: SessionData, question: str) -> None:
-    _append(session, "assistant", question)
+    _append(session, _text("assistant", question))
     session.profile.add_transcript("assistant", question)
 
 
 # Render report sections and bibliography as the textual chatbot response.
+# Kept as one Markdown-flavoured string (rendered by the frontend), rather
+# than a fully structured payload, since the section/nutrition/citation
+# formatting rules here are shared with reporting/pdf.py's own numbering.
 def _recommendation_text(sections: dict, evidence: dict) -> str:
     labels = (
         ("uz_intern", "Uz intern"),

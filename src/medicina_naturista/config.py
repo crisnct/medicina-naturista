@@ -38,6 +38,7 @@ def _bool(name: str, default: bool) -> bool:
 class Settings:
     documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
     model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "data" / "model_cache")))
+    frontend_dist_dir: Path = Path(os.getenv("FRONTEND_DIST_DIR", str(ROOT / "frontend" / "dist")))
     database_url: str = os.getenv(
         "DATABASE_URL", "postgresql://medicina:medicina@127.0.0.1:5432/medicina"
     )

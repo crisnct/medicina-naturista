@@ -6,7 +6,7 @@
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Gradio](https://img.shields.io/badge/Gradio-6.x-FF7C00?logo=gradio&logoColor=white)](https://www.gradio.app/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Hybrid retrieval](https://img.shields.io/badge/Retrieval-Semantic%20%2B%20FTS5-6A5ACD)](#-cum-funcționează)
 [![License](https://img.shields.io/badge/License-Apache%202.0-D22128)](LICENSE)
 
@@ -56,7 +56,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | Zonă | Tehnologii |
 |---|---|
 | **Limbaj și runtime** | Python 3.11, PowerShell |
-| **Interfață și API** | Gradio 6, FastAPI, Uvicorn |
+| **Interfață și API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
 | **Embeddings locale** | FastEmbed, ONNX Runtime, `intfloat/multilingual-e5-small` |
 | **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
 | **Fuziunea rezultatelor** | Reciprocal Rank Fusion — RRF (`k=60`) |
@@ -92,12 +92,13 @@ medicina-naturista/
 │   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
 │   ├── text_to_markdown.py       # conversia textului în Markdown
 │   └── merge_book_pdfs.py        # combinarea părților de carte PDF
+├── frontend/                     # aplicația React/TypeScript (Vite)
 ├── src/medicina_naturista/
 │   ├── ai/                       # căutare, retrieval, client xAI și prompturi
 │   ├── core/                     # modele și sesiuni izolate
 │   ├── integrations/             # integrarea Gmail
 │   ├── reporting/                # generarea raportului PDF
-│   └── web/                      # FastAPI, Gradio și resursele UI
+│   └── web/                      # API JSON FastAPI (servește și build-ul React)
 ├── tests/                        # teste unitare și de integrare
 ├── docker-compose.yaml
 ├── Dockerfile
@@ -237,8 +238,8 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
 | `LOG_AI_RESPONSE_TEXT` | `false` | Include textul răspunsului xAI în loguri. |
 | `LOG_AI_RESPONSE_TEXT_MAX_CHARS` | `8000` | Limita textului răspunsului xAI logat. |
-| `GRADIO_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice Gradio, necesar când aplicația este expusă prin Caddy sub `/medicina`. |
-| `GRADIO_TEMP_DIR` | gestionat de Gradio / `/tmp/gradio-cache` (Docker Compose) | Cache temporar Gradio; setat de aplicație la directorul temporar izolat. |
+| `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă prin Caddy sub `/medicina` (folosit și la build-ul frontend-ului, ca `PUBLIC_BASE_PATH`). |
+| `FRONTEND_DIST_DIR` | `frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
 | `TRUST_PROXY` | `false` (direct) / `true` (Docker Compose) | Folosește primul IP din `X-Forwarded-For` pentru limitarea cererilor când traficul vine prin proxy de încredere. |
 
 Creșterea limitelor de retrieval și evidence poate mări timpul de procesare și dimensiunea requestului trimis către xAI. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.

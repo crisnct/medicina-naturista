@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import io
-import json
 import os
 import tempfile
 import unittest
@@ -18,7 +17,6 @@ from medicina_naturista.ai.categories import CategoryNode, CategoryTree
 from medicina_naturista.ai.embedding_model import _normalize_fastembed_metadata
 from medicina_naturista.ai.search import RRF_MAX_SCORE
 from medicina_naturista.web import handlers, main
-from medicina_naturista.web.ui import category_filter_panel_html
 from medicina_naturista.reporting import pdf as reports_module
 import medicina_naturista.ai.client as ai_module
 from medicina_naturista.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
@@ -29,12 +27,14 @@ from medicina_naturista.ai.retrieval import Retriever, _meaningful_words, consul
 from medicina_naturista.core.sessions import SessionStore
 
 
-class FakeRequest:
-    # Create the minimal request object required by the Gradio callbacks.
-    def __init__(self, sid: str, tab: str):
-        self.session_hash = tab
-        # Test requests come from the owner, the only visitor allowed to generate reports.
-        self.headers = {"cookie": f"naturist_sid={sid}; {main.OWNER_COOKIE}={main._owner_token()}"}
+# Build the request headers a real browser tab would send: the session
+# cookie plus the client-generated X-Tab-Id header (see TAB_ID_RE in
+# web/main.py — the replacement for Gradio's own request.session_hash).
+def _headers(sid: str, tab: str, owner: bool = False) -> dict:
+    cookie = f"{main.COOKIE}={sid}"
+    if owner:
+        cookie += f"; {main.OWNER_COOKIE}={main._owner_token()}"
+    return {"Cookie": cookie, "X-Tab-Id": tab}
 
 
 class FakeAI:
@@ -92,11 +92,20 @@ class FakeResponse:
         }
 
 
+def _by_kind(messages: list[dict], kind: str) -> dict:
+    return next(message for message in messages if message["kind"] == kind)
+
+
 class WebTests(unittest.TestCase):
     def setUp(self):
         owner_key = patch.dict(os.environ, {"OWNER_KEY": "synthetic-owner-key"})
         owner_key.start()
         self.addCleanup(owner_key.stop)
+        # Module-level rate limiting state (see web/main.py's rate_events)
+        # would otherwise accumulate across tests sharing one TestClient IP.
+        main.rate_events.clear()
+        self.client = TestClient(main.app, base_url="https://testserver")
+        self.addCleanup(self.client.close)
 
     # Verify that cached model metadata paths are normalized across operating systems.
     def test_fastembed_metadata_paths_are_portable_between_windows_and_linux(self):
@@ -284,7 +293,7 @@ class WebTests(unittest.TestCase):
             ],
         }
 
-        report = main._recommendation_text(sections, evidence)
+        report = handlers._recommendation_text(sections, evidence)
 
         self.assertLess(report.index("O sursa puternica"), report.index("Multe surse slabe"))
         self.assertLess(report.index("Puternic"), report.index("Slab"))
@@ -331,7 +340,7 @@ class WebTests(unittest.TestCase):
             "atentionari": [],
         }
 
-        report = main._recommendation_text(sections, {})
+        report = handlers._recommendation_text(sections, {})
 
         labels = [
             "**• Rețete culinare:**",
@@ -344,52 +353,6 @@ class WebTests(unittest.TestCase):
         self.assertLess(report.index("    - Salată de hrean"), report.index("    - Supă ușoară cu țelină"))
         self.assertLess(report.index("    - Supă ușoară cu țelină"), report.index("    - Ceai de ghimbir"))
         self.assertNotIn("• Rețete culinare:\n    - Rețete culinare", report)
-
-        combined_sections = {
-            "uz_intern": [],
-            "nutritie": [{
-                "text": (
-                    "Rețete culinare: Alimente recomandate: hrean, țelină. "
-                    "Alimente nerecomandate: zahăr. Alimente interzise:"
-                ),
-                "evidence_ids": [],
-            }],
-            "uz_extern": [],
-            "alte_recomandari": [],
-            "atentionari": [],
-        }
-        combined_report = main._recommendation_text(combined_sections, {})
-
-        self.assertIn("**• Alimente recomandate:** hrean, țelină.", combined_report)
-        self.assertIn("**• Alimente nerecomandate:** zahăr.", combined_report)
-        self.assertIn("**• Alimente total interzise:** -", combined_report)
-        self.assertNotIn("  **• Alimente recomandate:**", combined_report)
-
-        prefixed_sections = {
-            "uz_intern": [],
-            "nutritie": [{
-                "text": (
-                    "**[ALTE]**: probiotic. [RECOMANDAT]: hrean, țelină. "
-                    "**[RETETA]**: supă ușoară. **[RETETA]**: ceai de ghimbir. "
-                    "[NERECOMANDAT]: zahăr. [INTERZIS]: -"
-                ),
-                "evidence_ids": [],
-            }],
-            "uz_extern": [],
-            "alte_recomandari": [],
-            "atentionari": [],
-        }
-        prefixed_report = main._recommendation_text(prefixed_sections, {})
-
-        self.assertLess(
-            prefixed_report.index("**• Rețete culinare:**"),
-            prefixed_report.index("**• Alimente recomandate:**"),
-        )
-        self.assertIn("    - supă ușoară.", prefixed_report)
-        self.assertIn("    - ceai de ghimbir.", prefixed_report)
-        self.assertIn("**• Alimente nerecomandate:** zahăr.", prefixed_report)
-        self.assertIn("**• Alte recomandări:** probiotic.", prefixed_report)
-        self.assertTrue(main.chatbot.render_markdown)
 
     # Verify the fragments shown to the patient are exactly those the AI request
     # will carry: fit_evidence_to_context keeps the highest-scored prefix that fits
@@ -471,37 +434,26 @@ class WebTests(unittest.TestCase):
         self.assertFalse(any(HEALTH_PROBLEM_QUESTION in query for query in queries))
         self.assertFalse(any(marker in query for query in queries))
 
-    # Verify the hidden #category-selection field's JSON is parsed leniently:
-    # a good array of ids parses, and anything malformed falls back to "no
-    # selection" (every category) rather than raising.
-    def test_parse_category_selection_accepts_ids_and_falls_back_safely(self):
-        self.assertEqual(handlers._parse_category_selection('["Cancer", "Sex"]'), {"Cancer", "Sex"})
-        self.assertEqual(handlers._parse_category_selection("[]"), set())
-        self.assertEqual(handlers._parse_category_selection(""), set())
-        self.assertEqual(handlers._parse_category_selection("not json"), set())
-        self.assertEqual(handlers._parse_category_selection('{"Cancer": true}'), set())
-        self.assertEqual(handlers._parse_category_selection('["Cancer", 3, null]'), {"Cancer"})
-        # "" is itself a valid category id (documents with no folder).
-        self.assertEqual(handlers._parse_category_selection('[""]'), {""})
+    # --- Category selection -------------------------------------------------
 
-    # Verify on_message stores the parsed selection on the session before the
-    # chained retrieval step runs. Omitting categories_json (as every
-    # pre-existing caller in this file does) parses to an empty set — no
-    # longer "every category" (see on_find_fragments below for what an empty
-    # set now means at search time).
-    def test_on_message_stores_selected_categories_on_session(self):
-        sid = "E" * 43
-        request = FakeRequest(sid, "tab-categories")
-        main.on_load(request)
+    # Verify GET /api/session creates a session and asks the health-problem question.
+    def test_get_session_creates_welcome_and_question(self):
+        sid, tab = "A" * 43, "tab-session01"
+        response = self.client.get("/api/session", headers=_headers(sid, tab))
+        self.assertEqual(response.status_code, 200)
+        history = response.json()["history"]
+        self.assertEqual(history[0], {"role": "assistant", "kind": "text", "content": main.WELCOME})
+        self.assertEqual(history[1]["content"], HEALTH_PROBLEM_QUESTION)
+        main.store.delete(sid, tab)
 
-        main.on_message("Gripă și răceală", request, '["Cancer", "Sex"]')
-        session = main.store.get(sid, "tab-categories")
-        self.assertEqual(session.selected_categories, {"Cancer", "Sex"})
-
-        main.on_message("Migrenă", request)
-        self.assertEqual(session.selected_categories, set())
-
-        main.store.delete(sid, "tab-categories")
+    # Verify a request with a missing or malformed X-Tab-Id header is rejected,
+    # rather than silently falling back to some other identity.
+    def test_missing_or_malformed_tab_id_is_rejected(self):
+        sid = "A" * 43
+        response = self.client.get("/api/session", headers={"Cookie": f"{main.COOKIE}={sid}"})
+        self.assertEqual(response.status_code, 400)
+        response = self.client.get("/api/session", headers={"Cookie": f"{main.COOKIE}={sid}", "X-Tab-Id": "x"})
+        self.assertEqual(response.status_code, 400)
 
     # Verify the "Caut rapid în cele N documente" notice reflects the
     # documents covered by the selected categories, not the whole corpus —
@@ -520,23 +472,33 @@ class WebTests(unittest.TestCase):
             )
             document_count = 15
 
-        sid = "H" * 43
-        request = FakeRequest(sid, "tab-doc-count")
-        with patch.object(main, "retriever", RetrieverWithCategories()):
-            main.on_load(request)
-            main.on_message("Gripă", request, '["Cancer"]')
-            history = main.store.get(sid, "tab-doc-count").history
-            self.assertIn("Caut rapid în cele 4 documente", history[-1]["content"])
+            def collect(self, session):
+                return {}
 
-            main.on_message("Migrenă", request, '["Cancer", "Centrul/Anatomie"]')
-            history = main.store.get(sid, "tab-doc-count").history
-            self.assertIn("Caut rapid în cele 15 documente", history[-1]["content"])
+        sid, tab = "H" * 43, "tab-doccount1"
+        with patch.object(main, "retriever", RetrieverWithCategories()):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            resp = self.client.post(
+                "/api/messages", json={"message": "Gripă", "categories": ["Cancer"]}, headers=_headers(sid, tab)
+            )
+            notice = next(m for m in resp.json()["messages"] if "Caut rapid" in m.get("content", ""))
+            self.assertIn("Caut rapid în cele 4 documente", notice["content"])
+
+            resp = self.client.post(
+                "/api/messages",
+                json={"message": "Migrenă", "categories": ["Cancer", "Centrul/Anatomie"]},
+                headers=_headers(sid, tab),
+            )
+            notice = next(m for m in resp.json()["messages"] if "Caut rapid" in m.get("content", ""))
+            self.assertIn("Caut rapid în cele 15 documente", notice["content"])
 
             # An id the tree doesn't know (stale selection) contributes nothing.
-            main.on_message("Alergie", request, '["necunoscuta"]')
-            history = main.store.get(sid, "tab-doc-count").history
-            self.assertIn("Caut rapid în cele 0 documente", history[-1]["content"])
-        main.store.delete(sid, "tab-doc-count")
+            resp = self.client.post(
+                "/api/messages", json={"message": "Alergie", "categories": ["necunoscuta"]}, headers=_headers(sid, tab)
+            )
+            notice = next(m for m in resp.json()["messages"] if "Caut rapid" in m.get("content", ""))
+            self.assertIn("Caut rapid în cele 0 documente", notice["content"])
+        main.store.delete(sid, tab)
 
     # An index with no category tree falls back to the whole-corpus count,
     # exactly like before category filtering existed — regardless of what
@@ -553,9 +515,8 @@ class WebTests(unittest.TestCase):
     # Verify searching with nothing selected is refused with an explanatory
     # message, and never reaches Retriever.collect() — only when the loaded
     # index actually has a category tree to select from.
-    def test_on_find_fragments_rejects_empty_category_selection(self):
-        sid = "F" * 43
-        request = FakeRequest(sid, "tab-no-categories")
+    def test_messages_rejects_empty_category_selection_when_tree_exists(self):
+        sid, tab = "F" * 43, "tab-nocateg01"
 
         class RetrieverWithCategories:
             category_tree = CategoryTree(
@@ -571,42 +532,318 @@ class WebTests(unittest.TestCase):
                 raise AssertionError("collect() must not run with nothing selected")
 
         with patch.object(main, "retriever", RetrieverWithCategories()):
-            main.on_load(request)
-            main.on_message("Gripă și răceală", request, "[]")
-            history = main.on_find_fragments(request)
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            resp = self.client.post("/api/messages", json={"message": "Gripă", "categories": []}, headers=_headers(sid, tab))
+        messages = resp.json()["messages"]
+        self.assertEqual(messages[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
+        main.store.delete(sid, tab)
 
-        self.assertEqual(history[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
-        main.store.delete(sid, "tab-no-categories")
-
-    # An index with no category tree at all (no categories.json, or a test
-    # double standing in for one) never enforces a selection — collect() runs
-    # exactly as it always has, so existing deployments without a rebuilt
-    # index are unaffected.
-    def test_on_find_fragments_allows_empty_selection_without_a_category_tree(self):
-        sid = "G" * 43
-        request = FakeRequest(sid, "tab-no-tree")
-
+    # An index with no category tree at all never enforces a selection —
+    # collect() runs exactly as it always has.
+    def test_messages_allows_empty_selection_without_a_category_tree(self):
+        sid, tab = "G" * 43, "tab-notree001"
         with patch.object(main, "retriever", FakeRetriever()):
-            main.on_load(request)
-            main.on_message("Gripă și răceală", request, "[]")
-            history = main.on_find_fragments(request)
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            resp = self.client.post("/api/messages", json={"message": "Gripă", "categories": []}, headers=_headers(sid, tab))
+        messages = resp.json()["messages"]
+        self.assertNotEqual(messages[-1].get("content"), main.NO_CATEGORY_SELECTED_MESSAGE)
+        main.store.delete(sid, tab)
 
-        self.assertNotEqual(history[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
-        main.store.delete(sid, "tab-no-tree")
+    # --- Fragment message building (pure function, no HTTP round trip needed) --
 
-    # The hidden #category-selection field's default value must match every
-    # category the loaded tree knows about — the panel itself starts with
-    # every checkbox checked, and this is what makes the very first search
-    # (before category_filter.js has run) carry the same selection.
-    def test_default_category_selection_matches_every_known_category(self):
-        if main.retriever.category_tree is None:
-            self.skipTest("current index has no category tree")
-        self.assertEqual(
-            json.loads(main.DEFAULT_CATEGORY_SELECTION),
-            sorted(main.retriever.category_tree.known_ids()),
+    # Verify every fragment carries the same relevance measure (its raw
+    # "score" field, written by Retriever.collect() as hybrid_score from
+    # rank()); the message sorts by that raw score, descending — no separate
+    # section or ordering rule for any subset of fragments. Each fragment
+    # also carries a matchLabel derived from found_by_lexical.
+    def test_fragments_message_sorts_by_relevance_score(self):
+        evidence = {
+            "C1": {
+                "source": "documents/doc-a.md:1-5",
+                "text": "Scor mic",
+                "score": RRF_MAX_SCORE * 0.1,
+                "relevance_percent": 10.0,
+                "found_by_lexical": True,
+            },
+            "C2": {
+                "source": "documents/doc-z.md:10-15",
+                "text": "Scor mediu z",
+                "score": RRF_MAX_SCORE * 0.5,
+                "relevance_percent": 50.0,
+                "found_by_lexical": False,
+            },
+            "C3": {
+                "source": "documents/doc-a.md:20-25",
+                "text": "Scor mare",
+                "score": RRF_MAX_SCORE,
+                "relevance_percent": 100.0,
+                "found_by_lexical": True,
+            },
+            "C4": {
+                "source": "documents/doc-b.md:1-5",
+                "text": "Scor mediu b",
+                "score": RRF_MAX_SCORE * 0.5,  # tied with C2
+                "relevance_percent": 50.0,
+                "found_by_lexical": True,
+            },
+        }
+
+        message = handlers._fragments_message("search-1", evidence)
+
+        self.assertEqual(message["fragmentsCount"], 4)
+        self.assertEqual(message["documentsCount"], 3)
+        texts_in_order = [fragment["text"] for fragment in message["fragments"]]
+        self.assertEqual(texts_in_order, ["Scor mare", "Scor mediu z", "Scor mediu b", "Scor mic"])
+        self.assertEqual(message["fragments"][0]["relevancePercent"], 100.0)
+        self.assertEqual(message["fragments"][0]["matchLabel"], "Găsire Lexicală")
+        self.assertEqual(message["fragments"][1]["matchLabel"], "")
+
+    # A fragment missing found_by_lexical (older cached evidence, or a caller
+    # that doesn't set it) must still render — just with an empty matchLabel.
+    def test_fragments_message_omits_match_label_when_absent(self):
+        evidence = {
+            "C1": {
+                "source": "documents/doc-a.md:1-5",
+                "text": "Fragment fără found_by_lexical",
+                "score": RRF_MAX_SCORE,
+                "relevance_percent": 100.0,
+            },
+        }
+
+        message = handlers._fragments_message("search-1", evidence)
+
+        self.assertEqual(message["fragments"][0]["matchLabel"], "")
+        self.assertEqual(message["fragments"][0]["relevancePercent"], 100.0)
+
+    # Verify the message carries the backend-computed relevance_percent as is,
+    # and null for a fragment that carries none.
+    def test_fragments_message_shows_backend_relevance_percent(self):
+        evidence = {
+            "C1": {"source": "documents/doc-a.md:1-5", "text": "Cu procent", "score": 0.02, "relevance_percent": 61.6},
+            "C2": {"source": "documents/doc-b.md:1-5", "text": "Fără procent", "score": 0.01},
+        }
+
+        message = handlers._fragments_message("search-1", evidence)
+
+        self.assertEqual(message["fragments"][0]["relevancePercent"], 61.6)
+        self.assertIsNone(message["fragments"][1]["relevancePercent"])
+
+    # --- Full chat flow, owner gating and multi-report downloads -----------
+
+    # Verify one submitted health answer triggers retrieval, is gated behind
+    # the owner cookie for generation, and produces a downloadable, tab-scoped PDF.
+    def test_full_chat_flow_generates_report_and_gates_generation_by_owner(self):
+        sid_a, tab_a = "A" * 43, "tab-flow-a001"
+        sid_b, tab_b = "B" * 43, "tab-flow-b001"
+        FakeAI.generate_calls = 0
+        FakeAI.report_profile = None
+
+        with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
+            main, "ai", FakeAI()
+        ), patch.object(main, "retriever", FakeRetriever()):
+            session_a = self.client.get("/api/session", headers=_headers(sid_a, tab_a)).json()
+            self.assertEqual(session_a["history"][-1]["content"], HEALTH_PROBLEM_QUESTION)
+            self.client.get("/api/session", headers=_headers(sid_b, tab_b))
+
+            resp = self.client.post(
+                "/api/messages", json={"message": "Gripă și răceală", "categories": []}, headers=_headers(sid_a, tab_a)
+            )
+            messages = resp.json()["messages"]
+            self.assertTrue(any("Caut rapid în cele" in m.get("content", "") for m in messages))
+            self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
+
+            fragments = _by_kind(messages, "fragments")
+            generate = _by_kind(messages, "generate")
+            self.assertEqual(fragments["fragmentsCount"], 1)
+            self.assertEqual(fragments["documentsCount"], 1)
+            self.assertIn("Informație locală relevantă.", fragments["fragments"][0]["text"])
+            self.assertFalse(generate["busy"])
+            search_id = generate["searchId"]
+            session = main.store.get(sid_a, tab_a)
+            self.assertEqual(
+                session.searches[search_id].evidence,
+                {
+                    "C1": {
+                        "source": "documents/plan.md:1-5",
+                        "text": "Informație locală relevantă.",
+                        "score": 0.0167,
+                        "relevance_percent": 51.0,
+                    }
+                },
+            )
+
+            # A non-owner visitor is refused, and the button stays clickable.
+            resp = self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a))
+            body = resp.json()
+            self.assertEqual(body["ownerNotice"], main.OWNER_ONLY_MESSAGE)
+            self.assertEqual(body["messages"], [])
+            self.assertEqual(FakeAI.generate_calls, 0)
+
+            # The owner successfully generates the report.
+            resp = self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a, owner=True))
+            body = resp.json()
+            self.assertIsNone(body["ownerNotice"])
+            self.assertEqual(FakeAI.generate_calls, 1)
+            self.assertEqual(main.store.get(sid_a, tab_a).searches, {})
+            send_report_mock.assert_not_called()
+            recommendation = _by_kind(body["messages"], "text")
+            download = _by_kind(body["messages"], "download")
+            self.assertIn("Uz intern", recommendation["content"])
+            self.assertIn("[1]", recommendation["content"])
+            self.assertIn("Bibliografie", recommendation["content"])
+            self.assertIn("1 - plan.md:1-5", recommendation["content"])
+            self.assertTrue(download["url"].startswith(f"/api/reports/{tab_a}/"))
+
+            # The report downloads for tab A's cookie only.
+            pdf_response = self.client.get(download["url"], headers={"Cookie": f"{main.COOKIE}={sid_a}"})
+            self.assertEqual(pdf_response.status_code, 200)
+            self.assertTrue(pdf_response.content.startswith(b"%PDF-"))
+            other_tab_response = self.client.get(download["url"], headers={"Cookie": f"{main.COOKIE}={sid_b}"})
+            self.assertEqual(other_tab_response.status_code, 404)
+
+            # Emailing the finished report.
+            resp = self.client.post(
+                "/api/messages", json={"message": "prieten@example.com", "categories": []}, headers=_headers(sid_a, tab_a)
+            )
+            reply = resp.json()["messages"][-1]
+            self.assertIn("prieten@example.com", reply["content"])
+            send_report_mock.assert_called_once()
+            self.assertEqual(send_report_mock.call_args.args[0], "Gripă și răceală")
+            self.assertTrue(send_report_mock.call_args.args[1].startswith(b"%PDF-"))
+            self.assertTrue(send_report_mock.call_args.args[2].endswith(".pdf"))
+            self.assertEqual(send_report_mock.call_args.args[3], "prieten@example.com")
+            self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
+
+            content = "\n".join(
+                page.extract_text() for page in PdfReader(io.BytesIO(pdf_response.content)).pages
+            )
+            self.assertIn("Remedii naturiste", content)
+            self.assertIn("Gripă și răceală", " ".join(content.split()))
+
+            end_resp = self.client.post("/api/session/end", headers=_headers(sid_a, tab_a))
+            self.assertIn("Sesiunea a fost închisă", end_resp.json()["messages"][0]["content"])
+            self.assertIsNone(main.store.get(sid_a, tab_a))
+            self.assertIsNotNone(main.store.get(sid_b, tab_b))
+            main.store.delete(sid_b, tab_b)
+
+    # Verify each search keeps its own "generate" section and PDF, and that
+    # several finished reports stay independently downloadable in one session.
+    def test_each_search_keeps_its_own_generate_section_and_report(self):
+        sid, tab = "C" * 43, "tab-multi-001"
+        FakeAI.generate_calls = 0
+        FakeAI.report_profile = None
+
+        with patch.object(main, "send_report", return_value="email_sent"), patch.object(
+            main, "ai", FakeAI()
+        ), patch.object(main, "retriever", FakeRetriever()):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            first_messages = self.client.post(
+                "/api/messages", json={"message": "Gripă și răceală", "categories": []}, headers=_headers(sid, tab)
+            ).json()["messages"]
+            first_search_id = _by_kind(first_messages, "generate")["searchId"]
+
+            second_messages = self.client.post(
+                "/api/messages", json={"message": "Migrenă", "categories": []}, headers=_headers(sid, tab)
+            ).json()["messages"]
+            second_search_id = _by_kind(second_messages, "generate")["searchId"]
+            self.assertNotEqual(first_search_id, second_search_id)
+
+            session = main.store.get(sid, tab)
+            self.assertEqual(session.profile.health_problem, "Migrenă")
+            self.assertEqual(session.searches[first_search_id].profile["health_problem"], "Gripă și răceală")
+
+            # Generating the FIRST search uses its own problem, even though the chat moved on.
+            first_result = self.client.post(
+                f"/api/searches/{first_search_id}/generate", headers=_headers(sid, tab, owner=True)
+            ).json()
+            self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
+            first_report_id = _by_kind(first_result["messages"], "download")["reportId"]
+
+            second_result = self.client.post(
+                f"/api/searches/{second_search_id}/generate", headers=_headers(sid, tab, owner=True)
+            ).json()
+            self.assertEqual(FakeAI.generate_calls, 2)
+            self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
+            second_report_id = _by_kind(second_result["messages"], "download")["reportId"]
+            self.assertNotEqual(first_report_id, second_report_id)
+
+            # Both PDFs stay downloadable, each for its own problem.
+            self.assertEqual(len(session.reports), 2)
+            first_text = " ".join(
+                page.extract_text() for page in PdfReader(io.BytesIO(session.reports[first_report_id].data)).pages
+            )
+            self.assertIn("Gripă și răceală", " ".join(first_text.split()))
+            self.assertNotIn("Migrenă", " ".join(first_text.split()))
+
+        main.store.delete(sid, tab)
+
+    # Verify a Google API failure keeps the report available and tells the user in chat.
+    def test_email_failure_keeps_report_available(self):
+        sid, tab = "D" * 43, "tab-emailfail1"
+
+        with patch.object(main, "ai", FakeAI()), patch.object(main, "retriever", FakeRetriever()), patch.object(
+            main, "send_report", side_effect=OSError("SMTP unavailable")
+        ):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            messages = self.client.post(
+                "/api/messages", json={"message": "Gripă și răceală", "categories": []}, headers=_headers(sid, tab)
+            ).json()["messages"]
+            search_id = _by_kind(messages, "generate")["searchId"]
+            self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True))
+            with self.assertLogs("naturist.web", level="ERROR") as captured:
+                resp = self.client.post(
+                    "/api/messages", json={"message": "prieten@example.com", "categories": []}, headers=_headers(sid, tab)
+                )
+
+        session = main.store.get(sid, tab)
+        self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
+        self.assertIn("Nu am putut trimite", resp.json()["messages"][-1]["content"])
+        self.assertIn("stage=email", "\n".join(captured.output))
+        main.store.delete(sid, tab)
+
+    # Verify the download URL honours a reverse-proxy sub-path when configured.
+    def test_public_report_link_uses_configured_root_path(self):
+        sid, tab = "C" * 43, "tab-public0001"
+        session = main.store.get(sid, tab, create=True)
+        session.report_id = "report-1"
+        with patch.dict(os.environ, {"PUBLIC_ROOT_PATH": "/medicina"}):
+            message = handlers._download_message(session)
+        self.assertEqual(message["url"], f"/medicina/api/reports/{tab}/report-1")
+        self.assertEqual(message["kind"], "download")
+        main.store.delete(sid, tab)
+
+    # --- Category tree endpoint ----------------------------------------------
+
+    def test_get_categories_serializes_tree_and_default_selection(self):
+        tree = CategoryTree(
+            root_id="",
+            nodes={
+                "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer",), own_documents=0, total_documents=2),
+                "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=2, total_documents=2),
+            },
         )
 
-    # Verify retrieval preserves both reflection and treatment-plan flu fragments.
+        class RetrieverWithCategories:
+            category_tree = tree
+
+        with patch.object(main, "retriever", RetrieverWithCategories()):
+            response = self.client.get("/api/categories")
+        body = response.json()
+        self.assertEqual(body["defaultSelection"], ["Cancer"])
+        self.assertEqual(body["tree"]["id"], "")
+        self.assertEqual(body["tree"]["children"][0]["id"], "Cancer")
+        self.assertTrue(body["tree"]["children"][0]["isReal"])
+
+    def test_get_categories_returns_null_tree_without_synced_documents(self):
+        class RetrieverWithoutCategories:
+            category_tree = None
+
+        with patch.object(main, "retriever", RetrieverWithoutCategories()):
+            response = self.client.get("/api/categories")
+        self.assertEqual(response.json(), {"tree": None, "defaultSelection": []})
+
+    # Verify retrieval preserves both reflection and treatment-plan flu fragments
+    # against the real, locally configured index/database.
     def test_flu_query_retrieves_reflection_fragment_from_internal_dictionary(self):
         profile = HealthProfile()
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
@@ -615,14 +852,6 @@ class WebTests(unittest.TestCase):
         evidence = retriever.collect(session)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
-        # Whitespace-normalized: when the raw chunk text is short (< 600 chars,
-        # true here), retrieval.py's _context() re-expands it from the source
-        # file's own lines (±5/4 lines of surrounding context). That source
-        # file carries incidental trailing spaces before some line breaks, so
-        # the rebuilt text's line-wrapping doesn't exactly match the chunk's
-        # originally stored text. A literal "\n"-exact match is therefore
-        # fragile against that formatting artifact — normalize like the
-        # source_excerpt comparison below already does.
         reflection = next(
             item for item in evidence.values()
             if "Marele dict" in item["source"]
@@ -813,7 +1042,7 @@ class WebTests(unittest.TestCase):
             group = {"path": "doc.md", "start": 3, "end": 6, "members": [1, 2]}
 
             text = retriever._group_context(group, chunks, "Titlu")
-            self.assertEqual(text, "Sec\u021biune: Titlu\n\nlinia 3\nlinia 4\nlinia 5\nlinia 6")
+            self.assertEqual(text, "Secțiune: Titlu\n\nlinia 3\nlinia 4\nlinia 5\nlinia 6")
 
             missing = {"path": "lipsa.md", "start": 1, "end": 2, "members": [1, 2]}
             self.assertEqual(retriever._group_context(missing, chunks, ""), "primul\n\nal doilea")
@@ -834,435 +1063,6 @@ class WebTests(unittest.TestCase):
 
         self.assertTrue(context.startswith("Secțiune: Gripă > Uz intern\n\n"))
         self.assertIn(result["text"], context)
-
-    # Verify every fragment carries the same relevance measure (its raw
-    # "score" field, written by Retriever.collect() as hybrid_score from
-    # rank()); the panel interpolates that raw value onto a 0-100 integer
-    # percentage for display ("Scor relevanță: NN%") while sorting the flat
-    # list by the raw score itself, descending — no separate section or
-    # ordering rule for any subset of fragments. Each fragment also carries
-    # a found_by_lexical boolean (from ai/search.py), shown as a Romanian
-    # label right after the percentage when true.
-    def test_fragments_panel_sorts_by_relevance_score(self):
-        evidence = {
-            "C1": {
-                "source": "documents/doc-a.md:1-5",
-                "text": "Scor mic",
-                "score": RRF_MAX_SCORE * 0.1,
-                "relevance_percent": 10.0,
-                "found_by_lexical": True,
-            },
-            "C2": {
-                "source": "documents/doc-z.md:10-15",
-                "text": "Scor mediu z",
-                "score": RRF_MAX_SCORE * 0.5,
-                "relevance_percent": 50.0,
-                "found_by_lexical": False,
-            },
-            "C3": {
-                "source": "documents/doc-a.md:20-25",
-                "text": "Scor mare",
-                "score": RRF_MAX_SCORE,
-                "relevance_percent": 100.0,
-                "found_by_lexical": True,
-            },
-            "C4": {
-                "source": "documents/doc-b.md:1-5",
-                "text": "Scor mediu b",
-                "score": RRF_MAX_SCORE * 0.5,  # tied with C2
-                "relevance_percent": 50.0,
-                "found_by_lexical": True,
-            },
-        }
-
-        fragments_html = main._fragments_panel_html(evidence)
-
-        # Flat list, no per-document grouping and no separate section for
-        # any subset of fragments.
-        self.assertIn("fragments-panel-banner", fragments_html)
-        self.assertNotIn('class="fragments-panel-doc"', fragments_html)
-
-        position_high_score = fragments_html.index("Scor mare")
-        position_mid_z = fragments_html.index("Scor mediu z")
-        position_mid_b = fragments_html.index("Scor mediu b")
-        position_low_score = fragments_html.index("Scor mic")
-        self.assertLess(position_high_score, position_mid_z, "higher relevance score must render first")
-        # Equal scores keep their original (stable-sort) relative order.
-        self.assertLess(position_mid_z, position_mid_b, "equal scores must preserve original order")
-        self.assertLess(position_mid_b, position_low_score, "lower relevance score must render last")
-
-        # Score/relevance, match-type label and source document render
-        # together, one per fragment, as
-        # "Scor relevanță: NN%, Găsire ..., document.md".
-        self.assertIn("Scor relevanță: 100%, Găsire Lexicală, doc-a.md", fragments_html)
-        self.assertIn("Scor relevanță: 50%, doc-z.md", fragments_html)
-        self.assertIn("Scor relevanță: 50%, Găsire Lexicală, doc-b.md", fragments_html)
-        self.assertIn("Scor relevanță: 10%, Găsire Lexicală, doc-a.md", fragments_html)
-
-        self.assertIn("Total: 4 fragmente din 3 documente.", fragments_html)
-
-    # A fragment missing found_by_lexical (older cached
-    # evidence, or a caller that doesn't set them) must still render — just
-    # without the middle segment — rather than crashing or printing a blank
-    # label.
-    def test_fragments_panel_omits_match_type_label_when_absent(self):
-        evidence = {
-            "C1": {
-                "source": "documents/doc-a.md:1-5",
-                "text": "Fragment fără found_by_lexical",
-                "score": RRF_MAX_SCORE,
-                "relevance_percent": 100.0,
-            },
-        }
-
-        fragments_html = main._fragments_panel_html(evidence)
-
-        self.assertIn("Scor relevanță: 100%, doc-a.md", fragments_html)
-        self.assertNotIn("Găsire", fragments_html)
-
-    # Verify the panel shows the backend-computed relevance_percent as is (rounded
-    # for display) and omits the percentage for a fragment that carries none.
-    def test_fragments_panel_shows_backend_relevance_percent(self):
-        evidence = {
-            "C1": {"source": "documents/doc-a.md:1-5", "text": "Cu procent", "score": 0.02, "relevance_percent": 61.6},
-            "C2": {"source": "documents/doc-b.md:1-5", "text": "Fără procent", "score": 0.01},
-        }
-
-        fragments_html = main._fragments_panel_html(evidence)
-
-        self.assertIn("Scor relevanță: 62%, doc-a.md", fragments_html)
-        self.assertEqual(fragments_html.count("Scor relevanță"), 1)
-
-    # Verify that one submitted health answer triggers report generation and download.
-    def test_chat_automatically_generates_report_after_single_answer(self):
-        sid_a = "A" * 43
-        sid_b = "B" * 43
-        req_a = FakeRequest(sid_a, "tab-a")
-        req_b = FakeRequest(sid_b, "tab-b")
-        FakeAI.generate_calls = 0
-        FakeAI.report_profile = None
-
-        with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
-            main, "ai", FakeAI()
-        ), patch.object(main, "retriever", FakeRetriever()):
-            history = main.on_load(req_a)
-            self.assertEqual(history[-1]["content"], HEALTH_PROBLEM_QUESTION)
-            main.on_load(req_b)
-
-            _, history = main.on_message("Gripă și răceală", req_a)
-            self.assertIn("Caut rapid în cele", history[-1]["content"])
-            self.assertEqual(FakeAI.generate_calls, 0)
-
-            history = main.on_find_fragments(req_a)
-            self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
-            # Chronological order: search notice, fragments panel, then the "Generează rețeta" section.
-            self.assertIn("Caut rapid în cele", history[-3]["content"])
-            fragments_html = history[-2]["content"]
-            generate_html = history[-1]["content"]
-            self.assertIn("generate-recipe-panel", generate_html)
-            self.assertIn("Generează rețeta", generate_html)
-            self.assertNotIn("Fragmentele relevante", fragments_html)
-            self.assertIn("Am găsit", fragments_html)
-            self.assertIn("1 fragmente", fragments_html)
-            self.assertIn("Informație locală relevantă.", fragments_html)
-            self.assertIn("plan.md", fragments_html)
-            self.assertIn("Scor relevanță", fragments_html)
-            self.assertIn("Total: 1 fragmente din 1 documente.", fragments_html)
-            ((search_id, search),) = main.store.get(sid_a, "tab-a").searches.items()
-            self.assertIn(f'gen-{search_id}"', generate_html)
-            self.assertEqual(
-                search.evidence,
-                {
-                    "C1": {
-                        "source": "documents/plan.md:1-5",
-                        "text": "Informație locală relevantă.",
-                        "score": 0.0167,
-                        "relevance_percent": 51.0,
-                    }
-                },
-            )
-
-            history, _ = main.on_generate_start(search_id, req_a)
-            self.assertIn("disabled", history[-1]["content"])
-            history, notice = main.on_generate_report(search_id, req_a)
-            self.assertEqual(notice, "")
-            self.assertEqual(FakeAI.generate_calls, 1)
-            self.assertEqual(main.store.get(sid_a, "tab-a").searches, {})
-            self.assertFalse(any("generate-recipe-panel" in m["content"] for m in history))
-            send_report_mock.assert_not_called()
-            # Chronological order: report, download panel, then the email offer.
-            self.assertIn("Uz intern", history[-3]["content"])
-            self.assertIn("Descarcă PDF", history[-2]["content"])
-            self.assertEqual(history[-1]["content"], main.EMAIL_OFFER)
-            _, history = main.on_message("prieten@example.com", req_a)
-            self.assertEqual(main.on_find_fragments(req_a), history)
-            send_report_mock.assert_called_once()
-            self.assertEqual(send_report_mock.call_args.args[0], "Gripă și răceală")
-            self.assertTrue(send_report_mock.call_args.args[1].startswith(b"%PDF-"))
-            self.assertTrue(send_report_mock.call_args.args[2].endswith(".pdf"))
-            self.assertEqual(send_report_mock.call_args.args[3], "prieten@example.com")
-            self.assertIn("prieten@example.com", history[-1]["content"])
-            self.assertIsNotNone(main.store.get(sid_a, "tab-a").report_bytes)
-            self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
-            report_text = next(m["content"] for m in history if "Uz intern" in m["content"])
-            self.assertIn("[1]", report_text)
-            self.assertIn("Bibliografie", report_text)
-            self.assertIn("1 - plan.md:1-5", report_text)
-            self.assertNotIn("Folosiți butonul Descarcă PDF", report_text)
-            self.assertEqual(len(main.store.get(sid_b, "tab-b").history), 2)
-
-            session_a = main.store.get(sid_a, "tab-a")
-            self.assertTrue(session_a.report_bytes.startswith(b"%PDF-"))
-            content = "\n".join(
-                page.extract_text() for page in PdfReader(io.BytesIO(session_a.report_bytes)).pages
-            )
-            self.assertIn("Remedii naturiste", content)
-            self.assertIn("Gripă și răceală", " ".join(content.split()))
-
-            with TestClient(main.app, base_url="https://testserver") as http:
-                url = f"/api/reports/tab-a/{session_a.report_id}"
-                self.assertEqual(http.get(url, cookies={main.COOKIE: sid_a}).status_code, 200)
-                self.assertEqual(http.get(url, cookies={main.COOKIE: sid_b}).status_code, 404)
-
-            main.on_end(req_a)
-            self.assertIsNone(main.store.get(sid_a, "tab-a"))
-            self.assertIsNotNone(main.store.get(sid_b, "tab-b"))
-            main.store.delete(sid_b, "tab-b")
-
-    # Verify each search keeps its own "Generează rețeta" section and PDF in the same chat.
-    def test_each_search_keeps_its_own_generate_section_and_report(self):
-        sid = "C" * 43
-        request = FakeRequest(sid, "tab-latest-problem")
-        FakeAI.generate_calls = 0
-        FakeAI.report_profile = None
-
-        with patch.object(main, "send_report", return_value="email_sent"), patch.object(
-            main, "ai", FakeAI()
-        ), patch.object(main, "retriever", FakeRetriever()):
-            main.on_load(request)
-            main.on_message("Gripă și răceală", request)
-            main.on_find_fragments(request)
-            main.on_message("Migrenă", request)
-            history = main.on_find_fragments(request)
-            session = main.store.get(sid, "tab-latest-problem")
-            self.assertEqual(session.profile.health_problem, "Migrenă")
-            self.assertEqual(session.profile.health_context, ["Migrenă"])
-            self.assertEqual(sum("generate-recipe-panel" in m["content"] for m in history), 2)
-            first_id, second_id = list(session.searches)
-            self.assertEqual(session.searches[first_id].profile["health_problem"], "Gripă și răceală")
-
-            # Generating the FIRST search uses its own problem, even though the chat moved on.
-            history, _ = main.on_generate_report(first_id, request)
-            self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
-            remaining = [m["content"] for m in history if "generate-recipe-panel" in m["content"]]
-            self.assertEqual(len(remaining), 1)
-            self.assertIn(f'gen-{second_id}"', remaining[0])
-            first_report_id = session.report_id
-
-            history, _ = main.on_generate_report(second_id, request)
-            self.assertEqual(FakeAI.generate_calls, 2)
-            self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
-            self.assertFalse(any("generate-recipe-panel" in m["content"] for m in history))
-            self.assertEqual(sum("Descarcă PDF" in m["content"] for m in history), 2)
-            self.assertNotEqual(session.report_id, first_report_id)
-
-            # Both PDFs stay downloadable, each for its own problem.
-            self.assertEqual(len(session.reports), 2)
-            first_text = " ".join(
-                page.extract_text() for page in PdfReader(io.BytesIO(session.reports[first_report_id].data)).pages
-            )
-            self.assertIn("Gripă și răceală", " ".join(first_text.split()))
-            self.assertNotIn("Migrenă", " ".join(first_text.split()))
-
-        main.store.delete(sid, "tab-latest-problem")
-
-    # Verify Google API failure keeps the report available and tells the user in chat.
-    def test_email_failure_keeps_report_available(self):
-        sid = "D" * 43
-        request = FakeRequest(sid, "tab-email-failure")
-
-        with patch.object(main, "ai", FakeAI()), patch.object(main, "retriever", FakeRetriever()), patch.object(
-            main, "send_report", side_effect=OSError("SMTP unavailable")
-        ):
-            main.on_load(request)
-            main.on_message("Gripă și răceală", request)
-            main.on_find_fragments(request)
-            (search_id,) = main.store.get(sid, "tab-email-failure").searches
-            main.on_generate_report(search_id, request)
-            with self.assertLogs("naturist.web", level="ERROR") as captured:
-                _, history = main.on_message("prieten@example.com", request)
-
-        session = main.store.get(sid, "tab-email-failure")
-        self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
-        self.assertIn("Nu am putut trimite", history[-1]["content"])
-        self.assertIn("stage=email", "\n".join(captured.output))
-        main.store.delete(sid, "tab-email-failure")
-
-    # Verify generated download links include the configured public Gradio prefix.
-    def test_public_report_link_uses_gradio_root_path(self):
-        sid = "C" * 43
-        request = FakeRequest(sid, "tab-public")
-        session = main.store.get(sid, "tab-public", create=True)
-        session.report_id = "report-1"
-        with patch.dict(os.environ, {"GRADIO_ROOT_PATH": "/medicina"}):
-            link = main._download_html(session)
-        self.assertIn('/medicina/api/reports/tab-public/report-1', link)
-        self.assertIn('class="report-ready-panel"', link)
-        self.assertIn('aria-hidden="true">✅</span>', link)
-        self.assertIn("<strong>Raportul complet este gata</strong>", link)
-        self.assertIn("📄</span> Descarcă PDF", link)
-        self.assertIn('aria-label="Descarcă raportul complet în format PDF"', link)
-        main.store.delete(sid, "tab-public")
-
-    # Verify the redesigned chat keeps its responsive, accessible visual contract.
-    def test_chat_layout_uses_warm_responsive_design(self):
-        self.assertIn("width: min(100%, 680px) !important", main.APP_CSS)
-        self.assertIn("zoom: 66%", main.APP_CSS)
-        self.assertIn("--chat-content-width: 100%", main.APP_CSS)
-        self.assertIn("width: var(--chat-content-width) !important", main.APP_CSS)
-        self.assertIn("--chat-content-width: 100%", main.APP_CSS)
-        self.assertIn("--nature-bg: #fff9f2", main.APP_CSS)
-        self.assertIn("--nature-primary: #2f7d6d", main.APP_CSS)
-        self.assertIn("font-family: Arial", main.APP_CSS)
-        self.assertIn("assistant left, user right", main.APP_CSS)
-        self.assertIn("#medical-chatbot .message:has(.report-ready-panel)", main.APP_CSS)
-        self.assertIn("#medical-chatbot .message:has(.generate-recipe-panel)", main.APP_CSS)
-        self.assertIn("@media (max-width: 640px)", main.APP_CSS)
-        self.assertIn("@media (prefers-reduced-motion: reduce)", main.APP_CSS)
-        self.assertIn("#medical-chatbot .wrapper", main.APP_CSS)
-        self.assertIn("height: auto !important", main.APP_CSS)
-        self.assertEqual(main.chatbot.buttons, ["copy"])
-        self.assertEqual(main.message.lines, 1)
-        self.assertEqual(main.message.max_lines, 1)
-        self.assertIn("#health-message", main.APP_CSS)
-        self.assertIn("height: 38px !important", main.APP_CSS)
-        self.assertIn("min-width: 96px !important", main.APP_CSS)
-        self.assertIn("#health-message input", main.COMPOSER_STATE_JS)
-        self.assertNotIn("event.ctrlKey || event.metaKey", main.COMPOSER_STATE_JS)
-        self.assertIn("#medical-chatbot .message-row.user-row > .flex-wrap", main.APP_CSS)
-        self.assertIn("background: transparent !important", main.APP_CSS)
-        self.assertIn("#medical-chatbot [data-testid=\"user\"] *", main.APP_CSS)
-        self.assertIn("#medical-chatbot .message-row:hover + .message-buttons", main.APP_CSS)
-        self.assertIn("padding: 14px 18px !important", main.APP_CSS)
-        self.assertIn("text-align: left", main.APP_CSS)
-        self.assertIn(
-            ".hero-title-block {\n    width: 100%;\n    max-width: none;\n    margin: 0;\n}",
-            main.APP_CSS,
-        )
-        self.assertIn("float: right", main.APP_CSS)
-        self.assertIn("shape-outside: circle(50%)", main.APP_CSS)
-        self.assertIn('#health-message input[data-testid="textbox"]', main.APP_CSS)
-        self.assertIn("font: 22px/1.15 Arial, sans-serif !important", main.APP_CSS)
-        self.assertIn("height: 38px !important", main.APP_CSS)
-        self.assertIn("#medical-chatbot .bubble-wrap > .message-wrap:first-child", main.APP_CSS)
-        self.assertIn("Remedii Naturiste", main.HERO_HTML)
-        self.assertIn(
-            'background: #f4f9f7 url("data:image/svg+xml;base64,',
-            main.APP_CSS,
-        )
-        self.assertNotIn("__HERO_ORNAMENT_DATA_URI__", main.APP_CSS)
-        self.assertNotIn("#hero-panel::before", main.APP_CSS)
-        self.assertNotIn("#hero-panel::after", main.APP_CSS)
-        self.assertTrue(main.ORNAMENT_SVG.is_file())
-        self.assertIn('<p class="hero-byline">de la Dr. Cuișor</p>', main.HERO_HTML)
-        self.assertIn(".hero-byline", main.APP_CSS)
-        self.assertNotIn("text-align: right", main.APP_CSS)
-        self.assertIn("message.submit", Path(main.__file__).read_text(encoding="utf-8"))
-        self.assertNotIn('elem_id="end-session"', Path(main.__file__).read_text(encoding="utf-8"))
-        self.assertNotIn("Închide sesiunea", Path(main.__file__).read_text(encoding="utf-8"))
-
-    # Verify the "Filtrează sursele" panel renders a checkbox per category,
-    # nests subfolders under their parent (collapsed), marks which nodes
-    # carry documents of their own (data-real, consumed by category_filter.js
-    # to decide what gets serialized), and shows aggregate counts.
-    def test_category_filter_panel_renders_nested_tree_with_real_flags(self):
-        tree = CategoryTree(
-            root_id="",
-            nodes={
-                "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer", "Centrul"), own_documents=0, total_documents=3),
-                "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=2, total_documents=2),
-                "Centrul": CategoryNode(id="Centrul", label="Centrul", parent="", children=("Centrul/Anatomie",), own_documents=0, total_documents=1),
-                "Centrul/Anatomie": CategoryNode(id="Centrul/Anatomie", label="Anatomie", parent="Centrul", children=(), own_documents=1, total_documents=1),
-            },
-        )
-
-        panel = category_filter_panel_html(tree)
-
-        self.assertIn('data-id="Cancer"', panel)
-        self.assertIn('data-real="1"', panel)  # Cancer and Anatomie both carry documents
-        self.assertIn('data-id="Centrul"', panel)
-        # "Centrul" itself holds no document — a purely structural branch.
-        self.assertIn('<li class="cat-node" data-id="Centrul" data-real="0">', panel)
-        self.assertIn('<li class="cat-node" data-id="Centrul/Anatomie" data-real="1">', panel)
-        self.assertIn("Cancer <span", panel)
-        self.assertIn("(2)</span>", panel)
-        # Subfolders start collapsed.
-        self.assertIn('<ul class="cat-children" hidden>', panel)
-        # No wrapping "select everything" row — the root itself is never rendered.
-        self.assertNotIn('data-id=""', panel)
-        # Every checkbox starts checked — the default is "every category".
-        self.assertEqual(panel.count("<input type=\"checkbox\""), panel.count("checked>"))
-        self.assertIn(
-            '<input type="checkbox" class="cat-checkbox" data-id="Cancer" data-own="2" checked>', panel
-        )
-        self.assertIn(
-            '<input type="checkbox" class="cat-checkbox" data-id="Centrul/Anatomie" data-own="1" checked>',
-            panel,
-        )
-        # "Centrul" is a purely structural branch — data-own="0", never
-        # summed by category_filter.js's per-category document total.
-        self.assertIn(
-            '<input type="checkbox" class="cat-checkbox" data-id="Centrul" data-own="0" checked>', panel
-        )
-        self.assertIn("Setează sursele", panel)
-        self.assertIn("Selectează tot", panel)
-        # The whole-corpus total (root.total_documents) shown at the bottom,
-        # matching every checkbox starting checked.
-        self.assertIn('<p class="category-filter-total" data-category-total>Total: 3 documente selectate.</p>', panel)
-
-    # A root with documents of its own (files with no folder) becomes one
-    # more top-level, non-branching entry — never a wrapper around everything.
-    def test_category_filter_panel_renders_root_documents_as_plain_top_level_entry(self):
-        tree = CategoryTree(
-            root_id="",
-            nodes={
-                "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer",), own_documents=5, total_documents=6),
-                "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=1, total_documents=1),
-            },
-        )
-
-        panel = category_filter_panel_html(tree)
-
-        self.assertIn('data-id="" data-real="1"', panel)
-        self.assertIn("(fără categorie)", panel)
-        # The root entry has no expand toggle and no nested list of its own.
-        self.assertIn('<li class="cat-node" data-id="" data-real="1"><div class="cat-row">'
-                       '<span class="cat-toggle cat-toggle-spacer"', panel)
-
-    # An index built before category support existed has no category tree —
-    # the panel must explain that instead of rendering an empty/broken tree.
-    def test_category_filter_panel_shows_notice_when_tree_is_unavailable(self):
-        panel = category_filter_panel_html(None)
-
-        self.assertIn("category-filter-unavailable", panel)
-        self.assertNotIn("cat-checkbox", panel)
-
-    # Verify the checkbox and expand-toggle both render with a visible
-    # border, and that the JS sums each checked category's own document
-    # count (data-own) into the panel's bottom total whenever the selection
-    # changes.
-    def test_category_filter_panel_has_bordered_controls_and_live_document_total(self):
-        self.assertIn(".cat-checkbox {", main.APP_CSS)
-        checkbox_rule = main.APP_CSS.split(".cat-checkbox {", 1)[1].split("}", 1)[0]
-        self.assertIn("border:", checkbox_rule)
-
-        self.assertIn(".cat-toggle {", main.APP_CSS)
-        toggle_rule = main.APP_CSS.split(".cat-toggle {", 1)[1].split("}", 1)[0]
-        self.assertIn("border:", toggle_rule)
-        self.assertNotIn("border: 0", toggle_rule)
-
-        self.assertIn("data-category-total", main.CATEGORY_FILTER_JS)
-        self.assertIn("data-own", main.CATEGORY_FILTER_JS)
 
     # Verify PDF pagination, Romanian characters, citations, and bibliography links.
     def test_pdf_diacritics_and_pagination(self):
