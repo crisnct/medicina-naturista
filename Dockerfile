@@ -1,3 +1,12 @@
+FROM node:22-slim AS frontend-build
+WORKDIR /frontend
+COPY frontend/package.json frontend/package-lock.json* ./
+RUN npm install
+COPY frontend/ ./
+ARG PUBLIC_BASE_PATH=""
+ENV PUBLIC_BASE_PATH=${PUBLIC_BASE_PATH}
+RUN npm run build
+
 FROM python:3.11-slim-bookworm
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -6,7 +15,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONPATH=/app/src \
     HF_HUB_OFFLINE=1 \
     ORT_DISABLE_TELEMETRY=1 \
-    GRADIO_ANALYTICS_ENABLED=False
+    FRONTEND_DIST_DIR=/app/frontend/dist
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     fonts-liberation2 fonts-dejavu-core \
@@ -18,6 +27,7 @@ RUN pip install --no-cache-dir -r requirements-web.txt
 
 COPY pyproject.toml README.md ./
 COPY src ./src
+COPY --from=frontend-build /frontend/dist ./frontend/dist
 
 RUN useradd --uid 10001 --create-home appuser \
     && mkdir -p /app/data/documents /app/data/model_cache \
