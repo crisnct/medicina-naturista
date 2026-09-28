@@ -413,7 +413,7 @@ class WebTests(unittest.TestCase):
 
     # Verify the Responses API payload and ensure only one HTTP request is sent.
     def test_responses_api_sends_exactly_one_http_request(self):
-        with patch.dict(os.environ, {"GROK_API_KEY_MED": "synthetic-test-key"}):
+        with patch.dict(os.environ, {"X_API_KEY": "synthetic-test-key"}):
             client = XAIClient(settings)
             calls = []
 

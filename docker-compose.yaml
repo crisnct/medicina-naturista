@@ -35,7 +35,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      GROK_API_KEY_MED: ${GROK_API_KEY_MED:?GROK_API_KEY_MED must be set in .env}
+      X_API_KEY: ${X_API_KEY:?X_API_KEY must be set in .env}
       MAIL_FROM: ${MAIL_FROM:-}
       GMAIL_USERNAME: ${GMAIL_USERNAME:-}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}

@@ -152,7 +152,7 @@ Fiecare rezultat păstrează documentul sursă și intervalul de linii, astfel �
 Adăugați în fișierul local `.env` cel puțin:
 
 ```dotenv
-GROK_API_KEY_MED=...
+X_API_KEY=...
 COOKIE_SECURE=false
 ```
 
@@ -217,7 +217,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 
 | Variabilă | Implicit | Rol |
 |---|---:|---|
-| `GROK_API_KEY_MED` | — | Cheia necesară pentru generarea raportului. |
+| `X_API_KEY` | — | Cheia necesară pentru generarea raportului. |
 | `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |

@@ -91,7 +91,7 @@ class XAIClient:
         key = self.settings.api_key()
         if not key:
             logger.error("ai_request_skipped reason=missing_api_key")
-            raise AIUnavailable("Lipsește GROK_API_KEY_MED. Configurați variabila în .env înainte de utilizare.")
+            raise AIUnavailable("Lipsește X_API_KEY. Configurați variabila în .env înainte de utilizare.")
         started = time.perf_counter()
         logger.info(
             "ai_request_started model=%s reasoning_effort=%s max_output_tokens=%s",

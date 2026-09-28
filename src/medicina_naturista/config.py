@@ -60,7 +60,7 @@ class Settings:
 
     # Return the configured xAI API key without surrounding whitespace.
     def api_key(self) -> str:
-        return os.getenv("GROK_API_KEY_MED", "").strip()
+        return os.getenv("X_API_KEY", "").strip()
 
 
 settings = Settings()
