@@ -17,11 +17,7 @@ export function TypingIndicator() {
   return (
     <div className="message-wrap assistant">
       <div className="message typing-indicator" role="status" aria-live="polite">
-        <span className="typing-dots" aria-hidden="true">
-          <span className="typing-dot" />
-          <span className="typing-dot" />
-          <span className="typing-dot" />
-        </span>
+        <span className="loader" aria-hidden="true" />
         <span className="typing-elapsed">Timp scurs: {elapsedSeconds}s</span>
       </div>
     </div>

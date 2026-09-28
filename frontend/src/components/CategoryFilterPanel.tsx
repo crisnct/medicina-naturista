@@ -39,9 +39,14 @@ export function CategoryFilterPanel({ tree, selected, onChange }: Props) {
         <div className="category-filter-body">
           <div className="category-filter-toolbar">
             <p className="category-filter-status">{status}</p>
-            <button type="button" className="category-filter-reset" onClick={() => onChange(new Set(collectRealIds(tree)))}>
-              Selectează tot
-            </button>
+            <div className="category-filter-toolbar-buttons">
+              <button type="button" className="category-filter-reset" onClick={() => onChange(new Set(collectRealIds(tree)))}>
+                Selectează tot
+              </button>
+              <button type="button" className="category-filter-reset" onClick={() => onChange(new Set())}>
+                Deselectează tot
+              </button>
+            </div>
           </div>
           <ul className="category-tree">
             {topLevelNodes.map((node) => (

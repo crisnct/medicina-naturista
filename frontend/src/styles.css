@@ -35,8 +35,8 @@ body {
 #app-shell {
     display: flex;
     flex-direction: column;
-    width: min(100%, 600px);
-    max-width: 600px;
+    width: min(100%, 580px);
+    max-width: 580px;
     margin: 0 auto;
     gap: 14px;
 }
@@ -65,17 +65,17 @@ body {
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.78);
     color: var(--nature-primary);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 }
 
 #hero-title {
-    max-width: 620px;
+    max-width: 500px;
     margin: 0;
     color: var(--nature-text);
-    font-size: clamp(30px, 5vw, 44px);
-    line-height: 1.08;
-    letter-spacing: -0.035em;
+    font-size: clamp(20px, 3.2vw, 27px);
+    line-height: 1.12;
+    letter-spacing: -0.03em;
     text-align: left;
 }
 
@@ -87,12 +87,12 @@ body {
 .hero-byline {
     margin: 7px 0 0;
     color: var(--nature-primary);
-    font-size: clamp(16px, 2.2vw, 20px);
+    font-size: clamp(13px, 1.6vw, 15px);
     font-weight: 700;
 }
 
 .hero-doctor {
-    --hero-doctor-size: clamp(80px, 25vw, 170px);
+    --hero-doctor-size: clamp(70px, 20vw, 120px);
     float: right;
     width: var(--hero-doctor-size);
     height: var(--hero-doctor-size);
@@ -106,7 +106,7 @@ body {
     max-width: 615px;
     margin: 16px 0 20px;
     color: var(--nature-muted);
-    font-size: 18px;
+    font-size: 13.5px;
     line-height: 1.55;
 }
 
@@ -154,18 +154,18 @@ body {
 
 .assistant-identity strong {
     color: var(--nature-text);
-    font-size: 18px;
+    font-size: 14.5px;
 }
 
 .assistant-identity small {
     margin-top: 2px;
     color: var(--nature-muted);
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .loading-notice {
     color: var(--nature-muted);
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #medical-chatbot {
@@ -182,42 +182,33 @@ body {
     gap: 10px;
 }
 
-.typing-dots {
-    display: inline-flex;
-    gap: 4px;
+.loader {
+    width: 44px;
+    aspect-ratio: 4;
+    --c: #163d2c 90%, #0000;
+    background:
+        radial-gradient(circle closest-side at left 6px top 50%, var(--c)),
+        radial-gradient(circle closest-side, var(--c)),
+        radial-gradient(circle closest-side at right 6px top 50%, var(--c));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: loader-bounce 2.2s infinite ease-in-out alternate;
 }
 
-.typing-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--nature-primary);
-    opacity: 0.6;
-    animation: typing-bounce 1.2s infinite ease-in-out;
-}
-
-.typing-dot:nth-child(2) {
-    animation-delay: 0.15s;
-}
-
-.typing-dot:nth-child(3) {
-    animation-delay: 0.3s;
-}
-
-@keyframes typing-bounce {
-    0%, 80%, 100% {
-        transform: translateY(0);
-        opacity: 0.5;
+@keyframes loader-bounce {
+    0%, 15% {
+        width: 44px;
+        aspect-ratio: 4;
     }
-    40% {
-        transform: translateY(-4px);
-        opacity: 1;
+    85%, 100% {
+        width: 26px;
+        aspect-ratio: 1.6;
     }
 }
 
 .typing-elapsed {
     color: var(--nature-muted);
-    font-size: 13px;
+    font-size: 12px;
     font-style: italic;
 }
 
@@ -269,7 +260,7 @@ body {
 
 .message-line {
     margin: 0.35em 0;
-    font-size: 16px;
+    font-size: 13.5px;
 }
 
 .message-line-spacer {
@@ -299,7 +290,7 @@ body {
     border-radius: 8px;
     background: var(--nature-soft);
     color: var(--nature-text);
-    font-size: 17.5px;
+    font-size: 13.5px;
     line-height: 1.5;
     overflow-wrap: break-word;
 }
@@ -320,7 +311,7 @@ body {
 .fragments-panel-fragment-text {
     margin: 0;
     color: var(--nature-text);
-    font-size: 17.5px;
+    font-size: 13px;
     line-height: 1.5;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -329,7 +320,7 @@ body {
 .fragments-panel-fragment-score {
     margin: 4px 0 0;
     color: var(--nature-muted);
-    font-size: 15px;
+    font-size: 12px;
     overflow-wrap: break-word;
     font-style: italic;
 }
@@ -339,7 +330,7 @@ body {
     padding-top: 12px;
     border-top: 1px solid var(--nature-border);
     color: var(--nature-muted);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -386,7 +377,7 @@ body {
     box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22);
     color: #fff;
     cursor: pointer;
-    font: 700 16px Arial, sans-serif;
+    font: 700 13px Arial, sans-serif;
     white-space: nowrap;
 }
 
@@ -447,7 +438,7 @@ body {
 .report-ready-copy small {
     margin-top: 3px;
     color: var(--nature-muted);
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .pdf-download {
@@ -476,7 +467,7 @@ body {
 #message-helper {
     padding: 0 2px;
     color: var(--nature-muted);
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.45;
 }
 
@@ -493,7 +484,7 @@ body {
     border-radius: 14px;
     background: #fffdf9;
     color: var(--nature-text);
-    font: 16px/1.15 Arial, sans-serif;
+    font: 13px/1.15 Arial, sans-serif;
 }
 
 #health-message::placeholder {
@@ -519,7 +510,7 @@ body {
     background: var(--nature-primary);
     box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22);
     color: #fff;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     white-space: nowrap;
     cursor: pointer;
@@ -557,7 +548,7 @@ body {
     padding: 10px 16px;
     cursor: pointer;
     color: var(--nature-text);
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     list-style: none;
 }
@@ -566,7 +557,7 @@ body {
     margin: 0;
     padding: 10px 16px;
     color: var(--nature-muted);
-    font-size: 14px;
+    font-size: 13px;
     font-style: italic;
 }
 
@@ -586,6 +577,12 @@ body {
     margin: 0;
     color: var(--nature-muted);
     font-size: 13px;
+}
+
+.category-filter-toolbar-buttons {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
 }
 
 .category-filter-reset {
@@ -646,7 +643,7 @@ body {
     gap: 8px;
     cursor: pointer;
     color: var(--nature-text);
-    font-size: 14.5px;
+    font-size: 13px;
 }
 
 .cat-checkbox {
@@ -683,7 +680,7 @@ body {
     }
 
     .hero-description {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     #conversation-card {
@@ -716,7 +713,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    * {
+    *:not(.loader) {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
