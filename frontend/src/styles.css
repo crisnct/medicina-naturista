@@ -35,8 +35,8 @@ body {
 #app-shell {
     display: flex;
     flex-direction: column;
-    width: min(100%, 680px);
-    max-width: 680px;
+    width: min(100%, 600px);
+    max-width: 600px;
     margin: 0 auto;
     gap: 14px;
 }
@@ -172,12 +172,58 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    max-height: 60vh;
-    overflow-y: auto;
+    width: 100%;
+    min-width: 0;
+}
+
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.typing-dots {
+    display: inline-flex;
+    gap: 4px;
+}
+
+.typing-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--nature-primary);
+    opacity: 0.6;
+    animation: typing-bounce 1.2s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.typing-dot:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes typing-bounce {
+    0%, 80%, 100% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    40% {
+        transform: translateY(-4px);
+        opacity: 1;
+    }
+}
+
+.typing-elapsed {
+    color: var(--nature-muted);
+    font-size: 13px;
+    font-style: italic;
 }
 
 .message-wrap {
     display: flex;
+    min-width: 0;
 }
 
 .message-wrap.user {
@@ -195,6 +241,7 @@ body {
 
 .message-wrap .message {
     box-sizing: border-box;
+    min-width: 0;
     max-width: 100%;
     padding: 14px 18px;
     border: 1px solid var(--nature-border);
@@ -232,6 +279,7 @@ body {
 
 .fragments-panel-inner {
     box-sizing: border-box;
+    min-width: 0;
     padding: 0;
     border: 1px solid var(--nature-border);
     border-radius: 16px;

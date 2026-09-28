@@ -64,6 +64,14 @@ export interface MessagesResponse {
   messages: ChatMessage[];
 }
 
+export interface SendMessageResponse {
+  messages: ChatMessage[];
+  // True when POST /api/search should be called next to actually run
+  // retrieval — kept as a separate, slower call so the echo/notice above
+  // render immediately instead of waiting for the search to finish too.
+  startSearch: boolean;
+}
+
 export interface GenerateResponse {
   messages: ChatMessage[];
   ownerNotice: string | null;

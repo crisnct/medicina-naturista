@@ -1,4 +1,10 @@
-import type { CategoriesResponse, GenerateResponse, MessagesResponse, SessionResponse } from "./types";
+import type {
+  CategoriesResponse,
+  GenerateResponse,
+  MessagesResponse,
+  SendMessageResponse,
+  SessionResponse,
+} from "./types";
 
 const TAB_ID_KEY = "naturist_tab_id";
 
@@ -58,10 +64,14 @@ export const api = {
   getSession: () => request<SessionResponse>("/api/session"),
   getCategories: () => request<CategoriesResponse>("/api/categories"),
   sendMessage: (message: string, categories: string[]) =>
-    request<MessagesResponse>("/api/messages", {
+    request<SendMessageResponse>("/api/messages", {
       method: "POST",
       body: JSON.stringify({ message, categories }),
     }),
+  // Slower retrieval step for the health problem/categories the previous
+  // sendMessage() call already stored on the session — only called when
+  // that call's startSearch flag says so.
+  search: () => request<MessagesResponse>("/api/search", { method: "POST" }),
   generateReport: (searchId: string) =>
     request<GenerateResponse>(`/api/searches/${encodeURIComponent(searchId)}/generate`, { method: "POST" }),
   endSession: () => request<MessagesResponse>("/api/session/end", { method: "POST" }),

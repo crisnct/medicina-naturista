@@ -38,7 +38,11 @@ export function App() {
             Nu am putut încărca sesiunea. Reîncărcați pagina.
           </p>
         ) : (
-          <ChatHistory history={conversation.history} onGenerate={conversation.generateReport} />
+          <ChatHistory
+            history={conversation.history}
+            pending={conversation.isSearching || conversation.isGenerating}
+            onGenerate={conversation.generateReport}
+          />
         )}
         <OwnerNotice message={conversation.banner} />
         <Composer disabled={conversation.isSending} processing={conversation.isSending} onSend={handleSend} />

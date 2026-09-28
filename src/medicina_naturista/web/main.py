@@ -340,15 +340,16 @@ def _send_report_email(session: SessionData, address: str) -> dict:
 
 
 @app.post("/api/messages")
-# Store a user message and, in the same request, run retrieval for it —
-# collapsing what used to be two chained Gradio events (on_message,
-# on_find_fragments) into one round trip. Returns only the messages appended
-# during this call; the frontend already holds everything before it.
+# Store a user message and return immediately (echo + a short status notice,
+# or a rejection) — kept as its own fast round trip, separate from
+# POST /api/search's slower retrieval, so the frontend can render the user's
+# own message and the "Caut rapid..." notice right away instead of holding
+# them back for however long the search underneath takes.
 def post_message(payload: MessageRequest, request: Request):
     session = _current(request)
     message = (payload.message or "").strip()
     if not message:
-        return {"messages": []}
+        return {"messages": [], "startSearch": False}
     if len(message) > settings.max_chat_chars:
         raise HTTPException(status_code=422, detail=f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
     with session.lock:
@@ -356,13 +357,12 @@ def post_message(payload: MessageRequest, request: Request):
         if session.report_bytes is not None and EMAIL_PATTERN.fullmatch(message):
             _append(session, _text("user", message))
             _append(session, _send_report_email(session, message))
-            return {"messages": list(session.history[before:])}
+            return {"messages": list(session.history[before:]), "startSearch": False}
 
         previous_health_problem = session.profile.health_problem
         _append(session, _text("user", message))
         session.profile.replace_health_problem(message)
         session.selected_categories = set(payload.categories)
-        _append(session, _report_started_message(session))
         logger.info(
             "user_message_accepted tab_id=%s chars=%s replaced_health_problem=%s health_context_entries=%s "
             "selected_categories=%s",
@@ -375,12 +375,25 @@ def post_message(payload: MessageRequest, request: Request):
 
         if not session.profile.report_ready:
             _append(session, _text("assistant", "Descrieți problema de sănătate înainte de căutare."))
-            return {"messages": list(session.history[before:])}
+            return {"messages": list(session.history[before:]), "startSearch": False}
         if getattr(retriever, "category_tree", None) is not None and not session.selected_categories:
             logger.info("fragments_skipped tab_id=%s reason=no_category_selected", session.tab_id)
             _append(session, _text("assistant", NO_CATEGORY_SELECTED_MESSAGE))
-            return {"messages": list(session.history[before:])}
+            return {"messages": list(session.history[before:]), "startSearch": False}
 
+        _append(session, _report_started_message(session))
+        return {"messages": list(session.history[before:]), "startSearch": True}
+
+
+@app.post("/api/search")
+# Run retrieval for the health problem/categories POST /api/messages already
+# stored on the session, and append the resulting fragments+generate section
+# (or a "nothing found" notice). Split out from post_message so the frontend
+# can show the fast echo/notice before this slower call even starts.
+def post_search(request: Request):
+    session = _current(request)
+    with session.lock:
+        before = len(session.history)
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
         evidence = fit_evidence_to_context(retriever.collect(session))
         logger.info(

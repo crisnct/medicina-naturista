@@ -96,6 +96,21 @@ def _by_kind(messages: list[dict], kind: str) -> dict:
     return next(message for message in messages if message["kind"] == kind)
 
 
+# Drive the two-phase send flow the same way the frontend does: POST
+# /api/messages (fast echo + notice/rejection), then POST /api/search when
+# the first call says a search should follow. Returns the combined messages
+# from both calls, matching what the old single combined endpoint returned.
+def _send(client: TestClient, sid: str, tab: str, message: str, categories: list[str] | None = None) -> list[dict]:
+    response = client.post(
+        "/api/messages", json={"message": message, "categories": categories or []}, headers=_headers(sid, tab)
+    )
+    body = response.json()
+    messages = list(body["messages"])
+    if body["startSearch"]:
+        messages += client.post("/api/search", headers=_headers(sid, tab)).json()["messages"]
+    return messages
+
+
 class WebTests(unittest.TestCase):
     def setUp(self):
         owner_key = patch.dict(os.environ, {"OWNER_KEY": "synthetic-owner-key"})
@@ -478,25 +493,17 @@ class WebTests(unittest.TestCase):
         sid, tab = "H" * 43, "tab-doccount1"
         with patch.object(main, "retriever", RetrieverWithCategories()):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            resp = self.client.post(
-                "/api/messages", json={"message": "Gripă", "categories": ["Cancer"]}, headers=_headers(sid, tab)
-            )
-            notice = next(m for m in resp.json()["messages"] if "Caut rapid" in m.get("content", ""))
+            messages = _send(self.client, sid, tab, "Gripă", ["Cancer"])
+            notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 4 documente", notice["content"])
 
-            resp = self.client.post(
-                "/api/messages",
-                json={"message": "Migrenă", "categories": ["Cancer", "Centrul/Anatomie"]},
-                headers=_headers(sid, tab),
-            )
-            notice = next(m for m in resp.json()["messages"] if "Caut rapid" in m.get("content", ""))
+            messages = _send(self.client, sid, tab, "Migrenă", ["Cancer", "Centrul/Anatomie"])
+            notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 15 documente", notice["content"])
 
             # An id the tree doesn't know (stale selection) contributes nothing.
-            resp = self.client.post(
-                "/api/messages", json={"message": "Alergie", "categories": ["necunoscuta"]}, headers=_headers(sid, tab)
-            )
-            notice = next(m for m in resp.json()["messages"] if "Caut rapid" in m.get("content", ""))
+            messages = _send(self.client, sid, tab, "Alergie", ["necunoscuta"])
+            notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 0 documente", notice["content"])
         main.store.delete(sid, tab)
 
@@ -533,8 +540,7 @@ class WebTests(unittest.TestCase):
 
         with patch.object(main, "retriever", RetrieverWithCategories()):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            resp = self.client.post("/api/messages", json={"message": "Gripă", "categories": []}, headers=_headers(sid, tab))
-        messages = resp.json()["messages"]
+            messages = _send(self.client, sid, tab, "Gripă", [])
         self.assertEqual(messages[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
         main.store.delete(sid, tab)
 
@@ -544,8 +550,7 @@ class WebTests(unittest.TestCase):
         sid, tab = "G" * 43, "tab-notree001"
         with patch.object(main, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            resp = self.client.post("/api/messages", json={"message": "Gripă", "categories": []}, headers=_headers(sid, tab))
-        messages = resp.json()["messages"]
+            messages = _send(self.client, sid, tab, "Gripă", [])
         self.assertNotEqual(messages[-1].get("content"), main.NO_CATEGORY_SELECTED_MESSAGE)
         main.store.delete(sid, tab)
 
@@ -645,10 +650,7 @@ class WebTests(unittest.TestCase):
             self.assertEqual(session_a["history"][-1]["content"], HEALTH_PROBLEM_QUESTION)
             self.client.get("/api/session", headers=_headers(sid_b, tab_b))
 
-            resp = self.client.post(
-                "/api/messages", json={"message": "Gripă și răceală", "categories": []}, headers=_headers(sid_a, tab_a)
-            )
-            messages = resp.json()["messages"]
+            messages = _send(self.client, sid_a, tab_a, "Gripă și răceală", [])
             self.assertTrue(any("Caut rapid în cele" in m.get("content", "") for m in messages))
             self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
 
@@ -702,10 +704,7 @@ class WebTests(unittest.TestCase):
             self.assertEqual(other_tab_response.status_code, 404)
 
             # Emailing the finished report.
-            resp = self.client.post(
-                "/api/messages", json={"message": "prieten@example.com", "categories": []}, headers=_headers(sid_a, tab_a)
-            )
-            reply = resp.json()["messages"][-1]
+            reply = _send(self.client, sid_a, tab_a, "prieten@example.com", [])[-1]
             self.assertIn("prieten@example.com", reply["content"])
             send_report_mock.assert_called_once()
             self.assertEqual(send_report_mock.call_args.args[0], "Gripă și răceală")
@@ -737,14 +736,10 @@ class WebTests(unittest.TestCase):
             main, "ai", FakeAI()
         ), patch.object(main, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            first_messages = self.client.post(
-                "/api/messages", json={"message": "Gripă și răceală", "categories": []}, headers=_headers(sid, tab)
-            ).json()["messages"]
+            first_messages = _send(self.client, sid, tab, "Gripă și răceală", [])
             first_search_id = _by_kind(first_messages, "generate")["searchId"]
 
-            second_messages = self.client.post(
-                "/api/messages", json={"message": "Migrenă", "categories": []}, headers=_headers(sid, tab)
-            ).json()["messages"]
+            second_messages = _send(self.client, sid, tab, "Migrenă", [])
             second_search_id = _by_kind(second_messages, "generate")["searchId"]
             self.assertNotEqual(first_search_id, second_search_id)
 
@@ -785,19 +780,15 @@ class WebTests(unittest.TestCase):
             main, "send_report", side_effect=OSError("SMTP unavailable")
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            messages = self.client.post(
-                "/api/messages", json={"message": "Gripă și răceală", "categories": []}, headers=_headers(sid, tab)
-            ).json()["messages"]
+            messages = _send(self.client, sid, tab, "Gripă și răceală", [])
             search_id = _by_kind(messages, "generate")["searchId"]
             self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True))
             with self.assertLogs("naturist.web", level="ERROR") as captured:
-                resp = self.client.post(
-                    "/api/messages", json={"message": "prieten@example.com", "categories": []}, headers=_headers(sid, tab)
-                )
+                reply_messages = _send(self.client, sid, tab, "prieten@example.com", [])
 
         session = main.store.get(sid, tab)
         self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
-        self.assertIn("Nu am putut trimite", resp.json()["messages"][-1]["content"])
+        self.assertIn("Nu am putut trimite", reply_messages[-1]["content"])
         self.assertIn("stage=email", "\n".join(captured.output))
         main.store.delete(sid, tab)
 

@@ -31,6 +31,10 @@ function setBusy(history: ChatMessage[], searchId: string, busy: boolean): ChatM
 export function useConversation() {
   const queryClient = useQueryClient();
   const [banner, setBanner] = useState<string | null>(null);
+  // True while POST /api/search is in flight — separate from the send
+  // mutation's own isPending (which also covers the fast first phase), so
+  // the chat can show a "thinking" indicator only for the slow part.
+  const [isSearching, setIsSearching] = useState(false);
 
   const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession });
   const history = sessionQuery.data?.history ?? [];
@@ -45,9 +49,24 @@ export function useConversation() {
   );
 
   const sendMessage = useMutation({
-    mutationFn: ({ message, categories }: { message: string; categories: string[] }) =>
-      api.sendMessage(message, categories),
-    onSuccess: (result) => appendMessages(result.messages),
+    // Two round trips, not one: append the fast phase's messages (the
+    // patient's own text + the "Caut rapid..." notice) as soon as they
+    // arrive, then run the slower retrieval separately — otherwise the
+    // whole exchange would stay invisible until retrieval finished, which
+    // reads as "my message didn't send" while the search is still running.
+    mutationFn: async ({ message, categories }: { message: string; categories: string[] }) => {
+      const first = await api.sendMessage(message, categories);
+      appendMessages(first.messages);
+      if (first.startSearch) {
+        setIsSearching(true);
+        try {
+          const second = await api.search();
+          appendMessages(second.messages);
+        } finally {
+          setIsSearching(false);
+        }
+      }
+    },
     onError: () => setBanner("Mesajul nu a putut fi trimis. Încercați din nou."),
   });
 
@@ -93,6 +112,8 @@ export function useConversation() {
     clearBanner: () => setBanner(null),
     sendMessage: (message: string, categories: string[]) => sendMessage.mutate({ message, categories }),
     isSending: sendMessage.isPending,
+    isSearching,
+    isGenerating: generateReport.isPending,
     generateReport: (searchId: string) => generateReport.mutate(searchId),
   };
 }
