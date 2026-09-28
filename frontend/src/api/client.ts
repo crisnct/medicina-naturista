@@ -29,6 +29,10 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     headers: {
       "Content-Type": "application/json",
       "X-Tab-Id": getTabId(),
+      // Harmless everywhere else; tells an ngrok free-tier tunnel (used for
+      // quick live testing) to skip its browser-warning interstitial for
+      // fetch/XHR calls instead of returning its own 401 in front of the app.
+      "ngrok-skip-browser-warning": "true",
       ...(init?.headers ?? {}),
     },
   });
