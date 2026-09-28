@@ -1,8 +1,8 @@
-# Fluxul de generare a indexului hibrid
+# Fluxul de sincronizare a indexului hibrid
 
 **Intrare:** fișierele Markdown din `data/documents`.
 
-**Ieșire:** indexul semantic, indexul lexical și fișierele de trasabilitate din `data/hybrid_index`.
+**Ieșire:** indexul semantic (`pgvector`) și indexul lexical (`tsvector`) din Postgres, actualizate incremental.
 
 ## 1. Pornirea procesului — `rebuild_index.ps1`
 
@@ -13,122 +13,95 @@
 - **1.5.** Pornește Python din `.venv`.
 - **1.6.** Execută `build_hybrid_index.py` cu următoarele argumente:
   - **1.6.1.** `--source data/documents`.
-  - **1.6.2.** `--output data`.
-  - **1.6.3.** `--batch-size 64` sau valoarea furnizată de utilizator.
+  - **1.6.2.** `--batch-size 64` sau valoarea furnizată de utilizator.
 - **1.7.** Returnează codul de ieșire primit de la scriptul Python.
 
-## 2. Pregătirea directoarelor — `build_hybrid_index.py`
+Conexiunea Postgres vine din `.env` (`DATABASE_URL`), citită de `medicina_naturista.config.settings` — nu e un argument al scriptului.
 
-- **2.1.** Convertește directoarele sursă și destinație în căi absolute.
-- **2.2.** Verifică existența directorului `data/documents`.
-- **2.3.** Verifică dacă directorul de ieșire nu se află în interiorul directorului-sursă.
-- **2.4.** Creează `data/hybrid_index` dacă nu există.
-- **2.5.** Creează `data/model_cache` dacă nu există.
-- **2.6.** Găsește recursiv toate fișierele cu extensia `.md`.
-- **2.7.** Sortează fișierele în mod determinist după calea relativă.
-- **2.8.** Oprește procesul dacă nu este găsit niciun fișier Markdown.
+## 2. Pregătirea — `build_hybrid_index.py`
 
-## 3. Citirea și împărțirea fiecărui document în fragmente
+- **2.1.** Convertește directorul sursă într-o cale absolută și verifică existența `data/documents`.
+- **2.2.** Creează extensiile și tabelele Postgres dacă nu există deja (`ensure_schema()` — `vector`, `unaccent`, tabelele `documents`, `chunks`, `sync_metadata`).
+- **2.3.** Găsește recursiv toate fișierele cu extensia `.md` și le sortează determinist după calea relativă.
+- **2.4.** Oprește procesul dacă nu este găsit niciun fișier Markdown.
+- **2.5.** Interoghează `documents` pentru harta `cale_relativă → sha256` deja sincronizată.
 
-- **3.1.** Citește dimensiunea și data ultimei modificări pentru fiecare fișier `.md`.
-- **3.2.** Citește conținutul brut al fișierului.
-- **3.3.** Încearcă succesiv decodificarea `UTF-8 BOM`, `UTF-8`, `UTF-16`, `CP1250` și `CP1252`.
-- **3.4.** Normalizează sfârșiturile de linie și elimină caracterele NUL.
-- **3.5.** Normalizează Unicode la NFC, păstrând diacriticele românești.
-- **3.6.** Calculează suma de control SHA-256 a fișierului-sursă.
-- **3.7.** Creează metadatele `SourceFile`: cale, dimensiune, codificare, număr de linii și sumă de control.
-- **3.8.** Împarte documentul în blocuri Markdown pe baza titlurilor, paragrafelor, listelor și tabelelor.
-- **3.9.** Tratează titlurile obișnuite drept limite stricte de secțiune.
-- **3.10.** Tratează marcajele `Pagina N` sau `Page N` drept limite flexibile, fără a le folosi ca titluri semantice.
-- **3.11.** Pentru blocurile mai mari decât `MAX_CHARS=1400`, caută un punct de separare în această ordine:
-  - **3.11.1.** Sfârșitul unei propoziții.
-  - **3.11.2.** Sfârșitul unei linii, în special pentru liste și tabele.
-  - **3.11.3.** Un spațiu dintre cuvinte.
-  - **3.11.4.** Limita strictă de 1.400 de caractere, dacă nu există un punct de separare mai sigur.
-- **3.12.** Combină unități complete până când fragmentul se apropie de `TARGET_CHARS=1200`.
-- **3.13.** Transferă cel mult `OVERLAP_CHARS=240` de caractere formate din unități complete.
-- **3.14.** La limita dintre pagini, poate transfera ultima propoziție completă în fragmentul următor.
-- **3.15.** Nu combină niciodată conținut din secțiuni Markdown diferite.
-- **3.16.** Creează câte un obiect `Chunk` pentru fiecare fragment, cu:
-  - **3.16.1.** Un `chunk_id` unic.
-  - **3.16.2.** Poziția `embedding_row` în matricea vectorială.
-  - **3.16.3.** Calea sursei și suma de control a sursei.
-  - **3.16.4.** Intervalul de linii din sursă.
-  - **3.16.5.** Titlul sau secțiunea semantică.
-  - **3.16.6.** Textul, numărul de caractere și suma de control a fragmentului.
-- **3.17.** Raportează progresul pregătirii după fiecare 50 de fișiere și după ultimul fișier.
-- **3.18.** Oprește procesul dacă nu este produs niciun fragment.
+## 3. Decizia „sar peste” vs. „re-procesez”, per fișier
 
-## 4. Încărcarea modelului semantic
+- **3.1.** Pentru fiecare fișier, calculează SHA-256 direct din bytes (fără a decodifica sau fragmenta conținutul).
+- **3.2.** Dacă acest SHA-256 este identic cu cel deja stocat pentru aceeași cale relativă → fișierul este **sărit complet**: nu este citit, fragmentat sau trimis către modelul de embeddings, și nu se face niciun apel către baza de date pentru el.
+- **3.3.** Altfel, fișierul intră în lista „de procesat”: se citește, se fragmentează (secțiunea 4) și fragmentele sale se adaugă la lotul care va fi trimis modelului de embeddings (secțiunea 5).
 
-- **4.1.** Selectează modelul implicit `intfloat/multilingual-e5-small`.
-- **4.2.** Verifică dacă FastEmbed cunoaște deja modelul.
-- **4.3.** Înregistrează descrierea modelului dacă aceasta nu este deja disponibilă în FastEmbed.
-- **4.4.** Încarcă modelul ONNX din `data/model_cache`.
-- **4.5.** Descarcă modelul și tokenizerul numai dacă lipsesc din cache-ul local.
-- **4.6.** Configurează ONNX Runtime să folosească maximum `numărul de procesoare - 1` fire de execuție.
+Acesta este mecanismul de sincronizare incrementală: adăugarea sau modificarea unui singur document nu regenerează embeddings pentru restul corpusului.
+
+## 4. Citirea și împărțirea fiecărui document „de procesat” în fragmente
+
+- **4.1.** Citește conținutul brut al fișierului.
+- **4.2.** Încearcă succesiv decodificarea `UTF-8 BOM`, `UTF-8`, `UTF-16`, `CP1250` și `CP1252`.
+- **4.3.** Normalizează sfârșiturile de linie și elimină caracterele NUL.
+- **4.4.** Normalizează Unicode la NFC, păstrând diacriticele românești.
+- **4.5.** Creează metadatele `SourceFile`: cale, dimensiune, codificare, număr de linii și suma de control SHA-256.
+- **4.6.** Împarte documentul în blocuri Markdown pe baza titlurilor, paragrafelor, listelor și tabelelor.
+- **4.7.** Tratează titlurile obișnuite drept limite stricte de secțiune.
+- **4.8.** Tratează marcajele `Pagina N` sau `Page N` drept limite flexibile, fără a le folosi ca titluri semantice.
+- **4.9.** Pentru blocurile mai mari decât `MAX_CHARS=1400`, caută un punct de separare în această ordine:
+  - **4.9.1.** Sfârșitul unei propoziții.
+  - **4.9.2.** Sfârșitul unei linii, în special pentru liste și tabele.
+  - **4.9.3.** Un spațiu dintre cuvinte.
+  - **4.9.4.** Limita strictă de 1.400 de caractere, dacă nu există un punct de separare mai sigur.
+- **4.10.** Combină unități complete până când fragmentul se apropie de `TARGET_CHARS=1200`.
+- **4.11.** Transferă cel mult `OVERLAP_CHARS=240` de caractere formate din unități complete.
+- **4.12.** La limita dintre pagini, poate transfera ultima propoziție completă în fragmentul următor.
+- **4.13.** Nu combină niciodată conținut din secțiuni Markdown diferite.
+- **4.14.** Creează câte un obiect `Chunk` pentru fiecare fragment, cu calea sursei, suma de control a sursei, intervalul de linii, titlul, textul, numărul de caractere și categoria — fără un id sau o poziție în matrice: rândul din `chunks` este alocat de Postgres (`BIGSERIAL`) la inserare.
+- **4.15.** Raportează progresul scanării după fiecare 50 de fișiere și după ultimul fișier, cu numărul de fișiere schimbate față de cele nemodificate.
+- **4.16.** Oprește procesul dacă niciun fragment nu a fost produs pentru vreun document „de procesat”.
 
 ## 5. Generarea embedding-urilor
 
-- **5.1.** Construiește fiecare intrare E5 pentru document din:
-  - **5.1.1.** Prefixul `passage:`.
-  - **5.1.2.** Numele fișierului-sursă.
-  - **5.1.3.** Titlul sau secțiunea semantică, atunci când este disponibilă.
-  - **5.1.4.** Textul fragmentului.
-- **5.2.** Trimite fragmentele către model în loturi de 64 sau cu dimensiunea solicitată.
-- **5.3.** Raportează aproximativ la fiecare 10 secunde fragmentele procesate, procentul, timpul scurs, viteza și timpul estimat rămas.
-- **5.4.** Colectează câte un vector cu 384 de dimensiuni pentru fiecare fragment.
-- **5.5.** Verifică dacă forma matricei este `(fragment_count, 384)`.
-- **5.6.** Verifică dacă toți vectorii conțin valori finite și dacă niciunul nu este vector nul.
-- **5.7.** Normalizează L2 fiecare vector.
-- **5.8.** Afișează rezumatul final al etapei de embedding.
+Rulează o singură dată, peste **toate** fragmentele tuturor documentelor „de procesat” adunate la pasul 3 — nu per document — pentru eficiență la loturi (`batch_size`). Dacă niciun document nu s-a schimbat, acest pas este sărit complet: modelul nici măcar nu este încărcat.
 
-## 6. Verificarea fișierelor-sursă după embedding
+- **5.1.** Încarcă modelul ONNX din `data/model_cache` (implicit `intfloat/multilingual-e5-small`), offline, descărcându-l doar dacă lipsește din cache.
+- **5.2.** Construiește fiecare intrare E5 din: prefixul `passage:`, categoria, numele fișierului-sursă, titlul sau secțiunea semantică (când există) și textul fragmentului.
+- **5.3.** Trimite fragmentele către model în loturi de 64 sau cu dimensiunea solicitată.
+- **5.4.** Raportează aproximativ la fiecare 10 secunde fragmentele procesate, procentul, timpul scurs, viteza și timpul estimat rămas.
+- **5.5.** Colectează câte un vector cu 384 de dimensiuni pentru fiecare fragment.
+- **5.6.** Verifică dacă forma matricei este `(fragment_count, 384)`.
+- **5.7.** Verifică dacă toți vectorii conțin valori finite și dacă niciunul nu este vector nul.
+- **5.8.** Normalizează L2 fiecare vector.
+- **5.9.** După finalizare, verifică din nou dimensiunea și data ultimei modificări a fiecărui fișier „de procesat”; oprește sincronizarea dacă vreunul s-a schimbat în timpul embedding-ului.
 
-- **6.1.** Citește din nou dimensiunea și data ultimei modificări pentru fiecare fișier-sursă.
-- **6.2.** Le compară cu valorile înregistrate înainte de embedding.
-- **6.3.** Oprește construirea dacă un document-sursă s-a modificat în timpul procesării.
+## 6. Scrierea fiecărui document „de procesat” — o tranzacție per document
 
-## 7. Construirea artefactelor într-un director temporar
+Pentru fiecare document din lista „de procesat” (secțiunea 3), într-o singură conexiune/tranzacție:
 
-- **7.1.** Creează un director temporar de pregătire `data/hybrid_index/index-build-*`.
-- **7.2.** Scrie matricea semantică normalizată în `embeddings.npy`.
-- **7.3.** Scrie fragmentele și metadatele lor în `fragments.jsonl`.
-- **7.4.** Scrie metadatele și sumele de control ale surselor în `source_manifest.jsonl`.
-- **7.5.** Creează `index.sqlite3`.
-- **7.6.** Creează tabelele SQLite `metadata`, `files` și `chunks`.
-- **7.7.** Creează indexul lexical FTS5 `chunks_fts`.
-- **7.8.** Inserează în SQLite metadatele, fișierele-sursă, fragmentele și înregistrările FTS.
-- **7.9.** Rulează `PRAGMA integrity_check` și se oprește dacă baza de date este invalidă.
-- **7.10.** Scrie în `manifest.json` modelul, dimensiunea vectorilor, strategia de chunking și numărul surselor și fragmentelor.
-- **7.11.** Calculează sumele de control pentru artefactele principale.
-- **7.12.** Scrie sumele de control în `SHA256SUMS.txt`.
+- **6.1.** Șterge din `chunks` toate fragmentele vechi ale acelui `source_relative_path`.
+- **6.2.** Face `INSERT ... ON CONFLICT (relative_path) DO UPDATE` în `documents` cu metadatele noi (dimensiune, dată, SHA-256, categorie).
+- **6.3.** Inserează fragmentele noi în `chunks`, fiecare cu vectorul lui semantic (`embedding`) și coloana lexicală `text_search` calculată la inserare (`to_tsvector('simple', unaccent(text || heading || cale))`, echivalentul indexării pe cele trei coloane pe care FTS5 o făcea înainte).
 
-## 8. Publicarea indexului hibrid
+Niciun cititor nu vede vreodată un document cu doar o parte din fragmentele lui noi scrise, iar eșecul scrierii unui document nu afectează documentele deja scrise cu succes în aceeași rulare.
 
-- **8.1.** Mută fiecare artefact validat din directorul temporar în `data/hybrid_index` folosind `os.replace`.
-- **8.2.** Publică următoarele șase fișiere:
-  - **8.2.1.** `embeddings.npy` — vectorii semantici.
-  - **8.2.2.** `index.sqlite3` — metadatele, fragmentele și indexul lexical FTS5.
-  - **8.2.3.** `fragments.jsonl` — exportul auditabil al fragmentelor.
-  - **8.2.4.** `source_manifest.jsonl` — inventarul documentelor-sursă.
-  - **8.2.5.** `manifest.json` — configurația construirii.
-  - **8.2.6.** `SHA256SUMS.txt` — sumele de control ale artefactelor.
-- **8.3.** Elimină directorul temporar după ce acesta devine gol.
-- **8.4.** Afișează rezultatul JSON final: starea, numărul surselor, numărul fragmentelor, forma matricei și calea de ieșire.
-- **8.5.** Returnează codul de ieșire `0` către `rebuild_index.ps1` atunci când construirea reușește.
-- **8.6.** În caz de eroare, afișează tipul și mesajul excepției și returnează un cod de ieșire diferit de zero.
+## 7. Documente eliminate din sursă
+
+- **7.1.** Orice cale relativă prezentă în `documents` dar absentă din listarea curentă a `data/documents` este ștearsă din `documents` (`DELETE ... WHERE relative_path = ANY(...)`).
+- **7.2.** Ștergerea cascadează automat la `chunks`, prin cheia străină `ON DELETE CASCADE`.
+
+## 8. Metadate și rezumat
+
+- **8.1.** Scrie în `sync_metadata` numele modelului, dimensiunea vectorilor și data/ora ultimei sincronizări.
+- **8.2.** Afișează un rezumat JSON: numărul de fișiere scanate, nemodificate, sincronizate și eliminate, numărul de fragmente scrise și numărul de avertismente.
+- **8.3.** Returnează codul de ieșire `0` către `rebuild_index.ps1` atunci când sincronizarea reușește.
+- **8.4.** În caz de eroare, afișează tipul și mesajul excepției și returnează un cod de ieșire diferit de zero.
 
 ## Rezultatul final
 
 ```text
-data/hybrid_index/
-├── embeddings.npy
-├── fragments.jsonl
-├── index.sqlite3
-├── manifest.json
-├── source_manifest.jsonl
-└── SHA256SUMS.txt
+data/documents/*.md
+        ↓ (SHA-256 neschimbat?) ── da ──→ sărit, neatins
+        ↓ nu
+   fragmentare + embeddings (doar fișierele schimbate)
+        ↓
+   Postgres: documents, chunks (embedding + text_search), sync_metadata
 ```
 
-Indexul este consumat la rulare de `src/medicina_naturista/ai/search.py` (`rank()`) și `ai/retrieval.py`; vezi [fluxul de generare a raportului final](final-report-generation.md).
+Indexul este consumat la rulare de `src/medicina_naturista/ai/search.py` (`rank()`) și `ai/retrieval.py`; vezi [fluxul de generare a raportului final](final-report-generation.md) și [căutarea, unirea și scoringul fragmentelor](fragment-search-and-scoring.md).

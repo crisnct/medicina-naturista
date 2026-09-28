@@ -10,11 +10,7 @@ $env:HF_HUB_OFFLINE = '1'
 $env:PYTHONIOENCODING = 'utf-8'
 $env:PYTHONPATH = Join-Path $projectRoot 'src'
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
-$arguments = @(
-    '-m', 'medicina_naturista.ai.search',
-    $Query,
-    '--index', (Join-Path $projectRoot 'data\hybrid_index')
-)
+$arguments = @('-m', 'medicina_naturista.ai.search', $Query)
 if ($Json) { $arguments += '--json' }
 & (Join-Path $projectRoot '.venv\Scripts\python.exe') @arguments
 exit $LASTEXITCODE

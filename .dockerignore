@@ -8,8 +8,6 @@ __pycache__
 var/sessions
 var/tmp
 data/documents
-data/embeddings
-data/hybrid_index
 data/model_cache
 tests
 var/output

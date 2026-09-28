@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import io
-import json
-import sqlite3
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -10,14 +8,26 @@ from pathlib import Path
 from unittest import mock
 
 import numpy as np
+from psycopg.rows import namedtuple_row
 
+from medicina_naturista.ai import categories
+from medicina_naturista.ai import db as db_module
 from scripts import build_hybrid_index as builder
+from tests.support.postgres import PostgresFixture
+
+_fixture = PostgresFixture()
 
 
-def make_chunk(chunk_id: int, text: str = "text") -> builder.Chunk:
+def setUpModule():
+    _fixture.start()
+
+
+def tearDownModule():
+    _fixture.stop()
+
+
+def make_chunk(index: int, text: str = "text") -> builder.Chunk:
     return builder.Chunk(
-        chunk_id=chunk_id,
-        embedding_row=chunk_id - 1,
         source_relative_path="document.md",
         source_absolute_path="C:/documents/document.md",
         source_sha256="source-hash",
@@ -25,7 +35,7 @@ def make_chunk(chunk_id: int, text: str = "text") -> builder.Chunk:
         line_end=1,
         heading="Titlu",
         text=text,
-        text_sha256=f"text-hash-{chunk_id}",
+        text_sha256=f"text-hash-{index}",
         char_count=len(text),
     )
 
@@ -53,6 +63,14 @@ class FakeEmbeddingModel:
             vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
             vector[index % builder.MODEL_DIMENSION] = 1.0
             yield vector
+
+
+# Return unit-normalized deterministic embeddings, standing in for the real
+# ONNX model in tests that only care about the sync/DB-write behaviour.
+def fake_embed(_model, chunks, _batch_size):
+    vectors = np.ones((len(chunks), builder.MODEL_DIMENSION), dtype=np.float32)
+    vectors /= np.linalg.norm(vectors, axis=1, keepdims=True)
+    return vectors
 
 
 class ChunkingTests(unittest.TestCase):
@@ -249,7 +267,7 @@ class CategoryTreeTests(unittest.TestCase):
             make_source("root.md", ""),
         ]
 
-        tree = builder.build_category_tree(sources)
+        tree = categories.build_category_tree(sources)
 
         self.assertEqual(tree["root_id"], "")
         nodes = tree["nodes"]
@@ -283,14 +301,14 @@ class CategoryTreeTests(unittest.TestCase):
             make_source("beta/c.md", "beta"),
         ]
 
-        tree = builder.build_category_tree(sources)
+        tree = categories.build_category_tree(sources)
 
         self.assertEqual(tree["nodes"][""]["children"], ["Alpha", "beta", "zebra"])
 
     def test_deeply_nested_folders_each_become_their_own_category(self):
         sources = [make_source("A/B/C/D/doc.md", "A/B/C/D")]
 
-        tree = builder.build_category_tree(sources)
+        tree = categories.build_category_tree(sources)
 
         self.assertEqual(set(tree["nodes"]), {"", "A", "A/B", "A/B/C", "A/B/C/D"})
         self.assertEqual(tree["nodes"]["A/B/C/D"]["total_documents"], 1)
@@ -299,69 +317,91 @@ class CategoryTreeTests(unittest.TestCase):
             self.assertEqual(tree["nodes"][ancestor]["own_documents"], 0)
 
 
-class BuildArtifactTests(unittest.TestCase):
-    def test_build_writes_complete_index_to_hybrid_index_with_fragments_file(self):
-        with tempfile.TemporaryDirectory() as temporary_directory:
-            root = Path(temporary_directory)
-            source = root / "documents"
-            output = root / "data"
-            source.mkdir()
-            (source / "document.md").write_text(
-                "# Remedii\n\nCeai de mușețel și atenționări.",
-                encoding="utf-8",
-            )
+class SyncTests(unittest.TestCase):
+    def setUp(self):
+        _fixture.reset()
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.source = Path(self.tmp.name) / "documents"
+        self.source.mkdir()
 
-            def fake_embed(_model, chunks, _batch_size):
-                vectors = np.ones((len(chunks), builder.MODEL_DIMENSION), dtype=np.float32)
-                vectors /= np.linalg.norm(vectors, axis=1, keepdims=True)
-                return vectors
+    # Fetch every row of `documents`/`chunks`, sorted for stable assertions.
+    def _rows(self, table: str, columns: str):
+        with db_module.get_pool().connection() as connection:
+            with connection.cursor(row_factory=namedtuple_row) as cursor:
+                return cursor.execute(f"SELECT {columns} FROM {table} ORDER BY 1").fetchall()
 
-            with (
-                mock.patch.object(builder, "create_embedding_model", return_value=object()),
-                mock.patch.object(builder, "embed_chunks", side_effect=fake_embed),
-                redirect_stdout(io.StringIO()),
-            ):
-                builder.build(source, output, builder.DEFAULT_MODEL, batch_size=64)
+    def _sync(self):
+        with mock.patch.object(builder, "create_embedding_model", return_value=object()), \
+             mock.patch.object(builder, "embed_chunks", side_effect=fake_embed) as embed_mock, \
+             redirect_stdout(io.StringIO()):
+            builder.build(self.source, builder.DEFAULT_MODEL, batch_size=64)
+        return embed_mock
 
-            index_dir = output / "hybrid_index"
-            self.assertTrue(index_dir.is_dir())
-            self.assertTrue((index_dir / "fragments.jsonl").is_file())
-            self.assertFalse((index_dir / "chunks.jsonl").exists())
-            self.assertEqual(
-                {path.name for path in index_dir.iterdir()},
-                {
-                    "SHA256SUMS.txt",
-                    "embeddings.npy",
-                    "fragments.jsonl",
-                    "index.sqlite3",
-                    "manifest.json",
-                    "source_manifest.jsonl",
-                    "categories.json",
-                },
-            )
-            manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
-            self.assertEqual(manifest["index"]["fragments"], "fragments.jsonl")
-            self.assertEqual(manifest["categories"]["file"], "categories.json")
-            checksums = (index_dir / "SHA256SUMS.txt").read_text(encoding="ascii")
-            self.assertIn("  fragments.jsonl\n", checksums)
-            self.assertIn("  categories.json\n", checksums)
-            self.assertNotIn("chunks.jsonl", checksums)
+    def test_sync_writes_documents_and_chunks(self):
+        (self.source / "document.md").write_text(
+            "# Remedii\n\nCeai de mușețel și atenționări.", encoding="utf-8",
+        )
 
-            # document.md sits directly in the source root, so it falls under
-            # the root ("no folder") category.
-            categories = json.loads((index_dir / "categories.json").read_text(encoding="utf-8"))
-            self.assertEqual(categories["root_id"], "")
-            self.assertEqual(categories["nodes"][""]["own_documents"], 1)
-            self.assertEqual(categories["nodes"][""]["children"], [])
+        self._sync()
 
-            connection = sqlite3.connect(index_dir / "index.sqlite3")
-            try:
-                row = connection.execute("SELECT category_id FROM files").fetchone()
-                self.assertEqual(row[0], "")
-                chunk_row = connection.execute("SELECT category_id FROM chunks").fetchone()
-                self.assertEqual(chunk_row[0], "")
-            finally:
-                connection.close()
+        documents = self._rows("documents", "relative_path, category_id")
+        self.assertEqual(documents, [("document.md", "")])
+        chunks = self._rows("chunks", "source_relative_path, category_id")
+        self.assertEqual(len(chunks), 1)
+        self.assertEqual(chunks[0].category_id, "")
+
+        with db_module.get_pool().connection() as connection:
+            model_name = connection.execute(
+                "SELECT value FROM sync_metadata WHERE key = 'model_name'"
+            ).fetchone()[0]
+        self.assertEqual(model_name, builder.DEFAULT_MODEL)
+
+    def test_category_id_comes_from_containing_folder(self):
+        (self.source / "Cancer").mkdir()
+        (self.source / "Cancer" / "a.md").write_text("# A\n\nText despre tratament.", encoding="utf-8")
+
+        self._sync()
+
+        documents = self._rows("documents", "relative_path, category_id")
+        self.assertEqual(documents, [("Cancer/a.md", "Cancer")])
+
+    def test_second_sync_with_no_changes_skips_embedding_entirely(self):
+        (self.source / "document.md").write_text("# Remedii\n\nText neschimbat.", encoding="utf-8")
+        self._sync()
+
+        second_call = self._sync()
+
+        second_call.assert_not_called()
+
+    def test_only_the_modified_file_is_reprocessed(self):
+        (self.source / "a.md").write_text("# A\n\nConținut inițial pentru a.", encoding="utf-8")
+        (self.source / "b.md").write_text("# B\n\nConținut neschimbat pentru b.", encoding="utf-8")
+        self._sync()
+
+        (self.source / "a.md").write_text("# A\n\nConținut modificat pentru a.", encoding="utf-8")
+        embed_mock = self._sync()
+
+        embedded_chunks = embed_mock.call_args.args[1]
+        self.assertTrue(all(chunk.source_relative_path == "a.md" for chunk in embedded_chunks))
+        chunks = self._rows("chunks", "source_relative_path, text")
+        b_chunk = next(row for row in chunks if row.source_relative_path == "b.md")
+        self.assertIn("neschimbat", b_chunk.text)
+        a_chunk = next(row for row in chunks if row.source_relative_path == "a.md")
+        self.assertIn("modificat", a_chunk.text)
+
+    def test_file_removed_from_source_is_deleted_from_the_index(self):
+        (self.source / "a.md").write_text("# A\n\nConținut a.", encoding="utf-8")
+        (self.source / "b.md").write_text("# B\n\nConținut b.", encoding="utf-8")
+        self._sync()
+
+        (self.source / "b.md").unlink()
+        self._sync()
+
+        documents = self._rows("documents", "relative_path, category_id")
+        self.assertEqual(documents, [("a.md", "")])
+        chunks = self._rows("chunks", "source_relative_path, text")
+        self.assertTrue(all(row.source_relative_path == "a.md" for row in chunks))
 
 
 if __name__ == "__main__":

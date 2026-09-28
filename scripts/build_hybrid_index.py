@@ -1,33 +1,32 @@
 #!/usr/bin/env python3
-"""Build a traceable, local-only hybrid index for a Markdown medical corpus."""
+"""Incrementally sync a traceable, local-only hybrid index for a Markdown
+medical corpus into Postgres (pgvector for semantic search, tsvector for
+lexical search). A document whose SHA-256 matches what's already stored is
+skipped entirely — no re-chunking, no re-embedding, no DB write — so adding
+or editing one document never touches the rest of the corpus."""
 
 from __future__ import annotations
 
 import argparse
 import hashlib
 import json
-import os
-import platform
 import re
-import sqlite3
-import subprocess
 import sys
-import tempfile
 import time
 import unicodedata
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Callable, Iterable, Iterator, Sequence
+from typing import Callable, Iterator, Sequence
 
 import numpy as np
+from psycopg.rows import namedtuple_row
 
-# Default multilingual model used for Romanian and English medical retrieval.
-DEFAULT_MODEL = "intfloat/multilingual-e5-small"
-# Vector width produced by DEFAULT_MODEL and required by the generated index.
-MODEL_DIMENSION = 384
-# ONNX artifact loaded from the local Hugging Face model snapshot.
-MODEL_FILE = "onnx/model.onnx"
+from medicina_naturista.ai.categories import ROOT_CATEGORY_ID
+from medicina_naturista.ai.db import ensure_schema, get_pool
+from medicina_naturista.ai.embedding_model import DEFAULT_MODEL, MODEL_DIMENSION, create_embedding_model
+from medicina_naturista.config import settings
+
 # Preferred chunk size; complete content units may extend up to MAX_CHARS.
 TARGET_CHARS = 1200
 # Hard upper bound for chunk text before embedding.
@@ -36,21 +35,7 @@ MAX_CHARS = 1400
 OVERLAP_CHARS = 240
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
-# Directory containing the complete semantic and lexical retrieval index.
-INDEX_DIRECTORY_NAME = "hybrid_index"
-# Traceable JSON Lines export of the fragments represented by the index.
-FRAGMENTS_FILE_NAME = "fragments.jsonl"
-# The category tree derived from the source folder structure (see
-# build_category_tree()), consumed by the web app to let a patient restrict
-# retrieval to chosen source folders before searching.
-CATEGORIES_FILE_NAME = "categories.json"
-INDEX_FILE_NAMES = (
-    FRAGMENTS_FILE_NAME, "embeddings.npy", "index.sqlite3", "manifest.json",
-    "source_manifest.jsonl", CATEGORIES_FILE_NAME, "SHA256SUMS.txt",
-)
-# Category id used for files placed directly in the source root, with no
-# containing folder.
-ROOT_CATEGORY_ID = ""
+
 
 @dataclass(frozen=True)
 class SourceFile:
@@ -64,15 +49,12 @@ class SourceFile:
     char_count: int
     # The document's category: its containing folder's path relative to the
     # source root (posix-separated), or ROOT_CATEGORY_ID when the file sits
-    # directly in the source root. Defaulted so existing call sites (and
-    # fixtures built before category support existed) keep working unchanged.
+    # directly in the source root.
     category_id: str = ROOT_CATEGORY_ID
 
 
 @dataclass(frozen=True)
 class Chunk:
-    chunk_id: int
-    embedding_row: int
     source_relative_path: str
     source_absolute_path: str
     source_sha256: str
@@ -96,7 +78,9 @@ def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-# Compute a file digest incrementally to keep memory usage bounded.
+# Compute a file digest incrementally to keep memory usage bounded. Used as
+# the cheap "did this document change?" check before deciding whether to
+# read/chunk/embed it at all.
 def sha256_file(path: Path, block_size: int = 1024 * 1024) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as stream:
@@ -342,167 +326,6 @@ def iter_embedding_inputs(chunks: Sequence[Chunk]) -> Iterator[str]:
         yield f"passage: {context}\n{chunk.text}"
 
 
-# Load or register the configured FastEmbed model in the local cache.
-def create_embedding_model(model_name: str, cache_dir: Path):
-    from fastembed import TextEmbedding
-
-    supported = {item["model"] for item in TextEmbedding.list_supported_models()}
-    if model_name not in supported:
-        from fastembed.common.model_description import ModelSource, PoolingType
-
-        TextEmbedding.add_custom_model(
-            model=model_name,
-            pooling=PoolingType.MEAN,
-            normalization=True,
-            sources=ModelSource(hf=model_name),
-            dim=MODEL_DIMENSION,
-            model_file=MODEL_FILE,
-        )
-    return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=max(1, (os.cpu_count() or 2) - 1))
-
-
-# Serialize one JSON value as readable UTF-8 text.
-def write_json(path: Path, value: object) -> None:
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-
-# Serialize an iterable of values or dataclass records as compact JSON Lines.
-def write_jsonl(path: Path, rows: Iterable[object]) -> None:
-    with path.open("w", encoding="utf-8", newline="\n") as stream:
-        for row in rows:
-            if hasattr(row, "__dataclass_fields__"):
-                row = asdict(row)
-            stream.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
-
-
-# Depth of a category id in the tree: the root ("") is depth 0, a top-level
-# folder is depth 1, and each "/" below that adds one more level.
-def _category_depth(category_id: str) -> int:
-    return 0 if category_id == ROOT_CATEGORY_ID else category_id.count("/") + 1
-
-
-# Derive the full category tree from the folder each source document lives
-# in (see SourceFile.category_id): every folder that directly holds at least
-# one document becomes a category, and every one of ITS ancestor folders
-# (even ones holding no document directly, only subfolders) becomes a purely
-# structural parent category. Only categories with own_documents > 0 ever tag
-# a chunk (see Chunk.category_id) — an ancestor-only category exists in the
-# tree for navigation/UI purposes but is never itself a valid retrieval
-# filter. Written to CATEGORIES_FILE_NAME and reloaded (never recomputed) by
-# the web app through medicina_naturista.ai.categories.load_category_tree().
-def build_category_tree(sources: Sequence[SourceFile]) -> dict[str, object]:
-    own_documents: dict[str, int] = {}
-    for item in sources:
-        own_documents[item.category_id] = own_documents.get(item.category_id, 0) + 1
-
-    all_ids: set[str] = {ROOT_CATEGORY_ID}
-    for category_id in own_documents:
-        prefix = ROOT_CATEGORY_ID
-        all_ids.add(prefix)
-        if category_id == ROOT_CATEGORY_ID:
-            continue
-        for part in category_id.split("/"):
-            prefix = f"{prefix}/{part}" if prefix else part
-            all_ids.add(prefix)
-
-    parent_of: dict[str, str | None] = {ROOT_CATEGORY_ID: None}
-    children: dict[str, list[str]] = {category_id: [] for category_id in all_ids}
-    for category_id in all_ids:
-        if category_id == ROOT_CATEGORY_ID:
-            continue
-        parent = category_id.rsplit("/", 1)[0] if "/" in category_id else ROOT_CATEGORY_ID
-        parent_of[category_id] = parent
-        children[parent].append(category_id)
-    for sibling_ids in children.values():
-        sibling_ids.sort(key=str.casefold)
-
-    # Accumulate each category's own document count into its own total, then
-    # add that total into its parent's total, deepest categories first, so a
-    # parent's total is only ever added upward after every one of its own
-    # descendants has already been folded into it.
-    total_documents: dict[str, int] = {category_id: own_documents.get(category_id, 0) for category_id in all_ids}
-    for category_id in sorted(all_ids, key=_category_depth, reverse=True):
-        parent = parent_of[category_id]
-        if parent is not None:
-            total_documents[parent] += total_documents[category_id]
-
-    nodes = {
-        category_id: {
-            "id": category_id,
-            "label": "(fără categorie)" if category_id == ROOT_CATEGORY_ID else category_id.rsplit("/", 1)[-1],
-            "parent": parent_of[category_id],
-            "children": children[category_id],
-            "own_documents": own_documents.get(category_id, 0),
-            "total_documents": total_documents[category_id],
-        }
-        for category_id in all_ids
-    }
-    return {"version": 1, "root_id": ROOT_CATEGORY_ID, "nodes": nodes}
-
-
-# Create the SQLite metadata, chunk, and FTS5 tables for the generated index.
-def create_sqlite(path: Path, sources: Sequence[SourceFile], chunks: Sequence[Chunk], metadata: dict[str, str]) -> None:
-    if path.exists():
-        path.unlink()
-    connection = sqlite3.connect(path)
-    try:
-        connection.executescript(
-            """
-            PRAGMA journal_mode=DELETE;
-            PRAGMA synchronous=FULL;
-            CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);
-            CREATE TABLE files (
-                relative_path TEXT PRIMARY KEY,
-                absolute_path TEXT NOT NULL,
-                size_bytes INTEGER NOT NULL,
-                modified_utc TEXT NOT NULL,
-                sha256 TEXT NOT NULL,
-                encoding TEXT NOT NULL,
-                line_count INTEGER NOT NULL,
-                char_count INTEGER NOT NULL,
-                category_id TEXT NOT NULL
-            );
-            CREATE TABLE chunks (
-                chunk_id INTEGER PRIMARY KEY,
-                embedding_row INTEGER UNIQUE NOT NULL,
-                source_relative_path TEXT NOT NULL REFERENCES files(relative_path),
-                source_absolute_path TEXT NOT NULL,
-                source_sha256 TEXT NOT NULL,
-                line_start INTEGER NOT NULL,
-                line_end INTEGER NOT NULL,
-                heading TEXT NOT NULL,
-                text TEXT NOT NULL,
-                text_sha256 TEXT NOT NULL,
-                char_count INTEGER NOT NULL,
-                category_id TEXT NOT NULL
-            );
-            CREATE INDEX idx_chunks_source ON chunks(source_relative_path, line_start);
-            CREATE INDEX idx_chunks_category ON chunks(category_id);
-            CREATE VIRTUAL TABLE chunks_fts USING fts5(
-                text, heading, source_relative_path,
-                tokenize='unicode61 remove_diacritics 2'
-            );
-            """
-        )
-        connection.executemany("INSERT INTO metadata(key,value) VALUES (?,?)", sorted(metadata.items()))
-        connection.executemany(
-            "INSERT INTO files VALUES (?,?,?,?,?,?,?,?,?)",
-            [tuple(asdict(item).values()) for item in sources],
-        )
-        chunk_rows = [tuple(asdict(item).values()) for item in chunks]
-        connection.executemany("INSERT INTO chunks VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", chunk_rows)
-        connection.executemany(
-            "INSERT INTO chunks_fts(rowid,text,heading,source_relative_path) VALUES (?,?,?,?)",
-            [(item.chunk_id, item.text, item.heading, item.source_relative_path) for item in chunks],
-        )
-        connection.commit()
-        result = connection.execute("PRAGMA integrity_check").fetchone()
-        if not result or result[0] != "ok":
-            raise RuntimeError(f"SQLite integrity_check failed: {result}")
-    finally:
-        connection.close()
-
-
 # Format elapsed and estimated durations as stable terminal-friendly timestamps.
 def format_duration(seconds: float) -> str:
     total_seconds = max(0, int(seconds))
@@ -566,48 +389,71 @@ def embed_chunks(
     return embeddings
 
 
-# Fail fast if another program (editor, IDE, ...) holds existing index files, since Windows then refuses to replace them.
-def ensure_index_files_replaceable(index_dir: Path) -> None:
-    locked: list[str] = []
-    for name in INDEX_FILE_NAMES:
-        path = index_dir / name
-        if not path.exists():
-            continue
-        probe = path.with_name(path.name + ".lockcheck")
-        try:
-            os.replace(path, probe)
-            os.replace(probe, path)
-        except OSError:
-            locked.append(name)
-    if locked:
-        raise PermissionError(
-            f"Index files are in use by another program: {', '.join(locked)}. "
-            "Close them in your editor/IDE (and stop anything reading them), then run the build again."
+# The lexical text_search column indexes the same three fields the old
+# SQLite FTS5 virtual table did (text, heading, source path) — see
+# ai/search.py's lexical query for how it's matched against.
+def _text_search_input(chunk: Chunk) -> str:
+    return f"{chunk.text} {chunk.heading} {chunk.source_relative_path}"
+
+
+# Replace a document's chunks and upsert its row. Called with a connection
+# freshly acquired from the pool for this one document (see build()), so the
+# pool's own commit-on-exit/rollback-on-exception makes this a single
+# transaction — a reader never sees a document with only some of its new
+# chunks written, and one document's write never rolls back another's.
+def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], embeddings: np.ndarray) -> None:
+    # category_id is not written here: it's a GENERATED column in Postgres,
+    # always derived from relative_path/source_relative_path (see db.py's
+    # SCHEMA_SQL) — Python still computes it (SourceFile/Chunk.category_id)
+    # because iter_embedding_inputs() needs it in the passage text before
+    # this function ever runs.
+    connection.execute("DELETE FROM chunks WHERE source_relative_path = %s", (source.relative_path,))
+    connection.execute(
+        """
+        INSERT INTO documents
+            (relative_path, absolute_path, size_bytes, modified_utc, sha256, encoding, line_count, char_count)
+        VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+        ON CONFLICT (relative_path) DO UPDATE SET
+            absolute_path = EXCLUDED.absolute_path,
+            size_bytes = EXCLUDED.size_bytes,
+            modified_utc = EXCLUDED.modified_utc,
+            sha256 = EXCLUDED.sha256,
+            encoding = EXCLUDED.encoding,
+            line_count = EXCLUDED.line_count,
+            char_count = EXCLUDED.char_count
+        """,
+        (
+            source.relative_path, source.absolute_path, source.size_bytes, source.modified_utc,
+            source.sha256, source.encoding, source.line_count, source.char_count,
+        ),
+    )
+    for chunk, embedding in zip(chunks, embeddings):
+        connection.execute(
+            """
+            INSERT INTO chunks
+                (source_relative_path, source_absolute_path, source_sha256, line_start, line_end,
+                 heading, text, text_sha256, char_count, embedding, text_search)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)))
+            """,
+            (
+                chunk.source_relative_path, chunk.source_absolute_path, chunk.source_sha256,
+                chunk.line_start, chunk.line_end, chunk.heading, chunk.text, chunk.text_sha256,
+                chunk.char_count, embedding, _text_search_input(chunk),
+            ),
         )
 
 
-# Build embeddings, searchable metadata, checksums, and manifests atomically.
-def build(
-    source: Path,
-    output: Path,
-    model_name: str,
-    batch_size: int,
-    before_publish: Callable[[], None] | None = None,
-) -> None:
+# Sync data/documents into Postgres: unchanged files (same SHA-256 already
+# stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
+# and written in one transaction each; files removed from source are deleted.
+def build(source: Path, model_name: str, batch_size: int) -> None:
     source = source.resolve()
-    output = output.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
-    if source == output or source in output.parents:
-        raise ValueError("Output directory must not be inside the source directory")
 
-    output.mkdir(parents=True, exist_ok=True)
-    index_dir = output / INDEX_DIRECTORY_NAME
-    index_dir.mkdir(parents=True, exist_ok=True)
-    ensure_index_files_replaceable(index_dir)
-    cache_dir = output / "model_cache"
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    started_at = utc_now()
+    ensure_schema()
+    settings.model_cache_dir.mkdir(parents=True, exist_ok=True)
+    pool = get_pool()
 
     paths = sorted(
         (path for path in source.rglob("*.md") if path.is_file()),
@@ -616,49 +462,56 @@ def build(
     if not paths:
         raise RuntimeError(f"No Markdown files found in {source}")
 
-    source_files: list[SourceFile] = []
-    chunks: list[Chunk] = []
+    with pool.connection() as connection:
+        with connection.cursor(row_factory=namedtuple_row) as cursor:
+            existing = {
+                row.relative_path: row.sha256
+                for row in cursor.execute("SELECT relative_path, sha256 FROM documents").fetchall()
+            }
+
     warnings: list[str] = []
+    skipped = 0
+    pending: list[tuple[SourceFile, list[tuple[str, int, int, str]]]] = []
+    all_new_chunks: list[Chunk] = []
     initial_stats: dict[str, tuple[int, int]] = {}
-    next_id = 1
 
     for index, path in enumerate(paths, start=1):
         relative = path.relative_to(source).as_posix()
-        # The document's category is its containing folder, relative to the
-        # source root — ROOT_CATEGORY_ID for a file placed directly in the
-        # source root. See build_category_tree() for how this becomes a tree.
         category_id = path.parent.relative_to(source).as_posix()
         if category_id == ".":
             category_id = ROOT_CATEGORY_ID
+        file_hash = sha256_file(path)
+        if existing.get(relative) == file_hash:
+            skipped += 1
+            continue
+
         stat = path.stat()
         initial_stats[relative] = (stat.st_size, stat.st_mtime_ns)
         decoded, encoding, raw = read_markdown(path)
         normalized = normalize_text(decoded)
         if encoding == "utf-8-replace":
             warnings.append(f"Replacement characters used while decoding: {relative}")
-        line_count = normalized.count("\n") + 1
         source_hash = sha256_bytes(raw)
-        source_files.append(
-            SourceFile(
-                relative_path=relative,
-                absolute_path=str(path),
-                size_bytes=len(raw),
-                modified_utc=datetime.fromtimestamp(stat.st_mtime, timezone.utc).isoformat().replace("+00:00", "Z"),
-                sha256=source_hash,
-                encoding=encoding,
-                line_count=line_count,
-                char_count=len(normalized),
-                category_id=category_id,
-            )
+        if source_hash != file_hash:
+            raise RuntimeError(f"Hash mismatch while reading {relative} (file changed during sync)")
+        source_file = SourceFile(
+            relative_path=relative,
+            absolute_path=str(path),
+            size_bytes=len(raw),
+            modified_utc=datetime.fromtimestamp(stat.st_mtime, timezone.utc).isoformat().replace("+00:00", "Z"),
+            sha256=source_hash,
+            encoding=encoding,
+            line_count=normalized.count("\n") + 1,
+            char_count=len(normalized),
+            category_id=category_id,
         )
         document_chunks = chunk_document(normalized)
         if not document_chunks:
             warnings.append(f"No indexable text: {relative}")
+        pending.append((source_file, document_chunks))
         for body, line_start, line_end, heading in document_chunks:
-            chunks.append(
+            all_new_chunks.append(
                 Chunk(
-                    chunk_id=next_id,
-                    embedding_row=next_id - 1,
                     source_relative_path=relative,
                     source_absolute_path=str(path),
                     source_sha256=source_hash,
@@ -671,167 +524,75 @@ def build(
                     category_id=category_id,
                 )
             )
-            next_id += 1
         if index % 50 == 0 or index == len(paths):
-            print(f"Prepared {index}/{len(paths)} files; {len(chunks)} chunks", flush=True)
+            print(f"Scanned {index}/{len(paths)} files; {len(pending)} changed, {skipped} unchanged", flush=True)
 
-    if not chunks:
-        raise RuntimeError("No chunks were produced")
+    embeddings = np.empty((0, MODEL_DIMENSION), dtype=np.float32)
+    if all_new_chunks:
+        print(f"Loading local embedding model {model_name}", flush=True)
+        model = create_embedding_model(model_name, MODEL_DIMENSION, settings.model_cache_dir)
+        print(f"Embedding {len(all_new_chunks)} chunks from {len(pending)} changed files (batch size {batch_size})", flush=True)
+        embeddings = embed_chunks(model, all_new_chunks, batch_size)
 
-    print(f"Loading local embedding model {model_name}", flush=True)
-    model = create_embedding_model(model_name, cache_dir)
-    print(f"Embedding {len(chunks)} chunks (batch size {batch_size})", flush=True)
-    embeddings = embed_chunks(model, chunks, batch_size)
+        changed_during_sync = []
+        for relative, (size, mtime_ns) in initial_stats.items():
+            current = Path(source, relative).stat()
+            if (current.st_size, current.st_mtime_ns) != (size, mtime_ns):
+                changed_during_sync.append(relative)
+        if changed_during_sync:
+            raise RuntimeError("Source files changed during sync: " + ", ".join(changed_during_sync[:10]))
 
-    changed_during_build: list[str] = []
-    for path in paths:
-        relative = path.relative_to(source).as_posix()
-        stat = path.stat()
-        if initial_stats[relative] != (stat.st_size, stat.st_mtime_ns):
-            changed_during_build.append(relative)
-    if changed_during_build:
-        raise RuntimeError("Source files changed during build: " + ", ".join(changed_during_build[:10]))
+    offset = 0
+    for source_file, document_chunks in pending:
+        count = len(document_chunks)
+        chunk_slice = all_new_chunks[offset:offset + count]
+        embedding_slice = embeddings[offset:offset + count]
+        offset += count
+        with pool.connection() as connection:
+            _write_document(connection, source_file, chunk_slice, embedding_slice)
 
-    metadata = {
-        "schema_version": "1",
-        "source_root": str(source),
-        "created_utc": started_at,
-        "model_name": model_name,
-        "model_dimension": str(MODEL_DIMENSION),
-        "chunk_count": str(len(chunks)),
-        "source_file_count": str(len(source_files)),
-    }
+    current_relative_paths = {path.relative_to(source).as_posix() for path in paths}
+    removed = sorted(set(existing) - current_relative_paths)
+    if removed:
+        with pool.connection() as connection:
+            connection.execute("DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,))
+            connection.commit()
 
-    staging = Path(tempfile.mkdtemp(prefix="index-build-", dir=index_dir))
-    published = False
-    try:
-        np.save(staging / "embeddings.npy", embeddings, allow_pickle=False)
-        write_jsonl(staging / FRAGMENTS_FILE_NAME, chunks)
-        write_jsonl(staging / "source_manifest.jsonl", source_files)
-        create_sqlite(staging / "index.sqlite3", source_files, chunks, metadata)
-        category_tree = build_category_tree(source_files)
-        write_json(staging / CATEGORIES_FILE_NAME, category_tree)
-
-        source_digest = sha256_bytes(
-            "\n".join(f"{item.relative_path}\t{item.sha256}" for item in source_files).encode("utf-8")
+    with pool.connection() as connection:
+        connection.execute(
+            """
+            INSERT INTO sync_metadata (key, value) VALUES (%s, %s), (%s, %s), (%s, %s)
+            ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value
+            """,
+            ("model_name", model_name, "model_dimension", str(MODEL_DIMENSION), "last_synced_utc", utc_now()),
         )
-        manifest = {
-            "schema_version": 1,
-            "created_utc": started_at,
-            "completed_utc": utc_now(),
-            "source_root": str(source),
-            "output_root": str(index_dir),
-            "source_file_count": len(source_files),
-            "source_total_bytes": sum(item.size_bytes for item in source_files),
-            "source_digest_sha256": source_digest,
-            "chunk_count": len(chunks),
-            "chunking": {
-                "strategy_version": 2,
-                "strategy": "Markdown headings and paragraphs with bounded character windows",
-                "target_chars": TARGET_CHARS,
-                "max_chars": MAX_CHARS,
-                "overlap_chars": OVERLAP_CHARS,
-            },
-            "embedding": {
-                "model": model_name,
-                "dimension": MODEL_DIMENSION,
-                "dtype": "float32",
-                "normalized": True,
-                "document_prefix": "passage: ",
-                "query_prefix": "query: ",
-                "inference": "local ONNX via FastEmbed",
-            },
-            "index": {
-                "semantic": "embeddings.npy",
-                "lexical": "index.sqlite3 FTS5",
-                "fragments": FRAGMENTS_FILE_NAME,
-            },
-            "categories": {
-                "file": CATEGORIES_FILE_NAME,
-                "schema_version": 1,
-                "category_count": len(category_tree["nodes"]) - 1,
-            },
-            "warnings": warnings,
-            "medical_use_notice": (
-                "Retrieval index only. Source claims may be inaccurate, contradictory, or unsafe. "
-                "Future medical outputs must cite source paths, distinguish evidence from claims, "
-                "and must not replace diagnosis or professional care."
-            ),
-        }
-        write_json(staging / "manifest.json", manifest)
-
-        core_names = [
-            FRAGMENTS_FILE_NAME,
-            "embeddings.npy",
-            "index.sqlite3",
-            "manifest.json",
-            "source_manifest.jsonl",
-            CATEGORIES_FILE_NAME,
-        ]
-        checksum_lines = [f"{sha256_file(staging / name)}  {name}" for name in core_names]
-        (staging / "SHA256SUMS.txt").write_text("\n".join(checksum_lines) + "\n", encoding="ascii")
-
-        if before_publish is not None:
-            before_publish()
-        try:
-            for name in core_names + ["SHA256SUMS.txt"]:
-                os.replace(staging / name, index_dir / name)
-        except OSError as exc:
-            raise RuntimeError(
-                f"Could not publish the new index ({exc}). It is complete in {staging}; "
-                "close whatever holds the files and move them into the index directory manually."
-            ) from exc
-        published = True
-    finally:
-        if published:
-            try:
-                staging.rmdir()
-            except OSError:
-                pass
+        connection.commit()
 
     print(json.dumps({
         "status": "ok",
-        "source_files": len(source_files),
-        "chunks": len(chunks),
-        "embedding_shape": list(embeddings.shape),
+        "files_scanned": len(paths),
+        "files_unchanged": skipped,
+        "files_synced": len(pending),
+        "files_removed": len(removed),
+        "chunks_written": len(all_new_chunks),
         "warnings": len(warnings),
-        "output": str(index_dir),
     }, ensure_ascii=False), flush=True)
 
 
-# Parse command-line options for the embedding index build.
+# Parse command-line options for the incremental index sync.
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     project_root = Path(__file__).resolve().parents[1]
     parser.add_argument("--source", type=Path, default=project_root / "data" / "documents")
-    parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--batch-size", type=int, default=64)
-    parser.add_argument("--skip-docker", action="store_true", help="Do not stop/start the docker compose stack")
     return parser.parse_args()
-
-
-# Run a docker compose command from the project root; fail loudly if it does not succeed.
-def docker_compose(*compose_args: str) -> None:
-    project_root = Path(__file__).resolve().parents[1]
-    command = ["docker", "compose", *compose_args]
-    print(f"Running: {' '.join(command)}", flush=True)
-    subprocess.run(command, cwd=project_root, check=True)
 
 
 if __name__ == "__main__":
     arguments = parse_args()
     try:
-        # The app stays online during the long embedding step and is stopped only while the new files are swapped in.
-        build(
-            arguments.source,
-            arguments.output,
-            arguments.model,
-            arguments.batch_size,
-            before_publish=None if arguments.skip_docker else lambda: docker_compose("down"),
-        )
-        if not arguments.skip_docker:
-            docker_compose("up", "-d", "--build")
+        build(arguments.source, arguments.model, arguments.batch_size)
     except Exception as exc:
         print(f"ERROR: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
         raise

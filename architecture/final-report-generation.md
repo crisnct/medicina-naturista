@@ -52,16 +52,15 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 
 ## 5. Retrieval hibrid pentru o interogare — `search.rank()`
 
-- **5.1.** Citește modelul de embedding și dimensiunea vectorilor din `data/hybrid_index/manifest.json`.
-- **5.2.** Încarcă prin mapare în memorie `embeddings.npy` și validează forma matricei.
-- **5.3.** Încarcă modelul FastEmbed (ONNX) din `data/model_cache` (offline, în cache pe proces).
-- **5.4.** Generează vectorul E5 al interogării cu prefixul `query: ` și îl normalizează L2.
-- **5.5.** Calculează similaritatea semantică față de **toți** vectorii; fiecare fragment primește un rang semantic (fără limită top-N).
-- **5.6.** Construiește interogarea SQLite FTS5: un segment fără virgulă devine o **frază exactă**; segmentele separate prin virgulă devin fraze combinate prin `OR`. Nu există revenire la potrivirea pe cuvinte individuale.
-- **5.7.** Preia din `chunks_fts` fragmentele potrivite, ordonate prin BM25 (fără `LIMIT`); acestea primesc un rang lexical.
-- **5.8.** Calculează scorul prin Reciprocal Rank Fusion, `k=60`: `1/(60+rang_semantic)` plus, dacă există potrivire exactă, `1/(60+rang_lexical)`.
-- **5.9.** Întoarce toate fragmentele sortate descrescător după `hybrid_score`, cu `found_by_lexical`, similaritatea semantică, calea sursei, intervalul de linii, titlul și textul.
-- **5.10.** `RRF_MAX_SCORE = 2/(k+1)` este scorul maxim posibil și servește drept plafon pentru procentul de relevanță.
+- **5.1.** Citește modelul de embedding și dimensiunea vectorilor din `sync_metadata` (Postgres).
+- **5.2.** Încarcă modelul FastEmbed (ONNX) din `data/model_cache` (offline, în cache pe proces).
+- **5.3.** Generează vectorul E5 al interogării cu prefixul `query: ` și îl normalizează L2.
+- **5.4.** Calculează similaritatea semantică față de **toți** vectorii direct în Postgres (`pgvector`, operatorul `<#>`); fiecare fragment primește un rang semantic (fără limită top-N — niciun index aproximativ HNSW/ivfflat).
+- **5.5.** Construiește interogarea `tsquery`: un segment fără virgulă devine o **frază exactă** (`phraseto_tsquery`); segmentele separate prin virgulă devin fraze combinate prin `||` (OR). Nu există revenire la potrivirea pe cuvinte individuale.
+- **5.6.** Preia din Postgres fragmentele al căror `text_search` se potrivește, ordonate prin `ts_rank_cd` (fără `LIMIT`); acestea primesc un rang lexical.
+- **5.7.** Calculează scorul prin Reciprocal Rank Fusion, `k=60`: `1/(60+rang_semantic)` plus, dacă există potrivire exactă, `1/(60+rang_lexical)`.
+- **5.8.** Întoarce toate fragmentele sortate descrescător după `hybrid_score`, cu `found_by_lexical`, similaritatea semantică, calea sursei, intervalul de linii, titlul și textul.
+- **5.9.** `RRF_MAX_SCORE = 2/(k+1)` este scorul maxim posibil și servește drept plafon pentru procentul de relevanță.
 
 ## 6. Selecția, îmbinarea și asamblarea dovezilor — `Retriever.collect()`
 

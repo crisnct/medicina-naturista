@@ -153,17 +153,6 @@ activemq-data/
 .venv
 .claude
 /data/model_cache/
-/data/embeddings/
-/data/embeddings*/
-/data/hybrid_index/
-/data/hybrid_index*/
-/chunks.jsonl
-/fragments.jsonl
-/embeddings.npy
-/index.sqlite3
-/manifest.json
-/source_manifest.jsonl
-/SHA256SUMS.txt
 env/
 venv/
 ENV/

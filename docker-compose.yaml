@@ -1,4 +1,22 @@
 services:
+  db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    container_name: medicina-db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-medicina}
+      POSTGRES_USER: ${POSTGRES_USER:-medicina}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in .env}
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-medicina} -d ${POSTGRES_DB:-medicina}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    ports:
+      - "127.0.0.1:5432:5432"
+    networks: [internal]
   app:
     build: .
     restart: unless-stopped
@@ -10,6 +28,9 @@ services:
     security_opt: [no-new-privileges:true]
     pids_limit: 256
     mem_limit: 2g
+    depends_on:
+      db:
+        condition: service_healthy
     environment:
       GROK_API_KEY_MED: ${GROK_API_KEY_MED:?GROK_API_KEY_MED must be set in .env}
       MAIL_FROM: ${MAIL_FROM:-}
@@ -21,7 +42,8 @@ services:
       XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
       XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
       DOCUMENTS_DIR: /app/data/documents
-      INDEX_DIR: /app/data/hybrid_index
+      DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
+      MODEL_CACHE_DIR: /app/data/model_cache
       SESSION_TEMP_DIR: /tmp/naturist-sessions
       GRADIO_TEMP_DIR: /tmp/gradio-cache
       GRADIO_ROOT_PATH: ${GRADIO_ROOT_PATH:-/medicina}
@@ -43,10 +65,6 @@ services:
       - type: bind
         source: ./data/documents
         target: /app/data/documents
-        read_only: true
-      - type: bind
-        source: ./data/hybrid_index
-        target: /app/data/hybrid_index
         read_only: true
       - type: bind
         source: ./data/model_cache
@@ -78,3 +96,4 @@ networks:
 volumes:
   caddy_data:
   caddy_config:
+  pg_data:

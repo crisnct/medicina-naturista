@@ -76,12 +76,12 @@ OWNER_COOKIE_MAX_AGE = 10 * 365 * 24 * 3600
 OWNER_ONLY_MESSAGE = "Generarea rețetei nu este disponibilă momentan pentru acest cont."
 WELCOME = "Bună ziua! 👋"
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
-retriever = Retriever(settings.index_dir, settings.documents_dir)
+retriever = Retriever(settings.documents_dir)
 # Static starting markup for the "Setează sursele" panel, built once from
-# the category tree Retriever loaded (None on an index built before category
-# support existed — the panel then shows an explanatory notice instead).
-# Rebuilding the index regenerates categories.json; picking it up here only
-# takes restarting the application, same as the rest of the loaded index.
+# the category tree Retriever loaded (None when no document has been synced
+# yet — the panel then shows an explanatory notice instead).
+# Syncing the index changes the categories in Postgres; picking it up here
+# only takes restarting the application, same as the rest of the loaded index.
 CATEGORY_FILTER_HTML = category_filter_panel_html(retriever.category_tree)
 # Default value for the hidden #category-selection field: every known
 # category, matching the panel's own default (every checkbox starts checked —
@@ -238,8 +238,7 @@ async def session_and_limits(request: Request, call_next):
 # Start periodic session cleanup and log the application configuration.
 async def startup() -> None:
     logger.info(
-        "application_started index=%s documents=%s log_fragment_text=%s",
-        settings.index_dir,
+        "application_started documents=%s log_fragment_text=%s",
         settings.documents_dir,
         settings.log_fragment_text,
     )
@@ -653,9 +652,8 @@ app = gr.mount_gradio_app(
         str(CACHE_ROOT),
         str(settings.temp_dir.resolve()),
         str(settings.documents_dir.resolve()),
-        str(settings.index_dir.resolve()),
-        str((settings.index_dir.parent / "model_cache").resolve()),
-        str((settings.index_dir.parents[1] / ".env").resolve()),
+        str(settings.model_cache_dir.resolve()),
+        str((settings.model_cache_dir.parents[1] / ".env").resolve()),
     ],
     show_error=False,
     footer_links=[],

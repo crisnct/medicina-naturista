@@ -37,7 +37,10 @@ def _bool(name: str, default: bool) -> bool:
 @dataclass(frozen=True)
 class Settings:
     documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
-    index_dir: Path = Path(os.getenv("INDEX_DIR", str(ROOT / "data" / "hybrid_index")))
+    model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "data" / "model_cache")))
+    database_url: str = os.getenv(
+        "DATABASE_URL", "postgresql://medicina:medicina@127.0.0.1:5432/medicina"
+    )
     temp_dir: Path = Path(os.getenv("SESSION_TEMP_DIR", "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")))
     xai_model: str = os.getenv("XAI_MODEL", "grok-4.3")
     xai_reasoning_effort: str = os.getenv("XAI_REASONING_EFFORT", "medium")
