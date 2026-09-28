@@ -352,13 +352,7 @@ body {
     align-items: center;
     gap: 12px;
     color: var(--nature-text);
-    font-size: 13.5px;
-}
-
-.generate-recipe-copy strong {
-    display: block;
-    color: #000;
-    font-weight: 400;
+    font-size: 12.0px;
 }
 
 .generate-inline {
