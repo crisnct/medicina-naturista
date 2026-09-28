@@ -192,15 +192,15 @@ body {
         radial-gradient(circle closest-side at right 6px top 50%, var(--c));
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    animation: loader-bounce 2.2s infinite ease-in-out alternate;
+    animation: loader-bounce 1s infinite ease-in-out alternate;
 }
 
 @keyframes loader-bounce {
-    0%, 15% {
+    0%, 10% {
         width: 44px;
         aspect-ratio: 4;
     }
-    85%, 100% {
+    90%, 100% {
         width: 26px;
         aspect-ratio: 1.6;
     }
@@ -352,6 +352,7 @@ body {
     align-items: center;
     gap: 12px;
     color: var(--nature-text);
+    font-size: 13.5px;
 }
 
 .generate-recipe-copy strong {
