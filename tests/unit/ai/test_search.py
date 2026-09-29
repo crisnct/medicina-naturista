@@ -11,6 +11,7 @@ from unittest import mock
 import numpy as np
 
 from medicina_naturista.ai import search
+from medicina_naturista.ai.conditions import ConditionDictionary, parse_conditions
 from tests.support.postgres import PostgresFixture
 from scripts import build_hybrid_index as builder
 
@@ -104,7 +105,8 @@ class CategoryFilteredRankTests(unittest.TestCase):
         order = [item["source_relative_path"] for item in results]
         self.assertEqual(order, ["catB/three.md", "catA/two.md", "catA/one.md"])
         two = next(item for item in results if item["source_relative_path"] == "catA/two.md")
-        self.assertAlmostEqual(two["hybrid_score"], 1.0 / (search.RRF_K + 2))
+        # These plain fixture documents are PRIORITY 5, whose weight scales the RRF score.
+        self.assertAlmostEqual(two["hybrid_score"], search.PRIORITY_WEIGHT[5] / (search.RRF_K + 2))
         self.assertAlmostEqual(two["semantic_similarity"], 0.6, places=5)
 
     # The critical correctness property: filtering to "catA" must rank catA's
@@ -123,7 +125,7 @@ class CategoryFilteredRankTests(unittest.TestCase):
         self.assertEqual(order, ["catA/two.md", "catA/one.md"])
         two = next(item for item in results if item["source_relative_path"] == "catA/two.md")
         # Rank 1 of the *filtered* subset, not its unfiltered rank of 2.
-        self.assertAlmostEqual(two["hybrid_score"], 1.0 / (search.RRF_K + 1))
+        self.assertAlmostEqual(two["hybrid_score"], search.PRIORITY_WEIGHT[5] / (search.RRF_K + 1))
         self.assertAlmostEqual(two["semantic_similarity"], 0.6, places=5)
 
     def test_category_filter_excludes_other_categories_entirely(self):
@@ -310,6 +312,56 @@ class CandidateLimitedRankTests(unittest.TestCase):
         results = search.rank("Guta")
 
         self.assertLessEqual(max(item["hybrid_score"] for item in results), search.RRF_MAX_SCORE + 1e-12)
+
+
+class PriorityWeightTests(unittest.TestCase):
+    def setUp(self):
+        _fixture.reset()
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        dim = builder.MODEL_DIMENSION
+        body = "Ceai calduros si repaus la pat pentru remedii naturiste."
+        documents = {
+            "a/Plante.md": f"# Plante\n## Ceaiuri\n{body}",  # no condition: PRIORITY 5
+            "a/Carte.md": f"# Carte\n## Ceaiuri\n{body} Util si pentru febra.",  # mention: PRIORITY 3
+            "a/Gripa.md": f"# Carte\n## Ceaiuri\n{body}",  # named after a condition: PRIORITY 1
+        }
+        # Query vector e0: semantic rank 1 is Plante, 2 is Carte, 3 is Gripa.
+        vectors = {
+            "a/Plante.md": _one_hot(dim, 0),
+            "a/Carte.md": _one_hot(dim, 0, 0.8) + _one_hot(dim, 1, 0.6),
+            "a/Gripa.md": _one_hot(dim, 0, 0.6) + _one_hot(dim, 1, 0.8),
+        }
+        with mock.patch.object(
+            builder, "load_dictionary", return_value=ConditionDictionary(parse_conditions("Gripa\nFebra\n"))
+        ):
+            _build_fixture_index(Path(self.tmp.name), documents, vectors)
+        patch = mock.patch.object(search, "cached_query_model", return_value=FakeQueryModel(_one_hot(dim, 0)))
+        patch.start()
+        self.addCleanup(patch.stop)
+
+    def test_weights_per_priority(self):
+        self.assertEqual(search.PRIORITY_WEIGHT, {1: 1.0, 3: 0.7, 5: 0.5})
+
+    def test_score_is_scaled_by_the_priority_weight_and_can_change_the_order(self):
+        # Only the semantic signal matches (the query is absent from every text).
+        results = search.rank("propoziție absentă din orice document")
+
+        # The best semantic match is the lowest-priority fragment, yet it ends last.
+        self.assertEqual(
+            [(item["source_relative_path"], item["priority"]) for item in results],
+            [("a/Gripa.md", 1), ("a/Carte.md", 3), ("a/Plante.md", 5)],
+        )
+        scores = [item["hybrid_score"] for item in results]
+        self.assertAlmostEqual(scores[0], 1.0 / (search.RRF_K + 3))
+        self.assertAlmostEqual(scores[1], 0.7 / (search.RRF_K + 2))
+        self.assertAlmostEqual(scores[2], 0.5 / (search.RRF_K + 1))
+
+    def test_results_carry_their_conditions(self):
+        results = search.rank("propoziție absentă din orice document")
+
+        conditions = {item["source_relative_path"]: item["conditions"] for item in results}
+        self.assertEqual(conditions, {"a/Gripa.md": ["Gripa"], "a/Carte.md": ["Febra"], "a/Plante.md": []})
 
 
 if __name__ == "__main__":

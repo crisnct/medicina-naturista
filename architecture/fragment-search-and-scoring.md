@@ -15,7 +15,7 @@ Problema pacientului este căutată cu **o singură interogare** (`N = 1`).
 - **1.3.** **Dicționarul de afecțiuni** (`ai/conditions.py`, fișierul `data/medical_conditions.txt`, calea din `CONDITIONS_FILE`): o afecțiune pe linie, separată prin virgulă, cu numele canonic primul, urmat de sinonimele în română și engleză. `collect()` află ce afecțiune numește interogarea și o extinde cu celelalte denumiri ale ei (`expansions`), pe care `rank()` le folosește la semnalele lexical și de titlu. Potrivirea, în ordine:
   - **1.3.1.** interogarea este exact un termen din dicționar (fără diacritice și majuscule): `gout` găsește `Artrita gutoasa`;
   - **1.3.2.** interogarea este o scriere aproape identică a unui termen întreg (raport `difflib` ≥ 0,9), pentru greșeli de scriere: `artrita gutosa`;
-  - **1.3.3.** termeni din dicționar apar ca cuvinte întregi în interogare (minimum 4 caractere); câștigă cei mai lungi: `tratament pentru adenom de prostata` găsește `Adenom de prostata`, nu `Adenom`;
+  - **1.3.3.** termeni din dicționar apar ca cuvinte întregi în interogare; câștigă cei mai lungi: `tratament pentru adenom de prostata` găsește `Adenom de prostata`, nu `Adenom`;
   - **1.3.4.** ultima variantă: cel mai apropiat termen după scriere (raport ≥ 0,84).
   - **1.3.5.** Se folosesc cel mult 2 afecțiuni și 12 denumiri de extindere. Dacă nu se potrivește nimic sau fișierul lipsește, căutarea rulează exact ca înainte. Fișierul se reîncarcă automat când se modifică.
   - **1.3.6.** Extinderea nu modifică interogarea semantică (rămâne textul utilizatorului) și nu intră în interogarea laxă a semnalului lexical.
@@ -36,7 +36,7 @@ Se rulează o dată pe interogare și întoarce doar **candidații** semnalelor,
 
 ### 2.2. Semnalul lexical
 
-- **2.2.1.** Din interogare se păstrează cuvintele relevante: fără cuvintele din `generic_query_words.txt` și fără cele sub 3 caractere (dacă nu rămâne niciunul, se păstrează toate). Fiecare devine o potrivire pe prefix `stem:*`, unde stemul este cuvântul fără ultimele 2 litere (minimum 4 caractere) pentru cuvintele de cel puțin 6 caractere. Indexul folosește configurația `simple` (fără stemming românesc), iar prefixul acoperă flexiunile: `genunchi` găsește `genunchiului`, `gripa` găsește `gripei`. Nu e nevoie de reindexare.
+- **2.2.1.** Din interogare se păstrează cuvintele relevante: fără cuvintele din `generic_query_words.txt` și fără cele sub 3 caractere (dacă nu rămâne niciunul, se păstrează toate). Fiecare devine o potrivire pe prefix `stem:*`, unde stemul este cuvântul fără ultimele 2 litere pentru cuvintele de cel puțin 6 caractere. Indexul folosește configurația `simple` (fără stemming românesc), iar prefixul acoperă flexiunile: `genunchi` găsește `genunchiului`, `gripa` găsește `gripei`. Nu e nevoie de reindexare.
 - **2.2.2.** Interogarea **strictă** cere toate cuvintele relevante (`ȘI`, în orice ordine și la orice distanță). Segmentele separate prin virgulă se combină prin `SAU`. Textul utilizatorului nu ajunge niciodată ca sintaxă tsquery: stemurile conțin doar litere și cifre.
 - **2.2.2a.** Fiecare denumire de extindere devine un grup suplimentar `ȘI`, legat prin `SAU` de interogarea strictă (și, prin ea, de semnalul de titlu).
 - **2.2.3.** Dacă interogarea strictă găsește sub `MIN_STRICT_LEXICAL_HITS = 10` fragmente, se rulează și interogarea **laxă** (oricare dintre cuvinte); potrivirile stricte rămân primele, iar cele laxe se adaugă după ele.
@@ -51,8 +51,9 @@ Se rulează o dată pe interogare și întoarce doar **candidații** semnalelor,
 
 - **2.4.1.** Constanta este `RRF_K = 60`.
 - **2.4.2.** `hybrid_score` este suma termenilor `1 / (60 + rang)` pentru fiecare dintre cele trei semnale care a găsit fragmentul (semantic, lexical, titlu).
+- **2.4.2.1.** Suma se înmulțește apoi cu greutatea `PRIORITY` a fragmentului (`PRIORITY_WEIGHT`: `1 → 1,0`, `3 → 0,7`, `5 → 0,5`), fixată la indexare de `ai/fragmenter.py`. Toate greutățile sunt ≤ 1, deci `RRF_MAX_SCORE` rămâne plafonul.
 - **2.4.3.** Se întoarce uniunea candidaților, cu textele aduse dintr-o singură interogare `WHERE chunk_id = ANY(...)`. Un fragment găsit de un singur semnal primește doar termenul lui, dar `semantic_similarity` este raportată oricum.
-- **2.4.4.** Rezultatul fiecărui fragment conține: `chunk_id`, `hybrid_score`, `semantic_similarity`, `lexical_rank`, `found_by_lexical`, `found_by_heading`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`.
+- **2.4.4.** Rezultatul fiecărui fragment conține: `chunk_id`, `hybrid_score`, `semantic_similarity`, `lexical_rank`, `found_by_lexical`, `found_by_heading`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`, `priority`, `conditions`.
 - **2.4.5.** Lista se sortează descrescător după `hybrid_score`.
 
 ### 2.5. Scorul maxim

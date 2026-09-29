@@ -41,21 +41,17 @@ Acesta este mecanismul de sincronizare incrementală: adăugarea sau modificarea
 - **4.3.** Normalizează sfârșiturile de linie și elimină caracterele NUL.
 - **4.4.** Normalizează Unicode la NFC, păstrând diacriticele românești.
 - **4.5.** Creează metadatele `SourceFile`: cale, dimensiune, codificare, număr de linii și suma de control SHA-256.
-- **4.6.** Împarte documentul în blocuri Markdown pe baza titlurilor, paragrafelor, listelor și tabelelor.
-- **4.7.** Tratează titlurile obișnuite drept limite stricte de secțiune.
-- **4.8.** Tratează marcajele `Pagina N` sau `Page N` drept limite flexibile, fără a le folosi ca titluri semantice.
-- **4.9.** Pentru blocurile mai mari decât `MAX_CHARS=1400`, caută un punct de separare în această ordine:
-  - **4.9.1.** Sfârșitul unei propoziții.
-  - **4.9.2.** Sfârșitul unei linii, în special pentru liste și tabele.
-  - **4.9.3.** Un spațiu dintre cuvinte.
-  - **4.9.4.** Limita strictă de 1.400 de caractere, dacă nu există un punct de separare mai sigur.
-- **4.10.** Combină unități complete până când fragmentul se apropie de `TARGET_CHARS=1200`.
-- **4.11.** Transferă cel mult `OVERLAP_CHARS=240` de caractere formate din unități complete.
-- **4.12.** La limita dintre pagini, poate transfera ultima propoziție completă în fragmentul următor.
-- **4.13.** Nu combină niciodată conținut din secțiuni Markdown diferite.
-- **4.14.** Creează câte un obiect `Chunk` pentru fiecare fragment, cu calea sursei, suma de control a sursei, intervalul de linii, titlul, textul, numărul de caractere și categoria — fără un id sau o poziție în matrice: rândul din `chunks` este alocat de Postgres (`BIGSERIAL`) la inserare.
+- **4.6.** Împarte documentul în fragmente cu `fragment_document()` (`ai/fragmenter.py`), aplicând pe rând criteriile de mai jos. Fiecare fragment primește un `PRIORITY` (1 = cel mai bun) și lista afecțiunilor din `data/medical_conditions.txt` despre care este vorba. Afecțiunile se caută pe cuvinte întregi, fără diacritice și fără diferență între majuscule și minuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`), indiferent de lungimea termenului (nu există prag minim), iar la aceeași poziție câștigă termenul cel mai lung.
+- **4.7.** **PRIORITY=1, document.** Dacă numele fișierului sau al oricărui folder din cale conține o afecțiune, tot documentul devine un fragment, iar calea (`heading`) este titlul documentului (numele fișierului fără `.md` și fără extensia originală), ca semnalul „titlu" din căutare să vadă numele afecțiunii.
+- **4.8.** **PRIORITY=5, text simplu.** Un document fără titluri Markdown (marcajele `Pagina N` nu contează ca titluri) sau textul rămas nefolosit devine un fragment dacă are cel mult 3000 de caractere. Altfel este tăiat în bucăți de ~3000 de caractere, prelungite până la sfârșitul propoziției care depășește limita (`.`, `!`, `?`, `…`); un text fără punctuație este tăiat la un sfârșit de linie înainte de 4000 de caractere.
+- **4.9.** **PRIORITY=1, titlu.** Într-un document Markdown, primul titlu (parcurgere de sus în jos) care conține o afecțiune ia tot subarborele lui, titlurile mai adânci incluse. Calea (`heading`) este lanțul de titluri până la el, inclusiv (`Carte > Gripa`). Liniile luate astfel nu mai participă la pașii următori.
+- **4.10.** **PRIORITY=3, mențiune.** În liniile rămase, fiecare secțiune al cărei text propriu (până la următorul titlu de orice nivel) menționează o afecțiune devine un fragment format din titlurile tuturor strămoșilor, titlul secțiunii și textul ei. Introducerile strămoșilor nu sunt incluse niciodată. Mai multe afecțiuni în aceeași secțiune dau un singur fragment cu toate afecțiunile în `conditions`.
+- **4.11.** **PRIORITY=5, rest.** Textul secțiunilor rămase, fără nicio afecțiune, este tăiat ca la 4.8, secțiune cu secțiune, cu titlurile strămoșilor în față.
+- **4.12.** Orice fragment mai lung de `MAX_FRAGMENT_CHARS=8000` este împărțit la granițe de paragraf, propoziție sau rând; părțile păstrează `PRIORITY`, afecțiunile și calea, iar la PRIORITY 3 și 5 repetă titlurile.
+- **4.13.** Marcajele `Pagina N` sunt scoase din text și din cale.
+- **4.14.** Creează câte un obiect `Chunk` pentru fiecare fragment, cu calea sursei, suma de control a sursei, intervalul de linii, calea titlurilor (`heading`), textul, numărul de caractere, categoria, `priority` și `conditions` — fără un id sau o poziție în matrice: rândul din `chunks` este alocat de Postgres (`BIGSERIAL`) la inserare.
 - **4.15.** Raportează progresul scanării după fiecare 50 de fișiere și după ultimul fișier, cu numărul de fișiere schimbate față de cele nemodificate.
-- **4.16.** Oprește procesul dacă niciun fragment nu a fost produs pentru vreun document „de procesat”.
+- **4.16.** Un document fără text indexabil produce doar un avertisment.
 
 ## 5. Generarea embedding-urilor
 
@@ -63,8 +59,8 @@ Rulează o singură dată, peste **toate** fragmentele tuturor documentelor „d
 
 - **5.1.** Încarcă modelul ONNX din `data/model_cache` (implicit `intfloat/multilingual-e5-small`), offline, descărcându-l doar dacă lipsește din cache.
 - **5.2.** Construiește fiecare intrare E5 din: prefixul `passage:`, categoria, numele fișierului-sursă, titlul sau secțiunea semantică (când există) și textul fragmentului.
-- **5.3.** Trimite fragmentele către model în loturi de 64 sau cu dimensiunea solicitată.
-- **5.4.** Raportează aproximativ la fiecare 10 secunde fragmentele procesate, procentul, timpul scurs, viteza și timpul estimat rămas.
+- **5.3.** Un fragment mai lung de `MAX_CHARS=1400` este împărțit în ferestre care se suprapun cu `OVERLAP_CHARS=240`; toate ferestrele tuturor fragmentelor sunt trimise modelului în loturi de 64 sau cu dimensiunea solicitată, iar vectorul unui fragment este media normalizată a ferestrelor lui.
+- **5.4.** Raportează aproximativ la fiecare 10 secunde ferestrele procesate, procentul, timpul scurs, viteza și timpul estimat rămas.
 - **5.5.** Colectează câte un vector cu 384 de dimensiuni pentru fiecare fragment.
 - **5.6.** Verifică dacă forma matricei este `(fragment_count, 384)`.
 - **5.7.** Verifică dacă toți vectorii conțin valori finite și dacă niciunul nu este vector nul.
@@ -77,7 +73,7 @@ Pentru fiecare document din lista „de procesat” (secțiunea 3), într-o sing
 
 - **6.1.** Șterge din `chunks` toate fragmentele vechi ale acelui `source_relative_path`.
 - **6.2.** Face `INSERT ... ON CONFLICT (relative_path) DO UPDATE` în `documents` cu metadatele noi (dimensiune, dată, SHA-256, categorie).
-- **6.3.** Inserează fragmentele noi în `chunks`, fiecare cu vectorul lui semantic (`embedding`) și coloana lexicală `text_search` calculată la inserare (`to_tsvector('simple', unaccent(text || heading || cale))`, echivalentul indexării pe cele trei coloane pe care FTS5 o făcea înainte).
+- **6.3.** Inserează fragmentele noi în `chunks`, fiecare cu `priority`, `conditions`, vectorul lui semantic (`embedding`) și coloana lexicală `text_search` calculată la inserare (`to_tsvector('simple', unaccent(text || heading || cale))`, echivalentul indexării pe cele trei coloane pe care FTS5 o făcea înainte).
 
 Niciun cititor nu vede vreodată un document cu doar o parte din fragmentele lui noi scrise, iar eșecul scrierii unui document nu afectează documentele deja scrise cu succes în aceeași rulare.
 

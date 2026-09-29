@@ -264,6 +264,8 @@ class Retriever:
                 # reads these fields directly and formats/orders from them.
                 "score": best_sum / query_count,
                 "relevance_percent": relevance_percent[best_id],
+                "priority": best.get("priority"),
+                "conditions": best.get("conditions", []),
                 # Whether any query matched a member's exact phrase, for the UI.
                 # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": any(found_by_lexical[chunk_id] for chunk_id in group["members"]),
