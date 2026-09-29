@@ -19,6 +19,7 @@ Problema pacientului este căutată cu **o singură interogare** (`N = 1`).
   - **1.3.4.** ultima variantă: cel mai apropiat termen după scriere (raport ≥ 0,84).
   - **1.3.5.** Se folosesc cel mult 2 afecțiuni și 12 denumiri de extindere. Dacă nu se potrivește nimic sau fișierul lipsește, căutarea rulează exact ca înainte. Fișierul se reîncarcă automat când se modifică.
   - **1.3.6.** Extinderea nu modifică interogarea semantică (rămâne textul utilizatorului) și nu intră în interogarea laxă a semnalului lexical.
+- **1.3.7.** Mesaj în chat: dacă interogarea se potrivește cu o afecțiune, `POST /api/messages` adaugă, imediat înaintea notificării „Caut rapid…”, un mesaj `✅ Am identificat afecțiunea: **Nume**. O caut și după denumirile: <toate sinonimele, în română și engleză>.` Dacă se potrivesc două afecțiuni, mesajul are câte o linie pentru fiecare. Dacă nu se potrivește nimic, nu apare niciun mesaj. Potrivirea este aceeași cu cea din `collect()` (`_condition_identified_message()` în `web/main.py`).
 - **1.4.** Logica de agregare pe `N` interogări din secțiunile 3 și 4 rămâne valabilă și pentru `N = 1`.
 
 ## 2. Ranking hibrid — `search.rank()`

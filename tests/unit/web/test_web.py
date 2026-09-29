@@ -23,6 +23,7 @@ from medicina_naturista.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAI
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile
 from medicina_naturista.reporting.pdf import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
+from medicina_naturista.ai.conditions import ConditionDictionary, parse_conditions
 from medicina_naturista.ai.retrieval import Retriever, _meaningful_words, consultation_queries
 from medicina_naturista.core.sessions import SessionStore
 
@@ -504,6 +505,67 @@ class WebTests(unittest.TestCase):
             messages = _send(self.client, sid, tab, "Alergie", ["necunoscuta"])
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 0 documente", notice["content"])
+        main.store.delete(sid, tab)
+
+    # A health problem recognised in the condition dictionary gets a chat
+    # notice naming the condition and listing ALL its synonyms (Romanian and
+    # English); an unrecognised one gets no notice at all.
+    def test_condition_identified_message_lists_every_synonym(self):
+        dictionary = ConditionDictionary(parse_conditions(
+            "Artrita gutoasa,guta articulara,artrita urica,gout\nAcnee rozacee,rozacee,cuperoza,rosacea\n"
+        ))
+        with patch.object(main, "load_dictionary", return_value=dictionary):
+            message = main._condition_identified_message("gout")
+            self.assertEqual(message["role"], "assistant")
+            self.assertEqual(
+                message["content"],
+                "✅ Am identificat afecțiunea: **Artrita gutoasa**. "
+                "O caut și după denumirile: guta articulara, artrita urica, gout.",
+            )
+            self.assertIsNone(main._condition_identified_message("durere de cap"))
+
+    def test_condition_identified_message_names_both_conditions_when_two_match(self):
+        dictionary = ConditionDictionary(parse_conditions("Artrita,arthritis\nArtroza,osteoarthritis\n"))
+        with patch.object(main, "load_dictionary", return_value=dictionary), patch.object(
+            ConditionDictionary, "match", return_value=dictionary.conditions
+        ):
+            content = main._condition_identified_message("artrita artroza")["content"]
+
+        self.assertIn("**Artrita**", content)
+        self.assertIn("**Artroza**", content)
+        self.assertEqual(content.count("\n"), 1)
+
+    def test_condition_without_synonyms_only_names_the_condition(self):
+        dictionary = ConditionDictionary(parse_conditions("Acalazie\n"))
+        with patch.object(main, "load_dictionary", return_value=dictionary):
+            content = main._condition_identified_message("acalazie")["content"]
+
+        self.assertEqual(content, "✅ Am identificat afecțiunea: **Acalazie**.")
+
+    def test_identified_condition_notice_precedes_the_searching_notice(self):
+        class Empty:
+            category_tree = None
+            document_count = 3
+
+            def collect(self, session):
+                return {}
+
+        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        sid, tab = "J" * 43, "tab-condition1"
+        with patch.object(main, "retriever", Empty()), patch.object(main, "load_dictionary", return_value=dictionary):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            messages = self.client.post(
+                "/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab)
+            ).json()["messages"]
+            contents = [m.get("content", "") for m in messages]
+            searching = next(i for i, c in enumerate(contents) if "Caut rapid" in c)
+            self.assertIn("**Artrita gutoasa**", contents[searching - 1])
+            self.assertIn("guta articulara, gout", contents[searching - 1])
+
+            messages = self.client.post(
+                "/api/messages", json={"message": "durere de cap", "categories": []}, headers=_headers(sid, tab)
+            ).json()["messages"]
+            self.assertFalse(any("Am identificat" in m.get("content", "") for m in messages))
         main.store.delete(sid, tab)
 
     # An index with no category tree falls back to the whole-corpus count,
