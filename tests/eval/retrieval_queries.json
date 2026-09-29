@@ -1,0 +1,503 @@
+{
+  "_doc": "Relevance is rule-based so labels survive reindexing: a chunk is relevant when its source path contains any of `paths`, or its heading contains any of `headings` (both compared lowercase, without diacritics).",
+  "cases": [
+    {
+      "query": "gută",
+      "paths": [
+        "guta"
+      ],
+      "headings": [
+        "guta"
+      ]
+    },
+    {
+      "query": "guta tratament naturist",
+      "paths": [
+        "guta"
+      ],
+      "headings": [
+        "guta"
+      ]
+    },
+    {
+      "query": "artrita gutoasa",
+      "paths": [
+        "guta"
+      ],
+      "headings": [
+        "guta",
+        "gutoas"
+      ]
+    },
+    {
+      "query": "artroză de genunchi",
+      "paths": [
+        "artroza, coxartroza, gonartroza"
+      ],
+      "headings": [
+        "artroz",
+        "gonartroz"
+      ]
+    },
+    {
+      "query": "gonartroza",
+      "paths": [
+        "artroza, coxartroza, gonartroza"
+      ],
+      "headings": [
+        "artroz",
+        "gonartroz"
+      ]
+    },
+    {
+      "query": "coxartroza",
+      "paths": [
+        "artroza, coxartroza, gonartroza"
+      ],
+      "headings": [
+        "artroz",
+        "coxartroz"
+      ]
+    },
+    {
+      "query": "anemie",
+      "paths": [
+        "afectiuni/anemia"
+      ],
+      "headings": [
+        "anemi"
+      ]
+    },
+    {
+      "query": "anemia feripriva",
+      "paths": [
+        "afectiuni/anemia"
+      ],
+      "headings": [
+        "anemi"
+      ]
+    },
+    {
+      "query": "constipație",
+      "paths": [
+        "constipatie"
+      ],
+      "headings": [
+        "constipat"
+      ]
+    },
+    {
+      "query": "constipatie cronica",
+      "paths": [
+        "constipatie"
+      ],
+      "headings": [
+        "constipat"
+      ]
+    },
+    {
+      "query": "depresie",
+      "paths": [
+        "afectiuni/depresie"
+      ],
+      "headings": [
+        "depresi"
+      ]
+    },
+    {
+      "query": "depresia si anxietate",
+      "paths": [
+        "afectiuni/depresie"
+      ],
+      "headings": [
+        "depresi",
+        "anxiet"
+      ]
+    },
+    {
+      "query": "cancer",
+      "paths": [
+        "afectiuni/cancer"
+      ],
+      "headings": [
+        "cancer"
+      ]
+    },
+    {
+      "query": "hepatita B",
+      "paths": [
+        "afectiuni/hepatita b"
+      ],
+      "headings": [
+        "hepatit"
+      ]
+    },
+    {
+      "query": "helicobacter pylori",
+      "paths": [
+        "helicobacter"
+      ],
+      "headings": [
+        "pylori",
+        "helicobacter"
+      ]
+    },
+    {
+      "query": "HPV",
+      "paths": [
+        "afectiuni/hpv"
+      ],
+      "headings": [
+        "hpv",
+        "papilom"
+      ]
+    },
+    {
+      "query": "herpes",
+      "paths": [
+        "afectiuni/hsv"
+      ],
+      "headings": [
+        "herpes"
+      ]
+    },
+    {
+      "query": "leucemie",
+      "paths": [
+        "afectiuni/leucemie"
+      ],
+      "headings": [
+        "leucemi"
+      ]
+    },
+    {
+      "query": "chisturi",
+      "paths": [
+        "chisturi"
+      ],
+      "headings": [
+        "chist"
+      ]
+    },
+    {
+      "query": "menopauza",
+      "paths": [
+        "menopauza"
+      ],
+      "headings": [
+        "menopauz"
+      ]
+    },
+    {
+      "query": "infecție urinară",
+      "paths": [
+        "infectie urinara",
+        "aparatul urinar"
+      ],
+      "headings": [
+        "urinar",
+        "cistit"
+      ]
+    },
+    {
+      "query": "cistita",
+      "paths": [
+        "aparatul urinar"
+      ],
+      "headings": [
+        "cistit",
+        "urinar"
+      ]
+    },
+    {
+      "query": "ulcer gastric",
+      "paths": [
+        "ulcerului"
+      ],
+      "headings": [
+        "ulcer"
+      ]
+    },
+    {
+      "query": "gripă",
+      "paths": [
+        "gripa"
+      ],
+      "headings": [
+        "grip"
+      ]
+    },
+    {
+      "query": "insomnie",
+      "paths": [
+        "somn mai bun"
+      ],
+      "headings": [
+        "insomni"
+      ]
+    },
+    {
+      "query": "paraziți intestinali",
+      "paths": [
+        "paraziti",
+        "deparazitare"
+      ],
+      "headings": [
+        "parazit"
+      ]
+    },
+    {
+      "query": "diabet zaharat",
+      "paths": [
+        "diabet",
+        "surse necunoscute/pancreas"
+      ],
+      "headings": [
+        "diabet"
+      ]
+    },
+    {
+      "query": "ciroza hepatica",
+      "paths": [
+        "ciroza"
+      ],
+      "headings": [
+        "ciroz"
+      ]
+    },
+    {
+      "query": "acnee",
+      "paths": [],
+      "headings": [
+        "acnee"
+      ]
+    },
+    {
+      "query": "căderea părului",
+      "paths": [
+        "caderea parului"
+      ],
+      "headings": [
+        "caderea parului",
+        "alopecie",
+        "chelie"
+      ]
+    },
+    {
+      "query": "astm bronsic",
+      "paths": [],
+      "headings": [
+        "astm"
+      ]
+    },
+    {
+      "query": "hemoroizi",
+      "paths": [
+        "hemoroizi"
+      ],
+      "headings": [
+        "hemoroi"
+      ]
+    },
+    {
+      "query": "hipertensiune arterială",
+      "paths": [
+        "hipertensiune"
+      ],
+      "headings": [
+        "hipertensiune"
+      ]
+    },
+    {
+      "query": "colesterol mărit",
+      "paths": [
+        "colesterol"
+      ],
+      "headings": [
+        "colesterol"
+      ]
+    },
+    {
+      "query": "tiroida Hashimoto",
+      "paths": [
+        "surse necunoscute/tiroida"
+      ],
+      "headings": [
+        "tiroid",
+        "hashimoto"
+      ]
+    },
+    {
+      "query": "osteoporoza",
+      "paths": [
+        "osteoporoza"
+      ],
+      "headings": [
+        "osteoporoz"
+      ]
+    },
+    {
+      "query": "varice",
+      "paths": [
+        "varice"
+      ],
+      "headings": [
+        "varice"
+      ]
+    },
+    {
+      "query": "migrena",
+      "paths": [],
+      "headings": [
+        "migren"
+      ]
+    },
+    {
+      "query": "sinuzita",
+      "paths": [],
+      "headings": [
+        "sinuzit"
+      ]
+    },
+    {
+      "query": "prostata mărită",
+      "paths": [],
+      "headings": [
+        "prostat"
+      ]
+    },
+    {
+      "query": "psoriazis",
+      "paths": [],
+      "headings": [
+        "psoriazis"
+      ]
+    },
+    {
+      "query": "colici abdominali",
+      "paths": [
+        "colici abdominali"
+      ],
+      "headings": [
+        "colic"
+      ]
+    },
+    {
+      "query": "bronsita",
+      "paths": [],
+      "headings": [
+        "bronsit"
+      ]
+    },
+    {
+      "query": "gout",
+      "paths": [
+        "guta"
+      ],
+      "headings": [
+        "guta",
+        "gutoas"
+      ]
+    },
+    {
+      "query": "artrita gutosa",
+      "paths": [
+        "guta"
+      ],
+      "headings": [
+        "guta",
+        "gutoas"
+      ]
+    },
+    {
+      "query": "cuperoza",
+      "paths": [],
+      "headings": [
+        "rozace",
+        "cuperoz"
+      ]
+    },
+    {
+      "query": "rosacea",
+      "paths": [],
+      "headings": [
+        "rozace",
+        "cuperoz"
+      ]
+    },
+    {
+      "query": "hiperplazie benigna de prostata",
+      "paths": [],
+      "headings": [
+        "prostat"
+      ]
+    },
+    {
+      "query": "alopecie androgenetica",
+      "paths": [
+        "caderea parului"
+      ],
+      "headings": [
+        "caderea parului",
+        "alopecie",
+        "chelie"
+      ]
+    },
+    {
+      "query": "boala Alzheimer",
+      "paths": [],
+      "headings": [
+        "alzheimer"
+      ]
+    },
+    {
+      "query": "amigdalita cronica",
+      "paths": [],
+      "headings": [
+        "amigdal"
+      ]
+    },
+    {
+      "query": "angina pectorala",
+      "paths": [],
+      "headings": [
+        "angin"
+      ]
+    },
+    {
+      "query": "aritmie cardiaca",
+      "paths": [],
+      "headings": [
+        "aritmi"
+      ]
+    },
+    {
+      "query": "alergie alimentara",
+      "paths": [],
+      "headings": [
+        "alergi"
+      ]
+    },
+    {
+      "query": "artrita reumatoida",
+      "paths": [],
+      "headings": [
+        "artrit"
+      ]
+    },
+    {
+      "query": "ateroscleroza",
+      "paths": [],
+      "headings": [
+        "ateroscleroz"
+      ]
+    },
+    {
+      "query": "alcoolism",
+      "paths": [],
+      "headings": [
+        "alcool"
+      ]
+    }
+  ]
+}

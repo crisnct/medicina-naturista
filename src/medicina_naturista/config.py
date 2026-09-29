@@ -38,6 +38,7 @@ def _bool(name: str, default: bool) -> bool:
 class Settings:
     documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
     model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "data" / "model_cache")))
+    conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(ROOT / "data" / "medical_conditions.txt")))
     frontend_dist_dir: Path = Path(os.getenv("FRONTEND_DIST_DIR", str(ROOT / "frontend" / "dist")))
     database_url: str = os.getenv(
         "DATABASE_URL", "postgresql://medicina:medicina@127.0.0.1:5432/medicina"
@@ -52,6 +53,7 @@ class Settings:
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
     max_context_chars: int = _int("MAX_CONTEXT_CHARS", 1_000_000)
     merge_max_percent_diff: int = _int("MERGE_MAX_PERCENT_DIFF", 9, minimum=0, maximum=100)
+    search_candidate_limit: int = _int("SEARCH_CANDIDATE_LIMIT", 100, minimum=10, maximum=5000)
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)

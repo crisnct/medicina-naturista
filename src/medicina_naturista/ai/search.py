@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Offline hybrid search over the Postgres-backed medical index: pgvector
-cosine similarity for the semantic signal, tsvector phrase matching for the
+cosine similarity for the semantic signal, tsvector prefix matching for the
 lexical signal, combined with Reciprocal Rank Fusion (RRF)."""
 
 from __future__ import annotations
@@ -9,12 +9,14 @@ import argparse
 import json
 import re
 import sys
+from collections.abc import Sequence
 
 import numpy as np
 from psycopg.rows import namedtuple_row
 
 from medicina_naturista.ai.db import get_pool
 from medicina_naturista.ai.embedding_model import cached_query_model
+from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS, plain
 from medicina_naturista.config import settings
 
 # Reciprocal Rank Fusion constant used to combine semantic and lexical ranks
@@ -22,8 +24,14 @@ from medicina_naturista.config import settings
 # scores 1/(RRF_K + 1) per signal, so RRF_MAX_SCORE is the highest hybrid_score
 # any fragment can ever reach — the fixed ceiling other layers (the UI's
 # score-to-percentage display) can rely on without duplicating this constant.
+# Three signals feed the fusion: semantic, lexical and heading/path match.
 RRF_K = 60.0
-RRF_MAX_SCORE = 2.0 / (RRF_K + 1.0)
+RRF_SIGNAL_COUNT = 3
+RRF_MAX_SCORE = RRF_SIGNAL_COUNT / (RRF_K + 1.0)
+
+# When the strict (all content words) lexical query matches fewer chunks than
+# this, rank() also runs the loose (any content word) query.
+MIN_STRICT_LEXICAL_HITS = 10
 
 
 # Read the embedding model name/dimension the currently-synced index was
@@ -40,43 +48,127 @@ def _embedding_metadata(cursor) -> tuple[str, int]:
     return rows["model_name"], int(rows["model_dimension"])
 
 
-# Extract up to 32 words from a text segment, space-joined — the raw phrase
-# text handed to Postgres's phraseto_tsquery(), which turns adjacent words
-# into a strict "followed by" (<->) tsquery on its own; never build tsquery
-# syntax by hand from user text.
-def _phrase_words(segment: str) -> str | None:
-    words = re.findall(r"[^\W_]+", segment, flags=re.UNICODE)[:32]
-    return " ".join(words) if words else None
+# Words of a text segment, capped at 32 — the raw material of a lexical query.
+def _words(segment: str) -> list[str]:
+    return re.findall(r"[^\W_]+", segment, flags=re.UNICODE)[:32]
 
 
-# Convert user text into the phrase texts a lexical query should OR together:
-# comma-separated segments each become one exact-phrase clause (words
-# adjacent, in that order); a plain segment yields a single clause. Empty
-# segments are dropped. Mirrors the old SQLite FTS5 fts_query()'s behaviour,
-# minus the SQL string-building — callers parameterize each phrase text.
-def fts_clauses(text: str) -> list[str]:
+# Prefix stem used for lexical matching. The index is built with the 'simple'
+# text-search config (no Romanian stemming), so "genunchi" would never match
+# "genunchiului"; matching on a trimmed prefix (`stem:*`) covers the common
+# inflections (genunchi/genunchiului, durere/dureri, gripa/gripei) without a
+# reindex. Short words keep their full length as prefix.
+def _stem(word: str) -> str:
+    folded = plain(word)
+    return folded[: max(4, len(folded) - 2)] if len(folded) >= 6 else folded
+
+
+# Content words of a segment: generic words ("pentru", "tratament", ...) and
+# one/two-letter fragments are dropped so they cannot make an exact-match
+# requirement impossible or flood the OR fallback; if nothing is left (e.g. a
+# query made only of short words) every word is kept.
+def _content_stems(segment: str) -> list[str]:
+    words = _words(segment)
+    content = [word for word in words if len(word) >= 3 and plain(word) not in GENERIC_QUERY_WORDS]
+    return [_stem(word) for word in (content or words)]
+
+
+# Convert user text into two tsquery strings for Postgres's to_tsquery():
+# `strict` requires every content word of a comma-separated segment (prefix
+# match, any order, any distance — segments are OR-ed), `loose` accepts any
+# content word and is only used when `strict` finds too little. Stems contain
+# letters and digits only, so no tsquery syntax can come from user text.
+# `expansions` are alternative names of the condition the query names (see
+# ai/conditions.py): each is one more OR-ed all-words group in `strict`, so a
+# section titled with a synonym is found too; they are left out of `loose`,
+# which must stay narrow. Both are None when the text has no usable word.
+def lexical_queries(text: str, expansions: Sequence[str] = ()) -> tuple[str | None, str | None]:
     segments = text.split(",") if "," in text else [text]
-    return [phrase for phrase in (_phrase_words(segment) for segment in segments) if phrase]
+    groups = [stems for stems in (_content_stems(segment) for segment in segments) if stems]
+    if not groups:
+        return None, None
+    loose_stems = list(dict.fromkeys(stem for group in groups for stem in group))
+    for phrase in expansions:
+        stems = _content_stems(phrase)
+        if stems and stems not in groups:
+            groups.append(stems)
+    strict = " | ".join("(" + " & ".join(f"{stem}:*" for stem in group) + ")" for group in groups)
+    return strict, " | ".join(f"{stem}:*" for stem in loose_stems)
 
 
-# Combine semantic and lexical rankings with reciprocal rank fusion. Both
-# signals always run — there is no per-call or per-deployment toggle to turn
-# either off — so every fragment's hybrid_score is a genuine fusion of the
-# two ranks, never a single-signal score dressed up in RRF's positional
-# formula. The semantic ranking covers every fragment, so only the lexical
-# signal is selective: each result carries "found_by_lexical", recording
-# whether the exact phrase matched it. A future selective signal is added the
-# same way — one more independent "found_by_<signal>" flag.
+# Chunk ids matching a to_tsquery() string, best first, at most `limit`.
+# ts_rank_cd with normalization=1 divides the rank by 1+log(document length),
+# so a short focused match outranks the same words buried in a much longer
+# chunk — the closest built-in equivalent to BM25's length normalization.
+def _lexical_ids(cursor, tsquery: str, category_filter: str, category_params: list[object], limit: int) -> list[int]:
+    and_category = f"AND {category_filter}" if category_filter else ""
+    rows = cursor.execute(
+        f"""
+        SELECT chunk_id
+        FROM chunks, (SELECT to_tsquery('simple', unaccent(%s)) AS query) AS q
+        WHERE text_search @@ query {and_category}
+        ORDER BY ts_rank_cd(text_search, query, 1) DESC
+        LIMIT %s
+        """,
+        [tsquery, *category_params, limit],
+    ).fetchall()
+    return [row.chunk_id for row in rows]
+
+
+# Chunk ids whose section heading or file path matches the strict tsquery,
+# most similar to the query first, at most `limit`. A chunk sitting under a
+# heading that names the condition ("GUTĂ", "Constipație") is the strongest
+# hint that it is about that condition, which the body text alone (where the
+# word may appear once, in passing) cannot express. Computed at query time
+# over heading + path only — short strings, so it costs tens of milliseconds
+# without any extra index or reindex.
+def _heading_ids(
+    cursor, tsquery: str, query_vector, category_filter: str, category_params: list[object], limit: int
+) -> list[int]:
+    and_category = f"AND {category_filter}" if category_filter else ""
+    rows = cursor.execute(
+        f"""
+        SELECT chunk_id
+        FROM chunks
+        WHERE to_tsvector('simple', unaccent(heading || ' ' || source_relative_path))
+              @@ to_tsquery('simple', unaccent(%s)) {and_category}
+        ORDER BY embedding <#> %s
+        LIMIT %s
+        """,
+        [tsquery, *category_params, query_vector, limit],
+    ).fetchall()
+    return [row.chunk_id for row in rows]
+
+
+# Combine semantic, lexical and heading rankings with reciprocal rank fusion.
+# All signals always run — there is no per-call or per-deployment toggle to turn
+# either off. Each contributes at most `limit` candidates (default
+# settings.search_candidate_limit): the semantic top-`limit` by cosine
+# similarity, the lexical top-`limit` by ts_rank_cd and the heading/path
+# matches by similarity. Only the union of the lists is returned, so a search fetches and scores a few hundred rows
+# instead of the whole index. A fragment found by only one signal simply gets
+# no reciprocal-rank term from the others; its semantic_similarity is still
+# reported. Each result carries "found_by_lexical", recording whether the
+# lexical query matched it. A future selective signal is added the same way —
+# one more independent "found_by_<signal>" flag.
 #
 # category_ids optionally restricts ranking to chunks whose category_id is
 # one of the given ids (see medicina_naturista.ai.categories) — None or an
-# empty set means every chunk, matching the pre-category behaviour exactly.
-# When given, BOTH signals are ranked over the filtered subset only (the SQL
-# WHERE clause is applied before ROW_NUMBER() computes ranks), not computed
-# over the whole index and then filtered: filtering after the fact would
-# leave gaps in the rank sequence that skew every fragment's RRF score
-# relative to a fresh ranking of just that subset.
-def rank(query: str, category_ids: frozenset[str] | None = None) -> list[dict[str, object]]:
+# empty set means every chunk. When given, BOTH signals are ranked over the
+# filtered subset only (the SQL WHERE clause is applied before the ranking
+# order is taken), not computed over the whole index and then filtered:
+# filtering after the fact would leave gaps in the rank sequence that skew
+# every fragment's RRF score relative to a fresh ranking of just that subset.
+#
+# expansions: alternative names of the condition the query names, which widen
+# the lexical and heading signals (the semantic query stays the user's text).
+def rank(
+    query: str,
+    category_ids: frozenset[str] | None = None,
+    limit: int | None = None,
+    expansions: Sequence[str] = (),
+) -> list[dict[str, object]]:
+    limit = limit or settings.search_candidate_limit
     with get_pool().connection() as connection:
         with connection.cursor(row_factory=namedtuple_row) as cursor:
             model_name, dimension = _embedding_metadata(cursor)
@@ -85,71 +177,83 @@ def rank(query: str, category_ids: frozenset[str] | None = None) -> list[dict[st
             query_vector /= np.linalg.norm(query_vector)
 
             category_filter = ""
-            semantic_params: dict[str, object] = {"qvec": query_vector}
+            category_params: list[object] = []
             if category_ids:
-                category_filter = "WHERE category_id = ANY(%(cats)s)"
-                semantic_params["cats"] = list(category_ids)
+                category_filter = "category_id = ANY(%s)"
+                category_params = [list(category_ids)]
+            where_category = f"WHERE {category_filter}" if category_filter else ""
 
             # embedding <#> vector = negative inner product; vectors are unit
             # length (see build_hybrid_index.py's embed_chunks()), so the
             # inner product is genuine cosine similarity and ascending <#>
-            # order is descending similarity order. No LIMIT: every selected
-            # fragment gets a full-range semantic_rank (1 = most similar),
-            # matching the exhaustive numpy ranking the old index did.
-            semantic_rows = cursor.execute(
-                f"""
+            # order is descending similarity order. The scan is exact (no
+            # ANN index), so the top-`limit` is the true top-`limit`; only
+            # the id is read here, the text is fetched for the union below.
+            semantic_ids = [
+                row.chunk_id
+                for row in cursor.execute(
+                    f"""
+                    SELECT chunk_id FROM chunks
+                    {where_category}
+                    ORDER BY embedding <#> %s
+                    LIMIT %s
+                    """,
+                    [*category_params, query_vector, limit],
+                ).fetchall()
+            ]
+
+            lexical_ids: list[int] = []
+            strict, loose = lexical_queries(query, expansions)
+            if strict:
+                lexical_ids = _lexical_ids(cursor, strict, category_filter, category_params, limit)
+                # Too few all-words matches: widen to any content word. The
+                # strict matches stay first (they rank above every loose-only
+                # match), so this only ever appends candidates.
+                if len(lexical_ids) < MIN_STRICT_LEXICAL_HITS and loose != strict:
+                    seen = set(lexical_ids)
+                    extra = [
+                        chunk_id
+                        for chunk_id in _lexical_ids(cursor, loose, category_filter, category_params, limit)
+                        if chunk_id not in seen
+                    ]
+                    lexical_ids += extra[: limit - len(lexical_ids)]
+
+            heading_ids: list[int] = []
+            if strict:
+                heading_ids = _heading_ids(cursor, strict, query_vector, category_filter, category_params, limit)
+
+            semantic_rank = {chunk_id: position for position, chunk_id in enumerate(semantic_ids, start=1)}
+            lexical_rank = {chunk_id: position for position, chunk_id in enumerate(lexical_ids, start=1)}
+            heading_rank = {chunk_id: position for position, chunk_id in enumerate(heading_ids, start=1)}
+            rows = cursor.execute(
+                """
                 SELECT chunk_id, source_relative_path, source_absolute_path, line_start, line_end,
-                       heading, text, source_sha256,
-                       -(embedding <#> %(qvec)s) AS semantic_similarity,
-                       ROW_NUMBER() OVER (ORDER BY embedding <#> %(qvec)s) AS semantic_rank
+                       heading, text, source_sha256, -(embedding <#> %s) AS semantic_similarity
                 FROM chunks
-                {category_filter}
+                WHERE chunk_id = ANY(%s)
                 """,
-                semantic_params,
+                [query_vector, list(semantic_rank.keys() | lexical_rank.keys() | heading_rank.keys())],
             ).fetchall()
 
-            lexical_rank: dict[int, int] = {}
-            phrases = fts_clauses(query)
-            if phrases:
-                # Strict phrase match only — no fallback to individual words.
-                # If none of the phrase(s) appear verbatim, this fragment
-                # contributes nothing to the lexical signal. Every matching
-                # fragment is kept (no LIMIT), ranked by ts_rank_cd with
-                # normalization=1 (rank divided by 1+log(document length), so
-                # a short focused match outranks the same phrase buried in a
-                # much longer document — the closest built-in equivalent to
-                # BM25's own length normalization), then renumbered 1.. — so
-                # a category filter can never leave gaps in the lexical rank
-                # sequence.
-                tsquery_sql = " || ".join(["phraseto_tsquery('simple', unaccent(%s))"] * len(phrases))
-                lexical_params: list[object] = list(phrases)
-                lexical_filter = ""
-                if category_ids:
-                    lexical_filter = "AND category_id = ANY(%s)"
-                    lexical_params.append(list(category_ids))
-                lexical_rows = cursor.execute(
-                    f"""
-                    SELECT chunk_id,
-                           ROW_NUMBER() OVER (ORDER BY ts_rank_cd(text_search, query, 1) DESC) AS lexical_rank
-                    FROM chunks, (SELECT ({tsquery_sql}) AS query) AS q
-                    WHERE text_search @@ query {lexical_filter}
-                    """,
-                    lexical_params,
-                ).fetchall()
-                lexical_rank = {row.chunk_id: row.lexical_rank for row in lexical_rows}
-
     results: list[dict[str, object]] = []
-    for row in semantic_rows:
+    for row in rows:
+        fragment_semantic_rank = semantic_rank.get(row.chunk_id)
         fragment_lexical_rank = lexical_rank.get(row.chunk_id)
-        score = 1.0 / (RRF_K + row.semantic_rank)
+        fragment_heading_rank = heading_rank.get(row.chunk_id)
+        score = 0.0
+        if fragment_semantic_rank is not None:
+            score += 1.0 / (RRF_K + fragment_semantic_rank)
         if fragment_lexical_rank is not None:
             score += 1.0 / (RRF_K + fragment_lexical_rank)
+        if fragment_heading_rank is not None:
+            score += 1.0 / (RRF_K + fragment_heading_rank)
         results.append({
             "chunk_id": row.chunk_id,
             "hybrid_score": score,
             "semantic_similarity": float(row.semantic_similarity),
             "lexical_rank": fragment_lexical_rank,
             "found_by_lexical": fragment_lexical_rank is not None,
+            "found_by_heading": fragment_heading_rank is not None,
             "source_relative_path": row.source_relative_path,
             "source_absolute_path": row.source_absolute_path,
             "line_start": row.line_start,
@@ -183,7 +287,8 @@ def main() -> None:
         print(
             f"    semantic={result['semantic_similarity']:.4f} "
             f"hybrid={result['hybrid_score']:.6f} "
-            f"found_by_lexical={result['found_by_lexical']}"
+            f"found_by_lexical={result['found_by_lexical']} "
+            f"found_by_heading={result['found_by_heading']}"
         )
         preview = re.sub(r"\s+", " ", str(result["text"]))[:500]
         print(f"    {preview}")

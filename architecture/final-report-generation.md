@@ -44,28 +44,27 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 ## 4. Construirea interogărilor și rularea retrieval-ului — `Retriever.collect()`
 
 - **4.1.** `consultation_queries()` folosește **întreaga problemă de sănătate** ca interogare unică; istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect.
-- **4.2.** Extrage cuvintele relevante ale problemei (minimum 4 caractere, fără cuvintele generice din `generic_query_words.txt`, comparate fără diacritice și fără diferențe de majuscule).
-- **4.3.** Dacă există cuvinte relevante, adaugă o interogare cu acestea sortate alfabetic; textul problemei inserat în față se deduplică cu interogarea de bază.
-- **4.4.** Deduplică interogările după forma normalizată (spații și majuscule); de regulă rămân două.
-- **4.5.** Pentru fiecare interogare apelează `rank()` (secțiunea 5), care întoarce **toate** fragmentele indexului, fiecare cu `hybrid_score`.
-- **4.6.** Însumează pentru fiecare fragment scorurile `hybrid_score` din toate interogările și reține dacă a fost găsit lexical de cel puțin o interogare.
+- **4.2.** Interogarea este unică (`N = 1`): nu se mai construiește o a doua interogare din cuvintele sortate alfabetic, deoarece nu aducea fragmente noi și dubla costul căutării.
+- **4.2a.** `expansions_for()` caută în dicționarul de afecțiuni (`data/medical_conditions.txt`) afecțiunea numită de interogare și întoarce celelalte denumiri ale ei; vezi `fragment-search-and-scoring.md`, pasul 1.3.
+- **4.3.** Apelează `rank()` (secțiunea 5), care întoarce doar **candidații** (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal, implicit 100), fiecare cu `hybrid_score`.
+- **4.4.** Însumează pentru fiecare fragment scorurile `hybrid_score` din toate interogările și reține dacă a fost găsit lexical de cel puțin o interogare.
 
 ## 5. Retrieval hibrid pentru o interogare — `search.rank()`
 
 - **5.1.** Citește modelul de embedding și dimensiunea vectorilor din `sync_metadata` (Postgres).
 - **5.2.** Încarcă modelul FastEmbed (ONNX) din `data/model_cache` (offline, în cache pe proces).
 - **5.3.** Generează vectorul E5 al interogării cu prefixul `query: ` și îl normalizează L2.
-- **5.4.** Calculează similaritatea semantică față de **toți** vectorii direct în Postgres (`pgvector`, operatorul `<#>`); fiecare fragment primește un rang semantic (fără limită top-N — niciun index aproximativ HNSW/ivfflat).
-- **5.5.** Construiește interogarea `tsquery`: un segment fără virgulă devine o **frază exactă** (`phraseto_tsquery`); segmentele separate prin virgulă devin fraze combinate prin `||` (OR). Nu există revenire la potrivirea pe cuvinte individuale.
-- **5.6.** Preia din Postgres fragmentele al căror `text_search` se potrivește, ordonate prin `ts_rank_cd` (fără `LIMIT`); acestea primesc un rang lexical.
-- **5.7.** Calculează scorul prin Reciprocal Rank Fusion, `k=60`: `1/(60+rang_semantic)` plus, dacă există potrivire exactă, `1/(60+rang_lexical)`.
-- **5.8.** Întoarce toate fragmentele sortate descrescător după `hybrid_score`, cu `found_by_lexical`, similaritatea semantică, calea sursei, intervalul de linii, titlul și textul.
-- **5.9.** `RRF_MAX_SCORE = 2/(k+1)` este scorul maxim posibil și servește drept plafon pentru procentul de relevanță.
+- **5.4.** Semnalul semantic: primii `SEARCH_CANDIDATE_LIMIT` (100) vecini după similaritate, calculați exact în Postgres (`pgvector`, operatorul `<#>`, fără index aproximativ); se citesc doar id-urile.
+- **5.5.** Semnalul lexical: cuvintele relevante ale interogării (fără cuvintele generice și cele sub 3 caractere) devin potriviri pe prefix (`stem:*`), cu ȘI între cuvinte. Prefixul acoperă flexiunile (genunchi/genunchiului) fără reindexare. Segmentele separate prin virgulă se combină prin SAU. Dacă potrivirea strictă găsește sub 10 fragmente, se adaugă și potrivirea „oricare cuvânt”.
+- **5.6.** Semnalul de titlu: fragmentele al căror titlu sau a căror cale conține cuvintele interogării, ordonate după similaritate.
+- **5.7.** Scorul prin Reciprocal Rank Fusion, `k=60`: suma termenilor `1/(60+rang)` pentru fiecare semnal care a găsit fragmentul. Un fragment găsit doar de un semnal primește doar termenul acestuia.
+- **5.8.** Se aduc din Postgres textele doar pentru uniunea candidaților, sortați descrescător după `hybrid_score`, cu `found_by_lexical`, `found_by_heading`, similaritatea semantică, calea sursei, intervalul de linii, titlul și textul.
+- **5.9.** `RRF_MAX_SCORE = 3/(k+1)` (trei semnale) este scorul maxim posibil și servește drept plafon pentru procentul de relevanță.
 
 ## 6. Selecția, îmbinarea și asamblarea dovezilor — `Retriever.collect()`
 
 - **6.1.** Calculează `relevance_percent = suma_scorurilor / număr_interogări / RRF_MAX_SCORE × 100`.
-- **6.2.** Nu se aplică niciun prag pe `relevance_percent` — toate fragmentele întoarse de `rank()`, pentru fiecare interogare, devin dovezi. Singura selecție rămasă e bugetul `MAX_CONTEXT_CHARS`, la pasul 7, comună panoului din UI și cererii către AI.
+- **6.2.** Nu se aplică niciun prag pe `relevance_percent` — toți candidații întorși de `rank()` devin dovezi. Singura selecție rămasă e bugetul `MAX_CONTEXT_CHARS`, la pasul 7, comună panoului din UI și cererii către AI.
 - **6.3.** Grupează fragmentele din același fișier ale căror intervale de linii se suprapun sau sunt la cel mult 5 linii distanță (`NEIGHBOR_LINE_GAP`), doar cât timp diferența dintre cel mai mare și cel mai mic procent din grup rămâne strict sub `MERGE_MAX_PERCENT_DIFF` (implicit 9).
 - **6.4.** Ordonează grupurile după scorul celui mai bun membru, descrescător.
 - **6.5.** Pentru un grup cu un singur fragment, construiește textul cu `_context()`: adaugă titlul secțiunii și, pentru fragmente sub 600 de caractere, liniile apropiate din fișierul sursă (limitat la 1800 de caractere).

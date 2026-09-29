@@ -6,58 +6,58 @@
 
 Codul implicat: `ai/retrieval.py` (`Retriever.collect()`), `ai/search.py` (`rank()`), `ai/client.py` (`fit_evidence_to_context()`), `web/handlers.py` (afișarea).
 
-## 1. Construirea interogărilor — `consultation_queries()` și `Retriever.collect()`
+## 1. Construirea interogării — `consultation_queries()` și `Retriever.collect()`
 
-Problema pacientului este căutată cu **una sau două formulări**. Fiecare formulare se numește interogare, iar numărul lor final se notează `N` (1 sau 2).
+Problema pacientului este căutată cu **o singură interogare** (`N = 1`).
 
-**Exemplu** folosit în această secțiune: `durere de genunchi la efort`.
+- **1.1.** Interogarea este întreaga problemă de sănătate, cu spațiile normalizate: `durere de genunchi la efort`. Istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect. Dacă problema este goală, căutarea se oprește și returnează un inventar gol.
+- **1.2.** Nu se mai construiește o a doua interogare din cuvintele sortate alfabetic: era căutată lexical ca frază exactă (care nu apare aproape niciodată așa în documente) și dubla costul unei căutări fără să aducă fragmente noi.
+- **1.3.** **Dicționarul de afecțiuni** (`ai/conditions.py`, fișierul `data/medical_conditions.txt`, calea din `CONDITIONS_FILE`): o afecțiune pe linie, separată prin virgulă, cu numele canonic primul, urmat de sinonimele în română și engleză. `collect()` află ce afecțiune numește interogarea și o extinde cu celelalte denumiri ale ei (`expansions`), pe care `rank()` le folosește la semnalele lexical și de titlu. Potrivirea, în ordine:
+  - **1.3.1.** interogarea este exact un termen din dicționar (fără diacritice și majuscule): `gout` găsește `Artrita gutoasa`;
+  - **1.3.2.** interogarea este o scriere aproape identică a unui termen întreg (raport `difflib` ≥ 0,9), pentru greșeli de scriere: `artrita gutosa`;
+  - **1.3.3.** termeni din dicționar apar ca cuvinte întregi în interogare (minimum 4 caractere); câștigă cei mai lungi: `tratament pentru adenom de prostata` găsește `Adenom de prostata`, nu `Adenom`;
+  - **1.3.4.** ultima variantă: cel mai apropiat termen după scriere (raport ≥ 0,84).
+  - **1.3.5.** Se folosesc cel mult 2 afecțiuni și 12 denumiri de extindere. Dacă nu se potrivește nimic sau fișierul lipsește, căutarea rulează exact ca înainte. Fișierul se reîncarcă automat când se modifică.
+  - **1.3.6.** Extinderea nu modifică interogarea semantică (rămâne textul utilizatorului) și nu intră în interogarea laxă a semnalului lexical.
+- **1.4.** Logica de agregare pe `N` interogări din secțiunile 3 și 4 rămâne valabilă și pentru `N = 1`.
 
-- **1.1.** **Interogarea de bază** este întreaga problemă de sănătate, cu spațiile normalizate: `durere de genunchi la efort`. Istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect. Dacă problema este goală, căutarea se oprește și returnează un inventar gol.
-- **1.2.** **Cuvintele relevante** se extrag din problemă. Un cuvânt este relevant dacă are minimum 4 caractere și nu apare în `generic_query_words.txt`. Compararea se face fără diacritice și fără diferențe de majuscule. În exemplu: `durere`, `genunchi`, `efort`; cuvintele „de” și „la” sunt prea scurte.
-- **1.3.** Dacă nu există niciun cuvânt relevant, se folosește doar interogarea de bază: `N = 1`.
-- **1.4.** Dacă există, se construiește o **a doua interogare** din cuvintele relevante, sortate alfabetic și unite printr-un spațiu: `durere efort genunchi`. Ea elimină cuvintele de umplutură, astfel încât modelul semantic să se concentreze pe termenii importanți.
-- **1.5.** **Deduplicarea:** `collect()` inserează în față textul problemei și interogarea din 1.4, deci lista devine `[problemă, cuvinte sortate, problemă]`. Interogările se compară după forma normalizată (spații și majuscule), iar duplicatele dispar.
+## 2. Ranking hibrid — `search.rank()`
 
-| Situația | Interogări rezultate | `N` |
-|---|---|---|
-| Problemă cu mai multe cuvinte relevante | problema întreagă + cuvintele sortate | 2 |
-| Un singur cuvânt relevant (ex. `migrene`) | cele două coincid, rămâne una | 1 |
-| Niciun cuvânt relevant | doar problema întreagă | 1 |
-
-- **1.6.** **Ce se întâmplă cu ele:** fiecare interogare trece prin `rank()` (secțiunea 2), deci prin ambele semnale, semantic și lexical. Interogarea cu cuvinte sortate este căutată lexical ca frază exactă, care aproape niciodată nu apare așa în documente. În practică ea contribuie mai ales prin rangul semantic.
-- **1.7.** Scorurile fiecărui fragment din cele `N` interogări se adună, apoi se împart la `N` (secțiunile 3 și 4). Astfel scorul rămâne comparabil, indiferent dacă s-a folosit una sau două interogări.
-
-## 2. Ranking hibrid pentru o interogare — `search.rank()`
-
-Se rulează pentru fiecare dintre cele `N` interogări și întoarce **toate** fragmentele indexului, nu doar un top.
+Se rulează o dată pe interogare și întoarce doar **candidații** semnalelor, nu tot indexul.
 
 ### 2.1. Semnalul semantic
 
 - **2.1.1.** Citește modelul și dimensiunea vectorilor din `sync_metadata` (Postgres) — scrise acolo de `build_hybrid_index.py` la fiecare sincronizare.
 - **2.1.2.** Încarcă modelul FastEmbed (ONNX) din `data/model_cache`, offline, păstrat în cache pe proces.
 - **2.1.3.** Generează vectorul E5 al interogării cu prefixul `query: ` și îl normalizează L2.
-- **2.1.4.** Interoghează Postgres: `ORDER BY embedding <#> vector_interogare` (produs scalar negativ; cum toți vectorii sunt normalizați L2, ordinea este identică cu similaritatea cosinus), peste tot subsetul filtrat pe categorie, fără `LIMIT`.
-- **2.1.5.** `ROW_NUMBER()` peste acea ordonare dă **rangul semantic** fiecărui fragment, de la 1 (cel mai similar) la `F` (cel mai puțin similar); nu există limită top-N — niciun index aproximativ (HNSW/ivfflat) nu e folosit, tocmai ca să nu existe acest cutoff.
+- **2.1.4.** Interoghează Postgres: `ORDER BY embedding <#> vector_interogare LIMIT SEARCH_CANDIDATE_LIMIT` (implicit 100), peste subsetul filtrat pe categorie. Se citesc doar id-urile; scanarea este exactă (fără HNSW/ivfflat), deci cei 100 sunt cu adevărat cei mai similari.
+- **2.1.5.** Rangul semantic este poziția în acea listă, de la 1.
 
 ### 2.2. Semnalul lexical
 
-- **2.2.1.** Convertește interogarea într-o expresie Postgres `tsquery`. Un text fără virgulă devine o **frază exactă** (`phraseto_tsquery`, cuvinte adiacente, în ordine, maximum 32). Segmentele separate prin virgulă devin fraze exacte combinate cu `||` (OR).
-- **2.2.2.** Nu există revenire la potrivirea pe cuvinte individuale: dacă fraza nu apare identic, fragmentul nu primește niciun scor lexical.
-- **2.2.3.** Interoghează Postgres: fragmentele ale căror `text_search @@ tsquery`, ordonate prin `ts_rank_cd`, fără `LIMIT`. Ele primesc un **rang lexical** de la 1 în sus (`ROW_NUMBER()`); celelalte nu au rang lexical.
+- **2.2.1.** Din interogare se păstrează cuvintele relevante: fără cuvintele din `generic_query_words.txt` și fără cele sub 3 caractere (dacă nu rămâne niciunul, se păstrează toate). Fiecare devine o potrivire pe prefix `stem:*`, unde stemul este cuvântul fără ultimele 2 litere (minimum 4 caractere) pentru cuvintele de cel puțin 6 caractere. Indexul folosește configurația `simple` (fără stemming românesc), iar prefixul acoperă flexiunile: `genunchi` găsește `genunchiului`, `gripa` găsește `gripei`. Nu e nevoie de reindexare.
+- **2.2.2.** Interogarea **strictă** cere toate cuvintele relevante (`ȘI`, în orice ordine și la orice distanță). Segmentele separate prin virgulă se combină prin `SAU`. Textul utilizatorului nu ajunge niciodată ca sintaxă tsquery: stemurile conțin doar litere și cifre.
+- **2.2.2a.** Fiecare denumire de extindere devine un grup suplimentar `ȘI`, legat prin `SAU` de interogarea strictă (și, prin ea, de semnalul de titlu).
+- **2.2.3.** Dacă interogarea strictă găsește sub `MIN_STRICT_LEXICAL_HITS = 10` fragmente, se rulează și interogarea **laxă** (oricare dintre cuvinte); potrivirile stricte rămân primele, iar cele laxe se adaugă după ele.
+- **2.2.4.** Ordonare prin `ts_rank_cd` cu normalizarea 1, cel mult `SEARCH_CANDIDATE_LIMIT` rezultate. Rangul lexical este poziția în listă.
 
-### 2.3. Fuziunea — Reciprocal Rank Fusion
+### 2.3. Semnalul de titlu
 
-- **2.3.1.** Constanta este `RRF_K = 60`.
-- **2.3.2.** Pentru fiecare fragment: `hybrid_score = 1 / (60 + rang_semantic)`.
-- **2.3.3.** Dacă are rang lexical, se adaugă `1 / (60 + rang_lexical)`.
-- **2.3.4.** Ambele semnale rulează întotdeauna; nu există comutator care să dezactiveze unul dintre ele.
-- **2.3.5.** Rezultatul fiecărui fragment conține: `chunk_id`, `hybrid_score`, `semantic_similarity`, `lexical_rank`, `found_by_lexical`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`.
-- **2.3.6.** Lista se sortează descrescător după `hybrid_score`.
+- **2.3.1.** Fragmentele al căror titlu sau a căror cale de fișier se potrivește interogării stricte (`to_tsvector('simple', unaccent(titlu || ' ' || cale))`), ordonate după similaritatea semantică, cel mult `SEARCH_CANDIDATE_LIMIT`.
+- **2.3.2.** Un fragment aflat sub un titlu care numește afecțiunea (`GUTĂ`, `Constipație`) este cel mai bun indiciu că e despre acea afecțiune; textul poate menționa cuvântul o singură dată, în treacăt. Se calculează la interogare, pe șiruri scurte (zeci de milisecunde), fără index suplimentar.
 
-### 2.4. Scorul maxim
+### 2.4. Fuziunea — Reciprocal Rank Fusion
 
-- **2.4.1.** `RRF_MAX_SCORE = 2 / (RRF_K + 1) = 2/61 ≈ 0,0328`: un fragment clasat pe primul loc de ambele semnale.
-- **2.4.2.** Este plafonul fix pe baza căruia se calculează procentul de relevanță; nicio altă componentă nu duplică constanta.
+- **2.4.1.** Constanta este `RRF_K = 60`.
+- **2.4.2.** `hybrid_score` este suma termenilor `1 / (60 + rang)` pentru fiecare dintre cele trei semnale care a găsit fragmentul (semantic, lexical, titlu).
+- **2.4.3.** Se întoarce uniunea candidaților, cu textele aduse dintr-o singură interogare `WHERE chunk_id = ANY(...)`. Un fragment găsit de un singur semnal primește doar termenul lui, dar `semantic_similarity` este raportată oricum.
+- **2.4.4.** Rezultatul fiecărui fragment conține: `chunk_id`, `hybrid_score`, `semantic_similarity`, `lexical_rank`, `found_by_lexical`, `found_by_heading`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`.
+- **2.4.5.** Lista se sortează descrescător după `hybrid_score`.
+
+### 2.5. Scorul maxim
+
+- **2.5.1.** `RRF_MAX_SCORE = 3 / (RRF_K + 1) = 3/61 ≈ 0,0492`: un fragment clasat pe primul loc de toate cele trei semnale.
+- **2.5.2.** Este plafonul fix pe baza căruia se calculează procentul de relevanță; nicio altă componentă nu duplică constanta.
 
 ## 3. Agregarea scorurilor între interogări — `Retriever.collect()`
 
@@ -74,7 +74,7 @@ Se rulează pentru fiecare dintre cele `N` interogări și întoarce **toate** f
   ```
 
   Împărțirea la `N` menține plafonul la `RRF_MAX_SCORE`, indiferent de numărul de interogări.
-- **4.2.** Nu există un prag minim de relevanță: **fiecare** candidat întors de `rank()`, pentru fiecare interogare, devine dovadă (după unirea vecinilor la pasul 5). Singurul loc unde un fragment poate fi eliminat mai târziu este bugetul `MAX_CONTEXT_CHARS`, aplicat o singură dată de `fit_evidence_to_context()` (vezi [final-report-generation.md](final-report-generation.md)), nu aici.
+- **4.2.** Nu există un prag minim de relevanță: **fiecare** candidat întors de `rank()` (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal) devine dovadă (după unirea vecinilor la pasul 5). Singurul loc unde un fragment poate fi eliminat mai târziu este bugetul `MAX_CONTEXT_CHARS`, aplicat o singură dată de `fit_evidence_to_context()` (vezi [final-report-generation.md](final-report-generation.md)), nu aici.
 - **4.3.** `relevance_percent` rămâne calculat și afișat (scorul din panoul UI), doar că nu mai e folosit ca regulă de selecție — e pur informativ pentru pacient.
 
 ## 5. Unirea fragmentelor vecine — `Retriever._merge_adjacent()`
@@ -133,25 +133,35 @@ Se apelează în `on_find_fragments()`, imediat după `collect()`.
 | Variabilă | Implicit | Rol |
 |---|---|---|
 | `MERGE_MAX_PERCENT_DIFF` | 9 | Diferența maximă de procent într-un grup unit |
+| `SEARCH_CANDIDATE_LIMIT` | 100 | Candidați per semnal (semantic, lexical, titlu) |
+| `CONDITIONS_FILE` | `data/medical_conditions.txt` | Dicționarul de afecțiuni și sinonime |
 | `MAX_CONTEXT_CHARS` | 2.400.000 | Bugetul serializat al dovezilor |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului |
 | `DOCUMENTS_DIR` | `data/documents` | Documentele sursă pentru extinderea contextului |
 
-Constantele din cod: `RRF_K = 60`, `NEIGHBOR_LINE_GAP = 5`, lungimea minimă a unui cuvânt relevant 4, pragul de extindere a contextului 600 de caractere.
+Constantele din cod: `RRF_K = 60`, `MIN_STRICT_LEXICAL_HITS = 10`, `NEIGHBOR_LINE_GAP = 5`, lungimea minimă a unui cuvânt relevant 4, pragul de extindere a contextului 600 de caractere.
 
 ## Rezultatul final
 
 ```text
 Problema de sănătate
-    -> N interogări distincte (problema întreagă și cuvintele-cheie sortate)
-    -> pentru fiecare: rang semantic (E5) + rang lexical (FTS5, frază exactă)
-    -> hybrid_score = RRF pe cele două rangări, pentru toate fragmentele
-    -> suma scorurilor pe interogări, împărțită la N
-    -> relevance_percent = scor / RRF_MAX_SCORE × 100 (afișat, dar nu mai filtrează)
+    -> o singură interogare (problema întreagă)
+    -> dicționar de afecțiuni: dacă numește o afecțiune, o extinde cu sinonimele ei
+    -> semnal semantic (E5, top-100 exact) + lexical (prefixe, ȘI apoi SAU) + titlu/cale
+    -> hybrid_score = RRF pe cele trei rangări, doar pentru uniunea candidaților
+    -> relevance_percent = scor / RRF_MAX_SCORE × 100 (afișat, dar nu filtrează)
     -> unirea vecinilor (≤ 5 linii, diferență de procent < MERGE_MAX_PERCENT_DIFF)
     -> dovadă = interval unit, scor și procent ale celui mai bun membru
-    -> ordonare descrescătoare și limitare la MAX_CONTEXT_CHARS (singurul filtru rămas)
+    -> ordonare descrescătoare și limitare la MAX_CONTEXT_CHARS
     -> panou cu fragmente pentru pacient și, la cerere, payload către AI
 ```
 
 Fluxul complet al raportului este descris în [final-report-generation.md](final-report-generation.md), iar generarea indexului în [hybrid-index-generation.md](hybrid-index-generation.md).
+
+## Măsurarea calității
+
+`scripts/evaluate_retrieval.py` rulează `rank()` pe interogările din `tests/eval/retrieval_queries.json` (etichetate prin reguli de cale și titlu, deci stabile la reindexare) și raportează Precision@10, MRR, nDCG@10, Recall@50 și latența p50/p95. Scriptul doar citește din baza de date. Rulează-l înainte și după orice schimbare de scoring; `--no-conditions` dezactivează extinderea cu dicționarul, pentru comparație.
+
+```bash
+python scripts/evaluate_retrieval.py --output before.json
+```
