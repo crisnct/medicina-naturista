@@ -194,6 +194,40 @@ class ChunkingTests(unittest.TestCase):
                 self.assertIn(row_line, source_excerpt)
 
 
+class UnstructuredFileBypassTests(unittest.TestCase):
+    def test_short_file_without_any_markdown_markers_becomes_one_chunk(self):
+        text = "Coada-calului e o plantă folosită tradițional pentru infecții urinare.\nSe bea sub formă de ceai."
+
+        chunks = builder.chunk_document(text)
+
+        self.assertEqual(len(chunks), 1)
+        body, line_start, line_end, heading = chunks[0]
+        self.assertEqual(body, text)
+        self.assertEqual((line_start, line_end), (1, 2))
+        self.assertEqual(heading, "")
+
+    def test_file_with_a_heading_is_not_treated_as_unstructured(self):
+        text = "# Coada-calului\n\nAjută la infecții urinare."
+
+        chunks = builder.chunk_document(text)
+
+        self.assertEqual([heading for _, _, _, heading in chunks], ["Coada-calului"])
+
+    def test_file_with_a_list_marker_is_not_treated_as_unstructured(self):
+        text = "Rețetă:\n- ceai\n- tinctură"
+
+        self.assertTrue(builder._has_markdown_structure(text))
+
+    def test_unstructured_file_over_the_size_limit_uses_normal_chunking(self):
+        text = "Propoziție lungă fără nicio structură. " * 400
+        self.assertGreater(len(text), builder.UNSTRUCTURED_SINGLE_CHUNK_CHARS)
+
+        chunks = builder.chunk_document(text)
+
+        self.assertGreater(len(chunks), 1)
+        self.assertTrue(all(len(item[0]) <= builder.MAX_CHARS for item in chunks))
+
+
 class EmbeddingProgressTests(unittest.TestCase):
     def test_reports_periodic_progress_and_completion(self):
         chunks = [make_chunk(index) for index in range(1, 4)]
@@ -229,6 +263,45 @@ class EmbeddingProgressTests(unittest.TestCase):
         log = output.getvalue()
         self.assertNotIn("Embedding progress:", log)
         self.assertIn("Embedding completed: 1/1 (100.0%)", log)
+
+    def test_oversized_chunk_is_embedded_on_windows_and_averaged(self):
+        # Deterministic per-input-index unit vectors, so we can tell how many
+        # documents a call actually embedded without depending on a real model.
+        class WindowModel:
+            def embed(self, documents, batch_size, parallel):
+                for index, _ in enumerate(documents):
+                    vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
+                    vector[index % builder.MODEL_DIMENSION] = 1.0
+                    yield vector
+
+        long_chunk = make_chunk(1, text="Propoziție. " * 300)
+        self.assertGreater(len(long_chunk.text), builder.MAX_CHARS)
+        output = io.StringIO()
+
+        with redirect_stdout(output):
+            embeddings = builder.embed_chunks(
+                WindowModel(), [long_chunk], batch_size=64, clock=FakeClock(0.0, 5.0),
+            )
+
+        self.assertEqual(embeddings.shape, (1, builder.MODEL_DIMENSION))
+        np.testing.assert_allclose(np.linalg.norm(embeddings, axis=1), [1.0], atol=1e-6)
+        self.assertIn("Embedding completed: 1/1 (100.0%)", output.getvalue())
+
+    def test_short_and_oversized_chunks_land_at_their_original_positions(self):
+        class WindowModel:
+            def embed(self, documents, batch_size, parallel):
+                for index, _ in enumerate(documents):
+                    vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
+                    vector[index % builder.MODEL_DIMENSION] = 1.0
+                    yield vector
+
+        chunks = [make_chunk(1, text="scurt"), make_chunk(2, text="Propoziție. " * 300), make_chunk(3, text="scurt2")]
+
+        embeddings = builder.embed_chunks(WindowModel(), chunks, batch_size=64, clock=FakeClock(0.0, 1.0, 2.0, 3.0))
+
+        self.assertEqual(embeddings.shape, (3, builder.MODEL_DIMENSION))
+        for row in embeddings:
+            self.assertAlmostEqual(float(np.linalg.norm(row)), 1.0, places=5)
 
     def test_embedding_failure_is_propagated_without_false_completion(self):
         output = io.StringIO()
@@ -389,6 +462,31 @@ class SyncTests(unittest.TestCase):
         self.assertIn("neschimbat", b_chunk.text)
         a_chunk = next(row for row in chunks if row.source_relative_path == "a.md")
         self.assertIn("modificat", a_chunk.text)
+
+    def test_bumping_text_repr_version_forces_a_full_resync(self):
+        (self.source / "document.md").write_text("# Remedii\n\nText neschimbat.", encoding="utf-8")
+        self._sync()
+
+        # Simulate a document already synced under an older cleaning/chunking
+        # representation: its own file hasn't changed, but the code's
+        # TEXT_REPR_VERSION has moved on since.
+        with db_module.get_pool().connection() as connection:
+            connection.execute(
+                "UPDATE sync_metadata SET value = %s WHERE key = 'text_repr_version'", ("0",),
+            )
+            connection.commit()
+
+        embed_mock = self._sync()
+
+        embed_mock.assert_called_once()
+        embedded_chunks = embed_mock.call_args.args[1]
+        self.assertTrue(any(chunk.source_relative_path == "document.md" for chunk in embedded_chunks))
+
+        with db_module.get_pool().connection() as connection:
+            stored = connection.execute(
+                "SELECT value FROM sync_metadata WHERE key = 'text_repr_version'"
+            ).fetchone()[0]
+        self.assertEqual(stored, builder.TEXT_REPR_VERSION)
 
     def test_file_removed_from_source_is_deleted_from_the_index(self):
         (self.source / "a.md").write_text("# A\n\nConținut a.", encoding="utf-8")
