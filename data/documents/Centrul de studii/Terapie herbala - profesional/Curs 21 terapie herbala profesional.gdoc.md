@@ -18,13 +18,13 @@ Curs 21
 
 Dieta regenerativa
 
-S-ar putea sa vina ca o surpriza pentru unii, in special pentru cei cu pregatire medicala conventionala, dar starea implicita a corpului este una de neincetata regenerare.  Fara procesul similar flacarii, de preschimbare celulara continua in cadrul corpului – viata si moartea intretesute fara incetare – miracolul corpului uman nu ar exista.
+S-ar putea sa vina ca o surpriza pentru unii, in special pentru cei cu pregatire medicala conventionala, dar starea implicita a corpului este una de neincetata regenerare. Fara procesul similar flacarii, de preschimbare celulara continua in cadrul corpului – viata si moartea intretesute fara incetare – miracolul corpului uman nu ar exista.
 
 Totusi, pe timpul bolii, procesele regenerative sunt depasite de cele degenerative. Acesta este locul unde medicina poate realiza cea mai nobila trasatura a ei, impingand corpul inapoi in echilibru cu alimente, plante, nutrienti, energii vindecatoare, adica intentie de a vindeca. Astazi totusi, medicina bazata pe medicatie foloseste invariabil substante chimice care nu au nici macar un pic de potential regenerativ; dimpotriva, ele aproape intotdeauna interfereaza cu autoinnoirea corporala cu scopul de a suprima simptomele impotriva carora sunt ele aplicate.
 
-In ciuda naturii de-a dreptul eretice a lucrurilor care stimuleaza vindecarea si regenerarea vis a vis  de care sistemul medical conventional incrunta din sprancene, sau fata de care este neincrezator – a remisiei spontane in favoarea suprimarii simptomelor si a managementului bolii, in decursul ultimilor cativa ani s-au inregistrat o serie de studii remarcabile asupra subiectului.
+In ciuda naturii de-a dreptul eretice a lucrurilor care stimuleaza vindecarea si regenerarea vis a vis de care sistemul medical conventional incrunta din sprancene, sau fata de care este neincrezator – a remisiei spontane in favoarea suprimarii simptomelor si a managementului bolii, in decursul ultimilor cativa ani s-au inregistrat o serie de studii remarcabile asupra subiectului.
 
-**Regenerarea nervilor –** Exista actualmente o larga gama de compusi naturali cu efecte dovedite de regenerare a nervilor. Un studiu din 2010 publicat in jurnalul medical Rejuvenation Research (Cercetari asupra Reintineririi), a gasit de exemplu ca o combinatie de afine, ceai verde si carnosina au efecte neuritogenice (promovand regenerarea neurala) si de  regenerare a celulei  stem in modelul animal al bolii neurodegenerative . Alte substante neuritogenice includ:
+**Regenerarea nervilor –** Exista actualmente o larga gama de compusi naturali cu efecte dovedite de regenerare a nervilor. Un studiu din 2010 publicat in jurnalul medical Rejuvenation Research (Cercetari asupra Reintineririi), a gasit de exemplu ca o combinatie de afine, ceai verde si carnosina au efecte neuritogenice (promovand regenerarea neurala) si de regenerare a celulei stem in modelul animal al bolii neurodegenerative . Alte substante neuritogenice includ:
 
 Curcumina
 
@@ -50,9 +50,9 @@ Teanina
 
 Ashwaganda (ginsengul indian)
 
-Exista o alta clasa de substante vindecatoare de nervi, cunoscute ca si compusi de remielinare, care stimuleaza repararea tecii protectoare din jurul axonului neuronilor, cunoscuta ca mielina, si care este adesea vatamata in afectiunile sau disfunctiile neurologice, in special in tulburarile de demielinare autoimune sau induse de vaccinare. Ar trebui de asemenea notat ca pana si muzica si  indragostirea au fost studiate ca posibile stimulente ale neurogenezei, regenerarii si/sau repararii neuronilor, indicand ca medicina regenerativa nu cere in mod necesar ingerarea a ceva; mai degraba ar putea fi intrebuintat un larg spectru de actiuni terapeutice pentru a imbunatati sanatatea si bunastarea corpului.
+Exista o alta clasa de substante vindecatoare de nervi, cunoscute ca si compusi de remielinare, care stimuleaza repararea tecii protectoare din jurul axonului neuronilor, cunoscuta ca mielina, si care este adesea vatamata in afectiunile sau disfunctiile neurologice, in special in tulburarile de demielinare autoimune sau induse de vaccinare. Ar trebui de asemenea notat ca pana si muzica si indragostirea au fost studiate ca posibile stimulente ale neurogenezei, regenerarii si/sau repararii neuronilor, indicand ca medicina regenerativa nu cere in mod necesar ingerarea a ceva; mai degraba ar putea fi intrebuintat un larg spectru de actiuni terapeutice pentru a imbunatati sanatatea si bunastarea corpului.
 
-Regenerarea ficatului  – Glicirizina, compus gasit in lemnul dulce si care este si un puternic agent antiviral impotriva SARS, a fost gasit ca stimulând regenerarea masei si functiilor hepatice in modelul animal de hepatectomie (extirpare a ficatului).  Alte substante regeneratoare ale ficatului includ:
+Regenerarea ficatului – Glicirizina, compus gasit in lemnul dulce si care este si un puternic agent antiviral impotriva SARS, a fost gasit ca stimulând regenerarea masei si functiilor hepatice in modelul animal de hepatectomie (extirpare a ficatului). Alte substante regeneratoare ale ficatului includ:
 
 Carvacrol (un compus volatil din oregano)
 
@@ -94,7 +94,7 @@ Sulforafanul (concentrat in special in inflorescentele broccoli)
 
 **Regenerarea hormonilor** – exista secretagogi, care sporesc abilitatea glandelor endocrine de a secreta mai mult hormon, si exista substante care cu adevarat regenereaza hormonii care s-au degradat (prin emiterea electronilor) in metabolitii “hormoni tranzitorii” cu potential cancerigen. Una dintre aceste substante este vitamina C. Un puternic donator de electroni, aceasta vitamina are capacitatea de a contribui cu electroni pentru a reanima forma si functia estradiolului (estrogen; E2), progesteronului, testosteronului, de exemplu. In tandem cu alimentele capabile sa sprijine functia glandelor, cum ar fi rodia, vitamina C ar putea reprezenta un supliment excelent sau o alternativa la terapia de inlocuire hormonala.
 
-Regenerarea celulelor cardiace – Nu cu prea mult timp in urma, se credea ca tesutul cardiac era in mod unic incapabil de a fi regenerat. Cercetari experimentale noi si tot mai sporite  acum indica faptul ca acest lucru pur si simplu nu este adevarat, si exista o clasa de compusi ce regenereaza tesutul inimii, compusi cunoscuti ca substante neocardiogenice.  Neocardiogenicele sunt capabile sa stimuleze formarea de celule progenitoare cardiace care se pot diferentia in tesut cardiac sanatos, aceste substante incluzand:
+Regenerarea celulelor cardiace – Nu cu prea mult timp in urma, se credea ca tesutul cardiac era in mod unic incapabil de a fi regenerat. Cercetari experimentale noi si tot mai sporite acum indica faptul ca acest lucru pur si simplu nu este adevarat, si exista o clasa de compusi ce regenereaza tesutul inimii, compusi cunoscuti ca substante neocardiogenice. Neocardiogenicele sunt capabile sa stimuleze formarea de celule progenitoare cardiace care se pot diferentia in tesut cardiac sanatos, aceste substante incluzand:
 
 Resveratrol
 
@@ -106,7 +106,7 @@ N-acetil-cisteina
 
 Un alt exemplu remarcabil de regenerare a celulelor cardiace este cunoscut ca traficul de celule fetomaternale prin placenta. Un alt lucru extraordinar este si “microhimerismul fetal” prin care fetusul contribuie cu celule stem la tesuturile materne, celule capabile de regenerare a celulelor materne cardiace afectate, si posibil sa contribuie cu o larga gama de alte tipuri de celule.
 
-**Regenerarea cartilagiilor/articulatiilor/coloanei vertebrale** – Curcumina si resveratrolul s-au aratat a imbunatati recuperarea dupa vatamari ale coloanei vertebrale.  Cat despre boala degenerativa a articulatiilor, osteoartrita, exista un larg spectru de substante si alimente potential regeneratoare precum bromelaina, avocado, ghimbir, namol de techirghiol, gheara pisicii, MSM si altele.
+**Regenerarea cartilagiilor/articulatiilor/coloanei vertebrale** – Curcumina si resveratrolul s-au aratat a imbunatati recuperarea dupa vatamari ale coloanei vertebrale. Cat despre boala degenerativa a articulatiilor, osteoartrita, exista un larg spectru de substante si alimente potential regeneratoare precum bromelaina, avocado, ghimbir, namol de techirghiol, gheara pisicii, MSM si altele.
 
 Stimularea dietelor, stilurilor de viata si atitudinilor ce duc la regenerarea corpului poate intrerupe circuitul patologic si ne poate ajuta sa atingem libertatea trupeasca si care este de asemenea o conditie preliminara pentru eliberarea sufletului si spiritului uman.
 
@@ -118,11 +118,11 @@ Asta in functie de dieta pe care alegem sa o respectam. Cel mai important lucru 
 
 Cei mai multi dintre cei care postesc cad insa in capcana carbohidratilor (adica fac exces de paine, paste fainoase si cartofi) care, trebuie sa reprezinte doar jumatate din aportul caloric al unei zile, restul provenind din proteine si grasimi.
 
-Perioada postului reprezinta o oportunitate sa beneficiem de grasimi de buna calitate, avand in vedere ca nu se consuma alimente de origine animala. 
+Perioada postului reprezinta o oportunitate sa beneficiem de grasimi de buna calitate, avand in vedere ca nu se consuma alimente de origine animala.
 
-Surse de grasimi bune sunt fructele oleaginoase (alunele, migdalele, nucile) in stare cruda, uleiurile vegetale (ulei de masline, floarea soarelui, soia, porumb, germeni de grau), dar si produsele care au ca ingrediente uleiuri vegetale bogate in Omega 3, precum margarina tartinabila care, in special in post, poate inlocui grasimile alimentare de origine animala si poate acoperi partial, necesarul de Omega 3, grasime esentiala foarte importanta pentru sanatate. 
+Surse de grasimi bune sunt fructele oleaginoase (alunele, migdalele, nucile) in stare cruda, uleiurile vegetale (ulei de masline, floarea soarelui, soia, porumb, germeni de grau), dar si produsele care au ca ingrediente uleiuri vegetale bogate in Omega 3, precum margarina tartinabila care, in special in post, poate inlocui grasimile alimentare de origine animala si poate acoperi partial, necesarul de Omega 3, grasime esentiala foarte importanta pentru sanatate.
 
- Vitala este si hidratarea. Supele de legume, ceaiurile, sucurile naturale de fructe si nu in ultimul rand apa, nu au voie sa lipseasca din alimentatia zilnica. 
+ Vitala este si hidratarea. Supele de legume, ceaiurile, sucurile naturale de fructe si nu in ultimul rand apa, nu au voie sa lipseasca din alimentatia zilnica.
 
  Asadar, chiar si in perioada de restrictii alimentare, ne putem hrani echilibrat, depinde doar ca fiecare dintre noi sa fie atent cu nevoile propriului organism, asigurandu-ne zilnic alimente care sa contina toate grupele de nutrienti, astfel incat greutatea sa ramana constanta.
 
@@ -138,9 +138,9 @@ Alimente obligatorii
 
  \- verdeturi crude (patrunjel, marar, leurda, urzicile, rucola, salata verde)
 
- \- legumele crucifere (conopida, varza) 
+ \- legumele crucifere (conopida, varza)
 
- \- nucile si semintele crude 
+ \- nucile si semintele crude
 
  \- orezul integral (brun)
 
@@ -250,13 +250,13 @@ Se recomanda ingerarea a 1-1.5 gr per kg corp in 24 de ore.
 
  Laptele
 
-Laptele este o secretie materna lactata. Un nutrient pe termen scurt special pentru noii nascuti. Nimic mai mult  si nimic mai putin. Invariabil, mama oricarui mamifer ii va oferi lapte pe o perioada de timp imediat dupa nastere puiului ei. Cand vine vremea de intarcat, mama isi va introduce puiul spre hrana specifica speciei respective. Un exemplu bun este cel al unui catelus. Mama isi alapteaza puiul pentru o scurta perioada , apoi il invata sa se hraneasca cu hrana solida. In consecinta alaptatul este o forma de hrana programata de natura numai pentru noii-nascuti.
+Laptele este o secretie materna lactata. Un nutrient pe termen scurt special pentru noii nascuti. Nimic mai mult si nimic mai putin. Invariabil, mama oricarui mamifer ii va oferi lapte pe o perioada de timp imediat dupa nastere puiului ei. Cand vine vremea de intarcat, mama isi va introduce puiul spre hrana specifica speciei respective. Un exemplu bun este cel al unui catelus. Mama isi alapteaza puiul pentru o scurta perioada , apoi il invata sa se hraneasca cu hrana solida. In consecinta alaptatul este o forma de hrana programata de natura numai pentru noii-nascuti.
 
-Laptele fiecarei specii de mamifer este unic si in mod specific construit astfel incat sa  se potriveasca nevoilor animalului respectiv. De exemplu, laptele de vaca este mult mai bogat in proteine decat cel de om, aproximativ de 3 sau 4 ori mai mult. Are de 5 sau 7 ori continutul de minerale al laptelui uman.  Pe de alta parte, laptele matern contine de de 6 pana la 10 ori mai multi acizi grasi esentiali, in special acid linoleic. Si ca o simpla observatie, laptele pasteurizat nu are acid linoleic deloc, pur si simplu laptele de vaca nu este proiectat pentru oameni.
+Laptele fiecarei specii de mamifer este unic si in mod specific construit astfel incat sa se potriveasca nevoilor animalului respectiv. De exemplu, laptele de vaca este mult mai bogat in proteine decat cel de om, aproximativ de 3 sau 4 ori mai mult. Are de 5 sau 7 ori continutul de minerale al laptelui uman. Pe de alta parte, laptele matern contine de de 6 pana la 10 ori mai multi acizi grasi esentiali, in special acid linoleic. Si ca o simpla observatie, laptele pasteurizat nu are acid linoleic deloc, pur si simplu laptele de vaca nu este proiectat pentru oameni.
 
-Hrana nu este doar hrana si laptele nu este doar lapte.  Iar pentru o sanatate cat mai buna, nu conteaza atat cantitatea cat calitatea  hranei.  Biochimistii si fiziologii iar in ultima vreme pana si doctorii incep sa recunoasca faptul ca anumite elemente cruciale din hrana permit unei specii sa isi dezvolte specializari unice. Este clar ca in cazul oamenilor, aceste specializari sunt legate de dezvoltarea neurologica si controlul neuro-muscular.
+Hrana nu este doar hrana si laptele nu este doar lapte. Iar pentru o sanatate cat mai buna, nu conteaza atat cantitatea cat calitatea hranei. Biochimistii si fiziologii iar in ultima vreme pana si doctorii incep sa recunoasca faptul ca anumite elemente cruciale din hrana permit unei specii sa isi dezvolte specializari unice. Este clar ca in cazul oamenilor, aceste specializari sunt legate de dezvoltarea neurologica si controlul neuro-muscular.
 
-Nu avem atat nevoie de o crestere masiva a oaselor sau a muschilor, precum au viteii.  Sa ne gandim la diferenta dintre nevoile unui pui de om si ale unui vitel. Este clar ca bebelusii au nevoie in mod special de material pentru creier, nervi si coloana vertebrala.
+Nu avem atat nevoie de o crestere masiva a oaselor sau a muschilor, precum au viteii. Sa ne gandim la diferenta dintre nevoile unui pui de om si ale unui vitel. Este clar ca bebelusii au nevoie in mod special de material pentru creier, nervi si coloana vertebrala.
 
 Poate laptele matern sa creasca inteligenta?
 
@@ -270,11 +270,11 @@ Alitatile si contraindicatiile consumului de oua
 
 Oul contine toate substantele necesare organismului ?
 
-Fals. Oul este intr-adevar un produs cu un continut ridicat de energie. In compozitia lui intra albumine, bioregulatori, cantitati mari de minerale (calciu si fier), vitaminele A, B1, B2 si acid nicotinic. insa din ou lipsesc hidratii de carbon si vitamina C. 
+Fals. Oul este intr-adevar un produs cu un continut ridicat de energie. In compozitia lui intra albumine, bioregulatori, cantitati mari de minerale (calciu si fier), vitaminele A, B1, B2 si acid nicotinic. insa din ou lipsesc hidratii de carbon si vitamina C.
 
 Oul este produsul cu cea mai mare cantitate de albumine ?
 
-Adevarat. Tocmai din acest considerent dietologii au luat albuminele care exista in ou drept un etalon. Principala caracteristica a albuminelor din ou este capacitatea de a fi asimilate foarte usor, spre deosebire de alte albumine. In ou albuminele reprezinta 93,7%, iar prin comparatie pestele contine 76% albumine, carnea de vita 73,3%, iar fasolea 58%. 
+Adevarat. Tocmai din acest considerent dietologii au luat albuminele care exista in ou drept un etalon. Principala caracteristica a albuminelor din ou este capacitatea de a fi asimilate foarte usor, spre deosebire de alte albumine. In ou albuminele reprezinta 93,7%, iar prin comparatie pestele contine 76% albumine, carnea de vita 73,3%, iar fasolea 58%.
 
 Ouale sunt daunatoare pentru ficat ?
 
@@ -282,11 +282,11 @@ Fals. De ce? Pentru ca oul contine aminoacizi (ex. metionina) folositori pentru 
 
 Ouale sunt contraindicate celor care au probleme cu colesterolul ?
 
-Da si nu. Cand vorbim despre acest subiect trebuie sa avem in vedere ca numai galbenusul de ou contine colesterol, intr-o cantitate destul de mare: 270 mg la un ou de dimensiuni medii. Studiile clinice efectuate au aratat ca dupa consumarea unui ou nivelul colesterolului in sange nu creste aproape deloc (de exemplu o ceasca de oua crude adaugata dietei zilnice creste nivelul colesterolului doar cu 9%). Deci, daca iti  plac foarte mult ouale dar ai probleme cu colesterolul, manca doar albusul. Acesta este un izvor extraordinar de proteine. Dar trebuie sa aveti in vedere un lucru: ouale sunt prezente in dulciuri, fursecuri, inghetata, paste fainoase si in alte produse alimentare. 
+Da si nu. Cand vorbim despre acest subiect trebuie sa avem in vedere ca numai galbenusul de ou contine colesterol, intr-o cantitate destul de mare: 270 mg la un ou de dimensiuni medii. Studiile clinice efectuate au aratat ca dupa consumarea unui ou nivelul colesterolului in sange nu creste aproape deloc (de exemplu o ceasca de oua crude adaugata dietei zilnice creste nivelul colesterolului doar cu 9%). Deci, daca iti plac foarte mult ouale dar ai probleme cu colesterolul, manca doar albusul. Acesta este un izvor extraordinar de proteine. Dar trebuie sa aveti in vedere un lucru: ouale sunt prezente in dulciuri, fursecuri, inghetata, paste fainoase si in alte produse alimentare.
 
 Ouale se digera greu ?
 
-Nu. Totul depinde de cat de proaspat este oul si de modul in care a fost preparat. Cu cat oul este supus pregatirii termice o perioada de timp mai mare, cu atat este mai greu de digerat. De aceea indicam sa consumi oul fiert moale deoarece acesta se digera in intregime dupa 1-2 ore, in timp ce oul fiert tare sau omleta se digera dupa 3 ore. 
+Nu. Totul depinde de cat de proaspat este oul si de modul in care a fost preparat. Cu cat oul este supus pregatirii termice o perioada de timp mai mare, cu atat este mai greu de digerat. De aceea indicam sa consumi oul fiert moale deoarece acesta se digera in intregime dupa 1-2 ore, in timp ce oul fiert tare sau omleta se digera dupa 3 ore.
 
 Ouale ingrasa ?
 
@@ -320,7 +320,7 @@ Continut
 
 ¨ Extractul de tarate are un rol important in favorizarea digestiei si completarea unei alimentatii echilibrate; o lingurita poate fi amestecata cu alimentele la fiecare masa sau adaugata spre sfarsitul fierberii alimentelor; prin enzimele pe care le contine tarata de grau usureaza digestia si o grabeste
 
-Indicatii 
+Indicatii
 
 graul integral scade riscul de diabet, imbunatateste controlul glucozei in sange
 
@@ -328,13 +328,13 @@ graul integral reduce de asemenea riscul de boala cardiaca
 
 graul incoltit este util in demineralizari, in astenie fizica sau psihica, anemie, rahitism, tuberculoza, sarcina si alaptare
 
-extractul de tarate de grau prin enzimele si catalizatorii continuti determina o predigestie care il face util in multe intolerante digestive sau colite 
+extractul de tarate de grau prin enzimele si catalizatorii continuti determina o predigestie care il face util in multe intolerante digestive sau colite
 
 Prin continutul de fibre graul integral ajuta si la prevenirea cancerului de colon
 
 Un studiu recent (American Journal of Clinical Nutriton 2006 Apr, 83(4):760-6) efectuat pe un grup de 524 de persoane asupra efectului consumului de fibre a aratat ca cei ce au consumat mai multe fibre au avut un nivel scazut al proteinei C reactive. Aceasta proteina sintetizata in ficat indica inflamatia si cresterea sa in sange este asociata cu un risc crescut de diabet de tip II si boala cardiaca.
 
-Mod de consum 
+Mod de consum
 
 · painea integrala este de departe mult mai valoroasa din punct de vedere nutritional decat painea alba din care s-au eliminat cea mai mare parte din vitaminele si mineralele continute in germeni si tarate
 
@@ -388,7 +388,7 @@ se vor consuma 1 pana la 3 lingurite pe zi
 
 Planul alimentar dupa detoxifiere
 
-Daca vei continuasa consumi alimente procesate cu multi aditivi alimentari sau bauturi racoritoare nu te vei alege cu niciun beneficiu de pe urma curei de detoxifiere. Este momentul sa aplici cateva reguli de alimentatie sanatoasa care merita mentinute pe toata perioada vietii. Le stii cu siguranta pe cateva dintre ele, insa nu te-ai ambitionat suficient pana acum ca sa le si respecti\! 
+Daca vei continuasa consumi alimente procesate cu multi aditivi alimentari sau bauturi racoritoare nu te vei alege cu niciun beneficiu de pe urma curei de detoxifiere. Este momentul sa aplici cateva reguli de alimentatie sanatoasa care merita mentinute pe toata perioada vietii. Le stii cu siguranta pe cateva dintre ele, insa nu te-ai ambitionat suficient pana acum ca sa le si respecti\!
 
 Poti consuma:
 
@@ -410,15 +410,15 @@ condimente;
 
 ceaiuri din plante sau fructe;
 
-carne slaba (in cantitati moderate). 
+carne slaba (in cantitati moderate).
 
 Nu puteti consuma:
 
-produse procesate care contin aditivi alimentari; 
+produse procesate care contin aditivi alimentari;
 
-prajeli; 
+prajeli;
 
-afumaturi; 
+afumaturi;
 
 produsele fainoase preparate cu faina alba (paine, biscuiti, covrigei, patiserie, prajituri, paste);
 

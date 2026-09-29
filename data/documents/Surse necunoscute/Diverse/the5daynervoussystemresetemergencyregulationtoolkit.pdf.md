@@ -16,7 +16,7 @@ status: "ok"
 ### Pagina 1
 
 THE 5-DAY NERVOUS
- SYSTEM RESET: 
+ SYSTEM RESET:
 EMERGENCY REGULATION
 TOOLKIT
 KYLE COX
@@ -46,7 +46,7 @@ bypassing the thinking brain entirely.
 By Day 5, you'll have a complete emergency toolkit that works when you
 can't think straight, can't breathe properly, can't remember your
 affirmations. Your renovation starts now.
-K y l e  C o x
+K y l e C o x
 
 ### Pagina 3
 
@@ -137,10 +137,10 @@ This combines all protocols into one master sequence for any trigger:
 1.Identify Your State (5 seconds)
 Frozen? Angry? Pleasing? Fleeing?
 2.Opposite Action (20 seconds)
-Frozen →  Vigorous movement
-Angry →  Slow, controlled tension
-Fawning →  Take up maximum space
-Fleeing →  Root down and hold
+Frozen → Vigorous movement
+Angry → Slow, controlled tension
+Fawning → Take up maximum space
+Fleeing → Root down and hold
 3.Sensory Reset (15 seconds)
 Cold water on wrists
 5 deep pressure squeezes
@@ -170,7 +170,7 @@ These 5 emergency protocols interrupt your triggers. But what if
 you could eliminate them entirely?
 WANNA LEARN MORE?
 You have two paths forward:
-Option 1: Rewire Your Nervous System in 10 Min/Day 
+Option 1: Rewire Your Nervous System in 10 Min/Day
 Monthly subscription: $9.99
 Join hundreds of others getting daily nervous system renovation
 25+ 10-minute protocol videos

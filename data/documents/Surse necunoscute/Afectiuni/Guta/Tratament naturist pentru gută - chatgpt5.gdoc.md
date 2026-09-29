@@ -14,9 +14,9 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-# **Tratament naturist pentru gută** 
+# **Tratament naturist pentru gută**
 
-#  **\- chat GPT 5 \-** 
+# **\- chat GPT 5 \-**
 
 *Plan zilnic \+ remedii \+ suplimente*
 
@@ -132,38 +132,38 @@ Guta este o formă de artrită cauzată de acumularea cristalelor de acid uric l
 
 1. **Hrana pentru ADN și diviziune celulară**
 
-   * **Proteine de calitate** (ouă, pește, leguminoase) → materia primă pentru celule.
+ * **Proteine de calitate** (ouă, pește, leguminoase) → materia primă pentru celule.
 
-   * **Vitamine din complexul B** (B9 – folat, B12, B6) → esențiale pentru sinteza ADN.
+ * **Vitamine din complexul B** (B9 – folat, B12, B6) → esențiale pentru sinteza ADN.
 
-   * **Zinc și fier** → pentru producția de celule roșii și imunitate.
+ * **Zinc și fier** → pentru producția de celule roșii și imunitate.
 
-   * **Antioxidanți (vitamina C, E, seleniu)** → protejează ADN-ul de mutații.
+ * **Antioxidanți (vitamina C, E, seleniu)** → protejează ADN-ul de mutații.
 
 2. **Protecția celulelor împotriva daunelor**
 
-   * Evită fumatul, alcoolul excesiv, mâncarea prăjită în uleiuri arse → toate produc radicali liberi care distrug celulele.
+ * Evită fumatul, alcoolul excesiv, mâncarea prăjită în uleiuri arse → toate produc radicali liberi care distrug celulele.
 
-   * Hidratare bună → sângele și celulele se regenerează corect.
+ * Hidratare bună → sângele și celulele se regenerează corect.
 
 3. **Regenerare prin stil de viață**
 
-   * **Somn suficient** (7–8h/noapte) → în somn are loc regenerarea celulară majoră.
+ * **Somn suficient** (7–8h/noapte) → în somn are loc regenerarea celulară majoră.
 
-   * **Mișcare moderată** → stimulează producția de celule stem și oxigenarea țesuturilor.
+ * **Mișcare moderată** → stimulează producția de celule stem și oxigenarea țesuturilor.
 
-   * **Gestionarea stresului** → cortizolul crescut dăunează diviziunii celulare.
+ * **Gestionarea stresului** → cortizolul crescut dăunează diviziunii celulare.
 
 4. **Evitarea supraproducției anormale**
 
-   * Unele boli (ex. leucemii, policitemie) apar din mutații genetice; nu le putem preveni complet, dar menținerea unui **sistem imunitar echilibrat** și controale regulate pot ajuta la depistarea timpurie.
+ * Unele boli (ex. leucemii, policitemie) apar din mutații genetice; nu le putem preveni complet, dar menținerea unui **sistem imunitar echilibrat** și controale regulate pot ajuta la depistarea timpurie.
 
 5. **Suplimente/alimente cu rol regenerativ** (din studii)
 
-   * **Resveratrol (struguri negri, afine)** → activează gene asociate cu longevitatea celulară.
+ * **Resveratrol (struguri negri, afine)** → activează gene asociate cu longevitatea celulară.
 
-   * **Curcumin (turmeric)** → reduce inflamația și protejează celulele.
+ * **Curcumin (turmeric)** → reduce inflamația și protejează celulele.
 
-   * **Omega 3** → membranele celulare devin mai rezistente.
+ * **Omega 3** → membranele celulare devin mai rezistente.
 
-   * **Chlorophyll & legume verzi** → suport pentru producția de sânge sănătos.
+ * **Chlorophyll & legume verzi** → suport pentru producția de sânge sănătos.

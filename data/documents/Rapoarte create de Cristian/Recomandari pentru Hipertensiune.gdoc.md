@@ -14,13 +14,13 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-***Recomandări  pentru hipertensiunea arterială***
+***Recomandări pentru hipertensiunea arterială***
 
 **Tinctură de obligeană**: 1 lingurită dimineaţa pe stomacul gol
 
 **Suc de rădăcinoase**: de este posibil, ar fi foarte util ca în fiecare dimineaţă, persoana ce suferă de hipertensiune, să consume o cană de suc de morcovi(70%), rădăcină de ţelină(10%) şi păstârnac(20%), pe stomacul gol.
 
-**Recomandate**: polen, soia, usturoi, cartofi, morcovi, vit A, vit E, vit C,  lămâi, măsline nesărate, muştar, banane.
+**Recomandate**: polen, soia, usturoi, cartofi, morcovi, vit A, vit E, vit C, lămâi, măsline nesărate, muştar, banane.
 
 ***Vin medicinal ce vindecă bolile de inimă:***
 
@@ -28,9 +28,9 @@ Se lasă la macerat, timp de 10 zile, 100 gr. praz tocat mărunt într-un litru 
 
 **O reţetă pentru vindecarea hipertensiunii:**
 
-Se face un amestec din: 2 cesti apă, 16 căţei de usturoi tăiaţi mărunt, 2 linguri de oţet de mere şi 3 linguri de miere. Se fierbe totul la foc mic, 1/2 ora.  Se iau câte 3 linguri , de 3 ori pe zi, înainte de masă.
+Se face un amestec din: 2 cesti apă, 16 căţei de usturoi tăiaţi mărunt, 2 linguri de oţet de mere şi 3 linguri de miere. Se fierbe totul la foc mic, 1/2 ora. Se iau câte 3 linguri , de 3 ori pe zi, înainte de masă.
 
-**De evitat**:  **piperul, cafeaua, ceaiul verde, ceaiul negru, sarea in exces**
+**De evitat**: **piperul, cafeaua, ceaiul verde, ceaiul negru, sarea in exces**
 
 ## **Taridal**
 
@@ -38,15 +38,15 @@ Se face un amestec din: 2 cesti apă, 16 căţei de usturoi tăiaţi mărunt, 2 
 
  \- Talpa-gâştii – 41g
 
-	 – rădăcină de Ghinţură – 13 g
+ – rădăcină de Ghinţură – 13 g
 
-	 – rădăcină de Angelică – 9g
+ – rădăcină de Angelică – 9g
 
-	 – flori de Coada – şoricelului – 18g
+ – flori de Coada – şoricelului – 18g
 
-	 – Valeriană – 18g
+ – Valeriană – 18g
 
-	 – alcool 75o  – 500ml
+ – alcool 75o – 500ml
 
 **Mod de preparare:**
 
@@ -62,7 +62,7 @@ tulburări neuro-vegetative, hipertensiune cu substrat nervos, astenie nervoasă
 
 **Administrare:**
 
-adulţi: 0,5 – 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră şi înainte de culcare.  
+adulţi: 0,5 – 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră şi înainte de culcare.
 copii: 5 – 20 picături x 2 ori / zi. Nu se administrează copiilor cu vârsta mai mică de 3 ani.
 
-  După 14 zile de tratament se face pauză de 14 zile, după care se poate relua.
+ După 14 zile de tratament se face pauză de 14 zile, după care se poate relua.

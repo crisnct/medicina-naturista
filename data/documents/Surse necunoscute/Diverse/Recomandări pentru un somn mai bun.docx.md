@@ -88,4 +88,4 @@ Atenție:
 
 - Ceai din petale de mac de câmp.
 
-- Încearcă să urmezi dieta de la sfârșitul acestui document. Cu siguranță te va ajuta să dormi mai repede și îți va crește calitatea somnului https://drive.google.com/file/d/1cS8QLskhulciTKZ3JBkK_EFeiMLnlemE/view?fbclid=IwAR3GFdc26DlHcAw8YoxWcMstpc3PuOhWPq5aqKHip8Y_q0Nn9pGi6GUHd8c
+- Încearcă să urmezi dieta de la sfârșitul acestui document. Cu siguranță te va ajuta să dormi mai repede și îți va crește calitatea somnului

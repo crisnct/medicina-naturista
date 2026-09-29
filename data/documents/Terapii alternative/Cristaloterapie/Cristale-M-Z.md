@@ -1,4 +1,4 @@
-### ![](media/image1.png){width="2.359722222222222in" height="1.8694444444444445in"}Malahit
+### !{width="2.359722222222222in" height="1.8694444444444445in"}Malahit
 
 **Culori:** nuanțe de verde închis**\
 Duritate**: 3,5 - 4 (din 10)**\
@@ -8,63 +8,63 @@ Istorie: î**n Grecia antică, malahitul era talisman pentru copii. În Evul Med
 
 **Pe plan fizic**
 
--   este deosebit de utilă în calmarea crampelor.
+- este deosebit de utilă în calmarea crampelor.
 
--   ușurează nașterea -- piatra mai este numită și piatra înțeleaptă-femeie.
+- ușurează nașterea -- piatra mai este numită și piatra înțeleaptă-femeie.
 
--   scade presiunea sângelui.
+- scade presiunea sângelui.
 
--   tratează astmul, artrita, crizele de epilepsie, fracturile, articulațiile umflate, tumorile, răul de mașină, amețeala, nervul optic, pancreasul, splina și paratiroida.
+- tratează astmul, artrita, crizele de epilepsie, fracturile, articulațiile umflate, tumorile, răul de mașină, amețeala, nervul optic, pancreasul, splina și paratiroida.
 
--   armonizează ADN-ul și structura celulară.
+- armonizează ADN-ul și structura celulară.
 
--   fortifică sistemul imunitar.
+- fortifică sistemul imunitar.
 
--   stimuleaza ficatul pentru a elimina toxinele, diminueaza aciditatea țesuturilor.
+- stimuleaza ficatul pentru a elimina toxinele, diminueaza aciditatea țesuturilor.
 
--   purtat în jurul taliei, tratează diabetul.
+- purtat în jurul taliei, tratează diabetul.
 
--   facilitează somnul.
+- facilitează somnul.
 
--   protejează împotriva radiațiilor.
+- protejează împotriva radiațiilor.
 
--   mărește lactația.
+- mărește lactația.
 
--   îmbunătățește vederea.
+- îmbunătățește vederea.
 
--   ajută la eliminarea bacteriilor, a inflamațiile din corp și a pietrelor de la rinichi.
+- ajută la eliminarea bacteriilor, a inflamațiile din corp și a pietrelor de la rinichi.
 
 **Pe plan esoteric**
 
--   asigură succesul în afaceri și ține departe de tine pe oamenii negativi care vor să-ți facă rău.
+- asigură succesul în afaceri și ține departe de tine pe oamenii negativi care vor să-ți facă rău.
 
--   îi [ajuta](javascript:void(0)) pe cei care fug de schimbare să accepte modificările necesare în [viata](javascript:void(0)) lor.
+- îi [ajuta](javascript:void(0)) pe cei care fug de schimbare să accepte modificările necesare în [viata](javascript:void(0)) lor.
 
--   protejeaza împotriva pericolului, căzăturilor, deochiului, magiei negre, blestemelor, gândurilor negative, atacurilor psihice.
+- protejeaza împotriva pericolului, căzăturilor, deochiului, magiei negre, blestemelor, gândurilor negative, atacurilor psihice.
 
--   absoarbe negativitatea din jur, de aceea piatra trebuie purificată foarte des, zilnic dacă este posibil! Se spune că se sparge în două atunci când anunță un pericol iminent.
+- absoarbe negativitatea din jur, de aceea piatra trebuie purificată foarte des, zilnic dacă este posibil! Se spune că se sparge în două atunci când anunță un pericol iminent.
 
--   readuce la lumină sentimente reprimate, ducând la eliberarea de aceste poveri psihice.
+- readuce la lumină sentimente reprimate, ducând la eliberarea de aceste poveri psihice.
 
--   ajută la dobândirea succesului financiar.
+- ajută la dobândirea succesului financiar.
 
--   conferă fidelitate în plan sentimental, echilibru, buna dispoziție, armonie, progres și schimbări favorabile.
+- conferă fidelitate în plan sentimental, echilibru, buna dispoziție, armonie, progres și schimbări favorabile.
 
--   mărește concentrarea, intuiția, spiritul practic, simtul răspunderii.
+- mărește concentrarea, intuiția, spiritul practic, simtul răspunderii.
 
--   scade neîncrederea și nesiguranța.
+- scade neîncrederea și nesiguranța.
 
--   sprijin în găsirea răspunsurilor, găsirea căii spre atingerea țelurilor, înțelegerea experiențelor negative din trecut, renunțarea la obiceiuri nedorite (fumat, băut), în eliberarea de emoții negative.
+- sprijin în găsirea răspunsurilor, găsirea căii spre atingerea țelurilor, înțelegerea experiențelor negative din trecut, renunțarea la obiceiuri nedorite (fumat, băut), în eliberarea de emoții negative.
 
--   deschide calea spre realizarea proprilor țeluri, păstreaza spiritul și aparența tinere
+- deschide calea spre realizarea proprilor țeluri, păstreaza spiritul și aparența tinere
 
--   își poate aminti evenimente blocate din trecut, evenimente negative care i-au frânat evoluția, dacă persoana plasează un malahit pe plexul solar, un jad pe centrul inimii și un cuarț cu două vârfuri între ele. Experiența ar putea genera retrăiri dureroase, dar eliberatoare.
+- își poate aminti evenimente blocate din trecut, evenimente negative care i-au frânat evoluția, dacă persoana plasează un malahit pe plexul solar, un jad pe centrul inimii și un cuarț cu două vârfuri între ele. Experiența ar putea genera retrăiri dureroase, dar eliberatoare.
 
 ### Cum se folosește?
 
 Bijuteriile cu malahit se poartă pe mâna stangă. Piatra pură, neprelucrată de malahit se poate pune pe al treilea ochi. Pentru a absorbi emoțiile negative, trebuie plasată pe plexul solar.
 
-![](media/image2.png){width="1.9618055555555556in" height="2.626388888888889in"}
+!{width="1.9618055555555556in" height="2.626388888888889in"}
 
 ### Moldavit
 
@@ -81,44 +81,44 @@ Piatră recomandată pentru zodiile: Gemeni, Fecioara, Scorpion, Săgetator.
 
 **Pe plan fizic**
 
--   efecte benefice în retardare, autism, epilepsie.
+- efecte benefice în retardare, autism, epilepsie.
 
--   benefic în [constipație](javascript:void(0)), febra, astm.
+- benefic în [constipație](javascript:void(0)), febra, astm.
 
--   stimulează circulația sangvină.
+- stimulează circulația sangvină.
 
 **Pe plan esoteric**
 
--   deschide al treilea ochi, pentru a înțelege altfel lumea.
+- deschide al treilea ochi, pentru a înțelege altfel lumea.
 
--   este piatra banilor, a marilor transformări.
+- este piatra banilor, a marilor transformări.
 
--   stimulează schimbările, dezvoltarea și purificarea în [viața](javascript:void(0)) purtătorului.
+- stimulează schimbările, dezvoltarea și purificarea în [viața](javascript:void(0)) purtătorului.
 
--   stimulează generozitatea, claritatea mentală.
+- stimulează generozitatea, claritatea mentală.
 
--   mărește capacitățile extrasenzoriale și parapsihice, telepatia, clarviziunea.
+- mărește capacitățile extrasenzoriale și parapsihice, telepatia, clarviziunea.
 
--   ajută în meditație și rugșciune.
+- ajută în meditație și rugșciune.
 
--   te pune în armonie cu energiile astrale.
+- te pune în armonie cu energiile astrale.
 
--   te face să pari excentric
+- te face să pari excentric
 
--   [a](javascript:void(0))jută la iluminare și la înțelegerea adevărului, la evitarea locurilor sau situațiilor cu încărcătură negativă, la eliberarea balastului emoțional: obiceiuri proaste, idei fixe, obsesii.
+- [a](javascript:void(0))jută la iluminare și la înțelegerea adevărului, la evitarea locurilor sau situațiilor cu încărcătură negativă, la eliberarea balastului emoțional: obiceiuri proaste, idei fixe, obsesii.
 
--   ajută la adaptare socială.
+- ajută la adaptare socială.
 
 ***[MOOKAIT]{.underline}***
 
-![](media/image3.jpeg){width="1.8479166666666667in" height="1.5576388888888888in"}\
+!{width="1.8479166666666667in" height="1.5576388888888888in"}\
 \
 \
-**Mookaitul**(jaspul australian) stabileste un echilibru intre experientele interioare si cele exterioare. Induce dorinta de noi experiente, dar si abordarea calma a acestora. Incurajeaza versalitatea. Pune in evidenta toate posibilitatile si ajuta la alegerea celei mai bune. Piatra fizic stabilizanta, fortifica sistemul imunitar, vindeca ranile si purifica sangele.[*(citeste mai mult despre jasp)*](http://www.ecristale.ro/pages/veziarticol.php?art_code=2405461674a56f74ca431a8.42838669)
+**Mookaitul**(jaspul australian) stabileste un echilibru intre experientele interioare si cele exterioare. Induce dorinta de noi experiente, dar si abordarea calma a acestora. Incurajeaza versalitatea. Pune in evidenta toate posibilitatile si ajuta la alegerea celei mai bune. Piatra fizic stabilizanta, fortifica sistemul imunitar, vindeca ranile si purifica sangele.*(citeste mai mult despre jasp)*
 
 **MORGANIT \[Beril roz\]**
 
-![](media/image4.jpeg){width="1.15625in" height="0.8333333333333334in"}![](media/image5.jpeg){width="1.301388888888889in" height="1.0409722222222222in"}
+!{width="1.15625in" height="0.8333333333333334in"}!{width="1.301388888888889in" height="1.0409722222222222in"}
 
 **INFORMATII\
 Descriere:** varietate de beril, din aceeasi clasa cu acvamarinul si smaraldul, de culoare roz, una dintre cele mai frecvente varietati de beril. Uneori se gaseste in combinatie cu acvamarin.**\
@@ -158,7 +158,7 @@ SANATATE: Benefic pentru [inima](javascript:void(0)) , plamani, respiratie, gat,
 \
 ***CULOARE:*** verde, portocaliu, brun, albastru, albastru-verde, crem, mov-levantica, rosu, alb
 
-![](media/image6.jpeg){width="1.3125in" height="1.2708333333333333in"}
+!{width="1.3125in" height="1.2708333333333333in"}
 
 ***ASPECT:*** translucid (jadeit) sau cremos (nefrit), o textura sticloasa.\
 \
@@ -166,7 +166,7 @@ SANATATE: Benefic pentru [inima](javascript:void(0)) , plamani, respiratie, gat,
 In plan psihologic, nefritul stabilizeaza personalitatea si integreaza mintea in corp. Favorizeaza autosuficienta. In plan mental, alunga gandurile negative si calmeaza spiritul. Stimuleaza ideile si face sarcinile sa para mai putin complexe, favorizand dezvoltarea lor.\
 \"Piatra viselor\" in plan emotional. Plasat pe frunte, suscita vise intuitive. favorizeaza eliberarea emotionala, in special a iritabilitatii.\
 In paln spiritual, nefritul va incurajeaza sa fiti voi insiva, sa va simtiti si fiinte spirituale intr-un corp uman. Suscita trezirea cunoasterii ascunse.\
-In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si organele excretoare. este prin excelenta benefic rinchilor. Jadeitul si nefritul au aceleasi proprietati curative, dar jadul de diverse cuori are caracteristici specifice.[*(citeste mai mult despre jad)*](http://www.ecristale.ro/pages/veziarticol.php?art_code=1532666044a56e931f2e2b4.76920863)\
+In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si organele excretoare. este prin excelenta benefic rinchilor. Jadeitul si nefritul au aceleasi proprietati curative, dar jadul de diverse cuori are caracteristici specifice.*(citeste mai mult despre jad)*\
 \
 **EFECTE TAMADUITOARE.** Trateaza rinichii si glandele suprarenale, elimina toxinele, reface sistemul celular si scheletul, accelereaza cicatrizarea ranilor. Favorizeaza fertilitatea si usureaza nasterea. Actioneaza asupra splinei si a coapselor. Echilibreaza fluidele corporale si nivelurile apa-saruri/acid-alcalin.\
 \
@@ -176,7 +176,7 @@ In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si org
 \
 ***CULOARE:*** brun, negru, albastru, verde, curcubeu, rosu-negru, argintiu, auriu
 
-![](media/image7.jpeg){width="1.3125in" height="1.5625in"}![](media/image8.jpeg){width="1.0194444444444444in" height="0.8333333333333334in"}![](media/image9.jpeg){width="1.1145833333333333in" height="0.8333333333333334in"}![](media/image10.jpeg){width="1.125in" height="0.8333333333333334in"}![](media/image8.jpeg){width="1.0208333333333333in" height="0.8333333333333334in"}![](media/image11.jpeg){width="0.84375in" height="0.8333333333333334in"}
+!{width="1.3125in" height="1.5625in"}!{width="1.0194444444444444in" height="0.8333333333333334in"}!{width="1.1145833333333333in" height="0.8333333333333334in"}!{width="1.125in" height="0.8333333333333334in"}!{width="1.0208333333333333in" height="0.8333333333333334in"}!{width="0.84375in" height="0.8333333333333334in"}
 
 ***ASPECT:*** lucios, opac, vitros\
 \
@@ -249,7 +249,7 @@ Mareste sexualitatea
 
 ***[OCHI DE PISICA]{.underline}***
 
-![](media/image12.jpeg){width="1.5833333333333333in" height="1.5625in"} ![](media/image13.jpeg){width="1.1041666666666667in" height="0.8333333333333334in"} ![](media/image14.jpeg){width="1.2604166666666667in" height="0.8333333333333334in"} ![](media/image15.jpeg){width="1.0416666666666667in" height="2.0833333333333335in"}\
+!{width="1.5833333333333333in" height="1.5625in"} !{width="1.1041666666666667in" height="0.8333333333333334in"} !{width="1.2604166666666667in" height="0.8333333333333334in"} !{width="1.0416666666666667in" height="2.0833333333333335in"}\
 \
 \
 **Ochiul de pisica** are proprietati magice. Piatra consolidanta, incurajeaza in acelasi timp intuitia. Alunga energia negativa a aurei, protejeaza, aduce incredere, bucurie, serenitate si noroc. Trateaza afectiunile oculare si imbunatateste vederea nocturna. Vindeca durerea de cap si de fata. Purtati-l pe partea dreapta a corpului.
@@ -261,7 +261,7 @@ Descriere:** Exista mai multe pietre cu acest nume, dar cea mai cunoscuta este o
 Compozitia chimica:** SiO2 (cuart)**\
 Duritate**: 7 (din 10)**\
 Luciu**: sticlos, sidefat**\
-Culori**: maro-roscat cu dungi sidefate (asemanator ochiului de tigru). Culoarea este obtinuta prin [tratament](javascript:void(0)) termic asupra Ochiului e tigru. [**Vreau sa cumpar acest produs**](http://www.kristale.ro/ochipisica.htm)
+Culori**: maro-roscat cu dungi sidefate (asemanator ochiului de tigru). Culoarea este obtinuta prin [tratament](javascript:void(0)) termic asupra Ochiului e tigru. **Vreau sa cumpar acest produs**
 
 **Piatra recomandata pentru:\
 ZODIILE:** Gemeni, Rac, Leu, Fecioara, Capricorn**\
@@ -293,9 +293,9 @@ Pune in legatura cu vietile anterioare\
 ***[OCHI DE TIGRU]{.underline}***\
 \
 ***CULOARE:*** galben-maroniu, roz, albastru, rosu\
-![](media/image16.jpeg){width="1.6666666666666667in" height="1.4791666666666667in"} ![](media/image17.jpeg){width="1.0416666666666667in" height="2.0833333333333335in"}
+!{width="1.6666666666666667in" height="1.4791666666666667in"} !{width="1.0416666666666667in" height="2.0833333333333335in"}
 
-![](media/image18.jpeg){width="0.9895833333333334in" height="0.8333333333333334in"}![](media/image19.jpeg){width="1.0833333333333333in" height="0.8333333333333334in"}![](media/image20.jpeg){width="1.2291666666666667in" height="0.8333333333333334in"}![](media/image21.jpeg){width="0.5833333333333334in" height="0.8333333333333334in"}![](media/image22.jpeg){width="1.1770833333333333in" height="0.8333333333333334in"}![](media/image23.jpeg){width="0.8541666666666666in" height="0.8333333333333334in"}
+!{width="0.9895833333333334in" height="0.8333333333333334in"}!{width="1.0833333333333333in" height="0.8333333333333334in"}!{width="1.2291666666666667in" height="0.8333333333333334in"}!{width="0.5833333333333334in" height="0.8333333333333334in"}!{width="1.1770833333333333in" height="0.8333333333333334in"}!{width="0.8541666666666666in" height="0.8333333333333334in"}
 
 ***ASPECT:*** cu benzi, usor stralucitor, adesea mic si rulat\
 \
@@ -361,7 +361,7 @@ Ajuta la adoptarea unui regim de viata si de alimentatie sanatos](javascript:voi
 
 ***OCHI DE SOIM***
 
-![](media/image24.jpeg){width="1.0416666666666667in" height="1.4583333333333333in"} ![](media/image25.jpeg){width="0.8645833333333334in" height="0.8333333333333334in"}\
+!{width="1.0416666666666667in" height="1.4583333333333333in"} !{width="0.8645833333333334in" height="0.8333333333333334in"}\
 Varietate de ochi de tigru cu benzi, ochiul de soim este o piatra excelenta pentru vindecarea energiei terestre si ancorarea sa. Stimuleaza si reviforeaza corpul fizic. Ridicandu-se deasupra lumii, ochiul de soim dezvolta intuitia si introspectia si imbunatateste abilitatile psihice precum clarviziunea. Purifica si incarca cu energie chakra radacina. Plasat in coltul bogatiei intr-o incapere, atrage abundenta. Foarte bun pentru a elimina tiparele de gandire restrictive si negative, precum si comportamentul incorigibil. Pune problemele in perspectiva, atenueaza pesimismul si dorinta de a-i invinovati pe altii pentru propriile probleme. Plasat pe al treilea ochi, ochiul de soim favorizeaza intoarcerea la sursa unui blocaj emotional, oricare ar fi acesta.\
          Imbunatateste circulatia sangvina, trateaza intestinele si picioarele, pune in evidenta cauzele psihosomatice ale intepenirii umarului sau gatului.
 
@@ -396,7 +396,7 @@ Bun pentru meditatie si rugaciune
 \
 ***CULOARE:*** negru, gri, alb, albastru, brun, galben, rosu
 
-![](media/image26.jpeg){width="1.5729166666666667in" height="1.5625in"} ![](media/image27.jpeg){width="2.0833333333333335in" height="1.65625in"} ![](media/image11.jpeg){width="0.84375in" height="0.8333333333333334in"} ![](media/image28.jpeg){width="1.2708333333333333in" height="0.8333333333333334in"}
+!{width="1.5729166666666667in" height="1.5625in"} !{width="2.0833333333333335in" height="1.65625in"} !{width="0.84375in" height="0.8333333333333334in"} !{width="1.2708333333333333in" height="0.8333333333333334in"}
 
 ***ASPECT:*** cu benzi, marmorat, adesea slefuit\
 \
@@ -418,12 +418,12 @@ Compozitia chimica:** Oxid de Siliciu (cuart)**\
 Duritate**: 7 (din 10)**\
 Luciu**: sticlos**\
 Numele**: provine din grecescul \"onux\" = unghie**\
-Culori:** alb, gri, maroniu, negru, gri, maro-roscat, rosu-alb **Puteti cumpara cristal de ONIX NEGRU in [WWW.KRISTALE.RO](http://WWW.KRISTALE.RO/)**
+Culori:** alb, gri, maroniu, negru, gri, maro-roscat, rosu-alb **Puteti cumpara cristal de ONIX NEGRU in WWW.KRISTALE.RO**
 
-![](media/image29.jpeg){width="1.0416666666666667in" height="2.0833333333333335in"}**\
+!{width="1.0416666666666667in" height="2.0833333333333335in"}**\
 **
 
-[**Vreau sa cumpar acest produs**](http://www.kristale.ro/onix.htm)
+**Vreau sa cumpar acest produs**
 
 **Piatra recomandata pentru:\
 ZODIILE:** Berbec, Rac, Leu, Fecioara, Balanta, Sagetator, Capricorn**\
@@ -457,7 +457,7 @@ Echilibreaza emotional, controleaza emotiile extreme\
 ***CULOARE:*** alb, roz, negru, bej, albastru, galben, brun, portocaliu, rosu, verde, purpuriu\
 ***ASPECT:*** transparent sau laptos, iriziat si rosiatic sau vitros, fara stralucire\
 \
-![](media/image30.jpeg){width="1.53125in" height="1.3020833333333333in"} ![](media/image31.jpeg){width="1.0013888888888889in" height="1.3888888888888888in"}**\
+!{width="1.53125in" height="1.3020833333333333in"} !{width="1.0013888888888889in" height="1.3888888888888888in"}**\
 MEDALION OPAL ROZ**\
 \
 **CARACTERISTICI.** Piatra delicata, dotata cu o vibratie subtila, intensifica constiinta cosmica si induce viziuni psihice si mistice. Stimuland originalitatea si creativitatea dinamica, pune individul in contact cu veritabilul sau eu care poate fi exprimat. Absorbant si reflectant, intelege gandurile si sentimentele, le amplifica si le retrimite la sursa. Piatra karmica, invata ca ceea ce respingem se va intoarce. Bine programata, va permite sa treceti neobservat. Poate fi utilizat cand va aventurati in locuri periculoase, dar si in ritualurile samanice secrete.\
@@ -480,7 +480,7 @@ MEDALION OPAL ROZ**\
 
 **OPAL**
 
-![](media/image32.jpeg){width="1.1770833333333333in" height="0.8333333333333334in"}![](media/image33.jpeg){width="1.2916666666666667in" height="0.8333333333333334in"}![](media/image34.jpeg){width="1.2708333333333333in" height="0.8333333333333334in"}![](media/image35.jpeg){width="1.3333333333333333in" height="0.8333333333333334in"}![](media/image36.jpeg){width="1.5625in" height="1.0416666666666667in"}
+!{width="1.1770833333333333in" height="0.8333333333333334in"}!{width="1.2916666666666667in" height="0.8333333333333334in"}!{width="1.2708333333333333in" height="0.8333333333333334in"}!{width="1.3333333333333333in" height="0.8333333333333334in"}!{width="1.5625in" height="1.0416666666666667in"}
 
 **INFORMATII\
 Descriere:** Piatra semipretioasa cu luciu sticlos incolora sau variat colorata, transparenta sau opalescenta. Varietate de  bioxid [natural](javascript:void(0))
@@ -492,7 +492,7 @@ Culori: variate -** contine toate culorile curcubeului, alb, albastriu, galben, 
 Avertisment:** Foarte fragil: a se evita purificarea in apa salina, expunere la soare, caldura. Opalul se zgarie foarte usor, nu trebuie tinut alaturi de pietre mai dure\
 **Compozitie chimica:** SiO2 . H20**\
 Duritate:** 5,5 - 6,5 (din 10) **\
-Luciu:** sticlos, perlat **Puteti cumpara cristal de OPAL in [WWW.KRISTALE.RO](http://WWW.KRISTALE.RO/)**
+Luciu:** sticlos, perlat **Puteti cumpara cristal de OPAL in WWW.KRISTALE.RO**
 
 **opal negru, opal cameleon, opal de apa, opal comun, opal de ceara, opal muschiform, opal dendritic, opal de miere, opal lemnos, opal laptos, cristal de opal** (incolor transparent)**\
 opal de foc** (rosu-portocaliu transparent)**\
@@ -534,7 +534,7 @@ SANATATE: benefic pentru vaz, auz, dureri de cap](javascript:void(0))
 \
 ***CULOARE:*** verde-masliniu, verde-galbui, galben-miere, rosu, maroniu
 
-![](media/image37.jpeg){width="1.5625in" height="1.4166666666666667in"}![](media/image38.jpeg){width="0.9895833333333334in" height="0.625in"}![](media/image39.jpeg){width="0.8756944444444444in" height="0.8638888888888889in"}\
+!{width="1.5625in" height="1.4166666666666667in"}!{width="0.9895833333333334in" height="0.625in"}!{width="0.8756944444444444in" height="0.8638888888888889in"}\
 ***ASPECT:*** opac; cristal transparent cand este fatetat si slefuit\
 \
 **CARACTERISTICI.** In trecut, peridotul era cunoscut pentru alungarea spiritelor rele. Este o piatra protectoare pentru aura.\
@@ -549,7 +549,7 @@ SANATATE: benefic pentru vaz, auz, dureri de cap](javascript:void(0))
 
 **PERIDOT / OLIVINA / CRISOLIT**
 
-![](media/image40.jpeg){width="1.6145833333333333in" height="1.0416666666666667in"}![](media/image41.jpeg){width="0.9166666666666666in" height="0.8333333333333334in"}![](media/image42.jpeg){width="1.6145833333333333in" height="1.2083333333333333in"}** ** ![](media/image43.jpeg){width="1.4270833333333333in" height="0.8333333333333334in"}![](media/image44.jpeg){width="0.9479166666666666in" height="0.8333333333333334in"}
+!{width="1.6145833333333333in" height="1.0416666666666667in"}!{width="0.9166666666666666in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.2083333333333333in"}** ** !{width="1.4270833333333333in" height="0.8333333333333334in"}!{width="0.9479166666666666in" height="0.8333333333333334in"}
 
 **INFORMATII\
 Culori:** verde-masliniu, galben-verzui, alb, incolor, alb, gri, brun, rosu, galben, verzui, verde, albastru. Cel inchis la culoare e considerat **peridot**, cel deschis la culoare e considerat **crisolit**. **\
@@ -586,7 +586,7 @@ Alunga gelozia, invidia, depresia, frica, furia, anxetatea, starea de confuzie, 
 
 [ ]{.underline}
 
-![](media/image45.jpeg){width="1.5604166666666666in" height="1.5583333333333333in"}**PIATRA LUNII**\
+!{width="1.5604166666666666in" height="1.5583333333333333in"}**PIATRA LUNII**\
 CULOARE: alb, crem, galben, albastru, verde.\
 ASPECT: lăptos, translucid.
 
@@ -599,47 +599,47 @@ CARACTERISTICI. Piatra a: norocului și a emoțiilor, piatră tipic feminină, p
 
 **Pe plan fizic**
 
--   calmează reacțiile excesive la situații și constrângeri emoționale.
+- calmează reacțiile excesive la situații și constrângeri emoționale.
 
--   atenuează instabilitatea emoțională și stresul, calmând emotiile.
+- atenuează instabilitatea emoțională și stresul, calmând emotiile.
 
--   îmbunătățește inteligența emotională
+- îmbunătățește inteligența emotională
 
--   asigură o profundă vindecare emoțională și tratează efecțiunile părții superioare a tractului digestiv cauzate de stres.
+- asigură o profundă vindecare emoțională și tratează efecțiunile părții superioare a tractului digestiv cauzate de stres.
 
--   influențează puternic ciclul reproductiv feminin, calmează răul și tensiunea legate de menstruație.
+- influențează puternic ciclul reproductiv feminin, calmează răul și tensiunea legate de menstruație.
 
--   fiind în conexiune cu epifiza, echilibrează secrețiile hormonale, echilibrează fluidele corporale și armonizează ceasul biologic.
+- fiind în conexiune cu epifiza, echilibrează secrețiile hormonale, echilibrează fluidele corporale și armonizează ceasul biologic.
 
--   utilă în caz de șoc emoțional.
+- utilă în caz de șoc emoțional.
 
--   calmeaza copiii hiperactivi.
+- calmeaza copiii hiperactivi.
 
--   facilitează asimilarea substanțelor nutritive.
+- facilitează asimilarea substanțelor nutritive.
 
--   ajută la eliminarea toxinelor.
+- ajută la eliminarea toxinelor.
 
--   împiedică retenția lichidelor.
+- împiedică retenția lichidelor.
 
--   ameliorează afecțiunile degenerative ale pielii, părului, ochilor, ficatului și pancreasului.
+- ameliorează afecțiunile degenerative ale pielii, părului, ochilor, ficatului și pancreasului.
 
--   ajută sistemul digestiv si reproducător.
+- ajută sistemul digestiv si reproducător.
 
 **Pe plan esoteric**
 
--   face posibilă trecerea inconștientului în conștient.
+- face posibilă trecerea inconștientului în conștient.
 
--   favorizează intuiția și empatia.
+- favorizează intuiția și empatia.
 
--   încurajează visul lucid, mai ales când este Lună plină.
+- încurajează visul lucid, mai ales când este Lună plină.
 
--   ajută la dezvoltarea clarviziunii.
+- ajută la dezvoltarea clarviziunii.
 
--   încurajează acceptarea propriilor calități psihice.
+- încurajează acceptarea propriilor calități psihice.
 
--   este antidotul perfect pentru bărbații prea macho sau femeile prea agresive.
+- este antidotul perfect pentru bărbații prea macho sau femeile prea agresive.
 
--   ajută bărbații să înțeleagă mai bine femeile, la rezolvarea disputelor și a problemelor în cuplu, la deschiderea spirituală, la luarea de decizii.
+- ajută bărbații să înțeleagă mai bine femeile, la rezolvarea disputelor și a problemelor în cuplu, la deschiderea spirituală, la luarea de decizii.
 
 Atenție!!! Femeiile nu trebuie să o folosească atunci când este lună plină.
 
@@ -647,7 +647,7 @@ Piatră recomandată pentru zodiile: Rac, Balanță, Scorpion, Săgetator, Peșt
 
 **PERLA \[Margaritar\]**
 
-![](media/image47.jpeg){width="0.9777777777777777in" height="0.8333333333333334in"}
+!{width="0.9777777777777777in" height="0.8333333333333334in"}
 
 **Descriere:** creste in scoici.  Este de natura organica la fel ca jaisul, chihlimbarul si coralul.**\
 Culori:** alb, maro, negru, roz, sidefat.**\
@@ -688,7 +688,7 @@ Are efect maxim daca este purtata fara alte cristale\
 
 **PIATRA SANGELUI \[Sinonime: Heliotrop, Matostat, Jasp de sange\]**
 
-![](media/image48.jpeg){width="1.1770833333333333in" height="0.8333333333333334in"}![](media/image49.jpeg){width="0.7222222222222222in" height="1.0694444444444444in"}
+!{width="1.1770833333333333in" height="0.8333333333333334in"}!{width="0.7222222222222222in" height="1.0694444444444444in"}
 
 **INFORMATII\
 Descriere:** varietate de jasp de culoare verde. Candva purta numele de hematit (acum hematitul este o cu totul alta piatra).**\
@@ -731,7 +731,7 @@ Se spune ca protejeaza de muscaturile se sarpe si scorpion.](javascript:void(0))
 \
 ***CULOARE:*** galben, portacaliu, rosu-brun
 
-![](media/image50.jpeg){width="1.5625in" height="1.3229166666666667in"}![](media/image51.jpeg){width="0.84375in" height="0.8333333333333334in"}![](media/image52.jpeg){width="1.15625in" height="0.8333333333333334in"}![](media/image53.jpeg){width="0.6in" height="0.9861111111111112in"}
+!{width="1.5625in" height="1.3229166666666667in"}!{width="0.84375in" height="0.8333333333333334in"}!{width="1.15625in" height="0.8333333333333334in"}!{width="0.6in" height="0.9861111111111112in"}
 
 ***ASPECT:*** cristal transparent sau opac, cu reflexii iridiscente\
 \
@@ -780,11 +780,11 @@ Recomandabil a se purta in urma marilor socuri ale sortii](javascript:void(0))\
 ***[PIRITA]{.underline}***\
 \
 **CULOARE:** auriu sau maroniu\
-![](media/image54.jpeg){width="1.5in" height="1.375in"} ![](media/image55.jpeg){width="1.2916666666666667in" height="0.8333333333333334in"} ![](media/image56.jpeg){width="0.8423611111111111in" height="0.8333333333333334in"}
+!{width="1.5in" height="1.375in"} !{width="1.2916666666666667in" height="0.8333333333333334in"} !{width="0.8423611111111111in" height="0.8333333333333334in"}
 
 ***ASPECT:*** metalic, uneori cubic\
 \
-**CARACTERISTICI.** Scut energetic excelent, pirita tine la distanta energia negativa si poluantii, inclusiv bolile infectioase. Purtata la gat ([*pandantiv*](http://www.ecristale.ro/pages/list_categorie.php?categorie=Pandantive) sau [*colier*](http://www.ecristale.ro/pages/list_categorie.php?categorie=Coliere)) protejeaza corpurile subtile si pe cel fizic, indepartand raul si periciolul.\
+**CARACTERISTICI.** Scut energetic excelent, pirita tine la distanta energia negativa si poluantii, inclusiv bolile infectioase. Purtata la gat (*pandantiv* sau *colier*) protejeaza corpurile subtile si pe cel fizic, indepartand raul si periciolul.\
          Piatra foarte pozitiva, invinge inertia si sentimentul de inadecvare. Stimuleaza ideile, pune in evidenta abilitatile si potentialul. Un cristal de pirita pus pe birou incarca cu energie camera.\
          Utila in momentul stabilirii liniilor directoare in afaceri. Va invata sa vedeti dincolo de aparente si promoveaza diplomatia.\
          In plan psihologic, pirita trateaza anxietatea si frustarea, favorizeaza constientizarea propriilor valori si a increderii in sine. Barbatilor care sufera de complex de inferioaritate le creste increderea in ei si in virilitatea lor. Prea puternica insa pentru \"machos\", care risca sa devina agresivi. Ajuta femeile sa-si invinga complexele de servitudine si inferioritate.\
@@ -792,7 +792,7 @@ Recomandabil a se purta in urma marilor socuri ale sortii](javascript:void(0))\
          In plan emotional, atenueaza melancolia si disperarea. Fizic, pirita de fier energizeaza si inlatura oboseala. Blocheaza pierderile energetice ale corpului si aurei. Creste gradul de oxigenare a sangelui si fortifica sistemul circulator. Promoveaza idealul de sanatate si stare de bine. Vindeca rapid, dezvaluind cauzele starii de rau. Utila in special pentru a invinge sursele raului karmic si psihosomatic.\
 **EFECTE TAMADUITOARE.** Trateaza oasele si stimuleaza formarea celulelor, repara ADN-ul deterioarat, aliniaza meridianele si calmeaza somnul perturbat de afectiuni. Fortifica tractul digestiv, neutralizeaza toxinele ingerate, benefica pentru sistemul circulator, creste gradul de oxigenare a sangelui. Utila pentru plamani, calmeaza crizele de astm si bronsita.\
 \
-**POZITIONARE.** Purtati-o la gat ([*pandantiv*](http://www.ecristale.ro/pages/list_categorie.php?categorie=Pandantive) sau [*colier*](http://www.ecristale.ro/pages/list_categorie.php?categorie=Coliere)), intr-un saculet sau puneti-o sub perna.
+**POZITIONARE.** Purtati-o la gat (*pandantiv* sau *colier*), intr-un saculet sau puneti-o sub perna.
 
 **PIRITA \[Aur fals, marcazit\]**
 
@@ -827,18 +827,18 @@ Piatra a prosperitatii\
 ***[PREHNIT]{.underline}***\
 \
 ***CULOARE:*** verde, galben, alb, brun\
-**[ASPECT:]{.underline}** umflaturi pe matrice, cristale mici si medii ![](media/image57.jpeg){width="1.9583333333333333in" height="1.375in"}\
+**[ASPECT:]{.underline}** umflaturi pe matrice, cristale mici si medii !{width="1.9583333333333333in" height="1.375in"}\
 \
 **CARACTERISTICI.** Piatra serena a iubirii neconditionate, tamaduieste tamaduitorul. Intensifica procesul de vizualizare si induce o meditatie profunda in timpul careia se atinge eul superior. Meditand asupra acestui cristal, intram in contact cu reteaua energetica a universului. Prehinitul dezvolta precognitia si introspectia. Va ajuta sa fiti intotdeauna pregatiti pentru ceea ce urmeaza. Datorita calitatii sale de a pune in acord cu energiile divine, prehnitul valorizeaza harul profetiei si arata calea catre evolutia spirituala.\
          Acest cristal inchide campul auric intr-un scut proterctor de energie divina. Util pentru a forma retele datorita capacitatii sale de a calma mediul inconjurator si a oferi pace si protectie. Perfect pentru a fi pus in gradina. Ajuta la transformarea casei intr-un sanctuar vindecator. Va invata cum sa intrati in armonie cu natura si cu fortele elementare, revitalizand si reannoind ceea ce va inconjoara.\
-         O buna piatra [***Feng Shui***](http://www.fengshui4life.ro/), prehnitul contribuie la \"eliminarea harababurii\", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers si sifletul se crede iar in manifestarea divina.\
+         O buna piatra ***Feng Shui***, prehnitul contribuie la \"eliminarea harababurii\", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers si sifletul se crede iar in manifestarea divina.\
          In plan psihologic, prehnitul inlatura cosmarurile, fobiile si fricile profunde, identificand si vindecand raul care le provoaca. Benefic copiilor hiperactivi si cauzelor karmice ascunse.\
 **EFECTE TAMADUITOARE.** Util in diagnosticare. Trateaza rinichii, vezica urinara, timusl, umerii, pieptul si plamanii. Vindeca guta si tulburarile hematologice, reface tesutul conjunctiv si stabilizeaza malignitatea.\
 **POZITIONARE.** Plasati-l sau tineti-l unde este nevoie. Pentru profetie, vizualizare si ghidare, plasati cristalul pe al treilea ochi.
 
 **RODOCROZIT**
 
-![](media/image58.jpeg){width="1.25in" height="0.9583333333333334in"}![](media/image59.jpeg){width="1.21875in" height="0.8333333333333334in"}![](media/image60.jpeg){width="0.9270833333333334in" height="0.8333333333333334in"}![](media/image61.jpeg){width="1.5625in" height="1.1041666666666667in"}![](media/image62.jpeg){width="1.5625in" height="1.09375in"}![](media/image63.jpeg){width="1.2173611111111111in" height="0.8333333333333334in"}
+!{width="1.25in" height="0.9583333333333334in"}!{width="1.21875in" height="0.8333333333333334in"}!{width="0.9270833333333334in" height="0.8333333333333334in"}!{width="1.5625in" height="1.1041666666666667in"}!{width="1.5625in" height="1.09375in"}!{width="1.2173611111111111in" height="0.8333333333333334in"}
 
 **INFORMATII\
 Culori:** roz pal, rosu-orange, rosu intens, galbui, gri, brun, cu dungi albe. **\
@@ -873,11 +873,11 @@ Puternic rol protector:** impotriva rautatii, pericolelor si gandurilor negative
 \
 ***CULAORE:*** roz sau rosu
 
-![](media/image64.jpeg){width="1.5625in" height="1.46875in"}![](media/image65.jpeg){width="1.1041666666666667in" height="0.8333333333333334in"}![](media/image66.jpeg){width="1.09375in" height="0.8333333333333334in"}![](media/image67.jpeg){width="0.8215277777777777in" height="0.8333333333333334in"}
+!{width="1.5625in" height="1.46875in"}!{width="1.1041666666666667in" height="0.8333333333333334in"}!{width="1.09375in" height="0.8333333333333334in"}!{width="0.8215277777777777in" height="0.8333333333333334in"}
 
 ***ASPECT:*** pestrit, uneori cu vinisoare negre, adesea mic si rulat\
 \
-**CARACTERISTICI.** Rodonitul echilibreaza emotional, sustinand dragostea si incurajand fraternitatea. Prezinta cele doua aspecte ale problemei. Stimuleaza, purifica si activeaza energiile [***yin si yang***](http://www.fengshui4life.ro/pages/veziarticol.php?art_code=208850537498718884eb833.78223832) ajuta individul sa ajunga la cel mai ridicat potential al sau. Cunoscut ca intensificator al meditatiei asupra mantrei, apropiind sufletul de vibratia spirituala.\
+**CARACTERISTICI.** Rodonitul echilibreaza emotional, sustinand dragostea si incurajand fraternitatea. Prezinta cele doua aspecte ale problemei. Stimuleaza, purifica si activeaza energiile ***yin si yang*** ajuta individul sa ajunga la cel mai ridicat potential al sau. Cunoscut ca intensificator al meditatiei asupra mantrei, apropiind sufletul de vibratia spirituala.\
         Piatra util pentru \"primul ajutor\", rodonitul trateaza socul emotional si panica, conferind sufletului o energie pozitiva in timpul acestui proces. Foarte benefic in cazurile de autodistrugere emotionala, de codependenta si anuz. Elimina ranilie si cicatricile emotionale din trecut - oricare ar fi - si aduce la suprafata pentru pentru transmutare emotiile dureroase, precum resentimentele si mania. Aceasta piatra rezoneaza puternic cu iertarea, sustinand reconcilierea dupa o durere sau un abuz indelungat. Poate fi folosit in vindecarea vietilor anterioare, in legatura cu tradarea si abandonul. Datorita capacitatii sale de a promova iubirea altruista de sine si iertarea, ajuta la recunoasterea propriilor defecte fara a-i acuza pe altii pe propriile greseli.\
         Rodonitul respinge insultele si previne represaliile, admitand ca razbunarea este autodistrugatoare si indemnand la calm in situatii periculoase si stresante. Echilibreaza si integreaza energiile fizice si mentale, crescand increderea si eliminand confuzia.\
 \
@@ -919,7 +919,7 @@ Este piatra dragostei, piatra a muzicienilor, dezvoltand talentele vocale\
 ***[RUBIN]{.underline}***\
 \
 ***CULOARE:*** rosu\
-***ASPECT:*** starlucitor, transparent daca este slefuit, opac in stare bruta; cristal mic fatetat ![](media/image68.jpeg){width="1.3854166666666667in" height="1.3229166666666667in"}![](media/image69.jpeg){width="1.0520833333333333in" height="0.8333333333333334in"}![](media/image70.jpeg){width="0.6145833333333334in" height="0.6236111111111111in"}
+***ASPECT:*** starlucitor, transparent daca este slefuit, opac in stare bruta; cristal mic fatetat !{width="1.3854166666666667in" height="1.3229166666666667in"}!{width="1.0520833333333333in" height="0.8333333333333334in"}!{width="0.6145833333333334in" height="0.6236111111111111in"}
 
 **CARACTERISTICI:** Excelenta piatra energetica. Confera vigoare, energizeaza si echilibreaza; stimuleaza uneori prea mult persoanele fragile sau iritabile. Promoveaza dragostea de viata, dar niciodata in mod distructiv. Mareste motivatia si permite fixarea unor obiective realiste.\
          Stimuleaza chakra inimii si echilibreaza inima. Incurajeaza \"urmarirea fericirii extreme\". Scut puternic impotriva atacului psihic si a vampirizarii energiei inimii. Induce vise pozitive, clarifica viziunile, stimuleaza glanda pineala. Piatra a abundentei, ajuta la pastrarea bogatiei si apasiunii.\
@@ -973,7 +973,7 @@ Amplifica si imbunatateste viata sexuala**\
 \
 ***CULOARE:*** albastru, galben, verde, negru, purpuriu
 
-![](media/image71.jpeg){width="1.2604166666666667in" height="0.8333333333333334in"}![](media/image72.jpeg){width="1.6145833333333333in" height="1.1458333333333333in"}![](media/image73.jpeg){width="1.1354166666666667in" height="0.8333333333333334in"}![](media/image74.jpeg){width="0.6458333333333334in" height="0.8333333333333334in"}![](media/image75.jpeg){width="1.1145833333333333in" height="0.8333333333333334in"}![](media/image76.jpeg){width="0.84375in" height="0.8333333333333334in"}![](media/image77.jpeg){width="1.5625in" height="1.0520833333333333in"}![](media/image78.jpeg){width="1.613888888888889in" height="1.229861111111111in"} ![](media/image79.jpeg){width="1.3541666666666667in" height="1.1979166666666667in"}
+!{width="1.2604166666666667in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.1458333333333333in"}!{width="1.1354166666666667in" height="0.8333333333333334in"}!{width="0.6458333333333334in" height="0.8333333333333334in"}!{width="1.1145833333333333in" height="0.8333333333333334in"}!{width="0.84375in" height="0.8333333333333334in"}!{width="1.5625in" height="1.0520833333333333in"}!{width="1.613888888888889in" height="1.229861111111111in"} !{width="1.3541666666666667in" height="1.1979166666666667in"}
 
 ***ASPECT:*** stralucitor, transparent cand este slefuit\
 \
@@ -982,7 +982,7 @@ Amplifica si imbunatateste viata sexuala**\
 \
 **EFECTE TAMDUITOARE.** Calmeaza sitemul corporal hiperactiv si regleaza glandele. Ingrijeste ochii, indepartand impuritatile si eliminand stresul. Trateaza tulburarile hematologice, opreste samgerarile abundente, fortifica venele si creste elasticitatea acestora.\
 \
-**POZITIONARE:** In contact cu corpul. Purtatil pe degent [*(inel)*](http://www.ecristale.ro/pages/list_categorie.php?categorie=Inele) sau plasati-l unde este nevoie.\
+**POZITIONARE:** In contact cu corpul. Purtatil pe degent *(inel)* sau plasati-l unde este nevoie.\
 \
 \
       **[CULORI SPECIFICE]{.underline}**\
@@ -1043,7 +1043,7 @@ Se spune ca protejeaza de orbire si surzenie\
 \
 ***CULOARE:*** negru, brun, rosu, transparent
 
-![](media/image80.jpeg){width="1.3541666666666667in" height="1.03125in"}![](media/image81.jpeg){width="1.0416666666666667in" height="1.0416666666666667in"}
+!{width="1.3541666666666667in" height="1.03125in"}!{width="1.0416666666666667in" height="1.0416666666666667in"}
 
 ***ASPECT:*** cu benzi, opac\
 \
@@ -1101,7 +1101,7 @@ Ajuta la acceptarea autoritatii, reducerea tendintelor beligerante\
 
 **SELENIT**
 
-![](media/image82.jpeg){width="0.8215277777777777in" height="0.8333333333333334in"}
+!{width="0.8215277777777777in" height="0.8333333333333334in"}
 
 **INFORMATII\
 Descriere:** cristal din aceeasi clasa cu alabastrul si gipsul.**\
@@ -1133,9 +1133,9 @@ Bun pentru gimnasti (confera [flexibilitate](javascript:void(0)))\
 
 Serpentine este de banded şi, de obicei de o culoare gri-verzui. Serpentine ajută să se diferenţieze şi să găsească pacea interioară. El este, de asemenea, o piatră excelent meditaţie. Aceasta Evens out modificări ale dispoziţiei, calmeaza si face (), uneori, un pic prea dispus să facă un compromis. Fizic, îi ajută cu rinichi şi de stomac plângeri, Herzrhythmusstoerungen, ameliorează disconfort menstrual şi-a antispastice. Serpentine este de a fi purtat direct pe piele.
 
-![](media/image83.png){width="1.3541666666666667in" height="1.0208333333333333in"}![](media/image84.png){width="2.3958333333333335in" height="1.7965277777777777in"}
+!{width="1.3541666666666667in" height="1.0208333333333333in"}!{width="2.3958333333333335in" height="1.7965277777777777in"}
 
-![](media/image85.jpeg){width="2.316666666666667in" height="1.6618055555555555in"}**SMARALD\
+!{width="2.316666666666667in" height="1.6618055555555555in"}**SMARALD\
 Culoare**: verde intens până la verde închis. Culoarea este dată de conținutul de crom și vanadiu.
 
 **Formula chimică**: Al~2~Be~3~Si~6~O~18~, cu ioni de Cr^3+^ și V.
@@ -1148,69 +1148,69 @@ Culoare**: verde intens până la verde închis. Culoarea este dată de conținu
 
 **Pe plan fizic**
 
--   conferă puterea de caracter ce permite depășirea suferințelor. Piatră a regenerării și restabilirii, capabilă să înlăture emoțiile negative.
+- conferă puterea de caracter ce permite depășirea suferințelor. Piatră a regenerării și restabilirii, capabilă să înlăture emoțiile negative.
 
--   întărește capacitatea de a vă bucura din plin de viață.
+- întărește capacitatea de a vă bucura din plin de viață.
 
--   util în cazul claustrofobiei.
+- util în cazul claustrofobiei.
 
--   conferă claritate mentală.
+- conferă claritate mentală.
 
--   mărește memoria și stimulează inteligența.
+- mărește memoria și stimulează inteligența.
 
--   îndeamnă spre cunoaștere interioară, lărgește viziunea.
+- îndeamnă spre cunoaștere interioară, lărgește viziunea.
 
--   favorizează discernământul, adevărul, exprimarea elocventă.
+- favorizează discernământul, adevărul, exprimarea elocventă.
 
--   piatră a înțelepciunii. Ne ajută să aducem la suprafață ceea ce știm în mod inconștient.
+- piatră a înțelepciunii. Ne ajută să aducem la suprafață ceea ce știm în mod inconștient.
 
--   extrem de benefic pentru înțelegerea mutuală într-un grup, stimulând cooperarea.
+- extrem de benefic pentru înțelegerea mutuală într-un grup, stimulând cooperarea.
 
--   accelerează recuperarea după o boală infecțioasă.
+- accelerează recuperarea după o boală infecțioasă.
 
--   efecte benefice asupra sistemului respirator, a inimii, nodurilor limfatice, a coloanei vertebrale, sângelui, ficatului, timusului, glicemiei, nașterii, vederii.
+- efecte benefice asupra sistemului respirator, a inimii, nodurilor limfatice, a coloanei vertebrale, sângelui, ficatului, timusului, glicemiei, nașterii, vederii.
 
--   este cea mai puternică piatră pentru vindecare.
+- este cea mai puternică piatră pentru vindecare.
 
--   tratează reumatismul și diabetul.
+- tratează reumatismul și diabetul.
 
--   antidot contra otrăvurilor.
+- antidot contra otrăvurilor.
 
--   favorizează vindecarea afecțiunilor maligne.
+- favorizează vindecarea afecțiunilor maligne.
 
 **Pe plan esoteric**
 
--   piatră de insipirație și răbdare infinită.
+- piatră de insipirație și răbdare infinită.
 
--   aduce fericire domestică și loialitate.
+- aduce fericire domestică și loialitate.
 
--   purtat la gât ([pandantiv](http://www.ecristale.ro/pages/list_categorie.php?categorie=Pandantive) sau [colier](http://www.ecristale.ro/pages/list_categorie.php?categorie=Coliere)), smaraldul era cunoscut pentru reprimarea crizelor de epilepsie.
+- purtat la gât (pandantiv sau colier), smaraldul era cunoscut pentru reprimarea crizelor de epilepsie.
 
--   consolidează unitatea, dragostea necondiționată și parteneriatul, favorizează prietenia, menține echilibrul în cadrul relațiilor.
+- consolidează unitatea, dragostea necondiționată și parteneriatul, favorizează prietenia, menține echilibrul în cadrul relațiilor.
 
--   deschide chakra inimii.
+- deschide chakra inimii.
 
--   are un efect calmant asupra emoțiilor.
+- are un efect calmant asupra emoțiilor.
 
--   dacă smaraldul își schimbă culoarea, se spune că indică infidelitatea.
+- dacă smaraldul își schimbă culoarea, se spune că indică infidelitatea.
 
--   dezvoltă abilități psihice precum clarviziunea.
+- dezvoltă abilități psihice precum clarviziunea.
 
--   ajută la incantațiile vrăjitorilor și la prezicerea viitorului.
+- ajută la incantațiile vrăjitorilor și la prezicerea viitorului.
 
--   mărește capacitatea de comunicare.
+- mărește capacitatea de comunicare.
 
--   înlătură depresia și insomnia.
+- înlătură depresia și insomnia.
 
--   aduce noroc la bani, succes în afaceri și dragoste.
+- aduce noroc la bani, succes în afaceri și dragoste.
 
--   [a](javascript:void(0))jută la descoperirea unei direcții personale.
+- [a](javascript:void(0))jută la descoperirea unei direcții personale.
 
 Atenție!!!
 
--   smaraldul opac nu este benefic pentru obținerea armoniei mentale.
+- smaraldul opac nu este benefic pentru obținerea armoniei mentale.
 
--   poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia = verdelit, Smaraldul african = fluorit verde,  Smaraldul de cupru = diopsid.
+- poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia = verdelit, Smaraldul african = fluorit verde,  Smaraldul de cupru = diopsid.
 
 []{.underline}
 
@@ -1232,7 +1232,7 @@ Atenție!!!
 
 **SODALIT**
 
-![](media/image86.jpeg){width="0.9375in" height="0.8333333333333334in"}![](media/image87.jpeg){width="0.8229166666666666in" height="0.8333333333333334in"}![](media/image88.jpeg){width="0.9895833333333334in" height="0.8423611111111111in"}
+!{width="0.9375in" height="0.8333333333333334in"}!{width="0.8229166666666666in" height="0.8333333333333334in"}!{width="0.9895833333333334in" height="0.8423611111111111in"}
 
 **INFORMATII\
 Culori:** incolor, alb, galbui, verzui, albastru deschis, albastru inchis, indigo, rosu, cenusiu. Componenta a pietrei lapis lazuli.**\
@@ -1276,11 +1276,11 @@ Este o piatra anti-stress](javascript:void(0))\
 
 Spinelul este un cristal frumos legat de reanoirea energieii, sustinerea in circumstante dificile si de reantinerire. Deschide chakrele si faciliteaza kundalini de-a lungul coloanei vertebrale. Diferite culori ale spinelului se raporteaza la tot spectrul chakrelor.
 
-![](media/image89.png){width="2.6041666666666665in" height="1.9479166666666667in"} SPINEL
+!{width="2.6041666666666665in" height="1.9479166666666667in"} SPINEL
 
 **SPINEL**
 
-![](media/image90.jpeg){width="1.0625in" height="0.8333333333333334in"}![](media/image91.jpeg){width="1.2604166666666667in" height="0.8333333333333334in"}![](media/image92.jpeg){width="1.0416666666666667in" height="0.8333333333333334in"}![](media/image93.jpeg){width="0.90625in" height="0.8333333333333334in"}![](media/image94.jpeg){width="1.6145833333333333in" height="1.1041666666666667in"}![](media/image95.jpeg){width="0.9895833333333334in" height="0.8951388888888889in"}![](media/image96.jpeg){width="1.4583333333333333in" height="1.0833333333333333in"}![](media/image97.jpeg){width="1.25in" height="1.0833333333333333in"}![](media/image98.jpeg){width="1.613888888888889in" height="1.1159722222222221in"}
+!{width="1.0625in" height="0.8333333333333334in"}!{width="1.2604166666666667in" height="0.8333333333333334in"}!{width="1.0416666666666667in" height="0.8333333333333334in"}!{width="0.90625in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.1041666666666667in"}!{width="0.9895833333333334in" height="0.8951388888888889in"}!{width="1.4583333333333333in" height="1.0833333333333333in"}!{width="1.25in" height="1.0833333333333333in"}!{width="1.613888888888889in" height="1.1159722222222221in"}
 
 **INFORMATII\
 Descriere:** diverse - incolor, rosu, albastru, verde, negru, maro, violet.**\
@@ -1316,7 +1316,7 @@ Mentine mentalul mereu proaspat\
 
 Una dintre cele mai importante \"pitre ale iubirii\", sugilitul aduce pe Pamant energia radiatiei purpurii. reprezinta dragostea spirituala si intelepciunea. Deschide toate chakrele catre aceasta iubire, in acelasi timp aliniidu-le. Sugilitul inspira constiinta spirituala si stimuleaza abilitatea de channeling.
 
-![](media/image99.png){width="3.0in" height="1.95625in"} ![](media/image100.jpeg){width="1.2708333333333333in" height="0.8333333333333334in"} ![](media/image101.jpeg){width="0.8006944444444445in" height="0.8333333333333334in"}
+!{width="3.0in" height="1.95625in"} !{width="1.2708333333333333in" height="0.8333333333333334in"} !{width="0.8006944444444445in" height="0.8333333333333334in"}
 
 []{.underline}
 
@@ -1355,7 +1355,7 @@ Il face pe individ constient de valoarea sa\
 
 **TANZANIT \[Sinonim: Zoisit, Safir de Meru\]**
 
-![](media/image102.jpeg){width="0.9895833333333334in" height="0.7909722222222222in"}![](media/image103.jpeg){width="1.1458333333333333in" height="0.71875in"}![](media/image104.jpeg){width="1.6145833333333333in" height="1.125in"}![](media/image105.jpeg){width="0.7284722222222222in" height="0.8333333333333334in"}
+!{width="0.9895833333333334in" height="0.7909722222222222in"}!{width="1.1458333333333333in" height="0.71875in"}!{width="1.6145833333333333in" height="1.125in"}!{width="0.7284722222222222in" height="0.8333333333333334in"}
 
 **INFORMATII\
 Culori:** gri, alb, verde, gri-verzui, verde-roscat, incolor, roz, bleumarin.**\
@@ -1409,7 +1409,7 @@ Confera o stare de buna dispozitie\
 
 Piatra catifelata, empatica, care dirijeaza energia acolo unde este cel mai mult nevoie de ea. Calmeaza, vindeca, stimuleaza, reancarca, motiveaza si aliniaza meridianele corpului. favorizeaza adevarul si iertarea.
 
-![](media/image106.jpeg){width="0.8541666666666666in" height="0.8333333333333334in"}![](media/image107.jpeg){width="1.6145833333333333in" height="1.3125in"}![](media/image108.jpeg){width="1.15625in" height="0.8333333333333334in"}![](media/image109.jpeg){width="0.8229166666666666in" height="0.8333333333333334in"}![](media/image110.jpeg){width="1.6145833333333333in" height="1.1458333333333333in"}![](media/image111.jpeg){width="1.6145833333333333in" height="1.1354166666666667in"}![](media/image112.jpeg){width="0.8215277777777777in" height="0.8333333333333334in"}
+!{width="0.8541666666666666in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.3125in"}!{width="1.15625in" height="0.8333333333333334in"}!{width="0.8229166666666666in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.1458333333333333in"}!{width="1.6145833333333333in" height="1.1354166666666667in"}!{width="0.8215277777777777in" height="0.8333333333333334in"}
 
 **INFORMATII\
 Descriere:** Silicat natural de aluminiu de culoare galbena, verde, bleu, rosie, roz, brun, uneori incolor.**\
@@ -1465,16 +1465,16 @@ Foarte eficace, ofera confort spiritului si buna dispozitie corpului. Piatra pro
 Cunoscut si sub numele de: Turcoaza, Peruzea**
 
 **FOTOGRAFII:\
-**![](media/image113.jpeg){width="1.0833333333333333in" height="0.8333333333333334in"}![](media/image114.jpeg){width="0.9479166666666666in" height="0.8333333333333334in"}![](media/image115.jpeg){width="1.0729166666666667in" height="0.8333333333333334in"}![](media/image116.jpeg){width="1.0416666666666667in" height="1.0416666666666667in"}
+**!{width="1.0833333333333333in" height="0.8333333333333334in"}!{width="0.9479166666666666in" height="0.8333333333333334in"}!{width="1.0729166666666667in" height="0.8333333333333334in"}!{width="1.0416666666666667in" height="1.0416666666666667in"}
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**INFORMATII GENERALE, DESCRIERE:\
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**INFORMATII GENERALE, DESCRIERE:\
 Descriere:** Hidroxifosfat de aluminiu si de cupru.\
 **Compozitie chimica:** CuAl6\[(PO4)4(HO)8\]4H2O**\
 Culori:** de la bleu-ciel la albastru-verzui. La unele varietati, culoarea devine mai fada in lumina directa a soarelui.**\
 Duritate**: 5 - 6 (din 10)**\
 Luciu:** rasinos, ceros, poros, opac **Puteti cumpara acest cristal din magazinul**
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**AVERTISMENTE, INFORMATII IMPORTANTE:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**AVERTISMENTE, INFORMATII IMPORTANTE:**
 
 \- necesita [purificare](javascript:void(0)) periodica cu apa curata este casant, se zgarie usor!
 
@@ -1492,7 +1492,7 @@ isi poate schimba culoarea sau luciul daca este mult timp in contact cu pielea (
 
 \- poate fi imitat de ceramica, plastic, sticla, turcoaz sintetic,
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**Piatra recomandata/asociata pentru:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**Piatra recomandata/asociata pentru:**
 
 **ZODIILE:** Taur, Scorpion, Sagetator, Capricorn, Varsator, Pesti
 
@@ -1522,7 +1522,7 @@ isi poate schimba culoarea sau luciul daca este mult timp in contact cu pielea (
 
 **ALTELE:** Piatra nationala a Tibetului si a Iranului.
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**LEGENDA**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**LEGENDA**
 
 Egiptenii foloseau foarte mult aceasta piatra (alaturi de carneol si Lapis Lazuli), considerand-o o **piatra a vietii**.
 
@@ -1530,9 +1530,9 @@ In Tibet era folosit ca moneda de schimb, avand o valoarea similara aurului.
 
 In Orient era considerata o **piatra a fericirii.**
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**efecteLE asupra purtatorului:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**efecteLE asupra purtatorului:**
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**ASIGURA PROTECTIE:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**ASIGURA PROTECTIE:**
 
 Puternic rol protector impotriva oricaror pericole si riscuri
 
@@ -1554,7 +1554,7 @@ Atrage protectia si binecuvantarea divina (bun pentru meditatie, rugaciune, post
 
 Talisman de protectie si putere
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**AJUTA LA:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**AJUTA LA:**
 
 inceperea noilor proiecte
 
@@ -1566,7 +1566,7 @@ estimarea corecta a timpului
 
 mentinerea si consolidarea relatiilor
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**AMPLIFICA:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**AMPLIFICA:**
 
 creativitatea
 
@@ -1580,11 +1580,11 @@ eficacitatea, capacitatea de a folosi mai bine timpul
 
 starea de bine
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**REDUCE:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**REDUCE:**
 
 mania, inversunarea, tensiunea, incrancenarea, rigiditatea, stresul timpului
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**ADUCE:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**ADUCE:**
 
 noroc, succes financiar, prosperitate
 
@@ -1598,7 +1598,7 @@ bucurie de a ne trai viata
 
 vindecare si [sanatate](javascript:void(0))
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**SE SPUNE CA:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**SE SPUNE CA:**
 
 isi schimba culoarea cand se apropie un pericol, cand cineva vorbeste de rau sau intentioneaza sa faca rau celui care poarta piatra
 
@@ -1606,7 +1606,7 @@ simte invidia si ura celor care vor raul si va da un semn de avertisment (prin c
 
 poate prevesti moartea (se sparge atunci cand anunta o moarte), boala sau infidelitatea
 
-![](media/image117.png){width="0.20833333333333334in" height="0.10416666666666667in"}**EFECTE ASUPRA SANATATII:**
+!{width="0.20833333333333334in" height="0.10416666666666667in"}**EFECTE ASUPRA SANATATII:**
 
 are unul din cele mai puternice efecte curative!
 
@@ -1632,7 +1632,7 @@ Curata, purifica si transforma energia densa intr-o vibratie usoara. Ancoreaza e
 
 **TURMALINA**
 
-![](media/image118.jpeg){width="1.4069444444444446in" height="0.8333333333333334in"}
+!{width="1.4069444444444446in" height="0.8333333333333334in"}
 
 **INFORMATII\
 Varietati:** turmalina galbena, roz, verde, neagra, ochi de pisica. Cele mai frecvente: roz si verde.**\
@@ -1690,7 +1690,7 @@ Sanatate:** benefic in caz de [constipatie](javascript:void(0)), nevroze, proble
 
 **TURMALINA ROZ / RUBELIT**
 
-![](media/image119.jpeg){width="0.9375in" height="0.8333333333333334in"}![](media/image120.jpeg){width="1.5625in" height="1.0625in"}![](media/image121.jpeg){width="0.8645833333333334in" height="0.8333333333333334in"}![](media/image122.jpeg){width="0.9895833333333334in" height="0.7076388888888889in"}
+!{width="0.9375in" height="0.8333333333333334in"}!{width="1.5625in" height="1.0625in"}!{width="0.8645833333333334in" height="0.8333333333333334in"}!{width="0.9895833333333334in" height="0.7076388888888889in"}
 
 **INFORMATII\
 Culori:** roz transparent**\
@@ -1727,7 +1727,7 @@ Sanatate: benefic in cazuri de gonoree, tensiune, crampe menstruale, infertilita
 
 **TURMALINA VERDE \[verdelit, smarald siberian, safir brazilian\]**
 
-![](media/image123.jpeg){width="1.5625in" height="1.0833333333333333in"}![](media/image124.jpeg){width="1.0in" height="0.8333333333333334in"}![](media/image125.jpeg){width="0.9895833333333334in" height="0.8333333333333334in"}** ** ![](media/image126.jpeg){width="1.6145833333333333in" height="1.1354166666666667in"}![](media/image127.jpeg){width="1.5625in" height="1.073611111111111in"}
+!{width="1.5625in" height="1.0833333333333333in"}!{width="1.0in" height="0.8333333333333334in"}!{width="0.9895833333333334in" height="0.8333333333333334in"}** ** !{width="1.6145833333333333in" height="1.1354166666666667in"}!{width="1.5625in" height="1.073611111111111in"}
 
 **INFORMATII\
 Culori:** verde transparent**\
@@ -1762,7 +1762,7 @@ Stimuleaza creativitatea, obiectivitatea](javascript:void(0))
 
 **ZIRCON \[hiacint, diamant de Ceylon\]**
 
-![](media/image128.jpeg){width="1.0208333333333333in" height="0.8333333333333334in"}![](media/image129.jpeg){width="1.6145833333333333in" height="1.1145833333333333in"}![](media/image130.jpeg){width="1.5625in" height="1.0520833333333333in"}![](media/image131.jpeg){width="1.5625in" height="1.0729166666666667in"}![](media/image132.jpeg){width="1.5625in" height="1.125in"}
+!{width="1.0208333333333333in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.1145833333333333in"}!{width="1.5625in" height="1.0520833333333333in"}!{width="1.5625in" height="1.0729166666666667in"}!{width="1.5625in" height="1.125in"}
 
 **INFORMATII\
 Culori:** variate **-** incolor, brun, verde, gri, galben, rosu, portocaliu (de toate culorile), din aceeasi clasa cu hiacintul.\
@@ -1794,15 +1794,15 @@ Ajuta la [dezintoxicare](javascript:void(0))
 Alunga energiile negative si cosmarurile\
 Se spunea ca protejeaza de fulger, febra, tristete si necaz](javascript:void(0))
 
-http://www.ecristale.ro http://www.acvaria.com/cristale-colectia.php?p=cristale
+
 
 Cabinetul de Terapii Complementare „Anasan", str. Valea Furcii, nr. 8A, sector 6, Bucuresti, tel.: 021.777.71.96, 0722.552.992. Mai multe despre puterile pietrelor pretioase, simboluri, preturi si legende puteti afla din cartea „Magia pietrelor pretioase", scrisa de Antonia Mares si aparuta la editura Cartea de Buzunar.
 
 Se cauta punctul de pornire al afectiunii si abia apoi se folosesc pietrele", spune prof. Ana Maria Iliescu de la Cabinetul de Terapii complementare Anasan din Bucuresti. Acest tip de tratament necesita si o dieta speciala: eliminarea toxinelor pentru usurarea functionarii organelor, peste 2 litri de lichide pe zi (exclus bauturi carbogazoase), fara tutun, alcool, carne de porc sau mezeluri.
 
-http://freebookspot.in
 
-![](media/image133.jpeg){width="3.1256944444444446in" height="2.477777777777778in"}
+
+!{width="3.1256944444444446in" height="2.477777777777778in"}
 
 **Semnificatia pietrelor pretioase si a cristalelor -- Ce piatra ne reprezinta**
 
@@ -1844,7 +1844,7 @@ Iata si semnificatia culorilor care sa va ajute in decizia finala in alegerea pi
 
 Cristalele vindecatoare
 
-![](media/image134.png){width="0.20833333333333334in" height="0.15625in"}Oana Hanganu
+!{width="0.20833333333333334in" height="0.15625in"}Oana Hanganu
 
  
 
@@ -1906,7 +1906,7 @@ Va invitam sa cercetati paginile site-ului nostru in speranta ca ve-ti gasi cat 
 
 **Vindecarea prin Cristale**\
 Vindecarea prin cristale este o metoda blanda, dar totusi puternica pentru a vindeca corpul, mintea, emotiile si spiritul. Vindecarea prin cristale este una dintre cele mai usoare forme de vindecare. Desi energia fiecarui cristal in parte este unica, de obicei, vindecatorii considera ca diferitele tipuri de cristale poarta vibratii similare.\
-**[Moshe Zamurovich](http://www.121.ro/specialisti/moshe_zamurovici.php3), maestru Karuna Reiki**\
+**Moshe Zamurovich, maestru Karuna Reiki**\
 **\
 **Vindecarea prin cristale poate fi combinata cu Reiki intr-un mod foarte eficient. Cristalele pot fi purtate ca bijuterii, pot fi utilizate pentru a armoniza energia in interiorul unui case, in meditatie precum si in multe alte scopuri. Cristalele ar trebui sa fie in permanenta curatate dupa ce au fost achizitionate, precum si ocazional sau frecvent, in functie de mediul in care sunt pastrate si de cate ori sunt folosite.\
 \
@@ -1914,17 +1914,17 @@ Pentru o **curatare profunda** incercati scufundarea lor in apa ce contine o com
 
 **Nota:**
 
-![](media/image135.png){width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Toate tratamentele cu cristale se fac fiind pregatita camera, maestrul si cu cristalele deja purificate.\
-![](media/image135.png){width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Retineti: inainte de fiecare tratament se purifica cristalele.\
-![](media/image135.png){width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Se bea apa inainte si dupa tratament. In timpul perioadei tratamentului se beau minimum 3 litri de apa pe zi.\
-![](media/image135.png){width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Cristalele trebuie sa fie egale ca marime!\
-![](media/image135.png){width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Dupa fiecare tratament pacientul trebuie sa stea o ora pana la revenirea la activitatea zilnica.\
-![](media/image135.png){width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}In timpul tratamentelor este recomandat ca pacientii sa stea culcati cu capul la nord
+!{width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Toate tratamentele cu cristale se fac fiind pregatita camera, maestrul si cu cristalele deja purificate.\
+!{width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Retineti: inainte de fiecare tratament se purifica cristalele.\
+!{width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Se bea apa inainte si dupa tratament. In timpul perioadei tratamentului se beau minimum 3 litri de apa pe zi.\
+!{width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Cristalele trebuie sa fie egale ca marime!\
+!{width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}Dupa fiecare tratament pacientul trebuie sa stea o ora pana la revenirea la activitatea zilnica.\
+!{width="4.1666666666666664e-2in" height="7.291666666666667e-2in"}In timpul tratamentelor este recomandat ca pacientii sa stea culcati cu capul la nord
 
-  ---------------------------------------------------------------------------
-  ![](media/image136.jpeg){width="1.7395833333333333in" height="1.46875in"}
-  **Agate**
-  ---------------------------------------------------------------------------
+ ---------------------------------------------------------------------------
+ !{width="1.7395833333333333in" height="1.46875in"}
+ **Agate**
+ ---------------------------------------------------------------------------
 
 **Puterea cristalelor** a fost utilizata de diferite culturi, de indata ce pamantul a inceput sa fie locuit de catre oameni. Cea mai veche legenda ne duce inapoi in istorie, la Atlantida, cand aceasta civilizatie a folosit cristalele ca faruri de lumina in comunicarea telepatica cu stramosii. Se spune ca motivul pentru care a disparut aceasta civilizatie evoluata a fost abuzul puterii inspaimantatoare a cristalelor (folosite din motive egocentrice).\
 \
@@ -1936,92 +1936,92 @@ Pietrele si cristalele au fost timp indelungat asociate cu regalitatea. Ele se g
 Mayasii si indienii nord-americani au folosit cristalele in diagnosticarea precum si in tratamentul bolilor. La indienii mexicani exista credinta ca daca traiai o viata buna, sufletul tau intra intr-un cristal atunci cand mureai. Daca erai suficient de norocos sa gasesti acel cristal, el vorbea direct inimii tale, te vindeca, te calauzea si iti transforma visele in realitate. Puterea si potentialul cristalelor nu se pot exagera. Ele pot fi folosite in meditatie pentru dezvoltarea intuitiei si simturilor superioare.\
 Numai intentiile adevarate sau intentiile pur umanitare trebuie folosite atunci cand se lucreaza cu cristalele, altfel, puterea lor se va intoarce impotriva utilizatorului.
 
-  -------------------------------------------------------------------------
-  ![](media/image137.jpeg){width="1.6041666666666667in" height="1.625in"}
-  **Cuart roz**
-  -------------------------------------------------------------------------
+ -------------------------------------------------------------------------
+ !{width="1.6041666666666667in" height="1.625in"}
+ **Cuart roz**
+ -------------------------------------------------------------------------
 
 Desi energia fiecarui cristal in parte este unica, de obicei, vindecatorii considera ca diferitele tipuri de cristale poarta vibratii similare. Iata o scurta lista a proprietatilor unora dintre cristalele cel mai des folosite:\
 \
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Cuart roz** - iubire de sine, vindecarea inimii\
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Hematit** - impamantare, curatare, bun pentru sange\
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Lapis lazuli** - intelepciune, adevar, intelegere\
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Malachit** - curatarea emotiilor\
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Citrin** - putere personala crescuta\
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Obsidian** - analiza interioara profunda\
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}**Agat** (multe varietati) - sanatate si vitalitate naturala
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Cuart roz** - iubire de sine, vindecarea inimii\
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Hematit** - impamantare, curatare, bun pentru sange\
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Lapis lazuli** - intelepciune, adevar, intelegere\
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Malachit** - curatarea emotiilor\
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Citrin** - putere personala crescuta\
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Obsidian** - analiza interioara profunda\
+!{width="0.10416666666666667in" height="0.10416666666666667in"}**Agat** (multe varietati) - sanatate si vitalitate naturala
 
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}AGATUL ALBASTRU SFANT:
+!{width="0.10416666666666667in" height="0.10416666666666667in"}AGATUL ALBASTRU SFANT:
 
-  ---------------------------------------------------------------------------
-  ![](media/image139.jpeg){width="1.7395833333333333in" height="1.46875in"}
-  ---------------------------------------------------------------------------
+ ---------------------------------------------------------------------------
+ !{width="1.7395833333333333in" height="1.46875in"}
+ ---------------------------------------------------------------------------
 
 Aceasta piatra are culoarea albastru-violet.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Agatele sunt cunoscute pentru capacitatea lor de a echiliba energiile Yin-Yang si corpurile fizic, emotional si intelectual cu energiile eterice.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Elimina negativitatea si linisteste si curata aura.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Agatele ajuta la auto-examinarea personala.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Pot fi folosite pentru a usura comunicarea intre lumea fizica si cea spirituala.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Pot fi folosite in limpezirea unei judecati innegurate si la imbunatatirea abilitatilor de comunicare ale unei persoane.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Agatele stimuleaza si activeaza chakrele gatului si coroanei, fiind astfel folosite in tratamentul tulburarilor aparute in aceste zone.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Se spune ca agatul este una dintre pietrele folosite la decorarea vestei inaltilor preoti. Vibreaza la numarul 2.
+!{width="6.25e-2in" height="6.25e-2in"}Agatele sunt cunoscute pentru capacitatea lor de a echiliba energiile Yin-Yang si corpurile fizic, emotional si intelectual cu energiile eterice.\
+!{width="6.25e-2in" height="6.25e-2in"}Elimina negativitatea si linisteste si curata aura.\
+!{width="6.25e-2in" height="6.25e-2in"}Agatele ajuta la auto-examinarea personala.\
+!{width="6.25e-2in" height="6.25e-2in"}Pot fi folosite pentru a usura comunicarea intre lumea fizica si cea spirituala.\
+!{width="6.25e-2in" height="6.25e-2in"}Pot fi folosite in limpezirea unei judecati innegurate si la imbunatatirea abilitatilor de comunicare ale unei persoane.\
+!{width="6.25e-2in" height="6.25e-2in"}Agatele stimuleaza si activeaza chakrele gatului si coroanei, fiind astfel folosite in tratamentul tulburarilor aparute in aceste zone.\
+!{width="6.25e-2in" height="6.25e-2in"}Se spune ca agatul este una dintre pietrele folosite la decorarea vestei inaltilor preoti. Vibreaza la numarul 2.
 
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}AMETISTUL:
+!{width="0.10416666666666667in" height="0.10416666666666667in"}AMETISTUL:
 
-  --------------------------------------------------------------------------------------
-  ![](media/image141.jpeg){width="1.5520833333333333in" height="1.6458333333333333in"}
-  ![](media/image142.jpeg){width="1.5520833333333333in" height="1.6458333333333333in"}
-  --------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------
+ !{width="1.5520833333333333in" height="1.6458333333333333in"}
+ !{width="1.5520833333333333in" height="1.6458333333333333in"}
+ --------------------------------------------------------------------------------------
 
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Ametistul - calmare, intuitie crescuta\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Culoarea aceastei pietre difera de la purpuriu inchis la o nuanta deschisa a culorii levanticai.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Este o piatra a spiritualitatii si multumirii si reprezinta metamorfoza completa. Ajuta in mutatia energiilor scazute in frecvente mai inalte atat la nivel spiritual cat si eteric.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Echilibreaza energiile corpurilor intelectual, emotional si fizic si furnizeaza o legatura clara intre planul teluric si alte lumi.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}De asemenea aceasta piatra curata aura si transmuta orice energie disfunctionala aflata in corp.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Ametistul acorda stabilitate, tarie, invigorare si pace.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Este o piatra a meditatiei intrucat este excelenta in conducerea de energie ce reprezinta calmul si pacea.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Deschide si stimuleaza chakra coroanei.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Ametistul poate fi folosit in protectia impotriva atacurilor psihice. Transmute energia atacului in energie pozitiva, energie a iubirii si o trimite inapoi in univers.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Vibreaza la numarul 3.
+!{width="6.25e-2in" height="6.25e-2in"}Ametistul - calmare, intuitie crescuta\
+!{width="6.25e-2in" height="6.25e-2in"}Culoarea aceastei pietre difera de la purpuriu inchis la o nuanta deschisa a culorii levanticai.\
+!{width="6.25e-2in" height="6.25e-2in"}Este o piatra a spiritualitatii si multumirii si reprezinta metamorfoza completa. Ajuta in mutatia energiilor scazute in frecvente mai inalte atat la nivel spiritual cat si eteric.\
+!{width="6.25e-2in" height="6.25e-2in"}Echilibreaza energiile corpurilor intelectual, emotional si fizic si furnizeaza o legatura clara intre planul teluric si alte lumi.\
+!{width="6.25e-2in" height="6.25e-2in"}De asemenea aceasta piatra curata aura si transmuta orice energie disfunctionala aflata in corp.\
+!{width="6.25e-2in" height="6.25e-2in"}Ametistul acorda stabilitate, tarie, invigorare si pace.\
+!{width="6.25e-2in" height="6.25e-2in"}Este o piatra a meditatiei intrucat este excelenta in conducerea de energie ce reprezinta calmul si pacea.\
+!{width="6.25e-2in" height="6.25e-2in"}Deschide si stimuleaza chakra coroanei.\
+!{width="6.25e-2in" height="6.25e-2in"}Ametistul poate fi folosit in protectia impotriva atacurilor psihice. Transmute energia atacului in energie pozitiva, energie a iubirii si o trimite inapoi in univers.\
+!{width="6.25e-2in" height="6.25e-2in"}Vibreaza la numarul 3.
 
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}CUARTUL CLAR:
+!{width="0.10416666666666667in" height="0.10416666666666667in"}CUARTUL CLAR:
 
-  -------------------------------------------------------------------------
-  ![](media/image143.jpeg){width="1.625in" height="1.3333333333333333in"}
-  -------------------------------------------------------------------------
+ -------------------------------------------------------------------------
+ !{width="1.625in" height="1.3333333333333333in"}
+ -------------------------------------------------------------------------
 
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Cuartul clar - toate formele de vindecare\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Acest cristal are atat proprietati piezoelectrice cat si piroelectrice.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Polaritatea se va schimba atunci cand este supus presiunii sau caldurii, precum si cand este tinut in maini. Varful este in mod normal pozitiv si primeste energie dar se va schimba si va deveni negativ asa incat va radia energie din varf. Aceste proprietati sustin amplificarea, depozitarea, transferul si transformarea energiei.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Acest cristal poate fi folosit in amplificarea energiei corpului si celei a gandurilor.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Cuartul poate fi folosit in crearea puterii si poate furniza claritate in gandire ceea ce permite gandurilor sa influenteze intr-un mod mai eficient chestiunea/ materia in cauza.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Se spune ca acest cristal aduce energia stelelor in suflet.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}In mod traditional, cristalul natural de cuart se considera a fi capabil de a armoniza si alinia energiile umane - ganduri, constiinta si emotiile - cu energiile Universului si face aceste energii inalte accesibile umanitatii. Tendinta naturala a cuartului este aceea de armonizare si este recunoscut ca o piatra a puterii.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Cristalele de cuart pot fi folosite in a facilita contactul verbal cu maestrii spirituali, calauzitorii, profesorii si vindecatorii precum si primirea de energie de la acestia.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Poate creea stari modificate ale constiintei si poate servi ca vehicul in vederea obtinerii si utilizarii talentelor si abilitatilor mintii. Toate abilitatile psihice pot fi stimulate si amplificate prin folosirea acestui mineral.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Aceste cristale pot fi folosite in curatarea si activarea centrelor energetice ale corpului. Se acorda bine cu chakra inimii si raspund bine la chakra celui de-al treilea ochi. De asemenea sunt foarte eficiente in cazul chakrei coroanei.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Sunt vindecatori ai negativitatii asociate cu perspectivele si judecata unei persoane.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Cristalele de cuart furnizeaza de asemenea o cale in vederea comunicarii cu Spiritul Superior.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Aceasta piatra vibreaza la numarul 4.
+!{width="6.25e-2in" height="6.25e-2in"}Cuartul clar - toate formele de vindecare\
+!{width="6.25e-2in" height="6.25e-2in"}Acest cristal are atat proprietati piezoelectrice cat si piroelectrice.\
+!{width="6.25e-2in" height="6.25e-2in"}Polaritatea se va schimba atunci cand este supus presiunii sau caldurii, precum si cand este tinut in maini. Varful este in mod normal pozitiv si primeste energie dar se va schimba si va deveni negativ asa incat va radia energie din varf. Aceste proprietati sustin amplificarea, depozitarea, transferul si transformarea energiei.\
+!{width="6.25e-2in" height="6.25e-2in"}Acest cristal poate fi folosit in amplificarea energiei corpului si celei a gandurilor.\
+!{width="6.25e-2in" height="6.25e-2in"}Cuartul poate fi folosit in crearea puterii si poate furniza claritate in gandire ceea ce permite gandurilor sa influenteze intr-un mod mai eficient chestiunea/ materia in cauza.\
+!{width="6.25e-2in" height="6.25e-2in"}Se spune ca acest cristal aduce energia stelelor in suflet.\
+!{width="6.25e-2in" height="6.25e-2in"}In mod traditional, cristalul natural de cuart se considera a fi capabil de a armoniza si alinia energiile umane - ganduri, constiinta si emotiile - cu energiile Universului si face aceste energii inalte accesibile umanitatii. Tendinta naturala a cuartului este aceea de armonizare si este recunoscut ca o piatra a puterii.\
+!{width="6.25e-2in" height="6.25e-2in"}Cristalele de cuart pot fi folosite in a facilita contactul verbal cu maestrii spirituali, calauzitorii, profesorii si vindecatorii precum si primirea de energie de la acestia.\
+!{width="6.25e-2in" height="6.25e-2in"}Poate creea stari modificate ale constiintei si poate servi ca vehicul in vederea obtinerii si utilizarii talentelor si abilitatilor mintii. Toate abilitatile psihice pot fi stimulate si amplificate prin folosirea acestui mineral.\
+!{width="6.25e-2in" height="6.25e-2in"}Aceste cristale pot fi folosite in curatarea si activarea centrelor energetice ale corpului. Se acorda bine cu chakra inimii si raspund bine la chakra celui de-al treilea ochi. De asemenea sunt foarte eficiente in cazul chakrei coroanei.\
+!{width="6.25e-2in" height="6.25e-2in"}Sunt vindecatori ai negativitatii asociate cu perspectivele si judecata unei persoane.\
+!{width="6.25e-2in" height="6.25e-2in"}Cristalele de cuart furnizeaza de asemenea o cale in vederea comunicarii cu Spiritul Superior.\
+!{width="6.25e-2in" height="6.25e-2in"}Aceasta piatra vibreaza la numarul 4.
 
-![](media/image138.png){width="0.10416666666666667in" height="0.10416666666666667in"}CUARTUL FUMURIU:
+!{width="0.10416666666666667in" height="0.10416666666666667in"}CUARTUL FUMURIU:
 
-  -------------------------------------------------------------------------
-  ![](media/image144.jpeg){width="1.6041666666666667in" height="1.625in"}
-  -------------------------------------------------------------------------
+ -------------------------------------------------------------------------
+ !{width="1.6041666666666667in" height="1.625in"}
+ -------------------------------------------------------------------------
 
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Cuartul fumuriu - dizolva negativitatea.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Culoarea mineralului difera de la fumuriu deschis la gri-fumuriu inchis si negru.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Aceasta energie este in special aplicata in zonele plexului solar si asupra chakrelor localizate in maini si picioare.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Energia poate penetra si poate transforma ulterior emotiile negative si modelele de energie negativa.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Tinde sa penetreze si sa dizolve campuri de energie ce au fost generate de forme de gandire negativa, furie si resentimente.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Poate fi folosit sa dizolve usor energiile negative si blocajele emotionale. Inmoaie energia negativa si permite frecventelor pozitive sa intre in sfera afectiunii.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Lucreaza pentru a dizolva formatiunile rezultate, efectele, tulburarile si bolile create intr-o anume situatie.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Aceasta piatra uimeste cu viteza sa de reactie - aceasta este prelungita, desi intensa si blanda.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Furnizeaza echilibrarea energiei yin-yang si poate fi folosit in facilitarea alinierii meridianelor corpului fizic cu cele ale corpului eteric. Poate de asemenea fi utilizat in echilibrarea mentala, energetica precum si in echilibrarea si acordarea energiilor necesare dezvoltarii spirituale.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Este o piatra excelenta pentru impamantare.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Este o piatra excelenta pentru protectie, cuprinzand/ incluzand bariera energetica in jurul utilizatorului.\
-![](media/image140.png){width="6.25e-2in" height="6.25e-2in"}Aceasta piatra vibreaza la numerele 2 si 8.
+!{width="6.25e-2in" height="6.25e-2in"}Cuartul fumuriu - dizolva negativitatea.\
+!{width="6.25e-2in" height="6.25e-2in"}Culoarea mineralului difera de la fumuriu deschis la gri-fumuriu inchis si negru.\
+!{width="6.25e-2in" height="6.25e-2in"}Aceasta energie este in special aplicata in zonele plexului solar si asupra chakrelor localizate in maini si picioare.\
+!{width="6.25e-2in" height="6.25e-2in"}Energia poate penetra si poate transforma ulterior emotiile negative si modelele de energie negativa.\
+!{width="6.25e-2in" height="6.25e-2in"}Tinde sa penetreze si sa dizolve campuri de energie ce au fost generate de forme de gandire negativa, furie si resentimente.\
+!{width="6.25e-2in" height="6.25e-2in"}Poate fi folosit sa dizolve usor energiile negative si blocajele emotionale. Inmoaie energia negativa si permite frecventelor pozitive sa intre in sfera afectiunii.\
+!{width="6.25e-2in" height="6.25e-2in"}Lucreaza pentru a dizolva formatiunile rezultate, efectele, tulburarile si bolile create intr-o anume situatie.\
+!{width="6.25e-2in" height="6.25e-2in"}Aceasta piatra uimeste cu viteza sa de reactie - aceasta este prelungita, desi intensa si blanda.\
+!{width="6.25e-2in" height="6.25e-2in"}Furnizeaza echilibrarea energiei yin-yang si poate fi folosit in facilitarea alinierii meridianelor corpului fizic cu cele ale corpului eteric. Poate de asemenea fi utilizat in echilibrarea mentala, energetica precum si in echilibrarea si acordarea energiilor necesare dezvoltarii spirituale.\
+!{width="6.25e-2in" height="6.25e-2in"}Este o piatra excelenta pentru impamantare.\
+!{width="6.25e-2in" height="6.25e-2in"}Este o piatra excelenta pentru protectie, cuprinzand/ incluzand bariera energetica in jurul utilizatorului.\
+!{width="6.25e-2in" height="6.25e-2in"}Aceasta piatra vibreaza la numerele 2 si 8.
 
 Terapia prin cristale: Sfaturi de Sanatate
 
@@ -2029,7 +2029,7 @@ Lu 20 iul 2009 11:02:18 +0300
 
 Sfaturi de Sanatate: Făcând parte din aceeaşi „familie" cu aromoterapia, meloterapia, reflexoterapia sau presopunctura, cristaloterapia \...
 
-![](media/image145.jpeg){width="2.0006944444444446in" height="1.679861111111111in"}
+!{width="2.0006944444444446in" height="1.679861111111111in"}
 
 Făcând parte din aceeaşi „familie" cu aromoterapia, meloterapia, reflexoterapia sau presopunctura, cristaloterapia se foloseşte de pietre preţioase şi semi-preţioase cu puteri binefăcătoare (datorită fluxului energetic ce le străbate) pentru a stimula puterea naturală de vindecare a omului. Cristalele au puterea de a concentra şi dirija fluxurile energetice care ne pătrund prin corp.\
 \
@@ -2073,7 +2073,7 @@ Sursa: Bihoreanul.ro
 
 Cristalele si pietrele pretioase si semipretioase au efecte benefice asupra [organismului](javascript:void(0))
 
-![](media/image146.jpeg){width="2.540277777777778in" height="1.9027777777777777in"}
+!{width="2.540277777777778in" height="1.9027777777777777in"}
 
 Podoabele confectionate din cristale si pietre pretioase si semipretioase aduc [sanatate](javascript:void(0)), noroc si prosperitate.
 
@@ -2163,39 +2163,39 @@ Turcoazul -- aduce dragostea si curajul., protejeaza impotriva violentei, atat f
 \
 Zirconiul -- atrage faima si prosperitatea, protejeaza impotriva accidentelor si dezastrelor naturale, este o piatra a dorintelor.
 
-**http://www.rainbowcrystal.com/crystal/gems/gem.html**
+**
 
-**http://ro.wikipedia.org/wiki/List%C4%83\_de\_minerale**
+**
 
-**http://commons.wikimedia.org/wiki/Category:Gemstones**
+**
 
-![](media/image147.png){width="3.7159722222222222in" height="3.8305555555555557in"}
+!{width="3.7159722222222222in" height="3.8305555555555557in"}
 
-![](media/image148.png){width="3.4159722222222224in" height="3.5in"}
+!{width="3.4159722222222224in" height="3.5in"}
 
-![](media/image149.png){width="5.997916666666667in" height="8.48125in"}
+!{width="5.997916666666667in" height="8.48125in"}
 
-  ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **NTRU ZODIA:**   **PIETRELE  RECOMANDATE SUNT:**
-  **BERBEC**        [Ametist](http://www.kristale.ro/ametist.htm), [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Aventurin](http://www.kristale.ro/aventurin.htm), [Carneol](http://www.kristale.ro/carneol.htm), [Citrin](http://www.kristale.ro/citrin.htm), Coral, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Cuart roz](http://www.kristale.ro/cuartroz.htm), Diamant, [Granat](http://www.kristale.ro/granat.htm), [Hematit](http://www.kristale.ro/hematit.htm), [Jad](http://www.kristale.ro/jadeit.htm), [Jasp rosu](http://www.kristale.ro/jasp.htm), Lacrima apasului (obsidian), Kianit, [Malahit](http://www.kristale.ro/malahit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), [Onix](http://www.kristale.ro/onix.htm), [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), Rodocrozit, [Rodonit](http://www.kristale.ro/rodonit.htm), [Rubin](http://www.kristale.ro/rubin.htm), [Safir](http://www.kristale.ro/safir.htm), [Smarald](http://www.kristale.ro/smarald.htm), Spinel. **Talisman norocos:** Diamant, [Jasp rosu](http://www.kristale.ro/jasp.htm), [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop). **Recomandabil:** [PIETRE ROSII](http://www.kristale.ro/pietre-culori.htm)
-  **TAUR**          [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Agat](http://www.kristale.ro/agat.htm), [Ametist](http://www.kristale.ro/ametist.htm), [Aventurin](http://www.kristale.ro/aventurin.htm), [Calcedonie](http://www.kristale.ro/calcedonie.htm), [Carneol](http://www.kristale.ro/carneol.htm), [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), [Citrin](http://www.kristale.ro/citrin.htm), Coral rosu, Crisocola, Crisopraz, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Cuart roz](http://www.kristale.ro/cuartroz.htm), Diamant, Iolit, [Jad](http://www.kristale.ro/jadeit.htm), [Jasp rosu](http://www.kristale.ro/jasp.htm), Kunzit, Kianit, [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), [Malahit](http://www.kristale.ro/malahit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), [Obsidian](http://www.kristale.ro/obsidian.htm), [Rodonit](http://www.kristale.ro/rodonit.htm), [Rubin](http://www.kristale.ro/rubin.htm), [Safir](http://www.kristale.ro/safir.htm), Selenit, [Smarald](http://www.kristale.ro/smarald.htm), Spodumen (Kunzit), [Turcoaz](http://www.kristale.ro/turcoaz.htm), Turmalina, Zircon. **Talisman norocos:** Diamant, [Safir](http://www.kristale.ro/safir.htm). **Recomandabil:** [PIETRE PASTEL (ROZ, VERNIL)](http://www.kristale.ro/pietre-culori.htm)
-  **GEMENI**        [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Agat](http://www.kristale.ro/agat.htm), Alexandrit, [Ametist](http://www.kristale.ro/ametist.htm), Apatit, [Aventurin](http://www.kristale.ro/aventurin.htm), Beril, [Calcedonie](http://www.kristale.ro/calcedonie.htm), [Carneol](http://www.kristale.ro/carneol.htm), Celestit, [Citrin](http://www.kristale.ro/citrin.htm), Crisoberil, Crisocola, Crisopraz, [Cuart roz](http://www.kristale.ro/cuartroz.htm), [Fluorina](http://www.kristale.ro/fluorit.htm), [Granat](http://www.kristale.ro/granat.htm), Heliodor, [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), Howlit, [Jad](http://www.kristale.ro/jadeit.htm), [Jasp rosu](http://www.kristale.ro/jasp.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Obsidian verde, [Ochi de tigru](http://www.kristale.ro/ochitigru.htm), Opal, Peridot, Perla, [Safir](http://www.kristale.ro/safir.htm), [Smarald](http://www.kristale.ro/smarald.htm), Tanzanit, Topaz. **Talisman norocos:** [Agat](http://www.kristale.ro/agat.htm), [Smarald](http://www.kristale.ro/smarald.htm).**Recomandabil:** [PIETRE GALBENE](http://www.kristale.ro/pietre-culori.htm)
-  **RAC**           [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Agata de muschi](http://www.kristale.ro/agat.htm), [Aventurin](http://www.kristale.ro/aventurin.htm), [Calcedonie](http://www.kristale.ro/calcedonie.htm), Calcit, [Carneol](http://www.kristale.ro/carneol.htm), [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), Crisocola, [Cristal de stanca](http://www.kristale.ro/cuart.htm), Crisopraz, Diamant, [Fluorina](http://www.kristale.ro/fluorit.htm), [Granat](http://www.kristale.ro/granat.htm), [Jad](http://www.kristale.ro/jadeit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Opal, [Ochi de tigru](http://www.kristale.ro/ochitigru.htm), [Onix](http://www.kristale.ro/onix.htm), Perla, [Piatra lunii](http://www.kristale.ro/piatralunii.htm), [Rubin](http://www.kristale.ro/rubin.htm), [Smarald](http://www.kristale.ro/smarald.htm). **Talisman norocos:** [Smarald](http://www.kristale.ro/smarald.htm), [Agat](http://www.kristale.ro/agat.htm), [Calcedonie](http://www.kristale.ro/calcedonie.htm). **Recomandabil:** [PIETRE ALBE, ARGINTII](http://www.kristale.ro/pietre-culori.htm)
-  **LEU**           [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Calcedonie](http://www.kristale.ro/calcedonie.htm), [Carneol](http://www.kristale.ro/carneol.htm), [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), [Citrin](http://www.kristale.ro/citrin.htm), Crisoberil, [Cristal de stanca](http://www.kristale.ro/cuart.htm), Diamant, [Granat](http://www.kristale.ro/granat.htm), Heliodor, Hiacint, [Jad](http://www.kristale.ro/jadeit.htm), [Jasp cu model (peisaj)](http://www.kristale.ro/jasp.htm), [Labradorit](http://www.kristale.ro/labradorit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Obsidian rosu, [Ochi de tigru](http://www.kristale.ro/ochitigru.htm), [Ochi de pisica](http://www.kristale.ro/ochipisica.htm), [Onix](http://www.kristale.ro/onix.htm), Opal de foc, Peridot, [Piatra Soarelui](http://www.kristale.ro/piatrasoarelui.htm), Pirita, Rodocrozit, [Rubin](http://www.kristale.ro/rubin.htm), [Sardonix](http://www.kristale.ro/sardonix.htm), [Smarald](http://www.kristale.ro/smarald.htm), Topaz, Turmalina. **Talisman norocos:** [Jad](http://www.kristale.ro/jadeit.htm), Peridot, [Onix](http://www.kristale.ro/onix.htm), [Chihlimbar](http://www.kristale.ro/chihlimbar.htm). **Recomandabil:** [PIETRE GALBENE, AURII, PORTOCALII, CU APE DE CURCUBEU](http://www.kristale.ro/pietre-culori.htm)
-  **FECIOARA**      [Agata de muschi](http://www.kristale.ro/agat.htm), [Agat galben](http://www.kristale.ro/agat.htm), [Amazonit](http://www.kristale.ro/amazonit.htm), [Ametist](http://www.kristale.ro/ametist.htm), [Aventurin](http://www.kristale.ro/aventurin.htm), [Calcedonie](http://www.kristale.ro/calcedonie.htm), [Carneol](http://www.kristale.ro/carneol.htm), [Citrin](http://www.kristale.ro/citrin.htm), Coral, Crisocola, Crisolit, Crisopraz, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Cuart fumuriu](http://www.kristale.ro/cuartfumuriu.htm), [Cuart roz](http://www.kristale.ro/cuartroz.htm), Dioptaz, [Granat](http://www.kristale.ro/granat.htm), Hiacint, [Jad](http://www.kristale.ro/jadeit.htm), [Jasp](http://www.kristale.ro/jasp.htm), [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), [Obsidian Fulg-de-nea](http://www.kristale.ro/obsidian.htm), [Ochi de tigru](http://www.kristale.ro/ochitigru.htm), [Onix](http://www.kristale.ro/onix.htm), Peridot, [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), Rodocrozit, Safir galben, [Sardonix](http://www.kristale.ro/sardonix.htm), [Sodalit](http://www.kristale.ro/sodalit.htm), Sugilit, Topaz, Turmalina. **Talisman norocos:** [Carneol](http://www.kristale.ro/carneol.htm), [Sardonix](http://www.kristale.ro/sardonix.htm). **Recomandabil:** [PIETRE MARO, BEJ, VERZI](http://www.kristale.ro/pietre-culori.htm)
-  **BALANTA**       [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Amazonit](http://www.kristale.ro/amazonit.htm), [Ametist](http://www.kristale.ro/ametist.htm), Ametrin, [Aventurin](http://www.kristale.ro/aventurin.htm), [Carneol](http://www.kristale.ro/carneol.htm), [Citrin](http://www.kristale.ro/citrin.htm), Coral, Crisolit, Crisopraz, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Cuart fumuriu](http://www.kristale.ro/cuartfumuriu.htm), [Cuart roz](http://www.kristale.ro/cuartroz.htm), Diamant, Iolit, [Jad](http://www.kristale.ro/jadeit.htm), Kianit, [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), Lepidolit, [Malahit](http://www.kristale.ro/malahit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), [Obsidian mahon](http://www.kristale.ro/obsidian.htm), [Onix](http://www.kristale.ro/onix.htm), Opal, Opal negru, Peridot, [Piatra lunii](http://www.kristale.ro/piatralunii.htm), [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), [Piatra Soarelui](http://www.kristale.ro/piatrasoarelui.htm), [Rubin](http://www.kristale.ro/rubin.htm), [Safir](http://www.kristale.ro/safir.htm), [Sardonix](http://www.kristale.ro/sardonix.htm), Tanzanit, Topaz, Turmalina bleu. **Talisman norocos:** Opal, [Sardonix](http://www.kristale.ro/sardonix.htm), Crisolit. **Recomandabil:** [PIETRE VERZI](http://www.kristale.ro/pietre-culori.htm)
-  **SCORPION**      [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Agata de Botswana](http://www.kristale.ro/agat.htm), [Ametist](http://www.kristale.ro/ametist.htm), Beril, [Carneol](http://www.kristale.ro/carneol.htm), Caroit, Crisolit, [Cristal de stanca](http://www.kristale.ro/cuart.htm), Crisopraz, Coral, [Granat](http://www.kristale.ro/granat.htm), Heliodor, [Hematit](http://www.kristale.ro/hematit.htm), [Jasp](http://www.kristale.ro/jasp.htm), [Labradorit](http://www.kristale.ro/labradorit.htm), [Malahit](http://www.kristale.ro/malahit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Morganit, Obsidian albastru-verde, [Ochi de pisica](http://www.kristale.ro/ochipisica.htm), Ochi de soim, [Ochi de tigru](http://www.kristale.ro/ochitigru.htm), Opal negru, Peridot, Perla, [Piatra lunii](http://www.kristale.ro/piatralunii.htm), [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), Rodocrozit, [Rubin](http://www.kristale.ro/rubin.htm), [Sardonix](http://www.kristale.ro/sardonix.htm), Topaz, Turmalina roz/Rubelit, [Turcoaz](http://www.kristale.ro/turcoaz.htm), [Unakit](http://www.kristale.ro/unakit.htm). **Talisman norocos:** [Acvamarin](http://www.kristale.ro/acvamarin.htm), Beril. **Recomandabil:** [PIETRE ROSU INCHIS, GRENA, BRUNE, NEGRE](http://www.kristale.ro/pietre-culori.htm)
-  **SAGETATOR**     [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Agata de foc](http://www.kristale.ro/agat.htm), [Ametist](http://www.kristale.ro/ametist.htm), [Aventurin](http://www.kristale.ro/aventurin.htm), Azurit, [Calcedonie](http://www.kristale.ro/calcedonie.htm), Caroit, [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), [Citrin](http://www.kristale.ro/citrin.htm), Crisocola, Crisopraz, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Cuart fumuriu](http://www.kristale.ro/cuartfumuriu.htm), Dioptaz, [Granat](http://www.kristale.ro/granat.htm), Iolit, [Jasp](http://www.kristale.ro/jasp.htm), [Labradorit](http://www.kristale.ro/labradorit.htm), [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), [Malahit](http://www.kristale.ro/malahit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Obsidian, [Obsidian Fulg de nea](http://www.kristale.ro/obsidian.htm), [Onix](http://www.kristale.ro/onix.htm), Opal de foc, Peridot, [Piatra lunii](http://www.kristale.ro/piatralunii.htm), Perla, [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), [Rubin](http://www.kristale.ro/rubin.htm), [Safir](http://www.kristale.ro/safir.htm), Spinel, Topaz, [Sodalit](http://www.kristale.ro/sodalit.htm), Tanzanit, Turmalina roz/Rubelit, Turmalina neagra, [Turcoaz](http://www.kristale.ro/turcoaz.htm), Topaz, Zircon albastru. **Talisman norocos:** [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), Topaz, Perla. **Recomandabil:** [PIETRE ALBASTRU DESCHIS](http://www.kristale.ro/pietre-culori.htm)
-  **CAPRICORN**     [Agata](http://www.kristale.ro/agat.htm), [Ametist](http://www.kristale.ro/ametist.htm), Aventurin albastru, [Calcedonie](http://www.kristale.ro/calcedonie.htm), [Carneol](http://www.kristale.ro/carneol.htm), [Cristal de stanca](http://www.kristale.ro/cuart.htm), Crisopraz, [Cuart fumuriu](http://www.kristale.ro/cuartfumuriu.htm), [Cuart roz](http://www.kristale.ro/cuartroz.htm), [Fluorina](http://www.kristale.ro/fluorit.htm), [Granat](http://www.kristale.ro/granat.htm), [Jad](http://www.kristale.ro/jadeit.htm), [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), [Malahit](http://www.kristale.ro/malahit.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), [Ochi de pisica](http://www.kristale.ro/ochipisica.htm), Ochi de soim, [Ochi de tigru](http://www.kristale.ro/ochitigru.htm), [Onix](http://www.kristale.ro/onix.htm), Opal, [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), [Rubin](http://www.kristale.ro/rubin.htm), [Safir](http://www.kristale.ro/safir.htm), Spinel albastru, Topaz, Turmalina verde, [Turcoaz](http://www.kristale.ro/turcoaz.htm). **Talisman norocos:** [Rubin](http://www.kristale.ro/rubin.htm). **Recomandabil:** [PIETRE NEGRE](http://www.kristale.ro/pietre-culori.htm)
-  **VARSATOR**      [Agata de muschi](http://www.kristale.ro/agat.htm), [Acvamarin](http://www.kristale.ro/acvamarin.htm), [Ametist](http://www.kristale.ro/ametist.htm), [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), Crisopraz, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Fluorina](http://www.kristale.ro/fluorit.htm), [Granat](http://www.kristale.ro/granat.htm), [Hematit](http://www.kristale.ro/hematit.htm), Hiacint, [Jasp](http://www.kristale.ro/jasp.htm), [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Obsidian albastru, Ochi de soim, [Onix](http://www.kristale.ro/onix.htm), Opal, [Safir](http://www.kristale.ro/safir.htm), Topaz, [Turcoaz](http://www.kristale.ro/turcoaz.htm), Zircon. **Talisman norocos:** [Granat](http://www.kristale.ro/granat.htm), Hiacint. **Recomandabil:**  [PIETRE BLEU-CIEL](http://www.kristale.ro/pietre-culori.htm)
-  **PESTI**         [Acvamarin](http://www.kristale.ro/acvamarin.htm), Agat albastru, [Ametist](http://www.kristale.ro/ametist.htm), Azurit, [Chihlimbar](http://www.kristale.ro/chihlimbar.htm), [Citrin](http://www.kristale.ro/citrin.htm), Coral, Crisolit, [Cristal de stanca](http://www.kristale.ro/cuart.htm), [Fluorina](http://www.kristale.ro/fluorit.htm), [Hematit](http://www.kristale.ro/hematit.htm), Hiacint, [Jad](http://www.kristale.ro/jadeit.htm), [Jasp](http://www.kristale.ro/jasp.htm), [Lapis Lazuli](http://www.kristale.ro/lapislazuli.htm), [Moldavit](http://www.kristale.ro/moldavit.htm), Opal, Opal de foc, Peridot, Perla, [Piatra lunii](http://www.kristale.ro/piatralunii.htm), [Piatra sa](http://www.kristale.ro/heliotrop.htm)ngelui (Heliotrop), [Safir](http://www.kristale.ro/safir.htm), [Turcoaz](http://www.kristale.ro/turcoaz.htm), Tumalina. **Talisman norocos:** [Ametist](http://www.kristale.ro/ametist.htm). **Recomandabil:** [PIETRE ALBASTRU INCHIS, INDIGO SAU VIOLET](http://www.kristale.ro/pietre-culori.htm)
-  ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ **NTRU ZODIA:** **PIETRELE  RECOMANDATE SUNT:**
+ **BERBEC** Ametist, Acvamarin, Aventurin, Carneol, Citrin, Coral, Cristal de stanca, Cuart roz, Diamant, Granat, Hematit, Jad, Jasp rosu, Lacrima apasului (obsidian), Kianit, Malahit, Moldavit, Onix, Piatra sangelui (Heliotrop), Rodocrozit, Rodonit, Rubin, Safir, Smarald, Spinel. **Talisman norocos:** Diamant, Jasp rosu, Piatra sangelui (Heliotrop). **Recomandabil:** PIETRE ROSII
+ **TAUR** Acvamarin, Agat, Ametist, Aventurin, Calcedonie, Carneol, Chihlimbar, Citrin, Coral rosu, Crisocola, Crisopraz, Cristal de stanca, Cuart roz, Diamant, Iolit, Jad, Jasp rosu, Kunzit, Kianit, Lapis Lazuli, Malahit, Moldavit, Obsidian, Rodonit, Rubin, Safir, Selenit, Smarald, Spodumen (Kunzit), Turcoaz, Turmalina, Zircon. **Talisman norocos:** Diamant, Safir. **Recomandabil:** PIETRE PASTEL (ROZ, VERNIL)
+ **GEMENI** Acvamarin, Agat, Alexandrit, Ametist, Apatit, Aventurin, Beril, Calcedonie, Carneol, Celestit, Citrin, Crisoberil, Crisocola, Crisopraz, Cuart roz, Fluorina, Granat, Heliodor, Piatra sangelui (Heliotrop), Howlit, Jad, Jasp rosu, Moldavit, Obsidian verde, Ochi de tigru, Opal, Peridot, Perla, Safir, Smarald, Tanzanit, Topaz. **Talisman norocos:** Agat, Smarald.**Recomandabil:** PIETRE GALBENE
+ **RAC** Acvamarin, Agata de muschi, Aventurin, Calcedonie, Calcit, Carneol, Chihlimbar, Crisocola, Cristal de stanca, Crisopraz, Diamant, Fluorina, Granat, Jad, Moldavit, Opal, Ochi de tigru, Onix, Perla, Piatra lunii, Rubin, Smarald. **Talisman norocos:** Smarald, Agat, Calcedonie. **Recomandabil:** PIETRE ALBE, ARGINTII
+ **LEU** Acvamarin, Calcedonie, Carneol, Chihlimbar, Citrin, Crisoberil, Cristal de stanca, Diamant, Granat, Heliodor, Hiacint, Jad, Jasp cu model (peisaj), Labradorit, Moldavit, Obsidian rosu, Ochi de tigru, Ochi de pisica, Onix, Opal de foc, Peridot, Piatra Soarelui, Pirita, Rodocrozit, Rubin, Sardonix, Smarald, Topaz, Turmalina. **Talisman norocos:** Jad, Peridot, Onix, Chihlimbar. **Recomandabil:** PIETRE GALBENE, AURII, PORTOCALII, CU APE DE CURCUBEU
+ **FECIOARA** Agata de muschi, Agat galben, Amazonit, Ametist, Aventurin, Calcedonie, Carneol, Citrin, Coral, Crisocola, Crisolit, Crisopraz, Cristal de stanca, Cuart fumuriu, Cuart roz, Dioptaz, Granat, Hiacint, Jad, Jasp, Lapis Lazuli, Moldavit, Obsidian Fulg-de-nea, Ochi de tigru, Onix, Peridot, Piatra sangelui (Heliotrop), Rodocrozit, Safir galben, Sardonix, Sodalit, Sugilit, Topaz, Turmalina. **Talisman norocos:** Carneol, Sardonix. **Recomandabil:** PIETRE MARO, BEJ, VERZI
+ **BALANTA** Acvamarin, Amazonit, Ametist, Ametrin, Aventurin, Carneol, Citrin, Coral, Crisolit, Crisopraz, Cristal de stanca, Cuart fumuriu, Cuart roz, Diamant, Iolit, Jad, Kianit, Lapis Lazuli, Lepidolit, Malahit, Moldavit, Obsidian mahon, Onix, Opal, Opal negru, Peridot, Piatra lunii, Piatra sangelui (Heliotrop), Piatra Soarelui, Rubin, Safir, Sardonix, Tanzanit, Topaz, Turmalina bleu. **Talisman norocos:** Opal, Sardonix, Crisolit. **Recomandabil:** PIETRE VERZI
+ **SCORPION** Acvamarin, Agata de Botswana, Ametist, Beril, Carneol, Caroit, Crisolit, Cristal de stanca, Crisopraz, Coral, Granat, Heliodor, Hematit, Jasp, Labradorit, Malahit, Moldavit, Morganit, Obsidian albastru-verde, Ochi de pisica, Ochi de soim, Ochi de tigru, Opal negru, Peridot, Perla, Piatra lunii, Piatra sangelui (Heliotrop), Rodocrozit, Rubin, Sardonix, Topaz, Turmalina roz/Rubelit, Turcoaz, Unakit. **Talisman norocos:** Acvamarin, Beril. **Recomandabil:** PIETRE ROSU INCHIS, GRENA, BRUNE, NEGRE
+ **SAGETATOR** Acvamarin, Agata de foc, Ametist, Aventurin, Azurit, Calcedonie, Caroit, Chihlimbar, Citrin, Crisocola, Crisopraz, Cristal de stanca, Cuart fumuriu, Dioptaz, Granat, Iolit, Jasp, Labradorit, Lapis Lazuli, Malahit, Moldavit, Obsidian, Obsidian Fulg de nea, Onix, Opal de foc, Peridot, Piatra lunii, Perla, Piatra sangelui (Heliotrop), Rubin, Safir, Spinel, Topaz, Sodalit, Tanzanit, Turmalina roz/Rubelit, Turmalina neagra, Turcoaz, Topaz, Zircon albastru. **Talisman norocos:** Chihlimbar, Topaz, Perla. **Recomandabil:** PIETRE ALBASTRU DESCHIS
+ **CAPRICORN** Agata, Ametist, Aventurin albastru, Calcedonie, Carneol, Cristal de stanca, Crisopraz, Cuart fumuriu, Cuart roz, Fluorina, Granat, Jad, Lapis Lazuli, Malahit, Moldavit, Ochi de pisica, Ochi de soim, Ochi de tigru, Onix, Opal, Piatra sangelui (Heliotrop), Rubin, Safir, Spinel albastru, Topaz, Turmalina verde, Turcoaz. **Talisman norocos:** Rubin. **Recomandabil:** PIETRE NEGRE
+ **VARSATOR** Agata de muschi, Acvamarin, Ametist, Chihlimbar, Crisopraz, Cristal de stanca, Fluorina, Granat, Hematit, Hiacint, Jasp, Lapis Lazuli, Moldavit, Obsidian albastru, Ochi de soim, Onix, Opal, Safir, Topaz, Turcoaz, Zircon. **Talisman norocos:** Granat, Hiacint. **Recomandabil:**  PIETRE BLEU-CIEL
+ **PESTI** Acvamarin, Agat albastru, Ametist, Azurit, Chihlimbar, Citrin, Coral, Crisolit, Cristal de stanca, Fluorina, Hematit, Hiacint, Jad, Jasp, Lapis Lazuli, Moldavit, Opal, Opal de foc, Peridot, Perla, Piatra lunii, Piatra sangelui (Heliotrop), Safir, Turcoaz, Tumalina. **Talisman norocos:** Ametist. **Recomandabil:** PIETRE ALBASTRU INCHIS, INDIGO SAU VIOLET
+ ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[www.cristale.acvaria.com](http://www.cristale.acvaria.com/)
+www.cristale.acvaria.com
 
 **Disten** - **Al~2~O(SiO)~4~ -** triclinic
 
-![](media/image150.png){width="3.875in" height="2.3229166666666665in"}
+!{width="3.875in" height="2.3229166666666665in"}
 
 **Habitus** - cristale prismatice aplatizate şi alungite în lungul axei \"a\" cu feţele terminale neregulate.
 
@@ -2219,9 +2219,9 @@ Fluorescenţă - în lumină ultravioletă uneori devine fluorescent în tonuri 
 
 **Nume Alternative**
 
-**. [Kyanite](http://translate.googleusercontent.com/translate_c?hl=ro&sl=en&u=http://www.mystiquerose.com/amethyst-crystal&prev=/search%3Fq%3Dmoldavite%2Bstone%2Band%2Bmeditation%26hl%3Dro%26sa%3DG&rurl=translate.google.ro&usg=ALkJrhjA5uezn-qA2LPUhIW7kgRK7NtR9g) are mai multe denumiri alternative, inclusiv disthene, munkrudite şi disten. [Alb-kyanite](http://translate.googleusercontent.com/translate_c?hl=ro&sl=en&u=http://www.mystiquerose.com/amethyst-crystal&prev=/search%3Fq%3Dmoldavite%2Bstone%2Band%2Bmeditation%26hl%3Dro%26sa%3DG&rurl=translate.google.ro&usg=ALkJrhjA5uezn-qA2LPUhIW7kgRK7NtR9g) gri este, de asemenea numit rhaeticite.**
+**. Kyanite are mai multe denumiri alternative, inclusiv disthene, munkrudite şi disten. Alb-kyanite gri este, de asemenea numit rhaeticite.**
 
-Kyanite ![](media/image151.jpeg){width="0.9791666666666666in" height="0.9791666666666666in"}![](media/image152.jpeg){width="0.6236111111111111in" height="0.7798611111111111in"}
+Kyanite !{width="0.9791666666666666in" height="0.9791666666666666in"}!{width="0.6236111111111111in" height="0.7798611111111111in"}
 
 Disten\
 Origin Origin
@@ -2252,7 +2252,7 @@ Vibrates to the number 4 Vibreaza la numărul 4
 
 **Asociatii Kyanite:**
 
-*Zodiac* - [Aries](http://209.85.229.132/translate_c?hl=ro&sl=en&u=http://www.charmsoflight.com/birthstones/aries.html&prev=/search%3Fq%3Dkyanite%2Bproperties%26hl%3Dro&rurl=translate.google.ro&usg=ALkJrhgJK1K67jVlSneEgkj7n3yAhWnTvg) , [Taurus](http://209.85.229.132/translate_c?hl=ro&sl=en&u=http://www.charmsoflight.com/birthstones/taurus.html&prev=/search%3Fq%3Dkyanite%2Bproperties%26hl%3Dro&rurl=translate.google.ro&usg=ALkJrhj5OvinJP-1pLoCXLLt8EboNqqsuA) , [Libra](http://209.85.229.132/translate_c?hl=ro&sl=en&u=http://www.charmsoflight.com/birthstones/libra.html&prev=/search%3Fq%3Dkyanite%2Bproperties%26hl%3Dro&rurl=translate.google.ro&usg=ALkJrhgump_On9jEHc7dYyhxqX4xPDFAxA) *Horoscop* - [Berbec,](http://209.85.229.132/translate_c?hl=ro&sl=en&u=http://www.charmsoflight.com/birthstones/aries.html&prev=/search%3Fq%3Dkyanite%2Bproperties%26hl%3Dro&rurl=translate.google.ro&usg=ALkJrhgJK1K67jVlSneEgkj7n3yAhWnTvg) [Taur,](http://209.85.229.132/translate_c?hl=ro&sl=en&u=http://www.charmsoflight.com/birthstones/taurus.html&prev=/search%3Fq%3Dkyanite%2Bproperties%26hl%3Dro&rurl=translate.google.ro&usg=ALkJrhj5OvinJP-1pLoCXLLt8EboNqqsuA) [Balanta](http://209.85.229.132/translate_c?hl=ro&sl=en&u=http://www.charmsoflight.com/birthstones/libra.html&prev=/search%3Fq%3Dkyanite%2Bproperties%26hl%3Dro&rurl=translate.google.ro&usg=ALkJrhgump_On9jEHc7dYyhxqX4xPDFAxA)\
+*Zodiac* - Aries , Taurus , Libra *Horoscop* - Berbec, Taur, Balanta\
 *Typical colours -* Blue, grey, black, green *Culorile tipice -* albastru, gri, negru, verde
 
 Kyanite este o piatra excelent pentru meditaţie şi de initiere. Acesta nu va reţine vibratii negative sau de energie, prin urmare, nu necesită de compensare. Aliniază Kyanite toate chakrele şi organismele subtile instantaneu. Acesta furnizează balanţa de yin-yang de energie şi blocajele risipeşte, care se deplasează de energie uşor prin intermediul corpul fizic.
@@ -2269,11 +2269,11 @@ Chevron Ametist este una dintre cele mai bune pietre pentru a lucra cu al treile
 \
 Utilizaţi Tumbled Chevron Ametist pentru a ajuta la eliminarea rezistenta la schimbare, şi de a risipi şi respinge negativitate de toate felurile.   Chevron Amethyst creează un câmp puternic de vindecare în jurul utilizatorului, şi, ca atare, este o alegere bună pentru a accelera vindecarea fizice şi de a stimula sistemul imunitar.
 
-![](media/image153.png){width="3.75in" height="3.0375in"}
+!{width="3.75in" height="3.0375in"}
 
 Ametist, Chevron
 
-![](media/image154.png){width="0.6819444444444445in" height="0.10416666666666667in"}
+!{width="0.6819444444444445in" height="0.10416666666666667in"}
 
 . Chevron Ametist (denumit şi \"banded Ametist\") este o combinaţie de Ametist şi alb de cuarţ, amestecate împreună într-o V-dungi sau banded de model. Chevron Ametist combină consolidarea şi îmbunătăţirea calităţi de cuarţ cu detensionare calităţile Ametist. Acest simbiotice combinaţie de minerale se pretează la o piatră minunat spirituală, care este foarte uşor pentru a scoate voaluri obscur că unele dintre sensuri ascunse în viaţă.\
 \
@@ -2330,7 +2330,7 @@ STAR sources-moldavite
 
 PIETRE PRETIOASE CAND VISEZI
 
-![](media/image155.jpeg){width="0.9263888888888889in" height="1.3944444444444444in"}
+!{width="0.9263888888888889in" height="1.3944444444444444in"}
 
 *Simbol de transformare, de transmutatie.\
 Reprezintã diferitele stadii atinse de-a lungul  proceselor de transformare personalã, virtutile dobândite ca urmare a acestor schimbãri interioare pe drumul evolutiei spirituale.\
@@ -2362,183 +2362,183 @@ Chihlimbarul, anuntã noroc femeii si este un semn negativ pentru bãrbat. El po
 *Inelul, brãtara, colierul, pentru cã formeazã un cerc complet, reprezintã toate o unire, o legãturã foarte serioasã si pot chiar semnifica o cãsãtorie.\
 Inelul, simbol al dragostei, ornat cu pietre pretioase, aratã calitatea iubirii care va veni.*
 
-[Biblia Ortodoxă](http://www.bibliaortodoxa.ro/) [căutare](http://www.bibliaortodoxa.ro/cautare.php) \| [tâlcuiri](http://www.bibliaortodoxa.ro/Biblia-talcuita.php) \| [resurse](http://www.bibliaortodoxa.ro/resurse-biblie.php) \| [contact](http://www.bibliaortodoxa.ro/contact.php)
+Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rezultate căutare \[[**?**](http://www.bibliaortodoxa.ro/cautare-rezultate.php?text=ametist&carte1%5B%5D=25&carte1%5B%5D=32&carte1%5B%5D=47&carte1%5B%5D=59&carte1%5B%5D=17&carte1%5B%5D=41&carte1%5B%5D=46&carte1%5B%5D=71&carte1%5B%5D=66&carte1%5B%5D=67&carte1%5B%5D=68&carte1%5B%5D=69&carte1%5B%5D=14&carte1%5B%5D=15&carte1%5B%5D=23&carte1%5B%5D=58&carte1%5B%5D=21&carte1%5B%5D=42&carte1%5B%5D=65&carte1%5B%5D=63&carte1%5B%5D=18&carte1%5B%5D=9&carte1%5B%5D=43&carte1%5B%5D=31&carte1%5B%5D=64&carte1%5B%5D=33&carte1%5B%5D=16&carte1%5B%5D=60&carte1%5B%5D=3&carte1%5B%5D=56&carte1%5B%5D=39&carte1%5B%5D=6&carte1%5B%5D=40&carte1%5B%5D=57&carte1%5B%5D=5&carte1%5B%5D=73&carte1%5B%5D=2&carte1%5B%5D=82&carte1%5B%5D=52&carte1%5B%5D=81&carte1%5B%5D=45&carte1%5B%5D=8&carte1%5B%5D=20&carte1%5B%5D=1&carte1%5B%5D=24&carte1%5B%5D=74&carte1%5B%5D=72&carte1%5B%5D=75&carte1%5B%5D=7&carte1%5B%5D=49&carte1%5B%5D=50&carte1%5B%5D=51&carte1%5B%5D=54&carte2%5B%5D=55&carte2%5B%5D=53&carte2%5B%5D=48&carte2%5B%5D=35&carte2%5B%5D=26&carte2%5B%5D=70&carte2%5B%5D=12&carte2%5B%5D=13&carte2%5B%5D=29&carte2%5B%5D=19&carte2%5B%5D=28&carte2%5B%5D=10&carte2%5B%5D=76&carte2%5B%5D=77&carte2%5B%5D=78&carte2%5B%5D=79&carte2%5B%5D=80&carte2%5B%5D=27&carte2%5B%5D=22&carte2%5B%5D=30&carte2%5B%5D=61&carte2%5B%5D=62&carte2%5B%5D=36&carte2%5B%5D=37&carte2%5B%5D=38&carte2%5B%5D=44&carte2%5B%5D=4#info)\] |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| S-a cautat: **ametist**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| S-au găsit **3** versete.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Apocalipsa Sfântului Ioan Teologul**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [Cap. 21](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=21)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [20](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=21#20). A cincea de sardonix, a şasea de sardiu, a şaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de **ametist**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Ieşirea - a doua carte a lui Moise**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [Cap. 28](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=28)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [19](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=28#19). În rândul al treilea: un opal, o agată şi un **ametist**;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [Cap. 39](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=39)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [12](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=39#12). În rândul al treilea: un opal, o agată şi un **ametist**;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Rezultate căutare \[**?**\] |
+| |
+| S-a cautat: **ametist** |
+| |
+| S-au găsit **3** versete. |
+| |
+| **Apocalipsa Sfântului Ioan Teologul** |
+| |
+| Cap. 21 |
+| |
+| 20. A cincea de sardonix, a şasea de sardiu, a şaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de **ametist**.  |
+| |
+| **Ieşirea - a doua carte a lui Moise** |
+| |
+| Cap. 28 |
+| |
+| 19. În rândul al treilea: un opal, o agată şi un **ametist**;  |
+| |
+| Cap. 39 |
+| |
+| 12. În rândul al treilea: un opal, o agată şi un **ametist**;  |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-**http://www.bibliaortodoxa.ro/cautare.php**
+**
 
-http://www.bibliaortodoxa.ro/
 
-http://www.razboiulnevazut.org/capitol.php?id=1131
 
-http://www.ortodoxism.ro/carte.shtml\#pomenireadupa
 
-http://www.ortodoxism.ro/link.shtml
 
-[Biblia Ortodoxă](http://www.bibliaortodoxa.ro/) [căutare](http://www.bibliaortodoxa.ro/cautare.php) \| [tâlcuiri](http://www.bibliaortodoxa.ro/Biblia-talcuita.php) \| [resurse](http://www.bibliaortodoxa.ro/resurse-biblie.php) \| [contact](http://www.bibliaortodoxa.ro/contact.php)
+
+
+
+
+Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 
 **Apocalipsa Sfântului Ioan Teologul**
 
-[1](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=1) [2](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=2) [3](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=3) [4](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=4) [5](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=5) [6](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=6) [7](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=7) [8](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=8) [9](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=9) [10](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=10) [11](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=11) [12](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=12) [13](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=13) [14](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=14) [15](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=15) [16](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=16) [17](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=17) [18](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=18) [19](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=19) [20](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=20) 21 [22](http://www.bibliaortodoxa.ro/carte.php?id=4&cap=22)
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
 
 **Capitolul 21**
 
-  ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  1\.    Şi am văzut cer nou şi pământ nou. Căci cerul cel dintâi şi pământul cel dintâi au trecut; şi marea nu mai este. 
-  2\.    Şi am văzut cetatea sfântă, noul Ierusalim, pogorându-se din cer de la Dumnezeu, gătită ca o mireasă, împodobită pentru mirele ei. 
-  3\.    Şi am auzit, din tron, un glas puternic care zicea: Iată, cortul lui Dumnezeu este cu oamenii şi El va sălăşlui cu ei şi ei vor fi poporul Lui şi însuşi Dumnezeu va fi cu ei. 
-  4\.    Şi va şterge orice lacrimă din ochii lor şi moarte nu va mai fi; nici plângere, nici strigăt, nici durere nu vor mai fi, căci cele dintâi au trecut. 
-  5\.    Şi Cel ce şedea pe tron a grăit: Iată, noi le facem pe toate. Şi a zis: Scrie, fiindcă aceste cuvinte sunt vrednice de crezare şi adevărate. 
-  6\.    Şi iar mi-a zis: Făcutu-s-a! Eu sunt Alfa şi Omega, începutul şi sfârşitul. Celui ce însetează îi voi da să bea, în dar, din izvorul apei vieţii. 
-  7\.    Cel ce va birui va moşteni acestea şi-i voi fi lui Dumnezeu şi el Îmi va fi Mie fiu 
-  8\.    Iar partea celor fricoşi şi necredincioşi şi spurcaţi şi ucigaşi şi desfrânaţi şi fermecători şi închinători de idoli şi a tuturor celor mincinoşi este în iezerul care arde, cu foc şi cu pucioasă, care este moartea a doua. 
-  9\.    Şi a venit unul din cei şapte îngeri, care aveau cele şapte cupe pline cu cele din urmă şapte pedepse, şi a grăit către mine zicând: Vino să-ţi arăt pe mireasa, femeia Mielului. 
-  10\.   Şi m-a dus pe mine, în duh, într-un munte mare şi înalt şi mi-a arătat cetatea cea sfântă, Ierusalimul, pogorându-se din cer, de la Dumnezeu, 
-  11\.   Având slava lui Dumnezeu. Lumina ei era asemenea cu cea a pietrei de mare preţ, ca piatra de iaspis, limpede cum e cristalul. 
-  12\.   Şi avea zid mare şi înalt şi avea douăsprezece porţi, iar la porţi douăsprezece îngeri şi nume scrise deasupra, care sunt numele celor douăsprezece seminţii ale fiilor lui Israel. 
-  13\.   Spre răsărit trei porţi şi spre miazănoapte trei porţi şi spre miazăzi trei porţi şi spre apus trei porţi. 
-  14\.   Iar zidul cetăţii avea douăsprezece pietre de temelie şi în ele douăsprezece nume, ale celor douăsprezece apostoli ai Mielului. 
-  15\.   Şi cel ce vorbea cu mine avea pentru măsurat o trestie de aur, ca să măsoare cetatea şi porţile ei şi zidul ei. 
-  16\.   Şi cetatea este în patru colţuri şi lungimea ei este tot atâta cât şi lăţimea. Şi a măsurat cetatea cu trestia: douăsprezece mii de stadii. Lungimea şi lărgimea şi înălţimea ei sunt deopotrivă. 
-  17\.   Şi a măsurat şi zidul ei: o sută patruzeci şi patru de coţi, după măsura omenească, care este şi a îngerului. 
-  18\.   Şi zidăria zidului ei este de iaspis, iar cetatea este din aur curat, ca sticla cea curată. 
-  19\.   Temeliile zidului cetăţii sunt împodobite cu tot felul de pietre scumpe: întâia piatră de temelie este de iaspis, a doua din safir, a treia din halcedon, a patra de smarald, 
-  20\.   A cincea de sardonix, a şasea de sardiu, a şaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de ametist. 
-  21\.   Iar cele douăsprezece porţi sunt douăsprezece mărgăritare; fiecare din porţi este dintr-un mărgăritar. Şi piaţa cetăţii este de aur curat, şi străvezie ca sticla. 
-  22\.   Şi templu n-am văzut în ea, pentru că Domnul Dumnezeu, Atotţiitorul, şi Mielul este templul ei. 
-  23\.   Şi cetatea nu are trebuinţă de soare, nici de lună, ca să o lumineze, căci slava lui Dumnezeu a luminat-o şi făclia ei este Mielul. 
-  24\.   Şi neamurile vor umbla în lumina ei, iar împăraţii pământului vor aduce la ea mărirea lor. 
-  25\.   Şi porţile cetăţii nu se vor mai închide ziua, căci noaptea nu va mai fi acolo. 
-  26\.   Şi vor aduce în ea slava şi cinstea neamurilor. 
-  27\.   Şi în cetate nu va intra nimic pângărit şi nimeni care e dedat cu spurcăciunea şi cu minciuna, ci numai cei scrişi în Cartea vieţii Mielului. 
-  ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1\. Şi am văzut cer nou şi pământ nou. Căci cerul cel dintâi şi pământul cel dintâi au trecut; şi marea nu mai este. 
+ 2\. Şi am văzut cetatea sfântă, noul Ierusalim, pogorându-se din cer de la Dumnezeu, gătită ca o mireasă, împodobită pentru mirele ei. 
+ 3\. Şi am auzit, din tron, un glas puternic care zicea: Iată, cortul lui Dumnezeu este cu oamenii şi El va sălăşlui cu ei şi ei vor fi poporul Lui şi însuşi Dumnezeu va fi cu ei. 
+ 4\. Şi va şterge orice lacrimă din ochii lor şi moarte nu va mai fi; nici plângere, nici strigăt, nici durere nu vor mai fi, căci cele dintâi au trecut. 
+ 5\. Şi Cel ce şedea pe tron a grăit: Iată, noi le facem pe toate. Şi a zis: Scrie, fiindcă aceste cuvinte sunt vrednice de crezare şi adevărate. 
+ 6\. Şi iar mi-a zis: Făcutu-s-a! Eu sunt Alfa şi Omega, începutul şi sfârşitul. Celui ce însetează îi voi da să bea, în dar, din izvorul apei vieţii. 
+ 7\. Cel ce va birui va moşteni acestea şi-i voi fi lui Dumnezeu şi el Îmi va fi Mie fiu 
+ 8\. Iar partea celor fricoşi şi necredincioşi şi spurcaţi şi ucigaşi şi desfrânaţi şi fermecători şi închinători de idoli şi a tuturor celor mincinoşi este în iezerul care arde, cu foc şi cu pucioasă, care este moartea a doua. 
+ 9\. Şi a venit unul din cei şapte îngeri, care aveau cele şapte cupe pline cu cele din urmă şapte pedepse, şi a grăit către mine zicând: Vino să-ţi arăt pe mireasa, femeia Mielului. 
+ 10\. Şi m-a dus pe mine, în duh, într-un munte mare şi înalt şi mi-a arătat cetatea cea sfântă, Ierusalimul, pogorându-se din cer, de la Dumnezeu, 
+ 11\. Având slava lui Dumnezeu. Lumina ei era asemenea cu cea a pietrei de mare preţ, ca piatra de iaspis, limpede cum e cristalul. 
+ 12\. Şi avea zid mare şi înalt şi avea douăsprezece porţi, iar la porţi douăsprezece îngeri şi nume scrise deasupra, care sunt numele celor douăsprezece seminţii ale fiilor lui Israel. 
+ 13\. Spre răsărit trei porţi şi spre miazănoapte trei porţi şi spre miazăzi trei porţi şi spre apus trei porţi. 
+ 14\. Iar zidul cetăţii avea douăsprezece pietre de temelie şi în ele douăsprezece nume, ale celor douăsprezece apostoli ai Mielului. 
+ 15\. Şi cel ce vorbea cu mine avea pentru măsurat o trestie de aur, ca să măsoare cetatea şi porţile ei şi zidul ei. 
+ 16\. Şi cetatea este în patru colţuri şi lungimea ei este tot atâta cât şi lăţimea. Şi a măsurat cetatea cu trestia: douăsprezece mii de stadii. Lungimea şi lărgimea şi înălţimea ei sunt deopotrivă. 
+ 17\. Şi a măsurat şi zidul ei: o sută patruzeci şi patru de coţi, după măsura omenească, care este şi a îngerului. 
+ 18\. Şi zidăria zidului ei este de iaspis, iar cetatea este din aur curat, ca sticla cea curată. 
+ 19\. Temeliile zidului cetăţii sunt împodobite cu tot felul de pietre scumpe: întâia piatră de temelie este de iaspis, a doua din safir, a treia din halcedon, a patra de smarald, 
+ 20\. A cincea de sardonix, a şasea de sardiu, a şaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de ametist. 
+ 21\. Iar cele douăsprezece porţi sunt douăsprezece mărgăritare; fiecare din porţi este dintr-un mărgăritar. Şi piaţa cetăţii este de aur curat, şi străvezie ca sticla. 
+ 22\. Şi templu n-am văzut în ea, pentru că Domnul Dumnezeu, Atotţiitorul, şi Mielul este templul ei. 
+ 23\. Şi cetatea nu are trebuinţă de soare, nici de lună, ca să o lumineze, căci slava lui Dumnezeu a luminat-o şi făclia ei este Mielul. 
+ 24\. Şi neamurile vor umbla în lumina ei, iar împăraţii pământului vor aduce la ea mărirea lor. 
+ 25\. Şi porţile cetăţii nu se vor mai închide ziua, căci noaptea nu va mai fi acolo. 
+ 26\. Şi vor aduce în ea slava şi cinstea neamurilor. 
+ 27\. Şi în cetate nu va intra nimic pângărit şi nimeni care e dedat cu spurcăciunea şi cu minciuna, ci numai cei scrişi în Cartea vieţii Mielului. 
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Biblia Ortodoxă](http://www.bibliaortodoxa.ro/) [căutare](http://www.bibliaortodoxa.ro/cautare.php) \| [tâlcuiri](http://www.bibliaortodoxa.ro/Biblia-talcuita.php) \| [resurse](http://www.bibliaortodoxa.ro/resurse-biblie.php) \| [contact](http://www.bibliaortodoxa.ro/contact.php)
+Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 
 **Ieşirea - a doua carte a lui Moise**
 
-[1](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=1) [2](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=2) [3](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=3) [4](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=4) [5](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=5) [6](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=6) [7](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=7) [8](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=8) [9](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=9) [10](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=10) [11](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=11) [12](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=12) [13](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=13) [14](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=14) [15](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=15) [16](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=16) [17](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=17) [18](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=18) [19](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=19) [20](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=20) [21](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=21) [22](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=22) [23](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=23) [24](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=24) [25](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=25) [26](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=26) [27](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=27) 28 [29](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=29) [30](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=30) [31](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=31) [32](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=32) [33](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=33) [34](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=34) [35](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=35) [36](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=36) [37](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=37) [38](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=38) [39](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=39) [40](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=40)
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
 
 **Capitolul 28**
 
-  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  1\.    \"Să iei la tine pe Aaron, fratele tău, şi pe fiii lui, ca dintre fiii lui Israel să-Mi fie preoţi Aaron şi fiii lui Aaron: Nadab, Abiud, Eleazar şi Itamar. 
-  2\.    Să faci lui Aaron, fratele tău, veşminte sfinţite, spre cinste şi podoabă. 
-  3\.    Să spui dar, la toţi cei iscusiţi, pe care i-am umplut de duhul înţelepciunii şi al priceperii, să facă lui Aaron veşminte sfinţite pentru ziua sfinţirii lui, cu care să-Mi slujească. 
-  4\.    Iată dar veşmintele ce trebuie să facă: hoşen, efod, meil, hiton, chidar şi cingătoare. Acestea sunt veşmintele sfinţite, ce trebuie să facă ei lui Aaron, fratele tău, şi fiilor lui, ca să-Mi slujească ei ca preoţi. 
-  6\.    Şi vor face efod lucrat cu iscusinţă din fire de aur, de mătase violetă, stacojie şi vişinie, răsucită şi de în răsucit. 
-  7\.    Acesta va fi din două bucăţi: una pe piept şi alta pe spate, unite pe umeri cu două încheietori. 
-  8\.    Cingătoarea efodului, care vine peste el, să fie lucrată la fel cu el, din fire de aur curat, de mătase violetă, stacojie şi vişinie, răsucită şi de în răsucit 
-  9\.    Apoi să iei două pietre, amândouă pietrele să fie de smarald, şi să sapi pe ele numele fiilor lui Israel: 
-  10\.   Şase nume pe o piatră şi celelalte şase nume pe cealaltă piatră, după rânduiala în care s-au născut ei. 
-  11\.   Cum fac săpătorii în piatră, care sapă peceţi, aşa să fie săpătura pe cele două pietre cu numele fiilor lui Israel şi să aşezi pietrele în cuibuleţe de aur curat. 
-  12\.   Aceste două pietre să le pui încheietori la efod. Pietrele acestea vor fi spre pomenirea fiilor lui Israel şi Aaron va purta numele fiilor lui Israel, spre pomenire înaintea Domnului, pe amândoi umerii săi. 
-  13\.   Să faci cuibuleţe de aur curat. 
-  14\.   Apoi să faci două lănţişoare tot de aur curat; acestea să le faci, răsucite ca sfoara; şi să prinzi lănţişoarele cele răsucite de cuibuleţele de la încheietorile efodului, în partea de dinainte. 
-  15\.   Să faci hoşenul judecăţii, lucrat cu iscusinţă, la fel cu efodul: din fire de aur, de mătase violetă, stacojie, vişinie şi de în răsucit. 
-  16\.   Acesta să fie îndoit, în patru colţuri, lung de o palmă şi lat de o palmă. 
-  17\.   Pe el să aşezi o înfloritură de pietre scumpe, înşirate în patru rânduri. Un rând de pietre să fie: un sardeon, un topaz şi un smarald; acesta e rândul întâi. 
-  18\.   În rândul al doilea: un rubin, un safir şi un diamant; 
-  19\.   În rândul al treilea: un opal, o agată şi un ametist; 
-  20\.   Şi în rândul al patrulea: un hrisolit, un onix şi un iaspis. Acestea trebuie să fie aşezate după rânduiala lor în cuibuleţe de aur. 
-  21\.   Pietrele acestea trebuie să fie în număr de douăsprezece, după numărul numelor celor doisprezece fii ai lui Israel, înşirate pe cele două pietre de pe umeri, după numele lor şi după rânduiala în care s au născut ei. Pe fiecare trebuie să sapi, ca pe pecete, câte un nume din numărul celor douăsprezece seminţii. 
-  22\.   Apoi să faci pentru hoşen lănţişoare de aur curat, lucrat răsucit, ca sfoara. 
-  23\.   Să mai faci pentru hoşen două verigi de aur şi aceste două verigi de aur să le prinzi de cele două colţuri de sus ale hoşenului; 
-  24\.   Să introduci cele două lănţişoare împletite de aur în cele două verigi din cele două colţuri ale hoşenului 
-  25\.   Şi să prinzi celelalte două capete ale lănţişoarelor de cuibuleţele efodului de pe umeri, în partea de dinainte. 
-  26\.   Şi să mai faci două verigi de aur şi să le prinzi de colţurile de jos ale hoşenului, care cad pe cingătoarea efodului. 
-  27\.   Apoi să mai faci încă două verigi de aur şi să le prinzi de cele două margini de jos ale efodului, pe partea de dinainte, deasupra cingătorii efodului 
-  28\.   Şi să prinzi verigile hoşenului de verigile efodului cu un şnur de mătase albastră, ca să stea peste cingătoarea efodului şi ca hoşenul să nu se mişte de pe efod. 
-  29\.   Şi va purta Aaron, când va intra în cortul adunării, numele fiilor lui Israel pe hoşenul judecăţii, la inima sa, spre veşnică pomenire înaintea Domnului. 
-  30\.   În hoşenul judecăţii să pui Urim şi Tumim; şi vor fi acestea la inima lui Aaron, când va intra el în cortul adunării să se înfăţişeze înaintea Domnului. Astfel va purta Aaron pururea la inima sa judecata fiilor lui Israel, înaintea Domnului. 
-  31\.   Să faci apoi meilul de sub efod tot de mătase vişinie. 
-  32\.   Acesta va avea la mijloc, sus, o deschizătură pentru cap şi deschizătura să aibă împrejur un guler ţesut ca platoşa, ca să nu se rupă. 
-  33\.   Iar pe la poale îi vei face de jur împrejur ciucuri tot de mătase violetă, stacojie, vişinie şi de în răsucit; 
-  34\.   Şi printre ciucuri vei pune clopoţei de aur de jur împrejur aşa: un ciucure şi un clopoţel de aur, un ciucure şi un clopoţel de aur. 
-  35\.   Şi acesta va fi pe Aaron în timpul slujbei, când va intra în cortul sfânt, înaintea Domnului, şi când va ieşi, ca să se audă sunetul clopoţeilor şi să nu moară. 
-  36\.   Să faci după aceea o tăbliţă şlefuită, de aur curat, şi să sapi pe ea, cum se sapă pe pecete, cuvintele: \"Sfinţenia Domnului\", 
-  37\.   Şi s-o prinzi cu şnur de mătase violetă de chidar, aşa ca să vină în partea de dinainte a chidarului. 
-  38\.   Aceasta va fi pe fruntea lui Aaron şi Aaron va purta pe fruntea sa neajunsurile prinoaselor afierosite de fiii lui Israel şi ale tuturor darurilor aduse de ei; ea va fi pururea pe fruntea lui, pentru a atrage bunăvoinţa Domnului spre ei. 
-  39\.   Hitonul să-l faci de în şi tot de în să faci şi mitra, iar cingătoarea să o faci brodată cu mătase de felurite culori. 
-  40\.   Să faci de asemenea şi fiilor lui Aaron hitoane şi cingători; şi să le faci şi turbane pentru cinste şi podoabă. 
-  41\.   Să îmbraci cu acestea pe fratele tău Aaron şi împreună cu el şi pe fiii lui, să-i ungi, să-i întăreşti în slujbele lor şi să-i sfinţeşti, ca să-Mi fie preoţi. 
-  42\.   Să le faci pantaloni de în, de la brâu până sub genunchi, ca să-şi acopere goliciunea trupului lor; 
-  43\.   Aaron şi fiii lui să se îmbrace când vor intra în cortul adunării sau când se vor apropia de jertfelnic, în sfânta, ca să slujească, pentru a nu-şi atrage păcat asupra lor şi să moară. Aceasta să fie lege veşnică pentru el şi pentru urmaşii lui e 
-  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1\. \"Să iei la tine pe Aaron, fratele tău, şi pe fiii lui, ca dintre fiii lui Israel să-Mi fie preoţi Aaron şi fiii lui Aaron: Nadab, Abiud, Eleazar şi Itamar. 
+ 2\. Să faci lui Aaron, fratele tău, veşminte sfinţite, spre cinste şi podoabă. 
+ 3\. Să spui dar, la toţi cei iscusiţi, pe care i-am umplut de duhul înţelepciunii şi al priceperii, să facă lui Aaron veşminte sfinţite pentru ziua sfinţirii lui, cu care să-Mi slujească. 
+ 4\. Iată dar veşmintele ce trebuie să facă: hoşen, efod, meil, hiton, chidar şi cingătoare. Acestea sunt veşmintele sfinţite, ce trebuie să facă ei lui Aaron, fratele tău, şi fiilor lui, ca să-Mi slujească ei ca preoţi. 
+ 6\. Şi vor face efod lucrat cu iscusinţă din fire de aur, de mătase violetă, stacojie şi vişinie, răsucită şi de în răsucit. 
+ 7\. Acesta va fi din două bucăţi: una pe piept şi alta pe spate, unite pe umeri cu două încheietori. 
+ 8\. Cingătoarea efodului, care vine peste el, să fie lucrată la fel cu el, din fire de aur curat, de mătase violetă, stacojie şi vişinie, răsucită şi de în răsucit 
+ 9\. Apoi să iei două pietre, amândouă pietrele să fie de smarald, şi să sapi pe ele numele fiilor lui Israel: 
+ 10\. Şase nume pe o piatră şi celelalte şase nume pe cealaltă piatră, după rânduiala în care s-au născut ei. 
+ 11\. Cum fac săpătorii în piatră, care sapă peceţi, aşa să fie săpătura pe cele două pietre cu numele fiilor lui Israel şi să aşezi pietrele în cuibuleţe de aur curat. 
+ 12\. Aceste două pietre să le pui încheietori la efod. Pietrele acestea vor fi spre pomenirea fiilor lui Israel şi Aaron va purta numele fiilor lui Israel, spre pomenire înaintea Domnului, pe amândoi umerii săi. 
+ 13\. Să faci cuibuleţe de aur curat. 
+ 14\. Apoi să faci două lănţişoare tot de aur curat; acestea să le faci, răsucite ca sfoara; şi să prinzi lănţişoarele cele răsucite de cuibuleţele de la încheietorile efodului, în partea de dinainte. 
+ 15\. Să faci hoşenul judecăţii, lucrat cu iscusinţă, la fel cu efodul: din fire de aur, de mătase violetă, stacojie, vişinie şi de în răsucit. 
+ 16\. Acesta să fie îndoit, în patru colţuri, lung de o palmă şi lat de o palmă. 
+ 17\. Pe el să aşezi o înfloritură de pietre scumpe, înşirate în patru rânduri. Un rând de pietre să fie: un sardeon, un topaz şi un smarald; acesta e rândul întâi. 
+ 18\. În rândul al doilea: un rubin, un safir şi un diamant; 
+ 19\. În rândul al treilea: un opal, o agată şi un ametist; 
+ 20\. Şi în rândul al patrulea: un hrisolit, un onix şi un iaspis. Acestea trebuie să fie aşezate după rânduiala lor în cuibuleţe de aur. 
+ 21\. Pietrele acestea trebuie să fie în număr de douăsprezece, după numărul numelor celor doisprezece fii ai lui Israel, înşirate pe cele două pietre de pe umeri, după numele lor şi după rânduiala în care s au născut ei. Pe fiecare trebuie să sapi, ca pe pecete, câte un nume din numărul celor douăsprezece seminţii. 
+ 22\. Apoi să faci pentru hoşen lănţişoare de aur curat, lucrat răsucit, ca sfoara. 
+ 23\. Să mai faci pentru hoşen două verigi de aur şi aceste două verigi de aur să le prinzi de cele două colţuri de sus ale hoşenului; 
+ 24\. Să introduci cele două lănţişoare împletite de aur în cele două verigi din cele două colţuri ale hoşenului 
+ 25\. Şi să prinzi celelalte două capete ale lănţişoarelor de cuibuleţele efodului de pe umeri, în partea de dinainte. 
+ 26\. Şi să mai faci două verigi de aur şi să le prinzi de colţurile de jos ale hoşenului, care cad pe cingătoarea efodului. 
+ 27\. Apoi să mai faci încă două verigi de aur şi să le prinzi de cele două margini de jos ale efodului, pe partea de dinainte, deasupra cingătorii efodului 
+ 28\. Şi să prinzi verigile hoşenului de verigile efodului cu un şnur de mătase albastră, ca să stea peste cingătoarea efodului şi ca hoşenul să nu se mişte de pe efod. 
+ 29\. Şi va purta Aaron, când va intra în cortul adunării, numele fiilor lui Israel pe hoşenul judecăţii, la inima sa, spre veşnică pomenire înaintea Domnului. 
+ 30\. În hoşenul judecăţii să pui Urim şi Tumim; şi vor fi acestea la inima lui Aaron, când va intra el în cortul adunării să se înfăţişeze înaintea Domnului. Astfel va purta Aaron pururea la inima sa judecata fiilor lui Israel, înaintea Domnului. 
+ 31\. Să faci apoi meilul de sub efod tot de mătase vişinie. 
+ 32\. Acesta va avea la mijloc, sus, o deschizătură pentru cap şi deschizătura să aibă împrejur un guler ţesut ca platoşa, ca să nu se rupă. 
+ 33\. Iar pe la poale îi vei face de jur împrejur ciucuri tot de mătase violetă, stacojie, vişinie şi de în răsucit; 
+ 34\. Şi printre ciucuri vei pune clopoţei de aur de jur împrejur aşa: un ciucure şi un clopoţel de aur, un ciucure şi un clopoţel de aur. 
+ 35\. Şi acesta va fi pe Aaron în timpul slujbei, când va intra în cortul sfânt, înaintea Domnului, şi când va ieşi, ca să se audă sunetul clopoţeilor şi să nu moară. 
+ 36\. Să faci după aceea o tăbliţă şlefuită, de aur curat, şi să sapi pe ea, cum se sapă pe pecete, cuvintele: \"Sfinţenia Domnului\", 
+ 37\. Şi s-o prinzi cu şnur de mătase violetă de chidar, aşa ca să vină în partea de dinainte a chidarului. 
+ 38\. Aceasta va fi pe fruntea lui Aaron şi Aaron va purta pe fruntea sa neajunsurile prinoaselor afierosite de fiii lui Israel şi ale tuturor darurilor aduse de ei; ea va fi pururea pe fruntea lui, pentru a atrage bunăvoinţa Domnului spre ei. 
+ 39\. Hitonul să-l faci de în şi tot de în să faci şi mitra, iar cingătoarea să o faci brodată cu mătase de felurite culori. 
+ 40\. Să faci de asemenea şi fiilor lui Aaron hitoane şi cingători; şi să le faci şi turbane pentru cinste şi podoabă. 
+ 41\. Să îmbraci cu acestea pe fratele tău Aaron şi împreună cu el şi pe fiii lui, să-i ungi, să-i întăreşti în slujbele lor şi să-i sfinţeşti, ca să-Mi fie preoţi. 
+ 42\. Să le faci pantaloni de în, de la brâu până sub genunchi, ca să-şi acopere goliciunea trupului lor; 
+ 43\. Aaron şi fiii lui să se îmbrace când vor intra în cortul adunării sau când se vor apropia de jertfelnic, în sfânta, ca să slujească, pentru a nu-şi atrage păcat asupra lor şi să moară. Aceasta să fie lege veşnică pentru el şi pentru urmaşii lui e 
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Biblia Ortodoxă](http://www.bibliaortodoxa.ro/) [căutare](http://www.bibliaortodoxa.ro/cautare.php) \| [tâlcuiri](http://www.bibliaortodoxa.ro/Biblia-talcuita.php) \| [resurse](http://www.bibliaortodoxa.ro/resurse-biblie.php) \| [contact](http://www.bibliaortodoxa.ro/contact.php)
+Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 
 **Ieşirea - a doua carte a lui Moise**
 
-[1](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=1) [2](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=2) [3](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=3) [4](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=4) [5](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=5) [6](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=6) [7](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=7) [8](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=8) [9](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=9) [10](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=10) [11](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=11) [12](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=12) [13](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=13) [14](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=14) [15](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=15) [16](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=16) [17](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=17) [18](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=18) [19](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=19) [20](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=20) [21](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=21) [22](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=22) [23](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=23) [24](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=24) [25](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=25) [26](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=26) [27](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=27) [28](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=28) [29](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=29) [30](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=30) [31](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=31) [32](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=32) [33](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=33) [34](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=34) [35](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=35) [36](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=36) [37](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=37) [38](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=38) 39 [40](http://www.bibliaortodoxa.ro/carte.php?id=32&cap=40)
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
 
 **Capitolul 39**
 
-  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  1\.    Iar din mătase violetă, stacojie şi vişinie au făcut veşminte de slujbă, pentru slujit în locaşul sfânt, şi au mai făcut veşminte sfinte pentru Aaron, cum poruncise Domnul  lui Moise. 
-  2\.    Au făcut efodul din fire de aur, din mătase violetă, stacojie şi vişinie şi din în răsucit. 
-  3\.    Şi anume: au desfăcut aurul în foi şi au tăiat fire, pe care le-au ţesut cu iscusinţă  printre firele de mătase violetă, stacojie şi vişinie şi de in răsucit, lucru  iscusit. 
-  4\.    I-au făcut încheietori de încheiat pe umeri şi au unit amândouă părţile lui. 
-  5\.    Brâul efodului, care vine peste el, la fel cu el, l-au făcut din fire de aur, din mătase violetă, stacojie     şi vişinie şi din în răsucit, cum poruncise Domnul lui Moise. 
-  6\.    Au lucrat apoi două   pietre de smarald, aşezându-le în cuibuleţe de aur şi săpând pe ele numele fiilor lui Israel, cum se sapă pe pecete, 
-  7\.    Şi le-au pus la încheieturile efodului, pe umeri, întru pomenirea fiilor lui Israel, cum poruncise Domnul lui Moise. 
-  8\.    Au făcut apoi hoşenul, lucrare iscusită, la fel cu efodul, din fire de aur şi din mătase violetă, stacojie   şi vişinie şi din în răsucit. 
-  9\.    Hoşenul l-au făcut dublu, în patru colţuri, lung de o palmă şi lat de o palmă. 
-  10\.   Şi au pus pe el pietre scumpe, aşezate în patru rânduri: într-un rând un sardeon, un topaz şi un smarald - rândul întâi; 
-  11\.   În rândul al doilea: un rubin, un safir şi un diamant; 
-  12\.   În rândul al treilea: un opal, o agată şi un ametist; 
-  13\.   Şi în rândul al patrulea: un hrisolit, un onix şi un iaspis. Ele erau aşezate în cuibuleţe de aur. 
-  14\.   Pietrele acestea erau în număr de douăsprezece, după numărul fiilor lui Israel, şi pe fiecare din ele era săpat, ca pe pecete, câte un nume, din cele ale celor douăsprezece seminţii. 
-  15\.   La hoşen au făcut apoi lănţişoare groase de aur curat şi lucrate răsucit, ca sfoara; 
-  16\.   Au mai făcut două rozete şi două verigi de aur şi au prins cele două verigi de cele două colţuri de sus ale hoşenului; 
-  17\.   Şi au agăţat două capete ale lănţişoarelor de cele două verigi din colturile hoşenului, 
-  18\.   Iar celelalte două capete ale celor două lănţişoare le-au agăţat de cele două rozete şi le-au prins pe acestea de încheieturile efodului, pe faţa acestuia. 
-  19\.   După aceea au mai făcut încă două verigi de aur şi le-au prins de celelalte două colţuri ale hoşenului pe cealaltă parte dinspre efod; 
-  20\.   Şi au mai făcut şi alte două verigi de aur şi le-au prins de cele două încheieturi ale efodului, dedesubt, pe faţa lui, unde se unesc, mai sus de încingătoarea efodului. 
-  21\.   Şi au legat hoşenul cu verigile lui de verigile efodului cu un şnur de mătase violetă, ca să stea deasupra încingătorii efodului şi ca să nu cadă hoşenul de pe efod, cum poruncise Domnul lui Moise. 
-  22\.   Iar meilul care vine sub efod, l-au făcut din purpură ţesută violet. 
-  23\.   Acesta avea în partea de sus o deschizătură şi împrejurul acestei deschizături avea un guler, ţesut ca o platoşă, ca să nu se rupă. 
-  24\.   Meilului i-au făcut pe la poale ciucuri de mătase violetă, stacojie şi vişinie şi de în răsucit; 
-  25\.   I-au mai făcut şi clopoţei de aur curat şi au pus clopoţei printre ciucurii de la poalele meilului de jur împrejur; 
-  26\.   Şi i-au aşezat pe la poalele meilului de slujbă aşa: un clopoţel şi un ciucure, un clopoţel şi un ciucure, cum poruncise Domnul lui Moise. 
-  27\.   Au făcut apoi pentru Aaron şi pentru fiii lui hitoane ţesute din în, 
-  28\.   Chidare de în, turbane tot de în şi pantaloni de în răsucit; 
-  29\.   Şi cingătoare din în răsucit şi de mătase violetă, stacojie şi vişinie, ţesută cu alesături, cum poruncise Domnul lui Moise. 
-  30\.   După aceea au făcut o tăbliţă de aur curat, diadema sfinţeniei, şi au săpat pe ea, ca pe pecete, cuvintele: \"Sfinţenia Domnului\". 
-  31\.   Şi au prins de ea un şnur de mătase violetă, ca s-o lege peste chidar, cum poruncise Domnul lui Moise. 
-  32\.   Aşa s-au sfârşit toate lucrările de la cortul adunării. Şi au făcut fiii lui Israel toate; cum poruncise Domnul lui Moise aşa au făcut. 
-  33\.   Apoi au adus la Moise: cortul, acoperămintele şi toate cele de trebuinţă ale lui, cârligele lui, scândurile lui, pârghiile lui, stâlpii lui şi postamentele lui; 
-  34\.   Acoperişurile cele cu piei roşii de berbec şi acoperişurile cele de piei vinete şi perdeaua din mijloc; 
-  35\.   Chivotul legii, capacul lui şi pârghiile; 
-  36\.   Masa cu toate cele de trebuinţă pentru ea şi pâinile de pus înainte; 
-  37\.   Sfeşnicul cel de aur curat, candelele lui, candele puse în el la locul lor, şi toate cele trebuincioase pentru el şi untdelemn de ars; 
-  38\.   Jertfelnicul cel de aur, mirul pentru ungere, miresme pentru tămâiere şi perdeaua de la intrarea cortului; 
-  39\.   Jertfelnicul cel de aramă, cămaşa lui cea de aramă, pârghiile lui şi toate cele trebuitoare pentru el, baia şi postamentul ei; 
-  40\.   Perdelele curţii, stâlpii ei şi postamentele lor, perdelele de la intrarea curţii, frânghiile, ţăruşii şi toate lucrurile trebuitoare la slujbă în cortul adunării; 
-  41\.   Veşmintele de slujit în cort, veşmintele sfinte ale preotului Aaron şi veşmintele de slujbă pentru fiii lui. 
-  42\.   Toate aceste lucruri le făcuseră fiii lui Israel aşa cum poruncise Domnul lui Moise. 
-  43\.   Şi privi Moise toată lucrarea şi iată ei o făcuseră aşa cum poruncise Domnul şi Moise i-a binecuvântat. 
-  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1\. Iar din mătase violetă, stacojie şi vişinie au făcut veşminte de slujbă, pentru slujit în locaşul sfânt, şi au mai făcut veşminte sfinte pentru Aaron, cum poruncise Domnul  lui Moise. 
+ 2\. Au făcut efodul din fire de aur, din mătase violetă, stacojie şi vişinie şi din în răsucit. 
+ 3\. Şi anume: au desfăcut aurul în foi şi au tăiat fire, pe care le-au ţesut cu iscusinţă  printre firele de mătase violetă, stacojie şi vişinie şi de in răsucit, lucru  iscusit. 
+ 4\. I-au făcut încheietori de încheiat pe umeri şi au unit amândouă părţile lui. 
+ 5\. Brâul efodului, care vine peste el, la fel cu el, l-au făcut din fire de aur, din mătase violetă, stacojie     şi vişinie şi din în răsucit, cum poruncise Domnul lui Moise. 
+ 6\. Au lucrat apoi două   pietre de smarald, aşezându-le în cuibuleţe de aur şi săpând pe ele numele fiilor lui Israel, cum se sapă pe pecete, 
+ 7\. Şi le-au pus la încheieturile efodului, pe umeri, întru pomenirea fiilor lui Israel, cum poruncise Domnul lui Moise. 
+ 8\. Au făcut apoi hoşenul, lucrare iscusită, la fel cu efodul, din fire de aur şi din mătase violetă, stacojie   şi vişinie şi din în răsucit. 
+ 9\. Hoşenul l-au făcut dublu, în patru colţuri, lung de o palmă şi lat de o palmă. 
+ 10\. Şi au pus pe el pietre scumpe, aşezate în patru rânduri: într-un rând un sardeon, un topaz şi un smarald - rândul întâi; 
+ 11\. În rândul al doilea: un rubin, un safir şi un diamant; 
+ 12\. În rândul al treilea: un opal, o agată şi un ametist; 
+ 13\. Şi în rândul al patrulea: un hrisolit, un onix şi un iaspis. Ele erau aşezate în cuibuleţe de aur. 
+ 14\. Pietrele acestea erau în număr de douăsprezece, după numărul fiilor lui Israel, şi pe fiecare din ele era săpat, ca pe pecete, câte un nume, din cele ale celor douăsprezece seminţii. 
+ 15\. La hoşen au făcut apoi lănţişoare groase de aur curat şi lucrate răsucit, ca sfoara; 
+ 16\. Au mai făcut două rozete şi două verigi de aur şi au prins cele două verigi de cele două colţuri de sus ale hoşenului; 
+ 17\. Şi au agăţat două capete ale lănţişoarelor de cele două verigi din colturile hoşenului, 
+ 18\. Iar celelalte două capete ale celor două lănţişoare le-au agăţat de cele două rozete şi le-au prins pe acestea de încheieturile efodului, pe faţa acestuia. 
+ 19\. După aceea au mai făcut încă două verigi de aur şi le-au prins de celelalte două colţuri ale hoşenului pe cealaltă parte dinspre efod; 
+ 20\. Şi au mai făcut şi alte două verigi de aur şi le-au prins de cele două încheieturi ale efodului, dedesubt, pe faţa lui, unde se unesc, mai sus de încingătoarea efodului. 
+ 21\. Şi au legat hoşenul cu verigile lui de verigile efodului cu un şnur de mătase violetă, ca să stea deasupra încingătorii efodului şi ca să nu cadă hoşenul de pe efod, cum poruncise Domnul lui Moise. 
+ 22\. Iar meilul care vine sub efod, l-au făcut din purpură ţesută violet. 
+ 23\. Acesta avea în partea de sus o deschizătură şi împrejurul acestei deschizături avea un guler, ţesut ca o platoşă, ca să nu se rupă. 
+ 24\. Meilului i-au făcut pe la poale ciucuri de mătase violetă, stacojie şi vişinie şi de în răsucit; 
+ 25\. I-au mai făcut şi clopoţei de aur curat şi au pus clopoţei printre ciucurii de la poalele meilului de jur împrejur; 
+ 26\. Şi i-au aşezat pe la poalele meilului de slujbă aşa: un clopoţel şi un ciucure, un clopoţel şi un ciucure, cum poruncise Domnul lui Moise. 
+ 27\. Au făcut apoi pentru Aaron şi pentru fiii lui hitoane ţesute din în, 
+ 28\. Chidare de în, turbane tot de în şi pantaloni de în răsucit; 
+ 29\. Şi cingătoare din în răsucit şi de mătase violetă, stacojie şi vişinie, ţesută cu alesături, cum poruncise Domnul lui Moise. 
+ 30\. După aceea au făcut o tăbliţă de aur curat, diadema sfinţeniei, şi au săpat pe ea, ca pe pecete, cuvintele: \"Sfinţenia Domnului\". 
+ 31\. Şi au prins de ea un şnur de mătase violetă, ca s-o lege peste chidar, cum poruncise Domnul lui Moise. 
+ 32\. Aşa s-au sfârşit toate lucrările de la cortul adunării. Şi au făcut fiii lui Israel toate; cum poruncise Domnul lui Moise aşa au făcut. 
+ 33\. Apoi au adus la Moise: cortul, acoperămintele şi toate cele de trebuinţă ale lui, cârligele lui, scândurile lui, pârghiile lui, stâlpii lui şi postamentele lui; 
+ 34\. Acoperişurile cele cu piei roşii de berbec şi acoperişurile cele de piei vinete şi perdeaua din mijloc; 
+ 35\. Chivotul legii, capacul lui şi pârghiile; 
+ 36\. Masa cu toate cele de trebuinţă pentru ea şi pâinile de pus înainte; 
+ 37\. Sfeşnicul cel de aur curat, candelele lui, candele puse în el la locul lor, şi toate cele trebuincioase pentru el şi untdelemn de ars; 
+ 38\. Jertfelnicul cel de aur, mirul pentru ungere, miresme pentru tămâiere şi perdeaua de la intrarea cortului; 
+ 39\. Jertfelnicul cel de aramă, cămaşa lui cea de aramă, pârghiile lui şi toate cele trebuitoare pentru el, baia şi postamentul ei; 
+ 40\. Perdelele curţii, stâlpii ei şi postamentele lor, perdelele de la intrarea curţii, frânghiile, ţăruşii şi toate lucrurile trebuitoare la slujbă în cortul adunării; 
+ 41\. Veşmintele de slujit în cort, veşmintele sfinte ale preotului Aaron şi veşmintele de slujbă pentru fiii lui. 
+ 42\. Toate aceste lucruri le făcuseră fiii lui Israel aşa cum poruncise Domnul lui Moise. 
+ 43\. Şi privi Moise toată lucrarea şi iată ei o făcuseră aşa cum poruncise Domnul şi Moise i-a binecuvântat. 
+ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

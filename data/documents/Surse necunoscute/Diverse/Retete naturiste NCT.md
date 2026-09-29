@@ -1,4 +1,4 @@
-*[Preparate naturale]{.underline}* 
+*[Preparate naturale]{.underline}*
 ==================================
 
 []{.underline}
@@ -463,15 +463,15 @@ Indicaţii:
 
 Administrare:
 
--   Helmintiaze: 1,5 -- 3ml x 3 ori / zi pe stomacul gol. Soluţia se ia dizolvată în puţină apă. După 5 zile de tratament dacă paraziţii intestinali nu au fost eliminaţi, se continuă tratamentul dar cu o doză de 1ml x 3 ori /zi.
+- Helmintiaze: 1,5 -- 3ml x 3 ori / zi pe stomacul gol. Soluţia se ia dizolvată în puţină apă. După 5 zile de tratament dacă paraziţii intestinali nu au fost eliminaţi, se continuă tratamentul dar cu o doză de 1ml x 3 ori /zi.
 
--   Amigdalită: se face gargară cu soluţie preparată din 2ml Fitovit şi 50 ml apă caldă de 3 ori pe zi. Pentru uz intern se va lua 1ml de 3 ori pe zi în cazul adulţilor şi 0,5 ml de 3 ori pe zi în cazul copiilor.
+- Amigdalită: se face gargară cu soluţie preparată din 2ml Fitovit şi 50 ml apă caldă de 3 ori pe zi. Pentru uz intern se va lua 1ml de 3 ori pe zi în cazul adulţilor şi 0,5 ml de 3 ori pe zi în cazul copiilor.
 
--   Anorexie, dureri abdominale, disconfort abdominal, enterocolită, diaree, dizenterie: se ia numai la nevoie 2ml în cazul adulţilor şi 1ml în cazul copiilor. Nu se va depăşi numărul de 3 doze pe zi.
+- Anorexie, dureri abdominale, disconfort abdominal, enterocolită, diaree, dizenterie: se ia numai la nevoie 2ml în cazul adulţilor şi 1ml în cazul copiilor. Nu se va depăşi numărul de 3 doze pe zi.
 
--   Tulburări neuro-vegetative, tulburări de menopauză, hemoroizi: 1ml x 3 ori / zi. După o lună de tratament se face pauză de 10 zile după care se poate relua.
+- Tulburări neuro-vegetative, tulburări de menopauză, hemoroizi: 1ml x 3 ori / zi. După o lună de tratament se face pauză de 10 zile după care se poate relua.
 
--   Bronhopneumopatii, astm bronşic, calculoză biliară, dischinezie biliară, dismenoree, uretrite: adulţii vor lua 1ml de 3 ori pe zi iar copiii 0,5ml de 2 ori pe zi. După 3 săptămâni de tratament se face pauză de 7 zile după care se poate relua.
+- Bronhopneumopatii, astm bronşic, calculoză biliară, dischinezie biliară, dismenoree, uretrite: adulţii vor lua 1ml de 3 ori pe zi iar copiii 0,5ml de 2 ori pe zi. După 3 săptămâni de tratament se face pauză de 7 zile după care se poate relua.
 
 *Atenţie*: Dacă se constată că Fitovit 7 provoacă neplăceri atunci se va reduce doza la jumătate.
 
@@ -909,15 +909,15 @@ O lingură de preparat este echivalentă cu :
 
 Ingrediente:
 
--   suc de portocale -- 300ml
+- suc de portocale -- 300ml
 
--   suc de lămâie -- 100ml
+- suc de lămâie -- 100ml
 
--   suc de kiwi -- 100ml
+- suc de kiwi -- 100ml
 
--   zahăr ≈ 700g
+- zahăr ≈ 700g
 
--   aspirină -- 2 comprimate
+- aspirină -- 2 comprimate
 
 Mod de preparare:
 
@@ -942,11 +942,11 @@ După 14 zile se face pauză de 14 zile.
 
 Ingrediente:
 
--   suc de lămâie -- 250g
+- suc de lămâie -- 250g
 
--   zahăr -- 300g
+- zahăr -- 300g
 
--   aspirină -- 2 comprimate
+- aspirină -- 2 comprimate
 
 Mod de preparare:
 
@@ -1000,13 +1000,13 @@ Administrare:
 
 Ingrediente:
 
--   suc de morcov -- 300ml
+- suc de morcov -- 300ml
 
--   suc de pătrunjel -- 150ml
+- suc de pătrunjel -- 150ml
 
--   suc din frunze de păpădie -- 70ml
+- suc din frunze de păpădie -- 70ml
 
--   miere de tei / salcâm -- 1kg
+- miere de tei / salcâm -- 1kg
 
 Mod de preparare:
 
@@ -1037,15 +1037,15 @@ După 14 zile se face pauză de 7 zile după care se poate relua.
 
 Ingrediente:
 
--   scorţişoară -- 30g
+- scorţişoară -- 30g
 
--   nucşoară -- 10g
+- nucşoară -- 10g
 
--   fructe de Coriandru -- 30g
+- fructe de Coriandru -- 30g
 
--   ceai negru -- 40g
+- ceai negru -- 40g
 
--   alcool 85° -- 500ml
+- alcool 85° -- 500ml
 
 Mod de preparare:
 
@@ -1070,15 +1070,15 @@ copii: 0,2-1 ml o dată pe zi
 
 Ingrediente:
 
--   coji de castravete amar
+- coji de castravete amar
 
--   frunze de Afin -- 60g
+- frunze de Afin -- 60g
 
--   frunze de Anghinare -- 20g
+- frunze de Anghinare -- 20g
 
--   nucşoară -- 40g
+- nucşoară -- 40g
 
--   alcool 85° -- 1000ml
+- alcool 85° -- 1000ml
 
 Mod de preparare:
 
@@ -1101,19 +1101,19 @@ Administrare:
 
 Ingrediente:
 
--   pastă de usturoi -- 5 linguriţe
+- pastă de usturoi -- 5 linguriţe
 
--   hrean ras -- 5 linguriţe
+- hrean ras -- 5 linguriţe
 
--   zeamă de lămâie -- o linguriţă
+- zeamă de lămâie -- o linguriţă
 
--   boia iute -- o linguriţă
+- boia iute -- o linguriţă
 
--   sare fină -- o linguriţă
+- sare fină -- o linguriţă
 
--   aspirină -- ½ comprimat
+- aspirină -- ½ comprimat
 
--   alcool 85° -- 75ml
+- alcool 85° -- 75ml
 
 Mod de preparare:
 
@@ -1136,13 +1136,13 @@ Se pune după gust la mâncăruri reci. Administrarea preparatului cu miere de a
 
 Ingrediente:
 
--   Cimbru -- 10g
+- Cimbru -- 10g
 
--   Măghiran -- 10g
+- Măghiran -- 10g
 
--   Rozmarin -- 7g
+- Rozmarin -- 7g
 
--   alcool 85° -- 100ml
+- alcool 85° -- 100ml
 
 Mod de preparare:
 
@@ -1165,13 +1165,13 @@ Preparatul se poate adăuga la mâncăruri reci (sau puţin calde), sau se poate
 
 Ingrediente:
 
--   făină de Muştar -- 15g
+- făină de Muştar -- 15g
 
--   Piper negru măcinat -- 15g
+- Piper negru măcinat -- 15g
 
--   Ghimbir -- 8g
+- Ghimbir -- 8g
 
--   alcool 85^o^ -- 100ml
+- alcool 85^o^ -- 100ml
 
 Mod de preparare:
 
@@ -1194,17 +1194,17 @@ Administrare:
 
 Ingrediente:
 
--   coajă de portocale -- 200g
+- coajă de portocale -- 200g
 
--   rizomi de Obligeană -- 300g
+- rizomi de Obligeană -- 300g
 
--   vin negru -- 2 l
+- vin negru -- 2 l
 
--   zahăr -- 200g
+- zahăr -- 200g
 
--   aspirină -- 8 comprimate
+- aspirină -- 8 comprimate
 
--   glicerină de uz intern -- 15g
+- glicerină de uz intern -- 15g
 
 Mod de preparare:
 
@@ -1227,19 +1227,19 @@ Administrare:
 
 Ingrediente:
 
--   fructe uscate de Păducel (Gherghinar)-- 800g
+- fructe uscate de Păducel (Gherghinar)-- 800g
 
--   fructe uscate de Măceş -- 800g
+- fructe uscate de Măceş -- 800g
 
--   fructe uscate de Cătină -- 300g
+- fructe uscate de Cătină -- 300g
 
--   apă -- 10l
+- apă -- 10l
 
--   zeamă de lămâie -- 10 linguri
+- zeamă de lămâie -- 10 linguri
 
--   zahăr -- 3kg
+- zahăr -- 3kg
 
--   drojdie de bere -- 30g
+- drojdie de bere -- 30g
 
 Mod de preparare:
 
@@ -1262,13 +1262,13 @@ Administrare:
 
 Ingrediente:
 
--   Schinel -- 20g
+- Schinel -- 20g
 
--   Şovârv -- 10g
+- Şovârv -- 10g
 
--   rizomi de Obligeană -- 10g
+- rizomi de Obligeană -- 10g
 
--   alcool 85^o^ -- 200ml
+- alcool 85^o^ -- 200ml
 
 Mod de preparare:
 
@@ -1295,17 +1295,17 @@ Soluţia se ia dizolvată în puţină apă în puţină apă înainte de masă 
 
 Ingrediente:
 
--   Măghiran -- 30g
+- Măghiran -- 30g
 
--   Cimbru -- 10g
+- Cimbru -- 10g
 
--   fructe de Porumbar -- 25g
+- fructe de Porumbar -- 25g
 
--   alcool 85^o^ -- 200ml
+- alcool 85^o^ -- 200ml
 
--   miere
+- miere
 
--   suc de lămâie
+- suc de lămâie
 
 Mod de preparare:
 
@@ -1324,13 +1324,13 @@ Se dizolvă 2-6 linguriţe de soluţie în puţină apă şi se face gargară.
 
 Ingrediente:
 
--   Sunătoare -- 20g
+- Sunătoare -- 20g
 
--   flori de Muşeţel -- 7g
+- flori de Muşeţel -- 7g
 
--   propolis -- 3g
+- propolis -- 3g
 
--   ulei de măsline -- 200ml
+- ulei de măsline -- 200ml
 
 Mod de preparare:
 
@@ -1352,9 +1352,9 @@ Contraindicaţii: stări depresive severe.
 
 Precauţii:
 
--   Se va evita asocierea cu antidepresive, contraceptive orale.
+- Se va evita asocierea cu antidepresive, contraceptive orale.
 
--   Dacă tratamentul se face vara, atunci se va evita pe cât posibil expunerea la soare a pielii. Dacă apar reacţii de fotosensibilitate, tulburări gastro-intestinale, ameţeală, insomnie, oboseală atunci se va întrerupe tratamentul.
+- Dacă tratamentul se face vara, atunci se va evita pe cât posibil expunerea la soare a pielii. Dacă apar reacţii de fotosensibilitate, tulburări gastro-intestinale, ameţeală, insomnie, oboseală atunci se va întrerupe tratamentul.
 
 Administrare:
 

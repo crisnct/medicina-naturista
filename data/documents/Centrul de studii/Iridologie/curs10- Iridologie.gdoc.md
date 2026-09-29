@@ -24,7 +24,7 @@ embedded_image_payloads_removed: 0
 
 Arsenicul intra în organism prin intermediul Salvarsan (și a altor medicamente pe bază de arsenic), intoxicații accidentale, Spray verde de Paris , soluția lui Fowler, coloranți și cosmetice.
 
-Se stabilește în zona circulatorie şi este eliminat prin sistemul limfatic, rinichi, intestine, piele și membranele mucoase. 
+Se stabilește în zona circulatorie şi este eliminat prin sistemul limfatic, rinichi, intestine, piele și membranele mucoase.
 
 	Apariția acestui medicament în ochi este un punct alb mic, care apare individual sau în grupuri în sistemul limfatic.
 
@@ -52,7 +52,7 @@ Simptomele sunt modificări de culoare a pielii, urinare frecventă, linie albas
 
 **GUDRONUL DE CĂRBUNE**
 
-Produsele din  gudron de cărbune intra în organism prin intermediul Aspirinei, Acetanalidei, zaharinei,remediilor pentru febra, unele vitamine.
+Produsele din gudron de cărbune intra în organism prin intermediul Aspirinei, Acetanalidei, zaharinei,remediilor pentru febra, unele vitamine.
 
 Se stabilește în zona creierului si al ţesutului nervos și se elimină prin piele, rinichi si membranele mucoase.
 
@@ -62,9 +62,9 @@ Simptomele sunt ușoră oboseală, pierderi de memorie, epilepsie.
 
 **CREOZOTUL**
 
-	Creozotul intra în organism prin intermediul remediilor de tuse, sedativul nervului general, Acetanalid, Antipirină, Fenacetina. 
+	Creozotul intra în organism prin intermediul remediilor de tuse, sedativul nervului general, Acetanalid, Antipirină, Fenacetina.
 
-	Se stabilește în stomac și intestine și se elimină prin rinichi și descărcarea  catarală prin membranele mucoase.
+	Se stabilește în stomac și intestine și se elimină prin rinichi și descărcarea catarală prin membranele mucoase.
 
 	Apariția acestui medicament în ochi este de culoare gri murdar, cu pete albe în tractul gastro-intestinal.
 
@@ -76,13 +76,13 @@ Ergotul intră în organism prin intermediul mâncării secarei care conține er
 
 Se stabilește în organe și în stomac și este eliminat prin membranele mucoase.
 
-Apariția acestui medicament în ochi este ușoară culoare roșie, mai deschis  decât culoarea iodului, puncte în zonele uterine și de stomac.
+Apariția acestui medicament în ochi este ușoară culoare roșie, mai deschis decât culoarea iodului, puncte în zonele uterine și de stomac.
 
 Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață, vărsături, diaree, amețeli, cangrene.
 
 **GLICERINA**
 
-	Glicerina intra în organism mai ales prin remediile în care este folosită ca suport. 
+	Glicerina intra în organism mai ales prin remediile în care este folosită ca suport.
 
 	Se stabilește pe piele, rinichi si plămâni şi este eliminată prin membranele mucoase.
 
@@ -90,7 +90,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 **IODUL**
 
-	Iodul intra în organism prin intermediul Antisepticelor Iodice  și a spălăturilor, remedii pentru gușă.
+	Iodul intra în organism prin intermediul Antisepticelor Iodice și a spălăturilor, remedii pentru gușă.
 
 	Se stabileşte peste tot, de multe ori în ficat, intestin, rinichi, stomac, plămâni și pancreas și este eliminat prin membranele mucoase.
 
@@ -98,7 +98,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt inflamarea gingiilor, răceli, dureri de cap frontale, expectoraţie spumoasă şi tuse, diaree, erupții cutanate, atrofierea glandelor.
 
-**FIERUL**	
+**FIERUL**
 
 	Fierul intra în organism prin intermediul apei care conține fier, tonice de sânge, bromură de fier.
 
@@ -140,7 +140,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 **FOSFORUL**
 
-	Fosforul intră în organism prin inhalarea de către lucrătorii din fabrici, prin medicamente şi  intoxicaţii cu paraziţi.
+	Fosforul intră în organism prin inhalarea de către lucrătorii din fabrici, prin medicamente şi intoxicaţii cu paraziţi.
 
 	Se stabilește în diafragmă și inimă, în unghiul mandibulei și se elimină prin piele, intestin și membranele mucoase.
 
@@ -152,7 +152,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Chinina (alcaloid de săruri) pătrunde în organism prin chinină de brom preventivă malariei,tonice ale stimulării poftei de mâncare ,tonice de păr care o conțin.
 
-	Se stabilește în stomac și în tractul intestinal, utilizarea cronică se răspândește în tot corpul și este eliminat prin gură, piele, rinichi, intestin, descărcarea de hemoroizi  și evacuările mucoase.
+	Se stabilește în stomac și în tractul intestinal, utilizarea cronică se răspândește în tot corpul și este eliminat prin gură, piele, rinichi, intestin, descărcarea de hemoroizi și evacuările mucoase.
 
 	Apariția acestui medicament în ochi este galben sau gălbui-verzui în tractul GI și peste tot irisul.
 
@@ -162,7 +162,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Acidul salicilic pătrunde în organism prin intermediul conservanților din alimente și băuturi, din aspirină, remedii împotriva frigului şi din uleiul de perișor.
 
-	Se stabilește în zona de creier, stomac și intestine și se elimină prin intestine, piele și membranele  mucoase.
+	Se stabilește în zona de creier, stomac și intestine și se elimină prin intestine, piele și membranele mucoase.
 
 	Apariția acestui medicament în ochi este un nor gri de culoare gri-albicios-murdar,care se arată mai ales în partea superioară a irisului.
 
@@ -170,7 +170,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 **SODIUL**
 
-	Sodiul intră în organism prin intermediul sării de masă, al  bicarbonatului de sodiu (bicarbonat de sodiu folosit pentru coacere), alimente sărate, salicilat de sodiu, benzoat de sodiu.
+	Sodiul intră în organism prin intermediul sării de masă, al bicarbonatului de sodiu (bicarbonat de sodiu folosit pentru coacere), alimente sărate, salicilat de sodiu, benzoat de sodiu.
 
 	Acesta se stabilește în zona circulatorie și este eliminat prin piele și membranele mucoase.
 
@@ -198,7 +198,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 **TURBENTINĂ**
 
-	Turbentina este accidental absorbită prin inhalarea distilatorilor de turbentină, pictorilor, artiştilor. Se  stabilește în organele genito-urinare și este eliminată prin organele genito-urinare, rinichi și prin memebranele mucoase.
+	Turbentina este accidental absorbită prin inhalarea distilatorilor de turbentină, pictorilor, artiştilor. Se stabilește în organele genito-urinare și este eliminată prin organele genito-urinare, rinichi și prin memebranele mucoase.
 
 	Apariția acestui medicament în ochi este de culoare albă în zona organelor genito-urinare, asemeni unor nori de un gri dens.
 
@@ -206,6 +206,6 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 **VACCINURILE**
 
-	Vaccinurile intră în corp prin intermediul injecţiilor prin piele. Sunt eliminate prin piele şi prin memebranele mucoase.  Apariția acestui medicament în ochi este negru cu pete maronii, tulburi, murdare, cu margini albe, depuse superficial pe suprafața irisului.
+	Vaccinurile intră în corp prin intermediul injecţiilor prin piele. Sunt eliminate prin piele şi prin memebranele mucoase. Apariția acestui medicament în ochi este negru cu pete maronii, tulburi, murdare, cu margini albe, depuse superficial pe suprafața irisului.
 
 	Simptomele sunt erupţii ale pielii şi febră.

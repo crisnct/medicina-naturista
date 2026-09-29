@@ -2,29 +2,29 @@
 
 []{.underline}
 
--   **tinctură din seminţe de Armurariu** : 2 linguriţe dimineaţa între orele 1.00-3.00 şi o linguriţă seara la ora 21.00.
+- **tinctură din seminţe de Armurariu** : 2 linguriţe dimineaţa între orele 1.00-3.00 şi o linguriţă seara la ora 21.00.
 
--   **tinctură de Anghinare**: 1 lingurită dimineaţa înainte de masa cu 30 minute.
+- **tinctură de Anghinare**: 1 lingurită dimineaţa înainte de masa cu 30 minute.
 
 Tratamentul cu aceste tincturi se va urma aproximativ 3 săptămâni.
 
--   *Tinctura de şofran* : ½ linguriţă dimineaţa între orele 7.00-11.00
+- *Tinctura de şofran* : ½ linguriţă dimineaţa între orele 7.00-11.00
 
--   ***Extract/tinctură din Muguri de Alun*** : ½ linguriţă de 3 ori pe zi
+- ***Extract/tinctură din Muguri de Alun*** : ½ linguriţă de 3 ori pe zi
 
--   ***Alimente recomandate în mod special***: ficat de vită, splină de vită, hrean , lămâi, măsline, şofran pur, pătrunjel
+- ***Alimente recomandate în mod special***: ficat de vită, splină de vită, hrean , lămâi, măsline, şofran pur, pătrunjel
 
--   *Alcoolul este stric interzis*, excepţie făcând alcoolul din tincturile recomandate. Acestea se pot lua împreuna cu 50 ml ţuică/pălincă.
+- *Alcoolul este stric interzis*, excepţie făcând alcoolul din tincturile recomandate. Acestea se pot lua împreuna cu 50 ml ţuică/pălincă.
 
--   *Vitamina A forte*: o capsulă la 2-4 zile
+- *Vitamina A forte*: o capsulă la 2-4 zile
 
--   *Tratamentul balneo-sanatorial* *nu este indicat*.
+- *Tratamentul balneo-sanatorial* *nu este indicat*.
 
--   *Evitarea eforturilor intense*
+- *Evitarea eforturilor intense*
 
--   Zilnic pana la vindecare se va lua un *complex de vitamine şi minerale*, pentru a ajuta ficatul (de exemplu Vita-Min Geriatric)
+- Zilnic pana la vindecare se va lua un *complex de vitamine şi minerale*, pentru a ajuta ficatul (de exemplu Vita-Min Geriatric)
 
--   ***Nu se va consuma nici un aliment prăjit în ulei sau grăsime animală, pe perioada tratamentului***
+- ***Nu se va consuma nici un aliment prăjit în ulei sau grăsime animală, pe perioada tratamentului***
 
 [Alimente recomandate]{.underline}
 ==================================

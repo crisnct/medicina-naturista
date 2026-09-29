@@ -1,6 +1,6 @@
-### [Leacuri de argint](http://www.despresuflet.ro/forum/generalitati-f22/leacuri-de-argint-t1436.html#p1824)
+### Leacuri de argint
 
-![](media/image1.png){width="0.11458333333333333in" height="9.375e-2in"}de [**prichindelisor**](http://www.despresuflet.ro/forum/member58.html) » Mar Mai 11, 2010 9:08 pm
+!{width="0.11458333333333333in" height="9.375e-2in"}de **prichindelisor** » Mar Mai 11, 2010 9:08 pm
 
 Stiati ca?\
 Pentru a ameliora setea, atunci cand nu se poate bea nimic, puteti tine in gura un obiect de argint.\

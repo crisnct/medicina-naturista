@@ -18,10 +18,10 @@ ocr_text_characters: 0
 
 Reţete pentru regimul Oshawa
 
-Pe lângă grâul, orezul, hrişca sau meiul preparate simplu prin fierbere în apă cu sare, se mai pot consuma şi următoarele combinaţii:  
-- orez fiert împreună cu făină de grâu, hrişcă sau mei coapte;  
-- grâu fiert împreună cu făină de orez copt;  
-- hrişcă fiartă împreună cu făină de grâu copt;  
+Pe lângă grâul, orezul, hrişca sau meiul preparate simplu prin fierbere în apă cu sare, se mai pot consuma şi următoarele combinaţii:
+- orez fiert împreună cu făină de grâu, hrişcă sau mei coapte;
+- grâu fiert împreună cu făină de orez copt;
+- hrişcă fiartă împreună cu făină de grâu copt;
 - hrişcă fiartă împreună cu făină de hrişcă.
 
 Se pot prepara, de asemenea:

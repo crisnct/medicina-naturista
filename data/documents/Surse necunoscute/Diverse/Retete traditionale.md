@@ -2,7 +2,7 @@ Retete traditionale
 
 [CANCER]{.underline}
 
-Cancer, metastaze, SIDA 
+Cancer, metastaze, SIDA
 =======================
 
 Se face un amestec din urmatoarele ingrediente:
@@ -29,24 +29,24 @@ Se face tratamentul cate 21 de zile pe luna, pauza 7 zile si se reia pana la 6 l
 
 Preparatul nu are efect daca se fac citostatice.
 
-Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina 
+Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina
 ========================================================================
 
 Se maruntesc si se pun intr-un vas 5 linguri de cetina (muguri verzi, mai mari). Se toarna deasupra 1/2 litru de apa si se fierbe amestecul 10 minute, la foc mic. Se infuzeaza peste noapte, la cald (intr-un termos) si se bea in cursul zilei urmatoare, in loc de apa.
 
 Aceasta fiertura poate fi consumata fara restrictii de timp si nu are contraindicatii.
 
-Cancer de piele cu leziuni extinse 
+Cancer de piele cu leziuni extinse
 ==================================
 
 Se aplica pe piele, o jumatate de ora, o compresa imbibata cu o combinatie de tinctura de arnica si tinctura de marul-lupului, in proportii egale. Dupa 2 ore de la inlaturarea compresei, se unge zona afectata cu tinctura de propolis. Tratamentul se aplica cel putin o data pe zi.
 
-Cancer 
+Cancer
 ======
 
 Se administreaza timp de o luna, de 3 ori pe zi, inainte de masa, cate o lingura de ulei de masline presat la rece cu 1/3 lingurita suc de usturoi proaspat.
 
-Cancer ovarian, cancer la san 
+Cancer ovarian, cancer la san
 =============================
 
 \- Se beau in fiecare zi 4 cani de ceai de napraznic, lingura cu lingura.
@@ -59,7 +59,7 @@ Se beau 4 cani pe zi din acest ceai (pentru ceaiul pentru o zi se dubleaza canti
 
 \- In fiecare zi se pune pe san, timp de 3 ore, o cataplasma cu radacina de tataneasa si iarba de rostopasca obtinuta astfel: cele doua plante maruntite se amesteca, adaugandu-se apa calduta, pana formeaza o pasta moale; aceasta pasta se aplica, invelita in tifon, pe locul afectat.
 
-Cancer de piele 
+Cancer de piele
 ===============
 
 Se rasnesc si se amesteca urmatoarele plante: brusture 1 lingurita, coada-calului 2 lingurite, trei-frati-patati 2 lingurite, urzica 1 lingurita. Se pun la inmuiat in 1/2 litru de apa rece de seara pana dimineata. Se filtreaza si se pune maceratul deoparte, iar plantele care raman dupa filtrare se fierb 30 minute, la foc mic, in 1/2 litru apa. Se combina apoi maceratul cu decoctul racit si se pastreaza la rece. Se bea, de 4 ori pe zi, cate o jumatate de pahar, inainte de masa.
@@ -251,7 +251,7 @@ Varice
 
 Se ung zonele cu varice cu acest ulei.
 
--   Se aplica pe varice plaman de porc taiat in felii. Se face un pansament si se pastreaza toata noaptea. Se repeta 10 seri la rand.
+- Se aplica pe varice plaman de porc taiat in felii. Se face un pansament si se pastreaza toata noaptea. Se repeta 10 seri la rand.
 
 **[APARATUL LOCOMOTOR]{.underline}**
 
@@ -287,7 +287,7 @@ Boli ale articulatiilor
 
 \- Bai de sare, 2 kg. sare grunjoasa in cada de baie, timp de 20 minute.
 
-Ciocuri pe coloana, lombosciatica 
+Ciocuri pe coloana, lombosciatica
 =================================
 
 \- Se prepara alifia de sanziene astfel: se pun la macerat, timp de 12 ore in 30 ml alcool sanitar, 20 gr planta uscata de sanziene, bine maruntita. Borcanul se inchide ermetic. Se adauga 200 ml ulei de masline si se fierbe in "bain-marie" timp de 3 ore. Se agita din timp in timp, borcanul. Se lasa in repaus 3 zile, dupa care se filtreaza.
@@ -322,7 +322,7 @@ Dureri articulare
 
 Se amesteca 50 gr de tamaie pulbere cu 50 ml otet de mere. Se imbiba o bucata de vata cu acest amestec si se aplica pe locul bolnav. Procedura se repeta 3 seri la rand.
 
-Dureri de spate 
+Dureri de spate
 ===============
 
 Se unge spatele bolnav cu miere de albine, apoi se maseaza energic, pana la resorbtia mierii. Procedura se repeta zilnic, pana la disparitia durerii.
@@ -368,7 +368,7 @@ Se bea un pahar intre mese si unul la culcare.
 
 Reteta terapeutilor Iulia Tunaru si Assem Hassan Timp de 21 de zile se consuma miere inchisa la culoare (2 linguri) amestecata cu o lingurita de polen + 20 picaturi tinctura de urzica (din Plafar). Acest amestec se imparte in doua, o parte se ia dimineata la ora 10, cealalta parte la ora 17. Pentru copiii sub 10 ani se recomanda o jumatate din cantitate luata dimineata.
 
-Colesterol 
+Colesterol
 ==========
 
 Pentru scaderea colesterolului se bea un ceai fierbinte din: 1/2 litru apa, 2 linguri ulei de masline si 3 lingurite de usturoi pisat. Sorbiti din acest amestec de 3 ori/zi.
@@ -383,7 +383,7 @@ O parte se ia dimineata, cu 1/2 ora inainte de masa, cealalta se ia cu 1/2 ora i
 
 Se urmeaza tratamentul 2-3 luni, apoi se fac analizele.
 
-Diabet 
+Diabet
 ======
 
 Se amesteca 500 ml suc de ceapa cu 500 ml alcool etilic (96o). Se administreaza cate o lingura/zi, timp de o luna cu pauza de 10 zile, dupa care se poate relua.
@@ -394,7 +394,7 @@ In 2 litri de vin alb sec se fierbe 1 kg de praz taiat bucati (doar partea alba)
 
 Se iau o lingurita tinctura de brusture si o lingurita tinctura de papadie in 100 ml apa, de 4 ori/zi, timp de 21 de zile.
 
-Diabet, guta, reumatism pietre si nisip renal 
+Diabet, guta, reumatism pietre si nisip renal
 =============================================
 
 60 gr. pastai (teci) de fasole fierte intr-un litru de apa timp de 4 ore, la foc mic. Se filtreaza si se pune la rece 8 ore.
@@ -671,7 +671,7 @@ Uleiul de sunatoare este ideal si pentru cei cu ulcer.
 
 Folosind intern acest ulei, dispar chiar si punctele de colesterol din jurul ochilor.
 
-Digestie lenta, anaciditate, colita 
+Digestie lenta, anaciditate, colita
 ===================================
 
 Se rasnesc si se amesteca in parti egale: radacina de gentiana, ghimbir si rozmarin. Se administreaza cate o lingurita de pulbere sublingual, timp de 15 minute, de 4 ori/zi, timp de 2 luni. Dupa ce a fost tinuta sub limba, pulberea se inghite cu o cana de ceai din flori de salcam.
@@ -696,14 +696,14 @@ In cazurile, destul de rare, in care se elimina uleiul si sucul de lamaie prin v
 
 Atentie! Aceasta procedura trebuie precedata de o perioada de 3-5 zile in care tineti un regim alimentar de dezintoxicare, fara alimente de origine animala.
 
-Gastrita 
+Gastrita
 ========
 
 Se bea, in fiecare dimineata, o cana de ceai de salcie alba, pe stomacul gol. Dupa 20 de minute, se bea o cana de lapte proaspat (crud).
 
 Se fierb, timp de 5 minute, 200 gr. frunze de patlagina intr-o jumatate de litru de rachiu de struguri. Se strecoara si se pastreaza intr-o sticla. Se va bea, in fiecare dimineata, pe stomacul gol, cate o lingura, dupa care va sta intins in pat 1/2 ora.
 
-Gastrita hiperacida 
+Gastrita hiperacida
 ===================
 
 Se rasneste obligeana. Se ia cate o jumatate de lingurita de pulbere, de 4 ori/zi, pe stomacul gol, inainte de masa.
@@ -987,4 +987,4 @@ Retentie de urina
 
 Se pun la fiert 6 bucati de praz intr-un vas cu ulei de masline. Se lasa sa fiarba la foc mic. Cand sunt bine fierte, se intind pe niste carpe si se aplica, cat se poate de calde, pe abdomenul bolnavului. Va urina rapid.
 
-http://www.vindecare.go.ro
+

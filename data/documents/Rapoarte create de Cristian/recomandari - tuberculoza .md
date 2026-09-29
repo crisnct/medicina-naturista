@@ -49,12 +49,12 @@ Indicatii: tuberculoza, enfizem pulmonar, bronsite, astm bronsic.
 
 -tinctura de propolis -- aceasta se va lua cu picatura conform urmatorului tabel:
 
-  ------------- ----- ----- ----- ----- ----- ----- -----
-  *ziua*        *1*   *2*   *3*   *4*   *5*   *6*   *7*
-  *dimineata*   1     2     8     14    12    5     2
-  *pranz*       2     3     10    14    10    3     2
-  *seara*       2     5     12    12    8     2     1
-  ------------- ----- ----- ----- ----- ----- ----- -----
+ ------------- ----- ----- ----- ----- ----- ----- -----
+ *ziua* *1* *2* *3* *4* *5* *6* *7*
+ *dimineata* 1 2 8 14 12 5 2
+ *pranz* 2 3 10 14 10 3 2
+ *seara* 2 5 12 12 8 2 1
+ ------------- ----- ----- ----- ----- ----- ----- -----
 
 Picaturile se vor lua dizolvate in putina apa. Dupa 7 zile de tratament se va face pauza de 2-4 zile dupa care se va relua. Tratamentul se poate relua de 1-20 ori.
 

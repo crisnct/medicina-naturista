@@ -72,13 +72,13 @@ BOOK
 
 Hipotiroidismul si tiroidita Hashimoto - Sarfraz Zaidi
 
-http://www.garbo.ro/articol/Tratamente-naturiste/19876/hipotiroidismul-si-tiroidita-hashimoto-sarfraz-zaidi.html
 
-http://www.libris.ro/hipotiroidismul-si-tiroidita-hashimoto-sarfraz-BEN978-606-93349-2-8--p948651.html?utm_source=2parale&utm_medium=Campaign&utm_campaign=3f472301f&utm_content=http%3A%2F%2Fwww.garbo.ro%2Farticol%2FTratamente-naturiste%2F19876%2Fhipotiroid
+
+
 
 ## Antet 1
 
-Website: https://www.herbshouseshop.co.uk
+Website:
 
 Email: nelucristian2005@gmail.com
 

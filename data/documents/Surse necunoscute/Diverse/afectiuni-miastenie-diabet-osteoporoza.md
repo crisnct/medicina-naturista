@@ -35,9 +35,9 @@ Cantitati mari de calciu se gaseste in anghinare, varza creata si spanac. Aceste
 
 **Calciul** este un mineral de baza pentru functionarea optima a organismului, care se gaseste intr-o cantitate ce ajunge pana la 1,5 kg. Cel mai mult calciu este prezent in lapte si lactate, fasole, masline, galbenus de ou, fasole si nuci. In carne, prezenta sa se face prea putin simtita. Cele mai importante roluri ale calciului in corpul omenesc sunt acelea de intretinere si mineralizare a oaselor, inclusiv a danturii. Mai mult, calciul ajuta la coagularea sangelui. Carentele de aceasta substanta dau tulburari majore in organism, manifestate prin tetanie, spasme, tulburari ale batailor inimii, iritabilitate nervoasa, osteoporoza, rahitism si dureri articulare. Medicii recomanda un necesar zilnic de calciu, dupa cum urmeaza: la copii, 400 mg, la adolescenti, 1.000 mg, la adulti, 500 mg, si pentru femeile insarcinate, 1.200 mg zilnic. Pentru o buna absorbtie a acestui element in intestin si folosirea apoi, mai departe, este nevoie de vitamina D. Deficitul de vitamina D duce la lipsa calciului in corp. Calciul din fasole si masline mentine ritmul cardiac
 
-Mierea ajuta la fixarea calciului si [impiedica aparitia osteoporozei](http://www.gardianul.ro/index.php?a=sanatate2004013102.xml).
+Mierea ajuta la fixarea calciului si impiedica aparitia osteoporozei.
 
-###  Calcitonina pare sa reduca pierderile numai la nivelul coloanei vertebrale / are si efect impotriva durerii deci se foloseste predominant la cei cu dureri cronice legate de fracturi sau deformari scheletice
+### Calcitonina pare sa reduca pierderile numai la nivelul coloanei vertebrale / are si efect impotriva durerii deci se foloseste predominant la cei cu dureri cronice legate de fracturi sau deformari scheletice
 
 **Bifosfonatii** (etidronat,a lenronat) mijloc terapeutic important pentru ca pot creste densitatea osoasa si scad riscul producerii fracturilor
 
@@ -51,13 +51,13 @@ Terapii de viitor: antiestrogeni (tamoxifen, raloxifen), florura de sodiu cu eli
 
 **Tratament natural 2:** 200 g faina de orez (rasniti orez nedecorticat prin masina de cafea), 200 g miere poliflora, 50 g polen si 100 ml lapte dulce. Se amesteca bine, pana se obtine o masa omogena. Amestecul se pune in vas de sticla si se poate pastra la frigider. Se iau, zilnic, 3 linguri cu amestec, cu doua ore inainte de mesele principale.
 
-#### Tratament natural 3: se ia cîte o linguriţă de tinctură de mărar diluată într-o jumătate de pahar cu apă, de 3-4 ori/zi, timp de minim 6 luni. Tinctura se prepară din 20 de linguri de seminţe de mărar amestecate în 1/2 l alcool alimentar de 70 grade şi lăsate la macerat timp de 8 zile, după care se filtrează. Se păstrează în sticluţe mici, închise la culoare. În paralel cu acest remediu, pe locurile dureroase se pun comprese cu o soluţie preparată din: 3 vîrfuri de cuţit de piper negru, un pahar de sare grunjoasă şi 1/2 l de coniac; se lasă la macerat 5 zile. În cazul cînd osteoporoza este asociată cu reumatism, se prepară o soluţie din 1/2 l alcool medicinal, 50 aspirine pisate şi 2 linguri de sare de lămîie. Se lasă la macerat 2-3 zile, agitînd de cîteva ori pe zi, pînă se dizolvă complet. Cu acest preparat se vor unge locurile dureroase. Boala oaselor de sticlă (boala Lebstein), se ameliorează cu următorul remediu: se pun seara la macerat, într-un borcan cu un litru de apă şi 500 ml oţet de mere (de preferinţă preparat în casă), la temperatura camerei, cîte 25 g de coada calului şi 25 g de troscot. După 12 ore, se strecoară şi se bea întreaga cantitate de lichid pe parcursul unei zile, îndulcită uşor cu miere naturală polifloră. Remediul se ia cîte 10 zile pe lună, cu pauze între ele, timp de minimum 6 luni. 
+#### Tratament natural 3: se ia cîte o linguriţă de tinctură de mărar diluată într-o jumătate de pahar cu apă, de 3-4 ori/zi, timp de minim 6 luni. Tinctura se prepară din 20 de linguri de seminţe de mărar amestecate în 1/2 l alcool alimentar de 70 grade şi lăsate la macerat timp de 8 zile, după care se filtrează. Se păstrează în sticluţe mici, închise la culoare. În paralel cu acest remediu, pe locurile dureroase se pun comprese cu o soluţie preparată din: 3 vîrfuri de cuţit de piper negru, un pahar de sare grunjoasă şi 1/2 l de coniac; se lasă la macerat 5 zile. În cazul cînd osteoporoza este asociată cu reumatism, se prepară o soluţie din 1/2 l alcool medicinal, 50 aspirine pisate şi 2 linguri de sare de lămîie. Se lasă la macerat 2-3 zile, agitînd de cîteva ori pe zi, pînă se dizolvă complet. Cu acest preparat se vor unge locurile dureroase. Boala oaselor de sticlă (boala Lebstein), se ameliorează cu următorul remediu: se pun seara la macerat, într-un borcan cu un litru de apă şi 500 ml oţet de mere (de preferinţă preparat în casă), la temperatura camerei, cîte 25 g de coada calului şi 25 g de troscot. După 12 ore, se strecoară şi se bea întreaga cantitate de lichid pe parcursul unei zile, îndulcită uşor cu miere naturală polifloră. Remediul se ia cîte 10 zile pe lună, cu pauze între ele, timp de minimum 6 luni.
 
 Consumul de **ceapã deshidratatã** reduce cu 20% pierderea osoasã legatã de vârstã, deci si riscul aparitiei osteoporozei.
 
-#### 
+####
 
-#### Decoctul combinat de coada-calului 
+#### Decoctul combinat de coada-calului
 
 Contra afectiunilor reno-urinare se recomanda si baile cu decoct combinat de coada-calului, obtinut astfel: se pun la macerat 3-4 linguri de coada-calului maruntita, in jumatate de litru de apa, vreme de 8-10 ore, dupa care se filtreaza. Preparatul rezultat se pune deoparte, iar planta ramasa dupa filtrare se fierbe in inca jumatate de litru de apa, vreme de cinci minute, dupa care se lasa sa se raceasca si se filtreaza. In final, se amesteca cele doua extracte, obtinandu-se aproximativ un litru de preparat, care se foloseste intern (2-3 cani pe zi) sau extern, sub forma de comprese si bai.
 
@@ -65,7 +65,7 @@ Contra afectiunilor reno-urinare se recomanda si baile cu decoct combinat de coa
 
 **Medicamente naturale:**
 
-####  ARTICUM - Produsul contine cinci plante, printre care si extract de coada calului, care este un remineralizant osos de exceptie, deci foarte util in osteoporoza. Administrarea lui aduce mari avantaje organismului nostru, fiind antireumatic, analgezic, antiseptic, dezinfectant. Ajuta la eliminarea apei din tesuturi, reducând astfel tensiunea arteriala, reduce nevroza cardiaca si hiperaciditatea. De asemenea, are o actiune hemostatica, putând fi folosit in cazul ulcerului gastric si duodenal, precum si in angiocolite. Datorita compozitiei, poate fi folosit in raceli, gripe, infectii ale cailor respiratorii.
+#### ARTICUM - Produsul contine cinci plante, printre care si extract de coada calului, care este un remineralizant osos de exceptie, deci foarte util in osteoporoza. Administrarea lui aduce mari avantaje organismului nostru, fiind antireumatic, analgezic, antiseptic, dezinfectant. Ajuta la eliminarea apei din tesuturi, reducând astfel tensiunea arteriala, reduce nevroza cardiaca si hiperaciditatea. De asemenea, are o actiune hemostatica, putând fi folosit in cazul ulcerului gastric si duodenal, precum si in angiocolite. Datorita compozitiei, poate fi folosit in raceli, gripe, infectii ale cailor respiratorii.
 
 **CARTILAJ DE RECHIN FORTE** - Este sursa ideala de calciu si fosfor, fiind indicat in special persoanelor care prezinta un risc mare de osteoporoza. Are un puternic efect antiinflamator si prezinta avantajul ca intareste sistemul imunita
 
@@ -143,7 +143,7 @@ Acest tratament are efecte benefice în cazuri de digestie deficitară, inapeten
 Mai întîi se curăţă **rădăcinile de ţelină**, se spală cu apă rece, se taie în felii subţiri, apoi se dau prin maşina de tocat carne şi se introduc într-un borcan. Cantitatea lor trebuie să ocupe o treime din borcan. În alt borcan, de aceeaşi capacitate, se pun seminţe de ovăz nedecorticate, iar cantitatea lor trebuie să ocupe o treime din borcan. **Seminţele de ovăz** se dau printr-o maşină de măcinat, în aşa fel încît să fie doar mărunţite, sfărîmate şi nu transformate în făină.\
 Atît peste ţelină, cît şi peste ovăz, se pune apă rece pînă se umple borcanul, apoi se agită cu o lingură de lemn. Se lasă la macerat timp de 24 de ore, după care fiecare macerat se strecoară separat printr-un tifon şi se amestecă în părţi egale. Amestecul trebuie consumat în timp de 2 zile, după care se prepară noi cantităţi prin acelaşi procedeu. Se consumă 1-1,5 l de macerat pe zi. Este bine ca acest tratament să se repete de mai multe ori în decursul unui an, cu pauze de 1-2 luni.
 
-Tratament natural 2 
+Tratament natural 2
 -------------------
 
 Se face un amestec din 4 linguri coacăze negre, 3 linguri frunze de mesteacăn, 3 linguri fumariţă şi 3 linguri de eucalipt. Se opăreşte o linguriţă de amestec în 200 ml apă şi se lasă să tragă timp de 3 minute. Se bea dimineaţa, pe stomacul gol.\
@@ -173,7 +173,7 @@ Se mai utilizeaza frunzele si mladitele de soc, sub forma de ceai. Excelent pent
 
 Intrebuintarea acestor remedii este incununata de succes numai daca se respecta un regim de viata si alimentar prescris diabeticilor de catre medicul specialist.
 
-Cicoarea calmează setea diabeticilor. Cicoarea stimulează activitatea ficatului şi eliminarea bilei, pe care o şi fluidifică. Este un factor tonic-amar, care favorizează funcţia glicogenetică a ficatului, deficitară la diabetici. Astfel, ceaiul de cicoare calmează setea caracteristică celor bolnavi de diabet zaharat. Se prepara sub formă de infuzie, dintr-o lingură de părţi aeriene bine mărunţite, opărite cu 250 ml apă clocotită. După infuzare, se beau 2 căni/zi, îndulcite sau nu, cu puţină miere. (C.I.)  Cîteva ceaiuri şi sucuri utile în diabet zaharat
+Cicoarea calmează setea diabeticilor. Cicoarea stimulează activitatea ficatului şi eliminarea bilei, pe care o şi fluidifică. Este un factor tonic-amar, care favorizează funcţia glicogenetică a ficatului, deficitară la diabetici. Astfel, ceaiul de cicoare calmează setea caracteristică celor bolnavi de diabet zaharat. Se prepara sub formă de infuzie, dintr-o lingură de părţi aeriene bine mărunţite, opărite cu 250 ml apă clocotită. După infuzare, se beau 2 căni/zi, îndulcite sau nu, cu puţină miere. (C.I.) Cîteva ceaiuri şi sucuri utile în diabet zaharat
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 • O jumătate de pahar de suc de cartofi cruzi pe zi, între mese.\
@@ -213,22 +213,22 @@ Folosirea **zaharinei** ca indulcitor pe scara larga si in cantitati crescute po
 Dieta si exercitiul fizic
 =========================
 
-![](media/image1.png){width="1.573611111111111in" height="1.426388888888889in"}  In mod simplu alimentele pot fi impartite in doua categorii: ![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}
+!{width="1.573611111111111in" height="1.426388888888889in"}  In mod simplu alimentele pot fi impartite in doua categorii: !{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}
 
 1\. cele care contin carbohidrati cu absorbtie rapida (zaharuri "rapide"). Acestea contin zahar rafinat. In aceasta categorie se incadreaza: gemul, ciocolata, bomboanele, sucurile de fructe. Ele produc cresteri mari ale glicemiei deoarece glucoza ajunge rapid in sange.\
 2. cele care contin carbohidrati cu absorbtie mai lenta (zaharuri "lente"), precum legumele (cartofii), orezul, cerealele.
 
 Cateva reguli generale:
 
--   Impartiti aportul caloric zilnic   in 5-6 mese (inclusiv gustarile) respectand un orar regulat
+- Impartiti aportul caloric zilnic   in 5-6 mese (inclusiv gustarile) respectand un orar regulat
 
--   Evitati alimentele care contin zaharuri rapide
+- Evitati alimentele care contin zaharuri rapide
 
--   Renuntati la alcool si reduceti consumul de grasimi
+- Renuntati la alcool si reduceti consumul de grasimi
 
--   Consumati alimente bogate in fibre (acestea incetinesc absortia glucozei)
+- Consumati alimente bogate in fibre (acestea incetinesc absortia glucozei)
 
--   Reduceti aportul de sare, mai ales la persoanele hipertensive
+- Reduceti aportul de sare, mai ales la persoanele hipertensive
 
 **Exercitiul fizic**
 
@@ -242,52 +242,52 @@ Despre Hipoglicemie
 Hipoglicemia reprezinta o scadere accentuata a nivelului glucozei in sange. Cel mai frecvent apare inainte de masa sau dupa un efort fizic intens.\
 Simptomele hipoglicemiei sunt:
 
--   transpiratii ![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}
+- transpiratii !{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}
 
--   tremuraturi
+- tremuraturi
 
--   oboseala
+- oboseala
 
--   senzatie de frig
+- senzatie de frig
 
--   iritabilitate 
+- iritabilitate 
 
--   foame  
+- foame  
 
--   dureri de cap 
+- dureri de cap 
 
--   tulburari de vedere
+- tulburari de vedere
 
  Deoarece hipoglicemia poate apare oricand, pentru formele moderate este bine sa aveti in permanenta la Dvs. zahar din care sa consumati 1-2 lingurite imediat  ce apar primele simptome. Daca simptomele nu dispar dupa 10 minute, mai luati 1-2 lingurite de zahar si daca este posibil determinati-va glicemia. In absenta consumului de zahar, hipoglicemia poate determina pierderea cunostintei. In general hipoglicemiile usoare si moderate nu prezinta un risc major. In cazuri mai severe este nevoie de injectarea fie de glucagon (unul dintre hormonii care ajuta ficatul sa elibereze in sange zaharul stocat), fie de solutie de glucoza. GlucaGen® Hypokit obtinut prin inginerie genetica, identic ca structura cu glucagonul secretat de pancreas este o solutie de urgenta in cazul episoadelor hipoglicemice severe.
 
 Despre Hiperglicemia
 ====================
 
-Hiperglicemia (cresterea zaharului in sange) poate fi determinata de urmatoarele cauze: ![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}
+Hiperglicemia (cresterea zaharului in sange) poate fi determinata de urmatoarele cauze: !{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}
 
--   un aport insuficient de insulina 
+- un aport insuficient de insulina 
 
--   excese alimentare 
+- excese alimentare 
 
--   neglijarea activitatii fizice
+- neglijarea activitatii fizice
 
--   boala suprapusa diabetului
+- boala suprapusa diabetului
 
 In cazul unei hiperglicemii  pot aparea urmatoarele simptome:
 
--   accentuarea senzatiei de sete ![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}
+- accentuarea senzatiei de sete !{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}
 
--   accentuarea senzatiei de foame
+- accentuarea senzatiei de foame
 
--   eliminarea unor cantitati crescute de urina
+- eliminarea unor cantitati crescute de urina
 
--   oboseala si somnolenta
+- oboseala si somnolenta
 
--   tulburari de vedere
+- tulburari de vedere
 
 Determinati-va imediat glicemia pentru a putea lua masuri! Tratata incorect hiperglicemia se va accentua, ducand la aparitia cetoacidozei.
 
-**Ce este cetoacidoza?** ![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}![](media/image2.png){width="0.11458333333333333in" height="0.11458333333333333in"}\
+**Ce este cetoacidoza?** !{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}!{width="0.11458333333333333in" height="0.11458333333333333in"}\
 In cursul hiperglicemiei, celulele nu primesc suficienta glucoza, care este principala sursa de energie. Organismul va incepe sa degradeze grasimile pentru a hrani celulele, rezultand astfel corpi cetonici, care au proprietati acidifiante. Acumularea corpilor cetonici in sange determina scaderea pH-ului, cu urmari grave. Aceasta stare se instaleaza incet, dar ea trebuie recunoscuta de timpuriu pentru a preveni complicatiile. Corpii cetonici se elimina prin urina si prezenta lor\
 poate fi depistata cu ajutorul testelor speciale. Simptomele cetoacidozei:\
 greturi si varsaturi, stare generala alterata dureri epigastrice respiratie cu miros de acetona cresterea frecventei si amplitudinii miscarilor respiratorii
@@ -295,61 +295,61 @@ greturi si varsaturi, stare generala alterata dureri epigastrice respiratie cu m
 Prezenta corpilor cetonici in urina impune un consult medical de urgenta!
 
 +----------------------------+---------------+
-| ##### Factori de nutritie  |               |
+| ##### Factori de nutritie | |
 +----------------------------+---------------+
-| Capacitate portie: 253g    |               |
+| Capacitate portie: 253g | |
 +----------------------------+---------------+
-| **Calorii** 260            |               |
+| **Calorii** 260 | |
 +----------------------------+---------------+
-|                            | ###### zilnic |
+| | ###### zilnic |
 +----------------------------+---------------+
-| **Total grasimi** 8g       | 13%           |
+| **Total grasimi** 8g | 13% |
 +----------------------------+---------------+
-| **Grasimi saturate** 3g    | 17%           |
+| **Grasimi saturate** 3g | 17% |
 +----------------------------+---------------+
-| **Colesterol** 130mg       | 44%           |
+| **Colesterol** 130mg | 44% |
 +----------------------------+---------------+
-| **Sodiu** 1010mg           | 42%           |
+| **Sodiu** 1010mg | 42% |
 +----------------------------+---------------+
-| **Total carbohidrati** 22g | 7%            |
+| **Total carbohidrati** 22g | 7% |
 +----------------------------+---------------+
-| Fibre dietetice 9g         | 36%           |
+| Fibre dietetice 9g | 36% |
 +----------------------------+---------------+
-| Zahar 4g                   |               |
+| Zahar 4g | |
 +----------------------------+---------------+
-| **Proteine** 25g           |               |
+| **Proteine** 25g | |
 +----------------------------+---------------+
 
 **Referinte web:**
 
-http://[www.evenimentul.ro](http://www.evenimentul.ro/) - in arhive
+ - in arhive
 
-http://[www.gardianul.ro](http://www.gardianul.ro/)
 
-http://[www.terapii-naturiste.ro](http://www.terapii-naturiste.ro/)
 
-http://[www.jurnalul.ro](http://www.jurnalul.ro/)
 
-http://[www.medicina.ro](http://www.medicina.ro/)
 
-http://[www.avantaje.ro](http://www.avantaje.ro/)
 
-http://[www.formula-as.ro](http://www.formula-as.ro/)
 
-<http://www.sanatatea.com/bolis.php?topic=bolis&page=071>
 
-<http://www.agenda.ro/2003/14-03-7.htm>
 
-http://salvaeco.org/plmed/page/coada\_soricelului.php
 
-<http://www.ele.ro/articol_2249.html>
 
-http://[www.naturaplant.ro](http://www.naturaplant.ro/)
 
-[http://www.aspor.ro](http://www.aspor.ro/)
 
-[http://www](http://www/).diabetzaharat.ro
+<
 
-[http://www.diabetessymptom.net](http://www.diabetessymptom.net/)
+<
 
-http://www.diabet.ro/documents/article\_page/document/Management\_diabet\_sib.asp
+
+
+<
+
+
+
+
+
+
+
+
+
+

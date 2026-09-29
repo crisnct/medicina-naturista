@@ -30,7 +30,7 @@ As trata cu ceai de pelin, radacina porumbel salbatic si cayenne
 
 4 Pentru ce afectiuni poate fi folosita rodia?
 
-Radacina de rodie se foloseste ca antihelmitic, astringent, anti-canceros. Semintele se folosesc ca antihelmitic, in caz de leucoree, diaree, hemoragie, febra, ulcer,icter. 
+Radacina de rodie se foloseste ca antihelmitic, astringent, anti-canceros. Semintele se folosesc ca antihelmitic, in caz de leucoree, diaree, hemoragie, febra, ulcer,icter.
 
 5 Scrie pe scurt despre ierburile antihelmitice
 

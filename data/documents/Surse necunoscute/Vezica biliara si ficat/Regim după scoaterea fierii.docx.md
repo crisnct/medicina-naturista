@@ -18,16 +18,16 @@ ocr_text_characters: 0
 
 Regim după scoaterea fierii
 
-1. Supe și ciorbe de legume sau carne slabă  
-2. Carne fiartă (rasol) sau friptă  
-3. Carne slabă (pui, vită)  
-4. Lapte slab și brânzeturi slabe  
-5. Fructe și legume crude (salate)  
-6. Prăjituri cu fructe (tarte)  
-7. Apa plată sau slab mineralizată  
-8. Sare în cantitate normală  
-9. Tocănițe fără ceapă sau cu ceapă fiartă  
-10. Piureuri de cartofi, legume  
+1. Supe și ciorbe de legume sau carne slabă
+2. Carne fiartă (rasol) sau friptă
+3. Carne slabă (pui, vită)
+4. Lapte slab și brânzeturi slabe
+5. Fructe și legume crude (salate)
+6. Prăjituri cu fructe (tarte)
+7. Apa plată sau slab mineralizată
+8. Sare în cantitate normală
+9. Tocănițe fără ceapă sau cu ceapă fiartă
+10. Piureuri de cartofi, legume
 11. Legume fierte sau fripte
 
 Sunt interzise prăjelile, răntaşurile, slănina, jumările, untul, maioneza, salata de icre cu ulei, frişca, smântâna grasă, tocăturile din carne grasă. Uleiul ca atare nu este interzis, nici brânza, caşcavalul, ouăle, nucile ori alte seminţe grase, cu condiţia să fie consumate cu moderaţie, în funcţie de toleranţa digestivă a fiecăruia. Din punctul de vedere al operaţiei de colecist, regimul alimentar nu impune restricţii la carne slabă (pui, peşte, viţel), legume, lactate slabe, fructe sau pâine.

@@ -110,23 +110,23 @@ Util în probleme ale oboselii şi lipsei de energie ale abdomenului inferior da
 
 ## Descrieri alternative ale imaginilor
 
-- http://qigongspirit.files.wordpress.com/2012/02/houxi.jpg?w=230&h=144
-- http://t3.gstatic.com/images?q=tbn:ANd9GcRzDqNd6Uj5ucdwdW7fsIzfuDG97zKc9tK79AX3Qngz7zyIms7Q
-- http://t3.gstatic.com/images?q=tbn:ANd9GcTGszzZVwLTdqHkws_UIQQxssdp1X2eidTkm0aYsvqTkdeUwk7jpw
-- http://qigongspirit.files.wordpress.com/2012/02/lieque.jpg?w=535
-- http://qigongspirit.files.wordpress.com/2012/01/neiguan2.jpg?w=275&h=183
-- http://t0.gstatic.com/images?q=tbn:ANd9GcQL47LsqDynohlEYWC_0y-IPsp8v9RWLUbY5L_wQKv_fnXnh1fe
-- http://qigongspirit.files.wordpress.com/2012/02/quchi.jpg?w=238&h=87
-- http://t0.gstatic.com/images?q=tbn:ANd9GcSmPdKuwZASpMZnTtNR-nw5OT35r8oAgI03j9xZtZSv1TEyNQA13w
-- http://t0.gstatic.com/images?q=tbn:ANd9GcThLsm-TvE5IWgsD-xB6BIcllYqhzn6zGEadXDQCpo5sTbu1Io5vg
-- http://t0.gstatic.com/images?q=tbn:ANd9GcSokT5aQQVsFSK99grupZxqamgNm2-bHu2N1IaUBwuspmCqaa98
-- http://qigongspirit.files.wordpress.com/2012/01/zusanli2.jpg?w=194&h=259
-- http://t0.gstatic.com/images?q=tbn:ANd9GcRX33SLa15VE60WWFMPivooLWKVhIMYLN75VxHSot6-VJpQjSlm
-- http://qigongspirit.files.wordpress.com/2012/02/yanglingquan.jpg?w=535
-- http://qigongspirit.files.wordpress.com/2012/02/shenshu.jpg?w=535
-- http://qigongspirit.files.wordpress.com/2012/02/fengchi.jpg?w=196&h=257
-- http://qigongspirit.files.wordpress.com/2012/02/dazhui.jpg?w=535
-- http://qigongspirit.files.wordpress.com/2012/02/qihai.jpg?w=535
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 ## Imagini și OCR
 

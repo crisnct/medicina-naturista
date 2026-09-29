@@ -26,7 +26,7 @@ Caracteristici de identificare
 
 Tulpinile
 
-Alb: impunătoare, 60-80 de metri in inaltime, 3-8 metri  grosime, ramificate, coaja maronie pala; fibroase sau aproximativ fibroase și intrerupte inegal, , nu se transforma in pulbere ușor, nuanțeaza in galben saliva atunci când sunt mestecate.
+Alb: impunătoare, 60-80 de metri in inaltime, 3-8 metri grosime, ramificate, coaja maronie pala; fibroase sau aproximativ fibroase și intrerupte inegal, , nu se transforma in pulbere ușor, nuanțeaza in galben saliva atunci când sunt mestecate.
 
 Englez: copac înalt, de la 80 la 100 de metri de mare, scoarța și ramurile copacului tanar sunt gri , oarecum lucios in exterior și maroniu pe plan intern, intrerupta, suprafața interioară aspră.
 
@@ -212,7 +212,7 @@ Ulcere, rani: Utilizeaza infuzia ca o spălare.
 
 Vaginal-Leucoree, gonoree, membranele mucoase inflamate, prolaps sau uter extins: Foloseste infuzie puternica sub forma de dus.
 
-Afte :2 grame frunze de zmeura  rosie (Rubus idaeus), 2 grame Shavegrass (Equisetum hyemale), 2 grame Agrimony (Agrimonia Eupatoria)
+Afte :2 grame frunze de zmeura rosie (Rubus idaeus), 2 grame Shavegrass (Equisetum hyemale), 2 grame Agrimony (Agrimonia Eupatoria)
 
 Mod de preparare: Se toarnă 1 litru de apa clocotita-fierbinte peste plante și se acopera pentru 20 minute.
 

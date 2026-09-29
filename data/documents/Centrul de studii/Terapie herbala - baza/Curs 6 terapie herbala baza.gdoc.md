@@ -14,7 +14,7 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-Curs 6 
+Curs 6
 
 Cataplasme, pilule si infuzii
 
@@ -22,7 +22,7 @@ Cataplasme, pilule si infuzii
 
 Cele mai bune moduri de a-ti procura plantele necesare sunt, fie cultivarea lor, fie achizitionarea de la un plafar.
 
-**Infuziile** O infuzie se prepară prin înmuierea plantelor în apă. Infuziile fierbinți sunt făcute prin înmuierea plantei in apa fiarta. Apa se toarna peste planta care este adâncită între cincisprezece minute și douăzeci de minute, pentru a produce o infuzie puternică. Acest lucru este potrivit pentru a fi baut ca un ceai, în general, o ceașcă de trei ori pe zi. Este o metodă bună pentru frunze și flori, pudra de scoarță de copac, semințe, muguri și fructe cu coajă lemnoasă zdrobite și rădăcini (cu condiția să nu fie  prea lemnoase). Infuziile reci sunt realizate prin înmuierea plantei in apa rece sau lapte pentru câteva ore (pana la 6 ore). Acest lucru este potrivit atunci când se pregateste infuzia pentru a fi folosita ulterior ca o cataplasma. Infuziile calde și reci pot fi stocate într-un frigider mai multe zile dupa ce sunt facute.
+**Infuziile** O infuzie se prepară prin înmuierea plantelor în apă. Infuziile fierbinți sunt făcute prin înmuierea plantei in apa fiarta. Apa se toarna peste planta care este adâncită între cincisprezece minute și douăzeci de minute, pentru a produce o infuzie puternică. Acest lucru este potrivit pentru a fi baut ca un ceai, în general, o ceașcă de trei ori pe zi. Este o metodă bună pentru frunze și flori, pudra de scoarță de copac, semințe, muguri și fructe cu coajă lemnoasă zdrobite și rădăcini (cu condiția să nu fie prea lemnoase). Infuziile reci sunt realizate prin înmuierea plantei in apa rece sau lapte pentru câteva ore (pana la 6 ore). Acest lucru este potrivit atunci când se pregateste infuzia pentru a fi folosita ulterior ca o cataplasma. Infuziile calde și reci pot fi stocate într-un frigider mai multe zile dupa ce sunt facute.
 
 **Decocturi** Un decoct este următoarul mod, din cele mai frecvente, de a folosi un remediu pe bază de plante. Este utilizat pentru extragerea substanțelor chimice pe bază de plante din părțile dure ale plantelor. Acesta se prepară prin fierberea plantei în apă timp de până la treizeci de minute. E gata, in general, atunci cand, prin fierbere, se reduce volumul la o treime. Decoctul este apoi lăsat să se răcească și este măcinat. Aceasta este metoda pentru radacini lemnoase, rizomi, crengi, semințele tari și radacini. Decocturile pot fi stocate pentru doar câteva zile în frigider.
 
@@ -50,13 +50,13 @@ foarte utile.
 
 **Dozele** Doza uzuală pentru o planta este între 1 și 4 grame de planta uscata, de trei ori pe zi. Ierburile uscate sunt mult mai puternice asa ca, în general, sunt folosite in cantități mici.
 
-**Echipamentul** Sticlă, oțel, ceramica, inox sunt materialele adecvate pentru a lucra cu ierburile. Nu folosi  aluminiu. Un mojar ar trebui să fie parte a echipamentului tau, dacă ai de gând să pulverizezi sau sa faci pulbere din plante medicinale. Alternativ, un procesor de alimente poate fi folosit.
+**Echipamentul** Sticlă, oțel, ceramica, inox sunt materialele adecvate pentru a lucra cu ierburile. Nu folosi aluminiu. Un mojar ar trebui să fie parte a echipamentului tau, dacă ai de gând să pulverizezi sau sa faci pulbere din plante medicinale. Alternativ, un procesor de alimente poate fi folosit.
 
 **Copii și vârstnici** Ei trebuie să primească doar jumătate din doza remediului pe bază de plante.
 
 **Alergiile** Plantele medicinale pot provoca reacții alergice la fel ca medicamentele ortodoxe. Este demn sa dam sau luam întâi o doză de încercare la scară mică.
 
-**Infuziile** O lingurita de planta poate fi folosita pentru o cana de apa clocotita. Aceasta inseamna un ceai bun, puternic. Dacă doresti să te  obișnuiesti sa faci toate infuziile de aceeași rezistență, utilizeaza 25-30 grame de planta uscata la 600 ml (sau o jumătate de litru) de apă. Desigur, le poti face mult mai slabe, dacă doresti.
+**Infuziile** O lingurita de planta poate fi folosita pentru o cana de apa clocotita. Aceasta inseamna un ceai bun, puternic. Dacă doresti să te obișnuiesti sa faci toate infuziile de aceeași rezistență, utilizeaza 25-30 grame de planta uscata la 600 ml (sau o jumătate de litru) de apă. Desigur, le poti face mult mai slabe, dacă doresti.
 
 Iata cateva indicatii pentru folosirea plantelor ca infuzii:
 
@@ -102,21 +102,21 @@ Durere în gât- Salvie (frunze)
 
 Orzul este oparit, apoi fiert la foc mic într-o jumătate de litru de apă fiartă în care se adauga sucul de lamaie. Odată ce orzul se inmoaie, acesta poate fi scos din oala si se adaugă mierea. Pentru ameliorarea simptomelor dureroase și vindecarea nevoii de a urina frecvent,ia 1 ceasca de 3 ori pe zi.
 
-**Tincturile** Acestea sunt realizate în trei moduri: 
+**Tincturile** Acestea sunt realizate în trei moduri:
 
- 1\. ierburile sunt cufundate în alcool 
+ 1\. ierburile sunt cufundate în alcool
 
-2\. ierburile sunt încălzite în alcool 
+2\. ierburile sunt încălzite în alcool
 
 3\. alcoolul este filtrat prin ierburi
 
-Te rog  să ai grijă când incalzestii alcoolul pentru viteza surprinzătoare cu care alcoolul poate lua foc\! Iti recomand sa utilizezi cea mai lenta metoda- înmuierea în alcool
+Te rog să ai grijă când incalzestii alcoolul pentru viteza surprinzătoare cu care alcoolul poate lua foc\! Iti recomand sa utilizezi cea mai lenta metoda- înmuierea în alcool
 
 Pentru a face o tinctura de bază, ia 100 de grame de plante medicinale tocate fin sau sub formă de praf și scufunda-le în 600 ml sau intr-o halbă. Lasa-le timp de două săptămâni într-un loc cald, cum ar fi un dulap aerisit. La sfârșitul celor două săptămâni, planta trebuie scoasa afară.Tinctura va fi redusa cu aproximativ o treime pentru ca iarba va fi absorbit o mare parte din lichid. Tinctura trebuie sigilata, etichetata și plasata într-un dulap întunecat.
 
 Tinctura poate fi folosita direct pe piele, prin masarea ușoară, pentru preparate din plante externe, cum ar fi tataneasa, patlagina mare, calendula și sunătoarea.
 
-**Tinctura de calciu** În aceste zile ale "epidemiei moderne" de osteoporoza, aceasta tinctura-otet este recomandata ca un posibil mijloc de creștere a echilibrului calciului . Ia cojile de la o duzina de oua, usuca-le și scoate membrana din interior, astfel încât sa ai pur și simplu coji de calciu. Pulverizeaza-le și adauga 600 ml sau o jumătate de litru de oțet de mere. Se va face o mulțime de spumă, asa ca foloseste un recipient mare. Se adaugă 50 de grame de miere și se amestecă bine. Păstreaza  tinctura într-un recipient cu șurub la cap, din plastic de preferință, în caz de presiune excesiva și nu eliberezi până când tinctura nu este plata. Două linguri, de trei ori pe zi este doza recomandată după masa. Acest lucru ar trebui să fie evitat de cei care suferă de dispepsie sau ulcerație stomacala.
+**Tinctura de calciu** În aceste zile ale "epidemiei moderne" de osteoporoza, aceasta tinctura-otet este recomandata ca un posibil mijloc de creștere a echilibrului calciului . Ia cojile de la o duzina de oua, usuca-le și scoate membrana din interior, astfel încât sa ai pur și simplu coji de calciu. Pulverizeaza-le și adauga 600 ml sau o jumătate de litru de oțet de mere. Se va face o mulțime de spumă, asa ca foloseste un recipient mare. Se adaugă 50 de grame de miere și se amestecă bine. Păstreaza tinctura într-un recipient cu șurub la cap, din plastic de preferință, în caz de presiune excesiva și nu eliberezi până când tinctura nu este plata. Două linguri, de trei ori pe zi este doza recomandată după masa. Acest lucru ar trebui să fie evitat de cei care suferă de dispepsie sau ulcerație stomacala.
 
 **Unguente** Pentru a face propriile unguente, ar trebui să zdrobesti planta (proaspata sau uscata) și sa o adaugi la o bază. Baza poate fi untura de porc, untură de legume, lanolină, ulei de germeni de grâu, ulei de măsline sau ulei de migdale. 50 de grame de plante sunt folosite pentru 200 de grame de bază. Aceasta este apoi fiarta la foc mic, ușor, pentru trei sau patru ore, până când culoarea naturală a plantelor se modifică. Rămășițele plantelor sunt apoi scoase afară.
 
@@ -126,7 +126,7 @@ Arnica- excelenta pentru vânătăi și entorse. Să nu se aplice niciodată pe 
 
 Varza- excelenta pentru a indeparta infectiile de la cap
 
-Morcovul- ras  si ud, o cataplasmă cu morcov cald este excelenta pentru gatul dureros si congestionat. Este metoda clasica de utilizare în mastita.
+Morcovul- ras si ud, o cataplasmă cu morcov cald este excelenta pentru gatul dureros si congestionat. Este metoda clasica de utilizare în mastita.
 
 Tataneasa- o minunata capacitate de vindecare a rănilor
 

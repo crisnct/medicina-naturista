@@ -27,11 +27,11 @@ Pentru nașu
 | Alive – un comprimat | Zinc – un comprimat | Ulei de cocos – o linguriță |
 | Ulei DHA – o capsulă | Resveratrol – un comprimat | Piper lung – cât o jumătate de boabă de grâu. (se ronțăie bine între dinți) |
 | Vitamina D – o capsulă | Thioalpha – un comprimat | Silimarină – două comprimate |
-| Curcumin – o capsulă | Piper lung – cât o jumătate de boabă de grâu. (se ronțăie bine între dinți) |  |
-| Ulei de cocos – o linguriță | O felie de slănină |  |
-|  | Rădăcină de păpădie – o linguriță |  |
-|  |  |  |
-|  |  |  |
+| Curcumin – o capsulă | Piper lung – cât o jumătate de boabă de grâu. (se ronțăie bine între dinți) | |
+| Ulei de cocos – o linguriță | O felie de slănină | |
+| | Rădăcină de păpădie – o linguriță | |
+| | | |
+| | | |
 
 - A nu se consuma zahăr absolut deloc.
 
@@ -77,13 +77,13 @@ Pentru nașa
 | --- | --- | --- |
 | Dimineața (07:00-09:00) | La prânz (11:30-13:30)înainte de masă cu 30min | Seara(17:00-19:00)înainte de masă cu 30min |
 | Alive – un comprimat | Vitamina C – un comprimat | Ulei de cocos – o linguriță |
-| Confort U – o capsulă | Resveratrol – un comprimat la două zile |  |
-| Milgamma – un comprimat |  |  |
-| Ulei de cocos – o linguriță |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Confort U – o capsulă | Resveratrol – un comprimat la două zile | |
+| Milgamma – un comprimat | | |
+| Ulei de cocos – o linguriță | | |
+| | | |
+| | | |
+| | | |
+| | | |
 
 - Sare cât mai puțină, spre deloc.
 

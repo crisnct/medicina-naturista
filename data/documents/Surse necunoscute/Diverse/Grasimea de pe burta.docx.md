@@ -16,7 +16,7 @@ ocr_text_characters: 0
 
 ## Text nativ
 
-https://www.putereaplantelor.ro/ulei-de-sofranel-bio-rapunzel-500-ml.html
+
 
 Ulei de sofranel
 

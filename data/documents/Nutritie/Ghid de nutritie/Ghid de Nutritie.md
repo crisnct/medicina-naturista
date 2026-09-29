@@ -39,7 +39,7 @@ Iata în continuare o sinteza a recomandarilor promovate de catre principalele o
 
 Eforturile nutritionistilor de a pune la dispozitia populatiei recomandari practice, concrete, pentru cei care doresc sa adopte o alimentatie sanatoasa s-au materializat într-o schema numita \"piramida alimentatiei\". Ea evidentiaza într-un mod simplu si clar proportia corecta dintre diferitele grupe de alimente. Prezentam în continuare varianta ovo-lacto-vegetariana a piramidei alimentatiei.
 
-**Cereale integrale** 
+**Cereale integrale**
 =====================
 
 Consumati din belsug (6-11 portii/zi)
@@ -50,7 +50,7 @@ O portie înseamna: 1 felie de pâine, 1/2 cana cereale fierte, 3/4 cana cereale
 
 Valoarea nutritiva: Glucide complexe, fibre vegetale, proteine, vitamine (B1, B2, B6), fier, calciu, magneziu, cupru, mangan, fluor, crom.
 
-**Legume, zarzavaturi** 
+**Legume, zarzavaturi**
 =======================
 
 Consumati cantitati considerabile (3-5 portii/zi)
@@ -68,7 +68,7 @@ O portie înseamna: 1 fruct de marime medie, 1/2 cana fructe din compot, 1/4 can
 
 Valoarea nutritiva: vitamina C, beta-caroten, fibre vegetale, potasiu, folati, magneziu.
 
-**Lapte si derivate lactate** 
+**Lapte si derivate lactate**
 =============================
 
 Consumati cu moderatie (2-3 portii/zi)
@@ -77,7 +77,7 @@ O portie înseamna: 1 cana lapte degresat, 1 cana lapte de soia, 3/4 cana brânz
 
 Valoarea nutritiva: calciu, proteine, vitamine (A, D, B2, B12).
 
-**Nuci, seminte, leguminoase, înlocuitori de carne** 
+**Nuci, seminte, leguminoase, înlocuitori de carne**
 ====================================================
 
 Consumati cu moderatie (2-3 portii/zi)
@@ -86,7 +86,7 @@ O portie înseamna: 1/2 cana leguminoase gatite (fasolea, lintea, mazarea, soia)
 
 Valoarea nutritiva: proteine, zinc, fier, fibre, calciu, vitamine (B6, E, niacina), acid linoleic.
 
-**Grasimi si uleiuri vegetale, zahar, miere, sare** 
+**Grasimi si uleiuri vegetale, zahar, miere, sare**
 ===================================================
 
 Consumati în cantitati limitate

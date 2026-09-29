@@ -72,14 +72,14 @@ Se pot folosi: maioneză (atenţie -- cea din comerţ are zahăr, preferabil să
 MIC DEJUN**
 
 +-------------------------------------------------------------+-------------------------------------------+
-| Fulgi integrali de ovăz / 2 felii pâine „Slăbeşti mâncând"\ |    Sau                                    |
-| 200 ml lapte 0,5% / 200 ml iaurt 0,5%\                      |                                           |
-| Gem dietetic (cu fructoză)\                                 |  1 felie pâine „Slăbeşti mâncând"\        |
-| 200 g brânză degresată\                                     | 2 ouă / 2 cremvusti\                      |
-| Roşii, castraveţi, ardei, ridichi, ceapă\                   | Bacon / şuncă / slăninuţă\                |
-| 1--2 fructe permise\                                        | Caşcaval\                                 |
-| 50 g alune / migdale / nuci                                 | Roşii, castraveţi, ardei, ridichi, ceapă\ |
-|                                                             | 1 fruct permis                            |
+| Fulgi integrali de ovăz / 2 felii pâine „Slăbeşti mâncând"\ |    Sau |
+| 200 ml lapte 0,5% / 200 ml iaurt 0,5%\ | |
+| Gem dietetic (cu fructoză)\ |  1 felie pâine „Slăbeşti mâncând"\ |
+| 200 g brânză degresată\ | 2 ouă / 2 cremvusti\ |
+| Roşii, castraveţi, ardei, ridichi, ceapă\ | Bacon / şuncă / slăninuţă\ |
+| 1--2 fructe permise\ | Caşcaval\ |
+| 50 g alune / migdale / nuci | Roşii, castraveţi, ardei, ridichi, ceapă\ |
+| | 1 fruct permis |
 +-------------------------------------------------------------+-------------------------------------------+
 
   \

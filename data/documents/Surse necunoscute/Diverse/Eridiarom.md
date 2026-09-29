@@ -73,7 +73,7 @@ FLORENTIN POPA
 
 D-lui prof. dr. Morar Roman i se pot expedia solicitari in scris la urmatoarea adresa: Aleea Putna nr. 5, sc. 6, ap. 57, Cluj-Napoca, cod 3400
 
-http://www.formula-as.ro / articol.php? nrrev=383&& idart=968 && numecap=Medicina%20naturista&&cc=diaree%20cronica
+ / articol.php? nrrev=383&& idart=968 && numecap=Medicina%20naturista&&cc=diaree%20cronica
 
 \- **infuzii din** : **[flori de galbenele]{.underline}**, [cretisoara]{.underline}, coaja de stajar, radacina de cerentel, foi de ceapa uscata, **[flori de coada-soricelului]{.underline}**.
 

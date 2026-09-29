@@ -20,15 +20,15 @@ Ierburi pentru calmarea nervilor și antispasmodice
 
 Nervii sunt ca o rețea de fire electrice într-un oraș . Energia electrică este adusa în fiecare casă pentru a furniza lumină și a rula masini. Sunt utilizate fire mici în cazul în care e nevoie de puțină putere, în timp ce sarcinile grele sunt transportate prin cabluri. Firul propriu-zis este important. În cazul în care un fir este prea luminos sau prea fragil pentru curent, am putea avea o cădere în sistemul electric.
 
-În loc de energie electrică, rețeaua noastra nervoasa transporta lichid nervos . Acest fluid   se comportă în același mod ca și electricitatea ; se execută ca aparat chimic al corpurilor noastre  și instigă și păstrează fluxul diverselor secreții ale diferitelor organe ale corpului . Avem o mare retea de nervi conductori și o masă de linii fine care radiaza de la ea. Firele nervoase sunt la fel de puternice ca fibre lor  și fibrele sunt  construite și irosite in fiecare zi. Totul depinde de tine , de cât de puternice sau  slabe iti păstrezi aceste fibre pentru nervi, la fel ca pentru toate părțile corpului, sanatatea depinde de obiceiurile de zi cu zi din viața ta.
+În loc de energie electrică, rețeaua noastra nervoasa transporta lichid nervos . Acest fluid se comportă în același mod ca și electricitatea ; se execută ca aparat chimic al corpurilor noastre și instigă și păstrează fluxul diverselor secreții ale diferitelor organe ale corpului . Avem o mare retea de nervi conductori și o masă de linii fine care radiaza de la ea. Firele nervoase sunt la fel de puternice ca fibre lor și fibrele sunt construite și irosite in fiecare zi. Totul depinde de tine , de cât de puternice sau slabe iti păstrezi aceste fibre pentru nervi, la fel ca pentru toate părțile corpului, sanatatea depinde de obiceiurile de zi cu zi din viața ta.
 
-Nu folosi niciodată medicamente pentru a stimula nervii , deoarece acest lucru va face mai mult rău decât bine . Nu utiliza sedative chimice sau stimulente , dar elimina cauzele nervozitatii prin evitarea obiceiurilor incorecte din alimentatie si alcool  și prin evitarea grijilor. Obiceiurile alimentare nesanatoase otrăvesc sistemul , il umplu cu acizi care irita fibrele nervoase si provoca inflamații ale nervilor , sciatica , etc. Evita mâncarea si bautura in exces , și mai ales evita excesele sexuale. Excesele rezulta în fluid nervos inadecvat și o eventuala epuizare nervoasă. Întregul corp va avea de suferit  și niciun organ unic nu va scăpa de daune.
+Nu folosi niciodată medicamente pentru a stimula nervii , deoarece acest lucru va face mai mult rău decât bine . Nu utiliza sedative chimice sau stimulente , dar elimina cauzele nervozitatii prin evitarea obiceiurilor incorecte din alimentatie si alcool și prin evitarea grijilor. Obiceiurile alimentare nesanatoase otrăvesc sistemul , il umplu cu acizi care irita fibrele nervoase si provoca inflamații ale nervilor , sciatica , etc. Evita mâncarea si bautura in exces , și mai ales evita excesele sexuale. Excesele rezulta în fluid nervos inadecvat și o eventuala epuizare nervoasă. Întregul corp va avea de suferit și niciun organ unic nu va scăpa de daune.
 
 Ierburile nervine acționează ca tonice nervoase. Funcția lor este de a hrani, a reglementa, a consolida, a reabilita celulele nervoase. Ele acționează fie ca stimulente, fie ca sedative , diminuand aberația , iritabilitatea sau durerile sistemului nervos .
 
-Acestea nu ar trebui să fie confundate cu narcoticele anorganice sau opiaceele folosite de medicii clasici, care sunt în cele din urmă debilitante și dauneaza vieții fibrelor și țesuturilor. 
+Acestea nu ar trebui să fie confundate cu narcoticele anorganice sau opiaceele folosite de medicii clasici, care sunt în cele din urmă debilitante și dauneaza vieții fibrelor și țesuturilor.
 
-Antispasticele previn sau diminueaza contractiile excesive (spasmele) din mușchi,voluntare sau involuntare, în orice parte a corpului. Multe au funcții de stimulare a centrilor nervosi superiori,  centrilor de coordonare și de putere (a nervinelor);altele prin apăsarea tuturor funcțiilor vitale (Lobelia, americanspanz,etc), precum și un număr de stimulare a fibrelor musculare ale intestinelor pentru a expulza acumulările de gaze(asafoetida, valeriana, ignamasălbatica, cajuput, etc).
+Antispasticele previn sau diminueaza contractiile excesive (spasmele) din mușchi,voluntare sau involuntare, în orice parte a corpului. Multe au funcții de stimulare a centrilor nervosi superiori, centrilor de coordonare și de putere (a nervinelor);altele prin apăsarea tuturor funcțiilor vitale (Lobelia, americanspanz,etc), precum și un număr de stimulare a fibrelor musculare ale intestinelor pentru a expulza acumulările de gaze(asafoetida, valeriana, ignamasălbatica, cajuput, etc).
 
 Majoritatea acestor plante vindeca nervii deteriorati sau suprasolicita și amelioreaza tensiunea nervoasă și iritabilitatea cauzate de acțiunea neregulata si dureroasa a mușchilor. Aceste plante sunt cele mai eficienteîn cazurile de blocare a articulațiilor, astfel încât acestea sunt utile mai ales ca agenți anti-tetanos.
 
@@ -42,7 +42,7 @@ Gura lupului (Scutellaria lateriflora; LABIATAE)
 
 Denumiri populare: coltul- lupului, buruiana "cainelui-turbat"
 
-Originara din America, creste in locuri umede, pasuni, iazuri din Florida, Alabama, Kentucky si Ohio dar in prezent este cultivata in Europa si alte zone ale lumii. A fost oficial admisa in Farmacopeea SUA in anul 1863\. Este folosita in medicina empirica pentru tratamentul convulsiilor, combaterea isteriei si starilor anxioase. Datorita efectelor calmante asupra  sistemului nervos si muscular a fost folosita in medicina populara pentru tratarea rabiei de unde si numele de "buruiana cainelui-turbat". Unele triburi de indieni americani au folosit planta in mod ceremonial sa introduca tinerele fete la varsta de maritat. Face parte din familia mentei (Mentha piperita) si se folosesc in scop terapeutic partile aeriene ale plantei recoltate in lunile mai-august.
+Originara din America, creste in locuri umede, pasuni, iazuri din Florida, Alabama, Kentucky si Ohio dar in prezent este cultivata in Europa si alte zone ale lumii. A fost oficial admisa in Farmacopeea SUA in anul 1863\. Este folosita in medicina empirica pentru tratamentul convulsiilor, combaterea isteriei si starilor anxioase. Datorita efectelor calmante asupra sistemului nervos si muscular a fost folosita in medicina populara pentru tratarea rabiei de unde si numele de "buruiana cainelui-turbat". Unele triburi de indieni americani au folosit planta in mod ceremonial sa introduca tinerele fete la varsta de maritat. Face parte din familia mentei (Mentha piperita) si se folosesc in scop terapeutic partile aeriene ale plantei recoltate in lunile mai-august.
 
 Actiune terapeutica: sedativa, tonic-nervina, utila in stari de epuizare nervoasa, tulburari neuro-vegetative, nevralgii, datorita principiilor amare are actiune stomahica, colagoga si coleretica mai ales la persoane iritabile, tensionate, actiune antispastica si diuretica fiind utila in colicile renale, regleaza ritmul veghe- somn, combate insomniile, determina contractii uterine favorizand eliminarea placentei, poate influenta declansarea menstruatiei in caz de amenoree, amelioreaza durerea sanilor
 
@@ -52,17 +52,17 @@ Contraindicatii: a nu se depasi doza zilnica recomandata, deoarece in exces poat
 
 Mod de administrare: infuzie, tinctura
 
-Infuzia se prepara dintr-o lingurita de planta uscata la o cana de apa clocotita care se lasa la infuzat 5-10 minute, se consuma de 2 ori pe zi 
+Infuzia se prepara dintr-o lingurita de planta uscata la o cana de apa clocotita care se lasa la infuzat 5-10 minute, se consuma de 2 ori pe zi
 
 Tinctura se administreaza 10-20 picaturi de 2-3 ori pe zi
 
 PULBEREA ANTISPASMODICA
 
-56g  pulbere de gura-lupului(Scutellaria lateriflora)
+56g pulbere de gura-lupului(Scutellaria lateriflora)
 
-56g  de pulberebitter stomacal(Bayberry)
+56g de pulberebitter stomacal(Bayberry)
 
-28g  pulbererădăcinăde Valeriana(Valeriana officinalis)
+28g pulbererădăcinăde Valeriana(Valeriana officinalis)
 
 7g pulbere deLobeliapraf(Lobelia inflata)
 
@@ -78,31 +78,31 @@ Pentru tratarea varicelei
 
 28g gura-lupului(Scutellaria lateriflora)
 
-14g  de radacinade Pleurezia (Asclepias tuberosa)
+14g de radacinade Pleurezia (Asclepias tuberosa)
 
 Pregătire: se infuzeaza timp de20 minuteîn1litru de apafiarta, seîndulcesteșibeacalda.
 
 Dozare: 56 ml de lichid, de3-4ori pe zi.
 
-Administrare: Pentrumâncărimea  pielii, fa baie cu o combinație de 28g tinctura deLobelia și 7 grame de extract lichid de witch hazel.
+Administrare: Pentrumâncărimea pielii, fa baie cu o combinație de 28g tinctura deLobelia și 7 grame de extract lichid de witch hazel.
 
 Cloroza , boala verde
 
-28g  Scullcap ( Scutellaria lateriflora )
+28g Scullcap ( Scutellaria lateriflora )
 
-28g  Cohosh albastru ( Caulophyllum thalictroides )
+28g Cohosh albastru ( Caulophyllum thalictroides )
 
-14g  Golden Seal ( Hydrastis Canadensis )
+14g Golden Seal ( Hydrastis Canadensis )
 
-14g  semințe de coriandru ( Coriandrum sativum )
+14g semințe de coriandru ( Coriandrum sativum )
 
-7g  coaja de portocala ( Citrus aurantium sau C. sinensis )
+7g coaja de portocala ( Citrus aurantium sau C. sinensis )
 
-Mod de preparare: se tin ierburile  timp de 20 minute în 1 litru de apa fiarta , 
+Mod de preparare: se tin ierburile timp de 20 minute în 1 litru de apa fiarta ,
 
 apa se strecoara si se adauga pana la 1 kilogram de miere si 56g de glicerină .
 
-Dozare : cca.60ml  de lichid 3-4 ori pe zi .
+Dozare : cca.60ml de lichid 3-4 ori pe zi .
 
 Debilitate
 
@@ -114,7 +114,7 @@ Debilitate
 
 Mod de preparare: Se afunda 1 lingurita de pulberi mixte pentru 20 minute din 1
 
-jumatate de litru de apa , se îndulceste , se pune in sticlă  și să păstreaza într-un loc răcoros .
+jumatate de litru de apa , se îndulceste , se pune in sticlă și să păstreaza într-un loc răcoros .
 
 Dozare : cca.60 ml de lichid, la fiecare 2 la 3 ore, in timpul zilei .
 
@@ -124,7 +124,7 @@ EPILEPSIE
 
 14g Wood Betony ( Stachys officinalis )
 
-7g  Rădăcină de valeriană ( Valeriana officinalis )
+7g Rădăcină de valeriană ( Valeriana officinalis )
 
 14g Busuiocul cerbilor ( Mentha pulegium )
 
@@ -138,7 +138,7 @@ Mod de preparare: se infuza primele 5 plante intr-un litru de apa . Acopera cu a
 
 păstreaza cald în cuptor timp de 1 oră , apoi strecuara peste Cayenne și Bayberry .
 
-Îndulceste, puneti in sticlă  și păstreaza într \-un loc răcoros .
+Îndulceste, puneti in sticlă și păstreaza într \-un loc răcoros .
 
 Dozare : 2 linguri, de 6 ori pe zi
 
@@ -170,13 +170,13 @@ Tonic nervos
 
 Mod de preparare:Utilizati cainfuziesausirop.
 
-Dozare: 2linguritedupă mese și laculcare(sirop); 
+Dozare: 2linguritedupă mese și laculcare(sirop);
 
 3linguridupa mese(infuzie).
 
 VALERIANA (Valeriana officinalis; VALERIANACEAE)
 
-Valeriana (Valeriana officinalis) este o specie de plante erbacee perena  din familia Valerianaceae. Mai este denumită și odolean, năvalnic, gușa-porumbelului sau iarba-pisicii.
+Valeriana (Valeriana officinalis) este o specie de plante erbacee perena din familia Valerianaceae. Mai este denumită și odolean, năvalnic, gușa-porumbelului sau iarba-pisicii.
 
 Caracteristici de identificare
 
@@ -186,7 +186,7 @@ Principalele substanțe active sunt: ulei volatil, acid izovalerianic și acid v
 
 Utilizarea valerianei are o tradiție de peste patru mii de ani, fiind considerata o plantă de referință, atât în Europa, cât și în Asia. Investită și cu însușiri magice de tradiția populară, în ultimele patru decenii i-au fost dedicate sute și sute de studii medicale, care toate atestă acelaș lucru: valeriana este una dintre cele mai eficiente remedii în tratarea tulburărilor emoționale, precum și a bolilor fizice asociate lor. O problemă de extremă actualitate în vremurile noastre, care stau sub semnul tensiunii si al stresului.
 
-Se mai numeste popular si odolean sau gusa porumbelului. Este o planta ierboasa, inalta de un metru \- un metru si jumatate, care creste spontan, in locurile umede, cu pamant afanat, din zonele de deal si de munte. Are florile de un roz palid, cu un miros slab-dulceag, la fel ca si frunzele. Radacina este puternica si bine dezvoltata (in ea sunt depozitate peste iarna substantele de rezerva), avand si ea un miros specific: dulceag-intepator si destul de neplacut, usor emetic (vomitiv). Radacina se recolteaza  la sfarsitul lui septembrie, inceputul lui octombrie. Se dezgroapa cu cazmaua, apoi se spala in curent de apa rece, se despica pe lungime in patru si se intinde la uscat, in locuri bine ventilate si lipsite de umiditate. Cand radacinile devin casante si se rup cu un pocnet sec, procesul de uscare s-a incheiat si planta se depoziteaza in saculeti de hartie, in locuri uscate, intunecoase si reci. Pentru terapie nu sunt nici pe departe suficiente cantitatile din flora spontana, unde creste izolat, fiind destul de rara, motiv pentru care se cultiva pe suprafete mari, inclusiv la noi in tara, unde valeriana se gaseste in magazinele Plafar sub forma de ceai sau tincturi.
+Se mai numeste popular si odolean sau gusa porumbelului. Este o planta ierboasa, inalta de un metru \- un metru si jumatate, care creste spontan, in locurile umede, cu pamant afanat, din zonele de deal si de munte. Are florile de un roz palid, cu un miros slab-dulceag, la fel ca si frunzele. Radacina este puternica si bine dezvoltata (in ea sunt depozitate peste iarna substantele de rezerva), avand si ea un miros specific: dulceag-intepator si destul de neplacut, usor emetic (vomitiv). Radacina se recolteaza la sfarsitul lui septembrie, inceputul lui octombrie. Se dezgroapa cu cazmaua, apoi se spala in curent de apa rece, se despica pe lungime in patru si se intinde la uscat, in locuri bine ventilate si lipsite de umiditate. Cand radacinile devin casante si se rup cu un pocnet sec, procesul de uscare s-a incheiat si planta se depoziteaza in saculeti de hartie, in locuri uscate, intunecoase si reci. Pentru terapie nu sunt nici pe departe suficiente cantitatile din flora spontana, unde creste izolat, fiind destul de rara, motiv pentru care se cultiva pe suprafete mari, inclusiv la noi in tara, unde valeriana se gaseste in magazinele Plafar sub forma de ceai sau tincturi.
 
 Actiune terapeutica:
 
@@ -258,7 +258,7 @@ Neliniște, insomnie, isterie, nevralgii
 
 14gValeriana(Valeriana officinalis)
 
-14g  Scullcap (Scutellaria lateriflora)
+14g Scullcap (Scutellaria lateriflora)
 
 14gVasc(Viscum album)
 
@@ -294,13 +294,13 @@ In Enciclopedia remediilor florale, lucrare de baza scrisa de Mechthild Scheffer
 
 Infuzie de papucul doamnei
 
-28g  de rădăcină depapucul doamnei, tăiata(Cypripedium calceolusvar.Pubescens)
+28g de rădăcină depapucul doamnei, tăiata(Cypripedium calceolusvar.Pubescens)
 
 1-1/4litride apadistilata
 
 Mod de preparare:Se pune apala fiertși se toarnăpesteplanta. Se acoperăși se tine asatimp de 15 minute, se strecoara si seindulcestedupa gust.
 
-Dozare: 60ml  de lichid, de3 până la 4ori pe zi, de preferatinainte de masa. 
+Dozare: 60ml de lichid, de3 până la 4ori pe zi, de preferatinainte de masa.
 
 Copii: de la 2linguritea1lingurita, în funcție devârsta șistare.
 

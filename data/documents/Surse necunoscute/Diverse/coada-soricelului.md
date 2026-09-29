@@ -127,13 +127,13 @@ Conditiile tehnice de receptie prevad ca produsul sa fie format din frunze de ce
 
 Grupa A -- avand ca genina gigitoxigenina, din care fac parte:
 
--   purpureaglicozidul A (desacetillanatozid A) este un heterozid care se gasaste in special in planta proaspata si care prin hidroliza enzimatica da o molecula de digitoxina si una de glucoza.
+- purpureaglicozidul A (desacetillanatozid A) este un heterozid care se gasaste in special in planta proaspata si care prin hidroliza enzimatica da o molecula de digitoxina si una de glucoza.
 
--   digitoxina (digitalina Nativelle), primul heterozid extras in stare pura din frunzele de Digitalis purpureae.Prin hidroliza da o molecula de digitoxigenina si 3 molecule de digitoxoza.
+- digitoxina (digitalina Nativelle), primul heterozid extras in stare pura din frunzele de Digitalis purpureae.Prin hidroliza da o molecula de digitoxigenina si 3 molecule de digitoxoza.
 
--   Heterozide care contin numai 2 sau 1 molecule de digitoxoza legate de digitoxigenina, cu sau fara molecula de glucoza.
+- Heterozide care contin numai 2 sau 1 molecule de digitoxoza legate de digitoxigenina, cu sau fara molecula de glucoza.
 
--   Heterozide care au un alt zahar in loc de digitoxoza (digitaloza,fucoza etc), avand sau nu si o molecula de glucoza, de exemplu: odorobiozidul G.Acesta, prin hidroliza, da odoxid H si o molecula de glucoza.
+- Heterozide care au un alt zahar in loc de digitoxoza (digitaloza,fucoza etc), avand sau nu si o molecula de glucoza, de exemplu: odorobiozidul G.Acesta, prin hidroliza, da odoxid H si o molecula de glucoza.
 
 Grupa B -- Toate heterozidele din grupa A au un corespondent in seria B, care se deosebeste prin aceea ca digitoxigenina este inlocuita cu gitoxigenina, genina ce are o grupa --OH in plus (in pozitia 16).Astfel, purpureaglicozidului A ii corespunde purpureaglicozidului B, digitoxinei gitoxina, odorobiozidului G digitalinum verum, odorozidului H strospezidul etc.
 

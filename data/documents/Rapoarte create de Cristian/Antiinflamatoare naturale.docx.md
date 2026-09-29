@@ -26,24 +26,24 @@ ocr_text_characters: 0
 | turmeric | afine | armurariu | lemn-dulce | Curcumin 95 |
 | ghimbir | merișoare | schinduf | ceai verde | Astaxantină |
 | ciuperci chaga | cătină | chimion | sunătoare | MSM |
-| broccoli | ananas |  | mentă | Boswellia |
-| ardei cayenne | coacăze negre |  | frunze de afin | Ulei esențial de tămâie |
-| castravete | smochine |  | urzică | Rhodiola rosea |
-| pătrunjel |  |  | flori de fân | Ashwagandha |
-| mărar |  |  | flori de mușețel | Omega 3 |
-| varză |  |  | frunze de podbal | Silimarină |
-| usturoi |  |  | sunătoare | Extract de bacopa |
-|  |  |  | flori de coada-șoricelului | Bromelaină |
-|  |  |  | flori de soc | Acidul gama linoleic |
-|  |  |  | aloe vera | Cetil miristoleat(CMO) |
-|  |  |  | scorțișoară | Ulei esențial de arbore de ceai (malaleuca) |
-|  |  |  |  | Spirulină |
-|  |  |  |  | Chlorella |
-|  |  |  |  | Tinctură de propolis |
-|  |  |  |  | Tiolin |
+| broccoli | ananas | | mentă | Boswellia |
+| ardei cayenne | coacăze negre | | frunze de afin | Ulei esențial de tămâie |
+| castravete | smochine | | urzică | Rhodiola rosea |
+| pătrunjel | | | flori de fân | Ashwagandha |
+| mărar | | | flori de mușețel | Omega 3 |
+| varză | | | frunze de podbal | Silimarină |
+| usturoi | | | sunătoare | Extract de bacopa |
+| | | | flori de coada-șoricelului | Bromelaină |
+| | | | flori de soc | Acidul gama linoleic |
+| | | | aloe vera | Cetil miristoleat(CMO) |
+| | | | scorțișoară | Ulei esențial de arbore de ceai (malaleuca) |
+| | | | | Spirulină |
+| | | | | Chlorella |
+| | | | | Tinctură de propolis |
+| | | | | Tiolin |
 
 Consumă alimente care îți stimulează organismul de a produce antioxidanți
 
-https://drive.google.com/file/d/1ncaz5mWDcqwcqIOi5dtetXK5WDjcEW2t/view?usp=sharing
+
 
 Antioxidanții îți vor reduce radicalii liberi, cei care provoacă inflamațiile.

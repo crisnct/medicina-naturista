@@ -31,7 +31,7 @@ Mersul pe bicicleta are un dublu rol pozitiv: activeaza miscarile articulare si 
 Tratamentul medicamentos consta în antiinflamatoarii nesteroidiene sau miorelaxante - când exista contractura.\
 Tratamentul cortizonic este total contraindicat
 
-http://www.edr.ro/pages/reumato/coxartroza.htm
+
 
 Tratamentul este condus în direcţia diminuării simptomatologiei şi încetinirii evoluţiei bolii. Se vor prescrie antialgice de tipul paracetamolului sau acetaminofenului. În perioadele în care boala se acutizează, se pot administra antiinflamatorii nesteroidiene de tipul indometacinului, aspirinei, diclofenacului, etc. Administrarea medicamentelor se asociază cu terapia fizicală (fizioterapie).
 
@@ -53,7 +53,7 @@ decubit ventral pe pat tare o jumătate de oră pe zi;
 
 corectarea diferenţelor de lungime ale memebrelor inferioare prin încălţăminte ortopedică.
 
-http://www.fizio.ro/index.php?action=display&cat=afectiuni&doc=coxartroza.xml
+
 
 **Medicamente**: NEO -- ENDUSIX, Indometacin
 
@@ -61,15 +61,15 @@ http://www.fizio.ro/index.php?action=display&cat=afectiuni&doc=coxartroza.xml
 Hreanul, remediu eficient pentru reumatism\
 articol publicat la: 25 Aprilie 2002 in Evenimentul Zilei\
 Dna Mariana Suman, din Iasi, sufera de multi ani de coxartroza si dureri cauzate de reumatism. In afara de medicamentele clasice, gasite in farmacii, si care combat durerea, a incercat, cu succes, un tratament cu radacini de hrean. \"O suta de grame de hrean ras se pun intr-o fasa care se aplica pe locul dureros cam 10 minute, un sfert de ora. Primavara, sint la fel de bune frunzele tocate si invelite in fasa\", spune dna Suman. Pentru a avea mereu la indemina remediul, se da pe razatoare o cantitate mai mare de hrean, chiar si pina la 500 grame, care se stropeste cu alcool pur si se lasa la macerat, o luna-doua. Cu cit timpul de macerare este mai mare, cu atit remediul este mai eficient. (C.Negoita)\
-http://www.evenimentul.ro/local/print/56683,1,baseArticle.html
+
 
 **Leacuri pentru combaterea durerilor reumatismale**
 ====================================================
 
-  -- --
-     
-     
-  -- --
+ -- --
+
+
+ -- --
 
 Reumatismul se acutizează în perioadele reci ale anului. Cauza principală o constituie, însă, coloniile de viruşi localizate la nivelul încheieturilor şi care dezvoltă o mare toxicitate. O formulă de ceai medicinal foarte eficace în cazul combaterii reumatismului o constituie un decoct din teci de fasole (30 g), coajă de salcie (20 g), urzici (15 g) şi fructe de ienupăr (5 g). Acest decoct este preparat dintr-o lingură de amestec la o cană de apă. Se fierbe timp de 10 minute, apoi se răceşte lent şi se beau două căni pe zi. Tot intern, se mai recomandă infuzii şi decocturi din amestec de flori de soc, trifoi roşu sau arnică, frunze de mesteacăn, frasin, afin, urzică, tarhon, coacăz negru, măcriş, troscot, coada calului, pelin, rădăcini de lemn dulce, tătăneasă, osul iepurelui, brusture, ghinţură, fructe de ienupăr, teci de fasole, muguri de pin şi, în deosebi, coajă de salcie -- cel mai important remediu antireumatic din care se obţine şi aspirina naturală. În alimentaţie, se introduc sucuri alternative din legume (morcovi, sfeclă roşie, ţelină, spanac), gem de măceşe şi grîu încolţit. În tratamentul extern se recomandă macerat din flori şi frunze de piciorul cocoşului, păpădie, hrean ras, frunze strivite de varză şi praz, sau făină de muştar negru. Se mai fac frecţii pe articulaţiile dureroase cu tinctură de cimbrişor, traista ciobanului, ienupăr, hrean, ţelină, rozmarin, muguri de plop şi coajă de salcie, cu unguente din flori de gălbenele şi sînziene, sau extract din castane macerate în petrol rafinat.\
 Artrita este un reumatism infecţios cu dureri localizate, în special, la genunchi şi glezne. Tratamentul vizează asanarea focarelor de infecţie cu plante care au proprietăţi antibiotice, antiinflamatoare şi antireumatice. Se recomandă cataplasme, comprese şi băi locale cu extract din flori de creţuşcă, piciorul cocoşului, frunze de urzică, nuc, păpădie, coacăz negru şi rostopască, bulbi zdrobiţi de usturoi şi muguri de pin.
@@ -78,7 +78,7 @@ Artroza este un reumatism degenerativ, cu îmbolnăvirea cronică a articulaţii
 
 În artroza coxofemurală sau coxartroză se recomandă ceaiuri de măghiran, rozmarin şi chiparos, băi generale cu lujeri de tomate, frunze de coacăz negru, sare de Bălţăteşti. Se mai pot aplica împachetări cu parafină şi nămol. (C.I.)
 
-http://www.evenimentul.ro/local/article/93839,7,baseArticle.html  
+
 ================================================================
 
 #### Tratarea reumatismului pe cale naturista
@@ -123,12 +123,12 @@ Cine nu isi poate permite sa mearga la tratament si-l poate face singur acasa, c
 
 Liliana SIMIDON
 
-http://www.revistavedete.ro/reumatism.html
+
 
 **EDEMELE PICIOARELOR**\
 4 linguri seminte de in se pun intr-un litru de apa. Se fierb 10 minute, se acopera, se lasa 1 ora si se adauga suc de lamaie. Se bea cate un pahar la 2 ore, timp de 2, 3 zile.
 
-http://www.ziarulcn.com/index.php?pid=print\_version&aid=7702
+
 
  **Produse naturiste periculoase**
 =================================
@@ -141,7 +141,7 @@ Unele produse din plante consumate împreună cu medicamente antiinflamatoare po
   Unu din zece a consumat produse care prezintă interacţiuni cu medicamentele convenţionale, dintre care echinaceea creşte riscul hepatotoxicităţii atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba şi usturoiul pot precipita hemoragii dacă sunt administrate în acelaşi timp cu antiinflamatoare steroidiene şi nesteroidiene.\
   Mulţi dintre pacienţi erau miraţi că s-au expus singuri la un asemenea risc, iar alţii se gândeau că ar fi fost mai bine să consulte şi un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potenţial periculoase ale preparatelor din plante, iar pacienţii neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în acelaşi timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
 
-http://postamedicala.ro/content/view/261/48/
+
 
 **Medicamentul-minune împotriva obezităţii dar şi a fumatului**
 ===============================================================
@@ -153,10 +153,10 @@ Medicamentul-minune care combate atât obezitatea cât şi fumatul ar putea apă
 Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al anului în curs cererea pentru autorizarea punerii în vânzare a preparatului **Rimonabant.\
 **Atenţie, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, şi chiar s-au dovedit periculoase, aşa cum a fost cazul cu Isomeride.
 
-<http://postamedicala.ro/content/view/63/48/>
+<
 
 **Mustar alb**: diabet, hipertensiune, insomnie, constipatie, reumatism, anorexie.
 
 semintele constipatie, infuzie din frunze, flori si seminte hipertensiune
 
-http://www.liis.ro/hosted/atestate/medicinale/mustar%20alb.htm
+

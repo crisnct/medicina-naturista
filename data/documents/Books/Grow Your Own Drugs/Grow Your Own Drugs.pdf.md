@@ -102,7 +102,7 @@ no end to the potential for them to shock, surprise and delight us.
 There is a tendency to think that the use of plants for medical purposes is something from history,
 making for an interesting anecdote rather than cutting-edge science. The reality could not be further
 from the truth. The world’s largest and most lucrative pharmaceuticals market is the United States,
-where 70% of new 
+where 70% of new
 medicinal drugs have been developed from natural sources. It is clear that we as a
 species are as reliant on the world of plants as we have ever been: plants are being used to create
 space-age plastics, ozone-saving biofuels, living pumps for drawing toxins out of soils contaminated
@@ -199,7 +199,7 @@ plants that are useful at treating the afflictions you are prone to (
 see here
 ) and which have a scent or
 flavour you like. As there is almost always a selection of several different plants that share similar
-properties, 
+properties,
 you have the luxury of picking and choosing whichever one(s) you like the most for a
 particular ailment.
 Now, if you have never tried angelica, tansy or lemon balm before, let alone know what they
@@ -231,7 +231,7 @@ receive a professional medical diagnosis, especially if you have an underlying m
 taking medication, or are pregnant. Ifyou think you may be sensitive to any of the ingredients, do a 24-
 hour skin test first to check for allergies. It is also important to use common sense when using plant-
 based remedies: don’t give any of the remedies to children under the age of 2, or to children under 16
-unless specified as safe in the recipe. (See also the special section for ‘Kids’, 
+unless specified as safe in the recipe. (See also the special section for ‘Kids’,
 see here
 ).
 But enough of that. Let’s get started. Your own living pharmacy is just a few steps away.
@@ -292,7 +292,7 @@ the domestic garden too: the closer a plant is positioned to a large wall (parti
 facing one), the greater the protection it has from the cold. This is a trick that has been used since
 Victorian times to improve the growth of semi-tropical plants and even boost fruit and flower
 production on entirely hardy trees. The only key difficulties here are the size of plot needed –
-growing a 
+growing a
 30m eucalyptus tree may not be very practical – and the potentially hazardous effect caused
 by very high pollution. A fact not often mentioned is that plants can absorb the toxic heavy metals
 from exhaust fumes, which are then concentrated in their tissues. Because of the potential effects of
@@ -402,7 +402,7 @@ and nutrients tend to drain straight through it. This means that it can often ho
 essential elements to support the healthy growth of many species that aren’t specifically adapted to
 cope in these harsh conditions.
 There is, however, a very simple way to greatly improve the water- and nutrient holding
-capacity of sandy soil: every year, apply a good layer of organic matter 
+capacity of sandy soil: every year, apply a good layer of organic matter
 (compost, leaf litter, well-
 rotted manure or even just leftover vegetable peelings which have been rotted down in a compost
 bin). This organic matter acts like a sponge to retain water and the nutrients dissolved in it, and make
@@ -500,7 +500,7 @@ when you’re feeling under the weather, you need to know which plants to turn t
 What should you be using if you’re prone to colds and flu, suffer from eczema or dermatitis or
 regularly get indigestion?
 In the short term, you can buy all the plants in this book fresh or dried from herbal suppliers,
-health or Asian food shops or supermarkets (see 
+health or Asian food shops or supermarkets (see
 Stockists
 ). But in the long term it’s much cheaper
 (and more fun!) to go down the self-sufficiency route and grow your own. Here’s our list of the most
@@ -533,7 +533,7 @@ goji berries, nettles, onions and garlic.
 What to grow:
  pick elderberries, goji berries (both in early autumn), and nettles in the wild (or you
 can plant them if you really want!). Find a eucalyptus tree in your neighbourhood and ask for a few
-leaves. Echinacea, garlic and onions grow well outside. For ginger, 
+leaves. Echinacea, garlic and onions grow well outside. For ginger,
 see here
 .
 What to buy:
@@ -566,7 +566,7 @@ blackberries, blackcurrants, chamomile, elderberries, honeysuckle, mint, rosehip
 great for travel sickness.
 What to grow:
  you can pick elderberries, blackberries and rosehips from wild hedgerows in late
-summer/early autumn. Mint (all varieties) grows well in pots in semi-shade. For ginger, 
+summer/early autumn. Mint (all varieties) grows well in pots in semi-shade. For ginger,
 see here
 .
 
@@ -587,10 +587,10 @@ What to grow:
 chillies almost all year round and you can save and sow the seeds from your own fruit. Ginger (
 see
 here
-). All four can be grown in pots. 
+). All four can be grown in pots.
 Liquorice in pots or the border. Eucalyptus trees are huge – look
 for one in the neighbourhood and ask for some leaves if you don’t have room to plant your own,
-although some eucalyptus, such as 
+although some eucalyptus, such as
 eucalyptus gunnii
 , can be pruned or cut right back so space need
 not be a problem.
@@ -602,7 +602,7 @@ For emotional problems
 What to grow:
  gotu kola, lemon balm, St John’s wort andvervain grow easily in the garden, though
 gotu kola andvervain are tender, so bring under cover in winter. (See how to plant a Raise the Spirits
-pot 
+pot
 see here
 .) Rose root actually likes the cold, but give it good drainage; it’s a succulent plant and
 you don’t want it to rot through a wet winter. Ginseng (
@@ -610,7 +610,7 @@ Panax ginseng
 ) grows well here, but roots
 from 6-7-year-old plants are used, so it may be easier to buy!
 What to buy:
- 
+
 Panax ginseng
  roots from Asian and health food shops. Dried gotu kola, St John’s
 wort and vervain from herbal suppliers.
@@ -698,7 +698,7 @@ Choosing base oils
 The base oil you choose depends on how you’re going to be using the infused oil. If it’s for creams
 and lotions, choose a light, non-greasy vegetable oil such as sunflower, safflower, palm or grapeseed
 oil – my favourite is sunflower oil because it is the cheapest and most readily available. Who would
-have thought the same 
+have thought the same
 stuff you fry your chips in would turn out to be the best for making luxurious
 creams and bath products? For very dry skin, however, heavier oils such as olive, avocado or
 wheatgerm are excellent, though a little more pricey. If it’s for internal use, choose an oil you like to
@@ -731,7 +731,7 @@ When you use alcohol to extract the active ingredients from plants, it’s calle
 more effective than oil and vinegar at extraction from tough plant material such as roots and resins.
 It’s also a good preservative, so tinctures last longer than other preparations, and as they are more
 concentrated, you use less. These recipes mostly specify vodka because it is colourless and almost
-tasteless, which allows the flavour of the plants to come through. But whisky, 
+tasteless, which allows the flavour of the plants to come through. But whisky,
 brandy, gin or rum are
 just as effective – any distilled alcohol can be used as long as it is at least 80% proof (ie 40%
 alcohol). If made with concentrations below that, tinctures will deteriorate more quickly.
@@ -910,7 +910,7 @@ Calendula officinalis
 )
 16 drops lavender essential oil (1 drop per ice cube)
 1
- Peel the fresh aloe leaves (see 
+ Peel the fresh aloe leaves (see
 Tip
 ) to give you a gooey mass of gel.
 2
@@ -924,7 +924,7 @@ masses of fragrant soothing gel. Don’t forget to have a paper towel or cloth h
 melted gel; the goo has a habit of going everywhere!
 STORAGE
  Will keep in the freezer for up to 6 months.
- 
+
 james’s tip
  To peel an aloe leaf: cut a mature leaf from the outside of the plant, as close to
 the base as you can (you can store these leaves in the refrigerator for 2 weeks; amazingly, they
@@ -967,7 +967,7 @@ USE
  Apply the cream liberally wherever you feel the need.
 STORAGE
  Will keep in the fridge for up to 1 month.
- 
+
 james’s tip
  I always liken making creams to the ordering a drink at high-street coffee chains,
 where you can have your latte non-fat, with an extra shot of espresso, a dash of hazelnut syrup,
@@ -1048,7 +1048,7 @@ Herb Robert is a dainty wild geranium that grows freely in gardens and the count
 as a common weed. It was traditionally used as a cure-all and this gentle cream can help soothe
 a variety of skin conditions, including bruises, thread veins and chilblains. It’s also worth trying
 for varicose veins. Compound benzoin tincture is also known, rather exotically, as friar’s
-balsam. 
+balsam.
 See here
 .
 To make the plant juice:
@@ -1137,7 +1137,7 @@ rewarded with a year-round supply of fresh, air-mile-free lemongrass.
 ### Pagina 43
 
 Wild Herb Tea for Soothing the Digestive Tract
-You’ll find all these plants growing wild (see 
+You’ll find all these plants growing wild (see
 foraging tips
 ) or in gardens in summertime – pick
 and dry them then, so you can make up a good quantity of this tea to last you through autumn
@@ -1253,7 +1253,7 @@ ulcer or inflamed stomach lining – this is for simple indigestion and wind. Co
 taken when driving due to the alcohol content.
 STORAGE
  Store the tincture in a cool, dark place for at least 1 year.
- 
+
 james’s tip
  I’ve used uncarbonated ginger beer here, just because I prefer the flavour of it,
 but if you’re suffering from wind, try making it with carbonated instead. Believe it or not, the
@@ -1302,7 +1302,7 @@ Slippery elm coats the mucous membranes of the oesophagus and acts as a protecti
 against stomach acids. Basically, it works like your body’s own mucus to soothe inflamed and
 irritated tissues, a bit like a kind of prosthetic phlegm! Sweet and sticky, these tablets are far
 more palatable than my description makes them sound, I promise… To find slippery elm
-powder, see 
+powder, see
 Stockists
 .
 2 heaped tbsp slippery elm powder
@@ -1400,10 +1400,10 @@ tsp per cup of boiling water) at least 2–3 months before you normally start ge
 when the hay fever season arrives, drink Elderflower and Eyebright Tea as needed.
 ‘I’m not sure whether it’s the weather or if it’s psychosomatic, or what, but there seems to have
 been an effect from the tea, in terms of I’m not as bunged up as I used to be. I wouldn’t say it’s
-unblocked my nose but it’s certainly stopped the itching in the back of my palate.’ 
+unblocked my nose but it’s certainly stopped the itching in the back of my palate.’
 Mike
 ‘When I tried the tea, about half an hour afterwards my eyes stopped streaming, my nose stopped
-running and my throat was soothed.’ 
+running and my throat was soothed.’
 Tracy
 
 ### Pagina 54
@@ -1434,7 +1434,7 @@ CAUTION
  Contains alcohol.
 STORAGE
  Will keep for 6 months in the refrigerator.
- 
+
 gifting
  This tonic makes a great winter gift for anyone who’s been ill or under the weather.
 Buy some lovely dark glass bottles new or second hand – or recycle ones you already have in your
@@ -1461,7 +1461,7 @@ Tagetes
 1
  Wash the flowers and cut off any stalks or tough outer sepals. Sprinkle over a base of salad leaves.
 Dress the salad, and eat at once.
- 
+
 james’s
  tip Fresh herbs can also be added to a green salad; the trick is not to use too much of
 one herb at a time, as it can drown the flavour of everything else. Try lemon balm leaves, mint,
@@ -1509,7 +1509,7 @@ USE
  Eat 1 or 2 a day.
 STORAGE
  Store in an airtight container and eat within 1 week.
- 
+
 gifting
  A jar of roasted cranberry filling makes a lovely homemade gift for anyone who
 enjoys cooking and who wants to make their own healthy mince pies at Christmas. Add a label
@@ -1571,7 +1571,7 @@ USE
 before food.
 STORAGE
  Will keep from 6 months to 1 year.
- 
+
 gifting
  Home-made herbal vinegars make practical gifts – they can be used in cooking as
 well as taken as a health tonic. Pour into a good-quality bottle, then seal. Make an ornamental label
@@ -1601,7 +1601,7 @@ CAUTION
  Contains alcohol.
 STORAGE
  Will keep for up to 2 years.
- 
+
 gifting
  This tonic makes a great winter gift for anyone who’s been ill or under the weather.
 Buy some lovely bottles new or second-hand – or recycle ones you already have in your cupboard.
@@ -1648,7 +1648,7 @@ STORAGE
 like about this remedy is the fact that you can’t take it out and about with you during the day; if it
 was something I could keep in my handbag it might be a little bit easier to have if a sore throat
 came on. The honeysuckle and jasmine did start to take effect and brought down the inflammation
-and helped cure the sore throat.’ 
+and helped cure the sore throat.’
 Jackie
 
 ### Pagina 64
@@ -1700,7 +1700,7 @@ day. You’ll find gum arabic in Asian food shops.
 3 tsp dried elderberries
 250ml hot water
 280g icing sugar
- 
+
 gifting
  Give a pretty tin of lozenges as a gift for someone feeling under the weather – pour
 the mixture into a baking tray, leave to cool a little, then score it into small squares with a sharp
@@ -1766,7 +1766,7 @@ USE
  Take 1 generous tablespoon whenever you feel cold symptoms coming on.
 STORAGE
  Will keep for up to 1 year in a cool, dark place. Once opened, store in the refrigerator.
- 
+
 gifting
  Little pots of Eucalyptus and Elderberry Jelly, decorated with cute cloth tops and a
 handwritten label tied on with ribbon, make great gifts for friends and neighbours.
@@ -1774,13 +1774,13 @@ Elderberry Liqueur
 
 ### Pagina 69
 
-This uses the same ingredients as the jelly 
+This uses the same ingredients as the jelly
 see here
 , but in a medicinal hot toddy so you can
 have a quick shot when you’re feeling under the weather with a cold or the flu. The chemicals
 found in elderberries help to stop viruses replicating and also boost the immune system, while
 eucalyptus and chilli help clear the nasal passages. Just pour a little in a glass and add hot water
-to dilute to your taste. If you use an eucalyptus-infused rum, so much the better (see 
+to dilute to your taste. If you use an eucalyptus-infused rum, so much the better (see
 Tip
 ).
 250g Bramley apple
@@ -1876,7 +1876,7 @@ you can put 1 teaspoon of the Eucalyptus Rub into a bowl of boiling water. Stir 
 slightly. Then lean over the bowl – being careful to remain at least 30cm above the hot water – and
 wrap a towel around your head and over the bowl. Inhale the vapours for a few minutes, once a day
 as needed.
- 
+
 james’s tip
  When making recipes with eucalyptus, always choose the mature leaves – they’re
 long and sickle-shaped – not the round, juvenile leaves. The older leaves contain a higher
@@ -1974,13 +1974,13 @@ USE
 STORAGE
  Best made and used fresh each day.
 ‘It’s obviously not delightful, but it’s alright! It did help, it took the edge off things, but it did wear
-off throughout the day.’ 
+off throughout the day.’
 Louise
 
 ### Pagina 76
 
 ‘This remedy I’ll definitely use again. I gargled twice, once in the evening and once in the
-afternoon, and by the next day my scratchiness had gone and I could breathe better.’ 
+afternoon, and by the next day my scratchiness had gone and I could breathe better.’
 Jade
 Elderberry and Ginger Cold and Flu Tonic
 Thousands of years ago, Hippocrates and Pliny were writing about the health-giving properties
@@ -2179,7 +2179,7 @@ USE
 serve.
 STORAGE
  The mixture will keep in an airtight tin for 2 weeks.
- 
+
 james’s tip
  Turmeric is traditionally used as a fabric dye throughout Asia, and the rich,
 fabulous orange colour is evidence of how packed it is with antioxidants since the same chemicals
@@ -2252,7 +2252,7 @@ Bilberries contain anthocyanosides, free-radical scavengers that have positive a
 inflammatory effects throughout the body. I think of this as a ‘herbal glucosamine’, which can
 help ease the joint stiffness and aches that often come with ageing. Munch on a little every day.
 Rosewater can be found at supermarkets and Asian food shops. Gotu kola can be bought from
-herbal suppliers, as 
+herbal suppliers, as
 Centella asiatica
 .
 
@@ -2279,7 +2279,7 @@ USE
  Eat 1 generous teaspoon daily.
 STORAGE
  Will keep in the refrigerator for up to 3 months.
- 
+
 james’s tip
  Any extra rose and mallow syrup can be taken internally as a gentle laxative; 1
 dose is 2 teaspoons.
@@ -2332,7 +2332,7 @@ antidepressant. Don’t be daunted by this recipe – both the tincture and syru
 ### Pagina 92
 
 can make a batch and have a quick shot whenever your mood needs a lift. To make the rose
-syrup, any scented rose will do; Damasks and Rosa 
+syrup, any scented rose will do; Damasks and Rosa
 gallica
  are particularly good.
 To make the chocolate tincture:
@@ -2377,10 +2377,10 @@ CAUTION
 STORAGE
  The tincture will keep for up to 5 years in a dark jar. The syrup will keep for up to 1
 year in a cool dark place.
- 
+
 james’s tip
  Adding 1–2 teaspoons of the rose syrup to chilled champagne tastes wonderful!
- 
+
 gifting
  Arrange two shot glasses, a packet of cocoa nibs and a quarter bottle of vodka in a
 pretty box, pad around with tissue paper, and slip a copy of the Rose and Chocolate Shot recipe
@@ -2428,7 +2428,7 @@ plenty of dark green leafy vegetables, beans, lentils, cereals and nuts, which a
 iron.
 STORAGE
  This makes about 3 bowls. Best eaten within 2 days.
- 
+
 james’s tip
  I don’t bother to peel potatoes or pears in this or any other recipe – I always
 think it’s healthier, albeit lazier, to leave the skin on. Though feel free if you prefer to peel…
@@ -2461,7 +2461,7 @@ CAUTION
  Should not be given to children under 16. Don’t take if pregnant or allergic to aspirin.
 STORAGE
  Keep in the refrigerator, and use within 1 week. Or in the freezer for up to 1 year.
- 
+
 james’s tip
  For children aged 2–16, you can use other fragrant summer-flowering herbs such
 as lemon balm or elderflower instead of the meadowsweet. Just substitute 3–4 heaped tablespoons
@@ -2592,11 +2592,11 @@ take aspirin by your doctor, or if you are pregnant or breastfeeding. Children a
 doctor or pharmacist first.
 STORAGE
  Will keep for up to 1 year in a freezer.
- 
+
 james’s tip
  You can buy dried willow bark from most herbal stockists, but if you do want to
 source the material yourself, be sure to get permission from the landowner first! (See my foraging
-dos and don’ts 
+dos and don’ts
 here
 .) Traditionally, it’s the inner part of the bark from branches over 5 years old
 which are believed to be the most potent.
@@ -2754,7 +2754,7 @@ CAUTION
  Contains caffeine.
 STORAGE
  Keep in the refrigerator. Eat within 1 week.
- 
+
 gifting
  These rich, tangy truffles make a delicious seasonal gift for chocolate fans (that’s
 most of us!). Place them in small silver or gold foil cases, pack in a pretty box, then label and tie
@@ -2770,10 +2770,10 @@ colds; and elecampane is used to treat a range of lung complaints from coughs to
 25g angelica root
 25g elecampane root
 500ml water
-100g brown sugar (per 100ml decoction, see 
+100g brown sugar (per 100ml decoction, see
 method
 )
-15ml vodka, whisky or brandy (per 100ml decoction, see 
+15ml vodka, whisky or brandy (per 100ml decoction, see
 method
 )
 1
@@ -2790,7 +2790,7 @@ CAUTION
  Contains alcohol.
 STORAGE
  Will keep for 6 months before opening. Keep in the refrigerator once opened.
- 
+
 gifting
  This is the perfect gift for anyone you know who suffers from Seasonal Affective
 Disorder (SAD) or low moods in winter. Just pour into a beautiful bottle, and label with dosage
@@ -2992,7 +2992,7 @@ Antioxidant Olive Leaf Clay Mask
 
 Rich in minerals, antioxidants and anti-inflammatories, this soothing mask helps remove dead
 skin cells and stimulate circulation, leaving skin feeling toned and super soft. Clay powder is
-available online. See 
+available online. See
 Stockists
 .
 3–4 heaped tbsp fresh or dried olive leaves boiling water, to cover
@@ -3015,9 +3015,9 @@ STORAGE
 ‘Now I’m looking at this, I’m starting to feel more and more ripped off with the products I’ve
 spent money on because it looks exactly the same… My flatmate tried it and noticed that her chin
 isn’t so red – I’m not sure whether it’s a coincidence. Your skin does feel soft like you’re
-moisturized. It’s quite a good bargain.’ 
+moisturized. It’s quite a good bargain.’
 Elena
- 
+
 james’s tip
  You can customize this face mask to suit your skin type. Add ½ teaspoon olive
 oil along with the lemon essential oil to enrich normal or dry skin; or ½ teaspoon witch hazel for
@@ -3032,10 +3032,10 @@ eliminate residual shampoo, help restore the natural acid balance of the scalp, 
 ### Pagina 119
 
 hair looking clean, soft and incredibly shiny.
-Prepare your vinegar (see recipe for base vinegar 
+Prepare your vinegar (see recipe for base vinegar
 here
 ), then infuse with the appropriate plant for
-your hair type (again following the directions 
+your hair type (again following the directions
 here
 ). Try:
 chamomile or marigold for fair hair (and irritated scalp)
@@ -3080,10 +3080,10 @@ CAUTION
 STORAGE
  Will keep for up to 1 year in a cool, dark place.
 ‘It smells quite nice, it’s got an oily texture. With the exception of thyme I think everything grows
-in my garden, which is great.’ 
+in my garden, which is great.’
 Robert
 ‘It hasn’t got rid of the dandruff completely, but I’ve started to see an improvement where it is
-starting to lessen, and it’s something I’ve started to mention to my friends.’ 
+starting to lessen, and it’s something I’ve started to mention to my friends.’
 Neusa
 Seaweed and Sand Body Scrub
 An easy way to bring a summer holiday vibe into your life this winter – you can pick half these
@@ -3116,9 +3116,9 @@ week.
 STORAGE
  Will keep for 6 months in the refrigerator.
 ‘I was sceptical but the body scrub felt really amazing on my skin – it left it really soft. The only
-thing is that there was loads of sand in my shower that it took me ages to get rid of!’ 
+thing is that there was loads of sand in my shower that it took me ages to get rid of!’
 Karen
- 
+
 james’s tip
  You can pick fresh kelp and carrageen off the beach – they grow prolifically,
 especially around the west coast of Britain. I’d treat them just as you would if you were going to
@@ -3168,7 +3168,7 @@ CAUTION
 STORAGE
  Will keep for 6 months in the refrigerator.
 ‘In terms of taste and freshness and feeling clean, I’m pleasantly surprised. I will finish the bottle
-off and I would try it again.’ 
+off and I would try it again.’
 Steve
 Eau de Cologne
 
@@ -3210,7 +3210,7 @@ USE
  Spray on as required.
 STORAGE
  Will keep for up to 1 year.
- 
+
 gifting
  Experiment to find an aroma that you think will appeal particularly to your partner or
 friend. Then bottle in a gorgeous old perfume or spray bottle (you can pick them up cheap in
@@ -3324,11 +3324,11 @@ STORAGE
 ‘I was a bit sceptical of whether it would work, because I thought it was just going to be the same
 as every other cream, but it wasn’t. The patches of dried skin on my arms have gone down.’
 Gemma
- 
+
 gifting
  Give a pot of this rich body cream to friends as a treat in winter when skin needs an
 extra boost. You can buy gift pots second-hand, from car boot sales or from specialist suppliers
-(see 
+(see
 Stockists
 ). Just add an ornamental label with the storage details on.
 Rose and Clove Hair Removing Sugar
@@ -3378,7 +3378,7 @@ CAUTION
 or on hairs growing from moles or warts. Keep skin out of the sun for 24 hours afterwards.
 STORAGE
  If bottled correctly, this will keep in a cool, dry place for up to 1 year.
- 
+
 james’s tip
  In the interests of science, I tried this on a section of leg hair – it worked
 brilliantly. But, as with waxing, hair needs to be a certain length first. Some people like to dust
@@ -3391,7 +3391,7 @@ Eyebright Compress
 The eyebright and black tea in this refreshing compress contain astringent and anti-
 inflammatory substances that help soothe, tone and tighten tissues – giving a boost to tired or
 puffy eyes. Apply to your eyes whenever they need a holiday. To buy empty tea bags, which are
-ready to be filled, see 
+ready to be filled, see
 Stockists
 . Alternatively, make your own from muslin.
 2 tsp dried eyebright
@@ -3433,7 +3433,7 @@ Once you’ve infused a batch of oil with your favourite plant, you can use it b
 Conditioning Hair Oil (
 see here
 ) and as the base in this rich, moisturizing body scrub. For the
-infused oil, see the recipe 
+infused oil, see the recipe
 here
 . Using castor oil, makes the scrub more spreadable and also
 draws out impurities.
@@ -3455,7 +3455,7 @@ USE
 movements. Rinse off well.
 STORAGE
  Will keep for 1 year.
- 
+
 gifting
  This Sugar Body Scrub makes a glamorous and useful Christmas or birthday present.
 Create an infused oil that suits the person’s skin, then add the ingredients as above, and bottle in a
@@ -3575,7 +3575,7 @@ USE
  Apply as needed to dry skin, or use for massage.
 STORAGE
  Will keep in a cool, dark place for up to 3 months.
- 
+
 gifting
  Bottled up in decorative jars and bottles, this oil makes a luxurious seasonal gift.
 Just add a label with storage details.
@@ -3618,7 +3618,7 @@ coming out of my right ear. I know it doesn’t sound pleasant but it was quite 
 come out! I don’t think it’s made a huge difference with regards to my hearing but with regards
 to cleanliness and the potential to get blocked up in the future I think it has made a big
 difference.’ Mark
- 
+
 james’s tip
  Sometimes you’ll find that some tiny bugs are using mullein’s bell-shaped
 flowerheads as a hiding place. If using fresh flowers, soak them well to eradicate any insect life
@@ -3628,9 +3628,9 @@ Honey and Yogurt Dry Skin Face Mask
 ### Pagina 141
 
 The infused oil soothes and nourishes while the honey yogurt mix leaves skin feeling vibrantly
-toned and rejuvenated. For the marshmallow leaf infusion, 
+toned and rejuvenated. For the marshmallow leaf infusion,
 see here
-. For the infused oil, 
+. For the infused oil,
 see
 here
 .
@@ -3650,7 +3650,7 @@ STORAGE
 Gardener’s Hand Scrub
 Honey moisturizes, jojoba oil softens, oatmeal cleanses – just add fresh elderflowers,
 chamomile or marshmallow to customize this hand scrub to suit your skin type. For the
-infusion, see the recipe 
+infusion, see the recipe
 here
 .
 
@@ -3661,8 +3661,8 @@ here
 1 tsp jojoba oil (optional, but good for dry skin)
 juice of ¼ lemon
 1 tbsp of an infusion of one of the following:
-elderflowers, to whiten the hands 
-chamomile flowers, for sensitive hands 
+elderflowers, to whiten the hands
+chamomile flowers, for sensitive hands
 marshmallow leaves, for dry hands
 marigold flowers, for chapped hands
 1
@@ -3733,7 +3733,7 @@ CAUTION
  Not to be used on children under 2.
 STORAGE
  Will keep for up to 1 year.
- 
+
 james’s tip
  Unlike many conventional insecticides, the ingredients in this treatment do not
 just kill adult lice but also penetrate even the waxy protective shields of the hard-to-eradicate eggs,
@@ -3797,7 +3797,7 @@ USE
  Take 2 teaspoons morning and night. Can be used for adults, and children aged 2–16.
 STORAGE
  Will keep in the refrigerator for up to 2 weeks.
- 
+
 gifting
  Bottle this up in cute bottles, each with the child’s name (and dosage) written on the
 label, and donate one to each of the children in your life.
@@ -3879,7 +3879,7 @@ immediately.
 STORAGE
  The salve will keep in a cool dark place for up to 1 year. The infused oil will keep for 6
 months to 1 year.
- 
+
 james’s tip
  When you leave plant material to infuse (especially dried plants), it has a habit
 of absorbing some of the oil over time. Check every couple of days that all the plant matter is
@@ -3896,7 +3896,7 @@ cider or white wine vinegar, to cover
 honey, to taste
 This is a good one for youngsters suffering from colds – a hot, soothing blackberry drink full of
 vitamin C; just add honey to taste.
-For the cider vinegar, see the recipe 
+For the cider vinegar, see the recipe
 here
  or use bought.
 
@@ -4021,9 +4021,9 @@ replacing.
 An old French recipe for keeping moths at bay: add 2 parts each of dried rosemary, tansy, thyme, mint
 and southernwood, to 1 part ground cloves. Mix well and put into muslin bags.
 ‘Since I put the mothballs up about 3 weeks ago I haven’t seen a single moth – so I think that’s an
-unqualified success.’ 
+unqualified success.’
 Vicky
- 
+
 gifting
  These moth sachets make a pretty, practical gift for anyone who cares about keeping
 their clothes in good nick. Make up a batch of 8 or so bags, arrange them on coloured tissue paper
@@ -4270,7 +4270,7 @@ for your remedies.
  When the risk of frost has passed, move your tender plants outside. Scented-leaved pelargoniums,
 aloe vera, citrus trees and lemon verbena will be happy soaking up the sun. As will your annuals like
 basil and nasturtium.
- 
+
 james’s tip
  If you’re planting up a large container with shallow-rooted plants (annuals or
 Mediterranean-type herbs), break up some old polystyrene packaging and cram a layer at the
@@ -4375,7 +4375,7 @@ spread a layer of gravel over the base, about 2–3cm deep.
 3
  Spread a layer of soil or loam-based compost on top of the gravel, about 3–5cm deep.
 4
- You can buy chamomile as turf (in 1m squares; see 
+ You can buy chamomile as turf (in 1m squares; see
 Stockists
 ) or in trays of small thumb-sized
 plugs, which works out cheaper. The plugs are also great for planting in any crevices you have in
@@ -4400,68 +4400,68 @@ to germinate. The rest can be scattered in late spring directly into the garden 
 you want them to grow. Sow them outdoors in shallow drills, lightly cover with compost or soil,
 and water. Once the seedlings grow, thin them out a bit to leave the strongest ones to produce
 healthy plants.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Black mustard
- 
+
 Brassica nigra
 , seeds applied topically to encourage circulation and soothe
 muscle pain. Sow outdoors.
 Caraway
- 
+
 Carum carvi
 , seeds used to aid digestion. Sow outdoors.
 Chamomile
- 
+
 Matricaria recutita
 , used for indigestion, skin irritations, as a mild sedative for
 anxiety, and to lighten blonde hair. Sow in seed trays to germinate.
 Chilli
- 
+
 Capsicum spp.
 , stimulant, pain reliever used topically for muscular aches and pains, to
 encourage circulation, can also help thin phlegm in stubborn coughs. Grow in pots, germinate
 indoors.
 Coriander
- 
+
 Coriandrum sativum
 , to aid digestion and soothe stomachs. Sow outdoors.
 Cornflower
- 
+
 Centaurea cyanus
 , traditionally used for soothing and brightening eyes, and
 cosmetically as hair rinse. Sow outdoors once frosts have passed.
 Dill
- 
+
 Anethum graveolens
 , traditionally used for digestion, gas and intestinal spasms. Sow
 outdoors.
 Echinacea
- 
+
 Echinacea angustifolia
-, E. purpurea or 
+, E. purpurea or
 E. pallida;
  helps stimulate the immune system
 and lessen the severity and duration of cold and flu symptoms. Plant in seed trays first to germinate.
 Fennel
- 
+
 Foeniculum vulgare
 , to help ease bloating and stomach upsets, applied topically as an
 eyewash. Sow outdoors.
 Feverfew
- 
+
 Tanacetum parthenium
 , preventative treatment for migraine, and can be helpful with
 fever. Plant in plug modules first to germinate. Will self-seed prolifically once established. DO
 NOT USE IF PREGNANT OR BREASTFEEDING, UNDER 18, OR HAVE A STOMACH OR
 MOUTH ULCER.
 Flax
- 
+
 Linum usitatissimum,
  the seeds (known as linseed) used as a laxative, for coughs and
 bronchitis, topically for burns, and as a phytoestrogen. Sow outdoors.
 Goji berries
- 
+
 Lycium barbarum,
  can help stimulate the immune system in colds and flu. Sow
 outdoors or buy in a pot.
@@ -4469,98 +4469,98 @@ outdoors or buy in a pot.
 ### Pagina 175
 
 Goldenrod
- 
+
 Solidago virgaurea
 , antiseptic used as tea to soothe urinary tract infections and kidney
 stones. Sow in seed trays to germinate.
 Hollyhock
- 
+
 Alcea rosea,
  soothing for sore throats. Sow outdoors.
 Lemon balm
- 
+
 Melissa officinalis,
  calming, helps soothe nervous tension and relieve anxiety.
 Applied topically to treat cold sores. Sow outdoors.
 Marigold
- 
+
 Calendula officinalis,
  soothes rashes, bites and burns and can speed skin healing, also
 used as a stomach soother. Sow outdoors.
 Nasturtium
- 
+
 Tropaeolum majus,
  used as a mild diuretic and decongestant for catarrh and upper
 respiratory tract infections. Peppery leaves and flowers used in salads. Sow outdoors later in the
 season.
 Onion
- 
+
 Allium cepa,
  antiseptic, anti-inflammatory; good all-round health tonic, encourages
 production of phlegm. Plant as sets (small immature bulbs) in early spring.
 Pansy
- 
+
 Viola tricolor,
  used topically for eczema, acne and skin disorders; anti-inflammatory and
 gentle diuretic, and can loosen chest congestion. Sow outdoors.
 Parsley
- 
+
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE
 IF YOU HAVE KIDNEY PROBLEMS. Sow outdoors.
 Pennyroyal
- 
+
 Mentha pulegium,
  used as an insect repellent. DO NOT USE INTERNALLY. Sow in
 plug modules first to germinate, then plant outside in early summer.
 Rocket
- 
+
 Eruca vesicaria
- subsp. 
+ subsp.
 sativa,
  flavoursome, peppery leaves used in salads. Sow outdoors.
 Sage
- 
+
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract, soothe the throat; used
 for hot flushes and sweating during menopause. Sow in seed trays to germinate, or buy as a small
 plant.
 St John’s wort
- 
+
 Hypericum perforatum,
  can ease mild to moderate depression, anxiety and
 Seasonal Affective Disorder (SAD), used topically as a wound healer. Sow in seed trays to
 germinate.
 Tansy
- 
+
 Tanacetum vulgare,
  insect repellent. Sow outdoors.
 Vervain
- 
+
 Verbena officinalis,
  gentle mood-improver and nerve-soother, can aid indigestion. Sow
 outdoors.
 Wild lettuce
- 
+
 Lactuca virosa,
  mild sedative used to ease insomnia and stress. Sow outdoors.
 Wild strawberry
- 
+
 Fragaria vesca,
  both leaves and fruit are mildly astringent and diuretic and used
 cosmetically in face packs. Sow outdoors.
 Wormwood
- 
+
 Artemisia absinthium,
  a digestive ‘bitter’ to ease bloating and increase appetite in
 small doses, insect repellent. Sow in seed trays to germinate or buy as a small plant.
 SPRING: FRESH LEAVES FOR PICKING
 If you’ve got the plants below growing indoors or out, you can pick leaves now on a cut-and-come-
 again basis – astonishingly, the more you pick, the more grow (within reason of course!).
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Aloe vera
- 
+
 Aloe barbadensis,
  the gel soothes burns and skin problems, speeds healing time of cuts
 and wounds.
@@ -4568,76 +4568,76 @@ and wounds.
 ### Pagina 176
 
 Angelica
- 
+
 Angelica archangelica,
  anti-inflammatory, can help relieve flatulence and indigestion,
 and loosen respiratory catarrh. Stems can be candied for cooking.
 Bay
- 
+
 Laurus nobilis,
  aids digestion, used in aftershaves and colognes for its pungent aroma.
 Eucalyptus
- 
+
 Eucalyptus spp.,
  decongestant for colds and coughs, antiseptic in sore throat and skin
 treatments, good insect repellent.
 Fennel
- 
+
 Foeniculum vulgare,
  to help ease bloating and stomach upsets, applied topically as an
 eyewash.
 Lemon balm
- 
+
 Melissa officinalis,
  calming, helps soothe nervous tension and relieve anxiety.
 Applied topically to treat cold sores.
 Lemongrass
- 
+
 Cymbopogon citratus,
  aids digestion, antibiotic, and insect repellent.
 Mint
- 
+
 Mentha
  spp., often used to help with bloating, dyspepsia and irritable bowel syndrome,
 applied topically as an antiseptic and to soothe itching.
 Nettle
- 
+
 Urtica dioica,
  highly nutritious tonic, may help with hay fever, used as an anti-dandruff
 rinse for hair and to improve shine.
 Parsley
- 
+
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE
 IF YOU HAVE KIDNEY PROBLEMS.
 Rosemary
- 
+
 Rosmarinus officinalis,
  reputed to help memory and concentration, and increase
 alertness. Applied topically for muscle pain.
 Sage
- 
+
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract, soothe the throat, used
 for hot flushes and sweating during menopause. Harvest leaves just before flowers bloom.
 Tarragon
- 
+
 Artemisia dracunculus,
  aromatic herb used in aftershaves and colognes.
 Thyme
- 
+
 Thymus vulgaris
  or wild thyme (
 Thymus serpyllum)
 , antiseptic, especially for the mouth,
 used to help loosen phlegm, applied topically to ease rheumatic pains, insecticidal.
 Wild marjoram
- 
+
 Origanum vulgare,
  antiseptic used to soothe respiratory tract and urinary
 infections.
 Willow bark
- 
+
 Salix spp.,
  for pain relief, especially in rheumatic disorders and headaches. DO NOT
 GIVE TO UNDER-18s OR ANYONE ALLERGIC TO ASPIRIN.
@@ -4685,19 +4685,19 @@ After about 6 weeks, you’ll need to clean out the bowl and start again. Just m
 bowlful using your leftover watercress and off you go…
 SUMMER: PICKINGS FROM THE WILD
 The plants below are easy to find now in hedgerows, meadows, woodland, wasteland and other wild
-places. Before you pick them, read our foraging guidelines 
+places. Before you pick them, read our foraging guidelines
 here
 .
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional
  use.
 Blackberry
- 
+
 Rubus fruticosus,
  fruits are high in vitamin C, both leaves and fruit are mildly astringent
 and are used to treat diarrhoea.
 Chickweed
- 
+
 Stellaria media,
  anti-inflammatory and mild diuretic, applied topically to soothe itchy
 
@@ -4705,65 +4705,65 @@ Stellaria media,
 
 skin, and packed with vitamins – eat as a salad green.
 Dandelion
- 
+
 Taraxacum officinale,
  general diuretic, health tonic, anti-inflammatory. The young leaves
 are good in teas and salads, the flowers applied topically in oil and creams for sore muscles and
 arthritis.
 Elder
- 
+
 Sambucus nigra,
  has antiviral properties and helps speed recovery from colds and flu, anti-
 inflammatory. Can use leaves, flowers and berries, BUT DO NOT EAT THE BERRIES RAW.
 Eyebright
- 
+
 Euphrasia
  spp., helps soothe inflamed tissues around the eyes, and is traditionally used to
 treat conjunctivitis. Harvest the leaves and flowers. Semi-parasitic plant that is unsuitable for
 growing in gardens.
 Hawthorn
- 
+
 Crataegus monogyna
- or C. 
+ or C.
 laevigata,
  tonic for heart health and circulatory diseases.
 Harvest the leaves, flowers and berries.
 Herb Robert
- 
+
 Geranium robertianum,
  applied topically can help soothe skin conditions and
 inflammation. Harvest the leaves.
 Horsetail
- 
+
 Equisetum arvense,
  traditionally used for cystitis and to help improve thin, brittle hair and
 nails. Harvest the leaves.
 Ivy
- 
+
 Hedera helix,
  used in cosmetic treatments to help cellulite. The leaves are used in expectorant
 cough mixtures. DO NOT EAT THE BERRIES. Harvest the leaves.
 Meadowsweet
- 
+
 Filipendula ulmaria,
  anti-inflammatory, soothes acid stomachs, analgesic. DO NOT
 GIVE TO UNDER-16S OR ANYONE ALLERGIC TO ASPIRIN. Pick the flowering tops – it thrives
 in wet ditches and marshy meadows.
 Nettle
- 
+
 Urtica dioica,
  highly nutritious tonic, may help with hay fever, used as an anti-dandruff rinse
 for hair and to improve shine. Harvest the young leaves and flowering tops.
 Plantain
- 
+
 Plantago lanceolata,
  mild diuretic, anti-inflammatory, antihistamine, soothes nettle stings,
 and helps stem bleeding and heal wounds. Harvest the leaves.
 Spruce
- 
+
 Picea
  spp., apply topically for skin disorders; decongestant inhalation. Harvest the needles.
- 
+
 james’s tip
  Mulch isn’t just for the borders; it can work wonders on your pots and containers
 too. You can really go to town on this, using ornamental gravel, coloured glass chips, recycled
@@ -4772,16 +4772,16 @@ as slugs and snails won’t like crawling over sharp gravel or grit to get to th
 SUMMER: FRESH LEAVES FOR PICKING
 The leaves of the plants below are ready to be picked now and throughout the growing season. Go for
 fresh new growth – it’ll contain more active ingredients and taste better too.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional
  use.
 Agrimony
- 
+
 Agrimonia eupatoria,
  a ‘bitter’ for stomach problems including diarrhoea and colitis;
 mild diuretic.
 Aloe vera
- 
+
 Aloe barbadensis,
  soothes burns and skin problems, speeds healing time of cuts and
 
@@ -4789,74 +4789,74 @@ Aloe barbadensis,
 
 wounds.
 Basil
- 
+
 Ocimum basilicum,
  antibacterial, but mostly used as a fragrant aromatic in aftershaves and
 colognes.
 Bay
- 
+
 Laurus nobilis,
  aids digestion, used in aftershaves and colognes for its pungent aroma.
 Coriander
- 
+
 Coriandrum sativum,
  to aid digestion and soothe the stomach.
 Dill
- 
+
 Anethum graveolens,
  traditionally used for digestion, gas and intestinal spasms. Use leaves in
 salads and cooking.
 Eucalyptus
- 
+
 Eucalyptus
  spp., decongestant for colds and coughs, antiseptic in sore throats and skin
 treatments, good insect repellent.
 Feverfew
- 
+
 Tanacetum parthenium,
  preventative treatment for migraine, and can be helpful in fever.
 DO NOT USE IF PREGNANT OR BREASTFEEDING, UNDER 18, OR HAVE A STOMACH OR
 MOUTH ULCER.
 Gotu kola
- 
+
 Centella asiatica,
  to soothe skin conditions, aid wound healing, and for aching joints and
 muscles.
 Greater celandine
- 
+
 Chelidonium majus,
  traditionally used for gall-bladder conditions and applied
 topically for warts, corns and eczema.
 Lady’s mantle
- 
+
 Alchemilla mollis,
  traditionally used to help stem bleeding, lighten menstrual flow
 and for diarrhoea.
 Lemon balm
- 
+
 Melissa officinalis,
  calming, helps soothe nervous tension and relieve anxiety. Applied
 topically to treat cold sores.
 Lemongrass
- 
+
 Cymbopogon citratus,
  insect repellent and antifungal agent.
 Marshmallow
- 
+
 Althaea officinalis,
  contains mucilage to soothe gastrointestinal tract, coughs and sore
 throats, soothing and softening for skin.
 Mint
- 
+
 Mentha
  spp., often used to help with bloating, dyspepsia and irritable bowel syndrome, applied
 topically as an antiseptic and to soothe itching.
 Olive
- 
+
 Olea europaea,
  oil used as an emollient for skin and in cooking, leaves used for mildly
 elevated blood pressure and to help control blood sugar levels.
- 
+
 james’s tip
  Tie in your climbers, but don’t splash out on expensive tree ties; a pair of old
 tights is all you need. Cut the legs into strips about 2.5cm wide so that you end up with a number of
@@ -4867,58 +4867,58 @@ damage the plants.
 ### Pagina 181
 
 Parsley
- 
+
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE IF
 YOU HAVE KIDNEY PROBLEMS.
 Pelargonium
- 
+
 Pelargonium
  spp., the scented-leaved varieties are used in skin treatments, cosmetics
 and pot-pourri.
 Pennyroyal
- 
+
 Mentha pulegium,
  used as an insect repellent. DO NOT USE INTERNALLY.
 Raspberry
- 
+
 Rubus idaeus,
  leaves traditionally used to aid childbirth, can help with menopausual
 symptoms and diarrhoea, and can be used as an eye lotion and mouthwash.
 Rocket
- 
+
 Eruca vesicaria
- subsp. 
+ subsp.
 sativa,
  flavoursome, peppery leaves used in salads.
 Rosemary
- 
+
 Rosmarinus officinalis,
  reputed to help memory and concentration and increase alertness.
 Applied topically for muscle pain.
 Sage
- 
+
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract, soothes the throat; and
 used for hot flushes and sweating during menopause. Harvest leaves just before flowers bloom.
 Skullcap
- 
+
 Scutellaria lateriflora,
  used to help soothe nervous agitation.
 Southernwood
- 
+
 Artemisia abrotanum,
  for digestive and liver problems, insect repellent.
 Tansy
- 
+
 Tanacetum vulgare,
  insect repellent.
 Tarragon
- 
+
 Artemisia dracunculus,
  aromatic herb used in aftershaves and colognes.
 Tea
- 
+
 Camellia sinensis,
  antioxidant, antibacterial, astringent, gentle stimulant due to the caffeine
 content.
@@ -4926,33 +4926,33 @@ content.
 ### Pagina 182
 
 Thyme
- 
+
 Thymus vulgaris
  or wild thyme (Thymus serpyllum), antiseptic, especially for the mouth,
 used to help loosen phlegm, applied topically to ease rheumatic pains, insecticidal.
 Vervain
- 
+
 Verbena officinalis,
  gentle mood-improver and nerve-soother, can aid indigestion.
 Wild lettuce
- 
+
 Lactuca virosa,
  mild sedative to ease insomnia and stress.
 Wild marjoram
- 
+
 Origanum vulgare,
  antiseptic used to soothe respiratory and urinary tract infections.
 Witch hazel
- 
+
 Hamamelis virginiana,
  used as an anti-inflammatory and to stem bleeding, leaves and
 twigs are used to soothe bruises, sprains and skin conditions.
 Wormwood
- 
+
 Artemisia absinthium,
  a digestive ‘bitter’ to ease bloating and increase appetite in small
 doses, insect repellent.
- 
+
 james’s tip
  If you’re going away for a few days and want to keep your plants watered, group
 them together on the kitchen draining board, sitting on one end of an old bath towel. Put the other
@@ -4983,40 +4983,40 @@ crispy they crumble into dust. Once ready, use at once or store in an airtight c
 SUMMER: FRESH FLOWERS FOR PICKING
 Flowers are best harvested just as they come into bloom – you can use them fresh in remedies now or
 dry them to use during winter. Here are a few to look out for.
-* 
+*
 The potential health
- benefits 
+ benefits
 of the plants listed below are based on their traditional
  use.
 Agrimony
- 
+
 Agrimonia eupatoria,
  a ‘bitter’ for stomach problems including diarrhoea and colitis,
 mild diuretic.
 Chamomile
- 
+
 Matricaria recutita,
  for indigestion, skin irritations, mild sedative for anxiety, and to
 lighten blonde hair.
 Cornflower
- 
+
 Centaurea cyanus,
  traditionally used for soothing and brightening eyes, and cosmetically
 as a hair rinse.
 Echinacea
- 
+
 Echinacea angustifolia, E. purpurea
- or 
+ or
 E. pallida,
  helps stimulate the immune system
 and lessen the severity and duration of cold and flu symptoms.
 Elderf lower
- 
+
 Sambucus nigra,
  has antiviral properties and helps speed recovery from colds and flu,
 anti-inflammatory, delicious made into cordials.
 Goldenrod
- 
+
 Solidago virgaurea,
  antiseptic used as tea to soothe urinary tract infections and kidney
 stones. Pick flowering tops and leaves.
@@ -5024,57 +5024,57 @@ stones. Pick flowering tops and leaves.
 ### Pagina 184
 
 Hollyhock
- 
+
 Alcea rosea,
  soothing for sore throats and coughs.
 Honeysuckle
- 
+
 Lonicera japonica,
  anti-inflammatory and antiseptic, gentle painkiller used for sore
 throats and headaches.
 Jasmine
- 
+
 Jasminum grandiflorum,
  anti-inflammatory, soothing for sore throats.
 Lavender
- 
+
 Lavandula angustifolia,
  soothing, can help ease nervous tension, antiseptic, wound
 healing.
 Lime (linden) flowers
- 
+
 Tilia
  spp., traditionally used for fevers and to calm anxiety.
 Marigold
- 
+
 Calendula officinalis,
  soothes rashes, bites and burns and can speed skin healing, stomach
 soother.
 Mullein
- 
+
 Verbascum thapsus,
  expectorant and decongestant, mild analgesic used for earache.
 Nasturtium
- 
+
 Tropaeolum majus,
  used as a mild diuretic and decongestant for catarrh and upper
 respiratory tract infections. Peppery leaves and flowers used in salads.
 Pansy
- 
+
 Viola tricolor,
  used topically for eczema, acne and skin disorders, anti-inflammatory and
 gentle diuretic, and can loosen chest congestion.
 Rose
- 
+
 Rosa gallica, R. damascena
  and other cultivars used for flavouring and scent, and as a mild
 stress-reliever.
 Skullcap
- 
+
 Scutellaria lateriflora,
  used to help soothe nervous agitation.
 St John’s wort
- 
+
 Hypericum perforatum,
  can ease mild to moderate depression, anxiety and SAD,
 
@@ -5082,16 +5082,16 @@ Hypericum perforatum,
 
 used topically as a wound healer.
 Vervain
- 
+
 Verbena officinalis,
  gentle mood-improver and nerve-soother, can aid indigestion.
 Wormwood
- 
+
 Artemisia absinthium,
  a digestive ‘bitter’ to ease bloating and increase appetite in small
 doses, insect repellent.
 Yarrow
- 
+
 Achillea millefolium,
  traditionally used for nosebleeds and wounds to improve healing, and
 to aid digestion. Use leaves and flowering tops.
@@ -5114,30 +5114,30 @@ SUMMER: FRESH FRUIT AND VEGETABLES FOR PICKING
 Pick fruit and vegetables just as they are starting to get ripe – you can use them fresh in remedies at
 once, infuse them in oils or freeze them for use during the winter months. Here are some to look out
 for.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional
  use.
 Bilberry
- 
+
 Vaccinium myrtillus,
  rich in vitamin C and anthocyanosides, often used for eye health and
 vascular conditions such as varicose veins and piles.
 Blackcurrant
- 
+
 Ribes nigrum,
  rich in vitamin C and anthocyanosides, may help in maintaining
 cardiovascular health.
 Chilli
- 
+
 Capsicum
  spp., stimulant, pain reliever used topically for muscular aches and pains, to
 encourage circulation, can also help thin phlegm in stubborn coughs.
 Cranberry
- 
+
 Vaccinium macrocarpon,
  for treatment and prevention of mild urinary tract infections.
 Garlic
- 
+
 Allium sativum,
  all-rounder for colds, flu, helps lower cholesterol, antifungal. Lift bulbs and
 
@@ -5145,36 +5145,36 @@ Allium sativum,
 
 leave to dry for a few days in the sun before using.
 Lemon
- 
+
 Citrus limon,
  antibacterial and astringent on skin, high in vitamin C.
 Lime
- 
+
 Citrus aurantifolia,
  antibacterial and astringent on skin, high in vitamin C.
 Onion
- 
+
 Allium cepa,
  encourages production of phlegm, antiseptic, anti-inflammatory. Good all-round
 health tonic. Lift bulbs and leave to dry for a few days in the sun before using.
 Orange
- 
+
 Citrus aurantium,
  contains vitamin C, rind used to ease digestive pain.
 Peach
- 
+
 Prunus persica,
  delicious fruit.
 Raspberry
- 
+
 Rubus idaeus,
  high in vitamin C, used in children’s cordials.
 Watercress
- 
+
 Nasturtium officinale,
  vitamin and mineral-rich, general health tonic.
 Wild strawberry
- 
+
 Fragaria vesca,
  mild astringent, used cosmetically in face packs, etc.
 Freezing fruits
@@ -5215,7 +5215,7 @@ conservatory or greenhouse, until next spring.
  Keep an eye on the weather: you don’t want to get caught out by an early frost, or your more
 delicate plants will suffer. Cover them with horticultural fleece or bring them inside, or into a
 greenhouse.
- 
+
 james’s tip
  Some people slash back growth now to ‘put the garden to bed’ for winter, but I
 don’t prune much at colder times of the year because it can cause infections and some dead top
@@ -5253,7 +5253,7 @@ important. The tree must be planted at the same depth as in the pot (or ground i
 Fruit trees are usually grafted – that is, the top of one tree (grown for its fruit) is joined to the bottom
 of another tree (grown for its strong roots). If you bury the graft or part of the trunk, you run the risk of
 damaging or even killing the tree.
- 
+
 james’s tip
  Bag up fallen leaves into bin liners and store over winter for a great soil
 improver in the spring. Put the leaves in a shredder first; smaller pieces will rot down much more
@@ -5309,34 +5309,34 @@ branches (apart from the espaliers) to 3–4 leaves.
 AUTUMN: WILD BERRIES FOR PICKING
 It’s surprising how many berries you can find in the wild in early autumn, for use in health-giving
 remedies. Here are some of the most common.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Blackberries
- 
+
 Rubus fruticosus,
  high in vitamin C, mildly astringent and anti-diarrhoeal.
 Elderberries
- 
+
 Sambucus nigra,
  have antiviral properties and help speed recovery from colds and flu,
 anti-inflammatory, delicious in jellies. DO NOT EAT RAW.
 Goji berries
- 
+
 Lycium barbarum,
  can help stimulate the immune system in colds and flu.
 Haws
- 
+
 Crataegus monogyna
- or 
+ or
 C. laevigata,
  tonic for heart health and circulatory diseases.
 Juniper berries
- 
+
 Juniperus communis,
  diuretic, anti-inflammatory, used to help with urinary tract
 infections. Pick only black berries – they take 2 years to ripen.
 Wild rosehips
- 
+
 Rosa canina,
  full of vitamin C, for colds and sore throats, and also used for
 rheumatism and arthritis.
@@ -5348,83 +5348,83 @@ are best picked when they have been through at least one growing season – and 
 ### Pagina 191
 
 more powerful as they mature. Here are a few to look out for.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Angelica
- 
+
 Angelica archangelica,
  anti-inflammatory, can help relieve flatulence and indigestion, and
 loosen respiratory catarrh. Harvest year-old roots.
 Bistort
- 
+
 Persicaria bistorta,
  astringent, anti-diarrhoeal and anti-inflammatory, used to help stop
 bleeding and reduce catarrh, applied topically to wounds.
 Dandelion
- 
+
 Taraxacum officinale,
  gentle diuretic, health tonic, anti-inflammatory.
 Echinacea
- 
+
 Echinacea angustifolia, E. purpurea
- or 
+ or
 E. pallida,
  helps stimulate the immune system
 and lessen the severity and duration of cold and flu symptoms. Harvest 3–4-year-old roots.
 Elecampane
- 
+
 Inula helenium,
  used to soothe coughs and lung complaints such as bronchitis.
 Ginger
- 
+
 Zingiber officinale,
  for dyspepsia, nausea and motion sickness, warming. Harvest year-old
 roots.
 Ginseng
- 
+
 Panax ginseng,
  traditionally used to boost energy and improve physical and mental
 performance. Harvest roots of 6–7-year-old plants.
 Horseradish
- 
+
 Armoracia rusticana,
  applied topically for sore muscles and joints.
 Liquorice
- 
+
 Glycyrrhiza glabra,
  to loosen congestion in coughs and bronchitis, for sore throats,
 demulcent, soothes stomach inflammation and ulcers. DO NOT TAKE HIGH DOSES OVER A
 PROLONGED PERIOD.
 Marshmallow
- 
+
 Althaea officinale,
  contains mucilage to soothe gastrointestinal tract, coughs and sore
 throats, softening for skin.
 Rhubarb
- 
+
 Rheum rhabarbarum, R. rhaponticum
- or 
+ or
 R. officinale,
  anti-inflammatory and mild
 laxative, rhizomes used in polish to brighten the colour of wood. DO NOT EAT THE LEAVES,
 THEY ARE POISONOUS.
 Rose root
- 
+
 Rhodiola rosea,
  can alleviate low mood and help improve physical and mental
 performance.
 Tormentil
- 
+
 Potentilla erecta,
  astringent, traditionally used for sore joints and muscles, internally for
 diarrhoea and tummy bugs and externally to stem bleeding and heal wounds.
 Turmeric
- 
+
 Curcuma longa,
  used to soothe arthritic joints and other inflammatory conditions,
 including those of the skin and digestive system.
 Valerian
- 
+
 Valeriana officinalis,
  sedative, used to calm anxiety and nervous tension, the dried root is
 loved by cats.
@@ -5450,47 +5450,47 @@ AUTUMN: SEEDS FOR PICKING
 Keep an eye on your seeds – they ripen very fast. You want to pick them for use medicinally just as
 the seed pods change colour, which is usually at the very tail end of summer and the start of autumn.
 Here are some to look out for.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Angelica
- 
+
 Angelica archangelica,
  anti-inflammatory, can help relieve flatulence and indigestion, and
 loosen respiratory catarrh. Will self-seed in autumn.
 Aniseed
- 
+
 Pimpinella anisum,
  expectorant used in bronchial conditions, as a digestive soother, kills
 external parasites such as the scabies mite and lice.
 Black mustard
- 
+
 Brassica nigra,
  seeds applied topically to encourage circulation and soothe muscle
 pain.
 Caraway
- 
+
 Carum carvi,
  to aid digestion.
 Celery
- 
+
 Apium graveolens,
  anti-inflammatory, to help decrease swelling in gout and arthritis, gently
 sedative.
 Coriander
- 
+
 Coriandrum sativum,
  to aid digestion and soothe stomachs.
 Dill
- 
+
 Anethum graveolens,
  traditionally used for digestion, gas and intestinal spasms; chew seeds to
 help alleviate bad breath.
 Fennel
- 
+
 Foeniculum vulgare,
  to ease bloating and stomach upsets, applied topically as an eyewash.
 Flax
- 
+
 Linum usitat issimum,
  the seeds (known as linseed) are used as a laxative, for coughs and
 bronchitis, topically for burns, and as a phytoestrogen.
@@ -5512,67 +5512,67 @@ AUTUMN: LEAVES FOR PICKING
 There’s still quite a lot around to be picked indoors and out, and not just evergreens, either. Avoid
 yellowing or wilting leaves and go for the brightest green leaves you can find. Here are some to look
 out for.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Aloe vera
- 
+
 Aloe barbadensis,
  the gel soothes burns and skin problems, speeds healing time of cuts
 and wounds.
 Basil
- 
+
 Ocimum basilicum,
  antibacterial, used mostly as an aromatic in aftershaves and colognes.
 Bay
- 
+
 Laurus nobilis,
  aids digestion, used in aftershaves and colognes for its pungent aroma.
 Eucalyptus
- 
+
 Eucalyptus
  spp., decongestant for colds and coughs, antiseptic in sore throats and skin
 treatments, good insect repellent.
 Fennel
- 
+
 Foeniculum vulgare,
  to ease bloating and stomach upsets, applied topically as an eyewash.
 Horsetail
- 
+
 Equisetum arvense,
  traditionally used for cystitis and to help improve thin, brittle hair and
 nails.
 Lemon balm
- 
+
 Melissa officinalis,
  calming, helps soothe nervous tension and relieve anxiety. Applied
 topically to treat cold sores.
- 
+
 james’s tip
  If you have any black mustard plants left over, they’re brilliant as a green
 manure. Dig them into soil at the end of the growing season; they add all sort of goodies and ‘fix’
 nitrogen in the soil, thus making this vital nutrient available to other plants.
 Mint
- 
+
 Mentha
  spp., often used to help with bloating, dyspepsia and irritable bowel syndrome, applied
 topically as an antiseptic and to soothe itching.
 Parsley
- 
+
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE IF
 YOU HAVE KIDNEY PROBLEMS.
 Rosemary
- 
+
 Rosmarinus officinalis,
  reputed to help memory and concentration and increase alertness.
 Applied topically for muscle pain.
 Sage
- 
+
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract and soothe the throat, used
 for hot flushes and sweating during menopause.
 Thyme
- 
+
 Thymus vulgaris
  or wild thyme (
 Thymus serpyllum
@@ -5582,11 +5582,11 @@ Thymus serpyllum
 
 used to help loosen phlegm, applied topically to ease rheumatic pains, insecticidal.
 Watercress
- 
+
 Nasturtium officinale,
  vitamin and mineral-rich, general health tonic.
 Wild marjoram
- 
+
 Origanum vulgare,
  antiseptic used to soothe respiratory and urinary tract infections.
 
@@ -5621,7 +5621,7 @@ see here
  This is when I always start geeking out over seed and plant catalogues. It’s a good time to think
 ahead and decide what you’re missing in your indoor or outdoor planting space, which nurseries
 you’d like to use, and which seed companies you’re going to try next.
- 
+
 james’s tip
  If the weather catches you out (which happens to even the most seasoned
 gardener) and you’re not fully stocked up with horticultural fleece, an old net curtain or light sheet
@@ -5682,7 +5682,7 @@ like. Remember that if you do a major overhaul you might lose the flowers and fr
 good feed and water after the pruning will help the tree to recover.
 8
  To harvest, cut the fruit off at the stalk with a sharp knife, or give it a quick twist.
- 
+
 james’s tip
  In early winter, it’s a good idea to raise outdoor containers off the ground to stop
 them freezing and cracking. You can buy pot feet, but I like to use upturned water or fizzy drink
@@ -5692,29 +5692,29 @@ you’re recycling too.
 WINTER: FRESH PLANTS FOR PICKING
 The evergreens are still going strong, and many leaves can be picked from indoor and outdoor plants
 throughout the winter. Here are some to look out for.
-* 
+*
 The potential health benefits of the plants listed below are based on their traditional use.
 Aloe vera
- 
+
 Aloe barbadensis,
  the gel soothes burns and skin problems, speeds healing time of cuts
 and wounds.
 Bay
- 
+
 Laurus nobilis,
  aids digestion, used in aftershaves and colognes for its pungent aroma.
 Eucalyptus
- 
+
 Eucalyptus
  spp., decongestant for colds and coughs, antiseptic in sore throats and skin
 treatments, good insect repellent.
 Holly
- 
+
 Ilex paraguariensis
  (yerba mate), use as traditional seasonal greenery, can be bought in tea
 form.
 Ivy
- 
+
 Hedera helix,
  used in cosmetic treatments to help cellulite. The leaves are used in expectorant
 
@@ -5722,34 +5722,34 @@ Hedera helix,
 
 cough mixtures. DO NOT EAT THE BERRIES.
 Olive
- 
+
 Olea europaea,
  oil used as an emollient for skin and in cooking, leaves used for mildly
 elevated blood pressure and to help control blood sugar levels.
 Parsley
- 
+
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE IF
 YOU HAVE KIDNEY PROBLEMS.
 Rosemary
- 
+
 Rosmarinus officinalis,
  reputed to help memory and concentration and increase alertness.
 Applied topically for muscle pain.
 Sage
- 
+
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract and soothe the throat; used
 for hot flushes and sweating during menopause.
 Thyme
- 
+
 Thymus vulgaris
  or wild thyme (
 Thymus serpyllum
 ), antiseptic, especially for the mouth,
 used to help loosen phlegm, applied topically to ease rheumatic pains, insecticidal.
 Witch hazel
- 
+
 Hamamelis virginiana,
  used as an anti-inflammatory and to stem bleeding. Leaves and
 twigs are used to soothe bruises, sprains and skin conditions.
@@ -6001,7 +6001,7 @@ In the food section:
 cinnamon, cloves, coriander, cumin, dill seed, fennel seed, garlic, ginger, ginseng, goji berries,
 lemongrass, linseed, liquorice, nutmeg, tea and turmeric. (You can grow plants from the hardier of
 these seeds, including goji berries – just plant the seeds from inside the kernel in the dried fruit.
-Ginger and lemongrass, meanwhile, will root in a glass of water, 
+Ginger and lemongrass, meanwhile, will root in a glass of water,
 see here
 .)
 In the general section:
@@ -6017,21 +6017,21 @@ temperate climate.
 Most can be sourced from Asian shops and supermarkets, from specialist herbal shops or online. The
 potential health benefits of the plants listed opposite are based on their traditional use.
 Black pepper
- 
+
 Piper nigrum,
  antibacterial and antioxidant, stimulant, digestive, enhances the
 absorption of medicines and other herbs.
 Cardamom
- 
+
 Elettaria cardamomum,
  traditionally used to soothe upset stomachs.
 Cinnamon
- 
+
 Cinnamomum verum,
  analgesic and antioxidant, used to treat nausea, indigestion, colds
 and flu.
 Cloves
- 
+
 Syzygium aromaticum,
  used in digestive and respiratory disorders; the oil is antiseptic and
 analgesic and used for soothing toothache.
@@ -6039,41 +6039,41 @@ analgesic and used for soothing toothache.
 ### Pagina 213
 
 Cumin
- 
+
 Cuminum cyminum,
  for digestion, colds and fever, antiseptic.
 Damiana
- 
+
 Turnera diffusa,
  thought to have mood-lifting and stimulating qualities, and reputed to be an
 aphrodisiac.
 Neem oil
- 
+
 Azadirachta indica,
  antibacterial and antifungal, used for skin problems, and as an
 insecticide including for head lice.
 Nutmeg
- 
+
 Myristica fragrans,
  used for indigestion, nausea and as an anti-inflammatory for stiff joints.
 TOXIC IN LARGE DOSES.
 Quassia tincture
- 
+
 Picrasma excelsa,
  insecticide used to treat head lice, bitter stomach tonic in small
 doses.
 Slippery elm powdered bark
- 
+
 Ulmus rubra,
  soothing for stomach ulcers, colitis and other digestive
 disorders.
 Tea tree essential oil
- 
+
 Melaleuca alternifolia,
  powerful antiseptic and antifungal, used for skin
 breakouts, cuts and wounds, athlete’s foot.
 Yerba Mate
- 
+
 Ilex Paraguariensis,
  also known as Paraguay holly, mild stimulant and analgesic.
 STOCKISTS
@@ -6966,7 +6966,7 @@ Archway Clinic of Herbal Medicine.
 Copyright
 First published in 2010 by Collins, an imprint of HarperCollins
 Publishers
-77–85 Fulham Palace Road 
+77–85 Fulham Palace Road
 Hammersmith
 London W6 8JB
 www.harpercollins.co.uk
@@ -6993,24 +6993,24 @@ Australia
 HarperCollins Publishers (Australia) Pty. Ltd.
 Level 13, 201 Elizabeth Street
 Sydney, NSW 2000, Australia
-http://www.harpercollins.com.au
+
 Canada
 HarperCollins Canada
 2 Bloor Street East - 20th Floor
 Toronto, ON, M4W, 1A8, Canada
-http://www.harpercollins.ca
+
 New Zealand
 HarperCollins Publishers (New Zealand) Limited
 P.O. Box 1
 Auckland, New Zealand
-http://www.harpercollins.co.nz
+
 United Kingdom
 HarperCollins Publishers Ltd.
 77–85 Fulham Palace Road
 London, W6 8JB, UK
-http://www.harpercollins.co.uk
+
 United States
 HarperCollins Publishers Inc.
 10 East 53rd Street
 New York, NY 10022
-http://www.harpercollins.com
+

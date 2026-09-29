@@ -22,7 +22,7 @@
 
 **- pentru regenerarea ficatului** : 1 kg ceapa rosie se toaca si se amesteca cu 5 litri de tuica curata. Se macereaza 10 zile. Se strecoara si se pastreaza la frigider sau in beci. Se ia cate 30-40 ml pe stomacul gol dimineata si se sta culcat pe partea dreapta.
 
-\- **medicamente naturale utile in ciroza hepatica** : ***Hepa Control (1 cps de 3 ori pe zi), Extract din Muguri de Alun.*** Medicamentele pot fi cumparate din magazinele de plante medicinale sau de pe site-ul <https://comenzi.farmaciatei.ro/farmacie/afectiuni_hepatice/protectoare_hepatice/hepa_control_30_capsule_sprint_pharma-p10017580>
+\- **medicamente naturale utile in ciroza hepatica** : ***Hepa Control (1 cps de 3 ori pe zi), Extract din Muguri de Alun.*** Medicamentele pot fi cumparate din magazinele de plante medicinale sau de pe site-ul <
 
 Regimul alimentar
 -----------------

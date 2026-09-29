@@ -1,6 +1,6 @@
 **Invata cum sa iti pacalesti apetitul**\
 3 August 2007\
-[Andreea Marinescu](mailto:andreea.marinescu@evz.ro)\
+Andreea Marinescu\
 \
 **Alege alimente mari in volum, precum pepenele sau ardeiul gras, iar la salate adauga boabe de fasole.**
 

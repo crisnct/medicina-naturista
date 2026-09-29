@@ -14617,7 +14617,7 @@ hormonale serioase provocate de tumori ale glandelor supra-
 renale sau ale ovarelor. Alte simptome sunt ciclul menstrual
 neregulat şi excesul de păr pe față. Dacă apar asemenea
 simptome, consultați medicul.
-Vezi și Piele grasă, Partea a doua.
+
 
 ## ADRENOLEUCODISTROFIE
 
@@ -15834,7 +15834,7 @@ Q Dacă sunteți diagnosticat cu alergie la insecte, medicul
 vă poate sugera imunoterapie, care implică crearea toleranței
 la venin. Doze mici de venin sunt introduse în corp, operi-
 oadă de timp, până când sistemul începe să tolereze toxina.
-Q Vezi și Înțepătură de albine; Alergie la înțepături de insecte
+
 şi/sau Muşcături de păianjen și înțepături de scorpion, Par-
 tea a doua.
 
@@ -16012,7 +16012,7 @@ grătar sau mesele pentru picnic. Când insecte ca muştele
 sunt propulsate până la doi metri în jur, răspândind bacterii
 şi virusuri.
 
-Q Vezi și Înțepătură de albină; Alergie la insecte; Boala Lyme;
+
 şi/sau Muşcături de păianjen şi înțepături de scorpion, Partea
 a doua.
 
@@ -17143,7 +17143,7 @@ Vezi Diminuarea sau pierdere a vederii, la Probleme de ochi.
 
 ## AMEŢELI
 
-Vezi Boala Minitre; Vertij; vezi și Probleme legate de
+
 sarcină.
 
 ## AMIGDALITĂ
@@ -18264,7 +18264,7 @@ proporției de grăsime. Dacă vi se prescrie acest medicament,
 asigurați-vă că faceţi mișcare în mod moderat și că veţi
 consuma o cantitate adecvată de proteine pentru a cvita
 creşterea în greutate.
-Q Vozi Anorexie nervoasă și Bulimie, Partea a doua. Vezi și
+
 Hipotiroidism, Partea a doua, p. 522, pentru un test auto-
 administrat.
 
@@ -20206,7 +20206,7 @@ tome asemănătoare celor ale artritei. Pentru că acestea pot
 apărea înaintea simptomelor abdominale, pot determina un
 diagnostic greşit şi întârzierea tratamentului. (Vezi Colită
 ulcerativă, Partea a doua, p. 375.)
-Q Vezi și Gută, Partea a doua, şi Controlul durerii, Partea
+
 a treia.
 
 ## ASTM
@@ -21335,7 +21335,7 @@ care poate produce probleme cu picioarele. Dacă zona se
 infectează, trebuie să consultați specialistul.
 Q Dacă problema persistă, medicul vă poate recomanda raze
 X ca să eliminați posibilitatea unui pinten crescut dedesubr.
-Q Vezi și Dezechilibru acid/alcalin, Partea a doua.
+
 
 ## BLEFARITĂ
 
@@ -22528,7 +22528,7 @@ ar putea afecta chimia creierului.
 
 Q S-a observat că schizofrenia apare mai frecvent la cei cu
 boala celiacă. (Vezi Schizofrenie, Partea a doua, p. 738.)
-A Vezi și Alergii și Sindrom de malabsorbție, Partea a doua.
+
 
 ## BOALA CROHN
 
@@ -23264,7 +23264,7 @@ au hernie hiatală, aproape jumătate având țesutul esofagian
 afectat şi 6% suferind de esofag Barrett.
 Q Dacă luați antiacide de mai mult de trei ori pe săptămână,
 ar trebui să consultaţi medicul.
-Q Vezi Ulcer peptic, Partea a doua. Vezi și Probleme legate
+
 de sarcină, Partea a doua.
 
 ## BOALA GRAVES
@@ -24068,7 +24068,7 @@ Alzheimer, diabet zaharat, encefalită, hiper- şi hipotiroi-
 dism, scleroză multiplă și boala Parkinson. Orice diagnostic
 de depresie va fi pus numai după un examen fizic complex,
 pentru eliminarea bolilor de fond posibile.
-Q Vezi și Depresie, Partea a doua.
+
 
 ## BOALA MENIERE
 
@@ -24263,7 +24263,7 @@ cantitate redusă de sare și 67% din ei au prezentat simptome
 
 reduse — 80% au avut simptome reduse chiar și timp de un
 an după întreruperea tratamentului.
-Q Vezi și Pierdere a auzului, Partea a doua.
+
 
 ## BOALA OSOASĂ PAGET
 
@@ -25433,8 +25433,8 @@ problemă deosebită mai ales în cazul bărbaților care fumau.
 Luând aproape doza zilnică recomandată de vitamina E şi
 circa 3 500 de micrograme de beta-caroten se reducea riscul
 la minimum.
-Q Vezi și Aftă şi Herpes, Partea a doua.
-Q Vezi și Gingii care sângerează, la Probleme legate de sar-
+
+
 cină, Partea a doua.
 
 ## PULMONARĂ.
@@ -25930,7 +25930,7 @@ Q Fără un tratament adecvat, boala Wilson devine fatală în
 preajma vârstei de 30 de ani. Cu toate acestea, dacă trata-
 mentul este început la timp, refacerea simptomatică este
 aproape completă și se poate duce o viață normală și lungă.
-Q Vezi și Intoxicaţie cu cupru, Partea a doua.
+
 
 ## BOLI AFECTIVE DE SEZON (SAD)
 
@@ -25938,7 +25938,7 @@ Vezi Depresie.
 
 ## BOLI ALE GINGIILOR
 
-Vezi Boala parodontală. Vezi și Gingii sângerânde, la Pro-
+
 bleme legate de sarcină.
 
 ## BOLI ALE VEZICII BILIARE
@@ -27629,7 +27629,7 @@ mult sau dacă există în medicaţie nitrați. Combinația de
 nitrați cu sildenafil poate fi periculoasă pentru hipotensiune.
 Înainte de a lua decizia de a vă prescrie sildenafil, medicul vă prin
 poate sugera să faceți un test de stres.
-Q Vezi și Aterioscleroză, Probleme ale aparatului circulator,
+
 Infarct miocardic, Hipertensiune arterială, Partea a doua, și de
 Terapia prin chelare, Partea a treia.
 în
@@ -27890,7 +27890,7 @@ Ciroză hepatică şi Hepatită, Partea a doua.
 
 ## BOLI DE GURĂ ŞI DE GINGIE
 
-Halitoză, Boala parodontală. Vezi și Gingii sângerân-
+
 la Probleme legate de sarcină.
 
 ## BOLI ENDOCRINE
@@ -31254,7 +31254,7 @@ pentru asemenea scopuri. Orice contaminant de pe piele sau
 din produs poate intra în ţesuturi prin acțiunea DMSO.
 Notă: Folosind DMSO, corpul capătă un miros de usturoi.
 Fenomenul este trecător şi nu este un motiv de îngrijorare.
-Q Vezi și Controlul durerii, Partea a treia.
+
 
 ## CANCER
 
@@ -33493,7 +33493,7 @@ provocate de cancer nediagnosticat.
 
 Q Vezi Cancer de sân; Cancer de prostată; Cancer de piele;
 şi Tumoare, Partea a doua.
-Q Vezi și Controlul durerii, Partea a treia.
+
 
 ## CANCER DE PIELE
 
@@ -36281,7 +36281,7 @@ determinaţi nivelul metalelor toxice. (Vezi Analiză a firului
 păr, Partea a treia, p. 862.)
 U Candidozele pot fi asociate și cu hipoglicemia. (Vezi
 Hipoglicemie, Partea a doua, p. 518.)
-Q Vezi și Infecție fungică, Partea a doua.
+
 
 ## CANGRENĂ
 
@@ -37473,7 +37473,7 @@ chlamydia mai uşor de detectat la microscop. Cultura
 poate fi prelevată din ochi, col uterin sau penis.
 3. Mostră de ADN. Caută ADN-ul chlamydiei, dar este mai
 puțin sensibil decât NAAT.
-Q Vezi și Boli cu transmitere sexuală, Partea a doua.
+
 
 ### în CIROZĂ HEPATICĂ
 
@@ -38331,9 +38331,9 @@ probabil că e mai bine să luaţi în serios nivelul colesterolului
 și şi să aveți în vedere alte analize care să dovedească pre-
 dispoziția pentru apariția bolilor cardiace, aşa cum se arată
 la Infarct miocardic, Partea a doua, p. 531.
-UI Vezi și Arteroscleroză/Ateroscleroză, Boli cardiovascu-
+
 lare, Probleme ale aparatului circulator, Infarct miocardic şi
-cu hipertensiune, Partea a doua. Vezi și Terapie prin chelare,
+
 Partea a treia.
 
 ## COLITĂ
@@ -39056,7 +39056,7 @@ cunoscută, dar mulți specialişti cred că este legată de stres.
 Partea a doua, p. 769 şi p. 375.)
 
 Q Vezi Diverticulită și Colită ulcerativă, Partea a doua.
-Q Vezi și Probleme legate de sarcină, Partea a doua.
+
 
 ## CONVULSII
 
@@ -39068,7 +39068,7 @@ Vezi Crampe musculare; Sindrom premenstrual.
 
 ## CRAMPE LA PICIOARE
 
-Vezi Crampe musculare. Vezi și Probleme legate de sarcină.
+
 
 ## CRAMPE MENSTRUALE
 
@@ -39659,7 +39659,7 @@ mentele de care puteţi avea nevoie ca urmare a folosi-
 SUBSTANȚĂ NUTRIENT
 Allopurinol (Zyloprim) Fier
 Antiacide Vitaminele
-Antibiotice, în general (Vezi și isoniazid, Vitaminele
+
 penicilină, sulfamide și trimethoprim)
 Antihistaminice Vitamina C
 Barbiturice Vitamina C
@@ -39670,9 +39670,9 @@ Carbamazepină (Atretol, Tegretol) Diluează
 Clonidină (Catapres, Combipres) A Vitamine
 VC”|ortiazidă (Aldoclor, Diuril ș.a.) a Magneziu,
 Contraceptive orale Vitamine
-Corticosteroizi, în general (Vezi și prednison) Calciu,
+
 Digitalină (Cystodigin, Digoxin ș.a.) Vitaminele
-Diuretice, în general (Vezi și clortiazidă, Calciu, iod,
+
 spironolactonă, diuretice tiazidă și triamterenă)
 Etanol (alcool) B Vitamine
 Fenilbutazonă (Cotylbutazone) Acid folic,
@@ -43490,7 +43490,7 @@ corpii cavernoși, două camere lungi și subţiri din penis care
 se umplu cu sânge şi creează erecția. Împiedică penisul să
 de aibă o elasticitate normală. Când este în erecţie, penisul
 poate arăta deformat şi contorsionat.
-ne- Q Vezi și Hipertiroidism şi Hipotiroidism, Partea a doua.
+
 
 ## DISPEPSIE
 
@@ -43760,7 +43760,7 @@ Q Dacă diverticulele se infectează, medicul poate prescrie
 antibiotice. Beţi multe lichide și produse fermentate şi, dacă
 luați antibiotice, luați o formă de acidophilus fără lactoză.
 Q Postul este benefic. (Vezi Post, Partea a treia, p. 882.)
-O Vezi și Boala Crohn, Sindrom al intestinului iritabil şi
+
 Colită ulcerativă, Partea a doua.)
 
 ## DISCROMATOPSIE
@@ -44442,7 +44442,7 @@ semne ale intoxicației cu monoxid de carbon sunt, uneori,
 greşit diagnosticate. Un mod de a vă apăra este să investiți
 într-un detector de monoxid de carbon.
 Q Vezi Hipoglicemie, Migrenă şi Sindrom ATM, Partea
-a doua. Vezi și Controlul durerii, Partea a treia.
+
 
 ## DURERE DE SPATE
 
@@ -44931,7 +44931,7 @@ pe spate care au fost tratate de chiropracticieni se recuperează
 repede, ieftin şi, la sfârșit, au dureri mai mici şi sunt mai
 de mobile decât cei tratați în spitale.
 Q Vezi Probleme legate de sarcină, Partea a doua.
-UQ Vezi și Controlul durerii, Partea a treia.
+
 
 ### dă DURERE ÎN GÂT
 
@@ -45148,7 +45148,7 @@ folosire).
 de
 Q Acrul uscat poate agrava uneori durerea. Un umidificator
 sau un vaporizator poate ajuta umezind aerul mai mult.
-Q Vezi și Amigdalită, Mononucleoză, Răceală obişnuită şi
+
 de Sinuzită, Partea a doua.
 
 ## ECHIMOZĂ (VÂNĂTAIE)
@@ -45509,7 +45509,7 @@ telor crude, a băuturilor reci şi a grăsimii din alimente poate
 ajuta la prevenirea retenției de apă.
 Q Sunt recomandate testele pentru alergii. (Vezi Alergii,
 Partea a doua, p. 164.)
-Q Vezi și Probleme legare de sarcină, Partea a doua.
+
 
 ## EMFIZEM
 
@@ -45866,7 +45866,7 @@ de aer.
 4. Raze X. O scanare a plămânilor la razele X şi o tomografie
 computerizară axială (CAT scan) ajută la diagnosticarea
 cazurilor de enfizem, de la cele moderate la cele grave.
-Q Vezi și Spălături cu acid ascorbic, Partea a treia, şi Ioxi-
+
 citate a mediului, Partea a doua.
 
 ## ACUTĂ
@@ -47887,7 +47887,7 @@ ultraviolet).
 Q Este recomandat să se facă teste de alergie, în special în
 cazul urticariilor persistente. (vezi Alergii, Partea a doua,
 p. 164)
-Q Vezi și Acnee, Alergii, Alergii la substanţe chimice, Boala
+
 Lyme, Candidoză, Cangrenă, Dermatită, Febră reumatică,
 lederă otrăvitoare, Infecție herpetică, Infecţie fungică,
 Înțepături de insecte, Lupus, Mononucleoză, Negi, Picior
@@ -49951,7 +49951,7 @@ ghips. Consultați-vă mai întâi medicul curant.
 
 <!-- Pagina PDF 474 -->
 
-Q Vezi și Osteoporoză şi Entorse, întinderi şi alte leziuni ale
+
 muşchilor şi ale articulațiilor, Partea a doua.
 
 ## FRIGIDITATE
@@ -51480,7 +51480,7 @@ O Halitoza poate fi semnul unci alte boli. Consultați
 medicul pentru un control, dacă recomandările din
 capitol nu îmbunătățesc situaţia.
 **Observaţii**
-Q Vezi și Boala parodontală, Sinuzită şi/sau Durere în
+
 Partea a doua.
 
 ## HEMOFILIE
@@ -52214,7 +52214,7 @@ Q Cea mai obişnuită cauză a mâncărimilor anale este iri-
 tarea țesutului din cauza hârtiei igienice aspre. Candida
 albicans, alergiile și infecțiile parazitare sunt, și ele, cauze ale
 mâncărimilor.
-Q Vezi și Probleme legate de sarcină, Partea a doua.
+
 
 ## HEPATITĂ
 
@@ -52783,11 +52783,11 @@ a sistemului imunitar şși puteţi fi sensibil la herpes bucal.
 I Evitaţi să atingeți pe alții cu zona afectată până ce aceasta
 nu se vindecă în totalitate; virusul poate fi transmis destul
 de uşor altora.
-Q Vezi și Infecţie herpetică, Partea a doua.
+
 
 ## HERPES ZOSTER
 
-Vezi Zona zoster. Vezi și Probleme de ochi.
+
 
 ## HIPERTENSIUNE ARTERIALĂ
 
@@ -54925,8 +54925,8 @@ Q jobns Hopkins Medical Letter arată că disfuncţia erectilă
 ireversibilă şi mărirea sânilor pot fi rezultatul folosirii înde-
 lungate şi excesive (mai mult de 3 grame zilnic) a medica-
 mentului cimetidină (Tagamet) împotriva arsurilor.
-Q Vezi și Enzime, Partea întâi.
-Q Vezi și Alergii, Partea a doua, și faceți autotestul.
+
+
 Q Vezi şi Diverticulită, Boli transmise prin alimente
 apă, Boli de ficat/Boala de reflux gastrointestinal (GERD),
 Sindrom al intestinului iritabil, Intoleranţă la lactoză,
@@ -55928,7 +55928,7 @@ timp de 10-20 de minute zilnic.
 **Observaţii**
 Q Există multe preparate antifungice de aplicat local, care se
 găsesc la farmacii.
-Q Vezi și Picior de atlet, Candidoză şi/sau Infecţii micotice,
+
 Partea a doua.
 
 ## INFECŢIE HERPETICĂ
@@ -56347,7 +56347,7 @@ Q Choraphor este un antiseptic local brevetat care conţine
 sulfat acid de amoniu şi microminerale despre care se spune
 că declanşează răspunsul sistemului imunitar la herpes şi
 curăță erupţia. Încă nu a fost testat clinic.
-Q Vezi și Răceală, Boli cu transmitere sexuală şi Zona zoster,
+
 Partea a doua.
 
 ## INFECŢIE A URECHII
@@ -56918,7 +56918,7 @@ la şi să obţină un scor mai bun la un test standard al simp-
 de tomelor. Ambele studii asupra quercitinei au folosit un
 amestec de quercitină, sulfat de condroitină şi hialuronat de
 care sodiu.
-Q Vezi și Boli venerice, Prostatită şi Vaginită, Partea a doua.
+
 de
 
 ## rela- INFECŢII MICOTICE
@@ -57619,7 +57619,7 @@ nerea densităţii osoase, precum şi pentru calmarea articu-
 laţiilor dureroase.
 Q Vezi Abces, Artrită şi Entorse, întinderi şi alte traumatisme
 ale muşchilor şi articulațiilor, Partea a doua.
-Q Vezi și Controlul durerii, Partea a treia.
+
 
 ## INCONTINENŢĂ
 
@@ -58529,7 +58529,7 @@ analgezic, pot duce la disfuncții ale rinichilor.
 
 O În multe țări, sistemul de dializă la domiciliu stă la dis-
 poziția celor care au nevoie de tratamentul cu dializă.
-Q Vezi și Infecții ale vezicii urinare şi Pierre la rinichi, Partea
+
 a doua.
 
 ## INTOLERANȚĂ EREDITARĂ
@@ -58817,7 +58817,7 @@ sub orice casă, în caz de supradoză accidentală de medicamente.
 **Observaţii**
 Q Terapia prin chelare elimină metalele toxice din organism.
 (Vezi Terapie prin chelare, Partea a treia, 896.)
-Q Vezi și Intoxicație cu substanțe chimice şi Toxicitate a
+
 mediului, Partea a doua.
 
 ## INTOXICAŢIE CU CADMIU
@@ -59626,7 +59626,7 @@ Q Evitaţi substanțele chimice. Nu este o idee bună
 măcar să vă murdăriți de benzină pe mâini atunci când
 alimentați automobilul sau mașina de tuns iarba.
 **Observaţii**
-Q Vezi și Alergii la substanțe chimice şi Otrăviri, Partea
+
 a doua.
 
 ## ÎMBĂTRÂNIRE
@@ -61717,7 +61717,7 @@ mătreața, iar altele cred că înrăutățeşte situația.
 Q Nu folosiți unguente pentru mătreață fără rețetă. Pot face
 mai mult rău decât bine.
 J Nizoral A-D este un șampon antimătreață antifungic.
-Q Vezi și Seboree, Partea a doua.
+
 
 ## MELANOM
 
@@ -62377,7 +62377,7 @@ ciente, cu excepția venlafaxinei (Effexor), care poate fi de
 ajutor la prevenirea migrenelor.
 Q Unele femei care suferă de migrenă au și tulburări de
 alimentație, cum este bulimia nervoasă.
-U Vezi și Durere de cap, Partea a doua, şi Controlul durerii,
+
 Partea a treia.
 
 ## MONONUCLEOZĂ
@@ -63490,7 +63490,7 @@ Aceste medicamente includ antidepresive triciclice, precum
 protriptilina (Vivactil) şi imipramina (Tofranil) și inhibitori
 de reabsorbție de serotonină selectivi (SSRI), precum fluoxe-
 tine (Prozac, Sarafem) şi sertralina (Zoloft).
-Q Vezi și Discuţii despre apnee la Insomnie, Partea a doua.
+
 
 ## NEFRITĂ
 
@@ -66621,7 +66621,7 @@ O Cu toate că există legendacă pielea grasă produce acnee,
 nu este adevărat. Deşi există o legătură între severitatea
 acneei şi cantitatea de grăsime pe care pielea unei persoane o
 produce, nu toate persoanele cu pielea grasă au acnee.
-Q Vezi și Acnee, Partea a doua.
+
 
 ## PIELE USCATĂ
 
@@ -67463,7 +67463,7 @@ urechii interne ca să activeze nervii auditivi și să permită
 semnalelor sonore să ajungă la creier. Indivizii cu auz afectat,
 care optează pentru acest instrument, pot să audă perfect
 sunetele obișnuite, de zi cu zi.
-Q Vezi și Infecţie a urechii şi Boală M&niere, Partea a doua.
+
 
 ## PIETRE LA RINICHI
 
@@ -67994,7 +67994,7 @@ face efort fizic sau nu vă puteți desfășura activitățile normale
 din cauza unui asemenea pinten, ar trebui să vă gândiți
 o intervenţie chirurgicală. Lipsa de exercițiu poate duce
 câștig în greutate şi la alte probleme, cum ar fi diabetul
-bolile de inimă. (Vezi și Artrită, Partea a doua, p. 200.)
+
 
 ## PIOREE
 
@@ -68282,7 +68282,7 @@ U Folosirea antibioticelor pentru infecţii minore, cum sunt
 răcelile, poate duce la dezvoltarea, în partea superioară a
 căilor respiratorii, a unor bacterii rezistente la antibiotice,
 care pot produce pneumonia.
-I Vezi și Gripă şi Răceală obişnuită, Partea a doua.
+
 
 ## POJAR
 
@@ -69559,7 +69559,7 @@ Q În legătură cu problemele de creştere se fac multe
 cercetări. Interesant e că multe studii au arătat că persoanele
 scunde trăiesc mai mult decât persoanele de o înălțime peste
 alţi medie.
-Q Vezi și Hipertiroidism şi Hipotiroidism, Partea a doua.
+
 
 ## PROBLEME DE GREUTATE
 
@@ -69966,7 +69966,7 @@ boala vacii nebune (la oameni se numește boala Creutzfeldr-
 Jacob), companiile producătoare de suplimente dietetice
 început să o fabrice din ulei de soia şi nu există alte studii
 care să ne arate dacă mai are încă efect.
-Q Vezi și Îmbătrânire, Boala Alzheimer, Aceroscleroză,
+
 Hipoglicemie şi/sau Senilitate, Partea a doua.
 
 ## PROBLEME DE MENOPAUZĂ..
@@ -70197,8 +70197,7 @@ cardiac.
 seleniu asociat cu echilibrul
 hormonal normal.
 L-arginină 500 mg de 2oripezi. Detoxifică ficatul. Ajută
-funcţia hepatică. (Vezi
-și Aminoacizi, Partea
+
 L-lizină 500 mg ziinic, pe întâi.)
 stomacul gol. Luaţi
 cu apă sau cu suc. Nu
@@ -70688,7 +70687,7 @@ Infarct miocardic, Partea a doua, p. 531.) Multe femei cred
 că, dacă iau estrogen, sunt protejate de această boală, dar
 există motive serioase de îndoială că estrogenul sintetic ar
 apăra de infarct.
-Q Vezi și Hipoglicemie şi Probleme legate de histerectomie,
+
 Partea a doua.
 
 ## PROBLEME DE OCHI
@@ -71799,8 +71798,8 @@ luteină Conform indicațiilor
 şi de pe etichetă.
 zeaxantină
 **Observații**
-Q Vezi și Glaucom şi/sau Rujeolă, ambele în Partea a doua.
-Q Vezi și discuţii despre uveită la Diminuarea saupierderca
+
+
 vederii, în acest articol.
 Glaucom
 Glaucomul este o boală gravă de ochi, caracterizată prin
@@ -72420,7 +72419,7 @@ din toate suplimentele. de supt sau OptiZinş,
 pentru cea mai bună
 absorbţie.
 **Observații**
-Q Vezi și Pete Bitor, în acest articol.
+
 
 ### Zona zoster (herpes zoster)
 
@@ -72484,7 +72483,7 @@ de vitamina C, care calmează aproape imediat. Dozele
 de vitamina C intravenos pot da diaree. Lăsaţi medicul
 să decidă dozele. Doza normală este între 10 şi 50
 centigrame (un centigram înseamnă o sutime de gram).
-UI Vezi și Zona zoster, Partea a doua.
+
 
 ## PROBLEME DE SOMN
 
@@ -72938,9 +72937,9 @@ ca să evitați riscul de cancer.
 UY Dr. Betty Kamen, specialist în probleme de sănătate
 femeilor, afirmă că progesteronul, nu estrogenul, ar trebui
 fie hormonul ales pentru terapia de înlocuire.
-I Vezi și Probleme legate de menopauză şi perimenopauză,
+
 Partea a doua.
-Q Vezi și Pregătire pentru operație și refacere postoperatorie,
+
 Partea a treia.
 
 ## PROBLEME LEGATE DE SARCINĂ
@@ -73061,7 +73060,7 @@ ore înainte de culcare sau de a vă întinde ca să vă odihniți.
 **Observații**
 Q O dietă bogată în carbohidrați poare ajura dacă aveți
 arsuri.
-Q Vezi și Arsuri/Boala de reflux gastroesofagian, Partea a
+
 doua.
 Astm
 Multe femei care au astm reduc medicaţia când rămân
@@ -73219,7 +73218,7 @@ Q Pentru a ușura crampele, îndoiți piciorul cu degetele ridi-
 cate în sus.
 Q Când aveţi cârcei, puneți o sticlă cu apă fierbinte sau o
 o pernă electrică pe zona respectivă şi presați cu mâinile.
-UQ Vezi și Crampe musculare, Partea a doua.
+
 pe Depresie
 Depresia este destul de des întâlnită în timpul sarcinii. Poate
 cle, apărea şi dispărea, dar, din cauza schimbărilor nivelurilor de
@@ -73315,7 +73314,7 @@ ajută la menținerea unui echilibru corect al bacteriilor bune,
 Q Purtaţi chiloţi de bumbac. Evitaţi să purtați haine strâm-
 te, din material plastic, direct pe piele.
 O Nu faceţi spălături vaginale.
-Q Vezi și Infecții ale vezicii urinare (cistite) și Candidoză,
+
 Partea a doua.
 
 ### Dureri de spate
@@ -73444,7 +73443,7 @@ vor reveni la normal.
 UI Când vă relaxați, stați cu picioarele ridicate.
 Q Mergeţi pe jos circa 1,5—2 kilometri în fiecare zi. Aceasta
 ajută la controlarea edemului.
-Q Vezi și Edem, Partea a doua.
+
 
 ### Gaze (flatulență)
 
@@ -73604,7 +73603,7 @@ Q Mergeţi pe jos circa 1,5 kilometri pe zi pentru a
 digestia și evacuarea.
 Q Nu vă forțați să aveţi scaun dacă sunteți constipată.
 Constipație, Partea a doua, p. 379).
-UQ Vezi și Hemoroizi, Partea a doua.
+
 insomnie
 Însomnia este foarte obișnuită în timpul ultimelor săptămâni
 de sarcină, când este greu să găsiți o poziție confortabilă
@@ -73625,7 +73624,7 @@ yoga sau altă formă de meditație. Acestea vă pot ajuta să
 vă relaxați și pot fi utile în timpul naşterii și după aceea.
 (Vezi Exerciţii de respirație, Crearea de imagini controlate,
 C, Meditaţie, Tehnici de relaxare la Controlul durerii, Partea a
-ardei treia, p. 868; vezi și Yoga, Partea a treia, p. 900.)
+
 Nu vă forțați să dormiţi dacă nu sunteţi realmente
 obosită. Citiţi, meditați sau faceți altceva care nu cere încor-
 dare, până vă vine somnul.
@@ -73642,7 +73641,7 @@ Q Evitați stimulentele.
 UI Nu mâncați mese grele înainte de culcare.
 Q Aranjaţi pernele în spate sau sub abdomen pentru a ușura
 respirația.
-Q Vezi și Insomnie, Partea a doua.
+
 
 ### Naştere prematură
 
@@ -73818,7 +73817,7 @@ tice pe bază de apă, hipoalergene, dacă pielea are acnee.
 **Observații**
 Q Acidul folic, una dintre substanțele nurritive esențiale
 timpul sarcinii, ar putea ajuta şi în problemele de piele.
-U Vezi și Acnee şi Piele grasă, Partea a doua.
+
 
 ### Sarcină ectopică
 
@@ -74058,7 +74057,7 @@ de Q Mergeţi pe jos 1,5 km în fiecare zi, pentru a vă activa
 circulația.
 către Q Nu purtaţi ciorapi trei sferturi cu elastic, jartiere, centuri
 în sau pantofi cu toc înalt.
-Q Vezi și Vene varicoase, Partea a doua.
+
 
 ### Vergeturi
 
@@ -75304,7 +75303,7 @@ folos.
 Q Există un număr de produse conținând o combinație
 suplimente având în componenţă mulți dintre nutrienţii
 recomandați în tabelul de mai sus.
-Q Vezi și Osteoporoză, Partea a doua.
+
 
 ## RĂCEALĂ
 
@@ -77389,7 +77388,7 @@ care ar putea afecta sinteza dopaminei, a serotoninei sau
 norepinefrinei, fără a consulta un medic.
 Q Unele cazuri de schizofrenie au fost legate de alergii
 alimentare. Multe persoane descoperă că simptomele
-îmbunătăţesc după un regim. (Vezi și Alergii, Partea a doua,
+
 şi Post, Partea a treia, p. 164 şi p. 882.)
 
 ## SCIATICĂ
@@ -78525,7 +78524,7 @@ organismul suferă deteriorări din cauza prezenței metalelor,
 firului de păr, Partea a treia, p. 862.)
 Q Vezi Toxicitate a aluminiului, Boala Alzheimer şi Boala
 Parkinson, Partea a doua.
-Q Vezi și Boala Binswanger şi Boala Pick, la Boli rare, Partea
+
 a doua.
 
 ## SIDA (SINDROM AL,
@@ -79191,7 +79190,7 @@ cândva au fost diagnosticați ca HIV-pozitiv. Se pare că nu
 mai au virusul în organism. Acelaşi lucru s-a întâmplat și în
 timpul ciumei; nu toată lumea care a fost expusă a manifestat
 și simptomele.
-Q Vezi și Boli cu transmitere sexuală, Partea a doua.
+
 
 ## SINDROM AL ARTICULAȚIEI
 
@@ -79481,7 +79480,7 @@ doua.) Nu acesta este cazul sindromului ATM.
 Q Un disc deplasat poare să dea dureri de maxilar. Trata-
 mentul pentru această afecțiune implică realinierea liga-
 mentelor cu atelă de plastic.
-Q Vezi și Bruxism şi Stres, Partea a doua.
+
 
 ## SINDROM BROWN-SEQUARD
 
@@ -80430,7 +80429,7 @@ mobilitatea.
 Q Un tratament nou pentru CTS folosește laserul „rece“
 (de energie redusă) ca să penetreze țesuturile, să stimuleze
 nervii şi să crească microcirculația în zona afectată.
-Q Vezi și Controlul durerii, Partea a treia.
+
 
 ## SINDROM AL,
 
@@ -80771,8 +80770,7 @@ Boala a fost adesea asociată cu incidența cancerului de colon
 şi cu diverticulita.
 Q Dacă SII provoacă diaree cronică, este posibilă existența
 unei carențe de electroliți şi de microminerale. (Vezi Diaree,
-Partea a doua, p. 417, pentru suplimentele cu minerale. Vezi
-și Sindrom de malabsorbție, Partea a doua, p. 762.)
+
 Q Unele medicamente pot agrava problemele de malab-
 sorbție prezente adesea în SII. Acestea includ antibioticele,
 corticosteroizii, colestiramina (Questran) și sulfasalazina
@@ -80800,7 +80798,7 @@ Q Studiile și testele au dovedit nu numai că exerciţiile de
 respirație pot controla SII, dar şi că persoanele care practică
 în mod constant controlul stresului au crize mai rare şi
 mai uşoare. Controlul stresului ușurează simptomele. (Vezi
-Stres, Partea a doua, p. 797. Vezi și Exerciții de respirație la
+
 Controlul durerii, Partea a treia, p. 868.)
 J Simptomele SII sunt similare cu cele ale multor altor
 boli, inclusiv cu ale cancerului. Dacă schimbările de ali-
@@ -80808,7 +80806,7 @@ mentație şi remediile naturiste nu calmează, este bine să
 consultați medicul ca să eliminați posibilitatea unei boli mai
 grave. Oricum, recomandăm acest consult numai după ce
 remediile naturiste au fost testate.
-Q Vezi și Diverticulită, Arsuri şi/sau Indigestie, Partea a
+
 doua.
 
 ## SINDROM AL OBOSELII CRONICE
@@ -81308,7 +81306,7 @@ Association (JAMA) a subliniat faptul că oamenii au avut
 de beneficiat în diverse grade de pe urma suplimentelor
 magneziu, a extractelor de ficat, a homeopatiei, terapiei prin
 masaj şi a unui mentor/prieten.
-Q Vezi și Candidoză, Sindron de fibromialgie, Hipotiroi-
+
 dism şi Mononucleoză, Partea a doua.
 
 ## SINDROM DE FIBROMIALGIE
@@ -84174,7 +84172,7 @@ de culcare. La fel de importantă este o nutriție bună.
 Pe A Intoxicaţia cu metale grele și alergiile alimentare pot da
 simptome care le imită pe acelea ale stresului. O analiză a
 firului de păr evidențiază intoxicația cu metale grele. (Vezi
-de Analiză a firului de păr, Partea atreia, p. 862; vezi și Alergii,
+
 Partea a doua, p. 164.)
 Q Simptomele hipoglicemiei le pot imira pe cele ale stre-
 sului. (Vezi Hipoglicemie, Partea a doua, p. 518.)
@@ -84969,7 +84967,7 @@ clădiri, este făcută din prefabricate asamblate cu adeziv pe
 bază de formaldehidă şi de lemn procesat. Când plăcile de
 lemn se udă, formaldehida se poate răspândi în aerul din
 Casă.
-Q Vezi și Toxicitate a aluminiului, Întoxicație cu arsenic,
+
 Intoxicaţie cu cadmiu, Intoxicaţie cu substanţe chimice,
 Intoxicaţie cu cupru, Boli transmise prin alimente şi apă,
 Întoxicație cu plumb, Toxicitate a mercurului şi Toxicitate a
@@ -85190,7 +85188,7 @@ Azogue se împrăștie prin casă, în scopuri religioase. Se su-
 gerează înlăturarea imediată a mercurului dacă este îm-
 prăştiat prin casă, dar înlăturarea trebuie făcură în așa fel
 încât să evite un pericol şi mai mare.
-U Vezi și Alergii la substanțe chimice şi Toxicitate a mediu-
+
 lui, Partea a doua.
 
 ## TOXICITATE A NICHELULUI
@@ -85713,7 +85711,7 @@ bărbații tineri de origine est-mediteraneeană şi est-asiatică.
 Q Persoanele cu sindrom Behcert ar trebui să evite înţepă-
 turile de ace, deoarece acestea pot duce la leziuni inflamatorii
 ale pielii.
-Q Vezi și Problemele ale aparatului circulator şi Ulcere
+
 (ulcerații) ale picioarelor, Partea a doua.
 şi
 
@@ -87050,7 +87048,7 @@ Dacă luaţi medicamente împotriva anxietății, urmând pla-
 nul indicat în acest articol, este posibil să reuşiți să renunțați
 la medicamente sau, cel puțin, să reduceţi dozele. Consultaţi
 întotdeauna medicul înainte de a face orice schimbare în
-regimulprescris. Vezi și Stres, Partea a doua, p. 797.
+
 
 ## TULBURĂRI BIPOLARE
 
@@ -87371,7 +87369,7 @@ Negi, Partea a doua.
 ## ULCER
 
 Vezi Escare, Herpes bucal, Ulcere ale picioarelor, Ulcer
-peptic; vezi și Probleme de ochi.
+
 
 ## ULCER CORNEAL
 
@@ -87583,7 +87581,7 @@ Q Ulcerele picioarelor nu provoacă adesea dureri foarte
 mari, așa că, dacă aveţi diabet sau probleme ale aparatului
 circulator, este recomandabil să examinați cu atenţie
 porțiunea inferioară și labele picioarelor.
-Q Vezi și Probleme ale aparatului circulator şi Vene vari-
+
 coase, Partea a doua.
 
 ## ULCER PEPTIC
@@ -87945,7 +87943,7 @@ recidive.
 Q Evitaţi analgezicele, aspirina și ibuprofenul (Advil, Nuprin
 şi alte produse).
 I Încercați să evitați situațiile de stres. (Vezi Stres, Partea a
-doua, p. 797; vezi și Meditaţie la Controlul durerii, Partea a
+
 treia, p. 872.) Terapia prin muzică poare ajuta. (Vezi Terapie
 prin sunet şi muzică, Partea a treia, p. 900.)
 **Observații**
@@ -88476,7 +88474,7 @@ Q Un vaccin pentru varicelă numit Varivax a fost aprobat
 1995. Este un vaccin cu forme atenuate de virusuri vii. Nu
 trebuie să luați aspirină şi nici alte medicamente, cel puțin
 șase luni după vaccinare. (Vezi Sindrom Reye, p. 786.)
-U Vezi și Herpes zoster, Partea a doua.
+
 
 ## VENE VARICOASE
 
@@ -89957,7 +89955,7 @@ rile legate de biologia virusului varicela-zoster continuă,
 mul imunitar îl controlează. Astfel se pot găsi metode de
 calmare a suferințelor produse de zona zoster şi de nevralgia
 postherpetică.
-Q Vezi și Controlul durerii, Partea a treia.
+
 
 <!-- Pagina PDF 847 -->
 

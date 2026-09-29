@@ -230,7 +230,7 @@ pentru diminuarea colesterolului din sânge
 | 3 | 7 | 8 | 9 | 9 | 6 | 5 | 4 |
 | 4 | 10 | 11 | 12 | 10 | 3 | 2 | 1 |
 | 5 | 13 | 14 | 15 | 11 | 25 | 25 | 25 |
-| 6 | 15 | 14 | 13 |  |  |  |  |
+| 6 | 15 | 14 | 13 | | | | |
 
 Dupa 11 zile se reia tratamentul şi se procedează similar până la terminarea cantităţii de tinctură. Picăturile se iau înainte de masă cu un sfert de oră. Cura se poate repeta peste 5 ani. Acest tratament curăţă organsimul de depozitele de lipide şi calciu, iar vasele sanguine devin mai elastice prin scăderea colesterolului LDL.
 

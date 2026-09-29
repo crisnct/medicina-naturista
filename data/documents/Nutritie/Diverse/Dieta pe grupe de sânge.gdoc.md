@@ -32,29 +32,29 @@ Datorită tendinței lor către niveluri mai ridicate de acid din stomac,sunt ca
 
 Cei cu sânge de tip 0 ar trebui, în principiu, să aleagă alimente bogate în proteine și să mănânce carne, legume, pește și fructe, dar să limiteze cerealele, fasolea și leguminoasele. Pentru a pierde în greutate, fructele de mare, carnea roșie, broccoli, spanacul și uleiul de măsline sunt cele mai bune, iar grâul, porumbul și lactatele trebuie evitate.
 
-Alimente recomandate în [diet](https://doc.ro/dieta-rina-reguli)a pentru grupa sanguină 0
+Alimente recomandate în dieta pentru grupa sanguină 0
 
 Proteine de origine animală
 
 Grupa de sânge 0 digeră și metabolizează carnea cu ușurință, iar dietele vegetariene nu sunt recomandate. Fructele de mare, care sunt o sursă bogată de iod, sunt benefice pentru persoanele cu această grupă de sânge, deoarece iodul ajută la stabilizarea funcției tiroidei.
 
-Așadar, [dieta ](https://doc.ro/dieta-dukan-reguli-program)recomandă că persoanele cu grupa sangvină 0 să consume produse benefice de origine animală, cum ar fi:
+Așadar, dieta recomandă că persoanele cu grupa sangvină 0 să consume produse benefice de origine animală, cum ar fi:
 
-•    vită  
-•    miel  
-•    carne de berbec (berbecuț)  
-•    vițel  
-•    vânat  
-•    cod  
-•    hering  
+•    vită
+•    miel
+•    carne de berbec (berbecuț)
+•    vițel
+•    vânat
+•    cod
+•    hering
 •    macrou
 
 Produse lactate
 
-Deși produsele lactate și ouăle ar trebui evitate, persoanele care țîn această [dietă ](https://doc.ro/dieta-atkins-reguli-beneficii)(pentru grupele de sânge) pot consumă ocazional următoarele produse:
+Deși produsele lactate și ouăle ar trebui evitate, persoanele care țîn această dietă (pentru grupele de sânge) pot consumă ocazional următoarele produse:
 
-•    unt  
-•    diverse brânzeturi, cum ar fi feta, mozzarella și brânză de capra  
+•    unt
+•    diverse brânzeturi, cum ar fi feta, mozzarella și brânză de capra
 •    lapte de soia
 
 Nuci
@@ -65,33 +65,33 @@ Cereale
 
 Deși cele mai multe cereale ar trebui evitate, există câteva care sunt tolerate, precum:
 
-•    amaranthul  
-•    orzul  
-•    hrișcă  
-•    orezul  
-•    meiul   
-•    secară  
+•    amaranthul
+•    orzul
+•    hrișcă
+•    orezul
+•    meiul 
+•    secară
 •    grâu spelt
 
 Legume
 
-Cu mici excepții, care ar trebui evitate, multe legume sunt bine tolerate de cei cu grupa sanguină 0\. Unele dintre legumele recomandate pentru această [dietă](https://doc.ro/dieta-in-caz-de-hipoglicemie-idei-pentru-mic-dejun-pranz-si-cina) sunt:
+Cu mici excepții, care ar trebui evitate, multe legume sunt bine tolerate de cei cu grupa sanguină 0\. Unele dintre legumele recomandate pentru această dietă sunt:
 
-•    roșiile   
-•    anghinarea  
-•    cicoarea  
-•    păpădia  
-•    usturoiul  
-•    hreanul  
-•    kale (varză furajeră)  
-•    bamele  
-•    ceapă  
-•    pătrunjelul  
-•    pastarnacul  
-•    ardeii grași roșii  
-•    cartofii roșii  
-•    dovleacul  
-•    algele de mare  
+•    roșiile 
+•    anghinarea
+•    cicoarea
+•    păpădia
+•    usturoiul
+•    hreanul
+•    kale (varză furajeră)
+•    bamele
+•    ceapă
+•    pătrunjelul
+•    pastarnacul
+•    ardeii grași roșii
+•    cartofii roșii
+•    dovleacul
+•    algele de mare
 •    napii
 
 Legumele verzi, cu frunze, cum ar fi varza și Kale, conțin vitamina K, care ajuta la coagularea sângelui. Acest lucru este util, deoarece celor cu această grupă de sânge le lipsesc anumiți factori de coagulare.
@@ -106,10 +106,10 @@ Fructe
 
 La fel ca în cazul legumelor, se crede că cele mai multe fructe sunt bine tolerate în această dietă de cei cu grupa de sânge 0 pozitiv și 0 negativ. Unele dintre fructele recomandate pentru aceste persoane sunt:
 
-•    prunele uscate  
-•    prunele proaspete  
-•    smochinele  
-•    grepfrutul  
+•    prunele uscate
+•    prunele proaspete
+•    smochinele
+•    grepfrutul
 •    majoritatea fructelor de pădure
 
 Ce fructe e bine să eviți?
@@ -120,21 +120,21 @@ Condimente și mirodenii
 
 Condimentele de care se pot bucura oamenii care țin această dietă sunt:
 
-•    condimentele pe baza de alge  
-•    sarea iodata  
-•    pătrunjelul  
-•    curry  
-•    piperul roșu (cayenne)  
-•    ciocolata  
-•    cacaua  
+•    condimentele pe baza de alge
+•    sarea iodata
+•    pătrunjelul
+•    curry
+•    piperul roșu (cayenne)
+•    ciocolata
+•    cacaua
 •    mierea
 
 Băuturi
 
 Băuturile pe care persoanele care țin această dietă au voie să le consume sunt:
 
-•    apă carbogazoasă  
-•    ceai  
+•    apă carbogazoasă
+•    ceai
 •    vin
 
 Avantajele dietelor pe grupe de sânge

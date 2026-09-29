@@ -14,7 +14,7 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-Cursul 17 
+Cursul 17
 
 Ierburile tonice (continuare)
 
@@ -210,9 +210,9 @@ Dozare: 1 linguriță de 5 până la 6 ori pe zi.
 
 Colici, flatulență
 
-112g  Mir (Commiphora myrrha, var. Molmol)
+112g Mir (Commiphora myrrha, var. Molmol)
 
-14g  nucsoara macinata (Myristica fragrans)
+14g nucsoara macinata (Myristica fragrans)
 
 14g Cayenne (Capsicum frutescens; C. minim)
 
@@ -244,11 +244,11 @@ Administrare: Aplica după cum este necesar. Pentru difterie, suflaun pic in gat
 
 Viermi
 
-25g  smirnă guma (Commiphora myrrha, var. Molmol)
+25g smirnă guma (Commiphora myrrha, var. Molmol)
 
 1/4 lingurita Cayenne (Capsicum frutescens; C. minim)
 
-14g  stafide
+14g stafide
 
 Mod de preparare: Se dizolvă plantele în 1-1/2 litri de apa fierbinte, se adauga stafidele și se pastreaza timp de trei zile.
 
@@ -304,11 +304,11 @@ Raspandire si cultivare: În România, ghințura galbenă crește în munții Ca
 
 Decoct
 
-112g  rădăcină de ghintura galbena, tăiata(Gentiana lutea)
+112g rădăcină de ghintura galbena, tăiata(Gentiana lutea)
 
 3 litri de apă
 
-112g  de glicerina
+112g de glicerina
 
 Mod de preparare: se tine rădăcina tăiata timp de 12 ore in apa neîncălzită, apoi se aduce la fierbere și se fierbe 15 minute într-un vas strâns acoperit, se scoate, se acoperă și se fierbe încet până la 3/4 litru de lichid (pana devine un concentrat); se îndepărtează de la căldură și se adaugă glicerină, se raceste, se pune in sticlă și se păstreaza într-un loc răcoros.
 
@@ -318,7 +318,7 @@ Copii:5-15 picături în apă cu miere.
 
 Infuzie
 
-28g  rădăcină de ghintura galbena, tăiata(Gentiana lutea)
+28g rădăcină de ghintura galbena, tăiata(Gentiana lutea)
 
 1-1/4 litri de apa
 
@@ -350,13 +350,13 @@ Tonic stimulent
 
 28g de rădăcină de gențiană pulbere (Gentiana lutea)
 
-56g  seminte de coriandru, zdrobite (Coriandrum sativum)
+56g seminte de coriandru, zdrobite (Coriandrum sativum)
 
-56g  coaja de portocala amara (Citrus aurantium)
+56g coaja de portocala amara (Citrus aurantium)
 
-7g  uncie scorțișoară (Cinnamomum zeylanicum)
+7g uncie scorțișoară (Cinnamomum zeylanicum)
 
-Mod de preparare: Se amestecă ingredientele de mai sus bine, apoi se infuzeaza 28g   de compus cu 1 litru de apă clocotită, timp de 10 până la 15 minute, apoi se strecoara.
+Mod de preparare: Se amestecă ingredientele de mai sus bine, apoi se infuzeaza 28g de compus cu 1 litru de apă clocotită, timp de 10 până la 15 minute, apoi se strecoara.
 
 Dozare: 2-3 linguri, de 3-4 ori pe zi.
 

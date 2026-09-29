@@ -16,7 +16,7 @@ status: "ok"
 ### Pagina 1
 
 cover next page >
- 
+
 title:
 author:
 publisher:
@@ -24,7 +24,7 @@ isbn10 | asin:
 print isbn13:
 ebook isbn13:
 language:
-subject 
+subject
 publication date:
 lcc:
 ddc:
@@ -42,13 +42,13 @@ Foreword by James A. Duke, Ph.D.
 A Medicinal Herb Guide
 Schoolhouse Road
 Pownal, Vermont 05261
- 
+
 < previous page page_i next page >
 
 ### Pagina 3
 
 cover next page >
- 
+
 title:
 author:
 publisher:
@@ -56,7 +56,7 @@ isbn10 | asin:
 print isbn13:
 ebook isbn13:
 language:
-subject 
+subject
 publication date:
 lcc:
 ddc:
@@ -93,21 +93,21 @@ connection with the use of this information. For additional information please c
 Schoolhouse Road, Pownal, Vermont 05261.
 Storey Books are available for special premium and promotional uses and for customized editions. For further
 information, please call Storey's Custom Publishing Department at 1-800-793-9396.
-Printed in the United States by R.R. Donnelley 
+Printed in the United States by R.R. Donnelley
 10 9 8 7 6 5 4 3 2 1
 Library of Congress Cataloging-in-Publication Data
 Buhner, Stephen Harrod.
 Herbal antibiotics : natural alternatives for treating drug-resistant bacteria / Stephen
 Harrod Buhner ; foreword by James A. Duke.
-p. cm.  (A medicinal herb guide)
+p. cm. (A medicinal herb guide)
 Includes bibliographical references and index.
 ISBN 1-58017-148-6 (pbk. : alk. paper)
-1. Antibacterial agents. 2. Herbs  Therapeutic use. 3. Bacterial infections 
+1. Antibacterial agents. 2. Herbs Therapeutic use. 3. Bacterial infections
 Alternative treatment. 4. Drug resistance in microorganisms. I. Title. II. Series.
 RM409.B84 1999
-616´.014dc21                                                   99-33056
-                                                                             CIP
- 
+616´.014dc21 99-33056
+ CIP
+
 < previous page page_ii next page >
 
 ### Pagina 5
@@ -115,20 +115,20 @@ RM409.B84 1999
 < previous page page_iii next page >
 Page iii
 Dedication
-Rosemary Gladstar, Susun Weed, and David Hoffmann  for
+Rosemary Gladstar, Susun Weed, and David Hoffmann for
 knowing (and living) that it is essential to risk exposing the deep-
 est weaknesses of the self for the work that we are here to do to
-come through. Matthew Wood  for having the courage to begin
+come through. Matthew Wood for having the courage to begin
 finding a unique Western herbal diagnostic system and for being
 the first to publicly say that Samuel Thompson knew what he was
-doing. Mary Shelley  for bringing the dangers of our times so
+doing. Mary Shelley for bringing the dangers of our times so
 clearly into story form and into our collective consciousness.
 Acknowledgments
 Thanks to Barbara Griggs for the Latin quotation in the Epilogue which is from the Middle Ages text, A
 Treatise on Scurvy. Thanks are also due to Paul Bergner and K. P. Khalsa for the excellence of their clinical
 work and research, and to Marc Lappé for understanding that bacterial resistance is an ecological and not an
 overuse problem.
- 
+
 < previous page page_iii next page >
 
 ### Pagina 6
@@ -154,7 +154,7 @@ Suggested Reading 110
 Selected Bibliography 110
 General References 127
 Index 128
- 
+
 < previous page page_iv next page >
 
 ### Pagina 7
@@ -180,7 +180,7 @@ of synergies that account for the effectiveness of particular herbs and herbal f
 synergies of three or four compounds in their pharmaceutical formulas.
 It is certainly easier to demonstrate how two compounds can work synergistically than it is to figure out how
 200 or 2000 different compounds (and more, as are present in all herbs) can work synergistically.
- 
+
 < previous page page_v next page >
 
 ### Pagina 8
@@ -220,7 +220,7 @@ besides all the microbes are resistant, and some even feed on it (even
 vancomycin). Here, eat these bitter herbs. And pray they will help you
 (95 percent of Americans, but only 33 percent of psychologists, are
 reported to pray)."
- 
+
 < previous page page_vi next page >
 
 ### Pagina 9
@@ -243,7 +243,7 @@ painful disease. But it was the final catalyst that caused me to abandon modern 
 the plant world. It was also the catalyst for my interest in epidemic disease and antibiotic-resistant bacteria.
 In the many years since that painful event, I have continued to deepen my knowledge and interest in such
 bacteria, and to write and speak often about them. They fascinate me. They are also the origin of a
- 
+
 < previous page page_vii next page >
 
 ### Pagina 10
@@ -258,7 +258,7 @@ the Earth. I never knew before my illness that it was a two-way street: that the
 This book explores some of the realities of antibiotic-resistant bacteria and some of the most powerful herbal
 medicines with which to treat them. In the coming years, I think many of us will need to understand both. I
 hope that for you, as it has been for me, this knowledge will be useful.
- 
+
 < previous page page_viii next page >
 
 ### Pagina 11
@@ -284,7 +284,7 @@ Dr. Gilbert took a deep and shuddering breath. "I'm sorry," she said.
 The man said nothing; for what he was contemplating, there were no words. His physician nodded sharply as if
 settling her mind. Then she turned and left him, facing once again the long hall filled with the smells of illness,
 rubbing alcohol, fear, hope, and questions for which she had no answer.
- 
+
 < previous page page_1 next page >
 
 ### Pagina 12
@@ -300,7 +300,7 @@ microbial world and wrest ant hope of safe management from us. . . . Resistance
 to antibiotics has spread to so many different, and such unanticipated types of
 bacteria, that the only fair appraisal is that we have succeeded in upsetting the
 balance if nature.
-Marc Lappé, Ph. D., Author of  When Antibiotics Fail
+Marc Lappé, Ph. D., Author of When Antibiotics Fail
 This picture, inconceivable a decade ago, is growing ever more common. Some three million people a year are
 admitted to hospitals with difficult-to-treat resistant infections, and another two million (5 percent of hospital
 patients) become infected while visiting hospitals for routine medical procedures. More and more of these
@@ -316,7 +316,7 @@ staggering possibility that a time will come when antibiotics as a mode of thera
 interest." Marc Lappé is more blunt: "The period once euphemistically called the Age of Miracle Drugs is
 dead.'' Human-kind now faces the threat of epidemic diseases more powerful, and less treatable, than any
 known before.
- 
+
 < previous page page_2 next page >
 
 ### Pagina 13
@@ -342,13 +342,13 @@ New antibiotics were being discovered daily; the arsenal of medicine seemed over
 the moment, no one heeded the few voices raising concerns. Among them, ironically enough, was Alexander
 Fleming, the discoverer of penicillin. Dr. Fleming noted as early as 1929 in the British Journal of Experimental
 Pathology that numerous bacteria were already resistant to the drug he had discovered, and by 1945 he warned
-in a New York Times  interview that improper use of penicillin would inevitably lead to the development of
+in a New York Times interview that improper use of penicillin would inevitably lead to the development of
 resistant bacteria. Fleming's observations were only too true. At the time of his interview, just 14 percent of
 Staphylococcus aureus bacteria were resistant to penicillin. By 1950, an incredible 59 percent were resistant,
 and by 1995, that figure had jumped to 95 percent. Originally limited to patients in the hospitals (the primary
 breeding ground for such bacteria), the resistant strains are now common throughout the world's population.
 And
- 
+
 < previous page page_3 next page >
 
 ### Pagina 14
@@ -371,15 +371,15 @@ thousands, if not millions, of noncombatants.
 Evolution of Antibiotic Use
 Though it is not commonly known, our ancestors had used both penicillin and tetracycline in raw form, as
 bread mold or as soil fungi, directly on wounds or even ingested to treat disease. As physician Stuart Levy
-reveals in his book The Antibiotic Paradox,  thousand-year-old Nubian mummies have been found to have
+reveals in his book The Antibiotic Paradox, thousand-year-old Nubian mummies have been found to have
 significant amounts of tetracycline in their systems. Even though several of the antibiotics we now use come
 from such naturally occurring organisms, they are usually refined into a single substance, a silver bullet, a form
 not normally present in nature. And the quantities being produced are staggering.
 In December 1942, almost the entire manufactured supply of penicillin 8 1/2 gallons (32 liters) was used to
 treat the survivors of the Coconut Grove restaurant fire. By 1949, 156 thousand pounds (70,762 kg) a year of
-penicillin and a new antibiotic, streptomycin, were being produced. By 1992, in the United States alone,  this
+penicillin and a new antibiotic, streptomycin, were being produced. By 1992, in the United States alone, this
 figure grew to an incredible 40 million pounds (18,144,000 kg) a year of
- 
+
 < previous page page_4 next page >
 
 ### Pagina 15
@@ -401,7 +401,7 @@ many other members of the ecosystem that taught us to make many of the antibioti
 faring? And how about the health of our entire ecosystem if the balance between bacteria and all other
 organisms becomes too one-sided?
 Many scientists now realize that any attempt to destroy all disease organisms along with which we inhabit this
-planet was doomed to failure from the start. There is a reason  for everything in the ecosystem. As Marc Lappé
+planet was doomed to failure from the start. There is a reason for everything in the ecosystem. As Marc Lappé
 observes, in the race to destroy disease, "an absurd pharmaceutical morality play unfolded: we became soldiers
 against implacable microscopic enemies with which we actually co-evolved. Only recently have a few
 scientists pointed out that the survival of bacteria as a group underlies our own." We cannot pick and choose
@@ -412,7 +412,7 @@ catastrophe." Stuart Levy agrees: "Antibiotic usage has stimulated evolutionary 
 recorded biologic history? Bacteria, evolving at pretty much a constant pace along with the rest of us, are now
 changing at an ever faster rate, and they are changing in ways that scientists once insisted were impossible.
 They are,
- 
+
 < previous page page_5 next page >
 
 ### Pagina 16
@@ -444,7 +444,7 @@ doctor and are given antibiotics to kill the disease organisms. However, there i
 particular disease bacterium in our bodies; there are many, a few of which are naturally immune or resistant to
 antibiotics. Generally, these few resistant bacteria are in competition with their nonresistant cousins (and all the
 other helpful bacteria) for living space in
- 
+
 < previous page page_6 next page >
 
 ### Pagina 17
@@ -474,7 +474,7 @@ flourish a pure example of Darwinian survival of the fittest. Trial and error, o
 generally bacterial generations. Here again, however, the bacteria prove to have the perfect machinery.
 Unlike humans, who produce a new generation every twenty years or so, bacteria produce a new
 generation every twenty minutes, multiplying 500,000 times faster than we do.
- 
+
 < previous page page_7 next page >
 
 ### Pagina 18
@@ -483,7 +483,7 @@ generation every twenty minutes, multiplying 500,000 times faster than we do.
 Page 8
 And not only do the bacteria, those naturally immune and those mutating, survive the antibiotics, many also
 seem to get stronger so that the diseases they cause are more severe and generate greater mortality than those
-they produced before. We have been, in fact, creating what The New York Times  is now calling bacterial
+they produced before. We have been, in fact, creating what The New York Times is now calling bacterial
 superbugs. But as incredible as this capacity for literally engineering responses to antibiotics and passing it on
 to their offspring is, bacteria do something else that makes them even more amazing and dangerous. They
 communicate intelligently with each other. It has taken scientists a long time to discover this. We were raised
@@ -505,7 +505,7 @@ antibiotic or antibiotics, or information on how to prevent the antibiotic from 
 have never been known to communicate gram-negative and gram-positive bacteria, aerobic and nonaerobic
 bacteria, for instance have seemingly learned the art. Bacteria are in fact intelligently communicating to each
 other
- 
+
 < previous page page_8 next page >
 
 ### Pagina 19
@@ -526,7 +526,7 @@ they infect other bacteria, pass on the information for resistance. Finally, bac
 their DNA, which carry resistance information. Other bacteria that encounter it ingest it, thereby learning how
 to survive antibiotics. Yet, even with all this, there is still more that they do.
 In ways no researcher understands, bacteria learn resistance to multiple antibiotics from encountering only one
-antibiotic. Medical researchers have placed bacteria into solutions containing only  tetracycline in such a way
+antibiotic. Medical researchers have placed bacteria into solutions containing only tetracycline in such a way
 that the bacteria are not killed; they live in a tetracycline-heavy environment. In short order the bacteria develop
 resistance to tetracycline, but they also develop resistance to other antibiotics that they have never encountered.
 And being isolated, they have never come into contact with resistance information from other bacteria. Levy
@@ -537,7 +537,7 @@ almost supernatural appearance of resistance in bacteria that haven't had exposu
 Levy to remark that "one begins to see bacteria, not as individual species, but as a vast array of interacting
 constituents of an integrated microbial world." Or, as former FDA commissioner Donald Kennedy remarked,
 "The evidence indicates that enteric microorganisms
- 
+
 < previous page page_9 next page >
 
 ### Pagina 20
@@ -550,11 +550,11 @@ antibiotics, they learn, and adapt, and become resistant.
 Places of Transmission
 The worst offenders of antibiotic overuse have been hospitals, and it is here that the majority of bacteria have
 learned resistance and entered the general population. Many of the bacteria have learned to be population
-specific. In hospitals, resistant bacteria such as enterococcus, Pseudomonas, Staphylococcus,  and Klebsiella
+specific. In hospitals, resistant bacteria such as enterococcus, Pseudomonas, Staphylococcus, and Klebsiella
 take advantage of surgical procedures to infect surgical wounds or the blood (bacteremia). Some, such as
 Haemophilus, Pseudomonas, Staphylococcus, Klebsiella, and Streptococcus, cause severe, often untreatable
-pneumonia (especially in elderly patients in hospitals or nursing homes). Haemophilus  and Streptococcus also
-cause serious ear infections (usually in day care centers), sometimes leading to meningitis. Pseudomonas  and
+pneumonia (especially in elderly patients in hospitals or nursing homes). Haemophilus and Streptococcus also
+cause serious ear infections (usually in day care centers), sometimes leading to meningitis. Pseudomonas and
 Klebsiella also cause serious urinary tract infections (usually in hospital patients and female nurses, who then
 spread them to the general population). Tuberculosis, long thought conquered, is increasingly resistant and is
 occurring more and more frequently in places where large numbers of people are confined for long periods of
@@ -565,7 +565,7 @@ resistance in crowded Asia and is making inroads in the United States in such un
 New York. Malaria, in fact, is becoming so serious a problem in the United States that in August 1997, the
 Atlantic Monthly featured an article on the disease as its lead cover story. But still other resistant bacteria have
 entered the human disease picture from a different and nonhuman source: huge agribusiness factory farms.
- 
+
 < previous page page_10 next page >
 
 ### Pagina 21
@@ -615,7 +615,7 @@ gram-positive bacteria are enterococcus, Mycobacterium tuberculosis,
 Staphylococcus aureus, and Streptococcus pneumoniae. The gram-
 negative bacteria are Shigella dysenteriae, Haemophilus influenzae,
 Neisseria gonorrhoeae, and Pseudomonas aeruginosa.
- 
+
 < previous page page_11 next page >
 
 ### Pagina 22
@@ -631,7 +631,7 @@ fact, half of all the antibiotics used in the United States (some 20 million pou
 to farm animals as a routine part of their diet. The antibiotics force growth (something that overcrowding
 traditionally inhibits) and reduces disease (a common problem when any life-form is overcrowded). As always,
 bacteria began to learn, and they learned fast. Three of them threaten exceptionally serious human infections: E.
-coli O157:H7 in beef, Salmonella in chicken eggs, and Campylobacter  in chickens. (And there are others, such
+coli O157:H7 in beef, Salmonella in chicken eggs, and Campylobacter in chickens. (And there are others, such
 as Cyclospora, Cryptosporidium, Listeria, and Yersinia.) According to Nicols Fox, in her exposé of the
 problem in her book Spoiled: The Dangerous Truth about a Food Chain Gone Haywire:
 The conditions under which [farm animals were] raised presented all the conditions for infection and
@@ -642,10 +642,10 @@ encourage growth as well as ward off other infections. . . . Every condition tha
 of disease from animal to human actually worsened. Farming became more intensive, slaughtering
 became more mechanical and faster, products were processed in even more massive lots, and
 distribution became wider.
-Dr. Jeffery Fisher, in his book The Plague Makers,  takes this further:
+Dr. Jeffery Fisher, in his book The Plague Makers, takes this further:
 The resistant bacteria that result from this reckless practice do not stay confined to the animals from
 which they develop. There are no
- 
+
 < previous page page_12 next page >
 
 ### Pagina 23
@@ -665,7 +665,7 @@ were just outside. Half the chickens received food containing subtherapeutic dos
 of all the chickens as well as of the farm family living nearby and farm families in the neighborhood were
 examined weekly. Within 24 to 36 hours after the chickens had eaten the first batch of antibiotic-containing
 food, the feces of the dosed chickens showed E. coliresistant bacteria. Soon the undosed chickens also showed
-E. coli resistant to tetracycline. But even more remarkable, by the end of 3 months the E. coli of all  chickens
+E. coli resistant to tetracycline. But even more remarkable, by the end of 3 months the E. coli of all chickens
 was also resistant to ampicillin, streptomycin, and sulfanamides even though they had never been fed those
 drugs. None of those drugs had been used by anyone in contact with the chickens. Still more startling: At the
 end of 5 months, the feces of the nearby farm family (who had had no contact with the chickens) contained E.
@@ -676,7 +676,7 @@ the surrounding community, taking a little over 2 years.
 What is more troubling than this, however, is that E. coli, a benign and important symbiotic bacteria found in
 the gastrointestinal tract of humans and most animals, has been teaching pathogenic bacteria how to resist
 antibiotics. Even more grim, pathogenic bacteria have been
- 
+
 < previous page page_13 next page >
 
 ### Pagina 24
@@ -691,7 +691,7 @@ with pathogenic bacteria. The massive amounts of antibiotics being used inevitab
 because E. coli are so important to our health, it was probably crucial that they did. Unfortunately, from one
 perspective, E. coli was a benign bystander that got caught up in our desire to kill off pathogenic bacteria. E.
 coli, in order to survive, chose sides, and has done so with a vengeance. Epidemiologists now feel sure that E.
-coli O157:H7 was taught its virulence by Shigella  bacteria. Fox, in Spoiled, quotes physician and researcher
+coli O157:H7 was taught its virulence by Shigella bacteria. Fox, in Spoiled, quotes physician and researcher
 Marguerite Neill who observes that "judicious reflection on the meaning of this finding suggests a larger
 significance that E. coli O157:H7 is a messenger, bringing an unwelcome message that in mankind's battle to
 conquer infectious diseases, the opposing army is being replenished with fresh replacements." And these kinds
@@ -706,14 +706,14 @@ the bacterium is to scramble hard at high temperatures, boil for nine minutes or
 is completely hard. Because of this many industry and government representatives are suggesting that all eggs
 be pasteurized prior to public consumption. Eggs would then come in liquid form in milk-carton-like
 containers. Because of the contamination Fox believes that we are nearing the end of the shell egg as a staple
- 
+
 < previous page page_14 next page >
 
 ### Pagina 25
 
 < previous page page_15 next page >
 Page 15
-food for the human species. Shigella,  a potent dysenteric bacteria, is quite common on vegetable produce, and
+food for the human species. Shigella, a potent dysenteric bacteria, is quite common on vegetable produce, and
 Campylobacter is increasingly found on poultry. As an example of the severity of the problem: In 1946 there
 were only 723 cases of Salmonella food poisoning in the United States. By 1963, there were 18,696. (By
 contrast, typhoid fever at its worst never exceeded four thousand cases a year.) By 1986, Salmonella was
@@ -723,9 +723,9 @@ patterns are occurring in all other factory farm animal diseases. Estimates from
 figures for the United Stated to be 9 thousand deaths and 33 million illnesses each year from infected food
 products. Unlike earlier food-borne diseases, these new "superbugs" can survive the low temperatures of
 refrigeration or the high temperatures of cooking. Slightly pink hamburger that is infected with E. coli can still
-cause disease; lightly hard-boiled eggs still harbor Salmonella;  mildly underdone chicken will still sicken the
+cause disease; lightly hard-boiled eggs still harbor Salmonella; mildly underdone chicken will still sicken the
 person who eats it with Campylobacter. Just as this book was being completed (December 23, 1998) Sarah Lee
-corporation had to recall $50 to $70 million of meat contaminated with Listeria  bacteria that had killed and
+corporation had to recall $50 to $70 million of meat contaminated with Listeria bacteria that had killed and
 sickened people in nine states. The problem is not uncommon.
 United States Department of Agriculture (USDA) baseline estimates in 1995 found 99 percent of all chickens to
 be contaminated with benign E. coli bacteria (a fairly easy bacterium to test for). This is significant because it
@@ -734,11 +734,11 @@ happen during processing. E. coli contamination indicates unclean butchering and
 bacteria that are not benign. Routine inspections after the fact found that from 20 to 80 percent of all chickens, 2
 to 29 percent of turkeys, and 49 percent of ground turkey and chicken was contaminated with Salmonella. Not
 only have the bacteria spread, not only have they learned antibiotic resistance, but they are increasingly
-learning how to survive environments  that formerly would have killed them (such as hot and cold
+learning how to survive environments that formerly would have killed them (such as hot and cold
 temperatures). The trend-setter is the dangerous E. coli bacteria. USA Today reports that it can now live in both
 orange juice and apple juice, two acidic media that previously killed E. coli simply from the amount of acid
 present.
- 
+
 < previous page page_15 next page >
 
 ### Pagina 26
@@ -748,12 +748,12 @@ Page 16
 Staphylococcus Aureus: The King of Resistant Bacteria
 The most alarming of resistant bacteria, in either farm or hospital, has been Staphylococcus aureus . Over the
 past decades, this particular staph species has learned resistance to one antibiotic after another. (Several
-researchers believe [and have demonstrated in vitro  to prove their point] that S. aureus  learned resistance from
+researchers believe [and have demonstrated in vitro to prove their point] that S. aureus learned resistance from
 benign E. coli in the human gut.) Not so long ago, staph was still susceptible to two antibiotics: methicillin and
 vancomycin. Inevitably, methicillin-resistant staph (MRSA) emerged. Physicians and researchers were worried
 but tried to hold the line, to stop any further adaptation by S. aureus . Given the nature of bacteria, they were
-doomed to failure; on August 2, 1998 The New York Times  reported the first four world cases of vancomycin-
-resistant staph. There are no antibiotics that can successfully treat vancomycin-resistant S. aureus.  On
+doomed to failure; on August 2, 1998 The New York Times reported the first four world cases of vancomycin-
+resistant staph. There are no antibiotics that can successfully treat vancomycin-resistant S. aureus. On
 December 28, 1998, USA Today reported that in response, physicians and hospitals in Washington, D.C., were
 being urged to severely reduce or cease their use of vancomycin. It is hoped that thereby the bacteria will
 "forget" how to resist the drug, and it can thus be saved for use to protect the nation's capital in the event of
@@ -769,7 +769,7 @@ population that can only be guessed at. What is sure, however, is that the antib
 rate of bacterial evolution is so extreme that new antibiotics (of which few are being developed) generate
 resistance in only a few years instead of the decades that it took previously. It is a frightening future. But there
 are rays of hope.
- 
+
 < previous page page_16 next page >
 
 ### Pagina 27
@@ -804,7 +804,7 @@ easily.
 4. Eat organic foods that have not been exposed to antibiotics.
 5. Use herbs as antibiotic alternatives; they do not cause resistance
 in bacteria.
- 
+
 < previous page page_17 next page >
 
 ### Pagina 28
@@ -829,7 +829,7 @@ This research has been sparked in part by a resolution passed by the World Healt
 to have adequate health care by the year 2000, sources other than Western, technological medicine would have
 to be used. The report concluded with the recommendation that traditional forms of healing and medicine be
 pursued to meet the emerging needs of a burgeoning world population.
- 
+
 < previous page page_18 next page >
 
 ### Pagina 29
@@ -865,7 +865,7 @@ thiosulfinate, propyline sulfide, 2-vinyl-4H-1, 3-tithiin, 3-vinyl-
 4H-1, 2dithiin, S-allyl cysteine sulfoxide, S-allyl mercapto,
 cysteine.
 Known active constituents of penicillin: penicillin.
- 
+
 < previous page page_19 next page >
 
 ### Pagina 30
@@ -881,13 +881,13 @@ Top 15 Antibiotic Herbs
 The following list is by no means inclusive of all the herbs that are effective for antibacterial-resistant diseases;
 there are many others. These, however, are arguably among the most powerful and effective. I arrived at this
 list by using three overlapping in criteria: length and type of use in folk medicine, beneficial outcomes in
-modern clinical practice, and results from modern scientific studies: in vitro, in vivo,  and in human trials. Thus,
+modern clinical practice, and results from modern scientific studies: in vitro, in vivo, and in human trials. Thus,
 these herbs have been found to be powerful healers throughout history, they are noted as reliable healing agents
 among modern practitioners, and rigorous scientific study has found them to possess potent activity against
 bacteria. (Information on how to make herbal preparations from these herbs can be found in chapter 4, Making
 and Using Herbal Medicines. For instance, the tincture formula for echinacea says "Make a 1:5 mixture in 60
 proof alcohol." How this and all the other processes are done is explained there.)
-The Top 15 
+The Top 15
 Antibiotic Herbs
 Acacia
 Aloe
@@ -906,7 +906,7 @@ Usnea
 Wormwood
 For ease of flow in the text, the scientific studies and references for this chapter can be found at the back of the
 book (see pages 110126).
- 
+
 < previous page page_20 next page >
 
 ### Pagina 31
@@ -929,14 +929,14 @@ About Acacia
 Acacias are quite useful for ulceration in any part of the gastrointestinal tract and for excessive mucus, catarrh,
 diarrhea, dysentery, gum infection, and hemorrhage. Though rarely used for parasitic infestation in the United
 States, they are common for that use in other cultures. One species, Acacia anthelmintica, is specific for worms
-in Abyssinia; another, A. nilotica, is specific for malaria in Nigeria; and another, A. polyacantha,  is specific for
+in Abyssinia; another, A. nilotica, is specific for malaria in Nigeria; and another, A. polyacantha, is specific for
 malaria in Tanzania. They share a common use throughout the world for amebic dysentery.
 Acacias, or mimosas as they are sometimes called, grow throughout the temperate world. The United States has
-several species, Acacia angustissima  (the only thornless acacia), A. constricts,  and A. greggii being the more
+several species, Acacia angustissima (the only thornless acacia), A. constricts, and A. greggii being the more
 common. They grow throughout the southern part of the country as far north as Kansas, from California to
 Florida. The latter two species are southwestern. Acacia, rarely used now in the United States, continues to be a
 primary medicinal plant throughout the rest of the world, especially in Asia and Africa. Researchers have noted
- 
+
 < previous page page_21 next page >
 
 ### Pagina 32
@@ -948,8 +948,8 @@ American cultures has been considered specific (like echinacea) for venomous sti
 used in much the same manner: the juice of the chewed bark is swallowed, and the chewed bark is placed as a
 poultice on the bite area. The main species used historically in Western medicine is A. catechu . It is a native of
 India, though it reportedly grows as far west as Jamaica in the Caribbean. The gums of all the acacias are used
-medicinally, one species, A. senegal,  being the source of the well-known gum arabic.
-A Note on the 
+medicinally, one species, A. senegal, being the source of the well-known gum arabic.
+A Note on the
 Use of Acacia
 Other than Michael
 Moore, Western
@@ -974,10 +974,10 @@ Use flowers and leaves as tea for gastrointestinal tract inflammation. Flower te
 Use roots to make mucilaginous tea that is antibacterial and anti-inflammatory. Helpful for soothing
 gastrointestinal tract infections (including mouth and throat), as it coats and soothes, reduces inflammation, and
 attacks microbial infection.
-Wash: Use tea of leaves, stems, and pods  to wash recent or infected wounds.
+Wash: Use tea of leaves, stems, and pods to wash recent or infected wounds.
 Use pods to make wash to treat eyes for conjunctivitis. Add five or six cleaned pods, slightly crushed, to 1 pint
 (475 ml) water, bring to boil, remove from heat, let steep until it reaches temperature of body heat.
- 
+
 < previous page page_22 next page >
 
 ### Pagina 33
@@ -994,17 +994,17 @@ from dysenteric disease. The mucilage will coat and soothe and provide antimicro
 Side Effects and Contraindications
 None.
 Alternatives to Acacia
-Mesquite (Prosopis julifera, P. pubescens),  a relative and similar-appearing plant with a much broader range in
+Mesquite (Prosopis julifera, P. pubescens), a relative and similar-appearing plant with a much broader range in
 the southwest, may be used identically: same preparation, same dosage, same results.
 Aloe (Aloe Vera and Other Species)
 Family: Liliaceae.
 Part used: Usually the fresh juice; in some instances, the dried plant for internal use.
 Collection: The fresh plant leaves at any time. The fleshy stems are cut open, and the mucilaginous, jellylike
 juice, the gel, is used directly on wounds and burns.
-Actions: External use:  antibacterial, antimicrobial, antiviral, wound healing accelerator, anti-inflammatory,
+Actions: External use: antibacterial, antimicrobial, antiviral, wound healing accelerator, anti-inflammatory,
 antiulcer. Internal use: purgative, stimulates smooth muscle contractions.
 Active against: Staphylococcus aureus, Pseudomonas aeruginosa, herpes simplex 1 and 2.
- 
+
 < previous page page_23 next page >
 
 ### Pagina 34
@@ -1013,7 +1013,7 @@ Active against: Staphylococcus aureus, Pseudomonas aeruginosa, herpes simplex 1 
 Page 24
 About Aloe
 The first clinical use of penicillin in the United States occurred with the survivors of the Coconut Grove fire in
-1942. Burn victims are notoriously prone to severe Staphylococcus aureus  infections, and before the early sulfa
+1942. Burn victims are notoriously prone to severe Staphylococcus aureus infections, and before the early sulfa
 drugs and penicillin, allopathic physicians knew little about how to prevent them. Aloe and honey are perhaps
 the two most powerful substances that can be applied externally to speed wound healing and prevent infections
 in burn victims. One especially important attribute possessed by both substances is that they are liquid. They
@@ -1022,7 +1022,7 @@ directly through the skin. At the same time they are potent anti-inflammatories 
 impossible for a staph infection to get started when either substance is used on burned skin. Clinical
 practitioners who regularly use aloe report excellent results when it is used on skin wounds of any degree of
 severity and from any source.
-A Note on 
+A Note on
 the Use of Aloe
 The dried plant was
 historically used for
@@ -1056,7 +1056,7 @@ Side Effects and Contraindications
 External Use: none.
 Internal Use: hemorrhoids (produces irritation and heat around anus when taken internally), pregnancy
 (stimulates smooth muscle contractions), active gastrointestinal tract inflammation.
- 
+
 < previous page page_24 next page >
 
 ### Pagina 35
@@ -1073,7 +1073,7 @@ Collection: Cryptolepsis is a twining and scrambling shrub that grows throughout
 primarily along the western coast; the root may be harvested at any time of year.
 Actions: Antiparasitic, antimalarial, antibacterial, antifungal.
 Active against: Malaria, Staphylococcus aureus, Shigella dysenteriae, Neisseria gonorrhea, Escherichia coli,
-Candida albicans, Campylobacter,  both gram-positive and gram-negative bacteria.
+Candida albicans, Campylobacter, both gram-positive and gram-negative bacteria.
 About Cryptolepsis
 Cryptolepsis has been used for centuries by traditional African healers in the successful treatment of malaria,
 fevers, and bloody diarrhea ( sanguinolenta means ''tinged or mixed with blood, bloody"). With the increasing
@@ -1086,7 +1086,7 @@ symptoms were relieved in 36 hours with cryptolepsis and in 48 hours with chloro
 time was 3.3 days in the patients given cryptolepsis and 2.3 days in the patients given chloroquine a remarkably
 comparable time period. Forty percent of the patients using chloroquine reported unpleasant side effects
 necessitating other medications; those using cryptolepsis reported no side effects.
- 
+
 < previous page page_25 next page >
 
 ### Pagina 36
@@ -1118,11 +1118,11 @@ after meals.
 Side Effects and Contraindications
 None noted.
 Alternatives to Cryptolepsis
-For malaria: Artemisia annua or A. absinthium, Brucea javanica  (fruit, root, or leaf), Uvaria  spp. (any species,
-rootbark, stembark, or leaf), garlic vine ( Mansoa standleyi), or the bark of Cinchona  spp. from which quinine
+For malaria: Artemisia annua or A. absinthium, Brucea javanica (fruit, root, or leaf), Uvaria spp. (any species,
+rootbark, stembark, or leaf), garlic vine ( Mansoa standleyi), or the bark of Cinchona spp. from which quinine
 was made can be used. Though malaria is resistant to quinine, it does not seem to have developed resistance to
-the more chemically complex Cinchona  plant itself.
- 
+the more chemically complex Cinchona plant itself.
+
 < previous page page_26 next page >
 
 ### Pagina 37
@@ -1132,7 +1132,7 @@ Page 27
 Echinacea (Echinacea Angustifolia, E. Purpurea)
 Family: Compositae.
 Part used: Flower or root.
-Collection: For E. angustifolia:  The root is harvested in either spring or fall. For E. purpurea:  The flower is
+Collection: For E. angustifolia: The root is harvested in either spring or fall. For E. purpurea: The flower is
 harvested after the seeds mature on the cone but while flower petals are still present. The root may also be
 used.
 Actions: Immune stimulant, anti-inflammatory, antibacterial, cell normalizer.
@@ -1151,9 +1151,9 @@ Strep throat: Direct contact with the tissue at the back of the throat with a ti
 with saliva is a certain remedy for cases of strep throat. Echinacea actively stimulates saliva and numbs the
 tissue it comes into contact with, making it perfect for this condition or for any infection causing a sore, swollen
 throat. I have found this reliably effective, again if treatment is assertive and consistent. In several cases
-(including a doubting physician), the throat had been positively cultured for Streptococcus;  healing generally
+(including a doubting physician), the throat had been positively cultured for Streptococcus; healing generally
 occurs within 24 hours.
- 
+
 < previous page page_27 next page >
 
 ### Pagina 38
@@ -1186,7 +1186,7 @@ grow, though one or two farms
 produce it in moderate quantities
 (not enough to meet demand). In
 my experience, angustifolia root
-is the herb of choice only  for
+is the herb of choice only for
 abnormal pap smear. The rest of
 the conditions for which
 echinacea is indicated can rely
@@ -1199,7 +1199,7 @@ Serious blood infections (bacteremia): Though I have not met any modern clinicia
 in this most serious of conditions, the eclectic physicians, botanical doctors that practiced in the early part of
 the twentieth century, used it for this condition, apparently with success. Its proven ability to stimulate white
 blood cell counts appears to support the use of massive doses for this condition.
- 
+
 < previous page page_28 next page >
 
 ### Pagina 39
@@ -1208,7 +1208,7 @@ blood cell counts appears to support the use of massive doses for this condition
 Page 29
 Preparation and Dosage
 Echinacea may be used as a tincture, tea, powder, poultice, or suppository. To make a tincture, use fresh
-flowerheads of E. purpurea  in 1:2 ratio with 95 percent alcohol (for E. angustifolia  dry root, use 1:5 in 70
+flowerheads of E. purpurea in 1:2 ratio with 95 percent alcohol (for E. angustifolia dry root, use 1:5 in 70
 percent alcohol).
 Internal Uses:
 Strep throat: Full dropper (30 drops) of the tincture as often as desired, not less than once each hour until
@@ -1223,7 +1223,7 @@ hour, strain, and wash wounds and venomous bites and stings liberally as often a
 Powder: Powder dried seedheads or root as fine as possible and sprinkle liberally over new or infected wounds.
 Best in combination with other herbs such as goldenseal, usnea, oak, and wormwood.
 Poultice: Mix powder with water until thick, and place it on the affected area.
-Suppository for abnormal pap smear: Powder E. angustifolia  root, mix with vegetable glycerine until the
+Suppository for abnormal pap smear: Powder E. angustifolia root, mix with vegetable glycerine until the
 consistency of cookie dough, mix with enough whole wheat flour to make it the consistency of bread dough,
 shape into suppositories, and freeze. (They will remain pliable but manageable.) Place one suppository each
 evening (just before sleep) up against the cervix, douche clean the next morning with 1/2 ounce (15 ml)
@@ -1232,7 +1232,7 @@ Repeat for 14 days.
 Side Effects and Contraindications
 Echinacea is a stimulant. Continued immune stimulation in instances of immune depletion to avoid necessary
 rest or more healthy lifestyle choices will always result in a more severe illness than if the original colds
- 
+
 < previous page page_29 next page >
 
 ### Pagina 40
@@ -1262,7 +1262,7 @@ everywhere with humankind. it is overwhelmingly established in California.
 The bark and leaves may be harvested at any time they are available. Generally, use the younger, less sickle-
 shaped leaves and the young branches. Those parts of the tree that have that distinctive eucalyptus odor to the
 strongest degree is what you are looking for.
- 
+
 < previous page page_30 next page >
 
 ### Pagina 41
@@ -1271,7 +1271,7 @@ strongest degree is what you are looking for.
 Page 31
 Actions: Antibacterial, antimalarial, antifungal, antipyretic, antiseptic, stimulates mucous secretions,
 diaphoretic.
-Active against: Malaria, Staphylococcus aureus, Shigella dysenteriae, Haemophilus influenzae,  enterobacteria,
+Active against: Malaria, Staphylococcus aureus, Shigella dysenteriae, Haemophilus influenzae, enterobacteria,
 Escherichia coli, Pseudomonas aeruginosa, Candida albicans, Klebsiella pneumoniae, Salmonella spp.,
 Helicobacter pylori. The essential oil is effective against just about every microbe.
 About Eucalyptus
@@ -1292,7 +1292,7 @@ antimalaria agent, it has
 been found specific (and
 powerful) for that
 microbial disease in
-several in vitro  studies.
+several in vitro studies.
 Historical use, both in
 indigeneous practice and
 in medicine, shows it to
@@ -1314,7 +1314,7 @@ The leaf can be prepared as tea, powder, tincture, gargle, nasal spray, steam in
 essential oil is used as an inhalant for aromatherapy.
 Tea: 1 ounce (25 g) herb in 8 ounces (237 ml) water, steep 30 minutes. Use as external wash for infected
 wounds or up to 6 times a day internally for colds, sore throat, bronchial congestion, fevers, chills.
- 
+
 < previous page page_31 next page >
 
 ### Pagina 42
@@ -1345,7 +1345,7 @@ grapefruit seed, thyme, and feverfew. A recent study reported at a meeting of th
 Microbiology noted that essential oils are extremely powerful in the treatment of pneumonia. Lead researcher
 Diane Horne noted that the essential oils of thyme, rosewood, and oregano cause pneumonia-causing antibiotic-
 resistant bacteria to simply "go to pieces."
- 
+
 < previous page page_32 next page >
 
 ### Pagina 43
@@ -1376,7 +1376,7 @@ compounds have consistently shown a broad-spectrum antibiotic range effective ag
 and gram-positive bacteria and most major infectious bacteria. Garlic juice diluted to as little as one part in
 125,000 has been found to inhibit the growth of bacteria. Clinical studies, such as one in 1984 by Singh and
 Shukla, have repeatedly shown that garlic is active
- 
+
 < previous page page_33 next page >
 
 ### Pagina 44
@@ -1384,9 +1384,9 @@ Shukla, have repeatedly shown that garlic is active
 < previous page page_34 next page >
 Page 34
 against strains of bacteria that are highly resistant to antibiotics. Unlike many herbs, garlic is directly effective
-against viruses. Garlic is perhaps the most extensively tested herb in the world; in vitro, in vivo,  and human
+against viruses. Garlic is perhaps the most extensively tested herb in the world; in vitro, in vivo, and human
 trials have shown its powerful effectiveness against bacterial and viral infectious agents.
-Controlling 
+Controlling
 Garlic Odor
 The difficulty with garlic
 is, of course, its strong
@@ -1407,13 +1407,13 @@ and kills off infection there. When used on athlete's foot and surface skin infe
 In just a few of the many trials, researchers have used garlic in both humans and animals to successfully treat
 the four strains of bacteria that cause most of the world's dysentery. Chinese physicians have found garlic
 exceptionally effective against cryptococcal meningitis and viral encephalitis. African physicians have used it
-as primary medicine successfully against amebic dysentery, toxoplasmosis, Cryptosponridium  spp., and
+as primary medicine successfully against amebic dysentery, toxoplasmosis, Cryptosponridium spp., and
 pneumocystis spp. American researchers have shown that garlic activates the immune system to help protect the
 body from infection and, when infection occurs, to stimulate the immune system to attack invading bacteria
 more effectively. Beyond these potent actions, garlic has also shown repeatable and impressive clinical results
 in the treatment of heart disease, high blood pressure, high cholesterol, cancer, stress, fatigue, and aging.
 If only one herb could be used to combat an epidemic spread of antibiotic-resistant bacteria, this would be it.
- 
+
 < previous page page_34 next page >
 
 ### Pagina 45
@@ -1423,7 +1423,7 @@ Page 35
 Preparation and Dosage
 May be taken fresh (as juice or as cloves), in capsules, as tincture, or in food.
 Fresh cloves: Eat 1 clove up to 3 times a day for prevention. The cloves may be diced and mixed with honey
-for palatabilty and to reduce nausea. During acute episodes, 3 to 9 bulbs  a day are reportedly being used by
+for palatabilty and to reduce nausea. During acute episodes, 3 to 9 bulbs a day are reportedly being used by
 some clinicians. (They report that the best way is to juice the bulbs and drink with carrot or tomato juice.
 Caution: See Side Effects and Contraindications.)
 Fresh juice: Juice the bulbs as needed; take 1/4 to 1 teaspoon (1 to 5 ml) as needed.
@@ -1443,7 +1443,7 @@ get a large quantity of garlic juice into the system. Caution must be exercised;
 small and increased only as the body shows no signs of adverse reactions. You won't die if you take too much,
 but you will want to. When you finally do vomit, it will be with exceptional vigor. A growing number of
 practitioners feel that garlic in capsule form is as effective as fresh or juiced cloves.
- 
+
 < previous page page_35 next page >
 
 ### Pagina 46
@@ -1463,7 +1463,7 @@ fall when the leaves and stem have begun to dry.
 Actions: Antibacterial, antiviral, circulatory stimulant, anti-inflammatory, diaphoretic, antispasmodic,
 antiemetic, antifungal, hypotensive, anti-clotting agent, carminative, antiarthritic, analgesic, antitussive.
 Active against: Malaria, Shigella dysenteriae, Staphylococcus aureus, Pseudomonas aeruginosa, Candida
-albicans, Escherichia coli, Klebsiella pneumoniae, Streptococcus  spp., Salmonella spp.
+albicans, Escherichia coli, Klebsiella pneumoniae, Streptococcus spp., Salmonella spp.
 About Ginger
 Ginger has a long historical tradition in warm climates as a food additive. Like many other spices used on food,
 it possesses strong antibacterial activity against several food-borne pathogens, especially three of those now
@@ -1473,7 +1473,7 @@ It has traditionally been a primary herb of choice for treating colds and flu. I
 that it is safe in large quantities and yet tastes quite good. A relatively unknown fact is that ginger's antitussive
 (anticough) action rivals that of codeine, and its strong expectorant and antihistamine actions help thin
 bronchial mucus and move it up and out of the system. This makes it a perfect herb for upper
- 
+
 < previous page page_36 next page >
 
 ### Pagina 47
@@ -1514,7 +1514,7 @@ immune systems. During acute episodes, take up to 25 capsules a day.
 Tincture: Fresh root 1:2 with 95 percent alcohol, 10 to 20 drops up to 4 times a day. Dried root (not as good)
 1:5 in 60 percent alcohol, 20 to 40 drops up to 4 times a day.
 Food: In everything and anything, often.
- 
+
 < previous page page_37 next page >
 
 ### Pagina 48
@@ -1534,7 +1534,7 @@ be harvested at any time.
 Actions: Antiseptic, antibacterial, antihemorrhagic, antifungal, antiamebic, astringent, expectorant, diaphoretic,
 mucosal anti-inflammatory, mucosal stimulant, mucosal tonic, antitumor (cytotoxic).
 Active against: Staphylococcus aureus (whole herb). A primary constituent of goldenseal, berberine, has been
-found active in vitro  against Vibrio cholerae, Streptococcus, pyogenes, Shigella  spp., Candida albicans,
+found active in vitro against Vibrio cholerae, Streptococcus, pyogenes, Shigella spp., Candida albicans,
 Escherichia coli, Klebsiella pneumoniae, Salmonella typhimurium and S. paratyphi, Corynebacterium
 diphtheriae, tuberculosis, Giardia lamblia, and Trichomonas vaginalis, among many others.
 About Goldenseal
@@ -1544,7 +1544,7 @@ and antiviral. Many others do not. All can cite impressive clinical experience. 
 been done on goldenseal, and almost no human clinical trials have been conducted. The science has generally
 focused on one constituent of goldenseal: berberine. Here, too, the controversy continues. Goldenseal has
 another major constituent: hydrastine. Some researchers consider this constituent to be
- 
+
 < previous page page_38 next page >
 
 ### Pagina 49
@@ -1577,7 +1577,7 @@ less tendency for their mucous membranes to ''dry out" when they take goldenseal
 When taken internally the herb does not appear to simulate the immune system directly but rather the healthy
 functioning of the mucous membranes of the body and, as a result, the level of active immunoglobulin A
 antibodies (IgA) in the mucus. IgA is one of the
- 
+
 < previous page page_39 next page >
 
 ### Pagina 50
@@ -1588,8 +1588,8 @@ antibodies in the human body, and it infuses the mucous membranes in order to fi
 gain a toehold there. Stimulation of the mucous membranes and the IgA antibodies then helps prevent
 infections. Effective functioning or even proper stimulation of the mucous membranes through the use of
 goldenseal has been shown in one clinical trial to combat a viral infection more effectively than pharmaceutical
-drugs. In this case it was a severe infection of the eye with Chlamydia trachomatis,  a common disease in the
-Third World. For the Chlamydia  infection, the eye drops described below were used daily for 3 weeks. For
+drugs. In this case it was a severe infection of the eye with Chlamydia trachomatis, a common disease in the
+Third World. For the Chlamydia infection, the eye drops described below were used daily for 3 weeks. For
 colds and flu, goldenseal seems most effective when used in the later stages of a cold when there is active
 infection of the mucous membranes. As a general tonic for colds and flu, it would be effective only in small
 doses if the mucosal system is not functioning properly. Otherwise it is not indicated.
@@ -1609,7 +1609,7 @@ moderation and for limited duration) in general for mucous membranes throughout 
 and help them serve their function as one of the first lines of defense against bacterial infection.
 Clinical (human) trials using berberine sulfate, a derived constituent of goldenseal, have shown dependable
 effectiveness, surpassing
- 
+
 < previous page page_40 next page >
 
 ### Pagina 51
@@ -1675,12 +1675,12 @@ Side Effects and Contraindications
 Do not use during pregnancy. Some clinicians report abdominal cramping, nervous tremors, and excessive
 drying of the mucous membranes when large doses are used.
 Alternatives to Goldenseal
-Probably the closest herb to goldenseal is goldthread, Coptis  spp. The Chinese species, Coptis chinensis,  has a
-root larger than goldenseal; the American species, Coptis trifoliata,  has a tiny threadlike root system, and it
+Probably the closest herb to goldenseal is goldthread, Coptis spp. The Chinese species, Coptis chinensis, has a
+root larger than goldenseal; the American species, Coptis trifoliata, has a tiny threadlike root system, and it
 takes a great deal of it to make sufficient medicine. However, they are used almost identically. Laboratory study
 verifies their actions against antibiotic-resistant bacteria, and their historical use indicates that they are an
-efficient substitute for goldenseal. One species in India, C. teeta,  has been traditionally used as an effective
-anti-malarial herb and it has been verified in vitro  to be active against the malarial parasite.
+efficient substitute for goldenseal. One species in India, C. teeta, has been traditionally used as an effective
+anti-malarial herb and it has been verified in vitro to be active against the malarial parasite.
 Other substitutes for specific uses include:
 Mucous membrane tonic: yerba manza (Anemopsis californica) .
 Topical infections: usnea, coptis, Oregon grape root ( Mahonia spp.), barberry (Berberis vulgaris) .
@@ -1689,7 +1689,7 @@ Vaginal douche: usnea/calendula tincture; equal parts, in 1 pint water.
 Gum infections: elephant tree (Bursera microphylla) or myrrh ( Comiphora spp.), oak bark or rhatany
 (Krameria spp.) tinctures in combination.
 Intestinal infections with diarrhea: cryptolepsis or artemisia combined with either oak bark or rhatany.
-Snuff: skunk cabbage (Lysichiton spp. or Lysichitum  spp. or Symplocarpus foetidus), Oregon grape, barberry,
+Snuff: skunk cabbage (Lysichiton spp. or Lysichitum spp. or Symplocarpus foetidus), Oregon grape, barberry,
 coptis.
 Grapefruit Seed Extract (GSE) (Citrus Paradisi)
 Family: Rutaceae.
@@ -1697,7 +1697,7 @@ Part used: Seed and fruit peel, although there is evidence that the leaves are e
 under Preparation and Dosage).
 Collection: The seed and peel from the fresh ripe fruit (see comment under Preparation and Dosage); the leaves
 at any time.
- 
+
 < previous page page_42 next page >
 
 ### Pagina 54
@@ -1707,18 +1707,18 @@ Page 43
 Actions: Antibacterial, antimicrobial, antiseptic, antiviral, antifungal, anthelmintic, antiparasitic. Of all herbs, it
 is perhaps the only true "antibiotic," the literal meaning of which is "antilife."
 Active against: GSE is active against a very large number of microorganisms. Most studies on GSE have been
-in vitro, that is, in laboratory trials, not with human beings. In vitro  activity is not always a reliable indicator of
+in vitro, that is, in laboratory trials, not with human beings. In vitro activity is not always a reliable indicator of
 in vivo action by herbal medicines. There have been few clinical trials using GSE that I have been able to find.
 However, GSE has been found to be effective in cleaning hospital equipment, swimming pools, drinking water
-supplies, and in veterinary practice. I have used it effectively in treatment of Helicobacter pylori,  the organism
+supplies, and in veterinary practice. I have used it effectively in treatment of Helicobacter pylori, the organism
 that causes stomach ulceration. A brief listing of activity (by organism and disease; generally GSE is active
 against multiple species and strains): Shigella, Staphylococcus, Pseudomonas aeruginosa, Giardia lamblia,
-Diplococcus pneumoniae, Haemophilus influenzae, Mycobactenium  spp. (causing tuberculosis), Campylobacter,
+Diplococcus pneumoniae, Haemophilus influenzae, Mycobactenium spp. (causing tuberculosis), Campylobacter,
 Candida albicans, Escherichia coli, Streptococcus, Salmonella, Klebsiella, Proteus, Cholera, Chlamydia
-trachomatis, Trichomonas vaginalis, Legionella pneumoniae, Helicobacter pylori,  herpes simplex 1, influenza
+trachomatis, Trichomonas vaginalis, Legionella pneumoniae, Helicobacter pylori, herpes simplex 1, influenza
 A2, measles, and many others, including both gram-positive and gram-negative bacteria. One study showed
 that of 794 bacterial strains and 93 fungal strains, a commercial preparation of grapefruit seed extract was
-effective against 249 Staphylococcus species and S. aureus  strains, 86 Streptococcus species, 232 enterococcus
+effective against 249 Staphylococcus species and S. aureus strains, 86 Streptococcus species, 232 enterococcus
 species, 77 Enterobacter species, 86 E. coli strains, 22 Klebsiella species, 18 Proteus species, 77 yeast fungi,
 and 22 mold fungi strains.
 About Grapefruit Seed Extract
@@ -1728,7 +1728,7 @@ wormwood. GSE also has broad-spectrum activity against yeasts, fungi, and many o
 garlic's range by a considerable margin. Furthermore, the broad activity of GSE is available from minute doses
 of the extract, whereas garlic must be taken in relatively large doses to be equivalently effective as a straight
 antibiotic.
- 
+
 < previous page page_43 next page >
 
 ### Pagina 55
@@ -1745,7 +1745,7 @@ achievable from GSE at all. One particular strength of GSE over garlic is its us
 been found to be more powerful as a cleaning disinfectant than standard hospital preparations. One study
 showed it to be 100 percent effective, versus 98 percent for commercial hospital preparations and 72 percent for
 rubbing alcohol. Perhaps the best listing of the many laboratory studies on GSE is contained in Shalila
-Sharamon and Bodo Baginski's The Healing Power of Grapefruit Seed  from Lotus Light Publishing (1996).
+Sharamon and Bodo Baginski's The Healing Power of Grapefruit Seed from Lotus Light Publishing (1996).
 Preparation and Dosage
 Use as diluted extract for internal use, as douche, as wash, as nasal spray, as water purifier when traveling in
 foreign countries or to treat water-borne infectious disease, as disinfectant for sickrooms, medical instruments,
@@ -1758,7 +1758,7 @@ Seeds only: To prepare the closest thing to the commercial preparation, use seed
 95 percent grain alcohol to moisten well without the mixture being soupy. It should look like damp sawdust.
 Let stand for 24 hours, covered. Add 70 percent vegetable glycerine and 30 percent spring or distilled water in
 a 1:3 ratio.
- 
+
 < previous page page_44 next page >
 
 ### Pagina 56
@@ -1771,10 +1771,10 @@ grapefruit seed and alcohol mixture, mix well, and let stand for 2 weeks. Decant
 any remaining moisture, and store in amber bottles out of the sun. This will produce an extract similar in taste
 and texture to a commercial preparation; however, I have been unable to determine whether it will have the
 same antibacterial activities as a commercial extract. All human dosages were developed from trial with the
-commercial extract, as were all antibacterial studies. Note:  GSE is extremely bitter. Nothing will mask its
+commercial extract, as were all antibacterial studies. Note: GSE is extremely bitter. Nothing will mask its
 bitterness except citrus fruit drinks such as orange and grapefruit juice, lemonade, and limeade. As few as 5
 drops in a 12-ounce (355 ml) glass of apple juice is unpleasantly bitter.
-Citrus Oil 
+Citrus Oil
 Antibacterial Activity
 Though it has proved
 impossible to discover the
@@ -1846,7 +1846,7 @@ Alternatives to Grapefruit Seed Extract
 Garlic. All citrus species, which have shown remarkable antibiotic activity in both traditional use and scientific
 study. The most powerful appear to be Citrus bergamia, C. limetta, C. limon, C. aurantiifolia, C. grandis, C.
 reticulata, and C. sinensis.
- 
+
 < previous page page_46 next page >
 
 ### Pagina 59
@@ -1877,7 +1877,7 @@ carbohydrates, hormones, and antimicrobial compounds. One pound of the average h
 calories (compared with white sugar at 1748 calories), 1.4 grams of protein, 23 milligrams of calcium, 73
 milligrams of phosphorus, 4.1 milligrams of iron, 1 milligram of niacin, and 16 milligrams of vitamin C, and
 vitamin A, beta carotene,
- 
+
 < previous page page_47 next page >
 
 ### Pagina 60
@@ -1893,7 +1893,7 @@ Honey as a consistent additive to food has shown remarkable results in medical t
 other 29 boys were given none. All received the same diet, exercise, and rest. All were of the same age and
 general health. After one year, the boys receiving honey showed an 81/2 percent increase in hemoglobin and an
 overall increase in vitality, energy, and general appearance over the other boys.
-Why Wildflower 
+Why Wildflower
 Honey Only?
 Wildflower honey should be
 used, not the clover or alfalfa
@@ -1922,7 +1922,7 @@ Honey is also exceptionally effective in respiratory ailments. A Bulgarian study
 honey was effective in improving chronic bronchitis, asthmatic bronchitis, bronchial asthma, chronic and
 allergic rhinitis, and sinusitis. It is effective in the treatment of colds, flu, respiratory infections, and general
 depressed immune problems.
- 
+
 < previous page page_48 next page >
 
 ### Pagina 61
@@ -1945,14 +1945,14 @@ Diluted in tea: As a preventative, take 1 tablespoon (15 ml) in tea 3 times a da
 tablespoon (15 ml) in tea 6 to 10 times a day.
 The Best Cold and Flu Tea
 2 teaspoons sage
-Juice of one lemon 
+Juice of one lemon
 (or 1 teaspoon lemon balm herb)
 Pinch cayenne pepper
 1 tablespoon (15 ml) honey
 Pour 1 cup boiling water over sage and allow to steep for 10
 minutes. Strain out herbs, add remaining ingredients, and
 drink hot.
- 
+
 < previous page page_49 next page >
 
 ### Pagina 62
@@ -1981,9 +1981,9 @@ Collection: Gather needles, bark, roots, or heartwood at any time. First-year be
 gathered after the first frost, second-year berries, which are bluish-purple, at any time. The berries are ripe
 when they turn bluish-purple.
 Actions: Antibacterial, antimicrobial, antiseptic, antifungal, carminative, anticatarrhal.
-Active against: Staphylococcus aureus, Pseudomonas aeruginosa, Shigella dysenteriae, Streptococcus  spp.,
+Active against: Staphylococcus aureus, Pseudomonas aeruginosa, Shigella dysenteriae, Streptococcus spp.,
 Escherichia coli, Candida albicans, Salmonella spp.
- 
+
 < previous page page_50 next page >
 
 ### Pagina 63
@@ -1996,7 +1996,7 @@ emotionally, and spiritually. They represent incorruptibility and have been used
 millennia. They have been used in sweat baths or saunas by nearly every culture throughout time to help
 prevent or cure illness. Their use by indigenous cultures is pervasive, and scores of scientific studies have
 supported this historical use. The essential oil of the berries is excreted in the urine and is antibacterial against
-the antibiotic-resistant bacteria that cause urinary tract infections. In vitro  studies have shown strong activity
+the antibiotic-resistant bacteria that cause urinary tract infections. In vitro studies have shown strong activity
 against antibiotic-resistant bacteria, especially Staphylococcus aureus .
 Source of Vitamin C
 One of the often overlooked
@@ -2030,7 +2030,7 @@ respiratory infections or food poisoning, take as often as desired. For shigella
 consumed. As a general preventative and stimulant to the system, drink the tea daily.
 Wash: A strong decoction of the herb has been traditionally used in many cultures to sterilize brewing
 equipment, cooking utensils, surgical instruments, hands,
- 
+
 < previous page page_51 next page >
 
 ### Pagina 64
@@ -2061,7 +2061,7 @@ plant except grapeseed in proanthocyanidin, a powerful antioxidant and potentiat
 have been implicated in scores of diseases such as cancer, Alzheimer's disease, Parkinson's disease, arthritis,
 cataracts, heart disease, and stroke. The human immune system uses antioxidants to deactivate and eliminate
 free radicals from our bodies. This antioxidant
- 
+
 < previous page page_52 next page >
 
 ### Pagina 65
@@ -2091,7 +2091,7 @@ antibacterial herb, the list of organisms against which it is specific is compre
 Generally, it is an immune system stimulant that has impressive antibacterial activity and potentiates the action
 of other herbs. One distinct advantage of licorice is its sweetness. Fifty times sweeter than sugar, licorice, when
 used in herbal combinations, helps brighten the awful taste of some herbal formulations, making them
- 
+
 < previous page page_53 next page >
 
 ### Pagina 66
@@ -2126,7 +2126,7 @@ organ and it decreases substantially in weight. Scientific studies have shown th
 generation and activity of white blood cells, stimulates interferon production in the body, and enhances
 antibody formation. Several trials have shown that it also possesses a distinct immunomodulator activity. That
 is, if the immune system is overactive, licorice calms it down; if underactive, it pumps its up.
-Licorice has shown distinct antifatigue and antistress activity, and in vivo  studies have shown strong activity
+Licorice has shown distinct antifatigue and antistress activity, and in vivo studies have shown strong activity
 against cancerous tumors and some protection from the effects of radiation. Perhaps it is best known for its
 estrogenic effects, which make it a useful herb for menopause, and its antiulcer activity, making it an herb of
 choice for both stomach and duodenal ulceration. Because it stimulates expectoration and is powerfully healing
@@ -2135,7 +2135,7 @@ The best way to use licorice is in combination with other herbs, especially for 
 Used in proper doses in moderation, licorice is one of the most powerful members of the herbal family. It may
 be used for restoring immune function or in active disease conditions. It is especially useful for any mucous
 membrane infection, cancer, radiation treatment, general fatigue, or immune suppression.
- 
+
 < previous page page_54 next page >
 
 ### Pagina 67
@@ -2165,7 +2165,7 @@ are used supports the use of the plant itself, which often contains other compou
 effects of extracted constituents.
 Alternatives to Licorice
 The American species, found wild throughout North America, though not sweet can be reliably substituted.
- 
+
 < previous page page_55 next page >
 
 ### Pagina 68
@@ -2191,11 +2191,11 @@ Furthermore, their good taste and reliable action make them especially suited fo
 Preparation and Dosage
 May be used as tea, tincture, inhalant, smoke, powder, essential oil, and food additive.
 Tea: 2 teaspoons leaf in 8 ounces (237 ml) water, steep 15 minutes. Gargle and then drink for active throat
-infections and fevers 3 to 6 times a day. For tonic use:  steep 4 ounces (113 g) in 1 quart (1 l) water overnight
+infections and fevers 3 to 6 times a day. For tonic use: steep 4 ounces (113 g) in 1 quart (1 l) water overnight
 and drink cold throughout the next day, up to 7 days.
-Tincture: Fresh herb 1:2 with 95 percent alcohol; dry herb 1:5 with 50 percent alcohol. For prevention:  10 to 30
+Tincture: Fresh herb 1:2 with 95 percent alcohol; dry herb 1:5 with 50 percent alcohol. For prevention: 10 to 30
 drops up to 3 times a day. In acute conditions: 30 to 60 drops up to 6 times a day.
- 
+
 < previous page page_56 next page >
 
 ### Pagina 69
@@ -2239,9 +2239,9 @@ growing on trees throughout the world. The whole lichen may be harvested at any 
 Actions: Antibacterial, antifungal, immune stimulant.
 Active against: Tuberculosis, Pneumonococcus spp., Staphlycoccus aureus, enterococcus, Streptococcus spp.,
 Trichomonas, Candida spp., various fungal strains. Generally active against gram-positive bacteria. Though it
-is supposedly not effective against gram-negative bacteria, one in vitro  study found usnea to be specific against
+is supposedly not effective against gram-negative bacteria, one in vitro study found usnea to be specific against
 Salmonella typhimurium, and at least one journal reports effectiveness against Escherichia coli.
- 
+
 < previous page page_57 next page >
 
 ### Pagina 70
@@ -2273,7 +2273,7 @@ decoction, was one traditional method of treating large gaping wounds in the bod
 Preparation and Dosage
 May be used externally as a tincture, wash, or powder. May be used internally as a tea, tincture, spray, or
 douche.
- 
+
 < previous page page_58 next page >
 
 ### Pagina 71
@@ -2310,7 +2310,7 @@ Though animal testing has shown that excessively large amounts of usnic acid, on
 is toxic to animals, no toxicity has been noted in human use. Usnea also readily absorbs heavy metals in
 potentially toxic amounts. This is particularly problematic in far northern latitudes. Generally, the amount of
 usnea taken internally will
- 
+
 < previous page page_59 next page >
 
 ### Pagina 72
@@ -2329,7 +2329,7 @@ and it may be harvested at any time. The root, a powerful medicine in its own ri
 it too may be harvested at any time.
 Actions: Herb: Antibacterial, antimalarial, antifungal, immunomodulator, anthelmintic, anti-inflammatory,
 diaphoretic, antihepatoxic, euphoriant, antiamoebic, antipyretic, gastric stimulant, choleretic, bitter tonic,
-smooth muscle relaxant. Root:  antibacterial, immunostimulant, diaphoretic, antipyretic.
+smooth muscle relaxant. Root: antibacterial, immunostimulant, diaphoretic, antipyretic.
 Active against: Malaria, Staphlycoccus aureus, Naegleria floweri, Pseudomonas aeruginosa, Candida albicans,
 Klebsiella pneumoniae, intestinal worms, any internal amebic organisms. The essential oil is effective against
 most microbes.
@@ -2339,8 +2339,8 @@ throat and lungs. It numbs pain from infection in the throat and bronchial tubes
 the throat and lungs. It is also highly antibacterial, being exceptionally effective topically. The leaf or above-
 ground plant is generally used for malaria, for intestinal worms, as a liver and digestive tonic, and for colds and
 flu. Water infusions of the leaf have been shown to produce 89 percent inhibition of malaria at 1 part in 35.
-Regular use as a tea as a preventative  was found to prevent acetaminophen-induced liver
- 
+Regular use as a tea as a preventative was found to prevent acetaminophen-induced liver
+
 < previous page page_60 next page >
 
 ### Pagina 73
@@ -2394,7 +2394,7 @@ component. Furthermore, extracts of Artemisia annua that contained no artemesini
 antimalarial (though at twice the dosage for artemesinin).
 Preparation and Dosage
 The above-ground plant may be used as tea, tincture, capsules, smoke, or essential oil, or in whole form.
- 
+
 < previous page page_61 next page >
 
 ### Pagina 74
@@ -2411,12 +2411,12 @@ Smoke: In sweat lodge or sauna, or as rolled cigarettes.
 Root: As tincture or in whole form.
 Tincture of dried root: 1:5 with 60 percent alcohol, use 10 to 30 drops up to 4 times a day for active infections.
 Whole root: Cut small pieces of root (1/4 inch [6 1/4 mm] long) and eat fresh as often as desired for upper
-respiratory infections. Note:  the above-ground plant is extremely bitter; the root is not.
+respiratory infections. Note: the above-ground plant is extremely bitter; the root is not.
 Essential oil: Extremely useful in the home when used in a diffuser for all airborne bacteria. It is exceptionally
 toxic if used internally.
 Side Effects and Contraindications
 Avoid large doses during pregnancy. Concentrated infusions have caused abortion in rats, though weak teas are
-considered safe. The essential oil is never  appropriate to take internally: small doses cause acute renal
+considered safe. The essential oil is never appropriate to take internally: small doses cause acute renal
 insufficiency and death. Extensive overuse of the herb over years may result in central nervous system damage
 from the high levels of thujone (a narcotic poison) in the plant.
 Caution: Some herbalists feel that the presence of thujone, and the possible nervous system damage from it, is
@@ -2427,14 +2427,14 @@ Alternatives to Wormwood
 Any artemisia species, cryptolepsis. Any artemisia can be substituted for another; however, Artemisia vulgaris,
 mugwort, is the least strong of the artemisias and will probably prove an ineffective choice for treatment of
 malaria. Dosage will vary depending on species.
- 
+
 < previous page page_62 next page >
 
 ### Pagina 75
 
 < previous page page_63 next page >
 Page 63
-HERBAL TREATMENTS FOR 12 COMMON 
+HERBAL TREATMENTS FOR 12 COMMON
 ANTIBIOTIC-RESISTANT MICROBES
 MICROBE/
 DISEASES
@@ -2490,7 +2490,7 @@ of thyme or oregano. Large spotted spurge
 (Euphorbia hypericifolia), spotted spurge (E.
 maculata), Euphorbia lathyris.
 For urinary tract infections: juniper, uva ursi
-(Arctostaphylos uva-ursi),  eucalyptus, goldenseal,
+(Arctostaphylos uva-ursi), eucalyptus, goldenseal,
 cranberry. Cassia Fistula and five other Cassia
 species have been found effective in vitro against
 Pseudomonas aeruginosa. C. Fistula is excreted in
@@ -2503,7 +2503,7 @@ Severe diarrhea
 Goldenseal, garlic, grapefruit seed extract,
 Terminalia spp., cryptolepsis, sage, oak
 (chart continued on next page)
- 
+
 < previous page page_63 next page >
 
 ### Pagina 76
@@ -2511,7 +2511,7 @@ Terminalia spp., cryptolepsis, sage, oak
 < previous page page_64 next page >
 Page 64
 (chart continued from previous page)
-HERBAL TREATMENTS FOR 12 COMMON 
+HERBAL TREATMENTS FOR 12 COMMON
 ANTIBIOTIC-RESISTANT MICROBES
 MICROBE/DISEASES
 CAUSED
@@ -2570,7 +2570,7 @@ diarrhea
 Garlic, eucalyptus, wormwood, juniper,
 goldenseal, sage, ginger, acacia, grapefruit
 seed extract, Terminalia spp., Punica spp.
- 
+
 < previous page page_64 next page >
 
 ### Pagina 77
@@ -2600,8 +2600,8 @@ Some of the spices, though only killing about 25 percent of the number of bacter
 exceptionally strong against one or two bacteria alone. Among them are rosemary, thyme, marjoram, sage, and
 lemon or lime juice. All the spices listed in the box on page 66 are noted in the University Of Chicago
 NAPRALERT database, one of the most extensive herbal data bases in the world, as showing antibacterial
-activity in in vitro, in vivo,  or human trials.
- 
+activity in in vitro, in vivo, or human trials.
+
 < previous page page_65 next page >
 
 ### Pagina 78
@@ -2623,7 +2623,7 @@ Kill 72 to 50 percent of bacteria: caraway, mint, sage, fennel,
 coriander, dill, nutmeg, basil, parsley
 Kill 48 to 25 percent of bacteria: cardamom, pepper, ginger,
 anise seed, celery seed, lemon or lime juice
- 
+
 < previous page page_66 next page >
 
 ### Pagina 79
@@ -2631,7 +2631,7 @@ anise seed, celery seed, lemon or lime juice
 < previous page page_67 next page >
 Page 67
 3
-The First Line of Defense: 
+The First Line of Defense:
 Strengthening the Immune System
 The man is not sick because he has an illness; he has an illness because he is sick.
 Chinese proverb
@@ -2647,7 +2647,7 @@ possess to help us remain healthy.
 Supporting the Elements of the Immune System
 Some of the specific components of our immune system are the thymus, spleen, lymph system, lymph nodes,
 tonsils, liver, appendix (basically a large lymph node), and bone marrow. The thymus coordinates immune
- 
+
 < previous page page_67 next page >
 
 ### Pagina 80
@@ -2680,7 +2680,7 @@ Over the past three decades there has been a great deal of exploration of just w
 maintaining overall health and vitality. This includes things that can be done to restore and revitalize a
 suppressed or damaged immune system or keep an already healthy immune system functioning well. Roughly,
 these measures fall into three categories: herbs, foods and vitamins, and lifestyle choices.
- 
+
 < previous page page_68 next page >
 
 ### Pagina 81
@@ -2714,7 +2714,7 @@ Leaves and stem: antipyretic, febrifuge, bitter, diuretic, antibacterial, antimi
 Seeds: hypnotic, diuretic, coagulant.
 Fruit (of related species): immune tonic, antibacterial, alterative.
 Active against: Staphylococcus aureus, Pseudomonas aeruginosa, Salmonella spp.
- 
+
 < previous page page_69 next page >
 
 ### Pagina 82
@@ -2729,9 +2729,9 @@ the herb gently lowers stress levels in the body, protects the body from stress-
 immune system up to optimum levels of activity. As with most immune tonics (as opposed to immune
 stimulants like echinacea), the herb works best over time. Like Siberian ginseng, it will take 6 weeks to 6
 months to get a good sense whether the herb will work for you.
-Two other Withania species are used in much the same manner: W. obtusifolia  and W. coagulans. W.
-obtusifolia has a long history of use in the Sudan, and W. coagulans  (especially the fruit) has long been used in
-Pakistan and India. W. coagulans  is so termed because it is a powerful coagulating agent and is used in place of
+Two other Withania species are used in much the same manner: W. obtusifolia and W. coagulans. W.
+obtusifolia has a long history of use in the Sudan, and W. coagulans (especially the fruit) has long been used in
+Pakistan and India. W. coagulans is so termed because it is a powerful coagulating agent and is used in place of
 rennet by Indians to make cheese.
 A Ginseng Substitute
 Similar in its effects
@@ -2745,12 +2745,12 @@ Ashwagandha is available almost exclusively through larger health food stores. P
 or double-ought capsules; taken 1 to 6 per day.
 Side Effects and Contraindications
 Used in India as an abortifacient. Not suggested for use during pregnancy. The root and leaves are considered
-narcotic, as are many members of the Solanaceae  family; the seeds are considered a hypnotic narcotic. Caution
+narcotic, as are many members of the Solanaceae family; the seeds are considered a hypnotic narcotic. Caution
 is suggested in ingesting large doses. However, the record of folk use indicates that the narcotic effects of the
-herb are not nearly as strong as those of its cousin henbane (Hyoscyamus niger)  and are slightly stronger than
+herb are not nearly as strong as those of its cousin henbane (Hyoscyamus niger) and are slightly stronger than
 those of its relative dulcamara (Solanum dulcamara) . The plant is fairly high in nicotine, so those trying to quit
 smoking may find that this herb makes that task more difficult.
- 
+
 < previous page page_70 next page >
 
 ### Pagina 83
@@ -2758,7 +2758,7 @@ smoking may find that this herb makes that task more difficult.
 < previous page page_71 next page >
 Page 71
 Alternatives to Ashwangandha
-Siberian ginseng, astragalus, ginseng (for those over 40), and two other Withania  species: W. coagulans and W.
+Siberian ginseng, astragalus, ginseng (for those over 40), and two other Withania species: W. coagulans and W.
 obtusifolia.
 Astragalus (Astragalus Membranaceus)
 Family: Leguminosae.
@@ -2780,9 +2780,9 @@ aggressiveness of their activity. Increased macrophage activity has been measure
 hours. It increases the number of stem cells (the 'generic' cells that can become any type needed) in the marrow
 and lymph tissue, stimulates their maturation into active immune cells, increases spleen activity, increases
 releases of antibodies, and boosts the production of hormonal messenger molecules that signal for virus
-destruction." And as Rob McCaleb noted in HerbalGram  21 (summer 1988) researchers at the University of
+destruction." And as Rob McCaleb noted in HerbalGram 21 (summer 1988) researchers at the University of
 Texas Medical Center
- 
+
 < previous page page_71 next page >
 
 ### Pagina 84
@@ -2821,7 +2821,7 @@ price charged by herbal
 marketers.
 Alterantives to Astragalus
 Ashwagandha, Siberian ginseng, shiitake mushroom.
- 
+
 < previous page page_72 next page >
 
 ### Pagina 85
@@ -2829,7 +2829,7 @@ Ashwagandha, Siberian ginseng, shiitake mushroom.
 < previous page page_73 next page >
 Page 73
 Astragalus Broth
-Robyn Landis's and K.P Khalsa's recipe in  Herbal Defense
+Robyn Landis's and K.P Khalsa's recipe in Herbal Defense
 was the original inspiration for this powerful recipe .
 3 cups (750 ml) water or vegetable broth
 1/2 cup (or to taste) vegebroth powder*
@@ -2854,7 +2854,7 @@ astragalus, add water to bring back up to 4 cups (1 l), add rice,
 and bring to a boil. Reduce heat and simmer until done,
 approximately 1 hour. Use this rice as you would any rice, as a
 base for meals throughout the week.
- 
+
 < previous page page_73 next page >
 
 ### Pagina 86
@@ -2870,7 +2870,7 @@ upside down in a shaded place, and allowed to thoroughly air-dry.
 Actions: Immunostimulant (increases phagocytosis to four times that of echinacea), diaphoretic, febrifuge,
 mucous membrane tonic, smooth muscle relaxant, anti-inflammatory, cytotoxic, mild emetic, peripheral
 circulatory stimulant, gastric bitter.
-Active against: Although many of the Eupatoriums  have been found active against Staphlycoccus aureus  and
+Active against: Although many of the Eupatoriums have been found active against Staphlycoccus aureus and
 Pseudomonas aeruginosa, boneset has not. Traditionally used for dengue fever, malaria, pneumonia, colds, and
 flu, it has not, to my knowledge, been tested against malaria or dengue fever organisms. Empirically, its
 strength seems to be for pain relief and as an immunostimulant, a tonic for the mucous membrane systems, and
@@ -2887,7 +2887,7 @@ allay those conditions, especially bone pain it settles pain in the bones. Pain 
 ague-like condition is in fact the specific indication for the use of boneset. Dengue fever, a virus transmitted by
 a mosquito (one of the "new" old epidemics now making inroads from Mexico into the southern United States),
 is in fact attended by intense pain in the joints and bones, head, eyes, and muscles.
- 
+
 < previous page page_74 next page >
 
 ### Pagina 87
@@ -2897,7 +2897,7 @@ Page 75
 Additionally, there are chills and fever, sore throat, catarrh, and cutaneous eruption. The name boneset attained
 popularity about 1800 from a particularly virulent flu that swept the East Coast and was attended by intense
 bone pain. The herbalist Matthew Wood found a specific reference from the early nineteenth-century physician
-C. J. Hemple, who noted that Eupatorium perfoliatum  "so singally relieved the disease . . . that it was familiarly
+C. J. Hemple, who noted that Eupatorium perfoliatum "so singally relieved the disease . . . that it was familiarly
 called bone-set." Part of the reason why the name boneset might have been adopted in that region at that time is
 that the Native Americans who used boneset for broken bones were northeastern Indians, and the severe,
 painful, bone flus that swept the country in 1800 also were confined to the northeast.
@@ -2930,7 +2930,7 @@ The plant, indigenous to North America, was extensively used by native peoples f
 of years specifically for intermittent fevers and chills, with pain in the bones, weakness, and debility.
 Interestingly, all Eupatorium species are used alike throughout the world. Other species, though also used for
 colds and flus, tend to be primarily used for urinary tract and uric acid problems (like Joe Pye weed, gravel
-root). Interesting also is the traditional use of boneset (and many of the Eupatorium  species) for snakebite as an
+root). Interesting also is the traditional use of boneset (and many of the Eupatorium species) for snakebite as an
 antivenin throughout the world. Echinacea is also used in this manner, and like echinacea, boneset stimulates
 phagocytosis: the number and aggressiveness of white blood cells in the blood.
 Clinical trials have shown that boneset stimulates phagocytosis better than echinacea, is analgesic (at least as
@@ -2938,7 +2938,7 @@ effective, as aspirin), and reduces cold and flu symptoms. In mice it has shown 
 and cytotoxic action against cancer cells.
 Increasing numbers of practicing herbalists report that boneset is a reliable and effective immunostimulant,
 especially in infections that just
- 
+
 < previous page page_75 next page >
 
 ### Pagina 88
@@ -2951,7 +2951,7 @@ be much better than echinacea for upper respiratory infections that have progres
 Preparation and Dosage
 Boneset may be taken as tea or tincture.
 Tea: Cold: 1 ounce (25 g) of herb in 1 quart (1 l) boiling water, let steep overnight, strain and drink throughout
-day. The cold infusion is for the mucous membrane system and is a liver tonic. Hot:  1 teaspoon herb in 8
+day. The cold infusion is for the mucous membrane system and is a liver tonic. Hot: 1 teaspoon herb in 8
 ounces (237 ml) hot water, steep 15 minutes. Take 4 to 6 ounces (118 to 177 ml) up to 4 times per day. Note:
 boneset is only a diaphoretic when hot and should be consumed hot for active infections, chills, and fevers.
 Tincture: Use fresh herb in flower 1:2 with 95 percent alcohol, use 20 to 40 drops up to 3 times day in hot
@@ -2962,12 +2962,12 @@ use 10 drops of tincture in hot water 4 times a day.
 Side Effects and Contraindications
 The hot infusion in quantity can cause vomiting; otherwise, there are no side effects. It has been reported that
 the fresh plant contains trematol, which causes "milk-sickness" in cows and in people who drink infected milk.
-My research shows that trematol is confined to Eupatorium rugosum,  white snakeroot, and does not occur in
+My research shows that trematol is confined to Eupatorium rugosum, white snakeroot, and does not occur in
 boneset. A significant number of clinicians feel that as a tincture, fresh boneset is best, and that the dried herb
 should be used for tea.
 Alternatives to Boneset
 Echinacea, licorice.
- 
+
 < previous page page_76 next page >
 
 ### Pagina 89
@@ -2983,7 +2983,7 @@ root is extremely tough when it dries. It should be cut into small 1- or 2-inch 
 fresh.
 Actions: First and foremost a lymph system stimulant, anti-inflammatory, and tonic. It is also astringent, a
 mucous membrane tonic, alterative, antiseptic, expectorant, antispasmodic, and a blood coagulant.
-Active against: I have been unable to find any studies testing Ceanothus  against specific disease organisms.
+Active against: I have been unable to find any studies testing Ceanothus against specific disease organisms.
 However, the historical record shows a long history of use for stubborn or fetid ulceration of the skin and
 mucous membranes, strep throat, general throat and upper respiratory infections, malaria, and diphtheria. Like
 oak (which has been found effective against numerous disease organisms), it is strongly astringent. There is
@@ -3001,7 +3001,7 @@ cells.
 I have found that the action of echinacea increases dramatically when it is combined with red root or with red
 root and licorice. Historically, red root has also been considered specific for liver inflammation and congestion,
 and it may be of benefit in those conditions.
- 
+
 < previous page page_77 next page >
 
 ### Pagina 90
@@ -3017,7 +3017,7 @@ Strong decoction: 1 ounce (25 g) herb in 16 ounces (473 ml) water, simmer slowly
 tablespoon (15 ml) 3 or 4 times per day.
 Gargle: In tonsillitis or throat inflammations, gargle with strong tea 4 to 6 times per day.
 Capsules: 10 to 30 double-ought capsules per day.
-Identifying Red 
+Identifying Red
 Root in the Wild
 Red root can be a low-lying
 shrub or a tallish bush. The
@@ -3038,10 +3038,10 @@ Side Effects and Contraindications
 No side effects have ever been noted. However, Michael Moore suggests caution by people using blood
 coagulants and advises against the use of large doses in pregnancy, because of its astringent action.
 Alternatives to Red Root
-Any red root species. One species, Ceanothus thrysiflorus  (California lilac), has historically been successful in
+Any red root species. One species, Ceanothus thrysiflorus (California lilac), has historically been successful in
 the treatment of malignant diphtheria. Other alternatives: cleavers, which is much milder (a food herb), poke
 root, which is much stronger (a drug herb) and should be used with care.
- 
+
 < previous page page_78 next page >
 
 ### Pagina 91
@@ -3070,7 +3070,7 @@ do have several limitations on their use. Siberian ginseng, in my experience, pr
 longer you use it, the better it works. It tends to kick in after 6 weeks or so, and the most significant results can
 be seen after 6 months of use. This is especially true in people with pale unhealthy skin, lassitude, and
 depression.
- 
+
 < previous page page_79 next page >
 
 ### Pagina 92
@@ -3133,7 +3133,7 @@ especially if ginseng is combined with other hypertensives such as licorice. Wit
 insomnia.
 Alternatives to Siberian Ginseng
 Ashwagandha, astragalus, shiitake; for men over 40, Asian or American ginseng.
- 
+
 < previous page page_80 next page >
 
 ### Pagina 94
@@ -3167,7 +3167,7 @@ taken at least twice daily to keep it present in the body at necessary levels. A
 flatulence and diarrhea, though the amount that produces this effect varies for each person. To find your dose
 level of vitamin C, take it in increasing amounts until the stools become soft, then reduce the amount slightly
 until they become
- 
+
 < previous page page_81 next page >
 
 ### Pagina 95
@@ -3244,7 +3244,7 @@ grated
 1 1/2 cups salted vegebroth powder*
 (or vegetable soup stock, if desired)
 5 pieces sliced dried astragalus root
-2 cups fresh, sliced shiitake mushrooms 
+2 cups fresh, sliced shiitake mushrooms
 (or 1 cup dried)
 1 large reishi mushroom
 Cayenne powder, if desired
@@ -3258,7 +3258,7 @@ hours.
 5. Add salt and pepper to taste, and cayenne powder if desired
 (just enough so that it just brings out a light sweat).
 *Available from Trinity Herb see Resources
- 
+
 < previous page page_83 next page >
 
 ### Pagina 98
@@ -3283,7 +3283,7 @@ works the lymph system), touching and massage (there is a direct correlation bet
 immune health; additionally, massage stimulates lymph system functioning), positive thinking (if life is more
 fun to live, there is less unconscious desire to become ill), and diet (reducing commercial factory-farmed meats,
 increasing organic meats, and eating plants that have known effects on overall health).
- 
+
 < previous page page_84 next page >
 
 ### Pagina 99
@@ -3308,14 +3308,14 @@ The Teachings of the Cherokee Nation
 Making Infusions
 An infusion is made by immersing an herb in either cold or hot, not boiling, water for an extended time.
 (Basically, a tea is a weak
- 
+
 < previous page page_85 next page >
 
 ### Pagina 100
 
 < previous page page_86 next page >
 Page 86
-infusion.) The water you use should be the purest you can find, not  tap water. Rainwater, distilled water, or
+infusion.) The water you use should be the purest you can find, not tap water. Rainwater, distilled water, or
 water from healthy wells or springs is best. Infusions should be kept only a maximum of 3 days if refrigerated,
 1 or 2 days if not refrigerated.
 Proportions and Steeping Time
@@ -3341,7 +3341,7 @@ Tincture
 Oil
 Essential Oil
 Whole Plant
- 
+
 < previous page page_86 next page >
 
 ### Pagina 101
@@ -3370,7 +3370,7 @@ Making Decoctions
 Decoctions, prepared with boiling, can be much more potent than infusions and are generally prepared for use
 as compresses, enemas, and syrups. Like infusions, decoctions should be kept only for a maximum of 3 days if
 refrigerated, 1 or 2 days if not refrigerated.
- 
+
 < previous page page_87 next page >
 
 ### Pagina 102
@@ -3403,7 +3403,7 @@ taste. Let cool; add juice of 1 lemon and a pinch of cayenne.
 To Use: Take 1 tablespoon (15 ml) (cold) to 1 cup (250 ml)
 (hot) as often as needed for the beginning of throat or upper
 respiratory infections.
- 
+
 < previous page page_88 next page >
 
 ### Pagina 103
@@ -3433,7 +3433,7 @@ lungs.
 3. Return to heat and bring herbs to a boil again to repeat as
 often as necessary. Add fresh herbs when their strong smell
 begins to noticeably diminish.
- 
+
 < previous page page_89 next page >
 
 ### Pagina 104
@@ -3465,14 +3465,14 @@ Plants as they dry lose their natural moisture content. Some plants, like myrrh 
 others, like mint, contain a great deal. When making a tincture of a dried plant you add back the amount of
 water that was present in the plant when it was fresh. Many books list the amount of water that should be added
 back. One good one, and the
- 
+
 < previous page page_90 next page >
 
 ### Pagina 105
 
 < previous page page_91 next page >
 Page 91
-one I use, is Michael Moore's Herbal Materia Medica  listed in the Resources. Generally dried plants are
+one I use, is Michael Moore's Herbal Materia Medica listed in the Resources. Generally dried plants are
 tinctured at a 5:1 ratio, that is, five parts liquid to one part dried herb. For example, echinacea root contains 30
 percent water by weight. If you have 10 ounces (284 g) of powdered echinacea root you would add to it 50
 ounces (1479 ml) of liquid (1:5), of which 35 ounces (1035 ml) is 95 percent alcohol and 15 ounces (444 ml) is
@@ -3494,7 +3494,7 @@ Nasal sprays are excellent for helping with the onset of upper respiratory or si
 herbal tincture and place up to 10 drops or so in a nasal spray bottle (available from pharmacies). Add pure
 water and spray up nostrils as often as needed. Two drops each of the essential oils of eucalyptus, juniper, sage,
 and rosemary may be substituted for the tinctures.
- 
+
 < previous page page_91 next page >
 
 ### Pagina 106
@@ -3516,14 +3516,14 @@ Oil infusions are exceptionally useful for burns, sunburn, chapped and dry skin,
 and for use on wounds as salves. The medicinal properties of the plant are transferred to an oil base. For a
 salve, the oil is made thick and moderately hard by adding beeswax.
 Using Dried Herbs
-To make an oil infusion of dried  herbs, take the herbs you wish to use and grind them into as fine a powder as
+To make an oil infusion of dried herbs, take the herbs you wish to use and grind them into as fine a powder as
 possible. Place the herbs in a glass baking dish and cover with oil. Olive oil is a good choice because it is the
 one oil that will not go rancid; it is strongly antimicrobial. Stir the herbs to make sure they are well saturated
 with oil, then add just enough oil to cover them by 1/2 to 1/4 inch (13 to 6 1/4 mm). You may leave them in the
 sun for 2 weeks or bake them in the oven on the lowest heat your oven allows for 8 hours or overnight. Some
 herbalists prefer to simmer the herbs and oil for as many as 10 days at 100°F (38°C) in a slow cooker. When
 the preparation is ready, strain the oil out of the herbs by pressing in a strong cloth with a tight weave.
- 
+
 < previous page page_92 next page >
 
 ### Pagina 107
@@ -3558,7 +3558,7 @@ Crock-Pot for 7 days.
 Press the oily herb mixture through a cloth to extract the oil.
 6. Store the oil in a sealed glass container out of the sun. It
 does not need to be refrigerated.
- 
+
 < previous page page_93 next page >
 
 ### Pagina 108
@@ -3593,7 +3593,7 @@ essential oil, and stir well.
 5. While mixture is still liquid, pour into salve containers and
 label. Note: Make sure your containers are made to withstand
 hot liquids before using them.
- 
+
 < previous page page_94 next page >
 
 ### Pagina 109
@@ -3623,7 +3623,7 @@ red root, and licorice tincture for upper respiratory infections.
 Powders and Capsules
 Capsules are good for getting a large quantity of herb in whole form into the body. The herb must be powdered
 as finely as possible and then
- 
+
 < previous page page_95 next page >
 
 ### Pagina 110
@@ -3657,7 +3657,7 @@ needed.
 This same formula can be sprinkled onto feet or into shoes and
 socks for athlete's foot fungal infections. It may also be used
 on babies for diaper rash.
- 
+
 < previous page page_96 next page >
 
 ### Pagina 111
@@ -3696,7 +3696,7 @@ prepared. Distilling plant essences was a part of this herbal knowledge for many
 its birth in rudimentary form in Europe at that time. Most people buy their essential oils, but I have met a few
 wise women who are reclaiming this long-lost tradition and are distilling their own essences from the plants
 that grow in the fields and valleys near their homes. Most of us, however, buy them ready-made.
- 
+
 < previous page page_97 next page >
 
 ### Pagina 112
@@ -3730,7 +3730,7 @@ too bitter for anything else.
 acacia tinctures. Take 1 teaspoon (5 ml) of the tincture 3 times
 a day for 15 days.
 5. Take 1 tablespoon (15 ml) honey 6 times a day for 30 days.
- 
+
 < previous page page_98 next page >
 
 ### Pagina 113
@@ -3759,7 +3759,7 @@ Combine all essential oils in a glass bottle. Add 10 to 12 drops
 of the essential oil blend to 1 ounce (30 ml) distilled water,
 and shake well.
 To Use: Add oil blend to a diffuser.
- 
+
 < previous page page_99 next page >
 
 ### Pagina 114
@@ -3786,7 +3786,7 @@ Babies and children who lie on their backs when drinking from a bottle tend to h
 ear infections (the milk sometimes runs into the ear canal). It is much better to hold them in your arms with
 their heads higher than their body or, if they can sit, to drink sitting up.
 Dairy products in the diet contribute significantly to the incidence of ear infections.
- 
+
 < previous page page_100 next page >
 
 ### Pagina 115
@@ -3833,7 +3833,7 @@ herbal tinctures, honeys, or glycerites; and using herbal steams.
 Children are most susceptible to ear infections from antibiotic-resistant strains of Haemophilus influenzae,
 Staphylococcus aureus, Streptococcus pneumoniae, and Branhamella catarrhalis . The above treatment plan has
 been found highly effective for treating such infections.
- 
+
 < previous page page_101 next page >
 
 ### Pagina 116
@@ -3866,7 +3866,7 @@ To Use: Give 1 full dropper (30 drops) of the tincture each
 hour per 150 pounds (68 kg) of body weight until symptoms
 cease. Best administered in juice. (See page 103 for children's
 dosages.)
- 
+
 < previous page page_102 next page >
 
 ### Pagina 117
@@ -3905,7 +3905,7 @@ divided by 24, or 1/3 the adult dose.
 Young's Rule: The child's age divided by (12 + age of child). For
 a 3-year-old, it would be 3 divided by (12 + 3), or 15, for a dose
 of 1/5 the adult dose.
- 
+
 < previous page page_103 next page >
 
 ### Pagina 118
@@ -3932,13 +3932,13 @@ Easing Fever and Diarrhea
 Children are susceptible to diarrheal infections from the fearsome E. coli O157:H7 and antibiotic-resistant
 strains of Shigella dyseneriae . When they get extremely ill with these bacteria they may also experience high
 fever.
-The best herb for lowering seriously high fevers is coral root (Corallorhiza maculata),  either as a tea or as a
+The best herb for lowering seriously high fevers is coral root (Corallorhiza maculata), either as a tea or as a
 tincture: 1 teaspoon of the root steeped in 8 ounces (236 ml) water for 30 minutes and drunk, or up to 30 drops
 tincture for a child of 60 pounds (27 kg). Brigitte Mars's Herb Tea on the previous page, with the addition of 1
 ounce (30 ml) catnip, is also exceptionally effective in lowering fevers. Finally, bathing the child with
 washcloths soaked in cool water is highly effective.
 For diarrhea, a tea and tincture combination is usually effective.
- 
+
 < previous page page_104 next page >
 
 ### Pagina 119
@@ -3966,7 +3966,7 @@ kg) of body weight every 1 to 2 hours in water or orange juice
 until symptoms cease. If symptoms persist longer than 48
 hours, see a physician. The severe E. coli O157:H7 bacteria is
 quite dangerous, especially to children.
- 
+
 < previous page page_105 next page >
 
 ### Pagina 120
@@ -3990,7 +3990,7 @@ our species. As Vaclav Havel so eloquently put it, there are powers in the Unive
 not to blaspheme. Perhaps it is fitting that the lowly bacteria will be the one to teach us humility.break
 Chymia egregia ancilla medicinae; non alia pejor domina.
 (Chemistry makes an excellent handmaid but the worst possible mistress.)
- 
+
 < previous page page_106 next page >
 
 ### Pagina 121
@@ -4005,7 +4005,7 @@ Acute: An illness that comes on quickly, has severe symptoms, and a generally sh
 colds. The opposite of chronic.
 Allopathic: Conventional modern medicine. Originally only one of eight or so schools of medicine in the
 United States. By 1930, through a brilliant blend of legislative action, money generation through advertising in
-the Journal of the American Medical Association,  control over the licensing of medical schools, and deceptive
+the Journal of the American Medical Association, control over the licensing of medical schools, and deceptive
 conciliation of other medical organizations, the allopaths gained complete control over American medicine.
 Prices and quality of health care suffered accordingly.
 Alterative: Term not used in allopathic (or conventional) medicine that means a plant or procedure that
@@ -4042,7 +4042,7 @@ Antipyretic: Substance that reduces fever.
 Antirheumatic: Substance that eases, prevents, or reduces rheumatic symptoms.
 Antiscorbutic: Substance that prevents scurvy, usually one that contains vitamin C.
 Antiseptic: Substance that prevents putrefaction, the decay of cells, and infection.
- 
+
 < previous page page_107 next page >
 
 ### Pagina 123
@@ -4098,7 +4098,7 @@ Dysmenorrhea: Painful menstruation.
 Dyspepsia: Poor digestion, often with heart-burn and stomach acid reflux.
 E
 Eczema: Chronic skin inflammation.
- 
+
 < previous page page_108 next page >
 
 ### Pagina 125
@@ -4171,7 +4171,7 @@ W
 Weed: Derogatory term for a plant, similar to a racial epithet.
 Wort: From the old English wyrt, meaning a root or plant. In herbalism, an herb, usually used as a combined
 term, e.g., St. John's wort, liverwort.
- 
+
 < previous page page_109 next page >
 
 ### Pagina 127
@@ -4186,28 +4186,28 @@ Blessed Herbs, 109 Barre Plains Road, Oakham, MA 01068 (800) 489-4372, (508) 882
 Trinity Herbs, P.O. Box 1001, Graton, CA 95444 (707) 824-2040, Fax (707) 824-2050
 Horizon Seeds, P.O. Box 69, Williams, OR 97544 (541) 846-6704
 Vitamin C
-Wholesale Nutrition, P.O. Box 3345, Saratoga, CA 95070 (800) 325-2664, (408) 871-9519, 
+Wholesale Nutrition, P.O. Box 3345, Saratoga, CA 95070 (800) 325-2664, (408) 871-9519,
 www.nutri.com
 Suggested Reading
 Duke, James A. The Green Pharmacy, Emmaus, PA: Rodale, 1998.
 Fox, Nicols. Spoiled. New York: Basic Books, 1998. (The best overview of the rise of resistant bacteria in our
 food supply.)
-Green, James. The Herbal Medicine Maker's Handbook.  Forestville, CA: Wildlife and Green Publications,
+Green, James. The Herbal Medicine Maker's Handbook. Forestville, CA: Wildlife and Green Publications,
 1990.
-Green, Mindy, and Kathi Keville. Aromatherapy: A Complete Guide to the Healing Art.  Watsonville, CA:
+Green, Mindy, and Kathi Keville. Aromatherapy: A Complete Guide to the Healing Art. Watsonville, CA:
 Crossing Press, 1995.
 Griggs, Barbara. Green Pharmacy. Rochester, VT: Healing Arts Press, 1997.
-Hoffmann, David. The New Holistic Herbal.  Rockport, MA: Element, 1992.
+Hoffmann, David. The New Holistic Herbal. Rockport, MA: Element, 1992.
 Lappé, Marc. When Antibiotics Fail. Berkeley, CA: North Atlantic Books, 1986. (The best overview of the
 subject and the only one that puts it in its proper ecological perspective.)
-Levy, Stuart. The Antibiotic Paradox.  New York: Plenum, 1992.
+Levy, Stuart. The Antibiotic Paradox. New York: Plenum, 1992.
 Preston, Richard. The Hot Zone. New York: Random House, 1997.
 Selected Bibliography
 Antibiotic-Resistant Bacteria and Disease
 "Across the USA." USA Today, December 28, 1998, page 8A. Listing for Washington, D.C.
 American Association for the Advancement of Science, Science . August 21, 1992. (Entire volume focuses on
 antibiotic-resistant bacteria.)
- 
+
 < previous page page_110 next page >
 
 ### Pagina 128
@@ -4216,11 +4216,11 @@ antibiotic-resistant bacteria.)
 Page 111
 Bayles, Fred. "CDC System Allows Officials to Track Dangerous Bacteria." USA Today, September 16, 1998,
 page 11A.
-Begley, Sharon. "The End of Antibiotics." Newsweek,  March 28, 1994.
+Begley, Sharon. "The End of Antibiotics." Newsweek, March 28, 1994.
 Billing, Jennifer, and Paul Sherman. "Antimicrobrial Functions of Spices: Why Some Like It Hot." The
 Quarterly Review of Biology , March 1998.
-Business Bulletin. "Disease Strikes the Pumpkin Patch." Wall Street Journal,  September 24, 1998, page A1.
-Bryan, L. E. Bacterial Resistance and Susceptibility to Chemotherapeutic Agents.  Cambridge: Cambridge
+Business Bulletin. "Disease Strikes the Pumpkin Patch." Wall Street Journal, September 24, 1998, page A1.
+Bryan, L. E. Bacterial Resistance and Susceptibility to Chemotherapeutic Agents. Cambridge: Cambridge
 University Press, 1982.
 Center for Science in the Public Interest, Protecting the Crown Jewels of Medicine: A Strategic Plan to
 Preserve the Effectiveness of Antibiotics . Washington, D.C.: Center for Science in the Public Interest, 1998.
@@ -4229,26 +4229,26 @@ Chase, Marilyn. "A Recent Batch of Food Poisonings Puts Public on Alert." Wall S
 Editorial. "Antibiotic Overkill Boosts Risks." USA Today, September 17, 1998, page 14A.
 Fackelmann, Kathleen. "Eradication Efforts Fail to Stop STDs in Cities." USA Today, December 7, 1998, page
 D1.
-Fisher, Jeffery. "Epidemics: The New Age of Disease." Nutrition Science News,  August 1995.
+Fisher, Jeffery. "Epidemics: The New Age of Disease." Nutrition Science News, August 1995.
 . The Plague Makers. New York: Simon and Schuster, 1994.
-Fox, Nicols. Spoiled: The Dangerous Truth about a Food Chain Gone Haywire.  New York: Basic Books, 1998.
+Fox, Nicols. Spoiled: The Dangerous Truth about a Food Chain Gone Haywire. New York: Basic Books, 1998.
 Hospital Infection Control Practices Advisory Board. "Recommendations for Preventing the Spread of
 Vancomycin Resistance." Infection Control and Hospital Epidemiology. February 1995, pages 105113.
 Jarvis, William. "Preventing the Emergence of Multidrug-Resistant Microorganisms through Antimicrobial Use
-Controls: The Complexity of the Problem." Infection Control and Hospital Epidemiology.  August 1996, pages
+Controls: The Complexity of the Problem." Infection Control and Hospital Epidemiology. August 1996, pages
 490495.
 Lappé Marc. When Antibiotics Fail. Berkeley, CA: North Atlantic Books, 1986.
-Levy, Stuart. The Antibiotic Paradox.  New York: Plenum, 1992.
+Levy, Stuart. The Antibiotic Paradox. New York: Plenum, 1992.
 Lifeline. "On the Anti-TB Front." USA Today, June 24, 1998, page D1.
 Manasse, Henri. "Antibiotic Resistant Bacteria and How to Deal with Them" (Letter to the Editor). USA Today,
 September 28, 1998, page 16A.
 Manning, Anita. "'Antibacterial' Soaps May Create New Problems." USA Today, September 22, 1998, page 6D.
 . "Cuban Doctor Imprisoned for Warning of a Dengue Fever Outbreak." USA Today, July 16, 1998.
 . "Vaccines Urged in Wake of Outbreak of Pneumonia." USA Today, June 25, 1998, page D1.
-Mitsuhashi, S. Drug Action and Drug Resistance in Bacteria.  Tokyo: University of Tokyo Press, 1971.
+Mitsuhashi, S. Drug Action and Drug Resistance in Bacteria. Tokyo: University of Tokyo Press, 1971.
 Nationline Column. "Bacteria Outbreak." USA Today, September 24, 1998, page 3A.
 O'Donnell, Jayne. "Estimates of E.coli Cases Double." USA Today, December 7, 1998, page 1A.
-Panlilio, Adelisa, et al. "Methicillin-Resistant Staphylococcus aureus  in U.S. Hospitals; 19751991." Infection
+Panlilio, Adelisa, et al. "Methicillin-Resistant Staphylococcus aureus in U.S. Hospitals; 19751991." Infection
 Control and Hospital Epidemiology, October 1992, pages 582586.
 
 ### Pagina 129
@@ -4263,7 +4263,7 @@ Preston, Richard. The Hot Zone. New York: Random House, 1997.
 Public Citizen. "Sausage Laws." The Inlander , July 8, 1998, page 4.
 Rubin, Rita. "Unpasteurized Orange Juice is E. coli Culprit." USA Today, November 4, 1998, page D1.
 Shell, Ellen Ruppel. "Resurgence of a Deadly Disease." Atlantic Monthly , August 1997, pages 4560.
-Spotts, Peter. "Controlling Bacteria on the Farm." Christian Science Monito,r  June 25, 1998, page B6.
+Spotts, Peter. "Controlling Bacteria on the Farm." Christian Science Monito,r June 25, 1998, page B6.
 Sternberg, Steve. "On El Nino's Deadly Tail." USA Today, July 2, 1998, page D1.
 . "Sarah Lee Recalls Hot Dogs, Other Meats." USA Today, December 23, 1998, page 1A.
 . "Science, Legwork Combine to Catch Deadly Virus." USA Today, July 6, 1998, pages 68D.
@@ -4273,28 +4273,28 @@ Various authors. "Principles of Judicious Use of Antimicrobial Agents for Pediat
 Infections." Pediatrics, January 1998.
 Note: All Abstracts are from the NAPRALERT Database.
 Acacia
-Arvigo, Rosita, and Michael Balick. Rainforest Remedies: One Hundred Healing Herbs of Belize.  Twin Lakes,
+Arvigo, Rosita, and Michael Balick. Rainforest Remedies: One Hundred Healing Herbs of Belize. Twin Lakes,
 WI: Lotus Press, 1993.
 Avirutnant, W., and A. Pongpan. "The Antimicrobial Activity of Some Thai Flowers and Plants." Mahidol
-Univ J Pharm Sci  10(3):8186, 1983. Abstract.
+Univ J Pharm Sci 10(3):8186, 1983. Abstract.
 Caceres, A., O. Cano, B. Samayoa, and L. Aguilar. "Plants Used in Guatemala for the Treatment of
-Gastrointestinal Disorders. 1. Screening of 84 Plants Against Enterobacteria." J Ethnopharmacol  301:5573,
+Gastrointestinal Disorders. 1. Screening of 84 Plants Against Enterobacteria." J Ethnopharmacol 301:5573,
 1990. Abstract.
 Chhabra, S., and F. Uiso. "Antibacterial Activity of Some Tanzanian Plants Used in Traditional Medicine."
 Fitoterapia 62(6):499503, 1991. Abstract.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Etkin, N. "Antimalarial Plants Used by Hausa in Northern Nigeria." Trop Doctor  27(1):1216, 1997. Abstract.
+Etkin, N. "Antimalarial Plants Used by Hausa in Northern Nigeria." Trop Doctor 27(1):1216, 1997. Abstract.
 Farouk, A., et al. "Antiomicrobial Activity of Certain Sudanese Plants Used in Folkloric Medicine. Screening
-for Antibacterial Activity (1)." Fitoterapia  54(1):37, 1983. Abstract.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
-Gessler, M., et al. "Screening Tanzanian Medicinal Plants for Antimalarial Activity." Acta Tropica  56(1):6577,
+for Antibacterial Activity (1)." Fitoterapia 54(1):37, 1983. Abstract.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
+Gessler, M., et al. "Screening Tanzanian Medicinal Plants for Antimalarial Activity." Acta Tropica 56(1):6577,
 1994. Abstract.
 Le Grand, A., et al. "Anti-Infectious Phytotherapies of the Tree-Savannah of Senegal (West Africa). 2.
-Antimicrobial Activity of 33 species." J Ethnopharmacol  22(1):2531, 1988. Abstract.
-Majupuria, Trilock Chandra, and D. P. Joshi. Religious and Useful Plants of Nepal and India.  Lashkar
+Antimicrobial Activity of 33 species." J Ethnopharmacol 22(1):2531, 1988. Abstract.
+Majupuria, Trilock Chandra, and D. P. Joshi. Religious and Useful Plants of Nepal and India. Lashkar
 (Gwalior), India: M. Gupta, Lalitpur Colony, 1989.
-Moore, Michael. Medicinal Plants of the Desert and Danyon West.  Sante Fe: Museum of New Mexico Press,
+Moore, Michael. Medicinal Plants of the Desert and Danyon West. Sante Fe: Museum of New Mexico Press,
 1989.
 
 ### Pagina 131
@@ -4305,44 +4305,44 @@ Moore, Michael. Medicinal Plants of the Desert and Danyon West.  Sante Fe: Museu
 
 < previous page page_113 next page >
 Page 113
-Nabi, Q., et al. "Antimicrobial Activity of Acacia nilotica  (L.) Willd. ex del. var. nilotica (mimosaceae)." J
+Nabi, Q., et al. "Antimicrobial Activity of Acacia nilotica (L.) Willd. ex del. var. nilotica (mimosaceae)." J
 Ethnopharmacol 37(1):779, 1992. Abstract.
-Ray, R., and S. Majumdar. "Antimicrobial Activity of Some Indian Plants." Econ Bot  30:317320, 1976.
+Ray, R., and S. Majumdar. "Antimicrobial Activity of Some Indian Plants." Econ Bot 30:317320, 1976.
 Abstract.
 Sawhney, A., et al. "Studies on the Rationale of African Traditional Medicine. Part 2. Preliminary Screening of
-Medicinal Plants for Anti-Gonoccoci Activity." Pak J Sci Ind Res  21(5/6):189192, 1978. Abstract.
-Wassel, G., et al. "Phytochemical Examination and Biological Studies of Acacia nilotica  L. Willd and Acacia
-farnesiana L. Willd Growing in Egypt." Egypt J Pharm Sci  33(1/2):327340, 1992. Abstract.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Medicinal Plants for Anti-Gonoccoci Activity." Pak J Sci Ind Res 21(5/6):189192, 1978. Abstract.
+Wassel, G., et al. "Phytochemical Examination and Biological Studies of Acacia nilotica L. Willd and Acacia
+farnesiana L. Willd Growing in Egypt." Egypt J Pharm Sci 33(1/2):327340, 1992. Abstract.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts.
 Aloe
-Arvigo, Rosita, and Michael Balick. Rainforest Remedies: One Hundred Healing Herbs of Belize.  Twin Lakes,
+Arvigo, Rosita, and Michael Balick. Rainforest Remedies: One Hundred Healing Herbs of Belize. Twin Lakes,
 WI: Lotus Press, 1993.
 Chen, C., et al. "Development of Natural Crude Drug Resources from Taiwan (IV). In Vitro Studies of the
-Inhibitory Effect on 12 Microorganisms." Shoyakugaku Zasshi  41(3):215225, 1987. Abstract.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Inhibitory Effect on 12 Microorganisms." Shoyakugaku Zasshi 41(3):215225, 1987. Abstract.
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
-Gottshall, R., et al. "The Occurrence of Antibacteial Substances Active against Mycobacterium tuberculosis  in
-Seed Plants." J Clin Invest  28:920923, 1949. Abstract.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
+Gottshall, R., et al. "The Occurrence of Antibacteial Substances Active against Mycobacterium tuberculosis in
+Seed Plants." J Clin Invest 28:920923, 1949. Abstract.
 Higgers, J., et al. "Dermaide Aloe/Aloe Vera Gel: Comparison of the Antimicrobial Effects." J Am Med
 Technol 41:293294, 1979. Abstract.
-Lorenzetti, L., et al. "Bacteriostatic Property of Aloe Vera." J Pharm Sci  53:1287, 1964. Abstract.
+Lorenzetti, L., et al. "Bacteriostatic Property of Aloe Vera." J Pharm Sci 53:1287, 1964. Abstract.
 Suga, T., and T. Hirata. "The Efficacy of the Aloe Plant's Chemical Constituents and Biological Activities."
 Cosmet Toiletries 98(6):105108, 1983. Abstract.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts.
 Cyptolepsis
-Boye, G. L. "Antimalarial Action of Cryptolepsis sanguinolenta  Extract." The International Symposium on
-East-West Medicine,  chapter 14, pages 242255, 1989.
+Boye, G. L. "Antimalarial Action of Cryptolepsis sanguinolenta Extract." The International Symposium on
+East-West Medicine, chapter 14, pages 242255, 1989.
 Cimanga, K., et al. "In Vitro Activities of Alkaloids from Cryptolepsis sanguinolenta ." Planta Medica
 62(1):2227, 1996. Abstract.
 . "In Vitro and Vivo Antiplasmodial Activity of Cryptolepene and Related Alkaloids from Cryptolepsis
 sanguinolenta." J Natural Products 60(7):688691, 1997. Abstract.
 Dean, Karen. "Cryptolepine Analogs" and "Cryptolepis." HerbalGram , no. 42, spring 1998, page 21.
 Greller, P., et al. "Antimalarial Activity of Cryptolepine and Isocryptolepine, Alkaloids Isolated from
-Cryptolepsis sanguinolenta." Phytother Res  10(4):317321, 1996. Abstract.
-Paulo, A., et al. "In Vitro Screening of Cryptolepsis sanguinolenta  Alkaloids,." J Ethnopharmacol
+Cryptolepsis sanguinolenta." Phytother Res 10(4):317321, 1996. Abstract.
+Paulo, A., et al. "In Vitro Screening of Cryptolepsis sanguinolenta Alkaloids,." J Ethnopharmacol
 44(2):127130, 1994. Abstract.
 
 ### Pagina 133
@@ -4354,35 +4354,35 @@ Paulo, A., et al. "In Vitro Screening of Cryptolepsis sanguinolenta  Alkaloids,.
 < previous page page_114 next page >
 Page 114
 Echinacea
-Bergner, Paul. The Healing Power of Echinacea and Goldenseal.  Rocklin, CA: Prima Publishing, 1997.
+Bergner, Paul. The Healing Power of Echinacea and Goldenseal. Rocklin, CA: Prima Publishing, 1997.
 Multiple trials and studies listed.
 Blumenthal, Mark. "Echinacea Highlighted as Cold and Flu Remedy." HerbalGram , no. 29, spring/summer
 1993, page 8.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 Hobbs, Christopher. The Echinacea Handbook. Portland, OR: Eclectic Medical Publications, 1989. Multiple
 studies and trials listed.
-McCaleb, Rob. "Echinacea Prevents Systemic Candida  and Listeria." HerbalGram, no. 26, winter 1992, page
+McCaleb, Rob. "Echinacea Prevents Systemic Candida and Listeria." HerbalGram, no. 26, winter 1992, page
 26.
-Moore, Michael. Medicinal Plants of the Desert and Danyon West.  Sante Fe: Museum of New Mexico Press,
+Moore, Michael. Medicinal Plants of the Desert and Danyon West. Sante Fe: Museum of New Mexico Press,
 1989.
-Mowrey, Daniel. The Scientific Validation of Herbal Medicine.  New Canaan, CT: Keats, 1986. Lists multiple
+Mowrey, Daniel. The Scientific Validation of Herbal Medicine. New Canaan, CT: Keats, 1986. Lists multiple
 abstracts of clinical trials and studies.
-Weiss, Rudolph. Herbal Medicine.  Sweden: Beaconsfield, 1988.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Weiss, Rudolph. Herbal Medicine. Sweden: Beaconsfield, 1988.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts of clinical trials and studies.
 Eucalyptus
 Alkofahi, A., et al. "Antimicrobial Evaluation of Some Plant Extracts of Traditional Medicine of Jordan." Alex
 J Pharm Sci 10(2):123126, 1996. Abstract.
-Aswal, B., et al. "Screening of Indian Plants for Biological Activity, Part X." Indian J Exp Biol  22(6):312332,
+Aswal, B., et al. "Screening of Indian Plants for Biological Activity, Part X." Indian J Exp Biol 22(6):312332,
 1984. Abstract.
-Badam, L., et al. "In Vitro Antimalarial Activity of Medicial Plants of India." Indian J Med Res  87(4):379383,
+Badam, L., et al. "In Vitro Antimalarial Activity of Medicial Plants of India." Indian J Med Res 87(4):379383,
 1988. Abstract.
 Barnabas, C., and S. Nagarajan. "Antimicrobial Activity of Flavionoids of Some Medicinal Plants." Fitoterapia
 59(6):508510, 1988. Abstract.
 Begun, J., et al. "Studies of Essential Oils for Their Antibacterial and Antifungal Properties. Part 1. Preliminary
-Screening of 35 Essential Oils." Bangladesh J Sci Ind Res  28(4):2534, 1993. Abstract.
+Screening of 35 Essential Oils." Bangladesh J Sci Ind Res 28(4):2534, 1993. Abstract.
 Benouda, A., et al. "In Vitro Antibacterial Properties of Essential Oils, Tested against Hospital Pathogenic
 Bacteria." Fitoterapia 59(2):115119, 1988. Abstract.
 "Botanicals Containing Phytochemical Antagonists of Specific Micro-Organisms." Protocol Journal of
@@ -4390,73 +4390,73 @@ Botanical Medicine, vol. 1, no. 1, summer 1995, pages 144146.
 Brantner, A., and E. Grein. "Antibacterial Activity of Plant Extracts Used Externally in Traditional Medicine."
 J Ethnopharmacol, 44(1):3540, 1994. Abstract.
 Chaudhari, D., and R. Suri. "Comparitive Studies on Chemical and Antimicrobial Activities of Fast Growing
-Eucalyptus Hybrid (fri-4 and fri-5) with Their Parents." Indian Perfum  35(1):3034, 1991. Abstract.
-Dellacassa, E., et al. "Antimicrobial Activity of Eucalyptus Essential Oils." Fitoterapia  60(6):544546, 1989.
+Eucalyptus Hybrid (fri-4 and fri-5) with Their Parents." Indian Perfum 35(1):3034, 1991. Abstract.
+Dellacassa, E., et al. "Antimicrobial Activity of Eucalyptus Essential Oils." Fitoterapia 60(6):544546, 1989.
 Abstract.
 
 ### Pagina 135
 
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
- 
+
 < previous page page_114 next page >
 
 ### Pagina 136
 
 < previous page page_115 next page >
 Page 115
-Felter, Harvey, and John Uri. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
-Hajji, F., et al. "Antimicrobial Activity of Twenty-one Eucalyptus Essential Oils." Fitoterapia  64(1):7177,
+Felter, Harvey, and John Uri. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
+Hajji, F., et al. "Antimicrobial Activity of Twenty-one Eucalyptus Essential Oils." Fitoterapia 64(1):7177,
 1993. Abstract.
 Hmamouchi, M., et al. "Report on the Antibacterial and Antifungal Properties of the Essential Oils of
-Eucalyptus." Plant Med Phytother  24(4):278289, 1990. Abstract.
+Eucalyptus." Plant Med Phytother 24(4):278289, 1990. Abstract.
 Ingram, Cass. Killed on Contact: The Tea Tree Oil Story: Nature's Finest Antiseptic. Cedar Rapids, IA:
 Literary Visions, 1992.
 Janssen, A., et al. "Screening for Antimicrobial Activity of Some Essential Oils by the Agar Overlay
-Technique." Pharm Weekbl (Sci Ed)  8(6):289292, 1986. Abstract.
+Technique." Pharm Weekbl (Sci Ed) 8(6):289292, 1986. Abstract.
 McCaleb, Rob. "Tea Tree Oil and Antibiotic Resistant Bacteria." HerbalGram , no. 36, spring 1996, page 18.
-Moore, Michael. Medicinal Plants of the Desert and Danyon West.  Sante Fe: Museum of New Mexico Press,
+Moore, Michael. Medicinal Plants of the Desert and Danyon West. Sante Fe: Museum of New Mexico Press,
 1989.
 Muanza, D., et al. "Antibacterial and Antifungal Activities of Nine Medicinal Plants from Zaire." Int J
 Pharmacog 32(4):337345, 1994. Abstract.
-Olsen, Cynthia. Australian Tea Tree Oil Guide.  Pagosa Springs, CO: Kali Press, 1991.
+Olsen, Cynthia. Australian Tea Tree Oil Guide. Pagosa Springs, CO: Kali Press, 1991.
 Ontengco, D., et al. "Screening for the Antibacterial Activity of Essential Oils from Some Philippine Plants."
 Acta Manilana 43:1923, 1995. Abstract.
 Perez, C., Anesini, C., "In Vitro Antibacterial Activity of Argentine Folk Medicinal Plants Against Salmonella
 typhi." J Ethnopharmacol 44(1):4146, 1994. Abstract.
 Prakash, S., et al. "Antibacterial and Antifungal Properties of Some Essential Oils Extracted from Medicinal
-Plants of the Kumaon Region." Indian Oil Soap J  37(9):230232, 1972. Abstract.
-Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia  51:201205, 1980.
+Plants of the Kumaon Region." Indian Oil Soap J 37(9):230232, 1972. Abstract.
+Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia 51:201205, 1980.
 Abstract.
 Saeed, M., and A. Sabir. "Antimicrobial Studies of the Constituents of Pakistani Eucalyptus Oils." J Fac
 Pharm Gazi 12(2):129140, 1995. Abstract.
-Suri, R., and T. Thind. "Antibacterial Activity of Some Essential Oils." Indian Drugs Pharm Ind  13:2528,
+Suri, R., and T. Thind. "Antibacterial Activity of Some Essential Oils." Indian Drugs Pharm Ind 13:2528,
 1978. Abstract.
 Garlic
 Abdullah, T. H., et al. "Garlic Revisited: Therapeutic for the Major Diseases of Our Time?" J Nat Med Assoc
 80(4):439445, 1988.
 Ahsan, M., et al. "Garlic Extracts and Allicin: Broad Spectrum Antibacterial Agents Effective against Multiple
-Drug Resistant Strains of Shigella dysenteriae  type 1 and Shigella flexneri,  enterotoxigenic Escherichia coli and
-Vibrio cholerae." Phytother Res  10(4):329331, 1996. Abstract.
+Drug Resistant Strains of Shigella dysenteriae type 1 and Shigella flexneri, enterotoxigenic Escherichia coli and
+Vibrio cholerae." Phytother Res 10(4):329331, 1996. Abstract.
 Anon. "Garlic in Cryptoccal Meningitis. A Preliminary Report of 21 Cases. Chung-Hua I hsueh Tsa Chih
 (English Edition) 93:123126, 1980. Abstract.
-Bergner, Paul. The Healing Power of Garlic.  Rocklin, CA: Prima Publishing, 1996. Multiple abstracts and
+Bergner, Paul. The Healing Power of Garlic. Rocklin, CA: Prima Publishing, 1996. Multiple abstracts and
 sources listed.
 Block, Eric. "The Chemistry of Garlic and Onions." Scientific American , 252:114119, 1985.
 Chowdhury, A., et al. "Efficacy of Aqueous Extract of Garlic and Allicin in Experimental Shigellosis in
-Rabbits." Indian J Med Res  [A] 93(1):3336, 1991. Abstract.
+Rabbits." Indian J Med Res [A] 93(1):3336, 1991. Abstract.
 
 ### Pagina 137
 
 Duke, James A. The Green Pharmacy. Emmaus, PA: Rodale, 1998.
- 
+
 < previous page page_115 next page >
 
 ### Pagina 138
 
 < previous page page_116 next page >
 Page 116
-Elnima, E., et al. "The Antimicrobial Activity of Garlic and Onion Extract." Pharmazie  38:747748, 1983.
+Elnima, E., et al. "The Antimicrobial Activity of Garlic and Onion Extract." Pharmazie 38:747748, 1983.
 Foster, Steven. Garlic. Austin, TX:American Botanical Council, 1991.
 Koch, Heinrich, and Larry Lawson. Garlic: The Science and Therapeutic Application of Allium Sativum and
 Related Species. Baltimore: Williams and Wilkins, 1996. The best overall look at hundreds of studies.
@@ -4465,29 +4465,29 @@ McCaleb, Rob. "The Latest in Garlic Research." HerbalGram , no. 30, winter 1994,
 page 15.
 Mintaraisit, A., et al. "Antibacterial Activity of Hom Daeng (Allium ascalonisum L. )." Abstract of 10th
 conference of science and technology, Thailand. Chiengmai, Thailand, 1984. Abstract.
-Schmidt, M., et al. Beyond Antibiotics.  Berkeley, CA: North Atlantic, 1994. Multiple studies listed.
+Schmidt, M., et al. Beyond Antibiotics. Berkeley, CA: North Atlantic, 1994. Multiple studies listed.
 Singh, K. V., and N. P. Shukla. 1984. "Activity on Multiple Resistant Bacteria of Garlic (Allium sativum)
 Extract." Fitoterapia 55(5):313315, 1984.
-Walker, Morton. The Healing Powers of Garlic.  Stamford, CT: New Way of Life, 1988. Multiple studies listed.
+Walker, Morton. The Healing Powers of Garlic. Stamford, CT: New Way of Life, 1988. Multiple studies listed.
 Ginger
 "Botanicals Containing Phytochemical Antagonists of Specific Micro-Organisms." Protocol Journal of
 Botanical Medicine, vol. 1, no. 1, summer 1995, pages 144146.
 Duke, James A. The Green Pharmacy. Emmaus, PA: Rodale, 1998.
-Etkin, N. "Antimalarial Plants Used by Hausa in Northern Nigeria." Trop Doctor  27(1):1216, 1997. Abstract.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Etkin, N. "Antimalarial Plants Used by Hausa in Northern Nigeria." Trop Doctor 27(1):1216, 1997. Abstract.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 Fulder, Stephen. The Ginger Book. New York: Avery, 1996.
 George, M., and K. Pandalai. "Investigations on Plant Antibiotics. Part IV. Further Research for Antibiotic
-Substances in Indian Medicinal Plants." Indian J Med Res  37:169181, 1949. Abstract.
+Substances in Indian Medicinal Plants." Indian J Med Res 37:169181, 1949. Abstract.
 Janssen, A., and J. Scheffer. "Acetoxychavicol Acetate, an Antifungal Component of Alpinia galanga ." Planta
 Med 1985(6):507511, 1985. Abstract.
-Landis, Robyn, and K. P. Khalsa. Herbal Defense.  New York: Warner Books, 1997.
+Landis, Robyn, and K. P. Khalsa. Herbal Defense. New York: Warner Books, 1997.
 Mascolo, N. "Ethnopharmacologic Investigation of Ginger (Zingiber officinale) ."
 J Ethnopharmacol 27(1/2):129140, 1989. Abstract.
 McCaleb, Rob. "Fresh Ginger Juice in Treatment of Kitchen Burns." HerbalGram , no. 16, spring 1988, page 6,
 citing Cai Liang-Ping. J New Chinese Med , 2:22, 1984.
-Misas, C., et al. "Contribution to the Biological Evaluation of Cuban Plants, II." Rev Cub Med Trop  31:1319,
+Misas, C., et al. "Contribution to the Biological Evaluation of Cuban Plants, II." Rev Cub Med Trop 31:1319,
 1979. Abstract.
-Mowrey, Daniel. The Scientific Validation of Herbal Medicine.  New Canaan, CT: Keats, 1986. Lists multiple
+Mowrey, Daniel. The Scientific Validation of Herbal Medicine. New Canaan, CT: Keats, 1986. Lists multiple
 abstracts of clinical trials.
 Oloke, J., et al. "The Antibacterial and Antifungal Activities of Certain Components of Aframomun melegueta
 Fruits." Fitoterapia 59(5):384388, 1988. Abstract.
@@ -4502,19 +4502,19 @@ Acta Manilana 43:1923, 1995. Abstract.
 
 < previous page page_117 next page >
 Page 117
-Ray, R., and S. Majumdar. ''Antimicrobial Activity of Some Indian Plants." Econ Bot  30:317320, 1976.
+Ray, R., and S. Majumdar. ''Antimicrobial Activity of Some Indian Plants." Econ Bot 30:317320, 1976.
 Abstract.
-Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia  51:201205, 1980.
+Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia 51:201205, 1980.
 Abstract.
-Schmidt, M., et al. Beyond Antibiotics.  Berkeley, CA: North Atlantic, 1994. Multiple studies listed.
-Sinha, A., et al. "Antibacterial Study of Some Essential Oils." Indian Perfum  20:2527, 1979. Abstract.
-. "Antimicrobial Properties of Essential Oils from Zingiber chrysthanum  Leaves and Rhizomes." Fitoterapia
+Schmidt, M., et al. Beyond Antibiotics. Berkeley, CA: North Atlantic, 1994. Multiple studies listed.
+Sinha, A., et al. "Antibacterial Study of Some Essential Oils." Indian Perfum 20:2527, 1979. Abstract.
+. "Antimicrobial Properties of Essential Oils from Zingiber chrysthanum Leaves and Rhizomes." Fitoterapia
 63(1):7375, 1992. Abstract.
 Weil, Andrew. Eight Weeks to Optimum Health , New York: Knopf, 1998.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts of clinical trials and studies.
 Goldenseal
-Bergner, Paul. The Healing Power of Echinacea and Goldenseal and Other Immune System Herbs.  Rocklin,
+Bergner, Paul. The Healing Power of Echinacea and Goldenseal and Other Immune System Herbs. Rocklin,
 CA: Prima Publishing, 1997.
 Cech, Richo. "Comparison of a Few Goldenseal Analogues." Self-published, 1996.
 Cech, R., et al. "The Presence of Significant Quantities of Berberine and Hydrastine in the Leaf and Stem of
@@ -4523,21 +4523,21 @@ analysis, 1996.
 D'Amico, M. "Investigation of the Presence of Substances Having Antibiotic Action in Higher Plants."
 Fitoterapia 21:7782, 1950. Abstract.
 Foster, Steven. Goldenseal. Botanical Series No. 309. Austin, TX: American Botanical Council, 1991.
-Gottshall, R., et al. "The Occurrence of Antibacterial Substances Active Against Mycobacterium tuberculosis  in
-Seed Plants." J Clin Invest  28:920923, 1949. Abstract.
-Gupte, S. "Use of Berbenine in Treatment of Giardiasis." Am J Dis Child  129:866, 1975. Abstract.
+Gottshall, R., et al. "The Occurrence of Antibacterial Substances Active Against Mycobacterium tuberculosis in
+Seed Plants." J Clin Invest 28:920923, 1949. Abstract.
+Gupte, S. "Use of Berbenine in Treatment of Giardiasis." Am J Dis Child 129:866, 1975. Abstract.
 Hartzell, A., and F. Wilcoxon. "A Survey of Plant Products for Insecticidal Properties." Contr Boyce Thompson
 Inst 12:127141, 1941. Abstract.
 Kaneyda, Y., et al. "In Vitro Effects of Berberine Sulphate on the Growth and Structure of Entamorba
-histolytica, Giardia lamblia, and Trichomonas vaginalis." Ann Tropical Med Parasitol  85(4):417425, 1991.
+histolytica, Giardia lamblia, and Trichomonas vaginalis." Ann Tropical Med Parasitol 85(4):417425, 1991.
 Abstract.
 Maung, U., et al. "Clinical Trial of Berberine in Acute Watery Diarrhea." Br Med J , 291(7):16011605, 1985.
 Abstract.
-Mowrey, Daniel. The Scientific Validation of Herbal Medicine.  New Canaan, CT: Keats, 1986. Lists multiple
+Mowrey, Daniel. The Scientific Validation of Herbal Medicine. New Canaan, CT: Keats, 1986. Lists multiple
 abstracts of clinical trials, primarily on berberine.
 Rabbani, G. H., et al. "Randomized Controlled Trial of Berberine Sulphate Therapy for Diarrhea Due to
 Enterotoxigenic Escherichia coli and Vibrio cholerae ." J Infect Dis , 155(5):979984, 1985.
-Sack, R., et al. "Berberine Inhibits Intestinal Secretory Response of Vibrio cholerae  and Escherichia coli
+Sack, R., et al. "Berberine Inhibits Intestinal Secretory Response of Vibrio cholerae and Escherichia coli
 enterotoxins." Infection Immunity 35(2):471475, 1982. Abstract.
 Snow, Joanne Marie. " Hydrastis canadensis L. (Ranunculaceae)." Protocol Journal of Botanical Medicine , vol.
 2, no. 2, 1997. Lists multiple abstracts of clinical trials and laboratory studies mostly on berberine.
@@ -4550,40 +4550,40 @@ Snow, Joanne Marie. " Hydrastis canadensis L. (Ranunculaceae)." Protocol Journal
 
 < previous page page_118 next page >
 Page 118
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts of clinical trials, primarily on berberine.
 Grapefruit Seed Extract
 Caceres, A., et al. "Screening of Antimicrobial Activity of Plants Popularly Used in Guatemala for the
-Treatment of Dermatomucosal Diseases." J Ethnopharmacol  20(3):223237, 1987. Abstract.
+Treatment of Dermatomucosal Diseases." J Ethnopharmacol 20(3):223237, 1987. Abstract.
 Chen, C., et al. "Development of Natural Crude Drug Resources from Taiwan (IV). In Vitro Studies of the
-Inhibitory Effect on 12 Microorganisms." Shoyakugaku Zasshi  41(3):215225, 1987. Abstract.
+Inhibitory Effect on 12 Microorganisms." Shoyakugaku Zasshi 41(3):215225, 1987. Abstract.
 Ebana, R., et al. "Microbiological Exploitation of Cardiac Glycosides and Alkaloids from Garcinia kola,
-Borreria ocymoides, Kola nitida,  and Citrus aurantifolia ." J Appl Bacteriol  71(5):398401, 1991. Abstract.
+Borreria ocymoides, Kola nitida, and Citrus aurantifolia ." J Appl Bacteriol 71(5):398401, 1991. Abstract.
 Hussain, H., and Y. Deeni. "Plants in Kano Ethnomedicine: Screening for Antimicrobial Activity and
 Alkaloids." Int J Pharmacog 29(1):5156, 1991. Abstract.
-Misas, C., et al. "Contribution to the Biological Evaluation of Cuban Plants." Rev Cub Med Trop  31:3743,
+Misas, C., et al. "Contribution to the Biological Evaluation of Cuban Plants." Rev Cub Med Trop 31:3743,
 1979. Abstract.
 Perez, C., and C. Anesini. "In Vitro Antibacterial Activity of Argentine Folk Medicinal Plants against
 Salmonella typhi." J Ethnopharmacol 44 1:4146, 1994. Abstract.
-Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia  51:201205, 1980.
+Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia 51:201205, 1980.
 Abstract.
-Sharamon, Shalila, and Bodo Baginski. The Healing Power of Grapefruit Seed.  Twin Lakes, WI: Lotus Light,
-1997. Cites 140 research papers, laboratory studies, and in vivo, in vitro,  and human trials. Though the book
+Sharamon, Shalila, and Bodo Baginski. The Healing Power of Grapefruit Seed. Twin Lakes, WI: Lotus Light,
+1997. Cites 140 research papers, laboratory studies, and in vivo, in vitro, and human trials. Though the book
 itself is weak in some areas, it is the best overall source for research done on grapefruit seed extract.
-Uhlenbrock, S. "Grapefruit Seed Extract: Naturally Good for All?" Pharmazie  141 (42):4648, 1996. Abstract.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Uhlenbrock, S. "Grapefruit Seed Extract: Naturally Good for All?" Pharmazie 141 (42):4648, 1996. Abstract.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts of clinical trials and studies.
 Honey
 Aasved, Mikal. Alcohol, Drinking and Intoxication in Preindustrial Society: Theoretical, Nutritional, and
 Religious Considerations. Ph.D. dissertation, University of California, Santa Barbara, 1988.
-al Somal, N., et al. J R Soc Med , 87(1): 9, 1994, and Postmes, T. et al. Lancet  341: 756, 1993 [see also 341:90,
+al Somal, N., et al. J R Soc Med , 87(1): 9, 1994, and Postmes, T. et al. Lancet 341: 756, 1993 [see also 341:90,
 1993] cited in Patrick Quillin, Honey, Garlic, and Vinegar . North Canton, OH: The Leader Company, 1996.
 Ali, A. T., and M. N. Chowdhury, et al. "Inhibitory Effect of Natural Honey on Helicobacter pylori ." Trop
 Gastroenterol 12(3):139143, 1991 cited in Elkins, Bee Pollen .
-Beck, Bodog, and Doree Smedley. Honey and Your Health.  New York:Robert McBride, 1944, page 35.
-Brown, Royden. Royden Brown's Bee Hive Product Bible.  Garden City, NY: Avery Publishing, 1993.
+Beck, Bodog, and Doree Smedley. Honey and Your Health. New York:Robert McBride, 1944, page 35.
+Brown, Royden. Royden Brown's Bee Hive Product Bible. Garden City, NY: Avery Publishing, 1993.
 Dustmann, J.H. "Bee Products for Human Health." American Bee Journal , vol. 136, no.4, 1996, page 275.
- 
+
 < previous page page_118 next page >
 
 ### Pagina 143
@@ -4592,48 +4592,48 @@ Dustmann, J.H. "Bee Products for Human Health." American Bee Journal , vol. 136,
 Page 119
 Elbagoury, E. F., and S. Rasmy. "Antibacterial Action of Natural Honey on Anaerobic Bacteroides" J Egypt
 Dent 39(1):38186, 1993, and Ndayisaba, G., L. Bazira, and E. Haboniman. "Treatment of Wounds with
-Honey." Presse-Med  21(32):15168, 1992, cited in Elkins, Bee Pollen .
-Elkins, Rita. Bee Pollen, Royal Jelly, Propolis, and Honey.  Pleasant Grove, UT: Woodland Publishing, 1996.
+Honey." Presse-Med 21(32):15168, 1992, cited in Elkins, Bee Pollen .
+Elkins, Rita. Bee Pollen, Royal Jelly, Propolis, and Honey. Pleasant Grove, UT: Woodland Publishing, 1996.
 Harmon, Ann. "Hive Products for Therapeutic Use." American Bee Journal , vol. 123, no. 1, 1983.
 Kotova, Galina. "Apiary Products Are Important in Soviet Medicine." American Bee Journal , vol. 121, no. 12,
 1981, page 850.
 Krochmal, Connie and Arnold. "Apitherapy in Romania." American Bee Journal , vol. 121, no. 11, 1981, page
 786.
-Phuapradit, W. et al., Aust N Z J Obstet Gynecol  32(4):381, 1992, and Efem, S.E., Surgery  113(2):200, 1993,
+Phuapradit, W. et al., Aust N Z J Obstet Gynecol 32(4):381, 1992, and Efem, S.E., Surgery 113(2):200, 1993,
 cited in ibid.
 Postumes, T., E. van den Bogaard, and M. Hazen. "Honey for Wounds, Ulcers, and Skin Graft Preservation."
 Lancet 341:756757, 1993, cited in Root-Bernstein, Honey, Mud, and Maggots.
-Quillin, Patrick. Honey, Garlic, and Vinegar.  North Canton, OH: The Leader Company, 1996.
+Quillin, Patrick. Honey, Garlic, and Vinegar. North Canton, OH: The Leader Company, 1996.
 Root-Bernstein, Robert and Michele. Honey, Mud, and Maggots, Boston: Houghton Mifflin, 1997.
 Schmidt, Justin. "Apitherapy Meeting Held in the Land of Milk and Honey." American Bee Journal , vol. 136,
 no. 10, 1996, page 722.
-Subrahmanyam, M. B J Plast Surg  46(4):322, 1993, cited in Quillin, Honey, Garlic, and Vinegar .
+Subrahmanyam, M. B J Plast Surg 46(4):322, 1993, cited in Quillin, Honey, Garlic, and Vinegar .
 Juniper
 Bagci, E., and M. Digrak. "Antimicrobial Activity of Essential Oils of Some Abies (fir) Species from Turkey."
 Flavour Fragrance J 11(4):251256, 1996. Abstract.
-Bhakuni, D., et al. "Screening of Indian Plants for Biological Activity, Part III." Indian J Exp Biol  9:91, 1971.
+Bhakuni, D., et al. "Screening of Indian Plants for Biological Activity, Part III." Indian J Exp Biol 9:91, 1971.
 Abstract.
-Bonsignore, L., et al. "A Preliminary Screening of Sardinian Plants." Fitoterapia  61(4):339341, 1990. Abstract.
+Bonsignore, L., et al. "A Preliminary Screening of Sardinian Plants." Fitoterapia 61(4):339341, 1990. Abstract.
 "Botanicals Containing Phytochemical Antagonists of Specific Micro-Organisms." The Protocol Journal of
 Botanical Medicine, vol. 1 no. 1, 1995, pages 144146.
-Buhner, Stephen Harrod. Sacred and Herbal Healing Beers.  Boulder, CO: Siris, 1998.
-Clark, A., et al. "Antimicrobial Properties of Heartwood, Bark/Sapwood and Leaves of Juniperus  Species."
+Buhner, Stephen Harrod. Sacred and Herbal Healing Beers. Boulder, CO: Siris, 1998.
+Clark, A., et al. "Antimicrobial Properties of Heartwood, Bark/Sapwood and Leaves of Juniperus Species."
 Phytother Res 4(1):1519, 1990. Abstract.
 Dye, Michael. "Our Health, Disease, and 'Old Age' Are Formed on the Molecular Battlefield of Antioxidents
 vs. Free Radicals." Back to the Garden , Winter 1994/95.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 Janssen, A., et al. "Screening for Antimicrobial Activity of Some Essential Oils by the Agar Overlay
-Technique." Pharm Weekbl (Sci Ed)  8(6):289292, 1986. Abstract.
-Kartning, T., et al. "Antimicrobial Activity of the Essential Oil of Young Pine Shoots (Picea abies  L.)." J
+Technique." Pharm Weekbl (Sci Ed) 8(6):289292, 1986. Abstract.
+Kartning, T., et al. "Antimicrobial Activity of the Essential Oil of Young Pine Shoots (Picea abies L.)." J
 Ethnopharmacol 35(2):155157, 1991. Abstract.
 Kindra, K., and T. Satyanarayana. "Inhibitory Activity of Essential Oils of Some Plants against Pathogenic
 
 ### Pagina 144
 
 Bacteria." Indian Drugs 16:1517, 1978. Abstract.
- 
+
 < previous page page_119 next page >
 
 ### Pagina 145
@@ -4641,67 +4641,67 @@ Bacteria." Indian Drugs 16:1517, 1978. Abstract.
 < previous page page_120 next page >
 Page 120
 McChesney, J., and R. Adams. "Co-evaluation of Plant Extracts as Petrochemical Substitutes and for
-Biologically Active Compounds." Econ Bot  39(1):7486, 1985. Abstract.
+Biologically Active Compounds." Econ Bot 39(1):7486, 1985. Abstract.
 Mishra, P., and C. Chauhan. "Antimicrobial Studies of the Essential Oil of the Berries of Juniperus macropoda
 Boiss." Hindustan Antibiotics 26(1/2):3840, 1984. Abstract.
-Moore, Michael. Medicinal Plants of the Mountain West.  Sante Fe: Museum of New Mexico Press, 1979.
-Mowrey, Daniel. The Scientific Validation of Herbal Medicine.  New Canaan, CT: Keats, 1986. Lists multiple
+Moore, Michael. Medicinal Plants of the Mountain West. Sante Fe: Museum of New Mexico Press, 1979.
+Mowrey, Daniel. The Scientific Validation of Herbal Medicine. New Canaan, CT: Keats, 1986. Lists multiple
 abstracts of clinical trials, primarily on berberine.
-Muhammad, I., et al. "Antibacterial Diterpenes from the Leaves and Seeds of Juniperus excelsa  M. Bieb."
+Muhammad, I., et al. "Antibacterial Diterpenes from the Leaves and Seeds of Juniperus excelsa M. Bieb."
 Phytother Res 6(5):261264, 1992. Abstract.
-Paterson, Andrew. Protection for Life.  Crystal Clear Publications, 1995.
+Paterson, Andrew. Protection for Life. Crystal Clear Publications, 1995.
 Recio, M., et al. "Antimicrobial Activity of Selected Plants Employed in the Spanish Mediterranean Area, Part
-II." Phytother Res  3(3):7780, 1989. Abstract.
+II." Phytother Res 3(3):7780, 1989. Abstract.
 Richardson, M., et al. "Bioactivity Screening of Plants Selected on the Basis of Folkloric Use or Presence of
-Lignans in a Family." Phytother Res  6:274278, 1992. Abstract.
+Lignans in a Family." Phytother Res 6:274278, 1992. Abstract.
 Licorice
-Acharya, S., et al. "A Preliminary Open Trial on Interferon Stimulator Derived from Glycyrrhiza glabra  in the
-Treatment of Subacute Hepatic Failure." Indian J Med Res  98(2):6974, 1993. Abstract.
+Acharya, S., et al. "A Preliminary Open Trial on Interferon Stimulator Derived from Glycyrrhiza glabra in the
+Treatment of Subacute Hepatic Failure." Indian J Med Res 98(2):6974, 1993. Abstract.
 Al-shamma, A., and Mitscher, L. "Comprehensive Survey of Indigenous Iraqi Plants for Potential Economic
 Value. I. Screening Results of 327 Species for Alkaloids and Antimicrobial Agents." J Nat Prod 42:633642,
 1979.
-Bannister, B. "Cardiac Arrest Due to Liquorice-Induced Hypokalemia." Br Med J  1977(2):738, 1977.
+Bannister, B. "Cardiac Arrest Due to Liquorice-Induced Hypokalemia." Br Med J 1977(2):738, 1977.
 "Botanicals Containing Phytochemical Antagonists of Specific Micro-Organisms." Protocol Journal of
 Botanical Medicine, 1(1):144146, 1995.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 Fitzpatrick, F. "Plant Substances Active against Mycobacterium tuberculosis ." Antibiot Chemother 4:528, 1954.
 Abstract.
-Hrelia, P., et al. "Potential Antimutagenic Activity of Glycyrrhiza glabra  extract." Phytother Res  10:S101S103,
+Hrelia, P., et al. "Potential Antimutagenic Activity of Glycyrrhiza glabra extract." Phytother Res 10:S101S103,
 1996. Abstract.
-Leslie, G. "A Pharmacometric Evaluation of Nine Bio-Strath Herbal Remedies." Medita  8(10):319, 1978.
+Leslie, G. "A Pharmacometric Evaluation of Nine Bio-Strath Herbal Remedies." Medita 8(10):319, 1978.
 Abstract.
 Mira, P., et al. "Antimalarial Activity of Traditional Plants against Erythrocytic Stages of Plasmodium
 berghei." Int J Pharmacog 29(1):1923, 1991. Abstract.
 Mitscher, L., et al. "Antimicrobial Agents from Higher Plants. Antimicrobial Isoflavionoids and Related
-Substances from Glycyrhiza glabra  L. var. typica." J Nat Prod 43:259269, 1980. Abstract.
-. "Antimicrobial Agents from Higher Plants, Glycyrrhiza glabra  (var. Spanish): I. Some Antimicrobial
-Isoflavans, Isoflavenes, Flavones, and Isoflavones. Heterocycles  9:1533, 1978. Abstract.
- 
+Substances from Glycyrhiza glabra L. var. typica." J Nat Prod 43:259269, 1980. Abstract.
+. "Antimicrobial Agents from Higher Plants, Glycyrrhiza glabra (var. Spanish): I. Some Antimicrobial
+Isoflavans, Isoflavenes, Flavones, and Isoflavones. Heterocycles 9:1533, 1978. Abstract.
+
 < previous page page_120 next page >
 
 ### Pagina 146
 
 < previous page page_121 next page >
 Page 121
-Moore, Michael. Medicinal Plants of the Mountain West.  Sante Fe: Museum of New Mexico Press, 1979.
+Moore, Michael. Medicinal Plants of the Mountain West. Sante Fe: Museum of New Mexico Press, 1979.
 Namba, T., et al. "Studies on Dental Caries Prevention by Traditional Medicines, Part VII. Screening of
-Ayurevedic Medicines for Anti-Plaque Action." Shoyakugaku Zasshi  39(2):146153, 1985. Abstract.
+Ayurevedic Medicines for Anti-Plaque Action." Shoyakugaku Zasshi 39(2):146153, 1985. Abstract.
 Ngo, H., et al. "Modulation of Mutagenesis, DNA Binding, and Metabolism of Aflatoxin B1 by Licorice
 Compounds." Nut Res 12(2):247257, 1992. Abstract.
 Okada, K., et al. "Identification of Antimicrobial and Antioxident Constituents from Licorice of Russian and
-Xinjiang Origin." Chem Pharm Bull  37(9):25282530, 1989. Abstract.
-Ray, P., and S. Majumdar. "Antimicrobial Activity of Some Indian Plants." Econ Bot  30:317320, 1976.
+Xinjiang Origin." Chem Pharm Bull 37(9):25282530, 1989. Abstract.
+Ray, P., and S. Majumdar. "Antimicrobial Activity of Some Indian Plants." Econ Bot 30:317320, 1976.
 Abstract.
 Shirinyan, E., et al. "9,11,13-Trihydroxy-10(E)-Ocadecenic and 9,12,13-Trihydroxy-10,11-Epoxoctadecaonic
-Acids. New Antistressor Compounds from Liquorice." IZV Akad Nauk SSR  1988 (6):932936, 1988. Abstract.
+Acids. New Antistressor Compounds from Liquorice." IZV Akad Nauk SSR 1988 (6):932936, 1988. Abstract.
 Sigurjonsdottir, H., et al. "Is Blood Pressure Commonly Raised by Moderate Consumption of Liquorice?" J
 Human Hypertension 9(5):345348, 1995. Abstract.
-Snow, Joanne. "Glycyrrhiza glabra." Protocol Journal of Botanical Medicine  1(3):914, Winter 1996.
+Snow, Joanne. "Glycyrrhiza glabra." Protocol Journal of Botanical Medicine 1(3):914, Winter 1996.
 Taylor, A., and F. Bartter. "Hypertension in Licorice Intoxication, Acromegaly, and Cushing's Syndrome."
 Hypertens Physiopathol Treat 1977:755, 1977. Abstract.
-Watanabe, S., et al. "Release of Secretin of Liquorice Extract in Dogs." Pancreas  1(5):449454, 1986. Abstract.
+Watanabe, S., et al. "Release of Secretin of Liquorice Extract in Dogs." Pancreas 1(5):449454, 1986. Abstract.
 Sage
 Alkofahi, A., et al. "Antimicrobial Evaluation of Some Plant Extracts of Traditional Medicine of Jordan." Alex
 J Pharm Sci 10(2):123126, 1996 Abstract.
@@ -4721,50 +4721,50 @@ El-keltawi, N., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants.
 1980. Abstract.
 Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
- 
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
+
 < previous page page_121 next page >
 
 ### Pagina 147
 
 < previous page page_122 next page >
 Page 122
-Gottshall, R., et al. "The Occurrence of Antibacteial Substances Active against Mycobacterium tuberculosis  in
-Seed Plants." J Clin Invest  28:920923, 1949. Abstract.
+Gottshall, R., et al. "The Occurrence of Antibacteial Substances Active against Mycobacterium tuberculosis in
+Seed Plants." J Clin Invest 28:920923, 1949. Abstract.
 Jalsenjak, V., et al. "Microcapsules of Sage Oil: Essential Oils Content and Antimicrobial Activity." Pharmazie
 42(6):419420, 1987. Abstract.
 Janssen, A., et al. "Screening for Antimicrobial Activity of Some Essential Oils by the Agar Overlay
-Technique" Pharm Weekbl (Sci Ed)  8(6):289292, 1986. Abstract.
-Leslie, G. "A Pharmacometric Evaluation of Nine Bio-Strath Herbal Remedies." Medita  8(10):319, 1978.
+Technique" Pharm Weekbl (Sci Ed) 8(6):289292, 1986. Abstract.
+Leslie, G. "A Pharmacometric Evaluation of Nine Bio-Strath Herbal Remedies." Medita 8(10):319, 1978.
 Abstract.
-Moore, Michael. Medicinal Plants of the Mountain West.  Sante Fe: Museum of New Mexico Press, 1979.
+Moore, Michael. Medicinal Plants of the Mountain West. Sante Fe: Museum of New Mexico Press, 1979.
 Nadir, M. "The Effect of Different Methods of Extraction on the Antimicrobial Activity of Medicinal Plants"
 Fitoterapia 57(5):355364, 1986. Abstract.
 Recio, M., et al. "Antimicrobial Activity of Selected Plants Employed in the Spanish Mediterranean Area, Part
-II." Phytother Res  3(3):7780, 1989. Abstract.
-Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia  51:201205, 1980.
+II." Phytother Res 3(3):7780, 1989. Abstract.
+Ross, S., et al. "Antimicrobial Activity of Some Egyptian Aromatic Plants." Fitoterapia 51:201205, 1980.
 Abstract.
-Sabri, N., et al. "Two New Rearranged Abietane Dipertene Quinones from Salvia aegyptiaca  L." J Org Chem
+Sabri, N., et al. "Two New Rearranged Abietane Dipertene Quinones from Salvia aegyptiaca L." J Org Chem
 54(17):40974099, 1989. Abstract.
 Shabana, M., et al. "Study of Wild Egyptian Plants of Potential Medicinal Activity Sixth Communication:
-Antibacterial and Antifungal Activities of Some Selected Plants." Arch Exp Veterinaermed  42(5):737741,
+Antibacterial and Antifungal Activities of Some Selected Plants." Arch Exp Veterinaermed 42(5):737741,
 1988. Abstract.
-Sivropoulou, A., et al. "Antimicrobial, Cytotoxic, and Antiviral Activities of Salvia fructiosa  Essential Oil." J
+Sivropoulou, A., et al. "Antimicrobial, Cytotoxic, and Antiviral Activities of Salvia fructiosa Essential Oil." J
 Agr Food Chem 45(8):31973201, 1997. Abstract.
 Usnea
-Ahmadjian, V., and M. Hale. The Lichens.  London: Academic Press, 1973, pages 547713.
+Ahmadjian, V., and M. Hale. The Lichens. London: Academic Press, 1973, pages 547713.
 Al-Meshal, I., et al. "Phytochemical and Biological Screening of Saudi Medicinal Plants, Part I." Fitoterapia
 53:7984, 1982. Abstract.
-Buhner, Stephen Harrod. Sacred Plant Medicine.  Niwot, CO: Roberts Rinehart, 1996.
-Hale, Mason. The Biology of Lichens.  New York: American Elsevier Publishing Company, 1974.
-Hobbs, Christopher. Usnea: The Herbal Antibiotic.  Capitola, CA: Botanica Press, 1990.
+Buhner, Stephen Harrod. Sacred Plant Medicine. Niwot, CO: Roberts Rinehart, 1996.
+Hale, Mason. The Biology of Lichens. New York: American Elsevier Publishing Company, 1974.
+Hobbs, Christopher. Usnea: The Herbal Antibiotic. Capitola, CA: Botanica Press, 1990.
 Rowe, J., et al. "Antibacterial Activity of South Spain Lichens." Ann Pharm Fr 47(2):8994, 1989. Abstract.
 . "New Study of Antimicrobrial Activity and Identification of Lichenical Substances of Some Lichens From
 South Spain." Ann Pharm Fr 49(5):278285, 1991. Abstract.
 Wormwood
 Acevedo, J., et al. "In Vitro Antimicrobrial Activity of Various Plant Extracts Used by Purepecha against Some
 Enterobacteriaceae." Int J Pharmacognosy 31(1):6164, 1993. Abstract.
-Akbar, S. "Anti-Hepatoxic Activity of Salvia haematodes  (Wall.) and Artemesia absinthium  (Linn.)." IRCS
+Akbar, S. "Anti-Hepatoxic Activity of Salvia haematodes (Wall.) and Artemesia absinthium (Linn.)." IRCS
 Med Sci 14:439440, 1986. Abstract.
 Al-Yahya, M., et al. "Phytochemical and Biological Screening of Saudi Medicinal Plants, Part II." Fitoterapia
 54(1):2124, 1983. Abstract.
@@ -4782,30 +4782,30 @@ Fitoterapia 65(2):169172, 1994. Abstract.
 . "Screening of Plants Used in Argentine Folk Medicine for Antimicrobial Activity." J Ethnopharmacol
 39(2):119128, 1993. Abstract.
 Caceres, A., et al. "Plants Used in Guatemala for the Treatment of Dermatophytic Infections. 1. Screening for
-Antimycotic Activity of 44 Plant Extracts." J Ethnopharmacol  31(3):263276, 1991. Abstract.
+Antimycotic Activity of 44 Plant Extracts." J Ethnopharmacol 31(3):263276, 1991. Abstract.
 . "Plants Used in Guatemala for the Treatment of Gastrointestinal Disorders. 1. Screening of 84 Plants Against
 Enterobacteria." J Ethnopharmacol 30(1):5573, 1990. Abstract.
 . "Screening of Antimicrobial Activity of Plants Popularly Used in Guatemala for the Treatment of
-Dermatomucosal Diseases." J Ethnopharmacol  20(3):223237,1987. Abstract.
+Dermatomucosal Diseases." J Ethnopharmacol 20(3):223237,1987. Abstract.
 Carron, R., et al. "Antimicrobial Properties of Different Extracts Obtained from Some Mediterranean Plants of
-Medicinal Interest." Plant Med Phytother  21(4):195202, 1987. Abstract.
+Medicinal Interest." Plant Med Phytother 21(4):195202, 1987. Abstract.
 Chen, C., et al. "Development of Natural Crude Drug Resources from Taiwan (VI). In Vitro Studies of the
-Inhibitory Effect on 12 Microorganisms." Shoyakugaku Zasshi  41(3):215225, 1987. Abstract.
+Inhibitory Effect on 12 Microorganisms." Shoyakugaku Zasshi 41(3):215225, 1987. Abstract.
 Chopra, C., et al. "In Vitro Antibacterial Activity of Oils from Indian Medicinal Plants." J Am Pharm Assoc Sci
 Ed 49:780, 1960. Abstract.
-Demidov, V. "Biological Antiseptics in Certain Plants." Bor'ba Potery v Zhivotnovodstve  1963:183200, 1963.
+Demidov, V. "Biological Antiseptics in Certain Plants." Bor'ba Potery v Zhivotnovodstve 1963:183200, 1963.
 Abstract.
-Dopp, W, and H. Bersch. "Tuberculostatic Action of Some Plant Extracts in Vitro." Pharmazie  5:603604,
+Dopp, W, and H. Bersch. "Tuberculostatic Action of Some Plant Extracts in Vitro." Pharmazie 5:603604,
 1950. Abstract.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 Francois, G., et al. "Antiplasmodial Activities of Sesquiterpent Lactones and Other Compounds in Organic
-Extracts of Artemesia annua." Planta Medica Suppl  59(7):A677A678, 1993. Abstract.
+Extracts of Artemesia annua." Planta Medica Suppl 59(7):A677A678, 1993. Abstract.
 George, M., and Pandalai, K. "Investigations on Plant Antibiotics. Part IV. Further Research for Antibiotic
-Substances in Indian Medicinal Plants." Indian J Med Res  37:169181, 1949. Abstract.
-Gilani, A., and K. Janbaz. "Preventative and Curative Effects of Artemesia absinthium  on Acetaminophen and
-CCL4-Induced Hepatotoxicity." Gen Pharmacol  26(2):309315, 1995. Abstract.
+Substances in Indian Medicinal Plants." Indian J Med Res 37:169181, 1949. Abstract.
+Gilani, A., and K. Janbaz. "Preventative and Curative Effects of Artemesia absinthium on Acetaminophen and
+CCL4-Induced Hepatotoxicity." Gen Pharmacol 26(2):309315, 1995. Abstract.
 Grange, J., and R. Davey. "Detection of Antituberculosis Activity in Plant Extracts." J Appl Bacteriol
 68(6):587591, 1990. Abstract.
 Han, B., et al. "Screening on the Anti-Inflammatory Activity of Crude Drugs." Korean Journal of
@@ -4813,8 +4813,8 @@ Pharmacognosy 4(3):205209, 1972. Abstract.
 Hernandez, H., et al. "Effect of Aqueous Extracts of Artemesia on the In Vitro Culture of Plasmodium
 falciparum." Fitoterapia 61(6):540541, 1990. Abstract.
 Janssen, A., et al. "Screening for Antimicrobial Activity of Some Essential Oils by the Agar Overlay
-Technique." Pharm Weekbl (Sci Ed)  8(6):289292, 1986. Abstract.
- 
+Technique." Pharm Weekbl (Sci Ed) 8(6):289292, 1986. Abstract.
+
 < previous page page_123 next page >
 
 ### Pagina 150
@@ -4825,31 +4825,31 @@ Kaul, V., et al. "Antimicrobial Activities of the Essential Oils of Artemesia ab
 Artemesia vulgaris." Indian Journal of Pharmacy 38:21, 1976. Abstract.
 Khattak, S., et al. "Antipyretic Studies on Some Indigenous Pakistani Medicinal Plants." J Ethnopharmacol
 14(1):4551, 1985. Abstract.
-Li, P. "Fumigation with Artemesia vulgaris  Leaf for Inhibition of Bacterial Activity: Its Therapeutic Effects on
-Burns." Chinese J Surg  13:787, 1965. Abstract.
+Li, P. "Fumigation with Artemesia vulgaris Leaf for Inhibition of Bacterial Activity: Its Therapeutic Effects on
+Burns." Chinese J Surg 13:787, 1965. Abstract.
 McCaleb, Rob. "Immunomodulating Compounds from Chinese Herbs." HerbalGram , no. 41, fall 1997, page
 19.
 McCaleb, Rob. "The Whole is Better." HerbalGram , no. 29, spring/summer 1993, page 20, citing Liu, K., et al.
 "Antimalarial Activity of Artemisia annua Flavionoids from Whole Plants and Cell Cultures. [Coll. Med., Natl.
 Taiwan Univ., Taipei, Taiwan] Plant Cell Rep 11(12):637640.
-Mendiola, J., et al. "Extracts of Artemesia abrotanum and Artemesia absinthium inhibit  growth of Naegleria
-flowleri in vitro." Trans R Soc Trop Med Hyg  85(1):7879, 1991. Abstract.
-Moore, Michael. Medicinal Plants of the Desert and Canyon West.  Sante Fe: Museum of New Mexico Press,
+Mendiola, J., et al. "Extracts of Artemesia abrotanum and Artemesia absinthium inhibit growth of Naegleria
+flowleri in vitro." Trans R Soc Trop Med Hyg 85(1):7879, 1991. Abstract.
+Moore, Michael. Medicinal Plants of the Desert and Canyon West. Sante Fe: Museum of New Mexico Press,
 1989.
 Perez, C., and C. Anesini. "In Vitro Antibacterial Activity of Argentine Folk Medicinal Plants Against
 Salmonella typhii." J Ethnopharmacol 44(1):4146, 1994. Abstract.
 Recio, M., et al. "Antimicrobial Activity of Selected Plants Employed in the Spanish Mediterranean Area, Part
-II." Phytother Res  3(3):7780, 1989. Abstract.
+II." Phytother Res 3(3):7780, 1989. Abstract.
 Shabana, M., et al. "Study of Wild Egyptian Plants of Potential Medicinal Activity Sixth Communication:
-Antibacterial and Antifungal Activities of Some Selected Plants." Arch Exp Veterinaermed  42(5):737741,
+Antibacterial and Antifungal Activities of Some Selected Plants." Arch Exp Veterinaermed 42(5):737741,
 1988. Abstract.
 Van Hensbroek, M., et al. "A Trial of Artemether or Quinine in Children with Cerebral Malaria." N Engl J
-Med 335(2):6975, 1996, and Hien, T. T., N. P. J. Day, N.H. Phu, N Engl J Med  335(2):7683.
+Med 335(2):6975, 1996, and Hien, T. T., N. P. J. Day, N.H. Phu, N Engl J Med 335(2):7683.
 Weisbord, S., et al. "Poison On Line Acute Renal Failure Caused by Oil of Wormwood Purchased Through the
-Internet." N Engl J Med  337(12):825827, 1997. Abstract.
-Yashphe, J., et al. "Antibacterial Activity of Artemesia herba-alba ." J Pharm Sci  68:924925, 1979. Abstract.
-Zafar, M. et al. "Screening of Artemesia absinthium  for Antimalarial Effects on Plasmodium berghei in Mice:
-A Preliminary Report." J Ethnopharmacol  30(2):223226, 1990. Abstract.
+Internet." N Engl J Med 337(12):825827, 1997. Abstract.
+Yashphe, J., et al. "Antibacterial Activity of Artemesia herba-alba ." J Pharm Sci 68:924925, 1979. Abstract.
+Zafar, M. et al. "Screening of Artemesia absinthium for Antimalarial Effects on Plasmodium berghei in Mice:
+A Preliminary Report." J Ethnopharmacol 30(2):223226, 1990. Abstract.
 Ashwagandha
 Al-Meshal, I., et al. "Phytochemical and Biological Screening of Saudi Medicinal Plants, Part I." Fitoterapia
 53:7984, 1982. Abstract.
@@ -4859,7 +4859,7 @@ Ethnopharmacol 16(1):113, 1986. Abstract.
 Botanical Medicine, Vol. 1, No. 1, 1995, pages 144146.
 Farouk, A. "Antimicrobial Activity of Certain Sudanese Plants Used in Folkloric Medicine. Screening for
 Antimicrobial Activity." Fitoterapia 54(1):37, 1983. Abstract.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 
 ### Pagina 151
 
@@ -4874,18 +4874,18 @@ Pharmacy 29(6):185186, 1967. Abstract.
 Jaffer, H., et al. "Evaluation of Antimicrobial Activity of Withania somnifera Extracts." Fitoterapia
 59(6):497500, 1988. Abstract.
 Khan, M., et al. "Antibacterial Activity of Withania coagulans ." Fitoterapia 64(4):367370, 1993. Abstract.
-Landis, Robyn, and K. P. Khalsa. Herbal Defense.  New York: Warner Books, 1997.
-Ray, R., and S. Majumdar. "Antimicrobial Activity of Some Indian Plants." Econ Bot  30:317320, 1976.
+Landis, Robyn, and K. P. Khalsa. Herbal Defense. New York: Warner Books, 1997.
+Ray, R., and S. Majumdar. "Antimicrobial Activity of Some Indian Plants." Econ Bot 30:317320, 1976.
 Abstract.
-Weil, Andrew. Eight Weeks to Optimum Health.  New York: Alfred A. Knopf, 1998.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Weil, Andrew. Eight Weeks to Optimum Health. New York: Alfred A. Knopf, 1998.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Multiple abstract listings.
 Astragalus
 "Botanicals Containing Phytochemical Antagonists of Specific Micro-Organisms." Protocol Journal of
 Botanical Medicine, vol. 1, no. 1, summer 1995, pages 144146.
-Choe, I. "Antibacterial Activities of Some Herb Drugs." Korean J Pharmacog  17(4):302307, 1986. Abstract.
+Choe, I. "Antibacterial Activities of Some Herb Drugs." Korean J Pharmacog 17(4):302307, 1986. Abstract.
 Gagnon, Daniel. "Seven Top Cold and Flu-Fighting Herbs." Prevention , December 1998.
-Landis, Robyn, and K. P. Khalsa. Herbal Defense.  Warner Books, 1997.
+Landis, Robyn, and K. P. Khalsa. Herbal Defense. Warner Books, 1997.
 McCaleb, Rob. "Astragalus and Viral Heart Disease." HerbalGram , no. 24, winter 1991, page 20, citing Jiang
 and Xiao, Handbook of Planta Medica ., Beijing: People's Health Publishers, 1986, pages 127128.
 . "Astragalus Enhances Natural Killer Cell Activity." HerbalGram , no. 21, fall 1989, page 16, citing J Clin Lab
@@ -4896,16 +4896,16 @@ Med J 107(7):595, 1987.
 Research 48:14105, 1988.
 Ross, S., et al. "Studies for Determining Antibiotic Substances in Some Egyptian Plants. Part I. Screening for
 Antimicrobial Activity." Fitoterapia 51:303308, 1980. Abstract.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Multiple abstract listings.
 Zolotnitskaya, S., et al. "The Antimicrobial Activity of Some Alkaloid-Containing Plants of the Armenian
-Flora" IZV Akad Nauk Arm SSr Biol Nauki  15(8):33, 1962. Abstract.
+Flora" IZV Akad Nauk Arm SSr Biol Nauki 15(8):33, 1962. Abstract.
 Boneset
-Bergner, Paul. The Healing Power of Echinacea and Goldenseal.  Rocklin, CA: Prima Publishing, 1997.
-Boyd, L. "Pharmacology of the Homeopathic Drugs." J Am Inst Homeopathy  21:209, 1928. Abstract.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Bergner, Paul. The Healing Power of Echinacea and Goldenseal. Rocklin, CA: Prima Publishing, 1997.
+Boyd, L. "Pharmacology of the Homeopathic Drugs." J Am Inst Homeopathy 21:209, 1928. Abstract.
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 
 ### Pagina 153
 
@@ -4916,49 +4916,49 @@ Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: E
 < previous page page_126 next page >
 Page 126
 Gassinger, C., et al. "A Controlled Clinical Trial for Testing the Efficacy of the Homeopathic Drug Eupatorium
-perfoliatum D2 in the Treatment of Common Cold." Arzneim-Forsch  31:732736, 1981. Abstract.
-Moerman, Daniel. Medicinal Plants of Native America.  Ann Arbor, MI: University of Michigan, Museum of
+perfoliatum D2 in the Treatment of Common Cold." Arzneim-Forsch 31:732736, 1981. Abstract.
+Moerman, Daniel. Medicinal Plants of Native America. Ann Arbor, MI: University of Michigan, Museum of
 Anthropology, Technical Reports, No. 19, 1986.
-Muni, I., et al. "Cytoxicity of North Dakota Plants: I. In Vitro Studies." J Pharm Sci  56:5054, 1967. Abstract.
-Vollmar, A., et al. "Immunologically Active Polysaccharides of Eupatorium cannabinum  and Eupatorium
+Muni, I., et al. "Cytoxicity of North Dakota Plants: I. In Vitro Studies." J Pharm Sci 56:5054, 1967. Abstract.
+Vollmar, A., et al. "Immunologically Active Polysaccharides of Eupatorium cannabinum and Eupatorium
 perfoliatum." Phytochemistry 25(2):377381, 1986. Abstract.
-Wagner, H., et al. "Immunostimulating Polysaccharides of Higher Plants." Arzneim-Forsch  35(7):10691075,
+Wagner, H., et al. "Immunostimulating Polysaccharides of Higher Plants." Arzneim-Forsch 35(7):10691075,
 1985. Abstract.
 . "Immunostimulating Polysaccharides of Higher Plants/Preliminary Communication." Arzneim-Forsch
 34(6):659661, 1984. Abstract.
-Weiss, Rudolph. Herbal Medicine.  Beaconsfield, England: Beaconsfield Pub. Ltd., 1988.
+Weiss, Rudolph. Herbal Medicine. Beaconsfield, England: Beaconsfield Pub. Ltd., 1988.
 Wood, Matthew. The Book of Herbal Wisdom. " Berkeley, CA: North Atlantic Books, 1998.
 Red Root
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
-Moerman, Daniel. Medicinal Plants of Native America.  Ann Arbor, MI: University of Michigan, Museum of
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
+Moerman, Daniel. Medicinal Plants of Native America. Ann Arbor, MI: University of Michigan, Museum of
 Anthropology, Technical Reports, No. 19, 1986.
-Moore, Michael. Medicinal Plants of the Mountain West.  Sante Fe: Museum of New Mexico Press, 1979.
-. Medicinal Plants of the Pacific West.  Sante Fe: Red Crane Books, 1993. Wood, Matthew. The Book of Herbal
+Moore, Michael. Medicinal Plants of the Mountain West. Sante Fe: Museum of New Mexico Press, 1979.
+. Medicinal Plants of the Pacific West. Sante Fe: Red Crane Books, 1993. Wood, Matthew. The Book of Herbal
 Wisdom. Berkeley, CA: North Atlantic Books, 1998.
 Siberian Ginseng
-Bergner, Paul. The Healing Power of Ginseng and the Tonic Herbs.  Rocklin, CA: Prima Publishing, 1996.
+Bergner, Paul. The Healing Power of Ginseng and the Tonic Herbs. Rocklin, CA: Prima Publishing, 1996.
 Duke, James A. The Green Pharmacy. Emmaus, PA: Rodale Press, 1998.
 Foster, Steven. Siberian Ginseng. Austin,TX: American Botanical Council, 1991.
 McCaleb, Rob. "Interview with I. I. Brekhman." HerbalGram , no. 16, spring 1988.
 . "Nature's Medicine for Memory Loss." HerbalGram , no. 23, summer 1990, page 15.
-Weil, Andrew. Eight Weeks to Optimum Health.  New York: Alfred A. Knopf, 1998.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Weil, Andrew. Eight Weeks to Optimum Health. New York: Alfred A. Knopf, 1998.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts of clinical trials and studies.
 Shiitake
 Duke, James A. The Green Pharmacy. Emmaus, PA: Rodale, 1998.
 Herb Research Foundation. Herbal Immunity Boosters. Boulder, CO: HRF, 1995.
 Hobbs, Christopher. Medicinal Mushrooms. Capitola, CA: Botanica, 1995.
-Landis, Robyn, and K. P Khalsa. Herbal Defense.  New York: Warner Books, 1997.
+Landis, Robyn, and K. P Khalsa. Herbal Defense. New York: Warner Books, 1997.
 
 ### Pagina 155
 
 McCaleb, Rob. "Anti-Cancer Effects of Herbs." HerbalGram , no. 30, winter 1994, page 10.
-Schmidt, M., et al. Beyond Antibiotics.  Berkeley, CA: North Atlantic, 1994.
-Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness.  Tarzana, CA: Third Line Press, 1994.
+Schmidt, M., et al. Beyond Antibiotics. Berkeley, CA: North Atlantic, 1994.
+Werbach, Melvyn, and Michael Murray. Botanical Influences on Illness. Tarzana, CA: Third Line Press, 1994.
 Lists multiple abstracts of clinical trials and studies.
- 
+
 < previous page page_126 next page >
 
 ### Pagina 156
@@ -4967,23 +4967,23 @@ Lists multiple abstracts of clinical trials and studies.
 Page 127
 General References
 Duke, James A. The Green Pharmacy. Emmaus, PA: Rodale, 1998.
-Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy.  Cincinnati: Eclectic
+Ellingwood, Finley. American Materia Medica, Therapeutics, and Pharmacognosy. Cincinnati: Eclectic
 Publications, 1919.
 Farnsworth, Norman. ''The Present and Future of Pharmacognosy." American Botanical Council Reprint No.
-209, reprinted from American Journal of Pharmaceutical Education,  43:239243 (1979). World Health
+209, reprinted from American Journal of Pharmaceutical Education, 43:239243 (1979). World Health
 Organization mandate on traditional medicines.
-Felter, Harvey, and John Uri Lloyd. King's American Dispensatory.  Cincinnati: Eclectic Publications, 1895.
+Felter, Harvey, and John Uri Lloyd. King's American Dispensatory. Cincinnati: Eclectic Publications, 1895.
 Herb Research Foundation. Herbal Immunity Boosters. Boulder, CO: HRF, 1995.
 "Herbal Bacteria Busters." Psychology and Health , vol. 8, no. 6, November/December 1998, page 4. Essential
 oils of thyme, rosewood, and oregano effective in treatment of pneumonia.
-Hoffmann, David. The New Holistic Herbal.  Rockport, MA: Element, 1992.
-Landis, Robyn, and K. P. Khalsa. Herbal Defense.  New York: Warner Books, 1997.
+Hoffmann, David. The New Holistic Herbal. Rockport, MA: Element, 1992.
+Landis, Robyn, and K. P. Khalsa. Herbal Defense. New York: Warner Books, 1997.
 Lifeline: "Berry Good." USA Today, October 8, 1998, page D1. (Cranberry juice found to prevent E. coli from
-adhering to urinary tract walls, citing New England Journal of Medicine,  October 8, 1998.)
+adhering to urinary tract walls, citing New England Journal of Medicine, October 8, 1998.)
 Medical Herbalism, all issues.
-Moerman, Daniel. Medicinal Plants of Native America.  Ann Arbor, MI: University of Michigan, Museum of
+Moerman, Daniel. Medicinal Plants of Native America. Ann Arbor, MI: University of Michigan, Museum of
 Anthropology, Technical Reports, no. 19, 1986.
-Moore, Michael. Medicinal Plants of the Mountain West.  Sante Fe: Museum of New Mexico Press, 1976.
+Moore, Michael. Medicinal Plants of the Mountain West. Sante Fe: Museum of New Mexico Press, 1976.
 NAPRALERT Database of Botanicals Effective against Human Pathogenic Bacteria as of 12/1/1998.
 NAPRALERT (SM) is an acronym for Natural Products ALERT, a dynamic database that is updated
 periodically and which has been copyrighted from 1975 to date by the Board of Trustees, The University of
@@ -4994,13 +4994,13 @@ Phone: 312-996-2246.
 The data in NAPRALERT(SM) represents a synthesis of information from more than 150,000 scientific
 journal articles, books, abstracts, and patents, collected systematically from the global literature, since 1975.
 The Protocol Journal of Botanic Medicine, all issues.
-Schmidt, Michael, et al. Beyond Antibiotics.  Berkeley, CA: North Atlantic Books, 1994.
-Sparrow. "Medicine Garden Wheel." In: Buhner, Stephen (editor). Plants of Power.  Unpublished manuscript.
+Schmidt, Michael, et al. Beyond Antibiotics. Berkeley, CA: North Atlantic Books, 1994.
+Sparrow. "Medicine Garden Wheel." In: Buhner, Stephen (editor). Plants of Power. Unpublished manuscript.
 Use of garlic vine for malaria.
 Tucker, Arthur O. "Heal Yourself With Aromatherapy." Herbs for Health , January/February 1999.
-Weil, Andrew. Eight Weeks to Optimum Health.  New York: Knopf, 1998.
-Weiss, Rudolph. Herbal Medicine.  Sweden: Beaconsfield, 1988.
- 
+Weil, Andrew. Eight Weeks to Optimum Health. New York: Knopf, 1998.
+Weiss, Rudolph. Herbal Medicine. Sweden: Beaconsfield, 1988.
+
 < previous page page_127 next page >
 
 ### Pagina 157
@@ -5021,7 +5021,7 @@ Age, ginseng and, 80
 Agribusiness. See Factory farms
 AIDS, 39
 Airborne Infections, Essential Oil Mix for, 99
-Alcohol tinctures. See  Tinctures, alcohol
+Alcohol tinctures. See Tinctures, alcohol
 Allicin, 33
 Album sativum. See Garlic
 Aloe (Aloe spp.)
@@ -5042,7 +5042,7 @@ Antioxidants, 52-53
 ### Pagina 158
 
 Appendix, 67
-Artemisia absinthium. See  Wormwood
+Artemisia absinthium. See Wormwood
 Ashwagandha (Withania somnifera)
 about, 69-70
 alternatives to, 71
@@ -5087,7 +5087,7 @@ about, 74-76
 alternatives to, 76
 preparation/dosage, 76
 side effects/contraindications, 76
- 
+
 < previous page page_128 next page >
 
 ### Pagina 160
@@ -5137,7 +5137,7 @@ ear infections, 100-103
 fever, 104
 glycerites and honeys, 104
 Chlamydia trachomatis, 40
-Citrus paradisi. See  Grapefruit seed extract (GSE)
+Citrus paradisi. See Grapefruit seed extract (GSE)
 Clark's Rule, 103
 Coconut Grove restaurant fire (1942), 4, 24
 Cold infusions, 87
@@ -5176,7 +5176,7 @@ treatment for, 46
 treatment of, 25, 40, 42, 65, 104, 105
 Diffusers, defined, 99
 Disinfectants, 46
- 
+
 < previous page page_129 next page >
 
 ### Pagina 163
@@ -5265,7 +5265,7 @@ odor, controlling, 34
 preparation/dosage, 35
 recipes, 93, 102
 side effects/contraindications, 35-36
- 
+
 < previous page page_130 next page >
 
 ### Pagina 166
@@ -5356,11 +5356,11 @@ Hospitals, 1, 2, 10
 Hot Infusion for Parasites, 87
 Hot infusions, 86
 Hydrastine, 38
-Hydrastis canadensis. See  Goldenseal
+Hydrastis canadensis. See Goldenseal
 I
 Immune-Enhancing Rice, 73
 Immune Soup, 83
- 
+
 < previous page page_131 next page >
 
 ### Pagina 169
@@ -5373,7 +5373,7 @@ foods and vitamins for, 81-84
 herbs for strengthening, 69-80
 lifestyle choices and, 84
 revitalizing strategies, 68
-Immunity, drug. See  Bacterial resistance
+Immunity, drug. See Bacterial resistance
 Immunoglobulin A (IgA), 40
 Impetigo, 49
 Infusions, making/using
@@ -5402,7 +5402,7 @@ Lappé, Marc, 2, 4, 5, 68, 106
 
 ### Pagina 170
 
-Lentinus edodes. See  Shiitake
+Lentinus edodes. See Shiitake
 Levy, Dr. Stuart, 2, 4, 5, 6, 9, 13, 16, 17
 Licorice (Glycyrrhiza glabra)
 about, 53-55
@@ -5423,7 +5423,7 @@ treatment of, 25, 26, 31, 37, 61, 65, 87
 McCaleb, Rob, 71
 McClintock, Barbara, 9
 Meningitis, 10, 11
-Methicillin-resistant S. aureus  (MRSA), 16
+Methicillin-resistant S. aureus (MRSA), 16
 Mimosas. See Acacia
 Miracle drugs. See Antibiotics
 Mold, bread, 4, 5
@@ -5451,7 +5451,7 @@ Oil for Ear Infection, 102
 Oil infusions, making/using, 92-95
 Old man's beard. See Usnea
 Onion, as immune system booster, 81
- 
+
 < previous page page_132 next page >
 
 ### Pagina 172
@@ -5504,7 +5504,7 @@ identifying in the wild, 78
 preparation/dosage, 78
 recipes, 91, 102
 side effects/contraindications, 78
-Resistance, drug. See  Bacterial resistance
+Resistance, drug. See Bacterial resistance
 Rice, Immune-Enhancing, 73
 Rosemary Gladstar's Tea for Diarrhea, 105
 S
@@ -5543,7 +5543,7 @@ Snuff, 41, 42
 Soil fungi, 4, 5
 Soup, Immune, 83
 Spices, antibacterial, 65-66
- 
+
 < previous page page_133 next page >
 
 ### Pagina 175
@@ -5551,7 +5551,7 @@ Spices, antibacterial, 65-66
 < previous page page_134 next page >
 Page 134
 Spleen, 67, 68
-Spoiled: The Dangerous Truth About a Food Chain Gone Haywire  (book), 12, 14
+Spoiled: The Dangerous Truth About a Food Chain Gone Haywire (book), 12, 14
 Sprays, nasal. See Nasal sprays
 St. John's wort, 25, 50
 Staphylococcus aureus
@@ -5636,7 +5636,7 @@ alternatives to, 60
 preparation/dosage, 58-59
 recipes, 92, 93, 94, 96
 side effects/contraindications, 59-60
- 
+
 < previous page page_134 next page >
 
 ### Pagina 178
@@ -5645,7 +5645,7 @@ side effects/contraindications, 59-60
 Page 135
 V
 Vancomycin, 16
-Vancomycin-resistant S. aureus,  16
+Vancomycin-resistant S. aureus, 16
 Venomous stings/bites, treatment of, 22, 28, 29, 30
 Viruses, bacterial, 9
 Vitamin C, 51, 52-53, 81-82
@@ -5684,8 +5684,8 @@ Yarrow, active constituents of, 19
 Yersinia, spread of, factory farms and, 12
 Young's Rule, 103
 Z
-Zingiber officinale. See  Ginger
- 
+Zingiber officinale. See Ginger
+
 < previous page page_135 next page >
 
 ### Pagina 180
@@ -5697,27 +5697,27 @@ Natural First Aid: Herbal Treatments for Ailments and Injuries; Emergency Prepar
 by Brigitte Mars. Also in the Storey Medicinal Herb Guide series, this book offers quick, effective, and natural
 first aid suggestions for everything from ant bites to wounds. Include recipes for simple home remedies and
 recommendations for a stocking a first aid kit for home or travel. 144 pages. Paperback. ISBN: 1-58017-147-8.
-Rosemary Gladstar's Herbs for Longevity & Well-Being.  A thorough exploration of the life-extending
+Rosemary Gladstar's Herbs for Longevity & Well-Being. A thorough exploration of the life-extending
 properties of herbs such as ginkgo, ginseng, and echinacea, and their use in cultures around the world. Includes
 recipes to enhance quality of life, and tips for extending life through health living. 80 pages. Paperback. ISBN:
 1-58017-154-0.
-Rosemary Gladstar's Herbs for the Home Medicine Chest.  Discover the healing properties of common herbs
+Rosemary Gladstar's Herbs for the Home Medicine Chest. Discover the healing properties of common herbs
 like calendula and comfrey, then learn how to make medicinal teas, salves, oils, and syrups for first aid needs
 and everyday problems such as headaches and colds. 96 pages. Paperback. ISBN: 1-58017-156-7.
-Rosemary Gladstar's Herbal Remedies for Children's Health.  Learn how popular herbs have been used in
+Rosemary Gladstar's Herbal Remedies for Children's Health. Learn how popular herbs have been used in
 different cultures to treat children's illnesses such as colic, fever, stoma distress, and the common cold. Includes
 dozens of recipes for everything from herbal salves to tinctures to teas, plus a dosage chart and storage
 instructions. 80 pages. Paperback. ISBN: 1-58017-153-2.
-Healing with Herbs: Simple treatments for more than 100 common ailments,  by Penelope Ody. This visual
+Healing with Herbs: Simple treatments for more than 100 common ailments, by Penelope Ody. This visual
 introduction to the world of herbal medicine offers clear, illustrated instructions for growing, preparing, and
 administering healing herbs to relieve common ailments. 160 pages. Hardcover. ISBN: 1-58017-144-3.
-The Herbal Home Remedy Book: Simple Recipes for Tinctures, Teas, Salves, Tonics, and Syrups,  by Joyce A.
+The Herbal Home Remedy Book: Simple Recipes for Tinctures, Teas, Salves, Tonics, and Syrups, by Joyce A.
 Wardwell. Discover how to use 25 common herbs to make simple herbal remedies for everything from colds
 and coughs to joint pain and earaches. Native American legends and folklore are spread throughout the book.
 176 pages. Paperback. ISBN: 1-58017-016-1.
 These books and other Storey Books are available at your bookstore, farm store, garden center, or directly
 from Storey Books, Schoolhouse Road, Pownal, Vermont 05261, or by calling 1-800-441-5700. Or visit our
-Web site at 
+Web site at
 www.storey.com.
- 
+
 < previous page page_136

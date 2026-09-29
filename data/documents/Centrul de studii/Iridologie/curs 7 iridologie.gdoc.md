@@ -38,13 +38,13 @@ Aceasta este sau ar putea fi subiectul unor probleme emoţionale. Ar putea fi su
 
 ![Imagine image2]
 
-**Linia Dizarmonică** 
+**Linia Dizarmonică**
 
 Această linie este linia ecuatorială de-a lungul irisului. Dacă este proeminentă atunci poate indica o problemă în organele principale care ocupă poziţii lângă ceafă şi gât. Hipertiroida poate constitui o problemă (sau o potenţială problemă) atât pentru plămâni, inimă dar şi probleme la sâni.
 
-**Linia Durerii** 
+**Linia Durerii**
 
-Aceasta este sugestivă pentru durerile nervoase. În general trece prin ficat şi splină. Indivizii pot permite  ca furia sa-i facă să se îmbolnăvească. Pot ţine ranchiună şi să se consume o data cu furia lor. Ar putea suferi probleme cu ficatul şi splina.
+Aceasta este sugestivă pentru durerile nervoase. În general trece prin ficat şi splină. Indivizii pot permite ca furia sa-i facă să se îmbolnăvească. Pot ţine ranchiună şi să se consume o data cu furia lor. Ar putea suferi probleme cu ficatul şi splina.
 
 **Linia Infecţiilor**
 
@@ -74,12 +74,12 @@ Aceasta este cel mai adesea prezentă în problemele legate de mancare. Indivizi
 
 **Linia sexului**
 
-Aceasta indică faptul că ar putea exista probleme de natură sexuală, fie din exces sau inhibiţie. De asemenea ar putea fi o obsesie legată de  copii şi de dorinţa de a avea o familie numeroasă. Ar putea fi probleme ginecologice, parţial funcţionale sau emoţionale, la origine. Perioadele menstruale pot fi asociate cu migrenele. Ar putea fi o tendinţă prin sindromul ovarului polichistic cu durere menstruală, hirsutim si acnee.
+Aceasta indică faptul că ar putea exista probleme de natură sexuală, fie din exces sau inhibiţie. De asemenea ar putea fi o obsesie legată de copii şi de dorinţa de a avea o familie numeroasă. Ar putea fi probleme ginecologice, parţial funcţionale sau emoţionale, la origine. Perioadele menstruale pot fi asociate cu migrenele. Ar putea fi o tendinţă prin sindromul ovarului polichistic cu durere menstruală, hirsutim si acnee.
 
-**Linia psihosomatică** 
+**Linia psihosomatică**
 
-Acest nume vorbeşte de la sine. Indivizii vor avea o tendinţă de nelinişte asupra sănătăţii lor. Ei sunt capabili să-şi somatizeze neliniştea  în a-şi  produce o problemă fizică. Acea problemă poate avea legatură cu rinichii,vezica urinară şi probleme sexuale.
+Acest nume vorbeşte de la sine. Indivizii vor avea o tendinţă de nelinişte asupra sănătăţii lor. Ei sunt capabili să-şi somatizeze neliniştea în a-şi produce o problemă fizică. Acea problemă poate avea legatură cu rinichii,vezica urinară şi probleme sexuale.
 
-**Linia de Rezilianţă**  
+**Linia de Rezilianţă**
 
-Aceasta oferă indicaţii despre sensitivitatea unui individ. Dacă este marcată ,atunci individul se poate îmbolnăvi destul de repede, are o rezistenţă slabă şi  proaste abilităţi de coping. El  nu are o rezilienţă şi nu face presiuni foarte bine. Nu ar trebui sa se suprasolicite singuri fizic ,emoţional sau să-şi asume prea mari responsabilităţi. Ei nu sunt demni să spere.
+Aceasta oferă indicaţii despre sensitivitatea unui individ. Dacă este marcată ,atunci individul se poate îmbolnăvi destul de repede, are o rezistenţă slabă şi proaste abilităţi de coping. El nu are o rezilienţă şi nu face presiuni foarte bine. Nu ar trebui sa se suprasolicite singuri fizic ,emoţional sau să-şi asume prea mari responsabilităţi. Ei nu sunt demni să spere.

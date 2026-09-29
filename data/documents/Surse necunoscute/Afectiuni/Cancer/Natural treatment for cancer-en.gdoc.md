@@ -18,7 +18,7 @@ embedded_image_payloads_removed: 0
 
 - **Vitamin B17**: 500mg x 2-3 times per day, OR apricot seeds (1 tablespoon 2 times per day)
 
-- **Artemisia annua** tea: infusion from 2 tablespoons of herbs to one cup of water. Drink two cups of tea everyday, and take a supplement with iron. It's very important to take it with warm/hot tea. I would recommend to drink the tea as fast as possible because it's very bitter. Cancer cells loves iron but this is used only as a bait for them. Artemissia annua is one of the best cancer cells killer known. 
+- **Artemisia annua** tea: infusion from 2 tablespoons of herbs to one cup of water. Drink two cups of tea everyday, and take a supplement with iron. It's very important to take it with warm/hot tea. I would recommend to drink the tea as fast as possible because it's very bitter. Cancer cells loves iron but this is used only as a bait for them. Artemissia annua is one of the best cancer cells killer known.
 
 - **Milk Thistle** tincture: 1 tablespoon 2 times per day. If cancer it's in a later stage then the dosage can be increased to 2-3 tablespoons 3 times per day
 

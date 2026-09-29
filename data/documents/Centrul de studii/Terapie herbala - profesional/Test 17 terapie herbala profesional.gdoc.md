@@ -38,11 +38,11 @@ Dar in doze mari devine toxica.
 
 5. Care este acțiunea terapeutică și utilizările medicinale ale plopului alb?
 
-**Actiuni**: astringent, antiseptic, antimicotic, usor antiinflamator, slab analgezic, expectorant, diuretic, diaforetic, cicatrizant, tonic, antiscorbutic, febrifug. 
+**Actiuni**: astringent, antiseptic, antimicotic, usor antiinflamator, slab analgezic, expectorant, diuretic, diaforetic, cicatrizant, tonic, antiscorbutic, febrifug.
 
-**Intern** se poate folosi in caz de acnee, actinomicoze, afectiuni renale, afectiuni tumorale, artrita, astm bronhic, balonari, boli reumatice, bronsite acute sau cronice, cancer, candidoze, colite de fermentatie si de putrefactie, diaree, dureri de gat, gripa, guturai, guta, inflamatiile cailor urinare, intoxicatii,  litiaze urinare, nevralgii,  tuberculoza.
+**Intern** se poate folosi in caz de acnee, actinomicoze, afectiuni renale, afectiuni tumorale, artrita, astm bronhic, balonari, boli reumatice, bronsite acute sau cronice, cancer, candidoze, colite de fermentatie si de putrefactie, diaree, dureri de gat, gripa, guturai, guta, inflamatiile cailor urinare, intoxicatii, litiaze urinare, nevralgii, tuberculoza.
 
-**Extern** se poate folosi in caz de acnee, inflamatii, leziuni ale pielii, degeraturi, rani cangrenate, alopecie, arsuri, degeraturi, dermatomicoze, hemoroizi, infectii cutanate, reumatism, spondiloza, foliculite, leucoree, piodermite \- sub forma de bai cu infuzie de muguri, cataplasme, alifie, unguent, dar si spalaturi cu carbune si apa (mai ales in leucoree) sau aplicatii locale de pulbere de carbune. 
+**Extern** se poate folosi in caz de acnee, inflamatii, leziuni ale pielii, degeraturi, rani cangrenate, alopecie, arsuri, degeraturi, dermatomicoze, hemoroizi, infectii cutanate, reumatism, spondiloza, foliculite, leucoree, piodermite \- sub forma de bai cu infuzie de muguri, cataplasme, alifie, unguent, dar si spalaturi cu carbune si apa (mai ales in leucoree) sau aplicatii locale de pulbere de carbune.
 
 6\. Care sunt charactaricile de identificare ale GENTIANACEAE?
 
@@ -64,4 +64,4 @@ Tinctura din golden seal, flori de galbenele si radacina de lemn-dulce actioneaz
 
 10\. Faceti o descriere generală a ierburilor tonice.
 
-Tonicele cresc permanent tonul de-a lungul întregului sistem, crescand vigoarea, energia și puterea, stimuland asimilarea de substante nutritive. Ele produc ton normal țesuturilor unui organ, rezultand un muschi sănătos și funcțional. Aceste plante sporesc pofta de mâncare, promoveaza eliminarea mai bună a resturilor, ajuta la digestie, alina stomacul și, treptat, construiesc forta, energia și  sănătatea. Ca o regulă, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Exemplu de ierburi tonice: dracila, tintaura, schinel ,smirna, ghintura galbena, golden seal, calumba, arbore de chinina,
+Tonicele cresc permanent tonul de-a lungul întregului sistem, crescand vigoarea, energia și puterea, stimuland asimilarea de substante nutritive. Ele produc ton normal țesuturilor unui organ, rezultand un muschi sănătos și funcțional. Aceste plante sporesc pofta de mâncare, promoveaza eliminarea mai bună a resturilor, ajuta la digestie, alina stomacul și, treptat, construiesc forta, energia și sănătatea. Ca o regulă, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Exemplu de ierburi tonice: dracila, tintaura, schinel ,smirna, ghintura galbena, golden seal, calumba, arbore de chinina,

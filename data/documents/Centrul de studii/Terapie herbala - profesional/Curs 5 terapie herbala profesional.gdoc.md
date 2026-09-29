@@ -18,7 +18,7 @@ Curs 5
 
 Ierburi curative
 
-Printre plantele curative există mai mult de 100 de plante de specialitate care curăța sângele,țesuturile și organele eliminatorii. Calificarea în utilizarea ierburilor curative te va ajuta foarte mult in vindecarea oamenilor. Impuritățile din sânge apar din cauza funcționării necorespunzătoare a unuia sau mai multor organe, cel mai frecvent organele secretorii, care nu reușesc să transporte impuritățile din sânge. Toxicitatea poate veni, de asemenea, de la produse alimentare necorespunzătoare sau impure. În timp ce te straduiesti sa cureti sângele, aflii  si cauza bolii , pentru o vindecare completa. Multe plante pot fi clasificate drept curative deoarece acestea promovează eliminarea impurităților. Adevăratele plante curative curata și purifică fluxul sanguin încet dar sigur și, în același timp,tonifiaza organul sau organele care nu pot fi capabile sa secrete impuritățile din sânge. Ficatul, rinichii, pielea sunt organele principale pentru secretia impurităților și deșeurilor. Dacă ficatul este apatic și bila reține în sistem,am putea găsi ca bila reținuta a afectat digestia și, într-un alt caz, a provocat o erupție cutanată. Acneea, de tip erupție cutanata este unul din primele semne ale eșecului de a menține o cale deschisă de eliminare prin ficat și intestine. În cazul în care rinichii nu secreta așa cum ar trebui, fluxul sanguin poate rămâne toxic. Pielea nu poate elimina bine,sau plămânii pot fi în imposibilitatea de a oxigena sângele. Asadar, trebuie să știi ce organ este implicat, pentru prescrierea curativelor. În plus, trebuie să știi calitățile specifice ale fiecărei plante. De exemplu, există curative de stimulare și tonifiere si curative de relaxare Alimentele, aerul, stresul emoțional și alți factori esențiali trebuie să fie îmbunătățiti, în plus față de utilizarea plantelor, altfel fluxul sanguin poate rămâne toxic.
+Printre plantele curative există mai mult de 100 de plante de specialitate care curăța sângele,țesuturile și organele eliminatorii. Calificarea în utilizarea ierburilor curative te va ajuta foarte mult in vindecarea oamenilor. Impuritățile din sânge apar din cauza funcționării necorespunzătoare a unuia sau mai multor organe, cel mai frecvent organele secretorii, care nu reușesc să transporte impuritățile din sânge. Toxicitatea poate veni, de asemenea, de la produse alimentare necorespunzătoare sau impure. În timp ce te straduiesti sa cureti sângele, aflii si cauza bolii , pentru o vindecare completa. Multe plante pot fi clasificate drept curative deoarece acestea promovează eliminarea impurităților. Adevăratele plante curative curata și purifică fluxul sanguin încet dar sigur și, în același timp,tonifiaza organul sau organele care nu pot fi capabile sa secrete impuritățile din sânge. Ficatul, rinichii, pielea sunt organele principale pentru secretia impurităților și deșeurilor. Dacă ficatul este apatic și bila reține în sistem,am putea găsi ca bila reținuta a afectat digestia și, într-un alt caz, a provocat o erupție cutanată. Acneea, de tip erupție cutanata este unul din primele semne ale eșecului de a menține o cale deschisă de eliminare prin ficat și intestine. În cazul în care rinichii nu secreta așa cum ar trebui, fluxul sanguin poate rămâne toxic. Pielea nu poate elimina bine,sau plămânii pot fi în imposibilitatea de a oxigena sângele. Asadar, trebuie să știi ce organ este implicat, pentru prescrierea curativelor. În plus, trebuie să știi calitățile specifice ale fiecărei plante. De exemplu, există curative de stimulare și tonifiere si curative de relaxare Alimentele, aerul, stresul emoțional și alți factori esențiali trebuie să fie îmbunătățiti, în plus față de utilizarea plantelor, altfel fluxul sanguin poate rămâne toxic.
 
 Patlagina (Plantago major; P.lanceolata; Plantaginaceae)Nume comune: Patlagina cucului, patlagina . Patlagina cu frunze late este Plantago lanceolata, care e tratata în acest text ca echivalent medicinal.
 
@@ -34,9 +34,9 @@ Acțiune terapeutică: curative de răcire, depurante, diuretice, emoliente,ușo
 
 Preparate: extract fluid, infuzie, pulbere, tinctura. Glicerina poate fi folosita ca un conservant.
 
-Dozare: extract fluid ½ \-1 lingurita infuzabilă, 56ml  de lichid de 3-4 ori pe zi, pulbere de 1-3 grame, tinctura de ½ \-1 lingurita de lichid 
+Dozare: extract fluid ½ \-1 lingurita infuzabilă, 56ml de lichid de 3-4 ori pe zi, pulbere de 1-3 grame, tinctura de ½ \-1 lingurita de lichid
 
-ADMINISTRARE Anal-Diaree, hemoroizi: foloseste un ceai tare, infuzeaza o lingură de trei sau patru ori pe zi (sau mai frecvent în cazuri grave) și mai ales după fiecare scaun. Unguent: poti face  un unguent fierband cca. 60g  de planta granulată sau sub formă de pulbere (dubleaza cantitatea pentru plante proaspete), într-o jumătate de litru de ulei (de masline,soia, floarea soarelui, arahide), se adaugă ceară de albine sa se ingroase, se aplica pe bumbac moale sau tifon și se foloseste o bandă sau curea pentru a-l ține în loc.
+ADMINISTRARE Anal-Diaree, hemoroizi: foloseste un ceai tare, infuzeaza o lingură de trei sau patru ori pe zi (sau mai frecvent în cazuri grave) și mai ales după fiecare scaun. Unguent: poti face un unguent fierband cca. 60g de planta granulată sau sub formă de pulbere (dubleaza cantitatea pentru plante proaspete), într-o jumătate de litru de ulei (de masline,soia, floarea soarelui, arahide), se adaugă ceară de albine sa se ingroase, se aplica pe bumbac moale sau tifon și se foloseste o bandă sau curea pentru a-l ține în loc.
 
 Oral-sange otravit: se utilizeaza pe plan intern și extern
 
@@ -62,15 +62,15 @@ Septicemie: utilizeaza patlagina ca o cataplasmă și crește. doza normală int
 
 Leucoree, menoragie: foloseste un ceai puternic ca o infuzie
 
-Tumoare ,umflaturi glandulare. etc (unguent): cca.84g  frunze de patlagina (Plantago major; P.lanceolata) 
+Tumoare ,umflaturi glandulare. etc (unguent): cca.84g frunze de patlagina (Plantago major; P.lanceolata)
 
-168g  de planta Fumitory (officinalis Fumăria) 
+168g de planta Fumitory (officinalis Fumăria)
 
-84g  rădăcină de macris (Rumex crispus), 
+84g rădăcină de macris (Rumex crispus),
 
-336g  rășină albă , 12 uncii de ulei de măsline, 
+336g rășină albă , 12 uncii de ulei de măsline,
 
-336g ceara de albine. 
+336g ceara de albine.
 
 Mod de preparare: se fierb încet, la un loc, toate ingredientele timp de o oră și se amestecă pana la răcire, apoi se pune în borcan și se păstrează într-un loc răcoros. Administrare: se aplică pe părțile afectate, după cum este necesar.
 
@@ -78,7 +78,7 @@ Caracteristicile de creștere: Rădăcină perena: una dintre cele mai comune �
 
 Trifoiul, Trifoiul salbatic (Trifolium pratense; leguminosae)Nume comune: caprifoi, trifoi.
 
-Caracteristici de identificare: Tulpina dreapta sau rabatabila, mai mult sau mai putin păroasa, ramificata, de șase pana la douăzeci și patru de centimetri inaltime. De obicei, e compus din trei  parti, ovale sau alungite, marcate cu o semilună alba și de multe ori închisa în apropierea centrului. Floare terminala, cap ovoid, format din mai multe magente mici,purpuriu-roz, dulce-parfumat, corole tubulare.
+Caracteristici de identificare: Tulpina dreapta sau rabatabila, mai mult sau mai putin păroasa, ramificata, de șase pana la douăzeci și patru de centimetri inaltime. De obicei, e compus din trei parti, ovale sau alungite, marcate cu o semilună alba și de multe ori închisa în apropierea centrului. Floare terminala, cap ovoid, format din mai multe magente mici,purpuriu-roz, dulce-parfumat, corole tubulare.
 
 Pulberea este verde-bruna.
 
@@ -134,7 +134,7 @@ Miros ușor.
 
 Parti utilizate: rădăcinile(din primul an), frunzele, semințele, tulpina (nutritiv).Rădăcina are cele mai puternice caracteristici curative.
 
-Acțiune terapeutică: curativ, tonic, diuretic, diaforetic, laxativ,depurativ, antiscorbutic, calmant. Radacina de brusture aduce beneficii pielii, calmeaza rinichii și elimină congestia din sistemul limfatic. Aceasta crește fluxul urinei și este utila pentru pierderea în greutate. Tulpina, atunci când este  tăiata înainte să se deschidă floarea și decojita de coaja amara, poate fi fiarta sau folosita în salate (se mananca cruda, cu ulei si otet de mere, cidru), are o aroma delicata de sparanghel.
+Acțiune terapeutică: curativ, tonic, diuretic, diaforetic, laxativ,depurativ, antiscorbutic, calmant. Radacina de brusture aduce beneficii pielii, calmeaza rinichii și elimină congestia din sistemul limfatic. Aceasta crește fluxul urinei și este utila pentru pierderea în greutate. Tulpina, atunci când este tăiata înainte să se deschidă floarea și decojita de coaja amara, poate fi fiarta sau folosita în salate (se mananca cruda, cu ulei si otet de mere, cidru), are o aroma delicata de sparanghel.
 
 Medicamentos se utilizează in: probleme ale pielii, erupții cutanate, cosuri, furunculi, scorbut, eczeme, psoriazis, mâncărime, reumatism, scrofuloză, sifilis, lepra, cancer, gută, afectiuni pulmonare, guturai, depozite urinare, umflaturi, hemoroizi , răni,erupții, afte, sciatica, gonoreea, probleme ale rinichilor și ale vezicii urinare, raceli, febra, etc
 
@@ -160,6 +160,6 @@ Gusa: mixeaza pulbere de rădăcină de brusture cu ulei de masline si aplica ex
 
 Articulatii blocate: se aplică o cataplasmă din rădăcină pe partile afectate.
 
-Formule- Decoct din radacina de brusture 112g  brusture rădăcină, tăiate sau sub formă de pulbere (Arctium lappa), 3 litri apă distilată, 224g  glicerină (pentru o conservare indelungata)
+Formule- Decoct din radacina de brusture 112g brusture rădăcină, tăiate sau sub formă de pulbere (Arctium lappa), 3 litri apă distilată, 224g glicerină (pentru o conservare indelungata)
 
 Mod de preparare: se fierbe planta in apa timp de 30 minute, se strecoara, se îndulceste cu miere, se lasă să se răcească, se pune in sticlă și se păstreaza într-un loc răcoros. Pentru a dura mai mult, se fierbe planta in apa timp de 30 minute, se strecoara, și se reduce prin fierbere , se lasă la racit, se adaugă glicerină și se agită bine împreună, păstreaza într-un loc răcoros, nu îndulci până nu folosesti.

@@ -1,6 +1,6 @@
 Prima măsură care trebuie luată este trecerea imediată la un regim alimentar dietetic bazat mai ales pe legume şi-n special pe consumul de multă ceapă, fructe proaspete si din când în când lactate.
 
- **Metode de tratare** : se beau trei căni de ceai pe zi din următorul ceai 
+ **Metode de tratare** : se beau trei căni de ceai pe zi din următorul ceai
 ==========================================================================
 
 scoarţă de castan sălbatic 15 gr.

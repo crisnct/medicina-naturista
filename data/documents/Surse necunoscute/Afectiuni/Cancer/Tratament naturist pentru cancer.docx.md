@@ -34,9 +34,9 @@ Tratament naturist pentru cancer *
 
 - Ananas: se va consuma zilnic
 
-- Ulei din frunze de canepa(Cannabis oil). Se poate cumpara de aici: http://domnitamaria.ro
+- Ulei din frunze de canepa(Cannabis oil). Se poate cumpara de aici:
 
-https://www.cureyourowncancer.org
+
 
 - Cantitatea de paine se va reduce considerabil, maxim o felie la masa
 

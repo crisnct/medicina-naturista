@@ -18,7 +18,7 @@ Glucoza este transportată din sânge în celule cu ajutorul insulinei (secretat
 
  
 
-![](media/image1.png){width="4.125in" height="1.6875in"}
+!{width="4.125in" height="1.6875in"}
 
 Persoanele care au probleme în a-şi menţine greutatea constantă (cele cu tendinţa de a se îngraşa) prezintă o rezistenţă în teritoriu la acţiunea insulinei. Cu alte cuvinte: insulina descarcă greu glucoza din sânge în celule, celulele prezintă rezistenţă la acţiunea insulinei.\
 \
@@ -36,7 +36,7 @@ Ce rezultă în aceste condiţii: secreţie mare de insulină (hiperinsulinism),
 
  
 
-![](media/image2.png){width="6.208333333333333in" height="1.7604166666666667in"}
+!{width="6.208333333333333in" height="1.7604166666666667in"}
 
  
 
@@ -60,7 +60,7 @@ Deşi avea hiperinsulinism (care a fost evidenţiat prin creşterea continuă î
 
  
 
-![](media/image3.png){width="6.104166666666667in" height="2.2916666666666665in"}
+!{width="6.104166666666667in" height="2.2916666666666665in"}
 
  
 

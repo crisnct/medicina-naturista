@@ -14,10 +14,10 @@ Fierte, fructele pierd o parte din vitamine, pierdere accentuată dacă se folos
 
 Medicina tradiţională indiană distinge mai multe categorii de fructe:
 
-  -------------------------- ---------------------- -------------------------- ---------------------- ------------------- ------------------------
-  **FRUCTE ACIDE**           **FRUCTE SEMIACIDE**   **FRUCTE DULCI**           **FRUCTE CU AMIDON**   **FRUCTE USCATE**   **FRUCTE OLEAGINOASE**
-  lămâi portocale grepfrut   mere prune             smochine piersici pepene   banane castane         stafide curmale     migdale alune nuci
-  -------------------------- ---------------------- -------------------------- ---------------------- ------------------- ------------------------
+ -------------------------- ---------------------- -------------------------- ---------------------- ------------------- ------------------------
+ **FRUCTE ACIDE** **FRUCTE SEMIACIDE** **FRUCTE DULCI** **FRUCTE CU AMIDON** **FRUCTE USCATE** **FRUCTE OLEAGINOASE**
+ lămâi portocale grepfrut mere prune smochine piersici pepene banane castane stafide curmale migdale alune nuci
+ -------------------------- ---------------------- -------------------------- ---------------------- ------------------- ------------------------
 
 []{.underline}
 
@@ -201,4 +201,4 @@ Este indicat să eviţi pâinea proaspătă, mai ales dacă este caldă, precum 
 
 -Întotdeauna încearcă să iei masa într-un cadru liniştit, pentru că stresul îngreunează digestia şi favorizează apariţia arsurilor şi a balonării.
 
-![](media/image1.png){width="6.75in" height="5.1618055555555555in"}
+!{width="6.75in" height="5.1618055555555555in"}

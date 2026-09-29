@@ -80,13 +80,13 @@ Concluzii	15
 | Cartofi | 17 | Nuci braziliene | 4,9 |
 | Mămăligă | 15 | Măsline verzi | 3,8 |
 | Naut fiert | 15 | Bere | 3,2 |
-| Semințe dovleac / migdale / nuci | 13 |  |  |
+| Semințe dovleac / migdale / nuci | 13 | | |
 
 Mai multe informații aici:
 
-http://lchf.ro/wp-content/uploads/2015/05/tabelcarbohidrati.pdf
 
-https://calorii.oneden.com
+
+
 
 - după ce vei reduce drastic cantitatea de carbohidrați din alimentație și vei crește cantitatea de grăsimi sănătoase vei obține niște lucruri care te vor motiva să continui: scăderea greutății, ameliorarea oboselii cronice, stoparea evoluției diabetului de tip II, creșterea nivelului energetic, dobândirea unui somn mai bun, rezolvarea multor tulburări neurologice, creșterea creativității și a productivității, o memorie mai bună, un creier mai rapid și mai limpede, creșterea libidoului.
 

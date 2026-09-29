@@ -4,7 +4,7 @@ Traducere de Mihaela Gheorghita
 
 Cancerul este o ciuperca
 
-![](media/image1.png){width="2.942361111111111in" height="1.8430555555555554in"}
+!{width="2.942361111111111in" height="1.8430555555555554in"}
 
 si poate fi vindecat
 
@@ -14,7 +14,7 @@ Cancerul este prima cauza de deces a persoanelor sub 85 de ani, iar in Statele U
 
 Zilnic se introduc noi legi care reduc libertatile cetateanului sub justificarea "protejarii publicului impotriva terorismului" in timp ce acesti oameni sufera si mor in fiecare an din cauza unei boli pe care familiile de elita si cartelele lor farmaceutice, in mod sistematic, refuza sa o vindece.
 
-![](media/image2.png){width="2.55625in" height="2.55625in"}
+!{width="2.55625in" height="2.55625in"}
 
 *Impreuna putem, DA, dar nuputem atunci cand companiile farmaceutice sunt implicate.*
 
@@ -24,7 +24,7 @@ Am aratat intr-un articol publicat pe 9 august 2009, faptul ca un anumit om, dr.
 
 Inainte de a expune o lista lunga de schimbari care vor avea loc in societatea globala, el le-a cerut celor prezenti sa nu inregistreze si sa nu ia notite. Insa un medic a luat notite si mai apoi a facut public parte din cele spuse la acea intalnire.
 
-Acum, dupa 40 de ani, putem vedea cata acuratete exista in spusele dr-lui. Day pe care le puteti citi in articolul din 9 August *(in engleza pe site-ul [www.davidicke.com](http://www.davidicke.com/)).* Motivul pentru care il amintesc pe dr. Day si in acest articol este pentru ceea ce a spus referitor la cancer in cadrul acelei intalniri din 1969:
+Acum, dupa 40 de ani, putem vedea cata acuratete exista in spusele dr-lui. Day pe care le puteti citi in articolul din 9 August *(in engleza pe site-ul www.davidicke.com).* Motivul pentru care il amintesc pe dr. Day si in acest articol este pentru ceea ce a spus referitor la cancer in cadrul acelei intalniri din 1969:
 
 "Acum putem trata aproape orice forma de cancer. Informatiile se gasesc in dosar la Institutul Rockefeller, daca se va decide vreodata ca sa fie dat publicitatii".
 
@@ -34,7 +34,7 @@ Cartelurile farmaceutice (Big Pharma) nu au nici cea mai mica dorinta sa trateze
 
 De aceea cand cineva din afara gastii Big Pharma, descopera o metoda eficienta de tratare a cancerului, acesta imediat devine o tinta a organizatiilor medicale dar si a agentiilor guvernamentale.
 
-![](media/image3.png){width="2.5284722222222222in" height="2.548611111111111in"}
+!{width="2.5284722222222222in" height="2.548611111111111in"}
 
 Un astfel de caz este doctoral Italian, **Tullio Simoncini**, un om deosebit dar si curajos, care a refuzat sa cedeze presiunilor imense care s-au facut asupra lui si care inca se mai fac din momentul in care el a realizat ce este cancerul si cum putem scapa de el.
 
@@ -46,7 +46,7 @@ Prietenul meu, Mike Lambert, de la clinica Shen situata aproape de casa mea din 
 
 Tullio Simoncini spune clar ca boala cancer este in final aceasta infectie fungala si ca explicatiile conventionale medicale cum ca boala cancer se datoreaza unei functionari defectuase a celulelor este pur si simplu gresita.
 
-![](media/image4.png){width="2.66875in" height="2.66875in"}
+!{width="2.66875in" height="2.66875in"}
 
 *Candida*
 
@@ -60,7 +60,7 @@ Inca de cand a intrat la medicina, el si-a dat seama ca ceva nu este in regula c
 
 Frustrarile si tristetea lui din cauza a ceea ce vedea l-au determinat sa caute alte cai de a intelege si a trata aceasta boala devastatoare. Si-a inceput explorarile cu o minte deschisa si cu o pagina alba de hartie in fata nepatata de nicio teorie rigida impinsa in fata sau indoctrinata de curentul principal, conventional l amedicinei si stiintei.
 
-![](media/image5.pct){width="3.6215277777777777in" height="2.7180555555555554in"}
+!{width="3.6215277777777777in" height="2.7180555555555554in"}
 
 *Cati oare mai trebuie sa sufere pana cand oamenii vor inceta sa se mai uite la medici ca la **zei a tot stiutori** realizand scara imensa a ignorantei care are loc?*
 
@@ -72,11 +72,11 @@ Simoncini a realizat ca ceea ce crede medicina conventionala ca este o crestere 
 
 Simoncini spune ca lucrurile decurg in felul urmator:
 
--   Candida este in mod normal tinuta sub control de sistemul imunitar, dar cand acesta devine slabit si / sau compromis, Candida se extinde si poate dezvolta o "colonie"
+- Candida este in mod normal tinuta sub control de sistemul imunitar, dar cand acesta devine slabit si / sau compromis, Candida se extinde si poate dezvolta o "colonie"
 
--   Candida, in cele din urma, poate penetra un organ, iar sistemul imunitar trebuie sa raspunda acestui atac in alt "mod"
+- Candida, in cele din urma, poate penetra un organ, iar sistemul imunitar trebuie sa raspunda acestui atac in alt "mod"
 
--   Acest "mod" este de a construi o bariera defensiva de celule si aceasta bariera, acest cumul de celule este ceea este denumit cancer.
+- Acest "mod" este de a construi o bariera defensiva de celule si aceasta bariera, acest cumul de celule este ceea este denumit cancer.
 
 Se spune ca raspandirea cancerului la alte parti ale corpului este provocata de migrarea unor celule "maligne" de la sursa originala. Simoncini spune ca lucrurile nu stau asa deloc. Raspandirea cancerului este declansata de cauza reala a cancerului, adica de Fungi Candida care migreaza de la sursa originala. Aceasta migrare poate fi declansata chiar la biopsie sau in timpul operatiei.
 
@@ -84,7 +84,7 @@ Ce anume ii permite cancerului sa se manifeste, dupa cum am spus si in multe din
 
 Echilibrul sistemului imunitar
 
-![](media/image6.jpeg){width="5.9944444444444445in" height="4.236111111111111in"}
+!{width="5.9944444444444445in" height="4.236111111111111in"}
 
 Dar iata ca numarul bolnavilor de cancer creste pe plan global si continua sa creasca. Exista un razboi bine calculat impotriva sistemului uman imunitar si care a devenit din ce in ce mai prezent.
 
@@ -100,7 +100,7 @@ CHIMIOTERAPIA
 
 Iradierea de asemenea. Chimioterapia este o otrava care este menita sa distruga celule. Hmmmm... atata tot.
 
-![](media/image7.pct){width="3.4902777777777776in" height="2.3868055555555556in"}
+!{width="3.4902777777777776in" height="2.3868055555555556in"}
 
 Tratamentul conventional al cancerului se face prin otravirea victimei sperand ca celulele canceroase vor fi in mai mare masura si mai repede omorate decat cele sanatoase si nu se va ajunge la pierderea vietii pacientului.
 
@@ -114,7 +114,7 @@ Chimioterapia de fapt, omoara oamenii pe care ar fi trebuit sa-i trateze.
 
 Cand Simoncini a realizat ca boala de cancer este de fapt o infectie sau infestare fungala, el a inceput sa caute ceva, o substanta care poate sa omoare aceasta ciuperca astfel inlaturand cancerul. El si-a dat seama ca medicamentele antifungale nu dau rezultate, pentru ca fungii pot muta foarte repede pentru a se apara si chiar incep sa se hraneasca cu medicametele prescrise care aveau scopul de a-i omora.
 
-![](media/image8.pct){width="2.5006944444444446in" height="2.5006944444444446in"}
+!{width="2.5006944444444446in" height="2.5006944444444446in"}
 
 Astfel, Simoncini a gasit ceva mult, mult mai simplu -- **bicarbonatul de sodiu**. DA, ingredientul principal din praful de copt. Atentie! Nu este exact acelasi lucru ca si praful de copt care are si alti aditivi.
 
@@ -126,7 +126,7 @@ In 1983, Simoncini a tratat un barbat Italian, Gennaro Sangermano, caruia i s-au
 
 Simoncini incepuse sa aibe mai multe reusite cu aceasta metoda si si-a prezentat cercetarile si rezultatele la Departamentul Italian de Sanatate, sperand ca acesta va aproba trecerea la teste stiintifice pentru demonstrarea eficientei acestei metode de tratament. Dar din pacate el a inceput sa descopere adevarata scara la care se ridica manipularea si deceptia din domeniul medical.
 
-![](media/image9.pct){width="3.7416666666666667in" height="4.311805555555556in"}
+!{width="3.7416666666666667in" height="4.311805555555556in"}
 
 Autoritatile, nu numai ca au ignorat documetatia prezentata de Simoncini, ba mai mult, el a fost exclus din registrul medicilor din Italia din cauza ca a recomandat metode de tratament care nu au fost aprobate. DA, asa am spus -- metode de tratament care nu au fost aprobate.
 
@@ -136,7 +136,7 @@ Organizatiile medicale spun ca declaratiile lui cu privire la bicarbonatul de so
 
 In tot acest timp, milioane de pacienti mureau de cancer si care ar fi putut fi tratati in mod efficient. Dar acestor oameni, de la putere, nu le pasa.
 
-![](media/image10.pct){width="2.2909722222222224in" height="2.908333333333333in"}
+!{width="2.2909722222222224in" height="2.908333333333333in"}
 
 Tullio Simioncini, din fericire, nu este o persoana care sa dea asa usor batuta, si a continuat se raspandeasca informatii despre lucrarile si descoperirile sale pe internet si in prezentari publice. Am auzit de el de la Mike Lambert de la clinica Shen unde Simoncini a vorbit in timp ce eram in deplasare in Statele Unite.
 
@@ -150,7 +150,7 @@ Celulele canceroase au un biomarker unic pe care celulele normale nu il au. Aces
 
 Enzima CYP1B1 altereaza structura chimica a unui compus care se numeste Salvestrol care in mod normal se gaseste in natura in multe fructe si vegetale. Aceste schimbari chimice transforma salvestrolul intr-un agent care omoara celulele canceroase dar nu le ataca pe cele normale.
 
-![](media/image11.jpeg){width="4.7375in" height="3.3631944444444444in"}
+!{width="4.7375in" height="3.3631944444444444in"}
 
 Sincronicitatea este perfecta. Enzimele CYP1B1 apar numai in celulele canceroase si reactioneaza cu salvestrolul din fructe si vegetale pentru a crea reactii chimice care omoara numai celulele canceroase.
 
@@ -158,9 +158,9 @@ Si aici este dovada ca tumorile sunt fungi. Salvestrolul reprezinta sistemul nat
 
 Ce este aproape diabolic, este ca Big Pharma si marile companii Bio Tech stiu acest lucru si ei au facut urmatoarele 2 lucruri de majora importanta pentru a slabi acest sistem de protejare naturala impotriva atacului fungal care este cancerul.
 
-1.  Fungicidele chimice folosite in agricultura moderna care omoara fungi in mod artificial ceea ce inseamna ca plantele nu mai trebuie sa-si activeze propriul sistem de protejare si anume salvestrolul. In ziua de azi, salvestrolul se mai gaseste doar in legumele si fructele crescute organic.
+1. Fungicidele chimice folosite in agricultura moderna care omoara fungi in mod artificial ceea ce inseamna ca plantele nu mai trebuie sa-si activeze propriul sistem de protejare si anume salvestrolul. In ziua de azi, salvestrolul se mai gaseste doar in legumele si fructele crescute organic.
 
-2.  Cele mai utilizate fungicide au actiune puternica de blocare a enzimelor CYP1B1, asa ca oricate produse care au fost crescute cu chimicale vei consuma, nu prea conteaza intrucat salverstrolul nu se va activa si nu va actiona ca un agent de distrugere al cancerului asa cum ar fi fost normal.
+2. Cele mai utilizate fungicide au actiune puternica de blocare a enzimelor CYP1B1, asa ca oricate produse care au fost crescute cu chimicale vei consuma, nu prea conteaza intrucat salverstrolul nu se va activa si nu va actiona ca un agent de distrugere al cancerului asa cum ar fi fost normal.
 
 Acesta nu este un accident, ci este un lucru bine planuit asa cum era bine planuita si distrugerea lui Tullio Simoncini. Familiile elita vor ca oamenii sa fie distrusi de cancer si nu vindecati. Ei sunt niste oameni bolnavi atat mental cat si emotional si considera oamenii drept oi sau vite sau animale in orice caz. Lor nu le pasa cat stres, cata suferinta si moarte cauzeaza aceste manipulari si secretizari, si din punctul lor de vedere: cu cat mai multa suferinta cu atat mai bine. Si asta dovedeste ca acesti oameni nu sunt in toate mintile.
 
@@ -176,17 +176,17 @@ Ghici ce s-a intamplat?
 
 Ei nu au venit.
 
-![](media/image12.pct){width="5.121527777777778in" height="2.5430555555555556in"}
+!{width="5.121527777777778in" height="2.5430555555555556in"}
 
  
 
 Video cu Tullio Simoncini si marturii ale celor care au fost sub tratamentul lui
 
-<http://www.theshenclinic.com/index.php?option=com_content&view=article&id=28:story3&catid=4:stories&lang=en>
+<
 
 Siteul lui Tullio Simoncini
 
-http://www.curenaturalicancro.com/
+
 
  
 

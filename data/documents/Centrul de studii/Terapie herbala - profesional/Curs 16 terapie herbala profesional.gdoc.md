@@ -14,11 +14,11 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-Curs  16
+Curs 16
 
 Ierburile tonice
 
-Tonicele cresc permanent tonul de-a lungul întregului sistem, crescand vigoarea, energia și puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, răcoritoare și consolideaza permanent fiecareorgan al corpului. Ele lucrează în principal în cadrul sistemului digestiv, dar toate organele sunt influențate pozitiv. Ele produc ton normal țesuturilor unui organ, rezultand un muschi sănătos și funcțional. Aceste plante sporesc pofta de mâncare, promoveaza eliminarea mai bună a resturilor, ajuta la digestie, alina stomacul și, treptat, construiesc forta, energia și  sănătatea. Ca o regulă, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te că pacientul a trecut de faza acuta a bolii înainte dea-i administra ierburi tonice.
+Tonicele cresc permanent tonul de-a lungul întregului sistem, crescand vigoarea, energia și puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, răcoritoare și consolideaza permanent fiecareorgan al corpului. Ele lucrează în principal în cadrul sistemului digestiv, dar toate organele sunt influențate pozitiv. Ele produc ton normal țesuturilor unui organ, rezultand un muschi sănătos și funcțional. Aceste plante sporesc pofta de mâncare, promoveaza eliminarea mai bună a resturilor, ajuta la digestie, alina stomacul și, treptat, construiesc forta, energia și sănătatea. Ca o regulă, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te că pacientul a trecut de faza acuta a bolii înainte dea-i administra ierburi tonice.
 
 **Dracilă**
 
@@ -34,13 +34,13 @@ Actiune terapeutica: Alcaloizii, în special berberina, au acțiune deprimanta c
 
 Colici biliare
 
-56g  coaja de dracila (Berberis vulgaris)
+56g coaja de dracila (Berberis vulgaris)
 
-14g  radacina de papadie  (Taraxacum officinale)
+14g radacina de papadie (Taraxacum officinale)
 
 14gAgrimony (Agrimonia Eupatoria)
 
-14gpulbere de Centaury (erythraea Centaurium) 
+14gpulbere de Centaury (erythraea Centaurium)
 
 1/4 lingurita Cayenne (Capsicum frutescens; C. minim)
 
@@ -50,7 +50,7 @@ Dozare: cca 60 ml de lichid, de 4 până la 6 ori pe zi
 
 Icter, tonic digestiv (tinctura)
 
-112g  coaja de dracila(Berberis vulgaris)
+112g coaja de dracila(Berberis vulgaris)
 
 112gcoaja de plop alb sau mișcător Aspen (Populus tremuloides)
 
@@ -58,7 +58,7 @@ Icter, tonic digestiv (tinctura)
 
 1 galon otet de mere
 
-Mod de preparare: zdrobeste  și macereaza ierburile timp de 1 săptămână în oțet de mere
+Mod de preparare: zdrobeste și macereaza ierburile timp de 1 săptămână în oțet de mere
 
 .Dozare: 1 lingură 3 sau mai multe ori pe zi.
 
@@ -76,7 +76,7 @@ Dozare: 1 lingură noaptea și dimineața până cand intestinele se misca liber
 
 Copii: 1/2 \-1 lingurita.
 
-***CALUMBA** (Jateorhiza palmata; J. calumba; Cocculus palmatus;MENISPERMACEAE)*  
+***CALUMBA** (Jateorhiza palmata; J. calumba; Cocculus palmatus;MENISPERMACEAE)*
 Calumba (Jateorhiza palmate) este o planta cataratoare pe copacii din padurile tropicale (la altitudini de pana la 1500 m) din Africa de Est, Kenya si Mozambic, dar si insulele Madagascar, Ghana, Mauritius. Specialistii au clasat trei specii ale acestui gen Jateorhiza, toate originare din Africa tropicala.
 
 Caracteristici de identificare:
@@ -129,7 +129,7 @@ Mod de preparare: Se amestecă foarte bine.
 
 Dozare: 2 lingurite după mese.
 
-Tendința de  avort spontan, leucoree
+Tendința de avort spontan, leucoree
 
 28gde gentiana americana (Frasera caroliniensis)
 
@@ -189,13 +189,13 @@ Util după abuz de Clorat de Potasiu pentru durere de gât.
 
 Doză. De la tinctură până la potenţa 30\. Local, tinctură-mamă sau extract fluid.
 
-Planta contine principrii amare, alcaloizi. In scop fitoterapeutic se utilizeaza radacina. Gentiana infloreste din luna iulie pana in septembrie. Radacina se recolteaza dinluna august pana in luna octombrie. 
+Planta contine principrii amare, alcaloizi. In scop fitoterapeutic se utilizeaza radacina. Gentiana infloreste din luna iulie pana in septembrie. Radacina se recolteaza dinluna august pana in luna octombrie.
 
-Are calitati stomahice, carminative, laxative, antimicrobiene, hepatice, imunostimulatoare, vermifuge, antipiretic, antipsihotice, antibiotice, expectorante, antiiflamatoare. 
+Are calitati stomahice, carminative, laxative, antimicrobiene, hepatice, imunostimulatoare, vermifuge, antipiretic, antipsihotice, antibiotice, expectorante, antiiflamatoare.
 
 Uz intern:
 
-\- stimularea poftei de mancare, stimularea sistemului nervos, imbunatatirea functiei ficatului, marirea secretiei biliare, paraziti intestinali, febra, guturai, constipatie, afectiuni catarale, stimularea secretiilor gastrice \- sub forma de infuzie, decoct. 
+\- stimularea poftei de mancare, stimularea sistemului nervos, imbunatatirea functiei ficatului, marirea secretiei biliare, paraziti intestinali, febra, guturai, constipatie, afectiuni catarale, stimularea secretiilor gastrice \- sub forma de infuzie, decoct.
 
 Uz extern:
 
@@ -203,7 +203,7 @@ Uz extern:
 
 Icter
 
-112g  de gentiana (Hydrastis Canadensis)
+112g de gentiana (Hydrastis Canadensis)
 
 112gBalmony (Chelone glabra)
 
@@ -221,7 +221,7 @@ Dozare: 2 linguri, după mese.
 
 **Guturai ofensiv**
 
-28g  gentiana pulbere(Hydrastis Canadensis)
+28g gentiana pulbere(Hydrastis Canadensis)
 
 2 lingurite de pulbere de coaja Bayberry (Myrica cerifera)
 
@@ -245,9 +245,9 @@ Administrare: Aplica după cum este necesar.
 
 Mancarimi, arsuri de piele, boli eruptive (variola,pojar, scarlatina, etc)
 
-28g  de gentiana(Hydrastis Canadensis)
+28g de gentiana(Hydrastis Canadensis)
 
-250ml  de ulei de in (Linum usitatissimum)
+250ml de ulei de in (Linum usitatissimum)
 
 Mod de preparare: Se amestecă foarte bine.
 
@@ -269,7 +269,7 @@ Gonoree cronica, leucoree
 
 1 parte Geranium Wild sau Cranesbill (Geranium maculatum)
 
-Mod de preparare:  Se infuzeaza în 1 litru de apa clocotita, se acopera bine pana se raceste, se strecoara.
+Mod de preparare: Se infuzeaza în 1 litru de apa clocotita, se acopera bine pana se raceste, se strecoara.
 
 Administrare: Aplica de 2 până la 3 ori pe zi cu o perie din păr de cămilă.
 
@@ -315,7 +315,7 @@ Mod de preparare: ierburile se amestecă împreună și se infuzeaza folosind 1 
 
 Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, după caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (după caz ​) la fiecare 2 ore.
 
-***PERUVIAN BARK** (Cinchona calisaya; C. ledgerana; C. officinalis; C.*  
+***PERUVIAN BARK** (Cinchona calisaya; C. ledgerana; C. officinalis; C.*
 *succirubra; RUBIACEAE)*
 
 Arborele de chinină creşte în zonele din America de Sud. Din scoarţa sa se extrage chinina, un alcaloid care, printre altele, are proprietăţi anipiretice, analgezice şi antiinflamatorii. În limba incaşă, chinină înseamnă „scoarţa sfântă”.
@@ -358,7 +358,7 @@ Cea mai răspândită formă în care se găseşte chinina este în apa tonică,
 
 Infuzie \# 1
 
-14g  chinină, tăiata (Cinchona calisaya)
+14g chinină, tăiata (Cinchona calisaya)
 
 1 litru de apă rece
 
@@ -370,13 +370,13 @@ Se toarnă o ceașcă de apă clocotită peste o lingurita de coaja sau de pulbe
 
 Guturai (prizat)
 
-56g  pulbere de chinina (Cinchona calisaya)
+56g pulbere de chinina (Cinchona calisaya)
 
 56g pulbere de Blood Root (Sanguinaria canadensis)
 
-14g  Bayberry, pulbere de rădăcină (Myrica cerifera)
+14g Bayberry, pulbere de rădăcină (Myrica cerifera)
 
-14g  frunze de zmeura, pulbere (Rubus idaeus)
+14g frunze de zmeura, pulbere (Rubus idaeus)
 
 Mod de preparare: Se macină aceste pulberi foarte fin într-un mojar și se cern bine.
 
@@ -384,9 +384,9 @@ Dozare: Foloseste un pic, cat este necesar, ca pe tutun.
 
 Tonic pentru febra(tinctura)
 
-56g  chinină (Cinchona calisaya)
+56g chinină (Cinchona calisaya)
 
-28g  coaja de cires salbatic (Prunus: Europa)
+28g coaja de cires salbatic (Prunus: Europa)
 
 1 lingurita de scortisoara (Cinnamomum zeylanicum)
 
@@ -400,27 +400,27 @@ Dozare: 56ml de lichid la fiecare 2- 3 ore până când febra dispare, apoi de 2
 
 **Plopul** *(Populus tremuloides; SALICACEAE)*
 
-Plopul este original din Iran si Turcia, dar a fost aclimatizat cu succes si in  Europa. Face parte din familia Salicaceae si in prezent este raspandit pe toate continentele. In Romania ocupa un areal foarte vast, de la campie, pe dealuri si coline joase, pana in zonele submontane, la altitudini de 1.800 metri. Este frecvent intalnit in paduri, poieni umede, zavoaie, depresiuni, luncile raurilor si Delta Dunarii. Il gasim si in parcuri sau in lungul soselelor si a liniilor de cai ferate ca element decorativ.
+Plopul este original din Iran si Turcia, dar a fost aclimatizat cu succes si in Europa. Face parte din familia Salicaceae si in prezent este raspandit pe toate continentele. In Romania ocupa un areal foarte vast, de la campie, pe dealuri si coline joase, pana in zonele submontane, la altitudini de 1.800 metri. Este frecvent intalnit in paduri, poieni umede, zavoaie, depresiuni, luncile raurilor si Delta Dunarii. Il gasim si in parcuri sau in lungul soselelor si a liniilor de cai ferate ca element decorativ.
 
-Caracteristici de identificare: Plopul este un copac inalt, ce poate ajunge pana la 35 de metri, iar diametrul trunchiului poate ajunge pana la 2 m. coroana sa este larga si rara, are ramuri rasfirate. Scoarta este cenusie, brazdata longitudinal. Frunzele sale sunt rombic-ovoidale sau triunghiulare si sunt lobate. Partea superioara a frunzelor are o culoare mai inchisa decat cea inferioara, care este alburie datorita faptului ca este acoperita de perisori. Florile au forma de matisori roscati cele masculine si verzi cele feminine. Mugurii sunt ascutiti la varf, luciosi, rasinosi in interior, vascosi si lipiciosi, ca niste cornite asezate pe ramuri. Au miros placut, aromat si cu gust amarui. Plopul contine urmatoarele substante: glicozizi fenolici, salicina, populina, 0,5% ulei volatil format din betulenol, d-humulen, alfa-cariofilen, heterozide- crizol, tectocrizol, cca 1,5% taninuri, rezine , ulei gras, acid malic, acid galic, saponine, manitol, ceara, flavone, etc. 
+Caracteristici de identificare: Plopul este un copac inalt, ce poate ajunge pana la 35 de metri, iar diametrul trunchiului poate ajunge pana la 2 m. coroana sa este larga si rara, are ramuri rasfirate. Scoarta este cenusie, brazdata longitudinal. Frunzele sale sunt rombic-ovoidale sau triunghiulare si sunt lobate. Partea superioara a frunzelor are o culoare mai inchisa decat cea inferioara, care este alburie datorita faptului ca este acoperita de perisori. Florile au forma de matisori roscati cele masculine si verzi cele feminine. Mugurii sunt ascutiti la varf, luciosi, rasinosi in interior, vascosi si lipiciosi, ca niste cornite asezate pe ramuri. Au miros placut, aromat si cu gust amarui. Plopul contine urmatoarele substante: glicozizi fenolici, salicina, populina, 0,5% ulei volatil format din betulenol, d-humulen, alfa-cariofilen, heterozide- crizol, tectocrizol, cca 1,5% taninuri, rezine , ulei gras, acid malic, acid galic, saponine, manitol, ceara, flavone, etc.
 
-Parti utilizate: In scop fitoterapeutic se folosesc mugurii si carbunele obtinut din ramurelele tinere. Mugurii trebuie recoltati in lunile martie- aprilie, cand incep sa se umfle, inainte sa apara frunzele. Proprietati: astringent, antiseptic, antimicotic, usor antiinflamator, slab analgezic, expectorant, diuretic, diaforetic, cicatrizant, tonic, antiscorbutic, febrifug. 
+Parti utilizate: In scop fitoterapeutic se folosesc mugurii si carbunele obtinut din ramurelele tinere. Mugurii trebuie recoltati in lunile martie- aprilie, cand incep sa se umfle, inainte sa apara frunzele. Proprietati: astringent, antiseptic, antimicotic, usor antiinflamator, slab analgezic, expectorant, diuretic, diaforetic, cicatrizant, tonic, antiscorbutic, febrifug.
 
-Alte utilizari: se planteaza pe marginea drumurilor sau a cailor ferate pentru ca retine praful si purifica aerul si solul de metale grele si deoarece este un bun absorbant al sunetelor puternice. In cosmetica intra in compozitia produselor de fixare a parului si a produselor de ingrijire a tenului acneic. 
+Alte utilizari: se planteaza pe marginea drumurilor sau a cailor ferate pentru ca retine praful si purifica aerul si solul de metale grele si deoarece este un bun absorbant al sunetelor puternice. In cosmetica intra in compozitia produselor de fixare a parului si a produselor de ingrijire a tenului acneic.
 
-Uz intern: 
+Uz intern:
 
- \- acnee, actinomicoze, afectiuni renale, afectiuni tumorale, artrita, astm bronhic, balonari, boli reumatice, bronsite acute sau cronice, cancer, candidoze, colite de fermentatie si de putrefactie, diaree, dureri de gat, gripa, guturai, guta, inflamatiile cailor urinare, intoxicatii,  litiaze urinare, nevralgii,  tuberculoza, tuse – sub forma de infuzie, tinctura, consum de carbune ca atare din ramuri tinere. 
+ \- acnee, actinomicoze, afectiuni renale, afectiuni tumorale, artrita, astm bronhic, balonari, boli reumatice, bronsite acute sau cronice, cancer, candidoze, colite de fermentatie si de putrefactie, diaree, dureri de gat, gripa, guturai, guta, inflamatiile cailor urinare, intoxicatii, litiaze urinare, nevralgii, tuberculoza, tuse – sub forma de infuzie, tinctura, consum de carbune ca atare din ramuri tinere.
 
-Uz extern: 
+Uz extern:
 
- \- acnee, inflamatii, leziuni ale pielii, degeraturi, rani cangrenate, alopecie, arsuri, degeraturi, dermatomicoze, hemoroizi, infectii cutanate, reumatism, spondiloza, foliculite, leucoree, piodermite \- sub forma de bai cu infuzie de muguri, cataplasme, alifie, unguent, dar si spalaturi cu carbune si apa (mai ales in leucoree) sau aplicatii locale de pulbere de carbune. 
+ \- acnee, inflamatii, leziuni ale pielii, degeraturi, rani cangrenate, alopecie, arsuri, degeraturi, dermatomicoze, hemoroizi, infectii cutanate, reumatism, spondiloza, foliculite, leucoree, piodermite \- sub forma de bai cu infuzie de muguri, cataplasme, alifie, unguent, dar si spalaturi cu carbune si apa (mai ales in leucoree) sau aplicatii locale de pulbere de carbune.
 
 Isterie
 
 14g scoarță de plop alb (Populus tremuloides)
 
-14gfrunze de zmeura (Rubus idaeus) 
+14gfrunze de zmeura (Rubus idaeus)
 
 14gBalmony (Chelone glabra)
 
@@ -436,16 +436,16 @@ Bitter (icter, indigestie, flatulență, slabiciune generala)
 
 56 g coaja de plop alb (Populus tremuloides)
 
-112g  pulbere de Balmony (Chelone glabra)
+112g pulbere de Balmony (Chelone glabra)
 
-112g  Bayberry, pulbere (Myrica cerifera)
+112g Bayberry, pulbere (Myrica cerifera)
 
-56g  pudra de ghimbir (Zingiber officinalis)
+56g pudra de ghimbir (Zingiber officinalis)
 
-7g  Cayenne, pulbere (Capsicum frutescens; C. minim)
+7g Cayenne, pulbere (Capsicum frutescens; C. minim)
 
 7g cuișoare (Syzygium aromaticum praf, Eugenia aromatica)
 
-Mod de preparare: Se amestecă bine, se ia 1 lingurita din amestec și se dizolvă în 1 ceașcă de apă fierbinte, se îndulceste. 
+Mod de preparare: Se amestecă bine, se ia 1 lingurita din amestec și se dizolvă în 1 ceașcă de apă fierbinte, se îndulceste.
 
 Dozare: 1 ceasca plina, de 3 până la 4 ori pe zi.

@@ -30,7 +30,7 @@ Fito-estrogenii
 
 Semințele de in, uleiul, trifoiul roșu și salvia, toate contin fito-estrogeni și pot fi de ajutor in stimularea cresterii parului.Nicholas Culpeper ne-a lăsat remediul sau "pentru caderea părului":
 
-Zdrobeste semintele de in foarte bine și amesteca-le cu ulei de salata; și atunci când le-ai amestecat bine, unge-ti   capul cu acestea. Dupa trei sau patru folosiri, se va vedea efectul.
+Zdrobeste semintele de in foarte bine și amesteca-le cu ulei de salata; și atunci când le-ai amestecat bine, unge-ti capul cu acestea. Dupa trei sau patru folosiri, se va vedea efectul.
 
 Merită să facem o infuzie de salvie și sa bem o ceașcă pe zi, apoi sa folosim restul infuziei răcita pentru a clati parul. Sa folosim capsule cu ulei de seminte de in de două ori pe zi pentru a stimula activitatea de ulei a scalpului și pentru a da strălucire părului.
 
@@ -64,7 +64,7 @@ Un alt mare avantaj al acestei plante minunate\! Mesteca frunzele de salvie, car
 
 Rădăcina de lemn dulce
 
-Această rădăcină lemnoasa macerata curata dintii galbeni si, în timp ce face acest lucru, permite să utilizezi  rădăcină mestecata ca pe o perie naturala.
+Această rădăcină lemnoasa macerata curata dintii galbeni si, în timp ce face acest lucru, permite să utilizezi rădăcină mestecata ca pe o perie naturala.
 
 Apa de gura din tataneasa
 
@@ -110,7 +110,7 @@ Baile
 
 Evita sapunurile sintetice, deoarece acestea sunt destul de caustice și utilizeaza uleiuri naturale. Foloseste în schimb o lufa pentru a îndepărta ușor straturile exterioare ale pielii.
 
-Trebuie sa adaugam ulei de baie in cada (la fel ca în ultima lecție), dar să nu să stam prea mult timp în apa fierbinte. Acest lucru nu este bine  pentru pielea ta, așa cum este evident efectul de ridare atunci când stai prea mult. Dacă folosesti săpun, alege săpunul din fulgi de ovăz, din sâmburi de palmier sau nucă de cocos.
+Trebuie sa adaugam ulei de baie in cada (la fel ca în ultima lecție), dar să nu să stam prea mult timp în apa fierbinte. Acest lucru nu este bine pentru pielea ta, așa cum este evident efectul de ridare atunci când stai prea mult. Dacă folosesti săpun, alege săpunul din fulgi de ovăz, din sâmburi de palmier sau nucă de cocos.
 
 Antiperspirantele
 
@@ -118,21 +118,21 @@ Acestea nu sunt deloc naturale. E gresit sa blocam porii pielii pentru a opri tr
 
 Sauna faciala cu musetel
 
-Este o modalitate naturala excelentă de a scăpa de punctele negre suparatoare. Se face o infuzie din flori de mușețel și se toarnă într-un castron. Apoi, ca și cum ai inhala, se pune un prosop pe cap și se permite aburlui de mușețel sa se joace pe fata ta. Stai doar câteva minute, în cazul în care este inconfortabil. După aceasta, foloseste  un demachiant hipoalergen și usuca-ti- fata. E de preferat sa faci asta seara, cand nu mai trebuie sa iesi din casa.
+Este o modalitate naturala excelentă de a scăpa de punctele negre suparatoare. Se face o infuzie din flori de mușețel și se toarnă într-un castron. Apoi, ca și cum ai inhala, se pune un prosop pe cap și se permite aburlui de mușețel sa se joace pe fata ta. Stai doar câteva minute, în cazul în care este inconfortabil. După aceasta, foloseste un demachiant hipoalergen și usuca-ti- fata. E de preferat sa faci asta seara, cand nu mai trebuie sa iesi din casa.
 
 Floarea de soc
 
-Aceasta este o lotiune de modă veche pentru a scoate în evidență un ten frumos. Ia  un pumn de flori de soc și fierbe-le foarte ușor în unt timp de o jumătate de oră. Florile vor deveni foarte moi. Se lasă să se răcească timp de trei sau patru ore,apoi refierbe și adauga o lingură de miere. Atunci când este rece, se aplică pe fata ca un pachet.
+Aceasta este o lotiune de modă veche pentru a scoate în evidență un ten frumos. Ia un pumn de flori de soc și fierbe-le foarte ușor în unt timp de o jumătate de oră. Florile vor deveni foarte moi. Se lasă să se răcească timp de trei sau patru ore,apoi refierbe și adauga o lingură de miere. Atunci când este rece, se aplică pe fata ca un pachet.
 
-Fulgi de ovăz 
+Fulgi de ovăz
 
 Acesta este un alt pachet excelent facial, care face minuni pentru ten. Se înmoaie o mână de fulgi de ovăz în smântână sau intr-un amestec de smântână și apă timp de șase ore, împreună cu o lămâie stoarsa.
 
-Limba mielului (Borago officinalis) 
+Limba mielului (Borago officinalis)
 
 Este o plăcere sa ciugulesti frunze de limba mielului pentru salate.
 
-Hasmațuchi (Anthriscus cerefolium) 
+Hasmațuchi (Anthriscus cerefolium)
 
 O altă plantă încântătoare de ciugulit cruda, in timp ce gatesti.
 
@@ -140,7 +140,7 @@ Arpagic
 
  Deși prosperă în orice grădină în aer liber, îi place sa fie în apropiere de chiuveta din bucatarie. Are un gust minunat de ceapa.
 
-Levantica (Lavendula angustifolia) 
+Levantica (Lavendula angustifolia)
 
 Aceasta planta este la ea acasă oriunde doresti să creezi o atmosferă relaxantă. Se poate pune in baie sau in sertarele cu haine.
 

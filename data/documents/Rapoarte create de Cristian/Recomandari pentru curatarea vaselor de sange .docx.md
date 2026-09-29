@@ -12,7 +12,7 @@ ocr_images_with_text: 1
 ocr_text_characters: 10
 ---
 
-# Recomandari pentru curatarea vaselor de sange 
+# Recomandari pentru curatarea vaselor de sange
 
 ## Text nativ
 
@@ -76,7 +76,7 @@ Alimentatie:
 
 ## Antet 1
 
-Website: https://www.herbshouseshop.co.uk
+Website:
 
 Email: nelucristian2005@gmail.com
 

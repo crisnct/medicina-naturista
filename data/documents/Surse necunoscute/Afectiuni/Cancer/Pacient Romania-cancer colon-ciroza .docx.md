@@ -12,7 +12,7 @@ ocr_images_with_text: 1
 ocr_text_characters: 10
 ---
 
-# Pacient Romania-cancer colon-ciroza 
+# Pacient Romania-cancer colon-ciroza
 
 ## Text nativ
 
@@ -24,9 +24,9 @@ Tratament naturist pentru cancer de colon si ciroza hepatica
 
 - La masa se va consuma piper negru – acesta ajuta la o mai buna absorbtie a silimarinei si lecitinei de catre ficat
 
-- Ulei CBD: o lingurita sublingual dimineata si seara pe stomacul gol. Se tine in gura cateva minute dupa care se inghite si se bea un lichid cat mai cald. A se lua cel putin 4 luni, zilnic. Se poate cumpara de aici: http://domnitamaria.ro
+- Ulei CBD: o lingurita sublingual dimineata si seara pe stomacul gol. Se tine in gura cateva minute dupa care se inghite si se bea un lichid cat mai cald. A se lua cel putin 4 luni, zilnic. Se poate cumpara de aici:
 
-Femeie ce s-a vindecat de cancer de colon cu CBD oil: https://www.youtube.com/watch?v=9qpE4YaXFjI
+Femeie ce s-a vindecat de cancer de colon cu CBD oil:
 
 - Seminte de chimen negru (negrilica): ½ lingurita x 3 ori pe zi
 
@@ -86,7 +86,7 @@ Dupa o luna se pot relua aceste doua tipuri de ceaiuri
 
 ## Antet 1
 
-Website: https://www.herbshouseshop.co.uk
+Website:
 
 Email: nelucristian2005@gmail.com
 

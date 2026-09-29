@@ -1,6 +1,6 @@
 Tratamentul natural al Depresiei
 
-http://aloe-vera.miral.ro/html/scheme\_c.html\#depresie
+
 
 Aloe Vera Gel 2 linguri dimineaţa şi 2 la prânz pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghiţituri mici pentru a facilita absorbţia la nivelul mucoasei bucale.
 
@@ -8,7 +8,7 @@ Regim alimentar: se recomandă excluderea excitantelor (cafea, tutun, alcool) ş
 
 **Foarte eficient**: Vit B-Complex+Mg+Vit C
 
-http://www.evenimentul.ro/local/article/89499,7,baseArticle.html
+
 
 Bolile secolului, cum sînt numite stresul, depresia şi nervozitatea, pot fi şi ele tratate prin remedii naturiste.
 
@@ -17,13 +17,13 @@ De reţinut că, aceste plante nu acţionează decît în cazul depresiilor uşo
 
 Stresul şi nervozitatea pot fi îndepărtate cu ginseng. Acesta conţine vitaminele B şi C, precum şi acizi aminaţi cu efect de tonifiere intelectuală şi fizică. Se recomandă a se lua, de preferinţă, dimineaţa, deoarece poate provoca stări de insomnie. Remediile din ginseng nu se administrează concomitent cu unele excitante precum cafeaua şi ceaiul, iar consumul lor este bine să fie limitat în timpul sarcinii. Consumul de ginseng poate fi suplinit cu succes prin administrarea ceaiurilor de măceş. Acestea reglează ritmul cardiac şi reduce palpitaţiile. Este recomandat, în special, în hiperemotivitate şi în stări de tensiune nervoasă. (C.I.)
 
-http://www.gardianul.ro/index.php?a=sanatate2004121303.xml
+
 
 **Depresia afecteaza inima (Ana-Maria Adamoae)**
 
 Prezenta depresiei la femeile in varsta de peste 50 de ani se asociaza puternic cu un risc crescut de deces prin boli de inima, potrivit unor studii recente. Astfel, cercetatorii americani din cadrul organizatiei Women's Health Initiative au examinat legatura dintre depresie si sanatatea inimii. Din totalul de 93.676 femei ale grupului de studiu, aproape 16% au avut scoruri inalte pe scala de masurare a depresiei. Rata deceselor prin boli de inima in cei patru ani ai studiului a fost cu 50% mai mare in randul femeilor suferinde de depresie. Identificarea depresiei ca factor de risc independent pentru bolile de inima este o noutate. Cercetatorii nu au putut explica de ce sau cum afecteaza depresia sanatatea inimii. Totusi, aceste constatari probeaza existenta unei legaturi intre depresie si cresterea riscului de boli de inima. Cercetarile in acest domeniu continua si ar putea aduce mari surprize.
 
-http://www.gardianul.ro/index.php?a=sanatate2003062401.xml
+
 
 ### Evitati tristetea si puteti preveni aparitia cancerului
 
@@ -53,7 +53,7 @@ Femeile mai izolate din punct de vedere social au un risc de a muri de cancer cu
 
 Cauzele pentru care depresiile predispun la cancer raman insa un mister, chiar si pentru cei care au efectuat studiile. Se stie doar ca persoanele deprimate au in sange un nivel ridicat al hormonilor stresului, iar acestia reduc activi-tatea celulelor albe, care \"conduc\" la apararea organismului in fata celulelor canceroase.
 
-http://www.gardianul.ro/index.php?a=sanatate2003120302.xml
+
 
 ### Vitamina B12 ajuta la tratarea depresiei
 
@@ -63,13 +63,13 @@ Prof. Jukka Hintikka a explicat ca descoperirea poate fi extrem de utila, deoare
 
 Vitamina B12 se gaseste in stare naturala in alimente precum pestele, laptele si produsele lactate, ouale, carnea rosie si alba.
 
-http://www.gardianul.ro/index.php?a=societate2004013002.xml
+
 
 ### Ceapa cruda poate alunga depresiile
 
 Pe fondul acumularii unor ganduri negative si a unor experiente neplacute, se poate instala depresia. Cei mai multi nu isi dau seama ca au aceasta afectiune, iar altii prefera sa scape de ea cu ajutorul medicamentelor. Secialistii naturisti spun insa ca exista plante care ajuta la combaterea depresiilor si, in plus, nu \"intoxica\" organismul cu substante chimice. Una dintre plantele recomandate este ceapa. Persoanele deprimate sunt sfatuite sa manance zilnic ceapa, in special cruda, deoarece actioneaza foarte bine asupra psihicului si nu numai. Pentru a ajuta \"tratamentul\" sa devina mai eficient, se poate consuma seara, inainte de culcare, o cana cu ceai de paducel, de sunatoare sau de coada-soricelului. Se poate recurge si la aplicaea de comprese cu apa rece pe incheieturile mainilor, precum si la bai reci la picioare.
 
-<http://www.gardianul.ro/index.php?a=sanatate2003102304.xml>
+<
 
 ### Aromoterapia trateaza starile de depresie
 
@@ -79,7 +79,7 @@ Pentru revigorarea organismului si recapatarea tonusului sunt recomandate baile 
 
 Nu folositi uleiul de lamaie inainte de a iesi la soare, deoarece ar putea dauna pielii. Persoanele cu pielea sensibila sunt sfatuite sa foloseasca acest remediu mai rar, aproximativ o data pe luna.
 
-http://www.gardianul.ro/index.php?a=sanatate2004020207.xml\
+
 **Stresul sporeste pofta de mancare**
 
 In urma mai multor studii, cercetatorii americani au ajuns la concluzia ca, atunci cand suntem stresati, mancam mai mult, in special mai multe dulciuri, acestea determinand cresterea nivelului unui hormon, numit cortizol, iar grasimile create de acesta se depun repede si, spun expertii, dauneaza sanatatii.
@@ -90,19 +90,19 @@ Dupa ce fiecare femeie a parasit camera cu snacks-uri, cercetatorii au constatat
 
 Pamela Peeks, profesor de medicina la Universitatea din Maryland, numeste \"stres toxic\" stresul asociat pe termen lung cu senzatia de neajutorare, de pesimism si de anxietate\". Acesta provoaca cresterea nivelului de cortizol, facilitand depunerea de grasimi in zona burtii. \"Oamenii cu acest tip de grasime au picioarele si mainile slabe, dar au burta. Se pot ingrasa in felul acesta si femeile, chiar de la varste mai mici de 30 de ani\", a spus Peeks.
 
-<http://www.gardianul.ro/index.php?a=societate2003050902.xml>
+<
 
 ### Tamaia, de ajutor in bolile psihice
 
 Tamaia este rasina unui arbore care creste in Asia, inclusiv in zona Iordanului, si in Africa de Nord si se prezinta sub forma unor bobite albe sau aurii, folosite in ritualul ortodox. In camera persoanelor care sufera de insomnie, depresie, nervozitate sau epilepsie se fac fumigatii cu tamaie. Intr-o lingurita din metal, se pun una-doua bobite de tamaie, iar lingurita se tine deasupra flacarii unei lumanari, timp de cateva minute. Tamaia se va topi si va emana fumul cu miros caracteristic. Acesta reduce starea de agitatie psihica, prin stimularea anumitor celule senzoriale olfactive. De asemenea, acest fum destinde, calmeaza si da o stare de buna-dispozitie. Cea mai buna tamaie se spune ca este cea sfintita de Boboteaza, deoarece poarta, pe langa puterea sa, si pe cea a Duhului Sfant si a apei purificatoare in care a fost botezat pruncul Iisus. (T.D.)
 
-<http://www.gardianul.ro/index.php?a=liniafierbinte2003063005.xml>
+<
 
 ### S-a gasit un medicament nou impotriva depresiei
 
 O echipa de cercetatori de la Universitatea din Newcastle cauta voluntari in vederea testarii unei pilule pentru tratarea depresiei. Ingredientul-cheie al acesteia este hormonul DHEA, ce se gaseste in mod natural in organism, dar care descreste cu varsta. Persoanele depresive au acest hormon in cantitati reduse. DHEA, care este produsa de glandele suprarenale, neutralizeaza efectul hormonului stresului, incetineste procesul de imbatranire si imbunatateste procesul memoriei. Dr. Hamish McAllister-Williams, coordonatorul cercetarilor, sustine ca DHEA produce schimbari semnificative in modul de actiune al creierului. Liderul grupului Depression Alliance a declarat pentru BBC News Online: \"Foarte multe persoane cu depresie au probleme cu memoria si concentrarea\". (C. Dobre)
 
-http://www.hanuancutei.com/forum/index.php?s=&showtopic=2689&st=
+
 
 ### Vitamina B6 intareste sistemul nervos
 
@@ -115,19 +115,19 @@ In timpul sarcinii, nevoia de vitamina B6 este crescuta, deoarece sunt foarte im
 
 Simptomele resimtite la nivel emotional (oboseala, nervozitatea, depresia) de femeile care folosesc anticonceptionale sunt cauzate de deficienta de vitamina B6, care poate duce, in general, la slabirea imunitatii, irascibilitate, agresivitate sau depresie. B6 este folositoare barbatilor care au activitati stresante, care sunt obositi, iritati, au migrene, sufera de anemie, au probleme de prostata sau isi pierd podoaba capilara.
 
-http://www.hanuancutei.com/forum/index.php?s=&showtopic=2689&st=
+
 
 **Ginkgo biloba amelioreaza memoria**
 
 Arborele \"parul fecioarei\", cunoscut sub numele de ginkgo biloba, este cel mai vechi copac de pe Pamant. Anumite exemplare dateaza de 1.000 de ani. Frunzele si semintele sale erau deja folosite in medicina chineza veche, initial pentru vindecarea astmului si a altor afectiuni bronhopulmonare, ca si pentru ameliorarea circulatiei periferice si cerebrale. Ginkgo amelioreaza memoria, stimuleaza functionarea creierului si are un efect benign impotriva depresiei, anxietatii si migrenei. Poate fi folosit eficient in cazuri de astm, alergii, maladia Alzheimer, ca si in afectiuni cardiocirculatorii. Are efect antiagregant, impiedicand formarea cheagurilor sanguine. Normalizeaza ten-siunea arteriala, scazand valorile tensionale ridicate si crescan-du-le pe cele scazute. Poate fi utilizat in caz de probleme hepa-tice si renale, inflamatii diverse, impotenta, tulburari de vedere si hemoroizi. Deoarece, in general, amelioreaza circulatia sanguina, administrarea sa reduce simptomele neplacute care insotesc procesul de imbatranire, creste capacitatea de munca, accelereaza vindecarea ranilor si este util dupa flebite. In urma consumului de ginkgo timp de opt saptamani la pacienti cu tulburari mentale, cercetatorii au observat o ameliorare vizibila, in absenta oricaror efecte secundare
 
-<http://www.suplimente.go.ro/>
+<
 
 **PROTECT 4 LIFE (Vasodilatator periferic =Tanacan )**  
 
 Produs antioxidant modern şi eficace, cu conţinut de beta- caroten, vitaminele C şi E, seleniu şi Ginkgo Biloba. Produs modern cu efect antioxidant. Pe lângă vitaminele antioxidante cunoscute,. Imbunatateste memoria si atentia chiar la cei afectati de boala Alzheiman, ameliaoreza deficientele de auz, creste fluxul sangvin la cei cu circulatie periferica deficitara, are efect benign impotriva depresiei, anxietatii si migrenei. Are 90 de tablete si se administreaza 3 tablete pe zi. Pentru mai multe informatii luati legatura cu persoana de contact. Aviz sanitar  in conformitate cu prevederile Legii nr.100/1998.  Produsul are garantie 100% pe satisfactie.        
 
-<http://www.observator.info/arhiva/2002/octombrie/7%20octombrie/ob4.html>
+<
 
 ### COMBATEREA DEPRESIEI PRIN METODE NATURISTE
 
@@ -143,7 +143,7 @@ homeopatia -- este utilã doar dacã remediul este prescris de medicul homeopat,
 
 fitoterapia -- cura cu ceai de sunãtoare sau în amestec cu teiul si menta este salutarã. Singurã, cura nu rezolvã decât partial depresia, necesitând asocierea cu celelalte metode naturiste; miscarea fizicã poate fi cheia succesului în bãtãlia cu depresia. Cele mai indicate sunt drumetiile, înotul, joggingul, tenisul.
 
-<http://sanatate.org/boli/depresia.php>
+<
 
 **Impotriva depresiei:**
 
@@ -153,13 +153,13 @@ fitoterapia -- cura cu ceai de sunãtoare sau în amestec cu teiul si menta este
 
 -Tratament medicamentos plus consiliere şi ajutarea pacientului să facă faţă problemelor şi crizelor vieţii, dependenţei de alcool/droguri şi altor probleme care se asociază adeseori cu depresia.
 
-<http://www.sana.go.ro/tratamente/tratamente_b.htm>
+<
 
 **Depresie nervoasa, insomnie\
-[Aloe Vera Gel](http://www.sana.go.ro/detoxifiere/aloe_vera_gel.htm)** - 2 linguri dimineata si 2 seara, pe stomacul gol, cu 30 de minute inainte de masa. Se recomanda sa se bea cu inghitituri mici, pentru a facilita absorbtia la nivelul mucoasei bucale;\
+Aloe Vera Gel** - 2 linguri dimineata si 2 seara, pe stomacul gol, cu 30 de minute inainte de masa. Se recomanda sa se bea cu inghitituri mici, pentru a facilita absorbtia la nivelul mucoasei bucale;\
 **Regim alimentar: se recomanda excluderea excitantelor (cafea, tutun, alcool) si a alimentelor bogate in aditivi chimici de sinteza**.
 
-<http://www.sanatatea.com/presa.php?topic=presa&page=p0124>
+<
 
 **Ovazul**: este, fara îndoiala, una dintre cele mai cunoscute cereale indicate pentru linistirea nervilor. Utilizare: tarâte de ovaz în anumite mâncaruri. De asemenea, puteti face o baie relaxanta cu extract sau infuzie de ovaz.
 
@@ -179,35 +179,35 @@ fitoterapia -- cura cu ceai de sunãtoare sau în amestec cu teiul si menta este
 
 **Valeriana** (odolean): este foarte eficace pentru calmarea nervilor, pentru relaxarea mintii si a corpului. Utilizare: infuzie din doua linguri la o cana. Trebuie consumata imediat înainte sau dupa ce suferiti de simptomele de stres. (Pro Farmacia)
 
-<http://www.server.ro/users/m-alfa/Produse/produse.html>
+<
 
 **Uleiul de melisã-roinitã- (uz extern):** antiinflamator, calmant local, antimigrenos.
 
 Este indicat în cazul migrenelor, sinuzitelor, întepãturilor de insecte, herpesului. Asupra psihicului si mentalului are efect de reducere a stresului, a depresiei. Conferã echilibru, stimuleazã, calmeazã si dã seninãtate celui care îl utilizeazã.
 
-<http://www.amoryn.com/help_depression.html>
+<
 
-The primary ingredient in AMORYN, [hyperforin](http://www.amoryn.com/formula_hyperforin.html), is an effective treatment for depression and anxiety. [Clinical research](http://www.amoryn.com/index_clinical.html) shows that hyperforin relieves depression as effectively as many prescription medications (including [Paxil®](http://www.amoryn.com/tg_paxil.html) and [Prozac®](http://www.amoryn.com/tg_prozac)), but with a [lower risk of side effects](http://www.amoryn.com/taking_side.html). In fact, over 90% of AMORYN users with depression report [positive results](http://www.amoryn.com/help_success.html).
+The primary ingredient in AMORYN, hyperforin, is an effective treatment for depression and anxiety. Clinical research shows that hyperforin relieves depression as effectively as many prescription medications (including Paxil® and Prozac®), but with a lower risk of side effects. In fact, over 90% of AMORYN users with depression report positive results.
 
-Since AMORYN is a natural supplement, it can be obtained without a prescription. If you suffer from depression and would like to try AMORYN, [order online](http://www.amoryn.com/order.html) today. We offer new customers a [100% money-back guarantee](http://www.amoryn.com/order_riskfree.html), allowing you to try the supplement [risk-free for 60 days](http://www.amoryn.com/order_riskfree.html).
+Since AMORYN is a natural supplement, it can be obtained without a prescription. If you suffer from depression and would like to try AMORYN, order online today. We offer new customers a 100% money-back guarantee, allowing you to try the supplement risk-free for 60 days.
 
-Please take a moment to read [testimonials](http://www.amoryn.com/help_testimonials.html) from clients who have overcome depression and anxiety with AMORYN. You can also learn more about the [100% natural AMORYN formula](http://www.amoryn.com/formula.html) and [how AMORYN works](http://www.amoryn.com/howamorynworks.html). Feel free to [contact](http://www.amoryn.com/contact.html) our friendly support staff with any questions or concerns.1-4 cps / day
+Please take a moment to read testimonials from clients who have overcome depression and anxiety with AMORYN. You can also learn more about the 100% natural AMORYN formula and how AMORYN works. Feel free to contact our friendly support staff with any questions or concerns.1-4 cps / day
 
-<http://www.ultimatedepressionrelief.com/>
+<
 
 Ultimate Depression Relief™ is a wonderful alternative to prescription drugs like Paxil®, Prozac®, and Lexapro® that have numerous side effects.
 
-<http://www.amoryn.com/>
+<
 
 You have lost interest in activities that you once found enjoyable. You lack energy and motivation. Feelings of sadness and anxiety overwhelm you. But now there is hope. With AMORYN, you can embrace every day with a smile.
 
-AMORYN chases your blues away by combining the wisdom of nature with the power of science. The main ingredient in AMORYN, [hyperforin](http://www.amoryn.com/formula_hyperforin.html), is *clinically proven* to relieve both mild and severe [depression](http://www.amoryn.com/help_depression.html) and [anxiety](http://www.amoryn.com/help_anxiety.html). By [boosting the brain\'s natural capacity for happiness](http://www.amoryn.com/howamorynworks.html), AMORYN restores emotional vitality to your life without expensive prescriptions or nasty side effects.
+AMORYN chases your blues away by combining the wisdom of nature with the power of science. The main ingredient in AMORYN, hyperforin, is *clinically proven* to relieve both mild and severe depression and anxiety. By boosting the brain\'s natural capacity for happiness, AMORYN restores emotional vitality to your life without expensive prescriptions or nasty side effects.
 
-The [AMORYN formula](http://www.amoryn.com/formula.html) has been scientifically designed to put a spring in your step and a smile on your face. After taking AMORYN for six weeks, [90%](http://www.amoryn.com/help_success.html) of people with depression and [88%](http://www.amoryn.com/help_success.html) with anxiety report [positive results](http://www.amoryn.com/help_success.html). We encourage you to review the [scientific research](http://www.amoryn.com/index_clinical.html) discussing the benefits of the AMORYN formula. You can also read [testimonials](http://www.amoryn.com/help_testimonials.html) from *real people* who have experienced *real results* with AMORYN.
+The AMORYN formula has been scientifically designed to put a spring in your step and a smile on your face. After taking AMORYN for six weeks, 90% of people with depression and 88% with anxiety report positive results. We encourage you to review the scientific research discussing the benefits of the AMORYN formula. You can also read testimonials from *real people* who have experienced *real results* with AMORYN.
 
-AMORYN can only be purchased through the AMORYN.COM website. [Order now](http://www.amoryn.com/order.html) and finally find the happiness you deserve.
+AMORYN can only be purchased through the AMORYN.COM website. Order now and finally find the happiness you deserve.
 
-<http://www.welatonin.com/>
+<
 
 Selmedica Healthcare is one of the most respected names in the nutraceutical world, with over 50 years of combined experience.
 
@@ -215,15 +215,15 @@ Selmedica Healthcare manufactures every product that we sell in our own state of
 
 Selmedica Healthcare products are not approved or disapproved by the FDA. At this time the food and drug administration does not review, approve or disapprove any dietary supplement itself. Statements about Welatonin made here have not been evaluated by the Food and Drug Administration. Welatonin is not intended to diagnose, treat, cure, or prevent any disease.
 
-http://www.depression.com/medications.html
 
-[WELLBUTRIN XL](http://www.wellbutrin-xl.com/)^®^(bupropion HCl extended-release tablets
 
-[PAXIL CR](http://www.paxilcr.com/)™ (paroxetine HCI) Controlled-Release Tablets
+WELLBUTRIN XL^®^(bupropion HCl extended-release tablets
+
+PAXIL CR™ (paroxetine HCI) Controlled-Release Tablets
 
 #### Hipertensiunea
 
-<http://www.terapii-naturiste.com/terapii_naturiste/balneoterapia/hidroterapia/hidroterapie_leacuri.htm>
+<
 
 Ce este **baia fierbinte**
 
@@ -231,7 +231,7 @@ Cind se face baia fierbinte, tot corpul este scufundat in apa, cu exceptia capul
 
 Este contraindicata persoanelor care sufera de diabet, cancer, cardiopatie ischiemica si vulvopatii, tulburari vasculare, hipertensiune arteriala. De asemenea, trebuie sa se tina seama de faptul ca persoanele in virsta sau debile nu tolereaza bine baia fierbinte. Daca apare starea de ameteala sau de lesin, baia trebuie oprita imediat si in orice caz, persoana respectiva nu trebuie sa fie niciodata singura atunci cind face baia. Baia fierbinte nu se utilizeaza in timpul menstruatiei.
 
-http://www.freemail.atlastelecom.ro/\~samuboy/leurda.htm
+
 
 ### Leurda
 
@@ -240,7 +240,7 @@ Moduri de folosire:**\
 -tinctura de leurda: frunzele sau bulbii taiati marunt se introduc intr-o stical pina la git fara a se indesa, se toarna desupra rachiu de secara sau orice alt rachiu de 38-40% facut in casa si se lasa 14 zile in soare sau in apropierea masinii de gatit. Se iau de 4 ori pe zi cate 10-15 picaturi in putina apa.\
 -vin de leurda: se ia 1 pumn de frunze taiate marunt, se lasa sa dea citeva clocote in ¼ litru de vin alb, se indulceste dupa gust cu miere sau sirop si se bea din acest vin peste zi, incet, inghititura cu inghititura
 
-http://www.evenimentul.ro/local/article/105664,7,baseArticle.html
+
 
 **Utilizarea usturoiului ca remediu medical**
 
@@ -258,7 +258,7 @@ Colesterolul -- o substanţă albă, vîscoasă, care se găseşte în plasma sa
 Hipertensiunea arterială este o boală de care suferă foarte mulţi oameni, unii chiar fără să ştie. Această boală se caracterizează prin pomparea mai accelerată a sîngelui decît este normal: \"Se pare că efectele pozitive ale usturoiului în hipertensiune arterială se datorează, mai degrabă, compuşilor bio-activi, care conţin sulf, decît allicinului (principalul component). Compuşii bio-activi bogaţi în sulf nu au aceeaşi valoare terapeutică precum allicinul însă nu se distrug atît de repede şi, mai ales, proprietăţile terapeutice ale acestora nu dispar în timpul gătitului. Aceşti compuşi nu au aceeaşi proprietate antibiotică şi antifungică a allicinului însă sînt foarte eficienţi pentru circulaţia sîngelui. Usturoiul, ajută la scăderea tensiunii arteriale şi prin faptul ca reglează nivelul de colesterol. Sulfaţii ajută la scăderea nivelului colesterolului nociv, ajutînd foarte mult, prin aceasta, sistemul cardiovascular\".\
 O altă prioritate importantă a usturoiului, spune dna Beju, este aceea de antioxidant natural, ajutînd organismul în lupta cu radicalii liberi, principalii factori responsabili de procesul de îmbătrînire celulară şi reducere a longevităţii. (C.I.)
 
-<http://www.armonianaturii.ro/www/produse-naturiste/products%7CdisplayProduct/id_59/Tinctura-de-lavanda.html>
+<
 
 **Tinctura de lavanda** :intern - se ia o lingura de tinctura diluata in 100ml apa, de 3-4 ori/zi (observatie: in hipertensiuni si in boli in care aportul de lichid este contraindicat se recomanda diluarea tincturii in cantitati mai mici de apa).\
 **Indicatii:** Intern: antispasmodica, anticonvulsiva, antidepresiva, antimigrenoasa, sedativa, somnifer bland, mareste secretia gastrica si motricitatea, intestinala, colagoga, coleretica, carminativa, stimulent nervos usor, antiseptica, antiseptica pulmonar, diuretica, sudorifica, tonic cardiac usor si calmant, hipotensoare, vermifuga, antitoxica, determina intinerirea celulelor si stimuleaza sistemul imunitar, antiinflamatoare.\
@@ -266,7 +266,7 @@ Extern: analgezica, calmanta, antidepresiva, bactericida, cicatrizanta, parazici
 Se recomanda intern in: migrene, cefalee, afectiuni cardiace cu substrat nervos, tulburari digestive, balonari, anxietate, iritabilitate, spasme, insomnii, boli infectioase, melancolie, neurastenie, afectiuni ale cailor respiratorii, reumatism, debilitate infantila, atonie gastrica si intestinala, ameteli, isterie, sechele ale paraliziei, enterite, febra tifoida, cistite, paraziti intestinali, hipertensiune, bronsita.\
 Se recomanda extern in: stari febrile comprese cu tinctura diluata in apa, plagi de orice natura: simple, atone, infectate, cangrenoase, sifilitice comprese cu tinctura, arsuri de gradul I si II comprese cu tinctura - in ciuda usturimii efectele vindecatoare sunt remarcabile, cuperoza comprese cu tinctura diluata in apa, intepaturi de insecte, muscaturi de animale si de vipera (tratament imediat) comprese cu tinctura, pediculoza, caderea parului frictiune la radacina parului cu tinctura din abundenta, dupa care capul se acopera, dureri de cap, paralizie frictionari locale cu tinctura.
 
-http://www.evenimentul.ro/local/article/101012,7,baseArticle.html
+
 
 **Tratament cu macerat din rădăcini de ţelina şi seminţe de ovăz**
 
@@ -275,12 +275,12 @@ Acest tratament are efecte benefice în cazuri de digestie deficitară, inapeten
 Mai întîi se curăţă rădăcinile de ţelină, se spală cu apă rece, se taie în felii subţiri, apoi se dau prin maşina de tocat carne şi se introduc într-un borcan. Cantitatea lor trebuie să ocupe o treime din borcan. În alt borcan, de aceeaşi capacitate, se pun seminţe de ovăz nedecorticate, iar cantitatea lor trebuie să ocupe o treime din borcan. Seminţele de ovăz se dau printr-o maşină de măcinat, în aşa fel încît să fie doar mărunţite, sfărîmate şi nu transformate în făină.\
 Atît peste ţelină, cît şi peste ovăz, se pune apă rece pînă se umple borcanul, apoi se agită cu o lingură de lemn. Se lasă la macerat timp de 24 de ore, după care fiecare macerat se strecoară separat printr-un tifon şi se amestecă în părţi egale. Amestecul trebuie consumat în timp de 2 zile, după care se prepară noi cantităţi prin acelaşi procedeu. Se consumă 1-1,5 l de macerat pe zi. Este bine ca acest tratament să se repete de mai multe ori în decursul unui an, cu pauze de 1-2 luni. (C.I.)
 
-<http://www.evenimentul.ro/local/article/97379,7,baseArticle.html>
+<
 
 La normalizarea tensiunii arteriale, pe lîngă medicamente, pot contribui şi unele produse obţinute din plante medicinale. În primul rînd florile, frunzele şi fructele de **păducel** -- infuzie dintr-o linguriţă de frunze şi flori sau 2 linguriţe de fructe la o cană cu apă. Întreaga cantitate se bea în cursul unei zile.\
 Efecte deosebite în hipertensiune arterială are şi ceaiul din talpa gîştei -- infuzie din 3 linguri de plantă mărunţită la 200 ml de apă clocotită; se iau 3-5 linguri pe zi. (C.I.)
 
-<http://www.evenimentul.ro/local/article/81405,7,baseArticle.html>
+<
 
 **Hrean şi leuştean pentru hipertensiune arterială**
 

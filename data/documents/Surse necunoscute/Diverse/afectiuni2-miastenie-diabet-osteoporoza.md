@@ -6,7 +6,7 @@ http;//www.formula-as.ro
 
 **Cannabisul** poate ameliorea în mod eficient simptomele ce apar în anumite boli ale sistemului neuro-muscular (e.g. miastenia)?
 
-http://www.bughiman.3x.ro/cannabis.html
+
 
 Medicament
 
@@ -18,7 +18,7 @@ Prednisolone is applied as API in drug formulations in forms of tablets, creams,
 
 Prednisolone substance can be applied as a precursor in a synthesis of other steroid preparations (dexamethasone, triamcinolone, budesonide, etc.).
 
-http://www.metkinen.fi/products/fermentation\_technologies/steroids/
+
 
 Diabet zaharat
 
@@ -32,7 +32,7 @@ Medicamentul-minune care combate atât obezitatea cât şi fumatul ar putea apă
 Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al anului în curs cererea pentru autorizarea punerii în vânzare a preparatului **Rimonabant.\
 **Atenţie, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, şi chiar s-au dovedit periculoase, aşa cum a fost cazul cu Isomeride.
 
-<http://postamedicala.ro/content/view/63/48/>
+<
 
 Actualităţi în tratamentul polineuropatiei diabetice
 ====================================================
@@ -45,7 +45,7 @@ Actualităţi în tratamentul polineuropatiei diabetice
   Studierea mecanismului patogenetic sugerează necesitatea unui tratament ţintit, cu apariţia unor noi clase de substanţe, cum ar fi: inhibitorii de aldoz-reductază, antioxidantele, acidul γ linoleic, inhibitori ai protein-kinazei C, factori neurotrofici.\
   Nu trebuie uitat însă că şi un bun control al glicemiei prezintă un important efect de reducere a intensităţii durerii.
 
-<http://postamedicala.ro/content/view/101/48/>
+<
 
 Medicamente necesare bolnavilor de diabet
 =========================================
@@ -58,7 +58,7 @@ Ministerul Sănătăţii (MS) şi Casa Naţională de Asigurări de Sănătate (
 Conform calculelor efectuate de către reprezentanţii CNAS, comanda din această lună, în valoare de 160 miliarde de lei, va fi suficientă pentru tratamentul gratuit al tuturor pacienţilor.\
   Anul trecut erau înregistraţi în România peste 400.000 de bolnavi de diabet, iar 75.000 dintre ei aveau nevoie de tratament cu insulină. Anual, în ţara noastră sunt înregistrate 50.000 de noi cazuri de îmbolnăviri.(Rompres)
 
-<http://postamedicala.ro/content/view/82/48/>
+<
 
 Reanalizarea Programului Naţional de Diabet şi boli de nutriţie
 ===============================================================
@@ -68,13 +68,13 @@ Reanalizarea Programului Naţional de Diabet şi boli de nutriţie
   Dintr-un comunicat de presă al Ministerului Sănătăţii aflăm ca prof. Mircea Cinteză a cerut comisiei de diabet să definitiveze în regim de urgenţă nişte protocoale terapeutice pe tipuri de diabet şi stadii de boală, precum şi realizarea Registrului Naţional de Diabet, care va fi conceput ca o bază de date necesară pentru cunoaşterea exactă a numărului de pacienţi bolnavi de diabet şi a costurilor necesare stadiilor de evoluţie ale bolii. Membrii comisiei au la dispoziţie o săptămână pentru finalizarea acestui proiect.\
   Pentru anul 2005, Programul de prevenţie şi control în diabet şi alte boli de nutriţie beneficiază de un buget de aprox. 1800 miliarde lei. Anul trecut erau înregistraţi în România peste 400 000 de bolnavi de diabet, dintre care peste 300 000 primesc medicamentaţie gratuită în cadrul Programului Naţional de Diabet. (Rompres)
 
-<http://postamedicala.ro/content/view/100/48/>
+<
 
-[**Diabeticii trebuie sa doarma cu lumina aprinsa**](http://www.roportal.ro/discutii/index.php?showtopic=929)
+**Diabeticii trebuie sa doarma cu lumina aprinsa**
 
 Cercetatori de la Universitatea din Cardiff, tara Galilor, sfatuiesc persoanele cu **diabet** sa doarma cu luminile aprinse, pentru a impiedica instalarea retinopatiei, o boala severa care poate duce la orbire. Boala este cauzata de blocarea unor vase de sange din spatele ochiului, ceea ce duce in final la afectarea retinei din cauza lipsei de oxigen. Cercetatorii au ajuns la concluzia ca, in timpul noptii, ochii au nevoie de mai mult oxigen pentru a putea vedea in intuneric, de aceea este indicat ca diabeticii sa doarma cu lumina aprinsa. \"Avand in vedere ca lumina stimuleaza ochiul, chiar daca pleoapele sunt inchise, consideram ca ar fi in beneficiul diabeticilor sa doarma cu lumina aprinsa pentru a se reduce consumul de oxigen\", explica profesorul Neville Drasdo.
 
-<http://www.roportal.ro/discutii/lofiversion/index.php/t929.html>
+<
 
 **CAZ CLINIC: B.V., 74 ani.**
 
@@ -119,7 +119,7 @@ Lichide: ceaiuri naturale (macerate), bere, vin, ulei presat la rece.
 
 carne de orice fel, mezeluri, peste, cascaval, brînza topita, branzeturi fermentate, urda, cartofi fierti, prajiti, fasole, mazare, ulei rafinat, zahar, sare, alcool distilat(votca, coniac etc), miere (80% glucide) în exces, stafide (71%), smochine (58%), vinul dulce, mustul, cola etc.
 
-http://www.eltauniversitate.ro/
+
 
 **Aloe Vera Gel** (efect antiinflamator şi de stimulare a sistemului digestiv şi a pancreasului, factor de control în cazul de asociere cu arteroscleroza) 2 linguri dimineaţa şi 2 seara pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghiţituri mici pentru n facilita absorbţia la nivelul mucoasei bucale.
 
@@ -133,23 +133,23 @@ Forever Kids (complexul de vitamine B ameliorează absorbţia insulinei la nivel
 
 Dacă există complicaţii cardiace sau obezitate cura se va asocia cu Arctic Şea Omega 3 şi Garlic Thyme. Regimul alimentar specific diabetului este obligatoriu. Cura va fi însoţită de tratamentul alopat indicat de către medicul diabetolog dar, odată cu ameliorarea analizelor şi sub supravegherea medicului, se poate reduce doza de insulina sau administrarea de medicamente diabetice.
 
-http://aloe-vera.miral.ro/html/scheme\_c.html\#diabet
+
 
 **Sucul de varza** - se bea jumatate de pahar de suc de varza dimineata si la pranz. Acest remediu are un efect foarte interesant de stabilizare a valorilor glicemiei.
 
-http://www.romanianmall.com/natural/COMBINATIILE%20DE%20SUCURI.htm
+
 
 **Sucul de ceapa** - la o ora dupa masa, se beau 2 linguri de suc de ceapa diluate in jumatate de pahar de suc de morcov. Tratamentul se face vreme de minimum trei saptamani, timp in care, in cazul pacientilor insulino-dependenti, glicemia va fi verificata regulat, pentru a se ajusta doza zilnica de insulina. Astm, bronsita, tuse - se amesteca doua linguri de suc de ceapa cu patru linguri de miere. Se administreaza acest remediu pe parcursul unei zile.
 
- http://www.romanianmall.com/natural/COMBINATIILE%20DE%20SUCURI.htm
+ 
 
 **Dieta cea mai sănătoasă pentru diabetici**
 
 Folosirea piramidei alimentaţiei sănătoase te ajută să consumi o varietate de alimente sănătoase. Atunci când consumi o varietate de alimente, organismul obţine toate vitaminele şi mineralele de care ai nevoie.
 
-![](media/image1.png){width="1.8180555555555555in" height="0.4284722222222222in"}
+!{width="1.8180555555555555in" height="0.4284722222222222in"}
 
-![](media/image2.jpeg){width="2.375in" height="1.9166666666666667in"}**ATENŢIE!** Aceasta este o varianta a piramidei alimentaţiei care include carne. Este preferabil sa renunţaţi la acest aliment, întrucât carnea nu este indispensabila unei alimentaţii sănătoase; dimpotrivă, ea conţine numeroase substanţe dăunătoare sănătăţii. Consumaţi alimente diferite din fiecare grupă în fiecare zi. Studiaţi exemplul de mai jos pentru a vedea cum se poate realiza acest lucru.
+!{width="2.375in" height="1.9166666666666667in"}**ATENŢIE!** Aceasta este o varianta a piramidei alimentaţiei care include carne. Este preferabil sa renunţaţi la acest aliment, întrucât carnea nu este indispensabila unei alimentaţii sănătoase; dimpotrivă, ea conţine numeroase substanţe dăunătoare sănătăţii. Consumaţi alimente diferite din fiecare grupă în fiecare zi. Studiaţi exemplul de mai jos pentru a vedea cum se poate realiza acest lucru.
 
  
 
@@ -172,15 +172,15 @@ Amidonoasele oferă organismului energie, vitamine, minerale, precum şi fibre.\
 
 1 Porţie:
 
-![](media/image3.png){width="2.2083333333333335in" height="0.5194444444444445in"}
+!{width="2.2083333333333335in" height="0.5194444444444445in"}
 
 2 Porţii:
 
-![](media/image4.png){width="2.209722222222222in" height="0.5215277777777778in"}
+!{width="2.209722222222222in" height="0.5215277777777778in"}
 
 3 Portii
 
-![](media/image5.png){width="2.1479166666666667in" height="0.5041666666666667in"}Poţi consuma una, doua sau trei porţii de alimente amidonoase la un prânz. Dacă foloseşti mai mult decât o singură porţie la o masă, poţi opta între a mânca mai multe tipuri de alimente amidonoase sau mai multe porţii din acelaşi aliment.
+!{width="2.1479166666666667in" height="0.5041666666666667in"}Poţi consuma una, doua sau trei porţii de alimente amidonoase la un prânz. Dacă foloseşti mai mult decât o singură porţie la o masă, poţi opta între a mânca mai multe tipuri de alimente amidonoase sau mai multe porţii din acelaşi aliment.
 
  
 
@@ -208,11 +208,11 @@ Verdeţurile sunt alimente sănătoase pentru toţi, inclusiv pentru diabetici. 
 
 **Cât de mult este o porţie de verdeţuri?**
 
-![](media/image6.png){width="1.7534722222222223in" height="0.7013888888888888in"}1 Portie: 2 Portii:
+!{width="1.7534722222222223in" height="0.7013888888888888in"}1 Portie: 2 Portii:
 
 3 Portii:
 
-![](media/image7.png){width="1.8180555555555555in" height="0.5013888888888889in"}Poţi mânca una, două sau trei porţii de verdeturi la o masă. Dacă consumi mai mult decât o porţie la o masă, poţi opta între a consuma tipuri diferite de verdeţuri sau a servi două sau trei porţii din acelaţi tip de verdeţuri.
+!{width="1.8180555555555555in" height="0.5013888888888889in"}Poţi mânca una, două sau trei porţii de verdeturi la o masă. Dacă consumi mai mult decât o porţie la o masă, poţi opta între a consuma tipuri diferite de verdeţuri sau a servi două sau trei porţii din acelaţi tip de verdeţuri.
 
  
 
@@ -230,15 +230,15 @@ Folosiţi puţin suc de lămâie pentru a da gust verdeţurilor sau salatelor.
 
 Presăraţi deasupra mirodenii şi condimente vegetale. Acestea dau gust delicios dar nu conţin grăsimi sau calorii aproape deloc.
 
-  ---------------- ------------ --------------
-                   **Ziua 1**   **Ziua 2**
+ ---------------- ------------ --------------
+ **Ziua 1** **Ziua 2**
 
-  **Fructe:**      măr\         pară\
-                   portocală    banana
+ **Fructe:** măr\ pară\
+ portocală banana
 
-  **Verdeturi:**   varza        salata\
-                                fasole verde
-  ---------------- ------------ --------------
+ **Verdeturi:** varza salata\
+ fasole verde
+ ---------------- ------------ --------------
 
 Dacă folosiţi o cantitate mică de grăsime, alegeţi ulei de măsline, de floarea soarelui sau margarină de consistenţă moale (la tub) în loc de carne grasă, unt, slănină sau dresuri grase.
 
@@ -250,9 +250,9 @@ Fructele sunt sănătoase pentru toată lumea, inclusiv pentru diabetici. Fructe
 
 1 Portie: 2 Portii:
 
-![](media/image8.png){width="1.429861111111111in" height="0.56875in"}![](media/image9.png){width="1.6861111111111111in" height="0.74375in"}
+!{width="1.429861111111111in" height="0.56875in"}!{width="1.6861111111111111in" height="0.74375in"}
 
-![](media/image10.png){width="2.1215277777777777in" height="0.6694444444444444in"}Poţi să consumi una sau două porţii de fructe la o masă. Dacă mănânci mai mult decât o porţie la o masă, alege tipuri diferite de fructe sau consumă două porţii din acelaşi fruct.
+!{width="2.1215277777777777in" height="0.6694444444444444in"}Poţi să consumi una sau două porţii de fructe la o masă. Dacă mănânci mai mult decât o porţie la o masă, alege tipuri diferite de fructe sau consumă două porţii din acelaşi fruct.
 
  
 
@@ -284,7 +284,7 @@ Beţi zilnic lapte degresat (smântânit) sau parţial degresat (1%). Folosiţi 
 
 1 Portie:
 
-![](media/image11.png){width="1.5583333333333333in" height="0.7388888888888889in"} Alimentele proteice sunt carnea, ouăle, brânza, peştele, leguminoasele uscate (fasole, soia etc.) şi tofu. Consumaţi cantităţi mici din aceste alimente în fiecare zi.
+!{width="1.5583333333333333in" height="0.7388888888888889in"} Alimentele proteice sunt carnea, ouăle, brânza, peştele, leguminoasele uscate (fasole, soia etc.) şi tofu. Consumaţi cantităţi mici din aceste alimente în fiecare zi.
 
  **ATENŢIE!** Aceasta este o varianta a piramidei alimentaţiei care include carne. Este preferabil sa renunţaţi la acest aliment, întrucât carnea nu este indispensabila unei alimentaţii sănătoase; dimpotrivă, ea conţine numeroase substanţe dăunătoare sănătăţii. Alimentele proteice sunt utile organismului pentru a clădi ţesuturi şi muşchi. De asemenea, ele furnizează vitamine şi minerale.
 
@@ -294,7 +294,7 @@ Beţi zilnic lapte degresat (smântânit) sau parţial degresat (1%). Folosiţi 
 
 1 Portie:
 
-![](media/image12.png){width="1.8694444444444445in" height="0.43472222222222223in"}
+!{width="1.8694444444444445in" height="0.43472222222222223in"}
 
 **ATENŢIE!** Mărimea porţiei pe care o consumaţi acum s-ar putea să fie prea mare!
 
@@ -336,7 +336,7 @@ Alimentele bogate în grăsimi sunt ispititoare. Dar păstrarea consumului acest
 
 1 Portie: 2 Portii:
 
-![](media/image13.png){width="0.6263888888888889in" height="0.5909722222222222in"}
+!{width="0.6263888888888889in" height="0.5909722222222222in"}
 
 Mesele pe care le consumi pot include una sau doua porţii de grasime.
 
@@ -350,7 +350,7 @@ Mesele pe care le consumi pot include una sau doua porţii de grasime.
 
 1 Portie:
 
-![](media/image14.png){width="1.8694444444444445in" height="0.6520833333333333in"}
+!{width="1.8694444444444445in" height="0.6520833333333333in"}
 
 Din când în când puteţi mânca câte o porţie de dulciuri. Oricum, este bine să discutaţi cu medicul dvs. în legătură cu acest subiect.
 
@@ -389,7 +389,7 @@ Medicamentul recent folosit în tratamentul osteoporozei, Protelos (S12911 stron
  Medicamentul a fost recent aprobat şi livrat pe piaţă în Europa pentru tratamentul osteoporozei postmenopauză tocmai pentru proprietăţile sus menţionate. Este primul medicament din generaţia lui cu dublă acţiune pe metabolismul osos, care simultan creşte formarea osoasă şi scade procesul de resorbţie, rezultând astfel un nou os mai puternic.\
  Aceste caracteristici, acţiunea duală pe os şi efectul protectiv faţă de fracturi plasează Protelosul printre medicamentele de primă linie în tratamentul osteoporozei postmenopauză.
 
-<http://postamedicala.ro/content/view/340/48/>
+<
 
 TRATAMENTUL COXARTROZEI
 =======================
@@ -408,9 +408,9 @@ Tratament
 
  Vestea bună este că depresia poate fi tratată. Din nefericire însă, foarte mulţi oameni ignoră simptomele acetei boli şi ezită să caute ajutor. Dacă crezi că suferi de depresie, adresează-te medicului de familie şi acesta te va ajuta să găseşti un tratament adecvat.
 
-<http://www.suplimente.go.ro/>
+<
 
-##### OSTEOPOROZA - SOLUTII 
+##### OSTEOPOROZA - SOLUTII
 
 Chiar daca nu figureaza printre primele cauze de deces, osteoporoza este o afectiune de temut. Daca la început se manifesta doar prin încovoierea spatelui, cu timpul pot aparea complicatii tot mai invalidante, cum este de ex. fractura de col femural. Vestea buna este ca osteoporoza este o boala tratabila, dar mai ales prevenibila.
 
@@ -480,13 +480,13 @@ Osteoporoza slabeste oasele si acestea se fractureaza mult mai usor. Iata câtev
 
 *În caz de cadere.* Miscati-va încet si evitati sa fortati bratul sau piciorul la care v-ati lovit. Daca banuiti ca s-a produs o fractura, nu va miscati si nu permiteti nimanui sa va miste pâna la sosirea ajutorului medical.
 
-http://sanatate.org/boli/osteoporoza.php 
+ 
 
-Osteoporozã algicã vertebralã 
+Osteoporozã algicã vertebralã
 =============================
 
 „S-a îndurat Dumnezeu si de mine!\"                                                      
 
-Osteoporoza algica vertebrala. Pacienta în vârstã de 76 de ani suferea de osteoporozã algicã vertebralã cronicã. A urmat o curã cu [Aloe Vera Gel](http://flp.uv.ro/exp-15.html), [Nature Min](http://flp.uv.ro/exp-37.html) si [Absorbent C](http://flp.uv.ro/exp-48.html). Dupã aproximativ 2 luni durerile distribuite pe toatã coloana vertebralã au cedat aproape complet, permitându-i persoanei sã se deplaseze. Cura continuã.
+Osteoporoza algica vertebrala. Pacienta în vârstã de 76 de ani suferea de osteoporozã algicã vertebralã cronicã. A urmat o curã cu Aloe Vera Gel, Nature Min si Absorbent C. Dupã aproximativ 2 luni durerile distribuite pe toatã coloana vertebralã au cedat aproape complet, permitându-i persoanei sã se deplaseze. Cura continuã.
 
-http://flp.uv.ro/marturii.html
+

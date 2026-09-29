@@ -22,7 +22,7 @@ IRIDOLOGIE
 
 Forma pupilei are deseori o importanţă deosebită pentru Iridologi.Ar putea îndrepta atenţia spre o anumită parte a irisului, sau ar putea avea o semnificaţie proprie.
 
-Aşa cum ştii, pupila normală are un cerc în centrul irisului. Forma sa este rezultatul contracţiilor opuse şi dilatarea muşchiului fibrelor.Dilatarea este o funcţie a sistemului nervos simpatic, în timp ce contractarea este o funcţie a sistemului nervos parasimpatic. (care priveşte funcţiile vegetative). 
+Aşa cum ştii, pupila normală are un cerc în centrul irisului. Forma sa este rezultatul contracţiilor opuse şi dilatarea muşchiului fibrelor.Dilatarea este o funcţie a sistemului nervos simpatic, în timp ce contractarea este o funcţie a sistemului nervos parasimpatic. (care priveşte funcţiile vegetative).
 
 **Aplatizare segmentară**
 
@@ -32,17 +32,17 @@ Evident că dacă este văzută doar într-un ochi, atunci este legată de parte
 
 **Aplatizarea superioară**
 
-Aceasta îndreaptă atenţia spre creier, minte şi zonele de simţ. Iridologul ar trebui să fie atent la faptul că o asemenea aplatizare ar putea indica probleme senzoriale, simptomatologie mentală şi stări de oboseală. Individul ar putea avea o tendinţă spre nervozitate, depresie, isterie sau multe alte boli psihotice severe. 
+Aceasta îndreaptă atenţia spre creier, minte şi zonele de simţ. Iridologul ar trebui să fie atent la faptul că o asemenea aplatizare ar putea indica probleme senzoriale, simptomatologie mentală şi stări de oboseală. Individul ar putea avea o tendinţă spre nervozitate, depresie, isterie sau multe alte boli psihotice severe.
 
 **Super aplatizarea medială**
 
-Aceasta îndreaptă atenţia spre simţuri şi toate problemele de cap, excluzând creierul. Individul poate avea probleme cu ochii, nasul, sinusurile,  sau cu dinţii la fel ca şi durerile de cap.
+Aceasta îndreaptă atenţia spre simţuri şi toate problemele de cap, excluzând creierul. Individul poate avea probleme cu ochii, nasul, sinusurile, sau cu dinţii la fel ca şi durerile de cap.
 
 **Aplatizare medială**
 
-Aceasta îndreaptă atenţia spre  întreaga coloană vertebrală, partea principală a sistemului nervos şi glanda tiroidă.
+Aceasta îndreaptă atenţia spre întreaga coloană vertebrală, partea principală a sistemului nervos şi glanda tiroidă.
 
-**Aplatizare infero-medială** 
+**Aplatizare infero-medială**
 
 Aceasta îndreaptă atenţia spre tractul reproductiv şi sistemul urinar. Individul poate avea probleme sexuale, de fertilitate sau de incontinenţă.
 
@@ -50,7 +50,7 @@ Aceasta îndreaptă atenţia spre tractul reproductiv şi sistemul urinar. Indiv
 
 Aceasta se referă la pelvis şi membrele inferioare. Poate de asemenea sa indice probleme cu eliminarea prin sistemul urinar. Aceasta în schimb poate cauza probleme pentru alte părţi ale corpului. În particular, individul poate avea problme cu pielea.
 
-**Aplatizarea infero- laterală** 
+**Aplatizarea infero- laterală**
 
 Aceasta se referă la membrele superioare şi alte probleme legate de articulaţii. Suferinzii de artrită pot manifesta acest semn timpuriu, uneori chiar înainte ca artrita să aibă loc. Este de reţinut faptul că nodurile Herbenden pot fi vizibile pe degetele mâinilor cu artrită înainte de începerea durerilor de articulaţii.
 
@@ -80,9 +80,9 @@ Acestea sunt semne ale unei probleme mentale. Depresia este cea mai probabilă �
 
 **Ovale mediale**
 
-Slăbiciunea este cuvântul cheie aici. Individul poate avea slabe rezerve, puțina putere. Ei vor suferi spasme dureroase ale articulațiilor inferioare. 
+Slăbiciunea este cuvântul cheie aici. Individul poate avea slabe rezerve, puțina putere. Ei vor suferi spasme dureroase ale articulațiilor inferioare.
 
-**Ovale laterale** 
+**Ovale laterale**
 
 Aceasta e semnul unei instabilități emoționale. Vor fi napădiți de instabilitate, nervi, depresie. Ar putea de asemenea să fie la riscul pierderii conștiinței, convulsiilor, sau atacurilor cerebrale.
 
@@ -128,7 +128,7 @@ Aceasta indică afecţiuni ale ficatului sau ale splinei.
 
 **Deplasarea laterală**
 
-Aceasta poate indica afecţiuni pieptului, inimii sau ficatului. Ar putea fi dezvoltat la femei, un nodul la piept. 
+Aceasta poate indica afecţiuni pieptului, inimii sau ficatului. Ar putea fi dezvoltat la femei, un nodul la piept.
 
 **Deplasarea supero-laterală**
 

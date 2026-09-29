@@ -70,7 +70,7 @@ Administrare: adulţi: 1 – 2 lingurite x 3 ori / zi, copii > 6 ani : ¼ – ½
 
 ## Antet 1
 
-Website: http://stores.ebay.com/herbshouse2015
+Website:
 
 Email: nelucristian2005@gmail.com
 

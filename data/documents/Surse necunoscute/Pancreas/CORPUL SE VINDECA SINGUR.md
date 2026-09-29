@@ -1,8 +1,8 @@
-[**Corpul se vindecă singur, dacă bolnavul înţelege CAUZA BOLII**](http://www.financiarul.ro/2011/05/24/descoperiri-uluitoare-despre-adevaratele-cauze-ale-cancerului-corpul-se-vindeca-singur/)
+**Corpul se vindecă singur, dacă bolnavul înţelege CAUZA BOLII**
 
 24 mai 2011
 
-[Naţional](http://www.financiarul.ro/categorie/national/), [Prima pagină](http://www.financiarul.ro/categorie/prima-pagina/)
+Naţional, Prima pagină
 
 \- Doctorul german Ryke HAMER (foto) a tratat cu succes peste 31.000 de pacienti doar stand de vorba cu ei.  Nu facea nimic magic, in afara faptului ca le explica logic si rational despre stransa legatura dintre starea mentala si boala. El sustine ca fiecare om s-a imbolnavit din cauza unui program mental distructiv, nascut in urma unui SOC emotional. El a numit acest soc dupa numele fiului  sau: Dyrk Hamer Syndome sau DHS (sindromul Dirk Hamer).
 
@@ -12,7 +12,7 @@ Dr. Hamer  era in anii '70 Cercetator si Sef al Clincii de Oncologie din Munche
 
 Insa cursul vietii  doctorului Hamer avea sa se schimbe radical, in luna decembrie a anului 1978, **cand a primit teribila veste ca fiul sau DIRK , de doar 19 ani, a fost impuscat mortal.** Mai mult decat atat, la cateva luni de la eveniment a murit sotia lui.  Aceste socuri l-au ranit la un nivel profund, si, ca si cum n-ar fi fost destul, peste cateva luni **s-a imbolnavit de CANCER la TESTICULE.**
 
-![](media/image1.jpeg){width="2.0833333333333335in" height="2.4791666666666665in"}
+!{width="2.0833333333333335in" height="2.4791666666666665in"}
 
 Ajunsese un doctor care trata pancientii de cancer, iar in paralel trebuia sa se trateze pe el insusi de cancer.  Era speriat de rata mare de insucces a tratamentelor clasice, pe care ar fi trebuit sa le urmeze si el, insa nu mai avea incredere in ele . Desi pare descurajator, **acest context urma sa-l ajute pe Dr. Hamer sa revolutioneze lumea medicala.**
 

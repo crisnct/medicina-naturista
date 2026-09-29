@@ -2,50 +2,50 @@ Recomandari pentru dizolvarea pietrelor de la rinichi
 
 **[Alimente care grabesc vindecarea:]{.underline}**
 
--   samburi de dovleac
+- samburi de dovleac
 
--   brocoli
+- brocoli
 
--   ceapa verde
+- ceapa verde
 
--   pepene verde
+- pepene verde
 
--   ananas
+- ananas
 
--   masline
+- masline
 
--   usturoi
+- usturoi
 
--   gulie
+- gulie
 
--   pere
+- pere
 
--   prune
+- prune
 
--   struguri
+- struguri
 
--   lamai (zilnic se vor manca 3-4 felii de lamaie pe stomacul gol inainte de masa cu 15-30 minute. NU se vor manca cu zahar)
+- lamai (zilnic se vor manca 3-4 felii de lamaie pe stomacul gol inainte de masa cu 15-30 minute. NU se vor manca cu zahar)
 
--   suc de patrunjel: 3 linguri pe zi dimineata
+- suc de patrunjel: 3 linguri pe zi dimineata
 
--   decoct din radacina de maces: 1 lingura de radacina la doua cani de apa
+- decoct din radacina de maces: 1 lingura de radacina la doua cani de apa
 
--   urzica
+- urzica
 
--   *preparatele din plante pentru rinichi este bine a se lua intre orele 17-19 atunci cand activitatea rinichilor este maxima*
+- *preparatele din plante pentru rinichi este bine a se lua intre orele 17-19 atunci cand activitatea rinichilor este maxima*
 
--   decoct 5 minute din 3 linguri de seminte de mac la o cana de apa indulcita cu putina miere. Se bea seara cu doua ore inainte de culcare.
+- decoct 5 minute din 3 linguri de seminte de mac la o cana de apa indulcita cu putina miere. Se bea seara cu doua ore inainte de culcare.
 
 [Alte recomandari]{.underline}
 ==============================
 
--   Sarea se va elimina complet din alimentative pe durata tratamentului
+- Sarea se va elimina complet din alimentative pe durata tratamentului
 
--   Vitamina A Forte: 1 capsula la doua zile maxim 20 de zile pe an
+- Vitamina A Forte: 1 capsula la doua zile maxim 20 de zile pe an
 
--   Nu se va consuma apa de la robinet ci numai plata sau minerala
+- Nu se va consuma apa de la robinet ci numai plata sau minerala
 
--   dimineata pe stomacul gol se ia o lingurita de apa de vie
+- dimineata pe stomacul gol se ia o lingurita de apa de vie
 
 > **- [frunze de Merişor]{.underline}**: infuzie din două linguriţe la o cană de apă ( se pune apă fierbinte peste plante şi se acoperă imediat). Dupa ce infuzia s-a strecurat se pune un vârf de cuţit de bicarbonat de sodiu la o cană. Se beau două căni pe zi, una dimineaţa şi una seara. Dupa 7 zile se face pauză 3 zile dupa care se poate relua tratamentul. În timpul folosirii acestei infuzii este posibil ca urina să se coloreze usor în verde, dar nu trebuie să fie motiv de îngrijorare; se elimină o substanţă -hidrochinona- care se află în plantă). Planta are actiune de sfărâmare a pietrelor.
 >

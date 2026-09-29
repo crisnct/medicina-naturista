@@ -24,17 +24,17 @@ Completari
 
 Vei vedea această atitudine peste tot, dar mai ales în medicina naturistă. De exemplu, în homeopatie a existat o modă, în special în Europa, de a practica ceea ce este cunoscut sub numele de Homeopatie Complexa.
 
-Prin aceasta, mai degrabă decât sa foloseasa singura cale de atac indicata, pe care Hahnemann ne-a învățat, oamenii folosesc amestecuri sau remedii complexe.Sugestia este ca aceste combinații sa acționeze într-o manieră mult mai subtilă și eficientă. Pentru a ajuta practicantul, a fost elaborata o serie întreagă de teste de diagnostic, multe dintre ele în funcție de metode radiestetice sau bioenergetice.Problema cu aceasta abordare este, cred eu, că ea complică lucrurile dincolo de convingeri. Într-adevăr, în cazul în care munca intelectuala a fost făcuta în mod corespunzător, atunci singura cale de atac ar trebui să fie evidenta. 
+Prin aceasta, mai degrabă decât sa foloseasa singura cale de atac indicata, pe care Hahnemann ne-a învățat, oamenii folosesc amestecuri sau remedii complexe.Sugestia este ca aceste combinații sa acționeze într-o manieră mult mai subtilă și eficientă. Pentru a ajuta practicantul, a fost elaborata o serie întreagă de teste de diagnostic, multe dintre ele în funcție de metode radiestetice sau bioenergetice.Problema cu aceasta abordare este, cred eu, că ea complică lucrurile dincolo de convingeri. Într-adevăr, în cazul în care munca intelectuala a fost făcuta în mod corespunzător, atunci singura cale de atac ar trebui să fie evidenta.
 
-Același lucru se întâmplă în Herbalism. Unii folosesc fără rușine amestecuri complexe-prescriptii \- de plante. Din nou, se spune că ele sunt alese pentru a se spori una pe alta sau pentru a se compensa una pentru alta. Sfatul meu este sa păstrezi  întotdeauna simplitatea. Aminteste-ti  că ierburile in sine sunt destul de complicate. Ele sunt organisme dinamice. Odată ce ai începe să utiliezi  complexuri, pierzi  controlul. Aminteste-ti  că sensul original al cuvantului „simplu” a fost un remediu.
+Același lucru se întâmplă în Herbalism. Unii folosesc fără rușine amestecuri complexe-prescriptii \- de plante. Din nou, se spune că ele sunt alese pentru a se spori una pe alta sau pentru a se compensa una pentru alta. Sfatul meu este sa păstrezi întotdeauna simplitatea. Aminteste-ti că ierburile in sine sunt destul de complicate. Ele sunt organisme dinamice. Odată ce ai începe să utiliezi complexuri, pierzi controlul. Aminteste-ti că sensul original al cuvantului „simplu” a fost un remediu.
 
-Bai de plante 
+Bai de plante
 
-Baia este un loc extrem de bun pentru utilizarea plantelor. Nu trebuie ca o planta să fie luata doar  pe plan intern sau aplicata pe suprafața pielii ca o cataplasmă. Adăugarea unei plante la baie, la fel ca si in cazul uleiurilor esențiale aromoterapeutice, este un beneficiu pentru tratarea mai multor boli.
+Baia este un loc extrem de bun pentru utilizarea plantelor. Nu trebuie ca o planta să fie luata doar pe plan intern sau aplicata pe suprafața pielii ca o cataplasmă. Adăugarea unei plante la baie, la fel ca si in cazul uleiurilor esențiale aromoterapeutice, este un beneficiu pentru tratarea mai multor boli.
 
-Trebuie să fim precauti cu alergiile, asa ca tamponeaza întotdeauna un pic din soluția de plante medicinale pe o suprafață mică de piele și las-o să se usuce. Poti  folosi fie aceste plante în băi obișnuite sau în bai de sezut. Temperatura din baie ar trebui să fie medie, și nu fierbinte.
+Trebuie să fim precauti cu alergiile, asa ca tamponeaza întotdeauna un pic din soluția de plante medicinale pe o suprafață mică de piele și las-o să se usuce. Poti folosi fie aceste plante în băi obișnuite sau în bai de sezut. Temperatura din baie ar trebui să fie medie, și nu fierbinte.
 
-O baie de sezut este o baie folosita pentru tot felul de probleme pelvine si abdominale, precum și pentru disconfortul cauzat de bolile comune artritice. Aceasta inseamna o baie in care se sta în poziție verticală în apă până la talie. Picioarele, cu toate acestea, sunt plasate într-o găleată sau bazin cu apă călduță sau rece. Poti cu ușurință sa improvizezi  băi de acest fel.
+O baie de sezut este o baie folosita pentru tot felul de probleme pelvine si abdominale, precum și pentru disconfortul cauzat de bolile comune artritice. Aceasta inseamna o baie in care se sta în poziție verticală în apă până la talie. Picioarele, cu toate acestea, sunt plasate într-o găleată sau bazin cu apă călduță sau rece. Poti cu ușurință sa improvizezi băi de acest fel.
 
 Baile de sezut ar trebui să fie facute cu regularitate pe tot parcursul bolii (daca acestea sunt indicate) începând de la doar două sau trei minute în prima zi și până la un maxim de zece minute. Cei predispusi la probleme particulare, două sau trei băi de șezut scurte, de o săptămână, pot fi foarte benefice.
 
@@ -66,11 +66,11 @@ Plantele pot fi adăugate fie direct in baie sau înfășurate într-o pungă de
 
 **Tremor** Există mai multe cauze ale tremorului, din tremor congenital, la tireotoxicoză si boala Parkinson. Un aviz medical este important .
 
-O baie de sezut care conține sunătoare (Hypericum), coada soricelului sau cimbru poate ajuta la toate. Modalitățile de mai sus de a face aceste bai de sezut sunt un mod bun de a invata cum sa utilizezi plantele. Ele vor produce efecte destul de ușoare. În cazul în care e nevoie de un efect mai mare, foloseste  100 de grame de planta uscata sau de trei ori mai mult la un galon de apa rece. Lasa timp de 12 ore, apoi se incalzeste  înainte de a strecura. Adauga infuzia la baia de sezut.
+O baie de sezut care conține sunătoare (Hypericum), coada soricelului sau cimbru poate ajuta la toate. Modalitățile de mai sus de a face aceste bai de sezut sunt un mod bun de a invata cum sa utilizezi plantele. Ele vor produce efecte destul de ușoare. În cazul în care e nevoie de un efect mai mare, foloseste 100 de grame de planta uscata sau de trei ori mai mult la un galon de apa rece. Lasa timp de 12 ore, apoi se incalzeste înainte de a strecura. Adauga infuzia la baia de sezut.
 
-*Plante de bucătărie și de interior* 
+*Plante de bucătărie și de interior*
 
-Dacă esti gradinar, atunci ai probabil deja mai multe plante pe care le cresti in gradina. Mulți oameni nu doresc sau nu sunt în măsură să aibă o gradina în aer liber. Poti  găsi cultivarea proriilor plante de interior un lucru plăcut și benefic.
+Dacă esti gradinar, atunci ai probabil deja mai multe plante pe care le cresti in gradina. Mulți oameni nu doresc sau nu sunt în măsură să aibă o gradina în aer liber. Poti găsi cultivarea proriilor plante de interior un lucru plăcut și benefic.
 
 Reține următoarele aspecte: \- 1\. Plantele prefera sudul sau sud-estul
 
@@ -78,17 +78,17 @@ Reține următoarele aspecte: \- 1\. Plantele prefera sudul sau sud-estul
 
  3\. Ele au nevoie de aer curat pentru o oră sau două pe zi, cu excepția zilelor in care este frig.
 
-4\. Ele au nevoie de hrana la fiecare șase săptămâni. Aceasta e parțial din ceai rece, pe bază de plante sau indian\! 
+4\. Ele au nevoie de hrana la fiecare șase săptămâni. Aceasta e parțial din ceai rece, pe bază de plante sau indian\!
 
 5\. Afidele pot fi o problemă atât în interior cât și în aer liber. Nu utiliza insecticid. Unii detergenti pulverizati pe ele la fiecare câteva săptămâni ar trebui să fie suficienti.
 
  6\. Plantelor le place sa fie aproape de alte plante medicinale. Ai posibilitatea să le amesteci destul de strâns.
 
-7\. Plantelor aromatice nu le place fumul de tutun. Acestea se pot curba în sus și pot muri, dacă sunt tinute unde se fumeaza. 
+7\. Plantelor aromatice nu le place fumul de tutun. Acestea se pot curba în sus și pot muri, dacă sunt tinute unde se fumeaza.
 
 8\. Ele simt oamenii si pot stabili un raport\! Nu fii
 
-jenat să vorbesti  cu ele și să le cânti. Mangaie-le frunzele și fa-le sa se simta dorite.
+jenat să vorbesti cu ele și să le cânti. Mangaie-le frunzele și fa-le sa se simta dorite.
 
 9\. Pentru că ele pot trăi în armonie cu oamenii, încerca să utilizezi diferite plante pentru camere diferite. De exemplu, anasonul în dormitor va da un apetit bun, sănătos, dimineața. Lavanda în baie va ajuta să te relaxezi atunci când te speli. Fii creativ, atent \- Ce proprietati ale plantelor le face potrivite pentru ce cameră?
 

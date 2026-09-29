@@ -16,14 +16,14 @@ embedded_image_payloads_removed: 0
 
 **Hepatitis B Vaccine: Facts, Benefits, Risks, and Real-World Reports of Severe Adverse Effects**
 
-**Prepared by: Dr. \[Your Name\], MD**  
+**Prepared by: Dr. \[Your Name\], MD**
 Internal Medicine Specialist in Infectious Diseases and Hepatology
 
 20+ Years of Clinical Experience in Liver Infections
 
 **Date: June 2026**
 
-[See here Grok conversation](https://grok.com/share/c2hhcmQtMw_47f1c8f1-b600-4ff9-81df-c1da8a0bcf7f)
+See here Grok conversation
 
 ### **Introduction**
 
@@ -41,7 +41,7 @@ The vaccine contains recombinant HBsAg protein (produced in yeast) to stimulate 
 
 Most people experience mild or no issues:
 
-* Soreness, redness, swelling at injection site (common, up to 29%).  
+* Soreness, redness, swelling at injection site (common, up to 29%).
 * Headache, fatigue, low-grade fever, irritability (1-10%). These typically resolve in 1-2 days.
 
 ### **Serious and Exceptional Adverse Events**
@@ -52,9 +52,9 @@ However, **VAERS (Vaccine Adverse Event Reporting System)** and other pharmacovi
 
 **Reported severe outcomes in literature/VAERS**:
 
-* Anaphylaxis and severe allergic reactions (some fatal in broader vaccine contexts).  
-* Neurological issues: Guillain-Barré syndrome (GBS), demyelinating diseases, encephalitis, paralysis (temporal associations reported).  
-* Autoimmune conditions: Arthritis, rheumatoid arthritis flares, systemic lupus erythematosus.  
+* Anaphylaxis and severe allergic reactions (some fatal in broader vaccine contexts).
+* Neurological issues: Guillain-Barré syndrome (GBS), demyelinating diseases, encephalitis, paralysis (temporal associations reported).
+* Autoimmune conditions: Arthritis, rheumatoid arthritis flares, systemic lupus erythematosus.
 * Other: Thrombocytopenia, hepatic issues, chronic fatigue, myofasciitis (linked possibly to aluminum adjuvant), and deaths (including neonatal reports, though reviews often find no clear link beyond background rates).
 
 In one review of VAERS neonatal reports, there were deaths post-vaccination, though causality was not established in aggregate analyses. Serious reports include hospitalizations, disabilities, and life-threatening events in a subset of filings.
@@ -63,10 +63,10 @@ In one review of VAERS neonatal reports, there were deaths post-vaccination, tho
 
 I reviewed accounts on platforms like Reddit, patient forums, and blogs (direct searches for experiences). These are not verified causation but represent real voices of those who believe the vaccine harmed them. Be direct: some describe life-altering or devastating outcomes.
 
-* **Kidney damage**: One individual reported permanent kidney damage after the second dose, with illness recurring and leading to long-term impairment. They questioned the "safest vaccine" narrative in an AMA-style post.  
-* **Neurological/acute reactions**: Parents reported infants or children developing jaundice, breathing issues, seizures, or immediate distress (e.g., heat flashes, near-fainting, blurry vision post-shot). Some linked to gut issues or developmental concerns.  
-* **Autoimmune and chronic**: Reports of arthritis onset, fibromyalgia-like symptoms, or broader autoimmune flares shortly after vaccination. Musculoskeletal complaints (pain, fasciitis) appear in pharmacovigilance data and echo patient stories.  
-* **Deaths and severe infant cases**: Anecdotes include a goddaughter dying overnight post-vaccination (attributed by family), or infants with severe liver/gut issues. Facebook/parent groups mention SIDS-like events or sudden decline, though official reviews attribute many to coincidence.  
+* **Kidney damage**: One individual reported permanent kidney damage after the second dose, with illness recurring and leading to long-term impairment. They questioned the "safest vaccine" narrative in an AMA-style post.
+* **Neurological/acute reactions**: Parents reported infants or children developing jaundice, breathing issues, seizures, or immediate distress (e.g., heat flashes, near-fainting, blurry vision post-shot). Some linked to gut issues or developmental concerns.
+* **Autoimmune and chronic**: Reports of arthritis onset, fibromyalgia-like symptoms, or broader autoimmune flares shortly after vaccination. Musculoskeletal complaints (pain, fasciitis) appear in pharmacovigilance data and echo patient stories.
+* **Deaths and severe infant cases**: Anecdotes include a goddaughter dying overnight post-vaccination (attributed by family), or infants with severe liver/gut issues. Facebook/parent groups mention SIDS-like events or sudden decline, though official reviews attribute many to coincidence.
 * **Adult experiences**: Fatigue, neurological symptoms persisting, or new autoimmune diagnoses post-series. Some describe feeling the vaccine "ruined" their health with no prior risk factors for HBV.
 
 These stories highlight individual variability—genetic predisposition, aluminum sensitivity, or yeast allergy may play roles in rare cases. Contraindications include severe yeast allergy. Always screen for risks.

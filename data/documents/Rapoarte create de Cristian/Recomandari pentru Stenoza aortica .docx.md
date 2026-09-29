@@ -12,7 +12,7 @@ ocr_images_with_text: 1
 ocr_text_characters: 10
 ---
 
-# Recomandari pentru Stenoza aortica 
+# Recomandari pentru Stenoza aortica
 
 ## Text nativ
 
@@ -28,7 +28,7 @@ Tratament naturist stenoza aortica
 
 ## Antet 1
 
-Website: https://www.herbshouseshop.co.uk
+Website:
 
 Email: nelucristian2005@gmail.com
 

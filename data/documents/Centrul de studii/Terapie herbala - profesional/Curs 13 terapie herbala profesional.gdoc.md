@@ -42,7 +42,7 @@ Indicatiile specifice pentru tutunul indian includ \- dizlocatii, traume si hern
 
 Combinatii: Pentru tratarea astmului se combina cu ardei iute, grindelia, Euphorbia pilulifera, roua cerului si Ma Huang (efedra sinica).
 
-Preparare si administrare: Infuzie \- se toarna o cana de apa fierbinte peste 1/4-1/2 lingurita de planta uscata si se lasa la infuzat 10-15 min. Se bea de trei ori pe zi. 
+Preparare si administrare: Infuzie \- se toarna o cana de apa fierbinte peste 1/4-1/2 lingurita de planta uscata si se lasa la infuzat 10-15 min. Se bea de trei ori pe zi.
 
 Tinctura \- 1/2 ml de tinctura de trei ori pe zi
 
@@ -98,7 +98,7 @@ Tutunul indian nu este folosit doar ca remediu naturist, ci este folosit şi în
 
 Iată câteva instrucţiuni:
 
-1\. Procura-ti  Nux Vomica şi Lobelia Inflata, cere sfatul unui profesionist pentru stabilirea dozei, iar dacă nu doresti , începe cu cea mai mică doză posibilă sau procura-ţi un kit homeopat „quit smoking”, care este uşor de găsit pe internet;
+1\. Procura-ti Nux Vomica şi Lobelia Inflata, cere sfatul unui profesionist pentru stabilirea dozei, iar dacă nu doresti , începe cu cea mai mică doză posibilă sau procura-ţi un kit homeopat „quit smoking”, care este uşor de găsit pe internet;
 
 2\. Granulele, de regulă 3 la număr, se pun sub limbă şi se ţin până când se dizolvă complet, însă poti opta şi pentru tinctură, care se administrează tot sublingual. Dacă gustul este prea puternic, poti bea apă;
 
@@ -166,7 +166,7 @@ ulei de masline ozonificat tinut la frigider (ozonificarea uleiului de masline s
 
 ATENTIE – pentru a avea eficienta maxima,inainte de a urma tratamentul pentru detoxifierea ficatului, este necesar sa procedezi mai intai la detoxifierea intestinelor, apoi sa urmezi tratamentul deparazitar de 18 zile si in cele din urma, tratamentul pentru detoxifierea rinichilor.
 
-Pregatiri prealabile:Nu poti  incepe detoxifierea ficatului atat timp cat exista paraziti vii in el. Nu vei elimina prea multi calculi si te  vei simti destul de rau. Prin urmare, utilizeaza  zilnic dispozitivul zapper in saptamana premergatoare inceperii tratamentului, pentru a distruge parazitii.Alege o zi libera, de ex. sambata, pentru a incepe tratamentul de detoxifiere a ficatului pentru a teputea odihni a doua zi. Nu lua niciun fel de medicamente, pilule sau vitamine de care nu ai neaparata nevoie; acestea ar putea periclita operatiunea.
+Pregatiri prealabile:Nu poti incepe detoxifierea ficatului atat timp cat exista paraziti vii in el. Nu vei elimina prea multi calculi si te vei simti destul de rau. Prin urmare, utilizeaza zilnic dispozitivul zapper in saptamana premergatoare inceperii tratamentului, pentru a distruge parazitii.Alege o zi libera, de ex. sambata, pentru a incepe tratamentul de detoxifiere a ficatului pentru a teputea odihni a doua zi. Nu lua niciun fel de medicamente, pilule sau vitamine de care nu ai neaparata nevoie; acestea ar putea periclita operatiunea.
 
 Consuma alimente fara grasimi la micul dejun si la pranz\! Acest lucru permite acumularea bilei si cresterea presiunii in ficat. Presiunea mai mare conduce la eliminarea mai multor calculi. Nu manca si nu beanimic dupa orele 14:00; daca incalci aceasta regula, s-ar putea sa te simtiti rau mai tarziu.
 
@@ -196,7 +196,7 @@ Nu confunda aceste plante pentru ficat cu reteta pentru detoxifierea ficatului. 
 
 • 1 parte de gura-lupului, Scutellaria lateriflora
 
-Amesteca toate plantele bine. Adauga jumatate de cana de mixtura in 2 litri de apa. Aduci  la firbere. Acopera  cu capacul. Lasasa stea timp de 6 ore. Strecoara  si aduga indulcitor, ca de exemplu glicerina vegetala sau miere. Bea 2 cani pe zi pana la 6 sau 8 saptamani.Poti  pune plantele strecurate in congelator si mai foloseste-le  inca o data.
+Amesteca toate plantele bine. Adauga jumatate de cana de mixtura in 2 litri de apa. Aduci la firbere. Acopera cu capacul. Lasasa stea timp de 6 ore. Strecoara si aduga indulcitor, ca de exemplu glicerina vegetala sau miere. Bea 2 cani pe zi pana la 6 sau 8 saptamani.Poti pune plantele strecurate in congelator si mai foloseste-le inca o data.
 
 Remediu natural pentru acrofobie
 

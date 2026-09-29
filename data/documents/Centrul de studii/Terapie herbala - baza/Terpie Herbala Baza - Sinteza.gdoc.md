@@ -14,169 +14,169 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-**Cuprins**  
-[Plante reci	3](#plante-reci)
+**Cuprins**
+Plante reci	3
 
-[Plante calde	4](#plante-calde)
+Plante calde	4
 
-[Tonice	5](#tonice)
+Tonice	5
 
-[Adaptogeni si armonizatori	5](#adaptogeni-si-armonizatori)
+Adaptogeni si armonizatori	5
 
-[Purificatoare de sange	5](#purificatoare-de-sange)
+Purificatoare de sange	5
 
-[Infuzii	6](#infuzii)
+Infuzii	6
 
-[Tinctura de calciu	6](#tinctura-de-calciu-ia-cojile-de-la-o-duzina-de-oua,-usuca-le-și-scoate-membrana-din-interior,-astfel-încât-sa-ai-pur-și-simplu-coji-de-calciu.-pulverizeaza-le-și-adauga-600-ml-sau-o-jumătate-de-litru-de-oțet-de-mere.-se-va-face-o-mulțime-de-spumă,-asa-ca-foloseste-un-recipient-mare.-se-adaugă-50-de-grame-de-miere-și-se-amestecă-bine.-păstreaza-tinctura-într-un-recipient-cu-șurub-la-cap,-din-plastic-de-preferință,-în-caz-de-presiune-excesiva-și-nu-eliberezi-până-când-tinctura-nu-este-plata.-două-linguri,-de-trei-ori-pe-zi-este-doza-recomandată-după-masa.-acest-lucru-ar-trebui-să-fie-evitat-de-cei-care-suferă-de-dispepsie-sau-ulcerație-stomacala.)
+Tinctura de calciu	6
 
-[Cataplasme	6](#cataplasme)
+Cataplasme	6
 
-[Homeopatia	7](#homeopatia)
+Homeopatia	7
 
-[Uleiuri pentru aromoterapie	7](#uleiuri-pentru-aromoterapie)
+Uleiuri pentru aromoterapie	7
 
-[Remediile florale Bach	8](#remediile-florale-bach)
+Remediile florale Bach	8
 
-[Remediu de salvare	9](#remediu-de-salvare)
+Remediu de salvare	9
 
-[Plantele in bucatarie	9](#plantele-in-bucatarie)
+Plantele in bucatarie	9
 
-Plantele respira noaptea si produc oxigen pe timpul zilei.  
+Plantele respira noaptea si produc oxigen pe timpul zilei.
 **Clorofila** ajuta in procesul de fotosinteza la absorbtia energiei solare si transformarii ei in substante chimice necesare plantei.
 
-**Respiratia** poate fi sintetizata prin ecuatia urmatoare:   
-Compus organic \+ O2 \= CO2 \+ H2O \+ energie 
+**Respiratia** poate fi sintetizata prin ecuatia urmatoare:
+Compus organic \+ O2 \= CO2 \+ H2O \+ energie
 
-**Fotosinteza** poate fi rezumata prin ecuatia urmatoare:   
-CO2 \+ H2O \+ energie solara \= (clorofila) compusi organici \+ O2 
+**Fotosinteza** poate fi rezumata prin ecuatia urmatoare:
+CO2 \+ H2O \+ energie solara \= (clorofila) compusi organici \+ O2
 
 **Conditiile calde**, sunt caracterizate de febra, o senzatie de cald, inrosirea fetei, umflare si roseata, infectii bacteriene, inflamatii.
 
-**Conditiile reci** sunt caracterizate de senzatia de frig, congestie, intepenire, incetinirea proceselor. Exemplu de probleme reci: probleme ale pielii, boli circulatorii, reumatism, constipatie, lipsa apetit,    
+**Conditiile reci** sunt caracterizate de senzatia de frig, congestie, intepenire, incetinirea proceselor. Exemplu de probleme reci: probleme ale pielii, boli circulatorii, reumatism, constipatie, lipsa apetit,
 Plante reci: musetel, papadie, castravete, …
 
 # **Plante reci** {#plante-reci}
 
 **Musetelul (Anathemis nobilis)**
 
-- Te ajuta sa dormi  
-- Calmeaza nervii  
-- Regleaza sistemul digestiv  
-- Sindrom de colon iritabil  
-- Febrifug  
+- Te ajuta sa dormi
+- Calmeaza nervii
+- Regleaza sistemul digestiv
+- Sindrom de colon iritabil
+- Febrifug
 - Poate decolora parul, daca este clatit cu o infuzie de musetel
 
 **Papadia**
 
-- Probleme digestive  
-- Calmeaza aciditatea  
-- Laxativ  
-- Stimuleaza bila  
+- Probleme digestive
+- Calmeaza aciditatea
+- Laxativ
+- Stimuleaza bila
 - Radacina e utila in probleme ale vezicii urinare
 
 **Gentiana**
 
-- Anti inflamator  
-- Anxietate  
+- Anti inflamator
+- Anxietate
 - Probleme digestive
 
 **Hameiul**
 
-- Inflamatii digestive  
-- Calmant  
-- Insomnie  
-- Antispastic, antiseptic  
+- Inflamatii digestive
+- Calmant
+- Insomnie
+- Antispastic, antiseptic
 - Remediu contra mahmurelii
 
 **Busuioc de camp (prunella vulgaris)**
 
-- Ulcer gastric  
-- Migrene  
-- Tensiune oculara  
-- Conjunctivita  
-- Sindromul colonului iritabil  
+- Ulcer gastric
+- Migrene
+- Tensiune oculara
+- Conjunctivita
+- Sindromul colonului iritabil
 - Extern: rani, ulceratii
 
 **Gura-lupului (Scutellaria galericulata)**
 
-- Tulburari ale mintii  
-- Antispastic  
-- Relaxeaza si ajuta la un somn mai bun  
+- Tulburari ale mintii
+- Antispastic
+- Relaxeaza si ajuta la un somn mai bun
 - Risc: poate provoca insuficienta hepatica, cand e luata in doza prea mare sau timp indelungat
 
 **Valeriana**
 
-- Antispastic  
-- Somnifer  
+- Antispastic
+- Somnifer
 - Risc: afecteaza ficatul cand e luata in doza prea mare
 
 **Cicoarea**
 
-- Antiinflamator digestiv  
-- Stimuleaza bila  
+- Antiinflamator digestiv
+- Stimuleaza bila
 - Laxativ
 
 **Coriandrul**
 
-- Stimuleaza apetitul  
-- Antispasmodic  
+- Stimuleaza apetitul
+- Antispasmodic
 - Carminativ
 
-**O tinctura amara ajuta la:**  
-1\. stimularea poftei de mâncare   
-2\. creșterea fluxului sucului intestinal   
-3\. creșterea fluxului biliar  
-4\. stimularea pancreasului   
-5\. vindecarea mucusului membranei 
+**O tinctura amara ajuta la:**
+1\. stimularea poftei de mâncare
+2\. creșterea fluxului sucului intestinal
+3\. creșterea fluxului biliar
+4\. stimularea pancreasului
+5\. vindecarea mucusului membranei
 
 # **Plante calde** {#plante-calde}
 
-**Tataneasa**  
+**Tataneasa**
 Sub forma de unguent pentru:
 
-- Probleme ale oaselor  
-- Accelereaza sudarea oaselor.  
-- Previne extinderea ranii  
-- Amelioreaza incheieturile dureroase  
-- Alina muschii incordati   
+- Probleme ale oaselor
+- Accelereaza sudarea oaselor.
+- Previne extinderea ranii
+- Amelioreaza incheieturile dureroase
+- Alina muschii incordati
 - Ajuta la videcarea varicelor de la picioare
 
 **Ardeiul Cayenne**
 
-- Tonic pentru inima  
-- Dureri de picioare  
+- Tonic pentru inima
+- Dureri de picioare
 - Circulatie periferica deficitara
 
 **Scortisoara**
 
-- Stimuleaza sistemul digestiv  
-- Circulatia lenta a membrelor inferioare  
-- Guturai  
+- Stimuleaza sistemul digestiv
+- Circulatia lenta a membrelor inferioare
+- Guturai
 - Greata
 
 **Iarba-mare**
 
-- Expectorant  
+- Expectorant
 - Provoaca transpiratia prin febra
 
 **Chimen dulce**
 
-- Costipatie  
-- Creste fertilitatea  
-- Reumatism  
+- Costipatie
+- Creste fertilitatea
+- Reumatism
 - Slabire
 
 **Spilcuta (Chrysanthemum parthenium)**
 
-- Artrita  
-- Migrene  
-- Congestie ginecologica  
-- Incheieturi umflate  
+- Artrita
+- Migrene
+- Congestie ginecologica
+- Incheieturi umflate
 - Sangerarea nasului
 
 **Bubericul**
 
-- Extern: eczeme, rani, julituri, hemoroizi  
+- Extern: eczeme, rani, julituri, hemoroizi
 - Intern: toxic, provoaca tahicardie
 
 **Usturoiul**
@@ -187,44 +187,44 @@ Consuma patrunjel dupa ce ai mancat usturoi, pentru a contracara mirosul.
 
 **Paducelul**
 
-- Tonic pentru inima si sistemul circulator. Poate provoca tahicardie  
+- Tonic pentru inima si sistemul circulator. Poate provoca tahicardie
 - O cataplasma facuta din frunze este buna pentru a extrage puroiul sau aschii care s-au format greu sau care sunt greu de scos.
 
 **Hreanul**
 
-- Stimuleaza apetitul  
-- Efect antiseptic  
-- Elimina viermii si parazitii  
+- Stimuleaza apetitul
+- Efect antiseptic
+- Elimina viermii si parazitii
 - Infectiile tractului urinar
 
 **Isopul**
 
-- Expectorant  
+- Expectorant
 - Produce transpiratie in timpul unei infectii respiratorii
 
 **Mustarul**
 
-- Elimina flegma  
-- Bronsita  
-- Efect antiseptic  
+- Elimina flegma
+- Bronsita
+- Efect antiseptic
 - Extern: cataplasme cu faina de mustar pentru probleme ale muschilor si scheletului
 
 O doza prea mare luata intern poate produce greata.
 
 **Urzica**
 
-- Artrita  
-- Reumatism  
-- Curatarea sangelui  
-- Extern: arsuri si mancarimi ale pielii  
-- Stimuleaza cresterea parului  
+- Artrita
+- Reumatism
+- Curatarea sangelui
+- Extern: arsuri si mancarimi ale pielii
+- Stimuleaza cresterea parului
 - Tonic pentru scalp
 
 **Menta**
 
-- Migrene  
-- Varice  
-- Colita  
+- Migrene
+- Varice
+- Colita
 - Stimuleaza secretia gastrica
 
 **Trandafirul**
@@ -233,124 +233,124 @@ O doza prea mare luata intern poate produce greata.
 
 **Salvia**
 
-- Foarte bun in cazul durerilor de gat  
-- Efect antiseptic si analgezic  
-- Infectii respiratorii  
+- Foarte bun in cazul durerilor de gat
+- Efect antiseptic si analgezic
+- Infectii respiratorii
 - Dureri musculare
 
 **Coada-soricelului**
 
-- Reduce hemoragia  
-- Menstruatii neregulate  
-- Anti inflamator  
-- Stimuleaza apetitul  
-- Stimuleaza cresterea firului de par  
-- Scade febra  
-- Degeraturi  
+- Reduce hemoragia
+- Menstruatii neregulate
+- Anti inflamator
+- Stimuleaza apetitul
+- Stimuleaza cresterea firului de par
+- Scade febra
+- Degeraturi
 - Hemoroizi
 
 # **Tonice** {#tonice}
 
 **Kelp**
 
-- Laxativ  
-- Ajuta la slăbire  
-- Stabilizator al glandei tiroide, util in hipo- si hipertiroidism  
-- Reumatism  
-- Tembelism  
-- Congestie  
+- Laxativ
+- Ajuta la slăbire
+- Stabilizator al glandei tiroide, util in hipo- si hipertiroidism
+- Reumatism
+- Tembelism
+- Congestie
 - Atentie: se ia maxim o luna, dupa care se face pauza tot o luna
 
 **Lemn-dulce**
 
-- Stimuleaza glandele suprarenale sa produca hormoni steroidieni  
-- Antiinflamator  
-- Febrifug  
-- Antispastic  
-- Vindeca ulcerul  
-- Laxativ  
-- Infectii respiratorii  
-- Atentie: trebuie luate masuri de precautie de oameni care retin lichidele, deoarece se poate spori acest efect, cu rezultate potențial dăunătoare.  
+- Stimuleaza glandele suprarenale sa produca hormoni steroidieni
+- Antiinflamator
+- Febrifug
+- Antispastic
+- Vindeca ulcerul
+- Laxativ
+- Infectii respiratorii
+- Atentie: trebuie luate masuri de precautie de oameni care retin lichidele, deoarece se poate spori acest efect, cu rezultate potențial dăunătoare.
 - Atentie: trebuie evitat de hipertensivi
 
 **In**
 
-- Oboseala  
-- Menopauza   
-- Este bogat in fito-estrogeni  
-- Calmeaza tusea uscata  
+- Oboseala
+- Menopauza
+- Este bogat in fito-estrogeni
+- Calmeaza tusea uscata
 - Curata intestinul
 
 # **Adaptogeni si armonizatori** {#adaptogeni-si-armonizatori}
 
 **Ginseng**
 
-- Stimuleaza glandele suprarenale  
-- Stimuleaza corpul sa produca energie  
-- Stimuleaza ficatul  
-- Creste metabolismul  
-- Ajuta muschii sa functioneze mai eficient si creste rezistenta  
-- Efect de tonifiere asupra inimii  
-- Grabeste vindecarea ranilor  
+- Stimuleaza glandele suprarenale
+- Stimuleaza corpul sa produca energie
+- Stimuleaza ficatul
+- Creste metabolismul
+- Ajuta muschii sa functioneze mai eficient si creste rezistenta
+- Efect de tonifiere asupra inimii
+- Grabeste vindecarea ranilor
 - Atentie: nu se ia atunci cand esti agitat
 
 **Radacina de unicorn (Chamaelirium luteum)**
 
-- Armonizeaza sistemul de reproducere feminin  
-- Sindrom premenstrual  
-- Diuretic  
+- Armonizeaza sistemul de reproducere feminin
+- Sindrom premenstrual
+- Diuretic
 - Vermifug
 
 **Agnus castus(Vitex agnus-castus, Mielăreaua)**
 
-- Armonizeaza sistemul de reproducere feminin  
-- Sindrom premenstrual, diminueaza inrosirea fetei  
+- Armonizeaza sistemul de reproducere feminin
+- Sindrom premenstrual, diminueaza inrosirea fetei
 - Provoaca lactatia
 
 # **Purificatoare de sange** {#purificatoare-de-sange}
 
 **Echinaceea**
 
-- Antiseptic  
-- Antimicrobian  
-- Amigdalite cronice si recurente  
-- Afrodisiac  
-- Infectii urinare  
+- Antiseptic
+- Antimicrobian
+- Amigdalite cronice si recurente
+- Afrodisiac
+- Infectii urinare
 - Se foloseste radacina
 
 **Cleavers (Galium aparine , Lipicioasa)**
 
-- Diuretic excelent  
-- Eczeme  
-- Psoriazis  
+- Diuretic excelent
+- Eczeme
+- Psoriazis
 - Infectii urinare
 
 **Iarba Canapea (Couch Grass, Agropyron repens)**
 
-- Infectii urinare  
+- Infectii urinare
 - Spasme ale cailor urinare
 
 **Patrunjelul**
 
-- Excelent efect de curatare a nisipului de la rinichi  
-- Diuretic puternic  
-- Probleme la stomac  
+- Excelent efect de curatare a nisipului de la rinichi
+- Diuretic puternic
+- Probleme la stomac
 - Nu ar trebui consumat de femeile gravide deoarece poate provoca avortul.
 
 **Podbal (Coltsfoot, Tussilago farfara)**
 
-- Expectorant  
-- Relaxant  
-- Usureaza respiratia  
-- Tuse uscata  
+- Expectorant
+- Relaxant
+- Usureaza respiratia
+- Tuse uscata
 - Dureri de gat
 
 **Ovazul (Avena sativa)**
 
-- Tulburari ale tesutului nervos  
-- Alzheimer  
-- Calmant, relaxant  
-- Antiinflamator  
+- Tulburari ale tesutului nervos
+- Alzheimer
+- Calmant, relaxant
+- Antiinflamator
 - Zona zoster
 
 ## **Infuzii** {#infuzii}
@@ -391,7 +391,7 @@ O doza prea mare luata intern poate produce greata.
 
 **Durere în gât**\- Salvie (frunze)
 
-**Tinctura de calciu**  Ia cojile de la o duzina de oua, usuca-le și scoate membrana din interior, astfel încât sa ai pur și simplu coji de calciu. Pulverizeaza-le și adauga 600 ml sau o jumătate de litru de oțet de mere. Se va face o mulțime de spumă, asa ca foloseste un recipient mare. Se adaugă 50 de grame de miere și se amestecă bine. Păstreaza  tinctura într-un recipient cu șurub la cap, din plastic de preferință, în caz de presiune excesiva și nu eliberezi până când tinctura nu este plata. Două linguri, de trei ori pe zi este doza recomandată după masa. Acest lucru ar trebui să fie evitat de cei care suferă de dispepsie sau ulcerație stomacala.
+**Tinctura de calciu** Ia cojile de la o duzina de oua, usuca-le și scoate membrana din interior, astfel încât sa ai pur și simplu coji de calciu. Pulverizeaza-le și adauga 600 ml sau o jumătate de litru de oțet de mere. Se va face o mulțime de spumă, asa ca foloseste un recipient mare. Se adaugă 50 de grame de miere și se amestecă bine. Păstreaza tinctura într-un recipient cu șurub la cap, din plastic de preferință, în caz de presiune excesiva și nu eliberezi până când tinctura nu este plata. Două linguri, de trei ori pe zi este doza recomandată după masa. Acest lucru ar trebui să fie evitat de cei care suferă de dispepsie sau ulcerație stomacala.
 
 ## **Cataplasme** {#cataplasme}
 
@@ -399,7 +399,7 @@ O doza prea mare luata intern poate produce greata.
 
 **Varza**\- excelenta pentru a indeparta infectiile de la cap
 
-**Morcovul**\- ras  si ud, o cataplasmă cu morcov cald este excelenta pentru gatul dureros si congestionat. Este metoda clasica de utilizare în mastita.
+**Morcovul**\- ras si ud, o cataplasmă cu morcov cald este excelenta pentru gatul dureros si congestionat. Este metoda clasica de utilizare în mastita.
 
 **Tataneasa**\- o minunata capacitate de vindecare a rănilor
 
@@ -421,14 +421,14 @@ O doza prea mare luata intern poate produce greata.
 
 *Homeopatia* este o ramura a medicinei care se bazează pe principiul similarității. Intr-un remediu homeopatic este dat ceva care imita simptomele. Ideea este că acest lucru va stimula puterea naturală de vindecare a organismului, forta vitala, pentru a vindeca problema în sine.
 
-Scari de potentare:   
-\- zecimala (D, X) 1:10  
-\- centezecimala (C) 1:100  
+Scari de potentare:
+\- zecimala (D, X) 1:10
+\- centezecimala (C) 1:100
 6D inseamna ca un medicament a fost diluat de 6 ori la scara zecimala, adica 1:10.
 
-Există câteva puncte de apreciat în luarea de comprimate: 
+Există câteva puncte de apreciat în luarea de comprimate:
 
-1\. Comprimatele nu trebuie să fie luate cu mana, ci ar trebui să fie scoase cu o lingura. Ele sunt apoi introduse în gură.Vărsarea sau orice atingere le inactivează și ar trebui să fie aruncate. 
+1\. Comprimatele nu trebuie să fie luate cu mana, ci ar trebui să fie scoase cu o lingura. Ele sunt apoi introduse în gură.Vărsarea sau orice atingere le inactivează și ar trebui să fie aruncate.
 
 2\. Comprimatele sunt absorbite prin mucoasa orala, asa ca acestea ar trebui să fie supte, nu înghițite.
 
@@ -454,7 +454,7 @@ Există câteva puncte de apreciat în luarea de comprimate:
 
 **Isop** \- acesta este la fel ca uleiul de eucalipt. E foarte bun pentru guturai și probleme de respirație.
 
-**Ienupar**  \- acesta este relaxant. E foarte bun pentru problemele de somn și anxietate generala.
+**Ienupar** \- acesta este relaxant. E foarte bun pentru problemele de somn și anxietate generala.
 
 **Levantica** \- acesta este relaxant. E bun pentru depresie si anxietate, probleme digestive.
 
@@ -466,19 +466,19 @@ Există câteva puncte de apreciat în luarea de comprimate:
 
 **Mentă** \- acesta este un ulei relaxant. Este bun pentru spasm, boală de călătorie, amețeli.
 
-**Trandafir**  \- acesta este un ulei calmant si relaxant. Este bun pentru depresie și anxietate.
+**Trandafir** \- acesta este un ulei calmant si relaxant. Este bun pentru depresie și anxietate.
 
 **Rozmarin** \- acesta este un ulei stimulant si tonic. Este foarte bun pentru neurastenie, epuizare și convalescența de la o infecție.
 
 **Salvie** \- acesta este un ulei stimulant si tonic. Este bun pentru circulație și pentru problemele reumatice.
 
-**Tea Tree**  \- acesta este un ulei calmant și antiseptic. Este excelent pentru curățarea infecțiilor pielii, cum ar fi aftele infecțioase.
+**Tea Tree** \- acesta este un ulei calmant și antiseptic. Este excelent pentru curățarea infecțiilor pielii, cum ar fi aftele infecțioase.
 
 # **Remediile florale Bach** {#remediile-florale-bach}
 
 Metoda Soarelui: În acest sens, capetele florilor sunt plasate intr-un vas cu apă minerală proaspătă și lasate afara, in soare, timp de trei ore.Energia florii este absorbită în apă, care este filtrată și conservata cu brandy. Acest lucru face tinctura mama din care sticlele cu remedii sunt produse.
 
-A doua metodă este prin fierbere. Acest lucru este folosit pentru optsprezece remedii, care sunt în principal derivate din copaci. Ramurile care poartă flori si infloresc sunt fierte în apă de izvor pentru o jumătate de oră. Aceasta este apoi filtrata și conservata cu brandy, pentru a face tinctura mama. 
+A doua metodă este prin fierbere. Acest lucru este folosit pentru optsprezece remedii, care sunt în principal derivate din copaci. Ramurile care poartă flori si infloresc sunt fierte în apă de izvor pentru o jumătate de oră. Aceasta este apoi filtrata și conservata cu brandy, pentru a face tinctura mama.
 
 Dr. Bach a împărțit remediile în 7 grupe:
 
@@ -538,7 +538,7 @@ Dr. Bach a împărțit remediile în 7 grupe:
 
 **Mimulus** Frica de boală, sărăcie, călătorie, etc .Frica de un lucru specific.
 
-**Muștar** Pentru depresia neagra care vine brusc, ca o perdea. 
+**Muștar** Pentru depresia neagra care vine brusc, ca o perdea.
 
 **Stejar** Pentru cei care se luptă in orice circumstanță. Poate fi de multe ori o corvoadă atunci când mintea și corpul lor au nevoie de o perioadă de odihnă. Ei nu recunosc senzația de rău. Atunci când nu pot să facă față sunt furiosi pe ei înșiși\!
 
@@ -548,7 +548,7 @@ Dr. Bach a împărțit remediile în 7 grupe:
 
 **Red Chestnut** Teama ca ceva se intampla persoanei iubite. A nu se confunda cu cicoarea.
 
-**Rock Rose** Pentru teroare, panica, frica extrema. Foarte bun pentru coșmaruri  și lucruri care au urmat accidentelor sau traumatismelor.
+**Rock Rose** Pentru teroare, panica, frica extrema. Foarte bun pentru coșmaruri și lucruri care au urmat accidentelor sau traumatismelor.
 
 ## **Remediu de salvare** {#remediu-de-salvare}
 

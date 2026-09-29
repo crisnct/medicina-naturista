@@ -20,7 +20,7 @@ PLANTE DE RACIRE
 
  Acum înțelegem ce inseamna starile reci și a plantele de încălzire. Acum vom vedea care sunt starile fierbinti si plantele de răcire
 
-Starile fierbinti sunt, în general, caracterizate prin febră, o senzație de infierbantare, înroșirea feței, umflare și roșeață. Ele sunt adesea condiții "excedentare", care pot fi rezolvate cu ajutorul plantelor, care sunt reci sau de răcire, prin natură sau temperament. Nu trebuie sa se interpreteze ca acest lucru implica prezenta unei temperaturi ridicate. Gandeste-te  la el ca la un termen metaforic (deși infecțiile și inflamatiile nu au temperaturi  sunt stari fierbinti), la fel cum ai face pentru starile de frig. Un ajutor suplimentar este să ne gândim la nivelul de activitate crescut. Gândeste-te la celulele ce lucreaza peste masura și care au nevoie de încetinire și de răcire.
+Starile fierbinti sunt, în general, caracterizate prin febră, o senzație de infierbantare, înroșirea feței, umflare și roșeață. Ele sunt adesea condiții "excedentare", care pot fi rezolvate cu ajutorul plantelor, care sunt reci sau de răcire, prin natură sau temperament. Nu trebuie sa se interpreteze ca acest lucru implica prezenta unei temperaturi ridicate. Gandeste-te la el ca la un termen metaforic (deși infecțiile și inflamatiile nu au temperaturi sunt stari fierbinti), la fel cum ai face pentru starile de frig. Un ajutor suplimentar este să ne gândim la nivelul de activitate crescut. Gândeste-te la celulele ce lucreaza peste masura și care au nevoie de încetinire și de răcire.
 
 Feluri de condiții, pe care aceasta le acoperă, includ: \- Tulburări digestive \- unde există o inflamatie a stomacului sau a intestinelor, pierderea poftei de mâncare și durere de un fel sau altul. Aciditatea este un exemplu, deoarece acidul produce"arsuri", prin urmare problemele fierbinti tind să producă această calitate a durerii. Pirozis este cauzat de arderea cu acid a esofagului, de arsurile unui ulcer peptic, etc .Plantele adecvate de răcire sunt de obicei denumite bitter de fitoterapeutii moderni.
 
@@ -28,9 +28,9 @@ Tulburări urinare \- unde există o inflamație a țesuturilor, care rezultă �
 
 Arsura caracterizează din nou aceste probleme.Pot fi, de asemenea, pietrele la rinichi.Probleme de spasm- cand mușchii, intestinele sau tuburile interne rezulta in spasm acut si produc crampe. Acesta este un mecanism comun de durere, observat în sindromul de colon iritabil, dispepsie, probleme de piatră din vezica biliară și ale tractului urinar, unele forme de constipație și migrene. Probleme de hiperactivitate \- cand activitatea nervoasa pare să producă simptome de neliniște. Aceasta include stări de anxietate, dureri de cap, tensiune, insomnie.
 
-Așa cum am menționat în ultima lecție, vei vedea că unele probleme digestive sunt calde și altele sunt reci. Pierderea poftei de mâncare poate fi rece, pe care am folosit-o ca un exemplu de conditie rece, dar poate fi în egală măsură cauzata de activitatea celulelor din stomac care produc prea mult acid și provoacă arsuri. În acest caz, ar fi necesară o planta de răcire.În mod similar, infertilitatea la femei poate fi o condiție rece, dar ar putea fi, de asemenea, o problemă calda producand endometrioza. Aceasta este o afecțiune în care insulele mici de tesut endometrial , în mod normal găsite numai in captuseala uterului sau in uter, se regăsesc și în alte părți ale bazinului. Pentru aceasta, un maestru erborizator (nu e cazul începătorilor) s-ar gândi sa foloseasca plante de răcire. 
+Așa cum am menționat în ultima lecție, vei vedea că unele probleme digestive sunt calde și altele sunt reci. Pierderea poftei de mâncare poate fi rece, pe care am folosit-o ca un exemplu de conditie rece, dar poate fi în egală măsură cauzata de activitatea celulelor din stomac care produc prea mult acid și provoacă arsuri. În acest caz, ar fi necesară o planta de răcire.În mod similar, infertilitatea la femei poate fi o condiție rece, dar ar putea fi, de asemenea, o problemă calda producand endometrioza. Aceasta este o afecțiune în care insulele mici de tesut endometrial , în mod normal găsite numai in captuseala uterului sau in uter, se regăsesc și în alte părți ale bazinului. Pentru aceasta, un maestru erborizator (nu e cazul începătorilor) s-ar gândi sa foloseasca plante de răcire.
 
-PLANTE DE RACIRE 
+PLANTE DE RACIRE
 
 Aceste plante sunt, în general, bune pentru încetinirea sau relaxarea proceselor in organism. Acestea sunt utilizate atunci când există inflamații, cu senzatii de căldură,ardere, etc Urmatoarele plante sunt considerate a fi de răcire: \-musetelul, papadia, gențiana, hameiul , calota,valeriana, galbenul de andocare.
 
@@ -52,9 +52,9 @@ Infuzia poate fi, de asemenea, utilizata extern.
 
 Notă: Există de fapt două tipuri de musetel-adevărat sau roman care este o plantă perenă și mușețel salbatic. De fapt, e greu sa alegi între acțiunile lor, astfel ca se ia în considerare denumirea simpla de "Mușețel".
 
-**Păpădia** (Taraxicum officinale), de asemenea, numit Galeata de Lapte a Diavolului a fost folosita ca medicament timp de multe secole. Durata de viață: Aceasta este o planta perena. 
+**Păpădia** (Taraxicum officinale), de asemenea, numit Galeata de Lapte a Diavolului a fost folosita ca medicament timp de multe secole. Durata de viață: Aceasta este o planta perena.
 
-Aspect: Aceasta planta trebuie să fie cunoscută de aproape fiecare copil. Ea se inalta la aproximativ șase \- nouă centimetri, cu frunze lungi, ondulate, tulpina unică, flori galbene distinctive .Când sunt decupate, tulpinile transpira "lapte". Florile se transforma în cele din urmă in " ceasuri de poveste". 
+Aspect: Aceasta planta trebuie să fie cunoscută de aproape fiecare copil. Ea se inalta la aproximativ șase \- nouă centimetri, cu frunze lungi, ondulate, tulpina unică, flori galbene distinctive .Când sunt decupate, tulpinile transpira "lapte". Florile se transforma în cele din urmă in " ceasuri de poveste".
 
 Habitat: Ea creste pe pajisti, in zone marginale si sol necultivat.
 
@@ -66,9 +66,9 @@ Este bine cunoscuta pentru efectul său benefic asupra ficatului și a sistemulu
 
  Metoda: Frunzele pot fi mestecate ca atare, deși îmbuibarea poate provoca greață. O infuzie din frunze, ca un ceai de plante este, de asemenea, o altamodalitate de a intrebuinta planta. O alternativă ar mai fi radacinile uscate, care pot fi un înlocuitor al cafelei.
 
-**Gențiana (Gentiana lutea)** 
+**Gențiana (Gentiana lutea)**
 
-Durata de viață: Aceasta este o planta perena. 
+Durata de viață: Aceasta este o planta perena.
 
 Aspect: Aceasta planta lemnoasa creste aproximativ patru metri înălțime și e galbena- verzuie, cu frunze si flori galben-portocalii, în clustere.
 
@@ -76,9 +76,9 @@ Aspect: Aceasta planta lemnoasa creste aproximativ patru metri înălțime și e
 
 Metoda: Stocul se poate face prin infuzarea a 28 g de rădăcină rasă într-o halbă cu apa clocotita. Două linguri, de trei ori pe zi, sunt de obicei doza necesara atunci cand este nevoie.
 
-**HAMEIUL (Humulus lupulus)**, planta din care se face berea. 
+**HAMEIUL (Humulus lupulus)**, planta din care se face berea.
 
-Durata de viață: O planta perena. 
+Durata de viață: O planta perena.
 
 Aspect: Aceasta este o planta alpina, care poate avea tulpina de până la optsprezece metri înălțime. Ea produce frunze ca acelea de viță de vie, parfumate, verzi si flori galbene. Are un miros foarte impetuos și greu, distinctiv.
 
@@ -88,9 +88,9 @@ Acțiuni: Aceasta planta de răcire este un calmant, sedativ, bitter. Ușurează
 
 Metoda: E folosita sub forma de ceai de plante, dar poate fi, de asemenea, mancata ca atare- șase- opt flori crude, luate cu miere, dimineața și seara. E un remediu traditional pentru insomnie. O cataplasmă făcută din tărâțe și hamei este excelenta pentru infecții și abcese.
 
-**AUTO-VINDECARE (Prunella vulgaris), Busuioc de camp**, numit, de asemenea, tot Heal, Sicklewort și Hookweed. 
+**AUTO-VINDECARE (Prunella vulgaris), Busuioc de camp**, numit, de asemenea, tot Heal, Sicklewort și Hookweed.
 
-Durata de viață: Aceasta este o planta perena. 
+Durata de viață: Aceasta este o planta perena.
 
 Aspect: Aceasta planta poate creste pana la doi metri în înălțime, deși, de obicei,rămâne aproape de sol. Are frunze ovale și flori colorate violet, care au o caracteristică de ghimpe, ca un cârlig sau o seceră.
 
@@ -102,9 +102,9 @@ Aspect: Aceasta planta poate creste pana la doi metri în înălțime, deși, de
 
  Durata de viață: Aceasta este o planta perena.
 
- Aspect: Aceasta planta poate creste pana la trei metri în înălțime. Are frunze ovale și flori modelate în mod asemănător unui coif cu vizorul închis. Aceasta caracteristică, în conformitate cu **Doctrina de semnături,a fost gandita pentru a indica valoarea sa în tulburări ale minții.** 
+ Aspect: Aceasta planta poate creste pana la trei metri în înălțime. Are frunze ovale și flori modelate în mod asemănător unui coif cu vizorul închis. Aceasta caracteristică, în conformitate cu **Doctrina de semnături,a fost gandita pentru a indica valoarea sa în tulburări ale minții.**
 
-Habitat: teren umed. 
+Habitat: teren umed.
 
 Acțiuni: Aceasta planta de răcire este un relaxant remarcabil de eficient și antispastic. Este excelenta pentru a rezolva problemele de somn, deși nu ar trebui să fie folosita in mod regulat. Metoda: O infuzie din o mana întrega de plante în o jumătate de litru de apă și apoi racita. Un pahar mic de două ori pe zi este un excelent relaxant si promotor al somnului. De asemenea, este disponibila la plafar, sub forma de comprimate.
 
@@ -112,11 +112,11 @@ Acțiuni: Aceasta planta de răcire este un relaxant remarcabil de eficient și 
 
 **Valeriana (Valeriana officinalis)**, numita, de asemenea, Heal Sf. Gheorghe.
 
- Durata de viață: Aceasta este o planta perena. Aspect: Ea creste pana la aproximativ patru metri în înălțime și are tulpina erecta. Are frunze pinale, dintate.Finalul tulpinilor dezvolta frumoase buchețelele tubulare de culoarea roz pal. 
+ Durata de viață: Aceasta este o planta perena. Aspect: Ea creste pana la aproximativ patru metri în înălțime și are tulpina erecta. Are frunze pinale, dintate.Finalul tulpinilor dezvolta frumoase buchețelele tubulare de culoarea roz pal.
 
 Habitat: Ii place apa si umezeala si se găseste pe râu, zonele mlăștinoase și prin fluxuri.
 
- Acțiuni: Aceasta planta de răcire este un alt relaxant minunat, antispastic și inductor al somnului. 
+ Acțiuni: Aceasta planta de răcire este un alt relaxant minunat, antispastic și inductor al somnului.
 
 Metoda: O singura radacina infuzata într-o oala cu apa (nu fierbinte). Două linguri pe zi este doza standard .
 
@@ -126,11 +126,11 @@ Notă: Din păcate, deoarece poate avea un efect dubios asupra ficatului, acesta
 
  Durata de viață: Aceasta este o planta perena.
 
- Aspect: Acesta cicoare speciala are frunze lungi de șase inch, care sunt ușor buclate  la margine. Ele sunt, de asemenea, ușor gălbui. Caracteristică distinctiva este rădăcina acesteia care se transformă in galben când este taiata. 
+ Aspect: Acesta cicoare speciala are frunze lungi de șase inch, care sunt ușor buclate la margine. Ele sunt, de asemenea, ușor gălbui. Caracteristică distinctiva este rădăcina acesteia care se transformă in galben când este taiata.
 
-Habitat: creste pe marginea drumurilor și în șanțuri. 
+Habitat: creste pe marginea drumurilor și în șanțuri.
 
-Acțiuni: Aceasta planta de răcire este un bitter ușor, util pentru **inflamatiile digestive**. Acesta este un **colagog** și funcționează bine ca **laxativ**. 
+Acțiuni: Aceasta planta de răcire este un bitter ușor, util pentru **inflamatiile digestive**. Acesta este un **colagog** și funcționează bine ca **laxativ**.
 
 Metoda: Se administrează ca infuzie de rădăcină rasă (o lingurita la o cana de apă clocotită), într-o doză de o lingura, de două ori pe zi.
 
@@ -142,19 +142,19 @@ activității unei părți din organism (dacă aceasta este pielea, intestinul, 
 
 **Cele mai frecvente sensibilitati alimentare sunt la lapte și produse lactate. Pe locul doi, la produsele cu gluten , de exemplu grâu, secară, ovăz și orz. Pe al treilea loc sunt aditivii alimentari, de exemplu, coloranti**. O dieta de excludere este cel mai bun mijloc de a detecta astfel de sensibilități. Produsele alimentare suspectate sunt eliminate în totalitate din dieta. Un minim de o săptămâna și maxim o luna este necesar pentru a observa o îmbunătățire clinică. În acel moment, un test de provocare ușoară va duce la o reacția marcată ca individul intra intr-o faza de hipersensibilitate. După ce s-au găsit alimentele vinovate , atunci este important să se elimine din dieta pentru încă șase luni cel puțin. **O planta de răcire luata în mod regulat în acest timp este probabil să fie benefică, deoarece acestea au un efect de vindecare asupra membranelor mucoase ale canalului gastro-intestinal.**
 
-Bitter si relaxant 
+Bitter si relaxant
 
 După cum vei citi în această lecție, plantele de răcire sunt adesea bitter și relaxante sau ambele.Vom extinde acest subiect. Plantele bitter , cu numele derivate de la gustul amar, posedă o urmare a prezenței de alcaloizi si uleiuri volatile diverse. Te rog sa intelegi că amărăciunea reală este importantă. Deși atunci când bem ceaiuri de plante putem dilua planta, este necesar să se păstreze un anumit gust amar. Acest lucru se datorează faptului că **amarul stimulează papilele gustative, care la rândul său, provoacă organismul să elibereze gastrină** și alti agenti hormonali care afectează partea superioară a tractului gastro-intestinal. Printre efectele pe care bitter-ul le are asupra tractului gastro-intestinal sunt următoarele:
 
-**1\. stimularea poftei de mâncare** 
+**1\. stimularea poftei de mâncare**
 
-**2\. creșterea fluxului sucului intestinal** 
+**2\. creșterea fluxului sucului intestinal**
 
 **3\. creșterea fluxului biliar**
 
- **4\. stimularea pancreasului** 
+ **4\. stimularea pancreasului**
 
-**5\. vindecarea mucusului membranei** 
+**5\. vindecarea mucusului membranei**
 
 Vom lua în considerare acestea, din nou, în lecția următoare.
 
@@ -164,4 +164,4 @@ Plantele relaxante au un efect calmant, relaxant și antispastic. Unii puristi v
 
 Se dizolvă două lingurițe de miere de calitate într-o jumătate de litru de apă caldă \- Nu trebuie sa fiarba .
 
-Adăuga 1/2 lingurita de coriandru și amesteca bine Fierbe timp de 3-5 minute, apoi toarna intr-un pahar inalt si garniseste  cu frunze de coriandru. Aroma minunata a aceastei băuturi va ajuta la stimularea apetitului. Coriandrul va acționa, de asemenea, ca un antispasmodic si carminativ. Poti constata că nu trebuie baut mult din această băutură. O sticlă mica e suficientă. Încearca să-l bei atât cald, cat și rece.
+Adăuga 1/2 lingurita de coriandru și amesteca bine Fierbe timp de 3-5 minute, apoi toarna intr-un pahar inalt si garniseste cu frunze de coriandru. Aroma minunata a aceastei băuturi va ajuta la stimularea apetitului. Coriandrul va acționa, de asemenea, ca un antispasmodic si carminativ. Poti constata că nu trebuie baut mult din această băutură. O sticlă mica e suficientă. Încearca să-l bei atât cald, cat și rece.

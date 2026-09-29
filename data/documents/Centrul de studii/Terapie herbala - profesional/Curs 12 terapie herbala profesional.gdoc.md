@@ -16,9 +16,9 @@ embedded_image_payloads_removed: 0
 
 Curs 12
 
-Ierburi expectorante  și calmante
+Ierburi expectorante și calmante
 
-Multe dintre ierburile emoliente și în special expectorante sunt , de asemenea, anti \- catarale și acestea sunt deosebit de valoroase pentru a purifica si curata organismul.  S-a spus de multe ori a că “guturaiul  este cel mai mare blestem al omenirii " . El poate fi o mare problemă pentru mulți oameni , dar nu suntem pregătiți să spunem că acesta este cel mai mare blestem . De fapt , el poate fi una dintre cele mai mari binecuvântări , pentru ca iritatia provoacata ne atrage atenția asupra necesității de a ne curata corpul . Guturaiul este un semnal de avertizare al naturii ca este nevoie de o curățare temeinică.
+Multe dintre ierburile emoliente și în special expectorante sunt , de asemenea, anti \- catarale și acestea sunt deosebit de valoroase pentru a purifica si curata organismul. S-a spus de multe ori a că “guturaiul este cel mai mare blestem al omenirii " . El poate fi o mare problemă pentru mulți oameni , dar nu suntem pregătiți să spunem că acesta este cel mai mare blestem . De fapt , el poate fi una dintre cele mai mari binecuvântări , pentru ca iritatia provoacata ne atrage atenția asupra necesității de a ne curata corpul . Guturaiul este un semnal de avertizare al naturii ca este nevoie de o curățare temeinică.
 
 **Mucusul în exces** în organism rezulta de multe ori din descompunerea parțială a plasmei sângelui, ca urmare a unui deficit nutrițional de clorură de potasiu ,elementul care permite fibrinei să rămână în soluția sângelui .În toate procesele inflamatorii , există un exudat de transpirație din fibrina din sange in tesutul din jur . Acest emanat de fibrina devine nefuncțional și insolubil . Nicio fibrina noua nu poate fi formata fără ajutorul clorurii de potasiu . Când exudarea fibrinei se face din mucoasa membranei , este numita catar . Stadiile avansate de exudat fibrinos în diferite organe și țesuturi sunt denumite diferit, cistite , chisturi , aderente , etc.
 
@@ -52,7 +52,7 @@ Preparare: Decoct, extract fluid, infuzie, pulbere, tinctura
 
 Rădăcina de tataneasa conține o cantitate mare de mucilagiu care este cel mai bine extras prin apă.
 
-Decoct: (radacina) Puneti cca.28g  de rădăcină în 1 litru de apa. Pentru probleme intestinale folositi lapte, acest lucru are acțiune-lipici în atașarea plantei la membranele inflamate.
+Decoct: (radacina) Puneti cca.28g de rădăcină în 1 litru de apa. Pentru probleme intestinale folositi lapte, acest lucru are acțiune-lipici în atașarea plantei la membranele inflamate.
 
 Dozare:
 
@@ -70,7 +70,7 @@ Tătăneasa crește în locuri umede, prin lunci, la marginea apelor, uneori chi
 
 TONIC PULMONAR
 
-14g  rădăcină de tataneasa (Symphytum officinale)
+14g rădăcină de tataneasa (Symphytum officinale)
 
 14g Horehound (Marrubium vulgare)
 
@@ -92,7 +92,7 @@ Dozare: 1-2 linguri la fiecare 2 ore.
 
 Sirop de tuse nervin
 
-28g  rădăcină de tataneasa (Symphytum officinale)
+28g rădăcină de tataneasa (Symphytum officinale)
 
 28g rubarba turceasca(Rheum palmatum)
 
@@ -102,7 +102,7 @@ Sirop de tuse nervin
 
 28g voronic(Marrubium vulgare)
 
-900g  zahăr (sau miere)
+900g zahăr (sau miere)
 
 Mod de preparare: Se fierb plantele încet, în 5 litri de apă, timp de 30 minute, se adaugă zahăr sau miere la cald (și pentru păstrarea pentru o perioadă de timp lunga, se adaugă cca.30 ml de alcool de cereale sau glicerina).
 
@@ -116,7 +116,7 @@ Remediu pentru tuberculoza
 
 Mod de preparare: Se amestecă bine sau se agită împreună.
 
-Dozare: 56- 160 ml  de lichid, la fiecare 4 ore.
+Dozare: 56- 160 ml de lichid, la fiecare 4 ore.
 
 ANEMIE
 
@@ -126,7 +126,7 @@ ANEMIE
 
 Mod de preparare: se fierbe amestecul lent, timp de 20 de minute, in 1 litru de apa. Se strecoara, se pune intr-o sticlă și se păstreaza într-un loc răcoros.
 
-Dozare: 56g  de lichid, la fiecare 4 ore.
+Dozare: 56g de lichid, la fiecare 4 ore.
 
 Astm
 
@@ -146,13 +146,13 @@ Dozare: 1 lingură luata la fiecare câteva minute, până când se simte o imbu
 
 Bronșită
 
-14g  rădăcină de tataneasa (Symphytum officinale)
+14g rădăcină de tataneasa (Symphytum officinale)
 
-14g  voronic (Marrubium vulgare)
+14g voronic (Marrubium vulgare)
 
-14g  Boneset (Eupatorium perfoliatum)
+14g Boneset (Eupatorium perfoliatum)
 
-14g  podbal (Tussilago farfara)
+14g podbal (Tussilago farfara)
 
 14g rădăcină de Iarba mare (Inula helenium)
 
@@ -166,13 +166,13 @@ Dozare: 2 linguri, la fiecare 2 \- 3 ore.
 
 Debilitate
 
-112g  Tataneasa rădăcină (Symphytum officinale)
+112g Tataneasa rădăcină (Symphytum officinale)
 
-56g  Iarba mare (Inula helenium)
+56g Iarba mare (Inula helenium)
 
-28g  voronic (Marrubium vulgare)
+28g voronic (Marrubium vulgare)
 
-14g  Bethroot (Trillium erectum, T. pendul)
+14g Bethroot (Trillium erectum, T. pendul)
 
 Mod de preparare: se fierb plantele încet, timp de 20 de minute, in 3 litri de apa. Se strecoara, se îndulceste, se pune in sticlă și se păstreaza într-un loc răcoros.Amestecul poate fi conservat cu glicerină sau cu o halbă de miere.
 
@@ -192,13 +192,13 @@ Administrare: Aplicati pasta fierbinte extern, pe zona afectata. Intern, se bea 
 
 Pleurezie
 
-28g  rădăcină de tataneasa (Symphytum officinale)
+28g rădăcină de tataneasa (Symphytum officinale)
 
 28g Verbina (Verbena officinalis, V. hastata)
 
 28g radacina de Pleurezia (Asclepias tuberosa)
 
-14g  Isop (Hyssopus officinalis)
+14g Isop (Hyssopus officinalis)
 
 1 lingurita Cayenne (Capsicum frutescens; C. minim)
 
@@ -212,21 +212,21 @@ Pneumonie
 
 28g rădăcină de tataneasa (Symphytum officinale)
 
-14g  radacina de Pleurezia (Asclepias tuberosa)
+14g radacina de Pleurezia (Asclepias tuberosa)
 
-14g  voronic (Marrubium vulgare)
+14g voronic (Marrubium vulgare)
 
-7g  Cayenne (Capsicum frutescens; C. minim)
+7g Cayenne (Capsicum frutescens; C. minim)
 
 Mod de preparare: se fierb primele 3 plante medicinale, pentru 20 de minute, în 1 litru de apă. Se toarna amestecul peste Cayenne, se tine sub capac până când se răcește, se pune in sticlă și se păstreaza într-un loc răcoros.
 
-Dozare: 56 ml  de lichid, de 4 ori pe zi.
+Dozare: 56 ml de lichid, de 4 ori pe zi.
 
 Administrare: Această formulă poate fi utilizata cu o baie de vapori sau cu boia și ceai de mentă.
 
 Entorse, umflături (cataplasmă)
 
-112 g  Tataneasa, pulbere ,rădăcină (Symphytum officinale)
+112 g Tataneasa, pulbere ,rădăcină (Symphytum officinale)
 
 2 litri de apă distilată
 
@@ -238,7 +238,7 @@ REMEDIU pentru tuberculoza cu hemoragie (bun pentru cei care nu tolereaza usturo
 
 1 halbă mucilagiu de tataneasa (Symphytum officinale)
 
-112g                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           rădăcină Iarba mare, tăiata (Inula helenium)
+112g rădăcină Iarba mare, tăiata (Inula helenium)
 
 1 lingura de suc de usturoi (Allium sativum)
 
@@ -252,13 +252,13 @@ Nutritive generale, emoliente, formule de vindecare (ulcere,cancer, sifilis, bol
 
 1 halbă mucliagiu de tataneasa (Symphytum officinale)
 
-112g  rădăcină de brusture (Arctium lappa)
+112g rădăcină de brusture (Arctium lappa)
 
 1 litru de apă distilată
 
 Mod de preparare: Se fierbe radacina de brusture, timp de 15 minute, în apă. Se strecoara,apoi se fierbe și se reduce la 1 litru. Se retrage să se răcească și se adaugă mucilagiu de tataneasa. Se indulceste cu miere.Se agita bine înainte de utilizare.
 
-Dozaj 50-80ml  de lichid, de 3 până la 4 ori pe zi.
+Dozaj 50-80ml de lichid, de 3 până la 4 ori pe zi.
 
 Aplicație externă (cancer, sifilis, boli de piele, etc).Se imbiba fasii de bumbac cu formula de vindecare de tataneasa de mai sus și se aplică pe părțile afectate. Se păstreaza umede și se schimba de multe ori (nu se permite să se usuce înainte de îndepărtare).
 
@@ -290,11 +290,11 @@ Ceaiul de lumînărică favorizează somnul, calmează colitele spasmodice de or
 
 Pentru uz extern
 
-În caz de arsură, tamponeaza  locul cu o compresă îmbibată în infuzie de flori.
+În caz de arsură, tamponeaza locul cu o compresă îmbibată în infuzie de flori.
 
 Lumînărica este un bun calmant și dezifectant al plăgilor superficiale.
 
-În caz de prurit sau hemoroizi, spala  zona afectată cu un decoct de flori și frunze preparat cu apă sau, pentru o variantă și mai calmantă, cu lapte.
+În caz de prurit sau hemoroizi, spala zona afectată cu un decoct de flori și frunze preparat cu apă sau, pentru o variantă și mai calmantă, cu lapte.
 
 CEAIULUI DE PATRU FLORI
 
@@ -308,11 +308,11 @@ La un litru de apă clocotită se adaugă:
 
 \- 1 lingură de podbal.
 
-Lasa  toate aceste plante să infuzeze timp de 10 min și vei  obține un ceai revigorant, cu rezultate excelente și în cazurile durerilor de gît și ale afecțiunilor respiratorii.
+Lasa toate aceste plante să infuzeze timp de 10 min și vei obține un ceai revigorant, cu rezultate excelente și în cazurile durerilor de gît și ale afecțiunilor respiratorii.
 
 Infuzie de **lumanarica**
 
-28g  frunze de mullein, tăiate (Verbascum Thapsus)
+28g frunze de mullein, tăiate (Verbascum Thapsus)
 
 1/2 litru de apă distilată
 
@@ -322,7 +322,7 @@ Dozaj: 2-3 uncii de lichid sau mai mult, de 3 până la 4 ori pe zi.
 
 Infuzie concentrata (țesut inflamat, tuberculoza, diaree cronica,dizenterie, plângeri pulmonare)
 
-112g  frunze si flori de lumanarica (părți egale) tăiat(Verbascum Thapsus)
+112g frunze si flori de lumanarica (părți egale) tăiat(Verbascum Thapsus)
 
 3 litri apă distilată
 
@@ -338,9 +338,9 @@ Notă: Acest decoct este de 4 ori mai puternic decat infuzia și este mai astrin
 
 Bronșită, tuse, reumatism, încheieturi înțepenite, oreion, umflaturi endocrine si hidropizie (cataplasmă)
 
-56g  lumanarica (Verbascum Thapsus)
+56g lumanarica (Verbascum Thapsus)
 
-14g  uncie Lobelia, iarbă pulbere (Lobelia inflata)
+14g uncie Lobelia, iarbă pulbere (Lobelia inflata)
 
 1 lingurita Cayenne (Capsicum frutescens; C. minim)
 
@@ -350,11 +350,11 @@ Administrare: se aplica pe cat de cald este convenabil, peste plămâni sau pest
 
 **Umflaturi glandulare** (cataplasmă)
 
-28g  frunze de lumanarica (Verbascum Thapsus)
+28g frunze de lumanarica (Verbascum Thapsus)
 
 28g lemn de sănicioară, planta (Sanicula europaea)
 
-14g  Lobelia, planta (Lobelia inflata)
+14g Lobelia, planta (Lobelia inflata)
 
 Mod de preparare: Se fierbe încet în 2 litri de apa timp de 15 minute.
 
@@ -362,11 +362,11 @@ Administrare: se aplica pe cat de fierbinte e posibil pentru o oră, de 3 ori pe
 
 **Ulei de lumanarica (un tratament specific pentru bolile urechii)**
 
-56g  flori de lumanarica(Verbascum Thapsus) Uleiul de masline suficient (Olea europaea)
+56g flori de lumanarica(Verbascum Thapsus) Uleiul de masline suficient (Olea europaea)
 
 Mod de preparare: Puneți florile de lumanarica într-un borcan sau sticla cu gura larga, adăugați ulei de masline pur suficient \- 1 lingurita de ulei peste flori, se pune dop și se agită bine. Puneți într-un loc cald sau expuneti la soare timp de 7 până la 14 zile, lasa la macerat sau agita bine in fiecare zi. Se scurge și se extrage lichidul, apoi se pune in sticlă, fara capac , apoi se lasă la căldură, altfel se va sparge sticla.
 
-Notă: Dacă utilizezi  flori proaspete de lumanarica, după o zi de la macerare, înlocuieste  dopul cu mai multe straturi de tifon sa  permita  umezelii să scape.
+Notă: Dacă utilizezi flori proaspete de lumanarica, după o zi de la macerare, înlocuieste dopul cu mai multe straturi de tifon sa permita umezelii să scape.
 
 Dozare: 2-6 picaturi de ulei încălzit în ureche, de 2 până la 3 ori pe zi sau frecati orice parte afectată, care este umflata sau iritata.
 
@@ -418,29 +418,29 @@ Mod de preparare: Din amestecul de plante aromatice, folositi 1 lingurita la fie
 
 Mod de preparare: se fierbe timp de 20 de minute în 1 litru de apa.
 
-Administrare: Scoate  plantele și aplică o cataplasmă pe cat de caldă posibil la gât, înfășoara  cataplasma bine si lasa pana se raceste. Reincalzeste  plantele în lichid.
+Administrare: Scoate plantele și aplică o cataplasmă pe cat de caldă posibil la gât, înfășoara cataplasma bine si lasa pana se raceste. Reincalzeste plantele în lichid.
 
-**Difterie** (decoct) 
+**Difterie** (decoct)
 
-14g lumanarica (Verbascum Thapsus) 
+14g lumanarica (Verbascum Thapsus)
 
 14g frunze de zmeura (Rubus idaeus)
 
-14g Agrimony (Agrimonia Eupatoria) 1/4 uncie coaja de Bayberry (Myrica cerifera) 
+14g Agrimony (Agrimonia Eupatoria) 1/4 uncie coaja de Bayberry (Myrica cerifera)
 
-1/4 lingurita Cayenne (Capsicum frutescens; C. minim) 
+1/4 lingurita Cayenne (Capsicum frutescens; C. minim)
 
-14g Mir, tinctura (Commiphora myrrha, var. Molmol) 
+14g Mir, tinctura (Commiphora myrrha, var. Molmol)
 
 Mod de preparare: se fierb primele 4 plante încet timp de 20 minute în 1 litru de apa; se toarna fierbinte peste ardei si se adauga tinctura de mir cand se raceste.
 
- Dozare: 1-2 lingurite la fiecare oră, până când se amelioreaza starea și apoi de 4 până la 5 ori pe zi. Administrare: Vezi care intestinefuncționează corect (foloseste  tonicul pentru intestinului mic și, dacă este necesar, o clisma cu Iarba Matei). Sucul de lamaie nediluat și neindulcit este excelent pentru toate tipurile de dureri de gât sau sucul de ananas proaspat.
+ Dozare: 1-2 lingurite la fiecare oră, până când se amelioreaza starea și apoi de 4 până la 5 ori pe zi. Administrare: Vezi care intestinefuncționează corect (foloseste tonicul pentru intestinului mic și, dacă este necesar, o clisma cu Iarba Matei). Sucul de lamaie nediluat și neindulcit este excelent pentru toate tipurile de dureri de gât sau sucul de ananas proaspat.
 
 **Emollient**
 
- 1 parte flori de lumanarica (Verbascum Thapsus) 
+ 1 parte flori de lumanarica (Verbascum Thapsus)
 
-1 parte flori de zefire (Althaea officinale) 1 parte flori de nalba mare (Malva sylvestris) sau mica (M. rotundifolia) 
+1 parte flori de zefire (Althaea officinale) 1 parte flori de nalba mare (Malva sylvestris) sau mica (M. rotundifolia)
 
 1 parte Pellitory de perete (Parietaria officinalis)
 
@@ -448,19 +448,19 @@ Mod de preparare: se infuzeza plantele pentru 15 minute într-o cantitate propor
 
 Dozaj: 1 lingura pe oră, mai mult sau mai puțin, în funcție de necesități.
 
-**Oreion** (cataplasme) 
+**Oreion** (cataplasme)
 
-56g lumanarica, pulbere(Verbascum Thapsus) 
+56g lumanarica, pulbere(Verbascum Thapsus)
 
-56g flori de musetel, pulbere (Chamaemelum nobile; Anthemis nobilis) 
+56g flori de musetel, pulbere (Chamaemelum nobile; Anthemis nobilis)
 
-Mod de preparare: Se amestecă cu apă distilată fierbinte pentru a forma pasta, se pune pe bandaj și se aplică pe întreaga zonă. 
+Mod de preparare: Se amestecă cu apă distilată fierbinte pentru a forma pasta, se pune pe bandaj și se aplică pe întreaga zonă.
 
 Administrare: Aplica pe cat de caldă e posibil, acopera bine și schimba bandajul atunci când se raceste. Repeta până cand umflatura se retrage. Da pacientului ceai de frunze de zmeura (Rubus idaeus) sau scoarță de copac Bayberry (Myrica cerifera), care va curăța stomacul și tractul digestiv.
 
-**Hemoroizi** 
+**Hemoroizi**
 
-1 parte frunze de lumanarica(Verbascum Thapsus) 
+1 parte frunze de lumanarica(Verbascum Thapsus)
 
 2 parti de coada soricelului (Achillea millefolium)
 
@@ -490,14 +490,14 @@ Raspandire: Atât în Europa, cât și în America de Nord, planta este o buruia
 
 Preparare:
 
-Decoct, extract fluid, infuzie, unguent, pudra și tinctura. 
+Decoct, extract fluid, infuzie, unguent, pudra și tinctura.
 
-Dozare 
+Dozare
 
 Decoct: 56 ml, de 3 până la 4 ori pe zi (sau la fiecare 2 \- 3 ore, atunci când este necesar)
 
- Extract fluid: 1/2-1 lingurita Infuzie: 3-4 cani pe zi, între mese; cu ingitituri mici 
+ Extract fluid: 1/2-1 lingurita Infuzie: 3-4 cani pe zi, între mese; cu ingitituri mici
 
-Pulbere: 1 linguriță de 3 sau 4 ori pe zi sau mai mult, în funcție de necesități 
+Pulbere: 1 linguriță de 3 sau 4 ori pe zi sau mai mult, în funcție de necesități
 
 Tinctură: 1/2 linguriță, după cum este necesar

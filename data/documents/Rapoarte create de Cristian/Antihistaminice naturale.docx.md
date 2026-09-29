@@ -22,12 +22,12 @@ ocr_text_characters: 0
 
 | Coloana 1 | Coloana 2 | Coloana 3 | Coloana 4 | Coloana 5 |
 | --- | --- | --- | --- | --- |
-| Semințe | Fructe | Suplimente |  | Altele |
-| Negrilică | Coacăze | DAO(diaminoxidază) |  | Rinichi de porc |
-| Chimion |  | *Vitaminele C, B6, B12 |  | Enzima N-metiltransferază |
-|  |  | Minerale: Mg, Zn, Cu, P. |  |  |
-|  |  | Daosin |  |  |
-|  |  | *Acizi Omega 9 |  |  |
+| Semințe | Fructe | Suplimente | | Altele |
+| Negrilică | Coacăze | DAO(diaminoxidază) | | Rinichi de porc |
+| Chimion | | *Vitaminele C, B6, B12 | | Enzima N-metiltransferază |
+| | | Minerale: Mg, Zn, Cu, P. | | |
+| | | Daosin | | |
+| | | *Acizi Omega 9 | | |
 
 *Vitaminele C, B6, acizii omega-9 ajută enzima DAO să degradeze histamina.
 
@@ -72,9 +72,9 @@ Dacă avem în organism o cantitate suficientă din enzima DAO, atunci nivelul d
 | alcool |
 | băuturi energizante |
 | ceai verde, negru, mate |
-|  |
-|  |
-|  |
+| |
+| |
+| |
 
 ### Tabel 5
 
@@ -94,18 +94,18 @@ Ghidul plantelor medicinale și aromatice de la A la Z – 2003 – Ovidiu Bojor
 
 Flora medicinală a României – 1991 – Mircea Alexan, Ovidiu Bojor, Florentin Crăciun
 
-Afacerea "Colesterolul" - Bruce Lipton https://youtu.be/gkvgFbyvDGk
+Afacerea "Colesterolul" - Bruce Lipton
 
 Alimente care ucid creierul – dr David Perlmutter, Kristin Loberg
 
-https://www.clinicamedicum.ro/histamina-dirijor-in-simfonia-inflamatiei
 
-https://www.voltaren.ro/depre-durere/inflamatie.html
 
-https://doc.ro/sanatate/intoleranta-la-histamina-cauze-simptome-diagnostic-tratament
 
-https://www.healthline.com/nutrition/dao-supplement#limitations
 
-https://factvsfitness.com/dao-deficiency-increase-dao-enzyme
 
-https://www.synevo.ro/intoleranta-la-histamina
+
+
+
+
+
+

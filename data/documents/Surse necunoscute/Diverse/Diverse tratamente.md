@@ -102,7 +102,7 @@ GLANDELE ENDOCRINE\
 \
 \
 Anemie\
-• Timp de 3 luni, se pun la macerat intr-un litru de rachiu curat, 500 gr miez de nuca. Vasul se tine la loc rece si intunecos si se agita la cateva zile. Dupa aceasta perioada se strecoara si, lichidul se amesteca cu 3 litri de vin rosu, natural. Se indulceste dupa gust, cu miere. ![](media/image1.png){width="0.15625in" height="0.15625in"}x Din aceasta bautura, se beau zilnic cate 150 ml.\
+• Timp de 3 luni, se pun la macerat intr-un litru de rachiu curat, 500 gr miez de nuca. Vasul se tine la loc rece si intunecos si se agita la cateva zile. Dupa aceasta perioada se strecoara si, lichidul se amesteca cu 3 litri de vin rosu, natural. Se indulceste dupa gust, cu miere. !{width="0.15625in" height="0.15625in"}x Din aceasta bautura, se beau zilnic cate 150 ml.\
 • Se prepara un vin tonic: 750 ml vin rosu + 200 ml suc de spanac. Se tine la frigider.\
 Se ia cate o lingura de 3 ori/zi, inainte de mese.\
 • Se prepara un lapte fortifiant: se pun in mixer 1/2 litru de lapte proaspat, 4 linguri drojdie de bere, o ceasca lapte praf degresat, o lingura de miere si se amesteca bine. Cand mierea s-a dizolvat se mai adauga inca 1/2 litru lapte proaspat.\

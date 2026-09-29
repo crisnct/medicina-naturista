@@ -28,8 +28,8 @@ Nu trebuie sa eviti alaptarea din cauza durerii, deoarece numai alaptand vei put
 
 Daca bebelusul a fost hranit artificial in maternitate este posibil ca primele zile acasa sa fie foarte dificile, iar pentru mama tentatia de a recurge la biberon si la suplimente sa fie foarte mare.
 
-Este importat ca mama sa reziste tentatiei si sa se gandeasca la toate [avatajele pe care le prezinta alaptarea](http://www.nou-nascuti.ro/nasterea.html?id=175) in raport cu lte variante. Bebelusul rezista foarte bine la perioade scurte (cateva ore, sau chiar 1-2 zile) de hrana insuficienta. Este important sa se incerce toate celelalte solutii inainte de a se recurge la suplimente oferite cu biberonul (sau cu lingurita, seringa etc.).
+Este importat ca mama sa reziste tentatiei si sa se gandeasca la toate avatajele pe care le prezinta alaptarea in raport cu lte variante. Bebelusul rezista foarte bine la perioade scurte (cateva ore, sau chiar 1-2 zile) de hrana insuficienta. Este important sa se incerce toate celelalte solutii inainte de a se recurge la suplimente oferite cu biberonul (sau cu lingurita, seringa etc.).
 
--   **Ce este recomandat in „furia laptelui" ?**
+- **Ce este recomandat in „furia laptelui" ?**
 
 Ulei volatil de menta, radacina de Patrunjel, Diclofenac si Progestogel (masaj al sanilor), masarea sanilor de sus in jos, si un regim sarac in proteine.

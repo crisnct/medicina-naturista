@@ -100,11 +100,11 @@ Tratament naturist cu efect antibiotic si antiviral pentru infectiile cailor res
 
 - Miere de Manuka 400+: (din Noua Zeelanda): ½ lingurita de doua ori pe zi
 
-http://www.ebay.com/itm/252175556549
+
 
 ## Antet 1
 
-Website: http://stores.ebay.com/herbshouse2015
+Website:
 
 Email: nelucristian2005@gmail.com
 

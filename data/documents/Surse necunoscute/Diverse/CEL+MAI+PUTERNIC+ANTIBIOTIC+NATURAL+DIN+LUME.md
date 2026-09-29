@@ -1,6 +1,6 @@
-  ---------------------------------------------------
-  **CEL MAI PUTERNIC ANTIBIOTIC NATURAL DIN LUME.**
-  ---------------------------------------------------
+ ---------------------------------------------------
+ **CEL MAI PUTERNIC ANTIBIOTIC NATURAL DIN LUME.**
+ ---------------------------------------------------
 
 **Usturoiul este cel mai puternic antibiotic natural cunoscut, sub forma de aliment pur. In prezenta sucului sau, germenii de raceli, gripe si viroze nu au nici o sansa. Descompune flegma, combate infectiile, degajeaza sinusurile, bronhiile si plamânii. Omoara cei mai oribili microbi - chiar si pe cei ai leprei, gonoreei si cangrenei - în cinci minute fix! în testele de laborator, acesti germeni au fost aruncati efectiv pe marginea unui platan de cultura! Un miligram de usturoi avea aceeasi putere cu douazeci si cinci de unitati de penicilina.**
 

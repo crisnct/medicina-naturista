@@ -92,4 +92,4 @@ SURSE\
 Mătrăguna. O etnobotanică magică. Leacuri şi remedii magice, de Cornel Dan Niculae\
 Medicina naturistă în tradiţiile poporului român, articol al prof. univ. dr. Constantin I. Milică, specialist în fitoterapie.
 
-sursa: [ecolife.ro](http://www.ecolife.ro/)
+sursa: ecolife.ro

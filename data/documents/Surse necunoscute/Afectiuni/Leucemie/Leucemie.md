@@ -6,41 +6,41 @@ Doua mese pe zi: una intre orele 11,30 - 13,30 iar cealalta intre orele 17,00-19
 
 La o masa se va alege una din urmatoarele combinatii:
 
--   fructe + seminte crude
+- fructe + seminte crude
 
--   fructe in stare cruda
+- fructe in stare cruda
 
--   legume fierte + cereale
+- legume fierte + cereale
 
--   compot de fructe + cereale
+- compot de fructe + cereale
 
--   miere de padure + cereale
+- miere de padure + cereale
 
--   miere de padure + legume crude
+- miere de padure + legume crude
 
--   legume crude + seminte crude
+- legume crude + seminte crude
 
--   cereale + seminte crude + legume fierte
+- cereale + seminte crude + legume fierte
 
--   splina de vita, semifiarte + legume fierte
+- splina de vita, semifiarte + legume fierte
 
--   ficat de vita, semifiert + legume fierte
+- ficat de vita, semifiert + legume fierte
 
--   oua fierte moi + cereale + leustean/patrunjel + legume fierte
+- oua fierte moi + cereale + leustean/patrunjel + legume fierte
 
--   slanina de porc, fiarta + cereale + seminte crude + legume fierte + boia iute
+- slanina de porc, fiarta + cereale + seminte crude + legume fierte + boia iute
 
--   seminte crude + legume fierte + boia iute
+- seminte crude + legume fierte + boia iute
 
--   piftie de vita si porc + cereale
+- piftie de vita si porc + cereale
 
--   creier de vita/oaie fiert + cereale + legume fierte + ceai anticolesterolemiant
+- creier de vita/oaie fiert + cereale + legume fierte + ceai anticolesterolemiant
 
--   maduva de oase, fiarta (de vita) + legume fierte + cereale
+- maduva de oase, fiarta (de vita) + legume fierte + cereale
 
--   ceai macese + macese + seminte crude
+- ceai macese + macese + seminte crude
 
--   slanina de porc + hrean + seminte crude + cereale + lamaie
+- slanina de porc + hrean + seminte crude + cereale + lamaie
 
 **Obs**. *Produsele de origine animala se vor consuma in cantitati cat mai mici*
 
@@ -220,15 +220,15 @@ Marianciuc Marcel (Emilia)
 
 \- Ne cerem scuze pentru intarzierea cu care am postat noile stiri. Totul e datorita unor probleme tehnice care le\'am avut.
 
-http://www.emilia.ecaspain.info/index\_rom.html
+
 
 **Foarte eficient**: sucul proaspat de catina (un sfert de pahar pe zi) in combinatie cu suc de usturoi (2-3 lingurite). In leucemie, o cura de 1-2 luni cu suc de catina are efecte miraculoase.
 
 **Maria Codroiu,** 53 de ani, sat Valea Leurzii, com. Buciumeni, jud. Dâmbovita. A fost diagnosticata în anul 2002 cu **leucemie mieloida cronica** (LMC), pe fondul altor afectiuni : anemie feripriva, diabet zaharat tip I, sechele post accident vascular cerebral si aritmie cu extrasistole. Era slabita si complet dezorientata si nu se putea deplasa singura . Analiza iridoscopica efectuata de d-l ing. Fanica-Voinea Ene a evidentiat în plus ca pacienta mai suferea si de ischemie cerebrala, imunitate deficitara si toxemie avansata. I-a recomandat tratament naturist complex cu plante, produse apicole, petrol, argila s.a . Dupa 1 an, analizele au revenit aproape la normal (vindecare 90%). Urmeaza în prezent cura de întretinere o luna pe semestru.
 
-http://www.terapianaturista.ro/data/cancer.html
 
-Cured leukemia patient could benefit twice from stem-cell therapy 
+
+Cured leukemia patient could benefit twice from stem-cell therapy
 -----------------------------------------------------------------
 
 June 19, 2005 By Diane Krieger Spivak / Post-Tribune staff writer
@@ -269,4 +269,4 @@ But when it comes to embryonic stem-cell research, Carpenter said, "It's a perso
 
 Contact Diane Krieger Spivak at 477-6019 or dspivak\@post-trib.com
 
-http://www.post-trib.com/cgi-bin/pto-story/news/z1/06-19-05\_z1\_news\_02.html
+

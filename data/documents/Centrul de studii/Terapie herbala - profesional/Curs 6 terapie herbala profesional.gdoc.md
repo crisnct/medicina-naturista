@@ -14,7 +14,7 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-Curs  6 terapie herbala profesional
+Curs 6 terapie herbala profesional
 
 Ierburile antihelmintice
 
@@ -32,13 +32,13 @@ Diferența în acțiunea unui medicament pentru viermi depinde de multe ori de d
 
 1\. Tine trei zile o dieta de curățare / de băut rapid doar un singur tip de suc și apă distilată și ia dimineața și noaptea antihelmintice, de preferat cu pelin.
 
-2\. În dimineața zilei a 4-a zi, bea cca. 200 ml  de Senna (Cassiaacutifolia; C. angustifolia), bea ceai numai pentru a curăța intestinul de paraziți. Tenia este ceva mai încăpățânată, dar procedeul de mai sus poate functiona, de asemenea, cu ajutorul ferigii sau rodiei, ca antihelmintice. Continua sa iei remediul câteva zile, viermii vor disparea dar continua cu Lobelia si un purgativ. Cu toate acestea, o modalitate mult mai buna este de a recomanda pacientului să mănânce, pentru o zi sau două, alimentele care nu-i sunt pe plac teniei, cum ar fi ceapa, usturoiul, muraturile si saraturile. Acesteaslăbesc viermii și controlul acestora, astfel încât atunci când medicamentul, este luat, tenia poate fi expulzata mai ușor.
+2\. În dimineața zilei a 4-a zi, bea cca. 200 ml de Senna (Cassiaacutifolia; C. angustifolia), bea ceai numai pentru a curăța intestinul de paraziți. Tenia este ceva mai încăpățânată, dar procedeul de mai sus poate functiona, de asemenea, cu ajutorul ferigii sau rodiei, ca antihelmintice. Continua sa iei remediul câteva zile, viermii vor disparea dar continua cu Lobelia si un purgativ. Cu toate acestea, o modalitate mult mai buna este de a recomanda pacientului să mănânce, pentru o zi sau două, alimentele care nu-i sunt pe plac teniei, cum ar fi ceapa, usturoiul, muraturile si saraturile. Acesteaslăbesc viermii și controlul acestora, astfel încât atunci când medicamentul, este luat, tenia poate fi expulzata mai ușor.
 
 Pelin sau absinthium (Artemisia absinthium, Compositae)numele comun: pelin, absint, o, ghimbir verde, Wermut (Germania); Alenjo (SPA)
 
 Caracteristici de identificare
 
-Tulpina: Numeroasa, stufoasa (ramificata și cu frunze), ferma, înflorita, 2-3 metri inaltime, albicioasă, strâns acoperita cu par matasos fin; partea de jos este perena și aproape lemnoasa, din care apar muguri primavara, în fiecare an. 
+Tulpina: Numeroasa, stufoasa (ramificata și cu frunze), ferma, înflorita, 2-3 metri inaltime, albicioasă, strâns acoperita cu par matasos fin; partea de jos este perena și aproape lemnoasa, din care apar muguri primavara, în fiecare an.
 
 Pulbere (planta): maroniu,galben-verzui.
 
@@ -62,9 +62,9 @@ Dozare: Pelinul trebuie administrat în doze mici și repetate.
 
 Extract lichid 1/2-1 linguriță de lichid
 
-Infuzabil- 56ml  de lichid
+Infuzabil- 56ml de lichid
 
-Utilizeaza  uleiul numai extern
+Utilizeaza uleiul numai extern
 
 Pulbere- 650-1300 miligrame
 
@@ -100,7 +100,7 @@ Indigestie, dispepsie
 
 Mod de preparare: Infuzeaza 1 lingurita de amestec de plante aromatice în 1 litru de apa fierbinte, , acopera bine și asteapta 20 de minute, se strecoara, se îndulceste și se păstreaza la rece.
 
-Dozare: cca 56 ml  de lichid, de 3-4 ori pe zi.
+Dozare: cca 56 ml de lichid, de 3-4 ori pe zi.
 
 **Migrenă**
 
@@ -112,11 +112,11 @@ Dozare: cca 56 ml  de lichid, de 3-4 ori pe zi.
 
 Mod de preparare: se fierb primele două plante pentru 20 de minute în 1 litru de apa fierbinte (acoperite), se amestecă în Cayenne, se pune in sticlă și se păstreaza într-un loc răcoros.
 
-Dozare: cca 56 ml  de lichid, dupa cum este necesar
+Dozare: cca 56 ml de lichid, dupa cum este necesar
 
 VIERMI ROTUNZI (vermifuge)
 
-28g  de pelin planta (Artemisia absinthium)
+28g de pelin planta (Artemisia absinthium)
 
 28gde virnant planta (Ruta graveolens)
 
@@ -186,9 +186,9 @@ Administrare
 
 Oral \-viermi (bandă, rotund, pin): Urmeaza procedura din paginile urmatoare sau foloseste decoctul antihelmintic. Pulberea poate fi utilizata, dar este de preferat decoctul.
 
-Diaree, hemoragie, ulceratii canceroase și de altă natură,ale gurii, gâtului, uter și rect, dizenterie cronică: Foloseste coaja, fructele sauflorile. 
+Diaree, hemoragie, ulceratii canceroase și de altă natură,ale gurii, gâtului, uter și rect, dizenterie cronică: Foloseste coaja, fructele sauflorile.
 
-Piele-Durere în gât: Foloseste coaja , fructele sau florile ca o gargara. 
+Piele-Durere în gât: Foloseste coaja , fructele sau florile ca o gargara.
 
 Vaginal-Leucoree, duș: Foloseste coaja , fructele sau florile ca o infuzie.
 
@@ -232,11 +232,11 @@ Infuzie \-Vezi mai jos
 
 Pulbere \-1-2 lingurite luate succesiv
 
-Administrare- Kousso este mai eficient daca te  abții de la mâncare și bei suc de lămâie înainte și după dozare. În cazul în care un scaun nu se produce în decurs de 4 ore, se ia un purgativ antibilios.
+Administrare- Kousso este mai eficient daca te abții de la mâncare și bei suc de lămâie înainte și după dozare. În cazul în care un scaun nu se produce în decurs de 4 ore, se ia un purgativ antibilios.
 
 Infuzie antihelmintica din KOUSSO
 
-21 g  de flori de Kousso (Brayera anthelmintica),1 litru de apă distilată
+21 g de flori de Kousso (Brayera anthelmintica),1 litru de apă distilată
 
 Mod de preparare: Se toarnă apă fierbinte peste plantele medicinale, se acoperă și se asteapta 15minute .
 
@@ -270,7 +270,7 @@ Decoct 1 lingură
 
 Extract fluid ½ \-2 linguri de lichid
 
-Infuzie 56-224ml  de lichid de 2 până la 3 ori pe zi
+Infuzie 56-224ml de lichid de 2 până la 3 ori pe zi
 
 Pulbere 1-3 grame
 
@@ -280,15 +280,15 @@ Tinctura ½ \-1 lingurita de lichid
 
 Administrare- Da în doze mici și repetate: dozele foarte mari pot provoca venoscongestie și disconfort la nivelul organelor abdominale.
 
-Oral pentru viermi: Ia 84-168g  de infuzie (mai ales din semințe zdrobite) dimineața si seara, în urma procedurii de curățare din paginile anterioare.
+Oral pentru viermi: Ia 84-168g de infuzie (mai ales din semințe zdrobite) dimineața si seara, în urma procedurii de curățare din paginile anterioare.
 
-Isterie, afectiuni nervoase, afectiuni renale: Ia 56ml  de lichid de infuzie, repetate frecvent (de 5-6 ori pe zi).
+Isterie, afectiuni nervoase, afectiuni renale: Ia 56ml de lichid de infuzie, repetate frecvent (de 5-6 ori pe zi).
 
 Febra, friguri, raceli: doze mici și frecvente de infuzie calda.
 
-Probleme cardiace, palpitații: Se face un decoct de plante medicinale, se fierb 10minute, se iau cca 60ml  de lichid de 4 până la 5 ori pe zi.
+Probleme cardiace, palpitații: Se face un decoct de plante medicinale, se fierb 10minute, se iau cca 60ml de lichid de 4 până la 5 ori pe zi.
 
-Spasme, flatulență, tulburări gastrice: ia  infuzie, asigurându-te că se păstreaza uleiurileesențiale volatile care posedă o mare parte din potenta medicamentului.
+Spasme, flatulență, tulburări gastrice: ia infuzie, asigurându-te că se păstreaza uleiurileesențiale volatile care posedă o mare parte din potenta medicamentului.
 
 Guta: infuzie de planta verde (cum este indicat), sau o infuzie de semințe și flori uscate (1 lingurita de 2 până la 3 ori pe zi) sau sirop de decoct din rădăcină, se tine post în timpul tratamentului.
 
@@ -296,21 +296,21 @@ Piele- Boli eruptive (varicela, variola, rujeola, etc): Clateste-te cu infuzie s
 
 Entorse, contuzii, inflamatii, reumatism, sciatică, vânătăi: se aplică frunzele verzi sau se foloseste infuzia ca o cataplasmă, se spală
 
-Impotriva insectelor: Foloseste  un preparat combinat cu frunze de soc.
+Impotriva insectelor: Foloseste un preparat combinat cu frunze de soc.
 
 Infuzia de ghimbir:
 
-28g  plante, tăiata (Tanacetum vulgare)
+28g plante, tăiata (Tanacetum vulgare)
 
 1 litru de apă distilată
 
 Administrare: se da în doze mici și repetate, dozele foarte mari poate provoca venoscongestie și disconfort la nivelul organelor abdominale.
 
-Oral-viermi: Ia 84 \-168ml  de infuzie
+Oral-viermi: Ia 84 \-168ml de infuzie
 
 Mod de preparare: Se fierbe apa si se toarna fierbinte peste plante, se acoperă și se asteapta de la 10 până la 15 minute, se strecoara, se îndulceste dupa gust, se pune in sticlă și se păstreaza într-un loc răcoros.
 
-Dozare: De la 55ml  de lichid, de 5 pana la 6 ori pe zi. La copiii mici se reduce doza în funcție de vârstă.
+Dozare: De la 55ml de lichid, de 5 pana la 6 ori pe zi. La copiii mici se reduce doza în funcție de vârstă.
 
 Cele patru mari remedii cu seminte (afectiuni catarale,intestinale și ale căilor urinare, febra, etc)
 

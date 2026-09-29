@@ -36,7 +36,7 @@ Dupa care timp de o saptamana , in fiecare seara se aplica un strat subtire de l
 
 ## Antet 1
 
-Website: http://stores.ebay.com/herbshouse2015
+Website:
 
 Email: nelucristian2005@gmail.com
 

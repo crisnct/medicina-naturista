@@ -22,7 +22,7 @@ In lectia anterioara am vazut doua remedii foarte vechi. Ele ar trebui sa se reg
 
 Medicina herbala este despre vindecare. In ultima lectie am folosit termenul de „tonic”. L-am folosit intentionat, deoarece pune accentul pe ceea ce incercam sa facem in medicina herbala. Incercam sa restabilim balanta si armonia. Incercam sa stimulam puterea naturala a organismului de a se vindeca singur. Marele medic grec Hipocrate numeste acceasta putere de vindecare Vis Medicatrix Naturae.
 
-Desi nu vreau sa crezi  ca medicina herbala vine in contradictie cu medicina traditionala, vreau sa apreciezi  acolo unde sunt diferente. In principal este vorba de modelul de sanatate.
+Desi nu vreau sa crezi ca medicina herbala vine in contradictie cu medicina traditionala, vreau sa apreciezi acolo unde sunt diferente. In principal este vorba de modelul de sanatate.
 
 **Medicina traditionala**
 
@@ -46,7 +46,7 @@ In general, chirurgia priveste corpul ca pe instalatie soficticata, cu care se l
 
 Punctul de vedere al herbalismului
 
-Inainte de a aborda aceasta problema, te rog sa intelegi  ca nu imi propun sa sugerez ca abordarea traditionala este gresita. In mod evident nu este. Corpul este compus din tesuturi care formeaza organe si sisteme. Si schimbarile patologie produc intr-adevar semne si simptome. Ceea ce vreau sa sugerez este ca organismul uman nu este doar un mecanism care are nevoie de hrana si apa pentru a supravietui. Exista si o forta mult mai subtila care actioneaza.
+Inainte de a aborda aceasta problema, te rog sa intelegi ca nu imi propun sa sugerez ca abordarea traditionala este gresita. In mod evident nu este. Corpul este compus din tesuturi care formeaza organe si sisteme. Si schimbarile patologie produc intr-adevar semne si simptome. Ceea ce vreau sa sugerez este ca organismul uman nu este doar un mecanism care are nevoie de hrana si apa pentru a supravietui. Exista si o forta mult mai subtila care actioneaza.
 
 Vix Medicatrix naturae, puterea vindecatoare a naturii, este principiul vietii. Suntem mai mult decat o masinarie de tesuturi moi controlata de un computer format din tesuturi moi. Parerea mea este ca, atunci cand puterea de vindecare, principiul vietii, isi pierde echilibrul, atunci si starea mentala si fizica a persoanei isi poate pierde echilibrul.
 
@@ -58,7 +58,7 @@ Exista aici un punct important de clarificat. Medicina traditionala acuza deseor
 
 In medicina traditionala vestica, doctorul doreste sa prescrie o cantitate exacta a unui medicament. Cu toate acestea, deseori exista efecte adverse. Datorita lor apare fenomenul nerespectarii prescriptiei. Asta inseamna ca 60% din tratamentele medicamentoase din Marea Britanie nu sunt terminate. Motivul obisnuit pentru neterminarea tratamentului este aparitia efectelor secundare severe. In plus, 10% din internari sunt din cauza bolilor cauzate de tratamentele prescrise.Asta inseamna „facute de om”, adica rezultatul efectelor secundare ale medicamentelor.
 
-In medicina herbala nu exista o doza standard a unui medicament individual, dar se poate da o doza specifica din partea plantei folosite, sau din toata planta. Ideea principala este ca planta este un organism dinamic. Iti aduc  aminte de faptul ca plantele sunt mai complicate decat animalele din punct de vedere metabolic.Ele respira si au fotosinteza.Desi nu se pot deplasa in cautarea hranei, ele absorb apa, minerale si lumina soarelui pentru a produce chimicale uimitoare. O parte din zi ele respira ca si animalele, iar in cealalta parte ele pur si simplu creeaza.
+In medicina herbala nu exista o doza standard a unui medicament individual, dar se poate da o doza specifica din partea plantei folosite, sau din toata planta. Ideea principala este ca planta este un organism dinamic. Iti aduc aminte de faptul ca plantele sunt mai complicate decat animalele din punct de vedere metabolic.Ele respira si au fotosinteza.Desi nu se pot deplasa in cautarea hranei, ele absorb apa, minerale si lumina soarelui pentru a produce chimicale uimitoare. O parte din zi ele respira ca si animalele, iar in cealalta parte ele pur si simplu creeaza.
 
 Desi cunoastem faptul ca plantele contin diferite substante pe care le cunoastem dupa nume, cantitatea in care se gasesc variaza in cursul unei zile conform cu etapa metabolismului in care se gasesc la momentul respectiv. Ele echilibreaza totul.
 
@@ -110,13 +110,13 @@ Urmatorul personaj important in discutia noastra este Samuel Thomson (1769-1843)
 
 Din nefericire, metoda lui Thomson, numita fiziomedicalism, a intampinat o rezistenta considerabila din partea Asociatiei Medicale Americane care era in curs de dezvoltare spre sfarsitul secolului al XIX-lea. Poate ar fi disparut complet daca nu ar fi fost dusa inapoi la radacinile ei de catre emigrantii spre Marea Britanie si Europa. Era o vreme a campurilor fertile, deoarece Revolutia Industriala a creat multe orase mari, fortand oamenii de la tara sa se mute la oras sa isi gaseasca de munca. Noii herbalisti si-au gasit repede o piata pentru abilitatile lor, deoarece oamenii de la tara tanjeau dupa tratamentelor lor vechi, respingand noile medicamente scumpe ale medicinei traditionale. Herbalismul a experimentat o popularitate inoita, culminand cu faptul ca teoria lui Thomson a fost adoptata ca filozofie de baza de catre o organizatie novice, Asociatia Nationala a Herbalistilor Medicinali.
 
-Aceasta este o istorie amestecata a medicinei herbale. Vei vedea ca metoda pe care o sa va invat este cel mai simplu sistem. Nu condamnati acest lucru\! Simplicitatea este cea care ativa da o baza ferma , pe care vei putea ulterior construi o structura solida. Faptul ca, dintr-un motiv sau altul, oamenilor le place sa faca lucrurile super complicate este un lucru trist. Asta poate fi din cauza ca exista un interes legitim intr-un anumit subiect. Daca subiectul poate fi facut sa para extrem de complicat, atunci cel care il stapaneste este vazut ca avand o mare intelepciune. Intr-adevar, intreaga esenta a herbalismului este nevoia de simplitate. Este inerent in sensul cuvantului „simplu”, care la orgini inseamna medicament sau remediu.Ia  aminte ca asta implica mentinerea ingredientelor cat mai simple\!
+Aceasta este o istorie amestecata a medicinei herbale. Vei vedea ca metoda pe care o sa va invat este cel mai simplu sistem. Nu condamnati acest lucru\! Simplicitatea este cea care ativa da o baza ferma , pe care vei putea ulterior construi o structura solida. Faptul ca, dintr-un motiv sau altul, oamenilor le place sa faca lucrurile super complicate este un lucru trist. Asta poate fi din cauza ca exista un interes legitim intr-un anumit subiect. Daca subiectul poate fi facut sa para extrem de complicat, atunci cel care il stapaneste este vazut ca avand o mare intelepciune. Intr-adevar, intreaga esenta a herbalismului este nevoia de simplitate. Este inerent in sensul cuvantului „simplu”, care la orgini inseamna medicament sau remediu.Ia aminte ca asta implica mentinerea ingredientelor cat mai simple\!
 
-Acesta este un aspect important. Combinatii complexe de ierburi pot produce reactii complexe ce nu pot fi prevazute. Opteaza  pentru cat mai putine ierburi odata. Un alt aspect deosebit este intelegerea limitarilor noastre ca herbalisti. Medicina moderna Hi-Tec isi are locul ei. Chiar daca avem semnale de pericol, ca de exemplu o pierdere in greutate severa, pacientul trebuie trimis la doctorul sau pentru teste inainte de a incepe orice tratament herbal.
+Acesta este un aspect important. Combinatii complexe de ierburi pot produce reactii complexe ce nu pot fi prevazute. Opteaza pentru cat mai putine ierburi odata. Un alt aspect deosebit este intelegerea limitarilor noastre ca herbalisti. Medicina moderna Hi-Tec isi are locul ei. Chiar daca avem semnale de pericol, ca de exemplu o pierdere in greutate severa, pacientul trebuie trimis la doctorul sau pentru teste inainte de a incepe orice tratament herbal.
 
 Urmatoarele trei ierburi
 
-In prima lectie am vazut **musetelul si tataneasca**. Musetelul, dupa cum cred ca ti-ai  dat seama, este o planta de racire. Vom vedea acum inca trei ierburi comune, una rece si doua calde.
+In prima lectie am vazut **musetelul si tataneasca**. Musetelul, dupa cum cred ca ti-ai dat seama, este o planta de racire. Vom vedea acum inca trei ierburi comune, una rece si doua calde.
 
 Din nou, nu am de gand sa intru in detaliu in legatura cu ele. Vreau sa intelegi proprietatile lor de incalzire/racire.
 

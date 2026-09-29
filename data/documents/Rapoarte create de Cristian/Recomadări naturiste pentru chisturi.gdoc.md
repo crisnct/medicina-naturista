@@ -36,8 +36,8 @@ Mucusul în exces în organism rezulta de multe ori din descompunerea parțială
 
 Alte surse de potasiu: mușchi irlandez , rostopasca , iarba mare ,urzica , radacina de pleurezie, guma , coaja de cires salbatic, mere ( fructe , scoarță de copac cidru de mere, oțet )
 
-[https://www.tratamentnaturist.com.ro/studii-de-caz/tratament-naturist-chist-cerebral.html](https://www.tratamentnaturist.com.ro/studii-de-caz/tratament-naturist-chist-cerebral.html?fbclid=IwAR1_f5LqlJ4nCY9mCUBhoXVqQWz6uSbWHXgJaC-0ZlfNt6BEMmNAiRl_N60)
 
- 
 
-Alga AFA face ca chistul sa se resoarba [https://www.emag.ro/afa-medica-60-capsule-ayurvedic-medica-supliment-pentru-renerare-celulara-ay-54/pd/DH1003MBM/?cmpid=86985\&gclid=Cj0KCQiAvbiBBhD-ARIsAGM48bxaG02Ywj4H9cR7Ft6tZMIGnL3zc7lox1KW2xmPyiLDyI\_IytZRsEMaAs23EALw\_wcB](https://www.emag.ro/afa-medica-60-capsule-ayurvedic-medica-supliment-pentru-renerare-celulara-ay-54/pd/DH1003MBM/?cmpid=86985&gclid=Cj0KCQiAvbiBBhD-ARIsAGM48bxaG02Ywj4H9cR7Ft6tZMIGnL3zc7lox1KW2xmPyiLDyI_IytZRsEMaAs23EALw_wcB&fbclid=IwAR3-XaZg1XCbP5b-ecfooFZhvIM4j0r2sZrzqt2H5LcSAXUnQ20fgMbszjY)
+
+
+Alga AFA face ca chistul sa se resoarba

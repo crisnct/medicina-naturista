@@ -28,7 +28,7 @@ Homeopatia vine de la grecescul Homoios, însemnând "similar" și patos, in sen
 
 Remediul homeopat nu este dat în puterea deplină, cu toate acestea este dat într-o formă potenata. Acest lucru înseamnă că este dat într-o formă foarte diluata, dar foarte activă. Această idee a potentarii deruteaza mulți oameni.În esență, remediile sunt pregătite într-o succesiune de diluții, fiecare dintre ele fiind puternic agitata. Fiecare potentare succesiva produce un remediu mai diluat, dar cu o mai mare energie.
 
-Două scări de potenta sunt utilizate.Scara zecimală și scara centezimala.Scară zecimală înseamnă că, la fiecare potentare, căile de atac sunt diluate 1:10.Scara centezimala înseamnă că remediile se diluează până la 1:100 cu fiecare potentare. Căile de atac la scară zecimale sunt disponibile în mai multe magazine de profil. Remediile sunt etichetate ca un D sau un X. De obicei se vede un remediu etichetat ca 6D sau X. Acest lucru înseamnă că a trecut prin șase concentrații pe scara zecimală. Se vad, de asemenea, remediile centezimale etichetate cu un C. Remediile centezimale  cel mai frecvent utilizate sunt 6C, 30C și 200C.Cel mai frecvent vândut în farmacie este remediul 6C. In învățarea și folosirea homeopatiei remedii simple, nu se poate merge prea departe greșind 6X sau 6C.
+Două scări de potenta sunt utilizate.Scara zecimală și scara centezimala.Scară zecimală înseamnă că, la fiecare potentare, căile de atac sunt diluate 1:10.Scara centezimala înseamnă că remediile se diluează până la 1:100 cu fiecare potentare. Căile de atac la scară zecimale sunt disponibile în mai multe magazine de profil. Remediile sunt etichetate ca un D sau un X. De obicei se vede un remediu etichetat ca 6D sau X. Acest lucru înseamnă că a trecut prin șase concentrații pe scara zecimală. Se vad, de asemenea, remediile centezimale etichetate cu un C. Remediile centezimale cel mai frecvent utilizate sunt 6C, 30C și 200C.Cel mai frecvent vândut în farmacie este remediul 6C. In învățarea și folosirea homeopatiei remedii simple, nu se poate merge prea departe greșind 6X sau 6C.
 
 Homeopatia este utilizata pentru a trata individul, nu starea. Mai mult, aceasta este utilizatapentru a trata experiența individuală a bolii.Vom explica acest lucru printr-un exemplu. Să presupunem că ai avut cinci persoane care suferă de artrită. Un medic ortodox ar putea da aceleasi cinci medicamente tuturor. Un homeopat s-ar uita lamodul în care boala i-a afectat pe cei cinci oameni și sa dea un remediu adecvat individului. Pentru a face acest lucru, el s-ar uita la tipul de durere, lucrurile care au făcut mai bine, cele care au adancit-o și așa mai departe. Unii oameni s-au simtit mai bine miscandu-se, altii mai bine stand pe loc. Cele două tipuri ar avea nevoie de căi de atac foarte diferite.
 
@@ -40,7 +40,7 @@ Sistemul cunoscut sub numele de aromoterapie a fost dezvoltat în timpul primulu
 
 Există foarte multe uleiuri, cu indicații diferite. Deși nu este la fel de complicat ca prescrierea homeopatica, aromaterapia depinde de folosirea uleiului potrivit. Costa mult sa produci uleiuri, de multe ori acestea fiind făcute prin distilare. Ca si homeopații, aromoterapeuții folosesc adesea doze foarte mici. Cu toate acestea, trebuie sa ințelegi că aromaterapeutii utilizează cantități reale ale uleiurilor, în vreme ce homeopatii vor folosi de multe ori remedii care au fost diluate atât de mult, încât este puțin probabil să ramana chiar și o singură moleculă în cadrul remediului. Atât remediile homeopate, cat și aromaterapeuticele par să lucreze la capacitatea de vindecarea subtilă a individului. Uleiurile pot fi folosite direct pe piele, ca masaj, ca inhalatii sau puse in apa de baie.
 
-**REMEDIILE FLORALE BACH** 
+**REMEDIILE FLORALE BACH**
 
 **Remediile florale Bach sunt medicamente preparate din flori, care trateaza stări emoționale și mentale negative, care sunt comune in viata.** Dr. Edward Bach a fost consultant Harley Street de succes în anii 1930, care a devenit deziluzionat de medicina moderna. El era convins că natura are răspunsul la atât de multe stari negative ale mintii. În consecință, el a renunțat la practica sa și s-a stabilit în Oxfordshire, unde a început căutarea lui pentru remedii în mijlocul pădurii, câmpurilor și gardurilor vii englezesti.
 
@@ -52,11 +52,11 @@ A doua metodă este prin fierbere. Acest lucru este folosit pentru optsprezece r
 
 PLANTE HOMEOPATE
 
- Aminteste-ti  că potentarea 6C este ideala atunci când începem cu homeopatia. Într-adevăr, cu cat analizezi mai mult subiectul, cu atat vei realiza că nu există nicio politică națională sau internațională privind potentarea. Unii oameni folosesc potențari foarte mari tot timpul, altii nu folosesc decat 6C, iar alții folosesc o gama întreaga. Remediile sunt disponibile ca pulberi, granule, pilule si comprimate.Comprimatele sunt convenabile in majoritatea situațiilor.
+ Aminteste-ti că potentarea 6C este ideala atunci când începem cu homeopatia. Într-adevăr, cu cat analizezi mai mult subiectul, cu atat vei realiza că nu există nicio politică națională sau internațională privind potentarea. Unii oameni folosesc potențari foarte mari tot timpul, altii nu folosesc decat 6C, iar alții folosesc o gama întreaga. Remediile sunt disponibile ca pulberi, granule, pilule si comprimate.Comprimatele sunt convenabile in majoritatea situațiilor.
 
-Există câteva puncte de apreciat în luarea de comprimate: 
+Există câteva puncte de apreciat în luarea de comprimate:
 
-1\. Comprimatele nu trebuie să fie luate cu mana, ci ar trebui să fie scoase cu o lingura. Ele sunt apoi introduse în gură.Vărsarea sau orice atingere le inactivează și ar trebui să fie aruncate. 
+1\. Comprimatele nu trebuie să fie luate cu mana, ci ar trebui să fie scoase cu o lingura. Ele sunt apoi introduse în gură.Vărsarea sau orice atingere le inactivează și ar trebui să fie aruncate.
 
 2\. Comprimatele sunt absorbite prin mucoasa orala, asa ca acestea ar trebui să fie supte, nu înghițite.
 
@@ -64,13 +64,13 @@ Există câteva puncte de apreciat în luarea de comprimate:
 
  4\. Comprimatele trebuie luate două la un moment dat, de trei ori pe zi, în cazurile acute si, treptat, reduse la de două ori pe zi, cand starea se îmbunătățește și oprite atunci când îmbunătățirea a avut loc cu adevărat. În boli acute, remediile se pot lua la fiecare jumătate de oră, dar reducand treptat frecvența dozei și îmbunătățirea va aparea.
 
-Remediile  homeopate acționează prin susținerea puterii de vindecare înnăscută a organismului. Gandeste-te ca fiind analog cu a împinge o masina care nu merge. Remediul este ca puterea care face ca motorul mașinii să porneasca. Cu toate acestea, odată ce mașina se află în mișcare nu mai este nevoie sa o împingi. Astfel, odată ce apare îmbunătățirea, începi sa opresti tratamentul. În acest spațiu mic, nu putem oferi o descriere detaliată a remediilor. Tot ceea ce vom face este sa observam unele plante homeopatesi  indicațiile lor principale.
+Remediile homeopate acționează prin susținerea puterii de vindecare înnăscută a organismului. Gandeste-te ca fiind analog cu a împinge o masina care nu merge. Remediul este ca puterea care face ca motorul mașinii să porneasca. Cu toate acestea, odată ce mașina se află în mișcare nu mai este nevoie sa o împingi. Astfel, odată ce apare îmbunătățirea, începi sa opresti tratamentul. În acest spațiu mic, nu putem oferi o descriere detaliată a remediilor. Tot ceea ce vom face este sa observam unele plante homeopatesi indicațiile lor principale.
 
 **Aconite** (Aconitum napellus) \-este o plantă otrăvitoare, care este utilizata homeopatic pentru primaetapă de congestie, raceli, etc, este excelenta atunci cand cineva a avut un șoc sau o rănire grava.
 
 **Arnica** (Arnica Montana) Acest remediu a fost folosit de către alpinisti timp de mulți ani.Frunzele sunt cunoscute pentru rezultatele bune in cazul durerilor. In domeniul homoeopat, arnica este numita vindecatorul. Este un remediu de neegalat in vindecarea vânătăilor, entorselor și chiar a fracturilor. Aceasta este disponibila în forma orală, cat și locala. Când este utilizata ca un remediu local, pielea nu trebuie să fie rupta.
 
-**Belladonna** Aceasta este, de asemenea, cunoscuta sub numele de Nightshade Deadly, una dintre cele mai otrăvitoare plante. Atunci când este utilizat homoeopat este excelenta pentru gatul inflamat și alte infecții acute , care se manifesta prin înroșirea feței , pupile dilatate și febrilitate. Acesta este remediul clasic pentru amigdalita. 
+**Belladonna** Aceasta este, de asemenea, cunoscuta sub numele de Nightshade Deadly, una dintre cele mai otrăvitoare plante. Atunci când este utilizat homoeopat este excelenta pentru gatul inflamat și alte infecții acute , care se manifesta prin înroșirea feței , pupile dilatate și febrilitate. Acesta este remediul clasic pentru amigdalita.
 
 NOTĂ: Aceste simptome acute ar putea fi semne ale unei infectii mai grave, cum ar fi meningita, deci ar trebui sa fie solicitat întotdeauna sfatul medicului. Utilizarea Belladonnei până la sfatul de specialitate nu poate cauza niciun rau.
 
@@ -90,7 +90,7 @@ Acesta este un bun remediu pentru Myalgic Encepahalomyelitis (ME) sau Sindromul 
 
 **Drosera** (Drosera rotundifolia) E indicata pentru tuse spasmodica, cu voce ragusita.Persoana respectiva s-ar putea plânge că patul se simte întotdeauna prea tare.
 
-**Gelsemium** (iasomie galbena) Acesta este una dintre cele mai bune căi de atac impotriva gripei. Atunci când e bolnav, individul se duce la culcare, are fiori și nu este în măsură să își desfășoare activitățile normale. 
+**Gelsemium** (iasomie galbena) Acesta este una dintre cele mai bune căi de atac impotriva gripei. Atunci când e bolnav, individul se duce la culcare, are fiori și nu este în măsură să își desfășoare activitățile normale.
 
 **Hamamelis** (Hamamelis virginica) E foarte bun pentru hemoroizi, varice si degeraturi.
 
@@ -108,13 +108,13 @@ Acesta este un bun remediu pentru Myalgic Encepahalomyelitis (ME) sau Sindromul 
 
 **Staphisagria** (Stavesacre) Acesta este un remediu care este foarte bun pentru atenuarea bolilor care se vindeca lent, după tăiere de exemplu, sau a cicatricilor post-operatorii. De asemenea, e util pentru durerea de dinți, durerile de spate . E un bun remediu pentru persoanele furioase.
 
-**Urtica** (Urtica urens) \- urzica Este foarte buna pentru afectiuni alergice ale pielii, probleme alergice însoțite de mâncărime și de ardere, precum și unele tipuri de dureri reumatice cu arsuri. 
+**Urtica** (Urtica urens) \- urzica Este foarte buna pentru afectiuni alergice ale pielii, probleme alergice însoțite de mâncărime și de ardere, precum și unele tipuri de dureri reumatice cu arsuri.
 
 **ULEIURI PENTRU AROMOTERAPIE** Vom studia și cunoaste o parte uleiurile cele mai comune, folosite in aromoterapie.Ele pot fi ușor încorporate în repertoriul tau și sunt ușor de utilizat.
 
  Notă: Acestea nu sunt pentru uz intern\! Pentru inhalatii e nevoie doar de 1 sau 2 picaturi la un bol de apă caldă. Când masam pielea, se diluează uleiul cu un ulei intermediar. În general, 2 \- 4 picaturi de ulei la 10ml. Masajul de trei până la cinci minute este ,în general, suficient. Atunci când masam pentru o problemă cu circulatia, se fac lovituri de masaj în direcția inimii.Atunci când masam pe o suprafață mică, uleiul poate fi folosit ca atare. Pentru baie, 6-10 picături ar trebui să fie suficiente.
 
-Te rog  să reții ca nu poti face abuz. Fixeaza-ti ideea că nu trebuie să utilizezi  cantități mari. Vorbim de picături în aromoterapie. Dacă te indoiesti de cantitatea ce trebuie folosita, utilizeaza  mai degrabă mai puține, decât mai multe. La copii și vârstnici, numai jumătate din cantitatea normală ar trebui să fie utilizata.
+Te rog să reții ca nu poti face abuz. Fixeaza-ti ideea că nu trebuie să utilizezi cantități mari. Vorbim de picături în aromoterapie. Dacă te indoiesti de cantitatea ce trebuie folosita, utilizeaza mai degrabă mai puține, decât mai multe. La copii și vârstnici, numai jumătate din cantitatea normală ar trebui să fie utilizata.
 
 **Busuioc**Acesta este un ulei stimulant si tonic. Este util pentru depresie, anxietate,probleme digestive și respiratorii.
 
@@ -132,7 +132,7 @@ Te rog  să reții ca nu poti face abuz. Fixeaza-ti ideea că nu trebuie să uti
 
 **Isop** Acestaeste la fel ca uleiul de eucalipt. E foarte bun pentru guturai și probleme de respirație.
 
-**Juniper**  Acesta este relaxant. E foarte bun pentru problemele de somn și anxietate generala.
+**Juniper** Acesta este relaxant. E foarte bun pentru problemele de somn și anxietate generala.
 
 **Levantica** Acesta este relaxant. E bun pentru depresie si anxietate, probleme digestive.
 
@@ -218,7 +218,7 @@ Te-as sfătui să studiezi aceste remedii indeaproape. În opinia mea, nimeni nu
 
 **Mimulus** Frica de boală, sărăcie, călătorie, etc .Frica de un lucru specific.
 
-**Muștar** Pentru depresia neagra care vine brusc, ca o perdea. 
+**Muștar** Pentru depresia neagra care vine brusc, ca o perdea.
 
 **Stejar** Pentru cei care se luptă in orice circumstanță. Poate fi de multe ori o corvoadă atunci când mintea și corpul lor au nevoie de o perioadă de odihnă. Ei nu recunosc senzația de rău. Atunci când nu pot să facă față sunt furiosi pe ei înșiși\!
 
@@ -228,8 +228,8 @@ Te-as sfătui să studiezi aceste remedii indeaproape. În opinia mea, nimeni nu
 
 **Red Chestnut** Teama ca ceva se intampla persoanei iubite. A nu se confunda cu cicoarea.
 
-**Rock Rose** Pentru teroare, panica, frica extrema. Foarte bun pentru coșmaruri  și lucruri care au urmat accidentelor sau traumatismelor.
+**Rock Rose** Pentru teroare, panica, frica extrema. Foarte bun pentru coșmaruri și lucruri care au urmat accidentelor sau traumatismelor.
 
-**REMEDIU DE SALVARE** 
+**REMEDIU DE SALVARE**
 
 Dr. Bach a pledat pentru utilizarea unui tratament compozit (care este vandut direct), pe care l-a numit Remediu de Salvare. Aceasta constă in următoarele: \- Cherry Plum, Clematis, Impatiens, Rock Rose și SteauaBetleem. Acesta este utilizat în situații de urgență pentru șoc, traumatism, vesti proaste, etc . E ceva care ar trebui să fie în cabinetul tau. Se folosesc 4 picaturi si poate fi, de asemenea, utilizat ca un singur ingredient într-o sticlă de tratament.

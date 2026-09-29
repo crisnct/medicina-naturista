@@ -20,7 +20,7 @@ Curs 5
 
 Pentru majoritatea oamenilor, cuvântul "tonic" evocă o imagine a unui agent medical care este luat pentru a consolida sistemul. Oamenii merg la medic cand se simt daramati și au nevoie de un fel de impuls. La un moment dat , un tonic care contine diverse substanțe chimice, va fi prescris. Lucruri cum ar fi stricnina au fost utilizate în mod obișnuit, ca si leacurile amare de degustare și coloranții. A fost aproape o confirmare că tonicele nu erau mai mult decat placebo.
 
-**Tonicele**  au efect, cu toate acestea, atunci când acestea sunt realizate și luate în mod corespunzător.**În fitoterapie dăm tonice pentru tonifierea, consolidarea sau restabilirea functiei**. In aceasta ultima funcție, ele sunt mai degrabă ca niste agenți hormonali, care reechilibreaza metabolismul. Aceasta va da siguranță inceptorului pentru a-si reîmprospăta cunoșterea asupra glandelor endocrine ale corpului, hormonilor pe care ii produc și efectele acestor hormoni.
+**Tonicele** au efect, cu toate acestea, atunci când acestea sunt realizate și luate în mod corespunzător.**În fitoterapie dăm tonice pentru tonifierea, consolidarea sau restabilirea functiei**. In aceasta ultima funcție, ele sunt mai degrabă ca niste agenți hormonali, care reechilibreaza metabolismul. Aceasta va da siguranță inceptorului pentru a-si reîmprospăta cunoșterea asupra glandelor endocrine ale corpului, hormonilor pe care ii produc și efectele acestor hormoni.
 
 Trei tonice hormonale
 
@@ -30,11 +30,11 @@ Bladderwrack (Fucus vesiculosus), **Kelp**, de asemenea, numit sau PopperSea-Wee
 
 Aspect: alge marine brune comune, găsite pe jumătate acoperite cu pietre , pe litoral.
 
-Actiune: Aceste alge marine sunt bogate în iod și alte minerale. Ele au fost folosite ca laxativ, tonic, agent de slăbire, precum și stabilizator al glandei tiroide. Aceasta înseamnă că este capabil să echilibreze  glanda tiroida. Acesta stimuleaza glanda în hipotiroidism și încetinește in hipertiroidism. De asemenea, este eficient in afectiuni reumatismale, care au nevoie de un remediu pentru încălzire.
+Actiune: Aceste alge marine sunt bogate în iod și alte minerale. Ele au fost folosite ca laxativ, tonic, agent de slăbire, precum și stabilizator al glandei tiroide. Aceasta înseamnă că este capabil să echilibreze glanda tiroida. Acesta stimuleaza glanda în hipotiroidism și încetinește in hipertiroidism. De asemenea, este eficient in afectiuni reumatismale, care au nevoie de un remediu pentru încălzire.
 
 Ca tonic este bun pentru condiții caracterizate prin tembelism, congestie și ceea am descris deja ca fiind condiții de frig.
 
-Metoda: Acesta este disponibil în magazinele naturiste, sub forma de comprimate. Cu toate acsetea, nu se da un tratament prelungit. Se ia maxim o lună , facand apoi o pauză de cel puțin inca o luna. Pot fi luate până la trei tablete pe zi, în doza  de 5-10 grame echivalentul plantei uscate. În constipație, extractul praf poate fi luat într-o doză de 5ml , până la trei linguri pe zi.
+Metoda: Acesta este disponibil în magazinele naturiste, sub forma de comprimate. Cu toate acsetea, nu se da un tratament prelungit. Se ia maxim o lună , facand apoi o pauză de cel puțin inca o luna. Pot fi luate până la trei tablete pe zi, în doza de 5-10 grame echivalentul plantei uscate. În constipație, extractul praf poate fi luat într-o doză de 5ml , până la trei linguri pe zi.
 
 **Lemnul dulce** (Glycyrrhiza glabra)
 
@@ -54,7 +54,7 @@ Durată de viață: anual
 
 Aspect: O cultură înaltă, cu flori albastre, în grupuri terminale de creștere. Produce semințe mici ovale, galbene, din care este pregătit uleiul.
 
-Acțiune: Acesta este un tonic excelent pentru relaxare in caz de oboseală și în menopauza. Acesta este bogat în fito-estrogeni,care sunt compuși ce seamănă cu estrogenul feminin.Studiile de cercetare au arătat că, atunci când capsulele de ulei din semințe de in sunt luate în mod regulat de către femeile aflate la menopauza, există o reducere semnificativă în înroșirea feței și a uscăciunii vaginale. Acestea sunt de fapt cele doua simptome reale ale menopauzei, care pot  fi puse pe seama lipsei de estrogen.Acesta este un laxativ bun si usureaza spasmul sindromului de colon iritabil.Este bun pentru calmarea tusei uscate sau iritate.
+Acțiune: Acesta este un tonic excelent pentru relaxare in caz de oboseală și în menopauza. Acesta este bogat în fito-estrogeni,care sunt compuși ce seamănă cu estrogenul feminin.Studiile de cercetare au arătat că, atunci când capsulele de ulei din semințe de in sunt luate în mod regulat de către femeile aflate la menopauza, există o reducere semnificativă în înroșirea feței și a uscăciunii vaginale. Acestea sunt de fapt cele doua simptome reale ale menopauzei, care pot fi puse pe seama lipsei de estrogen.Acesta este un laxativ bun si usureaza spasmul sindromului de colon iritabil.Este bun pentru calmarea tusei uscate sau iritate.
 
 Metoda: Acesta este disponibil sub formă de capsule la cele mai multe magazine naturiste,doza fiind una,pana la trei capsule pe zi.Atunci când este aplicat la nivel local pentru infectii ale pielii este bun in vindecarea infectiei.
 

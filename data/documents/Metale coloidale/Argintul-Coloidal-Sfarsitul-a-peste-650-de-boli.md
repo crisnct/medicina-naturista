@@ -1,4 +1,4 @@
-![](media/image1.png){width="2.084722222222222in" height="1.4277777777777778in"}
+!{width="2.084722222222222in" height="1.4277777777777778in"}
 
 **Argintul Coloidal**
 

@@ -16,7 +16,7 @@ status: "ok"
 ### Pagina 1
 
 31.05.2015 Cum sunt trataţi fisurilor anale?
-http://www.mavicevap.com/medi/ro/488.html 1/5
+ 1/5
 Medicament
 Medicament
 Simptomele fisurilor anale
@@ -58,7 +58,7 @@ Doza de nitroglicerină este adesea limitată de efectele secundare. Ef
 ### Pagina 2
 
 31.05.2015 Cum sunt trataţi fisurilor anale?
-http://www.mavicevap.com/medi/ro/488.html 2/5
+ 2/5
 de cap (din cauza dilatarea vaselor de sânge în cap) sau stare de confuzie (din cauza la o scădere a
 tensiunii arteriale). Acest autor recomandă ca o cantitate mica de unguent trebuie aplicat la un tampon de
 bumbac cu vârf cu tamponul, apoi introdus în anus numai pentru adâncimea de bumbac din aliaj dur
@@ -108,7 +108,7 @@ capătul distal sale cele mai la marginea anala si extinderea în can
 ### Pagina 3
 
 31.05.2015 Cum sunt trataţi fisurilor anale?
-http://www.mavicevap.com/medi/ro/488.html 3/5
+ 3/5
 fisurii. Tăiate se poate extinde la linia de crestat, dar nu mai departe. Sfincterul poate fi împărţită într­o
 închisă (percutanată ) moda de tunel sub anoderm sau într­un mod deschis de tăiere prin intermediul
 anoderm. Tăiate se face pe partea stângă sau partea dreaptă a anusului, de unde şi numele “parţială
@@ -152,12 +152,12 @@ intindere a căzut în dizgraţia.
 ### Pagina 4
 
 31.05.2015 Cum sunt trataţi fisurilor anale?
-http://www.mavicevap.com/medi/ro/488.html 4/5
+ 4/5
 
 ### Pagina 5
 
 31.05.2015 Cum sunt trataţi fisurilor anale?
-http://www.mavicevap.com/medi/ro/488.html 5/5
+ 5/5
 Articole
 Care sunt cauzele fisurilor anale?
 Fisuri anale

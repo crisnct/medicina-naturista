@@ -1,4 +1,4 @@
-Visit http://ConspiracyHub.com for more Conspiracy and Christian content.
+Visit for more Conspiracy and Christian content.
 
 In this extremely informative video, fifteen people, including Dr. Viera Scheibner (a PhD researcher), five medical doctors, other researchers, reveal what is really going on in relation to illness and vaccines. Ironically, the important facts come from the orthodox medicine's own peer-reviewed research.
 
@@ -42,4 +42,4 @@ And this from Dr. Archie Kalokerinos, author of the book \"Every Second Child\":
 
 If you are in the frustrating position of wanting to inform your spouse, friends and/or relatives about vaccination, but they won't read appropriate literature, then this video is ideal. It is clear and logical and an eye-opener. Every doctor should see and respond to it.
 
-http://www.vaccination.inoz.com/vidreview.html
+

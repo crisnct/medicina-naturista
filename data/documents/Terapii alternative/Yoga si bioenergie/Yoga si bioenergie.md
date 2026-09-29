@@ -228,7 +228,7 @@ Unde se va sfârsi această deformare a Crestinismului si triumful hinduismului?
 
 extrase din cartea "ORTODOXIA SI RELIGIA VIITORULUI" de Ieromonah SERAFIM ROSE
 
-http://www.sfaturiortodoxe.ro/yoga/religiaviitorului.htm
+
 
 Marturia unui tanar care a practicat yoga si tehnici de bioenergie
 
@@ -672,6 +672,6 @@ Fie ca Dumnezeu să ne păzească de lepădarea de credintă a Antihristului ce 
 
 Părintele Basile Sakkas
 
-http://www.sfaturiortodoxe.ro/yoga
 
-Pe pagina http://www.sfaturiortodoxe.ro/yoga/jurnalulconvertirii.htm se gaseste cartea intitualata JURNALUL CONVERTIRII De la zeita mortii la Împăratul Vietii" scrisa de preot prof. Danion Vasile.
+
+Pe pagina se gaseste cartea intitualata JURNALUL CONVERTIRII De la zeita mortii la Împăratul Vietii" scrisa de preot prof. Danion Vasile.

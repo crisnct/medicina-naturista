@@ -9,7 +9,7 @@ Unele produse din plante consumate împreună cu medicamente antiinflamatoare po
   Unu din zece a consumat produse care prezintă interacţiuni cu medicamentele convenţionale, dintre care echinaceea creşte riscul hepatotoxicităţii atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba şi usturoiul pot precipita hemoragii dacă sunt administrate în acelaşi timp cu antiinflamatoare steroidiene şi nesteroidiene.\
   Mulţi dintre pacienţi erau miraţi că s-au expus singuri la un asemenea risc, iar alţii se gândeau că ar fi fost mai bine să consulte şi un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potenţial periculoase ale preparatelor din plante, iar pacienţii neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în acelaşi timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
 
-http://postamedicala.ro/content/view/261/48/
+
 
 **Medicamentul-minune împotriva obezităţii dar şi a fumatului**
 ===============================================================
@@ -21,13 +21,13 @@ Medicamentul-minune care combate atât obezitatea cât şi fumatul ar putea apă
 Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al anului în curs cererea pentru autorizarea punerii în vânzare a preparatului **Rimonabant.\
 **Atenţie, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, şi chiar s-au dovedit periculoase, aşa cum a fost cazul cu Isomeride.
 
-<http://postamedicala.ro/content/view/63/48/>
+<
 
 **Mustar alb**: diabet, hipertensiune, insomnie, constipatie, reumatism, anorexie.
 
 semintele constipatie, infuzie din frunze, flori si seminte hipertensiune
 
-http://www.liis.ro/hosted/atestate/medicinale/mustar%20alb.htm
+
 
 #### Tratarea reumatismului pe cale naturista
 
@@ -72,9 +72,9 @@ Cine nu isi poate permite sa mearga la tratament si-l poate face singur acasa, c
 
 Liliana SIMIDON
 
-http://www.revistavedete.ro/reumatism.html
+
 
 **EDEMELE PICIOARELOR**\
 4 linguri seminte de in se pun intr-un litru de apa. Se fierb 10 minute, se acopera, se lasa 1 ora si se adauga suc de lamaie. Se bea cate un pahar la 2 ore, timp de 2, 3 zile.
 
-http://www.ziarulcn.com/index.php?pid=print\_version&aid=7702
+

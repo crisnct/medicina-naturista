@@ -6,7 +6,7 @@
 
 **Paradigma Medicala a *Dr. Ryke Geerd Hamer***
 
-![](media/image1.png){width="2.046527777777778in" height="2.738888888888889in"}*\
+!{width="2.046527777777778in" height="2.738888888888889in"}*\
 *
 
 *By Caroline Markolin, Ph.D., Vancouver, Canada*
@@ -27,7 +27,7 @@ Dr. Hamer a fost persecutat si hartuit timp de 25 ani, in special de catre autor
 
 Dr. Hamer a stabilit ca „orice boala este cauzata de un soc emotional care surprinde individul total nepregatit\" (**Prima Lege Biologica**). In onoarea fiului sau , Dr. Hamer a denumit acest incident stresant: Dirk Hamer Syndrome, sau DHS. Psihologic vorbind, DHS este un incident foarte personal, conditionat si determinat de experientele noastre trecute, de vulnerabilitati, de perceptiile personale, de valorile si credintele personale. Cu toate acestea, DHS nu este doar un conflict emotional, ci si biologic, care trebuie inteles in contextul evolutiei noastre personale. Animalele experimenteaza aceste socuri biologice in urma pierderii bruste a cuibului sau teritoriului, a pierderii unui pui, a separarii de partener sau de grup, a unei amenintari nesteptate, a unei perioade de nemancare sau a unei amenintari de moarte.
 
-![](media/image2.png){width="6.145833333333333in" height="5.302083333333333in"}
+!{width="6.145833333333333in" height="5.302083333333333in"}
 
 Un barbat, de exemplu, poate suferi un soc conflictual de „pierdere a teritoriului\" , cand isi pierde casa sau locul de munca, pe neasteptate; pentru o femeie, un soc conflictual „in camin\" poate fi o grija pentru binele unuia dintre membrii familiei; un soc conflictual de tipul „abandonului\" poate fi declansat de un divort neprevazut sau de o spitalizare de urgenta; copii sufera deseori un soc conflictual „de separare\", cand mama se decide sa se intoarca la munca sau cand se despart parintii.
 
@@ -37,7 +37,7 @@ Motivul pentru care diferitele conflicte sunt legate indisolubil de anumite zone
 
 Cercetarile medicale ale Dr. Hamer sunt strans legate de embriologie, pentru ca, indiferent de felul in care organul raspunde unui conflict, fie prin dezvoltarea unei tumori, prin deteriorarea tesutului sau prin dereglarea functionarii, toate acestea sunt determinate de stratul embrionic al germenului din care provin atat organul, cat si tesutul cerebral corespondent (**A treia Lege Biologica**).
 
-![](media/image3.png){width="6.670138888888889in" height="4.163194444444445in"}
+!{width="6.670138888888889in" height="4.163194444444445in"}
 
 GNM \"Ontogenetic System of Tumors\" (Sistemul Ortogenetic al tumorlor) ilustreza ca organele controlate de „vechiul creier\" care deriva din endoderm sau *vechiul creier* mesoderm, precum plamanii, ficatul, colonul, prostata, uterul, pielea in profunzimea ei, pleura, peritoneul, pericardul, glandele mamare, etc., genereaza intotdeauna proliferare celulara, imediat ce conflictul corespondent are loc la nivelul creierului.
 
@@ -97,7 +97,7 @@ In felul in care *creierul vechi* controleaza cancerul, cresterea tumorala nu es
 
 **Cu conditia ca procesul de vindecare sa nu fie intrerupt de medicamente sau de o revenire a conflictului soc, aceste tumori dispar pana la urma, pana la sfarsitul procesului de vindecare.**
 
-![](media/image4.jpeg){width="2.671527777777778in" height="3.0in"}
+!{width="2.671527777777778in" height="3.0in"}
 
 Al doilea tip de cancer mamar, *carcinom in situ* (DCIS), intra de asemenea in aceasta categorie. In timp ce un cancer de san este un indicator ca femeia este in faza activa a conflictului de tip *grija*, un *cancer in situ* este un semn pozitiv ca problema asociata *conflictului de separare* a fost rezolvata. O femeie nu face un cancer de san fara motiv! Asa cum nici faptul ca el se dezvolta exact in sanul stang nu este o coincidenta.
 
@@ -151,7 +151,7 @@ Tot asa cum se rupe un os, scopul programului biologic (al *bolii*) apare la sfa
 
 Odata ce conflictul a fost rezolvat, leziunile cerebrale impreuna cu psihicul si organul aferent intra in faza de vindecare. Odata cu repararea oricarei rani se dezvolta o edema (fluid in exces) pentru a oferi protectie tesutului cerebral ce este refacut. Pe tomografie, schimbarile sunt foarte usor de observat: vizibilele inelele concentrice dispar in edema si apar acum neclare si inchise la culoare. In momentul de varf al fazei de vindecare, atunci cand edemul cerebral atinge dimensiunea maxima, creierul declanseaza un scurt si puternic impuls care expulzeaza edema.
 
-![](media/image5.png){width="5.510416666666667in" height="3.0729166666666665in"}
+!{width="5.510416666666667in" height="3.0729166666666665in"}
 
 In terminologia GNM, aceasta reglare este denumita *Criza epileptica* (CE). In timpul crizei, intregul organism este aruncat, pentru scurt timp, intr-o stare de simpaticotonie (hiperstimularea sistemului nervos simpatic), retraind simptomele tipice fazei de conflict activ, cum ar fi transpiratie rece, extremitati reci, puls accelerat si greata. Intesitatea si durata acestei crize pre-programate este determinata de intensitatea si durata conflictului precedent.
 
@@ -177,9 +177,9 @@ Intelegand cele \"**Cinci Legi Biologice**\" ale cauzei si ale procesului de vin
 
 ***Caroline Markolin, Ph.D**.,*
 
-*Pentru mai multa informatie despre GNM vizitati* [http://germannewmed](http://germannewmed/)[icine.ca](http://icine.ca/)*.*
+*Pentru mai multa informatie despre GNM vizitati*
 
 (part 1) Interview with Doct. Ryke Geerd Hamer
 ==============================================
 
-<http://www.youtube.com/watch?v=BMhuVvL-jCE>
+<

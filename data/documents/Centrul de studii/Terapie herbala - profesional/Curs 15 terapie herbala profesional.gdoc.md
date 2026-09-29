@@ -14,7 +14,7 @@ embedded_image_payloads_removed: 0
 
 ## Conținut extras
 
-CURS 15 
+CURS 15
 
 Ierburi stimulente
 
@@ -28,7 +28,7 @@ Partea folosita : Fructele. Ardeiul iute poate fi recoltat inainte de a se coace
 
 Familia de plante : Solanaceae (familia zarnei).
 
-Descrierea plantei si cultivare : Ardeiul iute este o tufa ce alterneaza frunzele ovale cu cele in forma de lance; poate atinge inaltimi de peste 1 m. Florile sunt albe, iar fructul are forma ovala, sau elipsoida, cu varful ascutit. Fructul de ardei iute este rosu la maturitate si extrem de iute; de obicei,ardeii mai mici sunt mai iuti, iar semintele si vinisoarele interioare sunt mai iuti decat coaja. Cu cat ardeiul este mai mare, cu atat contine mai multa pulpa raportat la vinisoare si seminte, fiind din acest motiv mai putin iute pe ansamblu. Fructul are forma alungita, de obicei cu baza ascutita, si este lung in medie de cca. 7 cm si lat de 1 cm. Ardeii iuti se pot consuma cruzi sau uscati, copti sau necopti. Semintele lor uscate si macinate sunt folosite ca substitut al piperului. De asemenea, frunzele plantei se pot folosi pentru a aromatiza bauturile. 
+Descrierea plantei si cultivare : Ardeiul iute este o tufa ce alterneaza frunzele ovale cu cele in forma de lance; poate atinge inaltimi de peste 1 m. Florile sunt albe, iar fructul are forma ovala, sau elipsoida, cu varful ascutit. Fructul de ardei iute este rosu la maturitate si extrem de iute; de obicei,ardeii mai mici sunt mai iuti, iar semintele si vinisoarele interioare sunt mai iuti decat coaja. Cu cat ardeiul este mai mare, cu atat contine mai multa pulpa raportat la vinisoare si seminte, fiind din acest motiv mai putin iute pe ansamblu. Fructul are forma alungita, de obicei cu baza ascutita, si este lung in medie de cca. 7 cm si lat de 1 cm. Ardeii iuti se pot consuma cruzi sau uscati, copti sau necopti. Semintele lor uscate si macinate sunt folosite ca substitut al piperului. De asemenea, frunzele plantei se pot folosi pentru a aromatiza bauturile.
 
 Pregatire si depozitare : Ardeii se culeg si se asaza la uscat, la soare, intinsi pe suprafete plane. Cruzi se pot pastra destul de mult timp in locuri reci si uscate, protejati de lumina soarelui. Uscati sunt pastrati mult timp legati in ciorchini imensi si atarnati. Origine : Ardeiul iute este originar din America de Sud. Spre deosebire de alte condimente ardeiul iute este foarte usor de cultivat; de aceea cultivarea si utilizarea lor s-a raspandit in toata lumea, mai ales in regiunile cu climat tropical. Cel mai mare producator de ardei iuti este India. Cayenne , cunoscut si sub denumirea de Capsicum annuum si Capsicum frutescens , este o planta care face parte din familia ardeiului si se gaseste in America de sud. Cayenne contine vitamina C si potasiu.
 
@@ -50,57 +50,57 @@ Efecte secundare Din cauza gustului picant , cayenne nu este pentru toata lumea.
 
  1/2 lingurita pulbere de mustar (Brassica nigra; B. hirta)
 
- Mod de preparare: Pune pulberea in apa de baie fierbinte. 
+ Mod de preparare: Pune pulberea in apa de baie fierbinte.
 
 Administrare: pacientul trebuie sa stea in apa de baie fierbinte pe cat e posibil până ce transpira abundent. Trebuie supravegheat cu grija, astfel încât să nu leșine.
 
-**Tuse, tuberculoza** 
+**Tuse, tuberculoza**
 
 1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
-1-2 uncii pulbere de scoarță de Slippery Elm (Ulmus rubra) 
+1-2 uncii pulbere de scoarță de Slippery Elm (Ulmus rubra)
 
 1 felie de lamaie (Citrus limon)
 
  2 linguri de miere
 
- Mod de preparare: Se infuzezaa în 1 litru de apă clocotită si se pune intr-o sticla neastupata. 
+ Mod de preparare: Se infuzezaa în 1 litru de apă clocotită si se pune intr-o sticla neastupata.
 
 Dozare: se ia de la o lingurita la o lingura, în funcție de vârstă, ori de câte ori e necesar.
 
-**Alifie pentru congestie pulmonară, entorse** 
+**Alifie pentru congestie pulmonară, entorse**
 
-1 lingura pulbere de Cayenne (Capsicum frutescens; C. minim) 
+1 lingura pulbere de Cayenne (Capsicum frutescens; C. minim)
 
-1 halba otet de mere 
+1 halba otet de mere
 
 Mod de preparare: se fierbe timp de 10 minute într-un recipient închis, se pune in sticla fierbinte, fara sa se astupe.
 
  Administrare: se aplică pe zona în care este necesar, fără a masa prea mult.
 
-**Alifie pentru rani, contuzii, arsur**i 
+**Alifie pentru rani, contuzii, arsur**i
 
-28g Cayenne (Capsicum frutescens; C. minim) 
+28g Cayenne (Capsicum frutescens; C. minim)
 
-28g  de Golden Seal (Hydrastis Canadensis) 
+28g de Golden Seal (Hydrastis Canadensis)
 
-56g  guma de Mir (Commiphora myrrha, var. Molmol)
+56g guma de Mir (Commiphora myrrha, var. Molmol)
 
  Mod de preparare: Pune în 1 litru de alcool medicinal sau in oțet de mere; se lasa la macerat, se agită bine de 3 ori pe zi timp de 10 zile, se strecoara si se păstrează într-un flacon colorat.
 
  Dozare: Aplica pe suprafața curata atunci când este necesar.
 
-**Durere în gât** 
+**Durere în gât**
 
-1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim) 
+1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
-1/2 litru ceaiul de salvie rosie de gradina(Salvia officinalis) 
+1/2 litru ceaiul de salvie rosie de gradina(Salvia officinalis)
 
-2 linguri de oțet de mere 
+2 linguri de oțet de mere
 
-2 linguri de sare de mare 
+2 linguri de sare de mare
 
-2 linguri de miere 
+2 linguri de miere
 
 Mod de preparare: se pune Cayenne in ceaiul de salvie, apoi se amesteca cu restul de ingrediente
 
@@ -140,21 +140,21 @@ Abia la începutul anilor 1980 cercetătorii occidentali s-au preocupat de virtu
 
 **Flatulenta**
 
-1 lingurita de ghimbir (Zingiber officinalis) 
+1 lingurita de ghimbir (Zingiber officinalis)
 
-1 lingurita bicarbonat de sodiu 
+1 lingurita bicarbonat de sodiu
 
-Mod de preparare: Pune ingredientele în 1 pahar de apă caldă si amesteca. 
+Mod de preparare: Pune ingredientele în 1 pahar de apă caldă si amesteca.
 
 Dozare: Se bea un pahar, după cum este necesar.
 
 **Laxativ** 1/4 linguriță ghimbir(Zingiber officinalis)
 
- 20 frunze de Senna (Cassia angustifolia) 
+ 20 frunze de Senna (Cassia angustifolia)
 
 1 felie de lamaie (Citrus limon)
 
- Mod de preparare: Se pun într-o cana, cu 1/3 cana de apa fierbinte (asigura-te că e acoperit);se îndulceste cu miere. 
+ Mod de preparare: Se pun într-o cana, cu 1/3 cana de apa fierbinte (asigura-te că e acoperit);se îndulceste cu miere.
 
 Dozare: Se bea lichidul limpede de la 1 ceasca in sus.
 
@@ -184,19 +184,19 @@ Intern în infecții gastro-intestinale, balonări abdominale, dispepsii, dischi
 
 Extern, sub formă de cataplasme reci: contribuie la ameliorarea durerilor de cap; în dureri reumatice și urticarie; în îngrijirea tenurilor grase și seboreice.
 
-**Remediu pentru gripa, febra, inflamatie** 
+**Remediu pentru gripa, febra, inflamatie**
 
 28g frunze de menta (Mentha piperita)
 
-28g flori de soc (Sambucus canadensis) 
+28g flori de soc (Sambucus canadensis)
 
-Preparare: Se pun într-un vas corespunzător și se toarnă 1/2 litru de apa clocotita peste plante, se acoperă bine si se tine la cald pe aragaz timp de 15 minute, se strecoara si se acopera imediat si se tine la cald. 
+Preparare: Se pun într-un vas corespunzător și se toarnă 1/2 litru de apa clocotita peste plante, se acoperă bine si se tine la cald pe aragaz timp de 15 minute, se strecoara si se acopera imediat si se tine la cald.
 
 Dozare: 1 ceașcă de ceai la fiecare 30 \- 45 de minute până când pacientul transpira, apoi 2 linguri la fiecare 1 până la 2 ore.
 
-**Obstructii menstruale** (pentru o persoana extrem de nervoasaa sau isterica) 
+**Obstructii menstruale** (pentru o persoana extrem de nervoasaa sau isterica)
 
-1 parte menta, planta (Mentha piperita) 
+1 parte menta, planta (Mentha piperita)
 
 1 parte Betony wood, planta (Stachys officinalis)
 
@@ -204,13 +204,13 @@ Dozare: 1 ceașcă de ceai la fiecare 30 \- 45 de minute până când pacientul 
 
 **Tonic stomacal**
 
-3 grame de frunze de mentă (Mentha piperita) 
+3 grame de frunze de mentă (Mentha piperita)
 
-3 grame de semințe de fenicul (Foeniculum vulgare) 
+3 grame de semințe de fenicul (Foeniculum vulgare)
 
-1 gram rubarba turceasca (Rheum palmatum) 
+1 gram rubarba turceasca (Rheum palmatum)
 
-Mod de preparare: se infuzeaza în 1 litru de apă. 
+Mod de preparare: se infuzeaza în 1 litru de apă.
 
 Dozare: 56ml de lichid de 3 ori pe zi sau mai mult (în funcție de necesitate).
 
@@ -224,27 +224,27 @@ In trecut, medicii recomandau cuisoarele impotriva oboselii si a pierderilor de 
 
 Infuzia de cuișoare
 
- 1 lingurita cuisoare, întregi sau sub formă de pulbere (Syzygium aromaticum) 
+ 1 lingurita cuisoare, întregi sau sub formă de pulbere (Syzygium aromaticum)
 
-1litru de apă distilată 
+1litru de apă distilată
 
 Mod de preparare: Se fierbe apa și se toarnă peste cuișoare și se tine timp de 20 minute într-un recipient din oțel inoxidabil închis, peste o flacără foarte scăzuta.
 
-**Holera Morbus** 
+**Holera Morbus**
 
 2-3 linguri Cuișoare (Syzygium aromaticum, Eugenia aromatica)
 
- 1/2 litru lapte de soia (tofu, lapte) 
+ 1/2 litru lapte de soia (tofu, lapte)
 
-Mod de preparare: Fierbe la foc mic în lapte de soia 5 minute. 
+Mod de preparare: Fierbe la foc mic în lapte de soia 5 minute.
 
 Dozare: 1 lingura fierbinte la fiecare 15 minute.
 
-**Greata, varsaturi in timpul sarcinii** 
+**Greata, varsaturi in timpul sarcinii**
 
-1 lingurita cuisoare (Syzygium aromaticum, Eugenia aromatica) 
+1 lingurita cuisoare (Syzygium aromaticum, Eugenia aromatica)
 
-1 lingurita pulbere de rubarba turceasca(Rheum palmatum) 
+1 lingurita pulbere de rubarba turceasca(Rheum palmatum)
 
 1 lingurita scortisoara (Cinnamomum zeylanicum)
 
@@ -262,13 +262,13 @@ Hreanul pe lângă întrebuințarea în alimentație este și un bun medicament,
 
 **Apatia** (sau lipsa de energie) stomacului si ficatului, cu constipatie
 
- 14g  hrean, extract fluid (Armoracia rusticana) 
+ 14g hrean, extract fluid (Armoracia rusticana)
 
-14g gențiană, tinctura (Gentiana lutea) 
+14g gențiană, tinctura (Gentiana lutea)
 
 14g de papadie, extract fluid (Taraxacum officinale)
 
- 168ml  sirop de portocale (Citrus aurantium) 
+ 168ml sirop de portocale (Citrus aurantium)
 
 Mod de preparare: Se amestecă foarte bine.
 
@@ -276,11 +276,11 @@ Dozare: o lingura la mesele principale
 
 **Hidropizie**
 
- 112g rădăcină de hrean, proaspăt ras (Armoracia rusticana) 
+ 112g rădăcină de hrean, proaspăt ras (Armoracia rusticana)
 
 1 litru oțet de mere
 
-112g glicerina vegetala 
+112g glicerina vegetala
 
 Mod de preparare: Pune rădăcina în otet si lasa sa stea 12 ore intr-un loc destul de fierbinte. Slăbeste capacul ocazional, strânge și reagita. După 12 ore de înmuiere, scoate la loc răcoros și lasa încă 12 de ore. Se strecoara si se adauga glicerină. Dozare: 1 lingura la o cana de apa, de 3 până la 4 ori pe zi (înainte de masă si o doza de noapte).
 
@@ -298,7 +298,7 @@ Piperul negru stimuleaza papilele gustative care trimit o comanda stomacului sa 
 
 **Holera Morbus**
 
- 4 lingurite piper negru pulbere (Piper nigrum) 
+ 4 lingurite piper negru pulbere (Piper nigrum)
 
 3-4 linguri de sare de mare
 
@@ -330,25 +330,25 @@ Stimulent general, stimulent cardiac, tonic, alterativ, iute, deobstruent, diure
 
  Mod de preparare: se pune în vasul acoperit cu două ore înainte de utilizare.
 
-**Purificator de sânge, imbunatatirea circulatiei sanguine** 
+**Purificator de sânge, imbunatatirea circulatiei sanguine**
 
-14g coaja de piper schiuan (Zanthoxylum americanum, Z. Clava-Herculis) 
+14g coaja de piper schiuan (Zanthoxylum americanum, Z. Clava-Herculis)
 
-14g Guaiac, rășină (Guaiacum officinale; G. sanctum) 
+14g Guaiac, rășină (Guaiacum officinale; G. sanctum)
 
 14g Buckbean, planta (Menyanthes trifoliata)
 
-6 păstăi piper Cayenne (Capsicum frutescens; C. minim) 
+6 păstăi piper Cayenne (Capsicum frutescens; C. minim)
 
-Mod de preparare: Fierbe la foc mic timp de 15 minute, dar ține acoperit bine până se răcește (astfel incat sa nu scape uleiurile volatile valoroase). 
+Mod de preparare: Fierbe la foc mic timp de 15 minute, dar ține acoperit bine până se răcește (astfel incat sa nu scape uleiurile volatile valoroase).
 
-Dozare: 56ml  de lichid, de trei ori pe zi.
+Dozare: 56ml de lichid, de trei ori pe zi.
 
-**Alifie pentru reumatism** 
+**Alifie pentru reumatism**
 
-28g pulbere de coaja de piper schiuan(Zanthoxylum americanum) 
+28g pulbere de coaja de piper schiuan(Zanthoxylum americanum)
 
-112g  de ulei de măsline, încălzit (Olea europaea) 
+112g de ulei de măsline, încălzit (Olea europaea)
 
 Mod de preparare: Se amesteca ingredientele bine.
 
