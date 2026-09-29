@@ -282,6 +282,67 @@ body {
     overflow-x: hidden;
 }
 
+.fragments-panel-documents {
+    margin: 0 0 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--nature-border);
+}
+
+.fragments-panel-documents-title {
+    margin: 0 0 6px;
+    color: var(--nature-text);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.fragments-panel-documents-list {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--nature-muted);
+    font-size: 12.5px;
+    line-height: 1.6;
+}
+
+.fragments-panel-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 0 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--nature-border);
+}
+
+.fragments-panel-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: var(--nature-muted);
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.fragments-panel-filter select {
+    padding: 5px 8px;
+    border: 1px solid var(--nature-border);
+    border-radius: 8px;
+    background: var(--nature-surface);
+    color: var(--nature-text);
+    font-size: 12.5px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.fragments-panel-empty {
+    margin: 0;
+    padding: 10px 0;
+    color: var(--nature-muted);
+    font-size: 12.5px;
+    font-style: italic;
+}
+
 .fragments-panel-banner {
     margin: 0;
     padding: 14px 18px;

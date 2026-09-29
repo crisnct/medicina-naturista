@@ -13,7 +13,9 @@ export interface FragmentItem {
   document: string;
   text: string;
   relevancePercent: number | null;
+  priority: number | null;
   matchLabel: string;
+  foundByLexical: boolean;
 }
 
 export interface FragmentsMessage {

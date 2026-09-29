@@ -115,7 +115,9 @@ def _fragments_message(search_id: str, evidence: dict) -> dict[str, Any]:
             "text": _normalize_text(item["text"]),
             "score": item.get("score", float("-inf")),
             "relevancePercent": item.get("relevance_percent"),
+            "priority": item.get("priority"),
             "matchLabel": _match_type_label(item),
+            "foundByLexical": bool(item.get("found_by_lexical")),
         })
     entries.sort(key=lambda entry: entry["score"], reverse=True)
     for entry in entries:
