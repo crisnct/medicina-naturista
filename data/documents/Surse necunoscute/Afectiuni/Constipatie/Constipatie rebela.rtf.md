@@ -1,67 +1,3 @@
-\*02020603050405020304Times New Roman;\*02070309020205020404Courier New;
-
-\*05050102010706020507Symbol;\*05000000000000000000Wingdings;Times New Roman CE;Times New Roman Cyr;
-
-Times New Roman Greek;Times New Roman Tur;Times New Roman (Hebrew);Times New Roman (Arabic);
-
-Times New Roman Baltic;Courier New CE;Courier New Cyr;Courier New Greek;Courier New Tur;
-
-Courier New (Hebrew);Courier New (Arabic);Courier New Baltic;;;;;
-
-;;;;;;;;;;;
-
-;;Normal;\*Default Paragraph Font;
-
-\*?;;
-o;;
-
-?;;
-?;;
-o;;
-?;;
-?;;
-o;;
-?;;
-
-;?;;
-o;;
-
-?;;
-?;;
-o;;
-?;;
-?;;
-o;;
-?;;
-
-;.;;
-.;;
-
-.;
-;
-.;;
-.;;
-.;;
-.;;
-.;;
-.;;;\*
-Emiialmilu
-
-\*HOME
-
-
-
-\*.\*.\*.\*
-)\*()\*()\*(
-
-)\*()\*()
-
-
-
-
-
-
-
  1.	Alimente ce trebuiesc evitate: ciocolata, cacao, pâinea alba, paste fã
 
 inoase
@@ -73,10 +9,6 @@ inoase
  Consumaþi: alimente bogate in celuloza, fasole verde, dovlecei, morcovi, þelina, sfecla cartofi, salata verde, ceapa, castraveþi, praz, spanac, roºii, mere, pere, struguri, portocale, pâ
 
 ine Graham, 500 gr fructe si 500 gr legume mâncaþi pe zi.
-
-
-
-
 
  2.	Polenul
 
