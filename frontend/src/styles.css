@@ -338,9 +338,9 @@ body {
 /* The document filter's values are full file names, so it absorbs the space
    left of the three short (score/priority/lexical) filters on the same row.
    min-width: 0 lets it shrink below its longest option (no horizontal scroll);
-   the 200px basis wraps it onto its own row when the panel is too narrow. */
+   the 140px basis wraps it onto its own row when the panel is too narrow. */
 .fragments-panel-filter-document {
-    flex: 1 1 200px;
+    flex: 1 1 140px;
     min-width: 0;
 }
 
