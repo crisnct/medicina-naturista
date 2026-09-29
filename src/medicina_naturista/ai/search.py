@@ -29,6 +29,12 @@ RRF_K = 60.0
 RRF_SIGNAL_COUNT = 3
 RRF_MAX_SCORE = RRF_SIGNAL_COUNT / (RRF_K + 1.0)
 
+# A fragment's fused score is multiplied by the weight of its PRIORITY (set at
+# indexing time, see ai/fragmenter.py): 1 = the document/section is about a
+# condition by name, 3 = a section mentions one, 5 = everything else. Every
+# weight is <= 1, so RRF_MAX_SCORE stays the ceiling of hybrid_score.
+PRIORITY_WEIGHT = {1: 1.0, 3: 0.7, 5: 0.5}
+
 # When the strict (all content words) lexical query matches fewer chunks than
 # this, rank() also runs the loose (any content word) query.
 MIN_STRICT_LEXICAL_HITS = 10
@@ -228,7 +234,8 @@ def rank(
             rows = cursor.execute(
                 """
                 SELECT chunk_id, source_relative_path, source_absolute_path, line_start, line_end,
-                       heading, text, source_sha256, -(embedding <#> %s) AS semantic_similarity
+                       heading, text, source_sha256, priority, conditions,
+                       -(embedding <#> %s) AS semantic_similarity
                 FROM chunks
                 WHERE chunk_id = ANY(%s)
                 """,
@@ -247,9 +254,12 @@ def rank(
             score += 1.0 / (RRF_K + fragment_lexical_rank)
         if fragment_heading_rank is not None:
             score += 1.0 / (RRF_K + fragment_heading_rank)
+        score *= PRIORITY_WEIGHT.get(row.priority, 1.0)
         results.append({
             "chunk_id": row.chunk_id,
             "hybrid_score": score,
+            "priority": row.priority,
+            "conditions": list(row.conditions),
             "semantic_similarity": float(row.semantic_similarity),
             "lexical_rank": fragment_lexical_rank,
             "found_by_lexical": fragment_lexical_rank is not None,

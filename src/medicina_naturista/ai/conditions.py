@@ -17,9 +17,6 @@ from medicina_naturista.config import settings
 
 logger = logging.getLogger("naturist.conditions")
 
-# A dictionary term found inside the query must be at least this long, so
-# short fragments cannot pull in an unrelated condition.
-MIN_CONTAINED_TERM_CHARS = 4
 # Typo tolerance (difflib ratio, 0-1): strict when the whole query is compared
 # to a term, looser as a last resort when nothing else matched.
 TYPO_CUTOFF = 0.9
@@ -60,15 +57,68 @@ def parse_conditions(text: str) -> list[Condition]:
     return conditions
 
 
+# Romanian inflection endings folded away by _fold_word(), longest first, each
+# with what replaces it ("anemii" -> "anemi", like "anemie" -> "anemi").
+_INFLECTION_SUFFIXES = (
+    ("ului", ""), ("ilor", ""), ("elor", ""), ("ile", ""), ("ele", ""),
+    ("ei", ""), ("ii", "i"), ("ul", ""), ("a", ""), ("e", ""), ("i", ""),
+)
+# A word is folded only if it stays at least this long afterwards.
+_MIN_FOLDED_CHARS = 3
+
+
+# Fold the common Romanian case/number endings so "gripa", "gripei" and "gripe"
+# compare equal. Both dictionary terms and scanned text go through it.
+def _fold_word(word: str) -> str:
+    if len(word) < 4:
+        return word
+    for suffix, replacement in _INFLECTION_SUFFIXES:
+        if word.endswith(suffix) and len(word) - len(suffix) >= _MIN_FOLDED_CHARS:
+            return word[: len(word) - len(suffix)] + replacement
+    return word
+
+
+# Folded words of a text, in order (diacritics and case ignored).
+def _folded_words(text: str) -> list[str]:
+    return [_fold_word(word) for word in re.findall(r"[^\W_]+", plain(text), flags=re.UNICODE)]
+
+
 class ConditionDictionary:
     def __init__(self, conditions: list[Condition]) -> None:
         self.conditions = conditions
         # normalized term -> indexes of the conditions that carry it
         self._by_term: dict[str, list[int]] = {}
+        # Phrase index for find(): first folded word -> [(folded words, condition indexes)],
+        # longest phrase first so the most specific term wins at a position.
+        self._phrases: dict[str, list[tuple[tuple[str, ...], list[int]]]] = {}
         for index, condition in enumerate(conditions):
             for term in condition.terms:
                 self._by_term.setdefault(_normalize(term), []).append(index)
         self._terms = list(self._by_term)
+        for term, indexes in self._by_term.items():
+            words = tuple(_fold_word(word) for word in term.split())
+            self._phrases.setdefault(words[0], []).append((words, indexes))
+        for candidates in self._phrases.values():
+            candidates.sort(key=lambda item: len(item[0]), reverse=True)
+
+    # Every condition named in `text`, in order of first appearance. A term must
+    # appear as whole words (endings folded, see _fold_word), whatever its
+    # length; where several terms start at the same word
+    # only the longest counts ("adenom colonic" hides "adenom"), and matched
+    # words are not scanned again.
+    def find(self, text: str) -> list[Condition]:
+        words = _folded_words(text)
+        found: list[int] = []
+        position = 0
+        while position < len(words):
+            matched = 0
+            for phrase, indexes in self._phrases.get(words[position], ()):
+                if tuple(words[position:position + len(phrase)]) == phrase:
+                    found.extend(indexes)
+                    matched = len(phrase)
+                    break
+            position += matched or 1
+        return [self.conditions[index] for index in dict.fromkeys(found)]
 
     # Conditions the query names, best match first (at most MAX_MATCHED_CONDITIONS):
     # 1. the whole query equals a term; 2. it is a near-identical spelling of one
@@ -88,10 +138,7 @@ class ConditionDictionary:
         if typo:
             return self._pick([index for term in typo for index in self._by_term[term]])
         padded = f" {normalized} "
-        contained = [
-            term for term in self._terms
-            if len(term) >= MIN_CONTAINED_TERM_CHARS and f" {term} " in padded
-        ]
+        contained = [term for term in self._terms if f" {term} " in padded]
         if contained:
             longest = max(len(term) for term in contained)
             indexes = [index for term in contained if len(term) == longest for index in self._by_term[term]]
@@ -131,6 +178,11 @@ def load_dictionary(path: Path | None = None) -> ConditionDictionary:
     except OSError:
         logger.warning("conditions_file_unavailable path=%s", path)
         return ConditionDictionary([])
+
+
+# Conditions named in a text, using the configured dictionary.
+def find_conditions(text: str, dictionary: ConditionDictionary | None = None) -> list[Condition]:
+    return (dictionary or load_dictionary()).find(text)
 
 
 # Expansion phrases for a query, using the configured dictionary.
