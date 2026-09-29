@@ -76,41 +76,27 @@ Se rulează o dată pe interogare și întoarce doar **candidații** semnalelor,
   ```
 
   Împărțirea la `N` menține plafonul la `RRF_MAX_SCORE`, indiferent de numărul de interogări.
-- **4.2.** Nu există un prag minim de relevanță: **fiecare** candidat întors de `rank()` (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal) devine dovadă (după unirea vecinilor la pasul 5). Singurul loc unde un fragment poate fi eliminat mai târziu este bugetul `MAX_CONTEXT_CHARS`, aplicat o singură dată de `fit_evidence_to_context()` (vezi [final-report-generation.md](final-report-generation.md)), nu aici.
+- **4.2.** Nu există un prag minim de relevanță: **fiecare** candidat întors de `rank()` (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal) devine dovadă. Singurul loc unde un fragment poate fi eliminat mai târziu este bugetul `MAX_CONTEXT_CHARS`, aplicat o singură dată de `fit_evidence_to_context()` (vezi [final-report-generation.md](final-report-generation.md)), nu aici.
 - **4.3.** `relevance_percent` rămâne calculat și afișat (scorul din panoul UI), doar că nu mai e folosit ca regulă de selecție — e pur informativ pentru pacient.
 
-## 5. Unirea fragmentelor vecine — `Retriever._merge_adjacent()`
+## 5. Dovezile — `Retriever.collect()`
 
-Se aplică tuturor candidaților rezultați la pasul 4 (nu mai există o etapă de filtrare între ele).
+Fragmentele nu se mai unesc: fiecare este o secțiune întreagă (vezi `ai/fragmenter.py`) și rămâne dovadă separată, exact cum a fost indexată.
 
-- **5.1.** Grupează fragmentele după fișierul sursă.
-- **5.2.** În fiecare fișier le ordonează după `(line_start, line_end)`.
-- **5.3.** Parcurge fragmentele în ordine, cu un grup curent. Un fragment se alătură grupului curent dacă îndeplinește **ambele** condiții:
-  - **5.3.1.** Începe cel mult la `NEIGHBOR_LINE_GAP = 5` linii după sfârșitul grupului (deci intervalele se suprapun sau sunt apropiate).
-  - **5.3.2.** Diferența dintre cel mai mare și cel mai mic `relevance_percent` din grup, cu fragmentul candidat inclus, rămâne **strict sub** `MERGE_MAX_PERCENT_DIFF` (implicit `9`, interval 0–100).
-- **5.4.** Altfel începe un grup nou. Un fragment fără vecini rămâne un grup cu un singur membru.
-- **5.5.** Fiecare grup păstrează: calea, intervalul de linii unit (minimul startului, maximul sfârșitului), membrii în ordinea din fișier și procentele minim și maxim.
-- **5.6.** Condiția de scor împiedică unirea unui fragment foarte relevant cu unul marginal doar pentru că sunt alăturate în document.
-
-## 6. Scorul și textul unei dovezi unite
-
-- **6.1.** **Fragmentul reprezentant** al grupului este membrul cu suma de scoruri cea mai mare (`best_id`). Se folosește maximul, nu suma membrilor, ca un document împărțit în multe bucăți să nu depășească un singur fragment puternic.
-- **6.2.** Dovezile se ordonează descrescător după suma de scoruri a reprezentantului.
-- **6.3.** Textul unei dovezi:
-  - **6.3.1.** Grup cu un singur membru — `_context()`: textul fragmentului; dacă are sub 600 de caractere și fișierul sursă există, este extins cu liniile din jur (5 înainte, 4 după, maximum 1800 de caractere). Dacă fragmentul are titlu, se prefixează `Secțiune: <titlu>`.
-  - **6.3.2.** Grup cu mai mulți membri — `_group_context()`: liniile sursă ale întregului interval unit, prefixate cu titlul reprezentantului. Dacă fișierul nu poate fi citit sau se află în afara directorului de documente, se folosesc textele membrilor în ordinea din fișier, separate printr-o linie goală.
-  - **6.3.3.** Căile sunt validate să rămână în `documents_dir`.
-- **6.4.** Fiecare dovadă este stocată sub cheia `C<chunk_id reprezentant>` cu câmpurile:
+- **5.1.** Dovezile se ordonează descrescător după suma de scoruri.
+- **5.2.** Textul unei dovezi este textul fragmentului, prefixat cu `Secțiune: <cale titluri>` când există. Nu se citesc linii din jur din fișierul sursă.
+- **5.3.** Fiecare dovadă este stocată sub cheia `C<chunk_id>` cu câmpurile:
 
   | Câmp | Conținut |
   |---|---|
-  | `source` | `documents/<cale>:<linie_start>-<linie_end>` (intervalul unit) |
-  | `text` | contextul construit la 6.3 |
-  | `score` | `suma_scorurilor_reprezentant / N` |
-  | `relevance_percent` | procentul reprezentantului (maximul din grup) |
-  | `found_by_lexical` | adevărat dacă oricare membru a fost găsit lexical |
+  | `source` | `documents/<cale>:<linie_start>-<linie_end>` |
+  | `text` | contextul de la 5.2 |
+  | `score` | `suma_scorurilor / N` |
+  | `relevance_percent` | procentul fragmentului |
+  | `priority`, `conditions` | metadatele fragmentului |
+  | `found_by_lexical` | adevărat dacă a fost găsit lexical |
 
-- **6.5.** Se înregistrează în log numărul de interogări, candidați, dovezi, caractere și surse unice.
+- **5.4.** Se înregistrează în log numărul de interogări, candidați, dovezi, caractere și surse unice.
 
 ## 7. Limitarea la bugetul de context — `fit_evidence_to_context()`
 
@@ -134,14 +120,13 @@ Se apelează în `on_find_fragments()`, imediat după `collect()`.
 
 | Variabilă | Implicit | Rol |
 |---|---|---|
-| `MERGE_MAX_PERCENT_DIFF` | 9 | Diferența maximă de procent într-un grup unit |
 | `SEARCH_CANDIDATE_LIMIT` | 100 | Candidați per semnal (semantic, lexical, titlu) |
 | `CONDITIONS_FILE` | `data/medical_conditions.txt` | Dicționarul de afecțiuni și sinonime |
 | `MAX_CONTEXT_CHARS` | 2.400.000 | Bugetul serializat al dovezilor |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului |
 | `DOCUMENTS_DIR` | `data/documents` | Documentele sursă pentru extinderea contextului |
 
-Constantele din cod: `RRF_K = 60`, `MIN_STRICT_LEXICAL_HITS = 10`, `NEIGHBOR_LINE_GAP = 5`, lungimea minimă a unui cuvânt relevant 4, pragul de extindere a contextului 600 de caractere.
+Constantele din cod: `RRF_K = 60`, `MIN_STRICT_LEXICAL_HITS = 10`, lungimea minimă a unui cuvânt relevant 4.
 
 ## Rezultatul final
 
@@ -152,8 +137,7 @@ Problema de sănătate
     -> semnal semantic (E5, top-100 exact) + lexical (prefixe, ȘI apoi SAU) + titlu/cale
     -> hybrid_score = RRF pe cele trei rangări, doar pentru uniunea candidaților
     -> relevance_percent = scor / RRF_MAX_SCORE × 100 (afișat, dar nu filtrează)
-    -> unirea vecinilor (≤ 5 linii, diferență de procent < MERGE_MAX_PERCENT_DIFF)
-    -> dovadă = interval unit, scor și procent ale celui mai bun membru
+    -> dovadă = fragmentul însuși, cu scorul și procentul lui
     -> ordonare descrescătoare și limitare la MAX_CONTEXT_CHARS
     -> panou cu fragmente pentru pacient și, la cerere, payload către AI
 ```

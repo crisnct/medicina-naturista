@@ -2,7 +2,7 @@
 """Rewrite Markdown source files in place, stripping the leading PDF-extraction
 metadata block (source_path, source_sha256, page_count, ...) with the
 repeated title and scaffold headings, external link destinations, e-mail
-addresses, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
+addresses, "### Pagina N" page markers, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
 "Vezi și"/"vezi si" cross-references. All cleaning rules live in this file.
 
 Removing the metadata block deletes lines, so line numbers shift for those
@@ -185,6 +185,26 @@ def strip_extraction_metadata(text: str, stem: str | None = None) -> str:
     return "\n".join(rest) + "\n" if rest else ""
 
 
+_PAGE_MARKER_RE = re.compile(r"#{1,6}[ \t]*(?:pagina|page)[ \t]+\d+(?:[ \t]+(?:din|of)[ \t]+\d+)?[ \t]*", re.IGNORECASE)
+
+
+# Remove the generated "### Pagina 8" heading lines, plus the blank line that
+# would otherwise be left doubled up where a marker sat between paragraphs.
+# Removes lines, like strip_extraction_metadata().
+def strip_page_markers(text: str) -> str:
+    kept: list[str] = []
+    skip_blank = False
+    for line in text.split("\n"):
+        if _PAGE_MARKER_RE.fullmatch(line):
+            skip_blank = not kept or not kept[-1].strip()
+            continue
+        if skip_blank and not line.strip():
+            continue
+        skip_blank = False
+        kept.append(line)
+    return "\n".join(kept)
+
+
 def clean_documents(source: Path, *, dry_run: bool) -> int:
     source = source.resolve()
     if not source.is_dir():
@@ -197,7 +217,7 @@ def clean_documents(source: Path, *, dry_run: bool) -> int:
     changed = 0
     for path in paths:
         decoded, encoding = _read(path)
-        cleaned = clean_text(strip_extraction_metadata(decoded, path.stem))
+        cleaned = clean_text(strip_page_markers(strip_extraction_metadata(decoded, path.stem)))
         if cleaned == decoded:
             continue
         changed += 1

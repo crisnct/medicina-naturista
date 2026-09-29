@@ -3,18 +3,27 @@ import type { FragmentItem, FragmentsMessage } from "../api/types";
 
 type LexicalFilter = "all" | "yes" | "no";
 
+// The document's relative path can be several folders deep; the filter shows
+// just the filename (the full path stays the option's value and its title).
+function fileName(path: string): string {
+  return path.split("/").pop() || path;
+}
+
 // Keep only fragments matching every active filter (score, priority, lexical
-// match); each filter left at its "no restriction" value passes everything.
+// match, source document); each filter left at its "no restriction" value
+// passes everything.
 function applyFilters(
   fragments: FragmentItem[],
   minScore: number,
   priority: "all" | number,
   lexical: LexicalFilter,
+  document: "all" | string,
 ): FragmentItem[] {
   return fragments.filter((fragment) => {
     if (minScore > 0 && (fragment.relevancePercent ?? 0) < minScore) return false;
     if (priority !== "all" && fragment.priority !== priority) return false;
     if (lexical !== "all" && fragment.foundByLexical !== (lexical === "yes")) return false;
+    if (document !== "all" && fragment.document !== document) return false;
     return true;
   });
 }
@@ -24,6 +33,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   const [minScore, setMinScore] = useState(0);
   const [priority, setPriority] = useState<"all" | number>("all");
   const [lexical, setLexical] = useState<LexicalFilter>("all");
+  const [documentFilter, setDocumentFilter] = useState<"all" | string>("all");
 
   const priorityOptions = useMemo(
     () =>
@@ -32,14 +42,20 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
       ),
     [message.fragments],
   );
+  // Every source document across ALL fragments (not just the currently
+  // filtered ones), so picking a document is always available as an option.
+  const documentOptions = useMemo(
+    () => [...new Set(message.fragments.map((fragment) => fragment.document))].sort((a, b) => a.localeCompare(b)),
+    [message.fragments],
+  );
 
   const filtered = useMemo(
-    () => applyFilters(message.fragments, minScore, priority, lexical),
-    [message.fragments, minScore, priority, lexical],
+    () => applyFilters(message.fragments, minScore, priority, lexical, documentFilter),
+    [message.fragments, minScore, priority, lexical, documentFilter],
   );
   // Only the documents behind the fragments still visible after filtering.
   const documents = [...new Set(filtered.map((fragment) => fragment.document))];
-  const filtersActive = minScore > 0 || priority !== "all" || lexical !== "all";
+  const filtersActive = minScore > 0 || priority !== "all" || lexical !== "all" || documentFilter !== "all";
 
   return (
     <details className="fragments-panel-inner" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
@@ -79,6 +95,17 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               <option value="all">Toate</option>
               <option value="yes">Da</option>
               <option value="no">Nu</option>
+            </select>
+          </label>
+          <label className="fragments-panel-filter fragments-panel-filter-document">
+            Document
+            <select value={documentFilter} onChange={(event) => setDocumentFilter(event.target.value)}>
+              <option value="all">Toate</option>
+              {documentOptions.map((document) => (
+                <option key={document} value={document} title={document}>
+                  {fileName(document)}
+                </option>
+              ))}
             </select>
           </label>
         </div>

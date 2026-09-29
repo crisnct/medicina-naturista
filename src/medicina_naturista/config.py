@@ -52,7 +52,6 @@ class Settings:
     max_chat_chars: int = _int("MAX_CHAT_CHARS", 4000)
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
     max_context_chars: int = _int("MAX_CONTEXT_CHARS", 1_000_000)
-    merge_max_percent_diff: int = _int("MERGE_MAX_PERCENT_DIFF", 9, minimum=0, maximum=100)
     search_candidate_limit: int = _int("SEARCH_CANDIDATE_LIMIT", 100, minimum=10, maximum=5000)
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
