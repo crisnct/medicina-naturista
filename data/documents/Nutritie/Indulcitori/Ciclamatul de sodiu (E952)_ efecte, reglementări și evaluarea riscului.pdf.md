@@ -1,5 +1,3 @@
-### Pagina 1
-
 Ciclamatul de sodiu (E952): efecte, reglementări
 și evaluarea riscului
 Figura 1. Formula structurală a ciclamatului de sodiu (E952), îndulcitor artificial intens utilizat.
@@ -41,8 +39,6 @@ actualizată în urma incertitudinilor metabolice. Astfel, ADI-ul UE este mai co
 5
 5 3
 1
-
-### Pagina 2
 
 . Conform reglementărilor , ciclamatul sodic (E952) este permis în multe produse (băuturi,
 gemuri dietetice, etc.), cu niveluri maxime (ex. în produse de panificație speciale: 1600 mg/kg) sau la
@@ -123,8 +119,6 @@ par relevante pentru niveluri reale de expunere umană.
 10
 2
 
-### Pagina 3
-
 3. Studii clinice și farmacocinetică la om
 Metabolismul ciclamatului la om a fost studiat pentru a evalua potențialul de formare a acidului
 ciclohexilaminic (CHA). Renwick et al. (2004) au administrat subiecților (voluntari sănătoși) câte 250 mg
@@ -183,8 +177,6 @@ ciclamat. În ansamblu, datele sugerează că efectele in vivo asupra diversită
 16
 3
 
-### Pagina 4
-
 sunt minime la dozele alimentare, deși lipsesc studii de profunzime. Este teoretic posibil ca unii
 metaboliți bacterieni (azoti, acizi organici) să fie influențați de ciclamat, însă semnificația acestor
 schimbări pentru sănătatea metabolică rămâne neclară. În context mai larg, alți îndulcitori non-nutritivi
@@ -238,8 +230,6 @@ rapid în aminoacizi și metanol, principala preocupare fiind fenilketonuria, nu
 18
 4
 
-### Pagina 5
-
 mare parte neabsorbită, fără metabolism (și fără semnale de cancerigenitate). În ansamblu, cercetările
 ne indică faptul că nicio cifră de risc special nu este evidentă pentru ciclamat în comparație cu ceilalți
 îndulcitori – toate aceste substanțe împărtășesc concluzia că, la dozele admise, nu există dovezi
@@ -287,8 +277,6 @@ referință și rapoarte oficiale, garantând caracterul fundamentat al evaluăr
 2
 5 12 9 8
 5
-
-### Pagina 6
 
 apcz.umk.pl
 

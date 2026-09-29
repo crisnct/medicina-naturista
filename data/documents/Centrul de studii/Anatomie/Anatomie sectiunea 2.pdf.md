@@ -1,9 +1,5 @@
-### Pagina 1
-
 Sistemul Muscular
 Principalele grupe de muschi
-
-### Pagina 2
 
 Muschii capului:
 • Muschii mimicii (cutanati), frontali si occipitali;
@@ -42,8 +38,6 @@ scheletici –) sau involuntare (contracții involuntare, la mușchii netezi sau
 impulsuri vegetative.
  2. Mușchi striați, care se subîmpart în două tipuri: cardiaci, cu contracții
 involuntare, și scheletici, cu contracții mixte, de obicei voluntare.
-
-### Pagina 3
 
 două sau mai multe puncte de inserție, dintre care unul este de origine, iar
 celălalt (celelalte) sunt de inserție, reprezentat, de cele mai multe ori printr-un
@@ -90,8 +84,6 @@ mușchiul croitor) lungime și 10 – 100 microni diametru.
  De obicei, fibrele musculare sunt mai groase la bărbat decât la femeie și la
 indivizii bine întreținuți comparativ cu cei mai prost hrăniți. Dezvoltarea mușchiului se
 
-### Pagina 4
-
 face prin îngroșarea fibrelor, ca urmare a creșterii catității de sarcoplasmă și a
 conținutului fibrilar.
  Fibrele pot traversa longitudinal întreg mușchiul, sau se pot opri undeva în masa
@@ -136,8 +128,6 @@ lungimea sarcomerilor ajunge până la 2,5 microni. Într-o fibră sunt cam 10 �
 milioane de astfel de unități.
  Filamentele de miozină participă la formarea discului întunecat A, având în
 mijloc o umflătură (membrana M). Au cam 140 – 160 de Ångstromi în diametru și
-
-### Pagina 5
 
 lungimi de 1,6 microni. Sunt constituite din câte 200 de molecule de miozină,
 aranjate într-o rețea hexagonală, densă.
@@ -185,8 +175,6 @@ comparativ cu membrana celulară.
  Tipul și cantitatea enzimelor din citoplasmă depind de regimul anaerob sau
 aerob al metabolismului celular, reunind cam 50% din proteinele solubile din mușchi.
 
-### Pagina 6
-
 După cantitatea de sarcoplasmă, mioglobină („hemoglobina musculară“),
 rezerva de oxigen, avem următorele tipuri de fibre musculare:
  - fibre roșii, cu un conținut mai ridicat în mioglobină, cu contracții lente (peste 3,5
@@ -226,15 +214,11 @@ Prag reflex diminuat Prag reflex crescut
 Descărcare tonică reflexă Descărcare fazică reflexă
 Oboseală redusă Oboseală intensă
 
-### Pagina 7
-
 Tipul de inervație este răspunzător pentru rata metabolică a unei fibre
 musculare, prin rolul trofic pe care-l joacă neuronul pentru mușchi. Prin inversarea
 inervației unei fibre roșii, aceasta dobândește un comportament de fibră albă;
 procesul invers este mai puțin pregnant, ca urmare a unei atare autonomii a fibrelor
 albe vis a vis de inervație.
-
-### Pagina 8
 
 DIGESTIA
 FIZIOLOGIA APARATULUI DIGESTIV
@@ -243,8 +227,6 @@ nutritive necesare organismului. In vederea realizării acestor funcții, este n
 1. deplasarea alimentelor prin tractul alimentar; 2. secreția sucurilor digestive și
 digestia alimentelor; 3. absorbția produșilor de digestie, a apei și a electroliților; 4.
 circulația sângelui prin segmentele tubului digestiv în vederea transportului
-
-### Pagina 9
 
 substanțelor absorbite; 5. controlul acestor funcții prin intermediul sistemului nervos
 și endocrin.
@@ -274,8 +256,6 @@ digestive. 2. Amestecarea alimentelor cu produsul de secreție al glandelor sali
 ce are ca rezultate: a. inițierea procesului de digestie a amidonului sub acțiunea
 amilazei salivare; b. inițierea procesului de digestie a lipidelor sub acțiunea lipazei
 linguale; c. lubrifierea și înmuierea bolului alimentar. 3. Asigurarea contactului cu
-
-### Pagina 10
 
 receptorii gustativi și eliberarea substanțelor odorante care vor stimula receptorii
 olfactivi, această stimulare inițiind secreția gastrică.
@@ -307,8 +287,6 @@ dizolvarea substanțelor cu gust specific și suprafață receptivă a analizato
 gustativ.
 Ca urmare a transformărilor din cavitatea bucală, alimentele sunt omogenizate,
 imbibate cu mucus și formează bolul alimentar.
-
-### Pagina 11
 
 Deglutiția cuprinde totalitatea activităților motorii ce asigură transportul bolului
 alimentar din cavitatea bucală în stomac. Este un act reflex ce se desfășoară în trei
@@ -343,8 +321,6 @@ faringe în stomac, iar mișcările lui sunt organizate specific în vederea ace
 primar și peristaltism secundar. Peristaltismul primar este declanșat de deglutiție și
 începe când alimentele trec din faringe în esofag; este coordonat vagal.
 
-### Pagina 12
-
 Peristaltismul secundar se datorează prezenței alimentelor în esofag și continuă
 până când alimentele sunt propulsate în stomac; este coordonat de sistemul nervos
 enteric al esofagului.
@@ -373,8 +349,6 @@ produse prin modificări periodice ale potențialului membranei fibrelor muscula
 netede longitudinale; se numesc unde lente sau ritm electric de bază. Aceste unde
 sunt responsabile de frecvența și forța contracțiilor gastrice. Forța contracțiilor
 peristaltice este crescută de acetilocolină și gastrină.
-
-### Pagina 13
 
 Retropulsia. Cuprinde mișcările de du-te-vino ale chimului, determinate de
 propulsia puternică a conținutului gastric către sfincterul piloric închis. Are rol
@@ -406,8 +380,6 @@ Secreția de pepsinogen. Pepsina, forma activă a pepsinogenului, este o enzimă
 proteolitică, activă în mediu acid (pH optim 1,8 - 3,5), care începe procesul de
 digestie al proteinelor; la valori ale pH-ului mai mari de 5, activitatea sa proteolitică
 
-### Pagina 14
-
 scade, devenind în scurt timp inactivă. Pepsinogenul este activat de contactul cu
 HC1 sau cu pepsina ante rior formată. Pepsina scindează proteinele în proteoze
 (albumoze), peptone și polipeptide mari. Numai 20 - 30% din digestia totală a
@@ -436,8 +408,6 @@ amestec,
 cât și propulsie.
 Contracțiile de amestec (contracțiile segmentare). Când o porțiune a intestinului
 subțire este destinsă de chim, întinderea pereților intestinali determină apariția în
-
-### Pagina 15
 
 lungul intestinului a unor contracții concentrice localizate, separate prin anumite
 intervale. Lățimea unui asemenea inel de contracție este de aproximativ 1 cm, astfel
@@ -471,8 +441,6 @@ intestinal: peptidaze, dizaharidaze (în număr de patru: maltaza, izomaltaza, z
 și lactaza) și lipază; ele își exercită rolurile în timpul procesului de absorbție
 intestinală. 3. Apă și electroliți secretați de celulele epiteliale intestinale.
 
-### Pagina 16
-
 Absorbția intestinală se realizează prin mai multe mecanisme, în funcție de
 substanța absorbită.
 Glucidele. Cele trei glucide majore ale dietei sunt dizaharidele - sucroza și
@@ -505,8 +473,6 @@ Lipidele. Aportul zilnic de lipide variază între 25 și 160 g. Spre deosebire 
 cide și de proteine, lipidele se absorb din tractul gastro-intestinal prin difuziune
 pasivă. Pentru a putea fi absorbite, ele trebuie să devină solubile în apă. Pentru
 
-### Pagina 17
-
 solubilizarea lipidelor sunt necesare sărurile biliare. Inainte de a fi digerate, lipidele
 trebuie emulsionate (transfor mate în picături cu diametru sub un micron) de către
 acizii biliari și lecitină.
@@ -537,8 +503,6 @@ Mișcările de amestec (haustrațiile). Intr-o manieră similară cu a mișcări
 segmentare ale intestinului subțire, la nivelul colonului apar contracții circulare mari.
 Concomitent, musculatura longitudinală a colonului, agregată în trei benzi longitudini
 e denumita tenii, se contractă și ea. Aceste contracții combinate ale musculaturii
-
-### Pagina 18
 
 circulare și longitudinale determină proiecția în afară a zonelor nestimulate ale
 peretelui colic, sub forma unor saci, denumiți haustre.
@@ -571,8 +535,6 @@ Toate aceste serii de mișcări în masă durează între 10 minute și o jumăt
 oră. Dacă defecația nu apare în acest timp, un nou set de mișcări în masă nu apare
 decât după o jumătate de zi sau chiar în ziua următoare.
 
-### Pagina 19
-
 Iritația colonului poate, de asemenea, iniția mișcări intense în masă. De
 exemplu, când o persoană prezintă o stare ulceroasă a colonului (colita ulceroasă),
 aceasta are frecvent mișcări în masă ce persistă aproape tot timpul. De asemenea,
@@ -603,15 +565,11 @@ de defecație. Totuși, reflexul intrinsec al defecației este foarte slab; pent
 eficient, el trebuie întărit printr-un reflex parasimpatic de defecație ce implică
 segmentele sacrale ale măduvei spinării.
 
-### Pagina 20
-
 SISTEMUL CIRCULATOR
  Corpul uman este alcătuit dintr-o vastă rețea de canale, mai mici sau mai mari, prin
 care circulă permanent lichide cu diverse încărcături. În cadrul acestui sistem imens
 de distribuție, redistribuție, evacuare și recaptare a fluidelor, sistemul circulator ocupă
 un loc de primă importanță.
-
-### Pagina 21
 
 Sistemul circulator este alcătuit dintr-o multitudine de vase tubulare prin intermediul
 cărora circulă sângele, care irigă întreg organismul .
@@ -636,8 +594,6 @@ canalele, au fost numite „ecluze de irigație" (Arcadie Percek 1987).
 Capilarele sunt vase scurte (0,5cm) și cu diametre microscopice (mai mici de 20μ).
 Ele sunt foarte numeroase realizând o lungime totală de 2500 km și o suprafață de
 6200 mp. Capilarul are două terminații, prin care se leagă, la un capăt, de arteriole
-
-### Pagina 22
 
 ,iar de celălalt capăt de venule (vene cu calibru mic), pe lângă care mai prezintă
 ramificații prin care, aceste vase minuscule, se unesc între ele.
@@ -682,8 +638,6 @@ colectând tot sângele venos al circulației mari, se deschid în atriul drept.
  Circulația venoasă reprezintă un transport sanguin de întoarcere care se realizează
 mai greoi, în primul rând din cauza că, cu excepția părții superioare a corpului, se
 
-### Pagina 23
-
 desfășoară împotriva gravitației. Factorii cei mai importanți care asigură desfășurarea
 optimă a circulației venoase sunt: respirația, contracțiile ventriculare, contracțiile
 musculaturii scheletice a membrelor inferioare și pulsațiile arterelor. Inspirația
@@ -727,8 +681,6 @@ circulă prin artere, de la plămâni spre țesuturi, unde donează oxigenul cel
  Sângele venos conține carbohemoglobină (hemoglobină care a legat dioxidul de
 carbon), circulând prin vene, de la țesuturi la plămâni.
 
-### Pagina 24
-
 De la aceste reguli, face excepție sângele care circulă prin artera, respectiv vena
 pulmonară. Prin artera pulmonară circulă sângele de la inimă la plămâni (sânge
 încărcat cu dioxid de carbon, sânge venos), iar prin vena pulmonară trece sânge
@@ -768,8 +720,6 @@ Elementele figurate
 acestuia), fiind reprezentate, după cum se poate vedea în tabelul de mai jos, prin 3
 categorii de celule: eritrocite, leucocite și trombocite. Dintre aceste elemente, doar
 leucocitele sunt celule adevărate (prezintă nuclei și metabolism activ).
-
-### Pagina 25
 
 Sângele unui adult conține aproximativ 30.000 de miliarde de globule roșii și 50 de
 miliarde de globule albe (Alexis Carrel).
@@ -856,8 +806,6 @@ hormonilor
 corticoizi, în stres,
  100-200
 
-### Pagina 26
-
 în prima fază a
 bolilor acute.
  Bazofile -
@@ -914,8 +862,6 @@ limfocitele au o altă origine; sistemul reticulo-endotelial, respectiv ganglion
  Întregul proces hematopoietic se află sub control neuroendocrin.
  Principiile capabile să stimuleze hematopoieza, se numesc hematopoietice.
 
-### Pagina 27
-
 Una din laturile principale ale hematopoiezei, aceea prin care se formează
 globulele roșii, poartă denumirea de eritropoieză.
 Coagularea sângelui
@@ -957,8 +903,6 @@ care le redă sistemului circulator, eliminând, pe cale urinară, reziduurile.
  Epurarea sângelui, devine în anumite circumstanțe deficitară, caz în care se
 recomandă apelarea la principiile depurative.
 
-### Pagina 28
-
 INIMA
 Inima, considerata ca un organ nobil de aproape toate culturile, nu este sediul
 sentimentelor. Rolul sau nu este însa mai putin important. Ea asigura circulatia
@@ -990,8 +934,6 @@ urechiusa stânga.
 separate, de asemenea, de o membrana, septul interventricular, si constituie punctul
 de plecare a circulatiei sanguine. Acestea sunt pompele propriu-zise ale inimii.
 Ventriculul drept trimite sângele spre plamâni pentru a permite schimburile de gaze.
-
-### Pagina 29
 
 El este pompa circulatiei pulmonare. Ventriculul stâng trimite sângele spre aorta,
 aceasta pornind circulatia sistemica.
@@ -1038,8 +980,6 @@ sângelui. Apoi valvele aortei si ale trunchiului pulmonar se deschid, permitân
 sângelui spre aorta si spre trunchiul pulmonar. Dupa aceasta expulzate, ventriculele
 se destind si presiunea ventriculara scade sensibil. Sângele ramas în aorta si trunchi
 
-### Pagina 30
-
 reflueaza atunci spre ventricule, care îsi închid automat valvele. Dupa închiderea
 valvelor, începe un nou ciclu, o noua diastola.
  Circulatia sângelui este un mecanism complet în a carui reglare intervin diverse
@@ -1083,8 +1023,6 @@ vâscozitatea sângelui, diametrul sau lungimea vaselor. Astfel, muschii schelet
 necesita un debit sanguin adaptat la activitatile lor de moment. Pielea, care
 îndeplineste mai multe functii, printre care reglarea temperaturii corporale, necesita
 un debit sanguin de aproape 2,5 litri pe minut. Creierul, are nevoie de un debit
-
-### Pagina 31
 
 sanguin mai stabil, de ordinul a 0.75 litri pe minut. Debitul sanguin raspunde astfel
 exigentilor fiecarui organ si ale miliardelor de celule care compun organismul.

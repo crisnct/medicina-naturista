@@ -1,5 +1,3 @@
-### Pagina 1
-
 The Klinghardt Neurotoxin Elimination Protocol
 
 Approved by:
@@ -44,8 +42,6 @@ Here is an incomplete list of common neurotoxins in order of importance:
 (ii) Biotoxins: such as tetanus toxin, botulinum toxin (botox), ascaridin (from
 intestinal parasites), unspecified toxins from streptococci, staphylococci, lyme
 disease, clamydia, tuberculosis, fungal toxins and toxins produced by viruses.
-
-### Pagina 2
 
 Biotoxins are minute molecules (200-1000 kilodaltons) containing nitrogen and
 sulfur. They belong to a group of chemical messengers which microorganisms
@@ -92,8 +88,6 @@ accumulation of metals in an otherwise healthy body - or slow down, or inhibit
 the body’s own elimination processes.
 • genetics
 
-### Pagina 3
-
 • occupational exposure to toxic material
 • prior illnesses
 • surgical operations
@@ -135,8 +129,6 @@ germanium, molybdenum etc.). Substituting minerals can detoxify the body
 by itself. Just as important are electrolytes (sodium, potassium, calcium,
 magnesium), which help to transport toxic waste across the extracellular
 space towards the lymphatic and venous vessels.
-
-### Pagina 4
 
 • Lipids (made from fatty acids) make up 60-80 % of the central nervous
 system and need to be constantly replenished. Deficiency makes the nervous
@@ -180,8 +172,6 @@ initial phase of the detox cilantro should be given 5 days on, 2 days off.
 
 Works most effectively when combined with Toxaway microcurrent foot
 bath.
-
-### Pagina 5
 
 Other ways of taking cilantro:
 /head2right rub 5 drops twice/day into ankles for mobilization of metals in all organs,
@@ -227,8 +217,6 @@ of the peroxisomes (see fish oil), opening of the cell wall (unknown
 mechanism) which is necessary for all detox procedures, normalizes insulin
 resistance and much more. Medical drugs that activate the PPAR receptor
 
-### Pagina 6
-
 (such as pioglitazone) have been effective in the treatment of breast and
 prostate cancer.
 • Super nutrient : 50-60% amino acid content, ideal nutrient for vegetarians,
@@ -270,8 +258,6 @@ cell wall and is better tolerated by people with digestive problems. Some
 manufactures have created cell wall free chlorella extracts (NDF, PCA) which
 are very expensive, less effective - but easily absorbed.
 
-### Pagina 7
-
 Chlorella growth factor (CGF)
 This is a heat extract from chlorella that concentrates certain peptides, proteins
 and other ingredients. The research on CGF shows that children develop no
@@ -312,8 +298,6 @@ Dosage : 1-3 capsules freeze dried garlic after each meal. Start with 1 capsule
 after the main meal per day, slowly increase to the higher dosage. Initially the
 patient may experience die-off reactions (from killing pathogenic fungal or
 bacterial organisms). Use 5-10 drops bear-garlic on food at least 3 times per day.
-
-### Pagina 8
 
 5. Fish oil:
 The fatty acid complexes EPA and DHA in fish oil make the red and white
@@ -360,8 +344,6 @@ chlorella.
 The VegiPearls contain half the amount of EPA/DHA. The vegetarian capsules
 eliminate even the most remote possibility of containing prions and make the
 
-### Pagina 9
-
 idea of taking fish oil more easily acceptable for vegetarians. Recently a fatty
 acid receptor has been discovered on the tongue, joining the other more known
 taste receptors. If the capsules are chewed, the stomach and pancreas start to
@@ -403,8 +385,6 @@ are excreted via the plantar skin and lymphatics. The frequencies also stimulate
 via the ANS both liver and kidneys in their respective detox activity. Yet
 unpublished German research shows a dramatic toxin elimination effect when
 combined with oral cilantro.
-
-### Pagina 10
 
 Phospholipid Exchange:
 Soy derived phospholipids, magnesium, alpha-lipoic acid and Na-EDTA. This
@@ -449,8 +429,6 @@ Most valuable is the addition of psychotherapeutic interventions such as applied
 psycho neurobiology (APN) and mental field therapy (MFT) to trigger the
 release of toxins from their hiding places.
 
-### Pagina 11
-
 Chlorella, cilantro, garlic-products and fatty acids vary greatly in quality and
 nutrient content, also in content of contaminants.
 
@@ -494,8 +472,6 @@ o Phospholipid Exchange (BioPure): EDTA, alpha lipoic acid prevent
 ROS damage, Phospholipids repair toxic injury and work as a
 shuttle agent to bring other toxin binding substances to deep tissue
 places. 1 tbsp/day
-
-### Pagina 12
 
 o KMT microcurrent therapy
 o Lymphatic drainage and colon hydrotherapy
@@ -542,8 +518,6 @@ inactivated fibrin during initial phase of infection). Outcome:
 spirochets move faster through connective tissue then through
 blood.
 
-### Pagina 13
-
 Spirochetes love connective tissue which explains their 5 favorite tissues
 to set up their housekeeping:
 /head2right ligaments and joints (asymmetric affliction of large jopints,
@@ -588,8 +562,6 @@ o Matrix Electrolyte
 o KMT microcurrent
 o Cilantro/Toxaway
 o Phospholipid Exchange
-
-### Pagina 14
 
 o Resveratrol and trans-Resveratrol from Japanese Knotweed
 (polygonum cuspidatum)
@@ -636,8 +608,6 @@ nutrition .
 Example:
 /head2right Stachybotrys
 
-### Pagina 15
-
 /head2right Candida
 /head2right Aspergillus
 /head2right Mucor
@@ -679,8 +649,6 @@ o Zearalenone
 
 Numerous other mycotoxins produced by these and other fungi of which
 the health effects remain unknown
-
-### Pagina 16
 
 Symptoms of mycotoxin exposure:
 • Acute exposure:
@@ -727,8 +695,6 @@ hemosiderosis
 /head2right Animal studies: necrosis and hemorrhage within brain, thymus,
 spleen, intestine, heart, lung, lymph nodes, liver and kidney
 
-### Pagina 17
-
 • allergic symptoms:
 /head2right sinusitis
 /head2right cognitive and memory problems (neurogenic switching)
@@ -767,8 +733,6 @@ Recommended Literature
 
 
 
-
-### Pagina 18
 
 Clinical tips from Dr Klinghardt
 
@@ -811,8 +775,6 @@ Tip#5: behavior/moods:
 
 /head2right worms in men: risk taking behavior. In women: docile behavior. In both:
 short episodes of odd crazy schizoid behavior (hours).
-
-### Pagina 19
 
 /head2right Neuro-Lyme: episodes of rages and depression. Same mood may last for a
 few days or weeks, not minutes. Normal/nice episodes even in illest

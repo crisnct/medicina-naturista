@@ -1,8 +1,4 @@
-### Pagina 1
-
 [Nu a fost extras text din această pagină.]
-
-### Pagina 2
 
 Cuprins
 Introducere 2
@@ -25,8 +21,6 @@ Partea IV: Atenția și vederea Clară
 13. Cuvintele vederii 31
 14. Somnul eficient 33
 15. Jurnalul vizual 35
-
-### Pagina 3
 
 15 Obiceiuri pentru îmbunătățirea vederii
 2
@@ -55,13 +49,9 @@ ză-le conștient în fiecare zi până când acestea vor intra în reflexul tă
 exercițiile din cartea „Renunță La Ochelari” cât și sfaturile din „Vitaminele ;i
 Mineralele Vederii” - așa vei obține și păstra vederea clară.
 
-### Pagina 4
-
 PARTEA I:
 OCHII: ORGANELE
 LUMINII
-
-### Pagina 5
 
 15 Obiceiuri pentru îmbunătățirea vederii
 4
@@ -88,8 +78,6 @@ recomandarea mea este să te expui la soare.
 Alegerea îți aparține: 20 de minute de stat la soare, care e gratis, sau alimente
 în fiecare zi pe care trebuie să dai bani. Trebuie să îți spun că oricât de mult
 ai sta la soare și oricât de multă vitamină D ar sintetiza și ar depozita corpul
-
-### Pagina 6
 
 15 Obiceiuri pentru îmbunătățirea vederii
 5
@@ -128,8 +116,6 @@ la soare deoarece cantitatea scăzută de pigment va îngreuna formarea vita -
 minei D. Ca să beneficiezi din plin de energia de la soare folosește ochelarii
 de soare vara doar între orele 11-15, în medii cu reflecții (zăpadă sau nisip) și
 
-### Pagina 7
-
 15 Obiceiuri pentru îmbunătățirea vederii
 6
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -163,8 +149,6 @@ exces în mușchii extraoculari sau chiar în globul ocular.
 Așadar, degeaba consumi multe vitamine(provitamine) dacă acestea nu sunt
 absorbite în corp - și toate din cauză că nu te expui suficient la soare!
 
-### Pagina 8
-
 15 Obiceiuri pentru îmbunătățirea vederii
 7
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -188,8 +172,6 @@ Din acest motiv, după ce lucrezi multe ore într-un mediu închis - acasă
 sau la birou - unde lumina este artificială, te dor ochii și nu reziști să ții ochii
 normal deschiși la lumina soarelui fără să mai ai senzația de a strânge din ochi
 sau să stai cu ochii mijiți.
-
-### Pagina 9
 
 15 Obiceiuri pentru îmbunătățirea vederii
 8
@@ -228,8 +210,6 @@ care cauzează cancer printre care se numără fenolul.
 O ambianță ideală diferă de la persoană la persoană și, ca să afli cum se
 potrivește cel mai bine ochilor tăi, trebuie să testezi acest lucru.
 
-### Pagina 10
-
 15 Obiceiuri pentru îmbunătățirea vederii
 9
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -255,8 +235,6 @@ Același lucru a reieșit și dintr-un studiu efectuat asupra a doi caței, țin
 luni de zile doar într-o cutie de 2 metri pătrați. Apoi la sfârșitul celor 2 luni
 s-a observat că nu se puteau descurca când trebuiau să alerge după lucruri
 aflate la distanță.
-
-### Pagina 11
 
 15 Obiceiuri pentru îmbunătățirea vederii
 10
@@ -295,8 +273,6 @@ cu ușurință. Astfel acesta va avea un grad mare de mobilitate și îți va pe
 să fii mai mobil și tu să respiri eficient - astfel elimini constant tensiunea din
 sistemul tău vizual.
 
-### Pagina 12
-
 15 Obiceiuri pentru îmbunătățirea vederii
 11
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -321,8 +297,6 @@ ce facem încât uităm să clipim și musculatura oculară este ținută fix - 
 Cum te ajută această regulă în protecția vederii?
 Pur și simplu prin aplicarea acestei reguli, o dată la 10 minute, nu doar că
 
-### Pagina 13
-
 15 Obiceiuri pentru îmbunătățirea vederii
 12
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -330,13 +304,9 @@ devii conștient de starea vederii tale, dar în acest fel eviți constant ca oc
 să fie rigizi și tensionați. Permiți astfel ca ochii tăi să fie relaxați, mobili și cu
 o capacitate mare de focaliza cu ușurință indiferent de distanță la care privești.
 
-### Pagina 14
-
 PARTEA II:
 MIȘCAREA ȘI VEDEREA
 BUNĂ
-
-### Pagina 15
 
 15 Obiceiuri pentru îmbunătățirea vederii
 14
@@ -361,8 +331,6 @@ scaun sau într-o poziție FIXĂ și RIGIDĂ timp de mai multe ore mu șchii
 din jurul gâtului, umerilor vor acumula cea mai mare parte a tensiunii. Acest
 lucru îți poate provoca dureri de cap, amețeli, nu te mai poți concentra la ce
 trebuie să faci și ochii te vor durea foarte tare.
-
-### Pagina 16
 
 15 Obiceiuri pentru îmbunătățirea vederii
 15
@@ -390,8 +358,6 @@ atunci când corpul este în mișcare.
 În momentul când corpul nostru este în mișcare, prin sistemul limfatic are
 loc colectarea și eliberarea toxinelor din corp, deci și a tensiunilor „bio-chimice”.
 
-### Pagina 17
-
 15 Obiceiuri pentru îmbunătățirea vederii
 16
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -417,8 +383,6 @@ Un alt mod de a-ți odihni/relaxa ochii este să îți miști încet ochii atunc
 când efectuezi palmarea, dar mai ales oricând în timpul zilei - ochii au fost
 concepuți pentru a fi mereu în mișcare.
 
-### Pagina 18
-
 15 Obiceiuri pentru îmbunătățirea vederii
 17
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -442,8 +406,6 @@ a unui obiect pe care-l privești. Parcurge, atunci când citești, fără să f
 la fiecare literă din cuvânt, mintea ta va ști să compună imaginea pe care
 o conștientizezi.
 
-### Pagina 19
-
 15 Obiceiuri pentru îmbunătățirea vederii
 18
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -455,8 +417,6 @@ Odată ce va exista un dezechilibru între cele 2 emisfere, vor apărea și alte
 probleme de sănătate, pentru că organele corpului sunt interconectate între ele.
 În acest mod nu te alegi nu doar o vedere încețoșată, ci și cu alte probleme
 de sănătate!
-
-### Pagina 20
 
 15 Obiceiuri pentru îmbunătățirea vederii
 19
@@ -484,8 +444,6 @@ crea imagini. Pentru a împiedica acest lucru, atunci când te gândești la cev
 Ca o analogie, încearcă să scrii simultan cu ambele mâini cuvântul “Vedere”.
 Cum te simți? Poți să scrii la fel de bine și repede cu ambele mâini?
 
-### Pagina 21
-
 15 Obiceiuri pentru îmbunătățirea vederii
 20
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -505,13 +463,9 @@ produc încordări ale musculaturii oculare și acestea vor determina ca globul
 ocular să își schimbe forma și în acest fel imaginile realității, pe care le vei dori
 să le vezi prin ochi, nu vor fi clare.
 
-### Pagina 22
-
 PARTEA III:
 ALIMENTAȚIA ȘI
 ÎMBUNĂTĂȚIREA VEDERII
-
-### Pagina 23
 
 15 Obiceiuri pentru îmbunătățirea vederii
 22
@@ -536,8 +490,6 @@ Cum să mănânci sănătos?
 Înlocuiește mâncărurile prăjite cu mâncărurile fierte la foc mic sau la abur,
 pâinea albă cu pâinea neagră sau cu semințe și sucurile acidulate cu apă de
 izvor. Redu până la minim consumul de cafea și ciocolată.
-
-### Pagina 24
 
 15 Obiceiuri pentru îmbunătățirea vederii
 23
@@ -578,15 +530,11 @@ de hrană necesită bani și timp suplimentar.
 să își facă timp pentru a-și trata bolile, să cheltuiască bani suplimentari pentru
 medicamente și doctori.
 
-### Pagina 25
-
 15 Obiceiuri pentru îmbunătățirea vederii
 24
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
 Întotdeauna este mai bine să previi decât să tratezi fiindcă adesea modifi-
 cările devin ireversibile, iar suferința oculară definitivă.
-
-### Pagina 26
 
 15 Obiceiuri pentru îmbunătățirea vederii
 25
@@ -612,8 +560,6 @@ important ca globul ocular să fie mereu umed pentru a avea mobilitate de
 mișcare, ce este posibil și prin intermediul clipitului. Pentru acest lucru sunt
 responsabile lacrimile, dar calitatea lacrimilor este determinată de ceea ce bei
 și ceea ce mănânci.
-
-### Pagina 27
 
 15 Obiceiuri pentru îmbunătățirea vederii
 26
@@ -641,8 +587,6 @@ mare de apă pe care le poți consuma oricând: pepenele verde sau galben, varza
 castraveții, căpșunile, cireșele, roșiile, etc.
 Dacă te simți slăbit pe parcursul zilei, acest lucru se poate datora faptului
 că organismul tău are nevoie de apă vie!
-
-### Pagina 28
 
 15 Obiceiuri pentru îmbunătățirea vederii
 27
@@ -672,13 +616,9 @@ ceai negru.
 Un alt tip de comprese benefice pentru ochii tăi sunt cele cu ceai de mușețel,
 cu felii de castraveți, ce te vor ajuta să ai ochii relaxați și energici.
 
-### Pagina 29
-
 PARTEA IV:
 ATENȚIA ȘI VEDEREA
 CLARĂ
-
-### Pagina 30
 
 15 Obiceiuri pentru îmbunătățirea vederii
 29
@@ -707,8 +647,6 @@ vizualizat-o în pasul anterior. Repetă procedeul până în momentul când sim
 și vezi vizual că nu mai există tensiune. Vei simți imediat ce eliberezi o parte
 din tensiune, cum ochii tăi devin mai relaxați, precum și senzații de răcoare
 
-### Pagina 31
-
 15 Obiceiuri pentru îmbunătățirea vederii
 30
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -720,8 +658,6 @@ unele părți din corpul meu se încordează.
 Alocă 2-3 minute pentru acest obicei, însă nu-l efectua înainte de somn,
 pentru că ai nevoie de energie și odihnă pentru a-l efectua, așadar îți reco-
 mand să-l efectuezi când ai energie.
-
-### Pagina 32
 
 15 Obiceiuri pentru îmbunătățirea vederii
 31
@@ -749,8 +685,6 @@ Sugestia mea este să fii conștient la modul cum reacționezi față de ceea ce
 vezi, față de orice vezi. Chiar dacă nu îți place ceea ce vezi, oricum nu îl poți
 schimba, mai ales că nu poți schimba comportamentul sau felul de a fi al
 
-### Pagina 33
-
 15 Obiceiuri pentru îmbunătățirea vederii
 32
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -763,8 +697,6 @@ Acest lucru a fost demonstrat de W. Bates care a și concluzionat că atunci
 când ne forțăm să vedem ceea ce vedem deja, iar această forțare este una
 mentală, va determina încordarea mușchilor oculari și implicit vederea va
 deveni încețoșată.
-
-### Pagina 34
 
 15 Obiceiuri pentru îmbunătățirea vederii
 33
@@ -794,8 +726,6 @@ Pentru ca ochii tăi să fie mai aproape de cum se întâmplă în natură, îț
 recomand ca în camera în care dormi să fie întuneric beznă, așa cum e firesc
 în natură fără lumină artificială, folosind o draperie opacă.
 
-### Pagina 35
-
 15 Obiceiuri pentru îmbunătățirea vederii
 34
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -814,8 +744,6 @@ carte care te ajută cu adevărat în viața ta - ci nu să te refugiezi aparent
 a te relaxa la un film.
 Dacă nu ai nimic de citit, mergi la o plimbare la aer curat pentru 30 de
 minute înainte de culcare- te va ajuta infinit mai mult decât să te uiți la un film!
-
-### Pagina 36
 
 15 Obiceiuri pentru îmbunătățirea vederii
 35
@@ -839,8 +767,6 @@ a ta, a modului în care tu ești. Deci schimbându-ți tiparele mentale vizuale
 schimbi pe tine... având în noua versiune o vedere clară!
 Schimbările nu vor avea loc peste noapte, ai răbdare, fii perseverent și rezul-
 tatele vor apărea în cele din urmă.
-
-### Pagina 37
 
 15 Obiceiuri pentru îmbunătățirea vederii
 36

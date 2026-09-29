@@ -1,5 +1,3 @@
-### Pagina 1
-
 Sistemul endocrin
 Sistemul endocrin are rol de comunicare și coordonare și se bazează în exercitarea
 funcțiilor sale pe hormoni (substanțe chimice ce sunt eliberate în sânge pentru a
@@ -16,8 +14,6 @@ Structura sistemului endocrin
 Glandele endocrine sunt: hipofiza, epifiza, hipotalamusul, tiroida, paratiroidele,
 timusul, suprarenalele, pancreasul endocrin, ovarele și testiculele.
 1
-
-### Pagina 2
 
 Hipofiza (glanda pituitară) are greutatea de 0,5 grame. Este formată din trei lobi,
 anterior, mijlociu și posterior, ultimul fiind conectat la hipotalamus. Hormonii secretați
@@ -37,8 +33,6 @@ alăptarea.
 Epifiza are formă conică și are ca principal hormon secretat melatonina, care
 acționează inhibator asupra glandelor sexuale și are efect hipoglicemiant.
 
-### Pagina 3
-
 Tiroida se găsește lângă laringe și trahee și are o greutate de aproximativ 30 de
 grame. Hormonii tiroidei sunt tiroxina și triiodotironina. Acțiunea acestora cuprinde:
 controlează creșterea și diferențierea celulară, reduc depozitele de lipide, intensifică
@@ -53,8 +47,6 @@ determină decalcifierea osoasă, iar hipofuncția lor conduce le dezvoltarea
 defectuoasă a dinților și întârzieri mintale.
 3
 
-### Pagina 4
-
 Timusul este un organ care se dezvoltă până în al doilea an de viață, după care
 rămâne staționar până la 14 ani, când se atrofiază și este înlocuit cu o grăsime.
 Limfocitele T, care își au originea în măduva hematogenă sunt diferențiate în timus.
@@ -67,8 +59,6 @@ Zona interioară a suprarenalelor secretă adrenalina și noradrenalina. Stresul
 suprasolicitările stimulează secreția medulosuprarenalei. În stări de stres cu care
 organismul este obișnuit crește nivelul noradrenalinei, iar în condiții de stres
 neobișnuit crește secreția adrenalinei.
-
-### Pagina 5
 
 Pancreasul endocrin este format din celule răspândite în interiorul pancreasului
 exocrin. Există două tipuri de celule, celule alfa, care secretă glucagonul și celule
@@ -94,8 +84,6 @@ devenind mai vâscos și impenetrabil pentru spermatozoizi.
 Testiculele produc testosteronul și inhibina. Testosteronul ajută la crearea spermei,
 dezvoltarea caracteristicilor bărbătești și la creșterea dorinței sexuale.
 5
-
-### Pagina 6
 
 SISTEMUL ENDOCRIN = totalitatea glandelor endocrine sau cu secretie interna.
 Hormonii sunt secretati de celulele endocrine sau neurosecretoare si de celulele
@@ -140,8 +128,6 @@ c. din interior: secreta hormoni sexosteroizi
 II. zona interioara- medulara: medulosuprarenala; neurosecretiile sunt:
 a. adrenalina (A)
 
-### Pagina 7
-
 b. noradrenalina (NA)
 TIROIDA: glanda endocrina nepereche, 20-30g, situata pe fata anterioara a gatului,
 are forma musculara H. Secreta:
@@ -170,14 +156,10 @@ Hipersecretia -> hipoglicemie severa, care perturba functionarea sistemului nerv
 - glucagonul are cel mai puternic efect hiperglicemiant
 7
 
-### Pagina 8
-
 RESPIRATIA
 Definirea organelor componenete ale sistemului respirator - Fosele nazale,
 Faringele, Laringele, Traheea, Bronhiile, Plamanii
 Sistemul respirator
-
-### Pagina 9
 
 Componentele sistemului respirator sunt caile respiratorii (cavitatea nazala, faringele,
 laringele, traheea, bronhia) si plamanii.
@@ -230,8 +212,6 @@ principal, respiratia pulmonara si respiratia celulara.
 Respiratia pulmonara
 9
 
-### Pagina 10
-
 Aceasta etapa a respiratiei cuprinde doua faze: patrunderea aerului in plamani
 (inspiratia); eliminarea aerului din plamani (expiratia), care dureaza mai mult decat
 inspiratia.
@@ -278,8 +258,6 @@ scoaterea dioxidului de carbon din oraganism, prevenind intoxicarea tesuturilor 
 aceasta substanta nefolositoare. Fara a fi constienti de acest lucru, sistemul
 respirator isi duce actiunile ce ne mentin in viata. Daca sistemul respirator este oprit
 
-### Pagina 11
-
 pentru mai multe minute, deteriorari grave, ireversibile apar in tesuturi, urmate de
 oprirea activitatii tuturor sistemelor, in sfarsit moartea.
  In timp ce inhalarea oxigenului si eliminarea dioxidului de carbon sunt
@@ -310,8 +288,6 @@ unde pot cauza o infectie. Filtrarea elimina de asemea si urmele de poluare si p
 ce pot infunda ingustele pasaje din cele mai mici bronhiole.
 11
 
-### Pagina 12
-
 Pasajele nazale umezesc si incalzesc de asemenea aerul pentru a preveni daunarea
 delicatelor membrane ale plamanilor. Membranele mucoase ale pasajelor nazale
 emana vapori de apa, cere umezesc aerul in timp ce acesta trece deasupra
@@ -337,8 +313,6 @@ Laringele
 Aerul trece din faringe in laringe, o structura lunga de aprox. 5 cm, locata pe la
 mijlocul gatului.. Mai multe straturi cartilaginoase, un strat dur si unul moale,
 
-### Pagina 13
-
 comprima mare parte din laringe. O parte din cartilaj numit Marul lui Adam se
 mareste uneori la barbati in timpul pubertatii, creand o ridicatura vizibila la gat.
 In timp ce rolul primar al laringelui este de a transporta aerul de la faringe la
@@ -358,8 +332,6 @@ tusire, reflex in care corpul incearca sa deblocheze laringele. Daca acest refle
 functioneaza, o persoana se poate ineca, o situatie ce poate fi uneori fatala.
 Traheea, bronhiile si bronhiolele
 13
-
-### Pagina 14
 
 Aerul trece din laringe in trahee, un tub lung de 12-15 cm localizat chiar sub
 laringe. Traheea este formata din 15 pana la 20 inele semicirculare cartilaginoase.
@@ -396,8 +368,6 @@ Fluxul de aer ce intra si iese din plamani este controlat de sistemul nervos, ce
 se asigura ca respiratia este regulata. Respiratia are loc zi si noapte si este un
 proces inconstient.
 
-### Pagina 15
-
 Totul incepe in creier in centrul respirator, unde mai multe celule nervoase
 trimit stimuli nervosi catre diafragma si muschii intercostali, muschi implicati in
 procesul de respiratie.
@@ -413,8 +383,6 @@ mai repede, de 30 de ori pana la 50 de ori pe minut.
 
 15
 
-### Pagina 16
-
 EXCRETIA
  Excretia este procesul de eliminare din organism a substantelor rezultate
 in urma activitatilor biochimice ale organismului . Substanta rezultata in urma
@@ -424,8 +392,6 @@ excretor .
 
  Aparatul excretor este alcatuit din : 1.Rinichi
  2.Caile urinare
-
-### Pagina 17
 
 1.Rinichii
  Sunt organe pereche , situate retroperitonal , de o parte si de alta a
@@ -446,8 +412,6 @@ abdominale . In jos loja renala este deschisa . Situarea lombo-abdominala a
 rinichiului explica de ce durerile renale pot fi resimtite lombar , abdominal sau
 pelvian , de ce tumorile renale se evidentiaza ca o masa abdominala si de ce
 17
-
-### Pagina 18
 
 flegmoanele perinefretice cu evolutie superioara imbraca simptomatologie
 toracica .
@@ -480,8 +444,6 @@ are forma unei cupe cu pereti dubli , marginind o cavitate ce continua tubul .
 In adancitura capsulara se afla un ghem de 4-12 bucle capilare (glomerul) ,
 care rezulta prin diviziunea arteriolei aferente si care se reunesc la iesirea din
 
-### Pagina 19
-
 capsula , in arteriola aferenta . Capsula interna cu glomerulul alcatuiesc
 capsulul renal Malpighi .
  - segmentul proximal este constituit dintr-o portiune contorta , tubul
@@ -512,11 +474,7 @@ medulara) si se deschid in venele interlobulare , apoi in venele arcuate .
 colecteaza in vena renala care se deschide in vena cava inferioara .
 19
 
-### Pagina 20
-
 [Nu a fost extras text din această pagină.]
-
-### Pagina 21
 
 Inervatia renala
  Provine din plexul situat in hilul organului format in majoritate din fibre
@@ -545,8 +503,6 @@ urmatoare, la nivelul tubilor , care reabsorb cea mai mare parte a filtratului g
 reabsorb total sau in mare cantitate substantele utile si in cantitate mica pe cele
 toxice . Substantele utile sunt substantele cu prag , care sunt eliminate prin urina
 21
-
-### Pagina 22
 
 numai cand concentratia lor sanguina a depasit limitele fiziologice (apa , glucoza ,
 NaCl , bicarbonatii , etc. ) . Substantele toxice sunt substante fara prag , eliminarea
@@ -578,8 +534,6 @@ vezica urinara , de unde cand se acumuleaza o anumita cantitate (250 - 300 ml) ,
 declanseaza reflex mictiunea - deschiderea sfincterului vezical si golirea vezicii .
 Mictiunea este un act constient , deschiderea si inchiderea sfincterului vezical putand
 
-### Pagina 23
-
 fi comandate voluntar . In afara de functia excretorie (formarea si eliminarea urinei) ,
 rinichiul are un rol predominant in mentinerea echilibrului acido-bazic , prin
 eliminarea de acizi si crutarea bazelor , mentinand pH-ul la cea 7,35 . Rinichii mai
@@ -604,8 +558,6 @@ reglarea tensiunii arteriale, prin eritropoietina controleaza eritropoieza , pri
 schimbarile ionice contribuie la mentinerea echilibrului acido-bazic ,iar prin
 homeostaza sa mentina constanti anumiti parametri interni .
 23
-
-### Pagina 24
 
 METABOLISMUL
  Metabolismul este o însușire de bază a tuturor organismelor vii. Principala
@@ -641,8 +593,6 @@ Bilanțul metabolic reprezintă valoarea raportului dinte asimilație (A) și de
 catabolismului), se consideră că bilanțul metabolic este pozitiv, iar când A/D este mai
 mic decât 1 (catabolismul este mai accentuat decât anabolismul), bilanțul este
 negativ.
-
-### Pagina 25
 
 Metabolismul bazal
 Metabolismul care se desfășoară în condiții de repaus total constituie metabolismul
@@ -685,8 +635,6 @@ energiei consumate și degajate în urma reacțiilor biochimice ce au loc.
 Metabolismul energetic vizează eliberarea energiei chimice potențiale din moleculele
 25
 
-### Pagina 26
-
 dezasimilate în urma transformărilor realizate pe baza metabolismului intermediar al
 substanțelor.
 Energia chimică potențială, în urma proceselor metabolice, se transformă în alte
@@ -722,8 +670,6 @@ niciuna dintre ele nefiind pe deplin satisfăcătoare.
  Denumirea de "glucide" provine de la grecescul "glichis", iar cea de zaharide, de la
 latinescul "saccharum", amândouă însemnând "dulce". Se știe însă, că nu toate
 glucidele sunt dulci și, pe de altă parte, că există compuși care deși sunt dulci, nu
-
-### Pagina 27
 
 sunt glucide.
 Denumirea de "hidrați de carbon" sau aceia sinonimă de "carbohidrați" pornește de la
@@ -765,8 +711,6 @@ acțiunea amilazei pancreatice, și a celei intestinale, astfel încât, se ajun
 glucoză, monoglucidă care traversează ușor pereții intestinali.
 27
 
-### Pagina 28
-
 Digestia și absorbția glucidelor
 Metabolismul energetic al omului este "planificat" să se desfășoare cu prioritate pe
 baza glucidelor. Dacă în organism se introduc cantități mari de lipide și de
@@ -790,8 +734,6 @@ poate urma o cale aerobă (în prezența îndestulătoare a oxigenului) sau una
 anaerobă (în lisa oxigenului).
 Catabolismul anaerob al glucozei poartă denumirea de glicoliză anaerobă. Prin
 glicoliza anaerobă, fenomen ce are loc mai ales la nivelul ficatului și a mușchilor
-
-### Pagina 29
 
 scheletici, glucoza se transformă în acid lactic, în urma trecerii succesive prin 10
 reacții chimice catalizate enzimatic. În ultima reacție, care este reversibilă, acidul
@@ -837,8 +779,6 @@ structura proteinelor).
 Așezarea aminoacizilor în lanțuri, nu se face hazardant, ci într-o anumită ordine,
 29
 
-### Pagina 30
-
 specifică fiecărei proteine. Biosinteza proteinelor se realizează sub influența
 materialului genetic (ADN, ARN), fiind comandată de către o genă specială. În celulă
 protidele sunt sintetizate pe ribozomi cu participarea ARN-t și ARN-m, sub influența
@@ -879,8 +819,6 @@ acido-bazic.
 75% din capacitatea de tamponare a plasmei este determinată de protide.
 Cele mai multe protide sunt solubile în apă. În alte soluții, dizolvabilitatea protidelor
 
-### Pagina 31
-
 este foarte diferită.
 Sub acțiunea unor factori fizici (temperaturi înalte, radiații, agitare, centrifugare) sau
 chimici (diferite substanțe) proteinele coagulează. Coagularea poate fi reversibilă (la
@@ -916,8 +854,6 @@ Clasificarea protidelor după forma macromoleculei
 După formă, proteinele sunt:
 - globulare (sunt sferice și vii),
 31
-
-### Pagina 32
 
 - fibrilare (sunt alungite și dure numindu-se și scleoproteide).
 Protidele globulare sunt sferice (globuloase), în timp ce cele fibrilare, au forma
@@ -955,8 +891,6 @@ prosteice (în cazul holoproteidelor). Această scindare se petrece în tubul di
 acțiune enzimelor specifice, numite proteaze .
 Puține proteine se pot absorbi, în mod normal, nedescompuse, așa cum se întâmplă
 în cazul unor anticorpi (IgA) conținuți în laptele matern, asigurându-se astfel, un
-
-### Pagina 33
 
 transfer de imunitate de al mamă la făt. În unele cazuri, permeabilitatea intestinală
 crește peste normal, putând trece în sânge protide nedescompuse. În astfel de
@@ -1002,8 +936,6 @@ hormonale și nervoase.
 Proteinele din sânge
 33
 
-### Pagina 34
-
 Prin sistemul circulator, protidele circulă libere, încorporate în diferite structuri sau ca
 niște "cărăuși" pentru diverse substanțe. Pe lângă proteinele din constituția
 elementelor figurate, în sânge se mai găsesc o serie de protide palsmatice, precum
@@ -1044,8 +976,6 @@ globuline, fie sub aspect relativ (albuminele sunt scăzute iar globulinele, de�
 nivel optim, sunt în exces de raport), fie absolut (globulinele sunt în exces cantitativ).
  Dacă A/G este mai mic de 1,2 ca o consecință a scăderii nivelului de albumine
 serice, în organism există un deficit în ceea ce privește sinteza globală a proteinelor .
-
-### Pagina 35
 
 Dacă raportul dintre albumine și globuline este prea mic pe seama creșterii sintezei
 de globuline, poate fi vorba de existența unor perturbări provocate de: boli infecțioase
@@ -1088,8 +1018,6 @@ sub forma unor picături extrem de fine, mult mai mici decât cele rezultate din
 emulsionarea biliară. Sub influența sărurilor biliare, alături de grăsimile emulsionate,
 35
 
-### Pagina 36
-
 apar și acizi grași saponificați.
 Acizii grași și glicerina, trec, liberi sau reesterificați, prin pereții intestinului subțire, în
 limfă și în sânge, în urma procesului de absorbție. Unele trigliceride din alimente, nu
@@ -1111,8 +1039,6 @@ obligatoriu și cele mai sănătoase.
 În circulația generală, lipidele și produșii lor de hidroliză enzimatică, ajung pe cale
 limfatică (75-85%) și pe cale sanguină, prin vena portă (15-25 %). O bună parte din
 lipidele care trec în limfă, ajung în plămâni, unde sub influența lipazei pulmonare sunt
-
-### Pagina 37
 
 oxidate. Acesta însemnă că, prin creșterea amplitudinii respirației, se pot arde în mod
 direct grăsimi.
@@ -1157,8 +1083,6 @@ glucozei, în timp ce arderea lipidelor va fi inhibată. Alcoolul, alături de c
 inhibă de asemenea oxidarea lipidelor (Rădulescu, 2004).
 37
 
-### Pagina 38
-
 În sens contrar, o masă bogată în grăsimi, va avea o acțiune inhibantă asupra
 insulinei, însă metabolismul lipidic nu se va intensifica, deoarece lipidele în exces,
 frânează, în același timp, activitatea tiroidei.
@@ -1202,8 +1126,6 @@ condiții:
 - să nu se administreze împreună cu lipidele.
 Date cu privire la lipidele din sânge
 
-### Pagina 39
-
 În afara unor dereglaje sau tulburări, sau temporar, în cazul unui regim alimentar
 bogat în grăsimi, componentele lipidice ale sângelui, se mențin în limite constante,
 grație unor mecanisme neurohormonale elaborate. Valorile normale sunt prezentate
@@ -1214,8 +1136,6 @@ Lipide totale Lipemie 500-700 mg% (5-7 g/l)
 Trigliceride Trigliceridemie max. 200mg% (2g/l)
 Colesterol Colesterolemie 120-180 mg% (1,2-1,8 g/l)
 39
-
-### Pagina 40
 
 SISTEMUL REPRODUCATOR
  Reproducerea este o caracteristica fundamentala a oricarei fiinte vii si se
@@ -1246,8 +1166,6 @@ fibros,denumit mediastinul testiculului,strabatuta de canale excretoare,vase de 
 si nervii testiculari.Din aceasta ingrosare pornesc spre interior septuri conjunctive
 care impart testiculul in 200-300 de lobuli.
 Ei au forma piramidala, cu baza spre albuginee si varful spre mediastin. Fiecare lobul
-
-### Pagina 41
 
 testicular contine 1-4 tubi semisferici contorti, in interiorul carora se formeaza gametii
 masculini(spermatozoizii). Tubii sunt separati intre ei prin tesut conjuctiv interstitial, in
@@ -1287,8 +1205,6 @@ transforma direct, fara diviziuni, in spermatozoizi.
 Spermatozoidul - gamet masculin - determina sexul produsului de conceptie. Este o
 41
 
-### Pagina 42
-
 celula de lungime 50-70 microni, constituita din cap, piesa intermediara si flagel. La
 partea anterioara prezinta un corpuscul ascutit - acrozomul - care contine o enzima
 ce faciliteaza patrunderea spermatozoidului in ovul in timpul fecundatiei. Piesa
@@ -1327,8 +1243,6 @@ maturi.
 Trompa uterina, organ pereche situat de o parte si de cealalta a uterului este un
 conduct care face legatura intre ovar si uter. Extremitatea dintre ovar are forma de
 palnie si prezinta numeroase franjuri, avand rolul de a capta si a conduce spre uter
-
-### Pagina 43
 
 ovulul expulzat.
 Uterul este un organ cavitar nepereche, situat median in pelvis, intre vezica si rect.

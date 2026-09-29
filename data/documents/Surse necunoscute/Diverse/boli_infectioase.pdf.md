@@ -1,5 +1,3 @@
-### Pagina 1
-
 1
 SCARLATINA
 
@@ -53,8 +51,6 @@ Moldamin 1,2 mil. la adult și 600.000 UI la copilul sub 2→ kg;
 cefalosporine de generația a III-a.
 - În anginele micotice – se administrează Nistatin 3-→ MU/zi la adult și 1-3 MU/zi la
 copil, 7-10 zile sau Fluconazol →0-100 mg/zi timp de 7-14 zile.
-
-### Pagina 2
 
 2
 b). Tratament simptomatic – antipiretice, analgezice
@@ -111,8 +107,6 @@ b). Formele severe
 tonice cardiovasculare.
 
 c). Tratamentul complicațiilor
-
-### Pagina 3
 
 3
 ● Bronhopneumonice - sau pneumonii se utilizează betalactamine + aminog licozid
@@ -171,8 +165,6 @@ suprainfectată
 :
 ● Terapie simptomatică - antipiretice (metamizol, algocalmin), antialgice
 
-### Pagina 4
-
 4
 ● Chimioterapie antivirală – Acyclovir se folosește în herpesul Zoster și în varicela
 la „grupurile de risc” (imunodeprimați), în doze de 3 0 mg/kg/zi, timp de →, 7, 10,
@@ -227,8 +219,6 @@ Terapie standard
 ● Ampicilină 12 g/zi la adult și 200-300 mg/kg/zi la copil
 ● Cefalosporină de generația a III-a (Ceftriaxonă 4 g/zi la adult și 100 mg/kg/zi la
 copil, sau Cefatoxim 8-12 g/zi, la adult și 200-300 mg/kg/zi la copil
-
-### Pagina 5
 
 5
 
@@ -290,8 +280,6 @@ Terapie alternativă
 
 ● Cefalosporină de generația a III-a, vancomicină,
 
-### Pagina 6
-
 6
 Meningita cu Streptoccocus agalactide
 ● Ampicilină sau Penicilină, Cefalosporină de generația a III-a, vancomicină,
@@ -347,8 +335,6 @@ boală, timp de 7-10 zile
 - antituberculoase în cvadruplă asociere (Izoniazidă →-10 mg/kg/zi; Rifampicină 10
 mg/kg/zi, Etambutol →-2→ mg/kg/zi, Pirazinamidă 1→-30 mg/kg/zi, Streptomicină
 
-### Pagina 7
-
 7
 1→ mg/kg/zi) administrată zilnic timp de 3 luni, apoi 3/7 sau 2/7 până la 9 luni, în
 funcție de evoluția clinică și a LCR
@@ -400,8 +386,6 @@ fiziologic, bicarbonat, asigurarea aportului energetic)
 cerebrolyzine)
 
 Tratament etiotrop
-
-### Pagina 8
 
 8
 - Aciclovir în encefalita herpetică, 30 mg/kg/zi intravenos, divizat în 3 prize (la
@@ -462,8 +446,6 @@ b). Laborator
 anaerobe
 - prelevare de sânge pentru determinarea T preexistent de anatoxină tetanică
 
-### Pagina 9
-
 9
 
 c). Tratament
@@ -515,8 +497,6 @@ c). Profilaxie
  – Vaccinarea antigripală
 - chimioprofilaxia cu Amantadina sau Rimantadina
 d). Durata de spitalizare ~ 7 zile
-
-### Pagina 10
 
 10
 
@@ -574,8 +554,6 @@ Escherichia Coli – Aminopeniciline
 Salmonella – Fluorchinolone
  - Cefalosporine gen. III ~ → zile
 
-### Pagina 11
-
 11
 
 Shigella – Acid nalidixic
@@ -631,8 +609,6 @@ Investigații
 aminoglicozideentului etiologic
  - Rgf. pulmonară
  - examenul lichidului pleural
-
-### Pagina 12
 
 12
 - CT toracic + bronhoscopia pentru diferențierea pneumo niilor
@@ -691,8 +667,6 @@ Pn. Carini cotrimoxazol Clindamicină + Primachine
 
 ●Pneumonia comunitară a adultului
 
-### Pagina 13
-
 13
 a). severitate medie (agenți etiologici: pneumococ, H. i nfl., Moraxella, Legionella,
 Chlamidya, My. Pneumoniae)
@@ -747,8 +721,6 @@ fungi)
 
 Pneumonia la imunodeprimați
 
-### Pagina 14
-
 14
 
 1. Neutropenic (Staf. BGN, fungi, virusuri, Pn. Carini)
@@ -802,8 +774,6 @@ II.DIAGNOSTIC ETIOLOGIC
 -serologic-evidentiere IgM antivirus urlian-RFC,Reactie de neutralizare,RIH
 -evidentiere Ac anti virus urlian din LCR-ELISA
 
-### Pagina 15
-
 15
 II.TRATAMENT
 1.Igieno - dietetic - spitalizare in complicatii,determineri extrasalivare
@@ -852,8 +822,6 @@ prize/zi
  - glucoza 10 %, sulfat de Mg
 - PEV cu vitamine B1, B6, C, calciu gluconic, reechilib rare volemica, H-E-
 Ringer, ser fiziologic, antiH2inj., antiacide, KCl 1-2 g/zi;
-
-### Pagina 16
 
 16
 III. Durata medie de spitalizare – 10 zile
@@ -904,8 +872,6 @@ pentru a evita pozitii vicioase-sprijin lateral cu saculete de nisip;
 - dieta-hidratare, asigurare calorii necesare, minerale , vitamine,
 calciu;
 - comprese calde si umede la nivelul zonelor dureroase;
-
-### Pagina 17
 
 17
 2. Simptomatic - analgezice, sedative usoare, antitermice;
@@ -958,8 +924,6 @@ Ac totali anti HVD
 *Ecografie abdominala
 *CT (computer tomograf) abdominal
 
-### Pagina 18
-
 18
 4.CUANTIFICAREA INCARCATURII VIRALE
 *AND-HVB;AND-HVD;ARN-HCV;
@@ -1009,8 +973,6 @@ I .DIAGNOSTIC PARACLINIC
  -Ac anti HVD totali
  -AgHVD
  -AgHBs
-
-### Pagina 19
 
 19
  * Hepatita virala acuta cu virus C-Ac anti HCV (totali )-apar dupa 7-31 sapt. de la
@@ -1062,8 +1024,6 @@ gluconic,vitamina C,venostat
 1-2g/kg/zi,Furosemid 1-2 g/kg/zi,1f la 12 h,HHC 400-600mg/zi la 6h
 12.Imunoglobuline specifice umane
 
-### Pagina 20
-
 20
 13.Interferon α 10 Mux3/sapt-3 luni;lamivudina 100mg/zi 3 luni
 
@@ -1112,8 +1072,6 @@ corticoterapie
 clinic
 *Alergici la peniciline-in forme usoare-Doxiciclin100mgx 2/zi-7zile,Tetraciclina 2-
 3g/zi la 6h; -Eritromicina 2-4g/zi la
-
-### Pagina 21
 
 21
 6h,Claritromicina 1g/zi la 12h-po,iv. –Cloramfenicol
@@ -1167,8 +1125,6 @@ Diagnostic specific – serologic:
  +
  IDR cu trichinelină (săptămâna a 3-a)
  ± biopsie musculară (săptămâna 3 - 4 de boală)
-
-### Pagina 22
 
 22
 
@@ -1224,8 +1180,6 @@ Categorii de risc pentru animal :
 - minor – animal aparent sănătos, sau provocat, care poate fi urmărit
  10-14 zile
 
-### Pagina 23
-
 23
 - mediu – animal
 • bolnav
@@ -1276,8 +1230,6 @@ Confirmarea diagnosticului
  :
 - ecocardiografie
 - ecografie cardiaca transesofagiana
-
-### Pagina 24
 
 24
 - ecografie abdominala / CT – pentru identificarea dete rminarilor
@@ -1370,8 +1322,6 @@ antifungic)
 • In toate conditiile se va evalua necesitatea interventi ei chirurgicale de
 urgenta (in primele 14 zile)
 
-### Pagina 25
-
 25
 
 ENDOCARDITA CERTA
@@ -1443,8 +1393,6 @@ aminoglicozid
 Fluorchinolone +
 aminoglicozid
 Carbapeneme
-
-### Pagina 26
 
 26
 Bacil piocianic Carbapeneme
@@ -1559,8 +1507,6 @@ Carbapeneme
 
 14 – 21
 zile *
-
-### Pagina 27
 
 27
 saprophyticu
@@ -1706,8 +1652,6 @@ Carbapeneme
 zile inj.
 apoi 2 –
 
-### Pagina 28
-
 28
 medular * BGN aminoglicozid
 Fluorochinolone inj
@@ -1758,8 +1702,6 @@ SIRS ( Systemic Inflammatory Response Syndrome)
 SEPSIS = SIRS + dovada clinica / paraclinica a prezentei unei bacterii
 SEPSIS SEVER = SEPSIS + o insuficienta de organ / sistem
 
-### Pagina 29
-
 29
 Criterii care definesc insuficienta de organ / sistem
 
@@ -1806,8 +1748,6 @@ Diagnostic bacteriologic
 -culturi din lichide / umori normal sterile ( LCR, lichid pleural, lichid pericardic,
 lichid articular etc.)
 
-### Pagina 30
-
 30
 -culturi din focarele septice
 
@@ -1840,8 +1780,6 @@ piocianic)
 
 
 Propuneri de terapie specifica ( dupa izolarea si identificarea agentului etiologic )
-
-### Pagina 31
 
 31
 AGENTUL
@@ -1910,8 +1848,6 @@ lactamaze
 Cloramfenicol
 BGN Cefalosporine gen. III Fluorchinolone +
 
-### Pagina 32
-
 32
 / Tazocin +
 aminoglicozid
@@ -1951,8 +1887,6 @@ D.Tratamentul igieno – dietetic
 - repaus la pat
 - dieta usoara ( in functie de toleranta individuala )
 - asigurarea conditiilor de izolare pentru prevenirea suprainfectiilor
-
-### Pagina 33
 
 33
 - controlul si igiena integritatii tegumentelor, mucoaselor, a cateterelor si a

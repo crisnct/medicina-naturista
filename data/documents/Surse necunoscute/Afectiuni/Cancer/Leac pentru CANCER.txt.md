@@ -1,0 +1,2 @@
+- Pelinita (Artemisia Annua)
+- Fier

@@ -1,5 +1,3 @@
-### Pagina 1
-
 \ici să începeți să citiți!
 Scrisoarea Modulelor 1 și 2
 Tocmai ați desfăcut un colet ce conține tratamentul pe primele 2 luni de zile ale Școlii de slăbire din grăsime
@@ -48,8 +46,6 @@ lincutiace ațiprimit-o în colet șiînmuiațiîn urinăcapătul cu cele două 
 imp de un minut(deci primul minut după înmuierea în urină urmăriți schimbareade culoare a plăcuței bej).
 " Școala de slăbiredin grăsime dr.Veress" -Cursuri Ia distanță
 Modulul 1și2, 2008
-
-### Pagina 2
 
 Plăcuța verde nu ne interesează. (la diabeticii care au zahăr în urină aceasta se colorează în maro).
 \.tunci când se topesc, depozitele de grăsime sunt eliminate prin urină iar acest lucru poate fi evidențiat prin faptul ca plăcuța
@@ -105,8 +101,6 @@ e pot continua tratamente le cu calciu,dar nu și cele cu săruri de fier.
 " Școala de slăbire din grăsime dr.Veress" -Cursuri la distanță
 Modulul! și 2,2008
 
-### Pagina 3
-
 anghinare
 arpagic
 broccoli
@@ -160,8 +154,6 @@ ou fiert tare sfărâmat
 srnântână
 "Scoala de slăbire din grăsime dr.Yeress"- Cursuri la distanță 2008
 
-### Pagina 4
-
 • Dresing:
 -cu ulei și oțet,condimente și suc de lămâie (max.
 3 linguri țe)
@@ -201,8 +193,6 @@ muscular dacă nu sport, mâncați cât mai puțin din dieta propusă (dar nicio
 peste vreo masă sau să vă infometați); măriți cantitateade grăsimi față de cea de carne(cu
 srnântână.maioneză.untură ...),nu luați medicamente care frânează slăbirea.
 "Scoala de slăbire dingrăsime dr.Veress"-Cursuri18 distanță2008
-
-### Pagina 5
 
 Regimul dietetic alModulelor 1 și2,::
 Acest regim estecontraindicat și chiar interzis bolnavilor care fac tratament cuinjecții de
@@ -250,8 +240,6 @@ Sote de ciuperci cu maioneză
 ,'\
 "Școala de slăbire din grăsime dr.Veress"-Modulul 2,2006
 
-### Pagina 6
-
 VINERI
 Mic dejun
 Pastă de pește cu 1-5 măsline,cu 1-2 felii de cașcaval sau brânză telemea
@@ -298,8 +286,6 @@ pahare de 200ml de apă. Pentru alte informații,despre regim citițiși la pagi
 de dietă, primită tot în colet.
 "Școala de slăbire din grăsimedr.Veress"- Modulul 2,2006
 
-### Pagina 7
-
 Cantitatile de mai jos contineate 5 gr de Carbohidrati
 Legume
 % cana de spanac fiert (sau sote)
@@ -331,8 +317,6 @@ Sucuri
 1,4 cana de suc de lamaie
 IA cana de suc de lamaie verde
 V2 cana de suc de rosii
-
-### Pagina 8
 
 Cantitatile de mai jos continca te 10 gr de Carbohidrati
 Nuci, alune si seminte
@@ -379,8 +363,6 @@ IAcana de boabe de porumb
 1 felie paine neagra
 1/3 cana de cereale din faina integrala de grau
 IA cana de spanac
-
-### Pagina 9
 
 ALIMENT GRAME CARBOHIDRA ȚI
 LAPTE, SMANTANĂ ȘIUNT
@@ -475,8 +457,6 @@ Bame(l20g) 7,5
 "Școala de slăbire dingrăsime dr.Veress"- Cursuri
 ladistanță, 2008
 /-----
-
-### Pagina 10
 
 ALIMENT GRAME CARBOHIDRA ȚI
 Broccoli (jumate de cană) 3,9

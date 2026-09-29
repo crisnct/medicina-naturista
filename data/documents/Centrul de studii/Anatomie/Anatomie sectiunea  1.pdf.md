@@ -1,5 +1,3 @@
-### Pagina 1
-
 1 FUNCTIILE FUNDAMENTALE
  ALE ORGANISMULUI UMAN
 A. Functii de Relatie
@@ -18,8 +16,6 @@ La originea sistemului nervos central se afla prima foita embrionara: ectodermul
 prin procesele proliferative si segmentative vor lua nastere o serie de formatiuni ca: placa
 neurala; santul neural limitat de crestele neurale, procese finalizate prin realizarea tubului
 neural, care se separa de ectoderm si se dispune axial in masa embrionara.
-
-### Pagina 2
 
 -Maduva spinarii:
 Este situata in canalul vertebral si corespunde in general segmentatiei corpului. Se
@@ -59,8 +55,6 @@ Cerebelul este un segment derivat din metencefal, situat caudal de emisferele ce
 pe partea dorsala a trunchiului cerebral. Se solidarizeaza de segmentele limitrofe prin
 intermediul celor trei perechi de pedunculi cerebelosi: rostrali, mijlocii si caudali fiind astfel legat
 de mezencefal, punte si bulb.
-
-### Pagina 3
 
 Cerebelul, este plasat pe caile sensibilitatii si motilitatii, intervine in mentinerea si
 modificarea tonusului muscular si in coordonarea miscarilor.
@@ -102,8 +96,6 @@ cerebelul.
 -Arahnoida este o membrana subtire de natura conjunctivo-vasculara; realizeaza cu
 duramater spatiu subdural, iar cu piamater spatiul leptomeningic.
 
-### Pagina 4
-
 -Piamater este o foita conjunctivo-vasculara foarte subtire, aderenta la substanta
 nervoasa, emite ligamentele dintate pentru insertia pe duramater. Piamater craniala formeaza
 panzele coroidiene.
@@ -140,8 +132,6 @@ Nervul hipoglos (inerveaza musculatura intrinseca si extrinseca a limbii).
 Nervii spinali sunt perechi metamerice. Ei rezulta din unirea radacinii dorsale si ventrale
 medulare.
 Nervii cervicali sunt in numar de 8 perechi fiecare cu cate o ramura dorsala si una
-
-### Pagina 5
 
 ventrala. Ramura ventrala se indreapta spre muschii drepti dorsali ai capului, muschii cervico-
 auriculari si temporo-auriculari pe care ii inerveaza.
@@ -182,8 +172,6 @@ si
 - o componenta periferica, situata in afara axului cerebro-spinal, reprezentata de fibre si
 ganglioni vegetativi.
 
-### Pagina 6
-
 Sistemul ortosimpatic cuprinde centrii vegetativi, fibre nervoase si ganglioni nervosi.
 Ortosimpaticul prezinta portiunile:
 - Ortosimpaticul cefalic isi are originea in maduva spinarii la nivelul segmentelor T1- T6.
@@ -213,8 +201,6 @@ preganglionare parasesc maduva o data cu radacinile dorsale, ajungand prin inter
 ramurilor ventrale ale nervilor pudend si hemoroidal, la plexul pelvin, de unde filetele
 postganglionare se indreapta spre organele din cavitatea abdominala si pelvina pe care le
 inerveaza.
-
-### Pagina 7
 
 ANALIZATORII
 
@@ -247,8 +233,6 @@ Sensibilitatea este funcția unor celule numite receptori care apar și se difer
 treptat în cursul evoluției regnului animal și se exercită ca funcție a unui aparat specific denumit
 sistem de integrare senzorială sau analizator.
 
-### Pagina 8
-
 Analizatorul Cutanat (pielea)
 
 Pielea este un imens camp receptor datorita numeroaselor si variatelor terminatii ale
@@ -262,8 +246,6 @@ excretoare ale glandelor sudoripare.
 Derma, situata sub epiderma, este alcatuita din tesut conjunctiv. Stratul superficial al dermei
 formeaza spre epiderma papilele dermice. Derma contine canalele de excretie ale glandelor
 sudoripare, o retea vasculara si receptori nervosi.
-
-### Pagina 9
 
 Receptorii sunt: terminatiile nervoase libere (receptori ai tactului si presiunii), discurile Merkel
 (de percepere a proprietatilor fine ale obiectelor), corpusculii Meissner (de percepere a
@@ -309,8 +291,6 @@ Cornee
 Nespecifici, care
 determina leziuni celulare
 
-### Pagina 10
-
 ...Analizatorul Vizual
 a) Segmentul periferic al analizatorului vizual este localizat pe retina, gazduita de globul ocular
 care impreuna cu organele sale anexe formeaza ochiul situat in cavitatea orbitala. Globul ocular
@@ -340,8 +320,6 @@ Astfel, mai multe celule fotoreceptoare converg la un neuron bipolar si mai mult
 converg la un neuron multipolar. La nivelul foveei centralis, unde se afla exclusiv celule cu
 conuri, nu se manifesta convergenta. Un neuron multipolar, impreuna cu neuronii bipolari, care
 converg la acesta, si cu celulele fotoreceptoare, care converg la neuronul bipolar, formeaza o
-
-### Pagina 11
 
 unitate functionala. Acuitatea vizuala depinde de structura unitatilor functionale asupra carora
 actioneaza lumina .
@@ -386,8 +364,6 @@ luminii si acomodare la distanta, asigura focalizarea razelor de lumina la 24 mm
 cristalinului, pe directia axului optic, unde se afla pata galbena. Imaginea, formata pe retina
 dupa o tripla refractie, este reala, mai mica si rasturnata.
 
-### Pagina 12
-
 Procesul vederii cuprinde mai multe faze care se desfasoara concomitent.
 a) Reflexul de convergenta - consta in miscarea concomitenta a celor doi ochi, avand ca
 urmare modificarea pozitiei axelor optice si reperarea corecta a obiectelor in spatiu. Procesul
@@ -430,8 +406,6 @@ in retinol si opsina (derivat al vitaminei A), cu eliberare de energie. Aceste p
 cresterea permeabilitatii membranei celulei receptoare pentru sodiu si aparitia potentialului de
 receptor.
 
-### Pagina 13
-
 Transformarea potentialului de receptor al celulelor senzoriale in potential de actiune este
 condus sub forma de influx nervos modulat de catre celulele bipolare. Refacerea pigmentilor
 este proces de sinteza in care un rol important il are vitamina A.Pentru a provoca excitatia
@@ -471,8 +445,6 @@ productivitatea, minimaliza obosirea vizuala si pot relaxa intreg corpul.
  Culoarea regilor era purpuriu. Pentru persoanele importante, se desfășoară covoare roșii. In
 unele culturi se credea ca anumite culori aveau puteri energizante sau vindecătoare. De
 exemplu, o pictura a lui Jan Van Eyeck (1434) descrie o mireasa in perioada Renascentista
-
-### Pagina 14
 
 purtând o rochie verde ,arătând, astfel dorința si posibilitatea de a purta copii. Omul Verde era
 zeul fertilității in cultura celta. Verdele era o culoare sacra pentru egipteni, reprezentând
@@ -518,8 +490,6 @@ milioane $ pe an.
 Spitalele folosesc albastru si purpuriu in sălile de așteptare pentru a ajuta la calmarea
 pacienților.
 
-### Pagina 15
-
 Vederea Stereoscopica
 Oamenii si celelalte animale care sunt capabile sa focalizeze cu ambii ochi asupra unui
 singur obiect sunt capabile de vedere stereoscopica, care este fundamentala pentru o percepție
@@ -561,8 +531,6 @@ de corp strain in ochi
 Igiena vederii, evitarea factorilor
 nocivi, ochelari de soare
 
-### Pagina 16
-
 Analizatorul olfactiv
 
 Analizatorul olfactiv receptioneaza si prelucreaza informatiile referitoare la proprietatile chimice
@@ -582,8 +550,6 @@ olfactive, care se proiecteaza in cortex.
 3). Segmentul central este reprezentat de paleocortexul olfactiv, aria de protectie primara a
 aferentelor olfactive.
 Analizatorul olfactiv
-
-### Pagina 17
 
 Segmentul periferic al analizatorului olfactiv este reprezentat de celulele olfactive din mucoasa
 olfactiva.Asa cum s-a mai aratat,mucoasa olfactiva are o suprafata de circa 2-3 cm²,acoperind
@@ -633,11 +599,7 @@ la disparitie,a intensitatii senzatiei olfactive pentru anumite substante care a
 indelungat saupra celulelor olfactive. Sensibilitatea olfactiva pentru aceste substante reapare
 insa daca excitarea receptorilor este intrerupta pentru o perioada de timp prin inlaturarea
 
-### Pagina 18
-
 substantei excitante.Adaptarea este specifica pentru fiecare substanta in parte.
-
-### Pagina 19
 
 Analizatorul gustativ
 Simtul gustului are rolul de a informa asupra calitatii alimentelor introduse in gura, dar
@@ -655,8 +617,6 @@ Simtul gustului prezinta o mare adaptabilitate, senzatia gustativa disparand chi
 persista; de aceea, pentru a simti in continuare gustul unui aliment introdus in gura acesta
 trebuie sa fie miscat si sa stimuleze permanent noi receptori.
 Mugurii gustativi
-
-### Pagina 20
 
 Segmentul periferic al analizatorului gustativ este reprezentat de mugurii gustativi din mucoasa
 linguala.Ei sunt asezati la nivelul papilelor
@@ -705,8 +665,6 @@ tipuri interme-
 diare care dau gustul variat al alimentelor.Ele reprezinta combinatii ale tipurilor fundamentale,la
 care se adauga senzatiile olfactive si bucofaringiene provocate de contactul cu alimentele.
 
-### Pagina 21
-
 Numai o mica parte din receptorii gustativi sunt stimulati de toate cele patru tipuri de
 substante.Majoritatea mugurilor gustativi au o oarecare specificitate pentru una din cele patru
 tipuri de substante.
@@ -731,8 +689,6 @@ muguri gustativi. Temperaturile prea ridicate sau prea scazute reduc intensitate
 gustative.Un alt factor il constituie starea mucoasei linguale;cand aceasta este prea uscata sau
 acoperita cu depozite provenite din descuamarea epiteliului, intensitatea senzatiei gustative
 scade.
-
-### Pagina 22
 
 Analizatorul motor (kinestezic)
 a) Segmentul periferic este constituit din proprioceptori situati in muschi, tendoane, aponevroze,
@@ -772,13 +728,9 @@ ratei alungirii, iar celelalte doar la modificarile lungimii.
 In conditii obisnuite miscarea este initiata prin descarcarea concomitenta a impulsurilor atat din
 motoneuroni cat si din fibrele eferente gama, iar scurtarea fusului , odata cu cea a muschiului,
 
-### Pagina 23
-
 face ca descarcarile fusului sa continue in tot timpul contractiei. Astfel, fusul iti mentine
 capacitatea de a raspunde la intindere si de a ajuta reflex descarcarile motoneuronului in tot
 timpul contractiei. Neuronii motori ai fibrelor aferente gama sunt influentati de la nivel cerebral.
-
-### Pagina 24
 
 Analizatorul acusctico-vestibular
 Ureche :

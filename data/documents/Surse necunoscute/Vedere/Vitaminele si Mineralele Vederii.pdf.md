@@ -1,8 +1,4 @@
-### Pagina 1
-
 [Nu a fost extras text din această pagină.]
-
-### Pagina 2
 
 Cuprins
 Partea I: Vitaminele Vederii
@@ -18,12 +14,8 @@ Partea III: Influența Alimentației Asupra Vederii
 8. Cât de mult influențează alimentația vederea ta? 26
 9. Efectele unei alimentații sănătoase 28
 
-### Pagina 3
-
 PARTEA I: VITAMINELE
 VEDERII
-
-### Pagina 4
 
 Vitaminele și mineralele vederii
 3
@@ -55,8 +47,6 @@ să devină un obicei la fel de important ca respiratul sau somnul.
 O masă trebuie să conțină nutrienții de care corpul tău are nevoie. Având în
 vedere că multe din vitamine sunt distruse atunci când gătim mâncarea, câte
 substanțe nutritive crezi că se mai găsesc în mâncarea ta după ce o gătești?
-
-### Pagina 5
 
 Vitaminele și mineralele vederii
 4
@@ -99,8 +89,6 @@ Vitaminele sunt substanțe organice - nutrienți, biocatalizatori - de care
 corpul tău are nevoie în cantități relativ mici dar care au un efect foarte puternic.
 Ele sunt necesare pentru funcționarea normală a fiecărui organ din corpul
 
-### Pagina 6
-
 Vitaminele și mineralele vederii
 5
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -135,8 +123,6 @@ Vitaminele necesare pentru sănătatea ochilor tăi sunt în principal:
 Hidrosolubile: C și toate vitaminele din complexul B
 Liposolubile: A, E și D.
 
-### Pagina 7
-
 Vitaminele și mineralele vederii
 6
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -168,8 +154,6 @@ procesele de bază din organism - chiar și în tratarea cancerului (administrat
 intravenos are un efect toxic asupra celulelor cancerigene, ajutând sistemul
 imunitar să lupte cu boala).
 Există sub mai multe forme, dar cea mai cunoscută și utilizată este
-
-### Pagina 8
 
 Vitaminele și mineralele vederii
 7
@@ -212,8 +196,6 @@ pahare opace nu transparente, prin care poate trece lumina.
 Principalul inamic al vitaminei C este tutunul. Acesta înjumătățește can-
 titatea de vitamina C asimilată pe parcursul unei zile. Același lucru este valabil
 
-### Pagina 9
-
 Vitaminele și mineralele vederii
 8
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -252,8 +234,6 @@ ce trebuie să faci e să diversifici alimentele din dieta ta zilnică.
 Dacă suferi de afecțiuni ale stomacului utilizează un conținut mai mare de
 vitamina C, pentru ca de exemplu arsurile la stomac indică o lipsă de vitamine,
 în special vitamina C - obținut ușor dintr-un suc proaspăt de fructe.
-
-### Pagina 10
 
 Vitaminele și mineralele vederii
 9
@@ -296,8 +276,6 @@ bogate în vitaminele din acest complex sunt: cerealele integrale, tărâța, f�
 integrală, drojdia de bere, grâul încolțit, legumele cu frunze verzi, soia, mig-
 dalele, avocado și bananele.
 
-### Pagina 11
-
 Vitaminele și mineralele vederii
 10
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -328,8 +306,6 @@ Sursa vegetală se mai numește și beta-caroten. Betacarotenul este întotdeaun
 non-toxic, oricât de multe fructe și legume ai consuma. Acesta funcționează ca
 un antioxidant. În momentul în care ajunge în organism, va fi transformată în
 vitamina A de către ficat doar daca organismul are carențe în această vitamină.
-
-### Pagina 12
 
 Vitaminele și mineralele vederii
 11
@@ -372,8 +348,6 @@ Când xeroftalmia avansează, corneea (lentila naturală a ochilor) se înmoaie
 foarte mult, ceea ce poate duce la orbire. În cazuri mai grave pot apărea ulce-
 rații ale mucoasei oculare și chiar ale corneei, fapt ce poate provoca opacizare
 
-### Pagina 13
-
 Vitaminele și mineralele vederii
 12
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -413,8 +387,6 @@ Surse de vitamina E: semințe de floarea soarelui, nuci, migdale, alune, ger-
 meni de grâu, semințe de soia prăjite, tărâțe, ulei de germeni de grâu, ulei de
 soia, ulei de porumb, ulei de susan, cereale integrale.
 Necesarul zilnic de tocoferol este diferit 25mg (pentru copii femei sau
-
-### Pagina 14
 
 Vitaminele și mineralele vederii
 13
@@ -456,8 +428,6 @@ Razele ultraviolete care produc această vitamină nu pot penetra sticla, deci
 este inutil să stai în mașină sau cu balconul închis ca să îți iei doza zilnică de
 vitamina D.
 
-### Pagina 15
-
 Vitaminele și mineralele vederii
 14
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -492,8 +462,6 @@ fie au capacitatea de a stimula, fie au efectul unui sedativ.
 Vitaminele A, C, E, B1, B3, B6 si B10 au efect de stimulare, în timp ce
 vitaminele D si B2 au efect de sedare, relaxare.
 
-### Pagina 16
-
 Vitaminele și mineralele vederii
 15
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -516,12 +484,8 @@ Fumatul reduce cantitatea de vitamina C din organism - renunță la fumat
 și compensează deficitul acestei vitamine consumând o cantitate sporită de
 fructe și legume bogate în vitamine.
 
-### Pagina 17
-
 PARTEA II: MINERALELE
 VEDERII
-
-### Pagina 18
 
 Vitaminele și mineralele vederii
 17
@@ -555,8 +519,6 @@ Cel mai mare nivel de minerale se va găsi în partea exterioară a plantei,
 adică în frunze, deoarece acolo are loc fotosinteza și transformarea materiei
 anorganice în materie organică.
 
-### Pagina 19
-
 Vitaminele și mineralele vederii
 18
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -588,8 +550,6 @@ Spre exemplu 100 de grame de semințe de susan conțin 1290 mg de calciu,
 iar 500 ml de lapte conține doar 590 mg calciu. Diferența este foarte evidentă.
 La fel este și cazul frunzelor verzi ale plantelor (iarba de grâu care se obține
 după ce încolțește grâul). Acestea conțin o cantitate foarte mare de calciu.
-
-### Pagina 20
 
 Vitaminele și mineralele vederii
 19
@@ -630,8 +590,6 @@ Zincul influențează metabolismul vitaminei A și sensibilitatea olfactivă.
 Astfel zincul influențează în mod pozitiv retina. El se găsește în proporție
 ridicată în maculă, care este partea centrală a retinei.
 
-### Pagina 21
-
 Vitaminele și mineralele vederii
 20
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -669,8 +627,6 @@ deci și la mușchii oculari. Deficiența de fier, cunoscută sub numele de anem
 poate fi agravată când cantitatea de vitamina A din corpul tău este foarte mică.
 De aceea, suplimentarea fierului (din alimentație) împreună cu vitamina A
 
-### Pagina 22
-
 Vitaminele și mineralele vederii
 21
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -704,8 +660,6 @@ vitamina C este metabolizată foarte ușor.
 Sursele bogate în cupru sunt: avocado, nucile și semințele, precum și legu-
 mele cu frunze verzi ca de exemplu spanacul.
 
-### Pagina 23
-
 Vitaminele și mineralele vederii
 22
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -732,13 +686,9 @@ De asemenea se mai găsesc în alge și în peștele oceanic (macrou, somon,
 păstrăv, ton). Algele conțin foarte mulți acizi grași esențiali. Deficiențele de
 acizi grași în rândul adulților produc retinopatii.
 
-### Pagina 24
-
 PARTEA III: INFLUENȚA
 ALIMENTAȚIEI ASUPRA
 VEDERII
-
-### Pagina 25
 
 Vitaminele și mineralele vederii
 24
@@ -772,8 +722,6 @@ Dar din păcate aceste tipuri de pastile sunt mai dificil de găsit și prețul 
 este mult mai ridicat. Dar chiar dacă prețul este mai mare decât al suplimen-
 telor chimice, pe termen lung beneficiile sunt mult mai mari.
 
-### Pagina 26
-
 Vitaminele și mineralele vederii
 25
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -792,8 +740,6 @@ Mai mult, un studiu efectuat în vara anului 2014 de un grup de cercetare
 independent a observat că vitaminele din provenință chimică, ce sunt antio-
 xidanți și teoretic trebuie să împiedice/încetinească procesul de îmbătrânire,
 produc exact opusul - adică accelerează procesul de îmbătrânire a corpului.
-
-### Pagina 27
 
 Vitaminele și mineralele vederii
 26
@@ -826,8 +772,6 @@ vederii.
 În lipsa unei alimentații sănătoase bogate în vitamine, adică efectuând doar
 exerciții sau aplicând câteva din obiceiurile zilnice, vederea ta va fi îmbună-
 tățită parțial sau chiar deloc.
-
-### Pagina 28
 
 Vitaminele și mineralele vederii
 27
@@ -866,8 +810,6 @@ Problemele retinei, maculei sunt probleme cauzate din punct de vedere
 bio-chimic de excesul de calciu care nu a fost nici eliminat, nici absorbit de
 organism și este stocat în corp formându-se calcifieri.
 
-### Pagina 29
-
 Vitaminele și mineralele vederii
 28
 Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
@@ -899,8 +841,6 @@ Totuși urmează și următoarele sfaturi pe care ți le recomand:
 Redu sau elimină consumul de carne, lapte, brânzeturi și alte produse lactate.
 Pentru că acestea conțin un nivel ridicat de colesterol și elimină substanțele
 nutritive din corpul tău - deci va bloca îmbunătățirea vederii tale.
-
-### Pagina 30
 
 Vitaminele și mineralele vederii
 29

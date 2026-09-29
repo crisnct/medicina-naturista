@@ -1,5 +1,3 @@
-### Pagina 1
-
 Clinical Evaluation of Recombinant
 Hepatitis
 
@@ -364,8 +362,6 @@ patient
 suffering
 2
 .
-
-### Pagina 2
 
 Diagnostic Failures and the Progression of Wild-Type
 Infection
@@ -844,8 +840,6 @@ immunization
 6
 . While the majority of these events are transient and localized, a significant portion represents
 
-### Pagina 3
-
 severe, life-threatening, or disabling pathology
 6
 . Specifically, 13,354 cases (17.4% of the entire
@@ -1068,8 +1062,6 @@ Standard Hospitalizations 9,421 12.3%
 6
 Prolonged 907 1.2%
 6
-
-### Pagina 4
 
 Hospitalizations
 Female Cohort 40,078 52.1%
@@ -1375,8 +1367,6 @@ first
 dose
 1
 . Clinical case series have
-
-### Pagina 5
 
 documented a positive re-challenge of symptoms—where neurological deficits recurred or
 intensified
@@ -1829,8 +1819,6 @@ death
 5
 .
 
-### Pagina 6
-
 Long-term follow-up showed that a substantial portion of these patients never fully recovered
 5
 .
@@ -1982,8 +1970,6 @@ Spinal cord inflammation, paraparesis, sensory loss, and bladder
 3
 High rate of permanent motor deficit
 5
-
-### Pagina 7
 
 dysfunction
 3
@@ -2181,8 +2167,6 @@ easily
 cleared
 6
 . It accumulates in various tissues, including bones, the liver,
-
-### Pagina 8
 
 lungs, and the nervous system
 6
@@ -2655,8 +2639,6 @@ database
 6
 . Disproportionality analysis using
 
-### Pagina 9
-
 Reporting Odds Ratios (ROR) has revealed highly elevated risks for specific, severe muscle and
 connective
 
@@ -3009,8 +2991,6 @@ Administered globally to infants, children, and adults, often as a mandatory con
 6
 .
 
-### Pagina 10
-
 identifiable risk factors
 2
 .
@@ -3245,8 +3225,6 @@ first
 dose
 3
 .
-
-### Pagina 11
 
 ● Evaluating the Patient's Total Adjuvant Burden: Before administering adjuvanted
 vaccines,
@@ -3538,8 +3516,6 @@ implant
 
 PubMed,
  8. Musculoskeletal adverse events reported post-hepatitis B vaccination in the
-
-### Pagina 12
 
 vaccine adverse event reporting system - PMC, 9. Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders - NCBI, 10. We're collecting information on hepatitis B vaccination and ME/CFS – can you
 help?

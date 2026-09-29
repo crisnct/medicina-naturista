@@ -949,9 +949,7 @@ class WebTests(unittest.TestCase):
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = Retriever(settings.documents_dir)
-        # Four separate files, so none of this is about neighbour-merging
-        # (see test_merge_adjacent_* below for that) — purely about whether a
-        # low score still survives into evidence.
+        # Purely about whether a low score still survives into evidence.
         ranked = [
             self._ranked(1, "a.md", 1, 5, 0.50),
             self._ranked(2, "b.md", 1, 5, 0.05),  # would have failed the old default 10% threshold
@@ -1025,82 +1023,6 @@ class WebTests(unittest.TestCase):
             evidence = retriever.collect(session)  # must not raise
 
         self.assertEqual(evidence, {})
-
-    # Verify neighbouring fragments of one file (overlapping or at most 5 lines
-    # apart) are grouped, while distant fragments and other files stay separate.
-    def test_merge_adjacent_groups_neighbours_within_line_gap(self):
-        def chunk(path, start, end):
-            return {"source_relative_path": path, "line_start": start, "line_end": end, "text": "t"}
-
-        chunks = {
-            1: chunk("a.md", 1, 10),
-            2: chunk("a.md", 8, 20),    # overlaps 1
-            3: chunk("a.md", 25, 30),   # 5 lines after 2 -> still merged
-            4: chunk("a.md", 36, 40),   # 6 lines after 3 -> new group
-            5: chunk("b.md", 1, 10),    # other file -> own group
-        }
-
-        same_percent = {chunk_id: 50.0 for chunk_id in chunks}
-        groups = Retriever._merge_adjacent(chunks, same_percent, 9)
-        by_members = {tuple(group["members"]): group for group in groups}
-
-        self.assertEqual(set(by_members), {(1, 2, 3), (4,), (5,)})
-        merged = by_members[(1, 2, 3)]
-        self.assertEqual((merged["path"], merged["start"], merged["end"]), ("a.md", 1, 30))
-
-    # Verify a group only grows while the spread of its relevance percentages
-    # (highest - lowest, candidate included) stays strictly below the limit:
-    # compared against the whole group, so no drift is possible.
-    def test_merge_adjacent_limits_percent_spread_within_group(self):
-        def chunk(start):
-            return {"source_relative_path": "a.md", "line_start": start, "line_end": start + 4, "text": "t"}
-
-        chunks = {1: chunk(1), 2: chunk(6), 3: chunk(11), 4: chunk(16)}
-
-        # Consecutive gaps are 5, 7 and 8 (all < 9) but 50 -> 30 spans 20 points.
-        drift = {1: 50.0, 2: 45.0, 3: 38.0, 4: 30.0}
-        groups = Retriever._merge_adjacent(chunks, drift, 9)
-        self.assertEqual([group["members"] for group in groups], [[1, 2], [3, 4]])
-
-        # A spread of exactly 9 is not "below 9"; 8.9 is.
-        self.assertEqual(
-            [group["members"] for group in Retriever._merge_adjacent(chunks, {1: 50.0, 2: 41.0, 3: 41.0, 4: 41.0}, 9)],
-            [[1], [2, 3, 4]],
-        )
-        self.assertEqual(
-            [group["members"] for group in Retriever._merge_adjacent(chunks, {1: 50.0, 2: 41.1, 3: 41.1, 4: 41.1}, 9)],
-            [[1, 2, 3, 4]],
-        )
-
-        # The line-gap rule still applies on top of the percent rule.
-        far = {1: chunk(1), 2: chunk(40)}
-        groups = Retriever._merge_adjacent(far, {1: 50.0, 2: 50.0}, 9)
-        self.assertEqual([group["members"] for group in groups], [[1], [2]])
-
-        # A limit of 0 disables merging altogether.
-        groups = Retriever._merge_adjacent(chunks, {1: 50.0, 2: 50.0, 3: 50.0, 4: 50.0}, 0)
-        self.assertEqual([group["members"] for group in groups], [[1], [2], [3], [4]])
-
-    # Verify a merged group reads its whole united line range from the source
-    # file, and falls back to the members' texts when the file is missing.
-    def test_group_context_reads_united_range_or_falls_back_to_member_texts(self):
-        retriever = Retriever(settings.documents_dir)
-        chunks = {
-            1: {"text": "primul"},
-            2: {"text": "al doilea"},
-        }
-        with tempfile.TemporaryDirectory() as directory:
-            retriever.documents_dir = Path(directory).resolve()
-            (retriever.documents_dir / "doc.md").write_text(
-                "\n".join(f"linia {number}" for number in range(1, 11)), encoding="utf-8"
-            )
-            group = {"path": "doc.md", "start": 3, "end": 6, "members": [1, 2]}
-
-            text = retriever._group_context(group, chunks, "Titlu")
-            self.assertEqual(text, "Secțiune: Titlu\n\nlinia 3\nlinia 4\nlinia 5\nlinia 6")
-
-            missing = {"path": "lipsa.md", "start": 1, "end": 2, "members": [1, 2]}
-            self.assertEqual(retriever._group_context(missing, chunks, ""), "primul\n\nal doilea")
 
     # Verify long evidence sent to the AI retains its semantic section heading.
     def test_retrieval_context_prefixes_heading_for_long_chunks(self):

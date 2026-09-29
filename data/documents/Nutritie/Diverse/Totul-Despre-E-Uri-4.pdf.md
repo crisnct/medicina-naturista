@@ -1,5 +1,3 @@
-### Pagina 1
-
 Domnia cantitatii; Distrugerea calitatii alimentelor.
 
 "Alimentele sa va fie medicamente si medicamentele sa va fie alimente." - Hypocrates
@@ -44,8 +42,6 @@ mancarii denaturate sunt devastatoare si rezumate in urmatorul fragment:
 consumatorului, insa acest lucru nu se intampla. Toxiinfectiile alimentare si reactiile alergice
 sunt poate cele mai blande forme de manifestare ale unei alimentatii nocive care pot duce la
 
-### Pagina 2
-
 cresterea morbiditatii si mortalitatii. Faptul ca alimentatia este proasta produce in
 randul populatiei un adevarat genocid, unul lent, care nu apare la suprafata acut.
 Efectele sunt devastatoare in schimb si se vad in timp."
@@ -88,8 +84,6 @@ multe alimente naturale si sanatoase in asa fel incat ele sa reprezinte cea mai 
 hranei zilnice.
  3 important este sa constientizam ce mancam si sa incercam sa eliminam din dieta
 noastra cat mai multe alimente toxice;
-
-### Pagina 3
 
 4 cu fiecare aliment natural ce isi face loc in meniu zilnic, starea sanatatii noastre are de
 castigat.
@@ -136,8 +130,6 @@ minerale (cromul si zincul) prezente in unele alimente consumate.
 obliga sa prelucreze o cantitate de energie ce nu o pot suporta. Astfel, el trece imediat in
 sange - prin intestinul subtire - provoaca hiperglicemie, ceea ce obliga pancreasul sa produca
 
-### Pagina 4
-
 in exces insulina si deregleaza anumite functii ale organismului; efectul fizic este invers celui
 asteptat, in sensul ca omul nu castiga energie (dupa cum se crede eronat datorita valorii
 energetice ridicate a zaharului), ci pierde energie din pricina luptelor din interiorul
@@ -180,8 +172,6 @@ parte din proteinele glutenice concentrate catre periferia miezului). Astfel sun
  - vitamine constituite in primul rand de complexul vitaminic B (mai ales B1 si B2), extrem
 de util functionarii normale a sistemului nervos; lor li se adauga vitaminele E, K, D, A, PP;
  - fibrele alimentare (celuloza, hemiceluloza);
-
-### Pagina 5
 
 - micro si macroelemente (bioelemente sau minerale cum mai sunt denumite): fosfor
 (1,6%), calciu, magneziu, sodiu, potasiu, clor, sulf, siliciu, zinc, mangan, cobalt, cupru, iod,
@@ -231,8 +221,6 @@ simplu si mai sanatos de a consuma graul.
 neagra, sau faina integrala din care se pot obtine diferite tipuri de paine ce se diferentiaza in
 functie de compozitia lor, la unele predominand taratele, altele fiind din faina integrala, altele
 
-### Pagina 6
-
 avand in compozitie faina de secara, sau diferite tipuri de seminte, altele avand germeni de
 grau, nuci, masline, ceapa, cartofi. Este inutila stabilirea unei ierarhii intre aceste tipuri de
 paine, mult mai important fiind enumerarea unor avantaje si dezavanteje ce le pot avea in
@@ -277,8 +265,6 @@ ce incurajeaza consumul ei sunt atitudini inconstiente, nascute din obisnuinta d
 carnea drept benefica si necesara organismului si din presupusul ei gust delicios (in realitate
 fiind un gust al mortii, "camuflat" de multitudinea de condimente folosite pentru a fi
 preparata).
-
-### Pagina 7
 
 Despre carne si efectele ei dezastruase asupra organismului se pot scrie sute de
 pagini atat din perspectiva stiintifica, cat si din perspectiva spirituala, filozofica sau religioasa.
@@ -327,8 +313,6 @@ comunicare.
 IV TRATAREA TERMICA (distrugerea echibrului natural dintre calitate si cantitate;
 domnia cantitatii)
 
-### Pagina 8
-
 Tratarea termica (fierbere, prajire, pasteurizare, congelare) este una din
 principalele obisnuinte umane prin care este alterata calitatea hranei.
  Ea aduce cu sine, prin intermediul focului sau inghetului, distrugerea
@@ -374,8 +358,6 @@ trecut ca, in urma tratarii termice, in multe produse ce au la baza cereale, car
 substanta cancerigena si posibil neurotoxica numita acrilamida.
  Aceasta substanta a carei toxicitate este recunoscuta de comunitatea stiintifica
 internationala nu se afla in compozitia initiala a nici unui aliment, aparitia ei datorandu-se
-
-### Pagina 9
 
 exclusiv tratarii termice. "Institutul International de Cercetari pentru Cancer" considera ca
 acrilamida este un factor posibil de inducere a cancerului la om.
@@ -423,8 +405,6 @@ uri.
 inteles. Pentru usurarea etichetarii nu este trecuta denumirea completa a aditivului,
 preferandu-se o forma standardizata, acceptata international si reprezentata de litera E si
 
-### Pagina 10
-
 urmata de o cifra. Uzul este justificat in cazul produselor ce contin multi aditivi sau cand
 aditivii au denumiri foarte lungi.
 EFECTE.
@@ -471,8 +451,6 @@ permis in Romania;
 persoanele alergice la aspirina si la cele astmatice; poate produce sensibilitate dermica;
 interzis in Danemarca, Belgia, Franta, Germania, Elvetia, Suedia, Austria, SUA, Norvegia;
 permis in Romania;
-
-### Pagina 11
 
 E211 (benzoatul de sodiu) - folosit ca antiseptic, conservant alimentar si pentru a
 masca gustul unor alimente de calitate slaba; bauturile racoritoare cu aroma de citrice contin
@@ -523,8 +501,6 @@ exista cu siguranta aditivi naturali (sau de preovenienta naturala) ce nu pun in
 organismul. Rezonanta numelor unor aditivi poate crea o veritabila confuzie si trece drept
 aditivi naturali-benefici unii aditivi foarte nocivi. Un exemplu elocvent este E 330-acidul citric-
 
-### Pagina 12
-
 ce "suna" natural, in realitate fiind extrem de toxic. Situatia este creata de faptul ca, desi
 pastreaza un nume natural, acesti aditivi sunt sintetizati chimic,.
  In continuare va fi prezentata o serie de aditivi, ce nu par a fi toxici: E100 -
@@ -567,8 +543,6 @@ acest produs toxic.
  3. Alimentele in compozitia carora exista zahar rafinat. Organizatia Mondiala a Sanatatii
 recomanda eliminarea zaharului rafinat din alimentatie. (Pentru zahar rafinat si faina alba
 mecanismul efectelor asupra organismului au fost explicate in capitolul "Rafinarea".)
-
-### Pagina 13
 
 4. Un aliment aparent nevinovat, dar bogat in aditivi considerati toxici este guma de
 mestecat. In ea se gasesc uneori sapte - opt feluri de substante chimice: E 171, E 320,
@@ -615,8 +589,6 @@ distrus celulele nervoase din creierul cobailor, cainilor si maimutelor.
  8. Mare parte din mezeluri este, de asemenea, conservate cu glutamat de sodiu, dar
 asta nu ar fi o mare problema, deoarece aproximativ 40% din compozitia lor o reprezinta
 
-### Pagina 14
-
 produsi obtinuti artificial. Etichetele multor sortimente de mezeluri sunt pline de aditivi
 alimentari nocivi.
 Mare parte din mezeluri sunt imbogatite cu grasimi ce sunt obtinute prin aceleasi
@@ -661,8 +633,6 @@ de informatii adecvate ori a unei persoane autorizate sa ofere anumite sugestii 
  Ca o joaca, alimentele "benefice" ar putea fi impartite , fara nici o pretentie, astfel:
  1. fructele - cat mai proaspete; sunt la indemana tuturor;
 
-### Pagina 15
-
 2. legumele - pot alcatui o serie infinita de salate si alte multe feluri de mancare;
 maioneza din galbenuse de oua crude si facuta cu ulei presat la rece poate fi combinata cu
 multe legume pentru a obtine gustari apetisante;
@@ -698,8 +668,6 @@ intre anormal (denaturat) si normal (natural).
  Se cuvine sa ne debarasam de prejudecati si complexe, sa apelam la zestrea culturala
 (reprezentata atat de religie, cat si de stiinta) si, interesati de soarta noastra, sa actionam in
 favoarea noastra.
-
-### Pagina 16
 
 Corpul uman nu este un depozit pentru nenumarate toxine, un laborator
 pentru boli distrugatoare, el trebuie sa fie un salas al armoniei, al energiei
@@ -777,8 +745,6 @@ poate provoca greata,
 voma, hipertensiune
 arteriala, urticarie,
 
-### Pagina 17
-
 biscuiti; probleme de respiratie si
 alte reactii alergice;
 metabisulfit de sodiu E 223;
@@ -825,8 +791,6 @@ E500-E580; r) agenti de suprafata si albire E900-E999 / E1500-1520; s) agenti de
 fainii E500-E580 / E900-E999; s) agenti de intarire-afermisanti E500-E580; t) umectanti
 E1200-E1202 / E1400-E1450 / E1500-E1520; t) sechestranti E400-E496; u) enzime E1100-
 
-### Pagina 18
-
 E1105;v) agenti de umplutura x) gaze propulsoare E900-E999; y) alte categorii.
  C. In legislatia Uniunii Europene, cerintele privind aditivii alimentari sunt specificate
 mai exact prin intermediul Directivelor:
@@ -868,8 +832,6 @@ organismele abilitate sa controleze aceasta problema acuta a aditivilor alimenta
 general a alimentatiei), sa participe la procesul de ameliorare a legislatiei in vigoare privind
 alimentatia si sa furnizeze cat mai multe informatii despre calitatea alimentatiei si despre
 relatiile ce se pot stabili intre alimentatie si sanatate.
-
-### Pagina 19
 
 V. Si pentru a nu ramane tributari limbajului stiintific si juridic, la sfarsitul acestei
 anexe si a intregii brosuri, in spiritul jocului, facem loc si exprimarii poetice care are

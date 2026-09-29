@@ -1,5 +1,3 @@
-### Pagina 1
-
 Hepatitis B Vaccine: Facts, Benefits, Risks, and
 Real-World
 
@@ -309,8 +307,6 @@ Standard Side Effects
 Most people experience mild or no issues:
 ● Soreness, redness, swelling at injection site (common, up to 29%). ● Headache, fatigue, low-grade fever, irritability (1-10%). These typically resolve in 1-2
 days.
-
-### Pagina 2
 
 Serious and Exceptional Adverse Events
 Official sources (CDC, WHO, studies) state serious events are rare. Anaphylaxis occurs at low
@@ -756,8 +752,6 @@ severe
 liver/gut
 
 issues.
-
-### Pagina 3
 
 Facebook/parent groups mention SIDS-like events or sudden decline, though official
 reviews

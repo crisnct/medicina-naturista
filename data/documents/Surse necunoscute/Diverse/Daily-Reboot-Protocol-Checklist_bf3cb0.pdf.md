@@ -1,5 +1,3 @@
-### Pagina 1
-
 Support joint health, connective tissue, and recovery.□
 6:00 a.m. to 7:00 a.m. | Wake and prime phase
 Wake naturally
@@ -43,8 +41,6 @@ Mo Tu We Th Fr Sa Su
 Mo Tu We Th Fr Sa Su
 Mo Tu We Th Fr Sa Su
 Mo Tu We Th Fr Sa Su
-
-### Pagina 2
 
 Dr. Berg’s Daily Reboot Protocol Checklist
 Before undertaking any major change in diet or exercise, please consult your physician. These statements have not been

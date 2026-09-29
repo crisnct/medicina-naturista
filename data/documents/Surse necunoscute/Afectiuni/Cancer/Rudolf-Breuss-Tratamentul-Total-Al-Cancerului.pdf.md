@@ -1,5 +1,3 @@
-### Pagina 1
-
 Modalități de tratare a cancerului,
 leucemiei și a altor boli aparent incurabile
 
@@ -38,8 +36,6 @@ Rudolf Breuss
 
 © 1999, Editura ANANDAKALI
 OP CP.88 – 2400, SIBIU
-
-### Pagina 2
 
 2
 
@@ -96,8 +92,6 @@ LEUCEMIA .......................................................................
 Ce trebuie să faceți când aveți leucemie?........................................................................................... 38
 Tratamentul leucemiei........................................................................................................................ 38
 IMPORTANT:.................................................................................................................................... 38
-
-### Pagina 3
 
 3
 DE CE ANUMITE BOLI SUNT INCURABILE, CHIAR DACĂ AU UN DIAGNOSTIC CORECT
@@ -156,8 +150,6 @@ Gastrite - inflamații și alte afecțiuni ale stomacului.......................
 Scleroză multiplă................................................................................................................................ 57
 Halena - respirația rău mirositoare..................................................................................................... 57
 
-### Pagina 4
-
 4
 Glandele suprarenale - boli și simptome ............................................................................................ 57
 Colici - renale și biliare ...................................................................................................................... 58
@@ -206,8 +198,6 @@ CÂTEVA SFATURI PENTRU FERMIERI.................................................
 UNICUL MEU ȚEL..................................................................................................................................... 69
 INDEX DE PLANTE ROMÂN – LATIN......................................................................................................... 70
 Florin Stănescu ................................................................................................................................. 71
-
-### Pagina 5
 
 5
 
@@ -262,8 +252,6 @@ unui doctor. El avea cam 20 de noi modele pe an, pe care trebuia s ă le înțel
 (ediția a V-a)
 2 autor al minunatei cărți Gottes Segen in der Natur (Minunății ascunse în natură),
 
-### Pagina 6
-
 6
 și s ă le repare, pe când, de la Adam și Eva, doctorul este preocupat doar de
 două. Îns ă, aceste dou ă „modele" sunt deseori ca un joc de puzzle, atât de
@@ -313,8 +301,6 @@ Sunt foarte fericit ă și recunosc ătoare. Datorit ă dietei nu sunt mutilat �
 mulțumiri domnului Breuss, care a ajutat deja atât de mul ți oameni prin intermediul dietei cu sucuri
 și Domnului Dumnezeului nostru. Și îmi doresc ca dl. Breuss s ă poată continua să mă ajute pe mine
 și pe alți pacienți, cu sfatul său, pentru mulți ani de acum înainte.
-
-### Pagina 7
 
 7
 Dna G S
@@ -366,8 +352,6 @@ Gartenstrasse 15, 6700 Bludenz,
 20 ianuarie 1973
 Rețineți: încă sănătoasă în martie 1991.
 
-### Pagina 8
-
 8
 
 <
@@ -414,8 +398,6 @@ casa.
 <
 
 Povestea suferinței mele este probabil specifică pentru mulți oameni bolnavi.
-
-### Pagina 9
 
 9
 De ani de zile aveam probleme cu ficatul și pancreasul, am consultat diferi ți doctori, fă ră a
@@ -466,8 +448,6 @@ mulțumesc îndeajuns.
 De mult ă vreme observasem c ă deveneam din ce în ce mai r ăgușită, motiv pentru care am
 consultat un specialist în afec țiuni ale gâtului. Diagnosticul a fost cancer laringeal și doctorul m-a
 
-### Pagina 10
-
 10
 sfătuit să mă operez imediat. Am făcut din nou un examen amănunțit și apoi mi s-a spus că laringele
 trebuia îndepărtat în întregime. Am hotărât să nu mă operez și m-am întors acasă.
@@ -516,8 +496,6 @@ M. M. Friedrichshafen
 23 ianuarie 1973
 
 Nota bene: în 1990, această doamnă se simțea în continuare bine.
-
-### Pagina 11
 
 11
 <
@@ -569,8 +547,6 @@ Feldkirch, 16 octombrie
 săptămâni, cu aur lichid radioactiv, injectat în peretele abdominal, starea mea psihic ă generală s-a
 deteriorat considerabil până în vara anului 1967.
 
-### Pagina 12
-
 12
 Un test al sângelui a revelat prezen ța celulelor canceroase și am simțit că mergeam din ce în ce
 mai rău.
@@ -621,8 +597,6 @@ Nota bene: Doamna Marte este, în anii '90, într-o formă excelentă.
 Deoarece glandele mamare s-au înt ărit și exista posibilitatea unui cancer, mi s-a sugerat ca, în
 august, s ă-mi fac o mastectomie. Am în cercat multe medicamente și ceaiuri, la sugestia lui Hans
 
-### Pagina 13
-
 13
 Neuner. Starea mea s-a îmbun ătățit încet, pân ă când, brusc, o mare excrescență a ap ărut sub bra ț.
 Nu doream să mă operez.
@@ -671,8 +645,6 @@ A 3340 Waidhofen ald Ybbs,
 11 octombrie 1979
 <
 
-### Pagina 14
-
 După ce s-a confirmat cancerul la sân am ur mat Tratamentul Total al Cancerului, din 25
 octombrie 1977. Rezultatul a fost bun. Starea s ănătății mele în 12 martie 1980 este bun ă. Efecte
 negative ulterioare: nici unul.
@@ -716,8 +688,6 @@ Altach, Egethen 6
 
 <
  14
-
-### Pagina 15
 
 15
 Acum 15 ani am avut o afec țiune serioasă a discului intervertebral. Cu mul ți ani în urm ă, în
@@ -769,8 +739,6 @@ Dir. WilfedBickel
 Winkelweg 8
 Bludenz, ianuarie 1985
 
-### Pagina 16
-
 16
 <
 
@@ -821,8 +789,6 @@ CH-6014 Littau
 
 <
 
-### Pagina 17
-
 17
 
 Altă scrisoare:
@@ -867,8 +833,6 @@ CH-6014 Littau,
 <
 
 Dr. F. B. (Berchtesgaden) a scris într-o revistă:
-
-### Pagina 18
 
 18
 
@@ -933,8 +897,6 @@ special ceaiuri de plante, pentru a readuce sistemul metabolic perturbat înapoi
 pentru rinichi (combinația de ceaiuri Breuss) cu salvie și briboi completează tratamentul.
 Breuss recomand ă și ceaiul de g ălbenele, binecunoscut ca remediu împotriva cancerului și
 
-### Pagina 19
-
 19
 dă instrucțiuni precise asupra modului de preparare a ceaiului.
 Conform înregistrărilor sale, Breuss afirmă că a vindecat peste 40 000 bolnavi de cancer. De
@@ -984,8 +946,6 @@ De asemenea, nu trebuie să aveți naftalină sau alte
 insecticide în casă.
 
 Rudolf Breuss
-
-### Pagina 20
 
 20
 
@@ -1037,8 +997,6 @@ este într-o fază avansată. O distincție adecvată a modificărilor glandelor
 -canceroase sau necanceroase - poate fi f ăcută doar printr-o examinare medical ă
 de specialitate.
 
-### Pagina 21
-
 21
 
 Sfaturi
@@ -1089,8 +1047,6 @@ Vindecarea cancerului
 M-am întrebat adesea care ar putea fi acest tratament. În fine, mi-a trecut
 prin minte că sucul de legume ar putea fi r ăspunsul. Astfel am discutat acest fapt
 cu dl ing. Balestrang, director la stațiunea balneară Kneipp.
-
-### Pagina 22
 
 22
 El mi-a sugerat amestecul mai multor sucuri de legume care pot fi g ăsite în
@@ -1146,8 +1102,6 @@ parțial sau total; nici ei nu pot avea suficiente proteine.
 Într-o stare avansat ă a excrescențelor canceroase tumoarea este hr ănită de
 proteine. Consider c ă dieta cu sucuri are urm ătoarele avantaje: f ăcând cura cu
 
-### Pagina 23
-
 23
 suc, alimentele cu proteine sunt ev itate. Organismul nu este capabil s ă tr ăiască
 fără proteine, astfel încât sângele, înfometat de proteine, devoreaz ă toate
@@ -1200,8 +1154,6 @@ Tratamentul Total al Cancerului, s-a refăcut pe parcursul a 42 de zile și a mu
 În aceea și zi am fost s-o vizitez pe doamna Olga M., din Bludenz, care
 suferea de cancer la stomac și intestine. Și ea a urmat cura cu sucuri împreun ă
 
-### Pagina 24
-
 24
 cu dl Joseph F. din Gotzis. Dup ă 42 de zile, și ea a fost vindecat ă. Următoarea
 pacientă a fost d-na Leonarda din Sams, care suferea de cancer intestinal. Ea a
@@ -1243,8 +1195,6 @@ câteva zile înainte de a începe di eta cu suc, pentru ca astfel s ă vă acom
 sucul.
 
 <
-
-### Pagina 25
 
 25
 
@@ -1295,8 +1245,6 @@ Aceste cantități sunt suficiente pentru o persoană, pentru circa 3 săptămâ
 Puneți o priz ă (cât pute ți cuprinde între degetul mare și două degete) într-o
 cană cu ap ă fiart ă, (purificat ă sau filtrat ă), l ăsați 10 minute, apoi strecura ți-l și
 păstrați-l separat.
-
-### Pagina 26
 
 26
 Apoi, mai lua ți dou ă c ăni de apă fierbinte (purificat ă sau filtrat ă) împreună
@@ -1349,8 +1297,6 @@ salvie, cât doriți, dar totdeauna fără zahăr!
 La prânz:
 Beți 65 ml (aproape 1/2 can ă) de ceai pentru rinichi
 
-### Pagina 27
-
 27
 (combinația de ceaiuri Breuss).
 Seara:
@@ -1400,8 +1346,6 @@ Cancer la sân, ovar sau uter
 crețișoară și flori de urzică albă moartă (Lamium album), pe zi, cu înghițituri mici.
 Puneți o priz ă de cre țișoară și una de flori de urzic ă alb ă moartă într-o can ă de
 apă (purificată sau filtrată) fiartă, fierbinte, pentru 10 minute la infuzat.
-
-### Pagina 28
 
 28
 
@@ -1453,8 +1397,6 @@ peste pânză și întindeți frunzele de varză peste prosop.
 Pacientul se va așeza astfel încât partea afectat ă a corpului s ă
 stea deasupra frunzelor. Înconjura ți corpul cu pânza bine strâns ă,
 
-### Pagina 29
-
 29
 apoi înconjurați-l cu pătura.
 Trebuie bine strânse de jur împrejur, astfel încât s ă nu se
@@ -1501,8 +1443,6 @@ plămân este eficient ă pentru toate tipurile de cancer. Cu siguran ță
 pot recomanda acest ceai tuturor bolnavilor de cancer, pentru
 prevenirea unei deficiențe de calciu în timpul curei cu suc.
 
-### Pagina 30
-
 30
 
 Informații interesante în Tratamentul Total al Cancerului
@@ -1548,8 +1488,6 @@ Totdeauna be ți o jum ătate de can ă cu suc de legume pe zi
 pentru înc ă 2-4 s ăptămâni, cu înghi țituri mici, înainte de
 mese.
 
-### Pagina 31
-
 31
 
 Tratamentul Total al Cancerului este recomandat și pentru alte boli, diferite de
@@ -1593,8 +1531,6 @@ suferă de cancer și alte boli aparent incurabile, deoarece ei dorm deasupra
 cursurilor subterane de ap ă și pot fi afecta ți de radia țiile telurice. Dac ă vă simțiți
 vizat, este mai sigur s ă chema ți un radiestezist pentru a verifica acest lucru și
 mutați-vă patul în alt loc, dacă este necesar.
-
-### Pagina 32
 
 32
 
@@ -1649,8 +1585,6 @@ final, contează doar succesul și valoarea invenției pentru rasa umană. Oamen
 știință a r t r e b u i să recunoasc ă aceste succese, indiferent de sursa de la care
 provin.
 
-### Pagina 33
-
 33
 Adesea, o anumit ă metodologie este testată și cercetată 60 de ani, sau mai
 mult, fără a se ob ține rezultate încununate de succes. În aceste condi ții, dacă o
@@ -1702,8 +1636,6 @@ Dacă preferați să beți suc de legume diminea ța, mai bine decât la prânz 
 seara, atunci beți mai mult din el dimineața și mai puțin la prânz sau seara.
 Rudele apropiate ca so ț, copii, prieteni pot fi un suport moral pentru
 
-### Pagina 34
-
 34
 pacienți.
 Vă rog s ă nu v ă lamentați în leg ătură cu situa ția și cruțați bolnavul de orice
@@ -1750,8 +1682,6 @@ AVERTISMENT:
 o can ă plin ă de supă dintr-o dat ă. E mai bine s ă lua ți cam 10
 linguri de sup ă cald ă la fiecare or ă. Be ți și o can ă de ceai de
 pelin pe zi.
-
-### Pagina 35
 
 35
 
@@ -1803,8 +1733,6 @@ urmat Tratamentul Total al Cancerului, în ciuda faptului c ă cercetătorii nu
 „45.000 de bolnavi de cancer vindeca ți nu sunt suficien ți?” „Care este
 cunoașterea pe care cercetătorii o caută?”
 
-### Pagina 36
-
 36
 7. Uneori, exist ă o mare pr ăpastie între cunoa ștere și știință, dar știința
 trebuie să caute cunoașterea întotdeauna.
@@ -1820,8 +1748,6 @@ statistica medicinii ortodoxe.
 10. Desigur, există mulți cercetători atât în tehnologie cât și în medicină care
 au f ăcut fapte mari și au câ știgat merite prin trud ă. Totuși, uneori
 cunoașterea este oprită de acțiunile oamenilor de știință iresponsabili.
-
-### Pagina 37
 
 37
 
@@ -1876,8 +1802,6 @@ necazul ei. El i-a povestit despre mine. Știa că am vindecat complet o femeie 
 vindecare. Domni șoara Antonie a întrebat dac ă acest domn Breuss poate veni
 imediat să-l vadă pe fratele ei.
 
-### Pagina 38
-
 38
 Am vorbit apoi cu domni șoara Radier care m-a rugat s ă vin imediat,
 deoarece fratele s ău era foarte bolnav. Când am auzit c ă el avea opt copii, cel
@@ -1929,8 +1853,6 @@ reîncălzită, naftalina. Desigur, este important s ă beți 250 ml de
 suc în fiecare zi, timp de cel pu țin 42 de zile. Bolnavii cu
 depresii severe au nevoie de mult noroc pentru a se vindeca.
 
-### Pagina 39
-
 39
 Încă o dat ă, este foarte important de men ționat c ă spray-urile
 cu chimicale, odorizantele pentru încăperi, insecticidele, etc., nu
@@ -1981,8 +1903,6 @@ vremea.
 Primul lucru, a doua zi,: am mers la ea. Deschizând u șa, ea a repetat c ă-mi
 pierd vremea. Dar i-am spus c ă nu conteaz ă, deoarece eu am venit din dou ă
 motive: „Primul: să o ajut, și al doilea: să-mi confirm diagnosticul.”
-
-### Pagina 40
 
 40
 Cum nu mai intrasem niciodată la ea în casă, am putut mirosi naftalina.
@@ -2036,8 +1956,6 @@ naftalină!
 După conversația noastr ă, naftalina a fost eliminat ă și casa a fost fumigat ă
 cu rășină naturală de brad timp de dou ă săptămâni. Femeia a b ăut ceaiul pentru
 
-### Pagina 41
-
 41
 rinichi (combina ția de ceaiuri Breuss), și-a cur ățat pielea afectat ă și s-a
 însănătoșit total, după doar trei săptămâni.
@@ -2089,8 +2007,6 @@ Era, de exemplu, o femeie de 23 de ani care suferea de pleurezie și
 tuberculoză. Doctorul nu putea s ă o ajute. Când am consultat-o, avea o
 temperatură de 41°C. Am sf ătuit-o s ă aplice pe piept comprese cu frunze de
 varză în timpul nopții. Dimineața, frunzele de varză erau complet negre, murdare
-
-### Pagina 42
 
 42
 și r ăspândeau un miros nepl ăcut. Dup ă o sp ălare complet ă cu ap ă cald ă, a
@@ -2145,8 +2061,6 @@ Le-am spus: «Vorbiți ca niște copilași stupizi, fără noimă, sau fără mi
 Cauza suferin ței mele e simplă. Nu trebuie s ă fii doctor, sau practician naturist,
 pentru a descoperi ce este în neregul ă cu mine. Și un școlar ar putea s ă o fac ă.
 
-### Pagina 43
-
 43
 Dacă mâncarea nu mai poate s ă treacă prin corp, înseamn ă că stomacul s-a lipit
 și doar o operație poate ajuta.»
@@ -2183,8 +2097,6 @@ Doctori, vă rog ascultați aceste cuvinte. Nu doresc să vă ofensez, dar gând
 de două ori înainte de a acuza pe cineva de ipohondrie. Voi aveți în mâini destinul
 pacientului. În plus, ipohondria este o boal ă, ce trebuie de asemenea s ă fie
 tratată corect.
-
-### Pagina 44
 
 44
 
@@ -2233,8 +2145,6 @@ arterioscleroză.
 Vă rog s ă reț ineți: Lua ți aceste trei remedii pentru arterioscleroz ă, dac ă
 tensiunea nu este prea scăzută. Ele tind să o reducă.
 
-### Pagina 45
-
 45
 
 Comportamentul față de oamenii suferinzi de demență senilă, sau boala Alzheimer
@@ -2280,8 +2190,6 @@ filtrată) fiart ă, fierbinte. Coada șoricelului înt ărește musculatura sfi
 Dormiți numai pe burtă. Doar când dormi ți pe spate, enurezisul (udarea patului)
 apare fără știre. Pentru a ține pacientul pe burt ă, legați o pânz ă în jurul taliei cu
 un nod mare la spate. Acesta îi va face inconfortabilă poziția pe spate.
-
-### Pagina 46
 
 46
 Anemia
@@ -2331,8 +2239,6 @@ Ziua XVI mâncați o pară dimineața și una la prânz.
 Ziua XVII mâncați o pară dimineața.
 Asigurați-vă că perele r ămase sunt întotdeauna acoperite cu vin și beți doar
 atâta vin, încât perele să rămână acoperite. Nu beți vin dimineața.
-
-### Pagina 47
 
 47
 Tensiunea crescută
@@ -2386,8 +2292,6 @@ extract de valerian ă și p ăducel (1.000 mg). În plus, be ți, cu
 înghițituri mici, cam o jum ătate de can ă de suc de țelină în
 timpul dimine ții. Dac ă degetul mare are lunul ă de mărime
 
-### Pagina 48
-
 48
 normală, dar celelalte degete nu au, lua ți doar păducel, nu și
 valeriană. O lunulă mică sau lipsa ei arată că mușchii inimii sunt
@@ -2435,8 +2339,6 @@ Fierbeți o linguri ță de r ădăcină de pătrunjel de câmp în 250 ml de ap
 (purificată sau filtrat ă), timp de 3 minute. În completare, lua ți o lingur ă de suc
 cald de lămâie, la fiecare 10-l5 minute. În zilele noastre, difteria este o boală rară
 și poate fi tratată cu un ser.
-
-### Pagina 49
 
 49
 
@@ -2489,8 +2391,6 @@ Degerăturile
 Dacă cineva are deger ături, trebuie s ă fiarb ă 20, sau mai multe… castane
 necomestibile, pisate, în 3-5 litri de apă, timp de o oră. Partea afectată trebuie să
 
-### Pagina 50
-
 50
 fie apoi înmuiat ă în acest amestec timp de o jum ătate de or ă. Acela și amestec
 poate fi re-folosit dac ă nu aveți suficiente castane. Pentru cazuri u șoare ar trebui
@@ -2539,8 +2439,6 @@ aveți smântână, atunci folosiți miere de albine.
 Gripa
 Ștergeți întregul corp al bolnavului , de sus în jos, cu o pânză de flanel
 înmuiată în apă rece, de șase ori într-o jumătate de oră.
-
-### Pagina 51
 
 51
 Acest tratament nu trebuie s ă v ă ia mai mult de 2-3 minute. Dup ă aceea,
@@ -2593,8 +2491,6 @@ diluat. Ca rezultat, acid ul uric vâscos poate ie și din ț esuturi prin evapo
 caz de hidropizie a inimii, acest tratament dureaz ă doar două zile. A doua zi,
 bolnavul va mirosi foarte puternic a urină.
 
-### Pagina 52
-
 52
 Pentru hidropizie abdominal ă, lua ți o lingur ă de ap ă pur ă din cinci în cinci
 minute. În acest caz, va trece mai mult timp pân ă la apariț ia unor rezultate
@@ -2643,8 +2539,6 @@ cartofi și mai ales în cele de vi ță-de-vie. Acest ceai trebuie b ăut dintr
 250 ml de apă (pură sau filtrată).
 Iarna, prepara ți din frunz ă de urechelni ță în acela și mod. Un copil care
 suferă de această boal ă într-o stare avansat ă și bea ceai, poate înregistra o
-
-### Pagina 53
 
 53
 îmbunătățire a stării, după una sau două ore.
@@ -2695,8 +2589,6 @@ Trebuie luat cald, dimineața.
 Femeile care sufer ă de crampe menstruale trebuie s ă ia acest remediu cu o
 zi sau două înainte de menstruație și în timpul menstruației. După prima doză, se
 va observa o îmbunăt ățire imediată, după a doua va fi mai bine, dup ă a treia și
-
-### Pagina 54
 
 54
 mai bine. După a patra nu veți mai suferi de crampe puternice.
@@ -2749,8 +2641,6 @@ După baie, r ămâneți lungit cam o jum ătate de or ă și acoperiț i-vă cu
 pătură. O astfel de baie alternativ ă l a p i c i o a r e e s t e r e c o m a n d a tă și pentru
 tulburări menstruale.
 
-### Pagina 55
-
 55
 
 Mersul prin apă
@@ -2802,8 +2692,6 @@ imagina acum, cât de feri cit a fost fermierul… Și eu îi sunt recunosc ăto
 și-i mulțumesc domnului Zerlauth, pentru ziua în care mi-a spus aceast ă
 istorioară, din care am învățat foarte mult.
 
-### Pagina 56
-
 56
 
 Gușa
@@ -2853,8 +2741,6 @@ de pelin pe zi.
 De obicei, ceaiul de pelin e f ăcut prea tare. O priz ă mic ă de pelin trebuie
 pusă l a i n f u z a t , 3 s e c u n d e , î n t r - o c a nă cu ap ă (purificat ă sau filtrat ă) fiart ă,
 fierbinte, și ceaiul este gata. Ar trebui s ă se disting ă cu greu ceaiul de pelin - de
-
-### Pagina 57
 
 57
 apă.
@@ -2907,8 +2793,6 @@ fierbinte.
 Trebuie s ă face ți urm ătoarele exerci ții de respira ție: Inspira ți profund pe
 nas. Apoi expirați pe gură scoțând sunetele:
 
-### Pagina 58
-
 58
 
 I E O U A Ș
@@ -2960,8 +2844,6 @@ Pentru a stimula inima și respira ția, stropi ți cu ap ă proasp ătă între
 bolnavului.
 Un efect stimulator are și mirosirea de săruri sau apă de colonie.
 
-### Pagina 59
-
 59
 
 Țiuituri în urechi
@@ -3008,8 +2890,6 @@ fosforul.
 Cei care se preg ătesc pentru un examen important trebuie s ă consume
 suficient fosfor cu trei săptămâni înainte. Astfel, vor trece examenul cu ușurință!
 Copiii care mănâncă multe căpșuni și mulți fragi învață mai ușor.
-
-### Pagina 60
 
 60
 
@@ -3060,8 +2940,6 @@ Picăturile trebuie luate ne-diluate. Un efect favorabil apare dup ă trei pic �
 Patru picături sunt prea multe. În acest mod, dizenteria este vindecat ă în 24 de
 ore. Rareori, dizenteria persist ă și a doua zi, iar atunci trebuie s ă mai lua ți
 
-### Pagina 61
-
 61
 picături. Vindecarea depinde și de modul în care sunt preparate aceste pic ături.
 Dacă cineva are posibilitatea să le prepare singur, este cel mai bine.
@@ -3109,8 +2987,6 @@ ficatul și bila func ționează bine) f ără pâine, sau o buc ățică de sl 
 pâine. Brânza cu conținut mare de grăsime, sau slănina… absorb acidul gastric în
 exces. Mâncate cu pâine, produc chiar mai mult acid gastric și arsurile se
 înrăutățesc.
-
-### Pagina 62
 
 62
 
@@ -3160,8 +3036,6 @@ naturale. Doresc să spun că o lipsă a voinței este, de asemenea, un motiv pe
 alcoolism, și în aceste cazuri cea mai mică bucurie sau supărare este un motiv de
 a bea.
 
-### Pagina 63
-
 63
 
 Flebită (Inflamație a venelor)
@@ -3204,8 +3078,6 @@ Trebuie să beți ceai de păst ăi de fasole, frunze de mure, frunze de afin ș
 2-3 căni de apă (purificată sau filtrată) fiartă, fierbinte. Acest ceai trebuie băut cu
 înghițituri mici, peste zi. În plus, trebuie s ă luați 3 picături de tinctură de sclipeți,
 o dată sau de două ori pe zi.
-
-### Pagina 64
 
 64
 
@@ -3259,8 +3131,6 @@ exemplu, pătrunde numai 2 straturi, de la nivelul pielii;
 prin proprietăț ile sale antibacteriene, antivirale și
 antiparazitare, dar mai ales prin înt ărirea sistemului
 
-### Pagina 65
-
 65
 imunitar ;
 3. STIMULEAZĂ REGENERAREA CELULARĂ:
@@ -3307,8 +3177,6 @@ perioadă îndelungată (6 luni - 1 an).
 mai mult de 50%. Frecven ța complicațiilor (renale, cardiovasculare, infec țioase
 etc.) scade foarte mult.
 
-### Pagina 66
-
 66
 
 Afecțiuni ale tractului gastro-intestinal
@@ -3337,8 +3205,6 @@ asocierea aplicațiilor locale cu… cura internă de gel.
 
 Pentru alte informa ții, v ă rog s ă m ă contacta ți la tel. 069-231538 sau pe
 adresa: Medic Monica Mănișor, O.P. – 1, C.P.88, 2400 – Sibiu
-
-### Pagina 67
 
 67
 
@@ -3391,8 +3257,6 @@ boală nu poate fi vindecată.”
 „Noi am folosit întotdeauna bilele de naftalin ă pentru molii și înc ă n-a fost
 nimeni bolnav în familia noastră!” a spus atunci mama.
 
-### Pagina 68
-
 68
 Dar, eu știam că nu era lună în care casa noastră să nu fie vizitată de medic!
 Mama mea a suferit de edeme ale picioarelor de când m-am născut și tatăl meu a
@@ -3430,8 +3294,6 @@ vitamine și minerale. Aceast ă mâncare poate umple un gol în stomacul
 dumneavoastră, dar nu va contribui la o bună stare de sănătate.
 Nu uitați: Evitați să mâncați mâncare reîncălzită!
 
-### Pagina 69
-
 69
 
 CÂTEVA SFATURI PENTRU FERMIERI
@@ -3462,8 +3324,6 @@ Rudolf Breuss
 
 
 <
-
-### Pagina 70
 
 70
 
@@ -3515,8 +3375,6 @@ Urzică Urtica dioica
 Urzică moartă albă Lamium album
 Valeriană Valeriana officianlis
 Vâsc Viscum album
-
-### Pagina 71
 
 71
 Violete / Toporaș Viola odorata

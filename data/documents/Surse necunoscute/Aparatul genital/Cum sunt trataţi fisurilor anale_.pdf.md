@@ -1,5 +1,3 @@
-### Pagina 1
-
 31.05.2015 Cum sunt tratați fisurilor anale?
  1/5
 Medicament
@@ -39,8 +37,6 @@ nitroglicerină, comparativ cu 8% dintre pacienții tratați cu placebo (inactiv
 arătat o 3347% Rata de reapariție a fisurilor în urma tratamentului cu nitroglicerină. Prezența un teanc
 santinelă este asociat cu o rata de vindecare mai mic cu tratamentul cu nitroglicerină.
 Doza de nitroglicerină este adesea limitată de efectele secundare. Efectele adverse sunt de obicei dureri
-
-### Pagina 2
 
 31.05.2015 Cum sunt tratați fisurilor anale?
  2/5
@@ -90,8 +86,6 @@ recomandato procedura chirurgicala numita parțială sfincterotomie laterală in
 pentru tratamentul fisurilor anale. În această procedură, sfincterul anal intern este tăiat cu începere de la
 capătul distal sale cele mai la marginea anala si extinderea în canalul anal pentru o distanță egală cu cea a
 
-### Pagina 3
-
 31.05.2015 Cum sunt tratați fisurilor anale?
  3/5
 fisurii. Tăiate se poate extinde la linia de crestat, dar nu mai departe. Sfincterul poate fi împărțită întro
@@ -134,12 +128,8 @@ Ultrasonograms a sfincterelor anale următoarele întinde demonstra trauma care 
 zona dorita. Pentru că numai 72% de fisuri se vindeca și nu există o 20% Incidența incontinență de scaun,
 intindere a căzut în dizgrația.
 
-### Pagina 4
-
 31.05.2015 Cum sunt tratați fisurilor anale?
  4/5
-
-### Pagina 5
 
 31.05.2015 Cum sunt tratați fisurilor anale?
  5/5

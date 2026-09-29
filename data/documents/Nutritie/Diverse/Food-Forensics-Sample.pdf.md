@@ -1,8 +1,4 @@
-### Pagina 1
-
 [Nu a fost extras text din această pagină.]
-
-### Pagina 2
 
 ix
 INTRODUCTION
@@ -32,8 +28,6 @@ occurring” and therefore didn’t matter. Yet when I tested ginkgo herbs grown
 U.S. soil, they tested remarkably clean, showing near-zero levels of heavy metals.
 It turns out that when ginkgo is grown in contaminated soils, it accumulates
 heavy metals in the herb. (This should not be surprising to anyone.)
-
-### Pagina 3
 
 x INTRODUCTION
 When I found very high levels of tungsten (greater than 10,000 parts
@@ -72,8 +66,6 @@ micrograms per deciliter of blood, or 50 ppb.
 Arsenic: Long-term exposure to this heavy metal through drink-
 ing water and food may cause neurotoxicity, cancer, developmental
 
-### Pagina 4
-
 INTRODUCTION xi
 effects, cardiovascular disease, and diabetes, according to the
 WHO. The EPA has set the arsenic standard for drinkingwater at
@@ -106,8 +98,6 @@ A real-life conspiracy of silence
 Conspiracies really do exist, of course. New York Attorney General Eric
 Schneiderman said that pharmaceutical companies conspired to set artificially
 
-### Pagina 5
-
 xii INTRODUCTION
 high drug prices in that state. U.S. federal trade authorities say the Chinese
 government conspires to dump cheap solar panels on the U.S. market to
@@ -139,8 +129,6 @@ be concerned about eating them.
 Sheer deception and consumer fraud
 The process of denial and obfuscation I’m describing here is routinely pur-
 sued by companies of all sizes, including some companies catering to organic
-
-### Pagina 6
 
 INTRODUCTION xiii
 consumers, raw foodies, vegans, vegetarians, detox patients, and health-con-
@@ -181,8 +169,6 @@ their elemental composition. In early 2016, we expanded our laboratory to
 include liquid chromatography–mass spectrometry (LC-MS) instrumenta-
 tion for the detection of pesticides, herbicides, and other organic molecules.
 
-### Pagina 7
-
 xiv INTRODUCTION
 We hope to report on those findings in subsequent books and website reports.
 (See labs.naturalnews.com for the latest analysis reports.)
@@ -219,8 +205,6 @@ competent laboratory running ICP-MS instrumentation.
 Please value what you now hold in your handsand understand how
 incredibly rare it is for this information to have finally been made public,
 despite all the threats and intimidation attempts that were unleashed in a
-
-### Pagina 8
 
 INTRODUCTION xv
 desperate effort to keep this information hidden. Ask yourself this question,
@@ -259,8 +243,6 @@ beverages?
 T o help understand analytical accuracy a bit further, it’s important to
 understand the nature of ICP-MS testing.
 
-### Pagina 9
-
 xvi INTRODUCTION
 ICP-MS results across competent laboratories can and do vary by as
 much as 20 percent due to differences in methodologies and instrument sen-
@@ -297,8 +279,6 @@ artificially low results
 Another important thing to keep in mind here is that many commercial labs
 that cater to food companies are in the business of producing artificially low
 
-### Pagina 10
-
 INTRODUCTION xvii
 metals test results because that’s precisely what their customers want to see.
 Producing artificially low results is very easy to accomplish by various means
@@ -334,8 +314,6 @@ Our laboratory process relies on disposable vessels that eliminate
 vessel contamination concerns.
 • After every tenth sample is run via ICP-MS, a blank vial and a
 calibration vial are run to ensure the ICP-MS instrumentation
-
-### Pagina 11
 
 xviii INTRODUCTION
 remains well-calibrated. If significant analytical drift is detected (i.e.,
@@ -376,8 +354,6 @@ fifth time to make sure the results are accurate.
 • All raw sample data for each run is archived on multiple backup
 servers residing at two different physical locations.
 
-### Pagina 12
-
 INTRODUCTION xix
 U.S. Department of Agriculture (USDA) and Food
 and Drug Administration (FDA) have no heavy metals
@@ -416,8 +392,6 @@ I have personally found food products with far higher levels of lead that are
 consumed by a consumer cross section of the entire nation. Strangely, there
 is so far no outcry over high lead levels in food products, even though lead
 
-### Pagina 13
-
 xx INTRODUCTION
 in water is widely recognized as so dangerous to children that many citizens
 of Flint, Michigan, called for the criminal prosecution of those responsible.
@@ -454,8 +428,6 @@ the claims levels will be published on naturalnews.com.
 Our hope is that both the USDA and FDA will eventually take over
 this function and establish their own procedures for heavy metals limits and
 
-### Pagina 14
-
 INTRODUCTION xxi
 industry spot-checking. Until that day comes, Natural News is the only orga-
 nization on the planet that will be fulfilling this important role in the interests
@@ -465,8 +437,6 @@ vate sector company is doing a better job of policing the U.S. food supply for
 heavy metals than the entire federal government, with a seemingly infinite
 budget.
 I find it bizarre, too.
-
-### Pagina 15
 
 Order your copy
 of Food Forensics

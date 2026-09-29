@@ -99,6 +99,17 @@ class CleanDocumentsTests(unittest.TestCase):
             "Corp.\n",
         )
 
+    def test_strips_page_markers_and_the_doubled_blank_line(self):
+        text = "Prima.\n\n### Pagina 8\n\nA doua.\n### Pagina 9\nA treia.\n\n## Pagina 10\n"
+        self.assertEqual(
+            clean_documents.strip_page_markers(text),
+            "Prima.\n\nA doua.\nA treia.\n",
+        )
+
+    def test_keeps_headings_that_merely_mention_pagina(self):
+        text = "### Pagina de start\n\nText.\n"
+        self.assertEqual(clean_documents.strip_page_markers(text), text)
+
     def test_keeps_unrelated_frontmatter(self):
         text = "---\ntitle: x\n---\n\nCorp.\n"
         self.assertEqual(clean_documents.strip_extraction_metadata(text), text)

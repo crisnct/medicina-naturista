@@ -1,5 +1,3 @@
-### Pagina 1
-
 MSDS - Sodium Bicarbonate Baking Soda
 Issued April 4, 2008
 
@@ -27,8 +25,6 @@ Ingestion: Material is practically non-toxic. Small amounts (1-2 tablespoons) sw
 normal
 handling operations are not likely to cause injury as long as the stomach is not overly full; swallowing
  larger amounts may cause injury (see Note in Section 8).
-
-### Pagina 2
 
 Inhalation: Not known
 Sub-chronic Effects/Carcinogenicity: Based on published studies on its effects in animals and humans,
@@ -64,8 +60,6 @@ with sodium oxide dusts.
 Unusual Fire and Explosion Hazards: Not known
 Section 6. Accidental Release Measures
 Scoop up into dry, clean containers. Wash away uncontaminated residue with water.
-
-### Pagina 3
 
 Section 7. Handling and Storage
 Store in cool, dry areas and away from incompatible substances (see section 10).
@@ -103,8 +97,6 @@ Section 10. Stability and Reactivity
 Chemical Stability: Stable
 Conditions to Avoid: Temperatures above 65C (150F)
 
-### Pagina 4
-
 Incompatibility with Other Materials: Reacts with acids to yield carbon dioxide. Also may yield
 free
 caustic in presence of lime dust. (CaO) and moisture (i.e. water, perspiration).
@@ -140,8 +132,6 @@ detectable (contaminant) levels of EPA priority toxic pollutants.
 Food and Drug Administration: Generally Recognized As Safe (GRAS) direct food additive (21 CFR
 184.1736)
 OSHA: Not hazardous under 29 CFR 1910.1200
-
-### Pagina 5
 
 RCRA: Not a hazardous material or a hazardous waste by listing or characteristic
 

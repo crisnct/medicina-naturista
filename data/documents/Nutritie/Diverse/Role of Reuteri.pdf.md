@@ -1,5 +1,3 @@
-### Pagina 1
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 1
 REVIEW
 published: 19 April 2018
@@ -72,8 +70,6 @@ There are certain criteria that a probiotic must have to be considered efficacio
 include the capacity to survive in the GI tract, a high resistance to gastric acids, the lack
 of any transferable antibiotic resistance genes, and the capacity to exert clear benefits in the
 Frontiers in Microbiology | 1 April 2018 | Volume 9 | Article 757
-
-### Pagina 2
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 2
 Mu et al. L. reuteri in Health and Disease
@@ -189,8 +185,6 @@ glucosyltransferase A (GtfA) and inulosucrase (Inu) (Walter
 et al., 2008), and D-alanyl ester (Walter et al., 2007).
 Frontiers in Microbiology | 2 April 2018 | Volume 9 | Article 757
 
-### Pagina 3
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 3
 Mu et al. L. reuteri in Health and Disease
 FIGURE 1 | Probiotic properties of L. reuteri.
@@ -251,8 +245,6 @@ to produce and excrete reuterin, a well-known antimicrobial
 compound (Talarico et al., 1988; Talarico and Dobrogosz,
 1989; Cadieux et al., 2008; Jones and Versalovic, 2009;
 Frontiers in Microbiology | 3 April 2018 | Volume 9 | Article 757
-
-### Pagina 4
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 4
 Mu et al. L. reuteri in Health and Disease
@@ -370,8 +362,6 @@ L. reuteri CRL1098 together with a diet lacking vitamin B12
 was shown to ameliorate pathologies in B12-deficient pregnant
 Frontiers in Microbiology | 4 April 2018 | Volume 9 | Article 757
 
-### Pagina 5
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 5
 Mu et al. L. reuteri in Health and Disease
 TABLE 1 | Clinical efficacies of L. reuteri against H. pylori.
@@ -470,8 +460,6 @@ delivered infants display a higher abundance of Enterobacter but
 less Bifidobacterium in their gut microbiota (Garcia Rodenas
 et al., 2016; Nagpal et al., 2016). In one study, treating C-section
 Frontiers in Microbiology | 5 April 2018 | Volume 9 | Article 757
-
-### Pagina 6
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 6
 Mu et al. L. reuteri in Health and Disease
@@ -588,8 +576,6 @@ IL-6 levels in mice fed with high fat diet (Hsieh et al., 2016).
 Similar effects were observed in mice treated with heat-killed
 Frontiers in Microbiology | 6 April 2018 | Volume 9 | Article 757
 
-### Pagina 7
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 7
 Mu et al. L. reuteri in Health and Disease
 TABLE 2 | L. reuteri-mediated induction of Treg cells under various diseased and non-diseased conditions.
@@ -686,8 +672,6 @@ candidate for disease prevention and/or treatment. Indeed, the
 therapeutic potential of various L. reuteri strains has been studied
 in diverse diseases and the results are promising in many cases.
 Frontiers in Microbiology | 7 April 2018 | Volume 9 | Article 757
-
-### Pagina 8
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 8
 Mu et al. L. reuteri in Health and Disease
@@ -795,8 +779,6 @@ et al., 2007
 (Continued)
 Frontiers in Microbiology | 8 April 2018 | Volume 9 | Article 757
 
-### Pagina 9
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 9
 Mu et al. L. reuteri in Health and Disease
 TABLE 3 | Continued
@@ -901,8 +883,6 @@ associated liver disease (Hsu et al., 2017). The protection seems
 to rely on the capability of L. reuteri to increase antioxidant
 activity and reduce cytokines associated with more severe lupus,
 Frontiers in Microbiology | 9 April 2018 | Volume 9 | Article 757
-
-### Pagina 10
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 10
 Mu et al. L. reuteri in Health and Disease
@@ -1016,8 +996,6 @@ CONCLUSION
 There has been a decrease in the abundance of L. reuteri in
 humans in the past few decades likely caused by the modern
 Frontiers in Microbiology | 10 April 2018 | Volume 9 | Article 757
-
-### Pagina 11
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 11
 Mu et al. L. reuteri in Health and Disease
@@ -1141,8 +1119,6 @@ Cadieux, P., Wind, A., Sommer, P., Schaefer, L., Crowley, K., Britton, R. A., et
 reuteri RC-14. Appl. Environ. Microbiol. 74, 4645–4649. doi: 10.1128/AEM.
 00139-08
 Frontiers in Microbiology | 11 April 2018 | Volume 9 | Article 757
-
-### Pagina 12
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 12
 Mu et al. L. reuteri in Health and Disease
@@ -1284,8 +1260,6 @@ colonic mucosa-associated microbiota. BMC Microbiol. 14:189. doi: 10.1186/
 1471-2180-14-189
 Frontiers in Microbiology | 12 April 2018 | Volume 9 | Article 757
 
-### Pagina 13
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 13
 Mu et al. L. reuteri in Health and Disease
 Ganzle, M. G., and Vogel, R. F. (2003). Studies on the mode of action of
@@ -1425,8 +1399,6 @@ NCIMB 30242 in a yogurt formulation: a randomized, placebo-controlled,
 double-blind study. Food Chem. Toxicol. 50, 2216–2223. doi: 10.1016/j.fct.2012.
 03.010
 Frontiers in Microbiology | 13 April 2018 | Volume 9 | Article 757
-
-### Pagina 14
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 14
 Mu et al. L. reuteri in Health and Disease
@@ -1568,8 +1540,6 @@ hormone-dependent regulation of autoimmunity. Science 339, 1084–1088. doi:
 10.1126/science.1233521
 Frontiers in Microbiology | 14 April 2018 | Volume 9 | Article 757
 
-### Pagina 15
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 15
 Mu et al. L. reuteri in Health and Disease
 Martoni, C. J., Labbe, A., Ganopolsky, J. G., Prakash, S., and Jones, M. L. (2015).
@@ -1710,8 +1680,6 @@ Rojas, M. A., Lozano, J. M., Rojas, M. X., Rodriguez, V. A., Rondon, M. A., Bast
 J. A., et al. (2012). Prophylactic probiotics to prevent death and nosocomial
 Frontiers in Microbiology | 15 April 2018 | Volume 9 | Article 757
 
-### Pagina 16
-
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 16
 Mu et al. L. reuteri in Health and Disease
 infection in preterm infants. Pediatrics 130, e1113–e1120. doi: 10.1542/peds.
@@ -1851,8 +1819,6 @@ Szajewska, H., Gyrczuk, E., and Horvath, A. (2013). Lactobacillus reuteri DSM
 double-blind, placebo-controlled trial. J. Pediatr. 162, 257–262. doi: 10.1016/j.
 jpeds.2012.08.004
 Frontiers in Microbiology | 16 April 2018 | Volume 9 | Article 757
-
-### Pagina 17
 
 fmicb-09-00757 April 17, 2018 Time: 19:31 # 17
 Mu et al. L. reuteri in Health and Disease

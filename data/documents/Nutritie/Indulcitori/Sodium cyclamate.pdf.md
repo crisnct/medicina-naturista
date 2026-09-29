@@ -1,5 +1,3 @@
-### Pagina 1
-
 Sodium cyclamate, called cyclamate in most safety documents, is a high-intensity
 artificial sweetener used in some drinks, tabletop sweeteners, desserts, and other low-
 sugar products. In the EU it is authorized as food additive E 952, while in the United
@@ -38,8 +36,6 @@ produce testicular toxicity in rats.
 That does not mean normal human intake causes infertility or testicular damage. It
 means that, in animal studies, the metabolite had a real toxic effect at high enough
 doses, so regulators used that endpoint to set conservative limits. Human evidence has
-
-### Pagina 2
 
 not shown a clear fertility signal. In the SCF review, the human case-control study on
 cyclamate intake and male fertility found no statistically significant difference in
@@ -80,8 +76,6 @@ in older in vitro and in vivo studies had methodological shortcomings. EFSA ther
 asked for additional in vivo Comet assay data for cyclamates and cyclohexylamine to
 move the assessment forward. That means the right conclusion is not “genotoxicity
 
-### Pagina 3
-
 proven” and not “genotoxicity impossible,” but rather “the modern evidence package is
 not as complete and robust as EFSA would like.”
 On reproductive and developmental toxicity more broadly, the evidence is less alarming
@@ -119,8 +113,6 @@ evaluation is still open and genotoxicity data gaps remain. “Cyclamate’s mai
 concern is conversion to cyclohexylamine, with testicular toxicity in rats driving the
 intake limit” is well supported. “Normal dietary use under established ADIs has been
 regarded by several regulators as acceptable” is also well supported.
-
-### Pagina 4
 
 So, if you want the blunt conclusion: sodium cyclamate is not proven to be a human
 carcinogen from normal food use, and the “stage 5 cancer” talk is garbage. But it is

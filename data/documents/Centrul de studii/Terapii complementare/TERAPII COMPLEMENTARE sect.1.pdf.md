@@ -1,5 +1,3 @@
-### Pagina 1
-
 PROGRAMA CURSULUI TERAPII COMPLEMENTARE Sectiunea 1
 CURSUL TEMA Pg
 Cursul-1 BAZELE TERAPIILOR COMPLEMENTARE Cine poate fi practician si de ce
@@ -19,8 +17,6 @@ Cursul-7 Aromoterapia 54
 Cursul-8 Shiatsu Presopunctura 58
 Cursul-9 Feng Shui 62
 1
-
-### Pagina 2
 
 Cursul 1
  BAZELE TERAPIILOR COMPLEMENTARE
@@ -58,8 +54,6 @@ si narcotice, boli, accidente):
 Modificari de greutate vizibile in ultima perioada (ultimul an) Inaltimea Greutatea
 Alimentatia zilnica
 Medicamente (ce medicamente a luat si ce medicamente ia in prezent:
-
-### Pagina 3
 
 Stimulante (alcool , narcotice si cafea):
 Informatii pe care pacientul le considera importante pentru intelegerea problemelor,
@@ -99,8 +93,6 @@ domeniile de practică în medicina complementară/alternativă recunoscute de a
 • Ayurveda
 • Astrologie medicală
 3
-
-### Pagina 4
 
 • Practici tradiționale Su Jok
 • Medicină tradițională Chineză - TCM
@@ -142,8 +134,6 @@ Medicina în perioada greco-romană
 La vechii greci, la început, zeul artei medicale era Apollo. Mai târziu zeul medicilor a devenit
 Esculap. Începând din secolul al VI-lea a.Ch. - sub influența școlilor filozofice materialiste ca
 cea a lui Empedocle (natura este formată din patru elemente: foc, apă, pământ și aer) -
-
-### Pagina 5
 
 medicina capătă trăsături științifice, în special prin persoana lui Hippocrate din Cos,
 considerat părintele medicinii moderne. În culegerea sa de studii (Corpus Hippocraticum) nu
@@ -189,8 +179,6 @@ farmacologice chimice, terapeutice și gânditorul cel mai original in stiintele
 secolul al XVI-lea."
 5
 
-### Pagina 6
-
 Jean Jacques Rousseau (n. 28 iunie 1712 - d. 2 iulie 1778) a fost un filozof francez de origine
 geneveză, scriitor și compozitor, unul dintre cei mai iluștri gânditori ai Iluminismului. A
 influențat hotărîtor, alături de V oltaire și Diderot, spiritul revoluționar, principiile de drept și
@@ -233,8 +221,6 @@ e cu apa, preotul german Sebastian Kneipp a fost si un as al remediilor cu plant
 pulberi obtinute din oase si minerale. Numeroase clinici occidentale le aplica in zilele noastre,
 cu mult succes. Recomandarile pe care le prezentam sunt culese din scrierile marelui
 vindecator din secolul 18
-
-### Pagina 7
 
 Boabele de rasina si tamaie
 Cum picura ceara dintr-o lumanare aprinsa, asa picura cateodata si rasina din coaja bradului
@@ -285,8 +271,6 @@ La cei debili, "constructia" poate avea defecte sau poate fi mai putin rezistent
 lipseste calcarul, cel care le leaga intre ele pe toate celelalte, pietris si nisip. Acestor persoane
 7
 
-### Pagina 8
-
 firave - chiar si copii - le recomand faina de creta, cate un varf de cutit pe zi, in apa sau in
 mancare. Fiind fara gust si fara miros, se ia cu mare usurinta.
 Cine are probleme cu digestia, copiii care nu cresc si nu se dezvolta, oricat de bine ar fi
@@ -329,8 +313,6 @@ sangelui merg prost, ca unele parti ale corpului primesc neregulat si cu zgarcen
 trebuie ca sa creasca si sa-si ia elan, ca, mai ales, intreaga schelarie a oaselor se clatina si sta
 gata sa se prabuseasca, asemenea unui zid subred - ei vor fi tratati cu pulberea alba, de calciu.
 La fel cum mama da bebelusului terci, o mancare pe masura sugarului, a gurii lui inca fara
-
-### Pagina 9
 
 dinti si a stomacului gingas, asa hranesc eu bietele oase flamande cu faina de oase, pentru ca
 fiecare dintre ele si toate laolalta sa capete rezistenta.
@@ -378,8 +360,6 @@ care a fondat-o este o concepție despre om și lume care susține existența un
 suprasensibile constitutive ale ființei umane, dincolo de corpul fizic.
 9
 
-### Pagina 10
-
 Arndt-Schultz lege a biomodularii afirma ca dozele mici de energie fotonica vor stimula
 procesele biologice si dozele mari le vor inhiba.a sintetizat utilizarile terapeutice ale iradierii
 locale cu lumina. Stimularea s-a aplicat pe leziunea locala obtinandu-se urmatoarele efecte:
@@ -426,8 +406,6 @@ lucru este spre binele pacientului/clientului.
 - să protejeze pacientii/clienții atunci când există o convingere fondată pe argumente care
 reflectă faptul că acțiunile altor practicieni ar putea fi un pericol pentru pacienti/clienți.
 
-### Pagina 11
-
 - să își păstreze eficiența, flexibilitatea și abilitatea de a asista pacientii/clienții. Ei trebuie să și
 automonitorizeze nivelul de funcționare personală și să caute ajutor sau să renunțe
 temporar sau permanent la asistarea pacientilor/clienților atunci când resursele interioare
@@ -473,8 +451,6 @@ la care aderă.
 - să fie la curent cu aspectele legale care ar putea afecta munca desfășurată.
 11
 
-### Pagina 12
-
 Cursul 2
  Aromoterapia, uleiuri de masaj
 
@@ -514,8 +490,6 @@ In Franta, si nu numai, s-au facut observatii interesante pe tema aromaterapiei,
 la faptul ca cei ce lucrau in producerea si comercializarea parfumurilor erau posesorii unei
 curioase si inexplicabile imunitati impotriva diverselor flageluri de tipul ciumei, holerei si
 variolei, imunitate care a fost pusa pe seama esentelor volatile si aromatice, ce intra in
-
-### Pagina 13
 
 compozitia parfumurilor. Aceasta a fost ratiunea recomandarii de a arde frunze de ienupar prin
 spitalele Parisului in cursul marii epidemii de variola din 1870.
@@ -562,8 +536,6 @@ Important este faptul ca aceste uleiuri, in cazul administrarii lor corecte, nu 
 nu au efecte secundare nocive, specifice multor medicamente de sinteza.
 13
 
-### Pagina 14
-
 Plantele medicinale si aromatice reprezinta un domeniu de actualitate, fiind folosite cu succes in
 prevenirea si tratarea multor afectiuni, avand in vedere faptul ca organismul uman dispune de
 sistemul enzimatic necesar metabolizarii lor. Proprietatile insecticide si repelente ale unor
@@ -590,8 +562,6 @@ cadrul terapiilor alternative.
 Cleopatra, celebra pentru baile cu petale de trandafiri probabil cunostea efectul antidepresiv si
 calmant al acestora. Mandarina reda buna-dispozitie si energizeaza iar in combinatie cu menta
 previne vergeturile
-
-### Pagina 15
 
 Cursul 3
  Terapiile folosite de Shamani. Shamanismul
@@ -643,8 +613,6 @@ Un seminar de weekend nu va putea niciodata inlocui anii de disciplina si de pra
 shamanului traditional ,dar ceea ce poate face este sa deschida o cale pe care participantul sa
 15
 
-### Pagina 16
-
 poata incepe a avea acces la revelatia proprie , sa ii ofere participantului unelte pentru
 adancirea revelatiei proprii .
 Calea Shamanului este o cale minunata a vindecarii , a cunoasterii , a iubirii responsabile .
@@ -693,8 +661,6 @@ Sa vorbim putin despre ayahuasca, care se traduce prin „funia mortului", ceea 
 capacitatile acestei plante. Pentru samanii de pe intreg pamantul, ayahuasca le poate inlesni
 contactul cu lumea celor fara trup fizic. Astfel ei afla chestiuni din universul invizibil, iau
 legatura cu strabunii, cu spiritele plantelor, cu guvernatorii speciilor de animale sau cu geniile
-
-### Pagina 17
 
 elemntelor primordiale: gnomi, elfi, salamndre sau ondine, cum le numesc samanii spatiilor
 anglosaxone, cunoscuti si sub denumire de wiccani.
@@ -745,8 +711,6 @@ vietii , din ceea ce a fost numita "Realitate Non-Ordinara ", o realitate ce e s
 timpului a coexista cu realitatea fizica.
 17
 
-### Pagina 18
-
 Exista anumite opere de arta antice , desene, sculpturi , statuete , picturi rupestre , care sunt
 mai mult decat exprimari creative ale culturilor din care provin . Ele sunt invataturi vizuale
 pentru un ritual specific. Aceste picturi si statuete de la antici reprezinta oameni stand in
@@ -793,8 +757,6 @@ este o cale de cunoaștere, acel fel de cunoaștere care este experimentată per
 subiectiv..., iar la sfârșitul zilei, tot ceea ce avem (în ciuda imperativelor instituțiilor noastre și
 a dorinței societății de a „obiectiva“ percepțiile noastre subiective) rămâne experiența noastră
 subiectivă.
-
-### Pagina 19
 
 Șhamanismul este cea mai veche cale spirituală de pe Planeta Pământ, o cale pentru vindecare
 și menținere a echilibrului și armoniei în societate și în individ, pentru păstrarea conexiunii cu
@@ -847,8 +809,6 @@ posibilități de percepție, de acțiune, de Ființare se deschide în fața no
 La rândul său, vindecarea șhamanică constă dintr-o sumă de practici executate de șhaman sau
 19
 
-### Pagina 20
-
 de practicant pentru a ajuta sau vindeca o altă persoană. Este un principiu fundamental al
 șhamanismului, oriunde ar fi acesta practicat. Metodele, uneltele folosite, simbolismul și
 leacurile variază de la o cultură la alta și de la o regiune la alta, dar, în principal, vindecarea
@@ -898,8 +858,6 @@ populatiilor indigene pentru a avea acces la minunile practicii shamanice. Putem
 recupera in schimb legaturile noastre cu pamantul , universul si istoria noastra personala. In
 timp ce toate traditiile shamanice sunt practicate in cadrul unei anumite culturi, informatia
 
-### Pagina 21
-
 stransa prin abordarea antropologica ne ofera accesul la o viziune mai ampla a practicilor si
 ideilor legate de pamant, care strabate aceste culturi. Traditiile shamanice pornesc in general
 de la trei premise de baza: sintem cu totii un intreg, primim invatatura de la toate fiintele si
@@ -908,8 +866,6 @@ cosmologie pe care o exprimau intr-una din versiunile despre lumea de jos, cea d
 lumea de mijloc.
 
 21
-
-### Pagina 22
 
 Cursul 4
  Terapii romanesti traditionale
@@ -958,8 +914,6 @@ comunicării între tinere cupluri care se simpatizau, doreau, iubeau. Întâlni
 precontractul și proiectul de nuntă erau prezente în șezătoare ca pregătire a căsătoriei. „În
 cadrul șezătorii tinerii aveau prilejul să se cunoască și să stabilească relații premergătoare
 căsătoriilor.” Funcția de valorizare a faptelor sociale: „Altă funcție caracteristică mai ales
-
-### Pagina 23
 
 șezătorilor de neveste și de femei bătrâne, dar și celor de fete, este comentarea și judecarea
 faptelor din viața diurnă a satului [...]. Prin judecarea faptelor care contravin eticii populare, se
@@ -1012,8 +966,6 @@ devoreaza victima, iar daca fata este ascunsa unde nu o poate gasi devine rau si
 toti cei implicati.
 23
 
-### Pagina 24
-
 Duhul feminin, Samca sau Baba-Coaja este o aparitie este de data asta oribila. Ea poate fi
 vazuta doar de vrajitori si de cei nascuti sambata, ca apare sub diferite forme animaliere, dar
 ca ea arata ca o baba cu parul rar si despletit pana la calcaie, cu ochii rosii si fata
@@ -1061,8 +1013,6 @@ Vindeca: boli oftalmologice conjunctivita, cataracta, bolile urechilor, ulcerati
 Esențe de conifere
 Era folosita ca frectie pentru efect deopotrivă tonic și reconfortant, pentru a elimina stresul și
 
-### Pagina 25
-
 a întări sistemul imunitar în fața bolilor, esențele de conifere erau la îndemîna oricui. Foarte
 eficientă este și o fiertură de cetină.
 Urzica, detoxifiant și întăritor
@@ -1106,8 +1056,6 @@ stomacale, un mijloc de tratament extraordinar era coaja de ou uscată și pisat
 sunătoare si coada șoricelului.\
 Tamaia
 25
-
-### Pagina 26
 
 Epilepsie, boli psihice - in camera de culcare a bolnavului se fac seara fumigatii cu tamaie.
 Una-doua bobite de tamaie se pun pe o lingurita de metal, care apoi se tine cateva minute
@@ -1153,8 +1101,6 @@ stane infofoliti si bagati in multe paturi sa transpire si sa bea lapte cald.
 Datorita proprietatilor sale a fost folosit namolul pentru probleme musculare si de reumatism.
 Lacrimile vitei de vie pentru tratarea ochilor
 
-### Pagina 27
-
 Epilepsia, nervozitatea, isteria - se spune in popor ca toate aceste tulburari sunt cauzate de
 spiritele rele care patrund in fiinta celui slabit sufleteste. Tratamentul incepea in ajunul
 Craciunului, cand pacientul era deja purificat prin post, iar frunzele de vasc aveau varful de
@@ -1198,8 +1144,6 @@ atunci cand era manipulat asa cum trebuie de performerul actului magic".
 Descântec de deochi
 Vine ciuta de la munte
 27
-
-### Pagina 28
 
 Lingându-și puii pe frunte.
 Îi linge pe pistricei
@@ -1248,8 +1192,6 @@ Matriciu de 99 de soiuri,
 Ieși de unde ești -
 Din piept,
 De sub piept,
-
-### Pagina 29
 
 Din inimă,
 De sub inimă,
@@ -1301,8 +1243,6 @@ De cinci ori.
 Crăpi izdate,
 29
 
-### Pagina 30
-
 Necurate
 De șase ori.
 Crăpi izdate,
@@ -1351,8 +1291,6 @@ Ciutele din Recea
 Mare nuntă-și face:
 C-un cap mare de berbece.
 Câte ciute, câte mute,
-
-### Pagina 31
 
 Câte moine, câte bube,
 Pe toate la nuntă le-o chemat,
@@ -1404,8 +1342,6 @@ De-alăturea drumului,
 În floarea bujorului.
 31
 
-### Pagina 32
-
 Cu vârful cuțitului luatu-l-a,
 În paharul cu miere aruncatu-l-a,
 Copilului datu-i-l-a
@@ -1414,8 +1350,6 @@ Să rămâie copilul curat,
 Luminat
 Cum mă-sa l-a făcut,
 Și Dumnezeu l-a născut.
-
-### Pagina 33
 
 Cursul 5
  Stravechile Terapii din India
@@ -1456,8 +1390,6 @@ Indicatie - 2 lingurite cu gel de Aloe Vera, amestecat cu putin sofran de India 
 de mere se poate lua de trei ori pe zi ca tonic.
 33
 
-### Pagina 34
-
 Busuioc
 Busuiocul este o straveche planta medicinala indiana care creste si in gradinile de la noi.
 Frunzele cu miros patrunzator trebuie folosite intotdeauna proaspete, ca mirodenii in bucatarie
@@ -1487,8 +1419,6 @@ tocata marunt.
 Chimen negru
 Planta cu larga raspandire in bazinul mediteranean, cu seminte mici, in trei muchii si
 forma de picatura, acesta nu este inrudita cu chimionul obisnuit. Semintele au gust iute,
-
-### Pagina 35
 
 asemanator piperului, si putin amarui, iar in India se folosesc frecvent in loc de piper.
 Termenul indian pentru chimenul negru este kalonji (kalajeera). Se intrebuinteaza la
@@ -1523,8 +1453,6 @@ Indicatie - Impreuna cu chimionul, coriandrul este bun pentru tulburarile digest
 bea ca infuzie, inainte sau in timpul mesei.
 35
 
-### Pagina 36
-
 Cuisoare
 Cu gustul lor iute, cuisoarele sunt un stimulent. Au efect intens de incalzire, excita Pitta si
 Kapha. Cuisoarele stimuleaza pofta de mancare, ajuta in caz de tulburari digestive,
@@ -1554,8 +1482,6 @@ In bucatarie, ghimbirul se foloseste cu predilectie la condimentarea mancarurilo
 prepararea de curry si muraturi.
 Indicatie - amestecat cu miere, ghimbirul amelioreaza Kapha, combinat cu zaharul candel
 - Pitta, iar impreuna cu sarea gema - Vata.
-
-### Pagina 37
 
 Lemn de santal
 De la arborele de santal se foloseste lemnul din trunchi si ramurile. Se utilizeaza sub
@@ -1592,8 +1518,6 @@ Indicatie - ceaiul de musetel cu putin ghimbir proaspat adaugat in infuzie este 
 calmanta.
 37
 
-### Pagina 38
-
 Mustar
 Semintele de mustar au gust iute, cu iz amar. Acestea stimuleaza pofta de mancare,
 combat viermii intestinali, favorizeaza circulatia sangelui, calmeaza crampele si au efect
@@ -1622,8 +1546,6 @@ Papadia este o planta amara, cu gust secundar dulce. Este eficienta in bolile sa
 glandelor mamare, in supuratiile purulente, rani si umflaturile nodurilor limfatici. Curata
 ficatul si fierea si reduce acumularile de Pitta. Ajuta la digestie in regimurile alimentare
 bogate in grasimi.
-
-### Pagina 39
 
 Patrunjel
 Patrunjelul este o planta autohtona. Frunzele sunt amare si iuti, iar radacina este dulce si
@@ -1660,8 +1582,6 @@ Sofranul, care are gust iute, amar si dulce, actioneaza eficient asupra aparatel
 digestiv, genital feminin si nervos. Revitalizeaza intregul metabolism; ajuta in dereglarile
 39
 
-### Pagina 40
-
 ciclului menstrual, in afectiunile din perioada de crestere si in sterilitate.
 Ca mirodenie, sofranul favorizeaza asimilarea hranei. Efectul este foarte puternic chiar si
 in cazul unor cantitati mici. Nu se va folosi in timpul sarcinii.
@@ -1689,8 +1609,6 @@ imbunatateste activitatea rinichilor, stimuleaza eliminarea gazelor intestinale 
 considerata un afrodisiac.
 Aroma pastailor de vanilie se dezvolta in urma unui proces de fermentatie de mai multe
 luni, cand se formeaza substanta aromatica numita vanilina.
-
-### Pagina 41
 
 Cursul 6
  Plantele medicinale cele mai cunoscute si modul lor de utilizare
@@ -1721,8 +1639,6 @@ globuloasa, izolate sau in grupuri de 2-3, de culoare galbena-portocalie. Mirosu
 caracteristic, gust acrisor, slab amarui
 CHIMIONUL
 41
-
-### Pagina 42
 
 Carvi fructus – fructe ovoide – oblongi, usor arcuite, formate din doua achene prinse pe un
 carpofor bifidat. Au 3-7 mm lungime, 1-1,5 mm grosime, de culoare cenusie-bruna, fiecare
@@ -1755,8 +1671,6 @@ asemanatoare merii si formeaza o umbrela dispusa pe o tulpina inalta de 10-20 de
 care se ridica din centrul unei reozete. Aceasta varietate se mai numeste si aglica, anghelina,
 calce, cinci-foi, cizma-cucului, talpa-gastei, tita-caprei, tita-oii, urechita -ursului. Ea creste cu
 precadere pe campiile din zonele deluroase si prealpine. Foarte raspindita Primula eliator,
-
-### Pagina 43
 
 cunoscuta tot sub numele de ciubotica-cucului, dar si de aglici, agrisel sau tita-vacii, creste pe
 mai toate campiile, la margini de paduri si sub tufisuri se poarta pe tulpina inalta o umbrela
@@ -1791,8 +1705,6 @@ Se prezinta sub forma de fragmente subtiri , de 0,5-1 mm, si lungi de 4-5 cm. Su
 insa la cele doua capete se largesc circular. Culoarea este brun –verzuie, frecvent brun roscate.
 Mirosul este slab caracteristic, iar gustul amarui si astringent.
 43
-
-### Pagina 44
 
 CRETISOARA
 Cunoscuta in limbajul popular si ca brumarie, cretarel, faina-de-in, palasca, pleasca, raturjir,
@@ -1830,8 +1742,6 @@ acoperite cu petale, cu stamine de culoare inchisa sau deschisa. Valoarea medici
 aceeasi. Pot fi culese proaspete din gradina si utilizate. Se culeg din luna iunie pana toamna
 tarziu.
 
-### Pagina 45
-
 HAMEIUL
 Este o planta vivace, cataratoare pe arbori.Tulpina lui este aspra, urcatoare si agatatoare, iar
 frunzele sunt petiolate, cate 2 la nod (opuse) si cu 3-5 lobi, ca si frunzele vitei-de-vie, crestate
@@ -1868,8 +1778,6 @@ Corola bilabiată, de 5-8 mm lungime, de culoare albastră-violetă, pubescentă
 cu tubul aproape drept. Labiul superior este bilobat, cel inferior trilobat cu lobii obtuzi.
 45
 
-### Pagina 46
-
 Nuanța florilor diferă de la albastru-violaceu până la albastru-deschis. Mirosul este plăcut,
 aromat, iar gustul ușor amărui
 LEURDA
@@ -1904,8 +1812,6 @@ Tot in acest timp se culeg si florile separat, cu varfuri si ramuri.
 MACESE
 Este formata din pseudofructele speciilor mentionate. Acestea sunt intregi, cu receptaculul
 globulos ovoid sau elipsoidal, cu suprafata exterioara intreaga sau zbarcita. La baza
-
-### Pagina 47
 
 pseudofructului se observa resturi de pediceli, iar la extremitatea opusa un disc plan sau conic
 cu resturi de stile scurte, glabre sau paroase formand un capitul mai mult sau mai putin
@@ -1943,8 +1849,6 @@ sau o curte. Casul-popii cu frunze mari (Malva grandifolia – M. silvestris) es
 cunoscut sub numele de nalba, eventual nalba-alba, nalba-de-camp, nalba-mica. Aceste plante,
 47
 
-### Pagina 48
-
 ca si alte varietati de la Malva, sunt raspandite prin gradinile de flori si zarzavat. Ele contin in
 frunze, flori si tulpini substante mucilaginoase si tanante. Casul-popii cu frunzele mici este o
 planta tiritoare, putin lemnoasa la baza rizomului. Ea are frunze cu lujer lung, zimtate rotund
@@ -1979,8 +1883,6 @@ Plantaginis lanceolata folium - sunt de forma alungit - lanceolate, ascutite la 
 subtire si lung, cu nervuri paralele mai vizibile pe partea inferioara, lungi de cca 20 cm si late
 pana la 4 cm, cu marginea intreaga sau indepartat denticulata, paroase pana la glabrescente cu
 petiol lanat paros de obicei. De culoare verde specific, cu pete brune rezultate din uscare in
-
-### Pagina 49
 
 proportie de maximum 10%. Fara miros specific, cu gust acrisor amarui. La noi se admite si
 amestecul de frunze din cele trei specii (Folium Plantaginis species) care are elementele
@@ -2018,8 +1920,6 @@ SOCUL
 Sambuci flos - formata din flori mici cu caliciul format din 5 dinti mai scurti decat petalele, cu
 corola lata de 6-9 mm, alba pana la galbuie, cu 5 lobi rotunjiti. Androceul format din 5
 49
-
-### Pagina 50
 
 stamine alterne, concrescute cu tubul corolei are antere mari biloculare. Ovarul inferior,
 triocular, uniovulat se termina cu un disc care poarta trei lobi stigmatici scurti. Mirosul florilor
@@ -2060,8 +1960,6 @@ numar de 3-9 (16), sunt dispuse in inflorescente direct divergente sau intinse o
 Bracteele mai scurte decat la specia anterioara, de cca 6 cm lungime si 1-1,5 (3) cm latime,
 sunt eliptice sau lanceolate, membranoase, glabre pe fata superioara, cu peri mari pe cea
 
-### Pagina 51
-
 inferioara, reticulat nervate, cu marginea intreaga. Culoarea bracteei este galbena – verzuie,
 are nervura mediana concrescuta cu pedunculul florar pana la jumatatea inferioara. Florile
 galbene, cu diametrul de aproximativ 1 cm caliciul cu 5 sepale libere, ovale caduce, corola cu
@@ -2097,8 +1995,6 @@ URZICA
 Un medic a aratat odata intr-un discurs la radio ca urzica - numita si urzica-creata, urzica-
 mare sau urzica-de-padure - este una dintre cele mai bune plante de leac pe care le avem. Deci
 51
-
-### Pagina 52
 
 daca oamenii ar sti ce efect tamaduitor are, n-ar mai cultiva decti urzici. Din pacate sint foarte
 putini cet care cunosc acest lucru. Urzica este curativa incepind de la radacina, continuind cu
@@ -2138,8 +2034,6 @@ intre 30-80 centimetri. Ea infloreste, incepand din luna mai, pe tot parcursul v
 toamna. Frunzele sale sunt zimtate si se aseamana cu cele de stejar. Din tulpina si rizom
 izvoraste o seva galben-portocalie si destul de viscoasa. Rostopasca prefera vecinatatea
 
-### Pagina 53
-
 zidurilor, a gardurilor, a grohotisurilor de panta, precum si livezile sudice. Oricit ar fi vara de
 secetoasa si marginile de sud ale padurilor de uscate, din planta tot va curge sucul gros,
 galben-portocaliu, in cantitati suficiente. Dar si in timpul iernii, cand zapada acopera tot,
@@ -2149,8 +2043,6 @@ Folium Rubi idaei – foliole ovat-lanceolate inegal dințate pe margini fără 
 de culoare verde pe suprafața superioară și albă sau albă – cenușie pe cea inferioară. Mirosul
 frunzelor uscate este plăcut, gustul astringent
 53
-
-### Pagina 54
 
 Cursul 7
  Aromoterapia
@@ -2197,8 +2089,6 @@ Inhalatiile
 Inhalatiile sunt foarte potrivite pentru tratarea problemelor respiratorii, a racelilor, gripei si
 pentru pregatirea tenului in vederea unui tratament cosmetic. Pemtru aceasta, se toarna intr-un
 
-### Pagina 55
-
 vas 1 L de apa clocotita si se adauga 3-4 picaturi de ulei. Vaporii degajati se inspira stand
 aplecat peste vas, cu capul acoperit cu un prosop mare. O metoda mai simpla si rapida de a
 face o inhalatie este aceea de a stropi un servet cu 2-3 picaturi de ulei si a-l mirosi cateva
@@ -2240,8 +2130,6 @@ suplimentare. Datorită acestui fapt se poate spune că simțul mirosului este c
 al nostru, fiind astfel deosebit de celelalte cinci simțuri. Această caracteristică aparte explică
 55
 
-### Pagina 56
-
 de altfel și influența majoră pe care mirosul o poate exercita asupra stărilor psihice, legătura
 lui cu instincte fundamentale ale ființei (hrănirea, atracția sexuală etc.), capacitatea lui de a ne
 induce cu rapiditate modificări la nivelul minții.
@@ -2280,8 +2168,6 @@ puternic ori să se strivească între degete o frunză pentru a se obține o ar
 6. Ienupăr (Juniperus communis) - În vechime, ienupărul era ars, la fel ca și tămâia, pentru
 alungarea spriritelor rele. Uleiul de ienupăr are un efect de reechilibrare și calmare în plan
 
-### Pagina 57
-
 psihic, fiind tonic al nervilor. Elimină stările depresive, anixietatea, stresul, grijile excesive.
 Conferă o stare de forță interioară, încredere în sine. Reglează viața sentimentală și ne
 scutește de oscilații. Este foarte recomandat persoanelor care trec cu ușurință de la o stare de
@@ -2311,8 +2197,6 @@ Venus, iar mahomedanii cred că a răsărit din sângele lui Mahomed. Conferă o
 armonie, pace interioară. Trezește iubirea, reconfortează inima și ascute mintea. Este calmant,
 antidepresiv, fiind indicat în insomnie, iritabilitate nervoasă, depresie.
 57
-
-### Pagina 58
 
 Cursul 8
  SHIATSU, Presopunctura
@@ -2350,8 +2234,6 @@ acorda acum credibilitatea binemeritata.
 Pot exista doua abordari ale problemei functionarii shiatsu: una din perspectiva medcinii
 moderne si alta din perspectiva medicinei traditionale chineze.
 Explicatia medicinei moderne
-
-### Pagina 59
 
 Endorfinele: Acupunctura si shiatsu stimuleaza organismul sa produca propriile substante cu
 rol antialgic, numite "endorfine". Acestea sunt secretate in creier si ofera senzatia "de bine"
@@ -2391,8 +2273,6 @@ singur tratament este suficient. Pentru afectiunile mai grave sau cronice se rec
 tratamente timp de cateva saptamani. De retinut ca atitudinea pacientului, regimul alimentar,
 stilul de viata pot afecta evolutia tratamentului.
 59
-
-### Pagina 60
 
 Ideal, acupunctura si shiatsu sunt folosite ca medicina preventiva, deci nu trebuie sa fii bolnav
 ca sa faci cateva sedinte de shiatsu pentru o buna echilibrare energetica.
@@ -2440,8 +2320,6 @@ ombilicului.
 - Ren 17-Shanzhong (Coada de porumbel)
 Punctul se afla pe linia mediana a toracelui, la mijlocul sternului, intre mameloane.
 
-### Pagina 61
-
 - SJ 5-Waiguan (Trecatoarea exterioara)
 Acest punct este plasat intre oasele radius si cubitus, pe partea superioara a antebratului, la
 doua degete si jumatate distanta de incheietura mainii.
@@ -2486,11 +2364,7 @@ SJ 5-Waiguan
 Dureri de cap, raceli.
 61
 
-### Pagina 62
-
 .
-
-### Pagina 63
 
 Cursul 9
  FENG SHUI
@@ -2530,8 +2404,6 @@ construit. Ceea ce multi aplicanti de Feng Shui nu iau in calcul, sunt tocmai ca
 elementele care definesc persoana proprietara a acelui spatiu, fie el de locuit sau de munca.
 63
 
-### Pagina 64
-
 Astfel, spatiul respectiv trebuie amenajat in asa fel incat sa se armonizeze cu persoana care
 locuieste sau munceste acolo.
 De asemenea, fiecare persoana are un numar specific KUA care o reprezinta. Numarul
@@ -2568,8 +2440,6 @@ Metoda celor Opt Palate
 Trebuie tinut cont de faptul ca in fiecare an, odata cu intrarea in Noul An Chinezesc,
 energiile dintr-un spatiu se schimba. Aceste schimbari sunt explicate prin Formula Stelelor
 Zburatoare. Nu sunt multi cei ce realizeaza ca Feng Shui are o dimensiune temporala, ce poate
-
-### Pagina 65
 
 fi investigata folosind grilele anuale si lunare extrem de detaliate ale stelelor zburatoare. Feng
 Shui-ul stelelor zburatoare este o ramura a Feng Shui-ului busolei, ce utilizeaza directia de
@@ -2610,8 +2480,6 @@ perturbarilor anuale, legate de timp.
 Feng Shui este si o practica creativa si trebuie sa imprimam putin din energia proprie
 in spatiul nostru, pentru ca Feng Shui-ul sa ne fie efficient. Pentru a crea un spatiu fericit, nu
 65
-
-### Pagina 66
 
 trebuie folosit nimic, nici o culoare in zugravire, nici un obiect de arta, daca nu ne place.
 Fiecare colt din casa va avea de castigat daca ii acordam atentie. Daca facem fericite colturile

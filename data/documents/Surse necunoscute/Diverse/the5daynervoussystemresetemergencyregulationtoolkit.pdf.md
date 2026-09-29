@@ -1,5 +1,3 @@
-### Pagina 1
-
 THE 5-DAY NERVOUS
  SYSTEM RESET:
 EMERGENCY REGULATION
@@ -8,8 +6,6 @@ KYLE COX
 SCIENCE-BACKED PROTOCOLS TO
 INTERRUPT TRAUMA RESPONSES
 IN UNDER 60 SECONDS
-
-### Pagina 2
 
 Welcome!
 ABOUT ME
@@ -33,8 +29,6 @@ can't think straight, can't breathe properly, can't remember your
 affirmations. Your renovation starts now.
 K y l e C o x
 
-### Pagina 3
-
 YOUR TRIGGERS ARE FASTER THAN YOUR THOUGHTS
 By the time you think "I need to calm down," your body has already
 launched into a full trauma response.
@@ -56,8 +50,6 @@ By Day 5, you'll have a complete emergency toolkit that works when
 you're panicked, dissociated, or completely overwhelmed. These
 aren't coping strategies - they're nervous system cheat codes.
 Let's install your first one.
-
-### Pagina 4
 
 DAY 1 - THE FREEZE BREAKER
 For when you shut down, dissociate, or go numb
@@ -83,8 +75,6 @@ it predates fight or flight. The only thing older? Temperature
 regulation and movement. You're using evolution against trauma.
 Practice this NOW, before you need it. Your nervous system learns
 through repetition, not emergency.
-
-### Pagina 5
 
 DAYS 2-4 - YOUR RESPONSE TOOLKIT
 DAY 2: THE RAGE RELEASE: For when anger hijacks your system
@@ -113,8 +103,6 @@ The Anchor Sequence (50 seconds)
 4.Name: Say "I am here, I am safe, I stay" (10 seconds)
 You're proving to your nervous system that staying is possible, that you
 can be still without dying.
-
-### Pagina 6
 
 DAY 5 - YOUR MASTER RESET
 The Complete State Shift (60 seconds)
@@ -147,8 +135,6 @@ Recovery time shortens
 You choose responses rather than react
 Others notice you're different
 
-### Pagina 7
-
 STAN.STORE/KYLEINSPIRES
  READY FOR COMPLETE RENOVATION?
 These 5 emergency protocols interrupt your triggers. But what if
@@ -164,8 +150,6 @@ Private community of people rewiring together
 Cancel anytime
 Perfect if you want consistent, guided support and accountability as you
 renovate your nervous system day by day.
-
-### Pagina 8
 
 STAN.STORE/KYLEINSPIRES
 Option 2: The Neural Reset Protocol - 21 Day Complete Blueprint

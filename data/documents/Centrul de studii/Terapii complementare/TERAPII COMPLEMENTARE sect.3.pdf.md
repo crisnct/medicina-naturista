@@ -1,5 +1,3 @@
-### Pagina 1
-
 PROGRAMA CURSULUI TERAPII COMPLEMENTARE - sectiunea 3
 CURSUL TEMA Pag
 Cursul 19 Cristaloterapie terapia cu pietre 2
@@ -10,8 +8,6 @@ Cursul
 Cromoterapia 19
 Cursul 23 Homeopatiei 24
 Cursul 24 Fitoterapie 34
-
-### Pagina 2
 
 Cursul 19
  CRISTALOTERAPIA ȘI CRISTALELE
@@ -55,8 +51,6 @@ voastră tot timpul, oriunde mergeți.
 Cu cât vibrațiile voastre vor fi ma i apropiate de vibrațiile cristalului, cu atît mai eficient va
 funcționa acesta ca dispozitiv de (condensare) transformare și dirijare a energiei.
 Interacțiunea constantă cu corpul vostru va conduce la sincronizarea vibrațiilor cristalului
-
-### Pagina 3
 
 cu cele ale spiritului, sufletului și trupului vostru, dar le veți putea acorda și cu ale
 pacienților.
@@ -104,8 +98,6 @@ poseta sau noaptea, sub perna, vei reusi sa atragi in viata ta vibratii pozitive
 iubire si sa gasesti echilibrul pe plan emotional.
 Daca vrei sa gasesti persoana potrivita pentru a incepe o relatie de iubire sau daca doresti sa
 readuci la viata emotiile care te legau atat de puternic de partenerul de viata, unul dintre cele
-
-### Pagina 4
 
 mai bune cristale este chiar cel supranumit “Piatra iubirii”: cuartul roz. De obicei, daca te
 lovesti de diferite probleme in iubire, precum incapacitatea de a pastra o relatie pe termen
@@ -161,8 +153,6 @@ Carneol
 - armonizeazã mintea, trupul si spiritul
 - poarta noroc
 
-### Pagina 5
-
 Fecioara Atrin, Sardonix, Jasp - favorizeaza energia pozitiva si buna dispozitie
 - tempereaza pesimismul
 Balanta Jasp, Crisolit
@@ -214,8 +204,6 @@ accepta pe deplin adevarata sa natura (refacand constient legătura cu lumina di
 originala de tratament, care combina elemente de radiestezie activa, piramidologie si cristale
 de quartz. Folosind tehnicile de radiestezie (biodetectie), pacienul este investigat din punct de
 
-### Pagina 6
-
 vedere energetic, stabilindu-se un diagnostic (energetic), gasind blocajele si deficientele
 energetice ale pacientului spre a le inlatura, deci spre vindecare.
  Folosind efectul de piramida, bine cunoscut, au fost slefuite cristale de quartz in aceasta
@@ -260,8 +248,6 @@ In timpul sesiunii de tratament vei simti, treptat, cum te cuprinde o stare de r
 nu ai mai experimentat-o pana acum, ceea ce va avea ca efect, intre altele, imbunatatirea
 sistemului imunitar.
 
-### Pagina 7
-
 Majoritatea celor care apeleaza la cristalo terapie au un scop bine determinat, dar se impune
 prudenta. Nu toate mineralele dintr-o anumita categorie au aceleasi proprietati curative si, in
 aceeasi nota, nu toate persoanele reactioneaza identic atunci cand organismul lor este expus
@@ -282,8 +268,6 @@ alege tipul de cristal potrivit. Aceasta ultima etapa va fi in mod fericit compl
 gandirea pozitiva. De exemplu, daca scopul tau este sa slabesti, tine-l in palma, inchide ochii,
 concentreaza-te si spune-ti "Vreau sa slabesc". Intotdeauna formuleaza afirmativ - nu spune,
 in exemplul dat, "Nu mai vreau sa fiu grasa".
-
-### Pagina 8
 
 Cursul 20
  Acupunctura
@@ -324,8 +308,6 @@ Qi, boala fiind efectul dezechilibrarii sau blocarii acesteia. Energia Qi circul
 omului prin canale numite meridiane. Fiecare organism este o adevarata harta cu astfel de
 meridiane care patrund in toate organele, meridianele fiind si ele Yin sau Yang.
 Exista 12 meridiane principale si cel putin 8 meridiane secundare pe suprafata carora se
-
-### Pagina 9
 
 gasesc puncte prin care putem sa influentam curgerea Qi-ului prin meridiane. Sunt
 aproximativ 365 de asemenea puncte. Se mai cunosc puncte in afara meridianelor numite
@@ -372,8 +354,6 @@ Editia din octombrie 1998 a revistei Science publica un raport despre Omul de gh
 Tirol , de departe cel mai vech si bine pastrat trup mumificat (5.200 de ani). In reportaj se
 mentiona despre prezenta pe corpul mumiei a 15 grupuri de tatuaje aflate pe spate si
 
-### Pagina 10
-
 picioare.
 Pozitionarea si aspectul tatuajelor corespund binecunoscutului meridian de acupunctura Bl
 (Vezica Urinara). Acest meridian este folosit deseori pentru pentru tratamentul afectiunilor
@@ -413,8 +393,6 @@ Fiecare punct de acupunctura este localizat dupa lungimea in "cun" astfel obtinu
 segmentului dintre punct si alt reper de acupunctura. De exemplu, pe antebrat, distanta intre
 plica (cuta) cotului si cea a incheieturii miinii masoara 12 cun. Punctul Neiguan (Pe6) se
 afla pe partea interna a antebratului la 2 cun deasupra mijlocului pliului de flexiune.
-
-### Pagina 11
 
 Aceasta metoda permite o localizare precisa. a punctelor. Ea poate fi aplicata atit la adulti cit
 si la copii, indiferent de talie sau forme anatomice. Procedeul este cel mai precis mod de
@@ -457,8 +435,6 @@ sprancenele, si extremitatea fruntii, pentru punctele dorsale se iau iau ca repe
 spinale ale vertebrelor, omoplatul (spina omoplatului este situata la niveaul apofizei spinale a
 celei de-a 3-a vertebre dorsale si unghiul sau inferior la nivelul apofizei spinale a celei de-a
 
-### Pagina 12
-
 7-a vertebra dorsala), coastele (extremitattea inferioara a arcului costal este la nivelul celei
 de-a 2-a vertebre lombare) si creasta iliaca (cele doua creste sunt la nivelul celei de-a 4-a
 vertebre lombare).
@@ -500,8 +476,6 @@ o atingere mai curand asociata cu mangaierea, decat cu durerea, dupa cateva minu
 infigerea acului in piele.
 Acest fenomen, ne explica medicii alopati, se petrece datorita eliberarii serotoninei si
 
-### Pagina 13
-
 endorfinelor in timpul tratamentului. Dupa tratament, majoritatea pacientilor spun ca sunt
 plini de energie, euforici si au multe idei.
 Contraindicatii
@@ -533,8 +507,6 @@ Deasemenea acupunctura este folosita pentru:
 In momentul inteparii unui punct de acupunctura pleaca o informatie spre creier, iar acesta,
 la randul lui, transmite informatia organului afectat (procedeul se numeste feed-back
 energetic)."
-
-### Pagina 14
 
 Cursul 21
  Kinetoterapia
@@ -572,8 +544,6 @@ care îi preiau partial functiile, în scopul realizarii miscarii în limite acc
 - refacerea fortei musculare si cresterea rezistentei musculare; - cresterea si adaptarea
 capacitatii de efort; - ameliorarea functiei de coordonare, control si echilibru a corpului; -
 formarea capacitatii de relaxare;
-
-### Pagina 15
 
 - corectarea posturii si aliniamentului corpului; - cresterea mobilitatii articulare; -
 reeducarea respiratorie;
@@ -621,8 +591,6 @@ cap si git inclinat inainte, omoplati departati si desprinsi, umeri adusi in fat
 sau in flexiune, stoparea reflexului de atitudine gresita a trunchiului si formarea unui reflex
 de postura corect si stabil in activitatile statice si dinamice ale corpului. Pentru realizarea
 acestor scopuri, mijloacele folosite sint exercitiile statice si exercitiile dinamice care constau
-
-### Pagina 16
 
 in miscari active libere sau ingreunate care sa redreseze coloana vertebrala si celelalte
 deficiente secundare ale cifozei.
@@ -674,8 +642,6 @@ pacientului în executarea activitatilor zilnice si specifice profesiei. Acest l
 de important, deoarece orice întîrziere în aplicarea tratamentului poate periclita activitatea
 socio-profesionala a acestuia. Aspectul membrului afectat se schimba, întrucît atrofia este
 
-### Pagina 17
-
 progresiva si cuprinde muschii extensori, iar neglijarea ei, ca si persistenta sa, ar constitui
 una din cauzele instabilitatilor articulare si recidivelor entorselor. Obiectivele urmarite în
 kinetoterapie sînt: controlul durerii, reducerea tumefactiei si a edemului din vecinatate,
@@ -718,8 +684,6 @@ bioenergie, etc. Insa, doresc sa precizez faptul ca ea apartine domeniului medic
 traditionale iar efectele ei pot fi suplinite cu success de terapiile complementare in masura in
 care le intelegi si le accepti ca pe o completare la tratamentele clasice.
 
-### Pagina 18
-
 Cursul 22
  Cromoterapia
 Inca din Evul Mediu, vindecatorii si vrajitorii recurgeau adesea la cromoterapie ca la un
@@ -748,8 +712,6 @@ culori mai deschise. Absenta luminii solare poate fi într-o oarecare masura com
 lumina artificiala. Incaperea în care ne petrecem majoritatea timpului toamna trebuie sa fie
 bine iluminata, nici nu trebuie sa ne treaca prin cap sa stam în semiobscuritate. Dimpotriva,
 este de preferat culoarea alba, apropiata de lumina solara.
-
-### Pagina 19
 
 Bagheta magica a culorilor
 Bagheta magica însa poate fi gama de culori perceputa de-a lungul zilei cu ochiul liber. Pe
@@ -797,8 +759,6 @@ lampa cu abajur albastru somnul nu va întirzia sa apara. Efectul va fi acelasi 
 asa fel ca toamna la birou si acasa ochiul nostru sa se bucure de întreaga gama de culori.
 Veti vedea atunci ca melancolia de toamna va ramine doar o stare... poetica.
 
-### Pagina 20
-
 Un alt fel de cromoterapie
 "Culoarea, aceasta fermecatoare insusire a tot ce ne inconjoara, poate aduce in sufletul
 nostru bucurie sau tristete, caldura sau raceala, agitatie sau liniste. Ea ne face sa ne simtim
@@ -843,8 +803,6 @@ avem in jurul nostru, ne influenteaza foarte mult starile pe care le avem.
 De asemenea, culoarea vesmintelor are un rol foarte mare in a trezi atat in cei ce le poarta,
 cat si in cei care le privesc, anumite stari, atitudini specifice. Inca din cele mai vechi timpuri,
 femeile au folosit culorile, aplicandu-le printr-un machiaj adecvat, pentru a fi cat mai
-
-### Pagina 21
 
 atragatoare si cat mai incitante.
  În cromoterapie folosim culorile (care acționează prin intermediul lungimilor lor
@@ -895,8 +853,6 @@ recomandă în special în caz de infecții cu bacterii și virusuri, febră, v�
 inflamații, înțepături de insecte, migrenă, diaree, insolație și bufeuri de căldură (la
 menopauză), dureri de dinți, dureri menstruale.
 
-### Pagina 22
-
 Indigo: ajută la interiorizare, purifică sistemul circulator, stimulează activitatea tiroidei și
 paratiroidelor, este antialgic. Se recomandă în caz de idei obsesive, convulsii, halucinații,
 psihoze, boli ale nasului și urechilor, sinuzite, astm bronșic.
@@ -926,8 +882,6 @@ Trebuie făcut cu o substanță perfect definită, utilizată în doze ponderale
 repetitive, menținute în
 același timp la nivel subtoxic. Experimentul va fi făcut pe un anumit număr de persoane,
 despre care se știe că sunt sănătoase și alese astfel încât să constituie un eșantion
-
-### Pagina 23
 
 reprezentativ.
 Toate simptomele care apar sunt observate în cele mai mici detalii și notate în termenii
@@ -971,8 +925,6 @@ Toate aceste simptome, care sunt expresia reacției specifice a bolnavului la bo
 precizate de circumstanțele apariției lor. Este vorba de ceea ce numim „modalitățile
 reacționale": agravare, ameliorare, lateralitate etc.
 
-### Pagina 24
-
 Semnele locale și generale sunt importante în alegerea medicamentului. Să luăm exemplul
 febrei:
 - o febră cu instalare rapidă, ridicată (39° - 39,5° C), cu piele uscata (fără transpirație)
@@ -1014,8 +966,6 @@ b) Sușele de origine animală: sunt constituite printr-o macerare în alcool î
 Apis mellifica = albina întreagă
 Formica rufa = furnica roșie
 - sau a anumitor părți sau organe ale animalelor, sau a anumitor secreții
-
-### Pagina 25
 
 Sepia = cerneala sepiei
 - sau a veninurilor
@@ -1061,8 +1011,6 @@ c) Diluția korsakoviană - K - :
 în 1832, un rus, Korsakov, pentru a evita utilizarea atâtor flacoane, propune o tehnică de
 diluție numită „în flacon unic": se pun 5 ml tinctură-mamă într-un flacon care este agitat
 
-### Pagina 26
-
 puternic, apoi golit prin aspirare. Acest procedeu lasă în flacon 1% din volumul inițial. Se
 adaugă apă purificată în acest flacon pentru a dilua ceea ce a rămas din TM pe pereți, se
 agită puternic și se obține astfel prima diluție korsakoviană 1 K. Repetând operația, se
@@ -1106,8 +1054,6 @@ prin impregnarea cu o diluție. Altădată, impregnarea granulelor și a globule
 o singură etapă și din acest motiv ea rămânea superficială, ceea ce explică faptul că se
 recomanda să nu se ia granulele cu degetele.
 
-### Pagina 27
-
 în 1961, a fost pus la punct un procedeu de triplă impregnare, ceea ce permite o penetrare
 mai profundă și o repartizare mai omogenă a dilutiei. Aceste două forme farmaceutice,
 granulele și globulele, sunt specifice homeopatiei.
@@ -1149,8 +1095,6 @@ ori pe zi, până la dispariția simptomelor, în special în cazurile acute.
 - Diluțiile înalte (15 CH/30 CH),
 sunt utilizate în general pentru maladiile cronice și tipurile sensibile și, deci, prescrise de
 către medic o dată pe săptămână sau o dată la cincisprezece zile.
-
-### Pagina 28
 
 Contrar ideilor răspândite, menta și cafeaua, absorbite la un interval față de prizele de
 medicamente, nu anihilează acțiunea acestora.
@@ -1200,8 +1144,6 @@ homeopatie”; Bucuresti, 7-8 octombrie 1983: “Valorificarea florei nationale 
 Homeopatiei”; Poiana Brasov, 12 octombrie 1984, “Aplicatiile homeopatiei in pediatrie”;
 Slatina, 14-15 iunie 1985, “ Sunetele, mirosurile si homeopatia”; Targu-Mures, 16-17
 octombrie 1987, “Tulburarile de somn in semiotica si terapeutica homeopatica. Cercetarea
-
-### Pagina 29
 
 stiintifica in homeopatie”, etc. In 12-13 octombrie 1989, la Sibiu are loc prima Conferinta
 Nationala cu participare internationala cu temele : “Homeopatia si : bolile profesionale,
@@ -1253,8 +1195,6 @@ pacientilor si nu a bolilor. Prin urmare, tratamentul inseamna deseori stimulare
 naturale si a fortelor de recuperare ale corpului. Unul dintre principiile homeopatiei este
 Legea similitudinii sau "Similia similibus curantur", adica substanta concentrata care
 
-### Pagina 30
-
 produce anumite simptome, in stare diluata si preparata in mod special poate vindeca
 aceleasi simptome. Spre exemplu, pe persoana care taie ceapa o va ustura ochii, ii va curge
 lacrimile si nasul, o va ustura in gat si va incepe sa tuseasca si sa stranute. Remediul
@@ -1291,8 +1231,6 @@ cu succes, infectiile pot reaparea. Folosind remedii homeopate, problema se rezo
 iar starea generala este imbunatatita prin intarirea sistemului imunitar. In aceste cazuri se
 realizeaza si tratamentul de preventie.
 
-### Pagina 31
-
 Cursul 24
  Fitoterapie
 FITOTERAPIE (phyton = planta +therapea = tratament) = ramura a terapiei care se ocupa
@@ -1314,8 +1252,6 @@ tratamente naturale pentru situatii de urgenta precum si tratamente eficiente in
 considerate incurabile. Durata tratamentului este determinata cel mai adesea de
 perseverenta si corectitudinea pe care pacientul le manifesta in realizarea tratamentului si de
 asocierea corecta cu alte terapii naturale.
-
-### Pagina 32
 
 Plantele medicinale reprezinta un domeniu incomplet studiat de mediile stiintifice oficiale.
 Sotii Kirlian descopera la sfarsitul anilor 50 ca plantele au un camp bioenergetic. Ele sunt
@@ -1361,8 +1297,6 @@ tratare a cancerului, leucemiei și a altor boli aparent incurabile ș.a.m.d.).
  În general, răspund bine la tratamentul fitoterapeutic următoarele boli:
 - alergiile, astmul bronșic, reumatismul (unele forme), bolile de piele
 
-### Pagina 33
-
 - bolile psihosomatice, nevrozele, insomnia, tulburările de memorie la vârstnici
 - infecțiile cronice microbiene, parazitozele, unele afecțiuni virale
 - stările de stres și epuizare, carențele în anumite vitamine și minerale
@@ -1398,8 +1332,6 @@ cultivandu-se mai ales in regiunile din sudul tarii.
  ARBORELE TEMPLIER
  Arborele templier (Ginkgo biloba) este originar din Asia, la noi crescand doar cultivat.
 
-### Pagina 34
-
  ARMURARIUL
  Armurariul (Silybum marianum) este o planta ierboasa, care creste in regiunile
 mediteraneene si in Asia, iar la noi numai in culturi.
@@ -1434,8 +1366,6 @@ chimion.
  CICOAREA
  Cicoarea (Cichorium intybus) este o planta indragita pentru culoarea albastra a florilor ei.
 
-### Pagina 35
-
 O varietate cultivata de cicoare este renumita pentru surogatul de cafea fabricat din
 radacinile sale.
  CIMBRISORUL
@@ -1468,8 +1398,6 @@ din familia umbeliferelor.
  CRAITELE
  Plante ornamentale, cultivate prin parcuri si gradini, craitele (Tagetes patula si Tage- tes
 erectd) apartin familiei compozitelor si sunt originare din Mexic.
-
-### Pagina 36
 
  CRETISOARA
  Cretisoara (Alchemilla vulgaris) este o planta din familia Rosaceae care creste prin pasuni,
@@ -1504,8 +1432,6 @@ in regiunea mediteraneana si in Asia.
  Denumirea stiintifica a fenicu-lului este Foeniculum vulgare, in popor fiind cunoscuta si sub
 numele de anason dulce sau molotru.
 
-### Pagina 37
-
  FERIGA
  Feriga (Dryopteris filix) este o planta ierboasa usor de recunoscut, care creste frecvent in
 zona de munte si poate ajunge pana la un metru maltime.
@@ -1537,8 +1463,6 @@ in Asia, nu doar in tara de origine, ci si in Coreea, Japonia si Rusia.
 Statele Unite si Canada.
  HAMEIUL
  Hameiul (Humulus lupulus) este o planta agatatoare cu tulpini foarte lungi, ca niste liane.
-
-### Pagina 38
 
  HOLERA
  Holera ( sau Ghimpele) - (Xanthium spinosum) este o planta din familia compozitelor,
@@ -1573,8 +1497,6 @@ noi fiind intalnit in zona de munte, pe stand.
  Lucerna (Medicago sativd) este cunoscuta ca planta furajera, dar este si o planta alimentara
 si medicinala.
 
-### Pagina 39
-
  LUMANARICA
  Lumanarica (Verbascum phlomoides si alte specii de Verbascum), numita popular si coada-
 vacii, este o planta ierboasa cu tulpina dreapta, neramificata, de pana la 1,5 m.
@@ -1607,8 +1529,6 @@ cruciferelor, ca si varza.
  NALBA
  Nalba-mare este Inrudita cu alte cateva specii, care au utilitate medicinala si aplicatii
 terapeutice asemanatoare.
-
-### Pagina 40
 
  NALBA-MARE
  Nalba-mare (Althaea officinalis) este o planta ierboasa de statura inalta, cunoscuta inca din
@@ -1644,8 +1564,6 @@ umbrela.
  Pirul (Agropyrum repens) este o planta ierboasa cu tulpina inalta de 1-1,5 m, de culoare
 verde-cenusie.
 
-### Pagina 41
-
  PLAMANARICA
  Plamanarica (Pulmonaria officinalis) este o planta ierboasa, inalta de cca 30 cm, care creste
 prin paduri, in locuri umbroase, de la ses pana in zona montana.
@@ -1676,8 +1594,6 @@ Rheum officinale.
  ROINITA
  Roinita (Melissa officinalis) este o planta ierboasa cu tulpini ramificate ce formeaza tufe
 inalte de aproximativ o jumatate de metru.
-
-### Pagina 42
 
  ROSCOVUL
  Roscovul (Ceratonia siliqud) este un arbore din familia leguminoaselor, originar din
@@ -1710,8 +1626,6 @@ alaturi de alte specii de scai pe pajistile uscate.
  SCHINDUFUL
  Schinduful (Trigonela foenum graecum) este o planta ierboasa din familia leguminoaselor,
 originara din Asia.
-
-### Pagina 43
 
  SCHINELUL
  Schinelul (Cnicus benedictus) este o planta ierboasa cu tulpina dreapta, paroasa, inalta de
@@ -1747,8 +1661,6 @@ pe stanci si soluri uscate.
  Sulfina (Melilotus officinalis) este o planta ierboasa din familia leguminoaselor, cu flori
 galbene, placut mirositoare, insirate la varful tulpinilor inalte de pana la un metru.
 
-### Pagina 44
-
  SUNATOAREA
  Sunatoarea (Hypericum perfora-tum), numita popular si pojarnita, este o planta ierboasa, cu
 flori galbene.
@@ -1779,8 +1691,6 @@ pietre sau dale de pavaj.
  TURITA-MARE
  Turita-mare (Agrimonia eupatoria) este o planta ierboasa cu tulpina inalta de pana la 1
 metru.
-
-### Pagina 45
 
  TURMERICUL
  Turmericul (Curcuma longa) cunoscut si sub numele de curcuma, este o planta ierboasa, de
@@ -1818,8 +1728,6 @@ prepară cu apă la temperatura camerei (15 - 25 de grade). În timpul extrageri
 agită de câteva ori. După trecerea timpului indicat, maceratul se strecoară prin tifon.
 Preparatul se consumă în timp de 24 de ore și se păstrează la rece, în sticle de culoare
 închisă.
-
-### Pagina 46
 
 Cataplasma este un preparat de consistență moale, care se obține din plantă măcinată,
 amestecată cu apă până se formează o pastă. Această pastă se pune între două bucăți de

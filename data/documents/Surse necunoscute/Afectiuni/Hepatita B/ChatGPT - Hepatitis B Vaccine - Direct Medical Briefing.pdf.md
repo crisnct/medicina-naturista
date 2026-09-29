@@ -1,5 +1,3 @@
-### Pagina 1
-
 Hepatitis B Vaccine A direct medical briefing on benefits, schedules,
 contraindications,
 
@@ -85,8 +83,6 @@ causation.
 Contents
 ● 1. Bottom line ● 2. What hepatitis B is and why the vaccine exists ● 3. Vaccine types and adult schedules ● 4. Who should be vaccinated and what to test first ● 5. Usual side effects ● 6. Serious and exceptional adverse events ● 7. Personal accounts from forums, blogs, and public testimony ● 8. Practical safety checklist before and after vaccination ● 9. Decision framework for adults ● 10. References
 One blunt principle
-
-### Pagina 2
 
 A serious reaction after vaccination is not automatically caused by the vaccine. But saying
 'vaccines
@@ -560,8 +556,6 @@ around
 
 birth.
 
-### Pagina 3
-
 Adults usually clear acute HBV more often than infants. Infants are the vulnerable group:
 infection
 
@@ -763,8 +757,6 @@ Heplisav-B Adult schedule is commonly 2 doses at least 4 weeks apart.
 Faster completion. Uses a newer adjuvant. Discuss pregnancy, immune disease, and cardiovascular history with the clinician.
 Twinrix Combination hepatitis A + B vaccine; standard or accelerated adult schedules depending on indication.
 Useful when both hepatitis A and B protection are needed.
-
-### Pagina 4
 
 Product or schedule
 Typical use Direct comment
@@ -983,8 +975,6 @@ protection.
 5. Usual side effects
 Most reactions are mild and short. CDC lists injection site pain, soreness, redness, headache,
 
-### Pagina 5
-
 and fatigue as common, usually lasting one to two days. [2] WHO's observed-rate sheet reports
 mild
 
@@ -1108,8 +1098,6 @@ itself.
 [6,12]
  ● SIRVA: shoulder injury related to vaccine administration can occur when the injection is
 
-### Pagina 6
-
 placed incorrectly or too high/deep in the shoulder. It is an administration injury, not a liver
 or
 
@@ -1181,8 +1169,6 @@ Listed in postmarketing reports for Engerix-B. Can involve fever, rash, joint sy
 Rare, unpleasant, and medically real. Needs assessment.
 Thrombocytopenia / purpura
 Listed in postmarketing reports. [7] Bruising, petechiae, bleeding, or very low
-
-### Pagina 7
 
 Reported event What is known Direct interpretation
 
@@ -1343,8 +1329,6 @@ every
 outcome
 
 described.
-
-### Pagina 8
 
 7.1 Ian's Voice - alleged fatal allergic reaction after infant hepatitis B
 vaccination
@@ -1708,8 +1692,6 @@ cautioned
 
 that
 
-### Pagina 9
-
 elevated liver enzymes can have many causes and that major authorities have not established
 autoimmune
 
@@ -1933,8 +1915,6 @@ cancel.
 [7]
  ● Previous anaphylaxis to a hepatitis B vaccine or component: do not repeat without
 
-### Pagina 10
-
 specialist allergy evaluation. ● Very premature hospitalized infants: respiratory monitoring may be considered; this is a
 neonatal
 
@@ -2085,8 +2065,6 @@ Vaccination is usually a professional necessity.
 Needlestick and blood exposure are real risks.
 Partner or household Vaccination is usually Household/sexual
 
-### Pagina 11
-
 Adult situation Likely direction Why
 
 member has chronic HBV urgent unless already immune.
@@ -2188,8 +2166,6 @@ be
 individualized.
 
 10. References
-
-### Pagina 12
 
 [1] World Health Organization. Hepatitis B fact sheet. 10 June 2026. WHO Hepatitis B [2] CDC. Hepatitis B Vaccine Safety. CDC vaccine safety [3] CDC. Hepatitis B Vaccine Administration. CDC administration guidance [4] CDC. Clinical Testing and Diagnosis for Hepatitis B. CDC testing guidance [5] WHO. Observed Rate of Vaccine Reactions - Hepatitis B Vaccine. June 2012. WHO
 observed

@@ -1,5 +1,3 @@
-### Pagina 1
-
 HERBAL MATERIA MEDICA
 fifth edition
 BY
@@ -12,8 +10,6 @@ SOUTHWEST SCHOOL OF
 BOTANICAL MEDICINE
 PO Box 4565
 Bisbee, AZ 85603
-
-### Pagina 2
 
 HERBAL MATERIA MEDICA
 fifth edition
@@ -53,8 +49,6 @@ available in commerce, and I rely on the many sources for extraction principles:
 older Pharmacopaeas, Formularies and Dispensatories. For plants never listed,
 their constituents usually give clear indications for solubilities and media.
 
-### Pagina 3
-
 Whenever in doubt, I have followed my own inclinations or the observations of
 the best plant pharmacist of the modern era, John Uri Lloyd.
 DOSAGE: These are all given for ADULTS; give kids simple stuff. Be
@@ -75,8 +69,6 @@ W/C (wildcrafted and cultivated)
 C (cultivated), and finally
 U (unknown...at least to me)
 Michael Moore 8/95
-
-### Pagina 4
 
 ABIES (Tsuga canadensis, Canada Balsam, Hemlock Spruce)
 BARK. EXTERNAL: Weak Decoction.
@@ -129,8 +121,6 @@ STATUS : W/LA
 *AESCULUS CALIFORNICA (California Buckeye)
 BARK and FRUIT. Same as Aesculus glabra.
 
-### Pagina 5
-
 USE WITH CARE.
 STATUS : W/LA
 *AESCULUS GLABRA (Ohio Buckeye)
@@ -180,8 +170,6 @@ ALPINIA (Galangal)
 DRIED ROOT. Tincture [1:5, 65% alcohol] 30-90 drops as needed. 1-2 #00
 capsules to 3 X a day.
 STATUS : C
-
-### Pagina 6
 
 ALTHEA (Marshmallow or Hollyhock)
 ROOT. Cold Infusion or Fresh Tincture [1:2] as needed
@@ -233,8 +221,6 @@ STATUS : W/C
 *ANGELICA SINENSIS (Dong Quai, Tang Kwei)
 CURED CHINESE OR KOREAN ROOT.Large slices, 1/16th to 1/8th a
 
-### Pagina 7
-
 day,chewed and swallowed.Tincture [1:5, 70% alcohol] 5-20 drops
 Capsules, #0, 1 to 3 a day.
 STATUS : W/C
@@ -284,8 +270,6 @@ STATUS : W/LA
 ARGEMONE (Prickly Poppy, Cardo Santo)
 HERB. Cold Infusion, 2-3 ounces, to 3X a day. For short duration of use only .
 STATUS : W/A
-
-### Pagina 8
 
 ARISAEMA (Jack-in-the-Pulpit)
 CORM. Tincture [Fresh Corm, slightly wilted, 1:2, 50% alcohol] 2-10 drops.
@@ -337,8 +321,6 @@ STATUS : W/A
 *ASCLEPIAS INCARNATA (Swamp Milkweed)
 ROOT. Same as above. STATUS : W/A
 
-### Pagina 9
-
 *ASCLEPIAS SUBULATA (Desert Milkweed)
 ROOT. Tincture [1:5, 50% alcohol] 10-20 drops in hot water, to 3X a day.
 STATUS : W/LA
@@ -388,8 +370,6 @@ ROOT. Tincture [1:5, 65% alcohol], WHOLE PLANT. Fresh Tincture [1:2],
 both taken 10-25 drops, to 3X a day.
 USE WITH CARE; better long term in formulas
 STATUS : W/A
-
-### Pagina 10
 
 BAROSMA (Agothasma, Buchu)
 LEAVES. Cold Infusion (rewarmed) 1-3 ounces. Tincture [1:5, 80% alcohol],
@@ -441,8 +421,6 @@ FLOWERING TOPS.Tincture [Fresh Herb, 1:2, Dry Herb, 1:5, 95% alcohol]
 5-30 drops.Smokers need higher dose. ILLEGAL TO POSSESS PRESENTLY
 STATUS : W/LA/C
 
-### Pagina 11
-
 *CAPSELLA BURSA-PASTORIS (Shepherd's Purse)
 WHOLE PLANT. Tincture (Fresh Plant, 1:2, recent Dry Plant, 1:5, 50%
 alcohol] 20-60 drops.
@@ -491,8 +469,6 @@ CENTELLA ASIATICA (Hydrocotyle asiatica, Gotu Kola, Brahmi)
 HERB. Fresh Plant Tincture [1:2], 15-30 drops to 3X a day. Standard Infusion,
 1-2 ounces. Dry Herb Tincture [1:5, 50% alcohol] 20-40 drops, to 4X a day.
  STATUS : W/LA/C
-
-### Pagina 12
 
 CENTHRANTUS RUBER (Red Valerian)
 SAME AS Valeriana
@@ -544,8 +520,6 @@ STATUS : W/LA
 CHIONANTHUS (Fringetree)
 BARK. Cold Infusion, 2-4 ounces. Tincture [Fresh Bark, 1:2, Dry Bark, 1:5,
 
-### Pagina 13
-
 65% alcohol] 30-60 drops. LEAF. Cold Infusion, 2-4 ounces.
 STATUS : W/LA
 CHOROGALUM (Amole Lily)
@@ -594,8 +568,6 @@ STATUS : W/C
 COLA NITIDA (Kola Nut)
 SEED. Strong Decoction, 2-6 ounces, to 4X a day.
 STATUS : W/C
-
-### Pagina 14
 
 COLLINSONIA (Stone Root, Horse Balm)
 ROOT and HERB. Tincture [Fresh Plant, 1:2] 20-40 drops to 3X a day.
@@ -647,8 +619,6 @@ STATUS : W/C
 STIGMAS. Tincture [1:5, 95% alcohol] 5-20 drops.
 STATUS : C
 
-### Pagina 15
-
 CUBEBA (Piper cubeba, Cubeb Berries)
 UNRIPE FRUIT. Tincture [1:5, 80% alcohol] 10-30 drops. Capsules, #00, 1-3.
 To 3X a day, for up to a week.
@@ -698,8 +668,6 @@ CORM. Cold Infusion 1-4 ounces, to 3X a day. Best used in formulas.
 STATUS : W/LA
 DICENTRA FORMOSA (Bleeding Heart)
 ROOT. Fresh Root Tincture [1:2], 10-20 drops or applied topically. Dry
-
-### Pagina 16
 
 Root Tincture, [1:5, 50% alcohol] 15-30 drops.
 HERB. Tincture [1:5, 50% alcohol, 25-50 drops, all to 3X a day.
@@ -751,8 +719,6 @@ WHOLE PLANT. Tincture [Fresh Plant, 1:2, Dry Root, 1:5, 60% alcohol]
 30-90 drops. An equivalent to the far rarer Cypripedium.
 STATUS : W/LA
 
-### Pagina 17
-
 EPILOBIUM ANGUSTIFOLIUM (Chamaenerium, Fireweed, Giant Willow
 Herb)
 HERB IN FLOWER. Standard Infusion as needed.
@@ -802,8 +768,6 @@ BARK. Tincture [1:5, 60% alcohol] 10-30 drops. Cold Infusion, 1-2 ounces,
 both to 2X a day.
 Avoid prolonged use; Euonymus can irritate the liver.
 STATUS : W/LA
-
-### Pagina 18
 
 EUPATORIUM PERFOLIATUM (Boneset)
 FLOWERING HERB. Fresh Plant Tincture [1:2], 20-40 drops in hot water.
@@ -855,8 +819,6 @@ GALIUM APARINE (Cleavers, Bedstraw)
 WHOLE PLANT. Cold or Standard Infusion, as needed. Fresh Plant
 Tincture [1:2] 1-2 teaspoons. Fresh plant juice, 1/2 to 1 teaspoon, all to 4X a
 
-### Pagina 19
-
 day.
 STATUS : W/A
 *GARRYA (Silk Tassel, Cuauchichic, Quinine Bush)
@@ -905,8 +867,6 @@ GNAPHALIUM (Cudweed, Everlasting)
 FLOWERING HERB. Standard Infusion, 3-6 ounces to 3X a day. Topically,
 as needed.
 STATUS : W/A
-
-### Pagina 20
 
 *GOSSYPIUM (Cotton)
 ROOT BARK. Fresh Bark Tincture, [1:2], 30-60 drops, to 3X a day. Recent
@@ -958,8 +918,6 @@ ESSENTIAL OIL. diluted with vegetable oil or grain alcohol as an insect
 repellent.
 STATUS : W/C
 
-### Pagina 21
-
 HEDERA HELIX (Ivy)
 LEAVES. Fresh Tincture [1:2] 15-30 drops as needed for for topical use.
 GUM. Tincture [1:5, 70% alcohol] 5-15 drops. It may be a topical irritant for
@@ -1009,8 +967,6 @@ STATUS : W/LA
 *HYDRASTIS (Golden Seal)
 ROOT and LEAF. Fresh Plant Tincture [1:2], 15-30 drops. Dry Root Tincture,
  [1:5, 70% alcohol] 20-50 drops. Dry Herb Tincture [1:5, 60% alcohol] 30-75
-
-### Pagina 22
 
 drops all the above to 4X a day. Dry Root capsules #00, 2-4, to 3X a day.
 Standard Infusion of leaf 1-3 ounces, to 4X a day.The root is only partially
@@ -1062,8 +1018,6 @@ JATEORHIZA PALMATA (Columbo, Calumba)
 ROOT. Tincture [1:5, 65% alcohol], 20-30 drops before meals. Cold Infusion,
 1-2 ounces. STATUS : U
 
-### Pagina 23
-
 JATROPHA CINERIA (J. cardiaca, Sangre de Drago, Limberbush)
 ROOT. Strong Decoction or Cold Infusion, 2-4 ounces, topically applied, or
 as a mouthwash.
@@ -1114,8 +1068,6 @@ LEAVES. Standard Infusion for tea. Fresh Leaf Tincture [1:2] is diluted for
 topical use.
 STATUS : W/A
 
-### Pagina 24
-
 *LEONURUS CARDIACA (Motherwort)
 FLOWERING HERB. Tincture [Fresh Plant 1:2, Recent Dry Plant, 1:5, 60%
 alc.] 30-60 drops, to 4X a day. Standard Infusion, 2-4 ounces.
@@ -1164,8 +1116,6 @@ LIQUIDAMBER (Sweet Gum Tree)
 BALSAM. Tincture [1:5, 95% alcohol], 10-30 drops as needed. Strong
 Decoction of Bark is serviceable as well.
 STATUS : W/LA
-
-### Pagina 25
 
 LOBELIA CARDINALIS (Cardinal Flower)
 WHOLE PLANT. Fresh Plant Tincture [1:2], 10-40 drops up to 5X a day.
@@ -1217,8 +1167,6 @@ MATRICARIA MATRICARIOIDES (M. suaveolens, Pineapple Weed)
 FLOWERS. Standard or Cold Infusion, 2-6 ounces as needed.
 STATUS : W/A
 
-### Pagina 26
-
 MEDICAGO SATIVA (Alfalfa)
 FLOWERING PLANT. Standard Infusion as needed.
 STATUS : W/C
@@ -1269,8 +1217,6 @@ STATUS : W/C
 MYRICA (Bayberry)
 BARK and ROOTBARK. Tincture [Fresh Bark, 1:2, Dry Bark, 1:5, 60%
 
-### Pagina 27
-
 alcohol] 20-60 drops. Cold Infusion, 2-4 ounces, both to 3X a day. The
 diluted tincture or the infusion for topical use or as a gargle.
 STATUS : W/A
@@ -1320,8 +1266,6 @@ STATUS : W/LA
 *PAEONIA (Peony)
 ROOT. Tincture [Fresh Root 1:2, Dry Root, 1:5, 60% alcohol] 10-25 drops up
 to 4X a day. Cold Infusion, 1-2 ounces. Capsules, #00, 2-3 at a time.
-
-### Pagina 28
 
 STATUS : W/C
 *PANAX GINSENG (Asian Ginseng)
@@ -1374,8 +1318,6 @@ STATUS : W/C
 PAULLINIA (Guarana)
 SEED. Capsule, #00, 2-4. Fluidextract [1:1, 50% alcohol, 10% glycerin], 20-60
 
-### Pagina 29
-
 drops. Tincture [1:5, 65% alcohol], 1/4 to 1 teaspoon.
 STATUS : W/C
 *PEGANUM HARMALA (Syrian Rue)
@@ -1425,8 +1367,6 @@ ROOT. Tincture [Fresh Root 1:2, Recent Dry Root 1:5, 60% alcohol] 30-90
 drops to 4X a day. Fluidextract [1:1, 55% alcohol] 10-30 drops. Cold
 Infusion, 2-6 oz. all to 4X a day.
 STATUS : W/LA/C
-
-### Pagina 30
 
 PIPER NIGRUM (Black Pepper)
 PEPPERCORNS. Tincture [1:5, 65% alcohol] 5-15 drops.
@@ -1478,8 +1418,6 @@ STATUS : W/LA
 POPULUS CANDICANS/BALSAMIFERA (Balsam Poplar, Balm of Gilead)
 EARLY SPRING LEAF BUDS. Tincture [Fresh, 1:2, Dry, 1:5, 75% alcohol]
 
-### Pagina 31
-
 15-30 drops. Infused oil [1 part buds to 10 parts oil] for topical use.
 STATUS : W/A
 POPULUS TREMULIODES (Aspen)
@@ -1528,8 +1466,6 @@ European pharmaceutical preparations are easy to find in American health
 food stores...a far more expensive format...and GUARANTEED to "taint" it
 for urologists.
 STATUS : U
-
-### Pagina 32
 
 PYROLA (Shinleaf)
 Same as Chimaphila
@@ -1581,8 +1517,6 @@ RUBUS IDAEUS (Raspberry)
 LEAVES. Infusion as needed.
 STATUS : W/C
 
-### Pagina 33
-
 RUBUS VILLOSUS (Blackberry)
 ROOT BARK. Strong Decoction, 2-4 ounces, to 4X a day.
 STATUS : W/C
@@ -1632,8 +1566,6 @@ capsule 5-10 drops, with food, to 2X a day.
 STATUS : U
 SAPINDUS SAPONARIA (Soapberry)
 LEAVES and STEMS. Standard Infusion, 2-4 ounces to 3X a day.
-
-### Pagina 34
 
 BERRIES.Crushed or pureed for soap.
 STATUS : W/LA
@@ -1685,8 +1617,6 @@ LEAVES. Standard Infusion, 2-4 ounces as needed. OIL. Applied topically or
 mixed with Castor Oil.
 STATUS : W/C
 
-### Pagina 35
-
 SINAPIS (Mustard)
 SEED. PLASTER: mix 1 part powdered seed and one part flour, add enough
 water to form a spreadable paste, place between two layers of gauze and
@@ -1736,8 +1666,6 @@ STATUS : W/A
 STILLINGIA SYLVATICA (Queen's Root)
 ROOT.Tincture [Fresh root,1:2, Recent Dry Root, 1:5, 50% alcohol] 10-30
 drops, preferably in small frequent doses.
-
-### Pagina 36
 
 STATUS : W/LA
 SUMBUL (Ferula sumbul, Musk Root, Jatamansi)
@@ -1789,8 +1717,6 @@ STATUS : W/C
 *TRIBULUS (Puncture Vine, Goat's Head)
 HERB and SEEDS. 1/2 to 1 teaspoon of the powdered plant in tea, to 2X a
 
-### Pagina 37
-
 day. Tincture [1:5, 60% alcohol] 30-40 drops, 2X a day.
 STATUS : W/A
 TRIFOLIUM PRATENSE (Red Clover)
@@ -1839,8 +1765,6 @@ STATUS : W/LA
 VACCINIUM (Blueberry, Huckleberry, Bilberry, Whortleberry, etc.)
 LEAVES. Standard Infusion of recent herb, 3-4 ounces, to 3X a day.
 STATUS : W/C
-
-### Pagina 38
 
 VALERIANA (Valerian)
 PLANT. Tincture [Fresh Whole Plant 1:2, Dry Root, 1:5, 70% alcohol],
@@ -1892,8 +1816,6 @@ YUCCA (Amole, Spanish Bayonet)
 ROOT. Capsules, #00, 2-3 , morning and evenings.
 STATUS : W/A
 
-### Pagina 39
-
 ZEA MAYS (Corn Silk)
 STIGMAS. Standard Infusion, 4-6 ounces to 3X a day. Fresh Silk Tincture,
 [1:2], 1/2 to 1 1/2 teaspoons in 8 ounces water.
@@ -1930,8 +1852,6 @@ Make an isotonic water by adding a slightly rounded teaspoon of salt to a quart
 of clean water (1/2 teaspoon per pint, 1/4 teaspoon per cup), and make the tea
 with this solution as per the recommended strength. Make a fresh batch every
 5-6 hours.
-
-### Pagina 40
 
 FRESH PLANT TINCTURE
 One part by weight of the fresh, chopped herb is steeped for 7-10 days in two
@@ -1978,8 +1898,6 @@ Now you will need a percolating cone...didn't I mention that? Me and my
 students find that a large Perrier bottle with its bottom removed sits upside-
 down inside a large-mouthed Mason jar very nicely, and the screw cap can be
 
-### Pagina 41
-
 used to control the rate of drip out of the bottom (former top). Anyway, you
 will need to place some moistened herb inside a coffee filter cone, slide it into the
 neck of the cone, and gradually add the moistened herb on top. It needs to be
@@ -2017,8 +1935,6 @@ of the herb weight...2 ounces in this case. Add the vile remnant of the second
 percolation to the 6 ounces from the first percolation, and you now have 8
 ounces of fluidextract, made from 8 ounces of Tabebuia Bark. A Fluidextract is
 by definition 1:1 in strength. Now clean up.
-
-### Pagina 42
 
 INDEX of ALTERNATE NAMES
 ALTERNATE NAME - - LISTED NAME
@@ -2059,8 +1975,6 @@ Ash - Fraxinus
 Ash, Prickly - Xanthoxylum
 Ash, Wafer - Ptelea
 Aspen - Populus tremuliodes
-
-### Pagina 43
 
 Avens - Geum
 Balm of Gilead - Populus candicans
@@ -2103,8 +2017,6 @@ Broom Tops - Scoparius
 Broom, Butcher's - Ruscus Aculeatus
 Broomrape - Orobanche
 
-### Pagina 44
-
 Bryony - Bryonia
 Buchu - Barosma
 Buckbean - Menyanthes
@@ -2145,8 +2057,6 @@ Cardo Santo - Argemone
 Carrot - Daucus
 Cascara Sagrada - Rhamnus purshiana
 Cassia angustifolia - Senna
-
-### Pagina 45
 
 Cat's Paw - Antennaria
 Cataria - Nepeta
@@ -2189,8 +2099,6 @@ Coltsfoot - Tussilago
 Coltsfoot, Western - Petasites
 Columbo, American - Swertia
 
-### Pagina 46
-
 Comfrey - Symphytum
 Common Ivy - Hedera helix
 Coneflower - Echinacea, all
@@ -2231,8 +2139,6 @@ Dogbane - Apocynum
 Doggrass - Agropyron
 Dogwood - Cornus
 Dogwood, Jamaican - Piscidia
-
-### Pagina 47
 
 Dong Quai - Angelica sinensis
 Dryopteris - Aspidium
@@ -2275,8 +2181,6 @@ Gentian, Green - Swertia
 Giant Willow Herb - Epilobium
 Ginger - Zingiber
 
-### Pagina 48
-
 Ginger, Wild - Asarum
 Ginseng - Panax
 Ginseng,Siberian - Eleutherococcus
@@ -2317,8 +2221,6 @@ Hops - Humulus
 Horehound - Marrubium
 Horehound, Water - Lycopus
 Horse Balm - Collinsonia
-
-### Pagina 49
 
 Horse Chestnut - Aesculus hippocastinum
 Horse Nettle - Solanum carolinense
@@ -2361,8 +2263,6 @@ Ladies Mantle - Alchemilla
 Lady Slipper - Cypripedium
 Lapacho - Tabebuia
 
-### Pagina 50
-
 Lappa - Arctium
 Larkspur - Delphinium
 Laurel, California - Umbellularia
@@ -2403,8 +2303,6 @@ Manzanilla - Matricaria
 Manzanita - Arctostaphylos
 Maravilla - Mirabilis
 Marigold, European - Calendula
-
-### Pagina 51
 
 Marijuana - Cannabis
 Marsh Fleabane - Pluchea
@@ -2447,8 +2345,6 @@ Navajo Tea - Thelesperma
 Nerve Root - Cypripedium
 Nettles - Urtica
 
-### Pagina 52
-
 New Jersey Tea - Ceanothus
 Night-Blooming Cereus - Cereus
 Nutmeg - Myristica
@@ -2489,8 +2385,6 @@ Pigweed - Amaranthus
 Pincture Vine - Tribulus
 Pine - Pinus
 Pineapple Weed - Matricaria Matricarioides
-
-### Pagina 53
 
 Pinkroot - Spigelia
 Piper cubeba - Cubeba
@@ -2533,8 +2427,6 @@ Ragwort - Senecio
 Raíz del Indio - Aristolochia watsonii
 Raíz del Oro Heliopsis
 
-### Pagina 54
-
 Raspberry - Rubus idaeus
 Rattlesnake Master - Eryngium
 Red Osier - Cornus
@@ -2575,8 +2467,6 @@ Shepherd's Purse - Capsella
 Shinleaf - Pyrola
 Silk Tassel - Garrya
 Skullcap - Scutellaria
-
-### Pagina 55
 
 Skunk Cabbage - Dracontium
 Skunk Cabbage, Western - Lysichiton
@@ -2619,8 +2509,6 @@ Tang Kwei - Angelica sinensis
 Tansy - Tanacetum
 Té de Coral - Bidens
 
-### Pagina 56
-
 Teasel - Dipsacus
 Tecomblate - Condalia
 Texas Ranger - Leucophyllum
@@ -2661,8 +2549,6 @@ Western Coltsfoot - Petasites
 White Pond Lily - Nymphaea
 Wild Ginger - Asarum
 Wild Indigo - Baptisia
-
-### Pagina 57
 
 Wild Lettuce - Lactuca
 Wild Yam - Dioscorea

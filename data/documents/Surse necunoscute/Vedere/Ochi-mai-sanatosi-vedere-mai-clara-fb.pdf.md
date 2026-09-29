@@ -1,5 +1,3 @@
-### Pagina 1
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  1
@@ -29,8 +27,6 @@ vei observa ca functioneaza.
 daca te inarmezi cu determinare, perseverenta si consecventa, GARANTAT iti vei imbunatati
 vederea indiferent de stadiul in care se afla ACUM!!
 
-### Pagina 2
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  2
@@ -42,8 +38,6 @@ Cele mai frecvente probleme de vedere…………………………………... 
 Cei mai importanti nutrienti ai vederii …………………………...…….. 10-14
 Metode naturale de imbunatatire a vederii ……………..………..….….. 15-19
 Concluzie……………………………..…………..………..…………….. 20
-
-### Pagina 3
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -74,8 +68,6 @@ contact nu corecteaza vederea decat atunci cand le porti. Trateaza efectul, nu s
 de refractie.
 Si pana la urma de ce sa depinzi de aceste ajutoare ca de niste cârje oculare, cand poti obtine
 natural o vedere clara prin aplicarea unor tehnici si metode care trebuie sa iti devina obiceiuri?
-
-### Pagina 4
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -112,8 +104,6 @@ ore pe zi. Depinde si de timpul pe care il ai la dispozitie.
 Facand asta, iti vei amorti durerea si urciorul nu se va mai transforma intr-un furuncul, iar
 daca e unul, se va retrage, se va micsora. In cele mai multe cazuri, urciorul se va sparge
 asemenea unui cos si se va vindeca fara alte interventii. Dar lasa sa se intample asta de la
-
-### Pagina 5
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -153,8 +143,6 @@ Cauze
 Sunt cativa factori care cauzeaza conjunctivita dar cel mai comun este intrarea in contact cu
 anumiti virusi sau bacterii la nivelul ochilor.
 
-### Pagina 6
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  6
@@ -191,8 +179,6 @@ Cum sa previi si sa tratezi conjunctivitele
 O conjunctivita virala, deobicei dureaza intre patru si sapte zile. Conjunctivitele virale
 pot fi foarte contagioase asa ca, cauta tratament specializat de la un medic oftalmolog.
 Evita contactul cu ceilalti si spala-ti mainile des.
-
-### Pagina 7
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -236,8 +222,6 @@ motive pentru care pacientii isi consulta medicul oftalmolog. Sindromul ochiului
 este de obicei asociat cu senzatia de uscaciune, mancarime sau arsuri ale ochilor. Apare
 si o roseata la nivelul ochilor. Unii oameni au senzatia ca au o geana sau nisip in ochi.
 
-### Pagina 8
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  8
@@ -269,8 +253,6 @@ secunda.
 nevoie de tratament pentru ochii uscati.
 Din ce cauze crezi ca ti se usuca ochii si lacrimile ti se "evapora"?
 Sindromul de ochi uscat are mai multe cauze:
-
-### Pagina 9
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -315,8 +297,6 @@ blefarita
 
 8. Nu mai purta lentile de contact. Renunta la acestea!
 
-### Pagina 10
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  10
@@ -344,8 +324,6 @@ Prin urmare, daca cineva nu consuma suficient Vitamina A, ochii lor ar putea dev
 ineficienti, oferindu-ti o vedere dificila, la adaptarea incaperilor/locurilor intunecoase sau in
 conditii pe timp de noapte. Acest lucru poate fi periculos deoarece se pot cauza accidente
 rutiere pe timp de noapte.
-
-### Pagina 11
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -387,8 +365,6 @@ lămâia și portocala. Se mai întâlnește în pepeni și roșii.
 Vitamina C reduce riscul apariției cataractelor, deoarece functionează ca un antioxidant.
 Deasemenea, vitamina C poate să protejeze ochiul împotriva luminii solare.
 
-### Pagina 12
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  12
@@ -427,8 +403,6 @@ pentru retină. Fără aceasta, vitamina A nu va putea fi transportată de la fi
 dieta ta se găsește insuficient zinc, atunci vei pierde vitamina A din corp, vitamina vederii
 nocturne, adică daunează la capacitatea vederii de a se adapta la întuneric.
  Zincul poate fi găsit în următoarele surse de alimentație:
-
-### Pagina 13
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -473,8 +447,6 @@ macula de radicalii liberi.
  Zeaxantina ajuta si aceasta la prevenirea sau tratarea celor 2 conditii: degenerarea
 maculara si cataracta. Unii specialisti spun ca mai are rolul de a trata sau a preveni
 
-### Pagina 14
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  14
@@ -507,8 +479,6 @@ extrinseci), iar mușchii au nevoie de nutrienții necesari pentru a se dezvolta
 funcționa cum trebuie. Iar dacă ei funcționează cum trebuie, atunci este evident că și vederea
 ta funcționează la fel de bine! Doar pana la urma ai nevoie de ochi sănătoși pentru a avea o
 vedere sănătoasa.
-
-### Pagina 15
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -548,8 +518,6 @@ se relaxeze imediat, astfel incat ochii sa nu vada slab la distanta.
 
 Aceasta nu este o regula dificila; este ceva simplu care te ajuta sa-ti reamintesti cand lucrezi
 de-aproape la un anumit nivel de stres si concentrare. Fa din asta un obicei in tot ce faci. Cu
-
-### Pagina 16
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -602,8 +570,6 @@ Priveste la distanta. Inspira adanc, freaca-ti fata, fruntea si zona din jurul o
 Inspira pe nas si lasa-te pe spate, apoi intr-o parte si in alta, apoi expira pe gura si relaxeaza-ti
 privirea.
 
-### Pagina 17
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  17
@@ -654,8 +620,6 @@ cont de ea. Sau ai uitat de ea. Fa si acest lucru cand simti ca este nevoie. Est
 
 In felul acesta nu va mai trebui sa stai cocosat cu ochii foarte apropiati de monitor.
 
-### Pagina 18
-
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
  18
@@ -693,8 +657,6 @@ Petrece timp pretios cu persoanele dragi. Asculta muzica care te relaxeaza. Fa u
 mai multe. Inspira si expira adanc. Mediteaza in timpul tau liber!
 Sunt mult mai multe metode si tehnici de a scapa de stres, unele mai costisitoare, altele mai
 putin costisitoare sau chiar deloc.
-
-### Pagina 19
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
@@ -734,8 +696,6 @@ calculatorului, cartea pe care o citesti, cand conduci etc), adu-ti aminte sa cl
 5 secunde. Acesta sa-ti fie obicei! Acest obicei iti va rezolva problema cu spasmele oculare
 dar va impiedica si aparitia sindromului de ochi uscat. Clipitul iti va lubrifia ochii si iti va
 relaxa muschii oculari, iar acest lucru te va feri de zvacniri sau spasme ale ochilor.
-
-### Pagina 20
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
