@@ -644,6 +644,7 @@ class WebTests(unittest.TestCase):
                 "score": RRF_MAX_SCORE,
                 "relevance_percent": 100.0,
                 "found_by_lexical": True,
+                "priority": 1,
             },
             "C4": {
                 "source": "documents/doc-b.md:1-5",
@@ -662,7 +663,9 @@ class WebTests(unittest.TestCase):
         self.assertEqual(texts_in_order, ["Scor mare", "Scor mediu z", "Scor mediu b", "Scor mic"])
         self.assertEqual(message["fragments"][0]["relevancePercent"], 100.0)
         self.assertEqual(message["fragments"][0]["matchLabel"], "Găsire Lexicală")
+        self.assertEqual(message["fragments"][0]["priority"], 1)
         self.assertEqual(message["fragments"][1]["matchLabel"], "")
+        self.assertIsNone(message["fragments"][1]["priority"])
 
     # A fragment missing found_by_lexical (older cached evidence, or a caller
     # that doesn't set it) must still render — just with an empty matchLabel.
