@@ -26,6 +26,7 @@ from medicina_naturista.config import settings
 from medicina_naturista.ai.client import AIUnavailable, XAIClient, fit_evidence_to_context
 from medicina_naturista.integrations.gmail import EMAIL_SKIPPED, send_report
 from medicina_naturista.reporting.pdf import create_pdf
+from medicina_naturista.ai.conditions import load_dictionary
 from medicina_naturista.ai.retrieval import Retriever
 from medicina_naturista.core.models import PendingSearch, SessionData, StoredReport
 from medicina_naturista.core.sessions import SessionStore
@@ -87,6 +88,22 @@ def _document_count_for_categories(category_ids: set[str]) -> int:
 def _report_started_message(session: SessionData) -> dict:
     count = _document_count_for_categories(session.selected_categories)
     return _text("assistant", f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.")
+
+
+# Chat notice naming the condition(s) the health problem was recognised as in
+# the condition dictionary, with every synonym the search will use (the same
+# match Retriever.collect() runs). None when nothing was recognised.
+def _condition_identified_message(health_problem: str) -> dict | None:
+    conditions = load_dictionary().match(health_problem)
+    if not conditions:
+        return None
+    lines = []
+    for condition in conditions:
+        line = f"✅ Am identificat afecțiunea: **{condition.name}**."
+        if len(condition.terms) > 1:
+            line += f" O caut și după denumirile: {', '.join(condition.terms[1:])}."
+        lines.append(line)
+    return _text("assistant", "\n".join(lines))
 
 
 # Serialize one category node (and, recursively, its children) into the plain
@@ -381,6 +398,9 @@ def post_message(payload: MessageRequest, request: Request):
             _append(session, _text("assistant", NO_CATEGORY_SELECTED_MESSAGE))
             return {"messages": list(session.history[before:]), "startSearch": False}
 
+        identified = _condition_identified_message(session.profile.health_problem)
+        if identified is not None:
+            _append(session, identified)
         _append(session, _report_started_message(session))
         return {"messages": list(session.history[before:]), "startSearch": True}
 
