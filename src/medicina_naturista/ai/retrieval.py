@@ -2,26 +2,20 @@
 from __future__ import annotations
 
 import logging
-import re
-import unicodedata
 from collections import defaultdict
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
+from medicina_naturista.ai.conditions import expansions_for
 from medicina_naturista.ai.categories import CategoryTree, load_category_tree
 from medicina_naturista.ai.db import get_pool
+from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningful_words as _meaningful_words
 from medicina_naturista.ai.search import RRF_MAX_SCORE, rank
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import SessionData
 
 logger = logging.getLogger("naturist.retrieval")
-
-GENERIC_QUERY_WORDS_PATH = (
-    Path(__file__).resolve().parent / "resources" / "generic_query_words.txt"
-)
-GENERIC_QUERY_WORDS = frozenset(
-    GENERIC_QUERY_WORDS_PATH.read_text(encoding="utf-8").split()
-)
 
 # Fragments of the same file whose line ranges overlap or lie at most this many
 # lines apart are merged into a single evidence fragment.
@@ -36,18 +30,16 @@ NEIGHBOR_LINE_GAP = 5
 # the disk read and fall back to the chunk's own (already bounded) text.
 MAX_SOURCE_EXPANSION_LINES = 200
 
-# Normalize text for case-insensitive and diacritic-insensitive comparisons.
-def _plain(value: str) -> str:
-    value = unicodedata.normalize("NFKD", value.casefold())
-    return "".join(char for char in value if not unicodedata.combining(char))
+# Source lines of one document, cached per (path, mtime): a single search reads
+# the same large file once per evidence fragment otherwise (the Balch book is
+# several MB), and the file is only re-read when it changes on disk.
+@lru_cache(maxsize=128)
+def _cached_lines(path: str, mtime_ns: int) -> tuple[str, ...]:
+    return tuple(Path(path).read_text(encoding="utf-8", errors="replace").splitlines())
 
 
-# Extract searchable words while excluding short and generic terms.
-def _meaningful_words(value: str) -> set[str]:
-    return {
-        word for word in re.findall(r"\w+", _plain(value))
-        if len(word) >= 4 and word not in GENERIC_QUERY_WORDS
-    }
+def _read_lines(path: Path) -> tuple[str, ...]:
+    return _cached_lines(str(path), path.stat().st_mtime_ns)
 
 
 # Build the search queries from the consultation profile.
@@ -79,21 +71,37 @@ class Retriever:
             len(self._known_category_ids),
         )
 
+    # The existing source file for a relative path, or None when it is missing or
+    # resolves outside documents_dir. An existing file is resolved once and
+    # remembered: Path.resolve() costs milliseconds on Windows and a search
+    # touches the same few files for every one of its evidence fragments.
+    def _source_path(self, relative: str) -> Path | None:
+        # setdefault (not __init__) so Retriever test doubles built with
+        # object.__new__ work without the attribute.
+        known: dict[str, Path] = self.__dict__.setdefault("_source_paths", {})
+        cached = known.get(relative)
+        if cached is not None:
+            return cached
+        path = (self.documents_dir / relative).resolve()
+        if not (path.is_relative_to(self.documents_dir) and path.is_file()):
+            return None  # not remembered: the file may appear after the next sync
+        known[relative] = path
+        return path
+
     # Expand short indexed excerpts with nearby source lines when the file is available.
     def _context(self, result: dict[str, Any]) -> str:
         """Add its semantic heading and expand short excerpts with nearby source lines."""
         text = str(result["text"])
         heading = str(result.get("heading") or "").strip()
-        relative = Path(str(result["source_relative_path"]))
-        path = (self.documents_dir / relative).resolve()
+        path = self._source_path(str(result["source_relative_path"]))
         line_start, line_end = int(result["line_start"]), int(result["line_end"])
-        if not path.is_relative_to(self.documents_dir) or not path.is_file():
+        if path is None:
             context = text
         elif len(text) >= 600 or line_end - line_start > MAX_SOURCE_EXPANSION_LINES:
             context = text
         else:
             try:
-                lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+                lines = _read_lines(path)
                 start = max(0, line_start - 5)
                 end = min(len(lines), line_end + 4)
                 context = "\n".join(lines[start:end])[:1800]
@@ -105,12 +113,12 @@ class Retriever:
     # or the members' own texts in file order when the source file is unavailable
     # or that united range is implausibly large (see MAX_SOURCE_EXPANSION_LINES).
     def _group_context(self, group: dict[str, Any], chunks: dict[int, dict[str, Any]], heading: str) -> str:
-        path = (self.documents_dir / str(group["path"])).resolve()
+        path = self._source_path(str(group["path"]))
         context = ""
         within_bounds = group["end"] - group["start"] <= MAX_SOURCE_EXPANSION_LINES
-        if within_bounds and path.is_relative_to(self.documents_dir) and path.is_file():
+        if within_bounds and path is not None:
             try:
-                lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+                lines = _read_lines(path)
                 context = "\n".join(lines[max(0, group["start"] - 1):group["end"]])
             except OSError:
                 context = ""
@@ -165,11 +173,6 @@ class Retriever:
         if not queries:
             logger.info("retrieval_completed queries=0 evidence_entries=0 reason=no_queries")
             return {}
-        topic_text = profile.health_problem
-        topic_words = _meaningful_words(topic_text)
-        if topic_words:
-            queries.insert(0, topic_text.strip())
-            queries.insert(1, " ".join(sorted(topic_words)))
         search_queries: list[str] = []
         seen_queries: set[str] = set()
         for query in queries:
@@ -194,11 +197,8 @@ class Retriever:
         if not category_ids or category_ids == self._known_category_ids:
             category_ids = None
         logger.info(
-            "retrieval_started base_queries=%s search_queries=%s topic_words=%s "
-            "requested_categories=%s applied_categories=%s",
-            len(queries),
+            "retrieval_started search_queries=%s requested_categories=%s applied_categories=%s",
             len(search_queries),
-            len(topic_words),
             len(requested_categories),
             len(category_ids) if category_ids else 0,
         )
@@ -209,7 +209,8 @@ class Retriever:
         chunks: dict[int, dict[str, Any]] = {}
         found_by_lexical: dict[int, bool] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
-            candidates = rank(search_query, category_ids=category_ids)
+            expansions = expansions_for(search_query)
+            candidates = rank(search_query, category_ids=category_ids, expansions=expansions)
             total_candidates += len(candidates)
             for result in candidates:
                 chunk_id = int(result["chunk_id"])
@@ -217,9 +218,10 @@ class Retriever:
                 chunks.setdefault(chunk_id, result)
                 found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]
             logger.info(
-                "retrieval_query_completed number=%s candidates=%s",
+                "retrieval_query_completed number=%s candidates=%s expansions=%s",
                 query_number,
                 len(candidates),
+                len(expansions),
             )
 
         # Multi-query RRF: a chunk's score is the sum of its per-query hybrid_score

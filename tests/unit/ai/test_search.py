@@ -174,5 +174,143 @@ class CategoryFilteredRankTests(unittest.TestCase):
         )
 
 
+class LexicalQueryTests(unittest.TestCase):
+    def test_words_become_prefix_stems_joined_with_and(self):
+        strict, loose = search.lexical_queries("durere de genunchi")
+
+        self.assertEqual(strict, "(dure:* & genunc:*)")
+        self.assertEqual(loose, "dure:* | genunc:*")
+
+    def test_generic_and_tiny_words_are_dropped(self):
+        strict, _ = search.lexical_queries("acest guta")
+
+        self.assertEqual(strict, "(guta:*)")
+
+    def test_short_query_keeps_its_words(self):
+        strict, _ = search.lexical_queries("HPV")
+
+        self.assertEqual(strict, "(hpv:*)")
+
+    def test_comma_separated_segments_are_or_ed(self):
+        strict, _ = search.lexical_queries("artroza genunchi, guta")
+
+        self.assertEqual(strict, "(artro:* & genunc:*) | (guta:*)")
+
+    def test_diacritics_and_syntax_characters_never_reach_the_tsquery(self):
+        strict, loose = search.lexical_queries("gută'; DROP TABLE chunks; --")
+
+        self.assertNotIn("'", strict + loose)
+        self.assertNotIn(";", strict + loose)
+        self.assertTrue(strict.startswith("(guta:*"))
+
+    def test_expansions_are_extra_or_groups_in_strict_but_not_in_loose(self):
+        strict, loose = search.lexical_queries("gout", expansions=["artrita gutoasa", "guta articulara"])
+
+        self.assertEqual(strict, "(gout:*) | (artri:* & gutoa:*) | (guta:* & articula:*)")
+        self.assertEqual(loose, "gout:*")
+
+    def test_expansion_duplicating_the_query_is_ignored(self):
+        strict, _ = search.lexical_queries("gout", expansions=["Gout"])
+
+        self.assertEqual(strict, "(gout:*)")
+
+    def test_text_without_words_has_no_query(self):
+        self.assertEqual(search.lexical_queries("?! ,"), (None, None))
+
+
+class CandidateLimitedRankTests(unittest.TestCase):
+    def setUp(self):
+        _fixture.reset()
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        dim = builder.MODEL_DIMENSION
+        self.documents = {
+            "boli/Guta.md": "# Guta\n\nCeai de urzica si dieta pentru guta.",
+            "boli/Digestie.md": "# Digestie\n\nBiscuiti, pâine, orez, mere si alte alimente obisnuite aici.",
+            "boli/Somn.md": "# Somn\n\nMuzica calma, liniste si odihna pe timpul noptii aici.",
+            "boli/Piele.md": "# Piele\n\nCrema cu galbenele si aloe pentru pielea uscata aici.",
+        }
+        self.vectors = {
+            "boli/Guta.md": _one_hot(dim, 0),
+            "boli/Digestie.md": _one_hot(dim, 1),
+            "boli/Somn.md": _one_hot(dim, 2),
+            "boli/Piele.md": _one_hot(dim, 3),
+        }
+        _build_fixture_index(Path(self.tmp.name), self.documents, self.vectors)
+        # The query vector is closest to Digestie, then Somn, then Piele; Guta is last.
+        query_vector = np.zeros(dim, dtype=np.float32)
+        query_vector[1], query_vector[2], query_vector[3] = 0.8, 0.5, 0.33
+        query_vector /= np.linalg.norm(query_vector)
+        patch = mock.patch.object(search, "cached_query_model", return_value=FakeQueryModel(query_vector))
+        patch.start()
+        self.addCleanup(patch.stop)
+
+    def _paths(self, results):
+        return [item["source_relative_path"] for item in results]
+
+    # Only the semantic top-`limit` is returned when nothing matches lexically:
+    # the rest of the index is not fetched or scored at all.
+    def test_semantic_candidates_are_capped_at_limit(self):
+        results = search.rank("propoziție absentă din orice document", limit=2)
+
+        self.assertEqual(self._paths(results), ["boli/Digestie.md", "boli/Somn.md"])
+
+    # A fragment outside the semantic top-`limit` still surfaces when the
+    # lexical signal finds it, and reports its own semantic similarity.
+    def test_lexical_match_outside_semantic_limit_is_included(self):
+        results = search.rank("guta", limit=2)
+
+        self.assertIn("boli/Guta.md", self._paths(results))
+        guta = next(item for item in results if item["source_relative_path"] == "boli/Guta.md")
+        self.assertTrue(guta["found_by_lexical"])
+        self.assertAlmostEqual(guta["semantic_similarity"], 0.0, places=5)
+
+    # The index uses the 'simple' text-search config, so inflected forms only
+    # match through the prefix stem: "genunchi" finds "genunchiului".
+    def test_prefix_stem_matches_inflected_form(self):
+        _fixture.reset()
+        documents = {"boli/Genunchi.md": "# Articulatii\n\nDurerea genunchiului la urcarea scarilor si la efort."}
+        vectors = {"boli/Genunchi.md": _one_hot(builder.MODEL_DIMENSION, 0)}
+        _build_fixture_index(Path(self.tmp.name) / "second", documents, vectors)
+
+        results = search.rank("genunchi")
+
+        self.assertTrue(results[0]["found_by_lexical"])
+
+    # Every content word is required first; the loose any-word query only
+    # widens the candidates when the strict one finds fewer than
+    # MIN_STRICT_LEXICAL_HITS.
+    def test_loose_query_widens_when_strict_finds_too_little(self):
+        results = search.rank("guta galbenele", limit=1)
+
+        matched = [item["source_relative_path"] for item in results if item["found_by_lexical"]]
+        self.assertEqual(len(matched), 1)
+
+    # A section whose heading names the condition gets the heading signal even
+    # when the body text matches nothing else.
+    def test_heading_match_is_a_separate_signal(self):
+        results = search.rank("Digestie", limit=1)
+
+        digestie = next(item for item in results if item["source_relative_path"] == "boli/Digestie.md")
+        self.assertTrue(digestie["found_by_heading"])
+        self.assertGreater(digestie["hybrid_score"], 1.0 / (search.RRF_K + 1))
+
+    # A section titled with a synonym is found through the expansion even
+    # though the query text itself matches nothing in it.
+    def test_expansion_finds_section_named_by_a_synonym(self):
+        without = search.rank("podagra", limit=1)
+        with_expansion = search.rank("podagra", limit=1, expansions=["Guta"])
+
+        self.assertFalse(any(item["source_relative_path"] == "boli/Guta.md" and item["found_by_heading"] for item in without))
+        guta = next(item for item in with_expansion if item["source_relative_path"] == "boli/Guta.md")
+        self.assertTrue(guta["found_by_heading"])
+        self.assertTrue(guta["found_by_lexical"])
+
+    def test_hybrid_score_never_exceeds_rrf_max_score(self):
+        results = search.rank("Guta")
+
+        self.assertLessEqual(max(item["hybrid_score"] for item in results), search.RRF_MAX_SCORE + 1e-12)
+
+
 if __name__ == "__main__":
     unittest.main()
