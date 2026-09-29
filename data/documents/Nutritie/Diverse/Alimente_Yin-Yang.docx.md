@@ -1,50 +1,32 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Alimente_Yin-Yang.docx"
-source_relative_path: "Alimente_Yin-Yang.docx"
-source_sha256: "f71df36e244682a8024bf60ca58d813e9da67e88040d1ff70433e3caa5a03e79"
-source_size_bytes: 36001
-source_format: docx
-output_format: markdown
-native_text_characters: 8497
-tables: 2
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Alimente_Yin-Yang
-
-## Text nativ
-
 ### Tabel 1
 
 | Coloana 1 | Coloana 2 | Coloana 3 |
 | --- | --- | --- |
 | | Yin (-) | Yang (+) |
 | Cereale | Moderat yin: porumb | Moderat yang: grâu, orez, orz, ovăz, secară |
-| | Extrem de yin: cereale încolţite, pâine albă, produse de patiserie din făină albă | Accentuat yang: hrişcă, mei |
+| | Extrem de yin: cereale încolțite, pâine albă, produse de patiserie din făină albă | Accentuat yang: hrișcă, mei |
 | | | Extrem de yang: germeni de cereale, orez sălbatic |
-| Legume | Moderat yin: salată verde, ardei kapia, ardei gras, păstârnac, frunze de ţelină, untişor, linte, bob, mazăre verde | Moderat yang: varză albă, ceapă, ridichi, dovlecei, fasole verde, frunze şi rădăcini de păpădie, napi, gulii, rădăcină de ţelină, spanac, anghinare, varză de Bruxelles |
-| | Accentuat yin: fasole, ciuperci, sfeclă roşie, gogoşar, usturoi | Accentuat yang: andive, conopidă, broccoli, dovleac, soia, năut, creson, alge marine, ceapă roşie, rădăcină de pătrunjel, morcovi, praz, urzici, varză creaţă |
-| | Extrem de yin: roşii, vinete, cartofi, castraveţi, bame | Extrem de yang: varză roşie |
-| Fructe | Moderat yin: căpşune, caise, cătină albă, roşcove, dude, coarne, struguri, măsline verzi | Moderat yang: stafide, fragi, mure, gutui, coacăze negre, rodii, măsline negre, castane |
-| | Accentuat yin: cireşe, grepfrut, lămâi, pepene galben, prune, vişine, curmale, smochine, miez de nucă de cocos | Accentuat yang: mere, afine, zmeură, merişor, coacăze roşii, fructe de dracilă, nuci, alune |
-| | Extrem yin: ananas, papaya, mango, portocale, mandarine, pere, piersici, pepene verde, arahide | Extrem yang: mere pădureţe, migdale, fistic |
-| Lactate | Moderat yin: lapte dulce, lapte bătut, sana, zer, iaurt, chefir, caşcaval Camembert | Moderat yang: lapte de capră, brânză de Olanda, Roquefort, şvaiţer Gruyere |
-| | Accentuat yin: brânză de vaci, lapte de bivoliţă, caş dulce, urdă dulce, caşcaval tare | Accentuat yang: brânză de capră, unt clarificat (ghee) |
-| | Extrem yin: smântână, unt, brânză topită, caşcaval moale | |
-| Carne, peşte | Moderat yin: | Moderat yang: creveţi, heringi, somon, sardine |
+| Legume | Moderat yin: salată verde, ardei kapia, ardei gras, păstârnac, frunze de țelină, untișor, linte, bob, mazăre verde | Moderat yang: varză albă, ceapă, ridichi, dovlecei, fasole verde, frunze și rădăcini de păpădie, napi, gulii, rădăcină de țelină, spanac, anghinare, varză de Bruxelles |
+| | Accentuat yin: fasole, ciuperci, sfeclă roșie, gogoșar, usturoi | Accentuat yang: andive, conopidă, broccoli, dovleac, soia, năut, creson, alge marine, ceapă roșie, rădăcină de pătrunjel, morcovi, praz, urzici, varză creață |
+| | Extrem de yin: roșii, vinete, cartofi, castraveți, bame | Extrem de yang: varză roșie |
+| Fructe | Moderat yin: căpșune, caise, cătină albă, roșcove, dude, coarne, struguri, măsline verzi | Moderat yang: stafide, fragi, mure, gutui, coacăze negre, rodii, măsline negre, castane |
+| | Accentuat yin: cireșe, grepfrut, lămâi, pepene galben, prune, vișine, curmale, smochine, miez de nucă de cocos | Accentuat yang: mere, afine, zmeură, merișor, coacăze roșii, fructe de dracilă, nuci, alune |
+| | Extrem yin: ananas, papaya, mango, portocale, mandarine, pere, piersici, pepene verde, arahide | Extrem yang: mere pădurețe, migdale, fistic |
+| Lactate | Moderat yin: lapte dulce, lapte bătut, sana, zer, iaurt, chefir, cașcaval Camembert | Moderat yang: lapte de capră, brânză de Olanda, Roquefort, șvaițer Gruyere |
+| | Accentuat yin: brânză de vaci, lapte de bivoliță, caș dulce, urdă dulce, cașcaval tare | Accentuat yang: brânză de capră, unt clarificat (ghee) |
+| | Extrem yin: smântână, unt, brânză topită, cașcaval moale | |
+| Carne, pește | Moderat yin: | Moderat yang: creveți, heringi, somon, sardine |
 | | Accentuat yin: | Accentuat yang: icre, caviar |
 | | Extrem yin: | Extrem yang: fazan |
-| Condimente | Moderat yin: fenicul, măghiran | Moderat yang: nucşoară, mărar, anason, cimbrişor, ceapă, arpagic, tarhon, mentă, frunze de pătrunjel, muştar alb, leuştean, leurdă |
-| | Accentuat yin: oţet din lemn, roiniţă, vanilie | Accentuat yang: ardei iute, busuioc, cimbru, chimen, coriandru, cicoare, şofran, salvie, dafin, hrean, muştar negru, piper, usturoi, scorţişoară, cardamom, schinduf |
-| | Extrem yin: seminţe de mac | Extrem yang: rozmarin, cuişoare, sovârf, ghimbir, ghinţură, sare marină nerafinată |
-| Băuturi | Moderat yin: apă, sifon, ceai de măceşe, ceai de cătină | Moderat yang: cafea de năut, cafea de cicoare, ceai japonez (Bancha), ceai de muşeţel, pelin, cimbru, cimbrişor, rozmarin |
+| Condimente | Moderat yin: fenicul, măghiran | Moderat yang: nucșoară, mărar, anason, cimbrișor, ceapă, arpagic, tarhon, mentă, frunze de pătrunjel, muștar alb, leuștean, leurdă |
+| | Accentuat yin: oțet din lemn, roiniță, vanilie | Accentuat yang: ardei iute, busuioc, cimbru, chimen, coriandru, cicoare, șofran, salvie, dafin, hrean, muștar negru, piper, usturoi, scorțișoară, cardamom, schinduf |
+| | Extrem yin: semințe de mac | Extrem yang: rozmarin, cuișoare, sovârf, ghimbir, ghințură, sare marină nerafinată |
+| Băuturi | Moderat yin: apă, sifon, ceai de măceșe, ceai de cătină | Moderat yang: cafea de năut, cafea de cicoare, ceai japonez (Bancha), ceai de mușețel, pelin, cimbru, cimbrișor, rozmarin |
 | | Accentuat yin: | Accentuat yang: ceai de busuioc, suc de mere |
 | | Extrem yin: cafea, ciocolată, coca-cola, sucuri de fructe yin, sucuri cu zahăr, alcool | Extrem yang: ginseng |
 | Alte produse | Moderat yin: drojdie, miere | Moderat yang: halva de susan, halva de floarea-soarelui, ulei de măsline, ulei de porumb, ulei de migdale |
-| | Accentuat yin: zahăr brun, oţet de mere, borş, ulei de nucă de cocos | Accentuat yang: ouă fecundate, ulei de rapiţă, ulei de muştar, ulei de ricin, ulei de soia presat la rece, pastă de susan (tahini), seminţe de dovleac, seminţe de floarea-soarelui |
-| | Extrem yin: ciocolată, cacao, zahăr, frişcă, jeleuri, murături, îngheţată, sirop, pastă de tomate, marmeladă, bomboane, unt de arahide | Extrem yang: polen apicol, seminţe de susan, ulei de susan, ulei de floarea-soarelui presat la rece |
+| | Accentuat yin: zahăr brun, oțet de mere, borș, ulei de nucă de cocos | Accentuat yang: ouă fecundate, ulei de rapiță, ulei de muștar, ulei de ricin, ulei de soia presat la rece, pastă de susan (tahini), semințe de dovleac, semințe de floarea-soarelui |
+| | Extrem yin: ciocolată, cacao, zahăr, frișcă, jeleuri, murături, înghețată, sirop, pastă de tomate, marmeladă, bomboane, unt de arahide | Extrem yang: polen apicol, semințe de susan, ulei de susan, ulei de floarea-soarelui presat la rece |
 
 Cum ne echilibram cu alimentele Yin si Yan
 

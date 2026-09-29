@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tiroida Hashimoto.docx"
-source_relative_path: "Tiroida Hashimoto.docx"
-source_sha256: "d902c9e5ead964c10622efca69036de3e8a6428369dfaa66408f414c240b8646"
-source_size_bytes: 24785
-source_format: docx
-output_format: markdown
-native_text_characters: 1831
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Tiroida Hashimoto
-
-## Text nativ
-
 Recomandari pentru tiroida hashimoto:
 
 - Ceai de sanziene
@@ -80,7 +62,7 @@ Hipotiroidismul si tiroidita Hashimoto - Sarfraz Zaidi
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

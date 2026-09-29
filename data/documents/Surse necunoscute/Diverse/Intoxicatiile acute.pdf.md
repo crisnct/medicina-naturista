@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Intoxicatiile acute.pdf"
-source_relative_path: "Intoxicatiile acute.pdf"
-source_sha256: "6f50460f479f4ed758a959081c259ab88286f5286fb9e0482b3c3ac5cb76165b"
-source_size_bytes: 198992
-page_count: 15
-extracted_text_characters: 215945
-extraction_method: pypdf
-status: "ok"
----
-
-# Intoxicatiile acute.pdf
-
-## Pagini
-
 ### Pagina 1
 
 /G84/G105/G109/G105/G186/G111/G97/G114/G97/G44/G32/G50/G48/G48/G54/G50/G56/G48

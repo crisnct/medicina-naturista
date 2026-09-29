@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru Guta.gdoc"
-source_relative_path: "Recomandari pentru Guta.gdoc"
-source_pointer_sha256: "bf47ab438b5e41bccf256311d8cb1c9e20242ea240f445f8af506c0ae947320c"
-source_pointer_bytes: 181
-google_doc_id: "1YlqKVSsZwXuyuauQ_smBC3-xbHUfoZwziAwZ09CyNNs"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 1
----
-
-# Recomandari pentru Guta
-
-## Conținut extras
-
 **Recomandări naturiste pentru gută**
 
 ## **Ce este guta și de ce apare?**
@@ -27,7 +11,7 @@ embedded_image_payloads_removed: 1
 
 - **Ceai complex 1**: se pun la fiert într-un litru de apă:
  * 3 linguri **mătase porumb**
- * 3 linguri de **cozi de cireşe amare**
+ * 3 linguri de **cozi de cireșe amare**
  * o lingură de rădăcină de **ciuboțica-cucului**
  * o lingură de **ghimpe**(măcinată)
  * un sfert de linguriță rasă de bicarbonat de sodiu
@@ -46,14 +30,14 @@ embedded_image_payloads_removed: 1
 - **Ceai de mesteacăn:** noaptea înainte de somn se pune 500ml apă la fiert. După ce apa a dat în clocot se adaugă 4 linguri de frunze uscate de **mesteacăn** și se acoperă vasul pentru 15min, Se ia jos capacul de pe vas iar când temperatura ceaiului a ajuns la 40°C se adaugă un sfert de linguritță de bicarbonat de sodiu, se amestecă bine, se pune înapoi capacul și se lasă peste noapte. A doua zi se strecoară iar cantitatea de ceai se împarte în două și se bea la 4 ore interval.
 - **Rădăcină de păpădie(pulbere)****:** 1 linguriță înainte de masa principală a zilei.
 - Macerat la rece di**n brusture**: o linguriță rasă de rădăcină uscată de brusture se pune seara la macerat într-o cană de apă. A doua zi se încălzește și se bea dimineața cu înghițituri mici.
-- **Ceai de Bătrânis****:** 2 lingurițe de plantă mărunțită se pune la 250 ml apa clocotită. Se acoperă pentru 10 minute, apoi se strecoară. Se pot consuma 2-3 căni pe zi. Preparatele obţinute din Bătrâniș au, în primul rând, efecte diuretice, contribuind la eliminarea acidului uric. Sunt, totodată, tonifiante. Potrivit specialiștilor, uleiurile esenţiale obţinute din această plantă au un rol deosebit în afecţiuni ale sângelui, determinând dezvoltarea globulelor albe. Ceaiurile de bătrâniș sunt adevărate pansamente intestinale, contribuind, în caz de hemoragii, la refacerea tractului gastro-intestinal. Totodată, bătrânișul combate paraziţii intestinali și reduce inflamaţiile care apar în sistemul urinar. Este indicat, de asemenea, în reumatisme și gută. Notabilă rămâne contribuţia sa în procesul de dezvoltare și întărire a leucocitelor.
-- Decoct din **nemțișor de câmp**: o linguriță de plantă la 500ml apă timp de 5 minute. Se beau 2-3 căni pe zi timp de 10 zile. Acest ceai este util și la scăderea tensiunii. A se citi nota de la final.
+- **Ceai de Bătrânis****:** 2 lingurițe de plantă mărunțită se pune la 250 ml apa clocotită. Se acoperă pentru 10 minute, apoi se strecoară. Se pot consuma 2-3 căni pe zi. Preparatele obținute din Bătrâniș au, în primul rând, efecte diuretice, contribuind la eliminarea acidului uric. Sunt, totodată, tonifiante. Potrivit specialiștilor, uleiurile esențiale obținute din această plantă au un rol deosebit în afecțiuni ale sângelui, determinând dezvoltarea globulelor albe. Ceaiurile de bătrâniș sunt adevărate pansamente intestinale, contribuind, în caz de hemoragii, la refacerea tractului gastro-intestinal. Totodată, bătrânișul combate paraziții intestinali și reduce inflamațiile care apar în sistemul urinar. Este indicat, de asemenea, în reumatisme și gută. Notabilă rămâne contribuția sa în procesul de dezvoltare și întărire a leucocitelor.
+- Decoct din **nemțișor de câmp**: o linguriță de plantă la 500ml apă timp de 5 minute. Se beau 2-3 căni pe zi timp de 10 zile. Acest ceai este util și la scăderea tensiunii. A se citi nota de la final.
 - **Enzime proteolitice**: 3 cps / zi, pe stomacul gol. A se folosi maxim o lună după care se face pauză tot de o lună.
 - **Capsule cu extract de coada-calului**: 3 cps pe zi dimineața.
 - **Oțet de mere cu miere:** o lingură dimineața.
 - **Pectină din mere****:** o linguriță de 3 ori pe zi,
 - **Zer:** 3 căni pe zi înainte de masă cu 30min. Se folosește timp de maxim o lună.
-- **Lapte cu hrean**: într-o cană de lapte cald se pun 1-2 linguriţe de hrean ras. Acest preparat se bea pe stomacul gol, de 1-2 ori pe zi. Un tratament durează minimum 3 săptămâni.
+- **Lapte cu hrean**: într-o cană de lapte cald se pun 1-2 lingurițe de hrean ras. Acest preparat se bea pe stomacul gol, de 1-2 ori pe zi. Un tratament durează minimum 3 săptămâni.
 
 - **Zeolit**: 2 cps de 500mg x 2 ori / zi
 - **Vitamina C cu zinc****:** 1000mg(vit c) o dată pe zi.
@@ -127,9 +111,9 @@ embedded_image_payloads_removed: 1
 - Pacientul să stea cât mai des în apropierea unui foc în care arde **lemn de ulm**.
 - A se purta o bijuterie ce conține piatra numită prehnit.
 - Intensifică procesul de vizualizare și induce o meditație profundă în timpul căreia se atinge eul superior. Meditând asupra acestui cristal, intrăm în contact cu rețeaua energetică a universului. Prehinitul dezvoltă precogniția și introspecția. Vă ajută să fiți întotdeauna pregătiți pentru ceea ce urmează. Datorită calității sale de a pune în acord cu energiile divine, prehnitul valorizează harul profeției și arată calea către evoluția spirituală.
-          Acest cristal închide câmpul auric într-un scut proterctor de energie divină. Util pentru a forma rețele datorită capacității sale de a calma mediul înconjurator și a oferi pace și protecție. Perfect pentru a fi pus în grădină. Ajută la transformarea casei într-un sanctuar vindecător. Vă învață cum să intrați în armonie cu natura și cu forțele elementare, revitalizând și reînnoind ceea ce va înconjoară.
-          O buna piatră Feng Shui, prehnitul contribuie la "eliminarea harababurii", la renunțarea la lucrurile inutile. De ajutor persoanelor care tezaurizează obiecte sau iubire născută dintr-un sentiment de lipsă, provenit uneori din privațiuni, sărăcie sau absența iubirii din viețile anterioare. Cu ajutorul prehnitului se restabilește încrederea în univers.
-          În plan psihologic, prehnitul înlătură coșmarurile, fobiile și fricile profunde, identificând și vindecând răul care le provoacă. Benefic copiilor hiperactivi și cauzelor karmice ascunse.
+ Acest cristal închide câmpul auric într-un scut proterctor de energie divină. Util pentru a forma rețele datorită capacității sale de a calma mediul înconjurator și a oferi pace și protecție. Perfect pentru a fi pus în grădină. Ajută la transformarea casei într-un sanctuar vindecător. Vă învață cum să intrați în armonie cu natura și cu forțele elementare, revitalizând și reînnoind ceea ce va înconjoară.
+ O buna piatră Feng Shui, prehnitul contribuie la "eliminarea harababurii", la renunțarea la lucrurile inutile. De ajutor persoanelor care tezaurizează obiecte sau iubire născută dintr-un sentiment de lipsă, provenit uneori din privațiuni, sărăcie sau absența iubirii din viețile anterioare. Cu ajutorul prehnitului se restabilește încrederea în univers.
+ În plan psihologic, prehnitul înlătură coșmarurile, fobiile și fricile profunde, identificând și vindecând răul care le provoacă. Benefic copiilor hiperactivi și cauzelor karmice ascunse.
  EFECTE TAMADUITOARE. Tratează rinichii, vezica urinară, timusul, umerii, pieptul și plămânii. Vindecă guta și tulburările hematologice, reface țesutul conjunctiv și stabilizează malignitatea.
  POZITIONARE. Plasați-l sau țineți-l unde este nevoie.
 
@@ -156,12 +140,12 @@ Potrivit “**Marelui Dicționar al Bolilor și Afecțiunilor – cauze subtile 
 
 ## **Atenție**
 
-* **COLCHICINA** recomandată de medici, este dăunătoare ficatului, rinichilor şi în mod deosebit globulelor roșii**.**
+* **COLCHICINA** recomandată de medici, este dăunătoare ficatului, rinichilor și în mod deosebit globulelor roșii**.**
  * În timpul folosirii ceaiului complex care conține **ghimpe** se vor evita condimentele, lactate fermentate, citricele, muraturile. Nu se asociaza cu medicamente antidepresive, pentru hipertensiune sau adenom de prostata
  * A nu se pune planta numită **sânziene** în ceaiul complex dacă pacientul suferă de lipsă severă de calciu.
- * A nu se consuma **hrean** în caz de colite, gastrite, enterocolite, afecțiuni renale acute.Va fi evitat de cei care suferă de bilă, ficat, de reumatici și de cei cu eczeme, hemoroizi, tulburări de ritm cardiac, hiperfuncţii endocrine avansate şi excitaţii nervoase.
- * **Boabele de ienupăr** nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare. Deoarece compuşii existenţi în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing). În cazul depăşirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale. Ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depăşească 4 săptămâni), după care trebuie să urmeze o pauză de cel puţin două luni. În afecţiunile inflamatorii ale rinichilor, vezicii şi căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merişor şi frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
- * **Ceaiul de nemțișor ce câmp**: datorită cantităţilor mici de alcaloizi şi celorlalţi compuşi rezultaţi în urma hidrolizei, produsul are proprietăţi hipotensive arteriale şi bradicardizante. Utilizarea în fitoterapie este limitată.A nu se folosi mai mult de 10 zile și a nu de depăși doza recomandată. În cazul observării unuia din următoarele simptome: salivație abundentă, tulburări digestive, insuficiență cardiacă, atunci se întrerupe tratamentul, și se bea lapte cald, se ia cărbune activ, un supliment cu magneziu și calciu și se beau multe lichide.
+ * A nu se consuma **hrean** în caz de colite, gastrite, enterocolite, afecțiuni renale acute.Va fi evitat de cei care suferă de bilă, ficat, de reumatici și de cei cu eczeme, hemoroizi, tulburări de ritm cardiac, hiperfuncții endocrine avansate și excitații nervoase.
+ * **Boabele de ienupăr** nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare. Deoarece compușii existenți în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing). În cazul depășirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale. Ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depășească 4 săptămâni), după care trebuie să urmeze o pauză de cel puțin două luni. În afecțiunile inflamatorii ale rinichilor, vezicii și căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merișor și frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
+ * **Ceaiul de nemțișor ce câmp**: datorită cantităților mici de alcaloizi și celorlalți compuși rezultați în urma hidrolizei, produsul are proprietăți hipotensive arteriale și bradicardizante. Utilizarea în fitoterapie este limitată.A nu se folosi mai mult de 10 zile și a nu de depăși doza recomandată. În cazul observării unuia din următoarele simptome: salivație abundentă, tulburări digestive, insuficiență cardiacă, atunci se întrerupe tratamentul, și se bea lapte cald, se ia cărbune activ, un supliment cu magneziu și calciu și se beau multe lichide.
  * A se evita dozele de **vitamina B3** de peste 50mg pe zi, deoarece crește cantitatea de acid uric din organism.
  * **Aspirina** duce la creșterea nivelului de acid uric, și dacă se ia în cantități mici.
  * Unele medicamente pentru hipertensiune arterială duc la creșterea nivelului de acid uric.( diuretice tiazidice, inhibitori ai enzimelor de conversie a angiotensinei (ECA) și beta-blocante)

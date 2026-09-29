@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Dieta pe grupe de sânge.gdoc"
-source_relative_path: "Dieta pe grupe de sânge.gdoc"
-source_pointer_sha256: "09a753c034e41d33f3d3212f7e8d97cdf6c0a6e9b9337d3d94f65a3d66bb61fb"
-source_pointer_bytes: 181
-google_doc_id: "13r7e_w_Jc0f_khVJKc6JVVTLecFWHjW0xGEq6EoRZsg"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Dieta pe grupe de sânge
-
-## Conținut extras
-
 # Dieta pe grupe de sânge: grupa 0 pozitiv (si negativ)
 
 **Cunoașterea grupei de sânge poate fi adesea un lucru util, nu doar în momentele în care ai nevoie de o transfuzie de sânge.**
@@ -32,110 +16,110 @@ Datorită tendinței lor către niveluri mai ridicate de acid din stomac,sunt ca
 
 Cei cu sânge de tip 0 ar trebui, în principiu, să aleagă alimente bogate în proteine și să mănânce carne, legume, pește și fructe, dar să limiteze cerealele, fasolea și leguminoasele. Pentru a pierde în greutate, fructele de mare, carnea roșie, broccoli, spanacul și uleiul de măsline sunt cele mai bune, iar grâul, porumbul și lactatele trebuie evitate.
 
-Alimente recomandate în dieta pentru grupa sanguină 0
+Alimente recomandate în dieta pentru grupa sanguină 0
 
 Proteine de origine animală
 
 Grupa de sânge 0 digeră și metabolizează carnea cu ușurință, iar dietele vegetariene nu sunt recomandate. Fructele de mare, care sunt o sursă bogată de iod, sunt benefice pentru persoanele cu această grupă de sânge, deoarece iodul ajută la stabilizarea funcției tiroidei.
 
-Așadar, dieta recomandă că persoanele cu grupa sangvină 0 să consume produse benefice de origine animală, cum ar fi:
+Așadar, dieta recomandă că persoanele cu grupa sangvină 0 să consume produse benefice de origine animală, cum ar fi:
 
-•    vită
-•    miel
-•    carne de berbec (berbecuț)
-•    vițel
-•    vânat
-•    cod
-•    hering
-•    macrou
+• vită
+• miel
+• carne de berbec (berbecuț)
+• vițel
+• vânat
+• cod
+• hering
+• macrou
 
 Produse lactate
 
-Deși produsele lactate și ouăle ar trebui evitate, persoanele care țîn această dietă (pentru grupele de sânge) pot consumă ocazional următoarele produse:
+Deși produsele lactate și ouăle ar trebui evitate, persoanele care țîn această dietă (pentru grupele de sânge) pot consumă ocazional următoarele produse:
 
-•    unt
-•    diverse brânzeturi, cum ar fi feta, mozzarella și brânză de capra
-•    lapte de soia
+• unt
+• diverse brânzeturi, cum ar fi feta, mozzarella și brânză de capra
+• lapte de soia
 
 Nuci
 
-Nucile sunt o sursă excelentă de proteine și de grăsimi sănătoase, iar persoanele cu grupa sangvină 0 pot, de regulă, să consume majoritatea tipurilor de nuci și semințe. De exemplu, se crede că nucile românești și semințele de dovleac sunt cele mai benefice, așa că merită mâncate.
+Nucile sunt o sursă excelentă de proteine și de grăsimi sănătoase, iar persoanele cu grupa sangvină 0 pot, de regulă, să consume majoritatea tipurilor de nuci și semințe. De exemplu, se crede că nucile românești și semințele de dovleac sunt cele mai benefice, așa că merită mâncate.
 
 Cereale
 
 Deși cele mai multe cereale ar trebui evitate, există câteva care sunt tolerate, precum:
 
-•    amaranthul
-•    orzul
-•    hrișcă
-•    orezul
-•    meiul 
-•    secară
-•    grâu spelt
+• amaranthul
+• orzul
+• hrișcă
+• orezul
+• meiul
+• secară
+• grâu spelt
 
 Legume
 
-Cu mici excepții, care ar trebui evitate, multe legume sunt bine tolerate de cei cu grupa sanguină 0\. Unele dintre legumele recomandate pentru această dietă sunt:
+Cu mici excepții, care ar trebui evitate, multe legume sunt bine tolerate de cei cu grupa sanguină 0\. Unele dintre legumele recomandate pentru această dietă sunt:
 
-•    roșiile 
-•    anghinarea
-•    cicoarea
-•    păpădia
-•    usturoiul
-•    hreanul
-•    kale (varză furajeră)
-•    bamele
-•    ceapă
-•    pătrunjelul
-•    pastarnacul
-•    ardeii grași roșii
-•    cartofii roșii
-•    dovleacul
-•    algele de mare
-•    napii
+• roșiile
+• anghinarea
+• cicoarea
+• păpădia
+• usturoiul
+• hreanul
+• kale (varză furajeră)
+• bamele
+• ceapă
+• pătrunjelul
+• pastarnacul
+• ardeii grași roșii
+• cartofii roșii
+• dovleacul
+• algele de mare
+• napii
 
 Legumele verzi, cu frunze, cum ar fi varza și Kale, conțin vitamina K, care ajuta la coagularea sângelui. Acest lucru este util, deoarece celor cu această grupă de sânge le lipsesc anumiți factori de coagulare.
 
-Ce legume e bine să eviți? 
+Ce legume e bine să eviți?
 
-Varza și conopida pot interfera cu funcția tiroidei, în timp ce varza de Bruxelles, ciupercile shiitake și măslinele fermentate pot irita tractul digestiv sau pot agrava problemele de hipersensibilitate specifice celor cu grupa de sânge 0. 
+Varza și conopida pot interfera cu funcția tiroidei, în timp ce varza de Bruxelles, ciupercile shiitake și măslinele fermentate pot irita tractul digestiv sau pot agrava problemele de hipersensibilitate specifice celor cu grupa de sânge 0.
 
 În plus, D'Adamo susține că vinetele și cartofii ar trebui evitate, deoarece pot provoca artrită. Totodată, porumbul poate afecta producția de insulină și duce la obezitate și diabet pentru această grupă de sânge.
 
 Fructe
 
-La fel ca în cazul legumelor, se crede că cele mai multe fructe sunt bine tolerate în această dietă de cei cu grupa de sânge 0 pozitiv și 0 negativ. Unele dintre fructele recomandate pentru aceste persoane sunt:
+La fel ca în cazul legumelor, se crede că cele mai multe fructe sunt bine tolerate în această dietă de cei cu grupa de sânge 0 pozitiv și 0 negativ. Unele dintre fructele recomandate pentru aceste persoane sunt:
 
-•    prunele uscate
-•    prunele proaspete
-•    smochinele
-•    grepfrutul
-•    majoritatea fructelor de pădure
+• prunele uscate
+• prunele proaspete
+• smochinele
+• grepfrutul
+• majoritatea fructelor de pădure
 
 Ce fructe e bine să eviți?
 
-Cei cu grupa de sânge 0 ar trebui să evite pepenii roșii, pepenele galben, portocalele, mandarinele, căpșunele, murele, rubarba și nuca de cocos. 
+Cei cu grupa de sânge 0 ar trebui să evite pepenii roșii, pepenele galben, portocalele, mandarinele, căpșunele, murele, rubarba și nuca de cocos.
 
 Condimente și mirodenii
 
 Condimentele de care se pot bucura oamenii care țin această dietă sunt:
 
-•    condimentele pe baza de alge
-•    sarea iodata
-•    pătrunjelul
-•    curry
-•    piperul roșu (cayenne)
-•    ciocolata
-•    cacaua
-•    mierea
+• condimentele pe baza de alge
+• sarea iodata
+• pătrunjelul
+• curry
+• piperul roșu (cayenne)
+• ciocolata
+• cacaua
+• mierea
 
 Băuturi
 
 Băuturile pe care persoanele care țin această dietă au voie să le consume sunt:
 
-•    apă carbogazoasă
-•    ceai
-•    vin
+• apă carbogazoasă
+• ceai
+• vin
 
 Avantajele dietelor pe grupe de sânge
 

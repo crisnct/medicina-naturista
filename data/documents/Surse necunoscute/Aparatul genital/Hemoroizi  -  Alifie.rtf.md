@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Hemoroizi Fistule anale\\Hemoroizi - Alifie.rtf"
-source_relative_path: "retete naturiste de sanatate\\Hemoroizi Fistule anale\\Hemoroizi - Alifie.rtf"
-source_sha256: "e84d81f7cfdcabd1c24621d01fd4f9f09dd18491fe24b4e746d45ad7ce60a68c"
-source_size_bytes: 3799
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 907
-status: "ok"
----
-
-# Hemoroizi - Alifie.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;\*020b0604020202020204Arial;
 
 Times New Roman CE;Times New Roman Cyr;Times New Roman Greek;Times New Roman Tur;

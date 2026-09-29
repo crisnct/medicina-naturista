@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 2 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 2 terapie herbala baza.gdoc"
-source_pointer_sha256: "148037d21e6b064bfec671c207c11af5b66c9f9f232cafa20740be32151a4d9c"
-source_pointer_bytes: 181
-google_doc_id: "1Ut3bvXG7_9qcmXmhEqaqpEzyUsbQ9dZhFz9CefDBZ0I"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 2 terapie herbala baza
-
-## Conținut extras
-
 CURS 2
 
 Introducere in medicina herbala

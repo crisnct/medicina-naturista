@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\DEPARAZITAREA.docx"
-source_relative_path: "DEPARAZITAREA.docx"
-source_sha256: "d1bbd410b28ae551042c6c894fb294e959ce3fb401624d853b93cdf0c8fe5386"
-source_size_bytes: 18068
-source_format: docx
-output_format: markdown
-native_text_characters: 8976
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# DEPARAZITAREA
-
-## Text nativ
-
 DEPARAZITAREA
 
 Influenta parazitilor asupra starii de sanatate.

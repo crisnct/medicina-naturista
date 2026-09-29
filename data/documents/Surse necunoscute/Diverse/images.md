@@ -1784,10 +1784,10 @@ mei, orz, ovaz) in loc de 4).Sucuri proaspat stoarse (se un storcator electric c
 fructe (1-1,5 1 pe zi),
 5). Lactate sub forma de lapte prins sau brénza de vaci, 6). Oud fierte (2 bue. pe Se poate consuma
 moderat (de max. 2 ori pe carne fiart’ de pui, peste, iepure, fazan.
-Informatii suplimentare se gratuit pe Internet,E-mail : www.tobert 1974—
+Informatii suplimentare se gratuit pe Internet,E-mail : 1974—
 yahoo.com sau
 i
-www.silaghi@freemai.hu Optimizarea alimentatiei:
+ Optimizarea alimentatiei:
 Variati alimentele - indiferent cit va place un aliment consumati EXCESIV!
 Portiile alimentare trebuie fie rezonabile( nu prea mari);
 Nu consumafi alimente extrem de grase/dulci/sarate/condimentate;

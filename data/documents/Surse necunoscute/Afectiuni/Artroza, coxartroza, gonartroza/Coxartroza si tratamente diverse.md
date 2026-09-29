@@ -33,11 +33,11 @@ Tratamentul cortizonic este total contraindicat
 
 
 
-Tratamentul este condus în direcţia diminuării simptomatologiei şi încetinirii evoluţiei bolii. Se vor prescrie antialgice de tipul paracetamolului sau acetaminofenului. În perioadele în care boala se acutizează, se pot administra antiinflamatorii nesteroidiene de tipul indometacinului, aspirinei, diclofenacului, etc. Administrarea medicamentelor se asociază cu terapia fizicală (fizioterapie).
+Tratamentul este condus în direcția diminuării simptomatologiei și încetinirii evoluției bolii. Se vor prescrie antialgice de tipul paracetamolului sau acetaminofenului. În perioadele în care boala se acutizează, se pot administra antiinflamatorii nesteroidiene de tipul indometacinului, aspirinei, diclofenacului, etc. Administrarea medicamentelor se asociază cu terapia fizicală (fizioterapie).
 
-Fizioterapia are rolul de a combate durerea articulară, de a păstra sau reface mobilitatea articulară şi de a creşte forţa musculară prin exerciţii fizice medicale, făcute sub control, după un anume program stabilit de medicul fizioterapeut. Celelalte tipuri de proceduri fizicale (căldura locală, electroterapia, masajul, hidroterapia) au efect adjuvant în combaterea durerii şi pregătirea programului de exerciţii fizice.
+Fizioterapia are rolul de a combate durerea articulară, de a păstra sau reface mobilitatea articulară și de a crește forța musculară prin exerciții fizice medicale, făcute sub control, după un anume program stabilit de medicul fizioterapeut. Celelalte tipuri de proceduri fizicale (căldura locală, electroterapia, masajul, hidroterapia) au efect adjuvant în combaterea durerii și pregătirea programului de exerciții fizice.
 
-Un rol foarte important în încetinirea evoluţiei bolii îl are stabilirea unui regim de viaţă adecvat. Iată câteva sfaturi utile:
+Un rol foarte important în încetinirea evoluției bolii îl are stabilirea unui regim de viață adecvat. Iată câteva sfaturi utile:
 
 scădere în greutate;
 
@@ -51,7 +51,7 @@ mers pe bicicletă;
 
 decubit ventral pe pat tare o jumătate de oră pe zi;
 
-corectarea diferenţelor de lungime ale memebrelor inferioare prin încălţăminte ortopedică.
+corectarea diferențelor de lungime ale memebrelor inferioare prin încălțăminte ortopedică.
 
 
 
@@ -71,12 +71,12 @@ Dna Mariana Suman, din Iasi, sufera de multi ani de coxartroza si dureri cauzate
 
  -- --
 
-Reumatismul se acutizează în perioadele reci ale anului. Cauza principală o constituie, însă, coloniile de viruşi localizate la nivelul încheieturilor şi care dezvoltă o mare toxicitate. O formulă de ceai medicinal foarte eficace în cazul combaterii reumatismului o constituie un decoct din teci de fasole (30 g), coajă de salcie (20 g), urzici (15 g) şi fructe de ienupăr (5 g). Acest decoct este preparat dintr-o lingură de amestec la o cană de apă. Se fierbe timp de 10 minute, apoi se răceşte lent şi se beau două căni pe zi. Tot intern, se mai recomandă infuzii şi decocturi din amestec de flori de soc, trifoi roşu sau arnică, frunze de mesteacăn, frasin, afin, urzică, tarhon, coacăz negru, măcriş, troscot, coada calului, pelin, rădăcini de lemn dulce, tătăneasă, osul iepurelui, brusture, ghinţură, fructe de ienupăr, teci de fasole, muguri de pin şi, în deosebi, coajă de salcie -- cel mai important remediu antireumatic din care se obţine şi aspirina naturală. În alimentaţie, se introduc sucuri alternative din legume (morcovi, sfeclă roşie, ţelină, spanac), gem de măceşe şi grîu încolţit. În tratamentul extern se recomandă macerat din flori şi frunze de piciorul cocoşului, păpădie, hrean ras, frunze strivite de varză şi praz, sau făină de muştar negru. Se mai fac frecţii pe articulaţiile dureroase cu tinctură de cimbrişor, traista ciobanului, ienupăr, hrean, ţelină, rozmarin, muguri de plop şi coajă de salcie, cu unguente din flori de gălbenele şi sînziene, sau extract din castane macerate în petrol rafinat.\
-Artrita este un reumatism infecţios cu dureri localizate, în special, la genunchi şi glezne. Tratamentul vizează asanarea focarelor de infecţie cu plante care au proprietăţi antibiotice, antiinflamatoare şi antireumatice. Se recomandă cataplasme, comprese şi băi locale cu extract din flori de creţuşcă, piciorul cocoşului, frunze de urzică, nuc, păpădie, coacăz negru şi rostopască, bulbi zdrobiţi de usturoi şi muguri de pin.
+Reumatismul se acutizează în perioadele reci ale anului. Cauza principală o constituie, însă, coloniile de viruși localizate la nivelul încheieturilor și care dezvoltă o mare toxicitate. O formulă de ceai medicinal foarte eficace în cazul combaterii reumatismului o constituie un decoct din teci de fasole (30 g), coajă de salcie (20 g), urzici (15 g) și fructe de ienupăr (5 g). Acest decoct este preparat dintr-o lingură de amestec la o cană de apă. Se fierbe timp de 10 minute, apoi se răcește lent și se beau două căni pe zi. Tot intern, se mai recomandă infuzii și decocturi din amestec de flori de soc, trifoi roșu sau arnică, frunze de mesteacăn, frasin, afin, urzică, tarhon, coacăz negru, măcriș, troscot, coada calului, pelin, rădăcini de lemn dulce, tătăneasă, osul iepurelui, brusture, ghințură, fructe de ienupăr, teci de fasole, muguri de pin și, în deosebi, coajă de salcie -- cel mai important remediu antireumatic din care se obține și aspirina naturală. În alimentație, se introduc sucuri alternative din legume (morcovi, sfeclă roșie, țelină, spanac), gem de măceșe și grîu încolțit. În tratamentul extern se recomandă macerat din flori și frunze de piciorul cocoșului, păpădie, hrean ras, frunze strivite de varză și praz, sau făină de muștar negru. Se mai fac frecții pe articulațiile dureroase cu tinctură de cimbrișor, traista ciobanului, ienupăr, hrean, țelină, rozmarin, muguri de plop și coajă de salcie, cu unguente din flori de gălbenele și sînziene, sau extract din castane macerate în petrol rafinat.\
+Artrita este un reumatism infecțios cu dureri localizate, în special, la genunchi și glezne. Tratamentul vizează asanarea focarelor de infecție cu plante care au proprietăți antibiotice, antiinflamatoare și antireumatice. Se recomandă cataplasme, comprese și băi locale cu extract din flori de crețușcă, piciorul cocoșului, frunze de urzică, nuc, păpădie, coacăz negru și rostopască, bulbi zdrobiți de usturoi și muguri de pin.
 
-Artroza este un reumatism degenerativ, cu îmbolnăvirea cronică a articulaţiilor, prin deteriorarea cartilajelor şi a capetelor de oase, mai frecvent la picioare şi la coloana vertebrală. Intern, se folosesc ceaiuri din ţelină, salvie, troscot, ţintaură, urzică, ceapă tăiată mărunt, flori de soc, fructe de ienupăr, scoarţă de salcie, rădăcini şi frunze de pătrunjel. Extern, se recomandă cataplasme cu varză crudă, hrean ras, felii de ceapă, flori de fîn, paie de ovăz şi făină de muştar negru. Se fac băi cu decoct din scoarţă de salcie şi stejar, flori de lavandă, gălbenele şi muşeţel, muguri de pin şi frecţii locale cu ardei iute macerat în alcool de 60 de grade, alifie cu răşină, gălbenele şi tătăneasă.
+Artroza este un reumatism degenerativ, cu îmbolnăvirea cronică a articulațiilor, prin deteriorarea cartilajelor și a capetelor de oase, mai frecvent la picioare și la coloana vertebrală. Intern, se folosesc ceaiuri din țelină, salvie, troscot, țintaură, urzică, ceapă tăiată mărunt, flori de soc, fructe de ienupăr, scoarță de salcie, rădăcini și frunze de pătrunjel. Extern, se recomandă cataplasme cu varză crudă, hrean ras, felii de ceapă, flori de fîn, paie de ovăz și făină de muștar negru. Se fac băi cu decoct din scoarță de salcie și stejar, flori de lavandă, gălbenele și mușețel, muguri de pin și frecții locale cu ardei iute macerat în alcool de 60 de grade, alifie cu rășină, gălbenele și tătăneasă.
 
-În artroza coxofemurală sau coxartroză se recomandă ceaiuri de măghiran, rozmarin şi chiparos, băi generale cu lujeri de tomate, frunze de coacăz negru, sare de Bălţăteşti. Se mai pot aplica împachetări cu parafină şi nămol. (C.I.)
+În artroza coxofemurală sau coxartroză se recomandă ceaiuri de măghiran, rozmarin și chiparos, băi generale cu lujeri de tomate, frunze de coacăz negru, sare de Bălțătești. Se mai pot aplica împachetări cu parafină și nămol. (C.I.)
 
 
 ================================================================
@@ -135,23 +135,23 @@ Liliana SIMIDON
 
 14 Aprilie 2005
 
-Unele produse din plante consumate împreună cu medicamente antiinflamatoare pot duce la efecte adverse periculoase, de multe ori necunoscute nici de medici şi nici de pacienţi.
+Unele produse din plante consumate împreună cu medicamente antiinflamatoare pot duce la efecte adverse periculoase, de multe ori necunoscute nici de medici și nici de pacienți.
 
-Într-un studiu efectuat pe 238 de bolnavi cu atrită din vestul Angliei participanţii au fost întrebaţi de diagnosticul lor, de tratamentul convenţional urmat şi dacă au consumat vreun preparat din plante în ultimele 6 luni. Au mai fost întrebaţi dacă cunosc vreun efect advers al preparatului, interacţiunile cu medicamentele convenţionale prescrise şi dacă înainte de a le consuma au consultat un specialist în medicina naturistă. Aproape jumătate (44%) dintre cei întrebaţi a folosit un produs natural în cele 6 luni precedente. Unu din trei a luat ulei de peşte(cod), unu din cinci glucozamine sau condroitin, unu din zece ulei de primulact.\
-  Unu din zece a consumat produse care prezintă interacţiuni cu medicamentele convenţionale, dintre care echinaceea creşte riscul hepatotoxicităţii atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba şi usturoiul pot precipita hemoragii dacă sunt administrate în acelaşi timp cu antiinflamatoare steroidiene şi nesteroidiene.\
-  Mulţi dintre pacienţi erau miraţi că s-au expus singuri la un asemenea risc, iar alţii se gândeau că ar fi fost mai bine să consulte şi un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potenţial periculoase ale preparatelor din plante, iar pacienţii neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în acelaşi timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
+Într-un studiu efectuat pe 238 de bolnavi cu atrită din vestul Angliei participanții au fost întrebați de diagnosticul lor, de tratamentul convențional urmat și dacă au consumat vreun preparat din plante în ultimele 6 luni. Au mai fost întrebați dacă cunosc vreun efect advers al preparatului, interacțiunile cu medicamentele convenționale prescrise și dacă înainte de a le consuma au consultat un specialist în medicina naturistă. Aproape jumătate (44%) dintre cei întrebați a folosit un produs natural în cele 6 luni precedente. Unu din trei a luat ulei de pește(cod), unu din cinci glucozamine sau condroitin, unu din zece ulei de primulact.\
+ Unu din zece a consumat produse care prezintă interacțiuni cu medicamentele convenționale, dintre care echinaceea crește riscul hepatotoxicității atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba și usturoiul pot precipita hemoragii dacă sunt administrate în același timp cu antiinflamatoare steroidiene și nesteroidiene.\
+ Mulți dintre pacienți erau mirați că s-au expus singuri la un asemenea risc, iar alții se gândeau că ar fi fost mai bine să consulte și un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potențial periculoase ale preparatelor din plante, iar pacienții neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în același timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
 
 
 
-**Medicamentul-minune împotriva obezităţii dar şi a fumatului**
+**Medicamentul-minune împotriva obezității dar și a fumatului**
 ===============================================================
 
 10 Februarie 2005
 
-Medicamentul-minune care combate atât obezitatea cât şi fumatul ar putea apărea pe piaţă în curând.
+Medicamentul-minune care combate atât obezitatea cât și fumatul ar putea apărea pe piață în curând.
 
 Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al anului în curs cererea pentru autorizarea punerii în vânzare a preparatului **Rimonabant.\
-**Atenţie, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, şi chiar s-au dovedit periculoase, aşa cum a fost cazul cu Isomeride.
+**Atenție, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, și chiar s-au dovedit periculoase, așa cum a fost cazul cu Isomeride.
 
 <
 

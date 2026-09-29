@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Antioxidanti naturali.docx"
-source_relative_path: "Antioxidanti naturali.docx"
-source_sha256: "77f3da50b44276ea5b67f69fbb5acf3cac1bca0baf65449067f67557f7541137"
-source_size_bytes: 13309
-source_format: docx
-output_format: markdown
-native_text_characters: 959
-tables: 1
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Antioxidanti naturali
-
-## Text nativ
-
 ### Antioxidanți naturali
 
 ### Tabel 1
@@ -40,9 +22,3 @@ ocr_text_characters: 0
 | | | | | | |
 
 Referințe
-
-
-
-
-
-

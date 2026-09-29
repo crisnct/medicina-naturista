@@ -1,108 +1,90 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Puncte energetice pe palme si talpi\\21 puncte active.docx"
-source_relative_path: "Puncte energetice pe palme si talpi\\21 puncte active.docx"
-source_sha256: "83d49d858084a9bf1276900e4128b3c0d35499b6dc47d3d66b3a4daef1489e1b"
-source_size_bytes: 117229
-source_format: docx
-output_format: markdown
-native_text_characters: 4668
-tables: 0
-images: 17
-ocr_images_with_text: 4
-ocr_text_characters: 79
----
-
-# 21 puncte active
-
-## Text nativ
-
 21 puncte active antice
 
-Deşi se cunosc peste 365 de puncte active dispuse pe 12 meridiane principale şi pe 2 meridiane extraordinare, doar un număr relativ mic, de 21 de puncte, numite puncte active antice sunt folosite pe scară largă în acupunctură şi presopunctură şi de asemenea în qigong.
+Deși se cunosc peste 365 de puncte active dispuse pe 12 meridiane principale și pe 2 meridiane extraordinare, doar un număr relativ mic, de 21 de puncte, numite puncte active antice sunt folosite pe scară largă în acupunctură și presopunctură și de asemenea în qigong.
 
-Houxi pe meridianul intestinului subţire
+Houxi pe meridianul intestinului subțire
 
-Util în probleme mentale, durere la spate, zona lombară, piept, transpiraţii nocturne şi friguri.
+Util în probleme mentale, durere la spate, zona lombară, piept, transpirații nocturne și friguri.
 
 Hegu pe meridianul intestinului gros (Tehnica: masarea mâinii, baterea dosului mâinii)
 
-Util în calmarea durerii şi tratarea constipaţiei şi altor dereglări intestinale. Folosit şi în afecţiuni inflamatorii şi febră care au simptome la nivelul gâtului şi capului.
+Util în calmarea durerii și tratarea constipației și altor dereglări intestinale. Folosit și în afecțiuni inflamatorii și febră care au simptome la nivelul gâtului și capului.
 
 Shenmen pe meridianul inimii
 
-Util în afecţiuni mentale, inconştienţă, insomnie, coşmare, isterie, depresie, agitaţie şi boli mentale; probleme ale inimii şi oboseală.
+Util în afecțiuni mentale, inconștiență, insomnie, coșmare, isterie, depresie, agitație și boli mentale; probleme ale inimii și oboseală.
 
-Lieque pe meridianul plămânului (Tehnica: baterea zonei NeiGuan, baterea braţelor în exerciţiile de încheiere de la zhuang)
+Lieque pe meridianul plămânului (Tehnica: baterea zonei NeiGuan, baterea brațelor în exercițiile de încheiere de la zhuang)
 
-Util în dereglări ale părţii superioare a corpului de la diafragmă în sus: dureri de cap, rigiditatea cefei, tuse, astmă, gât înfundat, paralizie facială, probleme la încheietura mâinii.
+Util în dereglări ale părții superioare a corpului de la diafragmă în sus: dureri de cap, rigiditatea cefei, tuse, astmă, gât înfundat, paralizie facială, probleme la încheietura mâinii.
 
 NeiGuan pe meridianul pericardului. (Tehnica: baterea punctului NeiGuan)
 
-Este util în afecţiuni cardiace, palpitaţiile inimii şi angina pectorală. Este folosit şi pentru ameţeli, vomă, spasme şi convulsii.
+Este util în afecțiuni cardiace, palpitațiile inimii și angina pectorală. Este folosit și pentru amețeli, vomă, spasme și convulsii.
 
-Waiguan pe meridianul Triplului Încălzitor (Tehnica: baterea braţelor în exerciţiile de încheiere de la zhuang)
+Waiguan pe meridianul Triplului Încălzitor (Tehnica: baterea brațelor în exercițiile de încheiere de la zhuang)
 
-Util în dereglări ale fluxului energetic pe acest meridian, adică în probleme ale degetelor, mâinii, braţului, cefei, urechii, obrazului şi creştetului capului.
+Util în dereglări ale fluxului energetic pe acest meridian, adică în probleme ale degetelor, mâinii, brațului, cefei, urechii, obrazului și creștetului capului.
 
-Quchi pe meridianul intestinului gros (Tehnica: baterea zonei ShouSanLi, baterea braţelor în exerciţiile de încheiere de la zhuang)
+Quchi pe meridianul intestinului gros (Tehnica: baterea zonei ShouSanLi, baterea brațelor în exercițiile de încheiere de la zhuang)
 
-Util în dereglări ale părţii superioare a corpului de la diafragmă în sus: gât, dureri ale ochilor, probleme limfatice, dificultăţi în mişcarea mâinilor, cât şi în afecţiuni intestinale ca diaree sau crampe intestinale.
+Util în dereglări ale părții superioare a corpului de la diafragmă în sus: gât, dureri ale ochilor, probleme limfatice, dificultăți în mișcarea mâinilor, cât și în afecțiuni intestinale ca diaree sau crampe intestinale.
 
 Xingjian pe meridianul ficatului (Tehnica: baterea labei piciorului)
 
-Util în echilibrarea energiei emoţionale, reglarea menstruaţiei, reducerea tensiunii, durerii în piept, afecţiunilor ochilor, calmează durerile de cap, scade tensiunea arterială şi tratează afecţiuni ale abdomenului inferior cum ar fi problemele urinare.
+Util în echilibrarea energiei emoționale, reglarea menstruației, reducerea tensiunii, durerii în piept, afecțiunilor ochilor, calmează durerile de cap, scade tensiunea arterială și tratează afecțiuni ale abdomenului inferior cum ar fi problemele urinare.
 
 Taichong pe meridianul ficatului (Tehnica: baterea labei piciorului)
 
-Util în echilibrarea energiei emoţionale, reglarea menstruaţiei, reducerea tensiunii, durerii în piept, afecţiunilor ochilor, calmează durerile de cap şi scade tensiunea arterială.
+Util în echilibrarea energiei emoționale, reglarea menstruației, reducerea tensiunii, durerii în piept, afecțiunilor ochilor, calmează durerile de cap și scade tensiunea arterială.
 
-Taixi pe meridianul rinichilor (Tehnica: baterea picioarelor în exerciţiile de încheiere de la zhuang)
+Taixi pe meridianul rinichilor (Tehnica: baterea picioarelor în exercițiile de încheiere de la zhuang)
 
-Util în dureri de dinţi, gât înfundat, surzenie şi tinnitus, confuzie, astmă, sete, insomnie, impotenţă, urinare frecventă, durere la şale, menstruaţii neregulate.
+Util în dureri de dinți, gât înfundat, surzenie și tinnitus, confuzie, astmă, sete, insomnie, impotență, urinare frecventă, durere la șale, menstruații neregulate.
 
-Sanyinjiao pe meridianul splinei (Tehnica: baterea picioarelor în exerciţiile de încheiere de la zhuang)
+Sanyinjiao pe meridianul splinei (Tehnica: baterea picioarelor în exercițiile de încheiere de la zhuang)
 
-Util pentru sistemul digestiv, dar şi pentru dereglări imunitare şi hormonale: menstruaţie neregulară, impotenţă
+Util pentru sistemul digestiv, dar și pentru dereglări imunitare și hormonale: menstruație neregulară, impotență
 
 ZuSanLi pe meridianul stomacului. (Tehnica: baterea punctului ZuSanLi)
 
-Util în afecţiuni digestive, ameţeli, vomă, gastrite şi distensii abdominale şi slăbiciune generală. Este folosit şi în tratara anemiei, deficienţei imunitare, oboselii.
+Util în afecțiuni digestive, amețeli, vomă, gastrite și distensii abdominale și slăbiciune generală. Este folosit și în tratara anemiei, deficienței imunitare, oboselii.
 
-Yinlingquan pe meridianul splinei (Tehnica: baterea picioarelor în exerciţiile de încheiere de la zhuang)
+Yinlingquan pe meridianul splinei (Tehnica: baterea picioarelor în exercițiile de încheiere de la zhuang)
 
-Util în afecţiuni urinare, retenţia fluidului, durerea spatelui şi abdominală, dereglări ale sistemului genital feminin.
+Util în afecțiuni urinare, retenția fluidului, durerea spatelui și abdominală, dereglări ale sistemului genital feminin.
 
-Yanglingquan pe meridianul vezicii biliare (Tehnica: baterea picioarelor în exerciţiile de încheiere de la zhuang)
+Yanglingquan pe meridianul vezicii biliare (Tehnica: baterea picioarelor în exercițiile de încheiere de la zhuang)
 
-Util pentru tratarea afecţiunilor muşchilor şi tendoanelor.
+Util pentru tratarea afecțiunilor mușchilor și tendoanelor.
 
-Weizhong pe meridianul vezicii urinare (Tehnica: baterea picioarelor în exerciţiile de încheiere de la zhuang)
+Weizhong pe meridianul vezicii urinare (Tehnica: baterea picioarelor în exercițiile de încheiere de la zhuang)
 
-Util în dureri de spate, atrofie musculară, dureri ale picioarelor şi imobilitate, dureri abdominale, vomă, diaree.
+Util în dureri de spate, atrofie musculară, dureri ale picioarelor și imobilitate, dureri abdominale, vomă, diaree.
 
 Shenshu pe meridianul vezicii urinare (Tehnica: baterea spatelui)
 
-Util în probleme urinare, impotenţă, dereglări menstruale, dureri ale părţii inferioare a spatelui, slăbiciune a genunchilor, confuzie, zgomot în urechi, vedere înceţoşată, edteme, astmă şi diaree.
+Util în probleme urinare, impotență, dereglări menstruale, dureri ale părții inferioare a spatelui, slăbiciune a genunchilor, confuzie, zgomot în urechi, vedere încețoșată, edteme, astmă și diaree.
 
 Fengchi pe meridianul vezicii biliare (Tehnica: baterea spatelui)
 
-Util în afecţiuni acute: răceală, viroză, dureri de cap, de ceafă şi febră. Scade tensiunea sanguină şi la nivelul ochilor.
+Util în afecțiuni acute: răceală, viroză, dureri de cap, de ceafă și febră. Scade tensiunea sanguină și la nivelul ochilor.
 
-BaiHui pe meridianul guvernor. (Tehnica: Baterea capului în exerciţiile de încheiere zhuang sau meditaţie)
+BaiHui pe meridianul guvernor. (Tehnica: Baterea capului în exercițiile de încheiere zhuang sau meditație)
 
-Util în afecţiuni mentale, ameţeli, vertigo, zgomot în urechi, obstrucţie nazală, dificultăţi de vorbire. Folosit şi în prolapsul rectului şi uterului.
+Util în afecțiuni mentale, amețeli, vertigo, zgomot în urechi, obstrucție nazală, dificultăți de vorbire. Folosit și în prolapsul rectului și uterului.
 
-Da Zhui pe meridianul guvernor. (Tehnica: Masarea Marii vertebre în exerciţiile de încheiere zhuang sau meditaţie)
+Da Zhui pe meridianul guvernor. (Tehnica: Masarea Marii vertebre în exercițiile de încheiere zhuang sau meditație)
 
-Util în probleme ale cefei şi părţii superioare a spatelui, febră, convulsii, tuse, astmă şi răceală.
+Util în probleme ale cefei și părții superioare a spatelui, febră, convulsii, tuse, astmă și răceală.
 
-Guanyan pe meridianul de concepţie (Tehnica: Baterea zonei Xia Dantian)
+Guanyan pe meridianul de concepție (Tehnica: Baterea zonei Xia Dantian)
 
-Util în probleme ale abdomenului inferior: dificultăţi de urinare, hernie, dereglări menstruale, infecţii ginecologice, sângerări postnaştere, diaree, prolaps rectal.
+Util în probleme ale abdomenului inferior: dificultăți de urinare, hernie, dereglări menstruale, infecții ginecologice, sângerări postnaștere, diaree, prolaps rectal.
 
-Qihai pe meridianul de concepţie (Tehnica: Baterea zonei Xia Dantian)
+Qihai pe meridianul de concepție (Tehnica: Baterea zonei Xia Dantian)
 
-Util în probleme ale oboselii şi lipsei de energie ale abdomenului inferior datorate afecţiunilor: dificultăţi de urinare, hernie, dereglări menstruale, infecţii ginecologice, sângerări postnaştere, diaree, prolaps rectal.
+Util în probleme ale oboselii și lipsei de energie ale abdomenului inferior datorate afecțiunilor: dificultăți de urinare, hernie, dereglări menstruale, infecții ginecologice, sângerări postnaștere, diaree, prolaps rectal.
 
 ## Subsol 1
 

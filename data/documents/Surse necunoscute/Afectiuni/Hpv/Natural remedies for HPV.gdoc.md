@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Natural remedies for HPV.gdoc"
-source_relative_path: "Natural remedies for HPV.gdoc"
-source_pointer_sha256: "26fab21bee9b9372624e5f126077780f295f989d01f4fc9a84342a93413e3999"
-source_pointer_bytes: 181
-google_doc_id: "1kebZhdQVcilXE_t7NO3E9qgyUsTX8bPOBpl8QBjpv4Q"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 1
----
-
-# Natural remedies for HPV
-
-## Conținut extras
-
 # Tab 1
 
 ![A serene and peaceful image showing natural elements like leaves, herbs, and sunlight, suggesting holistic health and healing.][image1]

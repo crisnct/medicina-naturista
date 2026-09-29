@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 12 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 12 terapie herbala profesional.gdoc"
-source_pointer_sha256: "b2ae2b835131d6725192d7010b23538863db97c8d0a73896a2b2a3251404d7c7"
-source_pointer_bytes: 181
-google_doc_id: "128BQrD6HS9ZtQP4Zemp-L2VfmQJPRQylAoD44Ac3VcE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 12 terapie herbala profesional
-
-## Conținut extras
-
 Curs 12
 
 Ierburi expectorante și calmante

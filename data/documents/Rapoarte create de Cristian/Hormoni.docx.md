@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Hormoni.docx"
-source_relative_path: "Hormoni.docx"
-source_sha256: "cd0e11e2fdc5a011657314bf2fa793cb0b58e9c22d8f0994ff3b1b29f2d3c421"
-source_size_bytes: 25701
-source_format: docx
-output_format: markdown
-native_text_characters: 7053
-tables: 1
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Hormoni
-
-## Text nativ
-
 ### Hormonii produși de organismul uman
 
 ### Tabel 1

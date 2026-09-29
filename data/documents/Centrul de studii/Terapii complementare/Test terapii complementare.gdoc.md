@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapii complementare\\Test terapii complementare.gdoc"
-source_relative_path: "Centrul de studii\\Terapii complementare\\Test terapii complementare.gdoc"
-source_pointer_sha256: "d595cda981301ad6577e15c4b97598fc01a212c1399c036833d9fd3068959df0"
-source_pointer_bytes: 181
-google_doc_id: "1WcPmjr6pwzMYsC9kQzvsWTtNKtqN-te6AgspwJbcR7g"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test terapii complementare
-
-## Conținut extras
-
 Test terapii naturiste
 
 Scrieti cum se pune diagnosticul si cum se face tratamentul pentru urmatoarele terapii: reiki, reflexologie, masaj shiatsu .
@@ -26,7 +10,7 @@ Succes\!
 
 **Reiki**
 
-Diagnosticarea reiki se face prin scanarea ceakrelor. Energia acestei stări de a fi trăieşte în toate lucrurile şi această energie universală curge prin mâinile noastre în forma concentrată atunci când tratăm pe cineva cu Reiki. In termeni practici reiki este deasupra celor holistice. Reiki atinge toate nivelurile de existenţă şi se luptă să aducă aceste diferite niveluri la o stare de echilibru. Terapeutul este numai un canal pentru această energie, pentru că acesta nu este al lui, energia limitată care trece prin el când îşi aşează mâinile pe o persoană, dar mai degrabă una universală, care îl lasă apoi în armonie cu el şi mai puternic. De asemenea, Reiki lucrează în felul său asupra zonei din corp care are nevoie.
+Diagnosticarea reiki se face prin scanarea ceakrelor. Energia acestei stări de a fi trăiește în toate lucrurile și această energie universală curge prin mâinile noastre în forma concentrată atunci când tratăm pe cineva cu Reiki. In termeni practici reiki este deasupra celor holistice. Reiki atinge toate nivelurile de existență și se luptă să aducă aceste diferite niveluri la o stare de echilibru. Terapeutul este numai un canal pentru această energie, pentru că acesta nu este al lui, energia limitată care trece prin el când își așează mâinile pe o persoană, dar mai degrabă una universală, care îl lasă apoi în armonie cu el și mai puternic. De asemenea, Reiki lucrează în felul său asupra zonei din corp care are nevoie.
 
 **Reflexologie**
 
@@ -36,6 +20,6 @@ energii foarte similare. Singura diferenta este ca energia tala interioara are c
 
 **Masaj Shiatsu**
 
-Shiatsu este o metoda care ne permite să dam şi să primim îngrijire, caldura si vindecare prin atingere nedureroasa. Rolul său potenţial în cadrul societăţii este în creştere, pentru totdeauna pentru ca plecam de la comunicarea directă cu caracter personal şi de contact tactil uman.
-Practicianul Shiatsu aplică presiune folosind degetele sale şi / sau palmele într-o secvenţă
-continuă ritmic. Presiunea se simte localizat pentru că spre deosebire de alte tipuri de masaj, aplicaţiile cu degetele sunt utilizate pentru a aplica o presiune in cea mai mare parte a tratamentelor. Cei mai mulţi oameni spun ca shiatsu este mai relaxant decat formele clasice de terapie prin masaj. Tratamentul se face pe o masă de masaj sau pe podea. Shiatsu are rol analgezic, relaxant , tonifiant, de echilibrare. Poate ameliora cu succes afectiuni ca tendinitele, intinderi musculare, migrene, dureri de gat si umeri, sciatica, dureri de spate, dureri artitice, tensiuni musculare, nevralgii, insomnie, nervozitate, probleme menstruale, probleme circulatorii, probleme legate de stress, constipatie, anxietate, oboseala cronica, stress. Dupa cum vedeti sunt probleme frecvente si aparent "banale", dar pentru care medicina clasica este uneori ineficienta. Shiatsu nu promite vindecarea, ci ameliorarea si are limitarile lui (de exemplu, daca ai apendicita nu mergi la o sedinta de shiatsu).
+Shiatsu este o metoda care ne permite să dam și să primim îngrijire, caldura si vindecare prin atingere nedureroasa. Rolul său potențial în cadrul societății este în creștere, pentru totdeauna pentru ca plecam de la comunicarea directă cu caracter personal și de contact tactil uman.
+Practicianul Shiatsu aplică presiune folosind degetele sale și / sau palmele într-o secvență
+continuă ritmic. Presiunea se simte localizat pentru că spre deosebire de alte tipuri de masaj, aplicațiile cu degetele sunt utilizate pentru a aplica o presiune in cea mai mare parte a tratamentelor. Cei mai mulți oameni spun ca shiatsu este mai relaxant decat formele clasice de terapie prin masaj. Tratamentul se face pe o masă de masaj sau pe podea. Shiatsu are rol analgezic, relaxant , tonifiant, de echilibrare. Poate ameliora cu succes afectiuni ca tendinitele, intinderi musculare, migrene, dureri de gat si umeri, sciatica, dureri de spate, dureri artitice, tensiuni musculare, nevralgii, insomnie, nervozitate, probleme menstruale, probleme circulatorii, probleme legate de stress, constipatie, anxietate, oboseala cronica, stress. Dupa cum vedeti sunt probleme frecvente si aparent "banale", dar pentru care medicina clasica este uneori ineficienta. Shiatsu nu promite vindecarea, ci ameliorarea si are limitarile lui (de exemplu, daca ai apendicita nu mergi la o sedinta de shiatsu).

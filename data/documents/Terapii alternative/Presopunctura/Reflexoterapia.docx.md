@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Puncte energetice pe palme si talpi\\Reflexoterapia.docx"
-source_relative_path: "Puncte energetice pe palme si talpi\\Reflexoterapia.docx"
-source_sha256: "a3be65d3687766d492ba60a887766186e6b865459d41c836730581b31805b8fb"
-source_size_bytes: 87046
-source_format: docx
-output_format: markdown
-native_text_characters: 3713
-tables: 3
-images: 6
-ocr_images_with_text: 5
-ocr_text_characters: 385
----
-
-# Reflexoterapia
-
-## Text nativ
-
 ### Tabel 1
 
 | Coloana 1 | Coloana 2 |

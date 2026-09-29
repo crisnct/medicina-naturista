@@ -1,34 +1,18 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Anoregin-eticheta.docx"
-source_relative_path: "Anoregin-eticheta.docx"
-source_sha256: "3f67daf8900e48ffd7a931f72e96e1d04fd494a9fd0448df1a654075743fd627"
-source_size_bytes: 73146
-source_format: docx
-output_format: markdown
-native_text_characters: 1110
-tables: 0
-images: 3
-ocr_images_with_text: 1
-ocr_text_characters: 8
----
-
-# Anoregin-eticheta
-
 ## Casete de text din text nativ
 
 Anoregin Sirop
 
 Ingrediente:
 
-– rădăcină de Ghinţură – 10 linguriţe
+– rădăcină de Ghințură – 10 lingurițe
 
 cu vârf
 
-– rizomi de Obligeană – 10 linguriţe
+– rizomi de Obligeană – 10 lingurițe
 
 cu vârf
 
-– Rostopască – 5 linguriţe cu vârf
+– Rostopască – 5 lingurițe cu vârf
 
 – aspirină – 2 comprimate
 
@@ -40,19 +24,19 @@ cu vârf
 
 Mod de preparare:
 
-Se face infuzie cu 250ml apă şi 5 lingurițe de rădăcină de Ghinţură. După un sfert de oră se strecoară, se completează cu apă până la 250 ml și se pune ceaiul la fiert cu 5 lingurițe de rădăcină de Ghinţură. Când a dat în clocot, se oprește focul și se acoperă pentru două ore. Se adaugă rizomii de Obligeană şi se lasă la macerat 8 ore după care se strecoară.
+Se face infuzie cu 250ml apă și 5 lingurițe de rădăcină de Ghințură. După un sfert de oră se strecoară, se completează cu apă până la 250 ml și se pune ceaiul la fiert cu 5 lingurițe de rădăcină de Ghințură. Când a dat în clocot, se oprește focul și se acoperă pentru două ore. Se adaugă rizomii de Obligeană și se lasă la macerat 8 ore după care se strecoară.
 
-Se face infuzie cu 100ml apă şi rostopască. După ce s-a răcit se strecoară şi se amestecă cu soluţia preparată anterior. Se adaugă apoi zahărul şi aspirina pisată şi se agită recipientul până la dizolvarea acestora. Siropul se păstrează la frigider.
+Se face infuzie cu 100ml apă și rostopască. După ce s-a răcit se strecoară și se amestecă cu soluția preparată anterior. Se adaugă apoi zahărul și aspirina pisată și se agită recipientul până la dizolvarea acestora. Siropul se păstrează la frigider.
 
-Indicaţii:
+Indicații:
 
 anorexii, colici hepato-biliare, dischinezie biliara, enterocolite, helmintiaze, tulburări neuro-vegetative, gastrite hiperacide, ulcer gastric, ulcer duodenal, disconfort abdominal, dureri abdominale, calculoză biliară, dismenoree, ameliorant în bolile aparatului respirator.
 
 Administrare:
 
-adulţi: 1 linguriţă x 3 ori / zi sau o lingură la nevoie
+adulți: 1 linguriță x 3 ori / zi sau o lingură la nevoie
 
-copii: ½ linguriţă x 3 ori / zi
+copii: ½ linguriță x 3 ori / zi
 
 ## Descrieri alternative ale imaginilor
 

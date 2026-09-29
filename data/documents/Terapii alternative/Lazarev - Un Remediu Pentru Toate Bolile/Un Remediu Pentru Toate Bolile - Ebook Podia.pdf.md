@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Un Remediu Pentru Toate Bolile - Ebook Podia.pdf"
-source_relative_path: "Un Remediu Pentru Toate Bolile - Ebook Podia.pdf"
-source_sha256: "2ad4586e69f66c1a3c7acb4072328c1d710a41eef29517e672b354fae24cf5a7"
-source_size_bytes: 5534605
-page_count: 26
-extracted_text_characters: 45461
-extraction_method: pypdf
-status: "ok"
----
-
-# Un Remediu Pentru Toate Bolile - Ebook Podia.pdf
-
-## Pagini
-
 ### Pagina 1
 
 [Nu a fost extras text din această pagină.]

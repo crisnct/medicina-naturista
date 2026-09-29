@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 15 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 15 terapie herbala profesional.gdoc"
-source_pointer_sha256: "dfc8158addc8c77f7cff36b86f414da62890047b87e7ef2da4c966ddecf116cb"
-source_pointer_bytes: 181
-google_doc_id: "15sbEVDsYofN3Zn42k8KRbjVN4TUuT7IVfmY-BpZp5Hg"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 15 terapie herbala profesional
-
-## Conținut extras
-
 CURS 15
 
 Ierburi stimulente

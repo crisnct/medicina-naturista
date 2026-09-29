@@ -1,24 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Antioxidanti.png"
-source_relative_path: "Antioxidanti.png"
-source_sha256: "06b2552a9e72955497ac29ecce6131d72840dad0f370894e9f1cdf65c50bc7c6"
-source_size_bytes: 693081
-media_type: image/png
-width_px: 1280
-height_px: 1024
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 90.49
-ocr_text_characters: 726
-status: "ok"
----
-
-# Antioxidanti.png
-
-## Text OCR extras
-
-```text
 Secretele Frumuseti indelungate si Super Potenta - MERITA VAZUT
 a? <0
 - contin licopen, vitaminele A si C.
@@ -51,8 +30,3 @@ Lamaia
 60
 234
 @
-```
-
-## Notă
-
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.

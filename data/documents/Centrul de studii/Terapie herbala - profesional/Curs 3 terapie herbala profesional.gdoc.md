@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 3 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 3 terapie herbala profesional.gdoc"
-source_pointer_sha256: "d505a4921c99747587e29cd181f8b871f85466693723b802bac1fe66734ddad7"
-source_pointer_bytes: 181
-google_doc_id: "13-o3B7qKCb_LqTkwP-Rl9ouMfXIdfwVQsVgC3Ld2LIg"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 3 terapie herbala profesional
-
-## Conținut extras
-
 Curs 3
 BOALA GENERALA (Continuare)
 

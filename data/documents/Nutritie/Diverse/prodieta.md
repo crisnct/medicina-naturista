@@ -47,13 +47,13 @@ Daca tot nu slabiti inseamna ca ati trisat totusi pe undeva... Puteti privi sfat
 **In meniurile de mai jos regasim atat solutii rapide de dieta pentru acasa dar si idei de a sti sa comandam atunci cand suntem la restaurant si tinem dieta de slabire**
 
 **1) SALATE:**\
-1a) **Salata Caprese**  (*Reteta salata:* mozzarella in zer + rosii feliate + 1 lingurita de pesto)\
+1a) **Salata Caprese** (*Reteta salata:* mozzarella in zer + rosii feliate + 1 lingurita de pesto)\
 1b) **Salata Bulgareasca** (*Reteta salata:* salata verde, rosie, castravete, ardei gras, masline negre, sunca slaba de de pui sau curcan, ou fiert, sare, piper alb (lamaie si ulei de masline dupa gust))\
 1c) **Salata Greceasca** (*Reteta salata:* salata verde, branza telemea de oaie grasa, ardei gras, castraveti, porumb boabe fiert, rosii, masline negre, sare, piper alb (lamaie si ulei de masline dupa gust))\
 1d) **Salata cu Pui** ( *Reteta salata:* salata verde, castraveti, rosii, ardei gras, piept de pui, ciuperci, sare, piper alb (lamaie si ulei de masline dupa gust))\
 1e) **Salata cu Ton** (*Reteta salata:* salata, castraveti, rosii, ardei gras, porumb, masline, ton, sare, piper alb (lamaie si ulei de masline dupa gust))\
-1f) **Salata de rucolla cu parmezan**  (*Reteta salata:* rucolla, parmeza, lamaie)\
-1g) **Salata ProVitamine**  (*Reteta salata:* rucolla, somon fume, mar, grapefruit, portocale, rosii cherry)
+1f) **Salata de rucolla cu parmezan** (*Reteta salata:* rucolla, parmeza, lamaie)\
+1g) **Salata ProVitamine** (*Reteta salata:* rucolla, somon fume, mar, grapefruit, portocale, rosii cherry)
 
 (alaturi de salata putem manca **1** triunghi foccacia (cu oregano si ulei de masline) sau **1** felie de paine de secara -- la alegere -- **1, nu mai multe!!!**) Si...bem apa plata!
 
@@ -171,7 +171,7 @@ la alegere: un pumn de ALUNE, un pumn de MIGDALE, un pumn de FISTIC, 10 MASLINE 
 8. ade1607 Says:\
  > August 25th, 2009 at 2:45 pm
 
- mailu meu e <marza100@yahoo.com>
+ mailu meu e <>
 
 9. []{#comment-2140 .anchor}*criss* Says:\
  > November 10th, 2009 at 9:00 am

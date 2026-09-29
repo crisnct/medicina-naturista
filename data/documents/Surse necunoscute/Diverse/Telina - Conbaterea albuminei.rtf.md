@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Albumina\\Telina - Conbaterea albuminei.rtf"
-source_relative_path: "retete naturiste de sanatate\\Albumina\\Telina - Conbaterea albuminei.rtf"
-source_sha256: "d2c4b0c8c9110d06dbeefd7a899eb967e85be8d91830ba25a5fe9b9d6c4cb707"
-source_size_bytes: 3490
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 867
-status: "ok"
----
-
-# Telina - Conbaterea albuminei.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;\*020b0604020202020204Arial;
 
 Times New Roman CE;Times New Roman Cyr;Times New Roman Greek;Times New Roman Tur;

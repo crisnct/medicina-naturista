@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 3.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 3.gdoc"
-source_pointer_sha256: "9921fa7dab13c09fb02921e71ed9e1da6f1bba79ce04779ebde2b579576253f5"
-source_pointer_bytes: 181
-google_doc_id: "14ShdV3CGX-Qmlcu5FGMEaFRiOO_5I2lbmljrNY05-Ks"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 3
-
-## Conținut extras
-
 **Test 3 herbalism**
 
 Te rog sa raspunzi la urmatoarele intrebari folosind maxim 75 de cuvinte pentru fiecare. Raspunde, de fiecare data, cu jumatate din intrebare ( ex. Numarul zilelor dintr-un an este de 365).

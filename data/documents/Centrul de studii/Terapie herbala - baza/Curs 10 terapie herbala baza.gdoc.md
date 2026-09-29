@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 10 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 10 terapie herbala baza.gdoc"
-source_pointer_sha256: "6f300cbf4e0013b66a92b8f473eb9bd5ed19225fa1566c2671ad14d947b206ce"
-source_pointer_bytes: 181
-google_doc_id: "1n9uMUGflkFp-0nD_F4ftNZYtliQ-AX0A-KjLKVY-Zy4"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 10 terapie herbala baza
-
-## Conținut extras
-
 LECȚIA ZECE
 
 Completari

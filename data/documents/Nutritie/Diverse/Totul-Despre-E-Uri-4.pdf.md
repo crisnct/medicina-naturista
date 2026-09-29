@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Totul-Despre-E-Uri-4.pdf"
-source_relative_path: "Totul-Despre-E-Uri-4.pdf"
-source_sha256: "db8c36da82c5cce65ff84d432bc740647f27675df46afdda0b51a718464b33a1"
-source_size_bytes: 146168
-page_count: 19
-extracted_text_characters: 64135
-extraction_method: pypdf
-status: "ok"
----
-
-# Totul-Despre-E-Uri-4.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Domnia cantitatii; Distrugerea calitatii alimentelor.

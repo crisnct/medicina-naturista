@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 6 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 6 terapie herbala profesional.gdoc"
-source_pointer_sha256: "157118a679496d9f5f4bc79c79996e99904ff40cf91b1021efdd1c71f175e86e"
-source_pointer_bytes: 181
-google_doc_id: "1jsTizcKbRCoR-Fl5mtbeR6S8KhsdhIgKfhxFfiorQ_8"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 6 terapie herbala profesional
-
-## Conținut extras
-
 Curs 6 terapie herbala profesional
 
 Ierburile antihelmintice

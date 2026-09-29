@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari naturiste pentru Epilepsie.gdoc"
-source_relative_path: "Recomandari naturiste pentru Epilepsie.gdoc"
-source_pointer_sha256: "125c5e002fb4d0ffe5e90786b1c164a13693620dae991bf51b810972f0f67f15"
-source_pointer_bytes: 181
-google_doc_id: "19dctYr49P_27qqgbJr1pc7iFr77S85pb7q_prUiVFZk"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 1
----
-
-# Recomandari naturiste pentru Epilepsie
-
-## Conținut extras
-
 **Recomandări naturiste pentru epilepsie**
 
 # **Uz intern**
@@ -38,11 +22,11 @@ embedded_image_payloads_removed: 1
 | |
 | :---- |
 
-- 1**Macerat de brusture:** o linguriţă rasă de rădăcini de brusture se pune la macerat peste noapte. A doua zi dimineaţa se încălzeşte, se strecoară și se bea cu înghițituri mici.
+- 1**Macerat de brusture:** o linguriță rasă de rădăcini de brusture se pune la macerat peste noapte. A doua zi dimineața se încălzește, se strecoară și se bea cu înghițituri mici.
 - **Infuzie de cimbru –** pentru prevenirea crizelor**:** infuzie din 2 lingurițe de cimbru la o cană de apă. După 3 săptămâni se face pauză de 10 zile și apoi se reia.
 - 1**Urzici și bitter suedez**: un tânăr a reușit să scape complet de crizele epileptice cu urzici și bitter sudez. A băut 4 cești de ceai de urzici pe zi, în care a pus 2 linguri de bitter suedez. De asemenea și-a pus comprese cu bitter suedez în regiunea occipitală(partea din spate a capului)
 
-- 4**Ulei esențial de busuioc**: renumitul fitoterapeut francez Jean Valnet recomandă uleiul esențial de busuioc în epilepsie şi paralizie. Uleiul de busuioc limpezeşte mintea, conferă claritate mentală şi forţă interioară, înlătură oboseala intelectuală. Uleiul volatil de busuioc este unul din cele mai bune tonice nervoase. El poate fi folosit în special în afecţiunile asociate cu frică, slăbiciune, isterie.
+- 4**Ulei esențial de busuioc**: renumitul fitoterapeut francez Jean Valnet recomandă uleiul esențial de busuioc în epilepsie și paralizie. Uleiul de busuioc limpezește mintea, conferă claritate mentală și forță interioară, înlătură oboseala intelectuală. Uleiul volatil de busuioc este unul din cele mai bune tonice nervoase. El poate fi folosit în special în afecțiunile asociate cu frică, slăbiciune, isterie.
 - 24**Vitamina K** \- femeile însărcinate trebuie să ia Vitamina K după a 34-a săptămână de sarcină pentru a reduce riscul unei boli de coagulare a sângelui la copil.
 - 24**Vitamina B5 (acid pantotenic)** – 500mg zilnic. Are efect antistres.
 - 24**Vitamina B12** – 50mcg zilnic. Dacă nu luați anticonvulsive puteți crește doza de B12 la 400mcg. Vitamina B12 este implicată în menținerea straturilor de mielină care acoperă și apără terminațiile nervoase.
@@ -59,7 +43,7 @@ embedded_image_payloads_removed: 1
 - 24**Quercitină** – proprietăți antiinflamatorii și antioxidante.
 - 24**Omega 3** – 1000mg zilnic.
 - 24**Lucernă** pulbere – 2g pe zi. Este o sursă bună de minerale.
-- 4**Ceai de vâsc**: se pregăteşte doar ca extract rece, din 1 linguriţă de plantă la 250 ml de apă rece, lăsat la macerat peste noapte. Se recomandă în epilepsie, împotriva spasmelor cronice, a acceselor de isterie, influenţează pozitiv funcţionarea întregului sistem glandular, stimulând metabolismul, are acţiune asupra pancreasului, diabetului, tulburărilor hormonale
+- 4**Ceai de vâsc**: se pregătește doar ca extract rece, din 1 linguriță de plantă la 250 ml de apă rece, lăsat la macerat peste noapte. Se recomandă în epilepsie, împotriva spasmelor cronice, a acceselor de isterie, influențează pozitiv funcționarea întregului sistem glandular, stimulând metabolismul, are acțiune asupra pancreasului, diabetului, tulburărilor hormonale
 - 5**Capsule cu plante**:
  * 4 părți de Gențiană (Hydrastis Canadensis)
  * 3 părți de Hamei (Humulus lupulus)
@@ -92,15 +76,15 @@ embedded_image_payloads_removed: 1
  * puțină miere
  * Mod de preparare: se infuzează primele 5 plante într-un litru de apă. După ce a dat în clocot, se acoperă vasul iar după o oră se strecoară și se adaugă restul ingredientelor și se pune la frigider.
  * Dozare: 2 linguri x 6 ori pe zi.
-- 11**Brânca Ursului**: cure succesive de 40 zile, cu 10 \- 20 zile pauză, se ia pe nemâncate 1 linguriţă de pulbere de Brânca ursului de 3 – 4 ori/zi, cu ceai de sunătoare sau busuioc. Supradoza dă reacţii alergice, vasodilataţie periferică şi hipotensiune. Se respectă timpul necesar de odihnă şi somn. Tratamentul prescris se ia toată viaţa în ritmul recomandat, deoarece întreruperea bruscă, poate declanşa noi crize. Uneori insuflaţia aerului în spaţiul arahnoidian, poate înlătura pentru mult timp crizele. Deci bolnavii de epilepsie nu sunt invalizi, dacă se tratează corect şi duc o viaţă cumpătată, boala se ţine în frâu.
-- 11**Bilă de bou**: se găseşte în fiere şi se ia de la abator.
+- 11**Brânca Ursului**: cure succesive de 40 zile, cu 10 \- 20 zile pauză, se ia pe nemâncate 1 linguriță de pulbere de Brânca ursului de 3 – 4 ori/zi, cu ceai de sunătoare sau busuioc. Supradoza dă reacții alergice, vasodilatație periferică și hipotensiune. Se respectă timpul necesar de odihnă și somn. Tratamentul prescris se ia toată viața în ritmul recomandat, deoarece întreruperea bruscă, poate declanșa noi crize. Uneori insuflația aerului în spațiul arahnoidian, poate înlătura pentru mult timp crizele. Deci bolnavii de epilepsie nu sunt invalizi, dacă se tratează corect și duc o viață cumpătată, boala se ține în frâu.
+- 11**Bilă de bou**: se găsește în fiere și se ia de la abator.
  * 5 ml bilă (se extrage cu seringa din fiere).
- * 1 vârf de cuţit de bicarbonat.
+ * 1 vârf de cuțit de bicarbonat.
  * 75 ml apă distilată.
  * 10 pic suc de lămaie.
  * Mod de preparare: se pun toate ingredientele la fiert și se dă în câteva clocote. Amestecul se păstrează la frigider. Se face mereu proaspăt.
  * Dozare:
- * Prima săptămană: 10 pic. x 3 ori/zi, în puţină apă, înainte de masă.
+ * Prima săptămană: 10 pic. x 3 ori/zi, în puțină apă, înainte de masă.
  * Săptămana a 2 a: 15 pic. x 3 ori/zi.
  * Săptămana a 3 a: 20 pic. x 3 ori/zi.
  * Săptămana a 4 a: 30 pic. x 3 ori/.zi
@@ -116,7 +100,7 @@ embedded_image_payloads_removed: 1
  * Pectină de mere: 2 linguri x 2 ori pe zi. Aceasta se combină în colon cu metalele și le elimină din corp.
  * S-adenozil-metionină (SAMe): ajută la reducerea stresului și a nervozității provocate de excesul de aluminiu. Nu consumați SAMe dacă luați medicamente antidepresive. A nu se lua de copiii sub 12 ani.
  * Usturoi.
-- 10Plante medicinale care se foloseau prin secolul XVI împotriva epilepsiei: **Silnic** sau **Rotundioară** (Glechoma hederacea), **Sburătoare** sau **Pufuliţă** (Epilobium hirsutum), **Unghia Găii** (Astragalus glycyphyllos), **Asperula cznanchica**.
+- 10Plante medicinale care se foloseau prin secolul XVI împotriva epilepsiei: **Silnic** sau **Rotundioară** (Glechoma hederacea), **Sburătoare** sau **Pufuliță** (Epilobium hirsutum), **Unghia Găii** (Astragalus glycyphyllos), **Asperula cznanchica**.
 - 20**Tratatmente tradiționale vechi**:
  * Se beau 100 ml de gaz dublu distilat, dimineața, pe stomacul gol, cu o cană de ceai de sunătoare, timp de 9 zile. Se face pauză 9 zile și se poate relua până la 3 luni.
  * Se amestecă ulei de măsline cu fagure și ceară de albine topite în “bain-marie”. Se unge cu acest preparat o bucată curată de pânză și se aplică, sub formă de compresă, pe coloana vertebrală.
@@ -147,14 +131,14 @@ embedded_image_payloads_removed: 1
 
 - **22Acupunctura**.
 - 24Faceți regulat **mișcare/sport** pentru a îmbunătăți circulația sângelui spre creier.
-- 11Efortul fizic şi psihic prea mari sunt contraindicate.
+- 11Efortul fizic și psihic prea mari sunt contraindicate.
 - 24Baie în cadă cu **săruri Epsom**.
 - 24Terapia cu **oxigen hiperbaric**.
 - **24Diastat** – supozitoare cu diazepam – se administrează la 3 minute de la începerea crizei.
 - 4Afumare cu **tămâie** în cameră.
 - 3Terapie cu lumină **violet și** **indigo**
- * **Violet**: stimulează imunitatea şi sistemul nervos, ajută la dezintoxicare, îndepărtează agresivitatea şi frica, oferă inspiraţie artistică înaltă. Se recomandă utilizarea sa în caz de celulită, boli ale rinichilor şi vezicii urinare, tulburări psihice, nevroze, epilepsie, enurezis, insomnie, rahitism, intoxicaţii cronice.
- * **Indigo**: ajută la interiorizare, purifică sistemul circulator, stimulează activitatea tiroidei şi paratiroidelor, este antialgic. Se recomandă în caz de idei obsesive, convulsii, halucinaţii, psihoze, boli ale nasului şi urechilor, sinuzite, astm bronşic.
+ * **Violet**: stimulează imunitatea și sistemul nervos, ajută la dezintoxicare, îndepărtează agresivitatea și frica, oferă inspirație artistică înaltă. Se recomandă utilizarea sa în caz de celulită, boli ale rinichilor și vezicii urinare, tulburări psihice, nevroze, epilepsie, enurezis, insomnie, rahitism, intoxicații cronice.
+ * **Indigo**: ajută la interiorizare, purifică sistemul circulator, stimulează activitatea tiroidei și paratiroidelor, este antialgic. Se recomandă în caz de idei obsesive, convulsii, halucinații, psihoze, boli ale nasului și urechilor, sinuzite, astm bronșic.
 
 # **15,16Cauze posibile ale epilepsiei**
 
@@ -355,7 +339,7 @@ Atenție\!\!\!
 
 **SMARALD**
 **Culoare**: verde intens până la verde închis. Culoarea este dată de conținutul de crom și vanadiu.
-**Formula chimică**: Al2Be3Si6O18, cu ioni de Cr3+ și V.
+**Formula chimică**: Al2Be3Si6O18, cu ioni de Cr3+ și V.
 **Aspect**: piatră prețioasă strălucitoare mică sau cristal opac.
 **Duritate**: 7,5-8 (din 10).
 **Descriere:** piatră prețioasă, varietate a berilului din aceeași clasă cu acvamarinul, mineral incolor, având la bază silicatului de beril. Smaraldele fără nici o imperfecțiune sunt rare pentru că majoritatea smaraldelor conțin mici impurități minerale. Un smarald perfect, fără impurități, este considerat mult mai valoros decât un diamant de aceeași greutate tocmai din cauza rarității acestor tipuri de pietre.
@@ -397,7 +381,7 @@ Atenție\!\!\!
 Atenție\!\!\!
 
 - smaraldul opac nu este benefic pentru obținerea armoniei mentale.
-- poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia \= verdelit, Smaraldul african \= fluorit verde,  Smaraldul de cupru \= diopsid.
+- poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia \= verdelit, Smaraldul african \= fluorit verde, Smaraldul de cupru \= diopsid.
 
 **Referințe**
 

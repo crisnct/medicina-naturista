@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomadări naturiste pentru menopauza.gdoc"
-source_relative_path: "Recomadări naturiste pentru menopauza.gdoc"
-source_pointer_sha256: "6aea05602177e8b4fc07a37e8b405e560cea749f90689e5e879ec8a7e131ce73"
-source_pointer_bytes: 181
-google_doc_id: "108mn4lW1m_L_5KQq99P5lSMUJyllph4viZBar6DkG7g"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Recomadări naturiste pentru menopauza
-
-## Conținut extras
-
 # Recomandări naturiste pentru menopauza
 
  \- **Gura lupului**
@@ -25,7 +9,7 @@ o **Contraindicatii:** a nu se depăși doza recomandată, deoarece în exces po
 > > >
 > > > **\- Ceai de coada-soricelului, salvie si cuisoare.**
 > > > **\- Cromoterapie** cu lumina albastra
-**\- Maca** reduce disconfortul fizic şi emoţional asociat cu sindromul premenstrual şi cu menopauza.
+**\- Maca** reduce disconfortul fizic și emoțional asociat cu sindromul premenstrual și cu menopauza.
 **\- Pentru a dormi mai bine:** infuzie de talpa-gastii \+ sulfina \+ supliment cu valeriana **Valeriana 300mg 90cps, Adams \- eMAG.ro**
 > > >
 > > > **\-** Femeile la menopauza sau cu fibrom uterin pot folosi ceai verde, in care
@@ -35,6 +19,6 @@ o **Contraindicatii:** a nu se depăși doza recomandată, deoarece în exces po
 \- Există o legătură directă între menopauză și osteoporoză, în principal din cauza scăderii nivelului de estrogen. Estrogenul este un hormon care ajută la menținerea densității osoase. În timpul menopauzei, nivelul de estrogen scade brusc, ceea ce accelerează pierderea masei osoase.
 > > > \- Suplimente pentru cresterea densitatii osoare: vitamina D, chelat de calciu, siliciu, colagen, bor.
 > > > \- Pentru **menopauza prematura**:
-	\- Tratament progresiv cu **tinctură de brânca ursului**, se începe cu 20 pic. De 3 ori/zi, în prima săptămână, se creşte doza cu 10 pic. în fiecare săptămână până se ajunge la 50 pic., luate de 3 ori în a 4 săptămână. Cura se face o lună, cu 10 zile de pauză. Tratamentul se face gradat pentru a preveni fenomenele neplăcute ale relansării hormonale (bufeuri, nervozitate, sângerări).
+	\- Tratament progresiv cu **tinctură de brânca ursului**, se începe cu 20 pic. De 3 ori/zi, în prima săptămână, se crește doza cu 10 pic. în fiecare săptămână până se ajunge la 50 pic., luate de 3 ori în a 4 săptămână. Cura se face o lună, cu 10 zile de pauză. Tratamentul se face gradat pentru a preveni fenomenele neplăcute ale relansării hormonale (bufeuri, nervozitate, sângerări).
 	\-
 > > >

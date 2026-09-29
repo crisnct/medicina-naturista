@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Cancer\\Gazul dublu rafinat.rtf"
-source_relative_path: "retete naturiste de sanatate\\Cancer\\Gazul dublu rafinat.rtf"
-source_sha256: "323e735360ac99f40eadbe897946dce57eb71d264b147884a7f39bcd72855998"
-source_size_bytes: 3414
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 891
-status: "ok"
----
-
-# Gazul dublu rafinat.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;Times New Roman CE;Times New Roman Cyr;
 
 Times New Roman Greek;Times New Roman Tur;Times New Roman (Hebrew);Times New Roman (Arabic);

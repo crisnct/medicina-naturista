@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 5 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 5 terapie herbala profesional.gdoc"
-source_pointer_sha256: "5c71674fe96b1c8fdc554056d5fcf1d23a69336b395cfbfe0aad6347c9b450a9"
-source_pointer_bytes: 181
-google_doc_id: "1dUdZajZXUnb6AlbfFm9Hbfpl69pAKgvC60hbF03mBZw"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 5 terapie herbala profesional
-
-## Conținut extras
-
 Curs 5
 
 Ierburi curative

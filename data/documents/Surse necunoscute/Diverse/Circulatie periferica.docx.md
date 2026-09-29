@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Circulatie periferica.docx"
-source_relative_path: "Circulatie periferica.docx"
-source_sha256: "f72f4401a5f481da0dde9841796e598ec2bf6f44d4e236ba2685e622522905e3"
-source_size_bytes: 22364
-source_format: docx
-output_format: markdown
-native_text_characters: 428
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Circulatie periferica
-
-## Text nativ
-
 Tratament naturist pentru imbunatatirea circulatiei periferice
 
 - Lioton gel. Nu se face masaj, ci doar se intinde pe piele
@@ -28,13 +10,13 @@ Tratament naturist pentru imbunatatirea circulatiei periferice
 
 - Ciorapi de compresie
 
-- Un ceai combinat, util în astfel de situaţii, se poate prepara din flori de coada-şoricelului, frunze de pătlagină, urzică şi flori de muşeţel, în părţi egale
+- Un ceai combinat, util în astfel de situații, se poate prepara din flori de coada-șoricelului, frunze de pătlagină, urzică și flori de mușețel, în părți egale
 
 ## Antet 1
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

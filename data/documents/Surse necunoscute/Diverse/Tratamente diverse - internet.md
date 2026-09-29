@@ -3,23 +3,23 @@
 
 14 Aprilie 2005
 
-Unele produse din plante consumate împreună cu medicamente antiinflamatoare pot duce la efecte adverse periculoase, de multe ori necunoscute nici de medici şi nici de pacienţi.
+Unele produse din plante consumate împreună cu medicamente antiinflamatoare pot duce la efecte adverse periculoase, de multe ori necunoscute nici de medici și nici de pacienți.
 
-Într-un studiu efectuat pe 238 de bolnavi cu atrită din vestul Angliei participanţii au fost întrebaţi de diagnosticul lor, de tratamentul convenţional urmat şi dacă au consumat vreun preparat din plante în ultimele 6 luni. Au mai fost întrebaţi dacă cunosc vreun efect advers al preparatului, interacţiunile cu medicamentele convenţionale prescrise şi dacă înainte de a le consuma au consultat un specialist în medicina naturistă. Aproape jumătate (44%) dintre cei întrebaţi a folosit un produs natural în cele 6 luni precedente. Unu din trei a luat ulei de peşte(cod), unu din cinci glucozamine sau condroitin, unu din zece ulei de primulact.\
-  Unu din zece a consumat produse care prezintă interacţiuni cu medicamentele convenţionale, dintre care echinaceea creşte riscul hepatotoxicităţii atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba şi usturoiul pot precipita hemoragii dacă sunt administrate în acelaşi timp cu antiinflamatoare steroidiene şi nesteroidiene.\
-  Mulţi dintre pacienţi erau miraţi că s-au expus singuri la un asemenea risc, iar alţii se gândeau că ar fi fost mai bine să consulte şi un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potenţial periculoase ale preparatelor din plante, iar pacienţii neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în acelaşi timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
+Într-un studiu efectuat pe 238 de bolnavi cu atrită din vestul Angliei participanții au fost întrebați de diagnosticul lor, de tratamentul convențional urmat și dacă au consumat vreun preparat din plante în ultimele 6 luni. Au mai fost întrebați dacă cunosc vreun efect advers al preparatului, interacțiunile cu medicamentele convenționale prescrise și dacă înainte de a le consuma au consultat un specialist în medicina naturistă. Aproape jumătate (44%) dintre cei întrebați a folosit un produs natural în cele 6 luni precedente. Unu din trei a luat ulei de pește(cod), unu din cinci glucozamine sau condroitin, unu din zece ulei de primulact.\
+ Unu din zece a consumat produse care prezintă interacțiuni cu medicamentele convenționale, dintre care echinaceea crește riscul hepatotoxicității atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba și usturoiul pot precipita hemoragii dacă sunt administrate în același timp cu antiinflamatoare steroidiene și nesteroidiene.\
+ Mulți dintre pacienți erau mirați că s-au expus singuri la un asemenea risc, iar alții se gândeau că ar fi fost mai bine să consulte și un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potențial periculoase ale preparatelor din plante, iar pacienții neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în același timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
 
 
 
-**Medicamentul-minune împotriva obezităţii dar şi a fumatului**
+**Medicamentul-minune împotriva obezității dar și a fumatului**
 ===============================================================
 
 10 Februarie 2005
 
-Medicamentul-minune care combate atât obezitatea cât şi fumatul ar putea apărea pe piaţă în curând.
+Medicamentul-minune care combate atât obezitatea cât și fumatul ar putea apărea pe piață în curând.
 
 Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al anului în curs cererea pentru autorizarea punerii în vânzare a preparatului **Rimonabant.\
-**Atenţie, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, şi chiar s-au dovedit periculoase, aşa cum a fost cazul cu Isomeride.
+**Atenție, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, și chiar s-au dovedit periculoase, așa cum a fost cazul cu Isomeride.
 
 <
 

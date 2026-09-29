@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Terpie Herbala Baza - Sinteza (1).gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Terpie Herbala Baza - Sinteza (1).gdoc"
-source_pointer_sha256: "51feefbe914b5680aef02a1b89eeb40cb6e2e71da656f3bd587b8363848a87d6"
-source_pointer_bytes: 181
-google_doc_id: "1CdXLSX-JaUzdSi3Wxgb0NqdMCf4pSkhAGT8BVN-UawM"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Terpie Herbala Baza - Sinteza (1)
-
-## Conținut extras
-
 **Cuprins**
 Plante reci	3
 

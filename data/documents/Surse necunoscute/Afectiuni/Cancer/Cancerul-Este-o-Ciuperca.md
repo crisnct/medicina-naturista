@@ -24,7 +24,7 @@ Am aratat intr-un articol publicat pe 9 august 2009, faptul ca un anumit om, dr.
 
 Inainte de a expune o lista lunga de schimbari care vor avea loc in societatea globala, el le-a cerut celor prezenti sa nu inregistreze si sa nu ia notite. Insa un medic a luat notite si mai apoi a facut public parte din cele spuse la acea intalnire.
 
-Acum, dupa 40 de ani, putem vedea cata acuratete exista in spusele dr-lui. Day pe care le puteti citi in articolul din 9 August *(in engleza pe site-ul www.davidicke.com).* Motivul pentru care il amintesc pe dr. Day si in acest articol este pentru ceea ce a spus referitor la cancer in cadrul acelei intalniri din 1969:
+Acum, dupa 40 de ani, putem vedea cata acuratete exista in spusele dr-lui. Day pe care le puteti citi in articolul din 9 August *(in engleza pe site-ul Motivul pentru care il amintesc pe dr. Day si in acest articol este pentru ceea ce a spus referitor la cancer in cadrul acelei intalniri din 1969:
 
 "Acum putem trata aproape orice forma de cancer. Informatiile se gasesc in dosar la Institutul Rockefeller, daca se va decide vreodata ca sa fie dat publicitatii".
 
@@ -178,7 +178,7 @@ Ei nu au venit.
 
 !{width="5.121527777777778in" height="2.5430555555555556in"}
 
- 
+
 
 Video cu Tullio Simoncini si marturii ale celor care au fost sub tratamentul lui
 
@@ -188,7 +188,7 @@ Siteul lui Tullio Simoncini
 
 
 
- 
+
 
 Test simplu pentru a verifica nivelul de Candida in corpul tau
 

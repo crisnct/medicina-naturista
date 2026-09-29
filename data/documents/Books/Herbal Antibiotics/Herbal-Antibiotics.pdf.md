@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Herbal-Antibiotics.pdf"
-source_relative_path: "Herbal-Antibiotics.pdf"
-source_sha256: "380c6417674060e62d211fd991ad33c9c2840cb453ed079baf0576531ff5c89c"
-source_size_bytes: 546965
-page_count: 180
-extracted_text_characters: 303840
-extraction_method: pypdf
-status: "ok"
----
-
-# Herbal-Antibiotics.pdf
-
-## Pagini
-
 ### Pagina 1
 
 cover next page >
@@ -4187,7 +4172,7 @@ Trinity Herbs, P.O. Box 1001, Graton, CA 95444 (707) 824-2040, Fax (707) 824-205
 Horizon Seeds, P.O. Box 69, Williams, OR 97544 (541) 846-6704
 Vitamin C
 Wholesale Nutrition, P.O. Box 3345, Saratoga, CA 95070 (800) 325-2664, (408) 871-9519,
-www.nutri.com
+
 Suggested Reading
 Duke, James A. The Green Pharmacy, Emmaus, PA: Rodale, 1998.
 Fox, Nicols. Spoiled. New York: Basic Books, 1998. (The best overview of the rise of resistant bacteria in our
@@ -5718,6 +5703,6 @@ and coughs to joint pain and earaches. Native American legends and folklore are 
 These books and other Storey Books are available at your bookstore, farm store, garden center, or directly
 from Storey Books, Schoolhouse Road, Pownal, Vermont 05261, or by calling 1-800-441-5700. Or visit our
 Web site at
-www.storey.com.
+
 
 < previous page page_136

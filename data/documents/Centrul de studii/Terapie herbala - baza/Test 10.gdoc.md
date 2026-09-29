@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 10.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 10.gdoc"
-source_pointer_sha256: "6f558210778bbeec277bf6b36e2c514569d8c81392cd4f4238da76e49edf9770"
-source_pointer_bytes: 181
-google_doc_id: "1YNE5brprgllb6JJv_Gh4CUKJ_jNaavGURj_RFXDXbHc"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 10
-
-## Conținut extras
-
 Test final fitoterapie baza
 
 1. Definiti "Botanica de baza".

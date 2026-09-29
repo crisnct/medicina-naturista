@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Hepatita B\\Gemini - Cercetare Vaccin Hepatita B și Reacții Adverse Rare.gdoc"
-source_relative_path: "Hepatita B\\Gemini - Cercetare Vaccin Hepatita B și Reacții Adverse Rare.gdoc"
-source_pointer_sha256: "a37476f30ab637d3c5a8aa4855fc6bb97d2c040cad8842c059a56aaf4066cbde"
-source_pointer_bytes: 181
-google_doc_id: "1EiWPLqr9IgHLscCZt7lmA1lde6TiJTr8DTMCbpt64qA"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 1
----
-
-# Gemini - Cercetare Vaccin Hepatita B și Reacții Adverse Rare
-
-## Conținut extras
-
 # **Clinical Evaluation of Recombinant Hepatitis B Vaccination: Pharmacovigilance, Severe Immunological Sequelae, and Patient-Derived Case Evidence**
 
 See here gemini conversation

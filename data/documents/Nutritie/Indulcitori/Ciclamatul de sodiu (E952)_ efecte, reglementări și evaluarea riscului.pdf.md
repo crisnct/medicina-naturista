@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Indulcitori\\Ciclamatul de sodiu (E952)_ efecte, reglementări și evaluarea riscului.pdf"
-source_relative_path: "Indulcitori\\Ciclamatul de sodiu (E952)_ efecte, reglementări și evaluarea riscului.pdf"
-source_sha256: "fceea2f5de3a0bd66cf03219c15c4729c99f1f9a062e1eb46d37d49cd21b9316"
-source_size_bytes: 56405
-page_count: 6
-extracted_text_characters: 18036
-extraction_method: pypdf
-status: "ok"
----
-
-# Ciclamatul de sodiu (E952)_ efecte, reglementări și evaluarea riscului.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Ciclamatul de sodiu (E952): efecte, reglementări

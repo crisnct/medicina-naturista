@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapii complementare\\TERAPII COMPLEMENTARE sect.1.pdf"
-source_relative_path: "Centrul de studii\\Terapii complementare\\TERAPII COMPLEMENTARE sect.1.pdf"
-source_sha256: "009e6aec43658cd007226e1785da0457120dc1bb3f508cc7ecfc38e2e6edee43"
-source_size_bytes: 331321
-page_count: 66
-extracted_text_characters: 176589
-extraction_method: pypdf
-status: "ok"
----
-
-# TERAPII COMPLEMENTARE sect.1.pdf
-
-## Pagini
-
 ### Pagina 1
 
 PROGRAMA CURSULUI TERAPII COMPLEMENTARE Sectiunea 1
@@ -47,7 +32,7 @@ Medicina complementara este mult mai veche decat medicina clasica, odata cu apar
 acesteia (a medicinei clasice) medicina complementara a continuat in paralel completand, sa
 spunem medicina clasica.
 Persoanele care se adresează unui practician de medicină complementară beneficiază de tratament
-de medicină complementară numai după exprimarea, în scris, a acordului de voinţă
+de medicină complementară numai după exprimarea, în scris, a acordului de voință
 Si medicina complementara are nevoie de diagnostic, pentru aceasta trebuie avut in
 vedere:
 Numele : _________________________________
@@ -83,22 +68,22 @@ Majoritatea domeniilor medicinei complementare au o metoda proprie pentru a dete
 cauza ce provoaca dezechilibrele energetice factorul determinant al
 problemelor fizice sau/si psihice.
 Practicianul de medicina complementara isi desfasoara activitatea conform legii privind
-organizarea şi funcţionarea activităţilor şi practicilor de medicină complementară/alternativă in
+organizarea și funcționarea activităților și practicilor de medicină complementară/alternativă in
 domeniile de practică în medicina complementară/alternativă recunoscute de aceasta lege.
-1. Practici farmacologice şi biologice
-• Agenţi antioxidanţi
+1. Practici farmacologice și biologice
+• Agenți antioxidanți
 • Apiterapie
-• Terapii pentru creşterea imunităţii
+• Terapii pentru creșterea imunității
 • Terapii metabolice
-• Agenţi oxidanţi (ozon, hidrogen, peroxid)
+• Agenți oxidanți (ozon, hidrogen, peroxid)
 • Argiloterapie
 2. Practici herbaliste
 • Terapie herbală
 • Algoterapie
 • Aromaterapie
 • Oligoterapie
-3. Dietă, nutriţie, stil de viaţă
-• Schimbarea stilului de viaţă - life style
+3. Dietă, nutriție, stil de viață
+• Schimbarea stilului de viață - life style
 • Terapia Gerson
 • T. BI GU
 • Terapie macrobiotică, megavitamine
@@ -117,8 +102,8 @@ domeniile de practică în medicina complementară/alternativă recunoscute de a
 
 ### Pagina 4
 
-• Practici tradiţionale Su Jok
-• Medicină tradiţională Chineză - TCM
+• Practici tradiționale Su Jok
+• Medicină tradițională Chineză - TCM
 5. Terapii manuale
 • Presopunctură
 • Tehnica Dian Xue
@@ -128,15 +113,15 @@ domeniile de practică în medicina complementară/alternativă recunoscute de a
 • Terapie prin masaj tui na
 • Reflexologie
 • Rofling
-6. Aplicaţii bioelectromagnetice şi energetice
-• Tratamente cu lumină naturală şi artificială
+6. Aplicații bioelectromagnetice și energetice
+• Tratamente cu lumină naturală și artificială
 • Electroacupunctură
 • Câmpuri electromagnetice
-• Stimulare electrică şi neuromagnetică
+• Stimulare electrică și neuromagnetică
 • Terapie cu câmp magnetic
 • Terapie holografică
 • Spectroscopie
-• Magnetorezonanţă
+• Magnetorezonanță
 • Reiki
 • Tehnică radiantă
 • Terapie cu biocâmp
@@ -147,22 +132,22 @@ Istorie
 Încercările de a vindeca bolile sau de a trata rănile sunt tot atât de vechi cât omenirea. Bolile
 grave reprezentau, ca totdeauna, o problemă serioasă, remedii eficace însă nu existau.
 Îmbolnăvirile erau privite din punct de vedere magic-demoniac sau ca o pedeapsă din partea
-forţelor supranaturale. Pentru vindecare se invocau aceste forţe şi se făceau sacrificii, se
+forțelor supranaturale. Pentru vindecare se invocau aceste forțe și se făceau sacrificii, se
 improvizau dansuri, se foloseau formule oculte sau talismane.
 Omul preistoric folosea, precum si animalele de atunci si de astazi, plantele in doua moduri,
 aplicate pe rana sau mestecarea si inghitirea de frunze si fructe cu efecte narcotice.
-Eficiente erau îngrijirea rănilor, repunerea luxaţiilor sau fixarea fracturilor, procedee folosite
+Eficiente erau îngrijirea rănilor, repunerea luxațiilor sau fixarea fracturilor, procedee folosite
 deja în epoca de piatra
 Medicina în perioada greco-romană
 La vechii greci, la început, zeul artei medicale era Apollo. Mai târziu zeul medicilor a devenit
-Esculap. Începând din secolul al VI-lea a.Ch. - sub influenţa şcolilor filozofice materialiste ca
-cea a lui Empedocle (natura este formată din patru elemente: foc, apă, pământ şi aer) -
+Esculap. Începând din secolul al VI-lea a.Ch. - sub influența școlilor filozofice materialiste ca
+cea a lui Empedocle (natura este formată din patru elemente: foc, apă, pământ și aer) -
 
 ### Pagina 5
 
-medicina capătă trăsături ştiinţifice, în special prin persoana lui Hippocrate din Cos,
+medicina capătă trăsături științifice, în special prin persoana lui Hippocrate din Cos,
 considerat părintele medicinii moderne. În culegerea sa de studii (Corpus Hippocraticum) nu
-se mai întâlnesc remedii supranaturale, practicile recomandate sunt rezultatul observaţiilor
+se mai întâlnesc remedii supranaturale, practicile recomandate sunt rezultatul observațiilor
 empirice.
 Medicina complementara foloseste practici terapeutice inspirate de natura, folosind produse si
 factori naturali, tehnici ancestrale si metode traditionale verificate în timp.
@@ -192,54 +177,54 @@ medicinale, medicamente de origine minerala si animala considerand ca si rugaciu
 reprezinta parte a medicinei sustinand ca „vindecarea depinde de dorinta lui Dumnezeu.
 Auroleus Phillipus Theostratus Bombastus von Hohenheim, imortalizat ca "Paracelsus", a fost
 născut în 1493. Mare Maestru in Ordinul Teutonilor, fiul unui medic bine cunoscut, primul
-care l-a instruit în medicina. La vârsta de şaisprezece ani, Paracelsus a intrat la Universitatea
-de la Basel, unde a cerut el însuşi la studiul de alchimie, chirurgie, şi medicină. Cu ştiinţa de
+care l-a instruit în medicina. La vârsta de șaisprezece ani, Paracelsus a intrat la Universitatea
+de la Basel, unde a cerut el însuși la studiul de alchimie, chirurgie, și medicină. Cu știința de
 alchimie el era deja familiarizat, studiind în prealabil lucrările lui Isaac Hollandus.. Hollandus
-a "trezit în el ambiţia de a vindeca boli prin medicina superioare celei disponibile la acel
+a "trezit în el ambiția de a vindeca boli prin medicina superioare celei disponibile la acel
 moment de a folosi, si alchimia. Paracelsus este creditat cu introducerea de opiu, mercur si
 sulf în arsenalul de medicamente. Considera ca sarea, mercurul si sulful sunt trei componente
 de baza si daca nu sunt in proportii egale (echilibru) in organism duc la imbolnavire. Acestea
 sunt doar câteva dintre realizările care par să justifice ca a fost numit "precursor al
-farmacologice chimice, terapeutice şi gânditorul cel mai original in stiintele medicale din
+farmacologice chimice, terapeutice și gânditorul cel mai original in stiintele medicale din
 secolul al XVI-lea."
 5
 
 ### Pagina 6
 
 Jean Jacques Rousseau (n. 28 iunie 1712 - d. 2 iulie 1778) a fost un filozof francez de origine
-geneveză, scriitor şi compozitor, unul dintre cei mai iluştri gânditori ai Iluminismului. A
-influenţat hotărîtor, alături de V oltaire şi Diderot, spiritul revoluţionar, principiile de drept şi
-conştiinţa socială a epocii; ideile lui se regăsesc masiv în schimbările promovate de Revoluţia
+geneveză, scriitor și compozitor, unul dintre cei mai iluștri gânditori ai Iluminismului. A
+influențat hotărîtor, alături de V oltaire și Diderot, spiritul revoluționar, principiile de drept și
+conștiința socială a epocii; ideile lui se regăsesc masiv în schimbările promovate de Revoluția
 franceză din 1789. A enuntat principiul „Inapoi la natura”, „Totul este bun asa cum se naste
 prin mana creatorului lucrurilor. Totul se denatureaza sub mana omeneasca.”
-Vincenz Priesssnitz 4 octombrie, 1799 - 28 noiembrie, 1851) a fost ţăran în Grafenberg,
+Vincenz Priesssnitz 4 octombrie, 1799 - 28 noiembrie, 1851) a fost țăran în Grafenberg,
 Silezia, care este în general considerat fondatorul hidroterapie moderne, care este folosita nu
 numai în medicina alternativa, dar, de asemenea, în medicina clasica.
 Priessnitz a subliniat căi de atac, cum ar fi produsele alimentare adecvate, aer, exercitare, de
-odihnă şi de apă, mai mult de medicina convenţională. El este, de asemenea, creditat cu bazele
-a ceea ce a devenit cunoscut ca si cura naturala deşi a fost remarcat faptul că accentul său
+odihnă și de apă, mai mult de medicina convențională. El este, de asemenea, creditat cu bazele
+a ceea ce a devenit cunoscut ca si cura naturala deși a fost remarcat faptul că accentul său
 principal a fost pe tehnicile hidroterapeutice. Când Vincenz a implinit opt ani tatăl său a orbit,
-şi el a trebuit să ajute la fermă, mai ales după ce fratele său mai mare a murit patru ani mai
+și el a trebuit să ajute la fermă, mai ales după ce fratele său mai mare a murit patru ani mai
 târziu. A vazut un caprior rănit la nivelul membrelor care a venit într-un iaz pentru a vindeca
 ranile sale. El a vindecat degetul de la propria sa accidentare în timpul folosirii unui maner din
 lemn cu apă si totul era învăluit de mister (1814). În 1816 el a fost rănit mai serios atunci când
-si-a rupt o coasta într-un accident, cu o căruţă şi medicul a susţinut că a fost fatală . El a
-folosit terapia lui de apă care a durat un an, dar în cele din urmă a reuşit.. El a devenit de
-renume pe plan local şi a început sa vindece animalele şi unii vecinii prin turnarea de apa
+si-a rupt o coasta într-un accident, cu o căruță și medicul a susținut că a fost fatală . El a
+folosit terapia lui de apă care a durat un an, dar în cele din urmă a reușit.. El a devenit de
+renume pe plan local și a început sa vindece animalele și unii vecinii prin turnarea de apa
 rece. Curând cozile de oameni veneau la Grafenberg, astfel încât în 1822 Vincenz a decis de a
 reconstrui casa tatălui său, construind o parte a sa ca un sanatoriu pentru pacientii sai.
 Sebastian Kneipp (17 mai, 1821, Stephansried, Germania - 17 iunie, 1897 în Bad Wörishofen)
-a fost un preot bavarez şi unul dintre fondatorii mişcării pentru medicamentul Naturopathic.
+a fost un preot bavarez și unul dintre fondatorii mișcării pentru medicamentul Naturopathic.
 El este cel mai frecvent asociat cu "Kneipp vindecatorul" prin hidroterapie, un sistem de
-vindecare care implică aplicarea de apă prin diferite metode, temperaturi şi presiuni.
+vindecare care implică aplicarea de apă prin diferite metode, temperaturi și presiuni.
 În Norvegia, el este cunoscut mai ales pentru reteta sa de paine pe baza de grâu. Painea
-Kneipp este tipul de pâine cel mai frecvent consumat în Norvegia. Deşi cel mai frecvent
+Kneipp este tipul de pâine cel mai frecvent consumat în Norvegia. Deși cel mai frecvent
 asociate cu medicamentul Naturopathic, Kneipp a fost adept al unui întreg sistem de
 vindecare, care s-a bazat pe cinci domenii principale:
 Hidroterapie
 Herbalism - utilizarea de medicamente botanice.
 Exercitii
-Nutriţie - O dieta sănătoasa de cereale integrale, fructe şi legume cu carne limitată
+Nutriție - O dieta sănătoasa de cereale integrale, fructe și legume cu carne limitată
 Spiritualitate - Kneipp a crezut că o minte sănătoasă inseamna o persoană sănătoasă
 Sebastian Kneipp - Farmacia de acasa
 Devenit celebru, mai ales prin tratamentele sal
@@ -374,23 +359,23 @@ Un efect deosebit se observa la bolile de ficat. Pulberea se ia tot in lapte.
 Presarat pe orice ulceratie umeda, purulenta, praful de carbune o usuca si prin aceasta
 favorizeaza si grabeste refacerea pielii
 Rudolf Steiner (n. 25 februarie 1861 [oficial 27 februarie, data botezului[1]], Donji Kraljevec,
-pe atunci Austria, în prezent Croaţia — d. 30 martie 1925, Dornach, Elveţia) a fost un filosof,
-esoterist, artist, pedagog şi gânditor social austriac, fondator al antroposofiei, pedagogiei
-Waldorf, euritmiei, agriculturii biodinamice şi medicinei antroposofice..
-În 1891 îşi obţine doctoratul în filosofie la Universitatea din Rostock, Germania, iar mai
-târziu devine secretarul general al secţiunii germane a Societăţii Teosofice, cu toate că avea
+pe atunci Austria, în prezent Croația — d. 30 martie 1925, Dornach, Elveția) a fost un filosof,
+esoterist, artist, pedagog și gânditor social austriac, fondator al antroposofiei, pedagogiei
+Waldorf, euritmiei, agriculturii biodinamice și medicinei antroposofice..
+În 1891 își obține doctoratul în filosofie la Universitatea din Rostock, Germania, iar mai
+târziu devine secretarul general al secțiunii germane a Societății Teosofice, cu toate că avea
 rezerve asupra misticismului oriental promovat de aceasta. Începând cu această perioadă
 începe să vorbească despre posibilitatea cercetării nemijlocite a lumii spirituale suprasensibile
-prin intermediul metodelor ştiinţei spirituale, descrise de el într-o serie de cărţi şi conferinţe.
-Deşi susţinea concepţia despre reîncarnare şi karma, importanţa pe care Rudolf Steiner o
-acorda creştinismului şi esoterismului vestic duc în 1913 la separarea de Societatea Teosofică
-şi înfiinţarea Societăţii Antroposofice, în cadrul căreia va introduce cele mai multe iniţiative
-cultural-spirituale şi sociale ale sale, îndeosebi după primul război mondial. Steiner a insistat
-adesea asupra necesităţii de a folosi cunoştinţele obţinute prin observaţie suprasensibilă în
-viaţa practică, considerând lipsa legăturii între idealurile spirituale ale oamenilor şi
-necesităţile materiale ale vieţii cotidiene a fi cauza declinului socio-cultural. Antroposofia pe
-care a fondat-o este o concepţie despre om şi lume care susţine existenţa unor elemente
-suprasensibile constitutive ale fiinţei umane, dincolo de corpul fizic.
+prin intermediul metodelor științei spirituale, descrise de el într-o serie de cărți și conferințe.
+Deși susținea concepția despre reîncarnare și karma, importanța pe care Rudolf Steiner o
+acorda creștinismului și esoterismului vestic duc în 1913 la separarea de Societatea Teosofică
+și înființarea Societății Antroposofice, în cadrul căreia va introduce cele mai multe inițiative
+cultural-spirituale și sociale ale sale, îndeosebi după primul război mondial. Steiner a insistat
+adesea asupra necesității de a folosi cunoștințele obținute prin observație suprasensibilă în
+viața practică, considerând lipsa legăturii între idealurile spirituale ale oamenilor și
+necesitățile materiale ale vieții cotidiene a fi cauza declinului socio-cultural. Antroposofia pe
+care a fondat-o este o concepție despre om și lume care susține existența unor elemente
+suprasensibile constitutive ale ființei umane, dincolo de corpul fizic.
 9
 
 ### Pagina 10
@@ -412,80 +397,80 @@ anti-inflamator;
 antineuralgic, antiedematos, antiseptic;
 antispasmodic;
 vasodilator.
-Codul etic şi de practică
+Codul etic și de practică
 Practicienii de medicina complementara trebuie să urmărească tot timpul beneficiul maxim al
-pacientilor/clienţilor asistaţi. În acest scop, ei sunt dedicaţi unor standarde înalte de
-competenţă şi integritate profesională.
+pacientilor/clienților asistați. În acest scop, ei sunt dedicați unor standarde înalte de
+competență și integritate profesională.
 Practicienii de medicina complementara trebuie:
-- să ia parte la o pregatire adecvată înainte de a începe munca efectivă cu pacientii/clienţii şi
+- să ia parte la o pregatire adecvată înainte de a începe munca efectivă cu pacientii/clienții și
 să se informeze continuu din punct de vedere profesional.
-- să îşi utilizeze cunoştinţele, abilităţile şi experienţa pentru a promova pacientilor/clienţilor
-bunăstarea psiho-socială şi dezvoltarea personală.
-- să desfăşoare munca într-un mod în care să promoveze controlul pacientilor/clienţilor asupra
-vieţii lor şi să le respecte abilitatea de a lua decizii şi de a se schimba în lumina
-convingerilor şi valorilor proprii.
-- să respecte orientarea etnică şi religioasă a pacientilor/clienţilor.
-- să nu facă discriminări între pacienti/clienţi pe baza religiei, genului, rasei, etniei,
-naţionalităţii, orientării sexuale, dizabilităţilor şi clasei sociale.
-- să fie conştienţi de influenţa pe care o pot exercita asupra pacientilor/clienţilor prin natura
-relaţiei cu aceştia şi să nu îi exploateze financiar, sexual, emoţional sau în orice alt mod.
-- să îşi stabilească şi să monitorizeze limitele în relaţia cu pacientii/clienţii şi să le aducă la
-cunoştinţă care sunt aceste limite.
-- să menţină o relaţie profesională cu pacientii/clienţii atâta timp cât această relaţie îi este
-benefică pacientului/clientului. Să nu neglijeze sau abandoneze pacientii/clienţii fără a se
-asigura în prealabil că aceştia nu mai au nevoie de ajutor adecvat sau că acest ajutor poate
-fi oferit de către alţi profesionişti. Trebuie de asemenea să evite formarea dependenţei sau
+- să își utilizeze cunoștințele, abilitățile și experiența pentru a promova pacientilor/clienților
+bunăstarea psiho-socială și dezvoltarea personală.
+- să desfășoare munca într-un mod în care să promoveze controlul pacientilor/clienților asupra
+vieții lor și să le respecte abilitatea de a lua decizii și de a se schimba în lumina
+convingerilor și valorilor proprii.
+- să respecte orientarea etnică și religioasă a pacientilor/clienților.
+- să nu facă discriminări între pacienti/clienți pe baza religiei, genului, rasei, etniei,
+naționalității, orientării sexuale, dizabilităților și clasei sociale.
+- să fie conștienți de influența pe care o pot exercita asupra pacientilor/clienților prin natura
+relației cu aceștia și să nu îi exploateze financiar, sexual, emoțional sau în orice alt mod.
+- să își stabilească și să monitorizeze limitele în relația cu pacientii/clienții și să le aducă la
+cunoștință care sunt aceste limite.
+- să mențină o relație profesională cu pacientii/clienții atâta timp cât această relație îi este
+benefică pacientului/clientului. Să nu neglijeze sau abandoneze pacientii/clienții fără a se
+asigura în prealabil că aceștia nu mai au nevoie de ajutor adecvat sau că acest ajutor poate
+fi oferit de către alți profesioniști. Trebuie de asemenea să evite formarea dependenței sau
 prelungirea inutilă a asistării lor.
-- să trimită pacientii/ clienţii altor profesionişti şi să colaboreze cu aceştia atunci când acest
+- să trimită pacientii/ clienții altor profesioniști și să colaboreze cu aceștia atunci când acest
 lucru este spre binele pacientului/clientului.
-- să protejeze pacientii/clienţii atunci când există o convingere fondată pe argumente care
-reflectă faptul că acţiunile altor practicieni ar putea fi un pericol pentru pacienti/clienţi.
+- să protejeze pacientii/clienții atunci când există o convingere fondată pe argumente care
+reflectă faptul că acțiunile altor practicieni ar putea fi un pericol pentru pacienti/clienți.
 
 ### Pagina 11
 
-- să îşi păstreze eficienţa, flexibilitatea şi abilitatea de a asista pacientii/clienţii. Ei trebuie să şi
-automonitorizeze nivelul de funcţionare personală şi să caute ajutor sau să renunţe
-temporar sau permanent la asistarea pacientilor/clienţilor atunci când resursele interioare
+- să își păstreze eficiența, flexibilitatea și abilitatea de a asista pacientii/clienții. Ei trebuie să și
+automonitorizeze nivelul de funcționare personală și să caute ajutor sau să renunțe
+temporar sau permanent la asistarea pacientilor/clienților atunci când resursele interioare
 sunt reduse.
-- să răspundă prompt şi într-un mod adecvat la orice plângere venită din partea
-pacientilor/clienţilor. Ei trebuie să se străduiască să remedieze situaţiile în care ar putea
-cauza daune pacientii/clienţilor şi să prevină repetarea acestor situaţii în viitor.
--să păstreze confidenţialitatea informaţiilor personale ale pacientilor/clienţilor obţinute prin
-asistarea lor. Confidenţialitatea este o modalitate de a asigura pacientilor/ clienţilor
-protecţie şi intimitate.
--să comunice clar care sunt limitele confidenţialităţii pe care se pot baza pacientii/clienţii.
-- Pacientii/clienţii nu pot fi observaţi de către nimeni altcineva decât de către practicantul /
-practicantii lor fără a primi în prealabil consimţământul scris din partea lor.
-- În cazul în care pacientul/clientul este implicat într-o altă relaţie terapeutică cu un alt
+- să răspundă prompt și într-un mod adecvat la orice plângere venită din partea
+pacientilor/clienților. Ei trebuie să se străduiască să remedieze situațiile în care ar putea
+cauza daune pacientii/clienților și să prevină repetarea acestor situații în viitor.
+-să păstreze confidențialitatea informațiilor personale ale pacientilor/clienților obținute prin
+asistarea lor. Confidențialitatea este o modalitate de a asigura pacientilor/ clienților
+protecție și intimitate.
+-să comunice clar care sunt limitele confidențialității pe care se pot baza pacientii/clienții.
+- Pacientii/clienții nu pot fi observați de către nimeni altcineva decât de către practicantul /
+practicantii lor fără a primi în prealabil consimțământul scris din partea lor.
+- În cazul în care pacientul/clientul este implicat într-o altă relație terapeutică cu un alt
 profesionist, terapeutul trebuie să aibă permisiunea pacientului/clientului înainte de a se
 consulta cu acesta.
-- Trebuie acordată atenţie ca informaţiile de identificare să nu fie transmise printr-o reţea de
-relaţii confidenţiale.
-- Acordurile făcute între practicienii de medicina complementara şi pacienti / clienţi în
-privinţa confidenţialităţii vor continua şi după moartea clientului, cu excepţia cazului în care
-există motive etice sau legale pentru a dezvălui informaţii despre acesta.
-- Practicienii de medicina complementara trebuie să păstreze documentele care conţin date
-personale despre pacienti / clienţi într-o manieră care să asigure confidenţialitatea.
+- Trebuie acordată atenție ca informațiile de identificare să nu fie transmise printr-o rețea de
+relații confidențiale.
+- Acordurile făcute între practicienii de medicina complementara și pacienti / clienți în
+privința confidențialității vor continua și după moartea clientului, cu excepția cazului în care
+există motive etice sau legale pentru a dezvălui informații despre acesta.
+- Practicienii de medicina complementara trebuie să păstreze documentele care conțin date
+personale despre pacienti / clienți într-o manieră care să asigure confidențialitatea.
 - Practicienii de medicina complementara vor putea folosi materialele clinice pentru cursuri,
-prezentări în scris şi studii de caz doar după obţinerea consimţământului scris din partea
-pacientului / clientului sau în condiţiile în care s-au luat toate măsurile pentru a-i proteja
+prezentări în scris și studii de caz doar după obținerea consimțământului scris din partea
+pacientului / clientului sau în condițiile în care s-au luat toate măsurile pentru a-i proteja
 identitatea
 Practicienii de medicina complementara trebuie:
--să prezinte în mod adecvat calificarea şi experienţa relevantă pentru practică.
-- să facă tot posibilul să monitorizeze dezvoltarea propriilor competenţe şi să lucreze în
-limitele acestor competenţe .
-- să nu acorde asistenţă profesională atunci când funcţionarea normală este perturbată datorită
-unor dificultăţi personale sau emoţionale, a unor boli, dizabilităţi, a consumului de alcool,
+-să prezinte în mod adecvat calificarea și experiența relevantă pentru practică.
+- să facă tot posibilul să monitorizeze dezvoltarea propriilor competențe și să lucreze în
+limitele acestor competențe .
+- să nu acorde asistență profesională atunci când funcționarea normală este perturbată datorită
+unor dificultăți personale sau emoționale, a unor boli, dizabilități, a consumului de alcool,
 droguri sau din orice alt motiv.
-- să nu îşi exercite rolul profesional într-un mod care ar submina încrederea publicului în
-munca pe care o fac colegii sau alţi profesionişti.
+- să nu își exercite rolul profesional într-un mod care ar submina încrederea publicului în
+munca pe care o fac colegii sau alți profesioniști.
 - să recunoască faptul că medicina complementara / alternativa poate fi practicată în diferite
-cadre conceptuale şi prin aplicarea unor metode diverse. De aceea trebuie să manifeste
-deschidere pentru schimbarea opiniilor şi experienţelor provenind din alte orientări
-terapeutice şi să evite discreditarea acestora pentru a pune în evidenţă avantajele orientării
+cadre conceptuale și prin aplicarea unor metode diverse. De aceea trebuie să manifeste
+deschidere pentru schimbarea opiniilor și experiențelor provenind din alte orientări
+terapeutice și să evite discreditarea acestora pentru a pune în evidență avantajele orientării
 la care aderă.
 - să lucreze în limitele legale.
-- să fie la curent cu aspectele legale care ar putea afecta munca desfăşurată.
+- să fie la curent cu aspectele legale care ar putea afecta munca desfășurată.
 11
 
 ### Pagina 12
@@ -610,12 +595,12 @@ previne vergeturile
 
 Cursul 3
  Terapiile folosite de Shamani. Shamanismul
-Shamanismul cuprinde o serie de credinţe şi practicile tradiţionale în cauză, prin
+Shamanismul cuprinde o serie de credințe și practicile tradiționale în cauză, prin
 comunicarea cu lumea spiritului. . Acesta este un termen proeminent în cercetare
-antropologica. Un medic şamanist este cunoscut ca un şaman. Există mai multe variante de
-şhamanism în întreaga lume, ci mai multe credinţe comune sunt împărtăşite de toate formele
-de şhamanismul. Şhamanii sunt intermediari între uman şi spiritul lumii. Ei pot trata boli şi
-sunt susceptibili de a intra in taramuri supranaturale pentru a obţine răspunsuri la problemele
+antropologica. Un medic șamanist este cunoscut ca un șaman. Există mai multe variante de
+șhamanism în întreaga lume, ci mai multe credințe comune sunt împărtășite de toate formele
+de șhamanismul. Șhamanii sunt intermediari între uman și spiritul lumii. Ei pot trata boli și
+sunt susceptibili de a intra in taramuri supranaturale pentru a obține răspunsuri la problemele
 din comunitatea lor. De-a lungul a zeci de mii de ani , strabunii nostri din toate regiunile
 planetei au descoperit moduri de a maximiza abilitatile spiritului si mintii umane pentru
 vindecare si rezolvarea de probleme . Minunatul sistem de metode dezvoltat de ei este
@@ -801,92 +786,92 @@ calitatea inefabila a increderii . Increderea este unul din pilonii acestei lucr
 aduce validare propriilor experiente . Un alt factor important este ca puterea posturilor de
 transa este marita , deoarece fiecare persoana ajuta, fiind parte a unei experiente vizionare
 colective.
-Şhamanismul nu este o religie sau un corp de credinţe în nici un fel, pentru mine este o
-democraţie „spirituală“ fără preoţi, ierarhie, dogme şi, bineînţeles, fără „credinţe“, afirmă
-Howard G. Charing într-un interviu. Aceasta democraţie spirituală este moştenirea noastră,
-este o cale de cunoaştere, acel fel de cunoaştere care este experimentată personal şi
-subiectiv..., iar la sfârşitul zilei, tot ceea ce avem (în ciuda imperativelor instituţiilor noastre şi
-a dorinţei societăţii de a „obiectiva“ percepţiile noastre subiective) rămâne experienţa noastră
+Șhamanismul nu este o religie sau un corp de credințe în nici un fel, pentru mine este o
+democrație „spirituală“ fără preoți, ierarhie, dogme și, bineînțeles, fără „credințe“, afirmă
+Howard G. Charing într-un interviu. Aceasta democrație spirituală este moștenirea noastră,
+este o cale de cunoaștere, acel fel de cunoaștere care este experimentată personal și
+subiectiv..., iar la sfârșitul zilei, tot ceea ce avem (în ciuda imperativelor instituțiilor noastre și
+a dorinței societății de a „obiectiva“ percepțiile noastre subiective) rămâne experiența noastră
 subiectivă.
 
 ### Pagina 19
 
-Şhamanismul este cea mai veche cale spirituală de pe Planeta Pământ, o cale pentru vindecare
-şi menţinere a echilibrului şi armoniei în societate şi în individ, pentru păstrarea conexiunii cu
-Mama Pământ şi Creaţia Universală. Un şhaman ştie că toate lucrurile sunt vii şi trăieşte atât
-în lumea aceasta, cât şi în lumea spiritului. Şhamanismul contemporan înseamnă aplicarea
-acestor moduri antice şi atemporale în lumea de astăzi. Poate că lumea exterioară e diferită în
+Șhamanismul este cea mai veche cale spirituală de pe Planeta Pământ, o cale pentru vindecare
+și menținere a echilibrului și armoniei în societate și în individ, pentru păstrarea conexiunii cu
+Mama Pământ și Creația Universală. Un șhaman știe că toate lucrurile sunt vii și trăiește atât
+în lumea aceasta, cât și în lumea spiritului. Șhamanismul contemporan înseamnă aplicarea
+acestor moduri antice și atemporale în lumea de astăzi. Poate că lumea exterioară e diferită în
 zilele noastre, scria Aurel Mocanu într-un material de prezentare a workshop-ului pe tema în
-cauză, organizat în primăvara acestui an la Botoşani, dar peisajele interioare ale noastre ca
-oameni au aceleaşi componente ca întotdeauna. „Resurgenţa şhamanismului în lumea vestică
-modernă de la sfârşitul secolului 20 este o recunoaştere a faptului că nu suntem separaţi de
-restul creaţiei, de lumea naturală, ci fiecare dintre noi este un element conştient individual
-dintr-un ocean vast, atemporal, nesfârşit, de conştiinţă şi energie la care suntem cu toţii
-conectaţi. Vizualizarea creativă şi alte practici pentru influenţarea desfăşurării vieţilor noastre
-nu sunt new-age, ci foarte «old-age» şi ne aparţin nouă, tuturor. Dacă mergem înapoi în timp,
-în lineajul nostru ancestral, vom afla că toţi venim din culturi şhamanice, e dreptul nostru prin
-naştere. Unul din aspectele frumoase ale şhamanismului este că e o adevărată democraţie
-spirituală, fără ierarhie, fără preoţi. Cu toţii avem aceleaşi drepturi de a accesa câmpul
-universal de dragoste, forţa vitală şi conştiinţa. Atâta doar că am uitat de asta. Şamanismul nu
-e un sistem de dogme sau o credinţă. Este un sistem de cunoaştere şi deci este experimentat
-direct, la prima mână, de simţuri.“
-Starea şhamanică de conştiinţă este foarte asemănătoare cu starea de conştiinţă pe care o avem
-în timpul viselor lucide şi deosebit de vii, povesteşte Aurel Mocanu. Studiile efectuate asupra
-parametrilor fiziologici ai şamanilor aflaţi în transă arată că deseori ei se află în aşa-numita
-stare theta de activitate a creierului, în care pulsaţiile cerebrale dominante sunt pe frecvenţe
-cuprinse între 3 şi 6 cicli pe secundă. Aceeaşi stare a fost observată şi la călugării budişti
-adânciţi în meditaţie, sau la yoghini, sau la maeştrii zen, precum şi în somnul adânc şi
-reconfortant în care majoritatea oamenilor călătoresc în ţara viselor.
-Starea de vibraţie a creierului, care permite decorporalizarea şi/sau extinderea conştiinţei este
-theta, caracterizată de pulsaţii lente, regulate, monotone, cu frecvenţă de 3-4 până la 7 hertzi.
-Această stare este în mod tradiţional şi predilect, într-un mod remarcabil de sigur şi imediat
+cauză, organizat în primăvara acestui an la Botoșani, dar peisajele interioare ale noastre ca
+oameni au aceleași componente ca întotdeauna. „Resurgența șhamanismului în lumea vestică
+modernă de la sfârșitul secolului 20 este o recunoaștere a faptului că nu suntem separați de
+restul creației, de lumea naturală, ci fiecare dintre noi este un element conștient individual
+dintr-un ocean vast, atemporal, nesfârșit, de conștiință și energie la care suntem cu toții
+conectați. Vizualizarea creativă și alte practici pentru influențarea desfășurării vieților noastre
+nu sunt new-age, ci foarte «old-age» și ne aparțin nouă, tuturor. Dacă mergem înapoi în timp,
+în lineajul nostru ancestral, vom afla că toți venim din culturi șhamanice, e dreptul nostru prin
+naștere. Unul din aspectele frumoase ale șhamanismului este că e o adevărată democrație
+spirituală, fără ierarhie, fără preoți. Cu toții avem aceleași drepturi de a accesa câmpul
+universal de dragoste, forța vitală și conștiința. Atâta doar că am uitat de asta. Șamanismul nu
+e un sistem de dogme sau o credință. Este un sistem de cunoaștere și deci este experimentat
+direct, la prima mână, de simțuri.“
+Starea șhamanică de conștiință este foarte asemănătoare cu starea de conștiință pe care o avem
+în timpul viselor lucide și deosebit de vii, povestește Aurel Mocanu. Studiile efectuate asupra
+parametrilor fiziologici ai șamanilor aflați în transă arată că deseori ei se află în așa-numita
+stare theta de activitate a creierului, în care pulsațiile cerebrale dominante sunt pe frecvențe
+cuprinse între 3 și 6 cicli pe secundă. Aceeași stare a fost observată și la călugării budiști
+adânciți în meditație, sau la yoghini, sau la maeștrii zen, precum și în somnul adânc și
+reconfortant în care majoritatea oamenilor călătoresc în țara viselor.
+Starea de vibrație a creierului, care permite decorporalizarea și/sau extinderea conștiinței este
+theta, caracterizată de pulsații lente, regulate, monotone, cu frecvență de 3-4 până la 7 hertzi.
+Această stare este în mod tradițional și predilect, într-un mod remarcabil de sigur și imediat
 reversibil (spre deosebire de reversibilitatea temporizată care apare prin folosirea plantelor
-sacre), atinsă prin folosirea instrumentelor de percuţie precum: tobe, toace, zuruitoare,
-tamburine, clopote, zurgălăi, gonguri, boluri cântătoare tibetane şi uneori instrumente de
-suflat ca Didgeridoo-ul aborigenilor din Australia şi, foarte probabil, buciumul şi tulnicul.
-Toba pulsează ca însăşi viaţa din noi şi din jurul nostru, bate ca o inimă a Pământului, ca şi
-inima noastră, ca oricare celulă ce pulsează de viaţă, de la amibă la celulele nervoase ale
-creierului uman. Zuruitoarea rezonează la nivel celular: forma ei şi pietricelele, seminţele,
+sacre), atinsă prin folosirea instrumentelor de percuție precum: tobe, toace, zuruitoare,
+tamburine, clopote, zurgălăi, gonguri, boluri cântătoare tibetane și uneori instrumente de
+suflat ca Didgeridoo-ul aborigenilor din Australia și, foarte probabil, buciumul și tulnicul.
+Toba pulsează ca însăși viața din noi și din jurul nostru, bate ca o inimă a Pământului, ca și
+inima noastră, ca oricare celulă ce pulsează de viață, de la amibă la celulele nervoase ale
+creierului uman. Zuruitoarea rezonează la nivel celular: forma ei și pietricelele, semințele,
 nisipul etc. din interior, toate acestea ne pot duce cu gândul la unitatea constituentă de bază,
-atât a corpului nostru şi a corpului oricărei fiinţe, cât şi a unui atom: o membrană care conţine
-mai multe piese interioare. E membrana celulară şi ceilalţi constituenţi celulari, e atomul cu
-electronii care se mişcă în jurul nucleului. Dansul unifică, în dans fiinţa noastră se manifestă
-unitar. Totul în univers dansează, de la rotirile dervişilor şi ale electronilor la cele ale
-planetelor şi galaxiilor. „Prin folosirea acestor tehnici şi metode care au trecut cu adevărat
+atât a corpului nostru și a corpului oricărei ființe, cât și a unui atom: o membrană care conține
+mai multe piese interioare. E membrana celulară și ceilalți constituenți celulari, e atomul cu
+electronii care se mișcă în jurul nucleului. Dansul unifică, în dans ființa noastră se manifestă
+unitar. Totul în univers dansează, de la rotirile dervișilor și ale electronilor la cele ale
+planetelor și galaxiilor. „Prin folosirea acestor tehnici și metode care au trecut cu adevărat
 testul timpului - multe din ele fiind dovedite a fi fost folosite de zeci de mii de ani încoace, ne
-putem muta cu uşurinţă punctul focal al conştiintei de la Ťa gândiť, la Ťa fiť, de la starea de
-separare dată de identificarea cu ego-ul, cu mintea, la starea de unitate a Fiinţei - scrie pe site-
-ul www. shamanism.nierika.ro al lui Aurel Mocanu. Şi atunci o întreagă altă gamă de
-posibilităţi de percepţie, de acţiune, de Fiinţare se deschide în faţa noastră, precum şi în noi
-înşine“.
-La rândul său, vindecarea şhamanică constă dintr-o sumă de practici executate de şhaman sau
+putem muta cu ușurință punctul focal al conștiintei de la Ťa gândiť, la Ťa fiť, de la starea de
+separare dată de identificarea cu ego-ul, cu mintea, la starea de unitate a Ființei - scrie pe site-
+ul www. shamanism.nierika.ro al lui Aurel Mocanu. Și atunci o întreagă altă gamă de
+posibilități de percepție, de acțiune, de Ființare se deschide în fața noastră, precum și în noi
+înșine“.
+La rândul său, vindecarea șhamanică constă dintr-o sumă de practici executate de șhaman sau
 19
 
 ### Pagina 20
 
 de practicant pentru a ajuta sau vindeca o altă persoană. Este un principiu fundamental al
-şhamanismului, oriunde ar fi acesta practicat. Metodele, uneltele folosite, simbolismul şi
-leacurile variază de la o cultură la alta şi de la o regiune la alta, dar, în principal, vindecarea
-înseamnă o conexiune tripartită între client, şhaman şi univers sau spirit. Şhamanul are rolul
-de mediator sau interpret pentru câmpul universal de conştiinţa din care cu toţii facem parte.
-Recapitularea forţei vitale este corpul de tehnici ce restaurează sau recapitulează forţa vitală
-pierdută. Recuperarea sufletului este una dintre cele mai bine cunoscute şi mai eficiente
-practici pentru aceasta şi, aşa cum precizam la început, aceasta va fi şi tema workshop-ului de
-iniţiere în şamanism pe care-l va susţine Howard la Arad. El spune că „pentru a înţelege cum
-funcţionează practicile de recapitulare, trebuie să privim la multidimensionalitatea realităţii şi
-să ne îndepărtăm de perspectiva liniară, secvenţială. Din această perspectivă extinsă, orice s-a
+șhamanismului, oriunde ar fi acesta practicat. Metodele, uneltele folosite, simbolismul și
+leacurile variază de la o cultură la alta și de la o regiune la alta, dar, în principal, vindecarea
+înseamnă o conexiune tripartită între client, șhaman și univers sau spirit. Șhamanul are rolul
+de mediator sau interpret pentru câmpul universal de conștiința din care cu toții facem parte.
+Recapitularea forței vitale este corpul de tehnici ce restaurează sau recapitulează forța vitală
+pierdută. Recuperarea sufletului este una dintre cele mai bine cunoscute și mai eficiente
+practici pentru aceasta și, așa cum precizam la început, aceasta va fi și tema workshop-ului de
+inițiere în șamanism pe care-l va susține Howard la Arad. El spune că „pentru a înțelege cum
+funcționează practicile de recapitulare, trebuie să privim la multidimensionalitatea realității și
+să ne îndepărtăm de perspectiva liniară, secvențială. Din această perspectivă extinsă, orice s-a
 întâmplat vreodată, oricui, oriunde, încă se mai întâmplă «undeva». Dacă un eveniment
-traumatic s-a întâmplat unei persoane cu zece, douăzeci sau mai mulţi ani în urmă, pentru
-acea persoană încă se mai întâmplă şi m-aş aventura să spun că influenţează în continuare
-viaţa persoanei. Şhamanismul nu se blochează în trecut; există doar această vastă şi minunată
-şi în permanentă mişcare clipă de ACUM, unde nu există separat trecut, prezent, viitor. Pentru
-un practicant este posibil să călătorească şi să se mişte în afara timpului liniar pentru a ajunge
+traumatic s-a întâmplat unei persoane cu zece, douăzeci sau mai mulți ani în urmă, pentru
+acea persoană încă se mai întâmplă și m-aș aventura să spun că influențează în continuare
+viața persoanei. Șhamanismul nu se blochează în trecut; există doar această vastă și minunată
+și în permanentă mișcare clipă de ACUM, unde nu există separat trecut, prezent, viitor. Pentru
+un practicant este posibil să călătorească și să se miște în afara timpului liniar pentru a ajunge
 în acel loc în care acel eveniment energetic încă se întâmplă pentru acea persoană, să găsească
-şi să aducă înapoi forţa vitală a acelei persoane, care este blocată în acel eveniment energetic,
+și să aducă înapoi forța vitală a acelei persoane, care este blocată în acel eveniment energetic,
 iar când acest lucru se întâmplă, poate începe cu adevărat vindecarea terapeutică a
-evenimentului respectiv şi a consecinţelor sale. Pierderea forţei vitale este cunoscută ca
-pierdere de suflet şi poate avea loc când suferim o traumă, avem un accident sau trecem prin
-schimbări emoţionale puternice cu cineva iubit, ne despărţim de un partener, ne moare cineva
+evenimentului respectiv și a consecințelor sale. Pierderea forței vitale este cunoscută ca
+pierdere de suflet și poate avea loc când suferim o traumă, avem un accident sau trecem prin
+schimbări emoționale puternice cu cineva iubit, ne despărțim de un partener, ne moare cineva
 apropiat sau trecem prin perioade dificile.“
  Despre shamanism
 Traim astazi intr-o lume care pune accentul pe afirmarea ego-ului. Realitatea consensuala a
@@ -947,67 +932,67 @@ facand candva obiectul unui cult specific, asa cum este cazul Matragunei, al car
 cu totul consonant, in mod uimitor, cu doua cuvinte din vocabularul mistic al Vedelor (matra
 si guna). Acest cult urmareste intotdeauna rezultate din domeniul medicinei magice, cum este
 cazul descantecelor ce se savarsesc cu ajutorul anumitor ierburi.
- Şezătoarea este o întâlnire restrânsă inter-generaţională care, în răgazurile oferite de
-munca la câmp – în special iarna – devine spaţiul de exersare a unor funcţii şi roluri sociale.
-Iniţial, şezătorile erau „colective de muncă formate din membri unor gospodării învecinate
-pentru a-şi prelungi în noapte prelucrarea fibrelor textile”
-Organizarea şezătorii ţinea seama de condiţiile gospodăriei. Evident, pentru că ea se prelungea
-în noapte era bine ca în casa de şezătoare să nu trăiască bătrâni, bolnavi sau copii prea mici.
-Locuinţa trebuia să fie suficient de încăpătoare şi plasată oportun faţă de vecini pentru ca
-petrecerea să nu deranjeze pe nimeni atunci când se prelungea după miezul nopţii..
-Un motiv de a deveni gazdă putea fi şi grija pentru fiii sau fiicele necăsătorite care era
-preferabil să îşi petreacă serile acasă, sub supraveghere, astfel încât să nu poată păţi nimic rău.
-„Se ţineau şezători în casele unde erau fete şi feciori pe care părinţii preferau să-i ţină lângă
-ei, cu vecinii şi cei dragi, dacât să-i lase să hoinărească prin sat.”
-În cele mai multe locuri şezătorile se organizau pe principiul vecinătăţii „pe grupuri de
-gospodării locuite de neamuri şi prieteni.”
-Sezatoarea avea pentru vremurile respective mai multe functii : Funcţia economică: În
-şezătoare aveau loc activităţi productive legate în special de confecţionarea îmbrăcămintei,
+ Șezătoarea este o întâlnire restrânsă inter-generațională care, în răgazurile oferite de
+munca la câmp – în special iarna – devine spațiul de exersare a unor funcții și roluri sociale.
+Inițial, șezătorile erau „colective de muncă formate din membri unor gospodării învecinate
+pentru a-și prelungi în noapte prelucrarea fibrelor textile”
+Organizarea șezătorii ținea seama de condițiile gospodăriei. Evident, pentru că ea se prelungea
+în noapte era bine ca în casa de șezătoare să nu trăiască bătrâni, bolnavi sau copii prea mici.
+Locuința trebuia să fie suficient de încăpătoare și plasată oportun față de vecini pentru ca
+petrecerea să nu deranjeze pe nimeni atunci când se prelungea după miezul nopții..
+Un motiv de a deveni gazdă putea fi și grija pentru fiii sau fiicele necăsătorite care era
+preferabil să își petreacă serile acasă, sub supraveghere, astfel încât să nu poată păți nimic rău.
+„Se țineau șezători în casele unde erau fete și feciori pe care părinții preferau să-i țină lângă
+ei, cu vecinii și cei dragi, dacât să-i lase să hoinărească prin sat.”
+În cele mai multe locuri șezătorile se organizau pe principiul vecinătății „pe grupuri de
+gospodării locuite de neamuri și prieteni.”
+Sezatoarea avea pentru vremurile respective mai multe functii : Funcția economică: În
+șezătoare aveau loc activități productive legate în special de confecționarea îmbrăcămintei,
 prelucrarea lanii sau cânepii.
-„În primul rând şezătoarea este pilej de comportare şi de muncă în grup, de dovedire a
-priceperii şi hărniciei fetelor. Rostul ei economic rezidă în faptul că în grup se lucra mai mult,
-deoarece se alunga somnul şi se economisea petrol.”
-Funcţia de comunicare: „Şezătoarea se organiza apoi pentru caracterul ei de petrecere, fiind
-prilej de întâlnire a fetelor cu feciorii.” Şezătoarea avea funcţia de a oferi cadrul întâlnirii şi
+„În primul rând șezătoarea este pilej de comportare și de muncă în grup, de dovedire a
+priceperii și hărniciei fetelor. Rostul ei economic rezidă în faptul că în grup se lucra mai mult,
+deoarece se alunga somnul și se economisea petrol.”
+Funcția de comunicare: „Șezătoarea se organiza apoi pentru caracterul ei de petrecere, fiind
+prilej de întâlnire a fetelor cu feciorii.” Șezătoarea avea funcția de a oferi cadrul întâlnirii și
 comunicării între tinere cupluri care se simpatizau, doreau, iubeau. Întâlnirea, comunicarea,
-precontractul şi proiectul de nuntă erau prezente în şezătoare ca pregătire a căsătoriei. „În
-cadrul şezătorii tinerii aveau prilejul să se cunoască şi să stabilească relaţii premergătoare
-căsătoriilor.” Funcţia de valorizare a faptelor sociale: „Altă funcţie caracteristică mai ales
+precontractul și proiectul de nuntă erau prezente în șezătoare ca pregătire a căsătoriei. „În
+cadrul șezătorii tinerii aveau prilejul să se cunoască și să stabilească relații premergătoare
+căsătoriilor.” Funcția de valorizare a faptelor sociale: „Altă funcție caracteristică mai ales
 
 ### Pagina 23
 
-şezătorilor de neveste şi de femei bătrâne, dar şi celor de fete, este comentarea şi judecarea
-faptelor din viaţa diurnă a satului [...]. Prin judecarea faptelor care contravin eticii populare, se
-formează şi se manifestă opinia publică, al cărui rol educativ nu este de loc neglijabil.”
-Funcţia artistică: „În şezătoare se crează, dar mai ales se interpreează şi se transmite
-repertoriul folcloric al colectivităţii [...]. Şezătoarea a putut fi altădată mult mai complexă şi a
+șezătorilor de neveste și de femei bătrâne, dar și celor de fete, este comentarea și judecarea
+faptelor din viața diurnă a satului [...]. Prin judecarea faptelor care contravin eticii populare, se
+formează și se manifestă opinia publică, al cărui rol educativ nu este de loc neglijabil.”
+Funcția artistică: „În șezătoare se crează, dar mai ales se interpreează și se transmite
+repertoriul folcloric al colectivității [...]. Șezătoarea a putut fi altădată mult mai complexă și a
 constituit alături de sărbătorile Anului Nou, manifestarea folclorică cea mai importantă în
-serile lungi de toamnă şi iarnă.”
-Colindele, poveştile, zicătorile, ghicitorile, cântecele de şezătoare, invocările magice, sunt
-speciile folclorice găzduite de şezătoare şi dezvoltate de ea. În climatul intergeneraţional creat
-valorile se transmit şi se tezaurizează în generaţiile tinere.
-Funcţia de reglare comportamentală: în întâlnirile restrânse de tipul şezătorii se analizează, se
-predau şi se exersează coduri comportamentale. Respectul pentru vârstnici, grija pentru copii,
-relaţiile oportune între vecini, raportarea la autoritatea civilă, militară sau religioasă sunt
+serile lungi de toamnă și iarnă.”
+Colindele, poveștile, zicătorile, ghicitorile, cântecele de șezătoare, invocările magice, sunt
+speciile folclorice găzduite de șezătoare și dezvoltate de ea. În climatul intergenerațional creat
+valorile se transmit și se tezaurizează în generațiile tinere.
+Funcția de reglare comportamentală: în întâlnirile restrânse de tipul șezătorii se analizează, se
+predau și se exersează coduri comportamentale. Respectul pentru vârstnici, grija pentru copii,
+relațiile oportune între vecini, raportarea la autoritatea civilă, militară sau religioasă sunt
 cultivate cu acest prilej.
-Funcţia magică si terapeutica: magicul şi misticul sunt cupole ale lumii rurale. Fiecare
-manifestare este impregnată şi susţinută de ele. Atmosfera magică si terapeutica este
-întreţinută în şezătoare de practici care au menirea de a chema feciorii în şezătoare sau de a
-invoca reuşita ei. „Ca mod de realizare magia şezătorii este diversă şi uzează, în general, de
-acţiuni şi obiecte cunoscute şi altor domenii ale sale, nu însă fără a avea şi anumite
-particularităţi specifice.”
-Aceste practici au ca scop menţinerea unei atmosfere magice şi susţinerea prin intermediul ei
-a dorinţelor şi aşteptărilor celor din şezătoare. Dintre obiecte predomină apa ( de cele mai
-multe ori şi neîncepută) şi focul pentru funcţia lor purificatoare. Altele sunt luate din recuzita
-şezătorii: tort, fuior, fuse, sau din alte locuri, care permit scontarea eficacităţii pe principiul
-analogiei: aşchii de la moară, de la casa care găzduieşte altă şezătoare, sau de la bufet.
-Acţiunile se subordonează purificării oamenilor şi a casei care-i găzduieşte, dar şi aducerii
+Funcția magică si terapeutica: magicul și misticul sunt cupole ale lumii rurale. Fiecare
+manifestare este impregnată și susținută de ele. Atmosfera magică si terapeutica este
+întreținută în șezătoare de practici care au menirea de a chema feciorii în șezătoare sau de a
+invoca reușita ei. „Ca mod de realizare magia șezătorii este diversă și uzează, în general, de
+acțiuni și obiecte cunoscute și altor domenii ale sale, nu însă fără a avea și anumite
+particularități specifice.”
+Aceste practici au ca scop menținerea unei atmosfere magice și susținerea prin intermediul ei
+a dorințelor și așteptărilor celor din șezătoare. Dintre obiecte predomină apa ( de cele mai
+multe ori și neîncepută) și focul pentru funcția lor purificatoare. Altele sunt luate din recuzita
+șezătorii: tort, fuior, fuse, sau din alte locuri, care permit scontarea eficacității pe principiul
+analogiei: așchii de la moară, de la casa care găzduiește altă șezătoare, sau de la bufet.
+Acțiunile se subordonează purificării oamenilor și a casei care-i găzduiește, dar și aducerii
 neîntârziate a sanatatii. La această din urmă categorie se încadrează trimiterea imperativă, prin
-înţepare, scufundarea sau baterea socului, sau a altui pom în care se crede că sălăşluiesc forţe
-capabile să îndeplinească dorinţa: stropirea cu apă, înconjurarea casei sau mersul la soc călare
-pe lopată sau pe caciorbă. Textele literare care le însoţesc servesc şi ele la realizarea scopului
-urmărit, cuprinzând o variată gamă de sentimente de la implorare până la poruncă şi blestem.
-Unele urmăresc, mai pronunţat sau mai atenuat.
+înțepare, scufundarea sau baterea socului, sau a altui pom în care se crede că sălășluiesc forțe
+capabile să îndeplinească dorința: stropirea cu apă, înconjurarea casei sau mersul la soc călare
+pe lopată sau pe caciorbă. Textele literare care le însoțesc servesc și ele la realizarea scopului
+urmărit, cuprinzând o variată gamă de sentimente de la implorare până la poruncă și blestem.
+Unele urmăresc, mai pronunțat sau mai atenuat.
 Procedeele asazis terapeutice bazate pe rugaciuni si incantatii ofera o puternica sustinere
 morala
 In traditiile stramosilor nostrii exista cele doua duhuri Samca, duh feminin diabolic si
@@ -1061,64 +1046,64 @@ erau lipitorile folosite uneori chiar cu succes la bolnavii hipertensivi sau la 
 sangelui.
 Laptele
  Un leac străvechi, întăritor
-Laptele, foarte gras şi hrănitor, este considerat un leac cu acţiune lentă, dar sigură pentru
-multe suferinţe. Se dovedeşte eficient pentru că fortifică organismul şi întăreşte imunitatea
-naturală în bolile însoţite de anemie, lipsa poftei de mîncare şi stări depresive: TBC (în special
+Laptele, foarte gras și hrănitor, este considerat un leac cu acțiune lentă, dar sigură pentru
+multe suferințe. Se dovedește eficient pentru că fortifică organismul și întărește imunitatea
+naturală în bolile însoțite de anemie, lipsa poftei de mîncare și stări depresive: TBC (în special
 cu localizare pulmonară), anemii, dezechilibre hormonale cu pierdere în greutate, cancere în
-forme incipiente, convalescenţe, afecţiuni paratiroidiene care generează spasmofilii rebele la
+forme incipiente, convalescențe, afecțiuni paratiroidiene care generează spasmofilii rebele la
 tratamente clasice, atrofii musculare, astenie de primăvară.
-Înlăture slăbiciunea, reda vigoarea şi optimismul şi ajuta organismul să lupte cu boala.
-Administrarea preventivă îi face pe cei bolnăvicioşi din fire să devină mai rezistenţi la
-virozele de sezon sau să suporte mai uşor eventualele îmbolnăviri contagioase, îi fereşte pe
-adolescenţi de prea mult zbucium fizic şi psihic în "criza" varstei lor şi îi ajută pe copiii
+Înlăture slăbiciunea, reda vigoarea și optimismul și ajuta organismul să lupte cu boala.
+Administrarea preventivă îi face pe cei bolnăvicioși din fire să devină mai rezistenți la
+virozele de sezon sau să suporte mai ușor eventualele îmbolnăviri contagioase, îi ferește pe
+adolescenți de prea mult zbucium fizic și psihic în "criza" varstei lor și îi ajută pe copiii
 distrofici să se dezvolte normal.
 Vindeca: boli oftalmologice conjunctivita, cataracta, bolile urechilor, ulceratii
-Esenţe de conifere
-Era folosita ca frectie pentru efect deopotrivă tonic şi reconfortant, pentru a elimina stresul şi
+Esențe de conifere
+Era folosita ca frectie pentru efect deopotrivă tonic și reconfortant, pentru a elimina stresul și
 
 ### Pagina 25
 
-a întări sistemul imunitar în faţa bolilor, esenţele de conifere erau la îndemîna oricui. Foarte
-eficientă este şi o fiertură de cetină.
-Urzica, detoxifiant şi întăritor
+a întări sistemul imunitar în fața bolilor, esențele de conifere erau la îndemîna oricui. Foarte
+eficientă este și o fiertură de cetină.
+Urzica, detoxifiant și întăritor
 De-a lungul timpului, ceaiul de urzici a fost utilizat ca un detoxifiant al sistemului circulator,
-avînd darul de a purifica sîngele şi de a înlătura toxinele din organism. Mai mult, este un
-foarte bun reglator al nivelul zahărului din sînge.Cel mai bun pentru curăţirea sangelui este
-ceaiul obţinut dintr-un amestec de frunze uscate de urzică, păpădie şi mesteacăn.Pentru
-anemici, ca întăritor, foarte bun este un amestec din frunze uscate de urzică şi mentă.
-Tintaură, numită popular şi "fierea pămîntului", se folosea numai partea aeriană a plantei, care
-se recoltează în timpul înfloririi. Efectul acestui remediu este de mărire a contracţiei veziculei
-biliare şi de scăderea febrei., regla funcţionarea mecanismului de eliminare a bilei, asigurînd
-circulaţia bilei de la veziculă spre duoden. La fel de bun pentru rezolvarea unor probleme
+avînd darul de a purifica sîngele și de a înlătura toxinele din organism. Mai mult, este un
+foarte bun reglator al nivelul zahărului din sînge.Cel mai bun pentru curățirea sangelui este
+ceaiul obținut dintr-un amestec de frunze uscate de urzică, păpădie și mesteacăn.Pentru
+anemici, ca întăritor, foarte bun este un amestec din frunze uscate de urzică și mentă.
+Tintaură, numită popular și "fierea pămîntului", se folosea numai partea aeriană a plantei, care
+se recoltează în timpul înfloririi. Efectul acestui remediu este de mărire a contracției veziculei
+biliare și de scăderea febrei., regla funcționarea mecanismului de eliminare a bilei, asigurînd
+circulația bilei de la veziculă spre duoden. La fel de bun pentru rezolvarea unor probleme
 biliare era vinul tonic preparat din tintaură. Siropul se administra în caz de dezechilibre biliare
-atît la copii - 50 ml, cît şi la adulţi –
+atît la copii - 50 ml, cît și la adulți –
 Alte leacuri:
 Leacuri populare împotriva răcelii
 Ceapa
-Ceapă tăiată mărunt se pun apă călduţă cu miere şi se lasă la infuzat . În cazul nasului înfundat
-se puneau în nas picături din această soluţie. În cazuri de angină ceapa tăiate mărunt, pusa la
+Ceapă tăiată mărunt se pun apă călduță cu miere și se lasă la infuzat . În cazul nasului înfundat
+se puneau în nas picături din această soluție. În cazuri de angină ceapa tăiate mărunt, pusa la
 fiert în lapte pînă se cu un pahar de miere. sau se poate face gargară cu o emulsie de suc de
-ceapă într-o soluţie de apă cu sare.
-Împotriva tusei, se curăţă 2 cepe de dimensiuni medii, se taie mărunt, se adaugă un sfert de
-pahar de zahăr tos, 3-4 pahare de apă şi se fierb pînă se obţine un sirop gros. Se ia cîte o
-lingură la fiecare 3 ore. În caz de angină, se fac inhalaţii cu aburii emişi de acest amestec.
+ceapă într-o soluție de apă cu sare.
+Împotriva tusei, se curăță 2 cepe de dimensiuni medii, se taie mărunt, se adaugă un sfert de
+pahar de zahăr tos, 3-4 pahare de apă și se fierb pînă se obține un sirop gros. Se ia cîte o
+lingură la fiecare 3 ore. În caz de angină, se fac inhalații cu aburii emiși de acest amestec.
 Durata tratamentului este de 30-40 de zile, iar după o lună de pauză, se repetă terapia.
 Inhalarea aburilor de ceapă vindeca, de asemenea, guturaiul. Ca mijloc de inhalare, terciul din
 ceapă tocată sau din frunze de ceapă este activ doar proaspăt pregătit, timp de 10-15 minute,
-după care, acţiunea sa bactericidă încetează în contact cu aerul.
+după care, acțiunea sa bactericidă încetează în contact cu aerul.
 Astmul (suspinul) se vindeca daca se mesteca inainte de fiecare masa cate o frunza de vasc,
 vreme de un sfert de ceas. Stiintific s-a constatat ca frunzele vascului fluidizeaza secretiile
 bronsice, calmeaza spasmele si maresc rezistenta la factorii de stres care pot declansa crizele
 astmatice.
-Împotriva gripei, erau folosite aşa-numitele tampoane cu o ceapă facuta pasta pusa în nări şi
-dimineaţa, la prînz şi seara. Sucul de ceapă şi usturoi, , se folosea pentru inhalaţii în
-afecţiunile căilor respiratorii: bronşite, laringite, traheite.
-Printre remediile naturale contra indigestiei şi arsurilor stomacale se află sucul de morcovi şi
-sfeclă albă. Dintre ceaiuri, se remarcă infuzia de mentă, ceaiul de muşeţel, scoarţă de ulm şi
+Împotriva gripei, erau folosite așa-numitele tampoane cu o ceapă facuta pasta pusa în nări și
+dimineața, la prînz și seara. Sucul de ceapă și usturoi, , se folosea pentru inhalații în
+afecțiunile căilor respiratorii: bronșite, laringite, traheite.
+Printre remediile naturale contra indigestiei și arsurilor stomacale se află sucul de morcovi și
+sfeclă albă. Dintre ceaiuri, se remarcă infuzia de mentă, ceaiul de mușețel, scoarță de ulm și
 ceaiul de ghimbir. Sucul proaspăt de cartof, cărbune medicinal sînt, de asemenea, foarte utile.
-Pentru a scăpa de arsurile la stomac pot fi utilizaţi fulgii de hrişcă prăjiti. Împotriva arsurilor
-stomacale, un mijloc de tratament extraordinar era coaja de ou uscată şi pisată si rozmarin,frunze de
-sunătoare si coada şoricelului.\
+Pentru a scăpa de arsurile la stomac pot fi utilizați fulgii de hrișcă prăjiti. Împotriva arsurilor
+stomacale, un mijloc de tratament extraordinar era coaja de ou uscată și pisată si rozmarin,frunze de
+sunătoare si coada șoricelului.\
 Tamaia
 25
 
@@ -1159,8 +1144,8 @@ Eczeme, infectii ale pielii, hemoroizi - rasina de brad se amesteca cu o cantita
 incins si, eventual, cu putina ceara curata de albine, dupa care se lasa la racit. Se obtinea o
 unsoare cu efecte calmante si cicatrizante exceptionale, cu care se ungeau zonele afectate o
 data sau de doua ori pe zi.
-Frunzele de fierea pămîntului înlătură gazele din stomac, acizii dăunători, menţine şi
-îmbunătăţeşte sucul gastric şi influenţează pozitiv ficatul şi rinichii.
+Frunzele de fierea pămîntului înlătură gazele din stomac, acizii dăunători, menține și
+îmbunătățește sucul gastric și influențează pozitiv ficatul și rinichii.
 Punerea capului deasupra unei oale cu apa fierbinte sau ceai fierbinte ce degaja aburi era un
 bun tratament pentru piele, boli de urechi, sa spunem ca erau „tratamente cu abur”.
 Suferinzii de tuberculoza inchisi intr-o camera sau de cele mai multe ori in timpul verii la
@@ -1216,19 +1201,19 @@ Vine ciuta de la munte
 
 ### Pagina 28
 
-Lingându-şi puii pe frunte.
+Lingându-și puii pe frunte.
 Îi linge pe pistricei
-Şi pe cei frumuşei.
-Şi eu pe N. îl ling -
+Și pe cei frumușei.
+Și eu pe N. îl ling -
 De deochi,
 Dintre ochi.
 Cât o sta vântu-n gard
 Atât să stea deochiu-n cap,
-Şi să fugă prin sat
+Și să fugă prin sat
 Ca un câne turbat
 Cu coada îndoită,
 Cu gura căscată
-Şi unde-o cădea
+Și unde-o cădea
 Acolo s-o frângea,
 Acolo o muri.
 Pe N sa-l lase
@@ -1236,18 +1221,18 @@ Curat luminat,
 Cum Dumnezeu l-a lăsat!
 Descântec pentru scoaterea dracului din om
 Doamne, Dumnezeule,
-Mă rog, Doamne, ţie!
+Mă rog, Doamne, ție!
 Ascultă cuvântul meu
 Să scot pe Iuda din N.
-Să se ducă în mare şi-n nisip
+Să se ducă în mare și-n nisip
 Când o număra nisipul din mare
 Atunci să vina-napoi!
-Atunci şi nici atunci.
-Apoi se zice de 12 ori Tatăl Nostru şi se stropeşte bolnavul cu apă sfinţită. Atunci, dacă e cu
+Atunci și nici atunci.
+Apoi se zice de 12 ori Tatăl Nostru și se stropește bolnavul cu apă sfințită. Atunci, dacă e cu
 adevărat Dracul în el, iese sub forma unui fum pe urechi.
 Descântec " pentru "a fi binecuvântată" - a avea copil
-Lunea de dimineaţă, până a nu răsări Soarele, se descântă deasupra unui pahar de rachiu ori de
-vin, sau de borş din care n-a gustat încă nimeni, de trei ori una după alta, spunându-se:
+Lunea de dimineață, până a nu răsări Soarele, se descântă deasupra unui pahar de rachiu ori de
+vin, sau de borș din care n-a gustat încă nimeni, de trei ori una după alta, spunându-se:
 Stai matrice,
 Nu hui,
 Nu pocni,
@@ -1255,12 +1240,12 @@ Prin oase nu te porni!
 Matriciu prin sete,
 Matriciu prin foame,
 Matriciu prin deochi,
-Matriciu prin fierbinţeală,
+Matriciu prin fierbințeală,
 Matriciu prin spaimă,
 Matriciu prin neodihnă,
 Matriciu de 99 feluri,
 Matriciu de 99 de soiuri,
-Ieşi de unde eşti -
+Ieși de unde ești -
 Din piept,
 De sub piept,
 
@@ -1268,26 +1253,26 @@ De sub piept,
 
 Din inimă,
 De sub inimă,
-Din şele,
-Din braţe
-Şi din maţe,
+Din șele,
+Din brațe
+Și din mațe,
 Din toate încheieturile
-Şi din toate ciolanele.
-Ca tu, de nu-i ieşi,
+Și din toate ciolanele.
+Ca tu, de nu-i ieși,
 Cu 99 de coase te-oi cosi,
-Din trup şi din toate oasele.
+Din trup și din toate oasele.
 Te-oi porni,
 Cu 99 de seceri te-oi secera,
-Din trup şi din toate încheieturile
+Din trup și din toate încheieturile
 Te-oi lua
-Şi-n Marea Neagră te-oi mâna.
-Şi acolo te-oi aşeza,
+Și-n Marea Neagră te-oi mâna.
+Și acolo te-oi așeza,
 Acolo-i sta,
 Acolo-i bea,
 Acolo-i dispărea,
-Şi pe N. în pace-i lăsa.
+Și pe N. în pace-i lăsa.
 N. să rămâie curată
-Şi luminată
+Și luminată
 Ca Dumnezeu când a făcut-o,
 Ca maică-sa când a născut-o,
 Ca argintul strecurat
@@ -1296,8 +1281,8 @@ Ca Soarele pe senin,
 În veci vecil
 Amin
 Descântec de izdat
-Izdatul este o boală de inimă ce se manifestă prin slăbiciuni, dureri ascuţite la inimă sau chiar
-sub inimă. Femeia care descântecă îşi face întâi cruce de trei ori şi zice:
+Izdatul este o boală de inimă ce se manifestă prin slăbiciuni, dureri ascuțite la inimă sau chiar
+sub inimă. Femeia care descântecă își face întâi cruce de trei ori și zice:
 Crăpi izdate,
 Necurate
 O dată.
@@ -1319,14 +1304,14 @@ Crăpi izdate,
 ### Pagina 30
 
 Necurate
-De şase ori.
+De șase ori.
 Crăpi izdate,
 Necurate
-De şapte ori.
+De șapte ori.
 Crăpi izdate,
 Necurate
-De şaptezeci şi şapte de ori
-Şi să fugă netrebnicu,
+De șaptezeci și șapte de ori
+Și să fugă netrebnicu,
 Ogărsâtu,
 Urâtu,
 Izdatu,
@@ -1336,34 +1321,34 @@ Din picioare,
 Din inimioare,
 Din jigârcioare,
 Din fiere,
-Din creştet până-n degeţele!
-Ieşi din toate încheieturile,
-Şi să apuci pădurile,
-În codri muţi
-Şi surzi,
-Unde nu-i aşchie sărită,
+Din creștet până-n degețele!
+Ieși din toate încheieturile,
+Și să apuci pădurile,
+În codri muți
+Și surzi,
+Unde nu-i așchie sărită,
 De voinic tăiată,
-Nici glas de cocoş,
-Să se duca-n pietri muşchiate,
+Nici glas de cocoș,
+Să se duca-n pietri mușchiate,
 Nemaiumblate!
 Descântec de gâlci
 Plecară gâlcile,
 Motofâlcile,
 Vacile să le pască,
-Trei mătuşi să le păzească:
+Trei mătuși să le păzească:
 Una oarbă,
 Una surdă
-Şi una mută.
+Și una mută.
 A oarbă nu văzu,
 A surdă n-auzi,
 A mută nu putu să dea chiot.
 Veniră lupii
-Şi le mâncară,
-Şi gâlcile de la gât
+Și le mâncară,
+Și gâlcile de la gât
 Secară.
 Descântec "de bubă" (I. Aurel Candrea - Folclorul medical român comparat)
 Ciutele din Recea
-Mare nuntă-şi face:
+Mare nuntă-și face:
 C-un cap mare de berbece.
 Câte ciute, câte mute,
 
@@ -1372,77 +1357,77 @@ Câte ciute, câte mute,
 Câte moine, câte bube,
 Pe toate la nuntă le-o chemat,
 Numai pe astă bubă n-o chemat.
-Ea de ciudă şi de bănat,
+Ea de ciudă și de bănat,
 Vârful i s-o uscat
-Şi rădăcina i-o secat.
+Și rădăcina i-o secat.
 Descântec pentru "mâncărimea de inimă
-Se ia un păhărel de miere şi un cuţit. Cu cuţitul se taie bucăţele mici foile unei flori de bujor
-şi, tot amestecând aceste foi cu miere, se descântă. Mierea cu floarea de bujor se dă copilului
+Se ia un păhărel de miere și un cuțit. Cu cuțitul se taie bucățele mici foile unei flori de bujor
+și, tot amestecând aceste foi cu miere, se descântă. Mierea cu floarea de bujor se dă copilului
 bolnav.
 Ileana Cosânzeana a făcut un copil
-Şi l-a mâncat strâga;
+Și l-a mâncat strâga;
 A făcut doi,
-Şi i-a mâncat strâga;
+Și i-a mâncat strâga;
 A făcut trei,
-Şi i-a mâncat strâga;
+Și i-a mâncat strâga;
 A făcut patru,
-Şi i-a mâncat strâga;
+Și i-a mâncat strâga;
 A făcut cinci,
-Şi i-a mâncat strâga;
-A făcut şase,
-Şi i-a mâncat strâga;
-A făcut şapte,
-Şi i-a mâncat strâga;
+Și i-a mâncat strâga;
+A făcut șase,
+Și i-a mâncat strâga;
+A făcut șapte,
+Și i-a mâncat strâga;
 A făcut opt,
-Şi i-a mâncat strâga.
+Și i-a mâncat strâga.
 Numai cu cel de-al nouălea, N., a rămas.
-În braţe l-a luat,
+În brațe l-a luat,
 În munte s-a suit,
-În temniţă l-a băgat
-Şi l-a-ncuiat
-Şi l-a alcătuit.
+În temniță l-a băgat
+Și l-a-ncuiat
+Și l-a alcătuit.
 Strâga l-a căutat
-Trei zile-n trei părţi.
-Dacă a văzut că nu-l găseşte
-Şi nu-l găseşte
+Trei zile-n trei părți.
+Dacă a văzut că nu-l găsește
+Și nu-l găsește
 La frate-său a alergat,
 Frate-său în grajd de piatră a intrat
-Şi calul cel bun datu-i-a,
+Și calul cel bun datu-i-a,
 În munte suitu-s-a,
-Şi-a descuiat,
-Şi-a desalcătuit,
-Şi-a mâncat inima copilului.
-Mamă, de dorul şi focul copiilor,
+Și-a descuiat,
+Și-a desalcătuit,
+Și-a mâncat inima copilului.
+Mamă, de dorul și focul copiilor,
 Suie dealul Garaliilor,
-Găseşte inimile copiilor,
+Găsește inimile copiilor,
 De-alăturea drumului,
 În floarea bujorului.
 31
 
 ### Pagina 32
 
-Cu vârful cuţitului luatu-l-a,
+Cu vârful cuțitului luatu-l-a,
 În paharul cu miere aruncatu-l-a,
 Copilului datu-i-l-a
 De l-a mâncat,
 Să rămâie copilul curat,
 Luminat
 Cum mă-sa l-a făcut,
-Şi Dumnezeu l-a născut.
+Și Dumnezeu l-a născut.
 
 ### Pagina 33
 
 Cursul 5
  Stravechile Terapii din India
  Ayurveda, doctrina structurii corpului
- Ayurveda sau medicina ayurvedică reprezintă sistemul de cunoştinţe medicale indiene
-care provine din textele sacre ale Vedelor (c. 3900 î.Hr.- c. 1500 î.Hr.) şi ale cărui principii
+ Ayurveda sau medicina ayurvedică reprezintă sistemul de cunoștințe medicale indiene
+care provine din textele sacre ale Vedelor (c. 3900 î.Hr.- c. 1500 î.Hr.) și ale cărui principii
 sunt valorificate în ceea ce astăzi numim terapii alternative. Vedele, textele sacre indiene ce
 contin primele consemnari referitoare la medicina Ayurveda, au fost datate in mileniul 4
-inainte de Christos.Exista patru Vede: Rig-veda, Sama-Veda, Yajur-Veda şi Atharva-Veda.
-Ayurveda derivă din a patra, Atharva-Veda, subordonată celorlalte trei.Iniţial, principiile de
-vindecare expuse în Atharva-Veda se bazau pe valenţa tămăduitoare a sunetului sau
-cuvântului, nefiind menţionate medicamentele. Dintre cele 4 veda: Rigveda, Yajurveda,
+inainte de Christos.Exista patru Vede: Rig-veda, Sama-Veda, Yajur-Veda și Atharva-Veda.
+Ayurveda derivă din a patra, Atharva-Veda, subordonată celorlalte trei.Inițial, principiile de
+vindecare expuse în Atharva-Veda se bazau pe valența tămăduitoare a sunetului sau
+cuvântului, nefiind menționate medicamentele. Dintre cele 4 veda: Rigveda, Yajurveda,
 Samaveda si Atharvaveda, in Atharvaveda exista cele mai ample informatii medicale sub
 forma a 114 imnuri cuprinzand descrierea unor boli si tratamentul.
  Ayurveda este practic cel mai vechi sistem de medicina din lume, documentat
@@ -1743,7 +1728,7 @@ Carvi fructus – fructe ovoide – oblongi, usor arcuite, formate din doua ache
 carpofor bifidat. Au 3-7 mm lungime, 1-1,5 mm grosime, de culoare cenusie-bruna, fiecare
 achena avand cate 5 coaste bine distincte, echidistante, mai deschise la culoare. Culoarea
 achenelor este cenusie-bruna. Mirosul caracteristic, puternic aromat, gustul intepator, amarui.
-Fructele conţin 3-7% ulei volatil format din 50-60% carvona, 30% limonen, dehidrocarvona,
+Fructele conțin 3-7% ulei volatil format din 50-60% carvona, 30% limonen, dehidrocarvona,
 dihidrocarveol, 10-20% lipide, 20% substante albuminoide, 5-6% substante minerale, amidon,
 glucide, rezine, tanoizi etc.
 CIMBRUL
@@ -1875,18 +1860,18 @@ bruni. Sub epicarpul subtire se afla mezocarpul carnos, galben-verzui, cu trei s
 rar una sau doua, cu muchiile rotunjite. Mirosul este aromatic, mai pronuntat prin zdrobire,
 gustul dulceag caracteristic, apoi amarui.
 LA V ANDA
-Lavandulae flos – flori uscate desprinse de pe pedunculii inflorescenţelor, de culoare albastru-
-violet. Florile au bractee ovate, brune, membranoase, caliciul cilindric, păros şi glandulos, cu
-peri glandulari unicelulari sau 8-12 celulari, au 4-6 mm lungime şi diametrul de 3-4 mm; de
-culoare violet cenuşiu cu 10-15 nervuri paralele, cu 5 dinţi mici dintre care doi mai dezvoltaţi.
-Corola bilabiată, de 5-8 mm lungime, de culoare albastră-violetă, pubescentă şi glanduloasă,
+Lavandulae flos – flori uscate desprinse de pe pedunculii inflorescențelor, de culoare albastru-
+violet. Florile au bractee ovate, brune, membranoase, caliciul cilindric, păros și glandulos, cu
+peri glandulari unicelulari sau 8-12 celulari, au 4-6 mm lungime și diametrul de 3-4 mm; de
+culoare violet cenușiu cu 10-15 nervuri paralele, cu 5 dinți mici dintre care doi mai dezvoltați.
+Corola bilabiată, de 5-8 mm lungime, de culoare albastră-violetă, pubescentă și glanduloasă,
 cu tubul aproape drept. Labiul superior este bilobat, cel inferior trilobat cu lobii obtuzi.
 45
 
 ### Pagina 46
 
-Nuanţa florilor diferă de la albastru-violaceu până la albastru-deschis. Mirosul este plăcut,
-aromat, iar gustul uşor amărui
+Nuanța florilor diferă de la albastru-violaceu până la albastru-deschis. Mirosul este plăcut,
+aromat, iar gustul ușor amărui
 LEURDA
 Fiecare primavara aduce sperante in soare si caldura. Ne simtim iarasi veseli si plini de avant,
 ne bucuram de prima inverzire a naturii si de voiosia lumii pasarilor cu intreaga fiinta, ca de
@@ -2160,8 +2145,8 @@ secetoasa si marginile de sud ale padurilor de uscate, din planta tot va curge s
 galben-portocaliu, in cantitati suficiente. Dar si in timpul iernii, cand zapada acopera tot,
 putem gasi rostopasca daca ne-am intiparit in minte locul unde creste.
 ZMEURA
-Folium Rubi idaei – foliole ovat-lanceolate inegal dinţate pe margini fără peţiolul principal,
-de culoare verde pe suprafaţa superioară şi albă sau albă – cenuşie pe cea inferioară. Mirosul
+Folium Rubi idaei – foliole ovat-lanceolate inegal dințate pe margini fără pețiolul principal,
+de culoare verde pe suprafața superioară și albă sau albă – cenușie pe cea inferioară. Mirosul
 frunzelor uscate este plăcut, gustul astringent
 53
 
@@ -2251,79 +2236,79 @@ aprinde lumanarea. Se va avea grija ca atata timp cat lumanarea este aprinsa, fa
 ramana fara apa.
 Mucoasa olfactivă este singurul loc din organism unde sistemul nervos central intră în
 legătură directă cu lumea exterioară, fără o intermediere realizată de către "circuite" nervoase
-suplimentare. Datorită acestui fapt se poate spune că simţul mirosului este cel mai direct simţ
-al nostru, fiind astfel deosebit de celelalte cinci simţuri. Această caracteristică aparte explică
+suplimentare. Datorită acestui fapt se poate spune că simțul mirosului este cel mai direct simț
+al nostru, fiind astfel deosebit de celelalte cinci simțuri. Această caracteristică aparte explică
 55
 
 ### Pagina 56
 
-de altfel şi influenţa majoră pe care mirosul o poate exercita asupra stărilor psihice, legătura
-lui cu instincte fundamentale ale fiinţei (hrănirea, atracţia sexuală etc.), capacitatea lui de a ne
-induce cu rapiditate modificări la nivelul minţii.
+de altfel și influența majoră pe care mirosul o poate exercita asupra stărilor psihice, legătura
+lui cu instincte fundamentale ale ființei (hrănirea, atracția sexuală etc.), capacitatea lui de a ne
+induce cu rapiditate modificări la nivelul minții.
 Toate uleiurile volatile au un efect antiseptic la nivelul aparatului respirator, de aceea ele sunt
-în general indicate pentru afecţiuni respiratorii cum ar fi gripa, sinuzita, bronşita, TBC-ul etc.
+în general indicate pentru afecțiuni respiratorii cum ar fi gripa, sinuzita, bronșita, TBC-ul etc.
 Cel mai interesant efect al uleiurilor volatile naturale este însă cel asupra sistemului nervos,
-prin stările pe care aceste arome le pot induce. Alese şi folosite cu abilitate la timpul potrivit,
-acestea ne pot ajuta foarte mult în crearea ambianţei dorite, în amplificarea stării de sănătate,
-în generarea unor senzaţii şi stări agreabile în sfera aparent greu de influenţat a psihicului şi
-minţii.
-1. Bergamotă (Citrus bergamia) - Are un miros fin, înviorător, limpezeşte şi înalţă. Ca sedativ
-nervos este utilizat în depresii şi stări de anxietate.
-2. Brad (Abies alba) - Are un efect regenerator amplu, împrospătează şi ajută la evitarea
-suprasolicitării. Este în mod deosebit indicat celor care au tendinţa de a munci foarte mult
+prin stările pe care aceste arome le pot induce. Alese și folosite cu abilitate la timpul potrivit,
+acestea ne pot ajuta foarte mult în crearea ambianței dorite, în amplificarea stării de sănătate,
+în generarea unor senzații și stări agreabile în sfera aparent greu de influențat a psihicului și
+minții.
+1. Bergamotă (Citrus bergamia) - Are un miros fin, înviorător, limpezește și înalță. Ca sedativ
+nervos este utilizat în depresii și stări de anxietate.
+2. Brad (Abies alba) - Are un efect regenerator amplu, împrospătează și ajută la evitarea
+suprasolicitării. Este în mod deosebit indicat celor care au tendința de a munci foarte mult
 (până la extenuare).
-3. Busuioc (Ocimum basilicum) - Uleiul de busuioc limpezeşte mintea, conferă claritate
-mentală şi forţă interioară, înlătură oboseala intelectuală. Uleiul volatil de busuioc este unul
-din cele mai bune tonice nervoase. El poate fi folosit în special în afecţiunile asociate cu frică,
-slăbiciune, isterie. Renumitul fitoterapeut francez Jean Valnet îl recomandă în epilepsie şi
+3. Busuioc (Ocimum basilicum) - Uleiul de busuioc limpezește mintea, conferă claritate
+mentală și forță interioară, înlătură oboseala intelectuală. Uleiul volatil de busuioc este unul
+din cele mai bune tonice nervoase. El poate fi folosit în special în afecțiunile asociate cu frică,
+slăbiciune, isterie. Renumitul fitoterapeut francez Jean Valnet îl recomandă în epilepsie și
 paralizie.
-"Mirosul busuiocului este bun pentru inimă...alungă neliniştea care devine melancolie şi-l face
-pe om vesel şi bucuros"-John Gerard
+"Mirosul busuiocului este bun pentru inimă...alungă neliniștea care devine melancolie și-l face
+pe om vesel și bucuros"-John Gerard
 4. Eucalipt (Eucaliptus globulus) - Uleiul de eucalipt este unul din cele mai puternice uleiuri
 antiseptice. Un studiu realizat în fosta Uniune Sovietică în 1973 arată că el este foarte eficient
-împotriva virusurilor gripale A2 şi A. În plus, are acţiune expectorantă şi antispasmodică
-asupra tractului respirator. Este indicat în majoritatea afecţiunilor respiratorii. Mirosul
-eucaliptului facilitează concentrarea, înlătură oboseala şi durerea de cap congestivă. Conferă o
-stare de luciditate, armonie, pace interioară, inspiraţie.
-5. Muşcata dulce (Pelargonium odorantissimum) - Este un ulei care are atât rolul de a calma
+împotriva virusurilor gripale A2 și A. În plus, are acțiune expectorantă și antispasmodică
+asupra tractului respirator. Este indicat în majoritatea afecțiunilor respiratorii. Mirosul
+eucaliptului facilitează concentrarea, înlătură oboseala și durerea de cap congestivă. Conferă o
+stare de luciditate, armonie, pace interioară, inspirație.
+5. Mușcata dulce (Pelargonium odorantissimum) - Este un ulei care are atât rolul de a calma
 hiperexcitabilitatea nervoasă, nervozitatea, iritabilitatea persoanelor mai active, dinamice, cât
-şi cel de a dinamiza, de a elimina anxietatea, depresia fiinţelor mai pasive. Dacă nu puteţi găsi
-uleiul volatil în magazine fiind mai rar şi destul de scump, este recomandat să faceţi rost chiar
-de planta în sine. Muşcata dulce nu face flori la fel de frumoase ca muşcata obişnuită, dar este
-foarte rezistentă, atinge dimensiuni impresionante şi este suficient să fie expusă la soare
-puternic ori să se strivească între degete o frunză pentru a se obţine o aromatizare excelentă.
-6. Ienupăr (Juniperus communis) - În vechime, ienupărul era ars, la fel ca şi tămâia, pentru
-alungarea spriritelor rele. Uleiul de ienupăr are un efect de reechilibrare şi calmare în plan
+și cel de a dinamiza, de a elimina anxietatea, depresia ființelor mai pasive. Dacă nu puteți găsi
+uleiul volatil în magazine fiind mai rar și destul de scump, este recomandat să faceți rost chiar
+de planta în sine. Mușcata dulce nu face flori la fel de frumoase ca mușcata obișnuită, dar este
+foarte rezistentă, atinge dimensiuni impresionante și este suficient să fie expusă la soare
+puternic ori să se strivească între degete o frunză pentru a se obține o aromatizare excelentă.
+6. Ienupăr (Juniperus communis) - În vechime, ienupărul era ars, la fel ca și tămâia, pentru
+alungarea spriritelor rele. Uleiul de ienupăr are un efect de reechilibrare și calmare în plan
 
 ### Pagina 57
 
 psihic, fiind tonic al nervilor. Elimină stările depresive, anixietatea, stresul, grijile excesive.
-Conferă o stare de forţă interioară, încredere în sine. Reglează viaţa sentimentală şi ne
-scuteşte de oscilaţii. Este foarte recomandat persoanelor care trec cu uşurinţă de la o stare de
+Conferă o stare de forță interioară, încredere în sine. Reglează viața sentimentală și ne
+scutește de oscilații. Este foarte recomandat persoanelor care trec cu ușurință de la o stare de
 entuziasm la o stare astenică.
-7. Isop (Hissopus officinalis) - Uleiul de isop are o acţiune stimulatoare. Este un excelent
-tonic nervos, întăreşte şi încălzeşte corpul, dând o senzaţie de relaxare. Este util şi în
+7. Isop (Hissopus officinalis) - Uleiul de isop are o acțiune stimulatoare. Este un excelent
+tonic nervos, întărește și încălzește corpul, dând o senzație de relaxare. Este util și în
 tratamentul isteriei.
 8. Lavandă (Lavandula augustifolia sau. L. Officinalis) - Este cea mai renumită plantă pentru
-acţiunea ei asupra sistemului nervos central în depresii, apatie, insomnie, tensiune nervoasă,
-isterie. Conferă o stare de regenerare sufletească, prospeţime şi puritate interioară. Alungă
-gândurile negative. Mai este indicată în stări de panică, stres, iritabilitate, treceri bruşte de la o
+acțiunea ei asupra sistemului nervos central în depresii, apatie, insomnie, tensiune nervoasă,
+isterie. Conferă o stare de regenerare sufletească, prospețime și puritate interioară. Alungă
+gândurile negative. Mai este indicată în stări de panică, stres, iritabilitate, treceri bruște de la o
 stare la alta, depresie mintală, depresie maniacă, epuizare nervoasă.
-9. Menta (Mentha sp.) - Uleiul de mentă este revigorant, întăreşte nervii. Este eficient în
-isterie. Conferă fermitatea în acţiune, înlătură gândurile negative, generează o stare de uşurare
-interioară, stimulează şi purifică mintea.
-10. Pin (Pinus sp.) - Este un ulei care înlătură stările de oboseală şi de iritabilitate nervoasă
-cauzate de prea multă muncă, de lipsă de odihnă. Dă fiinţei o dispoziţie interiorizată,
-meditativă şi plină de forţă în acelaşi timp.
+9. Menta (Mentha sp.) - Uleiul de mentă este revigorant, întărește nervii. Este eficient în
+isterie. Conferă fermitatea în acțiune, înlătură gândurile negative, generează o stare de ușurare
+interioară, stimulează și purifică mintea.
+10. Pin (Pinus sp.) - Este un ulei care înlătură stările de oboseală și de iritabilitate nervoasă
+cauzate de prea multă muncă, de lipsă de odihnă. Dă ființei o dispoziție interiorizată,
+meditativă și plină de forță în același timp.
 11. Portocal (Citrus auratium) - Uleiul de portocal este unul dintre cele mai eficiente uleiuri
-sedativ-antidepresive. Este folosit în stări de frică faţă de evenimente neaşteptate, insomnie,
-isterie, stări de anxietate şi depresie. Determină apariţia unui sentiment de seninătate
-interioară, înţelegere şi deschidere faţă de ceilalţi.
-12. Trandafir (Rosa damascena sau R. centifolia) - Se spune că esenţa de trandafir ar fi
-"regina" uleiurilor volatile. Trandafirul este un simbol al iubirii, al purităţii, al graţiei. Despre
+sedativ-antidepresive. Este folosit în stări de frică față de evenimente neașteptate, insomnie,
+isterie, stări de anxietate și depresie. Determină apariția unui sentiment de seninătate
+interioară, înțelegere și deschidere față de ceilalți.
+12. Trandafir (Rosa damascena sau R. centifolia) - Se spune că esența de trandafir ar fi
+"regina" uleiurilor volatile. Trandafirul este un simbol al iubirii, al purității, al grației. Despre
 el se spune că ar fi răsărit din sângele lui Adonis, romanii credeau că a răsărit din sângele lui
 Venus, iar mahomedanii cred că a răsărit din sângele lui Mahomed. Conferă o stare de
-armonie, pace interioară. Trezeşte iubirea, reconfortează inima şi ascute mintea. Este calmant,
+armonie, pace interioară. Trezește iubirea, reconfortează inima și ascute mintea. Este calmant,
 antidepresiv, fiind indicat în insomnie, iritabilitate nervoasă, depresie.
 57
 
@@ -2332,18 +2317,18 @@ antidepresiv, fiind indicat în insomnie, iritabilitate nervoasă, depresie.
 Cursul 8
  SHIATSU, Presopunctura
 Studiul Shiatsu va permite ca mintea, corpul si spiritul sa intre în armonie, astfel încât
-să poti sa te uiti, sa simţi şi sa fii mai sănătos, precum şi a-i ajuti pe altii. Shiatsu este o
-metoda care ne permite să dam şi să primim îngrijire, caldura si vindecare prin atingere
-nedureroasa. Rolul său potenţial în cadrul societăţii este în creştere, pentru totdeauna pentru
-ca plecam de la comunicarea directă cu caracter personal şi de contact tactil uman.
-La fel ca acupunctura, shiatsu se bazează pe sistem holistic de medicina tradiţională
+să poti sa te uiti, sa simți și sa fii mai sănătos, precum și a-i ajuti pe altii. Shiatsu este o
+metoda care ne permite să dam și să primim îngrijire, caldura si vindecare prin atingere
+nedureroasa. Rolul său potențial în cadrul societății este în creștere, pentru totdeauna pentru
+ca plecam de la comunicarea directă cu caracter personal și de contact tactil uman.
+La fel ca acupunctura, shiatsu se bazează pe sistem holistic de medicina tradițională
 chineză, în cazul în care boala este considerata ca rezultat al dezechilibrelor din fluxul natural
-al energiei, qi (pronunţat "Chee"), prin corp.
-Practicianul Shiatsu aplică presiune folosind degetele sale şi / sau palmele într-o secvenţă
+al energiei, qi (pronunțat "Chee"), prin corp.
+Practicianul Shiatsu aplică presiune folosind degetele sale și / sau palmele într-o secvență
 continuă ritmic.
-Presiunea se simte localizat pentru că spre deosebire de alte tipuri de masaj, aplicaţiile cu
+Presiunea se simte localizat pentru că spre deosebire de alte tipuri de masaj, aplicațiile cu
 degetele sunt utilizate pentru a aplica o presiune in cea mai mare parte a tratamentelor.
-Cei mai mulţi oameni spun ca shiatsu este mai relaxant decat formele clasice de terapie prin
+Cei mai mulți oameni spun ca shiatsu este mai relaxant decat formele clasice de terapie prin
 masaj.
 Tratamentul se face pe o masă de masaj sau pe podea.
 Shiatsu este un stil de masaj fondat in Japonia prin combinarea de tehnici de masaj

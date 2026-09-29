@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Gat - Gura\\Dureri de gat.rtf"
-source_relative_path: "retete naturiste de sanatate\\Gat - Gura\\Dureri de gat.rtf"
-source_sha256: "2a9a52048292c82b2792b8a2856aef53f0a242a612415506984b22ef363167bc"
-source_size_bytes: 4616
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 1493
-status: "ok"
----
-
-# Dureri de gat.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;Times New Roman CE;Times New Roman Cyr;
 
 Times New Roman Greek;Times New Roman Tur;Times New Roman (Hebrew);Times New Roman (Arabic);

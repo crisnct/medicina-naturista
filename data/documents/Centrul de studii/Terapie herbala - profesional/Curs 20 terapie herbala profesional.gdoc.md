@@ -1,90 +1,74 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 20 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 20 terapie herbala profesional.gdoc"
-source_pointer_sha256: "0d20e9491759cafb4555d5b7ea9d62a5e51ae851f1fbe112be261b385173ad07"
-source_pointer_bytes: 181
-google_doc_id: "1uD8mGQv9z3viIzLkGjtxo_XjFghPI75prPUS3zJoMyA"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 20 terapie herbala profesional
-
-## Conținut extras
-
 Curs 20
 
 Programul de curatare a intestinelor
 
-Dacă ne uităm de jur împrejur în toaleta unei familii, găsim foarte multe cosmetice.Găsim diferite soluţii pentru curăţarea şi tratarea pielii, ale mâinilor, ale picioarelor, al părului, al feţei şi al dentiţiei. Nici cantitatea de medicamente regăsită în farmacia casnică a familiilor nu este puţină, mai ales dacă calculăm şi aşa numitele suplimente nutriţionale şi vitamine, respectiv preparatele cu efect farmaceutic. O parte dintre toate acestea devin inutile dacă efectuăm o cură de curăţarea intestinului şi reuşim să eliminăm cantitatea de material care s-a depus în colon.
+Dacă ne uităm de jur împrejur în toaleta unei familii, găsim foarte multe cosmetice.Găsim diferite soluții pentru curățarea și tratarea pielii, ale mâinilor, ale picioarelor, al părului, al feței și al dentiției. Nici cantitatea de medicamente regăsită în farmacia casnică a familiilor nu este puțină, mai ales dacă calculăm și așa numitele suplimente nutriționale și vitamine, respectiv preparatele cu efect farmaceutic. O parte dintre toate acestea devin inutile dacă efectuăm o cură de curățarea intestinului și reușim să eliminăm cantitatea de material care s-a depus în colon.
 
-Oricât de mare atenţie acordăm sănătăţii noastre şi alimentaţiei sănătoase , până la maturitate în organismul nostru inevitabil se vor acumula substanţe care dăunează sănătăţii, sau împiedică funcţionarea normală a organsimului. Toate acestea deteriorează în mod semnificativ starea noastră generală.Acest fenomen dăunător, îşi exercită treptat efectul, astfel ne vom obişnui cu aceste efecte şi ne vom găndi, că de fapt nici nu avem probleme. Dar există multe simptome de care am putea scăpa uşor prin folosirea unei cure pentru curăţarea intestinului.
+Oricât de mare atenție acordăm sănătății noastre și alimentației sănătoase , până la maturitate în organismul nostru inevitabil se vor acumula substanțe care dăunează sănătății, sau împiedică funcționarea normală a organsimului. Toate acestea deteriorează în mod semnificativ starea noastră generală.Acest fenomen dăunător, își exercită treptat efectul, astfel ne vom obișnui cu aceste efecte și ne vom găndi, că de fapt nici nu avem probleme. Dar există multe simptome de care am putea scăpa ușor prin folosirea unei cure pentru curățarea intestinului.
 
-Nici în cazul în care consumăm legume cultivate, sau carnea animalelor crescute de noi înşine nu putem fi siguri de faptul că nu va ajunge nici un fel de substanţă dăunătoare în organismul nostru. Substanţele cu efect dăunător se vor acumula cu timpul şi vor fi cauzatoare ale unor probleme mai uşoare sau mai severe**. Administrarea unei cure adecvate pentru curăţarea intestinului poate diminua semnificativ aceste probleme sau în multe cazuri chiar le poate anihila pe acestea.**
+Nici în cazul în care consumăm legume cultivate, sau carnea animalelor crescute de noi înșine nu putem fi siguri de faptul că nu va ajunge nici un fel de substanță dăunătoare în organismul nostru. Substanțele cu efect dăunător se vor acumula cu timpul și vor fi cauzatoare ale unor probleme mai ușoare sau mai severe**. Administrarea unei cure adecvate pentru curățarea intestinului poate diminua semnificativ aceste probleme sau în multe cazuri chiar le poate anihila pe acestea.**
 
-Există multe simptome inofensive, care pot fi considerate în cel mai rău caz neplăcute, care pot fi eliminate prin administrarea curei de curăţarea intestinului. Prin cura pentru curăţarea intestinului însă ne putem scăpa nu numai doar de unele neplăceri. Cu ajutorul unei cure pentru curăţarea intestinului bine programată şi organizată, pot fi prevenite şi unele îmbolnăviri serioase.
+Există multe simptome inofensive, care pot fi considerate în cel mai rău caz neplăcute, care pot fi eliminate prin administrarea curei de curățarea intestinului. Prin cura pentru curățarea intestinului însă ne putem scăpa nu numai doar de unele neplăceri. Cu ajutorul unei cure pentru curățarea intestinului bine programată și organizată, pot fi prevenite și unele îmbolnăviri serioase.
 
-Multe simptome ne facsiguri că a sosit vremea **curăţării intestinale.** Dacă dintre aceste simptome apar doar unul sau două, deja este o cauză suficientă de a începe cura de curăţarea intestinului.
+Multe simptome ne facsiguri că a sosit vremea **curățării intestinale.** Dacă dintre aceste simptome apar doar unul sau două, deja este o cauză suficientă de a începe cura de curățarea intestinului.
 
-La maturitate aproape fiecare dintre noi prezintă diverse probleme legate de digestie. Unele prezintă constipaţie, altele au probleme legate de diaree, balonare, hiperaciditate, supraponderenţă sau din contră pierdere ponderală patologică. Administrarea unei cure adecvate pentru curăţarea intestinului în multe dintre cazuri poate constitui o soluţie în rezolvarea acestor probleme de digestie.
+La maturitate aproape fiecare dintre noi prezintă diverse probleme legate de digestie. Unele prezintă constipație, altele au probleme legate de diaree, balonare, hiperaciditate, supraponderență sau din contră pierdere ponderală patologică. Administrarea unei cure adecvate pentru curățarea intestinului în multe dintre cazuri poate constitui o soluție în rezolvarea acestor probleme de digestie.
 
-Se poate întâmpla că simptomele ce apar, aparent nu pot fi corelate cu starea colonului. Dintre acestea fac parte simptomele tegumentare, cefaleea frecventă, starea de oboseală sau starea de indisponibilitate generală. De multe ori aceste simptome pot fi eliminate prin ajutorul administrării unei cure pentru curăţarea intestinului. La baza unor îmbolnăviri frecvente cum ar fi –răceala, viroza respiratorie- stau de asemenea depunerile de la nivelul intestinelor. Acestea pot fi soluţionate de asemenea prin cura pentru curăţarea intestinului.
+Se poate întâmpla că simptomele ce apar, aparent nu pot fi corelate cu starea colonului. Dintre acestea fac parte simptomele tegumentare, cefaleea frecventă, starea de oboseală sau starea de indisponibilitate generală. De multe ori aceste simptome pot fi eliminate prin ajutorul administrării unei cure pentru curățarea intestinului. La baza unor îmbolnăviri frecvente cum ar fi –răceala, viroza respiratorie- stau de asemenea depunerile de la nivelul intestinelor. Acestea pot fi soluționate de asemenea prin cura pentru curățarea intestinului.
 
-În caz normal, când alimentele consumate trec prin tractul digestiv, nutrimentele sunt absorbite şi folosite, iar reziduurile digestive vor fi eliminate din organsim. Eliminarea reziduurilor însă nu este completă.
+În caz normal, când alimentele consumate trec prin tractul digestiv, nutrimentele sunt absorbite și folosite, iar reziduurile digestive vor fi eliminate din organsim. Eliminarea reziduurilor însă nu este completă.
 
-O parte a reziduurilor se va depune pe peretele colonului. Aceste depuneri nu numai că împiedică absorbţia nutrimentelor, dar se pot absorbi din ele substanţe dăunătoare sănătăţii. Ideea principală a programului pentru curăţarea colonului este aceea de a elimina depunerile de pe pereţii colonului.
+O parte a reziduurilor se va depune pe peretele colonului. Aceste depuneri nu numai că împiedică absorbția nutrimentelor, dar se pot absorbi din ele substanțe dăunătoare sănătății. Ideea principală a programului pentru curățarea colonului este aceea de a elimina depunerile de pe pereții colonului.
 
-Îndepărtarea depunerilor din intestine este importantă şi datorită faptului că aceste depuneri reprezintă un depozit de bacterii patogene şi paraziţi.
+Îndepărtarea depunerilor din intestine este importantă și datorită faptului că aceste depuneri reprezintă un depozit de bacterii patogene și paraziți.
 
-Pe durata curăţării intestinale se vor elibera depunerile, eventual paraziţi, de asemenea ouăle şi larvele acestora.
+Pe durata curățării intestinale se vor elibera depunerile, eventual paraziți, de asemenea ouăle și larvele acestora.
 
-Organismul se va elibera de acele substanţe care afectează în mod nefavorabil procesul de digestie şi de absorbţie sau au efect de intoxicare asupra organismului. Prin cura pentru curăţarea intestinului procesele de digestie se vor optimaliza, nutrimentele introduse vor fi folosite într-un mod eficient, astfel se va îmbunătăţi disponibilitatea generală.
+Organismul se va elibera de acele substanțe care afectează în mod nefavorabil procesul de digestie și de absorbție sau au efect de intoxicare asupra organismului. Prin cura pentru curățarea intestinului procesele de digestie se vor optimaliza, nutrimentele introduse vor fi folosite într-un mod eficient, astfel se va îmbunătăți disponibilitatea generală.
 
-Mulţi oameni auzind de substanţă pentru curăţarea intestinului se gândesc la irigarea intestinală din spitale cu toate durerile, disconforturile acestuia.
+Mulți oameni auzind de substanță pentru curățarea intestinului se gândesc la irigarea intestinală din spitale cu toate durerile, disconforturile acestuia.
 
-Diareea constituie parte integrată a metodelor de curăţarea intestinului aplicate în afara spitalelor, dar fenomenul nici pe departe nu este atât de intensiv cum sunt metodele spitaliceşti. Acest fenomen în cele mai multe cazuri nu este uşor integrabil între activităţile cotidiene.
+Diareea constituie parte integrată a metodelor de curățarea intestinului aplicate în afara spitalelor, dar fenomenul nici pe departe nu este atât de intensiv cum sunt metodele spitalicești. Acest fenomen în cele mai multe cazuri nu este ușor integrabil între activitățile cotidiene.
 
-În cazul aplicării unor metode de curăţarea intestinului, trebuie urmat un regim de alimentaţie special. De asemenea, trebuie ţinut cont deosebit de urmărirea exactă a tuturor instrucţiilor prescrise. Toate acestea pot fi complicate şi cauzatoare de disconfort.
+În cazul aplicării unor metode de curățarea intestinului, trebuie urmat un regim de alimentație special. De asemenea, trebuie ținut cont deosebit de urmărirea exactă a tuturor instrucțiilor prescrise. Toate acestea pot fi complicate și cauzatoare de disconfort.
 
-Din păcate în multe cazuri nici pe lângă urmărirea celor prescrise şi suportarea efectelor adverse, cura pentru curăţarea intestinului nu se dovedeşte a fi destul de eficienta. Nu aduce efectul dorit, nici curăţarea completă, nici senzaţia de eliberare care apare în urma curăţării.
+Din păcate în multe cazuri nici pe lângă urmărirea celor prescrise și suportarea efectelor adverse, cura pentru curățarea intestinului nu se dovedește a fi destul de eficienta. Nu aduce efectul dorit, nici curățarea completă, nici senzația de eliberare care apare în urma curățării.
 
-În cazul în care te-ai întâlnit cu oricare dintre efectele nedorite enumerate mai sus, nu ai folosit produsul adecvat pentru curăţarea intestinului, deoarece curăţarea intestinului în mod normal trebuie să fie un proces mult mai simplu.
+În cazul în care te-ai întâlnit cu oricare dintre efectele nedorite enumerate mai sus, nu ai folosit produsul adecvat pentru curățarea intestinului, deoarece curățarea intestinului în mod normal trebuie să fie un proces mult mai simplu.
 
-Pe durata utilizării curei de curăţarea intestinului vor dispărea problemele legate de digestie şi de defecare, durerile şi senzaţiile de disconfort şi chiar şi simptomele cele mai severe. În faza iniţială a curăţării intestinelor se poate observa o scurtă perioadă de stare generală proastă, care însă nu peste mult timp va fi schimbată de senzaţia de eliberare. Individul care se află sub tratamentul de curăţarea intestinului devine energizat şi va avea senzaţia de odihnă şi nu se epuizează. Trec simptomele de migrena, pielea devine catifelată şi netedă, iar părul devine mai sănătos. După eliminarea reziduurilor de la nivelul colonului vom deveni mai uşori în sensul strict al cuvântului şi abdomenul devine plat.
+Pe durata utilizării curei de curățarea intestinului vor dispărea problemele legate de digestie și de defecare, durerile și senzațiile de disconfort și chiar și simptomele cele mai severe. În faza inițială a curățării intestinelor se poate observa o scurtă perioadă de stare generală proastă, care însă nu peste mult timp va fi schimbată de senzația de eliberare. Individul care se află sub tratamentul de curățarea intestinului devine energizat și va avea senzația de odihnă și nu se epuizează. Trec simptomele de migrena, pielea devine catifelată și netedă, iar părul devine mai sănătos. După eliminarea reziduurilor de la nivelul colonului vom deveni mai ușori în sensul strict al cuvântului și abdomenul devine plat.
 
 **Programul de curatare cu sucuri**
 
-După doar un weekend de sucuri naturale, organismul va elimina toxinele şi va deveni mai sănătos.
+După doar un weekend de sucuri naturale, organismul va elimina toxinele și va deveni mai sănătos.
 
-Poti folosi sucurile în combinaţie cu orice dietă sau atunci când nu urmeziun plan anume pentru a adăuga varietate şi o infuzie de nutrienţi dietei obişnuite.
+Poti folosi sucurile în combinație cu orice dietă sau atunci când nu urmeziun plan anume pentru a adăuga varietate și o infuzie de nutrienți dietei obișnuite.
 
-Suc verde de lămâie şi varză
+Suc verde de lămâie și varză
 
-Începe programul de detoxifiere cu un suc verde de lămâie şi varză. Plin de clorofilă, potasiu, pectină şi vitamina C, acest cockteil verde va accelera eliminarea toxinelor din organism. Varza verde creaţă este o o sursă bogată de glucozinolaţi, care sunt detoxifianţi puternici, şi este plină de substanţe fitochimice anticancerigene puternice, cum este sulforafanul, un compus al sulfului.
+Începe programul de detoxifiere cu un suc verde de lămâie și varză. Plin de clorofilă, potasiu, pectină și vitamina C, acest cockteil verde va accelera eliminarea toxinelor din organism. Varza verde creață este o o sursă bogată de glucozinolați, care sunt detoxifianți puternici, și este plină de substanțe fitochimice anticancerigene puternice, cum este sulforafanul, un compus al sulfului.
 
-Ai nevoie de două tulpini de ţelină, trei pumni mari de frunze de varză creaţă, două mere şi o lămâie decojită. Se storc toate fructele şi legumele şi se amestecă.
+Ai nevoie de două tulpini de țelină, trei pumni mari de frunze de varză creață, două mere și o lămâie decojită. Se storc toate fructele și legumele și se amestecă.
 
-Analiza nutriţională pentru o porţie: calorii \- 124 kcal, proteine \- 6,3 g, carbohidraţi \- 19,6 g (din care 18,5 zaharuri), grăsimi \- 2,8 g.
+Analiza nutrițională pentru o porție: calorii \- 124 kcal, proteine \- 6,3 g, carbohidrați \- 19,6 g (din care 18,5 zaharuri), grăsimi \- 2,8 g.
 
-Cockteil răcoritor din pere şi ghimbir
+Cockteil răcoritor din pere și ghimbir
 
-Acest cockteil este revigorant şi are multe beneficii pentru sănătate. Para este un laxativ uşor, în timp ce ghimbirul dă un implus sistemului digestiv lent. Castravetele împrospătează şi hidratează, iar lămâia, bogată în vitamina C şi pectină este un întăritor cu rol antioxidant, stimulează detoxifierea şi digestia şi poate lupta împotriva celulelor canceroase.
+Acest cockteil este revigorant și are multe beneficii pentru sănătate. Para este un laxativ ușor, în timp ce ghimbirul dă un implus sistemului digestiv lent. Castravetele împrospătează și hidratează, iar lămâia, bogată în vitamina C și pectină este un întăritor cu rol antioxidant, stimulează detoxifierea și digestia și poate lupta împotriva celulelor canceroase.
 
-Ai nevoie de o jumătate de lămâie, 2,5 cm dintr-o rădăcină de ghimbir decojită, jumătate de castravete şi o pară. Se storc toate ingredientele şi se bea sucul cu gheaţă, ornat cu o felie de castravete.
+Ai nevoie de o jumătate de lămâie, 2,5 cm dintr-o rădăcină de ghimbir decojită, jumătate de castravete și o pară. Se storc toate ingredientele și se bea sucul cu gheață, ornat cu o felie de castravete.
 
-Analiza nutriţională pentru o porţie: calorii \- 70 kcal, proteine \- 1 g, carbohidraţi \- 16,7 g (din care 16,5 zaharuri), grăsimi \- 0,2 g.
+Analiza nutrițională pentru o porție: calorii \- 70 kcal, proteine \- 1 g, carbohidrați \- 16,7 g (din care 16,5 zaharuri), grăsimi \- 0,2 g.
 
 Detoxifiant cu ananas
 
-Dacă te simţi lipsit de vitalitate, încearcă o combinaţie de ananas, fenicul, aloe vera şi ghimbir care detoxifiază şi vindecă. Ananasul conţine enzima vindecătoare numită bromelaina care ajută la descompunerea proteinelor, reduce inflamaţiile şi favorizează digestia. Feniculul conţine uleiuri esenţiale precum anetolul, care sunt diuretice şi ajută organismul să elimine lichidele în exces, pentru a te face să te simţi mai uşor.
+Dacă te simți lipsit de vitalitate, încearcă o combinație de ananas, fenicul, aloe vera și ghimbir care detoxifiază și vindecă. Ananasul conține enzima vindecătoare numită bromelaina care ajută la descompunerea proteinelor, reduce inflamațiile și favorizează digestia. Feniculul conține uleiuri esențiale precum anetolul, care sunt diuretice și ajută organismul să elimine lichidele în exces, pentru a te face să te simți mai ușor.
 
-Aloe vera este antibacteriană şi antifungică, contribuind astfel la întărirea sistemului imunitar, şi are puternice proprietăţi de detoxifiere. Nu în ultimul rând, ghimbirul este bine cunoscut pentru faptul că vine în sprijinul aparatului digestiv.
+Aloe vera este antibacteriană și antifungică, contribuind astfel la întărirea sistemului imunitar, și are puternice proprietăți de detoxifiere. Nu în ultimul rând, ghimbirul este bine cunoscut pentru faptul că vine în sprijinul aparatului digestiv.
 
-Ai nevoie de jumătate de ananas fără coajă, 2 mere, 1 bulb de fenicul, 2,5 cm de rădăcină de ghimbir curăţată şi o linguriţă de suc de aloe vera. Se storc ananasul, merele, feniculul şi ghimbirul.Se toarnă sucul într-un blender împreună cu aloe vera şi se amestecă.Apoi se serveşte cu gheaţă.
+Ai nevoie de jumătate de ananas fără coajă, 2 mere, 1 bulb de fenicul, 2,5 cm de rădăcină de ghimbir curățată și o linguriță de suc de aloe vera. Se storc ananasul, merele, feniculul și ghimbirul.Se toarnă sucul într-un blender împreună cu aloe vera și se amestecă.Apoi se servește cu gheață.
 
-Analiza nutriţională pentru o porţie: calorii \- 126 kcal, proteine \- 2 g, carbohidraţi \- 129,3 g (din care 28,4 zaharuri), grăsimi \- 0,7 g.
+Analiza nutrițională pentru o porție: calorii \- 126 kcal, proteine \- 2 g, carbohidrați \- 129,3 g (din care 28,4 zaharuri), grăsimi \- 0,7 g.
 
 **Semne ca trebuie sa-ti detoxifiezi corpul:**
 
@@ -402,9 +386,9 @@ Compozitie:- extract hidroalcoolic din : Silur-Euphrasia rostkoviana, Craite-Tag
 
 Proprietati:- antiinflamatoare, antiseptică, astringentă, protectoare a celulei vizuale, antiedematoasă.
 
-Uz:Intern:-30 picături Tinctură Oftalmică dizolvată în Ceai Oftalmic, de 3 ori pe zi. Extern: 10 picături Tinctură Oftalmică dizolvată în Ceai Oftalmic. Se pune pe ochii închişi sub formă de comprese sterile, timp de 30 minute. Operaţia se repetă zilnic până la rezolvarea problemelor oculare.
+Uz:Intern:-30 picături Tinctură Oftalmică dizolvată în Ceai Oftalmic, de 3 ori pe zi. Extern: 10 picături Tinctură Oftalmică dizolvată în Ceai Oftalmic. Se pune pe ochii închiși sub formă de comprese sterile, timp de 30 minute. Operația se repetă zilnic până la rezolvarea problemelor oculare.
 
-Recomandari:Tinctura Oftalmică are rol adjuvant în: creşterea acuităţii vizuale, îngrijirea sănătăţii ochilor, prevenirea bolilor şi în tratamentele oculare. Întăreşte imunitatea ochilor împotriva agenţilor infecţioşi, înlătură scurgerile oculare, ajută la vindecarea traumatismelor care s-ar putea transforma în boli, redă expersivitatea normală a ochilor la persoanele înaintate în vârstă şi la cei care citesc noaptea, ajută la vindecarea conjuctivitelor şi inflamaţiilor oculare.
+Recomandari:Tinctura Oftalmică are rol adjuvant în: creșterea acuității vizuale, îngrijirea sănătății ochilor, prevenirea bolilor și în tratamentele oculare. Întărește imunitatea ochilor împotriva agenților infecțioși, înlătură scurgerile oculare, ajută la vindecarea traumatismelor care s-ar putea transforma în boli, redă expersivitatea normală a ochilor la persoanele înaintate în vârstă și la cei care citesc noaptea, ajută la vindecarea conjuctivitelor și inflamațiilor oculare.
 
 29\. Tinctura slabire
 
@@ -412,29 +396,29 @@ Compozitie:- extract hidroalcoolic din : Crusin-Frangula alnus, Volbura-Convolvu
 
 Proprietati:- depurativ, diuretic, laxativ.
 
-Uz:Intern:- 3 linguriţe pe zi , dizolvate în Ceai de Slăbire neîndulcit sau îndulcit cu miere de albine, după mesele principale, în cure de 6 săptămâni, pauză 7 zile şi cura se poate repeta. Extern:- 1 lingură tinctură în apa pentru baia generală.
+Uz:Intern:- 3 lingurițe pe zi , dizolvate în Ceai de Slăbire neîndulcit sau îndulcit cu miere de albine, după mesele principale, în cure de 6 săptămâni, pauză 7 zile și cura se poate repeta. Extern:- 1 lingură tinctură în apa pentru baia generală.
 
-Recomandari:Tinctura pentru slăbit ajută la reducerea în greutate, dar trebuie corelată cu o alimentaţie săracă în grăsimi şi glucide, cu munca fizica, gimnastica si sport. În cazul obezităţii se recomandă şi zile de repaus alimentar.
+Recomandari:Tinctura pentru slăbit ajută la reducerea în greutate, dar trebuie corelată cu o alimentație săracă în grăsimi și glucide, cu munca fizica, gimnastica si sport. În cazul obezității se recomandă și zile de repaus alimentar.
 
 30\. Tinctura antialcool
 
-Compozitie:Ingrediente: Sunătoare \- Hypericum perforatum, Cătină-albă \- Hippophae rhamnoides, Pedicuţă \- Lycopodium clavatum, Păpădie \- Taraxacum officinale, Brusture \- Arctium lappa, Salcie \- Salix alba şi Cimbrişor \- Thymus serpyllum.
+Compozitie:Ingrediente: Sunătoare \- Hypericum perforatum, Cătină-albă \- Hippophae rhamnoides, Pedicuță \- Lycopodium clavatum, Păpădie \- Taraxacum officinale, Brusture \- Arctium lappa, Salcie \- Salix alba și Cimbrișor \- Thymus serpyllum.
 
-Proprietăţi: energizante, vitaminizante şi mineralizante (corectează carenţele de vitamine şi minerale caracteristice persoanelor dependente de alcool), sedative, antidepresive, depurative, calmează dorinţa de băuturi alcoolice şi provoacă dezgust sau aversiune faţă de alcool.
+Proprietăți: energizante, vitaminizante și mineralizante (corectează carențele de vitamine și minerale caracteristice persoanelor dependente de alcool), sedative, antidepresive, depurative, calmează dorința de băuturi alcoolice și provoacă dezgust sau aversiune față de alcool.
 
-Mod de folosire: Pentru adulţi, 1 linguriţă Tinctură Antialcool de 3 ori pe zi, dizolvată în Ceai Antialcool. Cura este de lungă durată. Poate alterna cu capsule Antialcool.
+Mod de folosire: Pentru adulți, 1 linguriță Tinctură Antialcool de 3 ori pe zi, dizolvată în Ceai Antialcool. Cura este de lungă durată. Poate alterna cu capsule Antialcool.
 
-Recomandari:Adjuvanta în tratamentul alcoolismului cronic şi acut, migrene şi tulburări de memorie caracteristice dependenţei de alcool. Tratamentul trebuie însoţit de o alimentaţie sănătoasă, de odihnă corespunzătoare şi de o voinţă puternică
+Recomandari:Adjuvanta în tratamentul alcoolismului cronic și acut, migrene și tulburări de memorie caracteristice dependenței de alcool. Tratamentul trebuie însoțit de o alimentație sănătoasă, de odihnă corespunzătoare și de o voință puternică
 
 31\. Tincturacontra caderii parului
 
 Compozitie:- extract hidroalcoolic din : Mesteacan-Betula verrucosa, Urzica-mare-Urtica dioica, Nuc-Juglans regia, Salvie-Salvia officinalis, Brusture-Arctium lappa.
 
-Proprietati:- tonic capilar, stimulator al circulaţiei periferice.
+Proprietati:- tonic capilar, stimulator al circulației periferice.
 
-Uz:Extern :masaje zilnice cu tinctură. După spălare se clăteşte părul cu apă în care s-a adăugat tinctura. Alături de tratamentul extern recomandăm şi un tratament intern cu următoarele ceaiuri: Mesteacăn, Urzică, Hamei, Salvie, Brusture, Nuc, Stejar şi Ţintaura.
+Uz:Extern :masaje zilnice cu tinctură. După spălare se clătește părul cu apă în care s-a adăugat tinctura. Alături de tratamentul extern recomandăm și un tratament intern cu următoarele ceaiuri: Mesteacăn, Urzică, Hamei, Salvie, Brusture, Nuc, Stejar și Țintaura.
 
-Recomandari:Produsul are rol adjuvant în tonifierea firului de păr, eliminarea mătreţii şi seboreei. Tinctura contra căderii părului are rol în stimularea circulaţiei periferice.
+Recomandari:Produsul are rol adjuvant în tonifierea firului de păr, eliminarea mătreții și seboreei. Tinctura contra căderii părului are rol în stimularea circulației periferice.
 
 32\. Tinctura antiacneica
 
@@ -442,9 +426,9 @@ Compozitie:- extract hidroalcoolic din : Sunatoare-Hypericum perforatum, scoarta
 
 Proprietati:- antiseptică, vasoconstrictoare, emolientă, calmantă, astringentă.
 
-Uz: Extern- se tamponează cu tinctură regiunile cu acnee (faţă, umeri, piept) de 2-3 ori pe zi. Tratamentul extern se asociază cu tratamentul intern (ceaiuri depurative, cicoare, gălbenele, brusture, muşeţel).
+Uz: Extern- se tamponează cu tinctură regiunile cu acnee (față, umeri, piept) de 2-3 ori pe zi. Tratamentul extern se asociază cu tratamentul intern (ceaiuri depurative, cicoare, gălbenele, brusture, mușețel).
 
-Recomandari:Produsul are un rol adjuvant în toate cazurile de acnee, datorită proprietăţilor sale antiseptice, vasoconstrictoare, emoliente, calmante şi astringente.
+Recomandari:Produsul are un rol adjuvant în toate cazurile de acnee, datorită proprietăților sale antiseptice, vasoconstrictoare, emoliente, calmante și astringente.
 
 33\. Tinctura antistres
 
@@ -452,29 +436,29 @@ Compozitie:- extract hidroalcoolic din : Tei-Tilia cordata, Sunatoare-Hypericum 
 
 Proprietati:- sedativ al sistemului nervos central, tonifiant a celulei nervoase .
 
-Uz:Intern:- 10-15 picături de 3 ori pe zi, ultima doză seara înainte de culcare, dizolvate în Ceai Antistres sau în puţină apă. Se foloseşte cu regularitate o perioadă îndelungată, nefiind dăunătoare organismului. Extern:- băi generale în care se adaugă tinctura. Ceaiul şi tinctura se pot completa sau înlocui cu capsule Hyper Stres.
+Uz:Intern:- 10-15 picături de 3 ori pe zi, ultima doză seara înainte de culcare, dizolvate în Ceai Antistres sau în puțină apă. Se folosește cu regularitate o perioadă îndelungată, nefiind dăunătoare organismului. Extern:- băi generale în care se adaugă tinctura. Ceaiul și tinctura se pot completa sau înlocui cu capsule Hyper Stres.
 
-Recomandari:Adjuvant în oboseală, stres, insomnie, stări de agitaţie nervoasă, tulburări cardiace şi digestive cu substrat nervos
+Recomandari:Adjuvant în oboseală, stres, insomnie, stări de agitație nervoasă, tulburări cardiace și digestive cu substrat nervos
 
 34\. Tinctura antidiabetica
 
 Compozitie:- extract hidroalcoolic din : Fasole-Phaseolus vulgaris, Afin-Vaccinium myrtillus, Mesteacan-Betula verrucosa, Urzica-mare-Urtica dioica, Dud-negru- Morus nigra, Trei-frati-patati-Viola tricolor;
 
-Proprietati:- hipoglicemiantă, diuretică, depurativă, stimularea circulaţiei periferice.
+Proprietati:- hipoglicemiantă, diuretică, depurativă, stimularea circulației periferice.
 
-Uz:- câte 30 picături de 3 ori pe zi , dizolvate în Ceai Antidiabetic fierbinte; se lasă 10 minute pentru a se evapora alcoolul apoi se bea. Se poate asocia cu capsule Hyper-Diab, capsule Momyrtidiab şi sirop Momyrtidiab.
+Uz:- câte 30 picături de 3 ori pe zi , dizolvate în Ceai Antidiabetic fierbinte; se lasă 10 minute pentru a se evapora alcoolul apoi se bea. Se poate asocia cu capsule Hyper-Diab, capsule Momyrtidiab și sirop Momyrtidiab.
 
-Recomandari: Adjuvant în scăderea glicemiei la persoanele cu glicemia crescută(hipoglicemiant), stimularea funcţiei pancreasului pentru producerea de insulină; regenerarea celulelor pancreasului endocrin, ameliorarea afecţiunilor vasculare care însoţesc diabetul zaharat (retinopatia diabetică, hipertensiune arterială, flebită, arterită).
+Recomandari: Adjuvant în scăderea glicemiei la persoanele cu glicemia crescută(hipoglicemiant), stimularea funcției pancreasului pentru producerea de insulină; regenerarea celulelor pancreasului endocrin, ameliorarea afecțiunilor vasculare care însoțesc diabetul zaharat (retinopatia diabetică, hipertensiune arterială, flebită, arterită).
 
 35\. Tinctura antihelmintica
 
 Compozitie:- extract hidroalcoolic din: Pelin-Artemisa absinthium, Ghintura-Gentiana asclepiadea, Tintaura-Centaurium erythrea, Cicoare-Cichorium intybus, Iarba mare-Inula helenium, Crusin-Frangula alnus, Cimbrisor-Thymus serpyllum, Musetel-Matricaria chamomilla, Vetrice-Tanacetum vulgare;
 
-Proprietati:- antihelmintică, vermifugă şi vermicidă, antiinflamatore, diuretică.
+Proprietati:- antihelmintică, vermifugă și vermicidă, antiinflamatore, diuretică.
 
-Uz:- pentru copii sub 4 ani se recomandă câte 10 picături, de 3 ori pe zi, dizolvate în 100 ml Ceai Antihelmintic; pentru copii peste 4 ani se recomandă câte 30 picături, de 3 ori pe zi, dizolvate în 100 ml Ceai Antihelmintic; pentru adulţi se recomandă câte 100 de picături, de 3 ori pe zi dizolvate în 100 ml Ceai Antihelmintic; Se administrează înainte de masă cu 15 minute. Cura durează 2 săptămâni. La nevoie se poate repeta după o pauză de 10 zile.
+Uz:- pentru copii sub 4 ani se recomandă câte 10 picături, de 3 ori pe zi, dizolvate în 100 ml Ceai Antihelmintic; pentru copii peste 4 ani se recomandă câte 30 picături, de 3 ori pe zi, dizolvate în 100 ml Ceai Antihelmintic; pentru adulți se recomandă câte 100 de picături, de 3 ori pe zi dizolvate în 100 ml Ceai Antihelmintic; Se administrează înainte de masă cu 15 minute. Cura durează 2 săptămâni. La nevoie se poate repeta după o pauză de 10 zile.
 
-Recomandari:Produsul se recomandă în combaterea viermilor paraziţi: lamblii(lambliază), ascari (ascaridioză), oxiuri (oxiuroză).
+Recomandari:Produsul se recomandă în combaterea viermilor paraziți: lamblii(lambliază), ascari (ascaridioză), oxiuri (oxiuroză).
 
 36\. Tinctura diuretica
 
@@ -482,31 +466,31 @@ Compozitie:- extract hidroalcoolic din: Coada-calului-Equisetum arvense, Mesteac
 
 Proprietati:- diuretică \- depurativă \- dezinfectantă a căilor urinare \- calmantă
 
-Uz:Intern: 1-3 linguriţe pe zi dizolvate în Ceai Diuretic sau apă potabilă. Extern: sub formă de masaje, comprese, băi generale în care se adaugă tinctură şi uleiuri volatile.
+Uz:Intern: 1-3 lingurițe pe zi dizolvate în Ceai Diuretic sau apă potabilă. Extern: sub formă de masaje, comprese, băi generale în care se adaugă tinctură și uleiuri volatile.
 
-Recomandari:Tinctura se utilizează ca adjuvant în afecţiunile renale (nefrite, pielite, cistite, pietre la rinichi), leziuni cardio-renale (edeme), hepatite.
+Recomandari:Tinctura se utilizează ca adjuvant în afecțiunile renale (nefrite, pielite, cistite, pietre la rinichi), leziuni cardio-renale (edeme), hepatite.
 
 37\. Tinctura antireumatica
 
 Compozitie:- extract hidroalcoolic din : Mesteacan- Betula verrucosa, Salcie-Salix alba, Frasin-Fraxinus excelsior, Soc-Sambucus nigra, Ienupar-Juniperus comunis, Coada-calului-Equisetum arvense, Fasole-Phaseolus vulgaris, Sunatoare-Hypericum perforatum, Urzica-mare-Urtica dioica;
 
-Proprietati:- analgezic şi sedativ, diuretic, febrifug şi diaforetic datorită salicinei.
+Proprietati:- analgezic și sedativ, diuretic, febrifug și diaforetic datorită salicinei.
 
 Uz:
 
-Intern: 30 picături, dizolvate în Ceai Antireumatic, de 2 ori pe zi. Se administrează la prânz şi seara. Extern:- masaje, comprese pe locurile dureroase şi băi generale cu Tinctură Antireumatică care se dizolvă în Ceai Antireumatic (1-2 linguri tinctură la 2 l Ceai Antireumatic, preparat din 30 g plante sub formă de decoct).
+Intern: 30 picături, dizolvate în Ceai Antireumatic, de 2 ori pe zi. Se administrează la prânz și seara. Extern:- masaje, comprese pe locurile dureroase și băi generale cu Tinctură Antireumatică care se dizolvă în Ceai Antireumatic (1-2 linguri tinctură la 2 l Ceai Antireumatic, preparat din 30 g plante sub formă de decoct).
 
-Recomandari:Adjuvant în tratamentul reumatismului acut şi cronic, gută, eliminarea excesului de apă din organism.
+Recomandari:Adjuvant în tratamentul reumatismului acut și cronic, gută, eliminarea excesului de apă din organism.
 
 38\. Tinctura cardiotonica
 
 Compozitie:- extract hidroalcoolic din : Paducel-Crataegus monogyna, Talpa- gastei-Leonorus cardiaca, Valeriana-Valeriana officinalis, Tei-Tilia cordata, Mesteacan-Betula verrucosa, Coada-calului-Equisetum arvense, Coada-soricelului-Achillea millefolium, Tintaura-Centaurium erythraea, Sunatoare-Hypericum perforatum, Vasc-Viscum album;
 
-Proprietati:- sedativă asupra sistemului nervos şi cardiac, tonifiantă a inimii şi a vaselor de sânge, hipotensivă, hipocolesterolemiantă, reglatoare a ritmului cardiac.
+Proprietati:- sedativă asupra sistemului nervos și cardiac, tonifiantă a inimii și a vaselor de sânge, hipotensivă, hipocolesterolemiantă, reglatoare a ritmului cardiac.
 
-Uz:- 10-15 picături de tinctură dizolvate în Ceai Cardiotonic, apă, sau 1 linguriţă de zahăr, de 3 ori pe zi. Tratamentul durează 6 luni.Cura cu ceai şi tinctură se poate continua sau înlocui cu Bitter Cardiovascular sub formă lichidă sau capsule.
+Uz:- 10-15 picături de tinctură dizolvate în Ceai Cardiotonic, apă, sau 1 linguriță de zahăr, de 3 ori pe zi. Tratamentul durează 6 luni.Cura cu ceai și tinctură se poate continua sau înlocui cu Bitter Cardiovascular sub formă lichidă sau capsule.
 
-Recomandari: Adjuvant în dereglări cardiovasculare, angină pectorală, hipertensiune, ateroscleroză, palpitaţii cardiace, cardiopatie ischemică, tulburări neuro-vegetative, stări de excitabilitate cu aritmii, tulburări de menopauză.
+Recomandari: Adjuvant în dereglări cardiovasculare, angină pectorală, hipertensiune, ateroscleroză, palpitații cardiace, cardiopatie ischemică, tulburări neuro-vegetative, stări de excitabilitate cu aritmii, tulburări de menopauză.
 
 39\. Tinctura hepato-biliara
 
@@ -514,9 +498,9 @@ Compozitie:- extract hidroalcoolic din: Cimbrisor-de-camp-Thymus serpyllum, Rost
 
 Proprietati:- coleretic-colagogă, antispastică, decongestivă, antiseptică, antiinflamatoare.
 
-Uz:-10 picături Tinctură Hepato-biliară dizolvată în Ceai Hepato-biliar, de 3 ori pe zi, primul dimineaţa pe stomacul gol.
+Uz:-10 picături Tinctură Hepato-biliară dizolvată în Ceai Hepato-biliar, de 3 ori pe zi, primul dimineața pe stomacul gol.
 
-Recomandari:Tinctura Hepato-biliara se administrează ca adjuvant în : dischinezie biliară, hepatite, insuficienţă biliară, colecistite ,ciroză hepatică, litiază biliară.
+Recomandari:Tinctura Hepato-biliara se administrează ca adjuvant în : dischinezie biliară, hepatite, insuficiență biliară, colecistite ,ciroză hepatică, litiază biliară.
 
 40\. Tinctura laxativa
 
@@ -524,9 +508,9 @@ Compozitie:- extract hidroalcoolic din : Crusin-Frangula alnus, Coada-soricelulu
 
 Proprietati:- laxativă, diuretică, depurativă, dezinfectantă;
 
-Uz:- 1-3 linguriţe Tinctură Laxativă pe zi, dizolvate în Ceai Laxativ. Cura durează 3 săptămâni sau mai mult până se reglează tranzitul intestinal.Produsul se poate asocia cu capsule Hyper Lax.
+Uz:- 1-3 lingurițe Tinctură Laxativă pe zi, dizolvate în Ceai Laxativ. Cura durează 3 săptămâni sau mai mult până se reglează tranzitul intestinal.Produsul se poate asocia cu capsule Hyper Lax.
 
-Recomandari:Produsul se utilizează în constipaţiile cronice şi indigestii
+Recomandari:Produsul se utilizează în constipațiile cronice și indigestii
 
 41\. Tinctura gastrica
 
@@ -534,9 +518,9 @@ Compozitie:- extract hidroalcoolic din : Salcam-Robinia pseudacacia, Coada-soric
 
 Proprietati:- hipoacidifiantă, astringentă, cicatrizantă, hemostatică, calmantă.
 
-Uz:- 3 linguriţe de Tinctură Gastrică pe zi dizolvate în Ceai Gastric sau în puţină apă, înaintea meselor principale.Tratamentul durează 6 săptămâni. După o pauză de 1 săptămână se poate continua.
+Uz:- 3 lingurițe de Tinctură Gastrică pe zi dizolvate în Ceai Gastric sau în puțină apă, înaintea meselor principale.Tratamentul durează 6 săptămâni. După o pauză de 1 săptămână se poate continua.
 
-Recomandari:Produsul este recomandat ca adjuvant în : hiperaciditate gastrică, ulcer gastric şi duodenal, spasme gastro-intestinale, gastrite, esofagită de reflux, pirosis (arsuri la stomac).
+Recomandari:Produsul este recomandat ca adjuvant în : hiperaciditate gastrică, ulcer gastric și duodenal, spasme gastro-intestinale, gastrite, esofagită de reflux, pirosis (arsuri la stomac).
 
 42\. Tinctura antibronsitica
 
@@ -562,11 +546,11 @@ Recomandari:Adjuvant in anemie ; anemia este o boala produsa de scaderea numarul
 
 Compozitie:- extract hidroalcoolic din : Urzica-mare-Urtica dioica, Papadie-Taraxacum officinale, Mesteacan-Betula verrucosa, Cicoare-Cichorium intybus, Salvie-Salvia officinalis, Tei-Tilia cordata, Sovarv-Origanum vulgare, Trei- frati- patati-Viola tricolor, Sunatoare-Hypericum perforatum, Coada-soricelului-Achillea millefolium.
 
-Proprietati:- depurativă, diuretică, drenează bila şi normalizează scaunul datorită saponinelor şi flavonozidelor.
+Proprietati:- depurativă, diuretică, drenează bila și normalizează scaunul datorită saponinelor și flavonozidelor.
 
-Uz:- 3 linguriţe de Tinctură Depurativă pe zi, dizolvate în Ceai Depurativ, îndulcit cu miere de albine;
+Uz:- 3 lingurițe de Tinctură Depurativă pe zi, dizolvate în Ceai Depurativ, îndulcit cu miere de albine;
 
-Recomandari:Produsul este recomandat pentru curăţarea organismului, a sângelui şi umorilor de toxine. Este indicat în special persoanelor care trăiesc în zonele poluate.
+Recomandari:Produsul este recomandat pentru curățarea organismului, a sângelui și umorilor de toxine. Este indicat în special persoanelor care trăiesc în zonele poluate.
 
 45\. Tinctura anticolitica
 
@@ -574,19 +558,19 @@ Compozitie:- extract hidroalcoolic din: Musetel-Matricaria chamomilla, Coada- so
 
 Proprietati:- antiseptică intestinal, carminativă, antispasmodică, sedativă.
 
-Uz: Intern: adulţi \-20 picături, de 3 ori pe zi ,dizolvate în Ceai AnticolitLa copii 5-10 picături de 3 ori pe zi, dizolvate în ceai fierbinte. Extern:-baie generală în care se adaugă 1 lingură tinctură.
+Uz: Intern: adulți \-20 picături, de 3 ori pe zi ,dizolvate în Ceai AnticolitLa copii 5-10 picături de 3 ori pe zi, dizolvate în ceai fierbinte. Extern:-baie generală în care se adaugă 1 lingură tinctură.
 
-Recomandari:Adjuvant în colici stomacale şi intestinale, indigestii, enterite, colite, colon iritabil, greţuri şi balonare.
+Recomandari:Adjuvant în colici stomacale și intestinale, indigestii, enterite, colite, colon iritabil, grețuri și balonare.
 
 46\. Tinctura antihemoroidala
 
 Compozitie:- extract hidroalcoolic din : Salcie-Salix alba, Musetel-Matricaria chamomilla, Nuc-Juglans regia, Sunatoare-Hypericum perforatum, Papadie-Taraxacum officinale,Urzica-mare-Urtica dioica, Tataneasa-Symphytum officinale, Crusin-Frangula alnus;
 
-Proprietati:- astringentă, antiinflamatoare, antiseptică, cicatrizantă, calmantă, hemostatică, stimulentă a circulaţiei periferice.
+Proprietati:- astringentă, antiinflamatoare, antiseptică, cicatrizantă, calmantă, hemostatică, stimulentă a circulației periferice.
 
-Uz:Intern: 1 liguriţă Tinctură Antihemoroidală, dizolvată în ceai sau apă, de 3 ori pe zi, în cure de 6 săptămâni. Extern:- băi locale şi comprese cu tinctură dizolvată în Ceai Antihemoroidal;
+Uz:Intern: 1 liguriță Tinctură Antihemoroidală, dizolvată în ceai sau apă, de 3 ori pe zi, în cure de 6 săptămâni. Extern:- băi locale și comprese cu tinctură dizolvată în Ceai Antihemoroidal;
 
-Recomandari:Tinctura Antihemoroidală are rol adjuvant în tratarea hemoroizilor care sunt nişte tumefieri dureroase sanguinolente ale venelor regiunii recto-anale, datorate procesului inflamator.
+Recomandari:Tinctura Antihemoroidală are rol adjuvant în tratarea hemoroizilor care sunt niște tumefieri dureroase sanguinolente ale venelor regiunii recto-anale, datorate procesului inflamator.
 
 47\. Tinctura antigripala
 
@@ -594,9 +578,9 @@ Compozitie:- extract hidroalcoolic din: Soc-Sambucus nigra, Tei-Tilia cordata,Tr
 
 Proprietati:- depurativă, diuretică, sudorifică, calmantă, emolientă, expectorantă, febrifugă.
 
-Uz:Intern:-1 linguriţă Tinctură Antigripală, dizolvată în Ceai Antigripal îndulcit cu miere de albine, de 3 ori pe zi, înainte de mâncare. Extern:- băi generale în care se adaugă 1 lingură tinctură. Tratamentul se poate asocia cu siropuri naturale din fructe de pădure (Cătină-albă, Afin, Coacăz, Zmeur, Mur).
+Uz:Intern:-1 linguriță Tinctură Antigripală, dizolvată în Ceai Antigripal îndulcit cu miere de albine, de 3 ori pe zi, înainte de mâncare. Extern:- băi generale în care se adaugă 1 lingură tinctură. Tratamentul se poate asocia cu siropuri naturale din fructe de pădure (Cătină-albă, Afin, Coacăz, Zmeur, Mur).
 
-Recomandari:Tinctura Antigripală are rol în combaterea stărilor gripale însoţite sau nu de temperatură, viroze, răceli, inflamaţii ale căilor respiratorii superioare (rinită, faringită, laringită, traheită).
+Recomandari:Tinctura Antigripală are rol în combaterea stărilor gripale însoțite sau nu de temperatură, viroze, răceli, inflamații ale căilor respiratorii superioare (rinită, faringită, laringită, traheită).
 
 48\. Tinctura antidiareica
 
@@ -604,6 +588,6 @@ Compozitie:- extract hidroalcoolic din: Troscot-Polygonum aviculare, Patlagina-m
 
 Proprietati:- astringentă, antiseptică, emolientă, colagogă, cicatrizantă, calmantă.
 
-Uz:- 1 linguriţă tinctură, de 3 ori pe zi, dizolvată în Ceai Antidiareic călduţ, înainte de mâncare în cure de 3 săptămâni cu pauze de 7 zile.
+Uz:- 1 linguriță tinctură, de 3 ori pe zi, dizolvată în Ceai Antidiareic călduț, înainte de mâncare în cure de 3 săptămâni cu pauze de 7 zile.
 
 Recomandari:Adjuvant în diaree, gastro-entrite, colite cronice, colon iritabil.

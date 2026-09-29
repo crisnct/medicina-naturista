@@ -16,7 +16,7 @@ Jump to: navigation, search
 
  Except where noted otherwise, data are given for\
  materials in their [standard state[\
- ]{.underline}(at 25 °C, 100 kPa)](
+ ]{.underline}(at 25 °C, 100 kPa)](
  Infobox references
  ------------------------------------------------------------------------------------------ -----------------------------------------------------------------------------------
 

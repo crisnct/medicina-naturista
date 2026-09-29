@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Meteorism Abdominal.docx"
-source_relative_path: "Meteorism Abdominal.docx"
-source_sha256: "792dc5b5b301edba48b05556f1e07018c26eb55b69edbad585431fb09c3fd9c8"
-source_size_bytes: 14048
-source_format: docx
-output_format: markdown
-native_text_characters: 741
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Meteorism Abdominal
-
-## Text nativ
-
 Recomandări pentru meteorism abdominal
 
 - Tinctura din anason și coriandru: 1 linguriță înainte de fiecare masă

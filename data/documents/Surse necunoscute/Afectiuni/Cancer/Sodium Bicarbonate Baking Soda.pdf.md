@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Cancer\\Sodium Bicarbonate Baking Soda.pdf"
-source_relative_path: "Cancer\\Sodium Bicarbonate Baking Soda.pdf"
-source_sha256: "86ed7c7178499991d24636c852c59b7a8e599ca3d2bc34cebba3e75af7d44c88"
-source_size_bytes: 87415
-page_count: 5
-extracted_text_characters: 6972
-extraction_method: pypdf
-status: "ok"
----
-
-# Sodium Bicarbonate Baking Soda.pdf
-
-## Pagini
-
 ### Pagina 1
 
 MSDS - Sodium Bicarbonate Baking Soda

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Surditate.docx"
-source_relative_path: "Surditate.docx"
-source_sha256: "10c91fcd2c78aa2b969cc6f98bb733d2c030f70ff1d99755ef3f8f45bc7c67ad"
-source_size_bytes: 35284
-source_format: docx
-output_format: markdown
-native_text_characters: 2377
-tables: 0
-images: 2
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Surditate
-
-## Text nativ
-
 Tratament naturist
 
 pentru surditate
@@ -37,7 +19,7 @@ pentru surditate
 
 Remediu vechi pentru surzenie
 
-În tradiţia populară, sucul de ridiche era folosit şi pentru tratarea persoanelor care nu mai auzeau bine. Se scobeşte o ridiche, miezul se presară cu sare şi se pune în pământ trei zile. Zeama obţinută se scurge în urechea cu probleme, trei zile la rând, o dată pe zi. În cazul durerilor de piept, se scobeşte o ridiche, se umple cu miere şi hrean, apoi se coace, iar zeama obţinută se consumă. Pentru umflături la burtă, bunicii noştri mâncau o ridiche rasă, pe stomacul gol, timp de o săptămână. Tot cu ridichea neagră se trata şi dizenteria.
+În tradiția populară, sucul de ridiche era folosit și pentru tratarea persoanelor care nu mai auzeau bine. Se scobește o ridiche, miezul se presară cu sare și se pune în pământ trei zile. Zeama obținută se scurge în urechea cu probleme, trei zile la rând, o dată pe zi. În cazul durerilor de piept, se scobește o ridiche, se umple cu miere și hrean, apoi se coace, iar zeama obținută se consumă. Pentru umflături la burtă, bunicii noștri mâncau o ridiche rasă, pe stomacul gol, timp de o săptămână. Tot cu ridichea neagră se trata și dizenteria.
 
 Hipoacuzie: deficientele auzului si ale urechii, tin de o tulburare a energiei rinichilor cu care te nasti deficitar.
 
@@ -45,7 +27,7 @@ Hipoacuzie: deficientele auzului si ale urechii, tin de o tulburare a energiei r
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

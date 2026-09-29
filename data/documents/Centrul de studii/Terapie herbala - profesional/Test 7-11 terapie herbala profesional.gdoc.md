@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Test 7-11 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Test 7-11 terapie herbala profesional.gdoc"
-source_pointer_sha256: "c96bef0b865a57e7de1c3ffa5f355301b891afe3c1b089f8dc3e82647af47fdc"
-source_pointer_bytes: 181
-google_doc_id: "1fXjjJN9OgLr6HBOFy_X8UwctjC5ig7SDtHrYK0YGpwc"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 7-11 terapie herbala profesional
-
-## Conținut extras
-
 Intrebari:
 
 1. Scrie un rezumat al ierburilor purgative.

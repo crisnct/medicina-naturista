@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 7 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 7 terapie herbala profesional.gdoc"
-source_pointer_sha256: "010ffff16505c5fa4ef0fed852774cc86e0f8efd5d79e84024f4aaa9d3c4cde3"
-source_pointer_bytes: 181
-google_doc_id: "13QTFng60lJjuOfxDghdMwQEzJn8feLjNruYZ8aXBZUI"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 7 terapie herbala profesional
-
-## Conținut extras
-
 CURS 7
 
 Ierburile astringente

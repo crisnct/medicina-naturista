@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Alimente Care Ucid Creierul.docx"
-source_relative_path: "Alimente Care Ucid Creierul.docx"
-source_sha256: "74949b17da12fe806c957116499066528ba1b557ce0f362f8035ab1520def026"
-source_size_bytes: 30124
-source_format: docx
-output_format: markdown
-native_text_characters: 26305
-tables: 1
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Alimente Care Ucid Creierul
-
-## Text nativ
-
 ### Alimente Care Ucid Creierul
 
 #### Sinteza unei cărți de 446 pagini vândută în 15.000.000 exemplare,

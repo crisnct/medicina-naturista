@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 2.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 2.gdoc"
-source_pointer_sha256: "af32ca2e03d383d45cb6dc995c56b723af3a98460f10fc613f1e3315ec27cfeb"
-source_pointer_bytes: 181
-google_doc_id: "1UCk9NvWFHenW5UAuMKfG_iVeGxEj6lWwnqjg1u8SwWQ"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 2
-
-## Conținut extras
-
 **Test 2 herbalism**
 
 1. Ce intelegi prin expresia Vis Medicatrix Naturae?

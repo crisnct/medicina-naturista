@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 9 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 9 terapie herbala baza.gdoc"
-source_pointer_sha256: "66a2e7f39f2176fe9238c17e1d78f1f12919ebddfd96cbf7326a658c83928e47"
-source_pointer_bytes: 181
-google_doc_id: "1TXWUs1vPDz9fP-5bSSFtqpKtaKJN41JWuJnhRuv2r4M"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 9 terapie herbala baza
-
-## Conținut extras
-
 Curs 9
 
 Plante pentru ingrijirea pielii și uz cosmetic

@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tinctura ptr slabit-eticheta.docx"
-source_relative_path: "Tinctura ptr slabit-eticheta.docx"
-source_sha256: "86e0ec60ae1395e8484234ed1f2fcaff8179a222aa00593f322f70b337b8681b"
-source_size_bytes: 15143
-source_format: docx
-output_format: markdown
-native_text_characters: 578
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Tinctura ptr slabit-eticheta
-
 ## Casete de text din text nativ
 
 Tinctură pentru

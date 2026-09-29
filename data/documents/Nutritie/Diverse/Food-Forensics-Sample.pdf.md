@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Food-Forensics-Sample.pdf"
-source_relative_path: "Food-Forensics-Sample.pdf"
-source_sha256: "173ea5e5c7e9adff77df9b8ff8f79eb0065bcfd507fa9685ebc038e3259c2a8a"
-source_size_bytes: 185720
-page_count: 15
-extracted_text_characters: 27411
-extraction_method: pypdf
-status: "ok"
----
-
-# Food-Forensics-Sample.pdf
-
-## Pagini
-
 ### Pagina 1
 
 [Nu a fost extras text din această pagină.]
@@ -248,7 +233,7 @@ FDA, food manufacturers, and mainstream media outlets funded by food
 advertising are all colluding to ignore this science and prevent the public from
 learning the truths you’ll read here.
 T o stay up to date on the latest findings in this realm, visit the website of
-which I am the editor, www.naturalnews.com.
+which I am the editor,
 Laboratory methodologies and accuracy
 Can you trust the data presented in this book? My laboratory is accredited
 by the ISO under its global analytical accuracy standards program known as

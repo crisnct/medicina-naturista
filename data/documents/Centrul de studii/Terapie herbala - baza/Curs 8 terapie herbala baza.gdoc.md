@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 8 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 8 terapie herbala baza.gdoc"
-source_pointer_sha256: "f134737933a5b1b8b2c4c0a8de333dd9d3812b9892b0b2c2ae0339e47df3d58a"
-source_pointer_bytes: 181
-google_doc_id: "1Mdxc9hyCiI4-FL2XEMAOOZghnPboRViHNNxQ4CGcnlw"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 8 terapie herbala baza
-
-## Conținut extras
-
 Curs 8 herbalism
 
 PLANTE IN BUCATARIE

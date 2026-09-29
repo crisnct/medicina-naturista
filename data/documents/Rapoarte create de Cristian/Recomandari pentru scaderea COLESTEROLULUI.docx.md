@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru scaderea COLESTEROLULUI.docx"
-source_relative_path: "Recomandari pentru scaderea COLESTEROLULUI.docx"
-source_sha256: "69e25907293cc493fb9201075bb27907e6eb2cb49c295b379d4662e19a1070a5"
-source_size_bytes: 33049
-source_format: docx
-output_format: markdown
-native_text_characters: 10561
-tables: 3
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Recomandari pentru scaderea COLESTEROLULUI
-
-## Text nativ
-
 Recomandări naturiste pentru
 
 eliminarea colesterolului LDL-oxidat de pe vasele de sânge,
@@ -138,7 +120,7 @@ pentru diminuarea colesterolului din sânge
 
 - util împotriva îmbătrânirii premature.
 
-- Vitamina B5: 1 comp pe zi dimineata timp de 2 luni in sezonul rece. Numită și acidul pantotenic, ia parte la o serie intreagă de procese, reacţii ce menţin viaţa, cu extragerea elementelor valoroase din hrană şi in procesarea grăsimilor. Reglează colesterolul, transmite impulsurile nervoase de la şi spre creier, activează producţia de hormoni a glandelor suprarenale. Este recomandată pentru reducerea colesterolului şi trigliceridelor, tratamentul artritei reumatoide, acnee, maladiei Alzheimer. Ficatul, rinichii, drojdia de bere, gălbenuşul, peştele gras, laptele, ciupercile, spanacul, mazărea, fasolea, conţin vitamină B5, dar apar probleme pentru că este foarte perisabilă datorită preparării acestor produse. Şi alimentele conservate sau congelate işi reduc conţinutul de vitamine. Carenţa de vitamină B5 apare la alcoolici şi femeile care iau anticoncepţionale cu concentraţie mare de estrogen şi progesteron. Apar insomnii. Dureri de cap, oboseală, tulburări intestinale, furnicături, ficatul nu mai face faţă la eliminarea toxinelor, tulburări ale glandelor suprarenale.
+- Vitamina B5: 1 comp pe zi dimineata timp de 2 luni in sezonul rece. Numită și acidul pantotenic, ia parte la o serie intreagă de procese, reacții ce mențin viața, cu extragerea elementelor valoroase din hrană și in procesarea grăsimilor. Reglează colesterolul, transmite impulsurile nervoase de la și spre creier, activează producția de hormoni a glandelor suprarenale. Este recomandată pentru reducerea colesterolului și trigliceridelor, tratamentul artritei reumatoide, acnee, maladiei Alzheimer. Ficatul, rinichii, drojdia de bere, gălbenușul, peștele gras, laptele, ciupercile, spanacul, mazărea, fasolea, conțin vitamină B5, dar apar probleme pentru că este foarte perisabilă datorită preparării acestor produse. Și alimentele conservate sau congelate iși reduc conținutul de vitamine. Carența de vitamină B5 apare la alcoolici și femeile care iau anticoncepționale cu concentrație mare de estrogen și progesteron. Apar insomnii. Dureri de cap, oboseală, tulburări intestinale, furnicături, ficatul nu mai face față la eliminarea toxinelor, tulburări ale glandelor suprarenale.
 
 - Ulei de Sunătoare: 1 lingură dimineața pe stomacul gol. Metoda de preparare: într-un litru de ulei de măsline presat la rece se pun cât mai multe flori de sunătoare uscate. Se macerează la loc întunecos și cald timp de o lună, după care se strecoară și se pune în sticlă din sticlă la loc întunecos.
 
@@ -146,7 +128,7 @@ pentru diminuarea colesterolului din sânge
 
 - Supliment Alive – 1 comp pe zi timp de 2 luni in sezonul rece
 
-- Golden Yacca – 1 capsulă pe zi - curăţă şi dezinflamează intestinul gros (colonul), imuno-stimulator, reduce colesterolul, elimină toxinele.
+- Golden Yacca – 1 capsulă pe zi - curăță și dezinflamează intestinul gros (colonul), imuno-stimulator, reduce colesterolul, elimină toxinele.
 
 - Ceai complex
 
@@ -232,7 +214,7 @@ pentru diminuarea colesterolului din sânge
 | 5 | 13 | 14 | 15 | 11 | 25 | 25 | 25 |
 | 6 | 15 | 14 | 13 | | | | |
 
-Dupa 11 zile se reia tratamentul şi se procedează similar până la terminarea cantităţii de tinctură. Picăturile se iau înainte de masă cu un sfert de oră. Cura se poate repeta peste 5 ani. Acest tratament curăţă organsimul de depozitele de lipide şi calciu, iar vasele sanguine devin mai elastice prin scăderea colesterolului LDL.
+Dupa 11 zile se reia tratamentul și se procedează similar până la terminarea cantității de tinctură. Picăturile se iau înainte de masă cu un sfert de oră. Cura se poate repeta peste 5 ani. Acest tratament curăță organsimul de depozitele de lipide și calciu, iar vasele sanguine devin mai elastice prin scăderea colesterolului LDL.
 
 ### Alimentație
 

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru Stenoza aortica .docx"
-source_relative_path: "Recomandari pentru Stenoza aortica .docx"
-source_sha256: "e5be45dabc120d373d59f8427f7ab562078a93aaa9a26785a1814f1896fc3155"
-source_size_bytes: 24427
-source_format: docx
-output_format: markdown
-native_text_characters: 405
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Recomandari pentru Stenoza aortica
-
-## Text nativ
-
 Tratament naturist stenoza aortica
 
 - Ceai de dafin: 5-10g de frunze se fierb in doua cani de apa timp de 15 min. Se strecoara si se bea in cursul unei zile. Se foloseste timp de o saptamana dupa care se face pauza 3 saptamani. Apoi se poate relua.
@@ -30,7 +12,7 @@ Tratament naturist stenoza aortica
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 8.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 8.gdoc"
-source_pointer_sha256: "721770f89ccd2a13df4c79c2126a779ae511e930b4beb1e3258cbba491ddddca"
-source_pointer_bytes: 181
-google_doc_id: "1xj2LDIx2vZkMQ1IqvRbhm7EZ2yvUWfBWaKME3R05sDE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 8
-
-## Conținut extras
-
 **Test 8 herbalism**
 
 1Când începe procesul de imbatranire? Pe scurt, subliniati ce se întâmplă în procesul de îmbătrânire.

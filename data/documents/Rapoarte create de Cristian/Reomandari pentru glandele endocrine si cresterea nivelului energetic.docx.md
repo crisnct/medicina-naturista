@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Reomandari pentru glandele endocrine si cresterea nivelului energetic.docx"
-source_relative_path: "Reomandari pentru glandele endocrine si cresterea nivelului energetic.docx"
-source_sha256: "1d710874259cadeb78b3cd23f1cdf3a7f4a96ee377faabbfa38b4c6ac41f2aeb"
-source_size_bytes: 12410
-source_format: docx
-output_format: markdown
-native_text_characters: 3400
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Reomandari pentru glandele endocrine si cresterea nivelului energetic
-
-## Text nativ
-
 Iată ce am luat eu pentru creșterea nivelului energetic și pentru a-mi face glandele fericite.
 
 - Supliment Alive(multivitamine și multiminerale) timp de 3 luni, un comprimat pe zi.
@@ -64,13 +46,13 @@ Iată ce am găsit prin cărțile mele:
 
 - Strugurii au efecte deosebite asupra gonadelor și glandelor corticosuprarenale.
 
-- Suc de morcov, ceapă și țelină. Într-un pahar de suc de morcov se adauga 2 linguri de suc de ceapă şi 6 linguri de suc de ţelină. Se beau 2-3 asemenea doze pe zi, în cure de două luni. Este bun pentru dereglări ale glandelor corticosuprarenale.
+- Suc de morcov, ceapă și țelină. Într-un pahar de suc de morcov se adauga 2 linguri de suc de ceapă și 6 linguri de suc de țelină. Se beau 2-3 asemenea doze pe zi, în cure de două luni. Este bun pentru dereglări ale glandelor corticosuprarenale.
 
 - Decoct din rădăcină de iarbă mare - pentru tiroidă.
 
 - Tinctură de Ienupăr - pentru stimularea glandelor corticosuprarenale.
 
-- Suc de țelină - se bea ¼ de pahar de suc de ţelină, înaintea meselor principale timp de 3 săptămâni cu una de pauză. E bun pentru disfuncţii ale glandelor corticosuprarenale.
+- Suc de țelină - se bea ¼ de pahar de suc de țelină, înaintea meselor principale timp de 3 săptămâni cu una de pauză. E bun pentru disfuncții ale glandelor corticosuprarenale.
 
 - Ghimpe - pentru glanda tiroidă.
 

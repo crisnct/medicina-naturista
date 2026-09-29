@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 1.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 1.gdoc"
-source_pointer_sha256: "57a9293d9b96f5244b2a236c7dd05d3dc8637093917dae79ef207cd5e5562302"
-source_pointer_bytes: 181
-google_doc_id: "18eBkHkr-P0XTWH6sOFGqETj6UylOJjfikwfmqGXQf4w"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 1
-
-## Conținut extras
-
 **Test 1 herbalism**
 
 1. Ce intelegeti prin termenii urmatori?

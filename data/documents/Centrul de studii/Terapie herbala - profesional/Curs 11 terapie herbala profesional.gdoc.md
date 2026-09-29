@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 11 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 11 terapie herbala profesional.gdoc"
-source_pointer_sha256: "2dfa5d46e72dd07fe6a3348bde909aa7b59109104f841b133a09d81e188cc686"
-source_pointer_bytes: 181
-google_doc_id: "18wuocuLlo2dZrUpVZT1Mc4S-OqTIHJjFqH96KfVAjm8"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 11 terapie herbala profesional
-
-## Conținut extras
-
 Cursul 11
 
  Ierburile emenagoge
@@ -120,7 +104,7 @@ Compus din ulei de virnant și ulei de măsline: 1 parte ulei de virnant(Oleum R
 
 Compus antispasmodic stimulativ : 28g virnant planta, tăiat (Ruta graveolens) 30g de oricare din următoarele: Menta planta (Gaultheria procumbens) Coaja de Scorțișoară (Cinnamomum zeylanicum, C. Loureirii) Semințe de fenicul (Foeniculum vulgare) Semințe de chimen (Carum carvi) Semințe de anason (Pimpinella anisum) Iarbă maghiran (Origanum vulgare) Mod de preparare: La fel ca infuzie din virnant (inclusiv aceeasi cantitate de apa). Dozare: Vezi pregătirea mai sus.
 
-Recoltare: Este o plantă cultivată de la care se folosesc varfurile cu frunziş bogat înainte de deschiderea florilor. Conţine alcaloizi specifici, rutozid, ulei volatil, derivaţi cumarinici etc.
+Recoltare: Este o plantă cultivată de la care se folosesc varfurile cu frunziș bogat înainte de deschiderea florilor. Conține alcaloizi specifici, rutozid, ulei volatil, derivați cumarinici etc.
 
 **Talpa gastei** sau creasta cocosului(Leonurus cardiaca;Labiatae)
 
@@ -154,51 +138,51 @@ TONIC GASTROINTESTINAL 28g Talpa gastei planta (Leonurus cardiaca) 28g radacina 
 
 **LEMNUL DOMNULUI**(Artemisia abrotanum, COMPOSITAE)
 
-Este un subarbust din familia pelinului cu un miros aromat special, care creşte în zonele secetoase şi calde, fiind adus la noi din sudul continentului european. în fitoterapie ocupă un loc cu totul aparte, datorită efectelor sale antitoxice şi depurative deopotrivă puternice şi blânde. Este adesea utilizat în tratamentul cancerului şi al altor boli grave, deoarece înviorează, curăţă de toxine organismul, stimulează pofta de mâncare şi are efecte uşor anti-depresive. S-a dovedit a fi foarte folositor în combinaţie cu plantele toxice (spânz, rostopască, laptele câinelui, brânduşă de toamnă), reducându-le efectele adverse, fără a le diminua însă acţiunea terapeutică, ci din contră. Iată câteva detalii despre efectele şi indicaţiile acestei plante:
+Este un subarbust din familia pelinului cu un miros aromat special, care crește în zonele secetoase și calde, fiind adus la noi din sudul continentului european. în fitoterapie ocupă un loc cu totul aparte, datorită efectelor sale antitoxice și depurative deopotrivă puternice și blânde. Este adesea utilizat în tratamentul cancerului și al altor boli grave, deoarece înviorează, curăță de toxine organismul, stimulează pofta de mâncare și are efecte ușor anti-depresive. S-a dovedit a fi foarte folositor în combinație cu plantele toxice (spânz, rostopască, laptele câinelui, brândușă de toamnă), reducându-le efectele adverse, fără a le diminua însă acțiunea terapeutică, ci din contră. Iată câteva detalii despre efectele și indicațiile acestei plante:
 
-Actiune terapeutica: INTERN: analgezic uşor (odinioară era folosit în timpul naşterilor pentru a uşura durerile), antianemic bun (se pare că acţionează prin îmbunătăţirea capacităţii de asimilare), febrifug mediu, antiiluetic (antisifilitic \- are, evident, rol adjuvant), antiinflamator bun (acţionează mai ales asupra tubului digestiv şi colecistului în special), antiseptic urinar bun, antitoxic puternic, antivomitiv mediu, colagog mediu (favorizează secreţia de bilă), coleretic puternic (favorizează evacuarea bilei), depurativ bun, digestiv bun, anuhelmintic puternic (elimină viermii intestinali) \- mai ales seminţele, emenagog mediu, expectorant mediu, tonic general bun.EXTERN: antiinflamator mediu-slab, antiseptic mediu, tonic capilar mediu.
+Actiune terapeutica: INTERN: analgezic ușor (odinioară era folosit în timpul nașterilor pentru a ușura durerile), antianemic bun (se pare că acționează prin îmbunătățirea capacității de asimilare), febrifug mediu, antiiluetic (antisifilitic \- are, evident, rol adjuvant), antiinflamator bun (acționează mai ales asupra tubului digestiv și colecistului în special), antiseptic urinar bun, antitoxic puternic, antivomitiv mediu, colagog mediu (favorizează secreția de bilă), coleretic puternic (favorizează evacuarea bilei), depurativ bun, digestiv bun, anuhelmintic puternic (elimină viermii intestinali) \- mai ales semințele, emenagog mediu, expectorant mediu, tonic general bun.EXTERN: antiinflamator mediu-slab, antiseptic mediu, tonic capilar mediu.
 
-INDICAŢII: INTERN: diskinezie biliară, colecistită diskinezică, colici hepato-biliare, infestări cu protozoarul Giardia lamblia \- se foloseşte sub formă de pulbere: o linguriţă de 34 ori pe zi. în această categorie de afecţiuni lemnul Domnului este un adevărat elixir reducând inflamaţia, favorizând secreţia şi evacuarea bilei, având efecte antiparazitare (inclusiv asupra giardiei). Efectele sunt mai intense dacă se asociază cu plante amare puternice: pelin (Artemisia absinthiuni), rostopască (Chelidonium majus), anghinare (Cynara scolymus).
+INDICAȚII: INTERN: diskinezie biliară, colecistită diskinezică, colici hepato-biliare, infestări cu protozoarul Giardia lamblia \- se folosește sub formă de pulbere: o linguriță de 34 ori pe zi. în această categorie de afecțiuni lemnul Domnului este un adevărat elixir reducând inflamația, favorizând secreția și evacuarea bilei, având efecte antiparazitare (inclusiv asupra giardiei). Efectele sunt mai intense dacă se asociază cu plante amare puternice: pelin (Artemisia absinthiuni), rostopască (Chelidonium majus), anghinare (Cynara scolymus).
 
-\-balonare \- se ia jumătate de linguriţă de pulbere înainte de masă şl jumătate de linguriţă după masă. Este util mai ales persoanelor cu digestie leneşă ori care suferă de dispepsie.
+\-balonare \- se ia jumătate de linguriță de pulbere înainte de masă șl jumătate de linguriță după masă. Este util mai ales persoanelor cu digestie leneșă ori care suferă de dispepsie.
 
-\-amenoree (absenţa patologică a ciclului menstrual), dismenoree (ciclu menstrual dureros)- pulbere: 4 linguriţe pe zi.
+\-amenoree (absența patologică a ciclului menstrual), dismenoree (ciclu menstrual dureros)- pulbere: 4 lingurițe pe zi.
 
-\-anemie, inapetenţă \- se ia 1/2-1 linguriţă de pulbere cu 10-15 minute înainte de fiecare masă. Are efecte stimulente ale digestiei şi îmbunătăţeşte asimilaţia.
+\-anemie, inapetență \- se ia 1/2-1 linguriță de pulbere cu 10-15 minute înainte de fiecare masă. Are efecte stimulente ale digestiei și îmbunătățește asimilația.
 
-\-adjuvant în boala canceroasă, indiferent de localizare \- este foarte util deoarece normalizează apetitul şi uşurează digestia, are efecte tonice şi uşor antidepresive. In plus efectele sale antitoxice îl fac extrem de util pentru combaterea efectelor adverse ale citostaticelor, dar şi pentru "îmblânzirea" acţiunii unor plante cu grad de toxicitate mai ridicat (spânz Helleborus purpurascens, rostopască Chelidonium majus, brânduşă de toamnă \- Colchicum autumnale), fără însă a diminua în nici un fel eficienţa tratamentului. Se ia sub formă de pulbere (4 linguriţe pe zi) sau de macerat la rece (2-3 pahare pe zi) înainte de mesele principale.
+\-adjuvant în boala canceroasă, indiferent de localizare \- este foarte util deoarece normalizează apetitul și ușurează digestia, are efecte tonice și ușor antidepresive. In plus efectele sale antitoxice îl fac extrem de util pentru combaterea efectelor adverse ale citostaticelor, dar și pentru "îmblânzirea" acțiunii unor plante cu grad de toxicitate mai ridicat (spânz Helleborus purpurascens, rostopască Chelidonium majus, brândușă de toamnă \- Colchicum autumnale), fără însă a diminua în nici un fel eficiența tratamentului. Se ia sub formă de pulbere (4 lingurițe pe zi) sau de macerat la rece (2-3 pahare pe zi) înainte de mesele principale.
 
-\-migrenă \- se ia o linguriţă rasă de pulbere la 1-2 ore, pe întreaga durată a crizei.
+\-migrenă \- se ia o linguriță rasă de pulbere la 1-2 ore, pe întreaga durată a crizei.
 
-\-reumatism \- se face o cură cu macerat la rece: 1 litru pe zi, vreme de 1 lună. Efectele sunt mai puternice dacă se asociază cu trei fraţi pătaţi (Viola tricolor) şi brusture (Arctium lappa).
+\-reumatism \- se face o cură cu macerat la rece: 1 litru pe zi, vreme de 1 lună. Efectele sunt mai puternice dacă se asociază cu trei frați pătați (Viola tricolor) și brusture (Arctium lappa).
 
-\-adjuvant în intoxicaţiile cu ciuperci şi plante otrăvitoare \- se bea 1 litru de macerat la rece pe parcursul unei zile.
+\-adjuvant în intoxicațiile cu ciuperci și plante otrăvitoare \- se bea 1 litru de macerat la rece pe parcursul unei zile.
 
-\-convalescenţă, oboseală, epuizare nervoasă \- câte o linguriţă de pulbere, de 4 ori pe zi.
+\-convalescență, oboseală, epuizare nervoasă \- câte o linguriță de pulbere, de 4 ori pe zi.
 
-Alte utilizări interne: Ca adjuvant, alături de plantele specifice afecţiunii tratate, iarba de lemnul Domnului are efecte foarte bune în următoarele boli şi tulburări: infecţii urinare, insomnie, hepatită cronică, naştere (pentru uşurarea travaliului), parazitoză intestinală (ascaridoză, oxiuroză), ragade peri-orale la copii (crăpături ale pielii).
+Alte utilizări interne: Ca adjuvant, alături de plantele specifice afecțiunii tratate, iarba de lemnul Domnului are efecte foarte bune în următoarele boli și tulburări: infecții urinare, insomnie, hepatită cronică, naștere (pentru ușurarea travaliului), parazitoză intestinală (ascaridoză, oxiuroză), ragade peri-orale la copii (crăpături ale pielii).
 
 EXTERN:
 
 \-răni, răni ulcerate, gangrene \- se aplică cataplasme pe locul afectat vreme de 1 oră după care se lasă să se usuce o oră în aer liber. Se repetă tratamentul de 2-3 ori pe zi.
 
-\-dureri de dinţi, stomatită \- clătiri îndelungate ale gurii cu infuzie combinată foarte concentrată (4-5 linguriţe la cană).
+\-dureri de dinți, stomatită \- clătiri îndelungate ale gurii cu infuzie combinată foarte concentrată (4-5 lingurițe la cană).
 
 Căderea părului \- ultima clătire se face cu infuzie combinată.
 
-MOD DE PREPARARE ŞI ADMINISTRARE:
+MOD DE PREPARARE ȘI ADMINISTRARE:
 
-PULBEREA \- planta se macină fin cu râşniţa electrică de cafea după care se cerne prin sita pentru făină albă. Se ia, de regulă, o linguriţă rasă de 3 ori pe zi, pe stomacul gol. Pulberea se ţine sub limbă vreme de 10-15 minute,, după care se înghite cu apă. Se poate mânca după minim 20 de minute. Pulberea nu se păstrează mai mult de 10 zile, deoarece i se alterează proprietăţile.
+PULBEREA \- planta se macină fin cu râșnița electrică de cafea după care se cerne prin sita pentru făină albă. Se ia, de regulă, o linguriță rasă de 3 ori pe zi, pe stomacul gol. Pulberea se ține sub limbă vreme de 10-15 minute,, după care se înghite cu apă. Se poate mânca după minim 20 de minute. Pulberea nu se păstrează mai mult de 10 zile, deoarece i se alterează proprietățile.
 
-MACERATUL LA RECE \- o linguriţă de pulbere din lemnul Domnului se pune într-o cană (250 ml.) de apă de izvor sau plată şi se lasă la macerat aproximativ 7 ore, după care se filtrează. Se consumă 2-3 căni de macerat pe zi.
+MACERATUL LA RECE \- o linguriță de pulbere din lemnul Domnului se pune într-o cană (250 ml.) de apă de izvor sau plată și se lasă la macerat aproximativ 7 ore, după care se filtrează. Se consumă 2-3 căni de macerat pe zi.
 
-CATAPLASMA \- planta se macină fin cu râşniţa electrică de cafea, după care se amestecă într-un vas cu apă călduţă până se formează o pastă, care se pune într-un tifon şi se aplică pe locul afectat
+CATAPLASMA \- planta se macină fin cu râșnița electrică de cafea, după care se amestecă într-un vas cu apă călduță până se formează o pastă, care se pune într-un tifon și se aplică pe locul afectat
 
-CONTRAINDICAŢII: Nu se cunosc.
+CONTRAINDICAȚII: Nu se cunosc.
 
-OBSERVAŢII:
+OBSERVAȚII:
 
-Denumirea de „lemnul Domnului" arată faptul că în tradiţia populară această plantă este investită cu o putere sacră. Pe de altă parte foarte mulţi terapeuţi au constatat la pacienţii lor care folosesc regulat această plantă o îmbunătăţire radicală a stării de spirit, element extrem de important mai ales în bolile grave. Mai mulţi dintre pacienţii care au folosit-o au relatat faptul că administrând această plantă au constatat că mintea lor este mai liniştită şi mai puţin afectată de gânduri negre, le este mai uşor să se interiorizeze şi să se roage, somnul lor este mai calm şi cu vise luminoase. Privind lucrurile din această perspectivă, lemnul Domnului este un remediu mult mai complex şi mai puternic decât o arată acţiunile farmaco-dinamice determinate prin mijloacele clasice.
+Denumirea de „lemnul Domnului" arată faptul că în tradiția populară această plantă este investită cu o putere sacră. Pe de altă parte foarte mulți terapeuți au constatat la pacienții lor care folosesc regulat această plantă o îmbunătățire radicală a stării de spirit, element extrem de important mai ales în bolile grave. Mai mulți dintre pacienții care au folosit-o au relatat faptul că administrând această plantă au constatat că mintea lor este mai liniștită și mai puțin afectată de gânduri negre, le este mai ușor să se interiorizeze și să se roage, somnul lor este mai calm și cu vise luminoase. Privind lucrurile din această perspectivă, lemnul Domnului este un remediu mult mai complex și mai puternic decât o arată acțiunile farmaco-dinamice determinate prin mijloacele clasice.
 
 Obstructie menstruala (amenoree, dismenoree)1 parte lemnul domnului planta, zdrobit (Artemisia abrotanum) 1 parte busuiocul cerbilor planta (Mentha pulegium; pulegioides Hedeoma) 1 parte frunze de pelin (Artemisia vulgaris)
 

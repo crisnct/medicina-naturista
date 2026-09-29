@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Rețetă de iaurt homemade.docx"
-source_relative_path: "Rețetă de iaurt homemade.docx"
-source_sha256: "d642e5d496050f2739e500cbdd35f06a1273def42cd60c7b0773c87fa32af3e5"
-source_size_bytes: 13545
-source_format: docx
-output_format: markdown
-native_text_characters: 1022
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Rețetă de iaurt homemade
-
-## Text nativ
-
 Rețetă de iaurt homemade 1
 
 - extrem de bun -

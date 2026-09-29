@@ -1,24 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Helicobacter Pylori\\h. pylori.jpg"
-source_relative_path: "Helicobacter Pylori\\h. pylori.jpg"
-source_sha256: "7c0f5d470e23c5d7f7e4913030c9a4ad6f1fa02a4753db4edc9e08fac7358b65"
-source_size_bytes: 184859
-media_type: image/jpeg
-width_px: 1311
-height_px: 689
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 92.77
-ocr_text_characters: 1864
-status: "ok"
----
-
-# h. pylori.jpg
-
-## Text OCR extras
-
-```text
 Drug Regimens Used to Eradicate Helicobacter pylori
 Drug #1
 Drug #2
@@ -59,8 +38,3 @@ with each meal and at bedtime; a standard PP! dosage is added to the regimen and
 ‘Requires validation as first-line therapy in the United States.
 ‘Requires validation as rescue therapy in the United States.
 Data from references 5, 25 to 29.
-```
-
-## Notă
-
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.

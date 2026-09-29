@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\naturiste.docx"
-source_relative_path: "naturiste.docx"
-source_sha256: "9a3074f7da4755bd123202b2a0fbb4f2c50e840efc143a7e4786bd73fddd50db"
-source_size_bytes: 927522
-source_format: docx
-output_format: markdown
-native_text_characters: 0
-tables: 0
-images: 6
-ocr_images_with_text: 6
-ocr_text_characters: 5115
----
-
-# naturiste
-
-## Text nativ
-
 _Documentul nu conține text nativ extractibil._
 
 ## Imagini și OCR

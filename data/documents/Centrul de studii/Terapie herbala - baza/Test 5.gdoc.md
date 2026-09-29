@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 5.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 5.gdoc"
-source_pointer_sha256: "39dad08bd4cd127507a5847717ad7f199b9008a914a27acf6b2d4898c3e93f66"
-source_pointer_bytes: 181
-google_doc_id: "11k5EBWzxYRR0sA_bhqZK7403MEjXwHkiIEvT8UUsX3U"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 5
-
-## Conținut extras
-
 Test 5 herbalism
 
 1. Ce face un tonic?

@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 14 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 14 terapie herbala profesional.gdoc"
-source_pointer_sha256: "0655d44bb584b93911bec279a2788c5c18c57ca33d46d72da643cd2a68f855e7"
-source_pointer_bytes: 181
-google_doc_id: "1LpXTJIjIrJ2F1O_ZH0QwXQftnzLLlXyW3zm35zoEGUE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 14 terapie herbala profesional
-
-## Conținut extras
-
 Curs 14
 
 Ierburi pentru calmarea nervilor și antispasmodice

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Bacteriile - între aliați și inamici.docx"
-source_relative_path: "Bacteriile - între aliați și inamici.docx"
-source_sha256: "872151a691f7b8d3dd966c2b997e3d0fc2c9765d306db3222871afcd6a2e35f8"
-source_size_bytes: 313313
-source_format: docx
-output_format: markdown
-native_text_characters: 16123
-tables: 0
-images: 1
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Bacteriile - între aliați și inamici
-
-## Text nativ
-
 ### Bacteriile - între aliați și inamici
 
 Concluzii
@@ -166,7 +148,7 @@ The Family Thermodesulfobacteriaceae
 Streptomicete: strategii de atac
 
 
-Aplicaţii biotehnologice ale bacteriilor din genurile streptomyces Şi bacillus
+Aplicații biotehnologice ale bacteriilor din genurile streptomyces Și bacillus
 
 
 Bacillus subtilis
@@ -230,7 +212,7 @@ Bifidobacteriile, benefice pentru organism
 Streptomyces inside-out: a new perspective on the bacteria that provide us with antibiotics
 
 
-Bacteriile radioactive – o armă inedită care permite combaterea celui mai necruţător tip de cancer
+Bacteriile radioactive – o armă inedită care permite combaterea celui mai necruțător tip de cancer
 
 
 Claudia Gravekamp

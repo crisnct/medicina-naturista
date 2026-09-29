@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 4.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 4.gdoc"
-source_pointer_sha256: "c60f4e3f31e7a45977b48cd35fe538dfc4201e28f9b3a1580b611923c0890fdb"
-source_pointer_bytes: 181
-google_doc_id: "16bUQuOhAT-8s4RN4PHUZfZfaMFHQXYlCIGVPRaz5_14"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 4
-
-## Conținut extras
-
 **Test 4**
 
 1. Ce caracteristici trebuie sa aiba starea care poate fi tratata cu ierburi de răcire?

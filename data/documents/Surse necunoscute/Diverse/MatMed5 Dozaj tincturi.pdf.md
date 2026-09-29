@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\MatMed5 Dozaj tincturi.pdf"
-source_relative_path: "MatMed5 Dozaj tincturi.pdf"
-source_sha256: "86bf22845e26530079e0236c0ab22bc1f39b35ee4bb26c0baa376068a6d291b3"
-source_size_bytes: 363721
-page_count: 57
-extracted_text_characters: 101213
-extraction_method: pypdf
-status: "ok"
----
-
-# MatMed5 Dozaj tincturi.pdf
-
-## Pagini
-
 ### Pagina 1
 
 HERBAL MATERIA MEDICA
@@ -2705,7 +2690,7 @@ BOTANICAL MEDICINE
 PO Box 4565
 Bisbee, AZ 85603
 (520) 432-5855
-hrbmoore@mindspring.com
-www.swsbm.com
+
+
 Michael Moore, Director
 Donna Chesner, Administrator

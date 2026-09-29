@@ -2,7 +2,7 @@ Ovidiu Bojor --
 
 \"Eu nu concep notiunea de batranete. Sunt vesnic tanar!\"
 
-** Pe vremea cand batea culmile Himalayei\...**
+** Pe vremea cand batea culmile Himalayei\...**
 
 GEOGRAFII CULINARE\
 \
@@ -49,7 +49,7 @@ Castravete asiatic Dr. Ovidiu Bojor a observat ca locuitorii Nepalului consuma o
 
 Cu sotia (1986)
 
- *- Dupa atatia ani de experienta, puteti spune ca natura vegetala e la fel de complexa ca omul? Ca are simtire? Emotie? Sentimente?*\
+ *- Dupa atatia ani de experienta, puteti spune ca natura vegetala e la fel de complexa ca omul? Ca are simtire? Emotie? Sentimente?*\
 \
 - Categoric. Suntem abia la primii pasi de a cunoaste sufletul plantei. Am vazut, nu o data, cum la o muzica frumoasa, la o mangaiere, la o vorba buna\... infloreste. Daca te incrunti la ea, se chirceste. Intre toate fiintele vii - plante, animale sau oameni - exista o comunicare continua, ceea ce e minunat. Important e sa deschidem ochii, sa stim sa citim aceste semne. Numai ca, din pacate, lumea nu e mereu interesata de asta. Pentru ca majoritatea alearga dupa bani, dupa profituri, dupa sex. Lucrurile acestea sunt pe un plan inferior. Nu intamplator omul a fost creat ca un edificiu perfect, pe verticala, capul cu ratiunea deasupra, sentimentul e pe undeva pe la inima, iar ultimul etaj sunt viscerele, pentru ca trebuie sa te hranesti si sa te inmultesti.\
 \
@@ -62,7 +62,7 @@ Cu sotia (1986)
 
 La pensie? Poate la 90 de ani \...
 
- - Oamenii acestia evolueaza pe scara profesionala, dar se indeparteaza spiritual foarte mult. Evaluarea aceasta in haine, masini, ceasuri, bijuterii este facuta de oameni meschini, pe care nu pot sa-i inteleg. Viata adevarata inseamna satisfactia sufleteasca pe care o ai in relatiile cu alti oameni si liniste sufleteasca. Adevaratul confort nu e cel material, ci cel emotional. Cei care sunt prinsi in capcana unei vieti contra cronometru trebuie sa-si puna intrebarea de ce, si la ce serveste cu adevarat asta. Trebuie foarte mult curaj sa opresti acest carusel. A-l opri nu inseamna a te izola. Suntem oameni sociabili. Trebuie cultivate iubirea, ajutorarea si daruirea. Sa-ti doresti ca maine sa fii un pic mai bun decat ai fost ieri. Dimineata sa te rogi: \"Multumesc, Doamne, ca mi-ai mai dat o zi sa fac bine\". Daca esti lacom, patesti cum a patit fata aceea, care a murit la serviciu de prea multa oboseala.\
+ - Oamenii acestia evolueaza pe scara profesionala, dar se indeparteaza spiritual foarte mult. Evaluarea aceasta in haine, masini, ceasuri, bijuterii este facuta de oameni meschini, pe care nu pot sa-i inteleg. Viata adevarata inseamna satisfactia sufleteasca pe care o ai in relatiile cu alti oameni si liniste sufleteasca. Adevaratul confort nu e cel material, ci cel emotional. Cei care sunt prinsi in capcana unei vieti contra cronometru trebuie sa-si puna intrebarea de ce, si la ce serveste cu adevarat asta. Trebuie foarte mult curaj sa opresti acest carusel. A-l opri nu inseamna a te izola. Suntem oameni sociabili. Trebuie cultivate iubirea, ajutorarea si daruirea. Sa-ti doresti ca maine sa fii un pic mai bun decat ai fost ieri. Dimineata sa te rogi: \"Multumesc, Doamne, ca mi-ai mai dat o zi sa fac bine\". Daca esti lacom, patesti cum a patit fata aceea, care a murit la serviciu de prea multa oboseala.\
 \
 *- Datorati ceva originii dvs. ardelenesti? Radacinile te formeaza in vreun fel?*\
 \
@@ -101,12 +101,12 @@ Viata fara de moarte si tinerete fara batranete\
 
 Muresenii de Campie. La inaugurarea monumentului dedicat localnicilor omorati de hortisti
 
- *- N-ati obosit? De unde atata energie sa faceti bine?*\
+ *- N-ati obosit? De unde atata energie sa faceti bine?*\
 \
 - Dumnezeu daruieste celui care se daruieste. Daca credeti cu adevarat in asta, veti vedea ca functioneaza. Nimic nu te incarca mai bine decat gandul ca ai adus cuiva fericire. Eu, la varsta mea, lucrez zilnic cate 10, 12 ore. Uneori si sambata. A doua zi dupa ce m-am pensionat, m-am angajat cu carte de munca. Nimic nu e mai daunator pentru cei care se pensioneaza decat sa renunte la orice fel de munca. Vor fi ca un aparat scos din priza. Trebuie sa se gandeasca la ce le place mai mult si sa continue o activitate. Poate ca unii de-abia acum pot face ce le place cu adevarat. Este secretul ramanerii in forma.\
 *- Va simtiti un om implinit?*\
 - Nu inca. Pana la 90 de ani, cand chiar \"ies la pensie\" (ha!ha!), mai am vreo 8 ani. In care mai sunt multe de facut si de daruit. As vrea sa desavarsesc ideile din teasta mea si sa incep sa lucrez la testamentul meu stiintific, sa le las sub forma de teme de studiat pentru cei care vor urma. Ca sa nu se piarda.
 
-** **
+** **
 
-** **
+** **

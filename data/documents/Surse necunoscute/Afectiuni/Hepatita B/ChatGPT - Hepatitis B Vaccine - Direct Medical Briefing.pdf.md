@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Hepatita B\\ChatGPT - Hepatitis B Vaccine - Direct Medical Briefing.pdf"
-source_relative_path: "Hepatita B\\ChatGPT - Hepatitis B Vaccine - Direct Medical Briefing.pdf"
-source_sha256: "b5025332817c9106be4131b0094cd9b8771be4b594baca86b2e14762b1d46de8"
-source_size_bytes: 214824
-page_count: 12
-extracted_text_characters: 24566
-extraction_method: pypdf
-status: "ok"
----
-
-# ChatGPT - Hepatitis B Vaccine - Direct Medical Briefing.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Hepatitis B Vaccine A direct medical briefing on benefits, schedules,

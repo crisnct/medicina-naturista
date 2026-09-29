@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Terapi de vindecare\\Reteta Tibetana cu usturoi.rtf"
-source_relative_path: "retete naturiste de sanatate\\Terapi de vindecare\\Reteta Tibetana cu usturoi.rtf"
-source_sha256: "af450a94f11026c028e1b12bb2c150af9f84d45683bc7bd2589c655ed328b3fa"
-source_size_bytes: 5556
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 2174
-status: "ok"
----
-
-# Reteta Tibetana cu usturoi.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;Times New Roman CE;Times New Roman Cyr;
 
 Times New Roman Greek;Times New Roman Tur;Times New Roman (Hebrew);Times New Roman (Arabic);

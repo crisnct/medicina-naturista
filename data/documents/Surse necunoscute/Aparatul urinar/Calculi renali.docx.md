@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Calculi renali.docx"
-source_relative_path: "Calculi renali.docx"
-source_sha256: "05f998ea2ff9ca75a2134a36bec18c063366357ee9a0f73d9ea8a2e8653558d7"
-source_size_bytes: 13676
-source_format: docx
-output_format: markdown
-native_text_characters: 2557
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Calculi renali
-
-## Text nativ
-
 Calculi biliari si renali
 
 Se usuca si se rasnesc pielitele de pe pipota gainilor.

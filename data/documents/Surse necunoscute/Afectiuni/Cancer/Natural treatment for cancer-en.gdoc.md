@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Cancer\\Natural treatment for cancer-en.gdoc"
-source_relative_path: "Cancer\\Natural treatment for cancer-en.gdoc"
-source_pointer_sha256: "b90eaaac01c4be52044bfceaa97b477a969924b2589c72901c5f9c30a244ef00"
-source_pointer_bytes: 181
-google_doc_id: "1yQnh-BSd-9riad3_Bvr4V9m5zuOM8N9hjlIgxydQOdE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Natural treatment for cancer-en
-
-## Conținut extras
-
 **Natural treatment for cancer**
 
 - **Vitamin B17**: 500mg x 2-3 times per day, OR apricot seeds (1 tablespoon 2 times per day)

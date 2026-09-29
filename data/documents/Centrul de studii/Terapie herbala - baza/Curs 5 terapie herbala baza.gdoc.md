@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 5 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 5 terapie herbala baza.gdoc"
-source_pointer_sha256: "36815637d68f91682be8898e61e427b097f3c37bef0bffedd8ae368aee5e08b6"
-source_pointer_bytes: 181
-google_doc_id: "1l5Bw7owXF17Bx8CEqNhlW1chN19f2XcKhdUAAqCtbm8"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 5 terapie herbala baza
-
-## Conținut extras
-
 Curs 5
 
 **TONICELE**

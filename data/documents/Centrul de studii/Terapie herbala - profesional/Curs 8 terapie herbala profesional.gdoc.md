@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 8 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 8 terapie herbala profesional.gdoc"
-source_pointer_sha256: "8f5196de42e25542ff7fd8f36942a58eb58ddc34a52d742b8b7fcde64f9315da"
-source_pointer_bytes: 181
-google_doc_id: "1CiQ_k8yPri1oUHRnLEJEEhrA242zG47JxNmhMk_WOa0"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 8 terapie herbala profesional
-
-## Conținut extras
-
 CURSUL 8
 
 Ierburile laxative

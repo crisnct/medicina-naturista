@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Test 6.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Test 6.gdoc"
-source_pointer_sha256: "eedf53cfef960c12742b7e5523057cd38a103d84ba7fd1ab54198739af7f1921"
-source_pointer_bytes: 181
-google_doc_id: "1br99KC_mASSJx7RkG5MO9Vj1_nbzmQYuZuaj0Vo9QLI"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 6
-
-## Conținut extras
-
 Test 6
 
 1. Ce este un vehicul în sensul fitoterapeutic?

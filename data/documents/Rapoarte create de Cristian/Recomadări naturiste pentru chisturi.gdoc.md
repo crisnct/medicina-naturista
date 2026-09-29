@@ -1,24 +1,8 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomadări naturiste pentru chisturi.gdoc"
-source_relative_path: "Recomadări naturiste pentru chisturi.gdoc"
-source_pointer_sha256: "3e1e86a38cdbd69ac8d1919b21f3d3677c03330d258d80e7d1dc20482f2d1c82"
-source_pointer_bytes: 181
-google_doc_id: "1k9xiRUVRqsuQ2AafCwxmtNDDSCdM9G0MZsLNFmIkLwE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Recomadări naturiste pentru chisturi
-
-## Conținut extras
-
 # Recomandări naturiste pentru chisturi
 
 **Chistul** este o pungă sau sac fără deschidere, cu o membrana distincta, care conține lichid sau materie semi-fluida morbida. Acesta se dezvoltă, de obicei, într-un organ sau intr-o cavitate a corpului.Chisturile sunt materialul nedorit în organism, care poate fi dizolvat și eliminat cu utilizarea adecvată de plante. Chisturile sunt adesea cauzate de o stare precară a organismului, astfel incat structura celulei scapă de sub control și cresc noduli suplimentari sau polipi care nu sunt necesari. În spargerea unui chist, utilizarea de plante de nuc (frunze, scoarță de copac sau pulpă uscată a cojii de nuc) sunt excelente. Plante utile sunt: oțet de cidru , mullein, patlagina, brusture, cayenne, Sarsaparilla, macris (ovarian sau zonele genitale).
 
-**\- Din cartea Mariei Treben**: uz extern: comprese cu bitter suedez; uz intern: ceai de gălbenele, urzică, coada-şoricelului, rădăcini de obligeană.
+**\- Din cartea Mariei Treben**: uz extern: comprese cu bitter suedez; uz intern: ceai de gălbenele, urzică, coada-șoricelului, rădăcini de obligeană.
 
 **\- Tinctură din muguri de plop negru**: o linguriță de 4 ori/zi intern
 

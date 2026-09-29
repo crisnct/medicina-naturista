@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 10 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 10 terapie herbala profesional.gdoc"
-source_pointer_sha256: "f644e732f27472e7b482efddbb1a63efd8c3e6b1204de6adc4cc1585cedefb05"
-source_pointer_bytes: 181
-google_doc_id: "18Yx9HoM8OmuQK58q34xlIu8QSwilI9ITtyRqA_3aGAI"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 10 terapie herbala profesional
-
-## Conținut extras
-
 Cursul 10
 
 Ierburile diuretice
@@ -410,25 +394,25 @@ Administrare: da, de asemenea, pacientului un ceai de ulm sau de in.
 
 Morcov salbatic(Daucus carota; Umbelliferae)
 
-Morcovul sălbatic sau Daucus carota este cunoscut încă din antichitate pentru proprietăţile sale medicinale. Este originar din Asia Centrală, însă aria de răspândire s-a extins în Europa şi în America. Planta este comestibilă şi poate fi folosită cu succes şi pentru uz extern.
+Morcovul sălbatic sau Daucus carota este cunoscut încă din antichitate pentru proprietățile sale medicinale. Este originar din Asia Centrală, însă aria de răspândire s-a extins în Europa și în America. Planta este comestibilă și poate fi folosită cu succes și pentru uz extern.
 
 Proprietati terapeutice:
 
-Excelent remineralizant şi diuretic.
+Excelent remineralizant și diuretic.
 
-Morcovul sălbatic are proprietăţi depurative, tonice, remineralizante şi diuretice şi este bogat în vitamina A (caroten), vitaminele B1, B2, B3, B5, B6, B9 (acid folic) şi minerale precum fosfor, calciu, sodiu, potasiu, magneziu, arsenic, mangan, sulf, cupru, brom şi multe altele. O cură cu această explozie de vitamine este foarte indicată primăvara, când organismul se eliberează de toxine. Este ideal pentru stomac, în special pentru infecţiile de genul gastro-enterocolitei, cicatrizând mucoasa. Se recomandă fierberea a două kilograme de morcovi (daţi pe răzătoare, dar cu tot cu coajă) şi un pumn de orez, până când legumele se înmoaie. Această fiertură se consumă de trei ori pe zi, având rolul de a revitaliza mucoasa stomacală.
+Morcovul sălbatic are proprietăți depurative, tonice, remineralizante și diuretice și este bogat în vitamina A (caroten), vitaminele B1, B2, B3, B5, B6, B9 (acid folic) și minerale precum fosfor, calciu, sodiu, potasiu, magneziu, arsenic, mangan, sulf, cupru, brom și multe altele. O cură cu această explozie de vitamine este foarte indicată primăvara, când organismul se eliberează de toxine. Este ideal pentru stomac, în special pentru infecțiile de genul gastro-enterocolitei, cicatrizând mucoasa. Se recomandă fierberea a două kilograme de morcovi (dați pe răzătoare, dar cu tot cu coajă) și un pumn de orez, până când legumele se înmoaie. Această fiertură se consumă de trei ori pe zi, având rolul de a revitaliza mucoasa stomacală.
 
 Vindecă rahitismul
 
-Sucul din morcovul sălbatic are şi proprietatea de a creşte globulele roşii din sânge. Poti i combina sucul (câte un kilogram de morcovi pentru fiecare stoarcere) şi cu alte legume, cum ar fi sfecla roşie, dar şi fructe (mere). De asemenea, este foarte apreciat pentru acţiunea sa reglatoare asupra intestinelor (laxatoare şi antidiareică), precum şi pentru fluidizarea bilei şi tonifierea ficatului. Mai mult, este antianemic, intervenind în procesul de creştere, dar şi în cazul rahitismului şi al demineralizării.
+Sucul din morcovul sălbatic are și proprietatea de a crește globulele roșii din sânge. Poti i combina sucul (câte un kilogram de morcovi pentru fiecare stoarcere) și cu alte legume, cum ar fi sfecla roșie, dar și fructe (mere). De asemenea, este foarte apreciat pentru acțiunea sa reglatoare asupra intestinelor (laxatoare și antidiareică), precum și pentru fluidizarea bilei și tonifierea ficatului. Mai mult, este antianemic, intervenind în procesul de creștere, dar și în cazul rahitismului și al demineralizării.
 
-Întinereşte ţesuturile
+Întinerește țesuturile
 
-Graţie multitudinii de vitamine conţinute, morcovul sălbatic participă la întinerirea ţesuturilor pielii, grăbeşte cicatrizarea rănilor şi îmbunătăţeşte vederea. Este recomandat diabeticilor, deoarece determină închiderea rănilor după operaţii. Pe lângă salate, sucuri şi fierturi cu morcovi, opteaza şi pentru regenerarea pielii, prin folosirea externă. Pentru aceasta ai nevoie de un morcov, cu tot cu coajă (dar bine spălat) pe care trebuie să-l dai pe răzătoare. Aplica-l pe întreaga faţă şi ţine-l timp de un sfert de oră, după care clăteste-te cu apă minerală. Cu sucul obţinut prin răzuirea morcovului sălbatic şterge-te pe faţa, tamponând o compresă sterilă în suc. Pielea va căpăta un aspect sănătos şi odihnit.
+Grație multitudinii de vitamine conținute, morcovul sălbatic participă la întinerirea țesuturilor pielii, grăbește cicatrizarea rănilor și îmbunătățește vederea. Este recomandat diabeticilor, deoarece determină închiderea rănilor după operații. Pe lângă salate, sucuri și fierturi cu morcovi, opteaza și pentru regenerarea pielii, prin folosirea externă. Pentru aceasta ai nevoie de un morcov, cu tot cu coajă (dar bine spălat) pe care trebuie să-l dai pe răzătoare. Aplica-l pe întreaga față și ține-l timp de un sfert de oră, după care clăteste-te cu apă minerală. Cu sucul obținut prin răzuirea morcovului sălbatic șterge-te pe fața, tamponând o compresă sterilă în suc. Pielea va căpăta un aspect sănătos și odihnit.
 
 Elimină pietrele la rinichi
 
-O metodă populară de fărâmarea pietrelor la rinichi constă în consumarea unui amestec dintr-o linguriţă cu pătrunjel, rădăcină de păpădie şi flori de morcov sălbatic. Se toacă cât mai mărunt, şi peste ingrediente se toarnă patru pahare cu apă. Se fierbe la foc mic timp de 10 minute. Se consumă o cană cu ceai înainte de fiecare masă.
+O metodă populară de fărâmarea pietrelor la rinichi constă în consumarea unui amestec dintr-o linguriță cu pătrunjel, rădăcină de păpădie și flori de morcov sălbatic. Se toacă cât mai mărunt, și peste ingrediente se toarnă patru pahare cu apă. Se fierbe la foc mic timp de 10 minute. Se consumă o cană cu ceai înainte de fiecare masă.
 
 Dozare
 

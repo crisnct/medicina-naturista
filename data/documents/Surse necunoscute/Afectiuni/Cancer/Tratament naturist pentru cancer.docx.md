@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Cancer\\Tratament naturist pentru cancer.docx"
-source_relative_path: "Cancer\\Tratament naturist pentru cancer.docx"
-source_sha256: "94eaaf0924877f705a11d1c6474a70172472105d8f41f2e4758f573b69adae60"
-source_size_bytes: 17857
-source_format: docx
-output_format: markdown
-native_text_characters: 3981
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Tratament naturist pentru cancer
-
-## Text nativ
-
 Tratament naturist pentru cancer *
 
 - Vitamina B17: 500mg x 2-3 ori pe zi, SAU samburi de caise (1 lingura de 2 ori pe zi)

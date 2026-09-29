@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Anatomie\\Anatomie sectiunea 1.pdf"
-source_relative_path: "Centrul de studii\\Anatomie\\Anatomie sectiunea 1.pdf"
-source_sha256: "f8b26af4327d40bc58f89cb853373c5482511958eba6832e22e62931b83e8281"
-source_size_bytes: 503668
-page_count: 24
-extracted_text_characters: 52632
-extraction_method: pypdf
-status: "ok"
----
-
-# Anatomie sectiunea 1.pdf
-
-## Pagini
-
 ### Pagina 1
 
 1 FUNCTIILE FUNDAMENTALE
@@ -233,33 +218,33 @@ inerveaza.
 
 ANALIZATORII
 
-Simţurile sunt subsisteme fiziologice receptoare care fac posibilă reacţia la anumite
+Simțurile sunt subsisteme fiziologice receptoare care fac posibilă reacția la anumite
 categorii de stimuli din lumea exterioară sau din interiorul organismului.
-Organele de simţ reprezintă sistemele fiziologice periferice ale recepţiei
-senzoriale.Acestea ,împreună cu căile nervoase şi terminaţia lor în scoarţa cerebrală reprezintă
+Organele de simț reprezintă sistemele fiziologice periferice ale recepției
+senzoriale.Acestea ,împreună cu căile nervoase și terminația lor în scoarța cerebrală reprezintă
 un sistem anatomo-fiziologic unitar denumit de Pavlov analizator.
-Cele cinci simţuri sunt văzul, auzul, mirosul, gustul şi simţul tactil. Acestea oferă
-varietatea înconjurătoare în cinci moduri de contact fără a reprezenta însă şi conştientizarea
-acţiunii diverşilor stimuli externi sau interni.Cea mai simplă şi totodată prima formă de
-comunicare informaţională cu lumea externă o constituie recepţia senzorială. Primul produs
-psihic al recepţiei senzoriale este senzaţia.
-Senzaţia este reflectarea psihică a unor însuşiri izolate ale obiectelor din realitate care
-acţionează nemijlocit asupra organelor de simţ. Deci reflectarea obiectului în senzaţie are un
-caracter fragmentar, unidimensional, nepermiţând identificarea lui. Dacă am rămâne la faza
-recepţiei senzoriale,fără atributul conştientizării, nu ne-am putea desprinde din lumea animală.
-La om ,conştientizarea senzaţiei pune în funcţiune operatori logici de analiză-evaluare,
-discernere-delimitare între stimul şi modelul lui informaţional, de raportare designativă(imaginea
+Cele cinci simțuri sunt văzul, auzul, mirosul, gustul și simțul tactil. Acestea oferă
+varietatea înconjurătoare în cinci moduri de contact fără a reprezenta însă și conștientizarea
+acțiunii diverșilor stimuli externi sau interni.Cea mai simplă și totodată prima formă de
+comunicare informațională cu lumea externă o constituie recepția senzorială. Primul produs
+psihic al recepției senzoriale este senzația.
+Senzația este reflectarea psihică a unor însușiri izolate ale obiectelor din realitate care
+acționează nemijlocit asupra organelor de simț. Deci reflectarea obiectului în senzație are un
+caracter fragmentar, unidimensional, nepermițând identificarea lui. Dacă am rămâne la faza
+recepției senzoriale,fără atributul conștientizării, nu ne-am putea desprinde din lumea animală.
+La om ,conștientizarea senzației pune în funcțiune operatori logici de analiză-evaluare,
+discernere-delimitare între stimul și modelul lui informațional, de raportare designativă(imaginea
 subiectivă internă se raportează la stimulul extern care a provocat-o).
-Senzaţiile se caracterizează printr-o serie de calităţi pe baza cărora le putem identifica,
-compara, analiza, interpreta. Aceste calităţi sunt : modalitatea, intensitatea, durata, tonalitatea
-afectivă şi valoarea cognitivă.
-In funcţie de natura surselor care le generează, senzaţiile sunt : exteroceptive (sursele
-sunt externe), proprioceptive (sursele sunt la nivelul articulaţiilor osteo-musculare) şi
+Senzațiile se caracterizează printr-o serie de calități pe baza cărora le putem identifica,
+compara, analiza, interpreta. Aceste calități sunt : modalitatea, intensitatea, durata, tonalitatea
+afectivă și valoarea cognitivă.
+In funcție de natura surselor care le generează, senzațiile sunt : exteroceptive (sursele
+sunt externe), proprioceptive (sursele sunt la nivelul articulațiilor osteo-musculare) și
 interoceptive (sursele sunt interne, la nivelul viscerelor).
-La baza senzaţiei se află o proprietate funcţională specială a organismelor animale ,
+La baza senzației se află o proprietate funcțională specială a organismelor animale ,
 sensibilitatea.
-Sensibilitatea este funcţia unor celule numite receptori care apar şi se diferenţiază
-treptat în cursul evoluţiei regnului animal şi se exercită ca funcţie a unui aparat specific denumit
+Sensibilitatea este funcția unor celule numite receptori care apar și se diferențiază
+treptat în cursul evoluției regnului animal și se exercită ca funcție a unui aparat specific denumit
 sistem de integrare senzorială sau analizator.
 
 ### Pagina 8
@@ -481,40 +466,40 @@ daltonismul).
 
 Culorile
 Ochiul poate vedea 7 milioane de culori. Anumite culori pot irita ochii si pot cauza dureri de cap
-.Alte culori sau combinaţii de culori sunt liniştitoare. Deci folosirea corecta a culorilor poate mari
+.Alte culori sau combinații de culori sunt liniștitoare. Deci folosirea corecta a culorilor poate mari
 productivitatea, minimaliza obosirea vizuala si pot relaxa intreg corpul.
- Culoarea regilor era purpuriu. Pentru persoanele importante, se desfăşoară covoare roşii. In
+ Culoarea regilor era purpuriu. Pentru persoanele importante, se desfășoară covoare roșii. In
 unele culturi se credea ca anumite culori aveau puteri energizante sau vindecătoare. De
 exemplu, o pictura a lui Jan Van Eyeck (1434) descrie o mireasa in perioada Renascentista
 
 ### Pagina 14
 
-purtând o rochie verde ,arătând, astfel dorinţa si posibilitatea de a purta copii. Omul Verde era
-zeul fertilităţii in cultura celta. Verdele era o culoare sacra pentru egipteni, reprezentând
-speranţa si bucuria primăverii.
+purtând o rochie verde ,arătând, astfel dorința si posibilitatea de a purta copii. Omul Verde era
+zeul fertilității in cultura celta. Verdele era o culoare sacra pentru egipteni, reprezentând
+speranța si bucuria primăverii.
  Culorile dau anumite stări camerelor . Culorile reci fac camerele sa para mai mari si aduc un
 sentiment de calm . Culorile calde fac camerele mari sa fie mai confortabile si mai călduroase.
 Se crede ca vopsirea sufragerie in negru va face mesele mai plăcute.
 Verdele duce la vitalitate ,si se recomanda vopsirea camerei copiilor in aceasta culoare, dând
-copiilor un plus in activităţile lor.
-Restaurantele nu vopsesc niciodată buradaria in roşu deoarece se pare ca aceasta va duce la
-o stare de enervare a bucătarului. Centrul neliniştii din creier este activat de galben. “La copii
-aceasta va duce la planşete , iar la adulti ,va duce la enervare” declara Carlton Wagner,
+copiilor un plus in activitățile lor.
+Restaurantele nu vopsesc niciodată buradaria in roșu deoarece se pare ca aceasta va duce la
+o stare de enervare a bucătarului. Centrul neliniștii din creier este activat de galben. “La copii
+aceasta va duce la planșete , iar la adulti ,va duce la enervare” declara Carlton Wagner,
 directorul Institului pentru Studierea Culorilor Wagner.
 Albastru va face o persoana mai atenta la trecerea timpului, si astfel, de exemplu , vor petrece
-mai puţin timp mâncând. Pentru persoanele care adorm mai greu, se recomanda culori ca roz
-pal, verde , albastru si roşu pal. Despre culori:
+mai puțin timp mâncând. Pentru persoanele care adorm mai greu, se recomanda culori ca roz
+pal, verde , albastru si roșu pal. Despre culori:
 VERDE
 - este culoarea cea mai odihnitoare pt ochi
-- poate ajuta la diminuarea durerii, uneori poate chiar alina durerea creşterii dinţilor la
+- poate ajuta la diminuarea durerii, uneori poate chiar alina durerea creșterii dinților la
 bebelusi
-- oamenii care lucrează intr-un mediu colorat in verde au mai puţine dureri de stomac
+- oamenii care lucrează intr-un mediu colorat in verde au mai puține dureri de stomac
 - Cazurile de sinucidere au scăzut cu 34% când podul Blackfriar din Londra a fost
 vopsit in verde
 
 GALBEN
 - Copii plâng mai mult in camere galbene
-- Soţii se cearta mai mult cu soţiile in camere galbene
+- Soții se cearta mai mult cu soțiile in camere galbene
 - Este prima culoare pe care o observa ochiul uman
 - Este cea mai obositoare culoare pentru ca reflecta mai multa lumina, ducând la
 stimularea excesiva a ochiului
@@ -523,22 +508,22 @@ supărarea. Un studiu pe copii cu vârste mai mici de 7 ani a arătat ca majorit
 culori pure , nu pastelate. Alt studiu a schimbat culoarea mâncării, dar a arătat ca oamenii nu
 doreau sa mănânce carne gri si salata purpurie. Aceasta a arătat ca oamenii vor ca lucrurile sa
 fie colorate cum ar trebui sa fie.
-O lucrare, a studiat 65 de studenţi care au cumpărat schiuri acvatice .Etichetele de
+O lucrare, a studiat 65 de studenți care au cumpărat schiuri acvatice .Etichetele de
 avertizare au fost de mai multe culori. Rezultatul la crestera probabilitatii de rănire la produsele
-cu avertizări scrise cu roşu, verde si negru.
+cu avertizări scrise cu roșu, verde si negru.
 O firma comercializează lentile de contact rosii pentru gaini deoarece studii medicale au
-arătat ca găinile care vad roşu in timpul zilei sunt mai fericire si mananca mai putina hrana.
+arătat ca găinile care vad roșu in timpul zilei sunt mai fericire si mananca mai putina hrana.
 Purtătorul de cuvânt al firmei a apreciat ca lentile vor imbunatati recolta de oua cu 600
 milioane $ pe an.
-Spitalele folosesc albastru si purpuriu in sălile de aşteptare pentru a ajuta la calmarea
-pacienţilor.
+Spitalele folosesc albastru si purpuriu in sălile de așteptare pentru a ajuta la calmarea
+pacienților.
 
 ### Pagina 15
 
 Vederea Stereoscopica
 Oamenii si celelalte animale care sunt capabile sa focalizeze cu ambii ochi asupra unui
-singur obiect sunt capabile de vedere stereoscopica, care este fundamentala pentru o percepţie
-mai adânca a lucrurilor. Principiul consta in prezentarea unei imagini din doua unghiuri , puţin
+singur obiect sunt capabile de vedere stereoscopica, care este fundamentala pentru o percepție
+mai adânca a lucrurilor. Principiul consta in prezentarea unei imagini din doua unghiuri , puțin
 diferite, pentru ca apoi ochiul sa contopească aceste imagini intr-o singura imagine
 tridimensionala.
  Una din categoriile de imagini stereoscopice sunt numite autostereograme, care nu

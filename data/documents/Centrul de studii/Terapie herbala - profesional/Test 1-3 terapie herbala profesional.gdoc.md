@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Test 1-3 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Test 1-3 terapie herbala profesional.gdoc"
-source_pointer_sha256: "57f29d23e9546e15dd78bededb7030feb4932adc385673149e8aa831aeec38b2"
-source_pointer_bytes: 181
-google_doc_id: "15geycTkvf8f6sfQOzT26oCpCn6FDK72fttQy83YQSEM"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 1-3 terapie herbala profesional
-
-## Conținut extras
-
 Test partea 1 profesional
 
 1. Ce plante puternic mirositoare ai freca de corpul tau pentru a respinge insectele?

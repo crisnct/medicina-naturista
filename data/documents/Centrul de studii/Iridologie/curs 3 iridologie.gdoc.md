@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Iridologie\\curs 3 iridologie.gdoc"
-source_relative_path: "Centrul de studii\\Iridologie\\curs 3 iridologie.gdoc"
-source_pointer_sha256: "8f1a635b2b83008423817290a979de4242de978c65ce73f12b0ec2d73493ca29"
-source_pointer_bytes: 181
-google_doc_id: "1LHbtFsOrQQE5_y-izM4XDAC2xly4H8wCPVImLfb-PXQ"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# curs 3 iridologie
-
-## Conținut extras
-
 **LECTIA 3- O PRIVIRE ASUPRA OCHIULUI**
 
 	Este foarte important sa nu te arunci la examinarea irisului. Ochiul este un organ delicat si sensibil si trebuie tratat ca atare. Pentru a face o examinare eficace a irisului trebuie sa devii experimentat in practica.

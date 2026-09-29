@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\_Pacienti\\Tone Nelu-nasul\\Tratament ciroza 2.docx"
-source_relative_path: "_Pacienti\\Tone Nelu-nasul\\Tratament ciroza 2.docx"
-source_sha256: "81641ddc31a923a04eea0dee955217ea6039f6cfdd4ce37e434cf4073c9a4fed"
-source_size_bytes: 17585
-source_format: docx
-output_format: markdown
-native_text_characters: 2847
-tables: 2
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Tratament ciroza 2
-
-## Text nativ
-
 Pentru nașu
 
 ### Tabel 1

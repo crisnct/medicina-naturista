@@ -1,42 +1,42 @@
 **ATENTIONARI SI CONTRAINDICATII in folosirea remediilor naturiste**
 
-Tratamentele naturiste au fost folosite timp de milenii ca soluţii pentru vindecarea unei multitudini de afecţiuni. Şi în prezent, remediile din plante ocupă un loc de cinste în medicină, atât în ţările în care remediile naturale fac parte din medicina tradiţională (precum în China sau India), cât şi în ţările europene, inclusiv România. Cu toate că tratamentele naturiste câştigă an de an teren în faţa medicamentelor alopate, fiind folosite de din ce în ce mai multe persoane, trebuie să cunoaştem şi faptul că este indicat ca aceste remedii din plante să fie administrate doar la recomandarea şi indicaţiile medicilor specialişti, pentru a evita eventuale neplăceri.
+Tratamentele naturiste au fost folosite timp de milenii ca soluții pentru vindecarea unei multitudini de afecțiuni. Și în prezent, remediile din plante ocupă un loc de cinste în medicină, atât în țările în care remediile naturale fac parte din medicina tradițională (precum în China sau India), cât și în țările europene, inclusiv România. Cu toate că tratamentele naturiste câștigă an de an teren în fața medicamentelor alopate, fiind folosite de din ce în ce mai multe persoane, trebuie să cunoaștem și faptul că este indicat ca aceste remedii din plante să fie administrate doar la recomandarea și indicațiile medicilor specialiști, pentru a evita eventuale neplăceri.
 
-**Ce trebuie să ştim înainte să utilizăm tratamentele naturiste**
+**Ce trebuie să știm înainte să utilizăm tratamentele naturiste**
 
-Trebuie să ştim că, pe lângă nenumăratele beneficii pe care le aduc, plantele pot avea şi anumite restricţii în administrarea lor. De aceea este important să respectăm câteva reguli:
+Trebuie să știm că, pe lângă nenumăratele beneficii pe care le aduc, plantele pot avea și anumite restricții în administrarea lor. De aceea este important să respectăm câteva reguli:
 
-\- Spuneţi medicului sau farmacistului dacă sunteţi alergic (hipersensibil) la vreunul din componentele produsului natural pe care doriţi să îl folosiţi.
+\- Spuneți medicului sau farmacistului dacă sunteți alergic (hipersensibil) la vreunul din componentele produsului natural pe care doriți să îl folosiți.
 
-\- Spuneţi medicului sau farmacistului dacă luaţi sau aţi luat recent orice alte medicamente, inclusiv dintre cele eliberate fără prescripţie medicală.
+\- Spuneți medicului sau farmacistului dacă luați sau ați luat recent orice alte medicamente, inclusiv dintre cele eliberate fără prescripție medicală.
 
-\- Respectaţi întotdeauna modul de administrare al remediilor naturiste, aşa cum v-a indicat medicul. Nu întrerupeţi tratamentul şi nu modificaţi dozele fără avizul medicului. Dacă uitaţi să luaţi un produs nu dublaţi dozele pentru a recupera doza omisă. Dacă depăşiţi doza recomandată, adresaţi-vă medicului de la primele reacţii adverse.
+\- Respectați întotdeauna modul de administrare al remediilor naturiste, așa cum v-a indicat medicul. Nu întrerupeți tratamentul și nu modificați dozele fără avizul medicului. Dacă uitați să luați un produs nu dublați dozele pentru a recupera doza omisă. Dacă depășiți doza recomandată, adresați-vă medicului de la primele reacții adverse.
 
-**Tratamentele naturiste şi atenţionările în administrarea lor**
+**Tratamentele naturiste și atenționările în administrarea lor**
 
 A
 
-\- **Anghinarea** nu se foloseşte în tratamentul litiazei biliare, în afecţiunile acute hepato-biliare şi renale. Planta poate da alergii datorită lactonelor din compoziţie. Administrată în cantitate mare poate provoca colici hepato-biliare.
+\- **Anghinarea** nu se folosește în tratamentul litiazei biliare, în afecțiunile acute hepato-biliare și renale. Planta poate da alergii datorită lactonelor din compoziție. Administrată în cantitate mare poate provoca colici hepato-biliare.
 
-\- **Argila** - se contraindică tratamentul cu argilă în cazuri de hernie inghinală avansată, constipaţie severă sau în timpul tratamentului cu raze X. De asemenea, femeile aflate în perioada ciclului menstrual nu vor face aceasta terapie.
+\- **Argila** - se contraindică tratamentul cu argilă în cazuri de hernie inghinală avansată, constipație severă sau în timpul tratamentului cu raze X. De asemenea, femeile aflate în perioada ciclului menstrual nu vor face aceasta terapie.
 
-\- **Astragalul** (plantă recomandată pentru menţinerea randamentului fizic) nu se recomandă a se folosi în timpul chimioterapiei, deoarece diminuează leucopenia (scăderea temporară a numărului de globule albe).
+\- **Astragalul** (plantă recomandată pentru menținerea randamentului fizic) nu se recomandă a se folosi în timpul chimioterapiei, deoarece diminuează leucopenia (scăderea temporară a numărului de globule albe).
 
-\- **Armurariul** este o plantă utilă deoarece diminuează toxicitatea asupra ficatului produsă de medicamente. Totuşi, ea nu se foloseşte de bolnavii cu hipertensiune arterială, cu probleme de coagulare crescută a sângelui sau cu tromboflebită. Planta nu se supradozează deoarece poate provoca vomă sau alergie.
+\- **Armurariul** este o plantă utilă deoarece diminuează toxicitatea asupra ficatului produsă de medicamente. Totuși, ea nu se folosește de bolnavii cu hipertensiune arterială, cu probleme de coagulare crescută a sângelui sau cu tromboflebită. Planta nu se supradozează deoarece poate provoca vomă sau alergie.
 
-\- **Ardeiul iute** nu se administrează în acelaşi timp cu medicamentele antihipertensive sau antidepresive. Nu se recomandă la copii sub 2 ani, în sarcină, alăptare, la iritaţii cutanate (eritem, eroziune) sau afecţiuni gastrice. În supradozaj poate da alergie, discomfort gastro-intesinal, arsură sau curgerea nasului.
+\- **Ardeiul iute** nu se administrează în același timp cu medicamentele antihipertensive sau antidepresive. Nu se recomandă la copii sub 2 ani, în sarcină, alăptare, la iritații cutanate (eritem, eroziune) sau afecțiuni gastrice. În supradozaj poate da alergie, discomfort gastro-intesinal, arsură sau curgerea nasului.
 
-\- **Arnica** nu se utilizează intern, putând provoca deranjamente gastro-intestinale şi hipertensiune arterială. În doze mai mari poate provoca paralizia centrilor nervoşi. Pe cale externă tinctura în proporţie de 1/5 aplicată local poate irita zona vizată.
+\- **Arnica** nu se utilizează intern, putând provoca deranjamente gastro-intestinale și hipertensiune arterială. În doze mai mari poate provoca paralizia centrilor nervoși. Pe cale externă tinctura în proporție de 1/5 aplicată local poate irita zona vizată.
 
-\- **Albăstrelele** - cresc efectul anticoagulantelor şi provoacă variaţii ale glicemiei.
+\- **Albăstrelele** - cresc efectul anticoagulantelor și provoacă variații ale glicemiei.
 
 \- **Aloe vera** - gelul de aloe poate afecta nivelurile glicemiei.
 
-\- **Agnus castus** (Fructul castităţii) este o plantă folosită în medicină pentru calitatea sa de a regla ciclul menstrual şi ovulatia. În mod normal se recomandă o cană de ceai pe zi obţinuta din fructe uscate şi mărunţite Acest remediu are însă efecte lente, în aproximativ 12-18 luni, fapt pentru care multe femei asociază acest remediu cu diverse tratamente hormonale pentru grăbirea efectului. Această asociere este însă contraindicată, deoarece putem face mai mult rău decât bine. De asemenea, Agnus castus este contraindicat după ce aţi rămas însărcinată.
+\- **Agnus castus** (Fructul castității) este o plantă folosită în medicină pentru calitatea sa de a regla ciclul menstrual și ovulatia. În mod normal se recomandă o cană de ceai pe zi obținuta din fructe uscate și mărunțite Acest remediu are însă efecte lente, în aproximativ 12-18 luni, fapt pentru care multe femei asociază acest remediu cu diverse tratamente hormonale pentru grăbirea efectului. Această asociere este însă contraindicată, deoarece putem face mai mult rău decât bine. De asemenea, Agnus castus este contraindicat după ce ați rămas însărcinată.
 
-\- **Anasonul** - supradozajul duce la stări de excitabilitate manifestate prin euforie, tulburări de vorbire şi de somn, excitaţii motorii şi psihice, depresie şi iritarea mucoaselor digestive. Nu este recomandat în timpul sarcinii, în cazul gastritelor hiperacide, a ulcerului şi aenterocolitei. Uleiul volatil de anason are efecte toxice. Acesta nu se ia concomitent cu fier deoarece poate da alergie sau dermatite de contact. Nu se va administra mai mult de 5g/zi de ulei deoarece poate produce insomnie şi afectarea sistemului nervos central. Folosit mult timp, chiar în doze mici, acest ulei poate irita mucoasa digestivă. Se evita expunerea la soare în cursul folosirii sale deoarece se poate produce sensibilizare.
+\- **Anasonul** - supradozajul duce la stări de excitabilitate manifestate prin euforie, tulburări de vorbire și de somn, excitații motorii și psihice, depresie și iritarea mucoaselor digestive. Nu este recomandat în timpul sarcinii, în cazul gastritelor hiperacide, a ulcerului și aenterocolitei. Uleiul volatil de anason are efecte toxice. Acesta nu se ia concomitent cu fier deoarece poate da alergie sau dermatite de contact. Nu se va administra mai mult de 5g/zi de ulei deoarece poate produce insomnie și afectarea sistemului nervos central. Folosit mult timp, chiar în doze mici, acest ulei poate irita mucoasa digestivă. Se evita expunerea la soare în cursul folosirii sale deoarece se poate produce sensibilizare.
 
-\- **Angelica** nu este indicată diabeticilor şi femeilor însărcinate. Dozele mari pot afecta tensiunea arterială, ritmul cardiac şi respiraţia.
+\- **Angelica** nu este indicată diabeticilor și femeilor însărcinate. Dozele mari pot afecta tensiunea arterială, ritmul cardiac și respirația.
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -48,9 +48,9 @@ BROMELAINA
 
 BRAD muguri
 
-În componentele bradului şi a molidului care se folosesc în fitoterapie, nu s-au izolat substanţe toxice. Cu toate acestea, există persoane care manifestă alergii la compuşii volatili din aceste conifere.
+În componentele bradului și a molidului care se folosesc în fitoterapie, nu s-au izolat substanțe toxice. Cu toate acestea, există persoane care manifestă alergii la compușii volatili din aceste conifere.
 
-Administrarea internă a preparatelor din molid sau din brad nu este indicată în bolile respiratorii cronice, îndeosebi în astmul bronşic evoluat şi în silicoză.
+Administrarea internă a preparatelor din molid sau din brad nu este indicată în bolile respiratorii cronice, îndeosebi în astmul bronșic evoluat și în silicoză.
 
 BRADUL ALB
 
@@ -90,11 +90,11 @@ Exista insa si situatii in care consumul de ceai verde este mai putin recomandat
 
 CIUMAFAIA
 
-febră, pierderi de conştiinţă, halucinaţii
+febră, pierderi de conștiință, halucinații
 
 CUCUTA
 
-senzaţie de vomă, vomitare,, crampe
+senzație de vomă, vomitare,, crampe
 
 COADA SORICELULUI
 
@@ -124,11 +124,11 @@ CROMUL -ANTIACIDELE (pentru stomac, dedicate in special bicarbonatului) interfer
 
 CORIANDRUL
 
--Provoaca variaţii ale glicemiei
+-Provoaca variații ale glicemiei
 
 CUCURMA
 
-influenţează activitatea ficatului şi, din această cauză, pot apărea niveluri crescute ale medicamentelor în sânge
+influențează activitatea ficatului și, din această cauză, pot apărea niveluri crescute ale medicamentelor în sânge
 
 CHIMENUL:
 
@@ -192,11 +192,11 @@ Apendicita, boli inflamatorii intestinale, obstructie intestinala, cancer colo-r
 
 CICOAREA
 
-Cicoarea, la persoanele sensibile, poate determina fenomene de intoleranţă sau alergie. Există oameni care suferă de alergii la contactul cu această plantă, care se manifestă prin reacţii cutanate. Alţii manifestă hipersensibilitate la administrarea internă a cicorii. De cele mai multe ori, persoanele sensibile la cicoare nu tolerează nici alte Asteraceae (andive, salata verde).
+Cicoarea, la persoanele sensibile, poate determina fenomene de intoleranță sau alergie. Există oameni care suferă de alergii la contactul cu această plantă, care se manifestă prin reacții cutanate. Alții manifestă hipersensibilitate la administrarea internă a cicorii. De cele mai multe ori, persoanele sensibile la cicoare nu tolerează nici alte Asteraceae (andive, salata verde).
 
-De curând s-a izolat în cicoare o proteină alergenă care poate determina reacţii imunitare violente, încrucişate, dacă relaţionează cu anumiţi compuşi din pelin (Artemisia absinthum). De aceea, cele două plante nu trebuiesc administrate împreună (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
+De curând s-a izolat în cicoare o proteină alergenă care poate determina reacții imunitare violente, încrucișate, dacă relaționează cu anumiți compuși din pelin (Artemisia absinthum). De aceea, cele două plante nu trebuiesc administrate împreună (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
 
-Planta nu conţine principii toxice. Doar la o administrare de peste 100g de cicoare pe zi apar fenomene secundare (bradicardie). Voma, aritmii, diaree
+Planta nu conține principii toxice. Doar la o administrare de peste 100g de cicoare pe zi apar fenomene secundare (bradicardie). Voma, aritmii, diaree
 
 NU se recomanda in litiaza biliara, , in blocajul cailor biliare, obstructii intestinale.Pot sa apara reactii alergice , inflamatii biliare, dermatite de contact sau efecte toxice:
 
@@ -228,7 +228,7 @@ E
 
 ECHINACEEA
 
-\- nu se administrează concomitent cu tratamentele anticanceroase şi anxiolitice, imunosupresoare sau hipocolesterolemiante, pentru că pot apărea efecte grave de sănătate. Echinaceea trebuie evitata în caz de tuberculoză, scleroză multiplă, SIDA sau infecție cu HIV și alergii la Echinacea sau la plantele înrudite (mușețel, gălbenele). Nu se administrează copiilor sub trei ani. Nu se recomandă administrarea prelungită mai mult de șase săptămâni. Potrivit unui studiu american, ar afecta fertilitatea, deci se recomandă ambilor parteneri să renunțe la medicamentele pe bază de echinacea în cazul în care doresc să conceapă un copil. Utilizarea produselor pe bază de echinacea în tratamentul virozelor respiratorii este contraindicată pentru copiii cu vârste cuprinse între 2 și 11 ani.
+\- nu se administrează concomitent cu tratamentele anticanceroase și anxiolitice, imunosupresoare sau hipocolesterolemiante, pentru că pot apărea efecte grave de sănătate. Echinaceea trebuie evitata în caz de tuberculoză, scleroză multiplă, SIDA sau infecție cu HIV și alergii la Echinacea sau la plantele înrudite (mușețel, gălbenele). Nu se administrează copiilor sub trei ani. Nu se recomandă administrarea prelungită mai mult de șase săptămâni. Potrivit unui studiu american, ar afecta fertilitatea, deci se recomandă ambilor parteneri să renunțe la medicamentele pe bază de echinacea în cazul în care doresc să conceapă un copil. Utilizarea produselor pe bază de echinacea în tratamentul virozelor respiratorii este contraindicată pentru copiii cu vârste cuprinse între 2 și 11 ani.
 
 F
 
@@ -236,27 +236,27 @@ FRASINUL
 
 Nu se indică administrarea preparatelor fitoterapeutice pe bază de frasin, în enterocolite (O. Bojor 2003).
 
-La unele persoane, administrarea preparatelor pe bază de frasin, provoacă flatulenţă
+La unele persoane, administrarea preparatelor pe bază de frasin, provoacă flatulență
 
 FUMARITA
 
-În dozare corectă, fumăriţa nu prezintă efecte secundare. Nu s-au raporta contraindicaţii, în cantitate mică, planta putându-se administra şi în timpul sarcinii şi alăptării. Orice depăşire cantitativă sau de durată în tratamentele cu această plantă, instalează fenomene de intoxicaţie. În cazul copiilor, bătrânilor şi persoanelor debilitate se cere precauţie şi o îndrumare calificată a tratamentelor care folosesc fumăriţa.
+În dozare corectă, fumărița nu prezintă efecte secundare. Nu s-au raporta contraindicații, în cantitate mică, planta putându-se administra și în timpul sarcinii și alăptării. Orice depășire cantitativă sau de durată în tratamentele cu această plantă, instalează fenomene de intoxicație. În cazul copiilor, bătrânilor și persoanelor debilitate se cere precauție și o îndrumare calificată a tratamentelor care folosesc fumărița.
 
-Fumăriţa nu se va administra împreună cu alte extracte cu compuşi de tip papaverinic. Este contraindicat să se folosească această plantă concomitent cu alte specii oficinale, care conţin alcaloizi asemănători, cum ar fi rostopasca, macul roşu de câmp, macul galben, macul iranian.
+Fumărița nu se va administra împreună cu alte extracte cu compuși de tip papaverinic. Este contraindicat să se folosească această plantă concomitent cu alte specii oficinale, care conțin alcaloizi asemănători, cum ar fi rostopasca, macul roșu de câmp, macul galben, macul iranian.
 
-Administrată în cantitate mai mare de 3 g de iarbă uscată zilnic, în cazul adulţilor, fumăriţa poate conduce la fenomene de toxicitate. De asemenea, folosită îndelungat, prin faptul că în organism se pot acumula alcaloizi, planta se poate dovedi periculoasă sănătăţii.
+Administrată în cantitate mai mare de 3 g de iarbă uscată zilnic, în cazul adulților, fumărița poate conduce la fenomene de toxicitate. De asemenea, folosită îndelungat, prin faptul că în organism se pot acumula alcaloizi, planta se poate dovedi periculoasă sănătății.
 
-Intoxicaţia se manifestă, în funcţie de gravitate, prin arsuri gastrice, vomă, tremur, moleşeală, halucinaţii, încetinirea respiraţiei şi, în cazuri severe, chiar stop respirator.
+Intoxicația se manifestă, în funcție de gravitate, prin arsuri gastrice, vomă, tremur, moleșeală, halucinații, încetinirea respirației și, în cazuri severe, chiar stop respirator.
 
 PREPARARE, ADMINISTRARE
 
-Nu se recomandă utilizarea exclusivă a fumăriţei în tratamentele interne, preferându-se prepararea unor mixturi (amestecuri de ceaiuri), în care să se regăsească, conform reţetei, şi această plantă.
+Nu se recomandă utilizarea exclusivă a fumăriței în tratamentele interne, preferându-se prepararea unor mixturi (amestecuri de ceaiuri), în care să se regăsească, conform rețetei, și această plantă.
 
-Un amestec simplu, se realizează din traista ciobanului + fumăriţă (în părţi egale). Dintr-o linguriţă din acest amestec mărunţit, se prepară o infuzie, într-o cană cu apă, care se bea treptat, în 3 - 4 reprize, pe parcursul unei zile. Fumăriţa se mai poate amesteca, în mod chibzuit, cu diverse alte plante medicinale (splinuţă, hamei, coada şoricelului, mentă, etc.), după scopul urmărit.
+Un amestec simplu, se realizează din traista ciobanului + fumăriță (în părți egale). Dintr-o linguriță din acest amestec mărunțit, se prepară o infuzie, într-o cană cu apă, care se bea treptat, în 3 - 4 reprize, pe parcursul unei zile. Fumărița se mai poate amesteca, în mod chibzuit, cu diverse alte plante medicinale (splinuță, hamei, coada șoricelului, mentă, etc.), după scopul urmărit.
 
 Din planta proaspătă se poate prepara tinctura (conc. 10% in alcool de 70%). Se administrează 3x10 picături zilnic, în amestec cu alte extracte hidroalcoolice sau apoase.
 
-În bolile de piele, fumăriţa se administrează intern, concomitent cu aplicaţiile externe, care se realizează prin badijonarea locală, cu o infuzie concentrată (2 linguri de plantă uscată la 200 ml. apă).
+În bolile de piele, fumărița se administrează intern, concomitent cu aplicațiile externe, care se realizează prin badijonarea locală, cu o infuzie concentrată (2 linguri de plantă uscată la 200 ml. apă).
 
 FENICUL
 
@@ -280,11 +280,11 @@ GINSENGUL
 
 Gymnema Sylvestre poate modifica necesarul de insulina sau alte antidiabetice orale
 
-GINSENGUL, prezent în preparatele cu rol energizant, creşte efectul anticoagulantelor, la fel ca şi muşeţelul, albăstrelele, usturoiul, Ginkgo biloba. În plus, ginsengul interacţionează cu antidiabeticele. Variaţii ale glicemiei provoacă şi gelul de aloe, turiţa-mare, albăstrelele, varza, coriandrul, scorţişoara şi spanacul.
+GINSENGUL, prezent în preparatele cu rol energizant, crește efectul anticoagulantelor, la fel ca și mușețelul, albăstrelele, usturoiul, Ginkgo biloba. În plus, ginsengul interacționează cu antidiabeticele. Variații ale glicemiei provoacă și gelul de aloe, turița-mare, albăstrelele, varza, coriandrul, scorțișoara și spanacul.
 
--creşte efectul anticoagulantelor
+-crește efectul anticoagulantelor
 
-În cazul diabeticilor care utilizează GINSENG, din cauza efectului de scădere a glicemiei, se recomandă supravegherea atentă a glicemiei şi ajustarea dozelor de insulină sau a altor medicamente hipoglicemiante. Din cauza acţiunii de antiagregare plachetară a ginsengului, în cazul persoanelor care iau medicaţie antitrombotică, trebuie verificaţi parametrii de coagulare a sângelui, care au tendinţă de scădere şi, în consecinţă, pot apărea fenomene hemoragice. Pacientii cu diabet zaharat sunt sfatuiti sa nu ia Ginseng, decat dupa ce si-au consultat medicul. Intrucat acest tonic interactioneaza, chiar la un interval de cateva zile, cu alte medicamente (de exemplu, cu anticoagulantele). Administrarea suplimentului va fi oprita cu minimum o saptamana inaintea unei operatii. El poate fi luat maximum trei luni, dupa care se va face o pauza de cel putin o luna.
+În cazul diabeticilor care utilizează GINSENG, din cauza efectului de scădere a glicemiei, se recomandă supravegherea atentă a glicemiei și ajustarea dozelor de insulină sau a altor medicamente hipoglicemiante. Din cauza acțiunii de antiagregare plachetară a ginsengului, în cazul persoanelor care iau medicație antitrombotică, trebuie verificați parametrii de coagulare a sângelui, care au tendință de scădere și, în consecință, pot apărea fenomene hemoragice. Pacientii cu diabet zaharat sunt sfatuiti sa nu ia Ginseng, decat dupa ce si-au consultat medicul. Intrucat acest tonic interactioneaza, chiar la un interval de cateva zile, cu alte medicamente (de exemplu, cu anticoagulantele). Administrarea suplimentului va fi oprita cu minimum o saptamana inaintea unei operatii. El poate fi luat maximum trei luni, dupa care se va face o pauza de cel putin o luna.
 
 Ginseng - stimuleaza fertilitatea masculina, creste libidoul si productia de spermatozoizi. Are efecte si in cazul femeilor, insa de intensitate mai mica si este interzisa in sarcina.
 
@@ -302,15 +302,15 @@ GALBENLELE
 
 GRAPEFRUIT SUCUL DE GREPFRUIT
 
--potenteaza efectul unor medicamente, transformand o doza normala intr-o supradoza toxica pentru organism .S-a constatat ca problema este cauzata de una dintre substantele din fruct, numita naringina (un bioflavonoid), care se transforma in corp in naringenina, o substanta care inhiba enzimele hepatice ce ar trebui sa metabolizeze medicamentele. Sucul de grepfrut nu trebuie administrat în acelaşi timp cu medicamentele anticolesterol sau cu imunodepresivele. Acesta poate scădea cu până la 15 ori absorbţia acestora şi poate provoca tulburări musculare grave.
+-potenteaza efectul unor medicamente, transformand o doza normala intr-o supradoza toxica pentru organism .S-a constatat ca problema este cauzata de una dintre substantele din fruct, numita naringina (un bioflavonoid), care se transforma in corp in naringenina, o substanta care inhiba enzimele hepatice ce ar trebui sa metabolizeze medicamentele. Sucul de grepfrut nu trebuie administrat în același timp cu medicamentele anticolesterol sau cu imunodepresivele. Acesta poate scădea cu până la 15 ori absorbția acestora și poate provoca tulburări musculare grave.
 
 GINKGO BILOBA,
 
--care are efecte asupra oxigenării creierului şi este utilizat pentru tulburări de origine vasculară, interacţionează cu ibuprofenul (antiinflamator) şi omeprazolul (medicament pentru tratarea ulcerului). Sunătoarea, eucaliptul, curcuma şi sucul de grepfrut influenţează activitatea ficatului şi, din această cauză, pot apărea niveluri crescute ale medicamentelor în sânge.Administrarea preparatelor de GINGKO BILOBA nu trebuie făcută în paralel cu tratamentul cu anticoagulante şi cu antidepresive. Ginkgo n-ar trebui administrat concomitent cu medicamentele ce au actiune similara si se recomanda ca pacientii sa renunte la el cu cel putin 36 de ore inainte de o operatie. La diabetici, Ginkgo poate provoca efecte asemanatoare rezistentei la insulina. Ei n-ar trebui sa il foloseasca decat sub control medical.
+-care are efecte asupra oxigenării creierului și este utilizat pentru tulburări de origine vasculară, interacționează cu ibuprofenul (antiinflamator) și omeprazolul (medicament pentru tratarea ulcerului). Sunătoarea, eucaliptul, curcuma și sucul de grepfrut influențează activitatea ficatului și, din această cauză, pot apărea niveluri crescute ale medicamentelor în sânge.Administrarea preparatelor de GINGKO BILOBA nu trebuie făcută în paralel cu tratamentul cu anticoagulante și cu antidepresive. Ginkgo n-ar trebui administrat concomitent cu medicamentele ce au actiune similara si se recomanda ca pacientii sa renunte la el cu cel putin 36 de ore inainte de o operatie. La diabetici, Ginkgo poate provoca efecte asemanatoare rezistentei la insulina. Ei n-ar trebui sa il foloseasca decat sub control medical.
 
-creşte efectul anticoagulantelor
+crește efectul anticoagulantelor
 
-Administrarea preparatelor de Gingko biloba nu trebuie făcută în paralel cu tratamentul cu anticoagulante şi cu antidepresive
+Administrarea preparatelor de Gingko biloba nu trebuie făcută în paralel cu tratamentul cu anticoagulante și cu antidepresive
 
 GENȚIANA / GHINȚURĂ
 
@@ -328,7 +328,7 @@ Nu se asociaza cu medicamente antidepresive, pentru hipertensiune sau adenom de 
 
 GHIMBIRUL
 
--pulberea de ghimbir este recomandată în cantităţi mici hipertensivilor şi este contraindicată celor care suferă de ulcer gastric
+-pulberea de ghimbir este recomandată în cantități mici hipertensivilor și este contraindicată celor care suferă de ulcer gastric
 
 -nu se supradozeaza deoarece pot aparea dureri de stomac sau somnolent, aritmii, depresia SNC
 
@@ -336,7 +336,7 @@ GHIMBIRUL
 
 GERMENI DE GRAU FERMENTAT
 
-Sângerări gastro-intestinale, malabsorbţie. Avemarul este contraindicat în timpul sarcinii, persoanelor sensibile la gluten, cu intoleranţă la fructoză şi cei care au suferit un transplant. Nu este recomandat copiilor sub 14 ani. Sunt în curs studii clinice în legătură cu administrarea sub această vârstă.
+Sângerări gastro-intestinale, malabsorbție. Avemarul este contraindicat în timpul sarcinii, persoanelor sensibile la gluten, cu intoleranță la fructoză și cei care au suferit un transplant. Nu este recomandat copiilor sub 14 ani. Sunt în curs studii clinice în legătură cu administrarea sub această vârstă.
 
 H
 
@@ -348,7 +348,7 @@ Precautii si reactii adverse: ameteli, modificari cognitive, hemoliza intravascu
 
 HREANUL
 
-Contraindicatii:colite, gastrite si enterocolite,afectiuni renale acute,Va fi evitat de cei care sufera de bila, ficat, de reumatici si de cei cu eczema, hemoroizi, tulburări de ritm cardiac, hiperfuncţii endocrine avansate şi excitaţii nervoa
+Contraindicatii:colite, gastrite si enterocolite,afectiuni renale acute,Va fi evitat de cei care sufera de bila, ficat, de reumatici si de cei cu eczema, hemoroizi, tulburări de ritm cardiac, hiperfuncții endocrine avansate și excitații nervoa
 
 I
 
@@ -360,37 +360,37 @@ IASOMIA
 
 Ceaiul de iasomie este contraindicat persoanelor care suferă de hiperaciditate gastrică, gastrită hiperacidă, ulcer gastric sau ulcer duodenal.
 
-Femeile care prezintă un flux menstrual prea abundent (hipermenoree) şi cele aflate în primele 6 luni de sarcină, este bine să evite administrarea internă a formulelor care conţin iasomie.
+Femeile care prezintă un flux menstrual prea abundent (hipermenoree) și cele aflate în primele 6 luni de sarcină, este bine să evite administrarea internă a formulelor care conțin iasomie.
 
-Nu trebuie să se recurgă la iasomie, în cazul unor boli infecţioase bacteriene.
+Nu trebuie să se recurgă la iasomie, în cazul unor boli infecțioase bacteriene.
 
-Această plantă nu se potriveşte temperamentelor colerice, cărora le accentuează starea de excitabilitate nervoasă.
+Această plantă nu se potrivește temperamentelor colerice, cărora le accentuează starea de excitabilitate nervoasă.
 
 IENUPĂRUL
 
-\- ca urmare a acţiunii hiperglicemiante, nu se recomandă administrarea preparatelor pe bază de ienupăr în diabet.
+\- ca urmare a acțiunii hiperglicemiante, nu se recomandă administrarea preparatelor pe bază de ienupăr în diabet.
 
-\- deoarece compuşii volatili din boabele de ienupăr prezintă efecte iritante, acestea nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare.
+\- deoarece compușii volatili din boabele de ienupăr prezintă efecte iritante, acestea nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare.
 
-\- deoarece compuşii existenţi în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing).
+\- deoarece compușii existenți în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing).
 
-\- contraindicat în sarcină şi alăptare.
+\- contraindicat în sarcină și alăptare.
 
-\- în cazul depăşirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale.
+\- în cazul depășirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale.
 
-\- ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depăşească 4 săptămâni), după care trebuie să urmeze o pauză de cel puţin două luni. Administrat pe termen lung, ienupărul provoacă hipocalcemie şi leziuni renale (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
+\- ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depășească 4 săptămâni), după care trebuie să urmeze o pauză de cel puțin două luni. Administrat pe termen lung, ienupărul provoacă hipocalcemie și leziuni renale (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
 
-\- în afecţiunile inflamatorii ale rinichilor, vezicii şi căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merişor şi frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
+\- în afecțiunile inflamatorii ale rinichilor, vezicii și căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merișor și frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
 
 INUL
 
-Făina de in (Farina Lini) nu se administrează intern, căci conţine glicozizi care se transformă în acid cianhidric, substanţă iritantă şi toxică pentru tubul digestiv. Seminţele de in folosite în fitoterapie, trebuie să fie mature (coapte) şi în stare bună (seminţele râncede sunt toxice).
+Făina de in (Farina Lini) nu se administrează intern, căci conține glicozizi care se transformă în acid cianhidric, substanță iritantă și toxică pentru tubul digestiv. Semințele de in folosite în fitoterapie, trebuie să fie mature (coapte) și în stare bună (semințele râncede sunt toxice).
 
-Mucilagiile din seminţele de in pot interacţiona în mod negativ cu principiile laxative sau purgative ale diferitelor produse farmaceutice, folosirea lor concomitentă fiind contraindicată. S-a constatat că toate preparatele pe bază de seminţe de in, care se administrează intern, reduc considerabil absorbţia tuturor substanţelor din medicamente (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
+Mucilagiile din semințele de in pot interacționa în mod negativ cu principiile laxative sau purgative ale diferitelor produse farmaceutice, folosirea lor concomitentă fiind contraindicată. S-a constatat că toate preparatele pe bază de semințe de in, care se administrează intern, reduc considerabil absorbția tuturor substanțelor din medicamente (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
 
-Nu se administrează seminţe întregi în caz de obstrucţii sau hemoragii ale tubului digestiv.
+Nu se administrează semințe întregi în caz de obstrucții sau hemoragii ale tubului digestiv.
 
-Este bine să nu se recurgă la tratamente interne pe bază de in în sarcină, alăptare şi cancer de prostată.
+Este bine să nu se recurgă la tratamente interne pe bază de in în sarcină, alăptare și cancer de prostată.
 
 Nu se recomanda consumul plantei sub nici o forma in caz de strictura esofaciana sau obstructie gastrointestinala.
 
@@ -402,7 +402,7 @@ Nu se recomanda consumul plantei sub nici o forma in caz de strictura esofaciana
 
 IEDERA
 
-în concentraţie redusă efect medicinal, doze mari tulburari gastrice, febră
+în concentrație redusă efect medicinal, doze mari tulburari gastrice, febră
 
 -fructele sunt toxice;
 
@@ -422,7 +422,7 @@ LEMNUL DULCE
 
 -diminueaza eficacitatea tratamentului impotriva hipertensiunii.
 
--LEMNUL DULCE, folosit în anotimpul rece mai ales pentru tratarea afecţiunilor respiratorii, intensifică pierderea de potasiu cauzată de medicamentele diuretice şi poate creşte efectul corticosteroizilor.
+-LEMNUL DULCE, folosit în anotimpul rece mai ales pentru tratarea afecțiunilor respiratorii, intensifică pierderea de potasiu cauzată de medicamentele diuretice și poate crește efectul corticosteroizilor.
 
 Atat tinctura de marar cat si cea de lemn dulce contin fitoestrogeni, care sunt contraindicati in cazul fibroamelor si chisturilor mamare
 
@@ -472,13 +472,13 @@ MACRISUL
 
 MOLID muguri
 
-În componentele bradului şi a molidului care se folosesc în fitoterapie, nu s-au izolat substanţe toxice. Cu toate acestea, există persoane care manifestă alergii la compuşii volatili din aceste conifere.
+În componentele bradului și a molidului care se folosesc în fitoterapie, nu s-au izolat substanțe toxice. Cu toate acestea, există persoane care manifestă alergii la compușii volatili din aceste conifere.
 
-Administrarea internă a preparatelor din molid sau din brad nu este indicată în bolile respiratorii cronice, îndeosebi în astmul bronşic evoluat şi în silicoză.
+Administrarea internă a preparatelor din molid sau din brad nu este indicată în bolile respiratorii cronice, îndeosebi în astmul bronșic evoluat și în silicoză.
 
 MUSETELUL
 
--creşte efectul anticoagulantelor
+-crește efectul anticoagulantelor
 
 -nu se recomanda in timpul sarcinii sau lactatiei
 
@@ -498,7 +498,7 @@ MARARUL --tinctura
 
 MATRAGUNA
 
-\- halucinaţii, demenţă (furioasă), frisoane
+\- halucinații, demență (furioasă), frisoane
 
 MUR
 
@@ -550,9 +550,9 @@ N
 
 NASTURASUL/ NASTURELUL
 
-Năsturaşul nu se va administra celor care suferă de ulcer gastric sau de nefroză şi nici copiilor mai mici de 4 ani. Femeile însărcinate trebuie să evite planta, deoarece aceasta poate produce contracţii uterine (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
+Năsturașul nu se va administra celor care suferă de ulcer gastric sau de nefroză și nici copiilor mai mici de 4 ani. Femeile însărcinate trebuie să evite planta, deoarece aceasta poate produce contracții uterine (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
 
-Deoarece conţine principii uşor guşogene, este indicat ca năsturaşul să nu se administreze în formele severe de hiopotiroidism sau în alte forme de afecţiuni tiroidiene cu guşă.
+Deoarece conține principii ușor gușogene, este indicat ca năsturașul să nu se administreze în formele severe de hiopotiroidism sau în alte forme de afecțiuni tiroidiene cu gușă.
 
 NUCSOARA
 
@@ -602,7 +602,7 @@ PADUCELUL (GHERGHINA),
 
 -eficient in afectiunile cardiovasculare, prin faptul ca scade tensiunea arteriala (nu se va bea niciodata in cantitati mari si pe stomacul gol , deoarece scade brusc tensiunea si pot aparea ameteli, dureri de cap, spasme intestinale , voma) si nivelul de colesterol, nu trebuie luat niciodata cu anumite medicamente deoarece combinatia poate diminua prea mult ritmul inimii, cauzand crize cardiace.
 
--eficient în prevenirea atacurilor de angină pectorală, nu este indicat să fie administrat în acelaşi timp cu tratamentele pentru afecţiunile cardiace, deoarece diminuează ritmul cardiac.
+-eficient în prevenirea atacurilor de angină pectorală, nu este indicat să fie administrat în același timp cu tratamentele pentru afecțiunile cardiace, deoarece diminuează ritmul cardiac.
 
 -Nu se va administra la copii sub 12ani, sarcina sau in timpul lactatiei
 
@@ -682,7 +682,7 @@ Contraindicatii:in timpul sarcinii,si la hipertensivi
 
 RICINUL
 
-efectele intoxicatiei- senzaţie de vomă, febră, tulb. de ritm cardiac (aritmii)
+efectele intoxicatiei- senzație de vomă, febră, tulb. de ritm cardiac (aritmii)
 
 ROINITA
 
@@ -692,7 +692,7 @@ S
 
 SUNATOAREA
 
--scade eficacitatea anumitor medicamente, unele dintre ele fiind pastilele anticonceptionale; -poate provoca reactii adverse daca e administrata impreuna cu antidepresivele conventionale; sunatoarea poate ameliora functionarea ficatului, reducand astfel eficacitatea anticoagulantelor; scade eficienţa contraceptivelor orale. De asemenea, are efect negativ şi asupra medicamentelor pentru dereglările de ritm cardiac. Sunătoarea nu se administrează concomitent cu inhalatorii pentru astm bronşic şi cu medicamentele pentru răceală
+-scade eficacitatea anumitor medicamente, unele dintre ele fiind pastilele anticonceptionale; -poate provoca reactii adverse daca e administrata impreuna cu antidepresivele conventionale; sunatoarea poate ameliora functionarea ficatului, reducand astfel eficacitatea anticoagulantelor; scade eficiența contraceptivelor orale. De asemenea, are efect negativ și asupra medicamentelor pentru dereglările de ritm cardiac. Sunătoarea nu se administrează concomitent cu inhalatorii pentru astm bronșic și cu medicamentele pentru răceală
 
 -are effect fotosensibilizant si poate interactiona cu alte medicamente
 
@@ -706,7 +706,7 @@ SULFINA
 
 SCORȚIȘOARA
 
-\- provoacă variaţii ale glicemiei.
+\- provoacă variații ale glicemiei.
 
 \- nu este indicată femeilor însărcinate și nici femeilor care alaptează, celor afectați de epuizare nervoasă, precum și celor cu pielea foarte sensibilă.
 
@@ -718,21 +718,21 @@ SCHINDUFUL
 
 -Planta nu se recomandă a fi administrată în timpul sarcinii.
 
-Principiile din seminţele din schinduf pot interacţiona în mod negativ cu medicamentele anticoagulante (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
+Principiile din semințele din schinduf pot interacționa în mod negativ cu medicamentele anticoagulante (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
 
-Deoarece boabele speciei conţin substanţe care în organism se pot comporta ca precursori ai hormonilor steroizi, se recomandă să nu se administreze copiilor care încă nu au depăşit pubertatea.
+Deoarece boabele speciei conțin substanțe care în organism se pot comporta ca precursori ai hormonilor steroizi, se recomandă să nu se administreze copiilor care încă nu au depășit pubertatea.
 
-Nu s-au semnalat reacţii adverse în urma administrării preparatelor pe bază de seminţe de schinduf.
+Nu s-au semnalat reacții adverse în urma administrării preparatelor pe bază de semințe de schinduf.
 
 SPANACUL
 
--Provoaca variaţii ale glicemiei
+-Provoaca variații ale glicemiei
 
 SALCAMUL
 
-Deoarece conţine multă robină (substanţă toxică), utilizarea empirică a scoarţei trebuie evitată (Ovidiu Bojor 2003).
+Deoarece conține multă robină (substanță toxică), utilizarea empirică a scoarței trebuie evitată (Ovidiu Bojor 2003).
 
-Florile nu prezintă contraindicaţii
+Florile nu prezintă contraindicații
 
 SOFRANUL DE INDIA
 
@@ -764,7 +764,7 @@ T
 
 TANACETUM PARTHENIUM (IARBA --FETEI) trebuie folosit cu prudenta , deoarece amplifica efectul de subtiere al sangelui , ceea ce poate provoca sangerari excesive;deci nu se vor asocia cu anticoagulante (enoxaparina, warfarina si alte anticoagulante)
 
-TURITA MARE -Provoaca variaţii ale glicemie
+TURITA MARE -Provoaca variații ale glicemie
 
 TURMERICUL
 
@@ -778,25 +778,25 @@ TATANEASA
 
 TRAISTA CIOBANULUI
 
-Traista ciobanului nu este o plantă toxică, contraindicaţiile trebuind privite sub spectrul unor posibile reacţii adverse de altă natură decât toxicologică.
+Traista ciobanului nu este o plantă toxică, contraindicațiile trebuind privite sub spectrul unor posibile reacții adverse de altă natură decât toxicologică.
 
-Consumul de traista ciobanului în stare crudă produce o creştere rapidă a elementelor figurate albe (leucocite). Copii mici care gustă întâmplător această plantă fac febră, fiind duşi la medici, care nu pot constata existenţa vreunei afecţiuni. Reacţia imunitară provocată de planta proaspătă ar putea fi valorificată şi coordonată în tratamente medicale specializate, dar din păcate există un mare dezinteres în acest sens.
+Consumul de traista ciobanului în stare crudă produce o creștere rapidă a elementelor figurate albe (leucocite). Copii mici care gustă întâmplător această plantă fac febră, fiind duși la medici, care nu pot constata existența vreunei afecțiuni. Reacția imunitară provocată de planta proaspătă ar putea fi valorificată și coordonată în tratamente medicale specializate, dar din păcate există un mare dezinteres în acest sens.
 
-Deoarece stimulează contracţiile uterine, traista ciobanului nu se utilizează în sarcină (poate produce avort).
+Deoarece stimulează contracțiile uterine, traista ciobanului nu se utilizează în sarcină (poate produce avort).
 
 Întrucât traista ciobanului se comportă ca un excitant nervos, se recomandă evitarea utilizării sale, în caz de: insomnie cronică, hiperexcitabilitate nervoasă sau sexuală, epilepsie, boala lui Parkinson, depresie.
 
 Persoanele care suferă de hipertiroidie sau de hipocorticism nu vor recurge la tratamente pe bază de traista ciobanului.
 
-Principiile din plantă interacţionează în mod negativ cu anticoagulantele, cu anticoncepţionalele şi cu corticoterapia.
+Principiile din plantă interacționează în mod negativ cu anticoagulantele, cu anticoncepționalele și cu corticoterapia.
 
-Administrată în doze mari, traista ciobanului provoacă palpitaţii, fiind însă contraindicată în cazul litiazei oxalice.
+Administrată în doze mari, traista ciobanului provoacă palpitații, fiind însă contraindicată în cazul litiazei oxalice.
 
 TRIFOIUL ROSU
 
-Este bine să se evite administrarea preparatelor pe bază de trifoi roşu, în sarcină sau atunci când se vrea conceperea unui copil, căci există posibilitatea producerii unui avort.
+Este bine să se evite administrarea preparatelor pe bază de trifoi roșu, în sarcină sau atunci când se vrea conceperea unui copil, căci există posibilitatea producerii unui avort.
 
-Trifoiul roşu nu se va administra în cazul unor tratamente cu substanţe anticoagulante, deoarece se pot produce hemoragii. Tratamentele interne cu această plantă nu se vor face simultan cu administrarea unor medicamente analgezice salicilate (aspirină). Persoanele predispuse la hemoragii, este bine să evite folosirea trifoiului roşu în cure
+Trifoiul roșu nu se va administra în cazul unor tratamente cu substanțe anticoagulante, deoarece se pot produce hemoragii. Tratamentele interne cu această plantă nu se vor face simultan cu administrarea unor medicamente analgezice salicilate (aspirină). Persoanele predispuse la hemoragii, este bine să evite folosirea trifoiului roșu în cure
 
 TINTAURA
 
@@ -838,7 +838,7 @@ ULEIUL DE PESTE
 
 USTUROIUL
 
--trebuie folosit cu prudenta , deoarece amplifica efectul de subtiere al sangelui , ceea ce poate provoca sangerari excesive;deci nu se vor asocia cu anticoagulante (enoxaparina, warfarina si alte anticoagulante); Nu se recomanda preparatele cu USTUROI persoanelor cu dereglari de hemostaza si tendinta spre hemoragii. Efecte secundare posibile: scaderi bruste ale tensiunii arteriale, un miros neplacut al respiratiei si al pielii, reactii de hipersensibilitate. Preparatele cu usturoi pot amplifica actiunea anumitor medicamente (hipotensive, anticoagulante), astfel incat administrarea lor trebuie intrerupta cu minimum sapte zile inaintea unei operatii; creşte efectul anticoagulantelor
+-trebuie folosit cu prudenta , deoarece amplifica efectul de subtiere al sangelui , ceea ce poate provoca sangerari excesive;deci nu se vor asocia cu anticoagulante (enoxaparina, warfarina si alte anticoagulante); Nu se recomanda preparatele cu USTUROI persoanelor cu dereglari de hemostaza si tendinta spre hemoragii. Efecte secundare posibile: scaderi bruste ale tensiunii arteriale, un miros neplacut al respiratiei si al pielii, reactii de hipersensibilitate. Preparatele cu usturoi pot amplifica actiunea anumitor medicamente (hipotensive, anticoagulante), astfel incat administrarea lor trebuie intrerupta cu minimum sapte zile inaintea unei operatii; crește efectul anticoagulantelor
 
 Este contraindicat in caz de hiperaciditate a stomacului
 
@@ -870,7 +870,7 @@ VITAMIN E
 
 VARZA
 
--Provoaca variaţii ale glicemiei
+-Provoaca variații ale glicemiei
 
 VALERIANA
 
@@ -890,8 +890,8 @@ PRODUSELE APICOLE
 
 POLENUL
 
-boli neuropsihice cu hiperexcitabilitate (nimfomanie, obsesie sexuală, manie etc.), hiperfuncţii endocrine (hipertiroidie, hipercorticism, gigantism etc.), obezitate, diabet zaharat şi alergii specifice
+boli neuropsihice cu hiperexcitabilitate (nimfomanie, obsesie sexuală, manie etc.), hiperfuncții endocrine (hipertiroidie, hipercorticism, gigantism etc.), obezitate, diabet zaharat și alergii specifice
 
 TINCTURA DE PROPOLIS
 
-intoleranţă alergică individuală
+intoleranță alergică individuală

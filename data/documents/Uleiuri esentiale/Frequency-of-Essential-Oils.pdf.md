@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Frequency-of-Essential-Oils.pdf"
-source_relative_path: "Frequency-of-Essential-Oils.pdf"
-source_sha256: "cf0c04ca07a0303c220f44954d654e0545a9f80c38b836ed14d6873489eebb8e"
-source_size_bytes: 159940
-page_count: 6
-extracted_text_characters: 12440
-extraction_method: pypdf
-status: "ok"
----
-
-# Frequency-of-Essential-Oils.pdf
-
-## Pagini
-
 ### Pagina 1
 
 1
@@ -59,8 +44,8 @@ updates on energy testing for diagnosis of disease and more.
 Beyond a doubt, certain frequencies can prevent the development of disease and other
 frequencies would destroy diseases. Substances of higher frequency will destroy
 diseases of lower frequency.
-[For a few examples visit: The Frequency of Health www.whalemedical.com and The
-Assemblage Point www.theassemblagepoint.com]
+[For a few examples visit: The Frequency of Health and The
+Assemblage Point
 
 ### Pagina 2
 

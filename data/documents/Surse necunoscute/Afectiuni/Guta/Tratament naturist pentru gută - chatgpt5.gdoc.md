@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tratament naturist pentru gută - chatgpt5.gdoc"
-source_relative_path: "Tratament naturist pentru gută - chatgpt5.gdoc"
-source_pointer_sha256: "9dcc1d5de034c8317fc3cf9214791ee0671c214a2ee15a893c9b3c68ff80a7e9"
-source_pointer_bytes: 181
-google_doc_id: "12-fB7nkYiuLTvlzRDCXIOJH6RbiUUCRwHuw-BoWe6Fs"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Tratament naturist pentru gută - chatgpt5
-
-## Conținut extras
-
 # **Tratament naturist pentru gută**
 
 # **\- chat GPT 5 \-**

@@ -1,24 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Antioxidanti3.png"
-source_relative_path: "Antioxidanti3.png"
-source_sha256: "6c21aa34c28fb967a11f5f7a2f35d64ddc9fa7666fac273713044c14aab8d6dd"
-source_size_bytes: 1134564
-media_type: image/png
-width_px: 1280
-height_px: 1024
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 91.21
-ocr_text_characters: 2518
-status: "ok"
----
-
-# Antioxidanti3.png
-
-## Text OCR extras
-
-```text
 Secretele Frumuseti indelungate si Super Potenta - MERITA VAZUT
 o>? <0
 Goji
@@ -49,8 +28,3 @@ zonele corpului, contribuind la dezvoltarea si intarirea tesuturilor si deci, a 
 * solavetivona - manifesta efect puternic antifungic si antibacterial.
 > 2351/2521
 Oat
-```
-
-## Notă
-
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.

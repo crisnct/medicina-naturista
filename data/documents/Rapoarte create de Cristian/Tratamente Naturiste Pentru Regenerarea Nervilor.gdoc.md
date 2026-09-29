@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tratamente Naturiste Pentru Regenerarea Nervilor.gdoc"
-source_relative_path: "Tratamente Naturiste Pentru Regenerarea Nervilor.gdoc"
-source_pointer_sha256: "2489eef303ecf823e674a6b37aa6eebee0dfa5f8a02ed754251e9ead7f9abe11"
-source_pointer_bytes: 181
-google_doc_id: "1MUZREhEDBH-pFus0GyyeMwDR5aWrFJF1e9qiglueACs"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Tratamente Naturiste Pentru Regenerarea Nervilor
-
-## Conținut extras
-
 # **Tratamente naturiste pentru regenerarea nervilor și a conexiunilor neuronale**
 
 | Dimineața | Prânz | Seara |

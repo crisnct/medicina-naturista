@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\the5daynervoussystemresetemergencyregulationtoolkit.pdf"
-source_relative_path: "the5daynervoussystemresetemergencyregulationtoolkit.pdf"
-source_sha256: "02127faf1c05ff28c9391a86d637e7c732fbe87c3dbd963a96c4e557ca516d20"
-source_size_bytes: 484874
-page_count: 8
-extracted_text_characters: 7657
-extraction_method: pypdf
-status: "ok"
----
-
-# the5daynervoussystemresetemergencyregulationtoolkit.pdf
-
-## Pagini
-
 ### Pagina 1
 
 THE 5-DAY NERVOUS

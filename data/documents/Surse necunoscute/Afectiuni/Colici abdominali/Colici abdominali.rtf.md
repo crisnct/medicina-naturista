@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Colici abdominali\\Colici abdominali.rtf"
-source_relative_path: "retete naturiste de sanatate\\Colici abdominali\\Colici abdominali.rtf"
-source_sha256: "0e4c164dc6909fe96d8bd7d79f63381c27a6a6b500b2b918d237f075c0f3c27a"
-source_size_bytes: 3450
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 683
-status: "ok"
----
-
-# Colici abdominali.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;\*020b0604020202020204Arial;
 
 Times New Roman CE;Times New Roman Cyr;Times New Roman Greek;Times New Roman Tur;

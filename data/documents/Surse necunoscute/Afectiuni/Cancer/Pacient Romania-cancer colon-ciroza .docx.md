@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Pacient Romania-cancer colon-ciroza .docx"
-source_relative_path: "Pacient Romania-cancer colon-ciroza .docx"
-source_sha256: "c81d2ff9ec113d05a2c78b67ab0945ee3f704770fa7ad9b3d4e6b82a0e5392cf"
-source_size_bytes: 27529
-source_format: docx
-output_format: markdown
-native_text_characters: 2174
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Pacient Romania-cancer colon-ciroza
-
-## Text nativ
-
 Tratament naturist pentru cancer de colon si ciroza hepatica
 
 - Silimarina 1000mg: 2 tab x 3 ori / zi, inainte sau dupa masa, timp de cel putin 2 luni
@@ -88,7 +70,7 @@ Dupa o luna se pot relua aceste doua tipuri de ceaiuri
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

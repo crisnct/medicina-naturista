@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Micoza piciorului.docx"
-source_relative_path: "Micoza piciorului.docx"
-source_sha256: "243d25d088e19c815fcf75c8b3ab18a8b4006c040ec605e5c1e067c56e944502"
-source_size_bytes: 22257
-source_format: docx
-output_format: markdown
-native_text_characters: 671
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Micoza piciorului
-
-## Text nativ
-
 Tratament naturist pentru micoza piciorului
 
 Timp de cateva saptamani se urmeaza urmatorul tratament:
@@ -38,7 +20,7 @@ Dupa care timp de o saptamana , in fiecare seara se aplica un strat subtire de l
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

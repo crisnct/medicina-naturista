@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 6 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 6 terapie herbala baza.gdoc"
-source_pointer_sha256: "643992118e3dcbd60951be9c77255f479f9ba3dd306d8ecaabdac86f981983b8"
-source_pointer_bytes: 181
-google_doc_id: "1CJM0YsUVRPz4Ge2m4ExB89K3BACWNYpxYSC83aAL-HA"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 6 terapie herbala baza
-
-## Conținut extras
-
 Curs 6
 
 Cataplasme, pilule si infuzii

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru Paraziți Interni.docx"
-source_relative_path: "Recomandari pentru Paraziți Interni.docx"
-source_sha256: "68c16757a475acbf5d844f60966d7b9dec127920f0b2baabbfff9f031d11cef2"
-source_size_bytes: 24929
-source_format: docx
-output_format: markdown
-native_text_characters: 252
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Recomandari pentru Paraziți Interni
-
-## Text nativ
-
 Recomandari naturiste pentru
 
 eliminarea paraziților interni
@@ -36,7 +18,7 @@ Alimentație
 
 Nelu-Cristian Țone - fitoterapeut
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

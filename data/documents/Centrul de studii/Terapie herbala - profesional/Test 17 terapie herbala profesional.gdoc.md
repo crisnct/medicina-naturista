@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Test 17 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Test 17 terapie herbala profesional.gdoc"
-source_pointer_sha256: "4d1f8467b7238665d56159bb532ddaae859399a528b8c2475d11fd59a72d2501"
-source_pointer_bytes: 181
-google_doc_id: "1dquXtqKLg69yAnZvkRphfUYneK8Nf8xsoXS_dV95tdc"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 17 terapie herbala profesional
-
-## Conținut extras
-
 1. Alege trei dintre plantele stimulante și scriereti până la 300 de cuvinte despre ele.
 
 **Cuisoarele** \- In trecut, medicii recomandau cuisoarele impotriva oboselii si a pierderilor de memorie. De asemenea, erau considerate un afrodisiac puternic, dar si spaima moliilor din dulapurile cu haine. Cuisoarele mestecate sau macinate in rasnita de cafea, cate un varf de cutit la nevoie, ajuta digestia, vindeca durerile de gat, crampele de la stomac si te scapa de diaree. Fiind un condiment cu o personalitate destul de puternica, cuisoarele incalzesc mainile si picioarele reci si scad in intensitate durerile de spate.
@@ -28,7 +12,7 @@ Este utila in caz de guturai, si face parte din ingredientele bitterului suedez.
 
 3. Golden Seal este o planta foarte versatila. Scrieti despre avantajele sale.
 
-Acţionează în special pe membranele mucoase, relaxându-le şi inducând o secreţie groasă, galbenă, vâscoasă. Efectele asupra creierului sunt evidente, mintea devine ascuţită, capul clar, exprimările facile. Slăbiciune musculară, digestie lentă, constipaţie persistentă. Lumbago. Emaciere şi prostraţie. Acţiune puternică asupra ficatului. Cancer şi stări canceroase, înainte de ulceraţie, când durerea este simptomul principal. Guşă la pubertate şi-n sarcină. Variolă (intern şi local). Remediul modifică evoluţia variolei prin ameliorarea simptomelor supărătoare, scurtarea duratei bolii, micşorarea pericolului şi diminuarea complicaţiilor.
+Acționează în special pe membranele mucoase, relaxându-le și inducând o secreție groasă, galbenă, vâscoasă. Efectele asupra creierului sunt evidente, mintea devine ascuțită, capul clar, exprimările facile. Slăbiciune musculară, digestie lentă, constipație persistentă. Lumbago. Emaciere și prostrație. Acțiune puternică asupra ficatului. Cancer și stări canceroase, înainte de ulcerație, când durerea este simptomul principal. Gușă la pubertate și-n sarcină. Variolă (intern și local). Remediul modifică evoluția variolei prin ameliorarea simptomelor supărătoare, scurtarea duratei bolii, micșorarea pericolului și diminuarea complicațiilor.
 
 4. Explicați diferitele doze ale chininei.
 

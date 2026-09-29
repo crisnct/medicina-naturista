@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Leacuri din flori - Medicina naturii - Numarul 966 - Formula AS.pdf"
-source_relative_path: "Leacuri din flori - Medicina naturii - Numarul 966 - Formula AS.pdf"
-source_sha256: "053f21ed13c8c9669e4b00e8d6327db8d2e0f914c17f361054ee789f1e866fa0"
-source_size_bytes: 107398
-page_count: 3
-extracted_text_characters: 10530
-extraction_method: pypdf
-status: "ok"
----
-
-# Leacuri din flori - Medicina naturii - Numarul 966 - Formula AS.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Formula AS > Anul 2011 > Numarul 966 > Medicina naturii

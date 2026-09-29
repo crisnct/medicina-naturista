@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 16 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 16 terapie herbala profesional.gdoc"
-source_pointer_sha256: "829a5ca0460e6aef81bf9b85294462ea87563423e3bcc102e702a8ea0e2e62eb"
-source_pointer_bytes: 181
-google_doc_id: "1t4VXIvZmQYbF_L2j4tvmMzCOh-_Ix2IrKCs3fawUhgI"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 16 terapie herbala profesional
-
-## Conținut extras
-
 Curs 16
 
 Ierburile tonice
@@ -151,43 +135,43 @@ Caracteristici de identificare:Planta medicinala care creste in tara noastra in 
 
 Actiune terapeutica:
 
-Acţionează în special pe membranele mucoase, relaxându-le şi inducând o secreţie groasă, galbenă, vâscoasă. Catarul poate fi de oriunde \- gât, stomac, uter, uretră \- având mereu această secreţie mucoasă caracteristică. Hydrastis este activ mai ales la persoane în vârstă, care obosesc uşor, la indivizi caşectici, cu o mare debilitate (slăbiciune). Efectele asupra creierului sunt evidente, mintea devine ascuţită, capul clar, exprimările facile. Slăbiciune musculară, digestie lentă, constipaţie persistentă. Lumbago. Emaciere şi prostraţie. Acţiune puternică asupra ficatului. Cancer şi stări canceroase, înainte de ulceraţie, când durerea este simptomul principal. Guşă la pubertate şi-n sarcină. Variolă (intern şi local). Remediul modifică evoluţia variolei prin ameliorarea simptomelor supărătoare, scurtarea duratei bolii, micşorarea pericolului şi diminuarea complicaţiilor.
+Acționează în special pe membranele mucoase, relaxându-le și inducând o secreție groasă, galbenă, vâscoasă. Catarul poate fi de oriunde \- gât, stomac, uter, uretră \- având mereu această secreție mucoasă caracteristică. Hydrastis este activ mai ales la persoane în vârstă, care obosesc ușor, la indivizi cașectici, cu o mare debilitate (slăbiciune). Efectele asupra creierului sunt evidente, mintea devine ascuțită, capul clar, exprimările facile. Slăbiciune musculară, digestie lentă, constipație persistentă. Lumbago. Emaciere și prostrație. Acțiune puternică asupra ficatului. Cancer și stări canceroase, înainte de ulcerație, când durerea este simptomul principal. Gușă la pubertate și-n sarcină. Variolă (intern și local). Remediul modifică evoluția variolei prin ameliorarea simptomelor supărătoare, scurtarea duratei bolii, micșorarea pericolului și diminuarea complicațiilor.
 
-Minte. Depresie; sigur că o să moară, doreşte moartea.
+Minte. Depresie; sigur că o să moară, dorește moartea.
 
-Cap. Durere frontală, surdă, ca o apăsare, în special în legătură cu constipaţia. Mialgii la nivelul scalpului şi muşchilor gâtului (Cimicifuga). Eczemă pe frunte, de-a lungul zonei de inserţie a părului. Sinuzită, după coriză.
+Cap. Durere frontală, surdă, ca o apăsare, în special în legătură cu constipația. Mialgii la nivelul scalpului și mușchilor gâtului (Cimicifuga). Eczemă pe frunte, de-a lungul zonei de inserție a părului. Sinuzită, după coriză.
 
-Urechi. Vuiet. Secreţii muco-purulente. Surditate. Catar la nivelul trompei lui Eustachio, cu voce ascuţită, piţigăiată.
+Urechi. Vuiet. Secreții muco-purulente. Surditate. Catar la nivelul trompei lui Eustachio, cu voce ascuțită, pițigăiată.
 
-Nas. Secreţie groasă, tenace din spatele nasului în gât. Secreţie apoasă, excoriantă. Ozenă, cu ulceraţii ale septului nazal. Tendinţa de a sufla nasul tot timpul.
+Nas. Secreție groasă, tenace din spatele nasului în gât. Secreție apoasă, excoriantă. Ozenă, cu ulcerații ale septului nazal. Tendința de a sufla nasul tot timpul.
 
-Gură. Gust ca de piper. Limba albă, umflată, mare, moale, lipicioasă; cu urmele dinţilor imprimate pe margine (Mercurius); ca şi cum ar fi opărită; stomatită. Ulceraţii linguale, fisuri către margini.
+Gură. Gust ca de piper. Limba albă, umflată, mare, moale, lipicioasă; cu urmele dinților imprimate pe margine (Mercurius); ca și cum ar fi opărită; stomatită. Ulcerații linguale, fisuri către margini.
 
-Gât. Faringită foliculară. Senzaţie de rană vie, usturime, excoriaţie. Elimină mucus galben, tenace (Kali bichromicum). Copilul este trezit brusc din somn de această secreţie groasă, post-nazală. Guşă la pubertate şi în sarcină.
+Gât. Faringită foliculară. Senzație de rană vie, usturime, excoriație. Elimină mucus galben, tenace (Kali bichromicum). Copilul este trezit brusc din somn de această secreție groasă, post-nazală. Gușă la pubertate și în sarcină.
 
-Stomac. Senzaţie de durere surdă în stomac, mai mult sau mai puţin constantă. Digestie slabă. Gust amar. Durere ca şi cum ar fi înghiţit ceva gloduros. Senzaţie de sfârşeală. Pulsaţii în epigastru. Nu poate mânca pâine sau legume. Dispepsie atonă. Ulcer şi cancer. Gastrită.
+Stomac. Senzație de durere surdă în stomac, mai mult sau mai puțin constantă. Digestie slabă. Gust amar. Durere ca și cum ar fi înghițit ceva gloduros. Senzație de sfârșeală. Pulsații în epigastru. Nu poate mânca pâine sau legume. Dispepsie atonă. Ulcer și cancer. Gastrită.
 
-Abdomen. Catar gastro-duodenal. Ficat leneş, sensibil. Icter. Litiază biliară. Durere ca o tragere în zona inghinală dreaptă cu senzaţie de tăietură către testiculul drept.
+Abdomen. Catar gastro-duodenal. Ficat leneș, sensibil. Icter. Litiază biliară. Durere ca o tragere în zona inghinală dreaptă cu senzație de tăietură către testiculul drept.
 
-Spate. Durere surdă, grea, ca o tragere şi înţepeneală, mai ales de-a lungul zonei lombare, trebuie să se ajute de braţe ca să se ridice de pe scaun.
+Spate. Durere surdă, grea, ca o tragere și înțepeneală, mai ales de-a lungul zonei lombare, trebuie să se ajute de brațe ca să se ridice de pe scaun.
 
-Rect. Prolaps; fisuri anale. Constipaţie, cu senzaţie de gol în stomac şi durere surdă de cap. Dureri usturătoare în rect în timpul scaunului. Dureri prelungite după scaun (Nitric acid). Hemoroizi; se simte epuizat chiar după un scaun uşor. Contracţii şi spasme.
+Rect. Prolaps; fisuri anale. Constipație, cu senzație de gol în stomac și durere surdă de cap. Dureri usturătoare în rect în timpul scaunului. Dureri prelungite după scaun (Nitric acid). Hemoroizi; se simte epuizat chiar după un scaun ușor. Contracții și spasme.
 
-Urină. Secreţie ca de gonoree. Urina are miros de descompus.
+Urină. Secreție ca de gonoree. Urina are miros de descompus.
 
-Aparat genital masculin. Gonoree, stadiul secundar; secreţie groasă, galbenă.
+Aparat genital masculin. Gonoree, stadiul secundar; secreție groasă, galbenă.
 
-Aparat genital feminin. Eroziune şi excoriaţie la nivelul colului. Leucoree, mai ales după menstruaţie (Bovista, Calcarea carbonica); acidă, corozivă, "în franjuri", tenace. Menoragie. Prurit vulvar, cu leucoree abundentă (Calcarea carbonica, Kreosotum, Sepia). Excitaţie sexuală. Tumoră la sân; mamelon retractat.
+Aparat genital feminin. Eroziune și excoriație la nivelul colului. Leucoree, mai ales după menstruație (Bovista, Calcarea carbonica); acidă, corozivă, "în franjuri", tenace. Menoragie. Prurit vulvar, cu leucoree abundentă (Calcarea carbonica, Kreosotum, Sepia). Excitație sexuală. Tumoră la sân; mamelon retractat.
 
-Aparat respirator. Senzaţie de rană, durere, arsură în piept. Tuse uscată, aspră. Catar bronşic, stadii avansate. Bronşită la persoane în vârstă, epuizate, cu expectoraţie groasă, galbenă, tenace. Atacuri frecvente de leşin, cu transpiraţie rece pe tot corpul. Simte că se sufocă dacă se întinde pe stânga. Durere care iradiază din piept către umărul stâng.
+Aparat respirator. Senzație de rană, durere, arsură în piept. Tuse uscată, aspră. Catar bronșic, stadii avansate. Bronșită la persoane în vârstă, epuizate, cu expectorație groasă, galbenă, tenace. Atacuri frecvente de leșin, cu transpirație rece pe tot corpul. Simte că se sufocă dacă se întinde pe stânga. Durere care iradiază din piept către umărul stâng.
 
-Piele. Erupţie ca de variolă. Lupus; ulceraţii, formaţiuni canceroase. Tendinţă generală la transpiraţie abundentă şi piele nesănătoasă (Hepar).
+Piele. Erupție ca de variolă. Lupus; ulcerații, formațiuni canceroase. Tendință generală la transpirație abundentă și piele nesănătoasă (Hepar).
 
-Relaţii. Antidot: Sulphur.
+Relații. Antidot: Sulphur.
 
 Util după abuz de Clorat de Potasiu pentru durere de gât.
 
-Doză. De la tinctură până la potenţa 30\. Local, tinctură-mamă sau extract fluid.
+Doză. De la tinctură până la potența 30\. Local, tinctură-mamă sau extract fluid.
 
 Planta contine principrii amare, alcaloizi. In scop fitoterapeutic se utilizeaza radacina. Gentiana infloreste din luna iulie pana in septembrie. Radacina se recolteaza dinluna august pana in luna octombrie.
 
@@ -313,48 +297,48 @@ Nervi spinali și epilepsie
 
 Mod de preparare: ierburile se amestecă împreună și se infuzeaza folosind 1 lingurita deingrediente pentru fiecare ceașcă de apă clocotită sau 56g de plante în 1-1/2 litri deapă clocotită, se acoperă bine până e aproape rece, se strecoara sau se amestecă compusul bine sub formă de pulbere și se pune în \# 0 capsule.
 
-Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, după caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (după caz ​) la fiecare 2 ore.
+Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, după caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (după caz ) la fiecare 2 ore.
 
 ***PERUVIAN BARK** (Cinchona calisaya; C. ledgerana; C. officinalis; C.*
 *succirubra; RUBIACEAE)*
 
-Arborele de chinină creşte în zonele din America de Sud. Din scoarţa sa se extrage chinina, un alcaloid care, printre altele, are proprietăţi anipiretice, analgezice şi antiinflamatorii. În limba incaşă, chinină înseamnă „scoarţa sfântă”.
+Arborele de chinină crește în zonele din America de Sud. Din scoarța sa se extrage chinina, un alcaloid care, printre altele, are proprietăți anipiretice, analgezice și antiinflamatorii. În limba incașă, chinină înseamnă „scoarța sfântă”.
 
  Actiune terapeutica:
 
 Coboară temperatura
 
-Chinina acţionează ca un antipiretic, adică scade temperatura corporală. De asemenea, scoarţa acestui arbore reprezintă un tonic şi un stimulent al sistemului digestiv, de aceea este folosită în medicina naturistă pentru a trata indigestii, tulburări gastrointestinale sau alimentare (lipsa poftei de mâncare).
+Chinina acționează ca un antipiretic, adică scade temperatura corporală. De asemenea, scoarța acestui arbore reprezintă un tonic și un stimulent al sistemului digestiv, de aceea este folosită în medicina naturistă pentru a trata indigestii, tulburări gastrointestinale sau alimentare (lipsa poftei de mâncare).
 
-În anumite zone din sudul Americii, chinina este folosită în medicina populară pentru a vindeca diferite forme de cancer, cum ar fi cel de sân, de ficat, mezenteric sau de splină. Localnicii o folosesc şi pentru tratarea răcelilor, a dizenteriei, dispepsiei, diareii, pneumoniei, sciaticii sau venelor varicoase.
+În anumite zone din sudul Americii, chinina este folosită în medicina populară pentru a vindeca diferite forme de cancer, cum ar fi cel de sân, de ficat, mezenteric sau de splină. Localnicii o folosesc și pentru tratarea răcelilor, a dizenteriei, dispepsiei, diareii, pneumoniei, sciaticii sau venelor varicoase.
 
 Îndepărtează crampele
 
-În medicina naturistă din Europa, scoarţa arborelui de chinină se foloseşte ca antispastic, tonic şi antipiretic. De asemenea, este un ingredient folosit în numeroase medicamente naturiste indicate în cazuri de aritmii, anemie, crampe la picioare, dar şi în produsele ce acţionează împotriva bacteriilor, precum şi în anestezice uşoare.
+În medicina naturistă din Europa, scoarța arborelui de chinină se folosește ca antispastic, tonic și antipiretic. De asemenea, este un ingredient folosit în numeroase medicamente naturiste indicate în cazuri de aritmii, anemie, crampe la picioare, dar și în produsele ce acționează împotriva bacteriilor, precum și în anestezice ușoare.
 
 Eficace contra hemoroizilor
 
-În Statele Unite, scoarţa de chinină este folosită ca tonic şi ajutor pentru digestie, pentru a stimula apetitul, pentru calmarea palpitaţiilor şi normalizarea funcţiilor inimii. Este prezentă şi în produsele menite să trateze hemoroizii sau venele varicoase.
+În Statele Unite, scoarța de chinină este folosită ca tonic și ajutor pentru digestie, pentru a stimula apetitul, pentru calmarea palpitațiilor și normalizarea funcțiilor inimii. Este prezentă și în produsele menite să trateze hemoroizii sau venele varicoase.
 
 Stopează pierderea podoabei capilare
 
-Extractul din scoarţa arborelui de chinină are un rol fortifiant asupra rădăcinii firelor de păr şi acţionează împotriva căderii părului, îmbunătăţind circulaţia sangvină de la nivelul scalpului. De aceea, în farmacii şi în magazinele de cosmetice vei putea găsi şampoane, balsamuri şi măşti pentru păr pe bază de chinină.
+Extractul din scoarța arborelui de chinină are un rol fortifiant asupra rădăcinii firelor de păr și acționează împotriva căderii părului, îmbunătățind circulația sangvină de la nivelul scalpului. De aceea, în farmacii și în magazinele de cosmetice vei putea găsi șampoane, balsamuri și măști pentru păr pe bază de chinină.
 
 Toxică, în doze mari
 
-Scoarţa de chinină se găseşte mai greu în magazinele de produse naturiste din România, însă dacă ai reuşit să o procuri trebuie să ştii că infuzia se prepară din 1-2 g de plantă, peste care se toarnă o cană cu apă clocotită. Se lasă timp de zece minute, se strecoară şi se consumă după ce s-a răcit. Poti bea această licoare cu o jumătate de oră înainte de masă, pentru a stimula apetitul, ori după ce ai mâncat, pentru a preveni problemele cu digestia.
+Scoarța de chinină se găsește mai greu în magazinele de produse naturiste din România, însă dacă ai reușit să o procuri trebuie să știi că infuzia se prepară din 1-2 g de plantă, peste care se toarnă o cană cu apă clocotită. Se lasă timp de zece minute, se strecoară și se consumă după ce s-a răcit. Poti bea această licoare cu o jumătate de oră înainte de masă, pentru a stimula apetitul, ori după ce ai mâncat, pentru a preveni problemele cu digestia.
 
-Dacă nu găsesti scoarţă de chinină, poti folosi capsule cu chinină, pudră sau alte produse în care este un ingredient principal. Atenţie însă la cantitatea de scoarţă pe care o folosesti\! În doze mari, poate fi toxică\! De asemenea, este contraindicată gravidelor, deoarece poate duce la pierderea sarcinii.
+Dacă nu găsesti scoarță de chinină, poti folosi capsule cu chinină, pudră sau alte produse în care este un ingredient principal. Atenție însă la cantitatea de scoarță pe care o folosesti\! În doze mari, poate fi toxică\! De asemenea, este contraindicată gravidelor, deoarece poate duce la pierderea sarcinii.
 
 Primul medicament împotriva malariei
 
-Chinina a fost primul tratament eficient împotriva malariei şi a fost adusă şi în Europa, începând cu prima parte a secolului al XVII-lea. Prima dată a fost utilizată la Roma, în anul 1631\. În acele vremuri, malaria era foarte răspândită din cauza numeroaselor mlaştini din jurul oraşului, ceea ce făcea ca ţânţarii care transmit această boală la om să fie prezenţi în număr mare. Din cauza acestei boli, foarte mulţi romani, printre care şi cardinali sau papi, au murit.
+Chinina a fost primul tratament eficient împotriva malariei și a fost adusă și în Europa, începând cu prima parte a secolului al XVII-lea. Prima dată a fost utilizată la Roma, în anul 1631\. În acele vremuri, malaria era foarte răspândită din cauza numeroaselor mlaștini din jurul orașului, ceea ce făcea ca țânțarii care transmit această boală la om să fie prezenți în număr mare. Din cauza acestei boli, foarte mulți romani, printre care și cardinali sau papi, au murit.
 
-Chinina a jucat un rol important şi în colonizarea Africii de europeni. Se spune că ea a fost motivul pentru care Africa a mai încetat să fie „mormântul oamenilor albi”. După ce europenii au avut acces la chinină, care i-a ferit de malaria din Africa, au putut explora noi zone din partea de vest a „continentului negru”.
+Chinina a jucat un rol important și în colonizarea Africii de europeni. Se spune că ea a fost motivul pentru care Africa a mai încetat să fie „mormântul oamenilor albi”. După ce europenii au avut acces la chinină, care i-a ferit de malaria din Africa, au putut explora noi zone din partea de vest a „continentului negru”.
 
-\- Indienii din Peru foloseau chinina şi pentru a opri tremuratul cauzat de temperaturile scăzute. Peruanii sunt cei care au inventat ceea ce azi numim „apă tonică”, turnând peste scoarţa arborelui de chinină apă îndulcită.
+\- Indienii din Peru foloseau chinina și pentru a opri tremuratul cauzat de temperaturile scăzute. Peruanii sunt cei care au inventat ceea ce azi numim „apă tonică”, turnând peste scoarța arborelui de chinină apă îndulcită.
 
-Cea mai răspândită formă în care se găseşte chinina este în apa tonică, acest ingredient fiind responsabil de gustul uşor amărui, răcoritor. Chinina a fost introdusă şi în ape de gură sau în praf de curăţat dinţii, datorită proprietăţilor sale astringente, ce determină reducerea inflamaţiilor şi vindecarea rapidă a rănilor din cavitatea bucală.
+Cea mai răspândită formă în care se găsește chinina este în apa tonică, acest ingredient fiind responsabil de gustul ușor amărui, răcoritor. Chinina a fost introdusă și în ape de gură sau în praf de curățat dinții, datorită proprietăților sale astringente, ce determină reducerea inflamațiilor și vindecarea rapidă a rănilor din cavitatea bucală.
 
 Infuzie \# 1
 

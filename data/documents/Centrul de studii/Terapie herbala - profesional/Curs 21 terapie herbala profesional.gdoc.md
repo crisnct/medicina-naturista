@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 21 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 21 terapie herbala profesional.gdoc"
-source_pointer_sha256: "ac7d7ac2f7dabe8ca382bde57871dbddd6ca0caba1c9ec01234b238b06dc97d3"
-source_pointer_bytes: 181
-google_doc_id: "1amEUaaW_wEsixuXPRMocAIC2f5h3-Shqvn3Z5ZCOve8"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 21 terapie herbala profesional
-
-## Conținut extras
-
 Curs 21
 
 Dieta regenerativa

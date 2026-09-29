@@ -1,24 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Vinete.png"
-source_relative_path: "Vinete.png"
-source_sha256: "28142da44488b851ff80b6d877b3b4eb54904d6fd8fba38f5fc4760f7d45a7b9"
-source_size_bytes: 670453
-media_type: image/png
-width_px: 1280
-height_px: 1024
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 83.82
-ocr_text_characters: 926
-status: "ok"
----
-
-# Vinete.png
-
-## Text OCR extras
-
-```text
 Secretele Frumuseti indelungate si Super Potenta - MERITA VAZUT
 o>? <0
 Continut pentru:
@@ -156,8 +135,3 @@ m
 icool
 0.00
 25:13
-```
-
-## Notă
-
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tratament naturist pentru transpiratia abundenta a palmelor, pe fond emotional.docx"
-source_relative_path: "Tratament naturist pentru transpiratia abundenta a palmelor, pe fond emotional.docx"
-source_sha256: "11440bbe31059ec132e4a2e9a929e5e6db22deab70254e5a588b8931e0a95d5c"
-source_size_bytes: 31453
-source_format: docx
-output_format: markdown
-native_text_characters: 1181
-tables: 0
-images: 2
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Tratament naturist pentru transpiratia abundenta a palmelor, pe fond emotional
-
-## Text nativ
-
 Tratament naturist pentru transpirația abundentă a palmelor,
 
 pe fond emoțional

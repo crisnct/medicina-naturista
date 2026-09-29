@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Cancer\\Tratament naturist pentru cancer.gdoc"
-source_relative_path: "Cancer\\Tratament naturist pentru cancer.gdoc"
-source_pointer_sha256: "b1513a3d2b62a1e952a559275b04c294f932c2d92fc20334cf2d3af5c317915f"
-source_pointer_bytes: 181
-google_doc_id: "1LJdz70l4bIXrqdEjG-GGFrLcaINkNoBHNscCzub0pR0"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Tratament naturist pentru cancer
-
-## Conținut extras
-
 # **Tratamente naturiste pentru cancer\***
 
 - **Vitamina B17(amigdalină):** 500mg x 2-3 ori pe zi, SAU **sâmburi de caise amari**(1 lingură x 2 ori pe zi). După o lună se face pauză tot de o lună. Pe perioada administrării de vit B17 de sâmburi trebuie luat și **armurariu**(supliment cu extract de armurariu 1000mg armurariu pe capsulă sau 250mg extract de armurariu pe capsulă). În cazul unei persoane cu cancer, amigdalina se transformă de organism în cianură iar cianura ajută la micșorarea și eliminarea celulelor canceroase. Armurariul e pentru protecția ficatului.

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Puncte energetice pe palme si talpi\\poze.docx"
-source_relative_path: "Puncte energetice pe palme si talpi\\poze.docx"
-source_sha256: "2b98967365fdd710141735292199036ae48b34b0d814cbbb01e46c2125882bdb"
-source_size_bytes: 496263
-source_format: docx
-output_format: markdown
-native_text_characters: 0
-tables: 0
-images: 7
-ocr_images_with_text: 7
-ocr_text_characters: 2799
----
-
-# poze
-
-## Text nativ
-
 _Documentul nu conține text nativ extractibil._
 
 ## Descrieri alternative ale imaginilor

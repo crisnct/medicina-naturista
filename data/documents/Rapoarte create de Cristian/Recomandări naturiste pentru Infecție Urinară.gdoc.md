@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandări naturiste pentru Infecție Urinară.gdoc"
-source_relative_path: "Recomandări naturiste pentru Infecție Urinară.gdoc"
-source_pointer_sha256: "e7b332d6df0385775aedb85cfd705cafacf4a0a78316bb5bb44bd4f3dc2bcb37"
-source_pointer_bytes: 181
-google_doc_id: "1L4F3ERTU6b6LaiIphM0RZ21htNBmK_NfwunNSOoBJg0"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Recomandări naturiste pentru Infecție Urinară
-
-## Conținut extras
-
 # Recomandări naturiste pentru
 
 # infecție urinară
@@ -184,16 +168,16 @@ Durata: 14 zile
  - nu este indicat în dispepsii grave, în catitate mare inhibând activitatea enzimatică și ducând la hiperfuncția glandei tiroide.
  - nu se folosește în caz de insuficiență pancreatică, sarcină, ulcer stomacal, arteroscleroză, hepatită, fibrilație atrială.
 - **SCORȚIȘOARA**
- - provoacă variaţii ale glicemiei.
+ - provoacă variații ale glicemiei.
  - nu este indicată femeilor însărcinate și nici femeilor care alaptează, celor afectați de epuizare nervoasă, precum și celor cu pielea foarte sensibilă.
 - **SCHINDUFUL**
  - planta nu se recomandă a fi administrată în timpul sarcinii.
- - principiile din seminţele din schinduf pot interacţiona în mod negativ cu medicamentele anticoagulante.
- - deoarece boabele speciei conţin substanţe care în organism se pot comporta ca precursori ai hormonilor steroizi, se recomandă să nu se administreze copiilor care încă nu au depăşit pubertatea. Nu s-au semnalat reacţii adverse în urma administrării preparatelor pe bază de seminţe de schinduf.
+ - principiile din semințele din schinduf pot interacționa în mod negativ cu medicamentele anticoagulante.
+ - deoarece boabele speciei conțin substanțe care în organism se pot comporta ca precursori ai hormonilor steroizi, se recomandă să nu se administreze copiilor care încă nu au depășit pubertatea. Nu s-au semnalat reacții adverse în urma administrării preparatelor pe bază de semințe de schinduf.
 - **DRĂGAICA / SÂNZIENELE**
  - Drăgaica dizolvă calciul după unii terapeuți; deci cei care au lispă de calciu ar trebui să o evite.
 - **ECHINACEEA**
- - nu se administrează concomitent cu tratamentele anticanceroase şi anxiolitice, imunosupresoare sau hipocolesterolemiante, pentru că pot apărea efecte grave de sănătate.
+ - nu se administrează concomitent cu tratamentele anticanceroase și anxiolitice, imunosupresoare sau hipocolesterolemiante, pentru că pot apărea efecte grave de sănătate.
  - trebuie evitata în caz de tuberculoză, scleroză multiplă, SIDA sau infecție cu HIV și alergii la Echinacea sau la plantele înrudite (mușețel, gălbenele). Nu se administrează copiilor sub trei ani.
  - nu se recomandă administrarea prelungită mai mult de șase săptămâni.
  - potrivit unui studiu american, ar afecta fertilitatea, deci se recomandă ambilor parteneri să renunțe la medicamentele pe bază de echinacea în cazul în care doresc să conceapă un copil.
@@ -201,13 +185,13 @@ Durata: 14 zile
 - **COADA-CALULUI**
  - contraindicată în edeme cauzate de insuficiență cardiacă sau insuficiență renală.
 - **IENUPĂRUL**
- - ca urmare a acţiunii hiperglicemiante, nu se recomandă administrarea preparatelor pe bază de ienupăr în diabet.
- - deoarece compuşii volatili din boabele de ienupăr prezintă efecte iritante, acestea nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare.
- - deoarece compuşii existenţi în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing).
- - contraindicat în sarcină şi alăptare.
- - în cazul depăşirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale.
- - ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depăşească 4 săptămâni), după care trebuie să urmeze o pauză de cel puţin două luni. Administrat pe termen lung, ienupărul provoacă hipocalcemie şi leziuni renale (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
- - în afecţiunile inflamatorii ale rinichilor, vezicii şi căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merişor şi frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
+ - ca urmare a acțiunii hiperglicemiante, nu se recomandă administrarea preparatelor pe bază de ienupăr în diabet.
+ - deoarece compușii volatili din boabele de ienupăr prezintă efecte iritante, acestea nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare.
+ - deoarece compușii existenți în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing).
+ - contraindicat în sarcină și alăptare.
+ - în cazul depășirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale.
+ - ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depășească 4 săptămâni), după care trebuie să urmeze o pauză de cel puțin două luni. Administrat pe termen lung, ienupărul provoacă hipocalcemie și leziuni renale (A. Duke, M. J. Bogenschutz-Godwin, J. duCellier, P. A. K. Duke).
+ - în afecțiunile inflamatorii ale rinichilor, vezicii și căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merișor și frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
 - **GENȚIANA / GHINȚURĂ**
  - contraindicată femeilor însărcinate și celor care alăptează
  - hipertensivii și cei cu ulcer gastric ar trebui să o evite.

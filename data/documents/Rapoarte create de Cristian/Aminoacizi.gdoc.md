@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Aminoacizi.gdoc"
-source_relative_path: "Aminoacizi.gdoc"
-source_pointer_sha256: "157b2e71d5cf855ade18ef2238c27db82b01b0cb9e65c1b879c6a29dfa60f17b"
-source_pointer_bytes: 181
-google_doc_id: "1nfjvaUnjo9KwrSLwHgX8i6ywRWgdDE3kAnQj-Sgqu9o"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Aminoacizi
-
-## Conținut extras
-
 **Efectele aminoacizilor asupra sănătății omului**
 
 | *Denumire* | *Poate fi produs de organism* | *Efecte* | *Admnistrare* | *Efecte secundare, interacțiuni* |
@@ -21,10 +5,10 @@ embedded_image_payloads_removed: 0
 | Arginină | DA | \-crește libidoul atât la bărbați cât și la femei. \-crește imunitatea. \-în combinație cu Q10 crește foarte mult fertilitatea. \-ajută la erecții mai bune. \-stimulează producerea de testosteron. \-stimulează hormonul de creștere. \-accelerează cicatrizarea rănilor. \-ajută la mărirea masei musculare și la scăderea grăsimii. \-reduce riscul de accident vascular cerebral și de infarct. \-ajută la menținerea colesterolului în limite normale. \-poate ajuta la împiedicarea dezvoltării celulelor canceroase. | 1000mg pe zi în timpul mesei. | \-scade tensiunea arterială \-în caz de doză prea mare poate cauza dureri abdominale, balonare,diaree, gută, alergie. \-poate înrăutăți astmul. \-se poate lua în sarcină dar pe perioadă scurtă. \-ajută la dezvoltarea herpesului. \-persoanele care au suferit infarct trebuie să evite arginina. \-crește nivelul de potasiu din sânge. |
 | Beta-alanină | DA | \-ajută la creșterea forței și a masei musculare. \-dă mai multă energie creierului. \- crește rezistența la efort. \-reduce oboseala după antrenamente fizice. | 2000-6000mg pe zi | \- dozele mari pot provoca înroșirea feței și furnicături. |
 | Betaină | DA | \-extrem de benefică în echilibrarea acidității stomacului. | 600mg-1000mg x 3 pe zi în timpul meselor | \-diaree, miros neplăcut al corpului, colesterol crescut |
-| Creatină | DA | \-ajută la îmbunătățirea memoriei de scurtă durată. \-ajută la creșterea forței și a masei musculare. \-dă mai multă energie creierului. Nivelurile scăzute de creatină din creier pot duce la scăderea funcției mentale, convulsii, autism și probleme de mișcare  | 1000-5000mg pe zi. | \- a nu se consuma în exces deoarece poate afecta rinichii și poate duce la acumularea de lichid în țesuturi. \-a se evita de persoanele cu insuficiență renală, tulburare bipolară și parkinson. \-a nu se lua în cazul unui tratament cu unul din următoarele medicamente: ciclosporină (Neoral, Sandimmune); aminoglicozide incluzând amikacină (Amikin), gentamicină (Garamicină, Gentak, altele) și tobramicină (Nebcin, altele); medicamente antiinflamatoare nesteroidiene, inclusiv ibuprofen (Advil, Motrin, Nuprin, altele), indometacin (Indocin), naproxen (Aleve, Anaprox, Naprelan, Naprosyn), piroxicam (Feldene). |
+| Creatină | DA | \-ajută la îmbunătățirea memoriei de scurtă durată. \-ajută la creșterea forței și a masei musculare. \-dă mai multă energie creierului. Nivelurile scăzute de creatină din creier pot duce la scăderea funcției mentale, convulsii, autism și probleme de mișcare | 1000-5000mg pe zi. | \- a nu se consuma în exces deoarece poate afecta rinichii și poate duce la acumularea de lichid în țesuturi. \-a se evita de persoanele cu insuficiență renală, tulburare bipolară și parkinson. \-a nu se lua în cazul unui tratament cu unul din următoarele medicamente: ciclosporină (Neoral, Sandimmune); aminoglicozide incluzând amikacină (Amikin), gentamicină (Garamicină, Gentak, altele) și tobramicină (Nebcin, altele); medicamente antiinflamatoare nesteroidiene, inclusiv ibuprofen (Advil, Motrin, Nuprin, altele), indometacin (Indocin), naproxen (Aleve, Anaprox, Naprelan, Naprosyn), piroxicam (Feldene). |
 | Citrulină | NU | \- dilată vasele de sânge \- îmbunătățește performanța atletică \- crește anduranța fizică \- scade tensiunea în cazul hipertensivilor \- îmbunătățește erecția \- ameliorează depresia | 3000-6000mg pe zi | \- pe termen lung cauzează probleme de inimă |
 | Carnitină | DA | \- transformă grăsimile în energie | 2000mg pe zi | \-a nu se lua mai mult de un an de zile. \-accentuează simptomele hipotiroidismului. \-interacționează cu acenocumarol, warfarină. \-poate scădea eficiența hormonilor tiroidieni luați pe cale orală. \-poate cauza: dureri stomac, diaree, crampe, vomă. \-poate interacționa cu antibioticele. \-dozele ridicate te fac să miroși a pește. |
-| Glutamină | DA | \-detoxifiant. \-creșterea imunității. \-ajută în caz de permeabilitate intestinală. \-ajută la creșterea masei și a rezistenței musculare. \-ajută la formarea hormonului de creștere. | 1000mg-40000mg pe zi doza uzuală e de 400mg/kilocorp/zi | \-amețeală, greață, dureri de stomac. \-face foarte mult rău în caz de ciroză sau în cazul persoanelor care au avut transplant de măduvă osoasă. \-poate scădea eficiența unor medicamente împotriva cancerului. \-poate scădea eficiența unor medicamente care acționează asupra creierului: fenobarbital, primidonă, acid valproic (Depakene), gabapentin (Neurontin), carbamazepină (Tegretol), fenitoină (Dilantin). |
+| Glutamină | DA | \-detoxifiant. \-creșterea imunității. \-ajută în caz de permeabilitate intestinală. \-ajută la creșterea masei și a rezistenței musculare. \-ajută la formarea hormonului de creștere. | 1000mg-40000mg pe zi doza uzuală e de 400mg/kilocorp/zi | \-amețeală, greață, dureri de stomac. \-face foarte mult rău în caz de ciroză sau în cazul persoanelor care au avut transplant de măduvă osoasă. \-poate scădea eficiența unor medicamente împotriva cancerului. \-poate scădea eficiența unor medicamente care acționează asupra creierului: fenobarbital, primidonă, acid valproic (Depakene), gabapentin (Neurontin), carbamazepină (Tegretol), fenitoină (Dilantin). |
 | Histidină | NU | \-aminoacid esențial ce ajută la formarea histaminei și carnozinei. \-poate ajuta în cazul de artrită reumatoidă, alergii, ulcer, anemie cauzată de insuficiență renală, dializă. | \-4000mg pe zi | \-deoarece ajută la formarea histaminei, colesterolul se poate depune pe vasele de sânge. A nu se lua perioadă îndelungată. |
 | Lizină | NU | \-ajută la fabricarea colagenului. \-benefic în cazul de osteoporoză. \-combate herpesul. \-ajută la menținerea colesterolului în limite normale. \-în combinație cu vitamina C ajută la înlăturarea depunerilor de ateroame de pe pereții vaselor de sânge. \- în combinație cu calciul ajută la o mai bună asimilare a acestuia. | 700-4000mg pe zi, între mese. | \-dureri de stomac, diaree \-a se lua cu precauție de către persoanele cu insuficiență renală sau în cazul persoanelor cu osteoporoză. \- atenție mare atunci când se ia împreună cu calciu deoarece poate duce la acumularea în organism a unor cantități prea mari de calciu ceea ce este nociv. |
 | Fenilalanină | NU | \-util în boli de piele, în special vitiligo \-ameliorează ADHD \-util în depresie \-antiinflamator puternic \-crește nivelul de dopamină \-crește producția de pigment din piele \-îmbunătățește starea de spirit | \-50-100mg / kilocorp pe zi | \-se poate folosi extern aplicat pe piele 10% \-a se folosi L- fenilalanină deoarece este forma care se regăsește în proteine. \-crește nivelul de anxietate \-poate crește ritmul inimii. \-interacționează cu levodopa medicația antidepresivă și medicația antipsihotică \-poate crește tensiunea arterială |
@@ -42,47 +26,3 @@ embedded_image_payloads_removed: 0
 | | | | | |
 
 **Referințe:**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

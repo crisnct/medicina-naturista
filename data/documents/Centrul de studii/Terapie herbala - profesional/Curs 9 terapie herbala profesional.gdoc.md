@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 9 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 9 terapie herbala profesional.gdoc"
-source_pointer_sha256: "9673d4f234efb47eae23b65de537d14b49a7cbc12270fb75b8309e8a2b4b8e8a"
-source_pointer_bytes: 181
-google_doc_id: "1FKjNV12PGifLL3NoEhaAHBdHQ2sqBeqP69T4ipUUvqY"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 9 terapie herbala profesional
-
-## Conținut extras
-
 Cursul 9
 
 Ierburile diaforetice
@@ -28,45 +12,45 @@ Trebuie să te gândesti la diaforeza, în orice caz care implica circulația ge
 
 **Coada soricelului(**Achillea millefolium; A. lanulosa; COMPOSITAE)
 
-Denumire: Achillea millefolium. Numele vine de la grecescul Achilleia, nume dat în cinstea eroului Achilles, care , învăţând arta tămăduirii bolilor de la centaurul Chiron, a folosit această plantă pentru tămăduirea rănilor lui Telephos şi a altor războinici. Cuvântul millefolium este format din cuvintele latine mille=o mie şi folium=frunze referindu-se la frunzele sale subdivizate în mai multe lacinii.
+Denumire: Achillea millefolium. Numele vine de la grecescul Achilleia, nume dat în cinstea eroului Achilles, care , învățând arta tămăduirii bolilor de la centaurul Chiron, a folosit această plantă pentru tămăduirea rănilor lui Telephos și a altor războinici. Cuvântul millefolium este format din cuvintele latine mille=o mie și folium=frunze referindu-se la frunzele sale subdivizate în mai multe lacinii.
 
 Caracteristici de identificare:
 
-Este înaltă până la 80 cm, având două feluri de tulpini aeriene: unele mai groase florifere, foliate, ramificate la partea superioară şi care se termină cu capitule formate din flori mici şi altele sterile purtând numai frunze. Frunzele sunt alterne, penat \- sectate, mai mult sau mai puţin păroase şi cu miros slab aromat şi gust astringent. Florile sunt grupate în capitule ovoide reunite la rândul lor în corimb la extremitatea tulpinei. Fiecare capitul conţine 5-6 flori marginale pentamere, de culoare albă, uneori rozăpână la roşie.
+Este înaltă până la 80 cm, având două feluri de tulpini aeriene: unele mai groase florifere, foliate, ramificate la partea superioară și care se termină cu capitule formate din flori mici și altele sterile purtând numai frunze. Frunzele sunt alterne, penat \- sectate, mai mult sau mai puțin păroase și cu miros slab aromat și gust astringent. Florile sunt grupate în capitule ovoide reunite la rândul lor în corimb la extremitatea tulpinei. Fiecare capitul conține 5-6 flori marginale pentamere, de culoare albă, uneori rozăpână la roșie.
 
-Locuri de creştere:
+Locuri de creștere:
 
-Creşte prin locuri cultivate şi necultivate, din zona de şes până în cea montană, prin fâneţe, poieni, margini de păduri, drumuri şi căi ferate, în special pe soluri nisipoase uşoare. Înfloreşte din iunie până în septembrie.
+Crește prin locuri cultivate și necultivate, din zona de șes până în cea montană, prin fânețe, poieni, margini de păduri, drumuri și căi ferate, în special pe soluri nisipoase ușoare. Înflorește din iunie până în septembrie.
 
 Actiune terapeutica:
 
-Datorită uleiului volatil are următoarele acţiuni: stomahice, astringente, antiinflamatoare, calmante şi uşor antiseptice şi tonic-amare.
+Datorită uleiului volatil are următoarele acțiuni: stomahice, astringente, antiinflamatoare, calmante și ușor antiseptice și tonic-amare.
 
-Intern: antiseptic bronşic, dezinfectant şi calmant gastro-intestinal în inflamaţiile gastro-intestinale, diminuează secreţiile gastrice, topic, antispasmodic ale căilor biliare, decongestiv hemoroidal.
+Intern: antiseptic bronșic, dezinfectant și calmant gastro-intestinal în inflamațiile gastro-intestinale, diminuează secrețiile gastrice, topic, antispasmodic ale căilor biliare, decongestiv hemoroidal.
 
-Extern: calmant, antiinflamator şi dezinfectant (băi şi comprese)
+Extern: calmant, antiinflamator și dezinfectant (băi și comprese)
 
 Uz medicinal:
 
 Intern:
 
-În anorexie- datorită gustului amar imprimat de achileină creşte apetitul.
+În anorexie- datorită gustului amar imprimat de achileină crește apetitul.
 
-În hemoroizi, hipermenoree şi dismenoree, datorită achileinei, care reduce timpul de coagulare a sângelui, diminează congestia, usucă secreţia, şi are proprietăţi calmante şi dezinfectante.
+În hemoroizi, hipermenoree și dismenoree, datorită achileinei, care reduce timpul de coagulare a sângelui, diminează congestia, usucă secreția, și are proprietăți calmante și dezinfectante.
 
-Proprietăţile antiinflamatorii, antiseptice şi protectoare epiteliale sunt întărite şi datorită prezenţei uleiului volatil. Coada şoricelului mai este utilizată cu bune rezultate şi în bronşite, gastrite, balonari abdominale şi boli ale vezicii urinare.
+Proprietățile antiinflamatorii, antiseptice și protectoare epiteliale sunt întărite și datorită prezenței uleiului volatil. Coada șoricelului mai este utilizată cu bune rezultate și în bronșite, gastrite, balonari abdominale și boli ale vezicii urinare.
 
 Extern:
 
-Sub formă de comprese calmează tenul roşu şi iritat.
+Sub formă de comprese calmează tenul roșu și iritat.
 
-Se mai utilizează în arsuri, plăgi purulente, abcese dentare, ulcer varicos. În hemoroizi, sub formă de ceai în amestec cu frunze de urzică, iar în caz de constipaţie se adaugă şi coadă de cruşin.
+Se mai utilizează în arsuri, plăgi purulente, abcese dentare, ulcer varicos. În hemoroizi, sub formă de ceai în amestec cu frunze de urzică, iar în caz de constipație se adaugă și coadă de crușin.
 
-Preparare Coada Şoricelului:
+Preparare Coada Șoricelului:
 
-Intern: sub formă de infuzie 2-5 g% (200-300 ml pe zi) se ia în enterocolite, gastrite şi anorexii. O altă formulă de preparare: infuzie din 2 linguri de flori la 500 ml apă clocotită, se bea călduţ şi fracţionat în 4-5 reprize în cursul unei zile. O infuzie mai concentrată făcută din 10g plantă la 100 ml apă ajută la eliminarea viermilor intestinali (ceaiul se bea dimineaţa pe stomacul gol).
+Intern: sub formă de infuzie 2-5 g% (200-300 ml pe zi) se ia în enterocolite, gastrite și anorexii. O altă formulă de preparare: infuzie din 2 linguri de flori la 500 ml apă clocotită, se bea călduț și fracționat în 4-5 reprize în cursul unei zile. O infuzie mai concentrată făcută din 10g plantă la 100 ml apă ajută la eliminarea viermilor intestinali (ceaiul se bea dimineața pe stomacul gol).
 
-Extern: infuzia 10 % sau 3 linguri la 500 ml apă clocotită, sub formă de băi sau comprese se foloseşte ca antiinflamator, dezinfectant şi calmant în arsuri, plăgi purulente, hemoragii.
+Extern: infuzia 10 % sau 3 linguri la 500 ml apă clocotită, sub formă de băi sau comprese se folosește ca antiinflamator, dezinfectant și calmant în arsuri, plăgi purulente, hemoragii.
 
 Formule:
 
@@ -134,7 +118,7 @@ Plante surori: Sneezewort (Achillea Ptarmica)- frunze- guturai, epilepsie, probl
 
 **Mușețel** sau musetel roman (Chamaemelum nobile; Anthemis nobilis; Compositae)
 
-Cuvântul matricaria provine de la latinescul mater \= mamă, făcând aluzie la utilizarea plantei în bolile femeilor. După alţii se apreciază că derivă de la latinescul matrix- matricis \= uter, aluzie la folosirea plantei în tulburările menstruale. Cuvântul chamomilla derivă din grecescul kamaimelon, numele plantei. Alţii apreciază că ar rezulta din cuvintele greceşti kamai \= mic, şi milon \= măr, aluzie la mirosul fin al florilor de muşeţel asemănătoarea cu al unor specii de măr.
+Cuvântul matricaria provine de la latinescul mater \= mamă, făcând aluzie la utilizarea plantei în bolile femeilor. După alții se apreciază că derivă de la latinescul matrix- matricis \= uter, aluzie la folosirea plantei în tulburările menstruale. Cuvântul chamomilla derivă din grecescul kamaimelon, numele plantei. Alții apreciază că ar rezulta din cuvintele grecești kamai \= mic, și milon \= măr, aluzie la mirosul fin al florilor de mușețel asemănătoarea cu al unor specii de măr.
 
 Caracteristici de identificare:
 
@@ -328,19 +312,19 @@ Dozare: 2 lingurite pentru copiii sub 6 ani (doza poate fi crescuta pentru copii
 
 **Salvia**(Salvia officinalis; Labiatae) Salvia, originara din bazinul mediteraneean este un arbust lemnos aromatic. Frunzele sale mici sunt groase si pufoase. Negustorii germani de vin obisnuiau sa adauge extract de salvie la vinurile de Rin pentru a le imbogati aroma, iar uleiul esential este folosit in industra vinurilor.
 
-Salvia se numără printre plantele medicinale cu cel mai îndelungat istoric, folosită pentru proprietăţile terapeutice încă de pe vremea romanilor. Se crede că denumirea ei provine din latinescul „salvere", care înseamnă „a salva". Planta cu frunze amărui se poate administra intern (infuzie, pulbere, tinctură), extern (comprese, cataplasme) sau prin inhalarea uleiului volatil obţinut din frunze.
+Salvia se numără printre plantele medicinale cu cel mai îndelungat istoric, folosită pentru proprietățile terapeutice încă de pe vremea romanilor. Se crede că denumirea ei provine din latinescul „salvere", care înseamnă „a salva". Planta cu frunze amărui se poate administra intern (infuzie, pulbere, tinctură), extern (comprese, cataplasme) sau prin inhalarea uleiului volatil obținut din frunze.
 
 Salvia este un subarbust de cultura, cu baza lignificata, inalt pana la 80 cm, cu tulpina dreapta, cu frunze dispuse opus, ovale pana la lanceolate, cu nervuri proeminente mai ales pe partea inferioara. Florile sunt asezate in spiculete simple sau ramificate de culoare albastra-violacee.
 
 Proprietati terapeutice:
 
-Acţionează ca un tonic digestiv Persoanele care suferă de afecţiuni intestinale precum balonările sau sindromul intestinului iritabil beneficiază de pe urma proprietăţilor dezinfectante ale salviei. Două-trei căni cu infuzie de salvie consumate zilnic sunt utile în caz de enterocolite, dar şi de diaree provenită din alte cauze. Frunzele proaspete de plantă presărate peste alimente stimulează apetitul şi uşurează digestia. Ele conferă mâncării un gust uşor amărui, care acţionează ca un tonic digestiv.
+Acționează ca un tonic digestiv Persoanele care suferă de afecțiuni intestinale precum balonările sau sindromul intestinului iritabil beneficiază de pe urma proprietăților dezinfectante ale salviei. Două-trei căni cu infuzie de salvie consumate zilnic sunt utile în caz de enterocolite, dar și de diaree provenită din alte cauze. Frunzele proaspete de plantă presărate peste alimente stimulează apetitul și ușurează digestia. Ele conferă mâncării un gust ușor amărui, care acționează ca un tonic digestiv.
 
- Stimulează memoria. Observaţiile empirice au fost confirmate de studiile ştiinţifice: salvia înviorează simţurile şi stimulează capacitatea de concentrare şi de memorare. Infuzia de salvie calmează durerile de cap şi îmbunătăţeşte tonusul psihic, fiind, deci, utilă în perioadele de suprasolicitare intelectuală. Din acelaşi motiv, planta este contraindicată însă persoanelor care suferă de epilepsie, dar şi copiilor cu vârste mai mici de 10 ani. Datorită capacităţii ei de stimulare a memoriei şi a raţionamentului, planta este considerată utilă persoanelor care suferă de boli degenerative precum maladia Alzheimer.
+ Stimulează memoria. Observațiile empirice au fost confirmate de studiile științifice: salvia înviorează simțurile și stimulează capacitatea de concentrare și de memorare. Infuzia de salvie calmează durerile de cap și îmbunătățește tonusul psihic, fiind, deci, utilă în perioadele de suprasolicitare intelectuală. Din același motiv, planta este contraindicată însă persoanelor care suferă de epilepsie, dar și copiilor cu vârste mai mici de 10 ani. Datorită capacității ei de stimulare a memoriei și a raționamentului, planta este considerată utilă persoanelor care suferă de boli degenerative precum maladia Alzheimer.
 
-Purifică organismul În medicina ayurvedică se spune că fumul obţinut prin arderea frunzelor de salvie purifică atmosfera din casă şi îndepărtează energiile negative. În loc de fum, poţi încerca uleiul volatil din salvie picurat în lampa aromatizantă sau în apa de baie. Datorită proprietăţilor depurative, o cură de 2-3 luni cu infuzie de salvie (câte 2-3 căni pe zi) ajută la eliminarea toxinelor din corp.
+Purifică organismul În medicina ayurvedică se spune că fumul obținut prin arderea frunzelor de salvie purifică atmosfera din casă și îndepărtează energiile negative. În loc de fum, poți încerca uleiul volatil din salvie picurat în lampa aromatizantă sau în apa de baie. Datorită proprietăților depurative, o cură de 2-3 luni cu infuzie de salvie (câte 2-3 căni pe zi) ajută la eliminarea toxinelor din corp.
 
-Stimulează regenerarea tenului Salvia conţine acizi fenolici şi enzime cu proprietăţi antioxidante. Una dintre ele este superoxid dismutaza, enzima antiîmbătrânire ce corectează defectele apărute în timpul multiplicării celulare, încetinind, astfel, procesul de degradare a ţesuturilor. Din acest motiv, planta este folosită în industria cosmetică, pentru prepararea cremelor, a săpunurilor şi a şampoanelor. Compresele cu infuzie de salvie preparată în casă au efect uşor astringent şi revigorează tenul obosit şi ofilit. În plus, ajută la vindecarea rănilor, ulceraţiilor cutanate şi eczemelor şi îmbunătăţesc aspectul pielii afectate de psoriazis. Decoctul de salvie poate fi folosit pentru colorarea firelor de păr albe, iar infuzia, folosită la ultima clătire, dă strălucire părului şaten.
+Stimulează regenerarea tenului Salvia conține acizi fenolici și enzime cu proprietăți antioxidante. Una dintre ele este superoxid dismutaza, enzima antiîmbătrânire ce corectează defectele apărute în timpul multiplicării celulare, încetinind, astfel, procesul de degradare a țesuturilor. Din acest motiv, planta este folosită în industria cosmetică, pentru prepararea cremelor, a săpunurilor și a șampoanelor. Compresele cu infuzie de salvie preparată în casă au efect ușor astringent și revigorează tenul obosit și ofilit. În plus, ajută la vindecarea rănilor, ulcerațiilor cutanate și eczemelor și îmbunătățesc aspectul pielii afectate de psoriazis. Decoctul de salvie poate fi folosit pentru colorarea firelor de păr albe, iar infuzia, folosită la ultima clătire, dă strălucire părului șaten.
 
 Dozare Extract fluid 1/2 \-1 lingurita
 

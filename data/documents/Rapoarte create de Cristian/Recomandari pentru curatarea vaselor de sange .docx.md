@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru curatarea vaselor de sange .docx"
-source_relative_path: "Recomandari pentru curatarea vaselor de sange .docx"
-source_sha256: "20627ace3f8bff4321883e6ba6d4cb1a73848508ae01ba4c88288ba0990841f2"
-source_size_bytes: 27431
-source_format: docx
-output_format: markdown
-native_text_characters: 1560
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Recomandari pentru curatarea vaselor de sange
-
-## Text nativ
-
 ### Recomandari naturiste pentru curatarea vaselor de sange si cresterea flexibilitatii acestora
 
 ### Pentru curatarea vaselor de sange
@@ -40,13 +22,13 @@ ocr_text_characters: 10
 
 - Radacina de cicoare
 
-- Ceai de fumarita. Poate fi utilizată, de asemenea, și în curele de slăbire sau de eliminare a compușilor grași din sânge. Se spune despre fumăriţă că are capacitatea de a încetini procesele de uzură, de îmbătrânire a organismului omenesc. Utilizarea preparatelor din această plantă se va face sub îndrumarea specialistului, a medicului, printre altele și datorită faptului că tratamentul trebuie să fie sub supravegheat(pot apărea afecte nedorite) și nu trebuie să depășească două săptămâni.
+- Ceai de fumarita. Poate fi utilizată, de asemenea, și în curele de slăbire sau de eliminare a compușilor grași din sânge. Se spune despre fumăriță că are capacitatea de a încetini procesele de uzură, de îmbătrânire a organismului omenesc. Utilizarea preparatelor din această plantă se va face sub îndrumarea specialistului, a medicului, printre altele și datorită faptului că tratamentul trebuie să fie sub supravegheat(pot apărea afecte nedorite) și nu trebuie să depășească două săptămâni.
 
 ### Pentru elasticitatea vaselor de sange
 
 - Coada-calului – pulbere 3-4 lingurite pe zi. Cu varsta cantitatea de
 
-siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange, planta conţine cea mai mare cantitate de siliciu solubil, in cure de 2 – 3 luni.
+siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange, planta conține cea mai mare cantitate de siliciu solubil, in cure de 2 – 3 luni.
 
 - Seminte de dovleac si floarea-soarelui crude: 100g pe zi
 
@@ -64,7 +46,7 @@ siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange
 
 Alimentatie:
 
-- Se scot din alimentaţie: carnea, prăjelile, untul şi margarina, dulciurile
+- Se scot din alimentație: carnea, prăjelile, untul și margarina, dulciurile
 
 - N-acetil-cisteina – reduce riscul de infarct
 
@@ -78,7 +60,7 @@ Alimentatie:
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

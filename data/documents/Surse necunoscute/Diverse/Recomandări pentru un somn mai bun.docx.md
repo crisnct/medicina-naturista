@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandări pentru un somn mai bun.docx"
-source_relative_path: "Recomandări pentru un somn mai bun.docx"
-source_sha256: "3e641686593a7bc712b7be557c4593d9d014c9844470093d66c6e2afac83bf28"
-source_size_bytes: 13757
-source_format: docx
-output_format: markdown
-native_text_characters: 2073
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Recomandări pentru un somn mai bun
-
-## Text nativ
-
 ### Pentru ca somnul să vină mai repede
 
 ### și să fie mai de calitate

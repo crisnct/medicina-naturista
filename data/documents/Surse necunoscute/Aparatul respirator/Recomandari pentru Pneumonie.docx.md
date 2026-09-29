@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru Pneumonie.docx"
-source_relative_path: "Recomandari pentru Pneumonie.docx"
-source_sha256: "7d8d484a07ff2676a635cfd22c38f9b0db69218ed0f9d877545fa3b92d6c87ae"
-source_size_bytes: 15730
-source_format: docx
-output_format: markdown
-native_text_characters: 2682
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Recomandari pentru Pneumonie
-
-## Text nativ
-
 Tratament naturist pentru pneumonie
 
 Pneumonia este cauzată de:
@@ -68,15 +50,15 @@ General, pentru pneumonie:
 
 - Administrare: Această formulă poate fi utilizata cu o baie de vapori sau cu boia și ceai de mentă.
 
-- Bandaje de ridichi în dreptul plămânilor, iar celor care au dureri de ficat să aplice ridichi, tăiate felii sau rase, în dreptul ficatului. Aceste aplicaţii simple pot duce la descongestionarea organelor interne și la îmbunătăţirea funcţionării lor.
+- Bandaje de ridichi în dreptul plămânilor, iar celor care au dureri de ficat să aplice ridichi, tăiate felii sau rase, în dreptul ficatului. Aceste aplicații simple pot duce la descongestionarea organelor interne și la îmbunătățirea funcționării lor.
 
 - Infuzie din flori de soc cu mentă: 2 linguri soc și o lingură de mentă la o cană. Se beau 3 căni pe zi.
 
 - Amestec de plante cu miere: Se piseaza o nucsoara, 20 gr. de piper si 50 gr. samanta de in si se amesteca cu 200 gr. de miere. Se ia cate o lingurita, dimineata, pe nemancate.
 
-- Cataplasma cu hrean pe piept va fi un adjuvant excepţional în cazurile de pneumonie, viroză pulmonară şi tuberculoză pulmonară, la fel ca şi cura internă cu hrean.
+- Cataplasma cu hrean pe piept va fi un adjuvant excepțional în cazurile de pneumonie, viroză pulmonară și tuberculoză pulmonară, la fel ca și cura internă cu hrean.
 
-- PERUVIAN BARK - arborele de chinina - în anumite zone din sudul Americii, chinina este folosită în medicina populară pentru a vindeca diferite forme de cancer, cum ar fi cel de sân, de ficat, mezenteric sau de splină. Localnicii o folosesc şi pentru tratarea răcelilor, a dizenteriei, dispepsiei, diareii, pneumoniei, sciaticii sau venelor varicoase.
+- PERUVIAN BARK - arborele de chinina - în anumite zone din sudul Americii, chinina este folosită în medicina populară pentru a vindeca diferite forme de cancer, cum ar fi cel de sân, de ficat, mezenteric sau de splină. Localnicii o folosesc și pentru tratarea răcelilor, a dizenteriei, dispepsiei, diareii, pneumoniei, sciaticii sau venelor varicoase.
 
 - Purtarea de bijuterii cu fluorit - piatră semiprețioasă.
 

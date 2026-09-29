@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Iridologie\\curs 2 iridologie.gdoc"
-source_relative_path: "Centrul de studii\\Iridologie\\curs 2 iridologie.gdoc"
-source_pointer_sha256: "fe69fe9b55f35ace66450a020114f45b6362088d7019d76e0a32f26cb99bcf49"
-source_pointer_bytes: 181
-google_doc_id: "19OglMJVBwme38iXVuJXm_l_aGSYobF3eqncgGwtrIe0"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 4
----
-
-# curs 2 iridologie
-
-## Conținut extras
-
 **LECTIA 2 IRIDIOLOGIE**
 
 Irisulpoatesaitispunamultedespre un individ. Dacaarunciunochipe o harta a irisuluipotiobtineinformatiiimportante. Caoricedisciplinanoua, pare complicata la inceputdar nu estedelocasa.

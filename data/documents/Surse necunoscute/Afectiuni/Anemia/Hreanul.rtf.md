@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Anemia\\Hreanul.rtf"
-source_relative_path: "retete naturiste de sanatate\\Anemia\\Hreanul.rtf"
-source_sha256: "6687f5fbc4439bfe9ee29ab6e24edab1dde2cdb6ee61c6f4f68911e10e2b18b2"
-source_size_bytes: 3267
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 746
-status: "ok"
----
-
-# Hreanul.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;\*020b0604020202020204Arial;
 
 Times New Roman CE;Times New Roman Cyr;Times New Roman Greek;Times New Roman Tur;

@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Rolul vitaminelor în buna funcționare a organismului uman.gdoc"
-source_relative_path: "Rolul vitaminelor în buna funcționare a organismului uman.gdoc"
-source_pointer_sha256: "15566509ed78d32cd20f58ae644c8b6632d76cc22a9e5479a8e0e8c085e44e36"
-source_pointer_bytes: 181
-google_doc_id: "1zYfSTv0UT4jyDzbG6oeXGvc3UIY_WEo-K8IHGSuPWgE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Rolul vitaminelor în buna funcționare a organismului uman
-
-## Conținut extras
-
 # **Rolul vitaminelor în buna funcționare a organismului uman**
 
 | Vit | Descriere | Efecte secundare posibile |

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Pentru Tuse.docx"
-source_relative_path: "Pentru Tuse.docx"
-source_sha256: "ecee95a8b87fc4da8692d38b253f9fe170c5e07f0bb26632fc8d2eb08d8318e2"
-source_size_bytes: 25756
-source_format: docx
-output_format: markdown
-native_text_characters: 2373
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Pentru Tuse
-
-## Text nativ
-
 Tratament naturist pentru tuse
 
 - Sirop concentrat din muguri de pin
@@ -28,7 +10,7 @@ Tratament naturist pentru tuse
 
 Ingrediente:
 
-– rădăcină şi rizomi de Ciuboţica–cucului–65g
+– rădăcină și rizomi de Ciuboțica–cucului–65g
 
 – rădăcină de Brusture – 54g
 
@@ -42,29 +24,29 @@ Ingrediente:
 
 Mod de preparare:
 
-Se face decoct din rădăcină şi rizomii de Ciuboţica-cucului şi 504ml apă. În timpul fierberii se adaugă bicarbonatul de sodiu. Se strecoară şi se lasă deoparte.
+Se face decoct din rădăcină și rizomii de Ciuboțica-cucului și 504ml apă. În timpul fierberii se adaugă bicarbonatul de sodiu. Se strecoară și se lasă deoparte.
 
-Se face decoct din rădăcina de Brusture şi 336ml apă, după care se strecoară şi se lasă deoparte.
+Se face decoct din rădăcina de Brusture și 336ml apă, după care se strecoară și se lasă deoparte.
 
-Se face infuzie din fructele de Anason zdrobite şi 280ml apă.
+Se face infuzie din fructele de Anason zdrobite și 280ml apă.
 
-Se amestecă cele 3 soluţii şi se adaugă zahărul. Se agită recipientul până la dizolvarea aproape completă a zahărului. Siropul se păstrează la frigider.
+Se amestecă cele 3 soluții și se adaugă zahărul. Se agită recipientul până la dizolvarea aproape completă a zahărului. Siropul se păstrează la frigider.
 
-Acţiuni:
+Acțiuni:
 
-expectorant, fluidifiant al secreţiilor bronşice, diuretice, antispastic.
+expectorant, fluidifiant al secrețiilor bronșice, diuretice, antispastic.
 
-Indicaţii:
+Indicații:
 
-anorexii, disconfort abdominal, dureri abdominale, tuse, colici hepato-biliare. Adjuvant în bronşite, bronhopneumopatii, calculoză biliară.
+anorexii, disconfort abdominal, dureri abdominale, tuse, colici hepato-biliare. Adjuvant în bronșite, bronhopneumopatii, calculoză biliară.
 
 Administrare:
 
-adulţi: 1 – 2 linguri x 3 ori / zi
+adulți: 1 – 2 linguri x 3 ori / zi
 
-copii > 6 ani : ½ – 1 linguriţă x 2 ori / zi
+copii > 6 ani : ½ – 1 linguriță x 2 ori / zi
 
-copii 2 – 5 ani: ½ linguriţă o dată pe zi
+copii 2 – 5 ani: ½ linguriță o dată pe zi
 
 Tratament naturist cu efect antibiotic si antiviral pentru infectiile cailor respiratorii
 
@@ -106,7 +88,7 @@ Tratament naturist cu efect antibiotic si antiviral pentru infectiile cailor res
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

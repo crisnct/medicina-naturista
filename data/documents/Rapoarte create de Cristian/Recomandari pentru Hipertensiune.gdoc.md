@@ -1,34 +1,18 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari pentru Hipertensiune.gdoc"
-source_relative_path: "Recomandari pentru Hipertensiune.gdoc"
-source_pointer_sha256: "80d8b9d7cb91a5797df2ebd75b07abe1241e6b5a7023093f5c9a5db2cc5a6479"
-source_pointer_bytes: 181
-google_doc_id: "1Avv7CZsTV4PE8dcRoUVDiJBul8MzusoG3kvVGlNi66U"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Recomandari pentru Hipertensiune
-
-## Conținut extras
-
 ***Recomandări pentru hipertensiunea arterială***
 
-**Tinctură de obligeană**: 1 lingurită dimineaţa pe stomacul gol
+**Tinctură de obligeană**: 1 lingurită dimineața pe stomacul gol
 
-**Suc de rădăcinoase**: de este posibil, ar fi foarte util ca în fiecare dimineaţă, persoana ce suferă de hipertensiune, să consume o cană de suc de morcovi(70%), rădăcină de ţelină(10%) şi păstârnac(20%), pe stomacul gol.
+**Suc de rădăcinoase**: de este posibil, ar fi foarte util ca în fiecare dimineață, persoana ce suferă de hipertensiune, să consume o cană de suc de morcovi(70%), rădăcină de țelină(10%) și păstârnac(20%), pe stomacul gol.
 
-**Recomandate**: polen, soia, usturoi, cartofi, morcovi, vit A, vit E, vit C, lămâi, măsline nesărate, muştar, banane.
+**Recomandate**: polen, soia, usturoi, cartofi, morcovi, vit A, vit E, vit C, lămâi, măsline nesărate, muștar, banane.
 
 ***Vin medicinal ce vindecă bolile de inimă:***
 
-Se lasă la macerat, timp de 10 zile, 100 gr. praz tocat mărunt într-un litru de vin alb, curat. Se strecoară şi se păstrează la frigider. Se bea câte un păhărel (50 ml) în fiecare dimineaţă, după micul dejun. Acest vin este bun pentru toate bolile de inima inclusiv hipertensiune, ateroscleroza, obezitate.
+Se lasă la macerat, timp de 10 zile, 100 gr. praz tocat mărunt într-un litru de vin alb, curat. Se strecoară și se păstrează la frigider. Se bea câte un păhărel (50 ml) în fiecare dimineață, după micul dejun. Acest vin este bun pentru toate bolile de inima inclusiv hipertensiune, ateroscleroza, obezitate.
 
-**O reţetă pentru vindecarea hipertensiunii:**
+**O rețetă pentru vindecarea hipertensiunii:**
 
-Se face un amestec din: 2 cesti apă, 16 căţei de usturoi tăiaţi mărunt, 2 linguri de oţet de mere şi 3 linguri de miere. Se fierbe totul la foc mic, 1/2 ora. Se iau câte 3 linguri , de 3 ori pe zi, înainte de masă.
+Se face un amestec din: 2 cesti apă, 16 căței de usturoi tăiați mărunt, 2 linguri de oțet de mere și 3 linguri de miere. Se fierbe totul la foc mic, 1/2 ora. Se iau câte 3 linguri , de 3 ori pe zi, înainte de masă.
 
 **De evitat**: **piperul, cafeaua, ceaiul verde, ceaiul negru, sarea in exces**
 
@@ -36,13 +20,13 @@ Se face un amestec din: 2 cesti apă, 16 căţei de usturoi tăiaţi mărunt, 2 
 
 **Ingrediente**:
 
- \- Talpa-gâştii – 41g
+ \- Talpa-gâștii – 41g
 
- – rădăcină de Ghinţură – 13 g
+ – rădăcină de Ghințură – 13 g
 
  – rădăcină de Angelică – 9g
 
- – flori de Coada – şoricelului – 18g
+ – flori de Coada – șoricelului – 18g
 
  – Valeriană – 18g
 
@@ -50,19 +34,19 @@ Se face un amestec din: 2 cesti apă, 16 căţei de usturoi tăiaţi mărunt, 2 
 
 **Mod de preparare:**
 
-Toate ingredientele se pun într-un recipient închis etanş şi se macerează la întuneric şi căldură timp de 14 zile, agitându-se pe fiecare zi. Se strecoară şi se pune în sticluţe de culoare închisă, păstrându-se la răcoare în locuri ferite de lumină. Valabilitatea este de 1 – 2 ani.
+Toate ingredientele se pun într-un recipient închis etanș și se macerează la întuneric și căldură timp de 14 zile, agitându-se pe fiecare zi. Se strecoară și se pune în sticluțe de culoare închisă, păstrându-se la răcoare în locuri ferite de lumină. Valabilitatea este de 1 – 2 ani.
 
-**Acţiuni:**
+**Acțiuni:**
 
 hipotensiv, vasodilatator, sedativ, antiinflamator, antibacterian, antiseptic, imunostimulant.
 
-**Indicaţii:**
+**Indicații:**
 
 tulburări neuro-vegetative, hipertensiune cu substrat nervos, astenie nervoasă, nevroze, tulburări de menopauză. Adjuvant în anorexii, helmintiaze, hemoroizi, enterocolită, abcese dentare.
 
 **Administrare:**
 
-adulţi: 0,5 – 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră şi înainte de culcare.
+adulți: 0,5 – 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră și înainte de culcare.
 copii: 5 – 20 picături x 2 ori / zi. Nu se administrează copiilor cu vârsta mai mică de 3 ani.
 
  După 14 zile de tratament se face pauză de 14 zile, după care se poate relua.

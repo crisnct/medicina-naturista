@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\anti aging sistems1\\neuropatia diabetica.gdoc"
-source_relative_path: "anti aging sistems1\\neuropatia diabetica.gdoc"
-source_pointer_sha256: "38c222b6e5c15eef02e40403542d78d5ac07deec55ee5f38c17bb3d51dcb6978"
-source_pointer_bytes: 181
-google_doc_id: "1P6-amQOuqJcsBKQbNRdDFNUqGh_9MCGoHx7-2Vo9J1A"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# neuropatia diabetica
-
-## Conținut extras
-
 #### **Generalitati**
 
 Neuropatia diabetica reprezinta afectarea nervilor de obicei intalnita in diabet. In timp, hiperglicemia (nivelul crescut al zaharului din sangele pacientilor cu diabet) poate afecta nervii din intregul corp. Exista mai multe tipuri de neuropatie diabetica.

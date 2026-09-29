@@ -8,11 +8,11 @@
 
 [Ingrediente:]{.underline}
 
--- rădăcină de Ghinţură -- 5 linguriţe
+-- rădăcină de Ghințură -- 5 lingurițe
 
--- rizomi de Obligeană -- 5 linguriţe
+-- rizomi de Obligeană -- 5 lingurițe
 
--- Rostopască -- 5 linguriţe
+-- Rostopască -- 5 lingurițe
 
 -- aspirină -- 2 comprimate
 
@@ -22,54 +22,54 @@
 
 [Mod de preparare:]{.underline}
 
-Se face infuzie cu 250ml apă şi 5 lingurițe de rădăcină de Ghinţură. După un sfert de oră se strecoară, se completează cu apă până la 250 ml și se pune ceaiul la fiert cu 5 lingurițe de rădăcină de Ghinţură. Când a dat în clocot, se oprește focul și se acoperă pentru două ore. Se adaugă rizomii de Obligeană şi se lasă la macerat 8 ore după care se strecoară.
+Se face infuzie cu 250ml apă și 5 lingurițe de rădăcină de Ghințură. După un sfert de oră se strecoară, se completează cu apă până la 250 ml și se pune ceaiul la fiert cu 5 lingurițe de rădăcină de Ghințură. Când a dat în clocot, se oprește focul și se acoperă pentru două ore. Se adaugă rizomii de Obligeană și se lasă la macerat 8 ore după care se strecoară.
 
-Se face infuzie cu 100ml apă şi rostopască. După ce s-a răcit se strecoară şi se amestecă cu soluţia preparată anterior. Se adaugă apoi zahărul şi aspirina pisată şi se agită recipientul până la dizolvarea acestora. Siropul se păstrează la frigider. Este recomandat ca siropul să nu fie păstrat mai mult de 2 luni.
+Se face infuzie cu 100ml apă și rostopască. După ce s-a răcit se strecoară și se amestecă cu soluția preparată anterior. Se adaugă apoi zahărul și aspirina pisată și se agită recipientul până la dizolvarea acestora. Siropul se păstrează la frigider. Este recomandat ca siropul să nu fie păstrat mai mult de 2 luni.
 
-[Indicaţii:]{.underline}
+[Indicații:]{.underline}
 
 [anorexii]{.underline}, [colici hepato-biliare]{.underline}, [dischinezie biliara]{.underline}, [enterocolite]{.underline}, helmintiaze, tulburări neuro-vegetative, [gastrite hiperacide]{.underline}, [ulcer gastric]{.underline}, [ulcer duodenal]{.underline}, [disconfort abdominal]{.underline}, [dureri abdominale]{.underline}, [calculoză biliară]{.underline}, dismenoree, ameliorant în bolile aparatului respirator.
 
 [Administrare:]{.underline}
 
-adulţi: 1 linguriţă x 3 ori / zi
+adulți: 1 linguriță x 3 ori / zi
 
-copii: ½ linguriţă x 3 ori / zi
+copii: ½ linguriță x 3 ori / zi
 
 **2.Peritin**
 -------------
 
 [Ingrediente:]{.underline}
 
--- frunze de Merişor -- 36 linguriţe
+-- frunze de Merișor -- 36 lingurițe
 
--- Cimbru/Cimbrişor -- 8 linguriţe
+-- Cimbru/Cimbrișor -- 8 lingurițe
 
--- rădăcină de Nalbă-mare -- 29 linguriţe
+-- rădăcină de Nalbă-mare -- 29 lingurițe
 
 -- apă -- 1130ml
 
--- bicarbonat de sodiu -- 2 linguriţe
+-- bicarbonat de sodiu -- 2 lingurițe
 
 -- zahăr -- 2 linguri
 
 [Mod de preparare:]{.underline}
 
-Se face decoct 15 minute cu 450ml apă şi frunzele de Merişor după care se strecoară şi se lasă deoparte.
+Se face decoct 15 minute cu 450ml apă și frunzele de Merișor după care se strecoară și se lasă deoparte.
 
-Se face infuzie 10 minute cu 330ml apă şi Cimbru, se strecoară şi se lasă deoparte.
+Se face infuzie 10 minute cu 330ml apă și Cimbru, se strecoară și se lasă deoparte.
 
-Se macerează rădăcina de Nalbă-mare în 330ml apă adăugându-se şi bicarbonatul de sodiu, timp de o oră, după care se strecoară şi se lasă deoparte.
+Se macerează rădăcina de Nalbă-mare în 330ml apă adăugându-se și bicarbonatul de sodiu, timp de o oră, după care se strecoară și se lasă deoparte.
 
-Se amestecă cele 3 soluţii şi se adaugă zahărul.
+Se amestecă cele 3 soluții și se adaugă zahărul.
 
-Soluţia se păstrează numai la rece în locuri ferite de lumină şi nu se păstrează mai mult de o lună.
+Soluția se păstrează numai la rece în locuri ferite de lumină și nu se păstrează mai mult de o lună.
 
-[Acţiuni:]{.underline}
+[Acțiuni:]{.underline}
 
 diuretic, bactericid, dezinfectant renal, emolient, antispastic, stimulant hepatic, stimulant gastric, expectorant, antibacterian.
 
-[Indicaţii:]{.underline}
+[Indicații:]{.underline}
 
 nefrită, pielită, uretrită, [cistită]{.underline}, calculoză uretrală, colici renale.
 
@@ -77,28 +77,28 @@ adjuvant în litiază fosfatică, helmintiază, anorexii, tuse, abcese dentare.
 
 [Administrare:]{.underline}
 
-adulţi: 1 -- 2 linguri x 3 ori / zi
+adulți: 1 -- 2 linguri x 3 ori / zi
 
-copii: 1 linguriţă x 2 ori /zi
+copii: 1 linguriță x 2 ori /zi
 
 Nu se administrează copiilor cu vârsta mai mică de 6 ani.
 
 După 12 zile de tratament se face pauză de 7 zile după care se poate relua.
 
-După administrarea soluţiei se stă culcat pe o suprafaţă netedă, cu faţa în sus şi cu genunchii ridicaţi timp de 30 -- 45 minute încercându-se o relaxare profundă.
+După administrarea soluției se stă culcat pe o suprafață netedă, cu fața în sus și cu genunchii ridicați timp de 30 -- 45 minute încercându-se o relaxare profundă.
 
 **3.Taridal**
 -------------
 
 [Ingrediente:]{.underline}
 
-\- Talpa-gâştii -- 41g
+\- Talpa-gâștii -- 41g
 
--- rădăcină de Ghinţură -- 13 g
+-- rădăcină de Ghințură -- 13 g
 
 -- rădăcină de Angelică -- 9g
 
--- flori de Coada -- şoricelului -- 18g
+-- flori de Coada -- șoricelului -- 18g
 
 -- Valeriană -- 18g
 
@@ -106,19 +106,19 @@ După administrarea soluţiei se stă culcat pe o suprafaţă netedă, cu faţa 
 
 [Mod de preparare:]{.underline}
 
-Toate ingredientele se pun într-un recipient închis etanş şi se macerează la întuneric şi căldură timp de 14 zile, agitându-se pe fiecare zi. Se strecoară şi se pune în sticluţe de culoare închisă, păstrându-se la răcoare în locuri ferite de lumină. Valabilitatea este de 1 -- 2 ani.
+Toate ingredientele se pun într-un recipient închis etanș și se macerează la întuneric și căldură timp de 14 zile, agitându-se pe fiecare zi. Se strecoară și se pune în sticluțe de culoare închisă, păstrându-se la răcoare în locuri ferite de lumină. Valabilitatea este de 1 -- 2 ani.
 
-[Acţiuni:]{.underline}
+[Acțiuni:]{.underline}
 
 hipotensiv, vasodilatator, sedativ, antiinflamator, antibacterian, antiseptic, imunostimulant.
 
-[Indicaţii:]{.underline}
+[Indicații:]{.underline}
 
 tulburări neuro-vegetative, [hipertensiune cu substrat nervos]{.underline}, astenie nervoasă, nevroze, tulburări de menopauză. Adjuvant în anorexii, helmintiaze, hemoroizi, enterocolită, abcese dentare.
 
 [Administrare:]{.underline}
 
-adulţi: 0,5 -- 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră şi înainte de culcare.
+adulți: 0,5 -- 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră și înainte de culcare.
 
 copii: 5 -- 20 picături x 2 ori / zi. Nu se administrează copiilor cu vârsta mai mică de 3 ani.
 
@@ -135,36 +135,36 @@ După 14 zile de tratament se face pauză de 14 zile, după care se poate relua.
 
 -- flori de Urzică moartă albă -- 11g
 
--- flori de Coada -- şoricelului -- 30g
+-- flori de Coada -- șoricelului -- 30g
 
--- rădăcină de Ghinţură -- 7g
+-- rădăcină de Ghințură -- 7g
 
 -- alcool 75^o^ -- 500ml
 
 [Mod de preparare:]{.underline}
 
-Toate ingredientele se pun într-un recipient închis etanş şi se macerează la întuneric şi căldură timp de 14 zile agitându-se zilnic.
+Toate ingredientele se pun într-un recipient închis etanș și se macerează la întuneric și căldură timp de 14 zile agitându-se zilnic.
 
-[Indicaţii:]{.underline}
+[Indicații:]{.underline}
 
 tricomonază, toxoplasmoză, dismenoree primară, răni, hemoroizi. Adjuvant în tulburări de menopauză, anorexii, helmintiaze, abcese dentare, tulburări neuro-vegetative, nevroze, astenie nervoasă.
 
 [Administrare:]{.underline}
 
-0,5 -- 1,5ml x 2 ori / zi pe stomacul gol. Soluţia se ia dizolvată în puţină apă.
+0,5 -- 1,5ml x 2 ori / zi pe stomacul gol. Soluția se ia dizolvată în puțină apă.
 
-Se poate folosi şi extern prin spălături locale cu soluţie formată din 1ml Tricodelzin şi 50 -- 100ml apă distilată.
+Se poate folosi și extern prin spălături locale cu soluție formată din 1ml Tricodelzin și 50 -- 100ml apă distilată.
 
 **5.Rinipat**
 -------------
 
 [Ingrediente:]{.underline}
 
--- rădăcină de Măceş -- 33g
+-- rădăcină de Măceș -- 33g
 
 -- frunze de Anghinare -- 30g
 
--- frunze de Merişor -- 30g
+-- frunze de Merișor -- 30g
 
 -- ulei volatil de Eucalipt -- 23ml
 
@@ -174,13 +174,13 @@ Se poate folosi şi extern prin spălături locale cu soluţie formată din 1ml 
 
 [Mod de preparare:]{.underline}
 
-Se face tinctură din toate ingredientele mai puţin uleiul de Eucalipt macerându-se timp de 14 zile. Se strecoară şi se adaugă uleiul. Înainte de folosire se agită bine recipientul.
+Se face tinctură din toate ingredientele mai puțin uleiul de Eucalipt macerându-se timp de 14 zile. Se strecoară și se adaugă uleiul. Înainte de folosire se agită bine recipientul.
 
-[Acţiuni:]{.underline}
+[Acțiuni:]{.underline}
 
-febrifug, antiseptic, antiparazitar, uşor hipertensiv, expectorant, hepatoprotector, antispastic, antibacterian, diuretic.
+febrifug, antiseptic, antiparazitar, ușor hipertensiv, expectorant, hepatoprotector, antispastic, antibacterian, diuretic.
 
-[Indicaţii:]{.underline}
+[Indicații:]{.underline}
 
 [litiază renală]{.underline}, calculoză biliară, colici hepato-biliare, disconfort abdominal, dureri abdominale, hemoroizi, anghină pectorală, ateroscleroză, ateromatoză, anorexii. Adjuvant în boli ale aparatului respirator(în special amigdalită), hipotensiune.
 
@@ -188,7 +188,7 @@ febrifug, antiseptic, antiparazitar, uşor hipertensiv, expectorant, hepatoprote
 
 [Administrare:]{.underline}
 
-adulţi: dimineaţa la ora 6 se iau 15 -- 30 picături, iar seara la ora 6 se iau 20 -- 40 picături. Picăturile se iau cu apă sau ceai cald.
+adulți: dimineața la ora 6 se iau 15 -- 30 picături, iar seara la ora 6 se iau 20 -- 40 picături. Picăturile se iau cu apă sau ceai cald.
 
 În cazul copiilor doza se reduce la jumătate.
 
@@ -209,32 +209,32 @@ După 30 de zile de tratament se va face pauză de 10 zile, după care se reia d
 
 Tinctura 20% se prepară din 20g planta la 100ml alcool 75^o^ -- 85^o^. Se macerează timp de 14 zile, agitându-se recipientul zilnic. De la Armurariu se vor folosi doar fructele.
 
-[Acţiuni:]{.underline}
+[Acțiuni:]{.underline}
 
 hepatotrofic, hepatoprotector, coleretic, colagog, sedativ, antispastic, neurotrofic, anafrodiziac.
 
-[Indicaţii:]{.underline}
+[Indicații:]{.underline}
 
 [colici hepato-biliare]{.underline}, [calculoză biliară]{.underline}, anorexii, tahicardie, dureri abdominale, enterocolite, [hepatite]{.underline}, icter.
 
 Administrare:
 
-adulţi: 0,5 -- 1,2ml x 2 ori / zi înainte de masă, dimineaţa şi la prânz.
+adulți: 0,5 -- 1,2ml x 2 ori / zi înainte de masă, dimineața și la prânz.
 
-copii: 5 -- 15 picături x 2 ori / zi înainte de masă, dimineaţa şi la prânz.
+copii: 5 -- 15 picături x 2 ori / zi înainte de masă, dimineața și la prânz.
 
-Soluţia se ia dizolvată în puţină apă cu zeamă de lămâie(1 linguriţă).
+Soluția se ia dizolvată în puțină apă cu zeamă de lămâie(1 linguriță).
 
-[Obs.]{.underline} O altă modalitate de preparare mai simplă de data aceasta a soluţiei este următoarea: se face tinctură din 18g Rostopască, 18g Valeriană, 24g fructe de Armurariu şi 330ml alcool 85^o^.
+[Obs.]{.underline} O altă modalitate de preparare mai simplă de data aceasta a soluției este următoarea: se face tinctură din 18g Rostopască, 18g Valeriană, 24g fructe de Armurariu și 330ml alcool 85^o^.
 
 După 14 zile de tratament se face pauză de 7 zile după care se reia.
 
-**7.Oţet de măceşe şi ghimbir**
+**7.Oțet de măceșe și ghimbir**
 -------------------------------
 
 Ingrediente:
 
--- vin roşu -- 1600ml
+-- vin roșu -- 1600ml
 
 -- apă -- 1000ml
 
@@ -246,25 +246,25 @@ Ingrediente:
 
 -- coajă uscată de pâine neagră -- 80g
 
--- măceşe uscate -- 250g (sau 700g măceşe proaspete)
+-- măceșe uscate -- 250g (sau 700g măceșe proaspete)
 
--- nucşoară -- 20g
+-- nucșoară -- 20g
 
 -- ghimbir -- 20g
 
 Mod de preparare:
 
-Ingredientele se pun într-un vas cu gura largă; apa trebuie să fie caldă. Vasul se păstrează la întuneric la temperatura camerei timp de 10 zile amestecându-se zilnic cu o lingură de lemn. Apoi se strecoară se adaugă 150g zahăr şi se lasă iar la fermentat la căldură şi întuneric până se finalizează procesul de dospire.
+Ingredientele se pun într-un vas cu gura largă; apa trebuie să fie caldă. Vasul se păstrează la întuneric la temperatura camerei timp de 10 zile amestecându-se zilnic cu o lingură de lemn. Apoi se strecoară se adaugă 150g zahăr și se lasă iar la fermentat la căldură și întuneric până se finalizează procesul de dospire.
 
-Acţiuni:
+Acțiuni:
 
-neurotrofic, hipertensiv, colagog, imunostimulant, accelerarea digestiei, uşor laxativ, antiseptic, neutralizarea unor toxine, astringent.
+neurotrofic, hipertensiv, colagog, imunostimulant, accelerarea digestiei, ușor laxativ, antiseptic, neutralizarea unor toxine, astringent.
 
-Indicaţii:
+Indicații:
 
-anorexii, digestie lentă, constipaţie, hipotensiune, dischinezie biliară, afecţiuni vasculare. Adjuvant în diabet zaharat dacă zahărul la prepararea oţetului este înlocuit cu miere de tei.
+anorexii, digestie lentă, constipație, hipotensiune, dischinezie biliară, afecțiuni vasculare. Adjuvant în diabet zaharat dacă zahărul la prepararea oțetului este înlocuit cu miere de tei.
 
-Contraindicaţii: hipertensiune arterială, tahicardie.
+Contraindicații: hipertensiune arterială, tahicardie.
 
 Administrare:
 
@@ -272,16 +272,16 @@ Se poate pune la salate sau se poate lua dizolvat în apă.
 
 Doza recomandată este de o lingură pe zi. Doza maximă este de 4 linguri pe zi.
 
-**8.Oţet din fructe de pădure**
+**8.Oțet din fructe de pădure**
 -------------------------------
 
 Ingrediente:
 
 -- porumbe -- 1kg
 
--- măceşe proaspete -- 1kg
+-- măceșe proaspete -- 1kg
 
--- corcoduşe -- 500g
+-- corcodușe -- 500g
 
 -- gherghine -- 500g
 
@@ -295,17 +295,17 @@ Ingrediente:
 
 Mod de preparare:
 
-Ingredientele se pun într-un vas cu gura largă; apa trebuie să fie caldă(fiartă în prealabil).Vasul se păstrează la întuneric la temperatura camerei timp de 10 zile amestecându-se zilnic cu o lingură de lemn. Apoi se strecoară se adaugă 300g zahăr şi se lasă iar la fermentat la căldură şi întuneric până se finalizează procesul de dospire. Se strecoară şi se păstrează în sticle de culoare închisă la răcoare în locuri ferite de lumină.
+Ingredientele se pun într-un vas cu gura largă; apa trebuie să fie caldă(fiartă în prealabil).Vasul se păstrează la întuneric la temperatura camerei timp de 10 zile amestecându-se zilnic cu o lingură de lemn. Apoi se strecoară se adaugă 300g zahăr și se lasă iar la fermentat la căldură și întuneric până se finalizează procesul de dospire. Se strecoară și se păstrează în sticle de culoare închisă la răcoare în locuri ferite de lumină.
 
-Acţiuni:
+Acțiuni:
 
-antidiareic, antiseptic, diuretic, uşor laxativ, astringent, antispastic.
+antidiareic, antiseptic, diuretic, ușor laxativ, astringent, antispastic.
 
-Indicaţii:
+Indicații:
 
-anorexii, colită, dureri intestinale, afecţiuni vasculare. Adjuvant în bolile aparatului respirator.
+anorexii, colită, dureri intestinale, afecțiuni vasculare. Adjuvant în bolile aparatului respirator.
 
-Contraindicaţii: hipertensiune arterială, tahicardie.
+Contraindicații: hipertensiune arterială, tahicardie.
 
 Administrare:
 
@@ -318,9 +318,9 @@ Doza recomandată este de o lingură pe zi. Doza maximă este de 3 linguri pe zi
 
 Ingrediente:
 
--- rădăcină de Nalbă-mare -- 28 linguriţe
+-- rădăcină de Nalbă-mare -- 28 lingurițe
 
--- Rostopască -- 3 linguriţe
+-- Rostopască -- 3 lingurițe
 
 -- apă -- 700ml
 
@@ -330,30 +330,30 @@ Ingrediente:
 
 Mod de preparare:
 
-Se face infuzie cu 60ml apă şi Rostopască, după care se strecoară şi se lasă deoparte.
+Se face infuzie cu 60ml apă și Rostopască, după care se strecoară și se lasă deoparte.
 
-Se pun la macerat rădăcina de Nalbă şi bicarbonatul de sodiu în 640ml apă. Se macerează timp de o oră după care se strecoară, se amestecă cu prima soluţie şi cu restul ingredientelor. Siropul obţinut se păstrează la frigider. Se recomandă a se păstra maxim 2 luni.
+Se pun la macerat rădăcina de Nalbă și bicarbonatul de sodiu în 640ml apă. Se macerează timp de o oră după care se strecoară, se amestecă cu prima soluție și cu restul ingredientelor. Siropul obținut se păstrează la frigider. Se recomandă a se păstra maxim 2 luni.
 
-Acţiuni:
+Acțiuni:
 
 antitusiv, emolient, hepatotrofic, antihepatotoxic.
 
-Indicaţii:
+Indicații:
 
-abcese dentare, tuse seacă, răguşeală, dischinezie biliară. Adjuvant în bronhopneumopatii, calculoză biliară, pielite, uretrite, cistite, dismenoree primară.
+abcese dentare, tuse seacă, răgușeală, dischinezie biliară. Adjuvant în bronhopneumopatii, calculoză biliară, pielite, uretrite, cistite, dismenoree primară.
 
 Administrare:
 
-adulţi: 1 -- 2 linguri x 3 ori / zi
+adulți: 1 -- 2 linguri x 3 ori / zi
 
-copii: 1 -- 2 linguriţe x 3 ori / zi
+copii: 1 -- 2 lingurițe x 3 ori / zi
 
 **10.Sitopec**
 --------------
 
 Ingrediente:
 
--- rădăcină şi rizomi de Ciuboţica -- cucului -- 65g
+-- rădăcină și rizomi de Ciuboțica -- cucului -- 65g
 
 -- rădăcină de Brusture -- 54g
 
@@ -367,36 +367,36 @@ Ingrediente:
 
 Mod de preparare:
 
-Se face decoct din rădăcină şi rizomii de Ciuboţica-cucului şi 504ml apă. În timpul fierberii se adaugă bicarbonatul de sodiu. Se strecoară şi se lasă deoparte.
+Se face decoct din rădăcină și rizomii de Ciuboțica-cucului și 504ml apă. În timpul fierberii se adaugă bicarbonatul de sodiu. Se strecoară și se lasă deoparte.
 
-Se face decoct din rădăcina de Brusture şi 336ml apă, după care se strecoară şi se lasă deoparte.
+Se face decoct din rădăcina de Brusture și 336ml apă, după care se strecoară și se lasă deoparte.
 
-Se face infuzie din fructele de Anason zdrobite şi 280ml apă.
+Se face infuzie din fructele de Anason zdrobite și 280ml apă.
 
-Se amestecă cele 3 soluţii şi se adaugă zahărul. Se agită recipientul până la dizolvarea aproape completă a zahărului. Siropul se păstrează la frigider.
+Se amestecă cele 3 soluții și se adaugă zahărul. Se agită recipientul până la dizolvarea aproape completă a zahărului. Siropul se păstrează la frigider.
 
-Acţiuni:
+Acțiuni:
 
-expectorant, fluidifiant al secreţiilor bronşice, diuretice, antispastic.
+expectorant, fluidifiant al secrețiilor bronșice, diuretice, antispastic.
 
-Indicaţii:
+Indicații:
 
-anorexii, disconfort abdominal, dureri abdominale, [tuse]{.underline}, colici hepato-biliare. Adjuvant în bronşite, bronhopneumopatii, calculoză biliară.
+anorexii, disconfort abdominal, dureri abdominale, [tuse]{.underline}, colici hepato-biliare. Adjuvant în bronșite, bronhopneumopatii, calculoză biliară.
 
 Administrare:
 
-adulţi: 1 -- 2 linguri x 3 ori / zi
+adulți: 1 -- 2 linguri x 3 ori / zi
 
-copii \> 6 ani : ½ -- 1 linguriţă x 2 ori / zi
+copii \> 6 ani : ½ -- 1 linguriță x 2 ori / zi
 
-copii 2 -- 5 ani: ½ linguriţă o dată pe zi
+copii 2 -- 5 ani: ½ linguriță o dată pe zi
 
 **1****1.Astripec**
 -------------------
 
 Ingrediente:
 
--- rădăcină şi rizomi de Ciuboţică -- cucului -- 5g
+-- rădăcină și rizomi de Ciuboțică -- cucului -- 5g
 
 -- fructe de Fenicul -- 5g
 
@@ -408,34 +408,34 @@ Ingrediente:
 
 Mod de preparare:
 
-Se face tinctură din rădăcinile şi rizomii de Ciuboţica -- cucului şi fructele zdrobite de Fenicul.
+Se face tinctură din rădăcinile și rizomii de Ciuboțica -- cucului și fructele zdrobite de Fenicul.
 
-Gutuile se dau prin răzătoare şi se fierb în vin timp de 15 -- 20 minute . Se lasă să se răcească după care se strecoară şi se amestecă cu tinctura.
+Gutuile se dau prin răzătoare și se fierb în vin timp de 15 -- 20 minute . Se lasă să se răcească după care se strecoară și se amestecă cu tinctura.
 
-Soluţia obţinută se pune în sticle de culoare închisă şi se păstrează la răcoare în locuri ferite de lumină.
+Soluția obținută se pune în sticle de culoare închisă și se păstrează la răcoare în locuri ferite de lumină.
 
-Acţiuni:
+Acțiuni:
 
-astringent, expectorant, fluidifiant al secreţiilor bronşice, diuretic, antispastic, emolient.
+astringent, expectorant, fluidifiant al secrețiilor bronșice, diuretic, antispastic, emolient.
 
-Indicaţii:
+Indicații:
 
-anorexie, [tuse]{.underline}, disconfort abdominal, dureri abdominale, amigdalită, faringită, stomatită. Adjuvant în bronşite, bronhopneumopatii.
+anorexie, [tuse]{.underline}, disconfort abdominal, dureri abdominale, amigdalită, faringită, stomatită. Adjuvant în bronșite, bronhopneumopatii.
 
 Administrare:
 
-adulţi: o lingură de trei ori pe zi
+adulți: o lingură de trei ori pe zi
 
-copii: o linguriţă de trei ori pe zi
+copii: o linguriță de trei ori pe zi
 
 **12.Fitovit 7**
 ----------------
 
 Ingrediente:
 
--- rădăcină de Ghinţură -- 16g
+-- rădăcină de Ghințură -- 16g
 
-> -- flori de Coada -- şoricelului -- 12g
+> -- flori de Coada -- șoricelului -- 12g
 >
 > -- frunze de Salvie -- 19g
 >
@@ -453,33 +453,33 @@ Mod de preparare:
 
 Se face tinctură din ingredientele de mai sus, macerându-se timp de 24 zile.
 
-Acţiuni:
+Acțiuni:
 
 imunostimulant, expectorant, hepatoprotector, antibacterian, antiinflamator, antispastic, carminativ.
 
-Indicaţii:
+Indicații:
 
-[anorexie]{.underline}, [helmintiaze]{.underline}, [tulburări neuro-vegetative]{.underline}, tulburări de menopauză, diaree, dizenterie, hemoroizi, [dureri abdominale]{.underline}, [disconfort abdominal]{.underline}, enterocolite, calculoză biliară, dischinezie biliară, [amigdalită]{.underline}, [abcese dentare]{.underline}, gingivite, dismenoree, [uretrite]{.underline}. Adjuvant în bronhopneumopatii, astm bronşic, diabet zaharat.
+[anorexie]{.underline}, [helmintiaze]{.underline}, [tulburări neuro-vegetative]{.underline}, tulburări de menopauză, diaree, dizenterie, hemoroizi, [dureri abdominale]{.underline}, [disconfort abdominal]{.underline}, enterocolite, calculoză biliară, dischinezie biliară, [amigdalită]{.underline}, [abcese dentare]{.underline}, gingivite, dismenoree, [uretrite]{.underline}. Adjuvant în bronhopneumopatii, astm bronșic, diabet zaharat.
 
 Administrare:
 
-- Helmintiaze: 1,5 -- 3ml x 3 ori / zi pe stomacul gol. Soluţia se ia dizolvată în puţină apă. După 5 zile de tratament dacă paraziţii intestinali nu au fost eliminaţi, se continuă tratamentul dar cu o doză de 1ml x 3 ori /zi.
+- Helmintiaze: 1,5 -- 3ml x 3 ori / zi pe stomacul gol. Soluția se ia dizolvată în puțină apă. După 5 zile de tratament dacă paraziții intestinali nu au fost eliminați, se continuă tratamentul dar cu o doză de 1ml x 3 ori /zi.
 
-- Amigdalită: se face gargară cu soluţie preparată din 2ml Fitovit şi 50 ml apă caldă de 3 ori pe zi. Pentru uz intern se va lua 1ml de 3 ori pe zi în cazul adulţilor şi 0,5 ml de 3 ori pe zi în cazul copiilor.
+- Amigdalită: se face gargară cu soluție preparată din 2ml Fitovit și 50 ml apă caldă de 3 ori pe zi. Pentru uz intern se va lua 1ml de 3 ori pe zi în cazul adulților și 0,5 ml de 3 ori pe zi în cazul copiilor.
 
-- Anorexie, dureri abdominale, disconfort abdominal, enterocolită, diaree, dizenterie: se ia numai la nevoie 2ml în cazul adulţilor şi 1ml în cazul copiilor. Nu se va depăşi numărul de 3 doze pe zi.
+- Anorexie, dureri abdominale, disconfort abdominal, enterocolită, diaree, dizenterie: se ia numai la nevoie 2ml în cazul adulților și 1ml în cazul copiilor. Nu se va depăși numărul de 3 doze pe zi.
 
 - Tulburări neuro-vegetative, tulburări de menopauză, hemoroizi: 1ml x 3 ori / zi. După o lună de tratament se face pauză de 10 zile după care se poate relua.
 
-- Bronhopneumopatii, astm bronşic, calculoză biliară, dischinezie biliară, dismenoree, uretrite: adulţii vor lua 1ml de 3 ori pe zi iar copiii 0,5ml de 2 ori pe zi. După 3 săptămâni de tratament se face pauză de 7 zile după care se poate relua.
+- Bronhopneumopatii, astm bronșic, calculoză biliară, dischinezie biliară, dismenoree, uretrite: adulții vor lua 1ml de 3 ori pe zi iar copiii 0,5ml de 2 ori pe zi. După 3 săptămâni de tratament se face pauză de 7 zile după care se poate relua.
 
-*Atenţie*: Dacă se constată că Fitovit 7 provoacă neplăceri atunci se va reduce doza la jumătate.
+*Atenție*: Dacă se constată că Fitovit 7 provoacă neplăceri atunci se va reduce doza la jumătate.
 
 O doză de 2ml Fitovit 7 este echivalentă cu :
 
--- tinctură 20% de Ghinţură -- 0,3ml ≈ 13 picături
+-- tinctură 20% de Ghințură -- 0,3ml ≈ 13 picături
 
--- tinctură 20% de Coada -- şoricelului -- 0,23 ml ≈ 10 picături
+-- tinctură 20% de Coada -- șoricelului -- 0,23 ml ≈ 10 picături
 
 -- tinctură 20% de Salvie -- 0,4ml ≈ 16 picături
 
@@ -498,11 +498,11 @@ Ingrediente:
 
 -- Busuioc de câmp -- 30g
 
--- Şofran pur -- 0,1g
+-- Șofran pur -- 0,1g
 
 -- Cimbru de cultură -- 10g
 
-\- Talpa-gâştii -- 30g
+\- Talpa-gâștii -- 30g
 
 -- Ghiocel -- 25g
 
@@ -512,19 +512,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Toate plantele uscate şi mărunţite se macerează cu alcoolul şi zeama de lămâie timp de 14 zile la căldură într-un loc ferit de lumină. Zilnic se agită recipientul.
+Toate plantele uscate și mărunțite se macerează cu alcoolul și zeama de lămâie timp de 14 zile la căldură într-un loc ferit de lumină. Zilnic se agită recipientul.
 
-Apoi se strecoară şi se pune în sticluţe de culoare închisă.
+Apoi se strecoară și se pune în sticluțe de culoare închisă.
 
-Indicaţii:
+Indicații:
 
 tumori abdominale, carcinom esofagian, tumori digestive, tumori de rinichi, tumori de ficat, cancer de sân, cancer uterin.
 
-Unele plante din compoziţia preparatului sunt specificate în medicina tradiţională chinezească şi tibetană ca fiind remedii antitumorale. [Ghiocelul]{.underline} este utilizat în medicina tradiţională chineză în tratamentul unor forme de cancer. El conţine foarte mulţi alcaloizi care sunt extraşi mai uşor cu ajutorul acidului citric din zeama de lămâie. [Busuiocul de]{.underline} [câmp]{.underline} figurează, într-o ediţie mai veche a farmacopei tradiţionale chineze apărută înainte de Christos, pe lista plantelor indicate în tratamentul cancerului de esofag şi stomac. [Şofranul]{.underline} este specificat în medicina tradiţională din Extremul Orient ca făcând parte din tratamentul tumorilor abdominale, de ficat, de rinichi, cancer de sân şi cel uterin. [Talpa-gâştii]{.underline} este utilizată în medicina tradiţională tibetană, în tratarea cancerului mamar. [Cimbrul de cultură]{.underline} este util în special în cazul tumorilor digestive.
+Unele plante din compoziția preparatului sunt specificate în medicina tradițională chinezească și tibetană ca fiind remedii antitumorale. [Ghiocelul]{.underline} este utilizat în medicina tradițională chineză în tratamentul unor forme de cancer. El conține foarte mulți alcaloizi care sunt extrași mai ușor cu ajutorul acidului citric din zeama de lămâie. [Busuiocul de]{.underline} [câmp]{.underline} figurează, într-o ediție mai veche a farmacopei tradiționale chineze apărută înainte de Christos, pe lista plantelor indicate în tratamentul cancerului de esofag și stomac. [Șofranul]{.underline} este specificat în medicina tradițională din Extremul Orient ca făcând parte din tratamentul tumorilor abdominale, de ficat, de rinichi, cancer de sân și cel uterin. [Talpa-gâștii]{.underline} este utilizată în medicina tradițională tibetană, în tratarea cancerului mamar. [Cimbrul de cultură]{.underline} este util în special în cazul tumorilor digestive.
 
 Administrare:
 
-Doza se stabileşte individual în funcţie de organismul şi evoluţia fiecărui bolnav.
+Doza se stabilește individual în funcție de organismul și evoluția fiecărui bolnav.
 
 doza minimă: 0,2ml (≈ 8 picături) x 2 ori / zi
 
@@ -545,27 +545,27 @@ Ingrediente:
 
 -- frunze de Podbal -- 20g
 
--- frunze de Conduraşi (Călţunaşi) -- 25g
+-- frunze de Condurași (Călțunași) -- 25g
 
--- Şofran pur -- 0,1g
+-- Șofran pur -- 0,1g
 
 -- alcool 85^o^ -- 500ml
 
--- oţet alimentar 9^o\ --^ 75ml
+-- oțet alimentar 9^o\ --^ 75ml
 
 Mod de preparare:
 
-Se macerează cimbrul de cultură în oţet alimentar timp de 7 zile într-un vas închis etanş, la căldură într-un loc ferit de lumină. Se adaugă apoi restul plantelor şi alcoolul şi se continuă maceraţia timp de 14 zile agitându-se zilnic. Se strecoară şi se pune în sticluţe de culoare închisă păstrându-se la întuneric.
+Se macerează cimbrul de cultură în oțet alimentar timp de 7 zile într-un vas închis etanș, la căldură într-un loc ferit de lumină. Se adaugă apoi restul plantelor și alcoolul și se continuă macerația timp de 14 zile agitându-se zilnic. Se strecoară și se pune în sticluțe de culoare închisă păstrându-se la întuneric.
 
-Indicaţii:
+Indicații:
 
 tumorile glandei tiroide, cancer mamar, tumori abdominale, tumori digestive, tumori de ficat, cancer pulmonar.
 
-Rădăcina de Iarbă -- mare se utilizează în China la tratarea tumorilor glandei tiroide. Tot în farmacopeea chineză se află specificat faptul că Stânjenelul este util în diverse tumori, iar Podbalul este folosit în tratamentul pentru cancerul pulmonar. Planta denumită Conduraşi este folosită în medicina tradiţională chineză şi indiană, în tratamentul unor diverse tipuri de cancer.
+Rădăcina de Iarbă -- mare se utilizează în China la tratarea tumorilor glandei tiroide. Tot în farmacopeea chineză se află specificat faptul că Stânjenelul este util în diverse tumori, iar Podbalul este folosit în tratamentul pentru cancerul pulmonar. Planta denumită Condurași este folosită în medicina tradițională chineză și indiană, în tratamentul unor diverse tipuri de cancer.
 
 Administrare:
 
-Doza se stabileşte individual în funcţie de organismul şi evoluţia fiecărui bolnav.
+Doza se stabilește individual în funcție de organismul și evoluția fiecărui bolnav.
 
 doza minimă: 0,2ml (≈ 8 picături) x 2 ori / zi
 
@@ -578,9 +578,9 @@ După o lună de tratament se face pauză de 10 zile după care se reia dacă es
 
 Ingrediente:
 
--- coji uscate de struguri roşii -- 30g
+-- coji uscate de struguri roșii -- 30g
 
--- sâmburi măcinaţi de struguri roşii -- 20g
+-- sâmburi măcinați de struguri roșii -- 20g
 
 \- frunze de Anghinare -- 30g
 
@@ -590,19 +590,19 @@ Mod de preparare:
 
 Se face tinctură din toate ingredientele, macerându-se timp de 21 zile.
 
-Acţiuni:
+Acțiuni:
 
-scade colesterolul L.D.L. (colesterolul aşa zis "rău"), creste colesterolul H.D.L. (colesterolul aşa zis "bun"), hepatoprotector, colagog, antispastic, antioxidant puternic, diuretic, coleretic.
+scade colesterolul L.D.L. (colesterolul așa zis "rău"), creste colesterolul H.D.L. (colesterolul așa zis "bun"), hepatoprotector, colagog, antispastic, antioxidant puternic, diuretic, coleretic.
 
-În anul 1980 s-a demonstrat ştiinţific faptul că sâmburii şi cojile de struguri roşii, sub formă de extracte duc la scăderea colesterolului din sânge. Aceasta se datorează antioxidanţilor puternici (mai ales resveratrolului) care cresc concentraţia de H.D.L. şi scad concentraţia de L.D.L. Resveratrolul este un foarte puternic antioxidant, fiind de 20 -- 50 ori mai puternic decât vitamina E (cunoscută în special pentru acţiunea sa antioxidantă). Cercetătorii au ajuns la un consens în privinţa cantităţii de vin roşu recomandate zilnic în scop terapeutic. Astfel o cantitate de 100 -- 500ml pe zi nu îi dăunează sănătăţii, ci îi ajută, ducând la scăderea colesterolului L.D.L. şi încetinind procesele de oxidare din organism. Cel mai indicat este a se folosi vinul negru deoarece conţine o cantitate mai mare de antioxidanţi. Dar pentru a obţine rezultate, este recomandat a se urma tratamentul o perioadă mai îndelungată de timp (în acest caz cantitatea maximă care se va folosi zilnic va fi de 200ml).
+În anul 1980 s-a demonstrat științific faptul că sâmburii și cojile de struguri roșii, sub formă de extracte duc la scăderea colesterolului din sânge. Aceasta se datorează antioxidanților puternici (mai ales resveratrolului) care cresc concentrația de H.D.L. și scad concentrația de L.D.L. Resveratrolul este un foarte puternic antioxidant, fiind de 20 -- 50 ori mai puternic decât vitamina E (cunoscută în special pentru acțiunea sa antioxidantă). Cercetătorii au ajuns la un consens în privința cantității de vin roșu recomandate zilnic în scop terapeutic. Astfel o cantitate de 100 -- 500ml pe zi nu îi dăunează sănătății, ci îi ajută, ducând la scăderea colesterolului L.D.L. și încetinind procesele de oxidare din organism. Cel mai indicat este a se folosi vinul negru deoarece conține o cantitate mai mare de antioxidanți. Dar pentru a obține rezultate, este recomandat a se urma tratamentul o perioadă mai îndelungată de timp (în acest caz cantitatea maximă care se va folosi zilnic va fi de 200ml).
 
-Indicaţii:
+Indicații:
 
-[ateroscleroză]{.underline}, anghină pectorală, obezitate, dureri abdominale, hipertensiune, anorexie, enterocolite, [dischinezie biliară]{.underline}, [creşterea colesterolului L.D.L]{.underline}, boli diareice.
+[ateroscleroză]{.underline}, anghină pectorală, obezitate, dureri abdominale, hipertensiune, anorexie, enterocolite, [dischinezie biliară]{.underline}, [creșterea colesterolului L.D.L]{.underline}, boli diareice.
 
 Administrare:
 
-10 -- 30 picături x 2 ori / zi înainte de masă. Soluţia se ia cu 50ml vin negru şi o linguriţă de zeamă de lămâie. În hipertensiune vinul se va înlocui cu apă îndulcită cu miere de tei.
+10 -- 30 picături x 2 ori / zi înainte de masă. Soluția se ia cu 50ml vin negru și o linguriță de zeamă de lămâie. În hipertensiune vinul se va înlocui cu apă îndulcită cu miere de tei.
 
 După o lună de tratament se face pauză de 10 zile după care se poate relua.
 
@@ -611,7 +611,7 @@ După o lună de tratament se face pauză de 10 zile după care se poate relua.
 
 Ingrediente:
 
--- rădăcină de Ghinţură -- 7g
+-- rădăcină de Ghințură -- 7g
 
 -- rizomi de Obligeană -- 10g
 
@@ -625,21 +625,21 @@ Mod de preparare:
 
 Se face tinctură din toate ingredientele.
 
-Acţiuni:
+Acțiuni:
 
 hepatoprotector, hipocolesterolemiant, antibacterian, antihelmintic, antidiareic, antiseptic.
 
-Indicaţii:
+Indicații:
 
 [enterocolite]{.underline}, [boli diareice]{.underline}, [diaree acută]{.underline}, boli cronice digestive, balonări, dureri abdominale, [anorexie]{.underline}, tulburări neuro-vegetative, colici hepato-biliare, helmintiaze, gastrite hiperacide, ulcer gastric. Adjuvant în bolile aparatului genital feminin.
 
 Administrare:
 
-adulţi: 10 -- 50 picături x 3 ori / zi
+adulți: 10 -- 50 picături x 3 ori / zi
 
 copii: 5 -- 20 picături x 3 ori / zi
 
-Soluţia se ia dizolvată în puţină apă şi nu se administrează copiilor cu vârsta mai mică de un an. În cazul unor dureri puternice de stomac sau intestine doza se poate dubla dacă se constată că nu este eficientă.
+Soluția se ia dizolvată în puțină apă și nu se administrează copiilor cu vârsta mai mică de un an. În cazul unor dureri puternice de stomac sau intestine doza se poate dubla dacă se constată că nu este eficientă.
 
 După 14 zile de tratament se face pauză de 7 zile după care se poate relua.
 
@@ -648,11 +648,11 @@ După 14 zile de tratament se face pauză de 7 zile după care se poate relua.
 
 Ingrediente:
 
--- coajă de Cruşin -- 15 linguriţe
+-- coajă de Crușin -- 15 lingurițe
 
--- rădăcină de Cicoare -- 15 linguriţe
+-- rădăcină de Cicoare -- 15 lingurițe
 
--- fructe de Chimion -- 10 linguriţe
+-- fructe de Chimion -- 10 lingurițe
 
 -- apă -- 1kg
 
@@ -662,27 +662,27 @@ Ingrediente:
 
 Mod de preparare:
 
-Se pune apa la fiert. Când începe să fiarbă se adaugă coaja de Cruşin. După 10 minute se adaugă rădăcina de Cicoare şi se continuă fierberea încă 10 minute. Se ia de pe foc, se adaugă fructele de Chimion şi se acoperă vasul pentru 30 minute.
+Se pune apa la fiert. Când începe să fiarbă se adaugă coaja de Crușin. După 10 minute se adaugă rădăcina de Cicoare și se continuă fierberea încă 10 minute. Se ia de pe foc, se adaugă fructele de Chimion și se acoperă vasul pentru 30 minute.
 
-Se strecoară şi se adaugă zahărul şi aspirina pisată, agitându-se recipientul până la dizolvarea acestora.
+Se strecoară și se adaugă zahărul și aspirina pisată, agitându-se recipientul până la dizolvarea acestora.
 
-Acţiuni:
+Acțiuni:
 
 laxativ, carminativ, antispastic, colagog, coleretic, anorexigen.
 
-Indicaţii:
+Indicații:
 
-[constipaţie]{.underline}, [constipaţie cronică]{.underline}, dischinezie biliară, dureri abdominale, disconfort abdominal. Adjuvant în bronşite, afecţiuni ale aparatului genital feminin.
+[constipație]{.underline}, [constipație cronică]{.underline}, dischinezie biliară, dureri abdominale, disconfort abdominal. Adjuvant în bronșite, afecțiuni ale aparatului genital feminin.
 
-Contraindicaţii: cancer de colon, colon iritabil.
+Contraindicații: cancer de colon, colon iritabil.
 
 Administrare:
 
-adulţi: 1-4 linguriţe x 3 ori / zi
+adulți: 1-4 lingurițe x 3 ori / zi
 
-copii: 1-2 linguriţe x 2 ori / zi
+copii: 1-2 lingurițe x 2 ori / zi
 
-După 7 zile de tratament se face pauză de 21 zile după care se poate relua. Nu se administrează copiilor sub 1 an. Se va administra cu prudenţă la copiii cu vârsta cuprinsă între 1 şi 4 ani.
+După 7 zile de tratament se face pauză de 21 zile după care se poate relua. Nu se administrează copiilor sub 1 an. Se va administra cu prudență la copiii cu vârsta cuprinsă între 1 și 4 ani.
 
 **18.Septigal**
 ---------------
@@ -693,9 +693,9 @@ Ingrediente:
 
 -- rădăcină de Valeriană -- 10g
 
-\- Talpa-gâştii -- 30g
+\- Talpa-gâștii -- 30g
 
--- rădăcină de Ghinţură -- 15g
+-- rădăcină de Ghințură -- 15g
 
 -- rădăcină de Iarbă -- mare -- 15g
 
@@ -705,13 +705,13 @@ Mod de preparare:
 
 Se face tinctură cu toate ingredientele, macerându-se timp de 21 zile.
 
-Acţiuni:
+Acțiuni:
 
 sedativ, anafrodiziac, antispastic, hipotensiv, antiemetic, antibacterian.
 
-Indicaţii:
+Indicații:
 
-anorexie, alcoolism, [nevroze]{.underline}, [palpitaţii]{.underline}, [tahicardie]{.underline}, [insomnii]{.underline}, [stări de nervozitate]{.underline}, [hipersensiblitate motorie şi senzorială]{.underline}, stări de vomă, dureri abdominale, tulburări de menopauză. Adjuvant în dischinezie biliară, helmintiaze, hipertensiune.
+anorexie, alcoolism, [nevroze]{.underline}, [palpitații]{.underline}, [tahicardie]{.underline}, [insomnii]{.underline}, [stări de nervozitate]{.underline}, [hipersensiblitate motorie și senzorială]{.underline}, stări de vomă, dureri abdominale, tulburări de menopauză. Adjuvant în dischinezie biliară, helmintiaze, hipertensiune.
 
 Administrare:
 
@@ -722,11 +722,11 @@ Administrare:
 
 Ingrediente:
 
--- flori şi frunze de Păducel -- 20g
+-- flori și frunze de Păducel -- 20g
 
 -- fructe de Anason -- 20g
 
--- frunze de Roiniţă -- 15g
+-- frunze de Roiniță -- 15g
 
 -- fructe de Coriandru -- 20g
 
@@ -740,19 +740,19 @@ Mod de preparare:
 
 Se face tinctură, macerându-se timp de 21 zile.
 
-Acţiuni:
+Acțiuni:
 
 hipolimepiant, hipocolesterolemiant, cardiotonic, neurotrofic, antiemetic, antispastic, coleretic, expectorant, imunostimulant, carminativ, antibacterian.
 
-Indicaţii:
+Indicații:
 
-hipotensiune, [insuficienţă cardiacă]{.underline}, [insuficienţă circulatorie]{.underline}, angină pectorală, [tulburări de menopauză]{.underline}, stări de vomă, [disconfort abdominal]{.underline}, dureri abdominale, dischinezie biliară, dismenoree, endometrite, amenoree, [tulburări de ciclu]{.underline}, bronşite, bronhopneumopatii, ulcer gastric, ulcer duodenal, constipaţie, helmintiaze, [astenie]{.underline} [nervoasă]{.underline}, nevroză gastrică, ateromatoză.
+hipotensiune, [insuficiență cardiacă]{.underline}, [insuficiență circulatorie]{.underline}, angină pectorală, [tulburări de menopauză]{.underline}, stări de vomă, [disconfort abdominal]{.underline}, dureri abdominale, dischinezie biliară, dismenoree, endometrite, amenoree, [tulburări de ciclu]{.underline}, bronșite, bronhopneumopatii, ulcer gastric, ulcer duodenal, constipație, helmintiaze, [astenie]{.underline} [nervoasă]{.underline}, nevroză gastrică, ateromatoză.
 
-Contraindicaţii: hipertensiune arterială, stări de excitabilitate nervoasă.
+Contraindicații: hipertensiune arterială, stări de excitabilitate nervoasă.
 
 Administrare:
 
-În primele 3 -- 4 zile de tratament se vor lua 10 -- 20 picături de două ori pe zi. Apoi se vor lua 0,5 -- 1,5 ml (≈ 20 -- 60 picături) de două ori pe zi. Soluţia se ia dizolvată în puţin vin negru sau apă îndulcită cu miere.
+În primele 3 -- 4 zile de tratament se vor lua 10 -- 20 picături de două ori pe zi. Apoi se vor lua 0,5 -- 1,5 ml (≈ 20 -- 60 picături) de două ori pe zi. Soluția se ia dizolvată în puțin vin negru sau apă îndulcită cu miere.
 
 După o lună de tratament se va face pauză de 7 zile după care se reia.
 
@@ -769,25 +769,25 @@ Ingrediente:
 
 -- ulei de dovleac -- 62g
 
--- ulei de rapiţă / luminiţă / nuci -- 17g
+-- ulei de rapiță / luminiță / nuci -- 17g
 
 Mod de preparare:
 
-Se amestecă toate uleiurile şi se agită bine recipientul. Toate uleiurile trebuie să fie obţinute prin presare la rece.
+Se amestecă toate uleiurile și se agită bine recipientul. Toate uleiurile trebuie să fie obținute prin presare la rece.
 
-Indicaţii:
+Indicații:
 
-rahitism, astenie nervoasă, tulburări de ciclu, afecţiuni ale aparatului genital, hiperexcitabilitate nervoasă, ten aspru, disfuncţii hepato-biliare, hipovitaminozele E, D, B~17~, F.
+rahitism, astenie nervoasă, tulburări de ciclu, afecțiuni ale aparatului genital, hiperexcitabilitate nervoasă, ten aspru, disfuncții hepato-biliare, hipovitaminozele E, D, B~17~, F.
 
 Administrare:
 
-adulţi: 1 -- 4 linguriţe x 2 ori / zi
+adulți: 1 -- 4 lingurițe x 2 ori / zi
 
-copii: ½ -- 2 linguriţe x 2 ori / zi
+copii: ½ -- 2 lingurițe x 2 ori / zi
 
-În cazul disfuncţiilor hepato-biliare, soluţia se va lua pe stomacul gol dimineaţa şi se stă culcat pe partea dreaptă timp de 15 minute. În acest caz soluţia se va folosi maxim 10 zile pe lună.
+În cazul disfuncțiilor hepato-biliare, soluția se va lua pe stomacul gol dimineața și se stă culcat pe partea dreaptă timp de 15 minute. În acest caz soluția se va folosi maxim 10 zile pe lună.
 
-Preparatul conţine cantităţi apreciabile de vitamina E, F, D, B17, , acidul gama -- linoleic (AGL -- care este prezent şi în laptele de mamă), acidul docosahexaenoic (DHA) . Cercetări recente au relevat faptul că nivelul scăzut de DHA în organism este responsabil de boala Alzheimer, boală progresivă şi din nefericire, deocamdată incurabilă. DHA se află şi în uleiul de peşte, uleiul de rapiţă, de nuci şi de soia. S-a demonstrat că vitamina B~17~ , care se află în seminţele unor fructe (mere, nuci pere, caise,....) şi în unele uleiuri extrase din plante, este anticancerigenă. [Uleiul de porumb]{.underline} este antioxidant, şi este foarte util, datorită conţinutului ridicat de vitamina E, în dezvoltarea şi asigurarea unei bune funcţionalităţi a aparatului reproducător. [Uleiul de dovleac]{.underline} asigură buna funcţionare a aparatului uro -- genital. [Uleiul de măsline]{.underline} este util ficatului şi stomacului. [Uleiul de]{.underline} [luminiţă]{.underline} conţine cantităţi mari de AGL.
+Preparatul conține cantități apreciabile de vitamina E, F, D, B17, , acidul gama -- linoleic (AGL -- care este prezent și în laptele de mamă), acidul docosahexaenoic (DHA) . Cercetări recente au relevat faptul că nivelul scăzut de DHA în organism este responsabil de boala Alzheimer, boală progresivă și din nefericire, deocamdată incurabilă. DHA se află și în uleiul de pește, uleiul de rapiță, de nuci și de soia. S-a demonstrat că vitamina B~17~ , care se află în semințele unor fructe (mere, nuci pere, caise,....) și în unele uleiuri extrase din plante, este anticancerigenă. [Uleiul de porumb]{.underline} este antioxidant, și este foarte util, datorită conținutului ridicat de vitamina E, în dezvoltarea și asigurarea unei bune funcționalități a aparatului reproducător. [Uleiul de dovleac]{.underline} asigură buna funcționare a aparatului uro -- genital. [Uleiul de măsline]{.underline} este util ficatului și stomacului. [Uleiul de]{.underline} [luminiță]{.underline} conține cantități mari de AGL.
 
 **21.Tanafeg I**
 ----------------
@@ -796,7 +796,7 @@ Ingrediente:
 
 -- suc de ceapă -- 100ml
 
--- oţet de mere -- 80ml
+-- oțet de mere -- 80ml
 
 -- zeamă de lămâie -- 2 linguri
 
@@ -806,19 +806,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Se amestecă toate ingredientele şi se agită recipientul în care au fost puse până la dizolvarea completă a zahărului. Se păstrează la rece.
+Se amestecă toate ingredientele și se agită recipientul în care au fost puse până la dizolvarea completă a zahărului. Se păstrează la rece.
 
-Acţiuni:
+Acțiuni:
 
 astringent, antiseptic, antibacterian, bactericid.
 
-Indicaţii:
+Indicații:
 
-[febră]{.underline}, [răceală]{.underline}, tuse, bronşite, [stări de apatie]{.underline}, ateroscleroză, enterocolită, sindromul azotemic cronic.
+[febră]{.underline}, [răceală]{.underline}, tuse, bronșite, [stări de apatie]{.underline}, ateroscleroză, enterocolită, sindromul azotemic cronic.
 
 Administrare:
 
-½ -- 2 linguriţe x 3 ori / zi
+½ -- 2 lingurițe x 3 ori / zi
 
 După 7 zile de tratament se face pauză de 14 zile după care se reia.
 
@@ -829,11 +829,11 @@ Ingrediente:
 
 -- suc de ceapă -- 75ml
 
--- Ţintaură -- 2 linguriţe
+-- Țintaură -- 2 lingurițe
 
--- rizomi de Obligeană -- 3 linguriţe
+-- rizomi de Obligeană -- 3 lingurițe
 
--- oţet de mere -- 75ml
+-- oțet de mere -- 75ml
 
 -- zahăr -- 250g
 
@@ -843,21 +843,21 @@ Ingrediente:
 
 Mod de preparare:
 
-Se face infuzie de Ţintaură cu 100ml apă. După răcire sa adaugă rizomii de Obligeană şi se lasă la macerat 6 ore. Se strecoară şi se amestecă cu restul ingredientelor.
+Se face infuzie de Țintaură cu 100ml apă. După răcire sa adaugă rizomii de Obligeană și se lasă la macerat 6 ore. Se strecoară și se amestecă cu restul ingredientelor.
 
-Acţiuni:
+Acțiuni:
 
 astringent, antiseptic, antibacterian, bactericid, anorexigen, antispastic, expectorant.
 
-Indicaţii:
+Indicații:
 
-[febră]{.underline}, [răceală]{.underline}, tuse, bronşite, [stări de apatie]{.underline}, ateroscleroză, enterocolită, sindromul azotemic cronic, [anorexie]{.underline}, tulburări neuro-vegetative, helmintiaze, dischinezie biliară, dureri abdominale.
+[febră]{.underline}, [răceală]{.underline}, tuse, bronșite, [stări de apatie]{.underline}, ateroscleroză, enterocolită, sindromul azotemic cronic, [anorexie]{.underline}, tulburări neuro-vegetative, helmintiaze, dischinezie biliară, dureri abdominale.
 
 Administrare:
 
-adulţi: 1-4 linguriţe x 2 ori / zi
+adulți: 1-4 lingurițe x 2 ori / zi
 
-copii: ½ -- 2 linguriţe x 2 ori / zi
+copii: ½ -- 2 lingurițe x 2 ori / zi
 
 **23.Teofigin**
 ---------------
@@ -870,27 +870,27 @@ Ingrediente:
 
 > \- cafea -- 50g
 >
-> \- nucşoară -- 10g
+> \- nucșoară -- 10g
 >
-> \- zeamă de lămâie -- 3 linguriţe
+> \- zeamă de lămâie -- 3 lingurițe
 
 \- zahăr -- 500g
 
 Mod de preparare:
 
-Se macerează toate ingredientele mai puţin zahărul timp de 14 zile la căldură şi întuneric. Se strecoară, se amestecă cu zahărul şi se lasă într-un vas descoperit pentru a se evapora apa şi alcoolul. Din când în când se amestecă cu o lingură de lemn.
+Se macerează toate ingredientele mai puțin zahărul timp de 14 zile la căldură și întuneric. Se strecoară, se amestecă cu zahărul și se lasă într-un vas descoperit pentru a se evapora apa și alcoolul. Din când în când se amestecă cu o lingură de lemn.
 
-Acţiuni:
+Acțiuni:
 
-energizant, neurotrofic, antioxidant, creştere randamentului fizic şi intelectual, măreşte puterea de disociaţie mentală, stimulează funcţiile cerebrale superioare, diuretic, cardiotonic, stimulează secreţia gastrică şi biliară.
+energizant, neurotrofic, antioxidant, creștere randamentului fizic și intelectual, mărește puterea de disociație mentală, stimulează funcțiile cerebrale superioare, diuretic, cardiotonic, stimulează secreția gastrică și biliară.
 
-Indicaţii:
+Indicații:
 
-mărirea randamentului fizic şi intelectual, tulburări vasculare, atonie gastrică, tuse, bronşită, astm bronşic.
+mărirea randamentului fizic și intelectual, tulburări vasculare, atonie gastrică, tuse, bronșită, astm bronșic.
 
 Administrare:
 
-adulţi: ½-3 linguri / zi
+adulți: ½-3 linguri / zi
 
 copii: ½-1 lingură / zi
 
@@ -900,7 +900,7 @@ O lingură de preparat este echivalentă cu :
 
 -1,5g ceai negru
 
--0,3g nucşoară
+-0,3g nucșoară
 
 -3,7g cacao
 
@@ -921,19 +921,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Se amestecă toate ingredientele şi se agită bine recipientul până la dizolvarea completă a zahărului. Siropul se va păstra la rece în locuri ferite de lumină.
+Se amestecă toate ingredientele și se agită bine recipientul până la dizolvarea completă a zahărului. Siropul se va păstra la rece în locuri ferite de lumină.
 
-Acţiuni:
+Acțiuni:
 
 antihemoragic, antiastenic, antiscorbutic, antiseptic, antispastic, astringent, carminativ, colagog, dezintoxicant.
 
-Indicaţii:
+Indicații:
 
-Preparatul este recomandat în special copiilor care au conţinut scăzut de vitamina C, au digestia lentă, precum şi lipsa altor vitamine (A, B1,...) şi minerale (potasiu, fier, calciu,....). Se mai recomandă în constipaţie, anorexie, ulcer, aciditate gastrică, insuficientă hepatică, colici abdominale, ateroscleroză, ateromatoză, hipertensiune, cistită.
+Preparatul este recomandat în special copiilor care au conținut scăzut de vitamina C, au digestia lentă, precum și lipsa altor vitamine (A, B1,...) și minerale (potasiu, fier, calciu,....). Se mai recomandă în constipație, anorexie, ulcer, aciditate gastrică, insuficientă hepatică, colici abdominale, ateroscleroză, ateromatoză, hipertensiune, cistită.
 
 Administrare:
 
-1-3 linguri x 2 ori / zi înainte de masă, dimineaţa şi la prânz.
+1-3 linguri x 2 ori / zi înainte de masă, dimineața și la prânz.
 
 După 14 zile se face pauză de 14 zile.
 
@@ -950,19 +950,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Se amestecă toate ingredientele şi se agită bine recipientul până la dizolvarea completă a zahărului. Siropul se va păstra la rece în locuri ferite de lumină.
+Se amestecă toate ingredientele și se agită bine recipientul până la dizolvarea completă a zahărului. Siropul se va păstra la rece în locuri ferite de lumină.
 
-Acţiuni:
+Acțiuni:
 
 antiseptic, antibacterian, antianemic, antiscorbutic, bactericid, carminativ, depurativ, diuretic, febrifug.
 
-Indicaţii:
+Indicații:
 
-ulcer, aciditate gastrică, insuficienţă hepatică, icter, calculoză biliară, diaree, colici abdominale, disconfort abdominal, hemoroizi, ateromatoză, ateroscleroză, hipertensiune, cistită, litiază renală, hipovitaminoza C, scorbut.
+ulcer, aciditate gastrică, insuficiență hepatică, icter, calculoză biliară, diaree, colici abdominale, disconfort abdominal, hemoroizi, ateromatoză, ateroscleroză, hipertensiune, cistită, litiază renală, hipovitaminoza C, scorbut.
 
 Administrare:
 
-1-4 linguri x 2 ori / zi dimineaţa şi la prânz înainte de masă.
+1-4 linguri x 2 ori / zi dimineața și la prânz înainte de masă.
 
 După 7 zile se face pauză de 14 zile.
 
@@ -981,19 +981,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Se fierb cojile de portocală în 1,5 kg apă timp de 30 minute. Se aruncă apoi apa în care au fiert şi se fierb din nou în 1,5 kg apă timp de 10 minute. La fierbere se adaugă şi zahărul. Se scot apoi cojile şi se pun pe o farfurie lăsându-se la temperatura camerei timp de 24 de ore. Apoi se taie în bucăţi mici şi se amestecă cu miere. La fiecare lingură de coji se adaugă o lingură de miere. Este recomandat a se păstra maxim 2 ani.
+Se fierb cojile de portocală în 1,5 kg apă timp de 30 minute. Se aruncă apoi apa în care au fiert și se fierb din nou în 1,5 kg apă timp de 10 minute. La fierbere se adaugă și zahărul. Se scot apoi cojile și se pun pe o farfurie lăsându-se la temperatura camerei timp de 24 de ore. Apoi se taie în bucăți mici și se amestecă cu miere. La fiecare lingură de coji se adaugă o lingură de miere. Este recomandat a se păstra maxim 2 ani.
 
-Acţiuni:
+Acțiuni:
 
 laxativ, antispastic, carminativ, colagog, dezintoxicant.
 
-Indicaţii:
+Indicații:
 
-[constipaţie]{.underline}, [constipaţie cronică]{.underline}, disfuncţii hepato-biliare, dispepsii, tuse.
+[constipație]{.underline}, [constipație cronică]{.underline}, disfuncții hepato-biliare, dispepsii, tuse.
 
 Administrare:
 
-2-6 linguri înainte de masa de dimineaţă.
+2-6 linguri înainte de masa de dimineață.
 
 **27.Maxivit L**
 ----------------
@@ -1010,25 +1010,25 @@ Ingrediente:
 
 Mod de preparare:
 
-Se amestecă ingredientele şi se păstrează la răcoare în vase închise ermetic.
+Se amestecă ingredientele și se păstrează la răcoare în vase închise ermetic.
 
-Acţiuni:
+Acțiuni:
 
 anticanceros, carminativ, tonic-amar, colagog, depurativ, diuretic, febrifug, calmant, energizant, fortifiant.
 
-[Sucul de morcov]{.underline} conţine vitaminele A, B, C, D, E, K, stimulează pofta de mâncare, îmbunătăţeşte structura dinţilor, protejează sistemul nervos, este energizant şi fortifiant.
+[Sucul de morcov]{.underline} conține vitaminele A, B, C, D, E, K, stimulează pofta de mâncare, îmbunătățește structura dinților, protejează sistemul nervos, este energizant și fortifiant.
 
-[Sucul de pătrunjel]{.underline} este util în menţinerea funcţiei normale a glandelor suprarenale şi tiroidă, favorizează întărirea vaselor sanguine, este eficient în afecţiuni ale aparatului uro-genital, calculoză biliară, litiază renală, hipertensiune, afecţiuni oculare, tulburări de menopauză, ulcer, anorexie.
+[Sucul de pătrunjel]{.underline} este util în menținerea funcției normale a glandelor suprarenale și tiroidă, favorizează întărirea vaselor sanguine, este eficient în afecțiuni ale aparatului uro-genital, calculoză biliară, litiază renală, hipertensiune, afecțiuni oculare, tulburări de menopauză, ulcer, anorexie.
 
-[Sucul din frunze]{.underline} de păpădie este unul dintre cele mai valoroase medicamente tonifiante şi fortifiante. Se recomandă în hiperaciditate gastrică, ulcer, afecţiuni ale coloanei vertebrale, paradontoză, osteoporoză.
+[Sucul din frunze]{.underline} de păpădie este unul dintre cele mai valoroase medicamente tonifiante și fortifiante. Se recomandă în hiperaciditate gastrică, ulcer, afecțiuni ale coloanei vertebrale, paradontoză, osteoporoză.
 
 [Mierea de tei / salcâm]{.underline} ajută ca sucurile să fie asimilate mult mai bine de către organism.
 
 Administrare:
 
-adulţi şi copiii cu vârsta mai mare de 6 ani: 2-5 linguri dimineaţa pe stomacul gol
+adulți și copiii cu vârsta mai mare de 6 ani: 2-5 linguri dimineața pe stomacul gol
 
-copii (1-5 ani) : ½-2 linguri dimineaţa pe stomacul gol
+copii (1-5 ani) : ½-2 linguri dimineața pe stomacul gol
 
 După 14 zile se face pauză de 7 zile după care se poate relua.
 
@@ -1037,9 +1037,9 @@ După 14 zile se face pauză de 7 zile după care se poate relua.
 
 Ingrediente:
 
-- scorţişoară -- 30g
+- scorțișoară -- 30g
 
-- nucşoară -- 10g
+- nucșoară -- 10g
 
 - fructe de Coriandru -- 30g
 
@@ -1051,17 +1051,17 @@ Mod de preparare:
 
 Se face tinctură din toate ingredientele, macerându-se timp de 21 zile.
 
-Acţiuni:
+Acțiuni:
 
-antiseptic, astringent, analgezic, dezintoxicant, accelerarea digestiei, carminativ, antiemetic, antidiareic, antispastic, colagog, hipoglicemiant, antiparazitar, neurotrofic, energizant, stimulant al funcţiilor cerebrale superioare.
+antiseptic, astringent, analgezic, dezintoxicant, accelerarea digestiei, carminativ, antiemetic, antidiareic, antispastic, colagog, hipoglicemiant, antiparazitar, neurotrofic, energizant, stimulant al funcțiilor cerebrale superioare.
 
-Indicaţii:
+Indicații:
 
-dispepsii, helmintiaze, dureri uterine, dureri abdominale, balonări, anorexie, afecţiuni ale aparatului uro-genital. Adjuvant în afecţiuni ale aparatului respirator.
+dispepsii, helmintiaze, dureri uterine, dureri abdominale, balonări, anorexie, afecțiuni ale aparatului uro-genital. Adjuvant în afecțiuni ale aparatului respirator.
 
 Administrare:
 
-adulţi: 0,5-4ml o dată pe zi
+adulți: 0,5-4ml o dată pe zi
 
 copii: 0,2-1 ml o dată pe zi
 
@@ -1076,19 +1076,19 @@ Ingrediente:
 
 - frunze de Anghinare -- 20g
 
-- nucşoară -- 40g
+- nucșoară -- 40g
 
 - alcool 85° -- 1000ml
 
 Mod de preparare:
 
-Cojile de castraveţi amari se dau printr-un amestec de oţet alimentar şi alcool (în părţi egale) , după care se pun la uscat la căldură într-un loc ferit de lumină. O cantitate de 150g de coji uscate se amestecă cu restul ingredientelor şi se macerează timp de 21 zile la întuneric şi căldură agitându-se zilnic. Se strecoară iar lichidul obţinut se pune în sticle de culoare închisă.
+Cojile de castraveți amari se dau printr-un amestec de oțet alimentar și alcool (în părți egale) , după care se pun la uscat la căldură într-un loc ferit de lumină. O cantitate de 150g de coji uscate se amestecă cu restul ingredientelor și se macerează timp de 21 zile la întuneric și căldură agitându-se zilnic. Se strecoară iar lichidul obținut se pune în sticle de culoare închisă.
 
-Acţiuni:
+Acțiuni:
 
 hipoglicemiant, hepatoprotector, antidiareic, cardiotonic, hipocolesterolemiant.
 
-Indicaţii:
+Indicații:
 
 [diabet zaharat]{.underline}, angină pectorală, ateroscleroză, ateromatoză, enterocolite, hipertensiune.
 
@@ -1101,15 +1101,15 @@ Administrare:
 
 Ingrediente:
 
-- pastă de usturoi -- 5 linguriţe
+- pastă de usturoi -- 5 lingurițe
 
-- hrean ras -- 5 linguriţe
+- hrean ras -- 5 lingurițe
 
-- zeamă de lămâie -- o linguriţă
+- zeamă de lămâie -- o linguriță
 
-- boia iute -- o linguriţă
+- boia iute -- o linguriță
 
-- sare fină -- o linguriţă
+- sare fină -- o linguriță
 
 - aspirină -- ½ comprimat
 
@@ -1117,19 +1117,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Se amestecă bine toate ingredientele şi se macerează la rece timp de 7 zile. Se strecoară şi se păstrează la întuneric şi răcoare.
+Se amestecă bine toate ingredientele și se macerează la rece timp de 7 zile. Se strecoară și se păstrează la întuneric și răcoare.
 
-Acţiuni:
+Acțiuni:
 
 antibacterian, antiinflamator, antifungic, antispastic, bactericid, antihelmintic, antitumoral, hipocolesterolemiant, hipoglicemiant, vasodilatator, anorexigen.
 
-Indicaţii:
+Indicații:
 
-Adjuvant în ateromatoză, ateroscleroză, hipertensiune, angină pectorală, obezitate, dischinezie biliară, diabet zaharat, tumori digestive, dispepsii, bronhopneumopatii, bronşite, răceală, anorexie.
+Adjuvant în ateromatoză, ateroscleroză, hipertensiune, angină pectorală, obezitate, dischinezie biliară, diabet zaharat, tumori digestive, dispepsii, bronhopneumopatii, bronșite, răceală, anorexie.
 
 Administrare:
 
-Se pune după gust la mâncăruri reci. Administrarea preparatului cu miere de albine şi lapte îi creşte foarte mult valoarea terapeutică.
+Se pune după gust la mâncăruri reci. Administrarea preparatului cu miere de albine și lapte îi crește foarte mult valoarea terapeutică.
 
 **31.Reternil**
 ---------------
@@ -1146,26 +1146,26 @@ Ingrediente:
 
 Mod de preparare:
 
-Se macerează ingredientele timp de două săptămâni la întuneric şi răcoare, agitându-se zilnic.
+Se macerează ingredientele timp de două săptămâni la întuneric și răcoare, agitându-se zilnic.
 
-Acţiuni:
+Acțiuni:
 
 antibacterian, antispastic, bactericid, anorexigen, coleretic, sedativ, antihelmintic.
 
-Indicaţii:
+Indicații:
 
-astm bronşic, răceală, anorexie, boli diareice, enterocolită, disconfort abdominal, helmintiaze, insomnii, tulburări de menopauză, tulburări de memorie, colită, migrene.
+astm bronșic, răceală, anorexie, boli diareice, enterocolită, disconfort abdominal, helmintiaze, insomnii, tulburări de menopauză, tulburări de memorie, colită, migrene.
 
 Administrare:
 
-Preparatul se poate adăuga la mâncăruri reci (sau puţin calde), sau se poate lua cu puţină apă. Se recomandă a se folosi maxim 30 picături la o masă.
+Preparatul se poate adăuga la mâncăruri reci (sau puțin calde), sau se poate lua cu puțină apă. Se recomandă a se folosi maxim 30 picături la o masă.
 
 **32.Iternil**
 --------------
 
 Ingrediente:
 
-- făină de Muştar -- 15g
+- făină de Muștar -- 15g
 
 - Piper negru măcinat -- 15g
 
@@ -1175,19 +1175,19 @@ Ingrediente:
 
 Mod de preparare:
 
-Se macerează timp de 14 zile ingredientele după care se strecoară şi se păstrează în locuri ferite de lumină.
+Se macerează timp de 14 zile ingredientele după care se strecoară și se păstrează în locuri ferite de lumină.
 
-Acţiuni:
+Acțiuni:
 
 carminativ, antibacterian, antihelmintic, afrodiziac, colagog, neutralizant al toxinelor.
 
-Indicaţii:
+Indicații:
 
-constipaţie, helmintiaze, anorexie, [dispepsii]{.underline}, [digestie dificilă]{.underline}, tuse, bronşite, enterocolite.
+constipație, helmintiaze, anorexie, [dispepsii]{.underline}, [digestie dificilă]{.underline}, tuse, bronșite, enterocolite.
 
 Administrare:
 
-În scop terapeutic se vor lua între 2 şi 20 picături, de două ori pe zi. Se recomandă a nu se depăşi pragul de 20 picături mai ales pentru o perioadă lungă de timp.
+În scop terapeutic se vor lua între 2 și 20 picături, de două ori pe zi. Se recomandă a nu se depăși pragul de 20 picături mai ales pentru o perioadă lungă de timp.
 
 **33.Gastromin**
 ----------------
@@ -1208,15 +1208,15 @@ Ingrediente:
 
 Mod de preparare:
 
-Înainte de decojire, portocalele se spală bine cu apă şi detergent. Rizomii de Obligeană împreună cu cojile de portocale se macerează în vin timp de 8 zile. Se strecoară şi se adaugă zahărul, aspirina şi glicerina.
+Înainte de decojire, portocalele se spală bine cu apă și detergent. Rizomii de Obligeană împreună cu cojile de portocale se macerează în vin timp de 8 zile. Se strecoară și se adaugă zahărul, aspirina și glicerina.
 
-Acţiuni:
+Acțiuni:
 
 Antispastic, carminativ, colagog, dezintoxicant, diaforetic, digestiv, laxativ, febrifug, anorexigen, hipocolesterolemiant, afrodiziac, antioxidant.
 
-Indicaţii:
+Indicații:
 
-constipaţie, [dispepsii]{.underline}, [anorexie]{.underline}, colici abdominale, helmintiaze, tuse, obezitate, [disconfort abdominal]{.underline}, tulburări neuro-vegetative.
+constipație, [dispepsii]{.underline}, [anorexie]{.underline}, colici abdominale, helmintiaze, tuse, obezitate, [disconfort abdominal]{.underline}, tulburări neuro-vegetative.
 
 Administrare:
 
@@ -1229,7 +1229,7 @@ Ingrediente:
 
 - fructe uscate de Păducel (Gherghinar)-- 800g
 
-- fructe uscate de Măceş -- 800g
+- fructe uscate de Măceș -- 800g
 
 - fructe uscate de Cătină -- 300g
 
@@ -1243,13 +1243,13 @@ Ingrediente:
 
 Mod de preparare:
 
-Toate ingredientele se pun într-o damigeană prevăzută cu dop etanş şi tub de fermentaţie prin care se elimină bioxidul de carbon. Fermentaţia durează aproximativ 4--6 săptămâni. În primele 10 zile damigeana se agită uşor. După terminarea fermentaţiei lichidul se trage în sticle cu ajutorul unui furtun. Sticlele se păstrează la roc răcoros.
+Toate ingredientele se pun într-o damigeană prevăzută cu dop etanș și tub de fermentație prin care se elimină bioxidul de carbon. Fermentația durează aproximativ 4--6 săptămâni. În primele 10 zile damigeana se agită ușor. După terminarea fermentației lichidul se trage în sticle cu ajutorul unui furtun. Sticlele se păstrează la roc răcoros.
 
-Acţiuni:
+Acțiuni:
 
 antiscorbutic, antioxidant, cardiotonic, diuretic, neurotrofic.
 
-Indicaţii:
+Indicații:
 
 angină pectorală, hemoragii, [hipovitaminoza C]{.underline}, dischinezie biliară, [astenie fizică]{.underline}, [astenie nervoasă]{.underline}, [nevroze]{.underline}.
 
@@ -1264,7 +1264,7 @@ Ingrediente:
 
 - Schinel -- 20g
 
-- Şovârv -- 10g
+- Șovârv -- 10g
 
 - rizomi de Obligeană -- 10g
 
@@ -1274,21 +1274,21 @@ Mod de preparare:
 
 Se macerează timp de 10 zile toate ingredientele la loc întunecos după care se strecoară.
 
-Acţiuni:
+Acțiuni:
 
 depurativ, vermifug, antitermic, antispastic, anorexigen, carminativ.
 
-Indicaţii:
+Indicații:
 
-[dispepsii]{.underline}, [hipoaciditate]{.underline}, [insuficienţă hepato-biliară]{.underline}, dureri abdominale, tulburări neuro-vegetative, anorexie, colită, enterocolită.
+[dispepsii]{.underline}, [hipoaciditate]{.underline}, [insuficiență hepato-biliară]{.underline}, dureri abdominale, tulburări neuro-vegetative, anorexie, colită, enterocolită.
 
 Administrare:
 
-adulţi: 0,5-2 ml x 2 ori / zi
+adulți: 0,5-2 ml x 2 ori / zi
 
 copii: 0,2-1 ml x 2 ori / zi
 
-Soluţia se ia dizolvată în puţină apă în puţină apă înainte de masă cu 15-30 minute.
+Soluția se ia dizolvată în puțină apă în puțină apă înainte de masă cu 15-30 minute.
 
 **36.Voscirin**
 ---------------
@@ -1309,15 +1309,15 @@ Ingrediente:
 
 Mod de preparare:
 
-Se face tinctură din Măghiran, Cimbru şi fructele zdrobite de Porumbar, macerându-se timp de 14 zile. Se strecoară iar la o parte de tinctură se adaugă o parte de miere şi o jumătate de parte de suc de lămâie.
+Se face tinctură din Măghiran, Cimbru și fructele zdrobite de Porumbar, macerându-se timp de 14 zile. Se strecoară iar la o parte de tinctură se adaugă o parte de miere și o jumătate de parte de suc de lămâie.
 
-Indicaţii:
+Indicații:
 
-răguşeală, [schimbarea vocii]{.underline}, amigdalită.
+răgușeală, [schimbarea vocii]{.underline}, amigdalită.
 
 Administrare:
 
-Se dizolvă 2-6 linguriţe de soluţie în puţină apă şi se face gargară.
+Se dizolvă 2-6 lingurițe de soluție în puțină apă și se face gargară.
 
 **37.Erpecin**
 --------------
@@ -1326,7 +1326,7 @@ Ingrediente:
 
 - Sunătoare -- 20g
 
-- flori de Muşeţel -- 7g
+- flori de Mușețel -- 7g
 
 - propolis -- 3g
 
@@ -1334,32 +1334,32 @@ Ingrediente:
 
 Mod de preparare:
 
-Propolisul şi uleiul se pun pe baie de apă şi se ţin până la dizolvarea propolisului. Uleiul de măsline se poate înlocui cu ulei de floarea-soarelui. Indiferent de tipul de ulei folosit acesta trebuie să fie obţinut de preferinţă prin presare la rece.
+Propolisul și uleiul se pun pe baie de apă și se țin până la dizolvarea propolisului. Uleiul de măsline se poate înlocui cu ulei de floarea-soarelui. Indiferent de tipul de ulei folosit acesta trebuie să fie obținut de preferință prin presare la rece.
 
-Se ia uleiul de pe baia de apă, se pune într-un recipient de sticlă, împreună cu Sunătoarea şi florile de Muşeţel, şi se închide vasul etanş. Se macerează timp de 5 săptămâni. La 2-3 zile se va agita recipientul. Apoi se strecoară şi se păstrează la rece. Valabilitatea este de 2 ani.
+Se ia uleiul de pe baia de apă, se pune într-un recipient de sticlă, împreună cu Sunătoarea și florile de Mușețel, și se închide vasul etanș. Se macerează timp de 5 săptămâni. La 2-3 zile se va agita recipientul. Apoi se strecoară și se păstrează la rece. Valabilitatea este de 2 ani.
 
-Acţiuni:
+Acțiuni:
 
 antidepresiv, sedativ, antiinflamator, antibacterian, bactericid, antiseptic, astringent, cicatrizant, hipotensiv, vasodilatator.
 
-Indicaţii:
+Indicații:
 
 uz intern: [gastrite hiperacide]{.underline}, [hepatite cronice]{.underline}, dischinezie biliară, colite, gingivite, boli diareice, ulcer gastric, tulburări de menopauză.
 
 uz extern: [răni greu vindecabile]{.underline}, [arsuri]{.underline}, cancer de piele.
 
-Contraindicaţii: stări depresive severe.
+Contraindicații: stări depresive severe.
 
-Precauţii:
+Precauții:
 
 - Se va evita asocierea cu antidepresive, contraceptive orale.
 
-- Dacă tratamentul se face vara, atunci se va evita pe cât posibil expunerea la soare a pielii. Dacă apar reacţii de fotosensibilitate, tulburări gastro-intestinale, ameţeală, insomnie, oboseală atunci se va întrerupe tratamentul.
+- Dacă tratamentul se face vara, atunci se va evita pe cât posibil expunerea la soare a pielii. Dacă apar reacții de fotosensibilitate, tulburări gastro-intestinale, amețeală, insomnie, oboseală atunci se va întrerupe tratamentul.
 
 Administrare:
 
-uz intern: ½ - 1 linguriţă x 3 ori / zi
+uz intern: ½ - 1 linguriță x 3 ori / zi
 
 uz extern: badjonări cu ulei de 2-3 ori pe zi
 
-*Atenţie*: Nu se administrează femeilor în perioada de sarcină şi alăptare. În cazul copiilor uleiul se utilizează doar pentru uzul extern.
+*Atenție*: Nu se administrează femeilor în perioada de sarcină și alăptare. În cazul copiilor uleiul se utilizează doar pentru uzul extern.

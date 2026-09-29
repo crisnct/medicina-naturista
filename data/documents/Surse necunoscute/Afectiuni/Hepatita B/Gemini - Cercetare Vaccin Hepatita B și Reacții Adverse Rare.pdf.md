@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Hepatita B\\Gemini - Cercetare Vaccin Hepatita B și Reacții Adverse Rare.pdf"
-source_relative_path: "Hepatita B\\Gemini - Cercetare Vaccin Hepatita B și Reacții Adverse Rare.pdf"
-source_sha256: "b28ae781374ed7b1865595af6f56975253c850fea263d9b3bf2b7fa60f3f34ae"
-source_size_bytes: 217667
-page_count: 12
-extracted_text_characters: 31622
-extraction_method: pypdf
-status: "ok"
----
-
-# Gemini - Cercetare Vaccin Hepatita B și Reacții Adverse Rare.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Clinical Evaluation of Recombinant
@@ -3566,4 +3551,3 @@ help?
 January
 
 2016,
-

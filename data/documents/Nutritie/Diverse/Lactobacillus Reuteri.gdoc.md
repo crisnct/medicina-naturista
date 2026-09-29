@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Lactobacillus Reuteri.gdoc"
-source_relative_path: "Lactobacillus Reuteri.gdoc"
-source_pointer_sha256: "3d4d3cac4d296dfc2112fcc53b9f34c46ee49cbf04ac744800f7d5e41e5c10f3"
-source_pointer_bytes: 181
-google_doc_id: "1dNtYclty60397MmacIZNXi8Bw_kS710WPSwhaIsFANM"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Lactobacillus Reuteri
-
-## Conținut extras
-
 # Lactobacillus Reuteri
 
 \- regina bacteriilor benefice \-

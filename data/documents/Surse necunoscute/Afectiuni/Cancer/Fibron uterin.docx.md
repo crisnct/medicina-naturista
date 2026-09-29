@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Cancer\\Fibron uterin.docx"
-source_relative_path: "Cancer\\Fibron uterin.docx"
-source_sha256: "0f39e401bdc2af683191f11d621f97bb27cbb9960a806e82c68cc1475d98c99b"
-source_size_bytes: 22935
-source_format: docx
-output_format: markdown
-native_text_characters: 1045
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Fibron uterin
-
-## Text nativ
-
 Tratament naturist pentru fibron uterin
 
 - Tinctura de traista-ciobanului: 1 lingura x 2 ori pe zi
@@ -46,7 +28,7 @@ Tratament naturist pentru fibron uterin
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

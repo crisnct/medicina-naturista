@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Regim alimentar pentru ciroză.docx"
-source_relative_path: "Regim alimentar pentru ciroză.docx"
-source_sha256: "9932f1cdceaf6ed1e040b75982d8bc22fcc6801bb57812f0f8b37089faa2acac"
-source_size_bytes: 13076
-source_format: docx
-output_format: markdown
-native_text_characters: 784
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Regim alimentar pentru ciroză
-
-## Text nativ
-
 Regim alimentar pentru ciroză
 
 #### Alimente recomandate în mod special:

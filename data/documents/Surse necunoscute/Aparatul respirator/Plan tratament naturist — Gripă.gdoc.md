@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Plan tratament naturist — Gripă.gdoc"
-source_relative_path: "Plan tratament naturist — Gripă.gdoc"
-source_pointer_sha256: "2adee7fa20a5502c10f38af45163a76b22067641ae695ee5f27dd6a780265d6c"
-source_pointer_bytes: 181
-google_doc_id: "1e2lf45rMPH7ytpa9VgHkmC_6kpaCcfRT3zERkw2LBxQ"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Plan tratament naturist — Gripă
-
-## Conținut extras
-
 # **Plan de tratament naturist — Gripă**
 
 *Sintetizat din biblioteca \_SourcesForAI (Tratament naturist pentru gripa, Antivirale naturale, SistemulImunitar, Bitter suedez-recomandari, Soluții esențiale în sezonul rece).*

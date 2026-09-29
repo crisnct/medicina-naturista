@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\retete naturiste de sanatate\\Ipotenta\\Telina.rtf"
-source_relative_path: "retete naturiste de sanatate\\Ipotenta\\Telina.rtf"
-source_sha256: "67bd8889dac674c140d3938a43143e457aaabe1e62a25b2ee51bad59fce66318"
-source_size_bytes: 4386
-format: rtf
-extraction_method: local_rtf_parser
-text_characters: 1075
-status: "ok"
----
-
-# Telina.rtf
-
-## Text extras
-
 \*02020603050405020304Times New Roman;Times New Roman CE;Times New Roman Cyr;
 
 Times New Roman Greek;Times New Roman Tur;Times New Roman (Hebrew);Times New Roman (Arabic);

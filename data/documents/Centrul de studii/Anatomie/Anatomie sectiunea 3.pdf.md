@@ -1,113 +1,98 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Anatomie\\Anatomie sectiunea 3.pdf"
-source_relative_path: "Centrul de studii\\Anatomie\\Anatomie sectiunea 3.pdf"
-source_sha256: "0735a295c0c81e01652d6794188d4faa63f7a182fdeef2ca2ba4c0f1eddb50df"
-source_size_bytes: 475606
-page_count: 43
-extracted_text_characters: 83428
-extraction_method: pypdf
-status: "ok"
----
-
-# Anatomie sectiunea 3.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Sistemul endocrin
-Sistemul endocrin are rol de comunicare şi coordonare şi se bazează în exercitarea
-funcţiilor sale pe hormoni (substanţe chimice ce sunt eliberate în sânge pentru a
-trimite mesaje celulelor organismului). Hormonii sunt produşi de glandele endocrine şi
-de alte organe ne-endocrine ale organismului. Hormonii controlează creşterea,
-reproducerea şi stabilesc reacţia organismului la factorii de stres fizici ori emoţionali.
-Hormonii influenţează celulele prin cuplarea lor la receptori specifici ai celulelor. Nu
-toate celulele intră în interacţiune cu hormonii, ci doar celule ţintă specifice care au
-anumiţi receptori de care hormonii se pot cupla. Aceştia intervin, pe cale umorală (şi
-nu pe cale nervoasă, cum acţionează creierul) în dezvoltarea şi menţinerea structurii
-normale şi în reglarea funcţiilor organismului. Între sistemele de coordonare nervoasă
-şi umorală există o strânsă interdependenţă.
+Sistemul endocrin are rol de comunicare și coordonare și se bazează în exercitarea
+funcțiilor sale pe hormoni (substanțe chimice ce sunt eliberate în sânge pentru a
+trimite mesaje celulelor organismului). Hormonii sunt produși de glandele endocrine și
+de alte organe ne-endocrine ale organismului. Hormonii controlează creșterea,
+reproducerea și stabilesc reacția organismului la factorii de stres fizici ori emoționali.
+Hormonii influențează celulele prin cuplarea lor la receptori specifici ai celulelor. Nu
+toate celulele intră în interacțiune cu hormonii, ci doar celule țintă specifice care au
+anumiți receptori de care hormonii se pot cupla. Aceștia intervin, pe cale umorală (și
+nu pe cale nervoasă, cum acționează creierul) în dezvoltarea și menținerea structurii
+normale și în reglarea funcțiilor organismului. Între sistemele de coordonare nervoasă
+și umorală există o strânsă interdependență.
 Structura sistemului endocrin
 Glandele endocrine sunt: hipofiza, epifiza, hipotalamusul, tiroida, paratiroidele,
-timusul, suprarenalele, pancreasul endocrin, ovarele şi testiculele.
+timusul, suprarenalele, pancreasul endocrin, ovarele și testiculele.
 1
 
 ### Pagina 2
 
 Hipofiza (glanda pituitară) are greutatea de 0,5 grame. Este formată din trei lobi,
-anterior, mijlociu şi posterior, ultimul fiind conectat la hipotalamus. Hormonii secretaţi
+anterior, mijlociu și posterior, ultimul fiind conectat la hipotalamus. Hormonii secretați
 de hipofiză sunt:
-* Hormonul somatotrop: este hormonul de creştere. De asemenea, intervine în
-dezvoltarea celulelor, activează transportul aminoacizilor în celule şi stimulează
-secreţia glandelor mamare. Hipersecreţia acestui hormon înainte de pubertate
-determină gigantismul, iar secreţia insuficientă cauzează nanismul hipofizar.
-* Hormonul adenocorticotrop sau corticotropina stimulează creşterea.
+* Hormonul somatotrop: este hormonul de creștere. De asemenea, intervine în
+dezvoltarea celulelor, activează transportul aminoacizilor în celule și stimulează
+secreția glandelor mamare. Hipersecreția acestui hormon înainte de pubertate
+determină gigantismul, iar secreția insuficientă cauzează nanismul hipofizar.
+* Hormonul adenocorticotrop sau corticotropina stimulează creșterea.
 * Hormonul tireotrop sau tireotropina stimulează dezvoltarea organismului.
-* Hormonii gonadotropi controlează funcţia glandelor femeişti şi bărbăteşti.
-* Hormonul luteotrop sau prolactina stimulează la femeie secreţia lactată.
-* Hormonul antidiuretic sau vasopresina contribuie la menţinerea volumului normal al
-lichidelor extracelulare în organism prin stimularea absorbţiei de apă la nivel renal.
-* Ocitocina favorizează naşterea prin stimularea contracţiilor musculaturii uterului şi
+* Hormonii gonadotropi controlează funcția glandelor femeiști și bărbătești.
+* Hormonul luteotrop sau prolactina stimulează la femeie secreția lactată.
+* Hormonul antidiuretic sau vasopresina contribuie la menținerea volumului normal al
+lichidelor extracelulare în organism prin stimularea absorbției de apă la nivel renal.
+* Ocitocina favorizează nașterea prin stimularea contracțiilor musculaturii uterului și
 alăptarea.
-Epifiza are formă conică şi are ca principal hormon secretat melatonina, care
-acţionează inhibator asupra glandelor sexuale şi are efect hipoglicemiant.
+Epifiza are formă conică și are ca principal hormon secretat melatonina, care
+acționează inhibator asupra glandelor sexuale și are efect hipoglicemiant.
 
 ### Pagina 3
 
-Tiroida se găseşte lângă laringe şi trahee şi are o greutate de aproximativ 30 de
-grame. Hormonii tiroidei sunt tiroxina şi triiodotironina. Acţiunea acestora cuprinde:
-controlează creşterea şi diferenţierea celulară, reduc depozitele de lipide, intensifică
-absorbţia intestinală de glucoză, determinând hiperglicemia, stimulează activitatea
-glandelor sexuale. O diminuare a funcţiei tiroidei poate determina cretinismul ori
-scăderea capacităţii de învăţare şi de memorare. La populaţiile din zone muntoase,
-cu ape sărace în iod, apare guşa endemică, creşterea volumului glandei tiroide.
-Paratiroidele sunt patru glande mici aflate în partea posterioară a tiroidei şi care
-secretă hormonii: parathormonul şi calcitonina care au rol în menţinerea echilibrului
-(absorbţia şi fixarea) fosforului şi a calciului organismului. Hiperfuncţia acestor glande
-determină decalcifierea osoasă, iar hipofuncţia lor conduce le dezvoltarea
-defectuoasă a dinţilor şi întârzieri mintale.
+Tiroida se găsește lângă laringe și trahee și are o greutate de aproximativ 30 de
+grame. Hormonii tiroidei sunt tiroxina și triiodotironina. Acțiunea acestora cuprinde:
+controlează creșterea și diferențierea celulară, reduc depozitele de lipide, intensifică
+absorbția intestinală de glucoză, determinând hiperglicemia, stimulează activitatea
+glandelor sexuale. O diminuare a funcției tiroidei poate determina cretinismul ori
+scăderea capacității de învățare și de memorare. La populațiile din zone muntoase,
+cu ape sărace în iod, apare gușa endemică, creșterea volumului glandei tiroide.
+Paratiroidele sunt patru glande mici aflate în partea posterioară a tiroidei și care
+secretă hormonii: parathormonul și calcitonina care au rol în menținerea echilibrului
+(absorbția și fixarea) fosforului și a calciului organismului. Hiperfuncția acestor glande
+determină decalcifierea osoasă, iar hipofuncția lor conduce le dezvoltarea
+defectuoasă a dinților și întârzieri mintale.
 3
 
 ### Pagina 4
 
-Timusul este un organ care se dezvoltă până în al doilea an de viaţă, după care
-rămâne staţionar până la 14 ani, când se atrofiază şi este înlocuit cu o grăsime.
-Limfocitele T, care îşi au originea în măduva hematogenă sunt diferenţiate în timus.
+Timusul este un organ care se dezvoltă până în al doilea an de viață, după care
+rămâne staționar până la 14 ani, când se atrofiază și este înlocuit cu o grăsime.
+Limfocitele T, care își au originea în măduva hematogenă sunt diferențiate în timus.
 Glandele suprarenale se găsesc în partea de sus a fiecărui rinichi. Zonă exterioară a
 acestora secretă trei categorii de hormoni steroizi: mineralocorticoizi (reglarea
-metabolismului mineral, reabsorbţia natriului şi eliminarea potasiului), glucocorticoizi
-(sunt reprezentaţi de cortizol, care intervine în special în metabolismul glucidelor) şi
-sexosteroizi (contribuie la diferenţierea dintre sexe: timbrul vocii, pilozitatea etc.).
-Zona interioară a suprarenalelor secretă adrenalina şi noradrenalina. Stresul şi
-suprasolicitările stimulează secreţia medulosuprarenalei. În stări de stres cu care
-organismul este obişnuit creşte nivelul noradrenalinei, iar în condiţii de stres
-neobişnuit creşte secreţia adrenalinei.
+metabolismului mineral, reabsorbția natriului și eliminarea potasiului), glucocorticoizi
+(sunt reprezentați de cortizol, care intervine în special în metabolismul glucidelor) și
+sexosteroizi (contribuie la diferențierea dintre sexe: timbrul vocii, pilozitatea etc.).
+Zona interioară a suprarenalelor secretă adrenalina și noradrenalina. Stresul și
+suprasolicitările stimulează secreția medulosuprarenalei. În stări de stres cu care
+organismul este obișnuit crește nivelul noradrenalinei, iar în condiții de stres
+neobișnuit crește secreția adrenalinei.
 
 ### Pagina 5
 
 Pancreasul endocrin este format din celule răspândite în interiorul pancreasului
-exocrin. Există două tipuri de celule, celule alfa, care secretă glucagonul şi celule
+exocrin. Există două tipuri de celule, celule alfa, care secretă glucagonul și celule
 beta care secretă insulina. Insulina este principalul hormon care scade nivelul
-glicemiei din organism. Ea creşte gradul de utilizare a glucozei în celule şi ajută la
-transformarea glucidelor în lipide. Hiposecreţia de insulină produce diabetul zaharat.
+glicemiei din organism. Ea crește gradul de utilizare a glucozei în celule și ajută la
+transformarea glucidelor în lipide. Hiposecreția de insulină produce diabetul zaharat.
 Glucagonul are efecte opuse insulinei, determinând hiperglicemie.
-Ovarele produc hormonii sexuali ai femeii, incluzând hormonii steroizi: estrogenul şi
-progesteronul, precum şi inhibina. Estrogenul şi progesteronul reglează funcţiile
-ovariene şi dezvoltarea sânilor la pubertate. Estrogenul ajută la dezvoltarea ovulelor.
-Progesteronul este necesar în menţinerea şi dezvoltarea sarcinii, dacă acesta s-a
+Ovarele produc hormonii sexuali ai femeii, incluzând hormonii steroizi: estrogenul și
+progesteronul, precum și inhibina. Estrogenul și progesteronul reglează funcțiile
+ovariene și dezvoltarea sânilor la pubertate. Estrogenul ajută la dezvoltarea ovulelor.
+Progesteronul este necesar în menținerea și dezvoltarea sarcinii, dacă acesta s-a
 produs.
-Cum previne pilula contraceptivă sarcina? Ciclul menstrual şi sarcina sunt controlate
-de la nivelul creierului de hipofiză. Aceasta eliberează lunar substanţe, stimulând
-ovarele să producă hormonii sexuali: estrogenul şi progesteronul. În primele 2
-săptămâni ale menstruaţiei, ovarele produc estrogen, care pregăteşte organismul
-pentru eliberarea unui ovul. La administrarea pilulelor, informaţia primită de hipofiză
+Cum previne pilula contraceptivă sarcina? Ciclul menstrual și sarcina sunt controlate
+de la nivelul creierului de hipofiză. Aceasta eliberează lunar substanțe, stimulând
+ovarele să producă hormonii sexuali: estrogenul și progesteronul. În primele 2
+săptămâni ale menstruației, ovarele produc estrogen, care pregătește organismul
+pentru eliberarea unui ovul. La administrarea pilulelor, informația primită de hipofiză
 este că nivelul progesteronul este ridicat, ceea ce ar însemna că există un ovul
 fertilizat. Pilula contraceptivă este cea care mimează nivelul crescut de progesteron.
 Ca urmare, hipofiza blochează eliberarea de alte ovule. Rolul pastilei contraceptive
-este, aşadar, acela de a preveni ovulaţia. Totodată, mucusul cervical se îngroaşă,
-devenind mai vâscos şi impenetrabil pentru spermatozoizi.
-Testiculele produc testosteronul şi inhibina. Testosteronul ajută la crearea spermei,
-dezvoltarea caracteristicilor bărbăteşti şi la creşterea dorinţei sexuale.
+este, așadar, acela de a preveni ovulația. Totodată, mucusul cervical se îngroașă,
+devenind mai vâscos și impenetrabil pentru spermatozoizi.
+Testiculele produc testosteronul și inhibina. Testosteronul ajută la crearea spermei,
+dezvoltarea caracteristicilor bărbătești și la creșterea dorinței sexuale.
 5
 
 ### Pagina 6
@@ -567,7 +552,7 @@ numai cand concentratia lor sanguina a depasit limitele fiziologice (apa , gluco
 NaCl , bicarbonatii , etc. ) . Substantele toxice sunt substante fara prag , eliminarea
 lor facandu-se imediat ce apar in sange .
 Constituent
-Flitrare Reabsorţie Secreţie Excreţie
+Flitrare Reabsorție Secreție Excreție
 Apă 170 168,5 - 1,5
 Na+ 26000 25850 - 150
 K+ 900 900 100 100
@@ -623,62 +608,62 @@ homeostaza sa mentina constanti anumiti parametri interni .
 ### Pagina 24
 
 METABOLISMUL
- Metabolismul este o însuşire de bază a tuturor organismelor vii. Principala
-deosebire între materia vie şi cea nevie, constă în lipsa metabolismului celei din
-urmă. Orice materie care posedă metabolism, capacitatea de a se reproduce şi
+ Metabolismul este o însușire de bază a tuturor organismelor vii. Principala
+deosebire între materia vie și cea nevie, constă în lipsa metabolismului celei din
+urmă. Orice materie care posedă metabolism, capacitatea de a se reproduce și
 abilitatea de a se adapta, este un organism viu.
-Pentru celulă metabolismul înseamnă totalitatea proceselor fizice şi chimice, în sens
-fiziologic şi biologic, care stau la baza tuturor transformărilor structurale şi energetice.
-Doar prin metabolism materia vie se organizează, se autoîntreţine şi se manifestă .
-Laturile metabolismului - anabolismul şi catabolismul
-Printr-un ansamblu complex de procese, substanţele nutritive sunt încorporate în
-celule şi apoi înglobate în structuri proprii. Prin înglobarea în structuri noi, se
-formează substanţe specifice fiecărui organism, procesul numindu-se biosinteză.
+Pentru celulă metabolismul înseamnă totalitatea proceselor fizice și chimice, în sens
+fiziologic și biologic, care stau la baza tuturor transformărilor structurale și energetice.
+Doar prin metabolism materia vie se organizează, se autoîntreține și se manifestă .
+Laturile metabolismului - anabolismul și catabolismul
+Printr-un ansamblu complex de procese, substanțele nutritive sunt încorporate în
+celule și apoi înglobate în structuri proprii. Prin înglobarea în structuri noi, se
+formează substanțe specifice fiecărui organism, procesul numindu-se biosinteză.
 Această încorporare-înglobare interesează tot corpul, iar complicatul proces prin care
-se realizează poartă numele de anabolism sau de asimilaţie. Anabolismul se
-înfăptuieşte cu consum de energie. Energia necesară proceselor de asimilaţie este
+se realizează poartă numele de anabolism sau de asimilație. Anabolismul se
+înfăptuiește cu consum de energie. Energia necesară proceselor de asimilație este
 furnizată de cealaltă latură a metabolismului; catabolismul.
-În sens opus, la nivel celular, au loc procese prin care substanţele sunt degradate
-(dezintegrate). Acest fenomen poartă denumirea de catabolism sau de dezasimilaţie.
-Catabolismul se realizează prin reacţii biochimice succesive în care, sub influenţa
-enzimelor, se rup legăturile chimice şi moleculele se scindează. Procesul de
-dezasimilaţie se realizează cu degajare de căldură (proces exoterm) şi de energie
-(proces macroergic). Dezasimilaţia este un proces de oxidare, de "ardere", realizat
-cu ajutorul oxigenului, pe seama substanţelor ("cărbunilor") ce suferă degradări.
-Energia furnizată de catabolism este întrebuinţată de organism nu numai în
-procesele de asimilaţie, ci şi în întreţinerea funcţiilor vitale, în repaos sau în diferite
-condiţii de efort.
-Cele două laturi ale metabolismului (anabolismul şi catabolismul) pot fi separate doar
+În sens opus, la nivel celular, au loc procese prin care substanțele sunt degradate
+(dezintegrate). Acest fenomen poartă denumirea de catabolism sau de dezasimilație.
+Catabolismul se realizează prin reacții biochimice succesive în care, sub influența
+enzimelor, se rup legăturile chimice și moleculele se scindează. Procesul de
+dezasimilație se realizează cu degajare de căldură (proces exoterm) și de energie
+(proces macroergic). Dezasimilația este un proces de oxidare, de "ardere", realizat
+cu ajutorul oxigenului, pe seama substanțelor ("cărbunilor") ce suferă degradări.
+Energia furnizată de catabolism este întrebuințată de organism nu numai în
+procesele de asimilație, ci și în întreținerea funcțiilor vitale, în repaos sau în diferite
+condiții de efort.
+Cele două laturi ale metabolismului (anabolismul și catabolismul) pot fi separate doar
 teoretic, în scop didactic. În fapt, ele se petrec simultan.
-Bilanţul metabolic
-Bilanţul metabolic reprezintă valoarea raportului dinte asimilaţie (A) şi dezasimilaţie
+Bilanțul metabolic
+Bilanțul metabolic reprezintă valoarea raportului dinte asimilație (A) și dezasimilație
 (D). Când A/D este mai mare decât 1 (anabolismul predomină asupra
-catabolismului), se consideră că bilanţul metabolic este pozitiv, iar când A/D este mai
-mic decât 1 (catabolismul este mai accentuat decât anabolismul), bilanţul este
+catabolismului), se consideră că bilanțul metabolic este pozitiv, iar când A/D este mai
+mic decât 1 (catabolismul este mai accentuat decât anabolismul), bilanțul este
 negativ.
 
 ### Pagina 25
 
 Metabolismul bazal
-Metabolismul care se desfăşoară în condiţii de repaus total constituie metabolismul
+Metabolismul care se desfășoară în condiții de repaus total constituie metabolismul
 bazal.
-Metabolismul bazal (de bază) este unul de întreţinere, care asigură minimul de
-energie necesar menţinerii funcţiilor vitale (circulaţie, respiraţie, activitate nervoasă,
+Metabolismul bazal (de bază) este unul de întreținere, care asigură minimul de
+energie necesar menținerii funcțiilor vitale (circulație, respirație, activitate nervoasă,
 etc.).
 Cantitatea de oxigen utilizat de către organism în stare de repaus fiziologic, precum
-şi cantitatea de dioxid de carbon eliminat prin respiraţie, sunt indici preţiosi în
-estimarea metabolismului bazal. Există şi alte tipuri de măsurători indirecte sau
+și cantitatea de dioxid de carbon eliminat prin respirație, sunt indici prețiosi în
+estimarea metabolismului bazal. Există și alte tipuri de măsurători indirecte sau
 directe (calorimetrice) ale metabolismului bazal.
-Valoarea energetică a metabolismului bazal la adult este cuprinsă între1.300 şi 1.600
+Valoarea energetică a metabolismului bazal la adult este cuprinsă între1.300 și 1.600
 kcal pe zi sau, mai precis, de aproximativ 1 kcal/kg corp/oră, ceea ce însemnă că de
-atât este nevoie doar pentru a supravieţui (pentru întreţinerea funcţiilor vitale), în
-condiţiile în care nu se depune niciun un fel de efort. În sarcină şi febră,
+atât este nevoie doar pentru a supraviețui (pentru întreținerea funcțiilor vitale), în
+condițiile în care nu se depune niciun un fel de efort. În sarcină și febră,
 hipertiroidism, etc., valoarea metabolismului bazal este mai mare. Metabolismul
-bazal mai este influenţat de sex (la femei este mai mic datorită mai bunei
-reprezentări a ţesutului adipos), de activitatea endocrină (hormonii tiroidieni, cei
-sexuali şi cei medulosuprarenali intensifică metabolismul bazal) şi de vârstă.
+bazal mai este influențat de sex (la femei este mai mic datorită mai bunei
+reprezentări a țesutului adipos), de activitatea endocrină (hormonii tiroidieni, cei
+sexuali și cei medulosuprarenali intensifică metabolismul bazal) și de vârstă.
 Valoarea metabolismului
-bazal în funcţie de vârstă
+bazal în funcție de vârstă
 Vârsta
 [ani]
 Valoarea
@@ -690,258 +675,258 @@ Valoarea
  20-40 1
  40-60 0,975
  peste 60 0,925
-Metabolismul intermediar şi metabolismul energetic
-Ansamblul transformărilor chimice, începând de la absorbţia nutrienţilor şi terminând
-cu eliminarea produşilor finali, constituie metabolismul intermediar. Metabolismul
-intermediar este o noţiune care se referă la substanţe (glucide, lipide, protide,
-minerale, etc.) şi la transformările pe care acestea le suferă, deosebindu-se de
-noţiunea de metabolism energetic, care priveşte procesul metabolic din unghiul
-energiei consumate şi degajate în urma reacţiilor biochimice ce au loc.
-Metabolismul energetic vizează eliberarea energiei chimice potenţiale din moleculele
+Metabolismul intermediar și metabolismul energetic
+Ansamblul transformărilor chimice, începând de la absorbția nutrienților și terminând
+cu eliminarea produșilor finali, constituie metabolismul intermediar. Metabolismul
+intermediar este o noțiune care se referă la substanțe (glucide, lipide, protide,
+minerale, etc.) și la transformările pe care acestea le suferă, deosebindu-se de
+noțiunea de metabolism energetic, care privește procesul metabolic din unghiul
+energiei consumate și degajate în urma reacțiilor biochimice ce au loc.
+Metabolismul energetic vizează eliberarea energiei chimice potențiale din moleculele
 25
 
 ### Pagina 26
 
 dezasimilate în urma transformărilor realizate pe baza metabolismului intermediar al
-substanţelor.
-Energia chimică potenţială, în urma proceselor metabolice, se transformă în alte
+substanțelor.
+Energia chimică potențială, în urma proceselor metabolice, se transformă în alte
 forme de energie (mecanică, calorică, electrică. osmotică, etc.). Donorul principal de
 energie este ATP-ul (acid adenozin-trifosforic).
-Degradarea substanţelor alimentare în procesele metabolice conduce în proporţie de
+Degradarea substanțelor alimentare în procesele metabolice conduce în proporție de
 45% la formarea de ATP (R. M. Albu).
-Cele mai importante substanţe implicate în metabolismul intermediar şi energetic,
-sunt glucidele, protinele şi lipidele.
-Metabolismul intermediar şi energetic glucidic
-În organismul omului, glucidele sunt substanţe cu rol energetic. Ele furnizează
-organismului cele mai multe şi mai accesibile calorii. Digestia şi metabolismul acestor
-substanţe au ca produşii finali dioxidul de carbon şi apa .
-Metabolismul intermediar şi energetic protidic
-Proteinele, prin faptul că se uzează repede, dar şi ca o consecinţă a faptului că omul
-nu dispune de organe de depozit pentru aceste substanţe decât celulele însele,
-trebuie reînnoite în permanenţă .
-Metabolismul intermediar şi energetic lipidic
-Metabolismul lipidelor cuprinde transformarea grăsimilor din alimente precum şi
-neogeneza lor (sinteza lipidelor din substanţe nelipidice).
-Metaboliţii
-Metaboliţii sunt substanţe care participă sau iau naştere din metabolismul
-intermediar. Dintre metaboliţi fac parte compuşi ca vitamine, hormoni, produşii
+Cele mai importante substanțe implicate în metabolismul intermediar și energetic,
+sunt glucidele, protinele și lipidele.
+Metabolismul intermediar și energetic glucidic
+În organismul omului, glucidele sunt substanțe cu rol energetic. Ele furnizează
+organismului cele mai multe și mai accesibile calorii. Digestia și metabolismul acestor
+substanțe au ca produșii finali dioxidul de carbon și apa .
+Metabolismul intermediar și energetic protidic
+Proteinele, prin faptul că se uzează repede, dar și ca o consecință a faptului că omul
+nu dispune de organe de depozit pentru aceste substanțe decât celulele însele,
+trebuie reînnoite în permanență .
+Metabolismul intermediar și energetic lipidic
+Metabolismul lipidelor cuprinde transformarea grăsimilor din alimente precum și
+neogeneza lor (sinteza lipidelor din substanțe nelipidice).
+Metaboliții
+Metaboliții sunt substanțe care participă sau iau naștere din metabolismul
+intermediar. Dintre metaboliți fac parte compuși ca vitamine, hormoni, produșii
 intermediari ai metabolismului proteinelor, a lipidelor, etc..
-Produşii intermediari rezultaţi din procesele de dezasimilaţie poartă denumirea de
-cataboliţi.
-Acumularea exagerată a unor cataboliţi (acid lactic, acid piruvic, acid glutamic, acid
+Produșii intermediari rezultați din procesele de dezasimilație poartă denumirea de
+cataboliți.
+Acumularea exagerată a unor cataboliți (acid lactic, acid piruvic, acid glutamic, acid
 uric, corpi cetonici, etc.) în sânge, este dăunătoare organismului.
 GLUCIDELE (NOMENCLATURĂ, STRUCTURĂ, METABOLISM)
 Nomenclatură
-În legătură cu acest important grup de substanţe, s-au încercat mai multe denumiri,
+În legătură cu acest important grup de substanțe, s-au încercat mai multe denumiri,
 niciuna dintre ele nefiind pe deplin satisfăcătoare.
  Denumirea de "glucide" provine de la grecescul "glichis", iar cea de zaharide, de la
-latinescul "saccharum", amândouă însemnând "dulce". Se ştie însă, că nu toate
-glucidele sunt dulci şi, pe de altă parte, că există compuşi care deşi sunt dulci, nu
+latinescul "saccharum", amândouă însemnând "dulce". Se știe însă, că nu toate
+glucidele sunt dulci și, pe de altă parte, că există compuși care deși sunt dulci, nu
 
 ### Pagina 27
 
 sunt glucide.
-Denumirea de "hidraţi de carbon" sau aceia sinonimă de "carbohidraţi" porneşte de la
-o abstracţiune biochimică. În majoritatea cazurilor, structura acestor compuşi se
-poate exprima sub forma: Cn(H2O)m . Aceasta însemnă că formal, molecula conţine
-un anumit număr de atomi de carbon hidrataţi (legaţi de molecule de apă). În
-realitate, din punct de vedere structural, glucidele sunt compuşi multifuncţionali de tip
-polihidroxicarbonilic (conţin grupări funcţionale hidroxid şi carbonil).
-Pentru desemnarea glucidelor, se mai folosesc şi termenii de oze şi ozide.
-În 1927, Comisia Internaţională pentru Reforma Nomenclaturii Chimice, a înlocuit
-denumirea de "hidraţi de carbon" cu acela de "glucide". Cu toate acestea,
+Denumirea de "hidrați de carbon" sau aceia sinonimă de "carbohidrați" pornește de la
+o abstracțiune biochimică. În majoritatea cazurilor, structura acestor compuși se
+poate exprima sub forma: Cn(H2O)m . Aceasta însemnă că formal, molecula conține
+un anumit număr de atomi de carbon hidratați (legați de molecule de apă). În
+realitate, din punct de vedere structural, glucidele sunt compuși multifuncționali de tip
+polihidroxicarbonilic (conțin grupări funcționale hidroxid și carbonil).
+Pentru desemnarea glucidelor, se mai folosesc și termenii de oze și ozide.
+În 1927, Comisia Internațională pentru Reforma Nomenclaturii Chimice, a înlocuit
+denumirea de "hidrați de carbon" cu acela de "glucide". Cu toate acestea,
 schimbarea nu a fost preluată niciodată de literatura de specialitate anglo-saxonă.
 Structura glucidelor
-Glucidele sunt substanţe formate din una sau mai multe molecule. După numărul de
+Glucidele sunt substanțe formate din una sau mai multe molecule. După numărul de
 molecule care intră în structura unei glucide, există:
-- monoglucide numite şi oze (carbohidraţi formaţi dintr-o singură moleculă),
-- oligoglucide (hidraţi de carbon care au în structura lor mai multe resturi (2-6) de
+- monoglucide numite și oze (carbohidrați formați dintr-o singură moleculă),
+- oligoglucide (hidrați de carbon care au în structura lor mai multe resturi (2-6) de
 monoglucide)
-- poliglucide (zaharide cu structură ramificată care pot conţine zeci, sute sau mii de
+- poliglucide (zaharide cu structură ramificată care pot conține zeci, sute sau mii de
 resturi monoglucidice).
- Oligoglucidele şi poliglucidele sunt structuri condensate care mai poartă denumirea
+ Oligoglucidele și poliglucidele sunt structuri condensate care mai poartă denumirea
 de ozide.
-Digestia şi metabolismul glucidelor
-În organismul omului, glucidele sunt substanţe cu rol energetic. Ele furnizează
-organismului cele mai multe şi mai accesibile calorii. Digestia şi metabolismul acestor
-substanţe au ca produşii finali dioxidul de carbon şi apa.
-Doar carbohidraţii cu masă moleculară mică (monoglucidele, unele diglucide) pot
-traversa pereţii intestinali pentru a ajunge în sânge. Oligoglucidele şi poliglucidele
-trebuie să sufere, anterior absorbţiei intestinale, degradări prin care să se scindeze
+Digestia și metabolismul glucidelor
+În organismul omului, glucidele sunt substanțe cu rol energetic. Ele furnizează
+organismului cele mai multe și mai accesibile calorii. Digestia și metabolismul acestor
+substanțe au ca produșii finali dioxidul de carbon și apa.
+Doar carbohidrații cu masă moleculară mică (monoglucidele, unele diglucide) pot
+traversa pereții intestinali pentru a ajunge în sânge. Oligoglucidele și poliglucidele
+trebuie să sufere, anterior absorbției intestinale, degradări prin care să se scindeze
 până la monoglucide.
 Principala poliglucidă prezentă în alimente - amidonul, începe să se descompună
-încă din cavitatea bucală, sub acţiunea enzimei ptialina, care este un ferment alcalin
-din salivă (amilază salivară). Astfel, ptialina este amestecată cu alimentele şi începe
-transformarea amidonului şi a dextrinelor în maltoză. Scindarea moleculelor se
-continuă în stomac, unde acidul clorhidric suprimă activitatea ptialinei şi înlocuieşte
+încă din cavitatea bucală, sub acțiunea enzimei ptialina, care este un ferment alcalin
+din salivă (amilază salivară). Astfel, ptialina este amestecată cu alimentele și începe
+transformarea amidonului și a dextrinelor în maltoză. Scindarea moleculelor se
+continuă în stomac, unde acidul clorhidric suprimă activitatea ptialinei și înlocuiește
 degradarea enzimatică, cu o hidroliză acidă. Procesul de degradare continuă, cu un
-mai mare randament, într-un mediu alcalin, în duoden şi în intestinul subţire, sub
-acţiunea amilazei pancreatice, şi a celei intestinale, astfel încât, se ajunge în final la
-glucoză, monoglucidă care traversează uşor pereţii intestinali.
+mai mare randament, într-un mediu alcalin, în duoden și în intestinul subțire, sub
+acțiunea amilazei pancreatice, și a celei intestinale, astfel încât, se ajunge în final la
+glucoză, monoglucidă care traversează ușor pereții intestinali.
 27
 
 ### Pagina 28
 
-Digestia şi absorbţia glucidelor
-Metabolismul energetic al omului este "planificat" să se desfăşoare cu prioritate pe
-baza glucidelor. Dacă în organism se introduc cantităţi mari de lipide şi de
-carbohidraţi, în maximul 24 de ore va avea loc arderea aproape completă a
+Digestia și absorbția glucidelor
+Metabolismul energetic al omului este "planificat" să se desfășoare cu prioritate pe
+baza glucidelor. Dacă în organism se introduc cantități mari de lipide și de
+carbohidrați, în maximul 24 de ore va avea loc arderea aproape completă a
 glucidelor, în timp ce lipidele vor rămâne în bună parte neoxidate. Lipidele neoxidate
-se vor depune, împreună cu cele derivate din metabolismul altor substanţe, în ţesutul
-adipos, pe termen lung. Dacă în organism ajung cantităţi mai mici de glucide, şi
-acestea de provenienţă naturală, fără absorbţie rapidă, metabolismul nu va avea
-destule resurse energetice, şi va arde combustibilul de depozit, adică grăsimile,
-desigur în condiţiile unei alimentaţii sărace în lipide. Mai mult, o cantitate moderată
-de glucide cu absorbţie lentă, va iniţia procesul de arderea a grăsimilor, dacă aportul
+se vor depune, împreună cu cele derivate din metabolismul altor substanțe, în țesutul
+adipos, pe termen lung. Dacă în organism ajung cantități mai mici de glucide, și
+acestea de proveniență naturală, fără absorbție rapidă, metabolismul nu va avea
+destule resurse energetice, și va arde combustibilul de depozit, adică grăsimile,
+desigur în condițiile unei alimentații sărace în lipide. Mai mult, o cantitate moderată
+de glucide cu absorbție lentă, va iniția procesul de arderea a grăsimilor, dacă aportul
 caloric alimentar nu este mai mare decât energia consumată de corp.
-Principalul donor de energie celulară este glucoza. Aceasta ajunge la ţesuturi fiind
-purtată prin fluxul sanguin. În funcţie de provenienţă, ţesuturile folosesc 3 feluri de
+Principalul donor de energie celulară este glucoza. Aceasta ajunge la țesuturi fiind
+purtată prin fluxul sanguin. În funcție de proveniență, țesuturile folosesc 3 feluri de
 glucoză:
 - glucoza exogenă (rezultată din hrană),
 - glucoza endogenă (rezultată din oxidarea glicogenului),
-- neoglucoza (glucoza provenită din neosinteze, deci din substanţe neglucidice).
-Arderea glucozei în celule are loc sub influenţa insulinei. Metabolismul glucidelor
-poate urma o cale aerobă (în prezenţa îndestulătoare a oxigenului) sau una
+- neoglucoza (glucoza provenită din neosinteze, deci din substanțe neglucidice).
+Arderea glucozei în celule are loc sub influența insulinei. Metabolismul glucidelor
+poate urma o cale aerobă (în prezența îndestulătoare a oxigenului) sau una
 anaerobă (în lisa oxigenului).
 Catabolismul anaerob al glucozei poartă denumirea de glicoliză anaerobă. Prin
-glicoliza anaerobă, fenomen ce are loc mai ales la nivelul ficatului şi a muşchilor
+glicoliza anaerobă, fenomen ce are loc mai ales la nivelul ficatului și a mușchilor
 
 ### Pagina 29
 
 scheletici, glucoza se transformă în acid lactic, în urma trecerii succesive prin 10
-reacţii chimice catalizate enzimatic. În ultima reacţie, care este reversibilă, acidul
+reacții chimice catalizate enzimatic. În ultima reacție, care este reversibilă, acidul
 piruvic trece în acid lactic. Acidul lactic nu se mai degradează mai departe, dar poate
 reveni în acid piruvic, oxidându-se mai departe pe cale aerobă. Acidul lactic rezultat
 din glicoliza anaerobă este responsabil de instalarea febrei musculare, fenomen
-cauzat de creşterea acidităţii musculare. Metabolismul anaerob al glucidelor are loc
-în condiţii de efort fizic solicitant, ca o consecinţă a faptului că necesarul de oxigen
+cauzat de creșterea acidității musculare. Metabolismul anaerob al glucidelor are loc
+în condiții de efort fizic solicitant, ca o consecință a faptului că necesarul de oxigen
 gazos de care au nevoie celulele nu poate fi satisfăcut (nevoile de oxigen ale
-ţesuturilor depăşesc capacitatea de respiraţie tisulară). Glicoliza anaerobă furnizează
-o cantitate mare de energie, însă cu un randament scăzut, un fel de "forţă fără
-rezistenţă".
-Pe cale aerobă, glicoliza are un randament energetic mult superior. În prezenţa
-oxigenului, glucoza trece printr-o serie de reacţii catalizate enzimatic până la acid
-piruvic. Acidul piruvic, trece mai departe în acetil coenzima A (sub influenţa piruvat
-dehidrogenazei), care intră în ciclul lui Krebs, oxidându-se până la CO2 şi H2O.
- Insulina favorizează fixarea glucozei în ţesuturi, stimulează glicoliza şi activează
-complexul enzimatic piruvat dehidrogenaza. În acelaşi timp, insulina inhibă arderea
+țesuturilor depășesc capacitatea de respirație tisulară). Glicoliza anaerobă furnizează
+o cantitate mare de energie, însă cu un randament scăzut, un fel de "forță fără
+rezistență".
+Pe cale aerobă, glicoliza are un randament energetic mult superior. În prezența
+oxigenului, glucoza trece printr-o serie de reacții catalizate enzimatic până la acid
+piruvic. Acidul piruvic, trece mai departe în acetil coenzima A (sub influența piruvat
+dehidrogenazei), care intră în ciclul lui Krebs, oxidându-se până la CO2 și H2O.
+ Insulina favorizează fixarea glucozei în țesuturi, stimulează glicoliza și activează
+complexul enzimatic piruvat dehidrogenaza. În același timp, insulina inhibă arderea
 grăsimilor .
-Faţă de glucoză, fructoza urmează o altă cale metabolică, independentă de insulină.
-Astfel, la nivelul ficatului, sub acţiunea enzimei fructochinaza, substanţa se
+Față de glucoză, fructoza urmează o altă cale metabolică, independentă de insulină.
+Astfel, la nivelul ficatului, sub acțiunea enzimei fructochinaza, substanța se
 fosforilează degradându-se treptat cu eliberare de energie.
-Până nu demult, datorită unei absorbţii mai lente şi ca o consecinţă a faptului că nu
-necesită prezenţa insulinei, se considera că fructoza este cea mai sănătoasă glucidă.
-Timpul însă, a dovedit că lucrurile nu stau chiar aşa.
+Până nu demult, datorită unei absorbții mai lente și ca o consecință a faptului că nu
+necesită prezența insulinei, se considera că fructoza este cea mai sănătoasă glucidă.
+Timpul însă, a dovedit că lucrurile nu stau chiar așa.
 În natură, fructoza se află de cele mai multe ori alăturată glucozei, mai ales în fructe,
-amândouă glucidele aflându-se în concentraţii relativ scăzute. Însă, datorită gustului
-foarte dulce, fructoza a început să se extragă selectiv, astfel încât se întâlneşte
-adăugată într-o mulţime de alimente (cereale pentru micul dejun, răcoritoare, gumă
+amândouă glucidele aflându-se în concentrații relativ scăzute. Însă, datorită gustului
+foarte dulce, fructoza a început să se extragă selectiv, astfel încât se întâlnește
+adăugată într-o mulțime de alimente (cereale pentru micul dejun, răcoritoare, gumă
 de mestecat, prăjituri, bomboane, gemuri, produse pentru diabetici, etc.). Această
 fructoză concentrată nu este deloc sănătoasă.
 Un studiu amplu publicat în SUA în anul 2002, arată că fructoza concentrată, care
-abundă într-o serie largă de alimente la care a fost adăugată, creşte trigliceridele
-sanguine, măreşte tensiunea arterială, produce rezistenţă la insulină şi intoleranţă la
-glucoză, favorizează formarea de ţesut adipos mai mult decât glucoza.
+abundă într-o serie largă de alimente la care a fost adăugată, crește trigliceridele
+sanguine, mărește tensiunea arterială, produce rezistență la insulină și intoleranță la
+glucoză, favorizează formarea de țesut adipos mai mult decât glucoza.
 PROTIDE (PROTEINE)
-Protidele, numite şi proteine sunt substanţe organice cu structură complexă,
+Protidele, numite și proteine sunt substanțe organice cu structură complexă,
 macromoleculară, formate pe baza aminoacizilor.
 Aminoacizii posedă proprietatea de a forma legături chimice, numite polipeptidice,
-între gruparea carboxilica (-COOH) şi gruparea aminica (- NH2), prin eliminare de
-apa. În modul acesta, se formează lanţuri lungi simple sau ramificate, care alcătuiesc
+între gruparea carboxilica (-COOH) și gruparea aminica (- NH2), prin eliminare de
+apa. În modul acesta, se formează lanțuri lungi simple sau ramificate, care alcătuiesc
 structura proteinelor).
-Aşezarea aminoacizilor în lanţuri, nu se face hazardant, ci într-o anumită ordine,
+Așezarea aminoacizilor în lanțuri, nu se face hazardant, ci într-o anumită ordine,
 29
 
 ### Pagina 30
 
-specifică fiecărei proteine. Biosinteza proteinelor se realizează sub influenţa
+specifică fiecărei proteine. Biosinteza proteinelor se realizează sub influența
 materialului genetic (ADN, ARN), fiind comandată de către o genă specială. În celulă
-protidele sunt sintetizate pe ribozomi cu participarea ARN-t şi ARN-m, sub influenţa
+protidele sunt sintetizate pe ribozomi cu participarea ARN-t și ARN-m, sub influența
 sistemelor enzimatice adecvate, matricea fiind ADN-ul.
-Importanţa protidelor
+Importanța protidelor
 Proteinele intră în structurile tuturor celulelor vii îndeplinind numeroase roluri, multe
-dintre ele fundamentale, aşa cum sunt cele energetice şi plastice. Ca funcţie
-energetică, protidele prezintă importanţă secundară, deşi pot dezvolta aproximativ
-aceiaşi valoare energetica ca şi glucidele. Din punct de vedere plastic, proteinele
-sunt cele mai importante substanţe, ele fiind capabile să înlocuiască protoplasma
+dintre ele fundamentale, așa cum sunt cele energetice și plastice. Ca funcție
+energetică, protidele prezintă importanță secundară, deși pot dezvolta aproximativ
+aceiași valoare energetica ca și glucidele. Din punct de vedere plastic, proteinele
+sunt cele mai importante substanțe, ele fiind capabile să înlocuiască protoplasma
 uzată.
-În organismul omului, de existenţa protidelor, depinde nivelul şi activitatea
+În organismul omului, de existența protidelor, depinde nivelul și activitatea
 hormonilor, a enzimelor, a anticorpilor, etc..
-De asemenea, aceste substanţe se dovedesc deosebit de active în ceea ce priveşte
-echilibrul acido-bazic şi cel hidro-electric.
-Protidele joacă şi un rol activ în transportul unor substanţe, mai ales oxigen, apă şi
+De asemenea, aceste substanțe se dovedesc deosebit de active în ceea ce privește
+echilibrul acido-bazic și cel hidro-electric.
+Protidele joacă și un rol activ în transportul unor substanțe, mai ales oxigen, apă și
 lipide.
-La nivelul pereţilor celulari, îndeosebi al neuronilor, există anumite proteine (de
-barieră) care permit trecerea selectivă a unor ioni (Na+, K+) pe de-o parte şi de alta a
-membranei celulare, prin nişte canale speciale. Aceste protide asigură buna
-funcţionare a sistemului nervos şi a plăcilor neuromusculare.
-Aşezarea stratificată a protidelor precum şi capacitatea lor de a se deforma
-reversibil, determină posibilitatea realizării contracţiei musculare, cu toate
-consecinţele ce decurg de aici (locomoţie, bătăile inimii, tonicitatea organelor,
+La nivelul pereților celulari, îndeosebi al neuronilor, există anumite proteine (de
+barieră) care permit trecerea selectivă a unor ioni (Na+, K+) pe de-o parte și de alta a
+membranei celulare, prin niște canale speciale. Aceste protide asigură buna
+funcționare a sistemului nervos și a plăcilor neuromusculare.
+Așezarea stratificată a protidelor precum și capacitatea lor de a se deforma
+reversibil, determină posibilitatea realizării contracției musculare, cu toate
+consecințele ce decurg de aici (locomoție, bătăile inimii, tonicitatea organelor,
 activitate fizică, etc.).
 Protidele intră în structura materialului genetic (ADN, ARN), de care depinde toate
-aspectele particulare ale unui individ, precum şi a urmaşilor săi.
-Funcţiile atât de diferite pe care le joacă proteinele, se explică prin succesiunea
+aspectele particulare ale unui individ, precum și a urmașilor săi.
+Funcțiile atât de diferite pe care le joacă proteinele, se explică prin succesiunea
 aminoacizilor, care este diferită pentru fiecare protidă în parte.
-Proprietăţile protidelor
-Majoritatea proteinelor au caracter amfoter (în mediu acid se comportă ca baze şi în
-mediu bazic se comportă ca acizi). Acest lucru se datorează ramificaţiilor care conţin
-atât grupări carboxilice ( funcţii acide) cât şi grupări aminice (funcţii bazice). În mediu
+Proprietățile protidelor
+Majoritatea proteinelor au caracter amfoter (în mediu acid se comportă ca baze și în
+mediu bazic se comportă ca acizi). Acest lucru se datorează ramificațiilor care conțin
+atât grupări carboxilice ( funcții acide) cât și grupări aminice (funcții bazice). În mediu
 acid proteinele se comportă ca baze slabe, ele acceptând protoni (H+), iar în mediu
-bazic se comportă ca acizi slabi cedând protoni (H+). Mulţumită caracterului amfoter,
-proteinele pot neutraliza substanţe acide sau alcaline, menţinând astfel echlibrul
+bazic se comportă ca acizi slabi cedând protoni (H+). Mulțumită caracterului amfoter,
+proteinele pot neutraliza substanțe acide sau alcaline, menținând astfel echlibrul
 acido-bazic.
 75% din capacitatea de tamponare a plasmei este determinată de protide.
-Cele mai multe protide sunt solubile în apă. În alte soluţii, dizolvabilitatea protidelor
+Cele mai multe protide sunt solubile în apă. În alte soluții, dizolvabilitatea protidelor
 
 ### Pagina 31
 
 este foarte diferită.
-Sub acţiunea unor factori fizici (temperaturi înalte, radiaţii, agitare, centrifugare) sau
-chimici (diferite substanţe) proteinele coagulează. Coagularea poate fi reversibilă (la
-viraje ale pH-ului) sau ireversibilă (la încălzire sau la tratarea cu unele substanţe).
+Sub acțiunea unor factori fizici (temperaturi înalte, radiații, agitare, centrifugare) sau
+chimici (diferite substanțe) proteinele coagulează. Coagularea poate fi reversibilă (la
+viraje ale pH-ului) sau ireversibilă (la încălzire sau la tratarea cu unele substanțe).
 Coagularea ireversibilă este un fenomen de precipitare care poartă numele de
 denaturare. Denaturarea poate fi observată foarte bine la oul fiert
 Majoritatea protidelor sunt hidrofile (au o afinitate pentru apă, pe care "o legă" de
-structurile lor) şi prezintă proprietăţi coloidale. Există şi proteine hidrofobe, care, de
+structurile lor) și prezintă proprietăți coloidale. Există și proteine hidrofobe, care, de
 obicei leagă lipide.
-O proprietate importantă a proteinelor este specificitatea de organ şi de specie a
+O proprietate importantă a proteinelor este specificitatea de organ și de specie a
 acestora.
-Structura spaţială a protidelor
-Protidele posedă o structură primară - determinată de felul, numărul şi secvenţa
+Structura spațială a protidelor
+Protidele posedă o structură primară - determinată de felul, numărul și secvența
 aminoacizilor ; una secundară - determinată de felul cum se formează, se răsucesc
-şi se leagă lanţurile de aminoacizi ; precum şi o structură terţiară, care presupune
-desfăşurarea în spaţiu, în cele trei dimensiuni, a macromoleculei.
+și se leagă lanțurile de aminoacizi ; precum și o structură terțiară, care presupune
+desfășurarea în spațiu, în cele trei dimensiuni, a macromoleculei.
 Clasificarea protidelor
 Protidele se clasifică după două criterii principale:
-- după numărul de aminoacizi din lanţurile structurale,
+- după numărul de aminoacizi din lanțurile structurale,
 - după forma macromoleculei.
  Clasificarea protidelor după numărul de aminoacizi
 După acest criteriu, protidele se împart în:
 - monopeptide (aminoacizi),
-- peptide [protide intermediare] (oligopeptide şi polipeptide)
+- peptide [protide intermediare] (oligopeptide și polipeptide)
 - macropeptide (holoproteide, heteroproteide)
-Oligopeptidele conţin doar câţiva aminoacizi, în timp ce polipeptidele, au astfel de
-substanţe aminate, în cantitate mai mare.
-Macroprotidele sunt substanţe macromoleculare (cu foarte mulţii acizi aminaţi) care
-au în structura lor doar aminoacizi sau, pe lângă aceştia, conţin şi alte substanţe (,
-glucide lipide, minerale acizi anorganici, acizi nucleici, pigmenţi), caz în care poartă
+Oligopeptidele conțin doar câțiva aminoacizi, în timp ce polipeptidele, au astfel de
+substanțe aminate, în cantitate mai mare.
+Macroprotidele sunt substanțe macromoleculare (cu foarte mulții acizi aminați) care
+au în structura lor doar aminoacizi sau, pe lângă aceștia, conțin și alte substanțe (,
+glucide lipide, minerale acizi anorganici, acizi nucleici, pigmenți), caz în care poartă
 denumirea de heteroproteide.
 Clasificarea protidelor după forma macromoleculei
 După formă, proteinele sunt:
-- globulare (sunt sferice şi vii),
+- globulare (sunt sferice și vii),
 31
 
 ### Pagina 32
 
-- fibrilare (sunt alungite şi dure numindu-se şi scleoproteide).
+- fibrilare (sunt alungite și dure numindu-se și scleoproteide).
 Protidele globulare sunt sferice (globuloase), în timp ce cele fibrilare, au forma
-alungită. Între cele două tipuri, există şi forme intermediare (globulinele).
+alungită. Între cele două tipuri, există și forme intermediare (globulinele).
 Holoproteidele (proteinele propriu-zise)
-Holoproteidele sunt substanţe macromoleculare care conţin în structura lor doar
-aminoacizi , deci numai carbon, hidrogen, oxigen, azot şi sulf.
-Cu excepţia scleroprotidelor, toate holoproteidele sunt globulare.
-Din această grupă de protide fac parte următoarele substanţe
+Holoproteidele sunt substanțe macromoleculare care conțin în structura lor doar
+aminoacizi , deci numai carbon, hidrogen, oxigen, azot și sulf.
+Cu excepția scleroprotidelor, toate holoproteidele sunt globulare.
+Din această grupă de protide fac parte următoarele substanțe
 - albuminele,
 - globulinele,
 - glutaminele,
@@ -950,97 +935,97 @@ Din această grupă de protide fac parte următoarele substanţe
 - protaminele,
 - scleroprotidele.
 Heteroproteidele
-Heteroproteidele conţin, pe lângă aminoacizi, diferite alte substanţe. Grupările pe
-care protidele le realizează cu substanţele neproteice se numesc grupări prosteice.)
+Heteroproteidele conțin, pe lângă aminoacizi, diferite alte substanțe. Grupările pe
+care protidele le realizează cu substanțele neproteice se numesc grupări prosteice.)
 Principalele heteroproteide sunt:
 - metaloproteinele (hemoglobina, citocromul, clorofila, vitamina B12, etc.),
-- fosfoproteinele (proteine de origine animală; de ex. cazeina, care conţin fosfor),
-- mucoproteinele (proteine care conţin mucopoliglucide),
-- glicoproteinele (proteine de origine animală care conţin resturi de glicogen),
+- fosfoproteinele (proteine de origine animală; de ex. cazeina, care conțin fosfor),
+- mucoproteinele (proteine care conțin mucopoliglucide),
+- glicoproteinele (proteine de origine animală care conțin resturi de glicogen),
 - lipoproteinele (proteine de transport, care fixează grăsimile, împreună cu care
-circulă în sânge şi în limfă, precum şi prin vasele conducătoare ale plantelor),
-- nucleoproteinele (proteine care conţin acizi nucleici).
-Digestia, absorbţia şi metabolismul protidelor
-Proteinele, prin faptul că se uzează repede, dar şi ca o consecinţă a faptului că omul
-nu dispune de organe de depozit pentru aceste substanţe decât celulele însele,
-trebuiesc reînnoite în permanenţă.
- Protidele din hrană se scindează înaintea absorbţiei intestinale, până la aminoacizi
-(în cazul holoproteidelor) sau aminoacizi şi alte substanţe provenite de la grupările
+circulă în sânge și în limfă, precum și prin vasele conducătoare ale plantelor),
+- nucleoproteinele (proteine care conțin acizi nucleici).
+Digestia, absorbția și metabolismul protidelor
+Proteinele, prin faptul că se uzează repede, dar și ca o consecință a faptului că omul
+nu dispune de organe de depozit pentru aceste substanțe decât celulele însele,
+trebuiesc reînnoite în permanență.
+ Protidele din hrană se scindează înaintea absorbției intestinale, până la aminoacizi
+(în cazul holoproteidelor) sau aminoacizi și alte substanțe provenite de la grupările
 prosteice (în cazul holoproteidelor). Această scindare se petrece în tubul digestiv sub
-acţiune enzimelor specifice, numite proteaze .
-Puţine proteine se pot absorbi, în mod normal, nedescompuse, aşa cum se întâmplă
-în cazul unor anticorpi (IgA) conţinuţi în laptele matern, asigurându-se astfel, un
+acțiune enzimelor specifice, numite proteaze .
+Puține proteine se pot absorbi, în mod normal, nedescompuse, așa cum se întâmplă
+în cazul unor anticorpi (IgA) conținuți în laptele matern, asigurându-se astfel, un
 
 ### Pagina 33
 
 transfer de imunitate de al mamă la făt. În unele cazuri, permeabilitatea intestinală
-creşte peste normal, putând trece în sânge protide nedescompuse. În astfel de
-situaţii, la o nouă pătrundere a aceloraşi substanţe proteice, prin formarea şi
+crește peste normal, putând trece în sânge protide nedescompuse. În astfel de
+situații, la o nouă pătrundere a acelorași substanțe proteice, prin formarea și
 activitatea unor anticorpi, au loc fenomene alergice (R. M. Albu).
- Absorbţia proteinelor este favorizată de către vitamina B6 şi de către natriu (R. M.
+ Absorbția proteinelor este favorizată de către vitamina B6 și de către natriu (R. M.
 Albu).
- Aminoacizii, traversând pereţii intestinali ajung în sânge, şi de aici în celule, unde au
-loc, pe baza lor, biosinteze proteice specifice. Excepţie de la această regulă fac
-proteinele plasmatice, care se sintetizează la nivelul ficatului şi al sistemului reticulo-
+ Aminoacizii, traversând pereții intestinali ajung în sânge, și de aici în celule, unde au
+loc, pe baza lor, biosinteze proteice specifice. Excepție de la această regulă fac
+proteinele plasmatice, care se sintetizează la nivelul ficatului și al sistemului reticulo-
 endotelial.
  Catabolizarea aminoaciziilor este un proces de dezaminare (moleculele pierd
-gruparea amino - NH2). După dezaminare moleculele se "ard"ca şi glucidele şi
+gruparea amino - NH2). După dezaminare moleculele se "ard"ca și glucidele și
 lipidele în ciclul lui Krebs. Din grupările aminice se formează, în cea mai mare parte
-în ficat, ureea, care se elimină pe cale renală şi corpii cetonici, care se elimină urinar
-sau prin expiraţie - în parte, restul lor fiind utilizat în noi sinteze. De asemenea pe
-parcursul metabolismului proteinelor, precum şi în cadrul interconversiunilor
-metabolice, au loc numeroase procese de transaminare , sub influenţa unor enzime
+în ficat, ureea, care se elimină pe cale renală și corpii cetonici, care se elimină urinar
+sau prin expirație - în parte, restul lor fiind utilizat în noi sinteze. De asemenea pe
+parcursul metabolismului proteinelor, precum și în cadrul interconversiunilor
+metabolice, au loc numeroase procese de transaminare , sub influența unor enzime
 din grupul transminazelor.
-Metabolismul proteic este unul mai puţin "curat" decât cel al glucidelor sau lipidelor,
-deoarece catabolismul nu se desfăşoară în exclusivitate prin descompuneri până la
-dioxid de carbon şi apă, rezultând şi unele deşeuri. Principalele deşeuri proteice
+Metabolismul proteic este unul mai puțin "curat" decât cel al glucidelor sau lipidelor,
+deoarece catabolismul nu se desfășoară în exclusivitate prin descompuneri până la
+dioxid de carbon și apă, rezultând și unele deșeuri. Principalele deșeuri proteice
 sunt:
 - ureea,
 - acidul uric,
 - creatinina.
 - amoniacul (rezultă din activitatea microflorei proteolitice).
- Aceste deşeuri se acumulează în cantităţi mari sau (şi) se elimină greu din corp
-în unele afecţiuni (diateză urică, insuficienţă renală, ciroză, tulburări asociate
-metabolismului de inaniţie, etc.).
- Atât corpii cetonici cât şi deşeurile proteice, sunt produşi toxici dacă sunt reţinuţi în
+ Aceste deșeuri se acumulează în cantități mari sau (și) se elimină greu din corp
+în unele afecțiuni (diateză urică, insuficiență renală, ciroză, tulburări asociate
+metabolismului de inaniție, etc.).
+ Atât corpii cetonici cât și deșeurile proteice, sunt produși toxici dacă sunt reținuți în
 organism.
-Rolul proteinelor în metabolismul energetic este unul secundar, la aceşti compuşi
-predominând rolul plastic, adică acela de a repara şi a reînnoi în permanenţă
-celulele, ţesuturile şi organele.
-În procesul de anabolism, pe baza aminoacizilor, dar şi al altor substanţe, se
-sintetizează proteine specifice, precum şi alţi compuşi (glucoză, acizi cetonici).
+Rolul proteinelor în metabolismul energetic este unul secundar, la acești compuși
+predominând rolul plastic, adică acela de a repara și a reînnoi în permanență
+celulele, țesuturile și organele.
+În procesul de anabolism, pe baza aminoacizilor, dar și al altor substanțe, se
+sintetizează proteine specifice, precum și alți compuși (glucoză, acizi cetonici).
 Proteinele sintetizate nu mai au nimic de-a face cu protidele alimentare, adică ele nu
 mai păstrează absolut nimic din specificul hranei din care derivă.
-Reglarea metabolismului proteinelor, astfel încât nutriţia celulară să se desfăşoare
+Reglarea metabolismului proteinelor, astfel încât nutriția celulară să se desfășoare
 corespunzător, se realizează prin mecanisme celulare (în interiorul celulelor),
-hormonale şi nervoase.
+hormonale și nervoase.
 Proteinele din sânge
 33
 
 ### Pagina 34
 
 Prin sistemul circulator, protidele circulă libere, încorporate în diferite structuri sau ca
-nişte "cărăuşi" pentru diverse substanţe. Pe lângă proteinele din constituţia
+niște "cărăuși" pentru diverse substanțe. Pe lângă proteinele din constituția
 elementelor figurate, în sânge se mai găsesc o serie de protide palsmatice, precum
-şi compuşi de transport, aşa cum sunt lipoproteinele.
- Excluzând proteinele elementelor figurate, pe cele care realizează coagularea şi pe
-cele care ajută la transportul altor substanţe, mai rămân, în ser, unele protide cu rol
-în asigurarea osmolarităţii şi a echilibrului acido-bazic.
-Proteinemia normală, hipoproteinemia şi hiperproteinemia
+și compuși de transport, așa cum sunt lipoproteinele.
+ Excluzând proteinele elementelor figurate, pe cele care realizează coagularea și pe
+cele care ajută la transportul altor substanțe, mai rămân, în ser, unele protide cu rol
+în asigurarea osmolarității și a echilibrului acido-bazic.
+Proteinemia normală, hipoproteinemia și hiperproteinemia
 Proteinemia reprezintă o valoare care reflectă cantitatea de proteine din sânge.
 Valoarea normală a proteinelor serice este de 6-8,6g/100ml. Scăderea cantitativă a
 proteinelor din sânge sub pragul de 6g/100ml, instalează hipoproteinemia, iar
-creşterea acestei valori peste pragul de 9g/100ml, conduce la hiperproteinemie.
+creșterea acestei valori peste pragul de 9g/100ml, conduce la hiperproteinemie.
 Cantitatea de proteine din sânge nu reflectă în mod obligatoriu nivelul proteinelor din
-corp, dar totuşi, în general, hipoproteinemia se asociază cu hipoproteinismul , tot aşa
-cum şi hiperproteinemia merge mână în mână cu hiperproteinismul.
-Albuminele şi globulinele din sânge şi raportul A/G
- Nu numai nivelul proteinelor serice contează, ci şi felul acestora precum şi raportul
-ce se stabileşte între aceşti componenţi.
+corp, dar totuși, în general, hipoproteinemia se asociază cu hipoproteinismul , tot așa
+cum și hiperproteinemia merge mână în mână cu hiperproteinismul.
+Albuminele și globulinele din sânge și raportul A/G
+ Nu numai nivelul proteinelor serice contează, ci și felul acestora precum și raportul
+ce se stabilește între acești componenți.
  Cele două holoproteide prezente în ser sunt:
 - albuminele,
 - globulinele.
- Reprezentarea normală al acestor componente precum şi raportul dintre ele, sunt
+ Reprezentarea normală al acestor componente precum și raportul dintre ele, sunt
 redate în tabelul de mai jos.
 Proteine serice totale
 (medie)
@@ -1051,168 +1036,168 @@ Albumine
 globuline (A/G)
 g/100ml % g/100ml % g/100ml %
 7,5 100 4,5 60 3 40 1,5
-Un raport A/G cuprins între 1,2 şi 1,5, se consideră a fi corespunzător. Creşterea
-acestei valori nu are o semnificaţie patologică deosebită, însă scăderea ei, mai ales
-sub valoarea 1, poate semnifica existenţa unei tulburări.
- Un raport unitar sau chiar subunitar denotă existenţa unui nivel prea ridicat de
-globuline, fie sub aspect relativ (albuminele sunt scăzute iar globulinele, deşi au un
+Un raport A/G cuprins între 1,2 și 1,5, se consideră a fi corespunzător. Creșterea
+acestei valori nu are o semnificație patologică deosebită, însă scăderea ei, mai ales
+sub valoarea 1, poate semnifica existența unei tulburări.
+ Un raport unitar sau chiar subunitar denotă existența unui nivel prea ridicat de
+globuline, fie sub aspect relativ (albuminele sunt scăzute iar globulinele, deși au un
 nivel optim, sunt în exces de raport), fie absolut (globulinele sunt în exces cantitativ).
- Dacă A/G este mai mic de 1,2 ca o consecinţă a scăderii nivelului de albumine
-serice, în organism există un deficit în ceea ce priveşte sinteza globală a proteinelor .
+ Dacă A/G este mai mic de 1,2 ca o consecință a scăderii nivelului de albumine
+serice, în organism există un deficit în ceea ce privește sinteza globală a proteinelor .
 
 ### Pagina 35
 
-Dacă raportul dintre albumine şi globuline este prea mic pe seama creşterii sintezei
-de globuline, poate fi vorba de existenţa unor perturbări provocate de: boli infecţioase
-(bacteriene, virotice) acute sau cronice, parazitoze, reumatism, tumori, afecţiuni
-renale (sindrom nefrotic), afecţiuni hepatice, alergii, etc..
- Primul semn al deteriorării raportului dintre albumine şi globuline este edemul,
+Dacă raportul dintre albumine și globuline este prea mic pe seama creșterii sintezei
+de globuline, poate fi vorba de existența unor perturbări provocate de: boli infecțioase
+(bacteriene, virotice) acute sau cronice, parazitoze, reumatism, tumori, afecțiuni
+renale (sindrom nefrotic), afecțiuni hepatice, alergii, etc..
+ Primul semn al deteriorării raportului dintre albumine și globuline este edemul,
 cauzat de scăderea presiunii osmotice (oncotice) sanguine, proprietate datorată în
 mare măsură albuminelor.
 METABOLISMUL LIPIDELOR
-Metabolismul lipidelor cuprinde transformarea grăsimilor din alimente precum şi
-neogeneza lor (sinteza lipidelor din substanţe nelipidice).
-Absorbţia lipidelor
-Trebuie ştiut faptul că, dintre toţi nutrienţii principali, lipidele, deşi sunt cele mai
-calorice, dau în cea mai mică măsură senzaţia de saţietate. Din acest motiv, se pot
-consuma în cantitate mare, fapt ce va conduce la obezitate precum şi la alte
+Metabolismul lipidelor cuprinde transformarea grăsimilor din alimente precum și
+neogeneza lor (sinteza lipidelor din substanțe nelipidice).
+Absorbția lipidelor
+Trebuie știut faptul că, dintre toți nutrienții principali, lipidele, deși sunt cele mai
+calorice, dau în cea mai mică măsură senzația de sațietate. Din acest motiv, se pot
+consuma în cantitate mare, fapt ce va conduce la obezitate precum și la alte
 probleme de sănătate.
  Lipidele din hrană, pentru a trece de barierele intestinale, trebuie în prealabil, în
 mare măsură, scindate (desfăcute), fenomen ce se petrece în tubul digestiv.
-Deoarece, faţă de glucide şi de proteine, grăsimile nu sunt solubile în apă şi în acizi,
-mecanismul prin care se realizează desfacerea acestor substanţe în componentele
-lor, este diferit, şi, se poate spune, mai dificil.
- Lipidele din alimente, trec din gură în stomac, prin faringe şi prin esofag, cu structura
+Deoarece, față de glucide și de proteine, grăsimile nu sunt solubile în apă și în acizi,
+mecanismul prin care se realizează desfacerea acestor substanțe în componentele
+lor, este diferit, și, se poate spune, mai dificil.
+ Lipidele din alimente, trec din gură în stomac, prin faringe și prin esofag, cu structura
 neschimbată. La nivel gastric, transformările suferite de grăsimi sunt nesemnificative,
-cu excepţia copiilor mici, care posedă enzime din categoria lipazelor (lipaza gastrică),
-cu care pot scinda grăsimile din lapte şi din ouă.
+cu excepția copiilor mici, care posedă enzime din categoria lipazelor (lipaza gastrică),
+cu care pot scinda grăsimile din lapte și din ouă.
 Adevăratele transformări digestive ale lipidelor se petrec la nivelul duodenului, sub
-influenţa bilei şi a sucului pancreatic, precum şi la nivelul intestinului subţire, datorită
-activităţii lipazelor intestinale.
- Bila, produsul de secreţie şi excreţie al ficatului, deşi nu conţine enzime (cu excepţia
-fosfatazei alcaline), îndeplineşte un rol de seamă în scindarea moleculelor lipidelor
+influența bilei și a sucului pancreatic, precum și la nivelul intestinului subțire, datorită
+activității lipazelor intestinale.
+ Bila, produsul de secreție și excreție al ficatului, deși nu conține enzime (cu excepția
+fosfatazei alcaline), îndeplinește un rol de seamă în scindarea moleculelor lipidelor
 datorită sărurilor biliare, care se formează pe seama colesterolului. Bila realizează
-emulsionarea grăsimilor (fracţionarea lor în picături foarte fine), favorizând în acelaşi
-timp, activitatea lipazelor intestinale, precum şi absorbţia acizilor graşi (R. M. Albu).
- Grăsimile după emulsionare, sunt mult mai uşor de scindat de către lipaze, care
+emulsionarea grăsimilor (fracționarea lor în picături foarte fine), favorizând în același
+timp, activitatea lipazelor intestinale, precum și absorbția acizilor grași (R. M. Albu).
+ Grăsimile după emulsionare, sunt mult mai ușor de scindat de către lipaze, care
 realizează hidroliza acestora. Lipaza pancreatică, care este activată de către sărurile
-biliare, de către ionii de calciu şi de către aminoacizi, realizează desfacerea lipidelor
-în acizi graşi şi glicerol (glicerină). O anumită cantitate de grăsimi este scindată şi
-sub acţiunea lipazelor intestinale. În urma hidrolizei se formează micelii minuscule,
+biliare, de către ionii de calciu și de către aminoacizi, realizează desfacerea lipidelor
+în acizi grași și glicerol (glicerină). O anumită cantitate de grăsimi este scindată și
+sub acțiunea lipazelor intestinale. În urma hidrolizei se formează micelii minuscule,
 sub forma unor picături extrem de fine, mult mai mici decât cele rezultate din
-emulsionarea biliară. Sub influenţa sărurilor biliare, alături de grăsimile emulsionate,
+emulsionarea biliară. Sub influența sărurilor biliare, alături de grăsimile emulsionate,
 35
 
 ### Pagina 36
 
-apar şi acizi graşi saponificaţi.
-Acizii graşi şi glicerina, trec, liberi sau reesterificaţi, prin pereţii intestinului subţire, în
-limfă şi în sânge, în urma procesului de absorbţie. Unele trigliceride din alimente, nu
-suferă transformări digestive, şi se absorb ca atare. Absorbţia acizilor graşi şi a
-glicerolului antrenează cu sine trecerea dincolo de pereţii intestinali, a vitaminelor
+apar și acizi grași saponificați.
+Acizii grași și glicerina, trec, liberi sau reesterificați, prin pereții intestinului subțire, în
+limfă și în sânge, în urma procesului de absorbție. Unele trigliceride din alimente, nu
+suferă transformări digestive, și se absorb ca atare. Absorbția acizilor grași și a
+glicerolului antrenează cu sine trecerea dincolo de pereții intestinali, a vitaminelor
 liposolubile (A, D, E, F, K).
-Absorbţia acizilor graşi este mult mai simplă şi mai rapidă în cazul acelora cu lanţ
-scurt (sub 10 atomi de carbon), şi se desfăşoară mai greoi în cazul acizilor graşi cu
-lanţ lung. Acizii graşi cu catena forte lungă (peste 22 atomi de carbon), nu se absorb
-deloc, constituindu-se ca şi celuloza, în material de balast. În peretele intestinal,
-acizii cu lanţ mijlociu (10-22 atomi C) se reesterifică şi se transportă sub formă de
-minuscule picături de lipide stabilizate cu acizi biliari şi cu proteine. Acizii graşi cu lanţ
+Absorbția acizilor grași este mult mai simplă și mai rapidă în cazul acelora cu lanț
+scurt (sub 10 atomi de carbon), și se desfășoară mai greoi în cazul acizilor grași cu
+lanț lung. Acizii grași cu catena forte lungă (peste 22 atomi de carbon), nu se absorb
+deloc, constituindu-se ca și celuloza, în material de balast. În peretele intestinal,
+acizii cu lanț mijlociu (10-22 atomi C) se reesterifică și se transportă sub formă de
+minuscule picături de lipide stabilizate cu acizi biliari și cu proteine. Acizii grași cu lanț
 scurt nu se reesterifică, ci ajungând în sânge, se legă direct cu albuminele
 plasmatice (G. Niac).
-Digestia şi absorbţia lipidelor
-Cunoscându-se absorbţia facilă a acizilor graş i cu lanţ scurt (butiric, capronic,
+Digestia și absorbția lipidelor
+Cunoscându-se absorbția facilă a acizilor graș i cu lanț scurt (butiric, capronic,
 caprilic, caprinic), se poate spune, că ele sunt cele mai digerabile, dar nu în mod
-obligatoriu şi cele mai sănătoase.
-În circulaţia generală, lipidele şi produşii lor de hidroliză enzimatică, ajung pe cale
-limfatică (75-85%) şi pe cale sanguină, prin vena portă (15-25 %). O bună parte din
-lipidele care trec în limfă, ajung în plămâni, unde sub influenţa lipazei pulmonare sunt
+obligatoriu și cele mai sănătoase.
+În circulația generală, lipidele și produșii lor de hidroliză enzimatică, ajung pe cale
+limfatică (75-85%) și pe cale sanguină, prin vena portă (15-25 %). O bună parte din
+lipidele care trec în limfă, ajung în plămâni, unde sub influența lipazei pulmonare sunt
 
 ### Pagina 37
 
-oxidate. Acesta însemnă că, prin creşterea amplitudinii respiraţiei, se pot arde în mod
+oxidate. Acesta însemnă că, prin creșterea amplitudinii respirației, se pot arde în mod
 direct grăsimi.
- Proporţia în care lipidele urmează o cale faţă de alta (limfatică sau sanguină)
+ Proporția în care lipidele urmează o cale față de alta (limfatică sau sanguină)
 depinde de gradul de descompunere al acestora, din timpul digestiei. Trigliceridele
 care nu s-au descompus, se absorb mai ales prin sistemul căilor limfatice, iar acizii
-graşi, trec preponderent în vena portă.
+grași, trec preponderent în vena portă.
 În ficat, prin vena portă, ajung, după cum am arătat mai sus, doar aproximativ 20%
-din grăsimi. Dacă grăsimea ajunsă la ficat se depune aici, are loc infiltraţia grasă a
-ficatului (steatoza hepatică), având ca urmare scăderea funcţiilor acestui organ.
+din grăsimi. Dacă grăsimea ajunsă la ficat se depune aici, are loc infiltrația grasă a
+ficatului (steatoza hepatică), având ca urmare scăderea funcțiilor acestui organ.
 Perturbarea are loc, fie atunci când ficatul este sărac în glicogen, fie când este
-împiedicată ieşirea grăsimii din celulele hepatice. Ce de-a doua situaţie, apare ca o
-consecinţă a formării insuficiente de fosfolipide, prin lipsa factorilor lipotropi.
-Ficatul, nu are menirea de a depozita lipidele, iar dacă totuşi acestea se acumulează
-aici, se produc perturbări, după cum am menţionat anterior. Depozitul principal pentru
-grăsimi îl reprezintă ţesutul adipos. Dar dacă aceste depozite se încarcă prea mult,
-se produc dereglaje care merg de la scăderea masei şi a tonicităţii musculare, până
+împiedicată ieșirea grăsimii din celulele hepatice. Ce de-a doua situație, apare ca o
+consecință a formării insuficiente de fosfolipide, prin lipsa factorilor lipotropi.
+Ficatul, nu are menirea de a depozita lipidele, iar dacă totuși acestea se acumulează
+aici, se produc perturbări, după cum am menționat anterior. Depozitul principal pentru
+grăsimi îl reprezintă țesutul adipos. Dar dacă aceste depozite se încarcă prea mult,
+se produc dereglaje care merg de la scăderea masei și a tonicității musculare, până
 la obezitate.
 Soarta lipidelor în organismul omului
-La nivelul organismului uman, lipidele joacă rol energetic, funcţional şi de constituţie.
-După absorbţie, lipidele urmează mai multe căi, care se pot intersecta:
-- se depozitează în ţesutul adipos, ca substanţe de rezervă, sub formă de trigliceride;
+La nivelul organismului uman, lipidele joacă rol energetic, funcțional și de constituție.
+După absorbție, lipidele urmează mai multe căi, care se pot intersecta:
+- se depozitează în țesutul adipos, ca substanțe de rezervă, sub formă de trigliceride;
 - se stochează temporar în ficat;
-- în urma unor reacţii, intră în structura unor substanţe complexe (lipoproteine), unele
-dintre ele rămânând în circulaţia sanguină;
-- se oxidează în ţesuturi, până la dioxid de carbon şi apă, cu eliberare de energie (1
+- în urma unor reacții, intră în structura unor substanțe complexe (lipoproteine), unele
+dintre ele rămânând în circulația sanguină;
+- se oxidează în țesuturi, până la dioxid de carbon și apă, cu eliberare de energie (1
 g de lipide poate elibera 9,3 kcal);
-Grăsimile din organism, se află sub formă de: trigliceride, fosfolipide, colesterol şi
-acizi graşi liberi.
-Metabolismul lipidelor este sub control endocrin, desfăşurându-se cu participarea
+Grăsimile din organism, se află sub formă de: trigliceride, fosfolipide, colesterol și
+acizi grași liberi.
+Metabolismul lipidelor este sub control endocrin, desfășurându-se cu participarea
 hormonilor anterohipofizari, tiroidieni, pancreatici, suprarenali. Totodată, în procesul
-metabolic al grăsimilor, intervine activ şi leptina, hormon specific ţesutului adipos. Pe
-lângă sistemul endocrin, în reglarea metabolismului lipidelor, mai participă şi sistemul
+metabolic al grăsimilor, intervine activ și leptina, hormon specific țesutului adipos. Pe
+lângă sistemul endocrin, în reglarea metabolismului lipidelor, mai participă și sistemul
 nervos.
-Procesul de desfacere a fracţiunilor lipidelor, poartă denumirea de lipoliză. Lipoliza se
-desfăşoară, după cum am arătat mai sus, la nivelul tubului digestiv, dar continuă şi la
-nivelul ţesuturilor, realizându-se sub cataliza enzimelor numite lipaze. Insulina
+Procesul de desfacere a fracțiunilor lipidelor, poartă denumirea de lipoliză. Lipoliza se
+desfășoară, după cum am arătat mai sus, la nivelul tubului digestiv, dar continuă și la
+nivelul țesuturilor, realizându-se sub cataliza enzimelor numite lipaze. Insulina
 intervine în mod indirect în metabolismul lipidelor, în special prin efectul inhibant
-exercitat asupra lipazelor, frânând astfel lipoliza şi oxidarea lipidelor.
+exercitat asupra lipazelor, frânând astfel lipoliza și oxidarea lipidelor.
  Prin activitatea insulinei, după o masă bogată în glucide, va fi favorizată arderea
-glucozei, în timp ce arderea lipidelor va fi inhibată. Alcoolul, alături de carbohidraţi,
+glucozei, în timp ce arderea lipidelor va fi inhibată. Alcoolul, alături de carbohidrați,
 inhibă de asemenea oxidarea lipidelor (Rădulescu, 2004).
 37
 
 ### Pagina 38
 
-În sens contrar, o masă bogată în grăsimi, va avea o acţiune inhibantă asupra
+În sens contrar, o masă bogată în grăsimi, va avea o acțiune inhibantă asupra
 insulinei, însă metabolismul lipidic nu se va intensifica, deoarece lipidele în exces,
-frânează, în acelaşi timp, activitatea tiroidei.
-Hidroliza enzimatică a lipidelor începe prin despărţirea gliceridelor în componentele
-sale (acizi graşi şi glicerină). Glicerina se fosforilează, trecând în aldehidă
+frânează, în același timp, activitatea tiroidei.
+Hidroliza enzimatică a lipidelor începe prin despărțirea gliceridelor în componentele
+sale (acizi grași și glicerină). Glicerina se fosforilează, trecând în aldehidă
 fosfoglicerică, respectiv fosfohidroxiacetonă, după care poate intra în ciclul lui Krebs
 pentru a se oxida cu degajarea de energie sau poate să servească ca bază pentru
 sinteza de glucide.
- În ceea ce priveşte catabolizarea (dezasimilaţia) acizilor graşi, procesul presupune
-scurtarea lanţului carbonic, cu câte 2 atomi de carbon (betaoxidare), până în stadiul
+ În ceea ce privește catabolizarea (dezasimilația) acizilor grași, procesul presupune
+scurtarea lanțului carbonic, cu câte 2 atomi de carbon (betaoxidare), până în stadiul
 de acid acetic. Acidul acetic poate intra în ciclul lui Krebs, oxidându-se până la bioxid
-de carbon şi apă, cu eliberare de energie, sau poate servi la sinteza de noi acizi
-graşi, care se depun, cel mai mult, în ţesutul adipos.
+de carbon și apă, cu eliberare de energie, sau poate servi la sinteza de noi acizi
+grași, care se depun, cel mai mult, în țesutul adipos.
  Metabolismul lipidelor degajă multă energie (9,3 kcal/g).
- În catabolizarea defectuoasă a acizilor graşi se acumulează peste limitele normale;
-corpi cetonici şi colesterol.
- Este important să se înţeleagă că în dezasimilaţia energetică, prioritatea metabolică
+ În catabolizarea defectuoasă a acizilor grași se acumulează peste limitele normale;
+corpi cetonici și colesterol.
+ Este important să se înțeleagă că în dezasimilația energetică, prioritatea metabolică
 este acordată glucidelor, care se oxidează în totalitate pe parcursul a 24 de ore,
-deoarece capacitatea de stocare a glicogenului este limitată. În aceste condiţii,
-lipidele, dacă nu există nevoi energetice imediate, se vor depozita în ţesutul adipos
+deoarece capacitatea de stocare a glicogenului este limitată. În aceste condiții,
+lipidele, dacă nu există nevoi energetice imediate, se vor depozita în țesutul adipos
 (Rădulescu, 2004). Acesta însemnă că până nu se ard toate glucidele, lipidele nu vor
 fi utilizate, ci vor fi băgate în depozitele adipoase.
-Singurele substanţe care îngraşă în mod direct sunt lipidele exogene, toţi ceilalţi
-compuşi cunoscuţi ca aducători de kilograme în plus, acţionând pe cale indirectă. S-a
-demonstrat în vivo că neogeneza lipidelor (formarea grăsimilor din alţi compuşi) în
+Singurele substanțe care îngrașă în mod direct sunt lipidele exogene, toți ceilalți
+compuși cunoscuți ca aducători de kilograme în plus, acționând pe cale indirectă. S-a
+demonstrat în vivo că neogeneza lipidelor (formarea grăsimilor din alți compuși) în
 organismul omului, este cu mult mai mică decât se credea până nu demult. Dr. Emil
-Rădulescu arată că, în cazul unei diete bogate în carbohidraţi, lipogeneza hepatică
-de acizi graşi, nu depăşeşte 5-10 g pe zi. În ceea ce priveşte protidele, formarea
+Rădulescu arată că, în cazul unei diete bogate în carbohidrați, lipogeneza hepatică
+de acizi grași, nu depășește 5-10 g pe zi. În ceea ce privește protidele, formarea
 grăsimilor pe baza lor este neglijabilă. Deci, este fals să se creadă că glucidele, care
 pătrund în organism, se transformă în grăsimi, dar este adevărat faptul că, sub
-influenţa carbohidraţilor, lipidele din hrană se încorporează în ţesuturile adipoase. În
-acelaşi timp, din metabolismul glucidelor, rezultă substanţa numită glicerofosfat.
-Glicerofosfatul esterifică acizi graşi liberi din sânge, depunându-i sub formă de
-trigliceride în ţesuturile adipoase. Totuşi, o anumită cantitate de glucoză, substanţă
-oxidantă metabolică, este necesară pentru a iniţia arderea corectă a grăsimilor (beta-
-oxidare), în alte condiţii, formându-se corpii cetonici. Dar, este necesar, în ceea ce
-priveşte glucoza, atunci când se urmăreşte scăderea în greutate, să se îndeplinesc 3
-condiţii:
-- să provină din categoria glucidelor cu absorbţie mai lentă,
+influența carbohidraților, lipidele din hrană se încorporează în țesuturile adipoase. În
+același timp, din metabolismul glucidelor, rezultă substanța numită glicerofosfat.
+Glicerofosfatul esterifică acizi grași liberi din sânge, depunându-i sub formă de
+trigliceride în țesuturile adipoase. Totuși, o anumită cantitate de glucoză, substanță
+oxidantă metabolică, este necesară pentru a iniția arderea corectă a grăsimilor (beta-
+oxidare), în alte condiții, formându-se corpii cetonici. Dar, este necesar, în ceea ce
+privește glucoza, atunci când se urmărește scăderea în greutate, să se îndeplinesc 3
+condiții:
+- să provină din categoria glucidelor cu absorbție mai lentă,
 - să nu fie în cantitate prea mare,
 - să nu se administreze împreună cu lipidele.
 Date cu privire la lipidele din sânge
@@ -1220,8 +1205,8 @@ Date cu privire la lipidele din sânge
 ### Pagina 39
 
 În afara unor dereglaje sau tulburări, sau temporar, în cazul unui regim alimentar
-bogat în grăsimi, componentele lipidice ale sângelui, se menţin în limite constante,
-graţie unor mecanisme neurohormonale elaborate. Valorile normale sunt prezentate
+bogat în grăsimi, componentele lipidice ale sângelui, se mențin în limite constante,
+grație unor mecanisme neurohormonale elaborate. Valorile normale sunt prezentate
 în tabelul de mai jos:
 Lipide plasmatice Denumirea
 constantei Valori normale

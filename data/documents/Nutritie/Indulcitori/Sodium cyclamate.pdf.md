@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Indulcitori\\Sodium cyclamate.pdf"
-source_relative_path: "Indulcitori\\Sodium cyclamate.pdf"
-source_sha256: "2b13247705fb33204ba7ef3ef82843fea228ed29f4fe72a8339af4d751c31cec"
-source_size_bytes: 227361
-page_count: 4
-extracted_text_characters: 10294
-extraction_method: pypdf
-status: "ok"
----
-
-# Sodium cyclamate.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Sodium cyclamate, called cyclamate in most safety documents, is a high-intensity
@@ -159,4 +144,3 @@ EFSA call for updated genotoxicity data on sweeteners (including cyclamates)
 IARC Monographs (Vol. 73) – cyclamates & cyclohexylamine
 
 NCBI Bookshelf (IARC summary / toxicological evaluation of cyclamates)
-

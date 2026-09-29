@@ -1,15 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\HSV1-prescription.xlsx"
-source_relative_path: "HSV1-prescription.xlsx"
-source_sha256: "e253fd95b6015a8bd9630b37a4b7136249c64c879b00a09b37d0c2560872d0be"
-source_size_bytes: 11372
-sheet_count: 3
-format: xlsx
-extraction_method: openpyxl_read_only
----
-
-# HSV1-prescription.xlsx
-
 ## Sheet: Sheet1
 
 row_count: 14
@@ -40,4 +28,3 @@ column_count: 0
 
 row_count: 0
 column_count: 0
-

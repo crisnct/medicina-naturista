@@ -1,24 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Acizii Omega-3-6-9.png"
-source_relative_path: "Acizii Omega-3-6-9.png"
-source_sha256: "3d6e4f962cccbb19503ba6d53f84331571a262fcd99f14d331e3228cb8ca1aa2"
-source_size_bytes: 987913
-media_type: image/png
-width_px: 1280
-height_px: 1024
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 92.01
-ocr_text_characters: 661
-status: "ok"
----
-
-# Acizii Omega-3-6-9.png
-
-## Text OCR extras
-
-```text
 si Su
 - MERITA VAZUT
 o>? <0
@@ -37,8 +16,3 @@ masline, care joaca un rol important in
 mentinerea unui sistem imunitar sanatos.
 din modul ecran compet
 09:28
-```
-
-## Notă
-
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.

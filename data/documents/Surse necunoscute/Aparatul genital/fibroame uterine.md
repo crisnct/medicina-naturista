@@ -1,16 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Traditionally Romanian Remedies for Uterine Fibroids.docx"
-source_relative_path: "Traditionally Romanian Remedies for Uterine Fibroids.docx"
-source_sha256: "72dad3c505619b3e1f3006bc309fc045d77665e1ff9e19e9da0f6133afc63d7f"
-source_size_bytes: 20814
-source_format: docx
-output_format: markdown
-native_text_characters: 884
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
 # Remedii tradiționale românești pentru fibroame uterine
 
 ## Text original

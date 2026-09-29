@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Heal Yourself The Natural Way-Walter Last.pdf"
-source_relative_path: "Heal Yourself The Natural Way-Walter Last.pdf"
-source_sha256: "04d0c1e72f005d98c2be3d671c7c5cf1e771d290fdf784f734c0b89ae5316aab"
-source_size_bytes: 7269110
-page_count: 489
-extracted_text_characters: 1463744
-extraction_method: pypdf
-status: "ok"
----
-
-# Heal Yourself The Natural Way-Walter Last.pdf
-
-## Pagini
-
 ### Pagina 1
 
 [Nu a fost extras text din această pagină.]
@@ -46,14 +31,14 @@ Published by
 Austpac Productions
 P. O. Box 842, Moss Vale 2577 NSW, Australia
 Phone: +61 2 4869 4285
-Email: info@austpac-productions.com
-Web: www.austpac-productions.com
+Email:
+Web:
 
 
 
 If you are unable to order this book from your local bookseller,
 you may order online from the publisher on CD Rom in PDF format.
-See: www.the-heal-yourself-series.com
+See:
 
 Heal Yourself - The Natural Way
  Overcome Diseases & Create Superior Health.
@@ -1258,7 +1243,7 @@ according to symptoms.
 Continue for 3 weeks with the full dose, but interrupt or temporarily reduce the
 dose if you develop a serious reaction; if necessary repeat the course after several
 months. In the meantime continue with several drops daily for a much longer time.
-For more information on iodine see www.health-science-spirit.com/iodine.html.
+For more information on iodine see
 MMS – Sodium Chlorite
 Sodium chlorite is being used in many countries as an antimicrobial treatment
 in the food industry, as disinfectant, mouthwash, in toothpastes, and for water
@@ -1375,7 +1360,7 @@ beneficial with Crohn’s disease and other inflammatory bowel conditions as wel
 cancer of the colon and prostate, and possibly of the pancreas and liver. For details
 see
 Preferably inform yourself further by reading my MMS Internet articles at
-www.health-science-spirit.com, and visit and
+ and visit and
  Jim Humble discovered and developed the MMS treatment.
 Other Antimicrobials
 Fungi can be controlled with alkalizers. Due to its alkalinity sodium bicarbonate
@@ -2572,7 +2557,7 @@ pattern. The purer or more beneficial the water, the more harmonious is the
 crystallization pattern and vice versa. Polluted water causes a confused
 crystallization pattern.
 Consider the work of Masaru Emoto. In his The Message from Water and on
-his website (www.adhikara.com/water.html), he shows in countless pictures how the
+his website ( he shows in countless pictures how the
 crystallization pattern of freezing water changes when exposed to human thoughts
 and feelings. Some of these he did by typing a positive word such as “love” or a
 negative one on a piece of paper and sticking it on a glass of water. The positive
@@ -2828,7 +2813,7 @@ and healing that normally take place during a good night’s sleep. You may comp
 to always swimming against a strong current, and this may well make the difference
 between recovering from a serious disease and succumbing to it. For more
 information on health problems due to electricity and many case reports, see:
-www.emrsafety.8m.net.
+
 EMR exists around power lines, power tools, electric stoves, heaters, boilers,
 freezers, and television sets when in use, extending several feet or yards around the
 appliance. Stay away from them, if possible. Using an electric iron or an electric
@@ -2856,7 +2841,7 @@ distribution of CFL's frequently cause health problems for sensitive individuals
 affected are those with vision problems, autism, migraines, traumatic brain injury,
 vestibular problems, multiple sclerosis, muscle spasms, epilepsy, tremors, cardiac
 arrhythmias, memory loss, diabetes, difficulty concentrating, and lupus. For details
-see www.cflimpact.com.
+see
 Here are some more tips:
 • If your head faces a wall with power points or other electric wiring inside the wall
  close to the bed, then move the bed towards the middle of the room so that you
@@ -3291,7 +3276,7 @@ bouncing step, as if you’re walking on air. Your spine and neck remain in a st
 line, your shoulders relaxed. The arms swing gently, as opposite arm and leg move
 at the same time. When climbing steps, rise onto your toes in the same way as for
 walking. (For more information, see “The Complete Guide to the Alexander
-Technique” and other information at www.alexandertechnique.com.)
+Technique” and other information at
 Correct Breathing: Generally, we breathe just enough for the activity at hand.
 However, to prepare for action it is beneficial to supercharge your body with oxygen
 by breathing more deeply than you need. This makes you more energetic, helps to
@@ -5012,7 +4997,7 @@ the other. Use the electrodes indicated by the stronger test.
 The normal treatment schedule is seven minutes, three times daily. The second
 zapping should follow 20 to 30 minutes after the first one, and the third one after a
 similar interval. (For more information, see Hulda Clark’s The Cure for All Diseases;
-www.drhuldaclark.org.)
+
 I have found the Clark zapper useful, but the Beck zapper works better in
 conditions where the blood is infested with microbes or parasites. It appears that with
 the Clark zapper the current travels mostly over the skin due to its high frequency,
@@ -5090,8 +5075,8 @@ the paddle. If you do not have a specific reason to use the other side, then use
 south-pointing side of the paddle facing the body. However, if you do not get results
 within an appropriate period, then try the north-pointing pole instead.
 For further information on electro and magnetic medicine, including articles by
-Dr. Beck and plans to build the zapper and pulser, see www.quantumbalancing.com ;
-www.keelynet.com/biology.htm; and www.sotainstruments.com.
+Dr. Beck and plans to build the zapper and pulser, see ;
+ and
 
 * * * * * * * * * * *
 102
@@ -5583,7 +5568,7 @@ While this can be more uncomfortable and drawn-out than surgery, one
 advantage is that escharotics have a reputation of not creating secondary tumours in
 other organs. You can ease your discomfort during this time with painkillers and anti-
 inflammatory measures. For more detailed information on escharotic cancer salves,
-see www.altcancer.com and www.cancersalves.com.
+see and
 Meat Pack: A folk remedy for drawing poisons from the body is to place fresh,
 raw, minced meat under the soles of the feet for several hours or overnight. Replace
 the meat several times if required. The meat is then poisonous, so do not touch it;
@@ -5615,7 +5600,7 @@ Ordinary toilets encourage a sitting rather than a squatting position. However,
 this posture is not conducive to the complete emptying of the large intestines. A
 squatting position is preferable. If you cannot squat on top of the toilet, support your
 feet with a footstool; additionally, bend forward to exert more pressure on the bowels
-(for further information, see www.naturesplatform. com). An alternative way of
+(for further information, see com). An alternative way of
 keeping the bowels empty is by taking laxative foods, such as ground linseed
 (flaxseed), and periodically having an isotonic flush (a teaspoon of salt in a quart of
 water) or Epsom salt flush (a teaspoon of Epsom salt in a glass of water), preferably
@@ -5763,7 +5748,7 @@ appearance of many Buddhist monks is ascribed to their routine urine ingestion.
 Thousands of scientific articles have been written about the health benefits of
 urine and its ingredients. A good book to get acquainted with some of this research
 activity is Your Own Perfect Medicine, by Martha Christy; one of many websites on
-urine therapy is: www.uropathy.com.
+urine therapy is:
 At the very least, all this past and present interest in the healing benefits of
 urine indicates that here is something worthwhile for the adventurous health seeker
 to explore. To start urine therapy the main problem we need to overcome is our
@@ -6900,7 +6885,7 @@ In this case, supplement with 200
 to 1000 mcg of molybdenum and
 avoid a high copper intake.
 For bulk lots of MSM in the United States,
-see www.bulkmsm.com where you can also find
+see where you can also find
 more information on MSM. If your diet is already
 high in sulphur, as from plenty of onions and
 eggs, then you might not notice any benefit from
@@ -7370,7 +7355,7 @@ reported cases of (usually easily reversible) vitamin A toxicity in the U.S. are
 five per year.15
 Similar unfounded attacks have been made against vitamins C and E. For more
 detailed information on this subject, see the website of the Life Extension Foundation
-(www.lef.org); for articles on megavitamin therapy; also see www.doctoryourself.com.
+( for articles on megavitamin therapy; also see
 Imagine the mass media frenzy if there were actually some fatalities due to
 vitamin A. Yet there is no concern at all about thousands of patients dying, in my
 view unnecessarily, due to prescription drugs. In the public, the perception has been
@@ -7691,7 +7676,7 @@ either after an acute poisoning or from chronic exposure, as in the case of chro
 mercury poisoning from teeth filled with mercury amalgam.
 In addition to producing low-potency remedies from allergenic foods, you can
 also buy M to MM remedies of foods to which you are allergic. If you have had much
-X-ray treatment, buy and use an X-ray remedy (see www.gdr.org/drrita.html); if you
+X-ray treatment, buy and use an X-ray remedy (see if you
 are sensitive to electricity, fluorescent lighting, or house dust, use the corresponding
 commercial remedy. However, you can also make these remedies yourself: Expose
 pure water to strong electromagnetic fields or prolonged fluorescent lighting and then
@@ -7999,7 +7984,7 @@ storing the silver water, keep it protected fr om light, which will otherwise pr
 silver and make it ineffective. Make your colloidal silver fresh each day or at least once a
 week.
 For more information on making and using colloidal silver, see the website:
-www.quantumbalancing.com.
+
 163
 Heal Yourself - The Natural Way
 
@@ -8250,8 +8235,8 @@ the tube into the rectum (with another shorter tube as outlet); irradiate the sk
 the diseased areas with a funnel; or put the body (but not the head) into a bag into
 which you introduce ozone. For information on how to obtain, construct and use a
 medical-grade ozone generator that does not oxidize nitrogen, see:
-www.quantumbalancing.com. For more information on oxygen therapies, see:
-www.oxytherapy.com or the books Oxygen Therapies and Flood Your Body with
+ For more information on oxygen therapies, see:
+ or the books Oxygen Therapies and Flood Your Body with
 Oxygen, by Ed McCabe.
 New Ways of Using Hydrogen Peroxide: In 1928, Dr. Richard Simmons
 believed to have discovered that colds and flu enter through the ear canal and start
@@ -9385,7 +9370,7 @@ pesticides and mercury and are not recommended for habitual eating. While sardin
 are safer, they have the disadvantage of being tinned. The best choice is fresh or
 frozen non-predatory deep-sea fish or other seafood from unpolluted coastal areas.
 For more advice on pollutants in fish of different species and from various locations,
-see the website of the Environmental Working Group: www.ewg.org.
+see the website of the Environmental Working Group:
 For most degenerative diseases and especially cancer and raised blood
 pressure, a high-potassium and low-sodium di et is required; therefore, food should
 not be salted. The absence of iodized salt in the diet may cause thyroid problems,
@@ -9520,7 +9505,7 @@ juice.
 Use only organic or otherwise safe meat from a reliable source. Never use
 meat from a feedlot; also, pork is generally not safe. The safest conventional red
 meat appears to be lamb. (For genuinely free-range, grass-fed beef, bison, and
-ostrich, see: www.mercola.com). As a further precaution, periodically use an herbal
+ostrich, see: As a further precaution, periodically use an herbal
 anti-parasite program (see Step 44) and possibly an electronic blood purifier (Step
 195
 Heal Yourself - The Natural Way
@@ -9532,7 +9517,7 @@ cooked meat as more or less unhealthy, partly because of its lack of enzymes, an
 also because of the formation of carcinogenic chemicals when heated above the
 boiling point.
 (For further ideas on eating meat raw and links to related sites, see:
-www.rawpaleodiet.org ) You can also mix a free-range egg yolk with the salad; if you
+ ) You can also mix a free-range egg yolk with the salad; if you
 eat the egg white raw, it is best beaten or blended.
 If you have no problems with mucus, such as occasional colds, a blocked or
 running nose, or respiratory problems, you can use fermented goat’s milk or raw
@@ -9912,7 +9897,7 @@ Candida may find it preferable to soak the grapes for a while in hydrogen peroxi
 When fresh grapes are not in season, the juice of black grapes has reportedly been
 used with good success in the treatment of cancer. For this, a 24-ounce bottle of dark
 grape juice can be sipped at intervals during the morning, taking no other food before
-lunch. See “The Grape Cancer Cure” on website: www.quantumbalancing/grape.htm.
+lunch. See “The Grape Cancer Cure” on website:
 Red beet is the best purple vegetable. The purple pigment in beets has been
 shown to increase and normalize cell respiration, the oxygen-based energy
 production within cells. Red beet is one of the key foods in preventing as well as
@@ -10258,7 +10243,7 @@ commonly between 70 and 120 ppm. In comparison, a medium-fast juicer has about
 2,000 rpm and the common centrifugal juicers 8,000 rpm. While low-rpm juicers
 produce the highest quality of juice, they are also slowest in pressing a given
 quantity; bigger twin-gear juicers may be twice as fast as smaller single-auger
-juicers. (For a comparison of different brands, see www.buyjuicers.com.)
+juicers. (For a comparison of different brands, see
 When using a juicer that easily processes grasses and leaves, there are
 considerable savings in having to buy fewer vegetables. You can use lots of grasses,
 green weeds, parsley, tops of carrots, and other leaves that cannot be easily used
@@ -11242,7 +11227,7 @@ not only in patients with gastrointestinal symptoms, but also in relatives and o
 with numerous common disorders even in the absence of gastrointestinal
 symptoms.
 29 For further information, contact University of Maryland Centre for Celiac
-Research: see websites: www.celiaccenter.org and www.celiac.com.
+Research: see websites: and
 The degree of damage to the intestinal wall is proportional to the amount of
 gluten consumed. But even so-called normal and healthy volunteers on high-gluten
 test diets showed a deterioration of their intestinal walls and that their ability to
@@ -12531,7 +12516,7 @@ fluoridation. Most of Western Europe has outlawed it; even most of U.S.
 communities, when allowed to vote, have rejected fluoridation; this has happened in
 more than 50 communities since 1999. (For further information on the health dangers
 of fluoride and a good bibliography of the scientific literature on fluoride, see:
-www.fluoridealert.org.)
+
 Aluminium: Another mineral harmful to our health that is added to our drinking
 water to precipitate impurities is aluminium. This is not a so-called heavy metal, but it
 causes health problems nevertheless. We can also ingest it with some brands of
@@ -12584,11 +12569,11 @@ amalgam-related health problems by refusing any new fillings containing mercury,
 and contemplate replacing any old amalgam fillings; for this, see a holistic dentist.
 34
 For more details on dental health, review Step 8. For practical advice and support,
-contact: www.amalgam.org; for wide-ranging scientific information on the negative
-health effects of amalgam fillings and heavy metals: www.melisa.org. An
+contact: for wide-ranging scientific information on the negative
+health effects of amalgam fillings and heavy metals: An
 independent researcher, Bernie Windham, has assembled hundreds of clinical
 studies on the problems caused by amalgam fillings and harmful metals at:
-www.home.earthlink.net/~berniew1/.
+
 Mercury exposure from eating fish has greatly increased in recent decades.
 Even health authorities acknowledge that there is now a problem and advise avoiding
 large predatory fish, especially for pregnant women. Some studies show that on
@@ -12596,7 +12581,7 @@ average more mercury is accumulated from fish than from amalgam fillings. The
 same health problems caused by dental mercury are caused by mercury from fish.
 Only non-predatory fish or small predatory fish are reasonably safe to eat on a
 regular basis. You can check the safety of commonly used fish species at:
-www.ewg.org.
+
 The Pros and Cons of Cooking: Cooked food has been a hallmark of
 civilization. Cooking breaks down cellulose in vegetables and connective tissue in
 meat and thus makes these foods easier to chew and more palatable. Bacteria are
@@ -13574,10 +13559,10 @@ information is derived from sound nutritional and clinical research. Readers sho
 always consult a qualified health practitioner when dealing with serious illness. I do
 not promise or guarantee any cures, and the reader should regard the following as
 general guidelines that have been shown to help improve some people with these
-conditions. For updates and further information, see my websites: www.health-
-science-spirit.com, www.healing-yoursel f.com and www.heal-yourself.com.au. For
-disease treatment protocols using nutritional therapies, see: www.lef.org and
-www.doctoryourself.com.
+conditions. For updates and further information, see my websites:
+science-spirit.com, f.com and For
+disease treatment protocols using nutritional therapies, see: and
+
 Addictions: Use Basic Cleanse (Step 4) followed by food allergy testing, and
 practice a diet based on grass and vegetable juice with added water for a total fluid
 intake of about a gallon daily. Prepare a homeopathic remedy made of the addictive
@@ -14905,8 +14890,8 @@ radiation weed, radium-weed, or milkweed (spurge, euphorbia, petty spurge). Repe
 application as required; a strong skin reaction may result, followed by healing. Use
 this approach also for warts, moles, blemishes, and so on. For serious conditions,
 including melanoma and tumours close to the skin, escharotic creams based on zinc
-chloride and the herb bloodroot are av ailable (see: www.altcancer.com or
-www.cancersalves.com ). On inflamed areas and skin cancer, you can also use the
+chloride and the herb bloodroot are av ailable (see: or
+ ). On inflamed areas and skin cancer, you can also use the
 south pole of a magnet and blue lighting.
 Skin rejuvenation: Frequently and vigorously rub the skin with some or all of
 the following ingredients, dissolved in aloe vera gel or energized water: vitamin C
@@ -14990,7 +14975,7 @@ be appropriate for health authorities to investigate the possibility that some v
 may cause capillary fragility in some babies.
 The only complete protection against vaccination damage is strict avoidance of
 this procedure. Every state in the U.S. has a religious exemption clause; you can
-write a letter to exempt your child; for more details, see www.mercola.com, and go to
+write a letter to exempt your child; for more details, see and go to
 the article page on vaccinations. If you cannot avoid vaccinations for your child, then
 give high doses of protective nutrients for several days before and several weeks
 after the event, in particular vitamin C and MSM, to aid in rapid detoxification.
@@ -15422,7 +15407,7 @@ cancers, none of this two trillion dollars has been available for natural therap
 test holistic cancer therapies, and natural therapists have had to face a century of
 denigration and persecution in the U.S.
 All alternative cancer clinics eventually had to relocate to Mexico. (For a list of
-such clinics worldwide, see: www.cancure. org) A holistic cancer approach includes
+such clinics worldwide, see: org) A holistic cancer approach includes
 superior nutrition, electro-medicine and vibr ational or energy medicine, emotional
 healing, and mind therapy.
 One of the few studies that investigate a holistic approach involved the Gerson
@@ -15439,7 +15424,7 @@ procedures tends to promote metastasis and this is the reason that untreated
 patients generally live longer than medically treated ones. Regard a tumour as a
 mistreated part of your body, surround it with loving care and it will thank you by
 preventing metastasis and gradually melt away. For more information and references
-see www.health-science-spirit.com/cancer surgery.htm and www.health-science-
+see surgery.htm and
 spirit.com/cancersolution.htm.
 People claim to have been cured of cancer by a variety of methods and
 remedies. Belief or faith in the chosen method may often have been more important
@@ -15929,7 +15914,7 @@ demanded that his theories be officially tested. She declared that Dr. Hamer is 
 and deserves a Nobel Prize. Nevertheless, the response of prominent oncologists is
 still that it is absurd to assume emotions could be important in the cause and cure of
 cancer and, therefore, Dr. Hamer’s claims must not be tested. (For more information
-on Dr. Hamer and the New Medicine, see: www.newmedicine.ca.64)
+on Dr. Hamer and the New Medicine, see:
 323
 Heal Yourself - The Natural Way
 
@@ -17086,7 +17071,7 @@ suits you better. In a similar way, you can sometimes lead the energy very rapid
 around the macrocosmic orbit with one long exhalation down the legs or arms and
 with the following slow inhalation back up aga in. In all this energy work. imagine and
 feel the energy moving below the surface of the skin. (For detailed instructions on
-exercises to accumulate prana and use it for healing, see: www.universal-tao.com
+exercises to accumulate prana and use it for healing, see:
 and also books by Mantak Chia, such as “Awaken Healing Light of the Tao”.)
 Energizing the Body: In another method, imagine your spine to be a hollow
 tube. While inhaling, imagine the prana flowing up the tube to the top, and during the
@@ -17286,7 +17271,7 @@ orgonite. Copper pipes, crystals, magnets, spirals, and specific shapes, such as
 cones and pyramids, are used to point the outflow of the orgone energy in a specific
 direction.
 You can easily build an orgone generator yourself by following the instructions
-on www.cloud-busters.com. You can use different versions of it to improve the life-
+on You can use different versions of it to improve the life-
 force energy inside your house, to charge your water with life force, or to treat the
 body directly.
 There are a variety of commercial Reichian-style energy devices available.
@@ -20683,7 +20668,7 @@ this, an inner knowledge will grow, which is the only true form of knowledge.
 Eventually, you will know from the experience of your own life and will not be
 interested anymore in the “proof” someone else may be able to offer. Nevertheless, it
 may help you to review the book “A Lawyer Presents the Case for the Afterlife“
-(available at: www.victorzammit.com ). In it, Victor Zammit, a retired attorney of the
+(available at: ). In it, Victor Zammit, a retired attorney of the
 High Court of Australia, has assembled all the known evidence of survival after
 death. He came to the conclusion that before a court of law, the evidence taken as a
 whole would constitute overwhelming evidence and irrefutable proof of the existence
@@ -21227,8 +21212,8 @@ Heal Yourself - The Natural Way
 
 ### Pagina 454
 
-For more information see: www.emofree.com and www.emotionalrelief.org .
-Dr. Mercola has a good EFT protocol for beginners at: www.mercola.com .
+For more information see: and .
+Dr. Mercola has a good EFT protocol for beginners at: .
 As an extension of this method, I suggest that after freeing yourself of negative
 memories, you also experiment with positiv e affirmations, especially for improving
 body conditions. While you may start out formulating your phrase as given above and
@@ -22199,7 +22184,7 @@ Part 9 under Mind Tools, especially with techniques for emotional release and
 regression; these are best practiced in healing groups (Part 8). An integrated way of
 healing the emotional level within a spiritual context is provided by the system of
 Body Electronics devised by Dr. John Whitman Ray (for more information, see:
-www.bodyelectronics.net).
+
 Similar to Reichian therapy and bioenergetics, Body Electronics works mainly
 on the
  body, using sustained pressure to release memories of emotional events that
@@ -22498,11 +22483,11 @@ ENDNOTES
 influenza mutations.” FASEB J 15 (2001): 1481–83.
 2. Schauss, A. G. “Nutrition and antisocial behaviour.” Int Clin Nutr Rev 4:4 (1984):
 172–77.
-3. For practical advice and support, contact www.amalgam.org; wide-ranging
+3. For practical advice and support, contact wide-ranging
 scientific information on the negative health effects of amalgam fillings and heavy
-metals is on www.melisa.org. Bernie Windham has assembled hundreds of clinical
+metals is on Bernie Windham has assembled hundreds of clinical
 studies on the problems caused by amalgam fillings and harmful metals at
-www.home.earthlink.net/~berniew1/.
+
 4. Sandyk, R. “Treatment of Parkinson’s disease with magnetic fields reduces the
 requirement for antiparkinsonian medications.” International Journal of Neuroscience
 74:1–4 (January–February 1994): 191–201. George, M. S., et al. “Transcranial
@@ -22548,7 +22533,7 @@ antiarthritic and antiepileptic drugs.” J Appl Nutr 32:1–2 (1980): 4–25. B
 “Copper salicylates and complexes in molecular medicine.” Int Clin Nutr Rev 4:3
 (1984): 130–34.
 20. For information on where to buy Schweitzer Formula, see:
-www.bodyelectronics.net.
+
 21. Taubes, Gary. “What if it’s all been a big fat lie?” New York Times (July 7, 2002).
 22. Buist, R. A. “Beetroot as cancer therapy.” Int Clin Nutr Review 6:3 (1986): 107–
 12.
@@ -22567,8 +22552,8 @@ and benign prostatic hyperplasia.” B J Cancer 76:9 (1997): 1115–18.
 29. Fasano, A., et al. “Prevalence of celiac disease in at-risk and not-at-risk groups in
 the United States: a large multicenter study.” Archives of Internal Medicine 163:3
 (February 10, 2003): 286–92. For further information, contact University of Maryland
-Center for Celiac Research: (800) 492-5538, websites: www.celiaccenter.org and
-www.celiac.com.
+Center for Celiac Research: (800) 492-5538, websites: and
+
 30. Taubes, Gary. “What if it’s all been a big fat lie?” New York Times (July 7, 2002).
 31. Piesse, J. W. “Nutritional factors in calcium containing kidney stones with
 particular emphasis on vitamin C.” Int Clin Nutr Review 5:3 (1985): 110–29.
@@ -22576,11 +22561,11 @@ particular emphasis on vitamin C.” Int Clin Nutr Review 5:3 (1985): 110–29.
 7:4 (1987): 157–68.
 33. Jackson, J. A., H. D. Riordan, and C. M. Poling. “Aluminum from a coffee pot.”
 Lancet 1:(April 8, 1989): 781–82.
- 34. For practical advice and support, c ontact -www.amalgam.org; wide-ranging
+ 34. For practical advice and support, c ontact - wide-ranging
 scientific information on the negative health effects of amalgam fillings and heavy
-metals is on www.melisa.org. Bernie Windham has assembled hundreds of clinical
+metals is on Bernie Windham has assembled hundreds of clinical
 studies on the problems caused by amalgam fillings and harmful metals at
-www.home.earthlink.net/~berniew1/.
+
 35. Miller, Neil Z. Vaccines: Are They Rea lly Safe and Effective? Santa Fe, NM: New
 Atlantean Press, 1993.
 36. Scheibner, V. Vaccination: A Medical Assault on the Immune System. UK:
@@ -22656,8 +22641,8 @@ Therapies 1:4 (September 1995): 29–37.
 63. Seeger, M.D., D.Sc., Paul Gerhard, born 1903, worked at Robert Koch Institute
 and Humboldt University, Berlin; 290 scientif ic cancer publications, twice nominated
 for Nobel Prize.
-64. The official English-language website of Dr. Hamer is at: www.newmedicine.ca.
-However, much more information is on the German website: www.pilhar.com, which
+64. The official English-language website of Dr. Hamer is at:
+However, much more information is on the German website: which
 also has a limited English section. Dr. Hamer has written several books, of which one
 is available in English from his website under the title Summary of the New Medicine.
 65. Muldoon, M. F., S. B. Manuck, and K. A. Mathews. “Lowering cholesterol
@@ -22670,9 +22655,9 @@ V.A. Hospital in Providence, Rhode Island.
 links to other bioenergy websites, see the Public Orgonomic Research Exchange
 (PORE) at: or see the writings of Wilhelm Reich.
 68. For further information, see The Surrendered Wife by Laura Doyle and
-www.surrenderedwife.com for support networks in many states and countries.
+ for support networks in many states and countries.
 69. For further information, see The Continuum Concept by Jean Liedloff (Boulder,
-CO: Perseus Publishing, 1986 [reprint]) and www.continuum-concept.org for support
+CO: Perseus Publishing, 1986 [reprint]) and for support
 network.
 70. Klopfer, Bruno. “Psychological variables in human cancer.” Journal of Projective
 Techniques 21 (1957): 329–40.
@@ -22725,7 +22710,7 @@ Gerber, Richard. 1988. Vibrational Medicine. Santa Fe, NM: Bear and Co.
 Gerson, Max. 1958. A Cancer Therapy. Del Mar, CA: Totality Books.
 Hamaker, John D., annotations by Donald A. Weaver. 1982. The Survival of
 Civilization. Woodside, CA: Hamaker-Weaver Publishers; also free Web edition at:
-wwW.remineralize-the-earth.org.
+
 Hay, Louise L. 1982. You Can Heal Your Life. Santa Monica, CA: Hay House.
 Hirshberg, Caryle, and Marc I. Barasch. 1995. Remarkable Recovery. New York:
 Riverhead.
@@ -22799,7 +22784,7 @@ DeVorss.
 Vonderplanitz, Aajonus. 1997. We Want to Live. Santa Monica, CA: Carnelian Bay
 Castle Press.
 Werbach, Melvyn R. 1989. Nutritional Influences on Illness. New Canaan, CT: Keats.
-(For other books by this author, see: www.third-line.com.)
+(For other books by this author, see:
  Wolcott, William L., and Trish Fahey. 2002. The Metabolic Typing Diet: Customize
 Your Diet to Your Own Unique Body Chemistry. New York: Broadway Books.
 
@@ -22860,9 +22845,9 @@ Yourself the Natural Way” is a revised and progressively updated version of �
 Natural Way to Heal”. He is the main contributor to the “Self Help Cancer Cure” book,
 and his articles appeared regularly in “Nexus” magazine and other journals.
 His “Heal Yourself” series of 7 books deal with particular diseases and health
-conditions, are sold worldwide, and are ava ilable at: www.the-heal-yourself-series.com.
-His websites are at: www.health-science-sp irit.com, www.heal-yourself.com.au, and
-www.healing-yourself.com.
+conditions, are sold worldwide, and are ava ilable at:
+His websites are at: irit.com, and
+
 
 
 
@@ -22886,8 +22871,8 @@ Heal Yourself - The Natural Way
 ### Pagina 489
 
 To purchase any of the printed books in the “Heal Yourself” Series
-Email: info@the-heal-yourself-series.com
-Web: www.the-heal-yourself-series.com
+Email:
+Web:
 
 
 
@@ -22913,8 +22898,8 @@ Published by
 Austpac Productions
 P.O. Box 842,
 Moss Vale 2577, NSW, Australia
-Web: www.austpac-productions.com
-E-mail: info@austpac-productions.com
+Web:
+E-mail:
 
 
 Heal Yourself - The Natural Way

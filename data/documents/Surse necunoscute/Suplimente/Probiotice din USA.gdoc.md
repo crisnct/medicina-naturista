@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Probiotice din USA.gdoc"
-source_relative_path: "Probiotice din USA.gdoc"
-source_pointer_sha256: "01eb432ef47b79f8a56c598e4f4c0d11564ed1539107e956c344100bedd492c1"
-source_pointer_bytes: 181
-google_doc_id: "13_n8Z5Ak_kGlXs89A-62HHKHvS-NKkwkP3rzCb0ZGWA"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Probiotice din USA
-
-## Conținut extras
-
 # Tulpini de bacterii probiotice din USA
 
 **Lactobacillus Gasseri BNR 17**

@@ -1,1 +1,1 @@
-**Morcovul :** copt şi sfărâmat vindecă bubele dulci.
+**Morcovul :** copt și sfărâmat vindecă bubele dulci.

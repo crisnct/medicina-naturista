@@ -2,9 +2,9 @@
 | Tinctură pentru regenerarea ficatului |
 | ===================================== |
 | |
-| **[şi pentru buna funcţionare a fierei]{.underline}** |
+| **[și pentru buna funcționare a fierei]{.underline}** |
 | |
-| Se **ia o linguriţă dimineaţa pe stomacul gol** impreuna cu puţină apă |
+| Se **ia o linguriță dimineața pe stomacul gol** impreuna cu puțină apă |
 | |
 | Dupa ce se ia , se va sta culcat 10 minute pe partea dreaptă. |
 | |
@@ -15,7 +15,7 @@
 | Sirop pentru fiere |
 | ================== |
 | |
-| Se **ia o linguriţă dimineaţa pe stomacul gol**. **Se mai poate lua şi la nevoie în caz de dureri, o linguriţă.** NU se va lua mai mult de 2 linguriţe pe zi. |
+| Se **ia o linguriță dimineața pe stomacul gol**. **Se mai poate lua și la nevoie în caz de dureri, o linguriță.** NU se va lua mai mult de 2 lingurițe pe zi. |
 | |
 | *Compozitie*: frunze de Anghinare, rizomi de Obligeana, frunze de Rostopasca, apa, zahar, aspirina |
 | |

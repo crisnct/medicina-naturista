@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Grow Your Own Drugs.pdf"
-source_relative_path: "Grow Your Own Drugs.pdf"
-source_sha256: "7c176e0f0978b6e24314b21891d5f5b2eaf1fed75b8d8084e0e99f1007403fe0"
-source_size_bytes: 9626229
-page_count: 236
-extracted_text_characters: 301905
-extraction_method: pypdf
-status: "ok"
----
-
-# Grow Your Own Drugs.pdf
-
-## Pagini
-
 ### Pagina 1
 
 [Nu a fost extras text din această pagină.]
@@ -3129,7 +3114,7 @@ bring the volume to 1.5 litres and follow the recipe from Step 2 above.
 Take along a bucket and bring home some clean, fine sand too (enough to fill a child’s small
 beach bucket by one-third). Sand is a constantly renewed resource and you’re taking a tiny amount,
 but check before harvesting seaweed or sand with your local authority that looks after the beach
-(you’ll find them on www.direct.gov.uk).
+(you’ll find them on
 
 ### Pagina 122
 
@@ -5905,7 +5890,7 @@ necessary.
 WILD FORAGING
 You don’t need to grow the plants for the remedies – many can be found in the most surprising
 places. If you’re looking for a particular plant in the wild, check out the plant distribution maps
-on the Botanical Society of the British Isles website (www.bsbi.org.uk) before you go to ensure
+on the Botanical Society of the British Isles website ( before you go to ensure
 it grows in your area.
 In the city
 Many hardy plants grow in wasteland and other wild city areas. When you harvest plants for
@@ -5959,10 +5944,10 @@ provided you are not going to sell them on in any form (dried herbs, remedies, j
 
 ### Pagina 211
 
-You may sometimes need to identify the relevant Local Authority; go to www.direct.gov.uk.
-For lists of plants in decline, especially in Wales and Scotland, go to www.plantlife.org.uk.
+You may sometimes need to identify the relevant Local Authority; go to
+For lists of plants in decline, especially in Wales and Scotland, go to
 Refer too to the regional rare plant registers and threatened plant database on the website of the
-Botanical Society of the British Isles: www.bsbi.org.uk.
+Botanical Society of the British Isles:
 DO:
  Take a pair of gardening or rubber gloves with you to protect your hands from thorns and nettles.
 And a bag to put your produce in.
@@ -6083,36 +6068,36 @@ STOCKISTS
 Most of the plant material and other ingredients you’ll need are easily available locally, but
 here are a few online suppliers who stock more specialist items:
 Aromantic
-www.aromantic.co.uk
+
 Online shop
 Bottles and jars, pump/drop dispensers, clay
 powders, beeswax, vitamin C powder, carrageen
 seaweed and essential oils. Based in Moray.
 G. Baldwin & Co.
-020 7703 5550 www.baldwins.co.uk
+020 7703 5550
 Shop and online shop
 Bottles and jars, pump/drop dispensers, beeswax,
 emulsifying wax, borax powder, kelp powder, pine,
 frankincense and myrrh resin, essential oils.
 Based in London.
 Barwinnock Herbs
-01465 821338 www.barwinnock.com
+01465 821338
 Online herb nursery shop
 Sells organically grown plants by post.
 Based in Ayrshire.
 Dolphin Sea Vegetable Company
-www.irishseaweeds.com
+
 Online shop
 Sells a range of seaweeds, including kelp
 and carrageen.
 Based in Belfast.
 Emorsgate Seeds
-01553 829028 www.wildseed.co.uk
+01553 829028
 Online shop
 Sells a wide range of wildflower seeds.
 Based near Bath.
 Herbs for Healing
-01285 851457 www.herbsforhealing.net
+01285 851457
 Online shop
 Herb nursery that sells fresh and dried medicinal
 plants, pots, jars, bottles, muslin, waxes and
@@ -6122,37 +6107,37 @@ specialist oils. Also runs courses on the use of herbs.
 
 Based in Gloucestershire.
 Jekka’s Herb Farm
-01454 418878 www.jekkasherbfarm.com
+01454 418878
 Online shop
 Sells a large range of seeds and organic plants
 (including specialist plants such as gotu kola).
 Based near Bristol.
 Landlife Wildflowers
-0151 7371819 www.wildflower.org.uk
+0151 7371819
 Online shop
 The environmental charity Landlife sells a wide
 range of wildflower seeds. Based in Liverpool.
 Laurel Farm Herbs
-01728 668223 www.laurelfarmherbs.co.uk
+01728 668223
 Nursery and online shop
 Sells medicinal plants. Based in Suffolk.
 Limeburn Nurseries
-01275 333399 www.arneherbs.co.uk
+01275 333399
 Nursery and online shop
 Sells medicinal plants. Based in Bristol.
 Neal’s Yard Remedies
 0845 262 3145
-www.nealsyardremedies.co.uk
+
 Shops and online
 Sells bottles, jars, pump/drop dispensers, beeswax,
 emulsifying wax, clay powder, friar’s balsam (compound
 benzoin tincture), dried herbs, essential oils.
 Norfolk Herbs
-01362 860812 www.norfolkherbs.co.uk
+01362 860812
 Online shop
 Sells medicinal plants. Based in Norfolk.
 Spice World
-01984 633685 www.spiceworld.uk.com
+01984 633685
 Online shop
 Sells glass jars, beeswax, vitamin C powder, pine
 resin, dried medicinal herbs. Based in Somerset.
@@ -6160,58 +6145,58 @@ resin, dried medicinal herbs. Based in Somerset.
 ### Pagina 216
 
 Steenbergs Organic
-01765 640088 www.steenbergs.co.uk
+01765 640088
 Online shop
 Sells organic dried herbs, unfilled tea bags.
 Based in Yorkshire.
 Turfshop
-01652 678886 www.turfshop.co.uk
+01652 678886
 Online shop
 Sells chamomile turf by the square metre.
 Based in Lincolnshire.
 PLANT INFORMATION
 Botanic Gardens
 Conservation International
-www.bgci.org
+
 A global network of botanic gardens working for
 plant conservation and undertaking medicinal plant
 research around the world. Lists botanic gardens in
 Britain and worldwide.
 Botanical Society
 of the British Isles
-www.bsbi.org.uk
+
 Offers flora maps, plant identification guides,
 archives of botanical publications.
 The Herb Society
-www.herbsociety.org.uk
+
 Detailed information on the medicinal, culinary
 and historical uses of herbs.
 London Wildlife Trust
-www.wildlondon.org.uk
+
 Dedicated to preserving the capital’s wildlife and
 wild spaces.
 National Institute
 of Medical Herbalists
-www.nimh.org.uk
+
 The UK’s major professional body for medical
 
 ### Pagina 217
 
 herbalists.
 Natural England
-www.naturalengland.org
+
 Protects and conserves English’s natural
 environment and biodiversity.
 Plantlife International
-www.plantlife.org.uk
+
 Supports wild plant conservation in Britain
 and internationally.
 RHS Plant Finder
-www.rhs.org.uk
+
 Database of plant information and gardening
 advice, with nursery and plant finder tools.
 The Wildlife Trusts
-www.wildlifetrusts.org
+
 Dedicated to conserving Britain’s natural
 habitat and wildlife environment.
 
@@ -6958,7 +6943,7 @@ my lotions and potions.
 Publishers’ acknowledgements
 The publishers would like to thank The Spice Shop, Chiddingfold Forest, Aston Rowant Nature
 Reserve, Richmond Park, Syon Park Garden Centre and Tilford Cottage Gardens
-(www.tilfordcottagegarden.co.uk) for their help with photography and Kathryn Lwin Brooks of the
+( for their help with photography and Kathryn Lwin Brooks of the
 Archway Clinic of Herbal Medicine.
 
 ### Pagina 235
@@ -6969,7 +6954,7 @@ Publishers
 77–85 Fulham Palace Road
 Hammersmith
 London W6 8JB
-www.harpercollins.co.uk
+
 Copyright © James Wong 2010
 James Wong asserts the moral right to be identified as the author of this work
 Collins is a registered trademark of HarperCollins
@@ -7013,4 +6998,3 @@ United States
 HarperCollins Publishers Inc.
 10 East 53rd Street
 New York, NY 10022
-

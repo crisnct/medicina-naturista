@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Test 12-14 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Test 12-14 terapie herbala profesional.gdoc"
-source_pointer_sha256: "69986a81e9bfbd8f9b692ab27e14471b6a214ed6f15cb66ef6eb4ccd45d94e8d"
-source_pointer_bytes: 181
-google_doc_id: "1RHaoJqqKeIMhQ3SMdKdjq4g9b9pg9kjSaXFiot-HxDE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Test 12-14 terapie herbala profesional
-
-## Conținut extras
-
 Test herbalism profesional
 
 1. Scrieti un scurt rezumat despre ierburile expectorante

@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Detoxifiere.pdf"
-source_relative_path: "Detoxifiere.pdf"
-source_sha256: "1fd3c067314c34c22aec446a1845743af599f32444c3a156e63a5a648e410d6d"
-source_size_bytes: 121185
-page_count: 19
-extracted_text_characters: 38887
-extraction_method: pypdf
-status: "ok"
----
-
-# Detoxifiere.pdf
-
-## Pagini
-
 ### Pagina 1
 
 The Klinghardt Neurotoxin Elimination Protocol
@@ -631,8 +616,8 @@ drops 3 times/day. Take 20 min away from samento
 
 Recommended Literature:
 Stephen Buhner “Healing Lyme” Raven Press 2005
-www.chronicneurotoxins.com ( Ritchie Shoemaker, MD)
-www.neuraltherapy.com
+ ( Ritchie Shoemaker, MD)
+
 
 
 Mold
@@ -766,7 +751,7 @@ o HEPA air filter in home
 o Avoidance (often means to move)
 o Klinghardt neurotoxin elimination protocol (most important: Freeze
 Dried Garlic, KMT microcurrent therapy and Phospholipid
-Exchange) www.neuraltherapy.com
+Exchange)
 o Desensitization (EPD, homeopathy, ART based techniques (NAET,
 EAV or EDS, APN allergy technique)
 o Intravenous protocols (Vit C 25-5- gms, glutathione 600-4500 mg,
@@ -778,10 +763,10 @@ and fiber for prevention of enterohepatic recirculation of toxins,
 fluconazole and other antifungals, nystatin
 
 Recommended Literature
-www.mold-survivor.com
-www.mold-help.org/stchybotrys_chartarum.htm
-www.grayenvironmental.com/background_to_molds.htm
-www.cal-iaq.org/mold0107.htm
+
+
+
+
 
 ### Pagina 18
 
@@ -846,4 +831,4 @@ Detox has to be done carefully and right!
 October 2002/2nd edition Jan 2006
 Dietrich Klinghardt, MD, PhD
 Bellevue, Washington, USA
-www.neuraltherapy.com
+

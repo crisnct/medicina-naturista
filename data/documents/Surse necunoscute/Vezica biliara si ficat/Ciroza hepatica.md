@@ -1,28 +1,28 @@
 ### Recomandări pentru Ciroza hepatică
 
-**-** **tinctura de Anghinare** 20 % : 20 picaturi x 2 ori pe zi inainte de masa
+**-** **tinctura de Anghinare** 20 % : 20 picaturi x 2 ori pe zi inainte de masa
 
 **- tinctura din fructe de Armurariu**: 20 picaturi x 2 ori / zi inainte de masa
 
-**- extract din Muguri de Alun** : 30-50 picaturi x 2-3 ori / zi
+**- extract din Muguri de Alun** : 30-50 picaturi x 2-3 ori / zi
 
-**- drojdie de bere** (drojdia care se foloseste la prepararea painii) : 1 lingura pe zi
+**- drojdie de bere** (drojdia care se foloseste la prepararea painii) : 1 lingura pe zi
 
-**- ptr dureri ale ficatului** : infuzie din ½ lingurita de rostopasca la o cana de apa. Se bea in cursul unei zile.
+**- ptr dureri ale ficatului** : infuzie din ½ lingurita de rostopasca la o cana de apa. Se bea in cursul unei zile.
 
-**- tratament** : 5-6 radacini de hrean cu frunze se pun la macerat in o sticla de rachiu timp de 7 zile. Se strecoara si se ia o lingura de 3 ori pe zi inainte de masa
+**- tratament** : 5-6 radacini de hrean cu frunze se pun la macerat in o sticla de rachiu timp de 7 zile. Se strecoara si se ia o lingura de 3 ori pe zi inainte de masa
 
 \- supliment alimentar cu **extract de samburi de struguri rosii**
 
-**- ulei de sunatoare 10%** : se ia o lingurita pe zi. Nu se administreaza in perioada de sarcina si alaptare. Este strict interzisa pe durata tratamentului, medicamentele anticonceptionale.
+**- ulei de sunatoare 10%** : se ia o lingurita pe zi. Nu se administreaza in perioada de sarcina si alaptare. Este strict interzisa pe durata tratamentului, medicamentele anticonceptionale.
 
 **- Vitamina A** forte: o capsula la 2-4 zile
 
-**- suc de Varza** : 500 ml / zi
+**- suc de Varza** : 500 ml / zi
 
-**- pentru regenerarea ficatului** : 1 kg ceapa rosie se toaca si se amesteca cu 5 litri de tuica curata. Se macereaza 10 zile. Se strecoara si se pastreaza la frigider sau in beci. Se ia cate 30-40 ml pe stomacul gol dimineata si se sta culcat pe partea dreapta.
+**- pentru regenerarea ficatului** : 1 kg ceapa rosie se toaca si se amesteca cu 5 litri de tuica curata. Se macereaza 10 zile. Se strecoara si se pastreaza la frigider sau in beci. Se ia cate 30-40 ml pe stomacul gol dimineata si se sta culcat pe partea dreapta.
 
-\- **medicamente naturale utile in ciroza hepatica** : ***Hepa Control (1 cps de 3 ori pe zi), Extract din Muguri de Alun.*** Medicamentele pot fi cumparate din magazinele de plante medicinale sau de pe site-ul <
+\- **medicamente naturale utile in ciroza hepatica** : ***Hepa Control (1 cps de 3 ori pe zi), Extract din Muguri de Alun.*** Medicamentele pot fi cumparate din magazinele de plante medicinale sau de pe site-ul <
 
 Regimul alimentar
 -----------------
@@ -39,82 +39,82 @@ In mod normal, cantitatea de sare ingerata trebuie limitata la bolnavii de ciroz
 
 Carnea, branza si alimentele gata preparate din comert, supele si legumele conservate, snacks-urile si biscuitii contin mai mult de 1000 miligrame intr-o singura portie. Tinand cont ca un bolnav de ciroza trebuie sa limiteze sarea la 2500 miligrame pe zi, aceste produse lasa putin loc pentru alte alimente mai nutritive.
 
-Alimentaţia zilnică va fi fracţionată în 5-6 mese, fiecare în volum redus pentru a evita efortul de digestie la care ar fi supus ficatul şi pancreasul.
+Alimentația zilnică va fi fracționată în 5-6 mese, fiecare în volum redus pentru a evita efortul de digestie la care ar fi supus ficatul și pancreasul.
 
-***Alcoolul**.* La omul sănătos ingerarea zilnică nu trebuie să depăşească 12 g de alcool absolut, ceea ce corespunde cu 45 ml de cognac, 180 ml de vin sau 360 ml de bere. Apariţia cirozei şi a bolii hepatice este declanşată începând cu 60 g de alcool pe zi pentru bărbaţi şi 20 g pe zi pentru femei. Trebuie să se ştie că din cantitatea totală de alcool ingerată în organism, peste 95% este absorbită în 15-30 de minute, la nivelul tractului digestiv şi este dirijat spre ficat. Doar 3-5% din alcool este eliminat prin rinichi şi plămâni. La marii consumatori de alcool, ficatul se măreşte în volum, dând un prim simptom al cirozei. După pătrunderea în ficat, alcoolul se metabolizează foarte lent, într-un proces enzimatic de oxidare. Tot ca urmare a oxidării unei cantităţi mari de alcool în ficat are loc şi dereglarea metabolismului glucidic, ceea ce explică procesul de hipoglicemie constatat la alcoolici. De asemenea, alcoolicii cronici devin foarte sensibili la numeroase medicamente, care devin toxice prin blocarea metabolizării.La un consum de peste 180 g de alcool zilnic, timp de 10-15 ani, se ajunge, în mod sigur, la hepatopatii cronice şi la ciroză hepatică.
+***Alcoolul**.* La omul sănătos ingerarea zilnică nu trebuie să depășească 12 g de alcool absolut, ceea ce corespunde cu 45 ml de cognac, 180 ml de vin sau 360 ml de bere. Apariția cirozei și a bolii hepatice este declanșată începând cu 60 g de alcool pe zi pentru bărbați și 20 g pe zi pentru femei. Trebuie să se știe că din cantitatea totală de alcool ingerată în organism, peste 95% este absorbită în 15-30 de minute, la nivelul tractului digestiv și este dirijat spre ficat. Doar 3-5% din alcool este eliminat prin rinichi și plămâni. La marii consumatori de alcool, ficatul se mărește în volum, dând un prim simptom al cirozei. După pătrunderea în ficat, alcoolul se metabolizează foarte lent, într-un proces enzimatic de oxidare. Tot ca urmare a oxidării unei cantități mari de alcool în ficat are loc și dereglarea metabolismului glucidic, ceea ce explică procesul de hipoglicemie constatat la alcoolici. De asemenea, alcoolicii cronici devin foarte sensibili la numeroase medicamente, care devin toxice prin blocarea metabolizării.La un consum de peste 180 g de alcool zilnic, timp de 10-15 ani, se ajunge, în mod sigur, la hepatopatii cronice și la ciroză hepatică.
 
-Consumaţi sucuri de fructe, cereale şi produse lactate
+Consumați sucuri de fructe, cereale și produse lactate
 
 [Alimente recomandate]{.underline}
 ==================================
 
 []{.underline}
 
-**Băuturi**: lapte dulce, lapte cu cafea de orz sau cu ceai, lapte cu carbonat de calciu (o linguriţă la un pahar), iaurt, decoct de tărâţe, sucuri de fructe sau de zarzavaturi (suc de sfeclă), chisel din lapte sau din sosuri de fructe.
+**Băuturi**: lapte dulce, lapte cu cafea de orz sau cu ceai, lapte cu carbonat de calciu (o linguriță la un pahar), iaurt, decoct de tărâțe, sucuri de fructe sau de zarzavaturi (suc de sfeclă), chisel din lapte sau din sosuri de fructe.
 
-**Supe şi ciorbe**: (de preferinţă câte o jumătate de porţie de supe de zarzavaturi îngroşate cu făinoase ca: griş, orez, fulgi de ovăz, tăiţei, găluşte de griş; supe cu perişoare de brânză de vaci sau de carne (acestea se vor fierbe aparte).
+**Supe și ciorbe**: (de preferință câte o jumătate de porție de supe de zarzavaturi îngroșate cu făinoase ca: griș, orez, fulgi de ovăz, tăiței, găluște de griș; supe cu perișoare de brânză de vaci sau de carne (acestea se vor fierbe aparte).
 
 **Pâine**: pâine albă prăjită, sau pâine albă veche de o zi.
 
-**Carne**: Carne slabă de vacă sau viţel, preparată rasol. Rasol de găină sau de pui. Perişoare sau chifteluţe fierte la aburi sau în sosuri dietetice. Grătar preparat cu carne mai întâi fiartă şi friptă la cuptor fără coajă. Mâncăruri de carne preparate dietetic: musaca, chiftele marinate, ardei umpluţi.
+**Carne**: Carne slabă de vacă sau vițel, preparată rasol. Rasol de găină sau de pui. Perișoare sau chifteluțe fierte la aburi sau în sosuri dietetice. Grătar preparat cu carne mai întâi fiartă și friptă la cuptor fără coajă. Mâncăruri de carne preparate dietetic: musaca, chiftele marinate, ardei umpluți.
 
-**Peşte**: peşte alb slab, rasol sau perişoare de peşte fierte la aburi.
+**Pește**: pește alb slab, rasol sau perișoare de pește fierte la aburi.
 
-**Ouă**: zdrenţe de albuş în supă, omletă dietetică numai din albuş cu zahăr, cremă de albuş cu lapte, bezele. Gălbenuşul e permis numai o dată sau de două ori pe săptămână în preparate.
+**Ouă**: zdrențe de albuș în supă, omletă dietetică numai din albuș cu zahăr, cremă de albuș cu lapte, bezele. Gălbenușul e permis numai o dată sau de două ori pe săptămână în preparate.
 
-**Brânzeturi**: brânză de vaci, telemea desărată (indicată numai la bolnavii fără edeme sau ascită), urdă, caş slab nesărat şi nefermentat.
+**Brânzeturi**: brânză de vaci, telemea desărată (indicată numai la bolnavii fără edeme sau ascită), urdă, caș slab nesărat și nefermentat.
 
-**Făinoase:** orez, griş, macaroane, tăiţei, fidea, foarte bine fierte şi limpezite în apă fierbinte, preparate mai ales sub formă de budinci sau albuş bătut. Mămăligă moale, bine fiartă.
+**Făinoase:** orez, griș, macaroane, tăiței, fidea, foarte bine fierte și limpezite în apă fierbinte, preparate mai ales sub formă de budinci sau albuș bătut. Mămăligă moale, bine fiartă.
 
-**Zarzavat şi legume**: pireuri, sosuri, budinci de zarzavaturi, preparate cu albuş bătut spumă. Cartofii se vor da de preferinţă fierţi în coajă. Măncăruri din zarzavaturi ca dovlecei, morcovi, , fasole verde, preparate cu sosuri dietetice. Toate legumele vor fi bine fierte şi în cantităţi moderate, de preferinţă servite cu garnitură lângă rasol sau friptură.
+**Zarzavat și legume**: pireuri, sosuri, budinci de zarzavaturi, preparate cu albuș bătut spumă. Cartofii se vor da de preferință fierți în coajă. Măncăruri din zarzavaturi ca dovlecei, morcovi, , fasole verde, preparate cu sosuri dietetice. Toate legumele vor fi bine fierte și în cantități moderate, de preferință servite cu garnitură lângă rasol sau friptură.
 
-**Salate**: sfeclă coaptă la cuptor şi mărunţită, salată verde bine mărunţită, morcovi raşi mărunt pe răzătoare, roşii bine coapte, fără coji şi sâmburi.
+**Salate**: sfeclă coaptă la cuptor și mărunțită, salată verde bine mărunțită, morcovi rași mărunt pe răzătoare, roșii bine coapte, fără coji și sâmburi.
 
-**Fructe**: crude foarte bine coapte, rase pe răzătoare în cantitate moderată, fără coji şi sâmburi. De preferinţă sucuri de fructe preparate cu gelatină, compoturi scăzute sau date prin sită, preparate din fructe fără coajă. Fructe coapte la cuptor fără coji şi sâmburi.
+**Fructe**: crude foarte bine coapte, rase pe răzătoare în cantitate moderată, fără coji și sâmburi. De preferință sucuri de fructe preparate cu gelatină, compoturi scăzute sau date prin sită, preparate din fructe fără coajă. Fructe coapte la cuptor fără coji și sâmburi.
 
-**Grăsimi**: grăsimi proaspete ca unt şi untdelemn, care constituie grăsimea cea mai indicată pentru cirotici. Untul se adaugă la mâncarea pregătită fără grăsime, iar untdelemnul se va fierbe în sosul mâncării sau se va adăuga crud la salate. Se va respecta cantitatea de grăsime prescrisă de medic (în medie 50 g/zi) socotindu-se şi grăsimile pe care le conţine laptele şi brânza, având în vedere că: 500 g lapte conţin 20 g grăsimi; 100 g telemea de primăvară conţine 20 g grăsimi; 100 g telemea de toamnă conţine 30 g grăsimi.
+**Grăsimi**: grăsimi proaspete ca unt și untdelemn, care constituie grăsimea cea mai indicată pentru cirotici. Untul se adaugă la mâncarea pregătită fără grăsime, iar untdelemnul se va fierbe în sosul mâncării sau se va adăuga crud la salate. Se va respecta cantitatea de grăsime prescrisă de medic (în medie 50 g/zi) socotindu-se și grăsimile pe care le conține laptele și brânza, având în vedere că: 500 g lapte conțin 20 g grăsimi; 100 g telemea de primăvară conține 20 g grăsimi; 100 g telemea de toamnă conține 30 g grăsimi.
 
-**Sosuri**: preparate dietetic, fără grăsime prăjită, cu zeamă de zarzavat, cu lapte, cu verdeţuri, cu suc de roşii.
+**Sosuri**: preparate dietetic, fără grăsime prăjită, cu zeamă de zarzavat, cu lapte, cu verdețuri, cu suc de roșii.
 
-**Dulciuri**: miere de albine, zahar, peltea, făinoase cu lapte, cremă de lapte şi albuş, biscuiţi din albuş, budinci din făinoase îndulcite, sufleuri de fructe cu gelatină, chiseluri, gelatine dulci din brânză de vaci sau iaurt din sucuri sau pireuri de fructe, spumă de albuş, bezele, aluat uscat preparat cu brânză de vaci, cu jeleuri sau fructe.
+**Dulciuri**: miere de albine, zahar, peltea, făinoase cu lapte, cremă de lapte și albuș, biscuiți din albuș, budinci din făinoase îndulcite, sufleuri de fructe cu gelatină, chiseluri, gelatine dulci din brânză de vaci sau iaurt din sucuri sau pireuri de fructe, spumă de albuș, bezele, aluat uscat preparat cu brânză de vaci, cu jeleuri sau fructe.
 
 **Sare**: în cantitate moderată.
 
-**Conserve**: se pot folosi conservele de legume din comerţ, care nu conţin grăsimi, ca dovlecei, fasole verde, ardei graşi - aruncând apa în care sunt conservate şi fierbându-le din nou, pentru a înlătura sarea. De asemenea, se poate folosi sucul de roşii crude, cât şi bulionul de foarte bună calitate şi mai puţin sărat.
+**Conserve**: se pot folosi conservele de legume din comerț, care nu conțin grăsimi, ca dovlecei, fasole verde, ardei grași - aruncând apa în care sunt conservate și fierbându-le din nou, pentru a înlătura sarea. De asemenea, se poate folosi sucul de roșii crude, cât și bulionul de foarte bună calitate și mai puțin sărat.
 
-**Diverse**: pentru a acri supele, sosurile, salatele, se va folosi sucul de lămâie sau sarea, de lămâie diluată; de asemenea borşul, iaurtul şi chiar oţetul de fructe, în cantitate mică. Se vor folosi toate condimentele aromate, verdeţuri ca: pătrunjel, mărar, tarhon, leuştean, dafin şi cimbru. Pentru deserturi sunt indicate vanilia şi coaja de lămâie sau de portocale.
+**Diverse**: pentru a acri supele, sosurile, salatele, se va folosi sucul de lămâie sau sarea, de lămâie diluată; de asemenea borșul, iaurtul și chiar oțetul de fructe, în cantitate mică. Se vor folosi toate condimentele aromate, verdețuri ca: pătrunjel, mărar, tarhon, leuștean, dafin și cimbru. Pentru deserturi sunt indicate vanilia și coaja de lămâie sau de portocale.
 
-\- **Alte alimente admise pentru consum** sunt: urdă dulce, caş dulce, iaurt, smântână proaspătă, albuş de ou, untdelemn, pâine albă veche de o zi, paste făinoase rafinate, budinci, compoturi şi condimente aromate (cimbru, mărar, pătrunjel, leuştean, dafin), care au rolul de a stimula apetitul şi de a compensa lipsa de gust a dietei hiposodate.
+\- **Alte alimente admise pentru consum** sunt: urdă dulce, caș dulce, iaurt, smântână proaspătă, albuș de ou, untdelemn, pâine albă veche de o zi, paste făinoase rafinate, budinci, compoturi și condimente aromate (cimbru, mărar, pătrunjel, leuștean, dafin), care au rolul de a stimula apetitul și de a compensa lipsa de gust a dietei hiposodate.
 
-\- Pentru cei cu **ascită sau edeme**, supele sau ciorbele vor fi preparate fără sare şi vor fi socotite în cantitatea de lichide permisă de medic. În cirozele cu ascită se exclude total sarea de bucătărie şi sarea de lămâie.
+\- Pentru cei cu **ascită sau edeme**, supele sau ciorbele vor fi preparate fără sare și vor fi socotite în cantitatea de lichide permisă de medic. În cirozele cu ascită se exclude total sarea de bucătărie și sarea de lămâie.
 
 **-alimente care stimuleaza functia hepatica**: cicoare, papadie, anghinare, salata, spanac, fasole verde, vinete, tomate, usturoi, ceapa, praz, ridiche, agrise, mere, gutui, lamai, cirese, visine, coacaze, fragi, capsuni, pepene verde si galben, condimente aromatice (patrunjel, leustean, marar, anason, tarhon, frunze de telina).
 
 \- **alimente recomandate in mod special** : lamai, masline, sofran pur, patrunjel
 
-\- În **ciroza hepatică compensată** sunt recomandate alimente cu efect de stimulare a funcţiei hepatice:
+\- În **ciroza hepatică compensată** sunt recomandate alimente cu efect de stimulare a funcției hepatice:
 
-\- fructe: agrişe, cireşe, vişine, fragi, gutui, pepeni verzi, prune, struguri (1-2 kg/zi), ienupăr (10-15 fructe proaspete zilnic) şi o cură de lămâi proaspete, îndulcite cu miere de albine;
+\- fructe: agrișe, cireșe, vișine, fragi, gutui, pepeni verzi, prune, struguri (1-2 kg/zi), ienupăr (10-15 fructe proaspete zilnic) și o cură de lămâi proaspete, îndulcite cu miere de albine;
 
-\- legume: fasole păstăi, tomate, ardei, dovlecei, morcov, vinete, spanac, salată, varză crudă şi ridichi;
+\- legume: fasole păstăi, tomate, ardei, dovlecei, morcov, vinete, spanac, salată, varză crudă și ridichi;
 
-\- sucuri din legume proaspete: morcov, sfeclă roşie, varză, ridichi negre, castraveţi, precum şi suc din orz verde (câte o jumătate de pahar dimineaţa şi seara).
+\- sucuri din legume proaspete: morcov, sfeclă roșie, varză, ridichi negre, castraveți, precum și suc din orz verde (câte o jumătate de pahar dimineața și seara).
 
 **-Alimente interzise**: carne grasa, vanat, viscere, conserve de carne, branzeturi fermentate, grase, topite,
 
-oua in exces prajite sau fierte tari, grasimi animale, paine proaspata, fainoase, leguminoase uscate, legume bogate in celuloza, dulciuri concentrate, creme, torturi, cacao, condimente tari, iuti, rantasuri, nuci, seminte, fasole, linte, naut, grăsimile animale încinse, mezeluri, afumături, conserve, prăjeli, sosuri grase, măruntaie, ouă, brânzeturi grase şi fermentate, leguminoase uscate, dulciuri concentrate, pâine albă proaspătă şi sărată, cozonac, condimente iritante, nuci, alune, migdale, cacao, ciocolată, condimente puternice, carnea de porc, carnea de oaie, branza de oaie, galbenus de ou, afumaturile, alimente care contin conservanti, fructe necoapte, gogosi, ciocolata, margarina, slanina, ceapa prajita, otet, piper, mustar, , ochiurile prăjite, maionezele, brânzeturile sărate, caşcavalul
+oua in exces prajite sau fierte tari, grasimi animale, paine proaspata, fainoase, leguminoase uscate, legume bogate in celuloza, dulciuri concentrate, creme, torturi, cacao, condimente tari, iuti, rantasuri, nuci, seminte, fasole, linte, naut, grăsimile animale încinse, mezeluri, afumături, conserve, prăjeli, sosuri grase, măruntaie, ouă, brânzeturi grase și fermentate, leguminoase uscate, dulciuri concentrate, pâine albă proaspătă și sărată, cozonac, condimente iritante, nuci, alune, migdale, cacao, ciocolată, condimente puternice, carnea de porc, carnea de oaie, branza de oaie, galbenus de ou, afumaturile, alimente care contin conservanti, fructe necoapte, gogosi, ciocolata, margarina, slanina, ceapa prajita, otet, piper, mustar, , ochiurile prăjite, maionezele, brânzeturile sărate, cașcavalul
 
-\- În **crizele de ciroză hepatică** se începe cu câteva zile de repaus obligatoriu la pat şi regim de protecţie cu lichide. Se continuă cu un regim alimentar complet (circa 45 cal/kg corp pe zi), bogat în proteine şi vitamine. Necesarul proteic este recomandat sub formă de lapte, produse lactate şi cereale, mai ales seminţe germinate de orz şi grâu, ţinând seama că bolnavul metabolizează foarte greu proteinele animale. Necesarul de lipide se preia din produsele lactate, margarină, untdelemn şi puţin unt. Glucidele vor acoperi consumurile energetice prin cantitatea de 300-400 g/zi.
+\- În **crizele de ciroză hepatică** se începe cu câteva zile de repaus obligatoriu la pat și regim de protecție cu lichide. Se continuă cu un regim alimentar complet (circa 45 cal/kg corp pe zi), bogat în proteine și vitamine. Necesarul proteic este recomandat sub formă de lapte, produse lactate și cereale, mai ales semințe germinate de orz și grâu, ținând seama că bolnavul metabolizează foarte greu proteinele animale. Necesarul de lipide se preia din produsele lactate, margarină, untdelemn și puțin unt. Glucidele vor acoperi consumurile energetice prin cantitatea de 300-400 g/zi.
 
-Pentru **accelerarea vindecării cirozei hepatice** se aplică comprese calde, inclusiv parafină, ţinute două ore pe zona toracică dureroasă, folosind săculeţi în care se opăresc flori de fân. De asemenea, se recomandă aplicarea de cataplasme de argilă sau ceapă cu varză şi tărâţe pentru decongestionarea ficatului (4 foi de varză, 3 cepe, 250 g de tărâţe fierte). Acestea se acoperă cu o faşă elastică şi se lasă timp de 90 de minute. Bolnavul va evita eforturile fizice prelungite, infecţiile interne şi erorile posibile în intervenţiile chirurgicale şi în tratamentele medicamentoase.
+Pentru **accelerarea vindecării cirozei hepatice** se aplică comprese calde, inclusiv parafină, ținute două ore pe zona toracică dureroasă, folosind săculeți în care se opăresc flori de fân. De asemenea, se recomandă aplicarea de cataplasme de argilă sau ceapă cu varză și tărâțe pentru decongestionarea ficatului (4 foi de varză, 3 cepe, 250 g de tărâțe fierte). Acestea se acoperă cu o fașă elastică și se lasă timp de 90 de minute. Bolnavul va evita eforturile fizice prelungite, infecțiile interne și erorile posibile în intervențiile chirurgicale și în tratamentele medicamentoase.
 
-O plantă cu efecte deosebite este **cimişirul** (Buxus sempervirens), o plantă ornamentală utilizată pentru garduri vii, de la care se utilizează vîrfuri de crenguţe, cu frunze tinere. Se prepară sub formă de decoct, din 1 linguriţă frunze uscate la 250 ml apă. Se fierbe 2 minute, se infuzează, acoperit, încă 5 minute, se îndulceşte cu miere de albine şi se beau cîte 2 ceaiuri pe zi. Planta conţine un alcaloid (buxenina G2), cu puternică acţiune inhibitoare în dezvoltarea ţesuturilor afectate de ciroză şi a celulelor bolnave de cancer hepatic",
+O plantă cu efecte deosebite este **cimișirul** (Buxus sempervirens), o plantă ornamentală utilizată pentru garduri vii, de la care se utilizează vîrfuri de crenguțe, cu frunze tinere. Se prepară sub formă de decoct, din 1 linguriță frunze uscate la 250 ml apă. Se fierbe 2 minute, se infuzează, acoperit, încă 5 minute, se îndulcește cu miere de albine și se beau cîte 2 ceaiuri pe zi. Planta conține un alcaloid (buxenina G2), cu puternică acțiune inhibitoare în dezvoltarea țesuturilor afectate de ciroză și a celulelor bolnave de cancer hepatic",
 
-O altă plantă eficientă în tratarea cirozei hepatice este **anghinarea** (Cynara scolymus). Se foloseşte doar limbul frunzelor, fără codiţă. Se prepară infuzie, din 2 linguriţe frunze uscate şi mărunţite peste care se toarnă 300 ml de apă clocotită. Se lasă să infuzeze, acoperit, timp de 30 de minute, se îndulceşte cu miere, apoi se bea întreaga cantitate, fracţionată în 3 reprize pe zi, cu o oră înainte de mesele principale, prima repriză fiind luată dimineaţa, pe stomacul gol. Secretul acestei reţete este tocmai modul ei de administrare: "După 10 zile, se măreşte doza la 4 linguriţe, iar după alte 10 zile, se pun cîte 5 linguriţe frunze uscate la aceeaşi cantitate de 300 ml apă clocotită. Cura durează 30 de zile şi, după o pauză de 10 zile, se poate relua. Efectul este de regenerare a celulelor hepatice şi de stimulare a funcţiei antitoxice a ficatului, cu eliminarea toxinelor".
+O altă plantă eficientă în tratarea cirozei hepatice este **anghinarea** (Cynara scolymus). Se folosește doar limbul frunzelor, fără codiță. Se prepară infuzie, din 2 lingurițe frunze uscate și mărunțite peste care se toarnă 300 ml de apă clocotită. Se lasă să infuzeze, acoperit, timp de 30 de minute, se îndulcește cu miere, apoi se bea întreaga cantitate, fracționată în 3 reprize pe zi, cu o oră înainte de mesele principale, prima repriză fiind luată dimineața, pe stomacul gol. Secretul acestei rețete este tocmai modul ei de administrare: "După 10 zile, se mărește doza la 4 lingurițe, iar după alte 10 zile, se pun cîte 5 lingurițe frunze uscate la aceeași cantitate de 300 ml apă clocotită. Cura durează 30 de zile și, după o pauză de 10 zile, se poate relua. Efectul este de regenerare a celulelor hepatice și de stimulare a funcției antitoxice a ficatului, cu eliminarea toxinelor".
 
-Efecte hepatoprotectoare deosebite se obţin şi prin aportul de **silimarină** din **fructele de armurariu.** Acestea se consumă sub formă de infuzie -- 2 ceaiuri/zi, timp de 20 de zile, sau pulbere -- 1-2 g/zi, în 2 reprize, cu 30 minute înainte de mesele de prînz şi de seară. La fel de bun este sucul proaspăt de rostopască obţinut prin presare la rece. Se ia cîte o linguriţă pe zi, într-un pahar cu apă, băut în mai multe reprize.
+Efecte hepatoprotectoare deosebite se obțin și prin aportul de **silimarină** din **fructele de armurariu.** Acestea se consumă sub formă de infuzie -- 2 ceaiuri/zi, timp de 20 de zile, sau pulbere -- 1-2 g/zi, în 2 reprize, cu 30 minute înainte de mesele de prînz și de seară. La fel de bun este sucul proaspăt de rostopască obținut prin presare la rece. Se ia cîte o linguriță pe zi, într-un pahar cu apă, băut în mai multe reprize.
 
-Un amestec din plante recomandat este din rădăcini de pir (80 g), pelin alb (40 g), cicoare (80 g), rădăcini de leuştean (40 g), frunze de dud alb (350 g), dud negru (250 g), patlagină (60 g), troscot (60 g) şi urzică vie (40 g). Se prepară un decoct din 1 kg amestec, uscat şi măcinat, la 5 litri de apă. Se fierbe pînă cînd volumul extractului scade la 3 litri, se strecoară, iar cantitatea rezultată se bea în decurs de 2 zile, prin înghiţituri rare. Tratamentul se desfăşoară pe o perioadă de 2-3 luni.
+Un amestec din plante recomandat este din rădăcini de pir (80 g), pelin alb (40 g), cicoare (80 g), rădăcini de leuștean (40 g), frunze de dud alb (350 g), dud negru (250 g), patlagină (60 g), troscot (60 g) și urzică vie (40 g). Se prepară un decoct din 1 kg amestec, uscat și măcinat, la 5 litri de apă. Se fierbe pînă cînd volumul extractului scade la 3 litri, se strecoară, iar cantitatea rezultată se bea în decurs de 2 zile, prin înghițituri rare. Tratamentul se desfășoară pe o perioadă de 2-3 luni.
 
 2 cesti cu infuzie de **pedicuta**, una bauta dimineata, pe stomacul gol si cealalta seara, 1/2 ora inainte de cina, ajuta atit in caz de ciroza hepatica, cit si de boala maligna a ficatului. Insuficienta respiratorie care survine la aceste doua boli este astfel eliminata dintr-un foe. La 1/4 litru de apa se pune 1 lingurita de plante. In plus, se iau 6 inghitituri de ceai de **radacini de obligeana** (a se cauta ia articolul despre obligeana} si 2-3 cesti cu ceai de **urzici**. Ar trebui sa fie puse pe regiunea ficatului, pe parcursul zilei timp de 4 ore, comprese cu bitter suedez, iar compresele cu aburi de **coada-calului** (a se vedea pentru ambele comprese) sa fie aplicate pe cit posibil dimineata si dupa-amiaza cite 2 ore, stind in pat, ca si in timpul noptii.
 
@@ -160,10 +160,10 @@ Toate compresele trebuie acoperite cu bucati calde de pinza, ca sa nu se produca
 
 Pacientii sunt sfatuiti de asemenea sa se vaccineze impotriva hepatitei A si B, sa evite analgezicele si alte medicamente care pot afecta ficatul.
 
-Alte tratamente constau din **comprese calde în zona ficatului** cu tinctură suedeză şi oţet diluat, cataplasme pe abdomen cu ridichi rase sau frunze de varză strivite sau cataplasme cu argilă, pusă călduţă, în strat subţire, pe regiunea hepatică, seara şi se ţine toată noaptea.
+Alte tratamente constau din **comprese calde în zona ficatului** cu tinctură suedeză și oțet diluat, cataplasme pe abdomen cu ridichi rase sau frunze de varză strivite sau cataplasme cu argilă, pusă călduță, în strat subțire, pe regiunea hepatică, seara și se ține toată noaptea.
 
-\- ptr scaderea burtii : un pumn de aschii de radacina de Dud alb, se pun la macerat in 2 litri de apa timp de o zi. Apoi se fierbe pana cand lichidul scade la jumatate. Se strecoara si se bea in cursul unei zile.
+\- ptr scaderea burtii : un pumn de aschii de radacina de Dud alb, se pun la macerat in 2 litri de apa timp de o zi. Apoi se fierbe pana cand lichidul scade la jumatate. Se strecoara si se bea in cursul unei zile.
 
-\- d-na Dr. Virginia Faur -- medic naturist care a vindecat cazuri de ciroza hepatica Poate trimite medicamente naturiste prin posta in sistem ramburs. Adresa : Lugoj, jud Timis, str C.A.Loga, nr 36, cod 305500, tel 0256/356696
+\- d-na Dr. Virginia Faur -- medic naturist care a vindecat cazuri de ciroza hepatica Poate trimite medicamente naturiste prin posta in sistem ramburs. Adresa : Lugoj, jud Timis, str C.A.Loga, nr 36, cod 305500, tel 0256/356696
 
 \- EUGEN GIURGIU -- a vindecat-o pe mama lui de ciroza hepatica , adresa: Str. Aleea Detunata, Bl. D2, sc. A, ap. 19, Alba-Iulia, cod 510064, tel. 0741.92.88.80

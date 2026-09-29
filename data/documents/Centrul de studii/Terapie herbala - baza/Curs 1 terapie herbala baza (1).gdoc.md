@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 1 terapie herbala baza (1).gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 1 terapie herbala baza (1).gdoc"
-source_pointer_sha256: "e0c2b986fd8fd78e21889d172e86e320e7425f3e9a4f6ee83fe7266707e50e87"
-source_pointer_bytes: 181
-google_doc_id: "1X_NZd25ABZ47lO47QoqmeNiAcvhzHd3gigvB4DxumQ8"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 1 terapie herbala baza (1)
-
-## Conținut extras
-
 CURS 1
 
  Herbalismul acopera o gama mare de activitati. Ierburile sunt folosite in horticultura, bucatarie, medicina, in designul ornamental si intr-o multime de alte domenii.

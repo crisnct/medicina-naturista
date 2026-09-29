@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - profesional\\Curs 17 terapie herbala profesional.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - profesional\\Curs 17 terapie herbala profesional.gdoc"
-source_pointer_sha256: "c08c13d3bd934f33aca3fdc2b1e1da984d58732dce3308cd4d8c9014311447a2"
-source_pointer_bytes: 181
-google_doc_id: "1TcF6cHN8Zs7Zat2uLte9c3GufbFu8nnWC4cc71jmWTE"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 17 terapie herbala profesional
-
-## Conținut extras
-
 Cursul 17
 
 Ierburile tonice (continuare)
@@ -30,7 +14,7 @@ Caracteristici de identificare:
 
 Este o plantă erbacee, perenă, crește înaltă de 10-40 cm cu o tulpină erectă, cilindrică sau cu coaste puțin proeminente, acoperită de peri abundenți, care se ramifică doar în zona florilor. Frunzele alterne, întrerupt imparipenate, sunt formate din 5-9 foliole dințate pe margini, între care se găsesc 6-10 foliole mici.Florile sunt ca niște steluțe cu cinci colțuri de culoare roz sau violet. Fructul este o achenă. Planta crește în livezi și pe pajiști în locuri umede și luminoase, în zonele de munte până la o altitudine de 1000-1200 m, în vii, în zonele defrișate, sub traseele liniilor de înaltă tensiune. Se culege din iunie până în septembrie.
 
-Ţintaură (inflorescenţă)
+Țintaură (inflorescență)
 
 Țintaura este una dintre cele mai puternice ierburi detoxifiante din flora medicinală românească.
 

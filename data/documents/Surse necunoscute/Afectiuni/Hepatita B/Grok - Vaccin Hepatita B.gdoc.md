@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Hepatita B\\Grok - Vaccin Hepatita B.gdoc"
-source_relative_path: "Hepatita B\\Grok - Vaccin Hepatita B.gdoc"
-source_pointer_sha256: "d9addf2088965b7a52466d51f16d57d0c0eb822e7d1d88458c148f71ca2365a5"
-source_pointer_bytes: 181
-google_doc_id: "1yNiOg5g-7QhpwLfXbmCPVfsCqMOtfIW7VOJYj1e6HQY"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Grok - Vaccin Hepatita B
-
-## Conținut extras
-
 **Hepatitis B Vaccine: Facts, Benefits, Risks, and Real-World Reports of Severe Adverse Effects**
 
 **Prepared by: Dr. \[Your Name\], MD**

@@ -2,7 +2,7 @@ Miastenie
 
 **MESTINON** - 100 de pastile, produs in Germania, recomandat in miastenia gravis. BACIU ADRIAN - Alba-Iulia, tel. 058/73.94.25)
 
-http;//www.formula-as.ro
+http;//
 
 **Cannabisul** poate ameliorea în mod eficient simptomele ce apar în anumite boli ale sistemului neuro-muscular (e.g. miastenia)?
 
@@ -22,28 +22,28 @@ Prednisolone substance can be applied as a precursor in a synthesis of other ste
 
 Diabet zaharat
 
-Medicamentul-minune împotriva obezităţii dar şi a fumatului
+Medicamentul-minune împotriva obezității dar și a fumatului
 ===========================================================
 
 10 Februarie 2005
 
-Medicamentul-minune care combate atât obezitatea cât şi fumatul ar putea apărea pe piaţă în curând.
+Medicamentul-minune care combate atât obezitatea cât și fumatul ar putea apărea pe piață în curând.
 
 Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al anului în curs cererea pentru autorizarea punerii în vânzare a preparatului **Rimonabant.\
-**Atenţie, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, şi chiar s-au dovedit periculoase, aşa cum a fost cazul cu Isomeride.
+**Atenție, însă, căci medicamentele care \"taie foamea\" au dezamăgit uneori, și chiar s-au dovedit periculoase, așa cum a fost cazul cu Isomeride.
 
 <
 
-Actualităţi în tratamentul polineuropatiei diabetice
+Actualități în tratamentul polineuropatiei diabetice
 ====================================================
 
 23 Februarie 2005
 
-  Este bine cunoscută utilizarea diferitelor clase de medicamente în tratamentul durerii provocate de polineuropatia diabetică, cum ar fi: antidepresivele, anticonvulsivantele, antiaritmicele, beta simpatoliticele, opioidele.
+ Este bine cunoscută utilizarea diferitelor clase de medicamente în tratamentul durerii provocate de polineuropatia diabetică, cum ar fi: antidepresivele, anticonvulsivantele, antiaritmicele, beta simpatoliticele, opioidele.
 
-  Descoperirile recente au arătat că anumiţi compuşi care inhibă recaptarea serotoninei şi a noradrenalinei la nivelul sinapsei ar putea fi utilizaţi cu succes în tratamentul durerii. Dintre acestia cei mai studiaţi au fost Duloxetine şi Venlafaxine, care au demonstrat a avea un efect analgetic important, cu tolerabilitate bună şi efecte adverse anticolinergice minime. Dintre opioide, mai multe studii sugerează că opioidul atipic, Tramadol, ar fi efectiv în tratamentul polineuropatiei diabetice, prezentând şi el la rândul său efect inhibitor al recaptării noradrenalinei şi serotoninei.\
-  Studierea mecanismului patogenetic sugerează necesitatea unui tratament ţintit, cu apariţia unor noi clase de substanţe, cum ar fi: inhibitorii de aldoz-reductază, antioxidantele, acidul γ linoleic, inhibitori ai protein-kinazei C, factori neurotrofici.\
-  Nu trebuie uitat însă că şi un bun control al glicemiei prezintă un important efect de reducere a intensităţii durerii.
+ Descoperirile recente au arătat că anumiți compuși care inhibă recaptarea serotoninei și a noradrenalinei la nivelul sinapsei ar putea fi utilizați cu succes în tratamentul durerii. Dintre acestia cei mai studiați au fost Duloxetine și Venlafaxine, care au demonstrat a avea un efect analgetic important, cu tolerabilitate bună și efecte adverse anticolinergice minime. Dintre opioide, mai multe studii sugerează că opioidul atipic, Tramadol, ar fi efectiv în tratamentul polineuropatiei diabetice, prezentând și el la rândul său efect inhibitor al recaptării noradrenalinei și serotoninei.\
+ Studierea mecanismului patogenetic sugerează necesitatea unui tratament țintit, cu apariția unor noi clase de substanțe, cum ar fi: inhibitorii de aldoz-reductază, antioxidantele, acidul γ linoleic, inhibitori ai protein-kinazei C, factori neurotrofici.\
+ Nu trebuie uitat însă că și un bun control al glicemiei prezintă un important efect de reducere a intensității durerii.
 
 <
 
@@ -52,21 +52,21 @@ Medicamente necesare bolnavilor de diabet
 
 17 Februarie 2005
 
-Ministerul Sănătăţii (MS) şi Casa Naţională de Asigurări de Sănătate (CNAS) au trimis, vineri, către toate centrele de diabet din ţară comanda pe această lună pentru insulină şi medicamentele antidiabetice.
+Ministerul Sănătății (MS) și Casa Națională de Asigurări de Sănătate (CNAS) au trimis, vineri, către toate centrele de diabet din țară comanda pe această lună pentru insulină și medicamentele antidiabetice.
 
-  Cei aproximativ 300.000 de bolnavi care sunt cuprinşi în programul de prevenire şi control al diabetului şi a altor boli de nutriţie nu mai au motive de îngrijorare. Pentru anul 2005, programul de prevenţie şi control în diabet şi alte boli de nutriţie beneficiază de un buget de aproximativ 1.800 miliarde lei.\
-Conform calculelor efectuate de către reprezentanţii CNAS, comanda din această lună, în valoare de 160 miliarde de lei, va fi suficientă pentru tratamentul gratuit al tuturor pacienţilor.\
-  Anul trecut erau înregistraţi în România peste 400.000 de bolnavi de diabet, iar 75.000 dintre ei aveau nevoie de tratament cu insulină. Anual, în ţara noastră sunt înregistrate 50.000 de noi cazuri de îmbolnăviri.(Rompres)
+ Cei aproximativ 300.000 de bolnavi care sunt cuprinși în programul de prevenire și control al diabetului și a altor boli de nutriție nu mai au motive de îngrijorare. Pentru anul 2005, programul de prevenție și control în diabet și alte boli de nutriție beneficiază de un buget de aproximativ 1.800 miliarde lei.\
+Conform calculelor efectuate de către reprezentanții CNAS, comanda din această lună, în valoare de 160 miliarde de lei, va fi suficientă pentru tratamentul gratuit al tuturor pacienților.\
+ Anul trecut erau înregistrați în România peste 400.000 de bolnavi de diabet, iar 75.000 dintre ei aveau nevoie de tratament cu insulină. Anual, în țara noastră sunt înregistrate 50.000 de noi cazuri de îmbolnăviri.(Rompres)
 
 <
 
-Reanalizarea Programului Naţional de Diabet şi boli de nutriţie
+Reanalizarea Programului Național de Diabet și boli de nutriție
 ===============================================================
 
 23 Februarie 2005
 
-  Dintr-un comunicat de presă al Ministerului Sănătăţii aflăm ca prof. Mircea Cinteză a cerut comisiei de diabet să definitiveze în regim de urgenţă nişte protocoale terapeutice pe tipuri de diabet şi stadii de boală, precum şi realizarea Registrului Naţional de Diabet, care va fi conceput ca o bază de date necesară pentru cunoaşterea exactă a numărului de pacienţi bolnavi de diabet şi a costurilor necesare stadiilor de evoluţie ale bolii. Membrii comisiei au la dispoziţie o săptămână pentru finalizarea acestui proiect.\
-  Pentru anul 2005, Programul de prevenţie şi control în diabet şi alte boli de nutriţie beneficiază de un buget de aprox. 1800 miliarde lei. Anul trecut erau înregistraţi în România peste 400 000 de bolnavi de diabet, dintre care peste 300 000 primesc medicamentaţie gratuită în cadrul Programului Naţional de Diabet. (Rompres)
+ Dintr-un comunicat de presă al Ministerului Sănătății aflăm ca prof. Mircea Cinteză a cerut comisiei de diabet să definitiveze în regim de urgență niște protocoale terapeutice pe tipuri de diabet și stadii de boală, precum și realizarea Registrului Național de Diabet, care va fi conceput ca o bază de date necesară pentru cunoașterea exactă a numărului de pacienți bolnavi de diabet și a costurilor necesare stadiilor de evoluție ale bolii. Membrii comisiei au la dispoziție o săptămână pentru finalizarea acestui proiect.\
+ Pentru anul 2005, Programul de prevenție și control în diabet și alte boli de nutriție beneficiază de un buget de aprox. 1800 miliarde lei. Anul trecut erau înregistrați în România peste 400 000 de bolnavi de diabet, dintre care peste 300 000 primesc medicamentație gratuită în cadrul Programului Național de Diabet. (Rompres)
 
 <
 
@@ -121,17 +121,17 @@ carne de orice fel, mezeluri, peste, cascaval, brînza topita, branzeturi fermen
 
 
 
-**Aloe Vera Gel** (efect antiinflamator şi de stimulare a sistemului digestiv şi a pancreasului, factor de control în cazul de asociere cu arteroscleroza) 2 linguri dimineaţa şi 2 seara pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghiţituri mici pentru n facilita absorbţia la nivelul mucoasei bucale.
+**Aloe Vera Gel** (efect antiinflamator și de stimulare a sistemului digestiv și a pancreasului, factor de control în cazul de asociere cu arteroscleroza) 2 linguri dimineața și 2 seara pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghițituri mici pentru n facilita absorbția la nivelul mucoasei bucale.
 
 A-Beta-Car-E (efect antioxidant, rol regenerator mai ales al mucoaselor, previne retinopatia diabetică) 3 capsule/zi.
 
-**Fields of Greens** (componentele sale active dau posibilitate organismului să utilizeze corect insulina, controlând nivelul zahărului în sânge, precum şi scăderea colesterolului) 3 tablete/zi sublingual până la absorbţie completă.
+**Fields of Greens** (componentele sale active dau posibilitate organismului să utilizeze corect insulina, controlând nivelul zahărului în sânge, precum și scăderea colesterolului) 3 tablete/zi sublingual până la absorbție completă.
 
-Forever Garcinia Plus (normalizează metabolismul glucidic şi controlează glicemia) 3 capsulc/zi.
+Forever Garcinia Plus (normalizează metabolismul glucidic și controlează glicemia) 3 capsulc/zi.
 
-Forever Kids (complexul de vitamine B ameliorează absorbţia insulinei la nivel celular mai ales la bolnavii insulino dr-peiulcnţi, pi r vine neuroparia diabeticii) 3 tablete/zi se mestecă după masă.
+Forever Kids (complexul de vitamine B ameliorează absorbția insulinei la nivel celular mai ales la bolnavii insulino dr-peiulcnți, pi r vine neuroparia diabeticii) 3 tablete/zi se mestecă după masă.
 
-Dacă există complicaţii cardiace sau obezitate cura se va asocia cu Arctic Şea Omega 3 şi Garlic Thyme. Regimul alimentar specific diabetului este obligatoriu. Cura va fi însoţită de tratamentul alopat indicat de către medicul diabetolog dar, odată cu ameliorarea analizelor şi sub supravegherea medicului, se poate reduce doza de insulina sau administrarea de medicamente diabetice.
+Dacă există complicații cardiace sau obezitate cura se va asocia cu Arctic Șea Omega 3 și Garlic Thyme. Regimul alimentar specific diabetului este obligatoriu. Cura va fi însoțită de tratamentul alopat indicat de către medicul diabetolog dar, odată cu ameliorarea analizelor și sub supravegherea medicului, se poate reduce doza de insulina sau administrarea de medicamente diabetice.
 
 
 
@@ -141,94 +141,94 @@ Dacă există complicaţii cardiace sau obezitate cura se va asocia cu Arctic Ş
 
 **Sucul de ceapa** - la o ora dupa masa, se beau 2 linguri de suc de ceapa diluate in jumatate de pahar de suc de morcov. Tratamentul se face vreme de minimum trei saptamani, timp in care, in cazul pacientilor insulino-dependenti, glicemia va fi verificata regulat, pentru a se ajusta doza zilnica de insulina. Astm, bronsita, tuse - se amesteca doua linguri de suc de ceapa cu patru linguri de miere. Se administreaza acest remediu pe parcursul unei zile.
 
- 
+
 
 **Dieta cea mai sănătoasă pentru diabetici**
 
-Folosirea piramidei alimentaţiei sănătoase te ajută să consumi o varietate de alimente sănătoase. Atunci când consumi o varietate de alimente, organismul obţine toate vitaminele şi mineralele de care ai nevoie.
+Folosirea piramidei alimentației sănătoase te ajută să consumi o varietate de alimente sănătoase. Atunci când consumi o varietate de alimente, organismul obține toate vitaminele și mineralele de care ai nevoie.
 
 !{width="1.8180555555555555in" height="0.4284722222222222in"}
 
-!{width="2.375in" height="1.9166666666666667in"}**ATENŢIE!** Aceasta este o varianta a piramidei alimentaţiei care include carne. Este preferabil sa renunţaţi la acest aliment, întrucât carnea nu este indispensabila unei alimentaţii sănătoase; dimpotrivă, ea conţine numeroase substanţe dăunătoare sănătăţii. Consumaţi alimente diferite din fiecare grupă în fiecare zi. Studiaţi exemplul de mai jos pentru a vedea cum se poate realiza acest lucru.
+!{width="2.375in" height="1.9166666666666667in"}**ATENȚIE!** Aceasta este o varianta a piramidei alimentației care include carne. Este preferabil sa renunțați la acest aliment, întrucât carnea nu este indispensabila unei alimentații sănătoase; dimpotrivă, ea conține numeroase substanțe dăunătoare sănătății. Consumați alimente diferite din fiecare grupă în fiecare zi. Studiați exemplul de mai jos pentru a vedea cum se poate realiza acest lucru.
 
- 
 
- Cerealele şi amidonoasele sunt o categorie de alimente în care se includ pâinea, cerealele pentru micul dejun, pastele fainoase, cartofii şi alte legume cu conţinut crescut de amidon. Consumaţi amidonoase la fiecare masă. Unii oameni vă vor spune că nu e bine să mâncaţi prea mult din astfel de alimente, dar acest sfat nu mai este corect. Consumul de alimente bogate în amidon s-a dovedit a fi sănătos pentru toată lumea, inclusiv pentru cei care suferă de diabet.
 
-Numărul de porţii pe care le poţi consuma în fiecare zi depinde de
+ Cerealele și amidonoasele sunt o categorie de alimente în care se includ pâinea, cerealele pentru micul dejun, pastele fainoase, cartofii și alte legume cu conținut crescut de amidon. Consumați amidonoase la fiecare masă. Unii oameni vă vor spune că nu e bine să mâncați prea mult din astfel de alimente, dar acest sfat nu mai este corect. Consumul de alimente bogate în amidon s-a dovedit a fi sănătos pentru toată lumea, inclusiv pentru cei care suferă de diabet.
+
+Numărul de porții pe care le poți consuma în fiecare zi depinde de
 
 Necesarul tău de calorii
 
-Schema de tratament antidiabetic pe care o foloseşti.
+Schema de tratament antidiabetic pe care o folosești.
 
- 
 
-Amidonoasele oferă organismului energie, vitamine, minerale, precum şi fibre.\
-**Atenţie!** Cerealele integrale sunt mai sănătoase pentru că ele conţin mai multe vitamine, minerale si fibre. Fibrele combat constipaţia si contribuie la sănătatea intestinelor.
 
- 
+Amidonoasele oferă organismului energie, vitamine, minerale, precum și fibre.\
+**Atenție!** Cerealele integrale sunt mai sănătoase pentru că ele conțin mai multe vitamine, minerale si fibre. Fibrele combat constipația si contribuie la sănătatea intestinelor.
 
-**Cât este o porţie de amidonoase?**
 
-1 Porţie:
+
+**Cât este o porție de amidonoase?**
+
+1 Porție:
 
 !{width="2.2083333333333335in" height="0.5194444444444445in"}
 
-2 Porţii:
+2 Porții:
 
 !{width="2.209722222222222in" height="0.5215277777777778in"}
 
 3 Portii
 
-!{width="2.1479166666666667in" height="0.5041666666666667in"}Poţi consuma una, doua sau trei porţii de alimente amidonoase la un prânz. Dacă foloseşti mai mult decât o singură porţie la o masă, poţi opta între a mânca mai multe tipuri de alimente amidonoase sau mai multe porţii din acelaşi aliment.
+!{width="2.1479166666666667in" height="0.5041666666666667in"}Poți consuma una, doua sau trei porții de alimente amidonoase la un prânz. Dacă folosești mai mult decât o singură porție la o masă, poți opta între a mânca mai multe tipuri de alimente amidonoase sau mai multe porții din același aliment.
 
- 
 
-**Cum să cumperi, să găteşti şi să consumi alimente amidonoase cât mai sănătoase?**
 
-Cumpăraţi cereale şi pâine integrale
+**Cum să cumperi, să gătești și să consumi alimente amidonoase cât mai sănătoase?**
 
-Consumaţi cât mai puţin şi mai rar amidonoase prăjite, bogate în grăsime, cum ar fi cartofii prăjiţi, chipsurile, preparatele de patiserie, biscuiţii, brioşele etc.
+Cumpărați cereale și pâine integrale
 
-Folosiţi iaurt degresat sau parţial degresat în loc de smântână pentru cartofii copţi.
+Consumați cât mai puțin și mai rar amidonoase prăjite, bogate în grăsime, cum ar fi cartofii prăjiți, chipsurile, preparatele de patiserie, biscuiții, brioșele etc.
 
-Înlocuiţi maioneza din sandwichuri cu muştar.
+Folosiți iaurt degresat sau parțial degresat în loc de smântână pentru cartofii copți.
 
-Înlocuiţi maioneza şi margarina folosite cu pâine, chifle sau pâine prăjită cu alternative degresate parţial sau total.
+Înlocuiți maioneza din sandwichuri cu muștar.
 
-Folosiţi dispozitive de tip spray pentru a pulveriza uleiul pe alimente în loc de a adăuga ulei ca atare, dresuri de salate, unt sau margarină.
+Înlocuiți maioneza și margarina folosite cu pâine, chifle sau pâine prăjită cu alternative degresate parțial sau total.
 
-Gătiţi şi consumaţi cerealele cu lapte degresat (smântânit) sau parţial degresat (1%).
+Folosiți dispozitive de tip spray pentru a pulveriza uleiul pe alimente în loc de a adăuga ulei ca atare, dresuri de salate, unt sau margarină.
 
-Folosiţi numai gemuri sau dulceţuri fără zahăr, brânză de vaci fără grăsime sau iaurt degresat.
+Gătiți și consumați cerealele cu lapte degresat (smântânit) sau parțial degresat (1%).
 
- 
+Folosiți numai gemuri sau dulcețuri fără zahăr, brânză de vaci fără grăsime sau iaurt degresat.
 
-Verdeţurile sunt alimente sănătoase pentru toţi, inclusiv pentru diabetici. Consumaţi în fiecare zi verdeţuri şi legume crude şi gătite. Ele vă oferă vitamine, minerale şi fibre, cu foarte puţine calorii.
 
-**Cât de mult este o porţie de verdeţuri?**
+
+Verdețurile sunt alimente sănătoase pentru toți, inclusiv pentru diabetici. Consumați în fiecare zi verdețuri și legume crude și gătite. Ele vă oferă vitamine, minerale și fibre, cu foarte puține calorii.
+
+**Cât de mult este o porție de verdețuri?**
 
 !{width="1.7534722222222223in" height="0.7013888888888888in"}1 Portie: 2 Portii:
 
 3 Portii:
 
-!{width="1.8180555555555555in" height="0.5013888888888889in"}Poţi mânca una, două sau trei porţii de verdeturi la o masă. Dacă consumi mai mult decât o porţie la o masă, poţi opta între a consuma tipuri diferite de verdeţuri sau a servi două sau trei porţii din acelaţi tip de verdeţuri.
+!{width="1.8180555555555555in" height="0.5013888888888889in"}Poți mânca una, două sau trei porții de verdeturi la o masă. Dacă consumi mai mult decât o porție la o masă, poți opta între a consuma tipuri diferite de verdețuri sau a servi două sau trei porții din acelați tip de verdețuri.
 
- 
 
-**Cum să cumperi, să găteşti şi să consumi verdeţuri cât mai sănătoase?**
 
-Consumaţi verdeţuri şi legume crude sau gătite cu puţină sau fără grăsime adăugată. Da, este posibil ca verdeţurile să fie gătite şi consumate fără nici un pic de grăsime!
+**Cum să cumperi, să gătești și să consumi verdețuri cât mai sănătoase?**
 
-Încercaţi dresuri de salate fără grăsime sau cu conţinut redus de grăsime la verdeţurile şi salatele consumate.
+Consumați verdețuri și legume crude sau gătite cu puțină sau fără grăsime adăugată. Da, este posibil ca verdețurile să fie gătite și consumate fără nici un pic de grăsime!
 
-Gătiţi verdeţurile la aburi (înăbuşit) sau cu o cantitate mică de apă, fără grăsime.
+Încercați dresuri de salate fără grăsime sau cu conținut redus de grăsime la verdețurile și salatele consumate.
 
-Adăugaţi puţină ceapă sau usturoi mărunţite.
+Gătiți verdețurile la aburi (înăbușit) sau cu o cantitate mică de apă, fără grăsime.
 
-Folosiţi puţin suc de lămâie pentru a da gust verdeţurilor sau salatelor.
+Adăugați puțină ceapă sau usturoi mărunțite.
 
-Presăraţi deasupra mirodenii şi condimente vegetale. Acestea dau gust delicios dar nu conţin grăsimi sau calorii aproape deloc.
+Folosiți puțin suc de lămâie pentru a da gust verdețurilor sau salatelor.
+
+Presărați deasupra mirodenii și condimente vegetale. Acestea dau gust delicios dar nu conțin grăsimi sau calorii aproape deloc.
 
  ---------------- ------------ --------------
  **Ziua 1** **Ziua 2**
@@ -240,141 +240,141 @@ Presăraţi deasupra mirodenii şi condimente vegetale. Acestea dau gust delicio
  fasole verde
  ---------------- ------------ --------------
 
-Dacă folosiţi o cantitate mică de grăsime, alegeţi ulei de măsline, de floarea soarelui sau margarină de consistenţă moale (la tub) în loc de carne grasă, unt, slănină sau dresuri grase.
+Dacă folosiți o cantitate mică de grăsime, alegeți ulei de măsline, de floarea soarelui sau margarină de consistență moale (la tub) în loc de carne grasă, unt, slănină sau dresuri grase.
 
- 
 
-Fructele sunt sănătoase pentru toată lumea, inclusiv pentru diabetici. Fructele ne dau energie, vitamine, minerale şi fibre.
 
-**Cât este o porţie de fructe?**
+Fructele sunt sănătoase pentru toată lumea, inclusiv pentru diabetici. Fructele ne dau energie, vitamine, minerale și fibre.
+
+**Cât este o porție de fructe?**
 
 1 Portie: 2 Portii:
 
 !{width="1.429861111111111in" height="0.56875in"}!{width="1.6861111111111111in" height="0.74375in"}
 
-!{width="2.1215277777777777in" height="0.6694444444444444in"}Poţi să consumi una sau două porţii de fructe la o masă. Dacă mănânci mai mult decât o porţie la o masă, alege tipuri diferite de fructe sau consumă două porţii din acelaşi fruct.
+!{width="2.1215277777777777in" height="0.6694444444444444in"}Poți să consumi una sau două porții de fructe la o masă. Dacă mănânci mai mult decât o porție la o masă, alege tipuri diferite de fructe sau consumă două porții din același fruct.
 
- 
+
 
 **Cum ar trebui să mănânc fructele?**
 
-Poţi mânca fructele în stare crudă, sub formă de suc fără adaus de zahăr sau conservate în sirop propriu ori prin uscare.
+Poți mânca fructele în stare crudă, sub formă de suc fără adaus de zahăr sau conservate în sirop propriu ori prin uscare.
 
-Cumpăraţi fructe de dimensiuni mai mici.
+Cumpărați fructe de dimensiuni mai mici.
 
-Consumaţi de preferinţă fructele integrale în loc să beţi doar sucul lor. Pe lângă alte avantaje, vă veţi sătura mai repede.
+Consumați de preferință fructele integrale în loc să beți doar sucul lor. Pe lângă alte avantaje, vă veți sătura mai repede.
 
-Cumpăraţi numai sucuri de fructe care conţin 100% suc natural de fructe, fără adaus de zahăr.
+Cumpărați numai sucuri de fructe care conțin 100% suc natural de fructe, fără adaus de zahăr.
 
-Beţi sucul de fructe în cantităţi mici.
+Beți sucul de fructe în cantități mici.
 
-Păstraţi deserturile din fructe cu conţinut crescut de zahăr şi grăsime (prăjitura de mere, de cireşe etc.) pentru ocazii cu totul speciale.
+Păstrați deserturile din fructe cu conținut crescut de zahăr și grăsime (prăjitura de mere, de cireșe etc.) pentru ocazii cu totul speciale.
 
- 
 
-  Laptele şi iaurtul degresate sau parţial degresate sunt sănătoase pentru toată lumea, inclusiv pentru diabetici. Laptele şi iaurtul ne oferă energie, proteine, calciu, vitamina A şi alte vitamine şi minerale.
 
-Beţi zilnic lapte degresat (smântânit) sau parţial degresat (1%). Folosiţi iaurt degresat sau parţial degresat. Acestea conţin mai puţine grăsimi totale, saturate şi colesterol.
+ Laptele și iaurtul degresate sau parțial degresate sunt sănătoase pentru toată lumea, inclusiv pentru diabetici. Laptele și iaurtul ne oferă energie, proteine, calciu, vitamina A și alte vitamine și minerale.
 
-**Notă:** Dacă sunteţi o femeie însărcinată sau alăptaţi, consumaţi patru sau cinci porţii de lapte sau iaurt în fiecare zi.
+Beți zilnic lapte degresat (smântânit) sau parțial degresat (1%). Folosiți iaurt degresat sau parțial degresat. Acestea conțin mai puține grăsimi totale, saturate și colesterol.
 
- 
+**Notă:** Dacă sunteți o femeie însărcinată sau alăptați, consumați patru sau cinci porții de lapte sau iaurt în fiecare zi.
 
-**Cât este o porţie de lapte şi iaurt?**
+
+
+**Cât este o porție de lapte și iaurt?**
 
 1 Portie:
 
-!{width="1.5583333333333333in" height="0.7388888888888889in"} Alimentele proteice sunt carnea, ouăle, brânza, peştele, leguminoasele uscate (fasole, soia etc.) şi tofu. Consumaţi cantităţi mici din aceste alimente în fiecare zi.
+!{width="1.5583333333333333in" height="0.7388888888888889in"} Alimentele proteice sunt carnea, ouăle, brânza, peștele, leguminoasele uscate (fasole, soia etc.) și tofu. Consumați cantități mici din aceste alimente în fiecare zi.
 
- **ATENŢIE!** Aceasta este o varianta a piramidei alimentaţiei care include carne. Este preferabil sa renunţaţi la acest aliment, întrucât carnea nu este indispensabila unei alimentaţii sănătoase; dimpotrivă, ea conţine numeroase substanţe dăunătoare sănătăţii. Alimentele proteice sunt utile organismului pentru a clădi ţesuturi şi muşchi. De asemenea, ele furnizează vitamine şi minerale.
+ **ATENȚIE!** Aceasta este o varianta a piramidei alimentației care include carne. Este preferabil sa renunțați la acest aliment, întrucât carnea nu este indispensabila unei alimentații sănătoase; dimpotrivă, ea conține numeroase substanțe dăunătoare sănătății. Alimentele proteice sunt utile organismului pentru a clădi țesuturi și mușchi. De asemenea, ele furnizează vitamine și minerale.
 
- 
 
-**Cât este o porţie de alimente proteice**
+
+**Cât este o porție de alimente proteice**
 
 1 Portie:
 
 !{width="1.8694444444444445in" height="0.43472222222222223in"}
 
-**ATENŢIE!** Mărimea porţiei pe care o consumaţi acum s-ar putea să fie prea mare!
+**ATENȚIE!** Mărimea porției pe care o consumați acum s-ar putea să fie prea mare!
 
-O porţie trebuie să nu depăşească 60-90 g după gătire, adică o bucată de dimensiunea unui pachet de cărţi de joc.
+O porție trebuie să nu depășească 60-90 g după gătire, adică o bucată de dimensiunea unui pachet de cărți de joc.
 
- 
 
-**Cum să cumperi, să găteşti şi să consumi alimente proteice cât mai sănătoase?**
 
-Cumpăraţi carne cât mai slabă, fără grăsime vizibilă. Înlăturaţi toată grăsimea vizibilă în timpul preparării.
+**Cum să cumperi, să gătești și să consumi alimente proteice cât mai sănătoase?**
 
-Consumaţi carnea de pasăre sau de curcă fără piele.
+Cumpărați carne cât mai slabă, fără grăsime vizibilă. Înlăturați toată grăsimea vizibilă în timpul preparării.
 
-Gătiţi alimentele proteice cu cât mai puţină grăsime:
+Consumați carnea de pasăre sau de curcă fără piele.
 
-Coaceţi la cuptor
+Gătiți alimentele proteice cu cât mai puțină grăsime:
 
-Înăbuşiţi
+Coaceți la cuptor
 
-Fierbeţi
+Înăbușiți
 
-Aburiţi
+Fierbeți
 
-Pentru a da o aromă mai bună, folosiţi suc de lămâie, sos de soia, ketchup, mirodenii şi condimente vegetale.
+Aburiți
 
-Gătiţi ouăle cu o cantitate mică de grăsime.
+Pentru a da o aromă mai bună, folosiți suc de lămâie, sos de soia, ketchup, mirodenii și condimente vegetale.
 
-Consumaţi cantităţi mici de nuci, unt de nuci, pui fript sau peşte fript. Acestea sunt alimente foarte bogate în grăsime.
+Gătiți ouăle cu o cantitate mică de grăsime.
 
- 
+Consumați cantități mici de nuci, unt de nuci, pui fript sau pește fript. Acestea sunt alimente foarte bogate în grăsime.
 
-Grăsimile şi uleiurile se găsesc în vârful piramidei. Aceasta ne spune că trebuie să le consumăm numai în cantităţi mici, întrucât conţin foarte multe calorii. Unele grăsimi conţin şi grasimi saturate şi colesterol care sunt dăunătoare sănătăţii.
 
-Grăsimea poate proveni şi din alte alimente, cum este carnea şi unele produse lactate.
 
-Alimentele bogate în grăsimi sunt ispititoare. Dar păstrarea consumului acestor alimente la valori scăzute vă ajută să scăpaţi de kilogramele în plus, să vă readuceţi la normal zahărul şi grăsimile din sânge şi să scădeţi valorile tensiunii arteriale.
+Grăsimile și uleiurile se găsesc în vârful piramidei. Aceasta ne spune că trebuie să le consumăm numai în cantități mici, întrucât conțin foarte multe calorii. Unele grăsimi conțin și grasimi saturate și colesterol care sunt dăunătoare sănătății.
 
-**Cât este o porţie de grăsimi sau ulei**
+Grăsimea poate proveni și din alte alimente, cum este carnea și unele produse lactate.
+
+Alimentele bogate în grăsimi sunt ispititoare. Dar păstrarea consumului acestor alimente la valori scăzute vă ajută să scăpați de kilogramele în plus, să vă readuceți la normal zahărul și grăsimile din sânge și să scădeți valorile tensiunii arteriale.
+
+**Cât este o porție de grăsimi sau ulei**
 
 1 Portie: 2 Portii:
 
 !{width="0.6263888888888889in" height="0.5909722222222222in"}
 
-Mesele pe care le consumi pot include una sau doua porţii de grasime.
+Mesele pe care le consumi pot include una sau doua porții de grasime.
 
-  Dulciurile se găsesc tot în vârful piramidei. Aceasta ne spune că trebuie să le consumăm în cantităţi mici şi rar.
+ Dulciurile se găsesc tot în vârful piramidei. Aceasta ne spune că trebuie să le consumăm în cantități mici și rar.
 
-  Dulciurile concentrate conţin calorii foarte multe dar nu şi alte substanţe nutritive. Unele dulciuri - cum ar fi prăjiturile, plăcintele, şi produsele de cofetărie - conţin şi cantităţi apreciabile de grăsime. De asemenea, ele pot
+ Dulciurile concentrate conțin calorii foarte multe dar nu și alte substanțe nutritive. Unele dulciuri - cum ar fi prăjiturile, plăcintele, și produsele de cofetărie - conțin și cantități apreciabile de grăsime. De asemenea, ele pot
 
-  Dulciurile sunt foarte ispititoare. Dar dacă le veţi consuma dar în cantităţi mici, veţi reuşi să eliminaţi kilogramele în plus, să vă menţineţi glicemia şi grăsimile din sânge sub control şi să scădeţi valorile tensiunii arteriale.
+ Dulciurile sunt foarte ispititoare. Dar dacă le veți consuma dar în cantități mici, veți reuși să eliminați kilogramele în plus, să vă mențineți glicemia și grăsimile din sânge sub control și să scădeți valorile tensiunii arteriale.
 
-**Cât este o porţie de dulciuri?**
+**Cât este o porție de dulciuri?**
 
 1 Portie:
 
 !{width="1.8694444444444445in" height="0.6520833333333333in"}
 
-Din când în când puteţi mânca câte o porţie de dulciuri. Oricum, este bine să discutaţi cu medicul dvs. în legătură cu acest subiect.
+Din când în când puteți mânca câte o porție de dulciuri. Oricum, este bine să discutați cu medicul dvs. în legătură cu acest subiect.
 
- 
 
-**Cum pot să-mi satisfac dorinţa de dulce?**
 
- Consumaţi din când în când câte o porţie de îngheţată degresată, preparată în casă, iaurt sau un shake din fructe dulci.
+**Cum pot să-mi satisfac dorința de dulce?**
 
- Nu uitaţi că şi alimentele degresate sau cu conţinut redus de zahăr conţin calorii. Includeţi-le în planul dvs. alimentar.
+ Consumați din când în când câte o porție de înghețată degresată, preparată în casă, iaurt sau un shake din fructe dulci.
 
-  
+ Nu uitați că și alimentele degresate sau cu conținut redus de zahăr conțin calorii. Includeți-le în planul dvs. alimentar.
 
-Dacă doreşti să te hrăneşti sănătos,
 
-Alege alimente din toate cele şase grupe de alimente în fiecare zi.
 
-Foloseşte o varietate cât mai mare de alimente din fiecare grup pentru a obţine toate vitaminele şi mineralele.
+Dacă dorești să te hrănești sănătos,
 
-Asigură-te că mănânci suficiente amidonoase, verdeţuri, fructe şi lapte şi iaurt degresate.
+Alege alimente din toate cele șase grupe de alimente în fiecare zi.
 
-Consumă cantităţi mai mici de alimente proteice sărace în grăsime.
+Folosește o varietate cât mai mare de alimente din fiecare grup pentru a obține toate vitaminele și mineralele.
 
-Consumă cantităţi mici de grăsimi, uleiuri şi dulciuri.
+Asigură-te că mănânci suficiente amidonoase, verdețuri, fructe și lapte și iaurt degresate.
+
+Consumă cantități mai mici de alimente proteice sărace în grăsime.
+
+Consumă cantități mici de grăsimi, uleiuri și dulciuri.
 
 #### Osteoporoza
 
@@ -383,11 +383,11 @@ Protelos: eficient în osteoporoză
 
 04 Mai 2005
 
-Medicamentul recent folosit în tratamentul osteoporozei, Protelos (S12911 strontium ranelate) scade semnificativ incidenţa fracturilor de şold la femeile cu osteoporoză postmenopauză, aflăm dintr-un articol publicat în revista Journal of Clinical Endocrinology and Metabolism.
+Medicamentul recent folosit în tratamentul osteoporozei, Protelos (S12911 strontium ranelate) scade semnificativ incidența fracturilor de șold la femeile cu osteoporoză postmenopauză, aflăm dintr-un articol publicat în revista Journal of Clinical Endocrinology and Metabolism.
 
-  Rezultatele unui vast studiu clinic multicentric randomizat TROPOS (TReatment of Peripherial OSteoporosis) desfăşurat în 75 de centre din 12 ţări arată că Protelosul administrat timp de 3 ani în doză de 2 g/zi la 5091 de femei în vârstă (peste 75 de ani) cu osteoporoză postmenopauză a scăzut riscul fracturii de şold cu 36% faţă de placebo. Totodată a scăzut incidenţa fracturilor periferice de orice tip şi s-a înregistrat o scădere cu 45% a fracturilor vertebrale la pacientele cu risc crescut, adică la cele care în antecedente au mai suferit de asemenea fracturi. Efectele adverse înregistrate nu erau semnificative în comparaţie cu placebo, cu o bună toleranţă gastrointestinală.  \
- Medicamentul a fost recent aprobat şi livrat pe piaţă în Europa pentru tratamentul osteoporozei postmenopauză tocmai pentru proprietăţile sus menţionate. Este primul medicament din generaţia lui cu dublă acţiune pe metabolismul osos, care simultan creşte formarea osoasă şi scade procesul de resorbţie, rezultând astfel un nou os mai puternic.\
- Aceste caracteristici, acţiunea duală pe os şi efectul protectiv faţă de fracturi plasează Protelosul printre medicamentele de primă linie în tratamentul osteoporozei postmenopauză.
+ Rezultatele unui vast studiu clinic multicentric randomizat TROPOS (TReatment of Peripherial OSteoporosis) desfășurat în 75 de centre din 12 țări arată că Protelosul administrat timp de 3 ani în doză de 2 g/zi la 5091 de femei în vârstă (peste 75 de ani) cu osteoporoză postmenopauză a scăzut riscul fracturii de șold cu 36% față de placebo. Totodată a scăzut incidența fracturilor periferice de orice tip și s-a înregistrat o scădere cu 45% a fracturilor vertebrale la pacientele cu risc crescut, adică la cele care în antecedente au mai suferit de asemenea fracturi. Efectele adverse înregistrate nu erau semnificative în comparație cu placebo, cu o bună toleranță gastrointestinală. \
+ Medicamentul a fost recent aprobat și livrat pe piață în Europa pentru tratamentul osteoporozei postmenopauză tocmai pentru proprietățile sus menționate. Este primul medicament din generația lui cu dublă acțiune pe metabolismul osos, care simultan crește formarea osoasă și scade procesul de resorbție, rezultând astfel un nou os mai puternic.\
+ Aceste caracteristici, acțiunea duală pe os și efectul protectiv față de fracturi plasează Protelosul printre medicamentele de primă linie în tratamentul osteoporozei postmenopauză.
 
 <
 
@@ -406,7 +406,7 @@ Coxartroza presupune o terapie de lungã duratã, ale cãrei rezultate depind de
 
 Tratament
 
- Vestea bună este că depresia poate fi tratată. Din nefericire însă, foarte mulţi oameni ignoră simptomele acetei boli şi ezită să caute ajutor. Dacă crezi că suferi de depresie, adresează-te medicului de familie şi acesta te va ajuta să găseşti un tratament adecvat.
+ Vestea bună este că depresia poate fi tratată. Din nefericire însă, foarte mulți oameni ignoră simptomele acetei boli și ezită să caute ajutor. Dacă crezi că suferi de depresie, adresează-te medicului de familie și acesta te va ajuta să găsești un tratament adecvat.
 
 <
 
@@ -414,61 +414,61 @@ Tratament
 
 Chiar daca nu figureaza printre primele cauze de deces, osteoporoza este o afectiune de temut. Daca la început se manifesta doar prin încovoierea spatelui, cu timpul pot aparea complicatii tot mai invalidante, cum este de ex. fractura de col femural. Vestea buna este ca osteoporoza este o boala tratabila, dar mai ales prevenibila.
 
- Ce este osteoporoza?
+ Ce este osteoporoza?
 
- Numele bolii provine din latina si înseamna \"os poros\". Tesutul osos este un tesut viu, în care are loc permanent atât depunere de os cât si pierdere de os. Dupa vârsta de 35 de ani, pierderea de os depaseste depunerea. Când acest proces este accelerat, oasele devin tot mai fragile (chiar daca la exterior pot parea solide) si structura lor se aseamana tot mai mult cu a unui burete cu gauri mari în interior.
+ Numele bolii provine din latina si înseamna \"os poros\". Tesutul osos este un tesut viu, în care are loc permanent atât depunere de os cât si pierdere de os. Dupa vârsta de 35 de ani, pierderea de os depaseste depunerea. Când acest proces este accelerat, oasele devin tot mai fragile (chiar daca la exterior pot parea solide) si structura lor se aseamana tot mai mult cu a unui burete cu gauri mari în interior.
 
-  Osteoporoza este supranumita si hotul tacut pentru ca poate slabi oasele timp de ani de zile fara sa fie detectata. De aceea, indiferent de vârsta, daca aveti mai mult de unul din urmatorii factori de risc, va sfatuim sa consultati medicul pentru a detecta boala cât mai devreme si sa urmati recomandarile de mai jos.
+ Osteoporoza este supranumita si hotul tacut pentru ca poate slabi oasele timp de ani de zile fara sa fie detectata. De aceea, indiferent de vârsta, daca aveti mai mult de unul din urmatorii factori de risc, va sfatuim sa consultati medicul pentru a detecta boala cât mai devreme si sa urmati recomandarile de mai jos.
 
- 
+
 
 Detectia precoce
 
-  Majoritatea oamenilor nu-si dau seama ca ceva nu e în regula cu oasele lor decât când ceva se rupe. Osteoporoza îsi anunta prezenta în cele din urma prin scaderea în înaltime datorita încovoierii spatelui si prin fracturi osoase. Daca aveti risc crescut, puteti efectua un test de determinare a densitatii si grosimii osoase. Este un test nedureros, lipsit de riscuri, dar care necesita echipament de specialitate. Pe baza rezultatului, medicul poate estima probabilitatea fracturilor si va poate ajuta sa le preveniti. Fie ca doriti sa preveniti aparitia osteoporozei sau sa opriti evolutia ei, sfatul este acelasi: hraniti-va corect si pastrati-va forma fizica.
+ Majoritatea oamenilor nu-si dau seama ca ceva nu e în regula cu oasele lor decât când ceva se rupe. Osteoporoza îsi anunta prezenta în cele din urma prin scaderea în înaltime datorita încovoierii spatelui si prin fracturi osoase. Daca aveti risc crescut, puteti efectua un test de determinare a densitatii si grosimii osoase. Este un test nedureros, lipsit de riscuri, dar care necesita echipament de specialitate. Pe baza rezultatului, medicul poate estima probabilitatea fracturilor si va poate ajuta sa le preveniti. Fie ca doriti sa preveniti aparitia osteoporozei sau sa opriti evolutia ei, sfatul este acelasi: hraniti-va corect si pastrati-va forma fizica.
 
- 
+
 
 Alimentatia - Aportul de calciu.
 
 Acesta este foarte important pentru prevenirea si stoparea osteoporozei în special în prima parte a vietii. Este vital ca tinerii sa aiba un aport adecvat de calciu. Osul pierdut mai târziu nu mai poate fi recuperat oricât s-ar creste aportul de calciu. Pentru persoanele adulte se recomanda un aport de cca. 800 mg calciu/zi, iar pentru barbatii trecuti de 65 de ani si pentru femeile în postmenopauza 1500 mg/zi. Laptele degresat, pasteurizat sau fiert este bogat în calciu, dar acesta se absoarbe în cantitate redusa. Produsele vegetale bogate în calciu sunt cerealele integrale, semintele, legumele de culoare verde închis. Daca dieta este saraca în calciu, se poate folosi un supliment.
 
- 
+
 
 *Expunerea la soare*
 
- Este necesara pentru formarea vitaminei D la nivelul pielii. Aceasta vitamina creste absorbtia calciului din intestin. În intervalul martie - octombrie, o expunere de 15 minute a pielii fetei si mâinilor de 3-4 ori/saptamâna este suficienta pentru a obtine întregul necesar de vitamina D. În schimb, în perioada noiembrie - februarie, în tara noastra lumina solara este prea slaba pentru a acoperi necesarul. Având în vedere ca vitamina D se gaseste numai în alimente de origine animala, în acest interval aportul din aceasta vitamina va fi asigurat fie din produse lactate (un pahar de lapte degresat asigura 50% din necesarul zilnic), fie din suplimente vitaminice.
+ Este necesara pentru formarea vitaminei D la nivelul pielii. Aceasta vitamina creste absorbtia calciului din intestin. În intervalul martie - octombrie, o expunere de 15 minute a pielii fetei si mâinilor de 3-4 ori/saptamâna este suficienta pentru a obtine întregul necesar de vitamina D. În schimb, în perioada noiembrie - februarie, în tara noastra lumina solara este prea slaba pentru a acoperi necesarul. Având în vedere ca vitamina D se gaseste numai în alimente de origine animala, în acest interval aportul din aceasta vitamina va fi asigurat fie din produse lactate (un pahar de lapte degresat asigura 50% din necesarul zilnic), fie din suplimente vitaminice.
 
- 
+
 
 Exercitiul fizic
 
-  Exercitiul fizic regulat - oricât de putin chiar - ajuta la mentinerea densitatii osoase si în plus întareste sistemul muscular si scade astfel riscul caderilor. Desi nu exista o reteta buna pentru toata lumea, exista câteva reguli generale:
+ Exercitiul fizic regulat - oricât de putin chiar - ajuta la mentinerea densitatii osoase si în plus întareste sistemul muscular si scade astfel riscul caderilor. Desi nu exista o reteta buna pentru toata lumea, exista câteva reguli generale:
 
-  Cele mai indicate sunt exercitiile antigravitationale, care presupun purtarea unor greutati - de ex. mersul pe jos, urcarea scarilor, chiar si simpla ridicare din pat si statul în picioare câteva ore pe zi. Înotul este mai putin eficient, dar e oricum mai bun decât nimic.
+ Cele mai indicate sunt exercitiile antigravitationale, care presupun purtarea unor greutati - de ex. mersul pe jos, urcarea scarilor, chiar si simpla ridicare din pat si statul în picioare câteva ore pe zi. Înotul este mai putin eficient, dar e oricum mai bun decât nimic.
 
-  Daca suferiti deja de osteoporoza, nu efectuati exercitii care cresc riscul de fractura. Evitati exercitiile care suprasolicita coloana vertebrala, cum este gimnastica aerobica intensa, saritul cu coarda, sau joggingul. Nu faceti nici genoflexiuni, exercitii de flexie a trunchiului pe coapse sau alte exercitii care arcuiesc spatele. Evitati saritul pe saltele elastice, exercitiile pe suprafete alunecoase pentru a evita caderile. Evitati miscarea de adductie a picioarelor, întrucât ea poate duce la fracturarea unui col femural slabit.
+ Daca suferiti deja de osteoporoza, nu efectuati exercitii care cresc riscul de fractura. Evitati exercitiile care suprasolicita coloana vertebrala, cum este gimnastica aerobica intensa, saritul cu coarda, sau joggingul. Nu faceti nici genoflexiuni, exercitii de flexie a trunchiului pe coapse sau alte exercitii care arcuiesc spatele. Evitati saritul pe saltele elastice, exercitiile pe suprafete alunecoase pentru a evita caderile. Evitati miscarea de adductie a picioarelor, întrucât ea poate duce la fracturarea unui col femural slabit.
 
- 
+
 
 Tratamentul hormonal si medicamentos
 
 Se folosesc mai multe medicamente pentru tratamentul sau prevenirea osteoporozei. Numai medicul poate decide daca în cazul dvs. este sau nu nevoie de unul sau altul din aceste medicamente.
 
- *Estrogenii.* Femeile care au trecut de menopauza pot sa-si reduca riscul de fractura la jumatate cu ajutorul terapiei de substituţie estrogenica. Reversul medaliei este ca la unele femei acest tratament poate creste usor riscul de cancer.
+ *Estrogenii.* Femeile care au trecut de menopauza pot sa-si reduca riscul de fractura la jumatate cu ajutorul terapiei de substituție estrogenica. Reversul medaliei este ca la unele femei acest tratament poate creste usor riscul de cancer.
 
- *Calcitonina.* Injectarea acestui hormon pe o perioada de timp poate stopa sau încetini pierderea de os si alina durerea produsa de fracturile osoase. Dezavantajul este ca tratamentul se poate administra numai injectabil si este destul de costisitor.
+ *Calcitonina.* Injectarea acestui hormon pe o perioada de timp poate stopa sau încetini pierderea de os si alina durerea produsa de fracturile osoase. Dezavantajul este ca tratamentul se poate administra numai injectabil si este destul de costisitor.
 
- *Alendronatul.* Acest medicament nu este un hormon, ci face parte dintr-o clasa de substanţe numite bifosfonati. Ca si estrogenul, alendornatul este indicat atât pentru prevenirea cât si pentru tratamentul osteoporozei.
+ *Alendronatul.* Acest medicament nu este un hormon, ci face parte dintr-o clasa de substanțe numite bifosfonati. Ca si estrogenul, alendornatul este indicat atât pentru prevenirea cât si pentru tratamentul osteoporozei.
 
- *Raloxifenul.* Acesta este un medicament aprobat recent de autoritatile sanitare din SUA. Se foloseste pentru prevenirea osteoporozei. Face parte dintr-o clasa noua de medicamente numite modulatori selectivi de receptori estrogenici (SERMS din initialele din engleza). Avantajul lor pare a fi prevenirea pierderii de os fara cresterea concomitenta a riscului de cancer la femei.
+ *Raloxifenul.* Acesta este un medicament aprobat recent de autoritatile sanitare din SUA. Se foloseste pentru prevenirea osteoporozei. Face parte dintr-o clasa noua de medicamente numite modulatori selectivi de receptori estrogenici (SERMS din initialele din engleza). Avantajul lor pare a fi prevenirea pierderii de os fara cresterea concomitenta a riscului de cancer la femei.
 
- 
+
 
 Prevenirea caderilor
 
 Osteoporoza slabeste oasele si acestea se fractureaza mult mai usor. Iata câteva masuri de prevenire a acestei situatii nedorite.
 
- 
+
 
 *Reduceti riscul de cadere la domiciliu.* Montati balustrade solide la toate scarile, precum si mânere de care sa va puteti prinde la baie. Acoperiti podeaua alunecoasa cu covoare sau mocheta. Tineti casa în ordine si înlaturati obiectele cazute pe jos, mai ales bucatile de sfoara, ata, cabluri electrice, de telefon, etc. Montati telefoane în cât mai multe încaperi pentru ca ajutorul sa fie cât mai usor de solicitat în cazul unui accident.
 
@@ -480,12 +480,12 @@ Osteoporoza slabeste oasele si acestea se fractureaza mult mai usor. Iata câtev
 
 *În caz de cadere.* Miscati-va încet si evitati sa fortati bratul sau piciorul la care v-ati lovit. Daca banuiti ca s-a produs o fractura, nu va miscati si nu permiteti nimanui sa va miste pâna la sosirea ajutorului medical.
 
- 
+
 
 Osteoporozã algicã vertebralã
 =============================
 
-„S-a îndurat Dumnezeu si de mine!\"                                                      
+„S-a îndurat Dumnezeu si de mine!\"
 
 Osteoporoza algica vertebrala. Pacienta în vârstã de 76 de ani suferea de osteoporozã algicã vertebralã cronicã. A urmat o curã cu Aloe Vera Gel, Nature Min si Absorbent C. Dupã aproximativ 2 luni durerile distribuite pe toatã coloana vertebralã au cedat aproape complet, permitându-i persoanei sã se deplaseze. Cura continuã.
 

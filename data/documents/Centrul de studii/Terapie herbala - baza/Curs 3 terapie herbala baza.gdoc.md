@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 3 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 3 terapie herbala baza.gdoc"
-source_pointer_sha256: "ac5a270400af067747338262cb9cb1f7c305f4d9fe747ac42cd349b7334badaa"
-source_pointer_bytes: 181
-google_doc_id: "1j9HYEp5yR0lwUKKppw-c4NMb56WnSLJdr8-CLkRlkag"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 3 terapie herbala baza
-
-## Conținut extras
-
 CURS 3
 
 Ierburi de incalzire
@@ -66,7 +50,7 @@ Ciclu de viata \- o planta perena.
 
 *Ciclu de viata*\- planta bianuala.*Infatisare*\- aceasta planta creste pana la 60 cm. Are o tulpina poroasa, dungata.Florile sale seamana cu crizantemele mici.Frunzele au forma iregulara, cu caneluri. Are un miros de camfor.*Habitat*\- de obicei creste in garduri vii.*Efecte*\- este o planta de incalzire folositoare pentru perioade de amorteala la femei, perioade dureroase, artrita si migrene.*Metoda*\- florile facute infuzie si luate ca ceai herbal de doua ori pe zi sunt foarte benefice, in special pentru congestie ginecologica si pentru usurarea durerilor de cap si migrenelor. De asemenea, sub forma de cataplasma, frunzele ajuta la usurarea durerii incheieturilot umflate.
 
-**Bubericul** (Scropularia nodosa), numita si Scrophula Plant, Crownwort, Carpenter’s Herb si Poor Man’s Salve. Denumiri populare (regionale) in Romania: brâncă, poală, frunză-de-bubă-rea, iarbă-neagră, urzică-neagră, brânca porcului, buruiană de bubă, cartofe de germe, căpriţă, grumăzare de porci, guşter, iarbă de trânji, iarba porcului, iarbă sărată, poală.
+**Bubericul** (Scropularia nodosa), numita si Scrophula Plant, Crownwort, Carpenter’s Herb si Poor Man’s Salve. Denumiri populare (regionale) in Romania: brâncă, poală, frunză-de-bubă-rea, iarbă-neagră, urzică-neagră, brânca porcului, buruiană de bubă, cartofe de germe, căpriță, grumăzare de porci, gușter, iarbă de trânji, iarba porcului, iarbă sărată, poală.
 
 *Ciclu de viata*\- planta perena.
 

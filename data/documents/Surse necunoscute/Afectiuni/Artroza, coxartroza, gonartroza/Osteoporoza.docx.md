@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Osteoporoza.docx"
-source_relative_path: "Osteoporoza.docx"
-source_sha256: "5b4818da3f3f6bc260bea015251e8cd4e29599c2280ef1214d3428e9a004ffee"
-source_size_bytes: 14116
-source_format: docx
-output_format: markdown
-native_text_characters: 2601
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Osteoporoza
-
-## Text nativ
-
 Tratament naturist pentru Osteoporoza
 
 - Lipsa sau insuficienta proteinelor in alimentatie poate duce la osteoporoza

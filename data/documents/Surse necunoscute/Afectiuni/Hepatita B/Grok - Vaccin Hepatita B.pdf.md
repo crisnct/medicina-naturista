@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Hepatita B\\Grok - Vaccin Hepatita B.pdf"
-source_relative_path: "Hepatita B\\Grok - Vaccin Hepatita B.pdf"
-source_sha256: "07ad3fb36454fe638da95927ba8d11e9f558d31f74b6148781850117348b1ea8"
-source_size_bytes: 91287
-page_count: 3
-extracted_text_characters: 8031
-extraction_method: pypdf
-status: "ok"
----
-
-# Grok - Vaccin Hepatita B.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Hepatitis B Vaccine: Facts, Benefits, Risks, and

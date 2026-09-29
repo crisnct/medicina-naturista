@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tratament naturist pentru edeme.docx"
-source_relative_path: "Tratament naturist pentru edeme.docx"
-source_sha256: "dfd601847771a701cf8c4da4cf76b72fe5456a25854a09cab5a144c6d975c3d1"
-source_size_bytes: 11364
-source_format: docx
-output_format: markdown
-native_text_characters: 758
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Tratament naturist pentru edeme
-
-## Text nativ
-
 Tratament naturist pentru edeme
 
 Ceai diuretic
@@ -32,4 +14,4 @@ Ceai de ghimbir
 
 Proteine
 
-Aminoven, soluţie perfuzabilă, 5%/ 10%/ 15% - stimuleaza corpul sa produca proteine
+Aminoven, soluție perfuzabilă, 5%/ 10%/ 15% - stimuleaza corpul sa produca proteine

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Varice.docx"
-source_relative_path: "Varice.docx"
-source_sha256: "aab1212e95f1530cc4f4c4b746d3975719e37555fd1b72f6fa92c1babe851e48"
-source_size_bytes: 21582
-source_format: docx
-output_format: markdown
-native_text_characters: 242
-tables: 0
-images: 1
-ocr_images_with_text: 1
-ocr_text_characters: 10
----
-
-# Varice
-
-## Text nativ
-
 Tratament naturist pentru varice:
 
 - Supliment cu Mangan si Cobalt
@@ -32,7 +14,7 @@ Tratament naturist pentru varice:
 
 Website:
 
-Email: nelucristian2005@gmail.com
+Email:
 
 ## Descrieri alternative ale imaginilor
 

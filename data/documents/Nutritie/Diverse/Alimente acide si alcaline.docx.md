@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Alimente acide si alcaline.docx"
-source_relative_path: "Alimente acide si alcaline.docx"
-source_sha256: "6955fa0b12a85ffb6cbcdbba56ac3c69d79b9ff057aeb7c29eeabee2f1134db7"
-source_size_bytes: 296688
-source_format: docx
-output_format: markdown
-native_text_characters: 23
-tables: 0
-images: 3
-ocr_images_with_text: 3
-ocr_text_characters: 3420
----
-
-# Alimente acide si alcaline
-
-## Text nativ
-
 Alimente acide și alcaline
 
 ## Descrieri alternative ale imaginilor
@@ -170,7 +152,7 @@ prajite
 © 2015 THECODE - Programul cel mai complex din Romania de Detox metabolic, Educatie, Nut
 Alcalina
 rare Corp si
-inte. www.btcode.eu
+inte.
 Apa lonizata si Alcali
 ta
 Crud
@@ -242,7 +224,7 @@ Margarina
 in jur de +/- 7.0 ; pH-ul optim al sangelui uman este de 7,365
 Uleiuri ( mai putin masline )
 Res A
-© 2015 www.btcode.eu
+© 2015
 Lapte de soia
 Spanac gatit
 Cele mai multe
@@ -321,5 +303,5 @@ arti
 iali
 Mancarea de la microunde
 w <2.5
-© 2015 THECODE - Programul cel mai complex din Romania de Detox metabolic, Educatie, Nutritie Alcalina si Echilibrare Corp si Minte. www.btcode.eu
+© 2015 THECODE - Programul cel mai complex din Romania de Detox metabolic, Educatie, Nutritie Alcalina si Echilibrare Corp si Minte.
 ```

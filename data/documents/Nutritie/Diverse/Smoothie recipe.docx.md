@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Smoothie recipe.docx"
-source_relative_path: "Smoothie recipe.docx"
-source_sha256: "b1118ef2fb825fc225838531f7c97e5896096be2b2a1fd2c673d157eb0bec10e"
-source_size_bytes: 11713081
-source_format: docx
-output_format: markdown
-native_text_characters: 2848
-tables: 0
-images: 11
-ocr_images_with_text: 3
-ocr_text_characters: 32
----
-
-# Smoothie recipe
-
-## Text nativ
-
 ### Potent Smoothies
 
 Pentru smoothie-uri am folosit un blender cu 700 rotații pe SECUNDĂ pentru a măcina foarte bine sâmburii

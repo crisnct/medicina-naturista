@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Centrul de studii\\Terapie Herbala - baza\\Curs 7 terapie herbala baza.gdoc"
-source_relative_path: "Centrul de studii\\Terapie Herbala - baza\\Curs 7 terapie herbala baza.gdoc"
-source_pointer_sha256: "99f30d3efb7fcfa3760b19b3d64253803598a67c8259a5205514f75adeb8ac00"
-source_pointer_bytes: 181
-google_doc_id: "1hy1D24uxckgiHwqTiEdRV5jxviyayH0BgYVYC2Vge_M"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Curs 7 terapie herbala baza
-
-## Conținut extras
-
 Curs 7 herbalism
 
 **UTILIZAREA SUPLIMENTARA A MEDICAMENTULUI PE BAZA DE PLANTE**

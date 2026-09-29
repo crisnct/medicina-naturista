@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Tinctura din Ghimpe si Armurariu.docx"
-source_relative_path: "Tinctura din Ghimpe si Armurariu.docx"
-source_sha256: "30292025055c156fa39bdd19a36f2a59deb7b6a81e88a7615bf52d79024a2be3"
-source_size_bytes: 143643
-source_format: docx
-output_format: markdown
-native_text_characters: 630
-tables: 0
-images: 2
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Tinctura din Ghimpe si Armurariu
-
-## Text nativ
-
 Tinctura din Ghimpe si Armurariu
 
 pentru afectiuni ale prostatei

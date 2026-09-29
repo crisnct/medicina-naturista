@@ -1,18 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Daily-Reboot-Protocol-Checklist_bf3cb0.pdf"
-source_relative_path: "Daily-Reboot-Protocol-Checklist_bf3cb0.pdf"
-source_sha256: "326bd53f873da03ad550529d875129aed47d906e2f47d9c31df5a9d5b3f99c42"
-source_size_bytes: 1000163
-page_count: 2
-extracted_text_characters: 2590
-extraction_method: pypdf
-status: "ok"
----
-
-# Daily-Reboot-Protocol-Checklist_bf3cb0.pdf
-
-## Pagini
-
 ### Pagina 1
 
 Support joint health, connective tissue, and recovery.□

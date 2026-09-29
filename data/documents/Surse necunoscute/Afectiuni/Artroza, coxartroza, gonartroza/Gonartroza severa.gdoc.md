@@ -1,19 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Gonartroza severa.gdoc"
-source_relative_path: "Gonartroza severa.gdoc"
-source_pointer_sha256: "b95eaed2453f586fc09ddbef0aa82948e1616be28dc43bacc2b263f6fb319e99"
-source_pointer_bytes: 181
-google_doc_id: "1P4etyVYfn4PKBd1nNjrTsNASu0qxFqx09jz9pBFsXZ8"
-source_format: gdoc_pointer
-native_export_format: text/markdown
-content_status: exported_from_authenticated_google_drive
-embedded_image_payloads_removed: 0
----
-
-# Gonartroza severa
-
-## Conținut extras
-
 # **Ghid Complet pentru Gestionarea Gonartrozei Severe la 65 de Ani: Abordări Naturiste și Schema de Tratament**
 
 ## **I. Înțelegerea Gonartrozei Severe la Vârsta a Treia**
@@ -414,7 +398,7 @@ Este necesară răbdare și consecvență în aplicarea acestei scheme de tratam
 > 33. Turmeric (Curcuma): Ce contine, Proprietati, Beneficii, Ris \- Farmacia Tei, accessed May 22, 2025,
 > 34. Curcumin: Un antioxidant puternic, cum trebuie folosit, contraindicatii \- Spring Farma, accessed May 22, 2025,
 > 35. Curcumin 550 mg, 60 capsule \- Zenyth, accessed May 22, 2025,
-> 36. Ghimbir \- curiozităţi despre această plantă cu numeroase beneficii pentru sănătate \- Aronia Charlottenburg, accessed May 22, 2025,
+> 36. Ghimbir \- curiozități despre această plantă cu numeroase beneficii pentru sănătate \- Aronia Charlottenburg, accessed May 22, 2025,
 > 37. Ghimbirul: Aliment-medicament din farmacia naturii. Afla totul despre beneficiile acestuia, proprietatile si cum poate fi consumat \- Grădina Sănătății, accessed May 22, 2025,
 > 38. Ghimbirul si Ceaiul de Ghimbir-Beneficii | Laboratorul Naturii, accessed May 22, 2025,
 > 39. Acizii Grasi Omega‑3: Beneficii Esentiale pentru Sanatatea Inimii si Sursele lor in Dieta, accessed May 22, 2025,

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Antihistaminice naturale.docx"
-source_relative_path: "Antihistaminice naturale.docx"
-source_sha256: "35b11b56cb3271e258584633082310b5c8e51b3893b7fcaa42bf153ac793e1f1"
-source_size_bytes: 19980
-source_format: docx
-output_format: markdown
-native_text_characters: 3140
-tables: 5
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Antihistaminice naturale
-
-## Text nativ
-
 ### Antihistaminice Naturale
 
 ### Tabel 1
@@ -97,15 +79,3 @@ Flora medicinală a României – 1991 – Mircea Alexan, Ovidiu Bojor, Florenti
 Afacerea "Colesterolul" - Bruce Lipton
 
 Alimente care ucid creierul – dr David Perlmutter, Kristin Loberg
-
-
-
-
-
-
-
-
-
-
-
-

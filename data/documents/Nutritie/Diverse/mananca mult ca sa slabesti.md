@@ -4,7 +4,7 @@ Andreea Marinescu\
 \
 **Alege alimente mari in volum, precum pepenele sau ardeiul gras, iar la salate adauga boabe de fasole.**
 
- 
+
 
 Ingrijorat ca nu mai incapi in costumul de baie, in sorturi sau in alte haine de vara fara sa te simti infometat psihic sau frustrat?\
 \
@@ -16,7 +16,7 @@ Tine cont de densitatea de energie - o teorie care „a mocnit" in cercurile de 
 \
 Iata si cum functioneaza: schimba mancarea bogata in multe calorii (cea cunoscuta ca avand densitati mari de energie) cu o mancare ce contine mai putine calorii (cea cu densitati de energie mai mici).\
 \
-Aceasta din urma contine mai putine calorii decat cea cu densitati mari de energie. Unele alimente sunt mai putin calorice, deoarece sunt mai bogate in apa, fibre sau aer. Nu numai ca acest volum aditional de energie pacaleste ochiul, dar satisface si apetitul. Drept rezultat, poti manca portii mai mari de mancare ce contine densitati scazute de energie decat sa mananci o mancare standard.\
+Aceasta din urma contine mai putine calorii decat cea cu densitati mari de energie. Unele alimente sunt mai putin calorice, deoarece sunt mai bogate in apa, fibre sau aer. Nu numai ca acest volum aditional de energie pacaleste ochiul, dar satisface si apetitul. Drept rezultat, poti manca portii mai mari de mancare ce contine densitati scazute de energie decat sa mananci o mancare standard.\
 \
 **Iata cateva ponturi pe care le poti folosi:\
 **\

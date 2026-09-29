@@ -1,49 +1,49 @@
 INTRODUCERE
 ===========
 
-Conform Ordinului Ministerului Sănătăţii nr. 975/1999, \"**aditivii alimentari** sunt substanţe care se folosesc la prepararea unor produse alimentare, în scopul ameliorării calităţii acestora sau pentru a permite aplicarea unor tehnologii avansate de prelucrare\".
+Conform Ordinului Ministerului Sănătății nr. 975/1999, \"**aditivii alimentari** sunt substanțe care se folosesc la prepararea unor produse alimentare, în scopul ameliorării calității acestora sau pentru a permite aplicarea unor tehnologii avansate de prelucrare\".
 
-În Codex Alimentarius FAO-WHO, ei sunt definiţi ca \"orice substanţă care nu este consumată ca aliment în sine şi nu este folosită ca ingredient constituent al unui aliment, care are sau nu valoare nutritivă şi care se adaugă intenţionat, cu un scop tehnologic (incluzând modificări organoleptice) în timpul producerii, procesării, preparării, tratării, împachetării, ambalării, transportului şi stocării unui aliment, devenind un component sau afectând într-un fel caracteristicile alimentelor la care se adaugă\".
+În Codex Alimentarius FAO-WHO, ei sunt definiți ca \"orice substanță care nu este consumată ca aliment în sine și nu este folosită ca ingredient constituent al unui aliment, care are sau nu valoare nutritivă și care se adaugă intenționat, cu un scop tehnologic (incluzând modificări organoleptice) în timpul producerii, procesării, preparării, tratării, împachetării, ambalării, transportului și stocării unui aliment, devenind un component sau afectând într-un fel caracteristicile alimentelor la care se adaugă\".
 
-Anumiţi aditivi alimentari au fost folosiţi cu mii de ani in urmă, de către greci, egipteni si alte popoare antice, deoarece păstrarea alimentelor pe perioade mai îndelungate de timp a fost întotdeauna o necesitate. Alături de sare, ***salpetrul*** (de Chile = nitratul de sodiu; de India = nitratul de potasiu; silitra) a fost mereu utilizat pentru ***conservarea*** produselor din carne, iar ***coloranţi** de tipul **carmazului*** se utilizau pentru prepararea unor alimente aspectuoase.
+Anumiți aditivi alimentari au fost folosiți cu mii de ani in urmă, de către greci, egipteni si alte popoare antice, deoarece păstrarea alimentelor pe perioade mai îndelungate de timp a fost întotdeauna o necesitate. Alături de sare, ***salpetrul*** (de Chile = nitratul de sodiu; de India = nitratul de potasiu; silitra) a fost mereu utilizat pentru ***conservarea*** produselor din carne, iar ***coloranți** de tipul **carmazului*** se utilizau pentru prepararea unor alimente aspectuoase.
 
-Unii aditivi alimentari sunt obţinuţi din surse naturale, cum ar fi soia, porumbul sau sfecla roşie. Alţi aditivi nu există in natura si trebuie obţinuţi prin sinteza chimica. Prezenţa aditivilor alimentari in compoziţia produselor alimentare procesate, fie ca sunt din surse naturale sau obţinuţi prin sinteza, este supusa legislaţiei in vigoare, care stabileşte cantităţile permise **conform normelor de siguranţa**.
+Unii aditivi alimentari sunt obținuți din surse naturale, cum ar fi soia, porumbul sau sfecla roșie. Alți aditivi nu există in natura si trebuie obținuți prin sinteza chimica. Prezența aditivilor alimentari in compoziția produselor alimentare procesate, fie ca sunt din surse naturale sau obținuți prin sinteza, este supusa legislației in vigoare, care stabilește cantitățile permise **conform normelor de siguranța**.
 
-Pentru un toxicolog termenul \"natural\" poate chiar ridica suspiciuni, întrucât numeroase dintre substanţele chimice care apar in mod natural sunt cunoscute pentru efectele adverse pe care le pot produce. De exemplu, studii efectuate in Marea Britanie arata ca reacţiile alergice fata de alimente naturale (oua, lapte, căpşuni, unele condimente) sunt destul de comune, afectând aproape jumătate din populaţia globului. Fie ca aditivii sunt extraşi din plante sau din ţesuturi animale, sunt produşi din microorganisme sau sintetizaţi intr-un laborator, pentru un toxicolog aceştia intra in aceeaşi categorie. Toţi sunt substanţe chimice care pot avea sau nu proprietăţi toxice. In ceea ce priveşte analiza siguranţei folosirii lor pentru consum in scopul reglementarii utilizării lor, procesul este identic pentru toţi aditivii, indiferent de originea substanţei chimice.
+Pentru un toxicolog termenul \"natural\" poate chiar ridica suspiciuni, întrucât numeroase dintre substanțele chimice care apar in mod natural sunt cunoscute pentru efectele adverse pe care le pot produce. De exemplu, studii efectuate in Marea Britanie arata ca reacțiile alergice fata de alimente naturale (oua, lapte, căpșuni, unele condimente) sunt destul de comune, afectând aproape jumătate din populația globului. Fie ca aditivii sunt extrași din plante sau din țesuturi animale, sunt produși din microorganisme sau sintetizați intr-un laborator, pentru un toxicolog aceștia intra in aceeași categorie. Toți sunt substanțe chimice care pot avea sau nu proprietăți toxice. In ceea ce privește analiza siguranței folosirii lor pentru consum in scopul reglementarii utilizării lor, procesul este identic pentru toți aditivii, indiferent de originea substanței chimice.
 
-La începutul anilor '80, Uniunea Europeana a standardizat utilizarea aditivilor alimentari prin adoptarea unui sistem de codificare al acestora. **Aditivii alimentari incluşi in lista UE sunt codificaţi cu litera \"E\", de la Europa, urmata de un număr alocat special fiecăruia dintre aceştia, alcătuit din 3 sau 4 cifre.** Acest mod de simbolizare sprijină consumatorii in recunoaşterea aditivilor in alimente, indiferent de limba in care este redactata eticheta, garantând astfel ca aceştia fac parte din lista celor autorizaţi. O tentativă de clasificare a acestora este redată în rândurile următoare:
+La începutul anilor '80, Uniunea Europeana a standardizat utilizarea aditivilor alimentari prin adoptarea unui sistem de codificare al acestora. **Aditivii alimentari incluși in lista UE sunt codificați cu litera \"E\", de la Europa, urmata de un număr alocat special fiecăruia dintre aceștia, alcătuit din 3 sau 4 cifre.** Acest mod de simbolizare sprijină consumatorii in recunoașterea aditivilor in alimente, indiferent de limba in care este redactata eticheta, garantând astfel ca aceștia fac parte din lista celor autorizați. O tentativă de clasificare a acestora este redată în rândurile următoare:
 
 Acizi
 
-Agenţi anti-spumanţi
+Agenți anti-spumanți
 
-Agenţi contra aglomerarii/solidificării
+Agenți contra aglomerarii/solidificării
 
-Agenţi de chelare
+Agenți de chelare
 
-Agenţi de gelifiere
+Agenți de gelifiere
 
-Agenţi de glazurare
+Agenți de glazurare
 
-Agenţi de înălbire
+Agenți de înălbire
 
-Agenţi de spumare
+Agenți de spumare
 
-Agenţi de stabilizare
+Agenți de stabilizare
 
-Agenţi de volum
+Agenți de volum
 
 Amelioratori pentru faină
 
 Amidon modificat
 
-Antioxidanţi
+Antioxidanți
 
 Arome
 
-Coloranţi
+Coloranți
 
-Conservanţi
+Conservanți
 
 Emulsificatori
 
@@ -53,37 +53,37 @@ Intensificatori de arome
 
 Îndulcitori
 
-Purtători sau solvenţi purtători
+Purtători sau solvenți purtători
 
-Regulatori ai acidităţii
+Regulatori ai acidității
 
 Sărurile de topire
 
-Soluţii tampon
+Soluții tampon
 
-Substanţe propulsoare
+Substanțe propulsoare
 
 Umidificatori
 
-*Î*n tara noastră sunt admişi aproximativ 200 de aditivi alimentari. Legislaţia in vigoare in România precizează lista aditivilor admişi spre a fi utilizaţi in industria alimentara, cu menţionarea alimentelor in care pot fi folosiţi si a dozei maxime admise.
+*Î*n tara noastră sunt admiși aproximativ 200 de aditivi alimentari. Legislația in vigoare in România precizează lista aditivilor admiși spre a fi utilizați in industria alimentara, cu menționarea alimentelor in care pot fi folosiți si a dozei maxime admise.
 
 **CONSUMUL ZILNIC ADMIS SI DOZA MAXIMA ADMISA**
 
 ***Consumul Zilnic Admis pentru un aditiv alimentar este stabilit pe baza unor testări îndelungate.***
 
-Legislaţia in vigoare stabileşte cantităţile maxime admise pentru utilizarea unui aditiv intr-un anumit produs alimentar, astfel încât acesta sa nu dăuneze sănătăţii.
+Legislația in vigoare stabilește cantitățile maxime admise pentru utilizarea unui aditiv intr-un anumit produs alimentar, astfel încât acesta sa nu dăuneze sănătății.
 
-**Consumul Zilnic Admis (Acceptance Daily Intake - ADI) este cantitatea estimata dintr-un aditiv alimentar, exprimata in raport cu greutatea corporala, care poate fi consumata zilnic, pe parcursul întregii vieţi, fără riscuri pentru sănătate. Acest indice este exprimat in mg per kg corp per zi (mg/ kg corp/ zi).**
+**Consumul Zilnic Admis (Acceptance Daily Intake - ADI) este cantitatea estimata dintr-un aditiv alimentar, exprimata in raport cu greutatea corporala, care poate fi consumata zilnic, pe parcursul întregii vieți, fără riscuri pentru sănătate. Acest indice este exprimat in mg per kg corp per zi (mg/ kg corp/ zi).**
 
 Consumul Zilnic Admis pentru fiecare aditiv alimentar este stabilit prin determinarea, pe baza unor testări îndelungate, a nivelului la care nu se observa nici un efect advers.
 
-**Pentru eliminarea completa a oricărui risc provenit din consumul conjugat al mai multor alimente care conţin acelaşi aditiv pe perioada aceleiaşi zile, Doza Maxima Admisa pentru utilizarea unui aditiv alimentar intr-un anumit tip de produs se stabileşte prin împărţirea Consumului Zilnic Admis la un factor de siguranţa de 100.**
+**Pentru eliminarea completa a oricărui risc provenit din consumul conjugat al mai multor alimente care conțin același aditiv pe perioada aceleiași zile, Doza Maxima Admisa pentru utilizarea unui aditiv alimentar intr-un anumit tip de produs se stabilește prin împărțirea Consumului Zilnic Admis la un factor de siguranța de 100.**
 
-Factorul de siguranţa este o precauţie suplimentara, care ia de asemenea in calcul posibile diferente de sensibilitate la extrapolarea rezultatelor testelor de la animale la fiinţele umane, precum si sensibilitatea specifica unor categorii de consumatori.
+Factorul de siguranța este o precauție suplimentara, care ia de asemenea in calcul posibile diferente de sensibilitate la extrapolarea rezultatelor testelor de la animale la ființele umane, precum si sensibilitatea specifica unor categorii de consumatori.
 
-Pentru confirmarea limitelor sigure de consum al aditivilor alimentari, Consumul Zilnic Admis este folosit peste tot in lume de către autorităţile de reglementare in domeniul sănătăţii si alimentaţiei: Organizaţia Mondiala a Sănătăţii, Comitetul Ştiinţific pentru Alimentaţie al Comisiei Europene, Autoritatea pentru Alimente si Medicamente a Statelor Unite. Consumul Zilnic Admis este supus unor revizuiri periodice. Rezultatele testelor sunt validate de experţi independenţi.
+Pentru confirmarea limitelor sigure de consum al aditivilor alimentari, Consumul Zilnic Admis este folosit peste tot in lume de către autoritățile de reglementare in domeniul sănătății si alimentației: Organizația Mondiala a Sănătății, Comitetul Științific pentru Alimentație al Comisiei Europene, Autoritatea pentru Alimente si Medicamente a Statelor Unite. Consumul Zilnic Admis este supus unor revizuiri periodice. Rezultatele testelor sunt validate de experți independenți.
 
-România a preluat directivele europene privind aditivii alimentari. Ca urmare, in industria alimentara din România se folosesc si aditivi alimentari cuprinşi in următoarele directive europene:
+România a preluat directivele europene privind aditivii alimentari. Ca urmare, in industria alimentara din România se folosesc si aditivi alimentari cuprinși in următoarele directive europene:
 
  ------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
  **Directive** **Cuprinsul directivei**
@@ -91,13 +91,13 @@ România a preluat directivele europene privind aditivii alimentari. Ca urmare, 
  94/36/CE a Parlamentului european si a Consiliului din 30 iunie 1994 Relateaza despre coloranti si despre utilizarea lor in produsele alimentare
  94/35/CE a Parlamentului european si a Consiliului din 30 iunie 1994 Cu privire la indulcitorii destinati pentru a fi folositi in produsele alimentare, modificata de directiva 96/83/CE
  95/2/CE a Parlamentului european si a Consiliului din 20 februarie 1995 Privind aditivii alimentari, altii decat colorantii si edulcurantii, modificata de directivele 96/85/CE, 98/72/CE si 2001/5/CE
- Decizia 97/292/CE Privind menţinerea legislaţiilor naţionale de interzicere a utilizării anumitor aditivi in fabricarea anumitor produse alimentare specifice.
+ Decizia 97/292/CE Privind menținerea legislațiilor naționale de interzicere a utilizării anumitor aditivi in fabricarea anumitor produse alimentare specifice.
  Decizia 2002/247/CE a Comisiei din 27 martie 2002 Suspenda introducerea pe piata si importarea produselor gelatinoase continand aditivul alimentar E425
  ------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Din data de 3 octombrie 2003, a intrat in vigoare Ordinul Ministrului Sănătăţii si Familiei nr. 438/18 iunie 2002 si al Ministrului Agriculturii, Alimentaţiei si Pădurilor nr. 295/12 iulie 2002, pentru aprobarea Normelor privind aditivii alimentari destinaţi utilizării in produsele alimentare pentru consum uman.
+Din data de 3 octombrie 2003, a intrat in vigoare Ordinul Ministrului Sănătății si Familiei nr. 438/18 iunie 2002 si al Ministrului Agriculturii, Alimentației si Pădurilor nr. 295/12 iulie 2002, pentru aprobarea Normelor privind aditivii alimentari destinați utilizării in produsele alimentare pentru consum uman.
 
-Legislaţia comunitara privind aditivii alimentari se bazează pe principiul ca doar aditivii care sunt autorizaţi in mod explicit pot fi utilizaţi. Majoritatea aditivilor nu pot fi folosiţi decât in cantităţi limitate, in anumite produse alimentare. Daca nu e prevăzuta nici o limita cantitativa pentru folosirea unui aditiv alimentar, el trebuie sa fie utilizat după o buna practica de fabricaţie, adică doar atât cat este necesar pentru a se realiza efectul tehnologic dorit.
+Legislația comunitara privind aditivii alimentari se bazează pe principiul ca doar aditivii care sunt autorizați in mod explicit pot fi utilizați. Majoritatea aditivilor nu pot fi folosiți decât in cantități limitate, in anumite produse alimentare. Daca nu e prevăzuta nici o limita cantitativa pentru folosirea unui aditiv alimentar, el trebuie sa fie utilizat după o buna practica de fabricație, adică doar atât cat este necesar pentru a se realiza efectul tehnologic dorit.
 
 Aditivii alimentari nu pot fi autorizati, numai daca:
 
@@ -120,6 +120,6 @@ Toti aditivii alimentari autorizati trebuie sa indeplineasca conditiile de purit
 
 **Bibliografie**
 
-1\. Banu C. (coordonator), **Aditivi şi ingrediente pentru industria alimentară**, Editura Tehnică, Bucureşti, 2000;
+1\. Banu C. (coordonator), **Aditivi și ingrediente pentru industria alimentară**, Editura Tehnică, București, 2000;
 
-2\. Rotaru G., Bordei D., Sava N., **Managementul implementării programelor de calitate**, Editura Academică, Galaţi, 2001
+2\. Rotaru G., Bordei D., Sava N., **Managementul implementării programelor de calitate**, Editura Academică, Galați, 2001

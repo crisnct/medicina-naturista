@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Dieta Keto pentru slabit - Andrei Laslau.docx"
-source_relative_path: "Dieta Keto pentru slabit - Andrei Laslau.docx"
-source_sha256: "3a54d64c03ea2d0d18f884f3e38bff2f7fbb0bf5240d21b6b88ecadac4cee9f2"
-source_size_bytes: 11406
-source_format: docx
-output_format: markdown
-native_text_characters: 1053
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Dieta Keto pentru slabit - Andrei Laslau
-
-## Text nativ
-
 Lecții de dietă keto
 
 Dieta ketogenica cere ca din totalul caloriilor zilnice 65% sa provina din grasimi, 30% din proteina si 5% din glucide. Diminuarea glucidelor in dieta, scade nivelul de insulina, iar aceasta duce la activarea lipazei. Aceasta desface trigliceridele din tesutul adipos in acizi grasi.

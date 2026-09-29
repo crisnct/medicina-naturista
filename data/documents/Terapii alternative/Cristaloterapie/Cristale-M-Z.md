@@ -134,7 +134,7 @@ TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** -**\
 ANUL NASTERII:** -**\
 PLANETA GUVERNATOARE sau dominanta:** Venus**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului [3](javascript:void(0))
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului [3](javascript:void(0))
 
 [**ANIVERSARE:**](javascript:void(0)) -**\
 CHAKRE:** 4, 5, 6, 7\
@@ -181,13 +181,13 @@ In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si org
 ***ASPECT:*** lucios, opac, vitros\
 \
 **CARACTERISTICI.** Obsidianul este o roca magmatica efuziva, care se formeaza prin racirea brusca a lavei. nu are o structura cristalina. Piatra fara frontiere, actioneaza rapid si puternic. Calitatile sale de oglinda care releva adevarul scot in evidenta defectele, slabiciunile si blocajele. nu puteti ascunde nimic de obsidian. Aratand cum se inlatura starile distructive, obsidianul obliga la crestere si ofera sprijinul in cursul acestui proces.\
-         Trebuie manevrat cu grija, de preferinta sub indrumarea unui terapeut experimentat, deoarece poate sa aduca la suprafata emotii negative si adevaruri neplacute. Bine dirijat, calitatile sale cathartice sunt extrem de valoroase. Vindeca profund sufletul. Obsidianul faciliteaza intoarcerea in vietile antrioare pentru a tamadui emotiile sau traumele transmise in prezent.\
-         Obsidianul este o piatra extrem de protectoare, care formeaza un scut impotriva negativitatii. Furnizeaza o coarda de ancorare din chakra radacina pana in centrul pamantului, abosoarbe energiile negative din mediul inconjurator si fortifica daca este cazul. Util pentru persoanele foarte sensibile. Blocheaza atacul psihic si indeparteaza influentele spirituale negative.\
-         O bucata mare de obsidian este foarte eficace contra stresului geopatic sau pentru a absorbi poluarea din mediul inconjurator. Dar tendinta sa naturale de a revela adevarul trebuie luata in calcul. Multi considera efectele sale puternice coplesitoare si prefera sa foloseasca o piatra mai moderata. El este totusi extrem de util pentru terapeuti si sfatuitori deoarce, in afara de faptul ca permite atingerea esentei problemei, obsidianul purifica si energiile eliberate. Obsidianul negru sau acaju este cel mai potrivit pentru acest lucru al doilea fiind ceva mai bland.\
-         De asemenea, un obsidian plasat langa pat sau sub perna elimina stresul mental si tensiunea. El va calma, dar va pune in evidenta si motivele stresului. Motive cu care trebuie sa va confruntati inainte ca pacea sa revina: obsidianul va rezolva problema pentru totdeauna in loc de a avea doar un efect pailativ. Formele cele mai moderate, precum obsidianul lacrima-de-apas sau obsidianul fulgi-de-zapada, se folosesc in acest scop. Deoarece obsidianul este atat de eficace in absorbtia energiilor negative, este esentiala curatarea pietrei sub jet de apa dupa fiecare utilizare.\
-         In plan spiritual, obsidianul vitalizeaza obiectivul imaterial, elimina blocajele energetice si trateaza tensiunea, integrand umbra psihologica in ansamblu inainte de a ajunge la integritate spirituala. Stimuleaza cresterea pe toate planurile, indeamna la explorarea necunoscutului si deschide noi orizonturi.\
-         Obsidianul ofera claritate intelectului, indeparteaza confuzia si credintele opresive, precizand foarte clar ceea ce se gaseste in spatele raului sau al deznadejdii mentale. Largeste constiinta, intrand cu incredere si curaj in necunoscut.\
-         In plan psihologic, obsidianul va permite sa constientizati ceea ce sunteti de fapt. Pune individul in fata laturii sale intunecate si il ivata cum sa o integreze. Ajuta la identificarea tiparelor comportamentale depasite, inlatura blocajele emotionale si vindeca vechile traume, conferind emotiilor profunzime si luciditate. Promoveaza compasiunea si forta.\
+ Trebuie manevrat cu grija, de preferinta sub indrumarea unui terapeut experimentat, deoarece poate sa aduca la suprafata emotii negative si adevaruri neplacute. Bine dirijat, calitatile sale cathartice sunt extrem de valoroase. Vindeca profund sufletul. Obsidianul faciliteaza intoarcerea in vietile antrioare pentru a tamadui emotiile sau traumele transmise in prezent.\
+ Obsidianul este o piatra extrem de protectoare, care formeaza un scut impotriva negativitatii. Furnizeaza o coarda de ancorare din chakra radacina pana in centrul pamantului, abosoarbe energiile negative din mediul inconjurator si fortifica daca este cazul. Util pentru persoanele foarte sensibile. Blocheaza atacul psihic si indeparteaza influentele spirituale negative.\
+ O bucata mare de obsidian este foarte eficace contra stresului geopatic sau pentru a absorbi poluarea din mediul inconjurator. Dar tendinta sa naturale de a revela adevarul trebuie luata in calcul. Multi considera efectele sale puternice coplesitoare si prefera sa foloseasca o piatra mai moderata. El este totusi extrem de util pentru terapeuti si sfatuitori deoarce, in afara de faptul ca permite atingerea esentei problemei, obsidianul purifica si energiile eliberate. Obsidianul negru sau acaju este cel mai potrivit pentru acest lucru al doilea fiind ceva mai bland.\
+ De asemenea, un obsidian plasat langa pat sau sub perna elimina stresul mental si tensiunea. El va calma, dar va pune in evidenta si motivele stresului. Motive cu care trebuie sa va confruntati inainte ca pacea sa revina: obsidianul va rezolva problema pentru totdeauna in loc de a avea doar un efect pailativ. Formele cele mai moderate, precum obsidianul lacrima-de-apas sau obsidianul fulgi-de-zapada, se folosesc in acest scop. Deoarece obsidianul este atat de eficace in absorbtia energiilor negative, este esentiala curatarea pietrei sub jet de apa dupa fiecare utilizare.\
+ In plan spiritual, obsidianul vitalizeaza obiectivul imaterial, elimina blocajele energetice si trateaza tensiunea, integrand umbra psihologica in ansamblu inainte de a ajunge la integritate spirituala. Stimuleaza cresterea pe toate planurile, indeamna la explorarea necunoscutului si deschide noi orizonturi.\
+ Obsidianul ofera claritate intelectului, indeparteaza confuzia si credintele opresive, precizand foarte clar ceea ce se gaseste in spatele raului sau al deznadejdii mentale. Largeste constiinta, intrand cu incredere si curaj in necunoscut.\
+ In plan psihologic, obsidianul va permite sa constientizati ceea ce sunteti de fapt. Pune individul in fata laturii sale intunecate si il ivata cum sa o integreze. Ajuta la identificarea tiparelor comportamentale depasite, inlatura blocajele emotionale si vindeca vechile traume, conferind emotiilor profunzime si luciditate. Promoveaza compasiunea si forta.\
 \
 **EFECTE TAMADUITOARE.** Da posibilitatea unei vederi de ansamblu asupra cauzei raului. Ajuta la asimilarea a tot ceea ce este dificil de acceptat si usureaza digestia. detoxifica, inlatura blocajele si tensiunea corpurilor subtile si a corpului fizic, inclusiv din arterele ingrosate. Atenueaza durerea provocata de artrita, de afectiunile articulare, crampe si rani.\
 \
@@ -196,12 +196,12 @@ In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si org
 **OBSIDIAN**
 
 **INFORMATII\
-Descriere: ** este o sticla naturala, formata din lava vulcanica**\
+Descriere: ** este o sticla naturala, formata din lava vulcanica**\
 Culori: variate -** negru (varietatea \"fulg de nea\"), maro (varietatea \"mahon\"), cu nuante de alb sau cafeniu, diverse alte culori (verde, auriu, albastrru, rosu etc), cu pete sau cu dungi, opac.**\
 Duritate:** 5-6 (din 10)
 
 **Piatra recomandata pentru:\
-ZODIILE: TOATE: Sagetator** (albastru, negru, auriu, argintiu, rosu si negru, fulg de nea), **Fecioara** (purpuriu, fulg de nea), **Varsator** (albastru), **Scorpion** (albastru-verde), **Gemeni** (verde), **Balanta** (mahon), **Leu** (rosu), **Berbec** (lacrima apasului)**\
+ZODIILE: TOATE: Sagetator** (albastru, negru, auriu, argintiu, rosu si negru, fulg de nea), **Fecioara** (purpuriu, fulg de nea), **Varsator** (albastru), **Scorpion** (albastru-verde), **Gemeni** (verde), **Balanta** (mahon), **Leu** (rosu), **Berbec** (lacrima apasului)**\
 LUNA DE NASTERE**: -**\
 TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** -**\
@@ -270,8 +270,8 @@ ANUL NASTERII:** Pisicii**\
 TALISMAN NOROCOS: -\
 ZIUA DE NASTERE:** Joi**\
 PLANETA GUVERNATOARE sau dominanta: -\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului 4**\
-ANIVERSARE:** ** **Se ofera la aniversarea a 9 si 39 ani (nastere sau casatorie)**\
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 4**\
+ANIVERSARE:** ** **Se ofera la aniversarea a 9 si 39 ani (nastere sau casatorie)**\
 CHAKRE:** 1, 2, 3, 4, 5, 6
 
 **efecteLE asupra purtatorului:\
@@ -300,18 +300,18 @@ Pune in legatura cu vietile anterioare\
 ***ASPECT:*** cu benzi, usor stralucitor, adesea mic si rulat\
 \
 **CARACTERISTICI.** Asociaza energia terestra cu cea solara pentru a genera o stare vibrationala inalta, dar ancorata, care atrage energiile spirituale catre Pamant. Plasat pe al treilea ochi, dezvolta abilitatile psihice si echilibreaza chakrele inferioare, stimuland ascensiunea kundalini.\
-         Piatra protectoare, odinioara purtata ca talisman impotriva blestemelor. Indica utilizarea corecta a puterii si pune in valoare integritatea. Ajuta in atingerea obiectivelor, reveland resursele interioare si favorizand claritatea intentiei. Plasat pe chakra buricului, ochiul de tigru este excelent pentru visatori sau persoanele neangajate. Inradacineaza si faciliteaza manifestarea vointei. Ochiul de togru ancoreaza schimbarea in corpul fizic.\
-         Permite recunoasterea propriilor nevoi, dar si pe cele ale altora. Va ajuta sa faceti distinctia intre dorinte si nevoile reale.\
-         In plan mental, ochiul de tigru integreaza emsiferele cerebrale si mareste perceptia practica. Ajuta la strangerea informatiilor dispersate pentru a forma un tot coerent. Util in rezolvarea dilemelor si conflictelor interioare, in special a celor provocate de mandrie si incapatanare. Benefic pentru vindecarea raului mental si a tulburarilor de personalitate.\
-         In plan psihologic, ochiul de togru vindeca problemele legate de constiinta propriei valori, autocritica si creativitatea blocata. Favorizeaza recunoasterea talentelor si a facultatilor individului, dar si a defectelor care trebuie combatute. Sustine schimbarile personalitatii dependente.\
-         Echilibreaza yin si yang si incarca cu energie corpul emotional. Atenueaza depresia si imbunatateste starea de spirit.\
+ Piatra protectoare, odinioara purtata ca talisman impotriva blestemelor. Indica utilizarea corecta a puterii si pune in valoare integritatea. Ajuta in atingerea obiectivelor, reveland resursele interioare si favorizand claritatea intentiei. Plasat pe chakra buricului, ochiul de tigru este excelent pentru visatori sau persoanele neangajate. Inradacineaza si faciliteaza manifestarea vointei. Ochiul de togru ancoreaza schimbarea in corpul fizic.\
+ Permite recunoasterea propriilor nevoi, dar si pe cele ale altora. Va ajuta sa faceti distinctia intre dorinte si nevoile reale.\
+ In plan mental, ochiul de tigru integreaza emsiferele cerebrale si mareste perceptia practica. Ajuta la strangerea informatiilor dispersate pentru a forma un tot coerent. Util in rezolvarea dilemelor si conflictelor interioare, in special a celor provocate de mandrie si incapatanare. Benefic pentru vindecarea raului mental si a tulburarilor de personalitate.\
+ In plan psihologic, ochiul de togru vindeca problemele legate de constiinta propriei valori, autocritica si creativitatea blocata. Favorizeaza recunoasterea talentelor si a facultatilor individului, dar si a defectelor care trebuie combatute. Sustine schimbarile personalitatii dependente.\
+ Echilibreaza yin si yang si incarca cu energie corpul emotional. Atenueaza depresia si imbunatateste starea de spirit.\
 \
 **EFECTE TAMADUITOARE.** Trateaza ochii imbunatateste vederea nocturna, vindeca afectiunile gatului si ale organelor genitale, inlatura constrangerile. Util in vindecarea fracturilor.\
 \
 **POZITIONARE.** De purtat pe bratul drept sau ca pandantiv sau colier pentru perioade scurte. De pozitionat pe corp unde este nevoie. poate fi asezat pe chakra buricului pentru o ancorare spirituala.\
 \
 \
-         **[CULORI SPECIFICE]{.underline}**\
+ **[CULORI SPECIFICE]{.underline}**\
 \
 **Ochiul de tigru albastru** este calmant si indeparteaza stresul. Ajuta persoanele hiperanxioase, labile si pe cele care sufera de fobii. Incetineste metabolismul, linisteste comportamentul sexual superactiv si alunga frustrarile sexuale.\
 **Ochiul de tigru auriu** focalizeaza atntia spre detalii, negand complezenta. Favorizeaza actiunea motivata in dauna celei determinate de emotie. Excelent insotitor pentru teste si intaniri importante.\
@@ -332,7 +332,7 @@ ANUL NASTERII:** Tigrului**\
 TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** Joi**\
 PLANETA GUVERNATOARE sau dominanta: -\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului 4**\
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 4**\
 ANIVERSARE:** Se ofera la aniversarea a 9 si 39 ani (nastere sau casatorie)**\
 CHAKRE:** 1, 2, 3, 4, 5, 6
 
@@ -357,13 +357,13 @@ Pune in legatura cu vietile anterioare\
 Ajuta la adoptarea unui regim de viata si de alimentatie sanatos](javascript:void(0))\
 **Sanatate:** benefic in momente de boala sau slabiciune fizica, cu rol de revigorare si energizare a [organismului](javascript:void(0)) , benefic pentru splina, pancreas, colon, sistem digestiv, creier, organe sexuale, timus, benefic in caz de fracturi, [boli](javascript:void(0)) oculare
 
- 
+
 
 ***OCHI DE SOIM***
 
 !{width="1.0416666666666667in" height="1.4583333333333333in"} !{width="0.8645833333333334in" height="0.8333333333333334in"}\
 Varietate de ochi de tigru cu benzi, ochiul de soim este o piatra excelenta pentru vindecarea energiei terestre si ancorarea sa. Stimuleaza si reviforeaza corpul fizic. Ridicandu-se deasupra lumii, ochiul de soim dezvolta intuitia si introspectia si imbunatateste abilitatile psihice precum clarviziunea. Purifica si incarca cu energie chakra radacina. Plasat in coltul bogatiei intr-o incapere, atrage abundenta. Foarte bun pentru a elimina tiparele de gandire restrictive si negative, precum si comportamentul incorigibil. Pune problemele in perspectiva, atenueaza pesimismul si dorinta de a-i invinovati pe altii pentru propriile probleme. Plasat pe al treilea ochi, ochiul de soim favorizeaza intoarcerea la sursa unui blocaj emotional, oricare ar fi acesta.\
-         Imbunatateste circulatia sangvina, trateaza intestinele si picioarele, pune in evidenta cauzele psihosomatice ale intepenirii umarului sau gatului.
+ Imbunatateste circulatia sangvina, trateaza intestinele si picioarele, pune in evidenta cauzele psihosomatice ale intepenirii umarului sau gatului.
 
 **OCHI DE SOIM**
 
@@ -401,10 +401,10 @@ Bun pentru meditatie si rugaciune
 ***ASPECT:*** cu benzi, marmorat, adesea slefuit\
 \
 **CARACTERISTICI.** Confera forta, sustine in circumstante dificile sau confuzionate si in timpul perioadelor de intens stres mental sau fizic. Faciliteaza focalizarea energiei individului si alinierea sa cu puterea superioara, dar si ascensiunea in planul superioar. Conduce in viitor. Datorita capacitatii sale de a conferi forta, permite preluarea fraielor destinului personal. Promoveaza vigoarea, fermitatea si vitalitatea. Permite invatarea lectiilor, dand incredere in sine si facand ca toti sa se simta in largul lor in orice mediu.\
-         Piatra a secretelor, ofera fiecaruia ocazia de a urma propriile sale sfaturi. Se spune ca onixul pastreaza amintirea celor intamplate celui care il poarta. Serveste de asemenea la psihometrie, fiind benefic pentru persoanele sensibile la vibratiile sale.\
-         Aceasta proprietate de stocare a amintirilor fizice face onixul util pentru lucrul cu vietatile anterioare pentru vindecarea traumatismelor si a ranilor vechi ce afecteaza viata prezenta. Un cristal de onix tinut in mana indreapta atentia catre rana respectiva care va fi astfel vindecata datorita activitatii corporale, schimbarii sau terapiei cu cristale. Onixul ajuta si la tamaduirea vechilor suparari si tristeti.\
-         In plan psihologic, recunoaste si integreaza dualitatile eului. Ancoreaza persoanele inconstante intr-un mod de viata mai stabil si confera stapanire de sine. Tonic mental care atenueaza frica si grijile coplesitoare, onixul vehiculeaza harul inestimabil al deciziilor intelepte.\
-         In plan fizic, onixul favorizeaza absorbtia energiilor universului necesare pentru vindecare sau alte scopuri. Echilibreaza energiile yin si yang ale corpului.\
+ Piatra a secretelor, ofera fiecaruia ocazia de a urma propriile sale sfaturi. Se spune ca onixul pastreaza amintirea celor intamplate celui care il poarta. Serveste de asemenea la psihometrie, fiind benefic pentru persoanele sensibile la vibratiile sale.\
+ Aceasta proprietate de stocare a amintirilor fizice face onixul util pentru lucrul cu vietatile anterioare pentru vindecarea traumatismelor si a ranilor vechi ce afecteaza viata prezenta. Un cristal de onix tinut in mana indreapta atentia catre rana respectiva care va fi astfel vindecata datorita activitatii corporale, schimbarii sau terapiei cu cristale. Onixul ajuta si la tamaduirea vechilor suparari si tristeti.\
+ In plan psihologic, recunoaste si integreaza dualitatile eului. Ancoreaza persoanele inconstante intr-un mod de viata mai stabil si confera stapanire de sine. Tonic mental care atenueaza frica si grijile coplesitoare, onixul vehiculeaza harul inestimabil al deciziilor intelepte.\
+ In plan fizic, onixul favorizeaza absorbtia energiilor universului necesare pentru vindecare sau alte scopuri. Echilibreaza energiile yin si yang ale corpului.\
 \
 **EFECTE TAMADUITOARE.** Benefic pentru dinti, oase, maduva osoasa, tulburarile sanguine si picioare.\
 \
@@ -418,7 +418,7 @@ Compozitia chimica:** Oxid de Siliciu (cuart)**\
 Duritate**: 7 (din 10)**\
 Luciu**: sticlos**\
 Numele**: provine din grecescul \"onux\" = unghie**\
-Culori:** alb, gri, maroniu, negru, gri, maro-roscat, rosu-alb **Puteti cumpara cristal de ONIX NEGRU in WWW.KRISTALE.RO**
+Culori:** alb, gri, maroniu, negru, gri, maro-roscat, rosu-alb **Puteti cumpara cristal de ONIX NEGRU in
 
 !{width="1.0416666666666667in" height="2.0833333333333335in"}**\
 **
@@ -432,7 +432,7 @@ ANUL NASTERII:** -**\
 TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** Sambata**\
 PLANETA GUVERNATOARE sau dominanta:** Saturn**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului [3](javascript:void(0))
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului [3](javascript:void(0))
 
 [, 6](javascript:void(0))**\
 ANIVERSARE:** se ofera la aniversarea a 7 si 10 ani (nastere si casatorie)**\
@@ -461,21 +461,21 @@ Echilibreaza emotional, controleaza emotiile extreme\
 MEDALION OPAL ROZ**\
 \
 **CARACTERISTICI.** Piatra delicata, dotata cu o vibratie subtila, intensifica constiinta cosmica si induce viziuni psihice si mistice. Stimuland originalitatea si creativitatea dinamica, pune individul in contact cu veritabilul sau eu care poate fi exprimat. Absorbant si reflectant, intelege gandurile si sentimentele, le amplifica si le retrimite la sursa. Piatra karmica, invata ca ceea ce respingem se va intoarce. Bine programata, va permite sa treceti neobservat. Poate fi utilizat cand va aventurati in locuri periculoase, dar si in ritualurile samanice secrete.\
-         In plan psihologic, amplifica caracteristicile si le scoate la suprafata in vederea transformarii. Intarind condtiinta propriei valori a individului, favorizeaza intelegerea deplina a potentialului sau. In plan mental, confera claritate si spontaneitate. Incurajeaza interesul pentru arte.\
-         Din punct de vedere emotional, opalul a fost mereu asociat iubirii, pasiunii, dorintei, erotismului. Este o piatra a seductiei care intensifica starile emotionale si elimina inhibitiile. Actioneaza ca stabilizator emotional. Poate sa dsipeze energia: utilizatorul trebuie sa fie bine centrat inainte de a folosi opalul pentru a explora sau induce sentimente, ori sa utilizeze alte pietre pentru a facilita integrarea. O bijuterie din opal confera loialitate, fidelitate si spontaneitate, desi risca sa intensificenestatornicia daca tendinta naturala este deja prezenta. Cunoscut pentru refacerea campului energetic terestru, ameliorarea starilor de epuizare, reancarcarea cu energie si stabilirea unei retele.\
+ In plan psihologic, amplifica caracteristicile si le scoate la suprafata in vederea transformarii. Intarind condtiinta propriei valori a individului, favorizeaza intelegerea deplina a potentialului sau. In plan mental, confera claritate si spontaneitate. Incurajeaza interesul pentru arte.\
+ Din punct de vedere emotional, opalul a fost mereu asociat iubirii, pasiunii, dorintei, erotismului. Este o piatra a seductiei care intensifica starile emotionale si elimina inhibitiile. Actioneaza ca stabilizator emotional. Poate sa dsipeze energia: utilizatorul trebuie sa fie bine centrat inainte de a folosi opalul pentru a explora sau induce sentimente, ori sa utilizeze alte pietre pentru a facilita integrarea. O bijuterie din opal confera loialitate, fidelitate si spontaneitate, desi risca sa intensificenestatornicia daca tendinta naturala este deja prezenta. Cunoscut pentru refacerea campului energetic terestru, ameliorarea starilor de epuizare, reancarcarea cu energie si stabilirea unei retele.\
 \
 **EFECTE TAMADUITOARE.** Intareste dorinta de a trai. Trateaza boala Parkinson, infectiile, reduce febra. imbunatateste memoria. Purifica sangele si rinichii, regleaza nivelul de insulina, amelioreaza simptomele sindromului premenstrual. Benefic pentru ochi.\
 \
 **POZITIONARE.** Plasati-l unde este nevoie, indeosebi pe inima si plexul solar.(coliere sau pandantive). Purati-l pe degetul mic.(inele)
 
-   **[TIPURI SI CULORI SPECIFICE]{.underline}**\
+ **[TIPURI SI CULORI SPECIFICE]{.underline}**\
 \
 **Opalul negru, brun, gri** rezoneaza cu chakra sacrala si organele reproducatoare. Util indeosebi pentru a indeparta tensiunea sexuala provocata de o emotie, precum si pentru a trata si integra noile emotii eliberate.\
 **Opalul albastru** este un calmant emotional care realineaza cu obiectivul spiritual. rezoneaza cu chakra inimii si dezvolta comunicarea, mai ales pe cea blocata de lipsa de incredere. Util in cazul experientelor sau ranilor din vietile anterioare ce afecteaza viata prezenta: acestea pot fi vindecate cu ajutorul schemei eterice.\
 **Opalul cireasa** ajuta la purificarea si activarea chakrelor radacina si sacrala. Induce un sentiment de centrare. In plan spiritual, activeaza carviziunea si clarsensibilitatea. Salutar pentru vindecarea durerilor de cap provocate de blocaje si inchiderea celui de-al treilea ochi. Favorizeaza regenerarea tesuturilor. Trateaza problemele sangelui, tensiunea musculara, bolile coloanei si amelioreaza simptomele menopauzei.\
 **Crisopalul (opalul verde)** inspira noi impresii si incurajeaza deschiderea catre altii. Va ajuta sa vedeti lumea cu alti ochi. Imbunatateste starea de spirit, micsoreaza incarcatura emotionale si elibereaza sentimentele, adesea prin lacrimi. Detoxifica si regenereaza ficatul, inlatura senzatia de sufocare.\
 **Opalul de foc (rosu-portocaliu)** fortifica puterea personala, intetind focul interior, si protejeaza de pericol. Simbol al sperantei, benefic in afaceri, intensifica energia, faciliteaza schimbarea si progresul. Inlatura tulburarile emotionale provocate de nedreptati si rele tratamente. Cunoscut pentru intensificarea gandurilor si sentimentelor, redirectionandu-le. Alunga tristetea profunda. benefic pentru desprinderea de trecut, desi actiunea sa risca sa fie explosiva atunci cand emotiile refulate sunt eliberate brusc.\
-         Opalul de foc rezoneaza cu abdomenul, regiunea lombara si meridianul triplului incalzitor. Trateaza intestinele si rinichii, echilibreaza secretia glandelor suprarenale, previne epuizarea, stimuleaza organele sexuale. Excelent pentru reancarcare cu energie si incalzire.\
+ Opalul de foc rezoneaza cu abdomenul, regiunea lombara si meridianul triplului incalzitor. Trateaza intestinele si rinichii, echilibreaza secretia glandelor suprarenale, previne epuizarea, stimuleaza organele sexuale. Excelent pentru reancarcare cu energie si incalzire.\
 **Opalul verde**, purificator si intretinator, favorizeaza restabilirea emotionala si consolideaza relatiile. Datorita capacitatii sale de a filtra informatia se de a reorienta gandirea, confera sens si perspectiva spirituala vietii cotidiene. Fortifica sistemul imunitar, vindeca raceala si gripa.
 
 **OPAL**
@@ -483,16 +483,16 @@ MEDALION OPAL ROZ**\
 !{width="1.1770833333333333in" height="0.8333333333333334in"}!{width="1.2916666666666667in" height="0.8333333333333334in"}!{width="1.2708333333333333in" height="0.8333333333333334in"}!{width="1.3333333333333333in" height="0.8333333333333334in"}!{width="1.5625in" height="1.0416666666666667in"}
 
 **INFORMATII\
-Descriere:** Piatra semipretioasa cu luciu sticlos incolora sau variat colorata, transparenta sau opalescenta. Varietate de  bioxid [natural](javascript:void(0))
+Descriere:** Piatra semipretioasa cu luciu sticlos incolora sau variat colorata, transparenta sau opalescenta. Varietate de bioxid [natural](javascript:void(0))
 
-[de siliciu hidratat, asem](javascript:void(0))anator cuarţului cu aspect sticlos, transparent sau opalescent. Colorit: alb-laptos, galben deschis, albastru deschis, portocaliu, verde, gri, brun, negru, uneori incolor şi transparent, cu reflexe irizate**\
+[de siliciu hidratat, asem](javascript:void(0))anator cuarțului cu aspect sticlos, transparent sau opalescent. Colorit: alb-laptos, galben deschis, albastru deschis, portocaliu, verde, gri, brun, negru, uneori incolor și transparent, cu reflexe irizate**\
 Culori: variate -** contine toate culorile curcubeului, alb, albastriu, galben, rosu, maro, portocaliu, multicolor. Exista opal semi-negru - cu o nuanta mai palida de negru. Cel de calitate superioara are o nuanta usoara de rosu. Opalul negru este foarte scump, de aceea este si foarte rar, majoritatea pieselor existente ar putea fi sintetice\
 **Numele:** provine din sanscrita upala = bijuterie\
 **Nota:** Poate fi confundat cu sticla, labradoritul sau piatra lunii. **\
 Avertisment:** Foarte fragil: a se evita purificarea in apa salina, expunere la soare, caldura. Opalul se zgarie foarte usor, nu trebuie tinut alaturi de pietre mai dure\
 **Compozitie chimica:** SiO2 . H20**\
 Duritate:** 5,5 - 6,5 (din 10) **\
-Luciu:** sticlos, perlat **Puteti cumpara cristal de OPAL in WWW.KRISTALE.RO**
+Luciu:** sticlos, perlat **Puteti cumpara cristal de OPAL in
 
 **opal negru, opal cameleon, opal de apa, opal comun, opal de ceara, opal muschiform, opal dendritic, opal de miere, opal lemnos, opal laptos, cristal de opal** (incolor transparent)**\
 opal de foc** (rosu-portocaliu transparent)**\
@@ -509,7 +509,7 @@ TALISMAN NOROCOS:** al Balantei**\
 ZIUA DE NASTERE:** -**\
 ANUL NASTERII:** -**\
 PLANETA GUVERNATOARE sau dominanta:** -**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului 8 si 9**\
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 8 si 9**\
 ANIVERSARE:** Se ofera la aniversarea a 14 (opalul negru) si 18 ani (nastere sau casatorie)**\
 CHAKRE:** 2, 7\
 **PROFESII:** -\
@@ -538,10 +538,10 @@ SANATATE: benefic pentru vaz, auz, dureri de cap](javascript:void(0))
 ***ASPECT:*** opac; cristal transparent cand este fatetat si slefuit\
 \
 **CARACTERISTICI.** In trecut, peridotul era cunoscut pentru alungarea spiritelor rele. Este o piatra protectoare pentru aura.\
-         Puternic curatitor, elimina si netralizeaza toxinele pe toate planurile, purifica corpurile subtile si corpul fizic, precum si mintea. Deschide, purifica si activeaza chakrele inimii si ale plexului solar. Inlatura tensiunile, culpabilitatea sau obsesiile. Invata ca este contraproductiv sa va agatati de trecut. Arata cum sa va detasati de influentele exterioare si sa urmati indicatiile propriilor voastre energii superioare.\
-         Indeparteaza tiparele negative si vechile vibratii, pentru a accede la o noua frecventa. Daca activitatea psihologica s-a concretizat, peridotul permite mersul inainte. Acest cristal vizionar ajuta la intelegerea destinului si a obiectivului spiritual. Foarte util pentru terapeuti.\
-         In plan psihologic, peridotul atenueaza gelozia, resentimentele, invidia, mania si diminueaza stresul. Intareste increderea si confirmarea, fara agresivitate. Motivand cresterea, suscita schimbarea necesara. Permite intoarcerea in trecut pentru descoperirea lectiei continute in propriile experiente, invatandu-va cum sa va iertati. Favorizeaza claritatea si buna dispozitie psihologica. Peridotul este acordat la descoperirea adevarului spiritual. Dirijeaza ciclurile vietii.\
-         In plan mental, peridotul ascute intelectul, deschizandu-l spre noi planuri de constiinta. Inlatura apatia, orientand atentia spre toate lucrurile neglijate, constient sau nu. Datorita ajutorului sau, individul isi poate asuma greselile si poate merge mai departe. Faciliteaza asumarea responsabilitatii pentru propria viata, mai ales cand sunteti convinsi ca \"totul este din vina altora\". Peridotul imbunatateste relatiile dificile.\
+ Puternic curatitor, elimina si netralizeaza toxinele pe toate planurile, purifica corpurile subtile si corpul fizic, precum si mintea. Deschide, purifica si activeaza chakrele inimii si ale plexului solar. Inlatura tensiunile, culpabilitatea sau obsesiile. Invata ca este contraproductiv sa va agatati de trecut. Arata cum sa va detasati de influentele exterioare si sa urmati indicatiile propriilor voastre energii superioare.\
+ Indeparteaza tiparele negative si vechile vibratii, pentru a accede la o noua frecventa. Daca activitatea psihologica s-a concretizat, peridotul permite mersul inainte. Acest cristal vizionar ajuta la intelegerea destinului si a obiectivului spiritual. Foarte util pentru terapeuti.\
+ In plan psihologic, peridotul atenueaza gelozia, resentimentele, invidia, mania si diminueaza stresul. Intareste increderea si confirmarea, fara agresivitate. Motivand cresterea, suscita schimbarea necesara. Permite intoarcerea in trecut pentru descoperirea lectiei continute in propriile experiente, invatandu-va cum sa va iertati. Favorizeaza claritatea si buna dispozitie psihologica. Peridotul este acordat la descoperirea adevarului spiritual. Dirijeaza ciclurile vietii.\
+ In plan mental, peridotul ascute intelectul, deschizandu-l spre noi planuri de constiinta. Inlatura apatia, orientand atentia spre toate lucrurile neglijate, constient sau nu. Datorita ajutorului sau, individul isi poate asuma greselile si poate merge mai departe. Faciliteaza asumarea responsabilitatii pentru propria viata, mai ales cand sunteti convinsi ca \"totul este din vina altora\". Peridotul imbunatateste relatiile dificile.\
 \
 **EFECTE TAMADUITOARE.** Peridotul are un efect tonic. Ingrijeste si regenereaza tesuturile, echilibreaza metabolismul si este benefic pielii. Ajuta inima, timusul, plamanii, vezica bilara, splina, tractul instestinal, vindeca ulcerele, imbunatateste vederea. Plasat pe abdomen, usureaza nasterea marind contractiile musculare si atenuand durerea. Energia sa echilibreaza tulburarile bipolare si invinge ipohondria.\
 \
@@ -549,10 +549,10 @@ SANATATE: benefic pentru vaz, auz, dureri de cap](javascript:void(0))
 
 **PERIDOT / OLIVINA / CRISOLIT**
 
-!{width="1.6145833333333333in" height="1.0416666666666667in"}!{width="0.9166666666666666in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.2083333333333333in"}** ** !{width="1.4270833333333333in" height="0.8333333333333334in"}!{width="0.9479166666666666in" height="0.8333333333333334in"}
+!{width="1.6145833333333333in" height="1.0416666666666667in"}!{width="0.9166666666666666in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.2083333333333333in"}** ** !{width="1.4270833333333333in" height="0.8333333333333334in"}!{width="0.9479166666666666in" height="0.8333333333333334in"}
 
 **INFORMATII\
-Culori:** verde-masliniu, galben-verzui, alb, incolor, alb, gri, brun, rosu, galben, verzui, verde, albastru. Cel inchis la culoare e considerat **peridot**, cel deschis la culoare e considerat **crisolit**. **\
+Culori:** verde-masliniu, galben-verzui, alb, incolor, alb, gri, brun, rosu, galben, verzui, verde, albastru. Cel inchis la culoare e considerat **peridot**, cel deschis la culoare e considerat **crisolit**. **\
 Compozitie chimica:** (Mg,Fe)2\[SiO4\]\
 **Duritate**: 3-7 (din 10)**\
 Luciu:** sticlos**\
@@ -565,7 +565,7 @@ ANUL NASTERII:** Cocosului**\
 TALISMAN NOROCOS:** al Balantei**\
 ZIUA DE NASTERE:** -**\
 PLANETA GUVERNATOARE sau dominanta:** Mercur si Venus**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului [3](javascript:void(0))
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului [3](javascript:void(0))
 
 [, 5, 6, 7](javascript:void(0))**\
 ANIVERSARE:** Se ofera la aniversarea a 16 ani (nastere sau casatorie)**\
@@ -649,7 +649,7 @@ Piatră recomandată pentru zodiile: Rac, Balanță, Scorpion, Săgetator, Peșt
 
 !{width="0.9777777777777777in" height="0.8333333333333334in"}
 
-**Descriere:** creste in scoici.  Este de natura organica la fel ca jaisul, chihlimbarul si coralul.**\
+**Descriere:** creste in scoici. Este de natura organica la fel ca jaisul, chihlimbarul si coralul.**\
 Culori:** alb, maro, negru, roz, sidefat.**\
 Compozitia chimica:** carbonat de calciu**\
 Duritate**: 2,5-4,5 (din 10)\
@@ -662,7 +662,7 @@ TALISMAN NOROCOS:** al Sagetatorului**\
 ZIUA DE NASTERE:** Luni**\
 ANUL NASTERII:** Sobolanului si Sarpelui (perla neagra)**\
 PLANETA GUVERNATOARE sau dominanta:** Luna**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului 7**\
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 7**\
 ANIVERSARE:** Se ofera la aniversarea a 1, 3, 12, 30 de ani (nastere sau casatorie)**\
 CHAKRE:** 2, 3, 4, 6\
 **PROFESII:** -\
@@ -736,8 +736,8 @@ Se spune ca protejeaza de muscaturile se sarpe si scorpion.](javascript:void(0))
 ***ASPECT:*** cristal transparent sau opac, cu reflexii iridiscente\
 \
 **CARACTERISTICI.** Piatra vesela, aduce lumina, induce bucuria de a trai si bunatatea inimii, ascute intuitia. Daca viata si-a pierdut farmecul, piatra Soarelui il va restabili si va va ajuta sa aveti grija de dumneavoastra. Purificand toate chakrele si oferind lumina si energie, aceasta piatra permite veritabilului eu sa iasa la iveala cu bucurie. In mod traditional, era asociata zeilor binevoitor, norocului si sansei. Piatra alchimica, favorizeaza o conexiune subtila cu lumina si puterea regeneratoare a soarelui in timpul meditatiei si in viata cotidiana.\
-         Extrem de utila pentru a retrage \"carligele\" altora, plante in chakre sau in aura, din plan menatal sau emotional, de la parinti, copii sau parteneri posesivi. Aceste carlige epuizeaza energia, dar piatra Soarelui le retrimite cu afectiunile proprietarului. Foarte benefica pentru a rupe legaturile. Daca va este greu sa spuneti \"nu\" si daca va sacrificati tot timpul pentru altii, trebuie sa aveti mereu cu dumneavoastra o piatra a Soarelui. Eliminand codependenta, ea facillteaza autoancarcarea cu energie, independenta si vitalitate. Daca aveti tendinta sa lasati totul pentru maine, piatra Soarelui o va neutraliza.\
-         In plan emotional, piatra Soarelui actioneaza ca antidepresiv si alunga starile de spirit sumbre. Eficace in special pentru tulburarile afective sezoniere, luminand obscuritatea iernii. Detaseaza de sentimentul de a fi criticat, dezavantajat si abandonat. Inlaturand inhibitiile si complexele, piatra Soarelui elimina sentimentul esecului, mareste constiinta propriei valori si increderea in sine. Incurajand optimismul si entuziasmul, induce o abordare pozitiva a evenimentelor. Chiar si cel mai mare pesimist reactioneaza la o piatra a Soarelui plasata pe plexul solar, care elimina emotiile refulate si le transforma.\
+ Extrem de utila pentru a retrage \"carligele\" altora, plante in chakre sau in aura, din plan menatal sau emotional, de la parinti, copii sau parteneri posesivi. Aceste carlige epuizeaza energia, dar piatra Soarelui le retrimite cu afectiunile proprietarului. Foarte benefica pentru a rupe legaturile. Daca va este greu sa spuneti \"nu\" si daca va sacrificati tot timpul pentru altii, trebuie sa aveti mereu cu dumneavoastra o piatra a Soarelui. Eliminand codependenta, ea facillteaza autoancarcarea cu energie, independenta si vitalitate. Daca aveti tendinta sa lasati totul pentru maine, piatra Soarelui o va neutraliza.\
+ In plan emotional, piatra Soarelui actioneaza ca antidepresiv si alunga starile de spirit sumbre. Eficace in special pentru tulburarile afective sezoniere, luminand obscuritatea iernii. Detaseaza de sentimentul de a fi criticat, dezavantajat si abandonat. Inlaturand inhibitiile si complexele, piatra Soarelui elimina sentimentul esecului, mareste constiinta propriei valori si increderea in sine. Incurajand optimismul si entuziasmul, induce o abordare pozitiva a evenimentelor. Chiar si cel mai mare pesimist reactioneaza la o piatra a Soarelui plasata pe plexul solar, care elimina emotiile refulate si le transforma.\
 \
 **EFECTE TAMADUITOARE.** Stimuleaza puterile de autovindecare, regleaza sistemul nervos autonom si armonizeaza toate organele. Trateaza durerile de gat cronice, ulcerul gastric. Foarte buna pentru tulburarile afective sezoniere, inlatura depresia. Creand o retea in jurul corpului, vindeca afectiunile cartilajelor, reumatismul si amelioreaza durerea de orice natura.\
 \
@@ -785,11 +785,11 @@ Recomandabil a se purta in urma marilor socuri ale sortii](javascript:void(0))\
 ***ASPECT:*** metalic, uneori cubic\
 \
 **CARACTERISTICI.** Scut energetic excelent, pirita tine la distanta energia negativa si poluantii, inclusiv bolile infectioase. Purtata la gat (*pandantiv* sau *colier*) protejeaza corpurile subtile si pe cel fizic, indepartand raul si periciolul.\
-         Piatra foarte pozitiva, invinge inertia si sentimentul de inadecvare. Stimuleaza ideile, pune in evidenta abilitatile si potentialul. Un cristal de pirita pus pe birou incarca cu energie camera.\
-         Utila in momentul stabilirii liniilor directoare in afaceri. Va invata sa vedeti dincolo de aparente si promoveaza diplomatia.\
-         In plan psihologic, pirita trateaza anxietatea si frustarea, favorizeaza constientizarea propriilor valori si a increderii in sine. Barbatilor care sufera de complex de inferioaritate le creste increderea in ei si in virilitatea lor. Prea puternica insa pentru \"machos\", care risca sa devina agresivi. Ajuta femeile sa-si invinga complexele de servitudine si inferioritate.\
-         Pirita stimuleaza activitatea mentala, deoarce aceasta mareste aportul de sange catre creier. Imbunatateste memoria si capacitatea de a aduce aminte. Pirita cubica largeste si structureaza capacitatile mentale, echilibrand instinctul cu intuitia, creativitatea cu analiza.\
-         In plan emotional, atenueaza melancolia si disperarea. Fizic, pirita de fier energizeaza si inlatura oboseala. Blocheaza pierderile energetice ale corpului si aurei. Creste gradul de oxigenare a sangelui si fortifica sistemul circulator. Promoveaza idealul de sanatate si stare de bine. Vindeca rapid, dezvaluind cauzele starii de rau. Utila in special pentru a invinge sursele raului karmic si psihosomatic.\
+ Piatra foarte pozitiva, invinge inertia si sentimentul de inadecvare. Stimuleaza ideile, pune in evidenta abilitatile si potentialul. Un cristal de pirita pus pe birou incarca cu energie camera.\
+ Utila in momentul stabilirii liniilor directoare in afaceri. Va invata sa vedeti dincolo de aparente si promoveaza diplomatia.\
+ In plan psihologic, pirita trateaza anxietatea si frustarea, favorizeaza constientizarea propriilor valori si a increderii in sine. Barbatilor care sufera de complex de inferioaritate le creste increderea in ei si in virilitatea lor. Prea puternica insa pentru \"machos\", care risca sa devina agresivi. Ajuta femeile sa-si invinga complexele de servitudine si inferioritate.\
+ Pirita stimuleaza activitatea mentala, deoarce aceasta mareste aportul de sange catre creier. Imbunatateste memoria si capacitatea de a aduce aminte. Pirita cubica largeste si structureaza capacitatile mentale, echilibrand instinctul cu intuitia, creativitatea cu analiza.\
+ In plan emotional, atenueaza melancolia si disperarea. Fizic, pirita de fier energizeaza si inlatura oboseala. Blocheaza pierderile energetice ale corpului si aurei. Creste gradul de oxigenare a sangelui si fortifica sistemul circulator. Promoveaza idealul de sanatate si stare de bine. Vindeca rapid, dezvaluind cauzele starii de rau. Utila in special pentru a invinge sursele raului karmic si psihosomatic.\
 **EFECTE TAMADUITOARE.** Trateaza oasele si stimuleaza formarea celulelor, repara ADN-ul deterioarat, aliniaza meridianele si calmeaza somnul perturbat de afectiuni. Fortifica tractul digestiv, neutralizeaza toxinele ingerate, benefica pentru sistemul circulator, creste gradul de oxigenare a sangelui. Utila pentru plamani, calmeaza crizele de astm si bronsita.\
 \
 **POZITIONARE.** Purtati-o la gat (*pandantiv* sau *colier*), intr-un saculet sau puneti-o sub perna.
@@ -822,7 +822,7 @@ Aduce armonie in [lucrul](javascript:void(0)) cu ceilalti\
 Stimuleaza vointa, spiritul practic, puterea, comunicativitatea, pacea interioara, intelectul si memoria, concentrarea, logica\
 Stimuleaza munca de echipa pentru atingerea unui scop comun\
 Piatra a prosperitatii\
-**Sanatate:** ajuta [sistemul](javascript:void(0)) circulator, oxigeneaza sangele,  scade febra, benefic pentru [stomac](javascript:void(0)) , ulcer, digestie, oase, plamani
+**Sanatate:** ajuta [sistemul](javascript:void(0)) circulator, oxigeneaza sangele, scade febra, benefic pentru [stomac](javascript:void(0)) , ulcer, digestie, oase, plamani
 
 ***[PREHNIT]{.underline}***\
 \
@@ -830,9 +830,9 @@ Piatra a prosperitatii\
 **[ASPECT:]{.underline}** umflaturi pe matrice, cristale mici si medii !{width="1.9583333333333333in" height="1.375in"}\
 \
 **CARACTERISTICI.** Piatra serena a iubirii neconditionate, tamaduieste tamaduitorul. Intensifica procesul de vizualizare si induce o meditatie profunda in timpul careia se atinge eul superior. Meditand asupra acestui cristal, intram in contact cu reteaua energetica a universului. Prehinitul dezvolta precognitia si introspectia. Va ajuta sa fiti intotdeauna pregatiti pentru ceea ce urmeaza. Datorita calitatii sale de a pune in acord cu energiile divine, prehnitul valorizeaza harul profetiei si arata calea catre evolutia spirituala.\
-         Acest cristal inchide campul auric intr-un scut proterctor de energie divina. Util pentru a forma retele datorita capacitatii sale de a calma mediul inconjurator si a oferi pace si protectie. Perfect pentru a fi pus in gradina. Ajuta la transformarea casei intr-un sanctuar vindecator. Va invata cum sa intrati in armonie cu natura si cu fortele elementare, revitalizand si reannoind ceea ce va inconjoara.\
-         O buna piatra ***Feng Shui***, prehnitul contribuie la \"eliminarea harababurii\", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers si sifletul se crede iar in manifestarea divina.\
-         In plan psihologic, prehnitul inlatura cosmarurile, fobiile si fricile profunde, identificand si vindecand raul care le provoaca. Benefic copiilor hiperactivi si cauzelor karmice ascunse.\
+ Acest cristal inchide campul auric intr-un scut proterctor de energie divina. Util pentru a forma retele datorita capacitatii sale de a calma mediul inconjurator si a oferi pace si protectie. Perfect pentru a fi pus in gradina. Ajuta la transformarea casei intr-un sanctuar vindecator. Va invata cum sa intrati in armonie cu natura si cu fortele elementare, revitalizand si reannoind ceea ce va inconjoara.\
+ O buna piatra ***Feng Shui***, prehnitul contribuie la \"eliminarea harababurii\", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers si sifletul se crede iar in manifestarea divina.\
+ In plan psihologic, prehnitul inlatura cosmarurile, fobiile si fricile profunde, identificand si vindecand raul care le provoaca. Benefic copiilor hiperactivi si cauzelor karmice ascunse.\
 **EFECTE TAMADUITOARE.** Util in diagnosticare. Trateaza rinichii, vezica urinara, timusl, umerii, pieptul si plamanii. Vindeca guta si tulburarile hematologice, reface tesutul conjunctiv si stabilizeaza malignitatea.\
 **POZITIONARE.** Plasati-l sau tineti-l unde este nevoie. Pentru profetie, vizualizare si ghidare, plasati cristalul pe al treilea ochi.
 
@@ -854,9 +854,9 @@ ANUL NASTERII:** -**\
 TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** Marti**\
 PLANETA GUVERNATOARE sau dominanta:** marte**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului 4**\
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 4**\
 ANIVERSARE:** -**\
-CHAKRE:**  1, 3, 4\
+CHAKRE:** 1, 3, 4\
 **PROFESII:** -
 
 **efecteLE asupra purtatorului:\
@@ -878,8 +878,8 @@ Puternic rol protector:** impotriva rautatii, pericolelor si gandurilor negative
 ***ASPECT:*** pestrit, uneori cu vinisoare negre, adesea mic si rulat\
 \
 **CARACTERISTICI.** Rodonitul echilibreaza emotional, sustinand dragostea si incurajand fraternitatea. Prezinta cele doua aspecte ale problemei. Stimuleaza, purifica si activeaza energiile ***yin si yang*** ajuta individul sa ajunga la cel mai ridicat potential al sau. Cunoscut ca intensificator al meditatiei asupra mantrei, apropiind sufletul de vibratia spirituala.\
-        Piatra util pentru \"primul ajutor\", rodonitul trateaza socul emotional si panica, conferind sufletului o energie pozitiva in timpul acestui proces. Foarte benefic in cazurile de autodistrugere emotionala, de codependenta si anuz. Elimina ranilie si cicatricile emotionale din trecut - oricare ar fi - si aduce la suprafata pentru pentru transmutare emotiile dureroase, precum resentimentele si mania. Aceasta piatra rezoneaza puternic cu iertarea, sustinand reconcilierea dupa o durere sau un abuz indelungat. Poate fi folosit in vindecarea vietilor anterioare, in legatura cu tradarea si abandonul. Datorita capacitatii sale de a promova iubirea altruista de sine si iertarea, ajuta la recunoasterea propriilor defecte fara a-i acuza pe altii pe propriile greseli.\
-        Rodonitul respinge insultele si previne represaliile, admitand ca razbunarea este autodistrugatoare si indemnand la calm in situatii periculoase si stresante. Echilibreaza si integreaza energiile fizice si mentale, crescand increderea si eliminand confuzia.\
+ Piatra util pentru \"primul ajutor\", rodonitul trateaza socul emotional si panica, conferind sufletului o energie pozitiva in timpul acestui proces. Foarte benefic in cazurile de autodistrugere emotionala, de codependenta si anuz. Elimina ranilie si cicatricile emotionale din trecut - oricare ar fi - si aduce la suprafata pentru pentru transmutare emotiile dureroase, precum resentimentele si mania. Aceasta piatra rezoneaza puternic cu iertarea, sustinand reconcilierea dupa o durere sau un abuz indelungat. Poate fi folosit in vindecarea vietilor anterioare, in legatura cu tradarea si abandonul. Datorita capacitatii sale de a promova iubirea altruista de sine si iertarea, ajuta la recunoasterea propriilor defecte fara a-i acuza pe altii pe propriile greseli.\
+ Rodonitul respinge insultele si previne represaliile, admitand ca razbunarea este autodistrugatoare si indemnand la calm in situatii periculoase si stresante. Echilibreaza si integreaza energiile fizice si mentale, crescand increderea si eliminand confuzia.\
 \
 **EFECTE TAMADUITOARE.** Ingrijeste ranile, intepaturile de insecte, estompeaza cicatricile. Benefic pentru dezvoltarea scheletului, pentru organele auditive, regland cu precizie vibratiile sonore. Stimuleaza fertilitatea. Trateaza emfizemul, imflamatiile articulare si srtrita, bolile autoimune, ulcerul gastric si scleroza in placi.\
 \
@@ -902,9 +902,9 @@ ANUL NASTERII:** -**\
 TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** -**\
 PLANETA GUVERNATOARE sau dominanta:** -**\
-INFLUENTA NUMEROLOGICA:** pentru  cei nascuti sub influenta numarului 9**\
+INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 9**\
 ANIVERSARE:** -**\
-CHAKRE:**  1, 2, 3, 4\
+CHAKRE:** 1, 2, 3, 4\
 **PROFESII:** -
 
 **efecteLE asupra purtatorului:\
@@ -922,11 +922,11 @@ Este piatra dragostei, piatra a muzicienilor, dezvoltand talentele vocale\
 ***ASPECT:*** starlucitor, transparent daca este slefuit, opac in stare bruta; cristal mic fatetat !{width="1.3854166666666667in" height="1.3229166666666667in"}!{width="1.0520833333333333in" height="0.8333333333333334in"}!{width="0.6145833333333334in" height="0.6236111111111111in"}
 
 **CARACTERISTICI:** Excelenta piatra energetica. Confera vigoare, energizeaza si echilibreaza; stimuleaza uneori prea mult persoanele fragile sau iritabile. Promoveaza dragostea de viata, dar niciodata in mod distructiv. Mareste motivatia si permite fixarea unor obiective realiste.\
-         Stimuleaza chakra inimii si echilibreaza inima. Incurajeaza \"urmarirea fericirii extreme\". Scut puternic impotriva atacului psihic si a vampirizarii energiei inimii. Induce vise pozitive, clarifica viziunile, stimuleaza glanda pineala. Piatra a abundentei, ajuta la pastrarea bogatiei si apasiunii.\
-         In plan psihologic, rubinul aduce la suprafata mania sau energia negativa pentru a fi convertita. Incurajeaza eliminarea oricarui obstacol. Favorizeaza o conducere dinamica.\
-         In plan mental, rubinul induce o stare de spirit pozitiva si curajoasa. Sub influenta sa, mintea se deschide si are o capacitate de asimilare si concentrare mai mare. Datorita efectelor sale protectoare, va face mai puternici in cazul unor dispute sau controverse.\
-         Din punct de vedere emotional, rubinul este dinamic, alimenteaza pasiunea si starneste entuziasmul. Piatra sociabila, imbunatateste activitatea sexuala.\
-         In plan fizic, inlatura epuizarea si apatia si confera putere si vigoare. Pe de alta parte, calmeaza hiperactivitatea.\
+ Stimuleaza chakra inimii si echilibreaza inima. Incurajeaza \"urmarirea fericirii extreme\". Scut puternic impotriva atacului psihic si a vampirizarii energiei inimii. Induce vise pozitive, clarifica viziunile, stimuleaza glanda pineala. Piatra a abundentei, ajuta la pastrarea bogatiei si apasiunii.\
+ In plan psihologic, rubinul aduce la suprafata mania sau energia negativa pentru a fi convertita. Incurajeaza eliminarea oricarui obstacol. Favorizeaza o conducere dinamica.\
+ In plan mental, rubinul induce o stare de spirit pozitiva si curajoasa. Sub influenta sa, mintea se deschide si are o capacitate de asimilare si concentrare mai mare. Datorita efectelor sale protectoare, va face mai puternici in cazul unor dispute sau controverse.\
+ Din punct de vedere emotional, rubinul este dinamic, alimenteaza pasiunea si starneste entuziasmul. Piatra sociabila, imbunatateste activitatea sexuala.\
+ In plan fizic, inlatura epuizarea si apatia si confera putere si vigoare. Pe de alta parte, calmeaza hiperactivitatea.\
 \
 **EFECTE TAMADUITOARE.** Detoxifica corpul, sangele si limfa, reduce febra, trateaza bolile infectioase si imbunatateste circulatia sanguina. Foarte benefic pentru inima si sitemul circulator. Stimuleaza suprarenalele, rinichii, organele reproducatoare si splina.\
 \
@@ -978,14 +978,14 @@ Amplifica si imbunatateste viata sexuala**\
 ***ASPECT:*** stralucitor, transparent cand este slefuit\
 \
 **CARACTERISTICI.** Safirul este o piatra a intelepciunii, fiecare culoare posedand una particulara. Foclaizeaza si calmeaza mintea, alunga gandurile negative si tensiunea intelectuala. Conferind pace spiritului si serenitate, safirul aliniaza planurile fizice, mentale si spirituale si restabileste echilibrele in corp.\
-         Aceasta piatra inlatura depresia si confuzia spirtituala, stimuleaza concentrarea, aduce prosperitate si atrage toate harurile. Plasat pe gat, safirul alunga frustrarea imbunatateste exprimarea.\
+ Aceasta piatra inlatura depresia si confuzia spirtituala, stimuleaza concentrarea, aduce prosperitate si atrage toate harurile. Plasat pe gat, safirul alunga frustrarea imbunatateste exprimarea.\
 \
 **EFECTE TAMDUITOARE.** Calmeaza sitemul corporal hiperactiv si regleaza glandele. Ingrijeste ochii, indepartand impuritatile si eliminand stresul. Trateaza tulburarile hematologice, opreste samgerarile abundente, fortifica venele si creste elasticitatea acestora.\
 \
 **POZITIONARE:** In contact cu corpul. Purtatil pe degent *(inel)* sau plasati-l unde este nevoie.\
 \
 \
-      **[CULORI SPECIFICE]{.underline}**\
+ **[CULORI SPECIFICE]{.underline}**\
 Fiecare culoare poseda proprietati particulare, in afara caracterisiticilor generice:\
 \
 **Safirul negru** este protector si centrator. Da incredere in propria intuitie. Aceasta piatra va ajuta sa va gasiti si sa va pastrati locul de munca.\
@@ -1048,15 +1048,15 @@ Se spune ca protejeaza de orbire si surzenie\
 ***ASPECT:*** cu benzi, opac\
 \
 **CARACTERISTICI.** Piatra de forta si protectie. Evoca cautarea unei existente care au sens, favorizeaza integritatea si conduita virtuoasa.\
-         Aduce o fericire durabila, confera stabilitate in casnicie si parteneriate, atrage prietenii si norocul. Poate servi la crearea de retele de aparare in jurul casei si al gradinii. Cate un cristal de sardonix ar trebui sa fie plasat in toate colturile casei, la usi si la ferestre. Un radiestezist va va indica locul potrivit.\
-         In plan psihologic, mareste vointa si fortifica caracterul. Creste vigoarea, robustetea si stapanirea de sine. Alunga depresia si ezitarile. In plan mental, imbunatateste perceptia, faciliteaza procesul de osmoza si procesarea informatiei.\
+ Aduce o fericire durabila, confera stabilitate in casnicie si parteneriate, atrage prietenii si norocul. Poate servi la crearea de retele de aparare in jurul casei si al gradinii. Cate un cristal de sardonix ar trebui sa fie plasat in toate colturile casei, la usi si la ferestre. Un radiestezist va va indica locul potrivit.\
+ In plan psihologic, mareste vointa si fortifica caracterul. Creste vigoarea, robustetea si stapanirea de sine. Alunga depresia si ezitarile. In plan mental, imbunatateste perceptia, faciliteaza procesul de osmoza si procesarea informatiei.\
 \
 **EFECTE TAMADUITOARE.** Vindeca plamanii si oasele, resensibilizeaza organle de simt. Regleaza metabolismul fluidelor si celulelor, fortifica sistemul imunitar, creste absorbita substantelor nutritive si favorizeaza excretia.\
 \
 **POZITIONARE.** peste tot mai ales pe stomac.\
 \
 \
-         **[CULORI SPECIFICE]{.underline}**\
+ **[CULORI SPECIFICE]{.underline}**\
 \
 **Sardonixul negru** absoarbe negativitatea.\
 **Sardonixul brun** ancoreaza energia.\
@@ -1131,14 +1131,14 @@ Bun pentru gimnasti (confera [flexibilitate](javascript:void(0)))\
 
 ***[SERPENTINA]{.underline}***
 
-Serpentine este de banded şi, de obicei de o culoare gri-verzui. Serpentine ajută să se diferenţieze şi să găsească pacea interioară. El este, de asemenea, o piatră excelent meditaţie. Aceasta Evens out modificări ale dispoziţiei, calmeaza si face (), uneori, un pic prea dispus să facă un compromis. Fizic, îi ajută cu rinichi şi de stomac plângeri, Herzrhythmusstoerungen, ameliorează disconfort menstrual şi-a antispastice. Serpentine este de a fi purtat direct pe piele.
+Serpentine este de banded și, de obicei de o culoare gri-verzui. Serpentine ajută să se diferențieze și să găsească pacea interioară. El este, de asemenea, o piatră excelent meditație. Aceasta Evens out modificări ale dispoziției, calmeaza si face (), uneori, un pic prea dispus să facă un compromis. Fizic, îi ajută cu rinichi și de stomac plângeri, Herzrhythmusstoerungen, ameliorează disconfort menstrual și-a antispastice. Serpentine este de a fi purtat direct pe piele.
 
 !{width="1.3541666666666667in" height="1.0208333333333333in"}!{width="2.3958333333333335in" height="1.7965277777777777in"}
 
 !{width="2.316666666666667in" height="1.6618055555555555in"}**SMARALD\
 Culoare**: verde intens până la verde închis. Culoarea este dată de conținutul de crom și vanadiu.
 
-**Formula chimică**: Al~2~Be~3~Si~6~O~18~, cu ioni de Cr^3+^ și V.
+**Formula chimică**: Al~2~Be~3~Si~6~O~18~, cu ioni de Cr^3+^ și V.
 
 **Aspect**: piatră prețioasă strălucitoare mică sau cristal opac.
 
@@ -1210,7 +1210,7 @@ Atenție!!!
 
 - smaraldul opac nu este benefic pentru obținerea armoniei mentale.
 
-- poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia = verdelit, Smaraldul african = fluorit verde,  Smaraldul de cupru = diopsid.
+- poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia = verdelit, Smaraldul african = fluorit verde, Smaraldul de cupru = diopsid.
 
 []{.underline}
 
@@ -1228,7 +1228,7 @@ Atenție!!!
 
 []{.underline}
 
-      Combina logica si intuitia si activeaza perceptia spirituala, aducand informatiile din mintea superioara la nivel fizic. Stimuleaza epifiza si al treilea ochi, adancind meditatia. Intrata intr-o stare de meditatie datorita sodalitului, mintea permite intelegerea circumstantelor.
+ Combina logica si intuitia si activeaza perceptia spirituala, aducand informatiile din mintea superioara la nivel fizic. Stimuleaza epifiza si al treilea ochi, adancind meditatia. Intrata intr-o stare de meditatie datorita sodalitului, mintea permite intelegerea circumstantelor.
 
 **SODALIT**
 
@@ -1249,7 +1249,7 @@ ANUL NASTERII:** - **\
 PLANETA GUVERNATOARE sau dominanta:** -**\
 INFLUENTA NUMEROLOGICA:** pentru cei nascuti sub influenta numarului 4\
 **ANIVERSARE:** -**\
-CHAKRE:**  5, 6, 7\
+CHAKRE:** 5, 6, 7\
 **ALTELE:** Piatra nationala a Canadei
 
 **efecteLE asupra purtatorului:\
@@ -1643,7 +1643,7 @@ Luciu:** sticlos, rasinos**\
 Avertisment:** turmalina verde e recomandabila numai barbatilor, femeile ar trebui sa poarte turmalina roz. Turmalina roz aduce echilibru femeii iar turmalina verde aduce echilibru barbatului.
 
 **Piatra recomandata pentru:\
-ZODIILE:** Taur si  Fecioara (toate), Sagetator (galben), Balanta si Taur (albastra), Scorpion si Capricorn (neagra)**\
+ZODIILE:** Taur si Fecioara (toate), Sagetator (galben), Balanta si Taur (albastra), Scorpion si Capricorn (neagra)**\
 LUNA DE NASTERE**: Octombrie**\
 TALISMAN NOROCOS:** -**\
 ZIUA DE NASTERE:** -**\
@@ -1727,7 +1727,7 @@ Sanatate: benefic in cazuri de gonoree, tensiune, crampe menstruale, infertilita
 
 **TURMALINA VERDE \[verdelit, smarald siberian, safir brazilian\]**
 
-!{width="1.5625in" height="1.0833333333333333in"}!{width="1.0in" height="0.8333333333333334in"}!{width="0.9895833333333334in" height="0.8333333333333334in"}** ** !{width="1.6145833333333333in" height="1.1354166666666667in"}!{width="1.5625in" height="1.073611111111111in"}
+!{width="1.5625in" height="1.0833333333333333in"}!{width="1.0in" height="0.8333333333333334in"}!{width="0.9895833333333334in" height="0.8333333333333334in"}** ** !{width="1.6145833333333333in" height="1.1354166666666667in"}!{width="1.5625in" height="1.073611111111111in"}
 
 **INFORMATII\
 Culori:** verde transparent**\
@@ -1807,31 +1807,31 @@ Se cauta punctul de pornire al afectiunii si abia apoi se folosesc pietrele", sp
 **Semnificatia pietrelor pretioase si a cristalelor -- Ce piatra ne reprezinta**
 
 Pietrele pretioase, cele semipretioase si cristalele trimit o vibratie specifica ce intra in rezonanta cu persoana care le poarta. De aceea aceste pietre sunt folosite adesea in [tratamente](javascript:void(0)) pentru efectele lor benefice asupra organismului uman. Desigur de-a lungul timpului pietrele pretioase au fost folosite si pentru amulete si talismane, in practicarea magiei, dar si in astrologie, fiecarei zodii revenindu-i o piatra pretioasa.\
--    [Ametistul]{.underline} este o piatra pretioasa de culoare violet, considerata a fi simbol al modestiei, al intelepciunii si spiritualitatii, are puteri tamaduitoare intarind sistemul imunitar. Ea creeaza legatura cu intuitia si cu puterea de autovindecare. Este eficienta mai cu seama impotriva insomniei, nelinistii interne si fricii. Aceasta piatra ar trebui recomandata alcoolicilor ca sa nu se mai imbete niciodata, caci se pare ca ea are proprietatea de a impiedica betia daca este pusa in paharul cu bautura. In [plus,](javascript:void(0))
+- [Ametistul]{.underline} este o piatra pretioasa de culoare violet, considerata a fi simbol al modestiei, al intelepciunii si spiritualitatii, are puteri tamaduitoare intarind sistemul imunitar. Ea creeaza legatura cu intuitia si cu puterea de autovindecare. Este eficienta mai cu seama impotriva insomniei, nelinistii interne si fricii. Aceasta piatra ar trebui recomandata alcoolicilor ca sa nu se mai imbete niciodata, caci se pare ca ea are proprietatea de a impiedica betia daca este pusa in paharul cu bautura. In [plus,](javascript:void(0))
 
 [protejeaza contra farmecelor daca se graveaza pe ea soarele si luna.\
--   ](javascript:void(0)) [Diamantul]{.underline}, regele pietrelor, il gasim in mai multe culori incepand cu alb, roz si terminand cu negru. Este piatra cea mai ravnita de femei din cele mai vechi timpuri, simbol al perfectiunii, durabilitatii, acesta protejeaza integritatea familiei, protejand-o de desfrau. Ea ne poate ajuta sa ne gasim directia in viata si ne intareste curajul. El da [facultatea](javascript:void(0)) de a-i intelege pe ceilalti, pornind de la perfecta cunoastere de sine.\
--    [Perlele]{.underline}, simbol al feminitatii, fertilitatii, al casatoriei si iubirii, pot fi alegerea perfecta in materie de bijuterii pentru nunta. Paleta de culori este variata, cele mai intalnite fiind perlele albe, dar si cele crem, roz, gri au un farmec aparte, putand intregi cu succes toaleta de nunta. Perla triumfa asupra ostilitatii, a urmarilor rele si este remediul pentru speranta si forta interioara. Atunci când isi pierde luciul, fortele acestea interne sunt si ele iremediabil pierdute. Perla, reprezinta o renastere psihologica care protejeaza contra tuturor relelor, chiar a nebuniei.\
--    [Turcoazele]{.underline}, pietre semipretioase, de culoare albastru-verde intens, sunt asociate cu un temperament mai navalnic, cu un caracter puternic, simbolizand puterea soarelui si a focului.\
--    [Turcoaza]{.underline} sau peruzeaua, de culoare bleu, este un simbol de victorie si de longevitate. Este indicat sa-l oferim persoanelor in varsta.\
--    [Rubinul]{.underline} este piatra pasiunii, a iubirii, datorita culorii ei sangerii fiind folosita in homeopatie in tratarea bolilor de sange. Rubinul, anunta o iubire pasionata, fidela si sigura. In antichitate, potrivit lui Portal, rubinul era considerat ca emblema a fericirii. Daca-si schimba culoarea era o prevestire rea si nu-si mai recapata culoarea rosie decat dupa trecerea nenorocirii. Are o actiune benefica deosebita asupra plamanilor si gatului. Deoarece contine cupru, puterile sale vindecatoare sunt neobisnuite. Le este de mare folos persoanelor timide atunci când ies in lume, precum si celor cu slabiciune psihica si fizica.\
--    [Safirul]{.underline} sau piatra azurie, este piatra cerului, simbol al sperantei, curajului, bucuriei si vitalitatii. Este numita si ‚piatra controlului' este eficienta impotriva tentatilor marunte si poarta gândurile spre sfere mai inalte. Safirul stelar are o semnificatie deosebita, pentru ca el ii dirijeaza pe calea cea buna pe oameni ale caror nazuinte ar putea fi puse in slujba intregii lumi. Safirul, vindeca bolile de ochi si este un talisman contra deochiului, a razbunarii si vrajilor. Safirul indeamna la meditatie si permite o iubire spiritualizata si tandra.\
--    [Smaraldul]{.underline} este o piatra fascinanta, de culoare verde intens, considerat unul dintre cele mai puternice talismanuri, simbolizand rodnicia, nemurirea si clarviziunea. Piatra iubiri adevarate poate clarifica relatia de cuplu, in sensul dorit sau nedorit. Ea confera forta spirituala, vindeca congestiile, creeaza liniste interioara si echilibru. Smaraldul, permite toate sperantele. Verde si translucid, este emblema sperantei, are putere regeneratoare de fertilitate si de iubire. El este recomandat femeilor care doresc sa devina mame.\
--    [Acvamarina]{.underline} este o piatra de apa ce ne poate ajuta impotriva raului de mare si a tulburarilor de mictiune \[urina\], dar se pare ca purifica si apa. Inlatura proasta dispozitie si promoveaza gândirea libera.\
--    [Coralul]{.underline} ajuta la digestie, alina durerile de cap, vindeca afectiunile cavitatii bucale, promoveaza constiinta de sine si asigura echilibrul sentimental. Coralul, are puterea de indepartare a fulgerului si proprietatea de a opri hemoragiile. Coralul portocaliu este o garantie de iubire care aduce fericirea. Coralul negru semnaleaza renuntarea la un amor, sau o dragoste mai mult sau mai putin fericita.\
--    [Cunzita]{.underline} este o piatra a fost descoperita abia in anul 1902. Culoarea roz saturat ajuta mai ales in suferintele femeilor, cauzate de neacceptarea feminitatii, dar este de folos si acelor femei care n-o scot la capat cu toate aspectele sexualitatii. Piatra calmeaza, vindeca si ne sporeste increderea in [noi](javascript:void(0)) insine.\
--    [Cuartul]{.underline} are forme transparente, ca de pilda cristalul de stânca care stimuleaza calitatile barbatesti, in vreme ce speciile laptoase, opace, poseda puteri femeiesti. Daca nu va puteti impaca cu nedreptatile vietii, alegeti pietrele transparente. Daca aveti nevoie de liniste si intelegere, alegeti-le pe cele opace. Cuartul trandafiriu este blând si ajuta la domolirea emotilor puternice, de exemplu dupa o ruptura survenita intre doua persoane.\
--    [Hematita]{.underline}, dupa cum arata si numele, piatra aceasta are o actiune benefica in cazul bolilor sângelui, cum ar fi dereglarile menstruale sau hemoragiile nazale. Ea ajuta la primenirea sângelui si ne invata, sa fim mai siguri pe noi si mai calmi atunci când dam de greutati.\
--    [Granatul]{.underline}, are o actiune benefica in sfera problemelor sexuale. El poate schimba si excitabilitatea exagerata, dar si lipsa interesului sexual. Confera siguranta de sine si reglementeaza tensiunea arteriala.\
--    [Lapislazuli]{.underline}. In antichitate era considerata ‚piatra regeasca' culoarea sa albastra aurie era cuplata cu talentul vizionar, el creând legatura dintre lumea noastra si lumea umbrelor. Preoti isi fardau pleoapele cu lapislazuli pisat si il purtau sub forma de podoabe. Aceasta piatra le este de folos tuturor celor care asteapta o usurare sau celor introdusi intr-o religie.\
--    [Opalul]{.underline}. S-au spus multe lucruri rele despre aceasta piatra, unii cred ca aduce ghinion. Cu opalul trebuie umblat cu mare atentie, pentru ca se cojeste usor. Este o piatra de apa si-ar trebui inmuiat cât mai des in apa rece si expus la lumina lunii. Opalele reimprospateaza energiile spirituale si fizice. Opalul, are un atribut nefast. El are mai multe reflexe de toate felurile de culori.\
--    [Turmalinul]{.underline} este o piatra care se opune oricarui tip de negativism. Este permeabil, atât in sens fizic, cât si psihic. Frumusetea sa este un sprijin la nastere si decese, la vârsta menopauzei si in alte stari de tranzitiie.\
--    [Agatul]{.underline}, de diferite culori, este un semn de respect, de bogatie si de putere de decizie.\
--    [Cristalul]{.underline}, reprezinta o stare de evolutie interesanta. El permite prezicerea, puterea de a ghici, dar nu are siguranta si forta diamantului. Fata de diamant, el reprezinta o stare de lipsa de maturitate. Cristalul transmite fortele favorabile ceresti.\
--    [Topazul]{.underline}, anunta iubirea unui barbat curajos, credincios, pios, si cu o avere bine consolidata.\
--    [Jadul]{.underline}, ca si aurul, este incarcat de energie cosmica si are proprietatea de a proteja, ca un talisman. El este simbolul functiei regale si nimic nu poate face ca cel care-l poarta sa fie parasit de noroc.\
--    [Jaisul]{.underline}, este o piatra neagra care anunta regrete, caci culoarea neagra este un simbol de renuntare. Jaisul protejeaza contra farmecelor. In timpurile vechi, cand soldatii plecau la razboi, femeile ardeau jais pentru a-i feri de nenorocire si pentru a se asigura de fidelitatea lor.\
--    [Chihlimbarul]{.underline}, anunta noroc femeii si este un semn negativ pentru barbat. El poate de asemenea anunta o casatorie.
+- ](javascript:void(0)) [Diamantul]{.underline}, regele pietrelor, il gasim in mai multe culori incepand cu alb, roz si terminand cu negru. Este piatra cea mai ravnita de femei din cele mai vechi timpuri, simbol al perfectiunii, durabilitatii, acesta protejeaza integritatea familiei, protejand-o de desfrau. Ea ne poate ajuta sa ne gasim directia in viata si ne intareste curajul. El da [facultatea](javascript:void(0)) de a-i intelege pe ceilalti, pornind de la perfecta cunoastere de sine.\
+- [Perlele]{.underline}, simbol al feminitatii, fertilitatii, al casatoriei si iubirii, pot fi alegerea perfecta in materie de bijuterii pentru nunta. Paleta de culori este variata, cele mai intalnite fiind perlele albe, dar si cele crem, roz, gri au un farmec aparte, putand intregi cu succes toaleta de nunta. Perla triumfa asupra ostilitatii, a urmarilor rele si este remediul pentru speranta si forta interioara. Atunci când isi pierde luciul, fortele acestea interne sunt si ele iremediabil pierdute. Perla, reprezinta o renastere psihologica care protejeaza contra tuturor relelor, chiar a nebuniei.\
+- [Turcoazele]{.underline}, pietre semipretioase, de culoare albastru-verde intens, sunt asociate cu un temperament mai navalnic, cu un caracter puternic, simbolizand puterea soarelui si a focului.\
+- [Turcoaza]{.underline} sau peruzeaua, de culoare bleu, este un simbol de victorie si de longevitate. Este indicat sa-l oferim persoanelor in varsta.\
+- [Rubinul]{.underline} este piatra pasiunii, a iubirii, datorita culorii ei sangerii fiind folosita in homeopatie in tratarea bolilor de sange. Rubinul, anunta o iubire pasionata, fidela si sigura. In antichitate, potrivit lui Portal, rubinul era considerat ca emblema a fericirii. Daca-si schimba culoarea era o prevestire rea si nu-si mai recapata culoarea rosie decat dupa trecerea nenorocirii. Are o actiune benefica deosebita asupra plamanilor si gatului. Deoarece contine cupru, puterile sale vindecatoare sunt neobisnuite. Le este de mare folos persoanelor timide atunci când ies in lume, precum si celor cu slabiciune psihica si fizica.\
+- [Safirul]{.underline} sau piatra azurie, este piatra cerului, simbol al sperantei, curajului, bucuriei si vitalitatii. Este numita si ‚piatra controlului' este eficienta impotriva tentatilor marunte si poarta gândurile spre sfere mai inalte. Safirul stelar are o semnificatie deosebita, pentru ca el ii dirijeaza pe calea cea buna pe oameni ale caror nazuinte ar putea fi puse in slujba intregii lumi. Safirul, vindeca bolile de ochi si este un talisman contra deochiului, a razbunarii si vrajilor. Safirul indeamna la meditatie si permite o iubire spiritualizata si tandra.\
+- [Smaraldul]{.underline} este o piatra fascinanta, de culoare verde intens, considerat unul dintre cele mai puternice talismanuri, simbolizand rodnicia, nemurirea si clarviziunea. Piatra iubiri adevarate poate clarifica relatia de cuplu, in sensul dorit sau nedorit. Ea confera forta spirituala, vindeca congestiile, creeaza liniste interioara si echilibru. Smaraldul, permite toate sperantele. Verde si translucid, este emblema sperantei, are putere regeneratoare de fertilitate si de iubire. El este recomandat femeilor care doresc sa devina mame.\
+- [Acvamarina]{.underline} este o piatra de apa ce ne poate ajuta impotriva raului de mare si a tulburarilor de mictiune \[urina\], dar se pare ca purifica si apa. Inlatura proasta dispozitie si promoveaza gândirea libera.\
+- [Coralul]{.underline} ajuta la digestie, alina durerile de cap, vindeca afectiunile cavitatii bucale, promoveaza constiinta de sine si asigura echilibrul sentimental. Coralul, are puterea de indepartare a fulgerului si proprietatea de a opri hemoragiile. Coralul portocaliu este o garantie de iubire care aduce fericirea. Coralul negru semnaleaza renuntarea la un amor, sau o dragoste mai mult sau mai putin fericita.\
+- [Cunzita]{.underline} este o piatra a fost descoperita abia in anul 1902. Culoarea roz saturat ajuta mai ales in suferintele femeilor, cauzate de neacceptarea feminitatii, dar este de folos si acelor femei care n-o scot la capat cu toate aspectele sexualitatii. Piatra calmeaza, vindeca si ne sporeste increderea in [noi](javascript:void(0)) insine.\
+- [Cuartul]{.underline} are forme transparente, ca de pilda cristalul de stânca care stimuleaza calitatile barbatesti, in vreme ce speciile laptoase, opace, poseda puteri femeiesti. Daca nu va puteti impaca cu nedreptatile vietii, alegeti pietrele transparente. Daca aveti nevoie de liniste si intelegere, alegeti-le pe cele opace. Cuartul trandafiriu este blând si ajuta la domolirea emotilor puternice, de exemplu dupa o ruptura survenita intre doua persoane.\
+- [Hematita]{.underline}, dupa cum arata si numele, piatra aceasta are o actiune benefica in cazul bolilor sângelui, cum ar fi dereglarile menstruale sau hemoragiile nazale. Ea ajuta la primenirea sângelui si ne invata, sa fim mai siguri pe noi si mai calmi atunci când dam de greutati.\
+- [Granatul]{.underline}, are o actiune benefica in sfera problemelor sexuale. El poate schimba si excitabilitatea exagerata, dar si lipsa interesului sexual. Confera siguranta de sine si reglementeaza tensiunea arteriala.\
+- [Lapislazuli]{.underline}. In antichitate era considerata ‚piatra regeasca' culoarea sa albastra aurie era cuplata cu talentul vizionar, el creând legatura dintre lumea noastra si lumea umbrelor. Preoti isi fardau pleoapele cu lapislazuli pisat si il purtau sub forma de podoabe. Aceasta piatra le este de folos tuturor celor care asteapta o usurare sau celor introdusi intr-o religie.\
+- [Opalul]{.underline}. S-au spus multe lucruri rele despre aceasta piatra, unii cred ca aduce ghinion. Cu opalul trebuie umblat cu mare atentie, pentru ca se cojeste usor. Este o piatra de apa si-ar trebui inmuiat cât mai des in apa rece si expus la lumina lunii. Opalele reimprospateaza energiile spirituale si fizice. Opalul, are un atribut nefast. El are mai multe reflexe de toate felurile de culori.\
+- [Turmalinul]{.underline} este o piatra care se opune oricarui tip de negativism. Este permeabil, atât in sens fizic, cât si psihic. Frumusetea sa este un sprijin la nastere si decese, la vârsta menopauzei si in alte stari de tranzitiie.\
+- [Agatul]{.underline}, de diferite culori, este un semn de respect, de bogatie si de putere de decizie.\
+- [Cristalul]{.underline}, reprezinta o stare de evolutie interesanta. El permite prezicerea, puterea de a ghici, dar nu are siguranta si forta diamantului. Fata de diamant, el reprezinta o stare de lipsa de maturitate. Cristalul transmite fortele favorabile ceresti.\
+- [Topazul]{.underline}, anunta iubirea unui barbat curajos, credincios, pios, si cu o avere bine consolidata.\
+- [Jadul]{.underline}, ca si aurul, este incarcat de energie cosmica si are proprietatea de a proteja, ca un talisman. El este simbolul functiei regale si nimic nu poate face ca cel care-l poarta sa fie parasit de noroc.\
+- [Jaisul]{.underline}, este o piatra neagra care anunta regrete, caci culoarea neagra este un simbol de renuntare. Jaisul protejeaza contra farmecelor. In timpurile vechi, cand soldatii plecau la razboi, femeile ardeau jais pentru a-i feri de nenorocire si pentru a se asigura de fidelitatea lor.\
+- [Chihlimbarul]{.underline}, anunta noroc femeii si este un semn negativ pentru barbat. El poate de asemenea anunta o casatorie.
 
 Iata si semnificatia culorilor care sa va ajute in decizia finala in alegerea pietrei care sa va reprezinte:\
 - alb: puritate, virtute, albastru-fericire, nemarginire\
@@ -1846,63 +1846,63 @@ Cristalele vindecatoare
 
 !{width="0.20833333333333334in" height="0.15625in"}Oana Hanganu
 
- 
+
 
 **Alegerea unei bijuterii care contine cristalul potrivit va poate ajuta sa aveti mai mult succes in viata si sa va bucurati de o buna stare de sanatate. Elimina blocajele aparute la nivelul centrilor energetici si asigura buna functionare a „chakrelor\".**
 
- 
+
 
 Potrivit yoghinilor, energia Universului sustine toate procesele vitale si patrunde in corpul nostru prin „chakre\" (centri energetici). Cuvantul „chakra\" provine din limba sanscrita si inseamna „vartej\" sau „roata\". In cartea lor, „Centrii subtili de forta\", Shalila Sharamon si Bodo J. Baginski descriu chakrele intr-un mod foarte sugestiv: acestea au forma de palnie de floare, iar nervurile petalelor sunt canale prin care patrunde energia cosmica.
 
- 
+
 
 „Din centrul fiecarei cupe de floare porneste un alt canal care se aseamana cu tija florii indreptandu-se catre coloana vertebrala si patrunzand direct in aceasta\". Scrierile sanscrite vorbesc despre existenta unui numar de 88.000 de chakre, dar cele mai importante sunt in numar de 7 si se afla intr-o permanenta miscare rotativa, de unde si numele.
 
- **Chakrele: centri energetici**\
+ **Chakrele: centri energetici**\
 In cartea amintita mai sus, se spune: „Chakrele celor mai multi dintre noi au un diametru de cca. 10 cm si in fiecare astfel de centru energetic sunt prezente toate vibratiile coloristice, insa dominanta ramane o culoare care corespunde rolului principal al chakrelor\". In cazul unui om e voluat spiritual, chakrele se dilata, frecventa vibratiilor sporeste, iar culorile corespunzatoare devin mai clare. De buna functionare a chakrelor depinde starea de sanatate a intregului organism. Pentru deblocarea chakrelor exista mai multe metode, printre care: meditatia, terapia prin sunete, terapia prin culori, terapia prin cristale. La aceasta din urma ne vom referi in randurile de mai jos.
 
- **Sistemul chakrelor si cristalele**\
+ **Sistemul chakrelor si cristalele**\
 Eliminarea blocajelor de la nivelul chakrelor se realizeaza prin aplicarea unui cristal pe locul corespunzator centrului energetic. Cristalul va fi lasat sa actioneze cel putin 30 de minute, timp in care „pacientul\" trebuie sa se relaxeze, sa vizualizeze culoarea corespunzatoare chakrei si sa lase energiile cosmice sa actioneze.
 
- Primul centru energetic este „chakra-radacina\", care se afla la baza coloanei vertebrale si are culoarea rosie. „Guverneaza\" glandele suprarenale care produc adrenalina si ajuta organismul sa raspunda la stimulii exteriori si, in acelasi timp, mentin echilibrul termic al corpului. Hematita, coralul, granatul si rubinul sunt cristalele recomandate pentru de blocarea chakrei - radacina. Al doilea centru energetic, „chakra sacrala\" sau „pelviana\" se afla sub buric si are culoare portocalie.
+ Primul centru energetic este „chakra-radacina\", care se afla la baza coloanei vertebrale si are culoarea rosie. „Guverneaza\" glandele suprarenale care produc adrenalina si ajuta organismul sa raspunda la stimulii exteriori si, in acelasi timp, mentin echilibrul termic al corpului. Hematita, coralul, granatul si rubinul sunt cristalele recomandate pentru de blocarea chakrei - radacina. Al doilea centru energetic, „chakra sacrala\" sau „pelviana\" se afla sub buric si are culoare portocalie.
 
- „Guverneaza\" glandele sexuale si influenteaza buna functionarea a rinichilor. Cristalele corespunzatoare acesteia sunt carneolul si „Piatra Lunii\". Al treilea centru energetic, „chakra plexului solar\", se afla sub stern si are culoarea galbena. „Guverneaza\" pancreasul, ficatul si sistemul digestiv, iar cristalele corespunzatoare sunt: citrinul, chihlimbarul si topazul. A patra chakra, cea a inimii, este localizata in centrul pieptului si are culoarea verde sau roz. Guverneaza timusul si sistemul circulator.
+ „Guverneaza\" glandele sexuale si influenteaza buna functionarea a rinichilor. Cristalele corespunzatoare acesteia sunt carneolul si „Piatra Lunii\". Al treilea centru energetic, „chakra plexului solar\", se afla sub stern si are culoarea galbena. „Guverneaza\" pancreasul, ficatul si sistemul digestiv, iar cristalele corespunzatoare sunt: citrinul, chihlimbarul si topazul. A patra chakra, cea a inimii, este localizata in centrul pieptului si are culoarea verde sau roz. Guverneaza timusul si sistemul circulator.
 
- Cristalele corespunzatoare sunt: smaraldul, kunzitul, jadul si turmalinul. Al cincilea centru energetic, „chakra gatului\" are culoarea albastra si „guverneaza\" tiroida, iar cristalele corespunzatoare sunt: acvamarinul, calcedonia si turcoazul. A sasea chakra, cea frontala, se numeste si „chakra celui de-al treilea ochi\". Are culoarea violet si „guverneaza\" hipofiza.
+ Cristalele corespunzatoare sunt: smaraldul, kunzitul, jadul si turmalinul. Al cincilea centru energetic, „chakra gatului\" are culoarea albastra si „guverneaza\" tiroida, iar cristalele corespunzatoare sunt: acvamarinul, calcedonia si turcoazul. A sasea chakra, cea frontala, se numeste si „chakra celui de-al treilea ochi\". Are culoarea violet si „guverneaza\" hipofiza.
 
- Ametistul este cristalul corespunzator, dar pot fi utilizati pentru deblocarea acestui centru si safirul sau sodalitul. „Chakra coroana\" este cel de al saptelea centru energetic si se afla in crestetul capului. Este alb-aurie, cu irizari violete, „guverneaza\" epifiza, iar pentru deblocarea ei se folosesc cristalul de stanca si ametistul.
+ Ametistul este cristalul corespunzator, dar pot fi utilizati pentru deblocarea acestui centru si safirul sau sodalitul. „Chakra coroana\" este cel de al saptelea centru energetic si se afla in crestetul capului. Este alb-aurie, cu irizari violete, „guverneaza\" epifiza, iar pentru deblocarea ei se folosesc cristalul de stanca si ametistul.
 
- 
+
 
 **Purificarea cristalelor**\
 Cristalele inmagazineaza energie din mediul inconjurator. Inainte de a folosi un cristal in scop terapeutic sau doar estetic (sub forma unei bijuterii) trebuie sa il purificati. Lasati-l peste noapte in apa curata in care ati dizolvat sare marina. Pentru a-l energiza, lasati-l apoi in lumina soarelui, de la primii zori, pana la amiaza.
 
- **Puterea cristalelor**
+ **Puterea cristalelor**
 
- ***Ametist si cristal de stanca*\
+ ***Ametist si cristal de stanca*\
 ■ Ametistul.** Culoarea sa, in nuante de la purpuriu pana la violet profund, are cea mai inalta vibratie, fiind recomandat in meditatii, deoarece ajuta la deschiderea „celui de al treilea ochi\", stimuland intuitia, capacitatea de intelegere a tot ce ne inconjoara si de acceptare a legilor Universului. Aduce armonie interioara si incredere in fortele proprii. Crestinii il asociaza cu lumina divina a lui Hristos, iar tibetanii considera ca este „piatra lui Budha\".\
 **■ Cristalul de stanca** aduce lumina in suflet, restabileste echilibrul emotional, stimuleaza memoria, capacitatea de inmagazinare a cunostintelor si toate procesele de invatare. In cartea sa „Copiii indigo. Cum sa-i hranim si sa-i ingrijim\", Doreen Virtue recomanda parintilor sa aseze un cristal alb in camera copiilor pentru inlaturarea energiilor negative.
 
- ***Cristale rosii, galbene, aurii-portocalii***\
+ ***Cristale rosii, galbene, aurii-portocalii***\
 **■ Agata rosie** este recomandata femeilor insarcinate pentru ca ofera protectie atat viitoarelor mame, cat si copiilor. Acelasi efect il are si coralul. In plus, indiferent de purtator, coralul da un plus de energie si vitalitate deoarece stimuleaza circulatia sangvina.\
 **■ Piatra Lunii.** In Arabia, „selenitul\" este un simbol al fertilitatii, iar in India, se spune ca pastreaza puterea astrului noptii, amplificand intuitia si puterea de descifrare a viselor. Piatra Lunii echilibreaza sistemul hormonal, iar in plan emotional, anuleaza teama de sentimente si implicare in relatii afective.\
 **■ Chihlimbarul** imbunatateste activitatea ficatului si cea a sistemului digestiv, purifica organismul si imbunatateste vederea. Citrinul previne aparitia diabetului, deoarece stimuleaza activitatea pancreasului, care secreta insulina, cu rol hotarator in metabolismul hidrocarburilor si mentinerea nivelului echilibrat al zaharului din sange.
 
- ***Cristale verzi si albastre***\
+ ***Cristale verzi si albastre***\
 **■ Smaraldu**l este considerat „piatra iubirii univerale\". La fel ca si jadul, smaraldul echilibreaza chakra inimii, asigurand buna functionare a sistemului cardio-vascular. Se spune ca aceasta chakra este „poarta catre suflet\" si daca ea functioneaza corect, omul devine un adevarat purtator si transmitator al iubirii divine.\
 **■ Acvamarinul,** asemeni calcedoniei, favorizeaza cunoasterea de sine, ca o conditie esentiala pentru exprimarea adevaratei personalitati. Persoana care poarta acvamarin reuseste sa se „debaraseze\" de trecut si sa isi vindece ranile sufletesti.\
 **■ Turcoazul** este unul dintre cristalele care echilibreaza chakra gatului. Daca acest centru energetic este blocat, omul are dificultati in a se exprima, in a comunica si relationa cu cei din jur. Turcoazul poate sa il ajute pe purtator sa „se deschida\" catre lume. Este o piatra a norocului si a succesului pe toate planurile.\
 **■ Safirul albastru** ajuta la deschiderea „celui de al treilea ochi\". Acest centru energetic este sediul fortei spirituale, al memoriei, al vointei, la gandirii rationale, dar si al intuitiei. La fel ca si sodalitul, safirul albastru trateaza tulburarile de vedere, imbunatateste memoria, capacitatea de sinteza si de analiza a informatiilor.
 
-**Cristalele :** pietrele semi sau preţioase, specialişti sunt de părere că pietrele preţioase trebuie primite în dar sau găsite de noi înşine. Imediat ce aţi intrat în posesia unei astfel de piatră, trebuie s-o curăţaţi lăsând-o sa stea 30-70 de ore într-un vas cu apă de mare sau apă în care s-a pus sare de mare. Mai târziu trebuie curăţată o dată la câteva săptămâni. Piatra trebuie expusă la soare , pietrele ‚opale' trebuiesc expuse la lumina lunii în nopţile cu clar de lună. Prin acest mod ele îşi reîmprospătează puterea necontenit. Piatra trebuie ţinută mai tot timpul asupra noastră.
+**Cristalele :** pietrele semi sau prețioase, specialiști sunt de părere că pietrele prețioase trebuie primite în dar sau găsite de noi înșine. Imediat ce ați intrat în posesia unei astfel de piatră, trebuie s-o curățați lăsând-o sa stea 30-70 de ore într-un vas cu apă de mare sau apă în care s-a pus sare de mare. Mai târziu trebuie curățată o dată la câteva săptămâni. Piatra trebuie expusă la soare , pietrele ‚opale' trebuiesc expuse la lumina lunii în nopțile cu clar de lună. Prin acest mod ele își reîmprospătează puterea necontenit. Piatra trebuie ținută mai tot timpul asupra noastră.
 
 Remediile propuse de sanatateverde.ro se bazeaza in general pe plante medicinale si aromatice aflate practic la indemana oricui. In paginile ce urmeaza sunt expuse principii catre o viata mai sanatoase, diete si cure de slabire recomandate de specialisti in domeniu, de obicei cu rezultate **garantate,** precum si reguli pentru o alimentatie sanatoasa.\
 Credem cu adevarat ca acest site poate fi de un real folos tuturor celor care sunt interesati de medicina naturista, de plantele medicinale si efectele benefice ale acestora asupra corpului, cel putin o parte dintre dumneavoastra.\
 Va invitam sa cercetati paginile site-ului nostru in speranta ca ve-ti gasi cat mai multe informatii folositoare!.
 
- .
+ .
 
- **Cristale**
+ **Cristale**
 
 **Vindecarea prin Cristale**\
 Vindecarea prin cristale este o metoda blanda, dar totusi puternica pentru a vindeca corpul, mintea, emotiile si spiritul. Vindecarea prin cristale este una dintre cele mai usoare forme de vindecare. Desi energia fiecarui cristal in parte este unica, de obicei, vindecatorii considera ca diferitele tipuri de cristale poarta vibratii similare.\
@@ -2027,47 +2027,47 @@ Terapia prin cristale: Sfaturi de Sanatate
 
 Lu 20 iul 2009 11:02:18 +0300
 
-Sfaturi de Sanatate: Făcând parte din aceeaşi „familie" cu aromoterapia, meloterapia, reflexoterapia sau presopunctura, cristaloterapia \...
+Sfaturi de Sanatate: Făcând parte din aceeași „familie" cu aromoterapia, meloterapia, reflexoterapia sau presopunctura, cristaloterapia \...
 
 !{width="2.0006944444444446in" height="1.679861111111111in"}
 
-Făcând parte din aceeaşi „familie" cu aromoterapia, meloterapia, reflexoterapia sau presopunctura, cristaloterapia se foloseşte de pietre preţioase şi semi-preţioase cu puteri binefăcătoare (datorită fluxului energetic ce le străbate) pentru a stimula puterea naturală de vindecare a omului. Cristalele au puterea de a concentra şi dirija fluxurile energetice care ne pătrund prin corp.\
+Făcând parte din aceeași „familie" cu aromoterapia, meloterapia, reflexoterapia sau presopunctura, cristaloterapia se folosește de pietre prețioase și semi-prețioase cu puteri binefăcătoare (datorită fluxului energetic ce le străbate) pentru a stimula puterea naturală de vindecare a omului. Cristalele au puterea de a concentra și dirija fluxurile energetice care ne pătrund prin corp.\
 \
-Cum funcţionează puterea cristalelor?\
+Cum funcționează puterea cristalelor?\
 \
-Formate din pământ şi apă şi vechi de sute de mii de ani, pietrele preţioase emit vibraţii energetice uniforme. Astfel, sunt capabile să menţină o încărcătură electrică puternică, motiv pentru care întăresc puterea de vindecare umană.\
-Purtate ca talismane sau obiecte de protecţie în preajma noastră, cristalele plasate pe punctele cheie ale corpului uman depozitează energie sub formă de aură şi emit vibraţii care redirecţionează fluxul energetic. Vechea energie ne părăseşte trupul, lăsând loc celei noi. S-ar putea spune că, datorită energiei pe care o emană, pietrele trăiesc.\
+Formate din pământ și apă și vechi de sute de mii de ani, pietrele prețioase emit vibrații energetice uniforme. Astfel, sunt capabile să mențină o încărcătură electrică puternică, motiv pentru care întăresc puterea de vindecare umană.\
+Purtate ca talismane sau obiecte de protecție în preajma noastră, cristalele plasate pe punctele cheie ale corpului uman depozitează energie sub formă de aură și emit vibrații care redirecționează fluxul energetic. Vechea energie ne părăsește trupul, lăsând loc celei noi. S-ar putea spune că, datorită energiei pe care o emană, pietrele trăiesc.\
 \
 Cum folosim cristalele?\
 \
-Un lucru esenţial care trebuie dus la bună îndeplinire înainte de a folosi puterea benefică a cristalelor este purificarea lor, pentru a schimba fluxul energetic al pietrei.\
-Purificarea cristalelor se poate face prin introducerea pietrei sub apa purificată, încărcarea sa energetică la lumina Soarelui sau a Lunii (pentru circa patru ore) sau ţinând cristalul în palme şi concentrându-ne asupra elementelor pozitive din viaţă.\
-După ce cristalul a fost purificat, energia acestui intră în concordanţă cu cea a purtătorului. Cristalul nu trebuie atins decât de către persoana care-l poartă. Rezultatul se va face simţit imediat, sub forma unei bune dispoziţii generale.\
-Cele mai puternice cristale sunt cele cu forma definită (ovală sau piramidală) deoarece sferele transmit energie prin toate părţile si piramidele acţionează ca un conductor de energie care receptează la bază şi emite la vârf.\
-Este recomandat să vă achiziţionaţi cristalele din magazine sau surse de specialitate, pentru a evita cumpărarea unei pietre false.\
-În funcţie de particularităţi\
-Cum oamenii sunt diferiţi, şi cristalele trebuie să fie diferite. În alegerea unei pietre, trebuie să ţii cont fie de data naşterii, de zodie sau în funcţie de aşteptările tale.\
-În funcţie de zodie:\
+Un lucru esențial care trebuie dus la bună îndeplinire înainte de a folosi puterea benefică a cristalelor este purificarea lor, pentru a schimba fluxul energetic al pietrei.\
+Purificarea cristalelor se poate face prin introducerea pietrei sub apa purificată, încărcarea sa energetică la lumina Soarelui sau a Lunii (pentru circa patru ore) sau ținând cristalul în palme și concentrându-ne asupra elementelor pozitive din viață.\
+După ce cristalul a fost purificat, energia acestui intră în concordanță cu cea a purtătorului. Cristalul nu trebuie atins decât de către persoana care-l poartă. Rezultatul se va face simțit imediat, sub forma unei bune dispoziții generale.\
+Cele mai puternice cristale sunt cele cu forma definită (ovală sau piramidală) deoarece sferele transmit energie prin toate părțile si piramidele acționează ca un conductor de energie care receptează la bază și emite la vârf.\
+Este recomandat să vă achiziționați cristalele din magazine sau surse de specialitate, pentru a evita cumpărarea unei pietre false.\
+În funcție de particularități\
+Cum oamenii sunt diferiți, și cristalele trebuie să fie diferite. În alegerea unei pietre, trebuie să ții cont fie de data nașterii, de zodie sau în funcție de așteptările tale.\
+În funcție de zodie:\
 \
-Berbec - pietre roşii: Diamant, Jasp rosu, Piatra sângelui\
+Berbec - pietre roșii: Diamant, Jasp rosu, Piatra sângelui\
 Taur - pietre pastel: Diamant, Safir\
 Gemeni - pietre galbene: Agat, Smarald\
-Rac - pietre albe şi argintii: Smarald, Agat, Calcedonie, Piatra Lunii\
+Rac - pietre albe și argintii: Smarald, Agat, Calcedonie, Piatra Lunii\
 Leu - pietre galbene, aurii, portocalii: Jad, Onix, Chillimbar\
 Fecioara - pietre maro, bej, verzi: Sardonix, Carneol\
-Balanţă - pietre verzi: Opal, Sardonix, Crisolit\
+Balanță - pietre verzi: Opal, Sardonix, Crisolit\
 Scorpion - pietre negre, brune: Acvamarin, Beril\
 Săgetător - pietre albastru închis: Perla, Chihlimbar, Topaz\
 Capricorn - pietre negre: Rubin, Jad, Cristal de Stânca\
 Vărsător - pietre albastru deschis: Granat, Hiacint\
-Peşti - pietre albastru închis, violet, indigo: Ametist, Safir, Coral\
+Pești - pietre albastru închis, violet, indigo: Ametist, Safir, Coral\
 \
-În funcţie de atingerea diferitelor scopuri în viaţă se poate folosi:\
+În funcție de atingerea diferitelor scopuri în viață se poate folosi:\
 \
-- ametist, cuarţ roz, jad pentru succes în dragoste şi căsnicie\
+- ametist, cuarț roz, jad pentru succes în dragoste și căsnicie\
 - ochi de tigru, pentru aventuri\
-- agat pentru succes în afaceri şi prosperitate\
-- piatra lunii, jasp, calcedonie pentru sănătate şi energie.
+- agat pentru succes în afaceri și prosperitate\
+- piatra lunii, jasp, calcedonie pentru sănătate și energie.
 
 Sursa: Bihoreanul.ro
 
@@ -2093,9 +2093,9 @@ Chiar daca sunt vazute ca facand parte din manifestarea unui fenomen paranormal,
 
 Cristalele in magie
 
- 
 
- 
+
+
 
 In magie, cristalele se folosesc ca ingredient in unele ritualuri, dar si ca amulete. Purtate ca amulete, cristalele nu numai ca sunt foarte puternice dar sunt adevarate bijuterii care infrumuseteaza orice tinuta. Iata care sunt cristalele cele mai des folosite si care este puterea fiecaruia din ele.\
 \
@@ -2176,75 +2176,75 @@ Zirconiul -- atrage faima si prosperitatea, protejeaza impotriva accidentelor si
 !{width="5.997916666666667in" height="8.48125in"}
 
  ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- **NTRU ZODIA:** **PIETRELE  RECOMANDATE SUNT:**
+ **NTRU ZODIA:** **PIETRELE RECOMANDATE SUNT:**
  **BERBEC** Ametist, Acvamarin, Aventurin, Carneol, Citrin, Coral, Cristal de stanca, Cuart roz, Diamant, Granat, Hematit, Jad, Jasp rosu, Lacrima apasului (obsidian), Kianit, Malahit, Moldavit, Onix, Piatra sangelui (Heliotrop), Rodocrozit, Rodonit, Rubin, Safir, Smarald, Spinel. **Talisman norocos:** Diamant, Jasp rosu, Piatra sangelui (Heliotrop). **Recomandabil:** PIETRE ROSII
  **TAUR** Acvamarin, Agat, Ametist, Aventurin, Calcedonie, Carneol, Chihlimbar, Citrin, Coral rosu, Crisocola, Crisopraz, Cristal de stanca, Cuart roz, Diamant, Iolit, Jad, Jasp rosu, Kunzit, Kianit, Lapis Lazuli, Malahit, Moldavit, Obsidian, Rodonit, Rubin, Safir, Selenit, Smarald, Spodumen (Kunzit), Turcoaz, Turmalina, Zircon. **Talisman norocos:** Diamant, Safir. **Recomandabil:** PIETRE PASTEL (ROZ, VERNIL)
- **GEMENI** Acvamarin, Agat, Alexandrit, Ametist, Apatit, Aventurin, Beril, Calcedonie, Carneol, Celestit, Citrin, Crisoberil, Crisocola, Crisopraz, Cuart roz, Fluorina, Granat, Heliodor, Piatra sangelui (Heliotrop), Howlit, Jad, Jasp rosu, Moldavit, Obsidian verde, Ochi de tigru, Opal, Peridot, Perla, Safir, Smarald, Tanzanit, Topaz. **Talisman norocos:** Agat, Smarald.**Recomandabil:** PIETRE GALBENE
- **RAC** Acvamarin, Agata de muschi, Aventurin, Calcedonie, Calcit, Carneol, Chihlimbar, Crisocola, Cristal de stanca, Crisopraz, Diamant, Fluorina, Granat, Jad, Moldavit, Opal, Ochi de tigru, Onix, Perla, Piatra lunii, Rubin, Smarald. **Talisman norocos:** Smarald, Agat, Calcedonie. **Recomandabil:** PIETRE ALBE, ARGINTII
- **LEU** Acvamarin, Calcedonie, Carneol, Chihlimbar, Citrin, Crisoberil, Cristal de stanca, Diamant, Granat, Heliodor, Hiacint, Jad, Jasp cu model (peisaj), Labradorit, Moldavit, Obsidian rosu, Ochi de tigru, Ochi de pisica, Onix, Opal de foc, Peridot, Piatra Soarelui, Pirita, Rodocrozit, Rubin, Sardonix, Smarald, Topaz, Turmalina. **Talisman norocos:** Jad, Peridot, Onix, Chihlimbar. **Recomandabil:** PIETRE GALBENE, AURII, PORTOCALII, CU APE DE CURCUBEU
- **FECIOARA** Agata de muschi, Agat galben, Amazonit, Ametist, Aventurin, Calcedonie, Carneol, Citrin, Coral, Crisocola, Crisolit, Crisopraz, Cristal de stanca, Cuart fumuriu, Cuart roz, Dioptaz, Granat, Hiacint, Jad, Jasp, Lapis Lazuli, Moldavit, Obsidian Fulg-de-nea, Ochi de tigru, Onix, Peridot, Piatra sangelui (Heliotrop), Rodocrozit, Safir galben, Sardonix, Sodalit, Sugilit, Topaz, Turmalina. **Talisman norocos:** Carneol, Sardonix. **Recomandabil:** PIETRE MARO, BEJ, VERZI
+ **GEMENI** Acvamarin, Agat, Alexandrit, Ametist, Apatit, Aventurin, Beril, Calcedonie, Carneol, Celestit, Citrin, Crisoberil, Crisocola, Crisopraz, Cuart roz, Fluorina, Granat, Heliodor, Piatra sangelui (Heliotrop), Howlit, Jad, Jasp rosu, Moldavit, Obsidian verde, Ochi de tigru, Opal, Peridot, Perla, Safir, Smarald, Tanzanit, Topaz. **Talisman norocos:** Agat, Smarald.**Recomandabil:** PIETRE GALBENE
+ **RAC** Acvamarin, Agata de muschi, Aventurin, Calcedonie, Calcit, Carneol, Chihlimbar, Crisocola, Cristal de stanca, Crisopraz, Diamant, Fluorina, Granat, Jad, Moldavit, Opal, Ochi de tigru, Onix, Perla, Piatra lunii, Rubin, Smarald. **Talisman norocos:** Smarald, Agat, Calcedonie. **Recomandabil:** PIETRE ALBE, ARGINTII
+ **LEU** Acvamarin, Calcedonie, Carneol, Chihlimbar, Citrin, Crisoberil, Cristal de stanca, Diamant, Granat, Heliodor, Hiacint, Jad, Jasp cu model (peisaj), Labradorit, Moldavit, Obsidian rosu, Ochi de tigru, Ochi de pisica, Onix, Opal de foc, Peridot, Piatra Soarelui, Pirita, Rodocrozit, Rubin, Sardonix, Smarald, Topaz, Turmalina. **Talisman norocos:** Jad, Peridot, Onix, Chihlimbar. **Recomandabil:** PIETRE GALBENE, AURII, PORTOCALII, CU APE DE CURCUBEU
+ **FECIOARA** Agata de muschi, Agat galben, Amazonit, Ametist, Aventurin, Calcedonie, Carneol, Citrin, Coral, Crisocola, Crisolit, Crisopraz, Cristal de stanca, Cuart fumuriu, Cuart roz, Dioptaz, Granat, Hiacint, Jad, Jasp, Lapis Lazuli, Moldavit, Obsidian Fulg-de-nea, Ochi de tigru, Onix, Peridot, Piatra sangelui (Heliotrop), Rodocrozit, Safir galben, Sardonix, Sodalit, Sugilit, Topaz, Turmalina. **Talisman norocos:** Carneol, Sardonix. **Recomandabil:** PIETRE MARO, BEJ, VERZI
  **BALANTA** Acvamarin, Amazonit, Ametist, Ametrin, Aventurin, Carneol, Citrin, Coral, Crisolit, Crisopraz, Cristal de stanca, Cuart fumuriu, Cuart roz, Diamant, Iolit, Jad, Kianit, Lapis Lazuli, Lepidolit, Malahit, Moldavit, Obsidian mahon, Onix, Opal, Opal negru, Peridot, Piatra lunii, Piatra sangelui (Heliotrop), Piatra Soarelui, Rubin, Safir, Sardonix, Tanzanit, Topaz, Turmalina bleu. **Talisman norocos:** Opal, Sardonix, Crisolit. **Recomandabil:** PIETRE VERZI
- **SCORPION** Acvamarin, Agata de Botswana, Ametist, Beril, Carneol, Caroit, Crisolit, Cristal de stanca, Crisopraz, Coral, Granat, Heliodor, Hematit, Jasp, Labradorit, Malahit, Moldavit, Morganit, Obsidian albastru-verde, Ochi de pisica, Ochi de soim, Ochi de tigru, Opal negru, Peridot, Perla, Piatra lunii, Piatra sangelui (Heliotrop), Rodocrozit, Rubin, Sardonix, Topaz, Turmalina roz/Rubelit, Turcoaz, Unakit. **Talisman norocos:** Acvamarin, Beril. **Recomandabil:** PIETRE ROSU INCHIS, GRENA, BRUNE, NEGRE
- **SAGETATOR** Acvamarin, Agata de foc, Ametist, Aventurin, Azurit, Calcedonie, Caroit, Chihlimbar, Citrin, Crisocola, Crisopraz, Cristal de stanca, Cuart fumuriu, Dioptaz, Granat, Iolit, Jasp, Labradorit, Lapis Lazuli, Malahit, Moldavit, Obsidian, Obsidian Fulg de nea, Onix, Opal de foc, Peridot, Piatra lunii, Perla, Piatra sangelui (Heliotrop), Rubin, Safir, Spinel, Topaz, Sodalit, Tanzanit, Turmalina roz/Rubelit, Turmalina neagra, Turcoaz, Topaz, Zircon albastru. **Talisman norocos:** Chihlimbar, Topaz, Perla. **Recomandabil:** PIETRE ALBASTRU DESCHIS
+ **SCORPION** Acvamarin, Agata de Botswana, Ametist, Beril, Carneol, Caroit, Crisolit, Cristal de stanca, Crisopraz, Coral, Granat, Heliodor, Hematit, Jasp, Labradorit, Malahit, Moldavit, Morganit, Obsidian albastru-verde, Ochi de pisica, Ochi de soim, Ochi de tigru, Opal negru, Peridot, Perla, Piatra lunii, Piatra sangelui (Heliotrop), Rodocrozit, Rubin, Sardonix, Topaz, Turmalina roz/Rubelit, Turcoaz, Unakit. **Talisman norocos:** Acvamarin, Beril. **Recomandabil:** PIETRE ROSU INCHIS, GRENA, BRUNE, NEGRE
+ **SAGETATOR** Acvamarin, Agata de foc, Ametist, Aventurin, Azurit, Calcedonie, Caroit, Chihlimbar, Citrin, Crisocola, Crisopraz, Cristal de stanca, Cuart fumuriu, Dioptaz, Granat, Iolit, Jasp, Labradorit, Lapis Lazuli, Malahit, Moldavit, Obsidian, Obsidian Fulg de nea, Onix, Opal de foc, Peridot, Piatra lunii, Perla, Piatra sangelui (Heliotrop), Rubin, Safir, Spinel, Topaz, Sodalit, Tanzanit, Turmalina roz/Rubelit, Turmalina neagra, Turcoaz, Topaz, Zircon albastru. **Talisman norocos:** Chihlimbar, Topaz, Perla. **Recomandabil:** PIETRE ALBASTRU DESCHIS
  **CAPRICORN** Agata, Ametist, Aventurin albastru, Calcedonie, Carneol, Cristal de stanca, Crisopraz, Cuart fumuriu, Cuart roz, Fluorina, Granat, Jad, Lapis Lazuli, Malahit, Moldavit, Ochi de pisica, Ochi de soim, Ochi de tigru, Onix, Opal, Piatra sangelui (Heliotrop), Rubin, Safir, Spinel albastru, Topaz, Turmalina verde, Turcoaz. **Talisman norocos:** Rubin. **Recomandabil:** PIETRE NEGRE
- **VARSATOR** Agata de muschi, Acvamarin, Ametist, Chihlimbar, Crisopraz, Cristal de stanca, Fluorina, Granat, Hematit, Hiacint, Jasp, Lapis Lazuli, Moldavit, Obsidian albastru, Ochi de soim, Onix, Opal, Safir, Topaz, Turcoaz, Zircon. **Talisman norocos:** Granat, Hiacint. **Recomandabil:**  PIETRE BLEU-CIEL
+ **VARSATOR** Agata de muschi, Acvamarin, Ametist, Chihlimbar, Crisopraz, Cristal de stanca, Fluorina, Granat, Hematit, Hiacint, Jasp, Lapis Lazuli, Moldavit, Obsidian albastru, Ochi de soim, Onix, Opal, Safir, Topaz, Turcoaz, Zircon. **Talisman norocos:** Granat, Hiacint. **Recomandabil:** PIETRE BLEU-CIEL
  **PESTI** Acvamarin, Agat albastru, Ametist, Azurit, Chihlimbar, Citrin, Coral, Crisolit, Cristal de stanca, Fluorina, Hematit, Hiacint, Jad, Jasp, Lapis Lazuli, Moldavit, Opal, Opal de foc, Peridot, Perla, Piatra lunii, Piatra sangelui (Heliotrop), Safir, Turcoaz, Tumalina. **Talisman norocos:** Ametist. **Recomandabil:** PIETRE ALBASTRU INCHIS, INDIGO SAU VIOLET
  ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-www.cristale.acvaria.com
+
 
 **Disten** - **Al~2~O(SiO)~4~ -** triclinic
 
 !{width="3.875in" height="2.3229166666666665in"}
 
-**Habitus** - cristale prismatice aplatizate şi alungite în lungul axei \"a\" cu feţele terminale neregulate.
+**Habitus** - cristale prismatice aplatizate și alungite în lungul axei \"a\" cu fețele terminale neregulate.
 
-**Culoare** - incolor, albăstrui, verde pal, negru-cenuşiu (în prezenţa incluziunilor), gălbui (incluziunilor de Fe).
+**Culoare** - incolor, albăstrui, verde pal, negru-cenușiu (în prezența incluziunilor), gălbui (incluziunilor de Fe).
 
 **Macle** - lamelare după (100).
 
-**Transformări** - se alterează uşor trecând în muscovit, pirofilit, talc sau steatit şi rar în clorit.
+**Transformări** - se alterează ușor trecând în muscovit, pirofilit, talc sau steatit și rar în clorit.
 
-**Proprietăţi fizice:** gr. sp. 3,6-3,7; durit. 4-5 în sensul alungirii cristalului şi 7 normal la alungire; clivajul foarte bun (100), (010) şi (001) bun, determină pe feţe terminaţii în trepte.
+**Proprietăți fizice:** gr. sp. 3,6-3,7; durit. 4-5 în sensul alungirii cristalului și 7 normal la alungire; clivajul foarte bun (100), (010) și (001) bun, determină pe fețe terminații în trepte.
 
-**Proprietăţi optice:** N║: incolor; varietăţile colorate sunt pleocroice; γ = 1,727 - 1,734, albastru violet; β = 1,721 - 1,723, albastru violet; α = 1,712 - 1,718, incolor.
+**Proprietăți optice:** N║: incolor; varietățile colorate sunt pleocroice; γ = 1,727 - 1,734, albastru violet; β = 1,721 - 1,723, albastru violet; α = 1,712 - 1,718, incolor.
 
-N + = birefringenţa δ = 0,015 cenuşiu gălbui, extincţie dreaptă pe (001), 7^0^ pe (010) şi 32^0^ pe (100). Alungire pozitivă.
+N + = birefringența δ = 0,015 cenușiu gălbui, extincție dreaptă pe (001), 7^0^ pe (010) și 32^0^ pe (100). Alungire pozitivă.
 
 L.C.: Biax negativ, fără figuri bune; 2V = 82 - 84^0^.
 
-Fluorescenţă - în lumină ultravioletă uneori devine fluorescent în tonuri de roşu-roz.
+Fluorescență - în lumină ultravioletă uneori devine fluorescent în tonuri de roșu-roz.
 
-**Ocurenţă** - Mineral frecvent în aluviuni şi nisipuri; forme variate: granule prismatice, alungite în direcţia axului principal, cu terminaţii neregulate şi urme de clivaj vizibile - (001) la 90^0^ de alungire şi (010) paralelă cu muchia prismei; uneori prezintă urme de deformare (îndoiri). Ele pot conţine incluziuni cărbunoase sau argiloase, de hidroxizi de fier, repartizate neuniform în granule. În aceste depozite este asociat cu granat, staurolit, andaluzit, corindon. Provine din şisturi cristaline formate în condiţiile unui metamorfism de grad înalt (în special presiune ridicată), micaşisturi, paragnaise, gnaise.
+**Ocurență** - Mineral frecvent în aluviuni și nisipuri; forme variate: granule prismatice, alungite în direcția axului principal, cu terminații neregulate și urme de clivaj vizibile - (001) la 90^0^ de alungire și (010) paralelă cu muchia prismei; uneori prezintă urme de deformare (îndoiri). Ele pot conține incluziuni cărbunoase sau argiloase, de hidroxizi de fier, repartizate neuniform în granule. În aceste depozite este asociat cu granat, staurolit, andaluzit, corindon. Provine din șisturi cristaline formate în condițiile unui metamorfism de grad înalt (în special presiune ridicată), micașisturi, paragnaise, gnaise.
 
 **Nume Alternative**
 
-**. Kyanite are mai multe denumiri alternative, inclusiv disthene, munkrudite şi disten. Alb-kyanite gri este, de asemenea numit rhaeticite.**
+**. Kyanite are mai multe denumiri alternative, inclusiv disthene, munkrudite și disten. Alb-kyanite gri este, de asemenea numit rhaeticite.**
 
 Kyanite !{width="0.9791666666666666in" height="0.9791666666666666in"}!{width="0.6236111111111111in" height="0.7798611111111111in"}
 
 Disten\
 Origin Origin
 
-Mai este numit şi Disthene, Kyanite numele este derivat din grecescul \"Kyanos\" însemnând, \"Blue\". Soiurile cele mai populare de afişare de blues albăstrea intense similare cu safir, şi spumante verzui-blues care aminteşte de Aquamarine.
+Mai este numit și Disthene, Kyanite numele este derivat din grecescul \"Kyanos\" însemnând, \"Blue\". Soiurile cele mai populare de afișare de blues albăstrea intense similare cu safir, și spumante verzui-blues care amintește de Aquamarine.
 
-Cu toate acestea, Kyanite uşor să poarte culori, spre deosebire de safir şi omologii acvamarin sunt extrem de accesibile. Adecvarea este un cuvânt-cheie atunci când descriu Kyanite, deoarece apartamente toate tonurile pielii şi pare în mare Sterling ficat, galben, alb sau a crescut de bijuterii de aur.
+Cu toate acestea, Kyanite ușor să poarte culori, spre deosebire de safir și omologii acvamarin sunt extrem de accesibile. Adecvarea este un cuvânt-cheie atunci când descriu Kyanite, deoarece apartamente toate tonurile pielii și pare în mare Sterling ficat, galben, alb sau a crescut de bijuterii de aur.
 
-Culorile Kyanite de a impune face o declaraţie frapant de individualitate, care a comandat un aer de încredere şi respect de sine.
+Culorile Kyanite de a impune face o declarație frapant de individualitate, care a comandat un aer de încredere și respect de sine.
 
-. Kyanite este o polimorf rară, care afişează două duritate a lui în termen de o bijuterie. O caracteristica unica printre tipuri de gem, ca diamantele, Kyanite a clivaj perfect într-o singură direcţie. Acest lucru combinat cu duritate sale variind face Kyanite o piatră preţioasă provocator pentru a reduce - prin urmare, calitatea faceting pentru Kyanite un aspect important de valoare.. Ca toate pietre preţioase, Kyanite ar trebui să fie tratate cu respect.
+. Kyanite este o polimorf rară, care afișează două duritate a lui în termen de o bijuterie. O caracteristica unica printre tipuri de gem, ca diamantele, Kyanite a clivaj perfect într-o singură direcție. Acest lucru combinat cu duritate sale variind face Kyanite o piatră prețioasă provocator pentru a reduce - prin urmare, calitatea faceting pentru Kyanite un aspect important de valoare.. Ca toate pietre prețioase, Kyanite ar trebui să fie tratate cu respect.
 
-Care au apărut la o mare varietate de locaţii din întreaga lume, cea mai bună calitate Kyanite salută de la Gandaki Kali Regiunea de Vest Europa Centrală Nepal şi Tibet. Istorie / Mitologie
+Care au apărut la o mare varietate de locații din întreaga lume, cea mai bună calitate Kyanite salută de la Gandaki Kali Regiunea de Vest Europa Centrală Nepal și Tibet. Istorie / Mitologie
 
-Emergente dintr-un somn adânc, te împinge înapoi acoperă şi alunecare din pat, ceea ce gandim la uzură. După cum vă trage înapoi perdelele pe o dimineaţă de vară revitalizarea lui, întrebarea dumneavoastră este a răspuns cu cer senin albastru încorporate în nuanţe atmosferice de Kyanite Cool albastru. Nuanţe de albastru puternic Kyanite au fost mult timp crezut pentru a inspira calm, calm, linişte, loialitate şi respect. Kyanite este de purtat, de asemenea, pentru a ajuta utilizatorului de a vorbi cu uşurinţă şi expresiv (de exemplu atunci când discursuri sunt necesare pentru a se acorde).
+Emergente dintr-un somn adânc, te împinge înapoi acoperă și alunecare din pat, ceea ce gandim la uzură. După cum vă trage înapoi perdelele pe o dimineață de vară revitalizarea lui, întrebarea dumneavoastră este a răspuns cu cer senin albastru încorporate în nuanțe atmosferice de Kyanite Cool albastru. Nuanțe de albastru puternic Kyanite au fost mult timp crezut pentru a inspira calm, calm, liniște, loialitate și respect. Kyanite este de purtat, de asemenea, pentru a ajuta utilizatorului de a vorbi cu ușurință și expresiv (de exemplu atunci când discursuri sunt necesare pentru a se acorde).
 
-Kyanite este utilizat de vindecatorii alternative, ca un instrument de mediere şi relaxare. Aceste vindecatori utilizare Kyanite pentru a deschide al treilea ochi Chakra pentru a spori creativitatea, să lărgească percepţia şi să ajungă la o mai bună înţelegere a altora.. Kyanite este de a promova, de asemenea, a spus linişte, având un efect pozitiv asupra vise, de vizualizare şi foresightedness.
+Kyanite este utilizat de vindecatorii alternative, ca un instrument de mediere și relaxare. Aceste vindecatori utilizare Kyanite pentru a deschide al treilea ochi Chakra pentru a spori creativitatea, să lărgească percepția și să ajungă la o mai bună înțelegere a altora.. Kyanite este de a promova, de asemenea, a spus liniște, având un efect pozitiv asupra vise, de vizualizare și foresightedness.
 
-Kyanite este favorizată de mistici, pentru că a facilita meditaţie şi energia sa este nelimitată în aplicare. Este o piatră de canalizarea, statele alterată, vise neobişnuit de intense, rechemare vis, şi vizualizări. Acesta oferă protecţie în timpul acestor state.Aceasta aduce loialitate, onestitate şi linişte, şi diminuează furie şi confuzie.
+Kyanite este favorizată de mistici, pentru că a facilita meditație și energia sa este nelimitată în aplicare. Este o piatră de canalizarea, statele alterată, vise neobișnuit de intense, rechemare vis, și vizualizări. Acesta oferă protecție în timpul acestor state.Aceasta aduce loialitate, onestitate și liniște, și diminuează furie și confuzie.
 
-Kyanite **nu** reţine de energie negativă şi niciodată nu are nevoie de curăţare energetice. Alinia şi echilibrul toate chakrele, de multe ori foarte brusc. Kyanite posibilitatea de a elimina blocajele de energie. Kyanite Blue este asociat cu chakra gatului si este un impuls pentru meditaţie. Kyanite Black este, de asemenea, un impuls pentru meditaţie, şi este asociat cu chakra rădăcinăNegativitate kyanite negru este, de asemenea, foarte de protecţie şi de sustrage.
+Kyanite **nu** reține de energie negativă și niciodată nu are nevoie de curățare energetice. Alinia și echilibrul toate chakrele, de multe ori foarte brusc. Kyanite posibilitatea de a elimina blocajele de energie. Kyanite Blue este asociat cu chakra gatului si este un impuls pentru meditație. Kyanite Black este, de asemenea, un impuls pentru meditație, și este asociat cu chakra rădăcinăNegativitate kyanite negru este, de asemenea, foarte de protecție și de sustrage.
 
-Surse de intuitiv spun Kyanite poate activa puternic chakra \"al treilea ochi\", pentru vizionare îmbunătăţită interioara, capacitatea de psihic mai mare şi lucid visez, de călătorie astrală, telepatie si clarviziune. Se spune intuitia creşte şi perspectivă, şi pentru a ajuta creativitatea.
+Surse de intuitiv spun Kyanite poate activa puternic chakra \"al treilea ochi\", pentru vizionare îmbunătățită interioara, capacitatea de psihic mai mare și lucid visez, de călătorie astrală, telepatie si clarviziune. Se spune intuitia crește și perspectivă, și pentru a ajuta creativitatea.
 
 (Semnele astrologic Taur, Balanta & aries)
 
@@ -2255,19 +2255,19 @@ Vibrates to the number 4 Vibreaza la numărul 4
 *Zodiac* - Aries , Taurus , Libra *Horoscop* - Berbec, Taur, Balanta\
 *Typical colours -* Blue, grey, black, green *Culorile tipice -* albastru, gri, negru, verde
 
-Kyanite este o piatra excelent pentru meditaţie şi de initiere. Acesta nu va reţine vibratii negative sau de energie, prin urmare, nu necesită de compensare. Aliniază Kyanite toate chakrele şi organismele subtile instantaneu. Acesta furnizează balanţa de yin-yang de energie şi blocajele risipeşte, care se deplasează de energie uşor prin intermediul corpul fizic.
+Kyanite este o piatra excelent pentru meditație și de initiere. Acesta nu va reține vibratii negative sau de energie, prin urmare, nu necesită de compensare. Aliniază Kyanite toate chakrele și organismele subtile instantaneu. Acesta furnizează balanța de yin-yang de energie și blocajele risipește, care se deplasează de energie ușor prin intermediul corpul fizic.
 
-Kyanite are un efect calmant asupra fiind ansamblu, aducând liniştea. Aceasta încurajează abilitatile psihice şi de comunicare pe toate nivelurile. Acesta alungă furie, frustrare, confuzie şi stres şi ajută pentru a oferi o capacitate de gândire liniară şi logice. Kyanite furnizează o energie de stimulare , perserverance în încurajarea şi susţinerea activităţilor şi situaţii care ar reduce în mod normal, puterea cuiva. Ea poate ajuta la conectarea la ghiduri spiritul tău. Kyanite induce rechemare vis şi pot promova vise vindecare.
+Kyanite are un efect calmant asupra fiind ansamblu, aducând liniștea. Aceasta încurajează abilitatile psihice și de comunicare pe toate nivelurile. Acesta alungă furie, frustrare, confuzie și stres și ajută pentru a oferi o capacitate de gândire liniară și logice. Kyanite furnizează o energie de stimulare , perserverance în încurajarea și susținerea activităților și situații care ar reduce în mod normal, puterea cuiva. Ea poate ajuta la conectarea la ghiduri spiritul tău. Kyanite induce rechemare vis și pot promova vise vindecare.
 
-Kyanite tratează sistemului urogenital, glandele suprarenale şi glandele paratiroide. Este SIDA în afecţiuni ale gâtului, creierului si a sistemului muscular. Acesta ajută la vindecarea infecţiilor şi scăderea tensiunii arteriale. Kyanite este o durere de eliberare naturala.
+Kyanite tratează sistemului urogenital, glandele suprarenale și glandele paratiroide. Este SIDA în afecțiuni ale gâtului, creierului si a sistemului muscular. Acesta ajută la vindecarea infecțiilor și scăderea tensiunii arteriale. Kyanite este o durere de eliberare naturala.
 
-În plus faţă de proprietăţile curative ale generice Kyanite, culori specifice au atribute suplimentare:
+În plus față de proprietățile curative ale generice Kyanite, culori specifice au atribute suplimentare:
 
-**[Tumbled Chevron Ametist (banded Ametist)]{.underline}** - Acest prabuseste Chevron Ametist (numite uneori banded Ametist) este o combinaţie de Ametist şi cuarţ alb, amestecate împreună într-o dungi, model Chevron. Chevron Amethyst combină întărirea şi sporirea calităţi de cuarţ, cu detensionare calităţi de Ametist.\
+**[Tumbled Chevron Ametist (banded Ametist)]{.underline}** - Acest prabuseste Chevron Ametist (numite uneori banded Ametist) este o combinație de Ametist și cuarț alb, amestecate împreună într-o dungi, model Chevron. Chevron Amethyst combină întărirea și sporirea calități de cuarț, cu detensionare calități de Ametist.\
 \
-Chevron Ametist este una dintre cele mai bune pietre pentru a lucra cu al treilea ochi, sporind atât intuiţie şi de viziune fizică pe toate planurile de existenţă. Aveţi posibilitatea să utilizaţi ametist Chevron să cureţe aura şi organismele de subtile, de a promova vindecarea spirituală, şi pentru a spori capacităţile o psihicul.   Excelent pentru toate tipurile de muncă introspectiv, Chevron Ametist poate aprofunda stare meditativă, care să permită o orientare mai mare a lui de a comunica.\
+Chevron Ametist este una dintre cele mai bune pietre pentru a lucra cu al treilea ochi, sporind atât intuiție și de viziune fizică pe toate planurile de existență. Aveți posibilitatea să utilizați ametist Chevron să curețe aura și organismele de subtile, de a promova vindecarea spirituală, și pentru a spori capacitățile o psihicul. Excelent pentru toate tipurile de muncă introspectiv, Chevron Ametist poate aprofunda stare meditativă, care să permită o orientare mai mare a lui de a comunica.\
 \
-Utilizaţi Tumbled Chevron Ametist pentru a ajuta la eliminarea rezistenta la schimbare, şi de a risipi şi respinge negativitate de toate felurile.   Chevron Amethyst creează un câmp puternic de vindecare în jurul utilizatorului, şi, ca atare, este o alegere bună pentru a accelera vindecarea fizice şi de a stimula sistemul imunitar.
+Utilizați Tumbled Chevron Ametist pentru a ajuta la eliminarea rezistenta la schimbare, și de a risipi și respinge negativitate de toate felurile. Chevron Amethyst creează un câmp puternic de vindecare în jurul utilizatorului, și, ca atare, este o alegere bună pentru a accelera vindecarea fizice și de a stimula sistemul imunitar.
 
 !{width="3.75in" height="3.0375in"}
 
@@ -2275,11 +2275,11 @@ Ametist, Chevron
 
 !{width="0.6819444444444445in" height="0.10416666666666667in"}
 
-. Chevron Ametist (denumit şi \"banded Ametist\") este o combinaţie de Ametist şi alb de cuarţ, amestecate împreună într-o V-dungi sau banded de model. Chevron Ametist combină consolidarea şi îmbunătăţirea calităţi de cuarţ cu detensionare calităţile Ametist. Acest simbiotice combinaţie de minerale se pretează la o piatră minunat spirituală, care este foarte uşor pentru a scoate voaluri obscur că unele dintre sensuri ascunse în viaţă.\
+. Chevron Ametist (denumit și \"banded Ametist\") este o combinație de Ametist și alb de cuarț, amestecate împreună într-o V-dungi sau banded de model. Chevron Ametist combină consolidarea și îmbunătățirea calități de cuarț cu detensionare calitățile Ametist. Acest simbiotice combinație de minerale se pretează la o piatră minunat spirituală, care este foarte ușor pentru a scoate voaluri obscur că unele dintre sensuri ascunse în viață.\
 \
-Chevron Ametist este unul dintre cele mai bune pietre pentru a lucra cu al treilea ochi, sporind atât intuiţie şi de viziune fizică pe toate planurile de existenţă. Utilizare Chevron Ametist pentru a ajuta la eliminarea rezistenta la schimbare, şi de a risipi şi respinge negativitate de toate felurile. Chevron Ametist creează un câmp puternic de vindecare în jurul utilizatorului, şi, ca atare, este o alegere bună pentru a curăţa aura şi de a consolida sistemul imunitar.\
+Chevron Ametist este unul dintre cele mai bune pietre pentru a lucra cu al treilea ochi, sporind atât intuiție și de viziune fizică pe toate planurile de existență. Utilizare Chevron Ametist pentru a ajuta la eliminarea rezistenta la schimbare, și de a risipi și respinge negativitate de toate felurile. Chevron Ametist creează un câmp puternic de vindecare în jurul utilizatorului, și, ca atare, este o alegere bună pentru a curăța aura și de a consolida sistemul imunitar.\
 \
-Crystal vindecatori lucra cu Chevron Ametist pentru energiile sale psihice, precum şi pentru capacitatea sa de a consolida clare şi aură. Chevron Ametist poate amplifica energiile necesare pentru manifestarea şi funcţionează bine în grila de lucru. Chevron Ametist este de spus, de asemenea, de a aprofunda stare meditativă, îmbunătăţirea calităţii şi frecvenţa de viziuni şi inspirându-se din taramurile mai mare.\
+Crystal vindecatori lucra cu Chevron Ametist pentru energiile sale psihice, precum și pentru capacitatea sa de a consolida clare și aură. Chevron Ametist poate amplifica energiile necesare pentru manifestarea și funcționează bine în grila de lucru. Chevron Ametist este de spus, de asemenea, de a aprofunda stare meditativă, îmbunătățirea calității și frecvența de viziuni și inspirându-se din taramurile mai mare.\
 \
 **Metaphysical:** **Metafizic:**\
 Chakra primar: al treilea ochi, Crown\
@@ -2287,16 +2287,16 @@ Semnul astrologic (e): Toate\
 Vibratii: Numarul 2\
 \
 **Geological:** **Geologice:**\
-Familie: membru al familiei de cuarţ\
+Familie: membru al familiei de cuarț\
 Crystal System: trigonal\
-Compoziţia chimică: (SiO2) dioxid de siliciu\
+Compoziția chimică: (SiO2) dioxid de siliciu\
 Duritate: 7\
 \
 **Physical:** **Fizice:**\
-Culoare: Deep, must de struguri cu striping violet alb şi / sau benzile\
-Locatie: Africa, Brazilia, India şi\
+Culoare: Deep, must de struguri cu striping violet alb și / sau benzile\
+Locatie: Africa, Brazilia, India și\
 Raritate: Frecvente\
-Fun Realitate: Chevron este, de asemenea, un V-model, în formă de însemne, heraldica, design de pavilion, semne de circulaţie, arhitectură şi construcţii
+Fun Realitate: Chevron este, de asemenea, un V-model, în formă de însemne, heraldica, design de pavilion, semne de circulație, arhitectură și construcții
 
 Clarviziune-chrysoprase
 
@@ -2308,7 +2308,7 @@ DREAMS, INTUITIVE- amethyst, jade DREAMS, intuitive-ametist, jad
 
 Puterea mentală-selenit
 
-TRECUT-LIFE REAMINTESC-granat, kyanite, lemn pietrificate, cristal de cuarţ, selenit
+TRECUT-LIFE REAMINTESC-granat, kyanite, lemn pietrificate, cristal de cuarț, selenit
 
 PEACE Of Mind-safir
 
@@ -2333,7 +2333,7 @@ PIETRE PRETIOASE CAND VISEZI
 !{width="0.9263888888888889in" height="1.3944444444444444in"}
 
 *Simbol de transformare, de transmutatie.\
-Reprezintã diferitele stadii atinse de-a lungul  proceselor de transformare personalã, virtutile dobândite ca urmare a acestor schimbãri interioare pe drumul evolutiei spirituale.\
+Reprezintã diferitele stadii atinse de-a lungul proceselor de transformare personalã, virtutile dobândite ca urmare a acestor schimbãri interioare pe drumul evolutiei spirituale.\
 Pietrele pretioase sunt un mod de identificare a sufletului cu o anumitã formã de perfectiune si de filozofie.\
 În vise, ca si în realitate, pietrele pretioase au un sens precis. Li se atribuie puterea de protectie contra deochiului si uneori, chiar de eliminare a anumitor proaste obiceiuri sau boli.\
 Montate pe inele sau coliere, pietrele pretioase dezvãluie calitatea relatiilor sentimentale sau de prietenie.\
@@ -2375,17 +2375,17 @@ Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 | |
 | Cap. 21 |
 | |
-| 20. A cincea de sardonix, a şasea de sardiu, a şaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de **ametist**.  |
+| 20. A cincea de sardonix, a șasea de sardiu, a șaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de **ametist**. |
 | |
-| **Ieşirea - a doua carte a lui Moise** |
+| **Ieșirea - a doua carte a lui Moise** |
 | |
 | Cap. 28 |
 | |
-| 19. În rândul al treilea: un opal, o agată şi un **ametist**;  |
+| 19. În rândul al treilea: un opal, o agată și un **ametist**; |
 | |
 | Cap. 39 |
 | |
-| 12. În rândul al treilea: un opal, o agată şi un **ametist**;  |
+| 12. În rândul al treilea: un opal, o agată și un **ametist**; |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **
@@ -2407,138 +2407,138 @@ Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 **Capitolul 21**
 
  ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 1\. Şi am văzut cer nou şi pământ nou. Căci cerul cel dintâi şi pământul cel dintâi au trecut; şi marea nu mai este. 
- 2\. Şi am văzut cetatea sfântă, noul Ierusalim, pogorându-se din cer de la Dumnezeu, gătită ca o mireasă, împodobită pentru mirele ei. 
- 3\. Şi am auzit, din tron, un glas puternic care zicea: Iată, cortul lui Dumnezeu este cu oamenii şi El va sălăşlui cu ei şi ei vor fi poporul Lui şi însuşi Dumnezeu va fi cu ei. 
- 4\. Şi va şterge orice lacrimă din ochii lor şi moarte nu va mai fi; nici plângere, nici strigăt, nici durere nu vor mai fi, căci cele dintâi au trecut. 
- 5\. Şi Cel ce şedea pe tron a grăit: Iată, noi le facem pe toate. Şi a zis: Scrie, fiindcă aceste cuvinte sunt vrednice de crezare şi adevărate. 
- 6\. Şi iar mi-a zis: Făcutu-s-a! Eu sunt Alfa şi Omega, începutul şi sfârşitul. Celui ce însetează îi voi da să bea, în dar, din izvorul apei vieţii. 
- 7\. Cel ce va birui va moşteni acestea şi-i voi fi lui Dumnezeu şi el Îmi va fi Mie fiu 
- 8\. Iar partea celor fricoşi şi necredincioşi şi spurcaţi şi ucigaşi şi desfrânaţi şi fermecători şi închinători de idoli şi a tuturor celor mincinoşi este în iezerul care arde, cu foc şi cu pucioasă, care este moartea a doua. 
- 9\. Şi a venit unul din cei şapte îngeri, care aveau cele şapte cupe pline cu cele din urmă şapte pedepse, şi a grăit către mine zicând: Vino să-ţi arăt pe mireasa, femeia Mielului. 
- 10\. Şi m-a dus pe mine, în duh, într-un munte mare şi înalt şi mi-a arătat cetatea cea sfântă, Ierusalimul, pogorându-se din cer, de la Dumnezeu, 
- 11\. Având slava lui Dumnezeu. Lumina ei era asemenea cu cea a pietrei de mare preţ, ca piatra de iaspis, limpede cum e cristalul. 
- 12\. Şi avea zid mare şi înalt şi avea douăsprezece porţi, iar la porţi douăsprezece îngeri şi nume scrise deasupra, care sunt numele celor douăsprezece seminţii ale fiilor lui Israel. 
- 13\. Spre răsărit trei porţi şi spre miazănoapte trei porţi şi spre miazăzi trei porţi şi spre apus trei porţi. 
- 14\. Iar zidul cetăţii avea douăsprezece pietre de temelie şi în ele douăsprezece nume, ale celor douăsprezece apostoli ai Mielului. 
- 15\. Şi cel ce vorbea cu mine avea pentru măsurat o trestie de aur, ca să măsoare cetatea şi porţile ei şi zidul ei. 
- 16\. Şi cetatea este în patru colţuri şi lungimea ei este tot atâta cât şi lăţimea. Şi a măsurat cetatea cu trestia: douăsprezece mii de stadii. Lungimea şi lărgimea şi înălţimea ei sunt deopotrivă. 
- 17\. Şi a măsurat şi zidul ei: o sută patruzeci şi patru de coţi, după măsura omenească, care este şi a îngerului. 
- 18\. Şi zidăria zidului ei este de iaspis, iar cetatea este din aur curat, ca sticla cea curată. 
- 19\. Temeliile zidului cetăţii sunt împodobite cu tot felul de pietre scumpe: întâia piatră de temelie este de iaspis, a doua din safir, a treia din halcedon, a patra de smarald, 
- 20\. A cincea de sardonix, a şasea de sardiu, a şaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de ametist. 
- 21\. Iar cele douăsprezece porţi sunt douăsprezece mărgăritare; fiecare din porţi este dintr-un mărgăritar. Şi piaţa cetăţii este de aur curat, şi străvezie ca sticla. 
- 22\. Şi templu n-am văzut în ea, pentru că Domnul Dumnezeu, Atotţiitorul, şi Mielul este templul ei. 
- 23\. Şi cetatea nu are trebuinţă de soare, nici de lună, ca să o lumineze, căci slava lui Dumnezeu a luminat-o şi făclia ei este Mielul. 
- 24\. Şi neamurile vor umbla în lumina ei, iar împăraţii pământului vor aduce la ea mărirea lor. 
- 25\. Şi porţile cetăţii nu se vor mai închide ziua, căci noaptea nu va mai fi acolo. 
- 26\. Şi vor aduce în ea slava şi cinstea neamurilor. 
- 27\. Şi în cetate nu va intra nimic pângărit şi nimeni care e dedat cu spurcăciunea şi cu minciuna, ci numai cei scrişi în Cartea vieţii Mielului. 
+ 1\. Și am văzut cer nou și pământ nou. Căci cerul cel dintâi și pământul cel dintâi au trecut; și marea nu mai este.
+ 2\. Și am văzut cetatea sfântă, noul Ierusalim, pogorându-se din cer de la Dumnezeu, gătită ca o mireasă, împodobită pentru mirele ei.
+ 3\. Și am auzit, din tron, un glas puternic care zicea: Iată, cortul lui Dumnezeu este cu oamenii și El va sălășlui cu ei și ei vor fi poporul Lui și însuși Dumnezeu va fi cu ei.
+ 4\. Și va șterge orice lacrimă din ochii lor și moarte nu va mai fi; nici plângere, nici strigăt, nici durere nu vor mai fi, căci cele dintâi au trecut.
+ 5\. Și Cel ce ședea pe tron a grăit: Iată, noi le facem pe toate. Și a zis: Scrie, fiindcă aceste cuvinte sunt vrednice de crezare și adevărate.
+ 6\. Și iar mi-a zis: Făcutu-s-a! Eu sunt Alfa și Omega, începutul și sfârșitul. Celui ce însetează îi voi da să bea, în dar, din izvorul apei vieții.
+ 7\. Cel ce va birui va moșteni acestea și-i voi fi lui Dumnezeu și el Îmi va fi Mie fiu
+ 8\. Iar partea celor fricoși și necredincioși și spurcați și ucigași și desfrânați și fermecători și închinători de idoli și a tuturor celor mincinoși este în iezerul care arde, cu foc și cu pucioasă, care este moartea a doua.
+ 9\. Și a venit unul din cei șapte îngeri, care aveau cele șapte cupe pline cu cele din urmă șapte pedepse, și a grăit către mine zicând: Vino să-ți arăt pe mireasa, femeia Mielului.
+ 10\. Și m-a dus pe mine, în duh, într-un munte mare și înalt și mi-a arătat cetatea cea sfântă, Ierusalimul, pogorându-se din cer, de la Dumnezeu,
+ 11\. Având slava lui Dumnezeu. Lumina ei era asemenea cu cea a pietrei de mare preț, ca piatra de iaspis, limpede cum e cristalul.
+ 12\. Și avea zid mare și înalt și avea douăsprezece porți, iar la porți douăsprezece îngeri și nume scrise deasupra, care sunt numele celor douăsprezece seminții ale fiilor lui Israel.
+ 13\. Spre răsărit trei porți și spre miazănoapte trei porți și spre miazăzi trei porți și spre apus trei porți.
+ 14\. Iar zidul cetății avea douăsprezece pietre de temelie și în ele douăsprezece nume, ale celor douăsprezece apostoli ai Mielului.
+ 15\. Și cel ce vorbea cu mine avea pentru măsurat o trestie de aur, ca să măsoare cetatea și porțile ei și zidul ei.
+ 16\. Și cetatea este în patru colțuri și lungimea ei este tot atâta cât și lățimea. Și a măsurat cetatea cu trestia: douăsprezece mii de stadii. Lungimea și lărgimea și înălțimea ei sunt deopotrivă.
+ 17\. Și a măsurat și zidul ei: o sută patruzeci și patru de coți, după măsura omenească, care este și a îngerului.
+ 18\. Și zidăria zidului ei este de iaspis, iar cetatea este din aur curat, ca sticla cea curată.
+ 19\. Temeliile zidului cetății sunt împodobite cu tot felul de pietre scumpe: întâia piatră de temelie este de iaspis, a doua din safir, a treia din halcedon, a patra de smarald,
+ 20\. A cincea de sardonix, a șasea de sardiu, a șaptea de hrisolit, a opta de beril, a noua de topaz, a zecea de hrisopras, a unsprezecea de iachint, a douăsprezecea de ametist.
+ 21\. Iar cele douăsprezece porți sunt douăsprezece mărgăritare; fiecare din porți este dintr-un mărgăritar. Și piața cetății este de aur curat, și străvezie ca sticla.
+ 22\. Și templu n-am văzut în ea, pentru că Domnul Dumnezeu, Atotțiitorul, și Mielul este templul ei.
+ 23\. Și cetatea nu are trebuință de soare, nici de lună, ca să o lumineze, căci slava lui Dumnezeu a luminat-o și făclia ei este Mielul.
+ 24\. Și neamurile vor umbla în lumina ei, iar împărații pământului vor aduce la ea mărirea lor.
+ 25\. Și porțile cetății nu se vor mai închide ziua, căci noaptea nu va mai fi acolo.
+ 26\. Și vor aduce în ea slava și cinstea neamurilor.
+ 27\. Și în cetate nu va intra nimic pângărit și nimeni care e dedat cu spurcăciunea și cu minciuna, ci numai cei scriși în Cartea vieții Mielului.
  ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 
-**Ieşirea - a doua carte a lui Moise**
+**Ieșirea - a doua carte a lui Moise**
 
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
 
 **Capitolul 28**
 
  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 1\. \"Să iei la tine pe Aaron, fratele tău, şi pe fiii lui, ca dintre fiii lui Israel să-Mi fie preoţi Aaron şi fiii lui Aaron: Nadab, Abiud, Eleazar şi Itamar. 
- 2\. Să faci lui Aaron, fratele tău, veşminte sfinţite, spre cinste şi podoabă. 
- 3\. Să spui dar, la toţi cei iscusiţi, pe care i-am umplut de duhul înţelepciunii şi al priceperii, să facă lui Aaron veşminte sfinţite pentru ziua sfinţirii lui, cu care să-Mi slujească. 
- 4\. Iată dar veşmintele ce trebuie să facă: hoşen, efod, meil, hiton, chidar şi cingătoare. Acestea sunt veşmintele sfinţite, ce trebuie să facă ei lui Aaron, fratele tău, şi fiilor lui, ca să-Mi slujească ei ca preoţi. 
- 6\. Şi vor face efod lucrat cu iscusinţă din fire de aur, de mătase violetă, stacojie şi vişinie, răsucită şi de în răsucit. 
- 7\. Acesta va fi din două bucăţi: una pe piept şi alta pe spate, unite pe umeri cu două încheietori. 
- 8\. Cingătoarea efodului, care vine peste el, să fie lucrată la fel cu el, din fire de aur curat, de mătase violetă, stacojie şi vişinie, răsucită şi de în răsucit 
- 9\. Apoi să iei două pietre, amândouă pietrele să fie de smarald, şi să sapi pe ele numele fiilor lui Israel: 
- 10\. Şase nume pe o piatră şi celelalte şase nume pe cealaltă piatră, după rânduiala în care s-au născut ei. 
- 11\. Cum fac săpătorii în piatră, care sapă peceţi, aşa să fie săpătura pe cele două pietre cu numele fiilor lui Israel şi să aşezi pietrele în cuibuleţe de aur curat. 
- 12\. Aceste două pietre să le pui încheietori la efod. Pietrele acestea vor fi spre pomenirea fiilor lui Israel şi Aaron va purta numele fiilor lui Israel, spre pomenire înaintea Domnului, pe amândoi umerii săi. 
- 13\. Să faci cuibuleţe de aur curat. 
- 14\. Apoi să faci două lănţişoare tot de aur curat; acestea să le faci, răsucite ca sfoara; şi să prinzi lănţişoarele cele răsucite de cuibuleţele de la încheietorile efodului, în partea de dinainte. 
- 15\. Să faci hoşenul judecăţii, lucrat cu iscusinţă, la fel cu efodul: din fire de aur, de mătase violetă, stacojie, vişinie şi de în răsucit. 
- 16\. Acesta să fie îndoit, în patru colţuri, lung de o palmă şi lat de o palmă. 
- 17\. Pe el să aşezi o înfloritură de pietre scumpe, înşirate în patru rânduri. Un rând de pietre să fie: un sardeon, un topaz şi un smarald; acesta e rândul întâi. 
- 18\. În rândul al doilea: un rubin, un safir şi un diamant; 
- 19\. În rândul al treilea: un opal, o agată şi un ametist; 
- 20\. Şi în rândul al patrulea: un hrisolit, un onix şi un iaspis. Acestea trebuie să fie aşezate după rânduiala lor în cuibuleţe de aur. 
- 21\. Pietrele acestea trebuie să fie în număr de douăsprezece, după numărul numelor celor doisprezece fii ai lui Israel, înşirate pe cele două pietre de pe umeri, după numele lor şi după rânduiala în care s au născut ei. Pe fiecare trebuie să sapi, ca pe pecete, câte un nume din numărul celor douăsprezece seminţii. 
- 22\. Apoi să faci pentru hoşen lănţişoare de aur curat, lucrat răsucit, ca sfoara. 
- 23\. Să mai faci pentru hoşen două verigi de aur şi aceste două verigi de aur să le prinzi de cele două colţuri de sus ale hoşenului; 
- 24\. Să introduci cele două lănţişoare împletite de aur în cele două verigi din cele două colţuri ale hoşenului 
- 25\. Şi să prinzi celelalte două capete ale lănţişoarelor de cuibuleţele efodului de pe umeri, în partea de dinainte. 
- 26\. Şi să mai faci două verigi de aur şi să le prinzi de colţurile de jos ale hoşenului, care cad pe cingătoarea efodului. 
- 27\. Apoi să mai faci încă două verigi de aur şi să le prinzi de cele două margini de jos ale efodului, pe partea de dinainte, deasupra cingătorii efodului 
- 28\. Şi să prinzi verigile hoşenului de verigile efodului cu un şnur de mătase albastră, ca să stea peste cingătoarea efodului şi ca hoşenul să nu se mişte de pe efod. 
- 29\. Şi va purta Aaron, când va intra în cortul adunării, numele fiilor lui Israel pe hoşenul judecăţii, la inima sa, spre veşnică pomenire înaintea Domnului. 
- 30\. În hoşenul judecăţii să pui Urim şi Tumim; şi vor fi acestea la inima lui Aaron, când va intra el în cortul adunării să se înfăţişeze înaintea Domnului. Astfel va purta Aaron pururea la inima sa judecata fiilor lui Israel, înaintea Domnului. 
- 31\. Să faci apoi meilul de sub efod tot de mătase vişinie. 
- 32\. Acesta va avea la mijloc, sus, o deschizătură pentru cap şi deschizătura să aibă împrejur un guler ţesut ca platoşa, ca să nu se rupă. 
- 33\. Iar pe la poale îi vei face de jur împrejur ciucuri tot de mătase violetă, stacojie, vişinie şi de în răsucit; 
- 34\. Şi printre ciucuri vei pune clopoţei de aur de jur împrejur aşa: un ciucure şi un clopoţel de aur, un ciucure şi un clopoţel de aur. 
- 35\. Şi acesta va fi pe Aaron în timpul slujbei, când va intra în cortul sfânt, înaintea Domnului, şi când va ieşi, ca să se audă sunetul clopoţeilor şi să nu moară. 
- 36\. Să faci după aceea o tăbliţă şlefuită, de aur curat, şi să sapi pe ea, cum se sapă pe pecete, cuvintele: \"Sfinţenia Domnului\", 
- 37\. Şi s-o prinzi cu şnur de mătase violetă de chidar, aşa ca să vină în partea de dinainte a chidarului. 
- 38\. Aceasta va fi pe fruntea lui Aaron şi Aaron va purta pe fruntea sa neajunsurile prinoaselor afierosite de fiii lui Israel şi ale tuturor darurilor aduse de ei; ea va fi pururea pe fruntea lui, pentru a atrage bunăvoinţa Domnului spre ei. 
- 39\. Hitonul să-l faci de în şi tot de în să faci şi mitra, iar cingătoarea să o faci brodată cu mătase de felurite culori. 
- 40\. Să faci de asemenea şi fiilor lui Aaron hitoane şi cingători; şi să le faci şi turbane pentru cinste şi podoabă. 
- 41\. Să îmbraci cu acestea pe fratele tău Aaron şi împreună cu el şi pe fiii lui, să-i ungi, să-i întăreşti în slujbele lor şi să-i sfinţeşti, ca să-Mi fie preoţi. 
- 42\. Să le faci pantaloni de în, de la brâu până sub genunchi, ca să-şi acopere goliciunea trupului lor; 
- 43\. Aaron şi fiii lui să se îmbrace când vor intra în cortul adunării sau când se vor apropia de jertfelnic, în sfânta, ca să slujească, pentru a nu-şi atrage păcat asupra lor şi să moară. Aceasta să fie lege veşnică pentru el şi pentru urmaşii lui e 
+ 1\. \"Să iei la tine pe Aaron, fratele tău, și pe fiii lui, ca dintre fiii lui Israel să-Mi fie preoți Aaron și fiii lui Aaron: Nadab, Abiud, Eleazar și Itamar.
+ 2\. Să faci lui Aaron, fratele tău, veșminte sfințite, spre cinste și podoabă.
+ 3\. Să spui dar, la toți cei iscusiți, pe care i-am umplut de duhul înțelepciunii și al priceperii, să facă lui Aaron veșminte sfințite pentru ziua sfințirii lui, cu care să-Mi slujească.
+ 4\. Iată dar veșmintele ce trebuie să facă: hoșen, efod, meil, hiton, chidar și cingătoare. Acestea sunt veșmintele sfințite, ce trebuie să facă ei lui Aaron, fratele tău, și fiilor lui, ca să-Mi slujească ei ca preoți.
+ 6\. Și vor face efod lucrat cu iscusință din fire de aur, de mătase violetă, stacojie și vișinie, răsucită și de în răsucit.
+ 7\. Acesta va fi din două bucăți: una pe piept și alta pe spate, unite pe umeri cu două încheietori.
+ 8\. Cingătoarea efodului, care vine peste el, să fie lucrată la fel cu el, din fire de aur curat, de mătase violetă, stacojie și vișinie, răsucită și de în răsucit
+ 9\. Apoi să iei două pietre, amândouă pietrele să fie de smarald, și să sapi pe ele numele fiilor lui Israel:
+ 10\. Șase nume pe o piatră și celelalte șase nume pe cealaltă piatră, după rânduiala în care s-au născut ei.
+ 11\. Cum fac săpătorii în piatră, care sapă peceți, așa să fie săpătura pe cele două pietre cu numele fiilor lui Israel și să așezi pietrele în cuibulețe de aur curat.
+ 12\. Aceste două pietre să le pui încheietori la efod. Pietrele acestea vor fi spre pomenirea fiilor lui Israel și Aaron va purta numele fiilor lui Israel, spre pomenire înaintea Domnului, pe amândoi umerii săi.
+ 13\. Să faci cuibulețe de aur curat.
+ 14\. Apoi să faci două lănțișoare tot de aur curat; acestea să le faci, răsucite ca sfoara; și să prinzi lănțișoarele cele răsucite de cuibulețele de la încheietorile efodului, în partea de dinainte.
+ 15\. Să faci hoșenul judecății, lucrat cu iscusință, la fel cu efodul: din fire de aur, de mătase violetă, stacojie, vișinie și de în răsucit.
+ 16\. Acesta să fie îndoit, în patru colțuri, lung de o palmă și lat de o palmă.
+ 17\. Pe el să așezi o înfloritură de pietre scumpe, înșirate în patru rânduri. Un rând de pietre să fie: un sardeon, un topaz și un smarald; acesta e rândul întâi.
+ 18\. În rândul al doilea: un rubin, un safir și un diamant;
+ 19\. În rândul al treilea: un opal, o agată și un ametist;
+ 20\. Și în rândul al patrulea: un hrisolit, un onix și un iaspis. Acestea trebuie să fie așezate după rânduiala lor în cuibulețe de aur.
+ 21\. Pietrele acestea trebuie să fie în număr de douăsprezece, după numărul numelor celor doisprezece fii ai lui Israel, înșirate pe cele două pietre de pe umeri, după numele lor și după rânduiala în care s au născut ei. Pe fiecare trebuie să sapi, ca pe pecete, câte un nume din numărul celor douăsprezece seminții.
+ 22\. Apoi să faci pentru hoșen lănțișoare de aur curat, lucrat răsucit, ca sfoara.
+ 23\. Să mai faci pentru hoșen două verigi de aur și aceste două verigi de aur să le prinzi de cele două colțuri de sus ale hoșenului;
+ 24\. Să introduci cele două lănțișoare împletite de aur în cele două verigi din cele două colțuri ale hoșenului
+ 25\. Și să prinzi celelalte două capete ale lănțișoarelor de cuibulețele efodului de pe umeri, în partea de dinainte.
+ 26\. Și să mai faci două verigi de aur și să le prinzi de colțurile de jos ale hoșenului, care cad pe cingătoarea efodului.
+ 27\. Apoi să mai faci încă două verigi de aur și să le prinzi de cele două margini de jos ale efodului, pe partea de dinainte, deasupra cingătorii efodului
+ 28\. Și să prinzi verigile hoșenului de verigile efodului cu un șnur de mătase albastră, ca să stea peste cingătoarea efodului și ca hoșenul să nu se miște de pe efod.
+ 29\. Și va purta Aaron, când va intra în cortul adunării, numele fiilor lui Israel pe hoșenul judecății, la inima sa, spre veșnică pomenire înaintea Domnului.
+ 30\. În hoșenul judecății să pui Urim și Tumim; și vor fi acestea la inima lui Aaron, când va intra el în cortul adunării să se înfățișeze înaintea Domnului. Astfel va purta Aaron pururea la inima sa judecata fiilor lui Israel, înaintea Domnului.
+ 31\. Să faci apoi meilul de sub efod tot de mătase vișinie.
+ 32\. Acesta va avea la mijloc, sus, o deschizătură pentru cap și deschizătura să aibă împrejur un guler țesut ca platoșa, ca să nu se rupă.
+ 33\. Iar pe la poale îi vei face de jur împrejur ciucuri tot de mătase violetă, stacojie, vișinie și de în răsucit;
+ 34\. Și printre ciucuri vei pune clopoței de aur de jur împrejur așa: un ciucure și un clopoțel de aur, un ciucure și un clopoțel de aur.
+ 35\. Și acesta va fi pe Aaron în timpul slujbei, când va intra în cortul sfânt, înaintea Domnului, și când va ieși, ca să se audă sunetul clopoțeilor și să nu moară.
+ 36\. Să faci după aceea o tăbliță șlefuită, de aur curat, și să sapi pe ea, cum se sapă pe pecete, cuvintele: \"Sfințenia Domnului\",
+ 37\. Și s-o prinzi cu șnur de mătase violetă de chidar, așa ca să vină în partea de dinainte a chidarului.
+ 38\. Aceasta va fi pe fruntea lui Aaron și Aaron va purta pe fruntea sa neajunsurile prinoaselor afierosite de fiii lui Israel și ale tuturor darurilor aduse de ei; ea va fi pururea pe fruntea lui, pentru a atrage bunăvoința Domnului spre ei.
+ 39\. Hitonul să-l faci de în și tot de în să faci și mitra, iar cingătoarea să o faci brodată cu mătase de felurite culori.
+ 40\. Să faci de asemenea și fiilor lui Aaron hitoane și cingători; și să le faci și turbane pentru cinste și podoabă.
+ 41\. Să îmbraci cu acestea pe fratele tău Aaron și împreună cu el și pe fiii lui, să-i ungi, să-i întărești în slujbele lor și să-i sfințești, ca să-Mi fie preoți.
+ 42\. Să le faci pantaloni de în, de la brâu până sub genunchi, ca să-și acopere goliciunea trupului lor;
+ 43\. Aaron și fiii lui să se îmbrace când vor intra în cortul adunării sau când se vor apropia de jertfelnic, în sfânta, ca să slujească, pentru a nu-și atrage păcat asupra lor și să moară. Aceasta să fie lege veșnică pentru el și pentru urmașii lui e
  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 
-**Ieşirea - a doua carte a lui Moise**
+**Ieșirea - a doua carte a lui Moise**
 
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
 
 **Capitolul 39**
 
  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 1\. Iar din mătase violetă, stacojie şi vişinie au făcut veşminte de slujbă, pentru slujit în locaşul sfânt, şi au mai făcut veşminte sfinte pentru Aaron, cum poruncise Domnul  lui Moise. 
- 2\. Au făcut efodul din fire de aur, din mătase violetă, stacojie şi vişinie şi din în răsucit. 
- 3\. Şi anume: au desfăcut aurul în foi şi au tăiat fire, pe care le-au ţesut cu iscusinţă  printre firele de mătase violetă, stacojie şi vişinie şi de in răsucit, lucru  iscusit. 
- 4\. I-au făcut încheietori de încheiat pe umeri şi au unit amândouă părţile lui. 
- 5\. Brâul efodului, care vine peste el, la fel cu el, l-au făcut din fire de aur, din mătase violetă, stacojie     şi vişinie şi din în răsucit, cum poruncise Domnul lui Moise. 
- 6\. Au lucrat apoi două   pietre de smarald, aşezându-le în cuibuleţe de aur şi săpând pe ele numele fiilor lui Israel, cum se sapă pe pecete, 
- 7\. Şi le-au pus la încheieturile efodului, pe umeri, întru pomenirea fiilor lui Israel, cum poruncise Domnul lui Moise. 
- 8\. Au făcut apoi hoşenul, lucrare iscusită, la fel cu efodul, din fire de aur şi din mătase violetă, stacojie   şi vişinie şi din în răsucit. 
- 9\. Hoşenul l-au făcut dublu, în patru colţuri, lung de o palmă şi lat de o palmă. 
- 10\. Şi au pus pe el pietre scumpe, aşezate în patru rânduri: într-un rând un sardeon, un topaz şi un smarald - rândul întâi; 
- 11\. În rândul al doilea: un rubin, un safir şi un diamant; 
- 12\. În rândul al treilea: un opal, o agată şi un ametist; 
- 13\. Şi în rândul al patrulea: un hrisolit, un onix şi un iaspis. Ele erau aşezate în cuibuleţe de aur. 
- 14\. Pietrele acestea erau în număr de douăsprezece, după numărul fiilor lui Israel, şi pe fiecare din ele era săpat, ca pe pecete, câte un nume, din cele ale celor douăsprezece seminţii. 
- 15\. La hoşen au făcut apoi lănţişoare groase de aur curat şi lucrate răsucit, ca sfoara; 
- 16\. Au mai făcut două rozete şi două verigi de aur şi au prins cele două verigi de cele două colţuri de sus ale hoşenului; 
- 17\. Şi au agăţat două capete ale lănţişoarelor de cele două verigi din colturile hoşenului, 
- 18\. Iar celelalte două capete ale celor două lănţişoare le-au agăţat de cele două rozete şi le-au prins pe acestea de încheieturile efodului, pe faţa acestuia. 
- 19\. După aceea au mai făcut încă două verigi de aur şi le-au prins de celelalte două colţuri ale hoşenului pe cealaltă parte dinspre efod; 
- 20\. Şi au mai făcut şi alte două verigi de aur şi le-au prins de cele două încheieturi ale efodului, dedesubt, pe faţa lui, unde se unesc, mai sus de încingătoarea efodului. 
- 21\. Şi au legat hoşenul cu verigile lui de verigile efodului cu un şnur de mătase violetă, ca să stea deasupra încingătorii efodului şi ca să nu cadă hoşenul de pe efod, cum poruncise Domnul lui Moise. 
- 22\. Iar meilul care vine sub efod, l-au făcut din purpură ţesută violet. 
- 23\. Acesta avea în partea de sus o deschizătură şi împrejurul acestei deschizături avea un guler, ţesut ca o platoşă, ca să nu se rupă. 
- 24\. Meilului i-au făcut pe la poale ciucuri de mătase violetă, stacojie şi vişinie şi de în răsucit; 
- 25\. I-au mai făcut şi clopoţei de aur curat şi au pus clopoţei printre ciucurii de la poalele meilului de jur împrejur; 
- 26\. Şi i-au aşezat pe la poalele meilului de slujbă aşa: un clopoţel şi un ciucure, un clopoţel şi un ciucure, cum poruncise Domnul lui Moise. 
- 27\. Au făcut apoi pentru Aaron şi pentru fiii lui hitoane ţesute din în, 
- 28\. Chidare de în, turbane tot de în şi pantaloni de în răsucit; 
- 29\. Şi cingătoare din în răsucit şi de mătase violetă, stacojie şi vişinie, ţesută cu alesături, cum poruncise Domnul lui Moise. 
- 30\. După aceea au făcut o tăbliţă de aur curat, diadema sfinţeniei, şi au săpat pe ea, ca pe pecete, cuvintele: \"Sfinţenia Domnului\". 
- 31\. Şi au prins de ea un şnur de mătase violetă, ca s-o lege peste chidar, cum poruncise Domnul lui Moise. 
- 32\. Aşa s-au sfârşit toate lucrările de la cortul adunării. Şi au făcut fiii lui Israel toate; cum poruncise Domnul lui Moise aşa au făcut. 
- 33\. Apoi au adus la Moise: cortul, acoperămintele şi toate cele de trebuinţă ale lui, cârligele lui, scândurile lui, pârghiile lui, stâlpii lui şi postamentele lui; 
- 34\. Acoperişurile cele cu piei roşii de berbec şi acoperişurile cele de piei vinete şi perdeaua din mijloc; 
- 35\. Chivotul legii, capacul lui şi pârghiile; 
- 36\. Masa cu toate cele de trebuinţă pentru ea şi pâinile de pus înainte; 
- 37\. Sfeşnicul cel de aur curat, candelele lui, candele puse în el la locul lor, şi toate cele trebuincioase pentru el şi untdelemn de ars; 
- 38\. Jertfelnicul cel de aur, mirul pentru ungere, miresme pentru tămâiere şi perdeaua de la intrarea cortului; 
- 39\. Jertfelnicul cel de aramă, cămaşa lui cea de aramă, pârghiile lui şi toate cele trebuitoare pentru el, baia şi postamentul ei; 
- 40\. Perdelele curţii, stâlpii ei şi postamentele lor, perdelele de la intrarea curţii, frânghiile, ţăruşii şi toate lucrurile trebuitoare la slujbă în cortul adunării; 
- 41\. Veşmintele de slujit în cort, veşmintele sfinte ale preotului Aaron şi veşmintele de slujbă pentru fiii lui. 
- 42\. Toate aceste lucruri le făcuseră fiii lui Israel aşa cum poruncise Domnul lui Moise. 
- 43\. Şi privi Moise toată lucrarea şi iată ei o făcuseră aşa cum poruncise Domnul şi Moise i-a binecuvântat. 
+ 1\. Iar din mătase violetă, stacojie și vișinie au făcut veșminte de slujbă, pentru slujit în locașul sfânt, și au mai făcut veșminte sfinte pentru Aaron, cum poruncise Domnul lui Moise.
+ 2\. Au făcut efodul din fire de aur, din mătase violetă, stacojie și vișinie și din în răsucit.
+ 3\. Și anume: au desfăcut aurul în foi și au tăiat fire, pe care le-au țesut cu iscusință printre firele de mătase violetă, stacojie și vișinie și de in răsucit, lucru iscusit.
+ 4\. I-au făcut încheietori de încheiat pe umeri și au unit amândouă părțile lui.
+ 5\. Brâul efodului, care vine peste el, la fel cu el, l-au făcut din fire de aur, din mătase violetă, stacojie și vișinie și din în răsucit, cum poruncise Domnul lui Moise.
+ 6\. Au lucrat apoi două pietre de smarald, așezându-le în cuibulețe de aur și săpând pe ele numele fiilor lui Israel, cum se sapă pe pecete,
+ 7\. Și le-au pus la încheieturile efodului, pe umeri, întru pomenirea fiilor lui Israel, cum poruncise Domnul lui Moise.
+ 8\. Au făcut apoi hoșenul, lucrare iscusită, la fel cu efodul, din fire de aur și din mătase violetă, stacojie și vișinie și din în răsucit.
+ 9\. Hoșenul l-au făcut dublu, în patru colțuri, lung de o palmă și lat de o palmă.
+ 10\. Și au pus pe el pietre scumpe, așezate în patru rânduri: într-un rând un sardeon, un topaz și un smarald - rândul întâi;
+ 11\. În rândul al doilea: un rubin, un safir și un diamant;
+ 12\. În rândul al treilea: un opal, o agată și un ametist;
+ 13\. Și în rândul al patrulea: un hrisolit, un onix și un iaspis. Ele erau așezate în cuibulețe de aur.
+ 14\. Pietrele acestea erau în număr de douăsprezece, după numărul fiilor lui Israel, și pe fiecare din ele era săpat, ca pe pecete, câte un nume, din cele ale celor douăsprezece seminții.
+ 15\. La hoșen au făcut apoi lănțișoare groase de aur curat și lucrate răsucit, ca sfoara;
+ 16\. Au mai făcut două rozete și două verigi de aur și au prins cele două verigi de cele două colțuri de sus ale hoșenului;
+ 17\. Și au agățat două capete ale lănțișoarelor de cele două verigi din colturile hoșenului,
+ 18\. Iar celelalte două capete ale celor două lănțișoare le-au agățat de cele două rozete și le-au prins pe acestea de încheieturile efodului, pe fața acestuia.
+ 19\. După aceea au mai făcut încă două verigi de aur și le-au prins de celelalte două colțuri ale hoșenului pe cealaltă parte dinspre efod;
+ 20\. Și au mai făcut și alte două verigi de aur și le-au prins de cele două încheieturi ale efodului, dedesubt, pe fața lui, unde se unesc, mai sus de încingătoarea efodului.
+ 21\. Și au legat hoșenul cu verigile lui de verigile efodului cu un șnur de mătase violetă, ca să stea deasupra încingătorii efodului și ca să nu cadă hoșenul de pe efod, cum poruncise Domnul lui Moise.
+ 22\. Iar meilul care vine sub efod, l-au făcut din purpură țesută violet.
+ 23\. Acesta avea în partea de sus o deschizătură și împrejurul acestei deschizături avea un guler, țesut ca o platoșă, ca să nu se rupă.
+ 24\. Meilului i-au făcut pe la poale ciucuri de mătase violetă, stacojie și vișinie și de în răsucit;
+ 25\. I-au mai făcut și clopoței de aur curat și au pus clopoței printre ciucurii de la poalele meilului de jur împrejur;
+ 26\. Și i-au așezat pe la poalele meilului de slujbă așa: un clopoțel și un ciucure, un clopoțel și un ciucure, cum poruncise Domnul lui Moise.
+ 27\. Au făcut apoi pentru Aaron și pentru fiii lui hitoane țesute din în,
+ 28\. Chidare de în, turbane tot de în și pantaloni de în răsucit;
+ 29\. Și cingătoare din în răsucit și de mătase violetă, stacojie și vișinie, țesută cu alesături, cum poruncise Domnul lui Moise.
+ 30\. După aceea au făcut o tăbliță de aur curat, diadema sfințeniei, și au săpat pe ea, ca pe pecete, cuvintele: \"Sfințenia Domnului\".
+ 31\. Și au prins de ea un șnur de mătase violetă, ca s-o lege peste chidar, cum poruncise Domnul lui Moise.
+ 32\. Așa s-au sfârșit toate lucrările de la cortul adunării. Și au făcut fiii lui Israel toate; cum poruncise Domnul lui Moise așa au făcut.
+ 33\. Apoi au adus la Moise: cortul, acoperămintele și toate cele de trebuință ale lui, cârligele lui, scândurile lui, pârghiile lui, stâlpii lui și postamentele lui;
+ 34\. Acoperișurile cele cu piei roșii de berbec și acoperișurile cele de piei vinete și perdeaua din mijloc;
+ 35\. Chivotul legii, capacul lui și pârghiile;
+ 36\. Masa cu toate cele de trebuință pentru ea și pâinile de pus înainte;
+ 37\. Sfeșnicul cel de aur curat, candelele lui, candele puse în el la locul lor, și toate cele trebuincioase pentru el și untdelemn de ars;
+ 38\. Jertfelnicul cel de aur, mirul pentru ungere, miresme pentru tămâiere și perdeaua de la intrarea cortului;
+ 39\. Jertfelnicul cel de aramă, cămașa lui cea de aramă, pârghiile lui și toate cele trebuitoare pentru el, baia și postamentul ei;
+ 40\. Perdelele curții, stâlpii ei și postamentele lor, perdelele de la intrarea curții, frânghiile, țărușii și toate lucrurile trebuitoare la slujbă în cortul adunării;
+ 41\. Veșmintele de slujit în cort, veșmintele sfinte ale preotului Aaron și veșmintele de slujbă pentru fiii lui.
+ 42\. Toate aceste lucruri le făcuseră fiii lui Israel așa cum poruncise Domnul lui Moise.
+ 43\. Și privi Moise toată lucrarea și iată ei o făcuseră așa cum poruncise Domnul și Moise i-a binecuvântat.
  ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Artroza genunchi.docx"
-source_relative_path: "Artroza genunchi.docx"
-source_sha256: "844351cc6a773c7afcc65b0f0aed1ad1c312ee74c1adcdfa1c7cf496b8a0fc25"
-source_size_bytes: 13480
-source_format: docx
-output_format: markdown
-native_text_characters: 1791
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Artroza genunchi
-
-## Text nativ
-
 Gonartroza
 
 Intr-o sticla de 1 litru cu gura larga, se introduc urmatoarele componente: boabe de tuia (arbore ornamental din familia bradului, care creste in parcuri si face niste fructe verzi si rotunde, carnoase si brobonate, cu miros puternic de rasina), sare grunjoasa si spirt. Mai intai se umple jumatate de sticla cu boabe de tuia, peste care se pune sare grunjoasa ce trebuie sa ocupe cealalta jumatate a recipientului. Deasupra, se toarna 1/2 litru spirt medicinal. Amestecul se pastreaza la loc intunecos si racoros, timp de 4 saptamani, timp in care sticla se agita zilnic. Se formeaza o solutie consistenta, care se aplica pe genunchi, sub forma de comprese, in fiecare dimineata si seara, cel putin 2 ore, pana se termina sticla. Se face pauza o saptamana, apoi se repeta

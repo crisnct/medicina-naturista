@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Plantele de tutun ajuta la vindecarea diabetului.docx"
-source_relative_path: "Plantele de tutun ajuta la vindecarea diabetului.docx"
-source_sha256: "55d1fb540219b9962c43a0f90be658ef09cffdeba72dc5f55241aedfc686903e"
-source_size_bytes: 34242
-source_format: docx
-output_format: markdown
-native_text_characters: 2561
-tables: 2
-images: 1
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Plantele de tutun ajuta la vindecarea diabetului
-
-## Text nativ
-
 ### Tabel 1
 
 | Coloana 1 |

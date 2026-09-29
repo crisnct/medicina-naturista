@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Recomandari naturiste pentru stimularea functiei enzimatice a pancreasului.docx"
-source_relative_path: "Recomandari naturiste pentru stimularea functiei enzimatice a pancreasului.docx"
-source_sha256: "ff1310bd10ac4cf2aeb5357a1ffb9bd9d717d2395cd0a7eabb11bbbff3860b01"
-source_size_bytes: 12957
-source_format: docx
-output_format: markdown
-native_text_characters: 1223
-tables: 0
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Recomandari naturiste pentru stimularea functiei enzimatice a pancreasului
-
-## Text nativ
-
 Recomandări naturiste pentru
 
 stimularea funcției enzimatice a pancreasului
@@ -32,4 +14,4 @@ Referințe:
 
 - 1 – The Water of Life Treatise on Urine Therapy - by John W. Armstrong-1971
 
-- 2 – Vaccinurile - prevenţie sau boală. O nouă patologie pediatrică - dr.Christa Todea Gross
+- 2 – Vaccinurile - prevenție sau boală. O nouă patologie pediatrică - dr.Christa Todea Gross

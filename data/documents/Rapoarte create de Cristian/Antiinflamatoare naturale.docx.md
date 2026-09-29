@@ -1,21 +1,3 @@
----
-source_path: "C:\\GoogleDrive\\Medicina\\Antiinflamatoare naturale.docx"
-source_relative_path: "Antiinflamatoare naturale.docx"
-source_sha256: "cc382f9b1bc5e36641fbce12602ffa5ef1ce87ed100ebffd1a536948db084b40"
-source_size_bytes: 14948
-source_format: docx
-output_format: markdown
-native_text_characters: 1029
-tables: 1
-images: 0
-ocr_images_with_text: 0
-ocr_text_characters: 0
----
-
-# Antiinflamatoare naturale
-
-## Text nativ
-
 ### Antiinflamatoare Naturale
 
 ### Tabel 1
