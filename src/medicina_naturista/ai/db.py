@@ -66,6 +66,35 @@ CREATE TABLE IF NOT EXISTS sync_metadata (
     key   TEXT PRIMARY KEY,
     value TEXT NOT NULL
 );
+
+-- Afflictions extracted from chunk text (see scripts/build_evidence_index.py,
+-- not yet written) plus the fragments that provide treatment evidence for
+-- each. Synonyms are not clustered onto a shared canonical entry in v1: every
+-- distinct extracted name gets its own affliction row, and query-time nearest-
+-- neighbour search over affliction_synonyms.embedding is what lets close
+-- variants ("cancer de sân" / "cancer mamar") both surface their evidence.
+CREATE TABLE IF NOT EXISTS afflictions (
+    id              BIGSERIAL PRIMARY KEY,
+    canonical_name  TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS affliction_synonyms (
+    id             BIGSERIAL PRIMARY KEY,
+    affliction_id  BIGINT NOT NULL REFERENCES afflictions(id) ON DELETE CASCADE,
+    text           TEXT NOT NULL,
+    embedding      vector(384) NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_affliction_synonyms_affliction ON affliction_synonyms(affliction_id);
+
+-- evidence_type: 1 = the chunk's heading/section is the affliction itself and
+-- the text states a treatment; 2 = the affliction is not the chunk's heading,
+-- but the chunk's text links a remedy to it via a benefit/usage statement.
+CREATE TABLE IF NOT EXISTS affliction_chunks (
+    affliction_id  BIGINT NOT NULL REFERENCES afflictions(id) ON DELETE CASCADE,
+    chunk_id       BIGINT NOT NULL REFERENCES chunks(chunk_id) ON DELETE CASCADE,
+    evidence_type  SMALLINT NOT NULL CHECK (evidence_type IN (1, 2)),
+    PRIMARY KEY (affliction_id, chunk_id)
+);
 """
 
 _pool: ConnectionPool | None = None

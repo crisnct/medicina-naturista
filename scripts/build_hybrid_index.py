@@ -36,6 +36,20 @@ OVERLAP_CHARS = 240
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
 
+# A file with no headings, lists, tables, blockquotes, or code fences and at
+# or under this many characters is indexed as a single indivisible fragment
+# instead of being split by chunk_document()'s normal block-based logic:
+# splitting an unstructured single-topic note (common across this corpus)
+# would fragment one remedy description without any real section boundary
+# to split on.
+UNSTRUCTURED_SINGLE_CHUNK_CHARS = 5000
+
+# Bumped whenever the text representation fed into embeddings/lexical search
+# changes (e.g. the cleaning rules below), so build() forces a full resync
+# even though every source file's own SHA-256 is unchanged. See build()'s use
+# of TEXT_REPR_VERSION against sync_metadata.
+TEXT_REPR_VERSION = "2"
+
 
 @dataclass(frozen=True)
 class SourceFile:
@@ -229,8 +243,26 @@ def markdown_blocks(text: str) -> list[tuple[str, int, int, str, str]]:
     return blocks
 
 
+# Matches a line that starts a heading, list item, table row, blockquote, or
+# code fence — the same markers chunk_document() otherwise splits around.
+_STRUCTURE_LINE_RE = re.compile(r"^\s{0,3}(?:#{1,6}\s|[-*+]\s|\d+[.)]\s|\||>|```)")
+
+
+# True if any line in text opens a heading/list/table/blockquote/code block.
+def _has_markdown_structure(text: str) -> bool:
+    return any(_STRUCTURE_LINE_RE.match(line) for line in text.split("\n"))
+
+
 # Combine Markdown blocks into bounded overlapping chunks for embedding.
 def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
+    stripped = text.strip()
+    if (
+        stripped
+        and len(stripped) <= UNSTRUCTURED_SINGLE_CHUNK_CHARS
+        and not _has_markdown_structure(text)
+    ):
+        return [(stripped, 1, text.count("\n") + 1, "")]
+
     raw_blocks = markdown_blocks(text)
     pieces: list[tuple[str, int, int, str, str]] = []
     for body, start, end, heading, boundary in raw_blocks:
@@ -313,17 +345,52 @@ def chunk_document(text: str) -> list[tuple[str, int, int, str]]:
     return chunks
 
 
+# The source/category/heading context line prepended to a chunk's own text
+# before embedding it.
+def _embedding_context(chunk: Chunk) -> str:
+    lines = []
+    if chunk.category_id:
+        lines.append(chunk.category_id.replace("/", " > "))
+    lines.append(Path(chunk.source_relative_path).stem)
+    if chunk.heading:
+        lines.append(chunk.heading)
+    return "\n".join(lines)
+
+
 # Convert chunks into model inputs containing source context and passage text.
 def iter_embedding_inputs(chunks: Sequence[Chunk]) -> Iterator[str]:
     for chunk in chunks:
-        lines = []
-        if chunk.category_id:
-            lines.append(chunk.category_id.replace("/", " > "))
-        lines.append(Path(chunk.source_relative_path).stem)
-        if chunk.heading:
-            lines.append(chunk.heading)
-        context = "\n".join(lines)
-        yield f"passage: {context}\n{chunk.text}"
+        yield f"passage: {_embedding_context(chunk)}\n{chunk.text}"
+
+
+# Embed a single oversized chunk (only ever the whole-file fragment from the
+# unstructured-file bypass in chunk_document(), up to
+# UNSTRUCTURED_SINGLE_CHUNK_CHARS) on overlapping MAX_CHARS windows, then
+# average and re-normalize into one vector of the same shape every other
+# chunk gets — the ONNX model would otherwise silently truncate the input
+# instead of raising, silently dropping the tail of the fragment.
+def _embed_long_chunk(model: object, chunk: Chunk) -> np.ndarray:
+    context = _embedding_context(chunk)
+    text = chunk.text
+    step = MAX_CHARS - OVERLAP_CHARS
+    windows = []
+    position = 0
+    while True:
+        window = text[position:position + MAX_CHARS]
+        windows.append(f"passage: {context}\n{window}")
+        if position + MAX_CHARS >= len(text):
+            break
+        position += step
+    vectors = np.asarray(
+        list(model.embed(windows, batch_size=len(windows), parallel=None)), dtype=np.float32
+    )
+    averaged = vectors.mean(axis=0)
+    norm = np.linalg.norm(averaged)
+    if not np.isfinite(norm) or norm == 0:
+        raise RuntimeError(
+            f"Windowed embedding produced a non-finite or zero vector for {chunk.source_relative_path}"
+        )
+    return averaged / norm
 
 
 # Format elapsed and estimated durations as stable terminal-friendly timestamps.
@@ -348,36 +415,53 @@ def embed_chunks(
 
     monotonic = clock or time.monotonic
     total = len(chunks)
+    # Chunks over MAX_CHARS only ever come from the unstructured-file bypass
+    # in chunk_document(); they're embedded separately via _embed_long_chunk()
+    # (see below) instead of through the batched model.embed() call, which
+    # would silently truncate them. When there are none (the common case),
+    # normal_chunks == chunks and this loop's behaviour is unchanged.
+    normal_indices = [index for index, chunk in enumerate(chunks) if len(chunk.text) <= MAX_CHARS]
+    long_indices = [index for index, chunk in enumerate(chunks) if len(chunk.text) > MAX_CHARS]
+    normal_chunks = [chunks[index] for index in normal_indices]
+    normal_total = len(normal_chunks)
+
     vectors: list[np.ndarray] = []
     started = monotonic()
     last_report = started
 
     for processed, vector in enumerate(
-        model.embed(iter_embedding_inputs(chunks), batch_size=batch_size, parallel=None),
+        model.embed(iter_embedding_inputs(normal_chunks), batch_size=batch_size, parallel=None),
         start=1,
     ):
         vectors.append(vector)
         now = monotonic()
-        if processed < total and now - last_report >= progress_interval_seconds:
+        if processed < normal_total and now - last_report >= progress_interval_seconds:
             elapsed = max(now - started, 1e-9)
             rate = processed / elapsed
-            eta = (total - processed) / rate if rate > 0 else 0.0
-            percent = processed * 100.0 / total
+            eta = (normal_total - processed) / rate if rate > 0 else 0.0
+            percent = processed * 100.0 / normal_total
             print(
-                f"Embedding progress: {processed}/{total} ({percent:.1f}%) | "
+                f"Embedding progress: {processed}/{normal_total} ({percent:.1f}%) | "
                 f"elapsed {format_duration(elapsed)} | rate {rate:.1f} chunks/s | "
                 f"ETA {format_duration(eta)}",
                 flush=True,
             )
             last_report = now
 
-    embeddings = np.asarray(vectors, dtype=np.float32)
-    if embeddings.shape != (total, MODEL_DIMENSION):
-        raise RuntimeError(f"Unexpected embedding matrix shape: {embeddings.shape}")
-    norms = np.linalg.norm(embeddings, axis=1)
-    if not np.isfinite(embeddings).all() or np.any(norms == 0):
-        raise RuntimeError("Embedding matrix contains non-finite or zero vectors")
-    embeddings /= norms[:, None]
+    normal_embeddings = np.asarray(vectors, dtype=np.float32)
+    if normal_total and normal_embeddings.shape != (normal_total, MODEL_DIMENSION):
+        raise RuntimeError(f"Unexpected embedding matrix shape: {normal_embeddings.shape}")
+    if normal_total:
+        norms = np.linalg.norm(normal_embeddings, axis=1)
+        if not np.isfinite(normal_embeddings).all() or np.any(norms == 0):
+            raise RuntimeError("Embedding matrix contains non-finite or zero vectors")
+        normal_embeddings /= norms[:, None]
+
+    embeddings = np.zeros((total, MODEL_DIMENSION), dtype=np.float32)
+    for position, chunk_index in enumerate(normal_indices):
+        embeddings[chunk_index] = normal_embeddings[position]
+    for chunk_index in long_indices:
+        embeddings[chunk_index] = _embed_long_chunk(model, chunks[chunk_index])
 
     elapsed = monotonic() - started
     rate = total / max(elapsed, 1e-9)
@@ -468,6 +552,25 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
                 row.relative_path: row.sha256
                 for row in cursor.execute("SELECT relative_path, sha256 FROM documents").fetchall()
             }
+            stored_version_row = cursor.execute(
+                "SELECT value FROM sync_metadata WHERE key = 'text_repr_version'"
+            ).fetchone()
+
+    # A document's own SHA-256 only tells us the *source file* hasn't changed,
+    # not that the text representation derived from it (chunking/cleaning
+    # rules) is still current. When TEXT_REPR_VERSION has moved on, every
+    # document must be treated as new so it gets re-chunked, re-cleaned, and
+    # re-embedded under the current rules, even though none of them were
+    # touched on disk.
+    stored_version = stored_version_row[0] if stored_version_row else None
+    if stored_version != TEXT_REPR_VERSION:
+        if stored_version is not None:
+            print(
+                f"Text representation changed ({stored_version} -> {TEXT_REPR_VERSION}); "
+                "forcing a full resync",
+                flush=True,
+            )
+        existing = {}
 
     warnings: list[str] = []
     skipped = 0
@@ -488,6 +591,9 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
         stat = path.stat()
         initial_stats[relative] = (stat.st_size, stat.st_mtime_ns)
         decoded, encoding, raw = read_markdown(path)
+        # Sources are expected to already be clean (see scripts/clean_documents.py,
+        # which strips external links and "Vezi și" references from files on
+        # disk) — this only normalizes line endings/unicode form.
         normalized = normalize_text(decoded)
         if encoding == "utf-8-replace":
             warnings.append(f"Replacement characters used while decoding: {relative}")
@@ -561,10 +667,13 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
     with pool.connection() as connection:
         connection.execute(
             """
-            INSERT INTO sync_metadata (key, value) VALUES (%s, %s), (%s, %s), (%s, %s)
+            INSERT INTO sync_metadata (key, value) VALUES (%s, %s), (%s, %s), (%s, %s), (%s, %s)
             ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value
             """,
-            ("model_name", model_name, "model_dimension", str(MODEL_DIMENSION), "last_synced_utc", utc_now()),
+            (
+                "model_name", model_name, "model_dimension", str(MODEL_DIMENSION),
+                "last_synced_utc", utc_now(), "text_repr_version", TEXT_REPR_VERSION,
+            ),
         )
         connection.commit()
 
