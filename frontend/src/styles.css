@@ -306,7 +306,7 @@ body {
 .fragments-panel-filters {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 12px 16px;
     margin: 0 0 14px;
     padding-bottom: 14px;
     border-bottom: 1px solid var(--nature-border);
@@ -333,6 +333,23 @@ body {
     font-weight: 400;
     text-transform: none;
     letter-spacing: normal;
+}
+
+/* The document filter's values are full file names, so it absorbs the space
+   left of the three short (score/priority/lexical) filters on the same row.
+   min-width: 0 lets it shrink below its longest option (no horizontal scroll);
+   the 200px basis wraps it onto its own row when the panel is too narrow. */
+.fragments-panel-filter-document {
+    flex: 1 1 200px;
+    min-width: 0;
+}
+
+.fragments-panel-filter-document select {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .fragments-panel-empty {
