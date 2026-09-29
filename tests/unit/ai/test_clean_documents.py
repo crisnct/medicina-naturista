@@ -52,21 +52,57 @@ class CleanDocumentsTests(unittest.TestCase):
         self.assertIn("Would clean: a.md", output.getvalue())
         self.assertIn("Would rewrite 1/1 files", output.getvalue())
 
-    def test_preserves_original_encoding_on_rewrite(self):
-        # cp1250 supports the legacy cedilla diacritics (ş/ţ) but not the
-        # modern comma-below forms (ș/ț) used elsewhere in the corpus. The
-        # trailing "!" keeps the byte count odd, so the utf-16 fallback
-        # (tried before cp1250) fails to decode instead of spuriously
-        # succeeding on an unrelated even-length byte pairing — the same
-        # encoding-detection order build_hybrid_index.read_markdown() uses.
+    def test_preserves_original_encoding_when_still_representable(self):
         path = self.source / "a.md"
-        path.write_bytes("Coadă-şoricel [aici](https://x.ro) ajută mult!\n".encode("cp1250"))
+        path.write_bytes("Coad\u0103 [aici](https://x.ro) ajut\u0103 mult!\n".encode("cp1250"))
 
         with redirect_stdout(io.StringIO()):
             clean_documents.clean_documents(self.source, dry_run=False)
 
-        raw = path.read_bytes()
-        self.assertEqual(raw.decode("cp1250"), "Coadă-şoricel aici ajută mult!\n")
+        self.assertEqual(path.read_bytes().decode("cp1250"), "Coad\u0103 aici ajut\u0103 mult!\n")
+
+    def test_falls_back_to_utf8_when_comma_below_is_not_encodable(self):
+        path = self.source / "a.md"
+        # Odd byte count, so the utf-16 fallback cannot spuriously decode it.
+        path.write_bytes("Coad\u0103-\u015foricel ajut\u0103 mult!!\n".encode("cp1250"))
+
+        with redirect_stdout(io.StringIO()):
+            clean_documents.clean_documents(self.source, dry_run=False)
+
+        self.assertEqual(path.read_bytes().decode("utf-8"), "Coad\u0103-\u0219oricel ajut\u0103 mult!!\n")
+
+    def test_strips_extraction_metadata_title_and_scaffold(self):
+        text = (
+            '---\nsource_path: "C:\\\\x.pdf"\nsource_format: gdoc_pointer\nstatus: "ok"\n---\n\n'
+            "# x.pdf\n\n## Pagini\n\n### Pagina 1\n\nContinut.\n"
+        )
+        self.assertEqual(
+            clean_documents.strip_extraction_metadata(text),
+            "### Pagina 1\n\nContinut.\n",
+        )
+
+    def test_strips_ocr_fence_and_trailing_note(self):
+        text = (
+            '---\nsource_path: "x"\n---\n\n# a.jpg\n\n## Text OCR extras\n\n```text\nun text\n```\n\n'
+            "## Not\u0103\n\nTextul este rezultatul OCR local \u0219i poate con\u021bine erori.\n"
+        )
+        self.assertEqual(clean_documents.strip_extraction_metadata(text), "un text\n")
+
+    def test_keeps_a_first_heading_that_is_not_the_file_name(self):
+        text = '---\nsource_path: "x"\n---\n\n# Titlu real\n\nCorp.\n'
+        self.assertEqual(
+            clean_documents.strip_extraction_metadata(text, "carte.pdf"),
+            "# Titlu real\n\nCorp.\n",
+        )
+        self.assertEqual(
+            clean_documents.strip_extraction_metadata('---\nsource_path: "x"\n---\n\n# carte\n\nCorp.\n', "carte.docx"),
+            "Corp.\n",
+        )
+
+    def test_keeps_unrelated_frontmatter(self):
+        text = "---\ntitle: x\n---\n\nCorp.\n"
+        self.assertEqual(clean_documents.strip_extraction_metadata(text), text)
+
 
     def test_never_changes_line_count(self):
         path = self.source / "a.md"

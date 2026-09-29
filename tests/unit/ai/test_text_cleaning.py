@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from medicina_naturista.ai.text_cleaning import clean_text
+from scripts.clean_documents import clean_text
 
 
 class CleanTextTests(unittest.TestCase):
@@ -70,6 +70,20 @@ class CleanTextTests(unittest.TestCase):
         text = "Coada-calului ajută la infecții urinare, cf. tradiției populare."
 
         self.assertEqual(clean_text(text), text)
+
+    def test_strips_emails_and_www_addresses(self):
+        cleaned = clean_text("Scrie la ana@exemplu.ro sau vezi www.exemplu.ro/x acum.")
+
+        self.assertNotIn("@", cleaned)
+        self.assertNotIn("www", cleaned)
+
+    def test_normalizes_extraction_artefacts_without_touching_newlines(self):
+        text = "şi ţ­ară\nﬁer\x00\n"
+
+        cleaned = clean_text(text)
+
+        self.assertEqual(cleaned, "și țară\nfier\n")
+        self.assertEqual(cleaned.count("\n"), text.count("\n"))
 
 
 if __name__ == "__main__":
