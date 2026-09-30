@@ -1,4 +1,4 @@
-import { ClovesStrip } from "./ClovesStrip";
+import { HerbsStrip } from "./HerbsStrip";
 import doctorPortrait from "../assets/dr-cuisor.webp";
 
 export function Hero() {
@@ -7,7 +7,7 @@ export function Hero() {
       <div className="hero-kicker">
         <span aria-hidden="true">🌿</span> Ghid naturist bazat pe surse locale
       </div>
-      <ClovesStrip />
+      <HerbsStrip />
       <img className="hero-doctor" src={doctorPortrait} alt="Dr. Cuișor" />
       <div className="hero-title-block">
         <h1 id="hero-title">Remedii Naturiste</h1>
