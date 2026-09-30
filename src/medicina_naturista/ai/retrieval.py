@@ -98,7 +98,10 @@ class Retriever:
             for result in candidates:
                 chunk_id = int(result["chunk_id"])
                 score_sums[chunk_id] = score_sums.get(chunk_id, 0.0) + result["hybrid_score"]
-                chunks.setdefault(chunk_id, result)
+                # Keep the result of the query that scored this fragment best, so
+                # its raw semantic/lexical scores come from one coherent query.
+                if chunk_id not in chunks or result["hybrid_score"] > chunks[chunk_id]["hybrid_score"]:
+                    chunks[chunk_id] = result
                 found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]
             logger.info(
                 "retrieval_query_completed number=%s candidates=%s expansions=%s",
@@ -138,6 +141,10 @@ class Retriever:
                 # reads these fields directly and formats/orders from them.
                 "score": best_sum / query_count,
                 "relevance_percent": relevance_percent[best_id],
+                # Raw scores of the best-scoring query (lexical is None when no
+                # query matched the fragment lexically); informational only.
+                "semantic_similarity": best.get("semantic_similarity"),
+                "lexical_score": best.get("lexical_score"),
                 "priority": best.get("priority"),
                 "conditions": best.get("conditions", []),
                 # Whether any query matched a member's exact phrase, for the UI.

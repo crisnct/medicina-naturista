@@ -44,8 +44,12 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   );
   // Every source document across ALL fragments (not just the currently
   // filtered ones), so picking a document is always available as an option.
+  // Sorted by the displayed file name (A→Z), not by the full path.
   const documentOptions = useMemo(
-    () => [...new Set(message.fragments.map((fragment) => fragment.document))].sort((a, b) => a.localeCompare(b)),
+    () =>
+      [...new Set(message.fragments.map((fragment) => fragment.document))].sort((a, b) =>
+        fileName(a).localeCompare(fileName(b), "ro", { sensitivity: "base", numeric: true }),
+      ),
     [message.fragments],
   );
 
@@ -123,13 +127,19 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
           filtered.map((fragment, index) => {
             const scoreParts: string[] = [];
             if (fragment.relevancePercent !== null) scoreParts.push(`Scor relevanță: ${Math.round(fragment.relevancePercent)}%`);
+            if (fragment.semanticScore != null) scoreParts.push(`Scor semantic: ${fragment.semanticScore.toFixed(2)}`);
+            if (fragment.lexicalScore != null) scoreParts.push(`Scor lexical: ${fragment.lexicalScore.toFixed(2)}`);
             if (fragment.priority !== null) scoreParts.push(`Prioritate ${fragment.priority}`);
             if (fragment.matchLabel) scoreParts.push(fragment.matchLabel);
-            scoreParts.push(fragment.document);
             return (
               <div className="fragments-panel-fragment" key={index}>
                 <p className="fragments-panel-fragment-text">{fragment.text}</p>
-                <p className="fragments-panel-fragment-score">{scoreParts.join(", ")}</p>
+                <p className="fragments-panel-fragment-score">
+                  {scoreParts.join(", ")}
+                  {scoreParts.length > 0 && ","}
+                  <br />
+                  {fragment.document}
+                </p>
               </div>
             );
           })

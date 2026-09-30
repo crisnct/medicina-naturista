@@ -457,8 +457,11 @@ class WebTests(unittest.TestCase):
         response = self.client.get("/api/session", headers=_headers(sid, tab))
         self.assertEqual(response.status_code, 200)
         history = response.json()["history"]
-        self.assertEqual(history[0], {"role": "assistant", "kind": "text", "content": main.WELCOME})
-        self.assertEqual(history[1]["content"], HEALTH_PROBLEM_QUESTION)
+        self.assertEqual(len(history), 1)
+        self.assertEqual(
+            history[0],
+            {"role": "assistant", "kind": "text", "content": f"{main.WELCOME}\n\n{HEALTH_PROBLEM_QUESTION}"},
+        )
         main.store.delete(sid, tab)
 
     # Verify a request with a missing or malformed X-Tab-Id header is rejected,
@@ -711,7 +714,7 @@ class WebTests(unittest.TestCase):
             main, "ai", FakeAI()
         ), patch.object(main, "retriever", FakeRetriever()):
             session_a = self.client.get("/api/session", headers=_headers(sid_a, tab_a)).json()
-            self.assertEqual(session_a["history"][-1]["content"], HEALTH_PROBLEM_QUESTION)
+            self.assertTrue(session_a["history"][-1]["content"].endswith(HEALTH_PROBLEM_QUESTION))
             self.client.get("/api/session", headers=_headers(sid_b, tab_b))
 
             messages = _send(self.client, sid_a, tab_a, "Gripă și răceală", [])
