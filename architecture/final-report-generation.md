@@ -7,7 +7,7 @@
 Fluxul are **două etape separate**, declanșate de acțiuni diferite ale utilizatorului:
 
 1. **Căutarea locală** (butonul „Trimite”) — fără niciun apel către AI; pacientul vede fragmentele găsite.
-2. **Generarea raportului** (butonul „Generează rețeta”) — trimite către xAI exact fragmentele deja verificate de pacient.
+2. **Generarea raportului** (butonul „Generează rețeta”) — trimite către furnizorul AI activ (`AI_PROVIDER`: xAI, Hugging Face sau Ollama) exact fragmentele deja verificate de pacient.
 
 ## 1. Preluarea descrierii problemei de sănătate — `on_message()`
 
@@ -36,7 +36,7 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 - **3.1.** Identifică sesiunea și obține blocarea exclusivă.
 - **3.2.** Dacă mesajul a fost o cerere de e-mail (`email_request_handled`), resetează indicatorul și se oprește fără căutare.
 - **3.3.** Dacă profilul nu conține o problemă de sănătate, adaugă mesajul „Descrieți problema de sănătate înainte de căutare” și se oprește.
-- **3.4.** Apelează `Retriever.collect(session)` (secțiunile 4–6). Bugetul `MAX_CONTEXT_CHARS` (1.000.000 de caractere) este aplicat acolo, în `rank()`, o singură dată, astfel încât pacientul vede exact ce va primi AI-ul.
+- **3.4.** Apelează `Retriever.collect(session, ai.context_budget())` (secțiunile 4–6). Bugetul este aplicat acolo, în `rank(max_chars=...)`, o singură dată, astfel încât pacientul vede exact ce va primi AI-ul. Bugetul este `MAX_CONTEXT_CHARS` (1.000.000 de caractere), coborât la limita proprie a furnizorului când aceasta există (`HF_MAX_CONTEXT_CHARS`, implicit 120.000, sau `OLLAMA_MAX_CONTEXT_CHARS`); cu Hugging Face pacientul vede deci mai puține fragmente decât cu xAI.
 - **3.6.** Dacă nu rămâne niciun fragment: `pending_evidence=None`, mesaj „Nu am găsit fragmente relevante în sursele locale” și panoul „Generează rețeta” rămâne ascuns.
 - **3.7.** Altfel, stochează fragmentele în `session.pending_evidence`, adaugă în chat panoul HTML al fragmentelor (`_fragments_panel_html()`) și afișează panoul cu butonul „💊 Generează rețeta”.
 
@@ -81,15 +81,15 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 - **8.5.** Obține blocarea sesiunii și citește `session.pending_evidence` (fragmentele deja afișate, nerecalculate).
 - **8.6.** Dacă profilul nu este pregătit sau nu există dovezi pending, adaugă „Nu există fragmente pregătite. Descrieți din nou problema de sănătate.” și ascunde panoul.
 
-## 9. Cererea către xAI și parsarea răspunsului — `XAIClient.generate()`
+## 9. Cererea către furnizorul AI și parsarea răspunsului — `ResponsesClient.generate()`
 
 - **9.1.** Înregistrează în log numărul de dovezi și numărul de caractere.
-- **9.2.** Ordonează dovezile după `score`, descrescător, în înregistrări `id`, `source`, `text`. **Toate** sunt trimise nemodificate (fără compactare sau trunchiere); bugetul de context a fost deja aplicat la secțiunea 3.5.
+- **9.2.** Ordonează dovezile după `score`, descrescător, în înregistrări `id`, `source`, `text`. **Toate** sunt trimise nemodificate (fără compactare sau trunchiere); bugetul de context a fost deja aplicat la pasul 3.4.
 - **9.3.** Înregistrează inventarul fragmentelor trimise (textul este logat doar dacă `LOG_FRAGMENT_TEXT` este activ).
 - **9.4.** Construiește promptul utilizatorului: profilul medical serializat JSON și lista completă a fragmentelor admise; promptul de sistem este `ai/prompts/generate_report_system.md`.
-- **9.5.** `complete_json()` trimite o singură cerere către xAI Responses API (`{XAI_API_BASE}/responses`) cu `Authorization: Bearer X_API_KEY`, modelul și nivelul de reasoning din configurare (implicit `grok-4.3`, `medium`), format `json_object`, `max_output_tokens=20000`, `store=false`, timeout 75 s (conectare 10 s).
-- **9.6.** Lipsa cheii API sau erorile HTTP/conexiune/răspuns invalid devin `AIUnavailable` cu mesaj afișabil utilizatorului; se înregistrează statusul, durata, dimensiunea răspunsului și ID-ul cererii.
-- **9.7.** Verifică `status == "completed"`, concatenează blocurile `output_text`, parsează JSON-ul și respinge un răspuns gol sau care nu este obiect.
+- **9.5.** `complete_json()` trimite o singură cerere către Responses API-ul furnizorului activ (`{base_url}/responses`). Furnizorul vine din `AI_PROVIDER` (`ai/providers.py`, implicit `xai`). Cu xAI: `Authorization: Bearer X_API_KEY`, modelul și reasoning din configurare (implicit `grok-4.3`, `medium`), `text.format=json_object`, `store=false`. Cu Hugging Face (`HF_TOKEN`, `deepseek-ai/DeepSeek-V4-Flash:deepinfra`) și Ollama (`deepseek-v4.1-flash:cloud`): fără `store`, `reasoning` doar dacă este configurat, JSON cerut prin promptul de sistem. Toți: `max_output_tokens=AI_MAX_OUTPUT_TOKENS` (20000), timeout de citire `AI_READ_TIMEOUT_SECONDS` (300 s; conectare 10 s). Antetul `Authorization` lipsește dacă nu există cheie (Ollama local).
+- **9.6.** Lipsa cheii API a furnizorului activ (mesajul numește variabila: `X_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`) sau erorile HTTP/conexiune/răspuns invalid devin `AIUnavailable` cu mesaj afișabil utilizatorului; se înregistrează statusul, durata, dimensiunea răspunsului și ID-ul cererii.
+- **9.7.** Verifică `status == "completed"` (`incomplete` se loghează cu `incomplete_details.reason`, de obicei `max_output_tokens` la modelele cu gândire), concatenează blocurile `output_text` (itemii `reasoning` sunt ignorați), parsează JSON-ul — tolerant: dacă `json.loads` eșuează, se reîncearcă între primul `{` și ultimul `}`, ceea ce elimină gardurile Markdown — și respinge un răspuns gol sau care nu este obiect.
 - **9.8.** Normalizează cele cinci secțiuni: `uz_intern`, `nutritie`, `uz_extern`, `alte_recomandari`, `atentionari`.
 - **9.9.** Nutriția este un obiect cu `retete`, `recomandate`, `nerecomandate`, `interzise`, `alte`, convertit în elemente prefixate (`[RETETA]`, `[RECOMANDAT]`, `[NERECOMANDAT]`, `[INTERZIS]`, `[ALTE]`).
 - **9.10.** Textele își păstrează întreruperile de linie relevante; din `evidence_ids` sunt păstrate doar șirurile.
@@ -146,7 +146,7 @@ Mesajul utilizatorului („Trimite”)
     -> limitare la MAX_CONTEXT_CHARS (fragmente întregi, de la coadă)
     -> panou cu fragmentele găsite, afișat pacientului (fără AI)
     -> „Generează rețeta” (doar owner)
-    -> o singură cerere structurată către xAI, cu exact fragmentele afișate
+    -> o singură cerere structurată către furnizorul AI activ, cu exact fragmentele afișate
     -> secțiuni normalizate de recomandări
     -> raport PDF în memorie
     -> răspuns în chat și link securizat de descărcare

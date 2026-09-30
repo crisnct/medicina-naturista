@@ -1,6 +1,8 @@
 # Plan — furnizor AI configurabil pentru generarea rețetelor (xAI Grok 4.3 / DeepSeek-V4-Flash)
 
-**Stare:** propus, neimplementat · **Data:** 2026-09-30
+**Stare:** implementat (pașii 2–6); Faza 0 și proba reală (pasul 7) rămân de făcut de utilizator · **Data:** 2026-09-30
+
+**Implementare:** `ai/providers.py` (nou), `ResponsesClient` + `XAIClient` + `create_ai_client()` în `ai/client.py`, câmpurile noi în `config.py`, `Retriever.collect(session, max_chars)`, `web/main.py`, `docker-compose.yaml`, teste în `tests/unit/ai/test_client_providers.py`. `json_format` este `None` pentru HF și Ollama (JSON doar prin prompt + parsare tolerantă) până când Faza 0 arată ce câmp acceptă; `HF_MAX_CONTEXT_CHARS=120000` este valoarea implicită necalibrată.
 
 **Notă (2026-09-30):** `fit_evidence_to_context()` a fost eliminată de [refactorizarea scorului](fragment-scoring-refactoring-plan.md): bugetul (acum 1.000.000 de caractere, măsurat pe textul dovezilor) este aplicat în `search.rank(max_chars=...)`. Bugetul per furnizor de mai jos se transmite deci prin `Retriever.collect()` către `rank(max_chars=...)`, nu printr-o funcție separată; restul deciziilor rămân valabile.
 
