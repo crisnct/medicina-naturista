@@ -15,13 +15,12 @@ from medicina_naturista.core.models import SessionData
 
 logger = logging.getLogger("naturist.retrieval")
 
-# Build the search queries from the consultation profile.
-def consultation_queries(profile: Any) -> list[str]:
-    """Use the whole health problem as a single query. Conversation history
-    (profile.transcript, profile.health_context) is intentionally excluded:
-    it steered retrieval away from the actual topic being searched."""
-    problem = " ".join((profile.health_problem or "").split())
-    return [problem] if problem else []
+# The search query of a consultation: the whole health problem, spaces normalized.
+def consultation_query(profile: Any) -> str:
+    """Conversation history (profile.transcript, profile.health_context) is
+    intentionally excluded: it steered retrieval away from the actual topic
+    being searched. An empty string means there is nothing to search."""
+    return " ".join((profile.health_problem or "").split())
 
 
 class Retriever:
@@ -52,17 +51,10 @@ class Retriever:
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
     def collect(self, session: SessionData) -> dict[str, dict[str, Any]]:
         profile = session.profile
-        queries = consultation_queries(profile)
-        if not queries:
-            logger.info("retrieval_completed queries=0 evidence_entries=0 reason=no_queries")
+        query = consultation_query(profile)
+        if not query:
+            logger.info("retrieval_completed evidence_entries=0 reason=no_query")
             return {}
-        search_queries: list[str] = []
-        seen_queries: set[str] = set()
-        for query in queries:
-            key = " ".join(query.split()).casefold()
-            if key not in seen_queries:
-                seen_queries.add(key)
-                search_queries.append(query)
         # session.selected_categories is patient-chosen source folders (see
         # medicina_naturista.ai.categories); getattr guards callers/test doubles
         # that predate this field. Unknown ids (a stale selection from before a
@@ -79,91 +71,60 @@ class Retriever:
         category_ids = frozenset(requested_categories) & self._known_category_ids
         if not category_ids or category_ids == self._known_category_ids:
             category_ids = None
+        expansions = expansions_for(query)
         logger.info(
-            "retrieval_started search_queries=%s requested_categories=%s applied_categories=%s",
-            len(search_queries),
+            "retrieval_started requested_categories=%s applied_categories=%s expansions=%s",
             len(requested_categories),
             len(category_ids) if category_ids else 0,
+            len(expansions),
         )
-        total_candidates = 0
-        # Per chunk: the sum of its hybrid_score over every query. rank() returns
-        # every fragment of the index for each query, so no fragment is dropped here.
-        score_sums: dict[int, float] = {}
-        chunks: dict[int, dict[str, Any]] = {}
-        found_by_lexical: dict[int, bool] = {}
-        for query_number, search_query in enumerate(search_queries, start=1):
-            expansions = expansions_for(search_query)
-            candidates = rank(
-                search_query,
-                category_ids=category_ids,
-                expansions=expansions,
-                condition_names=condition_names_for(search_query),
-            )
-            total_candidates += len(candidates)
-            for result in candidates:
-                chunk_id = int(result["chunk_id"])
-                score_sums[chunk_id] = score_sums.get(chunk_id, 0.0) + result["hybrid_score"]
-                # Keep the result of the query that scored this fragment best, so
-                # its raw semantic/lexical scores come from one coherent query.
-                if chunk_id not in chunks or result["hybrid_score"] > chunks[chunk_id]["hybrid_score"]:
-                    chunks[chunk_id] = result
-                found_by_lexical[chunk_id] = found_by_lexical.get(chunk_id, False) or result["found_by_lexical"]
-            logger.info(
-                "retrieval_query_completed number=%s candidates=%s expansions=%s",
-                query_number,
-                len(candidates),
-                len(expansions),
-            )
-
-        # Multi-query RRF: a chunk's score is the sum of its per-query hybrid_score
-        # (which itself fuses the semantic and lexical ranks, see ai/search.py)
-        # divided by the number of queries run, so the ceiling stays RRF_MAX_SCORE.
-        # Its relevance_percent is that score as a percentage of the ceiling.
+        # The fragment's score is its hybrid_score (see ai/search.py: RRF of the
+        # semantic, lexical and heading signals times the priority weight), which
+        # never exceeds RRF_MAX_SCORE. relevance_percent is that score as a
+        # percentage of the ceiling. There is one query, so nothing is combined.
         #
         # No relevance_percent threshold is applied here — every candidate rank()
-        # returned (across every query) becomes evidence, below. The only
-        # place a fragment is ever dropped now is fit_evidence_to_context()'s
-        # MAX_CONTEXT_CHARS budget cut (see medicina_naturista.ai.client), applied
-        # once, downstream, by the caller — not here.
-        query_count = len(search_queries)
-        relevance_percent = {
-            chunk_id: total / query_count / RRF_MAX_SCORE * 100.0
-            for chunk_id, total in score_sums.items()
-        }
+        # returned becomes evidence, below. The only place a fragment is ever
+        # dropped now is fit_evidence_to_context()'s MAX_CONTEXT_CHARS budget cut
+        # (see medicina_naturista.ai.client), applied once, downstream, by the
+        # caller — not here.
+        candidates = rank(
+            query,
+            category_ids=category_ids,
+            expansions=expansions,
+            condition_names=condition_names_for(query),
+        )
 
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
         evidence: dict[str, dict[str, Any]] = {}
-        for chunk_id in sorted(score_sums, key=score_sums.__getitem__, reverse=True):
-            best = chunks[chunk_id]
-            best_id, best_sum = chunk_id, score_sums[chunk_id]
-            evidence[f"C{best_id}"] = {
+        for best in sorted(candidates, key=lambda result: result["hybrid_score"], reverse=True):
+            evidence[f"C{best['chunk_id']}"] = {
                 "source": (
                     f"documents/{best['source_relative_path']}:{best['line_start']}-{best['line_end']}"
                 ),
                 "text": self._context(best),
                 # Every consumer (the UI panel, the AI-context budget trimming)
                 # reads these fields directly and formats/orders from them.
-                "score": best_sum / query_count,
-                "relevance_percent": relevance_percent[best_id],
-                # Raw scores of the best-scoring query (lexical is None when no
-                # query matched the fragment lexically); informational only.
+                "score": best["hybrid_score"],
+                "relevance_percent": best["hybrid_score"] / RRF_MAX_SCORE * 100.0,
+                # Raw scores of the query (lexical is None when it did not match
+                # the fragment lexically); informational only.
                 "semantic_similarity": best.get("semantic_similarity"),
                 "lexical_score": best.get("lexical_score"),
                 "priority": best.get("priority"),
                 "business_category": best.get("business_category"),
                 "primary_medical_conditions": best.get("primary_medical_conditions", []),
                 "secondary_medical_conditions": best.get("secondary_medical_conditions", []),
-                # Whether any query matched a member's exact phrase, for the UI.
+                # Whether the query matched the fragment lexically, for the UI.
                 # A future selective signal adds its own "found_by_<signal>" flag here.
-                "found_by_lexical": found_by_lexical[chunk_id],
+                "found_by_lexical": best["found_by_lexical"],
             }
 
         logger.info(
-            "retrieval_completed queries=%s search_candidates=%s "
+            "retrieval_completed search_candidates=%s "
             "evidence_entries=%s evidence_chars=%s unique_sources=%s",
-            len(search_queries),
-            total_candidates,
+            len(candidates),
             len(evidence),
             sum(len(item["text"]) for item in evidence.values()),
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),

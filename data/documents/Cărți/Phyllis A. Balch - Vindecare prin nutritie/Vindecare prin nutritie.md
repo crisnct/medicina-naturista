@@ -78841,7 +78841,7 @@ ca să vă permiteți să folosiți brațul cât de mult, în timp
 ce țineți încheietura dreaptă. Folosiți tot brațul când
 tastați, pentru a reduce presiunea asupra cotului.
 
-e Aranjați ecranul computerului în așa fel încât să fie
+Aranjați ecranul computerului în așa fel încât să fie
 cam la 60 cm de dumneavoastră, pe linia în care priviți.
 e Folosiți mânerele scaunului ca să nu mișcați prea
 mult încheieturile.

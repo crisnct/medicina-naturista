@@ -6,9 +6,9 @@
 
 Codul implicat: `ai/retrieval.py` (`Retriever.collect()`), `ai/search.py` (`rank()`), `ai/client.py` (`fit_evidence_to_context()`), `web/handlers.py` (afișarea).
 
-## 1. Construirea interogării — `consultation_queries()` și `Retriever.collect()`
+## 1. Construirea interogării — `consultation_query()` și `Retriever.collect()`
 
-Problema pacientului este căutată cu **o singură interogare** (`N = 1`).
+Problema pacientului este căutată cu **o singură interogare**; scorul unui fragment nu se combină cu alte interogări.
 
 - **1.1.** Interogarea este întreaga problemă de sănătate, cu spațiile normalizate: `durere de genunchi la efort`. Istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect. Dacă problema este goală, căutarea se oprește și returnează un inventar gol.
 - **1.2.** Nu se mai construiește o a doua interogare din cuvintele sortate alfabetic: era căutată lexical ca frază exactă (care nu apare aproape niciodată așa în documente) și dubla costul unei căutări fără să aducă fragmente noi.
@@ -20,7 +20,6 @@ Problema pacientului este căutată cu **o singură interogare** (`N = 1`).
   - **1.3.5.** Se folosesc cel mult 2 afecțiuni și 12 denumiri de extindere. Dacă nu se potrivește nimic sau fișierul lipsește, căutarea rulează exact ca înainte. Fișierul se reîncarcă automat când se modifică.
   - **1.3.6.** Extinderea nu modifică interogarea semantică (rămâne textul utilizatorului) și nu intră în interogarea laxă a semnalului lexical.
 - **1.3.7.** Mesaj în chat: dacă interogarea se potrivește cu o afecțiune, `POST /api/messages` adaugă, imediat înaintea notificării „Caut rapid…”, un mesaj `✅ Am identificat afecțiunea: **Nume**. O caut și după denumirile: <toate sinonimele, în română și engleză>.` Dacă se potrivesc două afecțiuni, mesajul are câte o linie pentru fiecare. Dacă nu se potrivește nimic, nu apare niciun mesaj. Potrivirea este aceeași cu cea din `collect()` (`_condition_identified_message()` în `web/main.py`).
-- **1.4.** Logica de agregare pe `N` interogări din secțiunile 3 și 4 rămâne valabilă și pentru `N = 1`.
 
 ## 2. Ranking hibrid — `search.rank()`
 
@@ -61,21 +60,20 @@ Se rulează o dată pe interogare și întoarce doar **candidații** semnalelor,
 - **2.5.1.** `RRF_MAX_SCORE = 3 / (RRF_K + 1) = 3/61 ≈ 0,0492`: un fragment clasat pe primul loc de toate cele trei semnale.
 - **2.5.2.** Este plafonul fix pe baza căruia se calculează procentul de relevanță; nicio altă componentă nu duplică constanta.
 
-## 3. Agregarea scorurilor între interogări — `Retriever.collect()`
+## 3. Scorul unui fragment
 
-- **3.1.** Pentru fiecare fragment se însumează `hybrid_score` din toate cele `N` interogări (`score_sums`).
-- **3.2.** Se rețin o singură dată datele fragmentului (prima apariție) și `found_by_lexical`, care devine adevărat dacă **oricare** interogare l-a găsit lexical.
-- **3.3.** Se înregistrează în log numărul de candidați pentru fiecare interogare.
+- **3.1.** Scorul unui fragment (`score`) este chiar `hybrid_score` din secțiunea 2: suma celor trei termeni RRF (semantic, lexical, titlu/cale) înmulțită cu greutatea priorității. Nu se adună și nu se mediază cu nicio altă interogare, pentru că există una singură.
+- **3.2.** `found_by_lexical` arată dacă interogarea a găsit fragmentul lexical.
 
 ## 4. Scorul de relevanță
 
 - **4.1.** Formula:
 
   ```text
-  relevance_percent = suma_scorurilor / N / RRF_MAX_SCORE × 100
+  relevance_percent = hybrid_score / RRF_MAX_SCORE × 100
   ```
 
-  Împărțirea la `N` menține plafonul la `RRF_MAX_SCORE`, indiferent de numărul de interogări.
+  `RRF_MAX_SCORE` este plafonul fix al scorului, deci procentul este între 0 și 100.
 - **4.2.** Nu există un prag minim de relevanță: **fiecare** candidat întors de `rank()` (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal) devine dovadă. Singurul loc unde un fragment poate fi eliminat mai târziu este bugetul `MAX_CONTEXT_CHARS`, aplicat o singură dată de `fit_evidence_to_context()` (vezi [final-report-generation.md](final-report-generation.md)), nu aici.
 - **4.3.** `relevance_percent` rămâne calculat și afișat (scorul din panoul UI), doar că nu mai e folosit ca regulă de selecție — e pur informativ pentru pacient.
 
