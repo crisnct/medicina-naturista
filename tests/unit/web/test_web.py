@@ -24,7 +24,7 @@ from medicina_naturista.config import settings
 from medicina_naturista.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile
 from medicina_naturista.reporting.pdf import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
 from medicina_naturista.ai.conditions import ConditionDictionary, parse_conditions
-from medicina_naturista.ai.retrieval import Retriever, _meaningful_words, consultation_queries
+from medicina_naturista.ai.retrieval import Retriever, _meaningful_words, consultation_query
 from medicina_naturista.core.sessions import SessionStore
 
 
@@ -437,17 +437,17 @@ class WebTests(unittest.TestCase):
 
     # Verify conversation history (transcript, health_context) is excluded from
     # search queries — only the health problem itself should drive retrieval.
-    def test_consultation_queries_ignore_conversation_history(self):
+    def test_consultation_query_ignores_conversation_history(self):
         profile = HealthProfile(health_problem="durere articulară")
         profile.add_transcript("assistant", HEALTH_PROBLEM_QUESTION)
         profile.add_transcript("user", "Durere de trei zile")
         marker = "FINAL-CONTEXT"
         profile.add_health_context(("simptom repetat " * 100) + marker)
-        queries = consultation_queries(profile)
+        query = consultation_query(profile)
 
-        self.assertEqual(queries, ["durere articulară"])
-        self.assertFalse(any(HEALTH_PROBLEM_QUESTION in query for query in queries))
-        self.assertFalse(any(marker in query for query in queries))
+        self.assertEqual(query, "durere articulară")
+        self.assertNotIn(HEALTH_PROBLEM_QUESTION, query)
+        self.assertNotIn(marker, query)
 
     # --- Category selection -------------------------------------------------
 

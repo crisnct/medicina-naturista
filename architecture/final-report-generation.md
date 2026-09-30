@@ -43,11 +43,11 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 
 ## 4. Construirea interogărilor și rularea retrieval-ului — `Retriever.collect()`
 
-- **4.1.** `consultation_queries()` folosește **întreaga problemă de sănătate** ca interogare unică; istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect.
+- **4.1.** `consultation_query()` folosește **întreaga problemă de sănătate** ca interogare unică; istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect.
 - **4.2.** Interogarea este unică (`N = 1`): nu se mai construiește o a doua interogare din cuvintele sortate alfabetic, deoarece nu aducea fragmente noi și dubla costul căutării.
 - **4.2a.** `expansions_for()` caută în dicționarul de afecțiuni (`data/medical_conditions.txt`) afecțiunea numită de interogare și întoarce celelalte denumiri ale ei; vezi `fragment-search-and-scoring.md`, pasul 1.3.
 - **4.3.** Apelează `rank()` (secțiunea 5), care întoarce doar **candidații** (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal, implicit 100), fiecare cu `hybrid_score`.
-- **4.4.** Însumează pentru fiecare fragment scorurile `hybrid_score` din toate interogările și reține dacă a fost găsit lexical de cel puțin o interogare.
+- **4.4.** Scorul unui fragment este `hybrid_score`-ul întors de `rank()`; nu se combină cu alte interogări. Se reține și dacă a fost găsit lexical.
 
 ## 5. Retrieval hibrid pentru o interogare — `search.rank()`
 
@@ -63,13 +63,13 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 
 ## 6. Selecția și asamblarea dovezilor — `Retriever.collect()`
 
-- **6.1.** Calculează `relevance_percent = suma_scorurilor / număr_interogări / RRF_MAX_SCORE × 100`.
+- **6.1.** Calculează `relevance_percent = hybrid_score / RRF_MAX_SCORE × 100`.
 - **6.2.** Nu se aplică niciun prag pe `relevance_percent` — toți candidații întorși de `rank()` devin dovezi. Singura selecție rămasă e bugetul `MAX_CONTEXT_CHARS`, la pasul 7, comună panoului din UI și cererii către AI.
 - **6.3.** Fragmentele nu se unesc: fiecare rămâne o dovadă separată.
 - **6.4.** Ordonează dovezile după scor, descrescător.
 - **6.5.** Textul dovezii este textul fragmentului, prefixat cu `Secțiune: <titlu>` când există (`_context()`).
 - **6.7.** Fiecare dovadă primește ID-ul `C<chunk_id>` și conține `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text`, `score`, `relevance_percent` și `found_by_lexical`.
-- **6.8.** Înregistrează în log numărul de interogări, candidați, dovezi, caractere și surse unice.
+- **6.8.** Înregistrează în log numărul de candidați, dovezi, caractere și surse unice.
 
 ## 7. Afișarea fragmentelor pacientului — `_fragments_panel_html()`
 
