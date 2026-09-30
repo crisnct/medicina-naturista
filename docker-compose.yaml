@@ -38,7 +38,8 @@ services:
       db:
         condition: service_healthy
     environment:
-      X_API_KEY: ${X_API_KEY:?X_API_KEY must be set in .env}
+      AI_PROVIDER: ${AI_PROVIDER:-xai}
+      X_API_KEY: ${X_API_KEY:-}
       MAIL_FROM: ${MAIL_FROM:-}
       GMAIL_USERNAME: ${GMAIL_USERNAME:-}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
@@ -47,6 +48,19 @@ services:
       XAI_MODEL: ${XAI_MODEL:-grok-4.3}
       XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
       XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
+      HF_TOKEN: ${HF_TOKEN:-}
+      HF_MODEL: ${HF_MODEL:-deepseek-ai/DeepSeek-V4-Flash:deepinfra}
+      HF_API_BASE: ${HF_API_BASE:-https://router.huggingface.co/v1}
+      HF_REASONING_EFFORT: ${HF_REASONING_EFFORT:-}
+      HF_MAX_CONTEXT_CHARS: ${HF_MAX_CONTEXT_CHARS:-120000}
+      OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-deepseek-v4.1-flash:cloud}
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
+      OLLAMA_REASONING_EFFORT: ${OLLAMA_REASONING_EFFORT:-}
+      OLLAMA_MAX_CONTEXT_CHARS: ${OLLAMA_MAX_CONTEXT_CHARS:-}
+      AI_STREAM: ${AI_STREAM:-false}
+      AI_MAX_OUTPUT_TOKENS: ${AI_MAX_OUTPUT_TOKENS:-20000}
+      AI_READ_TIMEOUT_SECONDS: ${AI_READ_TIMEOUT_SECONDS:-300}
       DOCUMENTS_DIR: /app/data/documents
       DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
       MODEL_CACHE_DIR: /app/data/model_cache
@@ -75,6 +89,9 @@ services:
         target: /app/data/model_cache
     tmpfs:
       - /tmp:size=536870912,mode=1777
+    # Reaches an Ollama daemon running on the host (AI_PROVIDER=ollama).
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     ports:
       - "127.0.0.1:7860:7860"
     networks: [internal]

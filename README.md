@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🌿 Recomandări Naturiste Adjuvante
+# 🌿 Remedii Naturiste Adjuvante - de la Dr. Cuișor
 
-### Chatbot medical informativ bazat pe o arhivă locală și căutare hibridă
+### Asistent AI de medicină naturistă bazat pe surse
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -49,7 +49,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate sunt trimise către API-ul xAI pentru redactarea raportului. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate și descrierea problemei sunt trimise, după `AI_PROVIDER`, către xAI, către DeepInfra prin routerul Hugging Face sau către Ollama (Cloud, cu modelele `:cloud`) pentru redactarea raportului; politicile de retenție ale fiecărui furnizor rămân de verificat înainte de activare. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -60,7 +60,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Embeddings locale** | FastEmbed, ONNX Runtime, `intfloat/multilingual-e5-small` |
 | **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
 | **Scorul fragmentelor** | `8·P1 + 4·P2 + 2·L + V`, cu priorități stricte pentru afecțiunea din titlu și din text |
-| **Generare AI** | xAI Responses API, răspuns JSON structurat |
+| **Generare AI** | Responses API (xAI, Hugging Face sau Ollama, după `AI_PROVIDER`), răspuns JSON structurat |
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
 | **Configurare** | python-dotenv, variabile de mediu |
@@ -192,7 +192,7 @@ Pentru embeddings, un fragment mai lung de `MAX_CHARS = 1400` este împărțit �
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` și fișierul local `.env` cu cheia xAI și `POSTGRES_PASSWORD`. Serviciul `db` (Postgres + `pgvector`) pornește automat împreună cu restul stivei.
+Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`) și `POSTGRES_PASSWORD`. Serviciul `db` (Postgres + `pgvector`) pornește automat împreună cu restul stivei.
 
 ```powershell
 docker compose build
@@ -220,10 +220,24 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 
 | Variabilă | Implicit | Rol |
 |---|---:|---|
-| `X_API_KEY` | — | Cheia necesară pentru generarea raportului. |
+| `AI_PROVIDER` | `xai` | Furnizorul AI pentru generarea raportului: `xai`, `huggingface` sau `ollama`. Valoare necunoscută → eroare la pornire; schimbarea cere repornirea aplicației. |
+| `X_API_KEY` | — | Cheia xAI (necesară cu `AI_PROVIDER=xai`). |
 | `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
+| `HF_TOKEN` | — | Token Hugging Face fine-grained cu permisiunea „Make calls to Inference Providers” (necesar cu `AI_PROVIDER=huggingface`). |
+| `HF_MODEL` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | Modelul prin routerul HF; sufixul `:deepinfra` fixează furnizorul. |
+| `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF (Responses API, beta). |
+| `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
+| `HF_MAX_CONTEXT_CHARS` | `120000` | Limita de context prin routerul HF (≈ 64k tokeni); bugetul efectiv este minimul dintre aceasta și `MAX_CONTEXT_CHARS`. De calibrat după Faza 0 din `architecture/ai-provider-switch-plan.md`. |
+| `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
+| `OLLAMA_MODEL` | `deepseek-v4.1-flash:cloud` | Modelul Ollama (`:cloud` rulează pe serverele Ollama, după `ollama signin`). |
+| `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
+| `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
+| `OLLAMA_MAX_CONTEXT_CHARS` | _(fără limită proprie)_ | De setat pentru modele locale mici. |
+| `AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
+| `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
+| `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
 | `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
@@ -271,7 +285,7 @@ Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebu
 - 🔒 `.env` și cache-ul modelului sunt ignorate de Git; indexul locuiește în Postgres, nu în fișiere din repo.
 - 🧭 fiecare fragment rămâne legat de fișierul și liniile sursă;
 - 🧹 conversațiile și PDF-urile sunt temporare, separate pe sesiune și eliminate la închiderea tabului, la expirare sau la repornirea aplicației;
-- 🚫 requesturile xAI folosesc `store=false`;
+- 🚫 requesturile xAI folosesc `store=false` (pentru Hugging Face și Ollama parametrul nu se trimite; se aplică politicile lor de retenție);
 - 🩺 răspunsurile sunt informative și trebuie verificate medical înainte de utilizare.
 
 ## 🧪 Testare

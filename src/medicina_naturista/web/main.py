@@ -23,7 +23,7 @@ from pydantic import BaseModel, Field
 
 from medicina_naturista.config import settings
 
-from medicina_naturista.ai.client import AIUnavailable, XAIClient
+from medicina_naturista.ai.client import AIUnavailable, create_ai_client
 from medicina_naturista.integrations.gmail import EMAIL_SKIPPED, send_report
 from medicina_naturista.reporting.pdf import create_pdf
 from medicina_naturista.ai.conditions import resolve_query
@@ -122,16 +122,18 @@ def _category_node_payload(tree, node_id: str) -> dict:
     }
 
 
-ai = XAIClient(settings)
+ai = create_ai_client(settings)
 
 
 @asynccontextmanager
 # Start periodic session cleanup on startup and close background resources on shutdown.
 async def lifespan(app: FastAPI):
     logger.info(
-        "application_started documents=%s log_fragment_text=%s",
+        "application_started documents=%s log_fragment_text=%s ai_provider=%s ai_model=%s",
         settings.documents_dir,
         settings.log_fragment_text,
+        ai.provider.name,
+        ai.provider.model,
     )
 
     # Periodically remove expired sessions from the in-memory store.
@@ -263,14 +265,17 @@ async def session_and_limits(request: Request, call_next):
 
 
 @app.get("/healthz")
-# Report application readiness only when the xAI credential is configured.
+# Report application readiness only when the active AI provider's credential is configured.
 def healthz():
     try:
-        configured = bool(settings.api_key())
+        configured = ai.is_configured()
     except (OSError, UnicodeError):
         configured = False
     if not configured:
-        raise HTTPException(status_code=503, detail="Secretul xAI lipsește sau nu este un fișier valid.")
+        raise HTTPException(
+            status_code=503,
+            detail=f"Secretul {ai.provider.label} ({ai.provider.api_key_env}) lipsește sau nu este un fișier valid.",
+        )
     return {"status": "ok", "index": "ready"}
 
 
@@ -425,7 +430,7 @@ def post_search(request: Request):
     with session.lock:
         before = len(session.history)
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
-        evidence = retriever.collect(session)
+        evidence = retriever.collect(session, ai.context_budget())
         logger.info(
             "report_stage_completed stage=retrieval tab_id=%s evidence_entries=%s evidence_chars=%s",
             session.tab_id,

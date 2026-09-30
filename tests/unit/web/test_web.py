@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import io
 import os
+from dataclasses import replace
 import tempfile
 import unittest
 from pathlib import Path
@@ -46,6 +47,10 @@ class FakeAI:
     def close(self):
         pass
 
+    # Evidence budget the active provider allows (see ResponsesClient.context_budget).
+    def context_budget(self):
+        return 123_456
+
     # Return one deterministic evidence-backed recommendation for UI tests.
     def generate(self, profile, evidence):
         type(self).generate_calls += 1
@@ -61,8 +66,11 @@ class FakeAI:
 
 
 class FakeRetriever:
+    max_chars = "unset"
+
     # Return a small deterministic evidence inventory for report tests.
-    def collect(self, session):
+    def collect(self, session, max_chars=None):
+        type(self).max_chars = max_chars
         return {
             "C1": {
                 "source": "documents/plan.md:1-5",
@@ -401,7 +409,7 @@ class WebTests(unittest.TestCase):
     # Verify the Responses API payload and ensure only one HTTP request is sent.
     def test_responses_api_sends_exactly_one_http_request(self):
         with patch.dict(os.environ, {"X_API_KEY": "synthetic-test-key"}):
-            client = XAIClient(settings)
+            client = XAIClient(replace(settings, ai_stream=False))
             calls = []
 
             # Capture the outgoing request and return a valid synthetic response.
@@ -421,6 +429,24 @@ class WebTests(unittest.TestCase):
         self.assertEqual(request["text"]["format"], {"type": "json_object"})
         self.assertEqual(request["max_output_tokens"], 321)
         self.assertNotIn("messages", request)
+
+    # /healthz answers 200 when the active provider's credential is present and
+    # 503, naming the variable, when it is not.
+    def test_healthz_follows_the_active_providers_key(self):
+        from medicina_naturista.ai.client import create_ai_client
+
+        for provider, variable in (("xai", "X_API_KEY"), ("huggingface", "HF_TOKEN")):
+            client = create_ai_client(replace(settings, ai_provider=provider))
+            try:
+                with patch.object(main, "ai", client):
+                    with patch.dict(os.environ, {variable: "synthetic-key"}):
+                        self.assertEqual(self.client.get("/healthz").status_code, 200)
+                    with patch.dict(os.environ, {variable: ""}):
+                        response = self.client.get("/healthz")
+                        self.assertEqual(response.status_code, 503)
+                        self.assertIn(variable, response.json()["detail"])
+            finally:
+                client.close()
 
     # Verify conversation history (transcript, health_context) is excluded from
     # search queries — only the health problem itself should drive retrieval.
@@ -477,7 +503,7 @@ class WebTests(unittest.TestCase):
             )
             document_count = 15
 
-            def collect(self, session):
+            def collect(self, session, max_chars=None):
                 return {}
 
         sid, tab = "H" * 43, "tab-doccount1"
@@ -535,7 +561,7 @@ class WebTests(unittest.TestCase):
             category_tree = None
             document_count = 3
 
-            def collect(self, session):
+            def collect(self, session, max_chars=None):
                 return {}
 
         dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
@@ -584,7 +610,7 @@ class WebTests(unittest.TestCase):
             )
             document_count = 1
 
-            def collect(self, session):
+            def collect(self, session, max_chars=None):
                 raise AssertionError("collect() must not run with nothing selected")
 
         with patch.object(main, "retriever", RetrieverWithCategories()):
@@ -704,6 +730,7 @@ class WebTests(unittest.TestCase):
             messages = _send(self.client, sid_a, tab_a, "Gripă și răceală", [])
             self.assertTrue(any("Caut rapid în cele" in m.get("content", "") for m in messages))
             self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
+            self.assertEqual(FakeRetriever.max_chars, 123_456, "retrieval must use the provider's budget")
 
             fragments = _by_kind(messages, "fragments")
             generate = _by_kind(messages, "generate")
@@ -1005,6 +1032,25 @@ class WebTests(unittest.TestCase):
             evidence = retriever.collect(session)  # must not raise
 
         self.assertEqual(evidence, {})
+
+    # The provider's evidence budget reaches rank() as max_chars; without one
+    # rank() receives None and keeps settings.max_context_chars.
+    def test_collect_passes_the_provider_budget_to_rank(self):
+        profile = HealthProfile()
+        profile.set_health_problem("gripa")
+        session = type("SyntheticSession", (), {"profile": profile})()
+        retriever = Retriever(settings.documents_dir)
+        captured = []
+
+        def fake_rank(_query, **kwargs):
+            captured.append(kwargs.get("max_chars"))
+            return []
+
+        with patch("medicina_naturista.ai.retrieval.rank", side_effect=fake_rank):
+            retriever.collect(session, 120_000)
+            retriever.collect(session)
+
+        self.assertEqual(captured, [120_000, None])
 
     # Verify long evidence sent to the AI retains its semantic section heading.
     def test_retrieval_context_prefixes_heading_for_long_chunks(self):
