@@ -1,5 +1,3 @@
-<!-- Pagina PDF 1 -->
-
 # Vindecare prin nutriție
 
 **Autor: Phyllis A. Balch**
@@ -8,8 +6,6 @@
 
 <!-- Text extras din stratul OCR al PDF-ului; grafia și eventualele erori OCR au fost păstrate. -->
 
-
-<!-- Pagina PDF 2 -->
 
 Prescription for Nutritional Healing
 Phyllis A. Balch
@@ -41,8 +37,6 @@ ISBN 978-606-686-622-4
 L Ulici, Aurelia (crad.)
 6132
 615.322
-
-<!-- Pagina PDF 3 -->
 
 ## Cuprins
 
@@ -146,8 +140,6 @@ Boala maniaco-depresivă/tulburare
 Boala Mâniâre........ oo oieiie eee eee oo 245
 Boala osoasă Pager........iiiiiisiiiiii s eee n eee teenenoteneene a 247
 o
-
-<!-- Pagina PDF 4 -->
 
 Boala Parkinson.......eiiissire ee c eee tesnet ee eee t s a r GR ANR eR A 250
 Boala parodontală........oeiiii e i ee t ee eee tt eee eneietatea 254
@@ -266,8 +258,6 @@ Hernie hiatală.......... oo eee ee aea eee s eee oo r a r ee a 509
 Herpes bucal (herpes de febră)............. oo iciiea a 509
 Herpes ZOSTEr........iiesiissiiao eee e eee t eee ee ee eee eee a 511
 
-<!-- Pagina PDF 5 -->
-
 HipertiroidisMm......riiseieii s e rr at s eeă rA eee 517
 Hipertrofie benignă de prostată.........iiiiieieiiiiiieiiieiene 518
 Hipoglicemie (nivel scăzut al zahărului în sânge)......... 518
@@ -385,8 +375,6 @@ Rubeolă (pojărel).......oliceiii eee ee eee ee eee 733
 Sarcom Kaposis..........isiiii o -o e t e ă o a eee n ee 735
 Sâni fibrochistici.........iieiii o oei lee eee e a aen ee et ee caaatnne eee 735
 
-<!-- Pagina PDF 6 -->
-
 Schizofrenie.........isssceiiii a tenett oe s ee ADE OOTT DRR E ATR RRR AA 738
 SCIATICĂ.,.ooierosecesn eee eee eee TE P EPA EST O E EESE DE GAATT RRR 741
 Scleroză multiplă...........siiiiiiii e t s tt a eee a ee eee 741
@@ -501,8 +489,6 @@ Terapie TENS..iciecice eee eeiee eee eee s s e ant se tnt a eee at eee 900
 — SUSEUSETUESSEUTEUUEETEUTESTFETUTEEESEETSEUSESIETUTOU TURT TETIEAVEAISAUNUNI 900
 Glosar.ioeiiieeereei ee eee s eea eee o a a teeT aRT EA ES EE OT TT PA 905
 
-<!-- Pagina PDF 7 -->
-
 ## Prefață
 
 Un om înțelept trebuie să socotească sănătatea drept
@@ -596,8 +582,6 @@ nu pot și nu trebuic să înlocuiască sfatul medicului curant, a cărui
 consultare este obligatorie pentru a găsi diera adecvată fiecăruia, dozele
 putea cele mai echilibrate (care variază de la individ la individ) și momentul
 optim pentru utilizarea suplimentelor de nutriție.
-
-<!-- Pagina PDF 8 -->
 
 ## CUM
 
@@ -695,8 +679,6 @@ Suplimentele nutriționale sunt concentrate și pot supra-
 mărește gradul de absorbție și este utilă în transportul
 nutrienților spre celule.
 
-<!-- Pagina PDF 9 -->
-
 Dacă urmați un program de suplimentare nutrițională
 mai mult de un an, schimbați periodic mărcile, ca să nu
 dezvoltați intoleranță sau să creați rezistență la unul sau
@@ -713,15 +695,11 @@ cont, totuși, că aproape toți avem nevoie de suplimente
 cu nutrienții de bază pentru o sănătate optimă și pentru
 prevenirea bolilor.
 
-<!-- Pagina PDF 10 -->
-
 ## PARTEA ÎNTÂI
 
 ## Noțiuni fundamentale
 
 ## despre sănătate
-
-<!-- Pagina PDF 11 -->
 
 ### Introducere
 
@@ -821,8 +799,6 @@ a nutrienți adecvați. Înțelegând principiile nutriției holistice
 tă, vă puteți menține un echilibru armonios, așa cum a fost
 acesta conceput de natură.
 
-<!-- Pagina PDF 12 -->
-
 Partea întâi a acestei cărți vă va ajuta să înțelegeți rolul
 vitaminelor, al mineralelor, al aminoacizilor, al enzimelor, al
 substanțelor utile din plante și al altor nutrienți de care aveți
@@ -836,8 +812,6 @@ tibilul de care au nevoie ca să funcționeze bine. Nutrienții
 recomandați în această carte ajută la vindecare și la o stare
 de bine, permițând organismului să se lecuiască și să se
 refacă singur.
-
-<!-- Pagina PDF 13 -->
 
 ## Nutriție, dietă și vitalitate
 
@@ -940,8 +914,6 @@ ce- f benefic pentru unele persoane care suferă de tulburări
 psihice periodice și/sau de depresii.
 Când alegeți alimente bogate în carbohidrați optați
 pentru alimente nerafinate, cum ar fi fructele, legumele,
-
-<!-- Pagina PDF 14 -->
 
 mazărea, fasolea și produsele din făină integrală, în loc de
 alimente rafinate și procesate, cum sunt băuturile dulci,
@@ -1053,8 +1025,6 @@ creați o proteină completă care este un substitut de calitare
 pentru carne. Ca să realizați o proteină completă, combinați
 Jfasolea cu orice aliment după cum urmează:
 
-<!-- Pagina PDF 15 -->
-
 - orez brun * semințe
 + porumb * grâu
 - nuci * alune
@@ -1165,8 +1135,6 @@ a doua, p. 372).
 Acizii grași polinesaturați se găsesc din abundență în
 uleiurile de porumb, soia, șofrănel și de floarea-soarelui.
 Unele uleiuri de pește sunt bogate în acizi polinesaturați.
-
-<!-- Pagina PDF 16 -->
 
 Spre deosebire de grăsimile saturate, grăsimile polinesa-
 turate pot scădea nivelul total al colesterolului în sânge.
@@ -1281,8 +1249,6 @@ mai mari decât cele normale din anumiți nutrienți.
 tudine pozitivă sunt două elemente importante care pot
 preveni oboseala și boala.Dacă stilul de viață include aceste
 
-<!-- Pagina PDF 17 -->
-
 elemente, vă veți simți mai bine și veți avea mai multă
 energie — lucru pe care îl merităm cu toții. Răspunsul
 întrebarea de ce avem nevoie pentru a ne menține sănătatea
@@ -1393,8 +1359,6 @@ seleniu 100-200 mcg
 vanadiu (sulfat de vanadiu) 200 mcg-i mg
 nu zinc 30-50 mg
 
-<!-- Pagina PDF 18 -->
-
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 Aminoacizi*** Dozaje zilnice optime
 acetil-L-carnitină 100-500 mg
@@ -1499,8 +1463,6 @@ acid pantotenic
 vitaminele A, C și E
 vitamina B, (piridoxină) potasiu, complex de
 vitamine B, vitamina C
-
-<!-- Pagina PDF 19 -->
 
 biotină acid folic, complex de
 vitamine B, acid pantoteic
@@ -1614,8 +1576,6 @@ Cine mănâncă multe produse înalt procesate consumă,
 evident, o cantitate semnificativă de aditivi și de ingrediente
 de artificiale.
 
-<!-- Pagina PDF 20 -->
-
 ## Substanțe utile din plante (substanțe fitochimice)
 
 De multă vreme, cercetătorii au constatat că dietele
@@ -1722,8 +1682,6 @@ afecțiune este identificată la naștere, așa că aceia care o
 au știu de ce suferă. Efectele pe termen lung ale celor mai
 mulți aditivi substituenți ai zahărului, incluzând sucraloza,
 sunt necunoscute. Cel mai sigur substitur al zahărului este
-
-<!-- Pagina PDF 21 -->
 
 ## Este aspartamul un substitut sigur al zahărului?
 
@@ -1832,8 +1790,6 @@ au Cele mai multe fructe și legume ar trebui consumate
 enzime întregi, inclusiv coaja care conține nutrienți importanți.
 23
 
-<!-- Pagina PDF 22 -->
-
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 Când mâncați citrice, înlăturați coaja, dar mâncați partea
 albă din interiorul cojii pentru vitamina C și bioflavonoidele
@@ -1929,8 +1885,6 @@ reprezintă o ocazie perfectă de a vă controla aportul de
 sare. În cele din urmă, dacă o puteți vedea, evitați-o —
 exemplu, în gustările sărate, precum covrigeii și chip-
 surile din cartofi.
-
-<!-- Pagina PDF 23 -->
 
 NUTRIȚIE, DIETĂ ȘI VITALITATE
 
@@ -2029,8 +1983,6 @@ uleiuri presate la rece: porumb, șofran, susan,
 uleiuri măsline, soia, floarea-soarelui, rapiță; margarină
 făcută din aceste uleiuri; maioneză fără ou
 25
-
-<!-- Pagina PDF 24 -->
 
 ## Vitamine
 
@@ -2131,8 +2083,6 @@ nevoile reale. Un program gândit pentru menținerea sănă-
 tății va fi diferit de unul care trebuie să ajute la depășire unei
 anume disfuncții.
 Dacă un supliment se dovește eficient, țineți minte
-
-<!-- Pagina PDF 25 -->
 
 din ceea ce doriți, pureți lua mai mult de un
 suficientă Dar țineți cont de doza crescută de nutrienți
@@ -2249,8 +2199,6 @@ timpul sarcinii este asociată cu defecte din naștere, inclusiv
 de cu palatoschizis și cu disfuncții cardiace. E mai bine ca în
 27
 
-<!-- Pagina PDF 26 -->
-
 timpul sarcinii să se ia beta-caroten. Dacă aveți o anumită
 boală care necesită doze mari de vitamina A, folosiți emulsia,
 care nu solicită atât de mult ficatul.
@@ -2357,8 +2305,6 @@ atrofie musculară, nervozitate, amorțire a picioarelor și a
 mâinilor, dureri și sensibilitate, proastă coordonare, senzații
 de furnicături, slăbiciune și dureri musculare, slăbiciune ge-
 nerală și pierdere severă în greutate.
-
-<!-- Pagina PDF 27 -->
 
 Benfotiamina este o formă solubilă în ulei a vitaminei B,
 (care este solubilă în apă). Utilizarea sa este rezervată pentru
@@ -2469,8 +2415,6 @@ durerile de cap, indigestia, insomniile, durerile în membre,
 B, pierderea apetitului, scăderea nivelul de zahăr din sânge,
 slăbiciunea musculară, erupțiile cutanate și inflamațiile.
 
-<!-- Pagina PDF 28 -->
-
 Surse
 Niacina și niacinamida se găsesc în ficatul de vită, drojdie
 de bere, broccoli, morcovi, brânză, făină de porumb, frun-
@@ -2577,8 +2521,6 @@ alimente conțin cea mai mare cantitate: drojdia de bere,
 morcovii, carnea de pui, ouile, peștele, carnea, mazărea,
 spanacul, semințele de floarea-soarelui, nucile și germenii
 grâu. Alte surse includ avocado, bananele, fasolea boabe,
-
-<!-- Pagina PDF 29 -->
 
 melasa, broccoli, orezul brun și alte cereale integrale, varza,
 pepenele galben, porumbul, algele roșii, bananele plantain,
@@ -2691,8 +2633,6 @@ probleme cognitive ar trebui testați pentru a se vedea dacă
 rare, nu au niveluri scăzute de vitamina B,_.
 31
 
-<!-- Pagina PDF 30 -->
-
 Vegetarienii stricți trebuie să știe că pot lua vitamina din
 suplimente, pentru că această vitamină se găsește aproape
 exclusiv în țesuturile animale. Deși persoanele care țin o
@@ -2795,8 +2735,6 @@ Cunoscut și sub numele de folacin, acid folic sau acid ptero-
 ilglutamic (PGA), folatul este considerat hrana creieru-
 lui și este necesar pentru producerea energiei și formarea
 globulelor roșii ale sângelui. Crește imunitatea ajutând la
-
-<!-- Pagina PDF 31 -->
 
 o bună formare și funcționare a globulelor albe din sânge.
 Pentru că funcționează ca o coenzimă în sinteza ADN
@@ -2907,8 +2845,6 @@ rădăcinoase, carne, lapte, melasă nerafinată, stafide, legume
 Consumul unor cantități mari de cafeină poate produce
 o lipsă de inositol în organism.
 
-<!-- Pagina PDF 32 -->
-
 Acid para-aminobenzoic (PABA)
 PABA este unul dintre constituenții de bază ai folatului
 și ajură și la asimilarea acidului pantotenic. PABA poare
@@ -3016,8 +2952,6 @@ o boală rară în societatea occidentală. Mai frecvente sunt
 semnele de carență redusă, care includ sângerare a gingiilor
 la spălarea dinților; creștere a sensibilității la infecții, în
 special răceli și infecții bronșitice; dureri de încheieturi;
-
-<!-- Pagina PDF 33 -->
 
 lipsă de energie, digestie proastă, vindecare dificilă a rănilor;
 tendință de a face vânătăi cu ușurință; cădere a dinților.
@@ -3129,8 +3063,6 @@ cu este nevoie să fie transformată de ficat și apoi de rinichi.
 nu De aceea, persoanele cu tulburări la nivelul ficatului și
 al rinichilor au un mare risc de osteoporoză. Când pielea
 
-<!-- Pagina PDF 34 -->
-
 este expusă la razele ultraviolet, un compus al colesterolului
 din picle se transformă într-un precursor al vitaminei D.
 Expunerea la soare a feței și a brațelor, timp de cincisprezece
@@ -3239,8 +3171,6 @@ deficitului se află sterilitatea (atâr la femei, cât și la bărbați),
 probleme menstruale, dereglări neuromusculare, scurtarea
 vieții globulelor roșii din sânge, avort spontan și degenerare
 
-<!-- Pagina PDF 35 -->
-
 ## Controversa privind vitamina E
 
 O nemulțumire des întâinită printre consumatorii de
@@ -3341,8 +3271,6 @@ Dacă luați vitamina E și suplimente cu fier, luați-le în
 știe momente diferite ale zilei. Forma anorganică de fier (ca
 vita- sulfatul de fier) distruge vitamina E. Fierul organic (gluconat
 feros sau fumarat feros) lasă vitamina E intactă.
-
-<!-- Pagina PDF 36 -->
 
 Precauții
 Dacă luați medicamente anticoagulante, nu luați mai
@@ -3445,8 +3373,6 @@ neacidă de ascorbat de magneziu. Bromelaina și quercitina
 lucrează în sinergie și pot fi luate împreună pentru a mări
 absorbția.
 
-<!-- Pagina PDF 37 -->
-
 Surse
 Ardeii, hrișca, coacăzele negre și partea albă de sub coaja
 citricelorconțin bioflavonoide. Surse de bioflavonoide sunt
@@ -3536,8 +3462,6 @@ strălucitor spre portocaliu și aproape că nu are gust în formă
 tra- de pudră. Trebuie ferită de căldură și lumină. Coenzima
 ani Q„ pură este perisabilă și se deteriorează la temperaturi mai
 la mari de 46*C. Sunt de preferat formele lichide și uleioase.
-
-<!-- Pagina PDF 38 -->
 
 ## Minerale
 
@@ -3634,8 +3558,6 @@ joacă un rol în modul în care corpul folosește energia din
 grăsimi și zaharuri. Multe persoane nu au deficit de bor.
 Cu toate acestea, persoancle în vârstă beneficiază de pe urma
 suplimentelor de 2 sau de 3 miligrame pe zi, din cauză că au
-
-<!-- Pagina PDF 39 -->
 
 probleme mai mari cu absorbția calciului. Carența de bor
 accentuează deficitul de vitamina D.
@@ -3743,8 +3665,6 @@ să acționeze corect. Alte tipuri de medicamente luate cu
 rețetă, cum sunt steroizii și anticonvulsivele (medicamente
 împotriva convulsiilor), afectează metabolismul osos, iar
 suplimentele de calciu îl ajută.
-
-<!-- Pagina PDF 40 -->
 
 Dacă luați calciu odată cu fier, acestea se combină, ceea
 ce face ca ambele minerale să nu fie bine absorbite. Prin
@@ -3856,8 +3776,6 @@ cât și celor cu hipoglicemie. Studiile au arătat că nivelul
 scăzut de crom în plasmă poate indica o boală a arterelor
 coronariene. Suplimentul de crom este necesar în timpul
 
-<!-- Pagina PDF 41 -->
-
 ## Este sigur picolinatul de crom?
 
 Un studiu australian, publicat în Angewandte Chernie
@@ -3954,8 +3872,6 @@ Când iau crom, unele persoane simt ușoare amețeli sau
 iritații ale pielii. Dacă aveți amețeli, nu mai luați supli-
 un mentul și consultați medicul. Dacă aveți iritații, schimbați
 suplimentul sau nu mai luați crom.
-
-<!-- Pagina PDF 42 -->
 
 Cupru
 Printre multele lui funcții, cuprul ajută la formarea oaselor, o
@@ -4057,8 +3973,6 @@ sește în cea mai mare cantitate în sânge. Este esențial pentru
 multe enzime, inclusiv catalaza, și este important în creștere.
 Fierul este necesar și pentru sănătatea sistemului imunitar și
 pentru producerea energiei.
-
-<!-- Pagina PDF 43 -->
 
 Carența de fier este provocată, cel mai adesea, de un aport
 redus de fier. Totuși, aceasta poate proveni din sângerări
@@ -4169,8 +4083,6 @@ din simptome cum ar fi anxietate, dureri de oase, oboseală, res-
 au pirație neregulată, iritabilitate, amorțeli, sensibilitate a pielii,
 tremurături, slăbiciune și variații de greutate.
 
-<!-- Pagina PDF 44 -->
-
 Surse
 Carența de fosfor este rară pentru că acest mineral se găseș-
 te în multe alimente, mai ales în mâncarea preparată și în
@@ -4277,8 +4189,6 @@ diovasculare. Biopsiile musculare vă oferă o imagine mai
 bună asupra aportului de magneziu decâr o fac analizele
 de sânge.
 
-<!-- Pagina PDF 45 -->
-
 Surse
 Magneziul se găsește în multe alimente, în special în produ-
 sele lactate, pește, carne și fructe de mare. Alte alimente
@@ -4383,8 +4293,6 @@ vascular, pe cel renal și pe cel osos. Potasiul din fructe și
 nuci legume conține săruri organice precum malatul și citratul
 care neutralizează urina acidă care poate duce la formarea
 calculilor renali. Potasiul reglează și transferul nutrienților
-
-<!-- Pagina PDF 46 -->
 
 prin membrana celulelor. S-a demonstrat că această funcție
 a potasiului scade odată cu vârsta, ceea ce poate fi cauza
@@ -4492,8 +4400,6 @@ Surse
 Seleniul poare fi găsit în carne și în semințe, în funcție de
 cantitățile de seleniu din sol. Pentru că solul Noii Zeelande
 
-<!-- Pagina PDF 47 -->
-
 este sărac în seleniu, vitele și oile crescute acolo suferă de
 degenerare a mușchilor, chiar a mușchiului inimii. Oricum,
 cantitatea de seleniu necesară oamenilor este asigurată prin
@@ -4599,8 +4505,6 @@ Sulf
 de Este un mineral care se transformă în acid. Face parte din
 structura chimică a aminoacizilor metionină, cisteină,
 
-<!-- Pagina PDF 48 -->
-
 taurină și glutation. Sulful dezinfectează sângele, ajută
 organismul să reziste la bacterii și apără protoplasma celu-
 lelor. Ajută la reacțiile de oxidare din organism, stimu-
@@ -4698,8 +4602,6 @@ Precauții
 Nu luați mai mult de 100 mg/zi de zinc. Doza zilnică mai
 mică de 100 mșg crește răspunsul imunitar, dozele mai mari
 de 100 mg pot inhiba sistemul imunitar.
-
-<!-- Pagina PDF 49 -->
 
 ## SO
 
@@ -4801,8 +4703,6 @@ ozon reprezintă un strat protector împorriva pericolelor
 ale reprezentate de radiațiile ultraviolet (UV). Rezultatul este
 alte creșterea recurenței cancerului de piele și a altor probleme
 provocate de nivelul tot mai mare de radiații UV.
-
-<!-- Pagina PDF 50 -->
 
 În plus, reducerea stratului de ozon a scăzut tempera- nu
 tura stratosferei, iar diferența de temperatură dintre aceasta
@@ -4915,8 +4815,6 @@ viața din lacuri. Arderea combustibililor fosili sau a benzinei,
 a cărbunelui și a uleiurilor folosite de uzine produce acești
 oxizi ai azotului. Cum cererea de energie crește, ne putem
 
-<!-- Pagina PDF 51 -->
-
 aștepta ca emisiile de NO, să crească și, în consecință, să
 creat mai mult ozon, dar și mai mult smog.
 
@@ -4995,8 +4893,6 @@ prepararea altor chimicale.
 Exemplele includ acroleina, formaldehida, acetaldehida și
 beriliul, arsenicul, printre alrele. Cel mai mare pericol vine
 însă tot de la emisiile rezultate în urma arderii motorinei.
-
-<!-- Pagina PDF 52 -->
 
 ### INTRODUCERE
 
@@ -5096,8 +4992,6 @@ bucătărie curge apă de băut sigură, curată și sănătoasă. Din
 nefericire, cel mai adesea nu este așa. Indiferent de sursa
 din care provine apa de la robinet, aceasta este vulnerabilă
 
-<!-- Pagina PDF 53 -->
-
 aștepta ca emisiile de NOx să crească și, în consecință, să fie
 creat mai mult ozon, dar și mai mult smog. d so
 
@@ -5191,8 +5085,6 @@ Exemplele includ acroleina, formaldehida,
 arsenicul, printre altele. Cel mai mare pericol vine
 | beriliul, emisiile rezultate în urma arderii motorinei.
 însă tot de la
-
-<!-- Pagina PDF 54 -->
 
 la diferite tipuri de impurități și poate fi plină de chimicale
 dăunătoare și de minerale anorganice pe care corpul nu le
@@ -5308,8 +5200,6 @@ extinse. Dar dizolvarea țevilor poate fi o problemă chiar cu
 mod țevile din cupru de astăzi. În apa dedurizată din țevile de
 55
 
-<!-- Pagina PDF 55 -->
-
 a
 ajunge cantități periculoase de cupru, fier, zinc decât
 cupru pot Altă potențială problemă creată de apa moale urbane
@@ -5422,8 +5312,6 @@ care au rolul de a transforma metalele grele.
 Filtrele sunt adesea instalate în serie, în așa fel încâr
 mijloacele de filtrare să fie foarte eficiente pentru tipuri
 
-<!-- Pagina PDF 56 -->
-
 ### Metode de tratare a apei potabile
 
 Tip de tratare Configurație Cum
@@ -5517,8 +5405,6 @@ se recipiente reutilizabile.
 În ultima vreme s-au exprimat îngrijorări cu privire la
 posibila infiltrare a particulelor de plastic în apa îmbuteliată
 în astfel de recipiente. Cercetătorii de la Harvard School of
-
-<!-- Pagina PDF 57 -->
 
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 Public Health au descoperit că oamenii care beau din sticle din
@@ -5635,8 +5521,6 @@ fie mai bună decât sifonul îndulcit. Înainte de a cumpăra,
 citiți eticheta. Sifonul, apa gazoasă și apa tonică 2u sunt
 considerate apă îmbuteliată. Sunt tratate separat, pot conține
 
-<!-- Pagina PDF 58 -->
-
 Este greu de înțeles de unde vine carbonatarea apei
 izvor. Este numită apă „natural carbogazoasă“, ceea ce
 seamnă că procesul de carbonatare provine din aceeași sursă
@@ -5674,8 +5558,6 @@ ajută digestia. Sucul de lămâie este un alt agent aromatizant
 adăugate, puteți pune picături de minerale în apa distilată
 prin aburi. Adăugați o linguriță și un sfert cu picături de
 minerale la fiecare 20 de litri de apă.
-
-<!-- Pagina PDF 59 -->
 
 ## Aminoacizi
 
@@ -5775,8 +5657,6 @@ cuți care se combină în diferite moduri, ca să creeze sute
 de tipuri diferite de proteine care sunt prezente în tot ceea
 ce este viu. În corpul uman, ficatul produce aproape 80%
 din aminoacizii necesari. Restul de 20% trebuie să fie obținut
-
-<!-- Pagina PDF 60 -->
 
 din alimentație. Aceștia se numesc 4zminoacizii esențiali.
 Aminoacizii esențiali care trebuie să intre în organism
@@ -5888,8 +5768,6 @@ implicat în acea boală. Vegetarienii, în special veganii, tre-
 buie să aibă grijă să ia o formulă care să conțină aminoacizi
 esențiali ca să-și asigure cantitatea de proteine.
 
-<!-- Pagina PDF 61 -->
-
 ### CE SE GĂSEȘTE PE RAFTURI
 
 Suplimentele cu aminoacizi sunt diponibile în combinație
@@ -5998,8 +5876,6 @@ eze dependență. A fost folosit în tratamentul epilepsiei și al
 hipertensiunii.
 Esre util în tracamentul dependenței de sex, datorită
 acțiunii lui ca relaxant. Este de ajutor în cazuri de mărire
-
-<!-- Pagina PDF 62 -->
 
 a prostatei, probabil pentru că joacă un rol în mecanismul
 care reglează cliberarea hormonilor sexuali. GABA
@@ -6112,8 +5988,6 @@ arătat că ingerarea a 3 grame de arginină pe zi, împreună
 in- cu un supliment de proteine, crește ușor producția de oxid
 nitric și nu face rău.
 
-<!-- Pagina PDF 63 -->
-
 Persoanele cu infecții virale cum este herpesul nu ar
 trebui să ia suplimente cu arginină, evitând, totodată,
 alimentele bogate în arginină și sărace în aminoacidul lizină,
@@ -6221,8 +6095,6 @@ carbohidraților și al proteinelor și în transportul grăsimilor
 în mitocondrii, ducând la creșterea nivelului de carnitină
 din țesuturi și chiar la depășirea capacității metabolice
 a carnitinei. ALC a devenit unul dintre cei mai studiați
-
-<!-- Pagina PDF 64 -->
 
 compuși pentru efectele lui împotriva îmbătrânirii, în
 cial în privința degenerării creierului și a sistemului
@@ -6339,8 +6211,6 @@ Fenilalanină
 în Fenilalanina este un aminoacid esențial. Pentru că poate
 să trece de bariera de sânge a creierului, poate afecta direct
 
-<!-- Pagina PDF 65 -->
-
 chimia cerebrală. Odată pătrunsă în corp, fenilalanina poate
 fi convertită în alt aminoacid, tirozina, care, în schimb, este
 folosită la sinteza a doi neurotransmițători-cheie care susțin
@@ -6447,8 +6317,6 @@ bulelor roșii și la protejarea globulelor albe. Glutationul se
 mai găsește în plămâni și în tractul intestinal. Este necesar
 în metabolizarea carbohidraților și pare să aibă efecte îm-
 potriva procesului de îmbătrânire, ajutând la descompune-
-
-<!-- Pagina PDF 66 -->
 
 Poate combate unele efecte ale fumului de țigară, pentru
 că modifică efectele dăunătoare ale aldehidelor, chimi-
@@ -6561,8 +6429,6 @@ Izoleucina, unul dintre aminoacizii esențiali, este necesară
 pentru formarea hemoglobinei, stabilizând și reglând nivelul
 67
 
-<!-- Pagina PDF 67 -->
-
 de zahăr din sânge și nivelul energiei. Se metabolizează în
 țesutul muscular. Este unul dintre aminoacizii cu trei lan-
 țuri ramificate. Acești aminoacizi sunt importanți pentru
@@ -6671,8 +6537,6 @@ nitoare pentru creier, este înțelept să se suplimenteze dieta cu
 colină sau lecitină (bogată în colină), pentru a ne asigura că
 suplimentul de metionină nu s-a epuizat.
 
-<!-- Pagina PDF 68 -->
-
 Ornitină
 Ornitina ajută la grăbirea secreției hormonului creșterii, care
 contribuie la metabolizarea excesului de grăsime corporală.
@@ -6779,8 +6643,6 @@ inimă, în sistemul nervos central, în mușchii scheletului și
 fi- poate fi de ajutor în tratarea unor tipuri de depresie.
 Pentru că în plante conținutul de treonină este SCĂzut,
 
-<!-- Pagina PDF 69 -->
-
 Triptofan
 Triptofanul este un aminoacid esențial, necesar pentru
 producerea vitaminei B, (niacină). Este folosit de creier în
@@ -6865,8 +6727,6 @@ alele, carnea, ciupercile, arahidele și proteina din soia. Supli-
 mentele cu L-valină trebuie luate întotdeauna în mod echi-
 librat cu alți aminoacizi cu lanțuri ramificate, L-izoleucina și
 L-leucina. (Vezi Izoleucină, p. 67.)
-
-<!-- Pagina PDF 70 -->
 
 ## Antioxidanți
 
@@ -6971,8 +6831,6 @@ ales treacă prin capilare mai ușor. Toată lumea știe că vitamine-
 le E și C sunt surse bune de antioxidanți, dar afina, care
 împo- conține substanțe chimice utile antocianide, acționează
 mici de asemenca ca un antioxidant. Afinele ajută la scăderea
-
-<!-- Pagina PDF 71 -->
 
 tensiunii arteriale, inhibă formarea cheagurilor și cresc
 cantitatea de sânge în sistemul nervos. Studiile arată că
@@ -7085,8 +6943,6 @@ surdității.
 Sursele naturale de coenzima Q,, sunt carnea, arahidele,
 sardinele și spanacul.
 
-<!-- Pagina PDF 72 -->
-
 ### Curcumina (turmeric)
 
 Existentă în mirodenia numită turmeric, curcumina are pro-
@@ -7197,8 +7053,6 @@ N-acetilcisteină sau L-cisteină și L-metionină. Studiile in-
 dică faptul că acesta poate fi cel mai bun mod de a crește
 și nivelul glutationului, dar trebuie să vorbiți cu medicul dacă
 
-<!-- Pagina PDF 73 -->
-
 Metionină
 Aminoacid unic, metionina neutralizează radicalii hidroxil,
 unul dintre cele mai periculoase tipuri de radicali liberi.
@@ -7308,8 +7162,6 @@ crește nivelul de glutation, de superoxid dismutază și de
 catalază, enzime antioxidante puternice care protejează
 ficatul. S-a demonstrat, de asemenea, că reduce rezistența la
 
-<!-- Pagina PDF 74 -->
-
 ## Radicali liberi
 
 Un radical liber este un atom sau un grup de atomi care
@@ -7417,8 +7269,6 @@ tei enzime. Forma cupru/zinc (cunoscută ca Cu/Zn SOD)
 la Aceasta este un fluid apos care înconjoară toate celelalte
 înche- componente celulare. Activitatea metabolică din citoplas-
 urmă, mă are ca rezultat producerea de radicali liberi, iar Cu/Zn
-
-<!-- Pagina PDF 75 -->
 
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 în mitocondrii, structuri din celule în care se produce
@@ -7530,8 +7380,6 @@ Vitamina E
 Vitamina E este un antioxidant puternic care previne oxi-
 darea lipidelor (grăsimi). Oxidarea grăsimilor este implicată
 
-<!-- Pagina PDF 76 -->
-
 în procesul care conduce la ateroscleroză. Vitamina E
 solubilă în grăsime și, pentru că membranele celulelor
 formate din lipide, apără efectiv stratul protector al celulelor
@@ -7559,8 +7407,6 @@ oxidării grăsimilor. În plus, este un constituent al enzimei
 antioxidante superoxid dismutază (SOD). Zincul este nece-
 sar și pentru menținerea unui nivel corect de vitamina E în
 sânge și ajută la absorbția vitaminei A.
-
-<!-- Pagina PDF 77 -->
 
 ## Enzime
 
@@ -7659,8 +7505,6 @@ organe și țesuturi. Fiecare țesut al corpului are propriile
 enzime metabolice.
 Două enzime metabolice foarte importante sunt super-
 oxid dismutaza (SOD) și partenera sa, catalaza. SOD este
-
-<!-- Pagina PDF 78 -->
 
 un antioxidant care apără celulele de atacul celui mai întâl-
 nit radical liber, superoxidul. (Vezi Superoxid dismutază
@@ -7774,8 +7618,6 @@ malelor, este obiect de studiu în cancer, pentru că persoanele
 mai care au cancer adesea suferă de carența acestei enzime. Pan-
 creatina este folosită în tratamentul problemelor digestive,
 
-<!-- Pagina PDF 79 -->
-
 al infecțiilor virale și al accidentărilor sportivilor, precum și
 în insuficiența pancreatică, alergii alimentare, fibroză chis-
 tică, boli autoimune și în alre boli cronice.
@@ -7880,8 +7722,6 @@ bilă de bou, fiecare tabletă având capacitatea de a ajuta la
 digerarea a 34 g de proteină, 120 g de carbohidrați și 21 g
 80
 
-<!-- Pagina PDF 80 -->
-
 de grăsimi. Bila de bou este un supliment benefic pentru
 persoanele cu boli ale vezicii biliare.
 Essential Enzymes este un supliment de enzime cu spectru
@@ -7962,8 +7802,6 @@ celu- și minerale sau cu suplimente vegetale, ajută la digerarea
 alimentelor și la accelerarea distribuirii nutrienților în orga-
 plus nism. Cu toate acestea, nu toate suplimentele de vitamine,
 minerale și de plante au fost testate în studii clinice.
-
-<!-- Pagina PDF 81 -->
 
 ## Suplimente alimentare naturale
 
@@ -8062,8 +7900,6 @@ uleiul de nuci. AGE de tipul omega-6, care include acizii
 linoleic și gamma-linoleic, se găsesc în special în nucile
 crude, în semințe și în legumele cu boabe și în uleiurile
 vegetale nesaturate, cum sunt uleiul de limba mielului,
-
-<!-- Pagina PDF 82 -->
 
 susan și uleiul de soia. Un studiu recent publicat în
 medicală britanică Lancet a subliniat faptul că acizii
@@ -8176,8 +8012,6 @@ pe Este un acid gras antiinflamator și poate ajuta la reduce-
 Ați rea riscului de cancer, diabet, boli de inimă și de boală
 obțineți Alzheimer. Ușurează durerile și inflamațiile; crește eliberarea
 de hormoni sexuali, inclusiv de estrogen și de testosteron;
-
-<!-- Pagina PDF 83 -->
 
 reduce dimensiunea tumorilor canceroase la șobolani.
 Cercetări ulterioare au dovedit că beta-1,3-D-glucanul
@@ -8299,8 +8133,6 @@ reduce reumatică a coloanei.
 Cercetătorii cred că acesta îmbunătățește echilibrul pros-
 colite taglandinelor, care reglează procesele inflamatorii. Castra-
 
-<!-- Pagina PDF 84 -->
-
 de condroitine, absente din organismul persoanelor cu de
 artrită și boli ale țesutului conjunctiv. (Vezi Sulfat de con-
 droitină, p. 99.) În plus, castravetele de mare conține vita-
@@ -8398,8 +8230,6 @@ demonstrat faptul că ar ajuta la controlarea nivelului de
 glucoză, la prevenirea oxidării colesterolului rău, la creșterea
 fluxului de sânge venit de la inimă sau la inhibarea bolii pe-
 riodontale. În Japonia, coenzima Q,, a fost aprobată pentru
-
-<!-- Pagina PDF 85 -->
 
 a fi folosită în tratamentul insuficienței cardiace congestive.
 (Vezi Antioxidanți, p. 72, pentru o caracterizare acoenzimei
@@ -8504,8 +8334,6 @@ preocupați de cancerul de prostată. 7-Keto DHEA este o
 bună alternativă pentru DHEA, fiind mai sigur și având
 aceleași calități.
 87
-
-<!-- Pagina PDF 86 -->
 
 Dimetilglicină (DMG)
 Dimetilglicina (DMG) este un derivat de glicină, cel mai
@@ -8615,8 +8443,6 @@ Fibre
 Existente în multe alimente, fibrele ajută la scăderea ni-
 velului colesterolului în sânge și la stabilizarea nivelului de
 
-<!-- Pagina PDF 87 -->
-
 hemoroizilor, obezității și la ameliorarea multor altor
 Fibrele sunt bune și pentru eliminarea anumitor metale
 toxice din organism. Pentru că procesul de rafinare elimină
@@ -8722,8 +8548,6 @@ Hemiceluloză
 Hemiceluloza nu se digeră și este un carbohidrat complex
 care absoarbe apa. Este bună pentru scăderea în greutate,
 combaterea constipației, prevenirea cancerului de colon
-
-<!-- Pagina PDF 88 -->
 
 și controlul elementelor cancerigene din tractul intestinal.
 Se găsește în mere, banane, fasole, sfeclă, varză, verdețuri,
@@ -8834,8 +8658,6 @@ au o viață mai lungă la raft, dar produsul crud este mai bun
 pentru că este neprocesat. Sunt disponibile și capsule cu ulei
 din germeni de grâu.
 
-<!-- Pagina PDF 89 -->
-
 ### Ginkgo biloba
 
 Planta ornamentală Ginkgo biloba a fost descoperită
@@ -8945,8 +8767,6 @@ fost mai eficientă decât dacă nu ar fi luat nimic și a redus
 probabilitatea de a avea nevoie de o proteză de genunchi.
 ale De asemenea, s-a demonstrat că glucozamina este de ajutor
 
-<!-- Pagina PDF 90 -->
-
 în cazul accidentelor acute, cum sunt cele în urma exerci-
 țiilor fizice. Sportivii cu contuzii recente de genunchi s-au
 vindecat mai repede în termeni de flexiune și de extensie
@@ -9054,8 +8874,6 @@ invers. De aici rezultă gaze, balonare, toxicitate intestinală și
 sistemică, constipație și malabsorbție a nutrienților și dez-
 voltare excesivă a ciupercii candida. Luând un supliment de
 L. acidophilus, toate aceste probleme se rezolvă și se revine
-
-<!-- Pagina PDF 91 -->
 
 la un echilibru sănătos al florei intestinale. În plus, aceasta
 poate ajuta la detoxifierea substanțelor dăunătoare. Între
@@ -9166,8 +8984,6 @@ ele, o bună alegere. Face bine suferinzilor de artrită. Lucerna,
 iarba de grâu, ovăzul și spirulina conțin clorofilă și ajută la
 93
 
-<!-- Pagina PDF 92 -->
-
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 vindecarea ulcerelor intestinale, a gastritelor, a bolilor de de
 ficat, a eczemelor, a hemoroizilor, a astmului, a hiperten-
@@ -9276,8 +9092,6 @@ consideră că există persoane care nu ar trebui să ia acest
 supliment, până nu se vor obține mai multe informații. În
 această categorie intră femeile gravide și cele care alăptează;
 persoanele cu alergii severe sau boli autoimune; persoanele
-
-<!-- Pagina PDF 93 -->
 
 ### nivelului natural de melatonină
 
@@ -9404,8 +9218,6 @@ care | persoane certificat eficiența majorității
 grupuri medicale cunoscute au
 95
 
-<!-- Pagina PDF 94 -->
-
 împotriva răcelii și a gripei. Mierea oferă o
 preparatelor Este un antiseptic natural și
 alternativă naturală și eficientă. îndulcitor cronice
@@ -9524,8 +9336,6 @@ sinergetic cu ingredientul activ. Merck, care vinde Mevacor,
 cerut autorităților arnericane să interzică drojdia de orez
 a
 
-<!-- Pagina PDF 95 -->
-
 că le permită companiilor să continue să ovândă. Cu toate
 acestea, au luat hotărârea că nu mai poate exista nici
 mențțiune despre faptul că ar reduce nivelul de colesterol
@@ -9635,8 +9445,6 @@ apără împotriva radicalilor liberi și crește funcția imună.
 Prin comparație cu proteina din soia, zerul pare mai eficient
 pentru scăderea în greutate.
 
-<!-- Pagina PDF 96 -->
-
 ### Rășină de guar
 
 Vezi Fibre.
@@ -9744,8 +9552,6 @@ proteine (60-70%), aminoacizi esențiali și acizi nucleici
 ARN și ADN, alături de clorofilă și ficocianină, un pigment
 albastru care se găsește în algele albastre-verzi și care a crescut
 rata de supraviețuire a șoarecilor de laborator cu cancer de
-
-<!-- Pagina PDF 97 -->
 
 ficat. Spirulina a fost testată clinic și a demonstrat că are
 varietate de efecte. Cei bolnavi de răceli simple au înregistrat
@@ -9863,8 +9669,6 @@ Fiți colesterol din ser și ajută la digestie. Usturoiul este folosit
 în multe boli, inclusiv în cancer. Este un puternic stimulent
 având
 
-<!-- Pagina PDF 98 -->
-
 consumat zilnic. Poate fi mâncat proaspăt, luat ca supliment
 sau folosit la prepararea uleiului de usturoi.
 Usturoiul conține un aminoacid derivat, alliin. Când
@@ -9918,8 +9722,6 @@ analize de sânge pentru a stabili nivelul eozinofilelor (un tip
 globule albe) la fiecare trei luni. HTP-Calm este o sursă
 bună de S-HTP Trebuie să evitați acest supliment, dacă
 luați antidepresive.
-
-<!-- Pagina PDF 99 -->
 
 ### INTRODUCERE
 
@@ -10026,8 +9828,6 @@ anumite rezultate dorite.
 unui Numai în ultima sută de ani, chimiștii și farmaciștii au
 izolat și purificat compușii chimici benefici din plante,
 pentru a produce din ei medicamente eficiente și demne de
-
-<!-- Pagina PDF 100 -->
 
 încredere. Aproape 25% din ce se prescrie astăzi sunt (sau au
 fost inițial) derivate ale plantelor. De exemplu:
@@ -10136,8 +9936,6 @@ d'arco, boldo, gheara pisicii, kava, mate, suma, yohimbe
 (nu este recomandată), guarana și floarea pasiunii. De altfel,
 devin disponibile din ce în ce mai multe medicamente
 naturiste provenind din selvă.
-
-<!-- Pagina PDF 101 -->
 
 ## FOLOSIREA PLANTELOR
 
@@ -10257,8 +10055,6 @@ puteți amesteca într-un lichid cum ar fi sucul ori apa pentru
 Este tonice sau le puteți adăuga în supe. Pudrele se găsesc și sub
 plante. formă de capsule sau tablete.
 
-<!-- Pagina PDF 102 -->
-
 Siropuri
 Siropurile se folosesc ca să îmbunătățească gustul amar
 al formulelor din plante medicinale și se administrează ca
@@ -10349,8 +10145,6 @@ eticheta care menționează acest lucru de pe produs.
 standardizate și care conțin un procent anume de ingrediente
 active extrase dintr-o parte anume a plantei, despre care se
 știe că este eficientă.
-
-<!-- Pagina PDF 103 -->
 
 ## PLANTELE ȘI UTILIZAREA LOR
 
@@ -10449,8 +10243,6 @@ Apără rinichii și ficatul. Poate reduce nivelul și ca emolient, dar este și
 zahărului în sânge. Util în indigestii, febră, tuse, colorant alimentar galben-
 arsuri, probleme de piele și pierdere în greutate. portocaliu.
 
-<!-- Pagina PDF 104 -->
-
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 
 ### Plantă Părti Substanțe chimice
@@ -10548,8 +10340,6 @@ creșterea rezistenței fizice și la îmbunătățirea Plantă importantă în 
 funcției sexuale. Are efecte antiinflamatorii și ayurvedică.
 antiimbătrânire. În teste de laborator, a modelat și
 stimulat funcția imunitară.
-
-<!-- Pagina PDF 105 -->
 
 ### SE Substanțe chimice,
 
@@ -10658,8 +10448,6 @@ ca laxativ șicurăță colonul. infestăricu foarte amar.
 de colon, în constipație și În
 107
 
-<!-- Pagina PDF 106 -->
-
 ### Plantă Substanțe chimice
 
 ### (Nume șoalgț;it e utile și conținut Acțiune
@@ -10762,8 +10550,6 @@ sistemul limfatic și este antiseptic urinar.
 Stimulează sistemul imunitar. Crește fluxul sângelui
 învene. Extern, se folosește contra negilor.
 
-<!-- Pagina PDF 107 -->
-
 ### Plantă Părti Substanțe chimice
 
 ## (Nume foîoé e Utile și conținut Acțiune
@@ -10852,8 +10638,6 @@ conțin acid hidrocianic,
 care poate fi otrăvitor. Cele
 mai bune sunt siropul sau
 tinctura.
-
-<!-- Pagina PDF 108 -->
 
 ### Substanțe chimice
 
@@ -10955,8 +10739,6 @@ care afectează ficatul,
 creierul și inima.
 110
 
-<!-- Pagina PDF 109 -->
-
 ### Substanțe chimice
 
 ### Plantă Părți utile și conținut Acțiune
@@ -11053,8 +10835,6 @@ vaginului. crește acțiunea warfarinei
 cele două nuar trebui folosite
 împreună.
 
-<!-- Pagina PDF 110 -->
-
 ### Plantă Substanțe chimice
 
 ### (Nume Părți utile și conținut
@@ -11135,8 +10915,6 @@ a SUA a refuzat să audieze
 cazul. Prinurmare, interdicția
 este în continuare în vigoare
 în Statele Unite.
-
-<!-- Pagina PDF 111 -->
 
 ### Substanțe chimice
 
@@ -11246,8 +11024,6 @@ Ucide plasmodiile (organisme care produc
 pancreatite.
 113
 
-<!-- Pagina PDF 112 -->
-
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 
 ### Plantă Părti Substanțe chimice
@@ -11352,8 +11128,6 @@ Nu se recomandă timp
 îndelungat în perioada
 sarcinii.
 
-<!-- Pagina PDF 113 -->
-
 ### Plantă Părti Substanțe chimice
 
 ### (Nume foî osite utile și conținut
@@ -11440,8 +11214,6 @@ pentru tratarea bolilor cardiovasculare și circulatorii
 împotrivaoboseli; eficient în cazul bolilor
 țesutului conjunctiv, pentru pietre la rinichi, apetit
 și a probleme de somn.
-
-<!-- Pagina PDF 114 -->
 
 ### Plantă Părti Substanțe chimice
 
@@ -11533,8 +11305,6 @@ pentru infecții ale vezicii urinare, boli plante nutrebuie consumate.
 rinichi, obezitate și afecțiuni ale prostatei. Conțin cianide și pot fi toxice.
 Combinată cu sovârfulde apă, este bună pentru
 la rinichi.
-
-<!-- Pagina PDF 115 -->
 
 ### Plantă Părti Substanțe chimice
 
@@ -11634,8 +11404,6 @@ nivelurilor de hormonisexuali, de lipide în sânge și Precauții: Nu trebuie l
 oxidanți. timpul sarcinii și al alăptării.
 Pentru administrare la copii
 vorbiți mai întâicu pediatrul.
-
-<!-- Pagina PDF 116 -->
 
 ### Plantă — Substanțe chimice
 
@@ -11737,8 +11505,6 @@ alcoolismului, a răcelii, a gripei șia problemelor amidon alimentar. Chinezii
 gastrointestinale. folosesc extract de kudzu
 pentru tratarea anginei
 pectorale.
-
-<!-- Pagina PDF 117 -->
 
 ### Plantă Părti Substanțe chimice
 
@@ -11846,8 +11612,6 @@ provoacă sângerări și afecțiuni ale oaselor și utilizare pentru a înlătu
 articulațiilor, pentru boli ale sistemului digestiv și mucegaiurile și bacteriile).
 pielii.
 
-<!-- Pagina PDF 118 -->
-
 ### Plantă Părti Substanțe chimice
 
 ### (Nume folosite utile și conținut Acțiune
@@ -11941,8 +11705,6 @@ scăderea tensiunii arteriale. Bun pentru
 boală infecțioasă, ca și pentru sindromul
 cronice, boli diareice, artrite inflamatorii
 psoriazis.
-
-<!-- Pagina PDF 119 -->
 
 ### Plantă Părti Substanțe chimice
 
@@ -12046,8 +11808,6 @@ părului, înastm și probleme provocate de nu sunt nici solubili în apă,
 menopauză și de menstruație. nici nu sunt descompuși prin
 digestie.
 
-<!-- Pagina PDF 120 -->
-
 ## DESPRE SĂNĂTATE
 
 ### Substanțe chimice
@@ -12150,8 +11910,6 @@ răcelilor, diareii, febrei, bolilor cu transmitere
 bronșitelor,
 sexuală șispasmelor musculare.
 
-<!-- Pagina PDF 121 -->
-
 ### P la n tă P ă r t i S u b sta nț e c h im ice
 
 ### (N u m e f o l o s ite u ti le și c onț in u t Acțiune
@@ -12248,8 +12006,6 @@ intestinelor, reumatismul, turnorile Și ulcerele.
 Tabebuia avellanedae poate ajuta la e T ET
 refacerea pielii după fu expunerea rr la P fungi și drojdii.
 123
-
-<!-- Pagina PDF 122 -->
 
 ### Plantă Substanțe chimice
 
@@ -12358,8 +12114,6 @@ sau de femeile însărcinate ori,
 care alăptează.
 m «
 
-<!-- Pagina PDF 123 -->
-
 ### Plantă Părti Substanțe chimice
 
 ### (Nume folosite utile și conținut
@@ -12445,8 +12199,6 @@ din sânge. Utilă pentru bronșite, probleme
 circulatorii, răceli, tuse, boli de piele și negi
 local). Sursă bună de vitamina C șide alți
 nutrienți.
-
-<!-- Pagina PDF 124 -->
 
 pm DESPRE SĂNĂTATE
 
@@ -12551,8 +12303,6 @@ cu aspirina.
 
 ## ENI
 
-<!-- Pagina PDF 125 -->
-
 ### Plantă Părti Substanțe chimice
 
 ### (Nume folosite utile și conținut Acțiune
@@ -12652,8 +12402,6 @@ sinusurilor prin reducerea mucusului.
 pentru ochi și inflamații, precum și pentru boli
 plămâni.
 
-<!-- Pagina PDF 126 -->
-
 ### Plantă Pării Substanțe chimice
 
 ### (Nume f î, te utile și conținut
@@ -12739,8 +12487,6 @@ Combate afecțiunile de prostată, pietrele la rinichi
 problemele legate de retenția de lichide.
 Ușurează congestia pelvină și calmează sistemul
 nervos. Bună pentru dismenoree.
-
-<!-- Pagina PDF 127 -->
 
 ### Plantă Părti Substanțe chimice
 
@@ -12843,8 +12589,6 @@ persoanelor cu probleme de
 coagulare, cu hipertensiune
 și cu boli de inimă.
 
-<!-- Pagina PDF 128 -->
-
 ### Plantă Părti Substanțe chimice
 
 ### (Nume ț î: t utile și conținut
@@ -12938,8 +12682,6 @@ Echilibrează hormonii sexuali. Ajută la tratarea Numit și helonias.
 sterilității, a ciclului menstrual neregulat și dureros,
 sindromului premenstrual și a bolilor de prostată.
 ajuta la prevenirea avortului spontan.
-
-<!-- Pagina PDF 129 -->
 
 ## r
 
@@ -13060,8 +12802,6 @@ se găsește În numeroase
 suplimente cu multivitamine.
 DE
 
-<!-- Pagina PDF 130 -->
-
 ### Plantă Substanțe chimice
 
 ### (Nume șîrț' ite utile și conținut
@@ -13143,8 +12883,6 @@ sunt grețurile matinale, bufeurile și crampele
 menstruale. Vindecă leziunile provocate de
 stomatită. Combinat cu menta, este bunpentru
 grețurile matinale.
-
-<!-- Pagina PDF 131 -->
 
 ## MEDICINALE
 
@@ -13259,8 +12997,6 @@ usturoi, ghimbir, gențiană, ștevie galbenă, yerba
 de oregon, pau d'arco, rozmarin,
 133
 
-<!-- Pagina PDF 132 -->
-
 c i m i f u g a, ț e l i n ă, c h an c a
 Mușchi g h e r g h i n ă, c a s t a n e p o r c
 l e m n d u l c e, m a c e l a, r e g
@@ -13374,8 +13110,6 @@ e a r a le m n d u l c e, m a ca, m a c e l a, a r m u r a r i u, mirt,
 e r d e, u n g u r a ș, oregano sălbatic,
 babei, trifoi roșu, suma, salcie albă,
 
-<!-- Pagina PDF 133 -->
-
 a n a s o n, a s t r a g a l u s, s
 Tract respirator c h i a n c a p i e d r a, a r ț a r,
 g e n ț i a n ă, c e a i v e r d e,
@@ -13404,8 +13138,6 @@ k a v a, a r m u r a r i u, c o a d a v a c i i, u r z i c ă, p ă t r u n j e 
 m ă c e ș, t r i f o i r o ș u, p a l m i e r p i t i c, p l o p, r ă d ă c i n ă d e
 u i, o r e g a TTTT n o s ă l b a ti c, i g n a m ă s ă l b a t i c ă
 135
-
-<!-- Pagina PDF 134 -->
 
 ## Interacțiunea medicamentelor
 
@@ -13503,8 +13235,6 @@ infinit sau chiar întreruptă definitiv.
 
 În ultimii ani, cercetătorii au aflat că există o clasă de
 enzime (numite enzime CYP) care joacă un rol esențial
-
-<!-- Pagina PDF 135 -->
 
 enzime acționează, în primul rând, în ficat, dar și în anumite
 zone ale tractului intestinal și nu numai. De exemplu, există
@@ -13624,8 +13354,6 @@ triva cancerului de sân). Unele medicamente, propanolol
 și antidepresivele triciclice, de exemplu, scad nivelurile de
 coenzima Q.
 
-<!-- Pagina PDF 136 -->
-
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 S-a demonstrat că unele medicamente scad nivelurile de
 carnitină, incluzând aici vaproatul de sodiu, pivampicilina
@@ -13713,8 +13441,6 @@ menționați celelalte medicamente pe care le luați (sau arătați
 medicului lista). Nu uitați să menționați toate medicamen-
 tele luate fără rețetă.
 
-<!-- Pagina PDF 137 -->
-
 ## DETECTAREA BOLILOR
 
 m u l t o r b o l i d i f e r i t e. Î n t a b e l u l c a r e u r m e a z ă s u n t p r e z e n t a t e c â t e v a d i n t r e c e l e m a i
@@ -13770,8 +13496,6 @@ Dispnee
 de panică; pneumonie. TTTT
 E
 
-<!-- Pagina PDF 138 -->
-
 ## DETECTAREA BOLILOR
 
 **Simptom Cauză posibilă**
@@ -13821,8 +13545,6 @@ Incontinență (urinară) Boli neurologice grave; boală Alzheimer; vaginită at
 pierdere a tonusului muscular; scleroză multiplă; prostatită; probleme psihologice; mobilitate redusă; traumă a
 măduvei spinării; atac cerebral; infecții ale tractului urinar.
 Inflamarea nodulilor limfatici SIDA; orice infecție acută sau cronică; limfom; cancer; otrăvire cu metale.
-
-<!-- Pagina PDF 139 -->
 
 **Simptom Cauză posibilă**
 anxietate; turnoare pe creier; depresie; diabet; reacție la
@@ -13885,8 +13607,6 @@ clamidioză; herpes genital; boli inflamatorii pelvine; p olipi; boli cu transmi
 Scurgeri, mâncărimi vaginale Alergii; cancer;
 ale tractului urinar;vaginite; infecții cu fungi.
 
-<!-- Pagina PDF 140 -->
-
 ## DETECTAREA BOLILOR
 
 **Simptom Cauză posibilă**
@@ -13911,8 +13631,6 @@ ligamente; vene varicoase.
 Urinare frecventă Consum de cafeină sau de alcool: infecție la vezică; cancer; sindrom Cushing; diabet; reacție la droguri;
 consum excesiv de lichide; pietre la rinichi sau la vezică; sarcină; prostatită.
 Vedere dublă Cataractă; comoție; consum excesiv de alcool; boli de ochi; hipertiroidism.
-
-<!-- Pagina PDF 141 -->
 
 ## ABCES
 
@@ -14018,8 +13736,6 @@ carotenoide de pe etichetă. mare siguranță la doze
 naturale mari. Puternic antioxidant;
 (Betatene) ajută la vindecare.
 
-<!-- Pagina PDF 142 -->
-
 Vitaminele din 50 mg din fiecare Pentru refacerea și
 complexul B vitamină B importantă înlocuirea nutrienților
 zilnic (cantitatea din pierduți;ajută la
@@ -14116,8 +13832,6 @@ philus și vitamina B și creșteți cantitatea de lichide — ar
 putea fi de ajutor în procesul de vindecare. În unele cazuri,
 abcesele pot fi sparte, drenate, curățate bine și tratate cu
 antibiotice.
-
-<!-- Pagina PDF 143 -->
 
 Q Pentru vindecarea abceselor aveți nevoie de multă odih-
 nă, lichide, iar pentru calmarea durerii folosiți tampoane cu
@@ -14225,8 +13939,6 @@ potrivite.
 sunt pentru adulți. Pentru copii între 12 și 17 ani, reduceți
 doza la trei sferturi din cantitatea recomandată. Pentru copii
 între 6 și 12 ani, folosiți jurătate din doza recomandată.
-
-<!-- Pagina PDF 144 -->
 
 ### NUTRIENȚI
 
@@ -14336,8 +14048,6 @@ Oxi-Caps Conform indicațiilor Furnizează oxigenul
 de pe etichetă. necesar funcționării
 optime a celulelor.
 
-<!-- Pagina PDF 145 -->
-
 Seleniu 200 mcg zilnic. Dacă Menține elasticitatea Q
 sunteți însărcinată, nu țesuturilor și este un
 depășiți 40 mcg zilnic. antioxidant puternic. trei
@@ -14442,8 +14152,6 @@ turile răcoritoare și alimentele care conțin uleiuri vegetale
 brominate.
 Q Încercați să eliminați produsele lactate timp de o lună.
 
-<!-- Pagina PDF 146 -->
-
 produsele lactate, iar grăsimea conținută de lactate poate
 înrăutăți situația. Produsele lactate moderne și alte produse
 de origine animală conțin adesea hormoni și steroizi care
@@ -14546,8 +14254,6 @@ de tratamentului care este nedureros, fața este mai întâi dată cu
 o cremă abrazivă blândă, ca să se climine pielea moartă, apoi
 se aplică Levulan (acid S-aminolevulinic). Aplicarea face
 bacteriile mai sensibile la lumină. După treizeci de minute,
-
-<!-- Pagina PDF 147 -->
 
 Levulanul este spălat și se expune fața timp de zece minute
 la lumină albastră de mare intensitate (nu ultraviolet), care cu
@@ -14659,8 +14365,6 @@ Pentru copiii între 6 și 12 ani, folosiți jumătate din doza
 recomandată, iar pentru copii sub 6 ani folosiți un sfert din
 cantitatea recomandată.
 
-<!-- Pagina PDF 148 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATOĂBSERVAȚII
@@ -14758,8 +14462,6 @@ Q Ceaiul de zmeur conține flavonoide importante și este
 foarte util.
 Q Trandafirul sălbatic, folosit ca apă de gură, vindecă și ali-
 nă durerea provocată de leziunile din gură.
-
-<!-- Pagina PDF 149 -->
 
 Q Apa de gură cu salcie himalaiană este un antiseptic bun.
 Uleiul de salcie himalaiană poate fiaplicat pe răni pentru a
@@ -14866,8 +14568,6 @@ alcoolici de boli psihice, incluzând depresii, anxietate,
 și de boli de nutriție. Adesea, aceste boli există înainte de
 instaurarea alcoolismului, ceea ce înseamnă că problemele
 nu dispar odată ce încetează să bea; de obicei, este nevoie
-
-<!-- Pagina PDF 150 -->
 
 independent. Totuși, tratamentul precoce
 de un tratament alcool.
@@ -15005,8 +14705,6 @@ ca go n, u n h or m o n c ar e a ju tă l a c reșterea cantității de
 in- glucoză în sânge, care poate crea probleme de metabolism
 și poate afecta producerea unor enzime digestive.
 
-<!-- Pagina PDF 151 -->
-
 Abuzul de sau
 . Probleme ale funcției sexuale sau restosteronului ale menstruației. și Ja d i s f u n cț i i abuz de
 alcool poate duce]a scăderea întrerupe ciclul me n s t r u al l a de
@@ -15139,8 +14837,6 @@ pot varia). administrare
 complexului
 156
 
-<!-- Pagina PDF 152 -->
-
 sau Vitamina
 administrare Conform indicațiilor Adesea lipsă la alcoolici. cu
 sublinguală de pe etichetă. Reduce retenția de apă
@@ -15257,8 +14953,6 @@ pancreasului; benefic
 pentru persoanele
 cu diabet asociat
 alcoolismului.
-
-<!-- Pagina PDF 153 -->
 
 ALE ORGANISMULUI
 « C r e ș
@@ -15394,8 +15088,6 @@ Q C o n s u m a ț i c res c ut e o r g a n i c, ș i ur m a ți un
 pro a sp e t e, d a că es t e p os ib i l trebuie
 suplimente alimentare. Hrana principală
 program cu
-
-<!-- Pagina PDF 154 -->
 
 cerealele integrale și narcotic
 să fie legumele și fructele proaspete, alcool,
@@ -15534,8 +15226,6 @@ s tă abstinență, își va distruge
 niciodată să consume alcool.
 159
 
-<!-- Pagina PDF 155 -->
-
 Medicamentul naltrexonă (ReVia) blochează efectele de
 Q plăcute ale opioidelor endogene, substanțe asemănătoare cu
 opiul, eliberate de creier ca răspuns la alcool, și îi poate ajuta A
@@ -15644,8 +15334,6 @@ care au avut cancer de sân și care beau alcool prezintă risc
 crescut de recurență. Deși alcoolul pare să afecteze femeile
 cu tumori la sân estrogen-pozitive, toate femeile care
 
-<!-- Pagina PDF 156 -->
-
 prezintă risc de cancer de sân ar trebui să se gândeascăsă
 renunțe la alcool. Cu cât consumă mai mult alcool și cu cât
 bea mai mulți ani, cu atât o femeie își crește șansele de a-i fi
@@ -15748,8 +15436,6 @@ rozmarin și ruginiță. Aceste plante sunt utile și în cazul
 oamenilor pentru alungarea insectelor.
 este Precauții: Nu folosiți busuiocul cerbilor în timpul sarci-
 șoc nii. Evitați uzul excesiv și/sau prelungit.
-
-<!-- Pagina PDF 157 -->
 
 Q Levănțica poate fi de folos la calmarea mâncărimilor.
 Q Se pot freca zonele de piele expuse cu ulei de arbore de
@@ -15854,8 +15540,6 @@ provoacă encefalita, o inflamație a creierului. Păianjenii,
 care, de fapt, nu sunt insecte, pot provoca efecte similare.
 Văduva ncagră și păianjenul-pustnic, păienjeni extrem
 
-<!-- Pagina PDF 158 -->
-
 (Vezi Mușcături de păianjen și înțepături de scorpion, Partea
 a doua, p. 604.) Albinele, bărzăunii și viespile galbene
 pot înțepa ca măsură de autoapărare sau ca să-și omoare
@@ -15958,8 +15642,6 @@ Precauții: Drojdia de bere poate provoca o reacție alergică.
 vreun simptom de reacție alergică.
 Q Ca să evitați înțepăturile de insecte, încercați să faceți o
 baie cu clor foarte diluat, înainte de a ieși din casă. Adăugați
-
-<!-- Pagina PDF 159 -->
 
 o cană de clor la o cadă de baie. Insectelor nu le place
 mirosul. Este util și să înotați în apa din piscină tratată cu
@@ -16065,8 +15747,6 @@ dintre cele mai cunoscute alimente alergene pentru adulți
 sunt creveții, homarul, crabii, căpșunele, ciocolata, scoicile,
 alunele și nucile de toate felurile, peștele și ouile. În cazul
 copiilor, ouăle, laptele, arahidele, soia și grâul sunt prin-
-
-<!-- Pagina PDF 160 -->
 
 ouă, soia și grâu, dar au alergii și la arahide sau la alune de
 pădure, pește și creveți. În mod normal, dacă au făcut o dată
@@ -16178,8 +15858,6 @@ neral, apoase la început, devenind apoi groase și galbene, în
 timp ce reacția alergică produce o scurgere subțire și limpe-
 de din nas, combinată cu mâncărimi de ochi, gură și piele.
 
-<!-- Pagina PDF 161 -->
-
 În vreme ce motivul răcelii obișnuite nu poate fi descoperit
 cu ușurință, de cele mai multe ori cauza alergiei poate fi
 identificată. Acesta este cel puțin un fapt încurajator pentru
@@ -16280,8 +15958,6 @@ Quercitină 50 mg de 2 ori pe zi. Crește imunitatea și
 scade reacțiile la unele
 alimente, polen și la alți
 alergeni.
-
-<!-- Pagina PDF 162 -->
 
 plus Crește absorbția
 bromelaină 100 mg de 2ori pezi. quercitinei și reduce
@@ -16394,8 +16070,6 @@ cu calciu. sistenelor organismului.
 Folosiți forma de chelat
 de mangan.
 
-<!-- Pagina PDF 163 -->
-
 Polen Începeți cu câteva Întărește sisternul
 granule și creșteți până imunitar. Folosiți polen
 la 2 lingurițe zilnic. proaspăt, de preferință
@@ -16502,8 +16176,6 @@ apără sistemul respirator superior de boli și de deshidratare.
 Alte plante ayurvedice indicate pentru alergii sunt amla
 (Emblica officinalis), guggul (Commiphora mukul) și mulethi
 
-<!-- Pagina PDF 164 -->
-
 (Ghcyrrhiza glabra, cunoscută mai bine sub numele de
 lemn dulce).
 Precauții: Rădăcina de lemn dulce nu ar trebui folosită
@@ -16606,8 +16278,6 @@ ploaie, când nivelul de polen scade semnificativ.
 Q Nu fumați și evitați fumatul pasiv.
 U Evitați să luați aspirină timp de trei ore după fiecare masă.
 
-<!-- Pagina PDF 165 -->
-
 **Observații**
 Q Spray-urile pentru nas cu steroizi pot fi foarte eficiente
 împotriva alergiilor și sunt mai ieftine decât multe medi-
@@ -16695,8 +16365,6 @@ enumerate în tabelul de mai jos. Forme fără sulfiți ale
 unora dintre aceste alimente pot fi găsite în magazinele
 cu produse naturiste.
 
-<!-- Pagina PDF 166 -->
-
 ## ALIMENTE ȘI BĂUTURI CARE CONȚIN ADESEA SULFIȚI
 
 ### Fructe proaspete și legume
@@ -16774,8 +16442,6 @@ Faceți totalul săptămânal pentru fiecare aliment timp de patru
 SENSIBILITATEA LA ALIMENTE
 doua Atreia A patra
 săptămână săptămână săptămână
-
-<!-- Pagina PDF 167 -->
 
 ÎCând vă monitorizați reacțiile la diferite alimente, este
 important să țineți cont de faptul că alergiile alimentare
@@ -16882,8 +16548,6 @@ Odată ce începeți să urmați acest program, veți
 putea constata o creștere a nivelului de energie într-o
 săptămână sau chiar mai puțin.
 
-<!-- Pagina PDF 168 -->
-
 ## Rotația alimentelor: model de meniuri zilnice
 
 ### Mic dejun Prânz
@@ -16969,8 +16633,6 @@ proaspătă rasă, stafide și dressing și semințe de susan
 de ulei de măsline cu lămâie Struguri proaspeți
 Ceai de plante cu gheață, Stafide
 aromat cu suc de struguri Ouăfierte tari
-
-<!-- Pagina PDF 169 -->
 
 ## ALERGII LA SUBSTANȚE CHIMICE
 
@@ -17077,8 +16739,6 @@ pe zi, între mese. Enzimele proteolitice,
 controlează și,
 inflamația. 4
 
-<!-- Pagina PDF 170 -->
-
 L- cisteină 500 mg zilnic. Excelent detoxifiant,
 și înspecial pentru ficat.
 L-metionină Luați pe stomacul gol, - (Vezi Aminoacizi, Partea
@@ -17180,8 +16840,6 @@ dozele recomandate sunt pentru adulți. Pentru copii între
 recomandată. Pentru copii între 6 și 12 ani, folosiți jumătate
 din doza recomandată, iar pentru copii sub 6 ani, folosiți un
 sfert din cantitatea recomandată.
-
-<!-- Pagina PDF 171 -->
 
 ### NUTRIENȚI
 
@@ -17286,8 +16944,6 @@ alăptați.
 Q Pentru durerile în gât, luați extract de gențiană sau
 extract de sunătoare fără alcool. Puneți 6 picături sau 2
 dintr-o pipetă de extract sub limbă și țineți-o acolo câteva
-
-<!-- Pagina PDF 172 -->
 
 minute, înainte de a o înghiți. Faceți acest lucru de patru ori
 pe zi, vreme de trei zile.
@@ -17394,8 +17050,6 @@ prost, infecțiile gastrointestinale, boala Crohn, operațiile
 cale gastrice și uneori chiar vegetarianismul strict. Dacă nive-
 lul de vitamina B,, scade prea mult, rezultatul este lipsă
 
-<!-- Pagina PDF 173 -->
-
 de energie, depresie, indigestie, diaree și anemie. Carența
 prelungită de vitamina B,, face să apară riscul de afecțiuni
 neurologice.
@@ -17495,8 +17149,6 @@ de 3 ori pe zi (cantitățile luate împreună. Este '
 din fiecare vitamină pot recomandată oformă 4
 varia). de administrare “
 sublinguală. 4
-
-<!-- Pagina PDF 174 -->
 
 suplimentar,
 acid pantotenic 50 mgde 3 ori pe zi. Important pentru
@@ -17604,8 +17256,6 @@ Q Dacă sunteți vegetarian strict, supravegheați-vă îndea-
 proape dieta. Este recomandabil să luați suplimente de vita-
 mina B,,. (Vezi Vitamine, Partea întâi, p. 26.)
 
-<!-- Pagina PDF 175 -->
-
 Q Nu fumați. Evitați furnatul pasiv.
 Q Evitați expunerea la plumb și alte metale toxice. (Vezi
 Toxicitate a aluminiului, p. 805, Intoxicație cu cadmiu, p.
@@ -17712,8 +17362,6 @@ mă, amețeli, încetare a menstruației, umflare a gâtului,
 ulcere și leziuni ale esofagului, erodare a smalțului dinților
 din cauza vomei rcpetate, Spargere a Vaselof de Sânge dc pC
 față, ritm cardiac scăzut și tensiune arterială scăzută. În cazuri
-
-<!-- Pagina PDF 176 -->
 
 extreme, lingurile și bețele folosite ca să provoace voma scapă
 în tractul digestiv și sunt scoase prin intervenție chirurgicală.
@@ -17825,8 +17473,6 @@ stomacul gol, înașa fel „prietenoase“ pierdute
 încât să treacărepede prin folosirea laxativelor
 în intestinul subțire. și/sau prin vomă.
 
-<!-- Pagina PDF 177 -->
-
 Complex Conform indicațiilor Necesar pentru
 multimineral de pe etichetă. înlocuirea mineralelor
 pierdute.
@@ -17925,8 +17571,6 @@ mânca nici un aliment care conține grăsime, deoarece cred
 că îi îngrașă. Grăsimea este o componentă esențială a dietei
 și ar trebui inclusă în fiecare masă.
 Q Nu consumați zahăr și evitați produsele din făină albă.
-
-<!-- Pagina PDF 178 -->
 
 Q Evitați alimentele procesate și nesănătoase. Aditivii din
 aceste alimente cresc aversiunea față de mâncare.
@@ -18035,8 +17679,6 @@ infecțiilor pelvine sau chisturilor ovariene). Vârstnicii ar
 trebui să fie foarte atenți la simptomele apendicitei.
 altei Nutrienții și plantele recomandate în această secțiune au
 
-<!-- Pagina PDF 179 -->
-
 care există alte indicații speciale, dozele recomandate aici sunt
 pentru adulți.Pentru copii între 12 și 17 ani, reduceți doza la
 trei sferturi din cantitatea recomandată. Pentru copii între 6
@@ -18126,8 +17768,6 @@ Coenzima-A Conform indicațiilor Ajută la detoxifierea
 de pe etichetă. sistemului imunitar
 de multe substanțe
 periculoase.
-
-<!-- Pagina PDF 180 -->
 
 Complex de 25000 UI zilnic. Toți nutrienții sunt
 multivitamine Dacă sunteți necesari în cantități
@@ -18238,8 +17878,6 @@ nutrienților de către organism.
 Q Dacă fumați, renunțați. Fumatul este una dintre cauzele
 principale ale pierderii apetitului.
 
-<!-- Pagina PDF 181 -->
-
 Q Când încercați să stimulați apetitul, luați în considerare
 aspectul și aroma alimentelor și vedeți dacă mediul influ-
 ențează apetitul.
@@ -18342,8 +17980,6 @@ Concen Trace Conform indicațiilor Hrănește pielea prin
 de pe etichetă. faptul că furnizează
 micromineralele
 necesare.
-
-<!-- Pagina PDF 182 -->
 
 ——
 Dimetilglicină Conform indicațiilor Crește oxigenarea
@@ -18455,8 +18091,6 @@ duse de arsura solară. Puneți 6 căni de ceai de mușețel sau 6
 picături de ulei de mușețel într-o cadă plină cu apă călduță.
 Stați în cadă 30 de minute sau mai mult. Uleiul de lavandă
 
-<!-- Pagina PDF 183 -->
-
 Q Preparați un ceainic mare cu infuzie concentrată de tătă-
 neasă sau gotu kola și lăsați-o să se răcească. Înmuiați un ti-
 fon de bumbac în infuzie ca să faceți o compresă și aplicați-o
@@ -18560,8 +18194,6 @@ Q Pentru o arsură gravă, medicul poate prescrie cremă cu
 sulfadiazină argentica și/sau antibiotice pentru prevenirea
 infecției, curățare de țesutul mort și/sau hidroterapie pentru
 aînlătura pielea moartă. În funcție de locul și de extinderea
-
-<!-- Pagina PDF 184 -->
 
 arsurii, poate fi prescrisă terapie fizică pentru a menține
 mușchii flexibili. Pot apărea contracții musculare de la
@@ -18670,8 +18302,6 @@ aplicați uleiul direct pe cicatricelor.
 rană, odată ce a început Folosiți forma d-alfa-
 vindecarea. tocoferol.
 
-<!-- Pagina PDF 185 -->
-
 Îinc 30m7g de 3 ori pe zi. Necesar pentru Q
 Nu depășiți 100 mg vindecarea țesuturilor.
 zilnic dintoate Q
@@ -18779,8 +18409,6 @@ expunerea la soare. Nu intrați în contact cu solul și evitați să
 lucrați în grădină sau să stați pe iarbă până ce pielea nu este
 complet vindecată.
 
-<!-- Pagina PDF 186 -->
-
 Q Beți multe lichide în faza de vindecare. Sucul cu potasiu
 și băuturile verzi sunt recomandate pentru refacerea rapidă
 țesuturilor. (Vezi Sucuri, Partea a treia, p. 889.)
@@ -18886,8 +18514,6 @@ la ales populația în vârstă de peste 65 de ani. Majoritatea
 celor afectați prezintă unul dintre factorii de risc majori de
 ateroscleroză: fumat, ereditate, hipertensiune, diabet sau
 nivelul anormal de ridicate ale colesterolului.
-
-<!-- Pagina PDF 187 -->
 
 Ateroscleroza periferică, numită și arterioscleroză obli-
 terantă, este un tip de boală vasculară periferică în care sunt
@@ -18995,8 +18621,6 @@ semințe de conjunctiv, incluzându-l
 struguri pe cel al sistemului
 cardiovascular.
 
-<!-- Pagina PDF 188 -->
-
 L-cisteină 500 mg zilnic, pe Contribuie la arderea
 stomacul gol.Luați grăsimiiși la formarea
 Cu apă sau Cu SuC. mușchilor.
@@ -19101,8 +18725,6 @@ arteriale (PAD), în fiecare an Society of Interventional
 Radiology recomandă să se depună eforturi mai intense
 de investigare prin testul indexului brahial (ABI). Această
 procedură simplă, nedureroasă, testează presiunea sângelui
-
-<!-- Pagina PDF 189 -->
 
 din picioare, în raport cu cea din brațe. Raportul indică
 modul în care sângele circulă sau nu la un nivel acceptabil și
@@ -19214,8 +18836,6 @@ sunt prima sursă de invaliditate din SUA.
 Artrita nu este o boală recentă. Arheologii au descoperit
 dovezi ale bolii la scheletele omului de Neanderthal și ale
 
-<!-- Pagina PDF 190 -->
-
 mamiferelor preistorice și chiar la dinozauri. Cu toate
 acestea, oamenii de știință nu au găsit dovezi concludente
 despre originea bolii, deși aceasta afectează omenirea de
@@ -19325,8 +18945,6 @@ care afectează coloana. Spondilita anchilozantă este cea mai
 coloanei încep să se inflameze, apoi devin rigide. Dacă afec-
 tează doar partea de jos a spatelui, spondilita anchilozantă,
 
-<!-- Pagina PDF 191 -->
-
 teoretic, nu duce la limitarea mișcării. În unele cazuri,
 totuși, Întreaga coloană devine rigidă și curbată. Dacă arti- | de
 culațiile dintre coaste și coloană sunt afectate, apar pro-
@@ -19430,8 +19048,6 @@ injectabilă, sub
 supraveghere medicală.
 Trimetilglicină 500-1 000 mg Reduce nivelul
 (TGM) dimineața. homocisteinei.
-
-<!-- Pagina PDF 192 -->
 
 Vitamina E 200 UI zilnic. Puternic antioxidant
 care apără articulațiile
@@ -19545,8 +19161,6 @@ care îÎnconjoară nervii.
 Previne deteriorarea
 nervilor.
 
-<!-- Pagina PDF 193 -->
-
 Wtamina C 3 000-10 000 mg Puternic gunoier al
 plus zilnic, în doze împărțite. radicalilor liberi, ajută
 bioflavonoide și la calmarea durerilor
@@ -19658,8 +19272,6 @@ Persoanele care iau medicamente pe rețetă pentru sub-
 folosi spilcuța, din moment ce combinația poate provoca
 hemoragie internă.
 
-<!-- Pagina PDF 194 -->
-
 Q Ghimbirul este un antioxidant puternic, care are efecte
 antiinflamatorii. Componenta activă este gingerolul. Ghim-
 birul inhibă prostaglandinele care produc durerile.
@@ -19764,8 +19376,6 @@ mator nonsteroidian, evitați sodiul (sarea), care determină
 retenția de lichide. Împărțiți dozele din aceste medicamente
 pe tot parcusul zilei, luați-le numai după ce mâncați și luați
 
-<!-- Pagina PDF 195 -->
-
 ## I
 
 ## 1
@@ -19859,8 +19469,6 @@ b r u s c ș i, d e o b i c e i, d i s p a r d u p ă c â t e v a z i l e s a u
 sin g u r ă art i cu la ț ie o d ată, în s p e c ia l înch e ie t u r a d ege tu l u i
 s â n g e, s e d e p ozit ea ză în în c h e ie tu ră ș i p r o v oac ă d u r e ri
 
-<!-- Pagina PDF 196 -->
-
 și o umflătură care sunt asociate cu guta. La persoanele
 numită uricază, care oxidează acidul uric, relativ insolubil,
 crescute de acid uric și apoi la gută sunt obezitatea, dieta
@@ -19953,8 +19561,6 @@ albe care funcționează ca „marcă de nume“.) Existența
 neapărat spondilită, ci că este mai predispusă la această
 bărbații cu vârste între 16 și 35 de ani, dar poate afecta și
 ale coloanei.
-
-<!-- Pagina PDF 197 -->
 
 Întrebați medicul ce agent de protecție ați putea lua odată
 cu respectivul antiinflamator nonsteroidian, în special
@@ -20059,8 +19665,6 @@ Q Acizii grași esențiali omega-3 din uleiul de pește pot ușura
 simptomele artritei reumatoide prin suprimarea reacției
 sistemului imunitar care determină inflamarea articulațiilor.
 Numeroase studii din ultimii zece ani au demonstrat că
-
-<!-- Pagina PDF 198 -->
 
 au luat doze mari de suplimente cu ulei de pește (2,5 g până
 la 5 g zilnic) în timpul mesei, au avut articulațiile mai puțin
@@ -20171,8 +19775,6 @@ cament, doctorul va trebui să facă o analiză a enzimelor
 hepatice din sânge.
 209
 
-<!-- Pagina PDF 199 -->
-
 Q Pentru unele forme de artrită pot fi prescrise medicamen-
 te ca hidroxiclorochina (Plaquenil) și compuși ai aurului
 (Ridaura).
@@ -20281,8 +19883,6 @@ că activitatea astmatică poate fi redusă prin diminuarea
 activității a două gene anume. Importanța cercetării, spun
 ei, stă mai degrabă în faptul că oamenii de știință au acum
 
-<!-- Pagina PDF 200 -->
-
 posibilitatea să fabrice un medicament care mai curând
 prevină astmul, decât să trateze simptomele.
 Acest studiu bazat pe genetică este o piatră de hotar
@@ -20380,8 +19980,6 @@ periculoase.
 Dimetilglicină Conform indicațiilor Crește oxigenarea
 (DGM) de pe etichetă, în țesutul pulmonar.
 de 2 ori pe Zi.
-
-<!-- Pagina PDF 201 -->
 
 L-cisteină 500 mg de 2ori pezi, Repară țesutul
 pe stomacul gol. Luați pulmonar și reduce
@@ -20491,8 +20089,6 @@ relaxează bronhiolele, ceea ce calmează simptomele de res-
 pirație șuierătoare în cazul crizei astmatice.
 U Uleiul din semințe de chimen negru (Nigella sativa) a
 fost folosit în tratamentul alergiilor în principal în Orientul
-
-<!-- Pagina PDF 202 -->
 
 Mijlociu. Cele mai bune semințe vin din Egipt. Aceste
 semințe conțin mai mult de o sută de elemente chimice,
@@ -20604,8 +20200,6 @@ astm. (Vezi Stres, Partea a doua, p. 797.)
 alte tipuri de fum și aminoacidul triptofan.
 213
 
-<!-- Pagina PDF 203 -->
-
 Q Dacă suspectați că acarienii din praf sunt vinovați de
 simptomele de astm, încercați să climinați insectele micro- și
 scopice. Există aspiratoare care distrug acarienii. Aplicarea
@@ -20708,8 +20302,6 @@ corticosteroid, o suspensie de inhalar, Budesonide (Pulmicort
 Respules), un hormon sintetic, care este gândit să fie folosit o
 dată sau de două ori zilnic, pentru prevenirea crizei, dar nu
 este folosit pentru a trata crizele acute. Criza acută este cel
-
-<!-- Pagina PDF 204 -->
 
 Medicamentul este, în general, bine tolerat, dar pot apărea
 efecte secundare — infecții respiratorii, tuse și congestie.
@@ -20823,8 +20415,6 @@ de persoanele cu autism sunt afectate variază mult. De fapt,
 crearea termenului afecțiuni din spectrul autismului (ASD),
 la pentru a fi folosit în locul termenului mai vechi „autism“,
 
-<!-- Pagina PDF 205 -->
-
 care descrie, în realitate, doar cea mai severă formă a afec-
 țiunii. Alte ASD includ sindromul Asperger, sindromul *
 Rett, tulburarea dezintegrativă a copilăriei și tulburarea de +
@@ -20934,8 +20524,6 @@ posibilă problemă în interiorul creierului. Se știe că autismul
 nu este provocat de neglijența părinților sau de vreo acțiune
 a lor, așa cum se credea odată.
 
-<!-- Pagina PDF 206 -->
-
 A fost o vreme când se făcea legătura între vaccinul
 ROR (rujeolă-oreion-rubeolă) și apariția autismului. Un
 raport prezentat în mai 2004 de Comitetul pentru Evaluarea
@@ -21043,8 +20631,6 @@ bioflavonoide (Vezi Spălătură cu acid
 ascorbic, Partea a
 treia.)
 
-<!-- Pagina PDF 207 -->
-
 Fier Doar la recomandarea Conform unui studiu,
 medicului. 77% din copiii cu autism
 prezentau carență
@@ -21147,8 +20733,6 @@ tități mici, în loc că mâncați trei mese bogate.
 **Observații**
 Q Din punct de vedere medical, nu există nici un tratament
 pentru diferențele din creier rezultate din autism. Cu toate
-
-<!-- Pagina PDF 208 -->
 
 acestea, cercetătorii consideră că tulburarea trebuie înțeleasă
 și oamenii trebuie ajutați să lupte cu numeroasele simpto-
@@ -21256,8 +20840,6 @@ Q Vezi Hipoglicemie, Partea a doua.
 
 Vezi Probleme legate de sarcină.
 
-<!-- Pagina PDF 209 -->
-
 ## BĂTĂTURI ȘI CALUSURI Q
 
 și
@@ -21363,8 +20945,6 @@ poate începe cu douăzeci până la patruzeci de ani înainte
 ca boala să se manifeste. Pe măsură ce boala Alzheimer
 progresează, apar pierderi importante de memorie, mai ales
 a memoriei recente. Persoanele își pot aminti evenimente
-
-<!-- Pagina PDF 210 -->
 
 spectacol văzut la televizor. În acest stadiu, apare, de obicei,
 și dezorientarea. Poate apărea și disfazie (incapacitate de
@@ -21479,8 +21059,6 @@ corp. De fapr, studiul a demonstrat că femeile care beau apă
 cu o cantitate apreciabilă de siliciu prezintă un risc scăzut de
 a face boala Alzheimer.
 
-<!-- Pagina PDF 211 -->
-
 Multe persoane care fac boala Alzheimer au avut rude
 apropiate bolnave, ceea ce sugerează că poate fi implicată
 ereditatea. La vârsta de 90 de ani, riscul este de 50% pentru
@@ -21591,8 +21169,6 @@ acestei vitamine prin dietă. Niacina este necesară respirației
 celulelor, ajută la eliberarea energiei și la metabolizarea
 carbohidraților, a grăsimilor și a proteinelor. Secreția bilei,
 
-<!-- Pagina PDF 212 -->
-
 și multe alte procese au nevoie de această vitamină. Studiile
 au arătat că efectul protector începe de la 17 mg zilnic, cât
 este nevoie pentru un bărbat normal și sănătos (femeile au
@@ -21699,8 +21275,6 @@ natural.
 Vitamina A 15 000 UI zilnic. Carența de antioxidanți
 expune creierul la
 pericolul oxidării.
-
-<!-- Pagina PDF 213 -->
 
 plus Un antioxidant care
 carotenoide 20000 UI zilnic. ajută la transportarea
@@ -21814,8 +21388,6 @@ extractul de ginkgo biloba poate stabiliza și, în unele cazuri,
 îmbunătăți funcția mentală și comportamentul social al
 persoanelor cu boala Alzheimer, fapt confirmat de un alt
 
-<!-- Pagina PDF 214 -->
-
 studiu din 1997. Luați 100 până la 200 mg de extract de
 ginkgo biloba, de trei ori pe zi.
 Precauții: Nu luați ginkgo biloba dacă aveți o afecțiune
@@ -21920,8 +21492,6 @@ Australia poate furniza mai devreme și mai rapid diag-
 nosticul. Inventat la Universitatea din Melbourne, acest
 test detectează limitările fluxului sangvin legate de boala
 Alzheimer. Testul presupune folosirea laserului împreună
-
-<!-- Pagina PDF 215 -->
 
 cu un curent electric slab care activează o substanță chimică
 prin care se analizează fluxul sangvin. Se speră că acest
@@ -22029,8 +21599,6 @@ pezil (Aricept), rivastigmină (Exeleon) sau galantamină
 (Reminyl) — poate ușura unele simptome o perioadă limi-
 tată de timp. Acestea reprezintă prima linie de apărare
 acetilcolinei, un mesager chimic important pentru învățare
-
-<!-- Pagina PDF 216 -->
 
 și memorie. Un nou tip de medicamente, care acum sunt
 singurul tratament neuroprotectiv disponibil, este meman-
@@ -22144,8 +21712,6 @@ amiloidei în creier. Persoanele care moștenesc o copie a genei
 prezintă un risc de a face boala Alzheimer; cei care moștenesc
 227
 
-<!-- Pagina PDF 217 -->
-
 două copii din genele alele sunt supuși unui risc chiar și mai
 mare.
 Q Specialiștii afirmă că este în interesul individului să mear-
@@ -22255,8 +21821,6 @@ pot fi asociate cu boala celiacă, inclusiv bolile de rinichi
 (nefroză), sarcoidoza (formare de leziuni în plămâni, în oase,
 în piele și în alte zone), diabetul zaharat insulinodependent,
 
-<!-- Pagina PDF 218 -->
-
 cronice, sclerodermă, myastenia gravis, boala Addison,
 artrită reumatoidă și sindrom Sjăgren.
 Boala celiacă este, adesea, greu de diagnosticat, pentru
@@ -22365,8 +21929,6 @@ ale membranelor
 mucoasei învelișului
 intestinal.
 
-<!-- Pagina PDF 219 -->
-
 Vitamina K Conform indicațiilor Vitaminele liposolubile
 sau de pe etichetă. nu se absorb bine în
 lucernă prezența acestei boli.
@@ -22467,8 +22029,6 @@ tive evidente.
 UQ Un copil care face bubițe și iritații pe tot corpul ar trebui
 consultat pentru a se vedea dacă nu are boala celiacă.
 U Dacă se suspectează boala celiacă, vor trebui făcute o ana-
-
-<!-- Pagina PDF 220 -->
 
 definitiv. Faceți o listă cu simptomele și mâncărurile care
 le declanșează pentru a o da medicului curant al copilului.
@@ -22581,8 +22141,6 @@ care anemiei și/sau a numărului mare de globule albe. Medicul
 poate face o serie de radiografii ale tractului gastrointestinal
 231
 
-<!-- Pagina PDF 221 -->
-
 superior ca să vadă intestinul subțire sau o colonoscopie,
 prin care investighează interiorul intestinului gros, folosind
 un tub lung, flexibil, cu lumină, atașat la un computer și
@@ -22687,8 +22245,6 @@ Vitamina C 1000 mgde3oripezi. Previne inflamația
 cu și îmbunătățește
 bioflavonoide imunitatea. Folosiți
 oformă tamponată.
-
-<!-- Pagina PDF 222 -->
 
 Vitamina D 68% din persoanele
 cu boala Crohn auun
@@ -22806,8 +22362,6 @@ vitamina E Până la 200 UI zilnic. Folosiți forma
 d-alfa-tocoferol
 a vitaminei E.
 
-<!-- Pagina PDF 223 -->
-
 Plante
 Q Aloe vera este bună pentru boala Crohn pentru că
 înmoaie scaunul și are un efect de vindecare asupra tractului
@@ -22910,8 +22464,6 @@ Steatoreea cronică (grăsime în scaun, provenită din digcrarea
 defectuoasă a grăsimilor) poate duce la carență de calciu și
 de magneziu.
 QQ Medicamentele cum sunt corticosteroizii și sulfasala-
-
-<!-- Pagina PDF 224 -->
 
 intestinelor, și colestiramina (Questran), prescrise pentru
 a se combina cu bila în tractul gastrointestinal pentru a-i
@@ -23023,8 +22575,6 @@ folosite în tratamentul infecțiilor bacteriene care adesea
 Q Interleukin-10 este o citokină care reduce inflamația.
 A avut cfecte promițătoare în tratarea bolii Crohn.
 
-<!-- Pagina PDF 225 -->
-
 Q Hormonul de creștere pare să ajute pacienții adulți cu
 boala Crohn să își crească nivelul de activitate. Acest tra-
 tament trebuie făcut sub supraveghere medicală. Într-un
@@ -23126,8 +22676,6 @@ Q Sucul de aloe vera ajută la vindecarea tractului intestinal.
 Q Iarba măâței, fenicului, ghimbirul, rădăcina de nalbă și
 ceaiul de papaya ajută la o bună digestie și acționează ca un
 tampon care oprește arsurile.
-
-<!-- Pagina PDF 226 -->
 
 Q Beți ceai de mușețel ca să calmați iritația esofagului.
 Precauții: Nu folosiți mușețel dacă sunteți alergic la
@@ -23231,8 +22779,6 @@ antiacide și produse în care se găsesc:
 - Mixturi aluminiu-magneziu: Aludrox, Di-Gel, Gavis-
 con, Gelusil, Maalox, Mylanta, Riopan.
 e Carbonat de calciu: Alka-Mints, Chooz, Titralac, Tums.
-
-<!-- Pagina PDF 227 -->
 
 - Mixturi calciu-magneziu: Rolaids.
 - Săruri sau geluri de magneziu: Phillips Milk of
@@ -23344,8 +22890,6 @@ preună cu coenzima Q,,.
 Lactobacillus Conform indicațiilor Ajută digestia și distruge
 bulgaricus de pe etichetă. bacteriile dăunătoare.
 
-<!-- Pagina PDF 228 -->
-
 L-carnitină 500 mg din fiecare, Importante pentru
 plus zilnic, pe stomacul gol. funcționarea sistemului
 L-cisteină Luați cu apă sau cu imunitar. Apără țesuturile
@@ -23451,8 +22995,6 @@ gravă. Majoritatea cazurilor se înregistrează la persoane între
 ar Boala Lyme este cea mai des întâlnită boală transmisă
 prin mușcătura de căpușă în SUA. Bacteriile care o cauzează,
 
-<!-- Pagina PDF 229 -->
-
 spirocheții Borrelia burgdorferi, sunt transmise, în majo-
 ritatea zonelor, de căpușele din genul Zxodes (purtate de
 căprioare și de șoareci). În multe regiuni, de-a lungul
@@ -23556,8 +23098,6 @@ NUTRIENȚI
 Acizi grași Cohform lndlcațulc»)*r Reduc inflamația
 esențiali de pe etichetă. și rigiditatea
 articulațiilor.
-
-<!-- Pagina PDF 230 -->
 
 Pancreatină Conform indicațiilor Ajută la digestia
 și de pe etichetă, de 2—3 proteinelorși reduce
@@ -23663,8 +23203,6 @@ culori deschise, pentru a vedea mai bine căpușele.
 - Aplicați pe haine, pe gât și pe alte zone expuse, cu excep-
 ția feței, un insecticid care conține dietilmetatoluamidă.
 
-<!-- Pagina PDF 231 -->
-
 Rezistă mult și este mai sigur când este aplicat pe anumite
 haine (Vezi Precauții, mai jos), decât pe pielea expusă, astfel
 încâr corpul trebuie să fie cât mai acoperit. Nu folosiți
@@ -23764,8 +23302,6 @@ bipolară de dispoziție) este o variantă a depresiei clasice. În
 | mod normal, începe ca o depresie și evoluează, alternând
 perioadele de depresie cu celemaniacale. O persoană cu o
 tulburare maniaco-depresivă gravă poate evolua de la un
-
-<!-- Pagina PDF 232 -->
 
 sentiment nerealist (și periculos) că este invincibilă, până la
 a fi copleșită de nefericireși de disperare, având chiar gân-
@@ -23875,8 +23411,6 @@ vitamina B., 1 cc de 2 ori pe
 injecții săptămână sau conform
 indicațiilor medicului.
 
-<!-- Pagina PDF 233 -->
-
 sau 100 mgdin fiecare Folosiți o formulă
 vitamine din vitamină B importantă, hipoalergenică. Forma
 complexul B de 3 ori pe zi de administrare
@@ -23982,8 +23516,6 @@ Q Aminoacizii, în special taurina și tirozina, sunt importanți
 în tratarea acestei boli.
 
 ### 244
-
-<!-- Pagina PDF 234 -->
 
 Q Se știe că micromineralele carbonat de litiu și citrat de
 litiu alterează ciclurile ritmice în creier și ajută la echilibrarea
@@ -24099,8 +23631,6 @@ premenstruală pot fi legate de boala Mcniere. Pot fi implicate
 culației temporo-mandibulare (ATM).
 245
 
-<!-- Pagina PDF 235 -->
-
 Boala Miniere afectează, de obicei, adulții (mai mult
 bărbați decât femei) între 30 și 60 de ani. Boala Meniere
 este imprevizibilă și crizele pot apărea ocazional; pentru
@@ -24202,8 +23732,6 @@ cemie, Partea a doua, p. 518.)
 Q Nu consumați grăsimi, alimente prăjite, sare, glutamat de
 monosodiu, alcool, zahăr (sub orice formă) sau orice conține
 cafeină. Cafeina stimulează excesiv terminațiile nervoase.
-
-<!-- Pagina PDF 236 -->
 
 Q Nu mai fumați. Fumatul are efect constrictor și reduce
 fluxul de sânge către vasele de sânge mici care hrănesc
@@ -24314,8 +23842,6 @@ o virală a oaselor, care progresează încet. Au fost înregistrate
 cazuri în cadrul aceleiași familii. Totuși, boala Paget nu pare
 247
 
-<!-- Pagina PDF 237 -->
-
 să fie transmisă de la o generație la alta, o descoperire care o
 face să fie considerată mai degrabă o boală infecțioasă decât
 una ereditară.
@@ -24423,8 +23949,6 @@ Consultați medicul
 curant în privința
 necesității de a
 suplimenta fierul.
-
-<!-- Pagina PDF 238 -->
 
 Q Lucerna conține mineralele necesare pentru formarea
 normală a osului și ajută la reducerea inflamației.
@@ -24534,8 +24058,6 @@ camentul poate duce la afectarea rinichilor și la distru-
 gerea globulelor roșii din sânge.
 249
 
-<!-- Pagina PDF 239 -->
-
 ## BOALA PAGET A MAMELONULUI
 
 Vezi Cancer de sân.
@@ -24643,8 +24165,6 @@ de pe etichetă. producă energie. Poate
 încetini moartea celulelor
 creierului și încetinește
 progresia bolii.
-
-<!-- Pagina PDF 240 -->
 
 plus Conform indicațiilor Interacționează bine cu
 coenzima A de pe etichetă. coenzima Q,, pentru
@@ -24758,8 +24278,6 @@ dinucleotidă în crearea și transferul
 în special în timpul
 respirației.
 
-<!-- Pagina PDF 241 -->
-
 Picnogenol Conform indicațiilor Bioflavonoide puternice,
 sau de pe etichetă. care combat
 extract din Conform indicațiilor radicalii liberi. și
@@ -24864,8 +24382,6 @@ puțin de jumătate de kilogram) pe zi, din proteine biologice
 de calitate, este cantitatea optimă. Mâncați tofu, iaurt, fasole
 uscată, linte și alte păstăi, carne, pește și pasăre. Încercați
 să consumați proteina în momente în care nu luați acest
-
-<!-- Pagina PDF 242 -->
 
 medicament. Grăsimea interferează cu absorbția levodopei,
 așa că limitați și aportul acesteia.
@@ -24977,8 +24493,6 @@ mite mesaje diferite, în funcție de scopul lor. Controlul
 grave mușchilor netezi are nevoie de un echilibru între dopamină
 253
 
-<!-- Pagina PDF 243 -->
-
 și acetilcolină. În boala Parkinson, există un dezechilibru și
 între cele două.
 Q Un tratament pentru episoade de hipomobilitate, în care
@@ -25087,8 +24601,6 @@ dentară.
 În afară de cazul în care există alte indicații speciale, do-
 zele recomandate aici sunt pentru adulți. Pentru copii între
 
-<!-- Pagina PDF 244 -->
-
 12 și 17 ani, reduceți doza la trei sferturi din cantitatea
 recomandată. Pentru copii între 6 și 12 ani, folosiți jumătate
 din doza recomandată, iar pentru copii sub 6 ani, folosiți un
@@ -25194,8 +24706,6 @@ de 3 minute, apoi înghițiți-o. Pentru gingiile inflamate,
 puneți 5 picături de extract de gențiană fără alcool pe un
 tifon sau pe o bucată de vată și plasați pe zona inflamată.
 
-<!-- Pagina PDF 245 -->
-
 Aplicați imediat ce începe inflamarea și apar aftele în gură;
 veți fi surprins de rezultate. În cazuri grave, este nevoie de
 trei—cinci nopți pentru ca aftele să se vindece. Asigurați-vă
@@ -25300,8 +24810,6 @@ asemenca, ajuta (vezi Plante, mai SUS).
 Q Eyitați să luați antibiotice. Gura este un loc unde nu
 prea au efect, în schimb distrug bacteriile bune din colon.
 Încercați, mai întâi, cu gențiană (vezi Plante, mai sus).
-
-<!-- Pagina PDF 246 -->
 
 Precauții: Nu luați gențiană intern, zilnic, mai mult de
 săptămână o dată. Nu o folosiți în timpul sarcinii sau dacă
@@ -25411,8 +24919,6 @@ oară care susține dinții — deosebit de importantă pentru
 fi femeile la menopauză care au pierdut din densitatea
 în oaselor maxilarului. Ajută la protejarea de carii a suprafeței
 rădăcinilor, care, odată cu vârsta, sunt expuse din cauza
-
-<!-- Pagina PDF 247 -->
 
 retragerii gingiilor. Utilizarea fluorurii stârnește o reală
 controversă între specialiști. Unii cred în utilitatea folosirii de
@@ -25530,8 +25036,6 @@ inositol
 1
 l
 
-<!-- Pagina PDF 248 -->
-
 Dimetilglicină 1tabletă de 3 ori pe zi. Îmbunătățește
 (DMG) oxigenarea țesuturilor.
 Lecitină granule 1 lingură de 3 ori pe zi, Scade nivelul lipidelor
@@ -25636,8 +25140,6 @@ o din ce în ce mai scăzută, deteriorare psihică manifestată
 prin schimbări de personalitate și/sau comportament bizar,
 rigiditate, spasme sau tremur al mușchilor, tumefiere și/sau
 acumulare de fluide în abdomen și pierdere inexplicabilă
-
-<!-- Pagina PDF 249 -->
 
 în greutate. Câteodati, primul semn este apariția unui inel
 pigmentat, cunoscut ca inelul Kayser-Fleischer, pe marginea
@@ -25745,8 +25247,6 @@ sângelui și crește
 plus energia.
 coenzima A Conform indicațiilor Acționează bine împre-
 de pe etichetă. ună cu coenzima Q,,.
-
-<!-- Pagina PDF 250 -->
 
 Complex de Conform indicațiilor de Necesar pentru sinteza
 aminoacizi în pe etichetă, pe stomacul proteinelor. Folosiți o
@@ -25856,8 +25356,6 @@ Q Dacă luați multivitamine și minerale sub formă de su-
 luați plimente, alegeți o formulă care zu conține cupru.
 Q Eliminați din dietă alimentele bogate în cupru: orzul,
 sfecla, melasa, broccoli, ciocolata, cerealele îmbogățire, ustu-
-
-<!-- Pagina PDF 251 -->
 
 fructele de mare, avocado, păstăile și legume cu boabe, fi
 gălbenușul, ovăzul, portocalele, nucile pecan, stafidele, soia,
@@ -25970,8 +25468,6 @@ pietrele din vezică sunt formate din colesterol și restul
 sunt formate din pigmenți. Pietrele din pigmenți sunt
 alcătuite din săruri de calciu. Deși cauza formării pietrelor
 
-<!-- Pagina PDF 252 -->
-
 din pigmenți este necunoscută, factori precum chirurgia
 intestinală, ciroza hepatică și bolile de sânge reprezintă un
 element de risc în formarea lor.
@@ -26076,8 +25572,6 @@ Q Fumărița (Fumaria officinalis) a fost folosită multă vreme
 Cercetările au arătat că stimulează bila. Cu toatea acestea,
 acest antispastic conține mulți alcaloizi și, în cantități mari,
 
-<!-- Pagina PDF 253 -->
-
 este toxic. Extractul uscat se găsește în capsule, tablete sau Q
 picături, în special în Europa. Este recomandabil să luați
 înainte de masă. Dacă folosiți frunze uscate, se poate face
@@ -26177,8 +25671,6 @@ prin unul dintre aceste tuburi și poate vedea în interiorul
 pacientului fără o incizie mare care ar fi necesară pentru
 înlăturarea vezicii. Procedura necesită patru incizii mici în
 total, în loc de una singură de 18-22 cm și care are nevoie
-
-<!-- Pagina PDF 254 -->
 
 de timp ca să se vindece. Cu toate acestea, studii făcute
 Washingron University, SUA, arată că persoane cu istoric
@@ -26289,8 +25781,6 @@ atac de cord, de insuficiență cardiacă și de insuficiență re-
 nală. Scopul tratamentului este să se scadă tensiunea la
 mai puțin de 14 mm Hg (milimetri de mercur) sistolic și
 
-<!-- Pagina PDF 255 -->
-
 pentru majoritatea persoanelor. Tratamentul pentru cei cu
 diabet și boli cronice de rinichi are ca scop să scadă tensiunea au
 sub 13 mm Hg sistolic și 8 mm Hg diastolic. Pentru
@@ -26395,8 +25885,6 @@ glanda suprarenală,
 procesează grăsimile,
 scoate toxinele din
 organism.
-
-<!-- Pagina PDF 256 -->
 
 plus Conform indicațiilor Crește eficiența
 coenzima A de pe etichetă. sistemului imunitar și
@@ -26517,8 +26005,6 @@ vitamina B,,, acid folic
 nivelul normal
 al homocisteinei.
 
-<!-- Pagina PDF 257 -->
-
 Chitosan Conform indicațiilor Polizaharidderivat
 de pe etichetă. din fructe de mare
 care, au constatat
@@ -26626,8 +26112,6 @@ Harvard, SUA, au descoperit că femeile de vârstă medie
 care consumă această cantitate de licopen sunt expuse unui
 risc cu 30% mai scăzut de a face boli de inimă, față de
 femeile care iau mai puțin licopen. Pacienții cu hipertensiune
-
-<!-- Pagina PDF 258 -->
 
 arterială, care luau deja medicamente pentru a o scădea,
 ajuns la o tensiune sistolică chiar mai scăzută (10 mmHg)
@@ -26745,8 +26229,6 @@ de aplică, mergeți la medic ca să diminuați riscul. Dacă ați
 cel avut vreunul dintre semnele de avertizare de mai Sus,
 și mergeți imediat la medic.
 
-<!-- Pagina PDF 259 -->
-
 Q Beți numai apă distilată la aburi, cel puțin 8 pahare
 zilnic. Este recomandabil să beți cel puțin 2 l de apă zilnic.
 Un studiu a arătat că bărbații care beau cel puțin 5 pahare Q
@@ -26852,8 +26334,6 @@ tofii. Alimentele bogate în betaină sunt spanacul, pastele,
 aluaturile din făină albă, cerealele, sfecla și carnea roșie. Și
 efectul betainei este imediat. Într-un studiu, în două ore,
 
-<!-- Pagina PDF 260 -->
-
 ## BOLI CARDIOVASCULARE
 
 ### Niveluri normale ale colesterolului și ale tensiunii arteriale
@@ -26945,8 +26425,6 @@ de multă vreme că eritromicina administrată intravenos
 pune probleme serioase, nimeni nu s-a gândit la efectul
 risc tabletelor. Blocanții de canale de calciu mai noi și poate și
 sunt alte medicamente pot încetini descompunerea eritromicinei.
-
-<!-- Pagina PDF 261 -->
 
 ### Ghid orientativ rapid:
 
@@ -27062,8 +26540,6 @@ Partea a treia, p. 893.)
 Q Când vitamina C a fost obținută din bioflavonoide din
 citrice cuplate cu tocotrienoli, persoanele cu niveluri ridicate
 
-<!-- Pagina PDF 262 -->
-
 ale colesterolului au înregistrat îmbunătățiri semnificative.
 Aceste persoane au asistat la reduceri ale colesterolului
 și ale trigliceridelor, iar nivelul colesterolului bun a crescut
@@ -27171,8 +26647,6 @@ se Q Arnica montana, Arsenicum album, Magnesia phosphorica
 pentru angină. Trebuie folosite numai sub supravegherea
 unui medic homeopat calificat.
 
-<!-- Pagina PDF 263 -->
-
 ## Cele mai întâlnite afecțiuni cardiace și proceduri
 
 Dacă dumneavoastră sau cineva drag aveți afecțiuni
@@ -27277,8 +26751,6 @@ aterosclerozei. Ischemia (lipsa unei cantități suficien-
 te de oxigen) poate duce la angină, aritmie cardiacă,
 la insuficiență cardiacă congestivă sau la infarct
 de miocard.
-
-<!-- Pagina PDF 264 -->
 
 e Cardioversie. Procedură folosită ca să corecteze
 aritmia, în care curentul electric este aplicat pe inimă,
@@ -27392,8 +26864,6 @@ e Reumatism la inimă. Afectare a inimii prin reu-
 matism articular acut, o complicație cauzată de infec-
 ția faringiană cu bacteria Streptococcus de grup A.
 
-<!-- Pagina PDF 265 -->
-
 Provoacă leziuni și contracturi ale valvelor inimii și poa-
 te duce la aritmii și la insuficiență cardiacă.
 e Spectroscopie de rezonanță magnetică. Folo-
@@ -27499,8 +26969,6 @@ depresia sunt asociate tot cu nivelul scăzut de testosteron.
 Pe lângă terapia cu testosteron sub supraveghere medicală,
 un produs din plante care poate ajuta la producerea de
 testosteron natural de către corp este bioflavonoidul crizină
-
-<!-- Pagina PDF 266 -->
 
 (5,7—dihidroxiflavon), care se găsește în floarea pasiunii
 (Passiflora coerula). Alt produs din plante util este un extract
@@ -27614,8 +27082,6 @@ creș- cu aspirina, are același efect de subțiere a sângelui. Totuși, nu
 în trebuie să luați niciodată warfarină împreună cu vitamina E
 (nu le amestecați), căci pot provoca sângerări grave.
 
-<!-- Pagina PDF 267 -->
-
 Q Bărbații care iau medicamente pentru hipertensiune pot
 suferi de disfuncții erectile, ca efect secundar. Medicamentul
 sildenafil (Viagra) împotriva unor astfel de disfuncții, deși
@@ -27727,8 +27193,6 @@ Vitamina C 750-2 500 mg Crește activitatea
 cu de 4 ori pe Zi. sistemului imunitar.
 bioflavonoide Este unagent antiviral.
 
-<!-- Pagina PDF 268 -->
-
 ## BOLI CU TRANSMITERE SEXUALĂ
 
 ## Simptome timpurii ale bolilor cu transmitere sexuală
@@ -27812,8 +27276,6 @@ va varia).
 E a c rr
 Coenzima Q,, 30-60 mg zilnic. Ajută la distrugerea
 și radicalilor liberi.
-
-<!-- Pagina PDF 269 -->
 
 Complex de Conform indicațiilor Toți nutrienții sunt
 multivitamine de pe etichetă. necesari pentru Q
@@ -27925,8 +27387,6 @@ cortizol care pot duce la multe probleme de sănătate.
 Bolile direct legate de glandele suprarenale includ re-
 ducerea funcției suprarenalei, ceea ce înseamnă, de obicei,
 
-<!-- Pagina PDF 270 -->
-
 o rezervă corticosuprarenaliană redusă. Suprarenalele
 produc destui hormoni ca să mențină o stare relativ normală
 de sănătate, dar situațiile de stres cresc nevoia de hormoni
@@ -28034,8 +27494,6 @@ des pentru că valorile citite pot varia mult, mai ales în cazul
 tensiunii, pentru a evita erorile.
 de
 la
-
-<!-- Pagina PDF 271 -->
 
 ### NUTRIENȚI
 
@@ -28145,8 +27603,6 @@ crescută. Poate produce și anxietate, simptome gastroin-
 testinale și dureri de cap. Poate interacționa cu unele medi-
 camente, inclusiv cu antidepresivele, anticoncepționalele și
 anticoagulantele.
-
-<!-- Pagina PDF 272 -->
 
 U Ginsengul siberian este o plantă care ajută glanda supra-
 renală să pregătească organismul pentru situații de
@@ -28260,8 +27716,6 @@ de sunt ereditare și sunt provocate de alterări sau mutații gene-
 tice (defecte în gene). Genele sunt bucăți de ADN, parte din
 codul care determină semnele distinctive și caracteristicile
 
-<!-- Pagina PDF 273 -->
-
 individuale ale tuturor formelor de viață. Fiecare celulă
 umană conține în jur de 30 000 de gene. Pe lângă influ-
 ențarea particularităților corporale, cum ar fi culoarea
@@ -28371,8 +27825,6 @@ atât mai severe cu cât copilul nu mai are nici o posibilitate
 de a-și comunica nevoile. Un copil autist dezvoltă, de obicei,
 intoleranță la anumite alimente, deoarece sistemul digestiv
 
-<!-- Pagina PDF 274 -->
-
 devine mai puțin funcțional. Scaunele și, uneori, urina pot
 deveni neobișnuit de urât mirositoare și mișcările devin,
 în general, repetitive și disociate de mediul înconjurător.
@@ -28480,8 +27932,6 @@ cartea neurologului Oliver Sacks 7he Man Who Mistook His
 Humanitas, 2011) a fost al unui bărbat cu agnozie vizuală.
 Această boală poate fi provocată de un atac cerebral, de
 demență sau de alte afecțiuni neurologice. Poate deveni
-
-<!-- Pagina PDF 275 -->
 
 BOLI ȘI DISFUNCȚII ALE ORGANISMULUI
 debilitantă și compromite calitatea vieții. Agnozia afectează
@@ -28593,8 +28043,6 @@ persoanele să se mențină în formă cât mai mult posibil.
 Diabetul și problemele de inimă pot fi tratate cu medicație.
 Problemele ortopedice, cum ar fi deformarea piciorului
 și scolioza, pot fi tratate cu corset și pe cale chirurgicală.
-
-<!-- Pagina PDF 276 -->
 
 Terapia fizică poate prelungi folosirea brațelor și a picioa-
 relor. În general, cu toate acestea, o persoană cu ataxie
@@ -28714,8 +28162,6 @@ similor provocată de carența unei enzime care descompune
 
 | Q Un tratament relatisr nan nanerm J =
 
-<!-- Pagina PDF 277 -->
-
 BOLI ȘI DISFUNCȚII ALE ORGANISMULUI
 acidul fitanic, un tip de acid gras. Rezultatul este o acu-
 mulare anormală de acid fitanic în plasmă și în țesuturile duce
@@ -28821,8 +28267,6 @@ vindecat.
 Q Pentru recomandări nutriționale, vezi Sprijin gastroin-
 testinal și Sistem imunitar slăbit.
 
-<!-- Pagina PDF 278 -->
-
 ### Deficit de alfa-1 antitripsină
 
 Deficitul de alfa-l antitripsină este o boală genetică și se
@@ -28925,8 +28369,6 @@ unele cazuri, poate compromite sever sarcina. Simptomele la
 copiii afectați includ amețeală, letargie, dificultăți la hrănire,
 ochi de culoare deschisă și pigmentare deschisă a pielii și
 părului. Poate să apară ourticarie asemănătoare cu eczema.
-
-<!-- Pagina PDF 279 -->
 
 BOLI ȘI DISFUNCȚII ALE ORGANISMULUI
 Dacă nu este tratată, PKU duce la retard mental sever și de
@@ -29036,8 +28478,6 @@ IEF duce la comă și la moarte.
 **Observații**
 Q Tratamentul din timp, în principal prin adoptarea unei
 diete fără fructoză, duce la o durată de viață și o calitate
-
-<!-- Pagina PDF 280 -->
 
 a vieții normale. Altfel, boala poate duce la afectarea severă
 și permanentă a ficatului și rinichilor și, ulterior, la moarte.
@@ -29150,8 +28590,6 @@ Q Transplantul de măduvă poate fi avantajos pe termen
 des lung pentru băieții care dezvoltă X-ALD timpuriu, dar
 X
 
-<!-- Pagina PDF 281 -->
-
 recomandat celor cu simptome deja grave sau celor care au
 debutul la maturitate sau în cazul formei neonatale.
 Q Administrarea de acid esențial gras omega-5, numit acid
@@ -29257,8 +28695,6 @@ doua.) Circa jumătate din cazuri sunt considerate idiopa-
 tice, adică nu se cunoaște cauza de fond.
 Purpura trombocitopenică acută (sau temporară) este, cel
 mai adesea, întâlnită la copiii mici și diagnosticată pentru
-
-<!-- Pagina PDF 282 -->
 
 egal, afectați. Adesea, dar nu neapărat, simptomele urmează
 unei infecții virale. Aproape 80% din copii se vindecă în
@@ -29371,8 +28807,6 @@ poate curge nasul.
 Q Nu există leac pentru sindromul Iov. Tratamentul constă
 în prescrierea continuă sau intermitentă de antibiotice.
 
-<!-- Pagina PDF 283 -->
-
 Trimethoprim/sulfametoxazol, o combinație de antibiotice
 prescrisă pe termen lung, nu este în mod special eficientă în
 tratarea infecției.
@@ -29480,8 +28914,6 @@ Infecțiile cu Salmonella se rezolvă, în mod normal, în-
 tre cinci și șapte zile și de cele mai multe ori nu este ne-
 voie de tratament, ci doar de fluide băute. Persoanele cu
 deshidratare severă ar putea avea nevoie de fluide primite
-
-<!-- Pagina PDF 284 -->
 
 trimetoprim-sulfametoxazolul sau ciproHoxacinul, nu sunt,
 de obicei, necesare, dacă infecția nu se răspândește de la in-
@@ -29596,8 +29028,6 @@ poate sunt, adesea, rezistente la căldură. Simptomele toxiinfecției
 și vomă pentru cel mult o zi, dar pot deveni o problemă
 295
 
-<!-- Pagina PDF 285 -->
-
 gravă pentru bătrâni și pentru persoanele cu boala Crohn
 sau HIV.
 Nu toate bolile provocate de alimente sunt produse de
@@ -29700,8 +29130,6 @@ Vitamina C 8 000 mgzilnic, în doze Detoxifică organismul
 cu împărțite. și ajută la eliminarea
 bioflavonoide bacteriilor șia toxinelor
 din corp.
-
-<!-- Pagina PDF 286 -->
 
 ## BOLI
 
@@ -29808,8 +29236,6 @@ sau Q Dacă simptomele de toxiinfecție alimentară sunt grave
 sau prelungite, consultați medicul.
 297
 
-<!-- Pagina PDF 287 -->
-
 BOLI = ȘI DISFUNCȚII ALE ORGANISMULUI
 
 ## Tipuri de toxiinfecții alimentare
@@ -29900,8 +29326,6 @@ vomă, diaree, dureri de cap. 1-3 zile
 diaree, posibilă intoleranță temporară la 1—2 zile
 cap, amețeli, arsuri în gât, eczemă, greață, 5 minute-1 oră
 durere abdominală.
-
-<!-- Pagina PDF 288 -->
 
 ## BOLI
 
@@ -30006,8 +29430,6 @@ e Înainte de a mânca în oraș, luați 2 tablete de usturoi
 ca să preveniți toxiinfecția alimentară, ca să distrugeți
 orice radical liber creat de o toxină necunoscută sau
 de grăsimile oxidate din mâncare.
-
-<!-- Pagina PDF 289 -->
 
 **Observații**
 Q David Hill, microbiolog la Musgrave Park Hospital din
@@ -30116,8 +29538,6 @@ sferturi din cantitatrea recomandată. Pentru copii între
 6 și 12 ani, folosiți numai jumătate din doza recomandată,
 iar pentru copii sub 6 ani, folosiți un sfert din cantitatea
 recomandată.
-
-<!-- Pagina PDF 290 -->
 
 ### NUTRIENȚI
 
@@ -30228,8 +29648,6 @@ plus bună. întâi.)
 L-arginină 500 mgde 2 ori pe zi, Ajută la detoxifierea
 pe stomacul gol. ficatului.
 
-<!-- Pagina PDF 291 -->
-
 și 500 mg de 2 ori pe zi, Necesară pentru sinteza Q
 L-lizină pe stomacul gol. proteinelor și grăbește
 vindecarea. Ajută și la Q
@@ -30336,8 +29754,6 @@ surilor. Pe lângă gențiana luată pe cale orală, puteți folosi
 local un tifon înmuiat în ceai tare de gențiană, cu o sticlă de
 apă caldă deasupra. Puneți 3 pliculețe ude cu ceai de gen-
 
-<!-- Pagina PDF 292 -->
-
 Precauții: Nu ingerați gențiană mai mult de șapte zile
 la rând și nu o folosiți în timpul sarcinii sau alăptatului.
 Folosiți-o cu precauție, dacă sunteți alergic la ambrozie.
@@ -30440,8 +29856,6 @@ Q Dacă bronșita nu se vindecă într-o perioadă de timp rezo-
 nabilă, poate fi recomandată o radiografie pentru eliminarea
 posibilității existenței cancerului de plămâni, a emfizemului,
 a tuberculozei sau a altor afecțiuni cu aceleași simptome.
-
-<!-- Pagina PDF 293 -->
 
 A Este un lucru obișnuit ca persoanele cu boli respiratorii
 cronice să ia diferite medicamente — inhalante, medicamente
@@ -30547,8 +29961,6 @@ Partea a treia.)
 —
 304
 
-<!-- Pagina PDF 294 -->
-
 S-adenozil- Conform indicațiilor Reduce stresul
 metionină de pe etichetă. șiacționează ca
 (SAMe) antidepresiv.
@@ -30653,8 +30065,6 @@ un Bulimia afectează mult mai multe femei decât bărbați
 (deși numărul bărbaților cu această boală este în creștere),
 fiind o boală în care nu contează sexul, vârsta sau statutul
 social. În societatea de astăzi, suntem în mod constant
-
-<!-- Pagina PDF 295 -->
 
 mai bine“. Modelele noastre sunt actorii/actrițele, cântăreții
 sau cei care au stabilit standarde de frumusețe greu sau
@@ -30764,8 +30174,6 @@ seleniu 200 mcgzilnic. Dacă treptată.
 sunteți însărcinată, nu
 depășiți 40 mcg zilnic.
 
-<!-- Pagina PDF 296 -->
-
 Zinc 50-100 mg zilnic. Necesar în metabolismul
 Nu depășiți doza de proteinelor,ajută simțul
 100 mg zilnic din toate gustativ și crește
@@ -30874,8 +30282,6 @@ sau și pentru absorbția
 Inf-zyme Forte Luați în timpul mesei nutrienților.
 și între mese.
 
-<!-- Pagina PDF 297 -->
-
 Fier (Floradix lron Conform indicațiilor Sursă naturală de fier A
 + Herbs) de pe etichetă, care se asimilează ușor.
 de 3 ori pe Zi. Precauții: Nu luați fier cât
@@ -30979,8 +30385,6 @@ Q Dezvoltați și mențineți relații cu persoane pozitive, care
 vă fac să vă simțiți bine și care vă admiră. Oricine face rău
 sănătății mentale este o pierdere de timp și de sentimente.
 Q Administrați stresul, ceea ce poate fi de mare ajutor în
-
-<!-- Pagina PDF 298 -->
 
 profundă, meditația, vizualizarea, yoga sunt căi excelente
 pentru a scăpa de stres și pentru calmarea depresiei.
@@ -31103,8 +30507,6 @@ bursă
 zona
 timp,
 
-<!-- Pagina PDF 299 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -31211,8 +30613,6 @@ Q Crețușca și scoarța de salcie, combinate în cantități egale
 Recomandări
 Q Mâncați șapte zile alimente crude și, apoi, purificați-vă
 trei zile prin post. (Vezi Post, Partea a treia, p. 882.)
-
-<!-- Pagina PDF 300 -->
 
 Q Nu mâncați alimente procesate și, sub nici o formă,
 zahăr.
@@ -31322,8 +30722,6 @@ o spun că pot contribui la apariția cancerului:
 be- e Îmbătrânirea
 e Fumatul
 
-<!-- Pagina PDF 301 -->
-
 e Razele soarelui
 - Radiațiile ionizate
 - Anumite chimicale și alte substanțe
@@ -31426,8 +30824,6 @@ tea recomandată. Sugestiile nutriționale au scopul de a vă
 întări corpul. Majoritatea nutrienților nu au rol de preve-
 nire sau curativ și nu vor reduce dimensiunile sau impactul
 cancerului, cu excepția cazurilor în care acest lucru este
-
-<!-- Pagina PDF 302 -->
 
 ## Tipuri și semne de alarmă în cazul cancerului
 
@@ -31532,8 +30928,6 @@ vaccin este asociată cu o rată neobișnuit de mare de
 apariție a amețelilor și cu probleme de coagulare a
 sângelui. Este nevoie de studii suplimentare pentru
 a evalua riscurile și beneficiile acestui vaccin.
-
-<!-- Pagina PDF 303 -->
 
 \ÎJauze și factori de risc
 Majoritatea formelor de cancer cervical sunt asociate
@@ -31647,8 +31041,6 @@ Screeningul pentru cancerul de colon este cel mai bun
 mod de a detecta polipii înainte să devină canceroși.
 În timpul controlului de rutină (anual, după 40 de ani),
 bărbații și femeile vor face un examen rectal. Începând
-
-<!-- Pagina PDF 304 -->
 
 \îu vârsta de 50 de ani, unul din următoarele teste vor
 fi făcute în timpul examenului rectal:
@@ -31764,8 +31156,6 @@ poate reduce. Bând foarte multe lichide, în special
 apă pură, ajutați la diluarea substanțelor cancerigene
 și creșteți cantitatea de urină, împiedicând substanțele
 
-<!-- Pagina PDF 305 -->
-
 cancerigene din vezică să aibă efect dăunător.
 Luând vitamina A, beta-caroten, vitamina C și multi-
 vitamine, reduceți riscul de a face cancer de vezică.
@@ -31877,8 +31267,6 @@ stomac, ereditate, sânge din grupa A, istoric personal
 de anemie pernicioasă sau gastrită atrofică (afecțiune
 rezultată din scăderea secrețiilor de acid gastric).
 
-<!-- Pagina PDF 306 -->
-
 Semne și simptome
 Adesea, nu există simptome în fazele timpurii. Când
 apar, simptomele includ indigestie, durere și balonare
@@ -31989,8 +31377,6 @@ aproximativ una din 71 de femei americane într-un
 moment oarecare ale vieții. Riscul dezvoltării can-
 cerului ovarian crește după vârsta de 40 de ani, iar
 menopauza crește și mai mult riscul.
-
-<!-- Pagina PDF 307 -->
 
 Cauze și factori de risc
 Cauzele cancerului ovarian nu sunt cunoscute.
@@ -32105,8 +31491,6 @@ Dacă aveți vreun simptom persistent, mergeți la doc-
 tor. Deși multe dintre aceste simptome sunt pro-
 duse adesea de alte cauze, examinarea este un pas
 
-<!-- Pagina PDF 308 -->
-
 decisiv în detectarea timpurie. Dacă medicul sus-
 pectează un cancer de plămâni, poate cere o se-
 rie de analize imagistice, o cultură de spută, o biop-
@@ -32219,8 +31603,6 @@ din cinci copii cu leucemie are acest tip. Progresează
 repede.
 3. Leucemie limfocitară cronică. Se dezvoltă din
 limfocite. Aceste celule par mature, dar funcționarea
-
-<!-- Pagina PDF 309 -->
 
 X*poate să nu fie normală. Boala apare aproape exclusiv
 la adulți și este tipul cel mai întâlnit de leucemie la
@@ -32336,8 +31718,6 @@ Factori alimentari și nutriționali
 Dieta trebuie să fie săracă în proteine și grăsimi
 animale și bogată în fibre. Alcoolul trebuie evitat.
 
-<!-- Pagina PDF 310 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -32444,8 +31824,6 @@ sau mineralelor. Ajută corpul
 iarbă de mare Conform indicațiilor să evite posibilele
 de pe etichetă. pericole ale terapiei cu
 radiații.
-
-<!-- Pagina PDF 311 -->
 
 Comp!e; de 2 000 mg zilnic. Esențial pentru divizarea
 multiminerale șifuncția celulelor de
@@ -32558,8 +31936,6 @@ seman al cancerului de colon) poate fi găsită la majoritatea
 farmaciilor. În primul test, pur și simplu aruncați în toaletă
 o fâșie de hârtie tratată chimic după eliminarea materiilor
 
-<!-- Pagina PDF 312 -->
-
 fecale. Dacă hârtia își schimbă culoarea în albastru, există
 sânge în scaun.
 Dacă testul este pozitiv, faceți un al doilea test peste trei
@@ -32662,8 +32038,6 @@ neoplastonii fac parte din sistemul de apărare al
 organismului, iar persoanele cu cancer par să nu aibă
 acești anticorpi. El areușit să realizeze antineoplaston
 
-<!-- Pagina PDF 313 -->
-
 sintetic și l-a administrat pacienților cu cancer.
 Alt tratament de acest tip este terapia cu cartilaj
 de rechin, care acționează prin blocarea angiogene-
@@ -32765,8 +32139,6 @@ bazată pe grâu încolțit și alte alimente crude; dieta
 macrobiotică, o dietă tradițională japoneză bogată în
 cereale integrale și legume; regimul Moerman, o dietă
 fără carne, bogată în fibre și în suplimente nutriționale.
-
-<!-- Pagina PDF 314 -->
 
 Plante
 Q Alternați următoarele plante în programul de prevenire
@@ -32872,8 +32244,6 @@ de antioxidanți. Plantele verzi conțin clorofilă, care combate
 cancerul. Broccoli conține indol-3-carbinol (1-3-C), un
 compus despre care se știe că distruge multe dintre tipurile
 de
-
-<!-- Pagina PDF 315 -->
 
 Q Preparați puțin toți germenii (cu excepția germenilor de În
 lucernă, care trebuie spălați și mâncați cruzi).
@@ -32981,8 +32351,6 @@ scăzut, evitați cuptoarele cu microunde. Nu stați aproape de
 televizor. Stați la cel puțin 2,5 m. Evitați razele X.
 O Evitați produsele chimice ca spray-ul de păr, produsele
 de curățat, crema de ghete, vopselele și pesticidele pentru
-
-<!-- Pagina PDF 316 -->
 
 grădină. Multe substanțe chimice ajută la formarea radi-
 calilor liberi în corp, care pot duce la cancer. Persoanele cu
@@ -33098,8 +32466,6 @@ avansat cu celule non-mici.
 U Hipertermia, o procedură în care țesuturile corpului
 faA- O
 
-<!-- Pagina PDF 317 -->
-
 - Luteina, un carotenoid, este cercetată ca posibil nutrient
 anticancer. O sursă bună de luteină sunt legumele cu
 frunze verde-închis și broccoli.
@@ -33210,8 +32576,6 @@ colorectal au avut o rată de recurență scăzută când au luat
 polipilor din colon care pot duce la cancer. Oricum, Nursess
 28
 
-<!-- Pagina PDF 318 -->
-
 Health Study, realizat la Spitalul Brigham din Boston, a ajuns
 la concluzia neașteptată că pentru femeile care iau aspirină de
 două ori pe zi crește riscul de a face cancer pancreatic.
@@ -33318,8 +32682,6 @@ special împotriva tumorilor endocrine. Forma sintetică este
 de preferat, pentru că forma naturală, obținută din glanda
 pineală a animalelor, poate conține virusuri dăunătoare.
 unul Melatonina poate fi folosită cu efect notabil pentru tipuri
-
-<!-- Pagina PDF 319 -->
 
 diverse de tumori, sub supraveghere medicală. Pare că o
 cste eficientă în lupta împotriva cancerului sistemului
@@ -33429,8 +32791,6 @@ Q Sindromul intestinului iritabil nu crește riscul de cancer
 de colon.
 Q Bărbații care beneficiază de unul dintre cele două
 tratamente pentru cancerul testicular par să se expună unui
-
-<!-- Pagina PDF 320 -->
 
 risc crescut de leucemie. Un studiu recent a scos în evidență
 faptul că acest lucru se întâmplă în tratamentul cu radiații
@@ -33543,8 +32903,6 @@ o expuși unui risc genetic foarte mare să dezvolte melanom.
 găsit Adesea, au alunițe mai neobișnuite, numite nevi displazici,
 care sunt neregulate ca formă și culoare și pot avea un
 
-<!-- Pagina PDF 321 -->
-
 cancerului de piele. Acest cancer poate apărea și sub forma
 unei alunițe noi. La bărbați, melanomul tinde să apară de la
 pe gât până la tors; la femei, pare să apară mai des pe brațe 4.
@@ -33652,8 +33010,6 @@ rare, fiind un cancer care se dezvoltă încet, care poate fi greu
 diagnosticat, în special în fazele incipiente. O biopsie a pielii
 ar putea stabili un diagnostic corect.
 
-<!-- Pagina PDF 322 -->
-
 Un tip de cancer care a început să devină din ce în ce
 mai întâlnit în ultimii ani este sarcomul Kaposi. Acest tip
 de cancer provoacă leziuni care pot avea culoare roz, roșie,
@@ -33759,8 +33115,6 @@ de pe etichetă. îmbunătățesc activitatea
 sau sistemului imunitar.
 extract de Conform indicațiilor
 shiitake de pe etichetă.
-
-<!-- Pagina PDF 323 -->
 
 Fitonutrienți Conform indicațiilor Suplimente alimentare
 suplimentari de pe etichetă. care apără împotriva
@@ -33871,8 +33225,6 @@ alăptați. Folosiți-o cu grijădacă sunteți alergic la ambrozie.
 Dacă aveți un istoric de boli cardiovasculare, diabet sau
 glaucom, folosiți-o doar sub supraveghere medicală.
 
-<!-- Pagina PDF 324 -->
-
 Q Rădăcina de brusture și trifoiul roșu ajută la curățarea
 sângelui și a ganglionilor limfatici.
 Q Semințele și coaja de castravete chinezesc inhibă celulele
@@ -33981,8 +33333,6 @@ creșterea tumorilor pielii, așa cum arată studiile făcute pe
 animale. Aplicarea locală a cremei cu vitamina A poate satura
 ușor straturile superioare ale pielii.
 
-<!-- Pagina PDF 325 -->
-
 Q Ca să vă apărați de cancerul de piele, luați-vă măsuri de
 protecție. Razele ultraviolet ale soarelui sunt cel mai puternice
 între orele 10 șși 15. Feriți-vă de soare între aceste ore. Când
@@ -34086,8 +33436,6 @@ lacopii, anii copilăriei au o mare influență asupra tendinței
 de a dezvolta cancer de piele mai târziu în viață. Un copil cu
 vârsta sub șase luni nu trebuie expus niciodată direct la soare
 sau trebuie să i se aplice cremă protectoare pe piele. Copiii
-
-<!-- Pagina PDF 326 -->
 
 mici trebuie să poarte mereu haine care să-i apere când sunt
 afară. Crema poate fi folosită pentru copii de peste șase luni
@@ -34200,8 +33548,6 @@ de Un examen rectal digital atent al prostatei este cea mai
 74 simplă și ieftină metodă de a detecta cancerul de prostată.
 American Cancer Society recomandă ca fiecare bărbat
 
-<!-- Pagina PDF 327 -->
-
 să fie examinat anual, după vârsta de 40 de ani; Asociația
 Americană de Urologie sugerează ca examinarea să se în-
 ceapă după vârsta de 50 de ani.
@@ -34308,8 +33654,6 @@ cu zilnic, în doze împărțite. anticancerigeni. S-a
 bioflavonoide (Vezi Spălături cu demonstrat în laborator
 acid ascorbic, că inhibă extinderea
 Partea a treia.) cancerului de prostată.
-
-<!-- Pagina PDF 328 -->
 
 Vitamina A 50000-100 000UI Antioxidanți puternici care
 zilnic, timp de 10 zile distrug radicalii liberi.
@@ -34422,8 +33766,6 @@ ma au proprietăți anticancerigene. Luați-le sub formă de
 ceaiuri, folosind câte două odată și alternând între ele.
 Precauții: Nu luați echinacea mai mult de trei luni. Nu
 
-<!-- Pagina PDF 329 -->
-
 Nu luați gențiană intern, zilnic, mai mult de o săprămână
 odată. Nu o folosiți în timpul sarcinii sau dacă alăptați.
 Folosiți-o cu grijă dacă sunteți alergic la ambrozie. Dacă
@@ -34528,8 +33870,6 @@ cancer de prostată.
 Q Bucurați-vă de o activitate sexuală regulată. Ejacularea
 regulată activează prostata, nelăsând-o să stagneze și să se
 inflameze.
-
-<!-- Pagina PDF 330 -->
 
 Q Nu luați nici un medicament cu excepția celor reco-
 mandate de medic. Căutați întordeauna sfaturi și opțiuni
@@ -34642,8 +33982,6 @@ proteine numite genistein. Se pare că întârzie creșterea
 o tumorii, împiedicând dezvoltarea unor noi vase de sânge
 care să hrănească tumoarea. Pare să fie deosebit de eficientă
 
-<!-- Pagina PDF 331 -->
-
 împotriva cancerului de prostată, dar acționează și împo-
 triva cancerului de sân la femei și a cancerului de colon la
 ambele sexe.
@@ -34749,8 +34087,6 @@ necesar pentru bărbații aflați sub observație, al căror
 PSA s-a dublat sau a crescut rapid; bărbații care au trecut
 printr-o prostatectomie radicală și al căror nivel de PSA
 nu a înregistrat o scădere semnificativă sub limite după
-
-<!-- Pagina PDF 332 -->
 
 pentru cancerul de prostată, cum ar fi radioterapia, iar
 nivelurile de PSA au crescut cu 2ng/ml sau mai mult, după
@@ -34861,8 +34197,6 @@ regulat.
 tra- e Carcinom lobular invaziv. Acest cancer pornește din
 glandele de lapte sau din lobuli. Se poate răspândi și în
 
-<!-- Pagina PDF 333 -->
-
 alte zone ale corpului. Cam 1 din 10 cazuri de cancer
 invaziv este de acest tip.
 e Carcinom inflamator. O formă rară și agresivă, reprezintă
@@ -34972,8 +34306,6 @@ Autoexaminarea sânilor) și făcând regulat mamografii cresc
 șansele de evitare a cancerul de sân sau, dacă este nevoie,
 de a-l învinge.
 
-<!-- Pagina PDF 334 -->
-
 ### Autoexaminarea sânilor
 
 Este important să vă examinați sânii în fiecare lună, după
@@ -35080,8 +34412,6 @@ normală a celulei.
 Implicată în reglarea
 producției de enzime
 și de hormoni.
-
-<!-- Pagina PDF 335 -->
 
 plus, Precauții: Nu luaținiacină |
 suplimentar dacă aveți boli de ficat,
@@ -35196,8 +34526,6 @@ de timus de pe etichetă. Terapie cu hormoni,
 țesut glandular - Conform indicațiilor
 suprarenal crud de pe etichetă.
 
-<!-- Pagina PDF 336 -->
-
 L-carnitină Conform indicațiilor Protejează pielea după
 de pe etichetă. mastectomie și/sau
 tratament cu radiații.
@@ -35309,8 +34637,6 @@ face mai puțin eficiente medicamentele anticoagulante.
 Consultați medicul dacă le folosiți. Cafeina din ceaiul verde
 în poate provoca insomnie, anxietate, deranjamente gastro-
 
-<!-- Pagina PDF 337 -->
-
 Q Usturoiul este cunoscut ca un nutrient care previne
 cancerul.
 Q Ginkgo biloba accelerează circulația și îmbunătățește
@@ -35416,8 +34742,6 @@ Q Dacă aveți mâncărimi, zone înroșite și dureri la sfârcuri,
 medic. Poate fi un simptom al bolii Pager.
 OQ În cazul în care faceți un tratament pentru cancer de sân
 și sunteți deprimată sau speriată, încercați să vă amintiți că,
-
-<!-- Pagina PDF 338 -->
 
 atunci când medicația (în special medicamentele pentru
 chimioterapie) va fi întreruptă, vă veți simți, probabil,
@@ -35530,8 +34854,6 @@ exercițiile în aer liber, cu puțină expunere la soare, cresc
 nivelul de vitamina D. Nivelul scăzut de vitamina D a fost
 asociat cu un risc crescut de cancer.
 
-<!-- Pagina PDF 339 -->
-
 U Majoritatea studiilor mai noi asupra cancerului de sân
 se concentrează pe confirmarea faptului că nivelurile mai
 scăzute de vitamina D sunt asociate cu un risc mai crescut.
@@ -35638,8 +34960,6 @@ trei categorii care urmează nu ar beneficia de pe urma unei
 mamografii digitale: cele de peste 50 de ani; cele care nu au
 un țesut mamar dens sau eterogen (foarte dens) și cele care
 nu mai sunt la menstruație.
-
-<!-- Pagina PDF 340 -->
 
 Q O metodă de detectare a răspândirii cancerului în
 glionii limfatici, denumită biopsia ganglionului-santinelă,
@@ -35749,8 +35069,6 @@ metode bazate pe imagine, și nu produc simptome.
 Terapia adjuvantă — folosirea tratamentului medicamentos
 ar după operație — poate fi folosită pentru a omorî aceste
 
-<!-- Pagina PDF 341 -->
-
 necesară saunu terapia adjuvantă într-o situație particulară.
 Dacă vi se recomandă operația, solicitați o a doua opinie.
 Medicamentele care cresc șansele unui tratament reușit al »
@@ -35856,8 +35174,6 @@ poate include radiații, chimioterapie sau terapie hormonală.
 Radiațiile sunt întotdeauna necesare după lumpectomie sau
 mastectomie sectorială, ca să existe certitudinea că nu au
 mai rămas celule canceroase.
-
-<!-- Pagina PDF 342 -->
 
 a După operație, femeile sunt avertizate să evite mișcarea
 sau ridicarea unor obiecte grelc, să poarte îmbrăcăminte
@@ -35986,8 +35302,6 @@ de in sunt o sursă bună.,
 Q Beți numai apă distilată.
 Q Dierta trebnie <ăfa fsrăi Corra GL LR rR I.
 
-<!-- Pagina PDF 343 -->
-
 sau ale unei sensibilități la mediu le pot imita pe cele ale
 candidozei. Ca lucrurile să fie și mai complicate, unele
 persoane cu candidoză încep să devină sensibile la mediu.
@@ -36096,8 +35410,6 @@ Coenzima A Conform indicațiilor Elimină toxinele din
 coenzima Q. 100 mg zilnic. lmbunătătește
 oxigenarea țesuturilor.
 
-<!-- Pagina PDF 344 -->
-
 Complex de Conform indicațiilor de Refacețesuturile
 aminoacizi în pe etichetă. Luați între afectate. Folosiți
 formă liberă mese, pe stomacul gol. oformă de administrare
@@ -36203,8 +35515,6 @@ lata, fructele uscate, alimentele fermentate, toate cerealele
 care conțin gluten (grâu, ovăz, hrișcă și orz), șunca, mierea,
 unturile de alune, murăturile, cartofii, ciupercile proaspete,
 
-<!-- Pagina PDF 345 -->
-
 Q Eliminați din dietă citricele și fructele acide — portocale,
 grepfrut, lămâi, roșii, ananas și lime — timp de o lună; apoi
 reintroduceți câteva dintre ele, de două ori pe săptămână.
@@ -36309,8 +35619,6 @@ fluxului sangvin poate fi determinată de leziuni, de îngroșare
 a arterelor, de circulație proastă, de diabet sau de blocare a
 vaselor de sânge. Afecțiunea apare cel mai des la picioare
 și la degetele de la picioare. Simptomele cele mai comune
-
-<!-- Pagina PDF 346 -->
 
 în zonă și răcire a acesteia. Durerea și paloarea zonei afectate
 sunt semne incipiente ale bolii.
@@ -36421,8 +35729,6 @@ Vitamina E 200 UI zilnic. Îmbunătățește circulația.
 Folosiți forma d-alfa-
 tocoferol.
 
-<!-- Pagina PDF 347 -->
-
 important -,,
 Alge 1 000-1 500 mg zilnic. Sursă bogată de
 clorofilă și de minerale
@@ -36526,8 +35832,6 @@ transportul oxigenului. Este folosit și pentru metabolismul
 acizilor grași esențiali. Carența de cupru poate da diferite
 simptome ca diaree, incficientă folosire a fierului și a pro-
 teinei și întârziere a creșterii. La copiii mici, dezvoltarea
-
-<!-- Pagina PDF 348 -->
 
 nervilor, a oaselor și a țesutului pulmonar poate fi afectată,
 iar structura acestor părți ale corpului, modificată.
@@ -36635,8 +35939,6 @@ placă dentară, lipindu-se de suprafața dinților. Bacteria din
 placă se hrănește cu zahărul ingerat și produce un acid care
 extrage calciul și fosforul din dinți. Treptat, dacă depozitele
 
-<!-- Pagina PDF 349 -->
-
 BOLI ȘI DISFUNCȚII ALE ORGANISMULUI
 întâi emailul (stratul de la suprafață) și apoi dentina (corpul
 dintelui). Dacă nu este tratată, caria poate progresa chiar
@@ -36740,8 +36042,6 @@ luați medicamente
 antidepresive.
 Nu administrați
 copiilor sub 12 ani.
-
-<!-- Pagina PDF 350 -->
 
 Cartilaj de rechin Începeți cu 1g pe Tratează durerea
 7,5 kg de greutate și inflamația.
@@ -36849,8 +36149,6 @@ de este îndepărtarea cariilor și acoperirea lor cu o plombă
 mă- dintr-un anume tip de umplutură. Plombele sunt făcute
 din materiale diverse, cum ar fi rășini compozite de culoarea
 
-<!-- Pagina PDF 351 -->
-
 dintelui, porțelan sau din combinații de diferite materiale.
 Plombele din amalgam de argint conțin o varietate de
 materiale, indlusiv mici cantități de mercur. Anumitor
@@ -36955,8 +36253,6 @@ două, trei luni după ce nasc, pentru că modificările hormo-
 nale împiedică pierderea normală de păr în timpul sarcinii.
 O specie de acarian microscopic, Demodex follicularum,
 poate fi o cauză sau un factor care contribuie la calviție.
-
-<!-- Pagina PDF 352 -->
 
 Acești acarieni sunt prezenți în toți foliculii de păr până
 la vârsta mijlocie, dar, în cele mai multe cazuri, nu sunt
@@ -37067,8 +36363,6 @@ creșterea părului.
 Folosiți o formă
 chelată.
 
-<!-- Pagina PDF 353 -->
-
 Dioxychlor 5 picături în apă Distruge bacteriile Q
 de 2 ori pe zi. dăunătoare și
 oxigenează țesuturile.
@@ -37171,8 +36465,6 @@ Q Sarcina, o mare concentrație de metale în corp și bolile
 autoimune pot provoca uneori pierderea părului.
 Q Hipotiroidismul poate provoca pierderea părului. (Vezi
 Hipotiroidism, Partea a doua, p. 522.)
-
-<!-- Pagina PDF 354 -->
 
 Q Transplantul de păr poare fi un tratament de succes
 pentru pierderea părului, dacă aveți destul păr ca să se
@@ -37277,8 +36569,6 @@ de gluconat de zinc sau
 OptiZinc, pentru cea
 mai bună absorbție.
 
-<!-- Pagina PDF 355 -->
-
 Util _,
 Superoxid Conform indicațiilor Distruge radicalii liberi.
 dismutază de pe etichetă.
@@ -37379,8 +36669,6 @@ ajută la însănătoșire.
 Folosiți o formulă
 tamponată.
 6
-
-<!-- Pagina PDF 356 -->
 
 Vitamina E 200 UI zilnic. Se poate Necesarăpentru
 deschide capsula și protejarea celulelor
@@ -37487,8 +36775,6 @@ printre indivizii din zonele urbane, între 25 și G4 de ani.
 și O cauză mai puțin frecventă a cirozei hepatice este hepati-
 ta cu virusul C (HCV). Medicii consideră că transfuziile
 
-<!-- Pagina PDF 357 -->
-
 cu sânge efectuate înainte ca testele HCV să devină o analiză
 de rutină ar putea fi principala cauză a creșteriinumărului
 de persoane infectate cu HCV. Malnurriția și inflamațiile
@@ -37594,8 +36880,6 @@ extract dinbilă Conform indicațiilor
 de bou de pe etichetă. Înlocuiește enzimele
 digestive produse, în mod
 normal, de colecist.
-
-<!-- Pagina PDF 358 -->
 
 Extract crud Conform indicațiilor Previne anemia și ajută
 de ficat de pe etichetă. la refacerea ficatului.
@@ -37708,8 +36992,6 @@ Q Lucerna ajută la menținerea sănătății tractului digestiv
 și este o sursă bună de vitamina K. Ajută la prevenirea
 sângerării care apare ca urmare a carenței de vitamina K,
 
-<!-- Pagina PDF 359 -->
-
 BOLI ȘI DISFUNCȚII ALE ORGANISMULUI
 asociată, de regulă, cu ciroza. Poate fi luată sub formă de
 tablete sau sub formă lichidă.
@@ -37813,8 +37095,6 @@ tare sau topită; nuci sau uleiuri care au fost încălzite (fie
 prin procesare, fie prin preparare); chipsuri din cartofi; orice
 aliment rafinat și procesat. Toate suprasolicită și afectează
 ficatul.
-
-<!-- Pagina PDF 360 -->
 
 Ficatul
 Cântărind aproape 1,8 kg, ficatul este cea mai mare
@@ -37922,8 +37202,6 @@ diferitele substanțe chimice prezente în alimentele pe
 mai poate elimina cum trebuie substanțele toxice. Studii
 noi arată că ficatul devine gras și din cauza mâncatului
 
-<!-- Pagina PDF 361 -->
-
 excesiv, la fel cum se întâmplă și din cauza băutului ex-
 cesiv de alcool.
 4. Medicamente. Medicamentele supun ficatul la un efort
@@ -38026,8 +37304,6 @@ de pe etichetă. sau nivelul scăzut
 al calciului.
 Folosiți o formă
 de aspartat de calciu.
-
-<!-- Pagina PDF 362 -->
 
 Coenzima Q,, 60 mg zilnic. Îmbunătățeste
 plus circulația sangvină.
@@ -38144,8 +37420,6 @@ Plante
 Q Piperul de Cayenne (capsicum), gențiana și păducelul
 ajută la scăderea colesterolului.
 
-<!-- Pagina PDF 363 -->
-
 Precauții: Nu luați gențiană intern, zilnic, mai mult de o
 săprămână o dată. Nu o folosiți în timpul sarcinii sau dacă
 alăptați. Folosiți-o cu grijă dacă sunteți alergic la ambrozie.
@@ -38250,8 +37524,6 @@ decât proteinele sau carbohidrații, dând senzația de sațietate.
 Acționează ca lubrifianți ai intestinelor, generează căldura
 corpului și transportă vitaminele liposolubile A, D, E și
 K în corp. Tecile protectoare de mielină care apără fibrele
-
-<!-- Pagina PDF 364 -->
 
 sunt făcute și ele din grăsimi. Din nefericire, majoritatea
 oamenilor consumă mult prea multe grăsimi rele — saturate,
@@ -38365,8 +37637,6 @@ trează în cadrul populației de rasă caucaziană și al celor
 să cu ascendență evreiască. Colitele ulcerative pot varia de la
 ușoare la severe, iar complicațiile cele mai frecvente sunt
 
-<!-- Pagina PDF 365 -->
-
 ## Dietă pentru colită
 
 Colitele ulcerative pot fi foarte dureroase și pot duce
@@ -38466,8 +37736,6 @@ cu pancreatină Luați după masă. Folosiți o formulă
 bogată în pancreatină
 și săracă în acid
 clorhidric (HC)).
-
-<!-- Pagina PDF 366 -->
 
 Vitamine din Conform indicațiilor Bune pentru
 complexul B de pe etichetă, descompunerea
@@ -38578,8 +37846,6 @@ de fruct și cu suc de aloe vera, înaintea meselor.
 Notă: Luați întotdeauna acest produs separat de alte
 suplimente și medicamente.
 
-<!-- Pagina PDF 367 -->
-
 Q Lucerna, luată sub formă de capsule sau de lichid,
 furnizează vitamina K și clorofilă, necesare vindecării. Luați
 conform indicațiilor de pe etichetă, de trei ori pe zi.
@@ -38681,8 +37947,6 @@ colitelor. Dacă aveți simptome ca de artrită, puteți obține
 îmbunătățiri prin schimbarea regimului alimentar.
 Q Oricine a suferit de colită ulcerativă timp de cel puțin
 cinci ani — chiar dacă este de o gravitate medie sau inactivă
-
-<!-- Pagina PDF 368 -->
 
 colonoscopie, deoarece aceste persoane sunt mai predispuse
 la un cancer de colon decât altele. Colonoscopia este
@@ -38794,8 +38058,6 @@ dozajele prezentate în continuare sunt pentru adulți. Pentru
 copii între 12 și 17 ani, reduceți doza la trei sferturi din
 cantitatea recomandată. Pentru copii între 6 și 12 ani,
 
-<!-- Pagina PDF 369 -->
-
 folosiți o jumătate din doza recomandată, iar pentru copii
 sub 6 ani se recomandă utilizarea unui sfert din doză.
 NUTRIENȚI
@@ -38900,8 +38162,6 @@ gențiana, rădăcina de rubarbă, frunzele de senna și yerba
 mat€. Dacă luați yerba mate, luați 2 sau 3 lingurițe la circa
 500 ml de apă fierbinte, pe stomaculgol.
 
-<!-- Pagina PDF 370 -->
-
 ### Tipuri de laxative
 
 Laxativele sunt substanțe folosite ca să accelereze
@@ -38998,8 +38258,6 @@ Q Nu consumați produse cu uleiuri minerale, care pot in-
 terveni în absorbția vitaminelor liposolubile. Evitați să lu-
 ați săruri Epsom, lapte de oxid de magneziu și citrat de
 magneziu, care atrag lichid în intestine și spală mineralele
-
-<!-- Pagina PDF 371 -->
 
 Q Dacă folosiți laxative, luați acidophilus ca să înlocuiți
 bacteriile „prietenoase“. Folosirea permanentă a laxativelor
@@ -39110,8 +38368,6 @@ recomandată. Pentru copii între 6 și 12 ani, folosiți juătate
 din doza recomandată, iar pentru copii sub G ani, folosiți un
 sfert din cantitatea recomandată.
 
-<!-- Pagina PDF 372 -->
-
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Esențial.
 Calciu 1500 mg zilnic. Carența acestor minerale
@@ -39213,8 +38469,6 @@ mina D este importantă. Acestea pot fi obținute din pro-
 duse lactate și/sau suplimente.
 Q Mâncați lucernă, drojdie de bere, multe legume cu frunze
 verde-închis, mălai și alge.
-
-<!-- Pagina PDF 373 -->
 
 Precauții: Drojdia de bere poate provoca o reacție alergică
 la unii indivizi. Începeți cu o cantitate mică și nu mai luați
@@ -39320,8 +38574,6 @@ Copii de 1—3 ani: necesar pentru
 timp de 3 zile. tablete de supt, pentru
 Copii peste 3 ani: o absorbție mai bună.
 o mg de 3 ori pe zi.
-
-<!-- Pagina PDF 374 -->
 
 ### - Foarte important,,
 
@@ -39429,8 +38681,6 @@ de o substanță simt, până la urmă, o plăcere mai mică pen-
 să tru lucruri de care se bucurau în mod obișnuit.
 de Tomografia cu emisie de pozitroni (PET), realizată asupra
 
-<!-- Pagina PDF 375 -->
-
 un răspuns slab la alte activități plăcute, cum ar fi să asculre
 muzica favorită, spre deosebire de creierul persoanelor care
 nu fac abuz de substanțe.
@@ -39533,8 +38783,6 @@ Calciu 1 500 mg la culcare. Hrănește sistemul
 magneziu 1 000 mg la culcare. controlează tremurul,
 calmând corpul.
 Folosiți oformă chelată.
-
-<!-- Pagina PDF 376 -->
 
 Complex de Conform indicațiilor Furnizează proteina
 aminoacizi în de pe etichetă, necesară înforme
@@ -39647,8 +38895,6 @@ Q Evitați alimentele foarte procesate, toate formele de zahăr
 energie, dar nu sunt sățioase și cresc pofta de drog.
 Q Vezi Post, Partea a treia, și urmați instrucțiunile.
 
-<!-- Pagina PDF 377 -->
-
 ## Substanțe care privează corpul de nutrienți
 
 Diferite substanțe privează corpul de nutrienți. Folo-
@@ -39734,8 +38980,6 @@ folic
 potasiu, vitamina B,, (riboflavină), zinc
 folic
 A, C și E
-
-<!-- Pagina PDF 378 -->
 
 Q Luați în considerare consultarea unui specialist în acu-
 punctură. Se știe că acupunctura ajută în lupta contra depen-
@@ -39841,8 +39085,6 @@ Chiar dacă se consideră că renunțarea la furnat este greu
 de realizat, multe persoane o fac în fiecare zi. Există, desigur,
 multe motive pentru a renunța la fumat. Țigările sunt,
 anual, cauza morții a 440 000 de persoane pe an, în SUA.
-
-<!-- Pagina PDF 379 -->
 
 Reprezintă mai mult decât numărul total de morți produse
 de alcool, droguri ilegale, accidente de circulație, sinucideri
@@ -39950,8 +39192,6 @@ sunteți obligat să fiți fumător „pasiv“.
 dozele recomandate aici sunt pentru adulți. Pentru copii
 între 12 și 17 ani, reduceți doza la trei sferturi din cantitatea
 recomandată.
-
-<!-- Pagina PDF 380 -->
 
 ### NUTRIENȚI
 
@@ -40069,8 +39309,6 @@ Vitamina B_și 100 mg
 v;tammș C, p'entruvo
 absorbție mai bună.
 
-<!-- Pagina PDF 381 -->
-
 plus Conform indicațiilor Protejează ficatul.
 glutation de pe etichetă.
 Complex de Conform indicațiilor Necesare pentru
@@ -40172,8 +39410,6 @@ arterială și analgezicele.
 O Dificultatea de a renunța la fumat pare să fie legată mai
 puțin de numărul de pachete funate pe zi și mai mult de cât
 de timpuriu v-ați apucat de funat.
-
-<!-- Pagina PDF 382 -->
 
 Q Multe persoane s-au lăsat de fumat urmând un regim
 numai cu sucuri proaspăt preparate și apă distilată prin aburi.
@@ -40286,8 +39522,6 @@ există o mare variație în privința simptomelor mentale
 și asociate, a gravității și a persistenței lor. Spre deosebire de
 în tulburarea depresivă majoră, tulburarea distimică — un tip
 
-<!-- Pagina PDF 383 -->
-
 discrete, ci este caracterizată prin simptome mai blânde și
 persistente, care pot dura ani de zile. Deși, de obicei, nu
 afectează activitatea zilnică, persoanele cu această formă mai
@@ -40397,8 +39631,6 @@ ceară ajutor.
 Mulți dintre cei cu boli depresive nu cer ajutor când
 trebuie — chiar când depresia este severă —, deși cei mai
 mulți ar putea fi ajutați. Fără tratament (nutriția este foarte
-
-<!-- Pagina PDF 384 -->
 
 importantă), simptomele de depresie pot dura săptămâni,
 luni sau chiar ani. Cu tratament, multe persoane pot scăpa
@@ -40512,8 +39744,6 @@ suferiți de tulburare
 maniacală (bipolară).
 395
 
-<!-- Pagina PDF 385 -->
-
 Acid gama- 750 mg zilnic. Luați cu Are efect tranchilizant,
 aminobutiric 200 mg de niacinamidă la fel ca diazepamul
 (GABA) pentru cele mai bune (Valium) șialte
@@ -40619,8 +39849,6 @@ alt acid gras nu împiedică apariția simptomelor de depresie
 asociată cu nașterea,
 1 Scoateți produsele din grâu din meniu. S-a constatat că
 glutenul din grâu este legat de afecțiunile depresive.
-
-<!-- Pagina PDF 386 -->
 
 Q Evitați răcoritoarele și alte produse care conțin îndul-
 citorul artificial aspartam. Este posibil ca acest aditiv să blo-
@@ -40729,8 +39957,6 @@ un se produce în cantitate mai mare la întuneric sau în zilele
 Sf întunecate, decât la lumină și în zilele luminoase de vară.
 de La un anumit nivel, melatonina se pare că declanșează
 
-<!-- Pagina PDF 387 -->
-
 U Depresia atipică este des întâlnită, dar rămâne adesea o
 tulburare nediagnosticată care afectează multe persoane. Cu
 aproape 50 de ani în urmă, doi psihiatri englezi au descris
@@ -40835,8 +40061,6 @@ A Exercițiile fizice intense pot fi un antidot eficient în cazul
 unei crize depresive. În timpul efortului se produc substanțe
 chimice calmante, numite endorfine și encefaline. Unele
 endorfine și alte substanțe chimice din creier eliberate ca
-
-<!-- Pagina PDF 388 -->
 
 răspuns la efortul fizic produc și ele „o stare de bine“. Mulți
 dintre cei care fac mișcare regulat spun că se simt mult mai
@@ -40946,8 +40170,6 @@ lupta cu Paxil, suplimentul s-a dovedit la fel de eficient și
 pacienții au suferit puține efecte secundare.
 Q La unii pacienți cu HIV, utilizarea de sunătoare și ISRS
 
-<!-- Pagina PDF 389 -->
-
 în mod semnificativ concentrațiile din sânge ale tuturor
 inhibitorilor de protează de pe piață și posibil și ale altor
 medicamente (în grade diferite) care sunt metabolizate în
@@ -41055,8 +40277,6 @@ scăzut de acid clorhidric.
 Precauții: Nu luați acest
 supliment dacă suferiți
 de aciditate la stomac.
-
-<!-- Pagina PDF 390 -->
 
 OptiMSM Conform indicațiilor Formă brevetată de
 de pe etichetă. metilsulfonilmetan.
@@ -41167,8 +40387,6 @@ zilnic. Dacă sunteți și o mai mare siguranță
 însărcinată, nu depășiți la dozele mari.
 10 000 UI zilnic.
 
-<!-- Pagina PDF 391 -->
-
 sau Antioxidanți
 capsule 5 000 UI zilnic. și precursori
 plus ai vitaminei A.
@@ -41269,8 +40487,6 @@ considerată neutră, nici acidă, nici alcalină. Orice substanță
 cu pH sub 7,0 este acidă, în timp ce orice are pH peste
 7,0 este alcalin. pH-ul ideal pentru corpul uman este
 cuprins între 7,35 și 7,45 (în mod natural, corpul uman
-
-<!-- Pagina PDF 392 -->
 
 este semiacid). Pentru corp, valorile de pH sub 7,35 sunt
 considerate acide. Valorile de peste 7,45 sunt alcaline.
@@ -41381,8 +40597,6 @@ luați antidepresive.
 Nu administrați copiilor
 sub 12 ani.
 
-<!-- Pagina PDF 393 -->
-
 Vitamina A 50 000 UI zilnic, Ajută la protecția
 timp de o lună, apoi membranelor mucoase.
 reduceți la 25 000 UI
@@ -41482,8 +40696,6 @@ al dietei sărace în nutrienți, al diareei și al osteoartritei.
 În afară de cazurile în care există indicații speciale,
 dozajele recomandate aici sunt pentru adulți. Pentru copii
 
-<!-- Pagina PDF 394 -->
-
 ## DEZECHILIBRU ACID/ALCALIN
 
 ## Alimente acide și alcaline
@@ -41580,8 +40792,6 @@ cu 50 mgde vitamina obținerea unei acidități
 B, șicu 100 mg de mai crescute a țesutu-
 vitamina C pentru o rilor. (Vezi Aminoacizi,
 absorbție mai bună. Partea întâi.)
-
-<!-- Pagina PDF 395 -->
 
 Lucernă Vezi Plante, mai jos.
 Metilsulfonil- Conform indicațiilor Un mineral formator
@@ -41685,8 +40895,6 @@ de viață. Această boală este a șaptea cauză de deces din SUA
 și prima cauză a orbirii la persoane între 20 și 74 de ani.
 Rata mortalității la afro-americani este cu 30% mai mare
 decât la caucazienii care au această boală. Din nefericire,
-
-<!-- Pagina PDF 396 -->
 
 două treimi dintre cei diagnosticați cu diabet nu asociază
 boala cu un risc crescut de probleme cardiovasculare,
@@ -41812,8 +41020,6 @@ Vanadiu Conform indicațiilor Ajută capacitatea
 de pe etichetă, insulinei de a transporta
 nlrinnaza în naliila
 
-<!-- Pagina PDF 397 -->
-
 Riscul de accident vascular cerebral este de patru ori mai să
 mare la persoanele cu diabet, iar 73% suferă și de hiperten-
 siune. Lăsat netratat, diabetul poate conduce la cetoacidoză
@@ -41921,8 +41127,6 @@ Persoanele cu diabet de tip 2 nu percep adesea gustul
 dulce. Această anomalie poate juca un rol important în
 modul în care indivizii cu diabet percep gustul alimentelor
 
-<!-- Pagina PDF 398 -->
-
 și, de asemenea, în felul în care se supun rigorilor alimentare
 ale tratamentului. Pentru că întreaga noastră societate
 dependentă de zahăr, percepția distorsionată a gustului
@@ -42029,8 +41233,6 @@ a complexului va
 varia). Nu depășiți 300
 mg zilnic din toate
 suplimentele.
-
-<!-- Pagina PDF 399 -->
 
 și, suplimentar, 50 mg zilnic. Îmbunătățește
 biotină metabolismul glucozei.
@@ -42148,8 +41350,6 @@ de cupru de pe etichetă. proteinelorși acțiunea
 multor sisteme
 enzimatice.
 
-<!-- Pagina PDF 400 -->
-
 Complex de Conform indicațiilor Ajută digestia. Digestia
 multienzime de pe etichetă. Luați bună este esențială în
 plus în timpul mesei. gestionarea diabetului.
@@ -42255,8 +41455,6 @@ gumele cu amidon și multe alimente procesate, sunt rapid
 convertite în timpul digestiei în zahăr în sânge, ceca ce face
 cu să crească nivelul insulinei. Carbohidrații care se găsesc în
 alimentele cu conținut glicemic scăzut, cum sunt sparan-
-
-<!-- Pagina PDF 401 -->
 
 sărace în amidon, sunt convertiți în zahăr în sânge mai
 încet, crescând treptat nivelul insulinei. Cel mai bine este să
@@ -42364,8 +41562,6 @@ tip 2. Aceste rezultate surprinzătoare au fost obținute după
 
 ### 412
 
-<!-- Pagina PDF 402 -->
-
 ### Ghid orientativ pentru persoanele cu diabet
 
 ### (folosind testarea cu sânge din deget)
@@ -42455,8 +41651,6 @@ al de glucoză din ser, de trigliceride și pe cel al colesterolului
 folo- rău (LDL). Asociată mai ales cu produsele de patiserie, scor-
 țișoara poate fi o mirodenie excelentă pentru ceai, carne
 și legume, precum și pentru fructe ca merele, bananele
-
-<!-- Pagina PDF 403 -->
 
 și piersicile. Consumul permanent de scorțișoară nu este
 recomandat din cauza potențialilor compuși toxici din ea.
@@ -42566,8 +41760,6 @@ Q Un sistem de monitorizare continuă a glucozei, CGMS*
 System GoldTM, este disponibil de la Meditranic lInc.
 Înregistrează nivelul glucozei în sânge la intervale de cinci
 
-<!-- Pagina PDF 404 -->
-
 minute, timp de până la trei zile. Datele pot fi descărcate
 computer pentru a fi verificate de medic. Acest dispozitiv
 ar trebui folosit în paralel cu tradiționalul test de sânge
@@ -42675,8 +41867,6 @@ niacină, încetinește degradarea și ajută regenerarea celulelor
 beta producătoare de insulină din pancreas și,prin urmare,
 poare fi de ajutor celor cu diabet de tip 1.
 
-<!-- Pagina PDF 405 -->
-
 ## Medicamente luate pe cale orală pentru diabet de tip 2
 
 Diabetul de tip 2 poate fi ținut sub control cu un număr de
@@ -42750,8 +41940,6 @@ Glyset cu prima înghițitură de
 mâncare.
 Januvia O dată pe zi, în timpul
 mesei.
-
-<!-- Pagina PDF 406 -->
 
 ## Prepararea insulinei pentru diabetul de tip 1
 
@@ -42839,8 +42027,6 @@ diabet sunt de două până la trei ori mai expuși decât nefu-
 Hu, mătorii la boli de rinichi, ajungându-se, adesea, la dializă
 sau transplant. Fumatul contractă vasele de sânge. La per-
 cu soanele cu diabet, acest lucru face să fie împinse afară din
-
-<!-- Pagina PDF 407 -->
 
 vase molecule mari de proteine și să fie duse în rinichi. În
 cele din urmă, se ajunge la insuficiență renală.
@@ -42943,8 +42129,6 @@ noisănătoase și
 funcționarea sistemului
 imunitar.
 418
-
-<!-- Pagina PDF 408 -->
 
 mw Potasiu 99 mg zilnic. Înlocuiește potasiul
 pierdut prin scaunele
@@ -43054,8 +42238,6 @@ cantitate mai mare.
 OQ Evitați alimentele bogate în fibre, care pot irita sistemul
 digestiv. În schimb, mâncați alimente ușor de digerat, cum
 
-<!-- Pagina PDF 409 -->
-
 sunt cartofii copți, orezul, bananele, sosul de mere sau
 pâineaprăjită.
 Q Beți 3 căni de zeamă de orez pe zi. Ca să faceți zeamă de
@@ -43162,8 +42344,6 @@ ducereade plăci care înfundă arterele și blochează fluxul de
 sânge spre inimă. Plăcile pot bloca și arterele care duc la or-
 ganele genitale, diminuând capacitatea de a obține erecția.
 Dozele nutrienților de mai jos sunt pentru adulți.
-
-<!-- Pagina PDF 410 -->
 
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Complex acizi Conform indicațiilor Ajută la formarea
@@ -43273,8 +42453,6 @@ Q Damiana, afrodiziacul maiașilor, este bună pentru creș-
 terea fluxului sangvin în zona genitală și pentru stimularea
 dorinței.
 
-<!-- Pagina PDF 411 -->
-
 Q Sarsaparilla conține substanțe asemănătoare testostero-
 nului pentru bărbați.
 Q Ignama sălbatică are steroizi naturali care întineresc și
@@ -43378,8 +42556,6 @@ spre deosebire de un grup unde nu s-au efectuat schimbări
 de dietă sau care nu a făcut exerciții fizice.
 Q Consumul de alcool scade capacitatea organismului
 de a produce testosteron. Un studiu făcut la Facultatea de
-
-<!-- Pagina PDF 412 -->
 
 Medicină din Chicago, SUA, arată că alcoolul poate provoca
 echivalentul hormonal al menopauzei la bărbați. Nu numai
@@ -43490,8 +42666,6 @@ poate arăta deformat și contorsionat.
 îna-
 din Vezi Indigestie.
 
-<!-- Pagina PDF 413 -->
-
 ## DISTIMIE
 
 Vezi Depresie.
@@ -43597,8 +42771,6 @@ pancreatină.
 Enzime Conform indicațiilor Ajută digestia și reduc
 proteolitice de pe etichetă. Luați inflamația colonului.
 între mese.
-
-<!-- Pagina PDF 414 -->
 
 ### _intportanit I
 
@@ -43706,8 +42878,6 @@ boli recomanda pentru un timp o dietă săracă în fibre. Imediat
 ce inflamația dispare, puteți trece treptat la o dieră bogată
 în fibre.
 
-<!-- Pagina PDF 415 -->
-
 Q Când începe criza dureroasă, faceți clismă cu 2 litri de
 apă călduță și sucul proaspăt al unei lămâi. (Vezi Clisme,
 Partea a treia, p. 865.) Ajută la curățarea colonului de ali-
@@ -43812,8 +42982,6 @@ L-triptofan de pe etichetă. dat rezultate excelente
 (S-HTP) atât pentru dureri de
 cap de tensiune, cât
 și pentru migrene.
-
-<!-- Pagina PDF 416 -->
 
 Bromelaină 500 mg, la nevoie. Enzimă care ajută la
 reglarea răspunsului
@@ -43927,8 +43095,6 @@ sinusale, frecați cu unguent zona sinusurilor.
 Q Extractul de ginkgo biloba îmbunătățește circulația în
 __ | creier și poare fi de ajutor în unele tipuri de durere de cap.
 
-<!-- Pagina PDF 417 -->
-
 Precauții: Nu luați ginkgo biloba dacă aveți o afecțiune O
 care implică sângerare sau dacă sunteți programat pentru o
 operație sau pentru oprocedură stomatologică.
@@ -44031,8 +43197,6 @@ Q Acupresura este de ajutor pentru durerile de cap cauzate
 de stările de tensiune. Apăsați cu degetul mare sub ceafă, la
 baza craniului, timp de două, trei minute.
 Q Pentru durerile de cap provocate de congestia sinusurilor,
-
-<!-- Pagina PDF 418 -->
 
 specifice ale capului, puteți deschide sinusurile și micșora
 tensiunea. Frecați zona din jurul oaselor de deasupra și de
@@ -44144,8 +43308,6 @@ Q Medicamentele eliberate cu rețetă pentru tratarea durerii
 de în migrenă includ: dihidroergotamină (DHE) injectabilă și
 să ca spray nazal (Migranal), un produs combinat conținând
 
-<!-- Pagina PDF 419 -->
-
 ### Tipuri de dureri de cap
 
 Durerile de cap sunt de diferite feluri, diferențiate după cauza
@@ -44227,8 +43389,6 @@ cluster. Circa 10% au pungi cu gheață pe locul
 legătură cu boli interne, durerii. Dacă durerea se
 ca turmori sau malformații agravează după exerciții
 ale vaselor de sânge. și efort, mergeți la medic.
-
-<!-- Pagina PDF 420 -->
 
 Durere Apare imediat înainte de ora
 de cap mesei din cauza nivelului scăzut
@@ -44321,8 +43481,6 @@ sinusurilor.
 Inflamare a arterelor Consultați medicul pentru
 ternporale terapie cu steroizi.
 
-<!-- Pagina PDF 421 -->
-
 Durere de cap Durere pulsatilă pe o parte a
 vasculară capului, sensibilitate la lumină
 și, adesea, greață. Asociată
@@ -44410,8 +43568,6 @@ pierea orei de culcare sunt eficiente în reducerca frecvenței
 durerilor de cap sau a episoadelor de dureri de cap de tip
 cluster. Durerile de cap cluster cronice nu se ameliorează, cu
 toate acestea, în urma acestui tratament.
-
-<!-- Pagina PDF 422 -->
 
 I Femeile care suferă de migrene pot aplica local cremă
 progesteron. Vorbiți în prealabil cu medicul curant, pentru
@@ -44525,8 +43681,6 @@ care duc la dureri de spate sunt artrita, reumatismul, bolile
 de oase și curbarea anormală a coloanei. Fracturile sunt
 rareori cauza durerilor de spate. Cei mai importanți doi
 
-<!-- Pagina PDF 423 -->
-
 factori sunt, cel mai probabil, obezitatea și un stil de viață
 sedentar.
 Pentru că marea majoritate a durerilor de spate nu
@@ -44622,8 +43776,6 @@ dacă aveți tulburare
 maniaco-depresivă sau
 luați antidepresive pe
 rețetă.
-
-<!-- Pagina PDF 424 -->
 
 Sulfat de Conform indicațiilor Studiile au arătat că sunt
 condroitină (SC) de pe etichetă. componente importante
@@ -44728,8 +43880,6 @@ O Încălțați-vă confortabil, cu pantofi potriviți. Cu câr
 tocurile sunt mai înalte, cu atât riscul de a avea dureri de
 spate este mai mare.
 
-<!-- Pagina PDF 425 -->
-
 O Mișcați-vă. Nu stați în aceeași poziție o perioadă lungă
 de timp.
 mușchii spatelui. Evitați să ridicați orice e mai greu de 9 kg.
@@ -44833,8 +43983,6 @@ brală, ajură unele persoane. Este o procedură noninva-
 zivă și necesită inserarea prin piele a unui ac și de acolo,
 în vertebra afectată, a unei substanțe asemănătoare
 436
-
-<!-- Pagina PDF 426 -->
 
 cu cimentul, numită metilmetacrilat, care completează
 vertebra afectată, iar când se întărește (În cincisprezece—
@@ -44943,8 +44091,6 @@ grave, dar, adesea, pot fi primul simptom al altei boli.
 Durerile în gâr potanticipa o răceală, o gripă, mononucleoza,
 virusul Epstein-Barr, herpesul simplu, precum și multe
 
-<!-- Pagina PDF 427 -->
-
 dintre bolile copilăriei, cum sunt pojarul și varicela. Mai rar,
 o durere în gât poate indica sindrom de oboseală cronică,
 difterie, epiglotită, gingivită,cancer de laringe sau un abces
@@ -45048,8 +44194,6 @@ ursului liniștește iritația gâtului. Lemnul dulce poate fi găsit
 sub formă de pastile de supt.
 Precauții: Rădăcina de lemn dulce nu ar trebui folosită
 în timpul sarcinii sau în cazul în care alăptați. Nu ar trebui
-
-<!-- Pagina PDF 428 -->
 
 folosită de persoane cu diabet, glaucom, boli de inimă,
 hipertensiune arterială sau cu accidente vasculare în istoric.
@@ -45155,8 +44299,6 @@ au legătură cu traume ale pielii și care pot produce vânătăi.
 Persoanele care nu mănâncă suficiente alimente crude,
 și nepreparate, ca să dea organismului nutrienții necesari,
 
-<!-- Pagina PDF 429 -->
-
 au o predispoziție crescută pentru vânătăi. Deficiențele
 nutriționale, în special lipsa de vitamina C, sau bolile de
 coagulare a sângelui pot face percții vaselor de sânge foarte
@@ -45254,8 +44396,6 @@ fierea, durerea și culoarea vânărăii la unele persoane. Faceți
 din ele ceai și înmuiați un prosop pe care așezați-l pe zona
 învinețită timp de douăzeci de minute, de două sau trei ori
 pezi.
-
-<!-- Pagina PDF 430 -->
 
 Precauții: Camforul este recomandat numai pentru uz
 extern.
@@ -45362,8 +44502,6 @@ per- de melanom de piele. Consultați medicul.
 
 Vezi Dermatită.
 
-<!-- Pagina PDF 431 -->
-
 ## EDEM
 
 Edemul este o acumulare de fluid în spațiile dintre celule,
@@ -45463,8 +44601,6 @@ Luați 2 capsule de 3 oripe zi.
 Q Alre remedii bune, dacă suferiți de edeme, sunt ceaiul
 de pau d'arco, coada calului, fructele de ienupăr, ghimpele,
 lobelia, pătrunjelul, rădăcina de păpădie și roinița.
-
-<!-- Pagina PDF 432 -->
 
 Precauții: Lobelia va fi administrată doar sub supraveghere
 medicală, pentru că este potențial toxică. Persoanele cu
@@ -45571,8 +44707,6 @@ oformă de administrare
 sublinguală.
 trăi
 
-<!-- Pagina PDF 433 -->
-
 Zinc 80 mg zilnic. Acționează ca
 Nu depășiți un totai antioxidant cu efect
 de 100 mg zilnic din protector specific pentru
@@ -45675,8 +44809,6 @@ de congestia bronhiilor.
 Q Ciupercile cordyceps pot încetini evoluția degenerării
 plămânului. Medicina chineză arată că există 3 o conexiune
 sinergică între rinichi și plămâni. Cordyceps întărește
-
-<!-- Pagina PDF 434 -->
 
 această legătură, deschide bronhiolele și oxigenează mai bine
 sângele spre rinichi.
@@ -45783,8 +44915,6 @@ chimice care ajung în aer și pot irita plămânii. Evitați
 perdelele și draperiile, care sunt sursă de praf. Zugrăviți cu
 mer- vopsea (se găsesc formule noi, fără miros) și nu folosiți tapet;
 adezivul folosit pentru lipirea tapetului pe perete conține
-
-<!-- Pagina PDF 435 -->
 
 substanțe volatile W- care pot deranja * anumite A persoane.Evitați -. Q
 scaunele din plastic, farfuriile din plastic și alte obiecte din
@@ -45896,8 +45026,6 @@ Fallopio, în vezica urinară, în intestine, în platoul pelvin și/
 sau în peritoneu (membrana care îmbracă pereții cavității
 abdominale) sau în musculatura uterului.
 
-<!-- Pagina PDF 436 -->
-
 Cel mai obișnuit amplasament al endomerriozei se con-
 sideră a fi în profunzimea cavității peritoneale pelvine,
 denumită și cul-de-sac. Prezența implanturilor endometriale
@@ -46007,8 +45135,6 @@ din diagnosticat ca anemic.
 Sursă bună și nontoxică
 de fier ușor asimilabil.
 
-<!-- Pagina PDF 437 -->
-
 Vitamine din Conform indicațiilor Îmbunătățesc
 complexul B de pe etichetă. productivitatea celulară
 și echilibrul corect al
@@ -46111,8 +45237,6 @@ anormale. Efecte secundare posibile sunt creștere în greutate
 când medicația este oprită. Cu toate acestea, simptomele
 pot să apară din nou, după încetarea tratamentului.
 
-<!-- Pagina PDF 438 -->
-
 ## O teorie și o metodă de tratament alternativ pentru endometrioză
 
 David Redwine, de la St. Charles Medical Center
@@ -46213,8 +45337,6 @@ eliminate atât leziunile tipice, cât cele atipice.
 Eliminarea chirurgicală a leziunilor tipice și atipice este
 tratamentul cel mai bun pentru această boală și poate
 duce la vindecare totală în 75% din cazuri.
-
-<!-- Pagina PDF 439 -->
 
 Q Pot fi folosite versiunile sintetice ale hormonului de repro-
 ducere, hormonul de eliberare a gonadotropinei (GaRH),
@@ -46322,8 +45444,6 @@ din cantitatea recomandată. Pentru copii între 6 și 12 ani,
 folosiți jumătate din doza recomandată, iar pentru copii sub
 6 ani, folosiți un sfert din cantitatea recomandată.
 
-<!-- Pagina PDF 440 -->
-
 ### NUTRIENȚI
 
 DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -46423,8 +45543,6 @@ torsele pot rezulta în urma unei mișcări neașteptate sau a
 da unei răsuciri a locului afectat sau în urma unci căzături.
 și Articulațiile cele mai afectate de entorse se află la gleznă,
 
-<!-- Pagina PDF 441 -->
-
 Aceste tipuri de accidentări sunt des întâlnite la sportivi,
 În cele mai multe cazuri se vindecă de la sine. Următorul
 program de suplimente nutritive poate ajuta la vindecarea
@@ -46518,8 +45636,6 @@ bună.
 Mangan 15 mg zilnic. Întărește ligamentele
 și/sau tendoanele
 rănite,
-
-<!-- Pagina PDF 442 -->
 
 Neonatal Multi- Conform indicațiilor Pentru a stimula
 Gland de pe etichetă. vindecarea țesuturilor
@@ -46623,8 +45739,6 @@ fiecare patru ore. Apoi, după ce inflamația s-a redus,aplicați
 căldură timp de douăzeci de minute, de două sau de trei ori
 pe zi. Dacă este posibil, utilizați o atelă sau un bandaj ca să
 imobilizați și să protejați zona accidentată.
-
-<!-- Pagina PDF 443 -->
 
 ### Nutriția pentru sportivii care fac culturism competițional
 
@@ -46732,8 +45846,6 @@ potasiu acidului lactic, îmbu-
 nătățind forța și rezis-
 tența musculară.
 
-<!-- Pagina PDF 444 -->
-
 GH Stak de la Conform indicațiilor Crește masa mus-
 Muscle-Link de pe etichetă. culară fără grăsimi,
 reduce adipoza
@@ -46826,8 +45938,6 @@ mai târziu.
 99,39kg-136,2kg 12 g creatină 600 ml,urmați de
 85 g carbohidrați 360 ml,10 minute
 mai târziu.
-
-<!-- Pagina PDF 445 -->
 
 Q Dacă umflătura este semnificativă, chemați medicul ime-
 diat sau mergeți la urgență pentru a fi examinat. În mod
@@ -46936,8 +46046,6 @@ sunt cevaobișnuit. Există numeroase feluri de convulsii
 generalizate. Convulsiile absente (cunoscute ca micul
 rău) sunt cele mai întâlnite la copii și la adolescenți. Sunt
 
-<!-- Pagina PDF 446 -->
-
 caracterizate printr-o privire absentă cel puțin jumătate
 de minut. Persoana pare să viseze cu ochii deschiși.
 acest tip de convulsie, individul este rupt de mediul
@@ -47042,8 +46150,6 @@ mandată. Pentru copii între G și 12 ani, folosiți jumătate din
 dis-
 este doza recomandată, iar pentru copii sub șase ani folosiți un
 ale sfert din cantitatea recomandată.
-
-<!-- Pagina PDF 447 -->
 
 ,:
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -47151,8 +46257,6 @@ sănătate și împotriva
 stresului. Distruge
 radicalii liberi.
 
-<!-- Pagina PDF 448 -->
-
 Quercitină Conform indicațiilor Flavonoid cu propri-
 de pe etichetă. etăți antiinflamatorii
 și antioxidante.
@@ -47257,8 +46361,6 @@ circulației spre creier.
 U Evitați cât mai mult stresul și tensiunea nervoasă. Învățați
 tehnici de control al stresului. (Vezi Stres, Partea a doua,
 p-797.)
-
-<!-- Pagina PDF 449 -->
 
 **Observații**
 Q Majoritatea persoanelor cu epilepsie sunt conștiente
@@ -47368,8 +46470,6 @@ carnea și peștele și fructele și legumele.
 Ul Convulsiile false, cunoscute și ca atacuri psihogene sau
 nonepileptice, nu sunt convulsii de epilepsie și pot fi un
 simptom al altor factori psihologici.
-
-<!-- Pagina PDF 450 -->
 
 U Boala Huntington, numită uneori și coreea Huntington,
 este o boală care dă tremor, mișșcări spasmodice și
@@ -47484,8 +46584,6 @@ sunt
 + Farduri.
 + Fenacetina, un ingredient din unele analgezice.
 
-<!-- Pagina PDF 451 -->
-
 - Fenobarbital, sedativ și anticonvulsiv.
 - Fluoruri, care se găsesc în unele produse de îngrijire den-
 tară și sunt folosite la fluorizarea apei de băut.
@@ -47585,8 +46683,6 @@ generală a pielii.
 Quercitină Conform indicațiilor Reduce inflamația și
 de pe stichetă. reacțiile la substanțele
 care pot da urticarie.
-
-<!-- Pagina PDF 452 -->
 
 Ulei dinsemințe 1 000 mg de 2 ori Are efecte
 de in pe zi. antiinflamatorii,
@@ -47699,8 +46795,6 @@ cel puțin pentru un timp, simptomele de urticarie luând
 antihistaminice — hidroxizină (Atarax, Vistaril), clorfenira-
 mină (Chlor-Trimeton, Teldrin și altele) sau difenhidramină
 
-<!-- Pagina PDF 453 -->
-
 (Benadryl și altele). Suferinzii cronici au mai puțin succes
 cu aceste tratamente pentru că antihistaminicele sunt agenți
 de reprimare și pot contribui la persistența urticariei. Anti-
@@ -47807,8 +46901,6 @@ Q O cataplasmă făcură din păpădie și rădăcină de ștevie
 galbenă ajută în multe tipuri de urticarii. (Vezi Folosirea
 cataplasmei, Partea a treia, p. 876.)
 
-<!-- Pagina PDF 454 -->
-
 Q Înmuiați o cârpă în ceai de malvă și aplicați ca o compresă
 caldă pe zonele infectate, pentru a reduce inflamația.
 Q Paiele de ovăz pot fi folosite local, într-o baie, pentru a
@@ -47911,8 +47003,6 @@ este un semn al apariției escarei, cum la fel este și un edem
 local și/sau îngroșarea țesutului. Escarele severe necesită o
 —, intervenție chirurgicală pentru eliminarea țesutului mort.
 
-<!-- Pagina PDF 455 -->
-
 ## Tipuri des întâlnite de erupții cutanate
 
 Cel mai bun mod de a aborda tratamentul pentru
@@ -48009,8 +47099,6 @@ Des întâlnită la copii.
 dureroase și sensibile la atingere, care, până la urmă, fac
 adesea pe abdomen, mai jos de coaste, dar și oriunde pe
 de simptome similare cu gripa - febră, frisoane și dureri
-
-<!-- Pagina PDF 456 -->
 
 ### NUTRIENȚI
 
@@ -48109,8 +47197,6 @@ portant să vă concentrați pe creșterea aportului de proteină.
 O S-a dovedit că acizii grași esențiali joacăun rol important
 În sănătatea pielii. Luați pe cale orală sau aplicați local
 46 7
-
-<!-- Pagina PDF 457 -->
 
 pe piele ca loțiune (doar pe rănile închise, vindecate),
 ajută la menținerea integrității și a elasticității pielii și la
@@ -48216,8 +47302,6 @@ reactoarele nucleare, de stocarea reziduurilor de plutoniu
 razele X, medicina nucleară, ecranele computerelor, tele-
 vizoarele,derectoarele de fum și cuptoarele cu microunde
 sunt printre sursele obișnuite de expunere la radiații. Radiații
-
-<!-- Pagina PDF 458 -->
 
 sunt în jurul nostru tot timpul, atât sub formă naturală cât
 și artificială. Soarele este o sursă naturală de expunere
@@ -48329,8 +47413,6 @@ Calciu 1 500 mg zilnic. Ajută corpul să împie-
 și dice absorbția materia-
 care magneziu 750 mg zilnic. lelor radioactive.
 
-<!-- Pagina PDF 459 -->
-
 Coenzima 8,, 100 mg zilnic. Protejează corpul de
 plus radiații dăunătoare.
 caenzima A Conform indicațiilor Acționează împreună
@@ -48429,8 +47511,6 @@ congenitale. Expunerea între săprămâna a 8-a și a 15-a poate
 provoca vătămarea cerebrală a fătului. Leucemia la copii poa-
 te apărea dacă fătul este expus la raze X în primul trimestru
 de sarcină.
-
-<!-- Pagina PDF 460 -->
 
 **Observații**
 Q Cu cât tehnologia avansează și cu cât se cunoaște mai
@@ -48539,8 +47619,6 @@ mese. vitamine și minerale
 necesare pentru
 hrănire.
 
-<!-- Pagina PDF 461 -->
-
 Usturoi 2 capsule de 3 ori Antibiotic natural în
 pe Zi. și puternic se
 imunostimulator.
@@ -48645,8 +47723,6 @@ a doua, p. 772, p. 406, p. 507, p. 329 și p. 600.)
 Q Exercițiile viguroase, în care mușchii generează căldură
 mai repede decât capacitatea organismului de a o disipa, ar
 putea determina o creștere temporară a temperaturii.
-
-<!-- Pagina PDF 462 -->
 
 ## FEBRĂ A FÂNULUI
 
@@ -48758,8 +47834,6 @@ tamponată.
 din
 ani,
 
-<!-- Pagina PDF 463 -->
-
 Enzime Conform indicațiilor Necesare pentru
 proteolitice de pe etichetă. digestia nutrienților
 Luați întimpul mesei esențiali care stimulează Q
@@ -48858,8 +47932,6 @@ duș înainte de culcare este o idee bună.
 6. Tundeți în mod regulat iarba înainte să înflorească.
 7. Bvitați să puneți rufele la uscat afară, pentru că polenul
 se adună pe materiale.
-
-<!-- Pagina PDF 464 -->
 
 8. Țineți animalele de casă ori înăuntru, ori afară. Câinii
 pisicile pot aduna pe blană polenul și îl pot aduce în casă.
@@ -48967,8 +48039,6 @@ de sau noduli la o articulație sau la articulații, oboseală, și
 mișcări convulsive necontrolabile ale brațului, piciorului sau
 ale mușchilor faciali. După un astfel de atac, boala tinde să
 recidiveze.
-
-<!-- Pagina PDF 465 -->
 
 Efectele pe termen lung ale febrei reumatice pot inclu- |
 de insuficiență cardiacă, afecțiuni ale pielii, endocardită |
@@ -49080,8 +48150,6 @@ Ulei Conform indicațiilor Reduce durerea
 din semințe de pe etichetă. și inflamația.
 de in
 
-<!-- Pagina PDF 466 -->
-
 Vitamina A 10 000 UI zilnic. Antioxidanți importanți.
 plus Utilizați sub formă de
 complex de emulsie pentru o mai
@@ -49188,8 +48256,6 @@ o situației.
 Q Vezi Artrită, Febră și/sau Inflamație a gâtului, Partea
 a doua.
 
-<!-- Pagina PDF 467 -->
-
 ## FENILCETONURIE
 
 de
@@ -49294,8 +48360,6 @@ Q Rădăcina de păpădie, silimarinul, rădăcina de gura
 lupului și rizomul de turmeric sunt antioxidanți puternici
 care susțin ficatul și ajută la eliminarea toxinelor.
 Q Ceaiul verde este un antioxidant puternic.
-
-<!-- Pagina PDF 468 -->
 
 Precauții: Ceaiul verde conține vitamina K, care poate
 face mai puțin cficiente medicamentele anticoagulante.
@@ -49406,8 +48470,6 @@ fi Căile aeriene, tractul gastrointestinal, canalele biliare,
 canalele pancreasului și tractul genito-urinar al bărbatului
 produc mucus. Fibroza chistică afectează acest mucus care,
 
-<!-- Pagina PDF 469 -->
-
 în mod normal, este protector și îl transformă într-o excre-
 ție groasă, anormală, care obstruează căile respiratorii și
 afectează țesuturile. Simptomele de EC apar devreme în
@@ -49515,8 +48577,6 @@ Vitamina C 3 000-—6 000 mgzilnic, Pentru refacerea
 cu în doze împărțite. țesuturilor
 bioflavonoide șifuncția imunitară.
 
-<!-- Pagina PDF 470 -->
-
 Vitamina E Conform indicațiilor de Repară țesuturile și
 pe etichetă. Nu depășiți previne deteriorarea
 200 UI zilnic din toate celulară. Ajută și la
@@ -49618,8 +48678,6 @@ iarba mare, usturoiul, ungurașul, isopul și lumânărica, pot fi
 utile pentru calmarea unor congestii.
 Q Eucaliptul, usturoiul, ceapa, uleiul de arbore de ceai și
 cimbrulau proprietăți antiseptice naturale și combat infecția.
-
-<!-- Pagina PDF 471 -->
 
 Q Echinacea, lemnul dulce și ginsengul siberian sunt bune cu
 pentru întărirea sistemului imunitar. au
@@ -49728,8 +48786,6 @@ pe care tradițională, intravenos, pentru că ajunge direct în
 Q Nivelul scăzut de vitamina E și de seleniu a fost legat de
 fibroza chistică și de cancer.
 
-<!-- Pagina PDF 472 -->
-
 ## FLEBITĂ
 
 Vezi Tromboflebită.
@@ -49832,8 +48888,6 @@ maniaco-depresivă sau
 luați antidepresive pe
 rețetă. Nu administrați
 copiilor sub 12 ani.
-
-<!-- Pagina PDF 473 -->
 
 Siliciu Conform indicațiilor Furnizează siliciul
 de pe etichetă. necesar pentru
@@ -49939,9 +48993,6 @@ Q Terapia cu ultrasunete după fractură poate grăbi vinde-
 carea. Tratamentul se face acasă, printr-o fereastră făcută în
 ghips. Consultați-vă mai întâi medicul curant.
 
-<!-- Pagina PDF 474 -->
-
-
 mușchilor și ale articulațiilor, Partea a doua.
 
 ## FRIGIDITATE
@@ -50042,8 +49093,6 @@ antipsihoticele.
 Q Ignama sălbatică conține un steroid natural numit dehi-
 droepiandrosteron (DHEA) care întinerește și oferă vigoa-
 rea necesară pentru a face dragoste. Luați timp de două
-
-<!-- Pagina PDF 475 -->
 
 săptămâni, apoi faceți pauză două săptămâni și așa mai
 departe.
@@ -50146,8 +49195,6 @@ Vitamina C 3 000-8 000 mg zilnic, Puternic antiinflamator
 și în dozeîmpărțite. și stimulent al
 biofiavonoide sistemului imunitar.
 
-<!-- Pagina PDF 476 -->
-
 Vitamina E 200 UI zilnic. Antioxidant puternic.
 Folosiți forma d-alfa-
 tocoferol.
@@ -50246,8 +49293,6 @@ istoric pot fi necesare. Cazurile grave pot necesita odihnă la pat.
 doar
 **Observații**
 pot Q Furunculele pot fi simptomatice, semnalând o infecție
-
-<!-- Pagina PDF 477 -->
 
 ales dacă sunt însoțite de alte simptome, cum ar fi febră și
 scădere a poftei de mâncare.
@@ -50359,8 +49404,6 @@ contribuie la „înfundarea“ țesuturilor cu fluide intraoculare
 care, în mod normal, sunt drenate. Rezultă creșterea pre-
 siunii interne în ochi, determinând apariția glaucomului
 
-<!-- Pagina PDF 478 -->
-
 și pierderea vederii. Siruații caracterizate ca erori ale metabo-
 lismului colagenului sunt frecvent asociate cu boli de ochi.
 Acum, specialiștii cred că un simplu test al tensiunii
@@ -50470,8 +49513,6 @@ glaucomului. Folosiți
 forma de sulfat
 de zinc.
 
-<!-- Pagina PDF 479 -->
-
 Plante
 Q Afinele conțin flavonoide și nutrienți necesari protejării
 ochilor de viitoare afecțiuni. Pot fi folosite și coacăzele
@@ -50575,8 +49616,6 @@ intraoculară, medicul poate folosi o tehnică numită
 trabeculoplastie cu laser argon sau ALT. În această tehnică,
 se fac găuri mici în rețea cu raza laser, prin care lichidul apos
 să se dreneze normal, deschizând canalele blocate.
-
-<!-- Pagina PDF 480 -->
 
 Q La ora actuală este folosită o tehnică nouă numită tra-
 beculoplastie cu laser selectiv (SLT) pentru scăderea pre-
@@ -50686,8 +49725,6 @@ Vezi Boli transmise prin alimente și apă și Indigestie.
 
 Gripa este o infecție virală foarte contagioasă a căilor respi-
 ratorii superioare. Există două tipuri de virusuri ale gripei,
-
-<!-- Pagina PDF 481 -->
 
 numite tipul A și tipul B, care provoacă această infecție a gâ-
 “tului, nasului, a canalelor bronșice, a plămânilor și a urechii
@@ -50799,8 +49836,6 @@ oabsorbție mai bună. noacizi,Partea întâi.)
 Precauții: Nu luațilizină
 mai mult de șase luni.
 
-<!-- Pagina PDF 482 -->
-
 N-acetilcisteină Conform indicațiilor
 (NAC) de pe etichetă.
 Dioxiclor 10-20 picături admi- Important agent
@@ -50907,8 +49942,6 @@ de inclusiv virusul gripei.
 scade Q Ceaiul de trei frați pătați tratează răceala însoțită de febră
 și congestie respiratorie.
 
-<!-- Pagina PDF 483 -->
-
 Recomandări
 Q Ca să nu vă îmbolnăviți de gripă, urmați aceste sfaturi:
 1. Când tușiți sau strănutați, acoperiți nasul și gura cu o
@@ -51009,8 +50042,6 @@ sunt toxiinfecția alimentară, infecția virală, intoxicația cu
 alcool, sensibilitatea la medicamente și unele alergii. Acest
 tip de boală trece, de obicei, în două, trei zile.
 Q Vez: și Răceală obișnuită și Pneumonie, Partea a doua.
-
-<!-- Pagina PDF 484 -->
 
 ## GUTĂ
 
@@ -51116,8 +50147,6 @@ de esențiali.
 Potasiu 99 mg zilnic. Necesar pentru un bun
 echilibrumineral.
 
-<!-- Pagina PDF 485 -->
-
 Picnogenol Conform indicațiilor Antioxidanți puternici.
 de pe etichetă.
 sau
@@ -51216,8 +50245,6 @@ uric și scade cantitatea eliminată. Berea și vinul conțin și
 drojdie.
 1 Nu mâncați alimente prăjite, alune și nuci prăjite sau
 orice fel de aliment care conține (sau este preparat cu) ulei
-
-<!-- Pagina PDF 486 -->
 
 supus încălzirii. Când sunt încălzite, uleiurile încep să
 altereze. Grăsimea râncezită distruge rapid vitamina E, ceea
@@ -51323,8 +50350,6 @@ tru că lipsa de mâncare obligă organismul să descompună
 grăsimile stocate, numite ketone, și proteinele pentru
 adesea combustibil; deșeurile metabolice rezultate din acest proces
 
-<!-- Pagina PDF 487 -->
-
 ### NUTRIENȚI
 
 DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -51427,8 +50452,6 @@ adoptați permanent.
 Beți cantități mari de apă de czlitate.
 Evitați alimentele condimentate, al căror miros poate
 rezista ore întregi. Alimente ca anșoa, brânză mucegăită,
-
-<!-- Pagina PDF 488 -->
 
 Camembert, usturoi, ceapă, pastramă, pepperoni, brânză
 Roguefort, salamul și tonul lasă în gură grăsimi care continuă
@@ -51538,8 +50561,6 @@ un rează la articulații și boala nu le afectează în viața normală.
 dimen- National Hemophilia Foundation din SUA estimează
 că se nasc, în fiecare an, aproape 450 de băieți americani
 
-<!-- Pagina PDF 489 -->
-
 cu hemofilie. Numărul de fete cu hemofilie nu este
 cunoscut. Hemofilia afectează, în primul rând, băieții și
 este transmisă de femei, pentru că cele două gene primare
@@ -51642,8 +50663,6 @@ Nu luați aspirină. Aspirina este un agent anticoagulant.
 Dacă îngrijiți un copil sau un bebeluș cu hemofilie, fiți
 atent la durerile de articulații sau de mușchi, pentru că pot fi
 cauzate de hemoragii interne. Copilul poate plânge aparent
-
-<!-- Pagina PDF 490 -->
 
 fără motiv, poare să refuze să-și folosească brațul și să meargă
 sau poate să aibă o inflamație și să-l usture. Dacă bănuiți că
@@ -51753,8 +50772,6 @@ Cele presați nasul (vezi 2, mai sus) sau după.
 scaun, sângerarea. Abțineți-vă de la orice activitate intensă câteva
 culcară ore și de la orice exercițiu fizic viguros timp de două zile.
 
-<!-- Pagina PDF 491 -->
-
 5. Dacă sângerarea nu se oprește, băgați în cavitatea nazală
 o bucată de vată udată cu apă sau cu un spray desconges-
 tionant. Țineți nările strânse circa cinci minute.
@@ -51861,8 +50878,6 @@ violentă, de ridicarea obiectelor grele (dar și de ridicarea
 incorectă a unor obiecte relativ ușoare). Se măresc din cauza
 suprasolicitării intestinelor (în special în constipație, deși
 
-<!-- Pagina PDF 492 -->
-
 crizele de diaree însoțite de spasme involuntare pot agrava
 situația). Alți factori care pot provoca sau contribui la formarea
 hemocroizilor sunt obezitatea, lipsa de mișcare, disfuncțiile
@@ -51967,8 +50982,6 @@ copii corporală zilnic, împărțit și inflamația.
 în 3 doze. Poate fi luat
 oral sau rectal,
 un în clismă de retenție.
-
-<!-- Pagina PDF 493 -->
 
 Coenzima Q,, 100 mg zilnic, Crește oxigenarea
 celulară și ajută
@@ -52079,8 +51092,6 @@ suplimente cu vitamine și minerale ca să preveniți anemia.
 supliment cu fier împreună cu un complex puternic
 vitamina B și vitamina C ajută la sănătatea sângelui.
 
-<!-- Pagina PDF 494 -->
-
 Vitaminele din complexul B administrate sublingual sunt
 forma de vitamine B cel mai bine absorbită. Vorbiți cu
 medicul curant înainte de a lua fier.
@@ -52185,8 +51196,6 @@ preferință proctolog, cât mai repede cu putință. Tehnica
 chirurgicală presupune o operație puțin dureroasă și
 cu o perioadă de recuperare mai rapidă decât în trecur.
 Intervenția chirurgicală este eficientă în majoritatea
-
-<!-- Pagina PDF 495 -->
 
 cazurilor. Dacă hemoroizii revin, se poate recurge din
 nou la operație.
@@ -52296,8 +51305,6 @@ mamă la copil, la naștere.
 Hepatită cu virus E (HEV) este mai frecvent în anumite
 părți ale lumii, mai ales în Mexic,în India și în țări asiatice
 
-<!-- Pagina PDF 496 -->
-
 și africane. Se răspândește, de obicei, prin contaminare cu
 fecale și este foarte periculoasă pentru femeile însărcinate,
 dar, în general, nu provoacă hepatită cronică.
@@ -52404,8 +51411,6 @@ inositol mai ales pentru
 vitamina B,, și acidul
 folic.
 
-<!-- Pagina PDF 497 -->
-
 Superoxid Conform indicațiilor Antioxidanți puternici
 dismutază (SOD) de pe etichetă. care neutralizează peri-
 colul reprezentat de ra-
@@ -52506,8 +51511,6 @@ Q Alte plante eficiente împotriva hepatitei sunt ridichea
 neagră, ceaiul verde, trifoiul roșu și ștevia galbenă.
 Precauții: Ceaiul verde conține vitamina K, care poate
 face mai puțin eficiente medicamentele anticoagulante..
-
-<!-- Pagina PDF 498 -->
 
 Consultați-vă cu medicul dacă le folosiți. Cafeina din ceaiul
 verde poate provoca insomnie, anxietate, deranjamente
@@ -52616,8 +51619,6 @@ Herpesul bucal este provocat de virusul 1 herpes simplex
 (HSV-1), care este legar, dar este diferit, de virusul care de-
 clanșează herpesul genital. Herpesul bucal apare după trei
 
-<!-- Pagina PDF 499 -->
-
 sau zece zile de la contactul cu virusul și durează până la
 aproximativ trei săptămâni. Virusul rămâne apoi perma-
 nent în corp și se deplasează în sistemul nervos, în apropiere
@@ -52709,8 +51710,6 @@ de pe etichetă.
 Complex de Conform indicațiilor Toți nutrienții sunt
 multivitamine de pe etichetă. necesari în proparții
 de minerale echilibrate.
-
-<!-- Pagina PDF 500 -->
 
 Vitamina A 25000 UI zilnic. Necesară pentru
 plus Dacă sunteți vindecarea țesutului
@@ -52822,8 +51821,6 @@ Hipertensiunea este, de obicei, considerată de două feluri:
 primară și secundară. Hipertensiunea primară este tensiunea
 ridicată a sângelui care nu este produsă de o boală de fond.
 
-<!-- Pagina PDF 501 -->
-
 Cauza exactă este necunoscută, dar au fost identificați mai
 mulți factori de risc. Aceștia sunt fumatul, stresul, obe-
 zitatea, excesul de stimulenți, cum ar fi cafeaua sau ceaiul,
@@ -52931,8 +51928,6 @@ recomandată. Pentru copii între 6 și 12 ani, folosiți jumătate
 din doza recomandată, iar pentru copii sub 6 ani, folosiți un
 sfert din cantitatea recomandată.
 
-<!-- Pagina PDF 502 -->
-
 ### NUTRIENȚI
 
 **SUPLIMENT**
@@ -53035,8 +52030,6 @@ Dacă sunteți
 însărcinată, nu depășiți
 și 10 000 UI pe zi.
 zinc 50 mgzilnic.
-
-<!-- Pagina PDF 503 -->
 
 Țesut cardiac Conform indicațiilor Întărește mușchiul
 crud de pe etichetă. cardiac.
@@ -53146,8 +52139,6 @@ dacă înregistrați vreun simptom de reacție alergică,
 Q Păstrați greutatea optimă. Dacă sunteți o persoană su-
 praponderală, începeți sistematic să eliminați kilogramele
 
-<!-- Pagina PDF 504 -->
-
 ## HIPERTENSIUNE ARTERIALĂ
 
 ## Cum vă măsurați tensiunea arterială
@@ -53246,8 +52237,6 @@ vă U Dormiți suficient.
 Q Măsurați-vă tensiunea cel puțin o dată la patru sau cinci
 luni. Pentru că,de obicei, hipertensiunea nu are simptome,
 măsurarea regulată a tensiunii de către un specialist este
-
-<!-- Pagina PDF 505 -->
 
 importantă, în special dacă faceți parte din categoria cu risc
 crescurt.
@@ -53351,8 +52340,6 @@ oxigenului.
 Cercetătorii de la State University din New York au
 descoperit că, cu câr nivelul de magneziu este mai scăzut,
 cu atât tensiunea arterială este mai mare. Un test în orb,
-
-<!-- Pagina PDF 506 -->
 
 controlat cu placebo, a arătat că suplimentarea magneziului
 poate duce la o reducere semnificativă, în funcție de doză,
@@ -53461,8 +52448,6 @@ tip (piridoxină) și este necesară
 sisteului imunitar și
 producției de anticorpi.
 
-<!-- Pagina PDF 507 -->
-
 Acizi grași Conform indicațiilor Necesari unei bune
 esențiali de pe etichetă, funcții glandulare.
 Drojdie de bere 1—3linguri pe zi Bogată în mulți nutrienți
@@ -53569,8 +52554,6 @@ simptomele următoare: oboseală, amețeli, palpitații, greață,
 tulburări de vedere, incapacitate de concentrare, ușoară
 derută, durere de cap, iritabilitate, stare de leșin, depresie,
 nervozitate, anxietate, poftă de dulciuri, confuzie, transpirații
-
-<!-- Pagina PDF 508 -->
 
 nocturne, slăbiciune în picioare, picioare umflate, senzație
 de greutate în piept, foame permanentă, dureri în diferite
@@ -53682,8 +52665,6 @@ un vitamina B, 100 mg zilnic. Ajută la producerea de
 (tiamină) acid clorhidric, necesar
 pentru odigestie bună.
 
-<!-- Pagina PDF 509 -->
-
 și 100 mg zilnic. Ajută la producerea de
 vitamina B, Nu depășiți această acid clorhidric, necesar
 (niacină) cantitate. peniru o digestie bună.
@@ -53790,8 +52771,6 @@ Precauții: Rădăcina de lemn dulce nu ar trebui folosită
 timpul sarcinii sau în cazul în care alăptați. Nu ar trebui
 folosită de persoane cu diabet, glaucom, boli de inimă,
 hipertensiune arterială sau cu accidente vasculare în istoric.
-
-<!-- Pagina PDF 510 -->
 
 Q Alte plante benefice sunt echinacea, pătrunjelul, pau
 d'arco, frunzele de zmeur și strugurii ursului.
@@ -53900,8 +52879,6 @@ cum
 unt Q Hipoglicemia poate imita simptomele menopauzei, mai
 ales că apare în a doua jumătate a vieții.
 
-<!-- Pagina PDF 511 -->
-
 O În cazuri rare, hipoglicemia poate fi declanșată prin doze
 mari de aspirină sau de sulfonamide, o clasă de antibiotice
 prescrise adesea pentru infecții ale tractului urinar.
@@ -54007,8 +52984,6 @@ temperatură de 36,4*C sau mai mică poate indica o
 activitate redusă a tiroidei. Luați-vă temperatura cinci zile la
 rând. Dacă este constant scăzută, mergeți la medic.
 
-<!-- Pagina PDF 512 -->
-
 . -
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Alge 2 000-3 000 mgzilnic. — Conțin iod, substanță
@@ -54112,8 +53087,6 @@ sistemtljlui' imunitar.
 Folosiți forma d-alfa-
 tocoferol.
 
-<!-- Pagina PDF 513 -->
-
 Zinc 50 mg zilnic. Stimulent al sistemului
 Nu depășiți un total imunitar, Folosiți
 de 100 mg zilnic, din gluconat de zinc
@@ -54215,8 +53188,6 @@ problemă în procesul conversiei hormonului tiroidian T4 în
 alt hormon tiroidian, T3. Acest fapt produce simptome ale
 scăderii funcției tiroidiene, declanșate, în special, de stresul
 fizic și emoțional. Aceste simptome vă pot afecta modul
-
-<!-- Pagina PDF 514 -->
 
 de viață și pot să persiste chiar și după ce a trecut perioada
 de stres. Persoanele cu sindromul Wilson au multe din
@@ -54331,8 +53302,6 @@ luați antidepresive. Nu
 un administrați copiilor sub
 12 ani.
 
-<!-- Pagina PDF 515 -->
-
 Vitamine din 50 mg din fiecare Vitaminele B sunt
 complexul B vitamină B importantă necesare bunei digestii,
 de 3 ori pe zi absorbției nutrienților și
@@ -54439,8 +53408,6 @@ reacții dacă planta este arsă și inhalează fumul. Cazuri severe
 otrăvire s-au întâmplat la copii care au mâncat frunzele
 fructele cenușii ale plantei.
 
-<!-- Pagina PDF 516 -->
-
 În afară de cazurile în care există alte indicații speciale,
 dozele recomandate aici sunt pentru adulți. Pentru copii
 între 12 și 17 ani, reduceți doza la trei sferturi din cantitatea
@@ -54542,8 +53509,6 @@ mente fără rețetă includ IvyBlock, care reduce severitatea
 erupției; Tecnu Skin Cleanser; lvy Stat; Benadryl; loțiune
 cu calamină; săpun Poison Ivy de la Burts Bees; Ivy-Dry
 și steroizii luați în doze reduse.
-
-<!-- Pagina PDF 517 -->
 
 Q Pentru cazurile severe de otrăvire cu iederă, consultați un
 doctor. Simptomele care arată că este necesară intervenția
@@ -54654,8 +53619,6 @@ necesar pentru descompunerea și digerarea multor alimente.
 Dacă HCQl este insuficient, se poate ajunge la indigestie.
 Nivelul de HCl scade odată cu vârsta.
 
-<!-- Pagina PDF 518 -->
-
 Puteți determina dacă aveți nevoie de mai mult HCl cu
 un test simplu. Beți o lingură de oțet de cidru de mere sau
 de suc de lămâie. Dacă indigestia dispare, aveți nevoie de
@@ -54762,8 +53725,6 @@ digestie bună și
 pentru metabolismul
 proteinelor.
 
-<!-- Pagina PDF 519 -->
-
 Plante
 U Acid-Ease este o formulă din plante care ajută la descom-
 punerea și asimilarea alimentelor. Conține enzime naturale
@@ -54867,8 +53828,6 @@ dicul. Dacă durerea se lasă în jos pe brațul stâng sau senza-
 este însoțită de slăbiciune, amețeli sau sufocare, mergeți
 imediat la urgență. Semnele timpurii de infarct sunt foar-
 asemănătoare cu cele de indigestie, în special arsurile și,
-
-<!-- Pagina PDF 520 -->
 
 ca urmare, multe persoane le ignoră fără să-și dea seama de
 consecințe. (Vezi Infarct miocardic, Partea a doua, p. 531.)
@@ -54981,8 +53940,6 @@ Rău Îngroșarea pereților arterelor prin depozitarea plăcii nu
 numai că îngustează arterele, dar le face și mai vulnerabile
 la formarea cheagurilor de sânge de-a lungul suprafețelor
 
-<!-- Pagina PDF 521 -->
-
 interioare. Când cheagul crește sau se desprinde din locul
 inițial și pornește prin vasul de sânge, poate bloca artera
 coronariană complet, ducând la atacul de cord.
@@ -55090,8 +54047,6 @@ dozele recomandate aici sunt pentru adulți. Pentru copii
 recomandată. Pentru copii între 6 și 12 ani, folosiți jumărate
 din doza recomandată, iar pentru copii sub G ani, folosiți un
 sfert din cantitate.
-
-<!-- Pagina PDF 522 -->
 
 ### NUTRIENȚI
 
@@ -55202,8 +54157,6 @@ vitamina B, 50 mg zilnic.
 vitamina B,, 1 000—2 009 mcg
 zilnic.
 
-<!-- Pagina PDF 523 -->
-
 și 400 mcg zilnic. Carența de acid folic în
 acid folic Dacă luați medicamente mușchiul inimii duce la
 anticonvulsive pentru boli de inimă. Nivelul
@@ -55303,8 +54256,6 @@ a sângelui, consultați-vă medicul curant înainte de a folosi
 salvia roșie.
 Q Piperul P de Cayenne y (capsicum), rădăcina de 8 ghimbir și Ș
 ginkgo biloba întărescinima și atenuează durerileîn piept.
-
-<!-- Pagina PDF 524 -->
 
 ## Test de stres
 
@@ -55416,8 +54367,6 @@ anginei. - Dacă ulterior se stabilește că zu a fost infarct, aveți în
 și vedere ca medicul să evalueze probabilitatea unui infarct, ca
 să elimine orice dubiu și grija că puteți face unul.
 
-<!-- Pagina PDF 525 -->
-
 Q Dacă ați suferit un infarct sau sunteți expus unui risc de
 infarct, schimbați dieta. Măsurile importante includ:
 + Mâncați multe alimente bogate în fibre. Nu toate fibrele
@@ -55522,8 +54471,6 @@ să citiți despre toate aspectele și cauzele care contribuie la
 infarctul de miocard.
 U Severitatea primelor atacuri de cord a scăzut semnificativ
 în Statele Unite — determinând un declin al deceselor din
-
-<!-- Pagina PDF 526 -->
 
 cauza bolilor coronariene, după cum constatau cercetătorii
 în Circulation: Journal of American Heart Association. Stu-
@@ -55633,8 +54580,6 @@ care inhibă formarea hormonului angiotensină, respon-
 tori ai angiotensinei II interferează cu acțiunea, mai mult
 decât cu formarea, aceluiași hormon.
 
-<!-- Pagina PDF 527 -->
-
 + Anticoagulantele sunt, de obicei, prescrise persoanelor
 expuse unui risc mare de formare de cheaguri de sânge,
 cum sunt cele imobilizate la pat, bolnavii de cancer,
@@ -55743,8 +54688,6 @@ cu drojdii) este prezentă o scurgere brânzoasă, de obicei
 Impetigo, cunoscut și ca infecție tinca (pecingine), este o
 infecție fungică a pielii sau a scalpului. Provocar de diferite
 
-<!-- Pagina PDF 528 -->
-
 specii de fungi — în special microspori, tricofiți, epidermo-
 Hți —, este caracterizat de apariția unor pete mici roșii care
 cresc în diametru până la circa 0,60 cm. Pe măsură ce petele
@@ -55848,8 +54791,6 @@ J Kolorex este un produs din plante cu eficiență dovediră
 sește sub formă de capsule și cremă.
 Q Pau d'arco are puternice proprietăți antifungice. Beți
 3 căni de ceai de pau d'arco zilnic.
-
-<!-- Pagina PDF 529 -->
 
 Q Pentru ciupercile de la unghii, înmuiați unghiile într-un
 amestec de pau d'arco și gențiană. Într-un vas, faceți ceai
@@ -55956,8 +54897,6 @@ mult de trei săptămâni. Este ceva obișnuit ca această boală să
 nu manifeste nici un fel de simptome ale infecției,
 Primele semne de herpes genital la femei pot fi ușoare
 mâncărimi și usturimi în zona vaginală. La numai câteva
-
-<!-- Pagina PDF 530 -->
 
 ore, apar bășicuțe în jurul rectului, clitorisului, colului
 uterin și vaginului. Adesea apare o scurgere apoasă din
@@ -56075,8 +55014,6 @@ pentru oasimilare mai
 sânge, ușoară și omai mare
 după siguranță la doze mari.
 
-<!-- Pagina PDF 531 -->
-
 Vitamine din 50 mg din fiecare Combate virusul și
 complexul B vitamină B importantă împiedică răspândirea
 sau mai mult,de 3ori - lui. Acționează
@@ -56184,8 +55121,6 @@ Dacă folosiți lemn dulce, măriți aportul de potasiu.
 Precauții: Rădăcina de lemn dulce nu ar trebui folosită
 în timpul sarcinii sau în cazul în care alăptați. Nu ar trebui
 
-<!-- Pagina PDF 532 -->
-
 folosită de persoane cu diaber, glaucom, boli de inimă,
 hipertensiune arterială sau cu accidente vasculare în istoric.
 Q Extractul din frunze de măslin pare să afecteze curba
@@ -56292,8 +55227,6 @@ la rețetă. Este vorba despre:
 cu * Acyclovir (vândut sub denumirea comercială sau generică
 de Zovirax) poare fi prescris pentru infecția inițială, într-o
 
-<!-- Pagina PDF 533 -->
-
 doză de 200 mg luată de cinci oripe zi, timp de zece zile.
 În continuare, pentru criza acută, doza obișnuită este de
 200 mg de cinci ori pe zi, timp de cinci zile, și, pentru
@@ -56394,8 +55327,6 @@ SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Mangan 10 mg zilnic. Carența de
 Luați separat mangan poate fi
 de calciu. asociată cu bolile
-
-<!-- Pagina PDF 534 -->
 
 Vitamina C 3 000—7 000 mgzilnic, Crește imunitatea
 cu în doze împărțite. și combate infecția.
@@ -56499,8 +55430,6 @@ a A Otoscopul (pentru examinarea urechii) poate fi folosit și
 Faceți acasă. Medicul vă poate arăta cum să-l folosiți.
 I Farache Tablets este un remediu homeopatic care conține
 Belladonna, Calcarea carbonica, Chamomilla, Lycopodium,
-
-<!-- Pagina PDF 535 -->
 
 Pulsatilla și Sulphur, care lucrează bine împreună pentru
 reducerea durerii și a febrei.
@@ -56612,8 +55541,6 @@ anus la vagin și uretră și de la acestea la vezică. La bărbați,
 bacteriile pot ajunge la vezică fie urcând prin uretră, fie
 migrând din prostată infectată. În timp ce infecția vezicii
 
-<!-- Pagina PDF 536 -->
-
 este ceva obișnuit la femei, la bărbați poate fi semnul unei
 probleme mai serioase, cum este prostatita. Bărbații
 trebui să ceară sfatul unui specialist pentru a li se determina
@@ -56713,8 +55640,6 @@ mg zilnic, din toate și pentru imunitate.
 plus suplimentele.
 cupru 3 mg zilnic Necesar pentru
 echilibrul cu zincul.
-
-<!-- Pagina PDF 537 -->
 
 Plante
 Q Merișoarele (răchițelele) sunt cel mai bun remediu
@@ -56820,8 +55745,6 @@ Q Nu amânați golirea vezicii. Este bine să urinați la două,
 trei ore, „după ceas“.
 Q Păstrați curate și uscate zonele genitală și anală. Femeile
 trebuie să se șteargădin față spre spate după golirea vezicii
-
-<!-- Pagina PDF 538 -->
 
 sau a intestinelor și după actul sexual, și trebuie să spele
 vaginul după contact sexual. Șervețelele pentru bebeluși
@@ -56933,8 +55856,6 @@ pus să se armonizeze perfect ca femeia să rămână însărcinată. În
 general, totuși, circa o treime dintre cazurile de infertilitate
 pe își au originea la femeie, o altă treime la bărbat, iar cealaltă
 
-<!-- Pagina PDF 539 -->
-
 treime pot fi atribuite ambilor parteneri sau unor cauze
 necunoscute.
 În circa jumătate dintre cuplurile infertile, problemele
@@ -57035,8 +55956,6 @@ transmiterea mesajelor
 de la creier la organele
 genitale, ceea ce crește
 dorința sexuală.
-
-<!-- Pagina PDF 540 -->
 
 Octacosanol Conform indicațiilor
 de pe etichetă.
@@ -57146,8 +56065,6 @@ trei luni. Nu ar trebui folosită de persoane care sunt aler-
 gice la ambrozie. Sunătoarea poate provoca o sensibilitate
 crescută la lumina solară. Poare, de asemenea, produce
 
-<!-- Pagina PDF 541 -->
-
 ## Teste de fertilitate
 
 Există un număr de teste — unele pentru bărbați, altele
@@ -57238,8 +56155,6 @@ Papanicolau.
 vadă dacă există tumori sau chisturi ovariene. Se
 timpurie.
 a se determina dacă vreun defect genetic este
-
-<!-- Pagina PDF 542 -->
 
 anxietate, simptome gastrointestinale și dureri de cap. Poate
 interacționa cu unele medicamente, inclusiv cu antidepre-
@@ -57343,8 +56258,6 @@ a (TBT) și desfundarea trompelor uterine cu un cateter au
 succes de aproape 90% în eliminarea obstrucțiilor trompelor
 uterine. TBT este asemănătoare cu tehnica de curățare a
 cu arterelor numită angioplastie. Un balon mic se inserează în
-
-<!-- Pagina PDF 543 -->
 
 trompă cu ajutorul unui cateter. Când cateterul ajunge la
 blocaj, balonul este umflat ca să disloce și să curețe secțiunea
@@ -57450,8 +56363,6 @@ de primulă de
 seară, ulei din
 semințe de in)
 
-<!-- Pagina PDF 544 -->
-
 Complex de Conform indicațiilor Întărește activitatea
 carotenoide de pe etichetă. sistemului imunitar.
 Enzime Conform indicațiilor Ajută la controlul
@@ -57547,8 +56458,6 @@ Q Consumați odietă din 75% alimente crude și beți multe
 ceaiuri de plante și sucuri proaspete.
 Q Mâncați alimente bogate în flavonoide, care sunt an-
 tioxidanți purernici și folosesc la reducerea inflamației.
-
-<!-- Pagina PDF 545 -->
 
 Spanacul și afincle sunt surse excelente de bioflavonoide.
 Căpșunele conțin o cantitate mai mică. Quercitina care se
@@ -57658,8 +56567,6 @@ Este greșit să legăm controlul asupra vezicii urinare de
 îmbătrânire. Este la fel de greșit să se creadă că nu se poate
 face nimic în această problemă.
 
-<!-- Pagina PDF 546 -->
-
 În afară de cazurile în care există alte indicații speciale,
 dozele recomandate aici sunt pentru adulți. Pentru copii
 între 12 și 17 ani, reduceți doza la trei sferturi din cantitatea
@@ -57755,8 +56662,6 @@ anxietatea, stresul sau durerea profundă. Insomnia poate fi și
 urmare a unui mare număr de cauze fizice, inclusiv artrita,
 și astmul, problemele de respirație, hipoglicemia, hiperti-
 roidismul, indigestia, bolile de inimă și de rinichi, durerile
-
-<!-- Pagina PDF 547 -->
 
 musculare, boala Parkinson sau durerile fizice. Consumul de
 cafeină, schimbarea fusului orar și folosirea unor medicamente,
@@ -57866,8 +56771,6 @@ somnolență în timpul zilei, apneea din timpul somnului
 este asociată cu alte probleme de sănătate mai serioase.
 Persoanele cu apnee în somn au tensiunea mai mare, sunt
 
-<!-- Pagina PDF 548 -->
-
 și sunt expuse la risc crescut de boli de inimă, deși motivele
 acestei corelări sunt necunoscute. Persoanele cu apnee
 în somn par să fie incluse într-o categorie de oameni
@@ -57974,8 +56877,6 @@ arahide, curcan, ton și biscuiți de cereale integrale sau iaurt.
 Aceste alimente sunt bogate în triptofan, care ajută somnul.
 Ajută și o jumătate de grepfrut mâncată înainte de culcare.
 
-<!-- Pagina PDF 549 -->
-
 U Nu mâncați cantități mari de alimente cu două ore
 înainte de culcare.
 U Evitați cafeina, alcoolulși nicotina cu patru până la șase
@@ -58078,8 +56979,6 @@ dar pentru unele persoane este nevoie de mai mulr. Alții
 adorm, dar se trezesc din nou și nu mai pot adormi. Dacă vi
 s-a întâmplar așa ceva și vă simțiți obosiți dimincața, vorbiți
 cu medicul curant.
-
-<!-- Pagina PDF 550 -->
 
 Q Circa 12 milioane de americani suferă de sindromul
 picioarelor neliniștite, o afecțiune caracterizată de dorința
@@ -58192,8 +57091,6 @@ Q Tranchilizante ca benzodiazepinele și medicamentele
 radio similare au fost prescrise pentru insomnie pentru că pre-
 zintă mai puține riscuri în supradoză decâr sedativele.
 
-<!-- Pagina PDF 551 -->
-
 Cu toate acestea, devin mai puțin eficiente după 30 de
 zile de utilizare. Cele mai recomandate sunt quazepamul
 (Doral), estazolamul (ProSom), flurazepamul (Dalmane),
@@ -58295,8 +57192,6 @@ de pe etichetă, dacă luați antibiotice.
 de 3 ori pe Zi.
 Luați pe stomacul
 gol.
-
-<!-- Pagina PDF 552 -->
 
 Coenzima A Conform indicațiilor Acționează ca
 de pe etichetă. antioxidant și elimină
@@ -58410,8 +57305,6 @@ bacteriile și încurajează vindecarea vezicii. Beți un pahar de
 suc de merișoare de trei ori pe zi. Folosiți numai suc pur,
 neîndulcit (se găsește la magazinele cu produse naturiste).
 
-<!-- Pagina PDF 553 -->
-
 Nu-l înlocuiți cu sucul din comerț; conține mari cantități
 de zahăr. Dacă nu se găsește suc pur de merișoare, pot fi
 luate capsule ca substitut. Sunt disponibile și suplimente cu
@@ -58514,8 +57407,6 @@ J Infecțiile recurente ale tractului urinar indică posibilitatea
 unei boli de fond serioase. Mergeți la medic.
 Q Doze mari de ibuprofen (Advil, Nuprin și altele), un
 analgezic, pot duce la disfuncții ale rinichilor.
-
-<!-- Pagina PDF 554 -->
 
 O În multe țări, sistemul de dializă la domiciliu stă la dis-
 poziția celor care au nevoie de tratamentul cu dializă.
@@ -58624,8 +57515,6 @@ Recomandări
 Q Evirați laptele și toate produsele lactate, cu excepția
 iaurtului. Este cea mai importantă măsură privind dieta
 
-<!-- Pagina PDF 555 -->
-
 pentru oricine are intoleranță la lactoză. Folosiți lapte de
 soia în loc de lapte de vacă, și brânză de soia în loc de brânză
 din lapte de vacă sau de oaic. Laptele de orez nu are lactoză,
@@ -58732,8 +57621,6 @@ firului de păr ani de zile.
 cap, confuzie, amețeli, convulsii și schimbare a culorii
 unghiilor. Simptomele otrăvirii acute sunt voma, diareea,
 
-<!-- Pagina PDF 556 -->
-
 urina cu sânge, crampele musculare și/sau slăbiciunea
 musculară, oboseala, căderea părului, dermatita, durerile
 gastrointestinale și convulsiile. Otrăvirea cu arsenic afec-
@@ -58838,8 +57725,6 @@ nu se poare ști cât de mult cadmiu are în țesuturi scoica de
 râu sau homarul. Alte surse obișnuite de cadmiu sunt apa de
 băut, îngrășămintele, fungicidele, pesticidele, solul, poluanții
 aerului, cerealele rafinate, orezul, cafeaua, ceaiul și băuturile
-
-<!-- Pagina PDF 557 -->
 
 răcoritoare. Expunerea zilnică prin dietă la cadmiu este
 apreciată laaproape 0,12 mcg până la 0,49 mcg pe kilogram/
@@ -58946,8 +57831,6 @@ Cupru 3mg zfinic. Acționează împreună cu
 zincul pentru înlocuirea
 depozitelor de cadmiu.
 
-<!-- Pagina PDF 558 -->
-
 Fier Conform indicațiilor Corectează carența.
 medicului. Luați cu Folosiți forma de
 100 mg de vitamina C, fumarat feros.
@@ -59049,8 +57932,6 @@ SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Vitamina C 1 000 mg de 4 ori Chelatori de cupru.
 și cu pe zi. Folosiți o formă
 pen- bioflavonoide de acid ascorbic.
-
-<!-- Pagina PDF 559 -->
 
 plus, 60 mg zilnic. Bioflavonoid care este
 suplimentar, unsubprodus al hrișcăi
@@ -59155,8 +58036,6 @@ intoxicația cu plumb.
 Simptomele intoxicației cu plumb apar, de obicei, după
 câteva săptămâni la adulți și după câteva zile la copii.
 Simptomele copiilor au tendința de a fimai severe. Persoa-
-
-<!-- Pagina PDF 560 -->
 
 zile la rând. Gingiile lor se învinețesc și simt slăbiciune
 musculară. Alte simptome posibile sunt anxietate, artrită,
@@ -59268,8 +58147,6 @@ Usturoi 2tablete de 3 ori pezi, Protejează sistemul
 combinarea și la
 eliminarea plumbului.
 
-<!-- Pagina PDF 561 -->
-
 Vitamina C 5 000-20 000 mg Ajută la neutralizarea
 cu zilnic, în doze împărțite. efectelor plumbului.
 bioflavonoide (Vezi Spălături cu acid
@@ -59367,8 +58244,6 @@ de plumb în sânge.
 U Este disponibil un sistem portabil de testare cu baterii;
 poate analiza nivelul plumbului în sânge în trei minute.
 
-<!-- Pagina PDF 562 -->
-
 ## Pentru un mediu fără plumb
 
 Odată acumulat în corp, plumbul rămâne acolo.
@@ -59464,8 +58339,6 @@ apoi Medicine sugerează că plumbul, chiar și la un nivel scăzut,
 le poate face copiilor probleme pe termen lung, cum ar fi
 cu dificultăți grave de citit, probleme de învățare, proastă coor-
 pereți donare mână—ochi, creștere întârziată și reflexe încetinite.
-
-<!-- Pagina PDF 563 -->
 
 Niveluri ridicate de plumb în organism au fost asociate cu
 autismul, problemele comportamentale, hiperactivitatea și
@@ -59572,8 +58445,6 @@ sunteți însărcinată, nu cu vitaminele C
 depășiți 40 mcg zilnic. și E la detoxifierea
 corpului.
 
-<!-- Pagina PDF 564 -->
-
 Vitamina E 200 Ul zilnic. Antioxidant puternic.
 Folosiți forma d-alfa-
 tocoferol.
@@ -59679,8 +58550,6 @@ radicalii liberi de oxigen, care adesea smulg un electron
 de la altă moleculă ca să facă pereche cu singurul
 mai lor electron liber. Acest proces se numește oxidare.
 Metaboliții toxici se pot acumula, perturbând funcția
-
-<!-- Pagina PDF 565 -->
 
 membranelor celulare, sinteza proteinelor și chiar ADN/
 ARN celular. Producerea energiei celulare este afectată,
@@ -59792,8 +58661,6 @@ mai sus). Studiile pe animale au demonstrat că restric-
 de divizare a celulei. Alt studiu a constatat că restricțiile
 calorice încetinesc îmbătrânirea, scăzând, în același
 
-<!-- Pagina PDF 566 -->
-
 timp, numărul de radicali liberi din oxigen produși
 mitocondrii (structuri generatoare de energie din celule).
 Nu s-au efectuat studii pe oameni până acum, dar datele
@@ -59904,8 +58771,6 @@ de in, ulei de întimpul mesei. funcționare corectă a
 primută, ulei de creierului. Apără inima
 nu soman) și împiedică ateroamele
 să adere la artere.
-
-<!-- Pagina PDF 567 -->
 
 Carnosină 500-1 000 mg zilnic Oferăprotecție împo-
 sau conform triva glicării (legături
@@ -60019,8 +58884,6 @@ sau contral medica).
 Cell Guard Conform indicațiilor Un antioxidant complex
 de pe etichetă. care conține SOD.
 
-<!-- Pagina PDF 568 -->
-
 Taurină Plus Conform indicațiilor Element constitutiv
 de pe etichetă. al aminoacizilor.
 Îmbunătătește
@@ -60132,8 +58995,6 @@ vitamina C, pentru o așa că pot avea carențe
 absorbție mai bună. de aminoacizi.
 Fosfatidilserină 1 000 mgde 3 ori Îmbunătățește
 pe zi. funcționarea creierului.
-
-<!-- Pagina PDF 569 -->
 
 Lecitină granule 1 lingură de 3 ori pe zi, Crește funcția creierului
 sau în timpul mesei. și memoria. Apără
@@ -60252,8 +59113,6 @@ sunteți însărcinată sau alăptați.
 Q Rădăcina de brusture și trifoiul roșu curăță sângele. Pot fi
 folosite separat sau în cor,nbinatie.,)
 
-<!-- Pagina PDF 570 -->
-
 Q Păpădia și armurariul ajută la buna funcționare a ficatului
 și a bilei.
 Q Usturoiul întărește sistemul imunitar și apără inima.
@@ -60362,8 +59221,6 @@ mente, dar creșteți cantitatea de alimente crude.
 U Evitați să luați și să pierdeți în greutare, lucru care poate
 duce la pierderea de țesut slab (sau de mușchi). Pierderea
 
-<!-- Pagina PDF 571 -->
-
 de masă musculară la persoanele în vârstă poate grăbi
 sarcopenia. Cu toate acestea, grăsimea corporală în exces
 crește riscul de boli de inimă și de diabet, mai ales în cazul
@@ -60469,8 +59326,6 @@ procesul de divizare a celulelor. Dacă știința poate preveni
 moartea celulelor și răul pe care-l produce acest proces
 organismului, se poate considera că îmbătrânirea poate fi
 amânată.
-
-<!-- Pagina PDF 572 -->
 
 Q Mulți vârstnici au dificultăți de somn. O cauză
 întâlnită este consumul de zahăr după cină. Carbohidrații
@@ -60580,8 +59435,6 @@ su- fice nivelurile acestor vitamine în sânge.
 gluta- | 1 Este ceva obișnuit ca persoanele în vârstă să mai cadă.
 Bătrânii au, foarte probabil, mușchii tot mai slăbiți,
 
-<!-- Pagina PDF 573 -->
-
 ## Profilaxie selectivă r și = analize recomandate pentru adulți
 
 Una dintre metodele de păstrare a sănătății pe
@@ -60668,8 +59521,6 @@ sunt escarele, atrofierea mușchilor și creșterea sensibilității
 la infecții. A rămâne activ fizic este important pentru
 menținerea forței și coordonării și este unul din cele mai
 bune moduri de apărare împotriva unor astfel de leziuni
-
-<!-- Pagina PDF 574 -->
 
 accidentale. Este, de asemenea, important să discutați
 medicul sau cu farmacistul despre posibilele efecte secundare
@@ -60780,8 +59631,6 @@ ani, zdrobite și aplicate pe înțepătură.
 Q Beți cât de mult ceai de ștevie galbenă sau luați 2 capsule
 doza de ștevie galbenă din oră în oră, înainte să apară simptomele.
 
-<!-- Pagina PDF 575 -->
-
 Recomandări
 Q Dacă ați fost înțepat, scoateți acul rămas în piele imediat,
 cu grijă. Nu-l trageți afară cu degetele sau cu penseta. În
@@ -60882,8 +59731,6 @@ Vezi Vaginită.
 
 Vezi Entorse, întinderi și alte traumatisne ale mușchilor
 și articulațiilor.
-
-<!-- Pagina PDF 576 -->
 
 ## LUPUS
 
@@ -61003,8 +59850,6 @@ poare
 și
 nervos
 
-<!-- Pagina PDF 577 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATĂ
@@ -61107,8 +59952,6 @@ de brusture, spilcuța, pau d'arco și trifoiul roșu.
 Precauții: Nu folosiți spilcuțadacă sunteți însărcinată sau
 alăptați. Persoanele care iau medicamente pe rețetă pentru
 subțierea sângelui ar trebui să își consulte medicul înainte
-
-<!-- Pagina PDF 578 -->
 
 de a folosi spilcuța, din moment ce combinația poate
 voca hemoragie internă.
@@ -61217,8 +60060,6 @@ la medicamente, conform unui articol publicat în The
 o New England Journal of Medicine. Unele medicamente ca
 hidralazina (Apresoline), un medicament pentru tensiunea
 
-<!-- Pagina PDF 579 -->
-
 arterială, și procainamida (Pronestyl), folosit pentru aritmie
 cardiacă, și quinidina (Quinaglute) par să declanșeze
 lupusul la indivizii sensibili. De obicei, lupusul declanșat de
@@ -61323,8 +60164,6 @@ Recomandaări
 Q Verificați atent sfârcurile pentru a depista picăturile de
 lapte uscat și înlăturați-le, curățând cu grijă. Impreună cu
 
-<!-- Pagina PDF 580 -->
-
 alăptarea frecventă, acest lucru va ajuta canalul să se curețe
 singur în douăzeci și patru de ore.
 U Masați ferm sânul, de la marginea sânului spre sfârc, ca
@@ -61427,8 +60266,6 @@ mangan 2 mg zilnic. Notă: Nu luați calciu
 pentru că nu vor fi
 absorbite corect.
 
-<!-- Pagina PDF 581 -->
-
 Plante
 Q Oricare dintre următoarele plante poate fi bună pentru
 mama care alăptează: lucerna, schinelul, păpădia, feniculul
@@ -61529,8 +60366,6 @@ fost alăptat doar 3 luni.
 Q Laptele de mamă conține o mare cantitate de inositol,
 o vitamină B care joacă un rol esențial în supraviețuirea și
 dezvoltarea copilului.
-
-<!-- Pagina PDF 582 -->
 
 I Femeile care sunt supuse mamoplastiei de reducție
 (reducerea sânului prin operație) și, ulterior, rămân
@@ -61642,8 +60477,6 @@ dar șicu 100 mg de
 vitamina C, pentru o
 absorbție mai bună.
 
-<!-- Pagina PDF 583 -->
-
 Vitamina A Până la 20000 UI Ajută la prevenirea
 zilnic. uscării pielii.
 Dacă sunteți Ajută la vindecarea
@@ -61744,8 +60577,6 @@ este contagioasă. Simptomele meningitei bacteriene sunt ri-
 giditatea cefei, durerea de cap, iritabilitatea, febra ridicată,
 frisoanele, greața, voma, delirul și sensibilitatea lalumină. La
 copii poate apărea o erupție pe piele, în relief, roșie. La copiii
-
-<!-- Pagina PDF 584 -->
 
 mici, semnele sunt febra, voma, tonusul muscular scăzut,
 dificultăți în a se hrăni, țipete pătrunzătoare și inflamarea
@@ -61854,8 +60685,6 @@ luni. Nu ar trebui folosită de persoane care sunt alergice la
 ambrozie.
 Q Gențiana este un antibiotic natural.
 
-<!-- Pagina PDF 585 -->
-
 Precauții: Nu luați gențiană intern, zilnic, mai mult de o
 săptămână o dată. Nu o folosiți în timpul sarcinii sau dacă
 alăptați și folosiți-o cu grijă dacă sunteți alergic la ambrozie.
@@ -61959,8 +60788,6 @@ excesivă a vaselor de sânge din creier. Studii mai recente
 dau alte explicații. Tomografia computerizată cu emisie de
 fotoni (SPECT) indică faptul că inflamația determinată de
 migrene este mai accentuată în meninge. Acesta este format
-
-<!-- Pagina PDF 586 -->
 
 din trei membrane — duramater, arahnoida și foița
 mai profundă a membranei, numită piamater, separată
@@ -62074,8 +60901,6 @@ Dimetilglicină 125 mg de 2 oripezi. Îmbunătățește
 trimetilglicină Conform indicațiilor
 lipsă (TGM) de pe etichetă.
 
-<!-- Pagina PDF 587 -->
-
 DL-fenilalanină Conform indicațiilor Luați cu atenție, după
 (DLPA) de pe etichetă. ce consultați medicul;
 DLPA poate calma
@@ -62184,8 +61009,6 @@ urmați indicațiile referitoare la dietă.
 U Includeți în alimentație migdale, lapte de migdale,
 năsturel, pătrunjel, fenicul, usturoi, cireșe și ananas proaspăt.
 
-<!-- Pagina PDF 588 -->
-
 ## Tipuri de migrenă
 
 Doar pentru că o durere de cap este foarte intensă,
@@ -62266,8 +61089,6 @@ ginkgo, cimicifuga, dieta corectă și mișcarea regulată.
 Precauții: Nu folosiți spilcuța dacă sunteți însărcinată sau
 alăptați. Persoanele care iau medicamente pe rețetă pentru
 subțierea sângelui ar trebui să își consulte medicul înainte
-
-<!-- Pagina PDF 589 -->
 
 de a folosi spilcuța, din moment ce combinația poate pro-
 voca hemoragie internă. Nu folosiți cimicifuga dacă sunteți
@@ -62376,8 +61197,6 @@ multe cazuri (85%) sunt produse de virusul Epstein-Barr
 (EBV). Mai rar, poate fi cauzată de citomegalovirus (CMV).
 Ambele virusuri fac parte din familia herpesului. Odată
 
-<!-- Pagina PDF 590 -->
-
 intrat în corp, virusul se multiplică în limfocite (globulele
 albe). Mononucleoza afectează sistemul respirator, țesuturile
 limfatice și glandele de la gât, inghinale, de la axilă, tuburile
@@ -62478,8 +61297,6 @@ administrare sublingua-
 lă. Pot fi necesare in-
 jecții (sub supraveghere
 medicală).
-
-<!-- Pagina PDF 591 -->
 
 și, 2 000 mcg de 2 ori Necesară pentru o bună
 suplimentar, pezi. digestie și pentru pre-
@@ -62584,8 +61401,6 @@ pe viață, dar, până la urmă, boala își urmează evoluția acută
 aproape în toate cazurile. Pentru că nu există tratament pen-
 tru mononucleoză, dieta adecvată, suplimentele și odihna
 sunt foarte importante.
-
-<!-- Pagina PDF 592 -->
 
 Q Antibioticele nu folosesc decât în infecții secundare,
 ar fi infecția urechii sau streptococul din gât.
@@ -62692,8 +61507,6 @@ Recomandări
 Q Dacă sunteți mușcat de un câine, primul lucru pe care
 trebuie să-l faceți este să solicitați asistență medicală. Trata-
 mentul împotriva rabiei trebuie să înceapă imediat.
-
-<!-- Pagina PDF 593 -->
 
 O Aflați de la stăpân dacă a vaccinat câinele. Dacă este
 un câine vagabond, încercați să-l prindeți, ca să-i verificați
@@ -62805,8 +61618,6 @@ a conștienței, convulsii, scădere rapidă a tensiunii arteriale,
 Recomandările pentru suplimentele nutriționale și
 plantele medicinale prezentate aici au scopul de a calma
 
-<!-- Pagina PDF 594 -->
-
 durerea și de a grăbi vindecarea după ce a fost oferită îngrijire
 medicală corespunzătoare. Ele nu au intenția de a o înlocui.
 În afară de cazurile în care există alte indicații speciale,
@@ -62905,8 +61716,6 @@ Q Amestecul de lobelia și de tablete de cărbune pisare este
 bun pentru înțepăturile de insecte și cele mai multe răni.
 Precauții: Lobelia va fi administrată doar sub supraveghere
 medicală, pentru că este potențial toxică. Persoanele cu
-
-<!-- Pagina PDF 595 -->
 
 hipertensiune arterială, boli de inimă, boli hepatice, boli
 renale, boli care se manifestă prin convulsii sau cu probleme
@@ -63014,8 +61823,6 @@ din zona Mehedinți) nu sunt veninoși.
 Suplimentele nutritive și alte măsuri prezentate aici au
 scopul de a calma durerea și de a grăbi vindecarea după ce
 
-<!-- Pagina PDF 596 -->
-
 a fost oferită îngrijire medicală corespunzătoare. Ele nu
 intenția de a o înlocui. În afară de cazurile în care există alte
 indicații speciale, dozele recomandate sunt pentru adulți.
@@ -63119,8 +61926,6 @@ Q Dacă mergeți printr-o zonă cu iarbă înaltă, utilizați un
 baston lung sau un alt obiect pentru a lovi pământul în fața
 dumneavoastră înainte de a călca.
 
-<!-- Pagina PDF 597 -->
-
 ## Ce faceți în caz de mușcătură de șarpe
 
 Dacă o persoană este mușcată de șarpe, este vital să căutați
@@ -63213,8 +62018,6 @@ mult. După atac, persoana se simte odihnită, chiar dacă
 poate adormi din nou în câteva minute.
 Cu toate că somnul care rezultă din narcolepsie seamănă
 cu somnul obișnuit, cercetătorii au descoperit cel puțin
-
-<!-- Pagina PDF 598 -->
 
 o diferență esențială. Somnul normal este un proces
 care alternează perioadele de mișcare rapidă a ochilor
@@ -63326,8 +62129,6 @@ din mulă care conține toți
 boală. aminoacizii esențiali.
 altă
 
-<!-- Pagina PDF 599 -->
-
 Complex de Conform indicațiilor Toți nutrienții sunt
 multivitamine de pe etichetă. necesari funcționării
 și de minerale: echilibrate a
@@ -63433,8 +62234,6 @@ Q Camera și locul de muncă trebuie să fie bine luminate, cu
 lumină naturală sau din plafon. Lumina inhibă producția de
 melatonină, hormonul care produce somnolența. Becurile
 cu spectru complet de lumină sunt cele mai bune.
-
-<!-- Pagina PDF 600 -->
 
 **Observații**
 Q Narcolepsia și apneea sunt principalele cauze ale oboselii
@@ -63548,8 +62347,6 @@ bărbații cu HPV. În fiecare an, mai mult de 1 700 de femei
 și 5 700 de bărbați sunt diagnosticați cu cancer de cap și
 de gâr (în cavitatea orală și în orofaringe). Aceasta înseamnă
 
-<!-- Pagina PDF 601 -->
-
 că virusul poate să pară adormit, dar, de fapt, este activ în
 promovarea dezvoltării cancerului în zona gurii și a gâtului.
 Nici o altă parte a corpului nu pare să dezvolte cancer
@@ -63652,8 +62449,6 @@ pau d'arco au fost folosite extern pentru tratarea negilor.
 Gelul de aloe vera are proprietăți antibacteriene și antivirale.
 Puneți puțin ulei sau extract de două sau trei ori pe zi pe
 
-<!-- Pagina PDF 602 -->
-
 neg, până ce acesta dispare. Dacă apar iritații, diluați uleiul
 sau extractul cu apă distilată sau cu ulei vegetal presat la rece.
 a Astragalusul protejează sistemul imunitar care joacă
@@ -63753,8 +62548,6 @@ de greutatea unui adult ca normală, moderat supraponderală
 sau obezitate, medicii folosesc o unitate de măsură numi-
 tă indice de masă corporală (IMC). Vă pureți calcula IMC
 înmulțind greutatea (în kilograme) cu 700, împărțind
-
-<!-- Pagina PDF 603 -->
 
 rezultatul la înălțime (în centimetri), apoi împărțind încă
 o dată rezultatul la înălțime (în centimetri). În esență,
@@ -63866,8 +62659,6 @@ că secretul pierderii în greutate este simplu: mănânci mai
 puțin, te miști mai mult. Corpul trebuie să ardă mai multe
 calorii decât primește. Pierderca în greutate implică două
 
-<!-- Pagina PDF 604 -->
-
 faze distincte: slăbitul activ și păstrarea greutății. În timpul
 fazei active, ar trebui să pierdeți 10% din greutatea corporală
 în circa 12 până la 16 săptămâni (3 până la 4 luni). Aceasta
@@ -63972,8 +62763,6 @@ Complex de Conform indicațiilor Obezitatea și carențele
 multivitamine și de pe etichetă. nutriționale sunt
 de minerale elemente ale aceluiași
 sindrom.
-
-<!-- Pagina PDF 605 -->
 
 cu 99 mg zilnic. Important în
 potasiu producerea energiei.
@@ -64086,8 +62875,6 @@ Q Astragalusul crește cnergia și îmbunătățește absorbția
 nutrienților.
 Precauții: Nu folosiți această plantă dacă aveți febră.
 
-<!-- Pagina PDF 606 -->
-
 ## Indice de masă corporală
 
 Indicele de masă corporală (IMC) este o cifră care
@@ -64182,8 +62969,6 @@ glandular și stimulează hormonii tiroidieni pe termen lung.
 Q Turmericul îmbunătățește digestia, crește energia și cură-
 ță sângele.
 
-<!-- Pagina PDF 607 -->
-
 ## Riscuri de sănătate legate de obezitate
 
 Obezitatea este o preocupare majoră, în mare parte pentru
@@ -64267,8 +63052,6 @@ făcute pe aburi. Nu consumați niciodată alimente prăjite
 sau alimente grase.
 Q Mâncați combinații sănătoase de alimente, care să
 includă legume, fructe, cereale (în special integrale), pește,
-
-<!-- Pagina PDF 608 -->
 
 fasole, semințe, nuci, alune și produse din soia. Soia este
 sursă bună de proteine dacă vreți să pierdeți în greutate
@@ -64380,8 +63163,6 @@ timp important în stabilizarea greutății. (Vezi Curățarea colo-
 nului, Partea a treia, p. 875.)
 UY Țineți un jurnal al alimentelor consumate pentru a
 
-<!-- Pagina PDF 609 -->
-
 a ceea ce mâncați și ce declanșează ceea ce mâncați. Vă ajută Q
 să identificați și să eliminați factorii declanșatori (cum ar fi
 alergiile sau depresiile), precum și dacă mâncați prea multe
@@ -64489,8 +63270,6 @@ proaspete.
 Q Citiți etichetele. O sticlă de suc sau un pachet de snackuri
 sărate poate părea o simplă gustare, dar este adesca mai mult
 decât atât — uneori, de două, trei ori mai mult.
-
-<!-- Pagina PDF 610 -->
 
 Q Evirați dietele severe. O dieră foarte săracă în calorii
 poate determina încetinirea metabolismului, fiind arse
@@ -64603,8 +63382,6 @@ schimbare de stil de viață, cum ar fi creșterea numărului de
 spre exerciții fizice pe care le faceți, în plus față de modificările
 ușor, de dietă.
 
-<!-- Pagina PDF 611 -->
-
 ## Sunteți dependent de carbohidrați?
 
 Dependenții de carbohidrați răspund la carbohidrați
@@ -64708,8 +63485,6 @@ Combinația lucrează mai bine atunci când organismul se
 odihnește.
 Notă: Nu luați aminoacizi care conțin I-arginină, dar nu
 și L-lizină. Prea multă L-arginină fără L-lizină poate produce
-
-<!-- Pagina PDF 612 -->
 
 un dezechilibru al aminoacizilor, care poate declanșa o
 herpetică sau recidivă a unui herpes mai vechi.
@@ -64821,8 +63596,6 @@ să în unghiul mandibulei, în spatele urechilor. Vaccinul
 atent împotriva oreionului (de obicei MMR) este cea mai bună
 vă modalitate de a preveni această boală. Copiilor ar trebui să
 
-<!-- Pagina PDF 613 -->
-
 li se administreze prima doză de vaccin MMR între vârsta
 de 12 și 15 luni. A doua doză este recomandată înainte de
 a începe grădinița. O doză de vaccin previne circa 80% din
@@ -64919,8 +63692,6 @@ Q Ceaiul de iarba măâței și cel de mușețel sunt calmante
 Clisme, Partea a treia, p. 865.)
 Precauții: Nu folosiți mușețel dacă sunteți alergic la am-
 brozie. Nu folosiți în timpul sarcinii sau dacă alăptați. Poate
-
-<!-- Pagina PDF 614 -->
 
 interacționa cu warfarina și ciclosporina, așa că pacienții
 care le folosesc ar trebui să îl evite.
@@ -65027,8 +63798,6 @@ sau
 Vezi Artrită.
 scro-
 ca
-
-<!-- Pagina PDF 615 -->
 
 ## OSTEOPOROZĂ
 
@@ -65144,8 +63913,6 @@ legătură cu osteoporoza. Multe femei cred, în mod greșit,
 că osteoporoza este ceva de care trebuie să se preocupe
 numai după menopauză. Cu toate acestea, dovezi recente
 
-<!-- Pagina PDF 616 -->
-
 arată că, adesea,osteoporoza începe devreme în viață și
 este numai o problemă postmenopauzală. Deși pierderea
 masei osoase se accelerează după menopauză ca rezultat
@@ -65250,8 +64017,6 @@ Siliciu Conform indicațiilor Furnizează siliciu, pentru
 de pe etichetă. asimilarea calciului și
 întărirea oaselor.
 
-<!-- Pagina PDF 617 -->
-
 Vitamine din Conform indicațiilor DĂ rezistență proteinelor
 complexul B de pe etichetă. dințesuturile osoase
 și, și ajută la producerea
@@ -65354,8 +64119,6 @@ ajută la formarea de oase tari.
 Precauții: Nu folosiți cimicifuga dacă sunteți însărcinată
 sau aveți orice tip de boală cronică. Cimicifuga nu ar trebui
 folosită de cei cu probleme hepatice. Nu folosiți salvie
-
-<!-- Pagina PDF 618 -->
 
 indiană zilnic mai mult de osăptămână, pentru că utilizarea
 ei pe termen lung poate duce la toxicitate.
@@ -65461,8 +64224,6 @@ consumat 110 miligrame de aglicone izoflavone pe zi din
 alimente. Este posibil ca această cantitate să fi fost preamică
 pentru a avea efecte. Cu toate acestea, testele pe termen lung
 folosind extracte de soia au dus la rezultate necondludente.
-
-<!-- Pagina PDF 619 -->
 
 Femecile care au cancer de sân sau sunt expuse îmbolnăvirii
 ar trebui să își consulte medicul curant înainte de a folosi
@@ -65572,8 +64333,6 @@ la rinichi.
 - Raloxifenul (Evista) este un modulator receptor selectiv de
 estrogen — un medicament care acționează ca un estrogen,
 dar nu este estrogen.:
-
-<!-- Pagina PDF 620 -->
 
 ## Calciul și osteoporoza
 
@@ -65688,8 +64447,6 @@ lucru care ar trebui discutat cu medicul curant. Calciul
 de crește riscul de cancer de prostată. Puneți întrebări și
 pe acest subiect, dacă sunteți îngrijorat.
 
-<!-- Pagina PDF 621 -->
-
 - Țeriparatida (Forteo) este un medicament nou, o versiu-
 ne sintetică a hormonului paratiroidian, și acționează prin
 intensificarea acțiunii osteoblastelor, celule care construiesc
@@ -65797,8 +64554,6 @@ xicație cu cadmiu, Alergii la substanțe chimice, Intoxicație cu
 cupru, Toxicitate a mediului, Boli transmise prin alimente și
 apă, Intoxicație cu plumb, Toxicitate a mercurului și Toxicitare
 a nichelului, Partea a doua.
-
-<!-- Pagina PDF 622 -->
 
 ## PANCREATITĂ
 
@@ -65910,8 +64665,6 @@ la de 3 ori pe zi
 vitamină a complexului
 copii va varia.)
 
-<!-- Pagina PDF 623 -->
-
 suplimentar,
 vitamina B, 50 mg de 3 ori pe Zi. Niacina și acidul
 (niacină) Nu depășiți această pantotenic sunt
@@ -66013,8 +64766,6 @@ dieră.) Uneori este nevoie de hrănire pe cale intravenoasă,
 care calmează pancreasul. Alternativ, un tub de hrănire
 poate fi inserat în nas sau prin abdomen pentru a furniza
 corpului o formulă extrem de digerabilă.
-
-<!-- Pagina PDF 624 -->
 
 Q Nu consumați alcool sub nici o formă.
 Q Nu folosiți niciodată probiotice, chiar dacă luați an-
@@ -66126,8 +64877,6 @@ Kyo-Dophilus Conform indicațiilor Ajută ta regenerarea
 de pe etichetă. ficatului și în digestie.
 că
 
-<!-- Pagina PDF 625 -->
-
 200 UI zilnic. Puternic antioxidant.
 Combate îmbătrânirea Q
 celulei protejând
@@ -66230,8 +64979,6 @@ pierea ochilor). O să simțiți furnicături, dar numai câreva
 minute. Dacă nu apar semne de iritație, aplicați dimineața
 și seara.
 
-<!-- Pagina PDF 626 -->
-
 **Observații**
 Q Medicamentul tretionină (acid retinoic sau Retin-A),
 dat doar pe rețetă, a fost folosit cu succes pentru petele
@@ -66326,8 +65073,6 @@ ulei pur, neprocesat, ca uleiul de măsline, pe zona infectată.
 Sau înmuiați piciorul, timp de zece minute, într-o soluție
 de 2 lingurițe de sare la 500 ml de apă fiartă. Repetați
 tratamentul în fiecare zi, până când micoza dispare.
-
-<!-- Pagina PDF 627 -->
 
 Q Ca alternativă la îmbăierea piciorului, turnați 20 de la
 picături de ulei din arbore de ceai într-un vas cu apă și în- a
@@ -66426,8 +65171,6 @@ carotenoide la 15000 UI zilnic. formarea noului țesut
 amestecate Dacă sunteți al pielii.
 însărcinată, nu depășiți
 10 000 UI zilnic.
-
-<!-- Pagina PDF 628 -->
 
 Conform indicațiilor Vitaminele B sunt
 de pe etichetă. importante pentru
@@ -66535,8 +65278,6 @@ Nu folosiți săpunuri dure sau demachiante. Folosiți săpun
 natural fără aditivi artificiali. Nu folosiți demachiante și lo-
 țiuni care conțin alcool. După curățare, aplicați hidratant
 natural fără grăsime, care păstrează pielea suplă.
-
-<!-- Pagina PDF 629 -->
 
 Q Când vă spălați pe față, folosiți apă caldă. Apa caldă dizol-
 vă mai bine grăsimea de pe piele decât apa călduță sau rece.
@@ -66646,8 +65387,6 @@ corpului expuse, cum sunt fața și mâinile, dar poate să fie
 o problemă a întegului corp, mai ales iarna. Uscăciunea
 pielii poate fi provocată (sau agravată) de o dietă deficitară
 
-<!-- Pagina PDF 630 -->
-
 și de factori de mediu ca expunere la soare, vânt, frig,
 substanțe chimice, cosmetice sau băi excesive cu săpun dur.
 Deficiențele nurriționale, în special carența de vitamina
@@ -66753,8 +65492,6 @@ extract din Conform indicațiilor colagenului.
 semințe de de pe etichetă.
 struguri
 
-<!-- Pagina PDF 631 -->
-
 Seleniu 200 mcg zilnic. Dacă Încurajează elasticitatea
 sunteți însărcinată, nu - țesuturilor
 depășiți 40 mg zilnic. și este un puternic
@@ -66858,8 +65595,6 @@ curată. Aplicați amestecul pe față, evitând zona ochilor.
 Lăsați-o 15 minute, apoi clăriți bine cu apă călduță. Când
 pielea este încă ușor umedă, aplicați un ulei natural sau un
 lichid hidratant.
-
-<!-- Pagina PDF 632 -->
 
 Q Dacă pielea se exfoliază sau crapă, creșteți consumul de
 apă și de acizi grași esențiali. Păstrați zonele afectate bine
@@ -66973,8 +65708,6 @@ neurosenzorială este o consecință a deteriorării structurilor
 la căilor urechii interne. Poate rezulta din afectarea nervului
 acustic (al optulea nerv cranian, cunoscut și sub numele de
 
-<!-- Pagina PDF 633 -->
-
 nerv auditiv), care poartă informația de la urechea internă
 la creier, sau din afectarea celulelor minuscule numite
 celule capilare din urechea internă. Celulele capilare sunt
@@ -67082,8 +65815,6 @@ socieratea de azi. Când mecanismul delicat al urechii in-
 terne este asaltat de zgomot puternic, apare un fenomen
 numit modificare temporară a pragului auditiv. De câte ori
 ați ieșit de la un concert sau dintr-un șantier de construcții
-
-<!-- Pagina PDF 634 -->
 
 cu urechile țiuind sau ați auzit un sunet în urechi când
 sunteți sub apă, ați suferit o modificare temporară
@@ -67201,8 +65932,6 @@ vitamina A este benefică
 pentru persoanele cu
 boli de urechi.
 
-<!-- Pagina PDF 635 -->
-
 plus 15 000 UI zilnic. Antioxidanți și precursori
 complex de ai vitaminei A.
 carotenoide
@@ -67310,8 +66039,6 @@ Dacă urechea doare când trageți înseamnă că aveți oinfecție
 și va fi nevoie de tratament medical. Dacă nu doare când
 trageți, durerea poare fi cauzară de o problemă dentară.
 
-<!-- Pagina PDF 636 -->
-
 Q Când zburați cu avionul, guma de mestecat poate
 utilă la aterizare pentru calmarea disconfortului și evita-
 rea pierderii auzului din cauza schimbării de presiune
@@ -67418,8 +66145,6 @@ Q Ca să reduceți nivelul pierderii auzului pe măsură ce
 îmbătrâniți, reduceți expunerea la zgomot puternic încă din
 tinerețe. Auzul poate fi îmbunătățit și cu o dietă adecvată și
 cu suplimente.
-
-<!-- Pagina PDF 637 -->
 
 Q Dacă trebuie să ridicați vocea ca să fiți auzit de cei din jur
 înseamnă că mediul este prea zgomotos. Încercați să limitați
@@ -67529,8 +66254,6 @@ fie absorb mai mult oxalat din alimente, fie metabolizează
 cantități mai mari de precursori ai oxalatului. Persoanele
 care au boala Crohn sau sindromul intestinului iritabil, sau
 
-<!-- Pagina PDF 638 -->
-
 care au o alimentație bogată în acid oxalic, pot fi expuse
 unui risc crescut de pietre la rinichi din moment ce acești
 factori pot face să crească excreția de oxalat prin urină.
@@ -67639,8 +66362,6 @@ Precauții: Nu luați ginkgo biloba dacă aveți o afecțiune
 care implică sângerare sau dacă sunteți programat pentru
 o operație sau pentru o procedură stomatologică. Nu luați
 
-<!-- Pagina PDF 639 -->
-
 Nu o folosiți în timpul sarcinii sau dacă alăptați și folosiți-o
 cu grijă dacă sunteți alergic la ambrozic. Dacă aveți un
 istoric de boli cardiovasculare, diabet sau glaucom, folosiți-o
@@ -67746,8 +66467,6 @@ medicul curant înainte de a începe un program de exerciții.
 Q Dacă ați avut pietre din cistină, evitați aminoacidul
 L-cistină. Dacă trebuie să luați un supliment care conține
 L-cistină, luați de trei ori mai multă vitamina C, în același
-
-<!-- Pagina PDF 640 -->
 
 timp. Printre altele, cistina se poate cristaliza și poate forma
 pietre mari care se fixează în rinichi.
@@ -67860,8 +66579,6 @@ de nerv al labei piciorului (ca sindromul de tunel tarsian),
 al presiune pe bolta plantară sau mișcare, stat în picioare sau
 mers pe jos excesiv. Pintenul de călcâi este des întâlnit la
 
-<!-- Pagina PDF 641 -->
-
 persoanele care au alcaloză, artrită, nevrită sau tendinită. Un
 pinten osos se poate forma ca urmare a depozitării calciului
 în locuri nedorite ale corpului. Majoritatea persoanelor
@@ -67958,8 +66675,6 @@ nu estetici. Unii pantofi pentru jogging por fi foarte
 confortabili. Puneți talonete la călcâi ca să calmați durerea.
 Q Folosiți atele de noapte pentru a păstra o presiune mcedie,
 constantă, asupra tălpii în timpul somnului.
-
-<!-- Pagina PDF 642 -->
 
 U În loc să mergeți sau să faceți jogging, încercați înotul
 bicicleta.
@@ -68071,8 +66786,6 @@ recomandată. Pentru copii între 6și 12 ani, folosiți jurmătate
 slab, din doza recomandată, iar pentru copii sub 6 ani, folosiți un
 sfert din cantitatea recomandată.
 
-<!-- Pagina PDF 643 -->
-
 - -
 SUPLIMENT DOZĂRECOMANDATĂ OBSERVAȚII
 Nicotinamidă 10 mg zilnic. Importantă în
@@ -68171,8 +66884,6 @@ demaitake de pe etichetă. care ajută la fortificarea
 sau imunologică și combat
 extract de reishi Conform indicațiilor infecțiile.
 de pe etichetă.
-
-<!-- Pagina PDF 644 -->
 
 sau Conform indicațiilor
 extract de de pe etichetă.
@@ -68279,8 +66990,6 @@ dar Pojarul, cunoscut și sub numele de rujeolă, este o infecție
 virală care atacă tractul respirator, ochii și pielea. Deși este o
 boală tipică a copilăriei, adulții o pot face și ei. Nu e același
 
-<!-- Pagina PDF 645 -->
-
 Pojarul este foarte contagios și se răspândește ușor prin
 nas, gură sau gât, prin secreții pe obiecte sau pe suprafețe,
 prin tuse sau strănur.
@@ -68386,8 +67095,6 @@ de gât și tusea.
 Plante
 Q Împotriva febrei, pot fi folosite clismele cu iarba mâței
 sau cu usturoi.
-
-<!-- Pagina PDF 646 -->
 
 U Extractul de lobelia ajută la calmarea durerii. Luați
 jumătate de linguriță cu extract de lobelia la fiecare patru,
@@ -68496,8 +67203,6 @@ nu îndepărtați.
 aici Polipii din vezica urinară produc sânge în urină. Dacă nu
 au sunt îndepărtați, poate să apară cancerul de vezică.
 
-<!-- Pagina PDF 647 -->
-
 Polipii nazali se formează, în mod normal, în spatele
 nasului, la deschiderea spre sinusuri. Pot și ei să sângereze
 și îngreunează respirația normală. Persoanele care suferă de
@@ -68599,8 +67304,6 @@ Orzul, păstăile, tărâțele de ovăz, cojile de psyllium și tărâțele
 de orez sunt surse bune de fibre.
 Notă: Luați întotdeauna suplimentul de fibre separat de
 alte suplimente și medicamente.
-
-<!-- Pagina PDF 648 -->
 
 ## PROBLEME ALE APARATULUI CIRCULATOR
 
@@ -68713,8 +67416,6 @@ anticoagulante bune.
 Dozele de nutrienți recomandate în tabelul următor sunt
 pentru adulți.
 
-<!-- Pagina PDF 649 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -68812,8 +67513,6 @@ vitamina B, 50 mg de 3 ori pe zi. Precauții: Nu luați
 (niacină) Nu depășiți untotal de niacină dacă aveți
 300 mg zilnic, din toate o afecțiune hepatică,
 suplimentele. gută sau hipertensiune.
-
-<!-- Pagina PDF 650 -->
 
 ## PROBLEME ALE APARATULUI CIRCULATOR
 
@@ -68921,8 +67620,6 @@ sau Q Vezi Arterioscleroză, Boli cardiovasculare, Hipertensiune
 arterială, Colesterol ridicat, Hipotiroidism, Fenomenul
 Raynaud și Vene varicoase, Partea a doua.
 
-<!-- Pagina PDF 651 -->
-
 ## PROBLEME ALE PIELII
 
 Vezi Acnee, Aftă (ulcerații aftoase), Alergie la înțepături
@@ -69022,8 +67719,6 @@ bună. dacă nusunteți diag-
 nosticat ca anemic.
 Sursă naturală, netoxică
 de fier.
-
-<!-- Pagina PDF 652 -->
 
 Ulei din semințe 500 mg de 2 ori pe zi. Întărește unghiile
 de coacăze negre casante, fragile.
@@ -69137,8 +67832,6 @@ să acționeze o jumătate de oră, apoi clăriți bine. Reperați
 tratamentul zilnic. Rezultatele încep să se vadă după două
 săptămâni.
 
-<!-- Pagina PDF 653 -->
-
 ### Boli care se reflectă în starea unghiilor
 
 Modificările unghiilor pot semnala boli din întregul organism.
@@ -69249,8 +67942,6 @@ unei dereglări hormonale.
 e Unghii verzui, dacă nu sunt rezultatul unei infecții
 fungice locale, pot indica o infecție bacteriană internă.
 
-<!-- Pagina PDF 654 -->
-
 Q Ca să întăriți unghiile, încercați să le înmuiați în ulei
 măsline cald sau în oțet de cidru de mere timp de 10-20
 de minute zilnic.
@@ -69360,8 +68051,6 @@ provoacă anomalii de creștere. Secretarea hormonului de
 creștere În cantități prea mici de către glanda pituitară duce
 un- la nanism; secretat în cantități prea mari, determină creșterea
 
-<!-- Pagina PDF 655 -->
-
 exagerat de lungi. În unele cazuri, disfuncțiile glandei pitu-
 itare sunt produse de o tumoare.
 Uneori, problemele de creștere sunt produse de disfuncția
@@ -69466,8 +68155,6 @@ de pe etichetă.
 Complex de Conform indicațiilor Carența a fost legată de
 aminoacizi în de pe etichetă. tulburările de creștere.
 formă liberă
-
-<!-- Pagina PDF 656 -->
 
 Țesut glandular Conform indicațiiior Pentru copii. Stimulează
 crud de glandă de pe etichetă. creșterea.
@@ -69576,8 +68263,6 @@ acon- o pierdere progresivă a memoriei. Forma cea mai ușoară a
 acestei boli este numită alterare cognitivă asociată vârs-
 tei și se caracterizează printr-o autopercepție a pierderii
 
-<!-- Pagina PDF 657 -->
-
 de memorie. Oamenii de știință s-au arătat interesați de
 problemele de memorie în parte pentru că un procent
 semnificativ de persoane de peste 65 de ani, cu probleme
@@ -69680,8 +68365,6 @@ formulă forte.
 cu
 potasiu 99 mg zilnic. Necesar pentru echilibrul
 electrolitic.
-
-<!-- Pagina PDF 658 -->
 
 Dimetilamina- Conform indicațiilor Ajută învățarea și
 etanol (DMAE) de pe etichetă. memaoria.
@@ -69798,8 +68481,6 @@ nu este convertit În
 estrogen sau testosteron
 în organism. —
 
-<!-- Pagina PDF 659 -->
-
 Diamond Mind Conform indicațiilor Combinație de
 sau de pe etichetă. suplimente care pot
 Bacopin & Conform indicațiilor ajuta funcțiile legate
@@ -69902,8 +68583,6 @@ Precauții: Dacă aveți treizeci și cinci de ani sau mai mult
 medicul curant înainte de a începe un program de exerciții.
 U Evitați oboseala, odihnindu-vă mult, lucru care poate
 avea efect direct asupra capacității de concentrare.
-
-<!-- Pagina PDF 660 -->
 
 **Observații**
 Q În Europa, ginkgo este principalul tratament terapeutic
@@ -70017,8 +68696,6 @@ pielii. Unele femei nu au nici unul dintre aceste simptome;
 altele pot avea doar unele dintre aceste simptome, dar
 descoperă că nu au legătură cu modificările hormonale.
 
-<!-- Pagina PDF 661 -->
-
 Menopauza este perioada când femeia nu mai are
 menstruație. În acest stadiu, majoritatea problemelor acure
 pe care le au femeile apar, de fapt, dintr-un nou echilibru
@@ -70124,8 +68801,6 @@ acid pantotenic 100 mgde 3oripezi. Vitamină antistres
 pentru funcționarea
 glandei suprarenale.
 
-<!-- Pagina PDF 662 -->
-
 și 50 mg de 3 ori pe zi. Scade retenția de
 vitamina B, lichide și calmează
 (piridoxină) simptomele.
@@ -70226,8 +68901,6 @@ glaucom, boli de inimă, hipertensiune arterială sau cu ac-
 cidente vasculare în istoric. Nu folosiți salvia dacă suferiți de
 vreun tip de afecțiune convulsivă sau dacă sunteți însărcinată
 ori alăprați.
-
-<!-- Pagina PDF 663 -->
 
 ## Hormoni, terapie cu hormoni Și menopauză
 
@@ -70332,8 +69005,6 @@ au uter și ovare și care se apropie sau care au ajuns
 la menopauză. Se consideră că progestinul apără
 împotriva creșterii riscului de cancer uterin care apare
 dacă se ia numai estrogen. Există multe doze diferite
-
-<!-- Pagina PDF 664 -->
 
 și diverse metode de a lua acești hormoni. Trebuie
 să decideți împreună cu medicul tratamentul potrivit
@@ -70450,8 +69121,6 @@ Fiecare trebuie să aprecieze factorii personali de
 risc și să decidă dacă potențialele avantaje depășesc
 aceste riscuri. Trebuie să decideți dacă folosiți hormoni
 
-<!-- Pagina PDF 665 -->
-
 sintetici ori naturali sau să rezolvați disconfortul care
 poate fi generat de un tratament naturist, folosind
 nutrienții și alte remedii prezentate în acest capitoi.
@@ -70553,8 +69222,6 @@ vaginul.
 **Observații**
 U Gamma-orizanolul, un nutrient derivat din tărâțele
 de orez, este considerat eficient în tratarea simptomelor
-
-<!-- Pagina PDF 666 -->
 
 menopauzei. O doză zilnică de 20 mg a redus simptomele
 cu 50% pentru 67% din femeile studiate.
@@ -70661,8 +69328,6 @@ ce și nivelurile de DHEA și de estrogen (estrogenul
 este atât un hormon feminin, cât și masculin), așa că,
 dacă terapia este necesară, ea trebuie gândită după
 nevoile fiecărui individ.
-
-<!-- Pagina PDF 667 -->
 
 este, mai degrabă, un semn că sunteți la perimenopauză
 decâr că aveți sindrom premenstrual. Un test de sânge care să
@@ -70774,8 +69439,6 @@ cantitatea recomandată. Pentru copii între 6 și 12 ani,
 reduceți la jumătate doza recomandată, iar pentru copii sub
 6 ani, folosiți un sfert din cantitatea recomandată.
 
-<!-- Pagina PDF 668 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
@@ -70886,8 +69549,6 @@ culoare pentru gene sau sprâncene; puteți provoca leziuni
 ale ochilor sau orbire. Vopselele de păr închise la culoare nu
 sunt pentru gene și sprâncene.
 
-<!-- Pagina PDF 669 -->
-
 ## Menținerea sănătății ochilor
 
 Ca oricare altă parte a corpului, ochii trebuie hrăniți
@@ -70987,8 +69648,6 @@ lentilele de contact obișnuite sunt păstrate peste noapte,
 riscul crește.
 Q Anomaliile unuia sau mai multor mușchi care mișcă
 ochiul ori lipsa coordonării acestor mușchi duc la privirea
-
-<!-- Pagina PDF 670 -->
 
 încrucișară. Mușchii pot fi exersați și relaxați ca să
 îmbunătățească funcția. De asemenea, pot fi exersați
@@ -71092,8 +69751,6 @@ Blefarita poate fi asociată și cu scboreea feței sau a scalpului.
 (Vezi Scboree, Partea a doua, p. 746.)
 cu
 
-<!-- Pagina PDF 671 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZĂ RECOMANDATOĂBSERVAȚII
@@ -71191,8 +69848,6 @@ protejează împotriva
 toxinelor. S-a dovedit
 că încetinește evoluția
 cataractei.
-
-<!-- Pagina PDF 672 -->
 
 L-lizină Gonform indicațiilor Importantă în
 de pe etichetă, pe formarea colagenului,
@@ -71299,8 +69954,6 @@ celecare au consumat o dietă bogată în luteină/zeaxantină
 (6 700 de micrograme) au avut un risc scăzut cu 18% de
 cataractă; cele care au consumat mai ales vitamina E (262
 de miligrame) au avut un risc scăzut cu 14%. Luteina/
-
-<!-- Pagina PDF 673 -->
 
 zeaxantina a provenit din fructe și legume și vitamina E din
 suplimente și din dietă.
@@ -71409,8 +70062,6 @@ bacteriene, virusuri, leziuni ale ochiului, alergii și expunere la
 substanțe iritante pentru ochi, cum ar fi gazele de eșapament,
 fumul de țigară, soluțiile pentru lentilele de contact, clorul
 
-<!-- Pagina PDF 674 -->
-
 din bazinele de înot, substanțele chimice, fardurile sau alte
 substanțe străine care intră în ochi. Conjunctivita este foarte
 contagioasă dacă este provocată de o infecție virală.
@@ -71509,8 +70160,6 @@ o al acțiunii radicalilor liberi care produc același tip de
 dacă daune ca și în cazul cataractei. Factorii favorizanți pentru
 apariția degenerescenței maculare sunt vârsta, ateroscleroza,
 sau hipertensiunea și toxinele din mediu. Ereditatea poate juca
-
-<!-- Pagina PDF 675 -->
 
 ### NUTRIENȚI
 
@@ -71618,8 +70267,6 @@ mic de degenerare maculară. Riscul a fost chiar mai scăzut —
 77% — când au fost folosite suplimente de vitamina C.
 O dietă bogată în zaharuri și cereale refinate crește
 riscul de îmbolnăvire cu o formă mai severă de degenerare
-
-<!-- Pagina PDF 676 -->
 
 maculară. Mai exact, anomaliile pigmentare ale retinei,
 caracteristice acestei afecțiuni, au fost asociate cu o dietă
@@ -71734,8 +70381,6 @@ de a vedea culorile, așa cum le percep majoritatea oamenilor.
 de Celulele specializare din retină, numite conuri, vitale pentru
 sau traducerea undelor luminoase în culori perceptibile, pot
 
-<!-- Pagina PDF 677 -->
-
 lipsi complet sau parțial sau pot să nu funcționeze bine,
 rezultatul fiind discromatopsia.
 Există diferite tipuri și grade de severitate ale acestei
@@ -71833,8 +70478,6 @@ săptămână o dată. Nu o folosiți în timpul sarcinii sau dacă
 alăptați și folosiți-o cu grijă dacă sunteți alergic la ambrozie.
 Dacă aveți un istoric de boli cardiovasculare, diabet sau
 glaucom, folosiți-o doar sub supraveghere medicală.
-
-<!-- Pagina PDF 678 -->
 
 ### Ochi obosiți și mâncărimi de ochi
 
@@ -71940,8 +70583,6 @@ Lentilele de contact au un rol deosebit în favorizarea
 apariției sindromului ochilor uscați. În general, uscăciunea
 ochilor își are originea în lipsa de vitamina A și este posibil
 
-<!-- Pagina PDF 679 -->
-
 să afecteze mai mult persoanele de peste 65 de ani. Se știe că
 unele medicamente inhibă producția de lacrimi sau schim-
 bă compoziția lacrimilor, acestea fiind antihistaminicele,
@@ -72041,8 +70682,6 @@ Punctele negre care fuzionează în șiruri lungi, strâns
 unite, pot fi provocate de o boală numită degenerescență
 fibrilară a corpului vitros. Afecțiunea este, de obicei, pro-
 vocată de expunerea excesivă la soare.
-
-<!-- Pagina PDF 680 -->
 
 ### NUTRIENȚI
 
@@ -72147,8 +70786,6 @@ oftalmologie la Harvard Medical School. În același timp,
 s-a descoperit că vitamina E (400 UI sau mai mult zilnic)
 poate fi dăunătoare persoanelor cu retinită pigmentară.
 
-<!-- Pagina PDF 681 -->
-
 Precauții: Înainte de a depăși doza zilnică recomandatră de
 vitamina A, cercți sfatul medicului oftalmolog,
 O Transplantul de celule retiniene și terapia genetică
@@ -72249,8 +70886,6 @@ Vezi Ulcer cornean.
 Dacă pleoapa este mereu iritată, începe să se infecteze și
 apare zona ulcerată. Pot apărea ulcerații ale pleoapelor și din
 cauza blefaritei cronice.
-
-<!-- Pagina PDF 682 -->
 
 ### Ulcer cornean
 
@@ -72357,8 +70992,6 @@ A. pentru corectarea erorilor de refracție care produc miopia
 de (vedere de aproape) și hipermetropia (vedere la depărtare).
 Pentru corectarea miopiei medii pot fi folosite trei
 
-<!-- Pagina PDF 683 -->
-
 BOLI ȘI DISFUNCȚII ALE ORGANISMULUI
 proceduri chirurgicale — keratectomia fotorefractivă (PRK),
 keratoplastia conductivă și keratomileusis cu laser in situ
@@ -72462,8 +71095,6 @@ mergeți la consult la oftalmolog.
 Q Aplicați cremă cu oxid de zinc pe bășicuțe și pe zona
 afectată. După ce bășicuțele se vindecă, aplicați gel cu aloe
 vera și vitamina E pe aceeași zonă.
-
-<!-- Pagina PDF 684 -->
 
 **Observații**
 I Dacă oxidul de zinc, gelul de aloe vera și/sau vitamina
@@ -72577,8 +71208,6 @@ grași J Aplicați comprese umede și calde timp de treizeci de
 minute înainte de fiecare alăptat și masați sânul în timpul
 alăptării, ca să ajutați laptele să curgă.
 
-<!-- Pagina PDF 685 -->
-
 Q Nu folosiți apărătoare pentru sfârcuri, pot interfera cu
 obiceiul de supt al copilului, pot răni sfârcurile, pot reduce
 stimularea sânului și scădea cantitatea de lapte. 1.
@@ -72689,8 +71318,6 @@ cantitatea de androgeni, hormoni responsabili de dorința
 sexuală atât la bărbați, câr și la femei. Cu toate acestea,
 diminuarea sexualității poate apărea fie că ovarele sunt
 
-<!-- Pagina PDF 686 -->
-
 scoase, fie că nu. În Finlanda, studiile au arătat că și scoaterea
 colului uterin în histerectomie are ca urmare diminuarea
 capacității de a avea orgasm. Terapia cu hormoni de
@@ -72787,8 +71414,6 @@ important pentru
 producția de estrogen,
 testosteron și, posibil,
 de alți hormoni.
-
-<!-- Pagina PDF 687 -->
 
 Plante J
 și
@@ -72898,8 +71523,6 @@ tumori fibromatoase, pentru că fibroamele blochează accesul
 la ovare în timpul examenului pelvin, ceca ce poate întârzia
 diagnosticarea unui cancer ovarian. Acest punct de vedere
 nu mai este valabil, pentru că tehnologia ultrasunetelor
-
-<!-- Pagina PDF 688 -->
 
 permire examinarea ovarelor pentru orice anomalie.
 tumorile fibromatoase trebuie înlăturate, poate fi avută
@@ -73015,8 +71638,6 @@ să Recomandări
 care U Fiți sigură că aveți în dietă destul acid folic, vitamina B,,
 și alte vitamine din complexul B.
 
-<!-- Pagina PDF 689 -->
-
 Q Mâncați alimente bogate în fier, cum sunt legumele cu Q
 frunze verzi, prunele uscate, strugurii, carnea roșie și ficatul
 de animale crescute organic, pâine și paste făcute cu făină
@@ -73121,8 +71742,6 @@ Q Travaliul prematur înseamnă instalarea contracțiilor
 uterine ritmice înainte ca fătul să ajungă la maturitate.
 Apare, în general, între săprămâna a 20-a și săptămâna a 37-a
 de sarcină.
-
-<!-- Pagina PDF 690 -->
 
 Q Se crede că mai degrabă cafeaua decafeinizată și
 cafeaua normală poate fi cauza avortului spontan în timpul
@@ -73235,8 +71854,6 @@ responsabilitățile care vin odată cu acest eveniment. Sarcina
 nal și ar trebui să știți că este normal să nu fiți fericită tot
 timpul.
 
-<!-- Pagina PDF 691 -->
-
 Q Dacă rămâncți însărcinată în timp ce luați antidepresive,
 consultați doctorul în legătură cu efectele posibile asupra Q
 fătului. Nu trebuie să opriți medicația fără să discutați cu
@@ -73340,8 +71957,6 @@ Q Când vă doare spatele, înmuiați un prosop mic în oțet
 de mere. Stoarceți-l bine și culcați-vă în pat pe o parte.
 Întindeți prosopul pe spate. Relaxați-vă în acest fel 15—20
 de minute.
-
-<!-- Pagina PDF 692 -->
 
 ### Dureri în zona coastelor
 
@@ -73451,8 +72066,6 @@ bogate. Mestecați mâncarca încet și bine. Nu suprasolicitați
 care sistemul digestiv. Asigurați-vă că nu creșteți aportul de calorii
 prea mult, astfel încât să câștigați prea mult în greutate.
 
-<!-- Pagina PDF 693 -->
-
 Q Maâncați patru sau chiar mai multe porții de fructe și de
 legume în fiecare zi.
 Q Găriți legumele folosind un vas cu aburi, în loc să le fier-
@@ -73549,8 +72162,6 @@ normal, mai mult de săprămâna a 13-a. Dacă suferiți de
 grețuri persistente sau de vomă mai târziu în timpul sarci-
 nii, consultați doctorul. Cu tratament potrivit, prognosticul
 este bun.
-
-<!-- Pagina PDF 694 -->
 
 ### Hemoragii și congestii nazale
 
@@ -73658,8 +72269,6 @@ de pereții uterului. Prezența acestei proteine semnalează
 că există un risc ridicat de naștere în urmăcoarele 7 zile și
 trebuie avută în vedere o intervenție.
 
-<!-- Pagina PDF 695 -->
-
 ## Teste făcute în timpul sarcinii
 
 Medicul poate face diferite teste când rămâneți
@@ -73765,8 +72374,6 @@ devreme decât amniocenteza, normal în săptămâna a
 Pericolele posibile ale biopsiei de placentă sunt
 infecție, sângerări la mamă sau la făt, avort spontan,
 imunizare Rh, malformații congenitale și perforarea
-
-<!-- Pagina PDF 696 -->
 
 membranei ce înconjoară embrionul. Principalul avan-
 taj este că se poate face mai devreme, când între-
@@ -73877,8 +72484,6 @@ chiropractician specializat în probleme de sarcină. Un
 practician comperent este cel mai capabil să rezolve aceasră
 de problemă.
 
-<!-- Pagina PDF 697 -->
-
 ## Planul nașterii
 
 Alcătuirea unui plan al nașterii când sunteți însărcinată
@@ -73978,8 +72583,6 @@ este prea mare să treacă prin pelvis (este un caz
 foarte rar). Multe probleme pot fi corectate înainte
 sau în timpul nașterii, fără să se ajungă la o operație
 importantă cum este cezariana.
-
-<!-- Pagina PDF 698 -->
 
 ### Spasme, înțepături
 
@@ -74093,8 +72696,6 @@ grăsimi „rele“ și în colesterol. Un supliment de multivitamine
 destinat perioadei prenatale are amestecul corect de nu-
 trienți de care aveți nevoie pentru propria sănătate, dar și
 
-<!-- Pagina PDF 699 -->
-
 pentru aceca a copilului nenăscut. Administrarea de vita-
 mine prenatale ar trebui făcută pe parcursul anilor fertili,
 astfel încâr, atunci când rămâneți însărcinată, corpul să aibă
@@ -74196,8 +72797,6 @@ preveni hipertensiunea
 magneziu 750 mg zilnic. Necesar pentru
 echilibrul cu calciul.
 
-<!-- Pagina PDF 700 -->
-
 Coenzima Q,, Conform indicațiilor Ajută organismul
 de pe etichetă. să transforme
 hrana în energie,
@@ -74298,8 +72897,6 @@ untul nu au avut copii cu dimensiuni mai mari la naștere. Pen-
 tru femeile supraponderale, un consum mai mare de fructe
 de mare înainte de sarcină a avut drept rezultat nașterea
 unor copii mai mari. Fructele de mare sunt o sursă bună
-
-<!-- Pagina PDF 701 -->
 
 de proteine, dar ar trebui limitate la două porții pe săptă-
 mână, pentru a evita consumul de niveluri mari de mercur.
@@ -74403,8 +73000,6 @@ concepției.
 Q Consumul exagerat de viramina A a fost legat de mal-
 formația „palat despicat“ (palatoschizis), de malformații
 cardiace și de alte defecte congenitale. Alimentele bogate
-
-<!-- Pagina PDF 702 -->
 
 în vitamina A pot reprezenta și cle o problemă. Alimentele
 care conțin beta-caroten natural nu sunt dăunătoare pentru
@@ -74519,8 +73114,6 @@ furnizează o legătură
 sprijinpentru tendoane,
 ligamente și mușchi.
 
-<!-- Pagina PDF 703 -->
-
 Vitamina C 3 000-5 000 mg zilnic, Importantă pentru
 cu în doze împărțite. controlul infecțiilor
 bioflavonoide vezicii urinare și pentru
@@ -74626,8 +73219,6 @@ este produsă de o infecție bacteriană. Cauza inflamației nu
 este cunoscută. Simptomele pot include urinări frecvente,
 posibil însoțite de dureri, durere după ejaculare și durere
 
-<!-- Pagina PDF 704 -->
-
 în abdomenul inferior. Toate tipurile de prostatită, dacă
 sunt tratate, pot duce la disfuncție erectilă și la dificultăți
 urinare.
@@ -74728,8 +73319,6 @@ Vitamina E 200 Ul zilnic sau 400 UI Antioxidant puternic,
 la două zile. stimulează sistemul
 imunitar. Utilizați forma
 de d-alfa-tocoferol.
-
-<!-- Pagina PDF 705 -->
 
 Alge 1 000-1 500 mgzilnic. Furnizează mineralele
 necesare pentru
@@ -74833,8 +73422,6 @@ ceaiul), apa clorinată și fluorinată, alimentele condimentate
 și pe cele nesănătoase. Încercați să slăbiți dacă sunteți
 supraponderal. Limitați expunerea la pesticide și la alți
 contaminanți din mediu.
-
-<!-- Pagina PDF 706 -->
 
 Q Dacă aveți prostatită, creșteți cantitatea de lichide
 care o beți. Beți de la un litru la trei litri de apă de izvor
@@ -74942,8 +73529,6 @@ contact cu iedera otrăvitoare, infecții virale sau bacteriene,
 utilizare a medicamentelor antiinflamatorii nonsteroidiene,
 litium, clorochină (Aralen) și beta-blocanți, un tip de
 
-<!-- Pagina PDF 707 -->
-
 hipertensiune. Unele persoane suferă de artrită asociată
 (artrită psoriazică), similară artritei reumatoide și dificil de
 tratat.
@@ -75039,8 +73624,6 @@ metan (MSM) de pe etichetă. repararea țesuturilor.
 Este, adesea, carent la
 persoanele
 cu această boală.
-
-<!-- Pagina PDF 708 -->
 
 Complex de Conform indicațiilor Necesar pentru
 multivitamine și de pe etichetă. vitaminele de bază
@@ -75142,8 +73725,6 @@ la fi tazarotenul (Tazorac, Avage), sunt înrudite cu vitamina A.
 Acest grup de medicamente poate reduce producția de celule
 a ale pielii în psoriazisul sever care nu răspunde la alte terapii.
 Aceste produse usucă pielea și produc mâncărimi. Din
-
-<!-- Pagina PDF 709 -->
 
 moment ce această clasă de produse poate duce la defecte
 congenitale, nu ar trebui folosite de femeiele însărcinate.
@@ -75248,8 +73829,6 @@ Enzime Conform indicațiilor ' Importanteîn digestie.
 proteolitice de pe etichetă. Luați
 între mese.
 
-<!-- Pagina PDF 710 -->
-
 Ulei de ficat de Conform indicațiilor O sursă bună de
 cod de pe etichetă. vitamina A și D.
 Vitamina A 10 000 Ul zilnic. Necesară peniru
@@ -75349,8 +73928,6 @@ tabletă la 4 ore, timp de supt care conțin acid
 de 1 săptămână. Nu citric, sorbitol sau ma-
 depășiți 100 mg zilnic, nitol. Aceste ingrediente
 dintoate suplimentele. inhibă absorbția.
-
-<!-- Pagina PDF 711 -->
 
 Vitamina A 15000 UI zilnic. Dacă Ajută la vindecarea
 sunteți însărcinată, mucoaselor inflamate
@@ -75457,8 +74034,6 @@ mucusul din căile respiratorii.
 Q La primele semne de răceală, folosiți o combinație de ex-
 tract fără alcool de echinacea și de gențiană pentru a stimula
 
-<!-- Pagina PDF 712 -->
-
 ## RĂCEALĂ OBISNUITĂ
 
 ## Răceală, gripă sau alergie?
@@ -75542,8 +74117,6 @@ dacă Precauții: ÎNu folosiți salvia dacă suferiți de vreun tip de
 afecțiune convulsivă sau dacă sunteți însărcinată ori alăptați.
 sau Q Ceaiurile de ghimbir, de pau d'arco, de ulm și de coada
 șoricelului sunt bune în răceala obișnuită.
-
-<!-- Pagina PDF 713 -->
 
 ## Remedii pentru răceala obișnuită
 
@@ -75642,8 +74215,6 @@ fluidelor. Dacă nu aveți febră, o plimbare sau orice fel de
 mișcare moderată o să vă facă să vă simțiți mai bine.
 Q Un studiu făcut între 1999 și 2000, în Florida, a arătat
 că administrarea de antioxidanți ca vitaminele C și E,
-
-<!-- Pagina PDF 714 -->
 
 beta-caroten, seleniu, zinc, fructooligozaharide și proteine
 poate reduce semnificativ riscul de a face o infecție a căilor
@@ -75755,8 +74326,6 @@ zile, dacă apar în gât pete albe sau galbene și dacă nodulii
 ca limfatici de sub maxilar și de la gât încep să se mărească și/
 sau apar frisoane și dificultăți de respirație.
 
-<!-- Pagina PDF 715 -->
-
 ## RĂNI DIN CAUZA MIȘCĂRII
 
 ## REPETITIVE
@@ -75859,8 +74428,6 @@ aftershave-ul, vă pot face probleme.
 Q Stați jos și respirați adânc. Creierul este destul de tulburat
 și fără să vă mișcați prea mult. Mai ales,încercați să țineți
 capul nemișcat. Stați întins într-o zonă unde mișcarea se
-
-<!-- Pagina PDF 716 -->
 
 simte mai puțin (în mijlocul vaporului sau în zona aripilor
 avionului). Fixați privirea pe un obiect aflat la distanță și
@@ -75971,8 +74538,6 @@ sunt vizibile mulți ani.
 În afară de cazurile în care există alte indicații speciale,
 dozele recomandate sunt pentru adulți.
 
-<!-- Pagina PDF 717 -->
-
 ### NUTRIENȚI
 
 -,
@@ -76077,8 +74642,6 @@ de pe etichetă. aminoacizi și plante
 care apără sănătatea
 pielii.
 
-<!-- Pagina PDF 718 -->
-
 Picnogenol Conform indicațiilor Inamic at radicalilor
 de pe etichetă. liberi, care întărește
 colagenul.
@@ -76179,8 +74742,6 @@ la fiecare trei luni.
 **Observații**
 U Alegerea unor produse bune de îngrijire a pielii poate crea
 probleme. Noi vă propunem alegerea unor produse naturale
-
-<!-- Pagina PDF 719 -->
 
 și evitarea acelor produse care conțin vaselină, ulei mineral
 sau alte uleiuri hidrogenate. Puteți alege produse care conțin
@@ -76286,8 +74847,6 @@ propriei grăsimi. Multe, dacă nu toate aceste tratamente,
 pot provoca reacții secundare foarte neplăcute. Dacă luați
 în calcul aceste tratamente, studiați procedura în prealabil și
 discutați cu un specialist dermatolog.
-
-<!-- Pagina PDF 720 -->
 
 Tratamentul chirurgical este o opțiune scumpă, dar
 cientă. Dacă sunteți deranjați de riduri, vorbiți cu
@@ -76397,8 +74956,6 @@ radicalilor liberi. Utilizați
 dar sub formă de d-alfa-
 o tocoferol.
 
-<!-- Pagina PDF 721 -->
-
 Zinc 50 mg zilnic. Nu Pentru repararea
 depășiți 100 mg zilnic, țesuturilor. Crește
 dintoate suplimentele răspunsul sistemului
@@ -76499,8 +75056,6 @@ pielea, cu excepția momentelor în care o curățați.
 Q Evitați temperaturile extreme, în special căldura. Faceți
 băi și dușuri scurte. Folosiți apa atâr de rece cât să vă fie
 confortabil. Evitați saunele (inclusiv cele cosmetice sau
-
-<!-- Pagina PDF 722 -->
 
 inhalațiile), băile de aburi și băile fierbinți. Dacă este necesar
 să creșteți umiditatea în casă, utilizați un umidificator
@@ -76612,8 +75167,6 @@ subțțire. Folosiți o formă
 fără lactoză și fără
 gâr drojdie.
 
-<!-- Pagina PDF 723 -->
-
 Tablete de supt 1 tabletă de supt de Pentru răspunsul
 cu zinc 15 mg de 3 ari pe zi, imunitar și refacerea
 timp de 4 zile. Apoi țesutului.
@@ -76717,8 +75270,6 @@ Q Mulți medici cred că un copil trebuie imunizat împotriva
 rubeolei la vârsta de 15 luni și apoi, încă o dată, după un an.
 Femeile care nu sunt însărcinate, dar sunt la vârsta concepției
 trebuie și ele imunizate. Persoanele care nu vor fi imunizate
-
-<!-- Pagina PDF 724 -->
 
 imunitar deficitar, cum sunt cei cu SIDA, cancer sau cei
 care iau în mod regulat cortizon sau medicamente împotriva
@@ -76827,8 +75378,6 @@ forma tabietelor de supt
 se sau OptiZinc, pentru cea
 de mai bună absorbție.
 
-<!-- Pagina PDF 725 -->
-
 Complex de Conform indicațiilor Elchlhbrul' de'niinerale
 multiminerale de pe etichetă. dincorp este important.
 Luați uncomplex cu
@@ -76932,8 +75481,6 @@ o probă din pielea care se descuamează în locurile afectate
 și o examinează la microscop. Copiii sub 15 ani au cea
 mai mare incidență de râie și sunt, în general, primii din
 
-<!-- Pagina PDF 726 -->
-
 familie care o contractează. Este considerată și o boală cu
 transmitere sexuală.
 În afară de cazurile în care există alte indicații speciale,
@@ -77023,8 +75570,6 @@ dacă permetrinul nu are nici un efect.
 Q Scabicidele nu sunt recomandate pentru copiii sub șase
 de ani sau pentru femeile însărcinate. În asemenea cazuri, este
 recomandată, în mod normal, o soluție mai slabă de sulf.
-
-<!-- Pagina PDF 727 -->
 
 Q Pot trece una sau două săptămâni până când mâncărimea
 va înceta, chiar după tratament. Un antihistaminic sau
@@ -77132,8 +75677,6 @@ vitamina C 5 000 mg zilnic. acid folic. Acidul folic
 bioflavonoide împreună cu vitamina
 B,, șivitamina C.
 
-<!-- Pagina PDF 728 -->
-
 Acid gamma- Conform indicațiilor Esențial pentru
 aminobutiric de pe etichetă, pe metabolismul creierului.
 (GABA) stomacul gol. A se lua Ajută la funcționarea
@@ -77240,8 +75783,6 @@ sau niacină dacă aveți o
 niacinamidă 1 000 mg zilnic. boală de ficat, gută sau
 hipertensiune arterială.
 
-<!-- Pagina PDF 729 -->
-
 Vitamina E 200 Ul ziinic. Un antioxidant care
 emulsie îmbunătățește circulația
 sau În creier.
@@ -77341,8 +75882,6 @@ Q Boala celiacă nediagnosticată, provocată de intoleranța
 la gluten, poate da simptome similare cu ale schizofreniei.
 Intoleranța la gluten poate duce la depresii grave. (Vezi
 Boala celiacă, Partea a doua, p. 228.)
-
-<!-- Pagina PDF 730 -->
 
 Q Terapia medicamentoasă cste, în mod normal, tra-
 tamentul de primă linie pentru schizofrenie. Totuși, nu
@@ -77455,8 +75994,6 @@ anti- țările asiatice se consumă mult mai puține grăsimi decât în
 sunt nordul Americii și al Europei. Dieta este mai bogată în pește
 fie și fructe de mare, semințe, uleiuri din fructe care sunt bogate
 
-<!-- Pagina PDF 731 -->
-
 în acizi grași esențiali, inclusiv acizi grași esențiali omega-3,
 care au un efect inhibitor al răspunsului inflamator.
 Scleroza multiplă este diagnosticată la persoane cu vârste
@@ -77566,8 +76103,6 @@ protector de mielină.
 Folosiți tablete de supt
 sau oformă de admi-
 nistrare sublinguală.
-
-<!-- Pagina PDF 732 -->
 
 și Conform indicațiilor Stimulează sistemul
 colină de pe etichetă. nervos central și
@@ -77686,8 +76221,6 @@ Vitamina K 200 mcg de 3ori pezi, Ajută la prevenirea
 sau întimpul mesei. grețurilor și a vomei.
 lucernă Vezi Plante, mai jos.
 
-<!-- Pagina PDF 733 -->
-
 Complex de Necesare pentru
 multiminerale sisternul enzimatic
 din corp și pentru
@@ -77791,8 +76324,6 @@ o criză sau pot înrăutăți simptomele.
 Q Faceți masaje și mișcare regulat, rămâneți activ mental.
 Este extrem de important pentru menținerea funcției muș-
 chilor și pentru remisia simptomelor. Mișcarea crește, însă,
-
-<!-- Pagina PDF 734 -->
 
 temperatura corpului și scade funcția nervilor implicați,
 așadar poate înrăutăți simptomele. Cea mai bună activirate
@@ -77901,8 +76432,6 @@ orală (vitamina D 1,25-dihidroxi), în combinație cu o
 la a redus simptomele la circa o treime dintre pacienții cu
 SM. Într-un alt studiu, dozele ridicate de vitamina D —
 
-<!-- Pagina PDF 735 -->
-
 dincolo de limitele superioare de siguranță — și de calciu au
 redus numărul de leziuni la pacienții cu SM. Acest tip de
 tratament cere monitorizarea regulatăa valorilor sângelui și
@@ -77999,8 +76528,6 @@ previne afectarea pielii
 din cauza cosmeticelor,
 a Vântului, a soarelui
 și a poluanților.
-
-<!-- Pagina PDF 736 -->
 
 Picnogenol Conform indicațiilor Antioxidanți puternici
 sau de pe etichetă. care fortifică pielea
@@ -78103,8 +76630,6 @@ o Q Evitați folosirea săpunurilor iritante, dar aveți grijă să
 mențineți zonele afectate curate. Evitați unguentele grase
 și cremele.
 
-<!-- Pagina PDF 737 -->
-
 Q Mențincți părul curat și aveți grijă să folosiți un șampon
 fără grăsime.
 Q Dacă schimbările în regimul alimentar și suplimentele nu-
@@ -78204,8 +76729,6 @@ vitamina B,și 100 mg
 de vitamina C, pentru
 o absorbție mai
 bună.
-
-<!-- Pagina PDF 738 -->
 
 Acizi grași Conform indicațiilor Stimulează funcționarea
 esențiali (ulei de pe etichetă. creierului și a nervilor,
@@ -78323,8 +76846,6 @@ supt sau o formă
 de administrare
 sublinguală.
 
-<!-- Pagina PDF 739 -->
-
 S-adenozil- 400 mg de 2ori pezi. Ajută la reducerea
 metionină stresului și depresiei,
 (SAMe) calmează durerile și are
@@ -78426,8 +76947,6 @@ sivele, anticoncepționalele și anticoagulantele.
 Q Planta chinezească qian ceng ta (Huperzia serrata) crește
 capacitatea memoriei. Conține un compus numit huper-
 zină A. S-a demonstrat că extractele pure standardizate
-
-<!-- Pagina PDF 740 -->
 
 din acest compus cresc acuitatea mentală, abilitatea de
 comunicare și memoria pentru mulți bolnavi de Alzheimer.
@@ -78533,8 +77052,6 @@ care să reducă stresul indus de virus, reducând astfel și
 efectul acestuia asupracorpului. De la descoperirea acesteia,
 la începutul anilor 1980, SIDA s-a transformat dintr-o
 condamnare la moarte într-o afecțiune cronică care are
-
-<!-- Pagina PDF 741 -->
 
 nevoie de îngrijire medicală regulată. La nivel mondial, circa
 33 de milioane de oameni sunt infectați cu HIV și au SIDA,
@@ -78643,8 +77160,6 @@ acasă neaprobate oficial de autorități. Medicii spun că dacă
 trusa promite rezultatul testului „instant“, doar printr-un
 indicator vizual, cum ar fi un punct colorat pe o bucată
 
-<!-- Pagina PDF 742 -->
-
 de hârtie după ce ați pus salivă pe ea, rezultatul nu poate
 fi concludent. Dacă bănuiți că ați folosit o trusă de test
 îndoielnică, luați legătura cu medicul pentru un alr test sau
@@ -78750,8 +77265,6 @@ problemă cu HAART. În schimb, HAART duce adesea la
 obezitate, un risc crescut de boli de inimă și diabet. Pacien-
 ții care iau medicamentele HAART sunt supuși și riscului
 
-<!-- Pagina PDF 743 -->
-
 ### Femeile și SIDA
 
 Saptezeci și cinci lasută dintre persoanele bolnave de
@@ -78855,8 +77368,6 @@ energia șiapără inima.
 Antioxidant puternic
 și important stimulent
 imunitar.
-
-<!-- Pagina PDF 744 -->
 
 Compiex de Toți nutrienții sunt
 multiminerale necesari contra
@@ -78966,8 +77477,6 @@ de pe etichetă. esențiali, un foarte
 important element al
 dietei.
 
-<!-- Pagina PDF 745 -->
-
 Plante
 Q Aloe vera conține carrisină și pare că inhibă creșterea și
 răspândirea HIV. Luați 2 căni, de două ori pe zi. Folosiți
@@ -79073,8 +77582,6 @@ Q Beți doar apă distilată la aburi (nu apă de robinet) — de la
 8 la 10 pahare de apă pe zi — pentru a spăla toxinele din corp.
 Toate celulele și sistemele de organe au nevoie de apă. Beți
 multă apă chiar dacă nu vă este sete. Organele, în special
-
-<!-- Pagina PDF 746 -->
 
 ## SINDROM AL ARTICULAȚIEI TEMPORO-MANDIBULARE
 
@@ -79188,8 +77695,6 @@ timpul ciumei; nu toată lumea care a fost expusă a manifestat
 într-o
 o Vezi Sindrom ATM.
 
-<!-- Pagina PDF 747 -->
-
 ## SINDROM ATM
 
 Se estimează că 75% din americani suferă de sindromul
@@ -79297,8 +77802,6 @@ prescrise antidepresive.
 Nu administrați copiilor
 sub 12 ani.
 
-<!-- Pagina PDF 748 -->
-
 Vitamine din 100 mgdin fiecare Vitamine antistres.
 complexul B vitamină B, de 3ori pe Formele de administrare
 zi (cantitatea din fiecare sublinguale sunt
@@ -79404,8 +77907,6 @@ provoca sau agrava sindromul ATM.
 Q Dacă lucrați la birou, verificați-vă poziția periodic în
 timpul zilei. Nu vă aplecațipeste birou; țineți spatele drept,
 fi cu urechilenu prea mult în fața umerilor. Încercați să țineți
-
-<!-- Pagina PDF 749 -->
 
 BOLI Si DISFUNCȚII ALE ORGANISMULUI
 capul aliniat în așa fel încâr pomeții să se afle deasupra
@@ -79514,8 +78015,6 @@ palmei (cunoscută sub denumirea de cuta simiană).
 Persoanele cu sindrom Down sunt deosebit de vulnerabile
 la bolile de inimă congenitale și mai predispuse decât ceilalți
 să facă leucemie acută, boli de tiroidă și să aibă probleme
-
-<!-- Pagina PDF 750 -->
 
 Down pot avea menstruație și sunt fertile, bărbații
 aproape întotdeauna infertili.
@@ -79626,8 +78125,6 @@ absorbția lecitinei.
 Folosiți oformă d-alfa-
 tocoferol.
 
-<!-- Pagina PDF 751 -->
-
 Vitamine din Conform indicațiilor Previneși/sau tratează
 complexul B de pe etichetă. pierderile de memorie
 cu șicrește capacitatea
@@ -79735,8 +78232,6 @@ absorbiți, poate fi una dintre aceste probleme. Afecțiuni ca
 boala celiacă, boala Crohn, colita, diverticulita, sindromul
 intestinului iritabil, intoleranța la lactoză, infestarea cu
 paraziți și consumul excesiv de alcool, antiacide sau laxative
-
-<!-- Pagina PDF 752 -->
 
 pot afecta intestinele. Constipația cronică și/sau diareea
 avea aceleași rezultate. Altă problemă este timpul prea
@@ -79852,8 +78347,6 @@ complexul B săptămână sau după injecții, folosiți
 indicațiile medicului. oformă de supt,
 care sublinguală sau spray.
 
-<!-- Pagina PDF 753 -->
-
 pius,
 suplimentar,
 vitamina B,, 1 000 mg de 3 ari pe
@@ -79951,8 +78444,6 @@ puteți introduce din nou în dietă, treptat, alimentele pe care
 le-ați eliminat; cu toate acestea, nu le reintroduceți repede
 sau dintr-odată. Adăugați în dietă cantități mici din aceste
 alimente, pe rând.
-
-<!-- Pagina PDF 754 -->
 
 Q Mâncați alimente bogate în carbohidrați complecși
 sărace în grăsimi. Includeți în dietă orez brun bine
@@ -80068,8 +78559,6 @@ leziuni de orice fel — umflătură datorată sarcinii sauretenției
 care de lichide, apariția unui pinten al osului, diabet, dislocare de
 os sau fractură, artrită inflamatorie sau chiar tendinită.
 
-<!-- Pagina PDF 755 -->
-
 CTS a fost asociat cu leziunea provocată de mișcarea
 repetată a articulației, care are legătură cu mișcarea rapidă a
 degetelor. Cândva considerat o problemă care afecta numai
@@ -80177,8 +78666,6 @@ Nu depășiți această
 cantitate, sau nervii vor
 fi afectați.
 
-<!-- Pagina PDF 756 -->
-
 Zinc Grăbește vindecarea,
 Folosiți tablete de supt
 cu gluconat de zinc sau
@@ -80284,8 +78771,6 @@ o singură activitate multă vreme. Din fericire, angajatorii au
 devenit mai conștienți de afecțiunile provocate de mișcările
 repetitive și, adesca, există mai multă înțelegere decât acum
 
-<!-- Pagina PDF 757 -->
-
 câțiva ani. Mulți încearcă acum rotația angajaților în activi-
 tățile pe care le fac și, astfel, riscul leziunilor este redus.
 Q Păstrați greutatea ideală și, dacă este nevoie, slăbiți. Exce-
@@ -80383,8 +78868,6 @@ Ajută la restabilirea circulației și îmbunătățește poziția
 în jurul degetelor ca să încercați rezistența și apoi
 apropiați și depărtați degetele. De trei ori pe zi, faceți
 un set de exerciții cu fiecare mână.
-
-<!-- Pagina PDF 758 -->
 
 Q Dacă apare slăbiciune în degetul mare este un semn
 nervul median a fost afectat și poate fi recomandat tratament
@@ -80494,8 +78977,6 @@ clisma cu bariu, colonoscopia, biopsia rectală, sigmoido-
 scopia și examinarea scaunului ca să se determine existența
 cu bacteriilor, a sângelui și/sau a paraziților.
 
-<!-- Pagina PDF 759 -->
-
 Sindromul intestinului iritabil este dureros, dar nu grav,
 și persoanele care îl au pot duce o viață activă și productivă,
 dacă își schimbă dieta, fac regulat mișcare și înlocuiesc
@@ -80593,8 +79074,6 @@ Dioxychlor Conform indicațiilor Distruge bacteriile
 de pe etichetă. străine din tractul
 digestiv și transportă
 oxigenul spre țesuturi.
-
-<!-- Pagina PDF 760 -->
 
 Plante
 I Dacă aveți SII, este de preferat să vă tratați atât ficatul,
@@ -80705,8 +79184,6 @@ plus strânge în talie.
 U Nu mâncați înainte de a merge la culcare. Așteptați una
 sau două ore după masă înainte de a vă culca.
 
-<!-- Pagina PDF 761 -->
-
 Q Vizi Dezechilibru acid/alcalin, Partea a doua, p. 402,
 și faceți autotestul. Acidoza crescută poate apărea împreună
 cu SII.
@@ -80812,8 +79289,6 @@ limfatici) — și, mai mult ca orice, o oboseală fizică adesea
 extremă și care te secătuiește. Anomalii imunologice care
 apar la diferitele teste de diagnosticare sunt și ele frecvente.
 Sindromul este de trei ori mai frecvent la femei decât
-
-<!-- Pagina PDF 762 -->
 
 la bărbați și afectează, în primul rând, adulții tineri
 persoanele între 20 și 50 deani.
@@ -80932,8 +79407,6 @@ implicarea în funcția
 endocrină.
 de
 
-<!-- Pagina PDF 763 -->
-
 Nicotinamidă 10—20 mgcu apă, Studiile au arătat că
 adenin- primul lucru dimineața, mărește nivelul energiei
 dinucleotidă pe stomacul gol. și ajută la prevenirea
@@ -81039,8 +79512,6 @@ plus
 complex Conform indicațiilor
 glandular crud de pe etichetă.
 
-<!-- Pagina PDF 764 -->
-
 Acidophilus Pentru a înlocui
 bacteriile „prietenoase“
 necesare. Combate și
@@ -81143,8 +79614,6 @@ feaua, ceaiul și băuturile răcoritoare, zahărul, produsele care
 o conțin drojdie sau făină albă, cum ar fi pâinea și pastele.
 Poate vi se pare greu — persoanele cu SOC poftesc, în
 general, la dulce și la produse cu carbohidrați și pot dori
-
-<!-- Pagina PDF 765 -->
 
 Q Asigurați-vă că intestinele lucrează zilnic și adăugați fibre
 în dietă. Faceți, din când în când, clismă de curățare. (Vezi
@@ -81249,8 +79718,6 @@ Q Dovezileau indicat că extenuarea glandelor suprarenale
 HHA, un complex de reacții biochimice care coordonează
 unele activități metabolice de bază) ar fi posibilele cauze ale
 acestei boli.
-
-<!-- Pagina PDF 766 -->
 
 Q Paraziții sunt o problemă comună a bolnavilor de SOC.
 Parasitin și Parasi Veda sunt suplimente care combat paraziții
@@ -81360,8 +79827,6 @@ al Alte boli des întâlnite la persoanele cu fibromialgie sunt:
 cu * Alergii la substanțe chimice și/sau alimentare.
 - Amețeli și pierdere a echilibrului.
 
-<!-- Pagina PDF 767 -->
-
 e Oboseală extremă.
 + Dureri de cap.
 - Sindrom al intestinului iritabil (diaree și/sau constipație,
@@ -81464,8 +79929,6 @@ separat de calciu. metabolică prin
 implicarea sa în axa
 hipofiză—hipotatamus-—
 tiroidă.
-
-<!-- Pagina PDF 768 -->
 
 Nicotinamidă 10-15 mg, la prima Crește nivelul de
 adenin- oră, dimineața, pe energie.
@@ -81574,8 +80037,6 @@ dincomplexul B
 Acid gamma- Pentru controlul funcției
 aminobutiric creierului și at anxietății.
 (GABA)
-
-<!-- Pagina PDF 769 -->
 
 Acizi grași Conform indicațiilor de Apără celulele de
 esențiali (ulei pe etichetă, de 3 ori pe degradare. Calmează
@@ -81687,8 +80148,6 @@ plus
 complex Conform indicațiilor
 multiglandular de pe etichetă,
 
-<!-- Pagina PDF 770 -->
-
 Plante
 O Astragalusul și echinacea îmbunătățesc funcționarea
 sistemului imunitar.
@@ -81795,8 +80254,6 @@ A Folosiți clisme cu iarbă de grâu pentru detoxifierea
 sistemului. Ca să faceți clismă, adăugați 30 g de suc de iarbă
 de grâu la o cană de apă fierbinte. Folosiți tratamentul o
 
-<!-- Pagina PDF 771 -->
-
 dată la două zile, timp de două săptămâni. (Vezi Clisme,
 Partea a treia, p. 865.)
 Q Adoptați un program regulat de exerciții fizice. După
@@ -81901,8 +80358,6 @@ diagnosticat cu fibromialgie, este bine să vă adresați unui
 medic specialist în gestionarea și tratamentul acestei boli.
 Într-un studiu, copiii (cu vârste între 8 și 18 ani) care ur-
 mau un program de exerciții aerobice au constatat o funcție
-
-<!-- Pagina PDF 772 -->
 
 fizică îmbunătățită, mai puține simptome ale fibromialgiei,
 o calitate mai bună a vieții și mai puține dureri. Un alt grup
@@ -82017,8 +80472,6 @@ DHEA 10 mg zilnic. Este convertită în
 estrogen și testosteron.
 de
 
-<!-- Pagina PDF 773 -->
-
 sau Conform indicațiilor Îmbunătățește memoria
 7-xeto DHEA de pe etichetă. șicapacitatea sisternului
 imunitar. Spre deosebire
@@ -82132,8 +80585,6 @@ De asemenea,
 impulsionează sistemul
 imunitar.
 
-<!-- Pagina PDF 774 -->
-
 Zinc 50 mg zilnic. Nu Necesar pentru
 depășiți 100 mg zilnic, funcționarea bună a
 din toate suplimentele. sisternului imunitar.
@@ -82239,8 +80690,6 @@ tru a elimina posibilitatea intoxicației cu metale grele. (Vezi
 Alergii, Partea a doua, p. 164, și Analiză a firului de păr,
 în Partea a treia, p. 862.)
 Q Nu fumați.
-
-<!-- Pagina PDF 775 -->
 
 **Observații**
 Q SPM este un sindrom cu multe cauze și problema nu are
@@ -82351,8 +80800,6 @@ cerebrale și chiar moartea, ca rezultat al edemului cerebral
 sau al insuficienței respiratorii. Din fericire, ca urmare a
 acumulării cunoștințelor despre boală și, în special, datorită
 
-<!-- Pagina PDF 776 -->
-
 importanței diagnosticării din timp și a tratamentului
 prompt, rata mortalității a scăzut în ultimii ani.
 Cauza precisă a sindromului Reye nu este cunoscută,
@@ -82459,8 +80906,6 @@ urechii sau vărsat:
 + Oboseală, letargie și probleme de memorie.
 U Dacă aveți chiar și numai o suspiciune că dumneavoas-
 tră (sau copilul) ați putea face această boală, cereți ajutor
-
-<!-- Pagina PDF 777 -->
 
 imediat. Sindromul Reye progresează foarte rapid și este
 foarte periculos. Mergeți la camera de gardă a celui mai
@@ -82571,8 +81016,6 @@ recomandată. Pentru copii între 6 și 12 ani, folosiți jurnătate
 din doza recomandati, iar pentru copii sub G ani, folosiți un
 sfert din cantitate.
 
-<!-- Pagina PDF 778 -->
-
 ### NUTRIENȚI
 
 SUPLIMENT DOZE RECOMANDATE
@@ -82679,8 +81122,6 @@ sistemului imunitar
 care ajută la protecția
 A. împotriva infecțiilor.
 
-<!-- Pagina PDF 779 -->
-
 Zinc 1 pastilă de 15mg Agent antiviral
 tablete la fiecare 2 la 4 ore, și stimulent
 de supt întimpul zilei, o al imunității.
@@ -82782,8 +81223,6 @@ Q Dacă utilizați descongestionante, folosiți-le numai con-
 form indicațiilor și numai pentru perioada recomandată.
 Dacă este posibil, evitați să folosiți picături sau spray
 nazal, pentru că acestea produc dependență și perturbă
-
-<!-- Pagina PDF 780 -->
 
 funcționarea normală a sinusurilor. În plus, picăturile și
 spray-ul, ca și inhalatoarele, pot contracta vasele de sânge
@@ -82895,8 +81334,6 @@ Sistemul imunitar uman este funcțional la naștere, însă
 nu la capacitate maximă. Acest lucru se numește imuni-
 tate înnăscută, adică imunitatea cu care te naști. Funcția
 
-<!-- Pagina PDF 781 -->
-
 imunitară se dezvoltă și devine mai sofisticată odată cu
 maturizarea sistemului și pe măsură ce organismul învață să
 se apere singur împotriva diferiților invadatori străini numiți
@@ -83006,8 +81443,6 @@ aceste funcții importante nu mai sunt îndeplinite.
 Celulele T joacă un rol important în imunitate prin
 secretarea interleukinei-l, a interleukinei-2 și a interfero-
 nului, cât și prin activarea celulelor B care produc anticorpi.
-
-<!-- Pagina PDF 782 -->
 
 Aceste secreții sunt cunoscute sub numele de citokine. Avem
 nevoie de citokine pentru a supraviețui, dar, câteodată, sunt
@@ -83120,8 +81555,6 @@ de pe etichetă. și factori stimulatori
 de anticorpi. Crește
 imunitatea.
 
-<!-- Pagina PDF 783 -->
-
 Complex de Conform indicațiilor Proteină descompusă
 aminoacizi în de pe etichetă, pe într-o formă pe
 formă liberă stomacul gol. care opoate folosi
@@ -83230,8 +81663,6 @@ lel'Itlșlan%u_lar cu de pe etichetă.
 SPANA CrUCa
 Usturoi 2 capsule de 3 ori pezi. Stimulează sistemul
 imunitar.
-
-<!-- Pagina PDF 784 -->
 
 Vitamina A 10 000 UI zilnic. Necesară pentru
 plus sisternul imunitar.
@@ -83344,8 +81775,6 @@ care 1 de sitosterol și sitosterolin, care provine dintr-un remediu
 tradițional din Africa de Sud. Doza recomandată este de trei
 capsule de 20 mg zilnic.
 
-<!-- Pagina PDF 785 -->
-
 Q Decât să luați ciupercile shiitake, reishi și altele separat,
 mai bine luați-le dintr-o combinație precum Mushroom
 Optimizer. Acest produs combină extractele de reishi, coada
@@ -83446,8 +81875,6 @@ Q O tiroidă insuficient de activă duce la deficite imunitare.
 UY Alergiile alimentare sau reacțiile adverse la alimente pot
 fi o formă de stres pentru sistemul imunitar. (Vezi Alergii,
 Partea a doua, p. 164.)
-
-<!-- Pagina PDF 786 -->
 
 Q Studiile au arătat că hormonul dehidroepiandrosteron
 (DHEA) poate intensifica funcționarea sistemului imunitar.
@@ -83559,8 +81986,6 @@ Ca rezultat al acestui complexde reacții fizice, corpul nu
 al mai absoarbe bine nutrienții când este sub stres. Rezultatul
 este că, în special la stres îndelungat sau repetat, corpul este
 
-<!-- Pagina PDF 787 -->
-
 ### Stres sau PTSD?
 
 Boala stresului posttraumatic (sau PTSD) este o ma-
@@ -83655,8 +82080,6 @@ care acționează
 antioxidanți pentru a
 înlătura radicalii liberi
 provocațide stres.
-
-<!-- Pagina PDF 788 -->
 
 Acid gama- 750 mg de 2 ori pe Acționează ca
 aminobutiric zi, Luați cu 50mg tranchilizant și
@@ -83769,8 +82192,6 @@ până ce atingeți un
 nivel potrivit (până
 la 5 mg pe noapte).
 
-<!-- Pagina PDF 789 -->
-
 Complex de Conform indicațiilor Furnizează proteina
 aminoacizi sub de pe etichetă. care este rapid
 formă liberă folosită de corp în
@@ -83879,8 +82300,6 @@ Q Busuiocul indian (Ocimurm sanctum), o plantă cunoscută
 în India ca tulsi, este înrudită, dar nu cste acecași cu busu-
 iocul folosit în bucătărie. Pare să scadă nivelul stresului
 
-<!-- Pagina PDF 790 -->
-
 și al cortizolului. O varietate thailandeză este cunoscută sub
 numele de bai gkaprow.
 Q Hameiul calmează nervozitatea, neliniștea și stresul. De
@@ -83986,8 +82405,6 @@ Q Practicați respirația profundă. Poate fi aplicatăcând sun-
 alre teți în fața unei situații stresante — acasă, la lucru, în ma-
 șină sau oriunde. Vă puteți ține respirația, ceea ce este util
 
-<!-- Pagina PDF 791 -->
-
 pentru ușurarea stresului. Inhalați adânc cu gura închisă,
 țineți-vă respirația câteva secunde (nu așteptați până devine
 inconfortabil), apoi expirați încet pe gură, cu limba plasată
@@ -84092,8 +82509,6 @@ poate învăța tehnici eficiente de reducere a stresului. Este
 întotdeauna edificator și benefic să vorbiți cu cineva care
 poate oferi un răspuns obiectiv, oricine ar fi, prieten apropiat
 sau un consilier calificat.
-
-<!-- Pagina PDF 792 -->
 
 **Observații**
 Q Un studiu făcut la Facultatea de Medicină a Universității
@@ -84206,8 +82621,6 @@ fie urmează un tratament de recuperare după traume sau arsuri.
 unei Un copil care are un deficit de nutrienți sau probleme de
 creștere trebuie consultat de un medic.
 
-<!-- Pagina PDF 793 -->
-
 ::
 Extract din ficat Conform indicațiilor O sursă excelentă
 
@@ -84310,8 +82723,6 @@ timp deoarece cresc apetitul și stimulează digestia, mai ales
 pe cea a adulților.
 Precauții: Nu consumați ginseng dacă aveți hipertensiune
 sau sunteți însărcinată ori alăptați.
-
-<!-- Pagina PDF 794 -->
 
 Recomandări
 Q Dacă aveți impresia că sunteți subponderali și, mai ales,
@@ -84424,8 +82835,6 @@ le
 Aluminiul nu este un metal greu, dar poate fi toxic dacă este
 prezent în cantități mari — chiar și în cantități mici, dacă
 
-<!-- Pagina PDF 795 -->
-
 se instalează în creier. Multe din simptomele intoxicației
 cu aluminiu sunt similare cu cele ale bolii Alzheimer și ale
 osteoporozei. Intoxicația cu aluminiu poate duce la colici,
@@ -84530,8 +82939,6 @@ L-glutation Conform indicațiilor Ajută la prevenirea
 de pe etichetă. pericolului reprezentat
 de metalele toxice
 și de radiații.
-
-<!-- Pagina PDF 796 -->
 
 Oxy-Cleanse Conform indicațiilor Ajută la înlăturarea din
 de pe etichetă. organism a metalelor
@@ -84643,8 +83050,6 @@ a sistemului imunitar este vitală pentru o sănătate bună, iar
 o nutriție adecvată devine tot mai importantă pentru aajuta
 sau corpul să se detoxifice singur.
 
-<!-- Pagina PDF 797 -->
-
 Unele minerale, calciul și zincul de pildă, sunt necesare
 pentru a susține viața. Alte minerale, cum ar fi cuprul, sunt
 necesare în cantități mici, dar sunt toxice în cantități mari.
@@ -84753,8 +83158,6 @@ enzime Conform indicațiilor de
 pancreatice pe etichetă. Luați între
 mese.
 
-<!-- Pagina PDF 798 -->
-
 L-cisteină 500 mg din fiecare de Protejează plămânii,
 și 3 ori pe zi, pe stomacul inima și ficatul,
 L-metionină gol. Luați cu apă sau cu distrugând radicatii
@@ -84859,8 +83262,6 @@ V, cană de oțet pe țeavă. Țineți țeava acoperită până nu mai
 sfârâie și apoi clătiți cu apă caldă.
 Q Ca să reduceți expunerea la gaze naturale, pesticide,
 radon, fum și alte substanțe chimice din gospodărie, aerisiți
-
-<!-- Pagina PDF 799 -->
 
 bine casa. Înlocuiți plăcile prefabricate de sub pardoseală cu
 parchet stratificat care nu conține formaldehidă. Parchetul ar
@@ -84970,8 +83371,6 @@ rii, instrumente industriale, cerneluri folosite la tipărituri și
 tatuaje, latex, unele medicamente, unele vopseluri, plastic,
 lacuri, solvenți și conservanți pentru lemn.
 
-<!-- Pagina PDF 800 -->
-
 Mercurul este o otravă care se acumulează. Nu există
 barieră care să oprească mercurul să pătrundă în celulele
 creierului. El se fixează în centrii durerii din creier și
@@ -85080,8 +83479,6 @@ de de pe etichetă. toxice dinorganism.
 Usturoi 2 capsule de 3 ori pe zi. Acționează ca
 detoxifiant.
 
-<!-- Pagina PDF 801 -->
-
 Vitamina A 25 000 U zilnic. Antioxidant puternic;
 plus Dacă sunteți distruge radicalii liberi.
 compiex de însărcinată, nu depășiți
@@ -85178,8 +83575,6 @@ lui, Partea a doua.
 Nichelul este un metal alb-argintiu folosit la fabricarea
 oțelului, a bateriilor nichel-cadmiu, la placarea cu nichel,
 la combustibilii de încălzit și la ceramică. A fost descris ca
-
-<!-- Pagina PDF 802 -->
 
 micromineral și este prezent în multe celule ale corpului
 uman, cantități mici de nichel fiind folosit la unele funcții
@@ -85283,8 +83678,6 @@ mai bun).
 Q Discutați cu dentistul despre materialele pe care le folo-
 sește. Intoxicația cu nichel poate apărea și din cauza aliajelor
 folosite în chirurgiadentară și la fabricarea instrumentelor.
-
-<!-- Pagina PDF 803 -->
 
 1 Dacă aveți un serviciu sau un hobby care implică folosirea
 nichelului la placarea metalelor, folosiți o mască pentru
@@ -85395,8 +83788,6 @@ tome obișnuite ale emboliei pulmonare sunt dificultățile de
 respirație inexplicabile și tusea cu sânge. Dacă prezentați
 oricare din simptomele emboliei pulmonare, aveți nevoie
 
-<!-- Pagina PDF 804 -->
-
 imediat de îngrijire medicală de urgență. Însă, cu toată
 gravitatea potențială, TVP poare fi lipsită de simptome.
 Într-adevăr, aproape jumărate dintre persoanele care suferă
@@ -85499,8 +83890,6 @@ celulară.
 Usturoi 2 capsule de 3oripe Îmbunătățește circulația
 zi, în timpul mesei. și subțiază sângele.
 
-<!-- Pagina PDF 805 -->
-
 Vitamina C 4 000-8 000 mg ziinic. Ajută circulația și
 cu reduce tendințele de
 bioflavonoide coagulare. Previne
@@ -85602,8 +83991,6 @@ gelui. Este important mai ales dacă luați anticoncepționale.
 (Vezi Dependență de fumat, Partea a doua, p. 389.)
 Q Evitați să purtați obiecte vestimentare strâmte care im-
 piedică circulația, cum sunt ciorapii până la genunchi sau
-
-<!-- Pagina PDF 806 -->
 
 Q Dacă aveți o venă umflată, dureroasă, care nu se retrage
 în două săptămâni, consultați medicul.
@@ -85711,8 +84098,6 @@ Este devastatoare, mai ales în Africa și Asia, unde HIV și
 tuberculozei i se opune o rezistență mică. Este principala
 cauză a morții la nivel mondial pentru cei infectați cu HIV.
 
-<!-- Pagina PDF 807 -->
-
 Se estimează că, până în 2020, vor fi un miliard de noi
 cazuri, 150 de milioane se vor îmbolnăvi și 36 de milioane
 de oameni din întreagalume vor muri.
@@ -85818,8 +84203,6 @@ absorbție mai bună
 formării pietrelor
 la rinichi dincauza
 cisteinei.
-
-<!-- Pagina PDF 808 -->
 
 Seleniu 200 mcg ziinic. Dacă Protejează împotriva
 sunteți însărcinată, nu radicafilor liberi și
@@ -85928,8 +84311,6 @@ pacienții care le folosesc ar trebui să îl evite.
 Q Iarba mare (Inula helenium), sub formă de ceai, rădăcina
 de gențiană, smirna, lemnul dulce, lobelia, rădăcina de
 
-<!-- Pagina PDF 809 -->
-
 nalbă, lumânărica și cimbrul au proprietăți expectorante și
 descongestionante.
 Precauții: Nu luați iarbă mare dacă sunteți alergic la
@@ -86033,8 +84414,6 @@ lat cel puțin o dată în viață bacili de tuberculoză, dar, în
 majoritatea cazurilor, sistemul imunitar i-a îndepărtat.
 Unii oameni pot fi purtători timp de ani de zile, câteodară
 decenii, până ca boala să se manifeste, iar bacteria să
-
-<!-- Pagina PDF 810 -->
 
 Q Există un purificator de aer care se pune în jurul gâtului.
 Aerul este purificat de microorganismele (precum virusuri,
@@ -86150,8 +84529,6 @@ Simptomele de deficit de atenție includ:
 - Lipsă de atenție față de detalii sau greșeli provocate de
 lipsa de concentrare.
 
-<!-- Pagina PDF 811 -->
-
 - Are probleme dacă trebuie să se concentreze asupra au
 unor activități.
 - Persoana pare să nu audă când i se vorbește.
@@ -86253,8 +84630,6 @@ multivitamine de pe etichetă. necesari pentru
 Folosiți foma lichidă sau
 capsule cu gel pentru
 cea mai bună absorbție.
-
-<!-- Pagina PDF 812 -->
 
 Kyolic EPA Conform indicațiilor Oferă acizii grași esențiali
 de pe etichetă. șiajută la funcționarea
@@ -86359,8 +84734,6 @@ produsului, în funcție de vârstă) și beți amestecul de două
 sau trei ori pe zi.
 Q Alte plante care pot fi bune împorriva hiperactivității
 sunt iarba mâței, mușețelul, gotu kola, hameiul, kava kava,
-
-<!-- Pagina PDF 813 -->
 
 roinița, lemnul dulce, lobelia, ovăzul, floarea pasiunii, gura
 lupului, sunătoarea, cimbrul și betonia (Betonica officinalis).
@@ -86469,8 +84842,6 @@ creativitatea.
 Q V-ați putea gândi la o terapie cognitiv-comportamentală.
 Poate calma sau elimina multe dintre problemele compor-
 tamentale provocate de ADHD/ADD.
-
-<!-- Pagina PDF 814 -->
 
 Q Prin diera prin eliminare identificați alimentele care pot
 agrava simptomele. (Vezi Alergii, Partea a doua, p. 164.)
@@ -86582,8 +84953,6 @@ cu atât de mare între sexe. Psihologii consideră că bărbații sunt
 mulr mai puțin înclinați să declare sau chiar să recunoască
 faptul că au probleme de această natură.
 
-<!-- Pagina PDF 815 -->
-
 Tulburările anxioase pot fi acute sau cronice. Anxi- de
 etatea acută se manifestă prin episoade cunoscute, în mod
 obișnuit, sub numele de atacuri de panică. Un atac de
@@ -86694,8 +85063,6 @@ de valvă mitrală. Tulburarea anxioasă se manifestă în diferite
 feluri, dar medicii sunt de acord că un conflict, intern sau
 interpersonal, încurajează anxietatea.
 
-<!-- Pagina PDF 816 -->
-
 În afara cazurilor în care există alte indicații, dozele reco-
 mandate în acest capitol sunt pentru adulți. Pentru copii
 între 12 și 17 ani, reduceți doza la trei sferturi din cantitatea
@@ -86803,8 +85170,6 @@ dacă alăptați sau dacă
 suferiți de diabet,
 hipertensiune sau PKU.
 
-<!-- Pagina PDF 817 -->
-
 L-glutamină 500 mgde 3 ori pezi, Are efect tranchilizant
 pe stomacul gol.Luați moderat. (Vezi
 cu apă sau cu suc. Nu Aminoacizi, Partea
@@ -86909,8 +85274,6 @@ broccoli, melasă, drojdie de bere, orez brun, fructe uscate,
 curmale, pește (în special somon), usturoi, zarzavaturi
 verzi, leguminoase, oleaginoase proaspete, produse din soia,
 cereale integrale și iaurt. Aceste alimente furnizează minerale
-
-<!-- Pagina PDF 818 -->
 
 valoroase, cum sunt calciul, magneziul, fosforul și potasiul,
 care sunt epuizate de stres.
@@ -87019,8 +85382,6 @@ mai mari dacă medicamentul este luat în doze relativ mari
 (mai mult de 4 mg zilnic) și mai mulr de opt săptămâni
 că la rând.
 
-<!-- Pagina PDF 819 -->
-
 Q Drogurile recreaționale, de pildă marijuana, pot provoca
 atacuri de panică.
 Q O dietă sănătoasă și suplimentele nutriționale potrivite
@@ -87122,8 +85483,6 @@ Usturoi 2 capsule de 3 ori pe zi, Poate reduce mărimea
 Vitamina C 3 000-10 000 mg Crește rezistența
 cu zilnic, în doze împărțite. imunitară.
 bioflavonoide
-
-<!-- Pagina PDF 820 -->
 
 Zinc 30-80 mg zilnic. Nu Promovează un sistem
 depășiți 100 mg zilnic, imunitar sănătos și
@@ -87234,8 +85593,6 @@ tratamentul cu cataplasme fâcute din tătăneasă, pau d'arco,
 spălăcioasă și salvie. (Vezi Folosirea cataplasmei, Partea
 a treia, p. 876.)
 
-<!-- Pagina PDF 821 -->
-
 Precauții: Tătăneasa este recomandată numai pentru uz Q
 extern.
 Q Pentru tumorile sânilor, aplicați cataplasme din cârmâz,
@@ -87342,8 +85699,6 @@ celede sân, de colon, de col, de prostată și de piele. Toate
 aceste tipuri de cancer sunt tratate mai ușor și cu rezulrate
 mai bune când sunt depistate din timp.
 
-<!-- Pagina PDF 822 -->
-
 I Vzzi Cancer de sân, Cancer, Sâni fibrochistici, Fibrom
 uterin, Polipi, Cancer de prostată, Cancer de piele și/sau
 Negi, Partea a doua.
@@ -87449,8 +85804,6 @@ pentru oabsorbție mai Precauții: Nu luați
 bună. fierdacă nu este
 diagnosticată anemia.
 
-<!-- Pagina PDF 823 -->
-
 sau Conform indicațiilor
 Floradix lron + de pe etichetă. Sursă naturală și
 Herbs netoxică de fier.
@@ -87554,8 +85907,6 @@ un miros de usturoi, dar nu trebuie săvă îngrijorați.
 Q Tcrapia cu laser nu s-a dovedit benefică pentru ulcerele
 venoase ale picioarelor. Unele rezultate bune dă combinația
 dintre laser și terapia cu raze infraroșii, dar mai este nevoie
-
-<!-- Pagina PDF 824 -->
 
 O Există benzi care pot fi ajustate special pentru staza
 venoasă și ulcerele venoase.
@@ -87667,8 +86018,6 @@ să Ajută fa vindecare.
 Utilizați oformă de
 d-alfa-tocoferol.
 
-<!-- Pagina PDF 825 -->
-
 Acidophilus 2-3 capsule 1 dată Furnizeazăflora pentru
 până la de 3oripezi. intestinul subțire,
 pentru a îmbunătăți
@@ -87778,8 +86127,6 @@ intestinal. Carența este
 des întâlnită la pacienții
 cu boli digestive.
 
-<!-- Pagina PDF 826 -->
-
 Vitamine din 50 mg dinflecare Necesară pentru
 complexul B vitamină B importantă, o digestie
 de 3 ori pe zi corespunzătoare. Cea
@@ -87888,8 +86235,6 @@ Q Mâncați des și în porții mici; includeți mei bine fiert, orez
 bine fiert, lapte de capră și produse din lapte fermentare,
 ca iaurtul, brânza proaspătă și kefirul. Beți sucuri de orz,
 
-<!-- Pagina PDF 827 -->
-
 grâu și lucernă. Acestea conțin clorofilă, care le face foarte
 eficiente în lupta împotriva ulcerelor.
 Q Dacă aveți ulcere cu sângerări, consumați alimente
@@ -87995,8 +86340,6 @@ subsalicilatul (Pepto-Bismol).
 Q S-a crezut că ulcerele peptice sunt o boală cronică, una
 cu care „trebuie să trăiești toată viața“. Cu toate acestea, este
 
-<!-- Pagina PDF 828 -->
-
 cunoscut faptul că 90% din ulcerele peptice sunt vindeca-
 bile cu un tratament adecvat.
 Q Dacă un ulcer nu se vindecă, doctorul poate face o biop-
@@ -88098,8 +86441,6 @@ ale țesutului membranei
 care
 mucoase.
 sau
-
-<!-- Pagina PDF 829 -->
 
 Vitamina A 25 000 UI zilnic. Dacă Antioxidanți puternici Q
 cu sunteți însărcinată, care ajută la vindecare.
@@ -88203,8 +86544,6 @@ hainele strâmte și pe cele sintetice. După înor, schimbați-vă
 imediat în haine uscate. Nu petreceți foarte mult timp în
 costum de baie.
 Q Pentru a scăpa de mâncărimi, deschideți o capsulă de
-
-<!-- Pagina PDF 830 -->
 
 Q Pentru a trata vaginita, adăugați trei pahare din cidru de
 mere în apa de baie. Stați în apă 20 de minute, pentru ca
@@ -88313,8 +86652,6 @@ persoanele cu imunitatea slăbită din cauza medicamentelor
 sau care au boli ca SIDA, pot face pneumonie sau encefalită,
 o infecție a creierului. Un nou-născut poate face complicații
 
-<!-- Pagina PDF 831 -->
-
 de la varicelă, în special dacă este infectat prenatal sau
 imediat după naștere.
 În afară de cazurile în care există alte indicații speciale,
@@ -88413,8 +86750,6 @@ hidratat cu multă apă sau cu un înlocuitor de electroliți,
 precum Pedialyte, pentru a preveni deshidratarea.
 Q Consultați imediat medicul dacă simptomele sunt ame-
 țeli, febră mai mare de 39,4*C, ritm cardiac crescut, senzație
-
-<!-- Pagina PDF 832 -->
 
 de sufocare, pierdere a coordonării musculare, tremor, comă
 și/sau ceafă rigidă.
@@ -88520,8 +86855,6 @@ esențiali de pe etichetă, și păstrează
 a vasele de sânge
 moi și flexibile.
 
-<!-- Pagina PDF 833 -->
-
 Coenzima Q,, 100 mg zilnic. Îmbunătățește
 oxigenarea țesuturilor,
 șicrește imunitatea.
@@ -88618,8 +86951,6 @@ smirnă. Poate fi folosită pentru a reduce venele varicoase.
 Q Plantele folosite în medicina chineză tradițională și
 care sunt de ajutor în tratamentul varicelor și în atenuarea
 simptomelor sunt floarea de magnolie (Magnolia liliflora,
-
-<!-- Pagina PDF 834 -->
 
 cunoscută și ca xho yi hua), scutellaria (Scutellaria basca-
 lensis), trichosanth (Trichosanthbes kirilowii) și angelica săl-
@@ -88724,8 +87055,6 @@ varice atunci când suferiți de tromboflebită. (Vezi Trombo-
 flebită, Partea a doua, p. 814.)
 și Q Sderoterapia este un tratament recomandat uneori
 pentru vene varicoase. În această procedură, în venă se
-
-<!-- Pagina PDF 835 -->
 
 injectează un iritant, făcând-o să devină nefuncțională, să
 se micșoreze și să dispară. Această procedură implică unele
@@ -88833,8 +87162,6 @@ recomandată. Pentru copii între G și 12 ani, folosiți jumătate
 din doza recomandată, iar pentru copii sub G ani, folosiți un
 sfert din cantitate.
 
-<!-- Pagina PDF 836 -->
-
 SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Dimetilglicină Conform indicațiilor Crește caniitatea
 (DMG) de pe etichetă. de oxigen în creier.
@@ -88927,8 +87254,6 @@ extreme ale poziției corpului.
 Q Limitați cantitatea zilnică de sodiu sub 2 000 mg. Prea
 mult sodiu poate afecta funcția urechii interne.
 Q Evitați alcoolul, cafeina, nicotina și alimentele prăjire.
-
-<!-- Pagina PDF 837 -->
 
 Q Pentru a scăpa de amețeală, așezați-vă pe un scaun, cu
 picioarele pe podea, și concentrați-vă privirea câteva minute
@@ -89033,8 +87358,6 @@ SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII
 Acidophilus Conform mdtcațnlof Reface flora intestinală
 de pe etichetă. normală. Utilizați o
 formulă fără lactoză.
-
-<!-- Pagina PDF 838 -->
 
 Acizi grași Conform indicațiitor Ajută la protejarea
 esențiali de pe etichetă. tractului intestinal,
@@ -89144,8 +87467,6 @@ de UQ Beți mulr suc de papaya.
 trei Q Pentru oxiuri, mâncați pepene galben amar, un pepene în
 formă de castravete. Combate și elimină oxiurii și întărește
 
-<!-- Pagina PDF 839 -->
-
 sistemul imunitar. Consumați unu sau doi pepeni galbeni Q
 timp de 7-10 zile. Repetați cura la două luni, pentru a vă
 asigura de eliminarea totală a paraziților.
@@ -89252,8 +87573,6 @@ acestei boli. Stresul psihic și fizic poate agrava boala. Petele
 depigmentate sunt o problemă în primul rând din punct de
 vedere estetic și sunt foarte vulnerabile la arsuri solare.
 
-<!-- Pagina PDF 840 -->
-
 În afară de cazurile în care există alte indicații speciale,
 dozele recomandare sunt pentru adulți. Pentru copii între
 12 și 17 ani, reduceți doza la trei sferturi din cantitatea
@@ -89354,8 +87673,6 @@ etate. '
 Precauții: Sunătoarea poate provoca o sensibilitate cres-
 cută la lumina solară. Poate, de asemenea, produce anxi-
 etate, simptome gastrointestinale și dureri de cap. Poate
-
-<!-- Pagina PDF 841 -->
 
 interacționa cu unele medicamente, inclusiv cu antidepre-
 sivele, anticoncepționalele și anticoagulantele.
@@ -89462,8 +87779,6 @@ la creier, care sunt interpretate ca dureri severe, mâncărimi
 sau arsuri și făcând pielea mult mai sensibilă decât în mod
 normal. Se estimează că una din cinci persoane care au avut
 varicelă sunt expuse riscului de a face zona zoster. Pentru
-
-<!-- Pagina PDF 842 -->
 
 acele persoane care nu au avut niciodată varicelă, riscul de a
 face zona zoster este foarte mic.
@@ -89576,8 +87891,6 @@ luate. de administrare
 sublinguală, pentru
 să oabsorbție mai rapidă.
 
-<!-- Pagina PDF 843 -->
-
 Calciu 1 500 mg ziinic. Pentru funcționarea
 șivindecarea nervilor
 și pentru a combate
@@ -89680,8 +87993,6 @@ Precauții: Nu folosiți mușețel dacă sunteți alergic la
 ambrozie. Nu folosiți în timpul sarcinii sau dacă alăprați.
 Poate interacționa cu warfarina și ciclosporina, așa că
 pacienții care le folosesc ar trebui să îl evite.
-
-<!-- Pagina PDF 844 -->
 
 Q Rădăcina de astragalus și echinacea stimulează sistemul
 imunitar.
@@ -89790,8 +88101,6 @@ leziunile se usucă și dispar complet în trei până la cinci zile
 după tratament.
 bun O Folosiți remedii homeopatice pentru a calma simpto-
 mele. 4pis mellifica, Arsenicum album, Clematis erect, Iris
-
-<!-- Pagina PDF 845 -->
 
 versicolor și Rhus toxicodendron sunt remedii homeopatice Q
 care ar putea să vă ajute.
@@ -89902,8 +88211,6 @@ combinat cu anestezicul lidocaină reduce durerea cu mai
 mult de 70% la un grup de pacienți, în comparație cu
 grupurile cărora le-a fost administrată doar lidocaină sau o
 
-<!-- Pagina PDF 846 -->
-
 U Cu toate că zona zoster nu este foarte contagioasă,
 persoană cu zona zoster poate infecta cu varicelă persoane
 care nu au avut anterior virusul, în special copii.
@@ -89939,8 +88246,6 @@ calmare a suferințelor produse de zona zoster și de nevralgia
 postherpetică.
 
 
-<!-- Pagina PDF 847 -->
-
 ### Introducere
 
 În partea a doua a acestei cărți au fost recomandate
@@ -89968,8 +88273,6 @@ vă alimentație sănătoasă și cu un program de administrare
 de suplimente nutriționale.
 După parcurgerea acestui capitol, veți putea alege ceea ce
 se potrivește cel mai bine situației dumneavoastră.
-
-<!-- Pagina PDF 848 -->
 
 ## ACUPRESURĂ
 
@@ -90084,8 +88387,6 @@ Folosirea uleiurilor esențiale este foarte simplă. Practic,
 diluați o cantitate mică de ulei esențial într-un recipient care
 conține o bază (poate fi apă sau un alt ulei, în funcție de
 
-<!-- Pagina PDF 849 -->
-
 întrebuințarea lui) și apoi inhalați sau aplicați. Pentru terapia
 prin inhalare, există câteva dispozitive speciale: difuzoare,
 vase pentru aburi, lămpi de aromaterapie sau inele pentru
@@ -90175,8 +88476,6 @@ antiinflamator. Poate promova sănătatea bună a dinților și poate
 Îmbunătățește funcția pulmonară. Folosit ca unguent pentru
 și pentru calmarea înțepăturilor sau mușcăturilor de insecte.
 normalizare.
-
-<!-- Pagina PDF 850 -->
 
 Acționează ca agent antioxidant și a
 Grepiru t baie, NR în produse de ONIR îngrijire corporală
@@ -90276,8 +88575,6 @@ la pacienți E cu colită. NE
 liniștitor.
 anxietatea, relaxează, reduce stresul, normalizează
 arterială. Are efect de armonizare. Poate fi folosit pe piele
-
-<!-- Pagina PDF 851 -->
 
 ## BĂI DE ȘEZUT
 
@@ -90389,8 +88686,6 @@ Pentru a prepara soluția pentru clisma cu ceai de iarba mârei,
 puneți 8 linguri de frunze de iarba măâței uscate Într-un vas
 865
 
-<!-- Pagina PDF 852 -->
-
 emailat sau de sticlă. (Dacă folosiți ceai de iarba mâței la
 plic, utilizați dozele recomandate pe cutie, pentru a face un
 litru din cantitatea de ceai.) Într-o oală separată adăugați un
@@ -90498,8 +88793,6 @@ găsește la magazinele cu produse naturiste) la soluția clismei.
 Dacă nu găsiți formele injectabile ale acestor suplimente,
 deschideți două capsule de vitamine din complexul B și
 
-<!-- Pagina PDF 853 -->
-
 adăugați-le la conținutul soluției clismei, asigurându vă că se
 dizolvă înainte de a începe tratamentul. Puteți să deschideți
 și o capsulă de probiotice și să o adăugați la conținutul
@@ -90604,8 +88897,6 @@ minute. Ridicați-vă și mișcați-vă până veți simți nevoia
 mai de a evacua clisma. Nu folosiți acest tip de clismă zilnic.
 Limitați-vă la doar trei utilizări pe an.
 867
-
-<!-- Pagina PDF 854 -->
 
 ## CONTROLUL DURERII
 
@@ -90721,8 +89012,6 @@ canalele corpului numite meridiane și să ajungă la organe.
 Dacă fluxul de energie este echilibrat, individul este sănătos.
 Dacă acest flux este întrerupt, apar anumite probleme,
 
-<!-- Pagina PDF 855 -->
-
 printre care durerea. Acupunctura este folosită pentru a
 reechilibra fluxul energetic și pentru a reda sănătatea.
 În tratamentul prin acupunctură, terapeutul introduce
@@ -90835,8 +89124,6 @@ gură, revenind în poziția inițială. Reperați de câte ori credeți
 că este necesar sau până vă simțiți mai bine.
 869
 
-<!-- Pagina PDF 856 -->
-
 La fel ca meditația și vizualizarea, hipnoterapia este o
 metodă prin care un terapeut sau un psiholog poate induce
 o stare mentală pozitivă. Terapeutul încearcă să liniștească
@@ -90946,8 +89233,6 @@ trebuie să aveți grijă să nu-i folosiți în timpul sarcinii sau
 în prezența stimulatoarelor cardiace, a pompelor de insulină
 și a defibrilatoarelor automate. Cei care iau anticoagulante
 sau medicamente sub formă de plasturi nu ar trebui să
-
-<!-- Pagina PDF 857 -->
 
 folosească magneți. Țineți magneții departe de computer și
 de dischete sau CD-uri.
@@ -91059,8 +89344,6 @@ pre- Obiectivele masajului sunt să detensioneze musculatura
 a și să promoveze flexibilitatea. Este o metodă eficientă,
 dacă este aplicată înaintea exercițiilor.
 871
-
-<!-- Pagina PDF 858 -->
 
 - Masajul suedez. Este o tehnică dezvoltată de Peter
 Hendricks Ling, la începutul anilor 1800, folosind fră-
@@ -91175,8 +89458,6 @@ durerea. Chiar dacă aplicarea acestei creme poate crea la
 început senzații de arsură, uzul repetat împiedică nervii
 să se reaprovizioneze cu substanță P, iar durerea nu mai
 
-<!-- Pagina PDF 859 -->
-
 este transmisă la creier. În studii, capsaicina a fost folosită
 pentru controlul nevralgiilor, al neuropatiei diabetice, în
 artrita reumatoidă, în osteoartrită și migrene cluster. Pipe-
@@ -91287,8 +89568,6 @@ cronice care nu au răspuns tratamentelor medicinale
 de convenționale.
 873
 
-<!-- Pagina PDF 860 -->
-
 ## TEHNICI DE RELAXARE
 
 Odată ce durerea s-a instalat — provenind din răni sau din
@@ -91398,8 +89677,6 @@ cutanate (TENS) pot fi de ajutor în tratamentul durerilor
 localizate și sunt foarte folosite atât de către doctori, câr și de
 către clinicile de psihoterapie.
 
-<!-- Pagina PDF 861 -->
-
 Terapia TENS poate fifăcută și acasă. Se așază electrozii
 pe piele și se conectează prin fire la unitatea TENS. Sem-
 nalele electrice sunt transmise terminațiilor nervoase și astfel
@@ -91503,8 +89780,6 @@ săptămână, pentru că utilizarea ei pe termen lung poate duce
 la toxicitate. Lobelia va fi administrată doar sub suprave-
 ghere medicală, pentru că este potențial toxică. Persoancele
 875
-
-<!-- Pagina PDF 862 -->
 
 cu hipertensiune arterială, boli de inimă, boli hepatice, boli
 renale, boli care se manifestă prin convulsii sau cu probleme
@@ -91613,8 +89888,6 @@ de psyllium. Amestecați suplimentele cu apă sau suc și
 
 Dacă folosiți plante proaspete pentru cataplasmă, puneți
 50 de grame de plante și o ceașcă de apă într-un vas.
-
-<!-- Pagina PDF 863 -->
 
 Pe o bucată din bumbac, tifon, muselină sau o cârpă
 aplicați soluția obținută. Materialul folosit trebuie să fie
@@ -91725,8 +89998,6 @@ Dacă îndepliniți anumite condiții, multe dintre tehnicile
 de hidroterapie pot fi aplicate și acasă. De exemplu, durerile
 musculare, umflăturile provocate de entorse și de întinderi
 877
-
-<!-- Pagina PDF 864 -->
 
 pot fi atenuate prin aplicarea rapidă a unui obiect rece. Un
 pachet de gheață, alternând o aplicare de 20 de minute cu
@@ -91839,8 +90110,6 @@ de concentrare. Baza sau tinctura-mamă are o putere de
 1x. Pentru a face de puterea 2x, o parte a tincturii de bază
 este atenuată (amestecată) cu 9 părți de alcool și agitată de
 
-<!-- Pagina PDF 865 -->
-
 10ori. Pentru a o face de 3x, oparte din puterea lui 2x este
 amestecată cu alte 9părți de alcool și agitată din nou. Acest
 proces continuă până se obține potența necesară.
@@ -91950,8 +90219,6 @@ schinduful, hreanul, lemnul dulce, lobelia, plămânărica,
 lumânărica, iarba fluturilor, cimbrul, verbina și iarba sfântă
 sunt expectorante care facilitează climinarea mucusului
 
-<!-- Pagina PDF 866 -->
-
 din gâr, plămâni și sinusuri. Aceste plante pot fi folosite
 individual sau în combinație.
 Precauții: Tătăneasa este recomandată doar pentru uz
@@ -92056,8 +90323,6 @@ Alimentele recomandate pentru acest tip de persoane
 includ carnea de vită, usturoiul, ghimbirul, carnea de
 miel și piperul. Alimentele yin sunt reci și au un efect de
 răcoritor, în timp ce alimentele yang au efect de încălzire.
-
-<!-- Pagina PDF 867 -->
 
 Alimentele neutre sunt fasolele negre, varza, morcovii,
 lămâile, orezul și alte alimente din cercale integrale. Aceste
@@ -92169,8 +90434,6 @@ Dacă aveți peste 35 deaani și ați dus o viață sedentară mult
 timp, consultați medicul înainte de a începe orice exercițiu
 sau un program nou de exerciții.
 
-<!-- Pagina PDF 868 -->
-
 ## POST
 
 Odată cu trecerea timpului, toxinele se acumulează în
@@ -92280,8 +90543,6 @@ Urmați postul cu suc, apă și ceai cu o dietă de două zile,
 postului pot fi anihilate compler dacă mâncați hrană
 gătită imediat după ce ați ținut post. Pentru că stomacul și
 
-<!-- Pagina PDF 869 -->
-
 cantitatea de suc gastric se micșorează în timpul postului,
 primele mese trebuie să fie frecvente și reduse cantitativ.
 Plante
@@ -92385,8 +90646,6 @@ folosite la fiert pentru a le consuma după terminarea
 postului. Amintiți-vă că nu este permis nici un aliment solid
 pe parcursul postului.
 
-<!-- Pagina PDF 870 -->
-
 A Din cauza eliminării toxinelor, pe parcursul postului veți
 simți limba încărcată și un gust neplăcut în gură. Pentru a
 combate această problemă, clătiți-vă gura cu suc proaspăt de
@@ -92489,8 +90748,6 @@ liberi care îmbunătățește
 oxigenarea țesuturilor.
 Complex de Conform indicațiilor Furnizează mineralele
 multivitamine de pe etichetă. și vitaminele necesare.
-
-<!-- Pagina PDF 871 -->
 
 cu
 vitamina A Vitamina A este
@@ -92599,8 +90856,6 @@ decarea și curăță sângele.
 - Măceșul este o bună sursă de vitamina C și ajută la
 vindecare.
 
-<!-- Pagina PDF 872 -->
-
 Recomandări
 Q Consultați medicul în legătură cu operațiile cel mai puțin
 invazive, așa cum sunt cele laparoscopice sau endoscopia.
@@ -92702,8 +90957,6 @@ este bun pentru vindecare și reducerea inflamațiilor.
 **Observații**
 U După o intervenție chirurgicală majoră, oamenii sunt
 slăbiți, pentru că li se atrofiază mușchii. Când ajungeți acasă,
-
-<!-- Pagina PDF 873 -->
 
 cea mai bună modalitate de a vă restabili forța musculară și
 tonusul este de a consuma cantitatea adecvată de proteine
@@ -92813,8 +91066,6 @@ gene- făina albă și zahărul — substanțe puternic rafinate și greu de
 de digerat. Stresul la care este supus organismul prin consumul
 887
 
-<!-- Pagina PDF 874 -->
-
 de astfel de mâncăruri poate anihila tot binele produs prin
 post. Ideal ar fi ca aceste tipuri de alimente să fie evitate tot
 timpul. Încercați să le eliminați din alimentație — împreună
@@ -92915,8 +91166,6 @@ mentală de vindecare o reprezintă cele trei 4osha, sau formele
 de bază ale energiei sau principiilor funcționale. Acestea
 sunt vgta (de la eter și aer), pitta (de la apă și foc), kapha (de
 la apă și pământ). Conform principiilor ayurvedice, ele sunt
-
-<!-- Pagina PDF 875 -->
 
 prezente în tot și în toate. Vai4 este energia mișcării. Pitta
 este energia digestiei și a metabolismului. Kzp/4 este energia
@@ -93030,8 +91279,6 @@ de orz, varză, varză creață, frunze de păpădie, spanac și alte
 legume verzi, inclusiv iarbă de grâu. Pentru a îndulci și dilua
 889
 
-<!-- Pagina PDF 876 -->
-
 ## Pregătirea ingredientelor pentru suc
 
 Prepararea sucului este un mod simplu de a face
@@ -93130,8 +91377,6 @@ pete verzi.
 2. Tăiați fiecare cartof în jumătate. Curățați cartofii de
 coajă și lăsați 1,25 cm de miez pe coajă. Opriți mijlocul
 cartofului pentru altă întrebuințare.
-
-<!-- Pagina PDF 877 -->
 
 3. Tăiați coaja de cartofi în bucăți suficient de mici pentru
 a intra în robot. Spălați morcovul sau țelina. Curățați
@@ -93239,8 +91484,6 @@ orez Multe persoane folosesc internetul pentru a cumpăra un
 tratament mai ieftin cu HGH. Din păcate, suplimentele
 891
 
-<!-- Pagina PDF 878 -->
-
 vândute online care susțin că ar conține HGH pur sunt,
 probabil, contrafăcute și nu-și merită banii. Orice cantitate
 de HGH pe care acestea o conțin este mică, prea mică
@@ -93345,8 +91588,6 @@ Ierapia cu lumină ultraviolet. Terapia cu lumină ultra-
 violet este folosită pentru a trata boli precum astmul și
 cancerul, pentru cchilibrarea colesterolului și pentru
 sindromul premenstrual.
-
-<!-- Pagina PDF 879 -->
 
 e Razele ultraviolet A (UVA), care au lungimi de undă mai
 mari decât razele ultraviolet B (UVB) și razele ultraviolet
@@ -93459,8 +91700,6 @@ Din această cauză, atâta timp cât se urmează terapia cu
 ani. precum vitamina C, vitamina E și seleniu, pentru a preveni
 893
 
-<!-- Pagina PDF 880 -->
-
 efectul negativ de oxidare asupra ficatului. O sursă mai bună
 de DHEA ar putea fi 7-Keto DHEA. Această substanță
 joacă același rol ca și DHEA obișnuit în organism, întărind
@@ -93565,8 +91804,6 @@ ale diferitelor organe animale — au ca scop îmbunătățirea
 sănătății glandelor. În plus, suplimentele nutriționale pot
 ajuta la menținerea sănătății acestor glande, asigurând buna
 funcționare a sistemului glandular.
-
-<!-- Pagina PDF 881 -->
 
 ### NUTRIENȚI
 
@@ -93675,8 +91912,6 @@ de pe etichetă. antioxidanți care
 conține SOD.
 895
 
-<!-- Pagina PDF 882 -->
-
 Vitamina E 200 UI zilnic. Scapă organismul de
 toxine, atunci când
 acționează împreună cu
@@ -93779,8 +92014,6 @@ plumbul și mercurul — substanțe care ajung în organism
 prin apă, alimentație sau pe alte căi — și le elimină prin
 excreție. Ele interacționează și cu alte minerale acumulate
 în organism, inhibând efectul unora sau accentuându-l pe
-
-<!-- Pagina PDF 883 -->
 
 al altora. De exemplu, plumbul inhibă efectul calciului, al
 fierului și al potasiului, nutrienți importanți. Când agenții
@@ -93888,8 +92121,6 @@ Usturoi 2 capsule de 2 ori Bun agent de chelare
 pe zi, în timpul mesei. și detoxifiant.
 unor
 897
-
-<!-- Pagina PDF 884 -->
 
 Vitamina A 2o 000UIzilnic. Dacă Ajută la eliminarea
 și carotenoide sunteți însărcinată, mai ușoară a toxinelor.
@@ -94001,8 +92232,6 @@ microminerale, odată cu perfuzia intravenoasă, în funcție de
 afecțiunile individului și de rezultatele analizelor inițiale ale
 flecărei persoane.
 
-<!-- Pagina PDF 885 -->
-
 Recomandări
 A În timpul terapiei prin chelare cu EDTĂ, asigurați-vă
 necesarul de vitamine și minerale prin suplimente, în special
@@ -94111,8 +92340,6 @@ care negre pentru a putea să vă simțiți puternici și încrezători.
 Un Negrul inhibă apetitul. Dacă vreți să scădeți în greutare,
 acoperiți masa cu o față de masă neagră.
 899
-
-<!-- Pagina PDF 886 -->
 
 ## TERAPIE PRIN PIETRE ȘI CRISTALE
 
@@ -94227,8 +92454,6 @@ lent.
 practicantului. Posturile se leagă unele de altele, pentru
 a crea un flux continuu în timpul practicării respirației
 
-<!-- Pagina PDF 887 -->
-
 ujjayi (o tehnică de respirație folosită în mai multe
 practici yoga hinduse și taoiste). Crește rezistența, forța
 și Alexibilitatea. Este destul de solicitant și nu se adresează
@@ -94264,8 +92489,6 @@ energiile organismului și să echilibrezi balanța puterii
 mentale și spirituale. Pozițiile yoga elimină obstrucțiile
 organismului și produc creșterea cnergiei, generând o
 stare de bine și de pace interioară.
-
-<!-- Pagina PDF 888 -->
 
 ## Anexe
 
@@ -94364,8 +92587,6 @@ despre sinergia hranei și practicile tradiționale, puteți afla
 din glosarul atașat acestei secțiuni.
 903
 
-<!-- Pagina PDF 889 -->
-
 ## "GLOSAR
 
 absorbție. În nurriție, proces prin care nutrienții sunt
@@ -94460,8 +92681,6 @@ alilsulfide. Substanțe chimice utile care se găsesc în praz,
 ceapă, usturoi și arpagic și care acționează ca detozifianți ai
 organismului.
 905
-
-<!-- Pagina PDF 890 -->
 
 aminoacid. Oricare dintre cei douăzeci și doi de acizi
 organici care conțin azot (nitrogen), din care sunt făcute
@@ -94567,8 +92786,6 @@ migrenele și boala Raynaud.
 bioflavonoid. Oricare component dintr-un grup de
 flavonoide active biologic. Sunt esențiale pentru stabilitatea
 
-<!-- Pagina PDF 891 -->
-
 și absorbția vitaminei C. Deși, tehnic, nu sunt vitamine,
 uneori sunt numite vitamina P.
 biopsie. Excizie a unui țesut de la o ființă vie, pentru
@@ -94670,8 +92887,6 @@ colesterol. Substanță cristalină solubilă în grăsimi,
 produsă de toate vertebratele. Este un constituent necesar al
 membranelor celulare și facilitează transportul și absorbția
 acizilor grași. Excesul de colesterol este un potențial pericol
-
-<!-- Pagina PDF 892 -->
 
 colică. Durere abdominală acută, provocată de spasmele
 sau obstrucția unor organe sau structuri, în special în
@@ -94775,8 +92990,6 @@ EDTA. Acid etilendiaminotetraacetic. Moleculă
 organică folosită în terapia prin chelare.
 EEG. Electroencefalogramă. Test folosit pentru măsu-
 rarea activității electrice a creierului.
-
-<!-- Pagina PDF 893 -->
 
 EKG. Electrocardiogramă. 'Test de monitorizare
 funcției inimii, care transformă impulsurile electrice asociate
@@ -94884,8 +93097,6 @@ a varză, varză creață și fasole soia. Ajută în perioada de peri-
 menopauză și poate preveni unele forme de cancer.
 909
 
-<!-- Pagina PDF 894 -->
-
 GERD. Boală de reflux gastroesofagian. Termen
 medical pentru un sindrom caracterizat prin frecvente
 indigestii sau arsuri.
@@ -94987,8 +93198,6 @@ ale organismului.
 hormoni bioidentici. Formule special realizate pentru
 femei, conținând diverși hormoni care sunt chimic identici
 cu cei produși în mod natural de către corp.
-
-<!-- Pagina PDF 895 -->
 
 hormon al creșterii umane. Hormonul creșterii
 umane (HGH) este secretat de glanda pituitară (hipofiză)
@@ -95093,8 +93302,6 @@ glicerol, fosfor și colină sau inositol. Toate membranele
 celulelor vii sunt formate, în majoritate, din lecitină.
 911
 
-<!-- Pagina PDF 896 -->
-
 leucemie. Cancer al țesuturilor care produc sânge,
 în special al măduvei osoase și al nodulilor limfatici,
 conducând la un exces de globule albe. Poate fi acută (mai
@@ -95196,8 +93403,6 @@ Exemple sunt membranele din interiorul gurii, al nasului, al
 anusului și al vaginului.
 menopauză. Încetare a menstruației determinată de
 scăderea masivă a producției de hormoni sexuali estrogen
-
-<!-- Pagina PDF 897 -->
 
 patruzeci și cinci de ani sau după îndepărtarea organelor
 reproducătoare ale femeii.
@@ -95302,8 +93507,6 @@ păs- folosind izotopi radioactivi în scopul diagnosticării. Folo-
 sind mai multe tipuri de izotopi pot fi indentificate fluxul
 913
 
-<!-- Pagina PDF 898 -->
-
 de sânge cerebral, volumul sângelui, aportul de oxigen,
 transportul de glucoză, metabolismul glucozei.
 petrolatum. Amestec semisolid de hidrocarburi, cum
@@ -95407,8 +93610,6 @@ sau mai multe legături duble se numesc polinesaturate.
 scratch test. Procedură prin care o cantitate mică de
 alergen suspect este aplicată pe o suprafață mică de piele
 ușor zgâriată ca să se testeze reacția alergică. Se mai numește
-
-<!-- Pagina PDF 899 -->
 
 sebum. Secreție uleioasă produsă de glandele din piele.
 semne vitale. Indicarori de bază ai stării de sănătate a
@@ -95517,8 +93718,6 @@ folosit în cancer, care implică folosirea radiațiilor ionizate,
 de inclusiv raze Ro&ntgen, radiu sau alte substanțe radioactive,
 915
 
-<!-- Pagina PDF 900 -->
-
 ca să distrugă zonele anumite ale țesutului. Numită și
 radioterapie.
 terapie de înlocuire de hormoni. Medicamente care
@@ -95618,8 +93817,6 @@ vitale care trebuie să creeze armonie și echilibru în organism.
 Yin este rece, întuneric și umezeală. Organele yin sunt
 inima, ficatul, rinichii, plămânii și oasele.
 
-<!-- Pagina PDF 901 -->
-
 ## INDICE
 
 Menționăm că prezentul indice nu 636, 653, 680,
@@ -95710,8 +93907,6 @@ de insecte 142, 183-186, 245, 247, 260,
 744, 751, 737, 824—-825, 802, 899, 908
 771, 773, 783, 785, Analize pentru apă 56
 917
-
-<!-- Pagina PDF 902 -->
 
 Anemie 30—33, 44-45, 47, 68, 90, Arsură solară 69, 113,
 94, 142-143, 178, 183-186, 188, 335,717, 727, 850
@@ -95832,8 +94027,6 @@ Boala Machado-Joseph (MJD) 242,
 655, 660, 744, Boala M&nicre 115, 143, 181, 245,
 882, 889 247, 644, 648, 846, 848
 
-<!-- Pagina PDF 903 -->
-
 Boala osoasă Paget 247, 249 Brusture 28-30,
 Boala Paget a mamelonului 250 72, 107, 147,
 Boala Parkinson 31-32, 39, 66, 70, 205, 234, 252,
@@ -95944,8 +94137,6 @@ osteoporoză 38, 41—42, 44, 390, 678, G80, 682—688
 331—337, 664, 803, Cerasomal-cis-9-cetylmyristoleat 86
 Chelie 125, 362, 365
 919
-
-<!-- Pagina PDF 904 -->
 
 Chiropractică 209, 429, 436—437, Compuși organici
 707, 766, 868—809, 909 Conjunctivită 30, 178,
@@ -96063,8 +94254,6 @@ maculară 85, 385, Drojdie 27, 29-33, 41, 43-50, 62,
 496—497, 514, 522, 536, 538, 556,
 385—386, 389 592—593, 599, 610, 629, 646, 670,
 389—-390 717,737,740, 762, 775-776, 781,
-
-<!-- Pagina PDF 905 -->
 
 791, 824-825, 829, 840, 842, 855, Erupții 461, 465,
 908, 909 Erupții cutanate
@@ -96197,8 +94386,6 @@ Glutamină 61, 63, 66, 91, 197, 227,
 73-74, 97, 168, Gută 30, 32, 47, 88, 92, 107, 114,
 417, 490, 555, 118, 130, 143, 145, 149, 200, 202,
 
-<!-- Pagina PDF 906 -->
-
 206-207, 240, 415, 461, 495—498, Hipotensiune ortostatică
 571, 614, 622, 648, 651, 717, 763 290, 399, 517, 522
 Hipotiroidism 28, 46,
@@ -96320,8 +94507,6 @@ Izoleucină 60—61, 67—68, 70, 776
 urinare (cistită) 846, 891—894, 905
 129, 143-145, Îmbunătățire a apei de la robinet 56
 
-<!-- Pagina PDF 907 -->
-
 L Melanom 66,
 Leucemie 39, 75, 143, 262, 312, 441, 450, 594,
 319—320, 326, 330-331, 393, 440, Melatonină 71,
@@ -96440,8 +94625,6 @@ Osteoporoză 28, 35—-36, 38, 41—44,
 păianjeni și înțepături 629—632, 650, 672—673, 675—676,
 102-163, 605 696, 698, 763, 797, 806, 870,
 586, 607—608 891—893, 913
-
-<!-- Pagina PDF 908 -->
 
 Orrăviri 136, 159, 190, 295, 353, Poluare a aerului 71,
 566—567, 570-272, 443, 446, 567
@@ -96565,8 +94748,6 @@ histerectomie Retinită pigmentară 38, 687,
 sarcină 144, Retinopatie diabetică 85, 309, 415,
 491, 580, 687—688, 692
 
-<!-- Pagina PDF 909 -->
-
 Riduri 27, 83, 194, 306, 332, 335, Sindrom al articulației
 583, 638, 640—641, 643, 729-731 mandibulare
 Rinită alergică 165, 304, 473, 658, 599, 758-760
@@ -96685,8 +94866,6 @@ slăbit 197, 286, 439, 890-891
 878, 882—-883 Susan sălbatic 99
 925
 
-<!-- Pagina PDF 910 -->
-
 Tai chi 445, 873 826, 848, 908
 Tărâțe de orez 29, 33, 62, 89, Treonină 61, 69
 185-186, 374 Triptofan 29, 60—62,
@@ -96795,8 +94974,6 @@ Vitamina B, (riboflavină) 29
 299, 303, 303, 316, 341, 372, 404, 415, 613,
 348, 358, 632, 651, 664, 700, 704—705, 709,
 392, 412, 724-—725, 796, 820, 843, 907
-
-<!-- Pagina PDF 911 -->
 
 Y
 Vitamina D 35-36 Yoga

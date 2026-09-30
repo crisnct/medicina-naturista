@@ -2,7 +2,7 @@
 """Rewrite Markdown source files in place, stripping the leading PDF-extraction
 metadata block (source_path, source_sha256, page_count, ...) with the
 repeated title and scaffold headings, external link destinations, e-mail
-addresses, "### Pagina N" page markers, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
+addresses, "### Pagina N" and "<!-- Pagina PDF N -->" page markers, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
 "Vezi și"/"vezi si" cross-references. All cleaning rules live in this file.
 
 Removing the metadata block deletes lines, so line numbers shift for those
@@ -185,12 +185,17 @@ def strip_extraction_metadata(text: str, stem: str | None = None) -> str:
     return "\n".join(rest) + "\n" if rest else ""
 
 
-_PAGE_MARKER_RE = re.compile(r"#{1,6}[ \t]*(?:pagina|page)[ \t]+\d+(?:[ \t]+(?:din|of)[ \t]+\d+)?[ \t]*", re.IGNORECASE)
+_PAGE_LABEL = r"(?:pagina|page)(?:[ \t]+pdf)?[ \t]+\d+(?:[ \t]+(?:din|of)[ \t]+\d+)?"
+_PAGE_MARKER_RE = re.compile(
+    rf"(?:#{{1,6}}[ \t]*{_PAGE_LABEL}|<!--[ \t]*{_PAGE_LABEL}[ \t]*-->)[ \t]*",
+    re.IGNORECASE,
+)
 
 
-# Remove the generated "### Pagina 8" heading lines, plus the blank line that
-# would otherwise be left doubled up where a marker sat between paragraphs.
-# Removes lines, like strip_extraction_metadata().
+# Remove the generated "### Pagina 8" heading lines and "<!-- Pagina PDF 8 -->"
+# comment lines, plus the blank line that would otherwise be left doubled up
+# where a marker sat between paragraphs. Removes lines, like
+# strip_extraction_metadata().
 def strip_page_markers(text: str) -> str:
     kept: list[str] = []
     skip_blank = False
