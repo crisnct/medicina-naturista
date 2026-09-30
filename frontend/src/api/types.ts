@@ -15,7 +15,8 @@ export interface FragmentItem {
   relevancePercent: number | null;
   semanticScore: number | null;
   lexicalScore: number | null;
-  priority: number | null;
+  // Where the condition the patient named was found: in the fragment's title, in its text, or nowhere.
+  conditionMatch: "title" | "text" | null;
   matchLabel: string;
   foundByLexical: boolean;
 }

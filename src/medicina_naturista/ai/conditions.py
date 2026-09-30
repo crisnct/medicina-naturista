@@ -1,8 +1,9 @@
 """Medical-condition dictionary (data/medical_conditions.txt): one condition per
 line, comma-separated — the canonical name first, then its Romanian and
-English synonyms. Used to recognise which condition a query names and to
-expand the query with that condition's other names, so "gout" also finds the
-sections titled "Gută" / "artrită gutoasă"."""
+English synonyms. Used to recognise which conditions a message names (the
+canonical names drive the P1/P2 priorities of ai/search.py, the synonyms widen
+its lexical query), so "gout" also finds the sections titled "Gută" / "artrită
+gutoasă"."""
 from __future__ import annotations
 
 import logging
@@ -21,16 +22,44 @@ logger = logging.getLogger("naturist.conditions")
 # to a term, looser as a last resort when nothing else matched.
 TYPO_CUTOFF = 0.9
 FUZZY_CUTOFF = 0.84
-# At most this many conditions are used to expand one query.
+# At most this many conditions are recognised in one comma-separated segment.
 MAX_MATCHED_CONDITIONS = 2
-# Cap on expansion phrases per query, to keep the lexical query small.
-MAX_EXPANSION_TERMS = 12
 
 
 @dataclass(frozen=True)
 class Condition:
     name: str
     terms: tuple[str, ...]  # canonical name + synonyms, original spelling, no duplicates
+
+
+# One comma-separated expression of a message: the conditions it names and the
+# words of it that are NOT part of a condition's name ("copii" in "gripa la
+# copii"). With no condition, `remainder` is the whole text. When the whole
+# segment is (a near spelling of) one condition, `remainder` is empty.
+@dataclass(frozen=True)
+class QuerySegment:
+    text: str
+    conditions: tuple[Condition, ...]
+    remainder: str
+
+
+# A message split into its comma-separated segments, each with its conditions.
+@dataclass(frozen=True)
+class ResolvedQuery:
+    segments: tuple[QuerySegment, ...] = ()
+
+    # Every condition named by the message, without duplicates, in order of
+    # appearance.
+    @property
+    def conditions(self) -> tuple[Condition, ...]:
+        found = {condition.name: condition for segment in self.segments for condition in segment.conditions}
+        return tuple(found.values())
+
+    # Canonical names of those conditions — exactly what the indexer writes to
+    # chunks.primary_medical_conditions / secondary_medical_conditions.
+    @property
+    def condition_names(self) -> tuple[str, ...]:
+        return tuple(condition.name for condition in self.conditions)
 
 
 def _normalize(value: str) -> str:
@@ -120,12 +149,12 @@ class ConditionDictionary:
             position += matched or 1
         return [self.conditions[index] for index in dict.fromkeys(found)]
 
-    # Conditions the query names, best match first (at most MAX_MATCHED_CONDITIONS):
-    # 1. the whole query equals a term; 2. it is a near-identical spelling of one
-    # (typo); 3. terms appearing as whole words inside
-    # the query, keeping only the longest ones ("adenom de prostata" beats
-    # "adenom"); 4. otherwise the closest term by spelling, to absorb typos.
-    def match(self, query: str) -> list[Condition]:
+    # Indexes of the conditions the query names, best match first (at most
+    # MAX_MATCHED_CONDITIONS): 1. the whole query equals a term; 2. it is a
+    # near-identical spelling of one (typo); 3. terms appearing as whole words
+    # inside the query, keeping only the longest ones ("adenom de prostata"
+    # beats "adenom"); 4. otherwise the closest term by spelling, to absorb typos.
+    def _match_indexes(self, query: str) -> list[int]:
         normalized = _normalize(query)
         if not normalized:
             return []
@@ -146,28 +175,53 @@ class ConditionDictionary:
         close = get_close_matches(normalized, self._terms, n=MAX_MATCHED_CONDITIONS, cutoff=FUZZY_CUTOFF)
         return self._pick([index for term in close for index in self._by_term[term]])
 
-    def _pick(self, indexes: list[int]) -> list[Condition]:
-        unique = list(dict.fromkeys(indexes))[:MAX_MATCHED_CONDITIONS]
-        return [self.conditions[index] for index in unique]
+    def match(self, query: str) -> list[Condition]:
+        return [self.conditions[index] for index in self._match_indexes(query)]
 
-    # Every name (canonical + synonyms) of the conditions the query names; these
-    # decide a fragment's priority at search time (see ai/search.py).
-    def names(self, query: str) -> list[str]:
-        terms: list[str] = []
-        for condition in self.match(query):
-            terms.extend(term for term in condition.terms if term not in terms)
-        return terms
+    @staticmethod
+    def _pick(indexes: list[int]) -> list[int]:
+        return list(dict.fromkeys(indexes))[:MAX_MATCHED_CONDITIONS]
 
-    # Phrases to add to the query for the matched conditions: every name of the
-    # condition except the ones the query already is.
-    def expansions(self, query: str) -> list[str]:
-        normalized = _normalize(query)
-        phrases: list[str] = []
-        for condition in self.match(query):
-            for term in condition.terms:
-                if _normalize(term) != normalized and term not in phrases:
-                    phrases.append(term)
-        return phrases[:MAX_EXPANSION_TERMS]
+    # The words of `text` that are not part of the name of one of the conditions
+    # `indexes` (plain form, no diacritics). When none of the names appears as
+    # words (the segment is a typo or near spelling of the condition as a
+    # whole) the segment is the condition, so nothing is left over.
+    def _remainder(self, text: str, indexes: list[int]) -> str:
+        words = re.findall(r"[^\W_]+", plain(text), flags=re.UNICODE)
+        folded = [_fold_word(word) for word in words]
+        targets = set(indexes)
+        consumed: set[int] = set()
+        position = 0
+        while position < len(folded):
+            length = 0
+            for phrase, owners in self._phrases.get(folded[position], ()):
+                if targets.intersection(owners) and tuple(folded[position:position + len(phrase)]) == phrase:
+                    length = len(phrase)
+                    break
+            consumed.update(range(position, position + length))
+            position += length or 1
+        if not consumed:
+            return ""
+        return " ".join(word for index, word in enumerate(words) if index not in consumed)
+
+    # Split a message at commas into segments and recognise the conditions of
+    # each one on its own, so "gripa, tuse" names both conditions.
+    def resolve(self, query: str) -> ResolvedQuery:
+        segments: list[QuerySegment] = []
+        for part in query.split(","):
+            text = " ".join(part.split())
+            if not _normalize(text):
+                continue
+            indexes = self._match_indexes(text)
+            if indexes:
+                segments.append(QuerySegment(
+                    text=text,
+                    conditions=tuple(self.conditions[index] for index in indexes),
+                    remainder=self._remainder(text, indexes),
+                ))
+            else:
+                segments.append(QuerySegment(text=text, conditions=(), remainder=text))
+        return ResolvedQuery(tuple(segments))
 
 
 @lru_cache(maxsize=4)
@@ -178,7 +232,7 @@ def _load(path: str, mtime_ns: int) -> ConditionDictionary:
 
 
 # The dictionary from settings.conditions_file, reloaded when the file changes.
-# A missing file yields an empty dictionary (no expansion), never an error.
+# A missing file yields an empty dictionary (no condition recognised), never an error.
 def load_dictionary(path: Path | None = None) -> ConditionDictionary:
     path = path or settings.conditions_file
     try:
@@ -193,11 +247,7 @@ def find_conditions(text: str, dictionary: ConditionDictionary | None = None) ->
     return (dictionary or load_dictionary()).find(text)
 
 
-# Expansion phrases for a query, using the configured dictionary.
-def expansions_for(query: str) -> list[str]:
-    return load_dictionary().expansions(query)
-
-
-# All names of the conditions a query names, using the configured dictionary.
-def condition_names_for(query: str) -> list[str]:
-    return load_dictionary().names(query)
+# A message split into segments with the conditions they name, using the
+# configured dictionary.
+def resolve_query(query: str) -> ResolvedQuery:
+    return load_dictionary().resolve(query)

@@ -2,6 +2,8 @@
 
 **Stare:** propus, neimplementat · **Data:** 2026-09-30
 
+**Notă (2026-09-30):** `fit_evidence_to_context()` a fost eliminată de [refactorizarea scorului](fragment-scoring-refactoring-plan.md): bugetul (acum 1.000.000 de caractere, măsurat pe textul dovezilor) este aplicat în `search.rank(max_chars=...)`. Bugetul per furnizor de mai jos se transmite deci prin `Retriever.collect()` către `rank(max_chars=...)`, nu printr-o funcție separată; restul deciziilor rămân valabile.
+
 **Afectează:** secțiunea 9 din [fluxul de generare a raportului final](final-report-generation.md) (`XAIClient.generate()` / `complete_json()` din `src/medicina_naturista/ai/client.py`) și pasul 3.5 (`fit_evidence_to_context()`).
 
 ## 1. Scop

@@ -15,14 +15,14 @@ from reportlab.lib.styles import ParagraphStyle
 
 from medicina_naturista.ai.categories import CategoryNode, CategoryTree
 from medicina_naturista.ai.embedding_model import _normalize_fastembed_metadata
-from medicina_naturista.ai.search import RRF_MAX_SCORE
+from medicina_naturista.ai.search import MAX_SCORE
 from medicina_naturista.web import handlers, main
 from medicina_naturista.reporting import pdf as reports_module
-import medicina_naturista.ai.client as ai_module
 from medicina_naturista.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile
 from medicina_naturista.reporting.pdf import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
+from medicina_naturista.ai import conditions as conditions_module
 from medicina_naturista.ai.conditions import ConditionDictionary, parse_conditions
 from medicina_naturista.ai.retrieval import Retriever, _meaningful_words, consultation_query
 from medicina_naturista.core.sessions import SessionStore
@@ -369,32 +369,19 @@ class WebTests(unittest.TestCase):
         self.assertLess(report.index("    - Supă ușoară cu țelină"), report.index("    - Ceai de ghimbir"))
         self.assertNotIn("• Rețete culinare:\n    - Rețete culinare", report)
 
-    # Verify the fragments shown to the patient are exactly those the AI request
-    # will carry: fit_evidence_to_context keeps the highest-scored prefix that fits
-    # MAX_CONTEXT_CHARS. The budget is applied only there, never in the AI request.
-    def test_fit_evidence_to_context_matches_what_is_sent_to_ai(self):
+    # The AI request applies no context budget of its own: the budget was applied
+    # by rank() when the fragments were selected (see ai/search.py), so the
+    # patient sees exactly the fragments the request carries. It sends every
+    # fragment it is given, best score first.
+    def test_ai_request_sends_every_fragment_it_is_given_best_score_first(self):
         evidence = {
             "E2": {"source": "documents/plan-b.md:20-30", "text": "B" * 300, "score": 0.0100},
             "E1": {"source": "documents/plan-a.md:1-10", "text": "A" * 300, "score": 0.0500},
         }
 
-        with patch.object(ai_module, "MAX_CONTEXT_CHARS", 500), self.assertLogs(
-            "naturist.ai", level="WARNING"
-        ) as captured:
-            fitted = ai_module.fit_evidence_to_context(evidence)
-        self.assertEqual(list(fitted), ["E1"])
-        self.assertIn("entries=2->1", "\n".join(captured.output))
-
-        # The AI request applies no budget of its own: it sends every fragment it
-        # is given, even with a tiny MAX_CONTEXT_CHARS.
         client = XAIClient(settings)
-        with patch.object(ai_module, "MAX_CONTEXT_CHARS", 10):
-            self.assertEqual([entry["id"] for entry in client._evidence_entries(fitted)], ["E1"])
-            self.assertEqual([entry["id"] for entry in client._evidence_entries(evidence)], ["E1", "E2"])
+        self.assertEqual([entry["id"] for entry in client._evidence_entries(evidence)], ["E1", "E2"])
         client.close()
-
-        # Within budget: the very same evidence object comes back untouched.
-        self.assertIs(ai_module.fit_evidence_to_context(evidence), evidence)
 
     # Verify a fragment with no serialized-length budget problem is returned
     # unmodified and in relevance-score order (highest first), independent of
@@ -517,7 +504,7 @@ class WebTests(unittest.TestCase):
         dictionary = ConditionDictionary(parse_conditions(
             "Artrita gutoasa,guta articulara,artrita urica,gout\nAcnee rozacee,rozacee,cuperoza,rosacea\n"
         ))
-        with patch.object(main, "load_dictionary", return_value=dictionary):
+        with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             message = main._condition_identified_message("gout")
             self.assertEqual(message["role"], "assistant")
             self.assertEqual(
@@ -529,10 +516,8 @@ class WebTests(unittest.TestCase):
 
     def test_condition_identified_message_names_both_conditions_when_two_match(self):
         dictionary = ConditionDictionary(parse_conditions("Artrita,arthritis\nArtroza,osteoarthritis\n"))
-        with patch.object(main, "load_dictionary", return_value=dictionary), patch.object(
-            ConditionDictionary, "match", return_value=dictionary.conditions
-        ):
-            content = main._condition_identified_message("artrita artroza")["content"]
+        with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
+            content = main._condition_identified_message("artrita, artroza")["content"]
 
         self.assertIn("**Artrita**", content)
         self.assertIn("**Artroza**", content)
@@ -540,7 +525,7 @@ class WebTests(unittest.TestCase):
 
     def test_condition_without_synonyms_only_names_the_condition(self):
         dictionary = ConditionDictionary(parse_conditions("Acalazie\n"))
-        with patch.object(main, "load_dictionary", return_value=dictionary):
+        with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             content = main._condition_identified_message("acalazie")["content"]
 
         self.assertEqual(content, "✅ Am identificat afecțiunea: **Acalazie**.")
@@ -555,7 +540,7 @@ class WebTests(unittest.TestCase):
 
         dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
         sid, tab = "J" * 43, "tab-condition1"
-        with patch.object(main, "retriever", Empty()), patch.object(main, "load_dictionary", return_value=dictionary):
+        with patch.object(main, "retriever", Empty()), patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = self.client.post(
                 "/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab)
@@ -621,8 +606,7 @@ class WebTests(unittest.TestCase):
     # --- Fragment message building (pure function, no HTTP round trip needed) --
 
     # Verify every fragment carries the same relevance measure (its raw
-    # "score" field, written by Retriever.collect() as hybrid_score from
-    # rank()); the message sorts by that raw score, descending — no separate
+    # "score" field, written by Retriever.collect() from rank()'s score); the message sorts by that raw score, descending — no separate
     # section or ordering rule for any subset of fragments. Each fragment
     # also carries a matchLabel derived from found_by_lexical.
     def test_fragments_message_sorts_by_relevance_score(self):
@@ -630,29 +614,29 @@ class WebTests(unittest.TestCase):
             "C1": {
                 "source": "documents/doc-a.md:1-5",
                 "text": "Scor mic",
-                "score": RRF_MAX_SCORE * 0.1,
+                "score": MAX_SCORE * 0.1,
                 "relevance_percent": 10.0,
                 "found_by_lexical": True,
             },
             "C2": {
                 "source": "documents/doc-z.md:10-15",
                 "text": "Scor mediu z",
-                "score": RRF_MAX_SCORE * 0.5,
+                "score": MAX_SCORE * 0.5,
                 "relevance_percent": 50.0,
                 "found_by_lexical": False,
             },
             "C3": {
                 "source": "documents/doc-a.md:20-25",
                 "text": "Scor mare",
-                "score": RRF_MAX_SCORE,
+                "score": MAX_SCORE,
                 "relevance_percent": 100.0,
                 "found_by_lexical": True,
-                "priority": 1,
+                "condition_in_title": True,
             },
             "C4": {
                 "source": "documents/doc-b.md:1-5",
                 "text": "Scor mediu b",
-                "score": RRF_MAX_SCORE * 0.5,  # tied with C2
+                "score": MAX_SCORE * 0.5,  # tied with C2
                 "relevance_percent": 50.0,
                 "found_by_lexical": True,
             },
@@ -666,9 +650,9 @@ class WebTests(unittest.TestCase):
         self.assertEqual(texts_in_order, ["Scor mare", "Scor mediu z", "Scor mediu b", "Scor mic"])
         self.assertEqual(message["fragments"][0]["relevancePercent"], 100.0)
         self.assertEqual(message["fragments"][0]["matchLabel"], "Găsire Lexicală")
-        self.assertEqual(message["fragments"][0]["priority"], 1)
+        self.assertEqual(message["fragments"][0]["conditionMatch"], "title")
         self.assertEqual(message["fragments"][1]["matchLabel"], "")
-        self.assertIsNone(message["fragments"][1]["priority"])
+        self.assertIsNone(message["fragments"][1]["conditionMatch"])
 
     # A fragment missing found_by_lexical (older cached evidence, or a caller
     # that doesn't set it) must still render — just with an empty matchLabel.
@@ -677,7 +661,7 @@ class WebTests(unittest.TestCase):
             "C1": {
                 "source": "documents/doc-a.md:1-5",
                 "text": "Fragment fără found_by_lexical",
-                "score": RRF_MAX_SCORE,
+                "score": MAX_SCORE,
                 "relevance_percent": 100.0,
             },
         }
@@ -900,9 +884,10 @@ class WebTests(unittest.TestCase):
             response = self.client.get("/api/categories")
         self.assertEqual(response.json(), {"tree": None, "defaultSelection": []})
 
-    # Verify retrieval preserves both reflection and treatment-plan flu fragments
-    # against the real, locally configured index/database.
-    def test_flu_query_retrieves_reflection_fragment_from_internal_dictionary(self):
+    # Verify retrieval against the real, locally configured index/database: the
+    # sections titled with the condition come first (P1), the treatment plan is
+    # among the evidence, and the evidence fits the context budget.
+    def test_flu_query_ranks_titled_sections_first_from_the_real_index(self):
         profile = HealthProfile()
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
@@ -910,31 +895,25 @@ class WebTests(unittest.TestCase):
         evidence = retriever.collect(session)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
-        reflection = next(
-            item for item in evidence.values()
-            if "Marele dict" in item["source"]
-            and "nevoie de odihnă sau de o pauză" in " ".join(item["text"].split())
-        )
-        relative_path, line_range = reflection["source"].removeprefix("documents/").rsplit(":", 1)
-        line_start, line_end = (int(value) for value in line_range.split("-", 1))
-        source_lines = (settings.documents_dir / relative_path).read_text(
-            encoding="utf-8", errors="replace"
-        ).splitlines()
-        source_excerpt = "\n".join(source_lines[line_start - 1:line_end])
-        self.assertIn("nevoie de odihnă sau de o pauză", " ".join(source_excerpt.split()))
+        titled = [item["condition_in_title"] for item in evidence.values()]
+        self.assertTrue(any(titled))
+        self.assertEqual(titled, sorted(titled, reverse=True))
         self.assertTrue(any(
             "Plan tratament naturist" in item["source"]
             and "Tinctură fructe de soc" in item["text"]
             for item in evidence.values()
         ))
+        self.assertLessEqual(sum(len(item["text"]) for item in evidence.values()), settings.max_context_chars)
 
     # Build synthetic rank() output for one query, as rank() returns every fragment.
     @staticmethod
     def _ranked(chunk_id, path, start, end, fraction, lexical=False, text="fără cuvinte comune"):
         return {
             "chunk_id": chunk_id,
-            "hybrid_score": RRF_MAX_SCORE * fraction,
+            "score": MAX_SCORE * fraction,
             "found_by_lexical": lexical,
+            "condition_in_title": False,
+            "condition_in_text": False,
             "source_relative_path": path,
             "line_start": start,
             "line_end": end,
@@ -945,8 +924,8 @@ class WebTests(unittest.TestCase):
     # Verify every candidate rank() returns becomes evidence — there is no
     # relevance_percent floor any more (removed so a large selected category
     # can no longer make a smaller one's fragments disappear from collect()
-    # itself; the only remaining cut is fit_evidence_to_context()'s
-    # MAX_CONTEXT_CHARS budget, downstream of collect(), tested separately).
+    # itself; the only remaining cut is the MAX_CONTEXT_CHARS budget that rank()
+    # applies in SQL, tested in test_search.py).
     def test_collect_keeps_every_candidate_regardless_of_relevance_percent(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")

@@ -2,14 +2,18 @@ import { useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
 
 type LexicalFilter = "all" | "yes" | "no";
+type ConditionFilter = "all" | "title" | "text" | "none";
 
-// Priority is decided per search from the condition the patient named (or its
-// synonyms): 1 = in the fragment's title/path, 3 = in its text, 10 = in neither.
-const PRIORITY_OPTIONS: { value: number; label: string }[] = [
-  { value: 1, label: "1 – afecțiunea e în titlu" },
-  { value: 3, label: "3 – afecțiunea e în text" },
-  { value: 10, label: "10 – afecțiunea lipsește" },
+// Where the condition the patient named was found in the fragment (decided per
+// search): in its title, in its text, or in neither.
+const CONDITION_OPTIONS: { value: Exclude<ConditionFilter, "all">; label: string }[] = [
+  { value: "title", label: "În titlu" },
+  { value: "text", label: "În text" },
+  { value: "none", label: "Lipsește" },
 ];
+
+// Label of the score line for a fragment's condition match; nothing when it has none.
+const CONDITION_LABELS = { title: "Afecțiune în titlu", text: "Afecțiune în text" } as const;
 
 // Semantic-score thresholds, 0.05 to 0.95 in steps of 0.05 (integer math avoids float drift).
 const SEMANTIC_OPTIONS = Array.from({ length: 19 }, (_, i) => (i + 1) * 0.05).map((value) => Number(value.toFixed(2)));
@@ -20,13 +24,13 @@ function fileName(path: string): string {
   return path.split("/").pop() || path;
 }
 
-// Keep only fragments matching every active filter (score, priority, lexical
+// Keep only fragments matching every active filter (score, condition, lexical
 // match, source document); each filter left at its "no restriction" value
 // passes everything.
 function applyFilters(
   fragments: FragmentItem[],
   minScore: number,
-  priority: "all" | number,
+  condition: ConditionFilter,
   lexical: LexicalFilter,
   document: "all" | string,
   minSemantic: number,
@@ -35,7 +39,7 @@ function applyFilters(
     if (minScore > 0 && (fragment.relevancePercent ?? 0) < minScore) return false;
     // Strictly greater than the threshold; fragments without a semantic score never pass.
     if (minSemantic > 0 && !((fragment.semanticScore ?? -Infinity) > minSemantic)) return false;
-    if (priority !== "all" && fragment.priority !== priority) return false;
+    if (condition !== "all" && (fragment.conditionMatch ?? "none") !== condition) return false;
     if (lexical !== "all" && fragment.foundByLexical !== (lexical === "yes")) return false;
     if (document !== "all" && fragment.document !== document) return false;
     return true;
@@ -46,7 +50,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   const [open, setOpen] = useState(false);
   const [minScore, setMinScore] = useState(0);
   const [minSemantic, setMinSemantic] = useState(0);
-  const [priority, setPriority] = useState<"all" | number>("all");
+  const [condition, setCondition] = useState<ConditionFilter>("all");
   const [lexical, setLexical] = useState<LexicalFilter>("all");
   const [documentFilter, setDocumentFilter] = useState<"all" | string>("all");
 
@@ -62,12 +66,14 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   );
 
   const filtered = useMemo(
-    () => applyFilters(message.fragments, minScore, priority, lexical, documentFilter, minSemantic),
-    [message.fragments, minScore, priority, lexical, documentFilter, minSemantic],
+    () => applyFilters(message.fragments, minScore, condition, lexical, documentFilter, minSemantic),
+    [message.fragments, minScore, condition, lexical, documentFilter, minSemantic],
   );
   // Only the documents behind the fragments still visible after filtering.
   const documents = [...new Set(filtered.map((fragment) => fragment.document))];
-  const filtersActive = minScore > 0 || minSemantic > 0 || priority !== "all" || lexical !== "all" || documentFilter !== "all";
+  // Characters of the fragment texts currently shown (after filtering).
+  const totalChars = filtered.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString("ro-RO");
+  const filtersActive = minScore > 0 || minSemantic > 0 || condition !== "all" || lexical !== "all" || documentFilter !== "all";
 
   return (
     <details className="fragments-panel-inner" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
@@ -99,13 +105,10 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
             </select>
           </label>
           <label className="fragments-panel-filter">
-            Prioritate
-            <select
-              value={priority}
-              onChange={(event) => setPriority(event.target.value === "all" ? "all" : Number(event.target.value))}
-            >
+            Afecțiune
+            <select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
               <option value="all">Toate</option>
-              {PRIORITY_OPTIONS.map(({ value, label }) => (
+              {CONDITION_OPTIONS.map(({ value, label }) => (
                 <option key={value} value={value}>
                   {label}
                 </option>
@@ -148,7 +151,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
             if (fragment.relevancePercent !== null) scoreParts.push(`Scor relevanță: ${Math.round(fragment.relevancePercent)}%`);
             if (fragment.semanticScore != null) scoreParts.push(`Scor semantic: ${fragment.semanticScore.toFixed(2)}`);
             if (fragment.lexicalScore != null) scoreParts.push(`Scor lexical: ${fragment.lexicalScore.toFixed(2)}`);
-            if (fragment.priority !== null) scoreParts.push(`Prioritate ${fragment.priority}`);
+            if (fragment.conditionMatch !== null) scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
             if (fragment.matchLabel) scoreParts.push(fragment.matchLabel);
             return (
               <div className="fragments-panel-fragment" key={index}>
@@ -165,8 +168,8 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
         )}
         <p className="fragments-panel-summary">
           {filtersActive
-            ? `Afișate: ${filtered.length} din ${message.fragmentsCount} fragmente (filtrate), din ${documents.length} documente.`
-            : `Total: ${message.fragmentsCount} fragmente din ${message.documentsCount} documente.`}
+            ? `Afișate: ${filtered.length} din ${message.fragmentsCount} fragmente (filtrate), din ${documents.length} documente, ${totalChars} caractere.`
+            : `Total: ${message.fragmentsCount} fragmente din ${message.documentsCount} documente, ${totalChars} caractere.`}
         </p>
       </div>
     </details>

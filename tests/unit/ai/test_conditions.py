@@ -58,17 +58,48 @@ class MatchTests(unittest.TestCase):
         self.assertEqual(self.names("  ?! "), [])
 
 
-class ExpansionTests(unittest.TestCase):
+class ResolveTests(unittest.TestCase):
     def setUp(self):
-        self.dictionary = ConditionDictionary(parse_conditions(SAMPLE))
+        self.dictionary = ConditionDictionary(parse_conditions(SAMPLE + "Tuse,cough\n"))
 
-    def test_expansion_lists_the_other_names_but_not_the_query_itself(self):
-        expansions = self.dictionary.expansions("gout")
+    def segments(self, query):
+        return [
+            (segment.text, [item.name for item in segment.conditions], segment.remainder)
+            for segment in self.dictionary.resolve(query).segments
+        ]
 
-        self.assertEqual(expansions, ["Artrita gutoasa", "guta articulara", "artrita urica"])
+    def test_a_segment_that_is_the_condition_has_nothing_left_over(self):
+        self.assertEqual(self.segments("gout"), [("gout", ["Artrita gutoasa"], "")])
 
-    def test_no_expansion_without_a_match(self):
-        self.assertEqual(self.dictionary.expansions("durere de cap"), [])
+    def test_words_around_the_condition_name_are_the_remainder(self):
+        self.assertEqual(
+            self.segments("tratament pentru adenom de prostata la barbati"),
+            [("tratament pentru adenom de prostata la barbati", ["Adenom de prostata"], "tratament pentru la barbati")],
+        )
+
+    def test_a_misspelled_condition_is_the_whole_segment(self):
+        self.assertEqual(self.segments("artrita gutosa"), [("artrita gutosa", ["Artrita gutoasa"], "")])
+
+    def test_each_comma_separated_segment_is_recognised_on_its_own(self):
+        resolved = self.dictionary.resolve("Artrita, tuse")
+
+        self.assertEqual(resolved.condition_names, ("Artrita", "Tuse"))
+        self.assertEqual(self.segments("durere de cap, tuse"), [
+            ("durere de cap", [], "durere de cap"),
+            ("tuse", ["Tuse"], ""),
+        ])
+
+    def test_condition_names_are_canonical_and_unique(self):
+        resolved = self.dictionary.resolve("gout, artrita urica")
+
+        self.assertEqual(resolved.condition_names, ("Artrita gutoasa",))
+
+    def test_empty_segments_and_wordless_messages_resolve_to_nothing(self):
+        self.assertEqual(self.dictionary.resolve("  ?! , ,").segments, ())
+        self.assertEqual(self.dictionary.resolve("").condition_names, ())
+
+    def test_message_without_a_condition_keeps_its_text(self):
+        self.assertEqual(self.segments("durere de cap"), [("durere de cap", [], "durere de cap")])
 
 
 class FileLoadingTests(unittest.TestCase):
@@ -76,19 +107,19 @@ class FileLoadingTests(unittest.TestCase):
         result = conditions.load_dictionary(Path(tempfile.gettempdir()) / "definitely-missing-conditions.txt")
 
         self.assertEqual(result.conditions, [])
-        self.assertEqual(result.expansions("gout"), [])
+        self.assertEqual(result.resolve("gout").condition_names, ())
 
     def test_file_is_loaded_and_reloaded_when_it_changes(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "conditions.txt"
             path.write_text("Guta,gout\n", encoding="utf-8")
-            self.assertEqual(conditions.load_dictionary(path).expansions("gout"), ["Guta"])
+            self.assertEqual(conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout"))
 
             path.write_text("Guta,gout,podagra\n", encoding="utf-8")
             import os
             os.utime(path, ns=(path.stat().st_atime_ns, path.stat().st_mtime_ns + 5_000_000_000))
 
-            self.assertEqual(conditions.load_dictionary(path).expansions("gout"), ["Guta", "podagra"])
+            self.assertEqual(conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout", "podagra"))
 
     def test_shipped_dictionary_parses(self):
         text = conditions.settings.conditions_file.read_text(encoding="utf-8")

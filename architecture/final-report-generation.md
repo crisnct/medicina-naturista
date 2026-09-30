@@ -36,39 +36,32 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 - **3.1.** Identifică sesiunea și obține blocarea exclusivă.
 - **3.2.** Dacă mesajul a fost o cerere de e-mail (`email_request_handled`), resetează indicatorul și se oprește fără căutare.
 - **3.3.** Dacă profilul nu conține o problemă de sănătate, adaugă mesajul „Descrieți problema de sănătate înainte de căutare” și se oprește.
-- **3.4.** Apelează `Retriever.collect(session)` (secțiunile 4–5).
-- **3.5.** Aplică `fit_evidence_to_context()`: păstrează cel mai bine punctat prefix de fragmente care încape în `MAX_CONTEXT_CHARS` (2.400.000 de caractere). Aceasta este singura aplicare a limitei, astfel încât pacientul vede exact ce va primi AI-ul.
+- **3.4.** Apelează `Retriever.collect(session)` (secțiunile 4–6). Bugetul `MAX_CONTEXT_CHARS` (1.000.000 de caractere) este aplicat acolo, în `rank()`, o singură dată, astfel încât pacientul vede exact ce va primi AI-ul.
 - **3.6.** Dacă nu rămâne niciun fragment: `pending_evidence=None`, mesaj „Nu am găsit fragmente relevante în sursele locale” și panoul „Generează rețeta” rămâne ascuns.
 - **3.7.** Altfel, stochează fragmentele în `session.pending_evidence`, adaugă în chat panoul HTML al fragmentelor (`_fragments_panel_html()`) și afișează panoul cu butonul „💊 Generează rețeta”.
 
 ## 4. Construirea interogărilor și rularea retrieval-ului — `Retriever.collect()`
 
 - **4.1.** `consultation_query()` folosește **întreaga problemă de sănătate** ca interogare unică; istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect.
-- **4.2.** Interogarea este unică (`N = 1`): nu se mai construiește o a doua interogare din cuvintele sortate alfabetic, deoarece nu aducea fragmente noi și dubla costul căutării.
-- **4.2a.** `expansions_for()` caută în dicționarul de afecțiuni (`data/medical_conditions.txt`) afecțiunea numită de interogare și întoarce celelalte denumiri ale ei; vezi `fragment-search-and-scoring.md`, pasul 1.3.
-- **4.3.** Apelează `rank()` (secțiunea 5), care întoarce doar **candidații** (cel mult `SEARCH_CANDIDATE_LIMIT` per semnal, implicit 100), fiecare cu `hybrid_score`.
-- **4.4.** Scorul unui fragment este `hybrid_score`-ul întors de `rank()`; nu se combină cu alte interogări. Se reține și dacă a fost găsit lexical.
+- **4.2.** `rank()` împarte mesajul la virgulă în expresii și recunoaște afecțiunile fiecărei expresii în dicționarul `data/medical_conditions.txt` (`resolve_query()`); vezi [fragment-search-and-scoring.md](fragment-search-and-scoring.md), secțiunea 1.
+- **4.3.** Apelează `rank()` (secțiunea 5), care dă scor **tuturor** fragmentelor (fără limită de candidați per semnal) și întoarce, în ordinea scorului, fragmentele care încap în `MAX_CONTEXT_CHARS`.
 
-## 5. Retrieval hibrid pentru o interogare — `search.rank()`
+## 5. Scorul fragmentelor într-o singură interogare — `search.rank()`
 
-- **5.1.** Citește modelul de embedding și dimensiunea vectorilor din `sync_metadata` (Postgres).
-- **5.2.** Încarcă modelul FastEmbed (ONNX) din `data/model_cache` (offline, în cache pe proces).
-- **5.3.** Generează vectorul E5 al interogării cu prefixul `query: ` și îl normalizează L2.
-- **5.4.** Semnalul semantic: primii `SEARCH_CANDIDATE_LIMIT` (100) vecini după similaritate, calculați exact în Postgres (`pgvector`, operatorul `<#>`, fără index aproximativ); se citesc doar id-urile.
-- **5.5.** Semnalul lexical: cuvintele relevante ale interogării (fără cuvintele generice și cele sub 3 caractere) devin potriviri pe prefix (`stem:*`), cu ȘI între cuvinte. Prefixul acoperă flexiunile (genunchi/genunchiului) fără reindexare. Segmentele separate prin virgulă se combină prin SAU. Dacă potrivirea strictă găsește sub 10 fragmente, se adaugă și potrivirea „oricare cuvânt”.
-- **5.6.** Semnalul de titlu: fragmentele al căror titlu sau a căror cale conține cuvintele interogării, ordonate după similaritate.
-- **5.7.** Scorul prin Reciprocal Rank Fusion, `k=60`: suma termenilor `1/(60+rang)` pentru fiecare semnal care a găsit fragmentul. Un fragment găsit doar de un semnal primește doar termenul acestuia.
-- **5.8.** Se aduc din Postgres textele doar pentru uniunea candidaților, sortați descrescător după `hybrid_score`, cu `found_by_lexical`, `found_by_heading`, similaritatea semantică, calea sursei, intervalul de linii, titlul și textul.
-- **5.9.** `RRF_MAX_SCORE = 3/(k+1)` (trei semnale) este scorul maxim posibil și servește drept plafon pentru procentul de relevanță.
+- **5.1.** Citește modelul de embedding din `sync_metadata`, încarcă modelul FastEmbed (ONNX, în cache pe proces) și generează vectorul E5 al interogării, cu prefixul `query: `, normalizat L2.
+- **5.2.** O singură interogare SQL calculează, pentru fiecare fragment: **P1** (afecțiunea în `primary_medical_conditions`), **P2** (în `secondary_medical_conditions`), **L** (scorul lexical `ts_rank_cd`, relativ la cel mai bun din căutare) și **V** (similaritatea semantică rescalată între mediană și maxim).
+- **5.3.** `score = 8·P1 + 4·P2 + 2·L + V`, cu maximum `MAX_SCORE = 15`. Detaliile formulei și ale garanțiilor de prioritate sunt în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
+- **5.4.** Fragmentele se sortează descrescător după scor, apoi după `chunk_id`; cele cu scor 0 nu intră în rezultat.
+- **5.5.** Suma cumulată a caracterelor de dovadă (text plus prefixul `Secțiune: <titlu>`) se calculează în SQL; se păstrează doar prefixul care încape în `MAX_CONTEXT_CHARS`, deci fragmentele de la coadă se elimină întregi.
 
 ## 6. Selecția și asamblarea dovezilor — `Retriever.collect()`
 
-- **6.1.** Calculează `relevance_percent = hybrid_score / RRF_MAX_SCORE × 100`.
-- **6.2.** Nu se aplică niciun prag pe `relevance_percent` — toți candidații întorși de `rank()` devin dovezi. Singura selecție rămasă e bugetul `MAX_CONTEXT_CHARS`, la pasul 7, comună panoului din UI și cererii către AI.
+- **6.1.** Calculează `relevance_percent = score / MAX_SCORE × 100`.
+- **6.2.** Toate fragmentele întoarse de `rank()` devin dovezi. Singura selecție este bugetul `MAX_CONTEXT_CHARS`, aplicat în `rank()` și comun panoului din UI și cererii către AI.
 - **6.3.** Fragmentele nu se unesc: fiecare rămâne o dovadă separată.
 - **6.4.** Ordonează dovezile după scor, descrescător.
 - **6.5.** Textul dovezii este textul fragmentului, prefixat cu `Secțiune: <titlu>` când există (`_context()`).
-- **6.7.** Fiecare dovadă primește ID-ul `C<chunk_id>` și conține `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text`, `score`, `relevance_percent` și `found_by_lexical`.
+- **6.7.** Fiecare dovadă primește ID-ul `C<chunk_id>` și conține `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text`, `score`, `relevance_percent`, componentele scorului (`lexical_score`, `semantic_score`), `condition_in_title`, `condition_in_text` și `found_by_lexical`.
 - **6.8.** Înregistrează în log numărul de candidați, dovezi, caractere și surse unice.
 
 ## 7. Afișarea fragmentelor pacientului — `_fragments_panel_html()`
@@ -149,9 +142,8 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 ```text
 Mesajul utilizatorului („Trimite”)
     -> profilul sesiunii (problema înlocuiește contextul anterior)
-    -> retrieval hibrid local (semantic E5 + lexical FTS5, RRF)
-    -> îmbinarea fragmentelor vecine (fără filtrare pe relevanță)
-    -> limitare la MAX_CONTEXT_CHARS (singurul filtru)
+    -> scor local pentru toate fragmentele: 8·P1 + 4·P2 + 2·L + V
+    -> limitare la MAX_CONTEXT_CHARS (fragmente întregi, de la coadă)
     -> panou cu fragmentele găsite, afișat pacientului (fără AI)
     -> „Generează rețeta” (doar owner)
     -> o singură cerere structurată către xAI, cu exact fragmentele afișate

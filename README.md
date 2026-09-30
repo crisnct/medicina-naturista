@@ -25,8 +25,8 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 |---|---|
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori E5 de 384 dimensiuni, stocați în Postgres (`pgvector`). |
 | **Index lexical** | Găsește termeni exacți prin `tsvector`/`ts_rank_cd` în Postgres. |
-| **Fuziune RRF** | Combină clasamentele semantic și lexical prin Reciprocal Rank Fusion. |
-| **Retriever medical** | Combină căutarea exactă, semantică și lexicală, apoi aplică pragul de relevanță și prioritățile medicale. |
+| **Scor combinat** | Fiecare fragment primește un singur scor: `8·P1 + 4·P2 + 2·L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
+| **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
 | **Livrare e-mail** | Poate trimite raportul prin Gmail API cu OAuth2, dacă este configurat. |
@@ -40,7 +40,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
         ↓
 🧠 embeddings E5  +  🔎 tsvector, în Postgres/pgvector
         ↓
-⚖️ fuziune RRF și prioritizarea dovezilor
+⚖️ scor combinat P1 › P2 › lexical › semantic și bugetul de context
         ↓
 👁️ utilizatorul verifică fragmentele găsite
         ↓
@@ -59,7 +59,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Interfață și API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
 | **Embeddings locale** | FastEmbed, ONNX Runtime, `intfloat/multilingual-e5-small` |
 | **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
-| **Fuziunea rezultatelor** | Reciprocal Rank Fusion — RRF (`k=60`) |
+| **Scorul fragmentelor** | `8·P1 + 4·P2 + 2·L + V`, cu priorități stricte pentru afecțiunea din titlu și din text |
 | **Generare AI** | xAI Responses API, răspuns JSON structurat |
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
@@ -73,7 +73,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → fragmente → embeddings → FTS5 → publicarea atomică a indexului. |
 | 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează rețeta” (owner) → xAI → PDF → download și trimitere pe e-mail către altă persoană. |
-| 🔎 [Căutarea, unirea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: interogări → rank hibrid RRF → procent de relevanță → filtrare → unirea vecinilor → limitarea contextului. |
+| 🔎 [Căutarea, unirea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor `8·P1 + 4·P2 + 2·L + V` pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 
 ## 📁 Structura proiectului
 
@@ -229,7 +229,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `MAX_CONTEXT_CHARS` | `2400000` | Dimensiunea maximă (în caractere, serializat JSON) a fragmentelor trimise către AI; fragmentele cu scor mai mic care nu încap sunt eliminate și nu apar în UI. Nu mai există un prag de relevanță separat — toate fragmentele găsite sunt candidate, iar acest buget e singurul loc unde unele sunt eliminate. |
+| `MAX_CONTEXT_CHARS` | `1000000` | Dimensiunea maximă (în caractere de text al fragmentelor) a fragmentelor afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
