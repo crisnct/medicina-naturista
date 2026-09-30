@@ -118,7 +118,7 @@ Dacă este consumat în cantități prea mari, Lactobacillus casei poate produce
 Fortificarea sistemului imunitar
 - Bacteriile bune și cele patogene pătrund în corp prin aerul inspirat și alimente. Totuși dacă ai un sistem imunitar foarte bun, bacteriile patogene vor fi invinse. Iată ce suplimente sunt bune pentru fortificarea sistemului imunitar: vitamina C, zinc, bioflavonoide, tinctură de Echinaceea, tinctură de propolis, probiotice diverse, probiotic Loroblis(se ia zilnic pe toată perioada iernii), Luivac(supliment pentru instruirea sistemului imunitar de a lupta cu vreo 7 tipuri de patogeni), alimentație bogată în vitamine.
 
-Antibiotice naturale
+## Antibiotice naturale
 Cele mai puternice antibiotice naturale:
 - ulei esențial de cuișoare: 10 pic x 2-3 ori pe zi, diluat cu ulei de floarea-soarelui
 - ulei esențial de cimbru: 10 pic x 2-3 ori pe zi, diluat cu ulei de floarea-soarelui
@@ -131,9 +131,10 @@ Cele mai puternice antibiotice naturale:
 - argintul coloidal: gargară 2 min cu o lingură de argint coloidal diluată în apă de 3 ori pe zi.
 (dozele de mai sus sunt pentru adulți)
 
+## Bacteriofagii
+
 Bacteriile sunt microorganisme foarte simple ce constă într-o singură celulă și conform acad. dr. Ovidiu Bojor, acestea nu se pot adapta la substanțele antibiotice aflate în natură, datorită complexității foarte mari a acestor substanțe. Cea mai mare problemă a antibioticelor de sinteză din ziua de azi este că sunt foarte simple, constă într-o singură substanță iar bacteriile se pot adapta ușor. În cazul uleiului esențial de cimbru, de exemplu, bacteriile nu se pot adapta și nu se vor putea adapta vreodata, însă problema cu acest ulei este că nu poate să distrugă orice bacterie patogenă.
 
-Bacteriofagii
 - Exista virusuri numiți bacteriofagi care pot distruge orice bacterii, inclusiv pe cele rezistente la antibiotice și pe cele care și-au format biofilm. Bacteriofagii se găsesc în sol, canalizări, bălți, apă de mare, apă de ocean. Deci data viitoare când mergi la mare ia o gură din mare. E suficient cât să introduci în corpul tău miliarde de bacteriofagi care se vor înmulți și îți vor distruge bacteriile. Doar în Rusia terapia cu bacteriofagi este permisă iar medicii chiar recomandă așa ceva. În România nu este permisă pentru că țara noastră este aliniată la standardele medicale impuse de FDA din Statele Unite. Iar FDA-ul încă nu a aprobat terapia cu bacteriofagi.
 - Viruși vs virusuri. În medicină se folosește termenul de virusuri, iar în IT se folosește termenul de viruși.
 
@@ -237,18 +238,3 @@ World of bacteria - the science behind microorganisms
 
 
 Enterobacter cloacae
-
-
-
-## Subsol 1
-
-7
-
-## Imagini și OCR
-
-### Imagine 1 image1.png
-
-- Dimensiune: 586 × 430 px
-- SHA-256: `46dff931ffc005bc5875c4301c20234fed0d17595a3672351859dcef787ba382`
-
-_OCR-ul local nu a recuperat text suficient de fiabil din această imagine._

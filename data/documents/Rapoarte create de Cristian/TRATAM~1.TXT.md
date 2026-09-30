@@ -1,6 +1,9 @@
-Tratamente si recomandari din domeniul medicinei naturale
+# Tratamente si recomandari din domeniul medicinei naturale
 
-Hipercolesterolemie. Recomandari.
+## Afecțiuni și recomandări
+
+
+## Hipercolesterolemie. Recomandari.
 
 - frunze de Anghinare
 - Ceai verde
@@ -24,7 +27,7 @@ Aliment~Colesterol(mg/100g) creier vitel~2000 carne porc, untura~350 slanina~57 
 
 - ficatul fabrica colesterolul din grasimile simple pe care omul le ingera. Numai grasimile alterate si cele care au fost incinse duc la cresterea exagerata a acestuia
 
-Bitter suedez:
+### Bitter suedez:
 
 - frunze de Aloe - 10g
 - rasina de Brad - 5g
@@ -42,7 +45,7 @@ Bitter suedez:
 
 Amestecul se pune la macerat intr-o sticla de 2l la intuneric si caldura timp de 14 zile. Indicatii: eczeme, balonari, dureri abdominale, colici biliare, constipatie, diaree, febra, astenie, rani, arsuri, contuzii, reumatism, muscatura de animale si insecte, alcoolism, seboree, ateroscleroza, indigestie, dureri acute. Administrare: 1-5 lingurite x 2-3 ori / zi
 
-Tuberculoza. Recomandari.
+## Tuberculoza. Recomandari.
 
 - infuzie din frunze si flori de Podbal, radacina de Tataneasa (infuzia se face cu lapte ), flori de Tei, flori de Boz negru, radacina de Pir, flori de Lumanarica
 - decoct din coaja de Salcie, Trei-frati-patati, Coada-calului
@@ -58,49 +61,49 @@ Tuberculoza. Recomandari.
 - usturoi
 - pasta de Trandafiri: 100g petale + 150g miere de salcam; se iau 2 linguri pe zi. Se pastreaza maxim doua saptamani la frigider
 
-Coxartroza. Tratament.
+## Coxartroza. Tratament.
 
 - aspirina tamponata (2-6 comprimate pe zi) si alte medicamente antiinflamatorii
 
-Reumatism. Recomandari
+## Reumatism. Recomandari
 
 - Antinevralgic(aspirina+cafeina+fenacetina), Codamin, Fasconal, Piafen, Metionina
 - tinctura de iod (numai pentru uz extern)
 - unguente si bai cu parafina
 - ceai: frunze de Coacaz 100g + frunze de Frasin 50g + Cretusca/Barba caprei 50g. Se face infuzie din o lingura la o cana. Se beau 3 - 4 cani pe zi.
 
-Ateroscleroza. Alimente interzise:
+## Ateroscleroza. Alimente interzise:
 
 - Varza, Fasole, Mazare, Nuci, Alune, alcool, grasimi, zahar
 
-Carii. Recomandari
+## Carii. Recomandari
 
 - fluorul si molibdenul ajuta impotriva cariilor
 
-Constipatie:
+## Constipatie:
 
 - ulei de parafina
 - bicarbonat de sodiu 15g + citrat de sodiu 20g + solfat de sodiu 25g; se ia o lingurita dupa mese dizolvata intr-un pahar cu apa
 - contraindicate: ciocolata, cacao, orez, carne
 
-Chelie rotunda sau in cuiburi. Recomandari
+## Chelie rotunda sau in cuiburi. Recomandari
 
 - 500 ml alcool 96 grade + 100g frunze de Condurul doamnei + 100g frunze de Urzica mica + 10g rizom de Coada racului. Se face tinctura cu care se unge pielea capului
 - otet de flori de Albastrele
 
-Acnee. Recomandari
+## Acnee. Recomandari
 
 - Sofran indian(radacina de Curcuma) 1p + Lemn-dulce 1p. Plantele se macina fin si se amesteca cu putina apa, dupa care se aplica pe fata
 
-Dureri de spate. Recomandari
+## Dureri de spate. Recomandari
 
 - se palica o pasta facuta din Ghimbir si apa, iar apoi se unge pielea cu ulei de Eucalipt
 
-Raceala. Recomandari
+## Raceala. Recomandari
 
 - uleiul de Eucalipt (inhalatii, frectie, uz intern: 1-2 picaturi cu zahar)
 
-Artertite/artrite. Recomandari
+## Artertite/artrite. Recomandari
 
 - se vor evita fumatul, alcoolul si baile fierbinti
 - se va consuma mult usturoi
@@ -110,30 +113,30 @@ Artertite/artrite. Recomandari
 - aspirina
 - alimente care trebuie evitate: laptele, branza, porumbul, carnea rosie, faina, cafea, zahar, sare, condimentre, conservanti, aditivi, acid uric
 
-Obezitate. Recomandari
+## Obezitate. Recomandari
 
 - ajuta foarte fult potasiul
 - Salvia asociata cu Cicoarea dizolva depozitele de grasime
 
-### Litiaza/Calculoze urinare
+## Litiaza/Calculoze urinare
 
 - se ia dimineata pe stomacul gol o lingurita de apa de vita de vie
 - pentru pietre ka rinichi: radacina de Maces, Lamaia
 
-Pitiriazis versicolor. Tratament:
+## Pitiriazis versicolor. Tratament:
 
 - solutie de uz extern din aspirina si apa
 - unguent Biazol
 
-Vertije. Tratament:
+## Vertije. Tratament:
 
 - citrat de sodiu
 
-Hiperaciditate gastrica. Recomandari
+## Hiperaciditate gastrica. Recomandari
 
 - drojdia de bere
 
-Afectiuni cardiovasculare. Tratament general
+## Afectiuni cardiovasculare. Tratament general
 
 - 300g frunze de Aloe + 120g zahar brun + 700ml vodca. Amestecul se macereaza 21 de zile. Se ia cate o lingura pe zi cu suc de lamaie
 
@@ -141,15 +144,15 @@ Eczeme. Recomadari
 
 - unguent din muguri de Pin si Plop negru
 
-### Epuizare psihica
+## Epuizare psihica
 
 - sunt recomandate Curmalele
 
-### Acuitatea vederii
+## Acuitatea vederii
 
 - pentru acuitatea vederii: suc de ceapa 1p + miere 1p. Se ia dimineata pe stomacul gol 1/2 - 3 linguri
 
-### Afectiuni ale intestinelor
+## Afectiuni ale intestinelor
 
 - sunt contraindicate: fasolea, grapefruit, hrean, soia, porumb, scortisoara
 
@@ -158,15 +161,15 @@ Ciuperci ale pielii. Recomdari
 - borax 1p + glicerina 1p, pentru uz extern
 - flori de Musetel (uz intern, extern)
 
-Muscatura de vipera:
+## Muscatura de vipera:
 
 - se spala rana cu amoniac, dupa care se arde si se inghite alcool
 
-Antivomitiv:
+### Antivomitiv:
 
 - bicarbonat de sodiu + zahar + acid citric + apa
 
-Calculoza biliara. Tratament
+## Calculoza biliara. Tratament
 
 - infuzie 2 lingurite la cana din Pelinita si Pelin, 2 cani pe zi pe stomacul gol
 - infuzie din 2-3 lingurite de flori de Coada-soricelului la o cana; 1-2 cani pe zi
@@ -185,7 +188,7 @@ Calculoza biliara. Tratament
 - contraindicate: grasimi, varza, fasole, oua, afumaturi, lapte, cafea, alcool, prajeli, dulciuri, cartofi, usturoi
 - o lingurita de apa de vita de vie se ia dimineata pe stomacul gol
 
-Cancer.Tratamente.
+## Cancer.Tratamente.
 
 - precancer oral: betacaroten, alfa-tocoferol(vit. E), retinol (vit A)
 - adenom de colon: tarate de grau(15g/zi), carbonat de calciu(0,25-1,5g/zi), acizi grasi omega 3(10g/zi), betacroten(30mg/zi), vit C(1g/zi), alfa-tocoferol(400mg/zi), aspirina(80-325mg/zi)
@@ -202,15 +205,15 @@ Cancer.Tratamente.
 - Ghiocei, frunze de Condurasi, frunze de Podbal, Stanjenel, samburi de zarzare, caise sau de piersici -> diverse tipuri de cancer
 - cancer al pielii: Rostopasca 1p + vaselina 4p + suc de Morcov 1p + glicerina. Se face unguent cu care se ung locurile afectate
 
-Anticancerigene:
+### Anticancerigene:
 
 - Brandusa de toamna, Coada-soricelului, Coriandru, Musetel, Vasc, Maces, Patrunjel, Spanac, Sfecla-rosie, Lamai, Usturoi, Alune, polen de albine, Fe, Mg, Se, Ca, vit A, vit C, vit E, betacaroten, fibre alimentare, soia, alune, acizi grasi omega 3
 
-Compusi chimici cancerigeni:
+### Compusi chimici cancerigeni:
 
 - dioxina, pesticidele, PCB(se afla in pestii din ape poluate), carne prajita la carbuni, azbestul, cafeina, vit B6 in cantitati mari, alfatoxinul(se afla si in alunele alterate)
 
-Pietre la rinichi.Tratament pentru eliminare rapida.
+## Pietre la rinichi.Tratament pentru eliminare rapida.
 
 - matase de Porumb - 30g
 - cozi de Cirese - 20g
@@ -223,12 +226,15 @@ Pietre la rinichi.Tratament pentru eliminare rapida.
 
 Se face decoct din plante si apa. Cand a dat in clocot se adauga propolisul razuit. Se strecoara si se pastreaza la frigider. Se beau 1-2 cani de 3 ori pe zi.
 
-Alimente care pot dauna mult sanatatii atunci cand sunt consumate in cantitati mari:
+### Alimente care pot dauna mult sanatatii atunci cand sunt consumate in cantitati mari:
 
 - condimente: Dafin, Sofran, Piper, Scortisoara, Ghimbir, Cimbru, Usturoi, Ceapa, Oregano, Busuioc, Coriandru, Ardei iute
 - uleiuri volatile(esentiale): Salvie, Iasomie, Trandafir, Piper negru, Patchouli, Ylang-ylang
 - alte plante medicinale: Obligeana, Revent, Lemn-dulce, Vanilia, Cuisoare, Stir, Papadia, Ginseng
 - altele: alunele, carnea, vinul, banana verde, rodia, Hrisca, Telina, Praz, Loboda, Sparanghel, cacao, cola
+
+
+## Minerale și oligoelemente
 
 ### Sodiul
 
@@ -332,6 +338,9 @@ Antiminerale:
 ### Mineral~Antidot in intoxicatii
 
 Se~tonice ale sistemului nervos, sulfat de sodiu Pb~bicarbonat de sodiu, sulfat de magneziu 1%, Mialgin Zn~fier hidrat, apa cu albus de ou, lapte, carbune activat Cd~carbune activat, apa cu albus de ou, lapte, bicarbonat de sodiu
+
+
+## Vitamine
 
 ### Vitamina DZR DMR
 
@@ -490,6 +499,9 @@ Aliment~Fibre(g%)~Celuloza(g%) tarate~48~18 faina neagra~8,7~18 faina integrala~
 
 Aliment~Acid_Omega6(%)~Acid_Omega3(%)~Raport(Omega6/Omega3) ulei de floarea-soarelui~52~0,3~170 ulei de porumb~50~1,6~31 fasole~28~40~0,7 carne de pui~13~0,7~19 margarina vegetala~21~2~10 unt~1,4~0,6~2,3 carne de miel~2,5~2,5~1
 
+
+## Substanțe și antidoturi
+
 ### Substanta Antidot
 
 acid boric~spalatura gastrica cu carbune animal, cafea, sulfat de sodiu cloruri~bicarbonat de sodiu(1%), gluconat de calciu, soluti slaba de otet, ulei de ricin, lapte, carbune medicinal, ulei de masline cocaina~gluconat de calciu, clorpromazina colchicina(alcaloid care se afla si in Brandusa de toamna)~spalatura gastrica cu carbune animal, ulei de ricin, glucoza DDT~carbune, sulfat de sodiu 25g, ulei de parafina, tiosulfat de calciu, vit B12, metionina; contraindicate: laptele, uleiul de ricin opiu, morfina~amifenazol, nalorfina, micoren, carbune, cafea tare, clisme, comprese reci la cap ioduri~gluconat de calciu nitriti~sare de bucatarie 40g, hidrocortizon petrol~ ulei de parafina 200ml, penicilina piramidon~carbune, ulei de ricin 30ml+cafea neagra 150ml. Medicamente care contin piramidon: Algocalmin, Novalgin, Analgin, Codamin, Veridon, Antipirina sufamide~bicarbonat/citrat de sodiu sulfat de cupru~lapte cu albus de ou crud, purgative saline, carbune animal(10g/l), cafea cu mult zahar, ceai negru tare(concentrat) foarte dulce fungicide organice~spalarea pielii cu apa si sapun, evitarea alcoolului ciuperci~ulei de ricin, lapte rece(1-2l), ceaiuri de tei fierbinti fosfor~se vor evita uleiurile, grasimile, laptele lesie~suc de lamaie, otet, albus de ou intoxicatii profesionale~decoct din coaja de stejar 3%, polen 3lingurite pe zi timp de 1-2 luni, propolis, hrean+miere
@@ -547,6 +559,9 @@ Alimente si medicamente contrare:
 - suc de fructe <-> Ampicilina, Eritromicina
 - antiacide <-> saruri feroase, Tetraciclina
 - ulei de parafina <-> polivitamine
+
+
+## Medicamente și recomandări
 
 ### Afectiunea~Recomandari
 
@@ -614,6 +629,9 @@ clorpromazina + alcool~creste efectul clorpromazinei aspirina + alcool~creste ef
 
 Aliment~Celuloza(%) castraveti~14 varza rosie~13 fasole verde~13 varza alba~10-16 salata~13 conopida~10 ridichi~11 mazare verde~9 paine neagra~1,1 paine graham~5,9
 
+
+## Alimente și digestie
+
 ### Alimente greu digerabile
 
 - carne, mazare, fasole, soia, linte, bob
@@ -661,6 +679,9 @@ Ten gras:
 Ten uscat:
 
 - flori de Coada-soricelului, flori de Musetel, Lamaie, flori de Galbenele, Sunatoare, Castravete, Nalba-mare, frunze de Tei, frunze de Menta, fructe de Maces
+
+
+## Plante și compuși naturali
 
 ### Denumire~Alcaloid
 
@@ -881,6 +902,9 @@ Administrare: 200 - 4500 mg sau 1 - 6 capsule de 700mg pe zi timp de cel putin 1
 
 - se afla in Morcovi, Hamei, Salvie
 
+
+## Organe și funcții
+
 ### Denumire organ~OAM
 
 fiere, ficat~1, 2, 3 plamani~4, 5, 6 intestin gros~6, 7, 8 stomac~9, 10 splina, pancreas~10, 11, 12 inima~12, 13, 14 intestin subtire~14, 15, 16 vezica urinara~15, 16, 17 rinichi~17, 18, 19 OAM = orele la care organul respectiv are activitatea maxima
@@ -928,6 +952,9 @@ vaselina~8 - 15 % vaselina + lanolina(5-15%)~78 % vaselina + alcool cetilic 3%~5
 
 Varsta~Nr doze medicamente/tincturi/ceaiuri.... 1 - 2~1/12 - 1/8 2 - 3~1/8 - 1/4 3 - 4~1/6 - 1/4 4 - 7~1/3 7 - 14~1/2 14 - 25~2/3 25 - 60~1 >60~4/3
 
+
+## Rețete și preparate
+
 ### Tinctura de usturoi
 
 - pasta de usturoi 200g + alcool rafinat de 96 grade 200ml. Se macerea 10 zile. Se pastreaza la frigider. Picaturile se iau dupa urmatorul tabel
@@ -967,6 +994,9 @@ Unguent din Musetel si Galbenele:
 - indicat in scabie, pecingine, eruptie cutanata
 
 Aliment~Aliment contrar/antidot iaurt~chimen, ghimbir peste~nuca de cocos, lamaie orez~cuisoare lagume in teci~usturoi, cuisoare, piper, ghimbir, ardei, sare varza~seminte de mustar, seminte de sofran usturoi~nuca de cocos, lamaie salata verde~ulei de masline, lamaie ceapa~lamaie, iaurt, seminte de mustar cartofi~piper negru, unt incins si racit rosii~lamaie, chimen nuci~se trec prin apa si se lasa 12 ore dupa care se prajesc cu ulei de susan si ardei unt de arahide~ghimbir, chimen copt cacao~nucsoara, chimen dulciuri~ghimbir cafea~nucsoara, nuca de muscat alcool~chimen, nucsoara grau~ghimbir carne~cuisoare, ardei
+
+
+## Alte utilizări
 
 ### Insecticide
 

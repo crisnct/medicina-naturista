@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    font-size: 14.5px;
     color: var(--nature-text);
     background:
         radial-gradient(circle at 8% 10%, rgba(237, 138, 104, 0.12), transparent 24rem),
@@ -35,8 +36,8 @@ body {
 #app-shell {
     display: flex;
     flex-direction: column;
-    width: min(100%, 580px);
-    max-width: 580px;
+    width: min(100%, 520px);
+    max-width: 520px;
     margin: 0 auto;
     gap: 14px;
 }
@@ -65,7 +66,7 @@ body {
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.78);
     color: var(--nature-primary);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
 }
 
@@ -73,7 +74,7 @@ body {
     max-width: 500px;
     margin: 0;
     color: var(--nature-text);
-    font-size: clamp(20px, 3.2vw, 27px);
+    font-size: clamp(18px, 3.2vw, 24.5px);
     line-height: 1.12;
     letter-spacing: -0.03em;
     text-align: left;
@@ -87,16 +88,16 @@ body {
 .hero-byline {
     margin: 7px 0 0;
     color: var(--nature-primary);
-    font-size: clamp(13px, 1.6vw, 15px);
+    font-size: clamp(11.5px, 1.6vw, 13.5px);
     font-weight: 700;
 }
 
 .hero-doctor {
-    --hero-doctor-size: clamp(70px, 20vw, 120px);
+    --hero-doctor-size: clamp(56px, 16vw, 96px);
     float: right;
     width: var(--hero-doctor-size);
     height: var(--hero-doctor-size);
-    margin: 0 clamp(12px, 3vw, 20px) 8px 12px;
+    margin: 14px clamp(12px, 3vw, 20px) 18px 12px;
     object-fit: contain;
     shape-outside: circle(50%);
     shape-margin: 4px;
@@ -106,7 +107,7 @@ body {
     max-width: 615px;
     margin: 16px 0 20px;
     color: var(--nature-muted);
-    font-size: 13.5px;
+    font-size: 12px;
     line-height: 1.55;
 }
 
@@ -144,7 +145,7 @@ body {
     place-items: center;
     border-radius: 14px;
     background: var(--nature-soft);
-    font-size: 23px;
+    font-size: 20.5px;
 }
 
 .assistant-identity strong,
@@ -154,18 +155,18 @@ body {
 
 .assistant-identity strong {
     color: var(--nature-text);
-    font-size: 14.5px;
+    font-size: 13px;
 }
 
 .assistant-identity small {
     margin-top: 2px;
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .loading-notice {
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #medical-chatbot {
@@ -208,7 +209,7 @@ body {
 
 .typing-elapsed {
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
     font-style: italic;
 }
 
@@ -260,7 +261,7 @@ body {
 
 .message-line {
     margin: 0.35em 0;
-    font-size: 13.5px;
+    font-size: 12px;
 }
 
 .message-line-spacer {
@@ -291,7 +292,7 @@ body {
 .fragments-panel-documents-title {
     margin: 0 0 6px;
     color: var(--nature-text);
-    font-size: 13px;
+    font-size: 11.5px;
     font-weight: 700;
 }
 
@@ -299,7 +300,7 @@ body {
     margin: 0;
     padding-left: 18px;
     color: var(--nature-muted);
-    font-size: 12.5px;
+    font-size: 11px;
     line-height: 1.6;
 }
 
@@ -317,7 +318,7 @@ body {
     flex-direction: column;
     gap: 3px;
     color: var(--nature-muted);
-    font-size: 11.5px;
+    font-size: 10.5px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
@@ -329,7 +330,7 @@ body {
     border-radius: 8px;
     background: var(--nature-surface);
     color: var(--nature-text);
-    font-size: 12.5px;
+    font-size: 11px;
     font-weight: 400;
     text-transform: none;
     letter-spacing: normal;
@@ -356,7 +357,7 @@ body {
     margin: 0;
     padding: 10px 0;
     color: var(--nature-muted);
-    font-size: 12.5px;
+    font-size: 11px;
     font-style: italic;
 }
 
@@ -368,7 +369,7 @@ body {
     border-radius: 8px;
     background: var(--nature-soft);
     color: var(--nature-text);
-    font-size: 13.5px;
+    font-size: 12px;
     line-height: 1.5;
     overflow-wrap: break-word;
 }
@@ -389,7 +390,7 @@ body {
 .fragments-panel-fragment-text {
     margin: 0;
     color: var(--nature-text);
-    font-size: 13px;
+    font-size: 11.5px;
     line-height: 1.5;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -398,7 +399,7 @@ body {
 .fragments-panel-fragment-score {
     margin: 4px 0 0;
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
     overflow-wrap: break-word;
     font-style: italic;
 }
@@ -408,7 +409,7 @@ body {
     padding-top: 12px;
     border-top: 1px solid var(--nature-border);
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
 }
 
@@ -430,7 +431,7 @@ body {
     align-items: center;
     gap: 12px;
     color: var(--nature-text);
-    font-size: 12.0px;
+    font-size: 11px;
 }
 
 .generate-inline {
@@ -511,7 +512,7 @@ body {
 .report-ready-copy small {
     margin-top: 3px;
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .pdf-download {
@@ -540,7 +541,7 @@ body {
 #message-helper {
     padding: 0 2px;
     color: var(--nature-muted);
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.45;
 }
 
@@ -583,7 +584,7 @@ body {
     background: var(--nature-primary);
     box-shadow: 0 8px 18px rgba(47, 125, 109, 0.22);
     color: #fff;
-    font-size: 13px;
+    font-size: 11.5px;
     font-weight: 700;
     white-space: nowrap;
     cursor: pointer;
@@ -621,7 +622,7 @@ body {
     padding: 10px 16px;
     cursor: pointer;
     color: var(--nature-text);
-    font-size: 13px;
+    font-size: 11.5px;
     font-weight: 700;
     list-style: none;
 }
@@ -630,7 +631,7 @@ body {
     margin: 0;
     padding: 10px 16px;
     color: var(--nature-muted);
-    font-size: 13px;
+    font-size: 11.5px;
     font-style: italic;
 }
 
@@ -649,7 +650,7 @@ body {
 .category-filter-status {
     margin: 0;
     color: var(--nature-muted);
-    font-size: 13px;
+    font-size: 11.5px;
 }
 
 .category-filter-toolbar-buttons {
@@ -706,7 +707,7 @@ body {
     margin-left: 26px;
     color: var(--nature-muted);
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
     list-style: none;
 }
 
@@ -716,7 +717,7 @@ body {
     gap: 8px;
     cursor: pointer;
     color: var(--nature-text);
-    font-size: 13px;
+    font-size: 11.5px;
 }
 
 .cat-checkbox {
@@ -729,7 +730,7 @@ body {
 
 .cat-count {
     color: var(--nature-muted);
-    font-size: 12.5px;
+    font-size: 11px;
 }
 
 .category-filter-total {
@@ -737,7 +738,7 @@ body {
     padding-top: 10px;
     border-top: 1px solid var(--nature-border);
     color: var(--nature-text);
-    font-size: 13px;
+    font-size: 11.5px;
     font-weight: 700;
 }
 
@@ -753,7 +754,7 @@ body {
     }
 
     .hero-description {
-        font-size: 13px;
+        font-size: 11.5px;
     }
 
     #conversation-card {
