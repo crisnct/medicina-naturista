@@ -8,6 +8,7 @@ from pathlib import Path
 from unittest import mock
 
 import numpy as np
+import psycopg
 from psycopg.rows import namedtuple_row
 
 from medicina_naturista.ai import categories
@@ -309,7 +310,7 @@ class SyncTests(unittest.TestCase):
             ).fetchone()[0]
         self.assertEqual(model_name, builder.DEFAULT_MODEL)
 
-    def test_sync_stores_conditions_and_heading_per_fragment(self):
+    def test_sync_stores_business_category_conditions_and_heading_per_fragment(self):
         (self.source / "carte.md").write_text(
             "# Carte\n## Gripa\nCeai de scortisoara.\n## Plante\nMenta ajută la febra.\n## Altele\nApă.",
             encoding="utf-8",
@@ -322,13 +323,57 @@ class SyncTests(unittest.TestCase):
         ):
             self._sync()
 
-        rows = self._rows("chunks", "source_relative_path, heading, conditions")
+        rows = self._rows(
+            "chunks",
+            "source_relative_path, heading, business_category,"
+            " primary_medical_conditions, secondary_medical_conditions",
+        )
         by_key = {(row.source_relative_path, row.heading): row for row in rows}
         self.assertEqual(len(rows), 4)
-        self.assertEqual(by_key[("Febra.md", "Febra")].conditions, ["Febra"])
-        self.assertEqual(by_key[("carte.md", "Carte > Gripa")].conditions, ["Gripa"])
-        self.assertEqual(by_key[("carte.md", "Carte > Plante")].conditions, ["Febra"])
-        self.assertEqual(by_key[("carte.md", "Carte > Altele")].conditions, [])
+        # The file name is not compared with the conditions: plain text is D1.
+        febra_file = by_key[("Febra.md", "")]
+        self.assertEqual(
+            (febra_file.business_category, febra_file.primary_medical_conditions,
+             febra_file.secondary_medical_conditions),
+            ("D1", [], []),
+        )
+        gripa = by_key[("carte.md", "Carte > Gripa")]
+        self.assertEqual((gripa.business_category, gripa.primary_medical_conditions), ("R1", ["Gripa"]))
+        self.assertEqual(gripa.secondary_medical_conditions, [])
+        plante = by_key[("carte.md", "Carte > Plante")]
+        self.assertEqual(
+            (plante.business_category, plante.primary_medical_conditions, plante.secondary_medical_conditions),
+            ("R2", [], ["Febra"]),
+        )
+        rest = by_key[("carte.md", "Carte > Altele")]
+        self.assertEqual((rest.business_category, rest.primary_medical_conditions), ("D1", []))
+
+    def test_schema_replaces_the_conditions_column_and_is_idempotent(self):
+        with db_module.get_pool().connection() as connection:
+            connection.execute("ALTER TABLE chunks ADD COLUMN IF NOT EXISTS conditions TEXT[] NOT NULL DEFAULT '{}'")
+            connection.commit()
+
+        db_module.ensure_schema()
+        db_module.ensure_schema()
+
+        with db_module.get_pool().connection() as connection:
+            columns = {
+                row[0] for row in connection.execute(
+                    "SELECT column_name FROM information_schema.columns WHERE table_name = 'chunks'"
+                ).fetchall()
+            }
+        self.assertNotIn("conditions", columns)
+        self.assertLessEqual(
+            {"business_category", "primary_medical_conditions", "secondary_medical_conditions"}, columns
+        )
+
+    def test_business_category_only_accepts_r1_r2_d1(self):
+        (self.source / "document.md").write_text("Text.", encoding="utf-8")
+        self._sync()
+
+        with db_module.get_pool().connection() as connection:
+            with self.assertRaises(psycopg.errors.CheckViolation):
+                connection.execute("UPDATE chunks SET business_category = 'R3'")
 
     def test_category_id_comes_from_containing_folder(self):
         (self.source / "Cancer").mkdir()

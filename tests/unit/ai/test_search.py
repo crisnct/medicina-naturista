@@ -369,10 +369,13 @@ class PriorityWeightTests(unittest.TestCase):
         self.assertEqual({item["priority"] for item in results}, {10})
         self.assertAlmostEqual(results[0]["hybrid_score"], search.PRIORITY_WEIGHT[10] / (search.RRF_K + 1))
 
-    def test_results_carry_the_indexed_conditions(self):
+    def test_results_carry_the_indexed_category_and_conditions(self):
         results = search.rank("propoziție absentă din orice document", condition_names=self.NAMES)
 
-        self.assertTrue(all(isinstance(item["conditions"], list) for item in results))
+        for item in results:
+            self.assertIn("business_category", item)
+            self.assertIsInstance(item["primary_medical_conditions"], list)
+            self.assertIsInstance(item["secondary_medical_conditions"], list)
 
 
 if __name__ == "__main__":

@@ -78811,7 +78811,7 @@ Uneori se folosesc injecțiile cu corticosteroizi în încheietură.
 Tratamentul este controversat, cu toate acestea, iar injecțiile
 în sine sunt o sursă de disconfort.
 
-# Reducerea riscului de sindrom de tunel carpian
+## Reducerea riscului de sindrom de tunel carpian
 
 Sindromul de tunel carpian este un risc ocupațional
 pentru oricine are o slujbă care presupune mișcări

@@ -1,6 +1,6 @@
 # Plan de refactorizare — fragmentarea pe categorii de business (R1 / R2 / D1)
 
-**Stare:** plan aprobat, neimplementat · **Data:** 2026-09-30
+**Stare:** implementat (fragmenter, schemă, indexator, căutare, teste, documentație); reindexarea completă și evaluarea rămân de rulat · **Data:** 2026-09-30
 
 **Înlocuiește:** criteriile de fragmentare 4.6–4.14 din [fluxul de sincronizare a indexului hibrid](hybrid-index-generation.md) (implementate în `src/medicina_naturista/ai/fragmenter.py`).
 
