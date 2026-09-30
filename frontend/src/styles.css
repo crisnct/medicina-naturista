@@ -61,7 +61,7 @@ body {
     content: "";
     position: absolute;
     top: -24px;
-    right: 0;
+    right: 25px;
     bottom: 24px;
     left: 0;
     z-index: 0;
@@ -73,8 +73,8 @@ body {
 /* Strip of herbs along the bottom edge. */
 .herbs-strip {
     position: absolute;
-    right: 0;
-    bottom: 9px;
+    right: 25px; /* mirrors the left gap */
+    bottom: 19px;
     left: 25px;
     z-index: 0;
     pointer-events: none;
@@ -85,15 +85,15 @@ body {
     width: 100%;
     height: 100%;
     filter: saturate(0.7) contrast(0.9) brightness(1.1);
-    -webkit-mask-image: linear-gradient(to top, #000 65%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to top, #000 55%, transparent 100%);
 }
 
 .hero-kicker {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 2px;
     margin-bottom: 18px;
-    padding: 8px 12px;
+    padding: 7px 10px;
     border: 1px solid rgba(47, 125, 109, 0.2);
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.78);
@@ -125,7 +125,7 @@ body {
 }
 
 .hero-doctor {
-    --hero-doctor-size: clamp(50px, 12vw, 224px);
+    --hero-doctor-size: clamp(50px, 10vw, 140px);
     float: right;
     width: var(--hero-doctor-size);
     height: var(--hero-doctor-size);
@@ -141,7 +141,7 @@ body {
 
 .hero-description {
     max-width: 615px;
-    margin: 16px 0 20px;
+    margin: 10px 0 20px;
     color: var(--nature-muted);
     font-size: 12px;
     line-height: 1.55;

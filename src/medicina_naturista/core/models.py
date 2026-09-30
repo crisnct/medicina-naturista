@@ -7,7 +7,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-HEALTH_PROBLEM_QUESTION = "Bine ați venit în cabinetul meu. Eu nu am acces la leacuri de pe internet, nici nu întreb AI-ul dar am multe cărți scanate și mă voi uita rapid în ele pentru a găsi recomandări de tratamente naturiste adjuvante pentru afecțiunea d-voastră. Vă rog să-mi spuneți care este problema de sănătate cu care vă confruntați."
+HEALTH_PROBLEM_QUESTION = """
+Bine ați venit în cabinetul meu virtual.  
+Folosesc o bibliotecă proprie de cărți și documente de medicină naturistă și caut în ele informațiile relevante pentru situația dumneavoastră. Nu caut remedii pe internet și nu folosesc surse externe.  
+Recomandările au rol informativ și adjuvant.  
+Cu ce problemă de sănătate vă confruntați?
+"""
 
 @dataclass
 class HealthProfile:
