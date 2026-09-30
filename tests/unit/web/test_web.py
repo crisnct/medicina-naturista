@@ -196,7 +196,11 @@ class WebTests(unittest.TestCase):
         )
         self.assertEqual(
             report_title({"health_problem": "răceală, gripă"}),
-            "Remedii naturiste pentru răceală",
+            "Remedii naturiste pentru răceală și gripă",
+        )
+        self.assertEqual(
+            report_title({"health_problem": "caut remedii pentru raceala si gripa. Si mai vreau un remediu pentru guta"}),
+            "Remedii naturiste pentru răceală, gripă și gută",
         )
 
     # Verify that report generation sends all evidence in one AI request.
@@ -795,7 +799,7 @@ class WebTests(unittest.TestCase):
                 page.extract_text() for page in PdfReader(io.BytesIO(pdf_response.content)).pages
             )
             self.assertIn("Remedii naturiste", content)
-            self.assertIn("Gripă și răceală", " ".join(content.split()))
+            self.assertIn("gripă și răceală", " ".join(content.split()))
 
             end_resp = self.client.post("/api/session/end", headers=_headers(sid_a, tab_a))
             self.assertIn("Sesiunea a fost închisă", end_resp.json()["messages"][0]["content"])
@@ -845,7 +849,7 @@ class WebTests(unittest.TestCase):
             first_text = " ".join(
                 page.extract_text() for page in PdfReader(io.BytesIO(session.reports[first_report_id].data)).pages
             )
-            self.assertIn("Gripă și răceală", " ".join(first_text.split()))
+            self.assertIn("gripă și răceală", " ".join(first_text.split()))
             self.assertNotIn("Migrenă", " ".join(first_text.split()))
 
         main.store.delete(sid, tab)

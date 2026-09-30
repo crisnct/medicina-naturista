@@ -84,7 +84,7 @@ Include, dacă sunt documentate explicit:
 
 Include:
 
-- Rețete culinare: Dacă vor fi minim 4 alimente recomandate, atunci crează minim 1 rețetă culinară din alimentele recomandate și doar pentru acest sub-task poți folosi memoria internă și internetul. Dacă nu poți crea nicio rețetă, scrie - ;
+- Rețete culinare: Dacă vor fi minim 4 alimente recomandate, atunci crează 2-3 rețete culinare din alimentele recomandate și doar pentru acest sub-task poți folosi memoria internă și internetul. Dacă vor fi minim 12 alimente recomandate, atunci crează 3-5 rețete culinare. Dacă nu poți crea nicio rețetă, scrie - ;
 - Alimente recomandate: o listă de alimente recomandate și benefice pentru problema de sănătate;
 - Alimente nerecomandate: o listă de alimente nerecomandate;
 - Alimente interzise: o listă de alimente total interzise;
