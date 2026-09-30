@@ -57,13 +57,12 @@ CREATE TABLE IF NOT EXISTS chunks (
     ) STORED,
     embedding             vector(384) NOT NULL,
     text_search           tsvector NOT NULL,
-    priority              SMALLINT NOT NULL DEFAULT 5,
     conditions            TEXT[] NOT NULL DEFAULT '{}'
 );
--- priority (1 highest .. 5 lowest) and conditions (canonical names from
--- medical_conditions.txt) were added after the first release; existing
--- databases get them here and are refilled by the next index sync.
-ALTER TABLE chunks ADD COLUMN IF NOT EXISTS priority SMALLINT NOT NULL DEFAULT 5;
+-- conditions (canonical names from medical_conditions.txt) was added after the
+-- first release; existing databases get it here and are refilled by the next
+-- index sync. Priority is not stored: it is decided per search (ai/search.py).
+ALTER TABLE chunks DROP COLUMN IF EXISTS priority;
 ALTER TABLE chunks ADD COLUMN IF NOT EXISTS conditions TEXT[] NOT NULL DEFAULT '{}';
 CREATE INDEX IF NOT EXISTS idx_chunks_conditions ON chunks USING GIN(conditions);
 CREATE INDEX IF NOT EXISTS idx_chunks_source ON chunks(source_relative_path, line_start);

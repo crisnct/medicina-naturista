@@ -105,8 +105,8 @@ class CategoryFilteredRankTests(unittest.TestCase):
         order = [item["source_relative_path"] for item in results]
         self.assertEqual(order, ["catB/three.md", "catA/two.md", "catA/one.md"])
         two = next(item for item in results if item["source_relative_path"] == "catA/two.md")
-        # These plain fixture documents are PRIORITY 5, whose weight scales the RRF score.
-        self.assertAlmostEqual(two["hybrid_score"], search.PRIORITY_WEIGHT[5] / (search.RRF_K + 2))
+        # These queries name no condition, so every fragment is PRIORITY 10, whose weight scales the RRF score.
+        self.assertAlmostEqual(two["hybrid_score"], search.PRIORITY_WEIGHT[10] / (search.RRF_K + 2))
         self.assertAlmostEqual(two["semantic_similarity"], 0.6, places=5)
 
     # The critical correctness property: filtering to "catA" must rank catA's
@@ -125,7 +125,7 @@ class CategoryFilteredRankTests(unittest.TestCase):
         self.assertEqual(order, ["catA/two.md", "catA/one.md"])
         two = next(item for item in results if item["source_relative_path"] == "catA/two.md")
         # Rank 1 of the *filtered* subset, not its unfiltered rank of 2.
-        self.assertAlmostEqual(two["hybrid_score"], search.PRIORITY_WEIGHT[5] / (search.RRF_K + 1))
+        self.assertAlmostEqual(two["hybrid_score"], search.PRIORITY_WEIGHT[10] / (search.RRF_K + 1))
         self.assertAlmostEqual(two["semantic_similarity"], 0.6, places=5)
 
     def test_category_filter_excludes_other_categories_entirely(self):
@@ -295,7 +295,7 @@ class CandidateLimitedRankTests(unittest.TestCase):
 
         digestie = next(item for item in results if item["source_relative_path"] == "boli/Digestie.md")
         self.assertTrue(digestie["found_by_heading"])
-        self.assertGreater(digestie["hybrid_score"], 1.0 / (search.RRF_K + 1))
+        self.assertGreater(digestie["hybrid_score"], search.PRIORITY_WEIGHT[10] / (search.RRF_K + 1))
 
     # A section titled with a synonym is found through the expansion even
     # though the query text itself matches nothing in it.
@@ -315,6 +315,8 @@ class CandidateLimitedRankTests(unittest.TestCase):
 
 
 class PriorityWeightTests(unittest.TestCase):
+    NAMES = ["Gripa", "influenza", "gripa sezoniera"]
+
     def setUp(self):
         _fixture.reset()
         self.tmp = tempfile.TemporaryDirectory()
@@ -322,46 +324,55 @@ class PriorityWeightTests(unittest.TestCase):
         dim = builder.MODEL_DIMENSION
         body = "Ceai calduros si repaus la pat pentru remedii naturiste."
         documents = {
-            "a/Plante.md": f"# Plante\n## Ceaiuri\n{body}",  # no condition: PRIORITY 5
-            "a/Carte.md": f"# Carte\n## Ceaiuri\n{body} Util si pentru febra.",  # mention: PRIORITY 3
-            "a/Gripa.md": f"# Carte\n## Ceaiuri\n{body}",  # named after a condition: PRIORITY 1
+            "a/Plante.md": f"# Plante\n## Ceaiuri\n{body}",  # neither heading nor text names it
+            "a/Carte.md": f"# Carte\n## Ceaiuri\n{body} Util si pentru influenza.",  # synonym in text
+            "a/Sezon.md": f"# Carte\n## Gripa sezoniera\n{body}",  # synonym in the heading path
         }
-        # Query vector e0: semantic rank 1 is Plante, 2 is Carte, 3 is Gripa.
+        # Query vector e0: semantic rank 1 is Plante, 2 is Carte, 3 is Sezon.
         vectors = {
             "a/Plante.md": _one_hot(dim, 0),
             "a/Carte.md": _one_hot(dim, 0, 0.8) + _one_hot(dim, 1, 0.6),
-            "a/Gripa.md": _one_hot(dim, 0, 0.6) + _one_hot(dim, 1, 0.8),
+            "a/Sezon.md": _one_hot(dim, 0, 0.6) + _one_hot(dim, 1, 0.8),
         }
-        with mock.patch.object(
-            builder, "load_dictionary", return_value=ConditionDictionary(parse_conditions("Gripa\nFebra\n"))
-        ):
-            _build_fixture_index(Path(self.tmp.name), documents, vectors)
+        _build_fixture_index(Path(self.tmp.name), documents, vectors)
         patch = mock.patch.object(search, "cached_query_model", return_value=FakeQueryModel(_one_hot(dim, 0)))
         patch.start()
         self.addCleanup(patch.stop)
 
     def test_weights_per_priority(self):
-        self.assertEqual(search.PRIORITY_WEIGHT, {1: 1.0, 3: 0.7, 5: 0.5})
+        self.assertEqual(search.PRIORITY_WEIGHT, {1: 1.0, 3: 0.7, 10: 0.2})
 
-    def test_score_is_scaled_by_the_priority_weight_and_can_change_the_order(self):
-        # Only the semantic signal matches (the query is absent from every text).
-        results = search.rank("propoziție absentă din orice document")
+    def test_priority_comes_from_the_searched_condition_and_its_synonyms(self):
+        # The query text itself matches nothing lexically: only the semantic signal counts.
+        results = search.rank("propoziție absentă din orice document", condition_names=self.NAMES)
 
-        # The best semantic match is the lowest-priority fragment, yet it ends last.
         self.assertEqual(
             [(item["source_relative_path"], item["priority"]) for item in results],
-            [("a/Gripa.md", 1), ("a/Carte.md", 3), ("a/Plante.md", 5)],
+            [("a/Sezon.md", 1), ("a/Carte.md", 3), ("a/Plante.md", 10)],
         )
         scores = [item["hybrid_score"] for item in results]
         self.assertAlmostEqual(scores[0], 1.0 / (search.RRF_K + 3))
         self.assertAlmostEqual(scores[1], 0.7 / (search.RRF_K + 2))
-        self.assertAlmostEqual(scores[2], 0.5 / (search.RRF_K + 1))
+        self.assertAlmostEqual(scores[2], 0.2 / (search.RRF_K + 1))
 
-    def test_results_carry_their_conditions(self):
+    def test_a_condition_missing_from_the_dictionary_is_searched_as_typed(self):
+        # No condition names, so no synonyms: the query itself is matched against
+        # each fragment's heading path (1) and text (3).
+        results = search.rank("Gripa sezoniera")
+
+        by_path = {item["source_relative_path"]: item["priority"] for item in results}
+        self.assertEqual(by_path, {"a/Sezon.md": 1, "a/Carte.md": 10, "a/Plante.md": 10})
+
+    def test_a_query_matching_nothing_gives_every_fragment_priority_10(self):
         results = search.rank("propoziție absentă din orice document")
 
-        conditions = {item["source_relative_path"]: item["conditions"] for item in results}
-        self.assertEqual(conditions, {"a/Gripa.md": ["Gripa"], "a/Carte.md": ["Febra"], "a/Plante.md": []})
+        self.assertEqual({item["priority"] for item in results}, {10})
+        self.assertAlmostEqual(results[0]["hybrid_score"], search.PRIORITY_WEIGHT[10] / (search.RRF_K + 1))
+
+    def test_results_carry_the_indexed_conditions(self):
+        results = search.rank("propoziție absentă din orice document", condition_names=self.NAMES)
+
+        self.assertTrue(all(isinstance(item["conditions"], list) for item in results))
 
 
 if __name__ == "__main__":

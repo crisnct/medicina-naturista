@@ -150,6 +150,14 @@ class ConditionDictionary:
         unique = list(dict.fromkeys(indexes))[:MAX_MATCHED_CONDITIONS]
         return [self.conditions[index] for index in unique]
 
+    # Every name (canonical + synonyms) of the conditions the query names; these
+    # decide a fragment's priority at search time (see ai/search.py).
+    def names(self, query: str) -> list[str]:
+        terms: list[str] = []
+        for condition in self.match(query):
+            terms.extend(term for term in condition.terms if term not in terms)
+        return terms
+
     # Phrases to add to the query for the matched conditions: every name of the
     # condition except the ones the query already is.
     def expansions(self, query: str) -> list[str]:
@@ -188,3 +196,8 @@ def find_conditions(text: str, dictionary: ConditionDictionary | None = None) ->
 # Expansion phrases for a query, using the configured dictionary.
 def expansions_for(query: str) -> list[str]:
     return load_dictionary().expansions(query)
+
+
+# All names of the conditions a query names, using the configured dictionary.
+def condition_names_for(query: str) -> list[str]:
+    return load_dictionary().names(query)

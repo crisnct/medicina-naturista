@@ -75,7 +75,6 @@ class Chunk:
     category_id: str = ROOT_CATEGORY_ID
     # 1 (best) .. 5 (lowest), and the conditions the fragment is about - both
     # set by ai/fragmenter.py.
-    priority: int = 5
     conditions: tuple[str, ...] = ()
 
 
@@ -273,14 +272,14 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
             """
             INSERT INTO chunks
                 (source_relative_path, source_absolute_path, source_sha256, line_start, line_end,
-                 heading, text, text_sha256, char_count, embedding, text_search, priority, conditions)
-            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s, %s)
+                 heading, text, text_sha256, char_count, embedding, text_search, conditions)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s)
             """,
             (
                 chunk.source_relative_path, chunk.source_absolute_path, chunk.source_sha256,
                 chunk.line_start, chunk.line_end, chunk.heading, chunk.text, chunk.text_sha256,
                 chunk.char_count, embedding, _text_search_input(chunk),
-                chunk.priority, list(chunk.conditions),
+                list(chunk.conditions),
             ),
         )
 
@@ -387,7 +386,6 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
                     text_sha256=sha256_bytes(fragment.text.encode("utf-8")),
                     char_count=len(fragment.text),
                     category_id=category_id,
-                    priority=fragment.priority,
                     conditions=fragment.conditions,
                 )
             )

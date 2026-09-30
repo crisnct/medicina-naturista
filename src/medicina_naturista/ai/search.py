@@ -9,11 +9,12 @@ import argparse
 import json
 import re
 import sys
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 
 import numpy as np
 from psycopg.rows import namedtuple_row
 
+from medicina_naturista.ai.conditions import Condition, ConditionDictionary
 from medicina_naturista.ai.db import get_pool
 from medicina_naturista.ai.embedding_model import cached_query_model
 from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS, plain
@@ -29,11 +30,16 @@ RRF_K = 60.0
 RRF_SIGNAL_COUNT = 3
 RRF_MAX_SCORE = RRF_SIGNAL_COUNT / (RRF_K + 1.0)
 
-# A fragment's fused score is multiplied by the weight of its PRIORITY (set at
-# indexing time, see ai/fragmenter.py): 1 = the document/section is about a
-# condition by name, 3 = a section mentions one, 5 = everything else. Every
+# A fragment's fused score is multiplied by the weight of its PRIORITY, which is
+# decided per search from the condition the user named (that condition's name
+# or any of its synonyms, see query_priority()): 1 = it appears in the
+# fragment's heading/path, 3 = it appears in the fragment's text, 10 = neither
+# (a condition missing from the dictionary is searched as typed, without
+# synonyms). Every
 # weight is <= 1, so RRF_MAX_SCORE stays the ceiling of hybrid_score.
-PRIORITY_WEIGHT = {1: 1.0, 3: 0.7, 5: 0.5}
+PRIORITY_WEIGHT = {1: 1.0, 3: 0.7, 10: 0.2}
+# Priority of a fragment that does not contain the searched condition.
+NOT_FOUND_PRIORITY = 10
 
 # When the strict (all content words) lexical query matches fewer chunks than
 # this, rank() also runs the loose (any content word) query.
@@ -150,6 +156,36 @@ def _heading_ids(
     return [row.chunk_id for row in rows]
 
 
+# Decides whether a text contains the searched condition. When the query names a
+# condition of the dictionary, any of its names/synonyms (`names`) counts. When it
+# does not, the query is taken as is, without synonyms: a text matches when it
+# contains every content word of one comma-separated segment of the query (the
+# same words and prefix stems as the strict lexical query).
+def name_matcher(names: Sequence[str], query: str) -> Callable[[str], bool]:
+    if names:
+        dictionary = ConditionDictionary([Condition(name=names[0], terms=tuple(names))])
+        return lambda text: bool(dictionary.find(text))
+    segments = [stems for stems in (_content_stems(segment) for segment in query.split(",")) if stems]
+
+    def matches(text: str) -> bool:
+        words = set(re.findall(r"[^\W_]+", plain(text), flags=re.UNICODE))
+        return any(
+            all(any(word.startswith(stem) for word in words) for stem in stems) for stems in segments
+        )
+
+    return matches
+
+
+# Priority of one fragment for a search: 1 when the searched condition is in its
+# heading/path, 3 when it is in its text, otherwise 10.
+def query_priority(matches: Callable[[str], bool], heading: str, text: str) -> int:
+    if matches(heading):
+        return 1
+    if matches(text):
+        return 3
+    return NOT_FOUND_PRIORITY
+
+
 # Combine semantic, lexical and heading rankings with reciprocal rank fusion.
 # All signals always run — there is no per-call or per-deployment toggle to turn
 # either off. Each contributes at most `limit` candidates (default
@@ -170,6 +206,9 @@ def _heading_ids(
 # filtering after the fact would leave gaps in the rank sequence that skew
 # every fragment's RRF score relative to a fresh ranking of just that subset.
 #
+# condition_names: every name of the condition(s) the query names; together with
+# `expansions` they decide each fragment's priority (see query_priority()).
+#
 # expansions: alternative names of the condition the query names, which widen
 # the lexical and heading signals (the semantic query stays the user's text).
 def rank(
@@ -177,6 +216,7 @@ def rank(
     category_ids: frozenset[str] | None = None,
     limit: int | None = None,
     expansions: Sequence[str] = (),
+    condition_names: Sequence[str] = (),
 ) -> list[dict[str, object]]:
     limit = limit or settings.search_candidate_limit
     with get_pool().connection() as connection:
@@ -239,13 +279,17 @@ def rank(
             rows = cursor.execute(
                 """
                 SELECT chunk_id, source_relative_path, source_absolute_path, line_start, line_end,
-                       heading, text, source_sha256, priority, conditions,
+                       heading, text, source_sha256, conditions,
                        -(embedding <#> %s) AS semantic_similarity
                 FROM chunks
                 WHERE chunk_id = ANY(%s)
                 """,
                 [query_vector, list(semantic_rank.keys() | lexical_rank.keys() | heading_rank.keys())],
             ).fetchall()
+
+    # Every name of the searched condition; empty when the query names none.
+    names = list(dict.fromkeys([*condition_names, *expansions]))
+    matches = name_matcher(names, query)
 
     results: list[dict[str, object]] = []
     for row in rows:
@@ -259,11 +303,12 @@ def rank(
             score += 1.0 / (RRF_K + fragment_lexical_rank)
         if fragment_heading_rank is not None:
             score += 1.0 / (RRF_K + fragment_heading_rank)
-        score *= PRIORITY_WEIGHT.get(row.priority, 1.0)
+        priority = query_priority(matches, row.heading, row.text)
+        score *= PRIORITY_WEIGHT[priority]
         results.append({
             "chunk_id": row.chunk_id,
             "hybrid_score": score,
-            "priority": row.priority,
+            "priority": priority,
             "conditions": list(row.conditions),
             "semantic_similarity": float(row.semantic_similarity),
             "lexical_rank": fragment_lexical_rank,

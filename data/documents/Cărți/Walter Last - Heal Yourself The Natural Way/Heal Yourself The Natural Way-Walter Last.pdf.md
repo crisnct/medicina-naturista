@@ -16,22 +16,6 @@ non-commercial use and healing activity.
 Editing, Artwork & Cover design by Leonie Ganivet ~ Austpac Productions
 
 
-
-Published by
-
-
-
-
-…a division of
-
-Austpac Productions
-P. O. Box 842, Moss Vale 2577 NSW, Australia
-Phone: +61 2 4869 4285
-Email:
-Web:
-
-
-
 If you are unable to order this book from your local bookseller,
 you may order online from the publisher on CD Rom in PDF format.
 See:

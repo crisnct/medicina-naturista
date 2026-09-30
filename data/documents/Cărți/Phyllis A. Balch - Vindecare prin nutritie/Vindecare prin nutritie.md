@@ -80326,7 +80326,7 @@ Uneori se folosesc injecțiile cu corticosteroizi în încheietură.
 Tratamentul este controversat, cu toate acestea, iar injecțiile
 în sine sunt o sursă de disconfort.
 
-## Reducerea riscului de sindrom de tunel carpian
+# Reducerea riscului de sindrom de tunel carpian
 
 Sindromul de tunel carpian este un risc ocupațional
 pentru oricine are o slujbă care presupune mișcări
@@ -80418,13 +80418,6 @@ mobilitatea.
 Q Un tratament nou pentru CTS folosește laserul „rece“
 (de energie redusă) ca să penetreze țesuturile, să stimuleze
 nervii și să crească microcirculația în zona afectată.
-
-
-## SINDROM AL,
-
-## IMUNODEFICIENȚEI DOBANDITE
-
-Vezi SIDA.
 
 ## SINDROM AL INTESTINULUI IRITABIL
 
