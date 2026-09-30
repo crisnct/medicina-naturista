@@ -5,7 +5,9 @@ rule-labelled queries in tests/eval/retrieval_queries.json.
 Metrics per query (chunk level, over rank()'s ordered output): Precision@10,
 Reciprocal Rank of the first relevant chunk, nDCG@10 (binary gains) and
 Recall@50 against ALL relevant chunks in the index. Latency is wall time of
-one rank() call (the query embedding is warmed up first). Read-only: never
+one rank() call (the query embedding is warmed up first). It also counts
+priority_order_violations: fragments with the named condition in their title
+that rank below one without it (0 by construction of the score). Read-only: never
 writes to the database. Run it before and after a scoring change and compare
 the summaries (--output saves the full JSON for diffing).
 """
@@ -22,7 +24,7 @@ from pathlib import Path
 
 from psycopg.rows import namedtuple_row
 
-from medicina_naturista.ai.conditions import expansions_for
+from medicina_naturista.ai import conditions, search
 from medicina_naturista.ai.db import get_pool
 from medicina_naturista.ai.search import rank
 
@@ -63,13 +65,13 @@ def ndcg_at(ranked: list[int], relevant: set[int], k: int) -> float:
     return dcg / ideal if ideal else 0.0
 
 
-def evaluate_case(case: dict, index: dict[int, tuple[str, str]], use_conditions: bool = True) -> dict:
+def evaluate_case(case: dict, index: dict[int, tuple[str, str]]) -> dict:
     relevant = relevant_ids(case, index)
     started = time.perf_counter()
-    expansions = expansions_for(case["query"]) if use_conditions else []
-    results = rank(case["query"], expansions=expansions)
+    results = rank(case["query"])
     latency_ms = (time.perf_counter() - started) * 1000
     ranked = [int(item["chunk_id"]) for item in results]
+    named = conditions.resolve_query(case["query"]).condition_names
     first = next((position for position, chunk_id in enumerate(ranked, start=1) if chunk_id in relevant), None)
     return {
         "query": case["query"],
@@ -80,7 +82,22 @@ def evaluate_case(case: dict, index: dict[int, tuple[str, str]], use_conditions:
         "ndcg_at_10": ndcg_at(ranked, relevant, 10),
         "recall_at_50": (sum(chunk_id in relevant for chunk_id in ranked[:50]) / len(relevant)) if relevant else None,
         "latency_ms": latency_ms,
+        "priority_order_violations": priority_order_violations(results) if named else 0,
     }
+
+
+# Fragments with the named condition in their title (P1) must come before every
+# other fragment: counts the P1 fragments that appear after a non-P1 one. Must
+# be 0 by construction of the score (see the weights in ai/search.py).
+def priority_order_violations(results: list[dict]) -> int:
+    violations = 0
+    seen_other = False
+    for item in results:
+        if item["condition_in_title"]:
+            violations += seen_other
+        else:
+            seen_other = True
+    return violations
 
 
 def summarize(rows: list[dict]) -> dict:
@@ -98,6 +115,7 @@ def summarize(rows: list[dict]) -> dict:
         "recall_at_50": mean("recall_at_50"),
         "latency_p50_ms": statistics.median(latencies),
         "latency_p95_ms": p95,
+        "priority_order_violations": sum(row.get("priority_order_violations", 0) for row in rows),
     }
 
 
@@ -106,14 +124,17 @@ def main() -> None:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()
     parser.add_argument("--cases", type=Path, default=CASES_PATH)
-    parser.add_argument("--no-conditions", action="store_true", help="skip the condition-dictionary expansion")
+    parser.add_argument("--no-conditions", action="store_true", help="do not recognise conditions (no P1/P2, no synonyms)")
     parser.add_argument("--output", type=Path, help="write the full per-query JSON here")
     args = parser.parse_args()
 
     cases = load_cases(args.cases)
     index = load_chunk_index()
+    if args.no_conditions:
+        search.resolve_query = conditions.ConditionDictionary([]).resolve
+        conditions.resolve_query = search.resolve_query
     rank("warmup")  # load the embedding model outside the timed section
-    rows = [evaluate_case(case, index, not args.no_conditions) for case in cases]
+    rows = [evaluate_case(case, index) for case in cases]
     for row in rows:
         recall = "  n/a" if row["recall_at_50"] is None else f"{row['recall_at_50']:5.2f}"
         print(

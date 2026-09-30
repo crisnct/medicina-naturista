@@ -3,6 +3,9 @@ services:
     image: pgvector/pgvector:pg16
     restart: unless-stopped
     container_name: medicina-db
+    # The chunks table (~150 MB) must fit in shared_buffers (default 128 MB), or
+    # the first search after a restart reads it from disk and takes ~0.5 s.
+    command: ["postgres", "-c", "shared_buffers=512MB"]
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-medicina}
       POSTGRES_USER: ${POSTGRES_USER:-medicina}
@@ -53,7 +56,7 @@ services:
       SESSION_MAX_SECONDS: ${SESSION_MAX_SECONDS:-14400}
       MAX_CHAT_CHARS: ${MAX_CHAT_CHARS:-4000}
       MAX_REQUESTS_PER_MINUTE: ${MAX_REQUESTS_PER_MINUTE:-60}
-      MAX_CONTEXT_CHARS: ${MAX_CONTEXT_CHARS:-2400000}
+      MAX_CONTEXT_CHARS: ${MAX_CONTEXT_CHARS:-1000000}
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
       LOG_FRAGMENT_TEXT: ${LOG_FRAGMENT_TEXT:-true}
       LOG_FRAGMENT_TEXT_MAX_CHARS: ${LOG_FRAGMENT_TEXT_MAX_CHARS:-4000}

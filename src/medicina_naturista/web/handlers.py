@@ -101,6 +101,16 @@ def _match_type_label(item: dict) -> str:
     return "Găsire " + " și ".join(found_labels)
 
 
+# Where the condition the patient named was found in a fragment: "title" (P1,
+# the fragment's own title), "text" (P2, its text) or None when neither.
+def _condition_match(item: dict) -> str | None:
+    if item.get("condition_in_title"):
+        return "title"
+    if item.get("condition_in_text"):
+        return "text"
+    return None
+
+
 # Build the structured "fragments found" message shown before the patient
 # decides to send them to the AI — a single flat list, sorted by relevance
 # score (evidence's raw "score" field, from Retriever.collect()), descending.
@@ -115,9 +125,9 @@ def _fragments_message(search_id: str, evidence: dict) -> dict[str, Any]:
             "text": _normalize_text(item["text"]),
             "score": item.get("score", float("-inf")),
             "relevancePercent": item.get("relevance_percent"),
-            "semanticScore": item.get("semantic_similarity"),
+            "semanticScore": item.get("semantic_score"),
             "lexicalScore": item.get("lexical_score"),
-            "priority": item.get("priority"),
+            "conditionMatch": _condition_match(item),
             "matchLabel": _match_type_label(item),
             "foundByLexical": bool(item.get("found_by_lexical")),
         })

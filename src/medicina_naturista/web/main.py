@@ -23,11 +23,12 @@ from pydantic import BaseModel, Field
 
 from medicina_naturista.config import settings
 
-from medicina_naturista.ai.client import AIUnavailable, XAIClient, fit_evidence_to_context
+from medicina_naturista.ai.client import AIUnavailable, XAIClient
 from medicina_naturista.integrations.gmail import EMAIL_SKIPPED, send_report
 from medicina_naturista.reporting.pdf import create_pdf
-from medicina_naturista.ai.conditions import load_dictionary
+from medicina_naturista.ai.conditions import resolve_query
 from medicina_naturista.ai.retrieval import Retriever
+from medicina_naturista.ai.search import warm_up as warm_up_search
 from medicina_naturista.core.models import PendingSearch, SessionData, StoredReport
 from medicina_naturista.core.sessions import SessionStore
 from medicina_naturista.web.handlers import (
@@ -92,9 +93,10 @@ def _report_started_message(session: SessionData) -> dict:
 
 # Chat notice naming the condition(s) the health problem was recognised as in
 # the condition dictionary, with every synonym the search will use (the same
-# match Retriever.collect() runs). None when nothing was recognised.
+# resolution rank() runs, so every comma-separated expression counts). None when
+# nothing was recognised.
 def _condition_identified_message(health_problem: str) -> dict | None:
-    conditions = load_dictionary().match(health_problem)
+    conditions = resolve_query(health_problem).conditions
     if not conditions:
         return None
     lines = []
@@ -139,6 +141,11 @@ async def lifespan(app: FastAPI):
             store.sweep()
 
     cleanup_task = asyncio.create_task(cleanup())
+    # Load the embedding model and warm the index now, not on the first patient's search.
+    try:
+        await asyncio.to_thread(warm_up_search)
+    except Exception:
+        logger.warning("search_warm_up_failed", exc_info=True)
     try:
         yield
     finally:
@@ -418,7 +425,7 @@ def post_search(request: Request):
     with session.lock:
         before = len(session.history)
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
-        evidence = fit_evidence_to_context(retriever.collect(session))
+        evidence = retriever.collect(session)
         logger.info(
             "report_stage_completed stage=retrieval tab_id=%s evidence_entries=%s evidence_chars=%s",
             session.tab_id,

@@ -5,11 +5,15 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from medicina_naturista.ai.conditions import condition_names_for, expansions_for
 from medicina_naturista.ai.categories import CategoryTree, load_category_tree
 from medicina_naturista.ai.db import get_pool
 from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningful_words as _meaningful_words
-from medicina_naturista.ai.search import RRF_MAX_SCORE, rank
+from medicina_naturista.ai.search import (
+    EVIDENCE_HEADING_PREFIX,
+    EVIDENCE_HEADING_SEPARATOR,
+    MAX_SCORE,
+    rank,
+)
 from medicina_naturista.config import settings
 from medicina_naturista.core.models import SessionData
 
@@ -46,7 +50,9 @@ class Retriever:
     def _context(result: dict[str, Any]) -> str:
         text = str(result["text"])
         heading = str(result.get("heading") or "").strip()
-        return f"Secțiune: {heading}\n\n{text}" if heading else text
+        if not heading:
+            return text
+        return f"{EVIDENCE_HEADING_PREFIX}{heading}{EVIDENCE_HEADING_SEPARATOR}{text}"
 
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
     def collect(self, session: SessionData) -> dict[str, dict[str, Any]]:
@@ -71,34 +77,23 @@ class Retriever:
         category_ids = frozenset(requested_categories) & self._known_category_ids
         if not category_ids or category_ids == self._known_category_ids:
             category_ids = None
-        expansions = expansions_for(query)
         logger.info(
-            "retrieval_started requested_categories=%s applied_categories=%s expansions=%s",
+            "retrieval_started requested_categories=%s applied_categories=%s",
             len(requested_categories),
             len(category_ids) if category_ids else 0,
-            len(expansions),
         )
-        # The fragment's score is its hybrid_score (see ai/search.py: RRF of the
-        # semantic, lexical and heading signals times the priority weight), which
-        # never exceeds RRF_MAX_SCORE. relevance_percent is that score as a
-        # percentage of the ceiling. There is one query, so nothing is combined.
-        #
-        # No relevance_percent threshold is applied here — every candidate rank()
-        # returned becomes evidence, below. The only place a fragment is ever
-        # dropped now is fit_evidence_to_context()'s MAX_CONTEXT_CHARS budget cut
-        # (see medicina_naturista.ai.client), applied once, downstream, by the
-        # caller — not here.
-        candidates = rank(
-            query,
-            category_ids=category_ids,
-            expansions=expansions,
-            condition_names=condition_names_for(query),
-        )
+        # The fragment's score is rank()'s score (ai/search.py:
+        # 8*P1 + 4*P2 + 2*L + V, never above MAX_SCORE); relevance_percent is
+        # that score as a percentage of the ceiling. rank() applies the only
+        # limit there is, the MAX_CONTEXT_CHARS budget over the evidence text,
+        # by cutting whole fragments from the end of the score-ordered list, so
+        # every fragment it returns becomes evidence, below.
+        candidates = rank(query, category_ids=category_ids)
 
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
         evidence: dict[str, dict[str, Any]] = {}
-        for best in sorted(candidates, key=lambda result: result["hybrid_score"], reverse=True):
+        for best in candidates:
             evidence[f"C{best['chunk_id']}"] = {
                 "source": (
                     f"documents/{best['source_relative_path']}:{best['line_start']}-{best['line_end']}"
@@ -106,13 +101,17 @@ class Retriever:
                 "text": self._context(best),
                 # Every consumer (the UI panel, the AI-context budget trimming)
                 # reads these fields directly and formats/orders from them.
-                "score": best["hybrid_score"],
-                "relevance_percent": best["hybrid_score"] / RRF_MAX_SCORE * 100.0,
-                # Raw scores of the query (lexical is None when it did not match
-                # the fragment lexically); informational only.
-                "semantic_similarity": best.get("semantic_similarity"),
+                "score": best["score"],
+                "relevance_percent": best["score"] / MAX_SCORE * 100.0,
+                # The components of the score, informational only: L (None when
+                # the query did not match the fragment lexically), V, and the raw
+                # cosine similarity behind V.
                 "lexical_score": best.get("lexical_score"),
-                "priority": best.get("priority"),
+                "semantic_score": best.get("semantic_score"),
+                "semantic_similarity": best.get("semantic_similarity"),
+                # P1 / P2: the searched condition is in the fragment's title / text.
+                "condition_in_title": best["condition_in_title"],
+                "condition_in_text": best["condition_in_text"],
                 "business_category": best.get("business_category"),
                 "primary_medical_conditions": best.get("primary_medical_conditions", []),
                 "secondary_medical_conditions": best.get("secondary_medical_conditions", []),

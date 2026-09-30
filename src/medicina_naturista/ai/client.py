@@ -9,15 +9,14 @@ from typing import Any
 
 import httpx
 
-from medicina_naturista.config import Settings, settings
+from medicina_naturista.config import Settings
 
 logger = logging.getLogger("naturist.ai")
 SECTIONS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
-MAX_CONTEXT_CHARS = settings.max_context_chars
 GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
     Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
-# Evidence fragments as the AI request carries them, highest hybrid score first.
+# Evidence fragments as the AI request carries them, highest score first.
 def _ordered_entries(evidence: dict[str, dict[str, Any]]) -> list[dict[str, str]]:
     ordered_tokens = sorted(
         evidence.keys(),
@@ -30,42 +29,6 @@ def _ordered_entries(evidence: dict[str, dict[str, Any]]) -> list[dict[str, str]
     ]
 
 
-# How many leading entries fit `limit` characters once serialized. entries[:k]
-# serialized length = 2 (brackets) + sum of each kept entry's own serialized
-# length + 2 * (k - 1) (", " separators). Scanning forward over best-first
-# entries keeps exactly the highest-scored prefix that fits, in O(n).
-def _entries_within_budget(entries: list[dict[str, str]], limit: int) -> int:
-    budget = limit - 2
-    running_total = 0
-    keep = 0
-    for index, entry in enumerate(entries):
-        addition = len(json.dumps(entry, ensure_ascii=False)) + (2 if index > 0 else 0)
-        if running_total + addition > budget:
-            break
-        running_total += addition
-        keep = index + 1
-    return keep
-
-
-# The only place MAX_CONTEXT_CHARS is applied: keep the highest-scored prefix of
-# fragments that fits it. It runs once, right after retrieval, so the patient sees
-# exactly the fragments the AI request will carry; the request itself sends them
-# all, unchanged.
-def fit_evidence_to_context(evidence: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    entries = _ordered_entries(evidence)
-    keep = _entries_within_budget(entries, MAX_CONTEXT_CHARS)
-    if keep == len(entries):
-        return evidence
-    logger.warning(
-        "fragments_limited_to_context_budget entries=%s->%s limit=%s dropped_lowest_relevance=%s",
-        len(entries),
-        keep,
-        MAX_CONTEXT_CHARS,
-        len(entries) - keep,
-    )
-    return {entry["id"]: evidence[entry["id"]] for entry in entries[:keep]}
-
-
 class AIUnavailable(RuntimeError):
     pass
 
@@ -74,9 +37,9 @@ class XAIClient:
     # Initialize the HTTP client and load the report-generation system prompt.
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
-        # Read timeout raised to 5 minutes: without a MIN_RELEVANCE_PERCENT
-        # floor, a request can carry close to MAX_CONTEXT_CHARS (2.4M chars,
-        # ~600K tokens), which routinely took longer than the previous 75s.
+        # Read timeout raised to 5 minutes: a request can carry close to
+        # MAX_CONTEXT_CHARS (1M chars, ~250K tokens), which can take longer
+        # than the previous 75s.
         self.http = httpx.Client(timeout=httpx.Timeout(300.0, connect=10.0))
         self.generate_system_prompt = GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(
             encoding="utf-8"

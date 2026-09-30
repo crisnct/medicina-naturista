@@ -1,0 +1,583 @@
+{
+  "summary": {
+    "queries": 57,
+    "precision_at_10": 0.3228070175438596,
+    "mrr": 0.7904545454545454,
+    "ndcg_at_10": 0.5982430975377377,
+    "recall_at_50": 0.7157408318209699,
+    "latency_p50_ms": 984.7930999239907,
+    "latency_p95_ms": 3260.9105000738055
+  },
+  "queries": [
+    {
+      "query": "gută",
+      "relevant_total": 17,
+      "candidates": 372,
+      "precision_at_10": 0.8,
+      "reciprocal_rank": 0.5,
+      "ndcg_at_10": 0.7162874455029682,
+      "recall_at_50": 1.0,
+      "latency_ms": 3116.6950999759138
+    },
+    {
+      "query": "guta tratament naturist",
+      "relevant_total": 17,
+      "candidates": 372,
+      "precision_at_10": 0.9,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.9363792118010483,
+      "recall_at_50": 0.8823529411764706,
+      "latency_ms": 2423.661099979654
+    },
+    {
+      "query": "artrita gutoasa",
+      "relevant_total": 17,
+      "candidates": 230,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 0.5,
+      "ndcg_at_10": 0.13886244387355454,
+      "recall_at_50": 0.35294117647058826,
+      "latency_ms": 3260.9105000738055
+    },
+    {
+      "query": "artroză de genunchi",
+      "relevant_total": 7,
+      "candidates": 203,
+      "precision_at_10": 0.6,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.9083745556952364,
+      "recall_at_50": 0.8571428571428571,
+      "latency_ms": 3015.6534999841824
+    },
+    {
+      "query": "gonartroza",
+      "relevant_total": 7,
+      "candidates": 206,
+      "precision_at_10": 0.6,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.8625618335428545,
+      "recall_at_50": 0.8571428571428571,
+      "latency_ms": 2844.9074999662116
+    },
+    {
+      "query": "coxartroza",
+      "relevant_total": 7,
+      "candidates": 209,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 0.25,
+      "ndcg_at_10": 0.11838279295536291,
+      "recall_at_50": 0.2857142857142857,
+      "latency_ms": 3285.385000053793
+    },
+    {
+      "query": "anemie",
+      "relevant_total": 1,
+      "candidates": 371,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 3210.2781999856234
+    },
+    {
+      "query": "anemia feripriva",
+      "relevant_total": 1,
+      "candidates": 223,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 3596.035199938342
+    },
+    {
+      "query": "constipație",
+      "relevant_total": 5,
+      "candidates": 362,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.3391602052736161,
+      "recall_at_50": 0.8,
+      "latency_ms": 3241.1156999878585
+    },
+    {
+      "query": "constipatie cronica",
+      "relevant_total": 5,
+      "candidates": 359,
+      "precision_at_10": 0.3,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.7227265726449519,
+      "recall_at_50": 0.6,
+      "latency_ms": 3132.4561999645084
+    },
+    {
+      "query": "depresie",
+      "relevant_total": 11,
+      "candidates": 325,
+      "precision_at_10": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.5637884576902256,
+      "recall_at_50": 1.0,
+      "latency_ms": 2793.2830000063404
+    },
+    {
+      "query": "depresia si anxietate",
+      "relevant_total": 12,
+      "candidates": 364,
+      "precision_at_10": 0.4,
+      "reciprocal_rank": 0.2,
+      "ndcg_at_10": 0.3063365306564336,
+      "recall_at_50": 0.5,
+      "latency_ms": 3213.6313000228256
+    },
+    {
+      "query": "cancer",
+      "relevant_total": 199,
+      "candidates": 292,
+      "precision_at_10": 0.3,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.4690000933206748,
+      "recall_at_50": 0.1658291457286432,
+      "latency_ms": 2210.567899979651
+    },
+    {
+      "query": "hepatita B",
+      "relevant_total": 54,
+      "candidates": 305,
+      "precision_at_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 0.8148148148148148,
+      "latency_ms": 1285.6502999784425
+    },
+    {
+      "query": "helicobacter pylori",
+      "relevant_total": 8,
+      "candidates": 212,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.41253177989255346,
+      "recall_at_50": 1.0,
+      "latency_ms": 741.4648999692872
+    },
+    {
+      "query": "HPV",
+      "relevant_total": 16,
+      "candidates": 202,
+      "precision_at_10": 0.9,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.8611375561264454,
+      "recall_at_50": 0.875,
+      "latency_ms": 780.3123000776395
+    },
+    {
+      "query": "herpes",
+      "relevant_total": 6,
+      "candidates": 330,
+      "precision_at_10": 0.5,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg_at_10": 0.5724808586676197,
+      "recall_at_50": 0.8333333333333334,
+      "latency_ms": 613.0352000473067
+    },
+    {
+      "query": "leucemie",
+      "relevant_total": 12,
+      "candidates": 360,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.30523488393970116,
+      "recall_at_50": 0.6666666666666666,
+      "latency_ms": 830.8930000057444
+    },
+    {
+      "query": "chisturi",
+      "relevant_total": 8,
+      "candidates": 302,
+      "precision_at_10": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.647939623894138,
+      "recall_at_50": 0.875,
+      "latency_ms": 921.7128999298438
+    },
+    {
+      "query": "menopauza",
+      "relevant_total": 8,
+      "candidates": 343,
+      "precision_at_10": 0.6,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.8189080569732082,
+      "recall_at_50": 1.0,
+      "latency_ms": 974.108700058423
+    },
+    {
+      "query": "infecție urinară",
+      "relevant_total": 16,
+      "candidates": 339,
+      "precision_at_10": 0.6,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.7151857987862356,
+      "recall_at_50": 0.75,
+      "latency_ms": 932.8498999821022
+    },
+    {
+      "query": "cistita",
+      "relevant_total": 9,
+      "candidates": 356,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 0.25,
+      "ndcg_at_10": 0.19215663883127904,
+      "recall_at_50": 0.3333333333333333,
+      "latency_ms": 967.3265001038089
+    },
+    {
+      "query": "ulcer gastric",
+      "relevant_total": 13,
+      "candidates": 370,
+      "precision_at_10": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.5637884576902256,
+      "recall_at_50": 0.3076923076923077,
+      "latency_ms": 636.9283000240102
+    },
+    {
+      "query": "gripă",
+      "relevant_total": 7,
+      "candidates": 358,
+      "precision_at_10": 0.5,
+      "reciprocal_rank": 0.25,
+      "ndcg_at_10": 0.4970038649456442,
+      "recall_at_50": 1.0,
+      "latency_ms": 1096.4035999495536
+    },
+    {
+      "query": "insomnie",
+      "relevant_total": 4,
+      "candidates": 366,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.3903800499921017,
+      "recall_at_50": 0.25,
+      "latency_ms": 821.9860000535846
+    },
+    {
+      "query": "paraziți intestinali",
+      "relevant_total": 9,
+      "candidates": 346,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.23504554941448536,
+      "recall_at_50": 0.1111111111111111,
+      "latency_ms": 1145.5741999670863
+    },
+    {
+      "query": "diabet zaharat",
+      "relevant_total": 65,
+      "candidates": 298,
+      "precision_at_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 0.5846153846153846,
+      "latency_ms": 1019.3238999927416
+    },
+    {
+      "query": "ciroza hepatica",
+      "relevant_total": 11,
+      "candidates": 264,
+      "precision_at_10": 0.7,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.800693766409882,
+      "recall_at_50": 0.7272727272727273,
+      "latency_ms": 805.5280999979004
+    },
+    {
+      "query": "acnee",
+      "relevant_total": 3,
+      "candidates": 313,
+      "precision_at_10": 0.0,
+      "reciprocal_rank": 0.09090909090909091,
+      "ndcg_at_10": 0.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 723.8991999765858
+    },
+    {
+      "query": "căderea părului",
+      "relevant_total": 2,
+      "candidates": 308,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 0.1,
+      "ndcg_at_10": 0.17723928678404774,
+      "recall_at_50": 0.5,
+      "latency_ms": 1064.8682001046836
+    },
+    {
+      "query": "astm bronsic",
+      "relevant_total": 2,
+      "candidates": 380,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 749.1571999853477
+    },
+    {
+      "query": "hemoroizi",
+      "relevant_total": 3,
+      "candidates": 379,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.46927872602275644,
+      "recall_at_50": 0.3333333333333333,
+      "latency_ms": 1031.4159999834374
+    },
+    {
+      "query": "hipertensiune arterială",
+      "relevant_total": 9,
+      "candidates": 311,
+      "precision_at_10": 0.7,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.7812486170804572,
+      "recall_at_50": 1.0,
+      "latency_ms": 1064.4834000850096
+    },
+    {
+      "query": "colesterol mărit",
+      "relevant_total": 11,
+      "candidates": 319,
+      "precision_at_10": 0.5,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.6489315753318465,
+      "recall_at_50": 0.5454545454545454,
+      "latency_ms": 1021.6852000448853
+    },
+    {
+      "query": "tiroida Hashimoto",
+      "relevant_total": 7,
+      "candidates": 348,
+      "precision_at_10": 0.3,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.5666867828578932,
+      "recall_at_50": 0.5714285714285714,
+      "latency_ms": 964.9753000121564
+    },
+    {
+      "query": "osteoporoza",
+      "relevant_total": 18,
+      "candidates": 281,
+      "precision_at_10": 0.6,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.6867151830982591,
+      "recall_at_50": 0.6111111111111112,
+      "latency_ms": 1149.215399986133
+    },
+    {
+      "query": "varice",
+      "relevant_total": 2,
+      "candidates": 346,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 0.125,
+      "ndcg_at_10": 0.19342640361727081,
+      "recall_at_50": 0.5,
+      "latency_ms": 824.2917000316083
+    },
+    {
+      "query": "migrena",
+      "relevant_total": 2,
+      "candidates": 354,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 990.0768999941647
+    },
+    {
+      "query": "sinuzita",
+      "relevant_total": 1,
+      "candidates": 288,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 1014.9831000017002
+    },
+    {
+      "query": "prostata mărită",
+      "relevant_total": 5,
+      "candidates": 247,
+      "precision_at_10": 0.5,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.9374130297304558,
+      "recall_at_50": 1.0,
+      "latency_ms": 599.0603999234736
+    },
+    {
+      "query": "psoriazis",
+      "relevant_total": 1,
+      "candidates": 286,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 0.16666666666666666,
+      "ndcg_at_10": 0.3562071871080222,
+      "recall_at_50": 1.0,
+      "latency_ms": 937.8117999294773
+    },
+    {
+      "query": "colici abdominali",
+      "relevant_total": 1,
+      "candidates": 359,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 931.6401000833139
+    },
+    {
+      "query": "bronsita",
+      "relevant_total": 2,
+      "candidates": 363,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 876.6863000346348
+    },
+    {
+      "query": "gout",
+      "relevant_total": 17,
+      "candidates": 234,
+      "precision_at_10": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.4480300279758384,
+      "recall_at_50": 0.4117647058823529,
+      "latency_ms": 786.8756999960169
+    },
+    {
+      "query": "artrita gutosa",
+      "relevant_total": 17,
+      "candidates": 231,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.33013764944712026,
+      "recall_at_50": 0.4117647058823529,
+      "latency_ms": 928.7881000200287
+    },
+    {
+      "query": "cuperoza",
+      "relevant_total": 2,
+      "candidates": 260,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 789.5791999762878
+    },
+    {
+      "query": "rosacea",
+      "relevant_total": 2,
+      "candidates": 254,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 908.3260000916198
+    },
+    {
+      "query": "hiperplazie benigna de prostata",
+      "relevant_total": 5,
+      "candidates": 218,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.3391602052736161,
+      "recall_at_50": 0.6,
+      "latency_ms": 972.7697001071647
+    },
+    {
+      "query": "alopecie androgenetica",
+      "relevant_total": 2,
+      "candidates": 214,
+      "precision_at_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg_at_10": 0.0,
+      "recall_at_50": 0.0,
+      "latency_ms": 984.7930999239907
+    },
+    {
+      "query": "boala Alzheimer",
+      "relevant_total": 5,
+      "candidates": 260,
+      "precision_at_10": 0.5,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 1047.4137000273913
+    },
+    {
+      "query": "amigdalita cronica",
+      "relevant_total": 2,
+      "candidates": 215,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.6131471927654584,
+      "recall_at_50": 0.5,
+      "latency_ms": 850.2975000301376
+    },
+    {
+      "query": "angina pectorala",
+      "relevant_total": 1,
+      "candidates": 274,
+      "precision_at_10": 0.1,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 1.0,
+      "latency_ms": 918.4981000144035
+    },
+    {
+      "query": "aritmie cardiaca",
+      "relevant_total": 0,
+      "candidates": 266,
+      "precision_at_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg_at_10": 0.0,
+      "recall_at_50": null,
+      "latency_ms": 1026.715699932538
+    },
+    {
+      "query": "alergie alimentara",
+      "relevant_total": 9,
+      "candidates": 339,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.305801310135566,
+      "recall_at_50": 0.3333333333333333,
+      "latency_ms": 1095.0598999625072
+    },
+    {
+      "query": "artrita reumatoida",
+      "relevant_total": 3,
+      "candidates": 538,
+      "precision_at_10": 0.0,
+      "reciprocal_rank": 0.04,
+      "ndcg_at_10": 0.0,
+      "recall_at_50": 0.6666666666666666,
+      "latency_ms": 1446.8249999918044
+    },
+    {
+      "query": "ateroscleroza",
+      "relevant_total": 2,
+      "candidates": 303,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 0.25,
+      "ndcg_at_10": 0.5012658353418871,
+      "recall_at_50": 1.0,
+      "latency_ms": 900.0312999123707
+    },
+    {
+      "query": "alcoolism",
+      "relevant_total": 3,
+      "candidates": 377,
+      "precision_at_10": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_10": 0.6508205185601091,
+      "recall_at_50": 0.6666666666666666,
+      "latency_ms": 946.7341999989003
+    }
+  ]
+}
