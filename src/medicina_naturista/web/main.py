@@ -310,10 +310,13 @@ def get_session(request: Request):
     session = _current(request, create=True)
     with session.lock:
         if not session.history:
-            _append(session, _text("assistant", WELCOME))
             question = session.profile.next_question()
             if question:
-                _ask(session, question)
+                # Greeting and first question are one chat bubble; the transcript keeps the bare question.
+                _append(session, _text("assistant", f"{WELCOME}\n\n{question}"))
+                session.profile.add_transcript("assistant", question)
+            else:
+                _append(session, _text("assistant", WELCOME))
         logger.info("session_loaded tab_id=%s history_entries=%s", session.tab_id, len(session.history))
         return {"history": list(session.history)}
 

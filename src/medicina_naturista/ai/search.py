@@ -102,23 +102,27 @@ def lexical_queries(text: str, expansions: Sequence[str] = ()) -> tuple[str | No
     return strict, " | ".join(f"{stem}:*" for stem in loose_stems)
 
 
-# Chunk ids matching a to_tsquery() string, best first, at most `limit`.
-# ts_rank_cd with normalization=1 divides the rank by 1+log(document length),
-# so a short focused match outranks the same words buried in a much longer
-# chunk — the closest built-in equivalent to BM25's length normalization.
-def _lexical_ids(cursor, tsquery: str, category_filter: str, category_params: list[object], limit: int) -> list[int]:
+# (chunk id, raw ts_rank_cd score) pairs matching a to_tsquery() string, best
+# first, at most `limit`. ts_rank_cd with normalization=1 divides the rank by
+# 1+log(document length), so a short focused match outranks the same words
+# buried in a much longer chunk — the closest built-in equivalent to BM25's
+# length normalization. Only the order feeds the RRF fusion; the raw score is
+# carried along purely so it can be reported.
+def _lexical_hits(
+    cursor, tsquery: str, category_filter: str, category_params: list[object], limit: int
+) -> list[tuple[int, float]]:
     and_category = f"AND {category_filter}" if category_filter else ""
     rows = cursor.execute(
         f"""
-        SELECT chunk_id
+        SELECT chunk_id, ts_rank_cd(text_search, query, 1) AS lexical_score
         FROM chunks, (SELECT to_tsquery('simple', unaccent(%s)) AS query) AS q
         WHERE text_search @@ query {and_category}
-        ORDER BY ts_rank_cd(text_search, query, 1) DESC
+        ORDER BY lexical_score DESC
         LIMIT %s
         """,
         [tsquery, *category_params, limit],
     ).fetchall()
-    return [row.chunk_id for row in rows]
+    return [(row.chunk_id, float(row.lexical_score)) for row in rows]
 
 
 # Chunk ids whose section heading or file path matches the strict tsquery,
@@ -208,28 +212,29 @@ def rank(
                 ).fetchall()
             ]
 
-            lexical_ids: list[int] = []
+            lexical_hits: list[tuple[int, float]] = []
             strict, loose = lexical_queries(query, expansions)
             if strict:
-                lexical_ids = _lexical_ids(cursor, strict, category_filter, category_params, limit)
+                lexical_hits = _lexical_hits(cursor, strict, category_filter, category_params, limit)
                 # Too few all-words matches: widen to any content word. The
                 # strict matches stay first (they rank above every loose-only
                 # match), so this only ever appends candidates.
-                if len(lexical_ids) < MIN_STRICT_LEXICAL_HITS and loose != strict:
-                    seen = set(lexical_ids)
+                if len(lexical_hits) < MIN_STRICT_LEXICAL_HITS and loose != strict:
+                    seen = {chunk_id for chunk_id, _ in lexical_hits}
                     extra = [
-                        chunk_id
-                        for chunk_id in _lexical_ids(cursor, loose, category_filter, category_params, limit)
-                        if chunk_id not in seen
+                        hit
+                        for hit in _lexical_hits(cursor, loose, category_filter, category_params, limit)
+                        if hit[0] not in seen
                     ]
-                    lexical_ids += extra[: limit - len(lexical_ids)]
+                    lexical_hits += extra[: limit - len(lexical_hits)]
 
             heading_ids: list[int] = []
             if strict:
                 heading_ids = _heading_ids(cursor, strict, query_vector, category_filter, category_params, limit)
 
             semantic_rank = {chunk_id: position for position, chunk_id in enumerate(semantic_ids, start=1)}
-            lexical_rank = {chunk_id: position for position, chunk_id in enumerate(lexical_ids, start=1)}
+            lexical_rank = {chunk_id: position for position, (chunk_id, _) in enumerate(lexical_hits, start=1)}
+            lexical_score = dict(lexical_hits)
             heading_rank = {chunk_id: position for position, chunk_id in enumerate(heading_ids, start=1)}
             rows = cursor.execute(
                 """
@@ -262,6 +267,7 @@ def rank(
             "conditions": list(row.conditions),
             "semantic_similarity": float(row.semantic_similarity),
             "lexical_rank": fragment_lexical_rank,
+            "lexical_score": lexical_score.get(row.chunk_id),
             "found_by_lexical": fragment_lexical_rank is not None,
             "found_by_heading": fragment_heading_rank is not None,
             "source_relative_path": row.source_relative_path,

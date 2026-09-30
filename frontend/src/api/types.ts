@@ -13,6 +13,8 @@ export interface FragmentItem {
   document: string;
   text: string;
   relevancePercent: number | null;
+  semanticScore: number | null;
+  lexicalScore: number | null;
   priority: number | null;
   matchLabel: string;
   foundByLexical: boolean;

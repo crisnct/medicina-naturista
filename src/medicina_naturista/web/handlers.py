@@ -115,6 +115,8 @@ def _fragments_message(search_id: str, evidence: dict) -> dict[str, Any]:
             "text": _normalize_text(item["text"]),
             "score": item.get("score", float("-inf")),
             "relevancePercent": item.get("relevance_percent"),
+            "semanticScore": item.get("semantic_similarity"),
+            "lexicalScore": item.get("lexical_score"),
             "priority": item.get("priority"),
             "matchLabel": _match_type_label(item),
             "foundByLexical": bool(item.get("found_by_lexical")),
