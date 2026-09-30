@@ -309,7 +309,7 @@ class SyncTests(unittest.TestCase):
             ).fetchone()[0]
         self.assertEqual(model_name, builder.DEFAULT_MODEL)
 
-    def test_sync_stores_priority_and_conditions_per_fragment(self):
+    def test_sync_stores_conditions_and_heading_per_fragment(self):
         (self.source / "carte.md").write_text(
             "# Carte\n## Gripa\nCeai de scortisoara.\n## Plante\nMenta ajută la febra.\n## Altele\nApă.",
             encoding="utf-8",
@@ -322,15 +322,13 @@ class SyncTests(unittest.TestCase):
         ):
             self._sync()
 
-        rows = self._rows("chunks", "source_relative_path, heading, priority, conditions")
-        by_key = {(row.source_relative_path, row.priority): row for row in rows}
+        rows = self._rows("chunks", "source_relative_path, heading, conditions")
+        by_key = {(row.source_relative_path, row.heading): row for row in rows}
         self.assertEqual(len(rows), 4)
-        self.assertEqual(by_key[("Febra.md", 1)].conditions, ["Febra"])
-        self.assertEqual(by_key[("carte.md", 1)].heading, "Carte > Gripa")
-        self.assertEqual(by_key[("carte.md", 1)].conditions, ["Gripa"])
-        self.assertEqual(by_key[("carte.md", 3)].heading, "Carte > Plante")
-        self.assertEqual(by_key[("carte.md", 3)].conditions, ["Febra"])
-        self.assertEqual(by_key[("carte.md", 5)].conditions, [])
+        self.assertEqual(by_key[("Febra.md", "Febra")].conditions, ["Febra"])
+        self.assertEqual(by_key[("carte.md", "Carte > Gripa")].conditions, ["Gripa"])
+        self.assertEqual(by_key[("carte.md", "Carte > Plante")].conditions, ["Febra"])
+        self.assertEqual(by_key[("carte.md", "Carte > Altele")].conditions, [])
 
     def test_category_id_comes_from_containing_folder(self):
         (self.source / "Cancer").mkdir()

@@ -1,23 +1,24 @@
-"""Splits one document into fragments, each tagged with a PRIORITY and the
-medical conditions (data/medical_conditions.txt) it is about.
+"""Splits one document into fragments, each tagged with the medical conditions
+(data/medical_conditions.txt) it is about. How relevant a fragment is to a
+search (its priority) is decided at search time, not here (see ai/search.py).
 
-Criteria, applied in this order (a lower PRIORITY number ranks higher):
+Criteria, applied in this order:
 
-1. PRIORITY 1: the file or a folder name contains a condition -> the whole
-   document is one fragment.
-2. No real Markdown heading (page markers do not count) -> plain text,
-   PRIORITY 5: one fragment up to PLAIN_CHUNK_CHARS, otherwise pieces of about
-   that size that end at the first sentence end after it.
-3. PRIORITY 1: a heading names a condition -> that heading and everything
-   under it is one fragment whose path is the chain of headings down to it.
-   Its lines are then taken out of play for the next criteria.
-4. PRIORITY 3: in the remaining sections, one that mentions a condition in its
-   own text -> one fragment made of the headings of all its ancestors, its own
-   heading and its text (never the ancestors' introductions).
-5. PRIORITY 5: whatever text is left, section by section, cut as in criterion 2.
+1. The file or a folder name contains a condition -> the whole document is one
+   fragment.
+2. No real Markdown heading (page markers do not count) -> plain text: one
+   fragment up to PLAIN_CHUNK_CHARS, otherwise pieces of about that size that
+   end at the first sentence end after it.
+3. A heading names a condition -> that heading and everything under it is one
+   fragment whose path is the chain of headings down to it. Its lines are then
+   taken out of play for the next criteria.
+4. In the remaining sections, one that mentions a condition in its own text ->
+   one fragment made of the headings of all its ancestors, its own heading and
+   its text (never the ancestors' introductions).
+5. Whatever text is left, section by section, cut as in criterion 2.
 
 Any fragment longer than MAX_FRAGMENT_CHARS is split further; the parts keep
-the priority, conditions and path of the fragment they came from."""
+the conditions and path of the fragment they came from."""
 from __future__ import annotations
 
 import re
@@ -26,10 +27,6 @@ from dataclasses import dataclass
 from pathlib import PurePosixPath
 
 from medicina_naturista.ai.conditions import Condition, ConditionDictionary, load_dictionary
-
-PRIORITY_DOCUMENT = 1
-PRIORITY_SECTION = 3
-PRIORITY_PLAIN = 5
 
 # Plain text is cut into pieces of about this many characters, extended to the
 # end of the sentence that crosses the limit.
@@ -50,7 +47,6 @@ class Fragment:
     line_start: int  # 1-based, inclusive
     line_end: int
     path: str  # chain of headings ("Carte > Gripa"), "" when there is none
-    priority: int
     conditions: tuple[str, ...]  # canonical names of the conditions the fragment is about
 
 
@@ -178,7 +174,6 @@ def _fragments(
     *,
     prefix: str,
     path: str,
-    priority: int,
     conditions: tuple[str, ...],
     plain_mode: bool,
     first_line: int | None = None,
@@ -189,7 +184,7 @@ def _fragments(
         if index == 0 and first_line is not None:
             start = min(start, first_line)
         text = f"{prefix}\n{body}" if prefix else body
-        fragments.append(Fragment(text, start, end, path, priority, conditions))
+        fragments.append(Fragment(text, start, end, path, conditions))
     return fragments
 
 
@@ -202,13 +197,14 @@ def _names(conditions: list[Condition]) -> tuple[str, ...]:
 _SOURCE_EXTENSIONS = frozenset({".docx", ".doc", ".rtf", ".pdf", ".gdoc", ".odt", ".xlsx", ".pptx", ".txt"})
 
 
-# The document's title: its file name without the .md and the original extension.
+# The document's path: its folders and its file name without the .md and the
+# original extension ("Afectiuni > Guta > Recomandari").
 def _document_title(relative_path: str) -> str:
     path = PurePosixPath(relative_path)
     stem = path.stem
     while PurePosixPath(stem).suffix.lower() in _SOURCE_EXTENSIONS:
         stem = PurePosixPath(stem).stem
-    return stem
+    return " > ".join((*path.parts[:-1], stem))
 
 
 # Split one already-normalized document into prioritised fragments.
@@ -228,17 +224,17 @@ def fragment_document(
     headings = _parse_headings(lines)
 
     # Criterion 1: the name says what the document is about. The document's
-    # title stands in for the heading path, so the heading signal of the search
-    # (ai/search.py) still sees the name that made this a priority-1 fragment.
+    # folders and title stand in for the heading path, so the search (ai/search.py)
+    # still sees the name that made this document-level fragment.
     if name_conditions:
         return _fragments(
             _span(lines, 0, len(lines)), prefix="", path=_document_title(relative_path),
-            priority=PRIORITY_DOCUMENT, conditions=name_conditions, plain_mode=False,
+            conditions=name_conditions, plain_mode=False,
         )
     # Criterion 2: no structure to follow.
     if not headings:
         return _fragments(
-            _span(lines, 0, len(lines)), prefix="", path="", priority=PRIORITY_PLAIN,
+            _span(lines, 0, len(lines)), prefix="", path="",
             conditions=(), plain_mode=True,
         )
 
@@ -261,7 +257,7 @@ def fragment_document(
         found = [condition for i in inside for condition in title_conditions[i]]
         fragments += _fragments(
             _span(lines, heading.line, heading.subtree_end), prefix="", path=path_of(position),
-            priority=PRIORITY_DOCUMENT, conditions=_names(found), plain_mode=False,
+            conditions=_names(found), plain_mode=False,
         )
         for index in range(heading.line, heading.subtree_end):
             consumed[index] = True
@@ -291,7 +287,6 @@ def fragment_document(
             path, first_line = path_of(position), headings[position].line + 1
         fragments += _fragments(
             body, prefix=prefix, path=path,
-            priority=PRIORITY_SECTION if found else PRIORITY_PLAIN,
             conditions=_names(found), plain_mode=not found, first_line=first_line,
         )
 

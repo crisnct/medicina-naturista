@@ -51,49 +51,48 @@ class ConditionDetectionTests(unittest.TestCase):
 
 
 class NameCriterionTests(unittest.TestCase):
-    def test_file_name_with_a_condition_makes_one_fragment_of_priority_1(self):
+    def test_file_name_with_a_condition_makes_one_fragment_with_its_conditions(self):
         text = "# Titlu\n\nUn text.\n\n## Altceva\n\nAlt text."
 
         fragments = split(text, "Boli/Gripa.md")
 
         self.assertEqual(len(fragments), 1)
-        self.assertEqual(fragments[0].priority, 1)
         self.assertEqual(fragments[0].conditions, ("Gripa",))
-        self.assertEqual(fragments[0].path, "Gripa")
+        self.assertEqual(fragments[0].path, "Boli > Gripa")
         self.assertIn("Alt text.", fragments[0].text)
         self.assertEqual((fragments[0].line_start, fragments[0].line_end), (1, 7))
 
     def test_folder_name_with_a_condition_counts_too(self):
         fragments = split("Doar text simplu despre remedii.", "Afectiuni/Constipatie/Nota.md")
 
-        self.assertEqual([(f.priority, f.conditions) for f in fragments], [(1, ("Constipatie",))])
+        self.assertEqual([f.conditions for f in fragments], [("Constipatie",)])
 
     def test_document_title_drops_the_original_extension(self):
         fragments = split("Text.", "Afectiuni/Constipatie/Constipatie rebela.rtf.md")
 
-        self.assertEqual(fragments[0].path, "Constipatie rebela")
+        self.assertEqual(fragments[0].path, "Afectiuni > Constipatie > Constipatie rebela")
 
     def test_huge_named_document_is_split_but_keeps_its_metadata(self):
         fragments = split(sentences(1500), "Gripa.md")
 
         self.assertGreater(len(fragments), 1)
         self.assertTrue(all(len(f.text) <= fragmenter.MAX_FRAGMENT_CHARS for f in fragments))
-        self.assertTrue(all((f.priority, f.conditions) == (1, ("Gripa",)) for f in fragments))
+        self.assertTrue(all(f.conditions == ("Gripa",) for f in fragments))
 
 
 class PlainTextTests(unittest.TestCase):
-    def test_short_text_is_one_fragment_of_priority_5(self):
+    def test_short_text_is_one_fragment_without_conditions(self):
         text = "Coada-calului ajută la infecții urinare.\nSe bea ceai."
 
         fragments = split(text)
 
-        self.assertEqual(fragments, [Fragment(text, 1, 2, "", 5, ())])
+        self.assertEqual(fragments, [Fragment(text, 1, 2, "", ())])
 
     def test_long_text_is_cut_after_the_sentence_that_crosses_3000(self):
         fragments = split(sentences(200))
 
         self.assertGreater(len(fragments), 1)
-        self.assertTrue(all(f.priority == 5 and f.conditions == () for f in fragments))
+        self.assertTrue(all(f.conditions == () for f in fragments))
         for fragment in fragments[:-1]:
             self.assertGreaterEqual(len(fragment.text), fragmenter.PLAIN_CHUNK_CHARS)
             self.assertLess(len(fragment.text), fragmenter.PLAIN_CHUNK_CHARS + 100)
@@ -113,7 +112,7 @@ class PlainTextTests(unittest.TestCase):
         fragments = split("### Pagina 1\n\nText.\n\n### Pagina 2\n\nMai mult text.")
 
         self.assertEqual(len(fragments), 1)
-        self.assertEqual(fragments[0].priority, 5)
+        self.assertEqual(fragments[0].conditions, ())
         self.assertNotIn("Pagina", fragments[0].text)
 
 
@@ -134,7 +133,6 @@ class HeadingCriterionTests(unittest.TestCase):
         fragments = split(BOOK)
 
         gripa = next(f for f in fragments if f.conditions == ("Gripa",))
-        self.assertEqual(gripa.priority, 1)
         self.assertEqual(gripa.path, "Vindecare prin nutritie > Gripa")
         self.assertEqual(
             gripa.text,
@@ -143,13 +141,13 @@ class HeadingCriterionTests(unittest.TestCase):
         self.assertEqual((gripa.line_start, gripa.line_end), (3, 6))
 
         acnee = next(f for f in fragments if f.conditions == ("Acnee",))
-        self.assertEqual((acnee.priority, acnee.path), (1, "Vindecare prin nutritie > Acnee"))
+        self.assertEqual(acnee.path, "Vindecare prin nutritie > Acnee")
         self.assertEqual((acnee.line_start, acnee.line_end), (7, 8))
 
-    def test_the_rest_of_the_document_is_priority_5_with_headings(self):
+    def test_the_rest_of_the_document_has_no_conditions_and_keeps_headings(self):
         fragments = split(BOOK)
 
-        rest = [f for f in fragments if f.priority == 5]
+        rest = [f for f in fragments if not f.conditions]
         self.assertEqual(len(rest), 1)
         self.assertEqual(rest[0].text, "# Vindecare prin nutritie\nCarte cu remedii naturiste")
         self.assertEqual(rest[0].conditions, ())
@@ -159,7 +157,7 @@ class HeadingCriterionTests(unittest.TestCase):
 
         fragments = split(text)
 
-        conditions = [f for f in fragments if f.priority == 1]
+        conditions = [f for f in fragments if f.conditions]
         self.assertEqual(len(conditions), 1)
         self.assertEqual(conditions[0].conditions, ("Gripa", "Febra"))
         self.assertIn("### Febra", conditions[0].text)
@@ -167,7 +165,7 @@ class HeadingCriterionTests(unittest.TestCase):
     def test_page_marker_headings_are_neither_path_nor_text(self):
         text = "# Carte\n### Pagina 3\n## Gripa\nText.\n### Pagina 4\nContinuare."
 
-        gripa = next(f for f in split(text) if f.priority == 1)
+        gripa = next(f for f in split(text) if f.conditions)
 
         self.assertEqual(gripa.path, "Carte > Gripa")
         self.assertNotIn("Pagina", gripa.text)
@@ -188,7 +186,7 @@ class MentionCriterionTests(unittest.TestCase):
     def test_section_mentioning_a_condition_gets_ancestor_headings_but_no_intro(self):
         fragments = split(DICTIONARY_BOOK)
 
-        febra = next(f for f in fragments if f.priority == 3)
+        febra = next(f for f in fragments if f.conditions)
         self.assertEqual(
             febra.text,
             "# Dictionarul plantelor de leac\n## Coada soricelului\nUtila in febra, amenoree, dispnee, migrene.",
@@ -198,11 +196,11 @@ class MentionCriterionTests(unittest.TestCase):
         self.assertEqual(febra.path, "Dictionarul plantelor de leac > Coada soricelului")
         self.assertEqual((febra.line_start, febra.line_end), (3, 4))
 
-    def test_sections_without_a_condition_are_priority_5(self):
+    def test_sections_without_a_condition_have_no_conditions(self):
         fragments = split(DICTIONARY_BOOK)
 
         lavanda = next(f for f in fragments if "Lavanda" in f.text)
-        self.assertEqual((lavanda.priority, lavanda.conditions), (5, ()))
+        self.assertEqual(lavanda.conditions, ())
         self.assertEqual(
             lavanda.text,
             "# Dictionarul plantelor de leac\n## Lavanda\nUtila in dureri de cap.",
@@ -211,7 +209,7 @@ class MentionCriterionTests(unittest.TestCase):
     def test_several_conditions_in_one_section_make_one_fragment(self):
         text = "# Plante\n## Traista\nBună pentru febra, gripa și constipatie."
 
-        fragments = [f for f in split(text) if f.priority == 3]
+        fragments = [f for f in split(text) if f.conditions]
 
         self.assertEqual(len(fragments), 1)
         self.assertEqual(fragments[0].conditions, ("Febra", "Gripa", "Constipatie"))
@@ -221,14 +219,14 @@ class MentionCriterionTests(unittest.TestCase):
 
         fragments = split(text)
 
-        self.assertEqual([f.priority for f in fragments], [1, 3])
+        self.assertEqual([f.conditions for f in fragments], [("Gripa",), ("Febra",)])
         self.assertNotIn("Plante", fragments[0].text)
         self.assertNotIn("însoțește", fragments[1].text)
 
     def test_text_before_the_first_heading_is_a_section_without_title(self):
         fragments = split("Introducere despre febra.\n\n# Carte\nText fără nimic.")
 
-        self.assertEqual((fragments[0].priority, fragments[0].path), (3, ""))
+        self.assertEqual((fragments[0].conditions, fragments[0].path), (("Febra",), ""))
         self.assertEqual(fragments[0].text, "Introducere despre febra.")
 
     def test_large_section_is_split_and_keeps_its_headings_and_metadata(self):
@@ -240,7 +238,7 @@ class MentionCriterionTests(unittest.TestCase):
         for fragment in fragments:
             self.assertLessEqual(len(fragment.text), fragmenter.MAX_FRAGMENT_CHARS)
             self.assertTrue(fragment.text.startswith("# Carte\n## Plante\n"))
-            self.assertEqual((fragment.priority, fragment.conditions), (3, ("Febra",)))
+            self.assertEqual(fragment.conditions, ("Febra",))
 
 
 class LineRangeTests(unittest.TestCase):

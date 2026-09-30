@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from medicina_naturista.ai.conditions import expansions_for
+from medicina_naturista.ai.conditions import condition_names_for, expansions_for
 from medicina_naturista.ai.categories import CategoryTree, load_category_tree
 from medicina_naturista.ai.db import get_pool
 from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningful_words as _meaningful_words
@@ -93,7 +93,12 @@ class Retriever:
         found_by_lexical: dict[int, bool] = {}
         for query_number, search_query in enumerate(search_queries, start=1):
             expansions = expansions_for(search_query)
-            candidates = rank(search_query, category_ids=category_ids, expansions=expansions)
+            candidates = rank(
+                search_query,
+                category_ids=category_ids,
+                expansions=expansions,
+                condition_names=condition_names_for(search_query),
+            )
             total_candidates += len(candidates)
             for result in candidates:
                 chunk_id = int(result["chunk_id"])

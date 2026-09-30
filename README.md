@@ -172,21 +172,21 @@ Sincronizarea scrie în trei tabele:
 | Tabel | Conținut |
 |---|---|
 | `documents` | Un rând per fișier sursă: cale, SHA-256, categorie — folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
-| `chunks` | Un rând per fragment: text, interval de linii, categorie, `priority`, `conditions`, vectorul semantic (`embedding vector(384)`) și coloana lexicală (`text_search tsvector`). |
+| `chunks` | Un rând per fragment: text, interval de linii, categorie, `conditions`, vectorul semantic (`embedding vector(384)`) și coloana lexicală (`text_search tsvector`). |
 | `sync_metadata` | Modelul de embeddings folosit și data ultimei sincronizări. |
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 
-Fiecare fragment poartă în `chunks` un `priority` (1 = cel mai bun, 5 = cel mai slab), lista de afecțiuni din `data/medical_conditions.txt` despre care e vorba (`conditions`) și calea titlurilor (`heading`, ex. `Vindecare prin nutritie > Gripa`). Fragmentarea (`src/medicina_naturista/ai/fragmenter.py`) aplică pe rând:
+Fiecare fragment poartă în `chunks` lista de afecțiuni din `data/medical_conditions.txt` despre care e vorba (`conditions`) și calea titlurilor (`heading`, ex. `Vindecare prin nutritie > Gripa`). Fragmentarea (`src/medicina_naturista/ai/fragmenter.py`) aplică pe rând:
 
-| Criteriu | PRIORITY |
-|---|---|
-| Numele fișierului sau al unui folder conține o afecțiune → tot documentul e un fragment | 1 |
-| Document Markdown: un titlu conține o afecțiune → titlul și tot ce ține de el (subtitluri incluse) | 1 |
-| Document Markdown: o secțiune menționează o afecțiune în textul ei (fără liniile deja luate la criteriul anterior) → titlurile strămoșilor + secțiunea, fără introducerile strămoșilor | 3 |
-| Document fără titluri, sau textul rămas nefolosit: ≤ 3000 caractere un fragment, altfel bucăți de ~3000 care se termină la sfârșitul propoziției | 5 |
+| Criteriu de fragmentare |
+|---|
+| Numele fișierului sau al unui folder conține o afecțiune → tot documentul e un fragment |
+| Document Markdown: un titlu conține o afecțiune → titlul și tot ce ține de el (subtitluri incluse) |
+| Document Markdown: o secțiune menționează o afecțiune în textul ei (fără liniile deja luate la criteriul anterior) → titlurile strămoșilor + secțiunea, fără introducerile strămoșilor |
+| Document fără titluri, sau textul rămas nefolosit: ≤ 3000 caractere un fragment, altfel bucăți de ~3000 care se termină la sfârșitul propoziției |
 
-Orice fragment mai lung de 8000 de caractere este împărțit, iar părțile păstrează priority, afecțiunile și calea. La căutare, scorul fuzionat al fragmentului se înmulțește cu `PRIORITY_WEIGHT` din `ai/search.py`: `1 → 1.0`, `3 → 0.7`, `5 → 0.5`.
+Orice fragment mai lung de 8000 de caractere este împărțit, iar părțile păstrează afecțiunile și calea. Prioritatea folosită la clasare se calculează **la căutare**, din afecțiunea introdusă de utilizator: dacă numele ei sau un sinonim apare în titlul/calea fragmentului, PRIORITY=1; dacă apare doar în text, 3; altfel 10. Dacă afecțiunea nu e în dicționar, se caută ca atare, fără sinonime: un fragment se potrivește dacă titlul sau textul conține toate cuvintele importante ale interogării (sau ale unui segment separat prin virgulă). Scorul fuzionat se înmulțește cu `PRIORITY_WEIGHT` din `ai/search.py`: `1 → 1.0`, `3 → 0.7`, `10 → 0.2`. Prioritatea nu se stochează în DB.
 
 Pentru embeddings, un fragment mai lung de `MAX_CHARS = 1400` este împărțit în ferestre care se suprapun cu `OVERLAP_CHARS = 240`, iar vectorii lor se mediază. Diacriticele sunt păstrate prin normalizare Unicode NFC.
 
