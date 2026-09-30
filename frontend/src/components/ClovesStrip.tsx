@@ -14,12 +14,12 @@ const sprites = Object.keys(spriteModules)
 const HIGHLIGHT_INTERVAL_MS = 2000;
 
 // Decorative strip of cloves: all faded, with one at a time brought to full
-// visibility every 2 seconds (a different one each time).
+// visibility every 2 seconds (a different one each time). It only fades opacity
+// (no movement), so it also runs under prefers-reduced-motion.
 export function ClovesStrip() {
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const timer = window.setInterval(() => {
       setActive((current) => {
         const next = Math.floor(Math.random() * (layout.cloves.length - 1));
