@@ -49,11 +49,40 @@ body {
     box-sizing: border-box;
     width: 100%;
     --hero-pad-right: 38px;
-    padding: 22px var(--hero-pad-right) 30px;
+    padding: 22px var(--hero-pad-right) 40px 26px;
     border: 1px solid rgba(47, 125, 109, 0.18);
     border-radius: 20px;
-    background: #f4f9f7 url("./assets/ornament-fitoterapie-antet.svg") center / 100% 100% no-repeat;
+    background:
+        url("./assets/ornament-fitoterapie-antet.svg") center / 100% 100% no-repeat,
+        #f4f9f7;
     box-shadow: 0 18px 46px rgba(36, 51, 46, 0.08);
+}
+
+/* Strip of cloves along the bottom edge: all faded, one at a time fully visible. */
+.cloves-strip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 14px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.cloves-strip-base {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+}
+
+.clove {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 700ms ease;
+}
+
+.clove-active {
+    opacity: 1;
 }
 
 .hero-kicker {
@@ -93,11 +122,11 @@ body {
 }
 
 .hero-doctor {
-    --hero-doctor-size: clamp(56px, 16vw, 96px);
+    --hero-doctor-size: clamp(72px, 20vw, 124px);
     float: right;
     width: var(--hero-doctor-size);
     height: var(--hero-doctor-size);
-    margin: 14px clamp(12px, 3vw, 20px) 18px 12px;
+    margin: 26px clamp(4px, 1vw, 8px) 18px 12px;
     object-fit: contain;
     shape-outside: circle(50%);
     shape-margin: 4px;
@@ -114,7 +143,7 @@ body {
 #conversation-card {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;
     padding: 22px;
     border: 1px solid var(--nature-border);
     border-radius: 20px;
@@ -235,12 +264,12 @@ body {
     box-sizing: border-box;
     min-width: 0;
     max-width: 100%;
-    padding: 14px 18px;
+    padding: 9px 14px;
     border: 1px solid var(--nature-border);
     border-radius: 6px 16px 16px 16px;
     background: var(--nature-soft);
     color: var(--nature-text);
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .message-wrap.user .message {
@@ -260,13 +289,13 @@ body {
 }
 
 .message-line {
-    margin: 0.35em 0;
+    margin: 0.15em 0;
     font-size: 12px;
 }
 
 .message-line-spacer {
-    margin: 0.35em 0;
-    height: 0.5em;
+    margin: 0;
+    height: 0.4em;
 }
 
 .fragments-panel-inner {
@@ -573,8 +602,8 @@ body {
 
 #send-message {
     display: flex;
-    width: 198px;
-    min-width: 198px;
+    width: 120px;
+    min-width: 120px;
     height: 38px;
     align-items: center;
     justify-content: center;
