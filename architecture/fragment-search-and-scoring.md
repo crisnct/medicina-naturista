@@ -53,7 +53,7 @@ Se rulează o dată pe interogare și întoarce doar **candidații** semnalelor,
 - **2.4.2.** `hybrid_score` este suma termenilor `1 / (60 + rang)` pentru fiecare dintre cele trei semnale care a găsit fragmentul (semantic, lexical, titlu).
 - **2.4.2.1.** Suma se înmulțește apoi cu greutatea `PRIORITY` a fragmentului (`PRIORITY_WEIGHT`: `1 → 1,0`, `3 → 0,7`, `10 → 0,2`). Prioritatea se stabilește **pentru fiecare căutare**, din afecțiunea numită de utilizator (`condition_names`: numele ei canonic și toate sinonimele din dicționar, plus `expansions`): 1 dacă un nume apare în `heading` (calea titlurilor; la documentele întregi, folderele și numele fișierului), 3 dacă apare în textul fragmentului, 10 altfel. Dacă afecțiunea nu e în dicționar, nu se folosesc sinonime: interogarea se ia ca atare și un fragment se potrivește când conține toate cuvintele ei importante (pe segmente separate prin virgulă). Prioritatea nu se stochează în DB. Toate greutățile sunt ≤ 1, deci `RRF_MAX_SCORE` rămâne plafonul.
 - **2.4.3.** Se întoarce uniunea candidaților, cu textele aduse dintr-o singură interogare `WHERE chunk_id = ANY(...)`. Un fragment găsit de un singur semnal primește doar termenul lui, dar `semantic_similarity` este raportată oricum.
-- **2.4.4.** Rezultatul fiecărui fragment conține: `chunk_id`, `hybrid_score`, `semantic_similarity`, `lexical_rank`, `found_by_lexical`, `found_by_heading`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`, `priority` (calculată la căutare), `conditions`.
+- **2.4.4.** Rezultatul fiecărui fragment conține: `chunk_id`, `hybrid_score`, `semantic_similarity`, `lexical_rank`, `found_by_lexical`, `found_by_heading`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`, `priority` (calculată la căutare), `business_category`, `primary_medical_conditions`, `secondary_medical_conditions`.
 - **2.4.5.** Lista se sortează descrescător după `hybrid_score`.
 
 ### 2.5. Scorul maxim
@@ -93,7 +93,7 @@ Fragmentele nu se mai unesc: fiecare este o secțiune întreagă (vezi `ai/fragm
   | `text` | contextul de la 5.2 |
   | `score` | `suma_scorurilor / N` |
   | `relevance_percent` | procentul fragmentului |
-  | `priority`, `conditions` | metadatele fragmentului |
+  | `priority`, `business_category`, `primary_medical_conditions`, `secondary_medical_conditions` | metadatele fragmentului |
   | `found_by_lexical` | adevărat dacă a fost găsit lexical |
 
 - **5.4.** Se înregistrează în log numărul de interogări, candidați, dovezi, caractere și surse unice.

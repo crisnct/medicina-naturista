@@ -279,7 +279,8 @@ def rank(
             rows = cursor.execute(
                 """
                 SELECT chunk_id, source_relative_path, source_absolute_path, line_start, line_end,
-                       heading, text, source_sha256, conditions,
+                       heading, text, source_sha256, business_category,
+                       primary_medical_conditions, secondary_medical_conditions,
                        -(embedding <#> %s) AS semantic_similarity
                 FROM chunks
                 WHERE chunk_id = ANY(%s)
@@ -309,7 +310,9 @@ def rank(
             "chunk_id": row.chunk_id,
             "hybrid_score": score,
             "priority": priority,
-            "conditions": list(row.conditions),
+            "business_category": row.business_category,
+            "primary_medical_conditions": list(row.primary_medical_conditions),
+            "secondary_medical_conditions": list(row.secondary_medical_conditions),
             "semantic_similarity": float(row.semantic_similarity),
             "lexical_rank": fragment_lexical_rank,
             "lexical_score": lexical_score.get(row.chunk_id),

@@ -151,7 +151,9 @@ class Retriever:
                 "semantic_similarity": best.get("semantic_similarity"),
                 "lexical_score": best.get("lexical_score"),
                 "priority": best.get("priority"),
-                "conditions": best.get("conditions", []),
+                "business_category": best.get("business_category"),
+                "primary_medical_conditions": best.get("primary_medical_conditions", []),
+                "secondary_medical_conditions": best.get("secondary_medical_conditions", []),
                 # Whether any query matched a member's exact phrase, for the UI.
                 # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": found_by_lexical[chunk_id],

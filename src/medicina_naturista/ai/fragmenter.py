@@ -1,44 +1,63 @@
-"""Splits one document into fragments, each tagged with the medical conditions
-(data/medical_conditions.txt) it is about. How relevant a fragment is to a
-search (its priority) is decided at search time, not here (see ai/search.py).
+"""Splits one document into fragments, each with a business category and the
+medical conditions (data/medical_conditions.txt) it is about. How relevant a
+fragment is to a search (its priority) is decided at search time, not here (see
+ai/search.py).
 
-Criteria, applied in this order:
+A chapter is a Markdown heading (page markers such as "Pagina 3" are not
+headings). Neither the file name nor the folders are compared with the
+conditions. Steps, in this order:
 
-1. The file or a folder name contains a condition -> the whole document is one
-   fragment.
-2. No real Markdown heading (page markers do not count) -> plain text: one
-   fragment up to PLAIN_CHUNK_CHARS, otherwise pieces of about that size that
-   end at the first sentence end after it.
-3. A heading names a condition -> that heading and everything under it is one
-   fragment whose path is the chain of headings down to it. Its lines are then
-   taken out of play for the next criteria.
-4. In the remaining sections, one that mentions a condition in its own text ->
-   one fragment made of the headings of all its ancestors, its own heading and
-   its text (never the ancestors' introductions).
-5. Whatever text is left, section by section, cut as in criterion 2.
+1. R1 - a heading whose own title names a condition. Headings are visited from
+   the deepest up, so a sub-chapter is always its own fragment and its parent
+   keeps only what is left of its subtree. The fragment starts with the
+   heading itself, without the headings of its ancestors. A heading left with
+   no text produces no fragment.
+2. The lines of the R1 fragments are excluded from what follows.
+3. R2 - among the remaining headings, one whose own text (up to the next
+   heading of any level) mentions a condition. The fragment is the heading and
+   that text; several conditions in one section make one fragment.
+4. R1 and R2 fragments get primary_conditions (the conditions of their title)
+   and secondary_conditions (those of their text, title excluded).
+5. The lines of the R2 fragments are excluded from what follows.
+6. D1 - the remaining text (also text that sits under no heading, and whole
+   documents without headings), one continuous stretch at a time, is cut into
+   pieces of about D1_TARGET_CHARS with at most D1_MAX_OVERLAP_CHARS shared
+   between consecutive pieces. D1 fragments have no conditions.
 
-Any fragment longer than MAX_FRAGMENT_CHARS is split further; the parts keep
-the conditions and path of the fragment they came from."""
+R1 and R2 fragments have no size limit. `path` is the chain of headings down to
+the fragment's own heading ("Carte > Plante > Musetel") and is metadata only: it
+is never used to find conditions and is not part of the fragment text."""
 from __future__ import annotations
 
 import re
 from bisect import bisect_right
 from dataclasses import dataclass
-from pathlib import PurePosixPath
+from enum import StrEnum
 
 from medicina_naturista.ai.conditions import Condition, ConditionDictionary, load_dictionary
 
-# Plain text is cut into pieces of about this many characters, extended to the
-# end of the sentence that crosses the limit.
-PLAIN_CHUNK_CHARS = 3000
-# Text without any sentence end (tables, lists) is cut at a line break before this.
-PLAIN_HARD_CAP_CHARS = 4000
-# No fragment is longer than this (headings prefix included).
-MAX_FRAGMENT_CHARS = 8000
+# D1 pieces aim for this many characters...
+D1_TARGET_CHARS = 1800
+# ...and are cut at the best boundary between these two sizes.
+D1_MIN_CHARS = 1500
+D1_MAX_CHARS = 2100
+# Consecutive D1 pieces share at most this many characters.
+D1_MAX_OVERLAP_CHARS = 270
+# A cut never leaves less new text than this for the next piece.
+D1_MIN_TAIL_CHARS = 300
 
 _HEADING_RE = re.compile(r"^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$")
 _PAGE_HEADING_RE = re.compile(r"(?:pagina|page)\s+\d+(?:\s+(?:din|of)\s+\d+)?", re.IGNORECASE)
 _SENTENCE_END_RE = re.compile(r"[.!?…][\"'”’)\]]*(?=\s|$)")
+_PARAGRAPH_RE = re.compile(r"\n[ \t]*\n\s*")
+_NEWLINE_RE = re.compile(r"\n")
+_SPACE_RE = re.compile(r" ")
+
+
+class BusinessCategory(StrEnum):
+    R1 = "R1"  # the title of the chapter names a condition
+    R2 = "R2"  # the text of the chapter mentions a condition
+    D1 = "D1"  # everything else
 
 
 @dataclass(frozen=True)
@@ -47,7 +66,9 @@ class Fragment:
     line_start: int  # 1-based, inclusive
     line_end: int
     path: str  # chain of headings ("Carte > Gripa"), "" when there is none
-    conditions: tuple[str, ...]  # canonical names of the conditions the fragment is about
+    business_category: BusinessCategory
+    primary_conditions: tuple[str, ...] = ()  # conditions named in the fragment's title
+    secondary_conditions: tuple[str, ...] = ()  # conditions named in its text, title excluded
 
 
 @dataclass(frozen=True)
@@ -67,6 +88,11 @@ _Span = list[tuple[int, str]]
 
 def _is_page_marker(title: str) -> bool:
     return bool(_PAGE_HEADING_RE.fullmatch(title.strip()))
+
+
+def _is_page_marker_line(line: str) -> bool:
+    match = _HEADING_RE.match(line)
+    return bool(match and _is_page_marker(match.group(2)))
 
 
 # Headings of the document, skipping generated page markers ("Pagina 3").
@@ -93,51 +119,74 @@ def _parse_headings(lines: list[str]) -> list[_Heading]:
     return headings
 
 
-# Numbered lines [start, end) without the page markers.
-def _span(lines: list[str], start: int, end: int) -> _Span:
-    span: _Span = []
-    for index in range(start, end):
-        match = _HEADING_RE.match(lines[index])
-        if match and _is_page_marker(match.group(2)):
-            continue
-        span.append((index + 1, lines[index]))
-    return span
+# Numbered lines at the given indexes, without the page markers.
+def _numbered(lines: list[str], indexes: list[int]) -> _Span:
+    return [(index + 1, lines[index]) for index in indexes if not _is_page_marker_line(lines[index])]
 
 
-# Last cut position <= `limit` that leaves a readable piece: paragraph break,
-# then sentence end, then line break, then space; `limit` itself as a last resort.
-def _cut_before(text: str, start: int, limit: int) -> int:
-    window_end = start + limit
-    floor = start + limit // 2
-    paragraph = text.rfind("\n\n", floor, window_end)
-    if paragraph >= 0:
-        return paragraph + 2
-    ends = [m.end() for m in _SENTENCE_END_RE.finditer(text, floor, window_end)]
-    if ends:
-        return ends[-1]
-    newline = text.rfind("\n", floor, window_end)
-    if newline >= 0:
-        return newline + 1
-    space = text.rfind(" ", floor, window_end)
-    return space + 1 if space >= 0 else window_end
+# The span without the blank lines at both ends, as (text, first line, last line);
+# None when nothing is left.
+def _trimmed(span: _Span) -> tuple[str, int, int] | None:
+    filled = [position for position, (_, line) in enumerate(span) if line.strip()]
+    if not filled:
+        return None
+    kept = span[filled[0]:filled[-1] + 1]
+    return "\n".join(line for _, line in kept).strip(), kept[0][0], kept[-1][0]
 
 
-# First cut position at or after `start + target` that ends a sentence, as long
-# as it stays within `hard_cap`; otherwise a line break before the cap.
-def _cut_after(text: str, start: int, target: int, hard_cap: int) -> int:
-    match = _SENTENCE_END_RE.search(text, start + target - 1, start + hard_cap)
-    if match:
-        return match.end()
-    newline = text.rfind("\n", start + target, start + hard_cap)
-    return newline + 1 if newline >= 0 else start + hard_cap
+def _names(conditions: list[Condition]) -> tuple[str, ...]:
+    return tuple(dict.fromkeys(condition.name for condition in conditions))
 
 
-# Cut a span into (text, first line, last line) pieces. "plain" mode makes
-# pieces of about PLAIN_CHUNK_CHARS ending on a sentence end; the other mode
-# only splits what is longer than `limit`.
-def _pieces(span: _Span, *, plain_mode: bool, limit: int) -> list[tuple[str, int, int]]:
-    if not span:
-        return []
+# Cut positions of `pattern` (the index right after each match) inside [low, high].
+def _cut_candidates(pattern: re.Pattern[str], text: str, low: int, high: int) -> list[int]:
+    found: list[int] = []
+    for match in pattern.finditer(text, max(0, low - 8)):
+        if match.end() > high:
+            break
+        if match.end() >= low:
+            found.append(match.end())
+    return found
+
+
+# Where the D1 piece starting at `start` ends: the boundary closest to the target
+# size inside [D1_MIN_CHARS, D1_MAX_CHARS], preferring a paragraph break, then a
+# sentence end, a line break and a space; a hard cut when there is none. It always
+# leaves at least D1_MIN_TAIL_CHARS of text for the rest.
+def _d1_cut(text: str, start: int, remaining: int) -> int:
+    low = start + D1_MIN_CHARS
+    high = start + min(D1_MAX_CHARS, remaining - D1_MIN_TAIL_CHARS)
+    target = start + D1_TARGET_CHARS
+    for pattern in (_PARAGRAPH_RE, _SENTENCE_END_RE, _NEWLINE_RE, _SPACE_RE):
+        candidates = _cut_candidates(pattern, text, low, high)
+        if candidates:
+            return min(candidates, key=lambda position: abs(position - target))
+    return high
+
+
+# Where the piece after a cut at `cut` begins: the start of the earliest sentence
+# within the last D1_MAX_OVERLAP_CHARS before the cut, otherwise the earliest line
+# start there, otherwise the earliest word start, otherwise the cut itself (no
+# overlap).
+def _d1_next_start(text: str, cut: int) -> int:
+    window_start = max(0, cut - D1_MAX_OVERLAP_CHARS)
+    for match in _SENTENCE_END_RE.finditer(text, window_start, cut):
+        position = match.end()
+        while position < cut and text[position].isspace():
+            position += 1
+        if position < cut:
+            return position
+    for boundary in (r"\n", r"\s+"):
+        for match in re.finditer(boundary, text[window_start:cut]):
+            position = window_start + match.end()
+            if position < cut:
+                return position
+    return cut
+
+
+# Cut one continuous stretch of remaining text into D1 pieces, as
+# (text, first line, last line).
+def _d1_pieces(span: _Span) -> list[tuple[str, int, int]]:
     text = "\n".join(line for _, line in span)
     starts: list[int] = []
     offset = 0
@@ -149,146 +198,107 @@ def _pieces(span: _Span, *, plain_mode: bool, limit: int) -> list[tuple[str, int
         return span[bisect_right(starts, char_index) - 1][0]
 
     pieces: list[tuple[str, int, int]] = []
-    position = 0
-    while position < len(text):
-        remaining = len(text) - position
-        if plain_mode and remaining > PLAIN_CHUNK_CHARS:
-            cut = _cut_after(text, position, PLAIN_CHUNK_CHARS, PLAIN_HARD_CAP_CHARS)
-        elif remaining > limit:
-            cut = _cut_before(text, position, limit)
-        else:
-            cut = len(text)
-        raw = text[position:cut]
+    start = 0
+    while start < len(text):
+        remaining = len(text) - start
+        cut = len(text) if remaining <= D1_MAX_CHARS else _d1_cut(text, start, remaining)
+        raw = text[start:cut]
         body = raw.strip()
         if body:
-            first = position + (len(raw) - len(raw.lstrip()))
+            first = start + (len(raw) - len(raw.lstrip()))
             pieces.append((body, line_number(first), line_number(first + len(body) - 1)))
-        position = cut
+        if cut >= len(text):
+            break
+        start = _d1_next_start(text, cut)
     return pieces
 
 
-# Fragments of one span: cut it (see _pieces), put `prefix` before every piece
-# and enforce MAX_FRAGMENT_CHARS on the result.
-def _fragments(
-    span: _Span,
-    *,
-    prefix: str,
-    path: str,
-    conditions: tuple[str, ...],
-    plain_mode: bool,
-    first_line: int | None = None,
-) -> list[Fragment]:
-    room = MAX_FRAGMENT_CHARS - (len(prefix) + 1 if prefix else 0)
-    fragments: list[Fragment] = []
-    for index, (body, start, end) in enumerate(_pieces(span, plain_mode=plain_mode, limit=room)):
-        if index == 0 and first_line is not None:
-            start = min(start, first_line)
-        text = f"{prefix}\n{body}" if prefix else body
-        fragments.append(Fragment(text, start, end, path, conditions))
-    return fragments
-
-
-def _names(conditions: list[Condition]) -> tuple[str, ...]:
-    return tuple(dict.fromkeys(condition.name for condition in conditions))
-
-
-# Extensions of the original file that survive in the Markdown file's name
-# ("Constipatie rebela.rtf.md").
-_SOURCE_EXTENSIONS = frozenset({".docx", ".doc", ".rtf", ".pdf", ".gdoc", ".odt", ".xlsx", ".pptx", ".txt"})
-
-
-# The document's path: its folders and its file name without the .md and the
-# original extension ("Afectiuni > Guta > Recomandari").
-def _document_title(relative_path: str) -> str:
-    path = PurePosixPath(relative_path)
-    stem = path.stem
-    while PurePosixPath(stem).suffix.lower() in _SOURCE_EXTENSIONS:
-        stem = PurePosixPath(stem).stem
-    return " > ".join((*path.parts[:-1], stem))
-
-
-# Split one already-normalized document into prioritised fragments.
-# `relative_path` is the document's path below the source root (posix
-# separators); its file and folder names are criterion 1.
-def fragment_document(
-    text: str,
-    relative_path: str,
-    dictionary: ConditionDictionary | None = None,
-) -> list[Fragment]:
+# Split one already-normalized document into R1, R2 and D1 fragments, in document order.
+def fragment_document(text: str, dictionary: ConditionDictionary | None = None) -> list[Fragment]:
     dictionary = dictionary if dictionary is not None else load_dictionary()
     lines = text.split("\n")
-
-    name_parts = PurePosixPath(relative_path).parts
-    name_text = " / ".join((*name_parts[:-1], PurePosixPath(relative_path).stem))
-    name_conditions = _names(dictionary.find(name_text))
     headings = _parse_headings(lines)
-
-    # Criterion 1: the name says what the document is about. The document's
-    # folders and title stand in for the heading path, so the search (ai/search.py)
-    # still sees the name that made this document-level fragment.
-    if name_conditions:
-        return _fragments(
-            _span(lines, 0, len(lines)), prefix="", path=_document_title(relative_path),
-            conditions=name_conditions, plain_mode=False,
-        )
-    # Criterion 2: no structure to follow.
-    if not headings:
-        return _fragments(
-            _span(lines, 0, len(lines)), prefix="", path="",
-            conditions=(), plain_mode=True,
-        )
-
-    fragments: list[Fragment] = []
+    heading_lines = {heading.line for heading in headings}
     consumed = [False] * len(lines)
+
+    # A line that carries real text: not blank, not a heading, not a page marker.
+    def is_text(index: int) -> bool:
+        return (
+            index not in heading_lines
+            and bool(lines[index].strip())
+            and not _is_page_marker_line(lines[index])
+        )
 
     def path_of(position: int) -> str:
         heading = headings[position]
         return " > ".join(headings[i].title for i in (*heading.ancestors, position))
 
-    # Criterion 3: a heading that names a condition takes its whole subtree.
-    title_conditions = [dictionary.find(heading.title) for heading in headings]
-    for position, heading in enumerate(headings):
-        if consumed[heading.line] or not title_conditions[position]:
+    def make(
+        category: BusinessCategory, span: _Span, position: int, own_text: str | None = None,
+    ) -> Fragment | None:
+        trimmed = _trimmed(span)
+        if trimmed is None:
+            return None
+        body, first, last = trimmed
+        # Conditions of the text: everything but the fragment's own title line.
+        if own_text is None:
+            own_text = "\n".join(body.split("\n")[1:])
+        return Fragment(
+            body, first, last, path_of(position), category,
+            primary_conditions=_names(dictionary.find(headings[position].title)),
+            secondary_conditions=_names(dictionary.find(own_text)),
+        )
+
+    fragments: list[Fragment] = []
+
+    # Steps 1-2: R1, the deepest headings first, so a parent keeps only what is left.
+    by_depth = sorted(range(len(headings)), key=lambda i: (-len(headings[i].ancestors), headings[i].line))
+    for position in by_depth:
+        heading = headings[position]
+        if not dictionary.find(heading.title):
             continue
-        inside = [
-            i for i, other in enumerate(headings)
-            if heading.line <= other.line < heading.subtree_end
+        taken = [
+            index for index in range(heading.line, heading.subtree_end) if not consumed[index]
         ]
-        found = [condition for i in inside for condition in title_conditions[i]]
-        fragments += _fragments(
-            _span(lines, heading.line, heading.subtree_end), prefix="", path=path_of(position),
-            conditions=_names(found), plain_mode=False,
-        )
-        for index in range(heading.line, heading.subtree_end):
+        for index in taken:
             consumed[index] = True
+        if not any(is_text(index) for index in taken):
+            continue
+        fragment = make(BusinessCategory.R1, _numbered(lines, taken), position)
+        if fragment:
+            fragments.append(fragment)
 
-    # Criteria 4 and 5: the own text of each section that is still free. The
-    # text before the first heading is a section without a title.
-    sections: list[tuple[int | None, int, int]] = []  # (heading position, first line, end line)
-    if headings[0].line > 0:
-        sections.append((None, 0, headings[0].line))
+    # Steps 3-5: R2, the own text of each heading that is still free.
     for position, heading in enumerate(headings):
-        sections.append((position, heading.line + 1, heading.body_end))
-
-    for position, start, end in sections:
-        heading_line = headings[position].line if position is not None else start
-        if consumed[heading_line]:
+        if consumed[heading.line]:
             continue
-        body = _span(lines, start, end)
-        if not any(line.strip() for _, line in body):
+        body_indexes = list(range(heading.line + 1, heading.body_end))
+        body_span = _numbered(lines, body_indexes)
+        own_text = "\n".join(line for _, line in body_span).strip()
+        if not own_text or not dictionary.find(own_text):
             continue
-        found = dictionary.find("\n".join(line for _, line in body))
-        if position is None:
-            prefix, path, first_line = "", "", None
-        else:
-            prefix = "\n".join(
-                headings[i].raw for i in (*headings[position].ancestors, position)
-            )
-            path, first_line = path_of(position), headings[position].line + 1
-        fragments += _fragments(
-            body, prefix=prefix, path=path,
-            conditions=_names(found), plain_mode=not found, first_line=first_line,
+        for index in (heading.line, *body_indexes):
+            consumed[index] = True
+        fragment = make(
+            BusinessCategory.R2, _numbered(lines, [heading.line, *body_indexes]), position, own_text,
         )
+        if fragment:
+            fragments.append(fragment)
+
+    # Step 6: D1, each continuous run of lines nobody took.
+    heading_starts = [heading.line for heading in headings]
+    run: list[int] = []
+    for index in range(len(lines) + 1):
+        if index < len(lines) and not consumed[index]:
+            run.append(index)
+            continue
+        if any(is_text(i) for i in run):
+            for body, first, last in _d1_pieces(_numbered(lines, run)):
+                owner = bisect_right(heading_starts, first - 1) - 1
+                fragments.append(Fragment(
+                    body, first, last, path_of(owner) if owner >= 0 else "", BusinessCategory.D1,
+                ))
+        run = []
 
     fragments.sort(key=lambda fragment: (fragment.line_start, fragment.line_end))
     return fragments

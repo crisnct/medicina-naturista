@@ -41,7 +41,7 @@ PROGRESS_INTERVAL_SECONDS = 10.0
 # changes (e.g. the cleaning rules below), so build() forces a full resync
 # even though every source file's own SHA-256 is unchanged. See build()'s use
 # of TEXT_REPR_VERSION against sync_metadata.
-TEXT_REPR_VERSION = "3"
+TEXT_REPR_VERSION = "4"
 
 
 @dataclass(frozen=True)
@@ -73,9 +73,11 @@ class Chunk:
     char_count: int
     # Inherited from the source document's category_id (see SourceFile).
     category_id: str = ROOT_CATEGORY_ID
-    # 1 (best) .. 5 (lowest), and the conditions the fragment is about - both
-    # set by ai/fragmenter.py.
-    conditions: tuple[str, ...] = ()
+    # Set by ai/fragmenter.py: R1/R2/D1, and the conditions named in the
+    # fragment's title / in its text (empty for D1).
+    business_category: str = "D1"
+    primary_medical_conditions: tuple[str, ...] = ()
+    secondary_medical_conditions: tuple[str, ...] = ()
 
 
 # Return the current UTC timestamp in a stable ISO-8601 representation.
@@ -272,14 +274,16 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
             """
             INSERT INTO chunks
                 (source_relative_path, source_absolute_path, source_sha256, line_start, line_end,
-                 heading, text, text_sha256, char_count, embedding, text_search, conditions)
-            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s)
+                 heading, text, text_sha256, char_count, embedding, text_search,
+                 business_category, primary_medical_conditions, secondary_medical_conditions)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s,%s,%s)
             """,
             (
                 chunk.source_relative_path, chunk.source_absolute_path, chunk.source_sha256,
                 chunk.line_start, chunk.line_end, chunk.heading, chunk.text, chunk.text_sha256,
                 chunk.char_count, embedding, _text_search_input(chunk),
-                list(chunk.conditions),
+                chunk.business_category, list(chunk.primary_medical_conditions),
+                list(chunk.secondary_medical_conditions),
             ),
         )
 
@@ -369,7 +373,7 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
             char_count=len(normalized),
             category_id=category_id,
         )
-        document_chunks = fragment_document(normalized, relative, dictionary)
+        document_chunks = fragment_document(normalized, dictionary)
         if not document_chunks:
             warnings.append(f"No indexable text: {relative}")
         pending.append((source_file, document_chunks))
@@ -386,7 +390,9 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
                     text_sha256=sha256_bytes(fragment.text.encode("utf-8")),
                     char_count=len(fragment.text),
                     category_id=category_id,
-                    conditions=fragment.conditions,
+                    business_category=fragment.business_category.value,
+                    primary_medical_conditions=fragment.primary_conditions,
+                    secondary_medical_conditions=fragment.secondary_conditions,
                 )
             )
         if index % 50 == 0 or index == len(paths):
