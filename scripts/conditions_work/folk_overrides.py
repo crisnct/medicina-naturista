@@ -94,6 +94,68 @@ OVERRIDES: list[tuple[str, str]] = [
     ("Gastrita", "arsura la stomac"),
     ("Reflux gastroesofagian", "reflux"),
     ("Meteorism", "balonare"),
+    # --- owner decisions for folk names proposed by several chunks at once
+    #     (matching the condition the folk name really denotes)
+    ("Malarie", "friguri"),
+    ("Febra", "febra mare"),
+    ("Hipertiroidism", "gusa tiroidiana"),
+    ("Hipotiroidism", "tiroida lene"),
+    ("Difterie", "gusa copilului"),
+    ("Boala Graves", "gusa exoftalmica"),
+    ("Calculi renali", "piatra la rinichi"),
+    ("Rinita", "guturai"),
+    ("Gripa", "gripa"),
+    ("Hepatita", "hepatita molipsitoare"),
+    ("Dizenterie", "dizenterie"),
+    ("Diaree", "diaree"),
+    ("Colita hemoragica", "diaree cu sange"),
+    ("Alcoolism", "betie"),
+    ("Narcolepsie", "boala somnului"),
+    ("Encefalita letargica", "encefalita somnului"),
+    ("Impetigo", "bube"),
+    ("Eczema", "bube de piele"),
+    ("Furuncul", "buba rea"),
+    ("Ectima", "rana murdara"),
+    ("Abces", "buboi"),
+    ("Coptura", "buba de la fund"),
+    ("Mononucleoza infectioasa", "boala sarutului"),
+    ("Scabie", "raie"),
+    ("Demodicoza", "acarieni la fata"),
+    ("Strabism", "ochi incrucisati"),
+    ("Esotropie", "ochi care se abat spre nas"),
+    ("Cardiomegalie", "inima marita"),
+    ("Cord pulmonar", "inima obosita de plamani"),
+    # --- second round: owners for the terms several FOLK chunks proposed at once
+    ("Matreata", "matreata"),
+    ("Menoragie", "sangerare menstruala"),
+    ("Gonoree", "boala rusinoasa"),
+    ("Herpes labial", "buba rece"),
+    ("Sifilis primar", "buba tare"),
+    ("Furuncul", "buba rea"),
+    ("Flebotromboza", "cheag la picior"),
+    ("Tromboza venoasa profunda", "cheag la vena"),
+    ("Chist renal simplu", "chist la rinichi"),
+    ("Chist renal complicat", "chist cu apa la rinichi"),
+    ("Cancer testicular", "cancer la testicul"),
+    ("Seminom", "cancer la un testicul"),
+    ("Sindrom de intestin iritabil cu diaree", "colon iritabil cu diaree"),
+    ("Tromboza de artera cerebrala", "dambla"),
+    ("Paralizie faciala", "fata stramba"),
+    ("Accident vascular cerebral", "apoplexie"),
+    ("Infarct cerebral silentios", "atac cerebral"),
+    ("Hemoragie cerebrala lobara", "sangerare la creier"),
+    ("Psihoza", "nebunie"),
+    ("Tulburare psihotica acuta", "criza de nebunie"),
+    ("Raceala", "races"),
+    ("Nefrocalcinoza", "nisip la rinichi"),
+    ("Glomerulonefrita", "rinichi inflamat"),
+    ("Nefrita interstitiala", "rinichi inflamat cu febra"),
+    ("Hemoragie", "sangerare"),
+    ("Hidatidoza hepatica", "chist cu apa la ficat"),
+    ("Chist hepatic", "chist la ficat"),
+    ("Hidrocefalie", "cap mare"),
+    ("Megalencefalie", "cap prea mare"),
+    ("Colecistita", "criza de fiere"),
 ]
 
 
@@ -102,13 +164,24 @@ def main() -> int:
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
-    popular: dict[str, str] = {}
-    for path in sorted(WORK.glob("POP_[0-9].txt")):
-        for line in read_file(path):
-            name, _, folk = line.partition("|")
-            name, folk = name.strip(), folk.strip()
-            if name and folk and normalize(folk) not in BLACKLIST:
-                popular.setdefault(normalize(name), folk)
+    # several folk names per condition are welcome: they are inserted one after
+    # another, right after the canonical name
+    popular: dict[str, list[str]] = {}
+
+    def remember(name: str, folk: str) -> None:
+        key, value = normalize(name), " ".join(folk.split())
+        if not key or not value or normalize(value) in BLACKLIST:
+            return
+        bucket = popular.setdefault(key, [])
+        if normalize(value) not in {normalize(item) for item in bucket}:
+            bucket.append(value)
+
+    for pattern in ("POP_clean.txt",):
+        for path in sorted(WORK.glob(pattern)):
+            for line in read_file(path):
+                name, _, folk = line.partition("|")
+                if name.strip() and folk.strip():
+                    remember(name, folk)
 
     rows = [[" ".join(field.split()) for field in line.split(",")] for line in read_file(DICTIONARY)]
     index = {normalize(parts[0]): position for position, parts in enumerate(rows)}
@@ -120,43 +193,48 @@ def main() -> int:
 
     overrides = 0
     missing = 0
-    conflicts = 0
     rejected: list[tuple[str, str, str]] = []
 
     # 1. central overrides win: they decide the owner of a contested folk name
     for disease, folk in OVERRIDES:
-        key = normalize(disease)
-        if key not in index:
+        if normalize(disease) not in index:
             missing += 1
             continue
-        popular[key] = folk
+        remember(disease, folk)
         overrides += 1
 
-    # 2. attach a folk name only when it is free
+    # 2. attach folk names only where they are free
     attached: dict[str, str] = {}
     inserted = 0
-    for key, folk in popular.items():
+    conditions_with_folk = 0
+    for key, values in popular.items():
         position = index.get(key)
         if position is None:
-            conflicts += 1
-            continue
-        folk_key = normalize(folk)
-        owner = existing.get(folk_key) or attached.get(folk_key)
-        if owner and normalize(owner) != key:
-            rejected.append((rows[position][0], folk, owner))
             continue
         parts = rows[position]
-        if folk_key in {normalize(term) for term in parts}:
-            continue
-        rows[position] = [parts[0], folk, *parts[1:]]
-        attached[folk_key] = parts[0]
-        inserted += 1
+        added_here = 0
+        for folk in values:
+            folk_key = normalize(folk)
+            holder = existing.get(folk_key) or attached.get(folk_key)
+            if holder and normalize(holder) != key:
+                rejected.append((parts[0], folk, holder))
+                continue
+            if folk_key in {normalize(term) for term in parts}:
+                continue
+            parts.insert(1 + added_here, folk)
+            attached[folk_key] = parts[0]
+            added_here += 1
+            inserted += 1
+        if added_here:
+            conditions_with_folk += 1
 
-    print(f"folk mappings known       : {len(popular)}")
-    print(f"central overrides applied : {overrides} (diseases not found: {missing})")
-    print(f"lines now carrying a folk name: {inserted}")
-    print(f"folk names already owned elsewhere (skipped): {len(rejected)}")
-    for disease, folk, owner in rejected[:20]:
+    print(f"folk names known             : {sum(len(v) for v in popular.values())} "
+          f"for {len(popular)} conditions")
+    print(f"central overrides applied    : {overrides} (diseases not found: {missing})")
+    print(f"folk names inserted          : {inserted}")
+    print(f"conditions carrying a folk name: {conditions_with_folk}")
+    print(f"folk names owned elsewhere (skipped): {len(rejected)}")
+    for disease, folk, owner in rejected[:15]:
         print(f"  skipped {disease!r}: {folk!r} already means {owner!r}")
 
     if args.apply:

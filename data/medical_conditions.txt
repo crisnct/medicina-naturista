@@ -1,4 +1,4 @@
-Abces,colectie de puroi,acumulare purulenta,supuratie localizata,abscess,pus collection,localized pus
+Abces,buboi,colectie de puroi,acumulare purulenta,supuratie localizata,abscess,pus collection,localized pus
 Abces abdominal,colectie purulenta abdominal,supuratie localizata abdominal,abces localizat abdominal,abdomen abscess,localized abscess of abdomen,suppurative infection of abdomen
 Abces amibian cerebral,abces cerebral amibian,amebiaza cerebrala,encefalita amibiana,amoebic brain abscess,cerebral amoebiasis,amebic brain abscess
 Abces amibian hepatic,abces hepatic amibian,supuratie amibiana a ficatului,abces de ficat cu Entamoeba,amebic liver abscess,amoebic liver abscess,Entamoeba histolytica liver abscess
@@ -75,7 +75,7 @@ Acalazie,acalazie esofagiana,acalazie cardiala,cardiospasm esofagian,achalasia,e
 Acantosis nigricans,keratoza nigricans,distrofie papilara pigmentara,hiperpigmentare a pliurilor,acanthosis nigricans,keratosis nigricans,papillary pigmented dystrophy
 Acatisia,acatisie,neliniste motorie,acatisia indusa de neuroleptice,akathisia,neuroleptic-induced akathisia,motor restlessness
 Accident ischemic tranzitoriu,AIT,ischemie cerebrala tranzitorie,atac ischemic tranzitoriu,transient ischemic attack,TIA,transient cerebral ischemia,accident ischemic cerebral tranzitoriu,transient ischaemic attack
-Accident vascular cerebral,accident cerebral vascular,atac cerebral,apoplexie,stroke,cerebrovascular accident,brain attack
+Accident vascular cerebral,paralizie,avc,accident cerebral vascular,atac cerebral,apoplexie,stroke,cerebrovascular accident,brain attack
 Accident vascular cerebral hemoragic,AVC hemoragic,hemoragie cerebrala,hematom intracerebral,hemorrhagic stroke,intracerebral hemorrhage,cerebral hemorrhage
 Accident vascular cerebral ischemic,AVC ischemic,infarct cerebral,ischemie cerebrala acuta,ischemic stroke,cerebral infarction,acute ischemic stroke
 Achromatopsie,acromatopsie,orbire totala la culori,imposibilitatea de a percepe culorile,achromatopsia,total color blindness,monochromatic vision
@@ -270,7 +270,7 @@ Albuminurie,proteinurie,albumina in urina,pierdere de proteine prin urina,albumi
 Alcaloza,alcaloza metabolica,alcalinizare a sangelui,dezechilibru alcalin,alkalosis,metabolic alkalosis,alkaline imbalance
 Alcaloza respiratorie,Alcaloza respiratorie acuta,alcaloza prin hiperventilatie,alcaloza gazoasa,alcaloza hipocapnica,respiratory alkalosis,alkalosis due to hyperventilation,hypocapnic alkalosis,alcaloza hipocapnica acuta,alcaloza prin hiperventilatie acuta,alcaloza gazoasa acuta,acute respiratory alkalosis,acute hypocapnic alkalosis,acute hyperventilation alkalosis
 Alcaptonurie,boala urinei negre,ocronoza,artropatie ocronotica,alkaptonuria,black urine disease,ochronosis
-Alcoolism,betia,dependenta de alcool,tulburare de consum de alcool,etilism cronic,alcoholism,alcohol dependence,alcohol use disorder
+Alcoolism,betie,betia,dependenta de alcool,tulburare de consum de alcool,etilism cronic,alcoholism,alcohol dependence,alcohol use disorder
 Alergie,alergii,hipersensibilitate alergica,reactie alergica,allergy,allergic reaction,hypersensitivity
 Alergie alimentara,hipersensibilitate alimentara alergica,reactie alergica la alimente,alergie la alimente,food allergy,allergic food hypersensitivity,food-induced allergic reaction
 Alergie la acarieni,hipersensibilitate la acarieni,reactie alergica la acarieni,alergie de tip imediat la acarieni,mite allergy,allergic hypersensitivity to mite,allergic reaction to mite
@@ -610,7 +610,7 @@ Artrita pumnului,artropatie pumnului,boala articulara inflamatorie pumnului,artr
 Artrita reactiva,sindrom Reiter,boala Reiter,sindrom Fiessinger-Leroy,reactive arthritis,Reiter syndrome,Reiter disease
 Artrita reactiva postenterica,artropatie reactiva postenterica,boala articulara inflamatorie reactiva postenterica,artrita de tip reactiva postenterica,postenteric reactive arthritis,postenteric reactive arthropathy,arthritis of postenteric reactive type
 Artrita reactiva postinfectioasa,artropatie reactiva postinfectioasa,boala articulara inflamatorie reactiva postinfectioasa,artrita de tip reactiva postinfectioasa,postinfectious reactive arthritis,postinfectious reactive arthropathy,arthritis of postinfectious reactive type
-Artrita reumatoida,poliartrita reumatoida,poliartrita cronica evolutiva,reumatism inflamator cronic,rheumatoid arthritis,RA,chronic inflammatory polyarthritis
+Artrita reumatoida,boala de oase,poliartrita reumatoida,poliartrita cronica evolutiva,reumatism inflamator cronic,rheumatoid arthritis,RA,chronic inflammatory polyarthritis
 Artrita reumatoida juvenila sistemica,artropatie reumatoida juvenila sistemica,boala articulara inflamatorie reumatoida juvenila sistemica,artrita de tip reumatoida juvenila sistemica,systemic juvenile idiopathic arthritis,systemic juvenile idiopathic arthropathy,arthritis of systemic juvenile idiopathic type
 Artrita reumatoida seronegativa,artropatie reumatoida seronegativa,boala articulara inflamatorie reumatoida seronegativa,artrita de tip reumatoida seronegativa,seronegative rheumatoid arthritis,seronegative rheumatoid arthropathy,arthritis of seronegative rheumatoid type
 Artrita reumatoida seropozitiva,artropatie reumatoida seropozitiva,boala articulara inflamatorie reumatoida seropozitiva,artrita de tip reumatoida seropozitiva,seropositive rheumatoid arthritis,seropositive rheumatoid arthropathy,arthritis of seropositive rheumatoid type
@@ -838,7 +838,7 @@ Boala Charcot-Marie-Tooth tip 2,boala Charcot-Marie-Tooth de tip 2,CMT 2,neuropa
 Boala Charcot-Marie-Tooth tip 4,boala Charcot-Marie-Tooth de tip 4,CMT 4,neuropatie demielinizanta recesiva,Charcot-Marie-Tooth disease type 4,CMT4,recessive demyelinating neuropathy
 Boala coronariana,cardiopatie ischemica,boala cardiaca ischemica,insuficienta coronariana,coronary artery disease,ischemic heart disease,coronary heart disease
 Boala coronariana microvasculara,sindrom X cardiac,angina microvasculara,sindrom X coronarian,coronary microvascular disease,microvascular angina,cardiac syndrome X
-Boala coronavirus 2019,COVID-19,infectie cu SARS-CoV-2,pneumonie cu coronavirus,coronavirus disease 2019,COVID-19 disease,SARS-CoV-2 infection
+Boala coronavirus 2019,covid,coronavirus,COVID-19,infectie cu SARS-CoV-2,pneumonie cu coronavirus,coronavirus disease 2019,COVID-19 disease,SARS-CoV-2 infection
 Boala Creutzfeldt-Jakob,dementa spongiforma,encefalopatie spongiforma subacuta,boala cu prioni,creutzfeldt-jakob disease,spongiform encephalopathy,prion disease,boala Creutzfeldt-Jakob sporadica,encefalopatia spongiforma Creutzfeldt-Jakob,boala Jakob-Creutzfeldt,CJD,sporadic Creutzfeldt-Jakob disease
 Boala Creutzfeldt-Jakob varianta,encefalopatia spongiforma bovina transmisa la om,boala vacii nebune la om,encefalopatia spongiforma varianta,variant Creutzfeldt-Jakob disease,new variant Creutzfeldt-Jakob disease,vCJD,encefalopatia spongiforma bovina la om,boala vacii nebune,variant CJD
 Boala Crohn,enterita regionala,ileita terminala,boala inflamatorie intestinala Crohn,crohn's disease,regional enteritis,granulomatous enteritis
@@ -1007,7 +1007,7 @@ Botulism,intoxicatie botulinica,otravire cu toxina botulinica,botulism alimentar
 Bradicardie,ritm cardiac lent,puls lent,batai rare ale inimii,bradycardia,slow heart rate,slow cardiac rhythm
 Bradicardie sinusala,ritm sinusal lent,incetinire a ritmului sinusal,bradicardie de origine sinusala,sinus bradycardia,slow sinus rhythm,reduced sinus rate
 Brahidactilie,degete scurte congenital,scurtare congenitala a degetelor,hipoplazie de falange distale,brachydactyly,short digits,short fingers and toes
-Bromhidroza,bromidroza,transpiratie cu miros urat,osmidroza,bromhidrosis,bromidrosis,osmidrosis
+Bromhidroza,miros greu al corpului,bromidroza,transpiratie cu miros urat,osmidroza,bromhidrosis,bromidrosis,osmidrosis
 Bronhomicoza,micoza bronsica,infectie fungica bronsica,bronhomicoza pulmonara,bronchomycosis,fungal bronchial infection,bronchial mycosis
 Bronhopneumonie,pneumonie lobulara,bronhopneumonie difuza,pneumonie focala multipla,bronchopneumonia,lobular pneumonia,focal pneumonia
 Bronhopneumonie virala,bronhopneumonie de cauza virala,pneumonie lobulara virala,bronhopneumonita virala,viral bronchopneumonia,viral lobular pneumonia,bronchopneumonia due to virus
@@ -1116,7 +1116,7 @@ Bruxism,scrasnit din dinti,scrasnitul dintilor,strangere a maselelor,teeth grind
 Bufeuri,valuri de caldura,bufeuri de menopauza,congestie vasomotorie,hot flashes,hot flushes,menopausal flushes
 Bulbita,duodenita bulbara,inflamatia bulbului duodenal,bulbitis,duodenal bulb inflammation,inflammation of the duodenal bulb,bulbar duodenitis
 Bulimie,pofta de mancare,bulimia nervoasa,bulimie nervoasa,tulburare de alimentatie cu vomitare,bulimia nervosa,bulimia,binge-purge disorder
-Burnout,epuizare profesionala,sindrom de epuizare profesionala,oboseala cronica de la serviciu,burnout syndrome,occupational burnout,work-related exhaustion
+Burnout,epuizare la locul de munca,epuizare profesionala,sindrom de epuizare profesionala,oboseala cronica de la serviciu,burnout syndrome,occupational burnout,work-related exhaustion
 Bursita,inflamatia bursei,bursita subacromiala,bursita cronica,bursitis,bursa inflammation,inflammation of the bursa
 Bursita anserina,bursita labei de gasca,bursita pes anserinus,bursita tibiala mediala,pes anserine bursitis,anserine bursitis,goose foot bursitis
 Bursita infectioasa,bursita septica,bursita purulenta,bursita bacteriana,septic bursitis,infectious bursitis,purulent bursitis
@@ -1134,8 +1134,8 @@ Calcifierea inelului mitral,scleroza inelului mitral,calcificare anulara mitrala
 Calcifilaxie,arteriolopatia uremica calcificata,calcifilaxie uremica,sindrom de calcifilaxie,calciphylaxis,calcific uremic arteriolopathy,uremic calcific arteriolopathy,calcifilaxia,arteriolocalcinoza uremica,calcificare vasculara cu necroza cutanata,vascular calcification necrosis,calcificare a vaselor mici,arteriolocalcinoza,calcific arteriolopathy
 Calculi de colesterol,litiaza biliara de colesterol,pietre biliare de colesterol,calculi biliari de colesterol,cholesterol gallstones,cholesterol stones,cholesterol biliary calculi
 Calculi pigmentari,litiaza biliara pigmentara,pietre biliare pigmentare,calculi biliari pigmentari,pigment gallstones,pigment stones,pigment biliary calculi
-Calculi prostatici,calculi ai prostatei,pietre in prostata,litiaza prostatica,prostatic calculi,prostate stones,prostatic lithiasis
-Calculi renali,litiaza renala,pietre la rinichi,nefrolitiaza,kidney stones,renal calculi,nephrolithiasis
+Calculi prostatici,piatra la prostata,calculi ai prostatei,pietre in prostata,litiaza prostatica,prostatic calculi,prostate stones,prostatic lithiasis
+Calculi renali,piatra la rinichi,litiaza renala,pietre la rinichi,nefrolitiaza,kidney stones,renal calculi,nephrolithiasis
 Camptodactilie,deget flectat congenital,contractura congenitala a degetului,flexie permanenta a degetului,camptodactyly,congenital finger flexion contracture,congenital bent finger
 Canaliculita,inflamatia canaliculului lacrimal,infectie a canaliculului lacrimal,canaliculita lacrimala,canaliculitis,inflammation of the lacrimal canaliculus,infection of the lacrimal canaliculus
 Cancer,racul,tumora maligna,neoplasm malign,boala canceroasa,malignant tumor,malignancy,malignant neoplasm
@@ -1166,7 +1166,7 @@ Cancer mamar si ovarian ereditar,sindrom cancer mamar-ovarian ereditar,predispoz
 Cancer ovarian,cancer de ovar,carcinom ovarian,neoplasm ovarian,ovarian cancer,ovarian carcinoma,cancer of the ovary
 Cancer pancreatic familial,cancer pancreatic ereditar,sindrom de cancer pancreatic familial,cancer pancreatic cu agregare familiala,familial pancreatic cancer,hereditary pancreatic cancer,familial pancreatic adenocarcinoma
 Cancer pulmonar,cancer de plamani,carcinom bronhopulmonar,neoplasm pulmonar,lung cancer,pulmonary carcinoma,bronchogenic carcinoma
-Cancer testicular,cancer de testicul,carcinom testicular,tumora testiculara maligna,testicular cancer,testicular carcinoma,cancer of the testis
+Cancer testicular,cancer la testicul,cancer de testicul,carcinom testicular,tumora testiculara maligna,testicular cancer,testicular carcinoma,cancer of the testis
 Cancer tiroidian,cancer de tiroida,carcinom tiroidian,neoplasm tiroidian,thyroid cancer,thyroid carcinoma,cancer of the thyroid
 Candidoza,bube albe,candida,infectie cu candida,micoza cu candida,candidiasis,candida infection,yeast infection
 Candidoza cutanata,intertrigo candidozic,candidoza a pliurilor pielii,candidoza tegumentara,cutaneous candidiasis,candidal intertrigo,skin candidiasis
@@ -1330,10 +1330,10 @@ Cardiopatie,boala de inima,boli de inima,afectiuni cardiace,heart disease,cardia
 Cardiopatie hipertensiva,boala cardiaca hipertensiva,inima hipertensiva,afectare cardiaca hipertensiva,hypertensive heart disease,hypertensive cardiopathy,hypertension-related heart disease
 Cardiopatie reumatica,boala reumatica a inimii,cardita reumatica cronica,valvulopatie reumatica,rheumatic heart disease,chronic rheumatic heart disease,rheumatic valvular disease,Cardiopatie reumatica cronica,reumatism cardiac cronic,cardiopatie valvulara reumatica,chronic rheumatic carditis,boala valvulara reumatica,afectare valvulara reumatica,sechele valvulare reumatice,rheumatic valve disease,rheumatic valvulopathy
 Cardioscleroza,scleroza miocardica,fibroza miocardica difuza,miocard scleros,cardiosclerosis,myocardial sclerosis,myocardial fibrosis
-Carie dentara,carii,cariile dentare,degradare a dintelui,dental caries,tooth decay,cavities
+Carie dentara,masea stricata,carii,cariile dentare,degradare a dintelui,dental caries,tooth decay,cavities
 Carii dentare multiple,carii multiple,carie dentara extinsa,dinti cu multiple carii,multiple dental caries,extensive tooth decay,widespread cavities
 Casexie,sindrom de casexie,emaciere generalizata,emaciere extrema,cachexia,cachectic syndrome,wasting syndrome
-Cataracta,piatra neagra,opacifierea cristalinului,cataracta senila,cataracta congenitala,cataract,lens opacity,clouding of the lens
+Cataracta,pata la ochi,piatra neagra,opacifierea cristalinului,cataracta senila,cataracta congenitala,cataract,lens opacity,clouding of the lens
 Cataracta diabetica,cataracta la diabetic,cataracta metabolica diabetica,cataracta juvenila diabetica,diabetic cataract,cataract in diabetes,diabetes-associated cataract
 Caverna tuberculoasa pulmonara,caverna ftizica,caverna tuberculoasa,cavitate tuberculoasa pulmonara,tuberculous lung cavity,tuberculous pulmonary cavern,cavitary pulmonary tuberculosis
 Cavernom cerebral,malformatie cavernoasa cerebrala,hemangiom cavernos cerebral,angiom cavernos cerebral,cerebral cavernous malformation,cavernous hemangioma of the brain,cerebral cavernoma,cavernoma,Hemangiom cavernos,hemangiom cavitar,angiom cavernos,hemangiom venos,cavernous hemangioma,venous hemangioma,angiom cavernos cutanat,malformatie vasculara cavernoasa,cavernous angioma,cavernous vascular malformation
@@ -1351,7 +1351,7 @@ Celulita perianala,celulita anaeroba perianala,flegmon perianal,infectie necroza
 Celulita preseptala,celulita periorbitala,inflamatie a tesuturilor din fata septului orbital,edem inflamator periorbital,preseptal cellulitis,periorbital cellulitis,preorbital cellulitis
 Cervicita cu Chlamydia,cervicita clamidiana,endocervicita cu Chlamydia,infectie cervicala cu Chlamydia,chlamydial cervicitis,chlamydia cervicitis,chlamydial endocervicitis
 Cervicita gonococica,endocervicita gonococica,gonoree cervicala,infectie gonococica cervicala,gonococcal cervicitis,gonococcal endocervicitis,gonorrheal cervicitis
-Cetoacidoza diabetica,cetoacidoza,coma cetoacidozica,acidoza diabetica,diabetic ketoacidosis,ketoacidosis,diabetic acidosis
+Cetoacidoza diabetica,coma diabetica,cetoacidoza,coma cetoacidozica,acidoza diabetica,diabetic ketoacidosis,ketoacidosis,diabetic acidosis
 Chalazion,chist meibomian,granulom meibomian,inflamatie cronica a glandei meibomius,meibomian cyst,meibomian gland lipogranuloma,meibomian gland cyst
 Chalcoza oculara,depunere de cupru in ochi,toxicitate oculara cu cupru,intoxicatie oculara cu cupru,chalcosis,ocular chalcosis,copper deposition in the eye
 Cheilita unghiulara,perlesche,boala perleche,ragade comisurale la coltul gurii,angular cheilitis,perleche,angular stomatitis
@@ -1383,7 +1383,7 @@ Chist de sinus maxilar,chist mucos al sinusului maxilar,chist sinusal maxilar,ch
 Chist dermoid,chist dermoid ovarian,teratom dermoid chistic,chist dermoid cutanat,dermoid cyst,dermoid cyst of the ovary,cystic dermoid teratoma,teratom dermoid,dermoid cyst of skin,mature cystic teratoma
 Chist dermoid orbital,chist dermoid al orbitei,dermoid orbital,chist dermoid periorbital,orbital dermoid cyst,dermoid cyst of the orbit,periorbital dermoid
 Chist folicular ovarian,chist ovarian functional,chist folicular simplu,chist ovarian de tip folicular,follicular ovarian cyst,functional ovarian cyst,follicular cyst of the ovary
-Chist hepatic,chist de ficat,chist biliar hepatic,formatiune chistica hepatica,liver cyst,hepatic cyst,cyst of the liver
+Chist hepatic,chist la ficat,chist de ficat,chist biliar hepatic,formatiune chistica hepatica,liver cyst,hepatic cyst,cyst of the liver
 Chist hidatic cerebral,echinococoza cerebrala,hidatidoza cerebrala,chist hidatic al creierului,cerebral hydatid cyst,brain hydatid disease,cerebral echinococcosis
 Chist hidatic pulmonar,echinococoza pulmonara,hidatidoza pulmonara,chist hidatic al plamanului,pulmonary hydatid cyst,lung hydatid disease,pulmonary echinococcosis
 Chist hidatic pulmonar rupt,hidatidoza pulmonara complicata,chist hidatic pulmonar fisurat,ruptura de chist hidatic pulmonar,ruptured pulmonary hydatid cyst,complicated pulmonary hydatid disease,ruptured echinococcal lung cyst
@@ -1399,8 +1399,8 @@ Chist pericardic,chist celomic pericardic,chist pericardic congenital,formatiune
 Chist pleural,chist al pleurei,chist pleural simplu,chist pleural congenital,pleural cyst,cyst of the pleura,congenital pleural cyst
 Chist popliteu,chist Baker,chist sinovial popliteu,bursita poplitee,popliteal cyst,Baker cyst,Baker's cyst
 Chist pulmonar congenital,chist bronsogenic pulmonar,chist aerian pulmonar congenital,malformatie chistica pulmonara,congenital pulmonary cyst,congenital lung cyst,bronchogenic cyst of the lung
-Chist renal complicat,chist renal hemoragic,chist renal infectat,chist renal cu complicatii,complicated renal cyst,hemorrhagic renal cyst,infected kidney cyst
-Chist renal simplu,chist renal solitar,chist renal cortical,chist renal benign,simple renal cyst,simple kidney cyst,solitary renal cyst
+Chist renal complicat,chist cu apa la rinichi,chist renal hemoragic,chist renal infectat,chist renal cu complicatii,complicated renal cyst,hemorrhagic renal cyst,infected kidney cyst
+Chist renal simplu,chist la rinichi,chist renal solitar,chist renal cortical,chist renal benign,simple renal cyst,simple kidney cyst,solitary renal cyst
 Chist salivar,mucocel salivar,chist de glanda salivara,chist mucos salivar,salivary gland cyst,ranula,mucocele of the salivary gland
 Chist sebaceu,chist epidermoid,chisturi sebacee,chist cutanat,sebaceous cyst,epidermoid cyst,skin cyst
 Chist sinovial,ganglion,chist ganglionar,chist sinovial articular,synovial cyst,ganglion cyst,ganglionic cyst
@@ -1460,7 +1460,7 @@ Clitoromegalie,hipertrofie de clitoris,clitoris marit,clitoris de dimensiuni mar
 Cloaca persistenta,cloaca congenitala,malformatie cloacala,persistenta cloacii,persistent cloaca,cloacal malformation,congenital cloaca
 Cloasma,cloasma gravidic,masca de sarcina,melasma gravidic,chloasma,pigmentary mask of pregnancy,chloasma gravidarum
 Clonorhoza,infestare cu Clonorchis sinensis,distomatoza hepatica orientala,distomatoza cu Clonorchis,clonorchiasis,Clonorchis sinensis infection,Chinese liver fluke disease
-Coagulare intravasculara diseminata,coagulopatie de consum,sindrom de defibrinare,coagulare intravasculara generalizata,disseminated intravascular coagulation,consumption coagulopathy,DIC
+Coagulare intravasculara diseminata,cheaguri in sange,coagulopatie de consum,sindrom de defibrinare,coagulare intravasculara generalizata,disseminated intravascular coagulation,consumption coagulopathy,DIC
 Coagulopatie dobandita,tulburare dobandita de coagulare,diatesa hemoragica dobandita,coagulopatie secundara,acquired coagulopathy,acquired coagulation disorder,acquired bleeding disorder
 Coalitie calcaneonaviculara,sinostoza calcaneonaviculara,bara osoasa calcaneonaviculara,coalitie tarsiana,calcaneonavicular coalition,calcaneonavicular synostosis,tarsal coalition
 Coalitio talocalcaneana,sinostoza talocalcaneana,bara osoasa talocalcaneana,coalitie talocalcaneala,talocalcaneal coalition,talocalcaneal synostosis,talocalcaneal bar
@@ -1472,7 +1472,7 @@ Coccidioidomikoza pulmonara,pneumonie cu Coccidioides,granulom pulmonar coccidio
 Colangiocarcinom,cancer al cailor biliare,carcinom colangiocelular,carcinom al ductelor biliare,cholangiocarcinoma,bile duct carcinoma,cancer of the bile ducts
 Colangiocarcinom extrahepatic,cancer extrahepatic al cailor biliare,colangiocarcinom al cailor biliare extrahepatice,carcinom al ductelor biliare extrahepatice,extrahepatic cholangiocarcinoma,extrahepatic bile duct carcinoma,extrahepatic bile duct cancer
 Colangiocarcinom intrahepatic,cancer intrahepatic al cailor biliare,colangiocarcinom hepatic,carcinom al ductelor biliare intrahepatice,intrahepatic cholangiocarcinoma,intrahepatic bile duct carcinoma,intrahepatic bile duct cancer
-Colangita,colangita acuta,infectie a cailor biliare,inflamatia cailor biliare,cholangitis,acute cholangitis,bile duct infection
+Colangita,boala de fiere,colangita acuta,infectie a cailor biliare,inflamatia cailor biliare,cholangitis,acute cholangitis,bile duct infection
 Colangita ascendenta,colangita acuta ascendenta,colangita supurativa,infectie ascendenta a cailor biliare,ascending cholangitis,acute ascending cholangitis,suppurative cholangitis
 Colangita sclerozanta primitiva,colangita sclerozanta idiopatica,boala sclerozanta a cailor biliare,colangita sclerozanta primara,primary sclerosing cholangitis,sclerosing cholangitis,idiopathic sclerosing cholangitis
 Colaps circulator,colaps vascular,insuficienta circulatorie brusca,prabusire circulatorie,circulatory collapse,vascular collapse,sudden circulatory failure
@@ -1481,14 +1481,14 @@ Colecistita acuta alitiazica,colecistita acuta fara calculi,colecistita acuta ne
 Colecistita acuta calculoasa,colecistita acuta litiazica,colecistita acuta pe calculi,inflamatie acuta a vezicii biliare cu pietre,acute calculous cholecystitis,acute lithiasic cholecystitis,acute gallstone cholecystitis
 Colecistita emfizematoasa,colecistita gangrenoasa,colecistita cu germeni gazosi,colecistita necrozanta,emphysematous cholecystitis,gangrenous cholecystitis,gas-forming cholecystitis
 Coledocolitiaza,litiaza de coledoc,calculi pe canalul coledoc,pietre la calea biliara principala,choledocholithiasis,common bile duct stones,bile duct calculi
-Colestaza,Colestaza cronica,colestaza hepatica,blocaj biliar,staza biliara,cholestasis,hepatic cholestasis,bile flow obstruction,colestaza de lunga durata,staza biliara cronica,sindrom colestatic cronic,chronic cholestasis,long-standing cholestasis,chronic cholestatic syndrome
+Colestaza,fiere infundata,Colestaza cronica,colestaza hepatica,blocaj biliar,staza biliara,cholestasis,hepatic cholestasis,bile flow obstruction,colestaza de lunga durata,staza biliara cronica,sindrom colestatic cronic,chronic cholestasis,long-standing cholestasis,chronic cholestatic syndrome
 Colestaza gravidica,colestaza intrahepatica de sarcina,colestaza din sarcina,prurit gravidic cu colestaza,intrahepatic cholestasis of pregnancy,obstetric cholestasis,cholestasis of pregnancy
 Colestaza neonatala,icter colestatic neonatal,colestaza la nou-nascut,colestaza a nou-nascutului,neonatal cholestasis,cholestasis of the newborn,neonatal cholestatic jaundice
 Colesteatom,colesteatom al urechii medii,tumora epidermoida a urechii medii,chist keratosic al urechii medii,cholesteatoma,middle ear cholesteatoma,epidermoid tumor of the middle ear
 Colesterol crescut,hipercolesterolemie,colesterol ridicat,colesterol mare,high cholesterol,hypercholesterolemia,elevated cholesterol
 Colibaciloza,infectie cu E. coli,infectie cu Escherichia coli,colibaciloza intestinala,e coli infection,escherichia coli infection,colibacillosis
 Colica biliara,colici biliare,durere de vezica biliara,colica hepatica,biliary colic,gallbladder attack,gallstone colic
-Colica renala,criza de rinichi,colici renale,durere renala spastica,colica nefretica,renal colic,kidney colic,nephritic colic
+Colica renala,durere de rinichi,criza de rinichi,colici renale,durere renala spastica,colica nefretica,renal colic,kidney colic,nephritic colic
 Colici abdominali,colici,colici intestinale,dureri abdominale spastice,crampe abdominale,abdominal colic,abdominal cramps,intestinal colic
 Colici infantile,colici la bebelusi,colicii sugarului,colici la sugar,infant colic,baby colic,colic in infants
 Colita,rana la intestine,inflamatia colonului,colita cronica,colopatie inflamatorie,colitis,colon inflammation,inflammation of the colon
@@ -1499,7 +1499,7 @@ Colita colagenoasa,colita cu colagen subepitelial,colita colagenica,coloane de c
 Colita cu citomegalovirus,colita CMV,enterocolita cu CMV,colita virala cu citomegalovirus,cytomegalovirus colitis,CMV colitis,cytomegaloviral colitis
 Colita eozinofilica,colita alergica eozinofilica,colita cu eozinofile,inflamatie eozinofilica a colonului,eosinophilic colitis,allergic eosinophilic colitis,eosinophilic inflammation of the colon
 Colita granulomatoasa,colita cu granulom,boala granulomatoasa a colonului,inflamatie granulomatoasa colica,granulomatous colitis,colonic granulomatous disease,granulomatous inflammation of the colon
-Colita hemoragica,colita cu sange,boala hamburgerului,colita hemoragica cu e coli,infectie enterohemoragica cu e coli,hemorrhagic colitis,hamburger disease,e coli hemorrhagic colitis
+Colita hemoragica,diaree cu sange,colita cu sange,boala hamburgerului,colita hemoragica cu e coli,infectie enterohemoragica cu e coli,hemorrhagic colitis,hamburger disease,e coli hemorrhagic colitis
 Colita limfocitara,colita cu limfocite,colita microscopica limfocitara,limfocitoza intraepiteliala colica,lymphocytic colitis,microscopic lymphocytic colitis,intraepithelial lymphocytosis of the colon
 Colita pseudomembranoasa,Colita pseudomembranoasa recidivanta,colita cu pseudomembrane,colita postantibiotica,enterocolita pseudomembranoasa,pseudomembranous colitis,antibiotic-associated colitis,pseudomembranous enterocolitis,colita postantibiotica recidivanta,recadere de colita pseudomembranoasa,recurenta pseudomembranoasa,recurrent pseudomembranous colitis,relapsing antibiotic-associated colitis,recurrent C difficile colitis
 Colita pseudomembranoasa cu Clostridium difficile,infectie cu Clostridium difficile,colita cu C difficile,diaree asociata Clostridium difficile,Clostridium difficile infection,C difficile colitis,C difficile associated diarrhea
@@ -1540,14 +1540,14 @@ Conjunctivita lignoasa,conjunctivita pseudomembranoasa,conjunctivita cu membrane
 Conjunctivita neonatala,oftalmia nou-nascutului,conjunctivita la nounascut,infectie oculara neonatala,neonatal conjunctivitis,ophthalmia neonatorum,neonatal eye infection
 Conjunctivita virala,conjunctivita cu adenovirus,conjunctivita virala acuta,infectie virala a conjunctivei,viral conjunctivitis,adenoviral conjunctivitis,adenovirus eye infection
 Conjunctivochalazis,conjunctivochalazie,relaxare a conjunctivei,pliuri conjunctivale,conjunctivochalasis,conjunctival relaxation,conjunctival folds
-Constipatie,constipatie cronica,tranzit intestinal lent,dificultate la defecatie,constipation,chronic constipation,sluggish bowel
+Constipatie,scaun tare,constipatie cronica,tranzit intestinal lent,dificultate la defecatie,constipation,chronic constipation,sluggish bowel
 Contractura articulara,retractie articulara,contractura de flexie articulara,limitare de mobilitate articulara,joint contracture,articular contracture,joint retraction
 Contractura musculara,muschi contractat,scurtare musculara,contractura musculara fixa,muscle contracture,muscular contracture,muscle tightness
-Convulsii,crize convulsive,spasme convulsive,convulsii febrile,convulsions,seizures,convulsive fits
+Convulsii,spasme,crize convulsive,spasme convulsive,convulsii febrile,convulsions,seizures,convulsive fits
 Convulsii neonatale,convulsii la nou-nascut,epilepsie neonatala,crize convulsive neonatale,neonatal seizures,neonatal convulsions,seizures in the newborn
 Coproporfirie ereditara,porfirie coproporfirica ereditara,deficit de coproporfirinogen oxidaza,porfirie cu coproporfirina,hereditary coproporphyria,coproporphyria,CPOX deficiency
-Coptura,iritatie in pliurile pielii,eritem fesier,intertrigo,diaper rash,skin fold irritation,chafing
-Cord pulmonar,boala cardiaca pulmonara,insuficienta cardiaca dreapta prin boala pulmonara,hipertrofie ventriculara dreapta,cor pulmonale,pulmonary heart disease,right heart failure due to lung disease
+Coptura,buba de la fund,iritatie in pliurile pielii,eritem fesier,intertrigo,diaper rash,skin fold irritation,chafing
+Cord pulmonar,inima obosita de plamani,boala cardiaca pulmonara,insuficienta cardiaca dreapta prin boala pulmonara,hipertrofie ventriculara dreapta,cor pulmonale,pulmonary heart disease,right heart failure due to lung disease
 Cordon penian,curbura peniana congenitala,deviatie peniana in erectie,indoire peniana congenitala,chordee,congenital penile curvature,penile chordee
 Corectopie,pozitie anormala a pupilei,deplasare a pupilei,pupila ectopica,corectopia,pupil displacement,ectopic pupil
 Coreea benigna ereditara,coreea benigna familiala,coreea benigna non-progresiva,coreea benigna a copilariei,benign hereditary chorea,benign familial chorea,benign hereditary chorea syndrome
@@ -1571,7 +1571,7 @@ Crampa scriitorului,crampa functionala a mainii,distonie de tip sarcina a mainii
 Crampe musculare,crampe,spasme musculare,contractii musculare dureroase,muscle cramps,muscle spasms,cramps
 Craniolacunia,os cranian cu lacune,lacune craniene congenitale,craniu cu lacune,cranial lacunae of the newborn,congenital cranial lacunae,luckenschadel skull
 Craniosinostoza,craniostenoza,sinostoza craniana prematura,inchidere prematura a suturilor craniene,craniosynostosis,premature cranial suture fusion,cranial synostosis
-Cretinism,cretinism endemic,cretinism sporadic,hipotiroidism congenital sever,congenital iodine deficiency syndrome,endemic cretinism,cretinism due to iodine deficiency
+Cretinism,cretin,cretinism endemic,cretinism sporadic,hipotiroidism congenital sever,congenital iodine deficiency syndrome,endemic cretinism,cretinism due to iodine deficiency
 Cretinism mixedematos,cretinism cu mixedem,hipotiroidism congenital mixedematos,cretinism hipotiroidian,myxedematous cretinism,endemic myxedematous cretinism,myxedematous congenital hypothyroidism
 Cretinism neurologic,cretinism neurologic endemic,hipotiroidism congenital cu afectare neurologica,cretinism neurologic cu surditate,neurological cretinism,endemic neurological cretinism,neurologic cretinism
 Crioglobulinemie,crioglobuline in sange,vasculita crioglobulinemica,purpura crioglobulinemica,cryoglobulinemia,cryoglobulinaemia,cryoglobulinemic vasculitis
@@ -1603,10 +1603,10 @@ Cvadranopsie,defect cvadrantic de camp vizual,pierdere a unui cadran din campul 
 Dacrioadenita,inflamatia glandei lacrimale,infectie a glandei lacrimale,dacrioadenita acuta,dacryoadenitis,inflammation of the lacrimal gland,infection of the lacrimal gland
 Dacriocistita,inflamatia sacului lacrimal,infectie a sacului lacrimal,dacriocistita acuta,dacryocystitis,inflammation of the lacrimal sac,infection of the lacrimal sac
 Dacriolit,calcul lacrimal,litiaza a cailor lacrimale,piatra in calea lacrimala,dacryolith,lacrimal calculus,lacrimal stone
-Dactilita,deget in cirnat,deget umflat in forma de cirnat,inflamatia difuza a degetului,dactylitis,sausage digit,sausage-shaped digit
+Dactilita,deget umflat,deget in cirnat,deget umflat in forma de cirnat,inflamatia difuza a degetului,dactylitis,sausage digit,sausage-shaped digit
 Daltonism,discromatopsie,orbire la culori,incapacitatea de a distinge culorile,color blindness,color vision deficiency,colour blindness
 Deciduita,deciduita acuta,inflamatia deciduei,deciduita cronica,deciduitis,acute deciduitis,inflammation of the decidua
-Decolament vitrean,dezlipirea vitrosului,detasare de vitros,decolare a vitrosului,vitreous detachment,detachment of the vitreous,posterior vitreous detachment
+Decolament vitrean,ceata in ochi,dezlipirea vitrosului,detasare de vitros,decolare a vitrosului,vitreous detachment,detachment of the vitreous,posterior vitreous detachment
 Decolment prematur de placenta,decolment placentar,hematom retroplacentar,decolment prematur al placentei,placental abruption,abruptio placentae,premature separation of the placenta
 Decubit de cornet,deviere de sept cu decubit,sept deviat cu obstuctie nazala,deviatie de sept nazal,deviated nasal septum,nasal septum deviation,septal deviation
 Defect de sept atrioventricular,canal atrioventricular comun,defect de sept atrioventricular complet,canal AV comun,atrioventricular septal defect,common atrioventricular canal,endocardial cushion defect
@@ -1717,7 +1717,7 @@ Deficit de zinc,carenta de zinc,hipozincemie,lipsa zincului,zinc deficiency,hypo
 Deficit izolat de hormon de crestere,deficit izolat de GH,hiposecretie izolata de hormon somatotrop,deficit de somatotropina,isolated growth hormone deficiency,isolated GH deficiency,somatotropin deficiency
 Deficit multiplu de sulfataza,boala Austin,sulfatidoza multipla,mucosulfatidoza,multiple sulfatase deficiency,Austin disease,mucosulfatidosis
 Deficit selectiv de IgA,deficit de imunoglobulina A,carenta de IgA,deficit izolat de IgA,selective IgA deficiency,IgA deficiency,isolated IgA deficiency
-Deformare de degete,deformari ale degetelor,deformitate digitala,degete deformate,finger deformity,digital deformity,deformity of the fingers
+Deformare de degete,degete strambe,deformari ale degetelor,deformitate digitala,degete deformate,finger deformity,digital deformity,deformity of the fingers
 Deformitate in butoniera,deformare in butoniera a degetelor,deget cu aspect de butoniera,deformitate de tip butoniera,boutonniere deformity,buttonhole deformity,boutonniere finger
 Deformitate in gat de lebada,deget in gat de lebada,deformare in gat de lebada,deformitate de tip swan neck,swan neck deformity,swan-neck finger,swan neck finger deformity
 Deformitate Madelung,deformarea Madelung a pumnului,deformitate radiala congenitala,deformitate Madelung a antebratului,Madelung deformity,Madelung disease,radial ray deformity
@@ -1737,7 +1737,7 @@ Delir de gelozie,sindrom Othello,gelozie patologica,delir de infidelitate,delusi
 Delir erotoman,erotomanie,sindrom Clerambault,delir de iubire,erotomania,clerambault syndrome,de clerambault syndrome
 Delir paranoid,delir de persecutie,tulburare paranoida cu delir,idei de persecutie,paranoid delusion,persecutory delusion,delusion of persecution
 Delirium,deler,stare confuzionala acuta,confuzie acuta cu dezorientare,delirium syndrome,acute confusional state,acute brain failure
-Delirium tremens,delir alcoolic,delirium tremens alcoolic,criza de sevraj alcoolic,alcoholic delirium,delirium tremens syndrome,alcohol withdrawal delirium
+Delirium tremens,delirul betivilor,delir alcoolic,delirium tremens alcoolic,criza de sevraj alcoolic,alcoholic delirium,delirium tremens syndrome,alcohol withdrawal delirium
 Dementa,ramolire,dementa senila,senilitate,declin cognitiv,dementia,senile dementia,cognitive decline
 Dementa alcoolica,dementa din alcoolism,dementa etilica,declin cognitiv prin alcool,alcoholic dementia,alcohol-related dementia,ethanol-induced dementia
 Dementa asociata bolii Parkinson,dementa parkinsoniana,dementa in boala Parkinson,declin cognitiv in boala Parkinson,parkinson disease dementia,dementia of parkinson type,parkinsonian dementia,dementa din parkinson,dementia associated with Parkinson disease,Parkinson dementia
@@ -1748,7 +1748,7 @@ Dementa mixta,dementa combinata,dementa vasculara si degenerativa,dementa cu cau
 Dementa posttraumatica,dementa dupa traumatism cranian,dementa postcoma,encefalopatie traumatica cronica,post-traumatic dementia,dementia due to head trauma,traumatic brain injury dementia
 Dementa vasculara,dementa prin infarcte multiple,dementa multiinfarct,encefalopatie vasculara cronica,vascular dementia,multi-infarct dementia,arteriosclerotic dementia,dementa arteriopatica,arteriopathic dementia,dementa de origine vasculara,vascular cognitive impairment
 Dementia pugilistica,encefalopatie traumatica a boxerului,dementa boxerului,sindrom posttraumatic al boxerului,boxer's dementia,punch-drunk syndrome,chronic traumatic brain injury
-Demodicoza,infestare cu Demodex,acnee demodectica,dermatita cu Demodex,demodicosis,demodex infestation,demodectic mange
+Demodicoza,acarieni la fata,infestare cu Demodex,acnee demodectica,dermatita cu Demodex,demodicosis,demodex infestation,demodectic mange
 Denga,febra denga,febra dengue,boala denga,dengue,dengue fever,breakbone fever
 Dependenta de amfetamine,dependenta de metanfetamina,toxicomanie cu amfetamine,adictie la amfetamine,amphetamine dependence,amphetamine addiction,methamphetamine use disorder
 Dependenta de benzodiazepine,dependenta de anxiolitice,toxicomanie cu benzodiazepine,adictie la benzodiazepine,benzodiazepine dependence,benzodiazepine addiction,benzodiazepine use disorder
@@ -1773,7 +1773,7 @@ Depresie postnatala,depresie post-partum,depresie dupa nastere,depresie puerpera
 Depresie psihotica,depresie cu simptome psihotice,depresie deliranta,depresie halucinatorie,psychotic depression,depression with psychotic features,delusional depression
 Depresie rezistenta la tratament,depresie refractara,depresie fara raspuns la tratament,depresie rezistenta la antidepresive,treatment-resistant depression,refractory depression,antidepressant-resistant depression
 Derealizare,sindrom de derealizare,senzatie de irealitate a mediului,detasare de realitate,derealization,derealization disorder,feeling of unreality about the environment
-Dermatilomanie,tulburare de scarpinare a pielii,scarpinare compulsiva a pielii,leziuni cutanate autoinduse,excoriation disorder,skin picking disorder,dermatillomania
+Dermatilomanie,mananca pielea,tulburare de scarpinare a pielii,scarpinare compulsiva a pielii,leziuni cutanate autoinduse,excoriation disorder,skin picking disorder,dermatillomania
 Dermatita,rosata,inflamatia pielii,dermatita de contact,dermatita seboreica,dermatitis,contact dermatitis,skin inflammation
 Dermatita actinica cronica,radiodermatita cronica,dermatita de radiatii,dermatita actinica,chronic radiodermatitis,radiation dermatitis,chronic radiation dermatitis
 Dermatita atrofica cronica,atrofia pielii de radiatii,radiodermita cronica,atrofie cutanata actinica,chronic atrophic dermatitis,radiation-induced skin atrophy,chronic radiation dermatitis of skin
@@ -1794,7 +1794,7 @@ Dermatita numulara,eczem numular,dermatita numulara uscata,dermatita in placi ro
 Dermatita palpebrala,eczema pleoapelor,inflamatia pielii pleoapei,dermatita pleoapelor,eyelid dermatitis,eyelid eczema,dermatitis of the eyelid
 Dermatita periorala,dermatita periorala rosaceiforma,eruptie periorala,dermatita din jurul gurii,perioral dermatitis,periorificial dermatitis,rosacea-like dermatitis
 Dermatita schistosomica,manarirea inotatorului,dermatita cu cercarii,pruritul inotatorului,swimmer's itch,cercarial dermatitis,schistosome dermatitis
-Dermatita seboreica faciala,dermatita seboreica a fetei,seboree faciala inflamatorie,eczem seboreic facial,facial seborrheic dermatitis,facial seborrhoeic dermatitis,seborrheic face eczema
+Dermatita seboreica faciala,pata pe fata,dermatita seboreica a fetei,seboree faciala inflamatorie,eczem seboreic facial,facial seborrheic dermatitis,facial seborrhoeic dermatitis,seborrheic face eczema
 Dermatita serpiginoasa,dermatita eritematoasa circinata,eruptie cutanata circinata,dermatita cu leziuni serpiginoase,serpiginous dermatitis,creeping dermatitis,serpiginous skin eruption
 Dermatofibrosarcom protuberans,tumora Darier-Ferrand,dermatofibrosarcom,fibrosarcom cutanat protuberans,dermatofibrosarcoma protuberans,Darier-Ferrand tumor,protuberans dermatofibrosarcoma,dermatofibrosarcom recidivant,tumora fibroasa cutanata maligna,Darier-Ferrand dermatofibrosarcoma,DFSP
 Dermatofitoza,dermatofitie,infectie cu dermatofiti,micoza dermatofitica,dermatophytosis,tinea,ringworm
@@ -1824,7 +1824,7 @@ Diabet neonatal,diabet zaharat neonatal,diabet neonatal tranzitoriu,diabet zahar
 Diabet pancreatic,diabet prin boli pancreatice,diabet de origine pancreatica,diabet dupa pancreatita cronica,pancreatic diabetes,diabetes due to pancreatic disease,pancreatogenic diabetes
 Diabet secundar,diabet zaharat secundar,diabet simptomatic,diabet de cauza cunoscuta,secondary diabetes,secondary diabetes mellitus,diabetes due to another condition
 Diabet steroidic,diabet indus de corticosteroizi,hiperglicemie indusa de cortizon,diabet prin corticoterapie,steroid diabetes,steroid-induced diabetes,corticosteroid-induced hyperglycemia
-Diabet zaharat,zahar,diabet,diabet zaharat tip 2,diabet de tip 2,diabetes mellitus,diabetes,type 2 diabetes
+Diabet zaharat,boala de zahar,zahar,diabet,diabet zaharat tip 2,diabet de tip 2,diabetes mellitus,diabetes,type 2 diabetes
 Diabet zaharat instabil,diabet labil,diabet zaharat dificil de controlat,diabet zaharat cu control labil,brittle diabetes,labile diabetes,unstable diabetes
 Diabet zaharat tip 1,diabet insulinodependent,diabet juvenil,diabet de tip 1,type 1 diabetes,insulin-dependent diabetes,juvenile diabetes
 Diabet zaharat tip 1 cu complicatii,diabet tip 1 cu complicatii cronice,diabet insulinodependent cu complicatii,diabet zaharat tip 1 cu complicatii vasculare,type 1 diabetes with complications,complicated type 1 diabetes,insulin-dependent diabetes with complications
@@ -1848,7 +1848,7 @@ Dilatatie de coledoc,dilatatie a cailor biliare,dilatatie biliara,ectazie biliar
 Dilatatie gastrica acuta,dilatatie acuta a stomacului,distensie gastrica acuta,atonia gastrica acuta,acute gastric dilatation,acute stomach distension,acute gastric atony
 Dipilidioza,infestare cu Dipylidium caninum,tenia cainelui,teniaza cu Dipylidium,dipylidiasis,dog tapeworm infection,Dipylidium caninum infection
 Diplacuzie,auzire dubla,perceptie dubla a sunetelor,distorsiune a perceperii sunetelor,diplacusis,double hearing,diplacusis binauralis
-Diplopie,vedere dubla,diplopie binoculara,imagine dubla,diplopia,double vision,binocular diplopia
+Diplopie,vad dublu,vedere dubla,diplopie binoculara,imagine dubla,diplopia,double vision,binocular diplopia
 Disacuzie,distorsiune auditiva,perceptie sonora distorsionata,scadere a tolerantei la sunete,dysacusis,auditory distortion,distorted hearing
 Discalculie,tulburare de calcul matematic,dificultate la matematica,tulburare de aritmetica,dyscalculia,mathematics disorder,arithmetic learning disorder
 Dischinezie biliara,diskinezie biliara,tulburare de golire a vezicii biliare,dischinezie a cailor biliare,biliary dyskinesia,gallbladder dyskinesia,biliary motility disorder
@@ -1902,7 +1902,7 @@ Dispraxie,tulburare de coordonare motorie,tulburare de dezvoltare a coordonarii,
 Disproportie congenitala de tipuri de fibre,miopatie cu disproportie de fibre,disproportie de fibre musculare,disproportie de tipuri de fibre musculare,congenital fiber type disproportion,congenital fibre type disproportion,fiber type disproportion myopathy
 Dissociere electromecanica,activitate electrica fara puls,disociere electromecanica cardiaca,AESP,pulseless electrical activity,electromechanical dissociation,PEA
 Distichiazis,rand dublu de gene,gene suplimentare spre globul ocular,al doilea rand de gene,distichiasis,double row of eyelashes,accessory eyelashes
-Distimie,depresie cronica usoara,tulburare distimica,depresie persistenta,dysthymia,persistent depressive disorder,chronic mild depression
+Distimie,stare de tristete,depresie cronica usoara,tulburare distimica,depresie persistenta,dysthymia,persistent depressive disorder,chronic mild depression
 Distocie,nastere dificila,travaliu disfunctional,distocie de travaliu,dystocia,difficult birth,dysfunctional labor
 Distocie de umar,impactie a umerilor,retentie de umar la nastere,distocie de umar la nastere,shoulder dystocia,shoulder impaction,dystocia of the shoulder
 Distonie,distonie musculara,tulburare distonica,spasm distonic,dystonia,dystonic disorder,muscle dystonia
@@ -1969,17 +1969,17 @@ Echinococoza alveolara,echinococoza multiloculara,boala cu Echinococcus multiloc
 Echinococoza renala,chist hidatic renal,hidatidoza renala,chist echinococic renal,renal echinococcosis,hydatid cyst of the kidney,renal hydatid disease
 Ectazie traheobronsica,dilatatie traheobronsica,traheobronsectazie,ectazie a traheei si bronhiilor,tracheobronchial ectasia,tracheobronchiectasis,tracheobronchial dilatation
 Ectazie vasculara gastrica,ectazie vasculara a stomacului,ectazii vasculare gastrice,leziuni vasculare gastrice,gastric antral vascular ectasia,GAVE,watermelon stomach
-Ectima,ectima contagioasa,piodermita ulcerativa,ectima vulgara,ecthyma,ulcerative pyoderma,ecthyma vulgare,ectima cutanat,ectima streptococic,ulceratie cutanata infectata,streptococcal ecthyma
+Ectima,rana murdara,ectima contagioasa,piodermita ulcerativa,ectima vulgara,ecthyma,ulcerative pyoderma,ecthyma vulgare,ectima cutanat,ectima streptococic,ulceratie cutanata infectata,streptococcal ecthyma
 Ectima gangrenos,ectima cu Pseudomonas,ectima gangrenosum,ulcer necrotic cu Pseudomonas,ecthyma gangrenosum,pseudomonas ecthyma,ecthyma gangraenosum,ectima gangrenoasa,gangrenous ecthyma
 Ectopia cordis,cord exteriorizat,ectopie cardiaca congenitala,cord in afara toracelui,congenital exteriorization of the heart,thoracic ectopia cordis,ectopia cordis thoracica
 Ectopia lentis familiala,sindrom de ectopia lentis,ectopia lentis ereditara,luxatie ereditara a cristalinului,familial ectopia lentis,hereditary ectopia lentis,isolated ectopia lentis
 Ectopie de ureter,ureter ectopic,ureter cu orificiu ectopic,orificiu ureteral ectopic,ectopic ureter,ureteral ectopia,ectopic ureteral orifice
 Ectrodactilie,malformatie de mana despicata,degete lipsa congenital,malformatie de picior despicat,ectrodactyly,split hand malformation,split foot malformation
 Ectropion,intoarcere a pleoapei spre exterior,pleoapa intoarsa in afara,marginea pleoapei rasturnata in afara,outward turning eyelid,everted eyelid,eyelid eversion
-Eczema,jupuitul,dermatita atopica,eczema atopica,eczema cronica,atopic dermatitis,atopic eczema,eczema dermatitis
+Eczema,bube de piele,jupuitul,dermatita atopica,eczema atopica,eczema cronica,atopic dermatitis,atopic eczema,eczema dermatitis
 Eczema asteatotic,eczem asteatotic,xeroza eczema,eczem craquele,asteatotic eczema,xerotic eczema,eczema craquele
 Eczema herpeticum,eruptie variceliforma Kaposi,infectie herpetica cutanata diseminata,eruptie variceliforma herpetica,Kaposi varicelliform eruption,herpetic eczema,herpes simplex skin eruption
-Edem,umflatura,retentie de apa,umflaturi ale picioarelor,edeme,edema,fluid retention,oedema
+Edem,umflaturi,umflatura,retentie de apa,umflaturi ale picioarelor,edeme,edema,fluid retention,oedema
 Edem cerebral,edem al creierului,umflare a creierului,edem cerebral difuz,cerebral edema,brain edema,cerebral oedema
 Edem cerebral neonatal,edem cerebral la nou-nascut,edem cerebral perinatal,edem cerebral a nou-nascutului,neonatal cerebral edema,cerebral edema of the newborn,perinatal brain edema
 Edem corneal,edem al corneei,cornee edematoasa,infiltratie edematoasa corneana,corneal edema,corneal oedema,corneal swelling
@@ -2039,7 +2039,7 @@ Encefalita ecvina vestica,encefalomielita ecvina vestica,infectie cu virusul WEE
 Encefalita granulomatoasa amibiana,granulomatoza amibiana cerebrala,infectie cerebrala cu Acanthamoeba,encefalita cu Acanthamoeba,granulomatous amoebic encephalitis,acanthamoeba encephalitis,granulomatous amebic encephalitis
 Encefalita herpetica,encefalita cu virus herpes simplex,encefalita necrozanta herpetica,encefalita cu HSV,herpes simplex encephalitis,herpetic encephalitis,HSV encephalitis,encefalita HSV
 Encefalita japoneza,encefalita B japoneza,encefalita cu virusul japonez,encefalita nipona,Japanese encephalitis,Japanese B encephalitis,Japanese encephalitis virus infection,encefalita cu virus japonez,infectie cu virusul encefalitei japoneze,JE virus encephalitis
-Encefalita letargica,encefalita von Economo,encefalita epidemica,somnolenta epidemica,encephalitis lethargica,von Economo encephalitis,epidemic encephalitis
+Encefalita letargica,encefalita somnului,encefalita von Economo,encefalita epidemica,somnolenta epidemica,encephalitis lethargica,von Economo encephalitis,epidemic encephalitis
 Encefalita limbica,encefalita sistemului limbic,encefalita paraneoplazica limbica,encefalita limbica autoimuna,limbic encephalitis,paraneoplastic limbic encephalitis,limbic system encephalitis
 Encefalita louping ill,boala louping ill,infectie cu virusul louping ill,encefalomielita louping ill,louping ill,louping ill encephalitis,louping ill virus infection
 Encefalita Murray Valley,encefalita australiana,infectie cu virusul Murray Valley,encefalita din Australia,Murray Valley encephalitis,Australian encephalitis,Murray Valley encephalitis virus infection
@@ -2078,7 +2078,7 @@ Endocardita reumatica,valvulita reumatica,endocardita postreumatica,reumatism en
 Endocervicita,inflamatia canalului cervical,infectie endocervicala,endocervicita cronica,endocervicitis,endocervical inflammation,inflammation of the endocervix
 Endoftalmie,infectie intraoculara severa,supuratie intraoculara,endoftalmie purulenta,endophthalmitis,intraocular infection,suppurative intraocular infection
 Endometriom ovarian,chist endometriozic ovarian,chist de ciocolata,endometriom al ovarului,ovarian endometrioma,chocolate cyst,endometriotic ovarian cyst
-Endometrioza,endometrioza pelvina,tesut endometrial ectopic,endometrioza ovariana,endometriosis,pelvic endometriosis,ectopic endometrial tissue
+Endometrioza,dureri de femeie,endometrioza pelvina,tesut endometrial ectopic,endometrioza ovariana,endometriosis,pelvic endometriosis,ectopic endometrial tissue
 Endometrioza peritoneala,leziuni endometriozice peritoneale,endometrioza peritoneala superficiala,implanturi endometriozice peritoneale,peritoneal endometriosis,superficial peritoneal endometriosis,peritoneal endometriotic implants
 Endometrioza profunda,endometrioza infiltrativa profunda,endometrioza rectovaginala,endometrioza pelvina profunda,deep endometriosis,deep infiltrating endometriosis,rectovaginal endometriosis
 Endometrita,inflamatia endometrului,endometrita acuta,infectie endometriala,endometritis,endometrial infection,inflammation of the endometrium
@@ -2120,7 +2120,7 @@ Epididimita,inflamatia epididimului,epididimita acuta,infectie a epididimului,ep
 Epididimo-orhita,orhoepididimita,inflamatia epididimului si testiculului,epididimita cu orhita,epididymo-orchitis,inflammation of epididymis and testis,epididymitis with orchitis
 Epifizioliza capitala femurala,alunecarea epifizei femurale superioare,epifizioliza soldului,coxa vara adolescentului,slipped capital femoral epiphysis,SCFE,slipped upper femoral epiphysis
 Epiglotita,laringita supraglotica,epiglotita acuta,inflamatia epiglotei,epiglottitis,acute epiglottitis,supraglottitis
-Epilepsie,crize epileptice,convulsii epileptice,boala comitiala,epilepsy,epileptic seizures,seizure disorder
+Epilepsie,boala dracului,crize epileptice,convulsii epileptice,boala comitiala,epilepsy,epileptic seizures,seizure disorder
 Epilepsie abdominala,epilepsie viscerala,crize abdominale epileptice,epilepsie digestiva,abdominal epilepsy,visceral epilepsy,epileptic abdominal seizures
 Epilepsie absenta,epilepsie cu absente,petit mal,epilepsie absenta a copilului,absence epilepsy,petit mal epilepsy,absence seizures
 Epilepsie absenta a copilariei,epilepsie absenta infantila,petit mal al copilariei,picnolepsie,childhood absence epilepsy,childhood absence seizures,pyknolepsy
@@ -2178,7 +2178,7 @@ Esofagita infectioasa,esofagita microbiana,esofagita virala,esofagita fungica,in
 Esofagita medicamentoasa,esofagita prin medicamente,esofagita pilulara,leziune esofagiana medicamentoasa,drug-induced esophagitis,pill esophagitis,medication-induced esophageal injury
 Esofagita necrozanta,esofagita necrotica,esofagita acuta necrozanta,necroliza mucoasei esofagiene,necrotizing esophagitis,acute necrotizing esophagitis,esophageal mucosal necrosis
 Esofagul hipercontractil,esofag nutcracker,esofag in ciocan pneumatic,spasm esofagian hipercontractil,nutcracker esophagus,jackhammer esophagus,hypertensive esophageal peristalsis
-Esotropie,strabism convergent,strabism intern,deviatie convergenta a ochilor,esotropia,convergent strabismus,internal strabismus
+Esotropie,ochi care se abat spre nas,strabism convergent,strabism intern,deviatie convergenta a ochilor,esotropia,convergent strabismus,internal strabismus
 Estenoza anala,stramtare anala,strictura anala,ingustare a canalului anal,anal stenosis,stricture of the anus,anal stricture
 Estenoza biliara,stramtare a cailor biliare,strictura biliara,ingustare biliara,biliary stricture,stricture of the bile duct,bile duct stenosis
 Estenoza esofagiana,stramtare a esofagului,strictura esofagiana,ingustare esofagiana,esophageal stricture,stricture of the esophagus,esophageal narrowing
@@ -2194,7 +2194,7 @@ Explozivitate intermitenta,tulburare exploziva intermitenta,crize de furie patol
 Expunere la radiatii,iradiere,boala de iradiere,radiatii ionizante,radiation exposure,radiation sickness,radiation poisoning
 Extrofie de cloaca,extrofia cloacala,malformatie cloacala extrofica,extrofie cloacala congenitala,cloacal exstrophy,exstrophy of the cloaca,OEIS complex
 Extrofie de vezica urinara,extrofia vezicii,ectopie vezicala,malformatie extrofica a vezicii,bladder exstrophy,exstrophy of the bladder,ectopia vesicae
-Faringita,Faringita cronica,durere in gat,inflamatia faringelui,dureri de gat,faringita acuta,pharyngitis,sore throat,throat inflammation,faringita persistenta,faringita de durata,inflamatie cronica a faringelui,chronic pharyngitis,persistent pharyngitis,chronic throat inflammation
+Faringita,usturime in gat,Faringita cronica,durere in gat,inflamatia faringelui,dureri de gat,faringita acuta,pharyngitis,sore throat,throat inflammation,faringita persistenta,faringita de durata,inflamatie cronica a faringelui,chronic pharyngitis,persistent pharyngitis,chronic throat inflammation
 Faringita acuta cu Bordetella,faringita cu Bordetella pertussis,faringita pertussis,infectie faringiana cu Bordetella,Bordetella pharyngitis,Bordetella pertussis pharyngitis,pertussis pharyngitis
 Faringita acuta cu Chlamydia,faringita chlamydiana,faringita cu Chlamydia pneumoniae,infectie faringiana cu Chlamydia,chlamydial pharyngitis,Chlamydia pneumoniae pharyngitis,Chlamydophila pharyngitis
 Faringita acuta cu coronavirus,faringita cu coronavirus sezonier,faringita coronavirus,infectie faringiana cu coronavirus,coronavirus pharyngitis,seasonal coronavirus pharyngitis,coronavirus throat infection
@@ -2230,7 +2230,7 @@ Faringita stafilococica,Faringita stafilococica cronica,faringita cu stafilococ,
 Faringita tuberculoasa,faringita ftizica,tuberculoza faringiana,faringita cu bacil Koch,tuberculous pharyngitis,pharyngeal tuberculosis,tuberculosis of the pharynx
 Faringita ulcero-membranoasa,angina ulceromembranoasa,faringita cu membrane,faringita necrozanta,ulceromembranous pharyngitis,membranous pharyngitis,necrotizing pharyngitis
 Faringita virala,faringita cu adenovirus,faringita de cauza virala,angina virala,viral pharyngitis,adenoviral pharyngitis,pharyngitis due to virus
-Faringoamigdalita,amigdalofaringita,inflamatia faringelui si amigdalelor,angina faringoamigdaliana,pharyngotonsillitis,tonsillopharyngitis,inflammation of pharynx and tonsils
+Faringoamigdalita,amigdale umflate,amigdalofaringita,inflamatia faringelui si amigdalelor,angina faringoamigdaliana,pharyngotonsillitis,tonsillopharyngitis,inflammation of pharynx and tonsils
 Faringoamigdalita bacteriana,angina bacteriana,faringoamigdalita cu bacterii,infectie bacteriana faringoamigdaliana,bacterial pharyngotonsillitis,bacterial tonsillopharyngitis,bacterial throat infection
 Faringoconjunctivita,sindrom faringoconjunctival,conjunctivita cu faringita,febra faringoconjunctivala adenovirala,pharyngoconjunctivitis of adenoviral type,adenovirus conjunctivitis with fever,adenovirus pharyngitis with conjunctivitis
 Fasciolopsidoza,infestare cu Fasciolopsis buski,distomatoza intestinala,distomatoza cu Fasciolopsis,fasciolopsiasis,Fasciolopsis buski infection,giant intestinal fluke infection
@@ -2372,7 +2372,7 @@ Fructozurie esentiala,fructozurie benigna,deficit de fructokinaza,fructozurie fa
 Fucozidoza,deficit de alfa-fukozidaza,boala depozitelor de fucoza,fukozidoza infantila,fucosidosis,alpha-fucosidase deficiency,fucose storage disease
 Fuga disociativa,fuga psihogena,fuga cu amnezie,calatorie cu amnezie,dissociative fugue,psychogenic fugue,fugue state
 Furtuna tiroidiana,criza tiroidiana,furtuna tireotoxica,criza tireotoxica,thyroid storm,thyrotoxic storm,thyroid crisis
-Furuncul,buba coapta,furunculoza,infectie stafilococica a foliculului pilos,boil,furuncle,furunculosis
+Furuncul,buba rea,buba coapta,furunculoza,infectie stafilococica a foliculului pilos,boil,furuncle,furunculosis
 Fusarioza,infectie cu Fusarium,cheratita cu Fusarium,micoza cu Fusarium,fusariosis,fusarium keratitis,fusarium infection
 Fuziune de labii mici,adherenta labiala,labii mici lipite,aderenta labiilor mici,labial fusion,labial adhesions,fused labia minora
 Galactosialidoza,deficit de proteina protectoare,boala Goldberg,sindrom Goldberg,galactosialidosis,protective protein deficiency,Goldberg syndrome
@@ -2386,8 +2386,8 @@ Ganglioneurom,ganglioneurom benign,tumora ganglionara benigna,neurom ganglionar,
 Gangliozidoza GM1,boala depozitelor de gangliozidoza GM1,deficit de beta-galactozidaza,boala Landing,GM1 gangliosidosis,beta-galactosidase deficiency,Landing disease
 Gangliozidoza GM1 infantila,boala Landing infantila,GM1 gangliozidoza de tip I,gangliozidoza GM1 cu debut infantil,infantile GM1 gangliosidosis,GM1 gangliosidosis type I,Landing disease infantile form
 Gangliozidoza GM1 juvenila,GM1 gangliozidoza de tip II,gangliozidoza GM1 cu debut tardiv,boala depozitelor de GM1 juvenila,juvenile GM1 gangliosidosis,GM1 gangliosidosis type II,late-infantile GM1 gangliosidosis
-Gangrena diabetica,gangrena de cauza diabetica,gangrena la diabetici,necroza diabetica a membrelor,diabetic gangrene,gangrene in diabetes,diabetes-related gangrene
-Gangrena gazoasa,mionecroza clostridiana,infectie cu Clostridium perfringens,gangrena cu Clostridium,gas gangrene,clostridial myonecrosis,gas gangrene infection,miozita clostridiana,gangrena clostridiana,clostridial gangrene
+Gangrena diabetica,necroza,gangrena de cauza diabetica,gangrena la diabetici,necroza diabetica a membrelor,diabetic gangrene,gangrene in diabetes,diabetes-related gangrene
+Gangrena gazoasa,gangrena umflata,mionecroza clostridiana,infectie cu Clostridium perfringens,gangrena cu Clostridium,gas gangrene,clostridial myonecrosis,gas gangrene infection,miozita clostridiana,gangrena clostridiana,clostridial gangrene
 Gangrena pulmonara,necroza pulmonara,gangrena de plaman,necrobioza pulmonara,pulmonary gangrene,lung gangrene,pulmonary necrosis
 Gangrena pulmonara cu anaerobi,gangrena pulmonara anaeroba,necroza pulmonara anaeroba,gangrena de plaman putrida,anaerobic pulmonary gangrene,anaerobic lung gangrene,putrid lung gangrene
 Gastrinom,tumora secretoare de gastrina,sindrom Zollinger-Ellison,gastrinom pancreatic,gastrinoma,Zollinger-Ellison syndrome,gastrin-secreting tumor,ulcer peptic refractar,hipersecretie de gastrina,tumora secretanta de gastrina,Zollinger-Ellison tumor,gastrin-producing tumor
@@ -2412,13 +2412,13 @@ Gaura maculara,ruptura maculara,defect macular,orificiu macular,macular hole,ret
 Genunchi recurvat,recurvatum al genunchiului,hiperextensie de genunchi,deformare in recurvatum a genunchiului,genu recurvatum,knee hyperextension deformity,recurvatum deformity of the knee
 Genunchi valg,genunchi in X,valgism al genunchilor,deformare valga a genunchiului,genu valgum,knock knees,knock-knee deformity
 Genunchi varus,genunchi in O,varism al genunchilor,deformare vara a genunchiului,genu varum,bow legs,bowleg deformity
-Giardiaza,lamblioza,infestare cu giardia,giardioza,giardiasis,lambliasis,giardia infection
+Giardiaza,lambliaza,lamblioza,infestare cu giardia,giardioza,giardiasis,lambliasis,giardia infection
 Gigantism,crestere excesiva in inaltime,hipersecretie de hormon de crestere,gigantism hipofizar,giantism,pituitary gigantism,excessive growth in height
-Ginecomastie,marirea sanului la barbat,san feminizat,hipertrofie mamara la barbat,gynecomastia,breast enlargement in men,male breast enlargement
+Ginecomastie,sani de barbat,marirea sanului la barbat,san feminizat,hipertrofie mamara la barbat,gynecomastia,breast enlargement in men,male breast enlargement
 Gingivita,bube la gingii,inflamatia gingiilor,gingivita cronica,sangerare a gingiilor,gingivitis,gum inflammation,inflamed gums
 Gingivita ulceronecrotica,gingivita necrozanta ulcerativa,gingivostomatita Vincent,boala Vincent,necrotizing ulcerative gingivitis,Vincent gingivitis,trench mouth
 Gingivostomatita herpetica,stomatita herpetica,gingivostomatita cu herpes simplex,infectie herpetica bucala,herpetic gingivostomatitis,herpes simplex gingivostomatitis,herpetic stomatitis
-Glaucom,tensiune intraoculara crescuta,presiune intraoculara mare,glaucom cu unghi deschis,glaucoma,high eye pressure,increased intraocular pressure
+Glaucom,piatra la ochi,tensiune intraoculara crescuta,presiune intraoculara mare,glaucom cu unghi deschis,glaucoma,high eye pressure,increased intraocular pressure
 Glaucom absolut,glaucom terminal,glaucom in faza finala,orbire prin glaucom,absolute glaucoma,terminal glaucoma,end-stage glaucoma
 Glaucom acut cu unghi inchis,glaucom acut de unghi inchis,glaucom prin inchiderea unghiului,glaucom cu unghi inchis,acute angle-closure glaucoma,angle-closure glaucoma,acute closed-angle glaucoma
 Glaucom congenital,glaucom infantil,buftalmie,hidroftalmie congenitala,congenital glaucoma,infantile glaucoma,buphthalmos
@@ -2443,8 +2443,8 @@ Glicogenoza tip XV,deficit de glicogenina 1,miopatie prin deficit de glicogenina
 Glicozurie renala,glicozurie normoglicemica,glicozurie familiala,diabet renal,renal glycosuria,renal glucosuria,familial renal glycosuria
 Glioblastom,glioblastom multiform,gliom malign de grad IV,astrocytom de grad IV,glioblastoma,glioblastoma multiforme,grade IV astrocytoma
 Gliom de nerv optic,gliom al caii optice,astrocytom de nerv optic,tumora de nerv optic,optic nerve glioma,optic pathway glioma,optic nerve astrocytoma
-Globulus faringian,globus faringian,senzatie de nod in gat,globus hystericus,globus pharyngeus,globus sensation,lump in the throat sensation
-Glomerulonefrita,Glomerulonefrita acuta,Glomerulonefrita cronica,nefrita acuta poststreptococica,boala Bright,glomerulonefrita postinfectioasa,acute glomerulonephritis,poststreptococcal glomerulonephritis,Bright disease,nefrita cronica progresiva,glomerulopatia cronica,boala cronica glomerulara,chronic glomerulonephritis,chronic nephritis,chronic glomerular disease
+Globulus faringian,nod in gat,globus faringian,senzatie de nod in gat,globus hystericus,globus pharyngeus,globus sensation,lump in the throat sensation
+Glomerulonefrita,rinichi inflamat,Glomerulonefrita acuta,Glomerulonefrita cronica,nefrita acuta poststreptococica,boala Bright,glomerulonefrita postinfectioasa,acute glomerulonephritis,poststreptococcal glomerulonephritis,Bright disease,nefrita cronica progresiva,glomerulopatia cronica,boala cronica glomerulara,chronic glomerulonephritis,chronic nephritis,chronic glomerular disease
 Glomerulonefrita membranoproliferativa,glomerulonefrita mezangiocapilara,GN membranoproliferativa,boala cu depozite dense,membranoproliferative glomerulonephritis,mesangiocapillary glomerulonephritis,MPGN
 Glomerulonefrita rapid progresiva,glomerulonefrita crescator progresiva,nefrita rapid progresiva,glomerulonefrita cu semilune,rapidly progressive glomerulonephritis,crescentic glomerulonephritis,subacute glomerulonephritis
 Glomeruloscleroza focal segmentara,scleroza glomerulara focal segmentara,nefropatia cu scleroza focal segmentara,glomerulonefrita focal segmentara,focal segmental glomerulosclerosis,FSGS,segmental glomerular sclerosis
@@ -2471,14 +2471,14 @@ Granulom traheal,granulom al traheei,granulom traheal postintubatie,granulom end
 Granulomatoza cu celule gigante,granulom gigantocelular,granulomatoza gigantocelulara,granulom central cu celule gigante,giant cell granulomatosis,giant cell granuloma,central giant cell granuloma
 Granulomatoza cu poliangiita,boala Wegener,granulomatoza Wegener,angita granulomatoasa,granulomatosis with polyangiitis,Wegener granulomatosis,GPA
 Granulomatoza eozinofilica cu poliangeita,sindrom Churg-Strauss,angiita eozinofilica granulomatoasa,vasculita eozinofilica,eosinophilic granulomatosis with polyangiitis,Churg-Strauss syndrome,allergic granulomatosis
-Greata,senzatie de greata,greturi,stare de rau la stomac,nausea,queasiness,feeling sick
+Greata,scarba,senzatie de greata,greturi,stare de rau la stomac,nausea,queasiness,feeling sick
 Greturi matinale,greata de sarcina,voma de sarcina,hiperemeza gravidica,morning sickness,pregnancy nausea,hyperemesis gravidarum
 Gripa,gripa sezoniera,influenza,infectie gripala,influenza virus infection,seasonal flu,grippe
 Gripa aviara,influenza aviara,gripa la pasari transmisa la om,gripa cu virus H5N1,avian influenza,bird flu,avian flu
 Gripa cu virus identificat,gripa confirmata virusologic,gripa cu virus cunoscut,gripa de tip identificat,influenza with identified virus,confirmed influenza virus infection,influenza due to identified virus
 Gripa fara virus identificat,gripa nevirusologic determinata,gripa clinica fara confirmare,gripa cu virus neidentificat,influenza without identified virus,unconfirmed influenza,influenza virus not identified
 Gripa porcina,influenza porcina,gripa cu virus A H1N1,gripa pandemica H1N1,swine influenza,swine flu,H1N1 influenza
-Gusa,gusa tiroidiana,marire a glandei tiroide,hipertrofie tiroidiana,goiter,thyroid enlargement,enlarged thyroid
+Gusa,umflatura la gat,gusa tiroidiana,marire a glandei tiroide,hipertrofie tiroidiana,goiter,thyroid enlargement,enlarged thyroid
 Gusa cu nodul unic netoxic,nodul tiroidian unic netoxic,gusa unonodulara netoxica,nodul tiroidian solitar netoxic,nontoxic single thyroid nodule,solitary nontoxic thyroid nodule,single thyroid nodule
 Gusa difuza netoxica,gusa difuza simpla,gusa difuza adolescentina,gusa coloida difuza,nontoxic diffuse goiter,diffuse goiter,simple goiter
 Gusa endemica,gusa prin deficit de iod,gusa endemica de carenta iodica,tulburare tiroidiana prin deficit de iod,endemic goiter,iodine deficiency goiter,iodine-deficiency-related goiter
@@ -2486,7 +2486,7 @@ Gusa multinodulara netoxica,gusa multinodulara,gusa polinodulara netoxica,boala 
 Gusa multinodulara toxica,boala Plummer,gusa toxica nodulara,hipertiroidism prin gusa multinodulara,toxic multinodular goiter,plummer disease,toxic nodular goiter
 Gusa nodulara,gusa cu noduli,gusa netoxica nodulara,boala nodulara tiroidiana,nodular goiter,nodular goitre,nontoxic nodular goiter
 Guta,jinduitul,podagra,acces de guta,guta acuta,urate arthritis,gouty attack,uric acid arthritis
-Halitoza,respiratie urat mirositoare,respiratie cu miros neplacut,miros urat al gurii,halitosis,bad breath,foul breath
+Halitoza,miros urat de gura,respiratie urat mirositoare,respiratie cu miros neplacut,miros urat al gurii,halitosis,bad breath,foul breath
 Halux varus,hallux varus,deviere mediala a halucelui,deget mare in varus,hallux varus deformity,medial deviation of the great toe,varus deformity of the hallux
 Helicobacter pylori,infectie cu Helicobacter pylori,h pylori,infectie cu helicobacter,helicobacter pylori infection,h. pylori infection,pylori infection
 Hemangioendoteliom,tumora vasculara intermediara,hemangioendoteliom epitelioid,tumora endoteliala vasculara,hemangioendothelioma,epithelioid hemangioendothelioma,vascular endothelial tumor
@@ -2519,14 +2519,14 @@ Hematometra,acumulare de sange in uter,hematometra prin obstructie,sange in cavi
 Hematomielie,hemoragie intramedulara,hematom intramedular,hemoragie in maduva spinarii,hematomyelia,intramedullary hemorrhage,intraspinal hemorrhage
 Hematopoieza extramedulara,hemopoieza extramedulara,hematopoieza ectopica,focare extramedulare de hematopoieza,extramedullary hematopoiesis,extramedullary haemopoiesis,ectopic hematopoiesis
 Hematosalpinx,sange in trompa uterina,hematocele tubar,trompa cu sange,blood in the fallopian tube,tubal hematoma,hematoma of the fallopian tube
-Hematurie,sange in urina,urina cu sange,hematurie macroscopica,hematuria,blood in urine,bloody urine
+Hematurie,pisoare cu sange,sange in urina,urina cu sange,hematurie macroscopica,hematuria,blood in urine,bloody urine
 Hemianopsie,hemianopsie homonima,pierdere a jumatatii campului vizual,defect hemianopsic,hemianopia,hemianopsia,half visual field loss
 Hemibloc anterior,hemibloc anterior stang,bloc fascicular anterior,hemibloc stang anterior,left anterior fascicular block,anterior hemiblock,LAFB
 Hemibloc posterior,hemibloc posterior stang,bloc fascicular posterior,hemibloc stang posterior,left posterior fascicular block,posterior hemiblock,LPFB
 Hemicrania continua,cefalee unilaterala continua,hemicranie continua,cefalee hemicranica continua,hemicrania continua syndrome,continuous unilateral headache,persistent hemicrania
 Hemicrania paroxistica,hemicrania paroxistica cronica,cefalee paroxistica unilaterala,sindrom Sjaastad,paroxysmal hemicrania,chronic paroxysmal hemicrania,Sjaastad syndrome
 Hemimelie,deficit longitudinal de membru,absenta partiala congenitala de membru,lipsa partiala de membru,hemimelia,longitudinal limb deficiency,partial limb absence
-Hemocromatoza,hemocromatoza ereditara,diabet bronzat,hemocromatoza idiopatica,hemochromatosis,hereditary hemochromatosis,bronze diabetes
+Hemocromatoza,boala bronzata,hemocromatoza ereditara,diabet bronzat,hemocromatoza idiopatica,hemochromatosis,hereditary hemochromatosis,bronze diabetes
 Hemocromatoza cardiaca,cardiomiopatie hemocromatosica,afectare cardiaca prin hemocromatoza,sideroza miocardica,cardiac hemochromatosis,hemochromatotic cardiomyopathy,iron overload cardiomyopathy
 Hemocromatoza juvenila,hemocromatoza tip 2,hemocromatoza severa precoce,hemocromatoza cu debut juvenil,juvenile hemochromatosis,hemochromatosis type 2,early-onset hemochromatosis
 Hemocromatoza secundara,hemosideroza transfuzionala,supraincarcare de fier posttransfuzionala,hemocromatoza transfuzionala,secondary hemochromatosis,transfusional iron overload,transfusional hemosiderosis
@@ -2539,7 +2539,7 @@ Hemofilie dobandita,hemofilie autoimuna,hemofilie cu inhibitor de factor VIII,he
 Hemofobie,teama de sange,fobie de sange,teama de sange si injectii,hemophobia,blood phobia,fear of blood
 Hemoglobinopatia Lepore,hemoglobina Lepore,sindrom Lepore,boala Lepore,hemoglobin Lepore syndrome,Lepore hemoglobinopathy,Lepore disease
 Hemoglobinopatie,hemoglobinopatie ereditara,hemoglobina anormala,hemoglobinopatie congenitala,hemoglobinopathy,haemoglobinopathy,abnormal hemoglobin disease
-Hemoglobinurie,hemoliza urinara,hemoglobina in urina,eliminare de hemoglobina prin urina,hemoglobinuria,haemoglobinuria,hemoglobin in urine
+Hemoglobinurie,urina neagra,hemoliza urinara,hemoglobina in urina,eliminare de hemoglobina prin urina,hemoglobinuria,haemoglobinuria,hemoglobin in urine
 Hemoglobinurie de efort,hemoglobinurie de mars,hemoglobinurie la alergatori,hemoliza de efort,march hemoglobinuria,exertional hemoglobinuria,exercise-induced hemoglobinuria
 Hemoglobinurie paroxistica la rece,hemoglobinurie a frigului,hemoglobinurie paroxistica la expunerea la frig,boala Donath-Landsteiner,cold hemoglobinuria,paroxysmal cold hemoglobinuria,Donath-Landsteiner syndrome
 Hemoglobinurie paroxistica nocturna,boala Marchiafava-Micheli,sindrom Marchiafava-Micheli,hemoglobinurie matinala,paroxysmal nocturnal hemoglobinuria,paroxysmal nocturnal haemoglobinuria,Marchiafava-Micheli syndrome
@@ -2550,8 +2550,8 @@ Hemopneumotorax,hemo-pneumotorax,pneumotorax cu hemotorax,sange si aer in pleura
 Hemoragie,sangerare,pierdere de sange,hemoragii,hemorrhage,bleeding,blood loss
 Hemoragie cerebeloasa,hemoragie cerebelara,hematom cerebelos hemoragic,hemoragie intracerebeloasa,cerebellar hemorrhage,cerebellar haematoma,cerebellar haemorrhage
 Hemoragie cerebeloasa neonatala,hemoragie cerebeloasa la nou-nascut,sangerare cerebeloasa neonatala,hemoragie cerebeloasa perinatala,neonatal cerebellar hemorrhage,cerebellar hemorrhage in the newborn,perinatal cerebellar bleeding
-Hemoragie cerebrala lobara,hemoragie lobara cerebrala,hematom cerebral lobar,hemoragie intracerebrala lobara,lobar cerebral hemorrhage,lobar intracerebral hemorrhage,cerebral lobar hematoma
-Hemoragie digestiva inferioara,hemoragie digestiva joasa,sangerare digestiva inferioara,hemoragie din colon,lower gastrointestinal bleeding,lower GI hemorrhage,colonic bleeding
+Hemoragie cerebrala lobara,sangerare la creier,hemoragie lobara cerebrala,hematom cerebral lobar,hemoragie intracerebrala lobara,lobar cerebral hemorrhage,lobar intracerebral hemorrhage,cerebral lobar hematoma
+Hemoragie digestiva inferioara,sangerare pe la fund,hemoragie digestiva joasa,sangerare digestiva inferioara,hemoragie din colon,lower gastrointestinal bleeding,lower GI hemorrhage,colonic bleeding
 Hemoragie digestiva prin varice,hemoragie variceala,sangerare din varice esofagiene,ruptura de varice esofagiene,variceal bleeding,variceal hemorrhage,bleeding from esophageal varices
 Hemoragie digestiva superioara,hemoragie digestiva inalta,hemoragie gastroesofagiana,sangerare digestiva superioara,hematemesis,vomiting blood,blood in vomit
 Hemoragie intraventriculara,hemoragie in ventriculii cerebrali,hemoragie intraventriculara primara,hemoragie in sistemul ventricular cerebral,intraventricular hemorrhage,intraventricular haemorrhage,ventricular hemorrhage,hematom intraventricular,sangerare intraventriculara,brain ventricular hemorrhage
@@ -2598,7 +2598,7 @@ Hepatosplenomegalie,marirea ficatului si splinei,hepatosplenomegalia,ficat si sp
 Hermafroditism,hermafroditism adevarat,gonade ovotesticulare,dezvoltare sexuala ambigua,true hermaphroditism,ovotesticular disorder of sex development,ambiguous genitalia
 Hernie Bochdalek,hernie diafragmatica posterolaterala,hernie pleuroperitoneala,defect diafragmatic posterior,Bochdalek hernia,posterolateral diaphragmatic hernia,pleuroperitoneal hernia
 Hernie de disc,discul rupt,hernie discala,protruzie de disc,discopatie herniata,herniated disc,slipped disc,disc herniation
-Hernie diafragmatica,hernie de diafragm,hernie prin hiatus diafragmatic,ruptura diafragmatica cu herniere,diaphragmatic hernia,herniation through the diaphragm,phrenic hernia
+Hernie diafragmatica,hernie la piept,hernie de diafragm,hernie prin hiatus diafragmatic,ruptura diafragmatica cu herniere,diaphragmatic hernia,herniation through the diaphragm,phrenic hernia
 Hernie diafragmatica congenitala,defect diafragmatic congenital,hernie congenitala de diafragm,agenezie diafragmatica partiala,congenital diaphragmatic hernia,CDH,congenital defect of the diaphragm
 Hernie epigastrica,hernie de linie alba,hernie epigastrica supraombilicala,hernie a liniei mediane,epigastric hernia,hernia of the linea alba,supraumbilical hernia
 Hernie femurala,hernie crurala,hernie femorala,hernie la inelul femural,femoral hernia,crural hernia,hernia of the femoral canal
@@ -2618,7 +2618,7 @@ Herpangina,angina herpetica,faringita veziculoasa,vezicule orofaringiene,herpeti
 Herpes esofagian,esofagita herpetica,infectie herpetica esofagiana,ulceratii esofagiene herpetice,herpes esophagitis,herpetic esophagitis,esophageal herpes
 Herpes genital,bube la organe,herpes simplex genital,infectie herpetica genitala,herpes tip 2,genital herpes,herpes simplex virus type 2,herpes genitalis
 Herpes gladiatorum,herpes de contact la sportivi,herpes traumatic,herpes cutanat al sportivilor,wrestler's herpes,mat herpes,scrumpox
-Herpes labial,buba de frig,herpes bucal,bube pe buze,herpes simplex labial,cold sore,oral herpes,herpes labialis
+Herpes labial,buba rece,buba de frig,herpes bucal,bube pe buze,herpes simplex labial,cold sore,oral herpes,herpes labialis
 Herpes neonatal,infectie herpetica neonatala,herpes la nou-nascut,herpes simplex congenital,neonatal herpes,neonatal herpes simplex infection,congenital herpes
 Herpes simplex diseminat,herpes diseminat,infectie herpetica diseminata,herpes visceral,disseminated herpes simplex,disseminated herpes simplex virus infection,systemic herpes simplex infection
 Heterocromie iriana,heterocromie a irisului,ochi cu culori diferite,heterocromie oculare,heterochromia iridis,heterochromia iridum,different colored eyes
@@ -2627,10 +2627,10 @@ Heteroforie,heteroforia,strabism latent,forie,heterophoria,latent strabismus,pho
 Heterotaxie,situs ambiguus,heterotaxie viscerala,asimetrie de organe interne,heterotaxy,visceral heterotaxy,isomerism of the viscera
 Heterotopie neuronala,heterotopie de substanta cenusie,heterotopie periventriculara,heterotopie nodulara,neuronal heterotopia,gray matter heterotopia,periventricular nodular heterotopia
 Hidatidoza,echinococoza,chist hidatic,boala hidatica,hydatid disease,echinococcosis,hydatidosis
-Hidatidoza hepatica,chist hidatic hepatic,echinococoza hepatica,boala hidatica a ficatului,hepatic hydatid cyst,echinococcal liver cyst,liver hydatid disease
+Hidatidoza hepatica,chist cu apa la ficat,chist hidatic hepatic,echinococoza hepatica,boala hidatica a ficatului,hepatic hydatid cyst,echinococcal liver cyst,liver hydatid disease
 Hidranencefalie,hidranencefalia,absenta emisferelor cerebrale,distructie completa a emisferelor cerebrale,hydranencephaly,absence of cerebral hemispheres,hydranencephaly of infancy
 Hidrartroza,hidrops articular,revarsat articular seros,articulatie cu lichid,hydrarthrosis,joint effusion,serous joint effusion
-Hidrocefalie,hidrocefalie infantila,hidrocefalie congenitala,acumulare de lichid cefalorahidian in ventriculi,hydrocephalus,hydrocephaly,cerebrospinal fluid accumulation in ventricles
+Hidrocefalie,cap mare,hidrocefalie infantila,hidrocefalie congenitala,acumulare de lichid cefalorahidian in ventriculi,hydrocephalus,hydrocephaly,cerebrospinal fluid accumulation in ventricles
 Hidrocefalie comunicanta,hidrocefalie non-obstructiva,hidrocefalie prin comunicare,hidrocefalie comunicanta posthemoragica,communicating hydrocephalus,non-obstructive hydrocephalus,hydrocephalus communicans
 Hidrocefalie cu presiune normala,hidrocefalie normotensiva,hidrocefalie cu presiune normala la adult,hidrocefalie comunicanta cronica,normal pressure hydrocephalus,chronic communicating hydrocephalus,adult normotensive hydrocephalus
 Hidrocefalie obstructiva,hidrocefalie prin obstructie,hidrocefalie necomunicanta,hidrocefalie prin obstructie de flux,obstructive hydrocephalus,non-communicating hydrocephalus,hydrocephalus due to obstruction
@@ -2638,7 +2638,7 @@ Hidrocefalie posthemoragica,hidrocefalie dupa hemoragie intraventriculara,hidroc
 Hidrocel,hidrocel testicular,acumulare de lichid in bursa testiculara,hidrocel congenital,hydrocele,testicular hydrocele,hydrocele of the testis
 Hidrocolecist,hidrops vezicular,vezica biliara hidropica,distensie chistica a vezicii biliare,gallbladder hydrops,hydrops of the gallbladder,hydropic gallbladder
 Hidromielie,hidromielia,dilatare chistica a canalului medular,cavitate hidromielica,hydromyelia,dilated central canal of spinal cord,hydromyelic cavity
-Hidronefroza,dilatatie a bazinetului renal,rinichi hidronefrotic,bazinet renal dilatat,hydronephrosis,hydronephrotic kidney,dilatation of renal pelvis
+Hidronefroza,rinichi umflat cu apa,apa la rinichi,dilatatie a bazinetului renal,rinichi hidronefrotic,bazinet renal dilatat,hydronephrosis,hydronephrotic kidney,dilatation of renal pelvis
 Hidronefroza congenitala,hidronefroza la nou-nascut,dilatatie pielocaliceala congenitala,hidronefroza prin obstructie congenitala,congenital hydronephrosis,neonatal hydronephrosis,congenital pelvicalyceal dilatation
 Hidropneumotorax,hidro-pneumotorax,pneumotorax cu revarsat,pneumotorax si pleurezie,hydropneumothorax,pneumothorax with effusion,hydro-pneumothorax
 Hidrops fetal,hidrops fetalis,edem fetal generalizat,anasarca fetala,hydrops fetalis,fetal hydrops,generalized fetal edema
@@ -2657,7 +2657,7 @@ Hiperaldosteronism secundar,aldosteronism secundar,hiperaldosteronism reactiv,hi
 Hiperamoniemie,amoniac crescut in sange,hiperamoniemie neonatala,hiperamoniemie cronica,hyperammonemia,high blood ammonia,neonatal hyperammonemia
 Hiperandrogenism,exces de androgene,hiperandrogenie,hiperandrogenism ovarian,hyperandrogenism,androgen excess,hyperandrogenemia
 Hipercalcemia maligna,hipercalcemie asociata cancerului,sindrom hipercalcemic malign,hipercalcemie paraneoplazica,malignant hypercalcemia,hypercalcemia of malignancy,cancer-associated hypercalcemia
-Hipercalcemie,calciu crescut in sange,exces de calciu in sange,hipercalcemie cronica,hypercalcemia,high blood calcium,elevated serum calcium
+Hipercalcemie,prea mult calcar in sange,calciu crescut in sange,exces de calciu in sange,hipercalcemie cronica,hypercalcemia,high blood calcium,elevated serum calcium
 Hipercalcemie hipocalciurica familiala,hipercalcemie familiala benigna,hipocalciurie hipercalcemica familiala,sindrom de hipercalcemie hipocalciurica,familial hypocalciuric hypercalcemia,familial benign hypercalcemia,FHH
 Hipercalcemie sarcoidozica,hipercalcemie in sarcoidoza,tulburare de metabolism al calciului in sarcoidoza,hipercalcemie sarcoidozica cu hipercalciurie,sarcoid hypercalcemia,sarcoidosis-associated hypercalcemia,hypercalcemia in sarcoidosis
 Hipercalciurie,calciurie crescuta,exces de calciu in urina,hipercalciurie idiopatica,hypercalciuria,high urine calcium,idiopathic hypercalciuria
@@ -2671,7 +2671,7 @@ Hiperekplexie,boala de tresarire,hiperekplexia familiala,hiperekplexie congenita
 Hiperestrogenism,exces de estrogeni,hiperestrogenie,exces estrogenic,hyperestrogenism,estrogen excess,hyperestrogenemia
 Hiperfosfatemie,fosfor crescut in sange,fosfatemie crescuta,hiperfosfatemie cronica,hyperphosphatemia,high blood phosphate,elevated serum phosphate
 Hipergamaglobulinemie,cresterea gamaglobulinelor,hiperimunoglobulinemie,hipergamaglobulinemie policlonala,hypergammaglobulinemia,increased gamma globulins,polyclonal hypergammaglobulinemia
-Hiperglicemie,glicemie crescuta,zahar crescut in sange,nivel ridicat al zaharului din sange,hyperglycemia,high blood sugar,elevated blood glucose
+Hiperglicemie,zahar mare,glicemie crescuta,zahar crescut in sange,nivel ridicat al zaharului din sange,hyperglycemia,high blood sugar,elevated blood glucose
 Hiperhomocisteinemie,homocisteina crescuta,homocisteinemie crescuta,hiperhomocisteinemie severa,hyperhomocysteinemia,elevated homocysteine,high homocysteine
 Hiperinsulinism,hipersecretie de insulina,hiperinsulinemie,exces de insulina,hyperinsulinism,insulin excess,hyperinsulinemia
 Hiperkeratoza,hiperkeratoza cutanata,keratoza excesiva,cheratinizare excesiva,hyperkeratosis,cutaneous hyperkeratosis,excessive keratinization
@@ -2789,12 +2789,12 @@ Hipopotasemie,potasiu scazut in sange,kaliemie scazuta,hipokalemie,hypokalemia,l
 Hipospadias,hipospadias congenital,fanta uretrala inferioara,malformatie a uretrei ventrale,hypospadias,ventral urethral cleft,hypospadias malformation
 Hiposplenism,functie splenica scazuta,splina hipofunctionala,hipofunctie splenica,hyposplenism,reduced splenic function,hypofunction of the spleen,asplenie functionala,functional asplenia
 Hipotelorism,ochi apropiati,distanta interorbitara mica,hipotelorism orbital,ocular hypotelorism,orbital hypotelorism,narrow interorbital distance
-Hipotensiune arteriala,tensiune arteriala mica,hipotensiune,tensiune mica,low blood pressure,hypotension,arterial hypotension
+Hipotensiune arteriala,presiune mica,tensiune arteriala mica,hipotensiune,tensiune mica,low blood pressure,hypotension,arterial hypotension
 Hipotensiune ortostatica,ameata la sculare,hipotensiune posturala,ameteala la ridicare,scaderea tensiunii la ridicare in picioare,orthostatic hypotension,postural hypotension,standing hypotension
 Hipotensiune postprandiala,hipotensiune dupa masa,hipotensiune postprandiala la varstnici,scadere a tensiunii dupa alimentatie,postprandial hypotension,low blood pressure after meals,post-meal hypotension
 Hipotermie,scaderea temperaturii corpului,racire excesiva a organismului,temperatura corporala scazuta,hypothermia,low body temperature,cold exposure injury
 Hipotermie neonatala,hipotermie la prematur,scaderea temperaturii la nou-nascut,hipotermie a nou-nascutului,neonatal hypothermia,hypothermia of the newborn,low body temperature in the newborn
-Hipotiroidism,tiroida lene,functie tiroidiana scazuta,tiroida hipoactiva,insuficienta tiroidiana,hypothyroidism,underactive thyroid,low thyroid function
+Hipotiroidism,tiroida lenesa,tiroida lene,functie tiroidiana scazuta,tiroida hipoactiva,insuficienta tiroidiana,hypothyroidism,underactive thyroid,low thyroid function
 Hipotiroidism central,hipotiroidism secundar,hipotiroidism hipofizar,hipotiroidism de origine centrala,central hypothyroidism,secondary hypothyroidism,pituitary hypothyroidism
 Hipotiroidism congenital,hipotiroidism neonatal,hipotiroidism la nou-nascut,hipotiroidism congenital primar,congenital hypothyroidism,neonatal hypothyroidism,congenital thyroid deficiency
 Hipotiroidism congenital fara gusa,hipotiroidism congenital disgenetic,hipotiroidism congenital cu glanda in situ,hipotiroidism congenital neereditar,congenital hypothyroidism without goiter,thyroid dysgenesis,thyroid agenesis
@@ -2821,7 +2821,7 @@ Holoprozencefalie,holoprozencefalie alobara,holoprozencefalie lobara,holoprozenc
 Homocistinurie,homocistinurie clasica,deficit de cistationin beta-sintaza,homocistinurie prin deficit de CBS,homocystinuria,cystathionine beta-synthase deficiency,CBS deficiency
 Hpv,virusul papiloma uman,papilomavirus uman,infectie cu papilomavirus,human papillomavirus infection,hpv infection,papillomavirus infection
 Hsv,herpes simplex,virusul herpes simplex,infectie herpetica,herpes simplex virus,hsv infection,herpes infection
-Icter,galbeaza,galbenare,icter galben,coloratie galbena a pielii,jaundice,icterus,yellowing of the skin
+Icter,boala galbena,galbeaza,galbenare,icter galben,coloratie galbena a pielii,jaundice,icterus,yellowing of the skin
 Icter hemolitic,icter prin hemoliza,icter prehepatic,icter hemolitic congenital,hemolytic jaundice,prehepatic jaundice,jaundice due to hemolysis
 Icter neonatal,hiperbilirubinemie neonatala,icter la nou-nascut,icter al nou-nascutului,neonatal jaundice,neonatal hyperbilirubinemia,jaundice of the newborn
 Icter neonatal prelungit,hiperbilirubinemie prelungita,icter prelungit la nou-nascut,icter neonatal de lunga durata,prolonged neonatal jaundice,persistent neonatal jaundice,prolonged unconjugated hyperbilirubinemia
@@ -2864,7 +2864,7 @@ Infarct cerebral perinatal,infarct cerebral neonatal,accident vascular cerebral 
 Infarct cerebral silentios,infarct cerebral asimptomatic,infarct cerebral fara manifestari,infarct cerebral nedetectat clinic,silent cerebral infarction,silent brain infarction,covert cerebral infarction
 Infarct de ventricul drept,infarct al ventriculului drept,necroza de ventricul drept,infarct miocardic de ventricul drept,right ventricular infarction,right ventricular myocardial infarction,infarction of the right ventricle
 Infarct lacunar,AVC lacunar,infarct lacunar cerebral,infarct cerebral mic,lacunar stroke,lacunar infarction,lacunar infarct,Infarct cerebral lacunar,sindrom lacunar,small vessel cerebral infarct
-Infarct miocardic,infarct,atac de cord,necroza a miocardului,myocardial infarction,heart attack,cardiac infarction
+Infarct miocardic,criza de cord,infarct la inima,infarct,atac de cord,necroza a miocardului,myocardial infarction,heart attack,cardiac infarction
 Infarct miocardic anterior,infarct anterior,infarct miocardic de perete anterior,necroza anterioara miocardica,anterior myocardial infarction,anterior wall myocardial infarction,anterior MI
 Infarct miocardic inferior,infarct inferior,infarct miocardic de perete inferior,necroza inferioara miocardica,inferior myocardial infarction,inferior wall myocardial infarction,inferior MI
 Infarct miocardic lateral,infarct lateral,infarct miocardic de perete lateral,necroza laterala miocardica,lateral myocardial infarction,lateral wall myocardial infarction,lateral MI
@@ -2875,7 +2875,7 @@ Infarct miocardic transmural,infarct transmural,necroza transmurala miocardica,i
 Infarct miocardic vechi,infarct miocardic vindecat,cicatrice miocardica postinfarct,sechela de infarct miocardic,old myocardial infarction,healed myocardial infarction,previous myocardial infarction
 Infarct osos,infarct medular osos,necrosa osoasa medulara,infarct osos aseptic,bone infarct,medullary bone infarct,osseous infarction
 Infarct placentar,infarcte placentare,necroza ischemica placentara,infarct placentar multiplu,placental infarction,placental infarct,ischemic placental necrosis
-Infarct pulmonar,infarct de plaman,necroza pulmonara ischemica,infarct hemoragic pulmonar,pulmonary infarction,lung infarction,pulmonary infarct
+Infarct pulmonar,cheag la plaman,infarct de plaman,necroza pulmonara ischemica,infarct hemoragic pulmonar,pulmonary infarction,lung infarction,pulmonary infarct
 Infarct renal,infarct de rinichi,necrosa renala ischemica,infarct renal segmentar,renal infarction,kidney infarction,segmental renal infarction
 Infarct splenic,infarct de splina,necroza splenica,obliterare arteriala splenica,splenic infarction,splenic infarct,infarction of the spleen,infarct al splinei,necroza splenica ischemica,infarct hemoragic splenic,spleen infarction
 Infectie acuta cu HIV,infectie primara cu HIV,sindrom retroviral acut,seroconversie HIV acuta,acute HIV infection,acute retroviral syndrome,primary HIV infection
@@ -2916,7 +2916,7 @@ Infestare cu plosnite,muscaturi de plosnite,dermatita cu plosnite,cimicoza,bedbu
 Ingrosare pleurala difuza,ingrosare pleurala,pleura ingrosata difuz,fibroza pleurala difuza,diffuse pleural thickening,pleural thickening,diffuse pleural fibrosis
 Iniencefalie,iniencefalia,retroflexie craniana congenitala,malformatie iniencefalica,iniencephaly,iniencephaly apertus,iniencephaly clausus
 Insertie velamentoasa a cordonului,insertie velamentoasa,cordon cu insertie velamentoasa,insertie velamentoasa a cordonului ombilical,velamentous cord insertion,velamentous insertion of the umbilical cord,velamentous placenta insertion
-Insolatie,lovitura de soare,epuizare prin caldura,lovitura de caldura,sunstroke,heatstroke,heat stroke
+Insolatie,insolat,lovitura de soare,epuizare prin caldura,lovitura de caldura,sunstroke,heatstroke,heat stroke
 Insomnie,tulburari de somn,somn agitat,lipsa somnului,insomnia,sleeplessness,sleep disorder
 Insomnie familiala fatala,insomnia prionica,insomnie letala familiala,boala prionica a talamusului,fatal familial insomnia,familial fatal insomnia,FFI,Insomnia familiala fatala,insomnie fatala familiala,insomnie fatala,insomnie prionica familiala,fatal familial insomnia disease
 Insomnie sporadica fatala,insomnie letala sporadica,insomnie prionica sporadica,insomnie fatala fara istoric familial,sporadic fatal insomnia,sporadic fatal insomnia prion disease,sFI
@@ -2925,7 +2925,7 @@ Instabilitate de glezna,instabilitate cronica a gleznei,glezna instabila,laxitat
 Instabilitate de umar,instabilitate glenohumerala,laxitate de umar,umar instabil,shoulder instability,glenohumeral instability,unstable shoulder
 Insuficienta aortica,regurgitare aortica,incompetenta aortica,insuficienta valvei aortice,aortic regurgitation,aortic insufficiency,aortic valve incompetence
 Insuficienta arteriala mezenterica,insuficienta circulatorie mezenterica,hipoperfuzie mezenterica,boala ischemica intestinala,mesenteric arterial insufficiency,mesenteric vascular insufficiency,bowel hypoperfusion
-Insuficienta cardiaca,Insuficienta cardiaca acuta,Insuficienta cardiaca cronica,insuficienta cardiaca congestiva,decompensare cardiaca,inima slabita,heart failure,congestive heart failure,cardiac insufficiency,insuficienta cardiaca acuta decompensata,insuficienta cardiaca acuta severa,insuficienta cardiaca de debut acut,acute heart failure,acute cardiac failure,acute decompensated heart failure,insuficienta cardiaca de lunga durata,insuficienta miocardica cronica,insuficienta cardiaca compensata,chronic heart failure,chronic cardiac insufficiency,long-standing heart failure
+Insuficienta cardiaca,inima slaba,Insuficienta cardiaca acuta,Insuficienta cardiaca cronica,insuficienta cardiaca congestiva,decompensare cardiaca,inima slabita,heart failure,congestive heart failure,cardiac insufficiency,insuficienta cardiaca acuta decompensata,insuficienta cardiaca acuta severa,insuficienta cardiaca de debut acut,acute heart failure,acute cardiac failure,acute decompensated heart failure,insuficienta cardiaca de lunga durata,insuficienta miocardica cronica,insuficienta cardiaca compensata,chronic heart failure,chronic cardiac insufficiency,long-standing heart failure
 Insuficienta cardiaca cu fractie de ejectie pastrata,insuficienta cardiaca diastolica,insuficienta cardiaca cu functie sistolica normala,insuficienta cardiaca cu functie sistolica pastrata,heart failure with preserved ejection fraction,diastolic heart failure,HFpEF
 Insuficienta cardiaca cu fractie de ejectie redusa,insuficienta cardiaca sistolica,insuficienta cardiaca cu functie sistolica scazuta,insuficienta cardiaca sistolica cronica,heart failure with reduced ejection fraction,systolic heart failure,HFrEF
 Insuficienta cardiaca cu fractie de ejectie usor redusa,insuficienta cardiaca cu fractie de ejectie intermediara,insuficienta cardiaca intermediara,insuficienta cardiaca borderline,heart failure with mildly reduced ejection fraction,heart failure with mid-range ejection fraction,HFmrEF
@@ -3017,7 +3017,7 @@ Labirintita purulenta,labirintita supurata,labirintita bacteriana,infectie purul
 Labirintita seroasa,labirintita serosa,labirintita virala,labirintita toxica,serous labyrinthitis,viral labyrinthitis,toxic labyrinthitis
 Lagoftalmie,lagoftalmos,imposibilitatea de a inchide pleoapa,ochi cu pleoapa deschisa,lagophthalmos,inability to close the eyelid,eyelid closure failure
 Laringism,spasm laringian,laringospasm,criza de laringospasm,laryngismus,laryngospasm,laryngeal spasm
-Laringita,Laringita cronica,gat infundat,inflamatia laringelui,laringita acuta,pierderea vocii,laryngitis,laryngeal inflammation,loss of voice,laringita persistenta,laringita de durata,inflamatie cronica a laringelui,chronic laryngitis,persistent laryngitis,chronic laryngeal inflammation
+Laringita,raguseala,Laringita cronica,gat infundat,inflamatia laringelui,laringita acuta,pierderea vocii,laryngitis,laryngeal inflammation,loss of voice,laringita persistenta,laringita de durata,inflamatie cronica a laringelui,chronic laryngitis,persistent laryngitis,chronic laryngeal inflammation
 Laringita actinomicotica,actinomicoza laringiana,laringita cu Actinomyces,infectie actinomicotica laringiana,actinomycotic laryngitis,laryngeal actinomycosis,Actinomyces laryngitis
 Laringita acuta catarala la copil,laringita acuta a copilului,laringita infantila acuta,laringita acuta pediatrica,acute catarrhal laryngitis in children,paediatric acute laryngitis,childhood acute laryngitis
 Laringita acuta la adult,laringita acuta a adultului,laringita acuta simpla la adult,laringita acuta virala la adult,acute laryngitis in adults,adult acute laryngitis,acute viral laryngitis in adults
@@ -3045,7 +3045,7 @@ Leiomioame esofagiene,leiomiom esofagian,tumora benigna musculara esofagiana,lei
 Leiomioame gastrice,leiomiom gastric,tumora benigna musculara gastrica,leiomiomatoza gastrica,gastric leiomyoma,benign gastric muscle tumor,gastric leiomyomatosis
 Leiomiom cutanat,leiomiom al pielii,leiomiom dermic,tumora benigna musculara cutanata,cutaneous leiomyoma,skin leiomyoma,dermal leiomyoma
 Leiomiosarcom,sarcom muscular neted,leiomiosarcom uterin,tumora maligna a muschiului neted,leiomyosarcoma,smooth muscle sarcoma,malignant smooth muscle tumor
-Leishmanioza cutanata,buba de Alep,butonul Orientului,leishmanioza cutanata uscata,cutaneous leishmaniasis,oriental sore,Aleppo boil
+Leishmanioza cutanata,basicile,buba de Alep,butonul Orientului,leishmanioza cutanata uscata,cutaneous leishmaniasis,oriental sore,Aleppo boil
 Leishmanioza cutanata difuza,leishmanioza difuza,leishmanioza anergica,leishmanioza cutanata diseminata,diffuse cutaneous leishmaniasis,disseminated cutaneous leishmaniasis,anergic cutaneous leishmaniasis
 Leishmanioza mucocutanata,leishmanioza nazofaringiana,leishmanioza americana,ulcer nazofaringian leishmanic,mucocutaneous leishmaniasis,espundia,American mucocutaneous leishmaniasis
 Leishmanioza post-kala-azar,dermatita post-kala-azar,leishmanioza dermica post-viscerala,leishmaniom post-kala-azar,post-kala-azar dermal leishmaniasis,PKDL,dermal leishmanoid
@@ -3058,7 +3058,7 @@ Leptospiroza,boala Weil,febra icterica hemoragica,infectie cu Leptospira,leptosp
 Leptospiroza anicterica,leptospiroza fara icter,febra campului,leptospiroza benigna,anicteric leptospirosis,field fever,mild leptospirosis
 Leptospiroza icterica,sindromul Weil,leptospiroza ictero-hemoragica,hepatonefrita leptospirica,icteric leptospirosis,Weil syndrome,icterohemorrhagic leptospirosis
 Leptospiroza pulmonara,sindrom hemoragic pulmonar leptospiric,pneumonie leptospirica,hemoragie pulmonara cu Leptospira,severe pulmonary hemorrhagic leptospirosis,leptospiral pulmonary hemorrhage,pulmonary leptospirosis
-Leucemie,cancer al sangelui,leucemie acuta,leucemie cronica,leukemia,blood cancer,leukaemia
+Leucemie,cancer de sange,cancer al sangelui,leucemie acuta,leucemie cronica,leukemia,blood cancer,leukaemia
 Leucemie congenitala,leucemie neonatala,leucemie acuta congenitala,leucemie transmisa transplacentar,congenital leukemia,neonatal leukemia,congenital leukaemia
 Leucemie cu celule panoase,tricoleucemie,leucemie cu celule paroase,leucemie cu celule viloase,hairy cell leukemia,hairy cell leukaemia,leukemic reticuloendotheliosis
 Leucemie cu limfocite granuloase mari,leucemie cu limfocite T granuloase,limfocitoza cu celule NK,leucemie cu limfocite granulate mari,large granular lymphocytic leukemia,T-cell large granular lymphocytic leukemia,large granular lymphocyte leukemia
@@ -3151,7 +3151,7 @@ Lipodistrofie congenitala generalizata,sindrom Berardinelli-Seip,lipoatrofie con
 Lipodistrofie partiala,lipoatrofie partiala,sindrom Barraquer-Simons,lipodistrofie partiala progresiva,partial lipodystrophy,Barraquer-Simons syndrome,partial lipoatrophy
 Lipodistrofie totala,lipodistrofie generalizata,lipoatrofie generalizata,lipodistrofie severa,total lipodystrophy,generalized lipodystrophy,generalized lipoatrophy
 Lipoidoproteinoza,boala Urbach-Wiethe,hialinoza cutanata si mucoasa,proteinioza lipoidica,lipoid proteinosis,Urbach-Wiethe disease,hyalinosis cutis et mucosae
-Lipom,buba de grasime,lipoame,tumora grasa benigna,formatiune grasoasa subcutanata,lipoma,fatty tumor,subcutaneous fatty lump
+Lipom,umflatura de grasime,buba de grasime,lipoame,tumora grasa benigna,formatiune grasoasa subcutanata,lipoma,fatty tumor,subcutaneous fatty lump
 Lipom cutanat,lipom subcutanat,tumora grasoasa cutanata,lipoame multiple,cutaneous lipoma,subcutaneous lipoma,superficial lipoma
 Lipom gastric,lipom al stomacului,tumora grasa gastrica benigna,lipomatoza gastrica,gastric lipoma,lipoma of the stomach,gastric lipomatosis
 Lipom intestinal,lipom al intestinului,tumora grasa intestinala benigna,lipomatoza intestinala,intestinal lipoma,lipoma of the intestine,intestinal lipomatosis
@@ -3166,13 +3166,13 @@ Listerioza la gravida,listerioza in sarcina,listerioza gestationala,infectie cu 
 Listerioza neonatala,listerioza congenitala,sepsis neonatal cu Listeria,granulomatoza infantiseptica,neonatal listeriosis,congenital listeriosis,neonatal Listeria infection
 Litiaza biliara,piatra la fiere,calculi biliari,pietre la fiere,calculoza biliara,gallstones,cholelithiasis,biliary calculi
 Litiaza de canal hepatic,calculi pe canalul hepatic,litiaza intrahepatica,pietre pe calea biliara intrahepatica,intrahepatic bile duct stones,hepatic duct calculi,intrahepatic cholelithiasis
-Litiaza de ureter,calcul ureteral,piatra pe ureter,litiaza ureterala,ureteral stone,ureterolithiasis,ureteral calculus
+Litiaza de ureter,nisip la rinichi,calcul ureteral,piatra pe ureter,litiaza ureterala,ureteral stone,ureterolithiasis,ureteral calculus
 Litiaza vezicala,calculi vezicali,pietre in vezica urinara,litiaza a vezicii urinare,bladder stones,vesical calculi,cystolithiasis
 Litioza pancreatica,litiaza pancreatica,calculi pancreatici,pietre la pancreas,pancreatic lithiasis,pancreatic calculi,pancreatic stones
 Livedo reticularis,livedo racemosa,piele marmorata,livedo vascular,mottled skin,cutis marmorata,reticular livedo,livedo reticular,livedo reticularis idiopatica,idiopathic livedo reticularis
 Livedo vasculita,livedo vasculopathy,vasculita livedoida,vasculopatia livedoida,livedo vasculitis,livedoid vasculopathy,livedoid vasculitis
 Loaza,boala cu vierme ocular,edem Calabar,infectie cu Loa loa,loiasis,Loa loa infection,African eye worm
-Lombalgie,durere de mijloc,durere de spate,durere lombara,dureri de mijloc,low back pain,back pain,lumbago
+Lombalgie,dureri de spate,junghi la spate,durere de mijloc,durere de spate,durere lombara,dureri de mijloc,low back pain,back pain,lumbago
 Lordoscolioza,scolioza cu lordoza,deformare combinata lordotica si scoliotica,lordoscolioza toracolombara,lordoscoliosis,combined lordotic scoliosis,lordoscoliotic deformity
 Ludopatia,dependenta de jocuri de noroc,joc de noroc compulsiv,joc de noroc patologic,pathological gambling,gambling disorder,compulsive gambling
 Lupus,lupus eritematos,lupus eritematos sistemic,boala lupica,lupus erythematosus,systemic lupus erythematosus,lupus disease
@@ -3235,7 +3235,7 @@ Meduloblastom,meduloblastom cerebelos,tumora embrionara cerebeloasa,meduloblasto
 Medulom,plasmocitom cerebral,plasmocitom solitar,mielom solitar,medulloma,solitary plasmacytoma,plasma cell tumor of bone
 Megacolon,colon dilatat,megacolon dobandit,dilatatie cronica a colonului,acquired megacolon,dilated colon,chronic colonic dilatation
 Megacolon toxic,megacolon acut toxic,dilatatie toxica a colonului,megacolon inflamator,toxic megacolon,acute toxic megacolon,toxic colonic dilatation
-Megalencefalie,megalencefalia,hemimegalencefalie,creier marit,megalencephaly,hemimegalencephaly,enlarged brain
+Megalencefalie,cap prea mare,megalencefalia,hemimegalencefalie,creier marit,megalencephaly,hemimegalencephaly,enlarged brain
 Megalocornee,megalocorneea,cheratoglob congenital,cornee mare congenitala,megalocornea,congenital enlarged cornea,anterior megalophthalmos
 Megaureter,megaureter congenital,ureter gigant,dilatatie congenitala a ureterului,congenital megaureter,primary megaureter,dilated ureter
 Melanom,al negru,melanom malign,cancer de piele melanic,tumora melanocitara maligna,melanoma,malignant melanoma,skin melanoma
@@ -3276,10 +3276,10 @@ Meningococemie,sepsis meningococic,purpura meningococica fulminanta,meningococce
 Meningoencefalita,meningoencefalita acuta,inflamatia meningelor si a creierului,meningoencefalita virala,meningoencephalitis,acute meningoencephalitis,viral meningoencephalitis
 Meningoencefalita amibiana primara,meningoencefalita amibiana,infectie cu Naegleria fowleri,meningoencefalita cu Naegleria,primary amoebic meningoencephalitis,naegleria fowleri infection,amebic meningoencephalitis
 Menopauza,perimenopauza,climacteriu,tulburari de menopauza,menopause,climacteric,perimenopause
-Menoragie,ciclu cu sange mult,menstruatii abundente,menstruatie cu sangerare abundenta,hipermenoree,heavy periods,menorrhagia,heavy menstrual bleeding
-Menstruatii neregulate,ciclu neregulat,ciclu menstrual neregulat,tulburari de ciclu,dereglari menstruale,irregular periods,irregular menstruation,menstrual irregularity
+Menoragie,sangerare menstruala,ciclu cu sange mult,menstruatii abundente,menstruatie cu sangerare abundenta,hipermenoree,heavy periods,menorrhagia,heavy menstrual bleeding
+Menstruatii neregulate,menstre neregulate,ciclu neregulat,ciclu menstrual neregulat,tulburari de ciclu,dereglari menstruale,irregular periods,irregular menstruation,menstrual irregularity
 Meralgie parestezica,sindrom Bernhardt-Roth,compresie a nervului femuro-cutanat,amortire pe coapsa externa,meralgia paresthetica,bernhardt-roth syndrome,lateral femoral cutaneous neuropathy
-MERS,sindromul respirator din Orientul Mijlociu,infectie cu coronavirus MERS,gripa de camila,Middle East respiratory syndrome,MERS coronavirus infection,camel flu
+MERS,virusul camilei,sindromul respirator din Orientul Mijlociu,infectie cu coronavirus MERS,gripa de camila,Middle East respiratory syndrome,MERS coronavirus infection,camel flu
 Metagonimoza,infestare cu Metagonimus yokogawai,distomatoza intestinala cu Metagonimus,distomatoza cu Metagonimus,metagonimiasis,Metagonimus yokogawai infection,intestinal fluke infection
 Metaplazie intestinala,metaplazie intestinala gastrica,metaplazie de tip intestinal,metaplazie intestinala a mucoasei gastrice,intestinal metaplasia,gastric intestinal metaplasia,intestinal metaplasia of the stomach
 Metaplazie mieloida,mieloza splenica,splenomegalie mieloida,metaplazie mieloida idiopatica,myeloid metaplasia,splenic myelosis,agnogenic myeloid metaplasia
@@ -3374,7 +3374,7 @@ Miopatia hipotiroidiana,miopatie din hipotiroidism,miopatie hipotiroidiana secun
 Miopatia metabolica,miopatie metabolica ereditara,miopatie metabolica primara,miopatie din tulburari metabolice,metabolic myopathy,inherited metabolic myopathy,metabolic muscle disease
 Miopatia mitocondriala,miopatie mitocondriala primara,miopatie mitocondriala respiratorie,citopatie mitocondriala musculara,mitochondrial myopathy,primary mitochondrial myopathy,mitochondrial muscle disease
 Miopatia steroidica,miopatie indusa de corticosteroizi,miopatie prin corticoterapie,miopatie prin glucocorticosteroizi,steroid myopathy,glucocorticoid-induced myopathy,corticosteroid myopathy
-Miopatie,miopatii,boala musculara primara,miopatie primara,myopathy,muscle disease,primary myopathy
+Miopatie,slabiciune musculara,miopatii,boala musculara primara,miopatie primara,myopathy,muscle disease,primary myopathy
 Miopatie central core,boala central core,miopatie cu nucleu central,miopatie cu nuclee centrale,central core disease,central core myopathy,muscle core disease
 Miopatie centronucleara,miopatie cu nuclei centrali,miopatie miotubulara,miopatie centronucleara ligata de X,centronuclear myopathy,myotubular myopathy,central nuclei myopathy
 Miopatie cu coloana rigida,miopatie cu rigiditate spinala,sindrom de coloana rigida,miopatie congenitala cu rigiditate spinala,rigid spine muscular dystrophy,rigid spine syndrome,SEPN1-related myopathy
@@ -3467,7 +3467,7 @@ Necroza papilara,necrosa papilei renale,necrosa medulara renala,sindrom de necro
 Necroza pulmonara cu stafilococ,necroza pulmonara stafilococica,distructie pulmonara cu stafilococ,pneumonie necrozanta stafilococica,staphylococcal lung necrosis,staphylococcal necrotizing pneumonia,staphylococcal pulmonary necrosis
 Necroza tubulara acuta,necrosa tubulara renala,NTA,necrosa epiteliala tubulara,acute tubular necrosis,ATN,tubular necrosis of the kidney
 Nefrita,boala de rinichi,inflamatia rinichilor,nefropatie inflamatorie,nephritis,kidney inflammation,glomerulonephritis
-Nefrita interstitiala,nefrita tubulointerstitiala,nefropatie interstitiala,boala renala tubulointerstitiala,interstitial nephritis,tubulointerstitial nephritis,interstitial kidney inflammation
+Nefrita interstitiala,rinichi inflamat cu febra,nefrita tubulointerstitiala,nefropatie interstitiala,boala renala tubulointerstitiala,interstitial nephritis,tubulointerstitial nephritis,interstitial kidney inflammation
 Nefroblastom,tumora Wilms,nefroblastom renal,tumora embrionara renala,nephroblastoma,Wilms tumor,embryonal renal tumor
 Nefrocalcinoza,calcificari renale,depuneri de calciu in rinichi,nefrocalcinoza medulara,nephrocalcinosis,renal calcinosis,kidney calcification
 Nefronoftizia,nefronoftizie juvenila,boala chistica medulara renala,complex nefronoftizie,nephronophthisis,juvenile nephronophthisis,medullary cystic disease complex
@@ -3496,7 +3496,7 @@ Neoplasie endocrina multipla tip 2b,sindrom MEN 2b,sindrom MEN 3,carcinom medula
 Neoplasm pleural malign,cancer pleural,tumora maligna pleurala,carcinom pleural,malignant pleural neoplasm,malignant pleural tumor,pleural malignancy
 Neoplasm pulmonar malign,cancer al plamanilor,tumora maligna pulmonara,carcinom pulmonar malign,malignant pulmonary neoplasm,malignant lung tumor,malignant neoplasm of the lung
 Neoplazie intraepiteliala anala,AIN,neoplazie intraepiteliala a canalului anal,neoplazie anala intraepiteliala,anal intraepithelial neoplasia,AIN anal lesion,anal intraepithelial neoplasm
-Neoplazie intraepiteliala cervicala,CIN,neoplazie intraepiteliala de col uterin,neoplazie cervicala intraepiteliala,cervical intraepithelial neoplasia,CIN cervical lesion,cervical intraepithelial neoplasm
+Neoplazie intraepiteliala cervicala,leziune precanceroasa,CIN,neoplazie intraepiteliala de col uterin,neoplazie cervicala intraepiteliala,cervical intraepithelial neoplasia,CIN cervical lesion,cervical intraepithelial neoplasm
 Neoplazie intraepiteliala peniana,PeIN,neoplazie intraepiteliala a penisului,neoplazie peniana intraepiteliala,penile intraepithelial neoplasia,PeIN penile lesion,penile intraepithelial neoplasm
 Neoplazie intraepiteliala vaginala,VAIN,neoplazie intraepiteliala a vaginului,neoplazie vaginala intraepiteliala,vaginal intraepithelial neoplasia,VAIN vaginal lesion,vaginal intraepithelial neoplasm
 Neoplazie intraepiteliala vulvara,VIN,neoplazie intraepiteliala a vulvei,neoplazie vulvara intraepiteliala,vulvar intraepithelial neoplasia,VIN vulvar lesion,vulvar intraepithelial neoplasm
@@ -3504,9 +3504,9 @@ Neovascularizatie corneana,noi vase in cornee,vascularizatie corneana,cornee vas
 Nesidioblastoza,nesidioblastoza pancreatica,hiperplazie de celule insulare,hiperplazie nesidioblastica,nesidioblastosis,pancreatic nesidioblastosis,islet cell hyperplasia
 Neuralgie postherpetica,durere postzosteriana,nevralgie post-zoster,durere neuropatica postherpetica,postherpetic neuralgia,post-zoster neuralgia,postherpetic pain,Nevralgia postherpetica,nevralgie postzosteriana,durere postherpetica,nevralgia dupa zona zoster,herpetic neuralgia
 Neurastenie,nevroza astenica,epuizare nervoasa,astenie nervoasa,neurasthenia,nervous exhaustion,asthenic neurosis
-Neurinom acustic,schwannom vestibular,tumora de nerv acustic,neurilemom vestibular,acoustic neuroma,vestibular schwannoma,acoustic nerve tumor
+Neurinom acustic,tumoare pe nervul auzului,schwannom vestibular,tumora de nerv acustic,neurilemom vestibular,acoustic neuroma,vestibular schwannoma,acoustic nerve tumor
 Neurita retrobulbara,nevrita retrobulbara,neurita optica retrobulbara,inflamatia nervului optic in spatele globului,retrobulbar neuritis,retrobulbar optic neuritis,retrobulbar neuropathy
-Neuroblastom,neuroblastom pediatric,tumora neuroblastica,neuroblastom simpatic,neuroblastoma,neuroblastic tumor,sympathetic neuroblastoma
+Neuroblastom,tumoare pe nervi,neuroblastom pediatric,tumora neuroblastica,neuroblastom simpatic,neuroblastoma,neuroblastic tumor,sympathetic neuroblastoma
 Neuroborelioza,borelioza neurologica,boala Lyme neurologica,meningoradiculita Lyme,Lyme neuroborreliosis,neuroborreliosis,Bannwarth syndrome,Neuroborrelioza,neuroborrelioza Lyme,boala Lyme cu afectare neurologica,borrelioza neurologica,neurological Lyme disease
 Neurobruceloza,bruceloza sistemului nervos,meningita bruceliana,encefalita bruceliana,neurobrucellosis,brucellar meningitis,brucellar encephalitis
 Neurocisticercoza,cisticercoza cerebrala,cisticercoza a sistemului nervos,cisticercoza meningeana,neurocysticercosis,cerebral cysticercosis,cysticercosis of central nervous system,infestare cerebrala cu Taenia solium,cisticercoza parenchimatoasa,taenia solium brain infestation
@@ -3527,7 +3527,7 @@ Neuropatie autonoma,neuropatie vegetativa,disfunctie autonoma neurogena,neuropat
 Neuropatie autonoma diabetica,neuropatie autonoma din diabet,neuropatie vegetativa diabetica,neuropatie autonoma la diabetici,diabetic autonomic neuropathy,autonomic diabetic neuropathy,diabetic autonomic dysfunction
 Neuropatie craniana,neuropatie a nervilor cranieni,polineuropatie craniana,afectare a nervilor cranieni,cranial neuropathy,multiple cranial nerve palsy,cranial polyneuropathy
 Neuropatie de compresiune,neuropatie prin compresie,neuropatie prin incarcerare,compresie nervoasa periferica,entrapment neuropathy,compression neuropathy,nerve entrapment syndrome
-Neuropatie diabetica,amorteala la picioare,nevrita diabetica,afectare a nervilor din diabet,neuropatia diabetica,diabetic neuropathy,diabetic nerve damage,peripheral diabetic neuropathy
+Neuropatie diabetica,nerv stricat,amorteala la picioare,nevrita diabetica,afectare a nervilor din diabet,neuropatia diabetica,diabetic neuropathy,diabetic nerve damage,peripheral diabetic neuropathy
 Neuropatie hipomielinizanta congenitala,neuropatie demielinizanta congenitala,boala hipomielinizanta,neuropatie congenitala cu hipomielinizare,congenital hypomyelinating neuropathy,congenital hypomyelination,CHN
 Neuropatie optica ereditara Leber,atrofie optica ereditara Leber,boala Leber,neuropatie optica mitocondriala,Leber hereditary optic neuropathy,Leber optic atrophy,LHON
 Neuropatie optica toxica,ambliopie toxica,nevrita optica toxica,atrofie optica toxica,toxic optic neuropathy,toxic amblyopia,nutritional optic neuropathy
@@ -3556,7 +3556,7 @@ Nevralgia intercostala,nevralgie intercostala,durere intercostala nevralgica,nev
 Nevralgia occipitala,nevralgia Arnold,nevralgia de nerv occipital,nevralgia occipitala mare,occipital neuralgia,Arnold neuralgia,greater occipital nerve neuralgia
 Nevralgia pudendala,nevralgie pudendala,durere nevralgica pelvina,nevralgia de nerv pudendal,pudendal neuralgia,pudendal nerve entrapment,neuralgia of pudendal nerve
 Nevralgie,durere de nervi,nevralgii,nevralgie de trigemen,durere nevralgica,neuralgia,trigeminal neuralgia,nerve pain
-Nevrita,inflamatia nervului,nevrita optica,nevrite,neuritis,nerve inflammation,optic neuritis
+Nevrita,nerv inflamat,inflamatia nervului,nevrita optica,nevrite,neuritis,nerve inflammation,optic neuritis
 Nevrita leproasa,lepra nervoasa,neuropatia leproasa,nevrita in lepra,leprous neuritis,leprosy neuropathy,neural leprosy
 Nevrita vestibulara,neuronita vestibulara,vestibulopatie periferica acuta,nevrita vestibulara acuta,vestibular neuritis,vestibular neuronitis,acute vestibular neuropathy,neuronita vestibulara acuta,vertij prin inflamatia nervului vestibular,acute unilateral vestibulopathy
 Nevroza,boala de nervi,nevroze,tulburare nevrotica,nevrotism,neurosis,neurotic disorder,psychoneurosis
@@ -3571,7 +3571,7 @@ Nocardioza cerebrala,abces cerebral cu Nocardia,nocardioza a sistemului nervos c
 Nocardioza pulmonara,pneumonie cu Nocardia,abces pulmonar cu Nocardia,infectie pulmonara cu Nocardia,pulmonary nocardiosis,nocardial pneumonia,Nocardia lung infection
 Nocardioza pulmonara cavitara,nocardioza cavitara pulmonara,nocardioza pulmonara cronica,pneumopatie nocardiozica cavitara,cavitary pulmonary nocardiosis,chronic pulmonary nocardiosis,nocardial cavitary lung disease
 Nodul reumatoid,nodul reumatismal,nodul subcutanat reumatoid,nodul din artrita reumatoida,rheumatoid nodule,rheumatoid nodulosis,subcutaneous rheumatoid nodule
-Noduli tiroidieni,noduri la tiroida,nodul tiroidian,chisturi tiroidiene,formatiuni nodulare ale tiroidei,thyroid nodules,thyroid nodule,thyroid cyst
+Noduli tiroidieni,nod la tiroida,noduri la tiroida,nodul tiroidian,chisturi tiroidiene,formatiuni nodulare ale tiroidei,thyroid nodules,thyroid nodule,thyroid cyst
 Noduli vocali,noduli ai corzilor vocale,noduli ai coardelor vocale,cherele cantaretei,vocal cord nodules,vocal fold nodules,singer's nodes
 Nonseminom,tumora germinala nonseminomatoasa,nonseminom testicular,tumora testiculara nonseminomatoasa,nonseminoma,non-seminomatous germ cell tumor,nonseminomatous testicular tumor
 Nosofobie,teama de imbolnavire,frica de boli,teama de boli,nosophobia,fear of illness,sickness phobia
@@ -3608,7 +3608,7 @@ Onicodistrofie,distrofie unghiala,unghii deformate,distrofie a unghiilor,onychod
 Onicogrifoza,onichogrifoza,unghie grifa,unghie incovoiata si ingrosata,onychogryphosis,onychogryposis,ram's horn nail
 Onicoliza,onicoliza unghiala,desprindere a unghiei,dezlipire a unghiei,onycholysis,nail separation,detachment of the nail
 Onicomadezis,onicomadezis completa,dezlipire proximala a unghiei,unghie care cade,onychomadesis,nail shedding,proximal nail detachment
-Onicomicoza,ciuperca unghiei,micoza unghiilor,infectie fungica a unghiei,nail fungus,onychomycosis,fungal nail infection
+Onicomicoza,ciuperca la unghii,ciuperca unghiei,micoza unghiilor,infectie fungica a unghiei,nail fungus,onychomycosis,fungal nail infection
 Ooforita,inflamatia ovarului,ooforita acuta,infectie ovariana,oophoritis,ovarian inflammation,inflammation of the ovary
 Opacitate corneana,opacifiere a corneei,pata alba pe cornee,cicatrice corneana,corneal opacity,opacity of the cornea,corneal scar
 Opistorhoza,infestare cu Opisthorchis felineus,distomatoza felina,distomatoza cu Opisthorchis,opisthorchiasis,Opisthorchis felineus infection,cat liver fluke infection
@@ -3667,22 +3667,22 @@ Osteosarcom telangiectazic,osteosarcom telangiectatic,sarcom osteogenic telangie
 Osteoscleroza,scleroza osoasa,condensare osoasa difuza,osteocondensare,osteosclerosis,bone sclerosis,increased bone density
 Otita,inflamatia urechii,infectie a urechii,otitis,ear infection,otitis media,middle ear infection
 Otita externa,ureche a inotatorului,infectie a urechii externe,inflamatia conductului auditiv extern,swimmer's ear,otitis externa,external ear infection
-Otita externa circumscrisa,otita externa localizata,furuncul al conductului auditiv extern,abces al conductului auditiv extern,circumscribed otitis externa,furuncle of the external ear canal,localized otitis externa
+Otita externa circumscrisa,furuncul la ureche,otita externa localizata,furuncul al conductului auditiv extern,abces al conductului auditiv extern,circumscribed otitis externa,furuncle of the external ear canal,localized otitis externa
 Otita externa maligna,otita externa necrozanta,osteomielita de baza de craniu,otita externa necrotizanta,malignant otitis externa,necrotizing otitis externa,skull base osteomyelitis
-Otita medie,Otita medie acuta,Otita medie cronica,otita medie acuta supurata,infectie acuta a urechii medii,otita medie acuta la copil,acute otitis media,acute suppurative otitis media,acute middle ear infection,otita medie cronica supurativa,otita medie cronica simpla,infectie cronica a urechii medii,chronic otitis media,chronic suppurative otitis media,chronic middle ear infection
+Otita medie,scurgere la ureche,Otita medie acuta,Otita medie cronica,otita medie acuta supurata,infectie acuta a urechii medii,otita medie acuta la copil,acute otitis media,acute suppurative otitis media,acute middle ear infection,otita medie cronica supurativa,otita medie cronica simpla,infectie cronica a urechii medii,chronic otitis media,chronic suppurative otitis media,chronic middle ear infection
 Otita medie adeziva,otita medie adeziva cronica,boala adeziva a urechii medii,aderente timpanice,adhesive otitis media,chronic adhesive otitis media,adhesive middle ear disease
 Otita medie cronica colesteatomatoasa,otita medie cronica cu colesteatom,otita medie cu colesteatom,otita medie cronica epitimpanica,chronic otitis media with cholesteatoma,cholesteatomatous chronic otitis media,atticoantral chronic otitis media
 Otita medie mucoida,otita medie cu mucus,otita medie mucoasa,efuziune mucoida a urechii medii,mucoid otitis media,mucous otitis media,otitis media with mucous effusion
 Otita medie necrozanta,otita medie necrotica,otita medie cu necroza osoasa,otita medie distructiva,necrotizing otitis media,necrotizing middle ear infection,osteonecrotic otitis media
 Otita medie secretorie,otita medie cu efuziune,otita medie seroasa,ureche cu lichid,secretory otitis media,otitis media with effusion,glue ear
 Otomastoidita,otita medie complicata cu mastoidita,infectie otomastoidiana,inflamatia urechii medii si a mastoidei,otomastoiditis,otitis media with mastoiditis,infection of the mastoid and middle ear
-Otomicoza,micoza urechii,ciuperca in ureche,infectie fungica a urechii,otomycosis,fungal ear infection,fungal otitis externa
+Otomicoza,ciuperca la ureche,micoza urechii,ciuperca in ureche,infectie fungica a urechii,otomycosis,fungal ear infection,fungal otitis externa
 Otoscleroza,otoscleroza stapediana,fixare a scarii la fereastra ovala,ankiloza stapedo-vestibulara,otosclerosis,stapedial otosclerosis,otosclerotic hearing loss
 Otospongioza,otospongioza cochleara,faza activa a otosclerozei,otospongioza retrofenestrala,otospongiosis,cochlear otospongiosis,retrofenestral otospongiosis
-Ototoxicitate,toxicitate auriculara,surditate ototoxica,afectare auditiva de cauza medicamentoasa,ototoxicity,ototoxic hearing loss,drug-induced hearing loss
+Ototoxicitate,medicament care surzeste,toxicitate auriculara,surditate ototoxica,afectare auditiva de cauza medicamentoasa,ototoxicity,ototoxic hearing loss,drug-induced hearing loss
 Oul oprit in evolutie,sarcina oprita in evolutie,ou oprit in evolutie,avort retinut,missed abortion,missed miscarriage,early fetal demise
 Oxaloza,boala depunerilor de oxalati,oxaloza sistemica,depunere de oxalat de calciu in tesuturi,oxalosis,systemic oxalosis,oxalate storage disease
-Oxiuroza,viermisori,oxiuri,infestare cu oxiuri,enterobioza,pinworm infection,enterobiasis,threadworm
+Oxiuroza,viermi la cur,viermisori,oxiuri,infestare cu oxiuri,enterobioza,pinworm infection,enterobiasis,threadworm
 Oxycefalie,turricefalie,craniu in turn,sinostoza multipla a suturilor,oxycephaly,turricephaly,tower skull
 Pachigirie,pachigiria,circumvolutiuni cerebrale largi,malformatie cu girusi lati,pachygyria,macrogyria,broad gyri malformation
 Pahidermoperiostoza,pahidermie cu periostoza,sindrom Touraine-Solente-Gole,osteoartropatie hipertrofica primara,pachydermoperiostosis,primary hypertrophic osteoarthropathy,Touraine-Solente-Gole syndrome
@@ -3742,7 +3742,7 @@ Paralizie brahiala obstetrica,paralizie de plex brahial la nastere,leziune de pl
 Paralizie faciala,fata stramba,paralizie Bell,paralizia nervului facial,pareza faciala,facial paralysis,bell's palsy,facial nerve palsy
 Paralizie faciala neonatala,paralizie faciala obstetricala,leziune de nerv facial la nastere,paralizie faciala a nou-nascutului,neonatal facial palsy,obstetric facial nerve palsy,facial nerve injury at birth
 Paralizie generala progresiva,paralizie generala,dementa sifilitica,paralizie generala a alienatilor,general paresis,general paresis of the insane,syphilitic dementia
-Paralizie intestinala,paralizia intestinului,atonie intestinala,ileus paralitic intestinal,intestinal paralysis,intestinal atony,paralytic bowel
+Paralizie intestinala,intestin lenes,paralizia intestinului,atonie intestinala,ileus paralitic intestinal,intestinal paralysis,intestinal atony,paralytic bowel
 Paralizie supranucleara progresiva,sindrom Steele-Richardson-Olszewski,oftalmoplegie supranucleara progresiva,atrofie coliculare,progressive supranuclear palsy,steele-richardson-olszewski syndrome,supranuclear palsy,Paralizia supranucleara progresiva,paralizia supranucleara progresiva clasica,PSP
 Parametrita,inflamatia parametrului,celulita pelvina,flegmon parametrial,parametritis,pelvic cellulitis,parametrial phlegmon
 Paramiotonie congenitala,boala Eulenburg,paramiotonia congenitala,paramiotonie congenitala a lui Eulenburg,paramyotonia congenita,Eulenburg disease,paramyotonia congenita of Eulenburg
@@ -3759,7 +3759,7 @@ Paraplegie spastica ereditara tip 7,paraplegie spastica ereditara de tip 7,parap
 Parapsoriazis,parapsoriazis in placi mici,parapsoriazis in mici placi,parapsoriazis in placi,parapsoriasis,small plaque parapsoriasis,parapsoriasis en plaques
 Parasomnie,tulburari de comportament in timpul somnului,parasomnii,miscari anormale in somn,sleep-related abnormal behaviour,arousal disorder,abnormal behaviour during sleep
 Parazitoze,viermi,infestare parazitara,boli parazitare,parazitism,parasitic infection,parasitic disease,parasitosis
-Parazitoze intestinale,paraziti intestinali,viermi intestinali,infestare cu paraziti intestinali,intestinal parasites,intestinal worms,helminthiasis
+Parazitoze intestinale,viermi la stomac,paraziti intestinali,viermi intestinali,infestare cu paraziti intestinali,intestinal parasites,intestinal worms,helminthiasis
 Parestezii,amorteli,furnicaturi,intepaturi in membre,paresthesia,pins and needles,tingling
 Parkinsonism medicamentos,parkinsonism indus de medicamente,parkinsonism iatrogen,parkinsonism prin neuroleptice,drug-induced parkinsonism,medication-induced parkinsonism,neuroleptic-induced parkinsonism
 Parkinsonism secundar,parkinsonism simptomatic,parkinsonism dobandit,parkinsonism atipic,secondary parkinsonism,symptomatic parkinsonism,acquired parkinsonism
@@ -3794,14 +3794,14 @@ Pericondrita auriculara,pericondrita urechii,inflamatia pericondrului auricular,
 Periimplantita,periimplantita dentara,infectie periimplantara,mucozita periimplantara,peri-implantitis,periimplant infection,peri-implant mucositis
 Periostita,inflamatia periostului,periostita osoasa,periostita acuta,periostitis,inflammation of the periosteum,periosteal inflammation
 Peritonita,inflamatia peritoneului,peritonita acuta,peritonita generalizata,peritonitis,peritoneal inflammation,inflamed peritoneum
-Peritonita acuta generalizata,peritonita generalizata acuta,peritonita difuza acuta,peritonita acuta difuza,generalized peritonitis,diffuse peritonitis,acute generalized peritonitis
+Peritonita acuta generalizata,burta inflamata,peritonita generalizata acuta,peritonita difuza acuta,peritonita acuta difuza,generalized peritonitis,diffuse peritonitis,acute generalized peritonitis
 Peritonita bacteriana spontana,peritonita spontana a ciroticului,PBS,peritonita asociala a ascitei,spontaneous bacterial peritonitis,SBP,primary bacterial peritonitis
 Peritonita biliara,peritonita prin bila,peritonita biligena,peritonita prin scurgere biliara,biliary peritonitis,bile peritonitis,choleperitoneum
 Peritonita la dializa peritoneala,peritonita asociata dializei peritoneale,infectie a lichidului de dializa,peritonita in dializa,peritoneal dialysis-associated peritonitis,peritonitis in peritoneal dialysis,PD peritonitis
 Peritonita localizata,peritonita circumscrisa,abces peritoneal localizat,peritonita incapsulata,localized peritonitis,circumscribed peritonitis,encapsulated peritonitis
 Peritonita meconiala,peritonita cu meconiu,peritonita fetala,peritonita neonatala cu meconiu,meconium peritonitis,fetal meconium peritonitis,neonatal meconium peritonitis
 Peritonita tuberculoasa,peritonita cu tuberculoza,tuberculoza peritoneala,peritonita TBC,tuberculous peritonitis,peritoneal tuberculosis,tuberculosis of the peritoneum,ileita tuberculoasa
-Persistenta canalului arterial,ductus arteriosus permeabil,canal arterial persistent,PCA,patent ductus arteriosus,PDA,persistent ductus arteriosus
+Persistenta canalului arterial,gaura la inima,ductus arteriosus permeabil,canal arterial persistent,PCA,patent ductus arteriosus,PDA,persistent ductus arteriosus
 Persistenta de foramen ovale,foramen ovale permeabil,FO permeabil,comunicare interatriala prin foramen ovale,patent foramen ovale,PFO,persistent foramen ovale
 Persistenta de urac,chist de urac,fistula uracala,persistenta canalului uracal,urachal cyst,urachal remnant,patent urachus
 Persistenta ductului Muller,sindrom de persistenta a ductului Muller,sindrom de persistenta mulleriana,persistenta mulleriana,persistent Mullerian duct syndrome,Mullerian duct persistence syndrome,persistent mullerian ducts
@@ -3831,12 +3831,12 @@ Picior Charcot,artropatie neuropatica a piciorului,picior neuropatic,osteoartrop
 Picior diabetic,picior diabetic neuropatic,picior diabetic infectat,ulcer neuropatic diabetic,diabetic foot,diabetic foot syndrome,diabetic foot ulcer,sindromul piciorului diabetic,complicatie diabetica a piciorului,diabetic foot disease,boala piciorului diabetic,complicatie a piciorului in diabet,Ulcer diabetic de picior,mal perforant plantar,ulcer plantar diabetic,mal perforant ulcer,plantar neuropathic ulcer
 Picior equin,deformare in equin a piciorului,picior in varf,equinism al piciorului,equinus deformity,pes equinus,equinus foot deformity
 Picior plan congenital,picior plat congenital,talus vertical congenital,deformitate congenitala in picior plat,vertical talus,congenital vertical talus,rocker-bottom foot
-Picior plat,platfus,picior plat valg,bolta plantara colabata,flat foot,pes planus,fallen arches
+Picior plat,talpa plata,platfus,picior plat valg,bolta plantara colabata,flat foot,pes planus,fallen arches
 Picior varus equin,picior equin varus,picior stramb congenital,clubfoot,talipes equinovarus,congenital clubfoot,CTEV
 Piele grasa,ten gras,exces de sebum pe fata,seboree faciala,oily skin,greasy skin,oily complexion
 Piele uscata,xeroza cutanata,uscaciune a pielii,deshidratare cutanata,dry skin,xerosis,skin dryness
 Pielita,infectie a bazinetului renal,pielita bacteriana,inflamatie a pelvisului renal,pyelitis,bacterial pyelitis,infection of the renal pelvis
-Pielonefrita,Pielonefrita cronica,infectie la rinichi,infectie a rinichiului,pielonefrita acuta,inflamatia bazinetului renal,pyelonephritis,kidney infection,renal infection,infectie renala cronica,pielonefrita recidivanta,nefrita interstitiala bacteriana cronica,chronic pyelonephritis,recurrent pyelonephritis,chronic kidney infection
+Pielonefrita,rinichi bolnav,Pielonefrita cronica,infectie la rinichi,infectie a rinichiului,pielonefrita acuta,inflamatia bazinetului renal,pyelonephritis,kidney infection,renal infection,infectie renala cronica,pielonefrita recidivanta,nefrita interstitiala bacteriana cronica,chronic pyelonephritis,recurrent pyelonephritis,chronic kidney infection
 Pielonefrita xantogranulomatoasa,pielonefrita cu celule spumoase,nefrita xantogranulomatoasa,XGP,xanthogranulomatous pyelonephritis,xanthogranulomatous kidney infection,xanthogranulomatous renal inflammation
 Pierderea memoriei,probleme de memorie,uitare,tulburari de memorie,memory loss,forgetfulness,amnesia
 Pinguecula,pingecula,ingalbenire a conjunctivei,degenerescenta conjunctivala galbena,conjunctival degeneration,yellow patch on the conjunctiva,pinguecula of the conjunctiva
@@ -3846,13 +3846,13 @@ Piocel,piocel ovarian,piocel tubar,colectie purulenta in anexe,pyosalpinx,pus-fi
 Piocele sinusal,piocele de sinus,mucopiocele sinusal,piocele frontal,sinus pyocele,pyocele of the paranasal sinus,mucopyocele
 Pioderma cutanat,infectie piogena cutanata,supuratie cutanata,infectie bacteriana a pielii,cutaneous pyoderma,pyogenic skin infection,skin pyoderma
 Piodermita gangrenoasa,pioderma gangrenosum,ulcer infectat cutanat,leziune cutanata necrozanta,pyoderma gangrenosum,gangrenous pyoderma,necrotizing skin ulcer,Pioderma gangrenos,pioderma gangrenoasa,dermatita ulcerativa,ulcerative dermatitis
-Pionefroza,hidropionefroza,rinichi cu puroi,bazinet renal cu puroi,pyonephrosis,pyonephrotic kidney,pus-filled kidney
+Pionefroza,puroi la rinichi,hidropionefroza,rinichi cu puroi,bazinet renal cu puroi,pyonephrosis,pyonephrotic kidney,pus-filled kidney
 Piopneumotorax,pneumotorax purulent,piopneumotorax cu empiem,pneumotorax supurat,pyopneumothorax,purulent pneumothorax,pneumothorax with empyema
 Piosalpinx,piosalpinx tubar,trompa cu puroi,salpingita purulenta,pus in the fallopian tube,purulent salpingitis,tubal empyema
 Piromanie,mania aprinderii de foc,tulburare de incendiere patologica,incendiere compulsiva,pyromania,pathological fire setting,compulsive fire setting
 Pitiriazis lichenoid cronic,pitiriazis lichenoid cronic varioliform,parapsoriazis gutat,boala Mucha-Habermann cronica,pityriasis lichenoides chronica,chronic pityriasis lichenoides,chronic Mucha-Habermann disease
 Pitiriazis rozat,pitiriazis rozata Gibert,parapsoriazis rozat,roseola annulata,pityriasis rosea,Gibert pityriasis rosea,pityriasis rosea of Gibert
-Pitiriazis versicolor,tinea versicolor,micoza cu Malassezia,pete hipocrome furfuracee,pityriasis versicolor,tinea flava,Malassezia furfur infection,cuperoza alba,infectie cu Malassezia,Malassezia infection
+Pitiriazis versicolor,ciuperca pe piele,tinea versicolor,micoza cu Malassezia,pete hipocrome furfuracee,pityriasis versicolor,tinea flava,Malassezia furfur infection,cuperoza alba,infectie cu Malassezia,Malassezia infection
 Placa pleurala,placi pleurale,placi hialine,ingrosare pleurala localizata,pleural plaque,hyaline pleural plaque,localized pleural thickening
 Placenta accreta,placenta acreta,aderenta patologica a placentei,placenta fixata de miometru,abnormally adherent placenta,accreta placenta,morbidly adherent placenta
 Placenta increta,invazie miometriala a placentei,placenta invadanta in miometru,placenta cu invazie miometriala,increta placenta,placenta invading myometrium,myometrial placental invasion
@@ -4145,7 +4145,7 @@ Pseudolimfom cutanat,limfom cutanat benign,pseudolimfom de piele,limfoproliferar
 Pseudopelada,alopecie cicatriciala frontala,pseudopelada Brocq,alopecie cicatriciala idiopatica,pseudopelade of Brocq,pseudopelade,cicatricial alopecia of Brocq
 Pseudotumora orbitala,tumora inflamatorie orbitala,miozita orbitala idiopatica,inflamatie orbitala nespecifica,orbital pseudotumor,orbital inflammatory disease,idiopathic orbital inflammation
 Pseudoxanthoma elasticum,pseudoxantom elastic,elastorrhexia sistemica,boala Groenblad-Strandberg,pseudoxanthoma elasticum disease,Groenblad-Strandberg syndrome,systemic elastorrhexia
-Psihoza,nebunie,psihoze,boala psihica grava,tulburare psihotica,psychosis,psychotic disorder,mental illness
+Psihoza,boala mintii,nebunie,psihoze,boala psihica grava,tulburare psihotica,psychosis,psychotic disorder,mental illness
 Psihoza alcoolica,psihoza din alcoolism,halucinoza alcoolica,psihoza indusa de alcool,alcoholic psychosis,alcohol-induced psychosis,alcohol hallucinosis
 Psihoza comuna,folie a deux,tulburare psihotica partajata,psihoza de cuplu,shared psychosis,double insanity,communicated insanity
 Psihoza halucinatorie,psihoza cu halucinatii,halucinoza,halucinoza cronica,hallucinatory psychosis,chronic hallucinosis,psychosis with hallucinations
@@ -4162,7 +4162,7 @@ Pubertate intarziata,pubertate tardiva,intarziere de pubertate,pubertate intarzi
 Pubertate precoce,pubertate prematura,dezvoltare sexuala precoce,pubertate precoce adevarata,precocious puberty,premature puberty,early puberty
 Pubertate precoce centrala,pubertate precoce gonadotropina-dependenta,pubertate precoce adevarata centrala,pubertate precoce de origine centrala,central precocious puberty,gonadotropin-dependent precocious puberty,precocious puberty of central origin
 Pubertate precoce periferica,pubertate precoce gonadotropina-independenta,pubertate precoce periferica pseudopubertate,pseudopubertate precoce,peripheral precocious puberty,gonadotropin-independent precocious puberty,pseudoprecocious puberty
-Pulpita dentara,inflamatia pulpei dentare,pulpita acuta dentara,pulpa dentara infectata,pulpitis,dental pulpitis,inflammation of the dental pulp
+Pulpita dentara,durere de masea,inflamatia pulpei dentare,pulpita acuta dentara,pulpa dentara infectata,pulpitis,dental pulpitis,inflammation of the dental pulp
 Punte miocardica,brida miocardica,tunel coronarian,punte musculara coronariana,myocardial bridge,coronary artery bridging,intramural coronary artery
 Pupila Adie,sindrom Holmes-Adie,pupila tonica,pupila Adie tonica,Adie pupil,Holmes-Adie syndrome,tonic pupil,Sindrom Adie,pupila tonica Adie,Adie syndrome,Adie tonic pupil
 Pupila Argyll Robertson,pupila sifilitica,pupila cu reflex fotomotor absent,pupila cu disociere lumina-acomodare,Argyll Robertson pupil,Argyll Robertson syndrome,syphilitic pupil
@@ -4179,23 +4179,23 @@ Rabdomiosarcom,sarcom muscular striat,rabdomiosarcom de tesuturi moi,tumora mali
 Rabdomiosarcom alveolar,rabdomiosarcom de tip alveolar,sarcom alveolar de muschi striat,rabdomiosarcom cu celule rotunde,alveolar rhabdomyosarcoma,alveolar striated muscle sarcoma,round cell rhabdomyosarcoma
 Rabdomiosarcom embrionar,rabdomiosarcom de tip embrionar,sarcoma botryoides,rabdomiosarcom infantil,embryonal rhabdomyosarcoma,botryoid sarcoma,infantile rhabdomyosarcoma
 Rabdomiosarcom orbital,rabdomiosarcom al orbitei,sarcom embrionar orbital,tumora maligna orbitala la copil,orbital rhabdomyosarcoma,rhabdomyosarcoma of the orbit,embryonal orbital sarcoma
-Rabie,turbare,hidrofobie,infectie cu virusul rabic,rabies,hydrophobia,lyssavirus infection
+Rabie,boala turbarii,turbare,hidrofobie,infectie cu virusul rabic,rabies,hydrophobia,lyssavirus infection
 Rabie furioasa,rabie excitata,forma clasica de rabie,rabie cu hiperactivitate,furious rabies,furious form of rabies,classical rabies
 Rabie paralitica,rabie muta,rabie dumb,rabie cu paralizie,paralytic rabies,dumb rabies,silent rabies
-Raceala,raceala obisnuita,guturai,rinofaringita acuta,common cold,head cold,acute nasopharyngitis
+Raceala,races,raceala obisnuita,guturai,rinofaringita acuta,common cold,head cold,acute nasopharyngitis
 Radiculita,radiculita inflamatorie,radiculita lombara,inflamatia radacinilor nervoase,radiculitis,nerve root inflammation,inflammatory radiculopathy
-Radiculopatie,radiculopatie vertebrala,compresie radiculara,sindrom radicular,radiculopathy,nerve root compression,radicular syndrome
-Radiculopatie cervicala,radiculopatie de coloana cervicala,compresie radiculara cervicala,radiculopatie cervicala discala,cervical radiculopathy,cervical nerve root compression,cervical radicular pain
-Radiculopatie lombara,radiculopatie de coloana lombara,compresie radiculara lombara,radiculopatie lombara discala,lumbar radiculopathy,lumbar nerve root compression,lumbar radicular pain
+Radiculopatie,durere de nerv,radiculopatie vertebrala,compresie radiculara,sindrom radicular,radiculopathy,nerve root compression,radicular syndrome
+Radiculopatie cervicala,junghi la ceafa,radiculopatie de coloana cervicala,compresie radiculara cervicala,radiculopatie cervicala discala,cervical radiculopathy,cervical nerve root compression,cervical radicular pain
+Radiculopatie lombara,junghi la mijloc,radiculopatie de coloana lombara,compresie radiculara lombara,radiculopatie lombara discala,lumbar radiculopathy,lumbar nerve root compression,lumbar radicular pain
 Radiculopatie toracica,radiculopatie de coloana toracica,compresie radiculara toracica,radiculopatie toracica discala,thoracic radiculopathy,thoracic nerve root compression,thoracic radicular pain
 Radiodermita,arsura de radiatii,leziune cutanata prin radiatii,radionecroza cutanata,radiodermatitis,radiation burn,radiation skin injury
-Rahisis,rahisis totala,fisura vertebrala completa,spina bifida totala,rachischisis,complete spinal cleft,congenital vertebral cleft
-Rahitism,osteomalacie,rahitism carential,deficit de vitamina D la copil,rickets,osteomalacia,vitamin d deficiency rickets
+Rahisis,cocoasa,rahisis totala,fisura vertebrala completa,spina bifida totala,rachischisis,complete spinal cleft,congenital vertebral cleft
+Rahitism,oase moi,osteomalacie,rahitism carential,deficit de vitamina D la copil,rickets,osteomalacia,vitamin d deficiency rickets
 Rahitism dependent de vitamina D tip I,rahitism pseudo-deficitar de vitamina D,defect de 1-alfa-hidroxilaza,rahitism cu calciu scazut si fosfor scazut,vitamin D-dependent rickets type I,pseudo-vitamin D deficiency rickets,vitamin D 1-alpha-hydroxylase deficiency
 Rahitism dependent de vitamina D tip II,rahitism rezistent la calcitriol,defect de receptor al vitaminei D,rahitism cu alopecie,vitamin D-dependent rickets type II,calcitriol-resistant rickets,vitamin D receptor defect
 Rahitism hipofosfatemie autozomal dominant,hipofosfatemie familiala dominanta,rahitism rezistent la vitamina D autozomal dominant,rahitism hipofosfatemie familial,autosomal dominant hypophosphatemic rickets,FGF23-related hypophosphatemic rickets,ADHR
 Rahitism rezistent la vitamina D,rahitism hipofosfatemie,rahitism rezistent la tratament,rahitism prin pierdere renala de fosfati,vitamin D-resistant rickets,familial hypophosphatemic rickets,x-linked hypophosphatemia
-Rau de miscare,rau de masina,rau de mare,cinetoza,motion sickness,car sickness,travel sickness
+Rau de miscare,rau de drum,boala masinii,rau de masina,rau de mare,cinetoza,motion sickness,car sickness,travel sickness
 Reactie de doliu patologic,doliu patologic,doliu prelungit,tristete patologica de doliu,pathological grief reaction,prolonged grief disorder,complicated grief
 Reactie hemolitica transfuzionala,hemoliza posttransfuzionala,incompatibilitate transfuzionala,reactie transfuzionala prin hemoliza,hemolytic transfusion reaction,transfusion hemolysis,blood transfusion incompatibility
 Reactie leproasa,reactie de reversiune leproasa,reactie leproasa tip 1,reactie imunologica in lepra,leprosy reaction,leprosy type 1 reaction,reversal reaction
@@ -4206,7 +4206,7 @@ Reflux vezicoureteral,reflux uretero-vezical,reflux vezical,reflux de urina din 
 Reinfarct,reinfarct miocardic,recidiva de infarct miocardic,al doilea infarct miocardic,reinfarction,recurrent myocardial infarction,repeat heart attack
 Restrictie de crestere intrauterina,intarziere de crestere intrauterina,hipotrofie fetala,sindrom de crestere fetala intarziata,intrauterine growth restriction,fetal growth restriction,IUGR
 Retard mintal sever,deficienta mintala severa,intarziere mintala severa,handicap mental sever,severe mental retardation,severe intellectual disability,severe intellectual impairment
-Retard mintal usor,deficienta mintala usoara,intarziere mintala usoara,nivel intelectual limita,mild mental retardation,mild intellectual disability,borderline intellectual functioning
+Retard mintal usor,incet la minte,deficienta mintala usoara,intarziere mintala usoara,nivel intelectual limita,mild mental retardation,mild intellectual disability,borderline intellectual functioning
 Retentie de placenta,placenta retinuta,retentie placentara,placenta neeliminata,retained placenta,placental retention,trapped placenta
 Retentie de resturi placentare,resturi placentare retinute,fragmente placentare retinute,retentie de fragmente de placenta,retained placental fragments,retained products of conception,retained placental tissue
 Retentie urinara,retentie de urina,imposibilitate de a urina,golire incompleta a vezicii,urinary retention,inability to urinate,bladder retention
@@ -4221,7 +4221,7 @@ Retinopatie leucemica,retinopatie din leucemie,infiltratie leucemica retiniana,h
 Retinopatie seroasa centrala,corioretinopatia seroasa centrala,retinopatie seroasa idiopatica,detasament seros macular,central serous chorioretinopathy,central serous retinopathy,idiopathic central serous chorioretinopathy
 Retinoschizis,retinoschiza,dezlipire a straturilor retinei,schizis retinian,retinoschisis,retinal schisis,splitting of the retina
 Retinoschizis juvenil legat de X,retinoschiza juvenila legata de X,retinoschizis juvenil congenital,distrofie retiniana juvenila legata de X,X-linked retinoschisis,juvenile retinoschisis,congenital retinoschisis
-Retrognatism,maxilar retras,retrognatie mandibulara,mandibula posterior pozitionata,retrognathia,receding chin,mandibular retrognathia
+Retrognatism,barbie lasata,maxilar retras,retrognatie mandibulara,mandibula posterior pozitionata,retrognathia,receding chin,mandibular retrognathia
 Retrolisteza,retrolistezis,alunecare vertebrala posterioara,retrolisteza lombara,retrolisthesis,posterior vertebral slip,backward vertebral displacement
 Reumatism,dureri reumatice,reumatism articular,afectiuni reumatismale,rheumatism,rheumatic pain,rheumatic disease
 Reumatism abarticular,reumatism extraarticular,reumatism al tesuturilor moi,reumatism nearticular,non-articular rheumatism,soft tissue rheumatism,extra-articular rheumatism
@@ -4237,8 +4237,8 @@ Rinita,Rinita acuta,Rinita cronica,inflamatia mucoasei nazale,nas infundat,nas c
 Rinita actinomicotica,rinita cu actinomicoza,actinomicoza nazala,infectie actinomicotica nazala,actinomycotic rhinitis,nasal actinomycosis,actinomycotic nasal infection
 Rinita alergica,alergie nazala,febra fanului,rinita polinica,allergic rhinitis,hay fever,seasonal allergic rhinitis
 Rinita alergica perena,rinita alergica permanenta,rinita de acarieni,rinita alergica tot anul,perennial allergic rhinitis,year-round allergic rhinitis,perennial hay fever
-Rinita alergica sezoniera,rinita de sezon,rinita la polen,rinita alergica de primavara,seasonal hay fever,pollen rhinitis,seasonal allergic rhinoconjunctivitis
-Rinita atrofica,rinita uscata,atrofie nazala,rinita atrofica cronica,atrophic rhinitis,dry rhinitis,chronic atrophic rhinitis
+Rinita alergica sezoniera,febra de fan,rinita de sezon,rinita la polen,rinita alergica de primavara,seasonal hay fever,pollen rhinitis,seasonal allergic rhinoconjunctivitis
+Rinita atrofica,nas uscat,rinita uscata,atrofie nazala,rinita atrofica cronica,atrophic rhinitis,dry rhinitis,chronic atrophic rhinitis
 Rinita caseoasa,rinita cu secretii caseoase,rinita cu dopuri caseoase,rinita caseoasa cronica,caseous rhinitis,rhinitis with caseous discharge,chronic caseous rhinitis
 Rinita cu germeni specifici,rinita bacteriana specifica,rinita cu agent patogen identificat,rinita infectioasa cu germene specific,rhinitis due to specific organism,specific bacterial rhinitis,pathogen-specific rhinitis
 Rinita de atrofie mucoasa,rinita cu uscaciune mucoasa,rinita atrofica mucoasa,mucoasa nazala atrofica,mucosal atrophic rhinitis,rhinitis with mucosal atrophy,atrophic nasal mucosa
@@ -4265,9 +4265,9 @@ Ritm idioventricular accelerat,ritm ventricular lent accelerat,ritm de scapare v
 Rizartroza,artroza articulatiei trapezo-metacarpiene,artroza policelui,rizartroza policelui,rhizarthrosis,thumb base osteoarthritis,trapeziometacarpal osteoarthritis
 Rombencefalita,rombencefalita infectioasa,encefalita trunchiului cerebral,encefalita rombencefalica,rhombencephalitis,brainstem encephalitis,hindbrain encephalitis
 Ronhopatie,ronapat patologic,ronapat cronic,ronapat obstructiv de somn,snoring disorder of sleep,chronic snoring,obstructive snoring
-Rosacea fulminans,rosacee fulminans,pioderma facial,rosacee conglobata,pyoderma faciale,rosacea conglobata,fulminant rosacea
+Rosacea fulminans,fata rosie,roseata pe fata,rosacee fulminans,pioderma facial,rosacee conglobata,pyoderma faciale,rosacea conglobata,fulminant rosacea
 Roseola infantum,exantem subit,febra de trei zile,eruptie subita,exanthem subitum,sixth disease,baby measles
-Rubeola,pojarul german,pojarel,pojarelul,rubeola congenitala,german measles,rubella,three-day measles
+Rubeola,pojar molatic,pojarul german,pojarel,pojarelul,rubeola congenitala,german measles,rubella,three-day measles
 Rubeoza iriana,neovascularizare a irisului,noi vase la nivelul irisului,rubeoza irisului,rubeosis iridis,iris neovascularization,neovascularization of the iris
 Ruptura bronsica,ruptura de bronhie,leziune bronsica,plaga bronsica,bronchial rupture,bronchial tear,bronchial injury
 Ruptura coroidiana,ruptura a coroidei,ruptura corioretiniana,leziune traumatica a coroidei,choroidal rupture,rupture of the choroid,traumatic choroidal rupture
@@ -4277,10 +4277,10 @@ Ruptura de splina,ruptura splenica,ruptura traversei splinei,lezare splenica tra
 Ruptura prematura de membrane,ruptura prematura a membranelor,ruptura de membrane inainte de travaliu,fisura membranelor amniotice,premature rupture of membranes,PROM,prelabor rupture of membranes
 Ruptura traheala,ruptura de trahee,leziune traheala,plaga traheala,tracheal rupture,tracheal tear,tracheal injury
 Ruptura uterina,ruptura de uter,ruptura uterina in travaliu,dehiscence uterina,uterine rupture,rupture of the uterus,uterine wall rupture
-Sacroiliita,sacroileita,inflamatia articulatiei sacroiliace,sacroiliita bilaterala,sacroiliitis,sacroiliac joint inflammation,inflammation of the sacroiliac joint
+Sacroiliita,junghi la fund,sacroileita,inflamatia articulatiei sacroiliace,sacroiliita bilaterala,sacroiliitis,sacroiliac joint inflammation,inflammation of the sacroiliac joint
 Sacroiliita infectioasa,sacroiliita bacteriana,sacroiliita piogena,sacroiliita septica,infectious sacroiliitis,bacterial sacroiliitis,pyogenic sacroiliitis
 Salmoneloza,infectie cu salmonella,salmoneloza intestinala,infectie salmonelica,salmonellosis,salmonella infection,salmonella food poisoning
-Salpingita,inflamatia trompelor uterine,salpingita acuta,infectie a trompei uterine,salpingitis,fallopian tube infection,inflammation of the fallopian tube
+Salpingita,infectie la trompe,inflamatia trompelor uterine,salpingita acuta,infectie a trompei uterine,salpingitis,fallopian tube infection,inflammation of the fallopian tube
 Sancroid,sancru moale,ulcer moale venerian,infectie cu Haemophilus ducreyi,chancroid,soft chancre,Haemophilus ducreyi infection
 Sangerare postcoitala,sangerare dupa contact sexual,metroragie postcoitala,sangerare coitala,postcoital bleeding,bleeding after intercourse,coital bleeding
 Sangerare postmenopauza,sangerare dupa menopauza,metroragie postmenopauzala,hemoragie postmenopauzala,postmenopausal bleeding,bleeding after menopause,postmenopausal hemorrhage
@@ -4291,12 +4291,12 @@ Sarcina extrauterina,sarcina pe afara,sarcina ectopica,sarcina tubara,gestatie e
 Sarcina interstitiala,sarcina in portiunea interstitiala a trompei,gestatie interstitiala,sarcina cornuala,interstitial pregnancy,interstitial ectopic pregnancy,cornual pregnancy
 Sarcina ovariana,gestatie ovariana,implantare ovariana a oului,sarcina ectopica ovariana,ovarian pregnancy,ovarian ectopic pregnancy,ovarian gestation
 Sarcina pe cicatrice de cezariana,sarcina pe cicatrice,sarcina in nisa cicatricii,sarcina ectopica pe cicatrice,cesarean scar pregnancy,scar ectopic pregnancy,pregnancy in cesarean scar
-Sarcoidoza,boala Besnier-Boeck-Schaumann,granulomatoza sarcoida,sarcoidoza pulmonara,sarcoidosis,sarcoid,boeck's sarcoid
+Sarcoidoza,boala cu noduli,boala Besnier-Boeck-Schaumann,granulomatoza sarcoida,sarcoidoza pulmonara,sarcoidosis,sarcoid,boeck's sarcoid
 Sarcoidoza cardiaca,sarcoidoza miocardica,sarcoidoza cu afectare cardiaca,boala sarcoidozica a inimii,cardiac sarcoidosis,myocardial sarcoidosis,sarcoid heart disease,afectare cardiaca sarcoidoasa,granulomatoza sarcoida cardiaca
 Sarcoidoza cu implicare hematologica,sarcoidoza cu afectare sanguina,sarcoidoza cu citopenie,sarcoidoza hematologica,sarcoidosis with hematologic involvement,sarcoidosis with blood involvement,hematological sarcoidosis
 Sarcoidoza cutanata,sarcoidoza pielii,lupus pernio,sarcoidoza cutanata nodulara,cutaneous sarcoidosis,skin sarcoidosis,sarcoidosis of the skin,granulom sarcoid cutanat,sarcoid granuloma of the skin
-Sarcoidoza ganglionara,sarcoidoza limfatica,adenopatia sarcoidozica,sarcoidoza cu adenopatii,lymph node sarcoidosis,sarcoid lymphadenopathy,nodal sarcoidosis
-Sarcoidoza hepatica,sarcoidoza ficatului,granulomatoza sarcoidozica hepatica,sarcoidoza cu afectare hepatica,hepatic sarcoidosis,liver sarcoidosis,sarcoidosis of the liver
+Sarcoidoza ganglionara,ganglioni mariti,sarcoidoza limfatica,adenopatia sarcoidozica,sarcoidoza cu adenopatii,lymph node sarcoidosis,sarcoid lymphadenopathy,nodal sarcoidosis
+Sarcoidoza hepatica,ficat cu noduli,sarcoidoza ficatului,granulomatoza sarcoidozica hepatica,sarcoidoza cu afectare hepatica,hepatic sarcoidosis,liver sarcoidosis,sarcoidosis of the liver
 Sarcoidoza oculara,sarcoidoza cu afectare oculara,uveita sarcoidozica,iridociclita sarcoidozica,ocular sarcoidosis,sarcoid uveitis,sarcoidosis of the eye
 Sarcoidoza osoasa,sarcoidoza oaselor,sarcoidoza cu afectare osoasa,sarcoidoza scheletica,bone sarcoidosis,osseous sarcoidosis,sarcoidosis of bone
 Sarcoidoza renala,sarcoidoza rinichiului,nefropatie sarcoidozica,sarcoidoza cu afectare renala,renal sarcoidosis,sarcoidosis of the kidney,sarcoid nephropathy
@@ -4312,7 +4312,7 @@ Sarcom pleomorfic nediferentiat,tumora fibrohistiocitara pleomorfica,sarcom pleo
 Sarcom retroperitoneal,tumora maligna retroperitoneala,sarcom al spatiului retroperitoneal,liposarcom retroperitoneal,retroperitoneal sarcoma,malignant retroperitoneal tumor,retroperitoneal soft tissue sarcoma
 Sarcom sinovial,sarcom sinovial malign,tumora sinoviala maligna,sarcom al membranei sinoviale,synovial sarcoma,malignant synovioma,synovial cell sarcoma
 SARS,sindromul respirator acut sever,pneumonie atipica cu coronavirus,infectie cu SARS-CoV,severe acute respiratory syndrome,SARS coronavirus infection,severe acute respiratory syndrome coronavirus
-Scabie,raie,infestare cu acarieni,mancarimi cutanate contagioase,scabies,sarcoptic mange,itch mite infestation
+Scabie,boala de mancarime,raia,raie,infestare cu acarieni,mancarimi cutanate contagioase,scabies,sarcoptic mange,itch mite infestation
 Scabie norvegiana,scabie crustoasa,scabie hiperkeratozica,scabie cu cruste,Norwegian scabies,crusted scabies,hyperkeratotic scabies
 Scafocefalie,sinostoza sagitala,craniu in forma de barca,dolicocefalie prin sinostoza sagitala,scaphocephaly,sagittal craniosynostosis,boat-shaped skull
 Scarlatina,febra scarlatina,scarlatina streptococica,scarlatina infantila,scarlet fever,scarletina,streptococcal scarlet fever
@@ -4332,7 +4332,7 @@ Schizofrenie simpla,schizofrenie cu simptome negative,schizofrenie deficitara,sc
 Schwannom,neurilemom,neurinom,tumora benigna a tecii nervoase,schwannoma,neurilemmoma,benign nerve sheath tumor
 Schwannom malign,schwannom anaplazic,neurilemom malign,tumora maligna a tecii nervoase,malignant schwannoma,anaplastic schwannoma,malignant nerve sheath tumor
 Schwannomatoza,schwannomatoza multipla,neuromatoza,proliferare schwannomatoasa multipla,schwannomatosis,multiple schwannomas,schwannoma syndrome,Schwanomatoza,schwanomatoza familiala,schwanomatoza multipla,familial schwannomatosis
-Sciatica,durere de sciatic,nevralgie sciatica,durere sciatica,radiculopatie sciatica,sciatic neuralgia,sciatic nerve pain,sciatic neuritis
+Sciatica,junghi la sold,durere de sciatic,nevralgie sciatica,durere sciatica,radiculopatie sciatica,sciatic neuralgia,sciatic nerve pain,sciatic neuritis
 Scleredem,scleredem adult,scleroza cutanata difuza,boala Buschke,scleredema of Buschke adult,scleredema adultorum,Buschke disease
 Sclerita,inflamatia scleroticii,sclerita oculara,inflamatie a peretelui ocular,scleritis,inflammation of the sclera,scleral inflammation
 Sclerocornee,sclerocornee congenitala,cornee opaca congenitala,opacifiere corneana congenitala,sclerocornea,congenital sclerocornea,congenital corneal opacity
@@ -4347,7 +4347,7 @@ Scleroza laterala amiotrofica,boala Lou Gehrig,boala neuronului motor,scleroza a
 Scleroza laterala amiotrofica familiala,SLA familiala,scleroza laterala amiotrofica ereditara,boala neuronului motor familiala,familial amyotrophic lateral sclerosis,hereditary amyotrophic lateral sclerosis,familial ALS
 Scleroza laterala primara,boala neuronului motor superior,paralizie pseudobulbara spastica,scleroza laterala primara a adultului,primary lateral sclerosis,PLS,upper motor neuron disease
 Scleroza Monckeberg,scleroza mediala Monckeberg,calcificare mediala a arterelor,arterioscleroza Monckeberg,Monckeberg sclerosis,Monckeberg medial calcific sclerosis,medial arterial calcification
-Scleroza multipla,scleroza in placi,scleroza multipla remitenta,scleroza diseminata,multiple sclerosis,disseminated sclerosis,encephalomyelitis disseminata
+Scleroza multipla,scleroza,scleroza in placi,scleroza multipla remitenta,scleroza diseminata,multiple sclerosis,disseminated sclerosis,encephalomyelitis disseminata
 Scleroza multipla primar progresiva,scleroza multipla cu progresie primara,scleroza multipla cu evolutie progresiva primara,forma primar progresiva de scleroza multipla,primary progressive multiple sclerosis,PPMS,primary progressive MS
 Scleroza multipla secundar progresiva,scleroza multipla cu progresie secundara,scleroza multipla cu evolutie progresiva secundara,forma secundar progresiva de scleroza multipla,secondary progressive multiple sclerosis,SPMS,secondary progressive MS
 Scleroza tuberoasa,boala Bourneville,scleroza tuberoasa complex,scleroza tuberoasa Bourneville,tuberous sclerosis,tuberous sclerosis complex,Bourneville disease
@@ -4364,7 +4364,7 @@ Sechele de poliomielita,sechele dupa poliomielita,paralizie reziduala post-polio
 Sechele de tuberculoza,sechele tuberculoase,sechele post-tuberculoase,leziuni reziduale tuberculoase,tuberculosis sequelae,post-tuberculosis sequelae,residual tuberculosis lesions
 Sechestru pulmonar,sechestru bronhopulmonar,sechestru pulmonar congenital,tesut pulmonar fara comunicatie,pulmonary sequestration,bronchopulmonary sequestration,sequestrated lung tissue
 Secventa Potter,sindrom Potter,agenezie renala bilaterala cu oligohidramnios,facies Potter,Potter sequence,Potter syndrome,bilateral renal agenesis sequence
-Seminom,seminom testicular,seminom clasic,tumora seminomatoasa,seminoma,testicular seminoma,classic seminoma
+Seminom,cancer la un testicul,seminom testicular,seminom clasic,tumora seminomatoasa,seminoma,testicular seminoma,classic seminoma
 Sepsis neonatal,septicemie neonatala,sepsis la nou-nascut,sepsis a nou-nascutului,neonatal sepsis,sepsis of the newborn,neonatal septicemia
 Sepsis neonatal cu streptococ de grup B,boala streptococica neonatala precoce,infectie cu Streptococcus agalactiae,sepsis neonatal cu Streptococcus agalactiae,group B streptococcal neonatal sepsis,early-onset group B streptococcal disease,GBS neonatal infection
 Sepsis puerperal,sepsis post-partum,septicemie puerperala,soc septic de origine genitala,puerperal sepsis,postpartum sepsis,puerperal septicemia
@@ -4372,7 +4372,7 @@ Sepsis stafilococic,septicemie stafilococica,sepsis cu Staphylococcus aureus,bac
 Sepsis streptococic,septicemie streptococica,sepsis cu Streptococcus pyogenes,infectie generalizata streptococica,streptococcal sepsis,streptococcal septicaemia,Streptococcus pyogenes sepsis
 Sept vaginal,septum vaginal,sept vaginal transversal,duplicatie vaginala,vaginal septum,transverse vaginal septum,vaginal septation
 Septicemie,otrava in sange,sepsis,infectie generalizata a sangelui,otravire a sangelui,septicemia,blood poisoning,bloodstream infection
-Sfarcuri dureroase,mameloane crapate,fisuri ale mamelonului,durere de mamelon in alaptare,sore nipples,cracked nipples,nipple pain
+Sfarcuri dureroase,sfarcuri crapate,mameloane crapate,fisuri ale mamelonului,durere de mamelon in alaptare,sore nipples,cracked nipples,nipple pain
 Sferocitoza ereditara,boala Minkowski-Chauffard,sferocitoza mostenita,anemie hemolitica sferocitara ereditara,hereditary spherocytosis,Minkowski-Chauffard disease,hereditary spherocytic anemia
 Sforait,rasuflare zgomotoasa in somn,ronchopatie,sforaituri,snoring,noisy breathing in sleep,loud snoring
 Shigeloza cu Shigella boydii,dizenterie cu Shigella boydii,shigeloza tip 4,dizenterie cu Boyd,shigella boydii infection,shigellosis type 4,boyd dysentery
@@ -4389,9 +4389,9 @@ Sicoza stafilococica,sicoza barbii,foliculita stafilococica a barbii,sicoza cu S
 Sida,boala secolului,sindromul imunodeficientei dobandite,infectie cu HIV,virusul imunodeficientei umane,aids,hiv infection,acquired immunodeficiency syndrome
 Sideroza oculara,depunere de fier in ochi,hemosideroza oculara,toxicitate oculara cu fier,siderosis bulbi,ocular siderosis,iron deposition in the eye
 Sideroza pulmonara,pneumoconioza cu fier,plaman de fier,sideroza de sudor,pulmonary siderosis,iron pneumoconiosis,welder's siderosis
-Sifilid cutanat,sifilide cutanate,eruptie sifilitica,sifiloderma,cutaneous syphilis,syphilid,syphilitic skin eruption
+Sifilid cutanat,bube sifilitice,sifilide cutanate,eruptie sifilitica,sifiloderma,cutaneous syphilis,syphilid,syphilitic skin eruption
 Sifilid papulos,sifilid papuloasa,eruptie sifilitica papuloasa,sifiloderma papulos,papular syphilid,macular syphilid,secondary syphilis rash
-Sifilis,lues,infectie cu Treponema pallidum,boala venerica sifilis,syphilis,treponema pallidum infection,lues venerea
+Sifilis,boala frantuzeasca,lues,infectie cu Treponema pallidum,boala venerica sifilis,syphilis,treponema pallidum infection,lues venerea
 Sifilis cardiovascular,aortita sifilitica,anevrism sifilitic aortic,sifilis al aortei,cardiovascular syphilis,syphilitic aortitis,syphilitic aneurysm
 Sifilis congenital,lues congenital,sifilis prenatal,sifilis congenital precoce,congenital syphilis,prenatal syphilis,congenital lues
 Sifilis congenital tardiv,triada Hutchinson,dinti Hutchinson,cheratita interstitiala sifilitica,late congenital syphilis,Hutchinson triad,Hutchinson teeth
@@ -4400,7 +4400,7 @@ Sifilis latent precoce,sifilis latent recent,lues latent precoce,sifilis seropoz
 Sifilis latent tardiv,lues latent tardiv,sifilis latent de lunga durata,sifilis seropozitiv tardiv,late latent syphilis,late latent stage syphilis,long-standing latent syphilis
 Sifilis ocular,uveita sifilitica,cheratita sifilitica,retinita sifilitica,ocular syphilis,syphilitic uveitis,syphilitic keratitis
 Sifilis osos,sifilis osos si articular,periostita sifilitica,goma sifilitica osoasa,syphilitic bone disease,osseous syphilis,syphilitic periostitis
-Sifilis primar,sifilom initial,ulcer sifilitic,stadiu primar al sifilisului,primary syphilis,syphilitic chancre,primary stage syphilis
+Sifilis primar,buba tare,sifilom initial,ulcer sifilitic,stadiu primar al sifilisului,primary syphilis,syphilitic chancre,primary stage syphilis
 Sifilis secundar,roseola sifilitica,sifilide secundare,stadiu secundar al sifilisului,secondary syphilis,syphilitic roseola,secondary stage syphilis
 Sifilis tertiar,guma sifilitica,sifilom tertiar,sifilis tardiv,tertiary syphilis,late syphilis,gummatous syphilis
 Silicoza,Silicoza acuta,Silicoza cronica,pneumoconioza cu siliciu,plaman de siliciu,fibroza pulmonara prin siliciu,silicosis,silica pneumoconiosis,silica dust lung disease,silicoza accelerata,silicoza rapida,silicoza severa precoce,acute silicosis,accelerated silicosis,acute silica pneumoconiosis,silicoza simpla cronica,silicoza nodulara,silicoza tardiva,chronic silicosis,simple chronic silicosis,nodular silicosis
@@ -4482,7 +4482,7 @@ Sindrom Cri du chat,sindrom de deletie 5p,plansul pisicii,deletie 5p,cri-du-chat
 Sindrom Crigler-Najjar tip I,deficit sever de glucuroniltransferaza,icter neonatal letal prin hiperbilirubinemie,boala Crigler-Najjar tip I,Crigler-Najjar syndrome type I,severe UDP-glucuronosyltransferase deficiency,Crigler-Najjar syndrome type 1
 Sindrom Crigler-Najjar tip II,deficit partial de glucuroniltransferaza,hiperbilirubinemie cu raspuns la fenobarbital,sindrom Arias,Crigler-Najjar syndrome type II,Arias syndrome,partial UDP-glucuronosyltransferase deficiency
 Sindrom Crouzon,disostoza craniofaciala,boala Crouzon,sinostoza craniofaciala,Crouzon syndrome,craniofacial dysostosis,Crouzon disease
-Sindrom Cushing,boala Cushing,hipercorticism,exces de cortizol,cushing's syndrome,cushing syndrome,hypercortisolism
+Sindrom Cushing,grasime pe burta,boala Cushing,hipercorticism,exces de cortizol,cushing's syndrome,cushing syndrome,hypercortisolism
 Sindrom Cushing iatrogen,sindrom Cushing indus de medicamente,hipercortisolism iatrogen,sindrom Cushing prin corticoterapie,iatrogenic Cushing syndrome,drug-induced Cushing syndrome,steroid-induced Cushing syndrome
 Sindrom Cushing subclinic,hipercortisolism subclinic,sindrom Cushing subclinic la incidentalom,hipercortisolism subclinic la incidentalom suprarenal,subclinical Cushing syndrome,subclinical hypercortisolism,preclinical Cushing syndrome
 Sindrom Dandy-Walker,malformatie Dandy-Walker,chist al vermisului cerebelos,hidrocefalie prin malformatie Dandy-Walker,Dandy-Walker syndrome,Dandy-Walker malformation,Dandy-Walker complex
@@ -4545,19 +4545,19 @@ Sindrom de hipoventilatie alveolara,hipoventilatie alveolara,hipoventilatie cent
 Sindrom de hipoventilatie centrala congenitala,boala Ondine,hipoventilatie alveolara centrala congenitala,hipoventilatie centrala congenitala,congenital central hypoventilation syndrome,Ondine curse,Ondine's curse
 Sindrom de hipoventilatie congenitala,hipoventilatie alveolara congenitala,boala blestemului Ondinei,sindrom Ondine,congenital central hypoventilation,Ondine curse syndrome,congenital alveolar hypoventilation of the newborn
 Sindrom de hipoventilatie la copil,hipoventilatie centrala la copil,hipoventilatie de somn pediatrica,sindrom de hipoventilatie pediatrica,pediatric hypoventilation syndrome,hypoventilation in children,childhood central hypoventilation
-Sindrom de iesire toracica,sindrom de apertura toracica,compresie neurovasculara toracica,sindrom de iesire toracica neurogen,thoracic outlet syndrome,TOS,neurogenic thoracic outlet syndrome
+Sindrom de iesire toracica,umar blocat,sindrom de apertura toracica,compresie neurovasculara toracica,sindrom de iesire toracica neurogen,thoracic outlet syndrome,TOS,neurogenic thoracic outlet syndrome
 Sindrom de iesire toracica arterial,sindrom de compresie a aperturii toracice,sindrom de iesire toracica vascular,compresie arteriala toracobrahiala,arterial thoracic outlet syndrome,thoracic outlet arterial compression,vascular thoracic outlet syndrome
 Sindrom de insensibilitate partiala la androgeni,insensibilitate partiala la androgeni,hermafroditism masculin incomplet,sindrom Reifenstein,partial androgen insensitivity syndrome,Reifenstein syndrome,mild androgen insensitivity syndrome
 Sindrom de insuficienta respiratorie,insuficienta pulmonara,sindrom de insuficienta ventilatorie,deficit ventilator global,respiratory insufficiency,respiratory failure syndrome,pulmonary insufficiency
 Sindrom de insuficienta respiratorie acuta la obez,hipoventilatie acuta la obez,detresa respiratorie la obez,insuficienta respiratorie acuta din obezitate,acute respiratory failure in obesity,acute hypoventilation in obesity,obesity-related acute respiratory failure
 Sindrom de insuficienta respiratorie cronica cu hipoxie,insuficienta respiratorie cronica hipoxemica,hipoxie cronica prin insuficienta respiratorie,hipoxemie cronica pulmonara,chronic hypoxaemic respiratory failure,chronic hypoxic respiratory failure,chronic pulmonary hypoxaemia
-Sindrom de intestin iritabil cu diaree,colon iritabil diareic,diaree functionala cu dureri abdominale,colon iritabil predominant diareic,irritable bowel syndrome diarrhea predominant,IBS diarrhea subtype,diarrhea-predominant IBS
-Sindrom de intestin iritabil postinfectios,colon iritabil postinfectios,IBS postinfectios,tulburare intestinala functionala postinfectioasa,post-infectious irritable bowel syndrome,postinfectious IBS,post-infectious functional bowel disorder
+Sindrom de intestin iritabil cu diaree,colon iritabil cu diaree,colon iritabil diareic,diaree functionala cu dureri abdominale,colon iritabil predominant diareic,irritable bowel syndrome diarrhea predominant,IBS diarrhea subtype,diarrhea-predominant IBS
+Sindrom de intestin iritabil postinfectios,colon iritabil postinfectie,colon iritabil postinfectios,IBS postinfectios,tulburare intestinala functionala postinfectioasa,post-infectious irritable bowel syndrome,postinfectious IBS,post-infectious functional bowel disorder
 Sindrom de intestin scurt,intestin scurt,rezectie intestinala masiva,insuficienta intestinala,short bowel syndrome,short gut syndrome,intestinal failure
 Sindrom de intestin scurt postoperator,insuficienta intestinala postchirurgicala,intestin scurt dupa rezectie,rezectie intestinala extinsa,postoperative short bowel syndrome,surgical short bowel syndrome,post-resection intestinal failure
 Sindrom de intoxicatie cu clor,pneumopatie prin clor,intoxicatie pulmonara cu clor,leziune pulmonara prin clor,chlorine inhalation injury,chlorine gas poisoning of the lung,chlorine-induced lung injury
 Sindrom de liza tumorala,liza tumorala,sindrom de liza tumorala acuta,liza tumorala acuta,tumor lysis syndrome,tumour lysis syndrome,acute tumor lysis,distrugere masiva de celule tumorale,sindrom de liza celulara tumorala,TLS
-Sindrom de malabsorbtie,malabsorbtie intestinala,malabsorbtie,absorbtie intestinala deficitara,malabsorption syndrome,intestinal malabsorption,malabsorption
+Sindrom de malabsorbtie,mananca si slabeste,malabsorbtie intestinala,malabsorbtie,absorbtie intestinala deficitara,malabsorption syndrome,intestinal malabsorption,malabsorption
 Sindrom de ovar remanent,ovar remanent,sindrom ovarian dupa histerectomie,ovar restant dupa histerectomie,ovarian remnant syndrome,retained ovary syndrome,ovarian remnant after hysterectomy
 Sindrom de pacemaker,sindromul stimulatorului cardiac,sindrom postimplantare pacemaker,disincronie atrioventriculara prin pacing,pacemaker syndrome,pacemaker-related syndrome,AV dyssynchrony syndrome
 Sindrom de piele arzanda,boala cu piele arzanda,sindromul pielii care arde,disestezie cutanata arzanda,burning skin syndrome,burning skin,scalp dysesthesia
@@ -4898,7 +4898,7 @@ Sindromul intestinului iritabil,colon iritabil,sindrom de colon iritabil,colopat
 Sindromul oboselii cronice,oboseala cronica,sindrom de oboseala cronica,epuizare cronica,chronic fatigue syndrome,chronic fatigue,persistent fatigue
 Sindromul ovarelor polichistice,chisturi la ovare,ovare polichistice,ovar polichistic,sindrom Stein-Leventhal,polycystic ovary syndrome,pcos,polycystic ovaries
 Sindromul persoanei rigide,sindromul omului rigid,boala Moersch-Woltman,sindrom de rigiditate musculara,stiff person syndrome,Moersch-Woltman syndrome,stiff man syndrome
-Sindromul picioarelor nelinistite,tulburare de miscare periodica a membrelor,neliniste in picioare seara,disestezie nocturna a membrelor,restless legs syndrome,willis-ekbom disease,nocturnal leg restlessness,boala Willis-Ekbom,sindrom de picioare nelinistite,neliniste a picioarelor,Ekbom syndrome
+Sindromul picioarelor nelinistite,picioare nelinistite,tulburare de miscare periodica a membrelor,neliniste in picioare seara,disestezie nocturna a membrelor,restless legs syndrome,willis-ekbom disease,nocturnal leg restlessness,boala Willis-Ekbom,sindrom de picioare nelinistite,neliniste a picioarelor,Ekbom syndrome
 Sindromul pielii oparite,dermatita exfoliativa stafilococica,sindromul Ritter,necroliza epidermica toxica stafilococica,staphylococcal scalded skin syndrome,Ritter syndrome,SSSS
 Sindromul scalenului anterior,sindrom de scalen,compresie prin muschiul scalen anterior,sindrom de compresie scalenica,scalenus anticus syndrome,anterior scalene syndrome,scalene syndrome
 Sindromul sellei turcesti goale,sella turcica goala,sella turcica partial goala,sella turcica goala primara,empty sella syndrome,empty sella turcica,primary empty sella syndrome
@@ -5012,7 +5012,7 @@ Stenoza supravalvulara aortica,obstructie supravalvulara aortica,stenoza aortica
 Stenoza traheala,ingustare traheala,stenoza de trahee,strictura traheala,tracheal stenosis,tracheal narrowing,tracheal stricture
 Stenoza traheala posttraheostomie,stenoza dupa traheostomie,stenoza traheala postintubatie,stenoza traheala iatrogena,post-tracheostomy tracheal stenosis,post-intubation tracheal stenosis,iatrogenic tracheal stenosis
 Stenoza tricuspidiana,stenoza valvei tricuspide,ingustarea valvei tricuspide,stenoza tricuspida,tricuspid stenosis,tricuspid valve stenosis,narrowing of the tricuspid valve
-Stomatita,inflamatia mucoasei bucale,stomatita aftoasa,ulceratii bucale,stomatitis,oral mucositis,mouth inflammation
+Stomatita,buba in gura,inflamatia mucoasei bucale,stomatita aftoasa,ulceratii bucale,stomatitis,oral mucositis,mouth inflammation
 Stomatita aftoasa recidivanta,afta recidivanta,stomatita aftoasa recurenta,ulceratii aftoase recidivante,recurrent aphthous stomatitis,recurrent aphthous ulcers,recurrent oral aphthae
 Stomatita gangrenoasa,stomatita necrozanta,noma,gangrena orala,gangrenous stomatitis,necrotizing stomatitis,cancrum oris
 Stomatita nicotinica,stomatita fumatorului,keratoza nicotinica,leziune bucala la fumatori,nicotinic stomatitis,smoker's palate,nicotine stomatitis
@@ -5061,7 +5061,7 @@ Tendinita cuadricipitala,tendinopatia cvadricipitala,tendinita tendonului cvadri
 Tendinita peroneala,tendinita peronierilor,tendinopatia peroneala,tendinita peroniera,peroneal tendinitis,peroneal tendinopathy,fibular tendinitis
 Tendinita rotuliana,genunchiul saritorului,tendinopatia rotuliana,tendinita ligamentului rotulian,patellar tendinitis,jumper's knee,patellar tendinopathy
 Tendinita tibialului posterior,tendinopatia tibialului posterior,tendinita tendonului tibial posterior,disfunctia tendonului tibial posterior,posterior tibial tendon dysfunction,posterior tibial tendinitis,tibialis posterior tendinopathy
-Teniaza,panglica,tenie,infestare cu tenie,cestodoza,tapeworm infection,taeniasis,tapeworm
+Teniaza,vierme lat,panglica,tenie,infestare cu tenie,cestodoza,tapeworm infection,taeniasis,tapeworm
 Teniaza cu Taenia saginata,infestare cu tenia bovina,teniaza inerma,tenioza saginata,Taenia saginata infection,beef tapeworm infection,unarmed tapeworm infection
 Teniaza cu Taenia solium,infestare cu tenia porcului,teniaza armata,tenioza solium,Taenia solium infection,pork tapeworm infection,armed tapeworm infection
 Tenosinovita,tendosinovita,inflamatia tecii tendonului,tenosinovita acuta,tenosynovitis,tendon sheath inflammation,inflammation of the tendon sheath
@@ -5116,7 +5116,7 @@ Torsiune de chist ovarian,torsiune a chistului ovarian,chist ovarian torsionat,t
 Torsiune de hidatida,torsiune a hidatidei Morgagni,torsiune de apendice testicular,sindrom de torsiune a hidatidei,torsion of the testicular appendix,appendix testis torsion,hydatid of Morgagni torsion
 Torsiune de splina,torsiune splenica,volvulus splenic,intoarcere a splinei pe pedicul,splenic torsion,torsion of the spleen,wandering spleen torsion
 Torsiune de testicul,torsiune testiculara,rasucire a testiculului,torsiune de cordon spermatic,testicular torsion,torsion of the testis,spermatic cord torsion
-Torticolis,gat stramb,torticolis muscular,torticolis dobandit,torticollis,twisted neck,acquired torticollis
+Torticolis,gat intepenit,gat stramb,torticolis muscular,torticolis dobandit,torticollis,twisted neck,acquired torticollis
 Torticolis congenital,torticolis congenital muscular,torticolis prin fibrom al sternocleidomastoidianului,torticolis congenital osos,congenital torticollis,congenital muscular torticollis,sternocleidomastoid torticollis
 Toxiinfectie alimentara,intoxicatie alimentara,otravire alimentara,toxiinfectii alimentare,food poisoning,foodborne illness,food intoxication
 Toxocaroza,larva migrans viscerala,sindrom de larva migrans visceral,toxocaroza viscerala,toxocariasis,visceral larva migrans,Toxocara infection,infestare cu Toxocara,boala larvei migratorii viscerale
@@ -5233,7 +5233,7 @@ Trombofilie prin mutatia protrombina G20210A,trombofilie prin protrombina mutata
 Tromboflebita,tromboflebita superficiala,tromboza venoasa superficiala,inflamatie venoasa cu cheag,thrombophlebitis,superficial thrombophlebitis,phlebothrombosis
 Tromboflebita migratorie,tromboflebita migrans,sindrom Trousseau,tromboflebita recidivanta migratorie,migratory thrombophlebitis,thrombophlebitis migrans,Trousseau syndrome
 Tromboflebita pelvina,tromboza venoasa pelvina,tromboflebita pelvina puerperala,tromboflebita de vena ovariana,pelvic thrombophlebitis,pelvic vein thrombosis,puerperal pelvic thrombophlebitis
-Tromboza de artera cerebrala,tromboza arteriala cerebrala,ocluzie arteriala cerebrala,tromboza de artera cerebrala medie,cerebral artery thrombosis,intracranial artery thrombosis,thrombotic occlusion of cerebral artery,tromboza a unei artere cerebrale,ocluzie trombotica cerebrala,thrombosis of cerebral artery,cerebral arterial occlusion
+Tromboza de artera cerebrala,dambla,tromboza arteriala cerebrala,ocluzie arteriala cerebrala,tromboza de artera cerebrala medie,cerebral artery thrombosis,intracranial artery thrombosis,thrombotic occlusion of cerebral artery,tromboza a unei artere cerebrale,ocluzie trombotica cerebrala,thrombosis of cerebral artery,cerebral arterial occlusion
 Tromboza de sinus cavernos,tromboflebita sinusului cavernos,sindrom de sinus cavernos trombozat,tromboza septica de sinus cavernos,cavernous sinus thrombosis,thrombosis of cavernous sinus,cavernous sinus thrombophlebitis,tromboza sinusului cavernos,tromboflebita de sinus cavernos,sindrom de sinus cavernos septic,thrombosis of the cavernous sinus,septic cavernous sinus thrombosis
 Tromboza de sinus venos cerebral,tromboza sinusurilor venoase cerebrale,tromboza venoasa cerebrala,tromboflebita cerebrala,cerebral venous sinus thrombosis,cerebral venous thrombosis,sinus thrombosis of the brain,tromboza de sinus cerebral,CVST
 Tromboza de vena cava,tromboza venei cave,tromboza de vena cava inferioara,tromboza cavei,vena cava thrombosis,inferior vena cava thrombosis,caval thrombosis
@@ -5246,13 +5246,13 @@ Tromboza de ventricul stang,tromboza ventriculara stanga,cheag in ventriculul st
 Tromboza intracardiaca,tromboza intracavitara,cheag intracardiac,tromboza in cavitatile cardiace,intracardiac thrombosis,intracardiac thrombus,cardiac chamber thrombosis
 Tromboza puerperala,tromboza in lauzie,tromboza postpartum,tromboembolism puerperal,puerperal thrombosis,postpartum thrombosis,puerperal thromboembolism
 Tromboza venoasa a membrelor superioare,tromboza venoasa profunda a bratului,tromboza de vena subclavie,tromboza axilo-subclaviculara,upper extremity deep vein thrombosis,upper limb venous thrombosis,arm vein thrombosis
-Tromboza venoasa profunda,cheag la picior,tromboza,cheag de sange in vene,trombi venosi,deep vein thrombosis,thrombosis,blood clot in vein
+Tromboza venoasa profunda,cheag la vena,cheag la picior,tromboza,cheag de sange in vene,trombi venosi,deep vein thrombosis,thrombosis,blood clot in vein
 Trompa Eustachio deschisa,trompa patuloasa,autofonie,sindrom de trompa permeabila,patulous eustachian tube,patulous eustachian tube dysfunction,abnormally patent eustachian tube
 Truncus arteriosus comun,trunchi arterial comun,truncus arteriosus persistent,canal arterial comun,common arterial trunk,persistent truncus arteriosus,truncus arteriosus communis
 Tuberculid cutanat,tuberculide cutanate,eruptie tuberculidica,tuberculide,cutaneous tuberculid,tuberculides,tuberculous skin eruption
 Tuberculom cerebral,tuberculom al sistemului nervos,granulom tuberculos cerebral,tuberculoza cerebrala,tuberculoma of brain,cerebral tuberculoma,central nervous system tuberculoma
 Tuberculom pulmonar,nodul tuberculos pulmonar,granulom tuberculos pulmonar,tuberculom al plamanului,pulmonary tuberculoma,tuberculoma of lung,lung tuberculoma
-Tuberculoza,tuberculoza pulmonara,ftizie,boala Koch,tuberculosis,pulmonary tuberculosis,koch's disease
+Tuberculoza,oftica,tuberculoza pulmonara,ftizie,boala Koch,tuberculosis,pulmonary tuberculosis,koch's disease
 Tuberculoza asociata HIV,co-infectie TB-HIV,tuberculoza la pacientul cu HIV,tuberculoza si SIDA,HIV-associated tuberculosis,TB-HIV co-infection,tuberculosis in HIV infection
 Tuberculoza bronhica,tuberculoza traheobronsica,leziuni endobronsice tuberculoase,tuberculoza cailor respiratorii,bronchial tuberculosis,tracheobronchial tuberculosis,endobronchial tuberculosis
 Tuberculoza congenitala,TB congenital,infectie tuberculoasa perinatala,tuberculoza la nou-nascut,congenital tuberculosis,perinatal tuberculosis,tuberculosis of the newborn
@@ -5296,7 +5296,7 @@ Tulburare de comportament alimentar nocturn,alimentatie nocturna patologica,hipe
 Tulburare de comportament in somnul REM,tulburare de comportament in faza REM,actiune a viselor in somn,miscari violente in somnul REM,rem sleep behavior disorder,rem sleep behaviour disorder,rapid eye movement sleep behaviour disorder,comportament motor in somnul REM,tulburare de comportament in somnul paradoxal,RBD
 Tulburare de conduita,tulburare de comportament la copil,comportament antisocial la copil,tulburare de conduita la adolescent,conduct disorder,childhood conduct disorder,antisocial behaviour disorder
 Tulburare de control al impulsurilor,tulburare de impulsivitate,deficit de autocontrol,impulsivitate patologica,impulse control disorder,impulse dyscontrol,disruptive impulse-control disorder
-Tulburare de conversie,tulburare conversiva,isterie de conversie,simptome neurologice functionale,conversion disorder,functional neurological symptom disorder,hysterical conversion
+Tulburare de conversie,isterie,tulburare conversiva,isterie de conversie,simptome neurologice functionale,conversion disorder,functional neurological symptom disorder,hysterical conversion
 Tulburare de durere somatoforma,durere somatoforma persistenta,tulburare somatoforma dureroasa,durere psihogena,somatoform pain disorder,persistent somatoform pain disorder,psychogenic pain disorder
 Tulburare de excitare,tulburare de excitare sexuala feminina,lipsa excitarii sexuale,insuficienta de lubrifiere,sexual arousal disorder,female sexual arousal disorder,lack of sexual arousal
 Tulburare de identitate de gen,disforie de gen,neconcordanta de gen,identitate de gen incongruenta,gender identity disorder,gender dysphoria,gender incongruence
@@ -5320,7 +5320,7 @@ Tulburare halucinatorie,halucinoza organica,tulburare cu halucinatii persistente
 Tulburare obsesiv-compulsiva,obsesie compulsie,tulburare obsesiva,nevroza obsesiva,obsessive-compulsive disorder,ocd,anancastic disorder
 Tulburare organica afectiva,tulburare afectiva organica,depresie organica,manie organica,organic affective disorder,organic mood disorder,mood disorder due to brain disease
 Tulburare organica de personalitate,modificare organica de personalitate,personalitate modificata organic,sindrom organic de personalitate,organic personality disorder,organic personality change,personality change due to brain disease
-Tulburare psihotica acuta,psihoza acuta,psihoza acuta polimorfa,bouffee delirante,acute psychotic disorder,acute polymorphic psychosis,acute delusional psychosis
+Tulburare psihotica acuta,criza de nebunie,psihoza acuta,psihoza acuta polimorfa,bouffee delirante,acute psychotic disorder,acute polymorphic psychosis,acute delusional psychosis
 Tulburare reactiva de atasament,tulburare de atasament reactiv,atasament reactiv patologic,retragere emotionala la copil,reactive attachment disorder of infancy,reactive attachment disorder,attachment disorder of infancy
 Tulburare schizoafectiva,psihoza schizoafectiva,schizofrenie cu simptome afective,schizoafectivitate,schizoaffective disorder,schizoaffective psychosis,schizoaffective schizophrenia
 Tulburare schizotipala,schizotipie,tulburare de tip schizotipal,dezorganizare schizotipala,schizotypal disorder,schizotypal personality disorder,schizotypy
@@ -5374,7 +5374,7 @@ Ulcer de decubit infectat,escara infectata,ulcer de presiune infectat,plaga de d
 Ulcer duodenal,ulcer de duoden,ulcer duodenal cronic,ulcer bulbar,duodenal ulcer,duodenal peptic ulcer,ulcer of the duodenum
 Ulcer gastric,rana la stomac,ulcer de stomac,ulcer peptic,ulcer gastroduodenal,gastric ulcer,peptic ulcer,stomach ulcer
 Ulcer neuropatic,ulcer trophoneurotic,ulcer de origine nervoasa,ulcerare neuropatica,neuropathic ulcer,trophic ulcer,trophoneurotic ulcer
-Ulcere ale picioarelor,rana la picior,ulcer varicos,ulcer de gamba,ulcer venos,leg ulcer,venous leg ulcer,varicose ulcer
+Ulcere ale picioarelor,rane la picioare,rani la picioare,rana la picior,ulcer varicos,ulcer de gamba,ulcer venos,leg ulcer,venous leg ulcer,varicose ulcer
 Ulcere ale pielii,ulceratii cutanate,ulcer cutanat,plaga deschisa a pielii,skin ulcer,cutaneous ulceration,skin ulceration
 Ulcerul Buruli,ulcer Buruli,infectie cu Mycobacterium ulcerans,ulcer necrozant tropical,Buruli ulcer,Mycobacterium ulcerans infection,Bairnsdale ulcer
 Unghii fragile,unghii casante,onicoschizie,unghii care se sparg,brittle nails,fragile nails,onychoschizia
@@ -5403,10 +5403,10 @@ Vaginita bacteriana,vaginoza bacteriana,infectie cu Gardnerella vaginalis,vagini
 Valve uretrale posterioare,valve ale uretrei posterioare,obstructie prin valve uretrale,valve uretrale congenitale,posterior urethral valves,congenital urethral valves,urethral valve obstruction
 Valvulita,inflamatia valvelor cardiace,valvulita cardiaca,inflamatie valvulara cardiaca,valvulitis,cardiac valve inflammation,inflammation of the heart valves
 Valvulopatie cardiaca,boala valvulara cardiaca,valvulopatie,afectiune a valvelor cardiace,valvular heart disease,valvular disease of the heart,cardiac valve disease
-Varice,vene varicoase,varicoza,dilatatii venoase,varicose veins,varicosities,varicose vein disease
+Varice,vine vinete,vene varicoase,varicoza,dilatatii venoase,varicose veins,varicosities,varicose vein disease
 Varice esofagiene,varice de esofag,dilatatii venoase esofagiene,varice esofagiene si gastrice,esophageal varices,oesophageal varices,esophageal varicose veins,varice esofagiene hemoragice,varice esofagiene sangerande,bleeding esophageal varices,esophageal variceal hemorrhage
 Varice gastrice,varice gastrice hemoragice,varice de stomac,varice gastrice sangerande,gastric varices,bleeding gastric varices,gastric variceal hemorrhage
-Varicela,varsat de vant,pojar de apa,infectie cu virus varicelo-zosterian,chickenpox,varicella,chicken pox
+Varicela,varsat,varsat de vant,pojar de apa,infectie cu virus varicelo-zosterian,chickenpox,varicella,chicken pox
 Varicela congenitala,sindromul varicelei congenitale,varicela neonatala,varicela la nou-nascut,congenital varicella syndrome,congenital varicella,neonatal varicella
 Varicela progresiva,varicela hemoragica,varicela maligna,varicela buloasa,progressive varicella,hemorrhagic varicella,malignant varicella
 Varicocel,dilatatie venoasa testiculara,varice testiculare,varice ale cordonului spermatic,varicocele,testicular varicose veins,pampiniform plexus varicosity

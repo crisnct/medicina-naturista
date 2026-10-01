@@ -1,0 +1,233 @@
+# Denumirile populare pe care LE-AI SELECTAT (X). Vor fi adaugate in dictionar.
+# Un rand = o denumire. Numarul este doar pentru referinta.
+#
+   2 Accident vascular cerebral | apoplexie
+   3 Accident vascular cerebral | avc
+   4 Acnee | cosuri
+   5 Alcoolism | betia
+   6 Alcoolism | betie
+   7 Alopecie | chelia
+   8 Ambliopie | ochi lenes
+   9 Artrita | dureri de oase
+  10 Artrita reumatoida | boala de oase
+  11 Artroza | uzura incheieturilor
+  12 Ascaridioza | limbrici
+  13 Atac de panica | criza de nervi
+  14 Avitaminoza | lipsa de vitamine
+  15 Blefarita | pleoape inflamate
+  16 Boala afectiva sezoniera | depresie de iarna
+  17 Boala celiaca | boala glutenului
+  18 Boala coronavirus 2019 | covid
+  19 Boala coronavirus 2019 | coronavirus
+  20 Boala Parkinson | parkinson
+  21 Boli autoimune | boala autoimuna
+  22 Bromhidroza | miros greu al corpului
+  23 Bruxism | scrasnit din dinti
+  24 Bufeuri | valuri de caldura
+  25 Burnout | epuizare la locul de munca
+  26 Calculi prostatici | piatra la prostata
+  27 Calculi renali | pietre la rinichi
+  28 Calculi renali | piatra la rinichi
+  29 Cardiomegalie | inima marita
+  30 Carie dentara | masea stricata
+  31 Carie dentara | carii
+  32 Cetoacidoza diabetica | coma diabetica
+  33 Ciroza hepatica | ciroza
+  34 Coagulare intravasculara diseminata | cheaguri in sange
+  35 Colangita | boala de fiere
+  36 Colestaza | fiere infundata
+  37 Colesterol crescut | colesterol mare
+  38 Colica renala | durere de rinichi
+  39 Colici abdominali | colici
+  40 Conjunctivita | ochi rosii
+  41 Constipatie | scaun tare
+  42 Convulsii | spasme
+  43 Cretinism | cretin
+  44 Dactilita | deget umflat
+  45 Decolament vitrean | ceata in ochi
+  46 Deformare de degete | degete strambe
+  47 Delirium tremens | delirul betivilor
+  48 Dementa | ramolire
+  49 Dermatilomanie | mananca pielea
+  50 Dermatita | rosata
+  51 Dermatita seboreica faciala | pata pe fata
+  52 Diplopie | vad dublu
+  53 Disfunctie erectila | impotenta
+  54 Dispnee | lipsa de aer
+  55 Distimie | stare de tristete
+  56 Echimoza | vanatai
+  57 Edem | umflatura
+  58 Edem | umflaturi
+  59 Efelide | pistrui
+  60 Endometrioza | dureri de femeie
+  61 Eructatii | ragait
+  62 Faringita | durere in gat
+  63 Faringita | usturime in gat
+  64 Faringoamigdalita | amigdale umflate
+  65 Febra | friguri
+  66 Frigiditate | raceala la femei
+  67 Furuncul | buba rea
+  68 Furuncul | buba coapta
+  69 Gangrena diabetica | necroza
+  70 Gangrena gazoasa | gangrena umflata
+  71 Giardiaza | lambliaza
+  72 Ginecomastie | sani de barbat
+  73 Glaucom | piatra la ochi
+  74 Globulus faringian | nod in gat
+  75 Glomerulonefrita | rinichi inflamat
+  76 Greata | greturi
+  77 Greata | scarba
+  78 Gusa | umflatura la gat
+  79 Halitoza | miros urat de gura
+  80 Hematurie | pisoare cu sange
+  81 Hematurie | sange in urina
+  82 Hemocromatoza | boala bronzata
+  83 Hemoglobinurie | urina neagra
+  84 Hemoragie digestiva inferioara | sangerare pe la fund
+  85 Hepatomegalie | ficat marit
+  86 Hepatosplenomegalie | ficat si splina marite
+  87 Hernie de disc | discul rupt
+  88 Hernie diafragmatica | hernie la piept
+  89 Hernie hiatala | hernie la stomac
+  90 Hernie inghinala | hernie la vintre
+  91 Hidronefroza | rinichi umflat cu apa
+  92 Hidronefroza | apa la rinichi
+  93 Hipercalcemie | prea mult calcar in sange
+  94 Hiperglicemie | zahar mare
+  95 Hiperuricemie | acid uric mare
+  96 Hipotensiune arteriala | tensiune mica
+  97 Hipotensiune arteriala | presiune mica
+  98 Hipotensiune ortostatica | ameata la sculare
+  99 Hipotiroidism | tiroida lenesa
+ 100 Icter | galbenare
+ 101 Icter | galbeaza
+ 102 Infarct miocardic | atac de cord
+ 103 Infarct miocardic | infarct
+ 104 Infarct miocardic | criza de cord
+ 105 Infarct miocardic | infarct la inima
+ 106 Infarct pulmonar | cheag la plaman
+ 107 Intoxicatie | otravire
+ 108 Intoxicatie cu ciuperci | otravire cu ciuperci
+ 109 Ischemie | sange oprit
+ 110 Laringita | gat infundat
+ 111 Laringita | raguseala
+ 112 Leishmanioza cutanata | basicile
+ 113 Leucemie | cancer de sange
+ 114 Leucoree | poale albe
+ 115 Limfadenopatie | ganglioni umflati
+ 116 Lipom | buba de grasime
+ 117 Lipom | umflatura de grasime
+ 118 Litiaza biliara | pietre la fiere
+ 119 Litiaza biliara | piatra la fiere
+ 120 Litiaza de ureter | nisip la rinichi
+ 121 Lombalgie | dureri de spate
+ 122 Lombalgie | junghi la spate
+ 123 Lombalgie | durere de spate
+ 124 Lombalgie | durere de mijloc
+ 125 Malarie | frigurile
+ 126 Malnutritie | subnutritie
+ 127 Menstruatii neregulate | menstre neregulate
+ 128 MERS | virusul camilei
+ 129 Miopatie | slabiciune musculara
+ 130 Mononucleoza infectioasa | boala sarutului
+ 131 Negi | neg
+ 132 Neoplazie intraepiteliala cervicala | leziune precanceroasa
+ 133 Neurinom acustic | tumoare pe nervul auzului
+ 134 Neuroblastom | tumoare pe nervi
+ 135 Neuropatie diabetica | amorteala la picioare
+ 136 Neuropatie diabetica | nerv stricat
+ 137 Neuropatie periferica | amorteala
+ 138 Nevrita | nerv inflamat
+ 139 Noduli tiroidieni | noduri la tiroida
+ 140 Noduli tiroidieni | nod la tiroida
+ 141 Osteoporoza | oase fragile
+ 142 Otita externa circumscrisa | furuncul la ureche
+ 143 Otita medie | scurgere la ureche
+ 144 Otomicoza | ciuperca la ureche
+ 145 Ototoxicitate | medicament care surzeste
+ 146 Oxiuroza | viermi la cur
+ 147 Paralizie intestinala | intestin lenes
+ 148 Parazitoze | viermi
+ 149 Parazitoze intestinale | viermi la stomac
+ 150 Pediculoza | paduchi
+ 151 Peritonita acuta generalizata | burta inflamata
+ 152 Persistenta canalului arterial | gaura la inima
+ 153 Picior plat | talpa plata
+ 154 Piele grasa | ten gras
+ 155 Pielonefrita | rinichi bolnav
+ 156 Pionefroza | puroi la rinichi
+ 157 Pitiriazis versicolor | ciuperca pe piele
+ 158 Psihoza | nebunie
+ 159 Psihoza | boala mintii
+ 160 Pulpita dentara | durere de masea
+ 161 Rabie | turbare
+ 162 Rabie | boala turbarii
+ 163 Raceala | guturai
+ 164 Radiculopatie | durere de nerv
+ 165 Radiculopatie cervicala | junghi la ceafa
+ 166 Radiculopatie lombara | junghi la mijloc
+ 167 Rahisis | cocoasa
+ 168 Rahitism | oase moi
+ 169 Rau de miscare | rau de masina
+ 170 Rau de miscare | rau de drum
+ 171 Rau de miscare | boala masinii
+ 172 Rau de miscare | rau de mare
+ 173 Retard mintal usor | incet la minte
+ 174 Retrognatism | barbie lasata
+ 175 Rinita | nas infundat
+ 176 Rinita alergica | febra fanului
+ 177 Rinita alergica sezoniera | febra de fan
+ 178 Rinita atrofica | nas uscat
+ 179 Rosacea fulminans | fata rosie
+ 180 Rosacea fulminans | roseata pe fata
+ 181 Rubeola | pojar molatic
+ 182 Rubeola | pojarul german
+ 183 Sacroiliita | junghi la fund
+ 184 Salpingita | infectie la trompe
+ 185 Sarcoidoza | boala cu noduli
+ 186 Sarcoidoza ganglionara | ganglioni mariti
+ 187 Sarcoidoza hepatica | ficat cu noduli
+ 188 Scabie | boala de mancarime
+ 189 Scabie | raia
+ 190 Scabie | raie
+ 191 Schizofrenie | dementa precoce
+ 192 Sciatica | junghi la sold
+ 193 Sciatica | durere de sciatic
+ 194 Scleroza multipla | scleroza
+ 195 Scolioza | coloana stramba
+ 196 Septicemie | otrava in sange
+ 197 Sfarcuri dureroase | sfarcuri crapate
+ 198 Sifilid cutanat | bube sifilitice
+ 199 Sifilis | boala frantuzeasca
+ 200 Sincopa | lesin
+ 201 Sindrom Cushing | grasime pe burta
+ 202 Sindrom de iesire toracica | umar blocat
+ 203 Sindrom de intestin iritabil cu diaree | colon iritabil cu diaree
+ 204 Sindrom de intestin iritabil postinfectios | colon iritabil postinfectie
+ 205 Sindrom de malabsorbtie | mananca si slabeste
+ 206 Sindrom post-COVID-19 | COVID
+ 208 Sindromul intestinului iritabil | colon iritabil
+ 209 Sindromul ovarelor polichistice | chisturi la ovare
+ 210 Sindromul picioarelor nelinistite | picioare nelinistite
+ 211 Somnambulism | boala de luna
+ 212 Steatoza hepatica | ficat gras
+ 213 Stomatita | buba in gura
+ 214 Strabism | ochi stramb
+ 215 Strabism | ochi incrucisati
+ 216 Surditate | surzenie
+ 217 Teniaza | vierme lat
+ 218 Tinea cruris | pecingine
+ 219 Tinitus | tiuit in urechi
+ 220 Torticolis | gat intepenit
+ 221 Toxoplasmoza | boala de la pisica
+ 222 Toxoplasmoza | boala pisicii
+ 223 Tuberculoza | oftica
+ 224 Tulburare de conversie | isterie
+ 225 Tulburare de identitate disociativa | personalitate multipla
+ 226 Tuse convulsiva | tuse magareasca
+ 227 Ulcere ale picioarelor | rani la picioare
+ 228 Ulcere ale picioarelor | rana la picior
+ 229 Varicela | varsat
+ 230 Vertij | ameteala
+ 231 Vitiligo | pete albe
+ 232 X 641 Pielonefrita | infectie la rinichi

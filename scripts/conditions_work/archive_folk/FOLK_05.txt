@@ -1,0 +1,48 @@
+Diabet zaharat|zahar
+Diabet zaharat|boala de zahar
+Diabet zaharat tip 1|diabet de copil
+Diabet zaharat tip 2 cu complicatii|diabet de batran
+Diaree|scurgeala
+Diaree|matreata
+Diaree secretorie|diaree apoasa
+Difterie|gusa
+Dischinezie biliara|piatra la fiere
+Disfunctie erectila|impotenta
+Dismenoree|dureri de ciclu
+Dispepsie|arsura la stomac
+Dispnee|naduful
+Dispnee|suflu scurt
+Distimie|stare de tristete
+Diplopie|vad dublu
+Dizenterie amibiana|sange cu matreata
+Ectima|buba rea
+Eczema|bube
+Efelide|pistrui
+Edem|umflaturi
+Edem pulmonar|apa la plamani
+Encefalita letargica|boala somnului
+Encopreza|scapatul in izmene
+Endometrioza|dureri de femeie
+Enurezis|udarea patului
+Entorsa|suceala
+Entorsa|intepatura de picior
+Epicondilita|cotul tenismenului
+Epididimita|boala de soldat
+Epilepsie|boala neagra
+Epilepsie|boala copiilor
+Erizipel|roseata
+Eructatii|ragait
+Escara|rana de la spital
+Esofagita de reflux|arsura
+Esotropie|ochi incrucisati
+Exoftalmie|ochi iesiti
+Exotropie|ochi in afara
+Extrofie de vezica urinara|besica pe afara
+Faringita|usturime in gat
+Faringoamigdalita|amigdale umflate
+Febra|friguri
+Febra|temperatura marita
+Febra reumatica|reumatism
+Febra tifoida|lingoare
+Febra tifoida|lungoare
+Fibrilatie atriala paroxistica|batai neregulate
