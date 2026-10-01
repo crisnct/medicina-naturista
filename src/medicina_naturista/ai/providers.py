@@ -27,7 +27,7 @@ class ProviderConfig:
     api_key_required: bool
     json_format: JsonFormat
     send_store: bool
-    max_context_chars: int | None
+    max_context_chars: int
     max_output_tokens: int
     read_timeout_seconds: int
     stream: bool = False
@@ -57,7 +57,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             api_key_required=True,
             json_format="text_format",
             send_store=True,
-            max_context_chars=None,
+            max_context_chars=settings.xai_max_context_chars,
             **common,
         )
     # DeepSeek's own API documents `text.format` and `reasoning.effort`, and
