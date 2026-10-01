@@ -1,0 +1,246 @@
+Abces de glanda Bartholin,abces bartolinian,abces al glandei Bartholin,colectie purulenta Bartholin,Bartholin gland abscess,Bartholin abscess,abscess of Bartholin gland
+Abces tubo-ovarian,abces tuboovarian,abces anexial,abces al trompei si ovarului,tubo-ovarian abscess,adnexal abscess,ovarian tubal abscess
+Adenoza vaginala,glande endocervicale in vagin,metaplazie vaginala,adenoza vaginala congenitala,vaginal adenosis,adenosis of the vagina,DES-related vaginal adenosis
+Agenezie renala,ageneza renala,absenta congenitala a rinichiului,lipsa congenitala a rinichiului,renal agenesis,congenital absence of kidney,absent kidney
+Aloimunizare trombocitara fetala,trombocitopenie aloimuna fetala,incompatibilitate plachetara materno-fetala,aloimunizare trombocitara materna,fetomaternal alloimmune thrombocytopenia,neonatal alloimmune thrombocytopenia,FMAIT
+Amiloidoza renala,amiloidoza rinichiului,nefropatie amiloida,depunere renala de amiloid,renal amyloidosis,amyloid kidney disease,amyloid nephropathy
+Andropauza,hipogonadism tardiv,deficit de testosteron la varstnic,hipoandrogenism tardiv,andropause,late-onset hypogonadism,age-related testosterone deficiency
+Anemie de sarcina,anemie gestationala,anemie la gravida,anemie de sarcina prin deficit de fier,anemia of pregnancy,gestational anemia,pregnancy anemia
+Anovulatie,absenta ovulatiei,cicluri anovulatorii,lipsa ovulatiei,anovulation,absence of ovulation,anovulatory cycles
+Aspermie,absenta ejacularii,lipsa ejaculatului,ejaculare absenta,aspermia,absence of ejaculate,failure of ejaculation
+Astenospermie,asthenozoospermie,motilitate scazuta a spermatozoizilor,spermatozoizi cu mobilitate redusa,asthenospermia,asthenozoospermia,reduced sperm motility
+Atonie uterina,uter hipoton post-partum,atonie uterina postpartum,hipotonie uterina dupa nastere,uterine atony,postpartum uterine atony,uterine hypotony after delivery
+Atrofie endometriala,endometru atrofic,atrofie a endometrului,endometru subtire,endometrial atrophy,atrophic endometrium,thin endometrium
+Atrofie vaginala,atrofie a mucoasei vaginale,vaginita atrofica,uscaciune vaginala,vaginal atrophy,atrophic vaginitis,genitourinary syndrome of menopause
+Atrofie vulvara,atrofie a vulvei,vulvita atrofica,distrofie vulvara,vulvar atrophy,atrophic vulvitis,vulvar dystrophy
+Avort amenintator,amenintare de avort,avort in amenintare,sangerare de avort amenintator,threatened abortion,threatened miscarriage,threatened pregnancy loss
+Avort habitual,pierderi de sarcina recurente,avort recurent,avort spontan repetat,recurrent miscarriage,habitual abortion,recurrent pregnancy loss
+Avort septic,avort infectat,avort cu infectie,sepsis postabortiv,septic abortion,infected abortion,postabortion sepsis
+Azoospermie,absenta spermatozoizilor,azoospermie secretorie,lipsa spermatozoizilor in ejaculat,azoospermia,absence of sperm in semen,no sperm in ejaculate
+Balanita,inflamatia glandului,balanita acuta,infectie a glandului penian,balanitis,inflammation of the glans penis,glans penis inflammation
+Balanita candidozica,balanita cu Candida,balanita micotica,balanita prin drojdie,candidal balanitis,candida balanitis,monilial balanitis
+Balanita iritativa,balanita de contact,dermatita glandulara,iritatie a glandului,irritant balanitis,contact balanitis,balanitis due to irritation
+Balanopostita,balanopostita acuta,inflamatia glandului si preputului,infectie balanopreputiala,balanoposthitis,inflammation of the glans and prepuce,balanitis with posthitis
+Bartolinita,inflamatia glandei Bartholin,bartolita,infectie a glandei Bartholin,bartholinitis,Bartholin gland infection,inflammation of Bartholin gland
+Bazin strimt,disproportie fetopelvina,disproportie cefalopelvina,pelvis ingust,contracted pelvis,cephalopelvic disproportion,fetopelvic disproportion
+Boala cu depozite de lanturi usoare,nefropatia cu lanturi usoare,depozite renale de lanturi usoare,boala de depozit monoclonal,light chain deposition disease,monoclonal immunoglobulin deposition disease,light chain nephropathy
+Boala inflamatorie pelvina,anexita,salpingo-ooforita,infectie pelvina ascendenta,pelvic inflammatory disease,PID,salpingo-oophoritis
+Boala membranelor bazale subtiri,hematurie familiala benigna,nefropatie cu membrane bazale subtiri,microhematurie familiala izolata,thin basement membrane disease,benign familial hematuria,thin basement membrane nephropathy
+Boala Peyronie,induratie plastica peniana,boala La Peyronie,fibroza peniana,Peyronie disease,penile induration,plastic induration of the penis
+Boala polichistica renala autozomal dominanta,polichistoza renala adulta,rinichi polichistic autozomal dominant,boala chistica renala a adultului,autosomal dominant polycystic kidney disease,adult polycystic kidney disease,ADPKD
+Boala polichistica renala autozomal recesiva,polichistoza renala infantila,rinichi polichistic autozomal recesiv,boala chistica renala a copilului,autosomal recessive polycystic kidney disease,infantile polycystic kidney disease,ARPKD
+Calculi prostatici,calculi ai prostatei,pietre in prostata,litiaza prostatica,prostatic calculi,prostate stones,prostatic lithiasis
+Chist de corp luteu,chist luteal,chist al corpului galben,chist de corp galben,corpus luteum cyst,luteal ovarian cyst,corpus luteum ovarian cyst
+Chist de epididim,chist epididimar,chist al epididimului,chist de cap epididimar,epididymal cyst,cyst of the epididymis,epididymal retention cyst
+Chist de glanda Bartholin,chist bartolinian,chist al glandei Bartholin,chist de glanda vestibulara,Bartholin gland cyst,Bartholin cyst,cyst of Bartholin gland
+Chist folicular ovarian,chist ovarian functional,chist folicular simplu,chist ovarian de tip folicular,follicular ovarian cyst,functional ovarian cyst,follicular cyst of the ovary
+Chist Naboth,chisturi Naboth,chist de glanda cervicala,chist nabotian,Nabothian cyst,nabothian follicle,cervical glandular cyst
+Chist ovarian hemoragic,chist ovarian cu sangerare,chist hemoragic ovarian,chist ovarian hemoragic functional,hemorrhagic ovarian cyst,bleeding ovarian cyst,ovarian cyst with hemorrhage
+Chist renal complicat,chist renal hemoragic,chist renal infectat,chist renal cu complicatii,complicated renal cyst,hemorrhagic renal cyst,infected kidney cyst
+Chist renal simplu,chist renal solitar,chist renal cortical,chist renal benign,simple renal cyst,simple kidney cyst,solitary renal cyst
+Cistita chimica,cistita de contact chimic,cistita toxica,cistita prin substante iritante,chemical cystitis,toxic cystitis,irritant cystitis
+Cistita de radiatii,cistita radica,cistita dupa radioterapie,cistita actinica,radiation cystitis,actinic cystitis,radiotherapy-induced cystitis
+Cistita hemoragica,cistita cu sangerare,cistita hemoragica acuta,cistita ulceroasa,hemorrhagic cystitis,haemorrhagic cystitis,cystitis with hematuria
+Cistita interstitiala,sindrom de vezica dureroasa,cistita interstitiala cronica,ulcer Hunner,interstitial cystitis,painful bladder syndrome,bladder pain syndrome
+Cistita postcoitala,cistita dupa raport sexual,cistita de luna de miere,cistita postcontact,postcoital cystitis,honeymoon cystitis,cystitis after intercourse
+Cistita recidivanta,cistita recurenta,infectii urinare recurente,cistita cu recaderi,recurrent cystitis,recurrent bladder infection,recurrent urinary tract infection
+Cistocel,cistocel vaginal,herniere a vezicii in vagin,prolaps al vezicii urinare,cystocele,bladder prolapse,prolapsed bladder
+Cistouretrocel,prolaps al vezicii si uretrei,herniere vezicouretrala,cistouretrocel vaginal,cystourethrocele,bladder and urethral prolapse,cysto-urethrocele
+Corioamnionita,corioamniotita,infectie intraamniotica,corioamnionita clinica,chorioamnionitis,intra-amniotic infection,amniotic infection syndrome
+Criptorhidie,testicul necoborat,testicul nedescent,retentie testiculara,cryptorchidism,undescended testis,cryptorchism
+Deciduita,deciduita acuta,inflamatia deciduei,deciduita cronica,deciduitis,acute deciduitis,inflammation of the decidua
+Decolment prematur de placenta,decolment placentar,hematom retroplacentar,decolment prematur al placentei,placental abruption,abruptio placentae,premature separation of the placenta
+Disinergie detrusor-sfincteriana,disinergie vezico-sfincteriana,asincronism detrusor-sfincter,disinergie sfincteriana,detrusor-sphincter dyssynergia,bladder-sphincter dyssynergia,DSD
+Displazie renala multichistica,rinichi multichistic displazic,displazie chistica renala,boala multichistica renala,multicystic dysplastic kidney,renal cystic dysplasia,multicystic kidney
+Distocie,nastere dificila,travaliu disfunctional,distocie de travaliu,dystocia,difficult birth,dysfunctional labor
+Distocie de umar,impactie a umerilor,retentie de umar la nastere,distocie de umar la nastere,shoulder dystocia,shoulder impaction,dystocia of the shoulder
+Duplicatie ureterala,ureter dublu,ureter bifid,duplicatie de ureter,ureteral duplication,duplex ureter,double ureter
+Echinococoza renala,chist hidatic renal,hidatidoza renala,chist echinococic renal,renal echinococcosis,hydatid cyst of the kidney,renal hydatid disease
+Ejaculare retrograda,ejaculare in vezica urinara,ejaculare inversa,ejaculare retrograda in vezica,retrograde ejaculation,retrograde ejaculation into the bladder,dry orgasm
+Embolie de lichid amniotic,embolie cu lichid amniotic,embolie amniotica,sindrom de embolie amniotica,amniotic fluid embolism,amniotic fluid embolism syndrome,AFE
+Endocervicita,inflamatia canalului cervical,infectie endocervicala,endocervicita cronica,endocervicitis,endocervical inflammation,inflammation of the endocervix
+Endometriom ovarian,chist endometriozic ovarian,chist de ciocolata,endometriom al ovarului,ovarian endometrioma,chocolate cyst,endometriotic ovarian cyst
+Endometrioza peritoneala,leziuni endometriozice peritoneale,endometrioza peritoneala superficiala,implanturi endometriozice peritoneale,peritoneal endometriosis,superficial peritoneal endometriosis,peritoneal endometriotic implants
+Endometrioza profunda,endometrioza infiltrativa profunda,endometrioza rectovaginala,endometrioza pelvina profunda,deep endometriosis,deep infiltrating endometriosis,rectovaginal endometriosis
+Endometrita,inflamatia endometrului,endometrita acuta,infectie endometriala,endometritis,endometrial infection,inflammation of the endometrium
+Endometrita puerperala,endometrita post-partum,endometrita dupa nastere,infectie a endometrului puerperal,puerperal endometritis,postpartum endometritis,puerperal uterine infection
+Enterocel,enterocele vaginal,herniere a intestinului in vagin,prolaps de intestin in vagin,enterocele,herniation of intestine into vagina,vaginal enterocele
+Enurezis diurn,incontinenta diurna la copil,scapare de urina ziua,pierderi diurne de urina,diurnal enuresis,daytime wetting,daytime urinary incontinence in children
+Epididimita,inflamatia epididimului,epididimita acuta,infectie a epididimului,epididymitis,epididymal infection,inflammation of the epididymis
+Epididimo-orhita,orhoepididimita,inflamatia epididimului si testiculului,epididimita cu orhita,epididymo-orchitis,inflammation of epididymis and testis,epididymitis with orchitis
+Epispadias,epispadias congenital,fanta uretrala superioara,malformatie a uretrei dorsale,dorsal urethral cleft,epispadias malformation,congenital epispadias
+Fimoza,fimoza congenitala,ingustare a preputului,preput care nu se retracteaza,phimosis,tight foreskin,non-retractile foreskin
+Fistula ureterovaginala,comunicare ureterovaginala,fistula ureterala vaginala,fistula a ureterului la vagin,ureterovaginal fistula,ureteric vaginal fistula,ureter-vagina fistula
+Fistula vezicovaginala,fistula vezico-vaginala,comunicare vezicovaginala,fistula a vezicii urinare la vagin,vesicovaginal fistula,bladder-vagina fistula,vesico-vaginal fistula
+Glomerulonefrita acuta,nefrita acuta poststreptococica,boala Bright,glomerulonefrita postinfectioasa,acute glomerulonephritis,poststreptococcal glomerulonephritis,Bright disease
+Glomerulonefrita cronica,nefrita cronica progresiva,glomerulopatia cronica,boala cronica glomerulara,chronic glomerulonephritis,chronic nephritis,chronic glomerular disease
+Glomerulonefrita membranoproliferativa,glomerulonefrita mezangiocapilara,GN membranoproliferativa,boala cu depozite dense,membranoproliferative glomerulonephritis,mesangiocapillary glomerulonephritis,MPGN
+Glomerulonefrita rapid progresiva,glomerulonefrita crescator progresiva,nefrita rapid progresiva,glomerulonefrita cu semilune,rapidly progressive glomerulonephritis,crescentic glomerulonephritis,subacute glomerulonephritis
+Glomeruloscleroza focal segmentara,scleroza glomerulara focal segmentara,nefropatia cu scleroza focal segmentara,glomerulonefrita focal segmentara,focal segmental glomerulosclerosis,FSGS,segmental glomerular sclerosis
+Hematocel,hematocele testicular,acumulare de sange in bursa testiculara,hematocel scrotal,hematocele,testicular hematocele,scrotal hematocele
+Hematocolpos,acumulare de sange in vagin,hematocolpos prin imperforatie de himen,sange acumulat in vagin,blood in the vagina,retained menstrual blood in vagina,blood-filled vagina
+Hematom subcorionic,hematom subcorionic masiv,sangerare subcorionica,hematom subcorionic al placentei,subchorionic hematoma,subchorionic hemorrhage,subchorionic bleed
+Hematometra,acumulare de sange in uter,hematometra prin obstructie,sange in cavitatea uterina,blood in the uterine cavity,retained blood in the uterus,blood-filled uterine cavity
+Hematosalpinx,sange in trompa uterina,hematocele tubar,trompa cu sange,blood in the fallopian tube,tubal hematoma,hematoma of the fallopian tube
+Hemoragie postpartum,hemoragie post-partum,sangerare postpartum,hemoragie dupa nastere,postpartum hemorrhage,postpartum bleeding,obstetric hemorrhage
+Hemoragie postpartum tardiva,hemoragie postpartum intarziata,hemoragie de lauzie tardiva,sangerare tardiva dupa nastere,delayed postpartum hemorrhage,late postpartum bleeding,secondary postpartum hemorrhage
+Hidrocel,hidrocel testicular,acumulare de lichid in bursa testiculara,hidrocel congenital,hydrocele,testicular hydrocele,hydrocele of the testis
+Hidronefroza,dilatatie a bazinetului renal,rinichi hidronefrotic,bazinet renal dilatat,hydronephrosis,hydronephrotic kidney,dilatation of renal pelvis
+Hidrops fetal,hidrops fetalis,edem fetal generalizat,anasarca fetala,hydrops fetalis,fetal hydrops,generalized fetal edema
+Hidrosalpinx,hidrosalpinx tubar,acumulare de lichid in trompa,trompa umpluta cu lichid,hydrosalpinx,fluid-filled fallopian tube,tubal hydrosalpinx
+Hidroureteronefroza,hidroureter,dilatatie a ureterului si bazinetului,ureterohidronefroza,hydroureteronephrosis,hydroureter,ureterohydronephrosis
+Hiperplazie endometriala,hiperplazie de endometru,ingrosare a endometrului,hiperplazie endometriala atipica,endometrial hyperplasia,thickened endometrium,endometrial thickening
+Hipertensiune gestationala,hipertensiune de sarcina,hipertensiune arteriala gestationala,hipertensiune gestationala tranzitorie,gestational hypertension,hypertension in pregnancy,pregnancy-associated hypertension
+Hipomenoree,menstruatie redusa,sangerare menstruala scazuta,menstruatie saraca,hypomenorrhea,scanty periods,light menstrual bleeding
+Hipoplazie renala,rinichi hipoplazic,rinichi subdezvoltat,hipoplazie de rinichi,renal hypoplasia,hypoplastic kidney,small kidney
+Hipospadias,hipospadias congenital,fanta uretrala inferioara,malformatie a uretrei ventrale,hypospadias,ventral urethral cleft,hypospadias malformation
+Imperforatie de himen,himen imperforat,absenta orificiului himenal,imperforatie himenala,imperforate hymen,hymenal imperforation,closed hymen
+Incompatibilitate Rh,incompatibilitate de Rh,conflict Rh,incompatibilitate Rh materno-fetala,Rh incompatibility,Rhesus incompatibility,Rh blood group incompatibility
+Incontinenta de efort,incontinenta urinara la efort,incontinenta de stres,pierderi de urina la efort,stress incontinence,stress urinary incontinence,effort incontinence
+Incontinenta de urgenta,incontinenta prin imperiozitate,vezica instabila cu pierderi de urina,pierderi de urina la urgenta,urge incontinence,urgency incontinence,urinary urgency incontinence
+Incontinenta mixta,incontinenta urinara mixta,incontinenta combinata,incontinenta de efort si urgenta,mixed incontinence,mixed urinary incontinence,mixed stress and urge incontinence
+Incontinenta prin revarsare,incontinenta prin supraplin,vezica cu supraplin,pierderi de urina prin supraplin,overflow incontinence,overflow urinary incontinence,chronic urinary retention with overflow
+Infarct placentar,infarcte placentare,necroza ischemica placentara,infarct placentar multiplu,placental infarction,placental infarct,ischemic placental necrosis
+Infarct renal,infarct de rinichi,necrosa renala ischemica,infarct renal segmentar,renal infarction,kidney infarction,segmental renal infarction
+Infectie puerperala,infectie post-partum,febra puerperala,infectie dupa nastere,puerperal infection,puerperal fever,postpartum infection
+Insertie velamentoasa a cordonului,insertie velamentoasa,cordon cu insertie velamentoasa,insertie velamentoasa a cordonului ombilical,velamentous cord insertion,velamentous insertion of the umbilical cord,velamentous placenta insertion
+Insuficienta cervicala,insuficienta de col uterin,col uterin incompetent,cervix scurt in sarcina,cervical insufficiency,incompetent cervix,cervical incompetence
+Insuficienta de faza luteala,faza luteala deficitara,deficit de progesteron in faza luteala,faza luteala insuficienta,luteal phase defect,luteal phase insufficiency,luteal phase deficiency
+Insuficienta placentara,deficienta placentara,placenta insuficienta,insuficienta uteroplacentara,placental insufficiency,placental dysfunction,uteroplacental insufficiency
+Insuficienta renala acuta,IRA,lesiune renala acuta,oprirea functiei renale,acute kidney injury,acute renal failure,acute kidney failure
+Insuficienta renala cronica,IRC,boala renala cronica avansata,nefropatie cronica progresiva,chronic renal failure,chronic kidney failure,chronic renal insufficiency
+Insuficienta renala cronica terminala,boala renala in stadiu terminal,uremie terminala,stadiu final de insuficienta renala,end-stage renal disease,end-stage kidney disease,ESRD
+Inversiune uterina,uter inversat,inversiune uterina puerperala,inversiune uterina postpartum,uterine inversion,inverted uterus,puerperal uterine inversion
+Leucospermie,piiospermie,leucocite crescute in sperma,leucocitospermie,leukospermia,pyospermia,leukocytospermia
+Lichen sclerosus vulvar,lichen sclerosus al vulvei,crauroza vulvei,vulvita scleroatrofica,vulvar lichen sclerosus,kraurosis vulvae,vulvar lichen sclerosus et atrophicus
+Litiaza de ureter,calcul ureteral,piatra pe ureter,litiaza ureterala,ureteral stone,ureterolithiasis,ureteral calculus
+Litiaza vezicala,calculi vezicali,pietre in vezica urinara,litiaza a vezicii urinare,bladder stones,vesical calculi,cystolithiasis
+Megaureter,megaureter congenital,ureter gigant,dilatatie congenitala a ureterului,congenital megaureter,primary megaureter,dilated ureter
+Metroendometrita,endomiometrita,inflamatia uterului si endometrului,metroendometrita cronica,metroendometritis,endomyometritis,inflammation of the uterine muscle and endometrium
+Miom intramural,miom uterin intramural,fibrom uterin intramural,leiomiom intramural,intramural fibroid,intramural leiomyoma,intramural myoma
+Miom submucos,miom uterin submucos,fibrom uterin submucos,leiomiom submucos,submucosal fibroid,submucosal leiomyoma,submucous myoma
+Miom subseros,miom uterin subseros,fibrom uterin subseros,leiomiom subseros,subserosal fibroid,subserosal leiomyoma,subserous myoma
+Moarte fetala in utero,fat mort in uter,deces fetal intrauterin,moarte intrauterina a fatului,intrauterine fetal demise,fetal death in utero,stillbirth
+Necroza papilara,necrosa papilei renale,necrosa medulara renala,sindrom de necrosa papilara,renal papillary necrosis,papillary necrosis of the kidney,necrotizing papillitis
+Necroza tubulara acuta,necrosa tubulara renala,NTA,necrosa epiteliala tubulara,acute tubular necrosis,ATN,tubular necrosis of the kidney
+Nefrita interstitiala,nefrita tubulointerstitiala,nefropatie interstitiala,boala renala tubulointerstitiala,interstitial nephritis,tubulointerstitial nephritis,interstitial kidney inflammation
+Nefronoftizia,nefronoftizie juvenila,boala chistica medulara renala,complex nefronoftizie,nephronophthisis,juvenile nephronophthisis,medullary cystic disease complex
+Nefropatia analgezica,nefropatia prin analgezice,nefrita analgezica,boala renala prin abuz de analgezice,analgesic nephropathy,phenacetin nephropathy,analgesic kidney disease
+Nefropatia cu leziuni minime,boala cu leziuni minime glomerulare,nefroza cu leziuni minime,glomerulopatia cu leziuni minime,minimal change disease,minimal change nephropathy,nil disease
+Nefropatia de reflux,nefropatie de reflux vezicoureteral,nefropatia refluxului vezicoureteral,pielonefrita de reflux,reflux nephropathy,reflux nephritis,vesicoureteral reflux nephropathy
+Nefropatia gutoasa,nefropatia urica,boala renala din guta,nefropatia cu urati,gouty nephropathy,urate nephropathy,uric acid nephropathy
+Nefropatia hipercalcemica,boala renala din hipercalcemie,insuficienta renala prin hipercalcemie,nefropatie hipercalcemica cronica,hypercalcemic nephropathy,renal disease due to hypercalcemia,hypercalcemia-induced kidney injury
+Nefropatia hipokalemica,nefrita interstitiala hipokalemica,boala renala prin deficit de potasiu,nefropatie de carenta de potasiu,hypokalemic nephropathy,hypokalemic kidney disease,potassium deficiency nephropathy
+Nefropatia IgA,boala Berger,glomerulonefrita cu IgA,nefropatia cu depozite de IgA,IgA nephropathy,Berger disease,IgA glomerulonephritis
+Nefropatia ischemica,boala renala ischemica,ischemie renala cronica,nefropatie vasculara renala,ischemic nephropathy,renal ischemic disease,ischemic kidney disease
+Nefropatia lupica,nefrita lupica,glomerulonefrita lupica,boala renala lupica,lupus nephritis,lupus glomerulonephritis,lupus kidney disease
+Nefropatia membranoasa,glomerulonefrita membranoasa,nefropatie membranoasa idiopatica,glomerulopatia membranoasa,membranous nephropathy,membranous glomerulonephritis,membranous glomerulopathy
+Nefropatia mielomatoasa,rinichi mielomatos,nefropatia din mielom multiplu,nefropatia cu cilindri,myeloma kidney,cast nephropathy,myeloma cast nephropathy
+Nefropatia obstructiva,uropatie obstructiva,nefropatie prin obstructie urinara,boala renala postrenala,obstructive nephropathy,obstructive uropathy,postrenal kidney disease
+Nefropatia purpurica,nefrita purpurica,nefropatia din purpura Henoch-Schonlein,nefropatia IgA sistemica,purpura nephritis,Henoch-Schonlein nephritis,IgA vasculitis nephritis
+Nefroptoza,rinichi mobil,rinichi cazut,ptoza renala,nephroptosis,floating kidney,mobile kidney
+Nisa de cicatrice uterina,nisa de cicatrice,dehiscence de cicatrice de cezariana,istmocel,cesarean scar defect,uterine niche,isthmocele
+Oligohidramnios,lichid amniotic redus,volum scazut de lichid amniotic,cantitate redusa de lichid amniotic,oligohydramnios,decreased amniotic fluid,low amniotic fluid
+Oligomenoree,menstruatii rare,cicluri menstruale lungi,oligomenoree primara,oligomenorrhea,infrequent periods,infrequent menstruation
+Oligospermie,oligozoospermie,numar scazut de spermatozoizi,concentratie scazuta de spermatozoizi,oligospermia,oligozoospermia,low sperm count
+Ooforita,inflamatia ovarului,ooforita acuta,infectie ovariana,oophoritis,ovarian inflammation,inflammation of the ovary
+Orhita,inflamatia testiculului,orita,infectie testiculara,orchitis,testicular inflammation,inflammation of the testis
+Orhita urliana,orita urliana,orhopatia din oreion,orhita epidemica,mumps orchitis,orchitis due to mumps,parotitic orchitis
+Oul oprit in evolutie,sarcina oprita in evolutie,ou oprit in evolutie,avort retinut,missed abortion,missed miscarriage,early fetal demise
+Parafimoza,parafimoza acuta,strangulare a glandului,preput retractat strangulat,paraphimosis,strangulated foreskin,incarcerated foreskin
+Parametrita,inflamatia parametrului,celulita pelvina,flegmon parametrial,parametritis,pelvic cellulitis,parametrial phlegmon
+Pelviperitonita,pelviperitonita acuta,peritonita pelvina,inflamatia peritoneului pelvin,pelviperitonitis,pelvic peritonitis,pelvic peritoneum inflammation
+Pielita,infectie a bazinetului renal,pielita bacteriana,inflamatie a pelvisului renal,pyelitis,bacterial pyelitis,infection of the renal pelvis
+Pielonefrita cronica,infectie renala cronica,pielonefrita recidivanta,nefrita interstitiala bacteriana cronica,chronic pyelonephritis,recurrent pyelonephritis,chronic kidney infection
+Pielonefrita xantogranulomatoasa,pielonefrita cu celule spumoase,nefrita xantogranulomatoasa,XGP,xanthogranulomatous pyelonephritis,xanthogranulomatous kidney infection,xanthogranulomatous renal inflammation
+Pionefroza,hidropionefroza,rinichi cu puroi,bazinet renal cu puroi,pyonephrosis,pyonephrotic kidney,pus-filled kidney
+Piosalpinx,piosalpinx tubar,trompa cu puroi,salpingita purulenta,pus in the fallopian tube,purulent salpingitis,tubal empyema
+Placenta accreta,placenta acreta,aderenta patologica a placentei,placenta fixata de miometru,abnormally adherent placenta,accreta placenta,morbidly adherent placenta
+Placenta increta,invazie miometriala a placentei,placenta invadanta in miometru,placenta cu invazie miometriala,increta placenta,placenta invading myometrium,myometrial placental invasion
+Placenta percreta,invazie a placentei prin peretele uterin,placenta penetranta,placenta cu invazie transmurala,percreta placenta,placenta penetrating the uterus,uterine wall placental invasion
+Placenta praevia,insertie joasa a placentei,placenta inserata jos,placenta cu insertie joasa,low-lying placenta,placenta previa,placental presentation
+Polihidramnios,hidramnios,exces de lichid amniotic,volum crescut de lichid amniotic,polyhydramnios,hydramnios,excess amniotic fluid
+Polimenoree,menstruatii frecvente,cicluri menstruale scurte,menstruatii la interval scurt,polymenorrhea,frequent periods,short menstrual cycles
+Polip cervical,polip al colului uterin,polip endocervical,polip cervical sangerand,cervical polyp,polyp of the cervix,endocervical polyp
+Preeclampsie severa,preeclampsie cu semne severe,preeclampsie grava,toxemie grava de sarcina,severe preeclampsia,preeclampsia with severe features,severe toxemia of pregnancy
+Preeclampsie suprapusa,preeclampsie pe hipertensiune cronica,suprapunere de preeclampsie,preeclampsie suprapusa hipertensiunii cronice,superimposed preeclampsia,preeclampsia superimposed on chronic hypertension,chronic hypertension with superimposed preeclampsia
+Priapism,priapism ischemic,erectie prelungita dureroasa,priapism veno-oclusiv,ischemic priapism,veno-occlusive priapism,prolonged painful erection
+Prolaps de cordon ombilical,prolaps de cordon,cordon ombilical prolabat,procidenta de cordon,umbilical cord prolapse,cord prolapse,prolapsed umbilical cord
+Prolaps de cupola vaginala,coborarea cupolei vaginale,prolaps vaginal posthisterectomie,prolaps de cupola dupa histerectomie,vaginal vault prolapse,post-hysterectomy vaginal prolapse,prolapse of the vaginal vault
+Prolaps vaginal,prolaps al vaginului,perete vaginal prolabat,colpoptoza,vaginal prolapse,prolapse of the vagina,vaginal wall prolapse
+Prostatita granulomatoasa,prostatita granulomatoasa nespecifica,granulom prostatic,prostatita granulomatoasa idiopatica,granulomatous prostatitis,non-specific granulomatous prostatitis,prostatic granuloma
+Prostatodinia,prostatodinia cronica,durere prostatica,prostatalgie,prostatodynia,prostate pain,prostatalgia
+Prostatoza,congestie prostatica,prostatoza cronica,sindrom de congestie prostatica,prostatosis,prostatic congestion,chronic prostatic congestion
+Rectocel,rectocel vaginal,herniere a rectului in vagin,prolaps anterior al rectului,rectocele,herniation of rectum into vagina,posterior vaginal wall prolapse
+Reflux vezicoureteral,reflux uretero-vezical,reflux vezical,reflux de urina din vezica in ureter,vesicoureteral reflux,vesicoureteric reflux,VUR
+Restrictie de crestere intrauterina,intarziere de crestere intrauterina,hipotrofie fetala,sindrom de crestere fetala intarziata,intrauterine growth restriction,fetal growth restriction,IUGR
+Retentie de placenta,placenta retinuta,retentie placentara,placenta neeliminata,retained placenta,placental retention,trapped placenta
+Retentie de resturi placentare,resturi placentare retinute,fragmente placentare retinute,retentie de fragmente de placenta,retained placental fragments,retained products of conception,retained placental tissue
+Rinichi ectopic,ectopie renala,rinichi pelvin,rinichi in pozitie anormala,ectopic kidney,renal ectopia,pelvic kidney
+Rinichi in potcoava,rinichi fuzionat,anomalie de fuziune renala,rinichi in forma de potcoava,horseshoe kidney,renal fusion anomaly,horseshoe renal anomaly
+Ruptura de chist ovarian,ruptura chistului ovarian,chist ovarian spart,ruptura de chist anexial,ruptured ovarian cyst,ovarian cyst rupture,rupture of ovarian cyst
+Ruptura prematura de membrane,ruptura prematura a membranelor,ruptura de membrane inainte de travaliu,fisura membranelor amniotice,premature rupture of membranes,PROM,prelabor rupture of membranes
+Ruptura uterina,ruptura de uter,ruptura uterina in travaliu,dehiscence uterina,uterine rupture,rupture of the uterus,uterine wall rupture
+Salpingita,inflamatia trompelor uterine,salpingita acuta,infectie a trompei uterine,salpingitis,fallopian tube infection,inflammation of the fallopian tube
+Sangerare postcoitala,sangerare dupa contact sexual,metroragie postcoitala,sangerare coitala,postcoital bleeding,bleeding after intercourse,coital bleeding
+Sangerare postmenopauza,sangerare dupa menopauza,metroragie postmenopauzala,hemoragie postmenopauzala,postmenopausal bleeding,bleeding after menopause,postmenopausal hemorrhage
+Sarcina abdominala,gestatie intraabdominala,implantare abdominala a oului,sarcina abdominala primara,abdominal pregnancy,abdominal ectopic pregnancy,intra-abdominal gestation
+Sarcina cervicala,sarcina cervico-istmica,implantare cervicala a oului,gestatie cervicala,cervical pregnancy,cervical ectopic pregnancy,cervical gestation
+Sarcina depasita,sarcina prelungita,postmaturitate,sarcina peste termen,post-term pregnancy,postmaturity,postmaturity syndrome
+Sarcina interstitiala,sarcina in portiunea interstitiala a trompei,gestatie interstitiala,sarcina cornuala,interstitial pregnancy,interstitial ectopic pregnancy,cornual pregnancy
+Sarcina ovariana,gestatie ovariana,implantare ovariana a oului,sarcina ectopica ovariana,ovarian pregnancy,ovarian ectopic pregnancy,ovarian gestation
+Sarcina pe cicatrice de cezariana,sarcina pe cicatrice,sarcina in nisa cicatricii,sarcina ectopica pe cicatrice,cesarean scar pregnancy,scar ectopic pregnancy,pregnancy in cesarean scar
+Scleroza de col vezical,contractura de col vezical,obstructie de col vezical,stenoza colului vezical,bladder neck sclerosis,bladder neck contracture,bladder neck obstruction
+Secventa Potter,sindrom Potter,agenezie renala bilaterala cu oligohidramnios,facies Potter,Potter sequence,Potter syndrome,bilateral renal agenesis sequence
+Sepsis puerperal,sepsis post-partum,septicemie puerperala,soc septic de origine genitala,puerperal sepsis,postpartum sepsis,puerperal septicemia
+Sept vaginal,septum vaginal,sept vaginal transversal,duplicatie vaginala,vaginal septum,transverse vaginal septum,vaginal septation
+Simfizioliza,simfizioliza de sarcina,ruptura simfizei pubiene,diastaza simfizei pubiene,symphysiolysis,pubic symphysis rupture,pubic symphysis diastasis
+Sindrom Alport,nefrita ereditara,boala membranelor bazale ereditara,nefropatie ereditara,Alport syndrome,hereditary nephritis,Alport disease
+Sindrom de durere pelvina cronica,durere pelvina cronica,sindrom pelvin cronic,durere pelvina de cauza urologica,chronic pelvic pain syndrome,chronic pelvic pain,pelvic pain syndrome
+Sindrom de hiperstimulare ovariana,hiperstimulare ovariana,OHSS,complicatie a inductiei ovulatiei,ovarian hyperstimulation syndrome,ovarian hyperstimulation,hyperstimulation syndrome
+Sindrom de hipotensiune in decubit dorsal,hipotensiune de compresie a venei cave,sindrom de compresie a venei cave in sarcina,hipotensiune in decubit dorsal la gravida,supine hypotensive syndrome,inferior vena cava compression syndrome,aortocaval compression syndrome
+Sindrom de ovar remanent,ovar remanent,sindrom ovarian dupa histerectomie,ovar restant dupa histerectomie,ovarian remnant syndrome,retained ovary syndrome,ovarian remnant after hysterectomy
+Sindrom de transfuzie feto-fetala,transfuzie feto-fetala,sindrom Twin-Twin,transfuzie de la geaman la geaman,twin-to-twin transfusion syndrome,TTTS,feto-fetal transfusion syndrome
+Sindrom Goodpasture,boala Goodpasture,glomerulonefrita cu anticorpi anti-membrana bazala,nefrita anti-GBM,Goodpasture syndrome,Goodpasture disease,anti-GBM disease
+Sindrom HELLP,HELLP,hemoliza cu enzime hepatice crescute si plachete scazute,sindrom hemolitico-hepatic de sarcina,HELLP syndrome,hemolysis elevated liver enzymes low platelets,preeclampsia with hemolysis and thrombocytopenia
+Sindrom nefritic,sindrom nefritic acut,nefrita cu hematurie macroscopica,sindrom nefritic cu hipertensiune,nephritic syndrome,acute nephritic syndrome,nephritic syndrome with hematuria
+Sindrom nefrotic,nefroza,sindrom nefrotic idiopatic,nefroza cu proteinurie masiva,nephrotic syndrome,nephrosis,idiopathic nephrotic syndrome
+Sindrom Rokitansky,sindrom Mayer-Rokitansky-Kuster-Hauser,agenezie vaginala,aplazie uterovaginala,Mayer-Rokitansky-Kuster-Hauser syndrome,MRKH syndrome,congenital absence of uterus and vagina
+Sindrom uretral,uretralgie,sindrom uretral feminin,durere uretrala cronica,urethral syndrome,urethral pain syndrome,female urethral syndrome
+Sindrom Wunderlich,hematom perirenal spontan,hemoragie perirenala spontana,apoplexie renala,Wunderlich syndrome,spontaneous perirenal hematoma,perirenal hemorrhage
+Sinechii uterine,sindrom Asherman,aderente intrauterine,sinechii intrauterine,Asherman syndrome,intrauterine adhesions,uterine synechiae
+Spermatocel,chist spermatic,spermatocel epididimar,chist cu spermatozoizi,spermatocele,spermatic cyst,epididymal spermatocele
+Stenoza de meat uretral,ingustare a meatului uretral,meat uretral ingustat,stenoza meatului urinar,meatal stenosis,urethral meatal stenosis,narrowed urethral meatus
+Stenoza jonctiunii pieloureterale,obstructie pieloureterala,sindrom de jonctiune pieloureterala,stenoza de jonctiune ureteropelvina,ureteropelvic junction obstruction,pelviureteric junction obstruction,UPJ obstruction
+Strictura uretrala,ingustare a uretrei,stenoza uretrala,strictura de uretra,urethral stricture,urethral stenosis,narrowing of the urethra
+Suferinta fetala acuta,distres fetal,hipoxie fetala acuta,sindrom de suferinta fetala,fetal distress,acute fetal distress,fetal hypoxia
+Teratospermie,teratozoospermie,morfologie anormala a spermatozoizilor,spermatozoizi cu forme anormale,teratospermia,teratozoospermia,abnormal sperm morphology
+Testicul ectopic,ectopie testiculara,testicul aberant,testicul in pozitie anormala,ectopic testis,testicular ectopia,aberrant testis
+Torsiune de chist ovarian,torsiune a chistului ovarian,chist ovarian torsionat,torsiune anexiala,ovarian cyst torsion,torsion of ovarian cyst,adnexal torsion
+Torsiune de hidatida,torsiune a hidatidei Morgagni,torsiune de apendice testicular,sindrom de torsiune a hidatidei,torsion of the testicular appendix,appendix testis torsion,hydatid of Morgagni torsion
+Torsiune de testicul,torsiune testiculara,rasucire a testiculului,torsiune de cordon spermatic,testicular torsion,torsion of the testis,spermatic cord torsion
+Trigonita,inflamatia trigonului vezical,trigonita vezicala,cistita trigonala,trigonitis,trigonal cystitis,inflammation of the bladder trigone
+Tromboflebita pelvina,tromboza venoasa pelvina,tromboflebita pelvina puerperala,tromboflebita de vena ovariana,pelvic thrombophlebitis,pelvic vein thrombosis,puerperal pelvic thrombophlebitis
+Tromboza puerperala,tromboza in lauzie,tromboza postpartum,tromboembolism puerperal,puerperal thrombosis,postpartum thrombosis,puerperal thromboembolism
+Tuberculoza genitala,tuberculoza genitala feminina,tuberculoza pelvina,tuberculoza endometrului,genital tuberculosis,female genital tuberculosis,pelvic tuberculosis
+Uremie,sindrom uremic,intoxicatie cu uree,uremie cronica,uremia,uremic syndrome,uraemia
+Ureterita,inflamatia ureterului,infectie ureterala,ureterita cronica,ureteritis,ureteral inflammation,inflammation of the ureter
+Ureterocel,ureterocel simplu,ureterocel ectopic,dilatatie chistica a ureterului terminal,ureterocele,ureteral cyst,cystic dilatation of the ureter
+Uretrocel,coborare a uretrei,prolaps uretral,uretrocel vaginal,urethrocele,prolapse of the urethra,urethral prolapse
+Uter bicorn,uter bicornuat,uter cu doua coarne,malformatie uterina bicornuata,bicornuate uterus,uterus bicornis,bicornuate uterine malformation
+Uter didelf,uter dublu,uter didelfus,duplicatie uterina,uterus didelphys,double uterus,didelphic uterus
+Uter septat,uter cu sept,septum uterin,malformatie uterina septata,septate uterus,uterine septum,uterus with septum
+Uter unicorn,uter cu un singur corn,malformatie uterina uniconuata,uter unicornuat,unicornuate uterus,uterus unicornis,unicorn uterus
+Vaginita bacteriana,vaginoza bacteriana,infectie cu Gardnerella vaginalis,vaginita nespecifica,bacterial vaginosis,Gardnerella vaginitis,non-specific vaginitis
+Valve uretrale posterioare,valve ale uretrei posterioare,obstructie prin valve uretrale,valve uretrale congenitale,posterior urethral valves,congenital urethral valves,urethral valve obstruction
+Vasa praevia,vase ombilicale praevia,vase fetale nesustinute de cordon,vase ombilicale anormale,vasa previa,aberrant umbilical vessels,abnormal umbilical vessels
+Vezica de capacitate mica,vezica scleroasa,vezica contracta,reducere a capacitatii vezicale,small capacity bladder,contracted bladder,bladder contracture
+Vezica hiperactiva,sindrom de vezica hiperactiva,vezica iritabila,hiperactivitate detrusoriana,overactive bladder,irritable bladder,detrusor overactivity
+Vezica neurogena,vezica neurologica,disfunctie neurogena a vezicii,vezica neuropata,neurogenic bladder,neuropathic bladder,neurogenic bladder dysfunction
+Vezica neurogena flasca,vezica atona,vezica neurogena de tip flasc,vezica paralitica,flaccid neurogenic bladder,atonic bladder,lower motor neuron bladder
+Vezica neurogena spastica,vezica reflexa,vezica neurogena de tip spastic,hiperreflexie detrusoriana neurogena,spastic neurogenic bladder,reflex bladder,upper motor neuron bladder
+Veziculita seminala,veziculita seminala cronica,inflamatia veziculelor seminale,infectie a veziculelor seminale,seminal vesiculitis,seminal vesicle infection,inflammation of the seminal vesicles
+Vulvita,inflamatia vulvei,vulvita acuta,infectie vulvara,vulvitis,vulvar infection,inflammation of the vulva
+Vulvita de contact,vulvita iritativa,vulvita de contact alergica,iritatie vulvara de contact,contact vulvitis,irritant vulvitis,allergic contact vulvitis
+Vulvodinie,vulvodinia,durere vulvara cronica,sindrom de vulvodinie,vulvodynia,chronic vulvar pain,vulvar pain syndrome
+Vulvovaginita,inflamatia vulvei si vaginului,vulvita cu vaginita,vulvovaginita acuta,vulvovaginitis,inflammation of vulva and vagina,vulvo-vaginal inflammation

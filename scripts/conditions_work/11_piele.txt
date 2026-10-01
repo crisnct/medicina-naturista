@@ -1,0 +1,266 @@
+Abces subungueal,infectie subunghiala,colectie purulenta sub unghie,abces deget,subungual abscess,subungual infection,infection under the nail
+Acantosis nigricans,keratoza nigricans,distrofie papilara pigmentara,hiperpigmentare a pliurilor,acanthosis nigricans,keratosis nigricans,papillary pigmented dystrophy
+Acnee cheloida,folliculitis keloidalis,alopecie cicatriciala a cefei,folliculita cheloida a cefei,acne keloidalis nuchae,folliculitis keloidalis nuchae,keloidal folliculitis
+Acnee conglobata,acnee conglobata cu abcese,acnee nodulocistica,acnee cu leziuni supurative profunde,acne conglobata,nodulocystic acne,cystic acne
+Acnee cosmetica,acnee cosmetica de contact,eruptie acneiforma cosmetica,acnee din produse cosmetice,cosmetic acne,pomade acne,acne venenata cosmetica
+Acnee fulminans,acnee fulminanta,acnee cu febra si artralgii,acnee necrotica acuta,acne fulminans,acute febrile ulcerative acne,fulminant acne
+Acnee hormonala,acnee endocrina,acnee de cauza hormonala,acnee premenstruala,adult acne,premenstrual acne,hormonal acne
+Acnee mecanica,acnee de frictiune,acnee prin frecare,eruptie acneiforma mecanica,acne mechanica,friction acne,acne due to mechanical trauma
+Acnee neonatala,acnee a nou-nascutului,acnee infantila,eruptie acneiforma neonatala,neonatal acne,neonatal cephalic pustulosis,neonatal acneiform eruption
+Acrocianoza,cianoza periferica,cianoza acrala,acrocianoza simetrica,acrocyanosis,peripheral cyanosis,acral cyanosis
+Amiloidoza cutanata,amiloidoza pielii,amiloidoza localizata cutanata,depunere de amiloid in piele,cutaneous amyloidosis,amyloidosis of the skin,localized cutaneous amyloid deposit
+Angiom cavernos,hemangiom cavernos,angiom cavernos cutanat,malformatie vasculara cavernoasa,cavernous hemangioma,cavernous angioma,cavernous vascular malformation
+Angiom senil,hemangiom senil,angiom cherry,angiom rubin,cherry angioma,senile hemangioma,cherry hemangioma
+Angiomatoza cutanata,angiomatoza pielii,angiomatoza difuza,hemangiomatoza cutanata,cutaneous angiomatosis,diffuse angiomatosis,skin angiomatosis
+Anhidroza,absenta transpiratiei,lipsa sudoratiei,incapacitate de a transpira,anhidrosis,absence of sweating,absent perspiration
+Atrofie blanca,atrofie alba,purpura pigmentata,atrofie alba doloroasa,atrophie blanche,segmentary hyalinizing vasculitis,white atrophy
+Atrofie cutanata,atrofie a pielii,subtire ireversibila a pielii,pierdere de substanta a pielii,skin atrophy,atrophic skin,cutaneous atrophy
+Atrofie hemifaciala,hemiatrofie faciala progresiva,boala Romberg,atrofie faciala progresiva,Parry-Romberg syndrome,progressive hemifacial atrophy,facial hemiatrophy
+Atrofodermie,atrofodermie Pasini-Pierini,atrofodermie idiopatica,atrofie cutanata localizata,atrophoderma,atrophoderma of Pasini and Pierini,idiopathic atrophoderma
+Boala Bowen,boala Bowen cutanata,carcinom in situ cutanat,neoplasm intraepidermic,Bowen disease,Bowen's disease,squamous cell carcinoma in situ
+Boala Darier,keratosis follicularis,boala Darier-White,diskeratoza foliculara,Darier disease,Darier-White disease,keratosis follicularis Darier
+Boala Dowling-Degos,boala Dowling-Degos reticulata,hiperpigmentare reticulata a pliurilor,boala Dowling-Degos reticulara,Dowling-Degos disease,reticulate pigmented anomaly of the flexures,reticular hyperpigmentation of Dowling-Degos
+Boala Ehlers-Danlos,sindrom Ehlers-Danlos,tulburare ereditara de colagen,hiperelasticitate cutanata,Ehlers-Danlos syndrome,cutaneous asthenia,hereditary collagen disorder
+Boala Fabry cutanata,angiokeratoza difuza a corpului,angiokeratom difuz Fabry,angiokeratom Fabry,angiokeratoma corporis diffusum,Fabry angiokeratoma,diffuse angiokeratoma of Fabry
+Boala Fox-Fordyce,boala Fox-Fordyce apocrina,miliaria apocrina,hidradenita apocrina pruriginoasa,Fox-Fordyce disease,apocrine miliaria,apocrine sweat gland disease
+Boala Hailey-Hailey,pemfigus benign familiar,boala Hailey-Hailey familiala,diskeratoza foliculara benigna,Hailey-Hailey disease,benign familial pemphigus,benign chronic familial pemphigus
+Boala Weber-Christian,panniculita nodulara febrila,panniculita lobulara idiopatica,lipogranulomatoza subcutanata,Weber-Christian disease,relapsing febrile nodular nonsuppurative panniculitis,idiopathic lobular panniculitis
+Bromhidroza,bromidroza,transpiratie cu miros urat,osmidroza,bromhidrosis,bromidrosis,osmidrosis
+Calcifilaxie,calcifilaxia,calcificare a vaselor mici,arteriolocalcinoza,calciphylaxis,calcific uremic arteriolopathy,calcific arteriolopathy
+Capilarita,capilarita cutanata,capilarita pigmentara purpurica,purpura capilarita,capillaritis,pigmented purpuric dermatosis,capillary inflammation
+Carcinom bazocelular,carcinom bazal,epiteliom bazocelular,ulcus rodens,basal cell carcinoma,basal cell cancer,rodent ulcer
+Carcinom cu celule Merkel,carcinom Merkel,tumora neuroendocrina cutanata,carcinom cutanat neuroendocrin,Merkel cell carcinoma,cutaneous neuroendocrine carcinoma,Merkel cell tumor
+Carcinom cu celule squamoase,epiteliom spinocelular,carcinom epidermoid cutanat,carcinom spinocelular,squamous cell carcinoma,epidermoid carcinoma,cutaneous squamous cell carcinoma
+Cheloid,cicatrice cheloida,cheloid cutanat,cicatrice cu crestere excesiva,keloid,keloid scar,keloidal scar
+Cheratoderma,cheratodermie,keratoderma palmoplantar,cheratoza palmoplantara,keratoderma,keratodermia,palmoplantar keratoderma
+Cheratoza actinica,keratoza actinica,keratoza solara,keratoza senila,actinic keratosis,solar keratosis,senile keratosis
+Cheratoza foliculara,keratosis pilaris,piele de gaina,keratoza foliculara,follicular keratosis,chicken skin,keratosis pilaris of the follicles
+Cheratoza seboreica,keratoza seboreica,veruca seboreica,batatura seboreica,seborrheic keratosis,seborrhoeic keratosis,senile wart
+Chist dermoid,chist dermoid cutanat,teratom dermoid,chist dermoid ovarian,dermoid cyst,dermoid cyst of skin,mature cystic teratoma
+Chist pilonidal,chist sacrococigeal,sinus pilonidal,boala pilonidala,pilonidal cyst,pilonidal sinus,sacrococcygeal cyst
+Chist trichilemal,chist pilar,chist trichilemal proliferativ,chist folicular,pilar cyst,trichilemmal cyst,epithelial cyst of the hair follicle
+Chromhidroza,cromhidroza,transpiratie colorata,coloratie anormala a sudorii,chromhidrosis,colored sweat,discolored sweating
+Cicatrice atrofica,cicatrice deprimata,cicatrice retractila,atrofie cicatriceala,atrophic scar,depressed scar,sunken scar
+Cicatrice hipertrofica,cicatrice hipertrofia,cicatrice proeminenta,hipertrofie cicatriceala,hypertrophic scar,raised scar,scar hypertrophy
+Cilindrom,cilindrom cutanat,tumora spiradenom cilindromatoasa,tumora anexiala maligna,cylindroma,cylindroma of skin,spiradenocylindroma
+Cloasma,cloasma gravidic,masca de sarcina,melasma gravidic,chloasma,pigmentary mask of pregnancy,chloasma gravidarum
+Condiloame acuminate,condilom acuminat,veruci genitale,negi genitali,genital warts,condylomata acuminata,anogenital warts
+Cutis laxa,cutis laxa congenitala,elastoliza generalizata,piele laxa,generalized elastolysis,loose skin syndrome,congenital cutis laxa
+Dermatita actinica cronica,radiodermatita cronica,dermatita de radiatii,dermatita actinica,chronic radiodermatitis,radiation dermatitis,chronic radiation dermatitis
+Dermatita atrofica cronica,atrofia pielii de radiatii,radiodermita cronica,atrofie cutanata actinica,chronic atrophic dermatitis,radiation-induced skin atrophy,chronic radiation dermatitis of skin
+Dermatita buloasa autoimuna,boli buloase autoimune,dermatoza buloasa autoimuna,afectiune buloasa autoimuna,autoimmune bullous dermatosis,autoimmune blistering disease,bullous autoimmune skin disease
+Dermatita buloasa IgA,boli buloase IgA,dermatoza buloasa IgA,afectiune buloasa autoimuna IgA,IgA bullous dermatosis,IgA-mediated bullous disease,autoimmune IgA blistering disease
+Dermatita cronica a mainilor,eczem cronic al mainilor,dermatita mainilor,eczem palmar cronic,chronic hand dermatitis,chronic hand eczema,palmar eczema
+Dermatita de contact alergica,dermatita alergica de contact,eczem de contact alergic,dermatita eczematoasa de contact,allergic contact dermatitis,allergic contact eczema,contact allergy dermatitis
+Dermatita de contact iritativa,dermatita iritativa de contact,dermatita prin iritant,dermita de contact iritativa,irritant contact dermatitis,irritant dermatitis,contact irritant dermatitis
+Dermatita de iarna,eczem de iarna,xeroza de sezon rece,dermatita de frig,winter dermatitis,winter eczema,cold-weather dermatitis
+Dermatita de staza,dermatita de staza venoasa,dermatita varicoasa,eczem varicos,stasis dermatitis,venous stasis dermatitis,varicose eczema
+Dermatita disidrozica,dermatita dishidrozica,disidroza,eczem disidrozic,dyshidrotic dermatitis,dyshidrotic eczema,pompholyx
+Dermatita exfoliativa,eritrodermie exfoliativa,dermatita exfoliativa generalizata,pitiriazis rubra,exfoliative dermatitis,exfoliative erythroderma,generalized exfoliative dermatitis
+Dermatita herpetiforma,boala Duhring,dermatita herpetiforma Duhring,boala Duhring-Brocq,dermatitis herpetiformis,Duhring disease,Duhring-Brocq disease
+Dermatita IgA liniara,dermatita liniara IgA,boala IgA liniara,dermatita buloasa liniara IgA,linear IgA dermatosis,linear IgA bullous dermatosis,linear IgA disease
+Dermatita lichenoida,reactie lichenoida cutanata,eruptie lichenoida,dermatita lichenoida idiopatica,lichenoid dermatitis,lichenoid skin eruption,lichenoid drug reaction
+Dermatita numulara,eczem numular,dermatita numulara uscata,dermatita in placi rotunde,nummular dermatitis,nummular eczema,discoid eczema
+Dermatita periorala,dermatita periorala rosaceiforma,eruptie periorala,dermatita din jurul gurii,perioral dermatitis,periorificial dermatitis,rosacea-like dermatitis
+Dermatita seboreica faciala,dermatita seboreica a fetei,seboree faciala inflamatorie,eczem seboreic facial,facial seborrheic dermatitis,facial seborrhoeic dermatitis,seborrheic face eczema
+Dermatita serpiginoasa,dermatita eritematoasa circinata,eruptie cutanata circinata,dermatita cu leziuni serpiginoase,serpiginous dermatitis,creeping dermatitis,serpiginous skin eruption
+Dermatofibrom,histiocitom fibros,histiocitom cutanat,dermatofibrom lenticular,dermatofibroma,fibrous histiocytoma,cutaneous histiocytoma
+Dermatofibrosarcom protuberans,tumora Darier-Ferrand,dermatofibrosarcom recidivant,tumora fibroasa cutanata maligna,Darier-Ferrand dermatofibrosarcoma,dermatofibrosarcoma protuberans,DFSP
+Dermatomiozita,boala Wagner-Unverricht,dermatomiozita clasica,miopatia inflamatorie cu eruptie,dermatomyositis,Wagner-Unverricht disease,inflammatory myopathy with skin rash
+Dermatomiozita amiopatica,dermatomiozita fara slabiciune musculara,dermatomiozita hipomiopatica,dermatomiozita clinic amiopatica,amyopathic dermatomyositis,dermatomyositis sine myositis,hypomyopathic dermatomyositis
+Dermatoza acuta neutrofilica,boala Sweet cutanata,dermatita neutrofilica,dermatoza febrila neutrofilica,acute neutrophilic dermatosis,febrile neutrophilic dermatosis,Sweet dermatosis
+Dermatoza eruptiva,eruptie cutanata acuta,dermatoza exantematica,eruptie medicamentoasa cutanata,exanthematous dermatosis,acute skin eruption,drug-induced skin eruption
+Dermografism,urticarie factitia,dermografism simptomatic,urticarie la presiune,dermographism,dermographia,factitious urticaria
+Dermohipodermita,paniculita subcutanata,celulita subcutanata profunda,inflamatia tesutului subcutanat,dermohypodermitis,subcutaneous panniculitis,deep subcutaneous inflammation
+Dermopatia diabetica,dermopatia diabetica diabetica,leziuni cutanate diabetice,piele diabetica,diabetic dermopathy,diabetic skin disease,shin spots
+Displazie ectodermica,displazie ectodermica hidrotica,anomalie ectodermica,displazie ectodermica hipohidrotica,ectodermal dysplasia,hidrotic ectodermal dysplasia,anhidrotic ectodermal dysplasia
+Disseminare cutanata de neoplasme,metastaze cutanate,neoplazie cutanata secundara,metastaze ale pielii,cutaneous metastases,skin metastases,secondary malignant neoplasm of skin
+Ectima,ectima cutanat,ectima streptococic,ulceratie cutanata infectata,ecthyma,ecthyma vulgare,streptococcal ecthyma
+Ectima gangrenos,ectima gangrenosum,ectima gangrenoasa,ectima cu Pseudomonas,ecthyma gangrenosum,gangrenous ecthyma,Pseudomonas ecthyma
+Eczema asteatotic,eczem asteatotic,xeroza eczema,eczem craquele,asteatotic eczema,xerotic eczema,eczema craquele
+Efelide,pistrui,efelide solare,lentigo simplu,freckles,ephelides,solar lentigines
+Elastoza,elastoza senila,degenerescenta elastica a pielii,elastoza cutanata,elastosis,senile elastosis,elastic tissue degeneration
+Epidermodisplazie veruciforma,boala Lewandowsky-Lutz,epidermodisplazia veruciformis,epidermodysplasia verruciformis,Lewandowsky-Lutz disease,verruciform epidermodysplasia,verruciform epidermodysplasia of Lewandowsky
+Epidermoliza buloasa,boala buloasa ereditara,epidermoliza buloasa ereditara,boala pielii fragile,epidermolysis bullosa,hereditary bullous disease,epidermolysis bullosa hereditaria
+Eritema figurat,eritem figurat,eritem anular,eritem circinat,erythema figuratum,annular erythema,figurate erythema
+Eritema gyratum repens,eritem girat repens,eritem migrator superficial,eritem serpiginos paraneoplazic,erythema gyratum repens,gyrate erythema,paraneoplastic figurate erythema
+Eritema indurat,eritem indura Bazin,paniculita nodulara cronica,tuberculid indurat,erythema induratum,Bazin disease,nodular vasculitis of the legs
+Eritema migrator,eritem migrator Lyme,eritem cronic migrator,eritem migrans,erythema migrans,erythema chronicum migrans,Lyme erythema
+Eritema multiform,eritem polimorf,eritem multiform minor,eritem multiforme,erythema multiforme,erythema multiforme minor,erythema multiforme of skin
+Eritema nodos,eritem nodos subacut,paniculita nodulara,eritem contuziform,erythema nodosum,nodular panniculitis,subacute nodular panniculitis
+Eritema nodos migrator,eritem nodos migrator,eritem nodos recidivant,paniculita nodulara migratorie,erythema nodosum migrans,chronic migrating nodular panniculitis,migratory nodular panniculitis
+Eritema toxic,eritem toxic neonatal,eritem toxic al nou-nascutului,eritem toxicum,toxic erythema,erythema toxicum neonatorum,toxic erythema of the newborn
+Eritrasma,eritrasma cutanat,infectie cu Corynebacterium minutissimum,eritrasma inghinal,erythrasma,Corynebacterium minutissimum infection,intertriginous erythrasma
+Eritrodermie,eritrodermie generalizata,boala eritrodermica,piele rosie generalizata,erythroderma,generalized erythroderma,red man syndrome
+Eritromelalgie,boala Mitchell,eritromelalgia,eritermalgie,erythromelalgia,Mitchell disease,erythermalgia
+Esencefalom,tumora esencefalom,tumora anexiala sebacee,hamartom al glandelor sebacee,sebaceous gland tumor,sebaceous gland hamartoma,sebaceous gland proliferation
+Fasciita necrozanta,gangrena streptococica,fasciita necrozanta de tip II,flegmon difuz necrozant,necrotizing fasciitis,streptococcal gangrene,hemolytic streptococcal gangrene
+Fibroza cutanata,induratie cutanata,fibroza pielii,ingrosare fibroasa a pielii,cutaneous fibrosis,skin fibrosis,induration of the skin
+Fotodermatita,dermatita fototoxica,dermatita fotoalergica,reactie cutanata la soare,photodermatitis,phototoxic dermatitis,photoallergic dermatitis
+Fotoimbatranire,fotoimbatranirea pielii,dermatohelioza,imbatranire cutanata actinica,photoaging,photoageing,dermatoheliosis
+Gangrena Fournier,gangrena Fournier a perineului,fasciita necrozanta perineala,gangrena scrotala,Fournier gangrene,Fournier's gangrene,necrotizing fasciitis of the perineum
+Gangrena gazoasa,miozita clostridiana,gangrena clostridiana,infectie cu Clostridium perfringens,gas gangrene,clostridial myonecrosis,clostridial gangrene
+Ginecomastie,marirea sanului la barbat,san feminizat,hipertrofie mamara la barbat,gynecomastia,breast enlargement in men,male breast enlargement
+Granulom de la corpi straini,granulom cu corp strain,granulom din corpi straini,granulom de corp strain,foreign body granuloma,granuloma due to foreign body,foreign body reaction
+Granulom inelar,granulom anular,granulom inelar cutanat,granulom inelar diseminat,granuloma annulare,annular granuloma,ringed granuloma
+Granulom piogenic,granulom telangiectazic,botriomicom,granulom piogenic hemoragic,pyogenic granuloma,telangiectatic granuloma,hemangiomatous granuloma
+Hemangiom infantil,hemangiom al sugarului,hemangiom capilar infantil,hemangiom proliferativ benign,infantile hemangioma,strawberry hemangioma,juvenile hemangioma
+Hidradenita supurativa,acnee inversa,boala Verneuil,hidradenita axilara supurativa,hidradenitis suppurativa,acne inversa,Verneuil disease
+Hiperkeratoza,hiperkeratoza cutanata,keratoza excesiva,cheratinizare excesiva,hyperkeratosis,cutaneous hyperkeratosis,excessive keratinization
+Hiperpigmentare periorbitala,hiperpigmentare perioculara,cerneala sub ochi,pete brune periorbitale,periorbital hyperpigmentation,periorbital darkening,dark circles under the eyes
+Hiperpigmentare postinflamatorie,hiperpigmentare postinflamatorie cutanata,pete brune dupa inflamatie,hiperpigmentare reactiva,postinflammatory hyperpigmentation,post-inflammatory hyperpigmentation,reactive hyperpigmentation
+Hiperplazie sebacee,hiperplazie a glandelor sebacee,adenom sebaceu hiperplazic,hiperplazie glandulara sebacee,sebaceous hyperplasia,senile sebaceous hyperplasia,sebaceous gland hyperplasia
+Hipertricoza,hipertricoza generalizata,exces de par pe corp,piloasa excesiva,hypertrichosis,excess body hair,generalized hair excess
+Hipohidroza,transpiratie redusa,sudoratie scazuta,hiposudatie,hypohidrosis,decreased sweating,reduced sweating
+Hipomelanoza,hipomelanoza cutanata,deficit de melanina,melanopenie,hypomelanosis,decreased melanin,reduced skin pigment
+Hipopigmentare postinflamatorie,hipopigmentare postinflamatorie cutanata,pete albe dupa inflamatie,hipopigmentare reactiva,postinflammatory hypopigmentation,post-inflammatory hypopigmentation,reactive hypopigmentation
+Hirsutism,piloasa la femeie,exces de par androgenic,exces de par de tip masculin,hirsutism of women,male-pattern hair growth in women,androgen excess hair of women
+Ihtioza,boala solzoasa ereditara,piele de peste,stare ihtiozica,ichthyosis,fish skin disease,fish scale skin
+Ihtioza dobandita,ihtioza dobandita tardiv,ihtioza asociata bolilor sistematice,ihtioza secundara,acquired ichthyosis,ichthyosis acquisita,secondary ichthyosis
+Ihtioza hystrix,ihtioza histrix,nevus ihtiosiform,nevus verucosus,ichthyosis hystrix,ichthyosis hystrix gravior,nevus verrucosus
+Ihtioza lamelara,ihtioza lamelara autozomal recesiva,boala solzilor lamelari,ihtioza cu solzi lamelari,lamellar ichthyosis,ichthyosis lamellaris,nonbullous congenital ichthyosiform erythroderma
+Ihtioza legata de X,ihtioza X-linkata,ihtioza legata de cromozomul X,deficit de steroid sulfataza,X-linked ichthyosis,sex-linked ichthyosis,steroid sulfatase deficiency
+Ihtioza vulgara,ihtioza simpla,ihtioza comuna,piele solzoasa ereditara,ichthyosis vulgaris,common ichthyosis,ichthyosis skin disease
+Incontinentia pigmenti,sindrom Bloch-Sulzberger,melanoza demica,boala pigmentara ereditara,Bloch-Sulzberger syndrome,inherited pigmentary disorder,pigmentary mosaicism of skin
+Insuficienta venoasa cronica cutanata,dermatopatia de staza,modificari cutanate de staza venoasa,boala cutanata venoasa,chronic venous stasis dermatopathy,venous skin changes,stasis skin disease
+Keratoza foliculara inversa,keratosis follicularis inversa,cheratoza foliculara inversa,boala solzoasa foliculara,inverted follicular keratosis,follicular keratosis inversa,porokeratosis of the follicle
+Larva migrans cutanata,eruptie liniara migratorie,larva migratoria cutanata,eruptie serpiginoasa larvaroasa,cutaneous larva migrans,creeping eruption,creeping eruption of skin
+Lichen nitidus,lichen nitidus cutanat,lichen nitidus generalizat,eruptie papuloasa lichenoida,lichen nitidus disease,generalized lichen nitidus,papular lichenoid eruption
+Lichen plan,lichen ruber planus,lichen ruber,lichen planus cutanat,lichen planus,lichen planus of the skin,true lichen planus
+Lichen plan pilar,lichen plan folicular,keratoza foliculara spinulosa,lichen planopilaris,follicular lichen planus,pilar lichen planus,lichen planopilaris of the scalp
+Lichen sclerosus,lichen sclerosus et atrophicus,lichen scleroatrofic,balanita xerotica obliterans,balanitis xerotica obliterans,white spot disease of the vulva,lichen sclerosus of the vulva
+Lichen simplex cronic,neurodermatita circumscripta,prurigo circumscriptus,dermatita de lichenificare,lichen simplex chronicus,circumscribed neurodermatitis,localized lichenification
+Lichen striatus,eruptie liniara lichenoida,eruptie lichenoida liniara,lichen liniar,linear lichenoid eruption,linear lichen planus,lichen striatus of childhood
+Limfangita cutanata,limfangita,inflamatia vaselor limfatice,limfangita acuta,lymphangitis,skin lymphangitis,acute lymphangitis
+Limfoame cutanate primare,limfom cutanat,limfom al pielii,limfom cutanat primar,primary cutaneous lymphoma,cutaneous lymphoma,skin lymphoma
+Lipodermatoscleroza,lipodermatoscleroza de gamba,induratie cutanata a gambei,hipodermita sclerozanta,lipodermatosclerosis,sclerosing panniculitis,hypodermitis sclerodermiformis
+Lipom cutanat,lipom subcutanat,tumora grasoasa cutanata,lipoame multiple,cutaneous lipoma,subcutaneous lipoma,superficial lipoma
+Lipomatoza,lipomatoza multipla,lipomatoza simetrica,boala Launois-Bensaude,multiple lipomatosis,symmetric lipomatosis,Launois-Bensaude disease
+Livedo reticularis,livedo reticular,livedo reticularis idiopatica,piele marmorata,livedo racemosa,cutis marmorata,idiopathic livedo reticularis
+Livedo vasculita,livedo vasculopathy,vasculita livedoida,vasculopatia livedoida,livedo vasculitis,livedoid vasculopathy,livedoid vasculitis
+Lupus vulgar,lupus tuberculos cutanat,tuberculoza cutanata lupoasa,lupsa cutanata,lupus vulgaris,tuberculous lupus,cutaneous tuberculosis lupus
+Malformatie limfatica,limfangiom,malformatie limfatica cutanata,limfangiom cutanat,lymphatic malformation,lymphangioma,cutaneous lymphatic malformation
+Mastocitoza cutanata,mastocitoza pielii,mastocitoza maculopapulara,mastocitoza difuza cutanata,cutaneous mastocytosis,mastocytosis of the skin,diffuse cutaneous mastocytosis
+Melanom acral,melanom acrolentiginos,melanom al extremitatilor,melanom palmoplantar,acral melanoma,acral lentiginous melanoma,acral skin melanoma
+Melanom amelanotic,melanom fara pigment,melanom amelanocitic,melanom nonpigmentat,amelanotic melanoma,nonpigmented melanoma,amelanotic skin melanoma
+Melanonichie,unghie neagra,hiperpigmentare unghiala longitudinala,banda pigmentara unghiala,melanonychia,black nail,longitudinal nail pigmentation
+Melanoza cutanata,melanodermie,hiperpigmentare cutanata difuza,melanoza difuza,cutaneous melanosis,melanoderma,diffuse cutaneous hyperpigmentation
+Melasma,melasma facial,masca faciala,pete brune pe fata,facial melasma,melasma of pregnancy,mask of pregnancy
+Micoza fungoides,limfom cutanat cu celule T,limfom T cutanat epidermotrop,reticuloza cutanata cu celule T,mycosis fungoides,cutaneous T-cell lymphoma,Alibert-Bazin syndrome
+Miliaria rubra,miliaria rubra tropicalis,eruptie de caldura cu vezicule,boala de caldura a pielii,prickly heat,sweat rash,heat rash with vesicles
+Milium,milium cutanat,milium facial,chist miliar,milia,whitehead,milium of the skin
+Mixedem cutanat,mixedem,edem mucinos cutanat,mucinous infiltration of the skin,myxedema,cutaneous myxedema,mucinous skin infiltration
+Molluscum contagiosum,negii moli,infectie cu poxvirus,molluscum epitheliale,molluscum bodies skin disease,poxvirus skin infection,molluscum epitheliale of skin
+Morfea,sclerodermie localizata morfea,sclerodermie circumscrisa,boala scleroderma morphea,morphea,localized scleroderma,circumscribed scleroderma
+Mucinoza cutanata,boala mucinoza cutanata,mucinoza papulara,depunere de mucina in piele,cutaneous mucinosis,papular mucinosis,lichen myxedematosus
+Necroliza epidermica toxica,sindrom Lyell,necroza epidermica acuta,epidermoliza toxica,toxic epidermal necrolysis,Lyell syndrome,acute epidermal necrolysis
+Necroza cutanata,necroza pielii,necroliza tisulara cutanata,distructie tisulara cutanata,skin necrosis,cutaneous necrosis,necrosis of the skin
+Neurodermatita,neurodermatita atipica,neurodermatita localizata,boala neurodermica,neurodermatitis,neurodermatitis circumscripta,lichenification
+Nevo melanocitar,nev melanocitar,nev pigmentar melanocitar,alunita pigmentara,melanocytic nevus,melanocytic naevus,pigmented mole
+Nevus displazic,nev displazic,nev atipic,nev cu risc de transformare,dysplastic nevus,atypical nevus,dysplastic naevus
+Nevus sebaceu,nev sebaceu Jadassohn,hamartom sebaceu,nev sebaceu,nevus sebaceus,nevus sebaceus of Jadassohn,Jadassohn sebaceous nevus
+Nevus Spitz,nev Spitz,melanom juvenil benign,nev cu celule fusiforme,Spitz nevus,Spitz naevus,benign juvenile melanoma
+Onicocriptoza,unghie incarnata,unghie incarnata dureroasa,unghie crescuta in carne,ingrown nail,onychocryptosis,ingrowing nail
+Onicodistrofie,distrofie unghiala,unghii deformate,distrofie a unghiilor,onychodystrophy,nail dystrophy,dystrophic nails
+Onicogrifoza,onichogrifoza,unghie grifa,unghie incovoiata si ingrosata,onychogryphosis,onychogryposis,ram's horn nail
+Onicoliza,onicoliza unghiala,desprindere a unghiei,dezlipire a unghiei,onycholysis,nail separation,detachment of the nail
+Onicomadezis,onicomadezis completa,dezlipire proximala a unghiei,unghie care cade,onychomadesis,nail shedding,proximal nail detachment
+Panariciu,panaricium,panariciu cutanat,infectie a pulpei degetului,whitlow,felon,infection of the finger pulp
+Papuloza limfomatoida,boala Mucha-Habermann acuta,pitiriazis lichenoid si varioliform acut,parapsoriazis varioliform acut,pityriasis lichenoides et varioliformis acuta,PLEVA,acute parapsoriasis
+Parapsoriazis,parapsoriazis in placi mici,parapsoriazis in mici placi,parapsoriazis in placi,parapsoriasis,small plaque parapsoriasis,parapsoriasis en plaques
+Paronichie,panariciu periunghial,paronichie acuta,infectie periunghiala,paronychia,nail fold infection,periungual infection
+Pemfigoid bulos,pemfigoid benign,penfigoid senil,boala Lever,pemphigoid,bullous pemphigoid,senile pemphigoid
+Pemfigoid cicatricial,pemfigoid cicatricial mucoaselor,penfigoid benign al mucoaselor,pemfigoid cicatrizant,cicatricial pemphigoid,mucous membrane pemphigoid,benign mucosal pemphigoid
+Pemfigus foliaceu,pemfigus foliaceu de tip Cazenave,pemfigus superficial,pemfigus eritematos,pemphigus foliaceus,Cazenave pemphigus,superficial pemphigus
+Pemfigus vegetant,pemfigus vegetans,pemfigus vegetant Neumann,pemfigus cu vegetatii,pemphigus vegetans,Neumann pemphigus,vegetating pemphigus
+Pemfigus vulgar,pemfigus vulgaris,pemfigus obisnuit,pemfigus comun,pemphigus vulgaris,common pemphigus,ordinary pemphigus
+Penfigus paraneoplazic,pemfigus paraneoplazic,penfigus asociat tumorii,pemfigus cu neoplasme,pemphigus paraneoplastic,paraneoplastic pemphigus,pemphigus associated with malignancy
+Picior diabetic,picior diabetic neuropatic,boala piciorului diabetic,complicatie a piciorului in diabet,diabetic foot,diabetic foot disease,diabetic foot syndrome
+Pioderma cutanat,infectie piogena cutanata,supuratie cutanata,infectie bacteriana a pielii,cutaneous pyoderma,pyogenic skin infection,skin pyoderma
+Pioderma gangrenos,pioderma gangrenoasa,dermatita ulcerativa,piodermita gangrenoasa,pyoderma gangrenosum,ulcerative dermatitis,gangrenous pyoderma
+Pitiriazis lichenoid cronic,pitiriazis lichenoid cronic varioliform,parapsoriazis gutat,boala Mucha-Habermann cronica,pityriasis lichenoides chronica,chronic pityriasis lichenoides,chronic Mucha-Habermann disease
+Pitiriazis rozat,pitiriazis rozata Gibert,parapsoriazis rozat,roseola annulata,pityriasis rosea,Gibert pityriasis rosea,pityriasis rosea of Gibert
+Pitiriazis versicolor,tinea flava,cuperoza alba,infectie cu Malassezia,pityriasis versicolor,tinea versicolor,Malassezia infection
+Poikiloderma,poikiloderma cutanat,poikiloderma atrophicans vasculare,poikiloderma vascular,poikiloderma of skin,poikiloderma vasculare atrophicans,atrophic poikiloderma of the skin
+Poikilodermie vasculara atrofianta,poikilodermie atrofica,poikiloderma vascular atrofic,atrofie cutanata poikilodermica,atrophic vascular poikiloderma,poikilodermatous skin change,atrophic poikiloderma
+Poliarterita nodoza cutanata,poliarterita nodoza,panarterita nodoza,vasculita necrozanta sistemica,polyarteritis nodosa,periarteritis nodosa,necrotizing systemic vasculitis
+Porokeratoza,porokeratoza Mibelli,porokeratoza cutanata,porokeratoza clasica,porokeratosis,porokeratosis of Mibelli,classic porokeratosis
+Porokeratoza actinica diseminata,porokeratoza superficiala diseminata,porokeratoza actinica,porokeratoza diseminata,disseminated superficial actinic porokeratosis,disseminated superficial porokeratosis,actinic porokeratosis
+Prurigo,prurigo Hebra,prurigo mitis,prurigo infantil,Hebra prurigo,prurigo simplex,prurigo of Hebra
+Prurigo actinica,prurigo solar,prurigo de lumina,prurigo estival,actinic prurigo,solar prurigo,prurigo of light exposure
+Prurigo de sarcina,prurigo gestational,prurigo al sarcinii,eruptie pruriginoasa de sarcina,prurigo of pregnancy,gestational prurigo,pemphigoid gestationis
+Prurigo ferox,prurigo agria,prurigo sever,prurigo cu leziuni excoriate,prurigo ferox Hebra,severe prurigo,agria prurigo
+Prurigo nodular,prurigo nodularis,neurodermatita nodulara,lichenificare nodulara,nodular prurigo,nodular neurodermatitis,Hyde prurigo
+Prurigo simplex acuta,prurigo acut din intepaturi,prurigo infantil acut,prurigo strophulus,prurigo simplex acuta infantum,strophulus,acute childhood prurigo
+Pseudolimfom cutanat,limfom cutanat benign,pseudolimfom de piele,limfoproliferare cutanata benigna,cutaneous pseudolymphoma,benign cutaneous lymphoma,skin pseudolymphoma
+Pseudopelada,alopecie cicatriciala frontala,pseudopelada Brocq,alopecie cicatriciala idiopatica,pseudopelade of Brocq,pseudopelade,cicatricial alopecia of Brocq
+Pseudoxanthoma elasticum,pseudoxantom elastic,elastorrhexia sistemica,boala Groenblad-Strandberg,pseudoxanthoma elasticum disease,Groenblad-Strandberg syndrome,systemic elastorrhexia
+Purpura Henoch-Schonlein,purpura anafilactoida,vasculita IgA,purpura reumatoida,Henoch-Schonlein purpura,IgA vasculitis,anaphylactoid purpura
+Pustuloza exantematica acuta generalizata,pustuloza exantematica,pustuloza exantematica acuta,PEAG,acute generalized exanthematous pustulosis,AGEP,toxic pustuloderma
+Radiodermita,arsura de radiatii,leziune cutanata prin radiatii,radionecroza cutanata,radiodermatitis,radiation burn,radiation skin injury
+Rinofima,rinofima rosacee,nas in bulgari,nas hipertrofic,rhinophyma,phymatous rosacea,bulbous nose
+Rosacea fulminans,rosacee fulminans,pioderma facial,rosacee conglobata,pyoderma faciale,rosacea conglobata,fulminant rosacea
+Sarcoidoza cutanata,sarcoidoza pielii,lupus pernio,granulom sarcoid cutanat,cutaneous sarcoidosis,skin sarcoidosis,sarcoid granuloma of the skin
+Scleredem,scleredem adult,scleroza cutanata difuza,boala Buschke,scleredema of Buschke adult,scleredema adultorum,Buschke disease
+Sclerodermie limitata,sclerodermie cutanata limitata,sclerodermie in placi,boala sclerodermica limitata,limited scleroderma,limited cutaneous systemic sclerosis,morphea-like scleroderma
+Scleromixedem,scleromixedem cutanat,boala mucinoza generalizata,mixedem sclerotic,scleromyxedema,generalized myxedema,scleromyxedema of Arndt-Gottron
+Sicoza,sicoza barbii,folliculita sicoziforma,infectie foliculara a barbii,sycosis,sycosis barbae,folliculitis barbae
+Sifilid cutanat,sifilide cutanate,eruptie sifilitica,sifiloderma,cutaneous syphilis,syphilid,syphilitic skin eruption
+Sifilid papulos,sifilid papuloasa,eruptie sifilitica papuloasa,sifiloderma papulos,papular syphilid,macular syphilid,secondary syphilis rash
+Sindrom Bloom,displazie congenitala cu fotosensibilitate,sindrom de instabilitate cromozomiala,eruptie telangiectazica congenitala,Bloom syndrome,congenital telangiectatic erythema,chromosomal instability syndrome
+Sindrom Cockayne,nanism cu fotosensibilitate,sindrom de degenerare neurocutanata,boala Cockayne,Cockayne syndrome,Neill-Dingwall syndrome,neurocutaneous degeneration syndrome
+Sindrom Cronkhite-Canada,polipoza cu pigmentare si alopecie,sindrom de polipoza si hiperpigmentare,polipoza generalizata cu onicodistrofie,Cronkhite-Canada syndrome,gastrointestinal polyposis with pigmentation,generalized polyposis with onychodystrophy
+Sindrom de hipervascozitate cutanata,hipervascozitate sanguina cu leziuni cutanate,sindrom de hipervascozitate,leziuni cutanate prin hipervascozitate,hyperviscosity syndrome,serum hyperviscosity,cutaneous hyperviscosity syndrome
+Sindrom de piele arzanda,boala cu piele arzanda,sindromul pielii care arde,disestezie cutanata arzanda,burning skin syndrome,burning skin,scalp dysesthesia
+Sindrom de piele oparita stafilococic,boala Ritter,necroliza epidermica stafilococica,boala Ritter von Rittershain,staphylococcal scalded skin syndrome,Ritter disease,staphylococcal epidermolysis
+Sindrom de soc toxic,soc toxic stafilococic,soc toxic streptococic,boala prin toxina stafilococica,toxic shock syndrome,staphylococcal toxic shock syndrome,streptococcal toxic shock syndrome
+Sindrom Gardner cutanat,sindrom Gardner,chisturi sebacee multiple cu polipoza,tumori cutanate in sindromul Gardner,cutaneous Gardner syndrome,Gardner syndrome,familial colorectal polyposis with skin cysts
+Sindrom Kasabach-Merritt,hemangiom cu trombocitopenie,coagulopatie prin hemangiom,tumora vasculara cu trombocitopenie,Kasabach-Merritt syndrome,hemangioma with thrombocytopenia,hemangioma-thrombocytopenia syndrome
+Sindrom Kindler,epidermoliza buloasa cu poikilodermie,poikilodermie cu fragilitate cutanata,epidermoliza buloasa Kindler,Kindler syndrome,Kindler epidermolysis bullosa,poikiloderma with bullous epidermolysis
+Sindrom Muckle-Wells,urticarie familiala cu surditate,urticarie autoinflamatorie familiala,boala inflamatorie cu urticarie,Muckle-Wells syndrome,familial cold autoinflammatory syndrome,urticaria with deafness syndrome
+Sindrom Netherton,ihtioza liniara circumflexa,boala Netherton,ihtioza serpiginoasa,Netherton syndrome,ichthyosis linearis circumflexa,Comel-Netherton disease
+Sindrom Papillon-Lefevre,keratodermia palmoplantara cu parodontita,boala Papillon-Lefevre,cheratodermie palmoplantara cu parodontoza,Papillon-Lefevre syndrome,palmoplantar keratoderma with periodontitis,keratosis palmoplantaris with periodontopathy
+Sindrom Peutz-Jeghers cutanat,lentiginoze periorale,pete pigmentare mucocutanate,polipoza hamartomatoasa,PJS syndrome,perioral lentiginosis,mucocutaneous pigmentation
+Sindrom Richner-Hanhart,keratodermia palmoplantara cu retard mintal,tirozinemie oculocutanata,cheratodermie punctata cu tirozinemie,Richner-Hanhart syndrome,oculocutaneous tyrosinemia,tyrosinemia type II
+Sindrom Rothmund-Thomson,poikilodermie congenitala,poikiloderma congenitale,atrofie cutanata cu cataracta,Rothmund-Thomson syndrome,congenital poikiloderma,poikiloderma of Rothmund-Thomson
+Sindrom Sezary,limfom Sezary,sindrom Sezary cutanat,limfom cutanat cu celule T Sezary,Sezary syndrome,Sezary lymphoma,Sezary cutaneous T-cell lymphoma
+Sindrom Stevens-Johnson,eritem multiform major,sindromul Stevens-Johnson,necroza epidermica buloasa,Stevens-Johnson syndrome,erythema multiforme major,bullous epidermal necrolysis
+Sindrom Stickler,artro-oftalmopatia ereditara,boala Stickler,displazie vitreoretinala ereditara,Stickler syndrome,hereditary arthro-ophthalmopathy,hereditary progressive arthro-ophthalmopathy
+Sindrom Sweet,dermatita acuta febrila neutrofila,boala Sweet,dermatosis neutrofilica febrila,Sweet syndrome,acute febrile neutrophilic dermatosis,Sweet disease
+Siringom,siringom cutanat,tumora sudoripara ecrina,hidradenom ecrin,syringoma,eruptive syringoma,syringoma of skin
+Spiradenom,spiradenom ecrin,tumora sudoripara benigna,hidradenom nodular,spiradenoma,eccrine spiradenoma,nodular hidradenoma
+Steatocistom,steatocystoma multiplex congenital,chist sebaceu multiplu,steatocistom multiplu,steatocystoma multiplex,multiple steatocystoma,sebaceous cyst multiplicity
+Telangiectazia,telangiectazie,capilare dilatate,vene mici dilatate,telangiectasia,spider veins,dilated capillaries
+Teleangectazia hemoragica ereditara,boala Osler,boala Osler-Rendu-Weber,teleangectazie hemoragica ereditara,hereditary hemorrhagic telangiectasia,Osler-Rendu-Weber disease,Osler disease
+Tinea barbae,tinea sycosis,sicoza tinea,ciuperca barbii,barber's itch,ringworm of the beard,tinea of the beard
+Tinea capitis,tinea tonsurans,ciuperca scalpului,infectie fungica a scalpului,ringworm of the scalp,tinea of the scalp,scalp ringworm
+Tinea corporis,tinea circinata,herpes circinat,ciuperca pe corp,ringworm of the body,body ringworm,tinea corporis of the body
+Tinea faciei,tinea facialis,ciuperca pe fata,tinea fetei,ringworm of the face,facial ringworm,tinea of the face
+Tinea incognito,tinea atipica,micoza modificata prin tratament,ciuperca mascata de corticoizi,steroid-modified tinea,tinea incognita,atypical tinea infection
+Tinea manuum,tinea manus,ciuperca pe maini,tinea mainilor,tinea manuum infection,hand ringworm,tinea of the hands
+Trichilemom,tricilemom,tumora foliculara benigna,chist folicular pilar,trichilemmoma,tumor of the hair follicle,trichilemmal tumor
+Trichostasis spinulosa,trichostazie spinuloasa,chist folicular cu fire de par,fire de par in chist folicular,follicular plugging with hairs,hair casts of the follicle,trichostasis spinulosa disease
+Trichotilomanie,tricotilomanie,tic de smulgere a parului,alopecie prin smulgere,trichotillomania,hair-pulling disorder,compulsive hair pulling
+Tricoepiteliom,tricoepiteliom multiplu,epiteliom folicular,tumora foliculara benigna multipla,trichoepithelioma,multiple trichoepithelioma,follicular epithelioma
+Tuberculid cutanat,tuberculide cutanate,eruptie tuberculidica,tuberculide,cutaneous tuberculid,tuberculides,tuberculous skin eruption
+Tuberculoza cutanata,tuberculoza pielii,lupus tuberculos,tuberculoza cutanata verucoasa,cutaneous tuberculosis,skin tuberculosis,tuberculosis of the skin
+Tulburare de keratinizare,keratinizare anormala,tulburari de cheratinizare,anomalie a keratinizarii,keratinization disorder,abnormal keratinization,disorder of keratinization
+Ulcer de decubit infectat,escara infectata,ulcer de presiune infectat,plaga de decubit infectata,infected pressure ulcer,infected bedsore,infected decubitus ulcer
+Ulcer diabetic de picior,ulcer neuropatic diabetic,mal perforant plantar,ulcer plantar diabetic,diabetic foot ulcer,mal perforant ulcer,plantar neuropathic ulcer
+Ulcer neuropatic,ulcer trophoneurotic,ulcer de origine nervoasa,ulcerare neuropatica,neuropathic ulcer,trophic ulcer,trophoneurotic ulcer
+Ulcere ale pielii,ulceratii cutanate,ulcer cutanat,plaga deschisa a pielii,skin ulcer,cutaneous ulceration,skin ulceration
+Urticarie colinergica,urticarie de efort,urticarie la caldura,urticarie indusa de efort,cholinergic urticaria,exercise-induced urticaria,heat-induced urticaria
+Urticarie cronica,urticarie cronica spontana,urticarie persistenta,urticarie idiopatica,chronic urticaria,chronic spontaneous urticaria,chronic idiopathic urticaria
+Urticarie de contact,urticarie prin contact cutanat,urticarie de contact alergica,urticarie de contact iritativa,contact urticaria,allergic contact urticaria,urticaria due to contact
+Urticarie la frig,urticarie la rece,urticarie prin frig,alergie la frig,cold urticaria,cold-induced urticaria,acquired cold urticaria
+Urticarie solara,urticarie la soare,urticarie prin expunere solara,fotoalergie urticariana,solar urticaria,sun urticaria,light-induced urticaria
+Urticarie vasculitica,vasculita urticariana,urticarie cu vasculita,angioedem cu vasculita,urticarial vasculitis,hypocomplementemic urticarial vasculitis,urticaria with vasculitis
+Vasculita cutanata,vasculita de piele,angita cutanata,vasculita leucocitoclastica,cutaneous vasculitis,skin vasculitis,leukocytoclastic vasculitis
+Vasculita nodulara,vasculita nodulara cutanata,eritem indurat vasculitic,paniculita vasculitica,nodular vasculitis,cutaneous nodular vasculitis,vasculitic panniculitis
+Vasculita septica,vasculita infectioasa,vasculita din sepsis,angita septica,septic vasculitis,infectious vasculitis,vasculitis due to sepsis
+Veruci plane,negi plani,veruci juvenile,negi faciali,plane warts,flat warts,verruca plana
+Xantelasma,xantelasme,placi galbene pe pleoape,xantoma palpebral,xanthelasma,xanthelasma palpebrarum,eyelid xanthoma
+Xantoame cutanate,xantom cutanat,xantomatosis cutis,depozite de grasime in piele,cutaneous xanthoma,xanthoma,xanthomatosis
+Xantogranulom,xantogranulom juvenil,xantogranulom cutanat,histiocitoza xantogranulomatoasa,juvenile xanthogranuloma,xanthogranuloma,cutaneous xanthogranuloma
+Xeroderma pigmentosum,xerodermie pigmentara,boala de fotosensibilitate ereditara,poikiloderma pigmentar,inherited photosensitivity disorder,pigmentary xeroderma,xeroderma pigmentosum disease
+Zona zoster oftalmica,herpes zoster oftalmic,zona zoster a nervului oftalmic,zona zoster oculara,ophthalmic herpes zoster,herpes zoster ophthalmicus,shingles of the eye
