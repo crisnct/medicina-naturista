@@ -48,15 +48,15 @@ PINNED = dict(
     deepseek_model="deepseek-flash",
     deepseek_api_base="https://api.deepseek.com",
     deepseek_reasoning_effort="",
-    deepseek_max_context_chars=None,
+    deepseek_max_context_chars=1_000_000,
     ollama_model="deepseek-v4.1-flash:cloud",
     ollama_api_base="http://localhost:11434/v1",
     ollama_reasoning_effort="",
-    ollama_max_context_chars=None,
+    ollama_max_context_chars=1_000_000,
     ai_stream=False,
     ai_max_output_tokens=20000,
     ai_read_timeout_seconds=300,
-    max_context_chars=1_000_000,
+    xai_max_context_chars=1_000_000,
 )
 
 
@@ -208,8 +208,8 @@ class DeepSeekDirectTest(unittest.TestCase):
             client.close()
         self.assertEqual(calls[0]["json"]["reasoning"], {"effort": "high"})
 
-    def test_budget_defaults_to_the_global_limit(self):
-        client = create_ai_client(settings_for("deepseek", max_context_chars=900_000))
+    def test_budget_is_the_providers_limit(self):
+        client = create_ai_client(settings_for("deepseek", deepseek_max_context_chars=900_000))
         client.close()
         self.assertEqual(client.context_budget(), 900_000)
 
@@ -379,17 +379,17 @@ class ContextBudgetTest(unittest.TestCase):
         client.close()
         return client.context_budget()
 
-    def test_xai_uses_the_global_limit(self):
-        self.assertEqual(self.budget("xai", max_context_chars=900_000), 900_000)
+    def test_each_provider_uses_its_own_limit(self):
+        self.assertEqual(self.budget("xai", xai_max_context_chars=900_000), 900_000)
+        self.assertEqual(self.budget("huggingface", hf_max_context_chars=120_000), 120_000)
+        self.assertEqual(self.budget("deepseek", deepseek_max_context_chars=800_000), 800_000)
+        self.assertEqual(self.budget("ollama", ollama_max_context_chars=700_000), 700_000)
 
-    def test_huggingface_is_capped_by_its_own_limit(self):
-        self.assertEqual(self.budget("huggingface", max_context_chars=1_000_000, hf_max_context_chars=120_000), 120_000)
-
-    def test_global_limit_wins_when_lower(self):
-        self.assertEqual(self.budget("huggingface", max_context_chars=50_000, hf_max_context_chars=120_000), 50_000)
-
-    def test_ollama_without_own_limit_uses_the_global_one(self):
-        self.assertEqual(self.budget("ollama", max_context_chars=800_000, ollama_max_context_chars=None), 800_000)
+    def test_defaults_are_one_million_except_huggingface(self):
+        self.assertEqual(self.budget("xai"), 1_000_000)
+        self.assertEqual(self.budget("deepseek"), 1_000_000)
+        self.assertEqual(self.budget("ollama"), 1_000_000)
+        self.assertEqual(self.budget("huggingface"), 120_000)
 
 
 class HTTPErrorTest(unittest.TestCase):

@@ -55,8 +55,8 @@ class Retriever:
         return f"{EVIDENCE_HEADING_PREFIX}{heading}{EVIDENCE_HEADING_SEPARATOR}{text}"
 
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
-    # max_chars is the evidence budget for the active AI provider; None keeps
-    # rank()'s default (settings.max_context_chars).
+    # max_chars is the evidence budget for the active AI provider; None means
+    # no budget (rank() returns every fragment).
     def collect(self, session: SessionData, max_chars: int | None = None) -> dict[str, dict[str, Any]]:
         profile = session.profile
         query = consultation_query(profile)
@@ -87,7 +87,7 @@ class Retriever:
         # The fragment's score is rank()'s score (ai/search.py:
         # 8*P1 + 4*P2 + 2*L + V, never above MAX_SCORE); relevance_percent is
         # that score as a percentage of the ceiling. rank() applies the only
-        # limit there is, the MAX_CONTEXT_CHARS budget over the evidence text,
+        # limit there is, the provider's context budget over the evidence text,
         # by cutting whole fragments from the end of the score-ordered list, so
         # every fragment it returns becomes evidence, below.
         candidates = rank(query, category_ids=category_ids, max_chars=max_chars)

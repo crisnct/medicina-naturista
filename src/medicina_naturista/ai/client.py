@@ -102,7 +102,7 @@ class ResponsesClient:
         self.provider = provider
         self.settings = settings
         # The read timeout is generous: a request can carry close to
-        # MAX_CONTEXT_CHARS (1M chars, ~250K tokens), which can take minutes.
+        # the provider's context budget (1M chars, ~250K tokens), which can take minutes.
         self.http = httpx.Client(
             timeout=httpx.Timeout(float(provider.read_timeout_seconds), connect=10.0)
         )
@@ -114,10 +114,9 @@ class ResponsesClient:
     def is_configured(self) -> bool:
         return not self.provider.api_key_required or bool(self.provider.api_key())
 
-    # Evidence budget in characters: the global limit, lowered by the provider's own.
+    # Evidence budget in characters: the active provider's own context limit.
     def context_budget(self) -> int:
-        limit = self.provider.max_context_chars
-        return self.settings.max_context_chars if limit is None else min(self.settings.max_context_chars, limit)
+        return self.provider.max_context_chars
 
     # Close the underlying HTTP connection pool.
     def close(self) -> None:

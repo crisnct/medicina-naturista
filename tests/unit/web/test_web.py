@@ -923,7 +923,7 @@ class WebTests(unittest.TestCase):
         profile.set_health_problem("vreau recomandari naturiste pentru gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = Retriever(settings.documents_dir)
-        evidence = retriever.collect(session)
+        evidence = retriever.collect(session, 1_000_000)
 
         self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
         titled = [item["condition_in_title"] for item in evidence.values()]
@@ -934,7 +934,7 @@ class WebTests(unittest.TestCase):
             and "Tinctură fructe de soc" in item["text"]
             for item in evidence.values()
         ))
-        self.assertLessEqual(sum(len(item["text"]) for item in evidence.values()), settings.max_context_chars)
+        self.assertLessEqual(sum(len(item["text"]) for item in evidence.values()), 1_000_000)
 
     # Build synthetic rank() output for one query, as rank() returns every fragment.
     @staticmethod
@@ -1038,7 +1038,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(evidence, {})
 
     # The provider's evidence budget reaches rank() as max_chars; without one
-    # rank() receives None and keeps settings.max_context_chars.
+    # rank() receives None (no budget).
     def test_collect_passes_the_provider_budget_to_rank(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")

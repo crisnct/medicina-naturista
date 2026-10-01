@@ -2,7 +2,7 @@
 
 **Intrare:** problema de sănătate din profilul sesiunii și indexul din Postgres.
 
-**Ieșire:** inventarul de dovezi (`evidence`): fragmente ordonate descrescător după scor, limitate la `MAX_CONTEXT_CHARS`, gata de afișat pacientului și de trimis către AI.
+**Ieșire:** inventarul de dovezi (`evidence`): fragmente ordonate descrescător după scor, limitate la bugetul de context al furnizorului AI (`max_chars`), gata de afișat pacientului și de trimis către AI.
 
 Codul implicat: `ai/conditions.py` (`resolve_query()`), `ai/search.py` (`rank()`), `ai/retrieval.py` (`Retriever.collect()`), `web/handlers.py` (afișarea). Planul din care provine: [fragment-scoring-refactoring-plan.md](fragment-scoring-refactoring-plan.md).
 
@@ -53,7 +53,7 @@ relevance_percent = score / 15 × 100
 - **3.1.** `pool`: fragmentele categoriilor selectate, cu P1 și P2 (operatorul `&&` pe array-urile indexate GIN) și cosinusul exact.
 - **3.2.** `lex`: fragmentele care satisfac `tsquery` (indexul GIN `idx_chunks_text_search`), cu `ts_rank_cd`.
 - **3.3.** Statisticile căutării, apoi `score` pentru fiecare fragment; fragmentele cu scor 0 (nicio afecțiune, nicio potrivire lexicală, similaritate semantică sub mediană) nu intră în rezultat.
-- **3.4.** **Bugetul de context:** suma cumulată a caracterelor de dovadă în ordinea scorului (`char_count` plus prefixul `Secțiune: <titlu>` + linie goală, ca în `Retriever._context()`). Se păstrează doar prefixul care încape în `max_chars` (implicit `MAX_CONTEXT_CHARS = 1.000.000`), deci fragmentele de la coadă se elimină **întregi**, niciodată trunchiate; primul fragment care nu încape le elimină și pe toate cele de după el.
+- **3.4.** **Bugetul de context:** suma cumulată a caracterelor de dovadă în ordinea scorului (`char_count` plus prefixul `Secțiune: <titlu>` + linie goală, ca în `Retriever._context()`). Se păstrează doar prefixul care încape în `max_chars` (bugetul furnizorului AI; fără `max_chars`, adică în scripturi și teste, nu se taie nimic), deci fragmentele de la coadă se elimină **întregi**, niciodată trunchiate; primul fragment care nu încape le elimină și pe toate cele de după el.
 - **3.5.** Textul fragmentelor păstrate se citește printr-un `JOIN LATERAL` pe cheia primară, ca să fie atinse doar acele rânduri (un `JOIN` obișnuit face Postgres să parcurgă întreaga tabelă, text inclus, și era de 3–5 ori mai lent).
 - **3.6.** Nu există nicio limită de candidați per semnal: nimic nu se elimină înainte de scor.
 - **3.7.** Rezultatul fiecărui fragment: `chunk_id`, `score`, `condition_in_title` (P1), `condition_in_text` (P2), `lexical_score` (L, `None` dacă nu s-a potrivit), `semantic_score` (V), `semantic_similarity` (cosinusul brut), `found_by_lexical`, calea sursei, `line_start`, `line_end`, `heading`, `text`, `source_sha256`, `business_category`, `primary_medical_conditions`, `secondary_medical_conditions`.
@@ -79,7 +79,7 @@ Fragmentele nu se unesc: fiecare este o secțiune întreagă (vezi `ai/fragmente
   | `found_by_lexical` | adevărat dacă a fost găsit lexical |
 
 - **4.4.** Se înregistrează în log numărul de fragmente, caracterele și sursele unice.
-- **4.5.** `MAX_CONTEXT_CHARS` este aplicat o singură dată, de `rank()`: pacientul vede exact fragmentele pe care le va primi AI-ul, iar cererea le trimite pe toate nemodificate (vezi [final-report-generation.md](final-report-generation.md)).
+- **4.5.** Bugetul furnizorului este aplicat o singură dată, de `rank()`: pacientul vede exact fragmentele pe care le va primi AI-ul, iar cererea le trimite pe toate nemodificate (vezi [final-report-generation.md](final-report-generation.md)).
 
 ## 5. Afișarea în interfață — `_fragments_message()` și `FragmentsPanel`
 
@@ -92,7 +92,7 @@ Fragmentele nu se unesc: fiecare este o secțiune întreagă (vezi `ai/fragmente
 
 | Variabilă | Implicit | Rol |
 |---|---|---|
-| `MAX_CONTEXT_CHARS` | 1.000.000 | Bugetul textului dovezilor (caractere); fragmente întregi eliminate de la coadă |
+| `X_AI_MAX_CONTEXT_CHARS` / `DEEPSEEK_MAX_CONTEXT_CHARS` / `OLLAMA_MAX_CONTEXT_CHARS` / `HF_MAX_CONTEXT_CHARS` | 1.000.000 (HF: 120.000) | Bugetul textului dovezilor (caractere); fragmente întregi eliminate de la coadă |
 | `CONDITIONS_FILE` | `data/medical_conditions.txt` | Dicționarul de afecțiuni și sinonime |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului |
 
@@ -107,7 +107,7 @@ Problema de sănătate
     -> expresii la virgulă; afecțiunile fiecărei expresii din dicționar
     -> o singură interogare SQL: P1, P2 (coloane indexate), L (GIN + ts_rank_cd), V (cosinus exact)
     -> score = 8·P1 + 4·P2 + 2·L + V pentru toate fragmentele
-    -> ordonare descrescătoare și tăiere de la coadă a fragmentelor întregi, la MAX_CONTEXT_CHARS
+    -> ordonare descrescătoare și tăiere de la coadă a fragmentelor întregi, la bugetul furnizorului
     -> dovadă = fragmentul însuși, cu scorul și procentul lui
     -> panou cu fragmente pentru pacient și, la cerere, payload către AI
 ```

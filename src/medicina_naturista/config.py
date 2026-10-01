@@ -34,17 +34,6 @@ def _bool(name: str, default: bool) -> bool:
     raise ValueError(f"{name} must be a boolean value")
 
 
-# Read an optional integer setting; unset or empty means "no value".
-def _optional_int(name: str, default: int | None = None, minimum: int = 1) -> int | None:
-    raw = os.getenv(name, "").strip()
-    if not raw:
-        return default
-    value = int(raw)
-    if value < minimum:
-        raise ValueError(f"{name} must be >= {minimum}")
-    return value
-
-
 AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
 
 
@@ -68,20 +57,21 @@ class Settings:
     temp_dir: Path = Path(os.getenv("SESSION_TEMP_DIR", "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")))
     xai_model: str = os.getenv("XAI_MODEL", "grok-4.3")
     xai_reasoning_effort: str = os.getenv("XAI_REASONING_EFFORT", "medium")
+    xai_max_context_chars: int = _int("X_AI_MAX_CONTEXT_CHARS", 1_000_000)
     xai_api_base: str = os.getenv("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/")
     ai_provider: str = _ai_provider()
     hf_model: str = os.getenv("HF_MODEL", "deepseek-ai/DeepSeek-V4-Flash:deepinfra")
     hf_api_base: str = os.getenv("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/")
     hf_reasoning_effort: str = os.getenv("HF_REASONING_EFFORT", "").strip()
-    hf_max_context_chars: int | None = _optional_int("HF_MAX_CONTEXT_CHARS", 120_000)
+    hf_max_context_chars: int = _int("HF_MAX_CONTEXT_CHARS", 120_000)
     ollama_model: str = os.getenv("OLLAMA_MODEL", "deepseek-v4.1-flash:cloud")
     ollama_api_base: str = os.getenv("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/")
     ollama_reasoning_effort: str = os.getenv("OLLAMA_REASONING_EFFORT", "").strip()
-    ollama_max_context_chars: int | None = _optional_int("OLLAMA_MAX_CONTEXT_CHARS")
+    ollama_max_context_chars: int = _int("OLLAMA_MAX_CONTEXT_CHARS", 1_000_000)
     deepseek_model: str = os.getenv("DEEPSEEK_MODEL", "deepseek-flash")
     deepseek_api_base: str = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/")
     deepseek_reasoning_effort: str = os.getenv("DEEPSEEK_REASONING_EFFORT", "").strip()
-    deepseek_max_context_chars: int | None = _optional_int("DEEPSEEK_MAX_CONTEXT_CHARS")
+    deepseek_max_context_chars: int = _int("DEEPSEEK_MAX_CONTEXT_CHARS", 1_000_000)
     ai_stream: bool = _bool("AI_STREAM", False)
     ai_max_output_tokens: int = _int("AI_MAX_OUTPUT_TOKENS", 20000)
     ai_read_timeout_seconds: int = _int("AI_READ_TIMEOUT_SECONDS", 300)
@@ -89,7 +79,6 @@ class Settings:
     session_max_seconds: int = _int("SESSION_MAX_SECONDS", 14400)
     max_chat_chars: int = _int("MAX_CHAT_CHARS", 4000)
     max_requests_per_minute: int = _int("MAX_REQUESTS_PER_MINUTE", 60)
-    max_context_chars: int = _int("MAX_CONTEXT_CHARS", 1_000_000)
     log_level: str = os.getenv("LOG_LEVEL", "INFO").strip().upper()
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)

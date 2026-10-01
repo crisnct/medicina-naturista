@@ -36,7 +36,7 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 - **3.1.** Identifică sesiunea și obține blocarea exclusivă.
 - **3.2.** Dacă mesajul a fost o cerere de e-mail (`email_request_handled`), resetează indicatorul și se oprește fără căutare.
 - **3.3.** Dacă profilul nu conține o problemă de sănătate, adaugă mesajul „Descrieți problema de sănătate înainte de căutare” și se oprește.
-- **3.4.** Apelează `Retriever.collect(session, ai.context_budget())` (secțiunile 4–6). Bugetul este aplicat acolo, în `rank(max_chars=...)`, o singură dată, astfel încât pacientul vede exact ce va primi AI-ul. Bugetul este `MAX_CONTEXT_CHARS` (1.000.000 de caractere), coborât la limita proprie a furnizorului când aceasta există (`HF_MAX_CONTEXT_CHARS`, implicit 120.000, sau `OLLAMA_MAX_CONTEXT_CHARS`); cu Hugging Face pacientul vede deci mai puține fragmente decât cu xAI.
+- **3.4.** Apelează `Retriever.collect(session, ai.context_budget())` (secțiunile 4–6). Bugetul este aplicat acolo, în `rank(max_chars=...)`, o singură dată, astfel încât pacientul vede exact ce va primi AI-ul. Bugetul este limita de context a furnizorului activ: `X_AI_MAX_CONTEXT_CHARS`, `DEEPSEEK_MAX_CONTEXT_CHARS` sau `OLLAMA_MAX_CONTEXT_CHARS` (implicit 1.000.000 de caractere) și `HF_MAX_CONTEXT_CHARS` (implicit 120.000); cu Hugging Face pacientul vede deci mai puține fragmente.
 - **3.6.** Dacă nu rămâne niciun fragment: `pending_evidence=None`, mesaj „Nu am găsit fragmente relevante în sursele locale” și panoul „Generează rețeta” rămâne ascuns.
 - **3.7.** Altfel, stochează fragmentele în `session.pending_evidence`, adaugă în chat panoul HTML al fragmentelor (`_fragments_panel_html()`) și afișează panoul cu butonul „💊 Generează rețeta”.
 
@@ -44,7 +44,7 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 
 - **4.1.** `consultation_query()` folosește **întreaga problemă de sănătate** ca interogare unică; istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect.
 - **4.2.** `rank()` împarte mesajul la virgulă în expresii și recunoaște afecțiunile fiecărei expresii în dicționarul `data/medical_conditions.txt` (`resolve_query()`); vezi [fragment-search-and-scoring.md](fragment-search-and-scoring.md), secțiunea 1.
-- **4.3.** Apelează `rank()` (secțiunea 5), care dă scor **tuturor** fragmentelor (fără limită de candidați per semnal) și întoarce, în ordinea scorului, fragmentele care încap în `MAX_CONTEXT_CHARS`.
+- **4.3.** Apelează `rank()` (secțiunea 5), care dă scor **tuturor** fragmentelor (fără limită de candidați per semnal) și întoarce, în ordinea scorului, fragmentele care încap în bugetul primit (`max_chars`).
 
 ## 5. Scorul fragmentelor într-o singură interogare — `search.rank()`
 
@@ -52,12 +52,12 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 - **5.2.** O singură interogare SQL calculează, pentru fiecare fragment: **P1** (afecțiunea în `primary_medical_conditions`), **P2** (în `secondary_medical_conditions`), **L** (scorul lexical `ts_rank_cd`, relativ la cel mai bun din căutare) și **V** (similaritatea semantică rescalată între mediană și maxim).
 - **5.3.** `score = 8·P1 + 4·P2 + 2·L + V`, cu maximum `MAX_SCORE = 15`. Detaliile formulei și ale garanțiilor de prioritate sunt în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
 - **5.4.** Fragmentele se sortează descrescător după scor, apoi după `chunk_id`; cele cu scor 0 nu intră în rezultat.
-- **5.5.** Suma cumulată a caracterelor de dovadă (text plus prefixul `Secțiune: <titlu>`) se calculează în SQL; se păstrează doar prefixul care încape în `MAX_CONTEXT_CHARS`, deci fragmentele de la coadă se elimină întregi.
+- **5.5.** Suma cumulată a caracterelor de dovadă (text plus prefixul `Secțiune: <titlu>`) se calculează în SQL; se păstrează doar prefixul care încape în bugetul furnizorului (`max_chars`), deci fragmentele de la coadă se elimină întregi.
 
 ## 6. Selecția și asamblarea dovezilor — `Retriever.collect()`
 
 - **6.1.** Calculează `relevance_percent = score / MAX_SCORE × 100`.
-- **6.2.** Toate fragmentele întoarse de `rank()` devin dovezi. Singura selecție este bugetul `MAX_CONTEXT_CHARS`, aplicat în `rank()` și comun panoului din UI și cererii către AI.
+- **6.2.** Toate fragmentele întoarse de `rank()` devin dovezi. Singura selecție este bugetul de context al furnizorului, aplicat în `rank()` și comun panoului din UI și cererii către AI.
 - **6.3.** Fragmentele nu se unesc: fiecare rămâne o dovadă separată.
 - **6.4.** Ordonează dovezile după scor, descrescător.
 - **6.5.** Textul dovezii este textul fragmentului, prefixat cu `Secțiune: <titlu>` când există (`_context()`).
@@ -143,7 +143,7 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 Mesajul utilizatorului („Trimite”)
     -> profilul sesiunii (problema înlocuiește contextul anterior)
     -> scor local pentru toate fragmentele: 8·P1 + 4·P2 + 2·L + V
-    -> limitare la MAX_CONTEXT_CHARS (fragmente întregi, de la coadă)
+    -> limitare la bugetul furnizorului (fragmente întregi, de la coadă)
     -> panou cu fragmentele găsite, afișat pacientului (fără AI)
     -> „Generează rețeta” (doar owner)
     -> o singură cerere structurată către furnizorul AI activ, cu exact fragmentele afișate

@@ -229,17 +229,17 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `HF_MODEL` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | Modelul prin routerul HF; sufixul `:deepinfra` fixează furnizorul. |
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF (Responses API, beta). |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
-| `HF_MAX_CONTEXT_CHARS` | `120000` | Limita de context prin routerul HF (≈ 64k tokeni); bugetul efectiv este minimul dintre aceasta și `MAX_CONTEXT_CHARS`. De calibrat după Faza 0 din `architecture/ai-provider-switch-plan.md`. |
+| `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul pentru `AI_PROVIDER=huggingface` (limita routerului HF ≈ 64k tokeni). De calibrat după Faza 0 din `architecture/ai-provider-switch-plan.md`. |
 | `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com (necesară cu `AI_PROVIDER=deepseek`). |
 | `DEEPSEEK_MODEL` | `deepseek-flash` | Modelul DeepSeek (V4.1 Flash, prin Responses API: `POST {DEEPSEEK_API_BASE}/responses`). |
 | `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
 | `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `DEEPSEEK_MAX_CONTEXT_CHARS` | _(fără limită proprie)_ | Plafon opțional al contextului. |
+| `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=deepseek`. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
 | `OLLAMA_MODEL` | `deepseek-v4.1-flash:cloud` | Modelul Ollama (`:cloud` rulează pe serverele Ollama, după `ollama signin`). |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `OLLAMA_MAX_CONTEXT_CHARS` | _(fără limită proprie)_ | De setat pentru modele locale mici. |
+| `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=ollama`; pentru modele locale mici trebuie coborât. |
 | `AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
 | `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
 | `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
@@ -248,7 +248,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `MAX_CONTEXT_CHARS` | `1000000` | Dimensiunea maximă (în caractere de text al fragmentelor) a fragmentelor afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
+| `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `AI_PROVIDER=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri acceptate într-un minut. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |

@@ -205,8 +205,13 @@ _NO_LEXICAL_CTE = "lex AS (SELECT NULL::bigint AS chunk_id, NULL::real AS raw WH
 # statistics (median cosine, best lexical rank), so L and V stay relative to
 # the fragments the user actually searches in.
 #
-# max_chars is the evidence budget (default settings.max_context_chars): the
-# results are the highest-scored prefix whose evidence text fits in it.
+# max_chars is the evidence budget (the AI provider's context limit): the
+# results are the highest-scored prefix whose evidence text fits in it. None
+# means no budget: every fragment is returned.
+# Budget used when the caller sets none (fits Postgres bigint).
+UNLIMITED_CHARS = 2**62
+
+
 def rank(
     query: str,
     category_ids: frozenset[str] | None = None,
@@ -245,7 +250,7 @@ def rank(
                     "w_secondary": WEIGHT_SECONDARY,
                     "w_lexical": WEIGHT_LEXICAL,
                     "w_semantic": WEIGHT_SEMANTIC,
-                    "max_chars": max_chars if max_chars is not None else settings.max_context_chars,
+                    "max_chars": max_chars if max_chars is not None else UNLIMITED_CHARS,
                 },
             ).fetchall()
 
