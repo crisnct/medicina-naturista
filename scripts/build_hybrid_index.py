@@ -324,6 +324,9 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
     # re-embedded under the current rules, even though none of them were
     # touched on disk.
     stored_version = stored_version_row[0] if stored_version_row else None
+    # Remembered before a forced resync empties `existing`, so documents removed
+    # from the source are still deleted in that same run.
+    stored_paths = set(existing)
     if stored_version != TEXT_REPR_VERSION:
         if stored_version is not None:
             print(
@@ -340,6 +343,10 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
     all_new_chunks: list[Chunk] = []
     initial_stats: dict[str, tuple[int, int]] = {}
 
+    def report_progress(index: int) -> None:
+        if index % 50 == 0 or index == len(paths):
+            print(f"Scanned {index}/{len(paths)} files; {len(pending)} changed, {skipped} unchanged", flush=True)
+
     for index, path in enumerate(paths, start=1):
         relative = path.relative_to(source).as_posix()
         category_id = path.parent.relative_to(source).as_posix()
@@ -348,6 +355,7 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
         file_hash = sha256_file(path)
         if existing.get(relative) == file_hash:
             skipped += 1
+            report_progress(index)
             continue
 
         stat = path.stat()
@@ -395,8 +403,7 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
                     secondary_medical_conditions=fragment.secondary_conditions,
                 )
             )
-        if index % 50 == 0 or index == len(paths):
-            print(f"Scanned {index}/{len(paths)} files; {len(pending)} changed, {skipped} unchanged", flush=True)
+        report_progress(index)
 
     embeddings = np.empty((0, MODEL_DIMENSION), dtype=np.float32)
     if all_new_chunks:
@@ -423,7 +430,7 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
             _write_document(connection, source_file, chunk_slice, embedding_slice)
 
     current_relative_paths = {path.relative_to(source).as_posix() for path in paths}
-    removed = sorted(set(existing) - current_relative_paths)
+    removed = sorted(stored_paths - current_relative_paths)
     if removed:
         with pool.connection() as connection:
             connection.execute("DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,))

@@ -1,7 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { api } from "../api/client";
-import type { ChatMessage, GenerateMessage } from "../api/types";
+import type { ChatMessage } from "../api/types";
 
 const SESSION_KEY = ["session"] as const;
 
@@ -87,13 +87,13 @@ export function useConversation() {
       }
       queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) => {
         if (!old) return old;
-        const replaced = replaceGenerateMessage(old.history, searchId, result.messages);
-        // No matching "generate" message left in place (e.g. generation
-        // failed and only an error text was appended) — append instead.
-        const stillPending = old.history.some(
-          (message): message is GenerateMessage => message.kind === "generate" && message.searchId === searchId,
-        );
-        return { history: stillPending ? replaced : [...setBusy(old.history, searchId, false), ...result.messages] };
+        // Only a finished report (it carries the download link) replaces the
+        // "generate" call to action. On a failure the server answers with just
+        // an error text and keeps the search pending, so the button stays,
+        // re-enabled, below the error and the patient can retry.
+        const generated = result.messages.some((message) => message.kind === "download");
+        if (!generated) return { history: [...setBusy(old.history, searchId, false), ...result.messages] };
+        return { history: replaceGenerateMessage(old.history, searchId, result.messages) };
       });
     },
     onError: (_error, searchId) => {
