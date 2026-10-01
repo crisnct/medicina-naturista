@@ -4,151 +4,132 @@
 
 **Ieșire:** fragmentele găsite (afișate pacientului), recomandările afișate în chat, un raport PDF descărcabil și, la cerere, trimiterea PDF-ului pe e-mail către o adresă indicată în chat.
 
-Fluxul are **două etape separate**, declanșate de acțiuni diferite ale utilizatorului:
+Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (cele 10 etape pe scurt) și **[Partea II — Detalii](#partea-ii--detalii)** (aceleași 10 etape, pas cu pas).
 
-1. **Căutarea locală** (butonul „Trimite”) — fără niciun apel către AI; pacientul vede fragmentele găsite.
-2. **Generarea raportului** (butonul „Generează rețeta”) — trimite către furnizorul AI activ (`AI_PROVIDER`: xAI, Hugging Face sau Ollama) exact fragmentele deja verificate de pacient.
+----------------------------------------------------------------------------------------------------
 
-## 1. Preluarea descrierii problemei de sănătate — `on_message()`
+## Partea I — Rezumat
 
-- **1.1.** Identifică sesiunea tabului curent folosind cookie-ul de sesiune `naturist_sid` și identificatorul de sesiune Gradio.
-- **1.2.** Elimină spațiile inutile din mesaj; un mesaj gol este ignorat.
-- **1.3.** Respinge mesajul dacă depășește `MAX_CHAT_CHARS` (implicit 4000).
-- **1.4.** Obține blocarea exclusivă a sesiunii și resetează `email_request_handled=False`.
-- **1.5.** Dacă există deja un raport generat și mesajul este **exclusiv o adresă de e-mail**, tratează cazul ca o cerere de trimitere pe e-mail (vezi secțiunea 10): marchează `email_request_handled=True`, adaugă răspunsul în chat și oprește fluxul, fără a reface căutarea.
-- **1.6.** Altfel, adaugă mesajul utilizatorului în istoric și elimină din chat panourile de descărcare rămase de la raportul anterior.
-- **1.7.** Șterge raportul anterior (`clear_report()`) și `pending_evidence`.
-- **1.8.** Înlocuiește problema de sănătate din profil (`replace_health_problem()`): contextul și transcriptul sunt resetate la noul mesaj.
-- **1.9.** Adaugă în chat mesajul „Caut rapid în cele N documente interne disponibile”.
-- **1.10.** Ascunde panoul „Generează rețeta” și returnează istoricul actualizat.
+Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`frontend/`). Fluxul are două momente separate: **căutarea** (butonul „📨 Trimite”, fără AI) și **generarea rețetei** (butonul „💊 Generează rețeta”, cu AI).
 
-## 2. Înlănțuirea evenimentelor Gradio
-
-După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează în lanț, cu `queue=False`:
-
-- **2.1.** Script JS care restrânge panourile de fragmente vechi, apoi derulare automată.
-- **2.2.** Butonul „Trimite” devine „⏳ Caută...” și este dezactivat; zona de notificare owner este golită.
-- **2.3.** `on_find_fragments()` — etapa de căutare locală (secțiunile 3–6).
-- **2.4.** Butonul „Trimite” este reactivat și se derulează automat la ultimul mesaj.
-
-## 3. Căutarea locală a fragmentelor — `on_find_fragments()`
-
-- **3.1.** Identifică sesiunea și obține blocarea exclusivă.
-- **3.2.** Dacă mesajul a fost o cerere de e-mail (`email_request_handled`), resetează indicatorul și se oprește fără căutare.
-- **3.3.** Dacă profilul nu conține o problemă de sănătate, adaugă mesajul „Descrieți problema de sănătate înainte de căutare” și se oprește.
-- **3.4.** Apelează `Retriever.collect(session, ai.context_budget())` (secțiunile 4–6). Bugetul este aplicat acolo, în `rank(max_chars=...)`, o singură dată, astfel încât pacientul vede exact ce va primi AI-ul. Bugetul este limita de context a furnizorului activ: `X_AI_MAX_CONTEXT_CHARS`, `DEEPSEEK_MAX_CONTEXT_CHARS` sau `OLLAMA_MAX_CONTEXT_CHARS` (implicit 1.000.000 de caractere) și `HF_MAX_CONTEXT_CHARS` (implicit 120.000); cu Hugging Face pacientul vede deci mai puține fragmente.
-- **3.6.** Dacă nu rămâne niciun fragment: `pending_evidence=None`, mesaj „Nu am găsit fragmente relevante în sursele locale” și panoul „Generează rețeta” rămâne ascuns.
-- **3.7.** Altfel, stochează fragmentele în `session.pending_evidence`, adaugă în chat panoul HTML al fragmentelor (`_fragments_panel_html()`) și afișează panoul cu butonul „💊 Generează rețeta”.
-
-## 4. Construirea interogărilor și rularea retrieval-ului — `Retriever.collect()`
-
-- **4.1.** `consultation_query()` folosește **întreaga problemă de sănătate** ca interogare unică; istoricul conversației nu este folosit, pentru a nu devia căutarea de la subiect.
-- **4.2.** `rank()` împarte mesajul la virgulă în expresii și recunoaște afecțiunile fiecărei expresii în dicționarul `data/medical_conditions.txt` (`resolve_query()`); vezi [fragment-search-and-scoring.md](fragment-search-and-scoring.md), secțiunea 1.
-- **4.3.** Apelează `rank()` (secțiunea 5), care dă scor **tuturor** fragmentelor (fără limită de candidați per semnal) și întoarce, în ordinea scorului, fragmentele care încap în bugetul primit (`max_chars`).
-
-## 5. Scorul fragmentelor într-o singură interogare — `search.rank()`
-
-- **5.1.** Citește modelul de embedding din `sync_metadata`, încarcă modelul FastEmbed (ONNX, în cache pe proces) și generează vectorul E5 al interogării, cu prefixul `query: `, normalizat L2.
-- **5.2.** O singură interogare SQL calculează, pentru fiecare fragment: **P1** (afecțiunea în `primary_medical_conditions`), **P2** (în `secondary_medical_conditions`), **L** (scorul lexical `ts_rank_cd`, relativ la cel mai bun din căutare) și **V** (similaritatea semantică rescalată între mediană și maxim).
-- **5.3.** `score = 8·P1 + 4·P2 + 2·L + V`, cu maximum `MAX_SCORE = 15`. Detaliile formulei și ale garanțiilor de prioritate sunt în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
-- **5.4.** Fragmentele se sortează descrescător după scor, apoi după `chunk_id`; cele cu scor 0 nu intră în rezultat.
-- **5.5.** Suma cumulată a caracterelor de dovadă (text plus prefixul `Secțiune: <titlu>`) se calculează în SQL; se păstrează doar prefixul care încape în bugetul furnizorului (`max_chars`), deci fragmentele de la coadă se elimină întregi.
-
-## 6. Selecția și asamblarea dovezilor — `Retriever.collect()`
-
-- **6.1.** Calculează `relevance_percent = score / MAX_SCORE × 100`.
-- **6.2.** Toate fragmentele întoarse de `rank()` devin dovezi. Singura selecție este bugetul de context al furnizorului, aplicat în `rank()` și comun panoului din UI și cererii către AI.
-- **6.3.** Fragmentele nu se unesc: fiecare rămâne o dovadă separată.
-- **6.4.** Ordonează dovezile după scor, descrescător.
-- **6.5.** Textul dovezii este textul fragmentului, prefixat cu `Secțiune: <titlu>` când există (`_context()`).
-- **6.7.** Fiecare dovadă primește ID-ul `C<chunk_id>` și conține `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text`, `score`, `relevance_percent`, componentele scorului (`lexical_score`, `semantic_score`), `condition_in_title`, `condition_in_text` și `found_by_lexical`.
-- **6.8.** Înregistrează în log numărul de candidați, dovezi, caractere și surse unice.
-
-## 7. Afișarea fragmentelor pacientului — `_fragments_panel_html()`
-
-- **7.1.** Construiește un panou `<details>` cu banner: „Am găsit N fragmente relevante în M documente locale”.
-- **7.2.** Sortează lista plată de fragmente după `score`, descrescător, indiferent de document sau interogare.
-- **7.3.** Pentru fiecare fragment afișează textul complet (spații normalizate) și o linie cu „Scor relevanță: X%”, eticheta „Găsire Lexicală” (dacă este cazul) și documentul sursă. Nu sunt afișate ID-uri sau intervale de linii.
-- **7.4.** Încheie cu totalul fragmentelor și documentelor.
-- **7.5.** Panoul „Trimite-le la AI ... 💊 Generează rețeta” devine vizibil; pacientul decide dacă continuă.
-
-## 8. Declanșarea generării — `on_generate_report()`
-
-- **8.1.** Apăsarea butonului „Generează rețeta” îl dezactivează („⏳ Se generează rețeta...”), golește notificarea owner și restrânge panourile de fragmente.
-- **8.2.** Verifică cookie-ul `naturist_owner` prin HMAC-SHA256 față de `OWNER_KEY` (`_is_owner()`). Fără `OWNER_KEY` configurat verificarea eșuează închis.
-- **8.3.** Vizitatorii care nu sunt owner primesc o notificare roșie sub fragmente („Generarea rețetei nu este disponibilă momentan pentru acest cont”); panoul rămâne vizibil, nu se face niciun apel către AI. Cookie-ul owner se obține accesând `/owner?key=<OWNER_KEY>`.
-- **8.4.** Pentru owner apelează `_generate_report()`.
-- **8.5.** Obține blocarea sesiunii și citește `session.pending_evidence` (fragmentele deja afișate, nerecalculate).
-- **8.6.** Dacă profilul nu este pregătit sau nu există dovezi pending, adaugă „Nu există fragmente pregătite. Descrieți din nou problema de sănătate.” și ascunde panoul.
-
-## 9. Cererea către furnizorul AI și parsarea răspunsului — `ResponsesClient.generate()`
-
-- **9.1.** Înregistrează în log numărul de dovezi și numărul de caractere.
-- **9.2.** Ordonează dovezile după `score`, descrescător, în înregistrări `id`, `source`, `text`. **Toate** sunt trimise nemodificate (fără compactare sau trunchiere); bugetul de context a fost deja aplicat la pasul 3.4.
-- **9.3.** Înregistrează inventarul fragmentelor trimise (textul este logat doar dacă `LOG_FRAGMENT_TEXT` este activ).
-- **9.4.** Construiește promptul utilizatorului: profilul medical serializat JSON și lista completă a fragmentelor admise; promptul de sistem este `ai/prompts/generate_report_system.md`.
-- **9.5.** `complete_json()` trimite o singură cerere către Responses API-ul furnizorului activ (`{base_url}/responses`). Furnizorul vine din `AI_PROVIDER` (`ai/providers.py`, implicit `xai`). Cu xAI: `Authorization: Bearer X_API_KEY`, modelul și reasoning din configurare (implicit `grok-4.3`, `medium`), `text.format=json_object`, `store=false`. Cu Hugging Face (`HF_TOKEN`, `deepseek-ai/DeepSeek-V4-Flash:deepinfra`) și Ollama (`deepseek-v4.1-flash:cloud`): fără `store`, `reasoning` doar dacă este configurat, JSON cerut prin promptul de sistem. Toți: `max_output_tokens=AI_MAX_OUTPUT_TOKENS` (20000), timeout de citire `AI_READ_TIMEOUT_SECONDS` (300 s; conectare 10 s). Antetul `Authorization` lipsește dacă nu există cheie (Ollama local).
-- **9.6.** Lipsa cheii API a furnizorului activ (mesajul numește variabila: `X_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`) sau erorile HTTP/conexiune/răspuns invalid devin `AIUnavailable` cu mesaj afișabil utilizatorului; se înregistrează statusul, durata, dimensiunea răspunsului și ID-ul cererii.
-- **9.7.** Verifică `status == "completed"` (`incomplete` se loghează cu `incomplete_details.reason`, de obicei `max_output_tokens` la modelele cu gândire), concatenează blocurile `output_text` (itemii `reasoning` sunt ignorați), parsează JSON-ul — tolerant: dacă `json.loads` eșuează, se reîncearcă între primul `{` și ultimul `}`, ceea ce elimină gardurile Markdown — și respinge un răspuns gol sau care nu este obiect.
-- **9.8.** Normalizează cele cinci secțiuni: `uz_intern`, `nutritie`, `uz_extern`, `alte_recomandari`, `atentionari`.
-- **9.9.** Nutriția este un obiect cu `retete`, `recomandate`, `nerecomandate`, `interzise`, `alte`, convertit în elemente prefixate (`[RETETA]`, `[RECOMANDAT]`, `[NERECOMANDAT]`, `[INTERZIS]`, `[ALTE]`).
-- **9.10.** Textele își păstrează întreruperile de linie relevante; din `evidence_ids` sunt păstrate doar șirurile.
-
-## 10. Generarea PDF-ului — `create_pdf()`
-
-- **10.1.** Înregistrează fonturile și construiește stilurile.
-- **10.2.** Copertă (`CoverPanel`): „GHID INFORMATIV”, titlul derivat din problema de sănătate, „de la dr. Cuișor”, portretul medicului și avertismentul informativ.
-- **10.3.** `sort_sections_by_relevance()` ordonează elementele fiecărei secțiuni după cel mai mare `relevance_percent` al fragmentelor citate, apoi după numărul de surse distincte, apoi după poziția inițială.
-- **10.4.** `build_reference_index()` numerotează sursele citate în ordinea primei apariții.
-- **10.5.** Redă cele cinci secțiuni colorate (`RoundedSection`) în ordinea configurată; o secțiune goală afișează „Nu au fost identificate informații suficient de relevante în sursele disponibile.”
-- **10.6.** Nutriția este grupată prin `nutrition_display_groups()`: rețetele sunt elemente separate, celelalte categorii sunt grupate.
-- **10.7.** Fiecare recomandare cu dovezi primește o legătură „→ Surse N” către secțiunea de bibliografie.
-- **10.8.** Secțiunea „6. Bibliografie” grupează sursele, iar fiecare intrare are legătură „← înapoi” către prima recomandare care o citează.
-- **10.9.** Construiește documentul în memorie cu ReportLab (A4, semne de carte/outline, subsol) și returnează octeții PDF.
-
-## 11. Stocarea și afișarea rezultatului
-
-- **11.1.** Stochează octeții în `session.report_bytes` și un `report_id` aleatoriu (`secrets.token_urlsafe(18)`) în `session.report_id`.
-- **11.2.** Adaugă în chat, în ordine: textul recomandărilor cu bibliografie (`_recommendation_text()`, fără limită de lungime), panoul de descărcare (`_download_html()`) și oferta de e-mail: „Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit.”
-- **11.3.** Golește `session.pending_evidence` și ascunde panoul „Generează rețeta”.
-- **11.4.** Raportul rămâne în memoria procesului până când sesiunea este ștearsă, expiră (inactivitate `SESSION_IDLE_SECONDS` = 3600 s, durată maximă `SESSION_MAX_SECONDS` = 14400 s) sau aplicația este repornită.
-
-## 12. Descărcarea PDF-ului — `GET /api/reports/{tab_id}/{report_id}`
-
-- **12.1.** Identifică sesiunea din cookie-ul `naturist_sid` și `tab_id`.
-- **12.2.** Returnează HTTP 404 dacă sesiunea lipsește, `report_id` nu coincide sau nu există PDF.
-- **12.3.** Altfel returnează PDF-ul ca atașament (`Content-Disposition` cu numele derivat din titlu) și `Cache-Control: no-store`.
-
-## 13. Trimiterea pe e-mail către altă persoană — `_send_report_email()` și `send_report()`
-
-- **13.1.** Declanșare: după generarea raportului, utilizatorul scrie în chat **doar o adresă de e-mail** (potrivire completă cu `EMAIL_PATTERN`); vezi pasul 1.5.
-- **13.2.** `load_mail_config()` citește din mediu `GMAIL_USERNAME`, `MAIL_FROM`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`.
-- **13.3.** Dacă configurația este incompletă, returnează `email_skipped` și chatul afișează „Trimiterea pe mail nu este configurată momentan.”
-- **13.4.** Construiește mesajul (subiect „Raport recomandări naturiste pentru …”) cu PDF-ul atașat.
-- **13.5.** Reînnoiește tokenul de acces Google OAuth (refresh token), apoi trimite mesajul prin Gmail API (`users/me/messages/send`), fiecare cerere cu timeout de 20 s.
-- **13.6.** La succes chatul afișează „✅ Am trimis documentul la <adresa>.”; la orice excepție se loghează și se afișează „Nu am putut trimite documentul pe mail. Încercați din nou.” Raportul PDF rămâne neafectat.
-
-## 14. Tratarea erorilor
-
-- **14.1.** Problemă lipsă: mesaj „Descrieți problema de sănătate înainte de căutare.”
-- **14.2.** Niciun fragment peste prag: mesaj „Nu am găsit fragmente relevante în sursele locale.”
-- **14.3.** `AIUnavailable`: se afișează mesajul erorii; panoul „Generează rețeta” rămâne vizibil și butonul este reactivat, astfel încât pacientul poate reîncerca fără a pierde fragmentele.
-- **14.4.** Excepție neașteptată: se loghează tipul, mesajul și traceback-ul; chatul afișează „Raportul nu a putut fi generat. Încercați din nou.”, cu același comportament de reîncercare.
-- **14.5.** Cerere non-owner: notificare dedicată, fără apel către AI (secțiunea 8.3).
-- **14.6.** Protecții HTTP la toate cererile: verificare `Origin`, limită de `MAX_REQUESTS_PER_MINUTE` (implicit 60) pe IP pentru `/api/` și `/gradio_api/`, antete `Cache-Control: no-store`, `X-Content-Type-Options`, `Referrer-Policy`.
-
-## Rezultatul final
+1. **Sesiunea** (`GET /api/session`) — fiecare tab din browser are propria sesiune, ținută doar în memorie (cookie `naturist_sid` + antet `X-Tab-Id`); pacientul este întâmpinat cu întrebarea despre problema de sănătate.
+2. **Mesajul pacientului** (`POST /api/messages`) — mesajul devine noua problemă de sănătate; în chat apar afecțiunea recunoscută și anunțul „🔍 Caut rapid…”.
+3. **Căutarea** (`POST /api/search`) — `Retriever.collect()` găsește și notează fragmentele, în limita de text a furnizorului AI (vezi [fragment-search-and-scoring.md](fragment-search-and-scoring.md)).
+4. **Afișarea fragmentelor** — pacientul vede fragmentele găsite și butonul „💊 Generează rețeta”; nimic nu a fost trimis încă la AI.
+5. **Pornirea generării** (`POST /api/searches/{id}/generate`) — doar proprietarul aplicației (cookie `naturist_owner`, din `OWNER_KEY`) poate genera; ceilalți primesc o notificare.
+6. **Cererea către AI** (`ResponsesClient.generate()`) — o singură cerere către furnizorul ales în `AI_PROVIDER` (xAI, DeepSeek, Hugging Face sau Ollama), cu exact fragmentele afișate; răspunsul JSON are 5 secțiuni de recomandări, fiecare cu dovezile citate.
+7. **PDF-ul** (`create_pdf()`) — copertă, cele 5 secțiuni colorate, legături „→ Surse” și bibliografie, totul în memorie (ReportLab).
+8. **Rezultatul în chat** — recomandările cu bibliografie, butonul „📄 Descarcă PDF” și oferta de trimitere pe e-mail.
+9. **E-mail** — dacă pacientul scrie doar o adresă de e-mail, ultimul PDF este trimis prin Gmail API.
+10. **Erori și protecții** — erorile AI apar ca mesaj în chat și generarea se poate relua; serverul limitează cererile (`MAX_REQUESTS_PER_MINUTE`) și verifică originea lor.
 
 ```text
-Mesajul utilizatorului („Trimite”)
-    -> profilul sesiunii (problema înlocuiește contextul anterior)
-    -> scor local pentru toate fragmentele: 8·P1 + 4·P2 + 2·L + V
-    -> limitare la bugetul furnizorului (fragmente întregi, de la coadă)
-    -> panou cu fragmentele găsite, afișat pacientului (fără AI)
-    -> „Generează rețeta” (doar owner)
-    -> o singură cerere structurată către furnizorul AI activ, cu exact fragmentele afișate
-    -> secțiuni normalizate de recomandări
-    -> raport PDF în memorie
-    -> răspuns în chat și link securizat de descărcare
-    -> la cerere: adresă de e-mail scrisă în chat -> trimitere prin Gmail
+„Trimite” → afecțiune recunoscută → fragmente notate (fără AI) → pacientul le vede
+    → „Generează rețeta” (doar owner) → o cerere AI → PDF în memorie → chat + descărcare (+ e-mail)
 ```
+
+----------------------------------------------------------------------------------------------------
+
+## Partea II — Detalii
+
+### 1. Sesiunea — `GET /api/session`
+
+- **1.1.** La prima cerere, middleware-ul creează cookie-ul `naturist_sid` (aleator, `httponly`, `samesite=strict`, `secure` dacă `COOKIE_SECURE=true`).
+- **1.2.** Frontend-ul generează un identificator de tab (`crypto.randomUUID()`, păstrat în `sessionStorage`) și îl trimite la fiecare cerere în antetul `X-Tab-Id`. Perechea cookie + tab identifică sesiunea (`SessionStore`), deci două taburi au conversații separate.
+- **1.3.** Sesiunea stă doar în memoria procesului (`SessionData`): istoricul chatului, profilul (`HealthProfile`), căutările în așteptare și rapoartele generate. Nicio informație medicală nu se scrie în baza de date.
+- **1.4.** Pentru o sesiune nouă, istoricul începe cu „Bună ziua! 👋” și întrebarea despre problema de sănătate.
+- **1.5.** Istoricul păstrează ultimele 60 de mesaje. Fiecare mesaj are un tip (`kind`): `text`, `fragments`, `generate` sau `download`; frontend-ul afișează fiecare tip cu componenta lui.
+- **1.6.** `GET /api/categories` întoarce arborele categoriilor (folderele din `data/documents`) pentru panoul „Setează sursele”; implicit sunt bifate toate.
+
+### 2. Mesajul pacientului — `POST /api/messages`
+
+- **2.1.** Mesajul este curățat de spații; un mesaj gol este ignorat. Peste `MAX_CHAT_CHARS` (implicit 4000) cererea este respinsă cu HTTP 422.
+- **2.2.** Se obține blocarea sesiunii.
+- **2.3.** Dacă există deja un raport generat și mesajul este **exclusiv o adresă de e-mail** (`EMAIL_PATTERN`), este tratat ca cerere de trimitere pe e-mail (secțiunea 9) și nu se face nicio căutare.
+- **2.4.** Altfel, mesajul este adăugat în chat și înlocuiește problema de sănătate din profil (`replace_health_problem()`): contextul și transcriptul încep de la acest mesaj. Categoriile bifate de pacient sunt salvate în sesiune.
+- **2.5.** Dacă nu există o problemă de sănătate: „Descrieți problema de sănătate înainte de căutare.” Dacă indexul are categorii și nu este bifată niciuna: „Nicio sursă selectată…”. În ambele cazuri căutarea nu pornește.
+- **2.6.** Altfel se adaugă mesajul „✅ Am identificat afecțiunea: …” (când s-a recunoscut o afecțiune) și „🔍 Caut rapid în cele N documente interne disponibile. Vă rog să așteptați.”, unde N este numărul documentelor din categoriile bifate.
+- **2.7.** Răspunsul revine imediat cu `startSearch: true`; frontend-ul afișează mesajele și abia apoi pornește căutarea (cererea separată de la secțiunea 3), ca pacientul să-și vadă imediat mesajul. Butonul devine „⏳ Caută...” cât durează.
+
+### 3. Căutarea fragmentelor — `POST /api/search`
+
+- **3.1.** Apelează `Retriever.collect(session, ai.context_budget())`. Bugetul este limita de context a furnizorului activ: `X_AI_MAX_CONTEXT_CHARS`, `DEEPSEEK_MAX_CONTEXT_CHARS`, `OLLAMA_MAX_CONTEXT_CHARS` (implicit 1.000.000 de caractere) sau `HF_MAX_CONTEXT_CHARS` (implicit 120.000); cu Hugging Face pacientul vede deci mai puține fragmente.
+- **3.2.** Interogarea este **întreaga problemă de sănătate** (`consultation_query()`); istoricul conversației nu este folosit.
+- **3.3.** `rank()` notează toate fragmentele (`score = 8·P1 + 4·P2 + 2·L + V`) și întoarce, în ordinea scorului, doar fragmentele întregi care încap în buget. Detaliile sunt în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
+- **3.4.** Fiecare fragment devine o dovadă `C<chunk_id>` cu `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text` (prefixat cu `Secțiune: <titlu>`), `score`, `relevance_percent` și componentele scorului.
+- **3.5.** Dacă nu există nicio dovadă: „Nu am găsit fragmente relevante în sursele locale.”
+- **3.6.** Altfel, dovezile sunt păstrate în sesiune ca `PendingSearch` (împreună cu profilul de la acel moment), sub un `search_id` aleator. Se păstrează cel mult 12 căutări în așteptare, deci pacientul poate genera și pentru o căutare mai veche din chat.
+
+### 4. Afișarea fragmentelor — `_fragments_message()` și `FragmentsPanel`
+
+- **4.1.** În chat se adaugă mesajul `fragments`: „Am găsit N fragmente relevante în M documente locale”, cu lista fragmentelor ordonată după scor.
+- **4.2.** Pentru fiecare fragment: textul complet, `Scor relevanță: X%`, scorul semantic și lexical, `Afecțiune în titlu` / `Afecțiune în text`, `Găsire Lexicală` și calea documentului.
+- **4.3.** Panoul are filtre (scor minim, scor semantic, afecțiune, găsire lexicală, document) și un sumar cu numărul de fragmente, documente și caractere. Filtrele schimbă doar ce se vede, nu ce se trimite la AI.
+- **4.4.** Sub panou apare mesajul `generate`: „Trimite-le la AI pentru a le combina și generează apoi documentul cu recomandări” și butonul „💊 Generează rețeta”.
+
+### 5. Pornirea generării — `POST /api/searches/{search_id}/generate`
+
+- **5.1.** La apăsare, butonul devine „⏳ Se generează rețeta...” și este dezactivat.
+- **5.2.** Serverul verifică cookie-ul `naturist_owner` (HMAC-SHA256 din `OWNER_KEY`, `_is_owner()`). Fără `OWNER_KEY` configurat verificarea eșuează închis.
+- **5.3.** Un vizitator care nu este owner primește notificarea „Generarea rețetei este disponibilă doar pentru autorul acestui chatbot.”, butonul revine la normal și nu se face niciun apel către AI. Cookie-ul owner (valabil 10 ani) se obține accesând `/owner?key=<OWNER_KEY>`.
+- **5.4.** Pentru owner, `_generate_report()` ia blocarea sesiunii și citește `PendingSearch`-ul căutării apăsate: profilul și fragmentele deja afișate, fără a recalcula căutarea.
+- **5.5.** Dacă acea căutare nu mai există (de exemplu, a ieșit din cele 12 păstrate): „Nu există fragmente pregătite. Descrieți din nou problema de sănătate.”
+
+### 6. Cererea către furnizorul AI — `ResponsesClient.generate()`
+
+- **6.1.** Furnizorul vine din `AI_PROVIDER` (`ai/providers.py`, implicit `xai`):
+
+  | Furnizor | Cheie | Model implicit | JSON cerut prin |
+  |---|---|---|---|
+  | `xai` | `X_API_KEY` | `grok-4.3` (reasoning `medium`) | `text.format=json_object`, plus `store=false` |
+  | `deepseek` | `DEEPSEEK_API_KEY` | `deepseek-flash` | `text.format=json_object` |
+  | `huggingface` | `HF_TOKEN` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | promptul de sistem |
+  | `ollama` | `OLLAMA_API_KEY` (nu e necesară pe un host local) | `deepseek-v4.1-flash:cloud` | promptul de sistem |
+
+- **6.2.** Dovezile sunt ordonate după `score`, descrescător, ca înregistrări `id`, `source`, `text`. **Toate** sunt trimise nemodificate; bugetul a fost deja aplicat la căutare.
+- **6.3.** Se înregistrează în log inventarul fragmentelor trimise (textul doar dacă `LOG_FRAGMENT_TEXT` este activ, tăiat la `LOG_FRAGMENT_TEXT_MAX_CHARS`).
+- **6.4.** Promptul utilizatorului conține profilul (JSON) și lista fragmentelor; promptul de sistem este `ai/prompts/generate_report_system.md`.
+- **6.5.** `complete_json()` trimite o singură cerere `POST {base_url}/responses` (Responses API), cu `max_output_tokens=AI_MAX_OUTPUT_TOKENS` (implicit 20000) și timeout de citire `AI_READ_TIMEOUT_SECONDS` (implicit 300 s; conectare 10 s). Cu `AI_STREAM=true` răspunsul este citit ca flux de evenimente, iar timeout-ul se aplică între evenimente.
+- **6.6.** Răspunsul trebuie să aibă `status == "completed"` (un `incomplete` se loghează cu motivul, de obicei limita de tokeni). Se concatenează blocurile `output_text` și se parsează JSON-ul, tolerant la garduri Markdown (se reîncearcă între primul `{` și ultimul `}`).
+- **6.7.** Se normalizează cele cinci secțiuni: `uz_intern`, `nutritie`, `uz_extern`, `alte_recomandari`, `atentionari`. Fiecare element are `text` și `evidence_ids` (ID-urile dovezilor citate).
+- **6.8.** Nutriția este un obiect cu `retete`, `recomandate`, `nerecomandate`, `interzise`, `alte`, convertit în elemente prefixate (`[RETETA]`, `[RECOMANDAT]`, `[NERECOMANDAT]`, `[INTERZIS]`, `[ALTE]`).
+
+### 7. Generarea PDF-ului — `create_pdf()`
+
+- **7.1.** Titlul (`report_title()`): „Remedii naturiste pentru <afecțiunile recunoscute>”, sau textul scris de pacient când nu s-a recunoscut nicio afecțiune. Același titlu dă și numele fișierului PDF.
+- **7.2.** Copertă (`CoverPanel`): „GHID INFORMATIV”, titlul, „de la dr. Cuișor”, portretul medicului și avertismentul că ghidul este informativ.
+- **7.3.** `sort_sections_by_relevance()` ordonează elementele fiecărei secțiuni după cel mai mare `relevance_percent` al fragmentelor citate, apoi după numărul de surse distincte, apoi după poziția inițială.
+- **7.4.** `build_reference_index()` numerotează sursele citate în ordinea primei apariții.
+- **7.5.** Cele cinci secțiuni colorate (`RoundedSection`); o secțiune goală afișează „Nu au fost identificate informații suficient de relevante în sursele disponibile.” Nutriția este grupată prin `nutrition_display_groups()`: rețetele sunt elemente separate, celelalte categorii sunt grupate.
+- **7.6.** Fiecare recomandare cu dovezi primește legătura „→ Surse N” către bibliografie.
+- **7.7.** Secțiunea „6. Bibliografie” grupează sursele pe fișier; fiecare intrare are legătura „← înapoi” către prima recomandare care o citează.
+- **7.8.** Documentul este construit în memorie cu ReportLab (A4, semne de carte, subsol „Remedii naturiste de la Dr. Cuișor” și numărul paginii) și întors ca octeți.
+
+### 8. Rezultatul în chat și descărcarea
+
+- **8.1.** Raportul este păstrat în sesiune (`StoredReport`: octeții, numele fișierului, problema) sub un `report_id` aleator (`secrets.token_urlsafe(18)`); se păstrează ultimele 12 rapoarte, iar ultimul este cel trimis pe e-mail.
+- **8.2.** Mesajul `generate` al căutării este înlocuit, chiar în locul lui din chat, cu: textul recomandărilor cu bibliografie (`_recommendation_text()`), panoul de descărcare („📄 Descarcă PDF”) și oferta: „Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit.”
+- **8.3.** Descărcarea: `GET /api/reports/{tab_id}/{report_id}` (cu prefixul `PUBLIC_ROOT_PATH` când aplicația rulează sub o subcale). Întoarce HTTP 404 dacă sesiunea sau raportul nu există; altfel PDF-ul ca atașament, cu `Cache-Control: no-store`.
+- **8.4.** Rapoartele rămân în memorie până când sesiunea este închisă, expiră (inactivitate `SESSION_IDLE_SECONDS` = 3600 s, durată maximă `SESSION_MAX_SECONDS` = 14400 s, verificate la fiecare minut) sau aplicația este repornită. Închiderea sau reîncărcarea paginii (`pagehide`) trimite `POST /api/session/unload`, care șterge sesiunea.
+
+### 9. Trimiterea pe e-mail — `_send_report_email()` și `send_report()`
+
+- **9.1.** Declanșare: după generarea unui raport, pacientul scrie în chat **doar o adresă de e-mail** (pasul 2.3).
+- **9.2.** Configurația vine din `GMAIL_USERNAME`, `MAIL_FROM`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`. Dacă lipsește ceva: „Trimiterea pe mail nu este configurată momentan.”
+- **9.3.** Mesajul are subiectul „Raport recomandări naturiste pentru <problemă>”, un text scurt și ultimul PDF atașat.
+- **9.4.** Se reînnoiește tokenul Google OAuth, apoi mesajul este trimis prin Gmail API (`users/me/messages/send`), fiecare cerere cu timeout de 20 s.
+- **9.5.** La succes: „✅ Am trimis documentul la <adresa>.”; la orice eroare se loghează și se afișează „Nu am putut trimite documentul pe mail. Încercați din nou.” Raportul rămâne neafectat.
+
+### 10. Erori și protecții
+
+- **10.1.** `AIUnavailable` (cheie lipsă, eroare HTTP, conexiune eșuată sau răspuns invalid): mesajul erorii apare în chat. Pe server, căutarea rămâne în așteptare, deci generarea se poate relua.
+- **10.2.** Altă excepție la generare: se loghează cu traceback, iar chatul afișează „Raportul nu a putut fi generat. Încercați din nou.”
+- **10.3.** Dacă o cerere eșuează la nivel de rețea, frontend-ul afișează o notificare („Mesajul nu a putut fi trimis…” / „Rețeta nu a putut fi generată…”) și reactivează butonul.
+- **10.4.** Sesiune expirată: HTTP 409 („Sesiunea a expirat. Reîncărcați pagina.”); cookie sau tab lipsă: 401 / 400.
+- **10.5.** Protecții la toate cererile: cererile `POST`/`PUT`/`DELETE` cu `Origin` străin sunt respinse (403); cel mult `MAX_REQUESTS_PER_MINUTE` (implicit 60) cereri pe minut pe IP pentru `/api/` (cu `TRUST_PROXY=true` IP-ul vine din `X-Forwarded-For`); antetele `Cache-Control: no-store`, `X-Content-Type-Options: nosniff`, `Referrer-Policy: no-referrer`.
+- **10.6.** `GET /healthz` întoarce 503 dacă lipsește cheia furnizorului AI activ.
+- **10.7.** La pornire, aplicația face o căutare de probă (`warm_up()`), ca prima căutare a unui pacient să fie rapidă.
+
+---
+
+Căutarea și scorul fragmentelor sunt descrise în [fragment-search-and-scoring.md](fragment-search-and-scoring.md), iar generarea indexului în [hybrid-index-generation.md](hybrid-index-generation.md).
