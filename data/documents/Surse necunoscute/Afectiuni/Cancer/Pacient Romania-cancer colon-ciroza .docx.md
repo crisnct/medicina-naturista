@@ -1,3 +1,5 @@
+# Recomandari naturiste pentru cancer
+
 Tratament naturist pentru cancer de colon si ciroza hepatica
 
 - Silimarina 1000mg: 2 tab x 3 ori / zi, inainte sau dupa masa, timp de cel putin 2 luni

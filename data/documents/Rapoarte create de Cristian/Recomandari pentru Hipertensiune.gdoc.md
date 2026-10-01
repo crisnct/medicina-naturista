@@ -1,4 +1,4 @@
-***Recomandări pentru hipertensiunea arterială***
+# Recomandări pentru hipertensiunea arterială
 
 **Tinctură de obligeană**: 1 lingurită dimineața pe stomacul gol
 

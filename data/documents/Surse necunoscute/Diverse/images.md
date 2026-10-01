@@ -2,26 +2,6 @@
 
 Document combinat din 33 fișiere Markdown generate prin OCR local.
 
----
-
-<!-- source_markdown: 10644803_728964157236579_8804234524315948838_n.jpg.md -->
-
----
-source_path: "C:\\GoogleDrive\\Medicina\\10644803_728964157236579_8804234524315948838_n.jpg"
-source_relative_path: "10644803_728964157236579_8804234524315948838_n.jpg"
-source_sha256: "64eec60eab6f5234ea05488cd0211ff16f51a043a330be758d096fca7852c49b"
-source_size_bytes: 98287
-media_type: image/jpeg
-width_px: 800
-height_px: 800
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 75.24
-ocr_text_characters: 61
-status: "ok"
----
-
 # 10644803_728964157236579_8804234524315948838_n.jpg
 
 ## Text OCR extras
@@ -46,22 +26,6 @@ Textul este rezultatul OCR local și poate conține erori de recunoaștere.
 ---
 
 <!-- source_markdown: 11140351_728965237236471_7820446287134219060_n (1).jpg.md -->
-
----
-source_path: "C:\\GoogleDrive\\Medicina\\11140351_728965237236471_7820446287134219060_n (1).jpg"
-source_relative_path: "11140351_728965237236471_7820446287134219060_n (1).jpg"
-source_sha256: "26587938bf041273e63c59222881fd9b684614a2cd53aa338ba2cc815642d13b"
-source_size_bytes: 71794
-media_type: image/jpeg
-width_px: 800
-height_px: 800
-mode: "RGB"
-ocr_engine: "tesseract"
-ocr_language: "eng"
-ocr_confidence_mean: 84.40
-ocr_text_characters: 236
-status: "ok"
----
 
 # 11140351_728965237236471_7820446287134219060_n (1).jpg
 
@@ -1260,7 +1224,6 @@ status: "no_text"
 ## Text OCR extras
 
 ```text
-[Nu a fost recuperat text OCR cu încredere suficientă.]
 ```
 
 ## Notă
@@ -1467,7 +1430,6 @@ status: "no_text"
 ## Text OCR extras
 
 ```text
-[Nu a fost recuperat text OCR cu încredere suficientă.]
 ```
 
 ## Notă
@@ -1831,7 +1793,6 @@ status: "no_text"
 ## Text OCR extras
 
 ```text
-[Nu a fost recuperat text OCR cu încredere suficientă.]
 ```
 
 ## Notă

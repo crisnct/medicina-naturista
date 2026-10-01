@@ -53,22 +53,15 @@ Se consumă 2-7 linguri dimineața pe stomacul gol.
 **Link-uri utile:**
 \- How to make L.Reuteri Fermented Dairy (yogurt)
 
-
 # \- A surprising solution for social isolation
-
-
 
 \- Role of Lactobacillus Reuteri in Human Health and Diseases
 
-
 \- Microbe Mania: The Spectacular Benefits of L. Reuteri
-
 
 #
 
 # \- Homemade L. Reuteri \*\*MAGIC\*\* Yogurt
-
-
 
 De unde puteți cumpăra probiotic cu Lactobacillus Reuteri:
 \- BioGaia, Gastrus pentru o sănătate optimă a intestinului, mandarin, 30 de tablete

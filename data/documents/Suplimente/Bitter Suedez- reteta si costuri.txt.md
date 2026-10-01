@@ -1,4 +1,4 @@
-Reteta standard:
+# Bitter suedez, Reteta standard:
 
 - 10 gr aloe vera frunze
 - 5 gr rasina de brad
@@ -17,9 +17,6 @@ Reteta standard:
 Reteta 2:
 
 - Aloe Ferox pudra – 25g - 7 lei
-
-
-
 - frunze de frasin – 50g - 2 lei
 - frunze de dafin – 50g - 2 lei
 - stanjenel – 40g - 30 lei
@@ -34,16 +31,3 @@ Reteta 2:
 - rasina de brad – 15g - 1
 - palinca – 4l
 
-Total = 216 lei Bitter: 3l Pret materie prima: 36 lei 500ml
-
----------------------------------------------------------------- Pret plante:
-
-Non-profit: Formula pret bitter: C x 6 lei C - cantitatea de alcool in litri
-
-Formula pret bitter forte (x3) : C x 18 lei C - cantitatea de alcool in litri
-
-Cu profit: Formula pret bitter: C x 14 lei C - cantitatea de alcool in litri
-
-Formula pret bitter forte (x3) : C x 30 lei C - cantitatea de alcool in litri
-
-Pret 4l bitter suedez: 130 lei 70 lei / sticla

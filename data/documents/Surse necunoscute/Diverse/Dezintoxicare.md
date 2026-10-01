@@ -4,19 +4,10 @@
 
 - dimineata se recomandă a se consuma fructe pe stomacul gol
 
-```{=html}
-<!-- -->
-```
 - la prânz se recomandă a se consuma proteine cu legume
 
-```{=html}
-<!-- -->
-```
 - seara se recomandă a se consuma produse cerealiere (fulgi de cereale, mămăligă, piure de orez, paste fierte,\...)
 
-```{=html}
-<!-- -->
-```
 - o singură dată pe saptămână se pot consuma alimente prăjite
 
 []{.underline}

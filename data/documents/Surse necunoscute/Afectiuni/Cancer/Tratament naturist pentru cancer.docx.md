@@ -1,3 +1,5 @@
+# Recomandari naturiste pentru cancer
+
 Tratament naturist pentru cancer *
 
 - Vitamina B17: 500mg x 2-3 ori pe zi, SAU samburi de caise (1 lingura de 2 ori pe zi)
@@ -17,8 +19,6 @@ Tratament naturist pentru cancer *
 - Ananas: se va consuma zilnic
 
 - Ulei din frunze de canepa(Cannabis oil). Se poate cumpara de aici:
-
-
 
 - Cantitatea de paine se va reduce considerabil, maxim o felie la masa
 

@@ -66,10 +66,6 @@ Concluzii	15
 
 Mai multe informații aici:
 
-
-
-
-
 - după ce vei reduce drastic cantitatea de carbohidrați din alimentație și vei crește cantitatea de grăsimi sănătoase vei obține niște lucruri care te vor motiva să continui: scăderea greutății, ameliorarea oboselii cronice, stoparea evoluției diabetului de tip II, creșterea nivelului energetic, dobândirea unui somn mai bun, rezolvarea multor tulburări neurologice, creșterea creativității și a productivității, o memorie mai bună, un creier mai rapid și mai limpede, creșterea libidoului.
 
 - carbohidrații cresc riscul de tulburări neurologice.

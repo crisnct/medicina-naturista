@@ -16,8 +16,6 @@ Glucoza este transportată din sânge în celule cu ajutorul insulinei (secretat
 \
 În desenul de mai jos: glucoza din sânge (cele 3 ovale Glu) este transportată în celulă cu ajutorul insulinei (reprezentată prin săgeată). Schema reprezintă mecanismul ideal, persoana respectivă nu are probleme cu greutatea. În plus -- glicemia persoanei respective se păstrează în limite normale, nu apar modificări patologice pe analize (glicemia ideală este în realitate între 80 -- 100 mg/100 ml sânge).
 
-
-
 !{width="4.125in" height="1.6875in"}
 
 Persoanele care au probleme în a-și menține greutatea constantă (cele cu tendința de a se îngrașa) prezintă o rezistență în teritoriu la acțiunea insulinei. Cu alte cuvinte: insulina descarcă greu glucoza din sânge în celule, celulele prezintă rezistență la acțiunea insulinei.\
@@ -34,11 +32,7 @@ Din cauza acestui „zid", pancreasul crește cantitatea de insulină secretată
 \
 Ce rezultă în aceste condiții: secreție mare de insulină (hiperinsulinism), hiperglicemie postprandială (după masă) prelungită, normalizare încetinită a glicemiei.
 
-
-
 !{width="6.208333333333333in" height="1.7604166666666667in"}
-
-
 
 Insulina este un hormon care îngrașă pentru că efectele insulinei pe metabolism sunt: scade arderea grăsimilor (deci inhibă lipoliza, arderea țesutului gras) și crește depunerea de grăsimi (stimulează lipogeneză, depunerea de grăsimi în țesutul gras).\
 \
@@ -56,15 +50,7 @@ Deși avea hiperinsulinism (care a fost evidențiat prin creșterea continuă î
 \
 \* Departamentul Național de Sănătate din Marea Britanie consideră prediabet valorile glicemiei între 100 -- 120 mg/100 ml sânge. În România glicemia este considerată normală până la 120 mg/100 ml sânge (deși Profesor Dr. Hăulică Ion, autor al „Fiziologie umană" (ajunsă la a III -- ediție) consideră normale valorile 80 -100 mg/100 ml sânge !).
 
-
-
-
-
 !{width="6.104166666666667in" height="2.2916666666666665in"}
-
-
-
-
 
 Care este rolul zaharurilor și grăsimilor ingerate în procesul de creștere în greutate?\
 \

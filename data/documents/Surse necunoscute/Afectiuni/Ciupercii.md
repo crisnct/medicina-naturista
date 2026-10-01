@@ -1,0 +1,3 @@
+# Micoza
+
+**Încercați să puneți oțet** pe porțiunile afectate de ciupercă. Explicația este următoare : ciuperca de orce natură ar fi, trăiește într-un mediu alcalin. Punând oțet care este acid, cu badijonări cât mai dese, pe o perioadă de timp cât mai îndelungată, chiar și după dispariția ciupercii, ia nu va mai apărea deoarece nu poate în mediu acid creat de oțet. Totul depinde de consecvența cu care aplicați acest tratament.

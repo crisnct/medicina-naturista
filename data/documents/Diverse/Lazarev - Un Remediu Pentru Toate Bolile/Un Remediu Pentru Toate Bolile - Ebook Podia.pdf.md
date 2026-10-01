@@ -1,7 +1,3 @@
-[Nu a fost extras text din această pagină.]
-
-[Nu a fost extras text din această pagină.]
-
 „
 ă ă
 ț
@@ -78,5 +74,3 @@ Cu mulți ani în urmă, eu tratam cu ajutorul mâinilor, dând un ordin mental,
 BOLILE”
 ©S.N. LAZAREV
 Traducerea integrală aacestei cărți va fidisponibilă în România laînceputul anului 2021.
-
-[Nu a fost extras text din această pagină.]

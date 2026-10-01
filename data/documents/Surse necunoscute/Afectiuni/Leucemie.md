@@ -220,13 +220,9 @@ Marianciuc Marcel (Emilia)
 
 \- Ne cerem scuze pentru intarzierea cu care am postat noile stiri. Totul e datorita unor probleme tehnice care le\'am avut.
 
-
-
 **Foarte eficient**: sucul proaspat de catina (un sfert de pahar pe zi) in combinatie cu suc de usturoi (2-3 lingurite). In leucemie, o cura de 1-2 luni cu suc de catina are efecte miraculoase.
 
 **Maria Codroiu,** 53 de ani, sat Valea Leurzii, com. Buciumeni, jud. Dâmbovita. A fost diagnosticata în anul 2002 cu **leucemie mieloida cronica** (LMC), pe fondul altor afectiuni : anemie feripriva, diabet zaharat tip I, sechele post accident vascular cerebral si aritmie cu extrasistole. Era slabita si complet dezorientata si nu se putea deplasa singura . Analiza iridoscopica efectuata de d-l ing. Fanica-Voinea Ene a evidentiat în plus ca pacienta mai suferea si de ischemie cerebrala, imunitate deficitara si toxemie avansata. I-a recomandat tratament naturist complex cu plante, produse apicole, petrol, argila s.a . Dupa 1 an, analizele au revenit aproape la normal (vindecare 90%). Urmeaza în prezent cura de întretinere o luna pe semestru.
-
-
 
 Cured leukemia patient could benefit twice from stem-cell therapy
 -----------------------------------------------------------------
@@ -268,5 +264,4 @@ But when it comes to embryonic stem-cell research, Carpenter said, "It's a perso
 "I feel there's a certain point where we're going too far, like cloning people."
 
 Contact Diane Krieger Spivak at 477-6019 or dspivak\@post-trib.com
-
 

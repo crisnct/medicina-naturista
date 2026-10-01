@@ -20,8 +20,4 @@ Mucusul în exces în organism rezulta de multe ori din descompunerea parțială
 
 Alte surse de potasiu: mușchi irlandez , rostopasca , iarba mare ,urzica , radacina de pleurezie, guma , coaja de cires salbatic, mere ( fructe , scoarță de copac cidru de mere, oțet )
 
-
-
-
-
 Alga AFA face ca chistul sa se resoarba

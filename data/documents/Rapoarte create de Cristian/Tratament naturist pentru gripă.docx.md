@@ -1,6 +1,4 @@
-Tratamente naturiste pentru GRIPĂ
-
-(inclusiv pentru COVID-19)
+# Tratamente naturiste pentru GRIPĂ
 
 ### Eliminarea virusului din organism
 

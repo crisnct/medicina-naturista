@@ -2,11 +2,14 @@
 """Rewrite Markdown source files in place, stripping the leading PDF-extraction
 metadata block (source_path, source_sha256, page_count, ...) with the
 repeated title and scaffold headings, external link destinations, e-mail
-addresses, "### Pagina N" and "<!-- Pagina PDF N -->" page markers, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
+addresses, "### Pagina N" and "<!-- Pagina PDF N -->" page markers,
+"[Nu a fost extras text din această pagină.]" placeholders, e-book "< previous page page_N next page >" navigation lines, empty "<!-- -->" HTML blocks, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
 "Vezi și"/"vezi si" cross-references. All cleaning rules live in this file.
 
-Removing the metadata block deletes lines, so line numbers shift for those
-files; the changed bytes make the next reindex re-process them anyway.
+Consecutive blank lines are collapsed into one.
+
+Removing the metadata block, page markers and extra blank lines deletes lines,
+so line numbers shift for those files; the changed bytes make the next reindex re-process them anyway.
 
 Run this once (and again whenever new documents are added) before
 rebuild_index.ps1: the hybrid index is built directly from already-clean
@@ -191,16 +194,42 @@ _PAGE_MARKER_RE = re.compile(
     re.IGNORECASE,
 )
 
+# E-book navigation lines: "< previous page page_109 next page >" (page id may
+# be roman, the trailing "next page >" may be cut off) and "cover next page >".
+_EBOOK_NAV_RE = re.compile(
+    r"(?:<[ 	]*previous page[ 	]+page_\w+(?:[ 	]+next page[ 	]*>)?"
+    r"|cover[ 	]+next page[ 	]*>)[ 	]*",
+    re.IGNORECASE,
+)
 
-# Remove the generated "### Pagina 8" heading lines and "<!-- Pagina PDF 8 -->"
-# comment lines, plus the blank line that would otherwise be left doubled up
-# where a marker sat between paragraphs. Removes lines, like
-# strip_extraction_metadata().
+# Pandoc's empty raw-HTML block ("```{=html}" / "<!-- -->" / "```", used to
+# separate adjacent lists/quotes) and the bare "<!-- -->" comment it contains.
+_EMPTY_HTML_BLOCK_RE = re.compile(r"(?m)^```\{=html\}[ \t]*\n<!--[ \t]*-->[ \t]*\n```[ \t]*$")
+_EMPTY_COMMENT_RE = re.compile(r"<!--[ \t]*-->[ \t]*")
+
+# Whole-line placeholders the extractors emit for a page/slide without text:
+# "[Nu a fost extras text din această pagină.]" (or "...acest diapozitiv.") and
+# "[Nu a fost recuperat text OCR cu încredere suficientă.]".
+_EMPTY_PLACEHOLDER_RE = re.compile(
+    r"\[[ \t]*Nu a fost (?:extras|recuperat) text\b[^\]\n]*\][ \t]*", re.IGNORECASE,
+)
+
+
+# Remove the generated "### Pagina 8" heading lines, "<!-- Pagina PDF 8 -->"
+# comment lines, e-book "< previous page page_N next page >" navigation lines, empty pandoc
+# HTML blocks and empty-page placeholder lines, plus the blank line that
+# would otherwise be left doubled up where one sat between paragraphs.
+# Removes lines, like strip_extraction_metadata().
 def strip_page_markers(text: str) -> str:
     kept: list[str] = []
     skip_blank = False
-    for line in text.split("\n"):
-        if _PAGE_MARKER_RE.fullmatch(line):
+    for line in _EMPTY_HTML_BLOCK_RE.sub("<!-- -->", text).split("\n"):
+        if (
+            _PAGE_MARKER_RE.fullmatch(line)
+            or _EBOOK_NAV_RE.fullmatch(line)
+            or _EMPTY_COMMENT_RE.fullmatch(line)
+            or _EMPTY_PLACEHOLDER_RE.fullmatch(line)
+        ):
             skip_blank = not kept or not kept[-1].strip()
             continue
         if skip_blank and not line.strip():
@@ -208,6 +237,16 @@ def strip_page_markers(text: str) -> str:
         skip_blank = False
         kept.append(line)
     return "\n".join(kept)
+
+
+_BLANK_RUN_RE = re.compile(r"\n(?:[ \t]*\n){2,}")
+
+
+# Keep at most one blank line in a row: a blank line directly followed by
+# another blank line is dropped. Runs last, so it also squeezes the gaps left
+# by every removal above. Removes lines, like strip_extraction_metadata().
+def collapse_blank_lines(text: str) -> str:
+    return _BLANK_RUN_RE.sub("\n\n", text)
 
 
 def clean_documents(source: Path, *, dry_run: bool) -> int:
@@ -222,7 +261,9 @@ def clean_documents(source: Path, *, dry_run: bool) -> int:
     changed = 0
     for path in paths:
         decoded, encoding = _read(path)
-        cleaned = clean_text(strip_page_markers(strip_extraction_metadata(decoded, path.stem)))
+        cleaned = collapse_blank_lines(
+            clean_text(strip_page_markers(strip_extraction_metadata(decoded, path.stem)))
+        )
         if cleaned == decoded:
             continue
         changed += 1

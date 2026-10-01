@@ -1,4 +1,4 @@
-**Recomandări naturiste pentru gută**
+# Recomandări naturiste pentru gută
 
 ## **Ce este guta și de ce apare?**
 
@@ -63,25 +63,6 @@
  * **Unguent triplu-concentrat de mușețel:** într-un borcan de 800g se pune untură de porc sau vaselină medicinală până la jumătatea borcanului. Se pune pe bain-marie. După ce s-a topit se adaugă mușețel cât cuprinde. Se pune capacul și se ține pe bain-marie la foc mic timp de o oră. Apa nu trebuie să clocotească. După o oră se strecoară fierbinte prin tifon, iar unguentul se pune înapoi în borcan pe bain-marie împreună cu alte flori de mușețel. Se ține tot o oră după care se strecoară și se adaugă flori noi de mușețel. Se mai repetă încă o dată procedeul. Unguentul rezultat se poate păstra într-o cutie, la temperatura camerei. Se dă pe picioare o dată pe zi.
  * **Balsam de Galaad**(ulei esențial): se frecționează picioarele cu câteva picături în fiecare seară înainte de somn. Se poate comanda la numărul de telefon **0720.025266.**
  * **DMSO****(dimetilsulfoxid):** masaj la picioare cu acest ulei în cazul în care durerile sunt acute. Este deosebit de eficient.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## **Alimentație**
 
@@ -149,7 +130,6 @@ Potrivit “**Marelui Dicționar al Bolilor și Afecțiunilor – cauze subtile 
  * A se evita dozele de **vitamina B3** de peste 50mg pe zi, deoarece crește cantitatea de acid uric din organism.
  * **Aspirina** duce la creșterea nivelului de acid uric, și dacă se ia în cantități mici.
  * Unele medicamente pentru hipertensiune arterială duc la creșterea nivelului de acid uric.( diuretice tiazidice, inhibitori ai enzimelor de conversie a angiotensinei (ECA) și beta-blocante)
-
 
 ## **Referințe**
 

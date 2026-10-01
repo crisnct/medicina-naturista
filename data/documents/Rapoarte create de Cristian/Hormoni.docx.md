@@ -1,6 +1,4 @@
-### Hormonii produși de organismul uman
-
-### Tabel 1
+Hormonii produși de organismul uman
 
 | Coloana 1 | Coloana 2 | Coloana 3 | Coloana 4 | Coloana 5 |
 | --- | --- | --- | --- | --- |

@@ -46,8 +46,6 @@ g) dacă vă este poftă de iaurt cu fructe: amestecați iaurtul de dimineață 
 \
 h) la restaurant: carne cu legume la grătar + salate (roșii, castraveți, ceapă, ardei, salată verde); spaghete al dente cu legume (maxim 1 zi / săptămână spaghete).
 
-
-
 **Ce avem voie ?**\
  \
 Legume permise: ardei, castraveți, ceapă, ciuperci, conopidă, broccoli, dovlecei, năut, linte, fasole boabe, fasole verde, mazăre, morcov crud, praz, ridichi, roșii, salată verde, sfeclă crudă, sparanghel, spanac, țelină crudă, urzici, varză, vinete, soia;\

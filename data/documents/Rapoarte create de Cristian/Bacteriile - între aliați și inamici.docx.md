@@ -1,4 +1,4 @@
-### Bacteriile - între aliați și inamici
+Bacteriile - între aliați și inamici
 
 Concluzii
 - În sol se găsesc bacterii din grupa streptomicetelor și bacillus, care au efect antibacterian, antifungic și antiparazitar.
@@ -142,99 +142,66 @@ Referințe:
 
 Bacterie
 
-
 The Family Thermodesulfobacteriaceae
-
 
 Streptomicete: strategii de atac
 
-
 Aplicații biotehnologice ale bacteriilor din genurile streptomyces Și bacillus
-
 
 Bacillus subtilis
 
-
 Chemosinteza
-
 
 Soy sauce
 
-
 Lactobacili
-
 
 Streptococcus mutans
 
-
 Role of probiotics in the prevention and treatment of meticillin-resistant Staphylococcus aureus infections
-
 
 Is Lactobacillus acidophilus good for health?
 
-
-
 Lactobacillus acidophilus
-
 
 Coprophagia
 
-
 Bifidus ActiRegularis, izvor de sanatate
-
 
 Probiotic Bifidobacterium longum NCC3001 Reduces Depression Scores and Alters Brain Activity: A Pilot Study in Patients With Irritable Bowel Syndrome.
 
-
 Bifidobacterium longum
-
 
 Which minimal essential media is ideal for the growth of Streptomyces?
 
-
 VIAȚA DIN SOL: BACTERIILE
-
 
 De ce unii oameni mananca pamant
 
-
 Lactobacillus casei
-
 
 Why You Should Use the Probiotic Lactobacillus Casei
 
-
 Researched L. Casei Probiotic Benefits
-
 
 Bifidobacteriile, benefice pentru organism
 
-
 Streptomyces inside-out: a new perspective on the bacteria that provide us with antibiotics
-
 
 Bacteriile radioactive – o armă inedită care permite combaterea celui mai necruțător tip de cancer
 
-
 Claudia Gravekamp
-
 
 Phages in nature
 
-
 How phages work
-
 
 Elevated Abundance of Bacteriophage Infecting Bacteria in Soil
 
-
 Ce se transmite in timpul unui sarut de 10 secunde
-
 
 Bacteriile pot determina obezitate
 
-
 World of bacteria - the science behind microorganisms
-
 
 Enterobacter cloacae

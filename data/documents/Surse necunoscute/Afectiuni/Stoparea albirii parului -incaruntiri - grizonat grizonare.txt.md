@@ -1,0 +1,9 @@
+# Stoparea albirii parului -incaruntiri - grizonat grizonare
+
+### Dimineata
+
+| Supliment | Doză | Rol | | ---------------------------------------- | ------------------------------ | -------------------------------------------------------- | | **Catalază** (pulbere ta – 100.000 UI/g) | **300 mg** (0.3 g = 30.000 UI) | Descompune peroxidul de hidrogen acumulat în foliculi | | **Cupru (chelare sau gluconat)** | **1–2 mg** | Cofactor esențial în enzima tirozinază (pigmentare) | | **Vitamina B5 (acid pantotenic)** | **250–500 mg** | Susține glandele suprarenale și regenerarea foliculilor | | **PABA (acid para-aminobenzoic)** | **500 mg** | Poate contribui la repigmentarea părului în unele cazuri | | **Biotină** | **5.000 mcg (5 mg)** | Susține sănătatea firului de păr și metabolismul pielii | | **Multivitamină** (opțional) | Doză uzuală | Asigură niveluri optime de B12, acid folic, zinc |
+
+------------------------------------------------------------- Seara
+
+| Supliment | Doză | Rol | | ----------------------------------------- | --------------- | --------------------------------------------------------------- | | **L-Tirozină** | **500–1000 mg** | Precursor pentru melanină | | **Vitamina C** | **500–1000 mg** | Antioxidant, susține absorbția cuprului și enzimelor | | **Resveratrol sau extract de ceai verde** | Doză uzuală | Antioxidanți puternici care protejează celulele pigmentare | | **Magneziu** (citrat, glicinat) | **200–400 mg** | Ajută la somn și reduce stresul (un factor în albire prematură) |

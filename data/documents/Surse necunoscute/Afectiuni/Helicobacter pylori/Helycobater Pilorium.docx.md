@@ -1,3 +1,5 @@
+# Helicobacter pylori
+
 - Cinnamon
 
 - Vitamin C

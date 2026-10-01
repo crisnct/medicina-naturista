@@ -1,6 +1,4 @@
-[Recomandări pentru regenerarea ficatului]{.underline}
-
-[]{.underline}
+# Recomandări pentru regenerarea ficatului
 
 - **tinctură din semințe de Armurariu** : 2 lingurițe dimineața între orele 1.00-3.00 și o linguriță seara la ora 21.00.
 

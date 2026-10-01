@@ -1,4 +1,4 @@
-Recomandari pentru dizolvarea pietrelor de la rinichi
+# Recomandari pentru dizolvarea pietrelor de la rinichi
 
 **[Alimente care grabesc vindecarea:]{.underline}**
 

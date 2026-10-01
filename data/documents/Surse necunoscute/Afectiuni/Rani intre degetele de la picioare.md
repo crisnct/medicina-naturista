@@ -1,1 +1,3 @@
+# Rani intre degetele de la picioare
+
 **Un sfat** : umblați cât mai mult desculță și evitați încălțămintea gen sport de cauciuc. După ce vă spălați pe picioare cu apă și săpun, tamponați rănile dureroase cu un decoct de **tătăneasă** \[doua lingurițe de plantă se fierb în 250gr apa, 2 minute\]. Lăsați locul să se usuce apoi puneți pe locurile dureroase frunze de pătlagină ușor strivite \[bine spălate în apă rece\]. Când rănile încep să se închidă, ungeți-le seara cu alifie de gălbenele. Dacă mergeți la serviciu, puneți între degete frunze de pătlagină.

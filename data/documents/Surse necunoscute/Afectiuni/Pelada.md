@@ -1,3 +1,4 @@
+# Pelada
 **Uneori boala se moștenește** , alteori cauza este un soc pshiic puternic accident , moartea cuiva , o dezamăgire puternica , raze Roengen etc. Soluțiile prescrise pentru regenerarea parului sunt aceleași ca la combaterea cheliei : Tinctura de ardei iute - 200 gr ardei iute se macerează 7-8 zile in 100 ml alcool . Se fac frecții energice la rădăcina parului de doua ori pe săptămână . Alifie de propolis , se găsește in magazinele de specialitate - se fac frecții zilnice , prin masaje energice , 3-4 săptămâni la 5-6 luni , pana începe sa crească parul .
 
 **Oțet de mere** - se aplica pe pielea capului de 6 ori pe zi , masând ușor .

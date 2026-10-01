@@ -1,7 +1,4 @@
-[Trombocitemie / Leucemie / Metaplazie / Mielofibroza]{.underline}
-==================================================================
-
-[]{.underline}
+# Trombocitemie / Leucemie / Metaplazie / Mielofibroza
 
 **vitamine recomandate**: **B~1~**(1 comp/zi timp de 10-20 zile dupa care se face pauza de 7 zile dupa care se poate relua), **B~2~**-injectabil, **B~6~** [ ]{.underline} (un sfert de comprimat la 5---7 zile; dupa o luna de tratament se face pauza de o saptamana), **B~12~**, **acid folic** (Acifol - 1 comprimat pe zi timp de 10-15 zile dupa care se face pauza de 10 zile dupa care se poate relua), **C** (500-2000 mg / zi).
 
@@ -16,8 +13,6 @@
 **a se consuma in cantitati mici**: prajelurile, ouale.
 
 **produse animaliere recomandate:** [ficat de vita]{.underline}, **[splina de vita]{.underline}**, ficat de pasare.
-
-[]{.underline}
 
 **alte produse**: [mierea de padure(]{.underline}1-3 lingurite pe zi), [laptisor de matca]{.underline} (fiole), polen de albine granulat (1-2 lingurite pe zi), [seminte de susan]{.underline} (o lingura pe zi), seminte de armurariu (½ lingurita dupa masa -- a se mesteca bine).
 

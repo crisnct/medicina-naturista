@@ -1,4 +1,4 @@
-Tratament naturist pentru Osteoporoza
+# Tratament naturist pentru Osteoporoza
 
 - Lipsa sau insuficienta proteinelor in alimentatie poate duce la osteoporoza
 

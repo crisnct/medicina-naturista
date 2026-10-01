@@ -10,7 +10,6 @@ Te rog sa raspunzi la urmatoarele intrebari folosind maxim 75 de cuvinte pentru 
 1. sinuzita b. raceala c. tiretoxicoza d. hipotiroidismul e. hemoroizii f. artrita g. abcesul.
  Din cele enumerate mai sus consider ca sunt conditii reci urmatoarele: sinuzita, raceala, hipotiroidismul, hemoroizii, si artrita.
 
-
 3. Constipatia este comuna. Se considera a fi o conditie rece, totusi poti da un exemplu in care ea are loc in conditii calde?
  Constipatia poate avea loc in conditii calde atunci cand se consuma prea multe proteine si prea putine fibre.
 

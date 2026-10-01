@@ -1,6 +1,4 @@
-### Leacuri de argint
-
-!{width="0.11458333333333333in" height="9.375e-2in"}de **prichindelisor** » Mar Mai 11, 2010 9:08 pm
+Argintul coloidal
 
 Stiati ca?\
 Pentru a ameliora setea, atunci cand nu se poate bea nimic, puteti tine in gura un obiect de argint.\

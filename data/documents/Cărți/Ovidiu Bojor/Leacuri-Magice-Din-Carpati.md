@@ -1,3 +1,5 @@
+## DESPRE LOCUL ETN0MEDICINEI ÎN SPAȚIUL CARPATIC
+
 > ***DESPRE LOCUL ETN0MEDICINEI ÎN SPAȚIUL* CARPATIC**
 >
 > Datorită unor particularități zonale, medicina magico-cmpirică s-a păstrat la români, aproape instituționalizată, până în secolul al XX-lea. lată, în acest sens, ce consemna un medic districtual în 1935: \"Trebuie să mărturisesc că în popor medicina băbească si descântecele cu tot empirismul lor, au rămas mijlocul i\"o Cujsdpsic la care recurg țăranii noștrii în caz de boală. Ei cred orbește în puterea descântecului. Sunt zile din săptămână, cum e miercuri, duminica, dar mai ales vinerea, când bolnavii din cele mai îndepărtate sate, vin la câte o babă meșteră descântătoare, făcând coadă cu căruțele la usa ei.\"^1^
@@ -229,6 +231,8 @@ de mai târziu a continuat să arate un respect nelimitat în instituția acesto
 du-te cât {, ~putea~ ~de~ ~tare~.
 
 **Săteanul a luat calul și s-a urcat cu el pe un vârf de munte. De acolo a văzut cum străinul citea tare dintr-o carte. Peste puțin timp apa a început să facă bulbuci și a ieșit din ea un balaur. Străinul 1-a lovit cu frâul în cap și balaurul s-a scufundat iar în apă. începând din nou să citească tare din carte, a ieșit un alt balaur, unul mare. Străinul i-a pus frâul în cap și s-a suit pe el, atunci balaurul s-a ridicat în văzduh și a zburat spre răsărit, trecând peste Țara Românească. Pe unde trecea solomonarul călare pe Balaur, cerul era negru de înnourat, ploua, fulgera și bătea piatra.**
+
+## VRĂJMAȘII NEVĂZUȚI
 
 > *VRĂJMAȘII NEVĂZUȚI*
 >
@@ -481,6 +485,8 @@ Existența la români a unor persoane posedate de duhuri si care, prin stările 
 
 Legat de \"Căderea Rusaliilor\" există datina unui întreg ritual de trezire a *Rusaliei,* care are elemente și unele funcții analoage cu ale dansului *Călușului.* Astfel, în jurul *Rusaliei* căzute la pământ, în leșin, se formează un grup de dansatori și dansatoare condus de un bărbat \"impunător\", timp în care alți participanți cântă din diferite instrumente. Conducătorul dansatorilor, care ține în mână un cuțit și anumite plante: pelin, usturoi și mușețel, face o cruce cu cuțitul asupra Rusaliei căzute, apoi toți participanții încep să danseze în jurul ei, acompaniați de un cimpoi. Ei fac o horă în jurul femeii căzute, horă care se învârte de trei ori în sensul acelor de ceas, apoi în sens invers. în timp ce dansează ei strigă: *\"Hop, hop, hop, așa, așa/și-ncă-o dată tot așa\".* La un moment dat, cel ce conduce dansul ia femeia de subsori și traversează cu ea un râu. în timp ce ceilalți dansează, conducătorul ritualului ia un pic de apă din râu, un pic de Pelin și un pic de Usturoi, le amestecă în gură și le scuipă în gura și pe fața femeii, probabil pentru a determina duhul *Rusaliei* să îi părăsească trupul, așa cum procedează și *călușarul* în ritul Călușului. îi dă apoi femeii de două ori un pic de apă pe vârful cuțitului, o spală și o așează acolo unde căzuse, după care ea se scoală singură și începe să danseze, ca și cum nimic nu s-ar fi întâmplat.
 
+## NUIAUA PE ALUN ȘI RITUALUL CĂLUȘULUI
+
 > NUIAUA PE ALUN ȘI RITUALUL CĂLUȘULUI
 >
 > Ceremonialul magico-profilactic al dansului *călușului,* este strâns legat de vremea *Rusaliilor.* El este considerat panromân, fiind atestat în toate provinciile daco-române, ca și în Macedonia. Scopul *călușului* este acela al alungării duhului-boală si constă în anumite dansuri rituale executate în apropierea bolnavului și în atingerea acestuia cu ierburi de leac. I se scuipă bolnavului în față usturoiul pe care călușarul îl mestecă încontinuu, se sparge lângă el o oală cu apă etc.
@@ -520,6 +526,8 @@ Timp de două-trei săptămâni, călușarii merg din sat în sat, unde, însoț
 Doborârea din *căluș* se face și prin *spargerea ulcelei* cu apă vrăjită. Vătaful așază în centrul cercului o ulcică cu apă, cu pelin și cu usturoi, după care începe dansul *călușului.* Călușarul pe care vătaful își așază privirile își intensilică jocul, tot mai dezordonat și amețit. Când jocul ajunge la paroxism, vătaful îl stropește cu usturoiul mestecat în gură, scuipându-I, apoi lovește cu bățul în ulcică, apa vrăjită din aceasta stropindul pe călușarul care cade la pământ. Un călușar pe nume Oprea povestea că: \"Pe când înconjuram bolnavul, am simțit deodată un fel de beție. Când m-am apropiat de vătaf ca să sorb usturoi și el s-a uitat drept în ochii mei, m-a apucat amețeala. Când a aplecat steagul asupra mea, am văzut negru înaintea ochilor, parcă aș fi intrat într-o ceață. Când am început să înconjurăm oala, mi-am pierdut
 
 > memoria, nu-mi mai dădeam seama ce face vătaful, mi se părea că mă poartă cineva pe sus. Când a spart oala și m-a stropit apa, eram epuizat cu totul, picioarele mi s-au înmuiat și am căzut la pământ. Nu mai știam ce se întâmplă cu mine.\"^2^\[specifică cea mai elocventă a obiceiurilor de factură magică ale poporului român. Chiar dacă el se caracterizează printr-o spectaculozitate ieșită din comun, pentru a îi putea înțelege sensul și virtuțile terapeutice pe care le dezvoltă, trebuie să ținem seamă de întreg cadrul său de manifestare, pornind de la credințele în puterea și acțiunea *Rusaliilor.*
+
+## VE0CH1UL
 
 *VE0CH1UL*
 
@@ -605,8 +613,12 @@ Copilul nou-născut, pentru a fi apărat de deochi, *trebuie cântărit* înaint
 
 Dintre metale, aurul trece drept un bun apărător contra deochiului. De aceea, se coase la scufița copilului, pe lângă altele, și o monedă de aur. Tot astfel se procedează la bulgari și la sașii din Transilvania
 
+## MAGIA POPULARA
+
 > **MAGIA *POPULARA***
 >
+## VESCANTECUL
+
 > ***VESCANTECUL***
 >
 > *Descântecul* este elementul cel mai reprezentativ, totodată și cel mai frecvent, al medicinei populare. El este o formă terapeutică complexă, reunind tratamentul psiho-hipnotic (magic), fitoterapeutic, fizic și bioenergetic.
@@ -935,6 +947,8 @@ Un rol important al incantației magice - componenta centrală a descântecelor 
 >
 > Mâna bolnavului însuși poate fi implicată în actul terapiei magice. Astfel, până în secolul trecut se executau în Muntenia \"oalele de leac\", în care era imprimată mâna celui bolnav: \"într-un sat numit Gura Sutei, de pe \[râul\] Dâmbovița, se confecționau de unii olari așa-zisele «oale de leac», cu motivul decorativ al mâinii celui bolnav, înscris, prin apăsare, în pasta moale, înainte de coacere. Cu aceste oale, în ziua sortită lecuirii, bolnavul și vraciul sau doftoroaia mergeau în pădurea apropiată, numită Nucet, unde într-un hățiș se află o «fântână de leac», alături de care străjuia o movilă de oale sparte. în fața vraciului sau doftoroaiei, bolnavul se dezbrăca în pielea goală și se întorcea cu spatele la fântână. «Vindecătorul» lua din fântână, cu *oala de leac,* apă rece, o descânta și o zvârlea cu putere pe spatele bolnavului, care se înfiora tot. Apoi trântea *oala de leac* în mormanul de cioburi, exorcizând-o.\"^1^
 >
+## VRĂJI ȘI BLESTEME
+
 > *VRĂJI ȘI BLESTEME*
 >
 > *în* afară duhurilor rele, ce sunt la originea unor bo\|j poporul mai atribuie originea acestora și acțiunii răuvoitoate j unor ființe omenești ce se folosesc de mijloace magice, *vrăjitorii* Aceștia trimit asupra omului tot felul de neplăceri, dar mai ales boli, de care se poate scăpa foarte greu.
@@ -975,12 +989,16 @@ Dacă cineva simte numai împunsături de cuțit *\^junghiuri\",* precum la dure
 
 Deși se spune că a adus-o cu sine de la muntele Athos, remarcăm că și în medicina magică romanească cuțitu\" sau alte obiecte ascuțite de înțepat sunt folosite împotriva duhurilor necurate Tot pentru cazuri de boală, se aprind lumânări în biserică și se pun la icoane; se aprinde o candelă în fața icoanei Maicii-Domnului din biserică, se unge bolnavul cu apă sfințită făcută în ziua de *Izvorul Tămăduirii* (prima vineri după ziua Paștelui; se crede că apa luată de la izvoare în această zi este vindecătoare). De *Iele* se descântă cu o cruce, cu tămâie și cu aghiasmă. Tot cu crucea și cu tămâie (de la Bobotează) se descântă pentru *brâncă* (erizipel) și de *întălnitură* (congestie cerebrală, amețeli). Pentru *poceală* (paralizie facială), bolnavul sărută de 27 de ori crucea cu care i s-a descântat. Se descântă cu crucea și pentru *izdat* (colici intestinale), *întâmpinat* (reumatism poliarticular) și *poceală,* boli \"în care necuratul lucrează direct asupra bolnavului\".\[4J
 
+## ETN0MEDICINA ÎN OBICEIURI ȘI SUPERSTIȚII
+
 ***ETN0MEDICINA ÎN* OBICEIURI ȘI SUPERSTIȚII**
 
 > ***\'Credințele, superstițiile, descântecele ți practicile mapce constituac o lume aparte, pe care, oricât a-i încerca să o cunoști, niciodată nu vei izbuti să-i descoperi toate secretele, deoarece căile de investigație ți se închid curând. Din acest punct de vedere, am întâmpinat o rezistență dărză\...\'***
 >
 > Petre V. Ștefănucă, *Cercetări folclorice pe Valea Nistrului-de-Jos.*
 >
+## CREDINȚI ȘJ OBICEIURI STRĂVECHI CU CARACTER ETNOHEVICAL
+
 > *CREDINȚI ȘJ OBICEIURI STRĂVECHI CU* CARACTER *ETNOHEVICAL*
 >
 > La sate, atunci când se îmbolnăvea un copil mic care încă nu putea vorbi, în scop diagnostic femeile bătrâne aveau obiceiul să spargă un ou proaspăt căruia îi scoteau gălbenușul și îl purtau pe tot trupul copilului, pentru a află unde îl *junghie.* Unde se spărgea\' gălbenușul acolo era *junghiul.* Dacă nu se spărgea nicăieri, însemna că nu are *junghi^1^.*
@@ -1051,6 +1069,8 @@ Metoda românească a anesteziei fără anestezic se practica înainte sau după
 >
 > Atunci când un copil se naște cu \"cămeșuică\" este un copil norocos, sortit cu noroc. Moașa rupe \"cămeșuică\" și scoate copilul, iar pe aceasta o pune la uscat pe Busuioc *(Ocimum basilicum).* Când naște o femeie întâia oară, este bine ca să poarte timp de trei zile în sân o căpățână de Usturoi, până se va scălda. Este bine *a* să țină căpățână în mână, chiar din momentul când sef trudește să nască^2^.
 >
+## FOCUL VIU
+
 > *FOCUL VIU*
 >
 > Prin colțurile retrase ale Carpaților, prin sate ascunse si prin văile străbătute de cristalinul apelor de munte se aprindea *focul viu,* obicei ce face parte dintre acele tradiții care s-au mai păstrat doar prin munții cei mai neumblați.
@@ -1075,6 +1095,8 @@ Focul viu era făcut de doi veri primari sau de doi feciori și era pus apoi la 
 >
 > Alt păstor spunea: \"Focul acela (focul viu) îl iei și faci foc din el și încălzești apa. Cu apa se unge unde se face rana aceea, *care-i tot foc viu\...* Știu că am făcut odată foc viu la o vacă și i-a trecut de boala aceea.\"\'
 >
+## LUNA ÎN EMPIRISMUL POPULAR
+
 > ***LUNA ÎN EMPIRISMUL POPULAR***
 >
 > Românii privesc Luna ca pe un lucru sfânt, îndeosebi cei bătrâni care se și închină la ea. în unele părți, românii când vedeau întâia oară Lună nouă, ieșeau cu toții afară din casă, își scoteau căciulile din cap și se închinau.
@@ -1104,6 +1126,8 @@ Focul viu era făcut de doi veri primari sau de doi feciori și era pus apoi la 
 > Apele și fântânile sunt spurcate în timpul eclipselor totale de Lună, deci nu este bine să se bea apă în aceste momente (probabil conform unei vechi credințe că atunci apar pe pământ cele mai infernale ființe, apa - izvorul îndeosebi - fiind agentul maistral de legătură cu celelalte lumi.
 
 La capitolul despre *Leacuri* prezentăm o interesantă terapie pentru astenia fizică, un leac ce folosește radiațiile Lunii
+
+## IERBURILE SACRE
 
 > **IERBURILE SACRE**
 
@@ -1141,7 +1165,7 @@ De cele mai multe ori sacralitatea plantelor este cea care le conferă puterea t
 
 > Am văzut că unele ierburi au putere protectoare în fața supranaturalului. Astfel, odinioară, când mergeau la joc, la ospețe sau cu animalele la sălașe de pe înălțimi unde rămâneau adeseori singure, până toamna, fetelor din Sălciua li se făceau de către mamele lor lăutori cu Odolean *(Valeriana officinalis),* Leuștean și Iarbă Neagră *(Sanicula europaea),* ca să nu le fure zmeii ce se vedeau uneori ieșind ca o pară de foc, ce lumina în noapte și apoi se stingea, dintr-o peșteră numită Poarta Zmeilor,
 >
-> **Mătrăguna**
+#### Mătrăguna
 >
 > --- *Atropa belladonna ---*
 >
@@ -1195,7 +1219,7 @@ Ea trebuie să fie plătită, căci altminteri nu numai că nu este lecuitoare (
 >
 > --- *Stăpâna mea, unde duci floarea aiasta, că aiasta-i*
 >
-> *Mătrăgună?*
+#### Mătrăgună
 >
 > *--- Da\' cum să folosește, că mi omu\' bolnav?* întreabă la
 >
@@ -1239,7 +1263,7 @@ Cercetând Arhiva de Folclor a Academiei Române, Mircea Eliade a relevat o seri
 >
 > în scop pur medicinal Mătrăguna, culeasă tot ritualic, se punea pe umflături. Cei cu *friguri* și-o legau la cap, pe frunte (dr. N Leon, în *Istoria naturală medicală a poporului român,* aprecia că acest remediu vindeca într-adevăr/r/gwAvVe, singurul inconvenient fiind acela că se delira după administrarea lui, dar pentru puțin timp. Cu frunze aprinse se trata tușea, iar rădăcina plămădită se folosea contra reumatismului
 >
-> Mătrăguna mica
+#### Mătrăguna mica
 
 --- *Scopolia cărnii oi ca*
 
@@ -1257,7 +1281,7 @@ Cercetând Arhiva de Folclor a Academiei Române, Mircea Eliade a relevat o seri
 >
 > Ca și Mătrăguna, Mătrăguna mică poate fi folosită și în scopuri rele, putând cauza moarte dușmanilor celui ce o folosește \"S-o omorât și aici, da\' eu nu le-am învățat\", spunea Lina Neamțului din Sebeș, vrăjitoare al cărei nume circula prin multe sate din Țara Oltului. Planta aduce boli chinuitoare prin chinuirea micilor vietăți (gângănii în general) ce se găsesc la rădăcina ei, iar prin omorârea lor sau numai prin strivirea rădăcinilor aduce moartea. O săteancă spunea că la rădăcina plantei trăiește o năpârcă, pe care dacă o omori, moare și omul pentru care este săpată. Iată cum este relatat acest fapt: \"Când au pe cineva contra îi sapă Iarba Codrului. Cine o sapă, în ziua aceea nu mănâncă nimic\... Aprinzi tămâie și-o sapi pe gândul ce-1 ai. Ce găsești la rădăcina ei omori\"; \"Când o sapi te pui în genunchi la rădăcina ei, te rogi lui Dumnezeu și faci mătănii. Sapi la rădăcină și acolo-s ghiermi și-i omori pe numele ăluia care ți-a făcut răul. Ghiemi, râme, ce-o fi omori și zici: «Dumnezeu să-i ajute și să-i facă ghine cum le fac eu la ghiermii ăștia»\".
 >
-> Floarea de ferigă
+#### Floarea de ferigă
 >
 > --- *Dryopteris filix-mas* --- --- *Potystichum felix mas ---*
 >
@@ -1281,7 +1305,7 @@ Floclorul românesc indică că nimeni nu poate vedea și avea *floarea de ferig
 >
 > Afară de *apa vie* (care isvorăște din \"munții care se bat în capete\"), basmul și credințele populare vorbesc despre o *Buruiană a vieții* cu care se pot învia oamenii și animalele ce au murit, pe care însă nu o recunosc decât animalele, îndeosebi șerpii. Ca să o dobândească, oamenii omoară un pui de șarpe, apoi așteaptă până vine mama puiului cu *Bumiana vieții* în gură. După șarpele și-a înviat puiul, părăsește iarba și omul o poate lua^1^.
 
-Iarba Fierului (Iarba Fiarelor)
+#### Iarba Fierului (Iarba Fiarelor)
 
 > --- *Vincetoximum officinale* --- *---Actaea spicata* ---
 
@@ -1320,7 +1344,7 @@ obișnuită va pluti deasupra apei, în timp ce *Iarba Fiarelor,* fiind mai grea
 
 O altă plantă cu care a fost identificată *Iarba Fiarelor* este *Actea spicata,* o plantă cu flori albe, mărunte și dese, așezate în vârful tulpinei. Este otrăvitoare, iar fructele negre și cărnoase, mâncate de copii aduc amețeli, o stare ca de beție. Odinioară era folosită ca plantă de leac contra ciumei, a bolilor de piele și îndeosebi în umflătura obrajilor.
 
-> **Leușteanul**
+#### **Leușteanul**
 >
 > --- *Levisticum officinale, radix ---*
 >
@@ -1328,13 +1352,13 @@ O altă plantă cu care a fost identificată *Iarba Fiarelor* este *Actea spicat
 >
 > Are multe întrebuințări în medicina populară. în bolile de gât se ia o tijă de leuștean folosindu-se ca pai la băutul laptelui cald îndulcit cu miere. Este folosit în ciorbe și în mâncăruri. Țăranul, atunci când îl doare capul pune *Leuștean* pisat la tălpi. Oțetul în care a stat la macerat *Leușteanul* este recomandat pentru frecții. Se mai folosește împotriva umflăturilor, a tifosului și febrei tifoide (chiar este numit în multe părți *Buruiană de lun-goare),* ca diuretic și expectoram cât și pentru stomac (readuce la normal tonusul intestinal, înlăturând atoniile, spasmele, gazele). Ca diuretic dezintoxică organismul, descongestionează ficatul și rinichii, reglează funcțiile uterului în atonii însoțite de ame-noree și nevroze.
 
-Angelica
+#### Angelica
 
 ---*Angelica arhangelica* ---
 
 > Angelica este o plantă elixir. Ea menține tinerețea și sănătatea. Se spune că haiducul Pintea purta în traista sa de piele o sticlă de palincă în care se aflau rădăcini de Angelică alături de alte ierburi, cu frunze și flori, printre care și Fierea Pământului *(Gentiana cruciata).* Haiducul legendar afirma că acea băutură plăcută la gust dă omului nu numai putere, dar îl apără de multe feluri de boli periculoase
 >
-> **Măselarița**
+#### **Măselarița**
 >
 > --- *Hyoscyamus niger ---*
 >
@@ -1346,7 +1370,7 @@ Angelica
 
 Dacă durerea nu trecea după tratament, se spunea că au mai rămas viermi și tratamentul trebuia repetat.
 
-> **Socul**
+#### Socul
 >
 > --- *Sambucus nigra* ---
 >
@@ -1370,7 +1394,7 @@ Dacă durerea nu trecea după tratament, se spunea că au mai rămas viermi și 
 >
 > Ceaiul de flori de Soc mărește cantitatea de lapte la femeile care alăptează.
 >
-> **Tătăneasa, Iarba lui** latin --- *Symphythum officinale* ---
+#### Tătăneasa, Iarba lui latin --- *Symphythum officinale* ---
 
 Este o plantă care rareori depășește înălțimea de 1 metru. Rădăcinile ei cilindrice sunt puternic zbârcite în lung și uneori contorsionate, au culoare cenușie, apropare neagră, sunt folosite în medicația populară în bronșite, în tuse, în ulcer stomacal, în **stoparea cancerului** etc.
 
@@ -1390,7 +1414,7 @@ stropea cu spirt și se lega, după ce se trăgeau oasele la loc. Se înfășur�
 >
 > După ce a săpat-o și a pus în groapa rămasă de la rădăcina ei pâinea și sarea, o duce acasă, o amestecă cu tărâțe și o dă vacilor de muls să o mănânce. Se zice că acestea dau de îndată lapte mai mult și mai bun\".
 
-Usturoiul
+#### Usturoiul
 
 *--- Allium sativum ---*
 
@@ -1484,7 +1508,7 @@ Unii descântători, tot pentru a-1 vindeca pe cel \"pocit\", iau trei sau nouă
 >
 > Alt obicei este acela ca, atunci când bântuie Holera (identificată cu un duh rău), să se înmoaie Usturoi în oțet și să se frece peste tot corpul.
 >
-> **Busuiocul**
+#### **Busuiocul**
 >
 > --- *Ocimum basilicum* ---
 >
@@ -1734,7 +1758,7 @@ Se duce apoi Ia ușă și «spălând» cuiul sau clanță ușei cu buchetul de 
 >
 > în scop medicinal Busuiocul se pune la tăieturi și la bube, iar în caz de inflamarea ganglionului limfatic frunzele sale se pun în legături. Fumul rezultat din punerea Busuiocului pe foc se trage în piept, contra tusei, și pe nas contra guturaiul. Cu tulpini aprinse de Busuioc se ard negii. împotriva durerilor de cap se face o legătură cu semințe de Busuioc. Busuiocul este un stimulent general, dar luat ca ceai, o ceașcă seara la culcare, favorizează somnul.
 
-**Avrămească**
+#### Avrămească
 
 > --- *Gratiola officinalis ---*
 >
@@ -1746,7 +1770,7 @@ Este o plantă veninoasă cu proprietăți iritante și este considerat un vomit
 
 Boz
 
---- *Sambucus ebulus* ---
+#### Sambucus ebulus* ---
 
 Bozul are din punct de vedere medicinal aceleași proprietăți farmaceutice ca și Socul *(Sambucus nigra),* dar cu mult mai puternice.
 
@@ -1790,7 +1814,7 @@ Se spune că Cicoarea a fost o zână frumoasă, Zâna Florilor. Obișnuia să s
 
 > Este foarte folosită ca plantă de leac, în diferite afecțiuni, în sifilis a fost folosită seva sa cu care se ungeau erupțiile. în Carpații Apuseni se făceau cu ea scăldători și abureli celor răciți, cu mai multe beteșuguri, iar în Vrancea (Carpații de curbură), ca să fie plăcute, fetele se spălau cu floarea ei.
 >
-> Sânziene
+#### Sânziene
 >
 > --- *Galium venim* ---
 >
@@ -1828,10 +1852,7 @@ Dintre zânele Sânziene, una este mai bine cunoscută din basme^2^, prototip al
 
 Rouă de pe Sânziene, culeasă în ziua de Sânziene, se întrebuințează în bolile ochilor, iar planta întreagă se pune în scăldătorile copiilor debili pentru a-i întrema. Zeama Sânzienelor lor a fost folosită împotriva frigurilor. Plămădită în rachiu, planta vindeca hernia, iar datorită proprietății sale de a închega laptele se mai numește și *închegătoare.*
 
-Cânepa
-
---- *Cannabis sativa ---*
-
+#### Cânepa, Cannabis sativa
 > în spațiul românesc Cânepa a fost folosită de către sciți încă din secolele VI-VII î.Hr.. Herodot scrie astfel că ei întrebuințau Cânepa ca narcotic. Aruncau firele verzi de Cânepă pe pietre înroșite, inhalau fumul și apoi cădeau în stări extatice, dansând și cântând în jurul focului. Acest obicei este atestat la aproape toți tracii, ei contribuind la cultivarea și răspândirea ei. Dacii au cultivat-o pentru fibre, iar cataplasma din inflorescențe de Cânepă o socoteau cel mai eficient mijloc pentru vindecarea rănilor și arsurilor^1^.
 >
 > Dincolo de întrebuințările casnice ne interesează leacurile și credințele românilor legate de Cânepă. Știm astfel că împotriva durerilor de urechi (de *năjit)* se pun într-o oală nouă cărbuni aprinși și semințe de Cânepă, bolnavul ținându-și urechea deasupra oalei să o pătrundă fumul. în Sălciuca (jud. Alba), femeile când nasc beau câte o ceașcă de ceai de sămânță de Cânepă împotriva durerilor.
@@ -1864,6 +1885,8 @@ O altă boală vindecabilă cu ajutorul Cânepii este *junghiul.* Pentru a afla 
 >
 > Tot în sudul Transilvaniei \"măritarea cânepii\" se face uneori la Sânziene, iar practica implică și alte rituri decât luarea *manei*
 >
+## LEACURI, VRĂJI ȘI VOFTORU
+
 > ***LEACURI, VRĂJI* ȘI *VOFTORU***
 >
 > Tradiția a conservat și a transmis mai multe forme de luptă împotriva bolilor. Ele pot fi împărțite în câteva mari categorii:
@@ -1880,6 +1903,8 @@ Cea mai răspândită formă a medicinei magice sunt *Descântecele* (pe care le
 >
 > Redăm în paginile următoare câteva remedii magice sau empirice din spațiul carpatic și din jurul său (adică din locurile locuite cândva de traci), așa cum ele au fost sau mai sunt încă folosite.
 >
+### PENTRU BOLILE VE PIELE
+
 > • *PENTRU BOLILE VE PIELE*
 >
 > A. Eczeme și mâncărime.
@@ -1907,13 +1932,10 @@ Cea mai răspândită formă a medicinei magice sunt *Descântecele* (pe care le
  la fiert 1 kg de orez, iar cu apa în care a fiert orezul se spală\
  întregul corp.\[16\]
 
-```{=html}
-<!-- -->
-```
-5) Pentru erupția cutanată se fac spălaturi cu apa în care\
+#### Pentru erupția cutanată se fac spălaturi cu apa în care\
  > au fiert rădăcini de Stejar.\[16\]
 
-6) Pentru *Focul viu* (zona zoster, erizipel) sau pentru ecze\
+#### Pentru *Focul viu* (zona zoster, erizipel) sau pentru ecze\
  > me trebuie folosit *Focul viu* (a se vedea sub-capitolul despre *Fo\
  > cul viu).* în Arad se spune că \"Focul acela de pe om (eczema de\
  > tipul *faptului)* se vindecă numai așa că se scapără cu un amnar,\
@@ -2009,7 +2031,7 @@ Cea mai răspândită formă a medicinei magice sunt *Descântecele* (pe care le
  la biserică sau la vreo sărbătoare populară. Deasemenea, se spală\
  pe față și cu pelin fiert înnăbușit.\[15\]
 
-> *13)* Pentru petele de pe obraz, piept și mâini, se pune o\
+#### Pentru petele de pe obraz, piept și mâini, se pune o\
 > mână de hrean tăiat bucățele într-o sticlă, se toarnă peste el un\
 > sfert de kg de oțet bun și se lasă 5-6 zile, apoi se înmoaie o\
 > cârpă de in în oțet și se șterg petele cu ea în fiecare seară. (V.\
@@ -2021,14 +2043,8 @@ Cea mai răspândită formă a medicinei magice sunt *Descântecele* (pe care le
  > de ficat sau de rinichi, care se aruncă apoi unui câine negru.\
  > (Tache Papahagi, *Liter. pop.* pag. 273)
 
-```{=html}
-<!-- -->
-```
 1) Se freacă locul cu *Leuștean (Levisticum Officinale).\[Yl\\*
 
-```{=html}
-<!-- -->
-```
 2) *Slăbănogul (Impatiens noli-tangere)* sau pătrunjelul fierte\
  > în lapte dulce, alină durerile cauzate de orice bubă.\[12\]
 
@@ -2084,7 +2100,7 @@ Cea mai răspândită formă a medicinei magice sunt *Descântecele* (pe care le
  sit această metodă terapeutică, s-a trezit dimineața cu pielea feței\
  curată, albă și neiritată.\[16\]
 
-> E. Urcior.
+#### . Urcior.
 
 Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de expunerea la curent sau la frig a ochilor. Unii oameni sunt predispuși la astfel de situații. Iată câteva remedii din medicina populară. Acestea trebuie puse în aplicare imediat ce urciorul a apărut.
 
@@ -2109,6 +2125,8 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
 >
 > Se scot de Ia ceapă pielițele subțiri dintre foi, iar partea cărnoasă se coace în foc, se înmoaie în oțet și se pune la piciorul cu bătătura.\[15\]
 >
+### PENTRU AFECȚIUNI VIN ACCWENTE
+
 > • PENTRU *AFECȚIUNI VIN ACCWENTE*
 >
 > A. Răni.
@@ -2131,9 +2149,6 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
  și Aurelian Borșianu, *Descântece, farmece și leacuri din popor.\
  *Gherla 1927.\]
 
-```{=html}
-<!-- -->
-```
 3) Infectarea rănilor este atribuită în popor și frigului sau\
  > consumului de acrituri. în acest caz se fac oblojeli ale rănii cu\
  > Boz *(Sambucus ebulus).\[15\]*
@@ -2159,7 +2174,7 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
  > conține antibiotici naturali foarte puternici). Rana se va vindeca\
  > repede. \[16\]
 
-> B. **Arsuri.**
+#### **Arsuri.**
 
 1) Se pun pe arsură cartofi pisați mărunt sau ciuperca\
  Bășina Calului *(Globaria gigantea).*\[12\]
@@ -2180,19 +2195,16 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
 4) La arsură se pune o *legătură* din mămăligă amestecată\
  cu vin și sare.\[15\]
 
-```{=html}
-<!-- -->
-```
-7) Infectarea rănilor este atribuită în popor și frigului sau\
+#### Infectarea rănilor este atribuită în popor și frigului sau\
  > consumului de acrituri. în acest caz se fac oblojeli ale rănii cu\
  > Boz *(Sambucus ebulus).\[15\]*
 
-8) Țăranii, atunci când se taie cu coasa ori cu secera, iau\
+#### Țăranii, atunci când se taie cu coasa ori cu secera, iau\
  > flori proaspete de *Cicoare (Cichoriwn intybus),* le freacă laolaltă,\
  > le strâng și storc sucul lor pe rană, apoi o leagă. După două zile\
  > rana este vindecată.
 
-9) Dacă te înțepi cu un spin (la picior) și nu îl găsești\
+#### Dacă te înțepi cu un spin (la picior) și nu îl găsești\
  > pentru a-1 extrage, faci din pâine moale aluat amestecat cu sare\
  > și pui acest amestec pe rană. După câtva timp iei aluatul și rana\
  > va rămâne galben traslucidă, astfel încât poți vedea spinul și îl\
@@ -2208,7 +2220,7 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
  > conține antibiotici naturali foarte puternici). Rana se va vindeca\
  > repede. \[16\]
 
-> B. **Arsuri.**
+#### **Arsuri.**
 
 5) Se pun pe arsură cartofi pisați mărunt sau ciuperca\
  Bășina Calului *(Globaria gigantea).*\[12\]
@@ -2229,9 +2241,6 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
 8) La arsură se pune o *legătură* din mămăligă amestecată\
  cu vin și sare.\[15\]
 
-```{=html}
-<!-- -->
-```
 5) Se amestecă gălbenușul unui ou cu o bucată de unt tot\
  > atât de mare cât gălbenușul de ou, se întind pe o pânză și se pun\
  > peste rană.\[15\]
@@ -2241,7 +2250,7 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
 7) Se ia lut dintr-un cuib de rândunică, se înmoaie în apă\
  > și se pune cu o legătură pe rană. \[15\]
 
-> C. **Degeraturi.**
+#### **Degeraturi.**
 
 1) Se înmoaie o cârpă în vinarsul în care s-a pus să stea\
  câtva timp o rădăcină de *Spânz (Helleborus),* apoi se bandajează\
@@ -2254,11 +2263,11 @@ Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de ex
  murată, după care se introduc în oale cu saramură sau cu moare\
  de varză (zeama de la varza acrită), la temperatura camerei. \[4\]
 
-> D. **Umflătură.**
+#### **Umflătură.**
 
 Se face pâine de orz și se frânge în două, fierbinte, apoi se pune într-o putină largă în care intră și bolnavul dezbrăcat. Se acoperă gura putinei, să nu iasă aburul. Bolnavul stă aici până ce umflătura coboară în picioare. Urmează o nouă etapă. Se prepară un amestec din rută, ulei și sare fină cu care se ung picioarele pentru a se dezumfla. \"Și încă cu udul (urina) tău să-1 pui pe o cârpă la picioare și încă te vei folosi\". \[8\]
 
-> E. Curgerea **sângelui din** nas.
+#### **Curgerea sângelui din** nas.
 
 1) Spre a se opri curgerea sângelui din nas se leagă degetul\
  mic al mâinii de pe partea nării din care curge sânge cu un fir de\
@@ -2277,6 +2286,8 @@ Se face pâine de orz și se frânge în două, fierbinte, apoi se pune într-o 
 
 > *4)* Se picură trei din picăturile de sânge pe un cărbune care se aruncă după ușă.\[17\]
 >
+### PENTRU REUMATISM
+
 > • *PENTRU REUMATISM*
 >
 > *1)* în medicina populară românească au fost folosite cu\
@@ -2338,15 +2349,17 @@ nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
  la locul dureros și este lăsat cât timp poate fi suportat. Se face\
  o bășică, scoțându-se toată boala, \"toată răutatea\".\[14\]
 
+### PENTRU CÂRCEI
+
 > PENTRU CÂRCEI
 >
 > Pentru a scăpa de cârcei, în zona de sud a Transilvaniei se recomandă să se frece mușchii ce au cârcei cu pământ luat de pe lângă tulpina unui gutui.\[12\]
 >
-> • *PENTRU VURERI VE ȘALE* ȘI *VE SPATE*
+### PENTRU DURERI VE ȘALE ȘI DE SPATE
 
 1) Se încălzește bine varză proaspătă și se pune la șale.\[12\]
 
-2) \"Căldura de pisică\". Metoda foarte simplă constă în a\
+2) "Căldura de pisică". Metoda foarte simplă constă în a\
  > determina o pisică, cât mai des, să stea în locul dureros. Se afir\
  > mă că energia *(\"căldura\")* pisicii vindecă repede durerile.\[M\]
 
@@ -2356,6 +2369,8 @@ nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
 4) Se pisează *Cucută (Cicuta virosa),* se îngroașă cu făină\
  > de grâu, se amestecă cu oțet și untdelemn și se pune ca legătură\
  > la șale.\[15\]
+
+### PENTRU CREȘTEREA PĂRULUI
 
 > PENTRU CREȘTEREA *PĂRULUI*
 
@@ -2383,9 +2398,9 @@ nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
  numai să nu intre în ochi, căci afectează vederea. Chelia dispare\
  după astfel de spălături.\[l\]
 
-> • PENTRU *AFECȚIUNILE O.R.L.* ȘI OCULARE
->
-> A. Ochi.
+### PENTRU AFECȚIUNILE O.R.L. ȘI OCULARE
+
+Ochi.
 
 1) Pentru leucom, cataractă și cheratite oculare unele babe\
  ling cu limba ochii suferinzi. De câte ori îi ling, ele scuipă jos.\
@@ -2400,9 +2415,6 @@ nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
  populare praful de \"foi de pelin\". El se ia de 2-3 ori pe zi, fie în\
  apă, fie în mâncare. \[6\]
 
-```{=html}
-<!-- -->
-```
 4) Manuscrisul în care găsim acest remediu (pentru «al\
  > beață» la ochi), îl recomandă chiar și pentru afecțiunile vechi de\
  > leucom sau cataractă. Se adună furnici \"de cele mari de copaci\"\
@@ -2413,7 +2425,7 @@ nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
  > câte o picătură dimineața și seara \"până îi va trece, măcar să fie\
  > veche de 5-6 ani\". \[5\]
 
-5) Remediul universal pentru vederea slabă, este o plantă\
+#### Remediul universal pentru vederea slabă, este o plantă\
  > mică ce crește pe marginea pădurilor. Ea se numește *Silur, Bure-\
  > niță* sau \"Floare-de-Ochi\" *(Euphrasia officinalis).* Ochii se spală\
  > de două ori pe zi cu o infuzie din această plantă și se ia intern\
@@ -2422,24 +2434,24 @@ nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
  > pentru afecțiunile oculare inflamatorii, conjunctivite,\
  > blefarite.\[18\]
 
-6) Se mai folosește pentru leucom, cataractă și cheratite\
+#### Se mai folosește pentru leucom, cataractă și cheratite\
  > oculare (pentru *\"albeață\",* deci) și ungerea ochiului cu *untură de\
  > șarpe.* Acest leac este folosit și pentru *orbeală,* adică de către cei\
  > cărora le slăbește vederea.\[15\]
 
-> **B. Afecțiunile gâtului.**
+#### . Afecțiunile gâtului.**
 >
 > *1)* Dacă simte cineva un nod în gât, sau are vreo *spuzeală,\
 > *topește cositor și-1 poartă la mâna dreaptă, legat la mânecă, de\
 > Miercuri până Vineri. Apoi aruncă cositorul lângă vreun pom\
 > sau îl îngroapă.\[4\]
 
-2) Pentru \"tușea măgărească\" se leagă la gâtul bolnavului\
+##### Pentru \"tușea măgărească\" se leagă la gâtul bolnavului\
  > câțiva căței de Usturoi, iar în timp ce bolnavul doarme i se dă să\
  > miroasă tot Usturoi.
 
-3) Redăm un remediu vechi și ciudat contra infecțiilor din\
- > gât. într-o coajă de nucă goală, se introduce Usturoi pisat, iar\
+##### Redăm un remediu vechi și ciudat contra infecțiilor din gât.
+ într-o coajă de nucă goală, se introduce Usturoi pisat, iar\
  > coaja se aplică între index și degetul mare de la mâna pacinetului\
  > și se ține astfel timp de 25 de minute. Mâna să corespundă părții\
  > afectate. în lipsa cojii de nucă, Usturoiul se leagă în același loc\
@@ -2478,7 +2490,7 @@ Această metodă a fost larg folosită cu secole în urmă în Teheran și s-a r
  > înghiți, se spală capul *Gușterului* cu apă proaspătă, care i se dă\
  > bolnavului să o bea.\[15\]
 
-> C. **Afecțiunile capului.**
+#### . **Afecțiunile capului.**
 
 *1)* Se măsoară cu o ață capul bolnavului. Se pornește o măsurătoare pe partea stângă, plecând de la mijlocul frunții până în spate, la mijlocul cefei, apoi o altă măsurătoare pe partea dreaptă. Dacă ața întinsă este mai lungă la măsurătoarea pe o parte decât pe cealaltă, atunci omul este \"descreierat\", are capul \"hodorogit\" și \"deschiolat\". Pentru a fi vindecat i se strânge capul într-o legătură ce se face în jurul capului și care se strânge ca un șurub cu ajutorul unui băț de lemn (sau a făcălețului de mămăligă), în timp ce se strânge legătura din jurul capului, bolnavul trebuie să țină pe cap un vas plin cu apă (\"o vadră cu apă\"). Operația se repetă de mai multe ori, până când capul \"s-a strâns bine în cercurile lui\". (Dr. Ch. Laugier, *Contribuțiuni la etnografia medicală a Olteniei;* Craiova 1925, pag. 82. Comunicare în I.A. Candrea, *Folklor medical român;* București 1944, pag. 399). în Moldova, deasemenea, când te doare prea tare capul sau de prea multă vreme îți legi capul strâns cu un șervet, iar deasupra, în creștetul capului, pui o cofă plină cu apă. Pe măsură ce strângi mai tare șervetul din jurul capului și cofa trebuie lăsată mai grea din mână.\[15\]
 
@@ -2519,11 +2531,11 @@ Această metodă a fost larg folosită cu secole în urmă în Teheran și s-a r
 7) Se pune la cap o basma cu rădăcină de Hrean pisat care\
  ia durerile.\[l\]
 
-> D. Sinuzitâ
+### Sinuzitâ
 
 Se fac fumigații cu balegă de vacă.\[15\]
 
-> E. **Răceli.**
+### Răceli, raceala
 
 1) Pentru otită cu guturai *(de năjit),* într-o ceapă scobită\
  se pun râme spălate în vin alb. Se înfășoară ceapa în câlți și se\
@@ -2537,9 +2549,6 @@ Se fac fumigații cu balegă de vacă.\[15\]
 
 3) Metode preventive contra răcelilor:
 
-```{=html}
-<!-- -->
-```
 a) *Brățări din lemn de copac.* Atât în casă cât și în afară\
  > sau peste noapte, se recomandă purtarea brățărilor de lemn, aco\
  > perind încheietura mâinilor (la puls). Siberienii considerau că\
@@ -2626,6 +2635,8 @@ Remediul acesta este extras dintr-un catastif scris între 1774-1782 de către u
 >
 > Pentru a alina durerile nevralgice, se recomandă următoarea metodă: se taie un ou fiert tare, iar cele două felii se aplică calde pe partea afectată. Când oul se răcește, durerile dispar.\[18\]
 >
+### PENTRU T.8.C. ȘI BOLI PE PIEPT
+
 > • PENTRU T.8.C. ȘI BOLI PE PIEPT
 
 1) Primăvara, când sevele noi se urcă în copaci, se face o\
@@ -2639,6 +2650,8 @@ Remediul acesta este extras dintr-un catastif scris între 1774-1782 de către u
 
 2) Când te strânge la piept, iei baligă de cal și de vacă cu\
  > tărâțe de grâu de vară și fierbi în ceaun. Se pune pe piept.\[l\]
+
+### PENTRU FRIGURI (MALARIE)
 
 > **• PENTRU FRIGURI (MALARIE)**
 >
@@ -2687,25 +2700,29 @@ Remediul acesta este extras dintr-un catastif scris între 1774-1782 de către u
 
 9) A se vedea și remediul 6 de la Tulburări psihice.
 
+### PENTRU FEBRA TIFOIVĂ (BOALĂ GRABNICĂ)
+
 > **• PENTRU FEBRA *TIFOIVĂ (BOALĂ GRABNICĂ)***
 
 Se face o fiertură din Palma-Maicii-Domnului *(Orchis maculata)* și se scaldă bolnavul de trei ori pe zi în fiertură, trei zile în sir, și se va tămădui de *boala grabnică.\[l5\]*
 
+### PENTRU BOLILE DIGESTIVE
+
 > ***\* PENTRU BOLILE* DIGESTIVE**
 
-1) Celor stricați la stomac, care au dureri, li se fixează pe\
+#### Celor stricați la stomac, care au dureri, li se fixează pe\
  > pântece un fitil aprins și se acoperă cu un pahar de sticlă. Când\
  > se stinge lumânarea se produce în acel loc o umflătură: se zice\
  > că este \"sângele cel rău, care s-a strâns acolo\".\[12\]
 
-2) Pentru dispepsie și balonare abdominală, se ia planta\
+#### Pentru dispepsie și balonare abdominală, se ia planta\
  > numită Mătăcină (sau Roiniță; *Melissa officinalis)* și se fierbe în\
  > vin alb sau în lapte dulce. Vasul în care s-a pus planta trebuie\
  > acoperit cu o pâine rotundă, până când fierbe. Lichidul fierbinte,\
  > atât cât poate fi suportat, se pune la buric. Se afirmă că durerea\
  > trece numaidecât. \[5\]
 
-3) Pentru colicile abdominale redăm tratamentul numit\
+#### Pentru colicile abdominale redăm tratamentul numit\
  > *ventuza cu oala de pământ,* care se aplica în România cu mult\
  > timp în urmă. El era folosit în cazurile în care durerile abdomi\
  > nale nu erau însoțite și de febră sau tulburări de tranzit (scaune\
@@ -2798,6 +2815,8 @@ Se face o fiertură din Palma-Maicii-Domnului *(Orchis maculata)* și se scaldă
 >
 > *18)* în caz de diaree se înmoaie degetele în cenușe și, cu ele astfel murdărite, se răsucește de trei ori buricul bolnavului (astfel se \"încuie\" - printr-un gest magic - stomacul bolnavului). \[Mariana Sefer, *Elemente de etnoiatrie\...* în revista *Microbiologia. Parazitologia. Epidemiologia.* Ian.- Feb. 1971\]
 >
+### PENTRU SUGHIȚ
+
 > • *PENTRU SUGHIȚ*
 
 1) Reținerea respirației și unirea degetului mic de la fieca\
@@ -2807,6 +2826,8 @@ Se face o fiertură din Palma-Maicii-Domnului *(Orchis maculata)* și se scaldă
 2) Se pune un cuțit pe puntea nasului pacientului, acesta\
  > trebuind să se uite la el fără să clipească. Metoda a dat rezultate\
  > aproape în toate cazurile.\[18\]
+
+### PENTRU ICTER SAU GĂLBINARE (HEPATITĂ)
 
 > **• *PENTRU ICTER SAU GĂLBINARE (HEPATITĂ)***
 
@@ -2882,6 +2903,8 @@ alimentar în care este exclusă carnea, înlocuindu-se cu cartofi\
 fierți, zeamă de orez și mult lapte, până dispare boala. *(Vraciul\
 de la Cotorani-Vlașca,* în București Medical, 1936, nr.4-5.)
 
+### PENTRU HERNIE
+
 > • PENTRU HERNIE
 >
 > *1)* Pentru \"surpătură\" (hernie) la bărbat sau la femeie, este bună o buruiană ce se cheamă Coconași *(Consolida ajacis) -* trebuie însă să aibă gogoșile roșii ca cireșele. Luni dimineața, pe nemâncate, se scot rădăcinile de la trei coconași, se pisează bine și se amestecă cu rachiu tare de drojdii. Aceast preparat trebuie băut. Sursa citată nu precizează altceva decât că \"măcar să fie boașele slobozite, se ridică și-i trece\". \[5\]
@@ -2902,11 +2925,15 @@ de la Cotorani-Vlașca,* în București Medical, 1936, nr.4-5.)
  > re, se pune în rachiu și se bea. Totodată se pune și ca turtă la\
  > pântece, la locul afectat de \"vătămătură\".\[l\]
 
+### PENTRU LIPSA VE CALCIU
+
 > • *PENTRU LIPSA VE CALCIU*
 >
 > Se prepară un întăritor din 10-15 lămâi, 10 ouă proaspete cu coajă albă, 360 gr. miere și un pahar de coniac bun (de struguri). Se iau cele zece ouă crude și se pun într-un borcan, iar peste ele se pune sucul de la 10 lămâi, încât să le acopere. Borcanul se acoperă cu o hârtie neagră și se păstrează la loc rece, întunecos, până când coaja ouălor se dizolvă complet (de obicei una până la două săptămâni). De îndată ce coaja se dizolvă iar ouăle devin o masă subțire, se adaugă mierea și coniacul și se amestecă bine. Se lasă la macerat într-un loc cald, întunecos și, periodic, se îndepărtează spuma de la suprafață și se amestecă cu o lingură de lemn. întăritorul este gata când nu se mai formează spumă. Atunci el se strecoară și se păstrează neapărat într-un loc rece și întunecos, într-un borcan de sticlă neagră.
 
 Se ia din preparat câte un păhărel, de două-trei ori pe zi, după mese. După 2-3 săptămâni preparatul nu mai este bun și trebuie refăcut.\[18\]
+
+### PENTRU LAPTE VE MAMĂ
 
 > • *PENTRU LAPTE VE* MAMĂ
 
@@ -2918,36 +2945,37 @@ Se ia din preparat câte un păhărel, de două-trei ori pe zi, după mese. Dup�
 2) Mama ce trebuie să alăpteze mănâncă Ceapă de Apă\
  *(Allium cepa).*
 
+### PENTRU TULBURĂRI PSIHICE
+
 > • *PENTRU TULBURĂRI PSIHICE*
 
-1) Pentru *lipitură* (când cineva este sperios și tresare noap\
+#### Pentru *lipitură* (când cineva este sperios și tresare noap\
  > tea prin somn plângând) trebuie să se bea vin alb în care s-a plă\
  > mădit Lingura-zânii *(Ganoderma lucidum)* pisată.\[15\]
 
-2) Atunci când un copil este agitat în somn, lovindu-se din\
+#### Atunci când un copil este agitat în somn, lovindu-se din\
  > cauza aceasta, se procedează astfel: se așterne pe câmp o pânză\
  > curată, atunci când cade *rouă dimineții* (care conține principii\
  > curative), ca să absoarbă în ea picăturile de pe iarbă și plante.\
  > Apoi, cu această pânză umedă se înfășoară copilul, care se va
 
-```{=html}
-<!-- -->
-```
-3) Se fac spălaturi cu apa în care s-a fiert fân de pădure\
+#### Se fac spălaturi cu apa în care s-a fiert fân de pădure, epilepsie
  > copiilor bolnavi de nervi sau suferinzi de epilepsie.\[16\]
 
-4) Pentru *speriat* (tulburare psihică pe fond emotiv) se\
+#### Pentru *speriat* (tulburare psihică pe fond emotiv) se\
  > pune Buruiană de Speriat *(Dianthus armeria)* pe cărbuni aprinși\
  > și apoi se așează bolnavul cu pieptul dezvelit deasupra, astfel ca\
  > fumul să-i treacă prin piept. Astfel îi va trece.\[l\]
 
-5) \"Când se strică mintea la om îi dai să bea zeamă de\
+#### Când se strică mintea la om îi dai să bea zeamă de Mătură de Grădină
  > Mătură de Grădină *(Kochia scoporia).* Tare-i bună de pus mintea\
  > la loc!\"\[l\]
 
-6) \"Frigurile de speriat\" se lecuiesc punând un păianjen\
+#### "Frigurile de speriat\" se lecuiesc punând un păianjen
  > mare între două jumătăți de coji de Nucă. Se închide acolo și se\
  > poartă în sân până moare. Frigurile se duc.\[l\]
+
+### PENTRU ASTENIA FIZICA ȘI SLĂBICIUNE GENERALĂ
 
 > • PENTRU *ASTENIA FIZICA ȘI SLĂBICIUNE GENERALĂ*
 >
@@ -2998,6 +3026,8 @@ cea posterioară a întregului corp, pe o durată progresivă, care poate să aj
 8) Când slăbește un copil se scaldă cu apă în care s-a pus\
  (sau s-a fiert puțin) Iarbă Grasă *(Portulaca oleracea).\[l\]*
 
+### PENTRU 801.1 FĂRĂ LEAC
+
 > • PENTRU 801.1 FĂRĂ *LEAC*
 
 *1)* Acest tratament este folosit pentru orice boală care, cu toate \"căutările\", nu își află leacul. în popor se spune că se folosește pentru *boală grea,* sub această denumire fiind desemnată îndeosebi epilepsia.
@@ -3010,6 +3040,8 @@ Celui ce zace de o boală grea, i se dă Mătrăgună *(Atropa belladona),* astf
 >
 > 2\) \"Pentru orice boală\" se folosește Buruiană de Cinci Degete *(Potentilla recta)* sau Buruienile de Cele Sfinte *(Cheli-donium majus,* cunoscută mai bine sub numele de Rostopască) cu care se face scăldătoare.\[l\]
 >
+### PENTRU NEPUTINȚA BĂRBĂTEASCĂ
+
 > \* PENTRU NEPUTINȚA BĂRBĂTEASCĂ
 >
 > *1)* Omul își face de mai multe ori scaldă cu apă nu prea\
@@ -3025,7 +3057,7 @@ Celui ce zace de o boală grea, i se dă Mătrăgună *(Atropa belladona),* astf
  > covului de Câmp, să se fiarbă în apă sau vin și să se dea bărbați\
  > lor pentru neputință. \[Al. Arvat, *Plantele ornamentale la Nicșani\]*
 
-3) *Sculătoarea (Dactylorhiza maculata* sau *Orchis maculata)\
+#### *Sculătoarea (Dactylorhiza maculata* sau *Orchis maculata)\
  > *este considerat un afrodisiac reputat. în regiunea montană a văii\
  > Teleajenului femeile recoltează tuberculii *Sculătoarei* în prima ju\
  > mătate a lunii iunie, pe timp de noapte, cînd e Lună plină sau\
@@ -3071,9 +3103,13 @@ la doi litri de apă clocotită. Se fierbe un minut și se lasă la răcit 15 mi
 > neraria, Asperula odorata, Linaria vulgaris, Scopolia carniolica.\
 > *(Al. Borza, *Dicționar etnobotanic.* București 1968.)
 >
+### PENTRU BOLILE VENERICE
+
 > ***PENTRU BOLILE* VENERICE**
 
 *1)* Sifilisul trebuie oblojit cu frunze de Arin *{Alnus glutino-sa)* și de Cel-perit *{Fumăria schleicheri).* După ce frunzele acestor plante au fost fierte în apă, se spală încet și îndelung zona organelor genitale cu fiertura obținută. Mai pot fi folosite pentru spălaturi Spânțul *{Adonis vemalis)* și Spânzul *{Helleborus).\[l5\]*
+
+### PENTRU PARAZIȚI, Limbrici
 
 > *PENTRU* PARAZIȚI
 >

@@ -1,4 +1,4 @@
-ACTIV PROTECT ZEOLIT
+# ACTIV PROTECT ZEOLIT
 
 Zeolitul este un aluminosilicat format cu milioane de ani in urma prin interactiunea dintre lava incinsa emisa de vulcani si apa marii. Numele de zeolit vine din greaca veche, unde ze inseamna „a fierbe", iar lithos inseamna „piatra". In traducere, zeolitul ar insemna „piatra care fierbe", aluzie la modul de formare a acesteia. Folosirea zeolitului in terapie este o traditie cu o vechime de cateva mii de ani, acest mineral fiind un remediu important in medicina traditionala indiana (Ayurveda), in medicina traditionala chinezeasca, dar si in medicina populara ruseasca.
 
@@ -130,10 +130,3 @@ In principal, zeolitul este indicat in prevenirea, ameliorarea sau tratarea urma
 
 Administrare: 2 x 2 capsule pe zi.
 
-Produsul contine 250 capsule, producator Bionatura Plus.
-
-
-
-## Subsol 1
-
-5

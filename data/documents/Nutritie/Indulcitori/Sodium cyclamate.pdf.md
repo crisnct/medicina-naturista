@@ -123,7 +123,6 @@ conservatively around that issue; human cancer evidence has been reassuring rath
 than damning; and some data gaps, especially around genotoxicity by current
 standards, are still being cleaned up.
 
-
 Sources:
  WHO / JECFA food additive database (cyclamate entry)
 

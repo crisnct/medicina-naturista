@@ -1,5 +1,3 @@
-[Nu a fost extras text din această pagină.]
-
 Dr. Louis De Brouwer m.d.
 VACCINAREA:
 EROAREA MEDICALĂ A SECOLULUI
@@ -128,8 +126,6 @@ Franța cât și în alte țări.
 În această lucrare va fi analizată organizarea financiară a Institutului Pasteur și a
 „bisericilor" sale, manipularea pentru impunerea dogmei vaccinării afacerea generată de
 laboratoarele create în acest scop.
-
-[Nu a fost extras text din această pagină.]
 
 INTRODUCERE
 La 14 iulie 1896 a fost inaugurată o nouă statuie a lui Pasteur la Paris, în piața Breteuil,
@@ -478,8 +474,6 @@ organism este de așa natură încât ele sunt capabile să intercepteze un agen
 DOUĂ FIGURI CE PERMIT ÎNȚELEGEREA MODULUI ÎN CARE
 FUNCȚIONEAZĂ SISTEMUL IMUNITAR:
 LIMFOCITE T
-
-[Nu a fost extras text din această pagină.]
 
 LIMFOCITE B
 Examinând aceste două figuri, concluzia care pare să se impună este aceea că organismul
@@ -2784,8 +2778,6 @@ medicale oficiale, ar fi în jur de 1 5000, cifră care trebuie să fie aproape 
 [ Cum se condiționează opinia publică semănând spaima ! ]
 HEPATITA B
 
-[Nu a fost extras text din această pagină.]
-
 Vă scutesc de detaliile calculului savant pe care l-am efectuat studiind cele 15000 de
 publicații medicale despre astfel de cazuri, apropo de cei 8, milioane de subiecți supuși riscului,
 citați în publicitatea firmei Pasteur Vaccins. În urma acestui calcul, eu am ajuns la cifra de 42000
@@ -4673,8 +4665,6 @@ se recombină apoi cu alte secvențe de ADN alese și se introduce într-o celul
 încât să se obțină producerea unor mari cantități de Hbs Ag cu ajutorul acestui organism. (Vezi
 procesul de fabricație arătat în figura următoare).
 1. Hbs Ag Antigen de suprafață al virusului hepatic de tip B (n.tr.)
-
-[Nu a fost extras text din această pagină.]
 
 Acest procedeu de fabricație este cel utilizat de laboratoarele Smith Kline Beecham și
 pare în mod clar mai puțin periculos decât cel al Institutului Pasteur. Dar oricare ar fi procedeul

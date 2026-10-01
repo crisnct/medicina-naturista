@@ -1,19 +1,23 @@
 1
 
+# Frequency of Essential Oils
+
 Frequency of Essential Oils
 The power of essential oils cannot be fully comprehended
 without some understanding of their bio -electric properties
 – commonly known as “Frequency”. - - - Human
+## Human Electrical Frequencies and Fields
+
 Electrical Frequencies and Fields
 
 Frequency is the measurable rate of electrical energy flow that is constant between
 two points. Everything has frequency.
 
 Robert 0. Becker, M.D., the author of the book, The Body Electric validates that the
-human body has an electrical frequency and that much about a person‟s health can be
+human body has an electrical frequency and that much about a person’s health can be
 determined by it.
 
-Royal Raymond Rife, M.D., developed a high -powered microscope in the 1920‟s that
+Royal Raymond Rife, M.D., developed a high -powered microscope in the 1920’s that
 could magnify an object almost 1,500 times. He could see viruses, bacteria, parasites,
 toxins, etc. in the blood. From this work he developed a “frequency generator” which
 could generate various electrical frequencies to be passed through an affected or
@@ -47,22 +51,26 @@ Assemblage Point
 
 2
 
+## What Does Hertz Mean?
+
 What Does Hertz Mean?
 
 All atoms in the universe have vibrational motion. Each periodic motion has a
 “frequency”, (the number of oscillations per second), measured in Hertz:
 
- 1 Hertz (Hz) = 1 oscillation per second (ops)
- 1 Kilo Hertz (KHz) = 1,000 ops
- 1 Mega Hertz (MHz) = 1,000,000 ops or 1 million
- 1 Giga Hertz (GHz) = 1,000,000,000 ops or 1 billion
- 1 Tetra Hertz (THz) = 1,000,000,000,000 ops or 1 trillion
- Essential oils are measured in Megahertz frequencies
- Essential oil frequencies start at 52 MHz and go as high as 320 MHz. Rose (Rosa
+• 1 Hertz (Hz) = 1 oscillation per second (ops)
+• 1 Kilo Hertz (KHz) = 1,000 ops
+• 1 Mega Hertz (MHz) = 1,000,000 ops or 1 million
+• 1 Giga Hertz (GHz) = 1,000,000,000 ops or 1 billion
+• 1 Tetra Hertz (THz) = 1,000,000,000,000 ops or 1 trillion
+• Essential oils are measured in Megahertz frequencies
+• Essential oil frequencies start at 52 MHz and go as high as 320 MHz. Rose (Rosa
 damascena) essential oil has the highest of all the oils at 320 MHz.
- Essential oils align frequencies, thus balancing and harmonizing body organs.
- Mixing or blending essential oils amplifies these frequencies -- This is called
+• Essential oils align frequencies, thus balancing and harmonizing body organs.
+• Mixing or blending essential oils amplifies these frequencies -- This is called
 "synergy".
+
+## A Natural Way To Increase The Body's Electrical Frequency
 
  A Natural Way To Increase The Body’s Electrical Frequency
 
@@ -77,13 +85,13 @@ thoughts raised the measured frequency by 10 MHz. It was also found that prayer 
 meditation increased the measured frequency levels by 15 MHz.
 
 Tainio Technologies
- Pollutants lower healthy “Frequency”
- Processed or canned food has a frequency of zero
- Fresh produce has up to 15 MHz
- Dry herbs from 12-22 MHz
- Fresh herbs from 20-27 MHz.
- Frozen foods have a frequency of zero
- Essential Oils are a source of higher frequencies to maintain our good health.
+• Pollutants lower healthy “Frequency”
+• Processed or canned food has a frequency of zero
+• Fresh produce has up to 15 MHz
+• Dry herbs from 12-22 MHz
+• Fresh herbs from 20-27 MHz.
+• Frozen foods have a frequency of zero
+• Essential Oils are a source of higher frequencies to maintain our good health.
 The use of electrical energy to reverse or eliminate disease led to research and
 discovery of electrical frequencies of essential oils.
 
@@ -94,9 +102,12 @@ is called a BT2 Frequency Counter.
 
 3
 
+### Frequency findings (Dr. Young / Tainio frequency counter)
 
 In the following tables, some of the frequency findings from the research of Dr. Young
-with Mr. Tainio‟s frequency counter are listed:
+with Mr. Tainio’s frequency counter are listed:
+
+### Note on frequency variation
 
 Please keep in mind that frequencies of essential oils vary according to each
 batch, growing conditions, soil and weather conditions. Only frequencies are
@@ -104,12 +115,16 @@ listed as documented from one or two sources: The Essential Oil Desk
 Reference, published by Essential Science Publishing 2001; and Reference
 Guide for Essential Oils, by Connie and Alan Higley, Revised edition 2001.
 
+### MHz Frequencies of YLEO Essential Oils
+
 MHz. Frequencies of YLEO Essential Oil
 Angelica 85 Juniper 98 Peppermint 78
 Basil 52 Lavender 118 Ravensara 134
 G. Chamomile 105 Melissa 102 Rose 320
 Galbanum 56 Myrrh 105 Sandalwood 96
 Helichrysum 181 Tansy, Idaho 105
+
+### MHz Frequencies of YLEO Essential Oil Blends
 
 MHz. Frequencies of YLEO Essential Oil Blends
 Abundance 78 Joy 188
@@ -135,6 +150,7 @@ Inspiration 141
 
 4
 
+## Live Frequency
 
 Live Frequency
 
@@ -167,8 +183,10 @@ electrical impulses to the olfactory bulb in the brain in 23 seconds. The olfact
 (the brain) then transmits the electrical impulses to other body centers. Essential oils
 have a profound physiological and psychological effect.
 
+### More on Dr. Royal Rife
+
 More on Dr. Royal Rife:
-In the early 40‟s Rife, in conjunction with a number of doctors in Southern California,
+In the early 40’s Rife, in conjunction with a number of doctors in Southern California,
 began to experiment using FREQUENCY to treat cancer patients.
 
 They were having excellent results when the AMA stepped in, turned on Rife and
@@ -177,7 +195,7 @@ should have been a Nobel Laureate and winner of the Nobel Prize for his research
 destroying cancer and other diseases, but instead the controlling elite destroyed him
 and buried his technology.
 
-However, Rife‟s technology has reemerged and until recently these machines have
+However, Rife’s technology has reemerged and until recently these machines have
 stayed underground. Currently, the FDA goes crazy at the mention of these machines
 or technology and will shut down or jail any medical practitioner caught using a Rife
 Frequency Generator. Why??? Because it works! [This is why so many cancer
@@ -185,45 +203,27 @@ treatment clinics have sprung up in Mexico, the Caribbean and Europe]
 
 5
 
+## Frequencies of the Human Body in MHz
 
 Frequencies of the Human Body in MHz
-
 · Normal brain frequency (head) 6:00 am to 6:00 pm is 70-78 MHz
-
 · Brain frequency at 80-82 MHz, indicates a genius
-
 · Healthy body (neck down) 6:00 am to 6:00 pm is 62-68 MHz
-
 · Thyroid and Parathyroid glands are 62-68 MHz
-
 · Thymus Gland is 65-68 MHz
-
 · Heart is 67-70 MHz
-
 · Lungs are 58-65 MHz
-
 · Liver is 55-60 MHz
-
 · Pancreas is 60-80 MHz
-
 · Disease begins, colds invade at 59-60 MHz
-
 · Stomach is 58-65 MHz
-
 · Ascending Colon is 58-60 MHz
-
 · Descending Colon is 58-63 MHz
-
 · Flu like symptoms at 58 MHz
-
 · Viral Infection at 55 MHz
-
 · Epstein Barr at 52 MHz
-
 · Tissue breakdown from disease at 48 MHz
-
 · Cancer at 42 MHz
-
 · Death begins at 20 MHz
 
 [The above frequency information was taken from Taini Technologies]
@@ -233,6 +233,8 @@ also indicates a pH imbalance. Invading pathogenic frequencies including biologi
 i.e., anthrax, plagues, etc. are low. Positive beneficial bacterial frequencies are higher.
 
 6
+
+## Suppressed Bio-Electric Technologies and Therapies
 
 Suppressed Bio-Electric Technologies and Therapies
 
@@ -247,13 +249,15 @@ carries a lot of the magnetic charges.
 Homeopathics work because of electromagnetic frequencies stored in water molecules
 mostly composed of oxygen attached to hydrogen. This water is responsible for more
 than 90 percent of the active function of DNA. Homeopathy is based on matching
-„the frequency‟ of the homeopathic to the specific disease frequency to obtain healing.
+„the frequency” of the homeopathic to the specific disease frequency to obtain healing.
 
 Herbal remedies, as well as essential oils, are under constant attack! Essential oils
 work primarily because they are composed of electromagnetically charged particles,
 especially oxygen. Essential oils have their own unique frequency signal based upon
 its varying species. Dried and fresh herbs have a lower frequency than an essential
 oil.
+
+### The Frequency of Health
 
 The Frequency of Health - Electronic Medicine cannot be fully comprehended without
 some understanding of their bio-electric properties - commonly known as "Frequency".
@@ -268,12 +272,12 @@ their way to simple coat hangers – which converge and cross. This is quantum p
 and radionic energy.
 
 Interesting note:
-Early 1940‟s during the development of the EEG, Harvard Medical School and MIT
+Early 1940’s during the development of the EEG, Harvard Medical School and MIT
 Mathematicians joined forces to study the concept of how the human brain
 worked. They discovered a combination of analog and digital coding taking place
 within the brain. They used this study to bring us the first computers during World
 War II. Robert 0. Becker, M.D., the book The Body Electric
 
-
+## Source
 
 Source:

@@ -3,7 +3,6 @@ Test final fitoterapie baza
 1. Definiti "Botanica de baza".
  Plantele absorb oxigen din atmosfera, prin intemediul porilor de pe frunze, si il folosesc la diferite procese metabolice, si elibereaza dioxid de carbon tot prin pori.
 
-
 2. Explicati procesul de "fotosinteza".
  Plantele, absorb apa prin radacini, dioxidul de carbon din atmosfera (prin pori), si capteaza energia solara cu ajutorul clorofilei. Astfel ele produc compusi organici, necesari lor insasi, si oxigen.
 
@@ -13,14 +12,12 @@ Test final fitoterapie baza
  Ferigi – din categoria pteridofitelor
  Conifere – din categoria spermatofitelor
 
-
 4\. Rezumați ceea ce Intelegeti despre "Herbalism/ Fitoterapie" (nu mai mult de 150
 cuvinte).
 Herbalismul reprezinta studiul si folosirea plantelor in diferite aspecte ale vietii (bucatarie, in scop terapeutic, cosmetice, decor)
 
 5. Ce intelegeti prin "galenism" ?
  Galenismul, este un sistem prin care o boala “rece” este tratata cu un remediu “cald”, si o boala “calda” este tratata cu un remediu “rece”.
-
 
 6\. Faceti diferenta intre ierburile”de răcire” și cele de încălzire”.
 Scrieti 4 conditii in care fiecare dintre ele ar putea fi aplicata.

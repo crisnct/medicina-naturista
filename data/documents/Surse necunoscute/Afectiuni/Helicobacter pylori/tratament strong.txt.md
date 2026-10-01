@@ -1,3 +1,5 @@
+# Helicobacter pylori
+
 04:00: Ranitidina 150mg + Duomox 1000g + Metronidazol 500mg + Tetraciclina 500mg
 
 05:00: De-Nol 240mg

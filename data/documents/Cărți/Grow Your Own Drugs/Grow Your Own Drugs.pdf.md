@@ -1,7 +1,3 @@
-[Nu a fost extras text din această pagină.]
-
-[Nu a fost extras text din această pagină.]
-
 Table of Contents
 Title Page
 PART 1
@@ -45,9 +41,8 @@ Acknowledgements
 Copyright
 About the Publisher
 
-[Nu a fost extras text din această pagină.]
+## 1 THE LIFE OF AN ETHNOBOTANIST!
 
-1 THE LIFE OF AN ETHNOBOTANIST!
 ‘Ethnobotanist’ might not be the catchiest of job titles, and is guaranteed to incite confused
 looks on immigration forms, but though it sounds techy it describes what is – in my admittedly
 biased opinion – the most exciting, rewarding job in the world.
@@ -89,9 +84,8 @@ Before you know it, you’ll be tinkering away like a botanical Willy Wonka, mix
 creating all manner of homespun goodies from the plants growing all around you.
 Good luck – and have fun!
 
-[Nu a fost extras text din această pagină.]
+## 2 THE BASICS: GROWING AND MAKING
 
-2 THE BASICS: GROWING AND MAKING
 If some glossy cosmetics ads with their slick marketing spiel are to be believed, the makers of
 natural remedies must trek up the Amazon to find the rarest botanical ingredients, then prepare
 them in state-of-the-art laboratories belonging to huge Swiss institutes. So it is entirely
@@ -132,8 +126,11 @@ To transform your backyard clippings into a whole range of natural remedies, I a
 demystify words like ‘tincture’, ‘decoction’ and ‘salve’, showing you how these can all be knocked
 up with only a few minutes’ effort, with results rivalling anything to be found on the shelves of even
 the most upmarket health food shops and cosmetics counters.
-GROWING
-GROWING YOUR OWN PHARMACY
+
+### GROWING
+
+### GROWING YOUR OWN PHARMACY
+
 If you’ve never made a recipe in your life before, this book is a great place to start. And if
 
 you’ve never grown a plant before, even better. I want to cast away the dusty stereotypes that
@@ -194,7 +191,9 @@ unless specified as safe in the recipe. (See also the special section for ‘Kid
 see here
 ).
 But enough of that. Let’s get started. Your own living pharmacy is just a few steps away.
-GROWING: IDENTIFY YOUR GARDEN TYPE
+
+### GROWING: IDENTIFY YOUR GARDEN TYPE
+
 I’ve never been a slave to strict horticultural rules & regulations. That said, the textbooks do
 have some good advice; the most important point to note is that you should spend a little time in
 getting to know your site. To put it simply, if you understand the growing conditions of your site
@@ -440,7 +439,9 @@ garden gets properly established, it’ll need a spring tidy-up. I always think 
 cutting back of perennial plants until the following spring – that way, you’ll have collected all the
 autumn seeds you need, the birds will have eaten the rest and you’ll enjoy seeing the frost-covered
 stems during the long, cold days of winter.
-IDENTIFYING YOUR PERSONAL AILMENT NEEDS
+
+### IDENTIFYING YOUR PERSONAL AILMENT NEEDS
+
 Plants are marvellous things – they can soothe an irritated stomach, headache or skin problems;
 aid digestion or circulation; minimize cold symptoms; and even boost the immune system. But
 when you’re feeling under the weather, you need to know which plants to turn to for fast relief.
@@ -575,8 +576,11 @@ of the inner bark from young branches in spring.
 What to buy:
  willow bark and dried feverfew leaves from herbal suppliers, fresh rosemary from
 supermarkets.
-MAKING
-BASIC REMEDY SKILLS
+
+### MAKING
+
+### BASIC REMEDY SKILLS
+
 Creating remedies is just like cooking. In fact, it can often be much easier – there are no tricky
 risottos, white sauces or soufflés, for a start.
 There are only two basic methods of extracting the essential ingredients of plants at home: by steeping
@@ -774,9 +778,8 @@ put them through the hottest spin of the dishwasher and leave them to dry in the
 also wash them in very hot soapy water, then stand them upside down on some newspaper, and place
 in the oven at a low setting (about 70°C) for about 20 minutes. Then they’re ready for filling.
 
-[Nu a fost extras text din această pagină.]
+## 3 THE REMEDIES: TOP TO TOE CARE
 
-3 THE REMEDIES: TOP TO TOE CARE
 FOR A HEALTHY BODY
 Herbal remedies can have a reputation for being rather ominous, dark brews, laboriously boiled
 for hours and knocked back in a single traumatic gulp, with your fingers firmly pinched over
@@ -814,9 +817,8 @@ leaving you with a collection of tried-and-tested modern home remedies. They are
 more or less according to the part of the body they are used to treat, to give you a top-to-toe guide to
 natural medicines that can easily be prepared at home. All you have to do now is get stuck in!
 
-[Nu a fost extras text din această pagină.]
+### Aloe Vera and Marigold Frozen Gel Cubes for Burns
 
-Aloe Vera and Marigold Frozen Gel Cubes for Burns
 Aloe vera is without doubt the ultimate instant skin soother. You can simply snap off one of its
 squidgy gel-packed leaves, which work like living first-aid sachets, and apply it directly to the
 skin – no fuss necessary. But nature can be improved upon. These ice-cold aloe and marigold gel
@@ -889,7 +891,9 @@ where you can have your latte non-fat, with an extra shot of espresso, a dash of
 despite us all knowing it’s basically just coffee. Well in the same way you could add a couple of
 drops of whichever essential oil you fancy to adapt its smell, infuse either the water or oil component
 (or both) with herbs to give it an extra kick, and even try out different base oils – the sky is the limit!
-Elder and Neem Insect Repellent Gel
+
+### Elder and Neem Insect Repellent Gel
+
 This all-natural mozzy repellent conveniently doubles up as a cooling, anti-inflammatory
 ‘aftersun’ gel. Sweet and spicy, the combination of savoury neem and lemony citronella makes
 it smell miles better than anything you can get over the counter. Glycerine is available in most
@@ -920,7 +924,8 @@ CAUTION
 STORAGE
  Will keep for up to 1 year in a cool, dark place.
 
-Aloe and Slippery Elm Antiseptic Poultice
+### Aloe and Slippery Elm Antiseptic Poultice
+
 This is an indispensable item of the homemade first-aid kit – an antiseptic ‘drawing’ poultice to
 help treat infected cuts, skin ulcers, boils, bites and stings. Its team of botanical ingredients can
 help draw out poisons, reduce inflammation and pain, and accelerate healing.
@@ -935,7 +940,9 @@ USE
 Change the dressing every 12 hours.
 STORAGE
  Keeps for up to 1 year in an airtight jar.
-Manuka Honey Wound Healer
+
+### Manuka Honey Wound Healer
+
 The antiseptic powers of manuka honey have been used for centuries by the Maori people in its
 native New Zealand to draw out infections. By teaming it with lavender, another potent
 antiseptic, you get a simple and effective salve to aid the healing of wounds, from infected cuts
@@ -950,7 +957,9 @@ Change the dressing daily, twice daily if necessary. When changing the dressing,
 that you wash the wound with sterile water (or boiled and cooled water) or saline solution. Reapply
 
 the honey mix before redressing.
-Herb Robert Cream
+
+### Herb Robert Cream bruises, thread veins and chilblains.
+
 Herb Robert is a dainty wild geranium that grows freely in gardens and the countryside, often
 as a common weed. It was traditionally used as a cure-all and this gentle cream can help soothe
 a variety of skin conditions, including bruises, thread veins and chilblains. It’s also worth trying
@@ -984,7 +993,9 @@ USE
  Apply to affected area 3–4 times a day as needed.
 STORAGE
  Will keep for up to 3 months in the refrigerator.
-Oat and Chamomile Bath Bag for Eczema
+
+### Oat and Chamomile Bath Bag for Eczema
+
 A soothing bath treat that will help soften and moisturize all skin types, though it’s particularly
 useful for dermatitis, eczema and other irritated, itchy skin conditions.
 8 tbsp oats
@@ -996,7 +1007,8 @@ USE
 directly on your skin as a gentle exfoliator – avoid damaged skin if using for eczema. Once finished,
 drop the ball into the bath and squeeze (the water will look a little milky). Remain in the bath for a
 further 10 minutes. Use twice weekly to treat eczema.
-Lemongrass Insect Repellent
+
+### Lemongrass Insect Repellent
 
 Fresh lemongrass is easier to find than fresh citronella grass (which you can buy only from
 specialist nurseries). It works in a similar way as a potent natural insect repellent, with the
@@ -1035,7 +1047,8 @@ sticks will send out masses of tangled white and lemon-scented shoots, which can
 in some well-drained compost. Keep in a sunny spot, water about once a week and you will be
 rewarded with a year-round supply of fresh, air-mile-free lemongrass.
 
-Wild Herb Tea for Soothing the Digestive Tract
+### Wild Herb Tea for Soothing the Digestive Tract
+
 You’ll find all these plants growing wild (see
 foraging tips
 ) or in gardens in summertime – pick
@@ -1100,7 +1113,8 @@ CAUTION
  Do not use to treat constipation, as agrimony can aggravate symptoms.
 STORAGE
  Best made fresh.
-Angelica and Mint Cocktail for Indigestion
+
+### Angelica and Mint Cocktail for Indigestion
 
 The inspiration here was to make aperitifs and digestifs fashionable again by packing as many
 stomach-soothing herbs into a hip, zingy cocktail that’s more noughties’ mojito than 70s’
@@ -1150,7 +1164,8 @@ james’s tip
 but if you’re suffering from wind, try making it with carbonated instead. Believe it or not, the
 fizziness helps relieve trapped wind by encouraging the burp along…
 
-Peppermint Tummy Soother for Indigestion
+### Peppermint Tummy Soother for Indigestion
+
 Peppermint can help release trapped wind and soothe painful stomach griping. You can take this
 tonic by the spoonful or serve diluted as an after-dinner digestif cordial.
 20g peppermint leaves
@@ -1184,7 +1199,9 @@ CAUTION
 suitable for children under 16.
 ‘The remedy for me seems to have helped a lot. I found that before I’d get really bad stomach
 pains but now they’re quite mild.’ Aaliyah
-Slippery Elm Tablets for Acid Reflux or Gastritis
+
+### Slippery Elm Tablets for Acid Reflux or Gastritis
+
 Slippery elm coats the mucous membranes of the oesophagus and acts as a protective barrier
 against stomach acids. Basically, it works like your body’s own mucus to soothe inflamed and
 irritated tissues, a bit like a kind of prosthetic phlegm! Sweet and sticky, these tablets are far
@@ -1212,7 +1229,9 @@ a little more honey or powder to achieve the right consistency), then roll into 
 above. Dust with a little more marshmallow root, then store in an airtight container for up to 6
 
 months.
-Fennel Sugar Mice for Flatulence
+
+### Fennel Sugar Mice for Flatulence
+
 Sweet little sugar mice, reminiscent of childhood, but with peppermint and fennel seeds to help
 relieve bloating, soothe a windy stomach and give a subtle, sophisticated anise flavour. This
 makes 21 mice, and you can create them in any colour you like!
@@ -1246,7 +1265,8 @@ USE
 STORAGE
  Will keep in an airtight tin for up to 6 weeks.
 
-Nettle and Chamomile Tea for Hay Fever
+### Nettle and Chamomile Tea for Hay Fever
+
 Nettles contain chemicals with antihistamine and anti-inflammatory properties, which are
 thought to go some way towards depressing the immune system’s allergic response. Locally
 
@@ -1285,7 +1305,8 @@ Mike
 running and my throat was soothed.’
 Tracy
 
-Restorative Nettle Tonic
+### Restorative Nettle Tonic
+
 Don’t worry about not weeding your garden – the nettles will come in handy for this rich,
 restorative tonic. Nettles are highly nutritious, full of vitamins, minerals and chlorophyll, and the
 apricots contain iron to give your system a healthy winter boost. If you’re trying to avoid yeast,
@@ -1316,7 +1337,9 @@ Buy some lovely dark glass bottles new or second hand – or recycle ones you al
 cupboard. Simply add a decorative, handwritten label. You can design a stick-on one, or cut a
 rectangle from a piece of card, punch a hole in a corner, then tie a pretty ribbon through, and hang
 round the neck of the bottle.
-Four Flower Salad
+
+### Four Flower Salad
+
 In Britain, we grow flowers because they look good, but in other cultures they are thought of as
 
 a living supermarket cum pharmacy – prized for their culinary and medicinal properties. The
@@ -1341,7 +1364,9 @@ one herb at a time, as it can drown the flavour of everything else. Try lemon ba
 feathery fennel leaves, sage and thyme. Dandelion leaves are also good, but pick these when young,
 mainly in spring, because they become too bitter when they’re old. Shred the leaves finely and try
 using a tablespoon of several varieties at a time.
-Roasted Cranberry Mince Pies
+
+### Roasted Cranberry Mince Pies
+
 Instead of mincemeat in your mince pies this Christmas, try this healthy, roasted cranberry
 filling. The vitamin-packed cranberries taste sharp and tangy, and if eaten daily for a few weeks
 may even help prevent and ease the symptoms of cystitis. Makes about 15 pies.
@@ -1386,7 +1411,8 @@ gifting
 enjoys cooking and who wants to make their own healthy mince pies at Christmas. Add a label
 with the storage details – the mixture will last for up to 1 month if kept in the refrigerator.
 
-Simple Bilberry Tonic
+### Simple Bilberry Tonic
+
 Bilberries, also known as whortleberries (
 Vaccinium myrtillus
 ), are a good source of vitamin C,
@@ -1417,7 +1443,9 @@ CAUTION
 STORAGE
  Will keep for 1 year before opening. Keep in the refrigerator once opened, and use
 within 2 weeks.
-Three Fruits Vinegar for Colds and Flu
+
+### Three Fruits Vinegar for Colds and Flu
+
 In late summer to early autumn, elderberries, hawthorn berries (haws) and rosehips ripen in the
 hedgerows at around the same time. Elderberry is a very useful antiviral and all three have high
 vitamin C content. Take this tonic vinegar to help build up your infection-fighting abilities
@@ -1441,7 +1469,9 @@ gifting
  Home-made herbal vinegars make practical gifts – they can be used in cooking as
 well as taken as a health tonic. Pour into a good-quality bottle, then seal. Make an ornamental label
 (with expiry date written on), and stick or string it round the bottle.
-Port Winter Tonic
+
+### Port Winter Tonic
+
 The unusual combination of ingredients in this tonic will give your immune system a timely
 winter boost. Hawthorn berries can help increase blood flow to the heart; lime flowers are
 gently relaxing; cinnamon and ginger help improve circulation; while goji berries are highly
@@ -1470,7 +1500,8 @@ gifting
 Buy some lovely bottles new or second-hand – or recycle ones you already have in your cupboard.
 Tie or stick on a handwritten label, with the date and dosage clearly marked.
 
-Honeysuckle and Jasmine Jelly for Sore Throats
+### Honeysuckle and Jasmine Jelly for Sore Throats
+
 In China, they often use medicinal jellies such as the renowned Gui Lin Gao (turtle essence
 jelly) instead of herbal teas. This is my take on Gui Lin Gao – though, thankfully, without the
 turtle! Honeysuckle is traditionally used in China as an anti-inflammatory and antiseptic, helpful
@@ -1510,7 +1541,8 @@ came on. The honeysuckle and jasmine did start to take effect and brought down t
 and helped cure the sore throat.’
 Jackie
 
-Thyme and Garlic Chest Rub
+### Thyme and Garlic Chest Rub
+
 Thyme is an antiseptic and expectorant and garlic has antibiotic properties, helping to combat
 catarrh and soothe inflamed bronchial passages. Together they make a good (if whiffy!) rub for
 chesty colds, flu and sore throats – perhaps best used at night!
@@ -1539,7 +1571,9 @@ USE
 strong aroma, so wear an old T-shirt under your nightwear/pyjamas when you use it.
 STORAGE
  Will keep for up to 1 year.
-Elderflower and Eucalyptus Decongestant Throat Lozenges
+
+### Elderflower and Eucalyptus Decongestant Throat Lozenges
+
 Combining the goodness of elderflowers and elderberries and the decongestant properties of
 eucalyptus, these pleasant-tasting cough sweets contain antivirals and anti-inflammatories to
 
@@ -1586,7 +1620,9 @@ USE
  Suck on a lozenge as needed to soothe a sore throat.
 STORAGE
  Will keep in an airtight tin for at least 1 year.
-Eucalyptus and Elderberry Jelly
+
+### Eucalyptus and Elderberry Jelly
+
 Elderberries are immunoprotective and inhibit viral replication – which means that when you’re
 coming down with a cold or flu they can help to make symptoms shorter and less severe. Eat this
 delicious, health-promoting jelly on toast for breakfast, as an accompaniment to meats and
@@ -1658,7 +1694,9 @@ james’s tip
 eucalyptus leaves (the long, sickle-shaped ones) and cover with dark rum (40% alcohol, 80%
 proof), making sure that all the plant matter is submerged. Leave in a cool, dark place for a couple
 of weeks, then strain and use in the recipe above.
-Thyme and Aniseed Cough Drops
+
+### Thyme and Aniseed Cough Drops
+
 These easy-to-make cough sweets are antiseptic, analgesic and very soothing. Thyme contains a
 powerful antimicrobial oil and is also slightly numbing, so very effective on sore throats.
 6–8 tbsp chopped fresh thyme leaves
@@ -1683,7 +1721,8 @@ USE
 STORAGE
  Will keep in a sealed container for up to 2 years.
 
-Eucalyptus Decongestant Rub for Sinusitis
+### Eucalyptus Decongestant Rub for Sinusitis
+
 If you’ve got a eucalyptus tree growing near you, it would be simply criminal not to use it. When
 extracted from the fresh leaves, eucalyptus oil smells rich, buttery and sweet – much more
 appealing than the commercially prepared essential oil, which smells a bit clinical and chemically
@@ -1722,7 +1761,8 @@ james’s tip
  When making recipes with eucalyptus, always choose the mature leaves – they’re
 long and sickle-shaped – not the round, juvenile leaves. The older leaves contain a higher
 concentration of the oil and active ingredients.
-Fir Tree and Calamondin Hot Toddy
+
+### Fir Tree and Calamondin Hot Toddy
 
 Try this soothing and aromatic hot toddy to help ease the symptoms of colds and flu. Use the
 freshest fir needles you can find – trimmings from your new Christmas tree, for example – as
@@ -1766,7 +1806,9 @@ CAUTION
  Contains alcohol. Consideration should be made when driving.
 STORAGE
  Best made fresh for use at once.
-Hollyhock Cough Syrup
+
+### Hollyhock Cough Syrup
+
 Hollyhock flowers soothe irritated mucous membranes and can help ease a dry cough. They
 bloom prolifically in July and August – choose dark-coloured flowers to make a beautiful jewel-
 like syrup (although light-coloured flowers work just as well!).
@@ -1791,7 +1833,9 @@ USE
  Take 2 tablespoons as required, to sooth a dry cough.
 STORAGE
  Keep refrigerated and use within 2 weeks once opened.
-Onion Gargle for Throat Infections
+
+### Onion Gargle for Throat Infections
+
 Packed with antibiotics, antioxidants and anti-inflammatories, this fiery onion and chilli gargle
 will help fight infection and soothe the irritation and discomfort of a sore throat.
 1 onion
@@ -1815,7 +1859,9 @@ Louise
 ‘This remedy I’ll definitely use again. I gargled twice, once in the evening and once in the
 afternoon, and by the next day my scratchiness had gone and I could breathe better.’
 Jade
-Elderberry and Ginger Cold and Flu Tonic
+
+### Elderberry and Ginger Cold and Flu Tonic
+
 Thousands of years ago, Hippocrates and Pliny were writing about the health-giving properties
 
 of the elder tree. Its beautiful black berries – which fruit prolifically in late summer/early
@@ -1866,7 +1912,9 @@ USE
 the night will disturb sleep).
 STORAGE
  Will keep for several days in the refrigerator.
-Cold and Flu Chai
+
+### Cold and Flu Chai
+
 Drink this warming, aromatic chai to help relieve the symptoms of a feverish cold or flu.
 5cm fresh ginger, grated
 1–3 cinnamon sticks
@@ -1896,7 +1944,9 @@ aspirin, leave out the meadowsweet.
 STORAGE
  Will keep for 1–2 days in the refrigerator, but best made fresh at the beginning of each
 day.
-Sage and Marigold Gargle for Sore Throats
+
+### Sage and Marigold Gargle for Sore Throats
+
 Gargles can provide instant relief from sore, irritated throats, and this one packs a big herbal
 punch. Sage and marigold are both antiseptic and antimicrobial; echinacea slows infection and
 can boost the immune system; cloves are also antiseptic and – as any dentist will tell you – act
@@ -1920,7 +1970,8 @@ CAUTION
 STORAGE
  Will keep for up to 2 years.
 
-Vinegar Compress for Swollen Joints
+### Vinegar Compress for Swollen Joints
+
 Vinegar can help bring out bruises and reduce painful joint swelling. Combined with anti-
 inflammatory and healing plants such as sage and yarrow, it makes a soothing hot or cold
 compress for sprains, bruises and joints.
@@ -1943,7 +1994,9 @@ VARIATION COOLING COMPRESS
 As a cooling compress for hot, swollen joints or hot tension headaches, keep the infused vinegar in
 the refrigerator. Splash the cold vinegar on to a muslin cloth and apply to the affected area. Refresh as
 the compress warms up.
-Turmeric ‘Teh Halia’ for Arthritis and Psoriasis
+
+### Turmeric ‘Teh Halia’ for Arthritis and Psoriasis
+
 My version of Teh Halia – a Malay chai-type drink literally meaning ‘ginger tea’ – contains
 turmeric, traditionally used as an anti-inflammatory, antioxidant and mild anaesthetic to help
 soothe sore, stiff, arthritic joints and other inflammatory conditions such as psoriasis and
@@ -1976,7 +2029,9 @@ USE
 pains in the joints, psoriasis, Crohn’s disease and other inflammatory conditions.
 STORAGE
  The paste keeps for up to 1 month in the refrigerator.
-Quick-Fix Teh Halia
+
+### Quick-Fix Teh Halia
+
 This is an instant, dried version of the Teh Halia (
 see here
 ) that’s much easier to use on a daily
@@ -2005,7 +2060,8 @@ stain surfaces and hands just as effectively as it stains textiles! You can use 
 if you prefer; it won’t stain as badly and is just as medicinally effective (provided it hasn’t been
 languishing on your spice shelves for years).
 
-Horseradish and Mustard Balm for Arthritic Joints
+### Horseradish and Mustard Balm for Arthritic Joints
+
 A deep-heat treatment that can help invigorate circulation and increase blood flow to sore and
 swollen joints. The mustard has anaesthetic qualities, so it acts as a local pain reliever too.
 
@@ -2032,7 +2088,9 @@ CAUTION
 contact with eyes, nose or mucus membranes.
 STORAGE
  Will keep for up to 6 months.
-Rosemary and Clove Liniment for Rheumatic Relief
+
+### Rosemary and Clove Liniment for Rheumatic Relief
+
 A liniment – more liquid than a cream – rubs in very easily over sore rheumatic joints and
 muscles. This one contains rosemary to help boost circulation, and cloves for their valuable pain-
 relieving effect.
@@ -2058,7 +2116,9 @@ CAUTION
  Wash hands thoroughly after applying this preparation.
 STORAGE
  Will keep for up to 1 year.
-Bilberry and Marshmallow Munch for Aching Joints
+
+### Bilberry and Marshmallow Munch for Aching Joints
+
 Bilberries contain anthocyanosides, free-radical scavengers that have positive anti-
 inflammatory effects throughout the body. I think of this as a ‘herbal glucosamine’, which can
 help ease the joint stiffness and aches that often come with ageing. Munch on a little every day.
@@ -2093,7 +2153,8 @@ james’s tip
  Any extra rose and mallow syrup can be taken internally as a gentle laxative; 1
 dose is 2 teaspoons.
 
-Herb Butter for Migraine Prevention
+### Herb Butter for Migraine Prevention
+
 Eating a couple of feverfew leaves every day can help prevent migraine attacks and is
 definitely worth trying if you’re prone to that kind of headache. Trouble is, they taste intensely
 
@@ -2126,7 +2187,8 @@ nausea or other discomfort. As with other painkillers after long-term use, you m
 STORAGE
  Will keep in the refrigerator for 1 week or in the freezer for up to 6 months.
 
-Rose and Chocolate Shot
+### Rose and Chocolate Shot
+
 This fabulous mood-enhancer combines two amazing flavours and colours. Rose is traditionally
 thought of as a heart tonic and anti-anxiety herb, and flavonoid-packed dark chocolate (not the
 sugary goo from confectioners) is good for heart health as well as acting as a mild stimulant and
@@ -2184,7 +2246,8 @@ gifting
  Arrange two shot glasses, a packet of cocoa nibs and a quarter bottle of vodka in a
 pretty box, pad around with tissue paper, and slip a copy of the Rose and Chocolate Shot recipe
 inside. Cover with cellophane, tie a big bow round and you have a highly original gift.
-Restorative Watercress and Pear Soup
+
+### Restorative Watercress and Pear Soup
 
 This vitamin- and mineral-rich soup is a delicious natural pick-me-up when you’re anaemic or
 feeling tired and run down. People think spinach is rich in iron, but the dark green leaves of
@@ -2260,7 +2323,9 @@ james’s tip
 as lemon balm or elderflower instead of the meadowsweet. Just substitute 3–4 heaped tablespoons
 
 of the fresh flowers for the meadowsweet, and follow the recipe above.
-Meadowsweet and Peach Sorbet
+
+### Meadowsweet and Peach Sorbet
+
 Pairing the pain-relieving properties of meadowsweet with the flavour of fragrant summer
 peaches, this cooling, fruity sorbet is a true guiltless pleasure. For the meadowsweet cordial, see
 the recipe opposite.
@@ -2314,7 +2379,9 @@ machinery after drinking.
 
 STORAGE
  Will keep for up to 1 year in the refrigerator. Once opened, the beer won’t keep.
-Soothing Rub for Period Pain
+
+### Soothing Rub for Period Pain
+
 Rosemary and juniper join forces to improve circulation, with juniper also providing anti-
 inflammatory and pain-relieving properties. If you’re not keen on the smell of rosemary, feel
 free to ditch it and use the infused juniper oil on its own.
@@ -2340,7 +2407,9 @@ This rub is more strongly pain-relieving due to the deep-heat properties of the 
 ginger, which invigorate circulation to the area. To make the infused oil, use 15g ginger, 2 tsp
 peppercorns, 10–15g rosemary leaves and 100ml olive or almond oil (follow the recipe above). Use
 as directed above. Wash hands after use.
-Willow and Lime Pain-Relieving Granita
+
+### Willow and Lime Pain-Relieving Granita
+
 Willow bark has a wonderful deep, dark, smoky flavour, but more excitingly it also contains
 salicin, a substance very similar to aspirin. Here I’ve combined it with lime in a uniquely
 flavoured, pain-relieving granita – friends say it tastes like everything from Seville orange
@@ -2384,7 +2453,8 @@ here
 .) Traditionally, it’s the inner part of the bark from branches over 5 years old
 which are believed to be the most potent.
 
-Stress-Proofing Herbal Chai Tea
+### Stress-Proofing Herbal Chai Tea
+
 A twist on the traditional chai recipe, with chamomile and other herbs to help you unwind and
 relax, and ginseng and fresh ginger to perk you up again when you need it.
 1 tsp dried Siberian ginseng root, finely chopped
@@ -2402,7 +2472,8 @@ a mugful of water or milk
 serve hot. Add milk and/or honey to taste.
 USE
  Drink at once – have 2 or 3 cups daily when you’re feeling stressed.
-Three Herb Uplift Tea
+
+### Three Herb Uplift Tea
 
 A good tea to drink if you’re feeling low, or as a Seasonal Affective Disorder (SAD) mood-
 enhancer during dark winter months. St John’s wort is highly effective in mild to moderate
@@ -2438,7 +2509,9 @@ gifting
  Pack the Uplift Teas into paper or cellophane loose tea packaging or tea storage
 canisters/caddies (both available from specialist tea/coffee shops). Labelled, these make an
 unusual home-made gift.
-Relaxing Lettuce and Cardamom Milk
+
+### Relaxing Lettuce and Cardamom Milk
+
 Wild lettuce has traditionally been used for its soporific effects – this makes a warming and
 soothing bedtime drink. I know it sounds like a strange flavour combination, but trust me, it
 really does work.
@@ -2458,7 +2531,8 @@ USE
  Best drunk warm before bed. If you are drowsy next day, avoid driving or using machinery.
 STORAGE
  Drink as soon as it is made because it will not keep.
-Rosehip and Ginger Fizzy Sherbet
+
+### Rosehip and Ginger Fizzy Sherbet
 
 An effervescent hangover remedy based on the World Health Organization’s formula for
 rehydration salts, and containing rosehips for vitamin C and ginger for its anti-sickness effects.
@@ -2487,7 +2561,8 @@ USE
 STORAGE
  Provided it is completely dry, this will keep in an airtight container in a cool, dark place
 for up to 6 months.
-Paraguay Holly and Chilli Truffles
+
+### Paraguay Holly and Chilli Truffles
 
 This is a modern take on an original Aztec chocolate recipe! Yerba mate is a stimulating tea
 made from the leaves of the Paraguay holly tree, and contains caffeine and theobromine. Here,
@@ -2530,7 +2605,8 @@ gifting
  These rich, tangy truffles make a delicious seasonal gift for chocolate fans (that’s
 most of us!). Place them in small silver or gold foil cases, pack in a pretty box, then label and tie
 with a big ribbon bow – and don’t forget to tell the lucky recipient not to eat them all at once.
-Three Root Syrup Overall Tonic
+
+### Three Root Syrup Overall Tonic
 
 A tonic to give you an all-round boost: rose root can alleviate low mood and improve physical
 and mental performance; angelica is traditionally used to aid digestion and soothe coughs and
@@ -2595,7 +2671,9 @@ the bottle is opened – it loses its fizz.
 
 gifting
  Beautifully bottled and labelled, this makes a great thank-you gift to take to parties.
-Saffron Egg Nog
+
+### Saffron Egg Nog
+
 East-meets-West in this sweet and warming version of a traditional Christmas drink – saffron is
 often used in Asian medicine to help soothe anxiety and depression. This makes 6 egg nogs;
 store it in the refrigerator and drink not more than one shot daily, as a delicious seasonal pick-
@@ -2629,7 +2707,8 @@ CAUTION
  Contains alcohol.
 STORAGE
  Keep in the refrigerator. Will last for 2 weeks.
-Time of the Month Tea
+
+### Time of the Month Tea
 
 Drink this relaxing, hormone-balancing brew when you’re feeling emotionally wired before or
 during your period. In summer, you can harvest large quantities of these plants wild or in the
@@ -2652,7 +2731,9 @@ USE
 STORAGE
  Mix up a large batch of the dried plants and store in a tin, so you can make up the tea as
 you need it. The dried tea will keep in an airtight container for up to 6 months.
-Herbal Elixir for Low Libido
+
+### Herbal Elixir for Low Libido
+
 This tonic contains ginseng and damiana – both reputed to have a stimulating, aphrodisiac effect
 on low libido in men. Hope it works for you!
 
@@ -2681,7 +2762,8 @@ CAUTION
 STORAGE
  Keep in the refrigerator and use within 8 weeks.
 
-Deep Conditioning Hair Oil
+### Deep Conditioning Hair Oil
+
 Shampoos can strip the natural oils from the hair and scalp, leaving hair dull and brittle and
 creating an over-production of sebum, which then makes hair greasy. Giving your hair an oil
 
@@ -2709,7 +2791,9 @@ hair a little and work it into a lather, then rinse out well with warm water. Re
 very oily.
 STORAGE
  Infused oil will keep in a cool dry place for up to 1 year.
-Enriching Hair Treatment Gel
+
+### Enriching Hair Treatment Gel
+
 Gel is less messy to use than oil – apply this treatment once or twice a week to help improve
 scalp condition and leave hair soft and conditioned. Xanthan gum can be bought from health
 
@@ -2739,7 +2823,8 @@ USE
 Rinse out with warm water or your homemade vinegar rinse. Use once or twice a week.
 STORAGE
  Will keep for a couple of days in the refrigerator, but best made as needed.
-Antioxidant Olive Leaf Clay Mask
+
+### Antioxidant Olive Leaf Clay Mask
 
 Rich in minerals, antioxidants and anti-inflammatories, this soothing mask helps remove dead
 skin cells and stimulate circulation, leaving skin feeling toned and super soft. Clay powder is
@@ -2774,7 +2859,9 @@ james’s tip
 oil along with the lemon essential oil to enrich normal or dry skin; or ½ teaspoon witch hazel for
 
 greasy or acne-prone skins.
-Herbal Vinegar Hair Rinse
+
+### Herbal Vinegar Hair Rinse
+
 Play around with the following plants and aromas to create your own perfect hair rinse – it’ll
 eliminate residual shampoo, help restore the natural acid balance of the scalp, and leave your
 
@@ -2799,7 +2886,9 @@ USE
 and use as a final rinse after washing your hair.
 STORAGE
  The infused vinegars will last for up to 1 year.
-Anti-Dandruff Hair Oil
+
+### Anti-Dandruff Hair Oil
+
 Rub this sweet-smelling, anti-dandruff oil into the scalp as a pre-conditioning treatment before
 washing hair. Its antiseptic and anti-inflammatory properties will help soothe and tone a dry,
 irritated scalp. Use 3 times a week for 2 weeks to blitz dandruff, then once a week to keep it at
@@ -2830,7 +2919,9 @@ Robert
 ‘It hasn’t got rid of the dandruff completely, but I’ve started to see an improvement where it is
 starting to lessen, and it’s something I’ve started to mention to my friends.’
 Neusa
-Seaweed and Sand Body Scrub
+
+### Seaweed and Sand Body Scrub
+
 An easy way to bring a summer holiday vibe into your life this winter – you can pick half these
 ingredients up off the beach or buy easily online! The carrageen and kelp are packed with
 nutrients, and the salt and sand are powerful exfoliators, sloughing off dead cells to leave skin
@@ -2874,7 +2965,8 @@ beach bucket by one-third). Sand is a constantly renewed resource and you’re t
 but check before harvesting seaweed or sand with your local authority that looks after the beach
 (you’ll find them on
 
-Green Tea, Liquorice and Lemon Mouthwash
+### Green Tea, Liquorice and Lemon Mouthwash
+
 Liquorice roots have an intensely sweet flavour, yet they don’t contain any actual sugar, and
 are actually good for teeth, helping to slow the growth of bacteria and formation of plaque.
 Green tea inhibits the bacteria responsible for mouth odour, and both are anti-inflammatory,
@@ -2951,7 +3043,9 @@ gifting
 friend. Then bottle in a gorgeous old perfume or spray bottle (you can pick them up cheap in
 second-hand shops), give the eau de cologne a creative name, label – and you have a truly personal
 gift from the heart.
-Marshmallow Leaf and Flower Milk Bath for Dry Skin
+
+### Marshmallow Leaf and Flower Milk Bath for Dry Skin
+
 The milk draws out the softening mucilaginous qualities in both marshmallow and oats, to make
 a soothing, moisturizing bath for those with dry or sensitive skin.
 12–15 heaped tbsp marshmallow leaves and flowers, bruised and sliced
@@ -2971,7 +3065,9 @@ USE
 
 STORAGE
  This won’t keep, so make it as you need it.
-Yogurt, Lime and Strawberry Face Pack
+
+### Yogurt, Lime and Strawberry Face Pack
+
 The lime and strawberry contain alpha hydroxy fruit acids that naturally exfoliate while the
 yogurt nourishes, leaving skin feeling smooth and soft. Makes enough for 1 face mask.
 5 strawberries (or 20 wild strawberries)
@@ -2985,7 +3081,9 @@ the mixture thickens slightly. Apply to clean skin, avoiding the eye area. Leave
  Wash off with warm water and a flannel or damp towel.
 USE
  Most effective when used immediately.
-Bicarb, Myrrh and Sage Tooth Whitening Powder
+
+### Bicarb, Myrrh and Sage Tooth Whitening Powder
+
 Bicarbonate of soda is a gentle but effective abrasive to clean teeth and gums, sage has long
 
 been used to whiten teeth (a fresh leaf rubbed on the teeth is an old whitening remedy) and
@@ -3001,7 +3099,9 @@ USE
  Dip a slightly moistened toothbrush in the powder and brush teeth, rinse and spit.
 STORAGE
  Will keep in an airtight container for up to 1 year.
-Horsetail and Celery Seed Nail Bath
+
+### Horsetail and Celery Seed Nail Bath
+
 Horsetail contains silicic acid and flavonoids, which help boost healing, and has traditionally
 been used as a wound healer and to strengthen weak and brittle nails. This easy-to-make nail
 bath can be used on toenails too.
@@ -3018,7 +3118,9 @@ USE
 
 STORAGE
  Make a fresh batch every 3 days.
-Oats and Almond Moisturizing Body Cream
+
+### Oats and Almond Moisturizing Body Cream
+
 This rich, soothing cream is full of nourishing ingredients that help skin retain moisture and stay
 smooth and supple. Good for dry and mature skins.
 300ml water
@@ -3058,7 +3160,8 @@ extra boost. You can buy gift pots second-hand, from car boot sales or from spec
 (see
 Stockists
 ). Just add an ornamental label with the storage details on.
-Rose and Clove Hair Removing Sugar
+
+### Rose and Clove Hair Removing Sugar
 
 Sugaring is a popular method of hair removal in the Middle East, considered just as effective as,
 but less painful than, waxing. Here I’ve added in some cloves for their mild anaesthetic action as
@@ -3127,7 +3230,9 @@ USE
  Relax with the eye compresses on for 10–15 minutes.
 STORAGE
  Make fresh as you need it.
-Fennel Seed Eye Bath for Conjunctivitis
+
+### Fennel Seed Eye Bath for Conjunctivitis
+
 A simple recipe traditionally used to treat conjunctivitis and blepharitis, or simply to brighten
 eyes before a night out.
 
@@ -3147,7 +3252,9 @@ STORAGE
 VARIATION CORNFLOUR EYE BATH
 Cornflowers have a long history of use for tired and sore eyes, with cornflower extracts still popular
 in France today. Use 1 teaspoon of fresh cornflowers in place of the fennel in the recipe above.
-Sugar Body Scrub
+
+### Sugar Body Scrub
+
 Once you’ve infused a batch of oil with your favourite plant, you can use it both for the Deep
 Conditioning Hair Oil (
 see here
@@ -3177,7 +3284,9 @@ gifting
  This Sugar Body Scrub makes a glamorous and useful Christmas or birthday present.
 Create an infused oil that suits the person’s skin, then add the ingredients as above, and bottle in a
 beautiful glass jar with a hand-penned label.
-Roman Chamomile and Lavender Acne Steam
+
+### Roman Chamomile and Lavender Acne Steam
+
 A very simple treatment for acne, which encourages the softening of blocked pores and helps
 bring spots to a head. Both chamomile and lavender have anti-inflammatory and antiseptic
 properties, to cleanse and soothe inflamed skin.
@@ -3193,7 +3302,8 @@ USE
 back of your head and over the bowl – be very careful to remain at least 30cm above the hot water.
 Steam for 5–10 minutes, then gently pat your face dry – do not rub. Steam daily for acne.
 
-Witch Hazel Aftershave Gel for Shaving Rash
+### Witch Hazel Aftershave Gel for Shaving Rash
+
 This is a proper old-school aftershave, the kind used by barbers with a red and white pole
 outside their shops. It combines witch hazel tincture with witch hazel water for maximum effect.
 Rub on after shaving – it smells fantastic, and the witch hazel can help prevent infection, tighten
@@ -3231,7 +3341,8 @@ two spots. It works really well and smells really nice.’ Nathan
 ‘It does have a positive effect, but shaving every day and passing a blade over my skin every day –
 it just makes the rash too much, and therefore the remedy can’t cope.’ Simon
 
-Ivy, Juniper and Grapefruit Cream
+### Ivy, Juniper and Grapefruit Cream
+
 Applied externally, ivy is often used as a toning treatment for cellulite. In this rich, moisturizing
 cream, ivy is mixed with aromatic grapefruit and juniper for their anti-inflammatory effects, to
 help ease tired and aching legs.
@@ -3265,7 +3376,9 @@ CAUTION
  For external use only. Do not use if you are allergic to ivy.
 STORAGE
  Keep in the refrigerator. Use within 2 months.
-Orange-Scented Body Oil
+
+### Orange-Scented Body Oil
+
 The fragrance of Christmas – orange, cloves and exotic myrrh – in a bottle. This luxe body oil
 makes the most of myrrh’s anti-inflammatory properties: apply liberally to moisturize and
 nourish dry skin, or use as a sweet-smelling massage lotion.
@@ -3289,7 +3402,8 @@ gifting
  Bottled up in decorative jars and bottles, this oil makes a luxurious seasonal gift.
 Just add a label with storage details.
 
-Mullein Ear Drops for Waxy Ears
+### Mullein Ear Drops for Waxy Ears
+
 A build-up of ear wax is normal, especially as you age, but it can be painful and even cause
 temporary hearing loss. We’ve put a new twist on this very popular recipe from the last book,
 using olive oil and adding lavender to the mullein. Used every few months, these drops will
@@ -3328,7 +3442,8 @@ james’s tip
  Sometimes you’ll find that some tiny bugs are using mullein’s bell-shaped
 flowerheads as a hiding place. If using fresh flowers, soak them well to eradicate any insect life
 before you start this recipe.
-Honey and Yogurt Dry Skin Face Mask
+
+### Honey and Yogurt Dry Skin Face Mask
 
 The infused oil soothes and nourishes while the honey yogurt mix leaves skin feeling vibrantly
 toned and rejuvenated. For the marshmallow leaf infusion,
@@ -3350,7 +3465,9 @@ USE
 top. Leave for 10–15 minutes, then wash off with tepid water and a flannel or tissues.
 STORAGE
  Make as needed – do not store.
-Gardener’s Hand Scrub
+
+### Gardener’s Hand Scrub
+
 Honey moisturizes, jojoba oil softens, oatmeal cleanses – just add fresh elderflowers,
 chamomile or marshmallow to customize this hand scrub to suit your skin type. For the
 infusion, see the recipe
@@ -3375,7 +3492,8 @@ USE
 STORAGE
  This won’t keep, so make it up as you need it.
 
-Mint and Chamomile Ice Lollies for Upset Tummies
+### Mint and Chamomile Ice Lollies for Upset Tummies
+
 Ice lollies are a wonderful way to trick unsuspecting children into taking plant remedies, with
 the combination of mint and chamomile here teaming up to soothe even the most upset of
 tummies.
@@ -3400,7 +3518,9 @@ particularly fussy eaters, the herbal ice-cubes can be snuck into juice, for a h
 Use as often as required.
 STORAGE
  Will keep for up to 3 months in the freezer.
-Quassia Head Lice and Nit Treatment
+
+### Quassia Head Lice and Nit Treatment
+
 The Caribbean quassia tree, like many other plants, has evolved a range of remarkable
 insecticidal chemicals to defend itself against millions of years of creepy-crawly attacks.
 Combined with the essential oils of other like-minded plants, quassia tincture can make a
@@ -3493,7 +3613,8 @@ gifting
  Bottle this up in cute bottles, each with the child’s name (and dosage) written on the
 label, and donate one to each of the children in your life.
 
-Chamomile Bath Milk
+### Chamomile Bath Milk
+
 Chamomile’s anti-inflammatory and antibacterial properties make it soothing for irritated skin
 conditions such as psoriasis and eczema, and enriching for dry, itchy or sensitive skins. Normally
 people add only a small tablespoon-sized splash of bath milk to the tub, which I’ve always
@@ -3527,7 +3648,8 @@ USE
  Pour 100–200ml of the milk into the bath. Can be used for adults, and children aged 2–16.
 STORAGE
  Keep refrigerated, and use within 1 month.
-St John’s Wort Salve
+
+### St John’s Wort Salve
 
 Its phenomenal success in the treatment of depression has unfortunately often overshadowed St
 John’s wort’s traditional use as a topical antiseptic and anti-inflammatory wound healer. This
@@ -3568,7 +3690,9 @@ james’s tip
 of absorbing some of the oil over time. Check every couple of days that all the plant matter is
 completely covered with oil – just push it back down and add a splash more oil if any is sticking
 out. That way, you’ll extract more of the essential compounds.
-Blackberry Oxymel for Colds
+
+### Blackberry Oxymel for Colds
+
 Despite a distinctly modern, almost clinical-sounding name, oxymels are old-fashioned remedies
 based on a blend of vinegar and honey. They can be used straight or diluted and given as a
 cordial (as I have done here). With their sticky, sugary flavour, oxymels are a great way to
@@ -3595,7 +3719,9 @@ USE
 add boiling water and honey to taste.
 STORAGE
  Will keep for up to 1 year in the refrigerator.
-Elderberry Cordial for Colds and Flu
+
+### Elderberry Cordial for Colds and Flu
+
 This is a very old recipe, dosed out to countless generations of children (and adults) – a version
 of it has even been turned into a popular proprietary medicine in the United States. Give a dose
 at the first sign of colds or flu, especially just before bedtime.
@@ -3621,7 +3747,8 @@ USE
 times a day and especially at bedtime.
 STORAGE
  Will keep for up to 6 months in the refrigerator.
-Chamomile and Lavender Massage Rub for Colic
+
+### Chamomile and Lavender Massage Rub for Colic
 
 This safe, gentle remedy can help ease the symptoms of colic, using a duo of calming botanical
 ingredients and the soothing comfort of touch. Chamomile and lavender flowers both contain
@@ -3640,7 +3767,9 @@ clockwise (the same direction as the digestive tract). Also massage into the fee
 STORAGE
  Store in a cool, dark place for up to 6 months.
 Quick Fixes
-Liquorice Chews for Healthy Teeth
+
+### Liquorice Chews for Healthy Teeth
+
 Despite a distinctly unpromising appearance, the intensely sweet flavour of liquorice roots makes
 them a great sugar-free substitute for more conventional sugary treats. They contain a compound
 that is up to 50 times sweeter than sugar, making chewing on a stick like gnawing on a solid block
@@ -3650,16 +3779,16 @@ and plaque formation. In other words, something sweet and tasty that’s actuall
 developing teeth! Don’t get too carried away with the good news, however: too much liquorice
 isn’t good for you, so limit it to no more than a couple of sticks a week.
 
-Plantain for Nettle Stings
+### Plantain for Nettle Stings
+
 Your grandmother has swindled you. All those years of being told dock was the best thing for nettle
 stings? Well, it turns out to be not quite true. Plantain, an incredibly common lawn weed, is even
 better for this purpose. When you’re out and about in the countryside and get stung by nettles, crush
 a few plantain leaves, rub them over the affected area and watch as the redness, pain and tingling
 subside – in 5–10 minutes.
 
-[Nu a fost extras text din această pagină.]
+### Wormwood and Sage Moth Repellent Sachets
 
-Wormwood and Sage Moth Repellent Sachets
 This mix of aromatic herbs will keep those pesky moths from laying the eggs that turn into the
 larvae which then chomp through your favourite jumpers. These sachets smell lovely to us – but
 not to the moths. Put a few in cupboards and drawers, alongside the clothes or blankets you
@@ -3713,7 +3842,9 @@ CAUTION
  Keep away from eyes. Store in a dropper bottle to prevent accidental ingestion.
 STORAGE
  Keeps for 1 year in a brown glass dropper bottle.
-Deodorizer for Sweet-smelling Carpets
+
+### Deodorizer for Sweet-smelling Carpets
+
 To freshen up a stale or grungy carpet, especially after a party, try this simple remedy. The
 bicarbonate of soda helps neutralize odours and the herbs act as a disinfectant as well as leaving
 a nice smell on the carpet (and in the vacuum cleaner bag!).
@@ -3729,7 +3860,9 @@ USE
 STORAGE
  This makes enough for a normal-sized room but will keep for 1 year in a sealed
 container.
-Wood Furniture Polish
+
+### Wood Furniture Polish
+
 Rhubarb root adds a warm golden hue to this natural furniture polish. You can add more
 rosemary for a stronger scent – or use a different essential oil such as lemon if you prefer.
 Castile soap is a pure soap available in some supermarkets and pharmacies.
@@ -3788,7 +3921,9 @@ CAUTION
  If any irritation occurs, consult your vet.
 STORAGE
  Keeps for 2–4 weeks.
-Horsetail Metal Polish
+
+### Horsetail Metal Polish
+
 Horsetail – also called pewterwort – has long been used as a metal cleaner because of its high
 silica content. The tiny crystals act as a mild abrasive to scrub off any dust and grime. There are
 two ways to apply it: just rub a fresh stem over the metal as a polish or make an infusion and
@@ -3804,7 +3939,8 @@ dry cloth.
 STORAGE
  Best used immediately.
 
-Pet Flea Powder
+### Pet Flea Powder
+
 A traditional mix of herbs used on pets to deter fleas and other insect life. If you use herbs
 you’ve gathered yourself, make sure they are properly dried (
 see here
@@ -3823,7 +3959,8 @@ CAUTION
  If any irritation occurs, consult your vet.
 STORAGE
  Will keep for 1 year in an airtight container.
-Cat’s Christmas Toy
+
+### Cat’s Christmas Toy
 
 Although everyone knows that cats love catnip, it’s less well known that most of them go crazy
 over valerian too. Apparently, both are used in the big cat enclosures in zoos to keep the lions
@@ -3840,11 +3977,8 @@ STORAGE
  The dried herbs will last for a few months. If the cat gets tired of the toy, refresh it by
 restuffing with another batch of valerian and catnip.
 
-[Nu a fost extras text din această pagină.]
+## 4 THE GROW YOUR OWN DRUGS YEAR
 
-[Nu a fost extras text din această pagină.]
-
-4 THE GROW YOUR OWN DRUGS YEAR
 THE SEASONAL GUIDE TO GROWING YOUR OWN
 PHARMACY
 When I was growing up, there were only two seasons: hot and wet and hot and slightly wetter. Sitting
@@ -3872,7 +4006,8 @@ showing you exactly what to do when, and giving you my top tips on how to struct
 and concocting year. In this way, I hope to help you spot and make use of plants at the peak of their
 season, even in the darkest depths of winter.
 
-SPRING
+### SPRING
+
 Sowing and planting
 This is the start of the grower’s year, a time for planting and digging, sowing and potting. Buy some
 seeds and watch them grow… If you’re feeling adventurous, propagate some plants from cuttings
@@ -3955,9 +4090,7 @@ early summer, it is important to keep them well watered, especially during sunny
 Bush Fruit (bilberries, blackcurrants, cranberries)
 Again look out for bare-root plants in winter and containerized plants in the spring. They’re
 reasonably priced and surprisingly high-yielding even from the first year. Blackcurrants (
-Ribes
-nigrum
-) will tolerate a little shade, but like rich, moisture-retentive soil. Bilberries (
+Ribes nigrum ) will tolerate a little shade, but like rich, moisture-retentive soil. Bilberries (
 Vaccinium
 myrtillus
 ) and cranberries (
@@ -3976,7 +4109,8 @@ have access only to the nutrients you give them, so regular feeding and watering
 fruit will need support for their tall, flexible stems. If they’re grown against a wall, you can tie
 them in to horizontal wires or a piece of trellis. Otherwise place a wigwam of bamboo canes in the
 pot.
-A mixed pot to raise your spirits
+
+### A mixed pot to raise your spirits
 To help lift your mood when you’re feeling low, plant up a mixed pot with lemon balm, rose
 root, St John’s wort and vervain – all are used to soothe anxiety and nervous tension. Buy small
 new plants from a nursery or garden centre and by mid-summer you’ll be reaping the harvest…
@@ -4275,7 +4409,8 @@ Salix spp.,
  for pain relief, especially in rheumatic disorders and headaches. DO NOT
 GIVE TO UNDER-18s OR ANYONE ALLERGIC TO ASPIRIN.
 
-SUMMER
+### SUMMER
+
 Weeding and watering
 This is the most exciting time of the year, when everything in the garden is at full tilt. Borders and
 pots are cascading with leafy growth and flowers are ready to harvest. You need to watch the
@@ -4607,21 +4742,33 @@ The potential health
  benefits
 of the plants listed below are based on their traditional
  use.
+
+### Agrimony
+
 Agrimony
 
 Agrimonia eupatoria,
  a ‘bitter’ for stomach problems including diarrhoea and colitis,
 mild diuretic.
+
+### Chamomile
+
 Chamomile
 
 Matricaria recutita,
  for indigestion, skin irritations, mild sedative for anxiety, and to
 lighten blonde hair.
+
+### Cornflower
+
 Cornflower
 
 Centaurea cyanus,
  traditionally used for soothing and brightening eyes, and cosmetically
 as a hair rinse.
+
+### Echinacea
+
 Echinacea
 
 Echinacea angustifolia, E. purpurea
@@ -4629,82 +4776,132 @@ Echinacea angustifolia, E. purpurea
 E. pallida,
  helps stimulate the immune system
 and lessen the severity and duration of cold and flu symptoms.
+
+### Elderf lower
+
 Elderf lower
 
 Sambucus nigra,
  has antiviral properties and helps speed recovery from colds and flu,
 anti-inflammatory, delicious made into cordials.
+
+### Goldenrod
+
 Goldenrod
 
 Solidago virgaurea,
  antiseptic used as tea to soothe urinary tract infections and kidney
 stones. Pick flowering tops and leaves.
 
+### Hollyhock
+
 Hollyhock
 
 Alcea rosea,
  soothing for sore throats and coughs.
+
+### Honeysuckle
+
 Honeysuckle
 
 Lonicera japonica,
  anti-inflammatory and antiseptic, gentle painkiller used for sore
 throats and headaches.
+
+### Jasmine
+
 Jasmine
 
 Jasminum grandiflorum,
  anti-inflammatory, soothing for sore throats.
+
+### Lavender
+
 Lavender
 
 Lavandula angustifolia,
  soothing, can help ease nervous tension, antiseptic, wound
 healing.
+
+### Lime (linden) flowers
+
 Lime (linden) flowers
 
 Tilia
  spp., traditionally used for fevers and to calm anxiety.
+
+### Marigold
+
 Marigold
 
 Calendula officinalis,
  soothes rashes, bites and burns and can speed skin healing, stomach
 soother.
+
+### Mullein
+
 Mullein
 
 Verbascum thapsus,
  expectorant and decongestant, mild analgesic used for earache.
+
+### Nasturtium
+
 Nasturtium
 
 Tropaeolum majus,
  used as a mild diuretic and decongestant for catarrh and upper
 respiratory tract infections. Peppery leaves and flowers used in salads.
+
+### Pansy
+
 Pansy
 
 Viola tricolor,
  used topically for eczema, acne and skin disorders, anti-inflammatory and
 gentle diuretic, and can loosen chest congestion.
+
+### Rose
+
 Rose
 
 Rosa gallica, R. damascena
  and other cultivars used for flavouring and scent, and as a mild
 stress-reliever.
+
+### Skullcap
+
 Skullcap
 
 Scutellaria lateriflora,
  used to help soothe nervous agitation.
+
+### St John’s wort
+
 St John’s wort
 
 Hypericum perforatum,
  can ease mild to moderate depression, anxiety and SAD,
 
 used topically as a wound healer.
+
+### Vervain
+
 Vervain
 
 Verbena officinalis,
  gentle mood-improver and nerve-soother, can aid indigestion.
+
+### Wormwood
+
 Wormwood
 
 Artemisia absinthium,
  a digestive ‘bitter’ to ease bloating and increase appetite in small
 doses, insect repellent.
+
+### Yarrow
+
 Yarrow
 
 Achillea millefolium,
@@ -4732,60 +4929,99 @@ for.
 *
 The potential health benefits of the plants listed below are based on their traditional
  use.
+
+### Bilberry
+
 Bilberry
 
 Vaccinium myrtillus,
  rich in vitamin C and anthocyanosides, often used for eye health and
 vascular conditions such as varicose veins and piles.
+
+### Blackcurrant
+
 Blackcurrant
 
 Ribes nigrum,
  rich in vitamin C and anthocyanosides, may help in maintaining
 cardiovascular health.
+
+### Chilli
+
 Chilli
 
 Capsicum
  spp., stimulant, pain reliever used topically for muscular aches and pains, to
 encourage circulation, can also help thin phlegm in stubborn coughs.
+
+### Cranberry
+
 Cranberry
 
 Vaccinium macrocarpon,
  for treatment and prevention of mild urinary tract infections.
+
+### Garlic
+
 Garlic
 
 Allium sativum,
  all-rounder for colds, flu, helps lower cholesterol, antifungal. Lift bulbs and
 
 leave to dry for a few days in the sun before using.
+
+### Lemon
+
 Lemon
 
 Citrus limon,
  antibacterial and astringent on skin, high in vitamin C.
+
+### Lime
+
 Lime
 
 Citrus aurantifolia,
  antibacterial and astringent on skin, high in vitamin C.
+
+### Onion
+
 Onion
 
 Allium cepa,
  encourages production of phlegm, antiseptic, anti-inflammatory. Good all-round
 health tonic. Lift bulbs and leave to dry for a few days in the sun before using.
+
+### Orange
+
 Orange
 
 Citrus aurantium,
  contains vitamin C, rind used to ease digestive pain.
+
+### Peach
+
 Peach
 
 Prunus persica,
  delicious fruit.
+
+### Raspberry
+
 Raspberry
 
 Rubus idaeus,
  high in vitamin C, used in children’s cordials.
+
+### Watercress
+
 Watercress
 
 Nasturtium officinale,
  vitamin and mineral-rich, general health tonic.
+
+### Wild strawberry
+
 Wild strawberry
 
 Fragaria vesca,
@@ -4804,7 +5040,8 @@ leaves and put them straight on to a flat layer of silver foil, then fold a laye
 Label with the date and then freeze. Use frozen leaves in recipes and remedies as you would fresh
 ones.
 
-AUTUMN
+### AUTUMN
+
 Berry and root harvesting
 In autumn, most plants are starting to shut up shop and prepare for their dormant season. The blooms
 are going, going, gone, leaves are beginning to fall, but there are still fruits and roots to be harvested
@@ -4945,7 +5182,9 @@ Wild rosehips
 Rosa canina,
  full of vitamin C, for colds and sore throats, and also used for
 rheumatism and arthritis.
-AUTUMN: ROOTS AND RHIZOMES FOR PICKING
+
+## AUTUMN: ROOTS AND RHIZOMES FOR PICKING
+
 The roots can be as powerful medicinally as any other part of the plant. You can use them fresh,
 though some are more effective when dried, and that way they’ll also see you through the year. Roots
 are best picked when they have been through at least one growing season – and a few like ginseng get
@@ -4953,20 +5192,32 @@ are best picked when they have been through at least one growing season – and 
 more powerful as they mature. Here are a few to look out for.
 *
 The potential health benefits of the plants listed below are based on their traditional use.
+
+### Angelica
+
 Angelica
 
 Angelica archangelica,
  anti-inflammatory, can help relieve flatulence and indigestion, and
 loosen respiratory catarrh. Harvest year-old roots.
+
+### Bistort
+
 Bistort
 
 Persicaria bistorta,
  astringent, anti-diarrhoeal and anti-inflammatory, used to help stop
 bleeding and reduce catarrh, applied topically to wounds.
+
+### Dandelion
+
 Dandelion
 
 Taraxacum officinale,
  gentle diuretic, health tonic, anti-inflammatory.
+
+### Echinacea
+
 Echinacea
 
 Echinacea angustifolia, E. purpurea
@@ -4974,35 +5225,56 @@ Echinacea angustifolia, E. purpurea
 E. pallida,
  helps stimulate the immune system
 and lessen the severity and duration of cold and flu symptoms. Harvest 3–4-year-old roots.
+
+### Elecampane
+
 Elecampane
 
 Inula helenium,
  used to soothe coughs and lung complaints such as bronchitis.
+
+### Ginger
+
 Ginger
 
 Zingiber officinale,
  for dyspepsia, nausea and motion sickness, warming. Harvest year-old
 roots.
+
+### Ginseng
+
 Ginseng
 
 Panax ginseng,
  traditionally used to boost energy and improve physical and mental
 performance. Harvest roots of 6–7-year-old plants.
+
+### Horseradish
+
 Horseradish
 
 Armoracia rusticana,
  applied topically for sore muscles and joints.
+
+### Liquorice
+
 Liquorice
 
 Glycyrrhiza glabra,
  to loosen congestion in coughs and bronchitis, for sore throats,
 demulcent, soothes stomach inflammation and ulcers. DO NOT TAKE HIGH DOSES OVER A
 PROLONGED PERIOD.
+
+### Marshmallow
+
 Marshmallow
 
 Althaea officinale,
  contains mucilage to soothe gastrointestinal tract, coughs and sore
 throats, softening for skin.
+
+### Rhubarb
+
 Rhubarb
 
 Rheum rhabarbarum, R. rhaponticum
@@ -5011,21 +5283,33 @@ R. officinale,
  anti-inflammatory and mild
 laxative, rhizomes used in polish to brighten the colour of wood. DO NOT EAT THE LEAVES,
 THEY ARE POISONOUS.
+
+### Rose root
+
 Rose root
 
 Rhodiola rosea,
  can alleviate low mood and help improve physical and mental
 performance.
+
+### Tormentil
+
 Tormentil
 
 Potentilla erecta,
  astringent, traditionally used for sore joints and muscles, internally for
 diarrhoea and tummy bugs and externally to stem bleeding and heal wounds.
+
+### Turmeric
+
 Turmeric
 
 Curcuma longa,
  used to soothe arthritic joints and other inflammatory conditions,
 including those of the skin and digestive system.
+
+### Valerian
+
 Valerian
 
 Valeriana officinalis,
@@ -5047,49 +5331,78 @@ become brittle and dried through but not shrivelled up. (It’s hard to be preci
 moisture content is different depending on the plant and when you harvested it.) Store the dried
 roots in a dark glass jar, labelled and dated, with an airtight lid until needed. They will keep for up
 to 1 year.
-AUTUMN: SEEDS FOR PICKING
+
+## AUTUMN: SEEDS FOR PICKING
+
 Keep an eye on your seeds – they ripen very fast. You want to pick them for use medicinally just as
 the seed pods change colour, which is usually at the very tail end of summer and the start of autumn.
 Here are some to look out for.
 *
 The potential health benefits of the plants listed below are based on their traditional use.
+
+### Angelica
+
 Angelica
 
 Angelica archangelica,
  anti-inflammatory, can help relieve flatulence and indigestion, and
 loosen respiratory catarrh. Will self-seed in autumn.
+
+### Aniseed
+
 Aniseed
 
 Pimpinella anisum,
  expectorant used in bronchial conditions, as a digestive soother, kills
 external parasites such as the scabies mite and lice.
+
+### Black mustard
+
 Black mustard
 
 Brassica nigra,
  seeds applied topically to encourage circulation and soothe muscle
 pain.
+
+### Caraway
+
 Caraway
 
 Carum carvi,
  to aid digestion.
+
+### Celery
+
 Celery
 
 Apium graveolens,
  anti-inflammatory, to help decrease swelling in gout and arthritis, gently
 sedative.
+
+### Coriander
+
 Coriander
 
 Coriandrum sativum,
  to aid digestion and soothe stomachs.
+
+### Dill
+
 Dill
 
 Anethum graveolens,
  traditionally used for digestion, gas and intestinal spasms; chew seeds to
 help alleviate bad breath.
+
+### Fennel
+
 Fennel
 
 Foeniculum vulgare,
  to ease bloating and stomach upsets, applied topically as an eyewash.
+
+### Flax
+
 Flax
 
 Linum usitat issimum,
@@ -5107,39 +5420,62 @@ dry thoroughly for a couple of weeks, then shake the bags hard to catch all the 
 onto a flat tray, removing any seed husks. Store the seeds in paper bags or envelopes, labelled and
 dated. Most seeds will keep for about 1 year for use in remedies (or sow them next spring), though
 angelica is viable for only 3 months.
-AUTUMN: LEAVES FOR PICKING
+
+## AUTUMN: LEAVES FOR PICKING
+
 There’s still quite a lot around to be picked indoors and out, and not just evergreens, either. Avoid
 yellowing or wilting leaves and go for the brightest green leaves you can find. Here are some to look
 out for.
 *
 The potential health benefits of the plants listed below are based on their traditional use.
+
+### Aloe vera
+
 Aloe vera
 
 Aloe barbadensis,
  the gel soothes burns and skin problems, speeds healing time of cuts
 and wounds.
+
+### Basil
+
 Basil
 
 Ocimum basilicum,
  antibacterial, used mostly as an aromatic in aftershaves and colognes.
+
+### Bay
+
 Bay
 
 Laurus nobilis,
  aids digestion, used in aftershaves and colognes for its pungent aroma.
+
+### Eucalyptus
+
 Eucalyptus
 
 Eucalyptus
  spp., decongestant for colds and coughs, antiseptic in sore throats and skin
 treatments, good insect repellent.
+
+### Fennel
+
 Fennel
 
 Foeniculum vulgare,
  to ease bloating and stomach upsets, applied topically as an eyewash.
+
+### Horsetail
+
 Horsetail
 
 Equisetum arvense,
  traditionally used for cystitis and to help improve thin, brittle hair and
 nails.
+
+### Lemon balm
+
 Lemon balm
 
 Melissa officinalis,
@@ -5150,26 +5486,41 @@ james’s tip
  If you have any black mustard plants left over, they’re brilliant as a green
 manure. Dig them into soil at the end of the growing season; they add all sort of goodies and ‘fix’
 nitrogen in the soil, thus making this vital nutrient available to other plants.
+
+### Mint
+
 Mint
 
 Mentha
  spp., often used to help with bloating, dyspepsia and irritable bowel syndrome, applied
 topically as an antiseptic and to soothe itching.
+
+### Parsley
+
 Parsley
 
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE IF
 YOU HAVE KIDNEY PROBLEMS.
+
+### Rosemary
+
 Rosemary
 
 Rosmarinus officinalis,
  reputed to help memory and concentration and increase alertness.
 Applied topically for muscle pain.
+
+### Sage
+
 Sage
 
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract and soothe the throat, used
 for hot flushes and sweating during menopause.
+
+### Thyme
+
 Thyme
 
 Thymus vulgaris
@@ -5178,16 +5529,23 @@ Thymus serpyllum
 ), antiseptic, especially for the mouth,
 
 used to help loosen phlegm, applied topically to ease rheumatic pains, insecticidal.
+
+### Watercress
+
 Watercress
 
 Nasturtium officinale,
  vitamin and mineral-rich, general health tonic.
+
+### Wild marjoram
+
 Wild marjoram
 
 Origanum vulgare,
  antiseptic used to soothe respiratory and urinary tract infections.
 
-WINTER
+### WINTER
+
 Everything has died down now, it’s quiet outside, and you can at last put your feet up and get anoraky
 with the seed catalogues. Perfect, a cup of herbal chai and some armchair gardening…
 This is the time to…
@@ -5222,9 +5580,7 @@ james’s tip
 gardener) and you’re not fully stocked up with horticultural fleece, an old net curtain or light sheet
 will do the job just as well.
 
-[Nu a fost extras text din această pagină.]
-
-[Nu a fost extras text din această pagină.]
+### HOW TO GROW A CITRUS TREE
 
 HOW TO GROW A CITRUS TREE
 People think citrus are fussy, difficult plants to grow in Britain, but treat them right and you’ll be
@@ -5276,56 +5632,88 @@ them freezing and cracking. You can buy pot feet, but I like to use upturned wat
 bottle tops instead. Just slide 3 of them, equally spaced, under the pot; you don’t see them, so they
 won’t spoil the look of your display, they’ll raise the pot a few centimetres above the ground, and
 you’re recycling too.
-WINTER: FRESH PLANTS FOR PICKING
+
+## WINTER: FRESH PLANTS FOR PICKING
+
 The evergreens are still going strong, and many leaves can be picked from indoor and outdoor plants
 throughout the winter. Here are some to look out for.
 *
 The potential health benefits of the plants listed below are based on their traditional use.
+
+### Aloe vera
+
 Aloe vera
 
 Aloe barbadensis,
  the gel soothes burns and skin problems, speeds healing time of cuts
 and wounds.
+
+### Bay
+
 Bay
 
 Laurus nobilis,
  aids digestion, used in aftershaves and colognes for its pungent aroma.
+
+### Eucalyptus
+
 Eucalyptus
 
 Eucalyptus
  spp., decongestant for colds and coughs, antiseptic in sore throats and skin
 treatments, good insect repellent.
+
+### Holly
+
 Holly
 
 Ilex paraguariensis
  (yerba mate), use as traditional seasonal greenery, can be bought in tea
 form.
+
+### Ivy
+
 Ivy
 
 Hedera helix,
  used in cosmetic treatments to help cellulite. The leaves are used in expectorant
 
 cough mixtures. DO NOT EAT THE BERRIES.
+
+### Olive
+
 Olive
 
 Olea europaea,
  oil used as an emollient for skin and in cooking, leaves used for mildly
 elevated blood pressure and to help control blood sugar levels.
+
+### Parsley
+
 Parsley
 
 Petroselinum crispum,
  diuretic, used for digestive problems and anaemia. DO NOT USE IF
 YOU HAVE KIDNEY PROBLEMS.
+
+### Rosemary
+
 Rosemary
 
 Rosmarinus officinalis,
  reputed to help memory and concentration and increase alertness.
 Applied topically for muscle pain.
+
+### Sage
+
 Sage
 
 Salvia officinalis,
  helps loosen mucus in the upper respiratory tract and soothe the throat; used
 for hot flushes and sweating during menopause.
+
+### Thyme
+
 Thyme
 
 Thymus vulgaris
@@ -5333,6 +5721,9 @@ Thymus vulgaris
 Thymus serpyllum
 ), antiseptic, especially for the mouth,
 used to help loosen phlegm, applied topically to ease rheumatic pains, insecticidal.
+
+### Witch hazel
+
 Witch hazel
 
 Hamamelis virginiana,
@@ -5348,8 +5739,6 @@ rosehips – after a frost, you’ll notice the colour of the rosehips brightens
 This is a great time to get out and pick rosehips for use in syrups rich in vitamin C and medicinal
 preserves (eat a daily spoonful or spread the jam/jelly on toast). These will help keep everyone
 healthy over winter.
-
-[Nu a fost extras text din această pagină.]
 
 GREAT AS GIFTS
 When it comes to present-giving, it’s not just the thought but the work-rate that counts, and I don’t
@@ -5436,9 +5825,8 @@ more appealing.
  Ornamental door wreaths made with seasonal greenery, perhaps with some home-grown
 chillies or eucalyptus berries…
 
-[Nu a fost extras text din această pagină.]
+## 5 THE NON-GARDENER’S GUIDE
 
-5 THE NON-GARDENER’S GUIDE
 Far too many mates of mine secretly confess that they would love to start gardening but find
 rigid pruning rules and obscure digging techniques just too daunting a prospect – like a
 horticultural ‘times tables’ that you need to memorize before you can even think about getting
@@ -5572,65 +5960,102 @@ Herbal, health food shops and pharmacies
 Here you’ll find borax powder, brewer’s yeast, friar’s balsam (compound benzoin tincture),
 glycerine, rosewater, vitamin C powder, white petroleum jelly and distilled witch hazel – a key
 ingredient for the medicine cabinet.
-Over the counter
+
+### OVER THE COUNTER
+
 The following plants come mostly from tropical and sub-tropical areas and won’t grow in Britain’s
 temperate climate.
 Most can be sourced from Asian shops and supermarkets, from specialist herbal shops or online. The
 potential health benefits of the plants listed opposite are based on their traditional use.
+
+#### Black pepper
+
 Black pepper
 
 Piper nigrum,
  antibacterial and antioxidant, stimulant, digestive, enhances the
 absorption of medicines and other herbs.
+
+#### Cardamom
+
 Cardamom
 
 Elettaria cardamomum,
  traditionally used to soothe upset stomachs.
+
+#### Cinnamon
+
 Cinnamon
 
 Cinnamomum verum,
  analgesic and antioxidant, used to treat nausea, indigestion, colds
 and flu.
+
+#### Cloves
+
 Cloves
 
 Syzygium aromaticum,
  used in digestive and respiratory disorders; the oil is antiseptic and
 analgesic and used for soothing toothache.
 
+#### Cumin
+
 Cumin
 
 Cuminum cyminum,
  for digestion, colds and fever, antiseptic.
+
+#### Damiana
+
 Damiana
 
 Turnera diffusa,
  thought to have mood-lifting and stimulating qualities, and reputed to be an
 aphrodisiac.
+
+#### Neem oil
+
 Neem oil
 
 Azadirachta indica,
  antibacterial and antifungal, used for skin problems, and as an
 insecticide including for head lice.
+
+#### Nutmeg
+
 Nutmeg
 
 Myristica fragrans,
  used for indigestion, nausea and as an anti-inflammatory for stiff joints.
 TOXIC IN LARGE DOSES.
+
+#### Quassia tincture
+
 Quassia tincture
 
 Picrasma excelsa,
  insecticide used to treat head lice, bitter stomach tonic in small
 doses.
+
+#### Slippery elm powdered bark
+
 Slippery elm powdered bark
 
 Ulmus rubra,
  soothing for stomach ulcers, colitis and other digestive
 disorders.
+
+#### Tea tree essential oil
+
 Tea tree essential oil
 
 Melaleuca alternifolia,
  powerful antiseptic and antifungal, used for skin
 breakouts, cuts and wounds, athlete’s foot.
+
+#### Yerba Mate
+
 Yerba Mate
 
 Ilex Paraguariensis,
@@ -5658,871 +6083,3 @@ Online herb nursery shop
 Sells organically grown plants by post.
 Based in Ayrshire.
 Dolphin Sea Vegetable Company
-
-Online shop
-Sells a range of seaweeds, including kelp
-and carrageen.
-Based in Belfast.
-Emorsgate Seeds
-01553 829028
-Online shop
-Sells a wide range of wildflower seeds.
-Based near Bath.
-Herbs for Healing
-01285 851457
-Online shop
-Herb nursery that sells fresh and dried medicinal
-plants, pots, jars, bottles, muslin, waxes and
-specialist oils. Also runs courses on the use of herbs.
-
-Based in Gloucestershire.
-Jekka’s Herb Farm
-01454 418878
-Online shop
-Sells a large range of seeds and organic plants
-(including specialist plants such as gotu kola).
-Based near Bristol.
-Landlife Wildflowers
-0151 7371819
-Online shop
-The environmental charity Landlife sells a wide
-range of wildflower seeds. Based in Liverpool.
-Laurel Farm Herbs
-01728 668223
-Nursery and online shop
-Sells medicinal plants. Based in Suffolk.
-Limeburn Nurseries
-01275 333399
-Nursery and online shop
-Sells medicinal plants. Based in Bristol.
-Neal’s Yard Remedies
-0845 262 3145
-
-Shops and online
-Sells bottles, jars, pump/drop dispensers, beeswax,
-emulsifying wax, clay powder, friar’s balsam (compound
-benzoin tincture), dried herbs, essential oils.
-Norfolk Herbs
-01362 860812
-Online shop
-Sells medicinal plants. Based in Norfolk.
-Spice World
-01984 633685
-Online shop
-Sells glass jars, beeswax, vitamin C powder, pine
-resin, dried medicinal herbs. Based in Somerset.
-
-Steenbergs Organic
-01765 640088
-Online shop
-Sells organic dried herbs, unfilled tea bags.
-Based in Yorkshire.
-Turfshop
-01652 678886
-Online shop
-Sells chamomile turf by the square metre.
-Based in Lincolnshire.
-PLANT INFORMATION
-Botanic Gardens
-Conservation International
-
-A global network of botanic gardens working for
-plant conservation and undertaking medicinal plant
-research around the world. Lists botanic gardens in
-Britain and worldwide.
-Botanical Society
-of the British Isles
-
-Offers flora maps, plant identification guides,
-archives of botanical publications.
-The Herb Society
-
-Detailed information on the medicinal, culinary
-and historical uses of herbs.
-London Wildlife Trust
-
-Dedicated to preserving the capital’s wildlife and
-wild spaces.
-National Institute
-of Medical Herbalists
-
-The UK’s major professional body for medical
-
-herbalists.
-Natural England
-
-Protects and conserves English’s natural
-environment and biodiversity.
-Plantlife International
-
-Supports wild plant conservation in Britain
-and internationally.
-RHS Plant Finder
-
-Database of plant information and gardening
-advice, with nursery and plant finder tools.
-The Wildlife Trusts
-
-Dedicated to conserving Britain’s natural
-habitat and wildlife environment.
-
-Index
-The pagination of this electronic edition does not match the edition from which it was created. To
-locate a specific passage, please use the search feature of your e-book reader’s search tools.
-A
-acid reflux 56, 57
-acidic tummies 52
-acne 122, 137, 174
-aftershave and cologne 137, 175, 179, 181, 193, 199
-agrimony 53, 179, 182, 208
-alcohol 31-2
-see also
- brandy; gin; port; rum; vodka; whisky
-allergies 17
-allspice (aka Pimento) 108, 112
-almond oil 44, 105, 120, 121, 212
-Aloe and Slippery Elm Antiseptic Poultice
- 47
-aloe vera 27, 42, 45, 47, 175, 176, 179, 193, 199, 203
-Aloe Vera and Marigold Frozen Gel Cubes
- 42
-anaemia 100, 174, 181, 193
-anaesthetic 86, 89, 92
-analgesic 77, 178, 184
-angelica 21, 26, 54, 114, 175, 186, 190, 192
-Angelica and Mint Cocktail
- 54
-anise essential oil 147
-aniseed 77, 129, 159, 192, 212
-annuals and perennials 24
-Anti-Dandruff Hair Oil
- 125
-anti-inflammatory 60, 63, 66, 73, 82, 88, 89, 94, 105, 140, 151, 152, 174, 175, 178, 181, 182, 184,
-190, 191, 192
-antibacterial 50, 151, 181, 185
-antibiotic 72, 175
-antidepressant 98
-antifungal 50, 179, 185
-antihistamine 178
-antimicrobial 86
-antioxidant 66, 89, 181
-Antioxidant Olive Leaf Clay Mask
- 122
-
-antiseptic 47, 72, 77, 86, 152, 174, 175, 179, 184, 185, 193, 199
-anxiety and nervous tension 110, 116, 170, 173, 174, 175, 179, 181, 182, 184, 191, 193
-aphrodisiac 118
-apricot 62, 120, 212
-arthritis 88, 89, 92, 178, 190, 192
-astringent 178, 181, 185, 190, 191
-avocado 19, 31
-B
-bad breath 192
-balms 33, 203
-base oils 30-1
-basil 30, 129, 179, 193
-bay 116, 129, 137, 175, 179, 186, 193, 199, 203
-beer 172
-beeswax 33, 34, 44, 48, 72, 132, 140, 152, 161
-beetroot juice 58
-benzoin 48
-berries, growing and harvesting 169-70, 186, 190
-Bicarb, Myrrh and Sage Tooth Whitening Powder
- 131
-bilberries (aka whortleberries) 27, 66, 94, 170, 185, 208
-Bilberry and Marshmallow Munch
- 94
-bistort 57, 190, 208
-black cherry concentrate 118
-black mustard 92, 173, 192, 208, 212
-black pepper 78, 80, 90, 213
-blackberries 27, 58, 153, 169, 178, 190, 208, 210
-Blackberry Oxymel 153
-Blackcurrant Tonic 149
-blackcurrants 27, 149, 170, 185, 186
-bleeding 178, 181, 190, 191, 199
-bletting 199
-bloating 58, 174, 179, 184
-blood pressure 179, 199
-blood sugar levels 179, 199
-borage 24
-borax powder 93
-Bramley apples 64, 74, 76
-brandy 32, 66, 81, 84, 114, 118
-brewer’s yeast 104, 115, 144, 212
-bronchitis 114, 173, 190, 191, 192
-bruises 48, 88, 181, 199
-burns 42, 173, 174, 175, 179, 184, 192, 199
-
-buying plants 212-13
-C
-calamondin 198
-caraway 26, 129, 159, 173, 192, 212
-cardamom 86, 110, 129, 159, 213
-cardiovascular 98, 178, 185, 190
-carpets 160
-carrageen 126
-castor oil 137, 212
-catarrh 174, 175, 184, 190, 192
-catnip 163
-Cat’s Christmas Toy 163
-cayenne pepper 92, 212
-celandine 148
-celery 131, 159, 192, 212
-cellulite 140, 178
-chamomile 27, 49, 54, 56, 60, 108, 120, 121, 124, 137, 144, 146, 151, 156, 168, 169, 172, 173, 182
-Chamomile Bath Milk
- 151
-Chamomile and Lavender
-Massage Rub
- 156
-chest rub 72
-chickweed 27, 137, 144, 176, 178, 208
-chilblains 48
-childbirth 181
-children’s remedies 27, 146-56, 185
-chilli 27, 28, 74, 76, 82, 100, 112, 173, 176, 185, 212
-chives 176
-chocolate 112
-cholesterol 185
-cider vinegar 56, 147, 153
-cinnamon 68, 84, 86, 108, 129, 154, 159, 212, 213
-circulation 68, 92, 173, 185, 190, 192
-citric acid 111
-citronella oil 45, 212
-citrus fruit 19, 198, 203
-clay powder 122
-climate 18-22
-cloves 58, 60, 86, 93, 100, 134, 141, 154, 159, 212, 213
-cocoa nibs 98
-cocoa powder 112
-coconut cream 151
-coconut oil 125, 212
-
-Cointreau 64
-Cold and Flu Chai
- 86
-cold sores 175, 179, 193
-colds and flu 67, 72, 74, 76, 78, 80, 84, 86, 114, 115, 153, 154, 173, 174, 175, 178, 179, 182, 185,
-190, 193
-colic 156
-colitis 179, 182
-comfrey 21, 176
-compound benzoin tincture
-(aka friar’s balsam) 48
-conjunctivitis 136, 178
-Cooling Compress
- 88
-coriander 108, 159, 173, 179, 192, 212
-Cornflour Eye Bath
- 136
-cornflower 136, 173, 182
-corns 179
-cosmetics 120-44, 181, 182, 185
-cough sweets 73, 77, 203
-coughs 81, 114, 173, 175, 178, 179, 184, 185, 191, 192, 193, 199
-cranberry 21, 64, 170, 185
-creams and lotions 29, 30, 34-5, 44, 48, 116, 132, 203
-Crohn’s disease 89
-cumin 159, 212, 213
-cystitis 64, 178, 193
-D
-damiana 118, 213
-dandelion 63, 176, 178, 190, 208, 210
-dandruff 120, 121, 124, 125, 175, 178
-decongestant 73, 78, 174, 184, 193
-Deep Conditioning Hair Oil
- 120
-Deodorizer for Sweet-smelling Carpets
- 160
-depression 109, 116, 152, 184
-dermatitis 48
-dermatological see skin remedies
-diarrhoea 178, 179, 181, 182, 190, 191
-digestion 26, 51-68, 114, 173, 174, 175, 179, 181, 182, 184, 185, 190, 191, 192, 193, 199
-dill 54, 159, 173, 179, 192, 212
-diuretics 174, 179, 181, 182, 184, 190
-dyspepsia 175, 190, 193
-E
-ear wax 142
-
-earache 184
-Eau de Cologne
- 129
-echinacea 26, 39, 80, 86, 173, 176, 182, 190
-eczema 48, 174, 179, 184
-elder 45, 178, 186, 208, 210
-Elder and Neem Insect Repellent Gel
- 45
-elderberries 26, 67, 73, 74, 76, 84, 154, 190
-Elderberry Cordial
- 154
-Elderberry and Ginger Cold and Flu Tonic
- 86
-Elderberry Liqueur
- 76
-elderflower 60, 73, 115, 144, 182
-Elderflower ’Champagne’
- 115
-Elderflower and Eucalyptus Decongestant Throat Lozenges
- 73
-Elderflower and Eyebright Tea
- 60
-elecampane 114, 176, 190
-emotional remedies 28, 96-118
-emulsifying wax 33, 34, 44, 48, 132, 140, 148
-Enriching Hair Treatment Gel 121
-essential oils 45, 47, 58, 78, 105, 122, 137, 147, 148, 160, 162
-eucalyptus 20, 26, 27, 28, 73, 74, 76, 78, 80, 112, 147, 160, 162, 175, 179, 193, 199
-Eucalyptus Decongestant Rub
- 78
-Eucalyptus and Elderberry Jelly
- 74
-Eucalyptus Inhalation
- 78
-eyebright 60, 136, 178, 208
-Eyebright Compress
- 136
-eyes 136, 173, 175, 178, 181, 182, 185, 192, 193
-F
-face mask 33, 122, 130, 144, 174, 185
-fennel 16, 22, 26, 54, 58, 63, 136, 159, 162, 163, 173, 175, 192, 193, 210, 212
-Fennel Seed Eye Bath
- 136
-Fennel Sugar Mice
- 58
-feverfew 15, 28, 96, 173, 176, 179, 208
-fevers 86, 184
-fir needles 80
-Fir Tree and Calamondin Hot Toddy
- 80
-flatulence 58, 190, 192
-flax 173, 192
-flax seeds see linseed
-foraging 209, 210-11
-Four Flower Salad
- 63
-freezing fruit and herbs 185
-friar’s balsam (aka compound benzoin tincture) 48, 212
-
-fruit trees, growing 188-9
-G
-gall-bladder 179
-Gardener’s Hand Scrub
- 144
-gargles 82, 86
-garlic 26, 72, 85, 176, 185, 212
-gastritis 57
-gelatine 70, 212
-gels 33
-German chamomile 52, 54, 56, 60, 108, 146, 156
-gift ideas 202-3
-gin 32, 140
-ginger 26, 27, 28, 68, 84, 86, 89, 90, 96, 100, 105, 111, 190, 212
-ginger beer (or cordial) 54
-ginger milk
-Ginger and Pepper Rub 105
-ginseng 28, 108, 118, 191, 212
-glucose 111
-glycerine 45, 128, 148, 212
-glycerites 32
-goji berries 26, 68, 174, 190, 208, 210, 212
-golden syrup 116
-goldenrod 60, 174, 182, 208
-gotu kola 28, 94, 179
-gout 192
-grapefruit 140, 172
-grapeseed oil 30
-greater celandine 179
-green tea 70, 128
-Green Tea, Liquorice and Lemon Mouthwash
- 128
-groundnut oil 31
-Gui Lin Gao (turtle essence jelly) 70
-gum arabic 73
-H
-hair conditioning 120, 121, 124, 125, 173, 175, 178, 182, 193
-hair removal 134
-hands 144
-hangover remedy 111
-haws 190
-hawthorn 67, 68, 178, 208, 210
-hay fever 60, 175, 178
-
-head lice and nits 147
-headache and migraine 28, 88, 96, 96-118, 173, 175, 179, 184
-Herb Butter for Migraine Prevention
- 96
-herb oils 30, 44
-herb Robert 48, 178, 208
-Herb Robert Cream
- 48
-Herbal Elixir for Low Libido
- 118
-Herbal Vinegar Hair Rinse
- 124
-holly 199, 208, 210
-hollyhock 81, 174, 184
-Hollyhock Cough Syrup
- 81
-home remedies 159-62
-honey 47, 48, 53, 56, 57, 60, 70, 80, 84, 86, 94, 109, 110, 112, 118, 121, 144, 146, 149, 153, 203
-Honey and Yogurt Dry Skin Face Mask
- 144
-honeysuckle 27, 70, 184, 208, 210
-Honeysuckle and Jasmine Jelly
- 70
-hormonal remedies 28, 96-118
-horseradish 27, 28, 92, 191, 208
-Horseradish and Mustard Balm
- 92
-horsetail 131, 162, 178, 193, 208
-Horsetail and Celery Seed Nail Bath
- 131
-Horsetail Metal Polish
- 162
-houseleeks 203
-I
-immune system 60-8, 76, 86, 174, 182, 190
-indigestion 54, 56, 173, 174, 175, 181, 184, 190, 192
-infused oils 30, 105, 120, 144, 203
-infusions 29
-inhalations 78, 178
-insect bites 184
-insect repellent 45, 50, 174, 175, 179, 181, 184, 193, 199
-insomnia 174
-irritable bowel syndrome 175, 179, 193
-itching 151, 179, 193
-ivy 140, 178, 199, 208, 210
-Ivy, Juniper and Grapefruit Cream
- 140
-J
-jasmine 70, 124, 184
-jojoba oil 120, 144, 212
-juniper 105, 140, 190, 210
-
-K
-kelp 126, 210
-kidney stones 174, 182
-L
-lady’s mantle 118, 121, 176, 179
-lavender 20, 22, 42, 47, 109, 124, 125, 129, 142, 147, 151, 156, 160, 173, 176, 184
-laxative 173, 191
-lemon 82, 84, 96, 109, 115, 122, 128, 129, 134, 144, 148, 160, 185, 198
-lemon balm 15, 28, 52, 63, 109, 124, 129, 170, 174, 175, 176, 179, 193
-lemon verbena 22, 176, 186
-lemongrass 16, 50, 175, 179, 212
-Lemongrass Insect Repellent
- 50
-lice 192
-lime (linden) flowers 68, 109, 118, 121, 184, 210
-limes 54, 74, 76, 80, 106, 130, 137, 154, 185, 198
-linseed (flax seeds) 73, 192, 212
-liquorice 27, 28, 118, 128, 191, 212
-Liquorice Chews
- 156
-liver problems 181
-lotions see creams/lotions
-M
-mallow 63, 208
-malt syrup 212
-malt vinegar 88
-manuka honey 47, 48, 94
-Manuka Honey Wound Healer
- 47
-maple syrup 64, 89
-marigold 27, 42, 52, 63, 86, 124, 137, 144, 174, 184
-marshmallow 21, 26, 52, 53, 57, 68, 94, 130, 144, 176, 179, 186, 191, 208
-Marshmallow and Agrimony Ice Tea
- 53
-Marshmallow and Bistort Bites
- 57
-Marshmallow Leaf and Flower Milk Bath
- 130
-meadowsweet 21, 39, 52, 84, 86, 103, 178, 208, 210
-Meadowsweet Cordial
- 102
-Meadowsweet and Peach Sorbet
- 103
-menopause 174, 175, 181, 193, 199
-mental performance 114, 181, 191, 193, 199
-milk 86, 89, 110, 116, 130
-mint 15, 27, 54, 63, 129, 146, 159, 162, 175, 176, 179, 193, 208, 210
-Mint and Chamomile Ice Lollies
- 146
-mistletoe 210
-
-mixed spice 64
-moth repellent 159, 203
-motion sickness 190
-mouthwash 31, 128, 131, 175, 181, 193, 199
-mullein 24, 120, 142, 184, 208
-Mullein Ear Drops
- 142
-muscles and joints 27-8, 88-94, 173, 175, 178, 179, 181, 185, 190, 191, 192, 193, 199
-mustard 92
-myrrh 131, 141
-N
-nails 131, 178
-nasturtium 63, 174, 176, 184
-natural colourings 58
-nausea 190
-neem oil 45, 213
-nettle 26, 60, 62, 121, 124, 175, 176, 178, 208, 210
-Nettle and Chamomile Tea
- 60
-nettle stings 156, 178
-nicotiana 176
-non-gardener guide 206
-nosebleeds 184
-nutmeg 94, 116, 212, 213
-O
-Oat and Chamomile Bath Bag
- 49
-oats 49, 130, 132, 144
-Oats and Almond Moisturizing Body Cream
- 132
-ointments 33
-olive 22, 122, 179, 199, 203
-olive oil 31, 44, 72, 100, 105, 120, 142, 144, 156, 212
-onion 26, 82, 85, 87, 174, 185
-Onion Gargle
- 82
-Onion Syrup
- 87
-orange 62, 80, 86, 116, 129, 141, 185
-orange blossom water 106
-Orange-Scented Body Oil
- 141
-P
-pain relief 92, 102, 103, 105, 106, 173, 178, 184, 185
-palm oil 30
-palm trees 21
-pansy 121, 174, 186, 210
-
-Paraguay Holly and Chilli Truffles
- 112
-parsley 58, 82, 96, 124, 174, 175, 181, 184, 193, 199
-peach 103, 185
-pear 100
-pelargonium 22, 60, 137, 176, 181
-pennyroyal 162, 163, 174, 181, 208
-pepper 78, 80, 86, 89, 90, 96, 100, 105, 159
-peppermint 26, 56, 58, 78, 125
-Peppermint Tummy Soother
- 56
-periods 105, 118, 179
-Pet Deodorizer
- 162
-Pet Flea Powder
- 163
-petroleum jelly 78, 92, 212
-physical performance 114, 191
-phytoestrogen 173, 192
-picking and drying 175, 178-9, 181, 182, 184, 185, 192, 193
-piles 185
-Pimento see allspice
-pine 161, 210
-plant information 217
-plantain 27, 52, 88, 176, 178, 208
-Plantain for Nettle Stings
- 156
-port 68
-Port Winter Tonic 68
-pot marigold 27, 176
-pot-pourri 181
-potatoes 100
-psoriasis 88
-pumpkin seeds 58
-Q
-Quassia Head Lice and Nit Treatment
- 147
-quassia tincture 147, 213
-Quick-Fix Teh Halia
- 90
-R
-rashes 174, 184
-raspberry 28, 169, 181, 185, 210
-red wine 62
-Relaxing Lettuce and Cardamom Milk
- 110
-respiratory tract 26, 70-94, 174, 175, 178, 181, 184, 190, 192, 193
-Restorative Nettle Tonic
- 62
-Restorative Watercress and Pear Soup
- 100
-
-rheumatism 93, 175, 181, 190, 193, 199
-rhubarb 161, 191
-Roasted Cranberry Mince Pies
- 64
-rocket 63, 174, 181
-Roman Chamomile and Lavender Acne Steam
- 137
-Room Fragrance
- 160
-roots and rhyzomes 190-1
-Rose and Chocolate Shot
- 98-9
-Rose and Clove Hair Removing Sugar
- 134
-rose root 28, 114, 170, 191, 203, 208
-rosebuds (or petals) 98, 109, 121, 124, 134, 137, 176, 184
-Rosehip and Ginger Fizzy Sherbert
- 111
-rosehips 27, 67, 94, 111
-rosemary 20, 22, 28, 30, 48, 93, 105, 120, 121, 124, 125, 126, 129, 147, 159, 161, 162, 163, 175,
-181, 186, 193, 199
-Rosemary and Clove Liniment
- 93
-rosewater 94, 134, 212
-rum 32, 64, 76, 80, 116, 137
-S
-safflower oil 30, 120, 137, 212
-saffron 116
-Saffron Egg Nog
- 116
-sage 28, 63, 86, 88, 104, 120, 121, 124, 129, 131, 159, 174, 175, 176, 181, 193, 199
-Sage Beer
- 104
-Sage and Marigold Gargle
- 86
-St John’s wort 27, 28, 109, 152, 170, 174, 176, 184, 208
-St John’s Wort Salve
- 152
-salves 33
-scabies mite 192
-Seasonal Affective Disorder (SAD) 109, 174, 184
-seaweed 210
-Seaweed and Sand Body Scrub
- 126
-sedative 182, 192
-sesame oil 31
-Simple Bilberry Tonic
- 66
-Simple Cream
- 44
-sinusitis 78
-skin remedies 27, 42-50, 121, 122, 126, 130, 137, 140, 141, 144, 151, 173, 175, 179, 181, 184, 191,
-193, 199
-skullcap 118, 181, 184
-slippery elm 26, 47, 57, 213
-Slippery Elm Tablets
- 57
-
-slugs and snails 172
-soap 161
-soil 22-4
-Soothing Rub for Period Pain
- 105
-sore throats 70, 72, 77, 82, 86, 174, 175, 179, 181, 184, 190, 191, 193, 199
-southernwood 159, 176, 181
-sowing and planting 168-74
-Spicy Moth Bags
- 159
-sprains 181, 199
-spring onions 100
-spruce 178
-sterilizing 35
-stockists 215-16
-stomach remedies 57, 58, 146, 156, 173, 174, 175, 178, 179, 184, 191, 192, 193
-strawberries 130, 174
-stress 174, 179, 184
-Stress-Proofing Herbal Chai Tea
- 108
-Sugar Body Scrub
- 137
-sunflower oil 24, 30, 31, 44, 60, 93, 140, 141, 151, 152
-swollen joints 88
-T
-tansy 159, 174, 176, 181
-Targetes (French marigold) 176
-tarragon 96, 175, 181
-tea 70, 89, 90, 136, 181, 212
-Tea to Lift the Spirits
- 109
-tea tree oil 27, 147, 162, 213
-teeth 128, 131, 156
-Teh Halia 89, 90
-thread veins 48
-Three Fruits Vinegar
- 67
-Three Herb Uplift Tea
- 109
-Three Root Syrup Overall Tonic
- 114
-throat infections 82
-throat lozenges 73
-thyme 20, 22, 30, 63, 72, 77, 125, 129, 160, 162, 173, 175, 176, 181, 193, 199
-Thyme and Aniseed Cough Drops
- 77
-Thyme and Garlic Chest Rub
- 72
-Time of the Month Tea
- 116
-tinctures 31-2
-tonics and pick-me-ups 98, 100, 104, 108, 109, 112, 114, 115, 116, 118, 149, 170, 174, 178, 185,
-190, 193
-
-tormentil 57, 191, 208
-turmeric 27, 28, 58, 89, 90, 191, 212
-Turmeric ’Teh Halia’
- 88
-turpentine 161
-U
-ulcers 191
-urinary tract 174, 175, 179, 182, 185, 190, 193
-V
-valerian 163, 191, 208
-vanilla 112
-varicose veins 48
-vascular conditions 185
-vervain 28, 109, 170, 174, 176, 181, 184, 208
-vinegar 31, 67, 88, 153, 203
-Vinegar Compress
- 88
-violet 121, 124
-vitamin C 44, 66, 67, 100, 121, 178, 185, 190, 212
-vodka 31, 62, 66, 86, 92, 93, 98, 114, 128, 129, 159
-W
-walnut oil 31
-Wart-Fighting Balm
- 148
-warts 148, 179
-watercress 100, 176, 185, 193
-watermint 21
-weeding and watering 176
-weeping willow 20
-wheatgerm oil 31
-whisky 31, 66, 92, 93, 114
-whortleberries see bilberries
-Wild Herb Tea
- 52
-wild lettuce 110, 174, 181, 208
-wild marjoram 52, 175, 176, 181, 193, 208
-wild mustard 208
-wild rose 208
-wild rosehips 190
-wild strawberry 174, 185
-wild thyme 208
-willow 21, 28, 39, 106, 175, 186, 208, 210
-Willow and Lime Pain-Relieving Granita
- 39, 106
-witch hazel 27, 122, 137, 181, 199, 212
-
-Witch Hazel Aftershave Gel
- 137
-Wood Furniture Polish
- 160, 191
-wormwood 159, 162, 163, 174, 176, 181, 184, 210
-Wormwood and Sage Moth Repellent Sachets
- 159
-wound healing 47, 152, 174, 175, 178, 179, 184, 190, 191, 193, 199
-X
-xanthan gum 33, 121
-Y
-yarrow 86, 88, 118, 121, 176, 184, 208
-yerba mate 112, 213
-Yogurt, Lime and Strawberry Face Pack
- 130
-Picture Credits
-All photographs other than those listed below have been provided by Cristian Barnett.
-© Shutterstock 48, 49, 63, 66, 72, 77, 81, 88, 92, 94, 102, 103, 104, 105, 109, 114, 115, 118 (top),
-121, 124, 129, 131, 136 (bottom), 137 (bottom), 140, 142, 144 (bottom), 146, 148, 149, 152, 153,
-159, 161, 162 (bottom); © Alamy 53, 130 (top), 136 (top), 147, 163; Lucy Hooper and Fino 162
-(top)
-
-Disclaimer
-Please be aware that the advice given in this book is not intended as a replacement for professional
-medical treatment and advice. Do not diagnose or medicate yourself or others without first seeking
-medical advice. We strongly advise you to consult a medical practitioner before using any of these
-remedies, especially if you have an existing medical condition, are taking medication, are pregnant or
-are breastfeeding.
-Do not use any remedies on children under the age of two, and check the cautions on specific
-remedies before using on older children.
-Some herbs may interact with prescription drugs, including but not limited to the Pill and anti-
-depressants; you should always consult with a qualified medical practitioner before taking these
-remedies.
-For remedies you put on the skin, always do a 24-hour skin test before using to check for allergies.
-There are some recipes with specific recommendations, so please be sure to follow those.
-The case histories are not taken from clinical trials and cannot be considered proof of a remedy’s
-efficacy, as results can be influenced by many factors.
-The publishers and author do not accept responsibility for any loss, harm or damage that may result
-from your use or misuse of this book or your failure to seek appropriate medical advice.
-
-[Nu a fost extras text din această pagină.]
-
-Acknowledgements
-Wow, a second book and a follow-up series too. Who would have thought there were so many other
-like-minded plant geeks out there? I have always thought it was strange though that TV presenters and
-authors get all the credit, despite the fact that much of the real work is often actually done by a whole
-army of tireless experts beavering away behind the scenes.
-At the front of the charge are Alex Menzies & Lisa Edwards at the BBC for really getting behind
-the idea 110%. Equally, all the long-suffering team of amazingly talented producers, directors and
-researchers at Silver River have done a fantastic job. Seriously, some of these guys are so good at
-what they do that you would think they had been specially created in a lab (you know who you are).
-Especially big thanks to our ever-effervescent Series Producer, Lucy Hooper, and her team, who have
-practically bent the laws of physics to ensure that I don’t look like too much of a geek on camera!
-I am also greatly indebted to the lovely team at HarperCollins for helping put together this
-brilliant book. I had great fun working on it with them, often involving eating mince pie after mince
-pie to get the just the right photo to use – my job can be so taxing. Of course none of this would have
-been possible without the help of our very own pharmaceutical whizz kid, Dr Liz at the University of
-Reading, whose enthusiasm for concocting all manner of plant based remedies knows no bounds, and
-an especially huge thank you to Fiona, my excellent agent and unofficial counsellor.
-Lastly, a major thanks to all my family and friends for putting up with my geeky plant obsession
-for all these years, especially my mum who has been the unsuspecting guinea pig for more than one of
-my lotions and potions.
-Publishers’ acknowledgements
-The publishers would like to thank The Spice Shop, Chiddingfold Forest, Aston Rowant Nature
-Reserve, Richmond Park, Syon Park Garden Centre and Tilford Cottage Gardens
-( for their help with photography and Kathryn Lwin Brooks of the
-Archway Clinic of Herbal Medicine.
-
-Copyright
-First published in 2010 by Collins, an imprint of HarperCollins
-Publishers
-77–85 Fulham Palace Road
-Hammersmith
-London W6 8JB
-
-Copyright © James Wong 2010
-James Wong asserts the moral right to be identified as the author of this work
-Collins is a registered trademark of HarperCollins
-Publishers
- Ltd
-Text © Silver River Productions Limited 2010
-All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted, in any form or by any
-means, electronic, mechanical, photocopying, recording or otherwise, without the prior permission of the publishers.
-All rights reserved under International and Pan-American Copyright Conventions. By payment of the required fees, you have
-been granted the non-exclusive, non-transferable right to access and read the text of this e-book on-screen. No part of this text
-may be reproduced, transmitted, down-loaded, decompiled, reverse engineered, or stored in or introduced into any information
-storage and retrieval system, in any form or by any means, whether electronic or mechanical, now known or hereinafter
-invented, without the express written permission of HarperCollins e-books
-A catalogue record for this book is available from the British Library.
-EPub Edition © January 2012 ISBN: 9780007518524
-
-About the Publisher
-Australia
-HarperCollins Publishers (Australia) Pty. Ltd.
-Level 13, 201 Elizabeth Street
-Sydney, NSW 2000, Australia
-
-Canada
-HarperCollins Canada
-2 Bloor Street East - 20th Floor
-Toronto, ON, M4W, 1A8, Canada
-
-New Zealand
-HarperCollins Publishers (New Zealand) Limited
-P.O. Box 1
-Auckland, New Zealand
-
-United Kingdom
-HarperCollins Publishers Ltd.
-77–85 Fulham Palace Road
-London, W6 8JB, UK
-
-United States
-HarperCollins Publishers Inc.
-10 East 53rd Street
-New York, NY 10022

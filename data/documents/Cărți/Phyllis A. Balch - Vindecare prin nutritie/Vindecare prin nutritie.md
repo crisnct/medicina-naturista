@@ -6,7 +6,6 @@
 
 <!-- Text extras din stratul OCR al PDF-ului; grafia și eventualele erori OCR au fost păstrate. -->
 
-
 Prescription for Nutritional Healing
 Phyllis A. Balch
 Copyright O 2010 Phyllis A. Balch Revocable Trust
@@ -14324,7 +14323,6 @@ renale sau ale ovarelor. Alte simptome sunt ciclul menstrual
 neregulat și excesul de păr pe față. Dacă apar asemenea
 simptome, consultați medicul.
 
-
 ## ADRENOLEUCODISTROFIE
 
 Leucodistrofii, la Boli rare.
@@ -15694,7 +15692,6 @@ grătar sau mesele pentru picnic. Când insecte ca muștele
 sunt propulsate până la doi metri în jur, răspândind bacterii
 și virusuri.
 
-
 și/sau Mușcături de păianjen și înțepături de scorpion, Partea
 a doua.
 
@@ -16802,7 +16799,6 @@ p. 810.)
 Vezi Diminuarea sau pierdere a vederii, la Probleme de ochi.
 
 ## AMEȚELI
-
 
 sarcină.
 
@@ -20917,7 +20913,6 @@ infectează, trebuie să consultați specialistul.
 Q Dacă problema persistă, medicul vă poate recomanda raze
 X ca să eliminați posibilitatea unui pinten crescut dedesubr.
 
-
 ## BLEFARITĂ
 
 Vezi Probleme de ochi.
@@ -22087,7 +22082,6 @@ ar putea afecta chimia creierului.
 
 Q S-a observat că schizofrenia apare mai frecvent la cei cu
 boala celiacă. (Vezi Schizofrenie, Partea a doua, p. 738.)
-
 
 ## BOALA CROHN
 
@@ -23599,7 +23593,6 @@ dism, scleroză multiplă și boala Parkinson. Orice diagnostic
 de depresie va fi pus numai după un examen fizic complex,
 pentru eliminarea bolilor de fond posibile.
 
-
 ## BOALA MENIERE
 
 Țiuitul urechilor, diferite grade de pierdere a auzului, pier-
@@ -23789,7 +23782,6 @@ cantitate redusă de sare și 67% din ei au prezentat simptome
 
 reduse — 80% au avut simptome reduse chiar și timp de un
 an după întreruperea tratamentului.
-
 
 ## BOALA OSOASĂ PAGET
 
@@ -24938,7 +24930,6 @@ Luând aproape doza zilnică recomandată de vitamina E și
 circa 3 500 de micrograme de beta-caroten se reducea riscul
 la minimum.
 
-
 cină, Partea a doua.
 
 ## PULMONARĂ.
@@ -25427,13 +25418,11 @@ preajma vârstei de 30 de ani. Cu toate acestea, dacă trata-
 mentul este început la timp, refacerea simptomatică este
 aproape completă și se poate duce o viață normală și lungă.
 
-
 ## BOLI AFECTIVE DE SEZON (SAD)
 
 Vezi Depresie.
 
 ## BOLI ALE GINGIILOR
-
 
 bleme legate de sarcină.
 
@@ -27349,7 +27338,6 @@ Infecții micotice, Partea a doua.
 Ciroză hepatică și Hepatită, Partea a doua.
 
 ## BOLI DE GURĂ ȘI DE GINGIE
-
 
 la Probleme legate de sarcină.
 
@@ -30653,7 +30641,6 @@ din produs poate intra în țesuturi prin acțiunea DMSO.
 Notă: Folosind DMSO, corpul capătă un miros de usturoi.
 Fenomenul este trecător și nu este un motiv de îngrijorare.
 
-
 ## CANCER
 
 Întregul nostru organism este alcătuit din celule și fiecare
@@ -32851,7 +32838,6 @@ provocate de cancer nediagnosticat.
 
 Q Vezi Cancer de sân; Cancer de prostată; Cancer de piele;
 și Tumoare, Partea a doua.
-
 
 ## CANCER DE PIELE
 
@@ -35590,7 +35576,6 @@ păr, Partea a treia, p. 862.)
 U Candidozele pot fi asociate și cu hipoglicemia. (Vezi
 Hipoglicemie, Partea a doua, p. 518.)
 
-
 ## CANGRENĂ
 
 Cangrena este o afecțiune în care un țesut al corpului moare
@@ -36759,7 +36744,6 @@ chlamydia mai ușor de detectat la microscop. Cultura
 poate fi prelevată din ochi, col uterin sau penis.
 3. Mostră de ADN. Caută ADN-ul chlamydiei, dar este mai
 puțin sensibil decât NAAT.
-
 
 ### în CIROZĂ HEPATICĂ
 
@@ -38313,7 +38297,6 @@ Partea a doua, p. 769 și p. 375.)
 
 Q Vezi Diverticulită și Colită ulcerativă, Partea a doua.
 
-
 ## CONVULSII
 
 Vezi Epilepsie.
@@ -38323,8 +38306,6 @@ Vezi Epilepsie.
 Vezi Crampe musculare; Sindrom premenstrual.
 
 ## CRAMPE LA PICIOARE
-
-
 
 ## CRAMPE MENSTRUALE
 
@@ -39024,7 +39005,6 @@ nos și împart acele de seringă, este amenințarea SIDA (Vezi
 SIDA, Partea a doua, p. 751) și hepatita. Dar nici chiar
 această amenințare nu este suficientă pentru a-i împiedica
 pe utilizatorii dependenți să continue să folosească droguri.
-
 
 ## DEPENDENȚĂ DE FUMAT
 
@@ -42660,7 +42640,6 @@ se umplu cu sânge și creează erecția. Împiedică penisul să
 de aibă o elasticitate normală. Când este în erecție, penisul
 poate arăta deformat și contorsionat.
 
-
 ## DISPEPSIE
 
 îna-
@@ -43591,7 +43570,6 @@ semne ale intoxicației cu monoxid de carbon sunt, uneori,
 greșit diagnosticate. Un mod de a vă apăra este să investiți
 într-un detector de monoxid de carbon.
 Q Vezi Hipoglicemie, Migrenă și Sindrom ATM, Partea
-
 
 ## DURERE DE SPATE
 
@@ -44635,7 +44613,6 @@ telor crude, a băuturilor reci și a grăsimii din alimente poate
 ajuta la prevenirea retenției de apă.
 Q Sunt recomandate testele pentru alergii. (Vezi Alergii,
 Partea a doua, p. 164.)
-
 
 ## EMFIZEM
 
@@ -49311,7 +49288,6 @@ U Unguentele cu antibiotic vândute fără rețetă nu sunt
 eficiente în cazul furunculelor și trebuie evitate. se
 GASTROENTERITĂ o
 
-
 ## GIGANTISM
 
 Vezi Probleme de creștere.
@@ -49719,7 +49695,6 @@ Vezi Probleme legate de sarcină.
 ## că GREAȚĂ ȘI VOMĂ
 
 Vezi Boli transmise prin alimente și apă și Indigestie.
-
 
 ## GRIPĂ
 
@@ -51214,7 +51189,6 @@ tarea țesutului din cauza hârtiei igienice aspre. Candida
 albicans, alergiile și infecțiile parazitare sunt, și ele, cauze ale
 mâncărimilor.
 
-
 ## HEPATITĂ
 
 Hepatita este o inflamație a ficatului determinată, de obicei,
@@ -51773,10 +51747,7 @@ I Evitați să atingeți pe alții cu zona afectată până ce aceasta
 nu se vindecă în totalitate; virusul poate fi transmis destul
 de ușor altora.
 
-
 ## HERPES ZOSTER
-
-
 
 ## HIPERTENSIUNE ARTERIALĂ
 
@@ -53874,8 +53845,6 @@ Q jobns Hopkins Medical Letter arată că disfuncția erectilă
 ireversibilă și mărirea sânilor pot fi rezultatul folosirii înde-
 lungate și excesive (mai mult de 3 grame zilnic) a medica-
 mentului cimetidină (Tagamet) împotriva arsurilor.
-
-
 
 apă, Boli de ficat/Boala de reflux gastrointestinal (GERD),
 Sindrom al intestinului iritabil, Intoleranță la lactoză,
@@ -56519,7 +56488,6 @@ lațiilor dureroase.
 Q Vezi Abces, Artrită și Entorse, întinderi și alte traumatisme
 ale mușchilor și articulațiilor, Partea a doua.
 
-
 ## INCONTINENȚĂ
 
 Incontinența (pierderea controlului asupra vezicii urinare)
@@ -57124,7 +57092,6 @@ Persoanele cu apnee în somn nu vor lua medicamente care să
 inducă somnul, pentru că acestea le pot îngreuna respirația,
 făcându-le să se trezească mai greu când au episoade de
 întrerupere a respirației.
-
 
 ## INSUFICIENȚĂ RENALĂ
 
@@ -59718,7 +59685,6 @@ atace. Dacă sunteți lângă cuib, puteți fi atacat de sute de
 indivizi. Este mai bine să părăsiți zona repede înainte să dați
 ochii cu aceste insecte.
 
-
 ## LEUCODISTROFIE
 
 Vezi Boli rare.
@@ -60539,7 +60505,6 @@ mătreața, iar altele cred că înrăutățește situația.
 Q Nu folosiți unguente pentru mătreață fără rețetă. Pot face
 mai mult rău decât bine.
 J Nizoral A-D este un șampon antimătreață antifungic.
-
 
 ## MELANOM
 
@@ -62278,7 +62243,6 @@ Aceste medicamente includ antidepresive triciclice, precum
 protriptilina (Vivactil) și imipramina (Tofranil) și inhibitori
 de reabsorbție de serotonină selectivi (SSRI), precum fluoxe-
 tine (Prozac, Sarafem) și sertralina (Zoloft).
-
 
 ## NEFRITĂ
 
@@ -64495,7 +64459,6 @@ tip de test, testul N-telopeptide privind colagenul reticulat
 determinându-se câr de repede se pierde masa osoasă. Se
 face pe o probă de urină.
 
-
 ## OTRĂVIRI
 
 Există realmente mii de substanțe, atât naturale cât și sin-
@@ -65352,7 +65315,6 @@ nu este adevărat. Deși există o legătură între severitatea
 acneei și cantitatea de grăsime pe care pielea unei persoane o
 produce, nu toate persoanele cu pielea grasă au acnee.
 
-
 ## PIELE USCATĂ
 
 Echilibrul între grăsime și umiditate este vital pentru sănă-
@@ -66178,7 +66140,6 @@ semnalelor sonore să ajungă la creier. Indivizii cu auz afectat,
 care optează pentru acest instrument, pot să audă perfect
 sunetele obișnuite, de zi cu zi.
 
-
 ## PIETRE LA RINICHI
 
 Pietrele la rinichi, în termeni medicali calculi renali, sunt
@@ -66699,7 +66660,6 @@ din cauza unui asemenea pinten, ar trebui să vă gândiți
 o intervenție chirurgicală. Lipsa de exercițiu poate duce
 câștig în greutate și la alte probleme, cum ar fi diabetul
 
-
 ## PIOREE
 
 Vezi Boala parodontală.
@@ -66982,7 +66942,6 @@ U Folosirea antibioticelor pentru infecții minore, cum sunt
 răcelile, poate duce la dezvoltarea, în partea superioară a
 căilor respiratorii, a unor bacterii rezistente la antibiotice,
 care pot produce pneumonia.
-
 
 ## POJAR
 
@@ -67630,7 +67589,6 @@ Picior de atlet, Piele grasă, Piele uscată, Psoriazis, Ri-
 duri, Rozaceea, Scabie, Seboree, Ulcere (ulcerații) ale
 picioarelor, Vene varicoase, Urticarie, Vitiligo.
 
-
 ## PROBLEME ALE TIROIDEI
 
 Vezi Hipertiroidism și Hipotiroidism.
@@ -68235,7 +68193,6 @@ Q În legătură cu problemele de creștere se fac multe
 cercetări. Interesant e că multe studii au arătat că persoanele
 scunde trăiesc mai mult decât persoanele de o înălțime peste
 alți medie.
-
 
 ## PROBLEME DE GREUTATE
 
@@ -69799,7 +69756,6 @@ Q Dormiți destul și evitați suprasolicitarea ochilor. Obosea-
 la solicită ochii, crește și disconfortul.
 **Observații**
 
-
 Cataractă
 Cataracta este opacizarea cristalinului ochiului care poate
 duce la probleme de vedere. Dacă cristalinul se îngroașă
@@ -70433,7 +70389,6 @@ luteină Conform indicațiilor
 zeaxantină
 **Observații**
 
-
 vederii, în acest articol.
 Glaucom
 Glaucomul este o boală gravă de ochi, caracterizată prin
@@ -71042,7 +70997,6 @@ pentru cea mai bună
 absorbție.
 **Observații**
 
-
 ### Zona zoster (herpes zoster)
 
 Herpesul zoster este o infecție provocată de virusul zoster al
@@ -71103,7 +71057,6 @@ de vitamina C, care calmează aproape imediat. Dozele
 de vitamina C intravenos pot da diaree. Lăsați medicul
 să decidă dozele. Doza normală este între 10 și 50
 centigrame (un centigram înseamnă o sutime de gram).
-
 
 ## PROBLEME DE SOMN
 
@@ -71789,7 +71742,6 @@ suplimentele de fier, întrebați medicul curant.
 Q Nu luați laxative decâr la recomandarea medicului.
 Q Vezi Hemoroizi, mai jos, în acest articol.
 
-
 ### Crampe la picioare
 
 Crampele la picioare în timpul sarcinii sunt adesca rezultatul
@@ -72048,7 +72000,6 @@ UI Când vă relaxați, stați cu picioarele ridicate.
 Q Mergeți pe jos circa 1,5—2 kilometri în fiecare zi. Aceasta
 ajută la controlarea edemului.
 
-
 ### Gaze (flatulență)
 
 Gazele, ca și alte neplăceri digestive, sunt des întâlnite în
@@ -72242,7 +72193,6 @@ UI Nu mâncați mese grele înainte de culcare.
 Q Aranjați pernele în spate sau sub abdomen pentru a ușura
 respirația.
 
-
 ### Naștere prematură
 
 con- Un nou-născut este clasificat ca prematur dacă se naște
@@ -72413,7 +72363,6 @@ tice pe bază de apă, hipoalergene, dacă pielea are acnee.
 **Observații**
 Q Acidul folic, una dintre substanțele nurritive esențiale
 timpul sarcinii, ar putea ajuta și în problemele de piele.
-
 
 ### Sarcină ectopică
 
@@ -72649,7 +72598,6 @@ de Q Mergeți pe jos 1,5 km în fiecare zi, pentru a vă activa
 circulația.
 către Q Nu purtați ciorapi trei sferturi cu elastic, jartiere, centuri
 în sau pantofi cu toc înalt.
-
 
 ### Vergeturi
 
@@ -73871,7 +73819,6 @@ folos.
 Q Există un număr de produse conținând o combinație
 suplimente având în componență mulți dintre nutrienții
 recomandați în tabelul de mai sus.
-
 
 ## RĂCEALĂ
 
@@ -76662,7 +76609,6 @@ de regim alimentar.)
 Q S-a constatat că administrarea vitaminelor din comple-
 xul B este cel mai eficient tratament, în multe cazuri.
 
-
 ## SENILITATE (DEMENȚĂ)
 
 Senilitatea era cândva considerată o consecință inevitabilă
@@ -77687,7 +77633,6 @@ mai au virusul în organism. Același lucru s-a întâmplat și în
 timpul ciumei; nu toată lumea care a fost expusă a manifestat
 și simptomele.
 
-
 ## SINDROM AL ARTICULAȚIEI
 
 ## TEMPORO-MANDIBULARE
@@ -77970,7 +77915,6 @@ doua.) Nu acesta este cazul sindromului ATM.
 Q Un disc deplasat poare să dea dureri de maxilar. Trata-
 mentul pentru această afecțiune implică realinierea liga-
 mentelor cu atelă de plastic.
-
 
 ## SINDROM BROWN-SEQUARD
 
@@ -85392,7 +85336,6 @@ nul indicat în acest articol, este posibil să reușiți să renunțați
 la medicamente sau, cel puțin, să reduceți dozele. Consultați
 întotdeauna medicul înainte de a face orice schimbare în
 
-
 ## TULBURĂRI BIPOLARE
 
 Vezi Boala maniaco-depresivă/Tulburări bipolare de
@@ -85706,7 +85649,6 @@ Negi, Partea a doua.
 ## ULCER
 
 Vezi Escare, Herpes bucal, Ulcere ale picioarelor, Ulcer
-
 
 ## ULCER CORNEAL
 
@@ -86791,7 +86733,6 @@ Q Un vaccin pentru varicelă numit Varivax a fost aprobat
 1995. Este un vaccin cu forme atenuate de virusuri vii. Nu
 trebuie să luați aspirină și nici alte medicamente, cel puțin
 șase luni după vaccinare. (Vezi Sindrom Reye, p. 786.)
-
 
 ## VENE VARICOASE
 
@@ -88244,7 +88185,6 @@ rile legate de biologia virusului varicela-zoster continuă,
 mul imunitar îl controlează. Astfel se pot găsi metode de
 calmare a suferințelor produse de zona zoster și de nevralgia
 postherpetică.
-
 
 ### Introducere
 

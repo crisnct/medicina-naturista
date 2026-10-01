@@ -1,10 +1,15 @@
+# Marele dicționar al bolilor și afecțiunilor
+
 Jacques Martel
+
+## MARELE DICȚIONAR AL BOLILOR ȘI AFECȚIUNILOR: CAUZELE SUBTILE ALE ÎMBOLNĂVIRII
 
 MARELE DICȚIONAR AL
 BOLILOR ȘI AFECȚIUNILOR:
 CAUZELE SUBTILE ALE
 ÎMBOLNĂVIRII
 
+## Exprimări editoriale despre Vindecare
 
 Exprimări... editoriale despre Vindecare
 
@@ -106,6 +111,8 @@ ai fost înzestrat[ă]. >
 Sănătate și Armonie vă doresc!
 Clara Toma, editor
 
+## Mulțumiri
+
 Mulțumiri
 
 Aș dori să mulțumesc în mod special doamnei Lucie
@@ -153,6 +160,8 @@ Mme Nicole Cloutier Mme Catherine Guin
 Dr Amaury Leclerc
 
 Tatălui meu: Noe Martel
+
+## PREFAȚĂ
 
 PREFAȚĂ
 
@@ -209,6 +218,8 @@ sănătății.
 Multă sănătate!
 Lucie Bemier,
 psihoterapeut, coordonator al lucrării
+
+## INTRODUCERE
 
 INTRODUCERE
 
@@ -586,12 +597,22 @@ anumitor persoane. Vă urez deci „Lectură plăcută”!
 
 Jacques Martel Psihoterapeut
 
+## A
+
 A
 
+## A SCUIPA SÂNGE
+
 1. A SCUIPA SÂNGE Vezi: SÂNGE
+## ACCIDENT VASCULAR CEREBRAL CREIER
+
 2. ACCIDENT VASCULAR CEREBRAL Vezi:
 CREIER
+## ACIDITATE GASTRICĂ
+
 3. ACIDITATE GASTRICĂ Vezi: STOMAC-ARSURI
+## ACIDOZĂ
+
 4. ACIDOZĂ Vezi: și GUTĂ REUMATISM
 
 Acidul este adesea legat de ceea ce erodează
@@ -628,14 +649,25 @@ boală dureroasă și tratamentul ei dureros. Aleg să
 trăiesc mai degrabă bucuria, libertatea și pacea
 interioară.
 
+## ACNEE
+
 5. ACNEE Vezi: PIELE
+## ACRODERMATITA
+
 6. ACRODERMATITA Vezi: PIELE
+## ACROMEGALIE
+
 7. ACROMEGALIE Vezi: OS
+## ACROKERATOZA
+
 8. ACROKERATOZA Vezi: PIELE
+## ACUFENA
+
 9. ACUFENA Vezi: URECHI
+## ACUMULARE LICHID SINOVIAL LBURSITĂ
+
 10. ACUMULARE LICHID SINOVIAL Vezi:
 LBURSITĂ
-
 
 VORBIRE
 Afazia este o tulburare de exprimare și/sau de
@@ -669,6 +701,8 @@ decepțiile, știind că acesta este modul cel mai eficient de
 a mă elibera de secrete și de suferință; îmi regăsesc
 pacea interioară și dorința de a exploata universul, de
 care m-am deconectat.
+
+## AFONIA SAU STINGEREA VOCII
 
 12. AFONIA SAU STINGEREA VOCII
 Vocea reprezintă exprimarea de sine, creativitatea. O
@@ -712,7 +746,11 @@ Accept ↓♥ să îmi exprim emoțiile, creativitatea și
 ideile în felul în care mă simt cel mai bine, respectându-
 mi limitele.
 
+## AFTĂ
+
 13. AFTĂ Vezi: GURĂ - AFTĂ
+## AHILE
+
 14. AHILE Vezi: TENDONUL LUI AHILE
 
 CANCER LA LIMBĂ, FUMAT, DEPENDENȚA,
@@ -881,6 +919,8 @@ deschis față de iubirea și tandrețea pe care mi le oferă
 oamenii și universul, nu voi mai avea nevoie să mă
 „umplu” cu băutură.
 
+## ALEXIE CONGENITALĂ [cecitate verbală]
+
 16. ALEXIE CONGENITALĂ [cecitate verbală]
 Alexia congenitală sau cecitatea verbală este o
 incapacitate patologică de a citi [Patologică: o boală,
@@ -908,7 +948,6 @@ ușor să îmi exersez ascultarea interioară, deoarece sunt
 mai „conectat „ decât adulții, citesc mai ușor mesajele de
 iubire ale inimii? mele! îmi deschid mai mult intuiția și
 îmi manifest din plin creativitatea.
-
 
 Alergia este starea unui subiect care, prin contactul
 anterior cu un anumit alergen dobândește proprietatea
@@ -1066,6 +1105,8 @@ mea interioară. Acceptându-mi ↓♥ frumusețea și toate
 calitățile mele divine, voi fi în armonie cu ceilalți și
 frustrarea va dispărea.
 
+## ALERGIE LA ANIMALE [în general]
+
 18. ALERGIE LA ANIMALE [în general]
 Animalele au un instinct și o sexualitate înnăscute
 și fiecare animal reprezintă o formă a iubirii. Astfel, o
@@ -1077,6 +1118,8 @@ Accept ↓♥ toate aspectele sexualității. Îmi accept, de
 asemenea, dorințele, atât pe cele conștiente, cât și pe
 cele inconștiente, deoarece fac parte integrantă din
 mine.
+
+## ALERGIE LA ANTIBIOTICE
 
 19. ALERGIE LA ANTIBIOTICE
 Antibioticul [Antibiotic: Sir Alexander Fleming este
@@ -1097,6 +1140,8 @@ Este nevoie să conștientizez că trebuie să accept ↓♥
 aceste experiențe, chiar dacă sunt dificile, deoarece am
 de învățat ceva din ele. Am încredere în potențialul meu
 creativ.
+
+## ALERGIE LA ARAHIDE [unt sau ulei]
 
 20. ALERGIE LA ARAHIDE [unt sau ulei]
 Atunci când mănânc unt sau ulei de arahide, acest
@@ -1121,6 +1166,8 @@ mea în care mă simt ajutat și în care, viața este ușoară,
 mi echilibrez sentimentele dureroase pe care le-am trăit
 în copilărie.
 
+## ALERGIE LA CAI
+
 21. ALERGIE LA CAI
 Calul este asociat cu aspectul instinctiv al
 sexualității. Iar cum instinctul este legat de prima
@@ -1135,6 +1182,8 @@ de a trăi aceste experiențe pentru a aduce mai multă
 spiritualitate pe plan material.
 Accept ↓♥ să fiu deschis față de experiențe noi, care
 mă vor ajuta să mă împlinesc.
+
+## ALERGIE LA CÂINI
 
 22. ALERGIE LA CÂINI
 Se spune despre câine că este „cel mai bun prieten
@@ -1152,6 +1201,8 @@ Accept ↓♥ să îmi delimitez granițele prieteniei, o
 definesc pentru a clarifica anumite situații din viața
 mea, care pentru moment nu sunt prea bine definite.
 Mă respect în alegerile mele și în nevoile mele.
+
+## ALERGIE LA CĂPȘUNI
 
 23. ALERGIE LA CĂPȘUNI
 Alergia la căpșuni este asociată cu o frustrare, care
@@ -1185,6 +1236,8 @@ care mă întristează neînțelegerile dintre noi.
 Trebuie să accept ↓♥ faptul că, fiecare dintre noi are
 propria sa individualitate, cu calitățile și cu fricile sale și
 că, în fiecare ființă există o lumină care strălucește.
+
+## ALERGIE - FEBRA FÂNULUI [alergia la polen]
 
 24. ALERGIE - FEBRA FÂNULUI [alergia la polen]
 Această alergie are la bază o reacție la polen,
@@ -1268,6 +1321,8 @@ armonie. Accept ↓♥ să ies din izolare, nu mai am nevoie
 de această alergie pentru a atrage atenția celorlalți,
 deoarece știu că sunt diferit și unic.
 
+## ALERGIE LA LAPTE SAU LA PRODUSELE LACTATE
+
 25. ALERGIE LA LAPTE SAU LA PRODUSELE
 LACTATE
 Laptele reprezintă contactul cu mama, din primele
@@ -1302,6 +1357,8 @@ de această legătură fundamentală pentru viață, care
 este înregistrată în mine, cea a legăturii dintre mamă și
 copilul ei.
 
+## ALERGIE LA ÎNȚEPĂTURI DE VIESPE SAU DE ALBINĂ
+
 26. ALERGIE LA ÎNȚEPĂTURI DE VIESPE SAU DE
 ALBINĂ
 Când am o astfel de alergie, am impresia că sunt tot
@@ -1328,6 +1385,8 @@ criticat de către cei din jurul . meu și de a mă detașa de
 ceea ce cred oamenii despre mine. Mă privesc cu ochii
 inimii ♥ și îmi accept ↓♥ adevărata valoare!
 
+## ALERGIE LA PENE
+
 27. ALERGIE LA PENE
 Oare am devenit alergic la o situație sau la o
 persoană, care îmi dă impresia că sunt „țintuit de
@@ -1339,6 +1398,8 @@ pentru a fi fericit. Poate am trăit o situație în care m-am
 simțit furat, înșelat și am fost foarte iritat.
 Accept ↓♥ faptul că universal se ocupă de mine și
 îmi oferă tot ceea ce am nevoie pentru a fi fericit.
+
+## ALERGIE LA PEȘTI SAU FRUCTE DE MARE
 
 28. ALERGIE LA PEȘTI SAU FRUCTE DE MARE
 În limba franceză există expresia „a fi pește”, adică a
@@ -1353,6 +1414,8 @@ avem ceva de învățat Dacă îmi voi dezvolta mai mult
 
 sentimentul acesta se va diminua și astfel, va dispărea
 și alergia.
+
+## ALERGIE LA PISICI
 
 29. ALERGIE LA PISICI
 Pisica este un animal mult mai sensibil la ceea ce
@@ -1380,8 +1443,12 @@ sensibilă la vibrațiile și la energiile speciale ale
 oamenilor sau ale locurilor sau, altfel spus, la ceea ce
 degajă o persoană sau un loc.
 
+## ALERGIE LA POLEN FÂNULUI
+
 30. ALERGIE LA POLEN Vezi: ALERGIE - FEBRA
 FÂNULUI
+## ALERGIE LA PRAF
+
 31. ALERGIE LA PRAF
 Deoarece praful este legat de murdărie, de
 impurități, în cazul în care sunt alergic la praf, trăiesc
@@ -1414,6 +1481,8 @@ cunoaște mai bine și pentru a găsi astfel o forță
 extraordinară, pentru a-mi trăi viața în bucurie și
 creativitate.
 
+## ALERGIA LA SOARE
+
 32. ALERGIA LA SOARE
 Soarele este reprezentarea principiului activ și al
 energiei Yang. Prin urmare, este simbolul Tatălui. Dacă
@@ -1441,7 +1510,11 @@ mă responsabiliza, pentru a mă simți mai liber și pentru
 a străluci și a merge mai departe spre propriul meu
 destin.
 
+## ALOPECIE
+
 33. ALOPECIE Vezi: PĂR - - CAL WȚIE
+## ALUNIȚĂ
+
 34. ALUNIȚĂ Vezi: PIELE - MELANOM
 
 SENILITATE
@@ -1523,8 +1596,12 @@ astfel de experiență, sunt necesare iubirea și susținerea.
 Accept ↓♥ să trăiesc în prezent și să las la o parte
 trecutul, să încep să mă ocup de mine.
 
+## AMENOREE [absența menstrualei]
+
 36. AMENOREE [absența menstrualei] Vezi:
 menstruație - amenoree
+## AMFETAMINA [consum de...]
+
 37. AMFETAMINA [consum de...] Vezi: DROGURI
 
 INFECȚII
@@ -1596,6 +1673,8 @@ diferit, care va fi mai armonios pentru mine. Trebuie să
 învăț să mă descopăr, să fiu eu însumi și să am
 încredere totală în mine.
 
+## AMIOTROFIE
+
 39. AMIOTROFIE Vezi: ATROFIE
 
 MEMORIEI]
@@ -1641,6 +1720,8 @@ viitoare. Este posibil să trăiesc unele experiențe, fără să
 Accept ↓♥ conștientizarea a ceea ce sunt, în fiecare
 zi și a ceea ce am de rezolvat în viață pentru a-mi
 redobândi contactul cu adevăratul meu Eu superior.
+
+## AMORȚEALĂ
 
 41. AMORȚEALĂ
 Amorțeala se caracterizează printr-o stare de
@@ -1690,7 +1771,6 @@ cu atât voi învăța mai repede că există o recompensă:
 primesc dragoste și prietenie. Această seninătate pe care
 o căutam dintotdeauna, în exterior există acum în mine
 și o pot comunica și celorlalți.
-
 
 Amputarea reprezintă ablația unui membru, a unui
 segment sau a unei părți a corpului [limbă, sân, penis].
@@ -1769,7 +1849,6 @@ să recapăt mișcarea pe care am oprit-o temporar și îmi
 mobilizez din nou gândurile, cu deschidere. De acum
 înainte voi avea un spirit creator.
 
-
 GENERAL] / [AFECȚIUNI ALE...]
 Andropauza, care afectează bărbații, corespunde
 menopauzei femeilor, chiar dacă nu există și schimbările
@@ -1787,6 +1866,7 @@ masculină. Am dreptul să îmi acord mai mult timp
 pentru mine; voi fi și mai eficient la muncă sau în
 activitățile mele.
 
+## ANEMIE
 
 45. ANEMIE Vezi: SÂNGE - ANEMIE
 
@@ -1830,7 +1910,6 @@ mă abandonez, pentru a mă elibera. Învăț să las să
 circule mișcarea vieții, îmi regăsesc astfel bucuria de a
 trăi și învăț să trăiesc în prezent.
 
-
 DE...]
 
 Angina se caracterizează printr-o senzație de
@@ -1869,7 +1948,6 @@ angina, la nivelul gâtului. Accept ↓♥ să cer ajutorul
 
 celorlalți pentru a-mi deschide inima ♥ și a primi
 darurile vieții.
-
 
 GENERAL] / INFARCT[DE MIOCARD]
 Cuvântul angină vine de la verbul din latină ANGO,
@@ -1983,7 +2061,6 @@ o inimă dură, cineva care nu are inimă, lipsit de inimă
 etc”. Fiecare dintre aceste expresii îmi atrage atenția că
 se întâmplă ceva important pentru mine...
 
-
 PLAN, SÂNGE – CIRCULAȚIE SANGUINĂ, SISTEM
 LIMFATIC
 Un angiom nu este o tumoră, ci o malformație legată
@@ -2003,6 +2080,8 @@ ele. Accept ↓♥ în totalitate ceea ce sunt, aleg conștient să
 trăiesc fericirea în viața de zi cu zi, știind că sunt
 protejat. Mă împlinesc cu tot ceea ce am mai frumos,
 prin lumină și iubire.
+
+## ANGIOM PLAN
 
 50. ANGIOM PLAN Vezi: PIELE - PETE DE VIN
 
@@ -2081,7 +2160,6 @@ mea, pe alegerile mele. Am încredere în mine și știu că
 viața îmi va oferi toate lucrurile de care am nevoie. Mă
 aștept la tot ceea ce este mai bun în viață și accept ↓♥
 faptul că merit tot ce e mai bun.
-
 
 [PIERDEREA APETITULUI...], BULIMIE, GREUTATE
 [EXCES DE...]
@@ -2256,8 +2334,14 @@ mine. Îmi ofer iubirea, blândețea de care am nevoie, în
 loc să aștept să o primesc de la ceilalți: astfel voi fi cu
 adevărat mulțumit și voi avea o bucurie interioară!
 
+## ANTRAX
+
 53. ANTRAX Vezi: PJELE - ANTRAX
+## ANURIE
+
 54. ANURIE Vezi: RINICHI - ANURIE
+## ANUS
+
 55. ANUS
 Anusul este orificiul rectului, locul prin care las să
 iasă deșeurile de care nu mai am nevoie. Pe aici ies
@@ -2305,7 +2389,6 @@ Accept ↓♥ să am încredere în mine, lăsând să iasă
 afară emoțiile de care nu mai am nevoie și înlocuindu-le
 cu idei noi, cu atitudini pozitive și proiecte noi!
 
-
 GENERAL]
 Abcesul este o masă de puroi, provocată de
 frustrări sau de iritabilitate, cu privire la o situație pe
@@ -2328,7 +2411,6 @@ frumos în ea. Am încredere în ceilalți și, mai ales, îi iert
 pe oamenii din jurul meu. Mă abandonez și am
 încredere în viață.
 
-
 MÂNCĂRIME
 Mâncărimile au legătură cu remușcările sau cu
 culpabilitatea, față de trecutul meu apropiat. Există
@@ -2343,7 +2425,6 @@ Este important pentru mine să Accept ↓♥ să îmi
 ascult corpul și să cunosc satisfacția în toate aspectele
 vieții, deoarece culpabilitatea nu face decât să îmi
 înfrâneze evoluția, fără să îmi aducă niciun beneficiu.
-
 
 Durerile anale [anita] au legătură cu
 culpabilitatea. Mă simt rău, deoarece nu mă consider
@@ -2369,6 +2450,8 @@ frumusețea pe care o manifest. Trăiesc pentru mine, în
 loc să acționez tot timpul, în funcție de dorințele și
 așteptările celorlalți.
 
+## ANUS - FISURI ANALE
+
 59. ANUS - FISURI ANALE
 Fisurile anale sunt crăpături superficiale, care
 determină sângerarea la nivelul anusului, ceea ce
@@ -2392,7 +2475,6 @@ persoană sau un eveniment „care mă ustură” sau față
 de care mă simt „cu fundul în două luntrii”. Îmi
 redobândesc locul care mi se cuvine. Îmi afirm nevoile și
 încetez să mai vreau să fiu pe placul tuturor.
-
 
 O fistulă anală poate fi cauzată de o situație pe care
 o trăiesc și în care experimentez o furie, față de ceea ce
@@ -2419,7 +2501,6 @@ golesc de tot aceste „coșuri de gunoi”, plin de idei negre,
 nesănătoase, aici și acum. Învăț să comunic liber ceea
 ce trăiesc în prezent și viața mea va deveni mult mai
 veselă și mai echilibrată.
-
 
 DE ...], NERVOZITATE, SÂNGE - HIPOGUCEMIE
 
@@ -2454,8 +2535,6 @@ mod inconștient, viața și mecanismele ei, accept ↓♥ să
 întâmplă este spre binele meu, în prezent și în viitor.
 Simptomele vor dispărea, la fel și frica de moarte.
 
-
-
 HIPOGUCEMIE / MONONUCLEOZĂ
 
 Apatia este o formă de insensibilitate sau de
@@ -2485,7 +2564,6 @@ o vreau eu. Îmi las inima ♥ să mă îndrume, cu toată
 spontaneitatea. Astfel, îmi redescopăr pofta de viață și
 îmi las simțurile să se bucure de fiecare moment al
 vieții.
-
 
 Apendicita este o inflamație a apendicelui ileocecal
 [din limba latină „caecum=orb”], situat la baza
@@ -2546,7 +2624,6 @@ mine. Sunt deschis, la nivelul inimii ♥ și las la o parte
 barierele mele, treptat și în armonie. Mă relaxez și gust
 viața din plin.
 
-
 - HIPOGLICEMIE
 Mâncarea reprezintă viața și are legătură cu
 plăcerea și cu o formă de bucurie de a trăi. Mâncarea
@@ -2579,7 +2656,6 @@ de consolare. Sunt deschis pentru a primi energia iubirii
 recunoaștere de sine, un schimb între ceea ce sunt și
 nevoile mele. Pofta de mâncare se va echilibra imediat ce
 voi fi mai împlinit pe plan emoțional.
-
 
 anorexie
 Dat fiind faptul că, mâncarea este legată de viață,
@@ -2615,9 +2691,15 @@ pasiune și aceste dorințe din mine, care nu cer decât să
 fie exteriorizate, mai ales prin intermediul creativității
 mele.
 
+## APNEE ÎN SOMN
+
 66. APNEE ÎN SOMN Vezi: RESPIRI IE
 [AFECȚIUNI LEGATE DE...]
+## APOPLEXIE
+
 67. APOPLEXIE Vezi: CREIER - APOPLEXIE
+## ARITMIE CARDIACĂ CARDIACĂ
+
 68. ARITMIE CARDIACĂ Vezi: INIMĂ ♥ - ARITMIE
 CARDIACĂ
 
@@ -2687,8 +2769,12 @@ procesul normal de integrare la nivelul inimii. Astfel îmi
 pot vindeca atât rănile interioare, cât și pe cele
 exterioare.
 
+## ARSURI LA STOMAC
+
 70. ARSURI LA STOMAC Vezi: STOMAC -
 ARSURILA STOMAC
+## ARTERE
+
 71. ARTERE Vezi: SÂNGE - ARTERE
 
 SÂNGE/ARTERE/ CIRCULAȚIE SANGUINĂ
@@ -2754,7 +2840,6 @@ va avea grijă de mine. Mă exprim liber pentru a evita
 orice altă acumulare în arterele mele și îmi împing
 limitele pentru a mă angaja din plin în relațiile mele cu
 ceilalți.
-
 
 ARTROZĂ
 O articulație este o parte a corpului unde se reunesc
@@ -2837,6 +2922,8 @@ să mă ascult pot să îmi regăsesc astfel adevărata putere
 departe, evolua, pot face schimbări care apar în viața
 mea, într-un mod armonios și fluid.
 
+## ARTICULAȚII - ENTORSĂ
+
 74. ARTICULAȚII - ENTORSĂ
 Entorsele sunt provocate de o leziune a ligamentelor
 și a articulațiilor. Articulațiile reprezintă flexibilitatea și
@@ -2884,6 +2971,8 @@ devalorizez și mă simt inutil deoarece îmi este greu să
 merg din cauza entorsei. De aceea, este important să
 văd această situație [entorsa și consecințele ei] într-un
 mod pozitiv și constructiv.
+
+## ARTICULAȚII TEMPORO-MANDIBULARE
 
 75. ARTICULAȚII TEMPORO-MANDIBULARE Vezi:
 GURĂ [afecțiuni ale...], MAXILARE [DURERI DE...]
@@ -3040,9 +3129,15 @@ grijă de mine și ceilalți se vor bucura de acest lucru.
 Trăiesc din plin „aici și acum” și mă aștept la tot ceea ce
 este mai bun pentru mine.
 
+## ARTRITA DEGETELOR ARTRITĂ
+
 78. ARTRITA DEGETELOR Vezi: DEGETE -
 ARTRITĂ
+## ARTRITĂ GUTOASĂ
+
 79. ARTRITĂ GUTOASĂ Vezi: GUTĂ
+## ARTRITĂ - POLIARTRITAREUMATOIDĂ
+
 80. ARTRITĂ - POLIARTRITAREUMATOIDĂ
 Poliartrita reumatoidă sau cronică evolutivă este o
 inflamație care afectează mai multe inflamații în același
@@ -3120,8 +3215,14 @@ viață. Îmi reevaluez prioritățile în viață și îmi fixez din
 nou obiective mai realiste și în armonie cu ceea ce
 iubesc și învăț să mă bucur de viață.
 
+## ARTROZA
+
 81. ARTROZA Vezi: ARTRITĂ - ARTROZĂ
+## ASFIXIE
+
 82. ASFIXIE Vezi: RESPIRAȚIE - ASFIXIE
+## ASTENIE NERVOASĂ
+
 83. ASTENIE NERVOASĂ Vezi: BURNOUT
 
 Astenia nervoasă este asemănătoare cu «burnout»,
@@ -3145,9 +3246,7 @@ cauza profundă care m-a determinat să îmi „pierd”
 motivația de a fi și de a face ceva și să am o atitudine
 pasivă, să încerc să evit efortul.
 
-
-
-
+## ASTIGMATISM
 
 84. ASTIGMATISM Vezi: OCHI - ASTIGMAT1SM
 
@@ -3280,6 +3379,8 @@ curgă. Astfel învăț să fiu tot mai expansiv și îmi ocup
 locul cuvenit în univers, învăț să mă iubesc, în
 unicitatea mea.
 
+## ASTMUL BEBELUȘULUI
+
 86. ASTMUL BEBELUȘULUI
 Astmul bebelușului este și mai pronunțat, de cât
 astmul comun. Nou-născutul se teme atât de tare de
@@ -3289,8 +3390,12 @@ Este bine să îi vorbim cu inima ♥ deschisă, cu
 gânduri sau cuvinte, pentru a-i transmite cât de iubit
 este, cât de apreciat și că i se vor împlini nevoile.
 
+## ATAC CARDIAC
+
 87. ATAC CARDIAC Vezi: INIMĂ ♥ - INFARCT
 [...DE MIOCARD]
+## ATAXIE LUI FRIEDREICH
+
 88. ATAXIE LUI FRIEDREICH
 
 Ataxia [lipsa de coordonare a mișcărilor] lui
@@ -3328,9 +3433,6 @@ mea pentru el și astfel va începe procesul de vindecare.
 Nimic nu valorează cât iubirea și iertarea, pentru a
 restabili armonia dintre două ființe.
 
-
-
-
 Atrofia este o diminuare a volumului sau a greutății
 unui organ, a unui membru sau a unui țesut. Indică
 faptul că există o mulțime de lucruri pe care mă abțin să
@@ -3362,6 +3464,8 @@ că mă pot descurca singur, în orice situație. Am
 capacitatea și curajul de a face față, cu încredere și cu
 determinare. Mă angajez să îmi respect sufletul și accept
 ↓♥ să devin creatorul vieții mele.
+
+## AUTISM
 
 90. AUTISM
 Autismul reprezintă un refuz de a face față realității
@@ -3439,6 +3543,8 @@ necesar. Nu mă mai critic. Știu că sunt diferit, unic, că
 am talente prețioase și am toată libertatea necesară
 pentru a le cultiva, în ritmul meu, în siguranță.
 
+## AUTOLIZA
+
 91. AUTOLIZA Vezi: SINUCIDERE
 
 Automutilarea este un comportament care mă
@@ -3470,7 +3576,11 @@ bucuria de a trăi, pe care am și eu dreptul să le cunosc.
 Accept ↓♥ să ies din muțenie și să îmi exprim suferința
 și durerea, pentru a mă elibera.
 
+## AUZ
+
 93. AUZ Vezi: URECHI - SURZENIE
+## AVORT SPONTAN
+
 94. AVORT SPONTAN Vezi: NAȘTERE - AVORT
 
 Axila este zona situată sub umăr, între fața laterală
@@ -3505,6 +3615,8 @@ ascuns. Las la o parte ceea ce nu este bun pentru mine.
 procur astfel întreaga siguranță și dinamismul de care
 am nevoie pentru a-mi îndeplini dorințele cele mai
 profunde.
+
+## BACTERIE MÂNCĂTOARE DE CARNE [infecție
 
 96. BACTERIE MÂNCĂTOARE DE CARNE [infecție
 cu...]
@@ -3551,7 +3663,6 @@ ajutorul celorlalți și înțeleg că, atunci când las să circule
 energia în mine, îmi regăsesc forța de a-mi îndeplini
 obiectivele, în pace și cu seninătate.
 
-
 GENERAL]/GAZE
 Balonarea este provocată de o umflare cu aer sau cu
 apă, la nivelul abdomenului. Are legătură cu o frustrare
@@ -3573,6 +3684,8 @@ mormântul” și să îmi fie frică de viitor, îndrăznesc să îmi
 exprim nevoile. Accept ↓♥ „să fiu” o persoană
 zâmbitoare, să trăiesc cu bucurie, să fiu deschis și să
 văd părțile frumoase ale vieții.
+
+## BASEDOW [boala lui...]
 
 98. BASEDOW [boala lui...] Vezi: GLANDA
 TIROIDĂ - BOALA LUIBASEDOW
@@ -3628,17 +3741,20 @@ reevaluez importanța pe care o atribui diverselor aspecte
 din viața mea, pentru ca acestea să aibă un fundament
 solid și sănătos.
 
-
-
-
-
+## BĂȘICĂ
 
 100. BĂȘICĂ Vezi: CHIST PIELE/[IN GENERAL] /
 [AFECȚIUNI ALE...]
+## BĂȘICĂ
+
 101. BĂȘICĂ Vezi: PIELE - BĂȘICI
+
+## BĂTĂTURI LA PICIOARE BĂTĂTURI
 
 102. BĂTĂTURI LA PICIOARE Vezi: PICIOARE -
 BĂTĂTURI
+## BĂTĂTURI
+
 103. BĂTĂTURI Vezi: PICIOARE - BĂTĂTURI
 
 ACIDOZĂ, APATIE
@@ -3661,8 +3777,6 @@ Accept ↓♥ să am grijă de mine, așa cum o face o
 mamă. Accept ↓♥ momentele tandre ale vieții știind că
 sunt o ființă extraordinară care merită tot ceea ce este
 mai bun.
-
-
 
 GENERAL]
 Bâlbâială este manifestarea unei tulburări de
@@ -3748,12 +3862,22 @@ mine. Simt o pace interioară și acceptarea ↓♥ întregii
 mele ființe îi va face și pe ceilalți să mă accepte așa cum
 sunt.
 
+## BÂZÂIT ÎN URECHI
+
 106. BÂZÂIT ÎN URECHI Vezi: URECHI -
 BÂZÂITÎN URECHI
+## BEȚIE
+
 107. BEȚIE Vezi: ALCOOLISM
+## BILIARI [calculi...]
+
 108. BILIARI [calculi...] Vezi: CALCULIBILIARI
+## BOALA BAISER INFECTIOASĂ
+
 109. BOALA BAISER Vezi LMONONUCLEOZA
 INFECTIOASĂ
+## BOALA CĂRNII TOCATE, SINDROMUL BARBEQUE
+
 110. BOALA CĂRNII TOCATE, SINDROMUL
 BARBEQUE
 Este o inflamație a colonului cauzată de bacteria
@@ -3766,6 +3890,8 @@ accept ↓♥ să-mi revizuiesc comportamentele și
 atitudinea. Încetez să-i atac pe ceilalți prin sarcasm;
 reînvăț să „gust” viața.
 
+## BOALA BECHTEREWS
+
 111. BOALA BECHTEREWS
 Este o durere reumatismală apărută după un
 traumatism. Este rezultatul unei rigidități și a unei lipse
@@ -3775,7 +3901,11 @@ Este nevoie să accept ↓♥ în iubire, să fiu mai flexibil
 față de mine și de ceilalți, să am încredere în toate
 situațiile de viață.
 
+## BOALA HANSEN
+
 112. BOALA HANSEN Vezi: LEPRA
+
+## BOALA IMUNITARĂ
 
 113. BOALA IMUNITARĂ Vezi: SISTEM IMUNITAR
 
@@ -3788,7 +3918,6 @@ mei. Sensibilitatea mea foarte mare mă conectează la
 realitatea interioară părinților mei.
 Accept ↓♥ că părinții mei nu sunt vinovați de ceea ce
 trăiesc eu.
-
 
 SUPRARENALE
 Insuficienta secreție de cortizol prin glandele
@@ -3816,16 +3945,32 @@ jur. Găsesc o metodă pentru a mă conecta la interiorul
 meu care are resurse nelimitate. Îmi pot găsi forța de a-
 mi conduce viața.
 
+## BOALA LUI BOUILARD
+
 116. BOALA LUI BOUILARD Vezi: REUMATISM
+## BOALA LUI DUPUYTREN
+
 117. BOALA LUI DUPUYTREN Vezi: MÂINI-
 BOALA LUI DUPYTREN
+## BOALA LUI FR1EDREICH FRIEDEICH
+
 118. BOALA LUI FR1EDREICH Vezi: ATAXJA
 FRIEDEICH
+## BOALA LUI HODGK3N
+
 119. BOALA LUI HODGK3N Vezi: HODGKIN
+## BOALA LUI MENIERE
+
 120. BOALA LUI MENIERE Vezi: MENIERE
+## BOALA LUI PARKINSON PARKINSON
+
 121. BOALA LUI PARKINSON Vezi: CREIER-
 PARKINSON
+## BOALA LUI RAYNAUD
+
 122. BOALA LUI RAYNAUD Vezi: RAYNAUD
+## BOALA
+
 123. BOALA
 Omul este făcut pentru a fi sănătos, dar el este fără
 încetare confruntat cu probleme de funcționare a
@@ -3846,6 +3991,8 @@ regăsi sănătatea cât mai rapid. Este nevoie să-mi
 schimb maniera de a trăi sau de a gândi, căci adevărata
 vindecare se află în primul rând în Mine.
 
+## BOALĂ CRONICĂ
+
 124. BOALĂ CRONICĂ Vezi: CRONIC
 
 Gândesc că sunt bolnav iară să fiu în realitate. Am
@@ -3858,6 +4005,8 @@ trăiesc în imaginar, încep să aduc schimbările necesare
 în viața mea, am încredere în corpul meu și celebrez
 viața.
 
+## BOALĂ INCURABILĂ
+
 126. BOALĂ INCURABILĂ
 Prin „incurabil” înțeleg că nu poate fi vindecat prin
 nicio formă de medicină. Este nevoie să caut înlăuntrul
@@ -3868,8 +4017,12 @@ schimbe.
 Accept ↓♥ că iubirea curge liber prin mine, căci doar
 iubirea mă poate vindeca.
 
+## BOALĂ INFANTILĂ COPILĂRIEI
+
 127. BOALĂ INFANTILĂ Vezi: BOU ALE
 COPILĂRIEI
+## BOALĂ KARMICĂ
+
 128. BOALĂ KARMICĂ
 Vin pe pământ ca să evoluez. Am experiențe de trăit
 pentru a ajunge la o transformare interioară. Dacă vin
@@ -3878,8 +4031,12 @@ nu au fost reglate în viețile anterioare.
 Accept ↓♥ să trăiesc experiența respectivă - acesta
 este primul pas spre vindecarea fizică și emoțională.
 
+## BOALĂ MENTALĂ PSIHOZĂ
+
 129. BOALĂ MENTALĂ Vezi: NEBUNIE, NEVROZĂ,
 PSIHOZĂ
+
+## BOALĂ PSIHOSOMATICĂ
 
 130. BOALĂ PSIHOSOMATICĂ
 Cuvântul „psihosomatic” indică raportul ce poate
@@ -3895,11 +4052,19 @@ sănătate.
 Știind acest lucru, accept ↓♥ să am grijă de corpul
 meu fizic pentru a avea o sănătate mai bună.
 
+## BOALA SOMNULUI
+
 131. BOALA SOMNULUI Vezi: NARCOLEPSIE
+## BOALĂ TRANSMISĂ SEXUAL
+
 132. BOALĂ TRANSMISĂ SEXUAL Vezi;
 VENERICĂ [BOALA...]
+## BOALA VACII NEBUNE CREUTZFELD-JAKOB
+
 133. BOALA VACII NEBUNE Vezi: CREIER-
 CREUTZFELD-JAKOB
+## BOALĂ VENERICĂ
+
 134. BOALĂ VENERICĂ Vezi: VENERICĂ
 
 IMUNITAR
@@ -3922,7 +4087,6 @@ formă de agresiune împotriva Ființei care sunt. Mă
 conectez cu puterea mea de creație și de vindecare care
 hrănește și întărește imunitatea mea naturală.
 
-
 CONGENITALE
 În sens medical, maladiile ereditare se transmit prin
 genele provenind din celulele reproductive ale unuia sau
@@ -3936,7 +4100,6 @@ Accept ↓♥ responsabilitatea pentru emoțiile mele.
 Deschizând poarta posibilității de vindecare fizică
 urmare a vindecării emoționale, conștientizez că totul
 este posibil!
-
 
 BOALA LA COPIL
 Rubeola, rujeola, tusea măgărească, oreionul,
@@ -3958,6 +4121,8 @@ copilăriei are o .situație nereglată încă din copilăria sa.
 Accept ↓♥ să îmi reglez sentimentele care vin din
 copilăria mea, pentru a evolua.
 
+## BOLILE COPILĂRIEI -RUBEOLĂ
+
 138. BOLILE COPILĂRIEI -RUBEOLĂ
 Rubeola este o maladie virală contagioasă, epidemic,
 responsabilă de o erupție de pete roșii cutanate cu
@@ -3969,6 +4134,8 @@ trăiesc ca pe o nedreptate.
 Accept ↓♥ să-mi dezvolt sistemul imunitar și,
 conștient de valoarea mea, să încep să mă afirm ca ceea
 ce sunt.
+
+## BOLILE COPILĂRIEI-RUJEOLA
 
 139. BOLILE COPILĂRIEI-RUJEOLA
 Rujeola este o boală virală, contagioasă, epidemic,
@@ -3984,6 +4151,8 @@ spațiul necesar pentru a-mi descoperi limitele și
 capacitățile, îmi ascult vocea interioară pentru a ști ce
 este cel mai bine pentru mine.
 
+## BOLILE COPILĂRIEI- SCARLATINA
+
 140. BOLILE COPILĂRIEI- SCARLATINA
 
 Scarlatina este o febră eruptivă cu debut brusc -
@@ -3997,6 +4166,8 @@ pedepsit. Febra exprimă un foc latent, prezent constant
 Accept ↓♥ să îmi exprim sentimentele, având
 încredere că părinții mei mă vor accepta cu tot ce sunt
 și cu tot ce simt.
+
+## BOLILE COPILĂRIEI - TUȘEA MĂGĂREASCĂ
 
 141. BOLILE COPILĂRIEI - TUȘEA MĂGĂREASCĂ
 Tușea măgărească este o boală infecțioasă,
@@ -4015,6 +4186,8 @@ fiu autentic. Privirea celorlați nu mă afectează, pot lăsa
 măștile deoparte. Delimitându-mi spațiul vital, pot
 respira liniștit.
 
+## BOLILE COPILĂRIEI-VARICELA
+
 142. BOLILE COPILĂRIEI-VARICELA
 Varicela este o boală infecțioasă, contagioasă, de
 regulă benignă, caracterizată printr-o erupție de vezicule
@@ -4032,9 +4205,15 @@ procesul de a deveni autonom. Îmi dau dreptul să pun
 părintelui respectiv întrebările necesare pentru ca eu să
 înțeleg mai bine situația.
 
+## BOUILLAUD [boala lui...]
+
 143. BOUILLAUD [boala lui...] Vezi: REUMATISM
+## BRADICARDIE CARDIACĂ
+
 144. BRADICARDIE Vezi: INIMĂ - ARITMIE
 CARDIACĂ
+## BRAȚE [în general]
+
 145. BRAȚE [în general]
 Brațul este partea membrelor superioare, cuprinsă
 între umăr și cot, formată din osul humerus. Brațele
@@ -4064,6 +4243,8 @@ nu îmi convin.
 Dacă îmi deschid inima ♥ și brațele, accept ↓♥ o
 deschidere spre viață și sunt în măsură să dau și să
 primesc într-un mod pozitiv.
+
+## BRAȚE [afecțiuni la...]
 
 146. BRAȚE [afecțiuni la...]
 Afecțiunile brațelor au legătură cu dificultatea mea
@@ -4185,7 +4366,6 @@ să îmi schimb ideile. Merg înainte, lăsând la o parte ceea
 ce nu este bun pentru mine și primesc tot ceea ce este
 mai bun de la viață. Accept ↓♥ viața, cu brațele deschise!
 
-
 [PROBLEME RENALE]
 Boala lui Bright este numită și nefrită cronică. Este
 o inflamație gravă a rinichilor, însoțită de edem [reținere
@@ -4202,7 +4382,6 @@ Accept ↓♥ faptul că fiu unic și că fac mereu tot ce
 știu eu mai bine. Conștientizez faptul că este necesară o
 deschidere a inimii ♥ dacă vreau să am o schimbare de
 atitudine, pentru a vindeca această stare.
-
 
 Bronhiile sunt conductele prin care intră aerul în
 plămâni. Reprezintă viața. O afecțiune a bronhiilor
@@ -4238,7 +4417,6 @@ persoană sau ce situație este asociată cu durerea .mea
 și ce trebuie să fac pentru a schimba situația. Este
 important să creez situații pline de bucurie și de
 relaxare.
-
 
 [AFECȚIUNI LA...]
 Bronșita [ită=furie] se caracterizează prin inflamația
@@ -4294,7 +4472,6 @@ ceilalți sunt cei care mă fac fericit. Dacă iau propriile
 decizii și respire prin propriile mijloace, am făcut primii
 pași spre mai multă libertate.
 
-
 [AFECȚIUNI ALE...]
 Bronhopneumonia este inflamația respiratorie care
 afectează bronhiolele și alveolele pulmonare. Are
@@ -4310,10 +4487,16 @@ durerea interioară este mai profundă.
 Accept ↓♥ să respir viața altfel și cu o atitudine
 diferită, plină de iubire și de bucurie.
 
+## BRUXISM DINȚI...]
+
 151. BRUXISM Vezi: DINȚI [SCRÂȘNIT DIN
 DINȚI...]
+## BTS [BOLI TRANSMISIBILE SEXUAL]
+
 152. BTS [BOLI TRANSMISIBILE SEXUAL] Vezi:
 VENERICE [BOU„]
+## BUCAL [herpes...]
+
 153. BUCAL [herpes...] Vezi: HERPES[...BUCAL]
 
 FUMAT, INFLAMAȚIE, PICIOARE, SÂNGE -
@@ -4340,7 +4523,11 @@ Accept ↓♥ să iau în considerare mesajul transmis de
 corpul meu și accept ↓♥ „să văd mai clar în viața mea”.
 Dacă mă las de fumat, mă voi simți mai bine.
 
+## BUFEURI DE CĂLDURĂ
+
 155. BUFEURI DE CĂLDURĂ Vezi: MENOPAUZĂ
+## BURNETT [sindromul lui...]
+
 156. BURNETT [sindromul lui...] Vezi: BĂUTORI
 DE LAPTE [SINDROMUL...]
 
@@ -4391,7 +4578,6 @@ tuturor. Este un vis! Adevărata realitate, este de a ști că
 fac tot ce știu mai bine și astfel îmi regăsesc
 seninătatea, pacea interioară și iubirea adevărată.
 
-
 [afecțiuni ale ...], COATE, UMERI, INFLAMAȚIE,
 GENUNCHI..., TENDONUL LUIAHILE
 Bursita, denumită și higroma este inflamația bursei,
@@ -4431,7 +4617,6 @@ avantajul meu și pentru binele celorlalți. Corpul meu
 pentru a mă adapta la noile situații, care apar în viața
 mea.
 
-
 [...A ABDOMENULUI], INTESTINE [AFECȚIUNI ALE...]
 Burta sau abdomenul este partea inferioară și
 anterioară a trunchiului uman, care conține mai ales
@@ -4470,7 +4655,6 @@ intenția mea cea mai profundă și sentimentul meu față
 de ceea ce este bun sau rău în viața mea, îmi transmit
 ceea ce se întâmplă în viața mea interioară și la nivelul
 emoțiilor.
-
 
 DE...], GREUTATE [EXCES DE...]
 Bulimia este o boală compulsivă, o nevoie
@@ -4540,9 +4724,12 @@ pe un dar divin. Accept ↓♥ iubirea pentru mine și pentru
 ceilalți și descopăr bucuriile de a trăi pe această lume.
 Asta este tot.
 
+## BURTĂ [durere de...] BURTĂ
 
 161. BURTĂ [durere de...] Vezi: DURERE DE
 BURTĂ
+## BUZE
+
 162. BUZE
 
 Buzele, pot semnifica deschiderea sau închiderea
@@ -4583,6 +4770,8 @@ cu buzele, pot săruta și îmi pot arăta dragostea față de
 cei pe care îi iubesc. Mă simt în siguranță și îndrăznesc
 să spun și să arăt cine sunt cu adevărat.
 
+## BUZE USCATE, CRĂPATE
+
 163. BUZE USCATE, CRĂPATE
 Am buzele uscate atunci când resimt o oboseală
 mare, când mă simt singur, când sunt îngrijorat sau
@@ -4612,7 +4801,11 @@ cu ceilalți, nu voi mai avea nevoie să trăiesc în imaginar.
 Unind ceea ce era divizat înainte, buzele mele revin la
 viață și într-o stare perfectă.
 
+## CAECUM
+
 164. CAECUM Vezi: APENDICITĂ
+## CALCANEUM
+
 165. CALCANEUM Vezi: CĂLCÂI
 
 CALCULI/BILIARI/RENALI
@@ -4636,6 +4829,8 @@ Accept ↓♥ să am încredere în viață și știu că pot
 conta pe puterea mea divină, care mă va ajuta să văd
 evenimentele cu o mai mare deschidere a spiritului și în
 deplină siguranță.
+
+## CALCULI BILIARI SAU LITIAZĂ BILIARĂ
 
 167. CALCULI BILIARI SAU LITIAZĂ BILIARĂ
 Vezi: FICAT [DURERE DE FICAT], SPLINĂ
@@ -4695,7 +4890,6 @@ trăiesc iubirea veritabilă. Îmi acord dreptul de a-mi
 situația, îmi las toate talentele să se dezvolte cu
 blândețe și astfel mă pot împlini pe deplin.
 
-
 Calculii renali, denumiți și pietre la rinichi, au
 legătură cu rinichii, care sunt sediul fricii. Reprezintă
 formațiuni de pietre sau de cristale provenind din
@@ -4753,9 +4947,15 @@ vorba despre conștiință și atitudine. Trăiesc într-un mod
 spontan, ca un copil, iar viața mea va fi plină de fericire
 și de surprize.
 
+## CALOZITATE
+
 169. CALOZITATE Vezi: PIELE, PICIOARE-CALUS
 ȘI BĂTĂTURI
+## CALVIȚIE
+
 170. CALVIȚIE Vezi: PĂR-CALVIȚIE
+## CANAL CARPIAN [sindromul...]
+
 171. CANAL CARPIAN [sindromul...] Vezi:
 CRAMPA scriitorului
 
@@ -4907,6 +5107,8 @@ perioadă de pregătire pentru a mă descoperi, pentru a
 mine, celulele mele vor fi bine hrănite și le vor înlocui pe
 cele de care nu mai am nevoie.
 
+## CANCER AL ALUNIȚEI
+
 173. CANCER AL ALUNIȚEI Vezi: PIELE -
 MELANOM MALIGN
 
@@ -4973,10 +5175,18 @@ practic diverse forme de relaxare fizică și interioară, care
 mă pot ajuta să îmi acord timpul necesar pentru a trăi o
 existență mai echilibrată.
 
+## CANCER LA ESOFAG
+
 176. CANCER LA ESOFAG Vezi: ESOFAG
+## CANCER LA FARINGE
+
 177. CANCER LA FARINGE Vezi: GÂT - FARINGE
+## CANCER LA FICAT DE...]
+
 178. CANCER LA FICAT Vezi: FICAT [DURERE
 DE...]
+## CANCER AL GANGLIONILOR [al sistemului
+
 179. CANCER AL GANGLIONILOR [al sistemului
 limfatic] Vezi: ADENITĂ, ADENOPATIE, GANGLION
 [...LIMFATIC]
@@ -5007,6 +5217,7 @@ siguranță în interiorul meu. Știu că sunt apărat tot
 timpul și că nu îmi rămâne decât să mă las condus de
 curentul vieții.
 
+## CANCER AL GURII
 
 181. CANCER AL GURII
 Cancerul gurii poate fi situat la nivelul cerului gurii,
@@ -5056,8 +5267,12 @@ de acea persoană ceea ce simt pentru a readuce armonie
 în acea situație. Elimin ranchiuna din viața mea și o
 înlocuiesc cu înțelegere și deschidere a spiritului.
 
+## CANCER LA INTESTINUL SUBȚIRE
+
 183. CANCER LA INTESTINUL SUBȚIRE Vezi:
 INTESTINUL SUBȚIRE [DURERELA...]
+## CANCER LA LARINGE
+
 184. CANCER LA LARINGE Vezi: FUMAT, GÂT
 [DURERE DE...]
 
@@ -5085,6 +5300,8 @@ Accept să îmi ocup locul și să exprim ceea ce
 reprezintă pentru mine adevărul. Acest lucru mă va
 ajuta să-mi înțeleg locul pe care îl ocup în mediul meu și
 în Univers.
+
+## CANCER LA LIMBĂ FUMAT
 
 185. CANCER LA LIMBĂ Vezi: ALCOOLISM,
 FUMAT
@@ -5125,17 +5342,29 @@ Când accept ↓♥ acest lucru, este ușor să reintru în
 contact cu forța mea interioară și atunci îmi pot crea
 viața așa cum simt!
 
+## CANCER LA MANDIBULA
+
 186. CANCER LA MANDIBULA Vezi: MANDIBULĂ
 [DURERE DE...]
+## CANCER LA OASE OASE...]
+
 187. CANCER LA OASE Vezi: OASE [CANCER LA
 OASE...]
 
+## CANCER LA OVARE DE...]
+
 188. CANCER LA OVARE Vezi: OVARE [DURERE
 DE...]
+## CANCER LA PANCREAS
+
 189. CANCER LA PANCREAS Vezi: PANCREAS
 [DURERE DE...]
+## CANCER AL PIELII MALIGN
+
 190. CANCER AL PIELII Vezi: PIELE - MELANOM
 MALIGN
+## CANCER LA PIEPT
+
 191. CANCER LA PIEPT Vezi: CANCER LA SÂN
 
 BRONȘITĂ, FUMAT, PLĂMÂNI [DURERE DE...]
@@ -5188,11 +5417,19 @@ faptul că nu există rău pe pământ, ci doar experiențe.
 Trăiesc și îi las pe ceilalți să trăiască, cu candoarea unui
 copil. Mușc din viață cu toată pofta!
 
+## CANCER LA PROSTATĂ
+
 193. CANCER LA PROSTATĂ Vezi: PROSTATĂ
 [DUREREDE...]
+## CANCER LA RECT
+
 194. CANCER LA RECT Vezi: INTESTINE - RECT
+## CANCER LA SÂNGE LEUCEMIE
+
 195. CANCER LA SÂNGE Vezi: SÂNGE -
 LEUCEMIE
+## CANCER LA SÂN
+
 196. CANCER LA SÂN Vezi: SÂNI [DURERE DE...]
 Sânii reprezintă feminitatea și maternitatea. Acest
 tip de cancer indică, în general, anumite atitudini și
@@ -5330,7 +5567,6 @@ furtuna » și a face cancerul să se retragă. Nu am decât
 de câștigat dacă voi lăsa furia și ranchiuna să plece și le
 voi înlocui prin acceptare și iertare.
 
-
 [DURERE DE...]
 În testicule are loc producerea spermatozoizilor
 esențiali pentru reproducere. Dacă am cancer la
@@ -5359,7 +5595,6 @@ conștientizez sentimentele din interiorul meu, le accept
 pentru a mă ajuta să îmi vindec rănile, pentru a învăța
 din nou să râd și pentru a privi înainte spre viitor, în loc
 să mă întorc în trecut.
-
 
 Uterul reprezintă feminitatea, matricea originală și
 căminul matern, mai ales corpul uterin. Eu, ca femeie,
@@ -5419,7 +5654,6 @@ trebuie să armonizez felul în care mă percep pe mine
 față de rolul meu de mamă și de femeie, pe toate
 planurile.
 
-
 MUCOASELOR
 Există mai multe tipuri de candida, Cea mai
 frecventă formă, la oameni este candida albicans. Deși
@@ -5464,6 +5698,8 @@ de a vedea și a evalua ceea ce se întâmplă și accept^ ♥
 iubirea, deschiderea și răbdarea din interiorul meu,
 precum și în cazul partenerului meu.
 
+## CANDID OZĂ VAGINITĂ
+
 201. CANDID OZĂ Vezi: CANDIDA, INFLAMAȚII
 VAGINITĂ
 
@@ -5484,7 +5720,11 @@ Accept ↓♥ să-mi recunosc potențialul și să
 materializez ideile pe care le am. Sunt capabil să-mi
 manifest înțelegerea și bunătatea.
 
+## CANGRENĂ
+
 203. CANGRENĂ Vezi: SÂNGE - CANGRENĂ
+## CAP [în general]
+
 204. CAP [în general]
 Capul este centrul comunicării, este în legătură cu
 individualitatea mea și cu autonomia mea. Este denumit
@@ -5518,6 +5758,8 @@ Accept ↓♥ să învăț să rămân deschis față de cei din
 jurul meu și Accept ↓♥ mesajele care ajung la simțurile
 mele, prin tot corpul pentru a asimila lecțiile vieții, care
 mă ajută să evoluez pe plan spiritual.
+
+## CAP [dureri de...]
 
 205. CAP [dureri de...]
 Există mai multe cauze al durerilor de cap, precum
@@ -5589,6 +5831,8 @@ ajung la un echilibru între intelectul meu și emoțiile
 mele. Astfel, voi fi în armonie cu mine însumi, mă voi
 simți cu mintea mai relaxată și mai limpede.
 
+## CAP - MIGRENE
+
 206. CAP - MIGRENE
 Migrena se caracterizează printr-o durere puternică,
 care afectează de obicei, o singură parte a capului.
@@ -5659,19 +5903,30 @@ mai înțelegător, față de mine însumi, mă simt mai
 relaxat și pot să plutesc, să zbor unde vreau eu, ca un
 balon.
 
-
-
+## CARDIACĂ [criză...]
 
 207. CARDIACĂ [criză...] Vezi: INIMA ♥ - INFARCT
 [... DE MIOCARD]
+## CARIE DENTARĂ DENTARĂ
+
 208. CARIE DENTARĂ Vezi: DINȚI - CARIE
 DENTARĂ
+## CAROTIDĂ
+
 209. CAROTIDĂ Vezi: SÂNGE - ARTERE
+## CATARACTĂ
+
 210. CATARACTĂ Vezi: OCHI - CATARACTĂ
+## CĂDERE DE PRESIUNE
+
 211. CĂDERE DE PRESIUNE Vezi: TENSIUNE
 ARTERIALĂ - HIPOTENSIUNE [TENSIUNE PREA
 MICĂ]
+## CĂI BILIARE
+
 212. CĂI BILIARE Vezi: VEZICA BILIARĂ
+## CĂLCÂI
+
 213. CĂLCÂI
 Călcâiul simbolizează trecutul pe care mă sprijin, pe
 care mă așez. O durere la călcâi indică faptul că sufăr
@@ -5706,6 +5961,8 @@ deplină siguranță. Îmi ocup locul cuvenit. Las la o parte
 trecutul și mă întorc spre viitor, ascultându-mi vocea
 interioară, care știe foarte bine de ce anume am nevoie.
 
+## CĂLDURĂ [acces de CĂLDURĂ...] FEBRĂ
+
 214. CĂLDURĂ [acces de CĂLDURĂ...] Vezi:
 FEBRĂ
 Accesele de căldură pot apărea în urma expunerii
@@ -5737,7 +5994,11 @@ sine sau cum pot integra o situație care m-a afectat
 când eram copil și care acum iese la suprafață. Iubesc
 viața și viața îmi dă la rândul ei iubire.
 
+## CĂLDURI [a avea...]
+
 215. CĂLDURI [a avea...] Vezi: MENOPAUZĂ
+## CĂSCAT
+
 216. CĂSCAT
 Căscatul este „un reflex de imitare naturală”, mai
 mult sau mai puțin acceptat ↓♥ în societate, în funcție
@@ -5765,7 +6026,6 @@ această formă de expresie corporală, care mai de mult
 era criticată de educație. Renunț la rezistența mea și îi
 las pe ceilalți să se apropie de mine și să se ocupe de
 mine.
-
 
 VERTEBRALĂ, GÂT
 Ceafa este regiunea corpului pe unde trec toate
@@ -5809,10 +6069,18 @@ bogățiile ce se află în mine, nu mă mai ocup de ceea ce
 cred ceilalți despre mine, deoarece acum sunt conștient
 de tot potențialul care există în mine.
 
+## CEARCĂNE [LA OCHI...] CEARCĂNE
+
 218. CEARCĂNE [LA OCHI...] Vezi: OCHI -
 CEARCĂNE
+## CECITATE
+
 219. CECITATE Vezi: OCHI [DURERI DE...]
+## CEFALEE
+
 220. CEFALEE Vezi: CAP [DURERIDE...]
+## CELULITĂ
+
 221. CELULITĂ
 Celulita este caracterizată prin inflamarea țesutului
 celular subcutanat. Celulita este de obicei de natură
@@ -5858,6 +6126,8 @@ viața mea de zi cu zi. Îmi recunosc adevărata valoare,
 îmi manifest creativitatea. Astfel las energia să circule
 liber în corpul meu.
 
+## CHARCOT [boala lui...] SAU SCLEROZA
+
 222. CHARCOT [boala lui...] SAU SCLEROZA
 LATERALA AMIOTROFICA
 Boala lui Charcot sau scleroza laterală amiotrofică,
@@ -5882,8 +6152,9 @@ potențialul necesar pentru a atinge scopurile pe care mi
 le fixez. Dacă îmi reconstruiesc o imagine pozitivă
 despre mine, corpul meu va face la fel.
 
-
 COAGULAT, TROMBOZA
+## CHERATITĂ
+
 224. CHERATITĂ Vezi: OCHI - CHERATITĂ
 
 TUMORĂ
@@ -5933,25 +6204,46 @@ gânduri frumoase și cuvinte frumoase pentru ca, până
 la urmă, să creez viața la care visez. Sunt creatorul vieții
 mele și merg mai departe cu încredere.
 
-
-
+## CHLAMYDLA [infecție cu ...] VENERICE
 
 226. CHLAMYDLA [infecție cu ...] Vezi: BOU
 VENERICE
+## CICATRICE
+
 227. CICATRICE Vezi: PIELE - CICATRICE
+## CICLU MENSTRUAL [dureri de...]
+
 228. CICLU MENSTRUAL [dureri de...] Vezi:
 MENSTRUAȚIE [DURERI DE...]
+## CIFOZĂ
+
 229. CIFOZĂ Vezi: COLOANĂ VERTEBRALĂ
 [DEVIAȚIE A...], SPATE [DURERE DE.„]
+## CINEPATIE
+
 230. CINEPATIE Vezi: RĂU DE TRANSPORT
+## CINETOZĂ
+
 231. CINETOZĂ Vezi: RĂU DE TRANSPORT
+## CIRCULAȚIE SANGUINĂ
+
 232. CIRCULAȚIE SANGUINĂ Vezi: SÂNGE -
 CIRCULA ȚIE SANGUINĂ
+## CIROZĂ [... a ficatului];
+
 233. CIROZĂ [... a ficatului]; Vezi: FICAT -
 CIROZĂ [...A FICATULUI]
+## CISTITĂ
+
 234. CISTITĂ Vezi: VEZICĂ - CISTITĂ
+## CISTOCEL
+
 235. CISTOCEL Vezi: PROLAPSUS
+## CIUPERCI
+
 236. CIUPERCI Vezi: PICIOARE - MICOZĂ
+## CIUPERCI HALUCINOGENE [consuni de...]
+
 237. CIUPERCI HALUCINOGENE [consuni de...]
 Vezi: DROGURI
 
@@ -5972,7 +6264,6 @@ lucru.
 Accept ↓♥ să îmi identific fricile și astfel pot aduce
 mai multă armonie în viața mea și voi avea un mers mai
 regulat.
-
 
 Claustrofobie provine de la cuvântul din limba
 latină „claustra” care înseamnă închidere. De la acest
@@ -6028,7 +6319,6 @@ exprim latura creativă: acest lucru mă ajută să trăiesc la
 nivelul inimii? mele și să fiu cu adevărat în contact cu
 esența mea divină.
 
-
 Clavicula este un os lung, în formă de S alungit,
 situat între umăr și stern, deasupra toracelui. Deoarece
 
@@ -6053,9 +6343,6 @@ Accept ↓♥ să privesc situațiile cu obiectivitate și
 multă responsabilitate decât pot duce. Am încredere și
 mă străduiesc să găsesc soluții sau un alt punct de
 vedere care mă va ajuta să îmi gestionez mai bine viața.
-
-
-
 
 NEVROZĂ
 Dacă, într-un mod compulsiv, sunt tentat să comit
@@ -6085,6 +6372,8 @@ identifica acel gol interior sau acea revoltă față de
 autoritate și de a putea aduce iubire în acea situație.
 Astfel voi trăi o mai mare pace interioară și ceilalți „se
 vor purta mai frumos cu mine”.
+
+## COAGULARE DEFICITARĂ COAGULAT
 
 242. COAGULARE DEFICITARĂ Vezi: SÂNGE
 COAGULAT
@@ -6136,8 +6425,12 @@ copilărie. Chiar dacă, uneori am impresia că sunt
 pentru aceea ce sunt în această lume, adică niște
 instrumente care servesc universul.
 
+## COAPSE [durere de...]
+
 244. COAPSE [durere de...] Vezi: PICIOARE -
 PARTEA SUPERIOARĂ
+## COASTE
+
 245. COASTE
 Coastele fac parte din cutia toracică. Ele protejează
 inima și plămânii [organe vitale] împotriva loviturilor, a
@@ -6202,7 +6495,6 @@ instrument care mă ajută să mă respect, respectându-i
 ceilalți și accept ↓♥ să fiu eu însumi. Sunt singura
 persoană care poate avea putere asupra mea!
 
-
 Coatele reprezintă libertatea de mișcare,
 flexibilitatea, ușurința de a schimba direcția în situații
 
@@ -6250,6 +6542,8 @@ meu pentru a găsi toate răspunsurile la întrebările mele
 niște provocări pe care le am de trecut, știind că,
 cadourile vor fi la fel de mari ca și eforturile depuse.
 
+## COATE - EPICONDILITĂ
+
 247. COATE - EPICONDILITĂ
 Cunoscută mai mult sub denumirea de tennis-
 elbow, în medicina sportivă, epicondilita este o
@@ -6275,12 +6569,24 @@ mele modele pentru a alege cea mai bună direcție pentru
 evoluția mea. Accept ↓♥, de asemenea, să las să circule
 iubirea în evenimentele care apar în viața mea.
 
+## COCAINĂ [consum de...]
+
 248. COCAINĂ [consum de...] Vezi: DROGURI
+## COCCIS
+
 249. COCCIS Vezi: SPATE [DURERE DE...]
+## COCOȘAT
+
 250. COCOȘAT Vezi: UMERI LĂSAȚI
+## COL UTERIN [cancer de...]
+
 251. COL UTERIN [cancer de...] Vezi: CANCER LA
 UTER [COL SI CORP]
+## COLESTEROL
+
 252. COLESTEROL Vezi: SÂNGE - COLESTEROL
+## COLICA NEFRETICĂ
+
 253. COLICA NEFRETICĂ
 Colica nefretică este o durere violentă în zona
 lombară, care iradiază spre vezică și coapse, provocată
@@ -6306,9 +6612,15 @@ Accept ↓♥ să-mi privesc obiectiv viața. Îmi redefinesc
 valorile și prioritățile și îndrăznesc să mi le afirm. Astfel
 îmi ocup locul care mi se cuvine, primul loc!
 
+## COLICI
+
 254. COLICI Vezi: INTESTINE - COLICI
+## COLITĂ [mucozitatea colonului]
+
 255. COLITĂ [mucozitatea colonului] Vezi:
 intestine - colită
+
+## COLITĂ HEMORAGICĂ COUTĂ
 
 256. COLITĂ HEMORAGICĂ Vezi: INTESTINE -
 COUTĂ
@@ -6352,6 +6664,8 @@ Oricare ar fi situația, Accept ↓♥ să rămân deschis
 față de cauza inițială și integrarea va fi mai armonioasă.
 Voi reclădi noua persoană care vreau să devin.
 
+## COLOANĂ VERTEBRALĂ [deviație a] [în
+
 258. COLOANĂ VERTEBRALĂ [deviație a] [în
 general]
 O deviație a coloanei vertebrale simbolizează mai
@@ -6366,8 +6680,12 @@ curbează spre o parte, spre față sau spre spate.
 Accept ↓♥ să îmi iau viața în mâini și „să mă țin
 drept” în fața vieții, cu încredere și cu determinare.
 
+## COLOANA VERTEBRALĂ [deviație a...] -
+
 259. COLOANA VERTEBRALĂ [deviație a...] -
 COCOȘAT Vezi: UMERI LĂSAȚI
+## COLOANĂ VERTEBRALĂ [deviație a...} - CIFOZĂ
+
 260. COLOANĂ VERTEBRALĂ [deviație a...} -
 CIFOZĂ
 Cifoza este o deviație a coloanei vertebrale curbate
@@ -6399,8 +6717,12 @@ inimii ♥ mele, pentru curajul pe care îl am, deoarece știu
 că am dețin toate răspunsurile atunci când sunt
 conectat cu sufletul meu.
 
+## COLOANĂ VERTEBRALĂ - DISC DEPLASAT
+
 261. COLOANĂ VERTEBRALĂ - DISC DEPLASAT
 Vezi: HERNIE DISCALĂ
+## COLOANĂ VERTEBRALĂ [deviație a...] - LORDOZA
+
 262. COLOANĂ VERTEBRALĂ [deviație a...] -
 LORDOZA
 Lordoza este curbarea fiziologică a coloanei
@@ -6434,6 +6756,8 @@ sosește la momentul potrivit. Îndrăznesc să stau drept,
 în picioare și am încredere în mine. Mă simt în
 siguranță deoarece vocea mea interioară îmi spune ce să
 fac pentru a- mi fi bine.
+
+## COLOANĂ VERTEBRALĂ [deviație a...] - SCOLIOZĂ
 
 263. COLOANĂ VERTEBRALĂ [deviație a...] -
 SCOLIOZĂ
@@ -6487,8 +6811,12 @@ integrantă din propria mea viață. Încetez să mă mai
 compar cu ceilalți deoarece fiecare dintre noi suntem
 diferiți și unici.
 
+## COLON [cancer de...] COLON
+
 264. COLON [cancer de...] Vezi: CANCER DE
 COLON
+## COMĂ LEȘIN
+
 265. COMĂ Vezi: ACCIDENT, CREIER - SINCOPĂ,
 LEȘIN
 Coma poate surveni în urma unui accident și
@@ -6556,11 +6884,19 @@ necesare pentru a duce la capăt toate proiectele mele.
 Știu că schimbările necesare din viața mea se vor
 petrece lin, pentru binele meu și al celor din jurul meu!
 
+## COMEDOANE
+
 266. COMEDOANE Vezi: PIELE - PUNCTE NEGRE
+## COMOȚIE [... a retinei]
+
 267. COMOȚIE [... a retinei] Vezi: OCHI -
 COMOȚIA RETINEI
+## COMOȚIE CEREBRALĂ
+
 268. COMOȚIE CEREBRALĂ Vezi: CREIER
 [COMOȚIE]
+## COMPULSIE NERVOASĂ
+
 269. COMPULSIE NERVOASĂ
 Compulsia este o tulburare de comportament
 caracterizată printr-o dorință de a face anumite acte la
@@ -6583,9 +6919,15 @@ iubesc. Faptul de a mă acceptați așa cum sunt mă va
 ajuta să mă dezvolt armonios și nu va mai trebuie să mă
 descarc prin compulsie.
 
+## CONDUCTE LACRIMALE
+
 270. CONDUCTE LACRIMALE Vezi: LACRIMI
+## CONGENITAL CONGENITALE, BOU EREDITARE
+
 271. CONGENITAL Vezi: MALFORMAȚII
 CONGENITALE, BOU EREDITARE
+
+## CONGESTIE [...la creier/ ...ficat/ ...nas
 
 272. CONGESTIE [...la creier/ ...ficat/ ...nas
 
@@ -6633,11 +6975,19 @@ față de mine. Mă simt din nou în armonie cu mine
 însumi și cu cei din jurul meu. Astfel dobândesc un nou
 echilibru, atât în viața fizică cât și în cea spirituală.
 
+## CONJUNCTIVITĂ CONJUNCTIVITĂ
+
 273. CONJUNCTIVITĂ Vezi: OCHI ~
 CONJUNCTIVITĂ
+## CONSTIPAȚIE CONSTIPAȚIE
+
 274. CONSTIPAȚIE Vezi: INTESTINE -
 CONSTIPAȚIE
+## CONTUZII
+
 275. CONTUZII Vezi: PIELE - VÂNĂTĂI
+## COPIL CIANOTIC [ALBASTRU]
+
 276. COPIL CIANOTIC [ALBASTRU]
 Apariția unui copil cianotic este legată de o
 malformație a inimii ♥ copilului, în stadiu embrionar,
@@ -6663,15 +7013,29 @@ Accept ↓♥ începând de acum faptul că iubirea este
 forma un cerc de iubire care mă va proteja în lumea
 exterioară.
 
+## COPIL HIPERACTIV
+
 277. COPIL HIPERACTIV Vezi: HIPERACTIVITATE
+## COPIL MORT LA NAȘTERE AVORT
+
 278. COPIL MORT LA NAȘTERE Vezi: NAȘTERE -
 AVORT
+## CORIZA
+
 279. CORIZA Vezi: RĂCEALĂ [LA CREIER...]
+## CORONAR CORONARIANĂ
+
 280. CORONAR Vezi: INIMĂ ♥ - TROMBOZA
 CORONARIANĂ
+## CORP [în general]
+
 281. CORP [în general] Vezi: ANEXA /
+## CORZI VOCALE
+
 282. CORZI VOCALE Vezi: GÂT - LARINGITĂ,
 CANCER LA LARINGE, VOCE - RĂGUȘEALĂ
+## COȘURI [pe corp]
+
 283. COȘURI [pe corp] Vezi: PIELE - COȘURI
 
 GENERAL], MÂINI [ÎN GENERAL], ÎNCHEIETURA
@@ -6706,6 +7070,8 @@ Accept ↓♥ să mă iubesc așa cum sunt, fără artificii
 și rămânând complet liber în atitudinile mele. Este
 primul pas spre o realizare importantă, împlinirea de
 sine.
+
+## CRAMPE
 
 285. CRAMPE
 Crampa este contracția involuntară, dureroasă și
@@ -6745,7 +7111,6 @@ opri și a reflecta. Acest moment de pauză mă ajută să
 iau lucrurile mai încet și într-un alt mod, să mă simt
 mai bine în pielea mea.
 
-
 Abdomenul este legat de chakra intuiției și a
 creativității. Crampa abdominală indică, de asemenea, o
 frică de a-mi urma intuiția, refuzul de a mă lăsa purtat
@@ -6762,6 +7127,8 @@ Astfel, mă pot lăsa condus de intuiția mea și îmi pot
 
 folosi creativitatea pentru a merge în direcția care îmi
 convine, în armonie cu ceea ce sunt.
+
+## CRAMPE MUSCULARE [în general]
 
 287. CRAMPE MUSCULARE [în general]
 Crampa de origine musculară indică faptul că rețin
@@ -6786,9 +7153,15 @@ Meditația este o tehnică de reechilibrare energetică care
 ajută la înlăturarea tensiunilor inutile și la armonizarea
 corpurilor mele energetice.
 
+## CRANIU
+
 288. CRANIU Vezi: CREIER - COMOȚIE
 CEREBRALĂ, OS - FRACTURĂ [OSOASĂ...]
+## CRĂPĂTURI
+
 289. CRĂPĂTURI Vezi: PIELE - CRĂPĂTURI
+## CREIER [în general]
+
 290. CREIER [în general]
 Este centrala energetică, unitatea centrală de
 tratare a tuturor informațiilor a minunatei mașinării
@@ -6830,6 +7203,8 @@ identificarea cu orice formă divină. Socrate spunea: „
 Cunoaște-te pe tine însuți și vei cunoaște Universul și
 zeii”.
 
+## CREIER [abces la...]
+
 291. CREIER [abces la...]
 Când apare un abces la creier, acesta provine dintr-
 o infecție a sinusurilor sau a urechii mijlocii sau a
@@ -6842,6 +7217,8 @@ ambalez repede.
 Accept ↓♥ să am încredere în puterea divină din
 interiorul meu care mă conduce spre soluții ce mă vor
 ajuta să-mi descopăr adevăratul potențial.
+
+## CREIERACCIDENT VASCULAR CEREBRAL
 
 292. CREIERACCIDENT VASCULAR CEREBRAL
 
@@ -6874,6 +7251,8 @@ scăldându-se într-o baie de lumină albă și aurită pentru
 a-mi ajuta toate celulele nervoase să se regenereze și să
 îi reia funcțiile într-o nouă manieră, pentru ca eu să îmi
 regăsesc cât mai repede sănătatea.
+
+## CREIER - APOPLEXIE
 
 293. CREIER - APOPLEXIE Vezi: CREIER -
 ACCIDENT VASCULAR CEREBRAL [AV.C] / SINCOPA
@@ -6920,6 +7299,8 @@ Propovăduind pacea, iubirea și starea de bine, îi ajut pe
 ceilalți să se simtă mai bine în libertatea și în respectul
 fiecăruia.
 
+## CREIER [comoție] SAU COMOȚIE CEREBRALĂ
+
 294. CREIER [comoție] SAU COMOȚIE
 CEREBRALĂ
 Comoția cerebrală reprezintă zguduirea întregului
@@ -6960,10 +7341,12 @@ situațiile pe care le trăiesc în prezent. Este posibil să evit
 comoția, acceptând ↓♥ să fiu foarte deschis față de ceea
 ce se întâmplă în viața mea.
 
-
+## CREIER - [congestie a creierului...] CONGESTIE
 
 295. CREIER - [congestie a creierului...] Vezi:
 CONGESTIE
+## CREIER - CREUTZFELD-JAKOB [boala...]
+
 296. CREIER - CREUTZFELD-JAKOB [boala...]
 SAU BOALA VACII NEBUNE
 
@@ -7016,6 +7399,8 @@ descopăr adevărata valoare și astfel pot îndeplini lucruri
 cu bucurie și cu motivație și mă pot îndrepta spre
 împlinirea de sine.
 
+## CREIER [durere la...]
+
 297. CREIER [durere la...]
 Problemele la nivelul creierului indică faptul că am
 tendința de a vrea să cunosc cu mintea și cu latura mea
@@ -7038,6 +7423,8 @@ serioasă și rațională și să îmi regăsesc latura de „copil”
 
 căruia îi place să râdă, să se bucure și care strălucește
 în inocența sa și în dorința sa de a învăța lucruri noi.
+
+## CREIER - ECHILIBRU [pierderea echilibrului]
 
 298. CREIER - ECHILIBRU [pierderea echilibrului]
 SAU AMEȚEALA
@@ -7099,6 +7486,8 @@ Accept ↓♥ să fiu diferit și faptul că merit să fiu fericit.
 Îmi deschid inima? pentru a primi iubire și bucurie în
 viața mea.
 
+## CREIER-ENCEFALITĂ
+
 299. CREIER-ENCEFALITĂ
 Encefalul cuprinde creierul, cerebelul și trunchiul
 cerebral. Encefalul este partea superioară a sistemului
@@ -7124,6 +7513,8 @@ rigiditatea cu flexibilitate, încadrarea strictă a unor părți
 din mine cu deschiderea, pentru a descoperi noi fațete
 ale mele. Îmi ofer iubirea și înțelegerea de care am
 nevoie și las pacea interioară să se instaleze în mine.
+
+## CREIER - EPILEPSIE
 
 300. CREIER - EPILEPSIE
 Epilepsia este provocată de o comunicare deficitară
@@ -7257,6 +7648,8 @@ modalitate de a ieși din închisoarea pe care mi-am
 construit-o. Astfel îmi voi găsi adevărul și locul care mi
 se cuvine.
 
+## 301. CREIER - HEMIPLEGIE
+
 301. 301. CREIER - HEMIPLEGIE Vezi: CREIER /
 [ABCES AL...] / ACCIDENT VASCULAR CEREBRAL
 [A.V.C]
@@ -7287,6 +7680,8 @@ rănile, știind că orice experiență, oricât de grea ar fi, mă
 ajută să devin o persoană mai puternică și mai
 conștientă.
 
+## CREIER - HIDROCEFALIE
+
 302. CREIER - HIDROCEFALIE
 Hidrocefalia este un exces de lichid cefalorahidian în
 cavitatea creierului. În acest caz, mă întreb mereu care
@@ -7304,6 +7699,8 @@ Accept| ♥ să las să circule gândurile și emoțiile mele
 universul din jurul meu. Sunt sigur că am un rol de
 jucat aici și accept ↓♥ să îl descopăr și să mi-l asum.
 Trăiesc bucuria momentului prezent!
+
+## CREIER - HUNTINGTON [boala lui...] sau
 
 303. CREIER - HUNTINGTON [boala lui...] sau
 [COREE a lui...] Vezi: CREIER - TICURI
@@ -7336,6 +7733,8 @@ ascult simțurile și îmi acord timp pentru a savura
 fiecare moment al vieții, chiar și cele mai mărunte
 lucruri. Acest lucru mă va ajuta să mă reconectez, la
 viața de aici și îmi va conferi un echilibru mai mare.
+
+## CREIER - MENINGITĂ SISTEMIMUNITAR, CAP
 
 304. CREIER - MENINGITĂ Vezi: INFLAMAȚIE,
 SISTEMIMUNITAR, CAP
@@ -7400,6 +7799,8 @@ meu de stres și presiunea interioară se vor diminua.
 Învăț să „fiu” în toată simplitatea. Redevin astfel stăpân
 pe viața mea.
 
+## CREIER - PARALIZIE CEREBRALĂ
+
 305. CREIER - PARALIZIE CEREBRALĂ
 Paralizia cerebrală apare adeseori încă de la naștere
 și se manifestă printr-o anomalie la nivelul creierului.
@@ -7428,7 +7829,6 @@ prevedea medicina viitorului] și nu pot fi eliberat din
 această stare, în ciuda iubirii necondiționate și a
 atenției celor din jurul meu. Când apare o vindecare,
 aceasta este mai degrabă pe plan spiritual.
-
 
 NERVI, TREMURAT
 Boala lui Parkinson reprezintă deteriorarea centrilor
@@ -7511,6 +7911,7 @@ cu toate emoțiile care s-au acumulat în el în timpul
 acestor ani. Sunt eu însumi, cu inima ♥ mea de copil și
 acum îmi trăiesc viața într-un mod spontan.
 
+## CREIER - SINCOPĂ
 
 307. CREIER - SINCOPĂ
 Sincopa se definește prin pierderea completă a
@@ -7543,6 +7944,8 @@ asemenea situație? Știu că în orice împrejurare sunt
 conștient de viața din mine. Îmi reiau locul în univers și
 astfel pot respira din plin
 !
+## CREIER - SINDROMUL ADAMS-STOKES
+
 308. CREIER - SINDROMUL ADAMS-STOKES Vezi:
 CREIER - EPILEPSIE/SINCOPĂ, VERTIJ
 Sindromul Adams-Stokes este un accident
@@ -7571,6 +7974,7 @@ la noile situații în care voi experimenta și voi împărtăși
 bucuria și fericirea, precum și să dau și să primesc
 iubire.
 
+## CREIER - STARE VEGETATIVĂ CRONICĂ
 
 309. CREIER - STARE VEGETATIVĂ CRONICĂ
 Vezi: CRONICĂ [BOALĂ...]
@@ -7590,6 +7994,8 @@ plecarea mea din această lume și să își exprime iubirea
 față de mine, în timp ce eu, mă pot pregăti în liniște să
 părăsesc această lume, pentru a trece la o realitate și la
 un nivel de conștiință superioare.
+
+## CREIER - TICURI
 
 310. CREIER - TICURI
 Ticurile, definite ca fiind executarea spontană de
@@ -7632,6 +8038,7 @@ arată că eu caut mereu atenția și privirea celorlalți.
 Accept ↓♥ să conștientizez această stare, să curăț
 blocajele din trecut și să îmi exprim clar nevoile.
 
+## CREIER [tumoră la...]
 
 311. CREIER [tumoră la...]
 Tumora este o proliferare excesivă a celulelor
@@ -7684,12 +8091,22 @@ mea personală mă va ajuta să ating acest țel. Accept ↓♥
 să-mi ascult mai mult vocea interioară, să fiu mai
 spontan și las la o parte controlul mentalului meu.
 
+## CREVASA CUTANATĂ
+
 312. CREVASA CUTANATĂ Vezi: PIELE - RIDURI
+## CRIZĂ CARDIACĂ
+
 313. CRIZĂ CARDIACĂ Vezi: INIMĂ ♥ -
 INFARCT[... DE MIOCARD]
+## CRIZĂ DE FICAT
+
 314. CRIZĂ DE FICAT Vezi: INDIGESTIE
+## CROHN [boala lui...]
+
 315. CROHN [boala lui...] Vezi: INTESTINE -
 CROHN [boala lui...]
+## CRONICĂ [boală cronică...]
+
 316. CRONICĂ [boală cronică...]
 Cuvântul cronic provine de la „chronos” care
 înseamnă timp. O boală cronică poate să se instaleze în
@@ -7724,12 +8141,24 @@ mai ușor soluțiile care, dacă nu îmi vor vindeca complet
 boala, mă vor ajuta să îmi îmbunătățesc sănătatea
 fizică, emoțională și mentală.
 
+## CRUP
+
 317. CRUP Vezi: GÂT - LARINGITĂ
+## CRUSTĂ
+
 318. CRUSTĂ Vezi: PIELE - ECZEMĂ
+## CUADRIPLEGIE GENERAL..]
+
 319. CUADRIPLEGIE Vezi: PARALIZIE [ÎN
 GENERAL..]
+## CULPABILITATE
+
 320. CULPABILITATE Vezi: ACCIDENT
+## CUPEROZĂ
+
 321. CUPEROZĂ Vezi: PIELE - ACNEEROZACEE
+## CURBATURA
+
 322. CURBATURA
 Curbatura este o senzație de durere, de oboseală
 musculară după un efort neobișnuit. Poate fi, de
@@ -7753,8 +8182,6 @@ mișc în direcția cea bună, fără să fiu în reacție. Accept
 ↓♥ să fiu ceea ce sunt, să trăiesc în prezent, știind că
 viața îmi împlinește nevoile interioare cele mai
 importante.
-
-
 
 SUPRARENALE
 Reprezintă o consecință a unei producții în exces a
@@ -7788,7 +8215,11 @@ am încredere în mine.
 Accept ↓♥ să îmi ocup locul cuvenit și să trăiesc în
 funcție de ceea ce simt și ceea ce sunt.
 
+## CUTICULE
+
 324. CUTICULE Vezi: DEGETE - CUTICULE
+## DALTONIAN
+
 325. DALTONIAN Vezi: OCHI - DALTONISM [NON-
 PERCEPȚIA CULORILOR]
 
@@ -7814,8 +8245,12 @@ valorile mele profunde. Învăț să mă poziționez și preiau
 controlul asupra vieții mele, știind că nimeni nu mă
 poate atinge. Sunt tot timpul protejat și îndrumat.
 
+## DEFICIENȚĂ DE AUZ SURDITATE
+
 327. DEFICIENȚĂ DE AUZ Vezi: URECHI-
 SURDITATE
+## DEGETE [în general]
+
 328. DEGETE [în general]
 Degetele reprezintă prelungirea mâinilor și
 instrumentul care mă ajută să îmi manifest acțiunile în
@@ -7870,6 +8305,8 @@ contravine principiilor mele de etică.
 necesar pentru a face câte un lucru o dată, deoarece îmi
 accept ↓♥ dimensiunea umană și nu mai sunt
 nerăbdător, deoarece astfel avansez prea repede.
+
+## DEGETE - DEGETUL MARE
 
 329. DEGETE - DEGETUL MARE
 
@@ -7942,6 +8379,8 @@ ajută să mă detașez de dependențele familiale de care
 eram agățat. Mă eliberez de prea-plinul de gânduri și
 accept ↓♥ să fiu stăpân pe viața mea.
 
+## DEGETE - DEGETUL ARĂTĂTOR
+
 330. DEGETE - DEGETUL ARĂTĂTOR
 Degetul arătător este degetul judecării și al
 cunoașterii și corespunde mirosului. Reprezintă ego-ul
@@ -7992,7 +8431,7 @@ sentimente pe care le am. Îmi deschid spiritul.
 Îndrăznesc să mă privesc în oglindă și să am grijă de
 mine, în loc să îi arăt pe ceilalți cu degetul.
 
-
+## DEGETE - DEGETUL MIJLOCIU
 
 331. DEGETE - DEGETUL MIJLOCIU
 Degetul mijlociu, degetul cel mai lung al mâinii,
@@ -8034,6 +8473,8 @@ doar un mijloc de a umple un gol interior. Învăț să îmi
 creez viața în fiecare zi. În loc să insist pe imagine și pe
 aspectele superficiale, îmi fondez viața pe valorile mele și
 pe - prioritățile mele interioare.
+
+## DEGETE - DEGETUL INELARUL
 
 332. DEGETE - DEGETUL INELARUL
 Inelarul, nume care vine de la „inel” simbolizează
@@ -8078,6 +8519,8 @@ mult mai armonioase și să învăț astfel să dialoghez.
 Accept| ♥ să mă împlinesc, să evoluez, să fiu fericit fiind
 în același timp în armonie cu cei din jurul meu.
 
+## DEGETE - DEGETUL MIC
+
 333. DEGETE - DEGETUL MIC
 Degetul mic este legat direct de inimă ♥. Reprezintă
 familia și toate aspectele legate de familie, mai ales
@@ -8120,7 +8563,6 @@ lume în care aparențele sunt mai importante decât
 ființa, am posibilitatea acum de a reveni la lucrurile
 simple și la mine însumi.
 
-
 ARTRITĂ [ÎN GENERAL]
 Artrita este o inflamare dureroasă a articulațiilor,
 care simbolizează critica, autopedepsirea, reprobarea, o
@@ -8132,6 +8574,8 @@ să mă conducă.
 Accept ↓♥ să mă iubesc și să mă iert, deoarece dacă
 eu nu mă iubesc, cum ar putea ceilalți să mă iubească?
 
+## DEGETE - CUTICULE
+
 335. DEGETE - CUTICULE
 Cuticula este un strat subțire de piele, un soi de
 peliculă care se formează la baza unghiilor. Cu cât este
@@ -8142,6 +8586,8 @@ Accept să văd faptul că sunt o ființă umană în
 evoluție și fac tot ce pot. Încetez să mă mai judec atât de
 sever și mă accept așa cum sunt pentru a putea merge
 mai departe în mod armonios.
+
+## DEGETE DE LA PICIOARE
 
 336. DEGETE DE LA PICIOARE
 Degetele de la picioare reprezintă detaliile legate de
@@ -8235,6 +8681,8 @@ Având încredere în alegerile și direcțiile pe care trebuie
 să apuc, degetele mele de la picioare vor fi în plină formă
 și sănătoase. Voi avansa în viață cu convingere.
 
+## DEMENȚA SENILITATE
+
 337. DEMENȚA Vezi: ALZEIMER [BOALA LUI...],
 SENILITATE
 
@@ -8260,6 +8708,8 @@ pentru a reorganiza anumite aspecte devenite nocive
 pentru mine și pentru a gusta viața din plin. Accept ↓♥
 să îmi concentrez atenția doar pe aspectele pozitive ale
 vieții.
+
+## DEPENDENȚĂ DROGURI
 
 339. DEPENDENȚĂ Vezi: ALCOOLISM, FUMAT,
 DROGURI
@@ -8334,8 +8784,12 @@ deveni autonom deoarece merit să fiu respectat și iubit
 și pentru că îmi accept]. ♥ din plin valoarea și calitățile,
 care fac din mine o ființă excepțională.
 
+## DEPIGMENTARE LEUCODERMIE
+
 340. DEPIGMENTARE Vezi: PIELE -
 LEUCODERMIE
+## DEPOZITE DE CALCIU
+
 341. DEPOZITE DE CALCIU
 Calciul este un mineral care corespunde energiei
 celei mai „rigide” a corpului uman, oasele. Calciul este
@@ -8358,6 +8812,8 @@ cu ceilalți. Astfel rămân autonom, liber și plin de
 înțelepciune!
 Marele Dicționar al Bolilor și Afecțiunilor - Cauzele
 subtile ale îmbolnăvirii 177
+
+## DEPRESIE
 
 342. DEPRESIE Vezi: NEURASTENIE
 
@@ -8519,9 +8975,15 @@ le car după mine decât pentru a le conștientiza. Sunt eu
 însumi, pur și simplu. Dacă încetez să mai creez o
 presiune inutilă, depresia va dispărea.
 
+## DERMATITĂ
+
 343. DERMATITĂ Vezi: PIELE - DERMATITĂ
+## DERMATITA SEBOREICĂ ECZEMĂ
+
 344. DERMATITA SEBOREICĂ Vezi: PIELE -
 ECZEMĂ
+## DESHIDRATAREA CORPULUI
+
 345. DESHIDRATAREA CORPULUI
 Deshidratarea celulară este un deficit de apă și
 sodiu. Este asociată cu demineralizarea. Există undeva
@@ -8543,9 +9005,15 @@ toate emoțiile să se exprime prin intermediul
 creativității. Am grijă de mine, deoarece nimeni nu poate
 face acest lucru în locul meu.
 
+## DESPRINDEREA DINȚILOR
+
 346. DESPRINDEREA DINȚILOR Vezi: DINȚI
 [DURERE DE.,.]
+## DIABET
+
 347. DIABET Vezi: SÂNGE - DIABET
+## DIAFRAGMĂ
+
 348. DIAFRAGMĂ
 Diafragma este membrana musculară care separă
 partea superioară [plămânii și inima ♥] de partea
@@ -8582,7 +9050,11 @@ văd viața într-un mod total diferit. Îmi exprim liber, aici
 și acum, gândurile, sentimentele și emoțiile profunde.
 Viața mea este plină de frenezie și entuziasm!
 
+## DIAREE
+
 349. DIAREE Vezi: INTESTINE - DIAREE
+## DIAREEA CĂLĂTORULUI DIAREE
+
 350. DIAREEA CĂLĂTORULUI Vezi: INTESTINE -
 DIAREE
 
@@ -8618,7 +9090,11 @@ mijloc foarte bune de a-mi exersa gâtul și de a celebra
 viața. Dacă mă iubesc și mă respect, ceilalți mă voi iubi
 și mă vor respecta la rândul lor.
 
+## DIGESTIE [durere de...]
+
 352. DIGESTIE [durere de...] Vezi: INDIGESTIE
+## DINȚI [în general]
+
 353. DINȚI [în general]
 Dinții simbolizează deciziile, poarta de intrare solidă
 care mă ajută să mușc din plin din viață! Realitățile
@@ -8704,6 +9180,8 @@ mă judec, fiind în același timp deschis în fața criticilor
 celorlalți, îmi transform gândurile în iubire veritabilă și
 dinții mei rămân sănătoși.
 
+## DINTE [abces la rădăcina dintelui...]
+
 354. DINTE [abces la rădăcina dintelui...]
 Deoarece acest abces se află în țesutul care acoperă
 rădăcina dintelui, acest lucru arată furia mea față de o
@@ -8725,6 +9203,8 @@ Accept ↓♥ să iau acea decizie cu cât mai multă
 iubire și armonie, ținând cont de valorile cele mai
 elevate care-mi guvernează viața, respectându-mă pe
 mine și pe ceilalți.
+
+## DINȚI [carie dentară]
 
 355. DINȚI [carie dentară]
 Caria dentară este manifestarea unei dureri
@@ -8784,6 +9264,8 @@ bine să o înlocuiesc printr-o altă hrană mai sănătoasă și
 mai echilibrată? Abordez viața cu mai multă pasiune și
 astfel ajut măselele de minte să se dezvolte și să se
 întărească. Va fi mult mai bine pentru mine!
+
+## DINȚI [durere de...]
 
 356. DINȚI [durere de...]
 Problemele dentare sunt legat de decizii, mai ales
@@ -8874,6 +9356,8 @@ sus, mă gândesc la intuiție și la instinct, în cazul celor
 de jos, este vorba despre o decizie din planul rațional și
 logic, ceva de ordinul voinței fizice.
 
+## DINȚI - PROTEZĂ, IMPLANT DENTAR
+
 357. DINȚI - PROTEZĂ, IMPLANT DENTAR
 Proteza dentară îmi dă iluzia unei vitalități
 puternice. De fapt, la fel ca și dinții adevărați, dă
@@ -8894,7 +9378,6 @@ intuitivă, Yin. Acest lucru mă împiedică să devin
 autonom. Încetez să mai trăiesc în funcție de ceilalți.
 Accept ↓♥ să fiu eu însumi și îmi regăsesc satisfacția
 și fericirea de a mă afirma.
-
 
 Dinții reprezintă deciziile și o anumită formă de
 agresivitate. Scrâșnirea dinților, denumită și bruxism,
@@ -8929,8 +9412,7 @@ trăiesc mai multă tensiune interioară decât faptul de a
 prelua inițiativele care se impun. Atunci când iau o
 decizie, mă eliberez și mă simt mai împlinit.
 
-
-
+## DINȚI [simbolism al dinților...]
 
 359. DINȚI [simbolism al dinților...]
 N.B. Poziționarea se face cu fața la persoană. Prin
@@ -9131,7 +9613,6 @@ față de cei din jurul meu, iar măseaua de minte
 inferioară dreaptă [#48] influențată de capacitatea mea
 de a mă integra în lumea fizică, de a r fi bine ancorat.
 
-
 DINȚI - SIMBOLISMUL....
 Mintea, înțelepciunea este o mare calitate. Am
 fericirea de a o manifesta în această viață. Mă ajută să
@@ -9151,7 +9632,11 @@ mai solid pentru viața mea. Accept ↓♥ să las natura să
 își urmeze cursul și să îmi deschid conștiința pentru a
 evolua și a vedea schimbările din mine!
 
+## DISC DEPLASAT
+
 361. DISC DEPLASAT Vezi: HERNIE DISCALĂ
+## DISC INTERVERTEBRAL
+
 362. DISC INTERVERTEBRAL Vezi: SPATE
 [DURERE DE]... J/LOMBAGO, HERNIE DE DISC
 Un disc intervertebral este cartilagiul elastic care
@@ -9187,8 +9672,12 @@ opiniile celorlalți. Astfel îmi recunosc valoarea și sunt
 mai obiectiv cu privire la ajutorul pe care îl ofer
 celorlalți.
 
+## DISCARTROZĂ INTERVERTEBRAL
+
 363. DISCARTROZĂ Vezi: DISC
 INTERVERTEBRAL
+## DISLEXIE
+
 364. DISLEXIE
 Dislexia este o dificultate de învățare a cititului și a
 scrisului, fără să aibă vreo legătură cu deficiența
@@ -9244,15 +9733,27 @@ lucrurile care nu îmi convin, deoarece vreau să trăiesc
 conștientizez faptul că regulile există pentru a mă
 recadra, pentru a mă sprijini și a mă îndruma.
 
+## DISLOCARE
+
 365. DISLOCARE Vezi: OASE - DISLOCARE
+## DISMENOREE
+
 366. DISMENOREE Vezi: MENSTRUAȚIE
 [DURERIDE...]
+## DISTROFIE MUSCULARA
+
 367. DISTROFIE MUSCULARA Vezi: MUȘCHI -
 DISTROFIE MUSCULARĂ
+## DIVERTICULITĂ DIVERTICUUTĂ
+
 368. DIVERTICULITĂ Vezi: INTESTINE -
 DIVERTICUUTĂ
+## DIZENTERIE INTESTINE/DIAREE/DIZENTERIE
+
 369. DIZENTERIE Vezi:
 INTESTINE/DIAREE/DIZENTERIE
+## DREPTATE [eu am...]
+
 370. DREPTATE [eu am...]
 Dacă manifest to timpul o atitudine care transmite
 mesajul „eu am dreptate”. r este cazul să mă întreb: „de
@@ -9270,7 +9771,6 @@ Acceptând ↓♥ să îi ascult pe ceilalți; oferindu-mi
 ceilalți să își exprime propriile păreri, îmi amplific
 nivelul de iubire, de deschidere, de libertate prin
 respectul reciproc și comunicare.
-
 
 Un adevărat flagel al umanității, drogurile constituie
 una dintre cele mai dăunătoare forme de evadare a
@@ -9327,7 +9827,6 @@ dezamăgit, m-a trădat?
 Opiumul: aduce o stare de plăcere, de toropeală, de
 lene și o falsă impresie de pace interioară.
 
-
 Duodenul este partea inițială și cea mai scurtă a
 intestinului subțire, după pilor, se continuă cu jejunul
 și ileonul; ultima parte. Cea mai mare parte a digestiei și
@@ -9363,8 +9862,12 @@ capacitatea de a mă adapta. Regăsindu-mi pacea
 interioară, acest foc care mă ardea în interior se va
 stinge și duodenul meu va fi mai sănătos.
 
+## DUPUYTREN DVPUYTREN
+
 373. DUPUYTREN Vezi: MÂINI - BOALA
 DVPUYTREN
+## DURERE
+
 374. DURERE
 Durerea este unul din mijloacele pe care corpul le
 folosește pentru a-mi atrage atenția și a-mi spune că
@@ -9424,15 +9927,29 @@ originea durerii mele și să rămân deschis pentru a
 rezolva adevărata cauză. Locul în care este localizată
 durerea îmi arată cauzele reale ale acesteia.
 
+## DURERE CARDIACA
+
 375. DURERE CARDIACA Vezi: INIMĂ ♥ -
 PROBLEME CARDIACE
+## ECHILIBRU [pierderea...] SAU AMEȚEALA
+
 376. ECHILIBRU [pierderea...] SAU AMEȚEALA
 Vezi: CREIER - ECHILIBRU [PIERDEREA
 ECHILIBRULUI]
+## ECHIMOZĂ
+
 377. ECHIMOZĂ Vezi: PIELE - VÂNĂTĂI
+## ECLAMPSIE
+
 378. ECLAMPSIE Vezi: SARCINĂ - ECLAMPSIE
+## ECTROPION
+
 379. ECTROPION Vezi: PLEOAPE [ÎN GENERAL...]
+## ECZEMĂ
+
 380. ECZEMĂ Vezi: PIELE - ECZEMĂ
+## EDEM
+
 381. EDEM
 Edemul este o umflătură cauzată de o reținere de
 apă. Umflăturile apar foarte des la glezne și la picioare.
@@ -9497,6 +10014,8 @@ timp, îmi voi recâștiga energia. Înțelegerea mea față de
 ceilalți se va dezvolta, deoarece mă exprim și mă înțeleg
 mai bine eu însumi.
 
+## EGOCENTRISM
+
 382. EGOCENTRISM
 Când sunt egocentric, am tendința de a raporta la
 mine tot ceea ce se întâmplă în jurul meu. Mă consider
@@ -9513,6 +10032,8 @@ al celorlalți. Sunt mai deschis spre sensibilitate. Încetez
 
 să mă ocup doar de mine și sunt mai deschis spre
 comunicare, spre prietenie, spre iubire: ofer și primesc.
+
+## EJACULARE PRECOCE
 
 383. EJACULARE PRECOCE
 Ejacularea precoce sau prematură poate avea
@@ -9546,16 +10067,28 @@ această culpabilitate pe care am trăit-o în copilărie sau
 să-mi diminuez anxietatea mea de a deveni mai bun și
 să-mi dezvolt astfel încrederea în mine.
 
+## EMBOLIE SANGUINĂ/COAGULARE
+
 384. EMBOLIE Vezi: SÂNGE - CIRCULAȚIA
 SANGUINĂ/COAGULARE
+## EMBOLIE ARTERIALA ARTERE
+
 385. EMBOLIE ARTERIALA Vezi: SÂNGE -
 ARTERE
+## EMBOLIE CEREBRALĂ
+
 386. EMBOLIE CEREBRALĂ Vezi: CREIER,
 DURERE DE...
+## EMBOLIE PULMONARA
+
 387. EMBOLIE PULMONARA Vezi: PLĂMÂNI
 [DURERE DE...]
+## EMISFERA DREAPTĂ SI STÂNGĂ
+
 388. EMISFERA DREAPTĂ SI STÂNGĂ Vezi:
 CREIER [ÎN GENERAL]
+## EMOTIVITATE
+
 389. EMOTIVITATE
 Emotivitatea sau mai degrabă, hiperemotivitatea,
 este o stare în care toate emoțiile sunt pe cale de a
@@ -9588,10 +10121,18 @@ adevăratele nevoi și voi învăța să am încredere,-
 deoarece știu că totul vine spre mine într-un mod
 perfect, pentru evoluția mea.
 
+## EMPIEM
+
 390. EMPIEM Vezi: ABCES
+## ENCEFALITĂ
+
 391. ENCEFALITĂ Vezi: CREIER - ENCEFALITĂ
+## i92, ENCEFALOMIELITĂ FIBROMIALGICĂ
+
 392. i92, ENCEFALOMIELITĂ FIBROMIALGICĂ
 Vezi: OBOSEALA CRONICĂ [SINDROM DE...]
+## ENDOMETRIOZĂ
+
 393. ENDOMETRIOZĂ
 Endometrioza este formarea unor fragmente de
 mucoasă în exteriorul peretelui uterin. Este legată de
@@ -9640,12 +10181,22 @@ ceea ce sunt și nu mail as pe nimeni să abuzeze de
 mine. Toți mă vor respecta și astfel, mă voi împlini și îmi
 voi exprima liber creativitatea.
 
+## ENTERITĂ ENTERITĂ
+
 394. ENTERITĂ Vezi: INTESTINE - GASTRO-
 ENTERITĂ
+## ENTORSĂ
+
 395. ENTORSĂ Vezi: ARTICULAȚII - ENTORSĂ
+## ENUREZIE
+
 396. ENUREZIE Vezi: INCONTINENȚĂ
+## EPICONDILITĂ EP1CONDIL1TĂ
+
 397. EPICONDILITĂ Vezi: COATE -
 EP1CONDIL1TĂ
+## EPIDEMIE
+
 398. EPIDEMIE
 O epidemie înseamnă răspândirea unei boli
 contagioase. Este tratată de obicei ca o boală de origine
@@ -9665,6 +10216,8 @@ indice ce anume trebuie să conștientizez în viața mea.
 Accept ↓♥ să redau iubirea acelei părți din mine care
 are nevoie de ea, pentru a-și regăsi pacea interioară și
 armonia.
+
+## EPIFIZĂ
 
 399. EPIFIZĂ Vezi: GLANDA PINEALĂ
 
@@ -9692,12 +10245,22 @@ a comunica. Alegând noi direcții în viață, voi lăsa la o
 parte gândurile negative și voi putea în sfârșit să îmi
 concentrez atenția pe lucruri mai pozitive.
 
+## EPILEPSIE
+
 401. EPILEPSIE Vezi: CREIER - EPILEPSIE
+## EPISTAXIS NAZALĂ...]
+
 402. EPISTAXIS Vezi: NAS [SÂNGERARE
 NAZALĂ...]
+## EPUIZARE
+
 403. EPUIZARE Vezi: BURNOUT
+## ERECȚIE - DISFUNCȚII ERECTILE IMPOTENȚĂ
+
 404. ERECȚIE - DISFUNCȚII ERECTILE Vezi:
 IMPOTENȚĂ
+## ERITEM SOLAR
+
 405. ERITEM SOLAR Vezi: INSOLAȚIE
 
 GENERAL...]
@@ -9730,8 +10293,12 @@ prea repede, trec pe lângă atâtea lucruri frumoase, care
 a trăi, mă simt mai puțin sufocat de ritmul trepidant al
 vieții și mă aștept la tot ce este mai bun.
 
+## ERUPȚIE [...de coșuri]
+
 407. ERUPȚIE [...de coșuri] Vezi: PIELE -
 ERUPȚIE [... DE COȘURI]
+## ESOFAG
+
 408. ESOFAG
 Esofagul este locul de trecere a alimentelor, care
 leagă faringele de stomac. Esofagul lasă să treacă cu
@@ -9806,13 +10373,23 @@ Accept ↓♥ să îmi exprim voința sau ceea ce doresc și
 astfel le voi ușura decizia celorlalți, când va fi cazul și ei
 vor fi mai împăcați cu alegerea pe care o vor face.
 
+## EWING [sarcomul lui...]
+
 410. EWING [sarcomul lui...] Vezi: OASE [CANCER
 DE...] - SARCOMJJL LUIEWING
+## EXCES DE APETIT DE...]
+
 411. EXCES DE APETIT Vezi: APETIT [EXCES
 DE...]
+## EXCES DE GREUTATE
+
 412. EXCES DE GREUTATE Vezi: GREUTATE
 [EXCES DE...]
+## EXCRESCENȚĂ
+
 413. EXCRESCENȚĂ Vezi: POLIPI
+## EXHIBIȚIONISM
+
 414. EXHIBIȚIONISM
 Exhibiționismul este tratat în legătură cu exhibarea
 organelor genitale. Este strâns legat de educația pe care
@@ -9848,6 +10425,8 @@ respect voi dobândi forța necesară care mă va ajuta să
 ceilalți vor face la fel și voi putea avea o relație
 frumoasă, de comunicare și comuniune.
 
+## EXOFTALMIE
+
 415. EXOFTALMIE Vezi: OCHI [DURERE DE...]
 
 GENERAL], SÂNGE - HIPOGUCEMIE, TENSIUNE
@@ -9869,8 +10448,14 @@ Acest lucru mă va ajuta să îmi „ridic moralul”. Reiau
 contactul cu sufletul meu, care mă va îndruma, pentru
 a-mi regăsi bucuria de a trăi.
 
+## EXTINCȚIA A VOCII
+
 417. EXTINCȚIA A VOCII Vezi-AFONIE
+## FALLOPE [trompele lui...]
+
 418. FALLOPE [trompele lui...] Vezi: SALPINGITĂ
+## FANTA PALATINĂ - GURĂ DE LUP- CONGENITALĂ
+
 419. FANTA PALATINĂ - GURĂ DE LUP-
 CONGENITALĂ
 Fanta palatină, congenitală numită popular gură de
@@ -9900,8 +10485,14 @@ Fiind eu însumi, pot să reiau contactul cu esența mea
 divină și să știu exact ce drum să aleg. Pot să îmi exprim
 liber nevoile și să trec la acțiune.
 
+## FANTĂ VULVARĂ
+
 420. FANTĂ VULVARĂ Vezi: VULVĂ
+## FARINGITĂ
+
 421. FARINGITĂ Vezi: GÂT - FAR1NGITĂ
+## FASCIITĂ NECROZANTĂ
+
 422. FASCIITĂ NECROZANTĂ Vezi: BACTERIE
 CARE MĂNÂNCĂ DIN CARNE
 
@@ -9950,6 +10541,8 @@ pentru acceptare J.Y și mai multă deschidere. Fața mea
 va fi mai luminoasă și nu voi mai fi nevoit să port o
 mască.
 
+## FAȚĂ LĂSATĂ, MOALE
+
 424. FAȚĂ LĂSATĂ, MOALE
 Trăsăturile feței sunt lăsate, moi atunci când am
 sentimentul că ceva mă lasă baltă, sau că eu însumi mă
@@ -9963,6 +10556,8 @@ să îmi recapăt pofta de viață, îmi acord permisiunea de a
 
 profita de fiecare moment din viață și îl las pe copilul
 meu interior să se manifeste.
+
+## FEBLITĂ
 
 425. FEBLITĂ Vezi: SÂNGE - FEBUTĂ
 
@@ -10013,6 +10608,8 @@ preocupă. Dacă îi accept ↓♥ pe ceilalți așa cum sunt,
 atrag înțelegerea acestora. Redevenind eu însumi,
 armonia va reapărea în viața mea.
 
+## FEBRA FÂNULUI FÂNULUI
+
 428. FEBRA FÂNULUI Vezi: ALERGIE - FEBRA
 FÂNULUI
 
@@ -10055,6 +10652,8 @@ principii care există în mine [feminin și masculin]. Unul
 îl completează pe celălalt pentru a aduce echilibrul
 spiritual, emoțional și fizic al ființei mele.
 
+## FEMININE [afecțiuni...]
+
 430. FEMININE [afecțiuni...]
 Afecțiunile feminine indică faptul că am dificultăți în
 a accepta ↓♥ să fiu femeie. Nici măcar nu știu cum să
@@ -10078,10 +10677,16 @@ Fiecare femeie are maniera ei personală de a-și exprima
 feminitatea, rămâne ca și eu să o aleg pe a mea. Îmi voi
 da seama cât de fericită sunt pentru că sunt femeie.
 
+## FEMUR SUPERIOARĂ
+
 431. FEMUR Vezi: PICIOR - PARTEA
 SUPERIOARĂ
+## FERMENTAȚIE DE...]
+
 432. FERMENTAȚIE Vezi: STOMAC [DURERI
 DE...]
+## FESE
+
 433. FESE
 Fesele sunt partea cărnoasă a corpului, pe care mă
 așez, iau loc, LOCUL MEU. Simbolizează puterea mea,
@@ -10120,6 +10725,8 @@ două luntri” sau că tot timpul este cineva lipit de mine.
 Accept ↓♥ să mă relaxez și să merg mai departe,, să
 fiu deschis în fața noilor experiențe. Accept ↓♥ să-mi
 dezvolt puterea socială în armonie cu ceilalți.
+
+## FIBRILAȚIE VENTRICULARĂ
 
 434. FIBRILAȚIE VENTRICULARĂ Vezi: INIMĂ ♥ -
 ARITMIE CARDIACĂ
@@ -10191,6 +10798,8 @@ pentru mine. Încetez să mai trăiesc în trecut. Mă îndrept
 spre viitor, știind că sunt îndrumată. Îmi folosesc
 creativitatea pentru a-mi împlini pasiunile și visele.
 
+## FIBROMATOZĂ FIBROMATOZĂ
+
 436. FIBROMATOZĂ Vezi: MUȘCHI -
 FIBROMATOZĂ
 
@@ -10247,8 +10856,14 @@ orice altă activitate care îmi readuce pofta de viață și
 bucuria de a trăi. Astfel mă voi împlini și voi ajunge să
 găsesc pacea interioară.
 
+## FIBROZĂ CHISTICĂ
+
 438. FIBROZĂ CHISTICĂ Vezi: MUCOVISCIDOZĂ
+## FIBROZĂ
+
 439. FIBROZĂ Vezi: SCLEROZĂ
+## FICAT [abces la...]
+
 440. FICAT [abces la...]
 O acumulare de puroi produce un abces la ficat. Iar
 cum ficatul are legătură cu critica, abcesul la ficat,
@@ -10270,6 +10885,8 @@ iubirea din mine. Accept ↓♥ să fiu activ, să îmi trăiesc
 pasiunile și să îmi împlinesc visele. Astfel întrețin mai
 mult viața din mine. Am încredere în mine și în
 potențialul meu creator.
+
+## FICAT - CIROZA [... a ficatului]
 
 441. FICAT - CIROZA [... a ficatului]
 
@@ -10321,6 +10938,8 @@ trecut prea greu și prea nefast pentru mine. Am
 încredere în mine și accept ↓♥ să încep o nouă viață,
 plină de libertate, de spontaneitate și de iubire.
 
+## FICAT [congestie la...]
+
 442. FICAT [congestie la...] Vezi: CONGESTIE
 
 Ficatul asigură metabolismul alimentelor, elimină
@@ -10356,7 +10975,6 @@ concentrez atenția doar pe aspectele pozitive. Astfel voi
 dobândi un nou mod de a privi viața. Voi avea o
 deschidere mai mare și iubirea va circula mai ușor în
 interiorul și în jurul meu.
-
 
 BILIARI, ICTER
 Ficatul este cel mai voluminos organ al
@@ -10435,7 +11053,6 @@ lucrurile pozitive să fie rațiunea mea de a fi. Îmi
 recunosc dorințele, învăț să mă respect și aceste noi
 energii pozitive vor alunga boala.
 
-
 INFECȚIE, INFLAMAȚIE, ICTER
 Hepatita este o inflamație a ficatului provocată de
 un virus, de bacterii, alcool, medicamente, o transfuzie
@@ -10513,7 +11130,11 @@ să îmi realizez potențialul. Elimin tot ceea ce îmi face
 rău și accept ↓♥ să primesc bucuria în viața mea,
 deoarece o merit!
 
+## FICAT [pietre la...]
+
 446. FICAT [pietre la...] Vezi: CALCUUBILIARI
+## FISTULĂ
+
 447. FISTULĂ
 Fistula reprezintă formarea unui canal de legătură
 anormal între două organe [fistula internă] sau un organ
@@ -10537,9 +11158,15 @@ prezent și să îmi ascult intuiția. Viața este. o școală în
 care învăț. Dacă îmi blochez procesul de învățare, îmi
 voi bloca și evoluția.
 
+## FISTULE ANALE ANALE
+
 448. FISTULE ANALE Vezi: ANUS - FISTULE
 ANALE
+## FISURI ANALE
+
 449. FISURI ANALE Vezi: ANUS – FISURI ANALE
+## FLATULENȚĂ
+
 450. FLATULENȚĂ Vezi: GAZE
 
 FURIE
@@ -10592,6 +11219,8 @@ exprime, pentru a mă reconecta cu puterea mea divină
 creatoare. Angoasa mea se va topi și îmi voi recăpăta
 controlul asupra vieții mele!
 
+## FOLICULITĂ
+
 452. FOLICULITĂ Vezi: PĂR [BOLIDE...]
 
 OSOASĂ]
@@ -10630,6 +11259,8 @@ frica cu încredere. Am deplină putere asupra vieții mele.
 Cer tot timpul să fiu protejat și îndrumat în acțiunile
 mele sau în vorbele mele, pentru binele tuturor.
 
+## FRIG - HIPOTERMIE
+
 455. FRIG - HIPOTERMIE
 Hipotermia apare atunci când mentalul meu este
 rece, înțepenit. Mă simt acuzat și amenințat. Hipotermia
@@ -10649,6 +11280,8 @@ judec. Acționez cu mai multă suplețe față de mine
 însumi. Ceilalți nu sunt decât oglinda mea. În viață, tot
 ceea ce mi se întâmplă are rolul de a mă ajuta să-mi
 depășesc limitele, pentru a evolua.
+
+## FRIG, FRISON
 
 456. FRIG, FRISON
 
@@ -10716,7 +11349,11 @@ mod de a compensa un gol interior, este răspunderea
 mea să comunica acest lucru. Astfel nu va exista niciun
 joc de putere, ci doar o comunicare plină de iubire.
 
+## FRIGURI DE BALTĂ
+
 458. FRIGURI DE BALTĂ Vezi: MALARIA
+## FRILOZITATE
+
 459. FRILOZITATE
 Sufăr de filozitate dacă îmi este frică de frig sau am
 o mare sensibilitate la frig. Această frilozitate apare de
@@ -10754,6 +11391,8 @@ mele. Am nevoie sa ies din cochilia mea și să exprim
 ceea ce sunt. Acceptând ↓♥ iubirea reiau contactul cu
 mine însumi și cu cei din jurul meu.
 
+## FRUNTE
+
 460. FRUNTE
 Fruntea este situată la nivelul creierului și, deoarece
 face parte din cap, reprezintă individualitatea mea și
@@ -10781,6 +11420,8 @@ prea importantă și este vital să mă respect în ceea ce
 sunt, fiind deschis la opiniile altora și știind, în același
 timp, că am dreptul de a avea o opinie diferită. Îmi fixez
 frontierele pentru a păstra spațiul care îmi aparține mie.
+
+## FUMAT
 
 461. FUMAT Vezi: BUERGER [BOALA LUI...],
 CANCER LA LIMBĂ, DEPENDENȚA PLĂMÂNI
@@ -10850,6 +11491,8 @@ pot dispărea dacă mă simt liber să evoluez în propriul
 meu ritm. Savurez fiecare moment și mă simt în
 siguranță, deoarece știu că merit să fiu iubit.
 
+## 462. FURIE
+
 462. 462. FURIE Vezi: ANEXA III, DURERB,
 FICAT, INFECȚII
 Furia este o exaltare a stării afective și un mod de
@@ -10890,6 +11533,8 @@ manifesta aici și acum. Sunt atent și vigilent la toate
 semnele care indică o eventuală furie și nu mă las inutil
 prins de aceasta.
 
+## FURNICĂTURI
+
 463. FURNICĂTURI
 Furnicăturile reprezintă o senzație la suprafața
 corpului, care apare de obicei spontan, după
@@ -10900,10 +11545,16 @@ aspect din viața mea.
 Accept ↓♥ să conștientizez acest lucru și las energia
 să circule liber.
 
+## FURUNCULI
+
 464. FURUNCULI Vezi: PIELE - FURUNCULI
+
+## FURUNCULI VAGINALI
 
 465. FURUNCULI VAGINALI Vezi: PIELE -
 FURUNCUL VAGINAL
+## GAMBE INFERIOARĂ
+
 466. GAMBE Vezi: PICIOARE -GAMBE-PARTEA
 INFERIOARĂ
 
@@ -10971,9 +11622,15 @@ să mă respect, trasând anumite limite, să mă exprim
 atunci când există un prea-plin de emoții și relațiile
 mele vor deveni astfel mai autentice.
 
+## GASTRITĂ
+
 468. GASTRITĂ Vezi: STOMAC - GASTRITĂ
+## GASTRO-ENTERITĂ GASTRO-ENTERITĂ
+
 469. GASTRO-ENTERITĂ Vezi: INTESTINE -
 GASTRO-ENTERITĂ
+## GÂT [în general, partea exterioară]
+
 470. GÂT [în general, partea exterioară]
 Gâtul este partea corpului care susține capul.
 Această legătură dintre corp și spirit este puntea care
@@ -11012,8 +11669,6 @@ energie al comunicării. Gâtul corespunde concepției,
 reprezintă, de asemenea, sentimentul meu de
 apartenență, dreptul meu de a fi pe acest pământ și îmi
 conferă un sentimente de siguranță și de plenitudine.
-
-
 
 VERTEBRALĂ - PARTEA DE SUS A SPATELUI, CEAFĂ
 [ÎNȚEPENIT]
@@ -11065,7 +11720,6 @@ față de o nouă modalitate de a vedea lucrurile sau față
 de idei noi. Viața mea se va îmbunătăți și torticolisul
 meu va dispărea.
 
-
 GLANDA TIROIDĂ [în general]
 Gâtul conține în interior corzile vocale [laringele] și
 faringele. Mă ajută să exprim cine sunt și să comunic cu
@@ -11090,7 +11744,6 @@ adăpostește partea mea divină. Cu cât voi experimenta
 mai mult adevărul prin această cale de comunicare, cu
 atât mai mult voi comunica mai armonios cu cei din
 jurul meu.
-
 
 INFIAMAȚIA MUCOASELOR
 Cu ajutorul gâtului îmi înghit experiențele
@@ -11168,8 +11821,6 @@ mă învăța ceva despre mine. Trebuie să le eliberez
 pentru a înlătura toate tensiunile care s-ar putea
 acumula.
 
-
-
 Faringele, care corespunde gâtului, este un tub care
 pornește de la capătul gurii, până la intrarea în esofag.
 Dacă faringele meu este afectat, regret o alegere pe care
@@ -11196,8 +11847,6 @@ care le-am făcut până astăzi sunt bune și m-au ajutat
 să învăț lecțiile de viață de care aveam nevoie. Sunt tot
 timpul îndrumat și îmi ascult vocea interioară, care îmi
 arată calea cea bună.
-
-
 
 III, RĂCEALĂ
 Faringita este mai cunoscută sub denumirea de
@@ -11230,7 +11879,6 @@ nevoile mele. Astfel, îmi regăsesc: autonomia, Accept ↓♥
 să dau aceeași libertate celorlalți și furia va dispărea și
 va face loc unei mai mari înțelegeri și liniștii, în viața
 mea.
-
 
 LA LARINGE, RĂGUȘEALĂ
 Laringele este partea căilor aeriene superioare,
@@ -11273,7 +11921,6 @@ accept ↓♥ să îmi las inima ♥ să vorbească și să exprime
 cu simplitate emoțiile și opiniile mele. Vocea mea va
 deveni tot mai puternică, solidă și va reflecta foarte bine
 siguranța și încrederea mea în mine.
-
 
 RĂGUȘEALĂ, INFLAMAȚIE
 Laringita este o inflamație a laringelui, însoțită de
@@ -11320,6 +11967,8 @@ le, chiar dacă păstrez ceea ce am scris doar pentru
 mine. Astfel voi avea o mai bună comunicare cu mine
 însumi și voi putea clarifica ceea ce am de exprimat.
 
+## GÂT-NOD ÎN GÂT
+
 478. GÂT-NOD ÎN GÂT
 Am un nod în gât atunci când trăiesc o anxietate.
 Mă simt „strâns de gât”. Sau este posibil să nu am
@@ -11335,6 +11984,8 @@ Accept ↓♥ să mă exprim liber și să îmi depășesc
 fricile. Îmi regăsesc pacea interioară, deoarece sunt
 îndrumat tot timpul. Sunt stăpânul vieții mele!
 
+## GÂT [senzația de a avea ceva în...]
+
 479. GÂT [senzația de a avea ceva în...]
 Senzația de a avea ceva în gât indică faptul că deși
 doresc să exprim ceva, rețin acel lucru în mine. Oare îmi
@@ -11347,7 +11998,7 @@ lucrurile așa cum sunt, fiind sincer cu mine însumi,
 astfel voi dobândi respectul celorlalți și mă voi respecta
 și pe mine.
 
-
+## GAZE [dureri provocate de ...] SAU
 
 480. GAZE [dureri provocate de ...] SAU
 
@@ -11382,10 +12033,16 @@ ce se întâmplă în mine și să mă relaxez. Învăț să am
 încredere și să mă las purtat de viață, știind că voi avea
 întotdeauna ceea ce am nevoie.
 
+## GEAMĂN
+
 481. GEAMĂN Vezi; NAȘTERE [FELUL ÎN CARE A
 DECURS NAȘTEREA MEA...]
+## GELINEAU [sindromul lui...] NARCOLEPSIE
+
 482. GELINEAU [sindromul lui...] Vezi:
 NARCOLEPSIE
+## GELOZIE
+
 483. GELOZIE
 
 Definiția din dicționar afirmă că gelozia este „un
@@ -11416,6 +12073,8 @@ mai liber, mai încrezător și voi putea transpune această
 libertate și această încredere spre ceilalți, pentru a trăi
 în armonie cu mine însumi și cu cei din jurul meu.
 
+## GENITALE [organe...] [în general]
+
 484. GENITALE [organe...] [în general]
 Organele genitale diferențiază bărbații de femei. Au
 legătură cu principiul masculin și cu principiul feminin
@@ -11427,7 +12086,6 @@ gonade și de chakra de bază38. Acest centru este legat de
 plăcerile vieții și de creativitate. Dacă am dificultăți în
 ceea ce privește sexualitatea mea, de obicei, organele
 genitale vor fi afectate.
-
 
 frigiditate, impotență, VENERICE [BOLI...]
 Problemele legate de organele genitale indică o frică,
@@ -11473,7 +12131,6 @@ sexuale și de fiecare dată când mă privesc în oglindă,
 pentru a mă acceptați din ce în ce mai mult așa cum
 sunt.
 
-
 Genunchii sunt articulațiile pe care îngenunchez,
 mă supun ierarhiei normale sau celei de deasupra mea
 și mișcării și direcției. Când merg, genunchii antrenează
@@ -11493,6 +12150,8 @@ necesari pentru a-mi menține poziția socială și statutul.
 
 Genunchii sănătoși indică faptul că sunt deschis față de
 ceilalți și față de schimbări.
+
+## GENUNCHI [afecțiuni ale...]
 
 487. GENUNCHI [afecțiuni ale...]
 Problemele legate de oase sau de țesuturile moi sunt
@@ -11571,6 +12230,8 @@ intuiția, care știe ce este bun pentru mine. De acum
 Acum am capacitatea de a mă mișca liber în orice
 situație!
 
+## GENUNCHI - MENISC
+
 488. GENUNCHI - MENISC
 Meniscurile sunt formate din fibre și cartilagii, unul
 fiind la interiorul genunchiului, celălalt la exterior.
@@ -11600,6 +12261,8 @@ Conștientizez care este potențialul meu, am tot mai
 multă încredere în viața care îmi oferă tot ceea ce am
 nevoie. Îmi pot îndeplini toate aspirațiile ascultând de
 singura autoritate care există, vocea mea interioară.
+
+## GILLES DE LA TOURETTE [sindromul lui...]
 
 489. GILLES DE LA TOURETTE [sindromul lui...]
 
@@ -11640,7 +12303,6 @@ a-mi regăsi propria identitate. Îmi exprim spontaneitatea
 și emoțiile. Îmi recunosc puterea și forțele mele
 interioare. Acest lucru îmi conferă un sentiment de
 siguranță și de libertate.
-
 
 [ÎN GENERAL...], DINȚI [ÎN GENERAL...]
 Gingiile folosesc ca suport dinților, stabilității
@@ -11695,6 +12357,8 @@ eu însumi și învăț să mă afirm liber. Îmi conștientizez
 actele. Privesc realitatea drept în față, las în urma
 trecutul și am încredere în viitor.
 
+## GINGII - GINGIVITĂ ACUTĂ
+
 491. GINGII - GINGIVITĂ ACUTĂ
 O infecție a gingiilor indică faptul că trăiesc o, frică,
 care poate fi față de mine, legat de o decizie pe care am
@@ -11745,7 +12409,6 @@ pentru a-mi atinge obiectivele stabilite.
 Îmi accept ↓♥ adevărata valoare și avansez în viață
 cu hotărâre.
 
-
 - SÂNGERĂRI
 Gingiile care sângerează indică o stare de
 nesiguranță, 6 îndoială față de decizie pe care o am de
@@ -11760,7 +12423,11 @@ care apar în viața mea cu seninătate. Am încredere în
 mine deoarece știu că alegerile pe care le fac mă ajută să
 evoluez, să cresc mai departe.
 
+## GINGIVITĂ
+
 493. GINGIVITĂ Vezi: GINGII – GINGIVITĂ ACUTĂ
+## GLANDE [în general]
+
 494. GLANDE [în general]
 Glanda este un organ a cărui funcționare se
 caracterizează prin sinteza și secreția unei substanțe.
@@ -11790,7 +12457,6 @@ sau la dezechilibru. Faptul de a deveni tot mai conștient
 și de a-mi crea propria viață, în loc să trăiesc într-un
 mod automat, asigură o bună funcționare a glandelor.
 
-
 O funcționare proastă a glandelor indică faptul că
 am o dificultate de a găsi o motivație, un „carburant”
 pentru a începe un nou proiect sau pentru a trece la
@@ -11813,8 +12479,14 @@ Accept ↓♥ să am din nou încredere în mine,
 deoarece am toate calitățile necesare pentru a merge
 înainte și a trece la acțiune.
 
+## GLANDE LACRIMALE
+
 496. GLANDE LACRIMALE Vezi: PLÂNS
+## GLANDA PANCREATICĂ
+
 497. GLANDA PANCREATICĂ Vezi: PANCREAS
+## GLANDA PINEALĂ SAU CORP PINEAL SAU EPIFIZA
+
 498. GLANDA PINEALĂ SAU CORP PINEAL SAU
 EPIFIZA
 Glanda pineală este cea mai importantă oglindă a
@@ -11854,6 +12526,8 @@ prin acest centru de energie mă integrez și sunt
 conștient de înțelegerea mea despre Dumnezeu;
 Accept ↓♥ să mă implic în viață, să iau deciziile
 potrivite pentru a mă împlini pe deplin.
+
+## GLANDA PITUITARĂ SAU HIPOFIZA
 
 499. GLANDA PITUITARĂ SAU HIPOFIZA
 Glanda pituitară este o glandă endocrină situată
@@ -11980,6 +12654,8 @@ situațiile pe care le trăiesc fiind conștient că și eu am
 dreptul de ă mă hrăni bine și că viața îmi procură toate
 lucrurile de care am nevoie.
 
+## GLANDE SUBLINGUALE SALIVARE
+
 501. GLANDE SUBLINGUALE Vezi: GLANDE
 SALIVARE
 
@@ -12061,7 +12737,6 @@ plin de energie, am poftă de viață și sunt capabil să trec
 la acțiune. Conștientizez ceea ce îmi doresc cu adevărat.
 Călătoresc prin viață cu încredere și credință.
 
-
 IMUNITAR
 Timusul este o glandă micuță, care se găsește în
 torace, la nivelul inimii ♥ și care produce un tip de
@@ -12122,6 +12797,8 @@ mâine poate fi diferit de ceea ce am astăzi. Cu cât mă
 detașez mai mult de lumea materială, cu atât mai mare
 este sentimentul meu de libertate! Las la o parte ura și
 dualitatea și le înlocuiesc cu adevărul.
+
+## GLANDA TIROIDĂ [în general]
 
 504. GLANDA TIROIDĂ [în general]
 Glanda tiroidă se află la baza gâtului, sub laringe.
@@ -12201,6 +12878,8 @@ Acum, imediat accept ↓♥ să mă exprim liber și îmi
 folosesc toate mijloacele, îmi dezvolt spiritual creator.
 Accept ↓♥ să trăiesc în Adevăr.
 
+## GLANDA TIROIDĂ - BASEDOW [boala a lui ...]
+
 505. GLANDA TIROIDĂ - BASEDOW [boala a lui ...]
 SAU GUȘA EXOFTALMICĂ
 Boala lui Basedow este o stare patologică cauzată de
@@ -12239,6 +12918,8 @@ atât de multe pentru a fi apreciat. Învăț să mă iubesc și
 să mă accept ↓♥ așa cum sunt. Îmi regăsesc astfel
 stabilitatea, sănătatea și echilibrul în viața de zi cu zi.
 
+## GLANDA TIROIDĂ - GUȘA
+
 506. GLANDA TIROIDĂ - GUȘA
 Gușa este umflarea părții anterioare a gâtului. În
 general, indică faptul că tiroida este superactivă. Acest
@@ -12275,8 +12956,12 @@ Vreau să păstrez totul pentru mine.
 Accept ↓♥ să dezvolt o atitudine mai pozitivă și sa
 am grijă de mine pentru a- mi îndeplini obiectivele.
 
+## GLANDA TIROIDĂ - GUȘA EXOLFTALMICĂ
+
 507. GLANDA TIROIDĂ - GUȘA EXOLFTALMICĂ
 Vezi: GLANDA TIROIDA BASEDOW BOALA A LUI...
+## GLANDA TIROIDĂ - HIPERTIROIDIE
+
 508. GLANDA TIROIDĂ - HIPERTIROIDIE
 Hipertiroidia indică o hiperactivitate, o prea mare
 activitate a glandei tiroide. Metabolismul meu crește, am
@@ -12319,6 +13004,8 @@ interioară. Iau propriile decizii și îmi creez acțiunile în
 funcție de discernământul meu interior. Sunt coautor al
 vieții mele.
 
+## GLANDA TIROIDĂ - HIPOTIROIDIE
+
 509. GLANDA TIROIDĂ - HIPOTIROIDIE
 Hipotiroidia este funcționarea limitată a tiroidei, o
 insuficiență tiroidiană. Cauzele fizice sunt o dereglare a
@@ -12356,6 +13043,8 @@ meu. Sunt încrezător și văd viața într-o lumină nouă.
 Mă las susținut de viață asemenea unui zmeu, mă las
 purtat de vânt.
 
+## GLANDA TIROIDĂ - TIROIDITĂ
+
 510. GLANDA TIROIDĂ - TIROIDITĂ
 Tiroidita este o inflamație a glandei tiroide. Cea mai
 cunoscută este tiroidita lui Hashimoto47. Trăiesc o
@@ -12372,6 +13061,8 @@ Accept ↓♥ să recunosc și să întâmpin emoțiile pe
 care le am. Aleg să le exprim verbal, pentru a mă
 elibera. Iubirea și lumina pe care le eman formează un
 cerc care mă va proteja în fiecare moment.
+
+## GLAUCOM
 
 511. GLAUCOM Vezi: OCHI - GLAUCOM
 
@@ -12459,7 +13150,11 @@ Accept ↓♥ viața și tot ceea ce îmi oferă ea. Astfel voi
 reuși să îmbrățișez viața pe partea cea bună! Urmez
 drumul care îmi convine cel mai bine.
 
+## GLOB OCULAR
+
 513. GLOB OCULAR Vezi: OCHI [ÎN GENERAL]
+## GLOBULE SANGUINE
+
 514. GLOBULE SANGUINE Vezi: SÂNGE
 
 Gonadele produc gameții [spermatozoizii, la bărbat
@@ -12491,7 +13186,6 @@ Comunic cu încredere, nu am prejudecăți, mă
 accept ↓♥ în întregime ca bărbat sau ca femeie. Accept
 ↓♥ să îmi las fricile la o parte și îmi construiesc
 încrederea în mine însumi și în viață.
-
 
 [EXCES DE...]
 Grăsimea simbolizează energia, puterea, „micile
@@ -12587,7 +13281,6 @@ personalității mele. Am încredere în viață și în viitor.
 îmi place, nu e nevoie să opun rezistență. Las să vină
 spre mine toate lucrurile frumoase pe care viața mi le
 oferă.
-
 
 Excesul de grăsime pe care corpul meu o
 înmagazinează între interior și mediul exterior, indică
@@ -12739,7 +13432,6 @@ Prin faptul de a mă accepta pe mine și ai accept pe
 ceilalți și cu iubirea de care mă înconjor, mă voi elibera
 de această durere și de nevoia de protecție.
 
-
 STRĂNUT, FEBRĂ, MUȘCHI, RESPIRAȚIE,
 REPIRAȚIE [BOLI DE...], CAP [DURERE DE...]
 Gripa definește o stare cauzată de un virus care
@@ -12798,7 +13490,6 @@ Accept ↓♥ să îmi exprim emoțiile și să las să îmi
 curgă lacrimile pentru a-mi decongestiona întreg corpul
 și pentru a lăsa armonia să se instaleze.
 
-
 Gripa aviară sau gripa găinilor este extrem de
 contagioasă pentru anumite păsări și poate fi transmisă
 oamenilor [virusul [A [H5N1]]. Simptomele sunt
@@ -12826,6 +13517,8 @@ frumoase din viață. Sunt mai deschis față de lume, cu
 discernământ, fără să îi judec pe ceilalți, îmi fixez
 limitele, mă respect pe mine și îi respect pe ceilalți.
 Astfel îmi recapăt locul care mi se cuvine.
+
+## GRIPA SPANIOLĂ ENCEFALITĂ
 
 521. GRIPA SPANIOLĂ Vezi: CREIER -
 ENCEFALITĂ
@@ -12860,7 +13553,6 @@ de a avea prea multe sarcini de împlinit, pe care le
 consider dificile pentru mine.
 Accept ↓♥ să mănânc încet, să. gust alimentele
 pentru ca astfel să pot gusta viața și bucuriile ei.
-
 
 la gură, șancru [în general], HERPES [... BUCAL]
 Gura este poarta aparatului digestiv și al căilor
@@ -12937,6 +13629,8 @@ flexibil la noutate, la armonie. Mușc cu poftă din viață.
 Îmi accept tandrețea, blândețea și mă exprim cu
 încredere.
 
+## GURĂ - AFTĂ
+
 524. GURĂ - AFTĂ
 Afta este o leziune superficială pe mucoasa bucală,
 caracterizată printr-o mică protuberanță albă, uneori cu
@@ -12992,6 +13686,8 @@ mele de adaptare, în înțelegerea mea, în intuiția mea, pe
 care o ascult tot mai . mult. Astfel îmi potolesc emoțiile
 și felul în care le exprim.
 
+## GURA - HALENĂ [respirație urât
+
 525. GURA - HALENĂ [respirație urât
 
 GINGIVITĂ, GÂT [DURERE DE...], NAS [AFECȚIUNI
@@ -13036,6 +13732,8 @@ Accept ↓♥ să mă eliberez de gândurile nesănătoase
 din trecut. Respir prospețimea gândurilor pozitive, pline
 de iubire ♥ față de mine și față de ceilalți.
 
+## GURĂ - CERUL GURII, PALAT
+
 526. GURĂ - CERUL GURII, PALAT
 Cerul gurii [palatul] este plafonul osos al cavității
 bucale. Are un rol important în pronunție și în
@@ -13062,6 +13760,8 @@ Acestea sunt întrebările pe care mi le pot pune, pentru a
 fi din nou în armonie și pentru ca afecțiunile din cerul
 gurii să se vindece.
 
+## GUȘĂ
+
 527. GUȘĂ Vezi: GLANDA TIROIDĂ - GUȘĂ
 
 LIMBĂ, NAS
@@ -13087,7 +13787,6 @@ natura mea profundă. Am dreptul de a mă afirma și de a
 spune NU dacă nu îmi convine o anumită situație. Mă
 respect tot mai mult și ceilalți mă vor respecta la rândul
 lor!
-
 
 Guta este o boală metabolică caracterizată prin
 acumularea de acid uric în organism, care se manifestă
@@ -13162,8 +13861,12 @@ Exprimându-le, voi descoperi cu adevărat cine sunt,
 sunt în contact cu puterea mea interioară și pot să mă
 detașez de persoanele de care mă agățam înainte.
 
+## H.T.A [hipertensiune arterială]
+
 530. H.T.A [hipertensiune arterială] Vezi:
 tensiune arterială - hipertensiune
+## HALENĂ
+
 531. HALENĂ Vezi: GURĂ - HALENĂ [RESPIRAȚIE
 URÂT MIROSITOARE]
 
@@ -13236,10 +13939,20 @@ păstrez: mă pot ajuta să descopăr ce vreau să schimb în
 viață și să fac acțiunile necesare pentru a-mi materializa
 dorințele.
 
+## HAȘIȘ [consum de...]
+
 533. HAȘIȘ [consum de...] Vezi: DROGURI
+## HEMATOM
+
 534. HEMATOM Vezi: SÂNGE - HEM ATOM
+## HEMATURIE
+
 535. HEMATURIE Vezi: SÂNGE - HEMATURIE
+## HEMIPLEGIE
+
 536. HEMIPLEGIE Vezi: CREIER - HEMIPLEGIE
+## HEMORAGIE CEREBRALĂ
+
 537. HEMORAGIE CEREBRALĂ Vezi: CREIER -
 ACCIDENT VASCULAR CEREBRAL [AVC]
 
@@ -13325,8 +14038,14 @@ Stabilesc noi locuri în care să mă simt bine și liber.
 Sentimentul de neputință dispare și reiau stăpânirea
 destinului meu.
 
+## HEMORAGIE
+
 539. HEMORAGIE Vezi: SÂNGE - HEMORAGIE
+## HEPATITĂ
+
 540. HEPATITĂ Vezi: FICAT - HEPATITĂ
+## HERNIE
+
 541. HERNIE
 Hernia este o tumefacție a țesuturilor moi ale unui
 organ care iese prin peretele mușchilor, acolo unde
@@ -13394,7 +14113,6 @@ ceilalți, deoarece știu „cine sunt”. Îmi acord timp pentru
 a mă interiorizeze, pentru a fi singur și a vedea clar în
 viața mea și a ști încotro mă îndrept.
 
-
 DE...], LUXAȚIE
 Un disc intervertebral este o structură rotundă și
 plată, situată între fiecare pereche de vertebre ale
@@ -13454,6 +14172,8 @@ Accept],? să îmi ascult vocea interioară, care este
 Învăț să am încredere în mine și descopăr toată forța
 care se află în mine și fericirea mă va face să stau în
 picioare, liber și plin de încredere.
+
+## HEROINĂ [consum de...]
 
 543. HEROINĂ [consum de...] Vezi: DROGURI
 
@@ -13522,6 +14242,8 @@ tot mai multă încredere în relațiile mele intime. Mă
 iubesc mai mult și soarele va reveni în viața mea. Sunt
 mândru să fiu cine sunt.
 
+## HERPES GENITAL SAU HERPES VAGINAL
+
 545. HERPES GENITAL SAU HERPES VAGINAL
 
 Conform credinței populare, herpesul vaginal
@@ -13557,7 +14279,11 @@ mine. Trebuie să mă accept ↓♥ în totalitate, să mă
 abandonez total mie însumi pentru ca apoi să fac acest
 lucru și cu partenerul meu.
 
+## HIDROFOBIE
+
 546. HIDROFOBIE Vezi: TURBARE
+## HIGROMA
+
 547. HIGROMA Vezi: BURSITĂ, GENUNCHI
 [DURERE DE...]
 
@@ -13630,21 +14356,43 @@ Accept ↓♥ să îmi fiu propriul meu stăpân, să mă
 ocup de mine, pentru mine și apoi pentru binele
 copilului meu.
 
+## HIPERCOLESTEROLEMIE COLESTEROL
+
 549. HIPERCOLESTEROLEMIE Vezi: SÂNGE -
 COLESTEROL
+## HIPEREMOTIVITATE
+
 550. HIPEREMOTIVITATE Vezi: EMOTIVITATE
+## HIPERGLICEMIE
+
 551. HIPERGLICEMIE Vezi: SÂNGE - DIABET
+## HIPERMETROPIE HIPERMETROPIE
+
 552. HIPERMETROPIE Vezi: OCHI -
 HIPERMETROPIE
+## HIPEROREX1E
+
 553. HIPEROREX1E Vezi: BUUMIE
+## HIPERSAUVAȚIE HIPOSALIVAȚIE
+
 554. HIPERSAUVAȚIE Vezi: SALIVĂ - HIPER ȘI
 HIPOSALIVAȚIE
+## HIPERSOMNIE
+
 555. HIPERSOMNIE Vezi: NARCOLEPSIE
+## HIPERTENSIUNE
+
 556. HIPERTENSIUNE Vezi: TENSIUNE
 ARTERIALĂ - HIPERTENSIUNE
+## HIPERTERMIE
+
 557. HIPERTERMIE Vezi: FEBRĂ
+## HIPERTIROIDIE HIPERTIROIDIE
+
 558. HIPERTIROIDIE Vezi: GLANDA TIROIDĂ -
 HIPERTIROIDIE
+## HIPERTROFIE
+
 559. HIPERTROFIE
 Hipertrofia este dezvoltarea excesivă a volumului
 unui organ sau a unui țesut. Trebuie să consultăm
@@ -13666,7 +14414,6 @@ mijloacele pentru a mi le împlini. În loc să aștept să fie
 acord toată iubirea, tandrețea și blândețea de care am
 nevoie. Aleg să fiu pe deplin deschis față de viață și să
 accept să fiu o persoană împlinită și fericită.
-
 
 ACIDOZĂ, ANXIETATE, FEBRĂ
 Hiperventilația constă într-o inspirație rapidă și o
@@ -13698,6 +14445,8 @@ Viața mea se schimbă și mă bucur de acest lucru. Mă
 reconectez cu sentimentul de siguranță interioară.
 Accept ↓♥ să avansez cu hotărâre și profit de viață!
 
+## HIPOACUZIE
+
 561. HIPOACUZIE Vezi: URECHI - SURDITATE
 
 AGORAFOBIE, ANXIETATE, DEPRESIE
@@ -13718,16 +14467,28 @@ demers energetic sau o psihoterapie mă pot ajuta să îmi
 recapăt încrederea în mine și în capacitatea mea divină
 de deschidere, pe care o pot manifesta în viață.
 
+## HIPOGLICEMIE HIPOGLICEMIE
+
 563. HIPOGLICEMIE Vezi: SÂNGE -
 HIPOGLICEMIE
 
+## HIPOFIZĂ
+
 564. HIPOFIZĂ Vezi: GLANDA PITUITARĂ .
+## HIPOSALIVAȚIE HIPOSAUVAȚIE
+
 565. HIPOSALIVAȚIE Vezi: SALIVĂ - HIPER ȘI
 HIPOSAUVAȚIE
+## HIPOTENSIUNE
+
 566. HIPOTENSIUNE Vezi: TENSIUNE ARTERIALĂ
 - HIPOTENSIUNE
+## HIPOTIROIDIE HIPOTIROIDIE
+
 567. HIPOTIROIDIE Vezi: GLANDA TIROIDĂ -
 HIPOTIROIDIE
+## HISTEROPTOZA
+
 568. HISTEROPTOZA Vezi: PROLAPS
 
 GANGLIONILOR [... A SISTEMULUI LIMFATIC],
@@ -13767,6 +14528,8 @@ ceilalți nu mă pot iubi cu adevărat, decât dacă sunt eu
 însumi. Descopăr bogățiile din mine și trăiesc în funcție
 de adevărul meu interior.
 
+## HOLERA
+
 570. HOLERA Vezi: INTESTINE - DIAREE
 Hodgkin [Thomas]: medic britanic [1798-l866].
 Boala lui Hodgkin este un tip de limfom descoperit în
@@ -13775,6 +14538,8 @@ atipice, celulele Reed-Stemberg. Celula STERNBERG
 este indispensabilă pentru diagnostic. Natura sa reala
 este încă puțin cunoscută, dar se pare că este de origine
 limfoidă B clonată
+
+## HOMOSEXUALITE
 
 571. HOMOSEXUALITE
 Există o excepție pentru iubire? Homosexualitatea
@@ -13828,9 +14593,7 @@ cer sfătuitorului meu interior să mă ajute să înțeleg la
 nivelul inimii ♥, să mă accept ↓♥ așa cum sunt și să îi
 accept pe ceilalți așa cum sunt.
 
-
-
-
+## HUNTINGTON
 
 572. HUNTINGTON Vezi: CREIER – HUNTINGTON
 [BOALA A LUI...]
@@ -13877,8 +14640,12 @@ mă simt responsabilă de decepția lor și am impresia că
 Accept ↓♥ să fiu mai deschis față de oamenii din
 jurul meu, deoarece am multe de învățat de la ei.
 
+## ILEITĂ [BOALA LUI CROHN]
+
 574. ILEITĂ [BOALA LUI CROHN] Vezi: INTESTINE
 - CROHN [BOALA A LUI..]
+## INELAR
+
 575. INELAR Vezi: DEGETE - INELAR
 
 NERVOZITATE, SÂNGE - HIPOGLICEMIE
@@ -14005,7 +14772,6 @@ experimenta iubirea adevărată în moduri diferite și că
 merit acest lucru, impotența va dispărea și voi reintra în
 contact cu forța mea interioară.
 
-
 VEZICĂ [AFECȚIUNI ALE...]
 Incontinența fie că este a fecalelor [incapacitatea de
 a reține scaunul], fie urinară [pierdere involuntară de
@@ -14115,7 +14881,11 @@ sursa puterii mele interioare. Doar recunoscându-le și
 acceptându-le ↓♥, ca făcând parte integrantă din ceea ce
 sunt, pot să îmi creez viața așa cum vreau.
 
+## INCONTINENȚA LA COPII -
+
 579. INCONTINENȚA LA COPII - Vezi: PIPI ÎN PAT
+## INDEX
+
 580. INDEX Vezi: DEGETE - INDEX
 
 MÂNCARE], DURERE DE BURTĂ, GREAȚĂ,
@@ -14164,6 +14934,8 @@ fac să treacă situațiile din viața mea, în armonie cu
 ființa mea. Pot, de asemenea, să iau decizii care mă vor
 ajuta să îmi realizez cele mai înalte scopuri.
 
+## INFARCT [ÎN GENERAL]
+
 582. INFARCT [ÎN GENERAL]
 în general, un infarct înseamnă moartea unei părți
 de țesut dintr-un organ, denumită și necroză, cauzată
@@ -14188,10 +14960,12 @@ deoparte și cum aș putea să reașez lucrurile în ordine în
 viața mea, pentru a mă ajuta să trăiesc din plin
 experiențe pline de bucurie și satisfacție.
 
-
+## INFARCT [cerebral] vezi: creier – accident
 
 583. INFARCT [cerebral] vezi: creier – accident
 vasculare cerebral [a.v.c]
+## INFARCT [...de miocard]
+
 584. INFARCT [...de miocard] Vezi: INIMĂ ♥ -
 INFARCT [... DE MIOCARD]
 
@@ -14264,9 +15038,15 @@ Accept ↓♥ să fac curățenie în viața mea, să o
 „dezinfectez” pentru a lăsa deoparte atitudinile și
 comportamentele care nu sunt bune pentru mine.
 
+## INFECȚII URINARE URINARE]
+
 586. INFECȚII URINARE Vezi: URINĂ [INFECȚII
 URINARE]
+## INFECȚII VAGINALE
+
 587. INFECȚII VAGINALE Vezi: VAGIN - VAGINITĂ
+## INFECȚII VIRALE GENERAL]
+
 588. INFECȚII VIRALE Vezi: INFECȚII [ÎN
 GENERAL]
 
@@ -14302,7 +15082,6 @@ Accept ↓♥ să fiu diferit și să îmi exprim opiniile chiar
 dacă acestea pot fi diferite de opiniile celorlalți. Mă afirm
 așa cum sunt, în unicitatea mea. Învăț să am încredere
 în mine și să trăiesc într-un mod spontan.
-
 
 Inima ♥ este legată de cea de a patra chakră sau
 centru de energie: această chakră este YIN-YANG, atât
@@ -14343,8 +15122,12 @@ grija universului, încetez să mă mai critic atât de tare
 încât să mă îmbolnăvesc și, mai ales, accept ↓♥ să mă
 iert. Dacă mă iert voi putea accepta ↓♥ iubirea celorlalți.
 
+## INIMĂ ♥ - ANGINĂ PECTORALĂ, ANGOR
+
 591. INIMĂ ♥ - ANGINĂ PECTORALĂ, ANGOR
 Vezi: ANGINĂ PECTORALĂ
+## INIMĂ ♥ - ARITMIE CARDIACĂ
+
 592. INIMĂ ♥ - ARITMIE CARDIACĂ
 
 Aritmia cardiacă este o tulburare a ritmului cardiac.
@@ -14431,6 +15214,7 @@ hotărâre.
 Accept ↓♥ ca armonia să revină în viața mea, atât la
 nivel afectiv cât și pe plan social.
 
+## INIMĂ ♥ [durere,..]
 
 593. INIMĂ ♥ [durere,..] Vezi: greață
 
@@ -14541,6 +15325,8 @@ relua contactul cu partea mea afectivă, care mă ajută să
 experimentez viața la maxim. Accept ↓♥ faptul că merit
 să fiu iubit și să primesc ajutorul celorlalți.
 
+## INIMĂ ♥ - MIOCARDITĂ
+
 595. INIMĂ ♥ - MIOCARDITĂ
 Miocardita este o inflamare a mușchiului cardiac
 [miocardul]. Este una dintre cauzele de moarte subită în
@@ -14570,6 +15356,8 @@ ocupă locul care îi revine. Regăsesc iubirea din mine și
 astfel, stabilitatea: este ceea ce numim inteligența inimii
 ♥.
 
+## INIMĂ ♥ - PERICARDITĂ
+
 596. INIMĂ ♥ - PERICARDITĂ
 Pericardita este o inflamație, de obicei infecțioasă
 [virală] a pericardului, membrana care acoperă inima ♥.
@@ -14590,6 +15378,8 @@ care este departe de mine, departe de viața mea?
 calm, învăț să îmi potolesc angoasele și cer să fiu tot
 timpul protejat, știind că tot ceea ce se va întâmpla va fi
 spre binele meu.
+
+## INIMĂ ♥ - PROBLEME CARDIACE
 
 597. INIMĂ ♥ - PROBLEME CARDIACE
 Deoarece inima ♥ simbolizează iubirea, liniștea
@@ -14645,8 +15435,12 @@ a accepta ↓♥ schimbările din viața mea. Rămân atent,
 îmi deschid inima ♥ față de tot ceea ce este benefic
 pentru mine. Îmi ascult cu atenție inima ♥.
 
+## INIMĂ ♥ - TAHICARDIE
+
 598. INIMĂ ♥ - TAHICARDIE Vezi: INIMĂ ♥ -
 ARITMIE CARDIACĂ
+## INIMĂ ♥ - TROMBOZĂ CORONARIANĂ
+
 599. INIMĂ ♥ - TROMBOZĂ CORONARIANĂ
 Tromboza coronariană reprezintă formarea de
 cheaguri pe arterele coronare [la nivelul inimii ♥]. Acest
@@ -14668,7 +15462,6 @@ Accept ↓♥ să mă împac cu mine însumi și cu ceilalți.
 Pentru a rezolva această situație, devin conștient de
 forțele iubirii din mine, mă abandonez și descopăr că
 Universul îmi oferă soluția de care am nevoie.
-
 
 PIELE
 Dacă mă expun prea mult timp la soare, risc să fac
@@ -14721,6 +15514,8 @@ mi aminti să mă poziționez în viața mea. Accept ↓♥ să
 am atâta nevoie, se găsește în inima ♥ mea, mă
 încălzește și mă liniștește în momentele cele mai dificile
 ale vieții mele.
+
+## INSOMNIE
 
 601. INSOMNIE
 Incapacitatea de a dormi corespunde unei spaime
@@ -14781,6 +15576,8 @@ chiar dacă eu îmi permit câteva momente de odihnă. Mă
 relaxez, știind că sunt îndrumat mereu și că vocea mea
 interioară știe ce este mai bun pentru mine.
 
+## INSUFICIENȚĂ CARDIACĂ
+
 602. INSUFICIENȚĂ CARDIACĂ Vezi: INIMĂ ♥
 [PROBLEMECARDIACE]
 
@@ -14840,6 +15637,8 @@ resursele necesare în interiorul meu, pentru a crea ceea
 ce vreau. Singura persoană pe care o pot controla, sunt
 eu însumi!
 
+## INTESTINE [cancer la...] INTESTINE
+
 604. INTESTINE [cancer la...] Vezi: CANCER LA
 INTESTINE
 
@@ -14871,7 +15670,6 @@ meu, să descopăr toate forțele din mine și să fac să
 
 dispară agitația mea, față de o persoană sau o situație
 care mă agasează.
-
 
 INFLAMAȚIE, INTESTINE - COLON
 Colita [terminația -ită, indică o furie] este inflamația,
@@ -14920,7 +15718,6 @@ prejudecăți. Dobândesc astfel independent și autonomie
 și realizez că sunt tot mai fericit deoarece acum acționez
 în conformitate cu propria mea natură.
 
-
 CANCER DE COLON
 Colonul [sau intestinul gros] se află între intestinul
 subțire și rect. Aici are loc ultima parte a digestiei
@@ -14963,7 +15760,6 @@ conștient de bogăția mea interioară și de integrarea
 noilor experiențe din viața mea. Lăsând curentul vieții
 să circule în mine, știu că, orice s-ar întâmpla, voi ști să
 fac față situației și voi deveni mai împlinit, mai bogat.
-
 
 LA COLON
 Constipația are loc în interiorul intestinului, atunci
@@ -15019,6 +15815,8 @@ să mă relaxez. Accept ↓♥, aici și acum; să mă eliberez de
 trecut, să merg înainte și să trăiesc o viață mai plină de
 pasiune. Mă simt mult mai destins, deoarece am
 încredere în viață.
+
+## INTESTINE - CROHN [boala lui...] SAU
 
 609. INTESTINE - CROHN [boala lui...] SAU
 
@@ -15085,6 +15883,8 @@ familia mea sau în societate. Astfel îmi voi regăsi liniștea
 adevărat locul îmi conferă o protecție naturală față de
 mediul meu și astfel pot găsi siguranța de a fi eu. Viața
 este frumoasă și eu am dreptul să o trăiesc!
+
+## INTESTINE - DIAREE
 
 610. INTESTINE - DIAREE
 Diareea este o emisie prea frecventă, acută sau
@@ -15155,6 +15955,8 @@ deschide inima ♥ și le deranjează, inconștient mentalul
 îmi arată cât de atașat pot fi de un anumit confort sau
 un anumit stil de viață.
 
+## INTESTINE - DIVERTICULITA
+
 611. INTESTINE - DIVERTICULITA
 Diverticulita [-ita=furie] este inflamația micilor
 cavități [diventricul!] ai peretelui colonului [intestinul
@@ -15175,7 +15977,6 @@ necesară pentru a integra această experiență. Îmi las la
 o parte vechile resentimente. Doar prin acceptarea ↓♥ și
 deschiderea mea voi găsi diverse soluții, deoarece nu voi
 mai fi orbit de furie.
-
 
 - COLICI/DIAREE
 Dizenteria este o boală infecțioasă și contagioasă,
@@ -15204,7 +16005,6 @@ fiu sincer față de lucrurile pe care vreau să le schimb în
 viața mea. Cer ajutor, dacă am nevoie, îmi asum
 responsabilitatea față de mine însumi și redevin stăpân
 pe viața mea.
-
 
 STOMAC / [AFECȚIUNI ALE...] / GASTRITĂ,
 INTESTINE - DIAREE, GREAȚĂ
@@ -15247,7 +16047,6 @@ idei noi și să învăț din nou să am încredere în ceilalți și
 loc să o las să dospească în interiorul meu și să-mi
 creeze dureri de tot felul, încetez să mai aștept
 aprobarea celor din jurul meu.
-
 
 Rectul este segmentul terminal al intestinului gros,
 care se continuă cu colonul sigmoid54 și orificiul anal.
@@ -15312,7 +16111,7 @@ păstrat în interiorul meu de-a lungul anilor. Astfel îmi
 voi regăsi pacea interioară și voi fi regele propriei mele
 vieți.
 
-
+## INTESTINE - TENIA
 
 615. INTESTINE - TENIA
 Tenia este un vierme parazit, care se fixează în
@@ -15346,7 +16145,6 @@ de ideile mele, fac loc pentru plăcere și bucurie. Mă
 poziționez, îmi ocup locul cuvenit în viață. Îmi recapăt
 puterea. Îmi conduc viața așa cum vreau eu. Trăiesc în
 adevăr și revin la adevăratele mele valori.
-
 
 INTESTINE - COUTĂ
 Intestinul subțire este partea intestinului situată
@@ -15383,6 +16181,8 @@ pătrundă în viața mea. Astfel, voi putea avansa liber și
 bine pentru mine. Îi mulțumesc Sursei pentru tot ceea
 ce primesc și mă bucur de prezent.
 
+## INTESTIN SUBȚIRE - RECTOCOLITA
+
 617. INTESTIN SUBȚIRE - RECTOCOLITA
 
 Rectocolita hemoragică [RCH] este o boală
@@ -15406,6 +16206,8 @@ agață de mine și eu nu mai suport!
 Accept ↓♥ să mă poziționez față de ceilalți, mai ales
 față de membri familiei mele. Îmi afirm nevoile și mă
 simt liber în alegerile mele.
+
+## INTOLERANȚA LA GLUTEN
 
 618. INTOLERANȚA LA GLUTEN
 Glutenul este proteina din faina de grâu, care în
@@ -15438,8 +16240,12 @@ fiecare dată când îmi ascult vocea interioară, care îmi
 cunoaște adevăratele nevoi și găsesc mijloacele pentru a
 le împlini eu însumi.
 
+## INTOXICAȚIE MÂNCARE]
+
 619. INTOXICAȚIE Vezi: OTRĂVIRE [...PRIN
 MÂNCARE]
+## ]NTRERUPERE VOLUNTARĂ A SARCINII
+
 620. ]NTRERUPERE VOLUNTARĂ A SARCINII
 Vezi: NAȘTERE - AVORT
 
@@ -15477,6 +16283,8 @@ să îmi ofer eu însumi. Învăț să îmi ascult nevoile și să le
 respecta și ei. Cer ajutor pentru a fi îndrumat în
 alegerea demersului terapeutic care mă va ajuta să am o
 stare mai bună.
+
+## ÎMBĂTRÂNIRE [afecțiuni legate de..,]
 
 622. ÎMBĂTRÂNIRE [afecțiuni legate de..,]
 Îmbătrânind, corpul meu își pierde flexibilitatea.
@@ -15517,8 +16325,12 @@ inimii ♥ și cea a corpului este eternă. Corpul meu fizic
 nu poate decât să manifeste aceste gânduri pozitive de
 sănătate și de tinerețe.
 
+## ÎMBĂTRÂNIRE PATOLOGICĂ SENILITATE
+
 623. ÎMBĂTRÂNIRE PATOLOGICĂ Vezi:
 SENILITATE
+## ÎNDOIALA
+
 624. ÎNDOIALA
 Îndoiala este legată direct de mental. Este o stare
 obsesională care mă împiedică să mă „conectez” la
@@ -15538,6 +16350,8 @@ accept ↓♥ să mă eliberez de atașamentele mentale, care
 relațiile mele cu cei din jur, învăț să îmi verific nevoile,
 impresiile, intuițiile față de acele persoane, în loc să îmi
 otrăvesc existența cu îndoiala.
+
+## ÎNCHEIETURĂ
 
 625. ÎNCHEIETURĂ Vezi: ARTICULAȚII
 
@@ -15587,6 +16401,7 @@ nivelul iubirii și tot ceea ce fac este în armonie cu
 evoluția mea. Mă bucur de toate oportunitățile pe care
 mi le oferă viața.
 
+## ÎNCHEIETURA MÂINII - SINDROMUL DE
 
 627. ÎNCHEIETURA MÂINII - SINDROMUL DE
 TUNEL CARPIAN
@@ -15628,12 +16443,17 @@ satisfacția personală, deoarece îmi voi depăși fricile! Aleg
 să integrez tot ceea ce sunt, mă eliberez de lucrurile care
 mă țin legat și renasc.
 
+## ÎNGĂLBENIRE
+
 628. ÎNGĂLBENIRE Vezi: ICTER
+## INERUPERE VOLUNTARĂ A SARCINII
+
 629. INERUPERE VOLUNTARĂ A SARCINII Vezi:
 NAȘTERE – AVORT
 
-K
+## K
 
+K
 
 Sarcomul lui Kaposi [sau Boala lui Kaposi] [Kaposi
 [Moriz]: dermatolog și histolog austro-ungar [1837-l902].
@@ -15662,19 +16482,37 @@ nevoie. Știu că mă pune pe mine pe primul loc, fac acest
 lucru conștient și îmi acord timp pentr9u a îmi fac pe
 plac și a mă odihni. Îmi regăsesc libertatea și bucuria de
 a trăi.
+## K1LLIAN [polip al lui...]
+
 630. K1LLIAN [polip al lui...] Vezi: NAS - KILUAN
 [POLIP AL LUI...]
 
+## L
+
 L
 
+## LABII
+
 631. LABII Vezi: VULVĂ
+## LABIRINTITĂ
+
 632. LABIRINTITĂ Vezi: CREIER - ECHILIBRU
 [PIERDERE...]
+## LACRIMI
+
 633. LACRIMI Vezi: PLÂNS
+## LARINGE
+
 634. LARINGE Vezi: GÂT - LARINGE
+## LARINGITĂ
+
 635. LARINGITĂ Vezi: GÂT - IARINGITĂ
+## LARINGE [cancer la...] LARINGE
+
 636. LARINGE [cancer la...] Vezi: CANCER LA
 LARINGE
+## LENE
+
 637. LENE
 Lenea este tendința de a evita orice activitate, de a
 refuza orice efort. Are legătură cu starea de slăbiciune
@@ -15688,7 +16526,6 @@ lucruri pentru a-mi recăpăta energia, elanul, bucuria de
 a trăi. Îmi descopăr astfel talentele care au rămas
 ascunse până acum și acest lucru îmi conferă un
 sentiment de împlinire personală!
-
 
 PIELE/[ÎN GENERAL]/[AFECȚIUNI ALE...]
 Lepra, denumită și boala lui Hansen56, este o boală
@@ -15728,8 +16565,9 @@ faptul că, corpul meu fizic face parte din ființa mea
 divină. Accept ↓♥ faptul că merit tot ceea ce este mai
 bun!
 
-639. LESBIANĂ Vezi: HOMOSEXUALITATE
+## LESBIANĂ
 
+639. LESBIANĂ Vezi: HOMOSEXUALITATE
 
 Leșinul este o pierdere a cunoștinței temporară sau
 de durată variabilă, care poate dura de la câteva
@@ -15754,9 +16592,11 @@ vechile mele idei. Las viața să își urmeze cursul. Accept
 ↓♥ să am încredere în univers, deoarece totul face parte
 din evoluția mea.
 
-
+## LEUCEMIE
 
 641. LEUCEMIE Vezi: SÂNGE - LEUCEMIE
+## LEUCOPENIE
+
 642. LEUCOPENIE Vezi: SÂNGE - LEUCOPENIE
 
 PIELE - MÂNCĂRIME, SALPINGITĂ
@@ -15786,7 +16626,11 @@ adevărata valoare și să mă conving că eu sunt singura
 persoană care are controlul asupra mea și asupra vieții
 mele.
 
+## LEZIUNI
+
 644. LEZIUNI Vezi: PIELE - LEZIUNI
+## LIGAMENTE
+
 645. LIGAMENTE Vezi: ARTICULAȚII - ENTORSE
 
 Limba este un organ muscular, de care este legat
@@ -15842,10 +16686,7 @@ bucuriile vieții, care mi se oferă. Învăț să îmi exprim
 opinia, să fiu respectat cu diferențele mele și să mă
 bucur de viață!
 
-
-
-
-
+## LIMBĂ [cancer la...]
 
 647. LIMBĂ [cancer la...] Vezi: CANCER LA LIMBĂ
 
@@ -15873,6 +16714,8 @@ acceptați ca bucuria să circule liber în mine, ca o sevă
 concentrez atenția pe adevăratele valori ale vieții, în loc
 de lucrurile materiale care am impresia că îmi lipsesc.
 
+## LIMFATISM
+
 649. LIMFATISM
 Limfatismul se caracterizează printr-o paloare
 anemică, o moliciune a țesutului și o piele fină. Nu am
@@ -15894,6 +16737,8 @@ Accept ↓♥ să îmi recapăt elanul, aleg să ofer bucurie
 celor care are nevoie de ea, prin mici gesturi și astfel mă
 simt mai util, ceea ce mă va ajuta să mă prețuiesc mai
 mult.
+
+## LIMFOM
 
 650. LIMFOM Vezi: HODGKIN [BOALA A LUI...]
 
@@ -15923,19 +16768,39 @@ interioară și armonia cu propria mea ființă și cu cei din
 jurul meu. Acum îmi pot exprima calm gândurile, cu
 încredere și iubire necondiționată.
 
+## LITIAZA BILIARĂ
+
 652. LITIAZA BILIARĂ Vezi: CALCULIBILIARI
+## LITIAZA RENALĂ
+
 653. LITIAZA RENALĂ Vezi: CALCULI RENALI
+## LOCOMOȚIE
+
 654. LOCOMOȚIE Vezi: SISTEM LOCOMOTOR
+## LOMBAGO
+
 655. LOMBAGO Vezi: SPATE [DURERE DE...] -
 ZONA LOMBARĂ
+## LOMBALGIE
+
 656. LOMBALGIE Vezi: SPATE [DURERE DE...] -
 ZONA LOMBARĂ
+## LORDOZĂ
+
 657. LORDOZĂ Vezi: COLOANĂ VERTEBRALĂ
 [DEVIAȚIE A...] - LORDOZĂ
+## LSD [consum de...]
+
 658. LSD [consum de...] Vezi: DROGURI
+## LUMBAGO
+
 659. LUMBAGO Vezi: SPATE [DURERE DE...] -
 ZONA LOMBARĂ
+## LUPUS
+
 660. LUPUS Vezi: PIELE - LUPUS
+## LUPUS ERITEMATOS CRONIC LUPUS
+
 661. LUPUS ERITEMATOS CRONIC Vezi: PIELE -
 LUPUS
 
@@ -15966,7 +16831,11 @@ las lumina să intre în toate situațiile care par să mă
 limiteze, pentru a-mi dizolva și a-mi disipa fricile și a
 avea mai multă armonie în viață.
 
+## M
+
 M
+
+## MALABSORBȚIE INTESTINALĂ INTESTINE
 
 663. MALABSORBȚIE INTESTINALĂ Vezi:
 INTESTINE
@@ -15983,6 +16852,8 @@ Accept ↓♥ să-mi schimb punctual de vedere față de
 viață, să-mi recunosc posibilitățile, să renunț la
 ranchiună, pentru a-mi regăsi pacea interioară.
 
+## MALFORMAȚIE [ÎN GENERAL]...[A INIMII]
+
 665. MALFORMAȚIE [ÎN GENERAL]...[A INIMII]
 O malformație este o anomalie a corpului ce există
 la naștere datorită unei probleme din timpul sarcinii.
@@ -15997,6 +16868,8 @@ iert și să am grijă de inima mea. Mă accept așa cum
 sunt, fără să mă critic. Accept ↓♥ să mă bucur de viață,
 să savurez fiecare clipă, să experimentez iubirea sub
 toate formele ei.
+
+## MALFORMAȚII CONGENITALE
 
 666. MALFORMAȚII CONGENITALE
 O malformație este o slăbire, o absență, o alterare
@@ -16018,7 +16891,11 @@ celorlalți.
 Accept ↓♥ să am dreptul să fiu diferit și ceea ce este
 important este să urmez calea inimii ♥ mele.
 
+## MAMELE
+
 667. MAMELE Vezi: SÂNI
+## MANIACO-DEPRESIE
+
 668. MANIACO-DEPRESIE Vezi: PSIHOZĂ
 
 Maniile sunt obișnuințe care ascund angoasa și
@@ -16033,8 +16910,14 @@ anxietăți pentru a-mi regăsi calmul și armonia.
 Gesturile și atitudinea mea vor fi în acord cu
 înțelepciunea mea interioară.
 
+## MARIJUANA [CONSUM DE...]
+
 670. MARIJUANA [CONSUM DE...] Vezi: DROG
+## MASOCHISM
+
 671. MASOCHISM Vezi: SADOMASOCHISM
+## MASTITĂ
+
 672. MASTITĂ Vezi: SÂN-MASTITĂ
 
 URECHI-OTITĂ
@@ -16044,7 +16927,11 @@ atunci când refuz să ascult. Sunt contrariat și frustrat
 cu privire la ceea ce aud, mă simt deranjat.
 Accept ↓♥ că sunt împăcat, armonia circulă în mine.
 
+## MASTOZĂ
+
 674. MASTOZĂ Vezi: SÂNI
+## MAXILARE
+
 675. MAXILARE
 Maxilarele sunt esențiale pentru a mânca, pentru
 începutul procesului de digestie și de asimilare a hranei
@@ -16149,7 +17036,6 @@ Accept ↓♥ să mă ascult, să fac lucrurile intuitive,
 știind că totul este spre binele meu, că orice eroare este
 doar o experiență care mă ajută să evoluez.
 
-
 O afecțiune legată de măduva osoasă îmi indică că
 nu mă pot agăța de nimic, că nu pot da niciun sens
 vieții mele. Decepția mea față de ceea ce sunt este așa
@@ -16157,6 +17043,8 @@ de mare încât nu mă simt demn de viață.
 Accept ↓♥ că am nevoie de ajutor și că trebuie să-l
 cer. Decid să-mi revizuiesc structura de bază și să-mi
 ajustez anumite fațete. Spun „da” vieții.
+
+## MÂINI [ÎN GENERAL]
 
 678. MÂINI [ÎN GENERAL]
 Mâinile reprezintă capacitatea mea de a da sau de a
@@ -16236,6 +17124,8 @@ cer, devenind conștient că singura putere pe care o am
 este asupra mea și nu asupra celorlalți. Îmi iau viața în
 mâini acceptând toate fațetele ființei mele.
 
+## MÂINI [ARTROZA MÂINILOR] – ARTRITĂ
+
 679. MÂINI [ARTROZA MÂINILOR] – Vezi
 ARTRITĂ
 
@@ -16255,9 +17145,15 @@ Accept ↓♥ să devin mai flexibil și mai deschis,
 exprimându-mi stările de spirit. Accept să văd care este
 sensul profund al vieții mele.
 
+## MÂNCĂRIME
+
 681. MÂNCĂRIME Vezi: PIELE - MÂNCĂRIME
+## MÂNCĂRIME A ANUSULUI
+
 682. MÂNCĂRIME A ANUSULUI Vezi: ANUS -
 MÂNCĂRIME ANALĂ
+## MÂNCĂRIME VAGINALĂ GENERAL]
+
 683. MÂNCĂRIME VAGINALĂ Vezi: VAGIN [ÎN
 GENERAL]
 Mâncărimea vaginală este legată de sexualitate și de
@@ -16270,8 +17166,6 @@ agasează.
 Accept ↓♥ să aflu cauza acestor mâncărimi, învăț să
 comunic, să vorbesc cu inima ♥ deschisă pentru a
 exprima ceea ce simt.
-
-
 
 Mătreața este un strat de pelicule cutanate uscate.
 Acestea au aspectul unor fulgi albi și apar de obicei, pe
@@ -16308,7 +17202,11 @@ Lăsând să circule liber fluxul vieții și toată creativitatea
 mea, intru tot mai mult în contact cu potențialul meu și
 devin stăpân pe propria mea viață.
 
+## MEDIACALCOZĂ
+
 685. MEDIACALCOZĂ Vezi: ARTERO-SCLEROZĂ
+## MEDICINA
+
 686. MEDICINA
 Medicina este o știință și o artă de a preveni și a
 îngriji bolile omului. Când medicina poate pune un
@@ -16318,7 +17216,6 @@ cum să mă ajute. Pot în acest caz să caut cauzele răului
 suferit de mine, prin alte metode- iridiologie, citire
 energetică, etc.
 
-
 PSIHOZĂ, SUICID
 Melancolia este o stare de tristețe profundă. Mă simt
 deprimat, nesatisfăcut, lipsit de bucurie. Am impresia că
@@ -16327,6 +17224,8 @@ Accept ↓♥ să afirm că bucuria se află în ființa mea.
 Îmi stabilesc obiective realizabile care mă ajută să îmi
 regăsesc energia, iar tristețea se va disipa încetul cu
 încetul.
+
+## MELANOM
 
 688. MELANOM Vezi MELANOM MALIGN
 
@@ -16344,7 +17243,6 @@ Accept ↓♥ să îmi asum responsabilitatea vieții mele,
 conștientizând că fiecare situație mă ajută să mă cunosc
 mai bine și să devin mai liber.
 
-
 VERTIJ, SURDITATE
 Boala lui Meniere este caracterizată prin adevărate
 vertijuri, de senzația că te afli într-un labirint, asociată
@@ -16359,7 +17257,11 @@ vorbindu-mi de suferințele lor și eu nu pot să vorbesc
 despre ale mele?
 Accept! ♥ să îmi iau un repaus fizic și intelectual.
 
+## MENINGITĂ
+
 691. MENINGITĂ Vezi: CREIER-MENINGITĂ
+## MENOPAUZĂ [DIFICULTĂȚI ALE...]
+
 692. MENOPAUZĂ [DIFICULTĂȚI ALE...]
 În toamna vieții, corpul femeii se schimbă și trebuie
 să accept asta. Este o perioadă cu încărcătură
@@ -16390,7 +17292,11 @@ meu cât și în viața interioară, spiritual. Conștientizez că
 menopauza este o renaștere a ceea ce sunt eu cu
 adevărat. Este tinerețea inimii, nu a corpului.
 
+## MENISC
+
 693. MENISC Vezi: GENUNCHI [DUREREDE...]
+## MENSTRUAȚIE-ÂMENOREE
+
 694. MENSTRUAȚIE-ÂMENOREE
 Amenoreea este absența sau diminuarea drastică a
 menstruație!. Poate fi legată de respingerea feminității,
@@ -16404,6 +17310,8 @@ tata, respective refuz inconștient rolul de a fi doar un
 acord încredere, mai ales dacă acesta mă iubește și este
 deschis față de mine. Accept ↓♥ că viața se exprimă prin
 feminitatea mea.
+
+## MENSTRUAȚIE [DURERE MENSTRUALĂ]
 
 695. MENSTRUAȚIE [DURERE MENSTRUALĂ]
 Menstruația reprezintă scurgerea, prin vagin, a
@@ -16431,7 +17339,6 @@ răspunsul corpului meu la o programare natural, mă
 împac, ca femeie, cu ritmurile corpului meu, las energia
 creatoare să curgă prin mine în mod liber.
 
-
 FIBROM
 Este o creștere anormală a abundenței și duratei
 menstruației. Poate proveni de la un fibrom. Există
@@ -16447,6 +17354,8 @@ care nu o mai pot suporta și am nevoie să o schimb?
 
 Accept ↓♥ oricare ar fi situația mea, să mă împac cu
 ceea ce sunt.
+
+## MENSTRUAȚIE- SINDROM PREMENSTRUAL
 
 697. MENSTRUAȚIE- SINDROM PREMENSTRUAL
 
@@ -16465,25 +17374,55 @@ este rolul meu? Pot să-mi permit să am o > viață activă
 Accept ↓♥ ceea ce sunt și cum sunt și las loc
 evoluției.
 
+## MESCALINĂ [CONSUM DE...]
+
 698. MESCALINĂ [CONSUM DE...] Vezi: DROG
+## METABOLISM LENT
+
 699. METABOLISM LENT Vezi: GREUTATE
 [EXCES DE...]
+## METEORISM
+
 700. METEORISM Vezi: GAZ
+## METRORAGIE MENORAGIE
+
 701. METRORAGIE Vezi: MENSTRUAȚIE -
 MENORAGIE
+## MIASTENIE
+
 702. MIASTENIE Vezi: MUȘCHI - MIASTENIE
+## MICOZĂ pe pielea capului, fire de păr și
+
 703. MICOZĂ pe pielea capului, fire de păr și
 unghii] Vezi: PĂR - MICOZĂ
+## MICOZĂ [... la degetele de la picioare] SAU
+
 704. MICOZĂ [... la degetele de la picioare] SAU
 PICIOR DE ATLET Vezi: PICIOARE - MICOZĂ
+## MIGRENE
+
 705. MIGRENE Vezi: CAP-MIGRENE
+## MIJLOCUL SPATELUI
+
 706. MIJLOCUL SPATELUI Vezi: SPATE
+## MIOCARDITA
+
 707. MIOCARDITA Vezi: INIMĂ ♥ - MIOCARDITA
 
+## MIOM UTERIN
+
 708. MIOM UTERIN Vezi: FIBROM ȘI CHIST
+## MIOPATIE
+
 709. MIOPATIE Vezi: MUȘCHI - MIOPATIE
+## MIOPIE
+
 710. MIOPIE Vezi: OCHI - MIOPIE
+## MIOZITĂ
+
 711. MIOZITĂ Vezi: MUȘCHI - MIOZITĂ
+## MIROS
+
 712. MIROS Vezi: NAS
 
 În general, toate lichidele din corp reprezintă
@@ -16543,6 +17482,8 @@ decât oameni care îmi vor binele. Renunț la singurul
 meu dușman, eu însumi, mă iubesc mai mult și
 conștientizez toate posibilitățile care există în mine.
 
+## M.N.I. [MNONUCLEOZAINFECȚIOASĂ] SÂNGE-MONONUCLEOZĂ
+
 714. M.N.I. [MNONUCLEOZAINFECȚIOASĂ] Vezi:
 SÂNGE-MONONUCLEOZĂ
 
@@ -16560,6 +17501,8 @@ propria viață.
 Accept ↓♥ să îmi iau viața în mâini, știind că atunci
 când semăn gânduri pozitive atrag experiențe pozitive.
 
+## MOARTEA SUBITĂ A NOU-NĂSCUTULUI
+
 716. MOARTEA SUBITĂ A NOU-NĂSCUTULUI
 Este decesul neașteptat al unui bebeluș nou-născut.
 Se evocă adesea drept cauză sufocarea în somn. Eu,
@@ -16570,6 +17513,8 @@ Dacă sunt părintele unui nou-născut ce a murit,
 accept ↓♥ să îmi trăiesc viața pentru mine însămi.
 Realizez că nimic nu e imuabil; permanent, că totul este
 experiență de viață pentru a crește.
+
+## MONGOLISM SAU TRISOMIE 21 SAU
 
 717. MONGOLISM SAU TRISOMIE 21 SAU
 SINDROM DOWN
@@ -16586,8 +17531,12 @@ Accept ↓♥ să trăiesc fiecare experiență cu deschidere
 și încredere în viață. Mă simt din ce în ce mai plin de
 bucurie pentru faptul că trăiesc în această lume.
 
+## MONONUCLEOZA MONONUCLEOZĂ INFECȚIOASĂ
+
 718. MONONUCLEOZA Vezi: SÂNGE –
 MONONUCLEOZĂ INFECȚIOASĂ
+## MUCOVISCIDOZĂ SAU FIBROZA CHISTICĂ
+
 719. MUCOVISCIDOZĂ SAU FIBROZA CHISTICĂ
 
 Mucoviscidoza este o maladie mortală, ereditară, a
@@ -16603,8 +17552,12 @@ Accept ↓♥ să mă deschid ideilor noi, să trăiesc în
 mod spontan, să las energia să circule în interiorul meu
 și să mă ajute să-mi regăsesc echilibrul.
 
+## MUCOZITĂȚI ALE COLONULUI
+
 720. MUCOZITĂȚI ALE COLONULUI Vezi:
 INTESTINE - COLITĂ
+## MUȘCHI [ÎN GENERAL]
+
 721. MUȘCHI [ÎN GENERAL]
 Mușchii sunt controlați de forța minții. Ei reprezintă
 munca de depus pentru a reuși să mergem înainte. Sunt
@@ -16625,7 +17578,6 @@ când eu mă încred în înțelepciunea interioară, iar când
 eu devin ai flexibil în fața vieții, mușchii mei vor devin la
 fel.
 
-
 EPILEPSIE
 O convulsie este o contracție a mușchilor survenită
 brusc și involuntar. Trăiesc o dualitate interioară care
@@ -16634,6 +17586,8 @@ mă face să acționez în manieră irațională. Nu știu
 Accept ↓♥ să mă opresc și să văd ce anume în viața
 mea cauzează atâta stres și agitație. Îmi fac timp să
 savurez viața, să stabilesc prioritățile.
+
+## MUȘCHI-DISTROFIE MUSCULARA
 
 723. MUȘCHI-DISTROFIE MUSCULARA
 Este o boală în care mușchii slăbesc, se degradează
@@ -16648,6 +17602,8 @@ suntem niște marionete. Nu am încredere în nimeni.
 Accept ↓♥ să mă detașez, să renunț la control, să îmi
 înfrunt fricile. Accept ↓♥ să merg înainte eliberat de
 nevoia de a controla.
+
+## MUȘCHI - FIBROMATOZĂ
 
 724. MUȘCHI - FIBROMATOZĂ
 
@@ -16677,6 +17633,8 @@ tensiunea. Mă aflu pe pământ pentru a evolua, iar
 pentru că sunt prea rigid, am toate aceste dureri.
 Trăiesc în prezent și învăț să am încredere în viață.
 
+## MUȘCHI - MIASTENIE
+
 725. MUȘCHI - MIASTENIE
 Miastenia este o afecțiune cronică neurologică,
 caracterizată printr-o oboseală, o slăbire musculară.
@@ -16694,6 +17652,8 @@ răspunsul, va fi mult mai ușor să schimb situația. Dacă
 nu găsesc cauza exactă a conflictului meu, totuși, pot
 căuta surse pentru a mă motiva și a găsi până la urmă o
 soluție.
+
+## MUȘCHI - MIOPATIE
 
 726. MUȘCHI - MIOPATIE
 Termenul general de miopatie descrie toate bolile
@@ -16721,6 +17681,8 @@ iubire, libertate și înțelepciune. Îmi acord permisiunea
 de a trăi din plin, sprijinindu-mă pe propriile valori și pe
 forța mea interioară.
 
+## MUȘCHI - MIOZITA
+
 727. MUȘCHI - MIOZITA
 Miozita este o inflamația a țesutului muscular, care
 provoacă o slăbiciune și o rigiditate musculară, mușchii
@@ -16741,8 +17703,6 @@ mai mult timp pentru a îndeplini o, sarcină; astfel îmi
 refac mușchii și energia. Mă detașez de îndoială și de
 întrebările celor din jurul meu și merg pe calea care îmi
 convine pentru a-mi regăsi pacea interioară.
-
-
 
 TRISMUS
 Tetanosul este o boală infecțioasă, cauzată de
@@ -16768,7 +17728,6 @@ Accept ↓♥ să las iubirea să mă purifice, fac loc
 pentru armonie în viața mea. Mă responsabilizez și
 trăiesc la nivelul inimii ♥, înaintez în viață știind că tot
 ceea ce se întâmplă este pentru binele meu.
-
 
 TETANOS
 Trismusul se caracterizează prin strângerea
@@ -16848,7 +17807,6 @@ autoritate este cea a vocii mele [a căii mele] interioare și
 ea este drumul spre a mă elibera tot mai mult, în fiecare
 zi.
 
-
 COMĂ LEȘIN, INSOMNIE, SOMNOLENȚĂ
 Narcolepsia este o tendință irezistibilă de a
 adormi57. Adorm brusc și somnul poate dura de la
@@ -16879,7 +17837,6 @@ mea și cu lumea din jurul meu, precum și cu natura.
 fiind conștient că tot ceea ce mi se întâmplă este o
 experiență pentru evoluția mea. Încetez să mai fug și
 accept să trăiesc fiecare moment aici și acum.
-
 
 Nasul face referire la instinctul omului, mai ales în
 ceea ce privește supraviețuirea. Deoarece mă ajută să
@@ -16926,6 +17883,8 @@ intuiției mele, mirosului și vieții.
 Accept ↓♥ să adopt o atitudine deschisă și de
 încredere în mine. Astfel pot ; vindeca orice afecțiune
 care apare la nas.
+
+## NAS [afecțiuni ale...]
 
 733. NAS [afecțiuni ale...]
 Nasul este organul mirosului. Este simțul care mă
@@ -17027,6 +17986,8 @@ ce sunt și toate experiențele pe care le-am trăit. Accept
 înțeleg altfel acum, fac parte din experiența mea și voi
 începe din nou să respir liber.
 
+## NAS CARE CURGE IN GÂT
+
 734. NAS CARE CURGE IN GÂT
 Orice lichid din corpul meu reprezintă un aspect al
 emoțiilor mele. Dacă nasul curge în gât, în loc ca
@@ -17050,6 +18011,8 @@ meu. Îmi asum din plin emoțiile. Încep din nou să am
 grijă de mine, dacă vreau ca și ceilalți să îmi ofere
 afecțiune
 
+## NAS [congestie]
+
 735. NAS [congestie] Vezi: CONGESTIE
 
 TUMORĂ
@@ -17069,6 +18032,8 @@ Dacă este nevoie ca polipul să fie scos, îi mulțumesc
 corpului meu pentru informația pe care mi-a transmis-o
 și accept ↓♥ din toată inima?, conștientizarea pe care o
 am de făcut.
+
+## NAS [sângerări...]
 
 737. NAS [sângerări...]
 Nasul este organul prin care circulă aerul pentru a
@@ -17092,6 +18057,8 @@ Accept ↓♥ să învăț să mă recunosc, să mă iubesc eu
 ceea ce cred eu despre mine însumi. Există o credință
 străveche conform căreia, emoțiile rele sau situațiile rele
 se duc, în afara vieții mele.
+
+## NAS - SINUZITĂ
 
 738. NAS - SINUZITĂ
 Când am sinuzită, am un blocaj la nas și sinusurile
@@ -17145,8 +18112,14 @@ vocea mea interioară, pentru a afla ceea ce este bun
 pentru mine. Las tandrețea să intre în viața mea. Am
 încredere în mine și pot, în sfârșit, să văd lumina!
 
+## NAS [strănut]
+
 739. NAS [strănut] Vezi: STRĂNUT
+## NAS [sforăit]
+
 740. NAS [sforăit] Vezi: SFORĂIT
+## NAȘTERE [felul în care s-a petrecut
+
 741. NAȘTERE [felul în care s-a petrecut
 
 mamă]
@@ -17375,6 +18348,8 @@ moment ce au făcut doi în același timp. Le era teamă că
 doilea, pentru a se asigura? Oricare ar fi motivul, le
 mulțumesc pentru că m-au adus pe lume...
 
+## NAȘTEREA PREMATURĂ
+
 742. NAȘTEREA PREMATURĂ
 O naștere prematură are loc între a 29-a și a 38-a
 săptămână de la încetarea menstruației. Dacă se
@@ -17386,7 +18361,6 @@ am păstrat sarcina secretă, ascunsă de o persoană de a
 cărei reacție îmi era foarte teamă.
 Oricare ar fi motivul, accept ↓♥ că tot ce se întâmplă
 este spre binele meu și al copilului născut prematur.
-
 
 Nebunia, denumită și alienare mintală sau psihoză,
 apare atunci când nu mai suport și resping lumea în
@@ -17410,13 +18384,19 @@ mai responsabil, mai liber, mai stăpân pe viața mea.
 Astfel pot să accept mai ușor noile situații care apar în
 viața mea
 
-
+## NEFRITĂ
 
 744. NEFRITĂ Vezi: RINICHI - NEFRITĂ
 
+## NEFRITĂ CRONICĂ LUI...]
+
 745. NEFRITĂ CRONICĂ Vezi: BRIGHT [BOALA A
 LUI...]
+## NEFROPATIE
+
 746. NEFROPATIE Vezi: RINICHI - NEFRITĂ
+## NELINIȘTE
+
 747. NELINIȘTE
 Neliniștea se manifestă prin agitație, angoasă și
 frică. Provine dintr-o nesiguranță interioară pe care o
@@ -17448,6 +18428,8 @@ nu mă mai pot concentra.
 interiorul meu și accept ↓♥, la nivelul inimii?
 experiențele vieții și mă protejez în același timp.
 
+## NEMULȚUMIRE
+
 748. NEMULȚUMIRE
 Nu sunt satisfăcut de ceea ce mi se întâmplă în
 viață. Sunt poate prea perfecționist. Nemulțumirea mi se
@@ -17460,6 +18442,8 @@ a aduce schimbări pozitive în viața mea, cu mijloacele
 potrivite. Voi fi primul care voi beneficia de mai multă
 bucurie, care se va răsfrânge și asupra celor din jurul
 meu.
+
+## NERVI [în general]
 
 749. NERVI [în general]
 Nervii sunt organe care primesc și transmit
@@ -17498,7 +18482,6 @@ sensibilitate crescută și, chiar dacă este posibil să mă fi
 simțit rănit în trecut, accept ↓♥ să am încredere în
 ceilalți.
 
-
 NEVROZĂ
 Crizele de nervi reprezintă o creștere a energiei, o
 vibrație interioară, care blochează nivelul vorbirii prin
@@ -17514,8 +18497,6 @@ Accept ↓♥ să mă opresc și să conștientizez totul,
 respirând adânc și relaxându-mă profund. Trebuie să
 accept ↓♥ situația și să îmi acord timp pentru a face
 tensiunea să scadă prin reechilibrarea emoțiilor mele.
-
-
 
 Nevralgia poate fi descrisă ca contact stricat, pe
 traseul unui fir electric. Firele electrice sunt
@@ -17562,6 +18543,8 @@ accept],V, le integrez și le schimb în ceva pozitiv. Rămân
 în contact permanent cu esența mea divină și astfel pot
 îndeplini lucruri importante!
 
+## NERVI - NEVRITĂ
+
 752. NERVI - NEVRITĂ
 Nevrita este inflamația unuia sau mai multor nervi.
 Partea corpului care este afectată de unul sau mai mulți
@@ -17580,6 +18563,8 @@ Accept ↓♥ să restabilesc această comunicare cu
 mine însumi și îmi găsesc înțelegerea de care am nevoie.
 Regăsesc mai mult calm în viața mea și în corpul meu.
 Trăiesc în adevăr, transparență și cu inima ♥ deschisă.
+
+## NERV OPTIC
 
 753. NERV OPTIC Vezi: NERVI - NEVRITĂ
 
@@ -17660,6 +18645,8 @@ valoare a unei ființe se măsoară cu măreția sufletului ei.
 integrez. Decid să avansez în viață și mă las îndrumat în
 siguranță, pentru binele meu.
 
+## NERVOZITATE
+
 755. NERVOZITATE
 Nervozitatea este un semn care indică faptul că nu
 am încredere în mine, în cei din jurul meu și în viitor.
@@ -17675,7 +18662,6 @@ eveniment în care nu am încredere sau teama .de a
 pierde ceva sau pe cineva drag. Trebuie să mă eliberez și
 să am încredere în eul meu interior și să mă relaxez în
 mod constant
-
 
 DEPRESIE, OBOSEALĂ [ÎN GENERAL]
 Neurastenia sau epuizarea nervoasă, este o stare de
@@ -17700,9 +18686,17 @@ potențialul, perseverența și curajul necesare pentru a-
 mi atinge toate scopurile pe care le fixez. Fericirea și
 bucuria vor ocupa și mai mult loc în viața mea.
 
+## NEUROPATIE
+
 757. NEUROPATIE Vezi: SISTEM NERVOS
+## NEVOIE [în general]
+
 758. NEVOIE [în general] Vezi: DEPENDENȚĂ
+## NEVRALGIE
+
 759. NEVRALGIE Vezi: NERVI - NEVRALGIE
+## NEVRITĂ
+
 760. NEVRITĂ Vezi: NERVI - NEVR1TĂ
 
 OBSESIE
@@ -17740,7 +18734,11 @@ Trebuie să îmi accept ↓♥ natura profundă, care
 însumi, fără să fie nevoie să înțeleg toată viața, de la A
 la Z, pentru a mă acceptați așa cum sunt.
 
+## NISTAGMUS
+
 762. NISTAGMUS Vezi: OCHI - NISTAGMUS
+## NODULI
+
 763. NODULI
 Un nodul este o -leziune cutanată sau mucoasă,
 bine delimitată, aproape sferică și palpabilă, care poate
@@ -17786,7 +18784,6 @@ Poziționându-mă voi putea să îmi exprim nevoile și voi
 avea toată energia necesară pentru a-mi atinge toate
 țelurile.
 
-
 Nostalgia este o formă de melancolie provocată de
 un regret. De obicei, atunci când sunt nostalgic,
 înseamnă că privesc printr-un nor îmbibat de emoții, în
@@ -17807,7 +18804,7 @@ Accept ↓♥ să savurez din plin prezentul pentru ca
 fiecare moment care trece să fie trăit ca o experiență
 unică și plină de învățăminte noi.
 
-
+## OASE [în general]
 
 765. OASE [în general]
 Oasele reprezintă structura solidă a corpului, stâlpii
@@ -17832,6 +18829,8 @@ schimbe foarte mult.
 
 Accept ↓♥ să încetez să mă mai tem și învăț să am
 încredere în mine.
+
+## OASE [afecțiuni ale...]
 
 766. OASE [afecțiuni ale...]
 Bolile sau afecțiunile oaselor, inclusiv cancerul de
@@ -17889,6 +18888,8 @@ locul lor și eu sunt îndrumat îndeaproape. La fel ca un
 arhitect, pot și eu să îmi construiesc viața, cu toate
 elementele pe care le vreau.
 
+## OASE - ACROMEGALIE
+
 767. OASE - ACROMEGALIE
 Acromegalia se caracterizează printr-o creștere
 exagerată a oaselor extremităților și ale feței. Hormonal
@@ -17920,6 +18921,8 @@ decid să investesc în viața mea. Noua mea structură
 mentală include acum respectul față de mine, emoțiile
 mele și diferențele mele.
 
+## OASE [boală a oaselor]
+
 768. OASE [boală a oaselor] Vezi: anexa IV
 
 GENERAL]
@@ -17944,6 +18947,8 @@ bine în situațiile neașteptate și mai puțin
 emoțiile pe care uneori le simt foarte puternic, mă voi
 putea vindeca și oasele se vor regenera astfel.
 
+## OASE [cancer la oase...] - SARCOMUL LUI
+
 770. OASE [cancer la oase...] - SARCOMUL LUI
 
 Este o formă a cancerului de oase, cu probabilitate
@@ -17959,6 +18964,7 @@ Accept ↓♥ să am încredere în viață, știind că aceasta
 îmi va oferi ocaziile de care am nevoie pentru a trăi în
 societate.
 
+## OASE - DIFORMITATE
 
 771. OASE - DIFORMITATE
 Oasele se pot deforma din cauza presiunii la care
@@ -17977,6 +18983,8 @@ Accept ↓♥ sa fiu mai flexibil față de principiile mele
 de viață. Deschiderea mea de spirit mă va ajuta să
 apreciez diversele aspecte ale vieții și să descopăr faptul
 că iubirea poate exista în diverse forme.
+
+## OASE - DISLOCARE
 
 772. OASE - DISLOCARE
 Cuvântul dislocare înseamnă o „pierdere a locației”,
@@ -17999,7 +19007,6 @@ necesare; ceea ce mă va ajuta să mă depășesc și să
 vreau ceva nou în viața mea. Dislocarea este suficient de
 dureroasă pentru ca eu să conștientizez faptul că
 trebuie să mă schimb, pentru a nu o mai trai din nou.
-
 
 - FRACTURI ALE VERTEBRELOR
 
@@ -18045,6 +19052,8 @@ interioară, îmi regăsesc libertatea de mișcare. Eu decid
 ce se întâmplă în viața mea. Devin centrat pe mine
 însumi și pe potențialul meu nelimitat.
 
+## OASE - OSTEOMIELITĂ
+
 774. OASE - OSTEOMIELITĂ
 Osteomielita este o infecție a oaselor și a măduvei
 oaselor, care afectează de obicei o zonă situată în
@@ -18069,6 +19078,8 @@ nu face decât să scoată la lumină anumite conflicte pe
 care le trăiesc în prezent. Dacă osteomielita provine
 dintr-o rană anterioară, este posibil ca, cauzele originale
 ale acelei răni să nu fi fost încă tratate.
+
+## OASE - OSTEOPOROZĂ
 
 775. OASE - OSTEOPOROZĂ
 
@@ -18115,8 +19126,14 @@ proiecte noi. Îmi depășesc timiditatea. Am nevoie să am
 încredere în viață și să îmi găsesc noi resurse de
 motivație. De acum înainte, sunt stăpânul vieții mele!
 
+## OBEZITATE
+
 776. OBEZITATE Vezi: GREUTATE [EXCES DE...]
+## OBICEIURI
+
 777. OBICEIURI Vezi: DEPENDENȚĂ
+## OBOSEALĂ [în general]
+
 778. OBOSEALĂ [în general]
 Oboseala îmi dă impresia că sunt plat. Mă simt gol
 pe interior. Sursa oboselii se află în lipsa de iubire față
@@ -18149,6 +19166,8 @@ agăț de trecut și accept ↓♥ să trăiesc momentul prezent,
 deoarece fiecare moment îmi aduce energia de care am
 nevoie. Făcând lucrurile de care am nevoie și care îmi
 plac în mod deosebit, energia va reveni în mod natural!
+
+## OBOSEALĂ CRONICĂ [sindromul de...] SAU
 
 779. OBOSEALĂ CRONICĂ [sindromul de...] SAU
 
@@ -18220,8 +19239,12 @@ Accept ↓♥ ca orice situație este perfecta. Îmi
 înlocuiesc toate obligațiile cu alegeri pe care le fac în
 viață. Astfel îmi voi crea în mod liber viitorul.
 
+## OBRAZ [a-și roade interiorul obrazului...]
+
 780. OBRAZ [a-și roade interiorul obrazului...]
 Vezi: GURĂ [AFECȚIUNIALE...]
+## OBSESIE
+
 781. OBSESIE
 Obsesia este o boală a gândirii. Atunci când sunt
 obsedat de ceva sau de cineva, întreagă mea atenție,
@@ -18276,7 +19299,11 @@ Nu mai am de ce să fiu obsedat, trebuie doar să am
 încredere în vocea mea interioară, care mă îndrumă
 întotdeauna spre ceea ce este mai bun pentru mine.
 
+## OCHI
+
 782. OCHI Vezi: OCHI [ÎN GENERAL]
+## OCHI [ÎN GENERAL]
+
 783. OCHI [ÎN GENERAL]
 Ochii mei reprezintă oglinda sufletului. Mă ajută să
 văd în exterior și, prin ei, îmi exprim toate emoțiile
@@ -18349,6 +19376,8 @@ discernământ limpede. Dacă privesc în interiorul meu,
 înainte de a privi lumea, voia avea o nouă viziune de
 ansamblu și o privire nouă asupra existenței mele.
 Privirea mea va fi sinceră și fără judecată.
+
+## OCHI [afecțiuni ale...]
 
 784. OCHI [afecțiuni ale...]
 Afecțiunile ochilor, printre care și orbirea, reprezintă
@@ -18434,6 +19463,8 @@ Accept ↓♥ frumusețea din jurul meu și îmi acord
 timp pentru a o contempla, îmi îndrept ochii spre ceea
 ce este frumos în jurul meu și în interiorul meu.
 
+## OCHI [afecțiuni ale copiilor]
+
 785. OCHI [afecțiuni ale copiilor]
 O problemă la ochi, în cazul unui copil mic reflectă
 un stres legat de familia lui, un refuz de a vedea ceea ce
@@ -18447,6 +19478,8 @@ adolescență poate însemna o frică față de sexualitate. În
 cazul în care sunt părinte, este important să îl încurajez
 pe copilul meu să își comunice fricile, pentru a-l liniști
 și a-l ajuta să le depășească.
+
+## OCHI - ASTIGMATISM
 
 786. OCHI - ASTIGMATISM
 Astigmatismul este un defect al curburii corneei sau
@@ -18496,6 +19529,8 @@ Vreau să văd adevărul, fiind capabil să primesc într-un
 mod ordonat mesajele trimise e vocea mea interioară.
 Astfel voi putea să îmi analizez viața, într-un mod mai
 limpede.
+
+## OCHI - CATARACTĂ
 
 787. OCHI - CATARACTĂ
 Cataracta este o boală în care cristalinul [lentila
@@ -18565,6 +19600,8 @@ Accept ↓♥ să fac un efort pentru a privi în interiorul
 meu și a vedea lumina și frumusețea din jurul meu. Așa
 voi trăi din plin!
 
+## OCHI - CEARCĂNE
+
 788. OCHI - CEARCĂNE
 Ochii marcați puternic de cearcăne sunt în general
 semnul oboselii. O alergie, rezultată din dependența față
@@ -18577,7 +19614,6 @@ Accept ↓♥ să fiu mai independent și faptul că,
 fericirea mea depinde doar de mine. Aprobarea celorlalți
 devine astfel un plus și nu o condiție pentru starea mea
 de bine.
-
 
 ULCER
 Cheratita este o inflamație a corneei, însoțită de
@@ -18606,7 +19642,6 @@ să renunț la controlul pe care vreau să îl exercit asupra
 celorlalți, asupra lucrurilor sau a situațiilor din jurul
 meu, asupra cărora nu am nicio putere.
 
-
 CREIER-COMOȚIE
 Pe plan fizic, o comoție survine în urma unui șoc
 violent [direct sau indirect] asupra unei părți a
@@ -18621,6 +19656,8 @@ feluri de a vedea lucrurile și fac loc noilor gânduri pe
 care le am. Începând de acum, îmi ascult intuiția și mă
 las îndrumat de ea și de sentimentele mele. Mă simt mai
 liber și mai senin.
+
+## OCHI - CONJUNCTIVITĂ Conjunctivita este inflamația membranei
 
 791. OCHI - CONJUNCTIVITĂ
 Conjunctivita este inflamația membranei
@@ -18667,6 +19704,8 @@ transforme în pace interioară. Sunt conștient de toate
 posibilitățile care mi se oferă și îmi creez viața așa cum
 vreau.
 
+## OCHI - DALTONISM [non-perceperea
+
 792. OCHI - DALTONISM [non-perceperea
 culorilor]
 A fi daltonist înseamnă să Vezi: lumea fără culoare,
@@ -18698,6 +19737,8 @@ Accept ↓♥ faptul că am putere doar asupra mea și
 deschid orizonturi noi, pentru a dobândi o nouă viziune
 asupra lucrurilor. Astfel voi putea vedea viața mea sub o
 nouă lumină, la fel și lecțiile pe care le am de învățat
+
+## OCHI - DEZLIPIREA DE RETINĂ
 
 793. OCHI - DEZLIPIREA DE RETINĂ
 Dezlipirea de retină este o afecțiune a ochiului
@@ -18744,6 +19785,8 @@ ceea ce am trăit. Fiind mai apropiat de emoțiile mele, mă
 apropii de esența mea divină și ochii mei pot astfel să
 înceapă un proces de vindecare.
 
+## OCHI - DEGENERESCENTĂ RETINIANA
+
 794. OCHI - DEGENERESCENTĂ RETINIANA
 [maculară]
 Degenerescența maculară este forma cea mai
@@ -18766,6 +19809,8 @@ ales a celor pe care îi iubesc. Decid să îmi împlinesc
 visele, să las viața să curgă în mine. Corpul meu și mai
 ales ochii mei se vor regenera și voi avea toată energia
 necesară pentru a trăi viața din plin!
+
+## OCHI - GLAUCOM
 
 795. OCHI - GLAUCOM
 Glaucomul implică un blocaj al canalului de
@@ -18812,6 +19857,8 @@ Accept ↓♥ să înlătur vălul care mă acoperă și să văd
 lumea cu iubire și tandrețe. Nu mă mai agăț de ceilalți și
 trăiesc intens în prezent. Iert și accept ↓♥ să văd viața cu
 mai multă toleranță.
+
+## OCHI - HIPERMETROPIE ȘI PREZBITISM
 
 796. OCHI - HIPERMETROPIE ȘI PREZBITISM
 În cazurile de hipermetropie și prezbitism, vederea
@@ -18874,6 +19921,8 @@ toată energia pentru a crea o lume nouă, adaptată
 
 nevoilor mele. Accept ↓♥ să îmi ascult înțelepciunea
 interioară, care se exprimă prin intuiția mea.
+
+## OCHI-MIOPIE
 
 797. OCHI-MIOPIE
 Miopia îmi afectează vederea la distanță.
@@ -18938,6 +19987,8 @@ este responsabilă de propria ei viață; văd viitorul într-o
 lumină frumoasă și pozitivă și se va manifesta exact așa
 în viața mea.
 
+## OCHI - NISTAGMUS
+
 798. OCHI - NISTAGMUS
 Nistagmusul reprezintă o suită de mișcări sacadate
 și rapide ale globilor oculari, involuntare, de multe ori
@@ -18961,6 +20012,8 @@ pentru ca totul să se oprească.
 Accepți ↓♥ să conștientizez faptul că pericolul putea;
 fi real pentru mine, în trecut, dar acum nu mai există:
 sunt tot timpul îndrumat și protejat.
+
+## OCHI - ORBIRE
 
 799. OCHI - ORBIRE
 Sunt considerat orb dacă am 10% din vedere sau
@@ -19025,6 +20078,8 @@ mai am încredere? Ce anume îmi tulbură
 discernământul? Accept să văd bogăția din interiorul
 meu, lumina din mine.
 
+## OCHI - PTERIGION
+
 800. OCHI - PTERIGION
 Reprezintă o îngroșare a conjunctivei [albul
 ochiului], de formă triunghiulară, care se întinde de la
@@ -19044,6 +20099,8 @@ Conștientizez faptul că, ceea ce mă deranjează sau mă
 Nu pot fi stăpân decât pe propria mea viață și știu că
 fiecare are aceeași putere, trebuie doar să accept ↓♥
 acest lucru.
+
+## OCHI - PUPILE
 
 801. OCHI - PUPILE
 
@@ -19074,6 +20131,8 @@ ascult vocea interioară și adaptez situațiile în funcție de
 nevoile mele. Astfel, voi putea vedea lumina de la
 capătul tunelului și voi putea avansa în viață, cu
 încredere și determinare.
+
+## OCHI - RETINITĂ PIGMENTARĂ SAU
 
 802. OCHI - RETINITĂ PIGMENTARĂ SAU
 RETINOPATIA PIGMENTARĂ
@@ -19106,6 +20165,8 @@ Trebuie să învăț să mă accept ↓♥ așa cum sunt și să
 am o privire pozitivă față de cea ce sunt, deoarece sunt o
 persoană unică și extraordinară.
 
+## OCHI - STRABISM [în general]
+
 803. OCHI - STRABISM [în general]
 Dacă sunt afectat de strabism, se spune, în limbaj
 comun, „că mă uit chiorâș”, am privirea încrucișată.
@@ -19122,6 +20183,8 @@ concentrez doar pe un aspect o dată. Nu am încredere în
 oameni și în situații, pe care le consider „strâmbe”.
 Accept ↓♥ să învăț să îmi descopăr adevăratele nevoi
 și să mă simt bine în orice situație.
+
+## OCHI - STRABISM CONVERGENT
 
 804. OCHI - STRABISM CONVERGENT
 Strabismul convergent [ochii încrucișați] este o
@@ -19176,6 +20239,8 @@ mei își vor relua poziția normală. Punctele mele de
 vedere pot fi diferite de ale celorlalți. Important este să
 îmi fiu fidel mie însumi.
 
+## OCHI - STRABISM DIVERGENT
+
 805. OCHI - STRABISM DIVERGENT
 La fel ca și în cazul strabismului convergent,
 strabismul divergent, este tot o deviere a ochilor, dar, de
@@ -19201,10 +20266,12 @@ fiecare situație în față. Sensibilitatea mea mă ajută să
 iau decizii mai clare, știind că sunt tot timpul îndrumat
 și protejat
 
-
+## OCHI USCAȚI ALE...]
 
 806. OCHI USCAȚI Vezi: OCHI [AFECȚIUNI
 ALE...]
+## OMBILIC [BURIC]
+
 807. OMBILIC [BURIC]
 Ombilicul este deschiderea din peretele abdominal
 prin care fetusul este legat cu .. cordonul ombilical.
@@ -19247,7 +20314,6 @@ bună pentru mine, pentru a lăsa să vină spre mine noi
 cunoștințe sau noi contacte care aduc un vânt de
 prospețime și de schimbări pozitive în viața mea.
 
-
 Hernia ombilicală poate fi o manifestare a
 dezamăgirii mele sau a regretului de a fi trebuit să mă
 detașez de mediul confortabil și sigur,: pe care îl
@@ -19261,8 +20327,7 @@ pentru a-mi atinge obiectivele și recunosc că viața mă va
 sprijini pe deplin. Acceptând ↓♥ să „ajut fără ; egoism,
 îmi deschid inima ♥ spre iubirea celorlalți.
 
-
-
+## OMOPLAT
 
 809. OMOPLAT
 Omoplatul este, un os lat, larg și subțire, care face
@@ -19291,6 +20356,8 @@ când sunt singur, deoarece în singurătate pot să intru
 în contact cu esența mea divină. După aceea îmi va fi
 mai ușor să îmi exprim nevoile.
 
+## OMUCIDERE
+
 810. OMUCIDERE
 Pot să îmi doresc să omor pe cineva. Dacă hrănesc
 această dorință cu resentimente și cu ură, mă expun
@@ -19309,7 +20376,11 @@ mă ajute necondiționat, cineva în care aș putea avea
 Accept ↓♥ să mă eliberez de trecut, să mă iert și îmi
 regăsesc forța pentru a redeveni stăpân pe viața mea.
 
+## OPIUM [consum de...]
+
 811. OPIUM [consum de...] Vezi: DROGURI
+## OPRESIUNE
+
 812. OPRESIUNE
 Când mă simt opresat am senzația că am o greutate
 pe piept, la nivelul plămânilor. Pot avea și impresia de
@@ -19329,6 +20400,8 @@ Conștientizez libertatea pe care o am. Îmi eliberez
 sentimentele negative pentru a face loc calmului și
 iubirii.
 
+## OPRESIUNE PULMONARĂ
+
 813. OPRESIUNE PULMONARĂ
 O astfel de stare denotă faptul că există un
 dezechilibru între presiunea din interiorul meu și cea
@@ -19345,7 +20418,6 @@ Accept ↓♥ să mă relaxez, să nu mă mai oblig să fiu
 Pentru a mă ajuta să înlătur această presiune, inspir
 lumina și iubirea, care purifică aceste emoții, care vor fi
 astfel echilibrate.
-
 
 INFECȚII [ÎN GENERAL]. BOLIE COPILĂRIEI
 Oreionul este o infecție virală contagioasă, care se
@@ -19371,6 +20443,8 @@ o situație], Accept ↓♥ să găsesc ce anume am de învățat
 din toate acestea. Las să curgă energiile mele interioare,
 dorințele mele naturale și astfel pot fi în contact cu
 creativitatea mea și cu bucuria mea interioară.
+
+## ORGANE GENITALE
 
 815. ORGANE GENITALE Vezi: GENITALE
 [ORGANE...]
@@ -19402,8 +20476,14 @@ altfel ar putea să se manifeste sub formă de orgelet.
 Devenind stăpân pe viața mea și făcând parte din ea,
 fiind „în primul rând”, mă voi dezvolta pe deplin.
 
+## ORHITA
+
 817. ORHITA Vezi: TESTICULE [ÎN GENERAL]
+## OTITĂ
+
 818. OTITĂ Vezi: URECHI - OTITĂ
+## OTRĂVIRE [...prin alimentație]
+
 819. OTRĂVIRE [...prin alimentație]
 Otrăvirea sau intoxicația poate apărea atunci când o
 substanță toxică este introdusă în corp și este însoțită
@@ -19441,13 +20521,13 @@ iasă din mine toată otrava: toate atitudinile, acțiunile,
 emoțiile mele care nu îmi convin. Îmi preiau controlul
 asupra vieții mele, cu simplitate și sinceritate.
 
-
-
 [AFECȚIUNI...]
 Ovarele reprezintă dorința mea de a avea copii și
 creativitatea mea, capacitatea mea de a crea, feminitatea
 mea, faptul de a fi femeie și de a fi împlinită sau
 realizată ca femeie.
+
+## OVARE [afecțiuni ale ovarelor...]
 
 821. OVARE [afecțiuni ale ovarelor...]
 Problemele ovariene indică un conflict puternic față
@@ -19515,10 +20595,18 @@ pentru ca rana mea interioară să se vindece și să mă pot
 îndrepta spre viitor, cu o privire mai pozitivă și să îl
 umplu de proiecte pe care le voi realiza.
 
+## PALAT
+
 822. PALAT Vezi: GURĂ - PALAT
+## PALPITAȚII CARDIACĂ
+
 823. PALPITAȚII Vezi: INIMĂ ♥ - ARITMIE
 CARDIACĂ
+## PALUDISM
+
 824. PALUDISM Vezi: MALARIE
+## PANARIȚIU
+
 825. PANARIȚIU
 Panarițiul este inflamația acută a unui deget de la
 mână sau, mai rar, a unui deget de la picior. Dacă
@@ -19544,7 +20632,6 @@ Accept ↓♥ să decid, începând de acum, asupra
 teritoriului meu. Reintru în i contact cu puterea mea
 interioară. Înlătur gratiile închisorii mele. Acum sunt
 liber să îmi creez viața, așa cum vreau.
-
 
 HIPOGLICEMIE
 Pancreasul este situat cam la zece centimetri
@@ -19640,7 +20727,6 @@ Accept ↓♥ faptul că, totul este o experiență de viață,
 mă adaptez situațiilor, îmi las emoțiile libere și încetez
 să mai controlez, atât situațiile, cât și persoanele.
 
-
 III
 Trăiesc multă furie față de viață, deoarece nu îmi
 mai oferă „plăceri dulci”. Vreau să o resping. Am o furie
@@ -19662,7 +20748,11 @@ furiei. La o parte tot ceea ce nu îmi mai convine în viață
 familial și profesional]. Astfel îmi creez o nouă viață,
 plină de bucurie și de fericire.
 
+## PANICĂ [atac de...]
+
 828. PANICĂ [atac de...] Vezi: FRICĂ
+## PARALIZIE [în general]
+
 829. PARALIZIE [în general]
 Paralizia este o imposibilitate de a acționa, o oprire a
 funcțiilor și a activității unuia sau mai multor mușchi.
@@ -19739,17 +20829,33 @@ exterior, preiau controlul asupra propriei mele vieți!
 învăț să accept ↓♥ iubirea celorlalți. Mușc din viață cu
 poftă!
 
+## PARALIZIE CEREBRALĂ
+
 830. PARALIZIE CEREBRALĂ Vezi: CREIER -
 PARALIZIE CEREBRALĂ
+## PARALIZIE INFANTILĂ
+
 831. PARALIZIE INFANTILĂ Vezi: POLIOMIELITĂ
+## PARANOIA
+
 832. PARANOIA Vezi: PSIHOZĂ - PARANOIA
+## PARKINSON [boala a lui...]
+
 833. PARKINSON [boala a lui...] Vezi: CREIER –
 PARKINSON [BOALA A LUI...]
+## PAROTIDE
+
 834. PAROTIDE Vezi: GLANDELE SALIVARE
+## PARTEA DREAPTĂ
+
 835. PARTEA DREAPTĂ Vezi: MASCULIN
 [PRINCIPIU...]
+## PARTEA STÂNGĂ
+
 836. PARTEA STÂNGĂ Vezi: FEMININ
 [PRINCIPIU...]
+## PĂR [în general]
+
 837. PĂR [în general]
 Părul protejează pielea. capului și simbolizează
 forța, vitalitatea, libertatea, frumusețea și puterea [de
@@ -19799,6 +20905,8 @@ meu, care corespund : diverselor stări interioare [păr
 tern, subțire sau casant, des etc.]
 Accept ↓♥ să rămân deschis față de această
 minunată putere pe care o reprezintă părul meu!
+
+## PĂR [boli de...]
 
 838. PĂR [boli de...]
 Există mai multe cauze care pot duce la apariția
@@ -19850,6 +20958,8 @@ moment, mai ales felul în care mă comport când înfrunt
 anumite situații din viață și încetez să îmi mai smulg
 părul din cap! Accept ↓♥ să mă bucur de viață și sunt
 mai tolerant față de mine însumi.
+
+## PĂR - CALVIȚIE
 
 839. PĂR - CALVIȚIE
 Calviția este pierderea parțială sau totală a părului.
@@ -19936,6 +21046,8 @@ descopăr peste tot soluțiile, deoarece acestea există!
 Toată lumea există pentru a mă ajuta! De ce aș mai avea
 nevoie de altceva?
 
+## PĂR GRIZONAT
+
 840. PĂR GRIZONAT
 Părul grizonat simbolizează înțelepciunea. Totuși,
 apariția bruscă a firelor de păr albe este legată de stres,
@@ -19974,6 +21086,8 @@ fi deranjat de noua imagine pe care o proiectez, dar a
 sosit momentul să trăiesc la nivelul lui „a fi” în loc de „a
 părea”.
 
+## PĂR - PELADĂ
+
 841. PĂR - PELADĂ
 Pelada este o boală a pielii caracterizată prin
 căderea părului în plăci rotunde. Poate proveni în urma
@@ -20005,6 +21119,8 @@ noi.
 Accept ↓♥ să fac pace cu mine însumi și să găsesc
 soluții care mă vor ajuta să trăiesc în armonie cu
 aspirațiile mele cele mai înalte.
+
+## PĂR [pierderea...]
 
 842. PĂR [pierderea...] Vezi: PĂR - CAL VIȚIE
 
@@ -20062,6 +21178,8 @@ ce îmi va oferi un echilibru cu partea mea rațională.
 Merg mai departe în siguranță, mă simt înconjurat
 mereu de iubire și de tandrețe.
 
+## PĂR- PECINGINE
+
 844. PĂR- PECINGINE Vezi: PĂR [PIERDEREA...] /
 CALVIȚIE / PELADĂ
 Pecinginea este o ciupercă parazită contagioasă care
@@ -20082,6 +21200,8 @@ lucru mi se pare foarte urât.
 Accept ↓♥ să îmi ocup locul, să am încredere în
 mine. Doar eu am putere asupra vieții mele.
 
+## PEDICULOZA
+
 845. PEDICULOZA Vezi: PĂDUCHI
 
 [BOLI...]
@@ -20092,6 +21212,8 @@ Sunt dependent de alții - este mai simplu pentru mine
 să fiu supus decât să-mi asum riscul de a fi respins. Îmi
 simt invadat spațiul și intimitatea. Dacă sunt copil, sunt
 foarte sensibil la critic și mă simt parazitat.
+
+## PELADA
 
 847. PELADA Vezi: PĂR - PEIADĂ
 
@@ -20119,6 +21241,8 @@ cu privire la noile direcții pe care le aleg și la capacitatea
 mea de a descoperi toată bogăția lumii mele interioare și
 toate posibilitățile care mi se oferă.
 
+## PENIS [afecțiuni ale...]
+
 849. PENIS [afecțiuni ale...]
 Penisul este organul masculin cu funcție
 reproductivă. Reprezintă aspectul masculin, forța,
@@ -20145,6 +21269,8 @@ creativitatea în întregime, atât în aspectul masculin, cât
 și în cel feminin și strălucesc de bucuria de a folosi pe
 deplin toate posibilitățile mele.
 
+## PERETE [ANATOMIC]
+
 850. PERETE [ANATOMIC]
 Peretele anatomic este partea care limitează o
 cavitate a corpului sau a unui organ [precum vezica,
@@ -20166,6 +21292,8 @@ Accept ↓♥ să reiau contactul cu nevoile mele și cu
 emoțiile mele. Le exprim cu toată încrederea, cu respect
 față de mine însumi și față de ceilalți. Acționez și astfel
 redevin stăpân pe viața mea!
+
+## PERICARDITĂ
 
 851. PERICARDITĂ Vezi: INIMĂ ♥ - PERICARDITĂ
 
@@ -20204,10 +21332,18 @@ mea. Când mă relaxez, întreg corpul meu se relaxează și
 astfel îmi gestionez mult mai bine emoțiile și totul devine
 fluid și armonios.
 
+## PERONEU INFERIOARĂ
+
 853. PERONEU Vezi: PICIOR - PARTEA
 INFERIOARĂ
+## PETE ROȘII
+
 854. PETE ROȘII Vezi: PIELE [AFECȚIUNI ALE...]
+## PETE DEVIN
+
 855. PETE DEVIN Vezi: PIELE - PETE DE VIN
+## PICIOARE [în general]
+
 856. PICIOARE [în general]
 Picioarele reprezintă contactul meu cu pământul și
 energia lui hrănitoare. Picioarele au o legătură cu relația
@@ -20227,6 +21363,8 @@ cu privire la direcția pe care merg sau să îmi risipesc
 energia în diverse proiecte, în timp ce, dacă picioarele
 sunt îndreptate spre interior, trăiesc o închidere sau o
 rezistență față de direcțiile pe care le aleg în viață.
+
+## PICIOARE [afecțiuni ale]
 
 857. PICIOARE [afecțiuni ale]
 Cu ajutorul picioarelor mă deplasez în viață.
@@ -20334,7 +21472,6 @@ profunde. Reluând contactul cu rădăcinile mele, pot
 astfel să mă împlinesc și să avansez cu grație și
 determinare.
 
-
 SISTEM LOCOMOTOR
 Picioarele simbolizează deplasările mele și
 autonomia mea. Mă transportă înainte sau înapoi, îmi
@@ -20372,6 +21509,8 @@ responsabilitățile pe care mi le asum [mai ales pe plan
 material] și uneori și ale celorlalți, pe care le accept ↓♥
 din „obligație”.
 
+## PICIOARE-GAMBE [afecțiuni ale...]
+
 859. PICIOARE-GAMBE [afecțiuni ale...]
 Când am o dificultate la picioare, trebuie să îmi pun
 următoarea întrebare: „Care este situația actuală sau
@@ -20404,6 +21543,8 @@ Accept ↓♥ oricare ar fi, noua situație care apare în
 viața mea și să învăț să îmi canalizez siguranța
 interioară. Pot avea încredere în mine și să trec peste
 rezistența mea în fața schimbării.
+
+## PICIOARE - GAMBE - PARTEA INFERIOARĂ
 
 860. PICIOARE - GAMBE - PARTEA INFERIOARĂ
 [PULPA]
@@ -20457,6 +21598,8 @@ mai plină de? împliniri! Accept ↓♥ să privesc și să mă
 mișc în toate direcțiile. Nu îmi fixez atenția decât pe
 lucruri frumoase. Sunt propriul meu sprijin și viața mă
 susține în fiecare moment!
+
+## PICIOARE - PARTEA SUPERIOARĂ [COAPSE]
 
 861. PICIOARE - PARTEA SUPERIOARĂ [COAPSE]
 
@@ -20525,7 +21668,11 @@ Nu mă pot simți în siguranță decât dacă mă sprijin pe
 forțele mele proprii, nu pe ceilalți. Cu cât acționez mai
 mult, cu atât mă voi simți mai viu!
 
+## PICIOARE - VARICE
+
 862. PICIOARE - VARICE Vezi: SÂNGE - VARICE
+## PICIOR DE ATLET
+
 863. PICIOR DE ATLET Vezi: PICIOARE - MICOZĂ
 
 PIELE - CALOZTTATE
@@ -20574,6 +21721,8 @@ alung toate aceste gânduri negre și această
 culpabilitate. Astfel voi fi în armonie cu viața. Încrederea
 mea în viitor va fi tot mai mare.
 
+## PICIOARE - MICOZĂ [... Între degetele de la
+
 865. PICIOARE - MICOZĂ [... Între degetele de la
 
 GENERAL] / [AFECȚIUNI ALE...], SISTEMIMUNITAR
@@ -20605,7 +21754,6 @@ armonie în viața mea. Învăț să trăiesc în funcție de
 nevoile și de dorințele mele. Îmi dau jos masca și îmi
 trăiesc emoțiile într-un mod simplu și natural...
 
-
 CĂLCÂI
 
 Spina calcaneană este o excrescență osoasă situată
@@ -20629,7 +21777,6 @@ viitorul care nu îmi poate aduce decât lucruri bune.
 Ascultând ceea ce îmi spune vocea mea interioară,
 drumul se va deschide în fața mea și voi avea o mare
 satisfacție interioară și o bucurie nesfârșită.
-
 
 PICIOARE - DURILLON
 Veruca plantară se observă, de obicei, prin apariția
@@ -20661,6 +21808,8 @@ lucruri sau persoane din exteriorul meu. Corpul meu
 că pot avansa în viață, cu deplină încredere.
 Trebuie să-mi accept ↓♥ atât forța cât și slăbiciunea
 și prin perseverență, voi reuși.
+
+## PIELE [în general]
 
 868. PIELE [în general]
 Pielea acoperă întreg corpul și delimitează ceea ce
@@ -20699,6 +21848,8 @@ puternică de frig, de răceală la nivel afectiv și îmi este
 greu să mă adaptez la noua mea viață, la noua mea
 situație. Calitatea relațiilor mele cu cei din jur este
 reprezentată de starea în care se află pielea mea.
+
+## PIELE [afecțiuni ale...]
 
 869. PIELE [afecțiuni ale...]
 Pielea este ca și scoarța unui copac. Ne arată dacă
@@ -20830,7 +21981,6 @@ accept ↓♥ iubirea celorlalți. Totul este o chestiune de
 atitudine. Aleg să am o mai bună calitate a relațiilor
 mele cu lumea exterioară.
 
-
 PUNCTE NEGRE, FAȚĂ
 Când apare pe față, acneea are legătură cu
 individualitatea, este în legătură cu armonia a ceea ce
@@ -20923,6 +22073,8 @@ vreau să fiu pe plac celorlalți, cu orice preț. Accept ↓♥ să
 fiu deschis spre ceilalți și îi las să se apropie, în
 siguranță.
 
+## PIELE - ACNEE ROZACEE SAU CUPEROZĂ
+
 871. PIELE - ACNEE ROZACEE SAU CUPEROZĂ
 
 Cuperoza este o leziune cutanată cauzată de
@@ -20960,7 +22112,6 @@ această mișcare a vieții. Învăț să am mai multă
 încredere în mine, să apreciez cu adevărat cine sunt.
 Devenind mai autonom, îmi realizez potențialul creativ.
 
-
 ACRODERMATITĂ
 La fel ca în cazul acrodermatiei, acrocheratoza
 afectează tălpile și palmele, prin îngroșarea epidermei.
@@ -20977,6 +22128,8 @@ siguranță. Curiozitatea mea deschide cale aspre noi
 experiențe, care mă ajută să mă apropii de oameni. Pot
 să țin cont de sugestiile descrise în cazul acrodermatiei,
 pentru a ajuta energia să circule.
+
+## PIELE - ACRODERMATITA
 
 873. PIELE - ACRODERMATITA
 Acrodermatita este o boală de piele care afectează
@@ -21003,7 +22156,6 @@ prin mâinile mele. În ceea ce privește picioarele, îmi pot
 imagina că merg pe un teren sfânt și las energia din
 interiorul meu să circule liber spre pământ, deoarece
 știu că primesc energie, dacă o las pe a mea să circule.
-
 
 Albinismul este incapacitatea de a produce
 melanină, care joacă un rol important în pigmentarea
@@ -21049,6 +22201,8 @@ situație din viața mea: trebuie doar să iau o decizie.
 spontaneitatea, inima ♥ de copil. Accept ↓♥ să fiu eu
 însumi tot timpul.
 
+## PIELE - BĂȘICI
+
 876. PIELE - BĂȘICI
 Bășica este o acumulare de apă, formată între două
 părți ale pielii, între dermă și epidermă, în urma unei
@@ -21091,7 +22245,6 @@ manifesta prin agresivitate, de multe ori împotriva mea
 Accept ↓♥ să îmi exprim mai mult emoțiile, să urmez
 curentul vieții. Înlătur orice limită pe care mi-am impus-
 o.
-
 
 DURILLON ȘI BĂTĂTURI
 
@@ -21137,6 +22290,8 @@ Descopăr cauza fricilor mele și energia blocată
 acumulată pe epidermă, va începe să circule în armonie
 cu mine. Pielea va redeveni suplă și tânără.
 
+## PIELE - CICATRICE
+
 878. PIELE - CICATRICE
 O cicatrice este un țesut fibros care înlocuiește
 definitiv sau pe termen foarte lung un țesut normal,
@@ -21158,7 +22313,6 @@ Accept ↓♥ să iert pentru a investi mai multă iubire
 în acea situație și pentru a-mi regăsi pacea interioară.
 Acest lucru va lăsa cicatricea să se închidă, uneori chiar
 să dispară de tot.
-
 
 GENERAL,... BUCAL], PIELE - ACNEE
 Coșurile au de obicei legătură cu acneea. Dar, în
@@ -21191,6 +22345,8 @@ să se exprime cu toată sinceritatea și simplitatea.
 Exprimându-mi mai mult emoțiile, corpul meu nu va
 mai avea nevoie să le exprime sub formă de coșuri.
 
+## PIELE - CRĂPĂTURI
+
 880. PIELE - CRĂPĂTURI
 Crăpăturile pielii sunt fisurile dureroase, care apar
 mai ales la mâini și la picioare. Este posibil să trăiesc o
@@ -21220,7 +22376,6 @@ pentru o situație pentru care nu pot să fac nimic”.
 Astfel, pielea mea va redeveni moale și întinsă.
 Accept ↓♥ să-mi conștientizez valoarea. Vorbesc din
 inimă ♥. Dacă am grijă de mine și ceilalți vor face la fel.
-
 
 [ÎNGHEȚ...]
 Degerăturile sunt înroșiri cauzate de frig, care se
@@ -21253,6 +22408,8 @@ viață, sunt din nou în măsură să văd toată iubirea de
 care sunt înconjurat și să trăiesc în armonie cu cei din
 jurul meu.
 
+## PIELE - DERMATITĂ
+
 882. PIELE - DERMATITĂ
 Dermatita este o inflamație a pielii. O inflamație
 indică o furie surdă, o iritare reprimată, care încearcă să
@@ -21279,6 +22436,8 @@ acest lucru.
 Acceptând ↓♥ că ceea ce este important este să îmi
 respect nevoile și să le împărtășesc celorlalți, dermatita
 va dispărea de la sine.
+
+## PIELE - DERMATITA SEBOREICĂ
 
 883. PIELE - DERMATITA SEBOREICĂ
 Pielea este învelișul protector al corpului și
@@ -21310,6 +22469,8 @@ Acceptă să trăiesc în adevăr. Recunoscându-mi
 propriile nevoi, exprimându-mi confuziile și frustrările,
 interiorul meu va deveni tot mai transparent. Iar pacea
 se va manifesta tot timpul.
+
+## PIELE - ECZEMA
 
 884. PIELE - ECZEMA
 Eczema este o afecțiune a pielii, acoperite de zone
@@ -21429,7 +22590,6 @@ prezent, știind că fiecare gest pe care îl fac astăzi
 contribuie la viitorul meu. Avansez în viață cu încredere.
 Astfel, pielea mea se va „reînnoi”.
 
-
 HERPES, PIELE
 Epidermita este o inflamație a epidermei, stratul
 exterior al pielii. În acest caz : există cu siguranță, o
@@ -21448,7 +22608,6 @@ uit vechile mele obiceiuri și moduri de a gândi. Învățând
 care sunt semnificațiile pielii și a problemelor de piele,
 pe plan metafizic, voi înțelege mai bine ceea ce trăiesc și
 voi putea îndrepta situația.
-
 
 - MÂNCĂRIME
 O erupție cutanată se manifestă prin apariția unor
@@ -21492,7 +22651,6 @@ Accept ↓♥ să conștientizez cauza erupției și accept
 mea va străluci din nou. Îmi recunosc valoarea,
 înțelepciunea mea interioară.
 
-
 Un furuncul este o inflamație a pielii, cauzată de o
 bacterie, caracterizată printr- o masă albicioasă de țesut
 mort Am impresia că cineva sau ceva îmi otrăvește
@@ -21521,6 +22679,8 @@ Accept ↓♥ să îmi exprim furia pe care o trăiesc și să
 cer ajutor, dacă este cazul, pentru a evita să mă
 otrăvesc prin apariția unui furuncul.
 
+## PIELE - FURUNCULI VAGINALI
+
 888. PIELE - FURUNCULI VAGINALI
 Orice furuncul indică o frustrare neverbalizată.
 Dacă apare la nivelul organelor sexuale, este posibil să
@@ -21540,6 +22700,8 @@ actuală, ca fiind cea mai bună pe moment. Având o
 atitudine pozitivă, îmi cresc șansele de a întâlni pe
 cineva cu care aș putea avea o relație frumoasă și
 satisfăcută, pe toate planurile.
+
+## PIELE - SCABIE [RÂIE]
 
 889. PIELE - SCABIE [RÂIE]
 Scabia sau râia este o boală a pielii cauzată de
@@ -21572,6 +22734,7 @@ armonie. Mă respect și preiau controlul asupra vieții
 mele și astfel reintru în contact cu puterea mea
 creatoare.
 
+## PIELE - IMPETIGO
 
 890. PIELE - IMPETIGO
 Impetigo este o infecție cutanată contagioasă, care
@@ -21591,7 +22754,6 @@ Astfel mă voi elibera de o suferință mare. Accept ↓♥
 faptul că am propriile mele limite. Le fac să fie
 respectate de toți cei din jurul meu și astfel îmi regăsesc
 siguranța interioară de care am atât de mult nevoie.
-
 
 ACROKERATOZĂ, PICIOARE / DURILLON /
 BĂTĂTURI
@@ -21643,6 +22805,8 @@ bucuria de a trăi și mă împac cu mine însumi. Îmi
 ascult inima ♥ și exprim celor în cauză ce m-a făcut să
 sufăr și cum văd evoluția relației noastre.
 
+## PIELE - LIPOM
+
 893. PIELE - LIPOM
 Un lipom este o tumoră benignă, formată prin
 proliferarea de țesut adipos [grăsime], localizarea lui este
@@ -21673,6 +22837,8 @@ schimbare. Mă îndepărtez de acele puncte de sprijin pe
 care le-am fixat în subconștientul meu. Mă împac cu
 mine însumi și sunt deschis față de o nouă comunicare
 cu ceilalți.
+
+## PIELE - LUPUS [eritematos cronic]
 
 894. PIELE - LUPUS [eritematos cronic]
 Există mai multe forme de lupus. În general, este o
@@ -21705,7 +22871,6 @@ mă ajute pentru a începe procesul de vindecare
 interioară. Mă reconectez la puterea mea interioară și
 îmi las să se manifeste ambițiile de „lup tânăr”! Astfel
 vor fi recunoscute talentele mele și potențialul meu;
-
 
 ERUPȚIE [... COȘURI]
 Mâncărimea, denumită și prurit este legată de piele,
@@ -21759,8 +22924,12 @@ simt atât de rău încât să mă scarpin tot timpul, în
 interiorul meu știu că deschiderea inimii ♥ poate
 vindeca multe boli!
 
+## PIELE - MÂNCĂRIME ÎN ZONA ANUSULUI
+
 896. PIELE - MÂNCĂRIME ÎN ZONA ANUSULUI
 Vezi: ANUS - MÂNCĂRIME
+## PIELE - MELANOM MALIGN
+
 897. PIELE - MELANOM MALIGN
 Melanomul malign mai este denumit și cancerul
 alunițelor. Este vorba despre o tumoră la nivelul pielii
@@ -21828,6 +22997,8 @@ momentul în care le-am trăit, accept ↓♥ să văd care este
 elementul pozitiv sau înțelepciunea interioară pe care
 am obținut-o. Accept ↓♥ să cer ajutor, când este necesar.
 
+## PIELE - PETE DE VIN, ANGIOM MATUR SAU PLAN
+
 898. PIELE - PETE DE VIN, ANGIOM MATUR SAU
 PLAN
 Petele de vin [numite în limbaj medical angiom
@@ -21855,6 +23026,8 @@ eu însumi.
 Nu mai este nevoie să suport această rușine închisă
 în pata aceea roșie: mă eliberez și accept ↓♥ să am
 propria mea viață, independentă de cea a familie mele.
+
+## PIELE - PSORIAZIS
 
 899. PIELE - PSORIAZIS
 Psoriazisul constă în creșterea producției de celule
@@ -21919,7 +23092,6 @@ tandrețea contactului fizic. Fiind „în contact” cu ceea ce
 se întâmplă în interiorul meu, angoasa va face loc
 încrederii în mine și în viață!
 
-
 Punctele negre sau comedoane sunt mici puncte
 care apar la suprafața pielii, negre la vârf, cauzate de o
 hipersecreție de sebum. Aceste puncte sunt expresia
@@ -21938,7 +23110,6 @@ negre pe care le am față de mine însumi și care se
 manifestă sub formă de puncte negre sunt înlocuite
 acum de gânduri pozitive, îmi concentrez atenția pe
 calitățile mele și ceilalți mă vor respecta.
-
 
 IMUNITAR
 Sclerodermie se caracterizează prin întărirea pielii,
@@ -21975,6 +23146,8 @@ parte din mine. Acceptând ↓♥ să fiu pe deplin în relație
 cu mine însumi, voi putea fi în relație cu cei din jurul
 meu.
 
+## PIELE - URTICARIE
+
 902. PIELE - URTICARIE
 Urticaria se caracterizează prin apariția unor plăci
 roșii, pe diverse părți ale corpului. Acestea sunt ușor
@@ -22009,7 +23182,6 @@ persoana cea mai importantă pentru mine. Înaintez și
 am încredere în mine. Accept ↓♥ să merg înainte, sa
 interacționez cu ceilalți. Am toate calitățile necesare
 pentru a fi un bun conducător.
-
 
 COPILĂRIEI - VARICELA
 Varicela este o boală infecțioasă cauzată de
@@ -22053,6 +23225,8 @@ parte din ființa mea îmi voi regăsi sentimentul de
 siguranță. Învăț să mă detașez de suferința celorlalți,
 știind că aceștia au nevoie și ei de procesele lor de
 conștientizare, pentru a se împlini.
+
+## PIELE - VÂNĂTĂI
 
 904. PIELE - VÂNĂTĂI
 Vânătăile se mai numesc contuzii. Se manifestă prin
@@ -22109,6 +23283,8 @@ de mine. Reiau frâiele vieții mele. Mă respect și accept
 ↓♥ să îmi schimb cadrul de viață pentru a rămâne
 flexibil în fața vieții și a ceea ce are ea de oferit.
 
+## PIELE - VERGETURI
+
 905. PIELE - VERGETURI
 Vergeturile sunt mici cicatrici la început roșietice
 apoi albe, care brăzdează pielea, supusă unei întinderi
@@ -22131,7 +23307,6 @@ pedepsesc.
 Accept ↓♥ să îmi ofer toată tandrețea de care am
 nevoie. Sunt înțelegător și flexibil față de mine și față de
 ceilalți.
-
 
 TUMORI
 Verucile [negii] sunt o infecție virală a pielii, care
@@ -22194,8 +23369,12 @@ lucru și ele vor dispărea. Las să iasă la suprafață ființa
 mea adevărată. Creativitatea mea se va exprima astfel
 liber.
 
+## PIELE - VERUCI PLANTARE
+
 907. PIELE - VERUCI PLANTARE Vezi: PICIOARE
 - VERUCI PLANTARE
+## PIELE - VITILIGO
+
 908. PIELE - VITILIGO
 Vitiligo reprezintă cea mai frecventă formă de
 depigmentare a pielii. Pielea se albește în unele
@@ -22268,8 +23447,12 @@ siguranță atunci când sunt eu însumi. Merit tot ceea ce
 este măi bun și nu las pe nimeni să îmi facă rău. Dacă
 mă respect, ceilalți mă vor respecta și ei la rândul lor.
 
+## PIELEA CAPULUI
+
 909. PIELEA CAPULUI Vezi: PĂR - PIELE -
 MÂNCĂRIME, MĂTREAȚĂ
+## PIEPT
+
 910. PIEPT
 Pieptul este partea anterioară externă a trunchiului,
 care se întinde de la umeri la abdomen. Semnificația sa
@@ -22292,14 +23475,28 @@ Accept ↓♥ faptul că este foarte benefic pentru mine
 să îmi arăt adevăratele sentimente și vulnerabilitatea:
 întotdeauna voi fi câștigător dacă sunt sincer!
 
+## PIEPT [angină la...] PECTORALĂ
+
 911. PIEPT [angină la...] Vezi: ANGINĂ
 PECTORALĂ
+## PIERDEREA CUNOȘTINȚEI
+
 912. PIERDEREA CUNOȘTINȚEI Vezi: LEȘIN
+## PIERDEREA POFTEI DE MÂNCARE
+
 913. PIERDEREA POFTEI DE MÂNCARE Vezi:
 POFTĂ DE MÂNCARE [PIERDEREA...]
+## PIETRE LA FICAT
+
 914. PIETRE LA FICAT Vezi: CALCUUBILIARI
+## PIETRE LA RINICHI
+
 915. PIETRE LA RINICHI Vezi: CALCULI RENALI
+## PINEALĂ
+
 916. PINEALĂ Vezi: GLANDA PINEALĂ
+## PIOREE [gingivită expulsivă]
+
 917. PIOREE [gingivită expulsivă] Vezi: GINGII
 [AFECȚIUNI ALE...]
 
@@ -22347,9 +23544,15 @@ să îl ajut să se elibereze de autoritatea mea prea
 puternică, prin cuvinte de iubire, care pentru el se
 transformă apoi în încredere.
 
+## PIREXIE
+
 919. PIREXIE Vezi: FEBRĂ
 
+## PITUITARĂ
+
 920. PITUITARĂ Vezi: GLANDA PITUITARĂ
+## PLAGĂ
+
 921. PLAGĂ Vezi-ACCIDENT
 
 Prin activitatea plămânilor viața circulă în mine.
@@ -22365,8 +23568,6 @@ O problemă legată de existența mea poate genera o
 afecțiune a plămânilor și astfel este nevoie să oxigenez
 sentimentele negative pe care trebuie să le purific prin
 iubirea pe care o inhalez.
-
-
 
 ASTM, BRONȘII - bronșita SCLEROZĂ
 Afecțiunile plămânilor, precum pneumonia,
@@ -22439,6 +23640,8 @@ Astfel voi găsi armonia și liniștea ce mă vor împlini
 pe deplin. Îmi recapăt puterea care îmi aparține și respir
 viața „cu toată forța plămânilor mei”.
 
+## PLĂMÂNI - BOALA LEGIONARILOR
+
 924. PLĂMÂNI - BOALA LEGIONARILOR
 Prima epidemie de „boala legionarilor”, o boală
 infecțioasă, a fost descoperită în iulie 1976, printre foștii
@@ -22470,9 +23673,15 @@ eliberez de aceste amintiri. Fac travaliul de doliu și
 viață. Îmi dau seama că viața este prea prețioasă, gust
 fiecare moment din plin și sunt recunoscător.
 
+## PLĂMÂNI [cancer la...] PLĂMÂNI
+
 925. PLĂMÂNI [cancer la...] Vezi: CANCER LA
 PLĂMÂNI
+## PLĂMÂNI - CONGESTIE
+
 926. PLĂMÂNI - CONGESTIE Vezi: CONGESTIE
+## PLĂMÂNI - EMFIZEM PULMONAR
+
 927. PLĂMÂNI - EMFIZEM PULMONAR
 Emfizemul pulmonar se caracterizează mai ales
 printr-o dificultate respiratorie la efort.
@@ -22513,6 +23722,8 @@ apăsarea pe care o simt va fi înlocuită de un prea-plin
 de aer și de viață în plămânii mei. Voi vedea din nou
 toate posibilitățile pe care mi le oferă viața. Îmi recapăt
 pofta de viață, de a fi fericit.
+
+## PLĂMÂNI - PNEUMONIE SI PLEUREZIE
 
 928. PLĂMÂNI - PNEUMONIE SI PLEUREZIE
 Pneumonia este infecția plămânilor, cauzată de o
@@ -22581,6 +23792,8 @@ dau înapoi celorlalți, responsabilitățile pe care le-am
 luat asupra mea și care nu îmi aparțin. Îmi ofer dreptul
 de a cere ajutor. Viața va deveni astfel mai simplă și mai
 frumoasă. .
+
+## PLÂNS
 
 929. PLÂNS
 Lacrimile sunt o efuziune a ochilor, o eliberare a
@@ -22670,6 +23883,8 @@ dar este important, de asemenea, să îi țin deschiși
 pentru a vedea toată frumusețea din univers și toate
 posibilitățile care apar în viața mea.
 
+## PLEOAPE [clipit al...]
+
 931. PLEOAPE [clipit al...]
 Pleoapele au tendința de a clipi mai repede atunci
 când trăiesc un stres sau o tensiune mare. Sunt „prea
@@ -22678,8 +23893,12 @@ o situație pe care aș prefera să nu o văd?
 Accept ↓♥ momentele de liniște și de destindere și
 învăț să „văd” partea pozitivă în orice lucru.
 
+## PLEUREZIE SIPLEUREZIE
+
 932. PLEUREZIE Vezi: PLĂMÂNI - PNEUMONIE
 SIPLEUREZIE
+## PLEURITĂ PNEUMONIESIPLEUREZIE
+
 933. PLEURITĂ Vezi: PLĂMÂNI -
 PNEUMONIESIPLEUREZIE
 
@@ -22704,10 +23923,18 @@ energetice mă pot ajuta. Eu sunt cel care îmi conduc
 viața, deoarece sunt complet și autonom în universul
 meu.
 
+## PLOMBĂ
+
 935. PLOMBĂ Vezi: DINȚI - CARIE DENTARĂ
+## PNEUMONIE
+
 936. PNEUMONIE Vezi: PLĂMÂNI - PNEUMONIE
 SI PLEUREZIE
+## PNEUMOPATIE
+
 937. PNEUMOPATIE Vezi: CONGESTIE
+## POINT DE COTE SAU DURERE IRADIANTĂ
+
 938. POINT DE COTE SAU DURERE IRADIANTĂ
 Un point de cotă [termenul vine din limba franceză,
 durere laterală] este o durere care survine după un efort
@@ -22733,8 +23960,12 @@ de ce am nevoie și ce este bun pentru mine. Merg în
 propriul meu ritm și corpul meu se destinde și nu mai
 are nevoie să protesteze!
 
+## POLIARTRITA CRONICĂ EVOLUTIVĂ
+
 939. POLIARTRITA CRONICĂ EVOLUTIVĂ Vezi:
 ARTRITA POLIARTRITA REUMATOIDĂ
+## POLIOMIELITA
+
 940. POLIOMIELITA
 Poliomielita este o boală contagioasă, provocată de
 un virus, care se fixează pe centri nervoși, mai ales pe
@@ -22767,7 +23998,11 @@ pe judecarea celorlalți, îmi redobândesc aici și acum
 puterea supra vieții mele și accept ↓♥ faptul că
 abundența face parte integrantă din viața mea.
 
+## POLIOREXIE
+
 941. POLIOREXIE Vezi: BULIMIE
+## POLIPI
+
 942. POLIPI
 Polipul este o tumoră benignă, care se dezvoltă pe o
 mucoasă, de exemplu, mucoasa bucală, nazală,
@@ -22795,8 +24030,12 @@ putea să mă simt mai liber? Dacă voi face față
 responsabilităților pe care le am, polipul sau polipii vor
 dispărea.
 
+## PRESIUNE ARTERIALĂ SAU SANGUINĂ
+
 943. PRESIUNE ARTERIALĂ SAU SANGUINĂ Vezi:
 TENSIUNE ARTERIALĂ
+
+## PREZBITISM
 
 944. PREZBITISM Vezi: OCHI - HIPERMETROPIE
 SI PREZBITISM
@@ -22817,9 +24056,12 @@ viața profesională.
 Accept ↓♥ să îmi echilibrez partea masculină și cea
 feminină pentru a fi împlinit,
 
+## PROBLEME CARDIACE
 
 946. PROBLEME CARDIACE Vezi: INIMĂ ♥ -
 PROBLEME CARDIACE
+## PROBLEME LEGATE DE PALPITAȚII
+
 947. PROBLEME LEGATE DE PALPITAȚII Vezi:
 INIMĂ ♥ - ARITMIE CARDIACĂ
 
@@ -22853,6 +24095,8 @@ relua viața în mâini și a fi activ. Pot să încerc să fac ceea
 ce iubesc cu adevărat, fie artă, sport sau un hobby,
 pentru a-mi recăpăta vitalitatea și pofta de viață.
 
+## PROSTATA [în general]
+
 949. PROSTATA [în general]
 Prostata este o glandă a aparatului genital
 masculin, situată sub vezică și care secretă un lichid ce
@@ -22865,6 +24109,8 @@ capabil să fiu eu însumi și stăpân pe viața mea.
 Accept ↓♥ faptul că, autoritatea se află se află în
 interiorul meu și mă îndrumă în alegerea pe care o am
 de făcut, în loc să mă las condus de valori superficiale.
+
+## PROSTATA [afecțiuni ale...]
 
 950. PROSTATA [afecțiuni ale...]
 
@@ -22956,7 +24202,6 @@ emoțiile pe care le am și să învăț să le recunosc din plin.
 Emoțiile fac parte din mine. Astfel îmi recapăt întreaga
 putere asupra vieții mele.
 
-
 Când prostata coboară, aceasta exercită o presiune
 mare asupra vezicii. Este un semn că am o dificultate de
 a renunța la sentimentul de inutilitate pe care îl am,
@@ -22964,7 +24209,6 @@ urina reprezentând eliberarea emoțiilor mele negative.
 Mă simt confuz și îmi este greu să îmi exprim dorințele.
 Accept ↓♥ să îmi recunosc tot mai mult valoarea și
 știu că am o contribuție inestimabilă în cadrul societății.
-
 
 III, INFECȚIE, INFLAMAȚIE
 Prostatita reprezintă inflamația prostatei. O astfel de
@@ -22983,9 +24227,15 @@ Este important să accept ↓♥ faptul că, sexualitatea
 mea s-a schimbat și a evoluat în timp și că poate fi în
 continuare la fel de excitantă și întreagă ca și înainte.
 
+## PRURIT
+
 953. PRURIT Vezi: PIELE - MÂNCĂRIME
+## PSIHOSOMATICĂ [boală...] PSIHOSOMATICĂ
+
 954. PSIHOSOMATICĂ [boală...] Vezi: BOALĂ
 PSIHOSOMATICĂ
+## PSIHOZĂ [în general]
+
 955. PSIHOZĂ [în general]
 Psihoza este o boală mentală majoră, care tulbură
 grav existența psihică a persoanei afectate, în raport cu
@@ -23052,6 +24302,8 @@ instrument de transformare, deoarece astfel am acces la
 diferite niveluri ale conștiinței. Pot avea încredere în
 viață, deoarece sunt pe deplin protejat și îndrumat.
 
+## PSIHOZA - PARANOIA
+
 956. PSIHOZA - PARANOIA
 Paranoia se definește ca o psihoză caracterizată prin
 supraestimarea eului, neîncredere, atitudine bănuitoare,
@@ -23106,6 +24358,8 @@ față de viață, deoarece sunt capabil să o creez așa cum
 vreau eu. Îmi creez viața prin f; gânduri pozitive. Sunt
 sincer cu mine însumi și cu cei din jurul meu. Accept
 toate emoțiile care există mine.
+
+## PSIHOZĂ - SCHIZOFRENIE
 
 957. PSIHOZĂ - SCHIZOFRENIE
 Schizofrenia este o modalitate de a mă ascunde și
@@ -23179,7 +24433,11 @@ Uit noțiunea de „rău” pe care am lăsat-o să se infiltreze
 în viața mea și care nu mai corespunde noii mele
 realități.
 
+## PSORIASIS
+
 958. PSORIASIS Vezi: PIELE - PSORIASIS
+## PUBIANĂ [pilozitate]
+
 959. PUBIANĂ [pilozitate]
 
 Pilozitatea pubiană ascunde parțial organele
@@ -23191,7 +24449,6 @@ cu partenerul meu.
 Accept ↓♥ să mă împlinesc în sexualitatea mea,
 exprimându-mi fricile și având mai multă încredere în
 mine.
-
 
 FRACTURI [...OSOASE], TENDOANE
 Pubisul este partea anterioară a osului iliac, osul
@@ -23219,12 +24476,20 @@ sexuale pentru a mă împlini mai mult în ceea ce sunt.
 Îmi conștientizez limitele și accept ↓♥ să fiu mai deschis
 față de ceilalți, știind că sunt protejat tot timpul.
 
+## PULS [anomalii ale...] CARDIACĂ
+
 961. PULS [anomalii ale...] Vezi: INIMĂ ♥ ARITMIE
 CARDIACĂ
+## PUNCTE NEGRE NEGRE
+
 962. PUNCTE NEGRE Vezi: PIELE - PUNCTE
 NEGRE
 
+## R
+
 R
+
+## RAHITISM
 
 963. RAHITISM
 Rahitismul este o boală de creștere, care afectează
@@ -23251,9 +24516,11 @@ mai avea sens, deoarece voi înțelege faptul că trebuie să
 îmi ofer iubire pentru ca apoi să o pot dărui celorlalți.
 Adevărata bogăție este cea interioară.
 
-
+## RANĂ
 
 964. RANĂ Vezi: ACCIDENT, TĂIETURĂ
+## RANCHIUNĂ
+
 965. RANCHIUNĂ
 
 Dacă simt ranchiună față de o persoană sau o
@@ -23270,7 +24537,6 @@ Este important să accept ↓♥ evenimentele cu inima ♥
 trecutul. Dacă nu fac acest lucru, inima ♥ mea se va
 întări și corpul meu va reacționa printr-o afecțiune sau
 boală.
-
 
 CIRCULAȚIE SANGUINĂ
 Boala lui Raynaud se caracterizează printr-o
@@ -23316,7 +24582,6 @@ Accept ↓♥ să îmi concretizez ideile și visele, chiar și
 pe cele care pâr mai nebunești. Astfel îmi construiesc o
 nouă realitate și îmi creez noi oportunități. Viața mea va
 deveni mai bogată și mai motivantă.
-
 
 FEBRA FÂNULUI
 Răceala, denumită și rinită este o infecție virală,
@@ -23373,7 +24638,6 @@ poate instala și devin stăpânul vieții mele. Dacă am
 nevoie ca ceilalți să se ocupe de mine, să fiu consolat,
 îndrăznesc să cer acest lucru!
 
-
 Am vocea răgușită atunci când timbrul vocii devine
 surd, înfundat sau hârșâit. Răgușeala este un semn că
 sufăr de epuizare mentală și fizică. Ceva împiedică
@@ -23412,13 +24676,27 @@ mea va putea și ea să se exprime liber, deoarece acum
 am încredere în ceea ce spun și știu că ceilalți ascultă
 cu inima ♥ ceea ce am de spus.
 
+## RĂGUȘEALĂ
+
 969. RĂGUȘEALĂ Vezi: GÂT - RĂGUȘEALĂ
+## RĂU DE AER
+
 970. RĂU DE AER Vezi: RĂU DE MARE
+## RĂU DE ALTITUDINE
+
 971. RĂU DE ALTITUDINE Vezi RĂU DE MUNTE
+## RĂU DE CAP
+
 972. RĂU DE CAP Vezi CAP
+## RĂU DE CĂLĂTORIE TRANSPORT
+
 973. RĂU DE CĂLĂTORIE Vezi: RĂU DE
 TRANSPORT
+## RĂU DE GÂT
+
 974. RĂU DE GÂT Vezi: GÂT- FARINGITA
+## RĂU DE INIMĂ
+
 975. RĂU DE INIMĂ Vezi GREȚURI
 
 GREȚURI, AMEȚELI
@@ -23436,7 +24714,6 @@ nivel fizic, aceste schimbări de conștiință interioare.
 Accept ↓♥ să rămân calm și încrezător în mine
 însămi și în viață, de a mă deschide altor orizonturi și de
 a dezvolta acest sentiment de libertate pe care îl trăiesc.
-
 
 TRANSPORT
 Răul de mare este senzația de a nu avea controlul
@@ -23465,6 +24742,8 @@ Accept ↓♥ să văd în interiorul meu pentru a găsi
 răspunsul la întrebările mele. Renunț să mă mai distrug
 prin gânduri negative și prin modul meu de a mă judeca
 prea sever.
+
+## RĂU DE MAȘINĂ
 
 978. RĂU DE MAȘINĂ Vezi: RĂU DE MARE
 
@@ -23509,6 +24788,8 @@ securitate. Știu că sunt mereu bine ghidat, că sunt
 încredere în viitor, accept să trăiesc experiențe noi din
 care voi ieși mai evoluat.
 
+## RĂU DE SPATE
+
 980. RĂU DE SPATE Vezi: SPATE ÎN GENERAL
 
 Atât pentru copil, cât și pentru adult, răul de
@@ -23527,7 +24808,6 @@ da mai multă încredere în mine.
 Accept ↓♥ să comunic cu anturajul și să las iubirea
 să circule către ceilalți. Am încredere în viață.
 
-
 Răutatea este dorință maladivă, de ură exprimată
 prin obiectivul de a face rău, prin cuvinte sau acțiuni.
 Vreau să îmi dovedesc că sunt corect, că am dreptate.
@@ -23540,8 +24820,14 @@ să mă răzbun, aș putea să . Îmi ascult emoțiile, să le
 înțeleg sursa. Pot accepta că tot ce mi se întâmplă sunt
 lecții de viață care mă ajută să evoluez.
 
+## RÂGÂIT, ERUCTAȚIE
+
 983. RÂGÂIT, ERUCTAȚIE Vezi: ERUCTAȚIE
+## RECT
+
 984. RECT Vezi: INTESTINE - RECT
+## REGRETE
+
 985. REGRETE
 Dacă mă hrănesc cu regrete, îmi hrănesc corpul cu
 suferință, cu supărare, cu nemulțumire față de ceea ce
@@ -23554,6 +24840,8 @@ Accept ↓♥ să am o atitudine pozitivă știind că fac tot
 timpul tot ce știu eu mai bine. Învăț din trecutul meu și
 astfel mă îmbunătățesc, câștig experiență, devin mai
 înțelept.
+
+## RESPIRAȚIE [în general]
 
 986. RESPIRAȚIE [în general]
 Respirația este o funcție care asigură schimbul de
@@ -23570,6 +24858,8 @@ vieții. Cadența între „ a lua” [inspirație] și „a da”
 
 [expirație] are loc în armonie, căile de comunicare dintre
 mine și lumea exterioară sunt deschise și libere.
+
+## RESPIRAȚIE [afecțiuni de...]
 
 987. RESPIRAȚIE [afecțiuni de...] Vezi: ASTM,
 GÂT [AFECȚIUNI ALE...], MOARTE SUBITĂ A NOU-
@@ -23619,7 +24909,6 @@ cum sunt acum. MULȚUMESC tuturor experiențelor pe
 care le-am trăit până azi, știind că viața se va ocupa de
 mine.
 
-
 RESPIRAȚIE [AFECȚIUNI DE...]
 Asfixia este o tulburare respiratorie care se
 manifestă prin oprirea respirației sau obstrucția
@@ -23647,6 +24936,8 @@ nu îmi mai fixez atenția pe frustrările din copilărie, care
 mă mai afectează încă și să fac tot ce trebuie pentru a le
 integra.
 
+## RESPIRAȚIE - SUFOCARE
+
 989. RESPIRAȚIE - SUFOCARE
 Sufocarea indică faptul că mă simt blocat, că nu am
 aer și spațiu. Gâtul corespunde centrului de energie
@@ -23673,6 +24964,8 @@ ușurat mă voi simți după aceea! îmi dau seama că nu
 ceilalți trebuie să se schimbe și că nevoile fiecăruia pot fi
 împlinite, respectându-i pe ceilalți și în armonie.
 
+## RESPIRAȚIE - TRAHEITĂ
+
 990. RESPIRAȚIE - TRAHEITĂ
 Traheita este o inflamație a mucoasei din interiorul
 traheii, conducta prin care trece aerul din laringe, la
@@ -23692,7 +24985,6 @@ bine, deoarece mă simt foarte iritat Corpul meu îmi
 spune să! respir liber și să las loc iubirii.
 Accept ↓♥ autonomia și libertatea, pentru mine și
 pentru ceilalți și îmi ^regăsesc demnitatea.
-
 
 Retenția apei în organism este de obicei cauzată de
 o proastă funcționare a rinichilor. Corpul meu „face
@@ -23717,10 +25009,16 @@ viața mea și să învăț ce înseamnă respectul și modestia.
 știind că totul este posibil, totul este disponibil, atâta
 timp cât știu să cer.
 
+## RETINITĂ PIGMENTARĂ
+
 992. RETINITĂ PIGMENTARĂ Vezi: OCHI -
 RETINITĂ PIGMENTARĂ
+## RETINOPATIE PIGMENTARĂ
+
 993. RETINOPATIE PIGMENTARĂ Vezi: OCHI -
 RETINITĂ PIGMENTARĂ
+## RETRAGEREA ÎN SINE
+
 994. RETRAGEREA ÎN SINE
 Retragerea În sine poate fi o ocazie minunată de a
 mă opri, de a-mi acorda timp pentru mine, de a-mi
@@ -23734,7 +25032,6 @@ victimei. În acest caz există riscul de a mă îmbolnăvi
 grav, atât pe plan psihologic, cât și fizic.
 Accept ↓♥ să fiu deschis în fața Universului și să îmi
 respect nevoile pentru a trăi în bucurie și armonie.
-
 
 POLIARTRITĂ REUMATOIDĂ, ARTICULAȚII,
 INFLAMAȚII
@@ -23795,6 +25092,7 @@ posibil. Este suficient să am răbdare și să accept ↓♥ să
 înaintez în ritmul meu, evitând să fiu sub presiune și
 făcând schimbările necesare pentru a fi mai bine.
 
+## RIDURI
 
 996. RIDURI
 Ridurile sunt niște crăpături cutanate. Pot fi riduri
@@ -23822,6 +25120,8 @@ eveniment din viața mea există pentru a mă ajuta să mă
 necondiționată. Astfel, ridurile mele nu mai au motiv să
 existe și pot dispărea. Înțelepciunea este cea care aduce
 adevărata tinerețe a inimii ♥.
+
+## RIGIDITATE [... articulară,... musculară]
 
 997. RIGIDITATE [... articulară,... musculară]
 Rigiditatea musculară, provocată de acumularea de
@@ -23960,7 +25260,6 @@ rinichi puternici. Îmi las emoțiile să curgă, asemene
 unui- fluviu, știind că acestea fac parte integrantă din
 viața mea.
 
-
 [PROBLEME RENALE]
 Anuria este cauzată de oprirea producerii de urină
 de către rinichi sau de un obstacol plasat pe traiectoria
@@ -24000,7 +25299,6 @@ Am încredere în viață, care se ocupă să îmi procure
 toate lucrurile de care am nevoie. Îmi ascult intuiția care
 îmi dictează în ce direcție să aleg.
 
-
 INFIAMAȚIE, FRICĂ
 Termenul de nefrită definește, la modul general,
 ansamblul bolilor de rinichi. În același timp, termenul se
@@ -24022,15 +25320,29 @@ lucreze mai mult.
 Accept ↓♥ să am încredere în viață. Îmi exprim mai
 mult încrederea în mine însumi. Trăiesc în pace.
 
+## RINICHI - PIETRE LA RINICHI
+
 1001. RINICHI - PIETRE LA RINICHI Vezi:
 CALCULI RENALI
+## RINICHI [durere în zona...] [lumbago]
+
 1002. RINICHI [durere în zona...] [lumbago] Vezi:
 spate / [dureri de...] / zona INFERIOARĂ
+## RINITA
+
 1003. RINITA Vezi: RĂCEALĂ [...CREIER]
+## RINOFARINGITĂ
+
 1004. RINOFARINGITĂ Vezi: GÂT - FARINGITĂ
+## RITM CARDIAC [tulburări de...]
+
 1005. RITM CARDIAC [tulburări de...] Vezi-.INIMĂ
 - aritmie cardiacă
+## ROȘEAȚĂ
+
 1006. ROȘEAȚĂ Vezi: PIELE [AFECȚIUNI ALE...]
+## ROTULĂ
+
 1007. ROTULĂ
 Rotula este osul de formă triunghiulară, care
 permite mișcările de flexare- extensie ale articulației
@@ -24050,8 +25362,14 @@ timp pentru mine însumi, să mă ridic și să iau inițiativa
 pentru ca visele mele cele mai dragi, să se împlinească.
 Dacă voi crede în ele, vor începe să capete formă.
 
+## RUBEOLĂ
+
 1008. RUBEOLĂ Vezi: BOLILE COPILĂRIEI
+## RUJEOLĂ
+
 1009. RUJEOLĂ Vezi: BOLILE COPILĂRIEI
+## SARCOIDOZA
+
 1010. SARCOIDOZA
 
 Sarcoidoza, denumită și boala Besnier-Boeck-
@@ -24073,11 +25391,19 @@ foarte închis și critic. Învăț să fac alegerile în funcție de
 locul în care mă aflu, aici și acum. Îmi asum pe deplin
 alegerile și știu că sunt creatorul fericirii mele.
 
+## SARCOMUL LUI EWING
+
 1011. SARCOMUL LUI EWING Vezi: OASE
 [CANCER DE...] - SARCOMULLUIEWÎNG
+## SACRU [OS] INFERIOARĂ
+
 1012. SACRU [OS] Vezi: SPATE - PARTEA
 INFERIOARĂ
+## SADISM
+
 1013. SADISM Vezi: SADOMASOCHISM
+## SADOMASOCHISM
+
 1014. SADOMASOCHISM
 Sadomasochismul implică o relație în care unul
 dintre parteneri își exprimă dominarea [sadismul], iar
@@ -24127,7 +25453,6 @@ fiu controlat. Astfel voi putea să caut o formă de
 satisfacție mai adecvată pentru împlinirea mea
 personală.
 
-
 SALIVARE, OREION
 Saliva are puterea de a elimina dezvoltarea
 microbilor. Ea ajută, de asemenea, prin capacitatea ei de
@@ -24145,7 +25470,6 @@ să las bucuria să intre în viața mea, în locul regretelor,
 să merg înainte plin de încredere. Acționând pentru a
 obține ceea ce vreau, saliva mea va funcționa cu deplină
 putere.
-
 
 GURĂ
 Hiposalivația este o lipsă de salivă. Saliva este
@@ -24178,7 +25502,6 @@ pe care o am. Las la o parte ce cred celorlalți și trăiesc
 Mă bucur de viață, mă răsfăț și gust fiecare moment de
 fericire. Mă împac cu toate dorințele mele interioare și
 acționez pentru a le împlini.
-
 
 INFECȚII [ÎN GENERAL], INTESTINE - DIAREE,
 GREȚURI
@@ -24221,7 +25544,6 @@ dezvolt înțelepciunea. Valorizându-mă și acceptându-mă
 ↓♥ așa cum sunt, mă simt în siguranță și strălucesc de
 pace și de bunăstare.
 
-
 FEMININE [AFECȚIUNI...], INFECȚII [ÎN GENERAL]
 Salpingita este o infecție acută sau cronică a
 trompelor uterine [sau ale lui Fallope]. Trompele
@@ -24245,7 +25567,6 @@ Accept ↓♥ să aduc iubire în situația în cauză, pentru
 a vedea adevărul în experiența pe care mi-o oferă viața.
 Astfel, voi fi mai fericită, cu o mai mare bucurie de a trăi
 și cu mai multă seninătate.
-
 
 GREȚURI, SÂNGE - DIABET
 Chiar dacă, de obicei, sarcina este o experiență
@@ -24282,6 +25603,8 @@ experiență minunată, cu bucurie și în armonie. Accept
 va naște. Accept| ♥ schimbările care vor avea loc în
 mine și care mă vor transforma într-o nouă persoană.
 
+## SARCINA [... prelungită]
+
 1020. SARCINA [... prelungită]
 Când o sarcină se prelungește dincolo de termenul
 obișnuit, este posibil ca eu, ca mamă, să îmi doresc,
@@ -24306,7 +25629,6 @@ că voi continua să îl iubesc și că, de abia aștept să îl țin
 conving că are toate instrumentele necesare pentru a
 înfrunta obstacolele întâlnite.
 Are nevoie doar de iubirea ♥ și de afecțiunea mea.
-
 
 EPILEPSIE, TENSIUNE ARTERIALĂ -
 HIPERTENSIUNE
@@ -24348,6 +25670,8 @@ convinsă că așa va fi. Astfel îmi pot creea viața și pot
 construi o bază solidă pentru copilul meu. Sunt destul
 de puternică și primesc tot ajutorul de care am nevoie.
 
+## SARCINA ECTOPICĂ SAU EXTRAUTERINĂ
+
 1022. SARCINA ECTOPICĂ SAU EXTRAUTERINĂ
 O sarcină ectopică se dezvoltă în afara uterului. În
 acest caz este posibil, ca mamă, să trăiesc o angoasă
@@ -24362,7 +25686,11 @@ vieții și să las energia să circule liber în interiorul meu
 pentru ca elementele vieții să ocupe locul rezervat
 conform planului divin.
 
+## SARCINA
+
 1023. SARCINA Vezi: NAȘTERE - AVORT
+## SARCINA FALSĂ
+
 1024. SARCINA FALSĂ
 Este posibil să experimentez fizic aceleași simptome
 pe care le are o femeie însărcinată, chiar dacă eu nu
@@ -24399,6 +25727,8 @@ Accept ↓♥ să mă nasc în mine însumi. Las să se
 nască dorințele mele, tot ceea . ce am în adâncul meu și
 vrea să iasă la lumină. Astfel îmi ocup tot mai mult locul
 care mi se cuvine în Univers.
+
+## SÂNGE [în general]
 
 1025. SÂNGE [în general]
 
@@ -24535,6 +25865,8 @@ asemenea, alături de mine, pentru a mă ajuta să cresc.
 Accept ↓♥ să îmi trăiesc viața, în loc să o trăiesc pe a
 celorlalți. Îmi recunosc dorințele profunde.
 
+## SÂNGE - ARTERE
+
 1028. SÂNGE - ARTERE
 
 Arterele sunt „vasele” care conduc sângele oxigenat
@@ -24578,7 +25910,6 @@ bucurie și circulația acesteia, fiind deschis la nivelul
 inimii ♥, acceptând ↓♥ să îmi schimb atitudinea și să las
 iubirea să circule în tot corpul.
 
-
 INFECȚII
 Cangrena ischemică este cauzată de oprirea fluxului
 sanguin într-una sau mai multe părți ale corpului, ceea
@@ -24618,7 +25949,6 @@ Accept ↓♥ să reintegrez sângele și iubirea în
 exprimarea a ceea ce sunt, în viața mea. Învăț să mă
 accept ↓♥ așa cum sunt și să îmi redescopăr bucuria de
 a trăi. Devin stăpân pe viața mea.
-
 
 INIMĂ ♥, RA YNAUD [BOALA A LUI...]
 Circulația sanguină este legată de inimă ♥ și de
@@ -24681,6 +26011,8 @@ frumoasă, pentru a profita din plin de ea? îmi deschid
 inima ♥ spre iubire, am grijă de mine și mă las îndrumat
 de viață. Întotdeauna se va întâmpla tot ce este mai bun
 pentru mine.
+
+## SÂNGE COAGULAT [... În vene sau în
 
 1031. SÂNGE COAGULAT [... În vene sau în
 
@@ -24785,9 +26117,6 @@ bucurie și accept ↓♥ să las bucuria să intre în viața mea.
 Accept ↓♥ să fiu eu însumi, să îmi realizez visele.
 Savurez fiecare moment, deoarece am dreptul să fiu
 fericit.
-
-
-
 
 EREDITARE, SÂNGE - HIPOGLICEMIE
 Diabetul este o boală caracterizată prin eliminarea
@@ -24981,8 +26310,9 @@ exprime, să se simtă vesel și în siguranță. Astfel, încetez
 să mă mai autodistrug, îmi ofer o viață în siguranță,
 frumoasă și plină de blândețe.
 
-
 SÂNGERĂM
+## SÂNGE - FEBLITA
+
 1035. SÂNGE - FEBLITA
 Feblita se definește ca un blocaj al sângelui în vene,
 mai ales la nivelul membrelor inferioare. Este provocată
@@ -25028,9 +26358,6 @@ doar să accept ↓♥ faptul că am dreptul la fericire și merit
 ca bucuria și pacea să îmi lumineze drumul. Mă întorc
 spre mine însumi, spre inima ♥ mea și spre adevăr.
 
-
-
-
 SÂNGE / [ÎN GENERAL] / CIRCULAȚIA, SANGUINĂ
 Un hematom apare în urma unei hemoragii și
 provoacă o acumulare, o colectare de sânge într-un
@@ -25045,7 +26372,6 @@ indică faptul că trebuie să aduc mai multă bucurie în
 viața mea și partea afectată îmi oferă informații despre
 aspectul din viața mea în care este important să-mi
 manifest bucuria.
-
 
 VEZICĂ / [AFECȚIUNI ALE...] / CISTITĂ, URINĂ
 [INFECȚII URINARE]
@@ -25074,7 +26400,6 @@ Accept ↓♥ să îmi acord timp pentru a medita asupra
 schimbărilor pe care le voi aduce în viața mea. Accept ↓♥
 ca, începând de acum, să îmi transform visele și ideile în
 acțiuni fizice. Astfel, bucuria va circula din nou în mine.
-
 
 EREDITARE, SÂNGE/[ÎN GENERAL]/[AFECȚIUNI
 ALE...]/CIRCULAȚIE SANGUINĂ/DIABET
@@ -25112,6 +26437,8 @@ Accept ↓♥ să am încredere în mine- Acționez, în loc
 să fiu în defensive: știu că, dacă îmi urmez inima ♥, voi
 fi întotdeauna îndrumat și protejat. Primesc iubirea și
 blândețea în viața mea.
+
+## SÂNGE - HEMORAGIE
 
 1039. SÂNGE - HEMORAGIE
 O hemoragie se caracterizează printr-o pierdere de
@@ -25170,7 +26497,6 @@ bine și mai armonios. Accept ↓♥ să mă relaxez și să îmi
 exprim emoțiile mai liber. Dacă mă simt eliberată, îmi
 voi concentra atenția pe bucuria din mine și din jurul
 meu.
-
 
 [...ÎN GENERAL], CREIER - ECHILIBRU [PIERDERE
 DE...], SÂNGE - DIABET
@@ -25240,8 +26566,6 @@ acel lucru. Decid să îmi fac viața mai veselă, îmi
 îndeplinesc așteptările. Corpul meu este înțelept, un
 prieten fidel, pe care îl ascult cu atenție. Îmi accept ↓♥
 rolul de leader, în loc să îi urmez pe ceilalți.
-
-
 
 GENERAL], SÂNGE / ANEMIE / CIRCULAȚIE
 SANGUINĂ
@@ -25314,6 +26638,8 @@ de a-mi arăta emoțiile cele mai ascunse. Fie că sunt
 adult, fie că sunt copil, trebuie să trăiesc în adevăr și
 autenticitate și să reintru în contact cu viața din mine.
 
+## SÂNGE - LEUCOPENIE
+
 1042. SÂNGE - LEUCOPENIE
 Leucopenia este scăderea globulelor albe, ducând la
 dezechilibrul sângelui. Globulele albe devin asemenea
@@ -25328,9 +26654,7 @@ Accept ↓♥ să am grijă de mine pentru a-mi reface
 forțele interioare și, astfel, să îmi recapăt pofta de viață,
 cu toate plăcerile pe care le aduce aceasta.
 
-
-
-
+## SÂNGE - MONONUCLEOZA INFECȚIOASĂ
 
 1043. SÂNGE - MONONUCLEOZA INFECȚIOASĂ
 
@@ -25369,6 +26693,8 @@ ceilalți. Îmi recapăt curajul și încrederea în mine și
 astfel îmi regăsesc energia și bucuria de a trăi, care mă
 ajută să experimentez mai mult iubirea.
 
+## SÂNGE - PLACHETE SANGUINE,
+
 1044. SÂNGE - PLACHETE SANGUINE,
 
 TROMBOZĂ
@@ -25393,6 +26719,8 @@ universul să se ocupe de oamenii pe care îi iubesc. Am
 grijă de mine și nu mă las influențat de cuvintele sau de
 conflictele celorlalți.
 
+## SÂNGE - SÂNGERARI
+
 1045. SÂNGE - SÂNGERARI
 Sângerările pot fi comparate cu lacrimile, reprezintă
 tot o pierdere a bucuriei. Atunci când sufăr îmi curg
@@ -25414,6 +26742,8 @@ Accept ↓♥ șansa pe care o am în viață și îmi
 regăsesc bucuria de a trăi. Mă eliberez de toată tristețea
 și Accept ↓♥ să primesc ceea ce îmi oferă viața.
 
+## SÂNGE - SEPTICEMIE
+
 1046. SÂNGE - SEPTICEMIE
 Septicemia este o infecție gravă [o otrăvire totală] a
 sângelui. Este ceea ce în limbaj popular se spune „a-și
@@ -25424,7 +26754,6 @@ contamineze existența? Stagnez într-o situație, mă simt
 „pe cale să putrezesc”.
 Accept ↓♥ să am întreaga răspundere pentru
 alegerile mele și conștientizez bucuriile vieții.
-
 
 CIRCULA ȚIE SANGUINĂ / COAGULARE
 Sângele care circulă în venele mele reprezintă
@@ -25461,6 +26790,8 @@ ea să dispară. Mă simt „blocat” în emoțiile mele.
 Accept 4 ♥ să fiu tot mai deschis față de viață și
 accept ↓♥ schimbările ca pe semne ale evoluției mele.
 Îmi exprim frustrările și devin activ și creativ.
+
+## 1048. SÂNGE - VARICE
 
 1048. 1048. SÂNGE - VARICE
 Varicele apar de obicei, la picioare. Sunt rezultatul
@@ -25528,11 +26859,19 @@ ajutorul de care am nevoie. Nu am nevoie să mă justific.
 Trăiesc îndrumat de inima ♥ mea și am grijă de mine^
 Mă bucur din plin de viață.
 
+## SÂNGERĂRI
+
 1049. SÂNGERĂRI Vezi: SÂNGE - SÂNGERĂRI
+## SÂNGERĂRI NAZALE
+
 1050. SÂNGERĂRI NAZALE Vezi: NAS
 [SÂNGERĂRI...]
+## SÂNGERĂRI GINGIVALE
+
 1051. SÂNGERĂRI GINGIVALE Vezi: GINGII
 [SÂNGERĂRI ALE...]
+## SÂNI [în general]
+
 1052. SÂNI [în general]
 Sânii simbolizează conștiința a ceea ce sunt și
 generozitatea mea față de mine și de ceilalți. Sunt
@@ -25623,7 +26962,6 @@ Merit tot ceea ce este mai bun. Ignorând angoasele,
 grijile, resentimentele din trecut, sânii mei vor redeveni
 sănătoși.
 
-
 SÂNI - MASTITĂ
 Dificultățile care apar în alăptare provin, printre
 altele, din fisuri ale mameloanelor sau o insuficiență de
@@ -25670,7 +27008,11 @@ bucurie și iubire necondiționată. Astfel pot deveni
 stăpână pe viața mea și pot crește sentimentul de
 libertate pe care îl am.
 
+## SÂNI [cancer la...]
+
 1055. SÂNI [cancer la...] Vezi: CANCER LA SÂN
+## SÂNI - MASTITĂ
+
 1056. SÂNI - MASTITĂ
 Mastita este o inflamație dureroasă a sânului, care
 poate apărea în timpul alăptării, care devine
@@ -25702,13 +27044,25 @@ ceilalți să aleagă liberi, învăț să mă iubesc. Recunosc
 faptul că, fiecare dintre noi evoluează prin experiențele
 pe care le are.
 
+## SCABIE, RÂIE RÂIE
+
 1057. SCABIE, RÂIE Vezi: PIELE - SCABIE SAU
 RÂIE
+## SCARLATINĂ
+
 1058. SCARLATINĂ Vezi: BOLILE COPILĂRIEI
+## SCHELET
+
 1059. SCHELET Vezi: OASE
+## SCHIZOFRENIE SCHIZOFRENIE
+
 1060. SCHIZOFRENIE Vezi: PSIHOZĂ -
 SCHIZOFRENIE
+## SCIATIC [nervul...]
+
 1061. SCIATIC [nervul...] Vezi: NERVUL SCIATIC
+## SCLERODERMIE SCLERODERMIE
+
 1062. SCLERODERMIE Vezi: PIELE -
 SCLERODERMIE
 
@@ -25737,6 +27091,8 @@ este rușine de viață.
 Accept ↓♥ să fiu deschis față de iubire, îmi recunosc
 valoarea divină, eu sunt totul și pot face totul. Îmi
 regăsesc curiozitatea și lucrurile care mă pasionează.
+
+## SCLEROZA ÎN PLĂCI
 
 1064. SCLEROZA ÎN PLĂCI
 Scleroza în plăci este o demielinizare, care pare
@@ -25868,12 +27224,20 @@ meu de clovn și las să se vadă lumina mea interioară.
 Pacea mea interioară va deveni tot mai mare în fiecare
 zi.
 
+## SCLEROZA - LATERALĂ AMIOTROFICĂ
+
 1065. SCLEROZA - LATERALĂ AMIOTROFICĂ
 Vezi: CHARCOT [BOALA LUI...]
+## SCOLIOZA
+
 1066. SCOLIOZA Vezi: COLOANA VERTEBRALĂ
 [DEVIERI ALE...] - SCOLIOZA
+## SCRÂȘNIT DIN DINȚI
+
 1067. SCRÂȘNIT DIN DINȚI Vezi: DINȚI
 [SCRÂȘNIT DIN...], MAXILARE [DURERE DE...]
+## SCRUPULE
+
 1068. SCRUPULE
 Scrupulele apar în cazul unei persoane care simte o
 neliniște față de propria sa conștiință. „Mă doare
@@ -25884,9 +27248,15 @@ duce la apariția sau la accelerarea îmbătrânirii.
 Accept ↓♥ să trăiesc în armonie și să mă îndrept
 spre idei noi, astfel îmi regăsesc entuziasmul!
 
+## SCURGERI VAGINALE
+
 1069. SCURGERI VAGINALE Vezi: LEUCOREE
+## SENECTUTE
+
 1070. SENECTUTE Vezi: BĂTRÂNEȚE
 [AFECȚIUNIDE...]
+## SENILITATE
+
 1071. SENILITATE
 Dacă sunt o persoană în vârstă și îmi sunt afectate
 facultățile fizice și psihice, se vorbește despre senilitate.
@@ -25912,6 +27282,8 @@ moment din viața mea, conștientizez forța Universului.
 Îmi pot crea viața așa cum vreau eu: trebuie doar să
 devin propriul meu stăpân și să cer ajutor atunci când
 am nevoie, pentru a-mi îndeplini visele.
+
+## SEPTICEMIE
 
 1072. SEPTICEMIE Vezi: SÂNGE - SEPTICEMIE
 
@@ -25948,6 +27320,8 @@ Accept ↓♥ să fiu mai deschis față de viață, față de
 iubire, pentru a găsi în sfârșit soluția de „a-mi potoli
 setea”.
 
+## SEXUALE [DEVIAȚII ȘI PERVERSIUNI ÎN GENERAL]
+
 1074. SEXUALE [DEVIAȚII ȘI PERVERSIUNI ÎN
 GENERAL]
 Atunci când sunt afectat de o deviație sexuală, acest
@@ -25969,6 +27343,8 @@ femeie, îmi accept ↓♥ latura masculină. Devin modest și
 decid să mă afirm fără să îi rănesc pe ceilalți. Aleg să îmi
 unific întreaga ființă, deoarece fiecare parte din mine
 vrea să se exprime.
+
+## SEXUALE [FRUSTRĂRI, LIPSA DORINȚEI...]
 
 1075. SEXUALE [FRUSTRĂRI, LIPSA DORINȚEI...]
 
@@ -25996,6 +27372,8 @@ calitatea vieții mele. Îmi acord timp pentru lucrurile care
 viață și pentru lucrurile bune se va trezi astfel, la fel ca
 și cea pentru relațiile intime și sexuale.
 
+## SEXUALĂ [HĂRȚUIRE...]
+
 1076. SEXUALĂ [HĂRȚUIRE...]
 
 Dacă trăiesc o situație de hărțuire sexuală, acest
@@ -26010,6 +27388,8 @@ Accept ↓♥ să mă fac respectat ca persoană. Trebuie
 mai întâi să identific sursele care determină această
 situație, pentru a-mi recăpăta puterea și a-mi continua
 viața „mai normal”.
+
+## SFORĂIT
 
 1077. SFORĂIT
 Zgomotul pe care îl scot când respir în timpul
@@ -26043,6 +27423,8 @@ Accept ↓♥ să învăț să mă detașez și să fac loc
 lucrurilor noi. Învăț să comunic clar și fără subînțelesuri
 sau ambiguități. Sunt deschis față de schimbare și
 lucruri noi.
+
+## SIDA [SINDROMUL IMUNODEFICIENȚEI DOBÂNDITE]
 
 1078. SIDA [SINDROMUL IMUNODEFICIENȚEI
 DOBÂNDITE]
@@ -26138,19 +27520,37 @@ acestea îi vor ajuta să devină la rândul lor stăpâni pe
 viața lor și să își dezvolte și să-și accepte ↓♥ ființa, în
 totalitatea ea.
 
+## SIFILIS
+
 1079. SIFILIS Vezi; VENERICE [BOU..,]
+## SINCOPĂ
+
 1080. SINCOPĂ Vezi; CREIER - SINCOPĂ
+## SINDROMUL BĂUTORILOR DE LAPTE
+
 1081. SINDROMUL BĂUTORILOR DE LAPTE Vezi:
 BĂUTORI DE LAPTE [SINDROMUL...]
+## SINDROMUL LUI BURNETT
+
 1082. SINDROMUL LUI BURNETT Vezi: BĂUTORI
 DE LAPTE [SINDROMUL...]
+## SINDROMUL CANALULUI CARPIAN
+
 1083. SINDROMUL CANALULUI CARPIAN Vezi:
 crampa scriitorului
+## SINDROMUL LUI CUSHING CUSHING[SINDROMUL LUI...]
+
 1084. SINDROMUL LUI CUSHING Vezi:
 CUSHING[SINDROMUL LUI...]
+## SINDROMUL DOWN
+
 1085. SINDROMUL DOWN Vezi-MONGOLISM
+## SINDROMUL LUI GELINEAU NARCOLEPSIE
+
 1086. SINDROMUL LUI GELINEAU Vezi.
 NARCOLEPSIE
+## SINDROMUL LUI GUILAIN-BARRE SAU
+
 1087. SINDROMUL LUI GUILAIN-BARRE SAU
 
 IMUNITAR
@@ -26193,8 +27593,12 @@ Astfel voi putea dezvolta relații sincere, profunde și
 durabile cu ceilalți. Am o protecție naturală și viața mea
 devine tot mai calmă și mai luminoasă.
 
+## SINDROMUL IMUNODEFICIENȚEI
+
 1088. SINDROMUL IMUNODEFICIENȚEI
 DOBÂNDITE Vezi: SIDA
+## SINDRMUL MARFAN
+
 1089. SINDRMUL MARFAN
 Boală de tip ereditar, care atinge fibrele țesutului
 conjunctiv, responsabil de anomaliile ocular și cardiac.
@@ -26207,10 +27611,16 @@ blocată prin lipsă de comunicare. Care este motivul care
 mă împiedică să comunic cu părinții mei sau alți
 membri ai familiei extinse?
 
+## SINDROMUL DE OBOSEALĂ CRONICĂ
+
 1090. SINDROMUL DE OBOSEALĂ CRONICĂ Vezi:
 OBOSEALĂ CRONICĂ [SINDROM DE...]
+## SINDROMUL PREMENSȚRUAL
+
 1091. SINDROMUL PREMENSȚRUAL Vezi:
 MENSTRUAȚIE - SINDROM PREMENSTRUAL
+## SINDROM RESPIRATOR ACUT SEVER
+
 1092. SINDROM RESPIRATOR ACUT SEVER
 
 PLĂMÂNI - PNEUMONIE, RESPIRAȚIE
@@ -26234,7 +27644,6 @@ locul cuvenit și mai este timp să mă dezangajez, să mă
 eliberez și să rup sau să schimb ceva în
 comportamentul meu. Învăț să aleg în funcție de nevoile
 mele și îmi regăsesc în armonia, respir cu toată forța.
-
 
 SPATE [AFECȚIUNI ALE...], INFLAMAȚII, TENDOANE
 Sindromul de suprautilizare este o afecțiune care
@@ -26262,10 +27671,12 @@ totuși, nimic nu este întâmplător. Identific partea
 implicată pentru a face conștientizarea și a mă simți mai
 bine în ceea ce fac.
 
-
+## SINDROMUL UNGHIILOR GALBENE
 
 1094. SINDROMUL UNGHIILOR GALBENE Vezi:
 UNGHII GALBENE [SINDROMAL...]
+## SINDROMUL DE TUNEL CARPIAN
+
 1095. SINDROMUL DE TUNEL CARPIAN Vezi:
 ÎNCHEIETURA MÂINII - SINDROMUL DE TUNEL
 CARPIAN
@@ -26295,7 +27706,6 @@ Accept ↓♥ să am încredere, închid ochii: lumina este
 mele sau scriu despre toată depresia pe care o trăiesc și
 cer ajutor celorlalți.
 
-
 [AFECȚIUNI ALE...] / PARTEA INFERIOARĂ A
 SPATELUI, INFECȚII [ÎN GENERAL]
 Sinusul pilonidal este o infecție a sistemului pilos,
@@ -26321,8 +27731,7 @@ situația a existat pentru a mă învăța să îmi dezvolt
 încrederea și să apreciez tot ceea ce am avut și ceea ce
 am astăzi și să conștientizez acest lucru.
 
-
-
+## SINUZITĂ
 
 1098. SINUZITĂ Vezi: NAS - SINUZITĂ
 
@@ -26410,7 +27819,6 @@ Iau decizia de a învăța să mă simt bine cu mine însumi
 și sunt mai în măsură să am o viață socială mai bogată
 și fondată pe adevăratele valori.
 
-
 Sistemul locomotor este legat de mobilitatea mea și
 de flexibilitatea mea, precum și de deschiderea mea
 interioară și exterioară. Cuprinde oasele, mușchii,
@@ -26435,7 +27843,6 @@ flexibilitatea sau rigiditatea.
 Accept ↓♥ să mă simt liber în mișcările mele și să
 îmi ascult corpul, deoarece el este indicatorul stării mele
 interioare.
-
 
 [LIMFATICI]
 Sistemul limfatic este compus din ganglioni și vase
@@ -26473,7 +27880,6 @@ conștientiza pe deplin emoțiile pe care le am. Astfel voi
 putea să îmi trăiesc din plin viața, într-un mod
 echilibrat.
 
-
 ASTENIE NERVOASĂ
 Am o stare de slăbiciune atunci când simt o lipsă de
 forță în general. Pot de asemenea să am senzația că îmi
@@ -26502,6 +27908,8 @@ exprim ceea ce simt pentru a- mi recăpăta locul cuvenit.
 Fac alegerea potrivită pentru binele meu și cel al
 apropiaților mei. Mă înconjor de lumină, mă las cuprins
 de iubire
+
+## SLĂBIREA GREUTATE]
 
 1104. SLĂBIREA Vezi:, și: ANOREXIE, EXCES DE
 GREUTATE]
@@ -26538,9 +27946,15 @@ Acceptându-mă ↓♥ așa cum sunt, mă pot lega și re
 conecta cu ceilalți într-o manieră conștientă, care-mi va
 încălzi inima.
 
+## SOMN [BOALA SOMNULUI...] NARCOLEPSIE
+
 1105. SOMN [BOALA SOMNULUI...] Vezi:
 NARCOLEPSIE
+## SOMN [TULBURĂRI DE...]
+
 1106. SOMN [TULBURĂRI DE...] Vezi: INSOMNIE
+## SOMNAMBULISM [SOMNAMBUL]
+
 1107. SOMNAMBULISM [SOMNAMBUL]
 Atunci când sunt somnambul mă plimb de colo-colo,
 fiind adormit, fără să fiu conștient de acest lucru. Acest
@@ -26573,6 +27987,8 @@ un mod mai spontan. Îmi manifest creativitatea, las să
 se exprime energiile refulate și știu că pot avansa în
 viață cu încredere.
 
+## SOMNOLENȚA
+
 1108. SOMNOLENȚA
 Somnolența este legată de ficat, care poate lucra
 mai lent. Pot să am o stare de somnolență, după o masă
@@ -26595,6 +28011,8 @@ Accept ↓♥ să reiau contactul cu viața, să devin actor
 și creator al vieții mele. Dacă nu fac acest lucru, este
 posibil să acumulez frustrări.
 
+## SPASM
+
 1109. SPASM
 Un spasm se produce atunci când unul sau mai
 muți mușchi se contractă și se dilată, în mod involuntar
@@ -26610,7 +28028,6 @@ nocturne. Trăiesc emoții și culpabilitate legate de
 sexualitate.
 Recunosc faptul că acest nod mă sufocă și accept ↓♥
 să mă detașez pentru a păstra iubirea în jurul meu.
-
 
 Spasm o fi li a este un sindrom legat de o stare de
 hiperexcitabilitate neuromusculară cronică. Când sunt
@@ -26640,6 +28057,8 @@ petrec momente frumoase și să consider situațiile care
 apar, ca pe o experiență. Astfel, voi participa din plin la
 toate frumusețile acestei lumi și voi vedea viața ca pe o
 aventură palpitantă, plină de bucurii și de fericire.
+
+## SPATE [în general]
 
 1111. SPATE [în general]
 Spatele reprezintă sprijinul și suportul vieții. Este
@@ -26716,6 +28135,8 @@ să mă sprijin pe resursele mele interioare. Intuiția mea
 mă îndrumă în acțiuni care mă ajută să-mi împlinesc
 obiectivele.
 
+## SPATE [durere...] - PARTEA SUPERIOARĂ [7
+
 1112. SPATE [durere...] - PARTEA SUPERIOARĂ [7
 vertebre cervicale]
 Partea de sus a spatelui corespunde regiunii inimii ♥
@@ -26778,8 +28199,6 @@ lumină, cu mai multă încredere. Îmi iau viața în mâini și
 accept ↓♥ să mă văd în fiecare aspect al personalității
 mele. Îmi recapăt puterea și realizez lucruri
 importante... pentru mine.
-
-[Nu a fost extras text din această pagină.]
 
 C2 = cea de a doua vertebră cervicală este strâns
 legată de CI. Este numită AXIS. Este pivotul care o ajută
@@ -27000,6 +28419,8 @@ deoarece nu mai eram eu însumi. Faptul de a deveni eu
 Încetez să mai critic și învăț să mă exprim liber în loc să
 refulez totul. Accept ↓♥ faptul că am nevoie de ajutorul
 celorlalți și învăț să cer. Astfel mă respect mai mult.
+
+## SPATE [durere de...] - MIJLOCUL SPATELUI
 
 1113. SPATE [durere de...] - MIJLOCUL SPATELUI
 [12 vertebre dorsale]
@@ -27427,6 +28848,8 @@ contemplație; astfel voi găsi multe soluții și răspunsuri.
 A fi în contact cu ființa mea interioară înseamnă : să
 aleg mai să trăiesc mai bine situațiile din viața mea.
 
+## SPATE [dureri de...] - ZONA LOMBARĂ
+
 1114. SPATE [dureri de...] - ZONA LOMBARĂ
 Această zonă, adeseori confundată cu rinichii și
 asociată cu durerea de rinichi este situată de la mijloc
@@ -27831,7 +29254,6 @@ mele de bază și să conștientizez acum forțele mele
 interioare și să recunosc că eu sunt persoana cea mai
 potrivită pentru a-mi asigura propria viață.
 
-
 Facturarea unei vertebre este de obicei rezultatul
 unei revolte interioare, o reacție la o inflexibilitate
 mentală, legată de autoritate. Văd viața fără deschidere
@@ -27852,6 +29274,8 @@ elibera. Îmi accept ↓♥ atitudinile din prezent știind că
 pot să le schimb începând de acum. Viața este
 frumoasă, cu schimbările ei și este important să învăț să
 mă las purtat de curentul vieții.
+
+## SPLINA
 
 1116. SPLINA
 Splina este situată în partea superioară stângă a
@@ -27916,10 +29340,16 @@ anumite situații. Învăț să îmi comunic treptat emoțiile,
 pentru a-mi păstra echilibrul și armonia din corpul
 meu.
 
+## S.P.M. [sindrom premenstrual]
+
 1117. S.P.M. [sindrom premenstrual] Vezi-
 menstruație – sindrom PREMENSTRUAL
+## S.RAS. SEVER
+
 1118. S.RAS. Vezi: SINDROM RESPIRATOR ACUT
 SEVER
+## STARE DE RĂU
+
 1119. STARE DE RĂU
 Nu este o boală propriu-zisă, mai degrabă un
 disconfort pe care îl resimt, de intensitate diferită. Este
@@ -27931,8 +29361,12 @@ dintr- un conflict conștient sau inconștient, care trebuie
 rezolvat înainte ca starea de rău să se transforme în
 boală.
 
+## STARE VEGETATIVĂ CRONICĂ
+
 1120. STARE VEGETATIVĂ CRONICĂ Vezi:
 CREIER - STARE VEGETATIVĂ CRONICĂ
+## STÂNGACI
+
 1121. STÂNGACI
 Un stângaci înseamnă, în general, cineva care își
 folosește mai mult mâna stângă și brațul stâng decât
@@ -27967,6 +29401,8 @@ folosesc sensibilitatea pentru ca totul să se manifeste
 
 din plin. Mă accept ↓♥ așa cum sunt știind că am
 capacități uluitoare, care fac din mine o persoană unică.
+
+## STERILITATEA
 
 1122. STERILITATEA
 Sterilitatea se definește drept incapacitatea de a se
@@ -28051,6 +29487,8 @@ natural, atunci când va fi momentul potrivit. Între timp,
 din viața mea. Îmi creez viața asemenea tapițerului care
 își țese pânza.
 
+## STERN
+
 1123. STERN
 Sternul este un os plat situat în partea anterioară și
 mediană a toracelui și care se articulează cu primele
@@ -28083,7 +29521,11 @@ Accept ↓♥ să particip din plin la transformarea vieții
 mele, deoarece eu sunt creatorul acesteia. Accept ↓♥ să
 fiu ferm și să mă exprim cu toată încrederea.
 
+## STRABISM
+
 1124. STRABISM Vezi: OCHI - STRABISM
+## STRES
+
 1125. STRES
 Stresul este un răspuns de adaptare față de un
 eveniment, o situație sau un pericol, real sau imaginar.
@@ -28117,6 +29559,8 @@ observ reacțiile, motivațiile și atitudinile, în loc să îi
 învinuiesc pe ceilalți sau situațiile exterioare. Învăț să
 mă relaxez și să recunosc și beneficiile stresului.
 
+## STOMAC [în general]
+
 1126. STOMAC [în general]
 Stomacul primește hrana și o digeră pentru a
 acoperi diferitele nevoi nutritive ale corpului, de
@@ -28130,7 +29574,6 @@ mea de a digera ideile noi sau situațiile noi. Poate fi
 comparat cu un barometru care indică gradul meu de
 deschidere și felul meu de a reacționa în viață. Accept ↓♥
 să primesc ideile noi, cu deschidere și fără să judec.
-
 
 ARSURI LA STOMAC
 Afecțiunile care afectează stomacul se referă la
@@ -28217,6 +29660,8 @@ cu cei din jurul meu. Iertarea și. reconcilierea sunt cele
 mai importante pentru vindecarea mea. Astfel voi găsi în
 mine un sentiment de siguranță și de plenitudine.
 
+## STOMAC - AEROFAGIE
+
 1128. STOMAC - AEROFAGIE
 Aerofagia înseamnă înghițirea în mod involuntar a
 unei cantități de aer, care pătrunde în esofag și în
@@ -28241,8 +29686,12 @@ Acceptându-mi ↓♥ forțele interioare și acceptând ↓♥ să le
 las se să exprime, îmi voi regăsi sentimental de
 siguranță și echilibrul.
 
+## STOMAC [cancer la...] STOMAC
+
 1129. STOMAC [cancer la...] Vezi: CANCER LA
 STOMAC
+## STOMAC - ARSURI LA STOMAC
+
 1130. STOMAC - ARSURI LA STOMAC
 
 Așa cum denotă și numele, o arsură la stomac este
@@ -28303,6 +29752,8 @@ Poate fi vorba despre o persoană despre care cred „pe
 acea persoana, nu reușesc să o diger”. Înseamnă că nu
 o respect pe acea persoană, ti port pică pentru ceva etc.
 
+## STRĂNUT
+
 1132. STRĂNUT
 Strănutul este provocat de excitarea sau gâdilarea
 pereților interiori ai nărilor, care provoacă o ieșire
@@ -28323,9 +29774,15 @@ cuvine și să acționez astfel încât să restabilesc armonia,
 să vorbesc cu persoana în cauză sau să îndrept situația
 respectivă;
 
+## SUBLINGUALE [glande...] SALIVARE
+
 1133. SUBLINGUALE [glande...] Vezi: GLANDE
 SALIVARE
+## SUFOCARE
+
 1134. SUFOCARE Vezi: RESPIRAȚIE - SUFOCARE
+## SUGHIȚ
+
 1135. SUGHIȚ
 Sughițul este provocat de contracțiile spasmodice,
 subite și involuntare, ale diafragmei.
@@ -28356,8 +29813,7 @@ ordine în planul divin, că totul este în regulă și sughițul
 va dispărea. Acceptă să am putere deplină asupra mea
 și să am grijă de mine.
 
-
-
+## SUPĂRARE
 
 1136. SUPĂRARE Vezi: MELANCOLIE
 Supărarea este legată de o formă de anxietate, o
@@ -28375,11 +29831,19 @@ pentru a mă putea schimba. Accept conștientizarea pe
 care am făcut-o și o integrez. Astfel îmi voi regăsi
 bucuria de a trăi și „cresc” prin această experiență.
 
+## SUPRAPONDERAL DE...]
+
 1137. SUPRAPONDERAL Vezi: GREUTATE [EXCES
 DE...]
+## SUPRAOXIGENARE HIPERVENTILAȚIE
+
 1138. SUPRAOXIGENARE Vezi:
 HIPERVENTILAȚIE
+## SUPRARENALE
+
 1139. SUPRARENALE Vezi: GLANDE
+## SUPTUL DEGETULUI
+
 1140. SUPTUL DEGETULUI
 
 Prin suptul degetului mare de la mână, încerc să
@@ -28409,6 +29873,8 @@ degetul meu, că mă va susține, am încrederea în forțele
 mele interioare și accept ↓♥ faptul că sunt tot timpul
 protejat.
 
+## SURDITATE
+
 1141. SURDITATE Vezi: URECHI - SURDITATE
 
 Dacă sunt surd, dintr-un motiv de natură
@@ -28434,6 +29900,8 @@ dezvolt tot mai mult ascultarea interioară, care mă ajută
 să profit de bucuriile vieții și să mă împlinesc, în relațiile
 cu cei din jurul meu.
 
+## ȘALAZION
+
 1143. ȘALAZION Vezi: PLEOAPE
 Șalazionul este o mică tumoră de natură
 inflamatorie [un nodul roșu, suplu] situată de obicei pe
@@ -28449,6 +29917,8 @@ sunt afectate: ochiul stâng ține de domeniul afectiv, iar
 cel drept reprezintă raționalul și responsabilitățile.
 Accept ↓♥ să fiu deschis la ceea ce văd și sunt mai
 centrat pe mine însumi.
+
+## ȘANCRU [în general] GENERAL]
 
 1144. ȘANCRU [în general] Vezi: ulcer [ÎN
 GENERAL]
@@ -28476,8 +29946,7 @@ energia activă a cuvintelor și exprimarea de sine. Mă
 accept ↓♥ în sexualitatea mea și îmi acord dreptul de a
 descoperi iubirea care mă va ajuta să mă dezvolt.
 
-
-
+## ȘANCRU - ULCER BUCAL [herpes]
 
 1145. ȘANCRU - ULCER BUCAL [herpes] Vezi:
 GURĂ [DURERE DE...]
@@ -28499,6 +29968,8 @@ determinare pentru a avansa în viață.
 Accept ↓♥ să merg înainte cu bucurie și încredere în
 viață, știind că orice experiență există pentru a mă ajuta
 să-mi descopăr bogățiile interioare.
+
+## ȘOLDURI [dureri de...]
 
 1147. ȘOLDURI [dureri de...]
 Șoldurile amortizează mișcarea picioarelor și
@@ -28581,9 +30052,15 @@ experiențele mele. Mă eliberez de greutatea
 responsabilităților de care nu mai am nevoie: acest
 lucru mă ajută să iau mai ușor deciziile.
 
+## TABAGISM
+
 1148. TABAGISM Vezi: FUMAT
+## TAHICARDIE CARDIACĂ
+
 1149. TAHICARDIE Vezi: INIMĂ ♥ - ARITMIE
 CARDIACĂ
+## TALAMUS
+
 1150. TALAMUS
 Talamusul are forma a două mase voluminoase de
 substanță cenușie, situate de fiecare parte a celui de-al
@@ -28608,7 +30085,11 @@ lucru mă sperie. Îmi caut adevărata identitate.
 dacă sunt sincer cu ceilalți, voi manifesta mai multă
 iubire și voi avea relații sănătoase și durabile.
 
+## TARTRU
+
 1151. TARTRU Vezi: DINȚI [AFCTIUNI ALE...]
+## TĂIETURĂ
+
 1152. TĂIETURĂ Vezi: ACCIDENT
 Tăietura indică o dezordine emoțională, o durere
 mentală puternică, care se manifestă pe plan fizic și
@@ -28656,7 +30137,11 @@ Am puterea să îmi împlinesc toate visele: trebuie doar să
 totul devine posibil. Reiau contactul cu mine însumi și
 cu oamenii care mă pot ajuta în parcursul meu.
 
+## TENDINITĂ
+
 1153. TENDINITĂ Vezi: TENDON [ÎN GENERAL]
+## TENDON [în general]
+
 1154. TENDON [în general]
 
 Tendonul este punctul de legătură dintre mușchi și
@@ -28708,6 +30193,8 @@ Accept ↓♥ să recunosc importanța echilibrului
 energiilor mele și să merg înainte în viață. Pot să am
 încredere în înțelepciunea mea divină.
 
+## TENDONUL LUI AHILE
+
 1155. TENDONUL LUI AHILE
 Tendonul lui Ahile face legătura dintre mușchiul
 pulpei și osul călcâiului. Este tendonul cel mai puternic
@@ -28745,9 +30232,15 @@ miște, pentru a-mi împlini visele și a atinge scopurile pe
 care mi le-am propus. Îmi bazez viața pe valori umane
 profunde. Îmi amplific forța interioară fiind eu însumi.
 
+## TENIA
+
 1156. TENIA Vezi: INTESTINE - TENIA
+## TENIS ELBOW EPICONDILITĂ
+
 1157. TENIS ELBOW Vezi: COATE -
 EPICONDILITĂ
+## TENSIUNE ARTERIALA - HIPERTENSIUNE
+
 1158. TENSIUNE ARTERIALA - HIPERTENSIUNE
 Imaginea care reprezintă o persoană suferind de
 hipertensiune este cea a unei oale sub presiune, care
@@ -28810,6 +30303,8 @@ acumularea care provoacă explozia. Învăț să am
 de această presiune pentru a mă simți viu. Mă accept ↓♥
 așa cum sunt și recunosc faptul că, sunt o ființă unică.
 
+## TENSIUNE ARTERIALĂ - HIPOTENSIUNE
+
 1159. TENSIUNE ARTERIALĂ - HIPOTENSIUNE
 Contrar hipertensiunii, hipotensiunea, apare în
 cazul unei, persoane care are tensiunea arterială prea
@@ -28852,7 +30347,6 @@ responsabilitățile lor și mă ocup de ale mele. Tensiunea
 mea arterială poate rămâne scăzută, dar va fi doar un
 semn că am atins un nivel de stres aproape de zero și că
 îmi trăiesc viața în armonie cu cursul vieții însăși.
-
 
 [AFECȚIUNI ALE...]
 Glandele sexuale masculine reprezintă aspectul
@@ -28915,8 +30409,12 @@ Accept ↓♥ să îmi investighez sentimentele față de
 virilitate și să îmi analizez percepția mea asupra
 principiului masculin.
 
+## TESTICULE [cancer de...] TESTICULE
+
 1161. TESTICULE [cancer de...] Vezi: CANCER DE
 TESTICULE
+## TETANIE
+
 1162. TETANIE
 Tetania se caracterizează prin crize de contracturi
 musculare și nervoase, mai ales în zona extremităților.
@@ -28942,12 +30440,22 @@ gândurile negative și reduc, efectul de contradicție. Dacă
 învăț să îmi exprim emoțiile prin cuvinte, nu mai am
 nevoie să fac acest lucru prin corp.
 
+## TETANOS
+
 1163. TETANOS Vezi: MUȘCHI - TETANOS
+## TETRAPLEGIE GENERAL]
+
 1164. TETRAPLEGIE Vezi: PARALIZIE [ÎN
 GENERAL]
+## TIBIA INFERIOARĂ
+
 1165. TIBIA Vezi: PICIOARE - PARTEA
 INFERIOARĂ
+## TICURI
+
 1166. TICURI Vezi: CREIER - TICURI
+## TIMIDITATE
+
 1167. TIMIDITATE
 Timiditatea mă face să trec pe lângă lucruri
 minunate. Evit oamenii pe care nu îi cunosc. Îmi este
@@ -28966,6 +30474,8 @@ persoane de care nu mă simt deloc amenințat.
 Accept ↓♥ să acționez cu calm și îmi ofer șansa de a
 descoperi, în fiecare zi, lucruri noi și oameni noi.
 
+## TIMPANISM
+
 1168. TIMPANISM
 Timpanismul este creșterea sonorității toracelui și a
 abdomenului. Se poate simți dacă lovim cu degetele o
@@ -28982,12 +30492,22 @@ Accept ↓♥ să îmi trăiesc din plin emoțiile, deoarece
 reprezintă o bogăție pentru a descoperi diversele aspecte
 din mine.
 
+## TIMUS
+
 1169. TIMUS Vezi: GLANDA - TIMUS
+## TIROIDĂ GENERAL
+
 1170. TIROIDĂ Vezi: GLANDA TIROIDĂ ÎN
 GENERAL
+## TOROPEALĂ
+
 1171. TOROPEALĂ Vezi: AMORȚEALĂ
+## TORSIUNE DE TESTICULE
+
 1172. TORSIUNE DE TESTICULE Vezi:
 TESTICULE [ÎN GENERAL]
+## TORTICOLIS
+
 1173. TORTICOLIS Vezi: GÂT - TORTICOUS
 
 FUMAT, COMPULSIE NERVOASĂ, DEPENDANȚĂ,
@@ -29020,9 +30540,15 @@ pentru mine. Prin faptul de a fi eu însumi, pot descoperi
 ființa minunată din mine și pot să fiu mai deschis spre
 iubire.
 
+## TRAHEITĂ
+
 1175. TRAHEITĂ Vezi: RESPIRAȚIE - TRAHEITĂ
+## TRAHEOBRONȘITĂ
+
 1176. TRAHEOBRONȘITĂ Vezi: BRONȘITĂ,
 RESPIRAȚIE - TRAHEITĂ
+## TRANSPIRAȚIE
+
 1177. TRANSPIRAȚIE Vezi: MIROS CORPORAL
 
 [BOALAALUI...]
@@ -29053,13 +30579,11 @@ situație de separare, foarte dificilă.
 Accept ↓♥ să învăț să mă poziționez, să mă destind
 și trăiesc în prezent. Apreciez viața și fericirea!
 
-
-
-
-
-
+## TRISMUS
 
 1179. TRISMUS Vezi: MUȘCHI - TRISMUS
+## TRISOMIE 21
+
 1180. TRISOMIE 21 Vezi: MONGOLISM
 
 MELANCOLIE, SÂNGE / COLESTEROL / DIABET /
@@ -29086,14 +30610,19 @@ umple golul cu blândețe și cu tandrețe. Iar gândurile
 negre vor dispărea și îmi voi regăsi dinamismul și
 bucuria de a trăi.
 
-
-
+## TROMBOANGEITA OBLITERANTĂ
 
 1182. TROMBOANGEITA OBLITERANTĂ Vezi:
 BUERGER [BOALA LUI...]
+## TROMBOZA
+
 1183. TROMBOZA Vezi: SÂNGE - TROMBOZA
+## TROMBOZA CORONARIANĂ
+
 1184. TROMBOZA CORONARIANĂ Vezi: INIMĂ ♥ -
 TROMBOZA CORONARIANĂ
+## TROMPĂ UTERINĂ [INFECȚIAUNEI...] LSALPINGITĂ
+
 1185. TROMPĂ UTERINĂ [INFECȚIAUNEI...] Vezi:
 LSALPINGITĂ
 
@@ -29150,7 +30679,6 @@ blândețea să intre în viața mea. Reintru în contact cu
 esența mea divină și acum nimeni nu îmi mai poate face
 rău.
 
-
 CANCER [ÎN GENERAL...]
 O tumoră este o masă de țesut inform, care poate
 apărea în diverse locuri ale corpului. Tumora apare de
@@ -29188,10 +30716,16 @@ refuz acest lucru, este ca și cum, o voce interioară mi-ar
 șopti: „tu mori, încetul cu încetul”. Învăț să mă detașez
 și să am încredere totală în mine.
 
+## TUMORĂ LA CREIER
+
 1188. TUMORĂ LA CREIER Vezi: CREIER
 [TUMORĂ...]
+## TUMORĂ MALIGNĂ GENERAL...]
+
 1189. TUMORĂ MALIGNĂ Vezi: CANCER [ÎN
 GENERAL...]
+## TURBARE
+
 1190. TURBARE
 Turbarea este o boală contagioasă, care afectează
 anumite mamifere [vulpea, pisica, câinele etc.] și care se
@@ -29257,8 +30791,12 @@ să îl accept ↓♥, tusea va dispărea. Dacă persistă,
 acord timp pentru a rezolva situațiile care mă irită și să
 mă simt mai bine cu cele pe care trebuie să le accept ↓♥.
 
+## TUSE CONVULSIVĂ COPILĂRIEI
+
 1192. TUSE CONVULSIVĂ Vezi: BOLILE
 COPILĂRIEI
+## ȚESUT CONJUNCTIV [fragilitate a...]
+
 1193. ȚESUT CONJUNCTIV [fragilitate a...]
 Un țesut reprezintă un grup de celule care au
 aceeași formă sau îndeplinesc aceeași funcție. Rolul
@@ -29303,6 +30841,8 @@ Accept ↓♥ să las lucrurile și persoanele să treacă și
 las trecutul la o parte și mă deschid spre toate
 frumusețile vieții, care sunt aici și acum.
 
+## ULCER[E] [în general]
+
 1195. ULCER[E] [în general]
 Ulcerul reprezintă pierderea unei substanțe din
 piele sau din mucoasă, care ia forma unei leziunii, care
@@ -29342,8 +30882,12 @@ emoțiile voi reuși să sting focul din interiorul meu.
 Regăsindu-mi liniștea interioară, ulcerul nu va mai avea
 motiv să se manifeste.
 
+## ULCER BUCAL [herpes] SAU ȘANCRU
+
 1196. ULCER BUCAL [herpes] SAU ȘANCRU Vezi:
 GURĂ [AFECȚIUNI ALE...]
+## ULCER PEPTIC SAU GASTRIC [la duoden
+
 1197. ULCER PEPTIC SAU GASTRIC [la duoden
 sau stomac]
 Ulcerul la stomac poate apărea atunci când nu mă
@@ -29382,8 +30926,6 @@ Accept ↓♥ faptul că primesc un mesaj de la corpul
 meu, care îmi transmite că a venit momentul să îmi
 descopăr calitățile, să mă apreciez la justa mea valoare
 și să îmi accept ↓♥ nevoia de iubire.
-
-
 
 Umerii reprezintă capacitatea mea de a purta o
 greutate. Umerii poartă bucuriile, suferințele,
@@ -29478,7 +31020,7 @@ să trăiesc momentul prezent, ceea ce mă va ajuta să mai
 ușurez greutatea pe care o port pe umeri. Am încredere
 în universul care îmi oferă bunurile de zi cu zi.
 
-
+## UMERII CURBAȚI
 
 1199. UMERII CURBAȚI
 Umerii curbați generează de obicei porecle precum
@@ -29515,6 +31057,8 @@ tratament energetic mă pot ajuta să mă centrez pe
 momentul prezent și să intru în contact cu eul meu
 superior pentru a-mi recunoaște propriile nevoi.
 
+## UMFLARE [în general]
+
 1200. UMFLARE [în general]
 Umflarea apare în general atunci când opun o
 rezistență emoțională și îmi refulez emoțiile. Acumulez
@@ -29537,6 +31081,8 @@ situațiile din viața mea să fie mai clare. Învăț să exprim
 ceea ce trăiesc pentru a mă elibera și pentru ca
 umflăturile să dispară.
 
+## UMFLAREA [... abdomenului]
+
 1201. UMFLAREA [... abdomenului]
 Umflarea abdomenului mă determină să
 conștientizez faptul că trăiesc o frustrare față de
@@ -29548,6 +31094,8 @@ Schimbând felul în care văd lucrurile și având o
 atitudine mai pozitivă, accept ↓♥ să conștientizez toată
 abundența din viața mea, pe plan afectiv, intelectual,
 emoțional, material etc.
+
+## UNGHII [în general]
 
 1202. UNGHII [în general]
 Unghiile reprezintă țesutul dur și energia cea mai
@@ -29605,6 +31153,8 @@ Renunț să mai opun rezistență și nu mă mai agăț de
 ceilalți. Nu îmi pot dezvolta solitudinea interioară decât
 dacă mă sprijin pe mine însumi.
 
+## UNGHII [a-și roade unghiile...]
+
 1203. UNGHII [a-și roade unghiile...]
 Dacă îmi rod unghiile, acest lucru indică o
 nervozitate interioară foarte mare și existența unei
@@ -29632,6 +31182,8 @@ ajuns la limită.
 Accept ↓♥ să îmi exprim toate emoțiile și să îmi caut
 siguranța și încrederea în interiorul meu. Astfel mă voi
 împlini!
+
+## UNGHIE ÎNCARNATĂ
 
 1204. UNGHIE ÎNCARNATĂ
 Este vorba despre o unghie ale cărei margini laterale
@@ -29674,6 +31226,8 @@ mă afirma. În loc sa vreau să mă agăț, este mai bine
 pentru mine să merg înaintea celorlalți. Merg înainte și
 mă sprijin pe forța mea interioară.
 
+## UNGHII ÎNGĂLBENITE [sindrom al...]
+
 1205. UNGHII ÎNGĂLBENITE [sindrom al...]
 Sindromul unghiilor îngălbenite se manifestă atunci
 când unghiile de la degetele de la mâini sau de la
@@ -29692,6 +31246,7 @@ mai multă pasiune în viață, îmi dezvolt energia vitală
 pentru ca aceasta să se manifeste și în capătul
 degetelor.
 
+## UNGHII MOI ȘI CASANTE
 
 1206. UNGHII MOI ȘI CASANTE
 Unghiile reprezintă vitalitatea, starea energiei mele
@@ -29711,6 +31266,8 @@ Accept ↓♥ să îmi reiau viața în mâini! Descopăr
 întreaga forță pe care o am: sunt puternic și pot
 îndeplini lucruri mari. Doar de mine depinde să fiu sigur
 pe capacitățile mele și să merg înainte.
+
+## URĂ
 
 1207. URĂ
 Multe boli au drept cauză ura. Faptul de a întreține
@@ -29737,7 +31294,6 @@ vieți. Învăț să mă iert și să îi iert pe ceilalți. Accept, ↓♥ să
 fiind deschis față de ceilalți îmi voi putea schimba
 viziunea asupra lucrurilor și mă voie libera de judecăți
 și de această ură a cărui prizonier eram.
-
 
 SURDITATE
 Văzul și auzul sunt simțurile care mă ajută să mă
@@ -29770,7 +31326,6 @@ care sunt mereu în evoluție. Construind baze solide, cu
 
 ajutorul vocii mele interioare, urechile mele vor fi perfect
 sănătoase!
-
 
 urechi/acufena/bâzâit în URECHI /otită
 Afecțiunile urechilor apar atunci când trăiesc o
@@ -29844,8 +31399,6 @@ interiorul meu. Învăț să îmi țin urechile „deschise” tot
 timpul, dezvoltându-mi în același timp capacitatea de a
 mă detașa de ceea ce aud. Astfel, inima ♥ mea poate
 rămâne deschisă tot timpul.
-
-
 
 - BÂZÂITÎN URECHI
 Acufena este un fenomen care mă face să aud
@@ -29949,7 +31502,6 @@ aflu pe ce plan mă conectez. Acest lucru înseamnă că,
 urechea mea interioară este deschisă pentru a auzi mai
 mult realitatea acestor lumi.
 
-
 URECHI - ACUFENĂ
 Bâzâitul este legat. de refuzul de a-mi asculta vocea
 interioară, semnele interioare care îmi îndrumă viața.
@@ -29975,6 +31527,8 @@ interioară. Nu mai sunt obligat să „fac pe surdul”. Există
 o .vorbă înțeleaptă care spune „Ascultă ceea ce nu îți
 spui..”. Recunosc lumina din mine și mă scald în ea.
 Astfel îmi va fi mai ușor să văd frumusețea celorlalți.
+
+## URECHI - OTITĂ
 
 1212. URECHI - OTITĂ
 
@@ -30027,8 +31581,7 @@ legat de moarte sau la orice amintire dureroasă.
 Indiferent de vârsta mea, îmi ascult înțelepciunea
 interioară. Trăiesc în spontaneitatea momentului.
 
-
-
+## URECHI - SURDITATE
 
 1213. URECHI - SURDITATE
 Când există o diminuare a acuității auditive, vorbim
@@ -30097,7 +31650,6 @@ aud mesajele și sunt deschis față de ceilalți. Îmi
 regăsesc liniștea interioară. Ies din umbră pentru a trăi
 în sfârșit în lumina înțelepciunii mele interioare.
 
-
 RENALE]
 Uremia este nivelul de uree din sânge. Ureea este un
 component al urinei. Acest nivel poate fi anormal de
@@ -30122,7 +31674,6 @@ Accept ↓♥ să fac „curățenie” în ceea ce mă tulbură în
 viață și sunt deschis față de noi posibilități. Îmi ascult
 nevoile și vocea mea interioară.
 
-
 Uretrita este o inflamație a canalului care
 transportă urina spre col, din vezica urinară spre
 orificiul extern al uretrei, meatul. Această stare indică
@@ -30139,6 +31690,8 @@ Accept ↓♥ să las să circule mai liber noile idei și să-
 mi păstrez spiritul deschis față de opiniile mele, care se
 pot schimba, știind că sunt tot timpul în evoluție și în
 schimbare.
+
+## URINA [INFECȚII URINARE] SAU CISTITA
 
 1216. URINA [INFECȚII URINARE] SAU CISTITA
 
@@ -30187,7 +31740,11 @@ mele prezente sau din trecut. Mă umplu de blândețe.
 viața în funcție de inimă ♥, în loc să fiu îndrumat tot
 timpul de minte.
 
+## URTICARIE
+
 1217. URTICARIE Vezi: PIELE - URTICARIE
+## USCĂCIUNE VAGINALĂ GENERAL]
+
 1218. USCĂCIUNE VAGINALĂ Vezi: VAGIN [ÎN
 GENERAL]
 
@@ -30267,8 +31824,12 @@ Le-am oferit cea mai bună educație posibilă, copiilor mei
 copilul meu interior, care înseamnă iubire, bucurie și
 speranță.
 
+## UTER [CANCER DE COL UTERIN...]
+
 1220. UTER [CANCER DE COL UTERIN...] Vezi:
 CANCER LA UTER [COL ȘI CORP]
+## VAGIN [în general]
+
 1221. VAGIN [în general]
 Vaginul este o membrană musculară, situată între
 vulvă și uter. Afecțiunile legate de vagin își au, de obicei
@@ -30309,11 +31870,19 @@ care o am despre sexualitate.
  Accept ↓♥ să fiu deschisă față de iubire, sub toate
 formele ei și să mă împlinesc pe deplin.
 
+## VAGIN - MÂNCĂRIMIVAGINALE
+
 1222. VAGIN - MÂNCĂRIMIVAGINALE Vezi:
 MÂNCĂRIMI VAGINALE
+## VAGINAL - HERPES AL
+
 1223. VAGINAL - HERPES Vezi: HERPES VAGIN
 AL
+## VAGINALE [scurgeri...]
+
 1224. VAGINALE [scurgeri...] Vezi: LEUCOBEE
+## VAGINALE [spasme...]
+
 1225. VAGINALE [spasme...] Vezi: SPASME
 
 URINĂ [INFECȚII URINARE]
@@ -30346,14 +31915,28 @@ Accept ↓♥ să mă deschid spre ideea de a trăi o
 sexualitate armonioasă. Acest lucru face parte din viața
 mea și din fericirea la care am dreptul.
 
+## VARICELA
+
 1227. VARICELA Vezi: BOLILE COPILĂRIEI
+## VARICE
+
 1228. VARICE Vezi: SÂNGE - VARICE
+## VARICOCEL GENERAL...]
+
 1229. VARICOCEL Vezi: TESTICULE [ÎN
 GENERAL...]
+## VĂRSĂTURI
+
 1230. VĂRSĂTURI Vezi: GREAȚĂ
+## VÂNĂTAIE
+
 1231. VÂNĂTAIE Vezi: PIELE - VÂNĂTAIE
+## VEGETATIVĂ CRONICĂ [stare...]
+
 1232. VEGETATIVĂ CRONICĂ [stare...] Vezi:
 STARE VEGETATIVĂ CRONICĂ
+## VEGETAȚII ADENOIDE [POLIPI] AMIGDALE
+
 1233. VEGETAȚII ADENOIDE [POLIPI] Vezi:
 AMIGDALE
 Vegetațiile adenoide, sub denumirea comună de
@@ -30373,7 +31956,6 @@ argumentez ceva. Tensiunile sau conflictele din familie,
 pot favoriza apariția vegetațiilor.
 Accept ↓♥ să mă poziționez, în armonie, îmi exprim
 sentimentele și recunosc beneficiile intuiției.
-
 
 CIRCULAȚIA SANGUINĂ
 Vena este un vas de sânge care aduce sângele de la
@@ -30408,6 +31990,8 @@ sânge în vine”, îmi lipsesc energia și curajul.
 Accept ↓♥ să las să circule bucuria în mine.
 Recunosc momentele de fericire, învăț să mă destind și
 îmi regăsesc pacea interioară.
+
+## VENE - VARICE
 
 1235. VENE - VARICE Vezi: SÂNGE - VARICE
 
@@ -30486,11 +32070,11 @@ adaptez modul de gândire și accept ↓♥ faptul că această
 experiență este un mijloc de a mă dezvolta și de a-mi
 regăsi echilibrul afectiv.
 
-
-
-
+## VERGETURI
 
 1237. VERGETURI Vezi: PIELE - VERGETURI
+## VERTEBRE [fractură de...]
+
 1238. VERTEBRE [fractură de...] Vezi: SPATE -
 FRACTURĂ DE VERTEBRE
 
@@ -30553,8 +32137,12 @@ mici plăceri și să am încredere în viitor. Astfel îmi voi
 regăsi un sentiment de echilibru interior, esențial pentru
 vindecarea mea.
 
+## VERUCI [în general]
+
 1240. VERUCI [în general] Vezi: PIELE – VERUCI
 [ÎNGENERAL]
+## VERUCI PLANTARE
+
 1241. VERUCI PLANTARE Vezi: PICIOARE -
 VERUCI PLANTARE
 
@@ -30653,7 +32241,6 @@ emoții, care îmi deranjează vezica. Îmi eliberez emoțiile
 din trecut, pe care le rețineam până acum. Trăiesc în
 adevăr și simplitate.
 
-
 BILIARI, FICAT [AFECȚIUNI ALE...]
 Vezica biliară este un rezervor membranos, situat
 sub ficat, unde se acumulează bila pe care o secretă
@@ -30703,8 +32290,6 @@ Doar prin exprimarea sentimentelor mele interioare și
 prin acceptarea experiențelor trecute, care m-au marcat,
 voi putea să mă eliberez și să trăiesc în pace.
 
-
-
 Cistita este o inflamație a vezicii, de obicei
 infecțioasă. Există unele evenimente sau unele situații,
 care mă determină să îmi rețin iritarea, frustrările și
@@ -30740,8 +32325,12 @@ momentul prezent la maximum și îmi dau seama că,
 fiind deschis, pot să gust din minunatele experiențe care
 apar. Acționez și merg înainte.
 
+## VIERMI, PARAZIȚI
+
 1245. VIERMI, PARAZIȚI Vezi: PĂR - TEN,
 INTESTINE - COLON / TENIA, PICIOARE - MICOZĂ
+## VITILIGO
+
 1246. VITILIGO Vezi: PIELE - VITILIGO
 
 Violul este o agresiune care poate provoca un
@@ -30819,11 +32408,11 @@ pe care le pot trăi unii membri ai familiei mele, vor fi
 diminuate. Faptul de a dezvălui secretul și de a rupe
 tăcerea aduce o eliberare foarte mare.
 
-
-
-
+## VOCE [stinsă...]
 
 1248. VOCE [stinsă...] Vezi: AFONIE
+## VOCE - RĂGUȘEALĂ
+
 1249. VOCE - RĂGUȘEALĂ
 Atunci când timbrul meu vocal devine surd, zgâriat
 sau hârșâit, am vocea răgușită [disfonie]. Răgușeala
@@ -30855,7 +32444,6 @@ mai obiectiv și mai lucid pentru a lua deciziile necesare.
 Pot să cât și să îmi eliberez astfel vocea și exprimarea de
 sine.
 
-
 Vorbele pe care le rostesc în prezent îmi creează
 viitorul. Se spune că gândirea creează și verbul
 [vorbirea] manifestă. Astfel, atunci când vorbesc, îmi fac
@@ -30881,11 +32469,6 @@ sunt răutăcioase, negative, pline de furie, distructive,
 atrag astfel nori negri, furtuni și intemperii. Alegerea îmi
 aparține.
 
-
-
-
-
-
 Vulva reprezintă ansamblul organelor genitale
 externe ale femeii. Așa cum buzele sunt considerate
 poarta gurii, labiile vaginului reprezintă buzele
@@ -30906,8 +32489,9 @@ emoțiilor mele.
 Accept ↓♥ să mă simt valorizată și accept ↓♥
 responsabilitatea alegerilor mele.
 
-ANEXA 1
+## ANEXA 1
 
+ANEXA 1
 
 CORESPUNZĂTOARE
 
@@ -30974,6 +32558,8 @@ Genunchii Flexibilitatea, mândria, orgoliul,
 încăpățânarea
 Picioarele Direcția, înțelegerea mea și a vieții
 
+## ANEXA 2
+
 ANEXA 2
 
 Lista principalelor afecțiuni și semnificația lor:
@@ -31036,6 +32622,8 @@ Torticolis evit să văd ambele fațete
 ale unei situații
 Tumoră șoc emoțional
 
+## Anexa 3
+
 Anexa 3
 
 Boli a căror denumire are terminația „ITĂ”
@@ -31061,6 +32649,8 @@ Poliomielită
 Uretrită
 Vaginită
 
+## ANEXA 4
+
 ANEXA 4
 
 Boli a căror denumire are terminația „OZĂ”.
@@ -31085,1836 +32675,3 @@ Scleroză
 Scolioză
 Tromboză
 Tuberculoză
-
-CUPRNS
-
-Mulțumiri ...................................................................... 6
-PREFAȚĂ ....................................................................... 8
-INTRODUCERE ........................................................... 10
-1. A SCUIPA SÂNGE Vezi: SÂNGE ............................... 21
-2. ACCIDENT VASCULAR CEREBRAL Vezi: CREIER ... 21
-3. ACIDITATE GASTRICĂ Vezi: STOMAC-ARSURI ........ 21
-4. ACIDOZĂ Vezi: și GUTĂ REUMATISM ...................... 21
-5. ACNEE Vezi: PIELE ................................................. 22
-6. ACRODERMATITA Vezi: PIELE ................................ 22
-7. ACROMEGALIE Vezi: OS ......................................... 22
-8. ACROKERATOZA Vezi: PIELE .................................. 22
-9. ACUFENA Vezi: URECHI .......................................... 22
-10. ACUMULARE LICHID SINOVIAL Vezi: LBURSITĂ ... 22
-
-12. AFONIA SAU STINGEREA VOCII ............................ 23
-13. AFTĂ Vezi: GURĂ - AFTĂ ....................................... 24
-14. AHILE Vezi: TENDONUL LUI AHILE ....................... 24
-
-CANCER LA LIMBĂ, FUMAT, DEPENDENȚA, DROGURI,
-SÂNGE - HIPOGUCEMIE ............................................. 24
-16. ALEXIE CONGENITALĂ [cecitate verbală] .............. 29
-
-18. ALERGIE LA ANIMALE [în general] ........................ 34
-
-19. ALERGIE LA ANTIBIOTICE .................................... 35
-20. ALERGIE LA ARAHIDE [unt sau ulei] ..................... 35
-21. ALERGIE LA CAI .................................................... 36
-22. ALERGIE LA CÂINI ................................................ 36
-23. ALERGIE LA CĂPȘUNI ........................................... 37
-24. ALERGIE - FEBRA FÂNULUI [alergia la polen] ....... 38
-25. ALERGIE LA LAPTE SAU LA PRODUSELE LACTATE
- ................................................................................... 40
-26. ALERGIE LA ÎNȚEPĂTURI DE VIESPE SAU DE
-ALBINĂ ....................................................................... 41
-27. ALERGIE LA PENE ................................................ 42
-28. ALERGIE LA PEȘTI SAU FRUCTE DE MARE.......... 42
-29. ALERGIE LA PISICI ................................................ 43
-30. ALERGIE LA POLEN V ezi: ALERGIE - FEBRA
-FÂNULUI ..................................................................... 43
-31. ALERGIE LA PRAF ................................................. 43
-32. ALERGIA LA SOARE .............................................. 44
-33. ALOPECIE Vezi: PĂR - - CAL WȚIE ........................ 45
-34. ALUNIȚĂ Vezi: PIELE - MELANOM ......................... 45
-
-SENILITATE ................................................................ 45
-36. AMENOREE [absența menstrualei] Vezi: menstruație
-- amenoree .................................................................. 48
-37. AMFETAMINA [consum de...] Vezi: DROGURI ........ 48
-
-39. AMIOTROFIE Vezi: ATROFIE ................................. 50
-
-MEMORIEI] ................................................................. 50
-41. AMORȚEALĂ ......................................................... 51
-
-
-GENERAL], PARALIZIE [ÎN GENERAL] ......................... 54
-
-[AFECȚIUNI ALE...] ..................................................... 55
-45. ANEMIE Vezi: SÂNGE - ANEMIE ............................ 55
-
- ................................................................................... 55
-
-
-GENERAL] / INFARCT[DE MIOCARD] ......................... 58
-
-SÂNGE – CIRCULAȚIE SANGUINĂ, SISTEM LIMFATIC 61
-50. ANGIOM PLAN Vezi: PIELE - PETE DE VIN ............. 61
-
-
-APETITULUI...], BULIMIE, GREUTATE [EXCES DE...] . 64
-53. ANTRAX Vezi: PJELE - ANTRAX ............................. 69
-54. ANURIE Vezi: RINICHI - ANURIE ............................ 69
-55. ANUS ..................................................................... 69
-
- ................................................................................... 70
-
-MÂNCĂRIME ............................................................... 71
-
-
-59. ANUS - FISURI ANALE ........................................... 72
-
-
-NERVOZITATE, SÂNGE - HIPOGUCEMIE .................... 73
-
-/ MONONUCLEOZĂ .................................................... 74
-
-
-HIPOGLICEMIE ........................................................... 77
-
-66. APNEE ÎN SOMN Vezi: RESPIRI IE [AFECȚIUNI
-LEGATE DE...] ............................................................ 79
-67. APOPLEXIE Vezi: CREIER - APOPLEXIE ................. 79
-68. ARITMIE CARDIACĂ Vezi: INIMĂ ♥ - ARITMIE
-CARDIACĂ .................................................................. 79
-
-70. ARSURI LA STOMAC Vezi: STOMAC - ARSURILA
-STOMAC ..................................................................... 81
-71. ARTERE Vezi: SÂNGE - ARTERE ............................ 81
-
-CIRCULAȚIE SANGUINĂ ............................................. 81
-
-ARTROZĂ .................................................................... 83
-74. ARTICULAȚII - ENTORSĂ....................................... 85
-75. ARTICULAȚII TEMPORO -MANDIBULARE Vezi: GURĂ
-[afecțiuni ale...], MAXILARE [DURERI DE...] ................ 87
-
-GENERAL], INFLAMAȚII .............................................. 87
-
- ................................................................................... 90
-78. ARTRITA DEGETELOR Vezi: DEGETE - ARTRITĂ .. 91
-79. ARTRITĂ GUTOASĂ Vezi: GUTĂ ............................. 91
-80. ARTRITĂ - POLIARTRITAREUMATOIDĂ ................. 91
-81. ARTROZA Vezi: ARTRITĂ - ARTROZĂ ..................... 94
-82. ASFIXIE Vezi: RESPIRAȚIE - ASFIXIE .................... 94
-83. ASTENIE NERVOASĂ Vezi: BURNOUT .................... 94
-84. ASTIGMATISM Vezi: OCHI - ASTIGMAT1SM .......... 94
-
-RESPIRAȚIE ................................................................ 95
-86. ASTMUL BEBELUȘULUI ........................................ 98
-87. ATAC CARDIAC Vezi: INIMĂ ♥ - INFARCT [...DE
-MIOCARD] ................................................................... 99
-88. ATAXIE LUI FRIEDREICH ...................................... 99
-
-90. AUTISM ............................................................... 101
-91. AUTOLIZA Vezi: SINUCIDERE.............................. 103
-
-93. AUZ Vezi: URECHI - SURZENIE ........................... 104
-94. AVORT SPONTAN Vezi: NAȘTERE - AVORT .......... 104
-
-96. BACTERIE MÂNCĂTOARE DE CARNE [infecție cu...]
- ................................................................................. 105
-
- ................................................................................. 106
-
-98. BASEDOW [boala lui...] Vezi: GLANDA TIROIDĂ -
-BOALA LUIBASEDOW ............................................... 107
-
- ................................................................................. 107
-100. BĂȘICĂ Vezi: CHIST PIELE/[IN GENERAL] /
-[AFECȚIUNI ALE...] ................................................... 108
-101. BĂȘICĂ Vezi: PIELE - BĂȘICI ............................. 108
-102. BĂTĂTURI LA PICIOARE Vezi: PICIOARE -
-BĂTĂTURI ................................................................. 109
-103. BĂTĂTURI Vezi: PICIOARE - BĂTĂTURI ............. 109
-
-ACIDOZĂ, APATIE ..................................................... 109
-
-106. BÂZÂIT ÎN URECHI Vezi: URECHI - BÂZÂITÎN
-URECHI .................................................................... 112
-107. BEȚIE Vezi: ALCOOLISM ................................... 112
-108. BILIARI [calculi...] Vezi: CALCULIBILIARI ............ 112
-109. BOALA BAISER Vezi LMONONUCLEOZA
-INFECTIOASĂ ........................................................... 112
-110. BOALA CĂRNII TOCATE, SINDROMUL BARBEQUE
- ................................................................................. 112
-111. BOALA BECHTEREWS....................................... 112
-112. BOALA HANSEN Vezi: LEPRA ............................. 112
-113. BOALA IMUNITARĂ Vezi: SISTEM IMUNITAR ..... 113
-
-
-SUPRARENALE ......................................................... 113
-116. BOALA LUI BOUILARD Vezi: REUMATISM .......... 114
-
-117. BOALA LUI DUPUYTREN Vezi: MÂINI - BOALA LUI
-DUPYTREN ................................................................ 114
-118. BOALA LUI FR1EDREICH Vezi: ATAXJA FRIEDEICH
- ................................................................................. 114
-119. BOALA LUI HODGK3N Vezi: HODGKIN .............. 114
-120. BOALA LUI MENIERE Vezi: MENIERE ................ 114
-121. BOALA LUI PARKINSON Vezi: CREIER-PARKINSON
- ................................................................................. 114
-122. BOALA LUI RAYNAUD Vezi: RAYNAUD ............... 114
-123. BOALA ............................................................... 114
-124. BOALĂ CRONICĂ Vezi: CRONIC ......................... 115
-
-126. BOALĂ INCURABILĂ .......................................... 115
-127. BOALĂ INFANTILĂ Vezi: BOU ALE COPILĂRIEI .. 115
-128. BOALĂ KARMICĂ ............................................... 115
-129. BOALĂ MENTALĂ Vezi: NEBUNIE, NEVROZĂ,
-PSIHOZĂ ................................................................... 115
-130. BOALĂ PSIHOSOMATICĂ ................................... 116
-131. BOALA SOMNULUI Vezi: NARCOLEPSIE ............ 116
-132. BOALĂ TRANSMISĂ SEXUAL Vezi; VENERICĂ
-[BOALA...] ................................................................. 116
-133. BOALA VACII NEBUNE Vezi: CREIER -
-CREUTZFELD-JAKOB ............................................... 116
-134. BOALĂ VENERICĂ Vezi: VENERICĂ ................... 116
-
-
-CONGENITALE .......................................................... 117
-
-LA COPIL ................................................................... 117
-138. BOLILE COPILĂRIEI -RUBEOLĂ ........................ 118
-139. BOLILE COPILĂRIEI-RUJEOLA .......................... 118
-140. BOLILE COPILĂRIEI- SCARLATINA .................... 118
-141. BOLILE COPILĂRIEI - TUȘEA MĂGĂREASCĂ .... 119
-142. BOLILE COPILĂRIEI-VARICELA ......................... 119
-143. BOUILLAUD [boala lui...] Vezi: REUMATISM ....... 120
-144. BRADICARDIE Vezi: INIMĂ - ARITMIE CARDIACĂ
- ................................................................................. 120
-145. BRAȚE [în general] ............................................. 120
-146. BRAȚE [afecțiuni la...] ........................................ 121
-
-RENALE] ................................................................... 124
-
-
-[AFECȚIUNI LA...] ...................................................... 126
-
-[AFECȚIUNI ALE...] ................................................... 127
-151. BRUXISM Vezi: DINȚI [SCRÂȘNIT DIN DINȚI...] . 128
-152. BTS [BOLI TRANSMISIBILE SEXUAL] Vezi:
-VENERICE [BOU„] ...................................................... 128
-153. BUCAL [herpes...] Vezi: HERPES[...BUCAL] ........ 128
-
-INFLAMAȚIE, PICIOARE, SÂNGE - CIRCULAȚIE
-SANGUINĂ ................................................................ 128
-155. BUFEURI DE CĂLDURĂ Vezi: MENOPAUZĂ ....... 129
-
-156. BURNETT [sindromul lui...] Vezi: BĂUTORI DE
-LAPTE [SINDROMUL...] ............................................. 129
-
-NERVOASĂ DEPRESIE .............................................. 129
-
-COATE, UMERI, INFLAMAȚIE, GENUNCHI...,
-TENDONUL LUIAHILE ............................................... 130
-
-ABDOMENULUI], INTESTINE [AFECȚIUNI ALE...] ..... 131
-
-GREUTATE [EXCES DE...]......................................... 132
-161. BURTĂ [durere de...] Vezi: DURERE DE BURTĂ .. 134
-162. BUZE ................................................................. 134
-163. BUZE USCATE, CRĂPATE ................................. 136
-164. CAECUM Vezi: APENDICITĂ ............................... 136
-165. CALCANEUM Vezi: CĂLCÂI ................................. 136
-
-CALCULI/BILIARI/RENALI ........................................ 137
-167. CALCULI BILIARI SAU LITIAZĂ BILIARĂ Vezi: FICAT
-[DURERE DE FICAT], SPLINĂ .................................... 137
-
-RINICHI ..................................................................... 139
-169. CALOZITATE Vezi: PIELE, PICIOARE -CALUS ȘI
-BĂTĂTURI ................................................................. 141
-170. CALVIȚIE Vezi: PĂR-CALVIȚIE ............................ 141
-171. CANAL CARPIAN [sindromul...] Vezi: CRAMPA
-scriitorului ................................................................. 141
-
-
-173. CANCER AL ALUNIȚEI Vezi: PIELE - MELANOM
-MALIGN .................................................................... 145
-
-BRONȘITĂ ................................................................. 145
-
-[DURERE DE...] / CONST1PAȚIE .............................. 145
-176. CANCER LA ESOFAG Vezi: ESOFAG .................. 147
-177. CANCER LA FARINGE Vezi: GÂT - FARINGE ...... 147
-178. CANCER LA FICAT Vezi: FICAT [DURERE DE...] . 147
-179. CANCER AL GANGLIONILOR [al sistemului limfatic]
-Vezi: ADENITĂ, ADENOPATIE, GANGLION [...LIMFATIC]
- ................................................................................. 147
-
-181. CANCER AL GURII ............................................. 148
-
-CANCER LA COLON, INTESTINE [DURERE DE... ] /
-COLON/INTESTIN SUBȚIRE ..................................... 149
-183. CANCER LA INTESTINUL SUBȚIRE Vezi:
-INTESTINUL SUBȚIRE [DURERELA...] ...................... 149
-184. CANCER LA LARINGE Vezi: FUMAT, GÂT [DURERE
-DE...] ......................................................................... 149
-185. CANCER LA LIMBĂ Vezi: ALCOOLISM, FUMAT .. 150
-186. CANCER LA MANDIBULA Vezi: MANDIBULĂ
-[DURERE DE...] ......................................................... 151
-187. CANCER LA OASE Vezi: OASE [CANCER LA
-OASE...] .................................................................... 151
-188. CANCER LA OVARE Vezi: OVARE [DURERE DE...]
- ................................................................................. 152
-
-189. CANCER LA PANCREAS Vezi: PANCREAS [DURERE
-DE...] ......................................................................... 152
-190. CANCER AL PIELII Vezi: PIELE - MELANOM
-MALIGN .................................................................... 152
-191. CANCER LA PIEPT Vezi: CANCER LA SÂN ......... 152
-
-BRONȘITĂ, FUMAT, PLĂMÂNI [DURERE DE...] ......... 152
-193. CANCER LA PROSTATĂ Vezi: PROSTATĂ
-[DUREREDE...] .......................................................... 153
-194. CANCER LA RECT Vezi: INTESTINE - RECT ....... 153
-195. CANCER LA SÂNGE Vezi: SÂNGE - LEUCEMIE . 153
-196. CANCER LA SÂN Vezi: SÂNI [DURERE DE...] ..... 153
-
-DE...] ......................................................................... 157
-
-[DURERE DE...] ......................................................... 157
-
-
-MUCOASELOR .......................................................... 160
-201. CANDID OZĂ Vezi: CANDIDA, INFLAMAȚII
-VAGINITĂ .................................................................. 161
-
-GÂT, INFECȚII ........................................................... 161
-203. CANGRENĂ Vezi: SÂNGE - CANGRENĂ .............. 162
-204. CAP [în general] ................................................. 162
-205. CAP [dureri de...] ............................................... 163
-206. CAP - MIGRENE ................................................. 165
-
-207. CARDIACĂ [criză...] Vezi: INIMA ♥ - INFARCT [... DE
-MIOCARD] ................................................................. 167
-208. CARIE DENTARĂ Vezi: DINȚI - CARIE DENTARĂ. 167
-209. CAROTIDĂ Vezi: SÂNGE - ARTERE .................... 167
-210. CATARACTĂ Vezi: OCHI - CATARACTĂ .............. 167
-211. CĂDERE DE PRESIUNE Vezi: TENSIUNE
-ARTERIALĂ - HIPOTENSIUNE [TENSIUNE PREA MICĂ]
- ................................................................................. 167
-212. CĂI BILIARE Vezi: VEZICA BILIARĂ ................... 167
-213. CĂLCÂI .............................................................. 167
-214. CĂLDURĂ [acces de CĂLDURĂ...] Vezi: FEBRĂ .. 168
-215. CĂLDURI [a avea...] Vezi: MENOPAUZĂ .............. 169
-216. CĂSCAT ............................................................. 169
-
-GÂT ........................................................................... 170
-218. CEARCĂNE [LA OCHI...] Vezi: OCHI - CEARCĂNE
- ................................................................................. 171
-219. CECITATE Vezi: OCHI [DURERI DE...] ................ 171
-220. CEFALEE Vezi: CAP [DURERIDE...] .................... 171
-221. CELULITĂ .......................................................... 171
-222. CHARCOT [boala lui...] SAU SCLEROZA LATERALA
-AMIOTROFICA .......................................................... 173
-
-TROMBOZA ............................................................... 173
-224. CHERATITĂ Vezi: OCHI - CHERATITĂ ................ 173
-
- ................................................................................. 173
-
-226. CHLAMYDLA [infecție cu ...] Vezi: BOU VENERICE
- ................................................................................. 175
-227. CICATRICE Vezi: PIELE - CICATRICE ................ 175
-228. CICLU MENSTRUAL [dureri de...] Vezi:
-MENSTRUAȚIE [DURERI DE...] ................................. 175
-229. CIFOZĂ Vezi: COLOANĂ VERTEBRALĂ [DEVIAȚIE
-A...], SPATE [DURERE DE.„] ...................................... 175
-230. CINEPATIE Vezi: RĂU DE TRANSPORT .............. 175
-231. CINETOZĂ Vezi: RĂU DE TRANSPORT ............... 175
-232. CIRCULAȚIE SANGUINĂ Vezi: SÂNGE - CIRCULA
-ȚIE SANGUINĂ .......................................................... 175
-233. CIROZĂ [... a ficatului]; Vezi: FICAT - CIROZĂ [...A
-FICATULUI] ............................................................... 175
-234. CISTITĂ Vezi: VEZICĂ - CISTITĂ ........................ 175
-235. CISTOCEL Vezi: PROLAPSUS ............................. 175
-236. CIUPERCI Vezi: PICIOARE - MICOZĂ ................. 175
-237. CIUPERCI HALUCINOGENE [consuni de...] Vezi:
-DROGURI .................................................................. 175
-
-LOCOMOTOR ............................................................ 175
-
-
-umeri; oase - fractură ................................................. 177
-
- ................................................................................. 178
-242. COAGULARE DEFICITARĂ Vezi: SÂNGE COAGULAT
- ................................................................................. 179
-
-GENERAL]/[DURERE DE...] ...................................... 179
-
-244. COAPSE [durere de...] Vezi: PICIOARE - PARTEA
-SUPERIOARĂ ............................................................ 181
-245. COASTE ............................................................. 181
-
-247. COATE - EPICONDILITĂ .................................... 184
-248. COCAINĂ [consum de...] Vezi: DROGURI ............ 185
-249. COCCIS Vezi: SPATE [DURERE DE...] ................ 185
-250. COCOȘAT Vezi: UMERI LĂSAȚI .......................... 185
-251. COL UTERIN [cancer de...] Vezi: CANCER LA UTER
-[COL SI CORP] .......................................................... 185
-252. COLESTEROL Vezi: SÂNGE - COLESTEROL ....... 185
-253. COLICA NEFRETICĂ .......................................... 185
-254. COLICI Vezi: INTESTINE - COLICI ...................... 185
-255. COLITĂ [mucozitatea colonului] Vezi: intestine -
-colită ......................................................................... 185
-256. COLITĂ HEMORAGICĂ Vezi: INTESTINE - COUTĂ
- ................................................................................. 186
-
- ................................................................................. 186
-258. COLOANĂ VERTEBRALĂ [deviație a] [în general] 187
-259. COLOANA VERTEBRALĂ [deviație a...] - COCOȘAT
-Vezi: UMERI LĂSAȚI ................................................... 187
-260. COLOANĂ VERTEBRALĂ [deviație a...} - CIFOZĂ 187
-261. COLOANĂ VERTEBRALĂ - DISC DEPLASAT Vezi:
-HERNIE DISCALĂ ...................................................... 188
-262. COLOANĂ VERTEBRALĂ [deviație a...] - LORDOZA
- ................................................................................. 188
-
-263. COLOANĂ VERTEBRALĂ [deviație a...] - SCOLIOZĂ
- ................................................................................. 189
-264. COLON [cancer de...] Vezi: CANCER DE COLON . 191
-265. COMĂ Vezi: ACCIDENT, CREIER - SINCOPĂ, LEȘIN
- ................................................................................. 191
-266. COMEDOANE Vezi: PIELE - PUNCTE NEGRE ..... 193
-267. COMOȚIE [... a retinei] Vezi: OCHI - COMOȚIA
-RETINEI .................................................................... 193
-268. COMOȚIE CEREBRALĂ Vezi: CREIER [COMOȚIE]
- ................................................................................. 193
-269. COMPULSIE NERVOASĂ ................................... 193
-270. CONDUCTE LACRIMALE Vezi: LACRIMI ............. 193
-271. CONGENITAL Vezi: MALFORMAȚII CONGENITALE,
-BOU EREDITARE ...................................................... 193
-272. CONGESTIE [...la creier/ ...ficat/ ...nas /...plămâni]
-
-273. CONJUNCTIVITĂ Vezi: OCHI ~ CONJUNCTIVITĂ 195
-274. CONSTIPAȚIE Vezi: INTESTINE - CONSTIPAȚIE . 195
-275. CONTUZII Vezi: PIELE - VÂNĂTĂI ....................... 195
-276. COPIL CIANOTIC [ALBASTRU] ........................... 195
-277. COPIL HIPERACTIV Vezi: HIPERACTIVITATE ..... 196
-278. COPIL MORT LA NAȘTERE Vezi: NAȘTERE - AVORT
- ................................................................................. 196
-279. CORIZA Vezi: RĂCEALĂ [LA CREIER...] .............. 196
-280. CORONAR Vezi: INIMĂ ♥ - TROMBOZA
-CORONARIANĂ ......................................................... 196
-281. CORP [în general] Vezi: ANEXA / ....................... 196
-
-282. CORZI VOCALE Vezi: GÂT - LARINGITĂ, CANCER
-LA LARINGE, VOCE - RĂGUȘEALĂ ........................... 196
-283. COȘURI [pe corp] Vezi: PIELE - COȘURI ............ 196
-
-GENERAL], MÂINI [ÎN GENERAL], ÎNCHEIETURA MÂINII
- ................................................................................. 196
-285. CRAMPE ............................................................ 197
-
-287. CRAMPE MUSCULARE [în general] .................... 199
-288. CRANIU Vezi: CREIER - COMOȚIE CEREBRALĂ, OS
-- FRACTURĂ [OSOASĂ...] .......................................... 199
-289. CRĂPĂTURI Vezi: PIELE - CRĂPĂTURI ............... 199
-290. CREIER [în general] ........................................... 199
-291. CREIER [abces la...] ........................................... 201
-292. CREIERACCIDENT VASCULAR CEREBRAL [A.V.C.]
-
-] / ARTERE / CIRCULAȚIA SANGUINĂ, TENSIUNE
-ARTERIALĂ - HIPERTENSIUNE ................................. 201
-293. CREIER - APOPLEXIE Vezi: CREIER - ACCIDENT
-VASCULAR CEREBRAL [AV.C] / SINCOPA SÂNGE -
-HEMORAGIE. ............................................................ 202
-294. CREIER [comoție] SAU COMOȚIE CEREBRALĂ . 203
-295. CREIER - [congestie a creierului...] Vezi:
-CONGESTIE ............................................................... 204
-296. CREIER - CREUTZFELD-JAKOB [boala...] SAU
-BOALA VACII NEBUNE ............................................. 204
-297. CREIER [durere la...] .......................................... 206
-298. CREIER - ECHILIBRU [pierderea echilibrului] SAU
-AMEȚEALA ................................................................ 207
-
-299. CREIER-ENCEFALITĂ ........................................ 208
-300. CREIER - EPILEPSIE ......................................... 209
-301. 301. CREIER - HEMIPLEGIE Vezi: CREIER / [ABCES
-AL...] / ACCIDENT VASCULAR CEREBRAL [A.V.C].... 213
-302. CREIER - HIDROCEFALIE ................................. 214
-303. CREIER - HUNTINGTON [boala lui...] sau [COREE a
-lui...] Vezi: CREIER - TICURI ...................................... 214
-304. CREIER - MENINGITĂ Vezi: INFLAMAȚIE,
-SISTEMIMUNITAR, CAP ............................................ 215
-305. CREIER - PARALIZIE CEREBRALĂ .................... 217
-
-TREMURAT ................................................................ 218
-307. CREIER - SINCOPĂ ............................................ 220
-308. CREIER - SINDROMUL ADAMS -STOKES Vezi:
-CREIER - EPILEPSIE/SINCOPĂ, VERTIJ .................... 221
-309. CREIER - STARE VEGETATIVĂ CRONICĂ Vezi:
-CRONICĂ [BOALĂ...] .................................................. 222
-310. CREIER - TICURI ............................................... 222
-311. CREIER [tumoră la...] ........................................ 224
-312. CREVASA CUTANATĂ Vezi: PIELE - RIDURI ...... 225
-313. CRIZĂ CARDIACĂ Vezi: INIMĂ ♥ - INFARCT[... DE
-MIOCARD] ................................................................. 225
-314. CRIZĂ DE FICAT Vezi: INDIGESTIE ................... 225
-315. CROHN [boala lui...] Vezi: INTESTINE - CROHN
-[boala lui...] ............................................................... 225
-316. CRONICĂ [boală cronică...] ................................ 225
-317. CRUP Vezi: GÂT - LARINGITĂ ............................. 226
-318. CRUSTĂ Vezi: PIELE - ECZEMĂ ......................... 226
-
-319. CUADRIPLEGIE Vezi: PARALIZIE [ÎN GENERAL..]226
-320. CULPABILITATE Vezi: ACCIDENT ....................... 226
-321. CUPEROZĂ Vezi: PIELE - ACNEEROZACEE ........ 226
-322. CURBATURA ...................................................... 226
-
-SUPRARENALE ......................................................... 227
-324. CUTICULE Vezi: DEGETE - CUTICULE ............... 228
-325. DALTONIAN Vezi: OCHI - DALTONISM [NON -
-PERCEPȚIA CULORILOR] .......................................... 228
-
-327. DEFICIENȚĂ DE AUZ Vezi: URECHI -SURDITATE
- ................................................................................. 229
-328. DEGETE [în general] .......................................... 229
-329. DEGETE - DEGETUL MARE .............................. 230
-330. DEGETE - DEGETUL ARĂTĂTOR ...................... 233
-331. DEGETE - DEGETUL MIJLOCIU ........................ 234
-332. DEGETE - DEGETUL INELARUL ........................ 235
-333. DEGETE - DEGETUL MIC .................................. 236
-
-GENERAL] ................................................................. 238
-335. DEGETE - CUTICULE ........................................ 238
-336. DEGETE DE LA PICIOARE ................................. 238
-337. DEMENȚA Vezi: ALZEIMER [BOALA LUI...],
-SENILITATE .............................................................. 241
-
-DECALCIFIERE .......................................................... 241
-339. DEPENDENȚĂ Vezi: ALCOOLISM, FUMAT,
-DROGURI .................................................................. 242
-
-340. DEPIGMENTARE Vezi: PIELE - LEUCODERMIE .. 244
-341. DEPOZITE DE CALCIU ...................................... 244
-342. DEPRESIE Vezi: NEURASTENIE ......................... 244
-343. DERMATITĂ Vezi: PIELE - DERMATITĂ .............. 249
-344. DERMATITA SEBOREICĂ Vezi: PIELE - ECZEMĂ 249
-345. DESHIDRATAREA CORPULUI ............................ 249
-346. DESPRINDEREA DINȚILOR Vezi: DINȚI [DURERE
-DE.,.] ......................................................................... 250
-347. DIABET Vezi: SÂNGE - DIABET ......................... 250
-348. DIAFRAGMĂ ...................................................... 250
-349. DIAREE Vezi: INTESTINE - DIAREE ................... 251
-350. DIAREEA CĂLĂTORULUI Vezi: INTESTINE - DIAREE
- ................................................................................. 251
-
-352. DIGESTIE [durere de...] Vezi: INDIGESTIE .......... 252
-353. DINȚI [în general] ............................................... 252
-354. DINTE [abces la rădăcina dintelui...] .................. 254
-355. DINȚI [carie dentară] .......................................... 255
-356. DINȚI [durere de...] ............................................ 257
-357. DINȚI - PROTEZĂ, IMPLANT DENTAR ................ 259
-
-AUTORITARISM, maxilare [DURERE DE...] ................. 260
-359. DINȚI [simbolism al dinților...] ........................... 261
-
-SIMBOLISMUL.... ...................................................... 268
-361. DISC DEPLASAT Vezi: HERNIE DISCALĂ ............ 268
-
-362. DISC INTERVERTEBRAL Vezi: SPATE [DURERE
-DE]... J/LOMBAGO, HERNIE DE DISC ..................... 268
-363. DISCARTROZĂ Vezi: DISC INTERVERTEBRAL .... 269
-364. DISLEXIE .......................................................... 269
-365. DISLOCARE Vezi: OASE - DISLOCARE ............... 271
-366. DISMENOREE Vezi: MENSTRUAȚIE [DURERIDE...]
- ................................................................................. 271
-367. DISTROFIE MUSCULARA Vezi: MUȘCHI -
-DISTROFIE MUSCULARĂ .......................................... 271
-368. DIVERTICULITĂ Vezi: INTESTINE - DIVERTICUUTĂ
- ................................................................................. 271
-369. DIZENTERIE Vezi:
-INTESTINE/DIAREE/DIZENTERIE ............................ 271
-370. DREPTATE [eu am...] ......................................... 271
-
-
-373. DUPUYTREN Vezi: MÂINI - BOALA DVPUYTREN 274
-374. DURERE ............................................................ 274
-375. DURERE CARDIACA Vezi: INIMĂ ♥ - PROBLEME
-CARDIACE ................................................................ 276
-376. ECHILIBRU [pierderea...] SAU AMEȚEALA Vezi:
-CREIER - ECHILIBRU [PIERDEREA ECHILIBRULUI] . 276
-377. ECHIMOZĂ Vezi: PIELE - VÂNĂTĂI ..................... 276
-378. ECLAMPSIE Vezi: SARCINĂ - ECLAMPSIE .......... 276
-379. ECTROPION Vezi: PLEOAPE [ÎN GENERAL...] ..... 276
-380. ECZEMĂ Vezi: PIELE - ECZEMĂ ......................... 276
-381. EDEM ................................................................ 276
-382. EGOCENTRISM ................................................. 278
-
-383. EJACULARE PRECOCE ..................................... 279
-384. EMBOLIE Vezi: SÂNGE - CIRCULAȚIA
-SANGUINĂ/COAGULARE .......................................... 280
-385. EMBOLIE ARTERIALA Vezi: SÂNGE - ARTERE ... 280
-386. EMBOLIE CEREBRALĂ Vezi: CREIER, DURERE
-DE............................................................................. 280
-387. EMBOLIE PULMONARA Vezi: PLĂMÂNI [DURERE
-DE...] ......................................................................... 280
-388. EMISFERA DREAPTĂ SI STÂNGĂ Vezi: CREIER [ÎN
-GENERAL] ................................................................. 280
-389. EMOTIVITATE .................................................... 280
-390. EMPIEM Vezi: ABCES ........................................ 281
-391. ENCEFALITĂ Vezi: CREIER - ENCEFALITĂ ........ 281
-392. i92, ENCEFALOMIELITĂ FIBROMIALGICĂ Vezi:
-OBOSEALA CRONICĂ [SINDROM DE...] .................... 281
-393. ENDOMETRIOZĂ ............................................... 281
-394. ENTERITĂ Vezi: INTESTINE - GASTRO-ENTERITĂ
- ................................................................................. 282
-395. ENTORSĂ Vezi: ARTICULAȚII - ENTORSĂ .......... 282
-396. ENUREZIE Vezi: INCONTINENȚĂ ....................... 282
-397. EPICONDILITĂ Vezi: COATE - EP1CONDIL1TĂ .. 282
-398. EPIDEMIE .......................................................... 282
-399. EPIFIZĂ Vezi: GLANDA PINEALĂ ........................ 283
-
-401. EPILEPSIE Vezi: CREIER - EPILEPSIE ............... 284
-402. EPISTAXIS Vezi: NAS [SÂNGERARE NAZALĂ...] . 284
-403. EPUIZARE Vezi: BURNOUT ................................. 284
-
-404. ERECȚIE - DISFUNCȚII ERECTILE Vezi:
-IMPOTENȚĂ ............................................................... 284
-405. ERITEM SOLAR Vezi: INSOLAȚIE ....................... 284
-
-407. ERUPȚIE [...de coșuri] Vezi: PIELE - ERUPȚIE [... DE
-COȘURI] .................................................................... 285
-408. ESOFAG ............................................................ 285
-
-410. EWING [sarcomul lui...] Vezi: OASE [CANCER DE...] -
-SARCOMJJL LUIEWING ............................................ 287
-411. EXCES DE APETIT Vezi: APETIT [EXCES DE...] .. 287
-412. EXCES DE GREUTATE Vezi: GREUTATE [EXCES
-DE...] ......................................................................... 287
-413. EXCRESCENȚĂ Vezi: POLIPI .............................. 287
-414. EXHIBIȚIONISM ................................................ 287
-415. EXOFTALMIE Vezi: OCHI [DURERE DE...] ......... 288
-
-SÂNGE - HIPOGUCEMIE, TENSIUNE ARTERIALĂ -
-HIPOTENSIUNE [PREA SCĂZUTĂ] ............................. 288
-417. EXTINCȚIA A VOCII Vezi-AFONIE ....................... 289
-418. FALLOPE [trompele lui...] Vezi: SALPINGITĂ ....... 289
-419. FANTA PALATINĂ - GURĂ DE LUP- CONGENITALĂ
- ................................................................................. 289
-420. FANTĂ VULVARĂ Vezi: VULVĂ ........................... 290
-421. FARINGITĂ Vezi: GÂT - FAR1NGITĂ ................... 290
-422. FASCIITĂ NECROZANTĂ Vezi: BACTERIE CARE
-MĂNÂNCĂ DIN CARNE .............................................. 290
-
-NEGRE ...................................................................... 290
-424. FAȚĂ LĂSATĂ, MOALE....................................... 291
-425. FEBLITĂ Vezi: SÂNGE - FEBUTĂ ....................... 292
-
-DE...] ......................................................................... 292
-
-ÎN GENERAL] / [... ORAL] / [...LABIAL] ..................... 293
-428. FEBRA FÂNULUI Vezi: ALERGIE - FEBRA FÂNULUI
- ................................................................................. 293
-
-[PRINCIPIU...] ............................................................ 293
-430. FEMININE [afecțiuni...] ...................................... 294
-431. FEMUR Vezi: PICIOR - PARTEA SUPERIOARĂ ... 295
-432. FERMENTAȚIE Vezi: STOMAC [DURERI DE...] ... 295
-433. FESE ................................................................. 295
-434. FIBRILAȚIE VENTRICULARĂ Vezi: INIMĂ ♥ -
-ARITMIE CARDIACĂ .................................................. 296
-
- ................................................................................. 296
-436. FIBROMATOZĂ Vezi: MUȘCHI - FIBROMATOZĂ 298
-
-[SINDROM DE...] ....................................................... 298
-438. FIBROZĂ CHISTICĂ Vezi: MUCOVISCIDOZĂ ..... 300
-439. FIBROZĂ Vezi: SCLEROZĂ ................................. 300
-440. FICAT [abces la...] .............................................. 300
-441. FICAT - CIROZA [... a ficatului] .......................... 300
-442. FICAT [congestie la...] Vezi: CONGESTIE ............. 302
-
-ICTER ....................................................................... 303
-
-INFLAMAȚIE, ICTER .................................................. 305
-446. FICAT [pietre la...] Vezi: CALCUUBILIARI ........... 307
-447. FISTULĂ ............................................................ 307
-448. FISTULE ANALE Vezi: ANUS - FISTULE ANALE . 308
-449. FISURI ANALE Vezi: ANUS – FISURI ANALE ...... 308
-450. FLATULENȚĂ Vezi: GAZE ................................... 308
-
- ................................................................................. 308
-452. FOLICULITĂ Vezi: PĂR [BOLIDE...] ..................... 310
-
-OSOASĂ] ................................................................... 310
-
-455. FRIG - HIPOTERMIE .......................................... 311
-456. FRIG, FRISON .................................................... 311
-
-458. FRIGURI DE BALTĂ Vezi: MALARIA ................... 313
-459. FRILOZITATE ..................................................... 313
-460. FRUNTE ............................................................. 314
-461. FUMAT Vezi: BUERGER [BOALA LUI...], CANCER
-LA LIMBĂ, DEPENDENȚA PLĂMÂNI .......................... 315
-462. 462. FURIE Vezi: ANEXA III, DURERB, FICAT,
-INFECȚII ................................................................... 317
-463. FURNICĂTURI ................................................... 318
-
-464. FURUNCULI Vezi: PIELE - FURUNCULI ............. 318
-465. FURUNCULI VAGINALI Vezi : PIELE - FURUNCUL
-VAGINAL ................................................................... 319
-466. GAMBE Vezi: PICIOARE -GAMBE-PARTEA
-INFERIOARĂ ............................................................. 319
-
-ADENOPATIE, CANCER AL GANGLIONILOR [...AL
-SISTEMULUI LIMFATICI] LIMFĂ ................................ 319
-468. GASTRITĂ Vezi: STOMAC - GASTRITĂ ............... 321
-469. GASTRO-ENTERITĂ Vezi: INTESTINE - GASTRO-
-ENTERITĂ ................................................................. 321
-470. GÂT [în general, partea exterioară] ..................... 321
-
-- PARTEA DE SUS A SPATELUI, CEAFĂ [ÎNȚEPENIT] 322
-
-TIROIDĂ [în general] .................................................. 323
-
-MUCOASELOR .......................................................... 324
-
-
-RĂCEALĂ .................................................................. 327
-
-LARINGE, RĂGUȘEALĂ ............................................. 328
-
-INFLAMAȚIE.............................................................. 329
-478. GÂT-NOD ÎN GÂT ............................................... 331
-479. GÂT [senzația de a avea ceva în...] ..................... 331
-
-480. GAZE [dureri provocate de ...] SAU FLATULENȚĂ
-
-GENERAL]/[... A ABDOMENULUI] ............................. 331
-481. GEAMĂN Vezi; NAȘTERE [FELUL ÎN CARE A
-DECURS NAȘTEREA MEA...] ..................................... 332
-482. GELINEAU [sindromul lui...] Vezi: NARCOLEPSIE
- ................................................................................. 332
-483. GELOZIE ........................................................... 332
-484. GENITALE [organe...] [în general] ....................... 333
-
-frigiditate, impotență, VENERICE [BOLI...] ................. 334
-
-487. GENUNCHI [afecțiuni ale...] ............................... 336
-488. GENUNCHI - MENISC ........................................ 338
-
-CREIER - TICURI, COMPULSIE NERVOASĂ, OBSESIE
- ................................................................................. 339
-
-GENERAL...], DINȚI [ÎN GENERAL...] ......................... 340
-491. GINGII - GINGIVITĂ ACUTĂ ............................... 341
-
-SÂNGERĂRI ............................................................... 343
-493. GINGIVITĂ Vezi: GINGII – GINGIVITĂ ACUTĂ ..... 343
-494. GLANDE [în general] .......................................... 343
-
-496. GLANDE LACRIMALE Vezi: PLÂNS ..................... 345
-497. GLANDA PANCREATICĂ Vezi: PANCREAS .......... 345
-
-498. GLANDA PINEALĂ SAU CORP PINEAL SAU EPIFIZA
- ................................................................................. 345
-499. GLANDA PITUITARĂ SAU HIPOFIZA .................. 346
-
-501. GLANDE SUBLINGUALE Vezi: GLANDE SALIVARE
- ................................................................................. 350
-
-LUI..., CUSHING [SINDROMUL LUI...], FRICA, STRES
- ................................................................................. 350
-
- ................................................................................. 352
-504. GLANDA TIROIDĂ [în general] ............................ 354
-505. GLANDA TIROIDĂ - BASEDOW [boala a lui ...] SAU
-GUȘA EXOFTALMICĂ ................................................ 356
-506. GLANDA TIROIDĂ - GUȘA ................................. 357
-507. GLANDA TIROIDĂ - GUȘA EXOLFTALMICĂ Vezi:
-GLANDA TIROIDA BASEDOW BOALA A LUI... ........... 358
-508. GLANDA TIROIDĂ - HIPERTIROIDIE .................. 358
-509. GLANDA TIROIDĂ - HIPOTIROIDIE .................... 359
-510. GLANDA TIROIDĂ - TIROIDITĂ .......................... 360
-511. GLAUCOM Vezi: OCHI - GLAUCOM ................... 361
-
-513. GLOB OCULAR Vezi: OCHI [ÎN GENERAL] ......... 363
-514. GLOBULE SANGUINE Vezi: SÂNGE ................... 363
-
-
-DE...] ......................................................................... 364
-
-[AFECȚIUNI ALE...] ................................................... 366
-
-
-FEBRĂ, MUȘCHI, RESPIRAȚIE, REPIRAȚIE [BOLI DE...],
-CAP [DURERE DE...] ................................................. 371
-
-521. GRIPA SPANIOLĂ Vezi: CREIER - ENCEFALITĂ . 374
-
-
-șancru [în general], HERPES [... BUCAL] .................... 375
-524. GURĂ - AFTĂ ..................................................... 377
-525. GURA - HALENĂ [respirație urât mirositoare...] SAU
-
-DE...], NAS [AFECȚIUNI ALE.„] .................................. 379
-526. GURĂ - CERUL GURII, PALAT ........................... 380
-527. GUȘĂ Vezi: GLANDA TIROIDĂ - GUȘĂ ............... 381
-
-NAS ........................................................................... 381
-
-530. H.T.A [hipertensiune arterială] Vezi: tensiune
-arterială - hipertensiune ............................................ 384
-531. HALENĂ Vezi: GURĂ - HALENĂ [RESPIRAȚIE URÂT
-MIROSITOARE] ......................................................... 384
-
-DROGURI .................................................................. 384
-533. HAȘIȘ [consum de...] Vezi: DROGURI ................. 386
-534. HEMATOM Vezi: SÂNGE - HEM ATOM .............. 386
-
-535. HEMATURIE Vezi: SÂNGE - HEMATURIE .......... 386
-536. HEMIPLEGIE Vezi: CREIER - HEMIPLEGIE ....... 386
-537. HEMORAGIE CEREBRALĂ Vezi: CREIER -
-ACCIDENT VASCULAR CEREBRAL [AVC] ................. 386
-
-INTESTINE - CONSTIPAȚIE, SÂNGE /SÂNGERĂRI/
-VARICE, TENSIUNE ARTERIALĂ - HIPERTENSIUNE . 386
-539. HEMORAGIE Vezi: SÂNGE - HEMORAGIE .......... 388
-540. HEPATITĂ Vezi: FICAT - HEPATITĂ ..................... 388
-541. HERNIE ............................................................. 388
-
-LUXAȚIE ................................................................... 390
-543. HEROINĂ [consum de...] Vezi: DROGURI ............ 392
-
-GURĂ ........................................................................ 392
-
-piele - MÂNCĂRIME, VAGIN - VAGINITĂ ..................... 394
-546. HIDROFOBIE Vezi: TURBARE ............................ 395
-547. HIGROMA Vezi: BURSITĂ, GENUNCHI [DURERE
-DE...] ......................................................................... 395
-
-549. HIPERCOLESTEROLEMIE Vez i: SÂNGE -
-COLESTEROL ........................................................... 397
-550. HIPEREMOTIVITATE Vezi: EMOTIVITATE ........... 397
-551. HIPERGLICEMIE Vezi: SÂNGE - DIABET ............ 397
-552. HIPERMETROPIE Vezi: OCHI - HIPERMETROPIE
- ................................................................................. 397
-553. HIPEROREX1E Vezi: BUUMIE ............................ 397
-
-554. HIPERSAUVAȚIE Vezi: SALIVĂ - HIPER ȘI
-HIPOSALIVAȚIE ........................................................ 397
-555. HIPERSOMNIE Vezi: NARCOLEPSIE ................... 397
-556. HIPERTENSIUNE Vezi: T ENSIUNE ARTERIALĂ -
-HIPERTENSIUNE ...................................................... 397
-557. HIPERTERMIE Vezi: FEBRĂ ............................... 397
-558. HIPERTIROIDIE Vezi: GLANDA TIROIDĂ -
-HIPERTIROIDIE ........................................................ 397
-559. HIPERTROFIE .................................................... 397
-
-ACIDOZĂ, ANXIETATE, FEBRĂ ................................... 398
-561. HIPOACUZIE Vezi: URECHI - SURDITATE .......... 399
-
-AGORAFOBIE, ANXIETATE, DEPRESIE .................... 399
-563. HIPOGLICEMIE Vezi: SÂNGE - HIPOGLICEMIE . 399
-564. HIPOFIZĂ Vezi: GLANDA PITUITARĂ . ................ 400
-565. HIPOSALIVAȚIE Vezi: SALIVĂ - HIPER ȘI
-HIPOSAUVAȚIE ......................................................... 400
-566. HIPOTENSIUNE Vezi: TENSIUNE ARTERIALĂ -
-HIPOTENSIUNE ........................................................ 400
-567. HIPOTIROIDIE Vezi: GLANDA TIROIDĂ -
-HIPOTIROIDIE .......................................................... 400
-568. HISTEROPTOZA Vezi: PROLAPS ......................... 400
-
-GANGLIONILOR [... A SISTEMULUI LIMFATIC], SÂNGE -
-LEUCOPENIE ............................................................ 400
-570. HOLERA Vezi: INTESTINE - DIAREE .................. 401
-571. HOMOSEXUALITE ............................................. 401
-
-572. HUNTINGTON Vezi: CREIER – HUNTINGTON
-[BOALA A LUI...] ........................................................ 403
-
-ALE...], SÂNGE/[AFECȚIUNI ALE...] / CIRCULAȚIE
-SANGUINĂ ................................................................ 403
-574. ILEITĂ [BOALA LUI CROHN] Vezi: INTESTINE -
-CROHN [BOALA A LUI..] ............................................ 404
-575. INELAR Vezi: DEGETE - INELAR........................ 404
-
-SÂNGE - HIPOGLICEMIE .......................................... 404
-
- ................................................................................. 405
-
-[AFECȚIUNI ALE...] ..................................................... 408
-579. INCONTINENȚA LA COPII - Vezi: PIPI ÎN PAT ...... 411
-580. INDEX Vezi: DEGETE - INDEX........................... 411
-
-MÂNCARE], DURERE DE BURTĂ, GREAȚĂ,
-SALMONELA ............................................................. 411
-582. INFARCT [ÎN GENERAL] ..................................... 412
-583. INFARCT [cerebral] vezi: creier – accident vasculare
-cerebral [a.v.c] ........................................................... 413
-584. INFARCT [...de miocard] Vezi: INIMĂ ♥ - INFARCT
-[... DE MIOCARD] ...................................................... 413
-
-FEBRĂ, INFLAMAȚIE, SISTEM IMUNITAR ................. 413
-586. INFECȚII URINARE Vezi: URINĂ [INFECȚII
-URINARE] .................................................................. 415
-587. INFECȚII VAGINALE Vezi: VAGIN - VAGINITĂ ..... 415
-
-588. INFECȚII VIRALE Vezi: INFECȚII [ÎN GENERAL] 415
-
-
-591. INIMĂ ♥ - ANGINĂ PECTORALĂ, ANGOR Vezi:
-ANGINĂ PECTORALĂ ................................................. 417
-592. INIMĂ ♥ - ARITMIE CARDIACĂ ........................... 417
-593. INIMĂ ♥ [durere,..] Vezi: greață .......................... 420
-
-[ÎN GENERAL] ............................................................ 420
-595. INIMĂ ♥ - MIOCARDITĂ ..................................... 423
-596. INIMĂ ♥ - PERICARDITĂ .................................... 424
-597. INIMĂ ♥ - PROBLEME CARDIACE ...................... 425
-598. INIMĂ ♥ - TAHICARDIE Vezi: INIMĂ ♥ - ARITMIE
-CARDIACĂ ................................................................ 426
-599. INIMĂ ♥ - TROMBOZĂ CORONARIANĂ .............. 426
-
- ................................................................................. 427
-601. INSOMNIE ......................................................... 428
-602. INSUFICIENȚĂ CARDIACĂ Vezi: INIMĂ ♥
-[PROBLEMECARDIACE] ............................................ 430
-
-COLON/LA INTESTIN/ COLITĂ/ ................................ 430
-604. INTESTINE [cancer la...] Vezi: CANCER LA
-INTESTINE ................................................................. 432
-
-
-INFLAMAȚIE, INTESTINE - COLON ........................... 433
-
-CANCER DE COLON .................................................. 434
-
-COLON ...................................................................... 435
-
-610. INTESTINE - DIAREE ......................................... 439
-611. INTESTINE - DIVERTICULITA ............................ 441
-
-COLICI/DIAREE ........................................................ 441
-
-/ [AFECȚIUNI ALE...] / GASTRITĂ, INTESTIN E -
-DIAREE, GREAȚĂ ..................................................... 442
-
-615. INTESTINE - TENIA ........................................... 445
-
-INTESTINE - COUTĂ ................................................... 446
-617. INTESTIN SUBȚIRE - RECTOCOLITA
-
-618. INTOLERANȚA LA GLUTEN................................ 448
-619. INTOXICAȚIE Vezi: OTRĂVIRE [...PRIN MÂNCARE]
- ................................................................................. 449
-620. ]NTRERUPERE VOLUNTARĂ A SARCINII Vezi:
-NAȘTERE - AVORT ..................................................... 449
-
-NEVROZĂ .................................................................. 449
-622. ÎMBĂTRÂNIRE [afecțiuni legate de..,] ................. 450
-623. ÎMBĂTRÂNIRE PATOLOGICĂ Vezi: SENILITATE . 451
-624. ÎNDOIALA .......................................................... 451
-
-625. ÎNCHEIETURĂ Vezi: ARTICULAȚII ..................... 452
-
-627. ÎNCHEIETURA MÂINII - SINDROMUL DE TUNEL
-CARPIAN ................................................................... 453
-628. ÎNGĂLBENIRE Vezi: ICTER ................................. 454
-629. INERUPERE VOLUNTARĂ A SARCINII Vezi:
-NAȘTERE – AVORT .................................................... 454
-630. K1LLIAN [polip al lui...] Vezi: NAS - KILUAN [POLIP
-AL LUI...] ................................................................... 455
-631. LABII Vezi: VULVĂ ............................................. 456
-632. LABIRINTITĂ Vezi: CREIER - ECHILIBRU
-[PIERDERE...]............................................................ 456
-633. LACRIMI Vezi: PLÂNS ......................................... 456
-634. LARINGE Vezi: GÂT - LARINGE .......................... 456
-635. LARINGITĂ Vezi: GÂT - IARINGITĂ ..................... 456
-636. LARINGE [cancer la...] Vezi: CANCER LA LARINGE
- ................................................................................. 456
-637. LENE ................................................................. 456
-
-PIELE/[ÎN GENERAL]/[AFECȚIUNI ALE...] ................ 456
-639. LESBIANĂ Vezi: HOMOSEXUALITATE ............... 457
-
-CREIER - SINCOPĂ COMĂ .......................................... 457
-641. LEUCEMIE Vezi: SÂNGE - LEUCEMIE ............... 458
-642. LEUCOPENIE Vezi: SÂNGE - LEUCOPENIE ....... 458
-
-MÂNCĂRIME, SALPINGITĂ ........................................ 458
-644. LEZIUNI Vezi: PIELE - LEZIUNI .......................... 459
-
-645. LIGAMENTE Vezi: ARTICULAȚII - ENTORSE ...... 459
-
-647. LIMBĂ [cancer la...] Vezi: CANCER LA LIMBĂ ..... 461
-
-GANGLIONI [... A SISTEMULUI LIMFATIC],
-GANGLION]... LIMFATIC], INFECȚII, INFLAMAȚIE,
-EDEM, SISTEM IMUNITAR ........................................ 461
-649. LIMFATISM ........................................................ 462
-650. LIMFOM Vezi: HODGKIN [BOALA A LUI...] ......... 462
-
-652. LITIAZA BILIARĂ Vezi: CALCULIBILIARI ............ 463
-653. LITIAZA RENALĂ Vezi: CALCULI RENALI ........... 463
-654. LOCOMOȚIE Vezi: SISTEM LOCOMOTOR .......... 463
-655. LOMBAGO Vezi: SPATE [DURERE DE...] - ZONA
-LOMBARĂ ................................................................. 463
-656. LOMBALGIE Vezi: SPATE [DURERE DE...] - ZONA
-LOMBARĂ ................................................................. 463
-657. LORDOZĂ Vezi: COLOANĂ VERTEBRALĂ
-[DEVIAȚIE A...] - LORDOZĂ ....................................... 463
-658. LSD [consum de...] Vezi: DROGURI ..................... 463
-659. LUMBAGO Vezi: SPATE [DURERE DE...] - ZONA
-LOMBARĂ ................................................................. 463
-660. LUPUS Vezi: PIELE - LUPUS .............................. 463
-661. LUPUS ERITEMATOS CRONIC Vezi: PIELE - LUPUS
- ................................................................................. 463
-
-OASE ........................................................................ 464
-663. MALABSORBȚIE INTESTINALĂ Vezi: INTESTINE 465
-
-FEBRA, SÂNGELE ..................................................... 465
-665. MALFORMAȚIE [ÎN GENERAL]...[A INIMII] ......... 465
-666. MALFORMAȚII CONGENITALE .......................... 466
-667. MAMELE Vezi: SÂNI ........................................... 466
-668. MANIACO-DEPRESIE Vezi: PSIHOZĂ ................. 466
-
-670. MARIJUANA [CONSUM DE...] Vezi: DROG .......... 467
-671. MASOCHISM Vezi: SADOMASOCHISM .............. 467
-672. MASTITĂ Vezi: SÂN-MASTITĂ ............................ 467
-
-URECHI-OTITĂ ......................................................... 467
-674. MASTOZĂ Vezi: SÂNI ......................................... 467
-675. MAXILARE ......................................................... 467
-
-PLĂCI ........................................................................ 470
-
-678. MÂINI [ÎN GENERAL] ......................................... 470
-679. MÂINI [ARTROZA MÂINILOR] – Vezi ARTRITĂ .... 472
-
- ................................................................................. 473
-681. MÂNCĂRIME Vezi: PIELE - MÂNCĂRIME ........... 473
-682. MÂNCĂRIME A ANUSULUI Vezi: ANUS -
-MÂNCĂRIME ANALĂ ................................................. 473
-683. MÂNCĂRIME VAGINALĂ Vezi: VAGIN [ÎN GENERAL]
- ................................................................................. 473
-
-
-685. MEDIACALCOZĂ Vezi: ARTERO-SCLEROZĂ ....... 475
-686. MEDICINA ......................................................... 475
-
-PSIHOZĂ, SUICID ..................................................... 475
-688. MELANOM Vezi MELANOM MALIGN .................. 475
-
-AMNEZIE .................................................................. 475
-
-SURDITATE ............................................................... 476
-691. MENINGITĂ Vezi: CREIER-MENINGITĂ .............. 476
-692. MENOPAUZĂ [DIFICULTĂȚI ALE...] ................... 476
-693. MENISC Vezi: GENUNCHI [DUREREDE...] ......... 477
-694. MENSTRUAȚIE-ÂMENOREE .............................. 477
-695. MENSTRUAȚIE [DURERE MENSTRUALĂ] .......... 477
-
-697. MENSTRUAȚIE- SINDROM PREMENSTRUAL [SPM]
-
-698. MESCALINĂ [CONSUM DE...] Vezi: DROG .......... 479
-699. METABOLISM LENT Vezi: GREUTATE [EXCES
-DE...] ......................................................................... 479
-700. METEORISM Vezi: GAZ ...................................... 479
-701. METRORAGIE Vezi: MENSTRUAȚIE - MENORAGIE
- ................................................................................. 479
-702. MIASTENIE Vezi: MUȘCHI - MIASTENIE ............ 479
-703. MICOZĂ pe pielea capului, fire de păr și unghii]
-Vezi: PĂR - MICOZĂ ................................................... 479
-704. MICOZĂ [... la degetele de la picioare] SAU PICIOR
-DE ATLET Vezi: PICIOARE - MICOZĂ .......................... 479
-
-705. MIGRENE Vezi: CAP-MIGRENE .......................... 479
-706. MIJLOCUL SPATELUI Vezi: SPATE ..................... 479
-707. MIOCARDITA Vezi: INIMĂ ♥ - MIOCARDITA ....... 479
-708. MIOM UTERIN Vezi: FIBROM ȘI CHIST .............. 480
-709. MIOPATIE Vezi: MUȘCHI - MIOPATIE ................ 480
-710. MIOPIE Vezi: OCHI - MIOPIE ............................. 480
-711. MIOZITĂ Vezi: MUȘCHI - MIOZITĂ ..................... 480
-712. MIROS Vezi: NAS ............................................... 480
-
- ................................................................................. 480
-714. M.N.I. [MNONUCLEOZAINFECȚIOASĂ] Vezi:
-SÂNGE-MONONUCLEOZĂ .......................................... 481
-
-EUTANASIE ............................................................... 481
-716. MOARTEA SUBITĂ A NOU-NĂSCUTULUI ........... 482
-717. MONGOLISM SAU TRISOMIE 21 SAU SINDROM
-DOWN ....................................................................... 482
-718. MONONUCLEOZA Vezi: SÂNGE –
-MONONUCLEOZĂ INFECȚIOASĂ .............................. 483
-
-PANCREAS, PLĂMÂNI ................................................ 483
-720. MUCOZITĂȚI ALE COLONULUI Vezi: INTESTINE -
-COLITĂ ...................................................................... 483
-721. MUȘCHI [ÎN GENERAL]...................................... 483
-
- ................................................................................. 484
-723. MUȘCHI-DISTROFIE MUSCULARA .................... 484
-724. MUȘCHI - FIBROMATOZĂ ................................. 484
-
-725. MUȘCHI - MIASTENIE ....................................... 485
-726. MUȘCHI - MIOPATIE ......................................... 486
-727. MUȘCHI - MIOZITA ............................................ 487
-
- ................................................................................. 487
-
- ................................................................................. 488
-
-ACROMEGALIE ......................................................... 489
-
-LEȘIN, INSOMNIE, SOMNOLENȚĂ ............................. 490
-
-733. NAS [afecțiuni ale...] ........................................... 493
-734. NAS CARE CURGE IN GÂT ................................ 495
-735. NAS [congestie] Vezi: CONGESTIE ...................... 496
-
-737. NAS [sângerări...] ............................................... 497
-738. NAS - SINUZITĂ ................................................. 497
-739. NAS [strănut] Vezi: STRĂNUT ............................ 499
-740. NAS [sforăit] Vezi: SFORĂIT ............................... 499
-741. NAȘTERE [felul în care s -a petrecut nașterea mea,
-
-742. NAȘTEREA PREMATURĂ ................................... 505
-
-744. NEFRITĂ Vezi: RINICHI - NEFRITĂ ..................... 506
-745. NEFRITĂ CRONICĂ Vezi: BRIGHT [BOALA A LUI...]
- ................................................................................. 507
-
-746. NEFROPATIE Vezi: RINICHI - NEFRITĂ ............... 507
-747. NELINIȘTE ......................................................... 507
-748. NEMULȚUMIRE ................................................. 508
-749. NERVI [în general] .............................................. 508
-
-
-752. NERVI - NEVRITĂ .............................................. 511
-753. NERV OPTIC Vezi: NERVI - NEVRITĂ .................. 511
-
-[AFECȚIUNI ALE...]/ZONA LOMBARĂ, PICIOARE/[ÎN
-GENERAL]/[AFECȚIUNI ALE...] ................................. 511
-755. NERVOZITATE ................................................... 514
-
-OBOSEALĂ [ÎN GENERAL] ........................................ 514
-757. NEUROPATIE Vezi: SISTEM NERVOS ................. 515
-758. NEVOIE [în general] Vezi: DEPENDENȚĂ ............ 515
-759. NEVRALGIE Vezi: NERVI - NEVRALGIE .............. 515
-760. NEVRITĂ Vezi: NERVI - NEVR1TĂ ...................... 515
-
- ................................................................................. 515
-762. NISTAGMUS Vezi: OCHI - NISTAGMUS ............... 516
-763. NODULI ............................................................. 516
-
-765. OASE [în general] ............................................... 518
-766. OASE [afecțiuni ale...] ........................................ 519
-767. OASE - ACROMEGALIE ..................................... 520
-768. OASE [boală a oaselor] Vezi: anexa IV ................ 521
-
- ................................................................................. 521
-770. OASE [cancer la oase...] - SARCOMUL LUI EWING.
-
-771. OASE - DIFORMITATE ....................................... 522
-772. OASE - DISLOCARE .......................................... 523
-
-FRACTURI ALE VERTEBRELOR ................................ 523
-774. OASE - OSTEOMIELITĂ ..................................... 525
-775. OASE - OSTEOPOROZĂ ..................................... 525
-776. OBEZITATE Vezi: GREUTATE [EXCES DE...] ...... 527
-777. OBICEIURI Vezi: DEPENDENȚĂ .......................... 527
-778. OBOSEALĂ [în general] ...................................... 527
-779. OBOSEALĂ CRONICĂ [sindromul de...] SAU
-
-[BOALĂ...], FIBROMIALGIE ....................................... 528
-780. OBRAZ [a-și roade interiorul obrazului...] Vezi:
-GURĂ [AFECȚIUNIALE...] ............................................ 530
-781. OBSESIE ........................................................... 530
-782. OCHI Vezi: OCHI [ÎN GENERAL] ......................... 531
-783. OCHI [ÎN GENERAL] .......................................... 531
-784. OCHI [afecțiuni ale...] ......................................... 534
-785. OCHI [afecțiuni ale copiilor] ............................... 536
-786. OCHI - ASTIGMATISM ....................................... 536
-787. OCHI - CATARACTĂ ........................................... 538
-788. OCHI - CEARCĂNE ............................................ 540
-
- ................................................................................. 540
-
-COMOȚIE................................................................... 541
-791. OCHI - CONJUNCTIVITĂ .................................... 541
-792. OCHI - DALTONISM [non-perceperea culorilor] .. 543
-793. OCHI - DEZLIPIREA DE RETINĂ ........................ 544
-794. OCHI - DEGENERESCENTĂ RETINIANA [maculară]
- ................................................................................. 545
-795. OCHI - GLAUCOM ............................................. 546
-796. OCHI - HIPERMETROPIE ȘI PREZBITISM .......... 547
-797. OCHI-MIOPIE .................................................... 549
-798. OCHI - NISTAGMUS ........................................... 550
-799. OCHI - ORBIRE ................................................. 551
-800. OCHI - PTERIGION ............................................ 553
-801. OCHI - PUPILE ................................................... 553
-802. OCHI - RETINITĂ PIGMENTARĂ SAU RETINOPATIA
-PIGMENTARĂ ............................................................ 554
-803. OCHI - STRABISM [în general] ........................... 555
-804. OCHI - STRABISM CONVERGENT ..................... 556
-805. OCHI - STRABISM DIVERGENT ......................... 557
-806. OCHI USCAȚI Vezi: OCHI [AFECȚIUNI ALE...] ..... 558
-807. OMBILIC [BURIC] .............................................. 558
-
-809. OMOPLAT .......................................................... 560
-810. OMUCIDERE ..................................................... 561
-811. OPIUM [consum de...] Vezi: DROGURI ................ 561
-812. OPRESIUNE ....................................................... 561
-813. OPRESIUNE PULMONARĂ ................................. 562
-
-GENERAL]. BOLIE COPILĂRIEI ................................. 562
-815. ORGANE GENITALE Vezi: GENITALE [ORGANE...]
- ................................................................................. 563
-
-817. ORHITA Vezi: TESTICULE [ÎN GENERAL] ........... 564
-818. OTITĂ Vezi: URECHI - OTITĂ ............................. 564
-819. OTRĂVIRE [...prin alimentație] ........................... 564
-
-[AFECȚIUNI...] ........................................................... 565
-821. OVARE [afecțiuni ale ovarelor...] ........................ 565
-822. PALAT Vezi: GURĂ - PALAT ................................ 567
-823. PALPITAȚII Vezi: INIMĂ ♥ - ARITMIE CARDIACĂ 567
-824. PALUDISM Vezi: MALARIE ................................. 567
-825. PANARIȚIU ........................................................ 567
-
-HIPOGLICEMIE ......................................................... 568
-
-828. PANICĂ [atac de...] Vezi: FRICĂ .......................... 571
-829. PARALIZIE [în general] ....................................... 571
-830. PARALIZIE CEREBRALĂ Vezi: CREIER - PARALIZIE
-CEREBRALĂ ............................................................. 574
-831. PARALIZIE INFANTILĂ Vezi: POLIOMIELITĂ ...... 574
-832. PARANOIA Vezi: PSIHOZĂ - PARANOIA .............. 574
-833. PARKINSON [boala a lui...] Vezi: CREIER –
-PARKINSON [BOALA A LUI...] .................................... 574
-834. PAROTIDE Vezi: GLANDELE SALIVARE ............. 574
-
-835. PARTEA DREAPTĂ Vezi: MASCULIN [PRINCIPIU...]
- ................................................................................. 574
-836. PARTEA STÂNGĂ Vezi: FEMININ [PRINCIPIU...] . 574
-837. PĂR [în general] ................................................. 574
-838. PĂR [boli de...] ................................................... 575
-839. PĂR - CALVIȚIE ................................................. 577
-840. PĂR GRIZONAT .................................................. 579
-841. PĂR - PELADĂ ................................................... 580
-842. PĂR [pierderea...] Vezi: PĂR - CAL VIȚIE ............ 581
-
-[PIERDEREA...] ......................................................... 581
-844. PĂR- PECINGINE Vezi: PĂR [PIERDEREA...] /
-CALVIȚIE / PELADĂ .................................................. 583
-845. PEDICULOZA Vezi: PĂDUCHI ............................ 583
-
- ................................................................................. 583
-847. PELADA Vezi: PĂR - PEIADĂ .............................. 584
-
-849. PENIS [afecțiuni ale...] ....................................... 584
-850. PERETE [ANATOMIC] ......................................... 585
-851. PERICARDITĂ Vezi: INIMĂ ♥ - PERICARDITĂ ..... 586
-
-853. PERONEU Vezi: PICIOR - PARTEA INFERIOARĂ 587
-854. PETE ROȘII Vezi: PIELE [AFECȚIUNI ALE...] ...... 587
-855. PETE DEVIN Vezi: PIELE - PETE DE VIN ........... 587
-856. PICIOARE [în general] ........................................ 587
-857. PICIOARE [afecțiuni ale] .................................... 588
-
-LOCOMOTOR ............................................................. 591
-859. PICIOARE-GAMBE [afecțiuni ale...] .................... 592
-860. PICIOARE - GAMBE - PARTEA INFERIOARĂ
-[PULPA] ..................................................................... 593
-
-862. PICIOARE - VARICE Vezi: SÂNGE - VARICE ...... 596
-863. PICIOR DE ATLET Vezi: PICIOARE - MICOZĂ .... 596
-
-CALOZTTATE ............................................................ 596
-865. PICIOARE - MICOZĂ [ ... Între degetele de la
-
-GENERAL] / [AFECȚIUNI ALE...], SISTEMIMUNITAR .... 598
-
-
-DURILLON ................................................................. 599
-868. PIELE [în general] .............................................. 600
-869. PIELE [afecțiuni ale...] ........................................ 601
-
-NEGRE, FAȚĂ ........................................................... 605
-
-PIELE / COȘURI / PUNCTE NEGRE, FAȚĂ ................. 608
-
-ACRODERMATITĂ ..................................................... 609
-873. PIELE - ACRODERMATITA ................................. 609
-
-
-
-876. PIELE - BĂȘICI .................................................. 611
-
-DURILLON ȘI BĂTĂTURI ........................................... 612
-878. PIELE - CICATRICE ........................................... 614
-
-GENERAL,... BUCAL], PIELE - ACNEE ...................... 614
-880. PIELE - CRĂPĂTURI ........................................... 615
-
-882. PIELE - DERMATITĂ .......................................... 617
-883. PIELE - DERMATITA SEBOREICĂ ...................... 618
-884. PIELE - ECZEMA ............................................... 619
-
-PIELE ........................................................................ 622
-
-MÂNCĂRIME .............................................................. 623
-
-888. PIELE - FURUNCULI VAGINALI ......................... 625
-889. PIELE - SCABIE [RÂIE] ...................................... 625
-890. PIELE - IMPETIGO ............................................. 626
-
-ACROKERATOZĂ, PICIOARE / DURILLON / BĂTĂTURI
- ................................................................................. 627
-
-– ALBINISM / VITILIGO ............................................. 628
-893. PIELE - LIPOM ................................................... 628
-894. PIELE - LUPUS [eritematos cronic] ..................... 629
-
-COȘURI] .................................................................... 630
-
-896. PIELE - MÂNCĂRIME ÎN ZONA ANUSULUI Vezi:
-ANUS - MÂNCĂRIME .................................................. 632
-897. PIELE - MELANOM MALIGN .............................. 632
-898. PIELE - PETE DE VIN, ANGIOM MATUR SAU PLAN
- ................................................................................. 634
-899. PIELE - PSORIAZIS ............................................ 634
-
-
-IMUNITAR ................................................................. 637
-902. PIELE - URTICARIE ........................................... 638
-
-VARICELA ................................................................. 639
-904. PIELE - VÂNĂTĂI ............................................... 640
-905. PIELE - VERGETURI .......................................... 642
-
- ................................................................................. 642
-907. PIELE - VERUCI PLANTARE Vezi: PICIOARE -
-VERUCI PLANTARE ................................................... 644
-908. PIELE - VITILIGO ............................................... 644
-909. PIELEA CAPULUI Vezi: PĂR - PIELE - MÂNCĂRIME,
-MĂTREAȚĂ ................................................................ 646
-910. PIEPT ................................................................. 646
-911. PIEPT [angină la...] Vezi: ANGINĂ PECTORALĂ ... 647
-912. PIERDEREA CUNOȘTINȚEI Vezi: LEȘIN ............. 647
-913. PIERDEREA POFTEI DE MÂNCARE Vezi: POFTĂ
-DE MÂNCARE [PIERDEREA...] .................................. 647
-914. PIETRE LA FICAT Vezi: CALCUUBILIARI ............ 647
-915. PIETRE LA RINICHI Vezi: CALCULI RENALI ....... 647
-
-916. PINEALĂ Vezi: GLANDA PINEALĂ ...................... 647
-917. PIOREE [gingivită expulsivă] Vezi: GINGII
-[AFECȚIUNI ALE...] ................................................... 647
-
-URINARĂ] .................................................................. 647
-919. PIREXIE Vezi: FEBRĂ ........................................ 648
-920. PITUITARĂ Vezi: GLANDA PITUITARĂ ................ 649
-921. PLAGĂ Vezi-ACCIDENT ...................................... 649
-
-
-BRONȘII - bronșita SCLEROZĂ ................................. 649
-924. PLĂMÂNI - BOALA LEGIONARILOR ................... 651
-925. PLĂMÂNI [cancer la...] Vezi: CANCER LA PLĂMÂNI
- ................................................................................. 652
-926. PLĂMÂNI - CONGESTIE Vezi: CONGESTIE ......... 652
-927. PLĂMÂNI - EMFIZEM PULMONAR ..................... 652
-928. PLĂMÂNI - PNEUMONIE SI PLEUREZIE ............ 653
-929. PLÂNS ............................................................... 655
-
-931. PLEOAPE [clipit al...] .......................................... 658
-932. PLEUREZIE Vezi: PLĂMÂNI - PNEUMONIE
-SIPLEUREZIE ............................................................ 658
-933. PLEURITĂ Vezi: PLĂMÂNI -
-PNEUMONIESIPLEUREZIE ........................................ 658
-
-935. PLOMBĂ Vezi: DINȚI - CARIE DENTARĂ ............ 659
-936. PNEUMONIE Vezi: PLĂMÂNI - PNEUMONIE SI
-PLEUREZIE ............................................................... 659
-
-937. PNEUMOPATIE Vezi: CONGESTIE ..................... 659
-938. POINT DE COTE SAU DURERE IRADIANTĂ ....... 659
-939. POLIARTRITA CRONICĂ EVOLUTIVĂ Vezi: ARTRITA
-POLIARTRITA REUMATOIDĂ ..................................... 660
-940. POLIOMIELITA ................................................... 660
-941. POLIOREXIE Vezi: BULIMIE .............................. 661
-942. POLIPI ............................................................... 661
-943. PRESIUNE ARTERIALĂ SAU SANGUINĂ Vezi:
-TENSIUNE ARTERIALĂ .............................................. 661
-944. PREZBITISM Vezi: OCHI - HIPERMETROPIE SI
-PREZBITISM ............................................................. 662
-
-946. PROBLEME CARDIACE Vezi: INIMĂ ♥ - PROBLEME
-CARDIACE ................................................................ 662
-947. PROBLEME LEGATE DE PALPITAȚII Vezi: INIMĂ ♥ -
-ARITMIE CARDIACĂ .................................................. 662
-
-PROSTATĂ [COBORÂRE DE...] .................................... 662
-949. PROSTATA [în general] ....................................... 663
-950. PROSTATA [afecțiuni ale...] ................................ 663
-
-
-INFECȚIE, INFLAMAȚIE ............................................ 666
-953. PRURIT Vezi: PIELE - MÂNCĂRIME .................... 667
-954. PSIHOSOMATICĂ [boală...] Vezi: BOALĂ
-PSIHOSOMATICĂ ....................................................... 667
-955. PSIHOZĂ [în general] ......................................... 667
-956. PSIHOZA - PARANOIA ........................................ 669
-
-957. PSIHOZĂ - SCHIZOFRENIE................................ 670
-958. PSORIASIS Vezi: PIELE - PSORIASIS ................. 672
-959. PUBIANĂ [pilozitate] ........................................... 672
-
-FRACTURI [...OSOASE], TENDOANE ......................... 673
-961. PULS [anomalii ale...] Vezi: INIMĂ ♥ ARITMIE
-CARDIACĂ ................................................................ 674
-962. PUNCTE NEGRE Vezi: PIELE - PUNCTE NEGRE 674
-963. RAHITISM .......................................................... 675
-964. RANĂ Vezi: ACCIDENT, TĂIETURĂ .................... 675
-965. RANCHIUNĂ ...................................................... 675
-
-CIRCULAȚIE SANGUINĂ ........................................... 676
-
-FÂNULUI ................................................................... 677
-
-969. RĂGUȘEALĂ Vezi: GÂT - RĂGUȘEALĂ ............... 680
-970. RĂU DE AER Vezi: RĂU DE MARE ...................... 680
-971. RĂU DE ALTITUDINE Vezi RĂU DE MUNTE ........ 680
-972. RĂU DE CAP Vezi CAP ....................................... 680
-973. RĂU DE CĂLĂTORIE Vezi: RĂU DE TRANSPORT 680
-974. RĂU DE GÂT Vezi: GÂT- FARINGITA ................... 680
-975. RĂU DE INIMĂ Vezi GREȚURI ............................ 680
-
-GREȚURI, AMEȚELI .................................................. 680
-
-978. RĂU DE MAȘINĂ Vezi: RĂU DE MARE ............... 682
-
-MARE, GREȚURI, AMEȚELI ...................................... 682
-980. RĂU DE SPATE Vezi: SPATE ÎN GENERAL .......... 683
-
-
-983. RÂGÂIT, ERUCTAȚIE Vezi: ERUCTAȚIE .............. 684
-984. RECT Vezi: INTESTINE - RECT ........................... 684
-985. REGRETE .......................................................... 684
-986. RESPIRAȚIE [în general] .................................... 684
-987. RESPIRAȚIE [afecțiuni de...] Vezi: ASTM, GÂT
-[AFECȚIUNI ALE...], MOARTE SUBITĂ A NOU -
-NĂSCUTULUI PLĂMÂNI [AFECȚIUNI ALE...] .............. 685
-
-[AFECȚIUNI DE...] ..................................................... 686
-989. RESPIRAȚIE - SUFOCARE ................................. 687
-990. RESPIRAȚIE - TRAHEITĂ ................................... 688
-
-992. RETINITĂ PIGMENTARĂ Vezi: OCHI - RETINITĂ
-PIGMENTARĂ ............................................................ 689
-993. RETINOPATIE PIGMENTARĂ Vezi: OCHI - RETINITĂ
-PIGMENTARĂ ............................................................ 689
-994. RETRAGEREA ÎN SINE ...................................... 689
-
-REUMATOIDĂ, ARTICULAȚII, INFLAMAȚII ................ 689
-996. RIDURI .............................................................. 691
-997. RIGIDITATE [... articulară,... musculară] ........... 692
-
-general]/renali, frică .................................................. 693
-
-RENALE] ................................................................... 696
-
-FRICĂ ....................................................................... 697
-1001. RINICHI - PIETRE LA RINICHI Vezi: CALCULI
-RENALI ...................................................................... 698
-1002. RINICHI [durere în zona...] [lumbago] Vezi: spate /
-[dureri de...] / zona INFERIOARĂ ............................... 698
-1003. RINITA Vezi: RĂCEALĂ [...CREIER] ................... 698
-1004. RINOFARINGITĂ Vezi: GÂT - FARINGITĂ .......... 698
-1005. RITM CARDIAC [tulburări de...] Vezi-.INIMĂ -
-aritmie cardiacă ......................................................... 698
-1006. ROȘEAȚĂ Vezi: PIELE [AFECȚIUNI ALE...] ....... 698
-1007. ROTULĂ ........................................................... 698
-1008. RUBEOLĂ Vezi: BOLILE COPILĂRIEI ................ 698
-1009. RUJEOLĂ Vezi: BOLILE COPILĂRIEI ................ 698
-1010. SARCOIDOZA .................................................. 698
-1011. SARCOMUL LUI EWING Vezi: OASE [CANCER
-DE...] - SARCOMULLUIEWÎNG .................................. 699
-1012. SACRU [OS] Vezi: SPATE - PARTEA INFERIOARĂ
- ................................................................................. 699
-1013. SADISM Vezi: SADOMASOCHISM .................... 699
-1014. SADOMASOCHISM .......................................... 699
-
-OREION .................................................................... 701
-
- ................................................................................. 701
-
-OTRĂVIRE [...PRIN MÂNCARE], INDIGESTIE, INFECȚII
-[ÎN GENERAL], INTESTINE - DIAREE, GREȚURI ....... 702
-
-FEMININE [AFECȚIUNI...], INFECȚII [ÎN GENERAL] .. 703
-
-GREȚURI, SÂNGE - DIABET ...................................... 704
-1020. SARCINA [... prelungită] ................................... 705
-
-EPILEPSIE, TENSIUNE ARTERIALĂ - HIPERTENSIUNE
- ................................................................................. 706
-1022. SARCINA ECTOPICĂ SAU EXTRAUTERINĂ ...... 707
-1023. SARCINA Vezi: NAȘTERE - AVORT ................... 707
-1024. SARCINA FALSĂ .............................................. 707
-1025. SÂNGE [în general] ........................................... 708
-
-/ LEUCEMIE ............................................................. 710
-
-SANGUINĂ / LEUCEMIE ........................................... 711
-1028. SÂNGE - ARTERE ............................................ 712
-
-INFECȚII ................................................................... 714
-
-♥, RA YNAUD [BOALA A LUI...] .................................. 715
-1031. SÂNGE COAGULAT [... În vene sau în artere],
-
-
-GENERAL]/ CIRCULAȚIA SÂNGELUI ........................ 718
-
-EREDITARE, SÂNGE - HIPOGLICEMIE ..................... 720
-
- ................................................................................. 725
-1035. SÂNGE - FEBLITA ............................................ 725
-
-[ÎN GENERAL] / CIRCULAȚIA, SANGUINĂ ................. 727
-
-/ [AFECȚIUNI ALE...] / CISTITĂ, URINĂ [INFECȚII
-URINARE] .................................................................. 727
-
-SÂNGE/[ÎN GENERAL]/[AFECȚIUNI
-ALE...]/CIRCULAȚIE SANGUINĂ/DIABET ................. 728
-1039. SÂNGE - HEMORAGIE ..................................... 729
-
-GENERAL], CREIER - ECHILIBRU [PIERDERE DE...],
-SÂNGE - DIABET ...................................................... 731
-
-GENERAL], SÂNGE / ANEMIE / CIRCULAȚIE
-SANGUINĂ ................................................................ 733
-1042. SÂNGE - LEUCOPENIE .................................... 735
-
-ANGINĂ, OBOSEALĂ, INFECȚII [în general], SPLINĂ,
-CAP [DURERI DE...] .................................................. 735
-1044. SÂNGE - PLACHETE SANGUINE, TROMBOCITE
-
-1045. SÂNGE - SÂNGERARI ...................................... 737
-1046. SÂNGE - SEPTICEMIE ..................................... 738
-
-ȚIE SANGUINĂ / COAGULARE ................................. 738
-
-1048. 1048. SÂNGE - VARICE ................................... 739
-1049. SÂNGERĂRI Vezi: SÂNGE - SÂNGERĂRI .......... 741
-1050. SÂNGERĂRI NAZALE Vezi: NAS [SÂNGERĂRI...]
- ................................................................................. 741
-1051. SÂNGERĂRI GINGIVALE Vezi: GINGII
-[SÂNGERĂRI ALE...] .................................................. 741
-1052. SÂNI [în general] .............................................. 741
-
-cancer la sân, sân – mastită. ..................................... 742
-
-MASTITĂ ................................................................... 744
-1055. SÂNI [cancer la...] Vezi: CANCER LA SÂN ......... 745
-1056. SÂNI - MASTITĂ ............................................... 745
-1057. SCABIE, RÂIE Vezi: PIELE - SCABIE SAU RÂIE 746
-1058. SCARLATINĂ Vezi: BOLILE COPILĂRIEI ........... 746
-1059. SCHELET Vezi: OASE ....................................... 746
-1060. SCHIZOFRENIE Vezi: PSIHOZĂ - SCHIZOFRENIE
- ................................................................................. 746
-1061. SCIATIC [nervul...] Vezi: NERVUL SCIATIC ........ 746
-1062. SCLERODERMIE Vezi: PIELE - SCLERODERMIE
- ................................................................................. 746
-
-SISTEMIMUNITAR ..................................................... 746
-1064. SCLEROZA ÎN PLĂCI ........................................ 747
-1065. SCLEROZA - LATERALĂ AMIOTROFICĂ Vezi:
-CHARCOT [BOALA LUI...] ........................................... 751
-1066. SCOLIOZA Vezi: COLOANA VERTEBRALĂ
-[DEVIERI ALE...] - SCOLIOZA .................................... 751
-
-1067. SCRÂȘNIT DIN DINȚI Vezi: DINȚI [SCRÂȘNIT
-DIN...], MAXILARE [DURERE DE...] ........................... 751
-1068. SCRUPULE ...................................................... 751
-1069. SCURGERI VAGINALE Vezi: LEUCOREE .......... 751
-1070. SENECTUTE Vezi: BĂTRÂNEȚE [AFECȚIUNIDE...]
- ................................................................................. 751
-1071. SENILITATE ..................................................... 751
-1072. SEPTICEMIE Vezi: SÂNGE - SEPTICEMIE ......... 752
-
-RENALE], SÂNGE - DIABET ...................................... 752
-1074. SEXUALE [DEVIAȚII ȘI PERVERSIUNI ÎN
-GENERAL] ................................................................. 753
-
-1076. SEXUALĂ [HĂRȚUIRE...] .................................. 754
-1077. SFORĂIT .......................................................... 755
-1078. SIDA [SINDROMUL IMUNODEFICIENȚEI
-DOBÂNDITE] ............................................................. 756
-1079. SIFILIS Vezi; VENERICE [BOU..,] ...................... 759
-1080. SINCOPĂ Vezi; CREIER - SINCOPĂ ................... 759
-1081. SINDROMUL BĂUTORILOR DE LAPTE Vezi:
-BĂUTORI DE LAPTE [SINDROMUL...] ........................ 759
-1082. SINDROMUL LUI BURNETT Vezi: BĂUTORI DE
-LAPTE [SINDROMUL...] ............................................. 759
-1083. SINDROMUL CANALULUI CARPIAN Vezi: crampa
-scriitorului ................................................................. 759
-1084. SINDROMUL LUI CUSHING Vezi:
-CUSHING[SINDROMUL LUI...] ................................... 759
-
-1085. SINDROMUL DOWN Vezi-MONGOLISM ............ 759
-1086. SINDROMUL LUI GELINEAU Vezi. NARCOLEPSIE
- ................................................................................. 759
-1087. SINDROMUL LUI GUILAIN -BARRE SAU
-
-IMUNITAR .................................................................. 759
-1088. SINDROMUL IMUNODEFICIENȚEI DOBÂNDITE
-Vezi: SIDA ................................................................. 760
-1089. SINDRMUL MARFAN ........................................ 760
-1090. SINDROMUL DE OBOSEALĂ CRONICĂ Vezi:
-OBOSEALĂ CRONICĂ [SINDROM DE...] .................... 761
-1091. SINDROMUL PREMENSȚRUAL Vezi: MENSTRUAȚIE
-- SINDROM PREMENSTRUAL .................................... 761
-1092. SINDROM RESPIRATOR ACUT SEVER [S.RAS.]
-
-PNEUMONIE, RESPIRAȚIE .......................................... 761
-
-[AFECȚIUNI ALE...], INFLAMAȚII, TENDOANE .......... 761
-1094. SINDROMUL UNGHIILOR GALBENE Vezi: UNGHII
-GALBENE [SINDROMAL...] ........................................ 762
-1095. SINDROMUL DE TUNEL CARPIAN Vezi:
-ÎNCHEIETURA MÂINII - SINDROMUL DE TUNEL
-CARPIAN ................................................................... 762
-
-MELANCOLIE ............................................................ 762
-
-ALE...] / PARTEA INFERIOARĂ A SPATELUI, INFECȚII
-[ÎN GENERAL] ........................................................... 763
-1098. SINUZITĂ Vezi: NAS - SINUZITĂ ....................... 764
-
-
- ................................................................................. 767
-
- ................................................................................. 768
-
-NERVOASĂ ............................................................... 768
-1104. SLĂBIREA Vezi:, și: ANOREXIE, EXCES DE
-GREUTATE] ............................................................... 769
-1105. SOMN [BOALA SOMNULUI...] Vezi: NARCOLEPSIE
- ................................................................................. 770
-1106. SOMN [TULBURĂRI DE...] Vezi: INSOMNIE....... 770
-1107. SOMNAMBULISM [SOMNAMBUL] .................... 770
-1108. SOMNOLENȚA ................................................. 771
-1109. SPASM ............................................................. 772
-
-1111. SPATE [în general] ........................................... 773
-1112. SPATE [durere...] - PARTEA SUPERIOARĂ [7
-vertebre cervicale] ...................................................... 775
-1113. SPATE [durere de...] - MIJLOCUL SPATELUI [12
-vertebre dorsale] ........................................................ 785
-1114. SPATE [dureri de...] - ZONA LOMBARĂ ............ 797
-
-OASE - FRACTURĂ .................................................... 809
-1116. SPLINA ............................................................. 809
-1117. S.P.M. [sindrom premenstrual] Vezi- menstruație –
-sindrom PREMENSTRUAL ......................................... 811
-
-1118. S.RAS. Vezi: SINDROM RESPIRATOR ACUT
-SEVER ...................................................................... 811
-1119. STARE DE RĂU ................................................ 811
-1120. STARE VEGETATIVĂ CRONICĂ Vezi: CREIER -
-STARE VEGETATIVĂ CRONICĂ ................................. 812
-1121. STÂNGACI ....................................................... 812
-1122. STERILITATEA ................................................. 813
-1123. STERN ............................................................. 815
-1124. STRABISM Vezi: OCHI - STRABISM ................. 816
-1125. STRES ............................................................. 816
-1126. STOMAC [în general] ........................................ 817
-
-LA STOMAC .............................................................. 817
-1128. STOMAC - AEROFAGIE .................................... 820
-1129. STOMAC [cancer la...] Vezi: CANCER LA STOMAC
- ................................................................................. 820
-1130. STOMAC - ARSURI LA STOMAC ....................... 820
-
-1132. STRĂNUT ......................................................... 822
-1133. SUBLINGUALE [glande...] Vezi: GLANDE SALIVARE
- ................................................................................. 823
-1134. SUFOCARE Vezi: RESPIRAȚIE - SUFOCARE ..... 823
-1135. SUGHIȚ ........................................................... 823
-1136. SUPĂRARE Vezi: MELANCOLIE ........................ 824
-1137. SUPRAPONDERAL Vezi: GREUTATE [EXCES
-DE...] ......................................................................... 824
-1138. SUPRAOXIGENARE Vezi: HIPERVENTILAȚIE ... 824
-
-1139. SUPRARENALE Vezi: GLANDE.......................... 824
-1140. SUPTUL DEGETULUI ....................................... 824
-1141. SURDITATE Vezi: URECHI - SURDITATE ......... 825
-
-1143. ȘALAZION Vezi: PLEOAPE ................................ 826
-1144. ȘANCRU [în general] Vezi: ulcer [ÎN GENERAL] . 827
-1145. ȘANCRU - ULCER BUCAL [herpes] Vezi: GURĂ
-[DURERE DE...] .......................................................... 827
-
-1147. ȘOLDURI [dureri de...] ..................................... 828
-1148. TABAGISM Vezi: FUMAT .................................. 830
-1149. TAHICARDIE Vezi: INIMĂ ♥ - ARITMIE CARDIACĂ
- ................................................................................. 830
-1150. TALAMUS ........................................................ 830
-1151. TARTRU Vezi: DINȚI [AFCTIUNI ALE...] ............ 831
-1152. TĂIETURĂ Vezi: ACCIDENT ............................. 831
-1153. TENDINITĂ Vezi: TENDON [ÎN GENERAL] ........ 832
-1154. TENDON [în general] ........................................ 832
-1155. TENDONUL LUI AHILE .................................... 834
-1156. TENIA Vezi: INTESTINE - TENIA ....................... 835
-1157. TENIS ELBOW Vezi: COATE - EPICONDILITĂ .. 835
-1158. TENSIUNE ARTERIALA - HIPERTENSIUNE ...... 835
-1159. TENSIUNE ARTERIALĂ - HIPOTENSIUNE ........ 837
-
-ALE...] ....................................................................... 838
-1161. TESTICULE [cancer de...] Vezi: CANCER DE
-TESTICULE ................................................................ 840
-
-1162. TETANIE .......................................................... 840
-1163. TETANOS Vezi: MUȘCHI - TETANOS ................ 841
-1164. TETRAPLEGIE Vezi: PARALIZIE [ÎN GENERAL] 841
-1165. TIBIA Vezi: PICIOARE - PARTEA INFERIOARĂ .. 841
-1166. TICURI Vezi: CREIER - TICURI ......................... 841
-1167. TIMIDITATE ..................................................... 841
-1168. TIMPANISM ...................................................... 841
-1169. TIMUS Vezi: GLANDA - TIMUS .......................... 842
-1170. TIROIDĂ Vezi: GLANDA TIROIDĂ ÎN GENERAL . 842
-1171. TOROPEALĂ Vezi: AMORȚEALĂ ....................... 842
-1172. TORSIUNE DE TESTICULE Vezi: TESTICULE [ÎN
-GENERAL] ................................................................. 842
-1173. TORTICOLIS Vezi: GÂT - TORTICOUS ............... 842
-
-COMPULSIE NERVOASĂ, DEPENDANȚĂ, DROGURI,
-PLĂMÂNI [ÎN GENERAL] ............................................ 842
-1175. TRAHEITĂ Vezi: RESPIRAȚIE - TRAHEITĂ ........ 843
-1176. TRAHEOBRONȘITĂ Vezi: BRONȘITĂ, RESPIRAȚIE -
-TRAHEITĂ ................................................................. 843
-1177. TRANSPIRAȚIE Vezi: MIROS CORPORAL .......... 843
-
- ................................................................................. 843
-1179. TRISMUS Vezi: MUȘCHI - TRISMUS .................. 844
-1180. TRISOMIE 21 Vezi: MONGOLISM ...................... 844
-
-SÂNGE / COLESTEROL / DIABET / HIPOGUCEMIE 844
-1182. TROMBOANGEITA OBLITERANTĂ Vezi: BUERGER
-[BOALA LUI...] ........................................................... 845
-
-1183. TROMBOZA Vezi: SÂNGE - TROMBOZA ............ 845
-1184. TROMBOZA CORONARIANĂ Vezi: INIMĂ ♥ -
-TROMBOZA CORONARIANĂ ...................................... 845
-1185. TROMPĂ UTERINĂ [INFECȚIAUNEI...] Vezi:
-LSALPINGITĂ ............................................................. 845
-
-ALE...] ....................................................................... 845
-
-GENERAL...] .............................................................. 847
-1188. TUMORĂ LA CREIER Vezi: CREIER [TUMORĂ...]
- ................................................................................. 848
-1189. TUMORĂ MALIGNĂ Vezi: CANCER [ÎN GENERAL...]
- ................................................................................. 848
-1190. TURBARE ........................................................ 848
-
-DE...] ......................................................................... 849
-1192. TUSE CONVULSIVĂ Vezi: BOLILE COPILĂRIEI 850
-1193. ȚESUT CONJUNCTIV [fragilitate a...] ............... 850
-
-1195. ULCER[E] [în general] ...................................... 851
-1196. ULCER BUCAL [herpes] SAU ȘANCRU Vezi: GURĂ
-[AFECȚIUNI ALE...] ..................................................... 852
-1197. ULCER PEPTIC SAU GASTRIC [la duoden sau
-stomac] ..................................................................... 852
-
-1199. UMERII CURBAȚI ............................................ 856
-1200. UMFLARE [în general] ...................................... 857
-1201. UMFLAREA [... abdomenului] ........................... 858
-
-1202. UNGHII [în general] .......................................... 858
-1203. UNGHII [a-și roade unghiile...] ......................... 860
-1204. UNGHIE ÎNCARNATĂ ....................................... 861
-1205. UNGHII ÎNGĂLBENITE [sindrom al...] .............. 862
-1206. UNGHII MOI ȘI CASANTE ................................ 862
-1207. URĂ ................................................................. 863
-
- ................................................................................. 864
-
-urechi/acufena/bâzâit în URECHI /otită .................. 865
-
-BÂZÂITÎN URECHI .................................................... 867
-
-ACUFENĂ .................................................................. 870
-1212. URECHI - OTITĂ .............................................. 870
-1213. URECHI - SURDITATE ..................................... 872
-
- ................................................................................. 874
-
-
-INCONTINENȚĂ URINARĂ], INFECȚII [ÎN GE NERAL],
-LEUCOREE, VAGIN - VAGINITĂ, VEZICĂ
-[AFECȚIUNIALE...] .................................................... 875
-1217. URTICARIE Vezi: PIELE - URTICARIE ............... 877
-1218. USCĂCIUNE VAGINALĂ Vezi: VAGIN [ÎN GENERAL]
- ................................................................................. 877
-
-UTERIN, FEMININE [AFECȚIUNI... ], PROLAPS ......... 877
-
-1220. UTER [CANCER DE COL UTERIN...] Vezi: CANCER
-LA UTER [COL ȘI CORP] ............................................. 879
-1221. VAGIN [în general] ............................................ 879
-1222. VAGIN - MÂNCĂRIMIVAGINALE Vezi: MÂNCĂRIMI
-VAGINALE ................................................................. 880
-1223. VAGINAL - HERPES Vezi: HERPES VAGIN AL ... 880
-1224. VAGINALE [scurgeri...] Vezi: LEUCOBEE .......... 880
-1225. VAGINALE [spasme...] Vezi: SPASME ................ 880
-
-[INFECȚII URINARE] ................................................. 880
-1227. VARICELA Vezi: BOLILE COPILĂRIEI ............... 881
-1228. VARICE Vezi: SÂNGE - VARICE ....................... 881
-1229. VARICOCEL Vezi: TESTICULE [ÎN GENERAL...] 881
-1230. VĂRSĂTURI Vezi: GREAȚĂ ............................... 881
-1231. VÂNĂTAIE Vezi: PIELE - VÂNĂTAIE ................. 881
-1232. VEGETATIVĂ CRONICĂ [stare...] Vezi: STARE
-VEGETATIVĂ CRONICĂ ............................................. 881
-1233. VEGETAȚII ADENOIDE [POLIPI] Vezi: AMIGDALE
- ................................................................................. 881
-
-CIRCULAȚIA SANGUINĂ ............................................ 882
-1235. VENE - VARICE Vezi: SÂNGE - VARICE ........... 883
-
-GENERAL] / GENITAL ............................................... 883
-1237. VERGETURI Vezi: PIELE - VERGETURI ............ 885
-1238. VERTEBRE [fractură de...] Vezi: SPATE -
-FRACTURĂ DE VERTEBRE ......................................... 885
-
-HIPOGLICEMIE, CREIER – ECHILIBRU [PIERDEREA...]
- ................................................................................. 885
-1240. VERUCI [în general] Vezi: PIELE – VERUCI
-[ÎNGENERAL] ............................................................ 887
-1241. VERUCI PLANTARE Vezi: PICIOARE - VERUCI
-PLANTARE ................................................................ 887
-
-GENERAL, INFECȚII ÎN GENERAL, URINĂ [INFE CȚII
-URINARE] .................................................................. 887
-
-FICAT [AFECȚIUNI ALE...] ......................................... 890
-
-1245. VIERMI, PARAZIȚI Vezi: PĂR - TEN, INTESTINE -
-COLON / TENIA, PICIOARE - MICOZĂ ...................... 892
-1246. VITILIGO Vezi: PIELE - VITILIGO ..................... 892
-
-1248. VOCE [stinsă...] Vezi: AFONIE .......................... 895
-1249. VOCE - RĂGUȘEALĂ........................................ 895
-
-
-ANEXA 1 ................................................................... 898
-ANEXA 2 ................................................................... 900
-Anexa 3 ..................................................................... 902
-ANEXA 4 ................................................................... 903

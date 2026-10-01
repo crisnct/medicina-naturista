@@ -1,6 +1,4 @@
-Tratament naturist pentru transpirația abundentă a palmelor,
-
-pe fond emoțional
+# Tratament naturist pentru transpirația abundentă a palmelor, pe fond emoțional
 
 - Infuzie de lavandă și mușețel: câte o lingură din fiecare la o cană de apă. Se bea o cană pe zi, seara înainte de culcare. Este bine ca lavanda să fie cât mai aromată.
 
@@ -22,25 +20,3 @@ Cum se prepara decoctul
 
 Se pune apa la fiert împreună cu plantele, iar după ce a dat în clocot, se mai ține pe foc timp de 10-20 minute. Se strecoară și se poate consuma.
 
-## Antet 1
-
-## Descrieri alternative ale imaginilor
-
-## Imagini și OCR
-
-### Imagine 1 image1.jpeg
-
-- Dimensiune: 230 × 144 px
-- SHA-256: `3339846450b01f6782a24956b51cb90d3545b4d35de6461b0fb0739d8e079699`
-
-_OCR-ul local nu a recuperat text suficient de fiabil din această imagine._
-
-### Imagine 2 image2.jpeg
-
-- Dimensiune: 132 × 90 px
-- SHA-256: `46f57fd62444c2244a4deb93921dc7d537cc81dbc3f16c78e4b5ef9bfd4fa15c`
-- OCR Tesseract eng încredere medie: 86.9%
-
-```text
-Herbs House
-```

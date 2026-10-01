@@ -1,3 +1,5 @@
+# Recomandari naturiste pentru cancer
+
 Modalități de tratare a cancerului,
 leucemiei și a altor boli aparent incurabile
 
@@ -5,952 +7,10 @@ de
 
 Rudolf Breuss
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 © 1999, Editura ANANDAKALI
 OP CP.88 – 2400, SIBIU
 
-2
-
-CUPRINS
-
-CUVÂNT ÎNAINTE....................................................................................................................................... 5
-MĂRTURII .................................................................................................................................................. 6
-Tratamentul modificat al lui Breuss prin post împotriva cancerului. ................................................................. 18
-POATE FI VINDECAT CANCERUL?............................................................................................. 20
-Cele mai frecvente cauze ale cancerului ............................................................................................ 20
-Sfaturi ................................................................................................................................................. 21
-Ce este o tumoare canceroasă?........................................................................................................... 21
-Vindecarea cancerului ........................................................................................................................ 21
-Aceasta este o operație fără cuțit!....................................................................................................... 23
-Câteva exemple .................................................................................................................................. 23
-TRATAMENTUL TOTAL AL CANCERULUI ................................................................................................. 24
-Ceaiuri importante pentru Tratamentul Total al Cancerului ............................................................................ 25
-1. Ceai de salvie (Salvia officinalis)................................................................................................... 25
-Prepararea ceaiului Breuss ................................................................................................................. 25
-2. Ceai pentru rinichi. Combinația de ceaiuri Breuss:........................................................................ 25
-Ceaiul pentru rinichi trebuie să fie luat doar trei săptămâni............................................................... 26
-Indicații importante și explicații......................................................................................................... 26
-Cum să urmați corect Tratamentul Total al Cancerului ..................................................................... 26
-IMPORTANT:.................................................................................................................................... 27
-Ceaiuri pentru diferite forme de cancer.............................................................................................. 27
-Tumoare la creier................................................................................................................................ 27
-Cancer la ochi..................................................................................................................................... 27
-Cancer la sân, ovar sau uter................................................................................................................ 27
-Cancer la palat, buze, limbă, glandele gâtului și laringe.................................................................... 28
-Cancer la piele .................................................................................................................................... 28
-Cancer la oase, plămâni sau tuberculoză............................................................................................ 28
-Cancer la ficat..................................................................................................................................... 28
-Instrucțiuni: ........................................................................................................................................ 28
-Cancer la stomac................................................................................................................................. 29
-Cancer la splină sau pancreas............................................................................................................. 29
-Constipație.......................................................................................................................................... 29
-BINE DE ȘTIUT:............................................................................................................................... 29
-Informații interesante în Tratamentul Total al Cancerului ............................................................................... 30
-Tratamentul Total al Cancerului este recomandat și pentru alte boli, diferite de cancer .................................... 31
-Explicarea Tratamentului Total al Cancerului................................................................................................ 32
-Sfaturi speciale pentru cura cu sucuri de legume ............................................................................... 33
-Faceți multe exerciții și inspirați aer proaspăt!.................................................................... 33
-IMPORTANT:.................................................................................................................................... 33
-Câteva aspecte importante privind tratamentul cu suc de legume Breuss ....................................................... 33
-Informații suplimentare importante.................................................................................................... 34
-Pentru încurajarea multor persoane ........................................................................................ 34
-care trebuie să trăiască cu cancerul. ....................................................................................... 34
-AVERTISMENT:............................................................................................................................... 34
-Prepararea ceaiului de pelin: .............................................................................................................. 35
-Prepararea supei de ceapă:.................................................................................................................. 35
-Altă surpriză a supei de ceapă ............................................................................................................ 35
-Cunoaștere și știință............................................................................................................................ 35
-LEUCEMIA ............................................................................................................................................... 37
-Ce trebuie să faceți când aveți leucemie?........................................................................................... 38
-Tratamentul leucemiei........................................................................................................................ 38
-IMPORTANT:.................................................................................................................................... 38
-
-3
-DE CE ANUMITE BOLI SUNT INCURABILE, CHIAR DACĂ AU UN DIAGNOSTIC CORECT
-ȘI UN TRATAMENT POTRIVIT?................................................................................................... 39
-Câteva exemple extrase din miile de cazuri tratate............................................................................ 39
-Primul caz:.......................................................................................................................................... 39
-Al doilea caz:...................................................................................................................................... 40
-Al treilea caz: ..................................................................................................................................... 40
-MULTE BOLI APARENT INCURABILE SUNT VINDECABILE! .............................................. 41
-Alte întrebuințări ale frunzelor de varză ............................................................................................ 41
-Există ipohondrii? .............................................................................................................................. 42
-MODALITĂȚILE DE TRATARE A ANUMITOR BOLI..................................................................................... 44
-Dureri de gât....................................................................................................................................... 44
-Pierderea apetitului............................................................................................................................. 44
-Arterioscleroza ................................................................................................................................... 44
-Comportamentul față de oamenii suferinzi de demență senilă, sau boala Alzheimer........................ 45
-Artrita ................................................................................................................................................. 45
-Artroza................................................................................................................................................ 45
-Scurgeri vaginale (albe, galbene, sau maro) ...................................................................................... 45
-Enurezis.............................................................................................................................................. 45
-Anemia ............................................................................................................................................... 46
-Reînnoirea celulelor sanguine ............................................................................................................ 46
-Tensiunea crescută ............................................................................................................................. 47
-Tensiune scăzută ................................................................................................................................ 47
-Cum să vă verificați tensiunea ........................................................................................................... 47
-Hemoragii de orice origine................................................................................................................. 48
-Bronșita .............................................................................................................................................. 48
-Constipația.......................................................................................................................................... 48
-Difteria (declarată) ............................................................................................................................. 48
-Degete strâmbe................................................................................................................................... 49
-Rinichii - inflamații de orice natură ................................................................................................... 49
-Degerăturile........................................................................................................................................ 49
-Ulcer varicos ...................................................................................................................................... 50
-Bila - prea puțină................................................................................................................................ 50
-Icter..................................................................................................................................................... 50
-Ulcerații - externe............................................................................................................................... 50
-Gripa................................................................................................................................................... 50
-Cataracta............................................................................................................................................. 51
-Hemoroizi........................................................................................................................................... 51
-Hidropizie a inimii / hidropizie abdominală ...................................................................................... 51
-Afecțiuni ale mușchiului cardiac........................................................................................................ 52
-Febra fânului ...................................................................................................................................... 52
-Tuse .................................................................................................................................................... 52
-Accese de plâns .................................................................................................................................. 52
-Infertilitate.......................................................................................................................................... 53
-Dureri de cap ...................................................................................................................................... 53
-Dureri menstruale............................................................................................................................... 53
-Vene varicoase la picioare.................................................................................................................. 54
-Tulburări circulatorii .......................................................................................................................... 54
-Mersul prin apă................................................................................................................................... 55
-O povestioară despre baia alternativă la brațe.................................................................................... 55
-Gușa.................................................................................................................................................... 56
-Astm - cardiac și pulmonar ................................................................................................................ 56
-Ulcer - gastric și duodenal.................................................................................................................. 56
-Gastrite - inflamații și alte afecțiuni ale stomacului........................................................................... 56
-Scleroză multiplă................................................................................................................................ 57
-Halena - respirația rău mirositoare..................................................................................................... 57
-
-4
-Glandele suprarenale - boli și simptome ............................................................................................ 57
-Colici - renale și biliare ...................................................................................................................... 58
-Leșinul ................................................................................................................................................ 58
-Țiuituri în urechi................................................................................................................................. 59
-Cum să vă pregătiți pentru o operație................................................................................................. 59
-Claustrofobia - agorafobia.................................................................................................................. 59
-Afecțiuni ale prostatei................................................................................................................................. 60
-Mărirea prostatei................................................................................................................................. 60
-Cancer la prostată / testicule............................................................................................................... 60
-Reumatism.......................................................................................................................................... 60
-Diareea................................................................................................................................................ 60
-Insomnia ............................................................................................................................................. 61
-Sughițuri ............................................................................................................................................. 61
-În acest caz, luați o linguriță de semințe de chimen, mestecați-le bine și înghițiți-
-le cu puțină apă. .............................................................................................................................. 61
-Tremurături......................................................................................................................................... 61
-Graviditatea ........................................................................................................................................ 61
-Arsuri la stomac.................................................................................................................................. 61
-Bâlbâiala............................................................................................................................................. 62
-Nevralgia trigeminală ......................................................................................................................... 62
-Alcoolism ........................................................................................................................................... 62
-Flebită (Inflamație a venelor) ............................................................................................................. 63
-Negii și alunițele................................................................................................................................. 63
-Apariția dinților .................................................................................................................................. 63
-Diabetul .............................................................................................................................................. 63
-DESPRE CURA CU ALOE ......................................................................................................................... 64
-Autor: Medic Monica Mănișor ...................................................................................................... 64
-Planta de Aloe este singura din lume care conține vitamina B12.................................. 64
-Cele 5 calități importante ale Aloe Vera ............................................................................................ 64
-Utilizarea plantei Aloe Vera în terapia unor afecțiuni ..................................................................................... 65
-Alergii................................................................................................................................................. 65
-Atenuează pruritul. Previne sau înlătură apariția erupțiilor cutanate. ....................... 65
-Dureri reumatismale ........................................................................................................................... 65
-Bronșită, astm..................................................................................................................................... 65
-Diabetul zaharat.................................................................................................................................. 65
-Afecțiuni ale tractului gastro-intestinal .............................................................................................. 66
-Afecțiuni hepato-biliare...................................................................................................................... 66
-Afecțiuni oculare ................................................................................................................................ 66
-Afecțiuni dermatologice ..................................................................................................................... 66
-RECOMANDĂRI GENERAL VALABILE ...................................................................................................... 67
-Fumatul este dăunător......................................................................................................................... 67
-O poveste despre otrava pentru molii................................................................................................. 67
-Mâncarea reîncălzită este lipsită de valoare, chiar dăunătoare........................................................... 68
-CÂTEVA SFATURI PENTRU FERMIERI..................................................................................................... 69
-UNICUL MEU ȚEL..................................................................................................................................... 69
-INDEX DE PLANTE ROMÂN – LATIN......................................................................................................... 70
-Florin Stănescu ................................................................................................................................. 71
-
-5
-
-CUVÂNT ÎNAINTE
-
-
-Legea pentru o persoană cu darul tămăduirii naturiste
-Legea statuează, după cunoștința mea:
-
-„Cel care are darul vindecării nu poate fi negat în acest
-drept de nimeni, niciunde în lume. De aceea, acest dar
-este valabil pretutindeni în lume."
-
-
-Fiecare fiin ță uman ă este atât de complex ă și difer ă atât de mult de o alta
-încât nu exist ă doctor în lume care s ă poat ă spune c ă a în țeles complet toate
-ființele umane, sau că are o metodă de diagnostic și tratament infailibilă.
-După părerea mea, nici un doctor nu poate pretinde că doar el poate ajuta.
-Dacă doctorii ar putea ajuta pe oricine, fapt ce ar fi minunat, atunci, cred eu,
-nimeni n-ar mai consulta vreodat ă un a șa-numit vraci. Chiar și unii medici, când
-au fost grav bolnavi, pentru o lung ă perioadă de timp, și nici ei și nici al ți medici
-colegi de-ai lor n-au putut să-i ajute, au consultat de asemenea a șa-numiții
-„vraci-neortodocși”, practicieni non-medicali, sau homeopați.
-Dacă un practician „non-ortodox” trateaz ă oameni bolnavi doar de dragul
-banilor, atunci el este un șarlatan. Dar, dac ă o face pentru a-i ajuta, atunci este
-într-adevăr un binef ăcător și…, dac ă vrea s ă ajute cu adev ărat, el trebuie s ă fie
-un bun observator și întotdeauna gata să învețe și să studieze.
-Un tratament al cancerului, realizat conform instruc țiunilor din această carte,
-nu costă aproape nimic. În ultim ă instanță, pe parcursul dietei cu sucuri, nici pe
-mâncare nu se cheltuiesc prea mul ți bani. Face ți compara ție cu costul
-medicamentelor sau cu cel al unei operații!
-Până în 1990, au fost vindeca ți aproximativ 45.000 (valoare probabil sub-
-estimativă) de bolnavi de cancer, sau de boli aparent incurabile! Dac ă a șa-
-numita mi șcare pentru cercet ări asupra cancerului și școlile academice de
-medicină conven țională ar fi studiat al ături de mine și nu s-ar fi orientat
-împotriva mea, ar fi existat probabil peste un milion de cazuri vindecate.
-Directorul unei clinici m-a prezentat pacien ților vindeca ți, cu remarca:
-„Datorită cărții dumneavoastră și dietei cu sucuri."
-Renumitul vindecător german R. Hoffman scria 1 despre cancer, numind mica
-mea carte, una dintre cele mai mari scrieri în domeniu ale secolului.
-Bruno Vonarburg 2, spunea c ă oamenii vor vorbi despre cartea mea secole
-de-a rândul, mai ales datorit ă modalității de Tratament Total al Cancerului. Este
-semnificativ faptul că oameni de o asemenea valoare fac astfel de afirmații.
-Scopul meu este nu numai de a se rvi persoanele bolnave de aici și din multe
-alte țări, dar și serviciile de s ănătate, care pot astfel s ă economisească bani și să
-devină mai ieftine.
-Chiar și fermierii care-mi urmează instrucțiunile vor avea de câștigat!
-Un mecanic auto spunea odat ă c ă munca sa este mult mai dificil ă decât a
-unui doctor. El avea cam 20 de noi modele pe an, pe care trebuia s ă le înțeleagă
-
-1 în revista Gesundheit-Selbsthilfe (ediția I, pagina 15) și Gesundheits-Kurier
-(ediția a V-a)
-2 autor al minunatei cărți Gottes Segen in der Natur (Minunății ascunse în natură),
-
-6
-și s ă le repare, pe când, de la Adam și Eva, doctorul este preocupat doar de
-două. Îns ă, aceste dou ă „modele" sunt deseori ca un joc de puzzle, atât de
-complicat, încât până acum nimeni nu a găsit rezolvarea.
-Cine ar putea s-o facă? - Cine este asemeni lui Dumnezeu?
-
-Rudolf Breuss
-
-
-
-MĂRTURII
-
-
-În 28 iulie 1964, am fost trimis la spi tal suspectat de ocluzie intestinal ă. După o examinare
-atentă am primit diagnosticul de cancer intestinal. Ar fi trebuit să suport o intervenție chirurgicală și
-realizarea unei colostomii.
-Apoi, sora mea Antonie a avut o vi ziune asupra modului în care a ș putea fi vindecat f ără
-operație. Așa că am părăsit spitalul și m-am întors acas ă. În aceste condi ții, starea sănătății mele se
-deteriora pe zi ce trecea și îmi simțeam sfârșitul aproape.
-Între timp, sora mea a întâlnit niște cunoscuți pelerini ce se aflau în drum spre Wigratzbad.
-Ei au relatat despre un domn care putea trata cancerul f ără interven ție chirurgical ă. I-a
-întrebat dacă ar putea face în a șa fel încât acest domn Breuss din Bludenz s ă vină să mă vadă. El a
-ajuns în ziua urm ătoare și dup ă stabilirea unui diagnostic pe baza examin ării irisului, mi-a
-confirmat că am cancer al colonului descendent și intestinului subțire.
-Am urmat Tratamentul Total al Cancerului după instrucțiunile sale.
-În a 35-a zi, cancerul a dispărut. De atunci m-am simțit bine, n-am mai avut dureri și pot lucra
-normal.
-Mulțumesc Binecuvântatului nostru Domn Isus Hristos, care m-a ajutat s ă-l g ăsesc pe dl.
-Breuss, a cărui consultație și devoțiune altruistă mi-au adus vindecarea completă.
-JR
-7988 Niederwangen, Feld 7,
-1 Decembrie 1971
-
-Rețineți: A urmat tratamentul cu sucuri în 28 iulie 1964 și a murit în 8
-ianuarie 1985, însă nu din cauza cancerului, ci din cauza inimii.
-
-<
-
-
-În 19 septembrie 1972, am descoperit un nodul mare și ferm în sânul drept. Doctorul de familie
-m-a trimis imediat la spital pentru opera ție. Deoarece am auzit de dl. Breuss și de dieta sa cu sucuri,
-pentru cancer, am refuzat s ă m ă supun opera ției programate. În schimb am urmat dieta. Trei
-săptămâni după începerea tratamentului cu sucuri, nodulul se modificase deja, iar dup ă 6 săptămâni
-de dietă a dispărut complet. Doctorul de fam ilie a fost surprins de succes și a explicat că nodulul era
-atât de mare, încât ar fi implicat o intervenție chirurgicală de amploare.
-Sunt foarte fericit ă și recunosc ătoare. Datorit ă dietei nu sunt mutilat ă. Multe, multe
-mulțumiri domnului Breuss, care a ajutat deja atât de mul ți oameni prin intermediul dietei cu sucuri
-și Domnului Dumnezeului nostru. Și îmi doresc ca dl. Breuss s ă poată continua să mă ajute pe mine
-și pe alți pacienți, cu sfatul său, pentru mulți ani de acum înainte.
-
-7
-Dna G S
-7988 Wangen im AllgauWangen
-7 februarie 1973
-
-Rețineți: în 1985 era totul foarte bine.
-<
-Crăciunul anului 1964. M-am îmboln ăvit de leucemie, artrită și miocardită. Am fost internată,
-dar nici o îmbunătățire n-a apărut, până în momentul în care so țul meu l-a adus pe dl. Breuss să mă
-vadă. Pe drumul de la Wigratzbad spre Ravensburg, dl. Breuss a spus c ă a r t r e b u i să apar ă o
-îmbunătățire după 3 zile, iar dup ă 6 zile voi putea p ărăsi spitalul. Am luat ceaiul și sucul, și după
-câteva zile a apărut o îmbunătățire. După 6 zile am fost externat ă din spital. Pentru aceasta îi sunt
-foarte recunoscătoare domnului Breuss.
-Dna. Pia H. 7989 Argenbuhl
-
-<
-
-
-Acum 23 de ani trebuia să fiu operată de cancer la sân.
-Mama mea a murit imediat dup ă o operaț ie similară, a șa c ă nu îmi venea s ă adopt o solu ție
-asemănătoare, chiar dacă starea mea se înrăutățea de la an la an.
-Cinci ani mai târziu, din fericire pentru mine, dl Breuss era al ături de noi la o întâlnire.
-Cunoscând că era un expert terapeut și de asemenea un bun diagnostician, i-am ar ătat mâna dreaptă
-și l-am întrebat: „Sunt sănătoasă sau bolnavă?" Mi-a răspuns că ceva nu este în regul ă cu sânul meu
-drept. Am fost foarte surprinsă de răspunsul său! Dl. Breuss n-a vrut să fie prea direct și a roșit! M-
-am gândit c ă poate credea c ă a spus prea mult. De aceea i-am spus s ă nu-și facă probleme, deoarece
-deja știam că am un cancer la sân și l-am întrebat dacă poate să mă ajute.
-Dl. Breuss mi-a r ăspuns că, de vreme ce eram con știentă de problemă și am refuzat opera ția, el
-ar putea probabil g ăsi o modalitate s ă mă ajute. A început s ă-mi descrie cum a preparat o b ăutură -
-un amestec de sucuri - în urm ă cu 10 ani. Aceast ă combinație era împotriva cancerului. Dar, pân ă în
-acel moment, el nu îndrăznise să spună cuiva că avea cancer. De vreme ce eu știam de situația mea, el
-mi-a recomandat dieta cu sucuri, de și considera c ă dieta cu sucuri se potrivea mai ales cancerului de
-stomac. Dl. Breuss mi-a mai spus c ă aș putea fi prima persoan ă care o va urma pentru cancer la sân.
-Nu era sigur că o persoană va rezista doar cu sucuri și fără altă mâncare timp de 42 de zile.
-Cu deplin ă încredere, am început din ziua urm ătoare cura cu sucuri f ăcute de el. La vremea
-respectivă, storcătorul de fructe nu fusese inventat – a șa că nu era prea ușor. Legumele trebuiau rase
-și stoarse într-o pânză, sau într-o presă de roșii.
-Spre marea mea surpriz ă, m-am sim țit foarte bine în timpul curei cu sucuri, de și am pierdut
-câteva kilograme în aceast ă perioad ă. Dup ă 42 de zile, cancerul a disp ărut și, pân ă acum, n-a
-recidivat și mă simt minunat.
-Vă mulțumesc din inim ă, domnule Breuss, pentru sfatul bun pe care mi l-a ți dat atunci. Sunt
-foarte bucuroasă că am fost prima persoană vindecată prin dieta dumneavoastră cu sucuri.
-Cu deplină încredere, recomand Tratamentul Total al Cancerului tuturor celor care nu doresc s ă
-fie operați.
-Cu recunoștință,
-Maria Nesensohn, Reformhaus
-Gartenstrasse 15, 6700 Bludenz,
-20 ianuarie 1973
-Rețineți: încă sănătoasă în martie 1991.
-
-8
-
-<
-
-A doua scrisoare:
-Am fost vindecată de cancer la sân prin „Tratamentul Total al Cancerului", de câ țiva ani, când,
-brusc, am început să am dureri mari de cap. Am crezut c ă aveam o tumoare pe creier. În disperare,
-domnule Breuss, v-am cerut un diagnostic iridiologic. Spre u șurarea mea, mi-aț i spus c ă nu am
-tumoare, dar c ă era un nerv prins între a treia și a patra vertebr ă cervical ă. Și m-a ți trimis la un
-chiropractician în Zurich. Împreun ă cu so țul meu, i-am spus despr e diagnosticul dumneavoastr ă și
-apoi el m-a examinat cu raze X. A confirmat diagnosticul dumneavoastr ă și dorea s ă știe ce doctor
-din Bludenz a făcut un diagnostic atât de precis.
-A spus c ă n-a mai cunoscut o astfel de situa ție. Apoi i-am povestit c ă acest excelent
-diagnostician era un inginer electrician care, în afara meseriei sale, era preocupat de metode de
-vindecare și de a ajuta oamenii bolnavi. Doctorul mi-a m ărturisit c ă îi poart ă un profund respect
-acestui om. Dup ă câteva tratamente ale chiropractician ului din Zurich, du rerea mea de cap a
-dispărut. Din nou v ă sunt recunosc ătoare, domnule Breuss, pentru diagnosticul dumneavoastr ă și
-sfaturile bune date într-un mod atât de altruist.
-Cu profundă recunoștință,
-Maria Nesensohn
-
-<
-
-În 6 ianuarie 1963, mama mea, d-na Sofie Wachter din Bludenz, s-a îmboln ăvit grav și a
-consultat trei doctori. De cinci s ăptămâni ea voma pu ținul pe care-1 mânca sau bea, doar ceai și
-biscuiți. Voma con ținea sânge. Doctorii suspectau un can cer, dar, de asemenea, nu excludeau
-posibilitatea unui abces al pancreasului. Dup ă ce mama a devenit prea bolnav ă pentru a mai putea
-călători, nu a mai putut fi examinată cu raze X, și deci diagnosticul se baza pe simptome.
-Astfel mama a fost p ărăsită de doctori, care considerau ambe le boli fatale. În disperare de
-cauză, m-am întors la dl. Breuss, la Bludenz, care recomanda dieta cu sucuri (sfecl ă, morcovi și
-țelină), dietă urmată cu exactitate după instrucțiunile domnului Breuss.
-După o s ăptămână, am observat o uș oară îmbunătățire - ea nu mai voma întreaga hran ă și în
-final, aceste simptome au disp ărut complet. Se putea observa refacerea ei treptat ă. Patru luni mai
-târziu, doctorii au aflat uimiți că mama se vindecase. De atunci o supun pe mama dietei cu sucuri în
-fiecare an, dup ă care ea se simte mult mai bine, în special în privin ța inimii. Dorim să -i mulțumim
-domnului Breuss încă o dată.
-KL
-Bludenz, Vorarlberg
-20 februarie 1975
-
-Nota bene: în 1982, la 88 de ani, doamna Wachter î și gospod ărea singură
-casa.
-
-<
-
-Povestea suferinței mele este probabil specifică pentru mulți oameni bolnavi.
-
-9
-De ani de zile aveam probleme cu ficatul și pancreasul, am consultat diferi ți doctori, fă ră a
-obține îmbun ătățiri. Am urmat o dietă strictă și am luat multe medicamente pentru a lupta
-împotriva problemei, pe care o controlam doar într-o anumită măsură.
-Mai apoi s-a dezvoltat o boală de rinichi și starea mea fizică s-a deteriorat rapid.
-Într-o zi, un prieten mi-a dat adresa domnului Breuss și mi-a recomandat să-1 vizitez.
-Plin de speranță, am plecat imediat spre Thuringerberg pentru a-1 întâlni.
-Fără să cunoască istoricul suferin ței mele, el a stabilit acela și diagnostic ca și ceilalți doctori.
-Dl. Breuss mi-a dat să urmez dieta cu sucuri timp de 6 săptămâni, sub observație strictă.
-Deși nu a fost pl ăcut, a fost în final încununat ă cu succes! Azi, mă simt mai bine decât
-oricând. Pot mânca de toate și nu mai simt nici un simptom al vechilor probleme. Pot într-adev ăr
-recomanda dieta, pentru că m-a făcut să mă simt din nou o ființă fericită.
-Cu recunoștință,
-XH
-7992 Tettnang, 1974
-
-<
-
-
-În timpul lunii mai 1971, am suferit o opera ție la buza inferioar ă. Dup ă spusele unui medic
-expert de la spitalul universitar, era vorba, f ără nici un dubiu, de cancer. Am fost supus, consecutiv,
-la 25 ședințe de iradiere.
-În 1973 a reapă rut. Radiu-l nu mi-a mai fost de folos. Astfel, în prim ăvara anului 1974, am
-fost internat în spital pentru a m ă supune unei opera ții de amploare pentru un transplant plastic.
-Erau necesare cinci opera ții în interval de un an. Ar trebui s ă adaug c ă deja aveam 3 excrescen țe în
-ganglionii cervicali și în gât. Asta însemna: cancer 100 % .
-Prima operație a fost programată pe 29 ianuarie 1974, ora 1000. La 8:30 a.m. l-am anun țat pe
-profesor că m-am decis s ă nu mai fac opera ția care ar fi însemnat s ă rămân în spital un an de zile.
-Dezamăgit de decizia mea, m-a externat pe propria mea răspundere.
-După ce m-am întors acas ă, am plecat cu so ția la Bludenz s ă-1 vizităm pe dl. Breuss. El mi-a
-recomandat să urmez Tratamentul Total al Cancerului și am început imediat.
-În timpul tratamentului m-am sim țit bine. Dup ă patru s ăptămâni, se puteau observa deja
-primele semne ale succesului. După cinci săptămâni, buza mi s-a vindecat și excrescențele au dispărut
-și ele.
-La o săptămână după terminarea tratamentului, am început din nou s ă muncesc, niciodată nu
-mă simțisem atât de bine. Și acea stare nu s-a mai schimbat.
-De aceea, sunt foarte recunosc ător domnului Breuss și nu am decât rug ăciuni de mul țumire
-pentru metoda sa de tratament.
-Cu sinceră recunoștință,
-P S, Isny
-Allgau
-
-<
-
-Domnul Breuss m-a vindecat de cancer larin geal. Pentru aceasta nu voi putea niciodat ă s ă-i
-mulțumesc îndeajuns.
-De mult ă vreme observasem c ă deveneam din ce în ce mai r ăgușită, motiv pentru care am
-consultat un specialist în afec țiuni ale gâtului. Diagnosticul a fost cancer laringeal și doctorul m-a
-
-10
-sfătuit să mă operez imediat. Am făcut din nou un examen amănunțit și apoi mi s-a spus că laringele
-trebuia îndepărtat în întregime. Am hotărât să nu mă operez și m-am întors acasă.
-Când am discutat problema cu vecina mea, ea mi-a povestit despre un b ărbat care a fost
-vindecat de domnul Breuss. Am mers s ă-1 v ăd pe acest b ărbat care era foarte fericit c ă a fost
-vindecat și mi-a dat adresa domnului Breuss.
-Am f ăcut o programare pentru a-1 vizita personal și el mi-a recomandat s ă urmez cura cu
-sucuri. De când am terminat-o, m ă simt perfect, am un apetit bun și în ciuda celor 72 de ani sunt
-într-o formă bună.
-Vă mul țumesc înc ă o dat ă pentru timpul și aten ția acordată pentru a m ă ajuta să m ă
-însănătoșesc.
-Cu stimă,
-J.St.
-7991 Neukirch,
-7 decembrie 1972
-
-<
-
-În 12 februarie 1970, doctorul meu de familie m-a trimis la un spital universitar. Acolo mi-au
-făcut teste și diagnosticul a fost tumoare la rinichiul stâng. Ulterior radiografia a definit exact
-poziția excrescenței pentru operația ce urma să se realizeze.
-În 3 martie 1970 am fost internat ă la clinica de urologie. Pe 5 martie am fost operat ă și a fost
-scoasă o tumoare mare. Aceasta s-a dovedit a fi malignă.
-Am fost trimisă acasă pe 17 martie. Doctorul l-a chemat pe so țul meu si l-a informat că mai am
-de trăit cel mult un an.
-Am efectuat 43 de tratamente cu radiu ș i, la fiecare 3 luni, f ăceam o radiografie. În 9
-septembrie 1971 am fost internat ă din nou ș i radiologul a descoperit o alt ă tumoare la pl ămânul
-stâng. Am f ăcut o altă operație și un lob pulmonar stâng mi-a fost extirpat. În 8 octombrie am fost
-trimisă acasă, dar sub observație medicală continuă.
-În timpul lunii mai 1972, radiologul a descoperit din nou o tumoare. De data aceasta era la
-plămânul drept. Radiologul și medicul de familie mi -au recomandat o alt ă opera ție, dar de data
-aceasta am refuzat.
-Am avut norocul să primesc adresa unui om despre care se știa că putea să vindece cancerul. Am
-plecat imediat la Thuringerberg (Austria) s ă-1 întâlnesc pe domnul Breuss. El a confirmat cancerul,
-dar mi-a redat speranța spunându-mi că voi putea fi vindecată în 42 de zile.
-Am urmat Tratamentul Total al Cancerului sub supravegherea constant ă a medicului de familie
-și radiologului. Patru s ăptămâni mai târziu m-am dus din nou la radiolog. El a descoperit c ă
-tumoarea s-a redus la mărimea unui bob de orez.
-După încă 4 s ăptămâni, am terminat tratamentul. Am consultat din nou radiologul. Tot ce a
-putut vedea era o cicatrice. Acest fapt a fost confirmat pe cale medicală.
-Nu am cuvinte s ă-i mulțumesc domnului Breuss pentru faptul c ă m-a vindecat de o boal ă atât
-de grav ă. Dacă l-aș fi cunoscut mai devreme, sunt convins ă c ă cele dou ă operaț ii n-ar mai fi fost
-necesare.
-Vă mulțumesc foarte mult.
-M. M. Friedrichshafen
-23 ianuarie 1973
-
-Nota bene: în 1990, această doamnă se simțea în continuare bine.
-
-11
-<
-
-Cu mulți ani în urm ă am avut o infec ție gravă a brațului stâng. Era foarte umflat și a devenit
-albastru, roșu, verde.
-Am fost la doctor și mi-a spus c ă era prea târziu. El nu mai putea s ă mă ajute și am fost l ăsat
-să mor. Domnul Rudolf Breuss mi-a oferit imediat ajutorul. A fost un miracol pentru mine. Curând
-am fost în stare chiar să înot.
-Sunt foarte recunoscător domnului Breuss. El mi-a salvat viata.
-Emil Siess
-6741 Nuziders, Tănzerweg 8,
-20 mai 1974
-
-<
-
-De mulți ani sufeream de dureri de spate. Pe 30 iunie 1974, domnul Rudolf Breuss a venit s ă
-mă viziteze și mi-a manipulat vertebra dislocată, fără durere.
-După acest tratament durerea a disp ărut. Acum, după două luni, nu mai am dureri deloc. Sunt
-foarte recunoscătoare domnului Breuss și recomand, oricui are nevoie, acest tratament ne-dureros și
-fără risc.
-E.N.
-Friedrichshafen,
-1 septembrie 1974
-
-<
-
-Dragă Domnule Breuss,
-Poate v ă aminti ți c ă m-a ți consultat în 18 noiembrie 1972 și a trebuit s ă fac un tratament
-pentru discul inter-vertebral. Acum pot sus ține c ă m-aț i ajutat într-un mod incredibil la vremea
-aceea, făcând mai mult decât oricine altcineva.
-Eu sunt, după cum știți, un schior entuziast și m-am aflat mereu în situa ții dificile. Au trecut
-doi ani de când am f ăcut tratamentul și de atunci n-am mai avut nici un fel de probleme. Pot spune
-chiar că vindecarea s-a produs aproape imediat.
-Dați-mi voie să vă explic de ce n-ați mai primit vești de la mine de atâta timp. De la început am
-fost foarte sceptic cu privire la tratamentul dumneavoastră (și al altora). Nu voiam s ă judec situația
-înainte de a fi vindecat cu adevărat.
-Curând am observat diferen ța, când, dup ă doi ani, durerea mea de spate a disp ărut complet.
-Doresc să vă mulțumesc mult pentru efortul dumneavoastră.
-Cu sinceră recunoștință,
- Albert Bildstein
-Profesor, Budesgymnasium
-Feldkirch, 16 octombrie
-1974
-
-<
-
-În urma opera țiilor din 1962 și 1966 și a tratamentului ulterior de iradiere timp de 8
-săptămâni, cu aur lichid radioactiv, injectat în peretele abdominal, starea mea psihic ă generală s-a
-deteriorat considerabil până în vara anului 1967.
-
-12
-Un test al sângelui a revelat prezen ța celulelor canceroase și am simțit că mergeam din ce în ce
-mai rău.
-Am auzit despre o cură cu suc care aducea îmbunătățiri în afecțiuni grave.
-De aceea am mers să-1 văd pe domnul Breuss, care, în urma unui irido-diagnostic (determinarea
-stării interne a organismului prin observarea semnelor de pe irisul ochiului), mi-a recomandat cura cu
-sucuri pe care am început-o imediat. Deoarece m-am putut odihni mult și am inspirat mult aer
-proaspăt din pădure, am rezistat
-foamei din acele săptămâni grele fără prea mari dificultăți. Totuși în timpul ultimelor 5 zile am
-mâncat o jumătate de cană de fulgi de ovăz, de două ori pe zi.
-Cred cu putere c ă dieta cu sucuri mi-a revitalizat sângele și m-a vindecat. Presupun c ă durerea
-care este încă prezentă este rezultatul injecțiilor cu aur radioactiv și aderențelor.
-În timpul acestei cure cu sucuri, limba mi-a devenit neagră. L-am consultat pe domnul Breuss și
-pe un doctor și mi s-a prescris ceai din r ădăcină de p ătrunjel de câmp (Pimpinella magn ă) în
-completarea dietei cu suc. Trei săptămâni mai târziu s-a obținut o remarcabilă îmbunătățire.
-Trebuie s ă men ționez c ă eu cunosc o persoan ă care a f ăcut o cur ă cu suc f ără succes. Dar
-domnul Breuss mi-a spus c ă persoana respectiv ă a avut o opera ție și admite c ă exist ă cazuri când
-tratamentul cu sucuri nu funcționează.
-T.S.
-7988 Wangen Allgau,
-30 aprilie 1975
-
-Nota bene: În ciuda unor dureri ce au r ămas de la tratamentul de iradiere
-această femeie s-a simțit bine încă 13 ani, până în anii '80.
-
-<
-
-În urmă cu 25 de ani, doctorii au confirmat c ă am cancer la stomac și intestine. Trebuia să mă
-operez dar n-am putut fi convins ă s-o fac. Apoi, din fericire, am ajuns s ă vorbesc cu un domn din
-Bludenz, Rudolf Breuss, care era în vizită la un alt pacient bolnav de cancer din Gotzis.
-Domnul Breuss mi-a descris Tratamentul Total al Cancerului și imediat m-am decis s ă urmez
-cura cu sucuri împreună cu domnul Josef Fend care suferea și el de cancer la stomac.
-42 de zile mai târziu cancerul a fost îndep ărtat pe calea intestinelor și domnul Josef Fend a
-obținut rezultate similare în aceeași zi. O radiografie făcută după cură a arătat că nu mai exista nici
-un semn al cancerului și n-am mai avut probleme fizice de atunc i. În timpul curei am pierdut cam 15
-kg în greutate. Am fost a treia persoan ă care a f ăcut cura pentru cancer a domnului Breuss si o pot
-recomanda oricui are nevoie. Nu știu cum să-i mulțumesc mai bine domnului Breuss.
-La vremea aceea, dieta n-a fost u șoară deoarece nu exista storcător pentru suc, dar rezultatul a
-meritat toate eforturile și răbdarea.
-Olga Marte
-6840 Gotzis,
-18 august 1975
-
-Nota bene: Doamna Marte este, în anii '90, într-o formă excelentă.
-
-<
-
-Deoarece glandele mamare s-au înt ărit și exista posibilitatea unui cancer, mi s-a sugerat ca, în
-august, s ă-mi fac o mastectomie. Am în cercat multe medicamente și ceaiuri, la sugestia lui Hans
-
-13
-Neuner. Starea mea s-a îmbun ătățit încet, pân ă când, brusc, o mare excrescență a ap ărut sub bra ț.
-Nu doream să mă operez.
-Trebuie să fi fost o minune c ă în acea perioad ă a apărut cartea dumneavoastră. Am hotărât să
-urmez Tratamentul Total al Cancerului, chiar dac ă eram mult sub greutatea normal ă (45-55 kg).
-Treizeci și opt de zile mai târziu, chiar dac ă nu am consumat decât fulgi de ov ăz, am observat o
-îmbunătățire. Cele dou ă excrescen țe au disp ărut gradat și tot ce speram er ă s ă trec cu bine prin
-următoarele patru zile. Mulțumesc lui Dumnezeu pentru acest miracol!
-Îmi face pl ăcere s ă v ă mul țumesc, domnule Breuss, pentru împ ărtășirea cuno ștințelor
-dumneavoastră, și-i asigur de eficien ța tratamentului pe cei ca re aud de dumneavoastr ă și voi da
-mica dumneavoastră carte celor din jurul meu să o citească.
-Vă doresc s ă rămâneți sănătos pentru a putea s ă ajutați mulți oameni, dar și pentru a deveni
-cunoscut în întreaga lume.
-Încă o dată, multe mulțumiri.
-HG
-5431 Kuchl, Salzburg,
-19 noiembrie 1979
-
-<
-
-Miracolul din Bludenz se nume ște domnul Breuss. Pentru început doresc s ă vă mulțumesc de o
-mie de ori pentru abilitatea dumneavoastr ă, deoarece nici un doctor n-a fost în stare s ă-mi vindece
-lupusul. Aveam 27 de ani și am primit ve ști rele de la dr. Niedormair din Linz care mi-a spus c ă nu
-era posibilă vindecarea. Astfel, ca o ultim ă speranță, am mers în Gallspach la dr. Zeileis care a spus:
-„Pot încerca să-1 atenuez dar nu-1 pot vindeca." Am urmat tratament de 12 ori și acum, la 66 de ani,
-a apărut un nou “zeu”, care mi-a sugerat tratamentul cu sucuri și ceai, care m-a vindecat, și sunt din
-nou s ănătoasă. Tratamentul meu a durat 6 s ăptămâni și s-a terminat în decembrie. N-am scris
-imediat, pentru a m ă convinge c ă boala nu reapare, dar în timpul tratamentului m-am sim țit
-fantastic și drept mulțumire continuu să beau 1 litru de suc în fiecare zi. Recomand fiec ăruia să facă
-asemeni mie. Este aproape o luptă pe via ță și pe moarte. Sper doar, domnule Breuss, ca
-dumneavoastră să trăiți mult timp, având astfel posibilitatea să ajutați mulți oameni.
-R.D.
-A4020Linz/D
-6 martie 1980
-
-<
-
-În toamna anului 1966, mi s-a stab ilit diagnosticul de cancer, astfel c ă am încercat
-Tratamentul Total al Cancerului. Starea sănătății astăzi: nici o recidivă (1979).
-După tratament m-am sim țit ca un nou n ăscut. În plus, timp de un an, am avut un disc
-intervertebral deplasat și adesea era prea dureros s ă mă aplec. Dup ă tratament, durerea a disp ărut
-complet și n-am mai suferit din cauza lui. Nu vă pot mulțumi îndeajuns, domnule Breuss.
-P.H.
-Wangen in Allgäu
-A 3340 Waidhofen ald Ybbs,
-11 octombrie 1979
-<
-
-După ce s-a confirmat cancerul la sân am ur mat Tratamentul Total al Cancerului, din 25
-octombrie 1977. Rezultatul a fost bun. Starea s ănătății mele în 12 martie 1980 este bun ă. Efecte
-negative ulterioare: nici unul.
-Z.H.
-CH 8580 Amriswil,
-Elveția,
-12 martie 1980
-
-<
-
-Am avut cancer la sân confirmat și am încercat Tratamentul Total al Cancerului în iulie-august
-1977. Rezu ltatul - zona congestionat ă a disp ărut. Starea s ănătății mele este excelent ă. Efectele
-tratamentului - sânge revitalizat (formula și structura glob ulelor roșii) în timpul și după tratament
-(pentru comparare, priviți fotografiile de mai jos).
-
-S.H., Toamna, 1977
-
-Nota bene: 1991 Doamna SH se simte în continuare bine.
-
-Fotografii ale celulelor sanguine
-Înainte de tratamentul Breuss
-
-După tratamentul Breuss
-
-
-<
-
-În urmă cu 24 de ani, în timpul unui exerci țiu de gimnastică la școală, am aterizat pe podea și
-mi-am pierdut cuno ștința pentru scurt ă vreme. Dup ă câtva timp, ca rezultat, a m început s ă am
-dureri de cap severe și nu mai puteam dormi decât cu greu. Am mers la spital și mi s-a făcut o puncție
-lombară. Doctorul m-a sf ătuit s ă m ă operez la cap și s ă-mi pun o pl ăcuță de argint în vârful
-craniului. Nu doream asta. Persoanele care au fost anterior ajutate de domnul Breuss m-au sfătuit să
-am o întrevedere cu el. Am f ăcut-o și el mi-a făcut un iridodiagnostic și m-a sfătuit să urmez cura sa
-cu sucuri. După câteva zile am văzut semne bune. Puteam dormi din nou și la finalul celor 42 de zile
-de diet ă, s ănătatea mea s-a restabilit. De atunci n-a mai ap ărut nici o dat ă vre un semn privind
-această problemă. Îl admir pe domnul Rudolf Breuss și îi sunt foarte recunosc ătoare că mi-a redat
-sănătatea.
-Prof. Mag / Dr. AM
-Altach, Egethen 6
-20 ianuarie 1985
-
-<
- 14
-
-15
-Acum 15 ani am avut o afec țiune serioasă a discului intervertebral. Cu mul ți ani în urm ă, în
-stațiunea Kneipp din Gotzis, domnul Rudolf Breuss din Bludenz a ținut o conferin ță având ca
-subiect afecțiunile discului intervertebral.
-Am fost tratată de dânsul. De atunci îi sunt recunoscătoare domnului Breuss.
-HE, 20 ianuarie 1985
-
-<
-
-Doresc să adaug că am fost prima care a experimentat tratamentul manipulării fără durere.
-Am fost po ștaș. Cinci ani am suferit de probleme de disc și deteriorarea oaselor. Nu puteam
-merge 50 metri, fără să mă opresc, deci, m-am hotărât să mă pensionez mai devreme.
-
-<
-
-Am avut norocul s ă-1 întâlnesc pe domnul Breuss. El mi-a pus discul la loc și de atunci n-am
-mai avut dureri.
-Până atunci, în decursul a 6 ani, am mers la mul ți doctori cu reputa ție care mi-au fost
-recomandați. Totul în zadar.
-Întreaga mea viață îi voi mulțumi acestui om minunat care dorește să facă doar bine omenirii.
-Vă doresc, domnule Breuss, foarte mulți ani în bună sănătate. Multe mulțumiri pentru tot.
-Erhart A
-Romerweg 73
-20 ianuarie 1985
-
-Nota bene: 1991, totul este în continuare în ordine.
-
-<
-
-Am început s ă am probleme cu discurile interverte brale de aproximativ 10-12 ani, suferind
-dureri severe și fiind aproape incapabil s ă mă mișc. I-am cerut domnului Breuss un tratament. După
-ce m-am a șezat cu mari dificult ăți pe canapea, am putut s ă mă ridic singur dup ă un tratament de
-numai 15 minute.
-Deși probleme înc ă mai apar la o scar ă mic ă, ele n-au mai fost niciodată atât de severe ca
-înainte de tratament.
-Mă bucur să-i mulțumesc domnului Breuss pentru ajutorul acordat.
-Kommerzienrat Guido
-Bahregehr,
-25 ianuarie 1985
-
-<
-
-În 1977 doctorul m-a sf ătuit să m ă operez din cauza unor probleme la discul intervertebral.
-După ce am încercat un tratament cu injec ții și șoc electric, l-am consultat pe domnul Breuss care
-imediat m-a ajutat f ăcând operația recomandată anterior și consultația doctorului inutile. M ă simt
-recunoscătoare domnului Breuss, care, între timp, mi-a devenit un vecin foarte drag.
-Dir. WilfedBickel
-Winkelweg 8
-Bludenz, ianuarie 1985
-
-16
-<
-
-Am aplicat Tratamentul Total al Cancerului din 14 septembrie până în 26 octombrie 1981.
-Rezultatul: bun, starea prezentă a sănătății bună.
-Nu m-am simțit niciodată atât de bine ca dup ă acest tratament. Tensiunea și nivelul zahărului
-din sânge ca și pulsul sunt acum tot atât de bune ca pe vremea când, ani de zile, le controlam cu
-ajutorul medicamentelor.
-În ianuarie, voi începe următorul tratament pe care îl recomand oricui. În timpul tratamentului
-am fost într-o astfel de form ă, încât puteam face cu u șurință orice munc ă. V ă sunt foarte
-recunoscătoare, domnule Breuss, din adâncul inimii, și sper că veți putea să mai ajutați mulți oameni
-sărmani și bolnavi cu Tratamentul Total al Cancerului.
-Elfriede Sommer
-A 8052 Graz, Watzeldorf,
-28 decembrie 1981
-
-Nota bene: În 14 decembrie 1985 am primit o felicitare de Cr ăciun de la
-doamna Elfriede Sommer!
-
-<
-
-Vă puteți aminti când soțul meu și cu mine am venit de la Lucerna, Elve ția, pentru a vă vedea,
-la începutul lui ianuarie 1977? De peste 8 ani sufeream de boala lui Hodgkin și doctorii mi-au spus
-că mai am puțin de trăit, până aproximativ la mijlocul lui aprilie. S-a întâmplat să citesc într-un ziar
-despre metoda dumneavoastr ă de vindecare. M-a ți sfă tuit apoi s ă urmez Tratamentul Total al
-Cancerului pe care l-am început imediat după vizită.
-L-am aplicat cu strictețe două săptămâni, după care am trecut la dietă normală, dar continuam
-să beau ceaiuri și sucuri.
-După 4 s ăptămâni am mers la doctor pentru analiza sângelui dar eram hot ărâtă s ă nu iau
-medicamentele prescrise. După analize el a venit la mine și mi-a strâns mâna.
-M-a felicitat pentru rezultatele analizei sângelui care erau excelente. În 3 s ăptămâni mi s-a
-îmbunătățit num ărul celulelor sanguine cu 20%, valoare atât de bun ă încât doctorul mi-a
-recomandat să continuu acest tratament.
-Mă simt mult mai bine decât în ultimii ani. Dup ă tratament am continuat să beau un pahar de
-amestec de sucuri și o cană de ceai de salvie în fiecare zi.
-Într-adevăr, nu știu cum să vă mulțumesc pentru că mi-ați salvat viața.
-Vă rog, ați putea să-mi trimiteți zece exemplare din cartea dumneavoastr ă? Cererea este foarte
-mare.
-Există o altă mare problemă pentru mine. Mama sufer ă de scleroză multiplă de 15 ani și stă în
-scaunul cu rotile de 5 ani.
-Mental, ea este complet s ănătoasă. Exist ă vreo metod ă de refacere? V ă rog cordial să -mi
-răspundeți foarte curând.
-Îmi face pl ăcere s ă v ă mul țumesc din nou foarte mult, domnule Breuss și v ă trimit cele mai
-bune urări.
-D-na Silvia Martina
-CH-6014 Littau
-27 februarie 1977
-
-<
-
-17
-
-Altă scrisoare:
-Poate vă mai amintiți c-am venit la dumneavoastră acum 6 ani, suferind de boala lui Hodgkin.
-Azi mă simt în continuare excelent, doctorii sunt și acum uimiț i. Săptămâna trecută, doctorul
-meu de familie a confirmat că am fost singurul pacient care a supraviețuit acestei boli.
-Am anexat un raport pe care veți fi interesat să-1 citiți, privind încercările, de mai mulți ani, de
-a vindeca diferite boli prin sucuri naturale si ceaiuri.
-Sper că sunteți bine. Din nou, după toți acești ani, vă mulțumesc. Să fiți sănătos mulți ani si să
-vă bucurați de marele dumneavoastră succes.
-Cu sinceritate,
-D-na Silvia Martina
-CH-6014 Littau,
-6 septembrie 1982
-
-<
-
-Aceasta este mărturia mea oficială:
-Acum 6 ani doctorii au confirmat c ă sufeream de cancer limf atic în starea cea mai grav ă și că
-mai aveam de tr ăit cel mult înc ă trei luni. Eu avea m o familie cu două fetițe și doar 30 de ani. Este
-cel mai rău lucru care i se poate întâmpla cuiva.
-Tratamentul, injecțiile au fost îngrozitoare, pur și simplu erau de prisos. Și toate acestea doar
-pentru a-mi prelungi viața cu câteva luni.
-Apoi am auzit de domnul Breuss, printr-o cuno ștință care avea rezultate bune în urma
-tratamentului cu sucuri. So țul meu m-a dus imediat la domnul Breuss, care mi-a recomandat s ă
-urmez cura cu sucuri și să nu mai iau, pe cât posibil, nici un medicament.
-Le-am spus doctorilor că nu mai doresc să iau medicamente. Ei m-au întrebat dac ă știam că era
-vorba de viată și de moarte.
-Imediat am început cura cu sucuri și ceai. După 4 s ăptămâni am mers la doctor pentru o
-analiză a sângelui. Dup ă analiză am mers acas ă, râzând și plângând. Analiza sângelui meu era mai
-bună decât a oricui altcuiva și cantitatea de sânge a crescut la 80% din normal. M-am sim țit mai
-bine ca niciodată.
-Aceasta era acum 6 ani. Acum, la fieca re 3 luni îmi fac analiza sângelui și totul este perfect.
-Toți doctorii spun c ă trăiesc o a doua via ță. Beau ceai de salvie în fiecare zi de atunci, și o voi face
-mereu.
-Din nou îmi face pl ăcere să-mi exprim cele mai profunde mul țumiri domnului Breuss care mi-a
-salvat viața în maniera sa modestă și decentă.
-D-na Silvia Martina
-CH-6014 Littau,
-6 septembrie 1982
-
-<
-
-Dr. F. B. (Berchtesgaden) a scris într-o revistă:
-
-18
-
-Tratamentul modificat al lui Breuss prin post împotriva cancerului.
-
-„Căutați în permanență medicamente fără să luați în
-considerare postul, când acesta s-ar putea dovedi că e un bun
-remediu."
-
-Nu vom trata cancerul în nici un alt mod, poate doar dac ă industria farmaceutică va inventa
-medicamente puternice care, similar tratamentului tuberculozei, pot învinge orice. Dar, ca o
-consecință a folosirii chimicalelor, organismele noastre vor fi mai sensibile decât în prezent.
-Metoda chimio-farmaceutică poate rezolva stadiul actual al boli lor prin tratarea simptomelor, dar
-va genera consecințe grave în viitor. Astfel nu vom fi mai s ănătoși; din contră, omenirea va fi din
-ce în ce mai expus ă la boli. Iat ă d e c e a r t r e b u i s t u d i a t e c u a t e nție tratamentele naturale ale
-cancerului.
-Rudolf Breuss, un austriac din Bludenz și terapeut prin mijloace naturale, a dezvoltat un
-astfel de tratament. Dl. Breuss are, ca și mine, 87 de ani și o vast ă experien ță în medicina
-tradițională. Ceea ce i-a permis să dezvolte noua sa metodă de tratament prin post. După părerea
-mea, a posti este, și va fi întotdeauna, cel mai bun mijloc de dep ășire a bolii. Sute de tratamente
-prin post demonstreaz ă iar și iar c ă nimic nu este mai eficient decât ab ținerea voit ă de la
-mâncare, ce pune în valoare propriile for țe vindecătoare ale organismului. Prea des aceast ă forță
-vitală este subestimată , mai ales de oamenii bolnavi. Ei o neglijeaz ă, de și este cel mai valoros
-lucru ce le-a fost dăruit.
-Câțiva oameni luminați au recunoscut această forță vitală și au încercat s ă o facă cunoscută
-și altora.
-Dl Breuss este unul dintre pu ținii oameni care au încredere în aceast ă forță vitală, deținând
-o bogat ă experien ță în tratamente naturiste. Sistemul de post pe care l-a prezentat dr. Otto
-Buchinger a fost îmbunătățit de dl. Breuss și adaptat spre a fi folosit în prezent.
-Am făcut greșeala să ne cramponăm de regulile lui Buchinger și Waerland care recomandau
-folosirea sucurilor în exclusivitate, când ele ar fi trebuit folosite în combina ție cu anumite plante.
-De asemenea, folosim postul în comb aterea cancerului pentru o perioad ă de timp mult prea
-scurtă. Dl. Breuss a descoperit tratamentul cancerului prin post. Cele mai multe spitale care
-aplică tratamente naturiste nu folosesc metoda postului deoarece dr. Buchinger nu a recomandat
-niciodată postul în cazul cancerului.
-Nu există laud ă suficient de mare pentru îndr ăzneala de a l ăsa pacien ții cu cancer s ă
-postească peste 42 de zile. Postul este de obicei reco mandat doar pentru perioade de 21 de zile.
-Dr. Rohling din Mittenw ald a fost printre pu ținii doctori care au îndr ăznit s ă prescrie postul de
-până la 70 zile. Oamenii au tendin ța să postească doar pentru perioade scurte de timp din cauza
-lipsei de cunoaștere. Pentru informa ții detaliate, studia ți vă rog lucrarea dr. Reckweg, unde sunt
-descrise categoriile de boli și perioadele de timp necesare vindecării lor.
-Deși unele indicații și sfaturi din cartea domnului Breuss par super-optimiste, în special cele
-privitoare la tratarea leucemiei, eu, ca doctor în medicin ă, prefer aceast ă metodă celei prescrise
-de decenii de medicina “ortodoxă ”.
-Un punct de cotitur ă semnificativ în tratarea cancerului a fost atins acum prin lucr ările dr.
-Issels și profesorului Zabel, care nu de puține ori au fost lăudate în presă.
-Metodele lui Breuss sunt mult mai naturale si intense. „Tumoarea trebuie sl ăbită prin post."
-Oricine este familiarizat cu postul, în țelege acest fapt. Corpul va renun ța mai întâi la ceea ce-i
-este mai pu țin necesar. El distinge între ceea ce este s ănătos și ceea ce este nes ănătos, atâta
-timp cât exist ă suficient ă putere. Este util, desigur, dac ă persoana implicat ă în țelege principiul
-forței vitale, sau al for ței vieț ii. Acesta este un punct foarte important - f ără con știentizarea
-principiului forței vie ții este greu de în țeles cum decurge vindecarea, iar pacientul va fi lipsit de
-încrederea necesară.
-Amestecul de sucuri al lui Breuss pe ntru postul de 42 de zile const ă din sfecl ă ro șie,
-morcovi, țelină, ridichi și cartofi, în special suc de cartofi, care este unul dintre cele mai bune
-alimente alcaline si are un efect foar te bun în cazurile severe de boal ă. Totuși, el este de obicei
-desconsiderat în clinicile care aplic ă tratamente naturiste, deoarece are un gust nepl ăcut. Breuss
-recomandă un ceai din coji de cartofi drept alternativ ă, cu care eu sunt de acord. El recomand ă
-pacienților 250 ml din acest amestec de sucuri pe zi, pentru câteva zile, înainte de a începe postul
-propriu-zis, pentru ca bolnavii s ă se obi șnuiască cu el. Sunt de acord și cu aportul de lichide, în
-special ceaiuri de plante, pentru a readuce sistemul metabolic perturbat înapoi la echilibru. Ceaiul
-pentru rinichi (combinația de ceaiuri Breuss) cu salvie și briboi completează tratamentul.
-Breuss recomand ă și ceaiul de g ălbenele, binecunoscut ca remediu împotriva cancerului și
-
-19
-dă instrucțiuni precise asupra modului de preparare a ceaiului.
-Conform înregistrărilor sale, Breuss afirmă că a vindecat peste 40 000 bolnavi de cancer. De
-asemenea afirm ă pe bun ă dreptate că acest tratament poate e șua dac ă au fost aplicate alte
-tratamente convenționale, ca, de exemplu: radiațiile și chimioterapia.
-Acest fapt îl pot confirma în întregime prin propria-mi experien ță. Un tratament natural
-poate avea succes doar dac ă sistemul imunitar al pacientului nu a fost sl ăbit de chimicale
-puternice. Dar, chiar și astfel de cazuri critice au fost ameliorate.
-Breuss spune mereu: Tumorile canceroase se dezvolt ă independent și celulele lor pot fi
-îndepărtate doar prin înfometare cu dieta pe baz ă de sucuri. Într-adev ăr, experien ța în
-tratamentul prin post ne arat ă de-a lungul anilor c ă organismul dizolv ă tot ceea ce îi este str ăin.
-Aceasta a fost părerea mea de-a lungul anilor de practică.
-Întrevăd posibilitatea vindec ării pacienților cu cancer, atâta timp cât omul este suficient de
-curajos și de puternic pentru a urma tratamentul modificat al lui Breuss adaptat omului
-contemporan. Dac ă, în plus, pacientul are și o credin ță puternic ă, atunci pot prevedea cu
-siguranță unele miracole care nu s-au putut petrece în trecut.
-În cursul recentei mele săptămâni de pregătire la Bad Sachsa, am avut ocazia să întâlnesc și
-să pun câteva întreb ări unui bolnav de cancer care participa la cura lui Breuss, ce tocmai fusese
-introdusă. El ajunsese, dup ă cum reieșea din raportul medicului s ău, să îndepărteze cancerul de
-gât și să-și revină complet, deși în acea perioadă suferise o serioasă pierdere în greutate.
-Dr. F. B. (Berchtesgaden)
-
-<
-
-
-
-
-Pentru a aplica corect tratamentul meu v ă rog s ă citi ți cu
-atenție paginile urm ătoare. Astfel ve ți ști cum s ă prepara ți
-diferitele ceaiuri și cum să aplicați corect Tratamentul Total al
-Cancerului.
-Conform experien ței mele, unii pacien ți cu cancer și al ți
-pacienți cu boli aparent incurabile au paturile situate deasupra
-cursurilor subterane de ap ă. Dacă ei dorm în asemenea locuri
-unde sunt cursuri subterane de ap ă, sau fiind suprapuse
-peste un stres geo-patic, ei pot să-și înrăutățească situația.
-Aceste cursuri de ap ă pot fi detectate folosind o nuielu șă de
-alun care se va curba în zona unde se afl ă asemenea cursuri
-de ap ă. Exist ă oameni care și-au schimbat locuinț a și de
-atunci sunt bolnavi. Cauza poate fi faptul c ă acum dorm
-deasupra unor cursuri de apă.
-Pentru înlăturarea acestor cauze pute ți lua o m ăsură imediată
-ce const ă în deplasarea patului la un loc ferit de astfel de
-influențe negative.
-
-De asemenea, nu trebuie să aveți naftalină sau alte
-insecticide în casă.
-
-Rudolf Breuss
-
-20
-
-POATE FI VINDECAT CANCERUL?
-
+## POATE FI VINDECAT CANCERUL?
 
 În organismul uman cancerul apare dintr-o predispozi ție constituț ională
 pentru boală, în combinație cu diferiți factori favorizanți. Chiar și cantități mici de
@@ -976,7 +36,6 @@ foarte probabil ca schimb ările s ă fie rezultatul altor boli care apar mult m
 frecvent. Dac ă se observ ă oricare dintre aceste semnale atunci, ca o m ăsură
 preventivă, este bine s ă se urmeze Tratamentul To tal al Cancerului cât mai
 curând posibil.
-
 
 Cele mai frecvente cauze ale cancerului
 
@@ -1007,25 +66,13 @@ Nu fumați.
 Alegeți hrana naturală, proaspătă, bogată în vitamine.
 Evitați mâncatul peste măsură.
 
-
 Ce este o tumoare canceroasă?
 
 O tumoare canceroas ă este o excrescență sau o forma țiune independent ă
 care uneori poate fi produs ă de presiune. Dac ă o persoan ă sufer ă de probleme
 gastrice de mai mul ți ani și mâncarea r ămâne în stomac mai multe ore, în final,
 ea produce o asemenea presiune în stomac încât poate conduce la cancer.
-Cu mul ți ani în urm ă am cunoscut un om pe nume Gruber care purta în
-permanență o pip ă lung ă în gur ă, în acela și loc. O dat ă i-am spus so ției lui c ă
-soțul ei va face cu siguranță cancer la buz ă. După circa 10 ani, aceast ă femeie
-m-a rugat s ă vin și s ă-1 v ăd pe so țul s ău. Am întrebat-o „De ce? Are cancer la
-buză?” Ea a fost surprins ă și m-a întrebat cum este posibil s ă știu asta. Și i-am
-reamintit că în urm ă cu 10 ani i-am prezis unde se va ajunge. Ea și-a reamintit
-imediat conversația noastră. Am fost să-1 vizitez pe acest bărbat și predicția mea
-s-a confirmat. Buza inferioar ă arăta ca o barb ă, în form ă de roi de albine. Merit ă
-menționat și faptul c ă tumoarea elimina lichid care se scurgea întreaga zi.
-Doctorul a aranjat ca un recipient de cauciuc s ă-i fie ata șat de buz ă pentru a
-măsura cantitatea scurgerilor — cam 4 litri pe zi!
-Pretutindeni unde se exercit ă presiuni crescute, în orice parte a corpului,
+Cu mul ți ani în urm ă Pretutindeni unde se exercit ă presiuni crescute, în orice parte a corpului,
 sângele înceteaz ă s ă irige acea regiune, care în cele din urm ă va muri. Dup ă
 părerea mea, aceast ă parte dore ște s ă tr ăiască, astfel încât încearc ă s ă
 suplinească deficien țele, pe seama unor zone și astfel pune ba zele unui nou
@@ -1040,7 +87,6 @@ sânge și aceasta cauzeaz ă metastaze. De aceea este mai bine s ă nu lez ăm
 umflătura sau excrescența. Cei în cauză ar trebui să înceapă imediat Tratamentul
 Total al Cancerului. Uneori nu este posibilă operația, iar tratamentul cu radiații nu
 poate ajuta. În astfel de cazuri este necesar un alt tratament.
-
 
 Vindecarea cancerului
 
@@ -1073,25 +119,8 @@ tratament, dar au fost uimi ți și l-au acceptat după vindecarea bolnavilor. C
 astfel de doctori trebuie admirați.
 În zilele noastre știm ceva mai mult. Adesea m ă întrebam de ce bolnavii de
 cancer, chiar cu o tumoare mic ă, sau cei care au suportat deja o opera ție, abia
-pot să mănânce câte pu țin, sau nu m ănâncă deloc. R ăspunsul a venit sub forma
-următoare: în 1962 am vizitat o femeie care avea un cancer inoperabil la stomac.
-Pentru o lun ă și jum ătate ea n-a mâncat apro ape nimic. Poate crede ți c ă este
-imposibil. La acea vreme am considerat c ă ea a tr ăit atât de mult direct pe
-seama tumorii. 20 de ani mai târziu ea mai era înc ă în via ță, în vârst ă de 87 de
-ani.
-Această femeie avea un cancer ulcerat la stomac. În fiecare diminea ță și
-seară, îi d ădeam ceai de sclipe ți (Potentilla erecta), pentru a închide cancerul, și
-am reușit.
-Din a treia zi s-a oprit vomitatul și ea fost în stare să bea două linguri de suc
-de legume și pe zi ce trecea putea consuma tot mai mult. Dup ă 10 zile doctorul,
-care o vizita zilnic, a spus: „Observ o îmbunătățire considerabilă.”
-El a întrebat femeia: „Poți mânca ceva?”
-Și ea a răspuns: „Da.”
-El a continuat: „Spune-mi ce poți mânca?”
-„Doar sucuri”, a răspuns ea.
-„Și ele nu te fac să te simți mai rău?” a întrebat.
-„Nu” a r ăspuns, ad ăugând c ă a v e a n e v o i e d e f o a r t e p uțin suc în timpul
-întregului tratament.
+pot să mănânce câte pu țin, sau nu m ănâncă deloc. Tratamentul urmat de aceasta a fost Tratamentul Total al Cancerului, completat, dimineața și seara, cu ceai de sclipeți (Potentilla erecta) pentru a închide cancerul ulcerat.
+
 Acum îmi este foarte clar de ce bolnavii de cancer, cu o tumoare mare beau
 doar pu țin suc și nu au nevoie de mâncare, sp re exemplu de proteine. Totu și,
 bolnavii de cancer cu o tumoare mică (în stadii inițiale) nu pot rezista doar cu suc
@@ -1107,7 +136,6 @@ suc, alimentele cu proteine sunt ev itate. Organismul nu este capabil s ă tr ă
 fără proteine, astfel încât sângele, înfometat de proteine, devoreaz ă toate
 excrescențele inutile, de șeurile de materie și umfl ăturile. Astfel sângele
 realizează vindecarea.
-
 
 Aceasta este o operație fără cuțit!
 
@@ -1131,40 +159,7 @@ puțin pentru o vreme.
 Acum c ă s-au f ăcut aceste preciz ări, sper s ă nu mai fie nel ămuriri asupra
 acestui subiect.
 
-
-Câteva exemple
-
-Primul meu caz, o doamn ă care suferea de cancer la sân de mult timp, mi-a
-urmat dieta cu sucuri. Și a ob ținut un succes deplin. Ast ăzi ea este înc ă
-sănătoasă și nu mai are nici o urm ă de tumoare (vezi m ărturia). Când am aplicat
-prima dată tratamentul cu sucuri, nu le spuneam pacien ților că au cancer. Totu și
-această doamnă știa de mult ă vreme și i-a fost recomandat ă opera ția cu mult
-timp în urm ă. Dar ea s-a decis s ă nu o fac ă deoarece mama sa a fost operat ă
-pentru aceeași boală și a murit la scurt timp dup ă aceea. I-am spus că aveam un
-remediu, dar dieta mea cu sucuri presupuneam c ă este utilă doar pentru bolnavii
-de cancer la stomac. Ea a urmat dieta și n-a mai avut dureri. A fost dificil pe acea
-vreme pentru c ă nu exista storc ătorul de legume; ele trebuiau rase și stoarse cu
-un tifon sau o pres ă de ro șii. Ei bine, această doamn ă M.N. din Bludenz s-a
-vindecat. După 42 de zile tumoarea a dispărut complet.
-Un alt caz: Dup ă ce am tratat-o pe doamna din Bludenz, am fost rugat s ă-1
-vizitez pe domnul Joseph F. din Gotzis care suferea de cancer la stomac. El nu
-putea fi operat și nu era nici o speran ță de vindecare. Acest om a urmat și el
-Tratamentul Total al Cancerului, s-a refăcut pe parcursul a 42 de zile și a murit în
-1971, în vârstă de 80 de ani.
-În aceea și zi am fost s-o vizitez pe doamna Olga M., din Bludenz, care
-suferea de cancer la stomac și intestine. Și ea a urmat cura cu sucuri împreun ă
-
-24
-cu dl Joseph F. din Gotzis. Dup ă 42 de zile, și ea a fost vindecat ă. Următoarea
-pacientă a fost d-na Leonarda din Sams, care suferea de cancer intestinal. Ea a
-venit imediat dup ă tratarea primelor trei cazuri, a urmat Tratamentul Total al
-Cancerului și a fost, de asemenea, vindecat ă. După 25 de ani, la vârsta de 80 de
-ani, era încă un pictor activ.
-
-<
-
-
-TRATAMENTUL TOTAL AL CANCERULUI
+## TRATAMENTUL TOTAL AL CANCERULUI
 
 În timpul acestui tratament nu este permis s ă mânca ți, timp de 42 de zile,
 nimic altceva decât suc de legume și ceaiurile recomandate, doar în cantit ățile
@@ -1188,17 +183,13 @@ Cancerul tr ăiește doar din hrana solid ă, deci, dac ă be ți doar sucul meu
 legume și ceaiuri de plante, 42 de zile, excrescen ța canceroas ă moare și
 dumneavoastră trăiți.
 Chiar dacă pierde ți de la 5 la 15 kg în greutate în aceast ă perioadă, vă veți
-simți bine. Eu însumi am urmat tratamentul și am lucrat mai mult ca niciodat ă în
-acea perioadă.
-Este util s ă consuma ți circa 250 ml de suc pe zi, cu alimenta ție normală,
+simți bine. Este util s ă consuma ți circa 250 ml de suc pe zi, cu alimenta ție normală,
 câteva zile înainte de a începe di eta cu suc, pentru ca astfel s ă vă acomodați cu
 sucul.
 
 <
 
 25
-
-
 
 PENTRU A SUPRAVIEȚUI, ESTE NEVOIE DOAR DE
 125 ml PÂNĂ LA 250 ml DE SUC PE ZI!
@@ -1210,10 +201,7 @@ Puteți bea până Ia 500 ml, dar nu este necesar.
 În plus, din când în când, se poate lua o înghițitură de suc de
 varză murată (moare) dacă vă place.
 
-
-
 Ceaiuri importante pentru Tratamentul Total al Cancerului
-
 
 1. Ceai de salvie (Salvia officinalis)
 
@@ -1308,8 +296,8 @@ Puteți s ă mai be ți pu țin suc (cu înghi țituri mici) și dup ă amiaz ă
 plante după prescripție.
 Puteți bea până la 500 ml de suc pe zi, dar nu e obligatoriu!
 
+## IMPORTANT:
 
-IMPORTANT:
 În timpul Tratamentul Total al Cancerului și al tratamentului pe
 jumătate de perioad ă (21 de zile), sucul de legume, preparat
 conform instrucțiunilor mele, trebuie s ă fie luat cu înghi țituri mici și
@@ -1437,7 +425,8 @@ cea mai mare parte a con ținutului intestinelor va fi absorbit de organism. De
 aceea puteți avea o mișcare a intestinelor rară timp de câteva zile, fără a vă simți
 inconfortabil. Totuși trebuie să aveți grijă să vă evacuați intestinele regulat.
 
-BINE DE ȘTIUT:
+## BINE DE ȘTIUT:
+
 Combinația de ceaiuri, recomandat ă pentru cancer la oase și
 plămân este eficient ă pentru toate tipurile de cancer. Cu siguran ță
 pot recomanda acest ceai tuturor bolnavilor de cancer, pentru
@@ -1470,8 +459,6 @@ ceaiuri conform instruc țiunilor, împreună cu ceai de salvie și ceaiul pentr
 suficient de puternic.
 
 Vă rog să vă verificați în mod regulat tensiunea.
-
-
 
 Terapia mea prin post nu trebuie s ă produc ă anxietate sau
 iritare pacientului.
@@ -1596,8 +583,6 @@ pentru a confirma aceste succese, chiar dac ă ei înc ă nu au capacitatea s ă
 explice. Aș fi foarte fericit dac ă Tratamentul Total al Cancerului va fi îmbun ătățit
 în combinație cu alte metode de succes de tratare a cancerului.
 
-
-
 Sfaturi speciale pentru cura cu sucuri de legume
 
 Faceți multe exerciții și inspirați aer proaspăt!
@@ -1614,10 +599,10 @@ cu supă de ceapă.
 5. Pentru a îmbunătăți numărul celulelor din sânge.
 6. Adjuvant în boli ca: artrita sau artroza.
 
-IMPORTANT:
+## IMPORTANT:
+
 Bolnavii de cancer trebuie să renunțe la fumat. Fumătorii nu vor
 obține niciodată succes cu sucul meu de legume!
-
 
 Câteva aspecte importante privind tratamentul cu suc de legume Breuss
 
@@ -1649,8 +634,6 @@ Nu acceptați nici o persoană care fumează, în apropierea pacientului.
 Încurajați pacientul, pe parcursul tratam entului, cu o atitudine pozitiv ă care
 poate fi transmisă prin vorbe și fapte.
 
-
-
 Informații suplimentare importante
 
 Pentru încurajarea multor persoane
@@ -1675,9 +658,8 @@ dimineața.
 Bolnavii de cancer cu diabet, care sunt dependen ți de insulin ă, trebuie s ă
 continue tratamentul cu insulină.
 
+## AVERTISMENT:
 
-
-AVERTISMENT:
 În caz de cancer la ficat sau la vezicula biliar ă, nu beți niciodată
 o can ă plin ă de supă dintr-o dat ă. E mai bine s ă lua ți cam 10
 linguri de sup ă cald ă la fiecare or ă. Be ți și o can ă de ceai de
@@ -1696,22 +678,6 @@ exterioară. Pr ăjiți-o în ulei vegetal pân ă devine aurie. Ad ăugați cir
 apă rece. Aduce ți la punctul de fierbere și mesteca ți pân ă se înmoaie ceapa.
 Adăugați legume rase fin și strecura ți. Be ți doar zeama, nu și ceapa. Ve ți fi
 încântat de această „supă bună”.
-
-Altă surpriză a supei de ceapă
-În toamna anului 1988, împreun ă cu soția mea am urmat Tratamentul Total
-al Cancerului cu sup ă de ceap ă. So ția mea suferea pe atunci de osteoporoz ă a
-coloanei vertebrale.
-După 17 zile, în care a b ăut supa de ceap ă, s-a simț it mai bine și la vârsta
-de 86 de ani a fost capabilă să lucreze din nou.
-Noi mânc ăm acum sup ă de ceap ă f o a r t e d e s , l a f e l și sup ă de p ăstăi de
-fasole. Experienț a ne-a demonstrat c ă p ăstăile uscate de fasole pot forma o
-mâncare completă și sănătoasă.
-Prin fierberea păstăilor uscate de fasole, ele devi n la fel cu cele proaspete și
-pot fi folosite chiar și ca salată de legume. Am înțeles că păstăile uscate de fasole
-au fost folosite la ceai pentru diabetici. De obicei, ele sunt aruncate.
-Acum, cu aceast ă informa ți e n i m e n i n u v a m a i m u r i d e f o a m e ! ( F o l o s iți
-fasolea ațoasă numai pentru ceai).
-
 
 Cunoaștere și știință
 
@@ -1751,77 +717,11 @@ cunoașterea este oprită de acțiunile oamenilor de știință iresponsabili.
 
 37
 
-LEUCEMIA
+## LEUCEMIA
 
 Cu câtva timp în urmă, am descoperit c ă leucemia s-ar putea s ă nu fie un
 cancer al sângelui dar trebuie să fie o alterare a sângelui, cauzată de o afectare a
 circulației venoase portale. Leucemia e vindecabilă în multe cazuri.
-În ziua aceea, am fost chemat acas ă la d-na Regina Lorunsen. Înainte de a
-merge în camera pacientei, so țu l e i , R o b e r t , m i - a s p u s că ea are leucemie
-confirmată de toți doctorii dintre Feldkirch și Dalaas, care au consultat-o.
-Am întrebat: „De ce m-ați rugat să vin?”
-El a r ăspuns: „Noi nu i-am spus ce este în neregul ă cu ea și dorim s ă-i
-îndeplinim toate dorin țele înainte de a muri. Iar când ea a întrebat de
-dumneavoastră, noi v-am chemat. Dați-i puțină liniște.”
-„Aceasta ar semăna cu o minciună”, am spus.
-Am intrat în cameră și am făcut un diagnostic iridologic, dar numai pentru că
-nu am citit în nici o carte cum ap are leucemia în irisul unui om. A șa de mul ți
-doctori au diagnosticat leucemia încât trebuie că așa era.
-Din diagnosticul iridologic am tras concluzia c ă leucemia nu era un cancer al
-sângelui, ci o alterare a sângelui, cauzat ă de o îmboln ăvire a circula ției venoase
-portale. Această îmbolnăvire a cauzat depresie. Și acesta s-a dovedit a fi cazul.
-O dată ce am înțeles aceasta, am știut imediat ce am de făcut.
-I-am instruit și pe ceilal ți ce s ă fac ă și imediat am aplicat o compres ă
-deoarece ea avea temperatură mare. În timp ce ieșeam, soțul ei mi-a spus:
- „I-ați spus so ției mele c ă se va îns ănătoși”, lucru pe care el nu-l credea.
-„Aceasta este împotriva tutu ror prognosticurilor celorlal ți doctori și a raportului
-spitalului.”
-Am spus: „Pot fi și 100 de doctori care s ă v ă spun ă c ă ea va muri. Eu v ă
-spun c ă va tr ăi.” El era înc ă derutat și credea c ă eram un prost. L-am sf ătuit,
-totuși, să-mi urmeze cu strictețe instrucțiunile.
-După o săpt ămână, nu m-am putut opri s ă nu merg s ă o v ăd pe aceast ă
-femeie. Ce surpriză!
-Ea lucra și mi-a spus că a ajutat la bucătărie din a 4-a zi. Din nefericire, d-na
-Regina Lorunsen nu ne poate spune pove stea sa, deoarece a murit cinci ani mai
-târziu, într-un accident de mașină.
-De atunci n-am mai avut nici un pacient care s ă moar ă de leucemie. Am
-consultat mul ți oameni suferinzi de leucemie. I-am ajutat pe to ți și ei s-au
-însănătoșit.
-Deci, nu există nici un motiv ca să ne temem de leucemie.
-În 28 iulie 1964, am fost chemat la un sanatoriu în Alpi, la Wigratzbad lâng ă
-Wangen. Dl. Josef Rädier, fratele propriet ăresei sanatoriului, domni șoara Antonie
-Radier, avea cancer la colon și intestinul subțire.
-Deși doctorii nu-i mai dădeau nici o șansă, intenț ionau s ă-i fac ă o
-colostomie, știind totu și c ă aceasta nu-i va prelungi via ța prea mult. O opera ție
-ar fi putut să-l ucidă. Deci, ea l-a scos din spital.
-Nu s-a petrecut nimic, și domnul Radier se sim țea din ce în ce mai r ău. Sora
-și cuno ștințele lui erau dispera ți când, după zece zile, domni șoara Antonie a
-întâlnit „întâmpl ător” pe domnul A S din Bludenz c ăruia ea i-a spus despre
-necazul ei. El i-a povestit despre mine. Știa că am vindecat complet o femeie de
-70 de ani care avusese cancer la stomac, în aparen ță f ără nici o speran ță de
-vindecare. Domni șoara Antonie a întrebat dac ă acest domn Breuss poate veni
-imediat să-l vadă pe fratele ei.
-
-38
-Am vorbit apoi cu domni șoara Radier care m-a rugat s ă vin imediat,
-deoarece fratele s ău era foarte bolnav. Când am auzit c ă el avea opt copii, cel
-mai mic având doar doi ani, am promis s ă merg. L-am examinat pe domnul
-Radier care era lungit pe canapea în birou și am putut vedea printr-un diagnostic
-iridologic că e l a v e a c a n c e r l a c o l o n și intestinul sub țire. Ei au confirmat c ă
-diagnosticul meu este asemănător celui de la spital.
-Le-am spus celor opt copii, care plângeau cu to ții, că eram capabil s ă-l ajut.
-Am stabilit și faptul că el avea o inimă puternică și plămâni buni care-l putea face
-să urmeze mai u șor Tratamentul Total al Cancerului și că va fi apt s ă lucreze din
-nou. Aceasta s-a întâmplat, dup ă cum pute ți observa din m ărturie. El a murit 20
-ani mai târziu, în 8 ianuarie 1985, de atac de cord.
-Prin domnul Radier, vestea despre mine s-a r ăspândit la multe mii de
-bolnavi suferinzi de tot felul de afec țiuni. Timp de mul ți ani, am consultat zilnic
-oameni ce sufereau de cancer sau cu leucemie. Mul ți dintre ace știa, cărora nu li
-se mai d ădea nici o șansă, au supravie țuit! Deci, v ă rog, nu v ă mai teme ți de
-cancer sau leucemie!
-
-
-
 Ce trebuie să faceți când aveți leucemie?
 
 După cum am menționat anterior, leucemia este rezultatul unei îmbolnăviri a
@@ -1832,8 +732,6 @@ bolnavul nu poate înțelege cauza.
 Deci, dac ă suferi ți de leucemie, c ăutați s ă g ăsiți cauza fundamental ă a
 problemei.
 Relaxarea mentală este primul pas spre însănătoșire.
-
-
 
 Tratamentul leucemiei
 
@@ -1846,7 +744,8 @@ Beți suc de legume cu înghi țituri mici în timpul zilei, de preferat înaint
 masă. Acest concentrat de vitamine și minerale este foarte u șor absorbit în
 combinație cu alte alimente.
 
-IMPORTANT:
+## IMPORTANT:
+
 Vă rog s ă citiți și comentariile mele privin d ceaiul pentru rinichi
 (combinația de ceaiuri Breuss), ceaiul de salvie, mâncarea
 reîncălzită, naftalina. Desigur, este important s ă beți 250 ml de
@@ -1857,8 +756,6 @@ depresii severe au nevoie de mult noroc pentru a se vindeca.
 Încă o dat ă, este foarte important de men ționat c ă spray-urile
 cu chimicale, odorizantele pentru încăperi, insecticidele, etc., nu
 trebuie să fie ținute în casă.
-
-
 
 DE CE ANUMITE BOLI SUNT INCURABILE, CHIAR DACĂ AU UN DIAGNOSTIC
 CORECT ȘI UN TRATAMENT POTRIVIT?
@@ -1884,84 +781,15 @@ imposibil să vindeci orice boală atâta timp cât există în casă otrăvuri 
 camforul artificial, DTT, spray-uri contra insectelor, odorizantele pentru înc ăperi,
 etc.
 
+**Metoda aplicată în cazurile de intoxicație cu naftalină și alți compuși volatili**
 
-Câteva exemple extrase din miile de cazuri tratate
+Naftalina, camforul artificial, DDT-ul, spray-urile contra insectelor și odorizantele
+pentru încăperi blochează vindecarea oricărei boli cât timp se află în casă. Tratamentul:
+se elimină complet otrava din locuință, se fac fumigații cu rășină naturală de brad
+(ca tămâia) o dată pe zi, timp de două săptămâni, se bea ceaiul pentru rinichi
+(combinația de ceaiuri Breuss) și se curăță pielea afectată cu ceai.
 
-Primul caz:
-Alice B, soția unui jurist, m-a consultat. Prin diagnostic iridologic am găsit că
-avea o problem ă serioas ă la piele. Ea a confirmat c ă o avea de 42 de ani. Nici
-unul dintre 200 de doctori câț i au consultat-o, din care 100 erau dermatologi, n-
-au putut să o ajute să-și îmbunătățească starea sănătății.
-După multe examinări atente, am descoperit c ă ea era sever otr ăvită prin
-inhalarea naftalinei. Aceasta, desigur, anula orice posibilitate de vindecare.
-Femeia a negat c ă ar avea vreun fel de otrav ă în casa sa. Am pariat pe 300 de
-mărci că există naftalină în casa sa. O puteam vedea ca o fotografie în irisul său.
-Ea nu a acceptat sfatul meu de a bea ceai și nici s ă fac ă baie cu plante
-pentru piele. Dezam ăgită, a dorit s ă plece, dar eu i-am spus c ă voi merge s ă o
-vizitez a doua zi, pentru a-i ar ăta naftalina din casa sa. Mi-a spus c ă-mi pierd
-vremea.
-Primul lucru, a doua zi,: am mers la ea. Deschizând u șa, ea a repetat c ă-mi
-pierd vremea. Dar i-am spus c ă nu conteaz ă, deoarece eu am venit din dou ă
-motive: „Primul: să o ajut, și al doilea: să-mi confirm diagnosticul.”
-
-40
-Cum nu mai intrasem niciodată la ea în casă, am putut mirosi naftalina.
-„Aș putea paria pe 1.000 de m ărci”, am spus, și i-am ar ătat o lumânare
-mare, de m ărimea unei sticle, într-un sfe șnic de fier. Devenind mai prietenoas ă,
-ea mi-a explicat c ă a adus această lumânare dintr-o excursie în Anglia. A avut
-peste un metru în ălțime și un diametru de 10-l5 cm. Și-a amintit c ă aceasta
-putea fi folosită pentru a elimina toate moliile și gândacii. Casa mirosea ca în
-urma unei descărcări toxice!
-Am scos lumânarea și am aranjat s ă fie f ăcute fumiga ții cu r ășină (ca
-tămâia). Ea mi-a acceptat sfatul, a luat ceaiurile, a cur ățat petele dureroase de
-pe piele cu ceai și, după 40 de zile, boala de piele s-a vindecat complet.
-
-Al doilea caz:
-În mai 1965, am întâlnit într-un sanatoriu o femeie a cărei fiică de 12 ani era
-oarbă. Specialistul oftalmolog a diagnosticat o paralizie a nervului optic. Nu erau
-de ajutor nici opera ția, nici ochelarii, nici alte forme de tratament. I-am f ăcut un
-diagnostic iridologic. A reie șit că trebuia existe naftalină în apartamentul ei. Ea a
-confirmat că a pus pastile de naftalină pentru molii în fiecare dulap.
-Am instruit-o ce trebuia s ă facă, promi țându-i fetiței că va putea vedea din
-nou în circa trei s ăptămâni - dac ă va scoate naftalina și va face fumiga ții cu
-rășină naturală de brad în fiecare zi, timp de două săptămâni.
-Când am reîntâlnit-o, după trei săptămâni, doamna era foarte fericită și mi-a
-spus c ă fiica ei și-a recâ știgat aproape în întregime vederea. V ă pute ți imagina
-cât de fericit am fost și eu.
-I-am spus s ă mearg ă la specialistul oftalmolog și s ă-i spun ă. El trebuia s ă
-știe că tânăra sa pacientă ar fi rămas oarbă, dacă otrava n-ar fi fost eliminată. De
-asemenea am rugat-o s ă-i spun ă oftalmologului despre recomand ările mele
-pentru a putea să ajute și alți pacienți.
-
-Al treilea caz:
-O doamnă din Hamburg, care a locuit în Bludenz, m-a consultat în leg ătură
-cu severa sa boală de piele. De peste trei ani, ap ăreau regulat multe bășici mari,
-pline cu lichid, pe întregul corp, într-o succesiune foarte ciudată: 5 zile pe stomac
-și piept, 5 zile pe spate și fese. Apoi din nou, pe coapse. De obicei ap ăreau bășici
-mici în primele trei zile… și, în a patra zi, aceste b ășici deveneau mari, pline cu
-lichid, peste 80 la num ăr, trebuind s ă fie stoarse când mânc ărimea devenea de
-nesuportat. Din a cincea zi ele dispăreau - dar apăreau apoi din nou!
-Am întrebat-o de ce n-a consultat niciodată un doctor. Ea a explicat că dorea
-să fie tratată doar de un practician naturist și a refuzat s ă mearg ă la orice alt
-doctor. Ea a venit acum la mine deoarece Constable M ăhr i-a povestit despre
-succesul tratamentelor mele.
-Printr-un diagnostic iridologic, am descoperit c ă întreaga afec țiune a fost
-cauzată de otr ăvirea cu naftalin ă. Când i-am spus aceasta, ea s-a emo ționat
-foarte tare, spunând: „Acum voi fi vindecată!”
-Am fost surprins de încrederea ei. Dar ea mi-a explicat c ă tat ăl ei a fost
-farmacist într-o farmacie homeopat ă și i-a spus c ă a ține în cas ă naftalin ă,
-camfor artificial, sau DTT, reprezint ă o crim ă cu premeditare! Dar, dup ă ce a
-pierdut o mare parte din avere în r ăzboi, ea și-a p ăstrat toate hainele la
-naftalină!
-După conversația noastr ă, naftalina a fost eliminat ă și casa a fost fumigat ă
-cu rășină naturală de brad timp de dou ă săptămâni. Femeia a b ăut ceaiul pentru
-
-41
-rinichi (combina ția de ceaiuri Breuss), și-a cur ățat pielea afectat ă și s-a
-însănătoșit total, după doar trei săptămâni.
-
-
-MULTE BOLI APARENT INCURABILE SUNT VINDECABILE!
+## MULTE BOLI APARENT INCURABILE SUNT VINDECABILE!
 
 Din câte cunosc, exist ă peste 10.000 de boli de piele. Bine, nu exist ă nici un
 doctor care s ă le cunoasc ă pe toate? Adesea bolile pa r incurabile deoarece nu li
@@ -2002,21 +830,6 @@ trebuie să fie puse în jurul capului, ținute calde și fixate cu o c ăciulă
 prosop. Pentru a intensifica efectul, be ți în acela și timp și ceaiul pentru rinichi
 (combinația de ceaiuri Breuss).
 
-Alte întrebuințări ale frunzelor de varză
-Era, de exemplu, o femeie de 23 de ani care suferea de pleurezie și
-tuberculoză. Doctorul nu putea s ă o ajute. Când am consultat-o, avea o
-temperatură de 41°C. Am sf ătuit-o s ă aplice pe piept comprese cu frunze de
-varză în timpul nopții. Dimineața, frunzele de varză erau complet negre, murdare
-
-42
-și r ăspândeau un miros nepl ăcut. Dup ă o sp ălare complet ă cu ap ă cald ă, a
-repetat tratamentul încă 12 ore.
-După cum am prev ăzut, a ap ărut o piele urticat ă pe o zon ă de 20 cm x 20
-cm. Am insistat s ă continue cu compresele din nou. și din nou. S ă ne oprim
-acum, ar fi însemnat s ă permitem bolii s ă se dezvolte din nou, aceast ă urticarie
-fiind o reac ție natural ă. După trei s ăptămâni, pielea s-a cur ățat și boala a
-dispărut complet.
-
 Există ipohondrii?
 După părerea mea, dintr-o sută care sunt considerați că își imaginează că ar
 fi bolnavi, nu există mai mult de unul care s ă sufere cu adev ărat de ipohondrie.
@@ -2025,74 +838,6 @@ imaginează bolile pe care le au. Dac ă doctorul nu e capabil s ă decid ă car
 problema pacientului, atunci, după părerea lui, este trecut în categoria pacienților
 care își imaginează. Dar, de ce este posibil s ă sufere un pacient va fi explicat în
 relatarea următoare:
-„De opt ani vomitam tot ceea ce mâncam sau beam. Dup ă ce mâncam,
-durerea era greu de suportat. Câ nd nu mâncam nimic, credeam c ă voi muri de
-foame. De obicei pe la mijlocul nopții începeam să vomit.
-Am fost internat în spital. Medicul șef, care m-a examinat cu raze X, mi-a
-spus că am multe pietre la fiere. Eu n-am crezut și l-am rugat s ă mă opereze la
-stomac și nu la fiere. Medicul șef s-a gândit c ă el are dreptate și m-a operat de
-pietre la fiere, dar acolo nu erau pietre. Dup ă operație, el mi-a explicat c ă a fost
-o torsiune a veziculei biliare, pe care el a remediat-o. Dar situa ția s-a înr ăutățit,
-pentru c ă stomacul era trac ționat din cauza unei aderen țe provocate de o
-operație de hernie mai veche, la peretele abdominal.
-Doi ani mai târziu, radiologul a diagnosticat cancer la stomac, și a f ăcut o
-nouă operaț ie. Ei bine, nu sufeream de canc er la stomac, deoarece stomacul,
-după cum am mai spus, era trac ționat datorită unei operații mai vechi de hernie.
-Chirurgul mi-a examinat intestinele și n-a găsit nimic, deci am fost considerat un
-ipohondru. Examenul intestinal a determinat o deplasare intestinal ă astfel încât
-doi ani mai târziu o parte s ănătoasă din colonul descendent a trebuit s ă fie
-scoasă.
-Doi ani mai târziu, pur și simplu n-am mai pu tut îndura durerea și m-am
-internat din nou. Au trecut 8 ani și n-a existat nici o clip ă f ără durere și înc ă
-vomitam tot ce mâncam.
-Și acum, ascultați cu atenție ce-am pățit: am stat în pat dou ă săptămâni, cu
-o durere insuportabilă; la miezul nop ții - de obicei - vomitam totul. în fiecare
-dimineață, veneau doi medici interni și spuneau sarcastic: «bun ă diminea ța,
-practician ne-medical care-i ajut ă pe alții, dar nu-i în stare s ă se ajute pe sine!»
-Nu puteam răspunde, deoarece mă durea tare gura din cauza regurgita ției acide.
-Dar, doream să vorbesc cel pu țin o dată, deci, pentru o zi întreag ă n-am mâncat
-nimic. În ziua urm ătoare, ace ști doi doctori s-au reîntors la mine batjocoritori,
-dar de data aceasta le-am dat răspunsul corect.
-Le-am spus: «Vorbiți ca niște copilași stupizi, fără noimă, sau fără minte.»
-«Ce-ai spus?» a întrebat unul dintre doctori.
-«Da, ca niște copii mici, stupizi», am spus.
-«Poftim! Repetați», a spus doctorul.
-«Da, de o mie de ori» am spus, «p entru voi repet mecanic ca un copil.
-Cauza suferin ței mele e simplă. Nu trebuie s ă fii doctor, sau practician naturist,
-pentru a descoperi ce este în neregul ă cu mine. Și un școlar ar putea s ă o fac ă.
-
-43
-Dacă mâncarea nu mai poate s ă treacă prin corp, înseamn ă că stomacul s-a lipit
-și doar o operație poate ajuta.»
-«Dar dumneavoastră nu mai ave ți stomac», a declarat doctorul, «pentru c ă
-stomacul dumneavoastră a fost extirpat.»
-«Dar, asta e ceea ce scrie în fișa medicală», am spus.
-«Ei bine, pacien ții spun adesea minciuni, dar noi știm c ă acesta este
-adevărul, deoarece noi avem raportul asigurării dumneavoastră medicale.»
-Apoi i-am asigurat din nou că încă mai am stomacul, la fel ca și ei.
-«Dar eu știu exact ce gândi ți despre mine, că sunt un ipohondru. Un doctor
-mi-a spus odată că ar trebui să gândesc sănătos și apoi voi fi sănătos», am spus.
-Dar, gândirea pozitivă are limitele ei. Dacă cineva amputează mâna cuiva, el
-poate să-și repete de o mie de ori c ă mai are mâna, dar privind bra țul, el știe că
-nu e adevărat. Același lucru se petrece cu cineva care este bolnav cu adevărat.
-I-am întrebat pe cei doi doctori, dac ă știu ce vitez ă de sedimentare a
-hematiilor are sângele unui ipohondr u, dar n-am primit nici un r ăspuns. Apoi am
-spus: «0-3 pentru că altfel este sănătos, dar la mine este 84. Acum aș vrea să vă
-întreb: de ce a fost testat ă viteza de sedimentare dac ă nu se trage nici o
-concluzie din ea.» Apoi le-am explicat cum s ă-i trateze pe ipohondri, care i-a
-uimit.
-La sfâr șitul conversa ției, ei au aflat multe și au raportat integral medicului
-șef, care a pregătit o nouă examinare cu raze X. Rezultatul: stomacul meu exista
-încă și era prins în aderen țe a șa cum le-am spus. Chirurgii mi-au scos apoi
-stomacul. Dup ă operaț ie au venit 9 doctori s ă m ă vad ă, și doctorul șef mi-a
-explicat: «Domnule Breuss, ce a ți suferit dumneavoastr ă to ți ace ști ani? Numai
-dumneavoastră a ți avut dreptate.» Aceast ă confesiune m-a f ăcut foarte fericit.
-Întâmplarea se petrecea în 1956.”
-Am scris aceasta, doar pentru a ilust ra ce poate îndura un pacient când
-diagnosticul doctorilor este gre șit și ei cred c ă el este un ipohondru. În fruntea
-acestora se afl ă, desigur, suferin ța mentală și emoțională pe care cineva trebuie
-să o îndure, la fel ca durerea fizic ă produs ă de toate acestea. Nu uita ți pre țul
-implicat de serviciile de sănătate.
 Doctori, vă rog ascultați aceste cuvinte. Nu doresc să vă ofensez, dar gândiți
 de două ori înainte de a acuza pe cineva de ipohondrie. Voi aveți în mâini destinul
 pacientului. În plus, ipohondria este o boal ă, ce trebuie de asemenea s ă fie
@@ -2100,8 +845,9 @@ tratată corect.
 
 44
 
-MODALITĂȚILE DE TRATARE A ANUMITOR BOLI
+## MODALITĂȚILE DE TRATARE A ANUMITOR BOLI
 
+### Dureri de gât
 
 Dureri de gât
 În caz de dureri în gât la înghi țire, faceți gargară cu ceai de salvie, alternativ
@@ -2118,7 +864,7 @@ bine cu un fular de lână. Puneți pacientului o căciula de lână și așeza�
 acoperiți-l cu o p ătură până la gât, acoperind bra țele și subsuorile. L ăsați
 compresa una, două ore, sau până se trezește.
 
-Pierderea apetitului
+### Pierderea apetitului
 Uneori, corpul nu are nevoie de hrană pentru o perioadă determinată. Acesta
 este adesea cazul copiilor. Nu for țați niciodat ă un copil s ă m ănânce. De obicei
 apetitul revine singur. Este util să se bea 3 căni de Meum mutellina pe zi, timp de
@@ -2133,7 +879,7 @@ excesiv. Circulația venoasă portală absoarbe mâncarea din stomac și intesti
 organism. Vena portă absoarbe în acela și mod în care r ădăcinile unui copac își
 absorb hrana din sol.
 
-Arterioscleroza
+### Arterioscleroza
 În completare la Tratamentul Total al Cancerului:
 Beți una sau dou ă căni de ceai rece de coada șoricelului, pe zi, cu înghi țituri
 mici. L ăsați un vârf de cu țit de plant ă la infuzat într-o can ă de ap ă fiart ă
@@ -2157,6 +903,8 @@ niciodată probleme. Dac ă v ă certa ți cu ei, nu- și pot scoate
 aceasta din cap și e posibil să devin ă dificili. De aceea, fi ți
 mereu de acord cu ei.
 
+### Artrita
+
 Artrita
 Faceți Tratamentul Total al Cancerului timp de 21 de zile.
 Artrita poate s ă apar ă acolo unde exist ă în cas ă otr ăvuri chimice ca
@@ -2165,6 +913,8 @@ Tratamentul este asem ănător celui pentru reumatism. Dac ă ave ți artrit ă 
 genunchi, sta ți într-un picior (f ără s ă îndoiț i genunchiul), apoi alterna ți cu
 celălalt. Dacă o aveți la încheieturile mâinilor, împingeți brusc mâinile înapoi către
 antebraț, de câteva ori pe zi.
+
+### Artroza
 
 Artroza
 Faceți Tratamentul Total al Cancerului ti mp de 21 de zile. În plus, pute ți lua
@@ -2183,6 +933,8 @@ cană cu ap ă (purificată sau filtrat ă) fiartă. Asigurați-vă că priza de
 moartă este identic ă cu amestecul de cre țișoară și pătrunjel alpin fiert (circa 20-
 30 de flori). Nu beți mai mult de o cană pe zi.
 
+### Enurezis
+
 Enurezis
 Beți o can ă de ceai de coada șoricelului, pe zi, cu înghi țituri mici. L ăsați o
 priză de coada șoricelului la infuzat, 10 minute, într-o cană cu ap ă (purificată sau
@@ -2192,6 +944,8 @@ apare fără știre. Pentru a ține pacientul pe burt ă, legați o pânz ă în
 un nod mare la spate. Acesta îi va face inconfortabilă poziția pe spate.
 
 46
+### Anemia
+
 Anemia
 Beți cam 3 c ăni de ceai cald, sau rece, de urzic ă, cu înghi țituri mici. L ăsați
 trei prize de urzic ă la infuzat, 10 minute, în apă (purificată sau filtrat ă) fiart ă,
@@ -2212,7 +966,6 @@ Faceți-l de câteva ori pe zi. Toate sunetele au efectul lor în regiuni specif
 corpului. Aceste exerci ții seam ănă cu un „masaj pentru creier”. Pl ămânii sunt
 complet goli ți prin expira ție. Astfel, oxigenul proasp ăt poate pătrunde în toate
 zonele plămânilor.
-
 
 Reînnoirea celulelor sanguine
 Acest tratament nu trebuie f ăcut dac ă ave ți tensiune mare. Pune ți 81 de
@@ -2241,6 +994,8 @@ Asigurați-vă că perele r ămase sunt întotdeauna acoperite cu vin și beți 
 atâta vin, încât perele să rămână acoperite. Nu beți vin dimineața.
 
 47
+### Tensiunea crescută
+
 Tensiunea crescută
 Beți una sau două căni de ceai, rece, de coada șoricelului, cu înghițituri mici.
 În plus, de trei ori pe zi, lua ți o linguri ță de drojdie de bere (nu drojdie pentru
@@ -2248,6 +1003,7 @@ gătit).
 Exercițiile de respirație ajută.
 Exercițiu de respira ție: Inspira ți profund pe nas. Apoi, expira ți pe gur ă
 scoțând sunetele:
+
 I E O U A Ș
 
 Sau, expira ți zumz ăind pe nas cu sunetul MMM. Expira ți circa 7 secunde și
@@ -2297,6 +1053,8 @@ normală, dar celelalte degete nu au, lua ți doar păducel, nu și
 valeriană. O lunulă mică sau lipsa ei arată că mușchii inimii sunt
 slăbiți și de aceea tensiunea este mică.
 
+### Hemoragii de orice origine
+
 Hemoragii de orice origine
 Dacă suferi ți de hemoragie la stomac, intest ine, nas, gingii sau hemoragie
 cerebrală trebuie s ă lua ți ceai de sclipe ți, o dat ă pe zi. Prepararea ceaiului și a
@@ -2313,6 +1071,8 @@ Trebuie s ă se fiarb ă o linguri ță de Peucedanum ostruthium, trei minute, �
 din care se ia o înghi țitură la fiecare or ă. Acest remediu este mai eficient când îl
 luați în prima zi a apariției hemoragiei.
 
+### Bronșita
+
 Bronșita
 Dacă ficatul și bila dumneavoastr ă sunt s ănătoase, atunci bronșita se poate
 vindeca foarte ușor cu ceai de ceapă. Fierbe ți 10-l5 minute două cepe mici, cu
@@ -2322,12 +1082,14 @@ pătlagină, lichen de piatr ă și Meum mutellina. Din acestea be ți cât v ă
 special ceai de Meum mutellina. Lăsați toate aceste ceaiuri la infuzat, 10 minute,
 în apă (purificată sau filtrată) fiartă, fierbinte.
 
-Constipația
+### Constipația
 Trebuie s ă mânca ți câte o bucat ă de varză murat ă, de câteva ori pe zi, și
 imediat după aceasta be ți o înghi țitură de ap ă. În plus, be ți 2-3 c ăni de ceai de
 salvie pe zi. Oamenii care beau zilnic ceai de salvie nu sufer ă niciodat ă de
 constipație.
 Nu mâncați pâine albă sau ciocolată.
+
+### Difteria (declarată)
 
 Difteria (declarată)
 Pentru difterie, face ți gargară cu ceai de pătrunjel de câmp și de asemenea
@@ -2387,6 +1149,8 @@ stingeți un foc cu petrol. În locul compreselor cu o țet pute ți pune compre
 frunze de varz ă. Ele trebuie bine strânse în jurul zonei, pentru a ține cald! Nu le
 lăsați niciodată mai mult de 12 ore.
 
+### Degerăturile
+
 Degerăturile
 Dacă cineva are deger ături, trebuie s ă fiarb ă 20, sau mai multe… castane
 necomestibile, pisate, în 3-5 litri de apă, timp de o oră. Partea afectată trebuie să
@@ -2395,6 +1159,8 @@ necomestibile, pisate, în 3-5 litri de apă, timp de o oră. Partea afectată t
 fie apoi înmuiat ă în acest amestec timp de o jum ătate de or ă. Acela și amestec
 poate fi re-folosit dac ă nu aveți suficiente castane. Pentru cazuri u șoare ar trebui
 să fie suficiente 3-4 astfel de băi, dar în cazuri severe se fac până la 12 băi.
+
+### Ulcer varicos
 
 Ulcer varicos
 Pentru ulcere varicoase, face ți o baie complet ă timp de 14 zile, cu ceai de
@@ -2408,6 +1174,8 @@ Ulcerul varicos ar trebui s ă se vindece doar cu b ăi de coada calului. Orice
 alte băi nu sunt indicate în acest caz. Înainte de a face baie, vă sugerez să luați 5
 ml de extract de păducel (1000 mg).
 În final, dar nu în ultimul rând, bandajați-vă picioarele și mergeți mult.
+
+### Bila - prea puțină
 
 Bila - prea puțină
 Dacă scaunul este deschis la culoare, sau aproape alb, este un semn c ă
@@ -2431,12 +1199,12 @@ mănânce. După ce a mâncat a doua ridiche i-au ap ărut pe corp pete ro șii.
 câteva zile icterul a dispărut complet.
 Consultați întotdeauna un doctor în caz de icter.
 
-Ulcerații - externe
+### Ulcerații - externe
 Pentru ulcerații externe se face o compres ă cu smântână proaspătă, cu mult
 zahăr. Smântână r ăcorește și înmoaie, iar zah ărul vindec ă umfl ăturile. Dac ă nu
 aveți smântână, atunci folosiți miere de albine.
 
-Gripa
+### Gripa
 Ștergeți întregul corp al bolnavului , de sus în jos, cu o pânză de flanel
 înmuiată în apă rece, de șase ori într-o jumătate de oră.
 
@@ -2452,7 +1220,7 @@ Să bea ceai cald de soc și de tei, tot timpul, pân ă când începe s ă tran
 apoi doar c ălduț. În plus, s ă bea ceai de salvie și suc cald de lămâie cu ap ă.
 Pentru a preveni gripa, mâncați multă sfeclă (crudă sau gătită).
 
-Cataracta
+### Cataracta
 La fel ca la toate bolile, be ți ceaiul meu pentru rinichi (combina ția de ceaiuri
 Breuss), timp de trei săptămâni și beți ceai de salvie tot timpul.
 Nu mâncați mâncare fierbinte!
@@ -2460,6 +1228,8 @@ Nu mâncați mâncare fierbinte!
 Beți ceai din coji de mere cât de mult dori ți, dar numai dup ă ora 16. Pentru
 a prepara ceaiul din coji de mere, fierbe ți cojile, 3-6 minute. Este foarte bun
 pentru nervi.
+
+### Hemoroizi
 
 Hemoroizi
 Faceți clismă, folosind 250 ml apă rece, o dată sau de două ori pe zi, timp de
@@ -2469,6 +1239,8 @@ hemoroizi, de exemplu bitter suedez (tinctură sau cremă).
 Pentru hemoroizii care sângerează, luați în plus 3 picături de sclipeți nediluat
 (îl puteți pune într-o bucățică de zahăr brut), o dată sau de două ori pe zi.
 În caz de sângerare, consultați întotdeauna un medic.
+
+### Hidropizie a inimii / hidropizie abdominală
 
 Hidropizie a inimii / hidropizie abdominală
 În caz de hidropizie a inimii, sorbi ți o lingur ă de ap ă pur ă filtrat ă sau
@@ -2499,6 +1271,8 @@ mentă sau de roiniță, dar numai cu lingura.
 În timpul tratamentului pute ți mânca. Nu be ți ap ă în timpul mesei. Lua ți
 următoarea lingură după zece minute de la masă.
 
+### Afecțiuni ale mușchiului cardiac
+
 Afecțiuni ale mușchiului cardiac
 Pentru afecțiuni miocardice trebuie să faceți băi la antebrațe timp de 8 zile.
 Puneți ambele antebrațe în apă rece, 20 de secunde, și rotiți-le asemeni unei
@@ -2516,6 +1290,8 @@ există o pauz ă în curb ă sau urc ă precum un vârf, înseamn ă c ă sufer
 probleme miocardice. Când tensiunea este foarte sc ăzută, nici o lunulă nu poate
 fi văzută (vezi: Tensiunea scăzută).
 
+### Febra fânului
+
 Febra fânului
 În caz de alergie la fân, trebuie s ă v ă cur ățați nasul temeinic, înainte de a
 ieși afară.
@@ -2526,10 +1302,14 @@ pentru a putea repeta procedeu l în timpul zilei. Nu uita ți să vă suflați 
 captat.
 Este important să respirați pe nas și nu pe gură.
 
+### Tuse
+
 Tuse
 Beți ceai de ceapă, ca la bron șită. Fierbeți două cepe mici, cu coaj ă, într-un
 litru de ap ă cu 100 g zah ăr brut, timp de 10-l5 minute. Be ți cu înghi țituri mici,
 rece sau călduț.
+
+### Accese de plâns
 
 Accese de plâns
 Dacă un copil are accese de plâns, da ți-i o can ă de ceai de stelu țe (Stellaria
@@ -2546,6 +1326,8 @@ Ceaiul de stelu ță este bun și pentru pete pe piele, pe fa ță sau pe corp. 
 acest caz, trebuie s ă îl lua ți o perioad ă mai lung ă de timp. Este foarte bun și
 pentru inimă.
 
+### Infertilitate
+
 Infertilitate
 Dacă un cuplu căsătorit de mai mult timp nu are copii, dar î și dorește, atunci
 le pot sugera ambilor, bărbat și femeie, să bea, cu înghițituri mici, o cană de ceai
@@ -2560,7 +1342,7 @@ Prepararea: pune ți o priz ă de năprasnic la infuzat, într-o can ă de ap ă
 Dacă acest ceai nu ajut ă, atunci este o situa ție mai mult sau mai pu țin fără
 speranță.
 
-Dureri de cap
+### Dureri de cap
 Există oameni care sufer ă de boli de stomac, dar nu au niciodat ă dureri de
 stomac. În schimb, ei au dureri mari de cap, deasupra ochilor și la frunte. Aceste
 dureri de cap sunt simptome pentru afec țiuni ale stomacului. Astfel de oameni
@@ -2581,7 +1363,7 @@ fiecare zi, adesea ajut ă foarte repede, în special dac ă durerea vine de la 
 Acest ceai nu trebuie s ă stea mai mult de 10 minute în ap ă (purificată sau
 filtrată) fiartă, fierbinte.
 
-Dureri menstruale
+### Dureri menstruale
 Fierbeți o priză de turi ță mare sau Tormentil anserina , în 250 ml lapte, vin
 sau cidru. Puneți Tormentil anserina în apă rece. Apoi fierbeți-l. Dacă-l introduceți
 direct în apă fierbinte, este ineficient. Când a fiert, luați-l de pe foc și strecurați-l.
@@ -2592,6 +1374,8 @@ va observa o îmbunăt ățire imediată, după a doua va fi mai bine, dup ă a 
 
 54
 mai bine. După a patra nu veți mai suferi de crampe puternice.
+
+### Vene varicoase la picioare
 
 Vene varicoase la picioare
 Dacă suferi ți de aceste probleme, sta ți întins pe spate de câteva ori pe zi.
@@ -2611,7 +1395,7 @@ O comparație similar ă: dac ă o anvelop ă de biciclet ă care are un punct s
 este umflată, ea va avea o proeminen ță în acel punct. Asem ănător se întâmplă și
 în cazul venelor varicoase.
 
-Tulburări circulatorii
+### Tulburări circulatorii
 Cei ce sufer ă de tulbur ări circulatorii au aproape în permanen ță picioarele
 reci; în primul rând, ei ar trebui s ă elimine această problem ă. În acest caz,
 trebuie să faceți băi calde, alternativ cu b ăi reci, la picioare. Tratamentul cu ap ă
@@ -2694,11 +1478,15 @@ istorioară, din care am învățat foarte mult.
 
 56
 
+### Gușa
+
 Gușa
 În caz de gușă, beți o cană de ceai din rădăcină de angelică pe zi. O linguriță
 de rădăcină de angelic ă trebuie fiart ă trei minute într-o can ă de apă. O can ă cu
 ceai de r ădăcină de angelic ă con ține exact cantitatea de iod pe care o necesit ă
 glanda tiroidă zilnic.
+
+### Astm - cardiac și pulmonar
 
 Astm - cardiac și pulmonar
 Dacă ficatul și bila func ționează bine, be ți ceai de ceapă, timp de trei
@@ -2709,6 +1497,8 @@ Beți-l rece de-a lungul zilei.
 În plus, mânca ți ridiche (chinezeasc ă) cu coaj ă, ad ăugați pu țin sos, dar nu
 sare! De asemenea be ți 250 ml de lapte cald, vin, sau cidru cu Tormentil
 anserina. Pentru preparare, vezi: Crampe.
+
+### Ulcer - gastric și duodenal
 
 Ulcer - gastric și duodenal
 Dacă ficatul și bila func ționează bine, timp de dou ă zile, mânca ți doar fri șca
@@ -2722,6 +1512,8 @@ Trebuie să beți cu înghițituri mici o can ă sau două de ceai din frunze de
 fiecare zi. Frunzele de nalbă trebuie lăsate la infuzat în ap ă (purificată sau
 filtrată) fiartă, fierbinte, 10 minute. Dar, va trebui să beți acest ceai un an întreg.
 Ulcerele la stomac ne-tratate pot conduce la cancer.
+
+### Gastrite - inflamații și alte afecțiuni ale stomacului
 
 Gastrite - inflamații și alte afecțiuni ale stomacului
 În caz de gastrite, când durerea e mare, de obicei înainte de mese, lua ți o
@@ -2753,12 +1545,11 @@ faceți-le cu ap ă normal ă. Pentru o compres ă, lua ți o batist ă mare, î
 care trebuie s ă fie umezit ă (nu ud ă). Această batist ă umed ă trebuie s ă fie
 aplicată în regiunea stomacului și învelită complet într-o haină călduroasă.
 
-
 Scleroză multiplă
 Exercițiu de respira ție: Inspira ți profund pe nas. Apoi expira ți pe gur ă
 scoțând sunetele:
 
-I E O U A Ș
+IEOUAȘ
 
 Sau, expira ți zumz ăind pe nas cu sunetul MMM. Expira ți circa 7 secunde și
 inspirați cam tot 7 secunde. Întregul exerci țiu ar trebui s ă vă ia cam 10 minute.
@@ -2780,6 +1571,8 @@ fiartă, fierbinte.
 Respirația r ău mirositoare poate fi atribuit ă și din ților cariați. În acest caz,
 mergeți la dentist. Din ții stricați trebuie extra și. Nu este recomandat nici un alt
 tratament.
+
+### Glandele suprarenale - boli și simptome
 
 Glandele suprarenale - boli și simptome
 Dacă glandele suprarenale nu produc suficien ți hormoni sexuali, bolnavului i
@@ -2803,6 +1596,8 @@ Faceți-l de câteva ori pe zi. Toate sunetele au efectul lor în regiuni specif
 corpului. Aceste exerci ții seam ănă cu un „masaj pentru creier”. Pl ămânii sunt
 complet goli ți prin expira ție. Astfel, oxigenul proasp ăt poate pătrunde în toate
 zonele plămânilor.
+
+### Colici - renale și biliare
 
 Colici - renale și biliare
 Pentru colici renale și biliare se pune o compres ă de coada calului pe rinichi.
@@ -2846,7 +1641,7 @@ Un efect stimulator are și mirosirea de săruri sau apă de colonie.
 
 59
 
-Țiuituri în urechi
+### Țiuituri în urechi
 Acestea sunt cauzate, în principal, de o congestie a sângelui în timpan, sau
 de o irita ție a nervilor auditivi. Un alt motiv poate fi rigidizarea timpanului, sau
 dopurile de cear ă în urechi. Țiuitul din urechi poate fi, adesea, remediat prin
@@ -2870,6 +1665,8 @@ foarte strâns și ținute la căldură.
 Frunzele de varză trebuie muiate în apă rece sau călduță, pentru a îndepărta
 orice mizerie. Ș tergeți-le cu o cârp ă și presați-le cu un sucitor, pân ă se înmoaie
 nervurile (nu îndepărtați nervurile!).
+
+### Cum să vă pregătiți pentru o operație
 
 Cum să vă pregătiți pentru o operație
 Dacă trebuie s ă v ă opera ți în viitorul apropiat, atunci, cu trei s ăptămâni
@@ -2897,6 +1694,8 @@ Afecțiuni ale prostatei
 În multe cazuri, o afec țiune a prostatei poate degenera în cancer. Un b ărbat
 care are probleme când urinează, le rezolvă cel mai bine în câteva zile, luând ceai
 sau capsule de Epilobium.
+### Mărirea prostatei
+
 Mărirea prostatei
 Beți în fiecare zi, cu înghi țituri mici, câte o cană de ceai de Epilobium
 (pufulița cu flori mici), înainte de micul dejun și înainte de cin ă. Lăsați o linguriță
@@ -2904,11 +1703,15 @@ de ceai la infuzat, 10 minute, în apă (purificată sau filtrată) fiartă, fie
 Sau, luați o capsulă de Epilobium (1.000 mg) zilnic, înainte de micul dejun și
 înainte de cină.
 
+### Cancer la prostată / testicule
+
 Cancer la prostată / testicule
 Faceți Tratamentul Total al Cancerului și beți ceai de salvie.
 Beți o cană de ceai de Epilobium, de 4 ori pe zi, cu înghi țituri mici, înainte de
 mese. Dac ă nu ave ți ceai, pute ți lua capsule, sau extract de Epilobium (1.000
 mg), de până la 4 ori pe zi.
+
+### Reumatism
 
 Reumatism
 Pentru orice tip de reumatism, trebuie s ă be ți ceaiul meu pentru rinichi
@@ -2933,7 +1736,7 @@ Un om de știință roman scria:
 „De ce trebuie să mori, când salvia crește în grădina ta?”
 Cred că ceaiul de salvie este cel mai important dintre toate.
 
-Diareea
+### Diareea
 Pentru a vindeca dizenteria, be ți cu înghițituri mici o can ă de ceai de sclipe ți
 pe zi. Fierbe ți o linguri ță de r ădăc i n i î n 2 5 0 m l d e a pă, timp de 3 minute.
 Picăturile trebuie luate ne-diluate. Un efect favorabil apare dup ă trei pic ături.
@@ -2951,7 +1754,7 @@ mai ad ăugați r ădăcini la tinctur ă și lăsați amestecul la soare încă
 Același procedeu poate fi repetat a treia oar ă. în acest mod, ve ți avea o tinctur ă
 triplă și foarte eficientă.
 
-Insomnia
+### Insomnia
 Când suferi ți de insomnie, be ți, peste noapte, una sau mai multe c ăni de
 ceai din coji de mere. Poate fi b ăut cald sau rece. Acest ceai e un tonic grozav
 pentru nervi și îi întărește foarte bine.
@@ -2962,24 +1765,24 @@ adăuga zahăr brut. Cojile de mere uscate se pot p ăstra 10 ani, având propri
 similare cu cele proaspete. Cojile de mere nu se usuc ă complet, ele sunt
 întotdeauna umede la atingere și nu se înnegresc niciodată.
 
-Sughițuri
+### Sughițuri
 În acest caz, lua ți o linguri ță de seminț e de chimen, mestecaț i-le bine și
 înghițiți-le cu puțină apă.
 
-Tremurături
+### Tremurături
 Umpleți sticle cu ap ă fierbinte, înveliți-le cu o pânz ă și puneți-le între corp și
 brațe, între picioare, două de fiecare parte a picioarelor, una la t ălpi și una pe
 piept. Acoperi ți pacientul cu o p ătură. Tremur ăturile dispar de regul ă dup ă 10
 minute.
 
-Graviditatea
+### Graviditatea
 Multe femei gravide fac adesea gre șeala de a mânca prea mult pentru a
 naște un copil puternic. Aceasta este gre șit, mai ales în ultimele dou ă luni. Un
 astfel de copil poate adesea cauza o na ștere dificil ă. Dac ă copilul este
 supraponderal, cât timp este înc ă în uter, de obicei, el va avea un apetit sc ăzut
 după aceea.
 
-Arsuri la stomac
+### Arsuri la stomac
 Oamenii care sufer ă d e a r s u r i l a s t o m a c a u p r e a m u l t a c i d g a s t r i c . U n
 remediu pentru această afecțiune este ceaiul de pelin.
 Pentru o alinare imediată trebuie s ă mâncați o bucată de brânză grasă (dacă
@@ -2990,7 +1793,7 @@ exces. Mâncate cu pâine, produc chiar mai mult acid gastric și arsurile se
 
 62
 
-Bâlbâiala
+### Bâlbâiala
 Bâlbâiala e o tulburare nervoasă.
 De aceea, be ți una până la trei c ăni de ceai din coji de mere cald sau rece,
 seara.
@@ -3001,7 +1804,7 @@ nervilor și ea nu mai poate scoate o vorb ă. Trebuie s ă be ți 250 ml de lap
 Tormentil anserina, diminea ța. Cei care nu pot bea lapte, pot fierbe o priz ă de
 Tormentil anserina, în vin sau cidru.
 
-Nevralgia trigeminală
+### Nevralgia trigeminală
 Aceasta este o boală foarte dureroas ă. Poate fi tratată cu un masaj special.
 Luați un metru de tâmplărie
 Întoarceți în jos partea superioar ă, pentru a ob ține formele din fig. 5 și 6.
@@ -3025,7 +1828,7 @@ corpului. Aceste exerci ții seam ănă cu un „masaj pentru creier”. Pl ăm�
 complet goli ți prin expira ție. Astfel, oxigenul proasp ăt poate pătrunde în toate
 zonele plămânilor.
 
-Alcoolism
+### Alcoolism
 Poate exist ă un b ăutor în familie care adesea a inten ționat s ă se .lase de
 băut, dar care nu a reu șit niciodat ă. Este aproape sigur c ă exist ă o otrav ă în
 casă, în acest caz, spray-uri pentru insecte, molii, sau altele asem ănătoare. Dacă
@@ -3038,6 +1841,8 @@ a bea.
 
 63
 
+### Flebită (Inflamație a venelor)
+
 Flebită (Inflamație a venelor)
 Faceți comprese cu o țet și comprese cu lapte b ătut (brânză de vaci), de 1-3
 ori pe zi. Ele de obicei au succes, dup ă 3 sau 4 zile. De asemenea, be ți ceaiul
@@ -3046,14 +1851,14 @@ tipurile de inflama ții s ă sorbi ți un pic de apă pur ă în timpul zilei. 
 afectate venele picioarelor, bandaja ți picioarele, de la c ălcâi în sus și face ți multe
 exerciții. Consultați un medic, deoarece flebita se poate transforma în tromboză.
 
-Negii și alunițele
+### Negii și alunițele
 Aceste afec țiuni pot fi clasate drept forme ne-maligne de cancer și pot fi
 tratate cu ușurin ță. Zona afectat ă trebuie acoperit ă cu g ălbenele - frunze sau
 flori, sau ambele, și s ă le lăsaț i peste noapte. Dac ă nu ave ți g ălbenele, pute ți
 folosi crema de g ălbenele, sau bitter suedez. Operarea aluni țelor poate fi foarte
 periculoasă.
 
-Apariția dinților
+### Apariția dinților
 Uneori copiii au dureri mari când le cresc dinț ii și plâng zile întregi. Ei bine,
 această situa ție poate fi remediat ă cu u șurință, dac ă le da ți o linguri ță de ap ă
 pură din 10 în 10 minute. De fiecare dat ă când copilul începe s ă plâng ă,
@@ -3063,7 +1868,7 @@ apă.
 Dacă faceți asta, copilul nu va mai avea probleme cu apari ția dinților și dinții
 vor crește mai bine și mai puternici decât în alte condiții.
 
-Diabetul
+### Diabetul
 În acest caz, tratamentul Kneipp const ă în diet ă și hidroterapie. Sunt strict
 interzise toate mânc ărurile dulci, ca și alcoolul, cafeaua și ceaiul. Pâinea alb ă,
 supa de carne și deserturile ce con țin făină albă nu trebuie mâncate. În schimb,
@@ -3081,7 +1886,8 @@ o dată sau de două ori pe zi.
 
 64
 
-DESPRE CURA CU ALOE
+## DESPRE CURA CU ALOE
+
 Autor: Medic Monica Mănișor
 
 Ajungând în aceast ă fază a expunerii despre bolile a șa-zis incurabile,
@@ -3119,33 +1925,30 @@ eliminarea unor toxine.
 Este de presupus c ă acest fapt este datorat unor structuri biologice ce
 urmăresc menținerea unor proporții corecte între diferitele componente.
 
-
 Cele 5 calități importante ale Aloe Vera
 
 1. PENETRAȚIA:
+
 Aloe are capacitatea de a penetra țesuturile umane, pân ă
 la al 7-lea nivel (de la nivelul pielii pân ă la os) și astfel
 poate vehicula componentele sale active. Apa, spre
 exemplu, pătrunde numai 2 straturi, de la nivelul pielii;
 2. ÎMPIEDICĂ INFECȚIA:
-prin proprietăț ile sale antibacteriene, antivirale și
-antiparazitare, dar mai ales prin înt ărirea sistemului
 
-65
-imunitar ;
-3. STIMULEAZĂ REGENERAREA CELULARĂ:
+prin proprietăț ile sale antibacteriene, antivirale și
+antiparazitare, dar mai ales prin înt ărirea sistemului imunitar ;
+
 sub influen ța gelului de Aloe se produce o hr ănire, o
 tonifiere și o cre ștere a celulelor. Fiecare celul ă devine
 mai puternic ă și capabilă s ă î și îndeplineasc ă func ția.
 Dezvoltarea și diviziunea celulară poate să crească de 7-8
 ori față de normal.
 4. SEDATIV;
+
 5. DETOXIFIANT:
+
 prin efectul reglator al metabolismului celular, prin efectul
 purgativ și prin stimularea rinichilor.
-
-
-
 
 Utilizarea plantei Aloe Vera în terapia unor afecțiuni
 Administrată intern, sub form ă de gel (extras din frunz ă dup ă decojirea
@@ -3208,8 +2011,7 @@ adresa: Medic Monica Mănișor, O.P. – 1, C.P.88, 2400 – Sibiu
 
 67
 
-RECOMANDĂRI GENERAL VALABILE
-
+## RECOMANDĂRI GENERAL VALABILE
 
 Fumatul este dăunător
 Oamenii care știu cât este de d ăunător fumatul, nu fumeaz ă. În zilele
@@ -3296,7 +2098,7 @@ Nu uitați: Evitați să mâncați mâncare reîncălzită!
 
 69
 
-CÂTEVA SFATURI PENTRU FERMIERI
+## CÂTEVA SFATURI PENTRU FERMIERI
 
 1. Dac ă o vacă e stearp ă, a r f i b i n e să o hr ăniți trei zile cu nutre țuri
 concentrate, cât mai bine s ărate, amestecate cu o mân ă bună de năprasnic roșu,
@@ -3315,88 +2117,3 @@ ușurarea nașterii, dați-i vacii doze mici din acest ceai, rece, pe parcursul 
 o bucățică de unt trebuie introdus ă în rectul lui. Acoperi ți anusul cu mâinile timp
 de 5-l0 minute până ce untul se topește. Când veți îndepărta mâinile, fecalele vor
 țâșni cu putere.
-
-
-UNICUL MEU ȚEL
-Unicul meu țel este să servesc nu doar pe cei afla ți în suferință aici și pretutindeni, ci și să ajut serviciile de
-sănătate să economisească bani. Dacă fermierii vor urma sfaturile mele și ei vor avea de câștigat.
-Rudolf Breuss
-
-
-<
-
-70
-
-INDEX DE PLANTE ROMÂN – LATIN
-
-
- Meum mutellina
- Peucedanum ostruthium
- Tormentil anserina
-Angelică Archangelica officinalis
-Viță-de-vie Vitis vinifera
-Armurariu Silibum marianum
-Cătina albă Hippophae rhamnoides
-Chimion Carum carvi
-Ciuboțica cucului Primula officinalis
-Coada calului Equisetum arvense
-Coada șoricelului Achillea millefolium
-Crețișoară Alchemilla vulgaris
-Echinacea Echinacea purpurea
-Gălbenea Calendula officinalis
-Ginkgo Ginkgo biloba
-Lichenul de piatră Cetrari islandica
-Lumânărică Verbascum thapsus
-Mentă Mentha piperita
-Mentă de apă Mentha aquatica
-Mușețel Matricaria recutita
-Nalbă Malva moschata
-Năprasnic Geranium robertianum
-Păducel Cracategus monogina
-Pătlagină îngustă Plantago lanceolata
-Pătlagină lată Plantago ovata
-Pătrunjel de câmp Pimpinella magna
-Pelin Artemisia absinthium
-Pufuliță (cu flori mici ) Epilobium parviflorum
-Roiniță / melisă Melissa officinalis
-Rostopască Chelidonium majus
-Rotunjoară Glechoma hederacea
-Salvie Salvia officinalis
-Silur / Bureniță Euphrasia officinalis
-Sclipeți Potentilla erecta
-Soc Sambucus nigra
-Steluță Stellaria media
-Sunătoare Hypericum perforatum
-Tei Tilia europaea
-Troscot Polygonum aviculare
-Turiță mare Agrimonia eupatoria
-Urechelniță Sempervivum tectorum
-Urzică Urtica dioica
-Urzică moartă albă Lamium album
-Valeriană Valeriana officianlis
-Vâsc Viscum album
-
-71
-Violete / Toporaș Viola odorata
-
-A publica aceast ă carte, mi se pare o datorie. Ea este remarcabil ă prin
-metoda pe care o propune, căci este de așteptat ca această metodă să se impună
-în anii ce vin.
-
-Această carte nu ar fi ap ărut în limba român ă, dac ă nu am fi beneficiat de
-sprijinul din partea unor oameni ca:
-
-Doctorul Horst Poehlmann, din Aust ralia, recunoscut pe plan interna țional
-datorită succeselor remarcabile ob ținute în
-vindecarea cancerului,
-
-Medicul, doctor în Ayurveda, Adriana Poehlmann,
-
-Medicii:
-Monica Mănișor,
-Dana Lepinzan
-Ovidiu Chiș,
-
-Și, nu în ultimul rând, fundația “Surya”, din Sibiu.
-
-Florin Stănescu

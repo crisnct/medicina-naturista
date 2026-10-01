@@ -1,5 +1,4 @@
-Recomandari
-===========
+# Recomandari tuberculoza
 
 -Ginseng siberian: 1 capsula x 2 ori /zi
 

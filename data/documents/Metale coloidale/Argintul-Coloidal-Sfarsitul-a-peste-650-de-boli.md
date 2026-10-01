@@ -1,6 +1,4 @@
-!{width="2.084722222222222in" height="1.4277777777777778in"}
-
-**Argintul Coloidal**
+Argintul Coloidal
 
 **Sfârșitul a 650 de Boli**
 
@@ -189,23 +187,3 @@ Bibliografie:
 **5.** Utilizând studiile statisticile ale Universității Harvard din anul 1984, Consiliul Național de Securitate precum și alte surse, Campania de Protejare a Drepturilor Consumatorilor a zis că mulți oameni mor în U.S.A din neglijență medicală decât din oricare altă cauză accidentală. Dacă aceste statistici sunt corecte, erorile medicale omoară mai mulți oameni în fiecare an decât accidentele de circulație, căderile, înecurile, incendiile, electrocutările, armele de foc și otrăvurile, toate acestea însumate.
 
 **6.** \"Doar 10 sau 20 de procente din toate procedurile medicale utilizate în mod curent în practica medicală sau dovedit a fi eficiente de către încercările controlate. \-- *U.S. Office of Technology Assessment*
-
-**7.** *Encyclopedia Britanica, 1910*
-
-**8.** *Health Consciousness Magazine, vol. 15, no. 4*
-
-**9.** Argintul Coloidal este dovedit ca fiind deosebit de eficient în cazul problemelor intestinale. Dr. Henry Crooks a descoperit că argintul în stare coloidală este foarte germicidal, destul de inofensiv pentru oameni și absolut netoxic. Diferit față de un compus chimic, argintul, în formă coloidală, poate fi aplicat într-o formă mult mai concentrată, cu rezultate corespunzător mult mai bune. Toate ciupercile, virușii, streptococii, stafilococii, și alte microorganisme patogene sânt distruse în trei sau patru minute: de fapt nu există microbi cunoscuți care să nu fie distruși de Argintul Coloidal în 6 minute sau mai puțin, de o concentrație de 5 ppm, deși nu există nici un fel de efecte secundare la concentrațiile mari. \-- *\"Use of Colloids in Health and Disease,\" quoted in \"Report: Colloidal Silver,\" Health Consciousness, Vol.15, No.4*
-
-**10.** „\[Argintul Coloidal\] nu este un compus chimic care conține argint, ci un metal pur de argint de mărime submicroscopică de doar câțiva atomi, aflați în suspensie în apă pură, datorită micii încărcări electrice a fiecărei particule \-- *Health Consciousness, Vol.15, No.4*
-
-**11.** Ca și antibiotic, Argintul omoară peste 650 de organisme provocatoare de boli: tulpinile rezistente încetează să se mai dezvolte. Argintul este cel mai bun luptător împotriva germenilor pe care îl avem. Doctorii spun că, luat intern, acesta are efect împotriva sifilisului, holerei, malariei, diabetului și arsurilor puternice. \-- *Bio/Tech News, 1995*
-
-**12.** Dr. Bjorn Nordstrom, of the Karolinska Institute (Sweden\'s equivalent of USA\'s National Institute of Health).
-
-**13.** Argintul metalic (coloidal) nu este toxic, deși, nitratul de argint și alți compuși ai argintului este toxic, și nu trebuie băut. \-- *Dr. Bob Beck*
-
-**14.** Centrul de Control al Otrăvirilor din Agenția de Protecție a Mediului a raportat că Argintul Coloidal nu este toxic, considerându-l nedăunător în orice concentrație.
-
-**15.** FDA a statuat că deoarece Argintul Coloidal este (de 50 de ani) dinainte de 1938, poate continua să fie vândut. *(Septembrie 1991, scrisoare primită de la Ofițerul Siguranței Consumatorului Harold Davies, Administrația Alimentației și Medicamentelor U.S.A.)* Oricum, FDA nu are nici o competență asupra unui element mineral, pur.
-
-**ACEST ARTICOL NU TREBUIE TRATAT ÎN NICI ÎNTR-UN CAZ CA UN ÎNLOCUITOR AL UNEI PRESCRIPȚII MEDICALE SAU UNUI DIAGNOSTIC DE SPECIALITATE. INTENȚIA ACESTUIA ESTE SĂ OFERE UN ISTORIC AL UTILIZĂRII PLANTELOR MEDICINALE ȘI ALIMENTAȚIEI SĂNĂTOASE. TOTI CEI BOLNAVI TREBUIE SĂ CONSULTE MEDICUL DE SPECIALITATE. AUTORUL NU-ȘI ASUMĂ NICI O RESPONSABILITATE DACĂ VĂ PRESCRIEȚI REȚETA DE UNUL SINGUR. FDA NU A EVALUAT ACEAST ARTICOL ȘI ACESTE PRODUSE NU SÂNT DESTINATE PENTRU PREVENȚIA, TRATAREA, SAU ALINAREA BOLILOR.**

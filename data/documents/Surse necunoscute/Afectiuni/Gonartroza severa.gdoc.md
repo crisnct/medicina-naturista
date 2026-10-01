@@ -1,3 +1,5 @@
+# Gonartroza Severa / Gonartrozei Severe
+
 # **Ghid Complet pentru Gestionarea Gonartrozei Severe la 65 de Ani: Abordări Naturiste și Schema de Tratament**
 
 ## **I. Înțelegerea Gonartrozei Severe la Vârsta a Treia**

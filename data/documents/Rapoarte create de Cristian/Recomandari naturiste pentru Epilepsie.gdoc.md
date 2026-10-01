@@ -1,6 +1,6 @@
-**Recomandări naturiste pentru epilepsie**
+# Recomandări naturiste pentru epilepsie
 
-# **Uz intern**
+## **Uz intern**
 
 - **Gemoderivate** din cimișir, vâsc, smochin.
 - Ulei contra epilepsiei
@@ -125,9 +125,7 @@
  * evitați pe cât posibil băuturile alcoolice, proteinele animale, alimentele prăjite în ulei, îndulcitorii artificali și fumatul.
  * nu beți multă apă deodată.
 
-
-
-# **Uz extern**
+## **Uz extern**
 
 - **22Acupunctura**.
 - 24Faceți regulat **mișcare/sport** pentru a îmbunătăți circulația sângelui spre creier.
@@ -140,7 +138,7 @@
  * **Violet**: stimulează imunitatea și sistemul nervos, ajută la dezintoxicare, îndepărtează agresivitatea și frica, oferă inspirație artistică înaltă. Se recomandă utilizarea sa în caz de celulită, boli ale rinichilor și vezicii urinare, tulburări psihice, nevroze, epilepsie, enurezis, insomnie, rahitism, intoxicații cronice.
  * **Indigo**: ajută la interiorizare, purifică sistemul circulator, stimulează activitatea tiroidei și paratiroidelor, este antialgic. Se recomandă în caz de idei obsesive, convulsii, halucinații, psihoze, boli ale nasului și urechilor, sinuzite, astm bronșic.
 
-# **15,16Cauze posibile ale epilepsiei**
+## **15,16Cauze posibile ale epilepsiei**
 
 - accident vascular cerebral.
 - tumoare a creierului.
@@ -153,11 +151,7 @@
 - drogurile.
 - insuficientă oxigenare a mamei în timpul nașterii.
 
-# **Legătura dintre GABA și epilepsie**
-
-
-
-# **13Factori declanșatori ai epilepsiei**
+## **13Factori declanșatori ai epilepsiei**
 
 De cele mai multe ori, o criză epileptică este declanșată de anumite situații sau factori externi, precum:
 
@@ -180,7 +174,7 @@ Identificarea factorilor declanșatori nu este întotdeauna ușoară. Pentru a d
 
 **2,4,7,8,17Plante medicinale și suplimente care pot declanșa criza epileptică**: chimen, isop, obligeană, traista-ciobanului, salvie, pelin, camfor, aspartam, argint coloidal, aur coloidal, cafea.
 
-# **Marele Dicționar al Bolilor și Afecțiunilor – cauze subtile ale îmbolnăvirii**
+## **Marele Dicționar al Bolilor și Afecțiunilor – cauze subtile ale îmbolnăvirii**
 
 Despre persoana cu epilepsie
 
@@ -221,7 +215,7 @@ Persoana cu epilepsie trebuie să își zică:
 - renunț să îi mai controlez pe ceilalți.
 - mă eliberez de toate aceste emoții pe care vreau să le împărtășesc cu ceilalți știind că este singura posibilitate de a ieși din închisoarea pe care mi-am construit-o. Astfel îmi voi găsi adevărul și locul ce mi se cuvine.
 
-# **12Pietre semiprețioase**
+## **12Pietre semiprețioase**
 
 ### **Malahit**
 
@@ -336,7 +330,6 @@ Atenție\!\!\!
 
 - Femeiile nu trebuie să o folosească atunci când este lună plină.
 
-
 **SMARALD**
 **Culoare**: verde intens până la verde închis. Culoarea este dată de conținutul de crom și vanadiu.
 **Formula chimică**: Al2Be3Si6O18, cu ioni de Cr3+ și V.
@@ -383,29 +376,3 @@ Atenție\!\!\!
 - smaraldul opac nu este benefic pentru obținerea armoniei mentale.
 - poate fi confundat cu turmalina verde, fluoritul verde, peridotul, granatul verde, aventurinul. Smaraldul siberian sau de Brazilia \= verdelit, Smaraldul african \= fluorit verde, Smaraldul de cupru \= diopsid.
 
-**Referințe**
-
-1. Sănătate din farmacia Domnului – Maria Treben
-2. Atenționări și contraindicații în folosirea remediilor naturiste.
-3. Curs 3 de Terapii Complementare de la “Centrul internațional de formare pentru medicină complementară/alternativă”.
-4. Curs 1 de Terapii Complementare de la “Centrul internațional de formare pentru medicină complementară/alternativă”.
-5. Curs 16 Terapie Herbală Profesional de la “Centrul internațional de formare pentru medicină complementară/alternativă”.
-6. Curs 14 Terapie Herbală Profesional de la “Centrul internațional de formare pentru medicină complementară/alternativă”.
-7. Curs 9 Terapie Herbală Profesional de la “Centrul internațional de formare pentru medicină complementară/alternativă”.
-8. Curs 6 Terapie Herbală Profesional de la “Centrul internațional de formare pentru medicină complementară/alternativă”.
-9. Sănătate prin legume, fructe, semințe – Ovidiu Bojor.
-10. \- Arta vindecării la poporul român
-11. – Carte de leacuri și rețete naturiste.
-12. – Cristale M-Z
-13. – website
-14. – website
-15. – website
-16. – Vaccinurile – prevenție sau boală – Dr. Christa Todea – Gross
-17. – website
-18. – website
-19. – website
-20. – Rețete tradiționale
-21. \- THE WATER OF LIFE \- A Treatise on Urine Therapy \- JOHN W. ARMSTRONG 1971
-22. \- website
-23. – website
-24. – Vindecare Prin Nutriție – Phyllis A Balch \- 2014

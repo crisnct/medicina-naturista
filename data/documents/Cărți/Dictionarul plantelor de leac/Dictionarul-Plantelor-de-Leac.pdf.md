@@ -167,8 +167,8 @@ ajute în acest demers, vital - să-i zicem, deschizându-ne o ușă spre miraco
 lângă noi.
 
 DICȚIONARUL PLANTELOR DE LEAC 5
-A
-Afinul
+## A
+### Afinul
 Denumirea științifică: Vaccinium myrtillus.
 Denumiri populare: pomușoare, coacăze, afine, afine de munte.
 Prezentare. Afinul este un arbust bogat ramificat, ramurile sale având, în
@@ -211,7 +211,7 @@ De asemenea, trebuie reținută și influența afinului în sporirea acuității
 ales când lumina este redusă sau chiar noaptea.
 În condițiile vieții moderne, valoarea economică a afinelor crește, fiind considerate
 un aliment ecologic.
-Agrișul
+### Agrișul
 Denumire științifică: Ribes uva-crispa sau Ribes grossularia.
 Denumire populară: pomușoare.
 Prezentare. Agrișul este un arbust cu o înălțime, la maturitate, cuprinsă între 60
@@ -238,7 +238,7 @@ utilizate datorită calităților lor laxative și depurative. Au efecte, de ase
 suferințele reumatice, în gută, în afecțiunile cardiace. Totodată, sunt un bun regulator
 al activității digestive și hepatice, precum și un diuretic natural și eficient. Agrișele sunt
 recomandate, cu încredere, și în curele de slăbire.
-Albăstrelele
+### Albăstrelele
 Denumirea științifică: Centaurea cyanus.
 Denumiri populare: măturică, vinețea, floarea paiului, floarea grâului, tătăi șă
 vânătă, iarba frigurilor.
@@ -263,7 +263,7 @@ direcții: calmant, diuretic, astringent. Celelalte efecte în plan terapeutic s
 potențează, în combinație cu alte plante medicinale.
 În mod obi șnuit, albăstrelele sunt utilizate în tratamentele legate de inflamațiile
 ochilor.
-Aloea
+### Aloea
 Denumire științifică: Aloe vulgaris.
 Prezentare. Aloea este o plantă exotică decorativă ce aparține familiei liliaceelor.
 Are frunze foarte groase, consistente, cărnoase. Florile, dispuse în formă de spic, sunt
@@ -282,7 +282,7 @@ Datorită toxicității sale mari (poate fi mortală!), aloea nu se va utiliza d
 îndrumarea specialistului.
 
 DICȚIONARUL PLANTELOR DE LEAC 7
-Alunul
+### Alunul
 Denumirea științifică: Corylus avellana.
 Prezentare. Alunul este un arbust din familia betulaceelor. Poate crește până la
 cinci metri înălțime. Florile sunt sub formă de mâți șori, iar frunzele, aproape ovale, au
@@ -307,7 +307,7 @@ totalitate de organism, fiind foarte hrănitoare. Pentru practica gastronomică 
 au fost puse la punct peste 20 de rețete pe bază de alune.
 Ca plantă medicinală, alunul se remarcă și prin puterea sa depurativă (de curățire
 a organismului), precum și ca fortifiant.
-Amăreala
+### Amăreala
 Denumirea științifică: Polygala amara; Polygala vulgaris.
 Denumire populară: șopârliță.
 Prezentare. Amăreala este o erbacee de mici dimensiuni – maximum 20 cm – cu
@@ -332,7 +332,7 @@ Principalul domeniu de aplicație rămâne, însă, sistemul respirator, amărea
 făcând parte din terapiile privind pneumonia, tuberculoza pulmonară, tusea convulsivă,
 bronșita. În tratamentele cu amăreală se recomandă a se folosi, întotdeauna, și un
 bandaj gastric, deoarece poate irita tractul digestiv.
-Ananasul
+### Ananasul
 Denumire științifică: Ananas sativus.
 Prezentare. Ananasul este o plantă tropicală originară din America. Marele
 navigator Cristofor Columb a văzut ananași în Guadelupa, în 1493. Surprinzător pentru
@@ -364,7 +364,7 @@ ananas are virtuți medicinale, conținând o enzimă ce blochează creșterea n
 insulină din sânge și transformarea zaharidelor în glucide.
 Specialiștii recomandă utilizarea ananasului în terapiile pentru combaterea
 celulitei.
-Anasonul
+### Anasonul
 Denumirea științifică: Pimpinella anisum.
 Denumiri populare: chimen dulce, chimion dulce, bădean, aniș, anison.
 Prezentare. Anasonul este o plantă anuală aromatică, aparținând familiei
@@ -393,7 +393,7 @@ Anasonul este folosit, destul de mult, și în industria băuturilor, pentru aro
 plăcută și pentru corectarea gustului, precum și în bucătărie.
 Ca plantă medicinală, anasonul se remarcă în primul rând prin faptul că
 revigorează activitatea pancreasului.
-Angelica
+### Angelica
 Denumire științifică: Angelica archangelica.
 Denumire populară: angelină, iarba îngerilor, buciniș.
 Prezentare. Angelica este o plantă erbacee aromatică. Face parte din familia
@@ -419,7 +419,7 @@ Sfântului Spirit. Există fel de fel de legende și chiar adevăruri despre ace
 care, se spunea cândva, îi reîntoarce pe om din drumul său spre moarte și-l readuce
 pe calea cea luminoasă a vieții.
 Angelica (Angelica archangelica) este o plantă ocrotită de lege.
-Angelica de pădure
+### Angelica de pădure
 Denumire științifică: Angelica sylvestris.
 Denumiri populare: angelină, iarba îngerilor, anghelică – aceleași ca și pentru
 Angelica archangelica.
@@ -445,7 +445,7 @@ de angelică de pădure sub formă de infuzie.
 În general, angelica de pădure este considerată un revitalizant puternic,
 tratamentele cu extractele din această plantă trezind organismul la o nouă viață.
 Angelica de pădure se întrebuințează, prin tradiție, și în medicina veterinară.
-Anghinarea
+### Anghinarea
 Denumirea științifică: Cynara scolymus.
 Prezentare. Anghinarea este o plantă perenă, cu frunze mari, spinoase-sticloase-
 albicioase. Aparține familiei compozitelor. Datorită calităților sale, medicinale ș i nu
@@ -477,7 +477,7 @@ Acționând asupra organelor care se ocupă de chimia organismului, anghinarea
 este o plantă medicinală des utilizată, fiind și un bun detoxifiant. De altfel, anghinarea
 este o materie primă importantă pentru industria farmaceutică, compușii de anghinare
 fiind incluși în structura multor medicamente.
-Arahidele
+### Arahidele
 Denumire științifică: Arachis hypogaea.
 Denumire populară: alune americane, alune de pământ.
 Prezentare. Arahida este o erbacee anuală, originară din America de Sud. Este
@@ -498,7 +498,7 @@ agent activ de reducere a colesterolului, contribuind astfel la profilaxia unor 
 cardiovasculare.
 Naturiștii recomandă consumarea arahidelor în stare crudă, deoarece numai sub
 această formă calitățile lor nutritive, energetice și medicinale rămânând intacte.
-Ardeiul iute
+### Ardeiul iute
 Denumire științifică: Capsicum annuum.
 Prezentare. Ardeiul iute este o plantă anuală din familia solanaceelor. Are o
 talie redusă și o serie de particularități care, uneori, uimesc. Florile ardeiului iute, mici
@@ -529,7 +529,7 @@ Ardeiul iute este, de asemenea, antiinflamator și antiseptic și se folosește 
 de plămâni, ca expectorant.
 De reținut: ardeiul iute poate vindeca de etilism și tot ardeiul iute e cel care poate
 da o nouă viață coardelor vocale.
-Arinul negru
+### Arinul negru
 Denumirea științifică: Alnus glutinosa.
 Denumire populară: anin.
 Prezentare. Arinul negru este un arbore puternic, aparținând familiei betulaceelor.
@@ -546,7 +546,7 @@ glandelor mamare. Potrivit unor observații și studii recente, infuzia de frunz
 arin negru poate fi utilizată cu bune rezultate împotriva febrei și a inflamațiilor
 gâtului. Compresele cu frunze de arin negru sunt indicate și în tratarea abceselor,
 reumatismelor, paraliziilor.
-Armurariul
+### Armurariul
 Denumire științifică: Silybum marianum sau Carduus marianus.
 Denumiri populare: argințică, scai argintat.
 Prezentare. Armurariul este o plantă bienală întâlnită, în general, sub formă
@@ -585,7 +585,7 @@ Preparatele din frunze sunt recomandate în suferințe de tipul hemoroizilor,
 varicelor, grețurilor.
 
 12 DICȚIONARUL PLANTELOR DE LEAC
-Arnica
+### Arnica
 Denumirea științifică: Arnica montana.
 Denumiri populare: carul pădurarilor, carul zânelor, podbal de munte.
 Prezentare. Arnica este o erbacee și aparține familiei compozitelor. Plantă
@@ -610,7 +610,7 @@ de c auză. Din acest motiv, în mod curent arnica nu se utilizează intern, ci 
 extern.
 Ca plantă medicinală, arnica este „doctorul” oricărui traumatism – echimoze,
 contuzii, hematoame, luxații și chiar rupturi musculare.
-Asmățuiul
+### Asmățuiul
 Denumire științifică: Anthriscus cerefolium.
 Denumiri populare: hasmațuchi, asmațuchi, hașmaciucă.
 Prezentare. Asmățuiul este o erbacee din familia umbeliferelor. În varianta
@@ -633,8 +633,8 @@ dermatozele, fiind utilizat și în proceduri cosmetice, mai ales în cele privi
 feții.
 Asmățuiul are efecte pozitive și în gută, reumatism, scor but, laringită, litiază
 renală (pietre la rinichi), hidropizie.
-B
-Bamele
+## B
+### Bamele
 Denumire științifică: Hibiscus esculentus.
 Prezentare. Bama este o plantă anuală, originară din India. Aparține familiei
 
@@ -649,7 +649,7 @@ sunt apreciate pentru conținutul deosebit de bogat în proteine și grăsimi.
 întotdeauna necesare organismului, dar și pentru unele efecte medicinale demne de
 luat în seamă. Consumul de bame face bine suferinzilor de traheite, laringite, bronșite,
 precum și bolnavilor cu deranjamente și infecții gastro-intestinale.
-Bananierul
+### Bananierul
 Denumirea științifică: Musa paradisiaca; Musa sapietus.
 Prezentare: Bananierul este o plantă anuală ce cre ște în zonele tropicale. Face
 parte din familia musaceelor. Tulpina, ierboasă, poate ajunge până la opt metri înălțime.
@@ -684,7 +684,7 @@ general, și mai ales în întărirea sistemului osos.
 Bananele au calități importante, fiind afrodiziace, antiscorbutice, diuretice,
 laxative. Cu toate că sunt atât de hrănitoare și de accesibile, dr. Ovidiu Bojor afirmă că
 bananele trebuie, totuși, consumate „cu discernământ”.
-Bănuții
+### Bănuții
 Denumire științifică: Bellis perennis.
 Denumiri populare: bănuței, părăluțe.
 Prezentare. Această plantă erbacee, cunoscută sub numele de bănuți sau
@@ -711,7 +711,7 @@ lungă: dermatoze, furunculoze, traumatisme, reumatism, gută, insuficiență he
 renală, astm, laringită.
 Potrivit marelui specialist Jean Valnet, ceaiul preparat din „bănuți este recomandat
 copiilor slabi sau care nu se dezvoltă”.
-Bătrâni șul
+### Bătrâni șul
 Denumire științifică: Erigeron canadensis.
 Prezentare. Bătrânișul este o plantă anuală, erbacee. Originară din America,
 acum este prezentă în toată Europa. Invazia acestei plante în Europa a început încă din
@@ -735,7 +735,7 @@ inflamațiile care apar în sistemul urinar. Este indicat, de asemenea, în reum
 gută.
 Notabilă rămâne contribuția sa în procesul de dezvoltare și întărire a
 leucocitelor.
-Bobornicul
+### Bobornicul
 Denumirea științifică: Veronica beccabunga.
 Prezentare. Bobornicul este o erbacee perenă, aparținând familiei scrofulariaceelor.
 Ca plantă medicinală, bobornicul este mai puțin cunoscut, de și se găse ște lesne în
@@ -761,7 +761,7 @@ Babornicul este socotit, încă din vechime, drept leacul natural de purificare 
 sângelui și chiar a ficatului.
 
 DICȚIONARUL PLANTELOR DE LEAC 15
-Bobul
+### Bobul
 Denumire științifică: Vicia faba.
 Denumire populară: fasole mare.
 Prezentare. Bobul este o erbacee anuală, fiind un membru important al familiei
@@ -789,7 +789,7 @@ deosebit de important în hrana oamenilor. Putem da aici exemplul lui Pitagora, 
 Ca efecte medicinale ale bobului putem menționa: diuretic, sedativ, tonic. Se
 folosește cu precădere în afecțiuni precum colici renale, cistite, cât și în bolile de
 prostată. În mod surprinzător, bobul este recomandat și în afecțiuni reumatismale.
-Bozul
+### Bozul
 Denumire științifică: Sambucus ebulus.
 Denumire populară: bozie.
 Prezentare. Bozul este o erbacee din fa milia caprifoliaceelor, fiind înrudită cu
@@ -810,7 +810,7 @@ edemele, hidropizia, constipația. De asemenea, bozul este recomandat pentru
 tratamente în caz de contuzii, având, se pare, calități de agent revulsiv.
 Deoarece preparatele de boz pot fi toxice ( mai ales cele obținute din fructe),
 această plantă se va utiliza numai sub îndrumarea unui specialist.
-Bradul
+### Bradul
 Denumirea științifică: Abies alba.
 Prezentare. Bradul face parte din familia pinaceelor. Este un arbore foarte
 cunoscut și de aceea nu are nevoie de o prezentare extinsă. Arbore de mari dimensiuni,
@@ -827,7 +827,7 @@ nervos, în afecțiunile articulațiilor (reumatism), în nevralgii. Uleiul de b
 utilizat și ca expectorant.
 Notă: efecte terapeutice identice se obțin și cu scoarța, răș ina și uleiul volatil
 recoltate de la molid sau de la bradul roșu (Picea abies).
-Brădi șorul
+### Brădi șorul
 Denumire științifică: Licopodium clavatum.
 Denumire populară: pedicuța, barba ursului, pălămidă.
 Prezentare. Brădișorul sau pedicuța este o ferigă, cu o tulpină lungă de până la
@@ -847,7 +847,7 @@ ales la copii. În uz intern, pentru afecțiuni cum ar fi litiazele, hepatitele,
 un preparat obținut din întreaga plantă. Unii speciali ști în medicină naturistă sunt de
 părere că preparatele de brădi șor (pedicuță) sunt benefice și în tra tamente împotriva
 tabagismului și alcoolismului.
-Brânca
+### Brânca
 Denumirea științifică: Lobularia pulmonaria.
 Prezentare. Brânca este un lichen care poate fi întâlnit cu uș urință și în țara
 noastră, de la deal până la munte. Copacii-gazdă sunt îndeosebi fagul și ar țarul,
@@ -862,7 +862,7 @@ ani a dovedit că preparatele din lichenul de brâncă combat bolile respiratori
 rezultate în procedeele terapeutice asupra astmului bron șic și a tusei. Substanța sau
 substanțele active pe care le conține brânca produc efecte po zitive și în cazul bolilor
 de plămâni.
-Brâncuța
+### Brâncuța
 Denumirea științifică: Sisymbrium officinale.
 Prezentare. Brâncuța este o plantă erbacee aparținătoare familiei crucifereior.
 Are tulpină păroasă și flori galbene. Înălțimea sa poate ajunge până la 70 cm. Pen tru
@@ -880,7 +880,7 @@ bune și siropul sau mierea. Utilă în practica medicinală este și tinctura d
 deocamdată mai puțin cunoscută și utilizată.
 
 DICȚIONARUL PLANTELOR DE LEAC 17
-Brându șa de toamnă
+### Brându șa de toamnă
 Denumire științifică: Colchicum autumnale.
 Prezentare. Erbacee micuță cu flori liliachii, cu înălțime până la 13 cm, brândușa
 de toamnă aparține familiei iridaceelor. Are o dezvoltare deosebită și îndelungată,
@@ -907,7 +907,7 @@ că în Colchida, o regiune din zona estică a Mării Negre, trăia Medeea, o re
 vrăjitoare. Ea a preparat o poțiune malefică și a lăsat să cadă o picătură pe pământ.
 Din acea picătură a răsărit brându șa de toamnă! Să notăm și faptul că în Evul Mediu
 brândușa de toamnă se folosea ca insecticid.
-Brebenelul
+### Brebenelul
 Denumire științifică: Corydalis cava.
 Denumiri populare: brebenea, breabăn.
 Prezentare. Brebenelul este o plantă care înflore ște primăvara, acoperind s olul
@@ -928,7 +928,7 @@ arteriale. Aceste preparate au influență pozitivă și asupra funcționării t
 intestinal.
 Ca plantă medicinală, brebenelul este încă puțin cunoscut în țara noastră, de și
 compușii săi activi arată că merită toată atenția.
-Broccoli
+### Broccoli
 Denumire științifică: Brassica oleracea, var. botrytis.
 Denumire populară: conopida broccoli.
 Prezentare. Broccoli se deosebe ște de conopidă prin partea comestibilă care
@@ -949,7 +949,7 @@ cancerului de stomac și de sân.
 deranjamente digestive, în prevenirea cancerului pe tractul gastro -intestinal, în
 osteoporoză, în combaterea hemoragiilor. Leguma numită broccoli este cunoscută și
 ca un ușor, plăcut și eficient depurativ gastro-intestinal.
-Brusturele
+### Brusturele
 Denumirea științifică: Arctium lappa.
 Denumiri populare: ciulin, captalan, lipan.
 Prezentare. Dicționarele spun despre cuvântul brusture că este autohton. De
@@ -984,7 +984,7 @@ poate fi utilizat în proceduri cosmetice, dar și în tratamente dermatologice 
 cum ar fi tratamentul furunculozei.
 Brusturele este cunoscut și pentru utilizarea sa, cu succes, în suferințe ale splinei
 și ale ficatului.
-Bujorul de munte
+### Bujorul de munte
 Denumire științifică: Rhododendron kotsschyi.
 Prezentare. Bujorul de munte, numit uneori și smârdar, este un subarbust a cărui
 înălțime abia ajunge la 50 cm. Face parte din familia ericaceelor, fiind o plantă cu
@@ -1001,7 +1001,7 @@ de ficat, precum și în afecțiuni respiratorii.
 În cantități mari, preparatele pe bază de bujor de munte pot fi toxice.
 
 DICȚIONARUL PLANTELOR DE LEAC 19
-Buretele de stejar
+### Buretele de stejar
 Denumirea științifică: Boletus igniarius.
 Denumire populară: iască.
 Prezentare. Este vorba, de fapt, despre două genuri de ciuperci – Fomes și
@@ -1013,7 +1013,7 @@ Trăind pe copaci, buretele de stejar produce, în timp, putregaiul alb al lemnu
 pentru oprirea sângerărilor și tratarea rănilor. În natură, în lipsă de altceva, se utilizează
 ca pansament, fiind un hemostatic destul de puternic. Este posibil să aibă și proprietăți
 antimicrobiene.
-Buruiana de trânji
+### Buruiana de trânji
 Denumire științifică: Neottia nidus-avis.
 Denumire populară: trânji.
 Prezentare. Buruiana de trânji este o plantă perenă, saprofită (adică se hrănește
@@ -1025,7 +1025,7 @@ clorofilă. Florile au culoare închisă, brună și miros a miere de pădure. P
 în lunile mai, iunie și iulie. Fructul este o capsulă.
 Întrebuințări. În medicina populară românească, buruiana de trânji este
 cunoscută ca un important remediu în tratarea hemoroizilor.
-Busuiocul
+### Busuiocul
 Denumire științifică: Ocimum basilicum.
 Denumiri populare: vasilisc, bosioc, borjolică, mătăcină, floarea bisericii, bazilic,
 planta lui Hristos, buruiana dragostei.
@@ -1068,8 +1068,8 @@ spor și bine în viață. În vechiul sat românesc, frecarea mâinilor și a t
 era o procedură curentă, fiind o primă formă de tratament în aproape orice afecțiune.
 Desigur, busuiocul este considerat nu numai un leac pentru trup, ci și, deopotrivă,
 pentru suflet.
-C
-Cacao / Arborele de cacao
+## C
+### Cacao / Arborele de cacao
 Denumire științifică: Theobroma cacao.
 Prezentare. Arborele de cacao este unul dintre cei mai frumoși ș i mai pitore ști
 copaci. Florile și fructele îl împodobesc începând de la baza tulpinii și până pe ramurile
@@ -1103,7 +1103,7 @@ semințele acestui arbore.
 Se recomandă, totuși, consumarea cu moderație a preparatelor de cacao, inclusiv
 sub formă de alimente, deoarece în cantități mari pot provoca amețeli sau chiar dureri
 de cap.
-Cafeaua / Arborele de cafea
+### Cafeaua / Arborele de cafea
 Denumire științifică: Coffea arabica; Coffea excelsa; Coffea robusta.
 Prezentare. Arborele de cafea este un arbust cu o înălțime maximă de 12 metri.
 Face parte din familia rubiaceelor. De și se consideră că peninsula Arabiei este patria
@@ -1150,7 +1150,7 @@ să elimine pericolul îmbolnăvirilor de cancer de intestin gros.
 Componentă a vieții moderne, cafeaua contribuie în mod cert, prin efectele sale
 psihoenergizante, la buna condiție fizică și psihică a tuturor celor care apelează la ea,
 cu încredere și speranță, în fiecare dimineață și ori de câte ori este nevoie.
-Caisul
+### Caisul
 Denumire științifică: Armeniaca vulgaris; Prunus armeniaca.
 Prezentare. Caisul este, de multă vreme, un arbore comun în spațiul românesc.
 Pom fructifer, face parte din familia rozaceelor. Originar din China, caisul s-a răspândit
@@ -1177,7 +1177,7 @@ Efectul tonic al caiselor se manifestă și asupra epidermei, cunoscute fiind m�
 și loțiunile de ten pe bază de caise.
 
 22 DICȚIONARUL PLANTELOR DE LEAC
-Calomfirul
+### Calomfirul
 Denumire științifică: Tanacetum vulgare; Tanacetum parthenium; Crysanthemum
 vulgare; Crysanthemum balsamita.
 Denumire populară: vetriceaua.
@@ -1205,7 +1205,7 @@ calomfir contribuie activ la asigurarea echilibrului psihic și nervos al femeil
 nervoasă, migrenele.
 Calomfirul este o plantă ce va fi utilizată cu precauție, deoarece prin supradozare
 poate avea efecte toxice. Este interzisă utilizarea calomfirului în timpul sarcinii.
-Camforul / Arborele de camfor
+### Camforul / Arborele de camfor
 Denumire științifică: Cinnamorium camphora.
 Prezentare. Arborele de camfor este un copac din pădurea ecuatorială. Pentru
 terapii se utilizează tulpina și frunzele. Extractul care se obține – aflat în folosință sub
@@ -1218,7 +1218,7 @@ Această influență revitalizantă provoacă poftă de mâncare, calmează reum
 alte dureri din organism, liniștește activitatea din stomac și din intestinul subțire.
 Cu decoct preparat din arbore de camfor se tratează gingivitele, gripa, spasmele
 stomacale, oboseala complexă.
-Captalanul
+### Captalanul
 Denumire științifică: Petasites hybridus.
 Prezentare. Captalanul este o erbacee perenă din familia compozitelor. Cu o
 înălțime la maturitate de până la 40 cm, captalanul are frunze mari, late, consistente,
@@ -1241,7 +1241,7 @@ utilizarea sa în tratamentul bolilor canceroase (s -au făcut deja cercetări a
 rezultate s-au dovedit încurajatoare).
 Atenție – captalanul se va administra numai sub îndrumarea specialistului, a
 medicului, deoarece petazina poate avea efecte nedorite asupra sistemului nervos.
-Cartoful
+### Cartoful
 Denumire științifică: Solanum tuberosum.
 Denumiri populare: baraboi, barabulă.
 Prezentare. Cartoful – o plantă erbacee anuală din familia solanaceelor – provine
@@ -1278,7 +1278,7 @@ topinamburul sau napul porcesc (Helianthus tuberosus) au proprietăți asemănă
 cu ale cartofului. Napul porcesc este denumit de naturiști cartoful diabeticilor.
 Batata și napul porcesc sunt recomandate cu insistență în hrana celor care suferă
 de afecțiuni cardiovasculare.
-Castanul
+### Castanul
 Denumire științifică: Aesculus hippocastanum.
 Denumire populară: castan porcesc, castan sălbatic.
 Prezentare. Castanul este un arbore puternic și maiestuos. Î și are originea în
@@ -1326,7 +1326,7 @@ recomandate anemicilor, celor slăbiți, convalescenților. De asemenea, sunt in
 și în hrana copiilor, având valoare calorică mare (100 g castane dulci au 220 calorii),
 precum și o compoziție chimică foarte bogată – vitamine, săruri minerale, lipide,
 glucide.
-Castravetele
+### Castravetele
 Denumire științifică: Cucumis sativus.
 Prezentare. Castravetele aparține familiei cucurbitaceelor. Este o erbacee anuală
 ce se dezvoltă sub forma unei tulpini târâtoare -agățătoare, acoperită cu peri aspri.
@@ -1351,7 +1351,7 @@ formării calculilor. Fierți, castraveții bandajează și vindecă iritațiile
 spasmele abdominale. Este bine de știut și faptul că această plantă legumicolă, atât
 de obișnuită, de altfel, contribuie chiar și la stabilizarea funcționării inimii și a aparatului
 circulator.
-Căldăru șa
+### Căldăru șa
 Denumirea științifică: Aquilegia vulgaris.
 Denumire populară: clopoței mari.
 Prezentare. Căldărușa este o erbacee perenă. Tulpina este ramificată, rareori
@@ -1372,7 +1372,7 @@ cât și în diverse boli de piele. În general, această plantă este puțin fo
 medicinale, utilizarea sa frecventă fiind ca plantă ornamentală, datorită florilor sale
 cu o conformație curioasă. Flori care, se spune, erau folosite cândva ca protectoare
 împotriva deochiului, precum și în descântece.
-Călinul
+### Călinul
 Denumire științifică: Viburnum opulus.
 Denumire populară: bulgăre de zăpadă.
 Prezentare. Călinul este un arbust ce cre ște în flora spontană, dar poate fi și
@@ -1393,7 +1393,7 @@ menstruațiilor dureroase, cât și a disfuncțiilor pe fond nervos, disfuncții
 timpul sarcinii și alăptării.
 Având proprietăți sedative, extractele de călin calmează crampele musculare și
 contribuie la destinderea întregului organism în condiții de emoție puternică sau stres.
-Cătina albă
+### Cătina albă
 Denumirea științifică: Hippophae rhamnoides.
 Denumiri populare: cătină, cătină cenușie, cătină de râu, tufișul de nisip.
 Prezentare. Cătina este un arbust spinos, aparținător familiei eleagnaceelor. Se
@@ -1419,7 +1419,7 @@ puțin studiate. De asemenea, se poate prepara un vin de cătină, precum și li
 Se poate, deci, spune despre cătină că nu doar tratează, ci și hrănește.
 
 26 DICȚIONARUL PLANTELOR DE LEAC
-Cătu șnica
+### Cătu șnica
 Denumirea științifică: Nepeta cataria.
 Prezentare. Cătușnica este o plantă erbacee meliferă din familia labiatelor. Poate
 atinge înălțimea de un metru. Răspânde ște un miros specific, plăcut, iar florile sunt
@@ -1435,7 +1435,7 @@ dureri de dinți sau de măsele. În acest caz, frunzele de cătu șnică vor fi
 precum guma.
 Rolul de excitant al aceste plante este cunoscut de multă vreme în medicina
 populară, fiind folosită în vechime pentru revigorarea vieții de cuplu.
-Cânepa
+### Cânepa
 Denumire științifică: Cannabis sativa.
 Prezentare. Cânepa cultivată este o plantă anuală, originară din India. Se
 remarcă prin tulpina sa dreaptă, înaltă de aproape un metru, uneori chiar mai mult.
@@ -1459,7 +1459,7 @@ afecțiuni gastrice grave (cancere), în ulcere gastrice, în afecțiuni ale că
 Cercetările au dovedit că preparatele pe bază de cânepă au și efecte anticonvulsive
 și chiar bactericide – pot acționa ca un antibiotic. Utilizate în exces, preparatele din
 cânepă pot crea dependență și pot avea urmări grave asupra sănătății.
-Ceaiul
+### Ceaiul
 Denumire științifică: Thea sinensis (chinensis).
 Denumire populară: ceai chinezesc.
 Prezentare. Ceaiul este un arbust de maximum doi metri înălțime, originar din
@@ -1499,7 +1499,7 @@ fizică și nervoasă). De remarcat faptul că și acest ceai reduce colesterolu
 Ceaiul de Java sau ortosifonul este utilizat, prin tradiție, în boli ale rinichilor, ale
 vezicii și căilor urinare. Proprietățile sale diuretice accentuate îl fac foarte util și în curele
 de slăbire, contribuind, printre altele, în mod decisiv, la eliminarea apei din țesuturi.
-Ceapa
+### Ceapa
 Denumire științifică: Allium cepa.
 Prezentare. Ceapa – una dintre cele mai cunoscute plante din casa și de pe
 lângă casa omului, face parte din familia liliaceelor. Este o plantă bienală, cu o tulpină
@@ -1518,7 +1518,7 @@ anticoagulant activ). Ceapa are efecte benefice și în ciroza hepatică, în pl
 tratarea leziunilor bucale, acțiunea bactericidă fiind puternică, semnificativă.
 Se spune că un consum zilnic de ceapă (nici o masă fără ceapă!) preîntâmpină
 apariția cancerului.
-Cerențelul
+### Cerențelul
 Denumire științifică: Geum urbanum.
 Denumiri populare: ridichioară, călțunul doamnei, cuișoriță, floarea mândrei.
 Prezentare. Cerențelul este o plantă zveltă, puternică, aparținând familiei
@@ -1545,7 +1545,7 @@ Preparatele de cerențel au contraindicații în cazul afecțiunilor cronice și
 Cândva, extractul de cerențel sau, pur și simplu, tulpina sau rădăcina de cerențel
 erau folosite pentru a da aromă vinului, berii, rachiului de fructe sau în producerea apei
 de gură.
-Chili / Arborele de Chili
+### Chili / Arborele de Chili
 Denumire științifică: Prunus boldus.
 Prezentare. Arborele de Chili este o plantă exotică, aparținând de familia
 monimiaceelor.
@@ -1557,7 +1557,7 @@ Arborele de Chili este bogat în ulei esențial.
 detoxifiante, revigorante, bactericide, sedative. Sunt recomandate în boli de ficat și bilă,
 având rol de reechilibrare în ceea ce privește funcționarea acestor organe. Preparatele
 de Chili dau rezultate pozitive și în tratarea infecțiilor urinare, a cistitelor.
-Chimenul
+### Chimenul
 Denumirea științifică: Carum carvi.
 Denumiri populare: secărică, chimion, pipărus.
 Prezentare. Chimenul este o plantă cultivată, dar se găsește și în flora spontană.
@@ -1584,7 +1584,7 @@ că îndepărtează mirosurile neplăcute, dar are și efecte majore în ceea ce
 menținerea igienei bucale.
 Chimenul este considerat a fi „direct răspunzător” de liniștea, de tihna abdomenului
 omenesc.
-Chinina / Arborele de chinină
+### Chinina / Arborele de chinină
 Denumire științifică: Cinchona officinalis.
 Prezentare. Arborele de chinină cre ște în pădurea ecuatorială, fiind întâlnit în
 marile masive vegetale din America de Sud. Aparține familiei rubiaceelor. În prezent,
@@ -1605,7 +1605,7 @@ efecte benefice, cunoscute de foarte multă vreme, în afecțiuni precum tubercu
 diabetul, infecțiile grave. Este recomandată și în anem ii, astenii, convalescențe,
 afecțiuni cardiace. Combate oboseala și mărește capacitatea de muncă.
 Alte varietăți ale arborelui de chinină: Cinchona calisaya și Cinchona succirubra.
-Cicoarea
+### Cicoarea
 Denumirea științifică: Cichorium intybus.
 Denumiri populare: floricică, andivă, andivie.
 Prezentare. Cicoarea se întâlnește atât în cultură, cât și în flora spontană, fiind
@@ -1639,7 +1639,7 @@ alimentar de înaltă clasă – nu are calitățile terapeutice ale suratei sal
 efectele nu sunt de neglijat, acestea fiind încă un argument în ceea ce privește succesul
 gastronomic al andivei. De notat, în acest caz, și faptul că andivele sunt indicate de
 naturiști în alimentația copiilor, fiind un bun vitaminizant și remineralizant.
-Cimbri șorul
+### Cimbri șorul
 Denumirea științifică: Thymus vulgaris.
 Denumire populară: cimbrișorul de câmp, cimbrișorul de pajiște, cimbrișorul de
 fâneață, cimbrul sălbatic.
@@ -1661,7 +1661,7 @@ un calmant. Cimbri șorul este întrebuințat și de apicultori, în activitatea
 
 30 DICȚIONARUL PLANTELOR DE LEAC
 a albinelor.
-Cimbrul de cultură
+### Cimbrul de cultură
 Denumirea științifică: Satureja hortensis.
 Denumiri populare: lămâioară, lămâiță, iarba cucului.
 Prezentare. Cimbrul de cultură este o erbacee anuală, înaltă de 10 – 15 cm.
@@ -1680,7 +1680,7 @@ Contribuie la revigorarea coardelor vocale. Mai este folosit, cu succes, în afe
 ar fi: sciatica, reumatismul, în combaterea anemiilor de primăvară, a anorexiei, dar și
 în tratamentul împotriva viermilor intestinali. Se utilizează cu succes și în tonifierea
 părului, precum și în menținerea igienei bucale.
-Cimișirul
+### Cimișirul
 Denumire științifică: Buxus sempervirens.
 Prezentare. Este una dintre cele mai longevive plante. Poate trăi până la 600 de
 ani. Nu prea înalt (maximum șapte metri), cimișirul este un arbust întâlnit în păduri, mai
@@ -1707,7 +1707,7 @@ doze mai mici. În orice caz, la administrarea unui asemenea tratament se va con
 în prealabil, medicul.
 Prin tradiție, cimișirul este folosit ca remediu în afecțiunile bilei.
 Cimișirul este folosit, uneori, și ca arbust decorativ.
-Cireșul și Vișinul
+### Cireșul și Vișinul
 Denumiri științifice: Cerasus avium (Cireșul); Prunus cerasus (Vișinul).
 Prezentare. Atât cireșul, cât și vișinul – pomi fructiferi binecunoscuți – fac parte din
 aceeași familie de plante – rozaceele. Cireșul poate ajunge până la 12 metri înălțime, în
@@ -1729,7 +1729,7 @@ fructele ca atare, precum și sâmburii de vișine și cireșe.
 Înrudit cu vișinul comun, vișinul turcesc sau mahalebul face și el parte din familia
 rozaceelor. Valoare are nu numai lemnul său, ci și frunzele, care sunt folosite drept
 condiment (au o aromă puternică, deosebită), cu bune efecte în sistemul digestiv.
-Ciuboțica cucului
+### Ciuboțica cucului
 Denumire științifică: Primula veris (= officinalis); Primula elatior.
 Denumiri populare: țâța vacii, țâța oii, anglicea.
 Prezentare. Este vorba, de fapt, despre două plante perene, cu un rizom viguros,
@@ -1759,7 +1759,7 @@ Primăvara, florile de ciuboțica cucului se pun în camera de dormit, pentru a
 favoriza un somn profund și odihnitor.
 Atenție! Folosit în cantități mari, ceaiul de ciuboțica cucului poate produce iritații
 ale tubului digestiv și chiar vomă.
-Ciumăfaia
+### Ciumăfaia
 Denumire științifică: Datura stramonium.
 Denumire populară: laur, bolăndariță.
 Prezentare. Ciumăfaia este o erbacee anuală, cu o înălțime la maturitate de până
@@ -1791,7 +1791,7 @@ de agitație, nevralgiile.
 Hiosciamina, atropina și scopolamina sunt substanțe foarte importante pentru
 industria farmaceutică, fapt ce face ca această plantă atât de toxică, și atât de neplăcut
 mirositoare, să fie foarte căutată.
-Ciumăreaua
+### Ciumăreaua
 Denumire științifică: Galega officinalis.
 Denumire populară: scrântitoare.
 Prezentare. Ciumăreaua este o erbacee perenă, întâlnită atât în flora spontană,
@@ -1815,7 +1815,7 @@ hipoglicemiant este galegina, care se găsește în semințele de ciumărea. Alt
 Ciumăreaua poate fi folosită și ca plant ă furajeră, fiind, totu și, toxică pentru oi.
 Datorită efectelor galactagoge (de sporire de cantității de lapte), poate fi folosită și în
 zootehnie.
-Coacăzul negru
+### Coacăzul negru
 Denumirea științifică: Ribes nigrum.
 Denumire populară: pomușor.
 Prezentare. Dintre fructele de pădure, coacăzele negre sunt printre cele mai
@@ -1842,7 +1842,7 @@ coacăzele aurii sau negre, fiind mai apropiat ca valoare terapeutică de coacă
 
 DICȚIONARUL PLANTELOR DE LEAC 33
 aurii.
-Coada calului
+### Coada calului
 Denumirea științifică: Equisetum arvense.
 Denumiri populare. Această plantă are nu mai puțin de șapte denumiri populare,
 dintre care menționăm: brădi șor, barba ursului, coada mânzului, părul porcului.
@@ -1871,7 +1871,7 @@ tratarea afecțiunilor renale și a infecțiilor urinare, putându -se utiliza �
 afecțiuni cardiace.
 Unii specialiști recomandă utilizarea preparatelor din feriga numită coada calului
 chiar și în prevenirea cariilor, precum și pentru întărirea unghiilor.
-Coada racului
+### Coada racului
 Denumirea științifică: Potentilla anserina.
 Denumiri populare: iarba gâștii, zolotnic, argintică.
 Prezentare. Plantă erbacee – din familia rozaceelor – cu flori mari, galbene.
@@ -1887,7 +1887,7 @@ leucoree, anemie, diaree, ulcerații cutanate – fiind astringent, spasmolitic,
 analgezic, hemostatic, antiseptic, antiinflamator.
 Decoctul preparat din coada racului nu se ia pe nemâncate și nu este indicat
 pentru cei suferinzi de afecțiuni cronice renale și hepatice.
-Coada șoricelului
+### Coada șoricelului
 Denumire științifică: Achillea millefolium.
 Denumiri populare: iarba oilor, brădățel, sorocină.
 Prezentare. Sub acest nume sunt cuprinse mai multe specii de erbacee perene
@@ -1927,7 +1927,7 @@ tratarea abceselor dentare, a hemoroizilor, a plăgilor supurânde, a ulcerului 
 și a arsurilor.
 Cercetări mai noi arată că această plantă este utilă și în reglarea tensiunii arteriale,
 în calmarea cefaleelor, în echilibrarea stării generale, mai ales în plan nervos.
-Coada zmeului
+### Coada zmeului
 Denumire științifică: Calla palustris.
 Prezentare. Coada zmeului este o plantă iubitoare de mare umezeală și de aceea
 poate fi întâlnită în mlaștini și în ape stătătoare sau lin curgătoare. Dimensiunile acestei
@@ -1942,7 +1942,7 @@ bănuiește că ar conține alcaloizi.
 Întrebuințări. Coada zmeului poate fi folosită pentru combaterea urzicăturilor,
 vezicațiilor, iritațiilor pielii, muș căturilor de viespi sau albine. Cândva, această plantă
 era folosită ca antivenin, în cazul mușcăturilor de șarpe.
-Coca
+### Coca
 Denumire științifică: Erythroxylon coca.
 Prezentare. Coca este un arbust exotic de mici dimensiuni – maximum trei metri
 înălțime. Tulpina – dezvoltată și foarte ramificată. Frunzele, pețiolate, au formă ovală,
@@ -1958,7 +1958,7 @@ pentru organele vitale. Fără drept de apel, consumatorii de cocaină se ruinea
 incidența legii.
 
 DICȚIONARUL PLANTELOR DE LEAC 35
-Cocotierul
+### Cocotierul
 Denumire științifică: Cocos nucifera.
 Prezentare. Cocotierul este un arbore a cărui înălțime poate ajunge până la
 25 de metri. Ca semn distinctiv, are un smoc de frunze uriaș e în vârf, de trei – cinci
@@ -1977,7 +1977,7 @@ de cocos, ce poate fi consumat fără pericol chiar și în caz de hipercolester
 produse foarte nutritive. Au, totodată, și proprietăți laxative și depurative, asigurând
 organismului echilibru digestiv, precum și o bună funcționare la nivel de asimilație și
 eliminare.
-Cola
+### Cola
 Denumire științifică: Cola acuminata; Cola nitida, Cola verticillata.
 Prezentare. Cola este un arbore exotic ce poate ajunge până la 15 metri înălțime.
 Crește în zonele tropicale și aparține familiei sterculiaceelor. Fructele acestui arbore
@@ -2000,7 +2000,7 @@ Cea mai importantă calitate a preparatelor pe bază de cola – acestea sunt un
 tonic al sistemului nervos central și creează, asemenea cafelei, o stare generală de
 bine. De unde și convingerea potrivit căreia nucile, semințele, frunzele și preparatele
 de cola constituie un element important în sporirea apetitului sexual.
-Colăceii bab ei
+### Colăceii bab ei
 Denumire științifică: Malva silvestris; Malva rotundifolia.
 Denumiri populare: nalbă sălbatică, nalbă de pădure.
 Prezentare. Planta numită colăceii babei este bienală sau perenă și face parte din
@@ -2028,7 +2028,7 @@ preparate expectorante. Aplicațiile medicinale sunt atât de uz intern, cât ș
 Lista de afecțiuni în care această plantă medicinală are efecte pozitive este destul
 de cuprinzătoare: faringită, bronș ită, gripă, astm, enterocolite, stomatite, dermatoze,
 tumori, vaginite, afte, colite, afecțiuni urinare, eczeme.
-Coriandrul
+### Coriandrul
 Denumire științifică: Coriandrum sativum.
 Denumiri populare: piper alb, pucioasă.
 Prezentare. Coriandrul este o plantă anuală care se cultivă. Poate ajunge până
@@ -2042,7 +2042,7 @@ intestinelor (carminativ), fiind aplicat în tratarea lipsei de poftă de mânca
 digestive, balonări abdominale, dar și în calmarea durerilor intestinale. Având acțiune
 vermifugă, se folosește în combaterea viermilor intestinali.
 Coriandrul este cunoscut și ca un bun tonic al sistemului nervos.
-Cornaciul
+### Cornaciul
 Denumire științifică: Trapa natans.
 Denumire populară: castanul de apă.
 Prezentare. Cornaciul este o plantă de apă, cu tulpini foarte lungi, ce pot ajunge
@@ -2062,7 +2062,7 @@ grăsimi, 3% zaharuri.
 Întrebuințări. Utilizate în terapii de urgență, fructele de cornaci pot acționa ca
 un adevărat antivenin, fiind folosite în cazul muș căturilor de șerpi sau păianjeni. De
 asemenea, pot fi folosite în tratamente antirabice (împotriva turbării) și antidiareice.
-Cornul
+### Cornul
 Denumire științifică: Cornus mas.
 Prezentare. Cornul este un arbust cu o înălțime cuprinsă între patru și opt
 metri, statura sa fiind, uneori, asemănătoare cu cea a unui adevărat arbore. Face
@@ -2084,7 +2084,7 @@ din corn și fructele de corn sunt utilizate în combaterea febrei, dovedindu-se
 sedativ.
 Din fructele de corn se fac, în mod tradițional, jeleuri, marmelade, siropuri, băuturi
 răcoritoare sau alcoolice.
-Cornul secarei
+### Cornul secarei
 Denumire științifică: Claviceps purpurea.
 Denumire populară: pintenul secarei.
 Prezentare. Cornul secarei este o ciupercă ce se dezvoltă în ovarul diferitelor
@@ -2114,7 +2114,7 @@ secarei au influențe benefice.
 (DH-Ergotoxin, Cofedoi, Distonocalm și altele).
 Intoxicațiile cu cornul secarei duc la o afecțiune gravă care se nume ște
 ergotism.
-Coroni ștea
+### Coroni ștea
 Denumire științifică: Coronilla varia.
 Prezentare. Coroniștea este o erbacee perenă ce cre ște sub formă de
 tufă. În condiții prielnice ajunge la o înălțime de 1,30 metri. Face parte din familia
@@ -2136,7 +2136,7 @@ mortală. De aceea, manevrarea acestei plante se va face, întotdeauna, cu mare
 atenție.
 
 38 DICȚIONARUL PLANTELOR DE LEAC
-Crețișorul, creți șoara
+### Crețișorul, creți șoara
 Denumire științifică: Alchemilla vulgaris.
 Prezentare. Crețișoara este o plantă erbacee perenă, aparținând familiei
 rozaceelor. Se remarcă prin rizomi puternici și frunze palmat -lobate. Face parte din
@@ -2158,7 +2158,7 @@ unor medicamente sau de compuși ai unor medicamente.
 În Evul Mediu, această plantă se bucura de mare atenție din partea alchimiștilor,
 deoarece dimineața avea, pe frunze, niște picături roz pe care aceștia le numeau Apa
 Cerească, indispensabile – ziceau ei – pentru fabricarea pietrei filosofale.
-Crețușca
+### Crețușca
 Denumire științifică: Filipendula ulmaria.
 Prezentare. Crețușca este o plantă meliferă bine cunoscută de apicultori. Mierea
 obținută de la florile acestei plante are calități terapeutice de excepție. Crețu șca este
@@ -2179,7 +2179,7 @@ generate de calculii renali și biliari.
 Preparatele din crețușcă au efecte pozitive și în tratamentul scrofulozei, al gutei și
 al mușcăturilor de șarpe. În unele țări, infuzia de crețu șcă este utilizată în producerea
 de bere și vin, dându-le acestor băuturi un parfum special.
-Crinul de pădure
+### Crinul de pădure
 Denumire științifică: Lilium margaton.
 Prezentare. Crinul de pădure este o plantă perenă din familia liliaceelor, cu o
 tulpină erectă și o înălțime de până la 1,50 metri. La bază, pl anta are un bulb ovoidal.
@@ -2196,7 +2196,7 @@ Crinul de pădure este o plantă rară și prețioasă și, de aceea, utilizarea
 tratamente naturiste nu este nicidecum indicată.
 
 DICȚIONARUL PLANTELOR DE LEAC 39
-Crușânul
+### Crușânul
 Denumire științifică: Rhamnus frangula.
 Denumiri populare: lemn câinesc, pasachină, salbă moale, pațachină, spinul
 cerbului, tufa prafului de pușcă.
@@ -2213,7 +2213,7 @@ preparatul stimulează secreția biliară a ficatului și contribuie la fortific
 colagene din piele și a țesuturilor din arterele bolnave.
 Din lemnul de crușân se poate produce un cărbune considerat foarte bun pentru
 fabricarea prafului de pușcă.
-Cucuta
+### Cucuta
 Denumire științifică: Conium maculatum.
 Denumire populară: dudău.
 Prezentare. Cucuta este una dintre cele mai vestite plante otrăvitoare. Însu și
@@ -2243,7 +2243,7 @@ uterine), în tensiuni musculare, precum și în unele forme de cancer (în comb
 cu alte plante medicinale). Tratamentele cu preparate de cucută se fac numai sub
 supravegherea specialistului.
 Cucuta este o plantă cu o serie de întrebuințări și în industria medicamentelor.
-Cucuta de apă
+### Cucuta de apă
 Denumire științifică: Cicuta virosa.
 Prezentare. Cucuta de apă este o erbacee perenă înaltă (ajunge până la doi
 metri). Aparține familiei umbeliferelor. După cum î i spune și numele, este iubitoare de
@@ -2269,8 +2269,7 @@ Cicutoxina este un stimulent atât de puternic încât produce un adevărat cutr
 acestei plante se impune nu numai datorită efectelor medicinale, de altfel greu de
 introdus în terapii și de controlat, ci mai ales datorită faptului că trebuie luate măsuri
 pentru a ne feri de ea, fiind și lesne de confundat.
-Cuișoarele / Arborele de
-cuișoare
+### Cuișoarele / Arborele de / cuișoare
 Denumire științifică: Syzygium aromaticum.
 Denumire populară: caraboi.
 Prezentare. Arborele de cuișoare este o plantă ce crește în zonele calde, având
@@ -2296,7 +2295,7 @@ un gust bun, ci și cu vinul fiert, realizându- se astfel un tonic general de e
 sezonul rece.
 Consumate în cantitate ma re, preparatele pe bază de cui șoare pot provoca
 neplăceri la nivelul plămânilor, al sângelui, al sistemului nervos.
-Curcuma / Curry
+### Curcuma / Curry
 Denumire științifică: Curcuma xantorrhiza.
 Prezentare. Curry este un condiment în care compusul cel mai activ este extractul
 din planta numită curcumă. Această plantă este originară din insulele Indoneziei și din
@@ -2316,7 +2315,7 @@ numit curry. Condimentul este folosit ca atare sau în diverse preparate aliment
 ar fi, de pildă, muștarul. Curry conține circa 15% extract de curcumă.
 
 DICȚIONARUL PLANTELOR DE LEAC 41
-Curmalul
+### Curmalul
 Denumire științifică: Phoenix dactylifera.
 Prezentare. Curmalul este un palmier. Evident, cre ște și mai ales rode ște în
 zonele calde, de la cele subtropicale și până la cele ecuatoriale. Face parte din familia
@@ -2341,7 +2340,7 @@ fructe exotice reglează funcționarea sistemului respirator și au acțiune ant
 antianemică, revitalizantă. Sunt cunoscute și ca favorizante ale expectorației, având
 efecte în bolile de piept.
 Curmalele sunt recomandate copiilor, sportivilor, gravidelor, convalescenților.
-Curpenul de pădur e
+### Curpenul de pădur e
 Denumire științifică: Clematis vitalba.
 Prezentare. Curpenul de pădure este o liană lemnoasă, cu lungimi între șase și
 10 metri. Este o plantă perenă și face parte din familia ranunculaceelor. Se evidențiază
@@ -2356,8 +2355,8 @@ din zona capului. Ceva mai puternică, infuzia de curpen se folose ște în trat
 paraliziilor, dar și în reglarea sistemului respirator. Folosită cu șampon, această infuzie
 contribuie la întărirea părului, stimulându-i creșterea.
 Preparatele din curpen de pădure sunt eficiente și în tratarea tusei.
-D
-Dafinul
+## D
+### Dafinul
 Denumire științifică: Laurus nobilis.
 Denumire populară: laur.
 Prezentare. Dafinul este planta gloriei, a g lorio șilor, a învingătorilor. Cunoscut
@@ -2389,7 +2388,7 @@ insomniilor, infecțiilor buco-faringiene, durerilor de piept, sinuzitelor.
 Desigur, dafinul are asemenea efecte și atunci când este folosit drept condiment,
 numai că amploarea e mai redusă, dată fiind cantitatea mică de frunze, puse în
 mâncare în primul rând pentru aromele lor și nu cu scopuri medicinale.
-Dalacul
+### Dalacul
 Denumire științifică: Paris quadrifolia.
 Prezentare. Așa cum îi spune și numele, planta aceasta poate fi utilizată
 în combaterea unei boli cumplite, numită dalac (antrax). Este o plantă erbacee,
@@ -2408,7 +2407,7 @@ utilizarea acestei plante. Se știe, din tradiția populară, că preparatele di
 eficiente împotriva bolilor infecțioase. Se mai pot utiliza, însă, și în afecțiuni ceva mai
 banale, cum ar fi calmarea locală a durerilor sau tratarea abceselor.
 Atenție, dalacul este o plantă pe care o pot utiliza doar specialiștii, cercetătorii.
-Dedițelul
+### Dedițelul
 Denumire științifică: Pulsatilla pratensis.
 Denumiri populare: floarea vântului, iarba vântului, oițe albe, vânturele,
 adormițele, sisinei.
@@ -2434,7 +2433,7 @@ DICȚIONARUL PLANTELOR DE LEAC 43
 orice utilizare din proprie inițiativă fiind foarte periculoasă.
 Potrivit cunoscătorilor în domeniu, prin uscare planta î și pierde cea mai mare
 parte din otravă, dar, din păcate, și din virtuțile medicinale.
-Degetarul galben
+### Degetarul galben
 Denumire științifică: Digitalis grandiflora.
 Prezentare. Degetarul galben este o erbacee a cărei înălțime ajunge la un metru.
 Face parte din familia scrofulariaceelor și este o plantă toxică, otrăvitoare. Plantă
@@ -2456,7 +2455,7 @@ alternative, care nu au contraindicații sau nu este nevoie, în utilizarea lor,
 măsuri de precauție.
 Degetarul galben este o plantă riscantă, dar importanța ei pentru revigorarea
 inimii și a sângelui este notabilă.
-Degetărelele
+### Degetărelele
 Denumire științifică: Soldanella montana.
 Denumire populară: potirașe.
 Prezentare. Degetărelele sunt o erbacee perenă din familia primulaceelor. Planta
@@ -2467,7 +2466,7 @@ găsește în Carpații Orientali.
 Întrebuințări. Preparatul pe bază de degetărele este utilizat pentru restabilirea
 echilibrului stomacal și intestinal, curățând, totodată, foarte bine tractul digestiv. În
 medicina tradițională, acest preparat este folosit în primul rând ca purgativ.
-Degețelul lânos
+### Degețelul lânos
 Denumire științifică: Digitalis lanata.
 Denumire populară: degetăriță, degețelul de câmp.
 Prezentare. Degețelul lânos este o plantă er bacee, îndeobște bienală, dar în
@@ -2504,7 +2503,7 @@ specialitate, că fără plante ca degețelul roș u și degețelul lânos, „p
 de vieți s-ar pierde anual”.
 Degețelul roșu (Digitalis purpurea) are proprietăți terapeutice asemănătoare cu
 ale degețelului lânos, compușii chimici utili fiind aproximativ aceiași.
-Dentița
+### Dentița
 Denumire științifică: Bidens tripartita.
 Prezentare. Deritița este o plantă anuală, cu frunze din trei foliole, tulpină
 ramificată, rădăcini dezvoltate. Aparține familiei compozitelor și poate ajunge până la
@@ -2523,7 +2522,7 @@ recunoscut, având și calități diuretice, sudorifice, laxative. Dentița este
 și în scrofuloză și urticarii, putând fi utilizată și ca agent în tratarea rănilor, calmând
 durerile și cicatrizând.
 Dentița se va utiliza sub îndrumarea specialistului, a medicului.
-Dovleacul
+### Dovleacul
 Denumire științifică: Cucurbita pepo.
 Denumire populară: bostan.
 Prezentare. Dovleacul este o plantă anuală erbacee, aparținând familiei
@@ -2566,7 +2565,7 @@ eficiența, este adenomul de prostată (prostatita cronică).
 Proprietăți asemănătoare are și dovlecelul (Cucurbita pepo, var. oblonga), fructul
 acestuia având o formă alungită. Dovlecelul se consumă atunci când încă nu a ajuns la
 maturitate și, deci, coaja lui este încă verde și fragedă.
-Dracila
+### Dracila
 Denumire științifică: Berberis vulgaris.
 Denumire populară: dracină, gard viu, drăgină, lemn galben.
 Prezentare. Dracila este un arbust foarte spinos, cu o înălțime de până la trei metri.
@@ -2594,7 +2593,7 @@ intestinale, fiind un bun laxativ și un diuretic eficient. Alte utilizări în 
 În prezent, este tot mai acreditată ideea potrivit căreia un consum moderat și
 cvasi-permanent de preparate de dracilă (dulcețuri, jeleuri) ar acționa în mod preventiv
 împotriva unor cancere.
-Drobița
+### Drobița
 Denumire științifică: Genista tinctoria.
 Denumire populară: gălbenuța.
 Prezentare. Este un arbust de dimensiuni foarte reduse: 30 – 60 cm. Face parte
@@ -2606,7 +2605,7 @@ se poate obține, prin fierbere, un colorant galben, utilizat la vopsitul textil
 stomacului și a intestinelor, stimulînd secrețiile gastrice. De asemenea, cu preparate
 de drobiță se tratează afecțiuni ale ficatului și splinei, precum și hipotiroidia. Drobița are
 capacități depurative, fiind un agent activ în eliminarea toxinelor din organism.
-Drobul
+### Drobul
 Denumire științifică: Sarothamnus scoparius.
 
 46 DICȚIONARUL PLANTELOR DE LEAC
@@ -2640,7 +2639,7 @@ reumatismul.
 Preparatele din drob sau pe bază de drob nu vor fi utilizate de diabetici, putând
 apărea reacții adverse.
 Drobul sau mătura verde este considerată planta cu adrenalină.
-Drobu șorul
+### Drobu șorul
 Denumirea științifică: Isatis tinctoria.
 Prezentare. Această plantă, perenă sau anuală, ce face parte din fam ilia
 cruciferelor, poate ajunge ușor până la înălțimea de un metru. Are frunze de dimensiuni
@@ -2656,7 +2655,7 @@ mod obișnuit, infuzie.
 scorbutul, contribuind la reechilibrarea și revigorarea organismului. Infuzia de drobușor
 are efecte pozitive și asupra rănilor, chiar dacă sunt mai vechi, facilitând procesul de
 cicatrizare.
-Drojdia de bere
+### Drojdia de bere
 Denumire științifică: Saccharomyces cerevisiae.
 Prezentare. Drojdia de bere este o ciupercă microscopică unicelulară, saprofită.
 Se înmulțește prin înmugurire. Aparține familiei saccharomitaceelor. Drojdia este de
@@ -2686,7 +2685,7 @@ uman.
 Deși drojdia de bere e considerată o adevărată minune pentru sănătate, specialiștii
 consideră că în consumul și aplicațiile terapeutice cu aceasta e nevoie să se facă și
 pauze, existând indicii potrivit cărora ar provoca sterilitate.
-Dudul
+### Dudul
 Denumire științifică: Morus alba / Morus nigra.
 Denumiri populare: agud, frăgar.
 Prezentare. Dudul face parte din familia moraceelor. Se cunosc două specii
@@ -2708,7 +2707,7 @@ pulmonare sau astenii, fiind antiscorbutică și tonifiantă. Naturiștii o reco
 tratarea aftelor și a stomatitelor.
 Din frunzele dudului se mai poate obține încă un produs medicinal – extractul fluid,
 utilizat în aplicații curente, sub formă de picături.
-Dumbravnicul
+### Dumbravnicul
 Denumire științifică: Mellitis melissophyllum.
 Prezentare. Dumbravnicul este o plantă de pădure ce poate ajunge până la 80
 cm înălțime. Ca multe alte plante de pădure, dumbravnicul are un rizom care, în acest
@@ -2727,8 +2726,8 @@ suferințelor provocate de cefalee și chiar de paralizie. Este recomandat, de a
 remarcându-se și efecte sale antiseptice.
 
 48 DICȚIONARUL PLANTELOR DE LEAC
-E
-Eucaliptul
+## E
+### Eucaliptul
 Denumire științifică: Eucalyptus globulus; Eucalyptus amygdalina.
 Prezentare. Eucaliptul este un arbore gigant care cre ște în regiunile tropicale și
 subtropicale. Ajunge la înălțimi uria șe, fiind adevăratul copac zgârie-nori. Eucaliptul
@@ -2753,8 +2752,8 @@ antiseptice, preparatele de eucalipt sunt utilizate, cu succes, în tratamentele
 diverselor plăgi, și mai ales în cazul eczemelor vechi. Sunt recomandate, cu încredere,
 și în afecțiunile reumatismale.
 În cantități mari, preparatele de eucalipt pot fi toxice.
-F
-Fagul
+## F
+### Fagul
 Denumire științifică: Fagus sylvatica.
 Prezentare. După cum se știe, fagul este un arbore foarte înalt (până la 35
 de metri) și foarte puternic, un adevărat monument al naturii. Face parte din familia
@@ -2766,7 +2765,7 @@ Coaja și gudronul de fag au valoare terapeutică.
 antipiretică și antitermică. Gudronul de fag dă rezultate în tratarea dermatitelor, precum
 și în boli ale căilor respiratorii, efectul său fiind, adesea, nu numai de ameliorare, ci
 chiar de vindecare.
-Fasolea
+### Fasolea
 Denumire științifică: Phaseolus vulgaris.
 Prezentare. Fasolea este o plantă anuală din familia leguminoaselor. Florile sunt
 albe, verzui, roș ii sau roz. Fructul de fasole se prezintă sub forma unei păstăi care
@@ -2789,7 +2788,7 @@ erupțiilor cutanate, acneei și chiar a TBC-ului pulmonar.
 Decoctul de teci de fasole are efecte pozitive verificate în tratarea afecțiunilor
 rinichilor și a căilor urinare. Spec ialiștii susțin că se pot obține rezultate notabile și în
 aplicațiile terapeutice împotriva hidropiziei.
-Feciorica
+### Feciorica
 Denumire științifică: Herniaria glabra.
 Denumire populară: săpunaș.
 Prezentare. Feciorica este o plantă medicinală erbacee, anuală sau bienal ă,
@@ -2807,7 +2806,7 @@ substanță specifică numită herniarină.
 tratarea afecțiunilor urologice, contribuind, printre altele, la eliminarea clorului și a
 ureei din organism. Afecțiunile care se tratează cu feciorică sunt legate de rinichi și de
 aparatul urinar – nefrite, cistite, colici urinare, infecții urinare.
-Feniculul
+### Feniculul
 Denumire științifică: Foeniculum vulgare.
 Denumiri populare: chimen dulce, anason dulce, anason nemțesc.
 Prezentare. Este o plantă de cultură, importantă pentru semințele sale care
@@ -2824,7 +2823,7 @@ sedative, carminative, diuretice, antispastice, expectorante. Infuzia de fenicul
 indicată în laringite, faringite, amigdalite, tuse seacă, ast m bron șic, dereglări ale
 stomacului, ale tractului digestiv. Se folosește chiar și în tratarea infecțiilor oculare. Se
 utilizează atât intern, cât și extern.
-Feriga
+### Feriga
 Denumire științifică: Dryopteris filix-mas sau Polypodiumfilix-mas sau Aspidium
 filix-mas.
 Denumiri populare: ferega, iarba șarpelui.
@@ -2852,7 +2851,7 @@ există ocazia, pe locurile cu dureri reumatismale să se aplice frunze proaspet
 ferigă.
 În legătură cu tratamentele împotriva gutei – se pare că efectele preparatelor din
 această ferigă sunt salutare – se poate ajunge chiar la vindecare.
-Feriguța
+### Feriguța
 Denumire științifică: Polypodium vulgare.
 Denumire populară: iarba dulce.
 Prezentare. Feriguța este o plantă perenă cu o lungime de maximum 30
@@ -2869,7 +2868,7 @@ blocajele intestinale, guta, dischineziile biliare. În medicina populară, feri
 pentru tratarea bolnavilor de apoplexie.
 Extrasul de feriguța este folosit în mod curent în industria farmaceutică, intrând în
 compoziția multor medicamente.
-Floarea pa ștelui
+### Floarea pa ștelui
 Denumire științifică: Anemone nemorosa.
 Denumire populară: păștișor.
 Prezentare. Floarea paștelui este o plantă perenă modestă ca dimensiuni, putând
@@ -2885,7 +2884,7 @@ reumatismului ș i gutei. Are acțiune sedativă, relaxantă. Orice tratament cu
 plantă toxică se fac e sub supravegherea medicului, a specialistului. De altfel, planta
 este încă puțin cercetată, dar se pare că este una dintre cele 30 de plante al căror
 conținut poate cauza moartea unui om.
-Floarea -soarelui
+### Floarea -soarelui
 Denumire științifică: Helianthus annus.
 Denumiri populare: răsărită, sora soarelui.
 Prezentare. Floarea-soarelui este o plantă erbacee, anuală, aparținând familiei
@@ -2924,7 +2923,7 @@ Extractele de floarea- soarelui se folosesc și în industria farmaceutică, cel
 căutat compus fiind lecitina.
 Semințele de floarea-soarelui sunt recomandate și pentru combaterea sterilității,
 mai ales la femei, dar se pare că au efecte și în cazul bărbaților.
-Fluierătoarea
+### Fluierătoarea
 Denumire științifică: Tamus communis.
 Prezentare. Fluierătoarea, o alcătuire vegetală impunătoare, cu o înălțime de
 până la patru metri, rădăcină consistentă, frunze alterne, flori galben-verzui și fructe de
@@ -2936,7 +2935,7 @@ rădăcinile și lăstarii sunt părțile comestibile ale acestei plante.
 Întrebuințări. În medicina tradițională, preparatele de fluierătoa re erau folosite
 în tratamentul reumatismului și al gutei, dar și în acela al rănilor de sub piele, adică în
 vindecarea contuziilor și a echimozelor. Fluierătoarea este și un bun revigorant.
-Foaia grasă
+### Foaia grasă
 Denumire științifică: Pinguicula vulgari.
 Prezentare. Planta numită foaie grasă se deosebește mult de alte plante, făcând
 parte din grupa plantelor carnivore. Este o erbacee pitică, având o înălțime maximă
@@ -2962,7 +2961,7 @@ stările de stres. Extractele de foaie grasă sunt folosite și pentru calmarea 
 Acționează, de asemenea, asupra căilor respiratorii, mărindu-le funcționalitatea.
 În medicina populară se știe, de foarte multă vreme, că foaia grasă este eficientă
 și în cazurile de tuse convulsivă, precum și în astm.
-Fragul
+### Fragul
 Denumire științifică: Fragaria vesca.
 Denumiri populare: fragi de pădure, frăguță.
 Prezentare. Fragul de pădure este o plantă perenă ce aparține de familia
@@ -2982,7 +2981,7 @@ acidului uric. Preparatele de frunze de frag sunt astringente și dezinfectante 
 utilizate în tratarea a diferite inflamații.
 Preparatele de frunze și rădăcini de frag pot provoca urticarie persoanelor alergice
 și de aceea se cere precauție în utilizarea lor.
-Frasinul
+### Frasinul
 Denumire științifică: Fraxinus excelsior.
 Prezentare. Arbore impresionant, frasinul poate crește până la 40 de metri. Face
 parte din familia oleaceelor. Are coroana rară, cu frunze penat -compuse și cu ramuri
@@ -3002,7 +3001,7 @@ stomacale și intestinale, a ulcerului gastric și duodenal, a plăgilor greu vi
 a hemoroizilor, arsurilor, eczemelor, dar și în tratarea unor afecțiuni ginecologice.
 Cunoscătorii afirmă că efectele febrifuge (de reducere a febrei) de către infuzia din
 coajă de frasin sunt comparabile cu cele ale chininei.
-Fucusul / Alga fucus
+### Fucusul / Alga fucus
 Denumire științifică: Fucus vesiculosus sau Ascophyllum nodosum.
 Denumiri populare: alge brune, iarbă de mare, varech.
 Prezentare. Devenite de ceva vreme o adevărată modă în alimentația oamenilor,
@@ -3027,7 +3026,7 @@ Studiile speciali știlor au dovedit că această algă poate stimula funcționa
 glandei tiroide.
 Datorită proprietăților dietetice și abundenței de compu și, această algă este
 folosită și în alimentația curentă.
-Fumărița
+### Fumărița
 Denumire științifică: Fumaria officinalis.
 Prezentare. Fumărița este o mică plantă erbacee, din familia papaveraceelor.
 Frunzele sunt bipenate, iar florile, de dimensiuni reduse, au culoarea roș ie sau albă.
@@ -3046,8 +3045,8 @@ Se spune despre fumăriță că are capacitatea de a încetini procesele de uzur
 Utilizarea preparatelor din această plantă se va face sub îndrumarea specialistului,
 a medicului, printre altele și datorită faptului că tratamentul trebuie să fie supravegheat
 (pot apărea afecte nedorite) și nu trebuie să depășească două săptămâni.
-G
-Gălbăjoara
+## G
+### Gălbăjoara
 Denumire științifică: Lysimachia nummularis.
 Denumire populară: drețe.
 Prezentare. Este o plantă perenă, cu o tulpină subțire, aproape târâtoare, având
@@ -3059,7 +3058,7 @@ Pentru utilizări medicinale se culeg florile și se face infuzie.
 agresive, cum ar fi cele de dinți, precum și în tratarea erizipelului. Gălbăjoara este
 recomandată și în aplicațiile medicinale privind cre șterea părului și întărirea rădăcinii
 părului.
-Gălbenelele
+### Gălbenelele
 Denumire științifică: Calendula officinalis.
 Denumiri populare: rujuliță, călinică, filimică, ochi galben.
 Prezentare. Gălbenelele sunt plante anuale ce pot fi cultivate pretutindeni în
@@ -3085,7 +3084,7 @@ Gălbenelele sunt eficiente și în tratamente asupra gastritei hiperacide, ulce
 gastroduodenal, dischineziilor biliare.
 Pentru uz extern, gălbenelele sunt recomandate, sub formă de băi și cataplasme,
 în tricomonoză vaginală, eczeme, răni, chiar și în degerături sau arsuri.
-Gălbinelele
+### Gălbinelele
 Denumire științifică: Lysimachia vulgaris.
 Denumire populară: iarba ciorilor.
 Prezentare. Este o plantă perenă, cu o tulpină puternică și ramificată ce poate
@@ -3102,9 +3101,7 @@ tratamente împotriva febrei tifoide și a malariei.
 Din tulpină se poate obține o tinctură galbenă, iar din rădăcină o tinctură maro.
 Puse pe cărbuni încinși sau pe o suprafață încinsă, aceste tincturi degajă un fum ce va
 alunga și chiar va distruge muștele.
-GENȚIANELE
-Ghințura galbenă
-Ghințura pătată
+### GENȚIANELE / Ghințura galbenă / Ghințura pătată
 Denumire științifică: Gentiana lutea; Gentiana punctata.
 Denumiri populare: fierea pământului, ințură, ghimbere de munte, țintură. Aceste
 denumiri sunt atribuite ghințurei galbene.
@@ -3130,8 +3127,7 @@ DICȚIONARUL PLANTELOR DE LEAC 55
 epuizare, pentru revenirea poftei de mâncare și... de viață. Tot cu infuzia de ghințură
 pătată se poate interveni pentru buna funcționare a bilei, precum și pentru combaterea
 viermilor intestinali.
-Ghințura albastră
-Ghințura violetă
+### Ghințura albastră / Ghințura violetă
 Prezentare. Ghințura albastră (Gentiana asclepiadea) se mai nume ște și
 Lumânărica pământului. Este o plantă înaltă de circa un metru, cu o tulpină groasă și
 cu un rizom de asemenea puternic. Înflore ște târziu, în august și septembrie. Florile,
@@ -3160,7 +3156,7 @@ partea aeriană a plantei.
 Întrebuințări. Preparatele de ghințură violetă sunt un remediu recunoscut pentru
 tratarea rănilor. Se utilizează și în bolile de stomac, contribuind la reglarea activității
 stomacale și intestinale.
-Ghimberul
+### Ghimberul
 Denumire științifică: Zingiber officinale.
 Denumire populară: ghimbir, gingiber.
 Prezentare. Ghimberul este o erbacee tropicală, prezentă în Orient, în India,
@@ -3177,7 +3173,7 @@ stărilor de vomă, grețuriior, deranjamentelor stomacale sau intestinale.
 Se spune despre ghimber că are și proprietăți afrodiziace, stimulative, tonifiante,
 acționând – prin grupul de compuș i numiți gingeroli – asupra sistemului nervos. Alte
 proprietăți ale ghimberului: antitoxic, hipotensiv, antitusiv.
-Ghimpele
+### Ghimpele
 Denumire științifică: Xanthium spinosum.
 Prezentare. Ghimpele este o plantă ce poate atinge înălțimea de un metru. Are
 frunze multe, ascuțite. Fiecare frunză are la subsuoara sa câte un ghimpe galben,
@@ -3203,7 +3199,7 @@ ghimpele pădureț crește în locuri puțin umblate, prin păduri, lumini șuri
 omul ajunge mai rar.
 În mod tradițional, preparatele din ghimpe erau folosite în tratamentul bolilor de
 prostată.
-Ghiocelul
+### Ghiocelul
 Denumire științifică: Galanthus nivalis.
 Prezentare. Puțini știu că ghiocelul, vestitorul primăverii, este nu numai o plantă
 de pus în cea mai mică și mai delicată vază din casă, ci și un remediu medicinal.
@@ -3215,7 +3211,7 @@ Au valoare terapeutică atât bulbul, cât și florile și frunzele.
 Întrebuințări. Preparatele pe bază de ghiocel acționează benefic în afecțiuni
 grele, cum ar fi cardiopatiile, sau în reducerea sechelelor rămase în urma poliomielitei.
 Sunt recomandate și în tratarea miasteniei (oboseala mușchilor).
-Ghizdeiul
+### Ghizdeiul
 Denumire științifică: Lotus corniculatus.
 Prezentare. Ghizdeiul este o erbacee perenă, din familia leguminoaselor. Tulpina
 este subțire, suculentă, de mici dimensiuni, prea puțin erectă – mai degrabă târâtoare
@@ -3233,7 +3229,7 @@ agitației nervoase, stărilor depresive, precum și în unele afecțiuni cardio
 Efectele și întrebuințările ghizdeiului – una dintre plantele care formează fânul
 – sunt asemănătoare cu ale plantei cunoscute sub numele de floarea patimilor sau
 ceasornicul (Passiflora incarnata).
-Ginkgo biloba
+### Ginkgo biloba
 Denumire științifică: Ginkgo biloba.
 Denumiri populare: patru-bani, arborele templier japonez, caisa argintie.
 Prezentare. Ginkgo biloba sau caisa argintie este un arbore originar din estul
@@ -3274,7 +3270,7 @@ cărora cu extractele de ginkgo biloba se poate stăpâni evoluția celulei canc
 Concluzionând: ginkgo biloba este considerat un lea c redutabil în afecțiunile
 microcirculației arteriale și capilare, dar și o adevărată armă împotriva uzurii cerebrale
 și a îmbătrânirii în general.
-Ginsengul
+### Ginsengul
 Denumire științifică: Panax ginseng.
 Denumiri populare: ginseng asiatic, ginseng coreean.
 Prezentare. Ginsengul este o plantă perenă. Aparține familiei araliaceelor.
@@ -3342,7 +3338,7 @@ baze științifice au demonstrat că extractele obținute din această plantă c
 într-o manieră semnificativă, la sporirea imunității organismului, probând și calități
 anticancerigene. Se spune despre ginsengul siberian că reduce efectele iradierilor și
 ale citostaticelor și că frânează evoluția SIDA.
-Grape-fruitul / Grepfrutul
+### Grape-fruitul / Grepfrutul
 Denumire științifică: Citrus grandis; Citrus paradisii.
 Prezentare și Întrebuințări. Grepfrutul este, pentru locuitorii zonelor temperate,
 o plantă exotică, aparținând aceleia și famiiii din care fac parte lămâiul ș i portocalul –
@@ -3357,7 +3353,7 @@ organici, protide, ulei esențial. Acest fruct este recomandat, în primul rând
 au lipsă de poftă de mâncare, dar și în dislipidemii, astenii, atonie gastrică, insuficiență
 biliară, afecțiuni pulmonare. Valoare medicinală are nu numai pulpa de grepfrut, ci și
 pericarpul.
-Grâul
+### Grâul
 Denumire științifică: Triticum aestivum (vulgare, sativum).
 Prezentare. Grâul este una dintre cele mai vechi plante cultivate de om. Erbacee
 anuală, grâul face parte din familia gramineelor. În mod obi șnuit, rădăcina de grâu
@@ -3390,7 +3386,7 @@ trebuie pentru o ființă. În acest context, germenii de grâu sunt un adevăra
 nutritiv și medicinal. Acești germeni conțin săruri minerale, microelemente, vitaminele A,
 B1, B2, E, PP, ulei. Germenii de grâu au efecte pozitive în oboseală fizică și nervoasă,
 reumatism, gută, tulburări vegetative, cardiace, circulatorii, de asimilație, endocrine.
-Gutuiul
+### Gutuiul
 Denumire științifică: Cydonia oblonga.
 Prezentare. Pom fructifer, gutuiul este un arbore de mici dimensiuni, uneori
 prezentându-se ca un arbust. Frunzele gutuiului sunt groase și au o culoare verde-
@@ -3414,8 +3410,8 @@ de gutui acționează în calmarea tusei, în bron șite, în faringite, în rev
 vocale, în amigdalite, stomatite, guturai, afecțiuni ale pielii, în hidratarea și curățirea
 pielii. Frunzele de gutui, preparate sub formă de infuzie, au rol însemnat în reglarea și
 reechilibrarea activității intestinale.
-H
-Hameiul
+## H
+### Hameiul
 Denumire științifică: Humulus lupulus.
 Denumiri populare: măiugă, mămlugă, tofolean, himel.
 Prezentare. Hameiul este o plantă perenă, cățărătoare, ierboasă, de mari
@@ -3446,7 +3442,7 @@ insomnie, anorexie, trichomonoză, dar și în cazuri de acnee și ten gras.
 Din combinația hameiului cu alte plante medicinale rezultă un foarte bun ceai
 sedativ, ceai cu care se ameliorează sau chiar se înlătură o serie de tulburări psihice,
 cum ar fi cele generate de stres, de suprasolicitare.
-Hibiscus
+### Hibiscus
 Denumire științifică: Hibiscus sabdariffa.
 Prezentare. Hibiscusul este o plantă medicinală din ce în ce mai prezentă pe piața
 produselor naturiste din România, ceaiurile fortifiante, vitalizante, având în compoziția
@@ -3474,7 +3470,7 @@ pentru întreg organismul, dar și un aliment cât se poate hrănitor.
 Există și alte specii de hibiscus, proprietățile lor fiind însă diferite de ale florilor
 de Hibiscus sabdariffa . Una dintre acestea este Hibiscus trionum , plantă din flora
 spontană de la noi, cunoscută sub numele popular de zămoșiță.
-Hreanul
+### Hreanul
 Denumire științifică: Cochlearia armoracia sau Armoracia rusticana.
 Prezentare. Hreanul este o plantă legumicolă din familia cruciferelor. Plantă
 perenă, hreanul poate fi întâlnit frecvent în flora spontană, dar apare și sub formă
@@ -3500,7 +3496,7 @@ Hreanul este diuretic și expectorant. Un mare specialist, dr. Alexander Reinhar
 recomandă hreanul ca un mijloc de prevenire a cancerului, deoarece conține peroxidază
 – un agent foarte activ în distrugerea radicalilor liberi din organism, cei despre care se
 spune că ar provoca tumorile canceroase.
-Hrișca
+### Hrișca
 Denumire științifică: Fagopyrum sagittatum; Fagopyrum esculentum.
 Denumire populară: grâu negru.
 Prezentare. Hrișca este o erbacee anuală, întâlnită mai ales sub formă cultivată.
@@ -3531,8 +3527,8 @@ Făina de hri șcă este considerată un aliment foarte consistent. De exemplu, 
 bază de hrișcă se prepară laptele de hrișcă, administrat celor care au lipsă de calciu în
 organism. Făina de hrișcă are și o mare valoare energetic ă. Se spune că boabele de
 hrișcă, decorticate, au o valoare nutritivă însemnată, asemănătoare cu cea a orezului.
-I
-Iarba broa ștelor
+## I
+### Iarba broa ștelor
 Denumirea științifică: Hydrocharis morsus ranae.
 Prezentare. Iarba broaștelor este o plantă de apă, plutitoare, cu stoloni dezvoltați.
 Are dimensiuni reduse. Frunzele sunt aproape rotunde și au pețiolul lung. Iarba
@@ -3546,7 +3542,7 @@ crește în ape stătătoare, în mlaștini, dar și în ape care curg foarte î
 acvarii. Are, însă, și virtuți medicinale, fiind folosită ca materie primă la producerea unui
 emolient cu calități foarte bune, capabil să înmoaie, să flexibilizeze și să recondiționeze
 și cele mai aspre țesuturi.
-Iarba grasă
+### Iarba grasă
 Denumire științifică: Portulaca oieracea.
 Denumiri populare: troscot gras, floare de piatră.
 Prezentare. Această plantă aparține familiei portulacaceelor și este considerată
@@ -3564,7 +3560,7 @@ antiinflamatoare, vermifugă, agent relaxant pentru piele și țesuturi, cicatri
 Acționează benefic asupra aparatului respirator, dar și asupra tractului digestiv. Este
 folosită și în combaterea inflamațiilor apărute la nivelul căilor urinare. Cu preparatele
 de iarbă grasă se obțin rezultate pozitive și în tratarea gingivitelor.
-Iarba lui Cristofor
+### Iarba lui Cristofor
 Denumire științifică: Cimicifuga racemosa; Actaea racemosa; Actaea spicata.
 Denumire populară: cohoșul negru.
 Prezentare. Iarba lui Cristofor este o plantă perenă. Cre ște în păduri sau la
@@ -3594,7 +3590,7 @@ de reproducere femeie ști. Totodată, contribuie la declan șarea menstrelor î
 la ușurarea nașterilor, la restabilirea femeii în perioada lăuziei. Iarba lui Cristofor este
 folosită și de femeile aflate la menopauză, fiind administrată ca tonic.
 În cantități mari, preparatele din această plantă pot provoca avortul.
-Iarba mare
+### Iarba mare
 Denumire științifică: Inula helenium.
 Denumiri populare: omag, ochiul boului, smântânică.
 Prezentare. Este o plantă perenă din familia compozitelor. Tulpina este păroasă,
@@ -3614,7 +3610,7 @@ bronșice și expectorante, antihelmintice (acționează împotriva viermilor in
 rizom se face un decoct cu care se tratează dischineziiie biliare cu hipotonie, guta,
 bronșitele, oxiuraza. Preparatele de iarbă mare se folosesc atât în aplicații interne, cât
 și externe.
-Iarba neagră
+### Iarba neagră
 Denumire științifică: Erica cinerea; Caluna vulgaris.
 Prezentare. Surprinzător, iarba neagră nu este nicidecum o iarbă, ci un arbust
 ce aparține familiei ericaceelor. Este o plantă cu tulpini lemnoase, putând ajunge până
@@ -3632,7 +3628,7 @@ paralizii, blocaje și atonii musculare, pecingine, pielonefrite. Iarba neagră 
 importantă și în tratamentele privind afecțiunile rinichilor și ale căilor urinare, în nevralgii
 și inflamații ale vezicii urinare. Practic, preparatele de iarbă neagră curăță rinichiul și
 căile urinare, fiind antiseptice, depurative, astringente.
-Iarba ro șie
+### Iarba ro șie
 Denumire științifică: Polygonum persicaria.
 Denumiri populare: ardeiaș, iarbă amară.
 Prezentare. Iarba roșie este o plantă iubitoare de umezeală. Are un ciclu de viață
@@ -3649,7 +3645,7 @@ Pot influența desfăș urarea ciclului menstrual și pot opri hemoragiile. De a
 aceste preparate sunt recomandate în cazul ulcerațiilor cronice. Cu infuzia preparată
 din această plantă se pot trata, în manieră naturistă, persoanele cărora le transpiră
 abundent picioarele.
-Iarba șarpelui
+### Iarba șarpelui
 Denumire științifică: Echium vulgare.
 Prezentare. Iarba șarpelui este o erbacee deosebită, în primul rând prin culoarea
 ei care este gri -deschis. Are tu lpină simplă sau ramificată. Dimensiunile acestei
@@ -3668,7 +3664,7 @@ calciu), taninuri, mucilagii.
 stomahice. În medicina tradițională se foloseau împotriva epilepsiei și a mușcăturilor de
 șarpe. Au efecte și sunt uneori utilizate în reglarea activității de la nivelul de stomacului
 și al intestinului subțire.
-Iarba de șoaldină
+### Iarba de șoaldină
 Denumire științifică: Sedum acre.
 Denumiri populare: iarba ciutei, verzișoară, iarba tutunului.
 Prezentare. Micuța plantă numită iarbă de șoaldină este, de fapt, o tufănică
@@ -3690,7 +3686,7 @@ scorbutului, a stărilor febrile, a unor boli de piele (de exemp lu, ulcerele cu
 a bătăturilor. Potrivit unor cercetări ceva mai noi, infuzia de iarbă de șoaldină este
 indicată în tratamentul sclerozei și al hipertensiunii. Poate fi utilă în cancerul de piele și
 în remisiunea unei boli grave – epilepsia.
-Iedera
+### Iedera
 Denumire științifică: Hedera helix.
 Prezentare. Iedera este un arbust agățător, cu tulpină foarte lungă. Frunzele sunt
 verzi, rotunde, groase, lucioase, pețiolate, iar florile, de mici dimensiuni, au o culoare
@@ -3706,7 +3702,7 @@ iedera este recomandată în tratarea unor afecțiuni care preocupă omul modern
 acestea aflându-se și celulita. Preparatele de iederă sunt utilizate și în tratarea plăgilor,
 arsurilor, bătăturilor. A fost observat și faptul că preparatele de iederă au influență
 benefică și în circulația sângelui, precum și în hipertensiune.
-Ienupărul
+### Ienupărul
 Denumire științifică: Juniperus communis.
 Denumiri populare: cetenă, brădișor, jireapăn, jneap, turtei.
 Prezentare. Ienupărul este un arbust care cre ște în flora spontană de deal și
@@ -3730,7 +3726,7 @@ mai grele, cum ar fi edemele (umflăturile) renale și cirotice. De asemenea, es
 Preparatele medicinale de ienupăr se vor lua numai după recomandările
 specialistului. Supradozarea poate duce la situații neplăcute, iritând, de exemplu, căile
 renale, caz în care se ajunge la hematurie.
-Inul
+### Inul
 Denumire științifică: Linum usitatissimum.
 Prezentare. Este o plantă anuală, cultivată. Aparține familiei linaceelor Poate
 atinge o înălțime de circa un metru. Tulpinile inului sunt drepte, cilindrice, iar frunzele
@@ -3749,7 +3745,7 @@ emolient, antiseptic, sedativ, laxativ. Inul este folosit în cazul cons tipați
 abceselor și furunculelor, precum și pentru a trata inflamațiile tubului digestiv. Pentru a
 beneficia de cunoscutele efecte laxative ale inului se vor îngurgita semințe întregi, în
 timp ce pentru a trata inflamațiile intestinale se vor lua semințe macerate.
-Ipcărigea
+### Ipcărigea
 Denumire științifică: Gypsophila paniculata.
 Denumiri populare: gipsăriță, coroana miresei, ciuin alb.
 Prezentare. Ipcărigea sau gipsăriță este o erbacee perenă. Aparține familiei
@@ -3771,7 +3767,7 @@ unele boli ale pielii – cum ar fi ulcerațiile și eczemele provocate de micro
 Ipcărigea este întrebuințată și în industria alimentară, la prepararea halvalei,
 precum și în alte industrii – la fabricarea detergenților, la prelucrarea pieilor, în fabricarea
 unor produse cosmetice.
-Isopul
+### Isopul
 Denumirea științifică: Hyssopus officinalis.
 Prezentare. Isopul este un mic arbust, cu obârș ii exotice. Aparține de familia
 labiatelor. Frunzele de isop sunt alungite și aromate. Florile au culoare albastră, însă,
@@ -3788,7 +3784,7 @@ isop determină o mai bună circulație a sângelui, inclusiv la nivelul capilar
 un bun vasodilatator. Preparatele pe baz ă de isop sunt recomandate și în tratamente
 privind traheita, bron șita, astmul, hipertensiunea arterială, ficatul (contribuie la
 menținerea ficatului în stare de bună funcționare).
-Izma broa ștei
+### Izma broa ștei
 Denumirea științifică: Mentha aquatica.
 Denumire populară: izma de baltă.
 Prezentare. Izma broaștei este o plantă de mari dimensiuni. Poate ajunge până
@@ -3801,7 +3797,7 @@ Valoare medicinală au frunzele (uneori și florile).
 Întrebuințări. Infuzia realizată din această izmă este recomandată în tahicardie,
 în combaterea colicilor abdominali, precum și în reglarea funcționării sistemului gastro-
 intestinal, fiind un carminativ eficient. Este utilizată și ca aromatic.
-Izma bună (Menta)
+### Izma bună (Menta)
 Denumirea științifică: Metha piperita.
 Denumiri populare: izmă de leac, mentă, mintă, mintă de grădină.
 Prezentare. Izma este una dintre cele mai cunoscute plante medicinale. Este o
@@ -3832,7 +3828,7 @@ O altă specie de izmă cultivată este izma creață (Mentha crispa). Această 
 de izmă, cu frunzele dințate și crețe, are aceleași utilizări ca și izma bună. Izma creață
 are o mare căutare nu numai ca plantă medicinală, ci și în industria farmaceutică, a
 cosmeticelor, în cea alimentară.
-Izmușoara de câmp
+### Izmușoara de câmp
 Denumirea științifică: Acinus arvensis.
 Prezentare. Este o izmă de talie mai mică, ajungând până la 30 – 40 cm înălțime.
 
@@ -3844,8 +3840,8 @@ până la roz-violet, roz sau chiar albă. Izmușoara de câmp face parte din co
 spontană a fânețelor, a marginilor de cale ferată și de șosea, a terenurilor virane, fiind
 iubitoare de soare și preferând solul uscat.
 Întrebuințări. Are acțiune calmantă și antireumatică.
-J
-Jneapănul
+## J
+### Jneapănul
 Denumire științifică: Pinus mugo.
 Denumire populară: jep.
 Prezentare. Jneapănul este un arbust conifer ce poate fi întâlnit în zona subalpină,
@@ -3861,8 +3857,8 @@ a căilor respiratorii și a rinichiului. În practica medicinală s-a constatat
 ca tonifiant, precum și ca diuretic, revigorând întreaga activitate din cavitatea toracică
 și din abdomen. Uleiul de jneapăn este utilizat în industriile farmaceutică și cosmetică,
 iar din rășină se produce terebentină.
-L
-Laptele câinelui
+## L
+### Laptele câinelui
 Denumire științifică: Euphorbia cyparissias; Euphorbia stepposa; Euphorbia
 seguieriana; Euphorbia helioscopica.
 Denumiri populare: laptele cucului, alior.
@@ -3886,7 +3882,7 @@ Extern, local, se folose ște și pentru tratarea unor dureri cauzate de suferin
 nervi, cum ar fi nervul sciatic.
 
 68 DICȚIONARUL PLANTELOR DE LEAC
-Lăcrimioara
+### Lăcrimioara
 Denumire științifică: Convallaria majalis.
 Denumire populară: mărgăritar.
 Prezentare. Lăcrimioara este o plantă erbacee, perenă. Face parte din familia
@@ -3910,7 +3906,7 @@ afecțiuni ale inimii (insuficiență cardiacă, aritmie, asistolie, angină pec
 proprietăți diuretice și antiseptice.
 În tutungerie, florile de lăcrimioare uscate sunt folosite pentru parfumarea tutunului
 de prizat.
-Lămâiul
+### Lămâiul
 Denumire științifică: Citrus limonum; Citrus medica.
 Denumiri populare: alămâi.
 Prezentare. Lămâiul este cunoscut ca un arbore mediteranean, în prezent
@@ -3940,7 +3936,7 @@ Totodată, lămâia este antiseptică, cicatrizantă, astringentă. Naturiștii 
 ca fiind importantă, chiar decisivă, în curele de slăbit. În stare proaspătă, sucul de
 lămâie este recomandat și pentru tratarea amigdalitelor, aftelor, otitelor, rinitelor,
 sinuzitelor, hemoragiilor nazale, reumatismelor, gutei.
-Lăsniciorul
+### Lăsniciorul
 Denumire științifică: Solanum dulcamara.
 Prezentare. Lăsniciorul este un semiarbust ce poate avea o înălțime de până
 la trei metri. Face parte din familia solanaceelor. Rizomul său este foarte puternic,
@@ -3962,7 +3958,7 @@ De precizat faptul că tratamentul cu lăsnicior se face numai sub îndrumarea
 specialistului, fiind o plantă otrăvitoare. Planta se mai numeș te și „dulce -amar”
 deoarece, la început, când este gustată, are un gust amărui, pentru ca – sub influența
 salivei – să devină dulce.
-Lemnul câinesc
+### Lemnul câinesc
 Denumire științifică: Ligustrum vulgare.
 Denumiri populare: lemn câinesc, cununiță, mălin negru, cire ș de pădure,
 tulichioară.
@@ -3987,7 +3983,7 @@ cutanate (eczemele). Coaja acestei plante este, totodată, și un bun antiscorbu
 Preparatele de lemn câinesc sunt utile, uneori, și în combaterea bolilor de piept.
 În activitățile casnice sau industriale, lemnul câinesc este folosit drept colorant,
 din fructele sale fabricându-se chiar și cerneală.
-Lemnul Domnului
+### Lemnul Domnului
 Denumire științifică: Artemisia abrotanum.
 Denumiri populare: lemnuș, pelin domnesc, lemnul lui Dumnezeu.
 Prezentare. Lemnul Domnului are miros de lămâie și de aceea se mai numește și
@@ -4008,7 +4004,7 @@ Lemnul Domnului este cunoscut mai ales pentru influențele sale benefice în bol
 
 70 DICȚIONARUL PLANTELOR DE LEAC
 stomacului, ale ficatului, bilei și căilor urinare.
-Lemnul dulce
+### Lemnul dulce
 Denumire științifică: Glycyrrhiza glabra.
 Denumire populară: iarbă dulce, iarbă tare, rădăcină dulce, firuță.
 Prezentare. Lemnul dulce creș te sub forma unei tufe, fiind o plantă perenă,
@@ -4039,7 +4035,7 @@ un preparat special de lemn dulce, o poțiune, considerată a fi forma cea mai e
 Tratamentele cu lemn dulce nu sunt recomandate hipertensivilor. În general,
 folosirea în exces a preparatelor de lemn dulce nu se recomandă nimănui – pot provoca
 hipertensiune.
-Leurda
+### Leurda
 Denumirea științifică: Allium ursinum.
 Denumire populară: usturoiță.
 Prezentare. Leurda este o plantă erbacee cu miros și gust de usturoi. Face parte
@@ -4055,7 +4051,7 @@ infuzie.
 Este recomandată în avitaminoze. Este și un agent eficient de curățire a organismului,
 a tractului gastro-intestinal ș i nu numai, în reglarea activității rinichiului, precum și în
 activarea și reactivarea activității intestinale.
-Leușteanul
+### Leușteanul
 Denumire științifică: Levisticum officinale.
 Prezentare. Leușteanul este o plantă perenă cultivată, dar care în anumite
 condiții se poate sălbătici. Aparține familiei umbeliferelor. Leușteanul are un rizom gros
@@ -4074,7 +4070,7 @@ important), vitamine, acizi organici, săruri minerale.
 carminativ, sedativ, regulator al tractului intestinal. Se folose ște în tratarea unor
 afecțiuni curente, cum ar fi colicile abdominale la copii, edemele cardiace, edemele
 renale, bronșitele, traheitele, constipațiile, durerile menstruale.
-Levănțica
+### Levănțica
 Denumire științifică: Lavandula angustifolia.
 Denumiri populare: levand, spichinel, levănțică de grădină.
 Prezentare. Levănțică este o plantă cultivată, prezentându -se sub formă de
@@ -4094,7 +4090,7 @@ Dă rezultate bune în boli de inimă pe fond nervos, în tulburări stomacale �
 în cefalee și migrene, în afecțiuni renale, precum și în reumatism și stări de agitație, de
 neliniște, de hiperexcitabilitate, în insomnii. Interesant de observat – infuzia de levănțică
 stimulează secreția celulei hepatice.
-Lichenul câinilor
+### Lichenul câinilor
 Denumire științifică: Peltigera canina.
 Prezentare. Peltigera canina este un lichen, cunoscut și sub numele de lichenul
 câinilor. Talul acestui lichen, cu o lungime de circa 20 cm la maturitate, dezvoltă
@@ -4109,7 +4105,7 @@ altele, sulf.
 Întrebuințări. Acest lichen este folosit în tratarea afecțiunilor ficatului, metionina
 fiind un agent cu acțiune directă asupra funcției hepatice. Contrar celor știute din
 medicina tradițională, acest lichen nu are virtuți în neutralizarea virusului turbării.
-Lichenul de stejar
+### Lichenul de stejar
 Denumire științifică: Everina prunasteri.
 Prezentare. Lichenul de stejar este un tal care se prinde de arborele gazdă cu un
 disc adeziv. Seamănă cu o tufă mai mică, este flexibil și are o lungime maximă de 10
@@ -4124,7 +4120,7 @@ lichen are o mare valoare antibiotică.
 Din lichenul de stejar se extrage un ulei volatil, utilizat în industria cosmetică.
 
 72 DICȚIONARUL PLANTELOR DE LEAC
-Liliacul
+### Liliacul
 Denumire științifică: Syringa vulgaris.
 Prezentare. Liliacul face parte din familia oleaceelor. Este un arbust a cărui
 înălțime poate ajunge până la șapte metri. Frunzele sunt ovale și au pețiol. Liliacul
@@ -4136,7 +4132,7 @@ care se prepară infuzie sau comprese.
 hepatici, utilizându-se atât pentru calmarea durerilor hepatice, cât și pentru restabilirea
 bunei funcționări ficatului. De asemenea, liliacul este util și în cazuri de febră mare.
 Reduce febra și contribuie la curățarea organismului.
-Limba boului
+### Limba boului
 Denumire științifică: Anchusa officinalis.
 Denumire populară: miruță.
 Prezentare. Limba boului este o erbacee din flora spontană comună, înălțimea sa
@@ -4154,7 +4150,7 @@ organismului, fiind recomandată în cazuri de oboseală fizică și nervoasă, 
 funcționării inimii, în retenții urinare, în cazuri de febră. Preparatele din limba boului
 au și importante proprietăți depurative, contribuind la detoxifierea organismului, la
 eliminarea multor substanțe toxice, mai ales prin urină.
-Limba broa ștei
+### Limba broa ștei
 Denumire științifică: Alisma plantago aquatica.
 Denumire populară: limbarița.
 Prezentare. Limba broaștei este o plantă de apă, erbacee, perenă, cu o înălțime
@@ -4170,7 +4166,7 @@ medicina tradițională era folosită pentru blocarea secreției laptelui matern
 se înțărcau copiii. Tot în medicina tradițională, cu preparatele din rădăcini de limba
 broaștei se tratau cazurile de turbare. Preparatele de limba broa ștei sunt folosite și în
 homeopatie.
-Limba mielului
+### Limba mielului
 Denumire științifică: Borrago officinalis.
 Prezentare. Limba mielului este o e rbacee din familia boraginaceelor. Are
 o tulpină ramificată care, în prima perioadă de vegetație a plantei, este suculentă.
@@ -4192,7 +4188,7 @@ adevărat, un medicament și un aliment.
 Limba mielului este un puternic revitalizant, remineralizant, fortifiant, antiinflamator
 – fiind recomandată în tratarea bolilor de plămâni. Contribuie și la curățirea generală a
 organismului, precum și la stimularea activității plămânilor, rinichilor, ficatului.
-Linarița
+### Linarița
 Denumire științifică: Linaria vulgaris.
 Denumiri populare: bumbac de câmp, inișor, bumbăcăriță.
 Prezentare. Linarița este o erbacee din flora spontană, remarcată atât datorită
@@ -4211,7 +4207,7 @@ vezicale, hemoroizilor, afecțiunilor cutanate (acnee, furuncule), precum și î
 hepato-biliare și ale căilor urinare.
 Preparatele pe bază de linariță sunt eficiente și în tra tamentele de echilibrare a
 activității gastro-intestinale.
-Lingureaua
+### Lingureaua
 Denumire științifică: Cochlearia officinalis.
 Prezentare. Lingureaua este o plantă medicinală de mici dimensiuni. Face parte
 din familia cruciferelor. Are frunzele crestate, iar florile, de culoare albă, sunt grupate
@@ -4231,7 +4227,7 @@ rinichi.
 Frunzele pot fi consumate și sub formă de salată sau de suc (situație în care se
 pot folosi toate părțile fragede ale plantei).
 Lingureaua este un antiscorbutic foarte puternic.
-Lintea
+### Lintea
 Denumire științifică: Lens culinaris.
 Prezentare. Lintea este o plantă aflată la loc de cinste în preocupările și practicilor
 naturiștilor, ale amatorilor de hrană naturală ș i sănătoasă. De altfel, lintea este una
@@ -4255,7 +4251,7 @@ Potrivit un ei vechi practici de medicină populară, consumul de linte spore ș
 laptele la femeile care alăptează.
 În terapiile naturiste se utilizează, cu succes, lintea germinată, bază a multor
 rețete foarte nutritive.
-Lumânărica
+### Lumânărica
 Denumirea științifică: Verbascum phlomoides; Verbascurn thapsiforme.
 Denumiri populare: coada boului, coada lupului, lipean.
 Prezentare. Lumânărica este o plantă erbacee a cărei înălțime poate ajunge la
@@ -4277,8 +4273,8 @@ diminuează crampele și au efecte antiinflamatoare. Lumânărica este un bun re
 Extern, lumânărica se foloseș te pentru tratarea abceselor și a hemoroizilor.
 În ceea. ce prive ște frunzele de lumânărică, din acestea se prepară cataplasme
 emoliente, utilizate în aplicații terapeutice de lungă durată.
-M
-Macul de câmp
+## M
+### Macul de câmp
 Denumirea științifică: Papaver rhoeas.
 Denumiri populare: mac iepuresc, macul cucului.
 Prezentare. Macul de câmp este o plantă anuală ce cre ște în flora spontană,
@@ -4308,7 +4304,7 @@ Specialiștii recomandă multă precauție în administrarea infuziei de flori d
 administrarea infuziei și a altor tratamente se va face numai sub controlul specialistului.
 De asemenea, e important să nu se utilizeze în terapii alte specii de mac, mai puțin
 cunoscute.
-Macul de grădină
+### Macul de grădină
 Denumire științifică: Papaverum somniferum.
 Denumiri populare: macul alb, mac.
 Prezentare. Macul de grădină este o plantă anuală ce face parte, ca și macul de
@@ -4353,7 +4349,7 @@ vaginale și în gargare, având rol de calmare a durerilor. Tot cu mac se trate
 puternice, dizenteria și chiar holera.
 Folosite fără măsură, nechibzuit, preparatele pe bază de mac – opiul și morfina –
 creează dependență, urmările pentru sănătate fiind foarte grave.
-Mandarinul
+### Mandarinul
 Denumire științifică: Citrus nobilis.
 
 76 DICȚIONARUL PLANTELOR DE LEAC
@@ -4367,7 +4363,7 @@ Substanțe active importante: ulei volatil, săruri minerale, protide, lipide,
 glicozide, acizi și mai ales brom.
 Întrebuințări. Aceleași cu ale portocalului. Spre deosebire de portocal, mandarinul
 are și proprietăți sedative, datorită bromului, fiind, prin urmare, un anafrodiziac ușor.
-Mango
+### Mango
 Denumire științifică: Mangifera indica.
 Prezentare. Mango este un arbore care se cultivă în subcontinentul indian, dar și
 în Vietnam, Laos, Malaiezia. Face parte din familia anacardiaceelor.
@@ -4382,7 +4378,7 @@ decorticate acționează ca antimicrobian.
 Afecțiuni în care preparatele pe bază de mango au efecte pozitive: stomatită,
 paradontoză, inflamații uterine și gastro-intestinale, boli ale pielii , dizenterie, hemoroizi,
 hemoragii.
-Mangoldul
+### Mangoldul
 Denumire științifică: Beta vulgaris, var. cicla.
 Denumiri populare: sfecla pentru frunze.
 Prezentare. Mangoldul este o plantă legumicolă bienală. Aparține familiei
@@ -4404,7 +4400,7 @@ lipsă de potasiu, calciu, fosfor. Pețiolul este recomandat celor care au nevoi
 – această varietate de sfe clă – facilitează digestia. Are, de asemenea, proprietăți
 antiinfecțioase și contribuie la mai buna circulație a sângelui. Mai nou, e posibil ca
 preparatele de mangold să aibă și efecte antitumorale.
-Mate
+### Mate
 Denumire științifică: Ilex paraguaiensis.
 Denumiri populare: ceai de Paraguay, ceaiul iezuiților, yerba mate, ceai
 brazilian.
@@ -4430,7 +4426,7 @@ toxic în doze mari, mai ales pentru ficat, dar poat e provoca și insomnie, agi
 palpitații.
 Nu trebuie uitat faptul că mate este un puternic stimulent nervos. În ceea ce
 privește caracterul său energizant, specialiștii nu confirmă întrutotul această calitate.
-Mazărea
+### Mazărea
 Denumire științifică: Pisum sativum.
 Prezentare. Mazărea este o erbacee anuală, originară din Asia Centrală. Acum,
 ca și în vechime, este cultivată foarte mult. Face parte din familia leguminoaselor.
@@ -4449,7 +4445,7 @@ energie. Cercetările au dovedit că mazărea nu este un simplu aliment, e adev�
 nutritiv, energetic și ușor digerabil, ci și un agent de maximă importanță în reactivarea
 măduvei spinării. Această proprietate este dată de un principiu numit hemaglutină,
 care se găsește în special în mazărea verde.
-Măce șul
+### Măce șul
 Denumire științifică: Rosa canina.
 Denumiri populare: trandafir sălbatic, cacadâr, răsură, rug sălbatic.
 Prezentare. Măceșul face parte din familia rozaceelor. Este un arbust puternic
@@ -4484,7 +4480,7 @@ Ca vermifug (antihelmintic), măceșul se dovedește nu numai eficient, dar și 
 la consum atunci când fructele, curățate de semințe și peri, se amestecă cu miere.
 Fiecare boabă de măceș este un adevărat depozit de vitamine și, din acest, motiv,
 măceșul este planta medicinală cea mai potrivită în avitaminoze.
-Măcri șul
+### Măcri șul
 Denumire științifică: Rumex acetosella.
 Denumire populară: măcrișul mărunt.
 Prezentare. Este o plantă perenă ce crește în flora spontană. Există și o specie
@@ -4503,7 +4499,7 @@ laxativă, depurativă, antiscorbutică. Reglează activitatea din tractul gastr
 Este utilizat și în hipocalcemie, în reumatismul cronic degenerativ, în gută, precum și în
 curele de primăvară pentru fortificarea organismului.
 Naturiștii apreciază foarte mult măcrișul, preparând din el salate și suc.
-Măcri șul iepurelui
+### Măcri șul iepurelui
 Denumire științifică: Oxalis acetosella.
 Denumiri populare: măcrișul caprei.
 Prezentare. Aparținând familiei oxalidaceelor, măcri șul caprei este o plantă
@@ -4521,7 +4517,7 @@ Măcrișul caprei este recomandat și în bolile de ficat (potențează activita
 în avitaminoze, în deranjamente intestinale. Măcrișul caprei este o plantă cu un anume
 grad de toxicitate și, din acest motiv, se recomandă a fi utilizată, totuși, cu precauție,
 mai ales atunci când este vorba despre cantități mari de preparat.
-Maghiranul
+### Maghiranul
 Denumire științifică: Majorana hortensis.
 Denumiri populare: mărgăran, maioran, mageran, mădiran.
 Prezentare. Plantă de cultură, maghiranul face parte din familia labiatelor. De
@@ -4542,7 +4538,7 @@ Măghiranul are și utilizări medicinale externe, în tratarea reumatismului ș
 sciaticii.
 Foița medicinală a măghiranului este dovedi tă, cu prisosință, în tratarea
 dispepsiilor (deranjamentelor) stomacale.
-Mărarul
+### Mărarul
 Denumire științifică: Anethum graveolens
 Prezentare. Mărarul, plantă cultivată, dar întâlnită și în flora spontană, face parte
 din familia umbeliferelor. Este o plantă anuală. Tulpina poate avea o înălțime de până
@@ -4559,7 +4555,7 @@ organism este asemănător cu acela al aerisirii generale făcute într-o locuin
 fond, mărarul determină și o relaxare a organismului, fiind cunoscut și ca somnifer.
 Mărarul face parte din alimentația sănătoasă, naturistă, fiind un participant la
 salate și la alte mâncăruri bazate pe crudități.
-Mărgelu șele
+### Mărgelu șele
 Denumire științifică: Lithospermum officinale.
 Denumire populară: mei păsăresc.
 Prezentare. Planta aceasta, cunoscută sub numele de mărgelușe, este o erbacee
@@ -4575,7 +4571,7 @@ Substanțe active importante: acid litospermic, conină.
 deranjamentelor stomacale, în litiaze, reumatism, gută. Au și proprietăți diuretice.
 Importanța lor constă, însă, în faptul că inhibă activitatea hormonilor hipofizei,
 provocând, la femei, sterilitate temporară.
-Mărul
+### Mărul
 Denumire științifică: Malus domestica.
 Prezentare. Binecunoscutul măr face parte din marea familie a rozaceelor.
 Arborele ajunge până la 10 metri înălțime și este cultivat intens și într-o mare varietate
@@ -4620,7 +4616,7 @@ Mărul sălbatic sau mărul pădureț (Malus sylvestris) este mai înalt decât 
 cultivat, fructele sale fiind mici și astringente. Valoarea medicinală a acestor fructe este
 semnificativă, dar în mod obi șnuit nu sunt utilizate, preferându -se folosirea mărului
 pădureț doar ca portaltoi pentru mărul cultivat.
-Mărul lupului
+### Mărul lupului
 Denumire științifică: Aristolochia clematitis.
 Denumire populară: cucurbețică.
 Prezentare. Mărul lupului este o erbacee perenă. Nu prea înaltă (maximum 70
@@ -4655,7 +4651,7 @@ săi, unii foarte activi, mărul lupului trezeș te interesul multor herbali șt
 tratamente naturiste.
 
 DICȚIONARUL PLANTELOR DE LEAC 81
-Măselarița
+### Măselarița
 Denumire științifică: Hyoscyamus niger.
 Denumire populară: nebunariță, măselar.
 Prezentare. Măselarița face parte din familia solanaceelor și este o plantă
@@ -4675,7 +4671,7 @@ reumatism, nevralgii faciale, ulcere stomacale, tremuratul mâinilor, dureri de 
 Măselarița este o plantă de mare utilitate și pentru industria farmaceutică.
 Atenție, tratamentele cu extracte de măselariță se fac numai sub îndrumarea
 specialistului, măselarița fiind foarte toxică.
-Măslinul
+### Măslinul
 Denumire științifică: Olea europea.
 Prezentare. Măslinul este un arbore puternic și longeviv. Poate trăi peste 1.000
 de ani. Plantații de acum 500 de ani sunt pe rod, astăzi, în tot bazinul mediteranean.
@@ -4706,7 +4702,7 @@ utilizează cu bune rezultate și în combaterea ulcerelor gastroduodenale, a bl
 bilei, a intoxicațiilor cu diverse otrăvuri, în paradontoze, în calmarea durerilor.
 Dincolo de toate aceste utilizări, uleiul de măsline – la fel ca și măslina din care
 provine – este deosebit de nutritiv și de gustos.
-Mătăciunea
+### Mătăciunea
 Denumire științifică: Dracocephalum moldavica.
 Denumire populară: mătăcină.
 Prezentare. Mătăciunea este o erbacee aromatică, originară din Siberia. Are
@@ -4725,7 +4721,7 @@ asemenea, la buna funcționare a bilei și echilibrează activitatea ficatului. 
 de mătăciune s-au obținut rezultate pozitive și în tratarea spasmelor mu șchilor netezi
 și chiar ale organelor interne. Preparatele de mătăciune se manifestă și ca a gent
 antiseptic.
-Mătrăguna
+### Mătrăguna
 Denumire științifică: Atropa belladona.
 Denumiri populare: cireașa lupului, doamna codrului, doamnă mare, beladonă.
 Prezentare. Mătrăguna este o erbacee puternică, înaltă de 1,5 metri, perenă.
@@ -4750,7 +4746,7 @@ Utilizarea mătrăgunei, a extractelor sau a oricărui preparat pe bază de măt
 poate fi mortală fără îndrumarea medicului. De aceea, mătrăguna nu se va utiliza decât
 așa cum se prescrie și se administrează orice medicament periculos, adică în condiții
 de maximă securitate.
-Meiul
+### Meiul
 Denumire științifică: Millium effusum; Letaria italica; Panicum miliaceum.
 Prezentare. Aparținând familiei gramineelor meiul este o plantă erbacee
 cultivată. Mult timp, meiul a făcut parte din hrana oamenilo r, astăzi fiind cultivat mai
@@ -4763,7 +4759,7 @@ vitamjna A, acid salicilic, lipide, protide, aminoacizi.
 și celor aflați în convalescență. Este un bun agent de susținere și refacere în caz
 de oboseală intelectuală. Alimentele pe bază de mei sunt recomandate și femeilor
 gravide, precum și celor suferinzi de inimă.
-Merișorul
+### Merișorul
 Denumire științifică: Vacciniurn vitis-idaea.
 Denumiri populare: afin roșu, smârdar.
 Prezentare. Merișorul este un arbust de mici dimensiuni (până ia 30 cm înălțime).
@@ -4783,7 +4779,7 @@ urinare. Are și acțiune antiinflamatoare și antidiareică. În afecțiunile r
 merișor este important deoarece poate sfărâma (dizolva) calculii renali. Cu ceaiul de
 merișor se poate interveni și în alte afecțiuni, cum ar fi guta și reumatismul.
 Merișorul este unul dintre „doctorii” rinichilor și ai căilor urinare.
-Mesteacănul
+### Mesteacănul
 Denumirea științifică: Betula verrucosa.
 Denumiri populare: măstacăn, mastacin.
 Prezentare. Mesteacănul este un arbore înalt (poate atinge și 30 de metri), cu
@@ -4822,7 +4818,7 @@ Ceva mai nou, cu infuzia de frunze de mesteacăn se intervine și în rezolvarea
 uneia dintre problemele oamenilor din timpurile moderne – tratamentul și îngrijirea
 părului. De altfel, preparatele de mesteacăn sunt folosite și în aplicații cosmetice,
 precum și în industria cosmetică.
-Mielăreaua
+### Mielăreaua
 Denumire științifică: Vitex agnus-castus.
 Denumiri populare: scai de tufă mare, lemnul lui Avram.
 Prezentare. Mielăreaua este un arbust originar din Asia, în România fiind cultivat
@@ -4850,7 +4846,7 @@ afecțiuni, simptoame, inclusiv în plan psihic. Mielăreaua reglează ciclurile
 reface echilibrele hormonale, practic aduce la normal tabloul femeii aflate în suferință,
 redându-i, așa cum precizează Catherine Duchamel în lucrarea sa „Cartea intimă a
 femeii”, bucuria de a trăi.
-Mierea ursului
+### Mierea ursului
 Denumire științifică: Pulmonaria officinalis.
 Denumire populară: cuscrișor, plămânărică.
 Prezentare. Mierea ursului este o erbacee perenă, din familia boranginaceelor.
@@ -4873,7 +4869,7 @@ chiar a unor boli de plămâni.
 Uneori, este recoman dată folosirea plantei sub formă de decoct. Acesta este
 indicat și în anemii, fiind revigorant și remineralizant, cât și în afecțiuni renale, ulcer
 gastric și duodenal, reumatism.
-Migdalul
+### Migdalul
 Denumire științifică: Prunus amygdalus; Amygdalus communis.
 Prezentare. Migdalul este un arbore mediteranean, dar poate fi întâlnit și la noi,
 în culturi din Dobrogea, Banat, Oltenia. Aparține familiei rozaceelor. Nu prea înalt –
@@ -4901,7 +4897,7 @@ rezultate și în bolile de piept, în inflamații interne, în migrene, în agi
 musculară sau ca adjuvant în tuberculoză și în diabet. Potrivit unor cercetări de ultimă
 oră, sâmburii de migdale ar avea și efecte anticancerigene.
 Foarte hrănitoare, migdala este tonică, revitalizantă, remineralizantă.
-Mirtul
+### Mirtul
 Denumire științifică: Myrtus communis.
 Prezentare. Mirtul este o plantă aromatică, întâlnită adesea ca plantă ornamentală.
 Se prezintă sub forma unui arbust a cărui înălțime maximă este de cinci metri. Î și are
@@ -4923,7 +4919,7 @@ rezultate în afecțiuni ale căilor respiratorii, dar și în hemoragii interne
 parazitoze intestinale, afecțiuni dermatologice. Importanță în terapii are și uleiul de
 mirt, utilizat, prin tradiție, în bolile căilor respiratorii, ale căilor urinare și renale, și chiar
 în unele afecțiuni cardiovasculare.
-Mojdreanul
+### Mojdreanul
 Denumire științifică: Fraxinus ornus.
 Denumiri populare: frasin de munte, frasin negru.
 Prezentare. Mojdreanul este un arbore din familia oleaceelor, având dimensiuni
@@ -4943,7 +4939,7 @@ specialiști sunt de părere că și scoarța acestui copac ar avea valori medic
 fraxinei, o glicozidă cu proprietăți diuretice ce stimulează eliminarea acidului uric. Se
 atribuie calități medicinale și frunzelor de mojdrean, utilizate în gută, reumatism, dar
 și ca laxativ.
-Morcovul de grădină
+### Morcovul de grădină
 Denumire științifică: Daucus carota sativa.
 Prezentare. Morcovul de grădină este o plantă legumicolă foarte cunoscută,
 prezentă zilnic în viața fiecăruia dintre noi. Face parte din familia umbeliferelor, fiind
@@ -4983,7 +4979,7 @@ sistemului digestiv.
 Principalul produs obținut din morcovul de grădină este sucul de morcov, ușor de
 preparat, lesne și plăcut de consumat. Pentru terapii cu morcov, morcovul ras poate fi
 tot atât de bun și de eficient ca și sucul.
-Morcovul sălbatic
+### Morcovul sălbatic
 Denumirea științifică: Daucus carota.
 Denumiri populare: morcovul câmpului, rușinea fetei.
 Prezentare. Morcovul sălbatic este o plantă cu dezvoltare anuală, remarcându -
@@ -5010,7 +5006,7 @@ intestinale, în hepatite, în icter.
 Morcovul sălbatic este un important revitalizant în caz de oboseală, de
 convalescență, de subalimentație, mai ales dacă este consumat crud. De alt fel,
 morcovul, de orice fel, este un aliment de referință în alimentația naturistă.
-Moșmonul
+### Moșmonul
 Denumire științifică: Mespilus germanica.
 Denumire populară: moșmoană.
 Prezentare. Moșmonul este un arbust originar din Persia, ajuns în Europa în mod
@@ -5033,7 +5029,7 @@ pot trata chiar și diareile și enteritele rebele, deranjamentele stomacale și
 majore, refăcându-se, în același timp, mucoasa intestinală. În mod curent, preparatele
 de mo șmon sunt folosite în facilitarea digestiei, în boli articulare (reumatisme), în
 afecțiuni ale rinichilor (litiaze).
-Murul
+### Murul
 Denumire științifică: Rubus fructicosus.
 Denumiri populare: rug de mure, mur sălbatic, mure.
 Prezentare. Murul aparține familiei rozaceelor. Este un arbust cu tulpină lungă,
@@ -5052,7 +5048,7 @@ murele au efecte în deranjamentele gastro-intestinale (diaree, colită, gastro-
 Din mure se fac și siropuri, care sunt nu numai hrănitoare, ci și utile în tratarea
 bolilor de piept. Aceste boli de piept se combat și cu infuzia din frunze de mur, făcându-
 se gargară.
-Mușchiul de munte
+### Mușchiul de munte
 Denumire științifică: Cetraria islandica.
 Denumiri populare: mușchiul de piatră, mușchi creț.
 Prezentare. Mușchiul de munte este un lichen al cărui tal seamănă cu o tufă de
@@ -5074,7 +5070,7 @@ planetei ca hrană pentru oameni și animale. Din acest mușchi se obține chiar
 substanța specifică – lichenina – fiind un polizaharid.
 
 88 DICȚIONARUL PLANTELOR DE LEAC
-Mușețelul
+### Mușețelul
 Denumire științifică: Matricaria chamommilla.
 Denumiri populare: romaniță, morună.
 Prezentare. Mușețelul aparține familiei compozitelor. Crește, în mod obișnuit, în
@@ -5106,7 +5102,7 @@ vechi, arsuri. Tot pentru uz extern se mai folosesc tinctura și uleiul de mușe
 În combinație cu menta, mușețelul rezolvă în mod decisiv crampele stomacale.
 Foarte numeroase sunt aplicațiile muș ețelului în tratamente cosmetice, cele mai
 la îndemână dintre acestea fiind băile în infuzie de mușețel.
-Mușețelul roman
+### Mușețelul roman
 Denumire științifică: Anthemis nobilis; Chamaemelum nobile.
 Denumiri populare: romanițoi, romaniță mare, romaniță nobilă.
 Prezentare. Mușețelul roman este o erbacee originară din zona mediteraneană.
@@ -5133,7 +5129,7 @@ Deși este realmente valoros, acestui mușețel i se acordă o importanță redu
 practicile naturiste de la noi, fiind numit, uneori, mușețel prost.
 
 DICȚIONARUL PLANTELOR DE LEAC 89
-Muștarul alb
+### Muștarul alb
 Denumire științifică: Sinapis alba.
 Denumiri populare: muștar de grădină, rapiță albă, rapiță de grădină.
 Prezentare. Muștarul alb este o erbacee anuală ce aparține de familia cruciferelor.
@@ -5154,7 +5150,7 @@ simplă: seara, înainte de culcare, se înghit semințe întregi, pe o durată 
 pe seară. Pentru a putea fi înghițite, semințele de mu ștar se iau cu puțină apă sau
 cu puțin lapte. Apoi, aplicația este întreruptă printr -o pauză de o săptămână, cel mult
 două, după care, numai în caz de nevoie, cura se reia.
-Muștarul negru
+### Muștarul negru
 Denumire științifică: Brassica nigra.
 Denumiri populare: hardal, muștar de câmp, muștar sălbatic.
 Prezentare. Muștarul negru este o plantă anuală, din familia cruciferelor. Se
@@ -5178,7 +5174,7 @@ care pot fi băi locale sau generale. Băile generale sunt deosebite – produc 
 benefică a întregului organism.
 Muștarul negru este recunoscut ca un adevărat medicament în tratarea inflamațiilor
 articulare, a reumatismului.
-Mutătoarea
+### Mutătoarea
 Denumire științifică: Bryonia alba; Bryonia dioica.
 Denumiri populare: mutătoare cu poame roșii, mutătoare cu poame negre; mai
 poate fi întâlnită și sub numele de împărăteasă; mutătoarea cu poame ro șii se mai
@@ -5216,7 +5212,7 @@ cutanate, reumatismelor, cefaleelor, gutei, contuziilor.
 Mutătoarea este întrebuințată, uneori, în tratamente homeopatice.
 Mai nou, se afirmă că preparatele de mutătoare ar avea și efecte imunostimulante,
 fiind un posibil remediu în bolile canceroase.
-Mutulica
+### Mutulica
 Denumire științifică: Scopolia carniolica.
 Denumire populară: mătrăgună mică.
 Prezentare. Mutulica este o erbacee de talie medie, înălțimea ei ajungând până la
@@ -5238,8 +5234,8 @@ ulcere ale pielii, în varice ulcerate. În orice caz, dacă în medicina tradi�
 general, prea periculos pentru a folosi această plantă, importanța ei pentru industria
 farmaceutică este însemnată, unde este prelucrată pentru a se extrage atropina și
 scopolamina.
-N
-Nalba mare
+## N
+### Nalba mare
 Denumirea științifică: Althaea officinalis.
 Denumiri populare: rujă, nalbă bună.
 Prezentare. Nalba mare este o plantă perenă, erbacee. Face parte din familia
@@ -5270,7 +5266,7 @@ uscat), dar și pentru gargară (în afecțiuni ale taringelui) sau pentru spăl
 cataplasme de frunze și flori de nalbă.
 Decoctul din frunze și flori de nalbă mare este recomandat, mai ales, în
 tratamentele pentru combaterea tenului uscat și a ridurilor.
-Nalba neagră
+### Nalba neagră
 Denumire științifică: Althaea rosea, var. nigra.
 Denumire populară: nalba de grădină.
 Prezentare. Nalba neagră este o plantă ornamentală, întâlnită în mod obi șnuit
@@ -5291,7 +5287,7 @@ detoxifiante ale nalbei negre, reglând activitatea rinichiului și pe cea din t
 gastro-intestinal. Din acest motiv, nalba neagră este folosită și în industria alimentară,
 coloranții săi neavând efecte toxice. Un produs important obținut din nalbă neagră este
 și oțetul aromatic, un preparat special cu virtuți medicinale certe.
-Napul
+### Napul
 Denumire științifică: Brassica napus var. napobrassica; Brassica campestris.
 Denumire populară: curechi chinezesc.
 Prezentare. Napul este o plantă erbacee bienală, aparținând de familia
@@ -5314,7 +5310,7 @@ ale gingiilor sau ale rădăcinii dinților. Napul era și este încă folosit �
 de dinți, în afecțiuni ale căilor respiratorii și pulmonare, dar și în tratamente împotriva
 tusei convulsive. Datorită calităților sale regeneratoare, napul este recomandat în
 alimentația convalescenților și a anemicilor.
-Năpraznicul
+### Năpraznicul
 Denumire științifică: Geranium robertianum.
 Prezentare. Năpraznicul este o erbacee de mici dimensiuni (poate ajunge până
 la 40 cm înălțime). Creș te în flora spontană și face parte din familia geraniaceelor.
@@ -5331,7 +5327,7 @@ aceea, este indicat în astenii, anemii, în cure de primăvară. Năpraznicul c
 tratarea diabetului. Potrivit unor specialiști, are și proprietăți anticancerigene, mai ales
 în combinație cu alte plante medicinale, fiind utilizat în prevenirea cancerului uterin și,
 se pare, și a altor tipuri de cancer.
-Năsturelul
+### Năsturelul
 Denumire științifică: Nasturtium officinale.
 Denumire populară: cardamă.
 Prezentare. Năsturelul este o erbacee din familia cruciferelor, remarcându- se
@@ -5349,7 +5345,7 @@ al proceselor metabolice. Un pahar de suc de năsturel, amestecat cu miere, poat
 considerat un adevărat flacon cu vitamine și săruri esențiale. Năsturelul poate fi utilizat
 în fortificarea organismului aflat în momente dificile – datorită unor afecțiuni – sau în
 cazuri de anemie, de epuizare.
-Năutul
+### Năutul
 Denumire științifică: Cicer arietinum.
 Prezentare. Năutul face parte din familia leguminoaselor. Originară din Asia,
 această erbacee este cunoscută mai ales datorită boabelor sale. Tulpina năutului
@@ -5367,7 +5363,7 @@ năut sunt folosite în tratarea afecțiunilor renale și hepatice, precum și �
 în nevralgii, în astenii.
 
 DICȚIONARUL PLANTELOR DE LEAC 93
-Negrilica
+### Negrilica
 Denumire științifică: Nigella sativa.
 Denumiri populare: cernușcă, chimen negru.
 Prezentare. Negrilica este o erbacee anuală, de dimensiuni mici spre medii.
@@ -5391,7 +5387,7 @@ regulator al activității gastro-intestinale.
 Alte specii de negrilică: Chica voinicului (Nigella damascena) , cunoscută
 ca plantă decorativă, conține damasceină – o substanță cu efecte în hipertensiune.
 Negrușca (Nigella arvensis) este folosită în tratarea tusei.
-Nemțișorul de câmp
+### Nemțișorul de câmp
 Denumire științifică: Delphinium consolida sau Consolida regalis.
 Denumire populară: iarbă de făcut copii.
 Prezentare. Nemțișorul de câmp este o erbacee anuală. Aparține familiei
@@ -5407,7 +5403,7 @@ delfinină, tanin, substanțe amare.
 Întrebuințări. Alcaloizii din nemți șorul de câmp au capacitatea de a diminua
 tensiunea arterială, reducând, prin urmare, și ritmul inimii. Potrivit tradiției, preparatele
 din florile acestei plante ar avea și proprietăți de combatere a sterilității.
-Nucul
+### Nucul
 Denumire științifică: Juglans reggia.
 Prezentare. Nucul este un arbore impunător, înălțimea sa ajungând frecvent
 până la 30 de metri. Aparține familiei juglandaceelor. Scoarța nucului este netedă, cu
@@ -5443,7 +5439,7 @@ Produsele pe bază de nuc se folosesc și în cosmetică, pentru întreținerea 
 (tenuri grase) și pentru revigorarea părului.
 De asemenea, din frunze de nuc, prin macerare și în amestec cu vin roșu, se face
 un vin medicinal cu proprietăți tonice generale de excepție.
-Nufărul alb
+### Nufărul alb
 Denumire științifică: Nymphaea alba.
 Prezentare. Nufărul alb este o plantă acvatică, perenă, ce poate fi întâlnită în
 Delta Dunării și în apele conexe, dar și în alte ape stătătoare, în lacuri de pădure sau
@@ -5466,7 +5462,7 @@ priapismului și nimfomaniei). De pildă, din cozile de frunze de nufăr alb se 
 infuzie, folosită de sute de ani în tratarea isteriilor și a cazurilor de nimfomanie.
 Tradiția spune că nufărul alb are și capacitatea de a alunga spiritele rele, această
 plantă fiind folosită, în vechime, ca talisman în călătoriile lungi.
-Nufărul galben
+### Nufărul galben
 Denumire științifică: Nuphar lutea.
 Prezentare. Nufărul galben este o plantă bine reprezentată, având un rizom
 foarte gros (circa 10 cm grosime) și foarte lung (circa trei met ri lungime). Frunzele au
@@ -5489,7 +5485,7 @@ către comercianții necinstiți, drept rădăcină a acestei plante.
 
 DICȚIONARUL PLANTELOR DE LEAC 95
 care, pe lângă faptul că sunt foarte bune, au și proprietăți medicinale.
-Nu-mă -uita
+### Nu-mă -uita
 Denumirea științifică: Myosotis scorpioides.
 Denumire populară: miozotis, ochii păsăruicii.
 Prezentare. Planta de nu-mă-uita este o erbacee perenă și face parte din familia
@@ -5505,8 +5501,8 @@ Substanțe active importante: potasiu (în cantitate mare).
 Întrebuințări. Infuzia de nu-mă-uita este puternic antiinflamatoare și se folosește
 la tratamente în zone sensibile. De exemplu, se fac spălături contra inflamației urechii
 sau se folosește ca loțiune pentru ochi, având și proprietăți calmante și relaxante.
-O
-Obligeana
+## O
+### Obligeana
 Denumirea științifică: Acorus calamus.
 Denumiri populare: spetează pestriță, spetează tărcată, călin, calmuz.
 Prezentare. Obligeana este o plantă iubitoare de umezea lă. Această plantă
@@ -5537,7 +5533,7 @@ important și în fortificarea nervilor, tonifiind și revigorând, de altfel, �
 Afecțiuni în care este recomandată obligeana: colici abdominale, balonări
 abdominale, tulburări neuro- vegetative cu anxietate, lipsă de poftă de mâncare,
 scrofuloza infantilă, în diverse afecțiuni epidemice.
-Ochiul lupului
+### Ochiul lupului
 Denumire științifică: Plantago psyllium.
 
 96 DICȚIONARUL PLANTELOR DE LEAC
@@ -5554,7 +5550,7 @@ lor efect laxativ și, din acest motiv, pot înlocui tratamentele cu in. Sub for
 cataplasme, semințele de ochiul lupului sunt indicate în tratarea arsurilor și a rănilor
 ulcerate. Tratamentele făcute cu ochiul lupului la nivelul pielii sunt u șor de suportat și
 au efecte pozitive în termen relativ scurt.
-Odoleanul (Valeriana)
+### Odoleanul (Valeriana)
 Denumire științifică: Valeriana officinalis.
 Denumiri populare: valeriană, iarba pisicii, gușa porumbelului.
 Prezentare. Odoleanul este o plantă erbacee din familia valerianaceelor. Are flori
@@ -5578,7 +5574,7 @@ mult mai puternică decât cea a infuziei.
 Folosirea în scopuri medicinale a acestei plante se va face sub îndrumarea
 medicului. În condiții de utilizare nesupravegheată, preparatele de odolean pot crea
 dependență, precum și dereglări fiziologice și de comportament.
-Omagul
+### Omagul
 Denumire științifică: Aconitum napellus.
 Prezentare. Omagul este o plantă decorativă de mare efect. Cre ște și în flora
 spontană, fiind iubitoare de munte, dar și de umezeală. Aparține familiei ranunculaceelor.
@@ -5605,7 +5601,7 @@ DICȚIONARUL PLANTELOR DE LEAC 97
 vegetal. Omagul atacă sistemul nervos central, putând duce foarte repede la moarte.
 Din aceste motiv, orice manipulare sau utilizare de omag, de extracte sau preparate de
 omag, se va face numai sub îndrumarea medicului.
-Oreșnița
+### Oreșnița
 Denumire științifică: Lathyrus tuberosus.
 Prezentare. Oreșnița este o plantă perenă, erbacee, aparținătoare de familia
 leguminoaselor. Este originară din Orient, în prezent crescând în flora spontană, de la
@@ -5623,7 +5619,7 @@ sistemului digestiv, redându-i echilibrul. Din acest motiv, au fost utilizate m
 de oreșniță se extrage un ulei care este comestibil. Deshidratați, rizomii și bulbii de
 oreșniță se pot măcina, obținându -se un interesant înlocuitor de cafea cu proprietăți
 medicinale.
-Orezul
+### Orezul
 Denumire științifică: Oryza sativa.
 Prezentare. Orezul este o graminee anuală, mare iubitoare de umezeală. Tulpina
 plantei de orez este dreaptă, cilindrică, noduroasă – mai ales spre bază. La o anumită
@@ -5647,7 +5643,7 @@ echilibrată, orezul și preparatele medicinale din orez favorizează procesele 
 și de fortificare a organismului, fiind recomandate copiilor și convalescenților.
 În medicina chinezească, orezul este considerat a fi un veritabil agent
 anticanceros.
-Orzul
+### Orzul
 Denumire științifică: Hordeum sativum.
 Denumiri populare: orz de primăvară, orz de toamnă.
 Prezentare. În mod obi șnuit, orzul este cultivat ca plantă furajeră și industrială.
@@ -5680,7 +5676,7 @@ ale splinei. Dacă este folosit în alimentația curentă, orzul nu poate fi dec
 unei evoluții sănătoase și, de aceea, este recomandat copiilor, bătrânilor, persoanelor
 cuprinse de o oboseală generală sau chiar aflate în stare de epuizare. Din orz se fac și
 fulgi, terciuri, cașete, utilizarea sa fiind lesnicioasă și fără efecte toxice.
-Osul iepurelui
+### Osul iepurelui
 Denumire științifică: Ononis spinosa.
 Denumiri populare: cașul iepurelui, lingoare, sălăștioară.
 Prezentare. Osul iepurelui este un subarbust cu tulpină puternică, ramificată, ce
@@ -5704,7 +5700,7 @@ Din rădăcinile, florile ș i codițele frunzelor de osul iepurelui se face un 
 diuretic, cu efect în tratamentul calculilor biliari. Acest ceai este și un bun expectorant.
 Cu extractele de rădăcină de osul iepurelui se pot trata și afecțiuni precum congestia
 ficatului, icterul, reumatismul.
-Ovăzul
+### Ovăzul
 Denumire științifică: Avena sativa.
 Denumiri populare: ovăz alb, zob.
 Prezentare. Ovăzul este una dintre cele mai interesante graminee, pornind chiar
@@ -5758,8 +5754,8 @@ De menționat un fapt semnificativ: toată gama de preparate obținute din ovăz
 o calitate de excepție – aduc liniște și echilibru celui care le consumă. Acela și efect îl
 au și saltelele umplute cu paie de ovăz, pernele cu pleavă și paie de ovăz, împletiturile
 din paie de ovăz.
-P
-Papaia
+## P
+### Papaia
 Denumire științifică: Carica papaya.
 Prezentare. Papaia este o plantă din pădurea ecuatorială. Aparține familiei
 caricaceelor. Cre ște în America Centrală și în insulele din mările sudului. Se mai
@@ -5777,7 +5773,7 @@ aici s-a ajuns la concluzia că papaina poate fi un medicament excepțional. Deo
 pancreasului, în gastrite și gastroenterite.
 
 100 DICȚIONARUL PLANTELOR DE LEAC
-Patisonul
+### Patisonul
 Denumire științifică: Cucurbita pepo, var. patissoniana.
 Prezentare. Legumă mai puțin cunoscută, patisonul face parte din familia
 cucurbitaceelor, fiind asemănător cu dovlecelul. Fructele de patison, de culoare albă
@@ -5797,7 +5793,7 @@ gastro-intestinală.
 Este foarte posibil ca proprietățile medicinale ale patisonului să fie probate nu
 numai de fruct, ci și de semințe, a șa cum se întâmplă în cazul castravetelui și al
 dovlecelului. Cercetările sunt, deocamdată, la începuturi.
-Păducelul
+### Păducelul
 Denumire științifică: Crataegus monogyna; Crataegus laevigata; Crataegus
 oxyacantha.
 Denumiri populare: gherghinar, mălai moale, mărăcine alb, mărăcine.
@@ -5827,7 +5823,7 @@ asemenea, păducelul previne producerea accidentelor cerebrale, combate obezitat
 reduce tulburările de pubertate sau de menopauză.
 Florile de păducel pot fi combinate cu alte plante medicinale, de exemplu cu
 odolean și talpa gâștei, rezultând un ceai medicinal valoros.
-Păpădia
+### Păpădia
 Denumire științifică: Taraxacum officinale.
 Denumiri populare: lăptucă, păpălungă, gușa găinii, floarea turcului.
 Prezentare. Păpădia este o erbacee perenă. Face parte din familia compozitelor și
@@ -5863,7 +5859,7 @@ se poate obține și un înlocuitor de cafea.
 Păpădia se folosește și ca materie primă în industria farmaceutică.
 Naturiștii recomandă cura de păpădie, în fiecare primăvară – când planta e
 fragedă – pe durata a cinci – șase săptămâni.
-Păpălăul
+### Păpălăul
 Denumire științifică: Physalis alkenkengil
 Prezentare. Păpălăul – o plantă mai puțin cunoscută, este o erbacee perenă ce
 face parte din familia solanaceelor. Tulpina subpământeană este un rizom, iar tulpina
@@ -5886,7 +5882,7 @@ preparate determină eliminarea nisipului din zona rinichilor și a vezicii urin
 un diuretic activ. Păpălăul are efect benefic și asupra activității ficatului, revigorând
 activitatea acestuia.
 Administrarea preparatelor de păpălău se va face sub îndrumarea specialistului.
-Părul
+### Părul
 Denumire științifică: Pyrus communis; Pyrus domestica.
 Prezentare. Părul cultivat își are originea în Asia, fiind obținut prin îmbunătățirea
 soiurilor de păr sălbatic. Face parte din familia rozaceelor. Înălțimea părului nu trece
@@ -5912,7 +5908,7 @@ genital, precum și în gută și reumatism.
 Perele sunt importante prin conținutul lor complex, fiind recomandat a se consuma
 în perioada de iarnă. Sunt hrănitoare și au acțiune diuretică, laxativă, răcoritoare, iar la
 nivelul tractului gastro-intestinal acționează ca un depurativ.
-Păstârnacul
+### Păstârnacul
 Denumire științifică: Pastinaca sativa hortensis.
 Prezentare. Păstârnacul este o erbacee cu dezvoltare bienală. Originar din
 Orient, păstârnacul aparține familiei umbeliferelor. Cu o tulpină puternică, ramificată,
@@ -5933,7 +5929,7 @@ păstârnacului în reechilibrarea activității menstruale, agenți determinan�
 fiind mai ales componentele din uleiul volatil. Păstârnacul combate lenea vezicii biliare,
 febra, infecțiile, inapetența. Are rol profilactic în bolile vasculare, fiind și un stimulator al
 activității glandelor endocrine.
-Pă știța
+### Pă știța
 Denumire științifică: Anemone ranunculoides.
 Denumire populară: păscuță.
 Prezentare. Păștița este o plantă erbacee perenă, de mi ci dimensiuni, cu
@@ -5946,7 +5942,7 @@ păduri, liziere, tufărișuri, pe marginea drumurilor – preferând locuri umb
 Întrebuințări. Infuzia de păștiță are efecte sedative și chiar soporifice (somnifer,
 provoacă somnul). Din aceste motive, administrarea ei se va face cu mare precauție și
 numai sub îndrumarea specialistului.
-Pătlagina
+### Pătlagina
 Denumire științifică: Plantago lanceolata.
 Denumiri populare: limba oii, limba broaștei.
 Prezentare. Pătlagina face parte din categoria plantelor medicinale renumite.
@@ -5984,7 +5980,7 @@ sunt asemănătoare cu ale speciei descrise mai sus, Plantago lanceolata.
 Pătlagina este nu numai un renumit expectorant, ci și un depurativ cu o arie de
 acțiune foarte mare – purifică organe vitale precum plămânii și stomacul, dar – ce e și
 mai important – purifică și sângele.
-Pătlăgica ro șie
+### Pătlăgica roșie
 Denumire științifică: Lycopersicum esculentum.
 Denumiri populare: roșie, tomată.
 Prezentare. Pătlăgica roșie face parte din familia solanaceelor, fiind originară din
@@ -6010,7 +6006,7 @@ recomandă ca terapiile cu pătlăgele roșii să nu depășească o lună.
 Preparatele din pătlăgele ro șii sunt folosite și în tratamente dermatologice și
 aplicații cosmetice. De exemplu, acneea se poate combate și prin aplicarea de felii de
 pătlăgele roșii pe față.
-Pătlăgica vânătă
+### Pătlăgica vânătă
 Denumire științifică: Solanum meiongena.
 Denumire populară: vânătă.
 Prezentare. Pătlăgica vânătă, pe scurt vânăta, este originară din subcontinentul
@@ -6038,7 +6034,7 @@ Vinetele sunt un agent de ardere a grăsimilor, fiind, prin urmare, recomandate
 Potrivit herbalistei Elenei Niță Ibrian, pătlăgica vânătă are o importanță deosebită
 în tratamente privind obezitatea, celulita, colesterolul, diabetul. Vânăta revigorează
 organismul, fiind un stimulent al multor funcții importante, inclusiv cea digestivă.
-Pătrunjelul
+### Pătrunjelul
 Denumire științifică: Petroselinum hortense.
 Prezentare. Pătrunjelul, o plantă bienală aromatică, aparține familiei umbeliferelor.
 Are o rădăcina pivotantă, consistentă, uneori îngroșată, lungă până la 30 cm. Frunzele
@@ -6054,7 +6050,7 @@ Reglează activitatea ficatului. Este indicat în astenie, tulburări de nutriț
 anxietate, infecții, reumatism, gută, având influență benefică și în funcționarea tractului
 gastro-intestinal și a căilor respiratorii. Efecte notabile are pătrunjelul și asupra purității
 sângelui, fiind un detoxifiant activ, un depurativ eficient și la îndemână.
-Pecetea lui Solomon
+### Pecetea lui Solomon
 Denumire științifică: Polygonatum odoratum; Polygonatum multiflorum.
 Prezentare. Pecetea lui Solomon este o plantă perenă ce crește în flora spontană,
 dar uneori este cultivată, mai ales pentru florile ei. Înălțimea maximă la care poate
@@ -6072,7 +6068,7 @@ unor afecțiuni interne, preparatele aplicându- se peste zona cu probleme. Pece
 Solomon poate fi utilizată ș i în tratamentul împotriva unei boli grave – antraxul. Se
 folosește, de asemenea, în terapii împotriva furunculozei, a panarițiului. Cu bucăți de
 rizom se pot înmuia bătăturile de la picioare, putând fi apoi îndepărtate fără durere.
-Pelinul
+### Pelinul
 Denumire științifică: Artemisia absinthium.
 Denumiri populare: pelinaș, peliniță, iarba fecioarelor.
 
@@ -6104,7 +6100,7 @@ pentru tamponări, spălături, băi în cazul unor plăgi, răni ulcerând, pec
 mult de șapte-opt zile, deoarece pot apărea efecte nedorite în plan digestiv și nervos,
 în starea generală a organismului. Cei cu infecții acute intestinale și gravidele nu au
 voie să folosească, în nici o împrejurare, preparate pe bază de pelin.
-Pepenele galben
+### Pepenele galben
 Denumire științifică: Cucumis melo.
 Denumire populară: zemos, bostan galben, cantalup.
 Prezentare. Pepenele galben este o plantă erbacee anuală, cu origine exotică.
@@ -6125,7 +6121,7 @@ recomandat și diabeticilor. Pulpa fructului, dar și extractele de semințe, se
 în aplicații externe – în cosmetică, de exemplu – dar și pentru tratarea unor afecțiuni ale
 pielii (inflamații, arsuri, răni rebele).
 Pepenele galben este indicat în curele de fructe de sezon.
-Pepenele verde
+### Pepenele verde
 Denumire științifică: Citrullus lanatum.
 Denumiri populare: lubeniță, harbuz.
 Prezentare. Pepenele verde face parte din familia cucurbitaceelor, fiind o erbacee
@@ -6144,7 +6140,7 @@ provoacă, pepenele verde ameliorează suferințele de gută și reumatism, asig
 totodată, printr-o cură susținută, o curățire a organismului.
 În general, pepenele verde este o binefacere pentru suferinzii de rinichi, cât și
 pentru cei pletorici sau obezi.
-Piciorul lupului
+### Piciorul lupului
 Denumire științifică: Lycopus europaeus.
 Prezentare. Piciorul lupului este o plantă perenă, bine dezvoltată, ce poate atinge
 1,20 metri. Are un riz om scurt, tulpina fiindu-i muchiată și bogat ramificată. Frunzele au
@@ -6157,7 +6153,7 @@ provocarea și mărirea secrețiilor gastrice, la o activitate normală. Aceste 
 se folosesc și în tratamente privind afecțiuni ale căilor respiratorii, dilatând și tonifiind
 aceste traiecte, efecte având și în caz de tuse. Piciorul lupului mai este cunoscut și ca
 plantă medicinală utilizată împotriva hipertiroidiei.
-Piersicul
+### Piersicul
 Denumire științifică: Piersica vulgaris; Prunus persica.
 Prezentare. Piersicul este originar din China. Numele îi vine însă de la Persia,
 țara unde romanii l -au întâlnit și de unde l -au și adus în Europa. Aparține familiei
@@ -6180,7 +6176,7 @@ de cataplasme, preparatele din frunze de piersic sunt utilizate și în tratamen
 cancere ale pielii, al contuziilor și arsurilor. Decoctul de frunze este purgativ. Sâmburii
 de piersică, ocrotiți de un înveliș lemnos foarte dur, rămân încă puțin cercetați, dar au,
 se pare, unele asemănări, din punct de vedere terapeutic, cu sâmburii de migdale.
-Pinul
+### Pinul
 Denumire științifică: Pinus montana; Pinus sylvestris.
 Prezentare. Pinul este un conifer de mari dimensiuni. Aparține, fire ște, familiei
 pinaceelor (abietaceelor), fiind reprezentativ pentru această familie. Înălțimea sa
@@ -6203,7 +6199,7 @@ dezinfectant al căilor urinare. Infuzia de muguri de pin are și acțiune antis
 La rândul său, infuzia de ace de pin acționează în tuberculoză, având calități
 antiinflamatoare și descongestionând aria pulmonară.
 Mugurii de pin se folosesc și la producerea de bomboane medicinale.
-Piperul de haltă
+### Piperul de haltă
 Denumire științifică: Polygonum hydropiper.
 Denumire populară: dintele dracului.
 Prezentare. Piperul de baltă este o erbacee anuală. Face parte din familia
@@ -6220,7 +6216,7 @@ Uleiul esențial conține poligonon.
 emenagogă (influențează desfășurarea ciclului menstrual), fiind indicate în hemoragii
 (inclusiv hemoragii digestive), hemoroizi, circulație periferică redusă, hipertensiune
 arterială.
-Piperul negru
+### Piperul negru
 Denumire științifică: Piper nigrum.
 Prezentare. Condiment aproape indispensabil, piperul este, ca plantă, o liană
 perenă. Aparține familiei piperaceelor și cre ște în zonele tropicale, fiind întâlnit, în
@@ -6242,7 +6238,7 @@ mai ales pentru bărbați. Piperul negru contribuie și la îmbunătățirea cir
 Este folosit, de asemenea, în tratamentele afecțiunilor reumatismale.
 Deși medicina chineză tradițională îl folosește de mii de ani, piperul este încă
 puțin utilizat, ca plantă medicinală, în Europa.
-Piretrul
+### Piretrul
 Denumire științifică: Chrysanthemum cinerariaefolium; Pyrethrum
 cinerariaefolium.
 Prezentare. Piretrul, foarte cunoscut datorită flacoanelor cu spray pentru
@@ -6259,7 +6255,7 @@ Pentru uz medicinal se recoltează florile și vârfurile tinere cu flori și fr
 Substanțe active importante: piretrine, cinerine, esteri.
 Întrebuințări. Preparatele pe bază de piretru sunt folosite în combaterea viermilor
 intestinali, precum și a râiei și păduchilor lați.
-Pirul
+### Pirul
 Denumire științifică: Agropyron repens.
 Denumiri populare: chir, răgălie, grâul mâții.
 Prezentare. Pirul, aparținător familiei gramineelor, este o plantă foarte puternică.
@@ -6285,7 +6281,7 @@ alimentară. De pildă, în industria alimentară, din rizomi de pir se fac siro
 înlocuitor de cafea.
 Pirul este căutat ș i în medicina tradițională veterinară – elimină calculii, ce se
 formează în perioada rece, în stomacul animalelor.
-Plesnitoarea
+### Plesnitoarea
 Denumire științifică: Ecballium elaterium.
 Denumire populară: castravete sălbatic.
 Prezentare. Plesnitoarea este o erbacee anuală. Face parte din familia
@@ -6302,7 +6298,7 @@ Substanțe active importante: elaterina (substanța care face fructul să explod
 Întrebuințări. Cu extractele din această plantă se tratează o bo ală grea, numită
 hidropizie. Această boală se manifestă prin acumulare nefirească de lichid (apă) în
 cavitățile naturale ale organismului sau în unele organe.
-Plopul negru
+### Plopul negru
 Denumire științifică: Populus nigra.
 Denumire populară: plop plutaș.
 Prezentare. Plopul aparține familiei salicaceelor și este unul dintre cei mai înalți
@@ -6324,7 +6320,7 @@ contribuie la buna desfă șurare a proceselor digestive. Cu preparatele de plop
 se obțin rezultate în tratarea bron șitelor acute, a hemoroizilor, a bolilor de rinichi și
 arsurilor. Plopul este, totodată, un bun antireumatic și un dezinfectant al căilor urinare.
 Se folosește și în caz de sciatică, nevralgii, inflamații ale căilor respiratorii.
-Pochivnicul
+### Pochivnicul
 Denumire științifică: Asarum europaeum.
 Denumiri populare: popâlnic, piperul lupului.
 Prezentare. Pochivnicul este o erbacee perenă, de mici dimensiuni, din familia
@@ -6346,7 +6342,7 @@ tratarea bronșitelor cronice, a astmului, în tuse convulsivă. Cu pochivnic se
 în alte afecțiuni pulmonare, relaxând și igienizând zona pulmonară. Produce strănut,
 contribuind astfel la curățarea și aerisirea căilor respiratorii, dar ș i la o anume reglare
 a tonusului nervos.
-Podbulul
+### Podbulul
 Denumire științifică: Tussilago farfara.
 Denumiri populare: brusturel, cenușoară, limba vecinului.
 Prezentare. Podbalul este o plantă micuță (o erbacee din familia compozitelor),
@@ -6376,7 +6372,7 @@ Podbalul se folosește și în tratamente cosmetice, sub formă de băi și împ
 în special pentru curățirea și întreținerea tenurilor grase.
 
 110 DICȚIONARUL PLANTELOR DE LEAC
-Popâlnicul iepuresc
+### Popâlnicul iepuresc
 Denumire științifică: Hepatica nobilis.
 Denumire populară: trei răi.
 Prezentare. Popâlnicul iepuresc este o plantă micuță, acoperită de perișori. Face
@@ -6389,7 +6385,7 @@ Substanțe active importante: anemonină, zaharuri, taninuri.
 este puțin studiat. Dator ită compușilor săi, această plantă poate fi toxică. În tradiția
 populară, popâlnicul iepuresc este cunoscut ca având efecte pozitive în bolile de ficat,
 de unde și numele de hepatica.
-Portocalul
+### Portocalul
 Denumire științifică: Citrus aurantium.
 Prezentare. Portocalul este o plantă de climă blândă, fiind, alături de lămâi,
 reprezentativ pentru zona mediteraneană. Este un arbore originar din Orientul
@@ -6413,7 +6409,7 @@ infecțioase, întărește capilarele și ușurează circulația periferică. Pu
 Preparatele pe bază de frunze, flori și coajă de portocală sunt indicate, cu
 precădere, în afecțiuni pe fond nervos, având efecte calmante și relaxante recunoscute
 de multă vreme.
-Porumbarul
+### Porumbarul
 Denumire științifică: Prunus spinosa.
 Denumiri populare: spin, corcodel, scorombar.
 Prezentare. Porumbarul este un arbust de doi -trei metri înălțime, uneori mai
@@ -6439,7 +6435,7 @@ DICȚIONARUL PLANTELOR DE LEAC 111
 prepararea de compoturi și dulceață. În gospodăria țărănească tradițională se prepara
 din fructele de porumbar un fel vin și chiar se obținea, prin fermentare și distilare, o
 băutură alcoolică.
-Porumbul
+### Porumbul
 Denumire științifică: Zea mays.
 Denumiri populare: cucuruz, păpușoi.
 Prezentare. Porumbul este una dintre cele mai cunoscute plante. Poate atinge
@@ -6461,7 +6457,7 @@ dischinezie biliară, calculoză renală, metrite, gută, cistită, reumatism, m
 tulburări de menstruație, tulburări digestive și chiar insuficiență cardiacă.
 Principalul domeniu de tratament cu mătasea de porumb – afecțiunile renale și
 cele ale aparatului urinar.
-Prazul
+### Prazul
 Denumire științifică: Allium porrum.
 Prezentare. Prazul e ste o plantă legumicolă ce aparține de familia liliaceelor.
 Originea prazului este în zona Mediteranei. Tradiția culinară bazată și pe consumul
@@ -6485,7 +6481,7 @@ Mâncarea de praz este recomandată în dieta obezilor, dar și a acelora care s
 de anemie sau de funcționare defectuoasă a sistemului digestiv. Aplicații medicinale cu
 praz se fac și în caz de hemoroizi, bătături, abcese. Mai mult decât atât, prazul are și
 virtuți cosmetice, fiind folosit pentru curățirea și îngrijirea tenului.
-Prunul
+### Prunul
 Denumire științifică: Prunus domestica.
 Denumire populară: perj.
 Prezentare. Prunul este un arbore foarte cunoscut și foarte prețuit, pruna fiind,
@@ -6513,7 +6509,7 @@ medicinale, dar și mâncărurile pe bază de prune contribuie și la buna func�
 a ficatului, a splinei, a rinichiului, având efecte depurative atât pentru ficat, cât și
 pentru rinichi. Pentru afecțiuni cum ar fi hipertensiunea, reumatismul, ateroscleroza,
 obezitatea, specialiștii recomandă cure de prune.
-Pufulița
+### Pufulița
 Denumire științifică: Epilobium hirsutum.
 Denumire populară: pufulița păroasă.
 Prezentare. Pufulița este o erbacee din familia onagraceelor, remarcându -se
@@ -6530,8 +6526,8 @@ de excepție, fiind recomandate în boli grele, cum ar fi ciroza și hepatita cr
 obținut rezultate favorabile și în afecțiunile prostatei, precum și în gastrite.
 Efecte medicinale asemănătoare au și preparatele realizate din planta numită
 zburătoare (Epilobium angustifolium).
-R
-Răchita ro șie
+
+### Răchita roșie
 Denumire științifică: Salix purpurea.
 Denumire populară: răchită, roșioară.
 Prezentare. Răchita roșie este un arbore pitic, sau chiar o tufă mai dezvoltată,
@@ -6566,7 +6562,7 @@ glicozid cu acțiune antireumatică și antifebrilă.
 Efecte medicinale asemănătoare cu ale răchitei roș ii au încă două specii de
 salcie: salcia sau răchita albă (Salix alba) ș i salcia fragedă (Salix fragilis). Aceste
 două specii se găsesc, de obicei, în locurile unde crește și răchita roșie.
-Răchitanul
+### Răchitanul
 Denumire științifică: Lythrum salicarial
 Denumiri populare: floarea zânei, lemnușcă.
 Prezentare. Aparținând familiei litraceelor, răc hitanul este o specie de erbacee
@@ -6586,7 +6582,7 @@ inclusiv în reglarea activității gastro-intestinale. Aceste preparate sunt ef
 caz de dizenterie, ulcere, hemoragii gastro-intestinale.
 În anumite zone ale României, vârfurile tinere, frunzele tinere și rizomii de răchitan
 se utilizează ca zarzavaturi, deja adoptate și de naturiști, pentru salate.
-Răcu lețul
+### Răcu lețul
 Denumire științifică: Polygonum bistorta.
 Prezentare. Răculețul este o erbacee târâtoare, perenă, întâlnită în flora spontană
 din zonele subalpine și alpine. Aparține familiei poligonaceelor. Rizomul este gros și
@@ -6600,7 +6596,7 @@ Substanțe active importante: acizi, amidon și foarte mult tanin.
 efectele medicinale ale plantei țin de sectorul curățenie internă și detoxificare a
 organismului. Răculețul se foloseș te, prin urmare, ca depurativ general, asigurând o
 primenire a organismului, revitalizându-l și echilibrându-l.
-Reventul
+### Reventul
 Denumire științifică: Rheum officinale; Rheum palmatum.
 Denumire populară: rubarbă, rabarbură.
 Prezentare. Reventul este o legumă mai puțin cunoscută, celebră fiind, în
@@ -6633,7 +6629,7 @@ cele mai importante remedi i utilizate în bolile de rinichi și de stomac. Răd
 revent este cunoscută ca un bun agent laxativ și purgativ. Reventul este folosit și în
 alte afecțiuni, cum ar fi impotența, stomacul lene ș, lipsa de poftă de viață, paraziții
 intestinali, dizenteria.
-Ricinul
+### Ricinul
 Denumire științifică: Ricinus communis.
 Denumire populară: căpușă.
 Prezentare. Ricinul este o plantă erbacee, anuală, cu o înălțime de până la doi
@@ -6648,7 +6644,7 @@ Substanțe active importante. Procentul de ulei din semințele de ricin este foa
 mare – până la 50 – 53 la sută. Semințele de ricin conțin și ricină – o toxină vegetală
 foarte periculoasă, care aglutinează globulele din sânge.
 Întrebuințări. Uleiul (untul) de ricin este un purgativ foarte eficient.
-Ridichea
+### Ridichea
 Denumire științifică: Raphanus sativus (ridichea ro șie); Raphanus niger
 (ridichea neagră).
 Prezentare. Ridichea este o erbacee bienală. Aparține de familia cruciferelor
@@ -6683,7 +6679,7 @@ mai puțin pronunțate.
 Mențiune aparte pentru ridichea sălbatică (Raphanus raphanistrum), folosită ca
 revulsiv în reumatisme – se spune că scoate cu succes durerea din oase și încheieturi.
 Ridichea sălbatică este o buruiană care crește, adesea, prin culturile de grâu.
-Rodiul / Rodia
+### Rodiul / Rodia
 Denumire științifică: Punica granatum.
 Prezentare. Ușor de găsit în zona mediteraneană, rodiul este un arbust din
 familia punicaceelor. Își are originea în Persia și Mesopotamia. Rodiul este spinos și
@@ -6706,7 +6702,7 @@ combaterea teniazei și a dizenteriei. Paraziții intestinali pot fi neutraliza�
 florali ai rodiului. Bine mărunțiți sa u macerați, bobocii florali au efecte pozitive și în
 tricomonază, diaree, dizenterie. Preparatele din coaja de pe rădăcini pot contribui și la
 reducerea febrei, la oprirea hemoragiilor, la cicatrizarea rănilor.
-Rodul pământului
+### Rodul pământului
 Denumire științifică: Arum maculatum; Arum orientale.
 Denumire populară: calendarul codrului.
 Prezentare. Rodul pământului este o erbacee perenă. Această plantă are în sol
@@ -6725,7 +6721,7 @@ conicină, rodul pământului este o plantă otrăvitoare.
 hemoroizilor, a blocajelor intestinale, în unele boli respiratorii (astmul pulmonar),
 precum și într -o serie întreagă de afecțiuni dermatologice, unele greu de remediat,
 cum ar fi ulcerele cutanate.
-Rogozul
+### Rogozul
 Denumire științifică: Carex riparia; Carex arenaria.
 
 116 DICȚIONARUL PLANTELOR DE LEAC
@@ -6740,7 +6736,7 @@ sub formă de fiertură (decoct), în boli ale articulațiilor, reumatisme, boli
 mult decât atât, au fost identificate chiar și proprietăți anticancerigene ale preparatelor
 obținute din această plantă. În acest sens, Jean Valnet aminte ște de un tratament în
 cazul unui cancer de limbă.
-Roiba
+### Roiba
 Denumire științifică: Rubia tinctorum.
 Denumiri populare: iarba de vopsea, garanța.
 Prezentare. Roiba este o plantă erbacee întâlnită în flora spontană. Aparține
@@ -6764,7 +6760,7 @@ Totodată, roiba intensifică activitatea bilei. În general, preparatele din ac
 sunt un depurativ destul de puternic, ce duce la curățirea și dezintoxicarea rinichiului,
 a organelor și căilor aferente rinichiului și ficatului. Preparatele de roibă sunt folosite și
 în bolile articulațiilor, anemie, lipsă de poftă de mâncare, rahitism.
-Roinița
+### Roinița
 Denumire științifică: Melissa officinalis.
 Denumiri populare: iarba roiului, busuiocul stupului, roiște.
 Prezentare. Roinița este o plantă erbacee perenă, aparținâ nd familiei labiatelor.
@@ -6797,7 +6793,7 @@ stomacului, facilitează digestia. De asemenea, combat amețelile, pierderile sc
 conștiință, migrenele, blocajele digestive.
 Roinița este o plantă foarte căutată de albine, mierea obținută fiind un adevărat
 medicament natural.
-Rostopasca
+### Rostopasca
 Denumire științifică: Chelidonium majus.
 Denumire populară: negelariță.
 Prezentare. Rostopasca este o erbacee perenă, din familia papaveraceelor.
@@ -6824,7 +6820,7 @@ cancer, având, se spune, efecte antitumorale. Are influență, de asemenea, și
 sistemului nervos.
 Specialiștii recomandă utilizarea acestei plante cu atenție, compuș i săi fiind
 toxici.
-Roua cerului
+### Roua cerului
 Denumire științifică: Drosera rotundifolia.
 Prezentare. Roua cerului este una dintre cele mai interesante plante din România,
 mai ales prin faptul că este carnivoră. Aparține familiei droseraceelor. Această plantă
@@ -6851,7 +6847,7 @@ farmaceutică, mai ales pentru prepararea medicame ntelor necesare în tratament
 tusei convulsive.
 
 118 DICȚIONARUL PLANTELOR DE LEAC
-Rozmarinul
+### Rozmarinul
 Denumire științifică: Rosmarinus officinalis.
 Prezentare. Rozmarinul este un subarbust din familia labiatelor, întâlnit în flora
 spontană din zona mediteraneană. În România, rozmarinul este cultivat ca arbust
@@ -6872,7 +6868,7 @@ Preparatele pe bază de rozmarin sunt indicate și în amnezie, astm, boli ale f
 (hepatită acută, ciroză hepatică), tulburări de funcționare a creierului, hipotensiune,
 impotență, frigiditate, dischinezie biliară, dureri de inimă. Cu decoct din frunze de
 rozmarin se poate combate mătreața.
-Ruscuța de primăvară
+### Ruscuța de primăvară
 Denumire științifică: Adonis vernalis.
 Prezentare. Ruscuța de primăvară este o mică plantă perenă, cu o înălțime de
 maximum 40 cm. Face parte din familia ranunculaceelor. Rădăcinile au o conformație
@@ -6888,8 +6884,8 @@ tulburările neuro-vegetative, în tahicardie și extrasistole pe fond nervos. D
 ruscuța de primăvară este folosită împotriva bolilor de ficat și de plămân.
 Preparatele de ruscuță de primăvară sunt folosite atât de cei suferinzi de
 insuficiență cardiacă, cât și de cei suferinzi de insuficiență renală.
-S
-Salata verde
+## S
+### Salata verde
 Denumire științifică: Lactuca sativa.
 Denumiri populare: marole, lăptucă.
 Prezentare. Salata verde este o erbacee legumicolă, foarte cunoscută pentru
@@ -6919,7 +6915,7 @@ verde acționează în vindecarea unor infecții majore ale pielii. Speciali șt
 salata verde și în diabet, consumul acestei plante reducând glicemia. La rândul său,
 decoctul de semințe de salată s-a dovedit a fi deosebit de eficient în aplicațiile privind
 astmul și bronșitele.
-Salba moale
+### Salba moale
 Denumire științifică: Evonymus europeea; Evonymus latifolius.
 Denumire populară: lemnul câinelui, vonicer.
 Prezentare. Salba moale este un arbust des tul de înalt (ajunge până la șase
@@ -6942,7 +6938,7 @@ purgative și vomitive. În aplicații de uz extern, preparatele de salbă moale
 dezinfectante și cicatrizante.
 Arbustul de salbă moale are întrebuințări și în domeniul artistic – din lemnul său se
 prepară un foarte bun cărbune pentru desen.
-Salcâmul
+### Salcâmul
 Denumire științifică: Robinia pseudacacia.
 Denumiri populare: brebene, lemn alb, salcâm alb, acacie.
 Prezentare. Salcâmul, atât de cunoscut la noi, este un arbore exotic, originar
@@ -6968,7 +6964,7 @@ respirator.
 120 DICȚIONARUL PLANTELOR DE LEAC
 Efecte medicinale (de exemplu, în tratarea insomniilor, dar nu numai) au și florile
 consumate proaspete, mai ales în salate sau în amestec cu miere de albine.
-Salcâmul japonez
+### Salcâmul japonez
 Denumire științifică: Sophora japonica.
 Denumiri populare: salcâm boieresc, soforă.
 Prezentare. Salcâmul japonez, un arbore din f amilia papilionaceelor, este cultivat
@@ -6989,7 +6985,7 @@ circulației periferice, hemoroizii, tulburările de circulație la nivelul arti
 hipertensiunea arterială, glaucomul, unele afecțiuni ale ficatului. Potrivit unor
 cunoscători ai medicinii tradiționale din Orientul îndepărtat, salcâmul japonez este
 utilizat și pentru combaterea cancerului.
-Salvia
+### Salvia
 Denumire științifică: Salvia officinalis.
 Denumiri populare: salbie, șerlai, jaleș bun.
 Prezentare. Salvia, un foarte prețuit arbust din familia labiatelor, are o talie mică
@@ -7019,7 +7015,7 @@ apă.
 Salvia se folose ște și în aplicații medicinale externe. Tratamentele externe cu
 preparate medicinale din salvie vizează răni vechi, rosături ale pielii, iritații, făcându-se
 spălături locale sau aplicându-se comprese și loțiuni.
-Saschiul
+### Saschiul
 Denumire științifică: Vinca minor.
 Denumire populară: merișor, brebenoc.
 Prezentare. Saschiul este o plantă erbacee perenă, aparținând familiei
@@ -7047,7 +7043,7 @@ magice. Și tot din acele timpuri, saschiul este cunoscut ca un remediu de năde
 caz de cefaleele sau de amețeli.
 Datorită, în primul rând, compusul ui numit vincamină, saschiul este folosit și în
 industria farmaceutică.
-Săni șoara
+### Săni șoara
 Denumire științifică: Sanicula europaea.
 Prezentare. Sănișoara este o e rbacee de numai 30 – 40 cm, iubitoare de
 umezeală și umbră, întâlnită prin pădurile de la munte. Aparți ne familiei umbeliferelor.
@@ -7065,7 +7061,7 @@ lipide, acizi organici. Semințele conțin ulei și acizi organici.
 cicatrizante, calmante. Sunt recomandate în dischinezii biliare, în boli de ficat, în
 astm, bronșite, dureri de gât, inflamații ale gingiilor, enterite, diaree, dizenterie, alte
 deranjamente stomacale și intestinale.
-Săpunarița
+### Săpunarița
 Denumire științifică: Saponaria officinalis.
 Denumiri populare: văcăriță, săpunel, berbecei, odogaci.
 Prezentare. Săpunarița – o erbacee perenă din familia cariofilaceelor – are o
@@ -7090,7 +7086,7 @@ Rădăcina de săpunariță are importante utilizări industriale: la fabricarea
 săpunurilor sau pentru spălarea stofelor și a mătăsurilor – din săpunariță obținându-se
 o leșie foarte eficientă.
 Specialiștii recomandă precauție în utilizarea acestei plante, fiind toxică.
-Sânzienele
+### Sânzienele
 Denumire științifică: Galium verum.
 Denumire populară: drăgaică, sânziene.
 Prezentare. Sânzienele sunt plante erbacee, remarcate prin florile lor galben-aurii,
@@ -7116,7 +7112,7 @@ Este, în primul rând, un calmant asemănător cu teiul. Potrivit francezului J
 unul dintre marii speciali ști ai tratamentelor naturiste, infuzia de sânziană albă n -ar
 trebui să lipsească în nici o zi din dieta persoanelor nervoase. Și sânziana albă este
 folosită în epilepsie, precum și în diabet.
-Scaiul dracului
+### Scaiul dracului
 Denumire științifică: Eryngium maritimum.
 Prezentare. Acest scai, întâlnit mai rar, este o plantă ce cre ște la malul mărilor,
 fiind prezent și pe nisipul Mării Negre. Aparține familiei umbeliferelor. Are dezvoltare
@@ -7137,7 +7133,7 @@ hrana naturiștilor, fiind folosite la salate.
 Această specie de scaiul dracului are proprietăți medicinale relativ asemănătoare
 cu cele ale rostogolului (Eryngium campestre), plantă mult mai lesne de găsit în flora
 din țara noastră.
-Scaiul ghimpos
+### Scaiul ghimpos
 Denumire științifică: Centaurea calcitrapa.
 Denumire populară: mături, ghimpe, scaiete.
 Prezentare. Scaiul ghimpos face parte din familia compozitelor și este o plantă
@@ -7161,7 +7157,7 @@ galbenă. De altfel, toate ramificațiile tulpinii scaiului galben sunt pline de
 galben înflorește din iunie și până în octombrie, fiind u șor de recunoscut după florile
 galbene, înconjurate de spini. Poate fi întâlnit în aceleași locuri în care crește și scaiul
 ghimpos.
-Scaiul măgăresc
+### Scaiul măgăresc
 Denumire științifică: Onopordon acanthium.
 Denumire populară: ghimpe mare.
 Prezentare. Scaiul măgăresc este o erbacee puternică, înaltă, cu frunze mari,
@@ -7178,7 +7174,7 @@ Substanțe active importante: flavone, cumarină, tanin, ulei eteric, alcaloizi.
 refacerea țesuturilor și, din acest motiv, sunt utilizate în vindecarea unor răni dificile,
 precum și în ulcere gastroduodenale. Se folosesc și în acțiunea de dizolvare a pietrelor
 de la rinichi sau în calmarea acceselor de tuse convulsivă.
-Scaiul vânăt
+### Scaiul vânăt
 Denumire științifică: Eryngium planum.
 Denumiri populare: spinul vântului, scai albastru.
 Prezentare. Scaiul vânăt este o plantă erbacee, perenă, des întâlnită în flora
@@ -7195,7 +7191,7 @@ respiratorii, fiind un expectorant puternic și un calmant local. Decoctu l de s
 fluidizează secreția bron șică și, de aceea, este recomandat în bronș ite și în tuse
 convulsivă. Scaiul vânăt este folosit și în realizarea unor ceaiuri compuse din mai multe
 plante, ceaiuri ale căror efecte medicinale sunt, adesea, remarcabile.
-Scara Domnului
+### Scara Domnului
 Denumire științifică: Polemonium caeruleum.
 Denumire populară: scăricica.
 Prezentare. Scara Domnului este o erbacee perenă, fiind identificată printr -un
@@ -7211,7 +7207,7 @@ Substanțe active importante: saponine.
 totodată, și un sedativ eficient și suportabil. Aceste preparate dau rezultate bune în
 bronșite cronice. Unii specialiști sunt de părere că au efecte notabile și în ateroscleroză
 și chiar în candidoze.
-Scânteiuța
+### Scânteiuța
 Denumire științifică: Anagallis arvensis.
 Prezentare. Scânteiuța este o plantă ușor de recunoscut și prin faptul că tulpina
 și ramurile sale sunt la nivelul solului, numai rareori fiind erecte. Florile de scânteiuță
@@ -7230,7 +7226,7 @@ de suferințe biliare (litiază), hemoroizi, astenii nervoase, depresii, unele a
 ale căilor urinare, epilepsie. Scânteiuța se utilizează și în vindecarea unor afecțiuni
 dermatologice (răni care nu se închid, răni ulcerate, pecingine, eczeme), precum și în
 afecțiuni oftalmologice (de pildă, în cazul senzației de corp străin în ochi).
-Schinduful
+### Schinduful
 Denumire științifică: Trigonella foenum graecum.
 Denumire populară: sfindoc.
 Prezentare. Schinduful este o plantă erbacee anuală, originară din zona Mării
@@ -7255,7 +7251,7 @@ greutate, rahiticilor, astenicilor, diabeticilor. Preparatele pe bază de schind
 rezultate și în tratarea impotenței și a frigidității.
 Schinduful revitalizează întregul organism, fiind un agent de resuscitare a celor
 mai importante funcții ale acestuia.
-Schinelul
+### Schinelul
 Denumire științifică: Cnicus benedictus.
 Denumiri populare: șofran sălbatic, iarbă amară.
 Prezentare. Schinelul, o plantă din familia compozitelor, este puțin cunoscut
@@ -7277,7 +7273,7 @@ stimulând secrețiile gastrice (inclusiv aciditatea gastrică), precum și poft
 Schinelul este recomandat și în reumatism, edeme, hidropizie, guturai rebel. Totodată,
 schinelul are și calități de agent febrifug, fiind utilizat în tratarea stărilor febrile însoți te
 de erupții cutanate.
-Sclipeții
+### Sclipeții
 Denumire științifică: Potentilla erecta.
 Denumire popuiară: scrântitoare.
 Prezentare. Sclipeții sunt o erbacee perenă. Fiind o plantă care aparține familiei
@@ -7298,8 +7294,7 @@ deranjamente intestinale (dizenterie, enterocolită, diaree), precum și în hem
 arsuri, nefrite, incontinență urinară, răceală, astm.
 Preparatele obținute din sclipeți au proprietăți cicatrizante și hemostatice, reduc
 febra, au acțiune astringentă și tonică.
-Scorțișoara / Arborele de
-scorțișoară / Scorțișorul
+### Scorțișoara / Arborele de / scorțișoară / Scorțișorul
 Denumire științifică: Cinnamomum ceylanicum; Cinnamomum cassia;
 Cinnamomum zeylanicum.
 Prezentare. Scorțișorul este un arbust exotic, întâlnit în flora din Indochina și
@@ -7326,7 +7321,7 @@ face poftă de mâncare, pentru calmarea spasmelor stomacale și intestinale, pe
 ușurarea digestiei. Aceste aplicații terapeutice demonstrează că scorțișoara este și un
 calmant întotdeauna binefăcător, contribuind la aducerea organismului în parametrii
 lui funcționali.
-Scoru șul de munte
+### Scoru șul de munte
 Denumire științifică: Sorbus aucuparia.
 Denumire populară: scoruș păsăresc.
 Prezentare. Scorușul de munte este un arbore ce aparține familiei rozaceelor,
@@ -7341,7 +7336,7 @@ specific.
 adjuvant în tratamentele diabeticilor. Se folosește și ca agent pentru poftă de mâncare,
 în anemii, în boli reumatice. Fructul de scoru ș are un rol important în dinamizarea și
 regularizarea activității gastro-intestinale.
-Scumpia
+### Scumpia
 Denumire științifică: Cotinus coggygria; Rhus cotinus.
 Denumire populară: oțetar.
 Prezentare. Scumpia este un arbust din familia anacardiaceelor, cu o înălțime
@@ -7356,7 +7351,7 @@ Substanțe active importante: gumirezină, miricetină, taninuri.
 astringente, fiind indicate în stomatite, gingivite, infecții ale căilor urinare, incontinență
 urinară. Unii specialiști recomandă utilizarea scumpiei și în afecțiuni digestive (la nivelul
 stomacului și al intestinelor), precum și în combaterea hemoroizilor și a varicelor.
-Secara
+### Secara
 Denumire științifică: Secale cereale.
 Prezentare. Secara este o erbacee anuală și face parte din familia gramineelor.
 Tulpina secarei poate ajunge chiar și la doi metri înălțime, fiind dreaptă, cu frunze
@@ -7383,7 +7378,7 @@ alte produse, un rol benefic în combaterea unei boli foarte grave – scleroza 
 
 DICȚIONARUL PLANTELOR DE LEAC 127
 menționează faptul că din secară se face și whisky, whisky-ul adevărat.
-Sfecla ro șie
+### Sfecla ro șie
 Denumire științifică: Beta rubra.
 Prezentare. Sfecla roșie este o plantă bienală. Aparține de familia chenopodiaceelor
 și se remarcă printr -o rădăcină foarte dezvoltată. În primul an de vegetație, partea
@@ -7419,7 +7414,7 @@ revitalizare. Aceste cure, care au și scop profilactic, înseamnă consumarea u
 de suc de circa 100 ml, în fiecare dimineață, timp de o lună.
 Toți specialiștii naturiști sunt de acord că diabeticii trebuie să evite consumul de
 sfeclă roșie.
-Silurul
+### Silurul
 Denumire științifică: Euphrasia officinalis.
 Prezentare. Silurul este o micuță erbacee, aparținând familiei scrofulariaceelor.
 Frunzele silurului sunt mărunte și dințate, iar florile, de culori diferite – violacee, liliachii,
@@ -7431,7 +7426,7 @@ aromatică.
 sedative, antiinflamatoare, antimicrobiene. Afecțiuni în care preparatele de silur pot
 avea influențe pozitive: laringite, faringite, stomatite, afte, afecțiuni oftalmologice
 (blefarite, conjunctivite).
-Siminocul
+### Siminocul
 Denumire științifică: Helichrysum arenarium.
 Denumire populară: floare de paie, siminic.
 Prezentare. Siminocul face parte din familia compozitelor. Este o plantă perenă,
@@ -7451,7 +7446,7 @@ bilei, ale articulațiilor ș i ale proceselor metabolice. Cu preparatele de sim
 tratează colecistitele cronice, bolile vezicii biliare, guta, reumatis mul. Preparatele pe
 bază de siminoc (infuzie, decoct) au o evidentă acțiune depurativă și diuretică. Se pot
 folosi și pentru combaterea viermilor intestinali.
-Slăbănogul
+### Slăbănogul
 Denumire științifică: Impatiens noli-tangere.
 Prezentare. Slăbănogul este o erbacee anuală, aparținând de familia
 balsaminaceelor. Crește în flora spontană de la munte și din zona subalpină, preferând
@@ -7467,7 +7462,7 @@ laxativ și diuretic. Totuși, ele au și alte efecte terapeutice, fiind eficien
 calculilor biliari și renali, în afecțiuni ale tractului digestiv, în reumatism. Deoarece au
 și proprietăți cicatrizante și dezinfectante, preparatele din planta numită slăbănog sunt
 folosite și în ameliorarea unor afecțiuni ginecologice.
-Smochinul
+### Smochinul
 Denumire științifică: Ficus carica.
 Prezentare. Smochinul este un arbust mediteranean foarte apreciat pentru fructele
 sale. Face parte din familia moraceelor. Apare și în flora din România, îndeosebi în
@@ -7500,7 +7495,7 @@ a sângelui, prevenindu- se astfel un accident vascular. Tot pentru reglarea cir
 sângelui se folosesc și frunzele de smochin, din care se face infuzie.
 
 DICȚIONARUL PLANTELOR DE LEAC 129
-Socul
+### Socul
 Denumire științifică: Sambucus nigra.
 Denumiri populare: coramnic, soc negru, iboz.
 Prezentare. Socul este un arbust înalt de patru-cinci metri, sub formă de tufă, cu
@@ -7529,7 +7524,7 @@ intestinal și a celui urinar. Cu infuzia din fructe, scoarță și rădăcini d
 locale sau se pun cataplasme.
 Socul face parte din rețetele de ceaiuri necesare tratamentului adjuvant în
 pneumonie.
-Soia
+### Soia
 Denumire științifică: Glycine hispida; Soja hispida.
 Prezentare. Soia își are originile în China și Japonia, fiind – alături de orez –
 una dintre cele mai hrănitoare plante. Aparține familiei leguminoaselor, fiind o erbacee
@@ -7571,7 +7566,7 @@ Izoflavonele, adică acei compu și asemănători hormonilor feminini, contribui
 la echilibrarea organismului femeilor aflate la menopauză, precum și la combaterea
 efectelor menopauzei – osteoporoză, bufeuri, stări psihice contradictorii, circulație
 proastă.
-Sorbestreaua
+### Sorbestreaua
 Denumire științifică: Sanguisorba officinalis.
 Denumire populară: cerbărea, cerbăreaua.
 Prezentare. Sorbestreaua este o erbacee perenă, aparținând familiei rozaceelor.
@@ -7599,7 +7594,7 @@ Plantă de fâneață, sorbestreaua este căutată de naturiști, Aceștia o în
 în salatele de crudități. Cunoscătorii, printre care și marele herbarist Jean Valnet, dau
 încă o notă bună acestei plante deoarece, pusă în vin (frunzele și tulpinile), îi conferă
 acestuia „calități de stimulare, bună dispoziție, răcoritoare”.
-Sovârvul
+### Sovârvul
 Denumire științifică: Origanum vulgare.
 Denumiri populare: busuioc de pădure, trifoiște.
 Prezentare. Sovârvul este o erbacee perenă a cărei înălțime, la maturitate, nu
@@ -7625,7 +7620,7 @@ Sovârvarița este o erbacee bienală, cu o înălțime cuprinsă între 20 și 
 
 DICȚIONARUL PLANTELOR DE LEAC 131
 florile sub forma unor capitule florale de culoare galben aurie.
-Spanacul
+### Spanacul
 Denumire științifică: Spinacea oleracea.
 Prezentare. Spanacul, întâlnit în culturi, este o plantă anuală, uneori
 bienală. Erbacee legumicolă, spanacul provine din Orient și face parte din familia
@@ -7656,7 +7651,7 @@ depurativ. Datorită faptului că este depurativ (curăță organismul de toxine
 folosește intens în curele de primăvară. Semințele de spanac sunt utile în combaterea
 constipației.
 Spanacul este considerat un bun remediu în stări anemice.
-Sparanghelul
+### Sparanghelul
 Denumire științifică: Asparagus officinalis.
 Prezentare. Sparanghelul este o plantă legumicolă perenă. Întâlnit sub formă
 cultivată, dar și în flora spontană – prin lumini șuri de păduri, tufări șuri, fânețe –
@@ -7684,7 +7679,7 @@ pozitive în funcționarea rinichiului și a căilor urinare. Este recomandat ș
 reumatisme, în afecțiuni ale articulațiilor, precum și în afecțiuni respiratorii.
 
 132 DICȚIONARUL PLANTELOR DE LEAC
-Spânzul
+### Spânzul
 Denumire științifică: Helleborus purpurascens.
 Denumire populară: spânț.
 Prezentare. Spânzul face parte din familia ranunculaceelor, fiind o plantă
@@ -7703,7 +7698,7 @@ medicamente pentru bolile de inimă. În aplicații medicinale, spânzul se folo
 tonic ai inimii și al sistemului circulator.
 Spânzul și preparatul de spânz se vor folosi cu atenție, sub îndrumarea
 specialistului.
-Splinuța
+### Splinuța
 Denumire științifică: Solidago virga aurea.
 Prezentare. Splinuța este o erbacee perenă. Face parte din familia compozitelor
 și poate ajunge până la un metru înălțime. Tulpina este dreaptă și păroasă, iar frunzele
@@ -7718,7 +7713,7 @@ antitoxice, antiseptice, astringente, depurative. Preparatele de splinuță se f
 afecțiuni precum infecțiile căilor urinare, hepatita cronică, enterocolite, hidropizie, gută,
 diaree, litiază, eczeme.
 Preparatele de splinuță sunt eficiente și în colibaciloză, cistită, nefrită.
-Sporiciul
+### Sporiciul
 Denumire științifică: Verbena officinalis.
 Prezentare. Sporiciul este o erbacee mare, cu tulpina dreaptă, modelată de
 patru muchii, având o înălțime de circa un metru. Aparține familiei verbenaceelor. Este
@@ -7740,7 +7735,7 @@ privește întărirea rădăcinii firului de păr. De altfel, sporiciul es te un
 general, resuscitând întregul organism.
 
 DICȚIONARUL PLANTELOR DE LEAC 133
-Stejarul
+### Stejarul
 Denumire științifică: Quercus robur.
 Denumire populară: tufan.
 Prezentare. Stejarul este un arbore înalt – poate ajunge la 50 de metri înălțime – și
@@ -7761,7 +7756,7 @@ măcinată, pentru prepararea unei „cafele”. Acest surogat de cafea are un r
 în reechilibrarea sistemului digestiv.
 Efecte medicinale asemănătoare are și coaja de gorun (Quercus petraea) ,
 un arbore ceva mai scund decât stejarul (maximum 40 de metri înălțime).
-Stirigoaia
+### Stirigoaia
 Denumire științifică: Veratrum album; Veratrum nigrum.
 Prezentare. Stirigoaia este o erbacee perenă, din marea familie vegetală a
 liliaceelor, fiind întâlnită în zonele de munte și de deal – prin pajiști umbrite și alte
@@ -7781,7 +7776,7 @@ zona Zoster, având rolul de a neutraliza sau măcar de a reduce durerile. Aceas
 are efecte și în afecțiuni cardiace (hipertensiune, palpitații), deranjamente stomacale,
 spasme. Stirigoaia nu se va folosi fără îndrumarea specialiștilor, fiind o otravă deosebit
 de puternică.
-Strugurii ursului
+### Strugurii ursului
 Denumire științifică: Arctostaphylos uva-ursi; Arbustus uva-ursi.
 Denumire populară: caminei.
 Prezentare. Planta numită strugurii ursului este un arbust târâtor, cu o tulpină
@@ -7801,7 +7796,7 @@ fiind interzisă. Din acest motiv, toți specialiștii naturiști recomandă fol
 
 134 DICȚIONARUL PLANTELOR DE LEAC
 (Vaccinium vitis-idaea), care are efecte medicinale asemănătoare.
-Stuful
+### Stuful
 Denumire științifică: Phragmites communis.
 Prezentare. Stuful, cunoscut și sub numele de trestie de baltă, este o graminee
 cu o înălțime impresionantă, având tulpina dreaptă, terminată cu o inflorescență sub
@@ -7815,7 +7810,7 @@ Substanțe active importante: zaharuri, azotați.
 dezinfectante și antiinflamatoare. Aceste preparate sunt recomandate și în tratarea
 reumatismelor, a febrei, a gutei. Au efecte pozitive și în unele afecțiuni dermatologice,
 mai ales atunci când aceste afecțiuni au cauze interne.
-Sulfina
+### Sulfina
 Denumire științifică: Melilotus officinalis.
 Denumiri populare: sulcină, surcină.
 Prezentare. Sulfina este o plantă erbacee bienală, aparținătoare de familia
@@ -7851,7 +7846,7 @@ Sulfina are și alte utilizări interesante. De exemplu, un buchet de sulfină u
 poate acționa ca un eficient dezodorizant pentru o întreagă încăpere. De asemenea,
 sulfina poate fi un aditiv aromatic pentru brânzeturi și ca șcaval. Naturi știi folosesc
 părțile tinere ale plantei pentru salate.
-Sunătoarea
+### Sunătoarea
 Denumire științifică: Hypericum perforatum.
 Denumire populară: pojarniță.
 Prezentare. Vorbe din vechime spun despre sunătoare că nu este numai o simplă
@@ -7885,7 +7880,7 @@ răni, inflamații bucale.
 Cu preparat de sunătoare se tratează și podoaba capilară, pentru întărirea firului
 de păr și a rădăcinii de păr. Mai nou, sunătoarea se folose ște și în tratamente asupra
 tenului, fiind un regenerator și un fortifiant al acestuia.
-Susanul
+### Susanul
 Denumire științifică: Sesamum indicum.
 Prezentare. Susanul este o erbacee anuală care -și are originea în regiuni le
 tropicale. Cre ște și în zona mediteraneană. Face parte din familia pedaliaceelor.
@@ -7904,8 +7899,8 @@ Antichitate, acesta fiind benefic în bolile respiratorii, în afecțiuni intest
 susan alină în suferințe precum hemoroizii, constipațiile, indigestiile. Contribuind la o
 bună digestie, semințele de susan facilitează, totodată, și asimilația. Se afirmă despre
 semințele de susan că ar avea efecte și în boli grele, cum ar fi neuroparaliziile.
-Ș
-Ș ofranul
+## Ș
+### Ș ofranul
 Denumire științifică: Crocus sativus.
 Prezentare. Șofranul face parte din familia iridaceelor și provine din Asia. Este
 o erbacee perenă de mici dimensiuni. Tulpina șofranului este consistentă, u șor
@@ -7946,7 +7941,7 @@ de asemenea, puteri medicinale (în întărirea imunității organismului, de ex
 Semințele șofrănelului sunt însă mult mai importante prin faptul că au în conținutul
 lor circa 35 – 40% substanțe uleioase, folosite în industrie, dar și în programele de
 alimentație sănătoasă, naturistă.
-Ș tevia
+### Ș tevia
 Denumire științifică: Rumex patientia.
 Denumiri populare: dragomir, macriș de grădină.
 Prezentare. Ștevia, o plantă ce aparține de familia poligonaceelor, este o erbacee
@@ -7995,8 +7990,8 @@ primăvară, cu efecte importante în combaterea toxinelor și resuscitarea orga
 după perioada iernii. Efectele sale medicinale, mai puternice sau mai puțin puternice,
 nu fac decât să amplifice plăcerea de a consuma, la începutul primăverii, această
 mâncare nouă.
-T
-Talpa gâș tei
+
+### Talpa gâștei
 Denumire științifică: Leonurus cardiaca.
 Denumiri populare: cătușniță, talpa lupului, laba lupului, somnișor.
 Prezentare. Talpa gâștei este o erbacee perenă, puternică, înaltă de circa un
@@ -8024,7 +8019,7 @@ dar și pentru băi și spălături locale.
 Potrivit medicinii tradiționale, talpa gâștei este una dintre plantele medicinale de
 cea mai mare importanță în tratamentul unor afecțiuni greu de stăpânit – bolile de inimă
 pe fond nervos.
-Talpa mâței
+### Talpa mâței
 Denumire științifică: Antennaria dioica.
 Denumiri populare: sunătoare de munte, floarea patului, parpian, siminic.
 Prezentare. Talpa mâței este o erbacee cu dimensiuni reduse, ajungând până la
@@ -8043,7 +8038,7 @@ volatil.
 ceaiul pectoral. Preparatele din talpa mâței se folosesc și în tratarea unor afecțiuni
 dermatologice, rezultate pozitive dând, de exemplu, în terapii împotriva ulcerațiilor
 pielii.
-Tarhonul
+### Tarhonul
 Denumire științifică: Artemisia dracunculus.
 Prezentare. Tarhonul este o plantă aromatică, erbacee, perenă, din familia
 compozitelor. Este originar din Asia, fiind considerat un aromatizant. Are o tulpină
@@ -8061,7 +8056,7 @@ estragol. Acest ulei se află nu numai în tulpini, frunze și flori, ci și în
 mâncare, sunt expectorante, stimulează digestia. Tarhonul are efecte benefice în cazul
 afecțiunilor pulmonare, hepatice, biliare, renale, gastro-intestinale, fiind un stimulent
 activ în funcționarea acestor organe și sisteme fiziologice.
-Tămâița
+### Tămâița
 Denumire științifică: Chenopodium ambrosioides.
 Denumire populară: lămâița.
 Prezentare. Tămâița este o erbacee anuală, originară din America Centrală,
@@ -8079,7 +8074,7 @@ Acest ulei este toxic.
 viermilor intestinali (ascaridioză).
 Preparatele de tâmâiță sunt recomandate și în aplicații terapeutice privind
 hemoroizii, afecțiunile articulare, reumatismale, aciditatea gastrică redusă.
-Tătăneasa
+### Tătăneasa
 Denumire științifică: Symphytum officinalis.
 Denumiri populare: tătăneață, barba tatei, iarbă întăritoare.
 Prezentare. Tătăneasa este o plantă erbacee dezvoltată, aparținând familiei
@@ -8106,7 +8101,7 @@ Bolile de stomac constituie domeniul în care tătăneasa se utilizează în mod
 și cu bune rezultate.
 Tătăneasa se folosește și în combinație cu alte plante medicinale, din care vor
 rezulta ceaiuri, tincturi, macerate, siropuri, unguente cicatrizante, cataplasme.
-Teiul
+### Teiul
 Denumire științifică: Tilia tomentosa.
 Denumiri populare: teiul argintiu, teiul alb, teiul văratic.
 Prezentare. Teiul alb este un arbore înalt – poate atinge și înălțimea de 30 de
@@ -8132,7 +8127,7 @@ oboseală accentuată a creierului, tulburări digestive pe fond nervos, dureri 
 arterioscleroză, dureri de rinichi.
 Extern, teiul este folosit pentru refacerea întregului organism (băi în infuzie de tei),
 dar și pentru tratarea amigdalitelor și a afecțiunilor bucale (se face gargară).
-Topora șii
+### Topora șii
 Denumire științifică: Viola odorata.
 Denumiri populare: tămâioară, zambilă de grădină, viorea.
 Prezentare. Sub denumire de toporaș i identificăm o mică și sensibilă plantă de
@@ -8154,7 +8149,7 @@ stomacale și intestinale, reumatisme, gută, inflamații ale tractului intestin
 140 DICȚIONARUL PLANTELOR DE LEAC
 urinare, gripe. Preparatele din toporași sunt și bune cicatrizante și antiinflamatoare și,
 de asemenea, vomitive, purgative, sudorifice.
-Traista ciobanului
+### Traista ciobanului
 Denumire științifică: Capsella bursa pastoris.
 Denumiri populare: buruiană de friguri, coada pisicii.
 Prezentare. Traista ciobanului este o plantă erbacee din familia cruciferelor. Este
@@ -8176,7 +8171,7 @@ după caz) hipertensiunea arterială, hemoragiile uterine, anghina pectorală, s
 nazale, arterioscleroza, unele dereglări ale activității gastro-intestinale.
 Preparatele de traista ciobanului sunt recunoscute mai ales pentru proprietățile
 lor uterotonice și hemostatice.
-Trandafirul
+### Trandafirul
 Denumire științifică: Rosa centifolia.
 Denumiri populare: trandafir de grădină, roză. Numele curent al acestui trandafir
 este trandafirul de dulceață.
@@ -8196,7 +8191,7 @@ trandafir.
 O altă specie de trandafir cu virtuți medicinale este trandafirul de lună (Rosa
 damascena). Efectele sale în plan medicinal sunt asemănătoare cu acelea ale
 trandafirului de dulceață.
-Trei frați pătați
+### Trei frați pătați
 Denumire științifică: Viola tricolor; Viola arvensis.
 Denumiri populare: panseluță sălbatică, tâmâioară, cârligei.
 Prezentare. Trei frați pătați este numele obișnuit al panseluței sălbatice. Această
@@ -8226,7 +8221,7 @@ recomandat în bolile vezicii urinare.
 Printre speciali ști există părerea că tinctura de trei frați pătați este mult mai
 eficientă decât infuzia și sucul.
 În cantități mari, preparatele de trei frați pătați pot crea o stare de vomă.
-Trifoiștea de baltă
+### Trifoiștea de baltă
 Denumire științifică: Menyanthes trifoliata.
 Denumire populară: trifoiște.
 Prezentare. Trifoiștea de baltă este o erbacee perenă din familia gențianaceelor.
@@ -8244,13 +8239,13 @@ de baltă este cunoscută pentru efectele sale în două domenii – hepatic și
 intestinal. Infuzia de trifoi ște de baltă revigorează activitatea ficatului și a bilei și
 reechilibrează activitatea gastro -intestinală. Alte proprietăți, nu lipsite de importanță
 – preparatul de trifoi ște de baltă este febrifug, antiscorbutic, tonic și depurativ.
-Afecțiuni
+### Afecțiuni
 în care se poate folosi, în mod obi șnuit, trifoiștea de baltă: migrene, anemie, lipsă de
 poftă de mâncare, rahitism, scorbut, reumatism, pecingine, menstre dereglate, febră.
 Infuzia amară făcută din frunze uscate de trifoi ște de baltă are capacitatea de a
 remineraliza și revitaliza organismul, de a stimula procesele benefice din sânge, de a
 curăța sistemul circulator.
-Trifoiul ro șu
+### Trifoiul ro șu
 Denumire științifică: Trifolium pratense.
 Prezentare. Trifoiul roșu este o erbacee perenă, cu o tulpină ce poate atinge
 până la un metru înălțime, fiind muchiată și doar puțin ramificată. Creș te sub formă
@@ -8278,7 +8273,7 @@ având aceleași utilizări – deci ca plantă furajeră și ca plantă medicin
 Alte specii de trifoi: trifoiul de munte (Trifolium montanum), trifoiașul (Trifolium
 campestre). Și aceste specii au proprietăți medicinale asemănătoare cu ale trifoiului
 roșu, precum și cu ale trifoiului alb.
-Troscotul
+### Troscotul
 Denumire științifică. Poligonum aviculare.
 Denumiri populare: iarba găinilor, moțul curcanului.
 Prezentare. Troscotul este o erbacee de mici dimensiuni (15-20 cm), anuală, cu
@@ -8302,7 +8297,7 @@ folosită ca adjuvant în tratamentul tuberculozei pulmonare, în oprirea sânge
 nu numai astringentă, ci și cicatrizantă, precum și în hipertensiune, reumatism, gută,
 afecțiuni renale. Infuzia de troscot este administrată și ca tonic general.
 Pentru uz extern se fac băi sau se folosesc cataplasme, tinctură sau mixturi.
-Troscotul de baltă
+### Troscotul de baltă
 Denumire științifică: Polygonum amphibium.
 Denumire populară: pomul broaștelor.
 Prezentare. Troscotul de baltă este o plantă perenă destul de impunătoare –
@@ -8324,7 +8319,7 @@ anemiilor, lipsei de poftă de mâncare. Este diuretic, hemostatic, cicatrizant,
 antiinflamator și poate contribui la reechilibrarea activității gastrice și intestinale.
 Troscotul de baltă este indicat și în uz extern, de exemplu pentru tratarea plăgilor
 ulcerate sau în afecțiunile hemoroidale.
-Tuia / Arborele- vieții
+### Tuia / Arborele- vieții
 Denumire științifică: Thuja orientalis; Thuja occidentalis.
 Prezentare. Tuia este un arbore înalt – poate ajunge chiar și la 40 de metri – fiind
 cultivat și în România, ca plantă ornamentală. Frunzele și tulpinile sale răspândesc o
@@ -8343,7 +8338,7 @@ consideră tuia ca având proprietăți antitumorale. Marele specialist, dr. far
 Bojor, recomandă tuia – sub formă de decoct – în dismenorei (fenomene foarte
 neplăcute care preced sau însoțesc menstruația) și metroragii (hemoragii uterine în
 afara ciclului).
-Tulichina
+### Tulichina
 Denumire științifică: Daphne mezereum.
 Denumire populară: piperul lupului.
 Prezentare. Tulichina este un subarbust din familia thimeleaceelor. Acest
@@ -8364,7 +8359,7 @@ dermatologice. Rezultate pozitive se obțin, de asemenea, în terapii împotriva
 suferințelor reumatismale. Preparatele de tulichină sunt indi cate și în tratamente
 împotriva nevralgiilor, a sciaticii, a durerilor pricinuite de curenții de aer reci.
 Extractele de tulichină sunt folosite la fabricarea unor medicamente.
-Turița mare
+### Turița mare
 Denumire științifică: Agrimonia eupatoria.
 Denumiri populare: cornățel, buruiană de friguri.
 Prezentare. La maturitate această plantă poate avea o înălțime cuprinsă între
@@ -8397,7 +8392,7 @@ rezultatele n-au fost întotdeauna mulțumitoare.
 Specialiștii atrag atenția asupra faptului că tratamentul cu preparate medicinale
 obținute din turiță mare se va face numai cu doza prescrisă. O mărire a dozei va cr ea
 probleme în funcționarea bilei și a rinichilor, inclusiv dureri mari.
-Turta
+### Turta
 Denumire științifică: Carlina acaulis.
 Denumire populară: ciurul zânelor.
 Prezentare. Turta este o plantă erbacee perenă, din familia compozitelor. Se
@@ -8422,8 +8417,8 @@ musculare, febre, tuse, răni și ale afecțiuni ale pielii datorate agresiunii 
 externi, colici abdominale.
 Extractele din turtă au întrebuințări și în industria farmaceutică, intrând în
 compoziția unor medicamente.
-Ț
-Țelina
+## Ț
+### Țelina
 Denumire științifică: Apium graveolens.
 Denumiri populare: puterea bărbatului, țelina de baltă.
 Prezentare. Binecunoscuta țelină este o plantă erbacee bienală, aparținând de
@@ -8459,7 +8454,7 @@ Desigur, la acest capitol al bunei și dreptei utilizări a țelinei în gospod�
 țelinei are efecte afrodiziace, în Orientul îndepărtat opiniile se schimbă. Aici, în ceea ce
 privește mobilizarea bărbatului la o viață sexuală activă, la loc de cinste sunt semințele
 de țelină.
-Țintaura
+### Țintaura
 Denumire științifică: Centaurium umbellatum.
 Denumiri populare: fierea pământului, floare de friguri, centaură.
 Prezentare. Țintaura sau centaura este o micuță plantă erbacee, anuală, ce crește
@@ -8482,8 +8477,8 @@ digestiei în general. Ca un adevărat detoxifiant, infuzia de țintaură hărni
 recomandată în tratarea dischineziilor biliare cu hipotonie.
 Țintaura este, fără îndoială, un fortifiant general, având darul de a reînnoi
 organismul omenesc.
-U
-Ulmul
+## U
+### Ulmul
 Denumire științifică: Ulmus minor; Ulmus campestris.
 Prezentare. Ulmul este un arbore ce poate ajunge la 30 de metri înălțime.
 Este puternic, cu tulpina acoperită de o coajă închisă la culoare, ramificat în partea
@@ -8506,7 +8501,7 @@ ulm se intervine într-o altă boală grea – hidropizia (umplerea cu lichid, �
 a cavităților interne ale organismului). Totodată, preparatul din coajă de ulm este și un
 bun dezinfectant, cicatrizant și astringent și, de aceea, este indicat în bolile de piele.
 Domenii principale de terapie – reumatism, sciatică, hidropizie.
-Ungura șul
+### Ungura șul
 Denumire populară: Marrubium vulgare.
 Denumire populară: bălțătură, iarbă flocoasă, gutuiță.
 Prezentare. Ungurașul, o plantă cunoscută și sub numele de iarbă flocoasă, î și
@@ -8533,7 +8528,7 @@ organismul, de a interveni în anemii, fiind antitoxic, antiseptic, diuretic. Co
 reducerea febrei, fiind indicat, de asemenea, și în corectarea ritmului cardiac.
 Domenii principale de terapie: afecțiuni biliare, afecțiuni ale căilor respiratorii,
 aritmii cardiace.
-Untișorul
+### Untișorul
 Denumire științifică: Ranunculus ficaria.
 Denumire populară: sălățică, grâușor.
 Prezentare. Untișorul este o mică erbacee perenă, cu o înălțime maximă de 30
@@ -8553,7 +8548,7 @@ ale pielii, răni, ulcerații, hemoroizi. Se foloseș te, de asemenea, în av it
 ales în caz de scorbut.
 Potrivit specialiștilor, această plantă medicinală dă rezultate bune în tratamentul
 hemoroizilor.
-Untul vacii
+### Untul vacii
 Denumire științifică: Orchis morio.
 Denumire populară: poroinic.
 Prezentare. Untul vacii este o erbacee per enă a cărei înălțime nu trece decât
@@ -8575,7 +8570,7 @@ Amidonul și celelalte substanțe active din tuberculi favorizează și echilibr
 diareii și a altor deranjamente stomacale și intestinale grave, este indicat și untul vacii.
 De altfel, tuberculii de untul vacii sunt folosiți și în alimentație, mai ales în țări unde
 cultura cartofului nu este posibilă.
-Urechelnița
+### Urechelnița
 Denumire științifică: Sempervivum tectorum.
 Denumire populară: țâța mielului, verzișoară.
 Prezentare. Urechelnița este o plantă erbacee perenă, meliferă. Aparține familiei
@@ -8608,7 +8603,7 @@ bătăturilor. Se spune că o frunză de urechelniță, aplicată pe o bătătur
 astfel, bătătura poate fi îndepărtată.
 Urechelnița este o plantă recomandată pentru îmbunătățirea stării generale a
 organismului.
-Urzica
+### Urzica
 Denumire științifică: Urtica dioica.
 Denumiri populare: urzică de pădure, urzică creață.
 Prezentare. Urzica este o erbacee perenă din familia urticaceelor. Tulpina și
@@ -8650,7 +8645,7 @@ revitalizantă de primăvară.
 Urzica este un element hrănitor de un mare ajutor în refacerea organismului.
 Alte afecțiuni în care urzica are un rol benefic notabil: diabetul, afecțiunile hepatice
 și biliare, deranjamentele stomacale și intestinale, inflamarea căilor respiratorii.
-Urzica moartă
+### Urzica moartă
 Denumire științifică: Lamium album.
 Denumire populară: urzică albă, sugel alb.
 Prezentare. Urzica moartă este o erbacee perenă, din familia labiatelor, înălțimea
@@ -8670,7 +8665,7 @@ curele de tratament împotriva hipertrofierii prostatei, în curele împo triva 
 plăgi supurante.
 Urzica moartă este utilizată atât în tratamente medicinale, cât și în industria
 farmaceutică – pentru producerea de medicamente.
-Usturoiul
+### Usturoiul
 Denumire științifică: Allium sativum.
 Denumire populară: ai.
 Prezentare. Usturoiul este o plantă bienală din familia liliaceelor. Înălțimea acestei
@@ -8708,8 +8703,8 @@ tocmai pentru a fi în ordine cu sănătatea și a avea un tonus bun. Doza poate
 doi-trei căței de usturoi pe zi, până la două-trei căpățâni pe zi.
 Despre usturoi se spune că are și virtuți magice, având capacitatea de a alunga
 duhurile rele.
-V
-Vanilia
+## V
+### Vanilia
 Denumire științifică: Vanilia planifolia; Vanilia pompona.
 Prezentare. Vanilia este o plantă tropicală, originară din America Centrală. Se
 prezintă ca un arbust agățător, fiind o liană din familia orhideelor. Are tulpini lungi până
@@ -8725,7 +8720,7 @@ Substanțe active importante: vanilozidă, piperonal.
 activitatea gastro -intestinală, intensifică activitatea bilei, impulsionează activitatea
 rinichilor și a căilor urinare, fiind, totodată, și un dezinfectant activ. Vanilia este cunoscută
 și ca depurativ pentru căile respiratorii, îmbunătățind funcționarea acestora.
-Varza creață
+### Varza creață
 Denumire științifică: Brassica oleracea, var. sabauda.
 Denumire populară: varza nemțească.
 Prezentare. Varza creață face parte din familia cruciferelor, fiind una dintre speciile
@@ -8773,7 +8768,7 @@ varza.
 Deși recunoscută din vechime și pentru proprietățile sale terapeutice, varza,
 indiferent de specie, furnizează și în ziua de azi noi surprize în privința capacității sale
 de a contribui la sănătatea oamenilor.
-Vătămătoarea
+### Vătămătoarea
 Denumire științifică: Anthyllis vulneraria.
 Prezentare. Vătămătoarea este o erbacee perenă de mici dimensiuni, foarte
 răspândită, lesne de găsit prin pășuni, fânețe, zone necultivate – de la câmpie și până
@@ -8791,7 +8786,7 @@ indicată și pentru poftă de mâncare, precum și pentru com baterea stărilor
 intestinul gros.
 În unele țări europene se consideră că vătămătoarea apără de deochi, iar la noi
 că lecuiește de frică.
-Vâscul
+### Vâscul
 Denumire științifică: Viscum album.
 Prezentare. Nelipsit din decorul sărbătorilor de iarnă, vâscul este o plantă
 medicinală recunoscută de multă vreme. Dezvoltarea sa este perenă, iar modul
@@ -8830,7 +8825,7 @@ proceselor intime din organism, cum ar fi cele celulare (cazul tumorilor, al can
 sau endocrine (cazul menopauzei și efectelor acesteia).
 Tratamentul cu vâsc se va face numai sub supravegherea specialistului, planta
 fiind toxică.
-Ventrilica
+### Ventrilica
 Denumire științifică: Veronica officinalis.
 Denumire populară: stratorică.
 Prezentare. Ventrilica, o erbacee cu tulpină păroasă, culcată, dar cu lăstari
@@ -8848,7 +8843,7 @@ pietrelor la rinichi sau la bilă, în afecțiuni ale ficatului și ale bilei, �
 și deranjamente stomacale și intestinale, în boli ale articulațiilor și în dureri de oase
 (reumatisme), în afecțiuni ale căilor respiratorii (as tm, bronșită), precum și în afecțiuni
 dermatologice.
-Verigariul
+### Verigariul
 Denumire științifică: Rhamnus cathartica.
 Denumire populară: spinul cerbului.
 Prezentare. Aparținând familiei ramnaceelor, verigariul sau spinul cerbului crește
@@ -8866,7 +8861,7 @@ Substanțe active importante: rezine, mucilagii, flavone, glicozide, uleiuri.
 diuretice, vermifuge. Ca purgativ, acțiunea lor este intensă. Din acest motiv, sun t
 indicate în constipație. Cercetări mai noi au evidențiat la produsele pe bază de verigariu
 și proprietăți anticancerigene și imunostimulatoare.
-Vinarița
+### Vinarița
 Denumire științifică: Asperula odorata.
 Prezentare. Vinarița este o erbacee de mici dimensiuni (circa 30 cm înălțime),
 perenă, aparținând de familia rubiaceelor. Tulpina este dreaptă, ușor muchiată. Frunzele
@@ -8895,7 +8890,7 @@ Ca plantă medicinală, vinarița iese în evidență prin calitățile sale de 
 și prin efectele sale în privința calculilor renali.
 Vinarița mai este folosită, datorită aromelor sale, în industria vinurilor și a
 lichiorurilor.
-Vindeceaua
+### Vindeceaua
 Denumire științifică: Stachys officinalis; Stachys germanica.
 Prezentare. Vindeceaua este o erbacee din familia labiatelor. Are un rizom scurt
 și rădăcini numeroase. În perioada de maximă vegetație, tulpina – uneori ramificată în
@@ -8914,7 +8909,7 @@ proprietăți aromatice, tonice, depurative. Acționează și asupra sistemului 
 la combaterea unor afecțiuni precum astmul bron șic, faringitele, deranjamentele
 stomacale sau intestinale (inclusiv diareea), litiazele renale.
 În cantități mari, preparatele de vindecea pot fi toxice, afectând mai ales ficatul.
-Vinerița
+### Vinerița
 Denumire științifică: Ajuga reptans.
 Denumire populară: vinețică.
 Prezentare. Vinerița este o plantă de munte, fiind u șor de întâlnit în fânețe, pe
@@ -8933,7 +8928,7 @@ Vinerița este recomandată pentru terapii în cazul unor afecțiuni precum cele
 ginecologice, dermatologice. Se știe despre preparatele obținute pe bază de vineriță
 că au efecte pozitive în astm, tuberculoză, hemoragii uterine, hemoroizi, deranjamente
 intestinale, ulcerații stomacale și intestinale, ulcerații și răni ale pielii.
-Virnanțul
+### Virnanțul
 Denumire științifică: Ruta graveolens.
 Denumire populară: rută.
 Prezentare. Virnanțul este o erbacee cu dezvoltare medie, aparținând familiei
@@ -8958,7 +8953,7 @@ efecte pozitive și în tratamentele împotriva viermilor intestinali, a sânger
 gingivale, a înțepăturilor de insecte sau a mușcăturilor de animale veninoase.
 Deoarece are o serie întreagă de contraindicații, fiind o plantă periculoasă,
 virnanțul va fi utilizat numai sub îndrumarea specialistului.
-Vița de vie
+### Vița de vie
 Denumire științifică: Vitis vinifera.
 Prezentare. Vița de vie este unul dintre cei cunoscuți arbuști, fiind, se pare,
 printre cele mai vechi plante cultivate de om. Face parte din familia vitaceelor și se
@@ -8986,7 +8981,7 @@ boli. De asemenea, preparatele din frunze de viță de vie se folosesc și în t
 împotriva hemoroizilor și a varicelor, cât și în tulburări de menopauză.
 Folosite adesea în alimentația curentă, frunzele de viță de vie sun t, prin urmare,
 și agenți cu efecte medicinale dintre cele mai favorabile.
-Vițelarul
+### Vițelarul
 Denumire științifică: Anthoxanthum odoratum.
 Denumire populară: părangină, iarba fânului.
 Prezentare. Vițelarul – plantă mai puțin cunoscută chiar și în cercurile naturiștilor
@@ -9007,7 +9002,7 @@ un remediu pentru bolile de ficat și de splină.
 Din florile de vițelar, combinate cu alte flori, se fac ceaiuri medicinale care creează
 un veritabil confort psihic. Prin distilare, din flori de vițelar se obține un parfum de mare
 efect.
-Volbura
+### Volbura
 Denumire științifică: Convolvulus arvensis.
 Denumiri populare: rochița rândunelei, poala rândunicii, poala Maicii Domnului,
 adormițea.
@@ -9027,7 +9022,7 @@ antrenând benefic chiar și bila, în activitatea sa de secreție și eliminare
 curățire a tractului gastro-intestinal și, în general, a zonei abdominale, este însemnată
 și, de aceea, preparatul de volbură este recomandat în constipații și dis chinezii
 biliare.
-Vulturica
+### Vulturica
 Denumire științifică: Hieracium pilosella; Hieracium transsilvanicum.
 Prezentare. Vulturica – o erbacee perenă – este o specie din familia compozitelor.
 Dezvoltă un rizom, din care pornesc rădăcinile și stolonii. Tulpina aeriană, lipsită de
@@ -9048,8 +9043,8 @@ bruceloză, boală infecțioasă gravă, caracterizată prin febră intensă ș 
 splinei.
 Observații mai noi arată că preparatele de vulturică au influențe benefice și asupra
 unor afecțiuni cardiace.
-Y
-Yucca
+## Y
+### Yucca
 Denumire științifică: Yucca schidigera.
 Prezentare. Yucca – un arbust din familia liliaceelor (agavaceele) – crește în
 America Centrală. Numele îi vine de la poziția florilor, a șezate ca un pendul. Yucca
@@ -9064,8 +9059,8 @@ imunostimulatoare, antiinflamatoare, cicatrizante. Sunt recomandate în deranjam
 stomacale și intestinale, enterocolite, reumatisme, epuizare fizică și psihică, scăderea
 capacității de apărare a organismului. Cercetări mai noi au evidențiat faptul că yucca
 reduce colesterolul, sporește pofta de mâncare, înlesnește asimilația.
-Z
-Zămo șița
+## Z
+### Zămoșița
 Denumire științifică: Hibiscus trionum; Hibiscus ternatus.
 Denumire populară: macul ciorii.
 Prezentare. Zămoșița este o erbacee din familia maivaceelor. Tulpina, ramificată
@@ -9083,7 +9078,7 @@ ceaiul de zămoșiță – este recomandat în boli ale rinichiului și ale căi
 ales pentru combaterea depunerilor, pietrelor), în afecțiuni reumatice, cistite, abcese.
 Unii specialiști recomandă zămoșița și în tratarea ulcerelor și a iritațiilor stomacale și
 intestinale.
-Zmeurul
+### Zmeurul
 Denumire științifică: Rubus idaeus.
 
 156 DICȚIONARUL PLANTELOR DE LEAC
@@ -9111,7 +9106,7 @@ dau rezultate se numără gastrita hiperacidă, faringita, diareea. Ceaiul de zm
 protecție în fața substanțelor foarte active.
 Potrivit unor observații mai noi, preparatul din frunze de zmeur are efecte pozitive
 și în tratamentul prostatei.
-Zorelele
+### Zorelele
 Denumire științifică: Ipomaea purpurea; Ipomaea purga.
 Denumire populară: bună dimineața.
 Prezentare. Zorelele sunt specii de plante ornamentale agățătoare. Fac parte din
@@ -9130,7 +9125,7 @@ preparat de zorele în cazul unor inflamații intestinale și nici în caz de sa
 alăptare.
 
 DICȚIONARUL PLANTELOR DE LEAC 157
-Explicarea unor termeni mai puțin cunoscuți
+### Explicarea unor termeni mai puțin cunoscuți
 Afrodiziac (afrodisiac) - substanță sau preparat care stimulează funcțiile sexuale.
 Albuminurie - boală în care albumina (o proteină) ajunge în urină.
 Anafrodiziac (anafrodisiac) - substanță sau preparat care diminuează funcțiile sexuale.
@@ -9186,21 +9181,21 @@ Uterotonic - fortifică uterul.
 Venotonic - fortifică venele.
 
 158 DICȚIONARUL PLANTELOR DE LEAC
-BIBLIOGRAFIE SELECTIVĂ
+### BIBLIOGRAFIE SELECTIVĂ
 1. Alexandriu-Peiulcscu Maria și Popescu Horia – Plantele medicinale în terapia
 modernă, Editura Ceres, București, 1978
 2. Bojor Ovidiu & colaborator – Pledoarie pentru viată lungă, ed. a ll-a, Editura
-Fiat Lux, București, 2002
+### Fiat Lux, București, 2002
 3. Bojor Ovidiu, Popescu Octavian – Fitoterapie tradițională și modernă, ediția a
 lll-a, Editura Fiat Lux, București, 2003
 4. Maica Sofronia – Tainele leacurilor mănăstirești, Axei Springer, București, 2000
 5. Niță Ibrian Elena – Plantele, aliment și medicament, Editura Miracol,
-București, 2000
+### București, 2000
 6. Niță Ibrian Elena – Tratat de hrană vie, Editura Miracol, București, 2000
 7. Pârvu Constantin, Godeanu Stoica, Stroe Laurențiu – Călăuză în lumea
 plantelor și animalelor, Editura Ceres, București, 1985
 8. Valnet Jean – Fitoterapia, tratamentul bolilor cu plante, Editura Garamond,
-București
+### București
 9. Bereșiu Ileana, Ciofit Ruxandra, Frumușelu Laurențiu – Preparate culinare
 din legume mai puțin folosite, Editura Ceres, București, 1985.
 10. Chirilă Pavel și colectiv – Medicină naturistă – Mic tratat terapeutic, Editura
@@ -9208,7 +9203,7 @@ Medicală, București, 1987.
 11. Coiciu Evdochia, Racz Gabriel – Plantele medicinale și aromatice, Editura
 Academiei, București, 1962.
 12. Duchamel Catherine – Cartea verde a femeii, partea a treia, Editura Z 2000,
-București, 2000
+### București, 2000
 13. Gherman Ion – Medicină alternativă tradițională, ghid practic, Editura
 Vestala, București, 2001.
 14. Gunter Ernest – Hrana vie, o speranță pentru fiecare, Editura Venus,
@@ -9227,7 +9222,7 @@ Didactică și pedagogică, R.A., București, 1993.
 2003.
 x x x Faune et flore d' Europe, 1974, Librairie Grund, Paris
 x x x Mic dicționar enciclopedic, ediția a lll-a, Editura științifică și enciclopedică,
-București, 1986
+### București, 1986
 x x x Dicționarul explicativ al limbii române, Editura Academiei, București, 1975
 x x x Dicționarul explicativ al limbii române, supliment (DEX – S), Editura
 Academiei, 1988.

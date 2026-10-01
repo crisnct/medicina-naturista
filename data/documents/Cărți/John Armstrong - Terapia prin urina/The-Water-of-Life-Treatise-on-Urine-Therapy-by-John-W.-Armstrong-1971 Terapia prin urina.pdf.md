@@ -1,20 +1,18 @@
 1
 
-
-THE WATER OF LIFE
-A Treatise on Urine Therapy
-JOHN W. ARMSTRONG
+# THE WATER OF LIFE
+## A Treatise on Urine Therapy
+### JOHN W. ARMSTRONG
 1971
-
 
 About this book
 J.W. Armstrong has written a remarkable treatise in support of his
 theory that all diseases (except those caused by traumatism or
-structural defects) can be cured by one means. Orthodox practioners
+structural defects) can be cured by one means. Orthodox practitioners
 are mainly concerned with identifying diseases and applying treatment
 which suppresses the symptoms without eradicating the underlying
 cause of the malady. But, as the naturopath Louis Kuhne maintained, it
-is absurd to treat an organ separately ‐ as specialists often do. If an eye
+is absurd to treat an organ separately - as specialists often do. If an eye
 is diseased there is something in the body itself which is causing that
 disease. The therapy outlined in this book is an entirely drugless system
 of healing. Moreover the only ingredient is a substance manufactured
@@ -28,7 +26,7 @@ provide valuable mineral salts to nourish new plant life. The same
 2
 
 principle holds. The book includes details of successful treatment by
-urine‐therapy in cases of the common cold, rheumatism, arthritis,
+urine-therapy in cases of the common cold, rheumatism, arthritis,
 mucus colitis, obesity, prostate trouble, pyorrhoea, and many other
 disorders and diseases.
 THE WATER OF LIFE
@@ -36,37 +34,37 @@ J Armstrong
 
 3
 
-FOREWORD
+## FOREWORD
 
 By those many people who have derived and are still deriving benefit
-from Urine‐Therapy I have repeatedly been asked to write a book, but
+from Urine-Therapy I have repeatedly been asked to write a book, but
 hitherto I have demurred. First, because the necessary leisure has been
-lacking, and secondly, because I am averse to any form However,
-realising that a thing of self‐advertisement which is put off too long
+lacking, and secondly, because I am averse to any form of self-advertisement. However,
+realising that a thing of self-advertisement which is put off too long
 may never be accomplished at all, I have finally decided to yield to
-persuasions, and this treatise is largely compiled from notes, case‐
+persuasions, and this treatise is largely compiled from notes, case-
 sheets and letters. Other reasons for giving out my experiences to the
 world will become apparent to the reader in due course. I am fully
 aware that the publication of a book is attended with certain indirect
 drawbacks; one is that the writer may be inundated with letters, and
 another is that, if he is a practitioner, he may be inundated with
 patients, who may apply to him c/o his publishers. As I am not touting
-for patients, that was a further reasor. Why I wished to delay writing
+for patients, that was a further reason why I wished to delay writing
 this book. But now that it is going forth to the public, the following
 must be emphasised:
 (1) A law having been passed making it now illegal for any but a
 qualified medical practitioner to declare he can cure certain specific
-diseases‐cancer being oneit should be noted that all case‐histories,
+diseases-cancer being one-it should be noted that all case-histories,
 relative to such diseases mentioned in this book are those of patients I
-treated prior to the passing of the law in question. am not in a position
-to state whether the law can he stretched so far as to make it illegal for
+treated prior to the passing of the law in question. I am not in a position
+to state whether the law can be stretched so far as to make it illegal for
 a layman even to say he has cured such disorders in the past; but if so,
 then, in accordance with the medical dictum, one is forced to assume
 
 4
 
 that where any such diseases have yielded to other than orthodox
-treatment, they have perforce beer, wrongly diagnosed!
+treatment, they have perforce been wrongly diagnosed!
 (2) As the therapy to be outlined in this book is an entirely drugless
 system of healing and is a specific for health and not for any given
 disease, diagnosis plays no practical part in the treatment. Thus,
@@ -75,7 +73,6 @@ it is merely for the sake of literary expedience and to slow that they
 have proved amenable to the general treatment.
 JOHN W. ARMSTRONG.
 1944.
-
 
 "Many people believe that fifty thousand doctors, vast hospitals, armies
 of nurses, dentists, chemists, clinics, and about three hundred thousand
@@ -111,6 +108,8 @@ J.W.A.
 
 6
 
+## CHAPTER I. INTRODUCTION
+
 CHAPTER I.
 INTRODUCTION
 
@@ -121,9 +120,9 @@ more and more distrustful of orthodox medical methods. Many people
 must have asked themselves the following questions How comes it that
 for over fifty years the orthodox cancer researchers have been
 occupying themselves with the cause and cure of malignancy, yet still
-can suggest nothing better than the knife, radium or X‐rays?
+can suggest nothing better than the knife, radium or X-rays?
 How comes it that after letters from many doctors had appeared in the
-British Medical‐ Journal testifying to the highly unsatisfactory results of
+British Medical- Journal testifying to the highly unsatisfactory results of
 radium treatment, it is none the less still boosted in this country and
 elsewhere?
 How comes it that when effective treatments for cancer have been
@@ -133,7 +132,7 @@ Research Ring, which still asks the public to donate large sums towards
 the discovery of a cure?
 To these questions (with which I shall deal in my Afterword) no
 satisfactory answers are forthcoming, and we are forced to the
-conclusion that, although there are many selfless and noble‐minded
+conclusion that, although there are many selfless and noble-minded
 doctors to be found in most countries, in modern Medicine itself many
 things prevail which are much to be deplored. (1) The torture of
 
@@ -148,13 +147,13 @@ of vice versa: all these things many doctors themselves have at one
 time or another commented upon and regretted in forcible terms.
 And yet, as after a war, Nature or " the Higher Powers " seem to step in
 to adjust the balance of things by insuring that a greater proportion of
-male children should he born, so when Medicine becomes over‐
+male children should he born, so when Medicine becomes over-
 tinctured with material considerations do they seem to inspire some
 method of healing as a corrective to these tendencies, and as a help to
-those who are large‐minded enough to take advantage of it. Such a
+those who are large-minded enough to take advantage of it. Such a
 method may be precluded by other methods which prepare the way for
 its acceptance ; for one must admit that naturopathy has been
-instrumental in curing many diseases where tho orthodox system has
+instrumental in curing many diseases where the orthodox system has
 signally failed. Nevertheless, as we shall see anon, naturopathy as it is
 usually practised does not go far enough, for although it can cleanse
 the body of its toxins, it cannot replace wasted tissues incidental to
@@ -171,10 +170,10 @@ unlikely to come across a case of this dread disease unless enabled to
 
 visit those countries where it is prevalent, I have decided to give the
 details of my experiences to the public without further delay. My
-contention is‐and I do not stand alone in putting it forward‐that within
+contention is-and I do not stand alone in putting it forward-that within
 Man himself is to be found the substance to cure his diseases, whether
-they be so‐called wasting diseases or otherwise ; and I propose to
-substantiate this contention by case‐sheets, on the principle that one
+they be so-called wasting diseases or otherwise ; and I propose to
+substantiate this contention by case-sheets, on the principle that one
 ounce of facts is worth many pounds of theories.
 If in the course of stating the facts, references to medical failures
 should be essential, this is unavoidable in the interests of the public and
@@ -197,6 +196,8 @@ Cauldron of Disease by Are Waerland, also repays study.
 
 9
 
+## CHAPTER II. THE WATER OF LIFE
+
 CHAPTER II.
 THE WATER OF LIFE
 
@@ -207,7 +208,7 @@ Towards the beginning of last century, a book entitled One Thousand d
 Notable Things was published simultaneously in England. Scotland and
 Ireland. In this book appeared the toliowing quaint citation
 " An universal and excellent remedy for all distempers inward and
-outward‐Drink you own water in the morning nine days together and it
+outward-Drink you own water in the morning nine days together and it
 cures the scurvy, makes the body lightsome and cheerful.
 " It is good against the dropsy and jaundice, drunk, as before (stated).
 " Wash your ears with it warm and it is good against deafness, noises
@@ -239,7 +240,7 @@ dries up wounds, though made with poisoned weapons. Cures dandruff,
 scurf, and bathed upon the pulses, cools the heat of fevers. Is excellent
 against trembling, numbness and the palsy. and bathed upon the
 region of the spleen, urine eases the pains hereof.
-"The virtues of the volatile salts of urine‐It powerfully absorbs acids and
+"The virtues of the volatile salts of urine-It powerfully absorbs acids and
 destroys the very root of most diseases in human bodies. It opens all
 obstructions of . . . . Reins. Mysentery and Womb, purifies the whole
 mass of Blood and Humors cures . . . Caclexia .. . Rheumatism and
@@ -259,29 +260,29 @@ gravel.
 Urine whatsoever.
 "So much for this panegyric on what some of us have come to term the
 eau de vie. But one also reads that in the 18th century it was much
-extolled as a valuable mouth‐wash by a Parisian dentist.
+extolled as a valuable mouth-wash by a Parisian dentist.
 I will now quote some modern opinions as to the value of urine.
 Writing in Candide, Prof. Jean Rostande repeatedly stresses the
 biological significance of those substances known as hormones. The gist
 of his article of some 1.250 words may be condensed as follows
 "A recent discovery regarding the activity of hormones has completely
-revolutionised their study‐viz.. that certain of them filter through the
+revolutionised their study-viz.. that certain of them filter through the
 kidney to pass out in the urine. Multiple hypophysical hormones, the
 hormones of the adrenal and hormones of the sexual glands, have been
-found in normal urine… The discovery of hormone‐urinoltogy has had
-far‐reaching consequences. Urine provides a practically unlimited
+found in normal urine… The discovery of hormone-urinoltogy has had
+far-reaching consequences. Urine provides a practically unlimited
 quantity of basic matter… From the therapeutic point of view it is
 possible to envisage the use of these human hormones as apparently
 capable of exercising great power over the human organism… "
 Thus urine extolled by many of the ancients, but misunderstood by the
-semi‐moderns, now appears in the light of a wonderful reservoir a
+semi-moderns, now appears in the light of a wonderful reservoir a
 
 12
 
-philtre of pre‐eminent value. It contains in a pure and often undreamt
+philtre of pre-eminent value. It contains in a pure and often undreamt
 of quantity, products of the most vital nature, bearing out what Mr.
 Ellis Barker maintained when he wrote that " our body distils the most
-wonderful medicines and provides the most perfect serums and anti‐
+wonderful medicines and provides the most perfect serums and anti-
 bodies."
 I will now quote some remarks taken from a pamph et by Dr. T. Wilson
 Deachman, Ph.C., M.D., who writes:
@@ -300,8 +301,8 @@ Llamas of Thibet and the yogis with whom he associated prior to his
 attempt, claim to live to a great age by means of the use of urine. By
 the same means they can also traverse deserts inaccessible to ordinary
 mortals.
-Last century, between the eighteen‐sixties to seventies, the drinking of
-one's own urine was a well‐known cure for jaundice, and some doctors
+Last century, between the eighteen-sixties to seventies, the drinking of
+one's own urine was a well-known cure for jaundice, and some doctors
 had the courage to prescribe it. I learned from one of my patients that,
 when he was a boy, his grandfather had cured him of an attack of
 
@@ -309,11 +310,11 @@ when he was a boy, his grandfather had cured him of an attack of
 
 jaundice by urging him, on the advice of a doctor, to drink all the urine
 he passed during the four days of his illness.
-Among gipsies, the health‐giving properties of urine have been known
+Among gipsies, the health-giving properties of urine have been known
 for centuries. Cow's urine has been taken in large quantities for the
 cure of Bright's dise, se, dropsy and other afflictions. I once met a
 Dorset farr ier who had over a period of sixty years drunk four pints of
-cow's urine a day. He was 80 at the time, strait‐ht as a yard‐stick, and
+cow's urine a day. He was 80 at the time, strait-ht as a yard-stick, and
 he told me that he was never ill. He had, on the advice of a gipsy, begun
 the treatment at tI.e age of 20 for throat and chest trouble.
 Nevertheless, cow's urine as a curative agent is inferior to the patient's
@@ -322,7 +323,7 @@ brought on by alcoholism.
 The wiser of the ancient Greeks used nothing but urine for the
 treatment of wounds. The Eskimos even to this day adopt the same
 measures.
-The question may be asked if urine‐therapy has been used by anyone in
+The question may be asked if urine-therapy has been used by anyone in
 comparatively recent times? And the answer is in the affirmative. Apart
 from others, the late W. H. Baxter, J.P., of Leeds and Harrogate, not
 only took his own urine, but wrote numerous pamphlets on the subject
@@ -346,7 +347,7 @@ unsurpassed." (See Doctors, Disease and Health, by Cyril Scott.)
 I can vouch for the truth of this statement, as Mr. Baxter was for a short
 time one of my patients. But what is not mentioned in the above is that
 during the treatment he fasted on urine and water only. his fasting, as
-the reader will see later, is an, essential part of the treatment‐at any
+the reader will see later, is an, essential part of the treatment-at any
 rate in serious disease conditions.
 In some rural districts the use of cow's urine has been advocated by
 doctors for boils. A case may be quoted of a man who had a number of
@@ -354,12 +355,14 @@ painful boils under his arm. They were quickly cured by compresses of
 cow's urine.
 En passant, I may mention that not so long ago one of the most
 exclusive and expensive toilet soaps was made from the dehydrated
-salts and fats of the urine of grass‐fed cows, and another from the urine
+salts and fats of the urine of grass-fed cows, and another from the urine
 of Russian peasants. ( My informant was a chemist who knew what he
 was talking about.) Furthermore some expensive facecreams contain
 hormones derived from human urine. " What the eye seeth not...."!
 
 15
+
+## CHAPTER III. SOME OBJECTIONS ANSWERED
 
 CHAPTER III.
 SOME OBJECTIONS ANSWERED
@@ -394,7 +397,7 @@ resultant flowers are the most fragrant, the fruits the sweeter, and the
 trees the healthier. On the other hand, where the soil is for some
 reason deprived of those chemical substances produced by the dead
 leaves, etc., then the trees which grow in that soil are disfigured by
-excrescences, which I think, quite aptly have been called tree‐cancers.
+excrescences, which I think, quite aptly have been called tree-cancers.
 What we are accustomed to regard as useless dead leaves are the very
 opposite of useless and should be dug back into the soil instead of
 being swept away by the gardener. Let those who challenge this
@@ -403,14 +406,14 @@ principle that all that comes from the soil should be put back into the
 soil, and they will soon be convinced that the principle is a correct one.
 The idea that Nature is wasteful is erroneous. She only appears
 wasteful to us because we do not understand her. The rotting dead
-leaves provide the most valuable mineral salts for the soil‐one of the
+leaves provide the most valuable mineral salts for the soil-one of the
 most essential being potash. Even the ashes of burnt dead leaves and
 burnt wood (charcoal) are of great value. Therefore why should a
 principle which applies throughout Nature not apply (with certain
 reservations) to the human body? This question is the more readily
 answered if we consider the constituents of urine.
 Yet before doing so, something should be said about the unreliability of
-urine analysis as a means of diagnosis. Though urine‐analysis is still a
+urine analysis as a means of diagnosis. Though urine-analysis is still a
 practice among orthodox doctors, it has been found that the elements
 in and general condition of urine depend far more on the character of
 the food and drink taken by the, patient than on any fancied or real
@@ -425,11 +428,11 @@ heavily sweetened ices. On such a diet, after twelve to fourteen hours
 the urine of an otherwise healthy person became charged with sugar
 and suggested to the doctor that he had diabetes! Similar mistakes
 have been made with regard to albumen found in the urine as the
-result of an ill‐balanced diet. Some years ago a friend of the writer's
+result of an ill-balanced diet. Some years ago a friend of the writer's
 connected with a Life Insurance Company had a number of "prospects"
 turned down owing to heavy deposits of albumen in their urine. Finally
 he brought three of these men along for By dint of altering their diet, all
-the investigation supposed‐to‐be indications of Bright's disease,
+the investigation supposed-to-be indications of Bright's disease,
 nephritis or albuminuria from which they were alleged to be suffering
 very soon vanished, and at. a subsequent examination by the Insurance
 doctor they were told they must have had "local inflammations" when
@@ -504,8 +507,8 @@ outstanding fact that urine, however thick, concentrated, scanty and
 seemingly " poisonous " it may appear at the onset of such diseases as
 genuine Bright's disease, influenza and others, very soon becomes
 filtered and greatly increased in volumen when freely imbibed. This is a
-fact I have witnessed, together with other practitioners of urine‐
-therapy, in hundreds of so‐termed hopeless cases, and is the best and
+fact I have witnessed, together with other practitioners of urine-
+therapy, in hundreds of so-termed hopeless cases, and is the best and
 most definite answer to the objection with which I am dealing.
 One other objection which has been mooted (namely by those who are
 wont to put their trust in the "princes " of medicine) is as follows : If
@@ -518,7 +521,7 @@ superstitions," of Some altercations, of envies and even of persecutions.
 of the strangest "remedies" have had a vogue for a few years, only to
 be regarded a few years later as the most disgusting and barbarous
 superstitions. For instance, the notorious Cardinal Richelieu was given
-horse dung in wine to drink on his death‐bed, and not by quacks but by
+horse dung in wine to drink on his death-bed, and not by quacks but by
 men we should nowadays call qualified doctors. (See Devils, Drugs and
 Doctors, by' H. W. Haggard, MH.D.) 'Nor am I here giving away "state
 secrets" in alluding to the instability which characterises the orthodox
@@ -535,8 +538,8 @@ only lay down hypotheses which would hold for a day and then pass
 away: and just as the teachings of seventy years ago seemed to them
 very curious and not very sound, so it would be exactly the same forty
 years hence." (The Times, October 2nd, 1918.)
-The truth of this utterance applies every bit as much to‐day as it did in
-1918‐perhaps even more so. It is no exaggeration to say that, far from
+The truth of this utterance applies every bit as much to-day as it did in
+1918-perhaps even more so. It is no exaggeration to say that, far from
 being an exact science, in spite of all "scientific" tests that patients are
 subjected to in these days, it still remains such an inexact science that
 ten different doctors have been known to give ten different diagnoses
@@ -582,7 +585,7 @@ foods which have been eaten. Even the urine which is passed in some
 serious diseases is not as obnoxious to taste as its appearance may
 often suggest.
 And now, having cited testimonials both ancient and modern as to the
-therapeutical value of urine, and having also dealt with the afore‐
+therapeutical value of urine, and having also dealt with the afore-
 mentioned objections. I will sum up the evidence contained through
 many years of practice and personal experience on the part of those
 who are in a position to know the real facts.
@@ -590,7 +593,7 @@ who are in a position to know the real facts.
 23
 
 Urine on being taken into the body, is filtered; it becomes purer and
-purer even in the course of one day's living upon it plus tap‐water, if
+purer even in the course of one day's living upon it plus tap-water, if
 required. First, it cleanses, then frees from obstruction and finally
 rebuilds the vital organs and passages after they have been wasted by
 the ravages of disease. In fact it rebuilds not only the lungs, páncreas,
@@ -604,15 +607,17 @@ in the following pages.
 
 24
 
+## CHAPTER IV. MY SELF-CURE
+
 CHAPTER IV.
-MY SELF‐CURE
+MY SELF-CURE
 
 Although I should prefer to avoid the first personal pronoun in this
 book, it is not possible to do so in the circumstances if I am to carry
 conviction. For, as already implied, one ounce of experience outweighs
 a ton of arguments!
 My first patient was myself. It happened in this wise. During the last
-war at the age of thirty‐four. I presented myself for medical
+war at the age of thirty-four. I presented myself for medical
 examination under what was called The Derby Scheme, and was
 rejected by four examining doctors on the grounds that I was
 consumptive. Moreover I was urged to put myself under the care of a
@@ -625,7 +630,7 @@ another specialist, who i nformed me that both my lungs were affected,
 and despite what the previous specialist had said, I was consumptive,
 and must keep up my strength on a diet rich in sugars and starches.
 Finally, diabetes set in, and I was placed on an entirely new and drastic
-regime, which consisted of fasting on six half‐pints a day of cold water
+regime, which consisted of fasting on six half-pints a day of cold water
 (sipped) during four days of every week, whilst on the fifth and two
 following days I was permitted a " snack which only served to whet my
 appetite, not to mention the fact that I wass enjoined to chew every
@@ -668,18 +673,18 @@ quoted, and many others also, bear reference to that vital fluid which is
 within our own bodies; and believing it, I acted in accordance with that
 belief, to find in the end that it proved to be my physical salvation.
 Fortified by my faith in what I thought to be the correct interpretation
-of the text, I fasted for forty‐five days on nothing but urine and tap
-water‐and this, despite the doctor's assertion that eleven days without
+of the text, I fasted for forty-five days on nothing but urine and tap
+water-and this, despite the doctor's assertion that eleven days without
 food was the limit to which a human being could go I also rubbed urine
-into my body‐a very important factor in the cure, with which I shall deal
-in Chapter XVII‐I finally broke my fast on raw beef, and though it gave
+into my body-a very important factor in the cure, with which I shall deal
+in Chapter XVII-I finally broke my fast on raw beef, and though it gave
 me no discomfort beyond a ravenous hunger, I none the less ate
 cautiously for a time, and continued to drink my own urine, noticing
 that its changes in temperature, quantity, taste, etc., depended almost
 entirely on what I ate or drank, and on the amount of exercise I took.
 At the end of this treatment I felt and was "an entirely new man." I
 weighed 140 lbs., was full of vim, looked about eleven years younger
-than I actually was, and had a skin like a young girl's. I was thirty‐six at
+than I actually was, and had a skin like a young girl's. I was thirty-six at
 the time, and am now over sixty. Yet by dint of drinking every drop of
 water that I pass, living on a wellbalanced diet, (*) and never eating
 more food per diem than I consider the body requires, I look and feel
@@ -701,6 +706,8 @@ standpoint are labelled incurable.
 
 28
 
+## CHAPTER V. GANGRENE
+
 CHAPTER V.
 GANGRENE
 
@@ -712,7 +719,7 @@ after a finger, toe or limb has been amputated, it is often fatal,
 especially in the case of persons past middle age. All the same, I have
 proved that gangrene can be easily cured.
 My first acquaintance with the ravages of gangrene was in 1891 when I
-was a schoolboy of ten. My closest schoolmate had complained of face‐
+was a schoolboy of ten. My closest schoolmate had complained of face-
 ache for some days before being taken to a local dentist for the
 extraction of a tooth far back in the jaw. Unfortunately some of the jaw
 came away with the molar, and gangrene set in. Drugs and ointments
@@ -732,9 +739,9 @@ cured it by first bathing my face in urine and then binding it up with
 pieces of linen wrung out in the same healing fluid. My cheek was
 normal in a few hours.
 This treatment was suggested to the parents of my schoolmate with
-the gangrenous jaw‐but merely to be rejected with scorn and
+the gangrenous jaw-but merely to be rejected with scorn and
 expressions of disgust. I have since come to know that urine
-compresses combined with urine‐drinking and fasting could have saved
+compresses combined with urine-drinking and fasting could have saved
 my unfortunate friend.
 About a year later a young man of our acquaintance died of either
 gangrene, medical treatment for the condition, or perhaps both. While
@@ -751,7 +758,7 @@ gold I should receive, but metaphorically speaking, a crown of thorns !
 For although the story is not relevant to this book, I have had to suffer
 for my doctrines and their demonstration.
 The first case of gangrene I ever treated was in 1920. The patient was a
-lady of fifty‐three. She had been in the care of a well‐known Bradford
+lady of fifty-three. She had been in the care of a well-known Bradford
 physician who was an, authority on fasting and dietetics. Anaemia had
 developed, the lungs showed signs of grave disturbance, and there was
 a gangrenous condition in one foot, with a number of skin eruptions of
@@ -793,7 +800,7 @@ much kneeling on a hard stone floor. She had submitted herself to
 many treatments, both orthodox and unorthodox, but her afflictions
 merely increased. She suffered from severe constipation, piles, eczema,
 anaemia, insomnia, tic nerveux, general depression, sore mouth and
-tongue, faceache, eruptions at each corner of the lips‐and above all,
+tongue, faceache, eruptions at each corner of the lips-and above all,
 more cavities had occurred in the gangrenous leg. In spite of her
 tribulations, however, she was a woman, of great spirit, and I had no
 difficulty in persuading her to fast on all the urine she passed, and up to
@@ -806,14 +813,14 @@ end of the first week, the bowels and kidneys were working " overtime
 " and the piles were cured. In a fortnight there was no sign of the
 gangrene, and new skin had grown in place of the cavities. The diseased
 leg, which previously had become twice the size of the other one, was
-now completely normal‐not even a scar remaining anywhere to remind
+now completely normal-not even a scar remaining anywhere to remind
 her of what she had suffered! I subsequently put my recovered patient
 on an exclusive diet of grapes, bananas and raw tomatoes for a week in
 small quantities, added fresh unpasteurised milk for the second week,
 and in the third week finally got her back on a normal diet.
 According to my experience, gangrene is often much quicker in
 response than many other major or "killing diseases, a matter which
-may be seen from a few brief case‐sheets which I now will add. I should
+may be seen from a few brief case-sheets which I now will add. I should
 
 32
 
@@ -825,8 +832,8 @@ toes in the first 20 days.
 Mr. D. Diabetic gangrene of left forearm. Fasted 48 days for the
 diabetes. Arm completely normal after 18 days. No scar.
 Mr. J.W.B. (60 years old). Gangrene of first and second joints of thumb,
-caused by a hammer‐blow in mason work. Treated for 18 weeks as an
-out‐patient at Leeds G.I. Bone removed up to first joint. Discolouration
+caused by a hammer-blow in mason work. Treated for 18 weeks as an
+out-patient at Leeds G.I. Bone removed up to first joint. Discolouration
 spread towards wrist. Fasted according to my method, applied urine
 compresses to whole hand, wrist and arm. Cured in one week.
 Miss C.A. (aged 10 in 1930) Anaemia. Gangrene of both legs following
@@ -839,7 +846,7 @@ Mrs. B. Gangrenous finger, also severe conjunctivitis following a year's
 use of atropin. Fasted 12 days for gangrene, then a week later
 undertook a second fast for the conjunctivitis which cleared up the
 23rd day. Age 38 in 1927. Still looks much the same age.
-Mr. J.I. (age 54 at the time.) Thumb cut by fish‐bone. Gangrene ensued.
+Mr. J.I. (age 54 at the time.) Thumb cut by fish-bone. Gangrene ensued.
 Doctor attended him the same day. Surgeon's decision to amputate
 rejected. Fasted 14 days. Body rubbed with urine, finger poulticed in
 
@@ -858,27 +865,29 @@ during three weeks by the Result disastrous. Fasted 28 days, with
 physicians the usual treatment I advocate. Marked improvement after
 ten days. Return to normal health after a fortnight.
 Many other cases could be cited. But as I do not wish to swell the bulk
-of this book with an unnecessary number of case‐sheets when a few
+of this book with an unnecessary number of case-sheets when a few
 should be sufficient to convince any but the most prejudiced, I will
 forbear. I think I may say that what I have here put forward sh:>uld
 explode the dogma that gangrene is incurable.
 We will now provide evidence which should explode another medical
-dogma‐namely the " incurability " of cancer.
+dogma-namely the " incurability " of cancer.
 
 34
+
+## CHAPTER VI. GROWTHS AND CANCER (?)
 
 CHAPTER VI.
 GROWTHS AND CANCER (?)
 
-In 1912 the late Dr. F. Forbes‐Ross, of London, a fully qualified physician,
-wrote a book entitled Cancer ‐Its Genesis and Treatment. He had during
+In 1912 the late Dr. F. Forbes-Ross, of London, a fully qualified physician,
+wrote a book entitled Cancer -Its Genesis and Treatment. He had during
 twentyfive years of practice come to the conclusion that malignancy
-and other growths were due to a diet deficient in natural salts‐
+and other growths were due to a diet deficient in natural salts-
 especially in potash. By putting his patients on a more balanced diet
-(such as I advocate), and administering potash‐salts in an assiminable
+(such as I advocate), and administering potash-salts in an assiminable
 form, he cured a large number of cases of that dread disease; and yet
 after his death, not one of his colleagues or one single hospital could be
-induced to take up the treatmer, ‐so firmly had the dogma taken hold
+induced to take up the treatmer, -so firmly had the dogma taken hold
 of the Medical Profession that cancer must be treated exclusively by
 the knife or radium. His book is now out of print. But another book by a
 Surgeon, Mr. C. P. Childe, advocating speedy interference with the knife
@@ -886,7 +895,7 @@ the moment a lump looks at all suspicious, is still in print, or was so
 until quite recently. (See Doctors, Disease and Health, also Victory over
 Cancer, and Health, Diet and Commonsense, by Cyril Scott.)
 I am not prepared to pronounce on the merits or demerits of Dr.
-Forbes‐Ross's method, for I have ‐ lot required to try it. But the
+Forbes-Ross's method, for I have - lot required to try it. But the
 treatment of his book shows how little the spirit of democracy prevails
 in the Medical Profession, and should give intelligent members of the
 public an inkling as to why cancer is still said to be an incurable disease
@@ -902,7 +911,7 @@ of Bradford, admitted to me that in the earlier part of his career, before
 I knew him, he had performed no fewer than five hundred major
 operations for growths, and that it was the uniform lack of success with
 the knife that had caused him to search for other means of more
-effectively treating cancer‐though unfortunately in vain.
+effectively treating cancer-though unfortunately in vain.
 (*) Dr. Rabagliati was well known in the Medical Profession, and his
 name occurs in many medical books published both in this country and
 in U.S.A.
@@ -924,7 +933,7 @@ she was obliged to send for a medical man, who, while examining her,
 36
 
 discovered the condition of her breast, lamented the fact that it was
-already too late to operate‐and gave her ten days more to live!
+already too late to operate-and gave her ten days more to live!
 The case then came into my hands. A short fast on the patient's own
 urine, plus water, was undertaken. It lasted ten days. Then a light diet
 was prescribed on the one meal a day plan, along with the free internal
@@ -936,7 +945,7 @@ to a seaside place to live with a relative who scoffed at my theories, and
 though doctors had failed to cure her of asthma, worshipped at the
 shrine of medical orthodoxy. My erstwhile patient died six years later,
 two hours after a physician had given her some innocent looking pellets
-for a cold. I had only seen her once after 1918‐19.
+for a cold. I had only seen her once after 1918-19.
 This case, from my point of view, was, of course, unsatisfactory. But it
 serves in some measure to show what many unorthodox physicians
 have maintained, viz., that if growths are not interfered with by the
@@ -954,7 +963,7 @@ disease, a large number of further cases diagnosed as cancerous, and
 
 even after some of them had been treated either medically or surgically
 in consequence, I have been enabled to collect much interesting data
-on the subject‐most of which conflicts with allopathic theories and
+on the subject-most of which conflicts with allopathic theories and
 popular assumptions. Seeing, however the dogma obtains that genuine
 cancer is incurable, and seeing that a law has been passed prohibiting
 any layman even to hint that he can cure (or presumably has cured)
@@ -976,7 +985,7 @@ convinced that they could not have been malignant; especially as I
 make a point of never employing such terms as cancer, malignancy or
 even tumour during my consultations. Besides, it must be freely
 admitted that every lump or nodule that forms on the human body is
-not a malignant growth‐although only a surgeon is credited with the
+not a malignant growth-although only a surgeon is credited with the
 ability or the authority to label it either malignant or otherwise. The
 ruling unfortunately results in many comparatively harmless lumps
 
@@ -994,18 +1003,18 @@ physicians but hundreds of surgeons. Therefore we are not astonished
 when we read that " the mortality from cancer in San Francisco exceeds
 that of any other American city." (See Victory over Cancer by Cyril
 Scott.)
-I will now give the case‐history of Mrs. R. (1923). She was in the early
-forties at the time. Condition‐anaemic under average height, below
+I will now give the case-history of Mrs. R. (1923). She was in the early
+forties at the time. Condition-anaemic under average height, below
 normal weight, lump about the size of a hen's egg in one of her breasts.
 Diagnosed as cancer by the late Dr. Rabagliati, and i mmediate
 operation urged but firmly refused. Fasted on urine and drank 22 pints
-of plain cold tap‐water daily. Her husband rubbed her from head to
+of plain cold tap-water daily. Her husband rubbed her from head to
 foot with his own urine for two hours a day, and packs wrung out in
 urine were placed over both breasts day and night. Cure in ten days.
 Returned to Dr. Rabagliati on twelfth day after last visit to him, and he
 could find ro trace of Anaemia had vanished also, abnormality in the
 breast and the patient had been restored to perfect health.
-Here is another case (1925). Middle‐aged woman. Growth of some
+Here is another case (1925). Middle-aged woman. Growth of some
 proportions situated near the armpit. Two surgeons advised operation,
 but made a concession to her daughter's suggestion that the patient
 
@@ -1029,11 +1038,11 @@ time of writing many years older, and quite well.
 A case may now be cited relative to a youngish woman who had
 developed a growth in her breast. I cite it because the trouble
 disappeared in the shortest period I had yet witnessed for what might
-have been a malignant tumour or merely a swollen milk‐gland. I think,
+have been a malignant tumour or merely a swollen milk-gland. I think,
 none the less, that had the patient put herself in the hands of
 physicians, they would have advised an operation just as they have
 done in hundreds of similar cases. On seeing her, I at once advocated a
-fast on her own urine, plus tap‐water, and urine compresses‐in short,
+fast on her own urine, plus tap-water, and urine compresses-in short,
 the usual procedure I advise. At the end of four days the growth had
 entirely disappeared.
 And now I will mention the case of a lady who came to me in 1927. It is
@@ -1042,7 +1051,7 @@ instructive as showing once again that operations merely deal with
 40
 
 effects and do not remove the cause of the disease from the body. The
-lady‐ in question was 45, over stout, and had a growth of some size in
+lady- in question was 45, over stout, and had a growth of some size in
 her left breast, the right one having been removed two years previously
 for a similar growth. She fasted and was treated according to my
 method for nineteen days, and then reported that the growth had
@@ -1053,10 +1062,10 @@ figure.
 The following case shows that one and the same methods may result in
 curing complaints which have no apparent connection with each other.
 A young lady came to me with a swollen right breast, near the centre
-of which There were also was a nasty, suspicious‐looking lump. two
-large ulcers under the arm‐pit. She had been invited by the family
+of which There were also was a nasty, suspicious-looking lump. two
+large ulcers under the arm-pit. She had been invited by the family
 doctor to enter the hospital for observation, but declined, seeing that
-her mother had accepted a similar invitation, had been operated upon‐
+her mother had accepted a similar invitation, had been operated upon-
 and subseMoreover she herself, having suffered quently buried from
 chronic peritonitis, had had her appendix excised, but without curing
 the peritonitis. She started by fasting four days on my system, but had
@@ -1064,15 +1073,15 @@ to break the fast to satisfy her insistent relatives. Nevertheless, after
 three days she resumed the fast, and the second time fasted for
 nineteen days. Already after the tenth day there was a marked
 improvement, and at the end of the nineteen days no trace was left of
-the lump on her breast or the ulcers in her arm‐pit. There was not even
+the lump on her breast or the ulcers in her arm-pit. There was not even
 a scar. But the peritonitis had not cleared up (perhaps because of
 scarred tissue resulting from the operation on appendix) and so a little
-later she fasted for thirty‐five days. This had the desired effect.
+later she fasted for thirty-five days. This had the desired effect.
 
 41
 
-These case‐sheets should serve to show that Nature is a far more
-efficient Healer than are so‐termed scientific methods which involve
+These case-sheets should serve to show that Nature is a far more
+efficient Healer than are so-termed scientific methods which involve
 mutilation. If people who observe suspicious lumps on their bodies
 would only resort to these natural methods I have outlined, and resort
 to them at once, Nature would not fail them. But those who wait till the
@@ -1090,7 +1099,7 @@ any sort of cancer (Dr. G. E. Ward, are well known to the profession."
 Howard Kelley Hospital. Baltimore. Italics mine.) Yet if these poor
 results are so well known, then why does the profession continue to
 advocate the knife, and ignore those who obtain good results without
-surgery, as did Dr. Forbes‐Ross and others since his death? Mention
+surgery, as did Dr. Forbes-Ross and others since his death? Mention
 may be made here of Dr. W. F. Koch, of Detroit, who, over a period of
 20 years, has cured hundreds of cases of cancer, both external and
 internal, by a subtle chemical formula. Yet far from being recognised by
@@ -1113,15 +1122,15 @@ profession, but refused. Was under 6 stone and rapidly wasting away.
 Cured in three weeks, At the date of writing is 84.
 Lady of 42; diagnosed cancer of breast. Excision dvised, to be followed
 by strict regime; but only faint hope of a cure offered by the profession.
-Patient refused operation. Complete cure by the fasting‐urine method.
+Patient refused operation. Complete cure by the fasting-urine method.
 Is still alive and well after 21 years.
 Lady of 40. In 1935 developed the type of growth sometimes called "
 rope cancer." Surgeons pressed for i mmediate excision but offered no
 hope of a permanent cure, saying that return and spread of growth
-practically inevitable. Cured by the urine‐fast, etc., in twenty‐three days.
+practically inevitable. Cured by the urine-fast, etc., in twenty-three days.
 Is not only still well, but looks young and beautiful.
-It may be of interest to the reader if I cite what the late Dr. Rabagliati ‐
-that frank, enlightened and broadminded physician ‐ said relative to the
+It may be of interest to the reader if I cite what the late Dr. Rabagliati -
+that frank, enlightened and broadminded physician - said relative to the
 treatment of diagnosed cancer and growths by the methods I have
 outlined.
 "I have examined women with what would in orthodox care have
@@ -1129,44 +1138,44 @@ resulted in the removal of one or both breasts. These happy mortals
 
 43
 
-have declined my advice, gone under urine‐therapy and returned to my
+have declined my advice, gone under urine-therapy and returned to my
 consulting rooms without even a scar to suggest the healing of
 `incurable malignancy.'
 "Many of these females have found the lump or lumps to disappear
 within a fortnight, some in as few as four days ; all of which suggests
 that Mr. Armstrong is probably correct in his suggestion that most
 lumps are not malignant until after surgical and drug interference, and
-that in the incipient stages, the so‐called King of Terrors . . . is a very
-ordinary affair when tackled promptly . . . in the right way‐the way of
-breaking down boils, ulcers, tumours and cancers into the blood‐
+that in the incipient stages, the so-called King of Terrors . . . is a very
+ordinary affair when tackled promptly . . . in the right way-the way of
+breaking down boils, ulcers, tumours and cancers into the blood-
 stream . . .
 "If, however, any layman claimed and produced a thousand cured cases
-on one platform, I doubt if it would impress my profession‐‐even claims
+on one platform, I doubt if it would impress my profession--even claims
 for the improvement of cancer victims are either openly ridiculed or
 ignored. It is a sad reflection that my profession thrives on disease and
 the inhuman propaganda of official scaremongering and the promise of
-to‐morrow, some other day, or never, for the diseases my profession
+to-morrow, some other day, or never, for the diseases my profession
 and others have so long exploited."
 Some Prevailing Theories as to Cancer Causation, etc.
-To relieve the monotony of an uninterrupted recital of case‐histories in
+To relieve the monotony of an uninterrupted recital of case-histories in
 this book, we may give a few moments' attention to various theories as
 to the causes of cancer, in order to see if they have any bearing on my
 thesis.
 Because cancer occurs less frequently among vegetarians, some
-enthusiastic non meat‐eaters declare that the consumption of meat is
+enthusiastic non meat-eaters declare that the consumption of meat is
 the prime cause of malignancy. But if this were true, then all persons
 
 44
 
 except vegetarians (unless they died before the age when cancer is
 usually said to develop) would, without exception, succumb to its
-ravages. Moreover some non meat‐eaters have and do die of cancer.
-"Well, at any rate," rejoin the vegetarians, meat‐eatinig favours disease
+ravages. Moreover some non meat-eaters have and do die of cancer.
+"Well, at any rate," rejoin the vegetarians, meat-eatinig favours disease
 in the human body, and as Sir Arbuthnot Lane maintained, cancer
 cannot develop in a healthy organism. If a man who has been for a long
 time a vegetarian suddenly starts to eat meat, disturbances ensue. The
 case may be quoted of a vegetarian who averred that there must be
-some animal fat in a certain brand of rather unusual‐tasting biscuits,
+some animal fat in a certain brand of rather unusual-tasting biscuits,
 because whenever he had consumed one, he noticed that there
 followed a slight attack of fever. Maybe; but as against that, I could
 quote the case of a young man who, having over a long period lived on
@@ -1181,20 +1190,20 @@ question of malignancy as it has in other vexed questions. Vegetarians
 want to believe that meateating "is the root of all evil" and so pounce
 upon it as the cause of malignancy and a host of other ailments. But if
 we bring commonsense into the matter another explanation appears to
-be far more reasonable. Sensible vegetarians live on a less de‐natured
-diet than do the generality of meat‐eaters and hence are less likely to
+be far more reasonable. Sensible vegetarians live on a less de-natured
+diet than do the generality of meat-eaters and hence are less likely to
 develop cancer. On the other hand, those " unscientific " vegetarians
-who live mostly on macaroni, starch‐foods boiled instead of steamed
+who live mostly on macaroni, starch-foods boiled instead of steamed
 
 45
 
 vegetables, and on pastries, puddings, etc. made of white flour, are
-living as much on a de‐natured diet as any person who subsists to a
+living as much on a de-natured diet as any person who subsists to a
 large extent on such rubbishy aliments plus meat very often tinned at
 that.
 The cause of cancer must be obvious to those who become as little
 children " and do not blind themselves to truth by the blinkers of
-pseudo scientific learning, and thus overlook the simple because so pre‐
+pseudo scientific learning, and thus overlook the simple because so pre-
 occupied with the complex. Even so, some of them are obliged to fall
 back on the simple in the end. After writing an enormous tome
 overloaded with the conflicting theories and dogmatical
@@ -1209,18 +1218,18 @@ and tissues in a healthy condition.
 I am aware that of late the discovery has been made (not by the Cancer
 Ring) that some people who have lived for a length of time in a house
 situated over an underground stream, have eventually developed
-canceran observation which may account for so‐termed " cancer
-houses "‐but we have still to discover whether such people would have
-developed the dread disease if they had lived on a well‐balanced diet. It
+canceran observation which may account for so-termed " cancer
+houses "-but we have still to discover whether such people would have
+developed the dread disease if they had lived on a well-balanced diet. It
 would be also instructive to discover whether those cases of "
 spontaneous " disappearance of cancerous growths have followed
 
 46
 
-upon removing to another place of dwelling. Of such cases the well‐
+upon removing to another place of dwelling. Of such cases the well-
 known surgeon, Mr. Hastings Gilford, wrote (in 1925) the significant
 words: "Though cancer is commonly regarded as inevitably fatal, many
-cases are recorded of its ` spontaneous ' disappearance‐and nothing
+cases are recorded of its ` spontaneous ' disappearance-and nothing
 can be more certain than that these recorded cases are very few in
 comparison with those which are left unrecorded. " (!) A damaging
 admission, by the way, which suggests, as Mr. Ellis Barker and others
@@ -1238,9 +1247,9 @@ maintained, then surely a warning may be derived from the fact that
 gardeners water mushroom beds with warm salt and water solutions
 with the object of producing a profuse crop. Another suggestive point is
 that, in spite of eating large quantities of salt in its crude form, the
-tissues of people who live on an illbalanced or de‐natured diet, can
+tissues of people who live on an illbalanced or de-natured diet, can
 nevertheless register deficiency of sodium chloride (common salt).
-Sodium chloride is necessary‐and hence, of course harmless to the
+Sodium chloride is necessary-and hence, of course harmless to the
 tissues in such minute quantities as are to be found in vegetables,
 salads, etc., but is harmful when taken into the body as a condiment.
 The same is relatively true of iron; phosphate of iron being one of the
@@ -1255,7 +1264,7 @@ All this again points to the simple truth that all diseases from anaemia
 to cancer, provided they are not produced by some structual alteration
 or some deepseated psychological cause, have their origin in wrong
 feeding.
-As to how far fear‐thoughts are conducive to cancer, it would be hard
+As to how far fear-thoughts are conducive to cancer, it would be hard
 to determine. But in any case fear is an unpleasant emotion as well as
 being a harmful one if long protracted. Yet unfortunately the Medical
 Profession by their methods of advertising, foster the very thing they
@@ -1270,7 +1279,7 @@ medical profession, the advertising of which is in their their hands and
 that of the recognised hospitals; (b) that all quack medicines are only
 swallowed and rubbed on and cannot do a fraction of the frightful
 injury to our race done by the medical profession's injections into the
-bloodstream and tissues of active virus, dirt and anti‐toxins. Lord
+bloodstream and tissues of active virus, dirt and anti-toxins. Lord
 Homer objects to 'unscrupulous advertising,' but the most
 unscrupulous piece of advertising I have ever seen was recently put out
 
@@ -1285,11 +1294,13 @@ worst sense of the word is the man who professes to cure what he
 knows he cannot cure. Before it became illegal for me to treat cancer, I
 never once professed to cure anyone after he or she had been
 subjected to radium treatment. Cancer itself was child's play to deal
-with in ccmparison to the after‐effects of radium, and had I offered any
+with in ccmparison to the after-effects of radium, and had I offered any
 hope of curing these I should have been a quack imposter of the most
-bare‐faced type.
+bare-faced type.
 
 49
+
+## CHAPTER VII. BRIGHT'S DISEASE: CASE HISTORIES
 
 CHAPTER VII.
 BRIGHT'S DISEASE: CASE HISTORIES
@@ -1313,14 +1324,14 @@ reaches the outer world by the kidney route, a case of albuminuria is
 developed.”
 According to the practitioners of this System, the chief remedy
 therefore is phosphate of lime, administered in infinitesimal doses as
-Nature would supply it in such foods as are not de‐natured by refining
+Nature would supply it in such foods as are not de-natured by refining
 processes. In other words, Bright's disease is caused by deficiency diet,
 viz., a diet lacking in the essential mineral salts to keep the blood and
 tissues healthy. To quote Dr. Carey again, " Biochemists have clearly
 
 50
 
-demonstrated the fact that when a deficiency of the cell‐salts of the
+demonstrated the fact that when a deficiency of the cell-salts of the
 blood occurs, the organic matter with which those salts have been
 associated is thrown out of the vital circulation." It is worthy of note
 that although the Biochemic System of Medicine claims to be able to
@@ -1330,7 +1341,7 @@ The incidence of Bright's disease dates back to early times, but it
 considerably increased during last century and onwards, and in its
 worst forms has been the cause of many untimely deaths.
 It is a singular fact that during the first three years of my career as a
-urine‐therapist, although I had contacted many cases of cancer,
+urine-therapist, although I had contacted many cases of cancer,
 diabetes, consumption and valvular disease of the heart, not once until
 1920 was I confronted with a genuine case of the disease, of which
 dropsy is but a symptom. (Dropsy occurs in diseases other than Bright's
@@ -1352,7 +1363,7 @@ very serious and painful one. Fortunately for the case, she had two
 elderly and humane nurses who had little faith, notwithstanding their
 profession, in drug and medical treatment. Of these two women I can
 never speak highly enough and of the broadminded manner in which
-they gave me their full co‐operation. Judging from the contents of the
+they gave me their full co-operation. Judging from the contents of the
 medicine table, it was hardly to be wondered at that they had lost faith
 in drugs, for there was such an array of bottles that my indignation was
 aroused by the way the unfortunate patient had been " experimented
@@ -1365,42 +1376,42 @@ one's own urine, which serves to break up congestions in every part of
 the body.
 My prediction came true. Within four days the flow of urine had
 increased from a bare 2oz. (it was very high in aroma, hot, thick, cloudy
-and full of casts) to about 200ozs. in twenty‐four hours. Moreover it
+and full of casts) to about 200ozs. in twenty-four hours. Moreover it
 began to change into a much clearer and far more freely expressed
 liquid, gradually approaching the appearance of rainwater. By the
 fourth day after drinking every drop she passed, it was practically
 tasteless, free from odour, and in no sense of the word objectionable.
 In addition to the urine, Mrs. C. was permitted to take, by sipping it, as
-much tap‐water as she desiredthis amounted to about 108ozs. in the
-twenty‐four hours; although I should add that after the third day, thirst
-had become well‐nigh absent.
+much tap-water as she desiredthis amounted to about 108ozs. in the
+twenty-four hours; although I should add that after the third day, thirst
+had become well-nigh absent.
 
 52
 
 From the fourth day onward, I had lost all anxiety about the case, and
 except for short infrequent visits, left the treatment in the hands of the
 two intelligent and helpful nurses.
-By the twenty‐third day the patient was showing such signs of complete
+By the twenty-third day the patient was showing such signs of complete
 recovery that one of the nurses begged me to try the effect of a little
-grated raw carrot juice flavoured with lemon. The result was a set‐back.
+grated raw carrot juice flavoured with lemon. The result was a set-back.
 Withi n two hours, a rash covering a considerable area and attended
 with much irritation appeared on each arm. At the same time the flow
 of urine was impeded and there was much swelling and irritation in the
 abdomen. Cloths soaked in one of the nurse's urine were placed over
 the abdominal region, whilst both arms were gently rubbed and bathed
 with the same fluid. After four hours the abdomen absorbed the
-moisture from the urine‐packs, and the flow of urine re‐commenced.
+moisture from the urine-packs, and the flow of urine re-commenced.
 This was taken internally, and the following day, except for the rash and
 irritation, the patient's condition was the same as before the carrot had
 been eaten. As for the rash, it took nearly a week before it vanished.
-One of the features of urine‐therapy is the rubbing of the patient's
+One of the features of urine-therapy is the rubbing of the patient's
 whole body with urine at given intervals for two hours at a stretch; that
 is, provided the patient is not too weak and emaciated to stand it. Mrs.
 C. was therefore rubbed twice a day for two hours with one or other of
 the nurses' urine. By the 48th day, the patient had so far become
 normal, that on the 49th day we broke her fast by giving her the juice of
 an orange at noon, and a whole orange to suck at 4 p.m. That same day
-she voided and took urine freely‐which meant that all was now in order.
+she voided and took urine freely-which meant that all was now in order.
 At 6.30 she was given a small piece of steamed fish and two steamed
 potatoes in their jackets. She weighed now 119lbs. Next day she had
 two small meals, which she was advised to fletcherise, i.e., chew to
@@ -1414,13 +1425,13 @@ as also rubbing it into the body (the most i mportant areas are the face
 and the neck) with astonishing results on the skin, hair, complexion,
 and her general appearance. Indeed, urine is the skin food par
 excellence as also the remedy for every kind of skin disease.
-And here ends the long case‐history of Mrs. C. who was given "only two
+And here ends the long case-history of Mrs. C. who was given "only two
 days to live"! Incidentally, both her husband and the two nurses
-became strong converts to urine‐therapy, and I may add, to a well‐
-balanced, as opposed to a de‐natured, diet.
+became strong converts to urine-therapy, and I may add, to a well-
+balanced, as opposed to a de-natured, diet.
 Mrs. C's, case attracted much attention as far as the lay public was
 concerned, but not, as I then innocently hoped, from the medical
-fraternity. For, as Dr. Freud, the discoverer of Psycho‐analysis, has
+fraternity. For, as Dr. Freud, the discoverer of Psycho-analysis, has
 pointed out, no matter what evidence, many people only allow
 themselves to believe what they wish to believe, and likewise they
 disbelieve what they wish to disbelieve. All the same, there are
@@ -1430,33 +1441,33 @@ the chances are that if a doctor told his patients to fast and drink their
 own urine, he would merely be regarded as mad or disgusting, and the
 patients would immediately seek the advice of some other physician.
 Besides, why do most people seek medical advice? In order to be told
-how to counteract the effects of their self‐indulgencies. If one doctor
+how to counteract the effects of their self-indulgencies. If one doctor
 tells them they must give up this and that, they then go to another
 
 54
 
 doctor who tells them they need not give up this or that; and being
 delighted with his advice, follow it very often to their own undoing.
-Enough said‐Mrs. C's case was instrumental in bringing the case of Mr.
+Enough said-Mrs. C's case was instrumental in bringing the case of Mr.
 B. whose condition had also been diagnosed as Bright's disease. Mr. B.
-had for years subsisted on the usual ill‐balanced deficiency diet,
-rendered even more deficient by non‐conservative cooking, and
+had for years subsisted on the usual ill-balanced deficiency diet,
+rendered even more deficient by non-conservative cooking, and
 rendered more "tasty" by the adjunct of condiments. He was not a big
 eater, but he drank some eight cups of tea a day and smoked about
-twenty‐five cigarettes on an average. When he came to me in 1920, he
+twenty-five cigarettes on an average. When he came to me in 1920, he
 had been under two doctors for some time, during which period his
 weight had increased from 2801bs. to 420 lbs. Like Mrs. C., he had
 finally been given two days to live.
 In June, 1920, he began a fast which lasted 49 days. By the fourth day
 of his penance he was passing water as clear and as tasteless almost as
-rain‐water, and his swellings began to vanish with astonishing rapidity.
+rain-water, and his swellings began to vanish with astonishing rapidity.
 He had been anaemic, but at the end of the seven weeks, his anaemia
 had disappeared. His weight was now 105lbs., and he looked in every
 respect as young as he had done 20 years before. (As his photographs
 showed.)
 Mr. B. broke his fast in much the same way as Mrs. C. had done, and
 like her, became a convert to urine therapy and a properly balanced, if
-frugal, diet, viz., he gave up de‐natured food and continued to drink his
+frugal, diet, viz., he gave up de-natured food and continued to drink his
 own urine daily, with most gratifying results.
 In the same year, more cases came into my hands. Mr. W. (75 at the
 time), Mrs. L. (38), Mr. B. (55) and also a boy of 11. Each case presented
@@ -1464,7 +1475,7 @@ features worthy of recital at length, but brevity must suffice. Mr. W., in
 
 55
 
-spite of his age, fasted 53 days‐which serves to show that age is no
+spite of his age, fasted 53 days-which serves to show that age is no
 obstacle. Mrs. L. 42 days, Mr. B. 60 days. In the case of the boy, a
 fortnight proved sufficient to effect a cure. All the cases were attended
 with the same happy ending as that of Mrs. C. And here let me add that
@@ -1489,9 +1500,11 @@ from his head, tongue was dreadfully swollen and protruding from
 mouth, whilst his lips were three times their normal size. Specialist said
 the case was hopeless. Nothing more to be done. I undertook the case.
 Patient passed 40 pints of water five days later, and returned to
-business in six weeks ‐ cured.
+business in six weeks - cured.
 
 56
+
+## CHAPTER VIII. A CASE OF LEUCOCYTHAEMIA OR LEUKAEMIA
 
 CHAPTER VIII.
 A CASE OF LEUCOCYTHAEMIA OR LEUKAEMIA
@@ -1504,14 +1517,14 @@ what their names or sites, invariably rise from the same cause, viz., an
 encumbrance of foreign matter in the body. He said it was absurd to
 treat an organ separately (as specialists often do) for, as goes without
 saying, any organ or limb is a part of the body, and to think to cure an
-eye, an arm, a leg or what‐not merely by treating it locally is the height
+eye, an arm, a leg or what-not merely by treating it locally is the height
 of pseudo scientific folly! If an eye is diseased, there is something in the
 body itself which is causing that disease. For instance, he gives the case
 of a woman who was going blind. He treated her whole body, ridding it
 of its " cloggings, " and the eyetrouble cleared up automatically. She
 had suffered for years from bleeding piles; the orthodox physicians,
 having finally operated on her. Soon afterwards she started to lose her
-sight. The safety‐valve had been blocked up by this measure, the
+sight. The safety-valve had been blocked up by this measure, the
 operation, declared Kuhne, and the poisons went to her eyes. (See The
 New Science of Healing.)
 Kuhne effected many remarkable cures by his method, but would have
@@ -1525,7 +1538,7 @@ defects) could be cured by one means, as I myself have demonstrated.
 The name of the disease is of merely academic interest, and has
 nothing to do with the curing of it. All the same, for the sake of
 convenience, and to prove this fact, I have advisedly specified the
-diseases treated, and will now give the case‐sheets relative to what is
+diseases treated, and will now give the case-sheets relative to what is
 termed Leucocythae nia or Leukaemia.
 The patient, Mr. P.C., was brought in a taxi to my house by two of my
 "disciples. " He was too ill to walk into my room unsupported, looked
@@ -1536,7 +1549,7 @@ After I had examined him, I said in effect: "Mr. P.C., your condition is
 medically tabulated as leucocythaemia or splenic anaemia, and
 according to the Medical Profession, you have but three months to live.
 Your disease has been brought about by an ill balanced, denatured diet.
-None the less you can be saved by fasting and urine‐therapy." I went on
+None the less you can be saved by fasting and urine-therapy." I went on
 to explain the details. Then he told me his story. The gist of it was as
 follows
 Shortly before Easter of that year (1927) he had developed a cold, for
@@ -1544,7 +1557,7 @@ which he had "doctored" himself. By the Good Friday, his condition had
 been such that his wife and his brother had become alarmed and sent
 for a young physician who had diagnosed high bloodpressure. On a
 second examination the following day, however, he had said it was not
-high blood‐pressure after all, and that he had found traces of other
+high blood-pressure after all, and that he had found traces of other
 symptoms, which he did not particularise. A specialist was then called
 in. He examined the patient, pointed out the region of the swollen
 spleen to the general practitionerand diagnosed the case as
@@ -1554,7 +1567,7 @@ spleen to the general practitionerand diagnosed the case as
 leucocythaemia. Mr. P.C. was then informed that the disease was rare
 in England, and asked if he had ever been to the East or the Tropics? His
 relatives were told that the malady always proved fatal, but that the
-patient might live from three to six months if given deep X‐ray
+patient might live from three to six months if given deep X-ray
 treatment, drugs, and a series of injections. (No mention was made of
 diet, except that liver would be good for the patient.) Mr. P.C.
 accordingly attended at the local infirmary, where he was examined at
@@ -1564,11 +1577,11 @@ name of the disease and the length of time the patient had still to live.
 His blood was tested by the staff pathologist and registered at 556,000
 more white corpuscles than red ones per cubic millimeter.
 That was the position when Mr. P.C. was brought to me, five weeks
-after the disease had been given its polysyllabic and high‐sounding
+after the disease had been given its polysyllabic and high-sounding
 name.
 Mr. P.C. was not an easy patient, and was not prepared to fast without
 interruption as long a period as I considered essential for his grave
-condition, which had been complicated by all the medical X‐ray
+condition, which had been complicated by all the medical X-ray
 treatment he had undergone. However, although he only fasted a week,
 during which he was rubbed with urine by his wife and friends for
 lengthy periods (and, of course, he did not omit the essential part of
@@ -1595,9 +1608,9 @@ report that he consented to further fasts of a week's duration. Thus,
 during the next six weeks he underwent fasts of seven days each. The
 third and final blood test revealed that the blood content was quite
 normal. Soon after the twelve weeks in all of vigorous treatment were
-ended, Mr. P.C. was back at work ‐a well man.
+ended, Mr. P.C. was back at work -a well man.
 Nevertheless, the story has no happy ending. Despite my having
-impressed upon him that his condition had arisen through an ill‐
+impressed upon him that his condition had arisen through an ill-
 balanced "rubbishy" diet, in the course of time (as I afterwards learned)
 he reverted to his old habits of eating just any "mess" he "fancied."
 Although, for two years after his penance and while he kept up rational
@@ -1612,7 +1625,7 @@ Truly, “the way of the transgressor is hard.”
 
 Apropos of Mr. P.C.'s case, I was destined to lose an old school friend
 through the same fatal medical treatment for splenic anaemia. He had
-for some time been undergoing deep X‐ray for this disease, and,
+for some time been undergoing deep X-ray for this disease, and,
 learning of my success with Mr. P.C., had resolved to undergo the fastir
 and urine cure. But it was too late. He died in his own house attended
 to the lest by wellmeaning, but alas, deluded professors of the healing
@@ -1620,15 +1633,17 @@ art, who thought that science was mightier than Nature!
 
 61
 
+## CHAPTER IX. HEART DISEASE: CASES
+
 CHAPTER IX.
 HEART DISEASE: CASES
 
 Although, as Mr. Ellis Barker encouragingly writes, patients with
-valvular disease of the heart can, with care and a well‐balanced diet,
+valvular disease of the heart can, with care and a well-balanced diet,
 live even till 90, yet the disease as such is said to be incurable.
-Nevertheless, by means of urine‐therapy this distressing condition can
-be completely cured. The following case‐history is instructive.
-Mr. P. (middle‐aged). He had not only been under the doctor for a year
+Nevertheless, by means of urine-therapy this distressing condition can
+be completely cured. The following case-history is instructive.
+Mr. P. (middle-aged). He had not only been under the doctor for a year
 suffering from valvular disease of the heart, but was about to undergo
 an evploratory operation for a suspicious lump in the region of the solar
 plexus. Very often he had fainted in the street and had been carried
@@ -1638,10 +1653,10 @@ instructing people what to do when he was overtaken by an attack.
 Latterly he had suffered from these attacks so frequently, that he came
 to be known in the vicinity as "Poor Mr. P." He had been placed cn a
 regime which consisted of his only being allowed one meal per day for
-five days of the week, whilst over week‐ends he was ordered to fast on
+five days of the week, whilst over week-ends he was ordered to fast on
 water only. No exercise was permitted except a short, gentle walk.
 Smoking was prohibited, and as for medicaments, he was only to have
-the drug‐tablets during an actual attack.
+the drug-tablets during an actual attack.
 Such was the position when he came into my hands.
 The first thing I urged him to do was to drink the urine he passed. As I
 expected, this proved to be very odorous and turgid at first, but soon
@@ -1664,30 +1679,30 @@ solar plexus remained; a fact which his doctor cheerfully and
 ungrudgingly admitted. Not once since the day Mr. P. began the
 treatment did he have a heart attack, and so little did he fear a
 recurrence that he consigned his drug tablets to the flames!
-Should it be supposed that I am the only one who practises urine‐
+Should it be supposed that I am the only one who practises urine-
 therapy with success, the following casehistory will serve to contravene
 the assumption.
 Mr. R. Heart disease with dropsy. Feet, legs and abdomen greatly
 swollen. Heart much dilated. Doctor took a very serious view of the
 case, and gave the patient only a month to live. He was then induced to
-try treatment in a well‐known Naturopathic Establishment. The
+try treatment in a well-known Naturopathic Establishment. The
 treatment, however, proved so unsuccessful and the patient was in
 such a critical condition that he was requested to leave; seeing that he
 was expected to die within a fortnight. Mr. R. then heard of the
-courageous Naturopath, Mr. Oliver Warnock‐Fielden, of Harrow who
+courageous Naturopath, Mr. Oliver Warnock-Fielden, of Harrow who
 
 63
 
-eventually cured him with urine‐therapy in six weeks. During the fast
+eventually cured him with urine-therapy in six weeks. During the fast
 his weight was reduced from about 12 to 7 stone 11½ lbs. Mr. R. had
 been a very excessive smoker, and contrary to instructions, smoked to a
-certain extent during the fast ‐ a matter which somewhat delayed
+certain extent during the fast - a matter which somewhat delayed
 progress. Needless to say, his doctor was very surprised at his cure; the
 more so as Mr. R. had thought it s ise not to divulge the modus
 operandi. As things stand at present, many people who do something
 so unconventional as to drink their own urine are afraid to be
 ostracised by Their fears are quite understandable, but society.
-obstructive to the spread of urine‐therapy as a means of helping
+obstructive to the spread of urine-therapy as a means of helping
 suffering humanity.
 I may here add a word to this chapter relative to what has been
 pronounced to be one of the causes of heart disease it modern times,
@@ -1703,15 +1718,15 @@ Hospital Magazine that measures used to check contagious diseases
 may permit of longer (?) life but not of stronger life. "Chronic diseases,
 " he adds, "are growing at such a rate that America may become a
 nation of invalids. More than half the hospitalbeds in the United States
-to‐day are occupied by sufferers from chronic mental and physical
-diseases. Middle‐aged and elderly persons are not the only sufferers;
+to-day are occupied by sufferers from chronic mental and physical
+diseases. Middle-aged and elderly persons are not the only sufferers;
 
 64
 
 many children are victims. " (See Health Practitioners Journal, June,
 1944.)
 One may ask, if sera and vaccines are liable eventually to produce
-heart‐disease and other chronic serious ailments, why then are they
+heart-disease and other chronic serious ailments, why then are they
 boosted by the B.M.A.? For, first of all, as Dr. Alfred Pulford, M.D., has
 tersely remarked: " Any one who can prevent an occurrence positively
 that he does not know is bound to occur is indeed a seventh day
@@ -1726,7 +1741,7 @@ happened. To verify the test, Prof. Emmrich made a culture from the
 intestines of newly dead victims of the disease, and swallowed millions
 of germs, with no noticeable results! To test even more thoroughly, and
 in far more frightful conditions, Dr. Thomas Powell allowed the germs
-of seven deadly (?) diseases to be shot i nto his blood‐stream‐and was
+of seven deadly (?) diseases to be shot i nto his blood-stream-and was
 as alive ten years later as on that day, and as healthy." (Extract from
 Naturopath and Herald of Health) Nevertheless these facts are not
 made known to the general public, nor do those who urge members of
@@ -1737,6 +1752,8 @@ afflictions, not the least of which is heart disease.
 
 65
 
+## CHAPTER X. FEVERS: MALARIA AND OTHERS
+
 CHAPTER X.
 FEVERS: MALARIA AND OTHERS
 Case of a mysterious fever, which occurs in Africa but is rare in England.
@@ -1744,14 +1761,14 @@ Case of a mysterious fever, which occurs in Africa but is rare in England.
 Patient, young lady of 17. Mysteriously stricken. Very weak.
 Temperature 105. M.D. called in said if recovery took place at all, the
 victim would be ill for six months and then would be nine months
-convalescent. Patient's father‐a believer in urine‐therapy‐sent for me.
+convalescent. Patient's father-a believer in urine-therapy-sent for me.
 At first I found the victim difficult to deal with, but she finally consented
-to a urine‐fast plus plain water. On the sixth day after she had been
+to a urine-fast plus plain water. On the sixth day after she had been
 stricken, her temperature was still 105, and she was growing rapidly
-emaciated, her urine being thick, foul and concentrated. But twenty‐
+emaciated, her urine being thick, foul and concentrated. But twenty-
 four hours after starting my treatment the temperature had dropped to
 101 and the urine was clearer. In three days the temperature was down
-to 97, and in five days to 95. Patient bright and lively‐all was going well.
+to 97, and in five days to 95. Patient bright and lively-all was going well.
 Doctor much puzzled. Fast was broken at the end of 18 days. The
 patient's skin was as clear as that of a child. Within a few days of
 breaking the fast she was up and doing and feeling perfectly well. She
@@ -1768,16 +1785,16 @@ the paroxysms the victim appears comparatively well. According to
 Materia Medica all forms of malaria are due to parasites living in the
 blood. Mosquitoes are infected by sucking human blood and in turn
 infect human beings by biting them. The troublesome and distressing
-feature of malaria‐which the allopaths treat (suppress) with quinine‐is
+feature of malaria-which the allopaths treat (suppress) with quinine-is
 that when once contracted it occurs again and again, for under the
 usual orthodox treatment it merely goes into latency instead of being
-totally eradicated. Under urine‐therapy, however, it is cured once and
+totally eradicated. Under urine-therapy, however, it is cured once and
 for all. So far I have never had a case which did not clear up in 10 days
 or less by dint of fasting on urine and plain water.
 Mr. Q. Athletic type. Very temperate and a small eater. Contracted
 malaria out East. 'Had it for three years. During the year before I saw
-him in 1920 had suffered from thirty‐six attacks. He dosed himself
-regularly with quinine. Finally cured himself completely with a urine‐
+him in 1920 had suffered from thirty-six attacks. He dosed himself
+regularly with quinine. Finally cured himself completely with a urine-
 fast lasting ten days. No more quinine. Has never had another attack,
 and has kept in fine health by adhering to his temperate habits and
 freely partaking of the "water of life. "
@@ -1786,7 +1803,7 @@ Case related to me by the erstwhile victim. Army man (Major) found by
 natives in the backwoods to be in a state of delirium due to blackwater
 fever. They cured him by fasting him for 10 days, by the applyin f packs
 and by inducing him to take his own urine, and plain water. I mention
-this to stress that I am not the discoverer of urine‐therapy.
+this to stress that I am not the discoverer of urine-therapy.
 In this chapter I have limited myself to reciting only one case history of
 the various fevers mentioned, merely because to do otherwise would
 be to enlarge the bulk of this book to unwieldly proportions. I will now
@@ -1799,38 +1816,40 @@ When doctors try to bring down a patient's temperature by unnatural
 means, they are frustrating Nature and may be endangering the
 patient's life, or at best laying up seeds for future troubles. A fever is
 really a curative process on the part of Nature to burn up certain toxins
-in the body. Oh yes, we hear of the "miraculous" ternperature‐reducing
+in the body. Oh yes, we hear of the "miraculous" ternperature-reducing
 effects of wonder drugs for pneumonia, but we do not hear so much of
-the many people who die of heart‐trouble after the fever has been thus
+the many people who die of heart-trouble after the fever has been thus
 miraculously cured! Experience has taught me that there is only one
 safe way to treat a fever, which, being a curative process, is neither
 incurable nor need prove fatal if rightly handled. The modus operandi
 will by now have become so familiar to the reader that it need not be
 repeated here. I need merely say that not only have I never seen a
-failure with the urine‐fast plus tap water therapy (all the urine passed
+failure with the urine-fast plus tap water therapy (all the urine passed
 should be drunk) but that the fall of temperature has taken place withir
 any time from 36 to 72 hours, followed by complete recovery within a
 few days.
 As to why the urine is so thick, foul and scanty in cases of fever, that is
-not the result of the fever itself but of the condition in the body‐the ill
+not the result of the fever itself but of the condition in the body-the ill
 forces so to saywhich cause the fever. The state of the urine is the
 result of the loss of valuable salts, tissues, etc., from the body, and
-largely explains the great weakness of the patient, his light‐headedness,
+largely explains the great weakness of the patient, his light-headedness,
 rambling, nightmares and so on; it also explains the long convalescence
-and bad after‐effects in the case of patients who have been treated in
+and bad after-effects in the case of patients who have been treated in
 the orthodox suppressive manner. The rational method of avoiding all
-this is urine‐therapy so that the lost tissue may be replaced. I have
+this is urine-therapy so that the lost tissue may be replaced. I have
 
 68
 
 proved it again and again to be successfully accomplished in diphtheria,
 chickenpox, scarlet fever, influenza, rheumatic fever, and other acute
 disorders where the temperature is high; and there have been none of
-those baneful and chronic after‐effects which so often accrue after
-wrongly treated scarlet‐fever or rheumatic fever; all of which are due to
+those baneful and chronic after-effects which so often accrue after
+wrongly treated scarlet-fever or rheumatic fever; all of which are due to
 suppressive measures.
 
 69
+
+## CHAPTER XI. A CASE OF ORCHITIS
 
 CHAPTER XI.
 A CASE OF ORCHITIS
@@ -1841,7 +1860,7 @@ gonorrhoea, or it may occur during an attack of mumps. In its most
 severe form, however, it is a comparatively rare disorder in this country
 (England). The doctor who was called in took a very serious view of this
 case, and gave the victim only a few days to live. When, after a journey
-away from home, I first saw the victim ‐ aged 19 ‐ his bowels had not
+away from home, I first saw the victim - aged 19 - his bowels had not
 functioned for a week, and his kidneys for 72 hours. One side of his
 body was swollen as though someone had placed half a football under
 the flesh. His testicles were as large as tennis balls, and the glans penis
@@ -1853,11 +1872,11 @@ and distortions had only increased, As he had passed no urine of his
 own to drink, I was obliged to give him a pint of mine to take.
 Two hours after the first draught, the glans penis showed signs of
 becoming so far normal that he was able to pass some urine in small
-drops ‐ about two egg‐cups full in all. It was thick, muddy and as
+drops - about two egg-cups full in all. It was thick, muddy and as
 concentrated as gruel mixed with blood., very dark and exceedingly
 malodourous. Nevertheless he drank it without a grimace or a murmur.
-Four hours later he passed nearly a pint of the same evil‐looking and
-evil‐smelling water; which he also drank without a grimace. He
+Four hours later he passed nearly a pint of the same evil-looking and
+evil-smelling water; which he also drank without a grimace. He
 
 70
 
@@ -1879,7 +1898,7 @@ treatment and worked freely and painlessly, the evacuations being not
 unlike discoloured water.
 On the 4th day he passed 22 pints of urine in 24 hours; all of which he
 drank immediately.
-And now came a set‐back. On the fifth day I was called to Manchester
+And now came a set-back. On the fifth day I was called to Manchester
 on business, and in my absence a friendly doctor induced him to take a
 tablespoon of ground wheat in water. The result was disastrous. All
 flow of urine ceased, and in 16 hours all the previous symptoms had
@@ -1893,9 +1912,9 @@ orange at noon, one whole orange at 2 p.m. and one whole orange at 4
 p.m. At 8 p.m. a full glass of fresh milk. He slept soundly that night.
 From the 18th to the 25th day his diet consisted of such foods as cold
 beef, steamed fish, potatoes in their jackets, scrambled and poached
-eggs, pears and other fresh fruits, salads, tomatoes‐and nothing else.
+eggs, pears and other fresh fruits, salads, tomatoes-and nothing else.
 On the 26th day the patient was.back at his work, completely cured.
-That was many years ago. He is now a man of forty, lives on a well‐
+That was many years ago. He is now a man of forty, lives on a well-
 balanced diet, drinks his own " water of life, " and enjoys perfect health.
 I may mention that the late Dr. Rabagliati was so impressed with this
 case that he wrote a detailed account of it which was sent to four
@@ -1909,17 +1928,19 @@ progress and medical enlightenment, a matter which was recognised by
 the Health Practitioners' Association. Indeed, in the Health
 Practitioners' Journal, we find articles by homoeopaths, naturopaths,
 herbalists, osteopaths, yoga practitioners, biologists, biochemists, etc.,
-etc. ‐the laudable belief being that there are many roads to health and
+etc. -the laudable belief being that there are many roads to health and
 many means of treating disease.
 
 72
+
+## CHAPTER XII. VENEREAL DISEASES
 
 CHAPTER XII.
 VENEREAL DISEASES
 
 Drs. Bosanquet and Eyre in their book entitled Serums, Vaccines and
 Toxins were constrained to admit: "It cannot be denied that in a certain
-number of instances the injection of diphtherial anti‐toxin has been
+number of instances the injection of diphtherial anti-toxin has been
 followed by death directly attributable to the action of the serum." One
 of these tragedies, the earliest and perhaps the saddest befell Dr.
 Langenhans of Berlin Because one of his servants developed diphtheria,
@@ -1929,7 +1950,7 @@ dead. The irony of it is that there was not the slightest evidence to
 prove that the child would ever have contracted the disease, seeing
 that diphtheria germs may be found in a number of quite healthy
 throats, and in such an environment are as harmless as are many
-another supposed‐to‐be deadly germs. But, alas it is not merely
+another supposed-to-be deadly germs. But, alas it is not merely
 injections for diphtheria that have proved fatal, for hundreds of deaths,
 many of them instantaneous, resulted from the use of salvarsan,
 otherwise called "606" in the treatment of syphilis. Nevertheless, just
@@ -1948,20 +1969,20 @@ hesitating, slurred and tremulous. The face muscles and tongue show
 paresis with tremor… Later the muscular powers become gradually
 weakened until there is more or, less general paralysis” (Dr.EH Ruddock,
 M.D.) This is a most unpleasant and saddening picture. Yet I suggest
-that the horrible after‐effects of venereal disease are the result of
+that the horrible after-effects of venereal disease are the result of
 suppressive treatment. What after all is syphilis? It is simply the result
 of a poison which is absorbed into the body, and hence the rational
 treatment is to get that poison out of the body.
 As the Medical Profession reserves the right to treat venereal diseases,
 and has its clinics for that purpose, I as a layman, or a naturopath as I
 am sometimes called, am prohibited from treating it. All the same there
-are men, who having heard of urine‐therapy through the late Mr.
+are men, who having heard of urine-therapy through the late Mr.
 Baxter's pamphlets (mentioned in Chapter 11) and through other
 channels, have set about treating themselves.
 I will here give the case of a man who contracted venereal disease in
 France during the last war (1918). He had, by the way, suffered for
 some time from psoriasis, which he had suppressed with herbal
-ointments. This man, then still young, knew something about Nature‐
+ointments. This man, then still young, knew something about Nature-
 cure methods and had endeavoured to treat his venereal disease by
 subsirtting for a time entirely on cold water in the hope of "starving it
 out." At the end of an 11 days' fast, however, his symptoms, far from
@@ -1974,7 +1995,7 @@ end of ten days every sign of the venereal disease had vanished, and
 74
 
 the psoriasis had greatly improved. Nevertheless, he decided to
-continue the urine‐fast until all traces of the skin complaint had
+continue the urine-fast until all traces of the skin complaint had
 disappeared. This eventuated in one more week, and he found himself
 free of all his troubles. And not only that, but he also found that his
 sight, hearing, senses of taste and smell had become more acute than
@@ -1987,7 +2008,7 @@ may attend these clinics, notabilities; particularly in the smaller towns,
 prefer to be treated by their own doctors, as they feel a certain
 embarrassment 'at showing themselves in a place where they may be
 recognised. In any event, the grave question one asks oneself i s: What
-will be the after‐effects of there injections? It i s one thing to treat tLe
+will be the after-effects of there injections? It i s one thing to treat tLe
 disease, but that is not the same as permanently curing the patient.
 Wrote Dr. W. H. White, M.D., of Orthodoxy: " Medicine ignores the i
 ndividual `wholeness and treats the disease as a separate entity." Thus
@@ -1996,23 +2017,23 @@ rheumatism to syphilis: but as the homoeopath points out, what the
 allopath calls rheumatism may come from twenty different causes
 (were he to say from twenty different secondary causes, this would
 more approximate to the truth) hence the name of the disease is of
-really no importance. Regarded from my particular‐ point of view, I
+really no importance. Regarded from my particular- point of view, I
 would even add "nor how it has been contracted" for the method of
 cure, as I have shown, is the same.
 
 75
 
 To revert to the case of venereal disease I have cited. If the young main
-in question had employed urine‐therapy from the first instead of trying
-to treat it with what are termed nature‐cure methods, I am convinced
+in question had employed urine-therapy from the first instead of trying
+to treat it with what are termed nature-cure methods, I am convinced
 that it would have been cured far sooner. From what I have been able
-to gather frcm others who have tried urine‐therapy on their own, I have
+to gather frcm others who have tried urine-therapy on their own, I have
 good reason to believe that where venereal disease has been taken in
 its initial stage, or di'ring the Prst week, cures have been effected
 anywhere from between 48 to 96 hours; that is provided it has not
 been complicated by the usual treatment. But of course as it is illegal
-for me to treat this age‐old affliction I am i n no position to furnish
-case‐histories. Still, to exclude from these pages mention of such
+for me to treat this age-old affliction I am i n no position to furnish
+case-histories. Still, to exclude from these pages mention of such
 diseases as the Medical Profession reserve the right to treat by their
 own methods would be to leave my task only half fulfilled. Considering
 that "a proportion of all the blind, the deaf, the mentally deficient and
@@ -2023,7 +2044,7 @@ doctors can make use of it if they wish. What we have to remember is
 that measures employed for treating venereal diseases, as most others
 also, have their day, are found perhaps to be unsatisfactory, and then
 are superceded by other methods. Although it is doubtful whether the
-clinics will be prepared to try urine‐therapy, there may be some private
+clinics will be prepared to try urine-therapy, there may be some private
 doctors who may be willing to give it a trial. Time alone can show. I may
 add, by the way, that although doctors do not realise the full value of
 urine, there are those who have pointed out that if only men would
@@ -2037,17 +2058,19 @@ antiseptic properties.
 
 77
 
+## CHAPTER XIII. THE CURE OF WOUNDS WHICH WOULD NOT HEAL: THE TREATMENT OF BURNS.
+
 CHAPTER XIII.
 THE CURE OF WOUNDS WHICH WOULD NOT HEAL:
 THE TREATMENT OF BURNS.
 
-I was destined to prove the value of urine‐therapy in the treatment of
+I was destined to prove the value of urine-therapy in the treatment of
 wounds, when some years ago through an accident I suffered a grave
-laceration and injury to my toes, ankle and foot. The toe‐nails were torn
+laceration and injury to my toes, ankle and foot. The toe-nails were torn
 off and the toes forced back into the fleshy part of the foot. Naturally
 the shock and pain were very severe. All the same I rejected the help of
 a medical friend, as I was resolved once again to prove the effects of
-urine‐treatment on wounds.
+urine-treatment on wounds.
 After having the damaged portions of my foot put into place by some
 Physical Culture practitioners who had witnessed the accident, I fasted
 four days for the shock (an approved method) and applied cloths
@@ -2067,10 +2090,10 @@ seriously discussed as the only remaining course to pursue.
 From among the large number of cases I have treated. I will now give
 the history of a particularly bad one, which came under my care in 1918.
 In that year, I was introduced to a man in the early forties who at the
-time was attending the local Infirmary as an out‐patient every week for
-a bullet‐wound in the fore‐arm. Although the patient had received the
+time was attending the local Infirmary as an out-patient every week for
+a bullet-wound in the fore-arm. Although the patient had received the
 wound a year previously, it had shown no signs of healing, was about
-10 inches in length, about three‐eights of an inch in width, and at times
+10 inches in length, about three-eights of an inch in width, and at times
 ulcerous and suppurating. His medical advisers were afraid it might
 ultimately turn gangrenous, to avoid which, poisonous ointments and
 dressings were applied, with many changes in the ingredients and
@@ -2083,14 +2106,14 @@ My assistants first set about ripping off all the dressings. Then we
 washed the wounded arm three times a day with old urine, giving the
 rest of the body lengthy periods of massage with the bare hands and
 the same species of urine. The patient was fasted for three days on his
-own urine plus cold water, short spells of sunbathing were advocated‐
+own urine plus cold water, short spells of sunbathing were advocated-
 and at the end of seven more days nothing remained of the fissure but
 a very slight scar as thin as a gold thread. In short, after a whole year's
 "interference treatment" the patient was cured by Nature in ten days!
 Since the date of this cure I have observed scores of cases of
 "miraculous" healing by identically the same method; these include the
-healing of painful and disabling wounds, cuts, sores, ill‐effects from
-rusty nails, fishbones, etc., also poisonous wounds and blood‐poisoning
+healing of painful and disabling wounds, cuts, sores, ill-effects from
+rusty nails, fishbones, etc., also poisonous wounds and blood-poisoning
 
 79
 
@@ -2098,15 +2121,15 @@ generally. As a rule a long penance was not required. Cases taken early
 have responded to three or four days' treatment, whilst those which
 have been medically interfered with and almost rendered gangrenous
 have taken from ten to eighteen days.
-With regard to burns, one reads that in a given year 7,900 Americans‐
+With regard to burns, one reads that in a given year 7,900 Americans-
 almost half the Lumber of which were children under five, died of burns.
 (Or did they die of the treatment or of both combined?) As to
 thousands of Americans who survived the effects of burns they were
 destined to suffer from unsightly scars, tight puckered skin, stiffened
 limbs or useless limbs and fingers.
 For years the standby among remedies for burns was the application of
-wet tea‐leaves. Then in 1925, Dr. Davidson of Detroit placed the old
-wives' remedy on a quasi scientific basis. Instead of the boiled tea‐
+wet tea-leaves. Then in 1925, Dr. Davidson of Detroit placed the old
+wives' remedy on a quasi scientific basis. Instead of the boiled tea-
 leaves, he applied the element derived therefrom which as we all know
 is called tannic acid. This poisonous substance literally tans the tissues,
 and a thick, hard crust then forms over the exposed nerve ends. But
@@ -2115,8 +2138,8 @@ fluids to the parts, the while it acts as a covering under which it is
 hoped that new skin may form. Unfortunately, however, the tannic acid
 not only "tans" the burned tissues, but also the surrounding healthy
 tissues, with the result that it destroys cells which ought to be providing
-new cells for the knitting together of the skin elements‐if I may thus
-express ‐ it for the benefit of the lay mind. The final outcome is a
+new cells for the knitting together of the skin elements-if I may thus
+express - it for the benefit of the lay mind. The final outcome is a
 disfiguring scar, which is preventable by natural methods as opposed to
 "scientific" ones. Tannic acid is not even bacterial, for if foreign matter
 lurks on the burned surface, the function of the microscopic scavengers,
@@ -2128,8 +2151,8 @@ persist under the supposedly protective crust. In the attempt to kill
 germs, we merely manacle the policeman!
 The tannic acid treatment of burns was superceded by the picric acid
 treatment, and also the acriflavine treatment. Then the surgeons tried
-their methods; they took skin from another part of the body‐usually the
-buttocks ‐ and grafted it onto the burnt portions. But unfortunately, it
+their methods; they took skin from another part of the body-usually the
+buttocks - and grafted it onto the burnt portions. But unfortunately, it
 sometimes occurred that the wou.id left by the removal of the healthy
 tissue turned septic. As to the suffering for the patient which this
 method entails, it can be better imagined than described. Not that I
@@ -2138,11 +2161,11 @@ from war it is necessary. But I am constrained to say that surgery has
 greatly been abused, and continues to be abused, and thousands of
 unneeded operations are performed on organs which could be treated
 by natural methods.
-Nevertheless, some doctors have been broad‐minded and enterprising
-enough to try urine‐therapy, as witness the following extract from a
+Nevertheless, some doctors have been broad-minded and enterprising
+enough to try urine-therapy, as witness the following extract from a
 letter to me in 1935 by Dr. Geo. S. Cotton of Temple, Texas, U.S.A.
  Since receiving your literature some months ago, I have put it
-(urine‐therapy) to the test and the results have been astonishing. Urine
+(urine-therapy) to the test and the results have been astonishing. Urine
 in the treatment of wounds, etc., cannot be beaten. This healing power
 is brought about among other elements contained in urine, by
 'Allontain' (C4.H6,03.N4).
@@ -2153,10 +2176,12 @@ humanity…
 
 81
 
+## CHAPTER XIV. SOME MISCELLANEOUS CASES.
+
 CHAPTER XIV.
 SOME MISCELLANEOUS CASES.
 
-Enuresis nocturna (bed‐wetting). Sometimes this is merely a bad habit,
+Enuresis nocturna (bed-wetting). Sometimes this is merely a bad habit,
 but more generally it is a morbid symptom in nervous and anaemic
 children. Weakness is the principal cause, although it may also be due
 to worms. Children are supposed to grow out of this distressing
@@ -2184,20 +2209,20 @@ catarrh, and an increasing tendency to deafness.
 
 Nephritis with other distressing symptoms. Young woman. Had been in
 the care of two doctors for some weeks, and had also seen a specialist,
-who‐told her mother that the case was a hopeless one, and that in all
+who-told her mother that the case was a hopeless one, and that in all
 probability this particular victim would not live to see the approaching
 Christmas. The young woman was then brought to me. To encourage
 her and induce her to take the offensive looking urine she passed, I
-even went so far as to drink a little of‐it myself. After a fast of 30 days
+even went so far as to drink a little of-it myself. After a fast of 30 days
 on urine and cold water only, and daily rubbings with healthy urine, the
 patient was cured of her grievous complaint. Nor did any other malady
 develop subsequently. When I first saw her she had weighed 106 lbs.;
-four months later on a regime of two well‐balanced meals a day, and
+four months later on a regime of two well-balanced meals a day, and
 the continued use internally and externally of her own urine, she
 weighed 136 lbs nude, which is the normal weight for a woman of her
 height and build.
 Mucus Colitis. Boy of 6, began to discharge mucus frequently, though
-otherwise there were no apparent symptoms of ill‐health. The doctor,
+otherwise there were no apparent symptoms of ill-health. The doctor,
 when sent for, said the trouble was prevalent, and prescribed castor oil.
 But the boy's father, who knew me and my methods, thinking a castor
 oil purge too violent, sent for me as soon as the doctor had gone. I put
@@ -2213,7 +2238,7 @@ sooner. It is worthy of note that all three patients were strict
 
 vegetarians, and that the boy had never tasted flesh in his young life. I
 advised them to include some flesh food in their dietary.
-Eye Injury. In 1920 a lady came to me with a splinter of chip‐wood in
+Eye Injury. In 1920 a lady came to me with a splinter of chip-wood in
 one eye. The splinter had pierced the iris and was sticking out an inch
 or more. I removed the splinter, fasted the patient on urine and water
 for a few weeks, at the end of which time the trouble was completely
@@ -2224,7 +2249,7 @@ During and between the fasts, had rubbings of his own urine in spells of
 an hour three times a day. Complete cure. He continued the intake of
 urine as a daily habit, and ten years later, though three score years and
 ten, only looked about 56. I regard psoriasis and eczema as amongst
-the easiest diseases to cure by means of urine‐therapy; that is provided
+the easiest diseases to cure by means of urine-therapy; that is provided
 they are taken in time. Nor is lupus, a more serious skin disease and
 said to be caused by the tubercle bacillus, by any means incurable,
 though the treatment takes longer.
@@ -2240,7 +2265,7 @@ Having heard of urinetherapy, without telling his dentist, he took half a
 
 84
 
-pint of his urine every morning and also urine as a mouth‐wash. In nine
+pint of his urine every morning and also urine as a mouth-wash. In nine
 weeks his trouble had completely disappeared, much to the surprise. of
 his dentist, who wished to know what had caused such a marked
 improvement in his general health as to cure pyorrhoea. This cure was
@@ -2249,9 +2274,9 @@ The notion that pyorrhoea is a local disease for which one must have all
 the teeth extracted is a fallacy. There is no such thing as a local disease;
 there are only localised symptoms. Cleanse the body of its impurities by
 a fast on urine and plain water, and pyorrhoea vanishes automatically. I
-have observed this in numerous cases ‐ in fact, in all cases I have ever
-treated. As for myself, I never require to visit a dentist; a well‐balanced
-diet and urine‐therapy have preserved my teeth.
+have observed this in numerous cases - in fact, in all cases I have ever
+treated. As for myself, I never require to visit a dentist; a well-balanced
+diet and urine-therapy have preserved my teeth.
 Obesity. Married lady, aged 30, weighed 12 stone Lived on the usual ill6
 lbs. Had no children, balanced diet, but was not a glutton, masticated
 her food, and drank only water, after or between meals. Previously she
@@ -2269,7 +2294,7 @@ table, but from badly functioning glands caused by toxins and a
 
 85
 
-deficiency of the required elements which should be derived from non‐
+deficiency of the required elements which should be derived from non-
 processed foods. The fast cleanses the blood tissues, and the intake of
 urine brings back normality to the disordered glands. I have
 conclusively proved this by the large number of cases of obesity I have
@@ -2291,7 +2316,7 @@ Bronchial Asthma. Miss C. Doctor had diagnosed the case as bronchial
 catarrh; the victim said to be in the early stages of T.B. General health
 very poor. Breathing difficult. Victim had to resort to palliatives to
 obtain ease and short periods of much needed sleep. Felt very weak
-and debilitated. Heard of urine‐therapy. Fasted for a fortnight on urine,
+and debilitated. Heard of urine-therapy. Fasted for a fortnight on urine,
 but without the rubbings. In three days the improvement was so
 marked *hat she was able to breathe freely and sleep each nignt for
 several hours on end. Broke fast, took two meals a day only, and
@@ -2306,9 +2331,9 @@ gave her a diet to be followed between the fasts. The final result was a
 complete cure, and the patient has remained in excellent health. She
 continues ' to take her own urine daily, and from time to time resorts to
 short fasts, with the result that she feels better than she has ever done.
-Case of gangrene and after‐effects of drug‐treatment for thyroid
+Case of gangrene and after-effects of drug-treatment for thyroid
 trouble.
-(Reported by the Naturopath, Mr. 0. Warnock‐ . Fielden.) Lady aged 40.
+(Reported by the Naturopath, Mr. 0. Warnock- . Fielden.) Lady aged 40.
 Long history of drug treatment since she was 15. In early life she had
 had injections during a number of years for over active thyroid, and
 also for colds. More recently she had had an operation with a view to
@@ -2316,15 +2341,15 @@ improving the circulation, seeing that when the weather was cold, and
 even at other times, her hands would go blue. No improvement was
 noticed after the operation. Before I was called in, the local doctor had
 retired from the case, pronouncing it to be hopeless. I found her hands
-a ‐mass of pus, moist gangrene, and almost skinless. The necessity for
+a -mass of pus, moist gangrene, and almost skinless. The necessity for
 amputation of both hands had been mooted and feared. After making a
 start with less severe measures such as hot fomentations, cold
-compresses, urine‐packs, urine drinking in small quantities, and an
+compresses, urine-packs, urine drinking in small quantities, and an
 antiseptic ointment to relieve the intense " drawing " pains, I finally
 advocated a complete fast on urine and plain water only, at the same
 time continuing the packs. The fast lasted three weeks, but even after a
 fortnight, the patient could use her hands and could knit. Granted that
-the urine‐drinking and the urine‐dressings were of much value to the
+the urine-drinking and the urine-dressings were of much value to the
 
 87
 
@@ -2340,11 +2365,11 @@ measures.
 Large wart on face. Mrs. C. reports that she employed the same
 treatment for an unsightly excrescence on her face, which in a short
 time shrivelled up and then fell away, leaving no scar. (All three of
-these cases were supplied by Mr. Warnock‐Fielden.)
+these cases were supplied by Mr. Warnock-Fielden.)
 Lump on arm. A correspondent reports the case of a lady who
 developed a nasty blue looking lump about j inch high, which she
 feared might become malignant. She was advised by an acquaintance
-to treat it with urine‐compresses, and in less than three weeks it fell off,
+to treat it with urine-compresses, and in less than three weeks it fell off,
 leaving the skin healthy and clean.
 A mysterious case. Male patient about 58. Had been in the hospital for
 several weeks for observation and treatment, but at the end of the
@@ -2357,7 +2382,7 @@ as from the powerful drug (poison) he was being given. I noticed that
 
 88
 
-his eye‐balls were much distended, that he was thin, but not to the
+his eye-balls were much distended, that he was thin, but not to the
 extent of emaciation. He told me he had been a careful eater, a hard
 outdoor worker, had kept regular hours, had never been subject to
 colds, had never been bilious or constipated and had never had
@@ -2368,22 +2393,22 @@ water and every drop of urine that he passed both day and night. I also
 told him (and his wife) not to be surprised at any symptoms which
 might occur in the process of elimination. His stools and ejecta were to
 be kept for my inspection. Three days later I called again, to be shown
-two large buckets full of the foul matter he had vomited‐the vomiting
+two large buckets full of the foul matter he had vomited-the vomiting
 having started 24 hours after he had taken his first draught of urine.
 There had also been great looseness of the bowels, and much catarrhal
 discharge from the nose. In fact he had been obliged to use a dozen
 handkerchiefs, which were not only soiled with ropy mucus but also
 with SNUFF ! The fast was continued, and in a week all discharge
-ceased. The penance was broken in 10 days‐and the patient was cured.
+ceased. The penance was broken in 10 days-and the patient was cured.
 At the time of writing he is over 70. This case is interesting as it serves
-to show that with urine‐therapy it is quite unnecessary to know the
+to show that with urine-therapy it is quite unnecessary to know the
 name of the disease in order to treat it. It is further interesting as
-showing that a foreign substance‐snuff in this case‐may be lodged in
+showing that a foreign substance-snuff in this case-may be lodged in
 the tissues for months after the taking of it has been discontinued, only
-to be eliminated during a body‐cleansing fast. Which reminds me that
+to be eliminated during a body-cleansing fast. Which reminds me that
 the eminent German naturopath, Louis Kuhne, relates of a case where
 during the eliminative treatment the sweat of the patient had smelt of
-drugs the allopaths had previously used to cure‐or rather‐suppress the
+drugs the allopaths had previously used to cure-or rather-suppress the
 disease. (See his New Science of Healing.)
 
 89
@@ -2391,8 +2416,8 @@ disease. (See his New Science of Healing.)
 Jaundice. It must be remembered that jaundice is merely a symptom of
 some chronic or acute affection of the liver and is not a disease in itself.
 My first and most difficult case where a jaundiced condition obtained
-was in 1919, at the beginning of my career as a urine‐therapist. This
-case took 10 days to clear up on a urine‐fast plus tap‐water.
+was in 1919, at the beginning of my career as a urine-therapist. This
+case took 10 days to clear up on a urine-fast plus tap-water.
 I have not had a number of jaundice cases; but with those I have
 treated it has been remarkable to watch the discolouration of the skin
 gradually disappear during the first two or three days of the fast, and
@@ -2403,9 +2428,9 @@ been due to cancer of the liver. This dread disease I regard as
 practically hopeless by whatever means it is treated. Even biochemic
 practitioners, who have claimed to cure some cases of cancer, maintain
 that if the liver is involved, nothing can be done. Nevertheless I once
-supervised a urine‐fast in the case of a man who had been such a heavy
+supervised a urine-fast in the case of a man who had been such a heavy
 drinker that over a period of years he had drunk a whole bottle of
-spirits per diem. This man decided to try a urine‐fast while his doctor
+spirits per diem. This man decided to try a urine-fast while his doctor
 was away on holiday. He drank all the urine he voided, but on the tenth
 day it remained as bloody and as full of red sandy deposit as it was at
 the beginning of the penance. On the day in question the doctor
@@ -2426,20 +2451,20 @@ aged 60. Medical verdict, "a few weeks to live." Had had two paralytic
 seizures, the first occurring after an attempt to get rid of influenza by
 means of fresh fruit and fruit juices. After the second seizure he had no
 memory, and appeared to be in his dotage, though only 60. He
-underwent a urine‐fast with rubbings, for 59 days, broke the spell for a
+underwent a urine-fast with rubbings, for 59 days, broke the spell for a
 fortnight, living on the one meal a day plan, then fasted further for
 another 35 days. Memory and his speech returned in 20 days during
 the first fast, and the cure was completed during the second, the prime
 cause of the trouble having been an arthritic condition.
 Loss of hair. This same man who had lost his hair, not only regained it
-during the second fast‐his head was rubbed daily‐but instead of being
+during the second fast-his head was rubbed daily-but instead of being
 grey it assumed its original color… Many of my correspondents, I may
 add, report renewal of hair as the result of rubbing the head with old
 urine as a daily habit.
 Reports from correspondents on influenza, pneumonia, pleurisy and
 appendicitis.
 These reports show that as a general rule from three to eight days'
-urine‐fast suffices to cure influenza, pneumonia and pleurisy. The same
+urine-fast suffices to cure influenza, pneumonia and pleurisy. The same
 can be said of appendicitis. In some cases of the latter, one small meal a
 day has been allowed, though all the urine passed must be taken. In
 severe acute cases with fever, a complete urinefast is essential.
@@ -2452,7 +2477,7 @@ medical folly. To an invalid whose instincts and organs rebel against
 taking nourishment, food acts like a poison.
 Cataract. Before it became illegal for laymen to mention the fact that
 cataract may yield to treatment without operation, I found that in many
-cases, 10 days' urine‐fast was sufficient to dissolve the film that forms
+cases, 10 days' urine-fast was sufficient to dissolve the film that forms
 over the eye. The longest required was a 28 days' fast. Whether it is
 against the now existing law for any layman to say that he has cured
 cataract before the law was passed, is a subtle point on which I am not
@@ -2468,7 +2493,7 @@ Glaucoma. This, according to orthodox Medicine and even to naturop ,;
 thy, is a very serious condition. Oculists perform an operation, but in
 many cases the. patient sooner or later merely goes blind. In any event,
 mutilation can never be termed a cure. Patients who have no been
-tampered with, I have known to respond well on urine‐fast of about a
+tampered with, I have known to respond well on urine-fast of about a
 month's duration. As against that cases which have been surgically
 interfered with must a: a general rule be considered practically
 hopeless.
@@ -2481,13 +2506,13 @@ were the blood and (body free from acidity and foreign matter, the
 weather or changes of weather would have, no effect.
 With regard to the cure for rheumatism (of which some doctors say
 there are 26 different kinds) I hav found chat patients always respond
-well to a urine‐fa,, of from 10 to 12 days, or even less in simple cases.
-Th fast must be attended with the urine‐rubbings and urine packs. After
+well to a urine-fa,, of from 10 to 12 days, or even less in simple cases.
+Th fast must be attended with the urine-rubbings and urine packs. After
 the cure, revision of diet to a well balance regime is essential to avoid
 recurrence. Many cases hai even responded to the one meal a day plan
 (the foe must be carefully chosen, alcohol and condimen avoided) plus
-the taking of autogenous urine, the urin rubbings, and uane‐packs. Such
-cases, if of not too long‐standing and severe, have usually cleared up
+the taking of autogenous urine, the urin rubbings, and uane-packs. Such
+cases, if of not too long-standing and severe, have usually cleared up
 within a few weeks.
 Arthritis. This painful and distressing condition is about as far removed
 from rheumatism as a severe attack of influenza from a slight cold, and
@@ -2498,16 +2523,16 @@ on a very carefully selected diet, the taking of every drop of urine
 passed, and long daily rubbings with urine. (These were cases where
 the patients had objected to or had not found it feasible to fast.)
 Nevertheless, I regard such treatment as only half measures, and
-maintain that a complete urine‐fast of even 10 days does far more to
+maintain that a complete urine-fast of even 10 days does far more to
 help the victims than months of mere dieting and the taking of urine.
-But I must emphasis that where the trouble has become deep‐seated,
+But I must emphasis that where the trouble has become deep-seated,
 
 93
 
 and the victim is practically crippled, there is little prospect of obtaining
 a cure.
 I will now add a few cases kindly supplied by the naturopath Mr. Oliver
-Warnock‐Fielden
+Warnock-Fielden
 “Bronchial Asthma. Mr. D.E., age 37. Discharged from the Navy for
 Bronchial Asthma, from which he had suffered since the age of 14. The
 sea life seemed to make the trouble worse. Disturbed each night at
@@ -2526,7 +2551,7 @@ out and tested his breathing by walking up a hill. Experiencingg no
 difficulty he immediately returned to work."
 "Diseased Kidney. Mr. G.D. In May, 1944, he was in hospital for the
 removal of his right kidney. He had suffered great pain, the urine was
-the colour of blood, and the X‐ray had shown a large stone lodged in
+the colour of blood, and the X-ray had shown a large stone lodged in
 the pelvis of the kidney. The surgeon's opinion was that the kidney was
 diseased and not to remove it would be a danger to life. However, Mr.
 D. refused the operation and came to me. He took to urine drinking
@@ -2544,11 +2569,11 @@ also was cured by the same method.
 In cases such as these one must accept the verdict of the examining
 surgeons and the radiologist who in both instances were pressing for an
 operation as the only means of relief, or even of saving life. When later
-on they maintain that there is nothing at all wrong, and the X‐ray gives
+on they maintain that there is nothing at all wrong, and the X-ray gives
 a clear proof of a healthy kidney, one is forced to assume that the
 fasting and. urine drinking has effected the cure."
 To conclude this chapter I may append one or two suggestions made by
-my friend Mr. 0. Warnock‐Fielden as to how urine cures, although I may
+my friend Mr. 0. Warnock-Fielden as to how urine cures, although I may
 not altogether share his views. He writes:
 "There may be some healing force in the return of the unexpected
 hormones particularly the sex hormones, which find their way into the
@@ -2562,7 +2587,7 @@ claimed by some that these substances may be returned and used
 
 95
 
-again in re‐building healthy organs. This is difficult to prove, but there
+again in re-building healthy organs. This is difficult to prove, but there
 are many cases on record in which diseased organs have been renewed
 by means of drinking large quantities of urine. More than this it is
 impossible to say."
@@ -2616,17 +2641,19 @@ testified to in the cases mentioned in this book. "
 
 97
 
+## CHAPTER XV. THE COMMON COLD
+
 CHAPTER XV.
 THE COMMON COLD
 
 It is not extravagant to say that the simple malady we call an ordinary
 common cold has baffled the Prof ision for centuries. A doctor once
-said to the write‐: "If there is one thing I dislike being asked to cure, i± is
+said to the write-: "If there is one thing I dislike being asked to cure, i± is
 a common or garden cold in the head! "The late Dr. Haig, who first
 drew attention to uric acid, aid beater still to the folly of living on an
 unbalanced di It (though on certain points one might differ from him)
 told people they should be thankful when they contracted a streaming
-cold, as it acted as a species of house‐cleaning, and therefore should
+cold, as it acted as a species of house-cleaning, and therefore should
 never be suppressed. But unfortunately for mankind at large, very often
 the first thing most persons do immediately they "begin to feel a cold
 coming on" is to buy something to stop it, and "nip it in the bud." This is
@@ -2639,14 +2666,14 @@ diets, the majority if people are thus in, varying degrees susceptible to
 colds. Excess of starch in a diet combined with a deficiency of foolis
 containing the essential mineral salts is productive of catarrh. The
 exudations in catarrhal conditions should in themselves be quite
-sufficient to indicate to us the real cause of catarrh ‐ their nature is
+sufficient to indicate to us the real cause of catarrh - their nature is
 starchy. Moreover, just as the cause of a cold must be obvious, so must
 
 98
 
 be its cure, as I have found through years of observation and
 experience.
-The procedure is to fast on cold water and self‐urine only. No
+The procedure is to fast on cold water and self-urine only. No
 medicaments, whether in the form of lozenges or potions, must be
 taken. If this treatment is carried out, the cold will disappear, in the
 case of otherwise healthy individuals, in about 12 hours or less.
@@ -2655,7 +2682,7 @@ adage `Feed a cold, and starve a fever'." Yet was that the original
 adage? I have heard it said that such is merely a perversion of the
 original saying, which was "If you feed a cold, you'll have to starve a
 fever." Even a fast on cold water only will cure a cold in anything from
-24 to 48 hours. But this is less effective than the cold water and self‐
+24 to 48 hours. But this is less effective than the cold water and self-
 urine treatment, which not only results in the rapid disappearance of
 the catarrhal condition, but the victim feels much better in every way
 than prior to the visitation. Moreover, which is very important, it
@@ -2668,7 +2695,7 @@ get rid of an excess of starch and its evils. Indeed, it is my conviction
 that suppressed colds are the most fruitful and common basis of a long
 list of major diseases. Coryza, as it is technically called, i.e., the
 inflammation of the mucus membrane of the nose; should be regarded
-as a blessing in disguise, for it is, so to say, the alarm‐bell which
+as a blessing in disguise, for it is, so to say, the alarm-bell which
 annouoices that the interior needs a cleansing process. And I would
 here stress at the risk of repetition that nothing performs this office so
 
@@ -2686,20 +2713,20 @@ especially white, of buns, scones, polished rice puddings, porridge,
 biscuits, especially made of white flour, and other starch foods. Where
 these aliments preponderate in a dietary it also involves a deficiency in
 those foods rich in the essential mineral salts. To say that sugars and
-starch give energy is one of those pernicious half‐truths which are
+starch give energy is one of those pernicious half-truths which are
 nearly as misleading as a 100 per cent error. An excess of starch cannot
 give energy, because it merely clogs the system and inhibits its normal
 functioning. The proof is that people who live mostly on the aliments I
 have enumerated, have constantly to resort to alcoholic beverages or
 cups of tea to "buck themselves up."
 As I always like to substantiate my contentions with scientific reasons
-for the benefit of those who like the i‐s dotted in this manner, I may
+for the benefit of those who like the i-s dotted in this manner, I may
 add that apart from an excess of starch being the cause of catarrh,
 there is in the tissues a deficiency of chloride of potash, phosphate of
 lime and sulphate of lime, and if the throat is infected, of phosphate of
 iron. (See Biochemic Pocket Book, by E. F. W. Powell, D.Sc.) In recent
 times researchers have occupied themselves with the analysis of
-various, foods in order to ascertain their mineral‐salts content As a
+various, foods in order to ascertain their mineral-salts content As a
 result of this, we find that some foods are richer in one or other salt
 
 100
@@ -2709,15 +2736,15 @@ headings as Carbon Foods, Calcium Foods, Chlorine Foods, Flourine
 foods, Sodium foods, Potassium Foods, Phophorus Foods, Sulphur
 Foods, etc., etc. As all these salts have now been found to be essential
 to the proper functioning of the body, such research only serves again
-to show how necessary it is to live on a varied and well‐balanced diet. It
+to show how necessary it is to live on a varied and well-balanced diet. It
 is significant that until recently, the Medical Profession ignored
 Potassium (potash) as a salt of any importance to the human body. And
 yet it has since been discovered by exponents of the Biochemic System
 that a deficiency of one or other forms of potash is a contribut,ng cause
-in most diseases ‐ especially in cancer and growths. Nevertheless, this
+in most diseases - especially in cancer and growths. Nevertheless, this
 was already discovered by Dr. Schuessler, of Oldenburg, Germany, in
 the latter half of last century. Yet it was only brought into greater
-prominence in 1912 by Dr. Forbes‐Ross (already mentioned) who had
+prominence in 1912 by Dr. Forbes-Ross (already mentioned) who had
 probably never even heard of Dr. Schuessler or of his momentous but
 largely ignored discovery. In his General Sketch of The Biochemic
 System of Medicine G. W. Carey, M.D., significantly points out that a
@@ -2744,12 +2771,14 @@ which I shall enlarge in a later chapter.
 
 102
 
+## CHAPTER XVI. URINE-THERAPY ON ANIMALS
+
 CHAPTER XVI,
-URINE‐THERAPY ON ANIMALS
+URINE-THERAPY ON ANIMALS
 
 When certain people want to disparage a given treatment they ascribe
 its efficacy to Faith. For instance some opponents of homoeopathy
-have glibly dismissed it as a "faith‐cure." Yet the homoeopath has an
+have glibly dismissed it as a "faith-cure." Yet the homoeopath has an
 argument to hand which soon squashes that assumption; he contends
 that homoeopathy cures animals when in the nature of things they
 cannot know they are being treated. Cures of hundreds of animals are
@@ -2760,12 +2789,12 @@ completely in a very short time. The sceptic will say "coincidence." To
 which one can only retort: "How astonishing is the credulity of the
 sceptic!"
 This allusion to homoeopathy on animals is so far relevant in that one
-or two "credulous sceptics" have even said that urine‐therapy must be
-a "faith‐cure." I can but smile and employ the same argument as have
+or two "credulous sceptics" have even said that urine-therapy must be
+a "faith-cure." I can but smile and employ the same argument as have
 the homoeopaths. Let me substantiate my argument with a few facts.
 It so happens that my grandfather was rather well known in the sixties
 and seventies of last century for his way with horses, dogs, etc., and it
-was from him I Iearned that urine and even cow‐dung were his
+was from him I Iearned that urine and even cow-dung were his
 favourite remedies in successfully treating the ailments and injuries of
 animals. He thought nothing of fasting cows, horses and dogs up to a
 month on water and cow's urine, to administer which he used a horn;
@@ -2783,12 +2812,12 @@ and the urine of healthcows. It also drank plain cold water. My vaccine
 patient lost all its hair, went to skin and bone, but made a complete
 recovery, regaining its natural weight on grassfeeding in about two
 months.
-I have also treated dogs by the urine‐therapy fast. One method of
+I have also treated dogs by the urine-therapy fast. One method of
 inducing a dog to drink urine (though they will often drink a bitch's
 urine) is to fasten the animal to a tree and then syringe its head with a
 fine spray of the vital fluid. I used my own newly passed for the purpose.
 As the urine drips down over its face the dog will lap it up.
-Case‐history. Airedale terrier " Rough. " Treated him for a swelling in his
+Case-history. Airedale terrier " Rough. " Treated him for a swelling in his
 abdomen which developed after he had been run over by the back
 wheel of a motorcar. He fasted 19 days on my urine and cold water
 when desired, and finally broke his fast on a little raw beef. When
@@ -2797,7 +2826,7 @@ During his fast I washed him all over with old, strong, greasy urine, and
 although he lost many of his old hairs during the process, he finished up
 with a beautiful coat.
 Although the following experience with poultry does not strictly come
-under the heading of urine‐therapy, sine: hens do not urinate and no
+under the heading of urine-therapy, sine: hens do not urinate and no
 urine was used, t is instructive none the less as showing what a fast will
 
 104
@@ -2809,22 +2838,22 @@ stimulated with condiments. As some of them were ill, many
 to put half of them on a fast, with nothing but plain water. The result
 was remarkable, for on the fourth day I found several eggs.
 Subsequently, I fasted the remaining half, with the same gratifying
-result ‐ eggs in plenty. The fast in each case lasted a week. I then
-changed ‐what had been the previous diet consisting of "anything and
-everything" to nothing but whole grain wheat ‐for which the hens had
+result - eggs in plenty. The fast in each case lasted a week. I then
+changed -what had been the previous diet consisting of "anything and
+everything" to nothing but whole grain wheat -for which the hens had
 to work in ashes for every morseland raw greens, which I gave them
 twice a day. This, plus the grass they could peck from my orchards was
 all they got. The result was an average of 250 eggs a week from 60 hens
 for 18 weeks without a break, and at the negligible cost of ⅓ d. per egg.
 Treatment of a foal's leg for laceration. The foal in question had tried to
 force her way through a thick thorn hedge with disastrous results. She
-suffered a large slash in the flesh of one of her back legs at the knee‐
+suffered a large slash in the flesh of one of her back legs at the knee-
 joint, and the gash resembled a great lip hanging down. I was advised
 to call in a vet. and have it stitched up, but I declined, knowing that
 such a measure would only leave unsightly marks and much reduce her
 value. I therefore bound up the wound with a soft clean woollen cloth,
-(undyed) under a piece of tree‐ply flexible wood, ind filled up the space
-between the flesh and the wood with cow‐dung, finally drawing the
+(undyed) under a piece of tree-ply flexible wood, ind filled up the space
+between the flesh and the wood with cow-dung, finally drawing the
 poultice tight at the bot.om with broad tape so as to keep the dung in
 place and let the foal have her run. Twice a day I called the animal so
 that I might pour a pint or more of urine into the top of the poultice in
@@ -2832,18 +2861,20 @@ order to keep the properties of the dung active. This process I kept up
 
 105
 
-for a fortnight. Then at length I undid the bandages ‐and lo and behold!
+for a fortnight. Then at length I undid the bandages -and lo and behold!
 the wound was perfectly healed, and without leaving a trace of a scar.
 Truly there are lessons to be learnt from Nature. The first, second and
-third are‐work with Nature and she will do the work!
+third are-work with Nature and she will do the work!
 
 106
+
+## CHAPTER XVII. THE RATIONALE OF RUBBING AND URINE PACKS
 
 CHAPTER XVII.
 THE RATIONALE OF RUBBING AND URINE PACKS
 
 A correspondent who asked a number of intelligent questions surprised
-me on that account by asking: "Is not the skin a one‐way organ?" And
+me on that account by asking: "Is not the skin a one-way organ?" And
 yet what shred of evidence or deduction is there on which to base such
 an assumption? Take the simplest analogy. If one covers with a
 distended handkerchief the top of a cup containing a little milk, and
@@ -2857,29 +2888,29 @@ Hence the unwisdom of clogging the pores with suppressive unguents,
 or of "wrapping oneself up" in sheaths of warm underclothes, as did the
 Victorians. Should the skin be prevented from breathing entirely the
 victim dies. The story of the child which was painted completely with
-liquid gold in order to cut a figure in pageant is well known‐the child
+liquid gold in order to cut a figure in pageant is well known-the child
 was dead in two hours. On the other hand the rubbing with milk of
-underweight and ill‐thriving children was at one time a common
+underweight and ill-thriving children was at one time a common
 practice, and often attended with good results. As we all know, friction
 produces heat, and heat opens up the pores of the skin because they
 likewise generate heat. That is why it is so important what the
 compresses contain. Compresses which merely draw out and put
-nothing back can prove seriously strength‐sapping; a matter which has
+nothing back can prove seriously strength-sapping; a matter which has
 
 107
 
 been brought to my notice in many cases. Thus the compress par
 excellence is a urine compress, and rubbing with urine is far superior to
 any other form of friction. For the lacer purpose old urine alone, or old
-mixed with fash, rind' warmed up (it must n‐ver be boiled) is the most
+mixed with fash, rind' warmed up (it must n-ver be boiled) is the most
 efficacious. The most practical method is to store up urine in bottles,
-pour a very little into a flat‐bottomed bowl ‐place the hands in the bowl
+pour a very little into a flat-bottomed bowl -place the hands in the bowl
 so as to get just sufficient of the fluid on the palms, and then start the
 rubbing till 'he hands are dry. Pour a little more urine into the bowl, and
 repeat the process. By dint of taking only a little at a time on one's
 hands, none of the urine drops on to the floor.
 As to compresses, from all that has already been written in this book
-when relating case‐histories, how and when to apply them will have
+when relating case-histories, how and when to apply them will have
 become obvious. However, it will do no harm to repeat myself. Cloths
 soaked in urine should be placed over the local site of the trouble, and
 kept moist by adding more urine when required. They should be
@@ -2891,34 +2922,34 @@ I have already mentioned briefly that the most important parts to rub
 are the neck, face, head and feet. But that does not mean to say that
 the whole body should not be rubbed as well. Unless the malady
 requires a compress at one or other site, this is an essential part of
-urine‐therapy in order to supply nourishment to the patient during a
-urine‐fast. Apart from that, urine is the most wonderful skin‐food that
+urine-therapy in order to supply nourishment to the patient during a
+urine-fast. Apart from that, urine is the most wonderful skin-food that
 exists; as may be seen from the hands of those who do the rubbings.
 
 108
 
 It has been suggested by sceptics that a dry rub or a rut with plain cold
 water would be equally effective. But the answer is an emphatic
-negative. I have tried both. Even urine‐fasts without the urine rubbings
+negative. I have tried both. Even urine-fasts without the urine rubbings
 are attended with palpitations, just as are fasts on plain water only. I
 grant that the rubbing is both excellent exercise and acts as excellent
 massage, but without the urine it does not and cannot rebuild wasted
 tissues. Only in very bad cases where the patient is too weak and
 emaciated to stand it, have I dispensed with the rubbings, in which o.se
 the urine can be absorbed via the skin by means of the urine packs.
-I will now give a case‐history to show that continued poulticing with
+I will now give a case-history to show that continued poulticing with
 any other substance, however apparently harmless, can prove highly
-strength‐sapping to the patient as well as quite unproductive of a cure.
+strength-sapping to the patient as well as quite unproductive of a cure.
  Gentleman, well over 50. Had been an enthusiastic follower of what
 may be called a "caterpillar diet" It consisted of one meal a day, chiefly
 of wholemeal bread, salads, fresh fruits, fresh milk, nuts and honey. He
 had by this means hoped to reduce his "corporation" and to cure an
-arthiritic and dropsical condition and other troubles as well‐chronic
+arthiritic and dropsical condition and other troubles as well-chronic
 costiveness being one; for which he resorted to salts and high enemata.
 When he finally sent for me, he had been in the doctor's hands for
 some time, and was in such a state that he had to have two nurses.
 Although now taking two meals and four snacks a day, he was under 10
-stone, very weak, bedfast, suffering from bed‐sores, and spending half
+stone, very weak, bedfast, suffering from bed-sores, and spending half
 the day and most of the night coughing up phlegm and ropy mucus. But
 what I would draw special attention to here, was the state of his arm.
 About two years previously a running sore had manifested itself, to
@@ -2944,11 +2975,11 @@ usable, and the patient could write letters for the first time in years.
 Without massage or any remedial local measures whatever, he had
 gained 14 lbs. in weight. The most marked changes showerd in his face,
 both arms, chest, shoulders and buttocks. I may add, by the way, that I
-healed his bed‐sores with nothing more "scientific" than my own saliva.
+healed his bed-sores with nothing more "scientific" than my own saliva.
 The chief point to note in this case, however, is that as soon as the
 medicated poultices were stopped, the patient put on more flesh
 though he was taking less food. He was subsequently restored to full
-health by urine‐therapy end a well‐balanced diet, not based on the
+health by urine-therapy end a well-balanced diet, not based on the
 theories of the late ArnoId Ehret and Co.!
 And now to returnn to the rationale of rubbing, and to supply some
 details of my own case which have not yet been mentioned.
@@ -2961,30 +2992,32 @@ pronounced that I almost felt I had two hearts, instead of one. I
 ascribed this, contrary to medical assumptions, to the theory that my
 heart was not getting d sufficient supply of blood to pulsate upon and
 was therefore accelerated somewhat like a watch when the controlling
-hair‐spring is broken or out of order. It was then that once again I got
+hair-spring is broken or out of order. It was then that once again I got
 an idea from the Bible; this time from the New Testament: for I read
 "...when thou fastest, anoint thy head and wash thy face (Matthew VI,
 17.) I am fully aware that the interpretation I put on this injunction may
 seem farfetched, but as I have said, it none the less gave me an idea,
 and having read it, proceeded to rub my head, face, neck and other
 parts of my body with urine, and the palpitations ceased. Moreover, by
-this method, I have found it possible to fast ‐if not too ill to start with‐
+this method, I have found it possible to fast -if not too ill to start with-
 without interrupting one's daily tasks. Patients with skin diseases, for
 example, have fasted, carried on their work, and to those not in the
 know, have not seemed to be fasting at all. As for myself, I can
 undertake a fast if so minded to encourage others, and not even a
 doctor with his impressive instruments can detect from my heart, etc.,
 that I am abstaining from food. This, however, would soon become
-apparent if I attempted to fast without the urine‐rubbings.
+apparent if I attempted to fast without the urine-rubbings.
 
 111
+
+## CHAPTER XVIII. WRONG FEEDING THE PRIME CAUSE OF DISEASES
 
 CHAPTER XVIII.
 WRONG. FEEDING THE PRIME CAUSE OF DISEASES
 
 In the little book entitled Britain's Health, prepared by S. Mervyn
 Herbert, we read the following relative to nutrition: "Recent scientific
-investigations indicate that it is all‐important in national health, and
+investigations indicate that it is all-important in national health, and
 that the provision of adequate nourishment for every man, woman and
 child in the community should go hand in hand with the most
 elementary environmental services, such as sanitation, housing and
@@ -2994,11 +3027,11 @@ It has been shown that the incidence of tuberculosis realised that they
 may eat as much as they can and still be suffering from malnutrition if
 the food they choose lacks the important protective elements. Nearly
 everywhere in the tropics can be found appalling cases of scurvy,
-pellagra or beri‐beri which have developed not from star:'ation but
+pellagra or beri-beri which have developed not from star:'ation but
 from lack of vitamins or minerals." (I should have said and instead of or).
 It has been known that the incidence of tuberculosis rose in all the
 countries which had suffered from food shortage during the Great War
-(1914‐1918).
+(1914-1918).
 "The incidence of malnutrition in Britain cannot be described with
 accuracy, but authorities on diet are agreed that it is sufficiently
 extensive to constitute the most serious danger to health at the present
@@ -3015,7 +3048,7 @@ body and the presence of substances which should not be in the body. "
 even more tersely by Major C. Fraser Mackenzie, C.I.E., viz.: "We are
 made of what we eat, so if many organ becomes diseased, it generally
 means the food was wrong." Reduced to even still further conciseness:
-The cause of disease is an ill‐balanced diet.
+The cause of disease is an ill-balanced diet.
 Yet, provided this is kept in mind, it is an unwise procedure to lay down
 any specific rules anent what precise foods people should or should not
 eat, for climate, environment and personal "idiosyncrasies" have to be
@@ -3023,18 +3056,18 @@ taken into account. The Eskimos cannot be expected to live on the
 same aliments as the Brazilians, for example. As to personal
 idiosyncrasies, they are numerous and some of them very peculiar. The
 case could be mentioned of a man to whom fish is so violent a poison
-that even if he licks a postage stamp (the sticky side contains fish‐glue)
+that even if he licks a postage stamp (the sticky side contains fish-glue)
 his whole face swells up to such an extent that he cannot see out of his
 eyes. There are also persons to whom eggs in any form whatsoever are
 poison. Yet sometimes such persons grow out of these peculiarities.
 The writer knows of a woman who could not touch an egg, whether by
 itself or in a pudding or cake, until she had turned 70, and then, strange
 to say, eggs ceased t o disagree with her.
-Rabid vegetarians, as we know, would have us believe that meat‐eating
+Rabid vegetarians, as we know, would have us believe that meat-eating
 is virtually the cause of all human ills. I differ from them entirely, on the
-best of all grounds ‐ personal experience and what I have observed in
+best of all grounds - personal experience and what I have observed in
 others. If vegetarians had declared that a meatless diet would be the
-best regime for everybody if for years man had not acquired the food‐
+best regime for everybody if for years man had not acquired the food-
 
 113
 
@@ -3046,15 +3079,15 @@ ready for complete vegetarianism however desirable this may be as an
 ideal. Neverthe less, I will make the following reservation: it may be
 different with persons who have been brought up from i nfancy on a
 meatless diet, provided that diet is not merely meatless, i.e., it must be
-a well‐balanced vegetarian dietary and not just an excess of "starchy
+a well-balanced vegetarian dietary and not just an excess of "starchy
 rubbish."
 After all this, it will now be asked what sort of a diet do I personally
 advocate in general for people living in the temperate zones? My
 answer is a dietary consisting of a proper proportion of meat, poultry,
-eggs, fish. salads, steamed vegetables, whole‐wheat bread, fresh fruits
-in season, brown unpolished rice, butter in moderation and honey‐
+eggs, fish. salads, steamed vegetables, whole-wheat bread, fresh fruits
+in season, brown unpolished rice, butter in moderation and honey-
 which is the best sweetening agent there is. To be avoided are all
-tinned foods, twice‐cooked foods, all processed (de‐natured) foods
+tinned foods, twice-cooked foods, all processed (de-natured) foods
 such as white bread, white sugar, polished rice and pasteurised milk.
 Condiments should also be avoided. In my opinion tinned meats,
 processed foods and pasteurised milk are the evil, commercial products
@@ -3076,7 +3109,7 @@ sold when it is not fresh, its lack of freshness not being detectable as it
 would be with unpasteurised milk.
 Which reminds me what the late Mr. F. A. MacQuisten, K.C., M.P., said
 of that commodity, viz.., "Some people think pasteurised milk is milk
-from the pasture. It is nothing but half‐boiled milk lacking in
+from the pasture. It is nothing but half-boiled milk lacking in
 nourishment. If you give it to calves they die. If you give it to rats they
 fail to reproduce their species. It is a form of birth control." (Daily
 Mirror, March 2, 1940.)
@@ -3091,7 +3124,7 @@ receiving is "in the form of advertisements of proprietary vitamin
 preparations, tonic foods, etc., which distort the facts in any manner
 that the advertisers fancy will sell their preparations." We should
 obtain our vitamins, he declared, from a properly regulated diet and
-not from so‐called tonic food preparations. Needless to say, I heartily
+not from so-called tonic food preparations. Needless to say, I heartily
 agree with this dictum. I also agree with much that the naturopaths
 have put forward, though on one or two points I differ from them
 materially. There have been a few extremists who have wished to
@@ -3102,8 +3135,8 @@ eliminate starch and sugar from the dietary altogether. This is a
 dangerous fallacy. No one can subsist for long without some sugar and
 starch in the organism; it is an excess of starch which is evil, as I pointed
 out in my chapter on the common cold. And now, if the cause of
-disease has become obvious, so also must be its prevention, viz., a well‐
-regulated diet ‐which of course means neither too little nor too much‐‐
+disease has become obvious, so also must be its prevention, viz., a well-
+regulated diet -which of course means neither too little nor too much--
 to which dictum I would add, plus an occasional fast according to my
 particular method. Furthermore, I would advocate the habitual intake
 of one's own fresh urine. On rising, a glassful should be taken, and
@@ -3117,17 +3150,17 @@ case, I have found in the end that one meal suffices me. This is to say,
 however, whether it sounds dogmatic or not, namely that all violent
 and sudden alterations in diet are only wise if undertaken after a fast.
 People who for humanitarian reasons have suddenly taken to
-vegetarianism have frequently had to suffer for their high‐mindedness.
+vegetarianism have frequently had to suffer for their high-mindedness.
 Nature objects to sudden changes of this kind. Conversely, people who
 have found that vegetarianism disagrees with them and then have
-suddenly taken to flesh‐foods, have also had to pay for their policy. But‐
-not so if they have made tie change after a urine‐fast, the length of
+suddenly taken to flesh-foods, have also had to pay for their policy. But-
+not so if they have made tie change after a urine-fast, the length of
 which has been regulated according to their condition and the nature
 (though not the name) of their malady.
 
 116
 
-And here let me add a word to‐this chapter regarding the enforced
+And here let me add a word to-this chapter regarding the enforced
 fasts of survivors in open boats, who when faced with a deficiency of
 water, eventually resort to drinking their own urine. A correspondent
 has objectingly written to me saying that there are a number of cases
@@ -3147,15 +3180,17 @@ the same time assured that urine drinking is not only harmless but
 actually beneficial, the experience would hold for them less terrors. If it
 was generally known that a man can subsist for what may seem to the
 uninitiated an extraordinary long time on urine only, the knowledge
-would prove of enormous value against the debilitating effect of fear‐
+would prove of enormous value against the debilitating effect of fear-
 thoughts. I may mention that the longest fast I can record was that of a
 man who fasted 101 days for blindness brought about by a sting in one
 eye and the l ong continued use of atropin in both. But such a lengthy
 fast would not have been feasible without the urinerubbings (in
-addition to the urine intake) which play so i mportant a part in urine‐
+addition to the urine intake) which play so i mportant a part in urine-
 therapy.
 
 117
+
+## CHAPTER XIX. SOME PRACTICAL SUGGESTIONS
 
 CHAPTER XIX.
 SOME PRACTICAL SUGGESTIONS
@@ -3165,10 +3200,10 @@ husband to kiss his wife on a Sunday! Of course, no one pays the
 slightest attention, because the law is not and cannot be enforced, and
 because it only involves the parties concerned. But it is a very different
 matter wirh laws involving huge commercial interests A kiss is not a
-manufacturable commodity, serums and radium plants are ‐and that is
+manufacturable commodity, serums and radium plants are -and that is
 the trouble. To the pure in heart, which means the unselfish, altruistic
 and uncommercially minded, it seems doubtless a curious irony that
-the treatment of certain said‐to‐be incurable diseases has become
+the treatment of certain said-to-be incurable diseases has become
 illegal except at the hands of those who cannot cure them. This is
 ostensibly to "protect the public." Yet the logician may ask, to protect
 the public from what or from whom? We presume from such persons
@@ -3188,7 +3223,7 @@ the purchasers and very profitable to its vendors, as also is radium itself.
 
 Many doctors, as we have seen, of both the allopathic and
 homoeopathic schools, have warned their confreres of the
-unsatisfactory results obtained both by surgery ‐ aid radium, but
+unsatisfactory results obtained both by surgery - aid radium, but
 without any appreciable effect, for the a iium or operative treatment is
 still boosted as the “correct” treatment for malignancy.
 All the same, doctors sometimes find themselves in a quandary, and
@@ -3205,12 +3240,12 @@ some illness of the influenza type. (See Health Through Homoeopathy,
 July, 1944.) Homoeopathic literature relates of many cures of cancer,
 some more speedy than others, and whether one agrees with
 homoeopathic methods or not, at least the patient avoids the risk of
-having to suffer the after‐effects so often associated with radium
+having to suffer the after-effects so often associated with radium
 treatment, urgery or both. Fortunately, however, some doctors are vow
 so discouraged and depressed by the transient and painful results of
 these treatments that they are wi!ling to try other methods in the
 interests of their patients. And it is just to these doctors that I address
-myself as wcdl as to sufferers who I have every good reasor. to believe,
+myself as well as to sufferers who I have every good reason to believe,
 could greatly benefit by the treatment described i n this book. After all,
 things have not come to quite such a pass (though I shall have
 
@@ -3231,7 +3266,7 @@ the victims, that a demand is made for something better. Sometimes a
 doctor will admit the superiority of a treatment but abstain from using
 it, as witness the confession of a certain doctor relative to Biochemistry,
 of which in a coroner's court he said: "Biochemistry is the most logical
-and up‐to‐date method of treating disease... But we doctors are
+and up-to-date method of treating disease... But we doctors are
 exceedingly conservative, and we shall stick to the old way until
 compelled by circumstances "(obviously meaning the demands of the
 public)" to adopt the newer and better system of medication." (Quoted
@@ -3252,32 +3287,32 @@ how many patients have died while physicians have been preoccupied
 with medical etiquette?
 However, that need not detain us. The question is how to deal with the
 problem which confronts the sufferer who has ceased to believe in
-orthodox methods and is prepared to try urine‐therapy. Should he
+orthodox methods and is prepared to try urine-therapy. Should he
 dispense with doctors' services or should he not? From nearly every
 point of view I consider it would be better if he did rant dispense with
 the services of his medical adviser. There is no practical reason
-whatever why the discovery, or rather re‐discovery of urine‐therapy
+whatever why the discovery, or rather re-discovery of urine-therapy
 should "deprive the doctor of his bread," though that is a matter which
 rests entirely with the individual doctor. This book places him in
 possession of the facts, and should he refuse when requested by a
-patient to supervise a urine‐fast, then I can hardly be blamed for what
+patient to supervise a urine-fast, then I can hardly be blamed for what
 is not my fault. It will not be the first time that a patient has suggested
 to his physician the particular treatment he wishes to try, and if
 spectacularly beneficial results accrue therefrom, then all the better for
 the doctor's reputation. Moreover, a doctor can act as a buffer
-between the well‐intentioned but obstructive and tiresome
+between the well-intentioned but obstructive and tiresome
 interferences of anxious but often quite prejudiced and ignorant
 relatives, who not only fear the worst but fear the formalities and
 publicity of an inquest as well.
 All the same, I must sound a note of warning. If a doctor thinks he can
-combine drugs with the urine‐fast, despite my affirmations to the
-contrary, the suit will be failure. As we have seen, urine‐therapy is a
+combine drugs with the urine-fast, despite my affirmations to the
+contrary, the suit will be failure. As we have seen, urine-therapy is a
 Naturecure in the most literal sense of the word, and to employ
 
 121
 
 measures which are contrary to Nature at the same time, would not
-only be quite illogical but even dangerous. I know this to my cost‐not as
+only be quite illogical but even dangerous. I know this to my cost-not as
 the result of this interfering with Nature myself, but as the result of
 others doing so when my back was turned. Therefore, I give this
 warning, and sincerely hope it may be heeded. Provided it's heeded, I
@@ -3294,9 +3329,9 @@ hydropathic establishments. This being the case, I, am optimistic
 enough to think that in the not too distant future there may be
 establishments where patients, can be treated with ur netherapy, and
 where there will be a staff of nurses to look after them and do the
-urine‐rubbings. (Why should people be destined to die of gangrene and
-other said‐to‐be‐incurable conditions when it is possible to save then?)
-Although urine‐therapy can never be unfavourable to the employment
+urine-rubbings. (Why should people be destined to die of gangrene and
+other said-to-be-incurable conditions when it is possible to save then?)
+Although urine-therapy can never be unfavourable to the employment
 of labour, any more than hydropathy has been in the past. There is also
 sanitation, which as Are Waerland points out, was introduced by
 laymen "in the teeth of the passionate hostility of the medical
@@ -3309,21 +3344,23 @@ against it. As a matter of fact, all reforms and changes threaten some
 
 one's interests, but in the end matters adjust themselves. Yet when all
 is said, is it right that vested interests should interfere with the physical
-well‐being of the people? If I could honestly say that the various
-money‐making gadgets that are now on the market were really means
-to lasting health instead of being just palliatives‐ often deceptive ones
-at that ‐I should be the last not to extol them. Nay, what interest have I
+well-being of the people? If I could honestly say that the various
+money-making gadgets that are now on the market were really means
+to lasting health instead of being just palliatives- often deceptive ones
+at that -I should be the last not to extol them. Nay, what interest have I
 in decrying them, seeing I have nothing to sell? The great advantage of
-urine‐therapy is the very fact that it costs nothing and can be used by
+urine-therapy is the very fact that it costs nothing and can be used by
 poor and rich alike. A large number of impecunious people, are now
-treating themselves with urine‐therapy in their own homes, with the
+treating themselves with urine-therapy in their own homes, with the
 kind assistance of relatives to do the rubbing, and the treatment does
 not cost them a penny. On the other hand, as I have implied, clinics in
-which urine‐therapy could be practised and where it could be
+which urine-therapy could be practised and where it could be
 supervised by doctors, would be of great convenience to those who
 could afford to attend such institutions.
 
 123
+
+## CHAPTER XX. MAN THE MYSTERIOUS.
 
 CHAPTER XX.
 MAN THE MYSTERIOUS.
@@ -3341,7 +3378,7 @@ the less contrive to live till 85 or longer, on the principle that "a rusty
 gate swings long"! How are we to account for such things? All we can
 lamely say is that they are the exceptions which prove the rule, which
 by the way, is a very foolish adage. One writer has suggested that some
-people are born with "fool‐proof" bodies! He may be right, but why are
+people are born with "fool-proof" bodies! He may be right, but why are
 they thus born? Astrologers tell us that the precise moment, day and
 year, an entity is born into the world has a marked influence on his or
 her type of body. Some scientists who at first scoffed at this idea are
@@ -3361,11 +3398,11 @@ different ways. For instance, it is said that those born between March
 21st and April 20th are apt to suffer from troubles connected with the
 head, face or brain, whereas, for instance, those born between the
 same days of September, October, may suffer from afflictions of the
-lower abdomen or kidneys, or both ‐that is, provided they do not take
+lower abdomen or kidneys, or both -that is, provided they do not take
 suitable measures to avoid such troubles. (See Health, Diet and
-Commonsense, by Cyril Scott.) This, I grant, may sound all very far‐
+Commonsense, by Cyril Scott.) This, I grant, may sound all very far-
 fetched, but I have learnt never to scoff at what I do not understand.
-Although I have proved up to the hilt the efficacy of urine‐therapy, it
+Although I have proved up to the hilt the efficacy of urine-therapy, it
 still contains for me a lot that is mysterious. When I ask myself why
 should urine when taken by the mouth especially select those organs
 which require rebuilding, I can offer no more rational explanation than
@@ -3378,8 +3415,8 @@ he found people who had no treatment lived the longest and suffered
 the least, the inference to be drawn being that most people died of the
 doctor and not of the disease! This worthy physician was a very candid
 man. But he would not have needed to make this admission had he
-employed urine‐therapy instead of his sixty drugs. The advantage of
-urine‐therapy is its extreme simplicity as anyone can see without the
+employed urine-therapy instead of his sixty drugs. The advantage of
+urine-therapy is its extreme simplicity as anyone can see without the
 telling. It is not a specific for any given disease, it is a specific for health.
 It is also a prophylaxis against a number of annoying "trifles" which are
 
@@ -3394,7 +3431,7 @@ and various other unpleasant afflictions. Gargling with fresh urine both
 prevents and cures "clergyman's throat," whilst to drink autogenous
 urine freely every day acts as a preventive against impeded flow of
 urine. It also facilitates evacuation. And this priceless remedy costs
-absolutely nothing, except at first a little self‐discipline in the
+absolutely nothing, except at first a little self-discipline in the
 overcoming of what seems to be an "unpleasant" idea.
 Those who read that widely known book Mother India may remember
 some passages therein devoted to the "filthy habits" of the native
@@ -3409,13 +3446,15 @@ And with this startling denouement I will end this chapter.
 
 126
 
+## CHAPTER XXI. CONCLUDING REFLECTIONS.
+
 CHAPTER XXI.
 CONCLUDING REFLECTIONS.
 
 It seems unnecessary to increase the volume of this book. If the
 successful treatment of very many thousands of cases of a large variety
-of diseases, including a liberal percentage of so‐called incurable ones,
-does not prove se efficacy of urine‐therapy, then nothing else can.
+of diseases, including a liberal percentage of so-called incurable ones,
+does not prove se efficacy of urine-therapy, then nothing else can.
 Moreover, as we have seen, many of the patients had previously tried
 other methods, both orthodox and unorthodox, without success. This is
 not to say that the therapy can without exception cure every patient of
@@ -3424,9 +3463,9 @@ difficult to cure, whilst diabetic conditions have in many cases not
 yielded to the treatment at all. On the other hand, which may seem
 strange, growths, and tumours said to be cancerous, as also cataracts,
 have yielded quickly. As for those patients who might have been saved
-by urine‐therapy they probably run into larg: figures. These are chiefly
+by urine-therapy they probably run into larg: figures. These are chiefly
 cases I had to decline to help, not because I regarded them as hopeless
-in themselves, but because I feared the interference of well‐meaning
+in themselves, but because I feared the interference of well-meaning
 but timid relatives at a vital moment when such interference might well
 have proved fatal, and they and I should have then, been faced with an
 inquest. In short I was taking no chances, for only qualified doctors can
@@ -3444,25 +3483,25 @@ uprightness bring himself to study a system of medicine in which he
 does not believe, and which he regards as a menace to his health? And
 for what? Merely that he should be able to diagnose a given number of
 diseases and call them by polysyllabic names? And supposing, as with
-urine‐therapy, the name of the disease has nothing to do with the
+urine-therapy, the name of the disease has nothing to do with the
 selection of the treatment? What then? Indeed, the necessity for a
 correct diagnosis before a line of treatment can be decided upon, is one
 of the drawbacks and limitations of allopathy. For example, if a woman
 has a growth in her breast, the first thing a doctor wants to determine
-is whether it is malignant or "benign." But with urine‐therapy such a
+is whether it is malignant or "benign." But with urine-therapy such a
 question is not of the least importance, since, as we have witnessed,
 the treatment for all diseases is virtually the same procedure, seeing
 that in the patient lies the "magic fluid" to cure his or her ills, and the
 only prerequisite is to refrain from food (like the animals) so as to give
 Nature her chance to do the work. And she will do it in her own way
 provided she is not interfered with. This I have observed again and
-again with regard to the movement of the bowels during a urine‐fast
+again with regard to the movement of the bowels during a urine-fast
 plus plain cold water. Whereas t he "orthodox " naturopath thinks it
 necessary to assist the bowels with enemata during a fast on cold water
 alone or on fruit juices (a mistaken policy) on no account should such
-measures "be resorted to during a urine‐fast, for Nature must be left to
+measures "be resorted to during a urine-fast, for Nature must be left to
 determine when the bowels shall move. What we have to remember is
-that in fasting, urine, taken via the mouth heals, rebuilds and re‐
+that in fasting, urine, taken via the mouth heals, rebuilds and re-
 conditions the vital organs including the intestines, and while this
 process is taking place, often the bowels seem, as it were, to go to
 sleep and relapse into a state of inactivity, which in severe cases may
@@ -3481,21 +3520,22 @@ practice and belief!
 
 130
 
+## AFTERWORD. WHITHER MEDICINE?
 
 AFTERWORD.
 WHITHER MEDICINE?
 
 As I remarked elsewhere, he who makes a useful discovery has a duty
 to fulfil, it is to give that discovery to the world. Even so, he may have a
-further duty‐and that is to warn the world against what he has found to
-be harmful. Both "big‐wigs" and smaller "wigs" in the Medical
+further duty-and that is to warn the world against what he has found to
+be harmful. Both "big-wigs" and smaller "wigs" in the Medical
 Profession itself have done this at meetings of the fraternity and in
 journals and books which the public at large do not read. Occasionally,
 however, a doctor or surgeon writes a book which is not intended
 exclusively for the Profession. One such book which contained many
 “home truths” is Man the Unknown, by Alexis Carrel of U.S.A.
 We not only live in an age when serums and vaccines have become a
-very lucrative fashion‐lucrative to their manufacturers and vendors‐but
+very lucrative fashion-lucrative to their manufacturers and vendors-but
 we also live in an age of specialism despite the warnings of many
 physicians themselves about its dangers. Wrote Dr. Carrel: " Much
 harm is caused by the extreme specialisation of the physicians. When a
@@ -3503,7 +3543,7 @@ specialist from the beginning of his career confines himself to a minute
 part of the body, hu knowledge of the rest is so rudimentary that he is
 incapable of thoroughly understanding that part in which he specialises.
 " Again, Dr. K. T. Morris wrote: " The patient who goes to a specialist on
-his or her own resposibility ...is jumping from the frying‐pan in to the
+his or her own resposibility ...is jumping from the frying-pan in to the
 fire." (See Fifty Years a Surgeon.) Dr. W. H. Hay of the "Hay Diet " fame
 may also be cited. Relative to specialists, he says: "Each sees the thing
 he most wishes to see in the patient, finds the thing he has been taught
@@ -3522,14 +3562,14 @@ the increased interest of the public in medical matters have both
 combined to narrow the function of the general practitioner who is, or
 who should be the clinician par excellence. I regard this as being no less
 dangerous to the public than it would be for the passengers of the ship
-if the captain left the bridge... and the chief radio‐operator took his
+if the captain left the bridge... and the chief radio-operator took his
 place…" These are forceful words. And yet they are no more forceful
 than the words many physicians have used relative to the dangers of
-serum‐therapy, radium, or the unnecessary interference with the knife.
+serum-therapy, radium, or the unnecessary interference with the knife.
 And this is not all, for we find that statistics cannot even be relied upon
 to give the real facts. In a pamphlet published by The Ministry of Health
 for official use, Dr. Copeman, one of its officials, gives an instance of a
-large institution in Lone‐on where 107 cases had been notified as
+large institution in Lone-on where 107 cases had been notified as
 diphtheria, of which no less tian 100 of them had practically nothing
 the matter with them. Indeed, we find doctors who, feel so strongly
 about what goes on in their own profession that they are sometimes
@@ -3558,14 +3598,14 @@ who on that account could not be suspected of bias in favour of
 homoeopathy, published some figures in which he showed that the
 number of deaths in hospitals under hoinoeopathic treatment
 amounted to far less than the number under allopathic treatment.
-Later on, figures published in 1910, showed that the average death‐rate
+Later on, figures published in 1910, showed that the average death-rate
 under allopathic treatment was 9.89 per cent., whereas under
 homoeopathic treatment it was only 5.01 per cent. Moreover, if we
 take some of the diseases separately, we find that during a period of
-thirty‐two years, the death‐rate under allopathic treatment for
+thirty-two years, the death-rate under allopathic treatment for
 pneumonia was, 29.5 per cent., whilst under homoeopathic treatment
 it was only 3.9 per cent. As for diphtheria, treated with antitoxin, the
-death‐rate was 16.1 per cent., as against 4.5 per cent treated
+death-rate was 16.1 per cent., as against 4.5 per cent treated
 homoeopathically without antitoxin. With regard to cholera, during a
 hundred years, under allopahic treatment, the death rate was 49.57 per
 
@@ -3575,7 +3615,7 @@ cent., whilst under homnoepathic treatment it was only 16.33 per cent.
 (See Homoeopathy in Practice by Dr. Voorhoeve.) Apropos of cholera,
 the late Dr. McCloughlin, medical inspector (and not a homoeopath)
 wrote that after the number of cures of true Asiatic cholera he had
-witnessed‐cases that would have sunk under allopathic treatment‐if he
+witnessed-cases that would have sunk under allopathic treatment-if he
 himself should be attacked by cholera, he would far sooner be in the
 hands of a homoeopath than an allopathic doctor. When last century
 there was a great outburst of cholera on the continent, a homoeopath
@@ -3634,13 +3674,13 @@ medical etiquette to criticise adversely this form of treatment, or to
 report untoward results of it. " What extollers of the vaccine treatment
 omit to mention when they triumphantly assert that smallpox was
 practically wiped out in the West by this means, is that smallpox is a
-dirt‐disease, and that the science of hygiene has vastly improved since
+dirt-disease, and that the science of hygiene has vastly improved since
 the days when it was rampant.
-Even so, the great Dr. Sydenham, who pooh‐poohed vaccination, said
+Even so, the great Dr. Sydenham, who pooh-poohed vaccination, said
 that smallpox was quite a simple illness to cure, provided the patient
 was properly nursed.
 In view of all this, we may well ask whither Medicine? " Is the law going
-to force the public to submit to alleged‐to‐be immunisations against
+to force the public to submit to alleged-to-be immunisations against
 this or that disease when the medicos themselves are not even agreed
 that such measures are right, or dare not agree that they are wrong?
 And presuming that immunization does not actua'ly become
@@ -3657,14 +3697,14 @@ true Science endeavours to understand the Laws of Nature, false
 science tries to improve upon Nature under the assumption that man
 knows better than Dame Natur' herself. Thus not only is our soil
 interfered with but also the human body. Dogmatic surgeons have
-declared that tonsils, the appendix and even the gall‐bladder are
+declared that tonsils, the appendix and even the gall-bladder are
 
 136
 
 useless organs, and therefore should be extirpated in order to prevent
 them from becoming diseased! It is only a comparatively short time ago
 that medical "scientists" told us that the pineal gland and the pituitary
-bony were also useless organs‐and this, merely because they had as yet
+bony were also useless organs-and this, merely because they had as yet
 found no special reason for their existence in the human brain.
 Fortunately for man, they could not be Excised without killing the
 patient!
@@ -3673,18 +3713,18 @@ affairs? Certainly a large number of individual doctors find themselves
 in a difficult position, Rot many of them admit that they do not believe
 in filling their patients with "pills and potions." But so much has the lay
 public been influenced by prevailing fads and fashions that its all too
-ignorant members demand "the latest and most up‐to‐date
+ignorant members demand "the latest and most up-to-date
 treatments" from doctors who may not believe in those treatments
 themselves. As for the poorer classes, if they are not given a bottle of
 medicine by their physician, they consider they are not getting their
 money's worth. With regard to operations, it cannot be denied that
 despite their unpleasantness and attendant afterpains, many persons
-actually enjoy them because they afford an opportunity for self‐
+actually enjoy them because they afford an opportunity for self-
 dramatisation. Nevertheless, I contend that the desire to be fussed over
 and coddled and commiserated is in itself a sign of morbidity, and
 hence denotes an absence of true health. I will even go so far as to say
 that most of the troubles in the world are either directly or indirectly
-due to the same cause. Nor will I exclude wars ‐extravagant though it
+due to the same cause. Nor will I exclude wars -extravagant though it
 may sound. Those men who foment or are directly responsible for wars
 are not normal and healthy human beings. Julius Caesar was an
 epileptic, Napoleon died of cancer of the stomach, and Hitler presents a
@@ -3705,10 +3745,10 @@ with all the world, and have no wish to slaughter or persecute their
 fellows or exalt themselves above others. For health not only means an
 inner' happiness, but consequently a feeling of contentment with one's
 lot, and an absence of fantastic ambitions such as those from which
-self‐appointed leaders have suffered‐at what cost to humanity! That
+self-appointed leaders have suffered-at what cost to humanity! That
 one hundred per cent health is attainable I have every reason to believe.
 But it is not what people can do but what they will do towards this
-desideratum which is the crux of the matter. Before theca can be well‐
+desideratum which is the crux of the matter. Before theca can be well-
 being for all there will need to be a vast reformation in prevailing
 practices, and in the methods of instructing the masses how to be well
 and keep well. As to the reformers themselves, they will be regarded
@@ -3723,11 +3763,11 @@ a certain amount of vital foods by calling the vital elements vitamins.
 
 That I shall be labelled a crank is of course fully to be expected, and if
 the Medical Profession condescends to pay any attention to this
-exposition of urine‐therapy at all, it will probably be to bring all kinds of
+exposition of urine-therapy at all, it will probably be to bring all kinds of
 purely theoretical arguments against it. But will a single one of its critics
 be able to substantiate his theoretical condemnations by saying
 truthfully that he has tried the method over a long period of years, if at
 all, and has found it wanting? I think not one; for I have ceased to be
-the only practitioner of urine‐therapy according to the method here
+the only practitioner of urine-therapy according to the method here
 described, and other practitioners declare they find it as efficacious as I
 myself have done.

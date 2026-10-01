@@ -26,7 +26,6 @@
 5. Care sunt caracteristicile principale ale conditiilor reci? Ce fel de ierburi ai sfatui sa fie folosite atunci cand avem de-a face cu ele?
  Conditiile reci sunt caracterizate de senzatia de frig, congestie, intepenire, si se pot trata cu bauturi fierbinti, mancare calda si ierburi calde.
 
-
 6. Care crezi ca este, in general, cel mai simplu si mai sigur mod de a colecta ierburi? Explica succint de ce.
  Ierburile se culeg din zone nepoluate la anumite ore in timpul zilei(depinzand de fiecare planta in parte), atunci cand soarele e pe cer.
 

@@ -1,14 +1,10 @@
-Tratamentul natural al Depresiei
-
-
+# Tratamentul natural al Depresiei
 
 Aloe Vera Gel 2 linguri dimineața și 2 la prânz pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghițituri mici pentru a facilita absorbția la nivelul mucoasei bucale.
 
 Regim alimentar: se recomandă excluderea excitantelor (cafea, tutun, alcool) și a alimentelor bogate în aditivi chimici de sinteză.
 
 **Foarte eficient**: Vit B-Complex+Mg+Vit C
-
-
 
 Bolile secolului, cum sînt numite stresul, depresia și nervozitatea, pot fi și ele tratate prin remedii naturiste.
 
@@ -17,13 +13,9 @@ De reținut că, aceste plante nu acționează decît în cazul depresiilor ușo
 
 Stresul și nervozitatea pot fi îndepărtate cu ginseng. Acesta conține vitaminele B și C, precum și acizi aminați cu efect de tonifiere intelectuală și fizică. Se recomandă a se lua, de preferință, dimineața, deoarece poate provoca stări de insomnie. Remediile din ginseng nu se administrează concomitent cu unele excitante precum cafeaua și ceaiul, iar consumul lor este bine să fie limitat în timpul sarcinii. Consumul de ginseng poate fi suplinit cu succes prin administrarea ceaiurilor de măceș. Acestea reglează ritmul cardiac și reduce palpitațiile. Este recomandat, în special, în hiperemotivitate și în stări de tensiune nervoasă. (C.I.)
 
-
-
 **Depresia afecteaza inima (Ana-Maria Adamoae)**
 
 Prezenta depresiei la femeile in varsta de peste 50 de ani se asociaza puternic cu un risc crescut de deces prin boli de inima, potrivit unor studii recente. Astfel, cercetatorii americani din cadrul organizatiei Women's Health Initiative au examinat legatura dintre depresie si sanatatea inimii. Din totalul de 93.676 femei ale grupului de studiu, aproape 16% au avut scoruri inalte pe scala de masurare a depresiei. Rata deceselor prin boli de inima in cei patru ani ai studiului a fost cu 50% mai mare in randul femeilor suferinde de depresie. Identificarea depresiei ca factor de risc independent pentru bolile de inima este o noutate. Cercetatorii nu au putut explica de ce sau cum afecteaza depresia sanatatea inimii. Totusi, aceste constatari probeaza existenta unei legaturi intre depresie si cresterea riscului de boli de inima. Cercetarile in acest domeniu continua si ar putea aduce mari surprize.
-
-
 
 ### Evitati tristetea si puteti preveni aparitia cancerului
 
@@ -53,8 +45,6 @@ Femeile mai izolate din punct de vedere social au un risc de a muri de cancer cu
 
 Cauzele pentru care depresiile predispun la cancer raman insa un mister, chiar si pentru cei care au efectuat studiile. Se stie doar ca persoanele deprimate au in sange un nivel ridicat al hormonilor stresului, iar acestia reduc activi-tatea celulelor albe, care \"conduc\" la apararea organismului in fata celulelor canceroase.
 
-
-
 ### Vitamina B12 ajuta la tratarea depresiei
 
 Vitaminele pot ajuta oamenii sa combata depresia, arata un studiu care a dovedit ca bolnavii cu un nivel mare de vitamina B12 in sange reactioneaza mai bine la tratamentele specifice, transmite BBC online. Cercetatorii sugereaza ca administrarea suplimentelor de vitamina B12 ar putea fi o modalitate de a mari eficienta antidepresivelor. Studiul, realizat de Universitatea Kuopio din Finlanda, este publicat in ziarul BMC Psychiatry.
@@ -62,8 +52,6 @@ Vitaminele pot ajuta oamenii sa combata depresia, arata un studiu care a dovedit
 Prof. Jukka Hintikka a explicat ca descoperirea poate fi extrem de utila, deoarece multi pacienti nu raspund la tratamentul cu antidepresive. El a spus ca nu este exclus ca vitamina B12 sa fie necesara in sintetizarea unor substante numite monoamine, a caror carenta in sistemul nervos este una dintre cauzele depresiei. O alta teorie este ca deficienta de B12 are ca rezultat acumularea unui alt compus, homocisteina, care ar putea provoca depresia. Prof. Hintikka este de parere ca sunt necesare studii mai profunde in acest domeniu. \"Este inca prea devreme sa sugeram ca pacientii sa ia vitamina B12 sau alte vitamine pentru a se trata de depresie. Este insa posibil ca administrarea vitaminei B12 sa ajute la prevenirea simptomelor depresive in cazul pacientilor care au carente.\"
 
 Vitamina B12 se gaseste in stare naturala in alimente precum pestele, laptele si produsele lactate, ouale, carnea rosie si alba.
-
-
 
 ### Ceapa cruda poate alunga depresiile
 
@@ -78,7 +66,6 @@ Lamaia este folosita in aromoterapie pentru calitatile ei de a readuce linistea.
 Pentru revigorarea organismului si recapatarea tonusului sunt recomandate baile in care se pun cateva picaturi de ulei de lamaie. Daca puneti aceste picaturi pe o batista pe care o mirositi, specialistii spun ca va puteti revigora memoria si va puteti concentra mai bine. Masajul cu ulei de lamaie trateaza durerile de cap si ametelile, alunga starile depresive, durerile la urinare si crampele menstruale. Cu una-doua picaturi din acest ulei puse pe o batista faceti o compresa cu ajutorul careia puteti trata eczemele, degeraturile, arsurile si muscaturile de insecte. Pentru a scapa de durerile in gat, faceti gargara cu zeama de lamaie amestecata cu apa, deoarece are efecte antiseptice.
 
 Nu folositi uleiul de lamaie inainte de a iesi la soare, deoarece ar putea dauna pielii. Persoanele cu pielea sensibila sunt sfatuite sa foloseasca acest remediu mai rar, aproximativ o data pe luna.
-
 
 **Stresul sporeste pofta de mancare**
 
@@ -102,8 +89,6 @@ Tamaia este rasina unui arbore care creste in Asia, inclusiv in zona Iordanului,
 
 O echipa de cercetatori de la Universitatea din Newcastle cauta voluntari in vederea testarii unei pilule pentru tratarea depresiei. Ingredientul-cheie al acesteia este hormonul DHEA, ce se gaseste in mod natural in organism, dar care descreste cu varsta. Persoanele depresive au acest hormon in cantitati reduse. DHEA, care este produsa de glandele suprarenale, neutralizeaza efectul hormonului stresului, incetineste procesul de imbatranire si imbunatateste procesul memoriei. Dr. Hamish McAllister-Williams, coordonatorul cercetarilor, sustine ca DHEA produce schimbari semnificative in modul de actiune al creierului. Liderul grupului Depression Alliance a declarat pentru BBC News Online: \"Foarte multe persoane cu depresie au probleme cu memoria si concentrarea\". (C. Dobre)
 
-
-
 ### Vitamina B6 intareste sistemul nervos
 
 Cercetarile efectuate de-a lungul timpului de oamenii de stiinta au aratat ca rolul vitaminei B6 in organism este de o mare importanta. Ea previne anumite tulburari nervoase (fiind un bun suport pentru cazurile de epilepsie, Parkinson si diverse scleroze), reduce spasmele nocturne, carceii, amorteala mainilor si anumite forme de nevrite ale extremitatilor. Vitamina B6 imbunatateste digestia, contribuie la intarzierea procesului de imbatranire, poate ajuta in cazurile de acnee si participa la producerea globulelor rosii.
@@ -114,8 +99,6 @@ Vitamina B6 se pierde prin gatire si refrigerare. Cea mai buna sursa este carnea
 In timpul sarcinii, nevoia de vitamina B6 este crescuta, deoarece sunt foarte importante echilibrul hormonal in corpul viitoarei mame si dezvoltarea sistemului nervos al copilului. Este indicat un aport sporit de B6 si pentru femeile cu sindrom premenstrual.
 
 Simptomele resimtite la nivel emotional (oboseala, nervozitatea, depresia) de femeile care folosesc anticonceptionale sunt cauzate de deficienta de vitamina B6, care poate duce, in general, la slabirea imunitatii, irascibilitate, agresivitate sau depresie. B6 este folositoare barbatilor care au activitati stresante, care sunt obositi, iritati, au migrene, sufera de anemie, au probleme de prostata sau isi pierd podoaba capilara.
-
-
 
 **Ginkgo biloba amelioreaza memoria**
 
@@ -215,8 +198,6 @@ Selmedica Healthcare manufactures every product that we sell in our own state of
 
 Selmedica Healthcare products are not approved or disapproved by the FDA. At this time the food and drug administration does not review, approve or disapprove any dietary supplement itself. Statements about Welatonin made here have not been evaluated by the Food and Drug Administration. Welatonin is not intended to diagnose, treat, cure, or prevent any disease.
 
-
-
 WELLBUTRIN XL^®^(bupropion HCl extended-release tablets
 
 PAXIL CR™ (paroxetine HCI) Controlled-Release Tablets
@@ -231,16 +212,12 @@ Cind se face baia fierbinte, tot corpul este scufundat in apa, cu exceptia capul
 
 Este contraindicata persoanelor care sufera de diabet, cancer, cardiopatie ischiemica si vulvopatii, tulburari vasculare, hipertensiune arteriala. De asemenea, trebuie sa se tina seama de faptul ca persoanele in virsta sau debile nu tolereaza bine baia fierbinte. Daca apare starea de ameteala sau de lesin, baia trebuie oprita imediat si in orice caz, persoana respectiva nu trebuie sa fie niciodata singura atunci cind face baia. Baia fierbinte nu se utilizeaza in timpul menstruatiei.
 
-
-
 ### Leurda
 
 Moduri de folosire:**\
 **-sub forma de condiment: frunzele proaspete de leurda se maruntesc ca patrunjelul sau ceapa si se presara pe piine, in supe, sosuri, salate si mincaruri de carne.\
 -tinctura de leurda: frunzele sau bulbii taiati marunt se introduc intr-o stical pina la git fara a se indesa, se toarna desupra rachiu de secara sau orice alt rachiu de 38-40% facut in casa si se lasa 14 zile in soare sau in apropierea masinii de gatit. Se iau de 4 ori pe zi cate 10-15 picaturi in putina apa.\
 -vin de leurda: se ia 1 pumn de frunze taiate marunt, se lasa sa dea citeva clocote in ¼ litru de vin alb, se indulceste dupa gust cu miere sau sirop si se bea din acest vin peste zi, incet, inghititura cu inghititura
-
-
 
 **Utilizarea usturoiului ca remediu medical**
 
@@ -265,8 +242,6 @@ O altă prioritate importantă a usturoiului, spune dna Beju, este aceea de anti
 Extern: analgezica, calmanta, antidepresiva, bactericida, cicatrizanta, parazicitida, insecticida, antiveninoasa, reglatoare a activitatii sistemului nervos, anticonvulsiva, antidepresiva, vulnerara, antimicrobiana si antifugica (uleiul volatil in dilutii de pana la 1 la mie).\
 Se recomanda intern in: migrene, cefalee, afectiuni cardiace cu substrat nervos, tulburari digestive, balonari, anxietate, iritabilitate, spasme, insomnii, boli infectioase, melancolie, neurastenie, afectiuni ale cailor respiratorii, reumatism, debilitate infantila, atonie gastrica si intestinala, ameteli, isterie, sechele ale paraliziei, enterite, febra tifoida, cistite, paraziti intestinali, hipertensiune, bronsita.\
 Se recomanda extern in: stari febrile comprese cu tinctura diluata in apa, plagi de orice natura: simple, atone, infectate, cangrenoase, sifilitice comprese cu tinctura, arsuri de gradul I si II comprese cu tinctura - in ciuda usturimii efectele vindecatoare sunt remarcabile, cuperoza comprese cu tinctura diluata in apa, intepaturi de insecte, muscaturi de animale si de vipera (tratament imediat) comprese cu tinctura, pediculoza, caderea parului frictiune la radacina parului cu tinctura din abundenta, dupa care capul se acopera, dureri de cap, paralizie frictionari locale cu tinctura.
-
-
 
 **Tratament cu macerat din rădăcini de țelina și semințe de ovăz**
 

@@ -1,4 +1,5 @@
-Sistemul endocrin
+# SISTEMUL ENDOCRIN
+
 Sistemul endocrin are rol de comunicare și coordonare și se bazează în exercitarea
 funcțiilor sale pe hormoni (substanțe chimice ce sunt eliberate în sânge pentru a
 trimite mesaje celulelor organismului). Hormonii sunt produși de glandele endocrine și
@@ -10,14 +11,18 @@ anumiți receptori de care hormonii se pot cupla. Aceștia intervin, pe cale umo
 nu pe cale nervoasă, cum acționează creierul) în dezvoltarea și menținerea structurii
 normale și în reglarea funcțiilor organismului. Între sistemele de coordonare nervoasă
 și umorală există o strânsă interdependență.
-Structura sistemului endocrin
+
+## Structura sistemului endocrin
+
 Glandele endocrine sunt: hipofiza, epifiza, hipotalamusul, tiroida, paratiroidele,
 timusul, suprarenalele, pancreasul endocrin, ovarele și testiculele.
-1
+
+### Hipofiza (glanda pituitară)
 
 Hipofiza (glanda pituitară) are greutatea de 0,5 grame. Este formată din trei lobi,
 anterior, mijlociu și posterior, ultimul fiind conectat la hipotalamus. Hormonii secretați
 de hipofiză sunt:
+
 * Hormonul somatotrop: este hormonul de creștere. De asemenea, intervine în
 dezvoltarea celulelor, activează transportul aminoacizilor în celule și stimulează
 secreția glandelor mamare. Hipersecreția acestui hormon înainte de pubertate
@@ -30,8 +35,13 @@ determină gigantismul, iar secreția insuficientă cauzează nanismul hipofizar
 lichidelor extracelulare în organism prin stimularea absorbției de apă la nivel renal.
 * Ocitocina favorizează nașterea prin stimularea contracțiilor musculaturii uterului și
 alăptarea.
+
+### Epifiza
+
 Epifiza are formă conică și are ca principal hormon secretat melatonina, care
 acționează inhibator asupra glandelor sexuale și are efect hipoglicemiant.
+
+### Tiroida
 
 Tiroida se găsește lângă laringe și trahee și are o greutate de aproximativ 30 de
 grame. Hormonii tiroidei sunt tiroxina și triiodotironina. Acțiunea acestora cuprinde:
@@ -40,16 +50,23 @@ absorbția intestinală de glucoză, determinând hiperglicemia, stimulează act
 glandelor sexuale. O diminuare a funcției tiroidei poate determina cretinismul ori
 scăderea capacității de învățare și de memorare. La populațiile din zone muntoase,
 cu ape sărace în iod, apare gușa endemică, creșterea volumului glandei tiroide.
+
+### Paratiroidele
+
 Paratiroidele sunt patru glande mici aflate în partea posterioară a tiroidei și care
 secretă hormonii: parathormonul și calcitonina care au rol în menținerea echilibrului
 (absorbția și fixarea) fosforului și a calciului organismului. Hiperfuncția acestor glande
 determină decalcifierea osoasă, iar hipofuncția lor conduce le dezvoltarea
 defectuoasă a dinților și întârzieri mintale.
-3
+
+### Timusul
 
 Timusul este un organ care se dezvoltă până în al doilea an de viață, după care
 rămâne staționar până la 14 ani, când se atrofiază și este înlocuit cu o grăsime.
 Limfocitele T, care își au originea în măduva hematogenă sunt diferențiate în timus.
+
+### Glandele suprarenale
+
 Glandele suprarenale se găsesc în partea de sus a fiecărui rinichi. Zonă exterioară a
 acestora secretă trei categorii de hormoni steroizi: mineralocorticoizi (reglarea
 metabolismului mineral, reabsorbția natriului și eliminarea potasiului), glucocorticoizi
@@ -60,17 +77,25 @@ suprasolicitările stimulează secreția medulosuprarenalei. În stări de stres
 organismul este obișnuit crește nivelul noradrenalinei, iar în condiții de stres
 neobișnuit crește secreția adrenalinei.
 
+### Pancreasul endocrin
+
 Pancreasul endocrin este format din celule răspândite în interiorul pancreasului
 exocrin. Există două tipuri de celule, celule alfa, care secretă glucagonul și celule
 beta care secretă insulina. Insulina este principalul hormon care scade nivelul
 glicemiei din organism. Ea crește gradul de utilizare a glucozei în celule și ajută la
 transformarea glucidelor în lipide. Hiposecreția de insulină produce diabetul zaharat.
 Glucagonul are efecte opuse insulinei, determinând hiperglicemie.
+
+### Ovarele
+
 Ovarele produc hormonii sexuali ai femeii, incluzând hormonii steroizi: estrogenul și
 progesteronul, precum și inhibina. Estrogenul și progesteronul reglează funcțiile
 ovariene și dezvoltarea sânilor la pubertate. Estrogenul ajută la dezvoltarea ovulelor.
 Progesteronul este necesar în menținerea și dezvoltarea sarcinii, dacă acesta s-a
 produs.
+
+#### Cum previne pilula contraceptivă sarcina?
+
 Cum previne pilula contraceptivă sarcina? Ciclul menstrual și sarcina sunt controlate
 de la nivelul creierului de hipofiză. Aceasta eliberează lunar substanțe, stimulând
 ovarele să producă hormonii sexuali: estrogenul și progesteronul. În primele 2
@@ -81,9 +106,13 @@ fertilizat. Pilula contraceptivă este cea care mimează nivelul crescut de prog
 Ca urmare, hipofiza blochează eliberarea de alte ovule. Rolul pastilei contraceptive
 este, așadar, acela de a preveni ovulația. Totodată, mucusul cervical se îngroașă,
 devenind mai vâscos și impenetrabil pentru spermatozoizi.
+
+### Testiculele
+
 Testiculele produc testosteronul și inhibina. Testosteronul ajută la crearea spermei,
 dezvoltarea caracteristicilor bărbătești și la creșterea dorinței sexuale.
-5
+
+## SISTEMUL ENDOCRIN — descriere detaliata
 
 SISTEMUL ENDOCRIN = totalitatea glandelor endocrine sau cu secretie interna.
 Hormonii sunt secretati de celulele endocrine sau neurosecretoare si de celulele
@@ -91,50 +120,73 @@ mucoasei gastrointestinale.
 Glandele endocrine sunt: hipofiza, suprarenalele, tiroida, paratiroidele, epifiza, timusul
 si glande mixte cu secretie
 exocrina si endocrina: pancreasul, testiculul. ovarul.
+
+### HIPOFIZA
+
 HIPOFIZA: e situata la baza encefalului, intr-o depresiune a osului sfenoid, numita
 saua turceasca, fiind acoperita de o capsula fibroasa.
 Glanda de forma ovoida, in greutate de circa 1g, este alcatuita din 3 lobi:
-I. anterior (voluminos) = adenohipofiza; secreta hormoni:
+
+**I. anterior (voluminos) = adenohipofiza**; secreta hormoni:
+
 a. nonglandulotropi: actioneaza direct asupra tesuturilor periferice
+
 - hormonul stomatotrop (STH) cu rol in crestere
-Hipofunctia (la copii) - nanism hipofizar
-Hiperfunctia (la copii) -gigantism
-Hiperfunctia (la adulti) - acromegalia
+ Hipofunctia (la copii) - nanism hipofizar
+ Hiperfunctia (la copii) -gigantism
+ Hiperfunctia (la adulti) - acromegalia
 - prolactina (PRL) cu rol in stimularea secretiei lactate
 - hormonul melanocistostimulator (MSH) cu rol in coloratia pielii la mamifere
+
 b. glandulotropi: actioneaza asupra glandelor endocrine reglandu-le activitatea
+
 - tirotropina (TSH) stimuleaza secretia glandei tiroide
 - corticotropina (ACTH) stimuleaza secretia corticosuprarenalei
 - hormonii gonadotropi foliculostimulant (FSH) regleaza activitatea goandelor si
-secretia de hormoni sexuali
+ secretia de hormoni sexuali
 - luteinizant (LH)
-II. posterior (de dimensiuni mici) = neurohipofiza
+
+**II. posterior (de dimensiuni mici) = neurohipofiza**
+
 - hormonul antidiuretic (ADH) stimuleaza reabsorbtia apei la nivelul tubului contort
-distal si a tubului colector
-Hiposecretia de ADH- diabet insipid
+ distal si a tubului colector
+ Hiposecretia de ADH- diabet insipid
 - ocitocina stimuleaza contractia muschilor intrauterini in timpul travaliului si a
-celulelor mioepiteliale din peretii
-canalelor galactofore ale glandelor mamare
-III. intermediar (redus la om)
+ celulelor mioepiteliale din peretii
+ canalelor galactofore ale glandelor mamare
+
+**III. intermediar (redus la om)**
+
+### GLANDELE SUPRARENALE
+
 GLANDELE SUPRARENALE: sunt situate deasupra polului superior al fiecarui
 rinichi.
 Alcatuire:
-I. zona exterioara - corticala: corticosuprarenala; formata din 3 zone celulare
+
+**I. zona exterioara - corticala:** corticosuprarenala; formata din 3 zone celulare
+
 a. periferica: secreta hormoni mineralocorticoizi (stimuleaza reabsorbtia renala a Na+
 si eliminarea K+)
 b. din mijloc: secreta hormoni glucocorticoizi (stimuleaza catabolismul glucidic, lipidic,
 mentine constanta glicemia)
 c. din interior: secreta hormoni sexosteroizi
-II. zona interioara- medulara: medulosuprarenala; neurosecretiile sunt:
+
+**II. zona interioara- medulara:** medulosuprarenala; neurosecretiile sunt:
+
 a. adrenalina (A)
 
 b. noradrenalina (NA)
+
+### TIROIDA
+
 TIROIDA: glanda endocrina nepereche, 20-30g, situata pe fata anterioara a gatului,
 are forma musculara H. Secreta:
+
 - calcitocina
 - coloid
 - triiodotironina (T3)
 - tiroxina (T4)
+
 Hormonii tiroidieni: exercita o actiune de ansamblu asupra organismului, stimulaeaza
 cresterea si dezvoltarea organismului
 la copil; diferentiaza sistemul nervos al corpului; stimuleaza consumul de O2 in
@@ -142,24 +194,33 @@ tesuturile metabolic active.
 Hipotiroidismul (la nou-nascut) - cretinism, nanism tiroidian
 Hipotiroidismul (la adult) - mixedem, gusa endemica (din cauza lipsei iodului)
 Hipertiroidismul - boala Basedow
+
+### GLANDELE PARATIROIDE
+
 GLANDELE PARATIROIDE: sunt asezate 2 cate 2 pe fata posterioara a lobilor
 tiroidei, forma ovoida, 130mg. Secreta:
-- parathormonul (PTH) stimuleaza formarea si activitatea osteoclastelor; la nivel renal
-stimuleaza reabsorbtia Ca si
-inhiba reabsorbtia tubulara a fosfatilor
-- calcitonina (CT) are actiune hipocalcemianta (scade calcemia), inhiba reabsorbtia
-tubulara a fosfatilor
-PANCREASUL ENDOCRIN: formatiuni sferice mici, in nr de circa un milion. Secreta:
-- insulina
-Hiposecretia -> diabet zaharat
-Hipersecretia -> hipoglicemie severa, care perturba functionarea sistemului nervos
-- glucagonul are cel mai puternic efect hiperglicemiant
-7
 
-RESPIRATIA
+- parathormonul (PTH) stimuleaza formarea si activitatea osteoclastelor; la nivel renal
+ stimuleaza reabsorbtia Ca si
+ inhiba reabsorbtia tubulara a fosfatilor
+- calcitonina (CT) are actiune hipocalcemianta (scade calcemia), inhiba reabsorbtia
+ tubulara a fosfatilor
+
+### PANCREASUL ENDOCRIN
+
+PANCREASUL ENDOCRIN: formatiuni sferice mici, in nr de circa un milion. Secreta:
+
+- insulina
+ Hiposecretia -> diabet zaharat
+ Hipersecretia -> hipoglicemie severa, care perturba functionarea sistemului nervos
+- glucagonul are cel mai puternic efect hiperglicemiant
+
+# RESPIRATIA
+
 Definirea organelor componenete ale sistemului respirator - Fosele nazale,
 Faringele, Laringele, Traheea, Bronhiile, Plamanii
-Sistemul respirator
+
+## Sistemul respirator
 
 Componentele sistemului respirator sunt caile respiratorii (cavitatea nazala, faringele,
 laringele, traheea, bronhia) si plamanii.
@@ -206,11 +267,13 @@ Un plaman este, deci, alcatuit dintr-un mare numar de saci pulmonari. Suprafata
 acestora este foarte mare datorita alveolelor, a caror suprafata totala atinge
 200 m patrati. Astfel, sangele si aerul se gasesc in contact pe o mare suprafata. Ele
 sunt separate doar de peretii foarte subtiri ai alveolelor si ai capilarelor.
-Fiziologia sistemului respirator
+
+## Fiziologia sistemului respirator
+
 Functionarea sistemului respirator, prin care se asigura respiratia, cuprinde, in
 principal, respiratia pulmonara si respiratia celulara.
-Respiratia pulmonara
-9
+
+### Respiratia pulmonara
 
 Aceasta etapa a respiratiei cuprinde doua faze: patrunderea aerului in plamani
 (inspiratia); eliminarea aerului din plamani (expiratia), care dureaza mai mult decat
@@ -232,10 +295,12 @@ gimnastica etc.
 Aerul este un amestec de gaze in urmatoarea proportie: 21% oxigen, 78% azot,
 0,03% dioxid de carbon si alte alte gaze in cantitati foarte mici. Caracteristicele
 aerului inspirat sunt diferite de cele ale aerului expirat.
-Compozitie(%)
-Azot Oxigen Dioxid de carbon Vapori apa Temperatura
-Aerul inspirat 78 21 0,03 variabil variabila
-Aerul expirat 78 16 4,5 saturat 37 grade C
+
+| Compozitie(%) | Azot | Oxigen | Dioxid de carbon | Vapori apa | Temperatura |
+|---|---|---|---|---|---|
+| Aerul inspirat | 78 | 21 | 0,03 | variabil | variabila |
+| Aerul expirat | 78 | 16 | 4,5 | saturat | 37 grade C |
+
 Astfel in plamani, aerul pierde oxigen, se imbogateste in dioxid de carbon si vapori
 de apa.
 Schimbarile de gaze se produc la nivelul alveolelor pulmonare, unde sangele si aerul
@@ -274,7 +339,9 @@ bifurcatiile acesteia, bronhiile, mici ramificatii ale bronhiilor numite bronhio
 plamanii, niste organe buretoase. Nasul, faringele, laringele, traheea, bronhiile si
 bronhiolele conduc aerul de la si la plamani. Plamanii interactioneaza cu sistemul
 circulator care transporta oxigenul si elimina dioxidul de carbon.
-Pasajul nazal
+
+### Pasajul nazal
+
 Fluxul de aer din afara corpului la plamani incepe cu nasul, care este impartit
 in pasajul nazal stang si drept. Pasajele nazale sunt acoperite de o membrana cu
 celule epiteliale. Fiecare celula epiteliala este impanzita cu mii de cili microscopici,
@@ -286,7 +353,6 @@ structurile sistemului respirator.
  Filtrarea previne bacteriile, virusii sau alte substante toxice sa intre in plamani,
 unde pot cauza o infectie. Filtrarea elimina de asemea si urmele de poluare si praful,
 ce pot infunda ingustele pasaje din cele mai mici bronhiole.
-11
 
 Pasajele nazale umezesc si incalzesc de asemenea aerul pentru a preveni daunarea
 delicatelor membrane ale plamanilor. Membranele mucoase ale pasajelor nazale
@@ -300,7 +366,9 @@ In afara rolului ce il au in sistemul respirator, pasajele nazale contin recepto
 olfactivi, care sunt implicati in simtul mirosului. Cand chimicale intra in pasajul nazal,
 ele intra in contact cu receptorii olfactivi. Acest lucru face ca receptorii sa trimita un
 semnal catre creier, creand perceptia unui miros.
-Faringe
+
+### Faringe
+
 Aerul paraseste pasajul nazal si intra in faringe, un tub scurt de aprox. 13 cm
 lungime care transporta aerul catre laringe. Ca si pasajul nazal, faringele este
 acoperit de o membrana mucoasa protectoare si celule cu cili care scot impuritatile
@@ -309,7 +377,9 @@ amigdalele, tesuturi limfatice care contin leucocite. Leucocitele ataca orice or
 ce poate cauza boli si care au scapat de “trierea” de la parul, cilii si mucoasa nazala
 si de faringe. Amigdalele sunt de mai multe feluri depinzand de locul in care sunt
 situate: adenoida, amigdalele linguale si amigdalele palatine.
-Laringele
+
+### Laringele
+
 Aerul trece din faringe in laringe, o structura lunga de aprox. 5 cm, locata pe la
 mijlocul gatului.. Mai multe straturi cartilaginoase, un strat dur si unul moale,
 
@@ -330,8 +400,8 @@ mananca, reflexul de inghitire nu mai are loc, iar mancarea intra in laringe.
 Mancarea, bautura sau alte substante ce au patruns in laringe dezvolta reflexul de
 tusire, reflex in care corpul incearca sa deblocheze laringele. Daca acest reflex nu
 functioneaza, o persoana se poate ineca, o situatie ce poate fi uneori fatala.
-Traheea, bronhiile si bronhiolele
-13
+
+### Traheea, bronhiile si bronhiolele
 
 Aerul trece din laringe in trahee, un tub lung de 12-15 cm localizat chiar sub
 laringe. Traheea este formata din 15 pana la 20 inele semicirculare cartilaginoase.
@@ -343,7 +413,9 @@ cea dreapta, care conduc aerul in plamanul stang respectiv cel drept.. In plaman
 bronhiile se despart in tuburi si mai mici numite bronhiole. Traheea, brnhiile si cateva
 din primele bronhiole sunt captusite si ele cu membrana mucoasa si celule ciliate
 care muta mucoasa in sus spre faringe.
-Alveolele pulmonare
+
+### Alveolele pulmonare
+
 Bronhiolele de divid de mai multe ori in plamani pentru a crea un impresionant
 pom cu ramuri din ce in ce mai mici, unele nu mai mari de 0.5 mm diametru. Aceste
 ramuri se termina in mici saci de aer numiti alveole. Alveolele conduc oxigenul la
@@ -363,7 +435,9 @@ Dioxidul de carbon care ajunge in fluxul sangvin ca si produs rezidual de la
 celule este pompat catre inima, ajungand la alveolele capilare. Concentratia CO2
 este mult mai mare decat cea din alveole, facand CO2 sa treaca in alveole. Expiratia
 forteaza CO2 inapoi in pasajele respiratorii, iar apoi in afara corpului.
-Respiratia
+
+### Respiratia
+
 Fluxul de aer ce intra si iese din plamani este controlat de sistemul nervos, ce
 se asigura ca respiratia este regulata. Respiratia are loc zi si noapte si este un
 proces inconstient.
@@ -381,19 +455,21 @@ expiratia. In conditii normale, centrul respirator trimite in jur de 12-20 semna
 minut, facand o persoana sa respire de 12-20 de ori pe minut. Nou-nascutii respira
 mai repede, de 30 de ori pana la 50 de ori pe minut.
 
-15
+# EXCRETIA
 
-EXCRETIA
  Excretia este procesul de eliminare din organism a substantelor rezultate
-in urma activitatilor biochimice ale organismului . Substanta rezultata in urma
+ in urma activitatilor biochimice ale organismului . Substanta rezultata in urma
 acestui proces este urina , iar organele la nivelul carora se formeaza urina ,
 impreuna cu organele care o conduc la exterior , alcatuiesc aparatul
 excretor .
 
- Aparatul excretor este alcatuit din : 1.Rinichi
- 2.Caile urinare
+ Aparatul excretor este alcatuit din :
 
-1.Rinichii
+1. Rinichi
+2. Caile urinare
+
+## Rinichii
+
  Sunt organe pereche , situate retroperitonal , de o parte si de alta a
 coloanei vertebrale lombare . Rinichiul are forma caracteristica , cantareste
 circa 300 grame , are doua fete (anterioara si posterioara) si doua margini
@@ -404,14 +480,12 @@ concava si doi poli : unul superior si altul inferior . Pe partea concava se afl
 hilul renal , alcatuit din artera si vena renala , limfaticele , nervii si jonctiunea
 uretereo-bazinetala.
 
-
  Rinichiul drept este ceva mai jos situat decat cel stang . Loja renala
 este limitata in sus de diafragma , in spate de ultimele doua coaste si
 dedesubtul lor de muschii si aponevrozele lombare , iar inainte de viscerele
 abdominale . In jos loja renala este deschisa . Situarea lombo-abdominala a
 rinichiului explica de ce durerile renale pot fi resimtite lombar , abdominal sau
 pelvian , de ce tumorile renale se evidentiaza ca o masa abdominala si de ce
-17
 
 flegmoanele perinefretice cu evolutie superioara imbraca simptomatologie
 toracica .
@@ -419,10 +493,12 @@ toracica .
 vad vasele renale (artea si vena renala ) uretrul si fibrele nervoase vegetative
 . Sectionand rinichiul de-a lungul liniei mediane , din partea convexa spre cea
 concava se observa :
+
  - papilele si calicele renale : formatiuni membranoase prin care se scurge
 urina ,
  - parenchimul renal , cu structura zonala : corticala si medulara
- Zona corticala este formata in principal din glomeruli , tubi uriniferi si
+
+Zona corticala este formata in principal din glomeruli , tubi uriniferi si
 vasele de sange care le apartin . Zona medulara contine 6-18 piramide renale
 ( Malpighi) , formate din tubi colectori care dreneaza mai multi nefroni .
 Piramidele renale sunt orientate cu baza spre periferie si varful spre sinusul
@@ -439,6 +515,7 @@ formeaza o arteriola aferenta care se capilarizeaza din nou in jurul primei port
 tubului urinifer .
  Tubul urinifer se prezinta sub forma unui canal lung de cca 50 mm format din
 urmatoarele segmente :
+
  -capsula Bowman , extremitatea proximala , inchisa dilaterala a nefronului ,
 are forma unei cupe cu pereti dubli , marginind o cavitate ce continua tubul .
 In adancitura capsulara se afla un ghem de 4-12 bucle capilare (glomerul) ,
@@ -448,7 +525,7 @@ capsula , in arteriola aferenta . Capsula interna cu glomerulul alcatuiesc
 capsulul renal Malpighi .
  - segmentul proximal este constituit dintr-o portiune contorta , tubul
 contort proximal
- (in care se afla cortica renala ) si este format dintr-un strat de celule a caror
+(in care se afla cortica renala ) si este format dintr-un strat de celule a caror
 membrana , spre lumen , prezinta o “margine in perii” , formata din microviri ,
 care maresc mult suprafata membranei .
  - segmentul intermediar (ansa Heule) , subtire este format din doua brate
@@ -463,7 +540,9 @@ netede a arteriolei aferente , prezinta modificari si formeaza aparatul juxtaglo
 care secreta renina . Urmeaza o portiune contorta situata in inregime in corticala .
 Mai multi tubi distali se unesc si se deschid in tubul colector din structura piramidelor
 Malpighi .
- Vascularizatia renala
+
+### Vascularizatia renala
+
  Este extrem de bogata , primind 20-25% din debitul cardiac de repaos .
 Artera renala , ramura a aortei abdominale , patrunde prin hil si apoi se imparte in
 ramuri interlobare (intre piramide) , din care se desprind arterele arcuate, ce
@@ -472,17 +551,15 @@ regrupeaza in arteriole , se capilarizeaza din nou in jurul tubului respectiv (i
 medulara) si se deschid in venele interlobulare , apoi in venele arcuate .
  Venele avand un traiect aproape asemanator cu cel al arterelor , se
 colecteaza in vena renala care se deschide in vena cava inferioara .
-19
 
-[Nu a fost extras text din această pagină.]
+### Inervatia renala
 
-Inervatia renala
  Provine din plexul situat in hilul organului format in majoritate din fibre
 simpatice , dar si din cateva fibre parasimpatice venite prin nervul vag . Fibrele
 nervoase , situate perivascular , se distribuie celulelor musculare din peretele
 arteriolar si componentelor tubulare .
 
- 2. Caile urinare
+## Caile urinare
 
  Pelvisul renal se continua cu ureterele . Ureterele sunt conducte care ies din
 partea concava a fiecarui rinichi si se deschid in vezica urinara . Peretii ureterelor
@@ -490,7 +567,9 @@ contin fibre musculare netede , orientate circular si longitudinal . Vezica urin
 un organ cavitar in care se depoziteaza urina si este situata in partea inferioara a
 cavitatii abdominale . Peretele muscular are 3 straturi de muschi si e captusit cu o
 mucoasa cutata . Ea se continua cu uretra , care e canalul excretor al vezicii .
- Functiile Rinichilor
+
+## Functiile Rinichilor
+
  Rinichiul este un organ de importanta vitala si are numeroase functii , dintre
 care functia principala consta in formarea urinei . Prin aceasta se asigura epurarea
 (curatirea) organismului de substante toxice . Formarea urinei se datoreaza unui
@@ -502,21 +581,25 @@ urmatoare, la nivelul tubilor , care reabsorb cea mai mare parte a filtratului g
 , se formeaza urina definitiva . Totusi la acest nivel se face o selectare : tubii
 reabsorb total sau in mare cantitate substantele utile si in cantitate mica pe cele
 toxice . Substantele utile sunt substantele cu prag , care sunt eliminate prin urina
-21
 
 numai cand concentratia lor sanguina a depasit limitele fiziologice (apa , glucoza ,
 NaCl , bicarbonatii , etc. ) . Substantele toxice sunt substante fara prag , eliminarea
 lor facandu-se imediat ce apar in sange .
-Constituent
-Flitrare Reabsorție Secreție Excreție
-Apă 170 168,5 - 1,5
-Na+ 26000 25850 - 150
-K+ 900 900 100 100
-Uree 51 31 - 150
-Creatină 12 1 1 12
-Ac. Uric 50 49 4 5
-Glucoză 800 800 - -
-Compozitia urinei
+
+### Constituentii urinei
+
+| Constituent | Flitrare | Reabsorție | Secreție | Excreție |
+|---|---|---|---|---|
+| Apă | 170 | 168,5 | - | 1,5 |
+| Na+ | 26000 | 25850 | - | 150 |
+| K+ | 900 | 900 | 100 | 100 |
+| Uree | 51 | 31 | - | 150 |
+| Creatină | 12 | 1 | 1 | 12 |
+| Ac. Uric | 50 | 49 | 4 | 5 |
+| Glucoză | 800 | 800 | - | - |
+
+### Compozitia urinei
+
  Apa este reabsorbita in proportie de 99% , glucoza in intregime ( cu conditia
 ca in sange sa existe mai putin de 1,60% glucoza ) , sarurile si in particular clorura
 de sodiu , in proportie variabila (98 - 99%) . Substantele toxice nu sunt reabsorbite
@@ -557,9 +640,9 @@ organismului.Rinichiul mai are si alte activitati: prin secretia de renina contr
 reglarea tensiunii arteriale, prin eritropoietina controleaza eritropoieza , prin
 schimbarile ionice contribuie la mentinerea echilibrului acido-bazic ,iar prin
 homeostaza sa mentina constanti anumiti parametri interni .
-23
 
-METABOLISMUL
+# METABOLISMUL
+
  Metabolismul este o însușire de bază a tuturor organismelor vii. Principala
 deosebire între materia vie și cea nevie, constă în lipsa metabolismului celei din
 urmă. Orice materie care posedă metabolism, capacitatea de a se reproduce și
@@ -567,7 +650,9 @@ abilitatea de a se adapta, este un organism viu.
 Pentru celulă metabolismul înseamnă totalitatea proceselor fizice și chimice, în sens
 fiziologic și biologic, care stau la baza tuturor transformărilor structurale și energetice.
 Doar prin metabolism materia vie se organizează, se autoîntreține și se manifestă .
-Laturile metabolismului - anabolismul și catabolismul
+
+## Laturile metabolismului - anabolismul și catabolismul
+
 Printr-un ansamblu complex de procese, substanțele nutritive sunt încorporate în
 celule și apoi înglobate în structuri proprii. Prin înglobarea în structuri noi, se
 formează substanțe specifice fiecărui organism, procesul numindu-se biosinteză.
@@ -587,14 +672,17 @@ procesele de asimilație, ci și în întreținerea funcțiilor vitale, în repa
 condiții de efort.
 Cele două laturi ale metabolismului (anabolismul și catabolismul) pot fi separate doar
 teoretic, în scop didactic. În fapt, ele se petrec simultan.
-Bilanțul metabolic
+
+## Bilanțul metabolic
+
 Bilanțul metabolic reprezintă valoarea raportului dinte asimilație (A) și dezasimilație
 (D). Când A/D este mai mare decât 1 (anabolismul predomină asupra
 catabolismului), se consideră că bilanțul metabolic este pozitiv, iar când A/D este mai
 mic decât 1 (catabolismul este mai accentuat decât anabolismul), bilanțul este
 negativ.
 
-Metabolismul bazal
+## Metabolismul bazal
+
 Metabolismul care se desfășoară în condiții de repaus total constituie metabolismul
 bazal.
 Metabolismul bazal (de bază) este unul de întreținere, care asigură minimul de
@@ -612,20 +700,21 @@ hipertiroidism, etc., valoarea metabolismului bazal este mai mare. Metabolismul
 bazal mai este influențat de sex (la femei este mai mic datorită mai bunei
 reprezentări a țesutului adipos), de activitatea endocrină (hormonii tiroidieni, cei
 sexuali și cei medulosuprarenali intensifică metabolismul bazal) și de vârstă.
-Valoarea metabolismului
-bazal în funcție de vârstă
-Vârsta
-[ani]
-Valoarea
-[ kcal/kg corp/oră]
- nou - născut 0,75
- 1 1,375
- 5-15 1,25
- 15-20 1,20
- 20-40 1
- 40-60 0,975
- peste 60 0,925
-Metabolismul intermediar și metabolismul energetic
+
+### Valoarea metabolismului bazal în funcție de vârstă
+
+| Vârsta [ani] | Valoarea [kcal/kg corp/oră] |
+|---|---|
+| nou - născut | 0,75 |
+| 1 | 1,375 |
+| 5-15 | 1,25 |
+| 15-20 | 1,20 |
+| 20-40 | 1 |
+| 40-60 | 0,975 |
+| peste 60 | 0,925 |
+
+## Metabolismul intermediar și metabolismul energetic
+
 Ansamblul transformărilor chimice, începând de la absorbția nutrienților și terminând
 cu eliminarea produșilor finali, constituie metabolismul intermediar. Metabolismul
 intermediar este o noțiune care se referă la substanțe (glucide, lipide, protide,
@@ -633,7 +722,6 @@ minerale, etc.) și la transformările pe care acestea le suferă, deosebindu-se
 noțiunea de metabolism energetic, care privește procesul metabolic din unghiul
 energiei consumate și degajate în urma reacțiilor biochimice ce au loc.
 Metabolismul energetic vizează eliberarea energiei chimice potențiale din moleculele
-25
 
 dezasimilate în urma transformărilor realizate pe baza metabolismului intermediar al
 substanțelor.
@@ -644,18 +732,26 @@ Degradarea substanțelor alimentare în procesele metabolice conduce în propor�
 45% la formarea de ATP (R. M. Albu).
 Cele mai importante substanțe implicate în metabolismul intermediar și energetic,
 sunt glucidele, protinele și lipidele.
-Metabolismul intermediar și energetic glucidic
+
+### Metabolismul intermediar și energetic glucidic
+
 În organismul omului, glucidele sunt substanțe cu rol energetic. Ele furnizează
 organismului cele mai multe și mai accesibile calorii. Digestia și metabolismul acestor
 substanțe au ca produșii finali dioxidul de carbon și apa .
-Metabolismul intermediar și energetic protidic
+
+### Metabolismul intermediar și energetic protidic
+
 Proteinele, prin faptul că se uzează repede, dar și ca o consecință a faptului că omul
 nu dispune de organe de depozit pentru aceste substanțe decât celulele însele,
 trebuie reînnoite în permanență .
-Metabolismul intermediar și energetic lipidic
+
+### Metabolismul intermediar și energetic lipidic
+
 Metabolismul lipidelor cuprinde transformarea grăsimilor din alimente precum și
 neogeneza lor (sinteza lipidelor din substanțe nelipidice).
-Metaboliții
+
+## Metaboliții
+
 Metaboliții sunt substanțe care participă sau iau naștere din metabolismul
 intermediar. Dintre metaboliți fac parte compuși ca vitamine, hormoni, produșii
 intermediari ai metabolismului proteinelor, a lipidelor, etc..
@@ -663,11 +759,15 @@ Produșii intermediari rezultați din procesele de dezasimilație poartă denumi
 cataboliți.
 Acumularea exagerată a unor cataboliți (acid lactic, acid piruvic, acid glutamic, acid
 uric, corpi cetonici, etc.) în sânge, este dăunătoare organismului.
-GLUCIDELE (NOMENCLATURĂ, STRUCTURĂ, METABOLISM)
-Nomenclatură
+
+# GLUCIDELE (NOMENCLATURĂ, STRUCTURĂ, METABOLISM)
+
+## Nomenclatură
+
 În legătură cu acest important grup de substanțe, s-au încercat mai multe denumiri,
 niciuna dintre ele nefiind pe deplin satisfăcătoare.
  Denumirea de "glucide" provine de la grecescul "glichis", iar cea de zaharide, de la
+
 latinescul "saccharum", amândouă însemnând "dulce". Se știe însă, că nu toate
 glucidele sunt dulci și, pe de altă parte, că există compuși care deși sunt dulci, nu
 
@@ -682,17 +782,23 @@ Pentru desemnarea glucidelor, se mai folosesc și termenii de oze și ozide.
 În 1927, Comisia Internațională pentru Reforma Nomenclaturii Chimice, a înlocuit
 denumirea de "hidrați de carbon" cu acela de "glucide". Cu toate acestea,
 schimbarea nu a fost preluată niciodată de literatura de specialitate anglo-saxonă.
-Structura glucidelor
+
+## Structura glucidelor
+
 Glucidele sunt substanțe formate din una sau mai multe molecule. După numărul de
 molecule care intră în structura unei glucide, există:
+
 - monoglucide numite și oze (carbohidrați formați dintr-o singură moleculă),
 - oligoglucide (hidrați de carbon care au în structura lor mai multe resturi (2-6) de
 monoglucide)
 - poliglucide (zaharide cu structură ramificată care pot conține zeci, sute sau mii de
 resturi monoglucidice).
+
  Oligoglucidele și poliglucidele sunt structuri condensate care mai poartă denumirea
 de ozide.
-Digestia și metabolismul glucidelor
+
+## Digestia și metabolismul glucidelor
+
 În organismul omului, glucidele sunt substanțe cu rol energetic. Ele furnizează
 organismului cele mai multe și mai accesibile calorii. Digestia și metabolismul acestor
 substanțe au ca produșii finali dioxidul de carbon și apa.
@@ -709,9 +815,9 @@ degradarea enzimatică, cu o hidroliză acidă. Procesul de degradare continuă,
 mai mare randament, într-un mediu alcalin, în duoden și în intestinul subțire, sub
 acțiunea amilazei pancreatice, și a celei intestinale, astfel încât, se ajunge în final la
 glucoză, monoglucidă care traversează ușor pereții intestinali.
-27
 
-Digestia și absorbția glucidelor
+### Digestia și absorbția glucidelor
+
 Metabolismul energetic al omului este "planificat" să se desfășoare cu prioritate pe
 baza glucidelor. Dacă în organism se introduc cantități mari de lipide și de
 carbohidrați, în maximul 24 de ore va avea loc arderea aproape completă a
@@ -726,9 +832,11 @@ caloric alimentar nu este mai mare decât energia consumată de corp.
 Principalul donor de energie celulară este glucoza. Aceasta ajunge la țesuturi fiind
 purtată prin fluxul sanguin. În funcție de proveniență, țesuturile folosesc 3 feluri de
 glucoză:
+
 - glucoza exogenă (rezultată din hrană),
 - glucoza endogenă (rezultată din oxidarea glicogenului),
 - neoglucoza (glucoza provenită din neosinteze, deci din substanțe neglucidice).
+
 Arderea glucozei în celule are loc sub influența insulinei. Metabolismul glucidelor
 poate urma o cale aerobă (în prezența îndestulătoare a oxigenului) sau una
 anaerobă (în lisa oxigenului).
@@ -769,7 +877,9 @@ Un studiu amplu publicat în SUA în anul 2002, arată că fructoza concentrată
 abundă într-o serie largă de alimente la care a fost adăugată, crește trigliceridele
 sanguine, mărește tensiunea arterială, produce rezistență la insulină și intoleranță la
 glucoză, favorizează formarea de țesut adipos mai mult decât glucoza.
-PROTIDE (PROTEINE)
+
+# PROTIDE (PROTEINE)
+
 Protidele, numite și proteine sunt substanțe organice cu structură complexă,
 macromoleculară, formate pe baza aminoacizilor.
 Aminoacizii posedă proprietatea de a forma legături chimice, numite polipeptidice,
@@ -777,13 +887,14 @@ Aminoacizii posedă proprietatea de a forma legături chimice, numite polipeptid
 apa. În modul acesta, se formează lanțuri lungi simple sau ramificate, care alcătuiesc
 structura proteinelor).
 Așezarea aminoacizilor în lanțuri, nu se face hazardant, ci într-o anumită ordine,
-29
 
 specifică fiecărei proteine. Biosinteza proteinelor se realizează sub influența
 materialului genetic (ADN, ARN), fiind comandată de către o genă specială. În celulă
 protidele sunt sintetizate pe ribozomi cu participarea ARN-t și ARN-m, sub influența
 sistemelor enzimatice adecvate, matricea fiind ADN-ul.
-Importanța protidelor
+
+## Importanța protidelor
+
 Proteinele intră în structurile tuturor celulelor vii îndeplinind numeroase roluri, multe
 dintre ele fundamentale, așa cum sunt cele energetice și plastice. Ca funcție
 energetică, protidele prezintă importanță secundară, deși pot dezvolta aproximativ
@@ -808,7 +919,9 @@ Protidele intră în structura materialului genetic (ADN, ARN), de care depinde 
 aspectele particulare ale unui individ, precum și a urmașilor săi.
 Funcțiile atât de diferite pe care le joacă proteinele, se explică prin succesiunea
 aminoacizilor, care este diferită pentru fiecare protidă în parte.
-Proprietățile protidelor
+
+## Proprietățile protidelor
+
 Majoritatea proteinelor au caracter amfoter (în mediu acid se comportă ca baze și în
 mediu bazic se comportă ca acizi). Acest lucru se datorează ramificațiilor care conțin
 atât grupări carboxilice ( funcții acide) cât și grupări aminice (funcții bazice). În mediu
@@ -830,39 +943,54 @@ structurile lor) și prezintă proprietăți coloidale. Există și proteine hid
 obicei leagă lipide.
 O proprietate importantă a proteinelor este specificitatea de organ și de specie a
 acestora.
-Structura spațială a protidelor
+
+## Structura spațială a protidelor
+
 Protidele posedă o structură primară - determinată de felul, numărul și secvența
 aminoacizilor ; una secundară - determinată de felul cum se formează, se răsucesc
 și se leagă lanțurile de aminoacizi ; precum și o structură terțiară, care presupune
 desfășurarea în spațiu, în cele trei dimensiuni, a macromoleculei.
-Clasificarea protidelor
+
+## Clasificarea protidelor
+
 Protidele se clasifică după două criterii principale:
+
 - după numărul de aminoacizi din lanțurile structurale,
 - după forma macromoleculei.
- Clasificarea protidelor după numărul de aminoacizi
+
+### Clasificarea protidelor după numărul de aminoacizi
+
 După acest criteriu, protidele se împart în:
+
 - monopeptide (aminoacizi),
 - peptide [protide intermediare] (oligopeptide și polipeptide)
 - macropeptide (holoproteide, heteroproteide)
+
 Oligopeptidele conțin doar câțiva aminoacizi, în timp ce polipeptidele, au astfel de
 substanțe aminate, în cantitate mai mare.
 Macroprotidele sunt substanțe macromoleculare (cu foarte mulții acizi aminați) care
 au în structura lor doar aminoacizi sau, pe lângă aceștia, conțin și alte substanțe (,
 glucide lipide, minerale acizi anorganici, acizi nucleici, pigmenți), caz în care poartă
 denumirea de heteroproteide.
-Clasificarea protidelor după forma macromoleculei
+
+### Clasificarea protidelor după forma macromoleculei
+
 După formă, proteinele sunt:
+
 - globulare (sunt sferice și vii),
-31
 
 - fibrilare (sunt alungite și dure numindu-se și scleoproteide).
+
 Protidele globulare sunt sferice (globuloase), în timp ce cele fibrilare, au forma
 alungită. Între cele două tipuri, există și forme intermediare (globulinele).
-Holoproteidele (proteinele propriu-zise)
+
+## Holoproteidele (proteinele propriu-zise)
+
 Holoproteidele sunt substanțe macromoleculare care conțin în structura lor doar
 aminoacizi , deci numai carbon, hidrogen, oxigen, azot și sulf.
 Cu excepția scleroprotidelor, toate holoproteidele sunt globulare.
 Din această grupă de protide fac parte următoarele substanțe
+
 - albuminele,
 - globulinele,
 - glutaminele,
@@ -870,10 +998,13 @@ Din această grupă de protide fac parte următoarele substanțe
 - prolaminele (gliadine),
 - protaminele,
 - scleroprotidele.
-Heteroproteidele
+
+## Heteroproteidele
+
 Heteroproteidele conțin, pe lângă aminoacizi, diferite alte substanțe. Grupările pe
 care protidele le realizează cu substanțele neproteice se numesc grupări prosteice.)
 Principalele heteroproteide sunt:
+
 - metaloproteinele (hemoglobina, citocromul, clorofila, vitamina B12, etc.),
 - fosfoproteinele (proteine de origine animală; de ex. cazeina, care conțin fosfor),
 - mucoproteinele (proteine care conțin mucopoliglucide),
@@ -881,7 +1012,9 @@ Principalele heteroproteide sunt:
 - lipoproteinele (proteine de transport, care fixează grăsimile, împreună cu care
 circulă în sânge și în limfă, precum și prin vasele conducătoare ale plantelor),
 - nucleoproteinele (proteine care conțin acizi nucleici).
-Digestia, absorbția și metabolismul protidelor
+
+## Digestia, absorbția și metabolismul protidelor
+
 Proteinele, prin faptul că se uzează repede, dar și ca o consecință a faptului că omul
 nu dispune de organe de depozit pentru aceste substanțe decât celulele însele,
 trebuiesc reînnoite în permanență.
@@ -914,10 +1047,12 @@ Metabolismul proteic este unul mai puțin "curat" decât cel al glucidelor sau l
 deoarece catabolismul nu se desfășoară în exclusivitate prin descompuneri până la
 dioxid de carbon și apă, rezultând și unele deșeuri. Principalele deșeuri proteice
 sunt:
+
 - ureea,
 - acidul uric,
 - creatinina.
 - amoniacul (rezultă din activitatea microflorei proteolitice).
+
  Aceste deșeuri se acumulează în cantități mari sau (și) se elimină greu din corp
 în unele afecțiuni (diateză urică, insuficiență renală, ciroză, tulburări asociate
 metabolismului de inaniție, etc.).
@@ -933,8 +1068,8 @@ mai păstrează absolut nimic din specificul hranei din care derivă.
 Reglarea metabolismului proteinelor, astfel încât nutriția celulară să se desfășoare
 corespunzător, se realizează prin mecanisme celulare (în interiorul celulelor),
 hormonale și nervoase.
-Proteinele din sânge
-33
+
+## Proteinele din sânge
 
 Prin sistemul circulator, protidele circulă libere, încorporate în diferite structuri sau ca
 niște "cărăuși" pentru diverse substanțe. Pe lângă proteinele din constituția
@@ -943,7 +1078,9 @@ elementelor figurate, în sânge se mai găsesc o serie de protide palsmatice, p
  Excluzând proteinele elementelor figurate, pe cele care realizează coagularea și pe
 cele care ajută la transportul altor substanțe, mai rămân, în ser, unele protide cu rol
 în asigurarea osmolarității și a echilibrului acido-bazic.
-Proteinemia normală, hipoproteinemia și hiperproteinemia
+
+### Proteinemia normală, hipoproteinemia și hiperproteinemia
+
 Proteinemia reprezintă o valoare care reflectă cantitatea de proteine din sânge.
 Valoarea normală a proteinelor serice este de 6-8,6g/100ml. Scăderea cantitativă a
 proteinelor din sânge sub pragul de 6g/100ml, instalează hipoproteinemia, iar
@@ -951,23 +1088,24 @@ creșterea acestei valori peste pragul de 9g/100ml, conduce la hiperproteinemie.
 Cantitatea de proteine din sânge nu reflectă în mod obligatoriu nivelul proteinelor din
 corp, dar totuși, în general, hipoproteinemia se asociază cu hipoproteinismul , tot așa
 cum și hiperproteinemia merge mână în mână cu hiperproteinismul.
-Albuminele și globulinele din sânge și raportul A/G
+
+### Albuminele și globulinele din sânge și raportul A/G
+
  Nu numai nivelul proteinelor serice contează, ci și felul acestora precum și raportul
 ce se stabilește între acești componenți.
  Cele două holoproteide prezente în ser sunt:
+
 - albuminele,
 - globulinele.
+
  Reprezentarea normală al acestor componente precum și raportul dintre ele, sunt
 redate în tabelul de mai jos.
-Proteine serice totale
-(medie)
-Albumine
-(medie)
- Globuline
-(medie) Raport normal albumine -
-globuline (A/G)
-g/100ml % g/100ml % g/100ml %
-7,5 100 4,5 60 3 40 1,5
+
+| | Proteine serice totale (medie) | | Albumine (medie) | | Globuline (medie) | | Raport normal albumine - globuline (A/G) |
+|---|---|---|---|---|---|---|---|
+| | g/100ml | % | g/100ml | % | g/100ml | % | |
+| Medie | 7,5 | 100 | 4,5 | 60 | 3 | 40 | 1,5 |
+
 Un raport A/G cuprins între 1,2 și 1,5, se consideră a fi corespunzător. Creșterea
 acestei valori nu are o semnificație patologică deosebită, însă scăderea ei, mai ales
 sub valoarea 1, poate semnifica existența unei tulburări.
@@ -984,10 +1122,14 @@ renale (sindrom nefrotic), afecțiuni hepatice, alergii, etc..
  Primul semn al deteriorării raportului dintre albumine și globuline este edemul,
 cauzat de scăderea presiunii osmotice (oncotice) sanguine, proprietate datorată în
 mare măsură albuminelor.
-METABOLISMUL LIPIDELOR
+
+# METABOLISMUL LIPIDELOR
+
 Metabolismul lipidelor cuprinde transformarea grăsimilor din alimente precum și
 neogeneza lor (sinteza lipidelor din substanțe nelipidice).
-Absorbția lipidelor
+
+## Absorbția lipidelor
+
 Trebuie știut faptul că, dintre toți nutrienții principali, lipidele, deși sunt cele mai
 calorice, dau în cea mai mică măsură senzația de sațietate. Din acest motiv, se pot
 consuma în cantitate mare, fapt ce va conduce la obezitate precum și la alte
@@ -998,6 +1140,7 @@ Deoarece, față de glucide și de proteine, grăsimile nu sunt solubile în ap�
 mecanismul prin care se realizează desfacerea acestor substanțe în componentele
 lor, este diferit, și, se poate spune, mai dificil.
  Lipidele din alimente, trec din gură în stomac, prin faringe și prin esofag, cu structura
+
 neschimbată. La nivel gastric, transformările suferite de grăsimi sunt nesemnificative,
 cu excepția copiilor mici, care posedă enzime din categoria lipazelor (lipaza gastrică),
 cu care pot scinda grăsimile din lapte și din ouă.
@@ -1016,7 +1159,6 @@ biliare, de către ionii de calciu și de către aminoacizi, realizează desface
 sub acțiunea lipazelor intestinale. În urma hidrolizei se formează micelii minuscule,
 sub forma unor picături extrem de fine, mult mai mici decât cele rezultate din
 emulsionarea biliară. Sub influența sărurilor biliare, alături de grăsimile emulsionate,
-35
 
 apar și acizi grași saponificați.
 Acizii grași și glicerina, trec, liberi sau reesterificați, prin pereții intestinului subțire, în
@@ -1032,7 +1174,9 @@ acizii cu lanț mijlociu (10-22 atomi C) se reesterifică și se transportă sub
 minuscule picături de lipide stabilizate cu acizi biliari și cu proteine. Acizii grași cu lanț
 scurt nu se reesterifică, ci ajungând în sânge, se legă direct cu albuminele
 plasmatice (G. Niac).
-Digestia și absorbția lipidelor
+
+### Digestia și absorbția lipidelor
+
 Cunoscându-se absorbția facilă a acizilor graș i cu lanț scurt (butiric, capronic,
 caprilic, caprinic), se poate spune, că ele sunt cele mai digerabile, dar nu în mod
 obligatoriu și cele mai sănătoase.
@@ -1057,15 +1201,19 @@ aici, se produc perturbări, după cum am menționat anterior. Depozitul princip
 grăsimi îl reprezintă țesutul adipos. Dar dacă aceste depozite se încarcă prea mult,
 se produc dereglaje care merg de la scăderea masei și a tonicității musculare, până
 la obezitate.
-Soarta lipidelor în organismul omului
+
+## Soarta lipidelor în organismul omului
+
 La nivelul organismului uman, lipidele joacă rol energetic, funcțional și de constituție.
 După absorbție, lipidele urmează mai multe căi, care se pot intersecta:
+
 - se depozitează în țesutul adipos, ca substanțe de rezervă, sub formă de trigliceride;
 - se stochează temporar în ficat;
 - în urma unor reacții, intră în structura unor substanțe complexe (lipoproteine), unele
 dintre ele rămânând în circulația sanguină;
 - se oxidează în țesuturi, până la dioxid de carbon și apă, cu eliberare de energie (1
 g de lipide poate elibera 9,3 kcal);
+
 Grăsimile din organism, se află sub formă de: trigliceride, fosfolipide, colesterol și
 acizi grași liberi.
 Metabolismul lipidelor este sub control endocrin, desfășurându-se cu participarea
@@ -1081,7 +1229,6 @@ exercitat asupra lipazelor, frânând astfel lipoliza și oxidarea lipidelor.
  Prin activitatea insulinei, după o masă bogată în glucide, va fi favorizată arderea
 glucozei, în timp ce arderea lipidelor va fi inhibată. Alcoolul, alături de carbohidrați,
 inhibă de asemenea oxidarea lipidelor (Rădulescu, 2004).
-37
 
 În sens contrar, o masă bogată în grăsimi, va avea o acțiune inhibantă asupra
 insulinei, însă metabolismul lipidic nu se va intensifica, deoarece lipidele în exces,
@@ -1121,23 +1268,26 @@ oxidantă metabolică, este necesară pentru a iniția arderea corectă a grăsi
 oxidare), în alte condiții, formându-se corpii cetonici. Dar, este necesar, în ceea ce
 privește glucoza, atunci când se urmărește scăderea în greutate, să se îndeplinesc 3
 condiții:
+
 - să provină din categoria glucidelor cu absorbție mai lentă,
 - să nu fie în cantitate prea mare,
 - să nu se administreze împreună cu lipidele.
-Date cu privire la lipidele din sânge
+
+## Date cu privire la lipidele din sânge
 
 În afara unor dereglaje sau tulburări, sau temporar, în cazul unui regim alimentar
 bogat în grăsimi, componentele lipidice ale sângelui, se mențin în limite constante,
 grație unor mecanisme neurohormonale elaborate. Valorile normale sunt prezentate
 în tabelul de mai jos:
-Lipide plasmatice Denumirea
-constantei Valori normale
-Lipide totale Lipemie 500-700 mg% (5-7 g/l)
-Trigliceride Trigliceridemie max. 200mg% (2g/l)
-Colesterol Colesterolemie 120-180 mg% (1,2-1,8 g/l)
-39
 
-SISTEMUL REPRODUCATOR
+| Lipide plasmatice | Denumirea constantei | Valori normale |
+|---|---|---|
+| Lipide totale | Lipemie | 500-700 mg% (5-7 g/l) |
+| Trigliceride | Trigliceridemie | max. 200mg% (2g/l) |
+| Colesterol | Colesterolemie | 120-180 mg% (1,2-1,8 g/l) |
+
+# SISTEMUL REPRODUCATOR
+
  Reproducerea este o caracteristica fundamentala a oricarei fiinte vii si se
 realizeaza prin participarea a doua organisme de sexe diferite.Ea este rezultatul
 fecundarii gametului feminin(ovul) de catre gametul masculin(spermatozoid) .Oul
@@ -1153,7 +1303,9 @@ Organizarea morfofunctionala a sistemului reproducator la ambele sexe este extre
 de complexe , gonadele avand atat functia de a produce gameti , cat si cea de a
 secreta hormoni sexuali , care prin diferitele lor activitati asupra organelor genitale si
 asupra intregului organism asigura conditii pentru reproducere .
-Structura aparatului genital masculin
+
+## Structura aparatului genital masculin
+
 Aparatul genital masculin este constituit din testicule, cai excretoare, glande anexe si
 organul copulator(penis).
 Testiculul, organ pereche cu functie exocrina si endocrina,se dezvolta in regiunea
@@ -1188,6 +1340,9 @@ vezica urinara, inconjura portiunea initiala a uretrei. Prostata secreta un lich
 intra in constitutia spermei.
 Penisul este constituit din doi corpi cavernosi si corpul spongios care inconjoara
 complet uretra.
+
+### Functiile testiculare
+
 Functiile testiculare.
 Gonada masculina - testiculul - are functia de a produce spermatozoizi -
 spermatogeneza - si de a secreta hormonii androgeni, ambele functii fiind controlate
@@ -1203,7 +1358,6 @@ care au jumatate din numarul de cromozomi. Spermatocitele II se divid rapid
 rezultand spermatidele care au tot numarul jumatate de cromozomi si acestea se
 transforma direct, fara diviziuni, in spermatozoizi.
 Spermatozoidul - gamet masculin - determina sexul produsului de conceptie. Este o
-41
 
 celula de lungime 50-70 microni, constituita din cap, piesa intermediara si flagel. La
 partea anterioara prezinta un corpuscul ascutit - acrozomul - care contine o enzima
@@ -1226,7 +1380,9 @@ anterioare: FSH mentine functia spermatogenetica si LH stimuleaza secretia de
 testosteron. La randul sau secretia hormonilor hipofizari este reglata printr-un
 mecanism de feedback de catre nivelul testosteronului plasmatic, care actioneaza
 atat asupra unor nuclei hipotalamici cat si asupra hipofiziei.
-Structura aparatului genital feminin
+
+## Structura aparatului genital feminin
+
 Aparatul genital feminin este alcatuit din ovare si caile genitale reprezentate de
 trompele uterine, uterul si vaginul. Ovarele, organe pereche situate in pelvis de o
 parte si de alta a uterului, produc gametii feminini(ovule) si secreta hormonii sexuali
@@ -1261,4 +1417,3 @@ Glandele mamare sunt organe anexe ale aparatului genital feminin a caror
 dezvoltare constituie unul dintre caracterele sexuale secundare ale femeii.
 Glanda mamara, de tip tubuloacinos, este alcatuita din lobi care se deschid, prin
 canalele galactofore, la nivelul mamelonului.
-43

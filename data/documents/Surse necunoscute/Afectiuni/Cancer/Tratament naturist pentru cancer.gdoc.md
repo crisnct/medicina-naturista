@@ -1,4 +1,4 @@
-# **Tratamente naturiste pentru cancer\***
+# Recomandari naturiste pentru cancer
 
 - **Vitamina B17(amigdalină):** 500mg x 2-3 ori pe zi, SAU **sâmburi de caise amari**(1 lingură x 2 ori pe zi). După o lună se face pauză tot de o lună. Pe perioada administrării de vit B17 de sâmburi trebuie luat și **armurariu**(supliment cu extract de armurariu 1000mg armurariu pe capsulă sau 250mg extract de armurariu pe capsulă). În cazul unei persoane cu cancer, amigdalina se transformă de organism în cianură iar cianura ajută la micșorarea și eliminarea celulelor canceroase. Armurariul e pentru protecția ficatului.
 - **Ceai de peliniță**: infuzie din 2 linguri de planta la două căni de apă. Cantitatea de ceai se bea în cursul unei zile. Dacă se ia și un supliment cu fier, atunci cancerul poate fi vindecat mult mai rapid. Fierul ajută doar în combinație cu acest ceai. După o săptămână se face pauză 2 luni.

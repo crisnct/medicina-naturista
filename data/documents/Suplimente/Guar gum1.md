@@ -119,24 +119,12 @@ Applications include:
 
 - Baked goods - increases dough yield, gives greater resiliency, and improves texture and shelf life; in pastry fillings, it prevents \"weeping\" (syneresis) of the water in the filling, keeping the pastry crust crisp.[^\[9\]^](
 
-```{=html}
-<!-- -->
-```
 - Dairy - thickens milk, yogurt, kefir, and liquid cheese products; helps maintain homogeneity and texture of ice creams and sherbets
 
-```{=html}
-<!-- -->
-```
 - Meat - functions as lubricant and binder.
 
-```{=html}
-<!-- -->
-```
 - Dressing and sauces - improves the stability and appearance of salad dressings, barbecue sauces, relishes, ketchups and others
 
-```{=html}
-<!-- -->
-```
 - Misc. - Dry soups, sweet desserts, canned fish in sauce, frozen food items and animal feed.
 
 \[edit\] Nutritional and medicinal effects

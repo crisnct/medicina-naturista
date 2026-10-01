@@ -29,7 +29,6 @@ Are actiuni catartice, ușor stimulative , antibilioase, anti-periodice, tonice.
 6. Ce plante pot fi folosite pentru tratarea rănilor sângerande?
  Virnant, coada soricelului, musetel
 
-
 7. Scrieti despre enurezis si leacurile pentru acesta.
  Enurezisul sau incontinenta urinara, este o condiție nervoasa cand nervii sunt uzati și rinichii sunt sensibili.
  Se recomanda ceaiuri din: strugurii ursului, plop alb, fructe de padure Sumac, coada soricelului .

@@ -1,17 +1,16 @@
-**CELE 5 LEGI BIOLOGICE**
+# CELE 5 LEGI BIOLOGICE
 
-**UN MIRACOL CENZURAT**
+## UN MIRACOL CENZURAT
 
-**GERMAN NEW MEDICINE (GNM)**
+## GERMAN NEW MEDICINE (GNM)
 
 **Paradigma Medicala a *Dr. Ryke Geerd Hamer***
 
-!{width="2.046527777777778in" height="2.738888888888889in"}*\
-*
+*!Portret Caroline Markolin*
 
 *By Caroline Markolin, Ph.D., Vancouver, Canada*
 
-**INTRODUCERE**
+## INTRODUCERE
 
 Pe 18 August 1978, Dr. Ryke Geerd Hamer, M.D., la vremea aceea internist sef la clinica oncologica a Universitatii din Munchen, Germania, a primit vestea socanta ca fiul sau, Dirk, a fost impuscat. Dirk a murit in Decembrie 1978 si, cateva luni mai tarziu, Dr. Hamer a fost diagnosticat cu cancer testicular. Din moment ce nu fusese niciodata grav bolnav, a suspectat imediat ca dezvoltarea cancerului sau poate avea legatura directa cu tragica pierdere a fiului sau. Moartea lui Dirk si propria sa experienta cu cancerul l-au facut pe Dr. Hamer sa investigheze istoricul pacientilor sai de cancer. A aflat foarte curand ca, la fel ca el, toti au trecut prin experiente extrem de stresante, inainte ca boala sa se instaleze si sa se dezvolte. Observarea conexiunii dintre minte si organism nu a fost surprinzatoare. Numeroase studii aratasera deja ca atat cancerul, cat si alte bolii sunt foarte des precedate de un eveniment traumatizant. Dar Dr. Hamer a dus cercetarile sale cu un pas mai departe. Urmarind ipoteza ca toate evenimentele din organism sunt controlate de creier, a analizat tomografiile pacientilor sai si le-a comparat cu istoricul lor medical. Dr. Hamer a descoperit ca orice boala, nu numai cancerul, este controlata de o zona din creier ce ii corespunde in mod specific si este legata, in mod particular, de un conflict soc perfect identificabil. Rezultatul cercetarilor sale se constituie intr-o diagrama stiintifica ce ilustreaza legatura biologica dintre psihic si creier si corelatia cu organele si tesuturile intregului organism uman (varianta engleza a \"Diagramei stiintifice a GNM\" este in lucru).
 
@@ -23,11 +22,11 @@ La scurt timp dupa ce Dr. Hamer si-a prezentat teza, i-a fost adresat un ultimat
 
 Dr. Hamer a fost persecutat si hartuit timp de 25 ani, in special de catre autoritatile germane si de catre cele fraceze. Din 1997, Dr. Hamer locuieste in exil in Spania, unde isi continua cercetarile si continua sa se lupte pentru recunoasterea oficiala a \"New Medicine\". Insa, din moment ce Facultatea de Medicina a Universitatii din Tübingen isi mentine tactica de amanare, pacientilor din intreaga lume le este refuzat dreptul de a beneficia de descoperirile revolutionare ale Dr. Hamer.
 
-**ORIGINEA BOLILOR ESTE IN CREIER**
+## ORIGINEA BOLILOR ESTE IN CREIER
 
 Dr. Hamer a stabilit ca „orice boala este cauzata de un soc emotional care surprinde individul total nepregatit\" (**Prima Lege Biologica**). In onoarea fiului sau , Dr. Hamer a denumit acest incident stresant: Dirk Hamer Syndrome, sau DHS. Psihologic vorbind, DHS este un incident foarte personal, conditionat si determinat de experientele noastre trecute, de vulnerabilitati, de perceptiile personale, de valorile si credintele personale. Cu toate acestea, DHS nu este doar un conflict emotional, ci si biologic, care trebuie inteles in contextul evolutiei noastre personale. Animalele experimenteaza aceste socuri biologice in urma pierderii bruste a cuibului sau teritoriului, a pierderii unui pui, a separarii de partener sau de grup, a unei amenintari nesteptate, a unei perioade de nemancare sau a unei amenintari de moarte.
 
-!{width="6.145833333333333in" height="5.302083333333333in"}
+![]()
 
 Un barbat, de exemplu, poate suferi un soc conflictual de „pierdere a teritoriului\" , cand isi pierde casa sau locul de munca, pe neasteptate; pentru o femeie, un soc conflictual „in camin\" poate fi o grija pentru binele unuia dintre membrii familiei; un soc conflictual de tipul „abandonului\" poate fi declansat de un divort neprevazut sau de o spitalizare de urgenta; copii sufera deseori un soc conflictual „de separare\", cand mama se decide sa se intoarca la munca sau cand se despart parintii.
 
@@ -37,7 +36,7 @@ Motivul pentru care diferitele conflicte sunt legate indisolubil de anumite zone
 
 Cercetarile medicale ale Dr. Hamer sunt strans legate de embriologie, pentru ca, indiferent de felul in care organul raspunde unui conflict, fie prin dezvoltarea unei tumori, prin deteriorarea tesutului sau prin dereglarea functionarii, toate acestea sunt determinate de stratul embrionic al germenului din care provin atat organul, cat si tesutul cerebral corespondent (**A treia Lege Biologica**).
 
-!{width="6.670138888888889in" height="4.163194444444445in"}
+![]()
 
 GNM \"Ontogenetic System of Tumors\" (Sistemul Ortogenetic al tumorlor) ilustreza ca organele controlate de „vechiul creier\" care deriva din endoderm sau *vechiul creier* mesoderm, precum plamanii, ficatul, colonul, prostata, uterul, pielea in profunzimea ei, pleura, peritoneul, pericardul, glandele mamare, etc., genereaza intotdeauna proliferare celulara, imediat ce conflictul corespondent are loc la nivelul creierului.
 
@@ -63,7 +62,7 @@ O femela din lumea animala sufera un astfel de conflict, atunci cand puiul ei se
 
 Creierul fiecarei femei este programat cu acest gen de reactie-raspuns biologic. Din moment ce sanul femeii este asociat, biologic vorbind, cu grija si hranirea, femeile sufera un conflict-soc cauzat de separarea brusca de o persoana iubita. Pe durata fazei active a conflictului- soc nu exista practic nici un simptom, cu exceptia unor ocazionale puseuri usoare in interiorul sanului.
 
-**CELE DOUA FAZE ALE ORICAREI BOLI**
+## CELE DOUA FAZE ALE ORICAREI BOLI
 
 Dr. Hamer a descoperit de asemenea ca **orice conflict si orice boala are si o rezolvare, iar desfasurarea oricei boli are loc in doua faze.** (**A Doua Lege Biologica**). In timpul primei faze, a conflictului activ (si anume atata timp cat acesta exista) intregul organsim este orientat catre a face fata conflictului. In timp ce, la nivel fizic, au loc dereglari celulare specifice, psihicul si sistemul nervos vegetativ autonom se confrunta de asemenea cu situatii neasteptate. Comutata intr-o faza de stres (sympathicotonia) , mintea devine total preocupata de continutul conflictului. Tulburari ale somnului si lipsa apetitului sunt simptome specifice.
 
@@ -79,7 +78,7 @@ Conform declaratiilor epidemiologului si biostatisticianului Dr. Ulrich Abel (Ge
 
 *Chimioterapiile pentru cancerele maligne prea avansate pentru operatie, care reprezinta 80% din totalul cancerelor, reprezinta un pustiu stiintific **scientific wasteland.*** **(*Lancet* 1991).**
 
-**CORPUL SE VINDECA SINGUR**
+## CORPUL SE VINDECA SINGUR
 
 Rezolvarea conflictului generat de semnalele initiale reprezinta inceperea fazei a doua a programului biologic. Emotiile si organismul nostru se comuta imediat in modul de reparare, programul de vindecare fiind asistat in mod direct de sistemul nervos vegetativ. Pe perioada fazei de vindecare, apetitul revine, dar suntem foarte obositi (putem chiar sa nu avem puterea de a ne ridica din pat).
 
@@ -97,11 +96,11 @@ In felul in care *creierul vechi* controleaza cancerul, cresterea tumorala nu es
 
 **Cu conditia ca procesul de vindecare sa nu fie intrerupt de medicamente sau de o revenire a conflictului soc, aceste tumori dispar pana la urma, pana la sfarsitul procesului de vindecare.**
 
-!{width="2.671527777777778in" height="3.0in"}
+![]()
 
 Al doilea tip de cancer mamar, *carcinom in situ* (DCIS), intra de asemenea in aceasta categorie. In timp ce un cancer de san este un indicator ca femeia este in faza activa a conflictului de tip *grija*, un *cancer in situ* este un semn pozitiv ca problema asociata *conflictului de separare* a fost rezolvata. O femeie nu face un cancer de san fara motiv! Asa cum nici faptul ca el se dezvolta exact in sanul stang nu este o coincidenta.
 
-**IMPORTANTA LATERALITATII NOASTRE BIOLOGICE**
+## IMPORTANTA LATERALITATII NOASTRE BIOLOGICE
 
 Dr. Hamer a descoperit ca lateralitatea determina daca o boala precum este cancerul, se dezvolta in partea stanga sau dreapta a organismului. Aceasta este regula: o persoana dreptace raspunde unui conflict cu mama sa sau cu copilul cu partea stanga a organismului, si cu partea dreapta la un conflict cu tatal sau partenerul, fratii, rudele, prietenii, colegii, etc. Pentru stangaci este invers.
 
@@ -109,7 +108,7 @@ Exista intotdeauna o relatie inversa intre creier si organism, pentru ca fiecare
 
 In ceea ce priveste conflictele mai avansate (si regiunile cerebrale), statutul hormonal trebuie de asemenea luat in calcul, pentru o evaluare precisa.
 
-**ROLUL BENEFIC AL MICROBILOR**
+## ROLUL BENEFIC AL MICROBILOR
 
 Un alt aspect al cercetarilor Dr. Hamer este acela al rolului microbilor pe durata procesului de dezvoltare a bolii. Pe scurt, a aflat ca **microbii precum ciupercile, bacteriile si virusii sunt activi doar pe durata procesului de vindecare si maniera in care ei opereaza este in deplina concordanta cu logica evolutiva** (**A Patra Lege Biologica**).
 
@@ -125,7 +124,7 @@ Dilema in care se gaseste medicina conventionala este aceea ca esueaza in a recu
 
 **Dar microbii nu provoaca boli**. Pana la urma, este organismul nostru cel care *angajeaza* microbii pentru a optimiza procesul de vindecare. Microbii pot fi bineinteles transmisi, **dar ei raman inofensivi, pana in momentul in care persoana este in faza de vindecare** a aceluiasi tip de conflict.
 
-**PUNAND LA INDOIALA METASTAZELE**
+## PUNAND LA INDOIALA METASTAZELE
 
 Bazandu-se pe GNM \"Sistemul Ontogenetic al tumorilor\", teoria vast raspandita a metastazelor care sugereaza ca celulele canceroase migreaza prin vasele de sange si limfa, cauzand tumori si in alte locuri ,este, in cuvintele Dr. Hamer, *pura fictiune academica*.
 
@@ -147,11 +146,11 @@ Al doilea tip de cancer foarte intalnit dupa cancerul pulmonar este cancerul oso
 
 Tot asa cum se rupe un os, scopul programului biologic (al *bolii*) apare la sfarsitul fazei de vindecare. Cand faza de reparare este completa, osul va fi mult mai puternic in zona respectiva, asigurand in acest fel ca suntem mai bine echipati, in eventualitatea aparitiei unui nou conflict al stimei de sine.
 
-**NATURA TUMORILOR CEREBRALE**
+## NATURA TUMORILOR CEREBRALE
 
 Odata ce conflictul a fost rezolvat, leziunile cerebrale impreuna cu psihicul si organul aferent intra in faza de vindecare. Odata cu repararea oricarei rani se dezvolta o edema (fluid in exces) pentru a oferi protectie tesutului cerebral ce este refacut. Pe tomografie, schimbarile sunt foarte usor de observat: vizibilele inelele concentrice dispar in edema si apar acum neclare si inchise la culoare. In momentul de varf al fazei de vindecare, atunci cand edemul cerebral atinge dimensiunea maxima, creierul declanseaza un scurt si puternic impuls care expulzeaza edema.
 
-!{width="5.510416666666667in" height="3.0729166666666665in"}
+![]()
 
 In terminologia GNM, aceasta reglare este denumita *Criza epileptica* (CE). In timpul crizei, intregul organism este aruncat, pentru scurt timp, intr-o stare de simpaticotonie (hiperstimularea sistemului nervos simpatic), retraind simptomele tipice fazei de conflict activ, cum ar fi transpiratie rece, extremitati reci, puls accelerat si greata. Intesitatea si durata acestei crize pre-programate este determinata de intensitatea si durata conflictului precedent.
 
@@ -163,7 +162,7 @@ Aceasta acumulare naturala este ceea ce medicina conventionala denumeste *tumoar
 
 Dr. Hamer a stabilit, in 1981, ca *tumoarea cerebrala* nu este o boala in sine, ci un simptom al fazei de vindecare, care se desfasoara paralel si la nivelul organului afectat (controlat de la nivelul creierului din zona sa specifica care se afla simultan in faza de reparare). Astfel ca *Metastazele cerebrale* de fapt nu exista nici ele.
 
-**TERAPIA GNM (pe scurt)**
+## TERAPIA GNM (pe scurt)
 
 Primul pas in terapia GNM este **sa oferi o intelegere a naturii biologice a simptomului, de ex: un anumit tip de cancer, in relatie cu cauzele sale pihice.** O tomografie si un istoric medical complex sunt de asemenea vitale pentru a determina daca pacientul este inca in faza activa a conflictului, sau deja se vindeca. Daca este inca in faza activa, atentia trebuie indreptata asupra identificarii motivului socului initial DHS si dezvoltarea unei strategii pentru rezolvarea conflictului.
 
@@ -173,7 +172,7 @@ Aceasta este adevarata medicina preventiva, un aspect al GNM care cu greu poate 
 
 Intelegand cele \"**Cinci Legi Biologice**\" ale cauzei si ale procesului de vindecare al bolii, ne putem elibera de teama si panica ce deseori apar odata cu instalarea unor simptome. **Aceasta cunoastere este mai mult decat putere. Ea poate salva vieti.**
 
-**Despre Autor:**
+## DESPRE AUTOR
 
 ***Caroline Markolin, Ph.D**.,*
 

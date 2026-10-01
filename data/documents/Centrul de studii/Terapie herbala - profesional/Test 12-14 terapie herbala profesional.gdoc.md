@@ -7,10 +7,8 @@ Test herbalism profesional
  Plantele expectorante acționează asupra membranei bronho \- pulmonare , modificand calitatea și crescand cantitatea secrețiilor sale și facilitand mucoasa lichida sau semi \-lichida din trahee, plamani sau bronhii , prin tuse si expectoratie.
  Ierburi expectorante: tataneasa, lumanarica, iarba-mare.
 
-
 2. Scrieti un scurt rezumat despre Lobelia
  Lobelia este o planta nativa din America de Nord cultivata astazi si in alte regiuni ale globului, in Asia si Europa. Actioneaza ca antiastmatic, antispastic, expectorant, vomitiv, nervin (actioneaza sedativ asupra sistemului nervos). Este indicata in : astm bronsic, bronsite, traume si hernii, tuse convulsiva, pleurezie, hepatita, greata si congestie hepatica,tensiune arteriala ridicata, obstructieintestinala si astenie nervoasa, convulsii isterice, amigdalita, pneumonie.
-
 
 3. Scrieti despre ierburile nervine si antispasmodice
  Nervii sunt ca o rețea de fire electrice într-un oraș . Energia electrică este adusa în fiecare casă pentru a furniza lumină și a rula masini. Sunt utilizate fire mici în cazul în care e nevoie de puțină putere, în timp ce sarcinile grele sunt transportate prin cabluri. Firul propriu-zis este important. În cazul în care un fir este prea luminos sau prea fragil pentru curent, am putea avea o cădere în sistemul electric.

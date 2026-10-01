@@ -1,5 +1,3 @@
-[Nu a fost extras text din această pagină.]
-
 ©Copyright 2005, Bruce Lipton
 all rights reserved
 Htlul original The Biology of Belief, Unleashing the Power of
@@ -23,8 +21,6 @@ mobile phone 0744352963; 0724212690;
 e-mail ;
 website:
 Printed in Homania ISBN 978-973-1701-39-4
-
-[Nu a fost extras text din această pagină.]
 
 C
 artea lui Bruce Lipton este rezumatul hotărâtor al
@@ -9471,5 +9467,3 @@ Calendarul Mayaș 30,00 LEI
 Bruce Lipton
 Biologia credinței 30,00 lei
 285
-
-[Nu a fost extras text din această pagină.]

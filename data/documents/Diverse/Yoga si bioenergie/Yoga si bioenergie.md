@@ -228,8 +228,6 @@ Unde se va sfârsi această deformare a Crestinismului si triumful hinduismului?
 
 extrase din cartea "ORTODOXIA SI RELIGIA VIITORULUI" de Ieromonah SERAFIM ROSE
 
-
-
 Marturia unui tanar care a practicat yoga si tehnici de bioenergie
 
 La îndemnul duhovnicului meu am pornit la scrierea acestor rânduri cu gândul de a împărtăsi si altora tulburătoarea experientă trăită de mine prin practicarea de: yoga, tantra-yoga, dianetică, qi-qong, vindecare bioenergetică, vorbire cu supraeul, meditatie pozitivă, regimuri alimentare-bionaturiste. Aceste rânduri le scriu atât pentru cei ce practică acestea, cât si pentru cei care nu le practică, în dorinta de a le arăta unde si cum se poate gresi, si mai ales, unde se poate ajunge.
@@ -671,7 +669,5 @@ Fie ca Dumnezeu să ne păzească de lepădarea de credintă a Antihristului ce 
 Împreună cu Avraam în lumina fetei Sale, prin rugăciunile Preasfintei, de Dumnezeu Născătoarei si Pururea Fecioarei Măria, a dumnezeiestilor puteri si a multimii de mucenici, prooroci, mărturisitori, ierarhi, apostoli si propovăduitori care au fost credinciosi până la moarte, si care si-au vărsat sângele pentru Hristos, Care ne-a câstigat pe noi prin Evanghelia Lui si prin apa Sfântului Botez. Noi suntem fiii lor - slabi, păcătosi si nevrednici, asa cum suntem; dar nu ne vom întinde niciodată mâinile noastre către un dumnezeu străin! Amin.
 
 Părintele Basile Sakkas
-
-
 
 Pe pagina se gaseste cartea intitualata JURNALUL CONVERTIRII De la zeita mortii la Împăratul Vietii" scrisa de preot prof. Danion Vasile.

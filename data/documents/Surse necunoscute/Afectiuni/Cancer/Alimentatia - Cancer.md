@@ -1,3 +1,5 @@
+# Recomandari naturiste pentru cancer
+
 Alimentatia adultului
 
 Alimentatia corecta a adultului este un factor important de mentinere a sanatatii si de prevenire a bolilor.
@@ -6,8 +8,9 @@ Alimentatia corecta a adultului este un factor important de mentinere a sanatati
 
 \- incidenta cancerului ar putea fi redusa cu 20%, daca fructele si legumele, ar constitui 5 si mai multe serviri pe zi. Aceasta corelatie între alimentatie si boala este foarte importanta, chiar daca boala apare la vârsta de 60-70 ani.
 
+## Schimbari fiziologice legate de vârsta
+
 Schimbari fiziologice legate de vârsta
-======================================
 
 În intervalul de vârsta 25 - 55 ani au loc schimbari fiziologice importante:
 
@@ -17,8 +20,9 @@ Schimbari fiziologice legate de vârsta
 
 \- la femei în aceasta perioada au loc schimbari hormonale, legate de stingerea functiei reproductive. Menopauza începe în jurul vârstei de 40 ani, cu declinul secretiei de estrogenice, reducerea masei osoase, cu aparitia ulterioara a osteoporozei.
 
+## Model nutritional de protectie
+
 Model nutritional de protectie
-==============================
 
 Planul de alimentatie al adultului îndreptat spre promovarea unui model dietetic de sustinere a sanatatii si o buna functionare a organismului odata cu vârsta este denumit paradigma nutritionala de protectie. Scopul unei asa nutritii este:
 
@@ -30,8 +34,9 @@ Planul de alimentatie al adultului îndreptat spre promovarea unui model dieteti
 
 \- acest plan alimentar combinat cu practicarea exercitiilor fizice si sustinerea unei greutati corporale ideale poate avea un impact important în prevenirea cancerului, diabetului zaharat, afectiunilor cardiovasculare si altor afectiuni cronice.
 
+## Rolul alimentelor vegetale
+
 Rolul alimentelor vegetale
-==========================
 
 \- alimentele vegetale sunt importante prin continutul de componente nutritive majore (proteine, lipide, glucide, vitamine, minerale), dar si prin continutul unei cantitati impunatoare de fito-nutrienti;
 
@@ -53,13 +58,15 @@ Rolul alimentelor vegetale
 
 \- lignanele, gasite în cereale, au calitati anti-canceroase si fitoestrogene.
 
+## Integritatea intestinala si dieta de protectie
+
 Integritatea intestinala si dieta de protectie
-==============================================
 
 Alimentele vegetale au un rol important si în mentinerea integritatii intestinale, manifestata prin functia de bariera contra toxinelor, infectiei, anti-genelor. Integritatea intestinala compromisa conduce la tulburarea acestei functii de bariera contra factorilor nocivi.
 
+## Ecologia intestinala
+
 Ecologia intestinala
-====================
 
 Sutele de specii diferite de microbi ce populeaza intestinul au un impact important asupra sanatatii, într-un intestin sanatos, bacteriile patogene (Escherichia coli hemolitica, Clostritium perfringens, Campylobacter, Listeria) si cele saprofite (bifidobacteriile, Lactobacillus, E.coli) coexista într-un echilibru. Flora intestinala are functia de:
 
@@ -69,8 +76,9 @@ Sutele de specii diferite de microbi ce populeaza intestinul au un impact import
 
 \- digestie si producere a unor vitamine. Dezechilibrul florei intestinale, cu efecte nocive asupra sanatatii, este numit si disbioza intestinala. Acest dezechilibru poate predispune la cancer prin activarea sistemelor enzimatice bacteriene ale agentilor cancerigeni si a celor potential cancerigeni.
 
+## Suportul nutritional al florei intestinale saprofite
+
 Suportul nutritional al florei intestinale saprofite
-====================================================
 
 Poate fi consolidat prin folosirea prebioticelor (produse alimentare nondigestive, care stimuleaza cresterea speciilor de bacterii simbiotice din intestin) si probioticelor (suplimente ce pot schimba sau îmbunatati echilibrul bacterian intestinal).
 
@@ -78,8 +86,9 @@ Prebioticele: se contin în fibrele vegetale si fructo-oligozaharide (în miere 
 
 Probioticele: Lactobacillus, Bifidobacterium, care inhiba flora patogena, au si efect de scadenta a pH-ulu intestinal (inhiba flora toxica acido-sensibila). Produsele lactate: chefirul, iaurtul, produsele comerciale probiotice, contin lactobacterii, bifidobacterii si alte bacterii benefice.
 
+## Suportul nutritional al mucoasei intestinale
+
 Suportul nutritional al mucoasei intestinale
-============================================
 
 Integritatea intestinala este definita si de starea enterocitelor, a mucoasei intestinale.
 
@@ -95,8 +104,9 @@ Functionarea optima a organismului presupune nu doar asimilarea nutrientilor, da
 
 \- sistemul enzimatic al ficatului.
 
+## Tesutul limfoid intestinal
+
 **Tesutul limfoid intestinal**
-==============================
 
 \- intestinul cuprinde cel mai viguros sistemul limfoid al organismului (50-60%), contine cel mai mare numar de limfocite ale corpului, genereaza pâna la 70% din totalul de anticorpi;
 
@@ -106,18 +116,21 @@ Functionarea optima a organismului presupune nu doar asimilarea nutrientilor, da
 
 \- bifidobacteriile sustin producerea Ig A intestinale.
 
+## Sistemul enzimatic al ficatului
+
 Sistemul enzimatic al ficatului
-===============================
 
 Tractul digestiv este prima veriga în eliberarea organismului de substantele straine. Antigenii sau substantele toxice care nu au fost inactivate în lumenul intestinal, de catre flora intestinala, ajung prin vena hepatica în ficat pentru detoxicare. Aici ele trec procese de biotransferare, în 2 faze: transformare din liposolubile în hidrosolubilc, apoi conjugare, pentru a fi ulterior eliminate prin urina si fecale.
 
+## Suportul nutritional al detoxicarii hepatice
+
 **Suportul nutritional al detoxicarii hepatice**
-================================================
 
 Carentele nutritionale vor afecta aceste 2 etape de detoxicare hepatica. Alimentele bogate în fitonutrienti furnizeaza materiale esentiale pentru procesele de detoxicare hepatica. Fitonutrientii din grupul indolului, care se contin în conopida, joaca un rol important în prima faza de detoxicare. Componentii organosulfurici din usturoi, ceapa, induc enzimele fazei a 2-a de detoxicare. Grepfrutul contine un flavonoid, naringenin, care are actiune blocanta asupra citocromului P-450 (enzima a primei faze de detoxicare), astfel micsorând considerabil rata de eliminare a unor medicamente (hipolipemiante, blocante ale canalelor de calciu, benzodiazepine, unele antihistaminice).
 
+## Recomandari practice pentru paradigma nutritionala de protectie
+
 Recomandari practice pentru paradigma nutritionala de protectie
-===============================================================
 
 Necesitatile nutritionale se schimba cu vârsta. Dieta de protectie trebuie sa fie flexibila, sa corespunda necesitatilor fiziologice si psihologice individuale ale adultului. Recomandarile standarde s-ar putea baza pe piramida ghid a alimentelor. Nutritia de protectie trebuie sa contina zilnic 5-9 serviri de fructe si legume, 6-11 serviri de cereale, 3 pahare de lapte ecremat sau cu doze reduse de lipide, iaurt, cascaval sau alt aliment bogat în calciu, 2-3 serviri de pastaioase, soia, nuci, peste, carne de pasare, oua, came slaba.
 
@@ -129,8 +142,9 @@ l servire fructe = l mar de marimi medii; de grepfrut;
 
 l servire carne sau alternative = 60-90 g de carne slaba sau peste; 30 g carne = 1 ou, 1/4-1/2 pahar de seminte, 2 linguri de unt de arahide.
 
+## Alimentatia în perioada adultului tânar
+
 Alimentatia în perioada adultului tânar
-=======================================
 
 În perioada adultului tânar se defineste efectiv modelul ulterior de alimentatie. Un asemenea model optim pentru sanatate include:
 
@@ -148,13 +162,15 @@ Alimentatia în perioada adultului tânar
 
 \- suplimentarea zilnica cu vitamine si minerale în caz de dieta carentiala, inadecvata.
 
+## Perioada adultului de vârsta medie
+
 Perioada adultului de vârsta medie
-==================================
 
 În aceasta perioada la multi se observa un exces ponderal, care comporta riscul multor stari patologice acute si cronice, cum ar fi: hipertensiunea, dislipidemia, afectiuni coronariene, ale vezicii biliare, unele forme de cancer. Una din cauzele excesului ponderal este aportul excesiv de kilocalorii, alta - sedentarismul. Evitarea acestor cauze ar putea juca un rol important în prevenirea bolilor.
 
+## Fructele si legumele
+
 **Fructele si legumele**
-========================
 
 Cresterea aportului de fructe si legume, consumate de cel putin 5 ori pe zi, trebuie sa devina un obiectiv al alimentatiei de protectie. Ca metode do încurajare ar putea servi urmatoarele:
 
@@ -172,8 +188,9 @@ Cresterea aportului de fructe si legume, consumate de cel putin 5 ori pe zi, tre
 
 Alimentatia de fond vegetariana poate ajuta la prevenirea afectiunilor cronice si, în special a cancerului. Prin combinarea ratiilor preponderent vegetale cu eforturile de mentinere a greutatii ideale, practicarea exereitiilor fizice si evitarea fumatului riscul de cancer se diminueaza cu 60-70%.
 
+## Acizii grasi esentiali
+
 Acizii grasi esentiali
-======================
 
 Aportul echilibrat de acizi grasi esentiali, omega-6 (acidul linoleic si gama-linoleic) si omega-3 (acidul alfa-linoleic, AEP, ADH) este un component important al dietei de protectie. Raportul optim ar trebui sa fie 4:1 - 10:1 (actualmente 10:1 - 25:1).
 
@@ -181,14 +198,13 @@ Alimentele bogate în acizi grasi omega-3 sunt uleiul de soia, nucile, semintele
 
 Totusi, marirea exagerata a acizilor grasi din seria omega-3 favorizeaza procesele de îmbatrânire, fragilizeaza membranele fosfolipidice si chiar poate duce la fenomene de necroza cardiaca.
 
+## Suplimentarea cu vitamine si minerale
+
 Suplimentarea cu vitamine si minerale
-=====================================
 
 Putine persoane pot respecta recomandarile de a consuma zilnic un minimum de 5 gustari de fructe si legume, multi apelând la suplimente medicamentoase de vitamine si minerale. Medicul trebuie sa aprecieze care din ele sunt binevenite si sa convinga pacientul ca acestea trebuie sa serveasca ca adaus al dietei, nu ca substituent al ei.
 
 Abrevieri - AEP - acidul cicosapentanoic ADH - acidul docosahexaenoic.
-
-
 
 PREVENIREA CANCERULUI PRIN ALIMENTATIE
 

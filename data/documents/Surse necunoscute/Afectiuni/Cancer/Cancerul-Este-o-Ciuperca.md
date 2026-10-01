@@ -1,3 +1,5 @@
+# Recomandari naturiste pentru cancer
+
 Articol de **David Icke** din 22 Noiembrie, 2009
 
 Traducere de Mihaela Gheorghita
@@ -178,17 +180,11 @@ Ei nu au venit.
 
 !{width="5.121527777777778in" height="2.5430555555555556in"}
 
-
-
 Video cu Tullio Simoncini si marturii ale celor care au fost sub tratamentul lui
 
 <
 
 Siteul lui Tullio Simoncini
-
-
-
-
 
 Test simplu pentru a verifica nivelul de Candida in corpul tau
 

@@ -1,5 +1,4 @@
-Recomandări pentru Calculoza biliară
-------------------------------------
+# Recomandări pentru Calculoza biliară
 
 \- infuzie 2 lingurițe la cană de apă din **[Peliniță și Pelin]{.underline}**, 2 căni pe zi pe stomacul gol
 

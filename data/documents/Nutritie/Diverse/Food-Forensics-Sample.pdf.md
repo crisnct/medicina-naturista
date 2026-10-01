@@ -1,5 +1,3 @@
-[Nu a fost extras text din această pagină.]
-
 ix
 INTRODUCTION
 T

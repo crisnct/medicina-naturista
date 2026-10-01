@@ -1,3 +1,0 @@
-Se iau următoarele plante : **gălbenele** 1parte, **pătlagină** 1parte, **pelin alb** ½ parte, **rădăcină de tătăneasă** ½ parte. Se amestecă bine, se iau 113gr de amestec care se fierb în untură curată de porc, până când plantele devin ca jumările \[să nu se ardă\]. Lăsăm să stea o zi preparatul, după care îl încălzim la bain-marie și îl strecurăm. **1parte =14gr.**
-
-50gr seu de oaie se fierbe în 100ml lapte dulce. Se pune la răcit, până când seul se ridică deasupra. Se ia cu o strecurătoare și se amesteca bine cu 50gr ceară de albine topită, 25gr unt, 3 linguri de ulei de floarea soarelui și puțină colonie. Se păstrează la rece în cutii închise.

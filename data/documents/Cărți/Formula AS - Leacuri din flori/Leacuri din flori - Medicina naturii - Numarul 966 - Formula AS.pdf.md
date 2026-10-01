@@ -1,7 +1,7 @@
 Formula AS > Anul 2011 > Numarul 966 > Medicina naturii
-Leacuri din flori
+
+# Leacuri din flori
 Elena Josan
-Farmacia primaverii
 
 Anul acesta, anotimpul ne incearca rabdarea. Soarele bland al primaverii dispare brusc de pe cer, acoperit de nori
 incarcati de ploi reci si lapovita. Abia izbucniti, primii muguri tremura, saracii, de frig. Iata de ce imi rade inima
@@ -9,8 +9,10 @@ de bucurie cand vad in iarba de-abia dezghetata si pe crengile copacilor primele
 minunat de frumoase. In timp ce sufletul se topeste de placerea scufundarii in privelistea plina de culori si
 miresme, mintea incepe sa clasifice florile dupa puterea lor de a fi transformate in leacuri de sanatate. Si cum ele
 nu sunt putine, ma grabesc sa vi le prezint.
-Balsam din flori
-Mod de preparare: Reteta lui nu este limitata la un singur soi de plante si nici la cantitati dramuite farmaceutic.
+
+## Balsam din flori
+
+Reteta lui nu este limitata la un singur soi de plante si nici la cantitati dramuite farmaceutic.
 Conditia principala este sa folosim numai florile, cat mai repede dupa culegerea lor, fara codita si partile verzi.
 Prepararea balsamului incepe atunci cand in natura apar primele flori si se termina in luna noiembrie. Aveti
 nevoie de un borcan de sticla cu filet si, pentru inceput, de 2-3 litri de alcool dublu rafinat. Cand apar primele
@@ -38,8 +40,15 @@ parerea mea, una din cele mai eficiente, dar, atentie, si toxice). In 25 ml ceai
 aplicati pe locul afectat. Un tampon imbibat cu balsam se pune si pe dintele cariat, in caz de dureri, iar fruntea se
 freaca deasupra sprancenelor, in caz de migrena. Pentru diminuarea durerilor in articulatiile bolnave, frecati-le
 cu o lingura de balsam. Daca masajul nu este permis, cum e cazul in hernia de disc, atunci se aplica pe coloana
-un prosopel inmuiat in balsam. Cu ce flori incepem in luna aprilie? Cu florile ce au o viata foarte scurta, foarte sensibile la bataile vantului, frig
+un prosopel inmuiat in balsam.
+
+### Florile de sezon
+
+Cu ce flori incepem in luna aprilie? Cu florile ce au o viata foarte scurta, foarte sensibile la bataile vantului, frig
 si ploaie: florile pomilor fructiferi. Ele fac casa buna cu florile de padure si ne ajuta sa rezolvam, macar partial,
+
+### Cais si zarzar
+
 unele probleme medicale. Florile de cais si zarzar (in unele zone ale tarii, timpul lor a trecut) poarta rochite colorate in alb-roz, ce te fac sa
 te opresti in loc ca sa admiri explozia neasteptata. Copacul este cunoscut de mii de ani prin calitatile terapeutice
 ale mugurilor si florilor in tratarea afectiunilor cardiace, digestive, avitaminozei, epuizarii nervoase si fizice la
@@ -47,6 +56,9 @@ ale mugurilor si florilor in tratarea afectiunilor cardiace, digestive, avitamin
 adulti. Copiilor li se recomanda atunci cand se depisteaza anemia, avitaminoza, pentru favorizarea cresterii si
 intarirea imunitatii. Vreau sa amintesc de o metoda batraneasca, cand copiilor mici (de pana la un an) li se dadea
 ceai din crengute cu boboci de flori de cais, pentru prevenirea si tratarea inceputului de hernie ombilicala si
+
+### Visinul
+
 inghinala. Pentru copii, florile pot fi conservate in miere de albine, in loc de alcool. Visinul s-a imbracat, si el, in podoabe de mireasa. Grabiti-va sa culegeti macar un pumn de flori, pentru balsamul
 nostru minunat, ca sa-i oferiti o aroma deosebita, dar si calitatile sale diuretice (pentru cei cu edem cardiac), de
 intarire a imunitatii, in caz de raceala cu tuse si febra. Florile le sunt indicate si persoanelor cu hemoragii, ori cu
@@ -54,6 +66,9 @@ indice de coagulare a sangelui scazut. Femeile la menopauza sau cu fibrom uterin
 se adauga flori de visin, impreuna cu varfurile crengutelor. Neaparat sa le puneti in balsam, daca aveti probleme
 cu insomnia, gastrita, constipatia, pietrele la rinichi, icterul, avitaminoza. In florile ce parasesc repede crengutele
 subtiri se gaseste o adevarata comoara de microelemente. Puse in balsam, il imbogatesc cu fier, cupru, magneziu
+
+### Prunul
+
 si potasiu. Prun. Poporul nostru foloseste de sute de ani florile si crengutele de prun, pentru vindecarea diferitelor afectiuni.
 Lastarii tineri, florile, mugurii si frunzele prunului au proprietati antivirale, de aceea se folosesc in cazuri de
 infectii, raceala, hepatita. Florile au o actiune dozata asupra peristaltismului intestinal, a furunculozei si
@@ -65,10 +80,16 @@ intr-un litru de apa calda se adauga si 4 linguri de balsam, iar in timpul zilei
 un pahar de apa cu 2 linguri otet kombucha si o lingura de balsam din flori.) Din florile si crengutele de prun, batranii preparau un ceai pentru erizipel: 2 lingurite de crengi tocate si o
 lingura de flori uscate se oparesc cu un pahar de apa clocotita, se tin 15 minute in baie de aburi, apoi se
 infuzeaza o ora in termos. Un prosopel de in sau de bumbac se imbiba cu lichidul obtinut (e si mai eficient daca
+
+### Marul
+
 se amesteca si cu 2 linguri de balsam) si se aplica pe locul bolnav, pentru 20-30 minute, de 3 ori pe zi. Mar. Pentru persoanele cu imunitate scazuta, stari gripale si viroze dese, se prepara ceai din flori de mar, dar si
 in combinatie cu flori de par. Se toarna 300 ml de apa clocotita peste 2 lingurite de flori pline varf, se tine pe un
 foc slab 2-3 minute si se infuzeaza 25 de minute. Ceaiul se bea de 2-3 ori pe zi, caldut, cate 100-150 ml, cu 30
 minute inainte de masa. (Persoanele cu pietre la rinichi, dar si cei ce lucreaza in conditii de poluare maxima pot
+
+### Parul
+
 mari doza de flori de mar puse in balsam.) Par. In scop terapeutic se folosesc mai ales perii-padureti. Acizii organici continuti de flori creeaza in tractul
 gastro-intestinal un mediu nefavorabil pentru bacteriile patogene, ce provoaca nu numai dereglari intestinale, dar
 si procese inflamatorii la nivel de rinichi, vezica biliara si urinara. Prezenta potasiului este benefica pentru
@@ -80,7 +101,9 @@ de vie, nuca, leurda, zambile, ciubotica cucului, podbal, muguri de conifere, fl
 Neaparat trebuie puse flori de castan, de salcam si de salcie, ultimele cu efect contra reumatismului. Chiar si florile de camera: cactusi, pasiflora, muscate isi gasesc un loc in balsam. Daca nu cunoasteti bine
 plantele, cereti sfatul specialistilor sau intrati pe internet si verificati daca planta nu este toxica (precum
 rostopasca sau oleandrul, de exemplu).
-Un apel ecologic
+
+## Un apel ecologic
+
 Cand sunt brutale si excesive, interventiile noastre in lumea plantelor pot produce dezastre. Lantul ecologic este
 atat de sensibil! Afectarea unei singure verigi nimiceste deseori multe specii din flora si fauna. Disparitia florilor
 de primavara, care devin o sursa de comert fara restrictii, un adevarat "florocid", mai ales in preajma

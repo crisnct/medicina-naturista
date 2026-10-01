@@ -1,42 +1,46 @@
-Sistemul Muscular
-Principalele grupe de muschi
+# SISTEMUL MUSCULAR
 
-Muschii capului:
-• Muschii mimicii (cutanati), frontali si occipitali;
-• Muschii din jurul orificiilor nazale si bucale, constrictori si dilatatori;
-• Muschii masticatori.
- Muschii gatului si cefei:
-• Pielos al gatului;
-• Sterno-cleido-mastoidieni;
-• Hioidieni.
- Muschii Trunchiului:
-• Pe fata posterioara a trunchiului sunt muschii trapezi, marii dorsali si muschii
-santurilor vertebrale (in plan profund);
-• Pe fata antero-laterala sunt muschii toracici (pectorali, dintati, intercostali) si
-abdominali (drepti si oblici);
-• Prin contractie, muschii abdominali participa la defecatie, mictiune si expiratie;
-• Intre torace si abdomen se gaseste muschiul diafragma care este boltit spre
-torace.
- Musculatura membrelor superioare:
-• Muschii de pe centura scapulara;
-• Muschii membrului propriu-zis: brat (biceps, triceps), antebrat (flexor si
-extensor ai mainii, pronatori si supinatori), muschii mainii.
- Musculatura membrelor anterioare:
-• Muschi de pe oasele centurii pelviene (fesierii);
-• Musculatura membrului propriu-zis: musculatura coapsei (cvadricepsul,
-croitorul, aductorul, bicepsul femural), musculatura gambei (muschii gambei
-extensori ai piciorului, ponatori supinatori, iar posterior se gaseste tricepsul
-sural.
+## Principalele grupe de muschi
 
- Mușchii reprezintă elementele active ale aparatului locomotor. Sub acțiunea
+- **Muschii capului:**
+ - Muschii mimicii (cutanati), frontali si occipitali;
+ - Muschii din jurul orificiilor nazale si bucale, constrictori si dilatatori;
+ - Muschii masticatori.
+- **Muschii gatului si cefei:**
+ - Pielos al gatului;
+ - Sterno-cleido-mastoidieni;
+ - Hioidieni.
+- **Muschii Trunchiului:**
+ - Pe fata posterioara a trunchiului sunt muschii trapezi, marii dorsali si muschii
+ santurilor vertebrale (in plan profund);
+ - Pe fata antero-laterala sunt muschii toracici (pectorali, dintati, intercostali) si
+ abdominali (drepti si oblici);
+ - Prin contractie, muschii abdominali participa la defecatie, mictiune si expiratie;
+ - Intre torace si abdomen se gaseste muschiul diafragma care este boltit spre
+ torace.
+- **Musculatura membrelor superioare:**
+ - Muschii de pe centura scapulara;
+ - Muschii membrului propriu-zis: brat (biceps, triceps), antebrat (flexor si
+ extensor ai mainii, pronatori si supinatori), muschii mainii.
+- **Musculatura membrelor anterioare:**
+ - Muschi de pe oasele centurii pelviene (fesierii);
+ - Musculatura membrului propriu-zis: musculatura coapsei (cvadricepsul,
+ croitorul, aductorul, bicepsul femural), musculatura gambei (muschii gambei
+ extensori ai piciorului, ponatori supinatori, iar posterior se gaseste tricepsul
+ sural.
+
+## Muschii
+
+Mușchii reprezintă elementele active ale aparatului locomotor. Sub acțiunea
 impulsurilor nervoase, ei se contractă sau se relaxează. Prin intermediul nervilor,
 mușchii pot primi impulsuri voluntare (contracții voluntare, la mușchii striați –
 scheletici –) sau involuntare (contracții involuntare, la mușchii netezi sau cardiac).
  După formă, dispunere, mod de contracție, mușchii sunt impartiti în două clase:
- 1. Mușchi viscerali, netezi, care se găsesc dispuși în pereții organelor interne
+
+1. Mușchi viscerali, netezi, care se găsesc dispuși în pereții organelor interne
 (stomac, intestine, artere etc.). Întreaga masă se contractă lent, involuntar, primind
 impulsuri vegetative.
- 2. Mușchi striați, care se subîmpart în două tipuri: cardiaci, cu contracții
+2. Mușchi striați, care se subîmpart în două tipuri: cardiaci, cu contracții
 involuntare, și scheletici, cu contracții mixte, de obicei voluntare.
 
 două sau mai multe puncte de inserție, dintre care unul este de origine, iar
@@ -44,18 +48,22 @@ celălalt (celelalte) sunt de inserție, reprezentat, de cele mai multe ori prin
 tendon. Între ele se găsește masa (corpul) mușchiului.
  După dispoziția fibrelor masei musculare în raport cu tendonul, mușchii scheletici
 se împart în:
- - Mușchi fusiformi, cu fibre lungi, paralele pe lungime, permițând mișcări diverse,
+
+- Mușchi fusiformi, cu fibre lungi, paralele pe lungime, permițând mișcări diverse,
 dar cu forță scăzută (sternocleidomastoidian, croitor etc.);
- - Mușchi penați, cu tendonul în centru sau lateral și fibrele musculare dispuse
+- Mușchi penați, cu tendonul în centru sau lateral și fibrele musculare dispuse
 oblic pe acesta și pe lungime, executând mișcări cu forță crescută (brahial etc.);
- - Mușchi cu mai multe origini și un singur tendon terminal (biceps, triceps,
+- Mușchi cu mai multe origini și un singur tendon terminal (biceps, triceps,
 cvadriceps, sternocleidomastoidian). Sunt mușchi mari, puternici;
- - Mușchi cu intersecții tendinoase (drepții abdominali).
- În raport cu modul de funcționare, mușchii pot fi:
- - agoniști, care realizează aceeași mișcare (apropie două oase),
- - antagoniști, care participă la mișcări pe aceeași direcție, dar în sensuri opuse
+- Mușchi cu intersecții tendinoase (drepții abdominali).
+
+În raport cu modul de funcționare, mușchii pot fi:
+
+- agoniști, care realizează aceeași mișcare (apropie două oase),
+- antagoniști, care participă la mișcări pe aceeași direcție, dar în sensuri opuse
 (unul apropie două oase, celălalt le depărtează; de exemplu, bicepsul și tricepsul).
- La exterior, mușchii prezintă o teacă membranoasă, numită epimisium. Ea îi
+
+La exterior, mușchii prezintă o teacă membranoasă, numită epimisium. Ea îi
 separă de organele învecinate, făcând însă corp comun cu țesutul conjunctiv
 subdermic, periost, aponevroze, tendoane etc.
  În interior, mușchiul prezintă o structură fasciculată, fiecare fascicul fiind delimitat
@@ -77,7 +85,10 @@ placă motorie.
  Executând funcții complexe, mușchiul striat dezvoltă un metabolism activ, ceea
 ce necesită o irigare sanguină bogată. Rețeaua capilară din jurul fibrelor musculare
 are o suprafață de 4 – 6 ori mai întinsă decât cea tegumentară.
- Fibra musculară este o celulă alungită, cu fibrile contractile în citoplasmă. Ea
+
+## Fibra musculară
+
+Fibra musculară este o celulă alungită, cu fibrile contractile în citoplasmă. Ea
 este unitatea morfo-funcțională a mușchiului. Are o formă fusiformă, conică,
 cvasicilindrică și dimensiuni de ordinul a 1mm (la mușchiul scăriței) – 34 cm (la
 mușchiul croitor) lungime și 10 – 100 microni diametru.
@@ -92,7 +103,10 @@ neuro-musculară, situată la mijocul acestora, dar sunt și cazuri când o plac
 musculară inervează mai multe fibre.
  Fibra musculară este alcătuită din: membrană, numită sarcolemă, citoplasmă
 (sarcoplasma), și aparat fibrilar.
- Sarcolema este o membrană aproape continuă, ce prezintă un orificiu de intrare
+
+### Sarcolema
+
+Sarcolema este o membrană aproape continuă, ce prezintă un orificiu de intrare
 a fibrei nervoase. Se constituie dintr-un complex elastic, subțire, bistratificat; stratul
 intern, mai subțire (circa 70 Ångstromi), se numește membrană plasmatică, iar cel
 extern, mai gros (de circa 300 – 500 Ångstromi), numit membrană externă, are o
@@ -103,7 +117,10 @@ stabilește legătura dintre interiorul și exteriorul celulei, prin intermediul
 canalicule T, importantă cale pentru schimburile de substanțe cu lichidul intercelular.
 De asemenea, sistemul T deține rolul primordial de transmisie a impulsului nervos de
 la placa neuro-musculară la miofibrile.
- Sarcoplasma este citoplasma celulară, formată din miofibrile și citoplasmă
+
+### Sarcoplasma
+
+Sarcoplasma este citoplasma celulară, formată din miofibrile și citoplasmă
 necontractilă.
  Miofibrilele formează ionoplasma. Ele ocupă cam 60 – 80% din masa și volumul
 fibrei, prezentându-se ca filamente de 1 – 3 micrometri diametru și de lungime egală
@@ -160,12 +177,14 @@ substanțe organice, necesare metabolismului celular: enzime proteice și mitoco
 aflate în strânsă legătură cu filamentele de actină (au rol în utilizarea ATP).
 Sarcoplasma nediferențiată ocupă cam 20 – 30% din masa celulară. Ea cuprinde
 două fracțiuni:
- - sarcoplasma interfibrilară, bogată în organite celulare (mitocondrii, fragmente
+
+- sarcoplasma interfibrilară, bogată în organite celulare (mitocondrii, fragmente
 de reticul endoplasmatic, incluziuni organice: proteine, aminoacizi liberi, acizi grași
 liberi, miogen, globuline, glicogen, enzime etc.)
- - sarcoplasma periferică, unde se găsesc mitocondrii, nucleu, aparat Golgi,
+- sarcoplasma periferică, unde se găsesc mitocondrii, nucleu, aparat Golgi,
 reticul endoplasmatic, lizozomi, glicogen, lipopigmenți, ATP etc.
- Reticulul endoplasmatic are doi componenți: reticulul sarcoplasmatic (RS),
+
+Reticulul endoplasmatic are doi componenți: reticulul sarcoplasmatic (RS),
 identic cu al celorlalte celule, și sistemul T, tubular transvers, ca o continuare a
 membranei și a spațiului intercelular înăuntrul celulei.
  Tuburile sistemului T învăluie fiecare miofibrilă printr-o formațiune inelară la
@@ -175,14 +194,18 @@ comparativ cu membrana celulară.
  Tipul și cantitatea enzimelor din citoplasmă depind de regimul anaerob sau
 aerob al metabolismului celular, reunind cam 50% din proteinele solubile din mușchi.
 
+## Tipuri de fibre musculare
+
 După cantitatea de sarcoplasmă, mioglobină („hemoglobina musculară“),
 rezerva de oxigen, avem următorele tipuri de fibre musculare:
- - fibre roșii, cu un conținut mai ridicat în mioglobină, cu contracții lente (peste 3,5
+
+- fibre roșii, cu un conținut mai ridicat în mioglobină, cu contracții lente (peste 3,5
 ms), puternice, funcționând aproape continuu și obosind greu (mușchii
 antigravitaționali, cu metabolism preponderent oxidativ);
- - fibre albe, cu numeroase miofibrile, mai sărace în mioglobină; au contracții
+- fibre albe, cu numeroase miofibrile, mai sărace în mioglobină; au contracții
 rapide (sub 3,5 ms) și obosesc ușor. Au metabolism preponderent glicolitic, anaerob.
- Nu există mușchi alcătuit doar din fibre roșii sau albe, dar există mușchi
+
+Nu există mușchi alcătuit doar din fibre roșii sau albe, dar există mușchi
 constituiți predominant din fibre roșii sau albe. Astfel, extensorii au în special fibre
 roșii, iar flexorii mai multe fibre albe.
  La om a fost evidențiat un al treilea tip de fibre, intermediar, rozalii. Este posibil
@@ -191,28 +214,22 @@ stadiu ontogenetic, când mușchii încă nu s-au separat în flexori sau extens
 mușchii scheletici să fi conținut doar fibre rozalii. Pe măsura stabilizării unui anumit
 regim de funcționare și de metabolism, fibrele evoluează spre unul dintre aceste
 tipuri.
-Proprietățile fibrelor musculare
-Fibra roșie Fibra albă
-Metabolism aerob crescut Metabolism anaerob crescut
-Lipoliză intensă Lipoliză slabă
-Mici rezerve glicogenice (dependență de
-glicogenul hepatic)
-Rezerve glicogenice crescute
-(semidependență de glicogenul hepatic)
-Activitate ATP-azică slabă Activitate ATP-azică intensă
-Contracție lentă Contracție rapidă
-Dimensiuni mici, tensiune mică,
-cvasicontinuă
-Dimensiuni mari, tensiune mare,
-intermitentă
-Rețea capilară bogată Rețea capilară săracă
-Inervație motoneuronală de dimensiuni
-reduse, cu conductanță lentă
-Inervație motoneuronală de dimensiuni
-mari, cu conductanță rapidă
-Prag reflex diminuat Prag reflex crescut
-Descărcare tonică reflexă Descărcare fazică reflexă
-Oboseală redusă Oboseală intensă
+
+### Proprietățile fibrelor musculare
+
+| Fibra roșie | Fibra albă |
+|---|---|
+| Metabolism aerob crescut | Metabolism anaerob crescut |
+| Lipoliză intensă | Lipoliză slabă |
+| Mici rezerve glicogenice (dependență de glicogenul hepatic) | Rezerve glicogenice crescute (semidependență de glicogenul hepatic) |
+| Activitate ATP-azică slabă | Activitate ATP-azică intensă |
+| Contracție lentă | Contracție rapidă |
+| Dimensiuni mici, tensiune mică, cvasicontinuă | Dimensiuni mari, tensiune mare, intermitentă |
+| Rețea capilară bogată | Rețea capilară săracă |
+| Inervație motoneuronală de dimensiuni reduse, cu conductanță lentă | Inervație motoneuronală de dimensiuni mari, cu conductanță rapidă |
+| Prag reflex diminuat | Prag reflex crescut |
+| Descărcare tonică reflexă | Descărcare fazică reflexă |
+| Oboseală redusă | Oboseală intensă |
 
 Tipul de inervație este răspunzător pentru rata metabolică a unei fibre
 musculare, prin rolul trofic pe care-l joacă neuronul pentru mușchi. Prin inversarea
@@ -220,16 +237,21 @@ inervației unei fibre roșii, aceasta dobândește un comportament de fibră al
 procesul invers este mai puțin pregnant, ca urmare a unei atare autonomii a fibrelor
 albe vis a vis de inervație.
 
-DIGESTIA
-FIZIOLOGIA APARATULUI DIGESTIV
+## DIGESTIA
+
+### FIZIOLOGIA APARATULUI DIGESTIV
+
 Tractul gastro-intestinal asigură aportul continuu de apă, electroliți și substanțe
 nutritive necesare organismului. In vederea realizării acestor funcții, este necesară:
-1. deplasarea alimentelor prin tractul alimentar; 2. secreția sucurilor digestive și
-digestia alimentelor; 3. absorbția produșilor de digestie, a apei și a electroliților; 4.
-circulația sângelui prin segmentele tubului digestiv în vederea transportului
 
-substanțelor absorbite; 5. controlul acestor funcții prin intermediul sistemului nervos
-și endocrin.
+1. deplasarea alimentelor prin tractul alimentar;
+2. secreția sucurilor digestive și digestia alimentelor;
+3. absorbția produșilor de digestie, a apei și a electroliților;
+4. circulația sângelui prin segmentele tubului digestiv în vederea transportului
+
+substanțelor absorbite;
+5. controlul acestor funcții prin intermediul sistemului nervos și endocrin.
+
 Majoritatea substanțelor întâlnite în alimente au o structură chimică complexă,
 diferită de cea a constituienților organismului, și nu pot fi preluate ca atare din natură.
 Ele suferă, în prealabil, transformări mecanice, fizice și chimice. Totalitatea acestora
@@ -241,7 +263,9 @@ mucoasei intestinale.
 până la aminoacizi. Glucidele cu moleculă mare sunt scindate de către enzimele
 amilolitice (glicolitice) până la stadiul de glucide simple. Lipidele sunt hidrolizate de
 către enzimek lipolitice (lipaze).
- DIGESTIA BUCALĂ
+
+### DIGESTIA BUCALĂ
+
 La nivelul cavității bucale, cât și al altor organe digestive, există o activitate
 motorie și una secretorie. Activitatea motorie a cavității bucale constă din masticație
 și timpul bucal al deglutiției.
@@ -250,15 +274,19 @@ voluntar. Organele masticației sunt oasele maxilare, mandibulare și dinții (o
 pasive), precum și mușchii masticatori ai limbii și ai obrajilor (organe active). Prin
 masticație, alimentele introduse în cavitatea bucală sunt tăiate și transformate în
 fragmente mai mici.
-Rolurile masticației: 1. Fragmentarea alimentelor, ceea ce determină: a.
-facilitarea deglutiției; b. creșterea suprafeței de contact dintre alimente și enzimele
-digestive. 2. Amestecarea alimentelor cu produsul de secreție al glandelor salivare,
-ce are ca rezultate: a. inițierea procesului de digestie a amidonului sub acțiunea
-amilazei salivare; b. inițierea procesului de digestie a lipidelor sub acțiunea lipazei
-linguale; c. lubrifierea și înmuierea bolului alimentar. 3. Asigurarea contactului cu
+Rolurile masticației:
+
+1. Fragmentarea alimentelor, ceea ce determină: a. facilitarea deglutiției; b.
+creșterea suprafeței de contact dintre alimente și enzimele digestive.
+2. Amestecarea alimentelor cu produsul de secreție al glandelor salivare, ce are ca
+rezultate: a. inițierea procesului de digestie a amidonului sub acțiunea amilazei
+salivare; b. inițierea procesului de digestie a lipidelor sub acțiunea lipazei linguale; c.
+lubrifierea și înmuierea bolului alimentar.
+3. Asigurarea contactului cu
 
 receptorii gustativi și eliberarea substanțelor odorante care vor stimula receptorii
 olfactivi, această stimulare inițiind secreția gastrică.
+
 Activitatea secretorie a cavității bucale se datorează glandelor salivare .
 Saliva este secretată, în principal, de trei perechi de glande salivare: parotide
 (localizate lângă unghiul mandibulei; sunt cele mai mari și produc o secreție apoasă),
@@ -273,24 +301,31 @@ găsesc două tipuri de proteine: 1. enzime: amilaza salivară (ptialina) și li
 linguală; 2. mucina, glicoproteină ce lubrifiază alimentele. Saliva mai conține
 substanțe bactericide (lizozim) și unii produși de catabolism (uree, acid uric);
 reprezintă și o cale de eliminare din organism a unor virusuri.
-Funcțiile salivei: 1. Protecția mucoasei bucale prin: răcirea alimentelor fierbinți,
+Funcțiile salivei:
+
+1. Protecția mucoasei bucale prin: răcirea alimentelor fierbinți,
 diluarea eventualului HC1 sau bilei ce ar regurgita în cavitatea bucală, îndepărtarea
-unor bacterii. 2. Digestiv: saliva începe procesul de digestie al amidonului și al
+unor bacterii.
+2. Digestiv: saliva începe procesul de digestie al amidonului și al
 lipidelor, a amilaza produce digestia chimică a amidonului preparat; astfel, în
 prezența ionilor de clor și a apei, amidonul este hidrolizat în trepte până la stadiul de
 maltoză. Această enzimă va fi inactivată de pH-ul intragastric scăzut. Lipaza linguală
 începe degradarea lipidelor, acționând atunci când acestea se găsesc în cavitatea
-bucală, stomac și porțiunilor superioare ale intestinului subțire. 3.Lubrifierea
-alimentelor ușurează deglutiția; umectarea mucoasei bucale favorizează vorbirea. 4.
-Excreția unor substanțe endogene și exogene. 5. Elaborarea senzației gustative prin
+bucală, stomac și porțiunilor superioare ale intestinului subțire.
+3. Lubrifierea
+alimentelor ușurează deglutiția; umectarea mucoasei bucale favorizează vorbirea.
+4. Excreția unor substanțe endogene și exogene.
+5. Elaborarea senzației gustative prin
 dizolvarea substanțelor cu gust specific și suprafață receptivă a analizatorului
 gustativ.
+
 Ca urmare a transformărilor din cavitatea bucală, alimentele sunt omogenizate,
 imbibate cu mucus și formează bolul alimentar.
 
+#### Deglutiția
+
 Deglutiția cuprinde totalitatea activităților motorii ce asigură transportul bolului
-alimentar din cavitatea bucală în stomac. Este un act reflex ce se desfășoară în trei
-timpi.
+alimentar din cavitatea bucală în stomac. Este un act reflex ce se desfășoară în trei timpi.
 Timpul bucal (voluntar). In momentul în care alimentele sunt gata pentru a fi
 înghițite, ele sunt în mod voluntar împinse în faringe datorită presiunii pe care o
 exercită limba prin mișcarea ei în sus și posterior asupra palatului moale. De acum
@@ -334,13 +369,22 @@ esofagului, pe o porțiune de 2-5 cm deasupra joncțiunii cu stomacul, musculatu
 circulară esofagiană este îngroșată, funcționând ca un sfincter. Acest sfincter
 prezintă o contracție tonică și este relaxat prin relaxarea receptivă. Contracția acestui
 sfincter contribuie la prevenirea unui reflux gastro-esofagian.
- DIGESTIA GASTRICĂ
+
+### DIGESTIA GASTRICĂ
+
  În stomac, alimentele suferă consecința activităților motorii și secretorii ale
 acestuia, care produc transformarea bolului alimentar într-o pastă omogenă, numită
 chim gastric.
+
+#### Activitatea motorie a stomacului
+
 Activitatea motorie a stomacului (motilitatea gastrică) realizează trei funcții de
-bază: 1. stocarea alimentelor ca urmare a relaxării receptive; 2. amestecul
-alimentelor cu secrețiile gastrice; 3. evacuarea conținutului gastric în duoden.
+bază:
+
+1. stocarea alimentelor ca urmare a relaxării receptive;
+2. amestecul alimentelor cu secrețiile gastrice;
+3. evacuarea conținutului gastric în duoden.
+
 Relaxarea receptivă. Când alimentele trec din esofag în stomac, activitatea
 fundusului gastric este inhibată, permițând depozitarea a 1 - 2 1 de conținut.
 Peristaltismul. Contracțiile peristaltice, inițiate la granița dintre fundusul și corpul
@@ -363,9 +407,13 @@ interdigestive; îndepărtează resturile de alimente din stomac.
 Contracțiile de foame apar atunci când stomacul este gol de mai multe ore. Sunt
 contracții peristaltice ritmice ale corpului stomacului. Sunt foarte intense la adultul
 tânăr, cu tonus gastrointestinal crescut; sunt amplificate de hipoglicemie. '
+
+#### Activitatea secretorie a stomacului
+
 Activitatea secretorie a stomacului. Secrețiile gastrice continuă procesele diges -
 tive începute în cavitatea bucală; cantitatea secretată zilnic este de aproximativ 2 1.
 Fazele secreției gastrice sunt următoarele:
+
 1. Faza cefalică este declanșată de gândul, vederea, gustul sau mirosul
 mâncării. Este dependentă de integritatea fibrelor vagale ce inervează stomacul.
 2. Faza gastrică se declanșează la intrarea alimentelor în stomac; acest fapt
@@ -376,6 +424,7 @@ astfel, cantitatea secretată în timpul celor două faze devine egală.
 3. Faza intestinală începe o dată cu intrarea chimului în duoden; cantitativ,
 secreția este foarte redusă în timpul acestei faze. Mecanismul dominant implică
 gastrină .
+
 Secreția de pepsinogen. Pepsina, forma activă a pepsinogenului, este o enzimă
 proteolitică, activă în mediu acid (pH optim 1,8 - 3,5), care începe procesul de
 digestie al proteinelor; la valori ale pH-ului mai mari de 5, activitatea sa proteolitică
@@ -401,7 +450,9 @@ mucoasei gastrice, atât mecanic, cât și chimic (față de acțiunea autodiges
 La nivel gastric are loc absorbția unor substanțe, de exemplu substanțe foarte
 solubile în lipide, etanol, apă și, în cantități extrem de mici, sodiu, potasiu, glucoza și
 aminoacizi.
-DIGESTIA LA NIVELUL INTESTINULUI SUBȚIRE
+
+### DIGESTIA LA NIVELUL INTESTINULUI SUBȚIRE
+
 Mișcările de la nivelul intestinului subțire sunt: contracții de amestec și contracții
 propulsive. Totuși, mișcările intestinului subțire determină, în proporții diferite, atât
 amestec,
@@ -433,13 +484,19 @@ cantitate de 250 - 1100 ml/zi. Este secretată continuu și depozitată în vezi
 timpul perioadelor interdigestive. Se eliberează în duoden în timpul perioadelor
 digestive numai după ce himul a declanșat secreția de colecistokinină, care produce
 relaxarea sfincterului Oddi și contracția vezicii biliare.
-Secrețiile intestinului subțire conțin: 1. Mucus, cu rol de protecție a mucoasei
+Secrețiile intestinului subțire conțin:
+
+1. Mucus, cu rol de protecție a mucoasei
 intestinale împotriva agresiunii HC1, secretat de glandele Briinner din duoden și de
-celule speciale, aflate în epiteliul intestinal și în criptele Lieberkiihn. 2. Enzime
+celule speciale, aflate în epiteliul intestinal și în criptele Lieberkiihn.
+2. Enzime
 asociate cu microvilii celulelor epiteliale intestinale, care nu sunt secretate în lumenul
 intestinal: peptidaze, dizaharidaze (în număr de patru: maltaza, izomaltaza, zaharaza
 și lactaza) și lipază; ele își exercită rolurile în timpul procesului de absorbție
-intestinală. 3. Apă și electroliți secretați de celulele epiteliale intestinale.
+intestinală.
+3. Apă și electroliți secretați de celulele epiteliale intestinale.
+
+#### Absorbția intestinală
 
 Absorbția intestinală se realizează prin mai multe mecanisme, în funcție de
 substanța absorbită.
@@ -495,6 +552,9 @@ depen-dent, proximal, în intestinul subțire. Calciul se absoarbe cu ajutorul u
 transportor legat de membrana celulară și activat de vitamina D. Fierul se absoarbe
 în jejun și ileon. Fe 2+ se absoarbe mai ușor decât Fe3+. Vitamina C stimulează
 absorbția fierului.
+
+#### Colonul
+
 Rolurile principale ale colonului sunt absorbția apei și a electroliților (jumătate-
 proximală) și depozitarea materiilor fecale până la eliminarea lor (jumătatea distală).
 Datoria acestor roluri, mișcările de la nivelul colonului sunt lente. Mișcările de la
@@ -549,6 +609,9 @@ ileon și colon și difuzat din torentul sangvin. La nivelul colonului se produc
 l de gaze, mai ales prin degradarea produșilor de digestie ce au ajuns la acest nivel.
 Componentele principale sunt: CO2, CH4, H2, N2 . Cu excepția N2 , celelalte pot difuza
 prin mucoasa colonului, astfel încât volumul eliminat este de 600 ml/zi.
+
+#### Defecația
+
 Defecația reprezintă procesul de eliminare a materiilor fecale din intestin. Unele
 mișcări în masă propulsează fecalele în rect, inițiind dorința de defecație. Ulterior se
 produce contracția musculaturii netede a colonului distal și a rectului, propulsând
@@ -565,7 +628,8 @@ de defecație. Totuși, reflexul intrinsec al defecației este foarte slab; pent
 eficient, el trebuie întărit printr-un reflex parasimpatic de defecație ce implică
 segmentele sacrale ale măduvei spinării.
 
-SISTEMUL CIRCULATOR
+## SISTEMUL CIRCULATOR
+
  Corpul uman este alcătuit dintr-o vastă rețea de canale, mai mici sau mai mari, prin
 care circulă permanent lichide cu diverse încărcături. În cadrul acestui sistem imens
 de distribuție, redistribuție, evacuare și recaptare a fluidelor, sistemul circulator ocupă
@@ -573,12 +637,16 @@ un loc de primă importanță.
 
 Sistemul circulator este alcătuit dintr-o multitudine de vase tubulare prin intermediul
 cărora circulă sângele, care irigă întreg organismul .
-Vasele de sânge
+
+### Vasele de sânge
+
  Vasele de sânge mari (artere, vene), mici (capilare) sau intermediare (arteriole,
 venule), străbat întreg corpul, transportând prin ele substanțe importante pentru
 viață. După conținutul sângelui în gaze precum și în alte substanțe, circulația are
 două componente majore, una arterială și cealaltă venoasă
- Circulația arterială
+
+#### Circulația arterială
+
  Arterele sunt canale mari prin care, circulă sângele, de la inimă spre țesuturi. Aorta
 este vasul principal ce pleacă din ventriculul stâng , ramificându-se apoi, în derivații
 cu calibrul din ce în ce mai mic (arteriole, capilare). Arterele și arteriolele pornite din
@@ -589,7 +657,9 @@ circulației mici.
 simpatici, se dilată sau se contractă schimbând debitul sanguin. Schimbările de
 calibru, modifică irigația tisulară după nevoile organismului, motiv pentru care, aceste
 canalele, au fost numite „ecluze de irigație" (Arcadie Percek 1987).
- Capilarele
+
+#### Capilarele
+
  După ce sângele a străbătut arterele mari și mici ajunge în rețeaua vaselor capilare.
 Capilarele sunt vase scurte (0,5cm) și cu diametre microscopice (mai mici de 20μ).
 Ele sunt foarte numeroase realizând o lungime totală de 2500 km și o suprafață de
@@ -630,7 +700,9 @@ unor hormoni, precum și alte substanțe, pot produce o creștere exagerată a
 permeabilității capilare. În aceste condiții, capilarele își pierd rezistența, devin fragile,
 se sparg ușor și permit trecerea, uneori masivă, a lichidelor în spațiul interstițial,
 producându-se uneori, microhemoragii sau mai des,edem.
- Circulația venoasă
+
+#### Circulația venoasă
+
  În cadrul sistemului circulator, sângele este adus înapoi, la inimă, prin componenta
 venoasă. De la țesuturi, sângele revine la cord prin venule care unindu-se se
 captează în vene. Vena cavă superioară și vena cavă inferioară, sunt canalele care
@@ -647,35 +719,41 @@ profundă, exercită o presiune asupra organelor abdominale, prin intermediul
 diafragmei, presiune care se transmite venelor. Se poate conchide deci, că
 respirația corectă și efortul fizic moderat au efecte dintre cele mai favorabile asupra
 circulației venoase.
-Sângele
+
+### Sângele
+
  Sângele este un țesut lichid, compus dintr-o parte lichidă (plasmă -55%) și una
 solidă (elemente figurate -45%), care circulă într-un sistem închis (sistemul
 circulator). Față de alte țesuturi, celulele sângelui nu sunt imobilizate, ci ele plutesc
 într-un lichid vâscos (plasma). Datorită acestui fapt, sângele este un țesut mobil care
 reușește să se strecoare în toate părțile corpului.
  Rolul sângelui este acela de a asigura:
- - transportul diferitelor substanțe spre locul lor de destinație; țesuturi și celule
+
+- transportul diferitelor substanțe spre locul lor de destinație; țesuturi și celule
 (substanțe nutritive, produși intermediari, enzime, hormoni, etc.),
- - respirația tisulară (transportul oxigenului dinspre plămâni spre celule și a dioxidul
+- respirația tisulară (transportul oxigenului dinspre plămâni spre celule și a dioxidul
 de carbon dinspre celule spre plămâni),
- - epurarea organismul (descărcarea din mediul intern, prin organele de eliminare,
+- epurarea organismul (descărcarea din mediul intern, prin organele de eliminare,
 mai ales prin rinichi, a produșilor de dezasimilație și a toxinelor),
- - transformarea unor substanțe (prin enzimele pe care le conține și mai ales prin
+- transformarea unor substanțe (prin enzimele pe care le conține și mai ales prin
 transportul compușilor spre ficat),
- - imunitatea organismului (prin anticorpii pe care îi conține),
- - repartizarea și reglarea căldurii în organism,
- - menținerea constantă a echilibrului acido-bazic și a balanței hidrice,
- - reconstrucții organice, acolo unde este necesar.
+- imunitatea organismului (prin anticorpii pe care îi conține),
+- repartizarea și reglarea căldurii în organism,
+- menținerea constantă a echilibrului acido-bazic și a balanței hidrice,
+- reconstrucții organice, acolo unde este necesar.
+
  Deși sângele se reconstituie în permanență, compoziția sa rămâne aproape
 invariabil constantă. Acest echilibru funcțional, poartă denumirea de homeostază.
 Homeostaza este controlată și dirijată de către sistemul neuro-endocrin cu
 participarea organelor hematoformatoare pe de-o parte și a unor aparate (respirator,
 excretor) pe de altă parte. Astfel, prin analize, se pot determina valorile multor
 elemente circulante, care în mod normal trebuie să rămână relativ constante, ca:
- - glicemia (nivelul glucozei din sânge),
- - nivelul lipidelor (lipide totale, trigliceride, colesterol) din sânge,
- - nivelul proteinelor din sânge și raportul dintre albumine și globuline
- - valoarea unor minerale (fier, calciu, magneziu, sodiu, etc.).
+
+- glicemia (nivelul glucozei din sânge),
+- nivelul lipidelor (lipide totale, trigliceride, colesterol) din sânge,
+- nivelul proteinelor din sânge și raportul dintre albumine și globuline
+- valoarea unor minerale (fier, calciu, magneziu, sodiu, etc.).
+
  Sângele arterial conține hemoglobină saturată în oxigen (oxihemoglobină). El
 circulă prin artere, de la plămâni spre țesuturi, unde donează oxigenul celulelor.
  Sângele venos conține carbohemoglobină (hemoglobină care a legat dioxidul de
@@ -693,9 +771,13 @@ carbon), circulând prin vene, de la țesuturi la plămâni.
 pulmonară. Prin artera pulmonară circulă sângele de la inimă la plămâni (sânge
 încărcat cu dioxid de carbon, sânge venos), iar prin vena pulmonară trece sânge
 oxigenat, de la plămâni la inimă.
-Componentele sângelui
+
+#### Componentele sângelui
+
  Cele două componente ale sângelui sunt plasma și elementele figurate.
-Plasma
+
+##### Plasma
+
  Plasma este componenta lichidă, lipsită de elemente figurate, atât a sângelui, cât și
 al altor fluide din corp (lichidul cefalorahidian, limfa, lichidul seminal, lichidul
 interstițial).
@@ -715,7 +797,9 @@ albicioasă și conține multă fibrină. În timpul coagulării, fibrinogenul (
 consistență vâscoasă, și prezintă proprietatea de a se alipii de pereții vaselor de
 sânge rănite, oprind hemoragia.
  Dacă din plasmă se exclud proteinele de coagulare, rezultă serul.
-Elementele figurate
+
+##### Elementele figurate
+
  Elementele figurate ( , reprezintă partea solidă a sângelui (45% din volumul
 acestuia), fiind reprezentate, după cum se poate vedea în tabelul de mai jos, prin 3
 categorii de celule: eritrocite, leucocite și trombocite. Dintre aceste elemente, doar
@@ -723,125 +807,20 @@ leucocitele sunt celule adevărate (prezintă nuclei și metabolism activ).
 
 Sângele unui adult conține aproximativ 30.000 de miliarde de globule roșii și 50 de
 miliarde de globule albe (Alexis Carrel).
-ELEMENTUL PROPRIETĂȚI
-CELULARE
-DENSITATE
-(nr celule la 1mm3 de
-sânge)
-ROL
- Eritrocite (celule roșii,
-globule roșii, hematii)
- Eritrocitele mature
-sunt anucleate și
-practic sunt lipsite
-de viață.
- 4.200.000
--5.500.000
- - asigură
-transportul gazelor
- - menține pH-ul
-sanguin relativ
-constant
 
- Leucocite
-(globule
-albe,
-celule
-albe)
-Total Sunt polinucleate 5.000 - 8.000 - imunitar
- - pot neutraliza
-diferite toxine
- Neutrofile -
-65% din
-totalul
-leucocitelor
- Numărul lor crește
-infecții bacteriene,
-intoxicații, tumori
-maligne, leucemie
-cronică, și scade în
-infecții fungice,
-virale sau
-parazitare.
- - neutrofile
-segmentate 2.500-
-5.500
- -neutrofile
-nesegmentate 50-
-250
- Limfocite
--27,5% din
-totalul
-leucocitelor
- Numărul lor crește
-în alergii, infecții,
-leucemie cronică și
-scade sub influența
-hormonilor corticoizi
-sau când uremia
-este crescut.
- 1.200-2.400
- Monocite
-(macrofage)-
-5% din
-totalul
-leucocitelor
- Numărul lor crește
-în alergii, leucemii
-cronice, infecții.
- 300-640
- Euzinofile
-(eozinofile,
-acidofile)-2%
-din totalul
-leucocitelor
- Numărul lor crește
-în alergii, infecții,
-parazitoze
-intestinale, leziuni
-tegumentare
-distructive, și scade
-sub influența
-hormonilor
-corticoizi, în stres,
- 100-200
+| Elementul celular | Proprietăți | Densitate (nr celule la 1mm3 de sânge) | Rol |
+|---|---|---|---|
+| Eritrocite (celule roșii, globule roșii, hematii) | Eritrocitele mature sunt anucleate și practic sunt lipsite de viață. | 4.200.000 - 5.500.000 | - asigură transportul gazelor<br>- menține pH-ul sanguin relativ constant |
+| Leucocite (globule albe, celule albe) - Total | Sunt polinucleate | 5.000 - 8.000 | - imunitar<br>- pot neutraliza diferite toxine |
+| Neutrofile - 65% din totalul leucocitelor | Numărul lor crește infecții bacteriene, intoxicații, tumori maligne, leucemie cronică, și scade în infecții fungice, virale sau parazitare. | - neutrofile segmentate 2.500-5.500<br>- neutrofile nesegmentate 50-250 | |
+| Limfocite - 27,5% din totalul leucocitelor | Numărul lor crește în alergii, infecții, leucemie cronică și scade sub influența hormonilor corticoizi sau când uremia este crescut. | 1.200-2.400 | |
+| Monocite (macrofage) - 5% din totalul leucocitelor | Numărul lor crește în alergii, leucemii cronice, infecții. | 300-640 | |
+| Euzinofile (eozinofile, acidofile) - 2% din totalul leucocitelor | Numărul lor crește în alergii, infecții, parazitoze intestinale, leziuni tegumentare distructive, și scade sub influența hormonilor corticoizi, în stres, în prima fază a bolilor acute. | 100-200 | |
+| Bazofile - 0,5 % din totalul leucocitelor | Numărul lor crește în alergii, leucemii cronice, infecții. | 20-40 | |
+| Trombocite | Nu au o structură celulară propriu-zisă, ci reprezintă fragmente citoplasmatice. Numărul lor crește în condiții de stres, în splenopatii, după hemoragii, și scade în unele boli de sânge sau în stările de deficiență legate de generarea sau maturarea lor. | 150.000-300.000 | - formează agregarea și adezivitatea plachetară<br>- repară endoteliul vaselor de sânge<br>- intervine în coagulare |
 
-în prima fază a
-bolilor acute.
- Bazofile -
-0,5 % din
-totalul
-leucocitelor
- Numărul lor crește
-în alergii, leucemii
-cronice, infecții.
- 20-40
- Trombocite
- Nu au o structură
-celulară propriu-
-zisă, ci reprezintă
-fragmente
-citoplasmatice.
-Numărul lor crește
-în condiții de stres,
-în splenopatii, după
-hemoragii, și scade
-în unele boli de
-sânge sau în stările
-de deficiență legate
-de generarea sau
-maturarea lor.
- 150.000-300.000
- - formează
-agregarea și
-adezivitatea
-plachetară
- - repară
-endoteliul vaselor
-de sânge
- - intervine în
-coagulare
-Hematopoieza
+##### Hematopoieza
+
  Hematopoieza este un ansamblu de procese succesive prin care se formează și se
 dezvoltă elementele figurate (celulele sanguine). Deoarece celulele sanguine mature
 circulante au o viață limitată, înlocuirea lor în mod continuu, necesită existența unor
@@ -864,7 +843,9 @@ limfocitele au o altă origine; sistemul reticulo-endotelial, respectiv ganglion
 
 Una din laturile principale ale hematopoiezei, aceea prin care se formează
 globulele roșii, poartă denumirea de eritropoieză.
-Coagularea sângelui
+
+##### Coagularea sângelui
+
  Procesul de coagulare a sângelui este inițiat de către trombocite și de o fracțiune a
 proteinelor plasmatice; fibrinogenul, care este precursorul solubil al fibrinei. La
 apariția unor hemoragii, fibrinogenul trece în fibrină, proteină cu structură
@@ -872,7 +853,9 @@ filamentoasă, deosebit de ramificată. Eritrocitele și trombocitele sunt prins
 rețeaua filamentoasă și sunt supuse dezintegrării. Astfel se formează cheagul, care
 la început aderă la pereții vaselor de sânge. După formare, cheagul se retractă,
 separându-se de peretele vasului și eliminând un lichid de culoarea paiului (serul).
-Epurarea
+
+##### Epurarea
+
  Celulele organismului au tendința permanentă de a elimina resturile (cataboliți,
 toxine, diferiți acizi) provenite din activitatea lor metabolică și nutrițională. Aceste
 reziduuri nu pot fi eliminate altundeva decât în sânge. Pe de altă parte, tot celulele au
@@ -903,7 +886,8 @@ care le redă sistemului circulator, eliminând, pe cale urinară, reziduurile.
  Epurarea sângelui, devine în anumite circumstanțe deficitară, caz în care se
 recomandă apelarea la principiile depurative.
 
-INIMA
+### INIMA
+
 Inima, considerata ca un organ nobil de aproape toate culturile, nu este sediul
 sentimentelor. Rolul sau nu este însa mai putin important. Ea asigura circulatia
 sângelui în întregul corp. Este un organ muscular gol pe dinauntru, în forma de para,

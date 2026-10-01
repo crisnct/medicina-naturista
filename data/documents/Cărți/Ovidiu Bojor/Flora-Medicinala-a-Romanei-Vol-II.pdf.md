@@ -1,5 +1,3 @@
-[Nu a fost extras text din această pagină.]
-
 NKI
 
 MIRCEA ALEXAN
@@ -15,69 +13,6 @@ VQL. ii
 1
 E D ITU R Ă CERES
 B u cu rești, 1 9 9 1
-
-CUPRINS
-»
-GTJVÎNT ÎNAINTE ............................................................................................................................... 5
-ÎNCRENGĂTURA MAGNOLIOPHYTA (ANGIOSPERMATOPHYTA) .......................... 7
-FAM. PHYTOLACCACEAE ................................................................................................... 7
-Fam. NYCTAGINACEAE ........................................................................................................ 9
-FAM. PORTULACACEAE ................................................................................................... 10
-FAM. CARYOPHYLLACEAE ............................................................................................... 10
-FAM. NYMPHAEACEAE ........................................................................................................ 23
-FAM. RANUNCULACEAE ................................................................................................... 23
-FAM. BERBERIDACEAE ........................................................................................................ 42
-FAM. PAPAVERACEAE ........................................................................................................ 44
-FAM. BRASSICACEAE (Cruciferae) ................................................................................. 65
-FAM. RESEDACEAE ................................................................................................................. 81
-FAM. DROSERACEAE ........................................................................................................ 82
-FAM. CRASSTJLACEAE ........................................................................................................ 82
-FAM. SAXIFRAGACEAE ........................................................................................................ 83
-FAM. PARNASSIACEAE .................................................................................................... 84
-FAM. GROSSULARIACEAE ............................................................................................... 84
-FAM. ROSACEAE ...................................................................................................................... 89
-FAM. FABACEAE (Leguminosae)
-..................................................................................... 122
-FAM. OXALIDACEAE ............................................................................................................. 144
-FAM. GERANIACEAE ............................................................................................................. 145
-FAM. TROPAEOLACEAE ........................................................................................................ 148
-FAM. ZYGOPHYLLACEAE .................................................................................................... 149
-FAM. LINACEAE ...................................................................................................................... 152
-FAM. ETIPHORBIACEAE .................................................................................................. 155
-FAM. RTJTACEAE ...................................................................................................................... 161
-FAM. SIMARUBACEAE ........................................................................................................ 162
-FAM. POLYG ALAC EA E ............................................................................................................. 162
-FAM. ANACARDIACEAE ........................................................................................................ 163
-FAM. SAPINDACEAE ............................................................................................................. 163
-FAM. ACERACEAE ................................................................................................................. 163
-FAM. HIPPOCASTANACEAE ............................................................................................... 164
-FAM. BALSAMINACEAE ........................................................................................................ 167
-FAM. AQUIFOLIACEAE ........................................................................................................ 168
-FAM. CELASTRACEAE ........................................................................................................ 168
-FAM. STAPHYLEACEAE ........................................................................................................ 168
-FAM. BTJXACEAE ...................................................................................................................... 169
-FAM. RHAMNACEAE ............................................................................................................. 169
-FAM. VITACEAE ...................................................................................................................... 173
-
-FAM. TILIACEAE ............................................................................................................................174
-FAM. MALVACEAE .......................................................................................................................181
-FAM. THYMELAChAE ...................................................................................................................1%
-FAM. ELAEAGNACECEAE ..............................................................................................................196
-FAM. PASSIFLORACEAE .........................................................................................................198 -
-FAM. GUTTIFERAE .......................................................................................................................198
-FAM. VIOLACEAE ...........................................................................................................................201
-FAM. CISTACEAE ...........................................................................................................................205
-FAM. TAMARICACEAE ...................................................................................................................206
-FAM. CUCURBITACEAE ..............................................................................................................207
-FAM. LYTHRACEAE .......................................................................................................................211
-FAM. PtJNICACEAE .......................................................................................................................213
-FAM. TRAPACEAE .......................................................................................................................213
-FAM. ONAGRACEAE ...................................................................................................................2H
-FAM. CORNACEAE .......................................................................................................................214
-FAM. ARALIACEAE .......................................................................................................................215
-FAM. APIACEAE (Umbelliferâe) ...........................................................................................216
-INDEX DE DENUMIRI ȘTIINȚIFICE ............................................................................................255
-INDEX DE DENUMIRI POPULARE' .......................................................................................... |259
 
 CUVÎNT ÎNAINTE
 Al II-lea volum din lucrarea „Flora medicinală a României" continua
@@ -125,10 +60,14 @@ AUTORII
 
 î n c r e n g ă t u r a m a g n o l i o p h y t a
 (Angiospermatophyta)
+## Fam. PHYTOLACCACEAE
+
 Fam. PHYTOLACCACEAE
 Familie de plante ierbacee, exotice, la noi cultivate sau sălbăticite. Au
 frunze întregi, inflorescențe racemoase cu flori hermafrodite cu înveliș simplu
 fără bractee.
+### PHYTOLACCA AMERICANA L.
+
 PHYTOLACCA AMERICANA L.
 (Phytolacca decandra L.)
 CÎRM ÎZ; RUM EIOARĂ; F r.: Phytolacca, M 6 choacan; E r.: Garget, Po-
@@ -248,6 +187,8 @@ subțire, nervurile de gradul III fiind transparente) și după floare care axe 
 stamine (la Ph. americana — 10), iar ovarul cu 8 cârpele libere (la Ph. ameri
 cana — 1 0 concrescute), ca urmare — formîndu-se cîfe 8 bace simple (la
 Ph. americana — bace multiple cu 10 coaste).
+## Fam. NYCTAGINACEAE
+
 Fam. NYCTAGINACEAE
 Mică familie cu specii ierboase exotice, caracterizate prin rădăcinile
 fuziforma sau tuberculiforme și u n involucru persistent ce însoțește perian tul
@@ -260,6 +201,8 @@ specii de Convolvulaceae num ită Ipomoea jalapa (Exogonium purga), care
 furniza adevărata „Tubera Jalapae“ tot cu efecte purgative.
 9
 
+## Fam. PORTULACACEAE
+
 Fam. PORTULACACEE
 Specii ierbacee anuale, de mici dimensiuni, tîrîtoare sau ascendente,
 cu frunze cărnoase, înveliș floral dublu, viu colorate. Fructe capsule.
@@ -270,6 +213,8 @@ prietăți laxative și antiscorbutice. Semințele sînt citate ca avînd efecte
 mifuge, utilizate la copii. Pentru uz extern frunzele m ărunțite sînt folosite
 în inflamațiile gingiilor. Alte specii (P. fiilosa și P. grandijlora) au proprietăți
 diuretice și emoliente.
+## Fam. CARYOPHYLLACEAE
+
 Fam. CARY OPHYLLACEAE
 Familie cu specii ierboase anuale, bianuale sau perene rareori subfru-
 tescente. Tulpini articulate, umflate la noduri, frunze simple, opuse, rar
@@ -280,6 +225,8 @@ placentara centrală. Fructul capsulă care se deschide prin valve sau dinți.
 Speciile din această familie conțin saponozide triterpenice care, sub
 aspect fitoterapeutic, au efecte diuretice, depurative și fluidificante ale se
 crețiilor bronșice.
+### STELLARIA MEDIA L. CYR.
+
 STELLARIA MEDIA L. CYR.
 ROCOINA, Iarbă m oale; F r .: Mouron des oiseaux ; E .: Chickweed: G .:
 Alsine Vogehniere; M .: Gvenge csillagbur; R .: Zvezdocica m okrița.
@@ -333,6 +280,8 @@ unele afecțiuni hepatice sau ale vezicii biliare. Se poate administra sub form�
 de infuzie 2 lingurițe plantă uscată la 1/4 1 apă clocotită. După 1 0 minut©
 se filtrează. Se beau 2 căni pe zi. în homeopatie se utilizează în afecțiuni he-
 pato-biliare.
+### GYPSOPHILA PANICULATA L.
+
 GYPSOPRILA PANICULATA L.
 IPCĂ RIG E; F r.: Saponaire d'O rient; E.: Baby’s breeth; G .: Rispiges
 •Gypskraut; M .: Buglvos dercefu, Feher szappangySker. R .: Kacim metelciatîi
@@ -593,6 +542,8 @@ Această doză- nu trebuie depășită și nici utilizată tim p îndelungat.
 D atorită proprietăților tensioactive rădăcina de Ipcărige este m ult uti
 lizată în industria alim entară și ca detergent superior pentru țesături fine
 sau ca spumant în extinctoare.
+### SAPONARIA OFFICINALIS L.
+
 SAPONARIA OFFICINALIS L.
 SĂPUNARIȚĂ, Odogaci, Ciuin ro șu ; F r .: Saponaire officinale; E .:
 Soapw ort; G .: Gemeines Seifenkraut; M .: Kozonseges szappanvirag;
@@ -814,7 +765,9 @@ trarea „per os“ a unor substanțe medicamentoase cu scopul de a accelera
 resorbția acestor substanțe.
 Intrarectal sub formă de decoct de rădăcină 5% în oxiuriază sau sub
 formă de gargarisme în faringite granuloase.
-ALTE SPECII D E CARYOPHYLLACEAE CU UTILIZĂRI
+## ALTE SPECII DE CARYOPHYLLACEAE CU UTILIZĂRI
+
+ALTE SPECII DE CARYOPHYLLACEAE CU UTILIZĂRI
 MEDICINALE
 Stdlaria graminea L. (Rocoțea, Buruiana junghiului).
 Specie înaltă pînă la 50 cm, cu tulpini glabre, ramificate, 4-unghiulare, cu
@@ -946,6 +899,8 @@ Dianthus chinensis L. (G a r o f ițe). Specie originară din Asia estică,
 La noi se cultivă ca plantă ornamentală. Utilizată în Orientul îndepărtat
 ca antihelmintic, diaforetic, diuretic, emenagog. In Coreea este utilizată
 extern în eczeme și în cancerul pielii.
+## Fam. NYMPHAEACEAE
+
 Fam. NYMPHAEACEAE
 Plante acvatice, rar amfibii, cu rizom puternic, gros și cărnos. Frunze
 de obicei radicale, lung pețiolate, heteromorfe. Flori solitare, hermafrodite,
@@ -971,6 +926,8 @@ nordice folosesc rizomii în alimentație. Sub aspect medicinal planta are pro
 prietăți antibiotice și antitrichomonazice. Se utilizează și pentru proprietățile
 emoliente și astringente în diaree. Extern, sub formă de cataplasma în tra
 tam entul unor boli de piele.
+## Fam. RANUNCULACEAE
+
 Fam. R ANUN CUL ACE AE
 Familie cu numeroși reprezentanți în flora României, în m ajoritate,,
 plante ierboase anuale sau perene, cu tulpini subterane, puține lemnoase.
@@ -1050,6 +1007,8 @@ stilizat în dalac.
 serite țări. în țara noastră, produsul „Boicil-forte“ recomandat în afecțiuni
 recmatice și migrene esențiale conține extract total obținut din Helleborus
 psrpurascens sau H. odorus.
+### NIGELLA SATIVA
+
 NIGELLA SA TI VA
 N EG RILICĂ ; F r.: Nigeile; E. Black Cumin; G .: Behaarter Schwar-
 zkum m el; M. Szoros kandilla; R .: Cernușka pasevnaia.
@@ -1193,6 +1152,8 @@ Deoarece în cantități mari semințele sînt toxice se administrează în doze
 de 90—270 semințe pe zi. Pulberea de semințe de Negrilică asociată cu cea
 de Susan (Sesamum indicum L.) este utilizată în afecțiunile eruptive ale
 dermei.
+### ACONITUM SPECIES SECTIO NAPELLUS D.C. *
+
 ACONITUM SPECIES SECTIO NAPELLUS D.C. *
 OMAG, OMEAG; F r.; Aconit n ap el; E .: Common monkshood; G.:
 Eisenhut, Sturm hut; M.: Sisakvirâg; R .: Boreț aptecinîi, Omeg.
@@ -1412,6 +1373,8 @@ bronșite, gripă și tuse convulsiva, în special în asociere.cu alte medicame
 Tubera Aconiti și Tinctură Aconiti sînt oficinale în F.R. IX și in tr i în com
 poziția Sirogalului. Pentru fitoterapie utilizar eaproduselor farmaceutice pe
 bază de Aconitum este din ce în ce mai lim itată.
+### -4- CONSOLIDA REGALIS S.F. CRAY
+
 -4- CONSOLIDA REGALIS S.F. CRAY
 (Delphinium consolida L.j
 NEMȚIȘORI D E CÎM P; F r.: Consouderoyale; G .: A cker-R itter-sporn;
@@ -1479,6 +1442,8 @@ este lim itată.
 hidroalcoolic în gută, astm bronșic, afecțiuni renale etc. Florile pot fi utili
 zate drept colorant vegetal. Semințele altor
 specii ale genului au proprietăți insecticide.
+### CLEMATIS VITALBA L.
+
 CLEMATIS VIT ALB A L.
 CURPEN DE PĂDURE; F r.: Herbe aux
 gueux ; E .: 01d-man‘s-beard; G .: Gemeine
@@ -1539,6 +1504,8 @@ diție menționează utilizarea plantei ca antiinflam ator, antibacterian și an
 malaric. La începutul acestui secol s-au făcut unele încercări de utilizare
 în tum ori canceroase. Sub formă de m acerat uleios era utilizat și în nume
 roase afecțiuni contagioase.
+### + ADONIS VERNALIS
+
 + ADONIS VERNALIS
 RUȘCUȚA DE PRIMĂVARĂ; F r.: Adonis d'hiver; G .: Adoniskraut;
 Fruhlings Adonisroschen; M. Tavaszi herics; R .: Adonis vesenîi.
@@ -1668,7 +1635,9 @@ Tinctură Crataegi
 Tinctură Leonuri în părți egale
 D.S. intern 30 picături de 3 ori pe zi. Această formulă are și efecte
 sedative dind rezultate bune în nevrozele cardiace.
-ALTE SPECII D E RANUNCULACEAE CU UTILIZĂRI
+## ALTE SPECII DE RANUNCULACEAE CU UTILIZĂRI
+
+ALTE SPECII DE RANUNCULACEAE CU UTILIZĂRI
 MEDICINALE
 + Helleborus odorus W. et K. (B o z o t e i, S p î n z). Specie ierbacee eu.
 conținut și întrebuințări în medicina populară ca și specia înrudită (H.pur-
@@ -1841,6 +1810,8 @@ rădăcini cu proprietăți antispasmodice au fost utilizate în secolele trecut
 preconizate de asemenea ca diuretice și în hidropizie. Semințele au proprietăți
 purgative și emetice. în medicina noastră tradițională florile sînt folosite
 sub formă de infuzie contra „durerilor de piept".
+## Fam. BERBERIDACEAE
+
 Fam. BERBERTOACEAE
 în general arbuști cu frunze alterne, cu flori hermafrodite pe tipul S,
 cu periant dublu, în raceme, cime sau panicule. Ovarul cu o singură carpelă,
@@ -1943,6 +1914,8 @@ bacterium tubereulosis. Florile și scoarța ramurilor în unele țări sînt ut
 Berberis vulgaris sînt insuficient valorificate în fitoterapia din țara noastră.
 Fructele se consumă sub formă de dulceață, suc sau sirop.
 In tră în formula produsului „Tonobil".
+## Fam. PAPAVERACEAE
+
 Fam. PAPAVERACEAE
 Plante exclusiv ierboase, avînd un aparat secretor diferențiat, form at
 din celule izolate sau în grup sau pseudolaticifere anastomozate a căror pereți
@@ -1955,6 +1928,8 @@ farmacodinamică și aplicațiile terapeutice.
 Pentru fitoterapie sînt mai im portante speciile genului Papaver, specia
 Chelidonium majus și Glaucium flavum.
 PAPAVER BRACTEATUM LINDL. (Papaver caucasicutn Bieb./
+### MAC IRANIAN, MAC ROȘU DE GRĂDINĂ.
+
 MAC IRANIAN, MAC ROȘU DE GRĂDINĂ.
 Caractere de recunoaștere. Plant.a: Specie ierboasă bianuală sau pe
 renă, înaltă de cca 60 cm, cu frunzele adînc serate, cu mugurele floral oval
@@ -2124,6 +2099,8 @@ orală, au efecte inhibitorii a centrului tusei și diminuează secrețiile bron
 Se recomandă în tușea uscată și umedă și în cea extrapulmonară. In tră în
 produsele farmaceutice românești Codenal, Tablete expectorante și Tuso-
 mag și în prescripții magistrale.
+### PAPAVER RHOEAS L.
+
 PAPAVER RHOEAS L.
 MAC ROȘU D E CÎM P; F r .: Coquelicot, Pavot rouge; E .: Corn poppy,
 Field poppy; G .: Feuer M ohn; M .: Vetesi pipacs; R .: Mak samaseika.
@@ -2179,6 +2156,8 @@ Confuzii. Se poate confunda cu altă specie spontană de mac — P. dubium.
 Caractere de deosebire: — pedunculii florali cu peri alipiți (la specia medi
 cinală sînt perpendiculari) — petale m ai mici de 1—3 cm (la cel medicinal
 4 —6 cm ); — capsula m ult alungită.
+### + PAPAVER SOMNIFERUM L.
+
 + PAPAVER SOMNIFERUM L.
 MAC DE GRĂDINĂ; F r.: Pavot b la n c ,'Pavot officinel; E .: Opium
 poppy; G .: Garten M ohn; M .: Term esztett m ak; R .: Mak snatvornîi.
@@ -2773,6 +2752,8 @@ aporfinic, dimetilglaucina, magnoferina, gauflavina.
 Acizi organici — fumaric, aîoximaleic, flavone, glucidă, enzime.
 Acțiune farmacodinamica, utilizări terapeutice. Acțiune antitusiva, spas
 molitica, diuretică — numai sub formă de produse farmaceutice.
+### CHELIDONIUM MAJUS L.
+
 CHELIDONIUM MAJUS L.
 ROSTOPASCĂ, Negelariță; Fr. Chelidoine; E. Celandine poppy; G.:
 Gemeines Schollkraut; M .: Yerehullo fecskefu; R .: Cistatel bolșoi.
@@ -2891,6 +2872,8 @@ Observație. De la această plantă se mai pot recolta și produsele Herba
 Chelid&nii cum rădice (planta întreagă, inclusiv partea subterană) și Radix
 CheHdonii (pai tea subterană, incluzînd rizomii cu rădăcinile, însă din motive
 de conservare a speciei se evită aceasta).
+### FUMARIA OFFICINALIS
+
 FUM A R I A OFFICINALIS
 FUMĂRIȚĂ; F r .: Fum eterre; G .: Gemeiner E rdrauch; M .: Orvosi
 iu stik e; R .: Dîmianka aptecinaia.
@@ -2942,6 +2925,8 @@ Observații. Pot fi recoltate și celelalte specii ale genului Fumuria din
 flora noastră spontană, care prezintă deosebiri neînsemnate la flori și fructă
 (Fumuria rostellata KnaJ, F. vaillantii Loisel.,
 F. schleicheri Soyer-Wil.l ).
+## ALTE SPECII DE PAPAVERACEAE CU
+
 ALTE SPECII DE PAPAVERACEAE CU
 UTILIZĂRI MEDICINALE
 Glaucium corniculatum (L.) Curt. (M ac
@@ -2965,6 +2950,8 @@ sistemului nervos central. Acest alcaloid are ac-
 „ țiune anestezică și provoacă imobilitate cata-F ig. 1 3 — Glauctum cormcu- ’ 71
 latum tonică.
 64
+
+## Fam. BRASSICACEAE (Cruciferae)
 
 Fam. BRASSICACEAE (Cruciferae)
 Plante ierboase, anuale, bianuale sau perene, rareori subarbuști, cu
@@ -3445,6 +3432,8 @@ Observații. Mai puțin răspîndit în cultură la noi este Brassica juncea
 (L.) Czern. et Coss. (Muștarul vînăt), m ult cultivat în U.R.S.S.
 foarte rezistent ia secetă, cu semințe m ărunte, negre-vînăt, bogate în sub
 stanțe grase si ulei eteric.
+### SINAPIS ALBA L.
+
 SINA PIS ALBA L.
 MUȘTAR A L B ; F r .: Moutarde blanche; E .: W hite m u stard ; G .: Weisser
 Senf; M .: Feher m uștar; R .: Gorcița belaia.
@@ -3673,6 +3662,8 @@ apreciabile, semințele întregi de Muștar alb pot fi utilizate ca laxativ, de
 altfel singura utilizare mai comună în terapeutică. în schimb este mult fo
 losit în alimentație în scopuri condimentare. Semințele de Muștar alb consti
 tuie totodată o sursă de ulei vegetal.
+## ALTE SPECII DE BRASSICACEAE CU UTILIZĂRI MEDICINALE
+
 ALTE SPECII DE BRASSICACEAE CU UTILIZĂRI MEDICINALE
 Sisyntbrium officinale (L.). Scop. (Brîncuță) . Specie ruderalâ ce
 crește spontan pe terenuri necultivate și pe lîngă drumuri și căi ferate. Se
@@ -3867,6 +3858,8 @@ Raphanus sativus L. (Ridiche). Plantă alimentară, considerată și
 ca remediu antiscorbutic, diuretic, în litiaza biliară (sub formă de suc), sti
 mulent și expectorant (sub formă de sirop). Stimulent al secreției biliare, în
 special ridichea de iarnă, neagră (var. niger (Mili.) Pers.).
+## Fam. RESEDACEAE
+
 Fam. RESEDACEAE
 Plante anuale, bisanuale sau perene, cu frunze alterne, mai lungi decît.
 late. Florile sînt dispuse bilateral simetric. Sepale 2—8, petale libere în număr
@@ -3886,6 +3879,8 @@ ei tinctoriaie datorită luteolinei, o substanță care colorează fibrele texti
 m ai fost cultivată. în medicina tradițională a fost utilizată ca vermifug.
 Reseda odor ața L. (Rozetă, Busuioc domnesc). Specie cultivată
 in grădini și în glastre pentru florile ei parfumate. Are proprietăți vulnerare.
+## Fam. DROSERACEAE
+
 Fam. DR O SER ACE AS
 Plante insectivore acvatice sau de turbării, cu peri glandulos! pe frunzele
 dispuse în verticile sau rozetă bazală, care emit un mucus cleios ce reține
@@ -3913,6 +3908,8 @@ la 30 g sirop de Flores Rhoeados și 90 g apă distilată din care se iau 2—8
 linguri pe zi. Se mai indică Extractul de Drosera (5 g) asociat cu tinctură
 Anisi (15 g) s^ Extractum Thymi (5 g) din care se iau 10—20 picături de
 3 ori pe zi. Ambele rețete dau rezultate bune în tușea convulsivă.
+## Fam. CRASSULACEAE
+
 Fam. CRASSULACEAE
 Plante anuale sau perene, ierboase, cu tulpini și frunze cărnoase, piane
 sau cilindrice. Florile de tipul 5 (mai rar 4 sau 6), hermafrodite, rareori
@@ -3950,6 +3947,8 @@ Este specifică locurilor stîncoase din regiunea subalpină și alpină. Era fo
 în medicina empirică în „durerile de cap“. în medicina noastră tradițională
 veterinară rizomui acestei plante era folosit pentru tratarea „răsfugului"
 (probabil antrax) în special la oi.
+## Fam. SAXIFRAGACEAE
+
 Fam. SAXXFRAGACEAE
 Plante bianuale sau perene, rar anuale, ierbacee sau lemnoase. Floriîe-
 sînt actinomorfe, de obicei hermafrodite. Fructul este capsulă sau bacă.
@@ -3973,6 +3972,8 @@ Philaddphus coronarius L. (Lămîița, Iasomia de grădină}.
 Arbust ornamental cultivat, cu fiori plăcut.mirositoare, utilizate in medicina
 populară contra leucoreei. Această acțiune a fost confirmată de cercetările
 științifice efectuate în țara noastră.
+## Fam. PARNASSIACEAE
+
 Fam. P ARN A S SI ACE AE
 Clasificările de botanică sistematică mai noi atribuie fostul gen Parnassia
 L. gradul de familie. Sînt plante perene, ierbacee, cu rizom scurt și oblic.
@@ -3987,6 +3988,8 @@ de la cîmpie pînă la m unte. în medicina tradițională se utiliza ca decoct
 în tratam entul laringitelor, epilepsiei și leucoreei. Partea aeriană a plantei
 este bogată în tanin, ceea ce justifică utilizarea ca tonic-astringent în diaree
 și ca hemostatic în metroragic
+## Fam. GROSSULARIACEAE
+
 Fam. GKOSSULAEîACEAE
 Cele două secții: Grossularia A. Roh. și Riberia Beri. din clasificările
 m ai vechi au fost reunite într-o familie nouă Fam. Grossulariaceae. Sînt ar
@@ -3997,6 +4000,8 @@ alterne, palmat-lobate, serate pe
 margini. Fructul este o bacă sucu
 lentă. Pe lîngă valoarea alimentară
 unele specii au și valoare medicinală.
+### RIBES NIGRUM L.
+
 RIBES NIGRUM L.
 fCCOACAZ NEGRU: Fr.: Cassis;
 E .: Black currant; G .: Schvvarze
@@ -4206,7 +4211,9 @@ fructelor este evidență culoarea neagră a fructelor caracteristică numai pen
 R. nigrum, iar înainte de m aturare caracterul deosebitor îl reprezintă punctele
 galbene strălucitoare de pe dosul frunzelor. Și dintre aceste specii unele
 .•sînt folosite în fitoterapie.
-ALTE SPECII DE GROSS ULARI A CEA E CU UTILIZĂRI
+## ALTE SPECII DE GROSSULARIACEAE CU UTILIZĂRI
+
+ALTE SPECII DE GROSSULARIACEAE CU UTILIZĂRI
 MEDICINALE
 Ribes aureum Pursh. (C u ișo r, Agriș nealtoit). Arbust înalt
 pînă Ia 2 m cu fructe sferice negre sau brune-purpurii. Se cultivă în toată
@@ -4225,6 +4232,8 @@ o bacă mare ovoidală, de culoare verzuie, galbenă sau roșcată. Crește spon
 țării. Compoziție chimică și utilizări terapeutice la fel ca la specia Ribes
 aureum Pursh.
 «8
+
+## Fam. ROSACEAE
 
 Fam. ROSACEAE
 Arbori sau arbuști, plante ierbacee de obicei perene. Tulpinile drepte,
@@ -4330,6 +4339,8 @@ culă cu fructe nerăsucite în spirală ca la F. ulmaria), cît și ecologice (
 in j.ocun uscate, .aridey.
 90
 
+### RUBUS FRUTICOSUS L.
+
 RU-BCS FRUTICOSUS L.
 MUR. tr.: Ronce, Mure,; E .: Common bram ble; G .: Brombeere; M.:
 Hamvas szeder; R .: Ejevika.
@@ -4387,6 +4398,8 @@ logice se referă la: — portul plantei — mai redus la cel de miriște, cu l�
 slabi; ghimpii sînt m ult mai mici, dar foarte deși; — frunzele au 3 foliole
 (față de 5 la R. fruticosus); — fructele sînt incomplet dezvoltate, cu unele
 drupe m ult mai mici (la R. fruticosus fructe bine și mai uniform dezvoltate).
+### RUBUS IDAEUS L.
+
 RUBUS IDÂEUS L.
 ZMEUR: F r .: Framboisier; E .: Raspberry; G .: Himbeere; M .: Maina-;
 R .: Malina abiknovennaia.
@@ -4429,6 +4442,8 @@ astringent, iar extern sub formă de gargară în afecțiuni faringiene. Siropul
 obținut din fructele proaspete este utilizat în farmacie corectiv pentru di
 ferite scopuri medicinale. Intră în compoziția Ceaiului aromat.
 92
+
+### ROSA CANINA L.
 
 ROSA CANINA L.
 MĂCEȘ: F r .: E glantier; E .: Eglantine; G .: Hunds Rose; ÎI.: Csipke-bogyo,
@@ -4803,6 +4818,8 @@ afecțiuni hepatice și renale, ca diuretic. Intră în compoziția ceaiurilor a
 hepatic nr. 2, Ceai tonic aperitiv, iar achenele în Ceaiul diuretic nr. 2.
 Din pulpa pseudofructelor se prepară siropuri (sirop de măceșe, Sam-
 liucovit), gemuri, dulceață, cidru.
+### ROSA DAMASCENA MILL.
+
 ROSA DAM A SCENA MILL. *
 TRANDAFIR DE LUNA, Trandafir de D am asc; F r.: Rose de Da
 masc ; E .: Rose of D am asc; G .: Portland R ose; M .: Damaszkusi
@@ -5114,6 +5131,8 @@ lui volatil de trandafir în terapeutică și în alte afecțiuni.
 ca aromatizant în industria alim entară.
 195
 
+### AGRIMONIA EUPATORIA L.
+
 AGRIMONIA EUPATORIA L.
 TURIȚĂ MARE; F r .: Aigremoine; E .: Agrimony, Cockle b u r; G .:
 Echter Ackermmenig; M .: Pațika parlofu; R .: Repeinicek aptecinîi.
@@ -5188,6 +5207,8 @@ de infuzie 10—15 g la 200 mi apă se administrează în cure de 2—3 săptă-
 mîni 3 linguri pe zi.
 Observații. în flora spontană se mai întîlnesc și speciile A. odorata și
 A. pilosa, care pot fi admise ca materie primă.
+### GEUM URBANUM L.
+
 GEUM URBANUM L.
 C E REN ȚEL; F r .: B enoît; R .: Wood avens, H erb-bennet; G .: Bene-
 diktenkraut; M.: Patakm enti gyomb£rgv<5ker; R .: Gravilat tarodskoi.
@@ -5276,6 +5297,8 @@ are de obicei o singură floare și stile drepte. Datorită conținutului ridica
 în tanin (17—25%) și această specie poate fi utilizată în locul speciei Geum
 urbanum care are numai 10—18% tanin. G. montanum conține 0,20—0,35%
 . ulei volatil, iar G. urbanum 0,52—0,65%.
+### POTENTILLA ANSERINA
+
 P0TENT1LLA AN SE RIN A
 COADA RACULUI; F r .: Anserine, A rgentine; G .: Gănsefingerkraut ;
 M .: Libapimpo; R.: Lapciatka gușinaia.
@@ -5387,6 +5410,8 @@ Observații. Pentru a nu se confunda cu alte specii, pe lîngă criteriile
 botanice, o reacție simplă poate da unele indicii în ceea ce privește conți
 nutul în taninuri. Dintr-o infuzie 1% se iau 2—3 mi în care se pipetează
 cîteva picături de clorură ferică. Apare o colorație verde, caracteristică.
+### FRAGARIA VESCA L.
+
 FRAGARIA VEȘCA L.
 FRAG DE PĂDURE; F r.: Fraisier; E .: Wood strawbery; G .: W ald-
 Erdbeere; M .: Erdei szamoca; R .: Zemlianka lesnaia.
@@ -5677,6 +5702,8 @@ Se menționează și utilizarea frunzelor datorită taninurilor pe care le
 conțin, sub formă de infuzie ca antidiareic.
 316
 
+### PRUNUS SPINOSA L.
+
 PRUNUS SPINOSA L.
 PORUMBAR; Fr.: Prunellier, Prunier epineux; E .: Blackthorn; G.:
 Schlehdorn; M .: K okeny; R. Sliva kaliuciaia.
@@ -5781,6 +5808,8 @@ Călit. II
 15
 7
 118
+
+## ALTE SPECII DE ROSACEAE CU UTILIZĂRI MEDICINALE
 
 ALTE SPECII DE ROSACEAE CU UTILIZĂRI MEDICINALE
 Filipendula vulgaris Moench (Aglică). Specie caracteristică locurilor
@@ -5963,6 +5992,8 @@ antichitate și în trecutul mai puțin îndepărtat (Cortex Pruni-Padi) era
 considerat ca specie medicinală pentru proprietățile diuretice și diaforetice. A
 fost recomandat în boala reumatismală, în tratam entul artritei, colicilor stomaca
 li sau antimetic. în prezent nu se mai folosește decît rar în medicina tradițională.
+## Fam. FABACEAE (Leguminosae)
+
 Fam. FABACEAE (Legurninosaej"
 Alături de Orckidaceae și Compositac, Fabaceadc sînt una dintre cele
 mai vaste familii din regnul vegetal. Numărul speciilor din această familie
@@ -5987,6 +6018,8 @@ numeroase substanțe active: alcaloizi, saponoziae, polizaharide, pigmenți.
 tlZCfLAVONE!
 r -F fN lL -B tfC C -P K O N Ă
 ■ rL A V G N O
+### AMGEWNÂ QUSSCITINÂ
+
 AMGEWNÂ QUSSCITINÂ
 122
 
@@ -5996,6 +6029,8 @@ Pe lîngă im portanța terapeutică a substanțelor active din numeroase
 specii din familia Fabaceae, m ulte alte specii au o im portanță economică
 deosebită. Este suficient să menționăm Soia, Arahidele, Fasolea și plantele
 furajere.
+### GLEDITSCHIA TRIACANTHOS L.
+
 GLEDITSCHIA TRIACANTHOS L.
 GLĂDIȚĂ; ROȘCOV SĂLBATIC; F r.: Fevier; E .: Honey locust;
 G .: Christusdorn; M .: K risztustovis; R.: Gledicia abîknavennaia.
@@ -6045,6 +6080,8 @@ m andată în colite spastice, ulcer duodenal și colicistite acute.
 Cercetările originale făcute în țara noastră în domeniul medicinii vete
 rinare au dus la concluzia că fructele acestei specii pot fi utilizate cu rezultate
 bune în combaterea diareelor la purcei și viței.
+### SOPHORA JAPONICA L.
+
 SOPHORA JAPON ICĂ L.
 SALCÎM JAPONEZ; F r .: Sophore; E .: Japanese pagoda tree; G .:
 Schnurbaum ; M .: Japân a k â c ; R .: Sofora iaponskaia.
@@ -6150,6 +6187,8 @@ ful ascu țit; flori aîbe-gălbui, în inflorescențe panicule erecte (la salc�
 și în raceme pendule);; perioada de înflorire este mai tardivă (iulie—august)
 față de salcîm (mai—iunie); fructul este indehiscent, gîtuit (la salcîm păs
 taie dehiscenta); nu este ghimpat.
+### CYTISUS SCOPARIUS LINK.
+
 CYTISUS SCOPARIUS LINK.
 (SAROTHAMNUS SCOPARIUS (L.) Wimm.j
 DROB, MÂTURICE; F r .: Genet â bal ai; E .: Brccm ; G .: Besenfrkm ;
@@ -6218,6 +6257,8 @@ delor, iar ramurile și fructele verzi sub formă de extract apos pot fi utiliza
 ca vasoconstrictor hemostatic în special în epistaxis -datorită conținutului
 în hidroxitiramina. Sulfatul de sparteină este înscris în FARMACOPEEA
 ROMÂNĂ Ed. IX-a, producîndu-se la noi în țară.
+### ROBINIA PSEUDACACIA
+
 ROBINIA PSEU DAC ACI A
 SALCÎM; F r.: Robinier; E .: A cacia; G .: Gemeine Robinie; M.: Feher akâc;
 R .: R obinia lojnoakația.
@@ -6275,6 +6316,8 @@ trebuie utilizată cu m ultă atenție, deoarece această substanță este toxic
 Florile pot fi utilizate sub formă de infuzie 5% în dureri reumatice, hipera
 ciditate, în bronșite și migrene. Extern în gargară, în nevralgii dentare și
 în leucoree.
+### GLYCYRRHIZA GLABRA L.
+
 GLYCYRRHIZA GLABRĂ L.
 LEMN DULCE; F r.: Regiisse, Bois doux; E .: Licoiice; G.: Sussholz;
 M .: Edesgyoker; R.: Salodka golaia.
@@ -6480,6 +6523,8 @@ ed iția IX-a.
 G. glabra ocupă locul al 2-îea după Ginseng. Extractele din m ateria primă
 sînt utilizate pe scară largă în prelucrarea tutunului și potențarea aromei
 de cacao.
+### PHASEOLUS VULGARIS L. .
+
 PHASEOLUS VULGARIS L. .
 FA SO LE; F r .: H aricot; E .: Kidney b e a n ; G .: Bohne; M .: Kozon-
 seges bab; R .: Fasoli abîknavennaia.
@@ -6511,6 +6556,8 @@ nu s-a putut izola un factor antidiabotic. Acțiunea ușor hipoglicemianta se
 datorește probabil galedinei și argininei. In tră în compoziția ceaiurilor anti
 reumatic și dietetic. Sub formă de infuzie se prepară din 4—5 g teci m ărun
 țite la o cană apă. Se beau 2—3 căni pe zi.
+### ONONIS SPINOSA L.
+
 ONONIS SPINOS A L.
 OSUL IE PU R E L U I; F r .: Bugrane; E.: Tall rest-harrow; G .: Dornige
 Hauhechel; M. Tovises iglice; R .: Stalnik kaliucii.
@@ -6657,6 +6704,8 @@ Confuzii. în aceleași condiții ecologice cu spec’a
 medicinală, adesea în amestec cu aceasta, crește specia
 Melilotus albuș Medik., la care — așa cum după cum . . :
 arată și numele — florile sînt albe. ',Ay
+### TRIGONELLA FOENUM - GRAECUM L. ' -* & '
+
 TRIGONELLA FOENUM - GRAECUM L. ' -* & '
 SCHINDUF; F r .: Fenugrec; E .: Fenugreek; G .:
 Griechischpr H oinklee; M .: Gorog szena; R.:
@@ -6753,6 +6802,8 @@ bun stimulent neuro-muscular dotat și cu proprietăți afrodisiace și galac-
 tagoge. Mult utilizată în trecut, ca tonic general, antianemic, hipoglicemiant
 etc., această valoroasă specie medicinală și cu o remarcabilă valoare nutri
 tivă, în prezent, este insuficient valorificată.
+### TRIFOLIUM PRATENSE L.
+
 TRIFOLIUM P RAT ENSE L.
 TR IFO I ROȘU; F r.: Trefle violet; E.: Red ciover; M.: R eti 16here;
 R .: Klever lugovoi'.
@@ -6797,6 +6848,8 @@ sau aecoct 10%. Extern, sub formă de catapîasme, ca emolient și în băi de
 plante medicinale. în America este utilizat tot' empiric contra scrofulozei
 și în tușea convulsivă.
 întrebuințare medicinală lim itată.
+### TRIFOLIUM REPENS L.
+
 TPJFOLIUM REPENS L.
 TR IFO I ALB; F r .: Trefle blanc; E .: W hite clover, Dutch clover;
 G .: Krieehender-Xlee; M .: Kusz6 lohere; R .: KIever paizucii.
@@ -6855,7 +6908,9 @@ este însă păros atît pe tulpină și frunze, cît și pe pedunculii inflores
 și pe caliciu. Foliolele sînt mai înguste și acute'(la specia medicinală vîrful
 e rotunjit, trunchiat sau emarginat). Florile acestei specii sînt utilizate în
 medicina tradițională din țara noastră în leucoree.
-ALTE. SPECII DE FABACEAE CU UTILIZĂRI MEDICINALE
+## ALTE SPECII DE FABACEAE CU UTILIZĂRI MEDICINALE
+
+ALTE SPECII DE FABACEAE CU UTILIZĂRI MEDICINALE
 Sophora prodani Anders. Specie endemică pentru țara noastră, crește
 
 hora japonica1 '. Cercetările histochim ie din țara noastră au demonstrat
@@ -7117,6 +7172,8 @@ Prin conținutul extrem de ridicat al uleiului în acizi grași nesaturați,
 ele sînt im portante în scăderea colesterolului și prin aceasta și în ateroscle
 roză.
 D atorită conținutului în tanin sînt antidiareice.
+## Fam. OXALIDACEAE
+
 Fam. OXALIDACEAE
 Plante mici, ierbacee, din păduri umbroase și umede de Fag, Molid sau
 Brad (Oxalis acetosella L .), originare din America de Nord (O. stricta L.j
@@ -7142,6 +7199,8 @@ de oxalat acid de potasiu care se află în frunze și pețioli. De m enționat 
 faptul că datorită prezenței oxalatului acid de potasiu Măcrișul iepurelui
 'sau de alte specii care conțin această substanță), administrat intern în can
 tități mai mari de cca IO O g plantă verde, este iritant renal.
+## Fam. GERANIACEAE
+
 Fam. GERANIACEAE
 Plantele din această familie ce cresc în țara noastră sînt specii ierbacee,
 cu peri glandulari,"cu frunze alterne, rar întregi, cel m ai adesea palm at
@@ -7164,6 +7223,8 @@ frunzele: m ajoritatea sînt bâzâie,
 lung-pețiolate (pețioli de 10—20 cm),
 palm at-partite sau paimat-fidate,
 cu cîte 7 lobi, cu diam etrul de
+### GERANIUM MACRORRHI-
+
 GERANIUM MACRORRHI-
 ZUM L.
 P R IB O I; F r .: Geranium ; G .:
@@ -7210,6 +7271,8 @@ codinamice și bacteriologice.
 Rizomii reprezintă m ateria prim ă pentru pre
 paratul original românesc „Aftogeranil“ reco
 m andat în afte, stom atite.
+### GERANIUM ROBERTIANUM L.
+
 GERANIUM ROBERTIANUM L.
 NĂ PRAZNIC; F r .: Geranium â R obert; E .:
 Adder's tongue; G .: R uprechtskraut; M.:
@@ -7259,6 +7322,8 @@ bucofaringiene. Intern a fost recom andată în tratam entul taninos al tuber-
 culoșilor și diabeticilor și ca astringent antidiareic. în prezent utilizat pe
 scară mai redusă. în unele țări se utilizează sub formă de tinctură în homeo
 patie ca hemostatic ai organelor interne.
+## ALTE SPECII DE GERANIACEAE CU UTILIZĂRI MEDICINALE
+
 ALTE SPECII DE GERANIACEAE CU UTILIZĂRI MEDICINALE
 Geranium, columbinum L. (I a r b a -v î n t u 1 u i). Plantă cu flori pur
 purii din păduri și tufișuri, utilizată în unele zone ale țării, în uz extern,
@@ -7305,6 +7370,8 @@ pe tăieturi și răni. Cercetări mai recente au pus în evidență acțiunea a
 microbiană și antifungica a extractelor obținute- din specii de Pelargonium
 (P. graveolens L’Her. și P. jragrans YVilldJ pe Staphylococus aureus, Bacillus
 ccreus, Aspergillus aegypticus, Penicillium cyclopium și Trichoderma vinde.
+## Fam. TROPAEOLACEAE
+
 Fam. TROPAEOLACEAE
 Specii exotice, la noi numai de cultură, cu frunze alterne, peltate (pețiolul
 :se prinde în mijlocul limbului, nu la marginea sa), tulpina destul de cărnoasă,
@@ -7328,6 +7395,8 @@ sau dublu-penate. Flori hermafrodite actinomorfe sau zigomorfe. Sepale
 cu 4 — 5 muchii sau aripi, rareori drupă, dehiscent.
 Speciile din această familie sînt răspîndite în zona tem perată caldă, me
 diteraneană, mai rar la tropice.
+### PEGANUM HARMALA L.
+
 PEGANUM H ARM ALA L.
 HARMALA; E .: Harmel, Syrian rue; F .: Harmel, Rue sauvage.
 Caractere de recunoaștere. Planta: Specie ierboasă, perenă, de 30 — 50
@@ -7369,6 +7438,8 @@ primăvara anului al doilea de cultură în sol se in
 troduc cu cultivatorul în două etape, 50 kg /ha po
 tasiu și 2 t/h a gunoi de grajd foarte bine fermentat.
 în anii trei și patru înainte de prima prașilă, se mai
+## Fam. ZYGOPHYLLACEAE
+
 Fam. ZYGOPHYLLACEAE
 fiC -
 »,A,t •
@@ -7474,7 +7545,9 @@ farmacodinamice, dar și pentru obținerea unui produs fitoterapeuta eficient
 In boala Parkinson.
 151;
 
-A L TE SPECII D E ZYGOPHYLLACEAE CU UTILIZĂRI
+## ALTE SPECII DE ZYGOPHYLLACEAE CU UTILIZĂRI
+
+ALTE SPECII DE ZYGOPHYLLACEAE CU UTILIZĂRI
 MEDICINALE
 Tribulus Urrestris L. (C o 1 ț i i babei). Plantă cu tulpina lungă de
 iu—60 a n , uneori ramurile culcate, cu frunze opuse, cele inferioare di *.erne f
@@ -7507,6 +7580,8 @@ ruginii alungit-obovate, obtuze sau slab emarginate. Fructul capsulă alungit-
 zona Constanței. în medicina tradițională a unor popoare de pe litoralul
 Mării Negre sau Mediteranei i se atribuie proprietăți antihelmintice și pur
 gative.
+## Fam. LINACEAE
+
 Fam. LINACEAE
 La noi numai specii ierboase, cu frunze întregi, alterne, înguste; flori
 in dichazii terminale, pe tipul 5, cu elemente libere. Fruct capsulă cu 5 loje
@@ -7514,6 +7589,8 @@ in dichazii terminale, pe tipul 5, cu elemente libere. Fruct capsulă cu 5 loje
 se poate gelifica.
 Au im portanță medicinală in special semințele. Au im portanță pentru
 industria textilă fibrele și pentru pictură și vopsitorie uleiul sicativ.
+### LINUM USITATISSIMUM L.
+
 L1XUM USITA TISSIMUM L.
 IN DE CULTURĂ: F r.: Lin; E .: F lax ; G.: Echter Lein; M.: Hâzi
 len; R .: Len abîknavennîi.
@@ -7659,6 +7736,8 @@ m ari, lungi pînă la 3 cm și late de cca 1 cm, cu fiori m ari azurii, ce cre�
 în zonele de stepă, finețe uscate și în luminișurile pădurilor de silvostepă
 -din țara noastră. Infuzia din părțile aeriene ale plantei se utilizează în medicina
 tradițională pentru calmarea colicilor intestinali la copii.
+## Fam. EUPHORBIACEAE
+
 Fam. EUPHORBIACEAE
 La noi numai specii ierboase, anuale, bianuale sau perene, multe din
 ele cu latexuri în aparatul vegetativ. Frunze simple. Flori unisexuate mici,
@@ -7670,6 +7749,8 @@ conțin substanțe toxice și citotoxice, alcaloizi, albumine, rezine vezicante,
 triterpene tetraciclice și alte substanțe a căror structură chimică încă nu este
 complet elucidată. Animalele nu consumă speciile din această familie. Ames
 tecate în fîn pot produce diaree și hematurie la animale.
+### RICINUS COMMUNIS L.
+
 RICINUS COMMUNIS L.
 RICIN ; F r .: R icin ; E .: Castor oii p la n t; G .: R izinus; M .: Ricinus ;
 R .: Kleșcievina abîknavennaia.
@@ -7878,7 +7959,9 @@ Acțiune farmacodinamica, utilizări terapeutice. D atorită acidului ricmo-
 îeic, uleiul de ricin are proprietăți purgative. Acidul ricinoleic stimulează
 chemoreceptorii din mucoasa intestinului subțire, rezultînd creșterea peri-
 staetismului.
-ALTE SPECII D E EUPHORBIACEAE CU UTILIZĂRI MEDICINALE
+## ALTE SPECII DE EUPHORBIACEAE CU UTILIZĂRI MEDICINALE
+
+ALTE SPECII DE EUPHORBIACEAE CU UTILIZĂRI MEDICINALE
 Mercurialis annua L. (Trepădătoare). Plantă din păduri umede
 și umbroase din zona de deal și munte. Partea aeriană conține metilamină,
 trimetilamină, ulei volatil, un principiu amar, saponozide etc. Frunzele re
@@ -7977,6 +8060,8 @@ etc., este tonică și stimulentă, utilizată numai empiric. Și întrebuințar
 internă sau externă a acestei specii este periculoasă. în contact cu pielea și
 cu mucoasele produce iritații puternice. Utilizarea acestei specii în prezent
 este abandonată.
+## Fam. SIMARUBACEAE
+
 Fam. SIMARUBACEAE
 Arbori sau arbuști cu scoarța amară specifici regiunilor tropicale și
 subtropicale. La noi există o singură specie.
@@ -7986,6 +8071,8 @@ terminale laxe. Crește prin locuri virane, marginea satelor, pădurilor. Scoar�
 care conține oleorezine, esențe aromatice, mucilagii, a fost utilizată sub formă
 de pudră ca antihelmintic, antidiareic și antidizenteric. Datorită rezinei are
 acțiune revulsivă. Utilizare lim itată în medicina empirică.
+## Fam. POLYGALACEAE
+
 Fam. POLYGALACEAE
 Specii perene, ierbacee, rar subarbuști. Frunzele sînt alterne, simple,
 nedințate. Florile sînt dispuse în raceme, mai rar umbeliforme, hermafrodite,
@@ -8013,6 +8100,8 @@ empirică în boala reumatismală este justificată prin faptul că glicozidul p
 in libertate salicilat de metil.
 162
 
+## Fam. ANACARDIACEAE
+
 Fam. ANACARDIACEAE
 Plante lemnoase, cu suc rășinos sau lăptos, uneori toxic, în special din
 zone calde. Frunze simple sau compuse, flori pe tip 5 care pot suferi reduceri
@@ -8036,6 +8125,8 @@ etc. Pe baza complexei compoziții chimice (acid golic, acid penta-m-digalolil-
 beta-glucozâ, taninuri, fisetină, fustină, acid rhusinic etc.) în bună parte,
 utilizările empirice au fost confirmate în fitoterapia modernă din alte țări
 Frunzele fum ate sînt folosite în astm ul bronșic.
+## Fam. SAPINDACEAE
+
 Fam. SAPINDACEAE
 Plante lemnoase cu canale secretor ii de rășini și latex. Frunze alterne,
 penat-compuse sau dublu-penat-compuse. Flori de obicei bilateral simetrice,
@@ -8077,6 +8168,8 @@ de dealuri, sporadic la munte. Este cultivat ca arbore ornamental pe străzi.
 decoctul de scoarță ca astringent în diaree și în hemoragii. Are proprietăți
 vulnerare. Decoctul din flori, tot in medicina tradițională, în tulburări
 cardiace cu substrat nervos.
+## Fam. HIPPOCASTANACEAE
+
 Fam. HIPP OC ĂST AN ACEAE
 Arbori viguroși, cu frunze mari palmat-compuse. Flori zigomorfe, gru
 pate în panicule mari, erecte. Fruct capsulă spinoasă, care se deschide prin
@@ -8084,6 +8177,8 @@ pate în panicule mari, erecte. Fruct capsulă spinoasă, care se deschide prin
 Din această familie pînă în prezent nu s-a cercetat sub aspect terapeutic
 decît o singură specie — Castanul sălbatic — care conține saponozide triter
 penice și alte principii active.
+### AESCULUS HIPPOCASTANUM L.
+
 A ESCULUȘ HIPPOCASTANUM L.
 CASTAN SĂLBATIC, Castan porcesc; E .: Horse-Chestnut,
 Fr.: Maronnierj G .: Rosskastanie; M .: Vadgesztenye;
@@ -8238,7 +8333,11 @@ alte specii; Totuși, datorită denumirii populare, au fost recoltate uneori coj
 de. castan comestibil (Castanca saliva L.) car*3 sînt cenușii-verzui cu pete
 albicioase (la Aesculus hippocastanum coaja este cenușie-brună, fără pete
 albicioase, cu cicatrice mari pe suprafață'.
-ALTE SPECII DIN FAMILIA HIPPOCASTAXACEAE
+## ALTE SPECII DIN FAMILIA HIPPOCASTANACEAE
+
+ALTE SPECII DIN FAMILIA HIPPOCASTANACEAE
+### CU UTILIZĂRI TERAPEUTICE
+
 CU UTILIZĂRI TERAPEUTICE
 A escidus paroia L. ale cărei flori au culoarea roșie, formind m ateria prim ă
 Fiores Hippocastani mbri, adesea mai solicitate decit florile de la castanul alb.
@@ -8249,6 +8348,8 @@ Recoltarea se face la fel ca la Aesculus hippocastanum atît la flori, cît și 
 frunze și scoarță, dar nu se admite recoltarea semințelor, deoarece acestea
 sînt puternic toxice datorită conținutului de acid cianhidric (Se recunosc
 după aceea că peretele fructului.este lipsit dp țepi).
+## Fam. BALSAMINACEAE
+
 Fam, BAL S AMIN ACE AE
 Specii anuale, ierbacee, cu noduri umflate la inserția ramurilor sau a
 pețioluiui frunzelor pe tulpina principală. Flori hermafrodite bilateral sime
@@ -8263,6 +8364,8 @@ din frunzele plantei are acțiune astringență și diuretică. Pulberea din fru
 uscate, bine dozată arc acțiune, laxativa, purgativă și emetică.
 167
 
+## Fam. AQUIFOLIACEAE
+
 Fam. AQUIFOLIACEAE
 Arbori sau arbuști cu frunze alterne, de obicei persistente. Fiori axilare
 radiar simetrice de obicei dioice, solitare sau în inflorescențe. Corola cu 4 —6
@@ -8275,6 +8378,8 @@ parfumate, așezate la subsuoara frunzelor. Este cultivat uneori ca arbust
 ornamental în parcuri și grădini.
 Frunzele sînt utilizate rar în medicina noastră tradițională în gripe,
 bronșite, reumatism sau în inflamații gastro-intestinale.
+## Fam. CELASTRACEAE
+
 Fam. CELASTRACEAE
 Specii lemnoase, drepte, uneori urcătoare. Frunzele sînt simple, alterne,
 opuse sau verticilate. Inflorescența în dihazii simple sau grupate în umbelă,
@@ -8300,6 +8405,8 @@ verucozități brune, de unde și denumirea populară. Florile sînt brunii disp
 semințe negre înconjurate de un aril portocaliu. Are compoziție asemănătoare
 speciei precedente. în medicina empirică se întrebuințează rar scoarța de pe
 tulpini ca purgativ drastic. Scoarța rădăcinilor conține 8—18% gutapercă.
+## Fam. STAPHYLEACEAE
+
 Fam. STAPHYLEACEAE
 Arbori sau arbuști cu frunze alterne sau opuse, trifoliate sau penat
 compuse. Flori hermafrodite pe tipul 5 în inflorescențe axilare sau terminale.
@@ -8316,6 +8423,8 @@ alungite, albe-gălbui. Fructul capsulă, umflată, sferică pînă la piriforma
 tradițională florile și fructele sînt utilizate sub formă de decoct ca antiinfla-
 m ator în uzul extern. Tinctură din fructe sub formă de comprese se utilizeazi
 în hernii și dureri abdominale.
+## Fam. BUXACEAE
+
 Fam. BUXACEAE
 Plante lemnoase, fără laticifere, la noi cultivate ornamental. Frunze sim
 ple, alterne, coriace. Flori unisexuate, m ărunte, în inflorescențe glomeruiare.
@@ -8327,6 +8436,8 @@ diuretic-depurative și sudorifice. Astăzi mai este utilizat în unele țări s
 formă de decoct, ca febrifug, ca sudorific și în afecțiuni hepato-biliare. Cer
 cetările științifice au arătat că alcaloidul buxenina G are o acțiune puternică
 de inhibare „in vitro“ a celulelor canceroase.
+## Fam. RHAMNACEAE
+
 Fam. RHAMNACEAE
 Arbuști cu frunze simple, alterne sau aproape opuse, cu flori mici, acti
 nomorfe, pe tipul 4 sau 5, grupate în cime axilare fructe, drupe sau capsule.
@@ -8464,6 +8575,8 @@ c î i n e s c ) etc.
 Toate aceste specii a căror frunze sînt un prim indiciu de diferențiere,
 nu dau pozitivă reacția cu hidroxizi alcalini m enționată la descrierea m a
 teriei prime.
+### RHAMNUS CATHARTICA L.
+
 RHAMNUS CATHARTICA L.
 VERIGARIU, SPIN U L CERBU LUI; Fr.: Nerprun, Epine de cerf;
 G.: Kreuzdorn; M.: Varjutovis benge; R.: Joster slabitelnîi.
@@ -8517,7 +8630,9 @@ laxativa în special datorită derivaților antracenici din semințe și diureti
 datorită flavonoidelor din pulpă.
 Confuzii. Prezintă asemănări cu specia Frangula alnus (Crușin). Carac
 terele de deosebire sînt arătate la descrierea acesteia.
-ALTE SPECII D E RHAMNACEAE CU UTILIZĂRI MEDICINALE
+## ALTE SPECII DE RHAMNACEAE CU UTILIZĂRI MEDICINALE
+
+ALTE SPECII DE RHAMNACEAE CU UTILIZĂRI MEDICINALE
 Paliurus sfiina-christi Mili. (Păliur) . Arbust înalt pînă la 3 m
 avînd caracteristică prezența a doi spini la baza frunzelor. Crește în regiunile
 de stepă și silvostepă în Dobrogea. Cultivat pe alocuri ca arbust ornamental.
@@ -8534,6 +8649,8 @@ m alat și tartra t de potasiu și magneziu. Frunzele sînt bogate în vitam ina
 C (cca 1 g%) și conțin tanin (cca 4,7%). Fructele au proprietăți emoliente,
 fluidificînd secrețiile bronșice și sînt întrebuințate ca expectorante și an
 tispastice.
+## Fam. VITACEAE
+
 Fam. VIT ACE AE
 Liane care se agață adesea prin cîrcei. Frunze alterne, palmat-lobate.
 Flori mici, pe țip 5 (rar 4), grupate în panicul compus din dichazii. Fructe-
@@ -8554,6 +8671,8 @@ dietetic în afecțiuni cardio-renale, constipație cronică și obezitate.
 bronșite. Vinul din struguri este considerat un aliment fortifiant iar în trecut
 constituia baza a numeroase vinuri tonice în a căror compoziție intrau plante
 medicinale.
+## Fam. TILIACEAE
+
 Fam. TILIa CEAE
 Arbori cu frunze întregi și alterne, flori în cime bipare sudate la partea
 inferioară cu o bractee membranoasă care-servește pentru diseminarea fruc
@@ -8564,6 +8683,8 @@ Inflorescențele cu bractee datorită uleiului volatil au efecte ușor seda-
 tive, iar datorită conținutului în mucilagii sînt emoliente. Mai rar se între
 buințează frunzele și scoarța în scopuri medicinale, în schimb aceasta din
 urm ă este utilizată pentru fibrele ei care înlocuiesc rafia.
+### TILIA SPECIES
+
 TI LI A SPECIES
 T. tQmentosa, M nch.; T E I A R G IN T IU ; F r .: Tilleul argent£; E .: Lim e-tree;
 G .: Silberlinde; M .: Eziistlevelii hârsfa; R .: L ipa pusistaia.
@@ -8964,6 +9085,8 @@ ed. IX.
 Intră în compoziția Ceaiului calmant, Ceaiului calmant împotriva tul
 burărilor cardiace, Ceaiul pectoral 2, în Ceaiul sedativ și sudorific, Ia pre
 pararea apei de Tei si în compoziția unor preparate magistrale.
+## Fam. MALVACEAE
+
 Fam. MALVACEAE
 Plante ierboase, arbuști, mai rar lemnoase, cu frunze alterne stipelate,
 cel mai adesea palmat-lobate puțin incise. Aparatul vegetativ prezintă peri
@@ -9045,6 +9168,8 @@ de tanoizi, lipide, fitosteroid substanțe minerala în special sărari d i K , 
 și Ca. -Frunzele — vitamina C și provitamină A.
 Acțiune farmacodinamică, utilizări terapeutic;. Acîlaași ca și la specia
 Malva sylvestris.
+### MALVA SYLVESTRIS L.
+
 MALVA SYLVESTRIS L.
 (Malva sylvestris L, ssp. mauriianica (L) Ta^lun», M i iu g'-abrj, Desv.)
 NALBA DE CULTURĂ, NALBĂ; E.: M ilion; F i.: M iuve; G.; K u ltu r
@@ -9246,6 +9371,8 @@ Florile de Nalbă de cultură sînt înscrise în F.R. IX.
 ză de la M. sylvestris întreaga parte aeriană a plantei, deoarece și tulpina
 conține mucilagii. Recoltarea sub această formă duce la economisirea unei
 forțe de muncă deosebit de mari.
+### ALTHAEA OFFICINALIS L.
+
 ALTHAEA OFFICINALIS L.
 NALBA MARE; E.: M arshmallow; Fr.: Guimauve; G.: Gebrăuchlicher
 Eibisch; M .: Orvosi ziliz; R.: Altei iekarstvennîi
@@ -9446,6 +9573,8 @@ cinalis., avînd 5—8 cm în diametru față de 2—3 cm, iar petalele puternic
 față de 6—9 la A. offimialis; frunzele au peri rari numai pe fața inferioară,
 în tim p ce la A. officinalis ele sînt moi, mătăsoase datorită părozității abun
 dente.
+### ALCEA ROȘEA L.
+
 ALCEA ROȘEA L.
 {Althaea roșea (L) Cav. var. nigra H o rtJ
 N T ALBĂ DE GRĂDINĂ; E.: Hollyhock; F r .: Rose tremiere, Mauve
@@ -9591,6 +9720,8 @@ lizată p < j scară redusă în afecțiuni ale aparatului respirator și sub fo
 gargară în inflamații buco-i'aringiene. Folosită la prepararea oțetului aro
 m atic. Mult utilizată în industria alimentară, fiind un colorant lipsit de
 nocivitate.
+### HIBISCUS TRIONUM L.
+
 HIBISCUS TRIONUM L.
 ZĂMOȘIȚĂ; F r .: Hibiscus; G.: Stunden-Ibisch; M .: Varjum âk; R .:
 Ghibiscus troiciatîi
@@ -9648,7 +9779,9 @@ rări gastrice. în urm a cercetărilor efectuate în țara noastră, s-a pus î
 dență acțiunea diuretică și saluretică, fiind indicată în pielite, cistite și în
 calculoză renală.
 In tră în compoziția Ceaiului diuretic nr. 3.
-ALTE SPECII D E MALVAGEAE CU UTILIZĂRI MEDICINALE
+## ALTE SPECII DE MALVACEAE CU UTILIZĂRI MEDICINALE
+
+ALTE SPECII DE MALVACEAE CU UTILIZĂRI MEDICINALE
 Malva pusilla Sm. (Nalbă mică). Este foarte puțin diferențiată
 de specia Malva neglecta avînd florile mai mici, cu caliciul aproape egal cu
 corola (la M. neglecta caliciul este de 2—3 ori mai scurt). Denumirile populare
@@ -9687,6 +9820,8 @@ Conțin mucilagii, protide, hidrați de carbon, săruri minerale și vitaminele
 A, B și C. Prin conținutul ridicat în mucilagii, au proprietăți emoliente fiind
 utile în afecțiuni respiratorii (bronșite, traheite, laringite) și în cataruri ale
 tractului digestiv.
+## Fam. THYMELAEACEAE
+
 Fam. THYMELAEACEAE
 Plante ierboase, arbuști sau semiarbuști, în general toxici, cu acțiune
 vezicanta (în acest scop folosindu-se scoarța).
@@ -9697,10 +9832,14 @@ matice și gutoase, ca vezicant. în medicina tradițională, în doze extrem de
 reduse (totuși riscant datorită toxicității) se folosește în dureri de dinți
 și de cap, precum și ca insecticid. Fructele (drupe), roșii la m aturitate, sînt
 de asemenea toxice.
+## Fam. ELAEAGNACEAE
+
 Fam. ELÂEAGNACEAE
 Arbuști adeseori spinoși, cu frunze simple, acoperite de peri stelați carac
 teristici care le dau acestora o culoare argintie; flori hermafrodite, în raceme
 sau fascicule; fructe drupe false. Conținut foarte ridicat în vitamina C.
+### HIPPOPHAE RHAMNOIDES L.
+
 HIPPOPHAE RHAMNOIDES L.
 CETINĂ; F r .: Argousier; E .: Șea bucthorn; G .: Sanddorn; M .: Ho-
 m oktovis; R .: Ablepiha krușinovidnaia.
@@ -9778,6 +9917,8 @@ frunzelor, bogate în vitamina C.
 197
 Fig. 42 — H if’pophai rhamnoides
 
+## Fam. PASSIFLORACEAE
+
 Fam. PASSIFLORACEAE
 Arbori, arbuști sau plante agățătoare cu Cîrcei, exotice, cu frunze
 alterne întregi, lobate sau palm at-partite, cu flori pe tipul 5, hermafrodite
@@ -9789,6 +9930,8 @@ nu este pe deplin elucidată. Acțiunea lor sedativă asupra sistemului nervos
 central s-ar părea că se datorează unor substanțe de tipul harmanei, compus
 cu nucleu piridino-indolic și unor derivați flavonoidici puțin definiți. Extrac
 tele din aceste specii au și acțiune hipotensivă și antispastică.
+## Fam. GUTTIFERAE
+
 Fam. GUTTIFERAE
 (Fam. Clusiaceae, Fam. Hypericaceae)
 Plante ierboase în zona tem perată și arbuști în regiunile calde, cu frunze
@@ -9796,6 +9939,8 @@ Plante ierboase în zona tem perată și arbuști în regiunile calde, cu frunze
 stamine numeroase. Principiile active sînt conținute de pungi schizogene sau
 canale secretorii prezente în frunze și sînt formate din uleiuri volatile și din
 derivați polifenolici.
+### HYPERICUM PERFORATUM L.
+
 HYPERICUM PERFORATUM L.
 SUNĂTOARE, PO JA RN IȚĂ ; Fr.: Millepertus officinal; E .: Common St.
 Johan’s w o rt; G .: Echtes Tohanneskraut; M.: Orbâncfu; R .: Zveroboi
@@ -9948,6 +10093,8 @@ elegans are ca și H. -perjsaturn atît puncte transparente cît și puncte negr
 dar forma frunzei este lanceolată, iar tulpina are 4 muchii (la H. perfora-
 tum doar 2); — H. ma.cula.Umi are numai puncte negre, nu și transparente ;
 — H. hirsutum — frunze păroase (la H. perforatum — glabre).
+## ALTE SPECII DE GUTTIFERAE CU UTILIZĂRI TERAPEUTICE
+
 ALTE SPECII DE GUTTIFERAE CU UTILIZĂRI TERAPEUTICE
 In fitoterapie sau în medicina tradițională sînt utilizate a tît la noi cît
 și în alte țări și alte specii ale genului Hypericitm.
@@ -9958,10 +10105,14 @@ folosit în medicina tradițională în tuberculoză, acnee etc.
 Hypericum tetraptemm Fries sin. H. acutum Moench. sin H. quadrangu-
 lum L. (Șovîrvariță) are compoziție chimică asemănătoare cu H. per
 foratum, fiind folosit în unele țări în paralel cu specia medicinală.
+## Fam. VIOLACEAE
+
 Fam. VIOLACEAE
 în flora noastră numai plante ierboase, cu frunze întregi sau sectate, cu
 stipele. Flori zigomorfe pe tip 5, cu petala anterioară pintenată, în pinten
 găsindu-se țesut nectarifer. Fruct capsulă.
+### VIOLA ODORATA L.
+
 VIOLA ODORAT A L.
 VIOREA, TOPORAȘ; F r .: Violette odorante; E .: Sweet violet ;
 G .: Wohlreichendes Veilchen; M .: Illatos ibolya; R .: Fialka dușistaia.
@@ -10035,6 +10186,8 @@ Rizomii și rădăcinile constituie un bun succedaneu al rădăcinii de Ipeca,
 avînd acțiune emetică, expectorantă.
 Florile și frunzele (bogate în nonadienol) sînt utilizate în industria paT-
 fumurilor.
+### VIOLA TRICOLOR L.
+
 VIOLA TRICOLOR L.
 TREI-FRAȚI-PĂTA ȚI; F r .: Pensee sauvage, Violette tricolore: E .:
 Pansy; G .: Stiefm utterchen; M .: Hâromszinu ârvâcska; R .: Fialka
@@ -10157,6 +10310,8 @@ Specia e asemănătoare ca port cu V. tricolor, de care se deosebește prin:
 mici (pînă ia 1,5 cm), cu corola mai scurtă decît caliciul, de culoare galbenă,
 fără variații m ari de nuanțe între petale.
 Se poate recolta în toate zonele de cimpie și dealuri joase.
+## Fam. CISTACEAE
+
 Fam. CÎSTACEAE
 Plante ierboase sau arbuști ce cresc pe coline pietroase, calcaroase
 Flori actinomorfe pe tipul 5, de obicei galbene. Fructul capsulă.
@@ -10172,6 +10327,8 @@ noză, galactoză și acid galacturonic.
 Helianthemum oe.land.icum (L.) D.C. ssp. alpesire (Jacq) Breistr. sin.
 H. alpesire. (Jacq.) D.C. (M ă 1 ă o a i e). Specie folosită în medicina tradițională
 ca antidiareic.
+## Fam. TAMARICACEAE
+
 Fam. TAMARICACEAE
 Arbuști, adesea, de locuri sărăturoase, cu frunze mici solziforme, alipite
 de tulpină, flori albe sau roz pe tip -4—5, grupate în spice. Fruct capsulă.
@@ -10194,6 +10351,8 @@ nitrat de potasiu etc. Acțiunea este in special astringenta, diuretică și dia
 foretică.
 206
 
+## Fam. CUCURBITACEAE
+
 Fam. CUCURBITACEAE
 La noi cuprinde plante ierboase, anuale, rar perene, avînd peri rigizi
 pe toată suprafața plantei. Tulpini tîrîtoare, urcătoare sau agățătoare cu
@@ -10211,6 +10370,8 @@ hipoglicemiante etc.
 Unele dintre ele sînt foarte toxice, utilizarea în terapeutică fiind limi
 tată.
 LUFFA CYLINDRICA (L.) Roem.
+### LUFĂ, BU RETE VEGETAL
+
 LUFĂ, BU RETE VEGETAL
 Caractere de recunoaștere. Planta : Specie anuală, monoică, exclusiv
 de cultură, volubilă care se urcă pînă la 3—6 m ; rădăcina: ușor îngroșată;
@@ -10341,6 +10502,8 @@ Acțiune farmacodinamică, utilizări terapeutice. Acțiunea specifică aces
 tei plante nu a fost studiată. în trecut se utiliza empiric rădăcina ca purga
 tiv. Fructele proaspete bogate în mucilagii erau considerate ca emoliente,
 iar în stare uscată se foloseau odinioară în chirurgie ca absorbant.
+## ALTE SPECII DE CUCURBITACEAE CU UTILIZĂRI MEDICINALE
+
 ALTE SPECII DE CUCURBITACEAE CU UTILIZĂRI MEDICINALE
 Ecballium elaterium (L.) A. Rich (Plesnitoare). Plantă anuală,
 în flora spontană mai ales pe coasta Mării Negre, are caracteristic fructul
@@ -10448,6 +10611,8 @@ cresc capacitatea de utilizare a hidraților de carbon reducînd zahărul din
 sînge și din urină și poliuria. Alte cercetări au arătat că extractul apos are
 acțiune citostatică și citotoxică acționînd ca inhibitor al guanilatului ciclazei.
 S-a izolat și un factor antiviral al stomatitelor veziculare.
+## Fam. LYTHRACEAE
+
 Fam. LYTHRACEAE
 Plante ierboase, viguroase, specifice locurilor umede, cu frunze întregi,
 opuse, flori hermafrodite, grupate în inflorescențe terminale racemoase, cu
@@ -10456,6 +10621,8 @@ opuse, flori hermafrodite, grupate în inflorescențe terminale racemoase, cu
 
 Conțin flavonozide, compuși polifenolici, în special tanoizi care le con
 feră proprietăți astringente.
+### LYTHRUM SALICARIA
+
 LYTHRUM SALIC A RI A
 RĂCHITAN; F d .: Salicaire; E .: Purple loosestrife; G. : Blut-Weiderich ;
 M .: Reti fuzeny; R .: Derienik ivolistnîi.
@@ -10522,6 +10689,8 @@ medicinală are peri scurți); — frunza are baza rotunjită sau coardată la
 specia medicinală, în tim p ce la L. virgatum este îngustată; — inflorescență.
 la L. salicaria -este cu flori dispuse foarte dens, acoperind complet axul, în
 timp ce la L. virgatum este laxă, axul fiind dezvelit.
+## Fam. PUNICACEAE
+
 Fam. PUNICACEAE
 Specii lemnoase cu flori actinomorfe, cu caliciu și corolă penta sau oc-
 tomere. Gineceu] este! compus din 9 cârpele concrescute, în parte liber sau
@@ -10548,6 +10717,8 @@ vitam ina C, iar scoarța fructului conține tanin, dar nu conține peletierină
 zat ca tenifug.
 Sucul fructului este utilizat pentru prepararea șerbetului și siropului,,
 iar scoarța fructului ca antidiareic ia adulți și copii.
+## Fam. TRAPACEAE
+
 Fam. TRAPACEAE
 Plante anuale, acvatice, cu floare pe tipul 4 și fructe amidonoase mari
 cu un înveliș gros cu 4 coarne.
@@ -10557,6 +10728,8 @@ Trapa naians L. (Cornaci). Crește abundent in bălțile Dunării. Fruc
 tele conțin aproape 50% substanțe amidonoase, aproape 10% tanin, proteine,
 grăsimi. Ia medicină tradițională srnt considerate ca remediu antidiareic,
 în mușcături de animale veninoase și chiar contra turbării.
+## Fam. ONAGRACEAE
+
 Fam. ONAGRACEAE
 (Fam. Oenoteraceae)
 Plante ierboase, mai rar lemnoase, cu frunze simple, fără aparat secretor.
@@ -10592,6 +10765,8 @@ rol, beta-sitosterină, flavonoizi, taninuri. Prin anii 1970 era utilizată frec
 Epilobium palustre L. Specie răspîndită în toată țara sub diferite forme?
 Crește prin locuri mlăștinoase, bălți, pe malul rîurilor, pe lîngă izvoare sau
 în finețe umede. Utilizările empirice sînt similare celorlalte specii.
+## Fam. CORNACEAE
+
 Fam. CORNACEAE
 Arbuști (mai rar arbori), cu frunze simple, opuse, cu nervurile laterale
 arcuite. Flori hermafrodite, pe tip 4 sau 5, mici, grupate în umbele. Fruct
@@ -10613,12 +10788,16 @@ pie, regiunile deluroase, urcînd pînă la 1 000 m altitudine. Scoarța este fo
 bogată în taninuri. Este utilizată în medicina tradițională ca astringent și
 în paludism. Fructele recoltate Ia m aturitate au proprietăți tonic-astringente,
 fiind folosite în afecțiuni gastro-intestinale.
+## Fam. ARALIACEAE
+
 Fam. ARALIACEAE
 r
 Plante lemnoase, uneori tîrîtoare sau agățătoare, cu frunze alterne*,
 întregi sau palm at-lobate; flori pe tipul 5, grupate în um bele; fructe bace
 sau drupe' cu 5 semințe. Speciile sînt răspîndite în regiunile tropicale, sub
 tropicale, pînă în zona temperată.
+### HEDERA HELIX L.
+
 HEDERA HELIX L.
 IEDERA ; F r .: Lierre grim pant; E .: Tree iv y ; G .: E feu; 3\f.: Borostyân
 R .: Pliușci abîknavennîi.
@@ -10676,6 +10855,8 @@ Produsele farmaceutice obținute din lemn au de asemenea proprietăți
 antispastice analgetice. Tinctură este utilizată în tușea spastică.
 De m enționat este faptul că fructele de iederă au acțiune emeto-catarc-
 lică, puțind duce la intoxicații în special la copii.
+## Fam. APIACEAE (Fam. Umbelliferae)
+
 Fam. APIACEAE (Fam. Umbelliferae)
 Specii ierbacee, anuale, bisanuale sau perene. Rădăcina pivotantă, uneori
 -transformată în organ de rezervă. Tulpina fistuloasă, adesea cu șanțuri, frun
@@ -10696,6 +10877,8 @@ Familia Apiaceae este o familie foarte bogată în specii dintre care multe
 au im portanță pentru terapeutică sau pentru obținerea uleiurilor volatile
 utilizate și în scop arom atic sau condimentar.
 216
+
+### ERYNGIUM PLANUM L.
 
 ERYNGIUM PLANUM L.
 SCAI VÎNAT: Fr.: Panicaut plane; E .: Eryngo; G. : Flac'hbîâttrige
@@ -10752,6 +10935,8 @@ diuretică.
 Confuzii. Culoarea albăstruie caracteristică este suficientă pentru a
 evita orice confuzie cu speciile asem ănătoare, E. campcstre (Scaiul dracu
 lui) și E. maritimum (Vitrigon).
+### CORIANDRUM SATIVUM L.
+
 CORI A NDR UM SATIVUM L.
 CORIANDRU; F r .: Coriandre; E .: Coriander; G .: Garten-Koriander ;
 M .: Kerti koriander; R .: Koriander pasevnoi.
@@ -11090,6 +11275,8 @@ Indicat în anorexii și dispepsii.
 In tră în compoziția Ceaiului contra colicilor pentru copii, în Ceaiul gas
 tric nr. 2 și în Ceaiul tonic aperitiv. Intră și în compoziția apei aromatice
 ru care se prepară apoi tinctură de m alat de fier.
+### PIMPINELLA ANISUM L.
+
 PIM PISELLA ANISUM L.
 ANASON; F r .: Anis; E: Anise; G .: Anis; M.: Keleti ânisz; R.: Anis
 Caractere de recunoaștere. Planta: specie anuală, exclusiv de cultură,
@@ -11531,6 +11718,8 @@ depășirea dozelor terapeutice survin aceleași efecte ca în cazul fructelor d
 Anason.
 232:
 
+### ANETHUM GRAVEOLENS L.
+
 ANETHUM GRA VEOLENS L.
 M ĂRAR; F r.: A n eth ; E .: D ill; G .: D ill; M .: K ap o r; R .: Ukrop pahucii
 Caractere de recunoaștere. Planta. Specie de cultură, anuală, erectă,
@@ -11645,6 +11834,8 @@ Palladius. în prezent im portanța terapeutică este mai redusă. în schimb es
 una dintre speciile condimentare cele mai utilizate. Cantitatea maximă de
 ulei volatil de Mărar admisă în conserve este de 0,015% iar în condimente
 de 2,9%.
+### APIUM GRAVEOLENS
+
 APIUM GRAVEOLENS
 ȚELINĂ; F r .: Celeri; E .: Celery; G .: Echter Sellerie; M .: K erti eeller;
 R .: Selderei pahucii.
@@ -11969,6 +12160,8 @@ cumarinelor din această specie poate provoca numeroase tulburări ca: greață,
 vomă, ulcer gastric, albuminurie, hemoragii rectale etc., fapt pentru care
 utilizarea produselor farmaceutice din această specie este redusă și se face
 numai sub control medical.
+### CARUM CARVI L.
+
 CARUM CARVI L.
 CHIMION; F r.: Carvi; E .: Caraway; G .: Weissen Kummel; M .: Ko-
 m enym ag; R .: Tmin.
@@ -12412,7 +12605,9 @@ Observații. Ca arom atizant sau în scopuri medicinale, se pot întrebuința
 atît părțile aeriene ale plantei, cît și fructele, acestea din urmă fiind m ai
 bogate în ulei volatil (1 — 1,5%), ulei ce conține furanocumarine (imperatorină
 și bergapten).
-ALTE SPECII DE APIACEAE CU U TILIZĂ RI MEDICINALE
+## ALTE SPECII DE APIACEAE CU UTILIZĂRI MEDICINALE
+
+ALTE SPECII DE APIACEAE CU UTILIZĂRI MEDICINALE
 Sanicula europaea L. (Sînișoară). Specie răspîndită în pădurile
 umbroase cu soluri umede și bogate în humus din zona dealurilor subcarpatine
 și în special în regiunea montană. Frunzele bâzâie și rizomul conțin sanicula-
@@ -12639,836 +12834,3 @@ cipiu hipoglicemiant. Cercetările din țară noastră din ultimii ani au demons
 tra t acțiunea diuretică a morcovului, încercînd să explice utilizarea empirică
 în litiaza renală, reumatism, artrite etc.
 Fructele au proprietăți carminative, galactagoge și vermifuge.
-
-[Nu a fost extras text din această pagină.]
-
-INDEX DE DENUMIRI ȘTIINȚIFICE
-Abelmoscus esculentus 196
-Abutilon theophrasti 195
-Acer campestre 16-4
-Acer platanoides 164
-Aconitum anthora 28, 39
-Aconitum callibotryon 28
-Aconitum tauri-oum 28
-A ctaea spi cată 39
-A donis aestivalis 40
-Adonis vernalis 35
-A egopcdium podagraria 251
-A ethusa cynapium 251
-A esculus hippocastaniim 164
-A esculus pavia 167
-A grimonia eupaioria 106
-A grosîema githago 22
-A ilanthus altissima 162
-Aicea pallida 195
-A Icea roșea 191
-Alchemilla acutiloba 112
-A Ichemilla glaucescens 112
-Alchemilla mollis 112
-Alchemilla vulgaris 113, 120
-Al Har ia officinalis 78
-Alliaria pețiolata 78
-A lihaea officinalis 187
-AUhaea palida 195
-A lihaea roșea 191
-A lyssum montanum 80
-Ammi majus 239
-Ammi visnaga 239
-A morpha fructicosa 141
-A mygdalua communis 12 i
-A nemone nemorosa 40
-Anemone ranunculoides 40
-Aneihum graveolens 233
-Angelica archangelica 246
-Angelica silvestris 252
-Anthriscus cerefolium 250
-Anthriscus silvestris 250
-Anthyllis vulnerară a 144
-Apium graveolens 235
-A quilegia vulgaris 4 1
-A rachis hypogaea 144
-A rtneniaca vulgaris 12 1
-Armoracia rusticana 65
-Astragalus dasyanthus 141
-A stragalua excapus 141
-A stragalus glycyphyllos 14 l
-Astranîia măjer 249
-Barbar ea vulgaris 79
-Behen vulgaris 22
-Berberis vulgaris 42
-Bertcroa incana 80
-Brassica napus 8 i
-Brassica nigra 71
-Brassica oleracea 81
-Bryonia alba 210
-Bryonia dioica 20 î
-Buntaș erucago 78
-Bunias orientalis 78
-Buxus sempervirens 169'
-Căit ha laeia 39
-Camelină sativa 80
-Cvpsela bursa-pastoris 69
-Card amine amara 79
-Card am in e bulbifera 7 9
-Cardamine pratensis 80
-Cardaria draba 80
-Carum carvi 241
-Cerastium vulgaium 21
-Ceratocephalus tesliculatus 4 1'
-Cerastium caespitosum 21
-Cerasum avium 116
-Cerasus vulgaris 116
-Ckaerophyllum aromaticum 25©
-Chaerophylhim temulum 250
-Chamaespartium sagittale 139
-Chamamerion angustifolium 214
-Chmranthus cheiri 79
-Chelîdonium majus 60
-Chrysosplenium alternifolium 8$
-Ci cer arietinum 141
-Cicuta virosa 252
-Cimicifuga europa ea 39
-Citrullus colocynthis 20 1
-Citrulhis lanaius 210
-Citrullus vulgaris 2 — 0
-Clematis integri folia 40
-Clematis recta 40
-Clematis vitalba 34
-Cochlearia armoracia 65
-Cochleana pyrenaica 80
-Cochlearia rusticana 65
-Colat ea arbor escens 14 1
-255
-
-Conioselinum tataricum 252
-Conium maculatum 251
-Consolida orientalis 40
-Consolida regalis 33
-Coriandrum sativum 218
-C othus mas 214
-Ccrnus sanguinea 215
-Coronilla varia 144
-Coronopus procumbens 80
-Coronopus squamatus 80
-Corydalis bulbosa 64
-Corydalis cava 64
-Cotinus coggygrya 163
-Crambe tataria 81
-Crataegus levigată 113, 121
-Crataegus mcmogyna 113, 121
-Crataegus oxyacantha 113
-■Crataegus pentagyna 121
-Cucubalus baccifer 22
-Cucumis melo 2 11
-Cucumis sativus 211
-Cucurbita pepo 211
-Cydonia oblonga 120
-Cytisus scoparius 126
-Dapkne mezereițm 196
-Daucus caroia 253
-Delphinium consolida 33
-Dentaria bulbifera 79
-Dianthus armeria 22
-Dianthus cartkusianorum 22
-Diantkus caryophyllus 23
-Dianthus chinensis 23
-Dianthus superbus
-Diztamnus albuș 162
-Diplotaxis tenuifolia 81
-Dorycnium pentaphylium 144
-Drosera intermedia 82
-Drosera latifolia 82
-Drosera rotundifolia 82
-Ecbalium elaterium 209
-Epilobium angustifolium 2 H
-Epilobium hirsutum 214
-Epilobium palustre 214
-Epilobium parviflorum 214
-Erodium cicutarium 148
-Enica vesicaria 81
-Eryngium campestre 218, 249
-Eryngium maritimum 218, 250
-Eryngium planum 217
-Ery simum diffusum 78
-Ery simum witmanii 78
-Euphorhia amygdaloides 160
-Euphorhia agraria 160
-Euphorhia cyparissias 160
-Euphorhia esula 160
-Euphorhia helioscopia 160
-Euphorhia lathyris 160
-Euphorhia peplus 161
-Euphorhia sal ici folia 161
-Euphorhia variegata 161
-Euonimus europaea 168
-Evonymus verrucosa 168
-Exogonium purga 9
-Filipendula uhnaria 89
-Filipendula vulgaris 149
-Foeniculum vulgare 228
-Frangula alnus 169
-Fumaria officinalis 63
-Fumaria rostellata 64
-Fumaria schleicheri 64
-Fragaria veșca 111
-Fumaria vailantii 64
-Galega officinalis 140
-Genista germanica 139
-Genista ovata 139
-Genista sagittalis 139
-Genista tinctcn'ia 140
-Geranium columbinum 147
-Geranium divaricat uni 147
-Geranium macYOrrhizuwi 145
-Geranium palustre 147
-Geranium phaeum 148
-Geranium pratense 149
-Geranium pusillum 148
-Geranium robertieinum 146
-Geranium sanguineum 148
-Geum rivale 119
-Geum urbanum 107
-Glaucium corniculatum 64
-Glaucium flavum 56
-Glaucium luteum 56
-Gleditschia triacanthos 123
-Glycine hispida 141
-Glycine maxima 141
-Glycyrrhiza echinata 141
-Glycyrrhiza glabra 128
-Gossypium herbaceum 195
-Gypsophila paniculata 11
-Haplophyllum suaveolens 161
-Heder a hei ix 215
-Helianthemum alpestre 206
-Helianthemum nummidarium 205
-Helianthemum oelandicum 206
-Helleborus odorus 38
-Helleborus purpurascens 24
-Hepatica nobilis 40
-Heracleum sphondilium 253
-Herniar ia glabra 21
-Hesperis maironalis 79
-Hesperis sylvestris 79
-Hibiscus escidentus 196
-Hibiscus trionum 194
-Hipophae rhamnoides 196
-Holosteum umbellatum 21
-Hypericum acutum 201
-Hypericum elegans 201
-Hypericum maculatum 20 1
-Hypericum perforatum 198
-Hypericum quadrangulum 201
-Hypericum tetrapterum 201
-îlex aquifolium 168
-Impatiens noli-tangere 167
-îpomoea jalapa 9
-Isatis tinctona 78
-Koelreuteria paniculata 163
-Lahurnum anagyroides 139
-Lagenaria siceraria 211
-Laserpitium archangelica 253
-Laserpitium latifolium 253
-Laserpitium prutenicum 253
-Lathyrus hirsutus 142
-Lathyrus latifolius 142
-256
-
-Lathyrus niger 142
-Lathyrus pratensis 142
-Lathyrus tuberosus 142
-Lathyrus sativus 142
-Lathyrus sylvester 142
-Lathyrus vernus 143
-Laurocerasus officinalis 121
-Lavathera thuringiacct 195
-Lens culinaris 142
-Lepidium draba 80
-Lepidium latifolium 80
-Lepidium ruderale 80
-Lepidium sativum 80
-Levisticum officinale 252
-Linum catharticum 155
-Linum hirsutura 155
-Linum usitaiissimum 152
-Lotus corniculatus 144
-Luffa cylinârica 207
-Lupinus albuș 140
-Lupinus luteus 140
-Lychnis flos-cuculi 2 1
-Lythrum salicaria 212
-Lythrum virgatum 213
-Lychnis viscaria 21
-Malus domestica 120
-Malus pumila 120
-Malva c rispa 195
-Malva neglecta 181
-Malva pusilla 195
-Malva rot undi folia 18 1
-Malva sylvestris 183
-Malva verticillata 195
-Medicago sativa 144
-Melandrium album 22
-Melandrium noctiflorum 22
-Melilotus albuș 135, 143
-Melilotus officinalis 134
-Mercurialis annua 159
-Mercurialis perennis 159
-Mespilus germanica 121
-Mespilus pentagyna 121
-Mirabilis jalapa 9
-Momordica charantia 211
-Myricaria germanica 206
-Nasturtium officinale 79
-Nigella arvensis 39
-Nigella sativa 25
-Nuphar luteum 23
-Nymphaea alba 23
-Oenanthe aquatica 251
-Oenothera biennis 2 14
-Ononis arvensis 143
-Ononis hircina 133, 134, 143
-Ononis spinosa 132
-Oxalis acetosella 145
-Padus racemosa 122
-Paeonia officinalis 42
-Paliurus spina-christi 173
-Papaver bracieatum 44
-Papaver rhoeas 47
-Papaver somniferum 48
-Parnassia palustris 84
-Passiflora caerulea 198
-Passiflora incarnata 198
-Pastinaca sativa 253
-Peganum harmala 149
-Pelavgotiium odoratissimum 148
-Pelargonium radula 148
-Pelargonium zonale 148
-Pepsica vulgaris 122
-Petroselinum hortense 251
-Peucedanum oreoselinum 252
-Peucedanum ostruthium 252
-Phaseolus vulgaris 132
-Phytolacca americana 1
-Phytolacca decandra 7
-Philadelphus coronarius 84
-PimpineUa anisum 224
-PimpineUa major 250
-PimpineUa saxifraga 250
-Pisum sativum 143
-Polygala amara 162
-Polygala comosa 162
-Polygala vulgaris 162
-Portulaca oier acea 10
-Potentilla anserina 109
-Potentilla arenaria 119
-Potentilla cinerea 119
-Potentilla erecta 110
-Potentilla reptans 120
-Potentila tormentilla 110
-Prunus armeniaca 121
-Prunus avium 116
-Prunus. cerasifera 121
-Prunus cerasus 116
-Prunus communis 121
-Prunus domestica 121
-Prunus dulcis 121
-Prunus laurocerasus 121
-Prunus padus 122
-Prunus persica 122
-Prunus spinosa 117
-Pulsatilla montana 40
-Pulsatilla pratensis 40
-Punica granatum 213
-Pyrus communis 120
-Pyrus sativa 120
-Radiola roșea 83
-Ranunculus acriș 40
-Ranunculus auricomus 40
-Ranunculus bulbosus 41
-Ranunculus ficaria 41
-Ranunculus illyricus 41
-Ranunculus oxyspermus 41
-Ranunculus polyanthemos 41
-Ranunculus repens 41
-Ranunculus sceleratus 41
-Raphanus raphanistrum 81
-Raphanus sativus 81
-Reseda Iuțea 82
-Reseda luteola 82
-Reseda odorata 82
-Rhamnus cathartica 172
-Rhamnus frangula 169
-Rhus glabra 163
-Ribes aureum 88
-Ribes grossularia 88
-Ribes nigrum 84
-Ribes uva~crispa 88
-Ricinus communis 155
-Robinia pseudacacia 127
-257
-
-Rosa canina 93
-Rosa damascena IOO
-Rosa galica 119
-Rosa pendulina 93, 98, 119
-Rosa nigosa 98, 119
-Rubus fruticosus 91
-Rubus idaeus 92
-Ruta graveolens 161
-Ruta suaveolens 161
-Sanguisorba minor 119
-Sanguisorba officinalis 119
-Sanicula europaea 249
-Saponaria officinalis 16
-Savothamnus scoparius 126
-Sa xi fraga aizoon 83
-Saxifraga paniculata 83
-Sceleranthus annuus 21
-Sceleranthus uncinatus 21
-Sedum acre 83 ,
-Sedum maximum 83
-Sedum roseum 83
-Sedum telephium 83
-Sempervivum tectorum 83
-Seseli rigidum 251
-Seseli tortuosum 251
-Silene alba 22
-Silene behen 22
-Silene conica 22
-Silene conoidea 22
-Silene cucubalus 22
-Silene noctiflora 22
-Sinapis alba 74
-Sisymbrium officinale 78
-Sisymbrium strictissimum 78
-Sa ph ora japonica 124
-Sophora prodani 139
-Sorbus aucuparia 120
-Sor bus domest ua 121
-Spartium junccuni 140
-Spergularia rubra 2 1
-Spiraea crenata 119
-Spiraea ulmaria 89
-Staphylea pinnata 168
-Stellana graminea 20
-Stellaria media 10
-Tamarix ramosissima 206
-Thlaspi arvense 80
-Thalidrum flavum 4 1
-Tkalictrum minus 41
-Tilia cordata 174
-Tilia platyphyllos 174
-Tilia tomentosa 174
-Tribulus terrestris 152
-Trifolium campestre 144
-Trifolium montanum 139
-Trifolium pratense 137
-Trifolium repense 138
-Trigonella coerulea 14 3
-Trigonella foenum-graecum 135
-Trapa natans 214
-Trolius europeaus 39
-Tropaeolum majus 148
-Vicia făba 142
-Vicia sativa 142
-Violă arveiisis 205
-Viola odor ața 201
-Viola tricolor 203
-Vitis vinifera 174
-Viscaria vulgaris 21
-Zygophyllum fabago 152
-Zizyphus jujuba 173
-
-INDEX DE DENUMIRI POPULARE
-Aglică 119
-Agriș 88
-Aior 160, 161
-Albită 80
-Alior 160, 161
-Alune de pămînt 144
-Amăreală 162
-Anason 224
-Angelică 246
-Angelică sălbatică 252
-Antonică 250
-Arahide 144
-Argințică de pădure 83
-Asmățui 250
-Bame 196
-Barba împăratului 9
-Bărbușoară 79
-Bob 142
-Bob de țarină 142
-Boglari 41
-Bostan 211
-Bozotei 38
-Brăbin 78
-Brebenel 64
-Brei 159
-Brînca ursului 253
-Brincuță 78
-Buchet 148
-Bucsău 140
-Bujor 42
-Bulbucui de munte 39
-Bumbac 195
-Burete vegetal 207
-Buruiană de "baghiță 22
-Buruiana junghiului 20, 119
-Buruiană de negi 160
-Buruiană de nouă daturi 40
-Buruiana surpăturii 21
-Buruiană de venin
-Buruiana vîntului 251
-Busuioc domnesc 82
-Cafeluță 140
-Cais 121
-Calcea calului 39
-Castan sălbatic 164
-Castravete 211
-Castravete amar 211
-Castravete de mare 152
-Cașul popii 181
-Căldărușă 41
-Călțunași 148
-Călțunul Doamnei 119
-Cătină 196
-Că cină mică 206
-Cătină roșie 206
-Cebarea 119
-Cenușar 162
-Cerențel 107
-Chimion 241
-Chimionul porcului 252
-Cimișir 169
-Cinci degete 120
-Ciocul berzei 148
-Cireș 116
-Ciucușoară 80
-Ciuin roșu 16
-Ciumărea 140
-Cîrmîz 7
-Clocotiș 168
-Coacăz negru 84
-Coada racului 109
-Cocoșel 22
-Cocoșel de cîmp 40
-Colocint 210
-Colții babei 152
-Colțișor 79
-Condurași 148
-Corcoduș 121
-Coriandru 218
-Corn 214
-Cornaci 214
-Coroniște 144
-Creson 80
-Crețișoară 112, 120
-Crețușcă 89
-Crucea voinicului 40
-Crușățea 79
-Crușin 169
-Cucurbățea 210
-Cucuta 251
-Cucuta de apă 252
-Cuișoare 23
-Cuișoare sălbatice 21
-Cuișor 88
-Cuișoriță 21
-Curpen de pădure 34
-Dediței 40
-Dracilă 42
-
-Drob 126
-Drobiță 140
-Drobușor 78
-Dosnică vînătă 40
-Dovleac 211
-Fasole 132
-F eciorică 2 1
-Fenicul 228
-Floarea cucului 21
-Floare de friguri 201
-Floare de leac 41
-Floarea Paștilor 40
-Frag de pădure III
-Frăsinel 162
-F rigări 147
-Frumoasa nopții 9
-Fumăriță 63
-Gălbinele 41, 161
-Garoafă de cultură 23
-Garoafe de pădure 22
-Garofițe 33
-Garofiță de cimp 22
-Garofiță de munte 23
-Ghizdei 144
-Glădiță 123
-Greghetin 148
-Grozamă 139
-Gușa porumbelului 22
-Gutui 120
-Harmala 149
-Hașmaciucă 250
-Hațmațuchi 250
-Hirenoasă 79
-Hreaniță 78
-Hrean 65
-Hrean de apă 79
-Hrenoasă 80
-Iarbă grasă 10
-Iarbă grasă 83
-Iarbă moale 10
-Iarba osului 206
-Iarba spaimei 201
-Iarba surzilor 83
-Iarba de șoaldină 83
-Iarba de urechi 83
-Iarba vîntului 22
-Iarba vîntului 147
-Iasomie de grădină 84
-Iederă 215
-Ineață 155
-In de cultură 152
-In mare 155
-In pitic 155
-Ipcărige 11
-Jugastru 164
-Laptele ciineîui 160, 161
-Laptele cucului 160, 161
-Laur 168
-Laurocireș 121
-Lămîiță 84
-Lemn dulce 128, 141
-Lemn rîios 168
-Leuștean 252
-Lingurea 80
-Linte 142
-Linte neagră 142
-Lintea pratului 142
-Lipicioasă 21
-Lubeniță 210
-Lubiț 80
-Lucernă 144
-Lufă 207
-Luminiță 214
-Luminoasă 40
-Lupin 140
-Lupin galben 140
-Mac cornut 64
-Mac galben 56
-Mac de grădină 48
-Mac iranian 44
-Mac roșu de cîmp 47
-Mac roșu de grădină 44
-Mazăre 143
-Măceș 93
-Măceșul de munte 93, 98
-Măcrișul iepurelui 145
-Mălăoaie 206
-Mălin 122
-Măr 120
-Mărar 233
-Mărăraș 251
-Mătcuță 147
-Măturice 126
-Măzăriche 142
-Micsandre sălbatice 78
-Micsunele ruginite 79
-Migdale 121
-Molotru albastru 143
-Morcov 253
-Morărei de pădure 142
-Moșmon 121
-Mur 91
-Mușcată 148
-Muștar alb 74
-Muștar negru 71
-Mutat Dar'- 210
-Nalbă 183
-Nalbă de cultură 183
-Nalbă creață 195
-Nalbă de grădină 191
-Nalbă mare 187
-Nalbă mică 181, 195
-Nalbă rumenă 195
-Napi 81
-Năpraznic 146
-Năsturaș 79
-Năut 141
-Negelariță 60
-Neghină 22
-Negrilică 25
-Negrușcă 39
-Negrușcă 39
-Nemțișori de cîmp 33
-Nopticioasă 79
-Nufăr alb 23
-Nufăr galben 23,
-Odogaci 16
-2 6 o
-
-Omag 28
-Omeag 28
-Omeag galben 28, 39
-Opaiță 22
-Orbalț 39
-Oreșniță H2
-Osul iepurelui 132, 143
-Oțetar 163
-Paltin de cîmp 165
-Pațachină 169
-Păducel 113
-Păducherniță 80
-Pălăria cucului 148
-Păliur 173
-Păr 120
-Păstîrnac 253
-Pastele calului 80
-Păștiță 40
-Pătrunjel 251
-Pătrunjel de cimp 250
-Pătrunjel sălbatic 250
-Pătrunjelul cîinelui 251
-Pepene galben 2 11
-Pepene verde 210
-Piciorul caprei 251
-Piciorul cocoșului 40
-Piedica vîntului 142
-Piersic 122
-Pipigoi 143
-Plesnitoare 209
-Plescăiță 22
-Ploșnicar 41
-Pojarniță 198
-Popilnic 40
-Porumbar 117
-Priboi 145
-Pristolnic 195
-Prun 121
-Pufuliță 214
--Punguliță 80
-Puturoasă 81
-Răchitan 212
-Răscoage 214
-Rechie 82
-Rezedă 82
-Rezedă sălbatică 82
-Ricin i55
-Ridiche 81
-Ridiche sălbatică 81
-Rocoțea 20
-Rocoinâ. 10
-Rodiu 10, 213
-Rostogol 249
-Rostopască 60
-Roșcov sălbatic 123
-Roua cerului 82
-.Rozetă 82
-Rujă 83
-Rumeioară 3
-Rușcuță de primăvară 35
-Rutișor 41
-Rutișor galben 41
-Salbă mare 168
-Salbă rîioasă 168
-Salcîm 127
-Salcîm galben 139, 141
-Saclîm japonez 124
-Salcîm mic 141
-Salvie albă 195
-Săpunariță 18
-Sburătoare 214
-Scai vînăt 217
-Scaiul dracului 218, 249
-Schinduc 252
-Schinduf 135
-Scînteiuță 22
-Sclipeți 110
-Scoruș 121
-Scoruș de munte 320
-Scumpie 163
-Sisinei 40
-Sisinei de munte 40
-Sînger 215
-Sînișoară 249
-Slăbănog 167
-Smeoaie 251
-Soia 141
-Somnoroasă 41, 253
-Sorbestrea 119
-Sovîrvariță 201
-Spînz 2% 38
-Splină 83
-Spinul cerbului 172
-Struna cocoșului 21
-Studeniță 21
-Stupitul cucului 79, 80
-Sulcină albastră 143
-Sulfină 134
-Sulfină albă 135, 143
-Sulițică li 4
-Sunătoare 198
-Șopîrliță 162
-Șopârliță albă 84
-Ștevie de munte 249
-Talpa stîncii 80
-Taulă 119
-Tavalgă 119
-Tei argintiu 174
-Tei cu frunza mare 174
-Tei pucios 174
-Tigvă 211
-Tîrtan alb 81
-Toporaș 201
-261
-
-Traiste ciobanului 69
-Trandafir de cîmp 119
-Trandafir de Damasc IOO
-Trandafir de lună IOO
-Trandafir de munte 93, 98, 119
-Trei frați pătați 203
-Trepădătoare 159
-Trifoiaș 144
-Trifoi alb 138
-Trifoi roșu 137
-Trînjoaică 41
-Tulichină 196
-Turiță mare 106
-Țelină 235
-Unghia găii 141
-Wntișor 4 1
-Urdă vacii 80
-Urechelniță 83
-Usturoiță 78
-Varză 81
-Vătămătoare \44
-Verigariu 172
-Viorea 201
-Virnanț 161
-Vișin 116
-Vitrigon 218
-Vița de vie 174
-Voinicică 78
-Voniceriu 168
-Zămoșiță 194
-Zăvăcustă 141
-Zmeoaică 253
-Zmeoaie 253
-Z meur 92
-
-R e d a c to r : In g . G E O R G E T A S A B A O L E A N U
-T e h n o r e d a c to r : S T E L IA N A P A R IZ IA N U
-B un de tipar : 10 VI 1991. A părut 1991.
-C oli tipar 16,5
-Tiparul e x e c u ta t su b com anda
-nr. 185 la
-în tre p rin d e re a poligrafică
-,.13 D ecem b rie 1913"
-str. G rig o re A lex an d rescu
-nr. 89-97,
-B ucurești, ROMÂNIA
-
-[Nu a fost extras text din această pagină.]

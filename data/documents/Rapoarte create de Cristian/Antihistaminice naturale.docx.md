@@ -1,6 +1,4 @@
-### Antihistaminice Naturale
-
-### Tabel 1
+# Antihistaminice Naturale
 
 | Coloana 1 | Coloana 2 | Coloana 3 | Coloana 4 | Coloana 5 |
 | --- | --- | --- | --- | --- |

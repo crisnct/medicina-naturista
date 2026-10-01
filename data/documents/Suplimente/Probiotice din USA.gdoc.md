@@ -1,6 +1,6 @@
 # Tulpini de bacterii probiotice din USA
 
-**Lactobacillus Gasseri BNR 17**
+## **Lactobacillus Gasseri BNR 17**
 
 - reduce circumferinta taliei cu 1cm in 30 zile
  - ajuta la reducerea simptomelor sindromului de colon iritabil
@@ -8,7 +8,7 @@
  - reduce nivelul de oxalati din organism
  - previne aparitia pietrelor la rinichi
 
-**Lactobacillus Reuteri ATCC PTA 5289 & DSM 17938**
+## **Lactobacillus Reuteri ATCC PTA 5289 & DSM 17938**
 
 - reduce refluxul esofagian si colicile
  - scade nivelul de stres
@@ -27,13 +27,13 @@
  - creste cantitatea de sperma
  - creste marimea testiculelor
 
-**Bacillus Coagulans GBI 30**
+## **Bacillus Coagulans GBI 30**
 
 - antiinflamator
  - ajuta la refacerea rapida dupa antrenamente fizice intense
  - ajuta la reducerea simptomelor sindromului de colon iritabil
 
-**Bifidobacterium Longum Rosell-175 & Lactobacillus Helveticus Rosell-52ND**
+## **Bifidobacterium Longum Rosell-175 & Lactobacillus Helveticus Rosell-52ND**
 
 - combate depresia
  - previne constipatia
@@ -54,4 +54,3 @@ Suplimente care conțin bacteriile mai sus menționate
 - Biogaia Prodendis (Lactobacillus Reuteri )
 - Mood Probiotic (Bifidobacterium Longum & Lactobacillus Helveticus)
 
-Se găsesc de cumpărat pe site-ul

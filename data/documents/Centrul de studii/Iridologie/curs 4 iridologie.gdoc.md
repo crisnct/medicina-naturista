@@ -103,10 +103,4 @@ Amintește-ți că, în ultima lecție am trecut prin examinarea ochiului. Diagr
 6. Graficul petelor colorate, adnotarea culorilor.
 7. Desenează orice semn în zonele corespunzătoare.
 
-
-
-
-
-
-
  ![Imagine image3]

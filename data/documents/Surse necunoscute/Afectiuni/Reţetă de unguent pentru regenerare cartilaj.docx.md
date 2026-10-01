@@ -1,8 +1,0 @@
-Rețetă
-Unguent din gelatină pentru gonartroză
-
-Se prepară crema de bază: în 250 g unt se fierb 4 căței de usturoi, 1 linguriță flori de gălbenele, 1 linguriță rădăcină de tătăneasă, 1 linguriță de hrean, 1 linguriță frunze de viță-de-vie, 1 linguriță lemn-dulce, 1 linguriță flori de arnică, 1 linguriță foi de dafin, 1 linguriță frunze de nuc și 1 linguriță muguri de pin. Se fierbe 3-4 zile, sau chiar o săptămână, apoi se strecoară. După strecurare, se adaugă 50-100 ml ulei de măsline sau ulei de brad. Separat, într-o cană de porțelan se pun 10 g de gelatină (Dr. Oetker), peste aceasta se toarnă 100 ml apă călduță, se amestecă continuu, se lasă vreo 20 de minute până se întărește, se face ca piftia. Se amestecă cu crema de bază topită, dacă este nevoie se mai pune la încălzit. Se amestecă bine. Se adaugă în topitură uleiuri volatile de: ienupăr, de brad și rozmarin, câte o pipetă din fiecare ulei volatil (pipeta mică cu pară de cauciuc, cumpărată de la farmacie). Se pun și 30 ml de glicerină.
-Preparatul cu gelatină nu se fierbe, căci se degradează gelatina. Încă în stare lichidă, se toarnă în recipiente corespunzătoare.
-Indicații: gonartroză, dar și artroza cotului, hernie de disc.
-Concomintent (odată cu întrebuințarea acestui unguent) se ia zilnic câte o linguriță (5 g) de gelatină alimentară, așa cum este ea în pliculeț (neprelucrat). Se consumă mult lichid când se ia gelatina. După 6 luni, se reface lichidul sinovial dintre cartilaje.
-M-am uns într-o seară la încheietura mâinii și mi-a trecut durerea pe loc. A doua zi s-a făcut un strat lucios în locul unde m-am uns. Așa trebuie, căci astfel gelatina intră în piele. Nu se șterge acest strat.

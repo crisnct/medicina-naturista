@@ -1,6 +1,4 @@
-# **Curățarea Și Revitalizarea Rinichilor**
-
-### **tratament naturist**
+# Curățarea Și Revitalizarea Rinichilor
 
 - Smoothie:
  * 200g de merișoare proaspete sau 3 linguri de merișoare uscate/confiate
@@ -32,12 +30,6 @@ Smoothie-ul se bea dimineața în loc de mic dejun timp de două luni.
 - Sevă de mesteacăn(se găsește la Lidl sau în magazinele naturiste): o cană seara pe stomacul gol.
 - Socată
 - Curățarea și purificarea rinichilor: Se iau 6 crenguțe de mure de 50-60 cm fiecare. Se taie mărunt ca ceapa și se pun la fiert într-o cratiță de 6 l plină cu apă de izvor sau filtrată. Se fierbe 2-3 ore fără capac, la foc încet, până când rămâne jumătate (3 l). În două zile se bea toată cantitatea, fracționat, în părți egale, în decursul primei și celei de-a doua zi. Timp de o săptămână se recomandă alimentație vegetariană, fără carne (trei zile înainte și trei zile după tratament). În timpul tratamentului, chiar și după, se poate verifica urina, în care vom observa (dacă e cazul) nisipul și chiar și calculi de mici dimensiuni.
-
-
-
-
-
-
 
  Bine de știut:
  CATARACTA ȘI GLAUCOMUL: nu este numai o boală a ochilor, ci provine mai exact dîntr-o dereglare a rinichilor. De cele mai multe ori, glaucomul merge mână în mână cu reumatismul și durerile articulare. Se face un amestec în părți egale din urzică, ventrilică, gălbenele și coada calului, se beau 3 cești în care se pune 1 linguriță de biter suedez. În cazul cataractei, se ung pleoapele cu biter suedez. Rinichiul dereglat transmite presiunea ascendentă mai departe ochilor.

@@ -1,3 +1,5 @@
+# Helicobacter pylori
+
 Drug Regimens Used to Eradicate Helicobacter pylori
 Drug #1
 Drug #2

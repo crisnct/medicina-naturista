@@ -1,10 +1,12 @@
+# Rețete tradiționale
+
 Retete traditionale
 
-[CANCER]{.underline}
+## CANCER
+
+### Cancer, metastaze, SIDA
 
 Cancer, metastaze, SIDA
-=======================
-
 Se face un amestec din urmatoarele ingrediente:
 
 \- 200 gr. radacina de brusture (Arcticum lappa)
@@ -29,26 +31,26 @@ Se face tratamentul cate 21 de zile pe luna, pauza 7 zile si se reia pana la 6 l
 
 Preparatul nu are efect daca se fac citostatice.
 
-Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina
-========================================================================
+### Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina
 
+Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina
 Se maruntesc si se pun intr-un vas 5 linguri de cetina (muguri verzi, mai mari). Se toarna deasupra 1/2 litru de apa si se fierbe amestecul 10 minute, la foc mic. Se infuzeaza peste noapte, la cald (intr-un termos) si se bea in cursul zilei urmatoare, in loc de apa.
 
 Aceasta fiertura poate fi consumata fara restrictii de timp si nu are contraindicatii.
 
-Cancer de piele cu leziuni extinse
-==================================
+### Cancer de piele cu leziuni extinse
 
+Cancer de piele cu leziuni extinse
 Se aplica pe piele, o jumatate de ora, o compresa imbibata cu o combinatie de tinctura de arnica si tinctura de marul-lupului, in proportii egale. Dupa 2 ore de la inlaturarea compresei, se unge zona afectata cu tinctura de propolis. Tratamentul se aplica cel putin o data pe zi.
 
-Cancer
-======
+### Cancer
 
+Cancer
 Se administreaza timp de o luna, de 3 ori pe zi, inainte de masa, cate o lingura de ulei de masline presat la rece cu 1/3 lingurita suc de usturoi proaspat.
 
-Cancer ovarian, cancer la san
-=============================
+### Cancer ovarian, cancer la san
 
+Cancer ovarian, cancer la san
 \- Se beau in fiecare zi 4 cani de ceai de napraznic, lingura cu lingura.
 
 Ceaiul se prepara astfel: o mana de frunze si flori de napraznic uscate, nemacinate, se pun in 250 ml. apa rece la inmuiat, de seara pana dimineata (se va folosi apa plata, nu apa de la robinet). Dimineata, se filtreaza maceratul, iar planta ramasa se opareste cu 250 ml apa. Dupa ce se lasa sa se raceasca la temperatura camerei, aceasta infuzie se filtreaza. La sfarsit, se combina maceratul cu infuzia racita.
@@ -59,10 +61,12 @@ Se beau 4 cani pe zi din acest ceai (pentru ceaiul pentru o zi se dubleaza canti
 
 \- In fiecare zi se pune pe san, timp de 3 ore, o cataplasma cu radacina de tataneasa si iarba de rostopasca obtinuta astfel: cele doua plante maruntite se amesteca, adaugandu-se apa calduta, pana formeaza o pasta moale; aceasta pasta se aplica, invelita in tifon, pe locul afectat.
 
-Cancer de piele
-===============
+### Cancer de piele
 
+Cancer de piele
 Se rasnesc si se amesteca urmatoarele plante: brusture 1 lingurita, coada-calului 2 lingurite, trei-frati-patati 2 lingurite, urzica 1 lingurita. Se pun la inmuiat in 1/2 litru de apa rece de seara pana dimineata. Se filtreaza si se pune maceratul deoparte, iar plantele care raman dupa filtrare se fierb 30 minute, la foc mic, in 1/2 litru apa. Se combina apoi maceratul cu decoctul racit si se pastreaza la rece. Se bea, de 4 ori pe zi, cate o jumatate de pahar, inainte de masa.
+
+### Cura cu ulei de floarea soarelui si vodca in tratarea tumorilor canceroase
 
 Cura cu ulei de floarea soarelui si vodca in tratarea tumorilor canceroase
 
@@ -86,11 +90,15 @@ Acest medicament elimina numai tumorile canceroase.
 
 La acest tratament nu reactioneaza mioamele, masteopatiile, fibroamele.
 
+### Cancer, leucemii
+
 Cancer, leucemii
 
 Se pun la macerat 15 zile urmatoarele: 3 litri zer de lapte de vaca, 1 gram drojdie de bere, 10 castane taiate in jumatati, 1 pahar miere. Se filtreza. Se pastreaza la rece.
 
 Se beau 4 pahare pe zi, cu 15 minute inainte de masa.
+
+### Leucemie
 
 Leucemie
 
@@ -98,9 +106,13 @@ Leucemie
 
 \- Se bea zilnic un litru de decoct din boabe de grau, porumb, ovaz, secara si mei.
 
+### Leucemie - la copii
+
 Leucemie - la copii
 
 Se piseaza fructe uscate de nalba de padure si se amesteca cu ranza uscata de miel. Se ia din acest amestec, cu putina apa, cate o lingurita, de 2 ori pe zi.
+
+### Leucemie
 
 Leucemie
 
@@ -116,6 +128,8 @@ anterioara de la "cancer ovarian, cancer la san") si un litru de ceai de coada-c
 
 \- Regim sever vegetarian.
 
+### Tumori
+
 Tumori
 
 Se prepara alifia de vasc.
@@ -124,12 +138,12 @@ Boabele albe, proaspete ale vascului se amesteca cu untura curata, zdrobindu-se 
 
 Se pastreaza la rece. Se aplica, de 2 ori pe zi, pe zonele respective. Alifia este foarte buna si pentru degeraturi.
 
+## APARATUL CIRCULATOR (VASE DE SÂNGE, SÂNGE, INIMĂ, BOLI DE CIRCULAȚIE)
+
 APARATUL CIRCULATOR
--------------------
-
-**[(VASE DE SANGE, SANGE, INIMA, BOLI DE CIRCULATIE)]{.underline}**
-
 Varianta de tiparire
+
+### Arterita obliteranta
 
 Arterita obliteranta
 
@@ -149,19 +163,27 @@ Se tine regim lacto-vegetarian.
 
 Se beau 2 litri de ceai/zi (salvie+coada-calului).
 
+### Boli de inima, insuficienta cardiaca
+
 Boli de inima, insuficienta cardiaca
 
 Se foloseste tinctura din fasole verde.
 
 Se lasa la macerat timp de 7 zile: 20 gr pastai uscate si maruntite in 100 ml alcool de 38-40o. Se iau cate 100 picaturi de tinctura, diluate intr-un pahar cu apa, de 4 ori pe zi.
 
+### Circulatie deficitara a sangelui
+
 Circulatie deficitara a sangelui
 
 Dimineata, pe stomacul gol, se beau 200 ml de suc, pe zi, din care: 100 ml suc de mere si 100 ml suc de pere, timp de 45 zile.
 
+### Imbunatatirea circulatiei sanguine
+
 Imbunatatirea circulatiei sanguine
 
 Se utilizeaza sucul rezultat din 2 morcovi, 2 catei de usturoi si o radacina de patrunjel, in fiecare dimineata, pe stomacul gol, timp de 10 zile.
+
+### Hipertensiune arteriala
 
 Hipertensiune arteriala
 
@@ -169,9 +191,13 @@ Se face un amestec din: 2 cesti apa, 16 catei de usturoi taiati marunt, 2 lingur
 
 Se iau cate 3 linguri , de 3 ori pe zi, inainte de masa.
 
+### Hipertensiune, dizenterie
+
 Hipertensiune, dizenterie
 
 150 gr. boabe de paducel se pun de seara pana dimineata in 600 ml apa rece. Se fierb 3 minute inainte de consumare, se strecoara si se bea cald. Tratamentul dureaza o luna.
+
+### Hipertensiune
 
 Hipertensiune
 
@@ -187,11 +213,15 @@ Se bea cate un paharel (50 ml) in fiecare dimineata, dupa micul dejun.
 
 Acest vin este bun pentru toate bolile de inima.
 
+### Hipertensiune, ateroscleroza, obezitate
+
 Hipertensiune, ateroscleroza, obezitate
 
 Se prepara un amestec din: 10 gr. usturoi, 20 gr. fructe de paducel, 20 gr. radacina de valeriana, 20 gr. fructe de coacaz negru si 10 gr. de vasc, care se macina foarte bine.
 
 Se iau cate 5 gr/zi, sublingual, timp de 5 minute, apoi se inghit cu putin ceai. Tratamentul se face 21 de zile, 10 zile pauza, dupa care se poate relua.
+
+### Hipotensiune
 
 Hipotensiune
 
@@ -202,6 +232,8 @@ Se pastreaza la rece si se agita bine inainte de fiecare intrebuintare.
 Se ia cate o lingurita de macerat in jumatate de pahar cu apa, numai seara, cu 15 minute inainte de cina.
 
 Tratamentul dureaza o luna, 10 zile pauza, dupa care se poate relua.
+
+### Probleme de circulatie (maini si picioare reci)
 
 Probleme de circulatie (maini si picioare reci)
 
@@ -225,11 +257,15 @@ Probleme de circulatie (maini si picioare reci)
 
 Dupa aceste bai si cataplasme, se imbraca gros si se merge la culcare.
 
+### Tahicardie
+
 Tahicardie
 
 Se toaca marunt 1/2 kg. lamai si se amesteca cu 1/2 kg miere si cu 21 samburi (miez) de caisa pisati.
 
 Se ia din acest amestec, dimineata si seara, cate o lingurita, pe stomacul gol.
+
+### Ulcer varicos
 
 Ulcer varicos
 
@@ -245,6 +281,8 @@ Preparatul nu se tine mai mult de o saptamana la frigider sau 2 zile la temperat
 
 Produsul este contraindicat celor care sufera de diabet, ulcer, gastrita.
 
+### Varice
+
 Varice
 
 \- Se pun intr-un vas nuci verzi pana la jumatate, apoi se umple vasul cu ulei de masline. Totul se lasa la macerat , la soare, 40 de zile.
@@ -253,15 +291,17 @@ Se ung zonele cu varice cu acest ulei.
 
 - Se aplica pe varice plaman de porc taiat in felii. Se face un pansament si se pastreaza toata noaptea. Se repeta 10 seri la rand.
 
-**[APARATUL LOCOMOTOR]{.underline}**
-
-**[(OASE, REUMATISM)]{.underline}**
+## APARATUL LOCOMOTOR (OASE, REUMATISM)
 
 Varianta de tiparire
+
+### Artrita reumatoida (dureri artritice)
 
 Artrita reumatoida (dureri artritice)
 
 Se inghit cate 5 gr. de ghimbir proaspat sau o lingurita de ghimbir pisat, in mancare sau dizolvat in apa sau ceai, de 3 ori pe zi.
+
+### Artroza
 
 Artroza
 
@@ -277,6 +317,8 @@ Se umple o sticla cu plante peste care se toarna alcool de 40 de grade. Se lasa 
 
 Se iau cate 40 de picaturi, de 2 ori/zi, intre mese, intr-o lingura cu apa.
 
+### Boli ale articulatiilor
+
 Boli ale articulatiilor
 
 \- Cataplasme cu un strat gros de argila timp de o ora, de 3-4 ori/ zi.
@@ -287,9 +329,9 @@ Boli ale articulatiilor
 
 \- Bai de sare, 2 kg. sare grunjoasa in cada de baie, timp de 20 minute.
 
-Ciocuri pe coloana, lombosciatica
-=================================
+### Ciocuri pe coloana, lombosciatica
 
+Ciocuri pe coloana, lombosciatica
 \- Se prepara alifia de sanziene astfel: se pun la macerat, timp de 12 ore in 30 ml alcool sanitar, 20 gr planta uscata de sanziene, bine maruntita. Borcanul se inchide ermetic. Se adauga 200 ml ulei de masline si se fierbe in "bain-marie" timp de 3 ore. Se agita din timp in timp, borcanul. Se lasa in repaus 3 zile, dupa care se filtreaza.
 
 Dupa filtrare, se pune lichidul intr-un vas, pe foc mic, se adauga 50 gr ceara de albine si se amesteca continuu, pana se topeste. Dupa racire, se pastreaza la rece. Se fac frictionari de-a lungul coloanei vertebrale, in fiecare seara.
@@ -298,11 +340,15 @@ Dupa filtrare, se pune lichidul intr-un vas, pe foc mic, se adauga 50 gr ceara d
 
 Cu aceasta tinctura, se pun comprese pe zonele afectate, de seara pana dimineata.
 
+### Dureri lombare, reumatism
+
 Dureri lombare, reumatism
 
 \- Se face o tinctura de ardei iute. Se pun intr-o sticla 15 gr. de ardei iute taiat marunt cu cutitul, peste care se toarna 100 ml de alcool de 70 grade si se tine solutia la soare, timp de 7 zile (sau dupa soba, sau pe calorifer), agitandu-se zilnic. Cu acest macerat se fac frectii pe locul dureros, de 3 ori pe zi. Trebuie sa va spalati bine pe maini dupa ce folositi preparatul.
 
 \- Se beau 3 cani/zi de decoct din coaja de salcie: 2 linguri coaja, fierte intr-o cana cu apa, timp de 10 minute.
+
+### Dureri reumatice
 
 Dureri reumatice
 
@@ -318,18 +364,24 @@ Se frectioneaza locul dureros.
 
 Se ung locurile dureroase cu acest preparat.
 
+### Dureri articulare
+
 Dureri articulare
 
 Se amesteca 50 gr de tamaie pulbere cu 50 ml otet de mere. Se imbiba o bucata de vata cu acest amestec si se aplica pe locul bolnav. Procedura se repeta 3 seri la rand.
 
-Dureri de spate
-===============
+### Dureri de spate
 
+Dureri de spate
 Se unge spatele bolnav cu miere de albine, apoi se maseaza energic, pana la resorbtia mierii. Procedura se repeta zilnic, pana la disparitia durerii.
+
+### Gonartroza
 
 Gonartroza
 
 Intr-o sticla de 1 litru cu gura larga, se introduc urmatoarele componente: boabe de tuia (arbore ornamental din familia bradului, care creste in parcuri si face niste fructe verzi si rotunde, carnoase si brobonate, cu miros puternic de rasina), sare grunjoasa si spirt. Mai intai se umple jumatate de sticla cu boabe de tuia, peste care se pune sare grunjoasa ce trebuie sa ocupe cealalta jumatate a recipientului. Deasupra, se toarna 1/2 litru spirt medicinal. Amestecul se pastreaza la loc intunecos si racoros, timp de 4 saptamani, timp in care sticla se agita zilnic. Se formeaza o solutie consistenta, care se aplica pe genunchi, sub forma de comprese, in fiecare dimineata si seara, cel putin 2 ore, pana se termina sticla. Se face pauza o saptamana, apoi se repeta.
+
+### Lumbago
 
 Lumbago
 
@@ -339,20 +391,24 @@ Lumbago
 
 \- Se frectioneaza zona afectata cu untura amestecata cu usturoi pisat.
 
+### Reumatism
+
 Reumatism
 
 Se consuma zilnic salata de telina (200-250 gr.)
+
+### Reumatism articular
 
 Reumatism articular
 
 Se introduc intr-o sticla de 1,5 litri urmatoarele: o cana de ulei de floarea soarelui presat la rece, o cana si jumatate de hrean ras si gaz pana la umplerea sticlei. Se lasa la macerat 10 zile, la temperatura camerei, agitandu-se de 3-4 ori pe zi. Se strecoara si se foloseste la masajul zonelor dureroase.
 
+## GLANDELE ENDOCRINE (METABOLISM, PANCREAS)
+
 GLANDELE ENDOCRINE
-------------------
-
-**[(METABOLISM, PANCREAS)]{.underline}**
-
 Varianta de tiparire
+
+### Anemie
 
 Anemie
 
@@ -368,9 +424,9 @@ Se bea un pahar intre mese si unul la culcare.
 
 Reteta terapeutilor Iulia Tunaru si Assem Hassan Timp de 21 de zile se consuma miere inchisa la culoare (2 linguri) amestecata cu o lingurita de polen + 20 picaturi tinctura de urzica (din Plafar). Acest amestec se imparte in doua, o parte se ia dimineata la ora 10, cealalta parte la ora 17. Pentru copiii sub 10 ani se recomanda o jumatate din cantitate luata dimineata.
 
-Colesterol
-==========
+### Colesterol
 
+Colesterol
 Pentru scaderea colesterolului se bea un ceai fierbinte din: 1/2 litru apa, 2 linguri ulei de masline si 3 lingurite de usturoi pisat. Sorbiti din acest amestec de 3 ori/zi.
 
 Se foloseste cate o lamaie in fiecare zi.
@@ -383,9 +439,9 @@ O parte se ia dimineata, cu 1/2 ora inainte de masa, cealalta se ia cu 1/2 ora i
 
 Se urmeaza tratamentul 2-3 luni, apoi se fac analizele.
 
-Diabet
-======
+### Diabet
 
+Diabet
 Se amesteca 500 ml suc de ceapa cu 500 ml alcool etilic (96o). Se administreaza cate o lingura/zi, timp de o luna cu pauza de 10 zile, dupa care se poate relua.
 
 4 coceni rosii de porumb se fierb in 2 litri de apa pana ramane un litru. Aceasta cantitate se bea pe parcursul zilei, timp de 21 de zile.
@@ -394,9 +450,9 @@ In 2 litri de vin alb sec se fierbe 1 kg de praz taiat bucati (doar partea alba)
 
 Se iau o lingurita tinctura de brusture si o lingurita tinctura de papadie in 100 ml apa, de 4 ori/zi, timp de 21 de zile.
 
-Diabet, guta, reumatism pietre si nisip renal
-=============================================
+### Diabet, guta, reumatism pietre si nisip renal
 
+Diabet, guta, reumatism pietre si nisip renal
 60 gr. pastai (teci) de fasole fierte intr-un litru de apa timp de 4 ore, la foc mic. Se filtreaza si se pune la rece 8 ore.
 
 Se bea cate un pahar (150 ml) din 2 in 2 ore, pe parcursul zilei. Doza este pentru o zi.
@@ -407,13 +463,19 @@ Se pastreaza dieta diabetica stricta.
 
 Se controleaza nivelul zaharului din sange.
 
+### Guta
+
 Guta
 
 Se face un extract din 800 ml ulei de masline si 100 gr. flori uscate de musetel. Se expune la soare intr-o sticla, timp de 4 zile. Se strecoara prin stoarcere, folosind o panza de tifon. Se fac frectii in zonele dureroase.
 
+### Guta, sciatica, reumatism
+
 Guta, sciatica, reumatism
 
 Se consuma cate o lingurita de usturoi pisat amestecat cu o lingurita de miere, de 3 ori/zi, cu 15 minute inainte de masa, timp de 21 de zile.
+
+### Hipertiroidie
 
 Hipertiroidie
 
@@ -423,6 +485,8 @@ Iarba de ghimpe este un reglator natural al activitatii tiroidiene, fiind folosi
 
 Se fierb 20 gr. de troscot in 1/2 litru apa pana scade la jumatate. Se filtreaza. Se beau 2 cani pe zi.
 
+### Hipotiroidie
+
 Hipotiroidie
 
 Se face infuzie, 15 minute, dintr-o lingura de sanziene si o lingura de paducel, la o cana de apa clocotita.
@@ -430,6 +494,8 @@ Se face infuzie, 15 minute, dintr-o lingura de sanziene si o lingura de paducel,
 Se beau 5 cani/zi. In fiecare cana se pune cate o lingurita de bitter suedez.
 
 Se face cura cu argila din 4 linguri la 400 ml apa, zilnic, timp de 21 de zile, pauza 14 zile, apoi se reia.
+
+### Noduli tiroidieni
 
 Noduli tiroidieni
 
@@ -439,6 +505,8 @@ Se ia sublingual, cate o lingurita de pulbere, de 4 ori/zi, se tine 5 minute, du
 
 Apoi, inca 3 luni se foloseste ceaiul din amestecul de mai sus, din care se beau 4 cani/zi.
 
+### Obezitate
+
 Obezitate
 
 Se beau 2 pahare de suc din radacini de patrunjel si pastarnac intre mese, timp de 7 zile. Cura se repeta la fiecare 2 luni.
@@ -447,13 +515,19 @@ Ceai de frasin: se face infuzie din 2 lingurite frasin (frunze sau flori) la 500
 
 Se bea neandulcit in 3 reprize, dupa mesele principale.
 
+### Obezitate si mentinerea siluetei
+
 Obezitate si mentinerea siluetei
 
 Se consuma cate un pahar de suc, de 3 ori/zi din: telina, varza si mere, in parti egale.
 
+### Regenerare celulara
+
 Regenerare celulara
 
 Se face un amestec in parti egale (cate o lingurita) din scortisoara, nucsoara si frunze de dafin uscate. Se pune amestecul intr-o cana cu apa fierbinte si se infuzeaza 20 minute. Se strecoara. Continutul se imparte in doua si se bea jumatate de cana dimineata, si jumatate de cana dupa-amiaza.
+
+### Spasmofilie
 
 Spasmofilie
 
@@ -467,17 +541,19 @@ Se iau cate 30 de picaturi intr-un pahar cu apa sau ceai, de 3 ori/zi, inainte d
 
 Tartamentul dureaza 21 de zile
 
-[]{.underline}
-
-**[SISTEMUL NERVOS]{.underline}**
+## SISTEMUL NERVOS
 
 Varianta de tiparire
+
+### Alzheimer
 
 Alzheimer
 
 Se consuma 2 litri de ceai de rozmarin/zi. Rozmarinul contine compusi ce impiedica descompunerea acetilcolinei.
 
 Se fac bai cu ceai de rozmarin concentrat: 200 gr planta se fierb 30 de minute in 5 litri de apa, la foc mic. Se strecoara si se toarna peste apa de baie.
+
+### Epilepsie
 
 Epilepsie
 
@@ -491,9 +567,13 @@ Se consuma ceapa cruda multa, eventual se bea suc de ceapa.
 
 Se fac cure succesive, de cate 40 de zile, cu 15 zile pauza, luandu-se pe nemancate cate o lingurita de pulbere de branca-ursului, de 3 ori pe zi.
 
+### Insomnie
+
 Insomnie
 
 Se adauga o jumatate de lingurita de pudra de scortisoara si o lingurita de miere la o cana de lapte cald. Se bea inainte de culcare.
+
+### Insomnie, epilepsie
 
 Insomnie, epilepsie
 
@@ -501,9 +581,13 @@ Se macereaza timp de 15 zile: 200 gr. de radacini proaspete de valeriana intr-un
 
 Se iau 40-50 picaturi in jumatate de cana cu ceai sau apa, seara la culcare.
 
+### Nevroza
+
 Nevroza
 
 \- Se amesteca in parti egale: sovarv, roinita si urzica. Se beau 4 ceaiuri/zi din infuzie o lingurita de amestec la cana.
+
+### Parkinson
 
 Parkinson
 
@@ -511,9 +595,13 @@ Se consuma zilnic 100 gr. de boabe de fasole incoltite. Acestea contin substanta
 
 Se beau 3 cani/zi de ceai de angelica.
 
+### Paralizie
+
 Paralizie
 
 Se frictioneaza tot corpul bolnavului cu alcool camforat, o zi da, o zi nu.
+
+### Paralizii, scleroza cerebrala, ateroscleroza
 
 Paralizii, scleroza cerebrala, ateroscleroza
 
@@ -524,6 +612,8 @@ Se face infuzie, 20 minute, dintr-o lingurita de planta la cana.
 100 gr. saschiu zdrobit se macereaza 8 zile intr-un litru de vin alb sec. Se filtreaza.
 
 Se iau 4 linguri/zi, inainte de mese cu 15 minute.
+
+### Scleroza cerebrala, circulatie cerebrala, memorie, pareze
 
 Scleroza cerebrala, circulatie cerebrala, memorie, pareze
 
@@ -537,6 +627,8 @@ Primele semne ale eficientei apar intre 3 si 6 saptamani.
 
 Nu se recomanda persoanelor cu ulcer gastric si duodenal din cauza alcoolului continut in tinctura.
 
+### Scleroza in placi
+
 Scleroza in placi
 
 Se pun cataplasme pe coloana: o zi da, o zi nu, din usturoi pisat amestecat cu ulei de masline, timp de 3 luni. Dupa o luna de pauza, se poate relua.
@@ -545,9 +637,7 @@ Aceasta reteta se poate folosi cu succes si pentru atrofia musculara.
 
 Se fac masaje puternice, zilnice ale coloanei, intre vertebre, cu miere pana la senzatia de dezlipire a pielii.
 
-**[APARATUL DIGESTIV]{.underline}**
-
-**[(FICAT, VEZICA BILIARA, INTESTINE, STOMAC)]{.underline}**
+## APARATUL DIGESTIV (FICAT, VEZICĂ BILIARĂ, INTESTINE, STOMAC)
 
 Varianta de tiparire
 
@@ -565,9 +655,13 @@ Se bea cate un pahar, de 4 ori/zi, la 30 minute dupa masa. Pentru copii, doza es
 
 Cura se face 14 zile consecutiv cu pauza de 7 zile, dupa care se reia tratamentul. Se continua pana la insanatosire.
 
+### Afectiuni ale intestinelor
+
 Afectiuni ale intestinelor
 
 30 gr. frunze uscate de pelin se pun la macerat 24 de ore in 60 ml alcool de 60o, dupa care se adauga 100 ml de vin alb. Dupa 10 zile se strecoara si se beau cate 10 ml/zi, dimineta pe stomacul gol.
+
+### Boli hepatice
 
 Boli hepatice
 
@@ -577,11 +671,15 @@ Se iau 100 ml amestec pe stomacul gol, dimineata, cu 30 minute inainte de micul 
 
 Imediat dupa administrare, se sta culcat pe partea dreapta 1/2 ora.
 
+### Boli hepatice, infectii urinare si renale
+
 Boli hepatice, infectii urinare si renale
 
 Se amesteca o lingurita de usturoi pisat cu o lingura de ulei de masline presat la rece. Se consuma seara, la culcare. Ficatul se va reface si pielea va straluci de activitate reinnoita.
 
 Tratamentul se face 42 de zile. Dupa 14 zile de pauza, se poate repeta.
+
+### Boli ale ficatului (reteta terapeutei Iulia Tunaru)
 
 Boli ale ficatului (reteta terapeutei Iulia Tunaru)
 
@@ -591,11 +689,15 @@ Se bea in cursul unei zile, intre orele 10.00 -19.00, cu o ora inainte si dupa m
 
 Se bea 20 de zile cu 10 zile pauza, timp de 3 luni.
 
+### Calculi biliari si renali
+
 Calculi biliari si renali
 
 Se usuca si se rasnesc pielitele de pe pipota gainilor.
 
 Se ia cate o lingurita din acest praf, dimineata, pe stomacul gol, timp de 3 saptamani.
+
+### Calmarea crizelor hepato-biliare
 
 Calmarea crizelor hepato-biliare
 
@@ -613,6 +715,8 @@ Se amesteca toate ingredientele, se pun in borcane si se pastreza in frigider.
 
 Se ia in fiecare dimineata o lingura de amestec, pe stomacul gol, inainte de masa cu 15 minute.
 
+### Ciroze, hepatite, dischinezie biliara
+
 Ciroze, hepatite, dischinezie biliara
 
 Se rasnesc separat: anghinare, pufulita cu flori mici si rostopasca.
@@ -623,11 +727,15 @@ Tratamentul dureaza minim 6 luni in hepatita cronica si acuta si 2 ani in ciroza
 
 In dischinezia biliara, colecistita, dispepsii se fac cure de cate 2 saptamani cu o saptamana pauza.
 
+### Colite, enterocolite (reteta terapeutilor Iulia Tunaru si Assem Hassan)
+
 Colite, enterocolite (reteta terapeutilor Iulia Tunaru si Assem Hassan)
 
 Se administreaza miere poliflora (1-2 lingurite) diluata in ceai de busuioc+cimbru+sunatoare (amestec in parti egale). Se pune o lingurita de amestec la o cana de apa.
 
 Se administreaza la distanta de o ora dupa mesele principale.
+
+### Constipatie (reteta terapeutilor Iulia Tunaru si Assem Hassan)
 
 Constipatie (reteta terapeutilor Iulia Tunaru si Assem Hassan)
 
@@ -635,11 +743,15 @@ Se iau 4-5 prune uscate plus o lingura de miere poliflora, se lasa la macerat de
 
 In fiecare seara se bea o cana de ceai de frasin indulcit cu o cana de miere poliflora. Regim alimentar bogat in fibre (legume, fructe crude).
 
+### Constipatie, hemoroizi
+
 Constipatie, hemoroizi
 
 Se rasnesc fin 100 gr. seminte de spanac si se amesteca cu 400 gr. miere.
 
 Se ia cate o lingurita de 3 ori/zi, inainte de masa.
+
+### Ciroza lichida, psoriazis, toate bolile ficatului
 
 Ciroza lichida, psoriazis, toate bolile ficatului
 
@@ -653,6 +765,8 @@ In cazul ascitei, se face tratament pana cand abdomenul ajunge la volumul normal
 
 Pentru celelalte boli, tratmentul se face cate 2 saptamani cu pauza de 2 saptamani, pana la 3 luni. Se reia dupa 3 luni.
 
+### Dizolvarea calculilor biliari si renali
+
 Dizolvarea calculilor biliari si renali
 
 200 gr. miez de nuca fiert in ulei de masline pana devine crocant. Se piseaza marunt, apoi se amesteca cu 3 lingurite de miere bruna, formand o pasta.
@@ -660,6 +774,8 @@ Dizolvarea calculilor biliari si renali
 Aceasta este cantitatea pentru 2 zile. Jumatate se ia intr-o zi, iar cealalta jumatate, a 2-a zi.
 
 Se inghite cate o lingura la interval de 1 ora.
+
+### Dischinezie biliara
 
 Dischinezie biliara
 
@@ -671,9 +787,9 @@ Uleiul de sunatoare este ideal si pentru cei cu ulcer.
 
 Folosind intern acest ulei, dispar chiar si punctele de colesterol din jurul ochilor.
 
-Digestie lenta, anaciditate, colita
-===================================
+### Digestie lenta, anaciditate, colita
 
+Digestie lenta, anaciditate, colita
 Se rasnesc si se amesteca in parti egale: radacina de gentiana, ghimbir si rozmarin. Se administreaza cate o lingurita de pulbere sublingual, timp de 15 minute, de 4 ori/zi, timp de 2 luni. Dupa ce a fost tinuta sub limba, pulberea se inghite cu o cana de ceai din flori de salcam.
 
 Eliminarea pietrelor de la bila
@@ -696,23 +812,27 @@ In cazurile, destul de rare, in care se elimina uleiul si sucul de lamaie prin v
 
 Atentie! Aceasta procedura trebuie precedata de o perioada de 3-5 zile in care tineti un regim alimentar de dezintoxicare, fara alimente de origine animala.
 
-Gastrita
-========
+### Gastrita
 
+Gastrita
 Se bea, in fiecare dimineata, o cana de ceai de salcie alba, pe stomacul gol. Dupa 20 de minute, se bea o cana de lapte proaspat (crud).
 
 Se fierb, timp de 5 minute, 200 gr. frunze de patlagina intr-o jumatate de litru de rachiu de struguri. Se strecoara si se pastreaza intr-o sticla. Se va bea, in fiecare dimineata, pe stomacul gol, cate o lingura, dupa care va sta intins in pat 1/2 ora.
 
-Gastrita hiperacida
-===================
+### Gastrita hiperacida
 
+Gastrita hiperacida
 Se rasneste obligeana. Se ia cate o jumatate de lingurita de pulbere, de 4 ori/zi, pe stomacul gol, inainte de masa.
+
+### Hepatite
 
 Hepatite
 
 Se rasnesc in cantitati egale: armurariu, catina si maces.
 
 Se ia sublingual, 10 minute, o lingurita din pulberea de amestec, dupa care se inghite cu o cana de ceai hepatic.
+
+### Hepatita cronica
 
 Hepatita cronica
 
@@ -724,11 +844,15 @@ Se iau cate 3 lingurite/zi. Imediat dupa ingerare, se sta pe partea dreapta timp
 
 Preparatul este foarte puternic si uneori, poate produce ameteli.
 
+### Hepatita cronica, pancreatita cronica, dischinezie biliara
+
 Hepatita cronica, pancreatita cronica, dischinezie biliara
 
 Se utilizeaza decoctul din lichen de piatra, 2 cani/zi cu 1/2 ora inaintea meselor.
 
 Intr-o cana de apa se fierbe o lingurita de planta, timp de 5 minute.
+
+### Hepatite, icter, ciroze, calculi biliari
 
 Hepatite, icter, ciroze, calculi biliari
 
@@ -738,15 +862,21 @@ Tratamentul se face o luna.
 
 Se poate repeta dupa 3 saptamani.
 
+### Hepatita, icter, adjuvant in ciroza hepatica, alcoolism
+
 Hepatita, icter, adjuvant in ciroza hepatica, alcoolism
 
 Se administreza sublingual sub forma de pulbere fina obtinuta din radacina de gentiana (rasnita- 2 parti si pulbere de pedicuta --1 parte, de 3 ori pe zi cate o lingurita, inaintea meselor. Pulberea se tine sub limba 15 minute, dupa care se inghite cu un pahar de ceai hepatic.
 
 Tratamentul se face 3 saptamani, pauza o saptamana, dupa care se poate relua pana la 6 luni.
 
+### Icter
+
 Icter
 
 Se amesteca sucul de la o lamaie cu o lingurita de bicarbonat. Se bea, trei dimineti la rand, pe stomacul gol.
+
+### Indigestie
 
 Indigestie
 
@@ -754,11 +884,15 @@ O lingura de migdale (miez de migdale) dulci se fierb intr-o cana cu lapte 30 de
 
 Se bea amestecul caldut. Durerile de stomac si intestine inceteaza in cateva minute.
 
+### Pietre la vezica biliara
+
 Pietre la vezica biliara
 
 Se rasnesc 7 linguri mari de seminte de marar. Pulberea obtinuta se pune la macerat, timp de 10 zile, intr-un kg de miere.
 
 Se iau 3 lingurite/zi, inainte cu 1 ora de mesele principale.
+
+### Polipi in vezica biliara
 
 Polipi in vezica biliara
 
@@ -769,6 +903,8 @@ Se agita zilnic, pentru omogenizare. Se strecoara.
 Se consuma zilnic cate 2 linguri de amestec, dimineata pe stomacul gol, dupa care se sta culcat pe partea dreapta 30 de minute. Apoi, se bea un ceai de rostopasca preparat din1/2 lingurita de planta oparita in 200 ml apa si infuzat 3 minute. Dupa 30 de minute se poate manca.
 
 Cura dureaza pana la terminarea compozitiei, dupa care se face ecografie. Daca boala nu s-a ameliorat, se repeta cura dupa o pauza de 14 zile.
+
+### Pancreatita (retete ale terapeutei Iulia Tunaru)
 
 Pancreatita (retete ale terapeutei Iulia Tunaru)
 
@@ -784,9 +920,9 @@ Se face de 3 ori/saptamana clisma cu infuzie de rostopasca (6 linguri de planta 
 
 Doua linguri de miere de salcam diluata in 200 ml lapte nefiert, se beau noaptea, intre 22.00-23.00. Se urmeaza regimul adecvat pentru ulcer.
 
-CURATAREA LIMFEI
-----------------
+## CURATAREA LIMFEI
 
+CURATAREA LIMFEI
 Tonic pentru protejarea limfei, elasticizarea pielii, reinnoirea maduvei osoase si fabricarea de globule rosii tinere
 
 Se spala si se sterg 4 lamai mari, bine copte, cu coaja subtire, apoi se stoarce zeama lor intr-un borcan. Coaja si pulpa ramase se dau prin masina de tocat si se pun in alt borcan.
@@ -801,14 +937,18 @@ Dupa aceasta perioada, continutul vasului se strecoara prin 4 straturi de tifon 
 
 Se iau de 4 ori/zi, cate 50 ml, cu 30 de minute inainte de masa, timp de 5 zile. Se face pauza 10 zile si se reia. Cura dureaza 5 luni, dupa care se face pauza 2 luni. Apoi se poate repeta.
 
-APARATUL RESPIRATOR
--------------------
+## APARATUL RESPIRATOR
 
+APARATUL RESPIRATOR
 Varianta de tiparire
+
+### Apa la plamani
 
 Apa la plamani
 
 Se consuma zilnic 250 gr morcovi si 250 gr. sfecla, care se fierb cu 2 linguri unt si 2 linguri miere.
+
+### Astm
 
 Astm
 
@@ -822,15 +962,21 @@ Se oparesc 40 de capatani de arpagic, pana se inmoaie. Se scurge apa si se acope
 
 Se amesteca 500 gr. miere cu 1 litru ulei de masline presat la rece si un litru rachiu de struguri. Se bea din acest amestec, cate un paharel (50-70 ml), de 3 ori/zi.
 
+### Astm, bronsita
+
 Astm, bronsita
 
 Se face un decoct din 60 gr. varza fiarta in 500 ml apa, timp de o ora. Dupa fierbere, se amesteca cu 70 gr. miere.
 
 Se iau cate 2 linguri, de 3 ori/zi, inainte de mese cu 15 minute.
 
+### Bronsita, tuse
+
 Bronsita, tuse
 
 Se fierb impreuna, timp de 3 ore, la foc mic (cu capac) urmatoarele: un litru apa, 500 gr. ceapa rasa, 400 gr. zahar si 50 gr. miere. Se strecoara si se consuma cate o lingurita de sirop, de 5-6 ori/zi.
+
+### Bronsite, raceli
 
 Bronsite, raceli
 
@@ -838,11 +984,15 @@ Se amesteca cate o lingurita de: scortisoara, ghimbir, piper negru, nucsoara si 
 
 Se consuma cate o lingurita de pudra amestecata cu miere, de 2 ori/zi.
 
+### Pneumonie
+
 Pneumonie
 
 Se amesteca bine 1 kg de miere cu 300 gr. de menta taiata marunt. Se ia de 3 ori/zi, cate o lingura, cu 20 de minute inainte de masa.
 
 Se piseaza o nucsoara, 20 gr. de piper si 50 gr. samanta de in si se amesteca cu 200 gr. de miere. Se ia cate o lingurita, dimineata, pe nemancate.
+
+### Pleurita
 
 Pleurita
 
@@ -852,23 +1002,33 @@ Se amesteca bine o lamaie taiata in bucati mici, o lingurita de samanta de in ma
 
 Se ia de 3 ori pe zi cate o lingurita de suc de ceapa rosie amestecat cu o lingurita de miere.
 
+### Tuberculoza pulmonara, guta, afectiuni ale aparatului urinar, reumatism, diabet, cistita
+
 Tuberculoza pulmonara, guta, afectiuni ale aparatului urinar, reumatism, diabet, cistita
 
 Se pun 4 linguri de pastai (teci de fasole) maruntite intr-un litru de apa rece la macerat de seara pana dimineata cand se fierbe lichidul pana scade la jumatate. Acest decoct se bea pe parcursul zilei.
 
 Tratamentul dureaza 21 de zile.
 
+### Tuberculoza (tuse cu sange)
+
 Tuberculoza (tuse cu sange)
 
 Se fierb, intr-un litru de apa, urmatoarele: o mana de isop, 2 catei de usturoi, 3 linguri de muguri de lavanda si o mana de frunze de tataneasa, la foc mic, timp de 15 minute. Se bea cantitatea intreaga intr-o zi. Tratamentul dureaza 14 zile. Se poate relua dupa 14 zile de pauza, pana la 3 luni.
+
+### Tuse puternica
 
 Tuse puternica
 
 Se fierb intr-o jumatate de litru de apa: 4 nuci (intregi), o lingura de soc si o lingura de miere, timp de 10 minute. Se strecoara. Se bea cate o lingura, de 3 ori pe zi.
 
+### Toate bolile de plamani
+
 Toate bolile de plamani
 
 Timp de 7 saptamani se bea ceai de ovaz, in loc de apa (un litru si jumatate pe zi). In 2 litri apa, se fierb 10 linguri de ovaz, timp de 15 minute.
+
+### TBC pulmonar
 
 TBC pulmonar
 
@@ -876,18 +1036,24 @@ Se pun la fiert, intr-un litru de apa, 5 pumni dubli de frunze verzi de patlagin
 
 Primele 3 zile se iau cate 3 lingurite/zi, apoi se iau cate 3 linguri/zi pana se termina compozitia.
 
+### Tuberculoza
+
 Tuberculoza
 
 Se topesc in bain-marie si se amesteca: 100 gr miere, 100 gr unt, 100 gr untura de gasca, 15 gr suc de aloe.
 
 Se ia cate o lingura din acest amestec, intr-un pahar cu lapte fierbinte, dimineata si seara, cu o ora inainte de masa.
 
+## APARATUL URINAR
+
 APARATUL URINAR
----------------
+### Albuminurie
 
 Albuminurie
 
 Se amesteca in cantitati egale: iarba neagra, teci de fasole si matase de porumb. Se infuzeaza 2 linguri din acest amestec, intr-un litru de apa clocotia, timp de 15 minute. Ceaiul se bea pe parcursul zilei. Prima cana este obligatoriu sa fie dimineata, pe stomacul gol.
+
+### Cistita
 
 Cistita
 
@@ -899,9 +1065,13 @@ Se ia o lingurita de tinctura, intr-o jumatate de pahar cu apa, dimineata, pe st
 
 Tratamentul se face cel putin 7 zile la rand, pentru ca efectele sa fie stabile.
 
+### Cistita, litiaza urinara
+
 Cistita, litiaza urinara
 
 Se face un decoct din 20 gr. radacina de osul iepurelui, fiarta intr-un litru de apa pana se reduce la un sfert, se adauga pentru infuzare (5 minute) 5 gr. de seminte de marar. Se filtreaza, se indulceste cu miere si se bea fractionat in 24 de ore.
+
+### Curatarea rinichilor, eliminarea nisipului si calculilor
 
 Curatarea rinichilor, eliminarea nisipului si calculilor
 
@@ -912,6 +1082,8 @@ Aceasta cantitate se bea intr-o zi, de dimineata pana seara, la culcare.
 Pe parcursul zilei se va manca vegetarian.
 
 Trei zile dupa tratament, se mananca lacto-vegetarian si se verfica urina in care vom observa nisipul si calculii de mici dimensiuni.
+
+### Calculi renali
 
 Calculi renali
 
@@ -939,6 +1111,8 @@ Seara, la culcare, se bea toata cantitatea.
 
 Se continua tratamentul pana la eliminarea tuturor calculilor.
 
+### Enurezis
+
 Enurezis
 
 Se face un amestec de plante: radacina de urzica 20 gr., strugurii-ursului 10 gr., chiparos 20 gr., coada-soricelului 30 gr., paducel 30 gr.
@@ -959,15 +1133,21 @@ Iritatii ale cailor urinare, diabet, calmarea durerilor abdominale, cresterea di
 
 Se consuma 150 ml suc proaspat de castravete, dimineata pe stomacul gol, timp de 21 de zile.
 
+### Litiaza renala, cistita, nefrita
+
 Litiaza renala, cistita, nefrita
 
 Se combina tinctura de pufulita cu flori mici cu tinctura de ghimpe, in parti egale. Se iau cate 2 lingurite de amestec, diluate intr-un pahar de apa, de 2 ori/zi.
 
 Tratamentul se face minim 6 saptamani, caculii mari maruntindu-i si favorizand eliminarea lor.
 
+### Pietre la rinichi
+
 Pietre la rinichi
 
 Se fierb timp de 5 minute, intr-un litru si jumatate de apa, o mana de macese zdrobite si o lingura cu varf de boabe de ienupar pisate. Se acopera oala si se inveleste timp de 4 ore. Se strecoara. Acest elixir se bea tot dimineata, pe stomacul gol. Tratamentul incepe a 2-a zi dupa luna plina si se tine 10 zile.
+
+### Pietre la rinichi, infectii urinare, nefrite
 
 Pietre la rinichi, infectii urinare, nefrite
 
@@ -975,16 +1155,21 @@ Se ia cate o lingurita de tinctura de tamaie diluata in apa, de 4 ori/zi. Tamaia
 
 Tinctura se face prin combinarea a 10 lingurite de tamaie naturala cu un pahar de alcool de 90o.
 
+### Pietre la rinichi, curatarea rinichilor, curatarea ficatului
+
 Pietre la rinichi, curatarea rinichilor, curatarea ficatului
 
 Se fierbe la foc mic un pahar de seminte de canepa rasnita in 3 pahare de lapte proaspat pana cand lichidul scade la un pahar. Se strecoara si se bea fierbinte inainte de micul dejun, cu 20 de minute. Procedeul se repeta 5 zile consecutiv, apoi dupa o pauza de 10 zile, se reia tratamentul. Se continua timp de un an. Se curata rinichii si la fel de bine si ficatul.
+
+### Prostata
 
 Prostata
 
 Se piseaza carbune de lemn de tei. Se bea zilnic, 7 zile la rand, o "cafea" din acest carbune, dimineata pe stomacul gol.
 
+### Retentie de urina
+
 Retentie de urina
 
 Se pun la fiert 6 bucati de praz intr-un vas cu ulei de masline. Se lasa sa fiarba la foc mic. Cand sunt bine fierte, se intind pe niste carpe si se aplica, cat se poate de calde, pe abdomenul bolnavului. Va urina rapid.
-
 

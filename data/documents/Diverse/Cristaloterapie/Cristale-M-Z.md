@@ -1,4 +1,6 @@
-### !{width="2.359722222222222in" height="1.8694444444444445in"}Malahit
+# Cristale M-Z
+
+## Malahit
 
 **Culori:** nuanțe de verde închis**\
 Duritate**: 3,5 - 4 (din 10)**\
@@ -66,7 +68,7 @@ Bijuteriile cu malahit se poartă pe mâna stangă. Piatra pură, neprelucrată 
 
 !{width="1.9618055555555556in" height="2.626388888888889in"}
 
-### Moldavit
+## Moldavit
 
 **Descriere: t**ectită de culoare verde, de natură meteorică, extraterestră, foarte rară, formată acum 15 milioane de ani. Este o sticlă naturală, ca și obsidianul. Este una dintre cele mai vechi pietre de pe pământ.
 
@@ -109,12 +111,16 @@ Piatră recomandată pentru zodiile: Gemeni, Fecioara, Scorpion, Săgetator.
 
 - ajută la adaptare socială.
 
+## Mookait
+
 ***[MOOKAIT]{.underline}***
 
 !{width="1.8479166666666667in" height="1.5576388888888888in"}\
 \
 \
 **Mookaitul**(jaspul australian) stabileste un echilibru intre experientele interioare si cele exterioare. Induce dorinta de noi experiente, dar si abordarea calma a acestora. Incurajeaza versalitatea. Pune in evidenta toate posibilitatile si ajuta la alegerea celei mai bune. Piatra fizic stabilizanta, fortifica sistemul imunitar, vindeca ranile si purifica sangele.*(citeste mai mult despre jasp)*
+
+## Morganit (Beril roz)
 
 **MORGANIT \[Beril roz\]**
 
@@ -154,6 +160,8 @@ Ridica standardele etice ale individului\
 Deschide al treilea ochi care ajuta la descoperirea altor dimensiuni ale lumii inconjuratoare\
 SANATATE: Benefic pentru [inima](javascript:void(0)) , plamani, respiratie, gat, efecte benefice in cazuri de [astm](javascript:void(0)), tuberculoza, stimuleaza activitatea plamanilor si inimii, ajuta la o mai buna respiratie
 
+## Nefrit
+
 ***[NEFRIT]{.underline}***\
 \
 ***CULOARE:*** verde, portocaliu, brun, albastru, albastru-verde, crem, mov-levantica, rosu, alb
@@ -171,6 +179,8 @@ In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si org
 **EFECTE TAMADUITOARE.** Trateaza rinichii si glandele suprarenale, elimina toxinele, reface sistemul celular si scheletul, accelereaza cicatrizarea ranilor. Favorizeaza fertilitatea si usureaza nasterea. Actioneaza asupra splinei si a coapselor. Echilibreaza fluidele corporale si nivelurile apa-saruri/acid-alcalin.\
 \
 **POZITIONARE.** Asezati-l unde este nevoie. Chinezii cred ca, tinut in mana, nefritul transfera corpului virtutile sale.
+
+## Obsidian
 
 ***[OBSIDIAN]{.underline}***\
 \
@@ -212,6 +222,8 @@ ANIVERSARE:** Se ofera la aniversarea a 13 ani (nastere sau casatorie)**\
 CHAKRE:** toate\
 **PROFESII:** -
 
+## Obsidian Fulg de Nea
+
 **OBSIDIAN FULG DE NEA**
 
 **efecteLE asupra purtatorului:\
@@ -246,6 +258,8 @@ Risipeste energiile negative, teama si tensiunea\
 Elmina blocajele energetice, reduce tensiunea\
 Stimuleaza si faciliteaza vindecarea si purificarea\
 Mareste sexualitatea
+
+## Ochi de Pisică
 
 ***[OCHI DE PISICA]{.underline}***
 
@@ -289,6 +303,8 @@ Bun in divinatie, meditatie, rugaciune\
 Ajuta la descoperirea perspectivelor, la adoptarea unui regim de viata si de alimentatie sanatos\
 Pune in legatura cu vietile anterioare\
 **Sanatate:** benefic in momente de boala sau slabiciune fizica, cu rol de revigorare si energizare a [organismului](javascript:void(0)), benefic pentru splina, pancreas, colon, [sistem](javascript:void(0)) digestiv, creier, organe sexuale, timus, benefic in caz de fracturi, boli oculare
+
+## Ochi de Tigru
 
 ***[OCHI DE TIGRU]{.underline}***\
 \
@@ -357,7 +373,7 @@ Pune in legatura cu vietile anterioare\
 Ajuta la adoptarea unui regim de viata si de alimentatie sanatos](javascript:void(0))\
 **Sanatate:** benefic in momente de boala sau slabiciune fizica, cu rol de revigorare si energizare a [organismului](javascript:void(0)) , benefic pentru splina, pancreas, colon, sistem digestiv, creier, organe sexuale, timus, benefic in caz de fracturi, [boli](javascript:void(0)) oculare
 
-
+## Ochi de Șoim
 
 ***OCHI DE SOIM***
 
@@ -391,6 +407,8 @@ CHAKRE:** 3, 4, 5, 6\
 **efecteLE asupra purtatorului:\
 **[Ajuta](javascript:void(0)) la intelegerea adevarului\
 Bun pentru meditatie si rugaciune
+
+## Onix
 
 ***[ONIX]{.underline}***\
 \
@@ -451,6 +469,8 @@ Piatra a:** sigurantei si securitatii\
 Deschide accesul spre lumea viselor\
 Echilibreaza emotional, controleaza emotiile extreme\
 **Sanatate:** Benefic pentru maduva oaselor, unghii, piele, dinti, par, ochi, muschi, asimilarea vitaminei E si B, inima, rinichi, nervi, capilare, pancreas. Scade frisoanele. Ajuta la oxigenarea plamanilor
+
+## Opal
 
 ***[OPAL]{.underline}***\
 \
@@ -529,6 +549,8 @@ Scade inhibitia, scoate la suprafata emotiile reprimate\
 Opalul de foc aduce succes la bani, confera pasiune si energie\
 Opalul negru purtat langa inima fereste de rau, de deochi si protejeaza calatorii aflati la drum\
 SANATATE: benefic pentru vaz, auz, dureri de cap](javascript:void(0))
+
+## Peridot / Olivina / Crisolit
 
 ***[PERIDOT/OLIVINA]{.underline}***\
 \
@@ -645,6 +667,8 @@ Atenție!!! Femeiile nu trebuie să o folosească atunci când este lună plină
 
 Piatră recomandată pentru zodiile: Rac, Balanță, Scorpion, Săgetator, Pești.
 
+## Perla (Margaritar)
+
 **PERLA \[Margaritar\]**
 
 !{width="0.9777777777777777in" height="0.8333333333333334in"}
@@ -686,6 +710,8 @@ Bun pentru meditatie si rugaciune\
 Are efect maxim daca este purtata fara alte cristale\
 **SANATATE:** Daca se bea apa in care au stat timp de o noapte cateva perle, apa are efect tonic asupra [organismului](javascript:void(0)), protejeaza nasterea, sanatatea femeii, mareste vitalitatea, fertilitatea, longevitatea, stimuleaza digestia, activitatea inestinelor, ficatului, rinichilor, stomacului, globulelor albe, diafragmei, splinei, muschilor, pancreasului, scade sangerarea, ulcerul
 
+## Piatra Sângelui (Heliotrop, Matostat, Jasp de sânge)
+
 **PIATRA SANGELUI \[Sinonime: Heliotrop, Matostat, Jasp de sange\]**
 
 !{width="1.1770833333333333in" height="0.8333333333333334in"}!{width="0.7222222222222222in" height="1.0694444444444444in"}
@@ -726,6 +752,8 @@ Atrage prosperitatea si castigul [financiar](javascript:void(0))
 Recomandabila sportivilor pentru vitalitatea si energia pe care le confera\
 Se spune ca protejeaza de muscaturile se sarpe si scorpion.](javascript:void(0))\
 **Sanatate:** puternic rol curativ si stimulator, vitalizeaza si energizeaza organismul, regleaza ciclul menstrual, scade crampele menstruale, ajuta la [dezintoxicare](javascript:void(0)), confera longevitate, benefic in caz de anemie, hemoragie nazala, hemoragii vaginale, dureri stomacale, ulceratii, benefic pentru splina, ficat, rinichi, inima, testicule, ovare, uter, ochi, intestine, hemoroizi, nastere, previne pierderile de sarcina, echilibreaza toate procesele fiziologice legate de fier si sange.
+
+## Piatra Soarelui
 
 ***[PIATRA SOARELUI]{.underline}***\
 \
@@ -777,6 +805,8 @@ Recomandabil a se purta in urma marilor socuri ale sortii](javascript:void(0))\
 
 [de a lupta impotriva cancerului](javascript:void(0))
 
+## Pirită (Aur fals, Marcazit)
+
 ***[PIRITA]{.underline}***\
 \
 **CULOARE:** auriu sau maroniu\
@@ -824,6 +854,8 @@ Stimuleaza munca de echipa pentru atingerea unui scop comun\
 Piatra a prosperitatii\
 **Sanatate:** ajuta [sistemul](javascript:void(0)) circulator, oxigeneaza sangele, scade febra, benefic pentru [stomac](javascript:void(0)) , ulcer, digestie, oase, plamani
 
+## Prehnit
+
 ***[PREHNIT]{.underline}***\
 \
 ***CULOARE:*** verde, galben, alb, brun\
@@ -835,6 +867,8 @@ Piatra a prosperitatii\
  In plan psihologic, prehnitul inlatura cosmarurile, fobiile si fricile profunde, identificand si vindecand raul care le provoaca. Benefic copiilor hiperactivi si cauzelor karmice ascunse.\
 **EFECTE TAMADUITOARE.** Util in diagnosticare. Trateaza rinichii, vezica urinara, timusl, umerii, pieptul si plamanii. Vindeca guta si tulburarile hematologice, reface tesutul conjunctiv si stabilizeaza malignitatea.\
 **POZITIONARE.** Plasati-l sau tineti-l unde este nevoie. Pentru profetie, vizualizare si ghidare, plasati cristalul pe al treilea ochi.
+
+## Rodocrozit
 
 **RODOCROZIT**
 
@@ -868,6 +902,8 @@ Puternic rol protector:** impotriva rautatii, pericolelor si gandurilor negative
 **Alunga:** senzatia de refuz, abandon sau negare\
 **Scade:** tendintele de eschivare si negare, temerile, halucinatiile, cosmarurile, tendintele auto-critice\
 **Sanatate:** benefic in caz de [ulcer](javascript:void(0)) , inflamatii, dureri, probleme respiratorii, astm, infectii, caderi psihice, cancer, benefic pentru splina, inima, rinichi, circulatie, oase, piele, intestine, tiroida, urechi, sinusuri, eliminarea toxinelor
+
+## Rodonit
 
 ***[RODONIT]{.underline}***\
 \
@@ -915,6 +951,8 @@ Este piatra dragostei, piatra a muzicienilor, dezvoltand talentele vocale\
 **Mareste/amplifica:** bucuria de a trai, altruismul, generozitatea, siguranta afectiva, forta de a iubi, increderea de sine, [valoarea](javascript:void(0)) personala, sensibilitatea, memoria, coerenta, optimismul, talentele muzicale, memoria, pacea, calmul, echilibrul, usurinta in comunicare si vorbire, stabilitatea\
 **Ajuta la:** afirmarea personala, la detasarea de trecut\
 **Sanatate:** benefic pentru auz, urechea interna, pancreas, oase, plamani, asimilare, organele sexuale masculine, tiroida, [sistemul](javascript:void(0)) imunitar, inima, benefic in caz de artrita, inflamatii, [infectii](javascript:void(0)) streptococice, protejeaza impotriva bolilor cu transmitere sexuala
+
+## Rubin
 
 ***[RUBIN]{.underline}***\
 \
@@ -968,6 +1006,8 @@ Este o piatra care il face pe purtator sa se evidentieze, sa fie remarcat, sa at
 Amplifica si imbunatateste viata sexuala**\
 **Imbunatateste relatiile de [familie](javascript:void(0)) , matrimoniale sau de afaceri\
 **Sanatate:** benefic in caz de infectii, impotenta, infertilitate, diabet, infarct, anemie, febra, schizofrenie, melancolie, sangerari, inflamatii, intoxicari, mareste imunitatea [organismului](javascript:void(0)) , benefic pentru circulatia sangelui, ficat, inima, splina, timus, coloana vertebrala, intestine, nas, urechi, ochi, ajuta la [dezintoxicare](javascript:void(0)) (de cafea, alcool, droguri)
+
+## Safir
 
 ***[SAFIR]{.underline}***\
 \
@@ -1039,6 +1079,8 @@ Se spune ca protejeaza de orbire si surzenie\
 
 [circulator; benefic in caz de TBC, arsuri, inflamatii, febra, sangerari, sciatica, reumatism, colici, paralizie, artrita.](javascript:void(0))
 
+## Sardonix
+
 ***[SARDONIX]{.underline}***\
 \
 ***CULOARE:*** negru, brun, rosu, transparent
@@ -1099,6 +1141,8 @@ Mareste armonia intre oameni\
 Ajuta la acceptarea autoritatii, reducerea tendintelor beligerante\
 **Sanatate:** benefic pentru [rinichi](javascript:void(0)) , inima, vaz, auz, vitalitate si energie
 
+## Selenit
+
 **SELENIT**
 
 !{width="0.8215277777777777in" height="0.8333333333333334in"}
@@ -1128,6 +1172,8 @@ Inlatura blocajele psihice sau emotionale\
 Recomandabil celor cu un puternic sentiment de vinovatie, celor cu imaginatie bolnavicioasa, celor care trebuie sa se elibereze de trecut\
 Bun pentru gimnasti (confera [flexibilitate](javascript:void(0)))\
 **Sanatate:** benefic pentru sistemul nervos
+
+## Serpentina
 
 ***[SERPENTINA]{.underline}***
 
@@ -1224,6 +1270,8 @@ Atenție!!!
 
 []{.underline}
 
+## Sodalit
+
 **[SODALIT]{.underline}**
 
 []{.underline}
@@ -1272,6 +1320,8 @@ Este o piatra anti-stress](javascript:void(0))\
 
 [endocrin, sistem limfatic, metabolism, absorbtia de calciu, are efect sedativ; recomandabil a se purta la chimioterapie sau radiografii](javascript:void(0))
 
+## Spinel
+
 **[SPINEL]{.underline}**
 
 Spinelul este un cristal frumos legat de reanoirea energieii, sustinerea in circumstante dificile si de reantinerire. Deschide chakrele si faciliteaza kundalini de-a lungul coloanei vertebrale. Diferite culori ale spinelului se raporteaza la tot spectrul chakrelor.
@@ -1311,6 +1361,8 @@ Mentine mentalul mereu proaspat\
 **Sanatate:** [Ajuta](javascript:void(0)) la dezintoxicari
 
 []{.underline}
+
+## Sugilit
 
 **[SUGILIT]{.underline}**
 
@@ -1352,6 +1404,8 @@ Activeaza cel de-al treilea ochi\
 Confera iubire la nivel spiritual\
 Il face pe individ constient de valoarea sa\
 **Sanatate:** benefic pentru [inima](javascript:void(0)) , astm, ficat, ajuta la vindecarea si purificarea [organismului](javascript:void(0)) , reduce durerile de cap, previne cancerul
+
+## Tanzanit (Zoisit, Safir de Meru)
 
 **TANZANIT \[Sinonim: Zoisit, Safir de Meru\]**
 
@@ -1405,6 +1459,8 @@ Confera o stare de buna dispozitie\
 
 []{.underline}
 
+## Topaz
+
 **[TOPAZ]{.underline}**
 
 Piatra catifelata, empatica, care dirijeaza energia acolo unde este cel mai mult nevoie de ea. Calmeaza, vindeca, stimuleaza, reancarca, motiveaza si aliniaza meridianele corpului. favorizeaza adevarul si iertarea.
@@ -1456,6 +1512,8 @@ Protejeaza de spiritele rele\
 **Sanatate:** benefic pentru respiratie, ficat, splina, tiroida, [sistem](javascript:void(0))
 
 [digestiv, sistem nervos, eliminarea toxinelor, regenerearea tesuturilor, benefic in caz de reumatism](javascript:void(0)), artita, previne raceala, durerile de cap
+
+## Turcoaz
 
 **[TURCOAZ]{.underline}**
 
@@ -1626,6 +1684,8 @@ benefic pentru sistemul circulator, sistemul muscular, sistemul imunitar, sistem
 
 benefic in caz de tulburari sexuale feminine, infertilitate, astm, inflamatii articulare, dureri de cap, febra, migrene, cataracta, intoxicare, stress, anorexie, probleme oculare (oftalmologice), dentale
 
+## Turmalină
+
 **[TURMALINA]{.underline}**
 
 Curata, purifica si transforma energia densa intr-o vibratie usoara. Ancoreaza energia spirituala, purifica si echilibreaza toate chakrele, formand un scut protector in jurul corpului.
@@ -1668,6 +1728,8 @@ Nota:** Poate fi confundata cu topazul, spinelul galben.\
 Recomandabila celor care merg cu imaginatia dincolo de realitate (care cred ca ceva e deja real desi e inca o idee)\
 Este o piatra a iubirii
 
+## Turmalină Albastră (Indigolit)
+
 **TURMALINA ALBASTRA / INDICOLIT**\
 Indicolitul este turmalina albastru inchis. **\
 Nota:** Poate fi confundata cu apatitul, acvamarinul, safirul, spinelul albastru.\
@@ -1676,6 +1738,8 @@ Aduce echilibru, intuitie, armonie, dragoste, serviabilitate, rabdare\
 Alunga stresul, temerile, grijile\
 Induce un somn linistit**\
 Sanatate:** benefic pentru plamani, gat, ochi, creier, tiroida, timus
+
+## Turmalină Neagră (Schorl)
 
 **TURMALINA NEAGRA / SCHORLIT**\
 Protejeaza impotriva energiilor negative\
@@ -1687,6 +1751,8 @@ Mareste vitalitatea organismului\
 Rol protector impotriva radiatiilor nocive\
 Schimba energiile inutile cu [energii](javascript:void(0)) proaspete**\
 Sanatate:** benefic in caz de [constipatie](javascript:void(0)), nevroze, probleme intestinale, puternic rol curativ
+
+## Turmalină Roz (Rubelit)
 
 **TURMALINA ROZ / RUBELIT**
 
@@ -1725,6 +1791,8 @@ Confera [energie](javascript:void(0)) fizica si vitalitate**\
 **[Ajuta](javascript:void(0)) la detasarea de probleme si de vechi traume emotionale\
 Sanatate: benefic in cazuri de gonoree, tensiune, crampe menstruale, infertilitate, probleme de [sanatate](javascript:void(0)) tipic feminine, benefic pentru [digestie](javascript:void(0)), splina, aparat reproducator, fertilitate, plamani, pancreas, circulatie sangvina, piatra proectoare pentru sanatatea femeii
 
+## Turmalină Verde (Verdelit, Smarald siberian, Safir brazilian)
+
 **TURMALINA VERDE \[verdelit, smarald siberian, safir brazilian\]**
 
 !{width="1.5625in" height="1.0833333333333333in"}!{width="1.0in" height="0.8333333333333334in"}!{width="0.9895833333333334in" height="0.8333333333333334in"}** ** !{width="1.6145833333333333in" height="1.1354166666666667in"}!{width="1.5625in" height="1.073611111111111in"}
@@ -1760,6 +1828,8 @@ Mareste compasiunea, deschide [inima](javascript:void(0))
 Este o piatra a succesului, a realizarii, a telurilor atinse\
 Stimuleaza creativitatea, obiectivitatea](javascript:void(0))
 
+## Zircon (Hiacint, Diamant de Ceylon)
+
 **ZIRCON \[hiacint, diamant de Ceylon\]**
 
 !{width="1.0208333333333333in" height="0.8333333333333334in"}!{width="1.6145833333333333in" height="1.1145833333333333in"}!{width="1.5625in" height="1.0520833333333333in"}!{width="1.5625in" height="1.0729166666666667in"}!{width="1.5625in" height="1.125in"}
@@ -1794,15 +1864,13 @@ Ajuta la [dezintoxicare](javascript:void(0))
 Alunga energiile negative si cosmarurile\
 Se spunea ca protejeaza de fulger, febra, tristete si necaz](javascript:void(0))
 
-
-
 Cabinetul de Terapii Complementare „Anasan", str. Valea Furcii, nr. 8A, sector 6, Bucuresti, tel.: 021.777.71.96, 0722.552.992. Mai multe despre puterile pietrelor pretioase, simboluri, preturi si legende puteti afla din cartea „Magia pietrelor pretioase", scrisa de Antonia Mares si aparuta la editura Cartea de Buzunar.
 
 Se cauta punctul de pornire al afectiunii si abia apoi se folosesc pietrele", spune prof. Ana Maria Iliescu de la Cabinetul de Terapii complementare Anasan din Bucuresti. Acest tip de tratament necesita si o dieta speciala: eliminarea toxinelor pentru usurarea functionarii organelor, peste 2 litri de lichide pe zi (exclus bauturi carbogazoase), fara tutun, alcool, carne de porc sau mezeluri.
 
-
-
 !{width="3.1256944444444446in" height="2.477777777777778in"}
+
+## REFERINȚE ȘI ANEXE
 
 **Semnificatia pietrelor pretioase si a cristalelor -- Ce piatra ne reprezinta**
 
@@ -1842,24 +1910,24 @@ Iata si semnificatia culorilor care sa va ajute in decizia finala in alegerea pi
 - violet: inteligenta\
 - negru: seriozitate, sobrietate.
 
+### Cristalele vindecătoare
+
 Cristalele vindecatoare
 
 !{width="0.20833333333333334in" height="0.15625in"}Oana Hanganu
 
-
-
 **Alegerea unei bijuterii care contine cristalul potrivit va poate ajuta sa aveti mai mult succes in viata si sa va bucurati de o buna stare de sanatate. Elimina blocajele aparute la nivelul centrilor energetici si asigura buna functionare a „chakrelor\".**
-
-
 
 Potrivit yoghinilor, energia Universului sustine toate procesele vitale si patrunde in corpul nostru prin „chakre\" (centri energetici). Cuvantul „chakra\" provine din limba sanscrita si inseamna „vartej\" sau „roata\". In cartea lor, „Centrii subtili de forta\", Shalila Sharamon si Bodo J. Baginski descriu chakrele intr-un mod foarte sugestiv: acestea au forma de palnie de floare, iar nervurile petalelor sunt canale prin care patrunde energia cosmica.
 
-
-
 „Din centrul fiecarei cupe de floare porneste un alt canal care se aseamana cu tija florii indreptandu-se catre coloana vertebrala si patrunzand direct in aceasta\". Scrierile sanscrite vorbesc despre existenta unui numar de 88.000 de chakre, dar cele mai importante sunt in numar de 7 si se afla intr-o permanenta miscare rotativa, de unde si numele.
+
+### Chakrele: centri energetici
 
  **Chakrele: centri energetici**\
 In cartea amintita mai sus, se spune: „Chakrele celor mai multi dintre noi au un diametru de cca. 10 cm si in fiecare astfel de centru energetic sunt prezente toate vibratiile coloristice, insa dominanta ramane o culoare care corespunde rolului principal al chakrelor\". In cazul unui om e voluat spiritual, chakrele se dilata, frecventa vibratiilor sporeste, iar culorile corespunzatoare devin mai clare. De buna functionare a chakrelor depinde starea de sanatate a intregului organism. Pentru deblocarea chakrelor exista mai multe metode, printre care: meditatia, terapia prin sunete, terapia prin culori, terapia prin cristale. La aceasta din urma ne vom referi in randurile de mai jos.
+
+#### Sistemul chakrelor și cristalele
 
  **Sistemul chakrelor si cristalele**\
 Eliminarea blocajelor de la nivelul chakrelor se realizeaza prin aplicarea unui cristal pe locul corespunzator centrului energetic. Cristalul va fi lasat sa actioneze cel putin 30 de minute, timp in care „pacientul\" trebuie sa se relaxeze, sa vizualizeze culoarea corespunzatoare chakrei si sa lase energiile cosmice sa actioneze.
@@ -1872,10 +1940,12 @@ Eliminarea blocajelor de la nivelul chakrelor se realizeaza prin aplicarea unui 
 
  Ametistul este cristalul corespunzator, dar pot fi utilizati pentru deblocarea acestui centru si safirul sau sodalitul. „Chakra coroana\" este cel de al saptelea centru energetic si se afla in crestetul capului. Este alb-aurie, cu irizari violete, „guverneaza\" epifiza, iar pentru deblocarea ei se folosesc cristalul de stanca si ametistul.
 
-
+### Purificarea cristalelor
 
 **Purificarea cristalelor**\
 Cristalele inmagazineaza energie din mediul inconjurator. Inainte de a folosi un cristal in scop terapeutic sau doar estetic (sub forma unei bijuterii) trebuie sa il purificati. Lasati-l peste noapte in apa curata in care ati dizolvat sare marina. Pentru a-l energiza, lasati-l apoi in lumina soarelui, de la primii zori, pana la amiaza.
+
+### Puterea cristalelor
 
  **Puterea cristalelor**
 
@@ -1903,6 +1973,8 @@ Va invitam sa cercetati paginile site-ului nostru in speranta ca ve-ti gasi cat 
  .
 
  **Cristale**
+
+### Vindecarea prin Cristale
 
 **Vindecarea prin Cristale**\
 Vindecarea prin cristale este o metoda blanda, dar totusi puternica pentru a vindeca corpul, mintea, emotiile si spiritul. Vindecarea prin cristale este una dintre cele mai usoare forme de vindecare. Desi energia fiecarui cristal in parte este unica, de obicei, vindecatorii considera ca diferitele tipuri de cristale poarta vibratii similare.\
@@ -2091,11 +2163,9 @@ Astfel, carneolul este piatra zodiilor Berbec, Rac, Fecioara; ametistul este pia
 Pietrele semipretioase au puterea de a activa functiile organelor pe care le guverneaza, de a elibera energiile pozitive in functie de fiecare semn zodiacal si de a induce o stare de bine purtatorului. Chiar si metalele si pietrele pretioase au aceasta inraurire asupra organismului. De exemplu, nu oricine ar trebui sa poarte aur (aurul poate fi purtat de zodiile de foc: Leu, Sagetator, Berbec). Safirul, iarasi, este piatra Taurilor, pentru care culoarea albastra este benefica.\
 Chiar daca sunt vazute ca facand parte din manifestarea unui fenomen paranormal, pietrele pretioase, cristalele si pietrele semipretioase fac deja parte din viata tuturor. Atunci cand cumparati o astfel de piatra, ea trebuie incarcata cu energia pozitiva lasand-o cateva zile (de regula sapte) la soare sau intr-un pahar cu apa, in functie de natura si culoarea ei.
 
+### Cristalele în magie
+
 Cristalele in magie
-
-
-
-
 
 In magie, cristalele se folosesc ca ingredient in unele ritualuri, dar si ca amulete. Purtate ca amulete, cristalele nu numai ca sunt foarte puternice dar sunt adevarate bijuterii care infrumuseteaza orice tinuta. Iata care sunt cristalele cele mai des folosite si care este puterea fiecaruia din ele.\
 \
@@ -2168,14 +2238,6 @@ Zirconiul -- atrage faima si prosperitatea, protejeaza impotriva accidentelor si
 **
 
 **
-
-!{width="3.7159722222222222in" height="3.8305555555555557in"}
-
-!{width="3.4159722222222224in" height="3.5in"}
-
-!{width="5.997916666666667in" height="8.48125in"}
-
- ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  **NTRU ZODIA:** **PIETRELE RECOMANDATE SUNT:**
  **BERBEC** Ametist, Acvamarin, Aventurin, Carneol, Citrin, Coral, Cristal de stanca, Cuart roz, Diamant, Granat, Hematit, Jad, Jasp rosu, Lacrima apasului (obsidian), Kianit, Malahit, Moldavit, Onix, Piatra sangelui (Heliotrop), Rodocrozit, Rodonit, Rubin, Safir, Smarald, Spinel. **Talisman norocos:** Diamant, Jasp rosu, Piatra sangelui (Heliotrop). **Recomandabil:** PIETRE ROSII
  **TAUR** Acvamarin, Agat, Ametist, Aventurin, Calcedonie, Carneol, Chihlimbar, Citrin, Coral rosu, Crisocola, Crisopraz, Cristal de stanca, Cuart roz, Diamant, Iolit, Jad, Jasp rosu, Kunzit, Kianit, Lapis Lazuli, Malahit, Moldavit, Obsidian, Rodonit, Rubin, Safir, Selenit, Smarald, Spodumen (Kunzit), Turcoaz, Turmalina, Zircon. **Talisman norocos:** Diamant, Safir. **Recomandabil:** PIETRE PASTEL (ROZ, VERNIL)
@@ -2189,9 +2251,7 @@ Zirconiul -- atrage faima si prosperitatea, protejeaza impotriva accidentelor si
  **CAPRICORN** Agata, Ametist, Aventurin albastru, Calcedonie, Carneol, Cristal de stanca, Crisopraz, Cuart fumuriu, Cuart roz, Fluorina, Granat, Jad, Lapis Lazuli, Malahit, Moldavit, Ochi de pisica, Ochi de soim, Ochi de tigru, Onix, Opal, Piatra sangelui (Heliotrop), Rubin, Safir, Spinel albastru, Topaz, Turmalina verde, Turcoaz. **Talisman norocos:** Rubin. **Recomandabil:** PIETRE NEGRE
  **VARSATOR** Agata de muschi, Acvamarin, Ametist, Chihlimbar, Crisopraz, Cristal de stanca, Fluorina, Granat, Hematit, Hiacint, Jasp, Lapis Lazuli, Moldavit, Obsidian albastru, Ochi de soim, Onix, Opal, Safir, Topaz, Turcoaz, Zircon. **Talisman norocos:** Granat, Hiacint. **Recomandabil:** PIETRE BLEU-CIEL
  **PESTI** Acvamarin, Agat albastru, Ametist, Azurit, Chihlimbar, Citrin, Coral, Crisolit, Cristal de stanca, Fluorina, Hematit, Hiacint, Jad, Jasp, Lapis Lazuli, Moldavit, Opal, Opal de foc, Peridot, Perla, Piatra lunii, Piatra sangelui (Heliotrop), Safir, Turcoaz, Tumalina. **Talisman norocos:** Ametist. **Recomandabil:** PIETRE ALBASTRU INCHIS, INDIGO SAU VIOLET
- ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+ ----------------- ---------------------------------------------------------
 
 **Disten** - **Al~2~O(SiO)~4~ -** triclinic
 
@@ -2328,6 +2388,8 @@ STAR sources-moldavite
 
 **7 Chroat Chakra Stones** -- ametist, Ametrine, Citrin, Cuart clar, Topaz, Turmalin clara, diamant, beril galben, Howlite, lavanda cuart, Lepidolite, Iolite, Moldavit, violet jasper, selenit, Sugilit
 
+### Pietre prețioase când visezi
+
 PIETRE PRETIOASE CAND VISEZI
 
 !{width="0.9263888888888889in" height="1.3944444444444444in"}
@@ -2389,14 +2451,6 @@ Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **
-
-
-
-
-
-
-
-
 
 Biblia Ortodoxă căutare \| tâlcuiri \| resurse \| contact
 

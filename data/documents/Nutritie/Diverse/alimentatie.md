@@ -53,9 +53,6 @@
  Nuci cu pâine și vin Arpacaș fiert cu vanilie si scorțișoară
  Salată de roșii cu castraveți și ardei gras
 
-
-
-
  ------------------------------------------------- --------------------------------------------- -----------------------------------------
 
 ***Pentru revitalizare, dezintoxicare si eliminarea surplusului de grăsime:***

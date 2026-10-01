@@ -260,7 +260,6 @@ Se completeaza pana la 10ml cu ulei fractionat de cocos si se pune intr-un roll-
 - ulei esential de Helichrysum - 5 pic
 - ulei de masline - 10ml
 
-
 ## FUNGIMICOT
 - ulei esential de Oregano salbatic - 7 pic
 - ulei esential de Helichrysum - 7 pic
@@ -273,7 +272,6 @@ Se completeaza pana la 10ml cu ulei fractionat de cocos si se pune intr-un roll-
 - crema cu terbinafina
 - ulei esential de oregano salbatic
 - ulei esential de scortisoara
-
 
 ## Using Essential Oils to Boost Testosterone
 - Clary Sage.

@@ -1,3 +1,4 @@
+# Cataracta
 - Avoid sunglasses and smoking
 - Avoid staying outside where the sun it's very hot. Ultraviolet rays are making the cataracts worst.
 - Drink marigold tea

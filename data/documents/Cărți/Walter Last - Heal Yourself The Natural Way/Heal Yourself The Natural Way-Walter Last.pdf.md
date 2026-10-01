@@ -1,11 +1,8 @@
-[Nu a fost extras text din această pagină.]
-
 Also by Walter Last
 Heal Yourself
 Healing Foods
 The Self Help Cancer Cure Book
 The Heal Yourself Series of Self Help books
-
 
 Copyright © 2010
 by Walter Last
@@ -15,7 +12,6 @@ non-commercial use and healing activity.
 
 Editing, Artwork & Cover design by Leonie Ganivet ~ Austpac Productions
 
-
 If you are unable to order this book from your local bookseller,
 you may order online from the publisher on CD Rom in PDF format.
 See:
@@ -24,16 +20,12 @@ Heal Yourself - The Natural Way
  Overcome Diseases & Create Superior Health.
 By Walter Last.
 
-
 Includes bibliographical references and index.
 1. Naturopathy. 2. Healing. I. Title.
 
 ISBN 978-0-9803281-7-2
 
-[Nu a fost extras text din această pagină.]
-
 Disclaimer
-
 
 The aim of this book is to provide information on using natural healing methods to improve health
 and overcome illness. The author or publisher cannot accept any legal responsibility for any
@@ -43,10 +35,6 @@ unsure about a particular course of action, seek the help of a competent health 
 * * * * * * * * * * *
 
 Contents
-
-
-
-
 
 Introduction
 Part 1: Healing the Body 1
@@ -230,8 +218,6 @@ Bibliography…………………………………………………………�
 About the Author………………………………………………………………………………...
 
 * * * * * * * * * * *
-
-[Nu a fost extras text din această pagină.]
 
 INTRODUCTION
 
@@ -427,14 +413,10 @@ level in a worldwide movement for social and environmental responsibility. All y
 rejected and disillusioned individuals unite, to make the world a better place for
 everyone!
 
-
 * * * * * * * * * * *
-
-[Nu a fost extras text din această pagină.]
 
 Part 1
 HEALING THE BODY
-
 
 Initially, most health seekers are mainly concerned with overcoming a specific
 health problem, using the specific method or remedy promising the quickest result.
@@ -461,7 +443,6 @@ there are numerous natural healing methods to help us in our quest for good heal
 These include herbs and other natural remedies, working on muscle and bone
 structure, and using electrical, magnetic, and vibrational medicines and approaches.
 
-
 * * * * * * * * * * *
 
 1
@@ -470,7 +451,6 @@ Heal Yourself - The Natural Way
 Step 1
 THE ROAD TOWARDS DISEASE
 Become aware of the factors causing your illnesses.
-
 
 People in Western society are rarely healthy. Real health - the perfect
 functioning of all parts of body and mind - is so rare that people mistake the
@@ -678,7 +658,6 @@ Step 2
 THE ROAD TOWARDS HEALTH
 
 Learn the principles of natural living to restore your health.
-
 
 The first and most important step in reversing the deterioration of your health is
 to realize that you may have caused it yourself. Due to ignorance and habit, we
@@ -888,13 +867,6 @@ frequently must endure before we can advance to a higher level of health. This i
 especially the case for those with a chronic degenerative disease.
 
 * * * * * * * * * * *
-
-
-
-
-
-
-
 
 11
 Heal Yourself - The Natural Way
@@ -1377,7 +1349,6 @@ Step 4
 FASTING & CLEANSING
 Become clean on the inside by removing accumulated wastes and toxins.
 
-
 Fasting is a period of restricted food intake and cleansing is the removal of
 waste products from the body as a result of fasting. This combination of fasting and
 cleansing is the most effective general healing method. It is essential for overcoming
@@ -1735,7 +1706,6 @@ Step 5
 ALLERGY TESTING
 Discover and overcome your food allergies and chemical sensitivities.
 
-
 Usually we are addicted to any daily-used food or substance to which we are
 also allergic. The reverse is also true, that we have allergies to addictive foods.
 Initially when we eat a sensitizing food (one that may produce an allergic reaction),
@@ -1952,7 +1922,6 @@ allergic reactions by making the body more alkaline, as in Step 6.
 
 * * * * * * * * * * *
 
-
 34
 Heal Yourself - The Natural Way
 
@@ -1960,7 +1929,6 @@ Step 6
 THE ACID-ALKALINE BALANCE
 Bring your body back into balance by testing for and correcting any
 over-acid or over-alkaline condition.
-
 
 Our blood is slightly alkaline, and the body makes every effort to maintain this
 alkalinity at a constant level. For this purpose, we normally have an ample reserve of
@@ -2250,7 +2218,6 @@ amounts of magnesium and calcium or sometimes even to have more magnesium.
 The higher the phosphorus intake, the higher your combined calcium and
 magnesium intake should be.
 
-
 * * * * * * * * * * *
 40
 Heal Yourself - The Natural Way
@@ -2258,7 +2225,6 @@ Heal Yourself - The Natural Way
 Step 7
 LIVING WATER
 Living water has a great healing potential - learn how to use it.
-
 
 Water, air, and food are the three main essentials to sustain life. For remaining
 healthy, these should be as clean and life-enhancing as possible. All three are highly
@@ -2536,7 +2502,6 @@ Heal Yourself - The Natural Way
 Step 8
 THE PRACTICE OF HEALTHY LIVING
 Improve your environment—your house, clothes, even your teeth.
-
 
 Healthy living is the solid base for any health improvement. It includes all the
 habits that should become part of our daily lives. Our future well-being or diseases
@@ -2942,7 +2907,6 @@ Step 9
 EXERCISE
 Get into the habit of exercising regularly.
 
-
 Adequate physical activity is one of the main requirements for achieving and
 maintaining good health. Deep breathing while exercising is essential: Lack of
 oxygen - becoming breathless - is harmful. You have probably heard of aerobics.
@@ -3215,7 +3179,6 @@ and become fully immersed in the sounds. Feel something inside you moving,
 expanding, rising in resonance with the music. Try singing along.
 
 * * * * * * * * * * *
-
 
 62
 Heal Yourself - The Natural Way
@@ -3721,7 +3684,6 @@ Generally, white markings indicate a need for sedating, anti-inflammatory
 treatment of the associated organ, while grey or brown areas show a need for
 strengthening and stimulation.
 
-
 IRIS CHARTS
 Abbreviations: ADREN = Adrenal Gland, AP. = Appendix, G.B. = Gall-bladder,
 P. = Pineal Gland, PA. =Pancreas, PIT. = Pituitary Gland, S.P. = Solar Plexus.
@@ -3808,7 +3770,6 @@ Step 13
 MUSCLE TESTING
 Test your muscle strength to see whether a food
 or remedy is good or bad for you.
-
 
 Our muscles respond to many external as well as internal influences by
 becoming stronger or weaker. In muscle testing, the change in muscle strength is
@@ -3984,7 +3945,6 @@ Step 14
 THE ENDOCRINE PATTERN
 Simple arm and leg measurements can show the conditions.
 
-
 The body has developed under the guidance of the endocrine glands.
 Therefore, glandular disturbances are reflected in abnormal proportions of various
 parts of the body. Certain measurements enable us to recognize our glandular
@@ -4100,7 +4060,6 @@ Step 15
 REFLEXOLOGY
 Press reflex points on your hands and feet to diagnose
 and treat conditions within your body.
-
 
 Reflexology is excellent for self-treatment and even for diagnosis. Envisage the
 body divided into 10 vertical segments or zones, five on each side. Each finger and
@@ -4341,7 +4300,6 @@ Step 17
 COLOUR THERAPY
 Use colours to balance body conditions and your emotions.
 
-
 Colour has a powerful influence on our body chemistry. The strongest effect is
 through the eyes, but good results are also achieved by treating the skin areas over
 certain organs or the spine.
@@ -4483,7 +4441,6 @@ Step 18
 MAGNET THERAPY
 Take advantage of the fact that both poles of a magnet
 have useful biological effects.
-
 
 Magnets are effective healing tools. The opposite poles of a magnet have
 different effects on the body, so it is essential to identify the poles correctly.
@@ -4691,7 +4648,6 @@ THE ELECTRONIC ZAPPER & MAGNETIC PULSER
 Use electrotherapy to keep your body free of undesirable
 microbes and parasites.
 
-
 Electrotherapies utilize low-voltage electricity to disable a wide range of
 microbes, including viruses, fungi, bacteria, and parasites, and have been shown to
 be helpful against a wide range of infections. Various patents have been issued for
@@ -4834,7 +4790,6 @@ Step 20
 SPINAL THERAPY & MASSAGE
 Improve the activity of all your organs and glands
 by massaging your spine and body.
-
 
 Massage is an effective and usually enjoyable healing tool. It helps one to
 relax, loosens up tight muscles, and removes fluid accumulations and congestions.
@@ -5098,7 +5053,6 @@ Heal Yourself - The Natural Way
 Step 21
 HYDROTHERAPY, PACKS & COLONICS
 Use water to relax or alleviate painful conditions.
-
 
 Hydrotherapy, the use of water to treat disease, involves practices such as
 drinking large quantities of water to flush out toxins, taking hot and cold baths,
@@ -5455,7 +5409,6 @@ Step 22
 URINE & UREA THERAPY
 It may not be your "cup of tea", but many swear by this ancient therapy.
 
-
 The use of urine in the treatment of diseases has a long history. Many cultures
 have used urine for medicinal purposes: It was praised in ancient Egyptian papyri
 and used in ancient Rome, China, India, America, and European countries. An article
@@ -5698,7 +5651,6 @@ Heal Yourself - The Natural Way
 
 Part 3
 NUTRIENT & REMEDIES
-
 
 This chapter provides information about vital nutrients, such as vitamins,
 minerals, amino acids, and enzymes, as well as basic remedies including herbs and
@@ -6108,33 +6060,6 @@ Heal Yourself - The Natural Way
 pressure, arteriosclerosis, weight loss, fatigue, and eye problems (opaque cornea,
 nearsightedness, glaucoma).
 Best Sources: Brewer’s yeast, molasses, mushrooms, seafood, and grains.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Calcium EAP for Healthy Cells
 The health of our cells depends to a large degree on their ability to keep toxic materials out.
@@ -7027,7 +6952,6 @@ Step 28
 HERBS
 You may benefit from using herbal remedies instead of pharmaceutical drugs.
 
-
 Herbs are not completely harmless, but damage due to commonly used herbs
 is extremely rare, while the benefits are usually genuine and lasting. In contrast to
 culinary herbs, medicinal herbs should be used on a long-term basis only if there is a
@@ -7508,7 +7432,6 @@ COLLOIDAL SILVER, COPPER, ZINC & GOLD
 Use these powerful remedies whenever you have an infection
 or inflammation.
 
-
 In contrast to medical antibiotics that can be used only against specific
 microbes, colloidal silver has a wide range of effectiveness, eliminating bacteria as
 well as viruses and fungi. Unlike medical antibiotics, colloidal silver is not known to
@@ -7746,7 +7669,6 @@ Step 31
 OXYGEN THERAPY
 Oxygen, therapeutically applied, helps you quickly overcome any infection.
 
-
 As an infection fighter, oxygen therapy is mainly used as ozone or hydrogen
 peroxide. It is beneficial for general health improvement and also for a wide range of
 diseases, mainly involving infectious agents. Ozone infusions are widely used in
@@ -7876,7 +7798,6 @@ Heal Yourself - The Natural Way
 
 Part 4
 HEALING FOODS
-
 
 Nutrition is the main tool I have used to help patients overcome a wide range of
 diseases claimed to be medically incurable. Unnatural nutrition is one of the major
@@ -8635,7 +8556,6 @@ Step 34
 HEALTH DIETS
 Adopt a health diet suited to the specific requirements of your body.
 
-
 Diets for health improvement are different from slimming diets that do not
 always improve the health of the dieter. However, on a health diet, weight loss can
 be expected if you are overweight, in addi tion to an improvement in health. As a
@@ -9239,7 +9159,6 @@ SPECIAL FOODS
 Take advantage of the health-giving properties of bee pollen,
 sprouted seeds, fermented foods, and purple foods.
 
-
 Bee Pollen and Special Foods: Various foods have general healing qualities
 or help to overcome specific health problems. For example, foods high in enzymes
 and growth hormones improve our overa ll health. Sprouted seeds, bee pollen,
@@ -9583,7 +9502,6 @@ Heal Yourself - The Natural Way
 Step 36
 WATER AND JUICES
 Heal yourself with fresh vegetable and grass juices.
-
 
 Let’s start by the discussing water in your diet. It is important that we take in
 sufficient water for the smooth functioning of our metabolic processes, and especially
@@ -9952,7 +9870,6 @@ Step 37
 HEALING RECIPES
 Transform healthy foods into enjoyable meals.
 
-
 I am not fond of using recipes. Most recipes seem to be designed to tickle our
 palate by harming the nutrients in the food. The healthiest recipe for carrots, for
 instance, is to pull one out of the ground, clean it, and chew it well. Any additional
@@ -10295,7 +10212,6 @@ COW’S MILK PRODUCTS & LACTOSE
 Have a closer look at cow’s milk products and lactose.
 In some forms they can be beneficial, but as commonly
 used they tend to create a lot of health problems.
-
 
 The three problematic ingredients in dairy products are lactose (milk sugar),
 butterfat, and casein (and other proteins). While lactose can be a problem in all
@@ -10874,8 +10790,6 @@ Table 5-2: Symptoms of Allergy and Blood Sugar Problems
 Allergies and blood sugar problems reinforce each other and can cause the same
 symptoms or contribute to the same chronic diseases.
 
-
-
 irritability
 joint pains
 low blood pressure
@@ -11294,7 +11208,6 @@ Step 41
 MEAT & FAT
 Overconsumption of meat and fats can create serious health problems.
 Try cutting back on your intake.
-
 
 Those who eat a lot of red meat tend to develop the opposite characteristics
 and health problems to those on a sweet diet. Red meat has a stimulating effect on
@@ -11715,7 +11628,6 @@ Step 42
 CHEMICALS IN YOUR FOOS
 Minimize your exposure to toxic chemicals, water additives, and
 yeasts and moulds - your body will thank you for it.
-
 
 Almost all our foods contain non-biological chemicals to some degree. It starts
 with water-soluble fertilizers that are overused in agriculture and cause mineral
@@ -12268,7 +12180,6 @@ METABOLIC TYPES, PATHWAYS, & DIETS
 Know your individual metabolic type and
 your specific dietary requirements.
 
-
 Some foods, such as meat or sweet and acidic foods, are good for certain
 people, and for these people they are not problem foods, while with other people
 their effects are adverse. To gain a better understanding of this phenomenon and
@@ -12759,7 +12670,6 @@ Heal Yourself - The Natural Way
 
 Table 5-4: Food List for Blood Type Groups
 
-
  Type Type Type Type
  A AB B O
 
@@ -12913,7 +12823,6 @@ Heal Yourself - The Natural Way
 Part 6
 SPECIFIC HEALTH PROBLEMS
 
-
 This chapter offers guidelines for overcoming some specific health problems.
 However, it is essential to incorporate these specific recommendations into a holistic
 program for improving your overall well-bei ng. Start with the basics: Do the earlier
@@ -12947,7 +12856,6 @@ SELF-CARE HELP FOR HEALTH PROBLEMS
 Practical Tips for Relief
 If you have a specific disease, this summary of typical treatment
 protocols can show you what to do.
-
 
 I am not a doctor licensed to prescribe medications or ensure cures, but a
 nutritionist and natural therapist well versed in natural healing methods. This
@@ -14355,7 +14263,6 @@ DEFICIENCY SYMPTOMS
 Check out this list of deficiency symptoms to see if you are
 lacking in key nutrients - and start replacing them.
 
-
 Eye, hair, nail, mouth, and skin symptoms are among the early outward
 warning signs of vitamin and mineral deficiencies. The following compilations can
 help you in diagnosing and treating these deficiencies. However, increased metabolic
@@ -14395,7 +14302,6 @@ Haemorrhaging in the back of the eye vitami ns B6, E, C, B2, zinc, copper, magne
 Infected, ulcerating eyes (keratomalacia) vita min A (vitamins C, B2, B6, zinc, blue light)
 Itching, burning, watery, sandy eyes vitamin B2 (continued)
 
-
 307
 Heal Yourself - The Natural Way
 
@@ -14407,9 +14313,6 @@ Retinal detachment zinc, vitamins B6, B2, C, E, A
 Sensitive eyes, fear of strong light vitamins B2, A
 (photophobia)
 Tics of eyelids vitamins B2, B6, zinc, magnesium
-
-
-
 
 Table 6-2: Skin Deficiency Symptoms
 
@@ -14447,7 +14350,6 @@ impetigo, and so on) tea tree oil packs, propolis)
 Itching vitamins B, C, EFA, alkalizers (allergy testing)
 Jaundice vitamins C, E, B6, B12, A, lecithin, magnesium, zinc (blue
  light therapy, liver cleansing) (continued)
-
 
 308
 Heal Yourself - The Natural Way
@@ -14489,8 +14391,6 @@ Weals on the skin (urticaria) vitamin B6, zinc, vitamin C (alkalizer, allergy)
 White skin patches (vitiligo) PABA, pantothenic acid, vitamin B6, zinc
 Wrinkles or aging skin vitamins C, E, A, EFA , MSM (too much sun)
 
-
-
 Table 6-3: Hair and Nail Deficiency Symptoms
 
 Symptom Deficiency/Treatment/Cause
@@ -14515,7 +14415,6 @@ Ridges on nails, longitudinal vitamin A, protein (anemia, poor circulation, glan
 Ridges on nails, transverse fever, infection, menstrual problems, period of protein
  -deficiency
 Scaling of cuticle or lips biotin, vitamin B2
-
 
  Table 6-4: Tongue and Mouth Deficiency Symptoms
 
@@ -14543,7 +14442,6 @@ White-coated tongue intestinal putrefaction
 White patches on tongue vitamin B12 and other B vitamins (allergy)
 Yellowish-brown-coated tongue liver or gallbladder problems
 
-
 * * * * * * * * * *
 
 310
@@ -14552,7 +14450,6 @@ Heal Yourself - The Natural Way
 Step 46
 CANCER
 If you have cancer, here are some useful suggestions.
-
 
 You may gain a better appreciation of natural cancer treatment if I first share
 with you some little-known facts about orthodox cancer treatment. In cancer
@@ -15487,7 +15384,6 @@ type blood purifier or zapper to eliminate Candida and other fungi and infectiou
 agents from the blood (see Step 19). The magnetic pulser can be used to sanitize
 pockets of Candida infestations inside the mouth, vagina, or underneath the skin.
 
-
 * * * * * * * * * * *
 330
 Heal Yourself - The Natural Way
@@ -16097,7 +15993,6 @@ Step 52
 CULTIVATING THE ENERGIES
 Learn to sense subtle bioenergies and use them to energize your body.
 
-
 For increasing or maintaining our health and vitality, it is advisable to work
 directly with our life force, cultivating it, as the Chinese masters say. There are two
 main aspects to this energy cultivation. First we learn to accumulate bioenergy or
@@ -16268,7 +16163,6 @@ shoulder.
 Descends to the tongue
 and to the navel.
 
-
 Figure 7-3: The large heavenly cycle – the arm routes, from Awakening Healing Energy Through
 the Tao by Mantak Chia.
 However, if you experience unusual heat or any discomfort while trying to lift
@@ -16378,7 +16272,6 @@ Heal Yourself - The Natural Way
 Step 53
 ENERGY ACCUMULATORS
 Use orgone accumulators, pyramids, cones, or water to concentrate bioenergy.
-
 
 Various shapes such as pyramids and cones have been shown to concentrate
 bioenergy or prana. Some healers have patients sit inside small-scale pyramids with
@@ -16633,7 +16526,6 @@ Step 54
 ENERGY HEALING
 Give energy or remove excess energy to facilitate healing yourself and others.
 
-
 The term “energy healing” refers to the transfer of energy from a healer to a
 patient and to the removal of negative unhealthy energies from the patient. I imagine
 negative energy to be dense and stagnating, somewhat like cold, damp air. Its effect
@@ -16801,7 +16693,6 @@ MERIDIAN & ACUPRESSURE THERAPY
 Balance the flow of energies along your acupuncture
 meridians by tracing their circuits.
 
-
 The human body has a bioenergy circulatio n system similar to the blood
 circulation system, as shown in figure 7-4. The bioenergy flows along 12 main
 meridians, or channels. These are on each side of the body, each pair being related
@@ -16947,7 +16838,6 @@ Gallbladder, 11 p.m.-1 a.m. gallbladder problems, ear diseases, migraine, hip
 Governing Meridian spinal problems, mental disorders, fever, nose problems,
  headaches
 
-
 365
 Heal Yourself - The Natural Way
 
@@ -17041,7 +16931,6 @@ Heal Yourself - The Natural Way
 Step 56
 SEXUALITY
 Channel your sexual energies into pleasure rather than frustration.
-
 
 Strong emotions and energy flows are an integral part of sex, which is why sex
 has the potential to cause enormous problems if these emotions and energies are
@@ -17740,7 +17629,6 @@ Heal Yourself - The Natural Way
 Part 8
 HEALING YOUR EMOTIONS
 
-
 We all would like to live a happy, healthy, and fulfilled life, yet few seem to be
 able to do that. Why must we have so much suffering, failure, and disappointment?
 We want to be secure in a loving relationship and a satisfying job with a good income
@@ -17800,7 +17688,6 @@ Step 57
 UNDERSTANDING EMOTIONS AND DISEASE
 Learn how you came to be so out of touch with your feelings, what emotional
 problems and diseases this causes, and how this is expressed in your body.
-
 
 We experience ourselves in the world with our feelings and emotions. They are
 the driving force, the power, and the motor of our life. Without feelings and emotions,
@@ -17984,7 +17871,6 @@ other reasons. As an infant, we may have been afraid of being separated from our
 mother, of being left alone in a strange surrounding, so we tensed up and held our
 breath. Eventually, we had to continue breathing, but we did it in a shallow way, with
 contracted diaphragm and chest muscles.
-
 
 388
 Heal Yourself - The Natural Way
@@ -18183,7 +18069,6 @@ Heal Yourself - The Natural Way
 Step 58
 HEALING RELATIONSHIPS
 Try out these tools to heal your personal, family, and social relationships.
-
 
 We live in three different forms of relationships - our higher relationships with
 God and the spiritual dimension; our relationships with our planet and its life forms;
@@ -18708,7 +18593,6 @@ HEAL IN GROUPS
 Join a group of like-minded individuals with the goal of healing your feelings
 and helping others do the same.
 
-
 The small nuclear family as the basis of our social structure is an expression of
 the ego-centred and individualizing nature of our society. It leads to social isolation,
 difficulty in relating and cooperating, and a disruption of the age-old continuum of
@@ -18831,7 +18715,6 @@ Heal Yourself - The Natural Way
 Step 60
 LEARNING TO FEEL
 Feelings build the body; they are the glue that holds body and soul together.
-
 
 Tender feelings make us open and vulnerable, but in order not to get hurt,
 typically we prefer to close up and not feel. This has the added advantage of making
@@ -19224,7 +19107,6 @@ Step 61
 TAKE THE LOVE CURE
 Lead a radiant life filled with love and joy, and practice the Love Cure.
 
-
 Love may be the missing factor for our emotional well-being and for
 overcoming disease. Love is the opposite of fear. With cancer, for instance,
 psychological therapy has been shown to have a far greater success rate than any
@@ -19504,7 +19386,6 @@ Step 62
 HARNESS THE POWER OF THE MIND
 Appreciate the power of your subconscious mind.
 It is the real power behind the throne of the ego.
-
 
 Our mind has awesome powers. It makes us sick and unhappy or healthy and
 happy. It is a powerful tool and it is up to us in which way we want to use it. In clinical
@@ -20593,7 +20474,6 @@ Heal Yourself - The Natural Way
 
 A Healing and Love Meditation
 
-
 • Sit or lie relaxed but with a
  straight spine.
 • Take some slow, full
@@ -20857,7 +20737,6 @@ beliefs, which determine our decisions and emotional reactions in life. Then I o
 sketch of a modern spiritual path that uses health and emotional problems to develop
 the spiritual master-ship that gives us the ability to lead a happy and fulfilled life.
 
-
 * * * * * * * * * * *
 448
 Heal Yourself - The Natural Way
@@ -20865,7 +20744,6 @@ Heal Yourself - The Natural Way
 Step 64
 THE SPIRITUAL DIMENSION
 Enter the spiritual dimension of life and make it your home.
-
 
 The concept of spirituality means different things to different people. In this
 book, it means deliberately manifesting or aspiring to manifest a higher, purer
@@ -21113,7 +20991,6 @@ Step 65
 LIFE ON THE PATH
 The spiritual path is the crowning glory of human endeavour,
 and by following the 65 steps you are already on it.
-
 
 The concept of spirituality means different things to different people. In this
 Presently, travellers on the spiritual path have two advantages compared to those in
@@ -21446,7 +21323,6 @@ Heal Yourself - The Natural Way
 
 A Review of the 65 Steps
 
-
 The concept of spirituality means different things to different people. In this If
 you decide to follow the steps outlined in this book, you will have months of
 interesting work and play ahead of you. Try to make it fun by involving relatives and
@@ -21489,424 +21365,3 @@ organs in need of healing.
 Part 8 handles another key subject: healing emotions. The goal is to live life in
 a radiant way, filled with love and joy.
 Heal Yourself - The Natural Way
-461
-
-Part 9 shows how to appreciate the power of your subconscious mind and
-make it your friend, how to combine a positive expectation with the help of your
-subconscious friend so you can heal almost anything. Here you will find many
-valuable mind tools that make it possible.
-Part 10 shows you how to use spiritual guidance to overcome health and
-emotional problems as part of a spiritual pat h that provides the framework for your
-healing venture and gives meaning to your life.
-
-* * * * * * * * * * *
-Heal Yourself - The Natural Way
-462
-
-ENDNOTES
-
-1. Nelson, H. K., et al. “Host nutritional selenium status as a driving force for
-influenza mutations.” FASEB J 15 (2001): 1481–83.
-2. Schauss, A. G. “Nutrition and antisocial behaviour.” Int Clin Nutr Rev 4:4 (1984):
-172–77.
-3. For practical advice and support, contact wide-ranging
-scientific information on the negative health effects of amalgam fillings and heavy
-metals is on Bernie Windham has assembled hundreds of clinical
-studies on the problems caused by amalgam fillings and harmful metals at
-
-4. Sandyk, R. “Treatment of Parkinson’s disease with magnetic fields reduces the
-requirement for antiparkinsonian medications.” International Journal of Neuroscience
-74:1–4 (January–February 1994): 191–201. George, M. S., et al. “Transcranial
-magnetic stimulation: a neuropsychiatric tool for the 21st century.” J of
-Neuropsychiatry Clin Neuroscience 8:4 (Fall 1996): 373–82.
-5. Concar, D. “Happiness is a magnet.” New Scientist (August 5, 1995): 24–29.
-6. Smith, H. “De Urina.” JAMA 155:10 (1954): 899–902.
-7. Danopoulos, E. D. Letter: “Regression of liver cancer with oral urea.” Lancet
-1:7848 (1974): 132. Danopoulos, E. D., and I. E. Danopoulos. “Eleven years
-experience of oral urea treatment in liver malignancies.” Clin Oncol 7:4 (December
-1981): 281–89.
-8. Giordano, C. “The use of exogenous and endogenous urea for protein synthesis in
-normal and uremic subjects.” Renal Laboratory, Naples University School of
-Medicine, 1963.
-9. Javid, M., et al. “Effect of urea on cerebrospinal fluid pressure in human subjects.”
-JAMA 160:11 (1956): 943–49.
-10. Navert, B., et al. “Reduction of the phytate content of bran by leavening in bread
-and its effect on zinc absorption in man.” Brit J Nutr 53 (1985): 47–53. Also see
-books on nutrition.
-11. Doisy, R. J., et al., in Diabetes, Obesity and Vascular Disease: Advances in
-Modern Nutrition, vol. 2. New York: Holsted Press, 1978.
-12. Fesknanich, D., et al. “Milk, dietary calcium and bone fractures in women: a 12-
-year prospective study.” Am J Public Health 87 (1997): 992–97.
-13. Davis, D. R. “Vitamin A toxicity: a medical erroneous zone.” Int College of Applied
-Nutrition Update (October 1983).
-14. Buist, R. A. “Vitamin toxicities, side effects and contraindications.” Int Clin Nutr
-Review 4:4 (1984): 159–71.
-15. Ibid.
-16. Bio-Medical Center, P.O. Box 727, 615 General Ferreira, Colonia Juarez,
-Tijuana, B.C., Mexico; tel: 011-52-664-684-90-11, fax: 011-52-664-684-9744.
-17. Walker, D. H. “Inhibition of tumor promotion by a biomimetic superoxide
-dismutase.” Science 220 (1983): 75.
-18. Solanki, V., et al. “The reduction of tumor initiating activity and cell mediated
-mutagenicity of DMBA by a copper co-ordination compound.” Carcinogenesis 5
-(1984): 129.
-19. Sorenson, J. R. J. “Copper chelates as possible active metabolites of the
-Heal Yourself - The Natural Way
-463
-
-antiarthritic and antiepileptic drugs.” J Appl Nutr 32:1–2 (1980): 4–25. Bland, J.
-“Copper salicylates and complexes in molecular medicine.” Int Clin Nutr Rev 4:3
-(1984): 130–34.
-20. For information on where to buy Schweitzer Formula, see:
-
-21. Taubes, Gary. “What if it’s all been a big fat lie?” New York Times (July 7, 2002).
-22. Buist, R. A. “Beetroot as cancer therapy.” Int Clin Nutr Review 6:3 (1986): 107–
-12.
-23. Regtop, H. “Is magnesium the grossly neglected mineral?” Int Clin Nutr Review
-3:3 (1983): 10–20.
-24. Savilahti, E., and M. Kuitunen. “Allergenicity of cow milk proteins.” J Pediatr 121
-(1992): S12–S20.
-25. Cramer, D. W., et al. “Galactose consumption and metabolism in relation to the
-risk of ovarian cancer.” Lancet 2 (1989): 66–71.
-26. Saarinen, U. M. “Prolonged breastfeeding as prophylaxis for recurrent otitis
-media.” Nutrition Reviews 41 (1983): 241–42.
-27. Lothe, L., and T. Lindbert. “Cow’s milk whey protein elicits symptoms of infantile
-colic.” Pediatrics 83:2 (1989): 262–66.
-28. Mantzoros, C. S., et al. “Insulin-like growth factor 1 in relation to prostate cancer
-and benign prostatic hyperplasia.” B J Cancer 76:9 (1997): 1115–18.
-29. Fasano, A., et al. “Prevalence of celiac disease in at-risk and not-at-risk groups in
-the United States: a large multicenter study.” Archives of Internal Medicine 163:3
-(February 10, 2003): 286–92. For further information, contact University of Maryland
-Center for Celiac Research: (800) 492-5538, websites: and
-
-30. Taubes, Gary. “What if it’s all been a big fat lie?” New York Times (July 7, 2002).
-31. Piesse, J. W. “Nutritional factors in calcium containing kidney stones with
-particular emphasis on vitamin C.” Int Clin Nutr Review 5:3 (1985): 110–29.
-32. Kearney, R. “Promotion and prevention of tumour growth.” Int Clin Nutr Review
-7:4 (1987): 157–68.
-33. Jackson, J. A., H. D. Riordan, and C. M. Poling. “Aluminum from a coffee pot.”
-Lancet 1:(April 8, 1989): 781–82.
- 34. For practical advice and support, c ontact - wide-ranging
-scientific information on the negative health effects of amalgam fillings and heavy
-metals is on Bernie Windham has assembled hundreds of clinical
-studies on the problems caused by amalgam fillings and harmful metals at
-
-35. Miller, Neil Z. Vaccines: Are They Rea lly Safe and Effective? Santa Fe, NM: New
-Atlantean Press, 1993.
-36. Scheibner, V. Vaccination: A Medical Assault on the Immune System. UK:
-Minerva Books, 1993.
-———. “The shaken baby syndrome: the link to vaccination.” Nexus 5:5 (1998): 35–
-38.
-———. “Shaken baby syndrome diagnosis on shaky ground.” Journal of Australasian
-College of Nutritional and Environmental Medicine 20:2 (August 2001).
-37. Biever, Celeste. “Blood disease symptoms resemble child abuse.” New Scientist
-Newsletter (June 6, 2003).
-38. Skrabanek, P. “False premises and false promises of breast cancer screening.”
-Lancet 2 (1985): 316–19.
-Heal Yourself - The Natural Way
-464
-
-39. Baum, M. “The curability of breast cancer.” Br Med J 1 (1976): 439–42.
-40. Cunningham, L. “Mastectomy for so-called lobular carcinoma in-situ.” Lancet 1
-(1980): 306.
-41. Editorial: “Breast cancer: have we lost our way?” Lancet 1:341 (1993): 343–44.
-42. Baum, M. “Does surgery disseminate or accelerate cancer?” Lancet 347:8996
-(January 27, 1996): 260.
-43. Krokowski, E. H. “Is the current treatment of cancer self-limiting in the extent of its
-success?” J Int Acad Preventive Medicine 6:1 (1979): 23–39.
-44. Iversen, P., et al. “Radical prostatect omy versus expectant treatment for early
-carcinoma of the prostate.” Scand J Urol Nephrol 172 (1995): 65–72.
-45. McKinlay, J. B., et al. “A review of the evidence concerning the impact of medical
-measures on recent mortality and morbidity in the United States.” Int J Health
-Services 19:23 (1989): 181–208.
-46. Bailar III, J. C., and H. L. Gornik. “Cancer undefeated.” New England Journal of
-Medicine 336 (1997): 1569–74.
-47. Brown, B. W., C. Brauner, and M. C. Minnotte. “Noncancer deaths in white adult
-cancer patients.” J Natl Cancer Inst 85 (1993): 979–87.
-48. Welch, H. G., and W. C. Black. “Are deaths within one month of cancer-directed
-surgery attributed to cancer? J Natl Cancer Inst 94 (2002): 1066–70.
-49. Olsen, O., and P. C. Gotzsche. “Cochrane review on screening for breast cancer
-with mammography.” Lancet 358 (October 20, 2001): 1340–42.
-50. Editorial. Lancet 358 (October 20, 2001): 1284–85.
-51. Miller, A. B., et al. “Canadian national breast cancer screening study-2: 13-year
-results of a randomized trial in women aged 50–59 years.” J Natl Cancer Inst 92
-(September 20, 2000): 1490–99.
-52. Ernster, Virginia L., et al., “Incidence of and treatment for ductal carcinoma in situ
-of the breast.” JAMA 275:12 (March 27, 1996): 913–18.
-Page, David L., and Roy A. Jensen. “Ductal carcinoma in situ of the breast.” JAMA
-275:12 (March 27, 1996): 948–49.
-53. Cuzick, Jack, et al. “Electropotential measurements as a new diagnostic modality
-for breast cancer.” Lancet 352 (August 1, 1998): 359–63.
-54. PORT Meta-analysis Trialists Group. “Postoperative radiotherapy in non-small-
-cell lung cancer: systematic review and meta-analysis of individual patient data from
-nine randomised controlled trials.” Lancet 352:9124 (July 25, 1998): 257–63, 250–51.
-55. Bhatia, S., L. L. Robison, et al. “Breast cancer and other second neoplasms after
-childhood Hodgkin’s disease.” N Engl J Med 334:12 (Mar 21, 1996): 745–51.
-56. Klingspor, L., G. Stintzing, and J. Tollemar. “Deep Candida infection in children
-with leukaemia.” Acta Paediatr 86:1 (1997): 30–36.
-57. Klein-Szanto, A. J. P. “Carcinogenic effects of chemotherapeutic compounds.”
-Progress in Clinical and Biological Research 374 (1992): 167–74.
-58. Riccardi, A., O. Mora, et al. “Long-term survival of stage I multiple myeloma given
-chemotherapy just after diagnosis or at progression of the disease. A multicentre
-randomized study.” Br J Cancer 82:7 (April 2000): 1254–60.
-59. Nesi, Tom. Op-ed: “False hope in a bottle.” New York Times (June 5, 2003).
-60. Gould, D. “Cancer: a conspiracy of silence.” New Scientist (February 12, 1976).
-61. Begley, Sharon. “New statistics show increase in cancer rates, cancer rates go
-up, not down.” Wall Street Journal (October 16, 2002): B1.
-62. Hildenbrand, G. L., et al. “Five-year survival rates of melanoma patients treated
-by diet therapy after the manner of Gerson: a retrospective review.” Alternative
-465
-Heal Yourself - The Natural Way
-
-Therapies 1:4 (September 1995): 29–37.
-63. Seeger, M.D., D.Sc., Paul Gerhard, born 1903, worked at Robert Koch Institute
-and Humboldt University, Berlin; 290 scientif ic cancer publications, twice nominated
-for Nobel Prize.
-64. The official English-language website of Dr. Hamer is at:
-However, much more information is on the German website: which
-also has a limited English section. Dr. Hamer has written several books, of which one
-is available in English from his website under the title Summary of the New Medicine.
-65. Muldoon, M. F., S. B. Manuck, and K. A. Mathews. “Lowering cholesterol
-concentrations and mortality: a quan
- titative review of primary prevention trials.”
-British Medical Journal 301:6747 (August 11, 1990): 309–14.
-66. McCully, M.D., Kilmer S., until 1979 prof essor at Harvard Medical School, later at
-V.A. Hospital in Providence, Rhode Island.
-67. For an excellent site on the orgone energy research of Wilhelm Reich, as well as
-links to other bioenergy websites, see the Public Orgonomic Research Exchange
-(PORE) at: or see the writings of Wilhelm Reich.
-68. For further information, see The Surrendered Wife by Laura Doyle and
- for support networks in many states and countries.
-69. For further information, see The Continuum Concept by Jean Liedloff (Boulder,
-CO: Perseus Publishing, 1986 [reprint]) and for support
-network.
-70. Klopfer, Bruno. “Psychological variables in human cancer.” Journal of Projective
-Techniques 21 (1957): 329–40.
-71. J. H. Schultz (1884–1970), a German professor of psychiatry and neurology; in
-the 1920s, he developed the method for autogenic training. Information concerning
-training can be found on the Internet; this is mostly practiced in Europe and Japan.
-
-* * * * * * * * * * *
-Heal Yourself - The Natural Way
-456
-466
-
-BIBLIOGRAPHY
-
-Armstrong, John W. 1971. The Water of Life. Wellingborough, UK: Health Science
-Press.
-Becker, Robert O. 1990. Cross Currents: The Promise of Electromedicine. Los
-Angeles, CA: J. P. Tarcher.
-Bland, Jeffrey. 1981. Diagnostic Usefulness of Trace Elements in Human Hair.
-Bellevue, WA: Northwest Diagnostic Services. (Also other books by this author.)
-Boericke, William. 1996. Pocket Manual of Homeopathic Materia Medica with
-Repertory. Ottawa, ON: Laurier Books.
-Brennan, Barbara Ann. 1988. Hands of Light. New York: Bantam.
-———. 1993. Light Emerging. New York: Bantam.
-Budwig, Johanna. 1992. Flax Oil as a True Aid against Arthritis, Heart Infarction,
-Cancer and Other Diseases. Vancouver: Apple Publishing.
-Burr, Harold S. 1972. The Fields of Life. New York: Ballantine Books.
-Cantwell, Alan. 1990. The Cancer Microbe. Los Angeles: Aries Rising.
-Chia, Mantak. 1993. Awaken Healing Light of the Tao. New York: Healing Tao
-Books. (Also other books by this author.)
-Christy, Martha M. 1994. Your Own Perfect Medicine. Scottsdale, AZ: Future Med.
-Clark, Hulda R. 1995. The Cure for all Diseases. San Diego: ProMotion. (Also other
-books by this author.)
-Clynes, Manfred. 1977. Sentics: The Touch of Emotions. New York: Doubleday.
-D’Adamo, Peter J., and Catherine Whitney. 1997. Eat Right for Your Type. New
-York: Putnam. (Also other books by this author.)
-Davis, Albert R., and Walter C. Rawls. 1993. Magnetism and Its Effects on the Living
-System. Kansas City: Acres.
-Diamond, John. 1985. Life Energy. New York: Dodd, Mead.
-Dychtwald, Ken. 1977. Body-Mind. New York: Pantheon Books.
-Erasmus, Udo. 1986. Fats and Oils. Vancouv er: Alive Books. (Also other books by
-this author.)
-Fallon, Sally, and Mary G. Enig. 1999. Nourishing Traditions: The Cookbook That
-Challenges Politically Correct Nutrition and the Diet Dictocrats. Winona Lake, IN:
-New Trends Publishing.
-Gendlin, Eugene T. 1978. Focusing. New York: Everest House.
-Gerber, Richard. 1988. Vibrational Medicine. Santa Fe, NM: Bear and Co.
-Gerson, Max. 1958. A Cancer Therapy. Del Mar, CA: Totality Books.
-Hamaker, John D., annotations by Donald A. Weaver. 1982. The Survival of
-Civilization. Woodside, CA: Hamaker-Weaver Publishers; also free Web edition at:
-
-Hay, Louise L. 1982. You Can Heal Your Life. Santa Monica, CA: Hay House.
-Hirshberg, Caryle, and Marc I. Barasch. 1995. Remarkable Recovery. New York:
-Riverhead.
-Howell, Edward. 1985. Enzyme Nutrition. Wayne, NJ: Avery.
-Hugh, Paola. 1972. I Will Arise. Eastsound, WA: Fleur de Lys Foundation.
-Jacka, Judy. 2000. The Vivaxis Connection. Charlottesville, VA: Hampton Roads.
-Jensen, Bernard. 1982. Iridology, vol. 2. Escondido, CA: Bernard Jensen, Publisher.
-Kalokerinos, Archie. 1981. Every Second Child. New Canaan, CT: Keats.
-Kelder, Peter. 1939/1975. The Eye of Revelation. Vista, CA: Borderland Sciences.
-Heal Yourself - The Natural Way
-467
-
-———. 1985. Ancient Secret of the Fountain of Youth, Book 1. Gig Harbor, WA:
-Harbor Press. ———. 1998. Ancient Secret of the Fountain of Youth, Book 2. New
-York: Doubleday.
-King, Serge K. 1992. Earth Energies. Wheaton, IL: Quest Books. (Also other books
-by this author.)
-Liedloff, Jean. 1986. The Continuum Concept. Cambridge, MA: Perseus Publishing.
-Long, Max F. 1948/1979. The Secret Science behind Miracles. Marina del Rey, CA:
-DeVorss.
-———. 1953/1979. The Secret Science at Work. Marina del Rey, CA: DeVorss.
-Lowen, Alexander. 1971. The Language of the Body. New York: Collier. (Also other
-books by this author.)
-Lowen, Alexander, and Leslie Lowen. 1977. The Way to Vibrant Health: A Manual of
-Bioenergetic Exercises. New York: HarperCollins.
-McCabe, Ed. 1988. Oxygen Therapies: A New Way of Approaching Disease.
-Morrisville, NY: Energy Publications.
-———. 2002. Flood Your Body with Oxygen. Morrisville, NY: Energy Publications.
-Mendelsohn, Robert S. 1979. Confessions of a Medical Heretic. Chicago:
-Contemporary Books.
-Mercola, Joseph, and Alison R. Levy. 2003. The No-Grain Diet: Conquer
-Carbohydrate Addiction and Stay Slim for Life. New York: Dutton.
-Moss, Ralph W. 1995. Questioning Chemotherapy: A Critique of the Use of Toxic
-Drugs in the Treatment of Cancer. New York: Equinox. (Also other books by this
-author.)
-Mount, J. Lambert. 1975. The Food and Health of Western Man. New York: John
-Wiley and Sons.
-Null, Gary. 1998. Healing with Magnets. New York: Carroll and Graf. (Also other
-books by this author.)
-Ott, John. 1983. Health and Light. New York: Pocket Books.
-Page, Melvin E. 2001. Body Chemistry in Health and Disease. St. Petersburg Beach,
-FL: Page Foundation.
-Pfeiffer, Carl C. 1976. Mental and Elemental Nutrients. New Canaan, CT: Keats.
-Philpott, William, and Saron Taplin. 1990. Biomagnetic Handbook. Choctaw, OK:
-Enviro-Tech Products.
-Philpott, William H., and Dwight K. Kalita. 1983. Victory over Diabetes. New Canaan,
-CT: Keats.
-Plant, Jane. 2000. Your Life in Your Hands. London: Virgin Books.
-Pottenger, Elaine, and Robert Pottenger, Jr., eds. 1983. Pottenger’s Cats: A Study in
-Nutrition. La Mesa, CA: Price-Pottenger Nutrition Foundation.
-Price, Joseph M. 1981. Coronaries/Cholesterol/Chlorine. New York: Jove Books.
-Price, Weston. 1954. Nutrition and Physical Degeneration. La Mesa, CA: Price-
-Pottenger Nutrition Foundation.
-Reich, Wilhelm. 1973. The Cancer Biopathy. New York: Farrar, Strauss and Giroux.
-Segala, Melanie, ed. 2003. Disease Prevention and Treatment. Hollywood, FL: Life
-Extension Foundation.
-Seyle, Hans. 1956/1978. The Stress of Life. New York: McGraw-Hill.
-Singer, Sydney R., and Soma Grismaijer. 1995. Dressed to Kill: The Link Between
-Breast Cancer and Bras. Pahoa, Hawaii: ISCD Press.
-Spangler, David. 1975. The Laws of Manifestation. Forres [Scotland]: Findhorn
-Foundation.
-Heal Yourself - The Natural Way
-468
-
-Thie, John F., with Mary Marks. 1973. Touch for Health. Marina del Rey, CA:
-DeVorss.
-Vonderplanitz, Aajonus. 1997. We Want to Live. Santa Monica, CA: Carnelian Bay
-Castle Press.
-Werbach, Melvyn R. 1989. Nutritional Influences on Illness. New Canaan, CT: Keats.
-(For other books by this author, see:
- Wolcott, William L., and Trish Fahey. 2002. The Metabolic Typing Diet: Customize
-Your Diet to Your Own Unique Body Chemistry. New York: Broadway Books.
-
-* * * * * * * * * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Heal Yourself - The Natural Way
-469
-
-Heal Yourself - The Natural Way
-470
-
-ABOUT THE AUTHOR
-
-Walter Last combines the training and work experience of Research
-Chemist, Biochemist and Toxicologist with that of Practicing Nutritionist
-and Natural Therapist. He was born and grew up in Germany, and held
-positions in medical institutions at the Universities of Greifswald,
-Cologne and Munich, working in research, forensics and toxicological
-investigations. He also worked at Bio-science Laboratories in Los
-Angeles.
-In 1970 he settled in New Zealand and, dissatisfied with drug-based medicine,
-practiced as a Natural Therapist. Since 1981 he lives in Queensland/Australia and has
-investigated and experimented with a wide range of natural therapies to improve the
-effectiveness of natural medicine in treating serious and medically incurable diseases.
-Walter Last is the author of “Heal Yourself”, “Healing Foods” and “The Natural Way To
-Heal - 65 Ways to Create Superior Health” (now out of print). This E-book “ Heal
-Yourself the Natural Way” is a revised and progressively updated version of “The
-Natural Way to Heal”. He is the main contributor to the “Self Help Cancer Cure” book,
-and his articles appeared regularly in “Nexus” magazine and other journals.
-His “Heal Yourself” series of 7 books deal with particular diseases and health
-conditions, are sold worldwide, and are ava ilable at:
-His websites are at: irit.com, and
-
-
-
-
-
-
-
-
-
-
-
-
-
-Heal Yourself - The Natural Way
-471
-
-Heal Yourself - The Natural Way
-472
-
-To purchase any of the printed books in the “Heal Yourself” Series
-Email:
-Web:
-
-
-
-
-
-
-
-Published by
-
-
-
-
-...a division of Austpac Productions
-
-
-
-
-
-
-
-
-
-Austpac Productions
-P.O. Box 842,
-Moss Vale 2577, NSW, Australia
-Web:
-E-mail:
-
-
-Heal Yourself - The Natural Way
-473

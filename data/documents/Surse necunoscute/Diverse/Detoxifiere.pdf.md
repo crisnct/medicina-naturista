@@ -77,7 +77,6 @@ xenobiotics: fatty tissue biopsy, urine. Mold: Immunosciences mold panel)
 6. Response to Therapeutic Trial
 7. Functional Acuity Contrast Test (measure of Retinal Blood Flow)
 
-
 TREATMENT
 
 Why would we want to treat anyone at all? Is it really needed? Can the body not
@@ -112,7 +111,6 @@ available pharmaceuticals. Because these products cannot be patented and
 exploited for unethical personal gain, little attention has been given to them by
 European or North American medical researchers. Many of the best scientific
 studies on this topic are from Asian countries.
-
 
 The Basic Program:
 
@@ -182,7 +180,6 @@ main lymphatic channels (lymphatic uptake).
 /head2right Good for headaches and other acute symptoms (joint pains, angina,
 headache): rub 10 –15 drops into painful area. Often achieves almost
 instant pain relief.
-
 
 3. Chlorella:
 Both C.pyreneidosa (better absorption of toxins, but harder to digest) and
@@ -269,7 +266,6 @@ makes the detox experience for the patient much easier, shorter and more
 effective.
 
 Recommended dosage : 1 cap. CGF for each 20 tablets chlorella
-
 
 4. Garlic (allium sativum) and wild garlic (allium ursinum)
 Garlic has been shown to protect the white and red blood cells from oxidative
@@ -376,7 +372,6 @@ longer and is more difficult.
 Dosage : 1 tsp in a cup of good water 1-3 times/day
 Gradually increase the dosage to 1 tbsp 3 times/day
 
-
 Additional Options:
 
 Toxaway microcurrent foot bath:
@@ -431,7 +426,6 @@ release of toxins from their hiding places.
 
 Chlorella, cilantro, garlic-products and fatty acids vary greatly in quality and
 nutrient content, also in content of contaminants.
-
 
 A few specifics on neurotoxins and other ways our human system
 is tricked into becoming a comfortable host
@@ -590,8 +584,6 @@ Recommended Literature:
 Stephen Buhner “Healing Lyme” Raven Press 2005
  ( Ritchie Shoemaker, MD)
 
-
-
 Mold
 Many fungi produce toxic metabolites called mycotoxins, many of which are
 neurotoxic. Over 100 species known to cause infection in humans.
@@ -624,7 +616,6 @@ in schools, also in cereals
 3. Dermatophytes (hair, skin and nails). Usually contracted by direct contact
 through sharing grooming utensils, showers, and towels). Also passed on
 via soil.
-
 
 Mycotoxins:
 • Aspergillus and Penicillum species produce:
@@ -730,10 +721,6 @@ fluconazole and other antifungals, nystatin
 
 Recommended Literature
 
-
-
-
-
 Clinical tips from Dr Klinghardt
 
 Most symptoms of heavy metal toxicity, mold exposure, Lyme disease and
@@ -745,7 +732,6 @@ spirochetes. After eliminating Hg, the microbes recover before the host
 immune system does).
 /head2right Mold symptoms improve after successful Hg removal (mold uses Hg to
 protect itself from the host immune system)
-
 
 Tip#2:
 
@@ -785,8 +771,6 @@ environment and immediately better, as soon as out
 /head2right Metal toxicity: affected patients drawn to the dark/evil. Man made:
 artificial environments (prefer Disney land over trip to the ocean), rhythm
 without real music
-
-
 
 Detox has to be done carefully and right!
 

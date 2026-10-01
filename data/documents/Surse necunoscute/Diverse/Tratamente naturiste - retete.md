@@ -1,11 +1,8 @@
-*[Preparate naturale]{.underline}*
-==================================
+# Preparate naturale (rețete)
 
-[]{.underline}
+## 1. Anoregin
 
 **1.Anoregin**
---------------
-
 [Ingrediente:]{.underline}
 
 -- rădăcină de Ghințură -- 5 lingurițe
@@ -40,9 +37,9 @@ adulți: 1 linguriță x 3 ori / zi
 
 copii: ½ linguriță x 3 ori / zi
 
-**2.Peritin**
--------------
+## 2. Peritin
 
+**2.Peritin**
 [Ingrediente:]{.underline}
 
 -- frunze de Merișor -- 36 lingurițe
@@ -91,9 +88,9 @@ După 12 zile de tratament se face pauză de 7 zile după care se poate relua.
 
 După administrarea soluției se stă culcat pe o suprafață netedă, cu fața în sus și cu genunchii ridicați timp de 30 -- 45 minute încercându-se o relaxare profundă.
 
-**3.Taridal**
--------------
+## 3. Taridal
 
+**3.Taridal**
 [Ingrediente:]{.underline}
 
 \- Talpa-gâștii -- 41g
@@ -128,9 +125,9 @@ copii: 5 -- 20 picături x 2 ori / zi. Nu se administrează copiilor cu vârsta 
 
 După 14 zile de tratament se face pauză de 14 zile, după care se poate relua.
 
-**4.Tricodelzin**
------------------
+## 4. Tricodelzin
 
+**4.Tricodelzin**
 [Ingrediente:]{.underline}
 
 -- flori de Gălbenele -- 30g
@@ -159,9 +156,9 @@ tricomonază, toxoplasmoză, dismenoree primară, răni, hemoroizi. Adjuvant în
 
 Se poate folosi și extern prin spălături locale cu soluție formată din 1ml Tricodelzin și 50 -- 100ml apă distilată.
 
-**5.Rinipat**
--------------
+## 5. Rinipat
 
+**5.Rinipat**
 [Ingrediente:]{.underline}
 
 -- rădăcină de Măceș -- 33g
@@ -198,9 +195,9 @@ adulți: dimineața la ora 6 se iau 15 -- 30 picături, iar seara la ora 6 se ia
 
 După 30 de zile de tratament se va face pauză de 10 zile, după care se reia dacă mai este necesar.
 
-**6****.Bilipat**
------------------
+## 6. Bilipat
 
+**6****.Bilipat**
 [Ingrediente:]{.underline}
 
 -- tinctura de Rostopască 20% -- 30g
@@ -233,9 +230,9 @@ Soluția se ia dizolvată în puțină apă cu zeamă de lămâie(1 linguriță)
 
 După 14 zile de tratament se face pauză de 7 zile după care se reia.
 
-**7.Oțet de măceșe și ghimbir**
--------------------------------
+## 7. Oțet de măceșe și ghimbir
 
+**7.Oțet de măceșe și ghimbir**
 Ingrediente:
 
 -- vin roșu -- 1600ml
@@ -276,9 +273,9 @@ Se poate pune la salate sau se poate lua dizolvat în apă.
 
 Doza recomandată este de o lingură pe zi. Doza maximă este de 4 linguri pe zi.
 
-**8.Oțet din fructe de pădure**
--------------------------------
+## 8. Oțet din fructe de pădure
 
+**8.Oțet din fructe de pădure**
 Ingrediente:
 
 -- porumbe -- 1kg
@@ -317,9 +314,9 @@ Se poate pune la salate sau se poate lua dizolvat în apă.
 
 Doza recomandată este de o lingură pe zi. Doza maximă este de 3 linguri pe zi.
 
-**9.Sitosec**
--------------
+## 9. Sitosec
 
+**9.Sitosec**
 Ingrediente:
 
 -- rădăcină de Nalbă-mare -- 28 lingurițe
@@ -352,9 +349,9 @@ adulți: 1 -- 2 linguri x 3 ori / zi
 
 copii: 1 -- 2 lingurițe x 3 ori / zi
 
-**10.Sitopec**
---------------
+## 10. Sitopec
 
+**10.Sitopec**
 Ingrediente:
 
 -- rădăcină și rizomi de Ciuboțica -- cucului -- 65g
@@ -395,9 +392,9 @@ copii \> 6 ani : ½ -- 1 linguriță x 2 ori / zi
 
 copii 2 -- 5 ani: ½ linguriță o dată pe zi
 
-**1****1.Astripec**
--------------------
+## 11. Astripec
 
+**1****1.Astripec**
 Ingrediente:
 
 -- rădăcină și rizomi de Ciuboțică -- cucului -- 5g
@@ -432,9 +429,9 @@ adulți: o lingură de trei ori pe zi
 
 copii: o linguriță de trei ori pe zi
 
-**12.Fitovit 7**
-----------------
+## 12. Fitovit 7
 
+**12.Fitovit 7**
 Ingrediente:
 
 -- rădăcină de Ghințură -- 16g
@@ -495,9 +492,9 @@ O doză de 2ml Fitovit 7 este echivalentă cu :
 
 -- tinctură 20% de Cimbru -- 0,12ml ≈ 5 picături
 
-**13****.Carcifit 5C**
-----------------------
+## 13. Carcifit 5C
 
+**13****.Carcifit 5C**
 Ingrediente:
 
 -- Busuioc de câmp -- 30g
@@ -536,9 +533,9 @@ doza maximă: 3ml x 2 ori /zi
 
 După o lună de tratament se face pauză de 10 zile după care se reia dacă este cazul.
 
-**1****4.Carcifit 6C**
-----------------------
+## 14. Carcifit 6C
 
+**1****4.Carcifit 6C**
 Ingrediente:
 
 -- rădăcină de Iarbă -- mare -- 30g
@@ -577,9 +574,9 @@ doza maximă: 1ml x 2 ori /zi
 
 După o lună de tratament se face pauză de 10 zile după care se reia dacă este cazul.
 
-**15.Redocol**
---------------
+## 15. Redocol
 
+**15.Redocol**
 Ingrediente:
 
 -- coji uscate de struguri roșii -- 30g
@@ -610,9 +607,9 @@ Administrare:
 
 După o lună de tratament se face pauză de 10 zile după care se poate relua.
 
-**16.Enterodin**
-----------------
+## 16. Enterodin
 
+**16.Enterodin**
 Ingrediente:
 
 -- rădăcină de Ghințură -- 7g
@@ -647,9 +644,9 @@ Soluția se ia dizolvată în puțină apă și nu se administrează copiilor cu
 
 După 14 zile de tratament se face pauză de 7 zile după care se poate relua.
 
-**17.Cicrudin**
----------------
+## 17. Cicrudin
 
+**17.Cicrudin**
 Ingrediente:
 
 -- coajă de Crușin -- 15 lingurițe
@@ -688,9 +685,9 @@ copii: 1-2 lingurițe x 2 ori / zi
 
 După 7 zile de tratament se face pauză de 21 zile după care se poate relua. Nu se administrează copiilor sub 1 an. Se va administra cu prudență la copiii cu vârsta cuprinsă între 1 și 4 ani.
 
-**18.Septigal**
----------------
+## 18. Septigal
 
+**18.Septigal**
 Ingrediente:
 
 -- conuri de Hamei -- 20g
@@ -721,9 +718,9 @@ Administrare:
 
 În primele 7 zile de tratament se vor lua 10 -- 20 picături seara înainte de culcare. După cele 7 zile se vor lua 0,5 -- 2 ml (≈ 20 -- 80 picături)
 
-**19.Hiperidin**
-----------------
+## 19. Hiperidin
 
+**19.Hiperidin**
 Ingrediente:
 
 -- flori și frunze de Păducel -- 20g
@@ -760,9 +757,9 @@ Administrare:
 
 După o lună de tratament se va face pauză de 7 zile după care se reia.
 
-**20.Maxivit U**
-----------------
+## 20. Maxivit U
 
+**20.Maxivit U**
 Ingrediente:
 
 -- ulei din germeni de porumb -- 135g
@@ -793,9 +790,9 @@ copii: ½ -- 2 lingurițe x 2 ori / zi
 
 Preparatul conține cantități apreciabile de vitamina E, F, D, B17, , acidul gama -- linoleic (AGL -- care este prezent și în laptele de mamă), acidul docosahexaenoic (DHA) . Cercetări recente au relevat faptul că nivelul scăzut de DHA în organism este responsabil de boala Alzheimer, boală progresivă și din nefericire, deocamdată incurabilă. DHA se află și în uleiul de pește, uleiul de rapiță, de nuci și de soia. S-a demonstrat că vitamina B~17~ , care se află în semințele unor fructe (mere, nuci pere, caise,....) și în unele uleiuri extrase din plante, este anticancerigenă. [Uleiul de porumb]{.underline} este antioxidant, și este foarte util, datorită conținutului ridicat de vitamina E, în dezvoltarea și asigurarea unei bune funcționalități a aparatului reproducător. [Uleiul de dovleac]{.underline} asigură buna funcționare a aparatului uro -- genital. [Uleiul de măsline]{.underline} este util ficatului și stomacului. [Uleiul de]{.underline} [luminiță]{.underline} conține cantități mari de AGL.
 
-**21.Tanafeg I**
-----------------
+## 21. Tanafeg I
 
+**21.Tanafeg I**
 Ingrediente:
 
 -- suc de ceapă -- 100ml
@@ -826,9 +823,9 @@ Administrare:
 
 După 7 zile de tratament se face pauză de 14 zile după care se reia.
 
-**22.Tanafeg II**
------------------
+## 22. Tanafeg II
 
+**22.Tanafeg II**
 Ingrediente:
 
 -- suc de ceapă -- 75ml
@@ -863,9 +860,9 @@ adulți: 1-4 lingurițe x 2 ori / zi
 
 copii: ½ -- 2 lingurițe x 2 ori / zi
 
-**23.Teofigin**
----------------
+## 23. Teofigin
 
+**23.Teofigin**
 Ingrediente:
 
 \- alcool 85° -- 500ml
@@ -908,9 +905,9 @@ O lingură de preparat este echivalentă cu :
 
 -3,7g cacao
 
-**24.Citrovit**
----------------
+## 24. Citrovit
 
+**24.Citrovit**
 Ingrediente:
 
 - suc de portocale -- 300ml
@@ -941,9 +938,9 @@ Administrare:
 
 După 14 zile se face pauză de 14 zile.
 
-**25.Lemovit**
---------------
+## 25. Lemovit
 
+**25.Lemovit**
 Ingrediente:
 
 - suc de lămâie -- 250g
@@ -970,9 +967,9 @@ Administrare:
 
 După 7 zile se face pauză de 14 zile.
 
-**26.Laxafor**
---------------
+## 26. Laxafor
 
+**26.Laxafor**
 Ingrediente:
 
 \- coajă de la 8 portocale
@@ -999,9 +996,9 @@ Administrare:
 
 2-6 linguri înainte de masa de dimineață.
 
-**27.Maxivit L**
-----------------
+## 27. Maxivit L
 
+**27.Maxivit L**
 Ingrediente:
 
 - suc de morcov -- 300ml
@@ -1036,9 +1033,9 @@ copii (1-5 ani) : ½-2 linguri dimineața pe stomacul gol
 
 După 14 zile se face pauză de 7 zile după care se poate relua.
 
-**28.Energil**
---------------
+## 28. Energil
 
+**28.Energil**
 Ingrediente:
 
 - scorțișoară -- 30g
@@ -1069,9 +1066,9 @@ adulți: 0,5-4ml o dată pe zi
 
 copii: 0,2-1 ml o dată pe zi
 
-**29.Dicarbetin**
------------------
+## 29. Dicarbetin
 
+**29.Dicarbetin**
 Ingrediente:
 
 - coji de castravete amar
@@ -1100,9 +1097,9 @@ Administrare:
 
 0,3-1ml x 3 ori / zi
 
-**30.Herinil**
---------------
+## 30. Herinil
 
+**30.Herinil**
 Ingrediente:
 
 - pastă de usturoi -- 5 lingurițe
@@ -1135,9 +1132,9 @@ Administrare:
 
 Se pune după gust la mâncăruri reci. Administrarea preparatului cu miere de albine și lapte îi crește foarte mult valoarea terapeutică.
 
-**31.Reternil**
----------------
+## 31. Reternil
 
+**31.Reternil**
 Ingrediente:
 
 - Cimbru -- 10g
@@ -1164,9 +1161,9 @@ Administrare:
 
 Preparatul se poate adăuga la mâncăruri reci (sau puțin calde), sau se poate lua cu puțină apă. Se recomandă a se folosi maxim 30 picături la o masă.
 
-**32.Iternil**
---------------
+## 32. Iternil
 
+**32.Iternil**
 Ingrediente:
 
 - făină de Muștar -- 15g
@@ -1193,9 +1190,9 @@ Administrare:
 
 În scop terapeutic se vor lua între 2 și 20 picături, de două ori pe zi. Se recomandă a nu se depăși pragul de 20 picături mai ales pentru o perioadă lungă de timp.
 
-**33.Gastromin**
-----------------
+## 33. Gastromin
 
+**33.Gastromin**
 Ingrediente:
 
 - coajă de portocale -- 200g
@@ -1226,9 +1223,9 @@ Administrare:
 
 50ml x 2 ori / zi înainte de masă cu un sfert de oră.
 
-**34.Cidricat**
----------------
+## 34. Cidricat
 
+**34.Cidricat**
 Ingrediente:
 
 - fructe uscate de Păducel (Gherghinar)-- 800g
@@ -1261,9 +1258,9 @@ Administrare:
 
 50--200ml x 2 ori / zi sau 50--300ml o dată pe zi.
 
-**35.Anacidin**
----------------
+## 35. Anacidin
 
+**35.Anacidin**
 Ingrediente:
 
 - Schinel -- 20g
@@ -1294,9 +1291,9 @@ copii: 0,2-1 ml x 2 ori / zi
 
 Soluția se ia dizolvată în puțină apă în puțină apă înainte de masă cu 15-30 minute.
 
-**36.Voscirin**
----------------
+## 36. Voscirin
 
+**36.Voscirin**
 Ingrediente:
 
 - Măghiran -- 30g
@@ -1323,9 +1320,9 @@ Administrare:
 
 Se dizolvă 2-6 lingurițe de soluție în puțină apă și se face gargară.
 
-**37.Erpecin**
---------------
+## 37. Erpecin
 
+**37.Erpecin**
 Ingrediente:
 
 - Sunătoare -- 20g
@@ -1367,6 +1364,8 @@ uz intern: ½ - 1 linguriță x 3 ori / zi
 uz extern: badjonări cu ulei de 2-3 ori pe zi
 
 *Atenție*: Nu se administrează femeilor în perioada de sarcină și alăptare. În cazul copiilor uleiul se utilizează doar pentru uzul extern.
+
+## 38. Maxivit C
 
 **38. Maxivit C**
 

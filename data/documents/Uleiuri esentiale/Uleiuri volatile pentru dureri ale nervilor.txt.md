@@ -1,4 +1,4 @@
-- ulei de bergamota
+# ulei de bergamota
 
 este racoritor si inviorator, iar asupra sistemului nervos actioneaza ca un tonic revigorant. Este util in caz de stres, iritabilitate, tensiune nervoasa, dureri de cap.
 

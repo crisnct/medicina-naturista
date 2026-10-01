@@ -4,8 +4,6 @@ Andreea Marinescu\
 \
 **Alege alimente mari in volum, precum pepenele sau ardeiul gras, iar la salate adauga boabe de fasole.**
 
-
-
 Ingrijorat ca nu mai incapi in costumul de baie, in sorturi sau in alte haine de vara fara sa te simti infometat psihic sau frustrat?\
 \
 Raspunsul poate fi sa mananci mai mult, nu mai putin. Da, ai citit corect. Si nu, nu este vorba despre ultimul capriciu in materie de slabit.\

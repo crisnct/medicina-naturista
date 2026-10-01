@@ -42,4 +42,3 @@ And this from Dr. Archie Kalokerinos, author of the book \"Every Second Child\":
 
 If you are in the frustrating position of wanting to inform your spouse, friends and/or relatives about vaccination, but they won't read appropriate literature, then this video is ideal. It is clear and logical and an eye-opener. Every doctor should see and respond to it.
 
-

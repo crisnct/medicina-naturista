@@ -1,6 +1,4 @@
-### Antiinflamatoare Naturale
-
-### Tabel 1
+# Antiinflamatoare Naturale
 
 | Coloana 1 | Coloana 2 | Coloana 3 | Coloana 4 | Coloana 5 |
 | --- | --- | --- | --- | --- |
@@ -25,7 +23,4 @@
 | | | | | Tiolin |
 
 Consumă alimente care îți stimulează organismul de a produce antioxidanți
-
-
-
 Antioxidanții îți vor reduce radicalii liberi, cei care provoacă inflamațiile.

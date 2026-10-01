@@ -1,4 +1,4 @@
-**Natural treatment for cancer**
+# Natural treatment for cancer**
 
 - **Vitamin B17**: 500mg x 2-3 times per day, OR apricot seeds (1 tablespoon 2 times per day)
 

@@ -9,8 +9,6 @@ Unele produse din plante consumate împreună cu medicamente antiinflamatoare po
  Unu din zece a consumat produse care prezintă interacțiuni cu medicamentele convenționale, dintre care echinaceea crește riscul hepatotoxicității atunci când este luat împreună cu antireumaticele uzuale, iar gingko biloba și usturoiul pot precipita hemoragii dacă sunt administrate în același timp cu antiinflamatoare steroidiene și nesteroidiene.\
  Mulți dintre pacienți erau mirați că s-au expus singuri la un asemenea risc, iar alții se gândeau că ar fi fost mai bine să consulte și un specialist în acest domeniu. De multe ori medicii nu recunosc aceste efecte adverese potențial periculoase ale preparatelor din plante, iar pacienții neglijează să informeze medicul de neplăcerile apărute în urma consumului, spun autorii, recomandând în același timp o mai bună informare a acelora care le prescriu sau recurg la folosirea lor.
 
-
-
 **Medicamentul-minune împotriva obezității dar și a fumatului**
 ===============================================================
 
@@ -26,8 +24,6 @@ Grupul farmaceutic Sanofi-Aventis va depune în cel de-al doilea trimestru al an
 **Mustar alb**: diabet, hipertensiune, insomnie, constipatie, reumatism, anorexie.
 
 semintele constipatie, infuzie din frunze, flori si seminte hipertensiune
-
-
 
 #### Tratarea reumatismului pe cale naturista
 
@@ -72,9 +68,6 @@ Cine nu isi poate permite sa mearga la tratament si-l poate face singur acasa, c
 
 Liliana SIMIDON
 
-
-
 **EDEMELE PICIOARELOR**\
 4 linguri seminte de in se pun intr-un litru de apa. Se fierb 10 minute, se acopera, se lasa 1 ora si se adauga suc de lamaie. Se bea cate un pahar la 2 ore, timp de 2, 3 zile.
-
 

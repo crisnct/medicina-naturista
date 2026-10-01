@@ -40,14 +40,10 @@ Hipertensiunea este extrem de periculoasa fiindca, în primul rând, simptomele 
 **\
 Totusi, un lucru ar trebui sa fie clar - usturoiul nu este un leac pentru hipertensiune; nu face decât sa coboare tensiunea si efortul impus inimii, venelor si arterelor, plus alte simptome neplacute, care pot reveni când terapia cu usturoi înceteaza. Oricum, folosirea prelungita a usturoiului a tins, în multe cazuri, sa coboare permanent hipertensiunea!**
 
-
-
 **UN REMEDIU ALIMENTAR BIBLIC PENTRU DIABET Folosirea usturoiului a redus nivelul de zahar din sângele diabeticilor. Intr-un caz, un om cu diabet avansat aflase de la doctori ca era într-o situatie fara speranta si a fost trimis sa moara acasa, la vârsta de saizeci de ani. La nouazeci de ani, înca mai traia, sanatos tun. Incepuse sa manânce o combinatie de usturoi, patrunjel si creson. Nivelul zaharului din sânge i-a coborât de la 200 si ceva la 110. Si a continuat sa foloseasca fericit acest remediu, timp de ani de zile. Usturoiul nu vindeca diabetul si nu trebuie folosit fara permisiunea medicului. Dar poate fi un mod util de a coborî nivelul zaharului si, astfel, de a controla boala. Surprinzator si interesant, însa, este faptul - consemnat de mai multe ori - ca usturoiul poate reduce nivelul zaharului din sânge la diabetici.**
 
 **UN ALIMENT BIBLIC TESTAT COMPARATIV CU MEDICATIA ANTIDIABETICA\
 Usturoiul - desi are o actiune putin mai înceata - este la fel de eficient ca tolbutamida (un medicament oral pentru diabetici) la eliminarea glucozei excesive din sânge. Doamna RB., consumatoare de usturoi, spune: \"Recent, mi s-a pus diagnosticul de diabet moderat. Medicul mi-a spus ca, daca nivelul zaharului din sânge nu-mi scadea, trebuia sa iau un medicament oral. Citisem despre modul cum poate usturoiul sa reduca nivelul zaharului din sânge, asa ca am început imediat sa iau câte o capsula de usturoi de 0,32 gr., pe lânga vitamine si drojdia de bere, dupa fiecare masa. Rezultatul: zaharul din sânge mi-a revenit la normal si nu mi-a mai fost necesar sau prescris nici un medicament.**
-
-
 
 **REÎNTINERESTE FICATUL Principala valoare a usturoiului în tulburarile hepatice consta în puterea sa de a detoxifia bacteriile putrefactive din intestine si, astfel, de a ajuta ficatul sa se odihneasca. Este un stimulent dovedit al sucurilor gastrice si ajuta cresterea si vigoarea circulatiei sangvine prin ficat. Se sustine ca o lingurita de usturoi, în amestec cu o lingura de untdelemn de masline sau ulei de soia, luata seara, învioreaza ficatul si îl reîntinerese atât de mult, încât pielea de pe trup va straluci de activitate reînnoita. Utilizatorii spun ca e într-adevar o planta miraculoasa.**
 

@@ -1,4 +1,6 @@
-Tratamente si recomandari din domeniul medicinei naturale
+# Tratamente și recomandări din domeniul medicinei naturale
+
+## Hipercolesterolemie. Recomandari.
 
 **Hipercolesterolemie. Recomandari.**
 
@@ -27,6 +29,8 @@ iar cele obtinute prin presare la cald, il cresc
 \- fructe de Maces
 
 \- frunze de Patlagina
+
+## Aliment\~Colesterol(mg/100g)
 
 **Aliment\~Colesterol(mg/100g)**
 
@@ -62,10 +66,12 @@ iaurt\~5
 
 lapte\~2
 
-Colesterol
-==========
+## Colesterol
 
+Colesterol
 \- ficatul fabrica colesterolul din grasimile simple pe care omul le ingera. Numai grasimile alterate si cele care au fost incinse duc la cresterea exagerata a acestuia
+
+## Bitter suedez
 
 **Bitter suedez:**
 
@@ -101,6 +107,8 @@ Indicatii: eczeme, balonari, dureri abdominale, colici biliare, constipatie, dia
 
 Administrare: 1-5 lingurite x 2-3 ori / zi
 
+## Tuberculoza. Recomandari.
+
 **Tuberculoza. Recomandari.**
 
 \- infuzie din frunze si flori de Podbal, radacina de Tataneasa (infuzia se face cu lapte ), flori de Tei, flori de Boz negru, radacina de Pir, flori de Lumanarica
@@ -129,9 +137,13 @@ Administrare: 1-5 lingurite x 2-3 ori / zi
 
 \- pasta de Trandafiri: 100g petale + 150g miere de salcam; se iau 2 linguri pe zi. Se pastreaza maxim doua saptamani la frigider
 
+## Coxartroza. Tratament.
+
 Coxartroza. Tratament.
 
 \- aspirina tamponata (2-6 comprimate pe zi) si alte medicamente antiinflamatorii
+
+## Reumatism. Recomandari
 
 Reumatism. Recomandari
 
@@ -143,9 +155,13 @@ Reumatism. Recomandari
 
 \- ceai: frunze de Coacaz 100g + frunze de Frasin 50g + Cretusca/Barba caprei 50g. Se face infuzie din o lingura la o cana. Se beau 3 - 4 cani pe zi.
 
+## Ateroscleroza. Alimente interzise
+
 Ateroscleroza. Alimente interzise:
 
 \- Varza, Fasole, Mazare, Nuci, Alune, alcool, grasimi, zahar
+
+## Carii. Recomandari
 
 Carii. Recomandari
 
@@ -159,23 +175,33 @@ Constipatie:
 
 \- contraindicate: ciocolata, cacao, orez, carne
 
+## Chelie rotunda sau in cuiburi. Recomandari
+
 Chelie rotunda sau in cuiburi. Recomandari
 
 \- 500 ml alcool 96 grade + 100g frunze de Condurul doamnei + 100g frunze de Urzica mica + 10g rizom de Coada racului. Se face tinctura cu care se unge pielea capului
 
 \- otet de flori de Albastrele
 
+## Acnee. Recomandari
+
 Acnee. Recomandari
 
 \- Sofran indian(radacina de Curcuma) 1p + Lemn-dulce 1p. Plantele se macina fin si se amesteca cu putina apa, dupa care se aplica pe fata
+
+## Dureri de spate. Recomandari
 
 Dureri de spate. Recomandari
 
 \- se palica o pasta facuta din Ghimbir si apa, iar apoi se unge pielea cu ulei de Eucalipt
 
+## Raceala. Recomandari
+
 Raceala. Recomandari
 
 \- uleiul de Eucalipt (inhalatii, frectie, uz intern: 1-2 picaturi cu zahar)
+
+## Artertite/artrite. Recomandari
 
 Artertite/artrite. Recomandari
 
@@ -193,6 +219,8 @@ Artertite/artrite. Recomandari
 
 \- alimente care trebuie evitate: laptele, branza, porumbul, carnea rosie, faina, cafea, zahar, sare, condimentre, conservanti, aditivi, acid uric
 
+## Obezitate. Recomandari
+
 Obezitate. Recomandari
 
 \- ajuta foarte fult potasiul
@@ -205,23 +233,33 @@ Litiaza/Calculoze urinare
 
 \- pentru pietre ka rinichi: radacina de Maces, Lamaia
 
+## Pitiriazis versicolor. Tratament
+
 Pitiriazis versicolor. Tratament:
 
 \- solutie de uz extern din aspirina si apa
 
 \- unguent Biazol
 
+## Vertije. Tratament
+
 Vertije. Tratament:
 
 \- citrat de sodiu
+
+## Hiperaciditate gastrica. Recomandari
 
 Hiperaciditate gastrica. Recomandari
 
 \- drojdia de bere
 
+## Afectiuni cardiovasculare. Tratament general
+
 Afectiuni cardiovasculare. Tratament general
 
 \- 300g frunze de Aloe + 120g zahar brun + 700ml vodca. Amestecul se macereaza 21 de zile. Se ia cate o lingura pe zi cu suc de lamaie
+
+## Eczeme. Recomadari
 
 Eczeme. Recomadari
 
@@ -252,6 +290,8 @@ Muscatura de vipera:
 Antivomitiv:
 
 \- bicarbonat de sodiu + zahar + acid citric + apa
+
+## Calculoza biliara. Tratament
 
 Calculoza biliara. Tratament
 
@@ -286,6 +326,8 @@ Calculoza biliara. Tratament
 \- contraindicate: grasimi, varza, fasole, oua, afumaturi, lapte, cafea, alcool, prajeli, dulciuri, cartofi, usturoi
 
 \- o lingurita de apa de vita de vie se ia dimineata pe stomacul gol
+
+## Cancer.Tratamente.
 
 Cancer.Tratamente.
 
@@ -324,6 +366,8 @@ Anticancerigene:
 Compusi chimici cancerigeni:
 
 \- dioxina, pesticidele, PCB(se afla in pestii din ape poluate), carne prajita la carbuni, azbestul, cafeina, vit B6 in cantitati mari, alfatoxinul(se afla si in alunele alterate)
+
+## Pietre la rinichi.Tratament pentru eliminare rapida.
 
 Pietre la rinichi.Tratament pentru eliminare rapida.
 
@@ -1069,6 +1113,8 @@ Antivitamine:
 
 \- vit H \<-\> albus de ou crud
 
+## Recomadari culinare
+
 Recomadari culinare:
 
 \- pentru prajit sunt recomandate uleiurile cu continut scazut de acizi grasi polinesaturati (ex. uleiul de masline obtinut prin presare la rece)
@@ -1254,6 +1300,8 @@ Alimente si medicamente contrare:
 \- antiacide \<-\> saruri feroase, Tetraciclina
 
 \- ulei de parafina \<-\> polivitamine
+
+## Afectiunea\~Recomandari
 
 Afectiunea\~Recomandari
 
@@ -1720,6 +1768,8 @@ Brusturele
 Plamanarica
 
 \- regleaza activitatea glandelor cu secretie interna
+
+## Ginkgo Biloba. Indicatii
 
 Ginkgo Biloba. Indicatii
 

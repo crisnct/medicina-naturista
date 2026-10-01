@@ -1,4 +1,4 @@
-**Recomandări pentru vindecarea ulcerului/gastritei hiperacide/infecției cu helicobacter pylori:**
+# Recomandări pentru vindecarea ulcerului/gastritei hiperacide/infecției cu helicobacter pylori
 
 - ***Suc proaspăt de Varză*****: 500ml pe zi. Tratamentul cu suc se va urma aproximativ 3-4 săptămâni.**
 - ***Suc de Pătrunjel***: 3 linguri dimineața între orele 8.00-11.00 pe stomacul gol

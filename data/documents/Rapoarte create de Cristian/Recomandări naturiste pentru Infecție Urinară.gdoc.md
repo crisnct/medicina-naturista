@@ -1,10 +1,4 @@
-# Recomandări naturiste pentru
-
-# infecție urinară
-
-##
-
-# Remedii din plante medicinale
+# Recomandări naturiste pentru infecție urinară
 
 ## Uz intern
 
@@ -66,7 +60,7 @@ Se amestecă toate aceste uleiuri iar o doză constă într-o linguriță care s
 - Spălături clitoridiene și vaginale cu **ceai NC502**. (vezi rețeta mai sus în secțiunea Uz Intern)
 - Pe perioada tratamentului dar nu numai, nu folosiți gel pentru igiena intimă, spray de igienă intimă, spumant de baie, tampoane, tampoane din hârtie de toaletă parfumată. deoarece pot fi iritante. Spălarea cu apă caldă este suficientă.
 
-# Alimentație
+## Alimentație
 
 - **Alimente recomandate a se consuma pe perioada tratamentului**: mărar, pătrunjel, țelină, ridichi roșii, pastă de tomate, pere pădurețe, agrișe, afine, banane, ulei de dovleac presat la rece, hrean, usturoi, măghiran, frunze de schinduf, carne.
  - **Iaurturi făcute în casă cu tulpinile**: Lactobacillus reuteri, Lactobacillus rhamnosus, Lactobacillus acidophilus, Lactobacillus casei.
@@ -85,14 +79,6 @@ Se amestecă toate aceste uleiuri iar o doză constă într-o linguriță care s
  - Fresh din 5 legături de pătrunjel, o mână de merișoare, o banană și o pară.
  - Fresh dintr-o mână de merișoare, frunzele și rădăcina de la o țelină și o banană.
  - **Alimente interzise total pe perioada tratamentului**: zahărul, laptele, brânza, ovăzul, spanacul, citricele, ciocolata.
-
-
-
-
-
-
-
-
 
 ## Schema 1 de tratament \- atac în forță cu cele mai puternice arme
 
@@ -124,12 +110,6 @@ Durata: 5 zile
 *\*Dacă e posibil, înainte de a lua suplimentele de la ora 17:00 se consumă 50ml vodcă pentru o mai bună eficiență a acestora. Vodca se bea cu 20min înainte de a lua suplimentele.*
 *\*În această perioadă e posibil ca urina să devină verzuie (datorită hidrochinonei din frunzele de merișor) dar acesta nu trebuie să fie motiv de îngrijorare.*
 
-##
-
-##
-
-##
-
 ## Schema 3 de tratament \- vindecarea răniților și dezvoltarea armatei
 
 Durata: 14 zile
@@ -145,18 +125,12 @@ Durata: 14 zile
 \* În zilele 6 \- 10 zile se folosește iaurt făcut cu tulpina Lactobacillus acidophilus
 \* În zilele 11 \- 15 zile se folosește iaurt făcut cu tulpina Lactobacillus casei
 
-#
-
-#
-
-#
-
-# Alte terapii alternative
+## Alte terapii alternative
 
 - Purtarea unei bijuterii cu **prehnit** grăbește vindecarea.
 - Potrivit “Marelui Dicționar al Bolilor și Afecțiunilor – cauze subtile ale îmbolnăvirii”, infecția urinară apare în perioada în care persoana trece printr-o mare supărare și arde pe interior de frustrare, exasperare, ranchiună în același timp nefiind satisfăcută cu viața sexuală. Persoana ar trebui să citească și să conștientizeze acest text: “*Nefiind capabilă să îmi exprim emoțiile negative, fricile și conflictele mele interioare, legate de ceea ce trăiesc, ele urcă la suprafață. Având mari așteptări neîmplinite, îi acuz pe ceilalți de acest gol interior, mai ales pe partenerul meu. Trăiesc frustrare după frustrare, deoarece le las celorlalți responsabilitatea pentru binele meu. Furia mea interioară este de obicei întoarsă spre persoanele de sex opus sau spre partenerul meu sexual. Mă simt prizonieră? Oare există cineva care are control asupra mea? De aici derivă un sentiment de neputință și am impresia că viața mea este distrusă. Este momentul să accept, să îmi asum responsabilitățile pentru viața mea. Iau decizia de a merge înainte și de a renaște, independentă de relațiile mele prezente sau de trecut. Mă umplu de blândețe. Îmi las creativitatea să se exprime. Astfel îmi trăiesc viața în funcție de inimă în loc să fiu îndrumată tot timpul de minte.*”
 
-# Atenție\!
+## Atenție\!
 
 - Nu consuma prea multe **merișoare** sau prea des deoarece îți poate subția prea mult sângele. O mână de merișoare proaspete/congelate puse în fresh pe fiecare zi timp de 30 zile consecutiv, sau 150-300ml suc de merișoare pe zi timp de 30 zile e OK..
 - Nu consuma cei 50 ml **vodcă** recomandați dacă vei conduce un autoturism în următoarele 3 ore.
@@ -195,9 +169,3 @@ Durata: 14 zile
 - **GENȚIANA / GHINȚURĂ**
  - contraindicată femeilor însărcinate și celor care alăptează
  - hipertensivii și cei cu ulcer gastric ar trebui să o evite.
-
-*Referințe*
-
-- Curs terapie herbală de la “Centrul Internațional de Formare Pentru Medicină Complementară/Alternativă”
-- Cărțile: “Cristale A-Z”, “Flora Medicinală a României”, “Vindecare prin nutriție”, “Marele dicționar al bolilor și afecțiunilor”, “Dicționarul plantelor de leac”, “Fitoterapie tradițională și modernă”, “Enciclopedia plantelor medicinale”, “800 rețete secrete pentru sănătate”, “Rețete radiționale”, “Sănătate prin semințe, legume, fructe”, “Remedii naturiste”, “Sănătate din farmacia Domnului”.
-- **Invenții proprii**: uleiul CCS, ceai CPP222, ceai CMS233, ceai NC502, rețetele culinare recomandate.

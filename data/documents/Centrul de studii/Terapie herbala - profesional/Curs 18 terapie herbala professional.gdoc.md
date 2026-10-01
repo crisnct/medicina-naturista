@@ -1,7 +1,5 @@
 Cursul 18 terapie herbala professional
 
-
-
 Taramul ierburilor
 
 Colectarea ierburilor din gradina

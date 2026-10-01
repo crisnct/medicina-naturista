@@ -504,7 +504,6 @@ Smoothie 28.09.2024
 - multivitamine
 - ulei esential menta, lamaie, lime
 
-
 ## Cum sa scazi nivelul de prolactina
 - vit B6 - 600mg / zi
 - zinc
@@ -585,8 +584,6 @@ Se ține la temperatura de 37 grade timp de 36 ore.
 
 Uneori îmi fac și o băutură pe bază de curmale: pun într-o sticlă circa 500ml apa și 4 curmale tăiate în bucăți mici. Las la fermentat la loc întunecos circa 5 zile, apoi strecor și beau. E foarte bună la gust.
 
-
-
 ## Energizant
 
 Miere - 5g
@@ -604,7 +601,6 @@ Inozitol(vit B8) - 100g
 Colina(vit B4) - 50g
 Taurina - 100g
 Ornitina - 50g
-
 
 ## Natural Viagra
 - suc de pepene rosu - 500ml
@@ -666,7 +662,6 @@ Antimicotice, antifungice:
 
 Se pune apa la fiert impreuna cu florile de coada soricelului, scortisoara, busuiocul si mierea. Cand a dat in clocot, se opreste focul, se adauga cardamonul, se amesteca bine si se acopera vasul cu un capac. Dupa 15 min se strecoara si se adauga sucul proaspat stors de la o portocala.
 
-
 ## Anti-HPV, anti-HIV
 - gluconat de zinc - 2.3g
 - acid ascorbic - 46g
@@ -697,7 +692,6 @@ Se pune apa la fiert impreuna cu florile de coada soricelului, scortisoara, busu
 	- sistemice datorate agenților patogeni oportunisti - micoze care afecteaza persoanele cu sistemul imunitar compromis, pe cele care iau antibiotice si pe cele care au cancer. Exemplu: candida, criptococoza(boala criptococica), aspergiloza.
 
 - Bacteriile in general pot distruge fungii
-
 
 ## Beta-alanina si taurina
 ptr volum sperma si crestere testosteron
@@ -802,7 +796,6 @@ Dimineata:
 un praf de bicarbonat de sodiu
 optional: vanilie, coaja de lamaie
 unt pentru prajit
-
 
 ## Clatite
 - oua - 2

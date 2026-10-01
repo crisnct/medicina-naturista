@@ -1,1 +1,0 @@
-Medicament revolutionar: Zeldox (Ziprasidona)

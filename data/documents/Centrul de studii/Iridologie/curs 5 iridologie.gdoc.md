@@ -34,8 +34,6 @@ Diabetul provoacă transpirație, sete excesivă si frecvența de a urina. Exist
 
  ![Imagine image1]
 
-
-
 2. Non insulino-dependent care apare de obicei în grupele mai înaintate de vârstă și care pot fi controlate cu dietă sau cu antidiabetice orale. Aceste persoane pot fi slabe sau supraponderale.
 
  Episoadele hipoglicemice apar spontan cu slăbiciune, transpirații, palpitații, modificări ale dispoziției și greață.
@@ -50,12 +48,7 @@ Diabetul provoacă transpirație, sete excesivă si frecvența de a urina. Exist
  Coroana nervoasă umflată indică faptul că există o afectiune care provoacă exces de gaze sub diafragmă. Presiunea va crește, producând presiune asupra intestinului și pe organele care sunt expuse la acea presiune.
  Acest lucru este adesea un indiciu al unei hernii hiatale, în care o parte din stomac împinge prin presiune in orificiul diafragmatic provocând un buzunar al stomacului să apară deasupra diafragmei. Deoarece stomacul nu are un sfincter eficient, poate exista o scurgere de acid in esofag ceea ce produce durere și arsuri la stomac din procesul de esofagita de reflux.
 
-
-
  ![Imagine image2]
-
-
-
 
  **Modele heterochimice**
  Aici suntem martorii zonei de pigmentare anormală asupra unor părți ale irisului. Pigmentarea este datorată acumulării de toxine. Acest lucru se poate datora unei deficiențe de funcționare a intestinului. Efectul este de a "otrăvi" alte organe, modificând astfel capacitatea lor funcțională.

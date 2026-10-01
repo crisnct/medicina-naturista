@@ -1,10 +1,10 @@
-# **Tratamente naturiste pentru regenerarea nervilor și a conexiunilor neuronale**
+# Tratamente naturiste pentru regenerarea nervilor și a conexiunilor neuronale
 
 | Dimineața | Prânz | Seara |
 | :---- | :---- | :---- |
 | **\-** **Vitamina B12:** 1000 µg, maxim 3 luni **\- UP Ultra Potenta:** 1 cps **\- Panax** **Ginseng**: 1 cps. După o lună se alternează cu Ginseng Siberian apoi cu Cordyceps. **\-** **Acid alfa-lipoic**: 300mg **\-** **DHA**: 500mg **\- L-Theanină**: 200mg **\-** **Ginkgo Biloba**: 120mg **\-** **Rhodiola rosea**: 200–400mg **\-** **Lion's Mane(Coama Leului)**: 2000mg **\- MSM:** 1g | **\-** **Vitamina D3 \+ K2:** 2.000–4.000 UI vit D si 100ug K2 **\-** **Milgamma**: 1 cps **\- Curcumină:** 1 cps **\-** **DHA**: 500mg **\-** **Lecitină din soia,** granulată: 1-2 linguri, maxim o lună. **\-** **Gotu Kola**: 500–1000 mg **\-** **Ginkgo Biloba**: 120mg **\-** **Lion's Mane(Coama Leului)**: 2000mg **\- MSM:** 2g | **\-** **Vitamina B6**: 25mg, maxim o lună **\-** **Magneziu Bisglicinat**: 200-400mg **\- Curcumină:** 1 cps **\- Ulei din frunze și muguri de** **cânepă** cu 10% CBD: o lingură **\-** **Cordyceps**: 1 cps **\-** **Liuwei Dihuang Wan**: 1cps **\-** **Ceai de Valeriană și Roiniță** / Melissa **\- Ulei Regenerator1:** 4 pic **\-** **Masaj** cu uleiuri esențiale |
 
-# Efectele suplimentelor
+## Efectele suplimentelor
 
 \- **Ginkgo Biloba**: îmbunătățirea circulației cerebrale și oxigenării neuronilor, protejarea creierului de radicalii liberi și sprijinirea refacerii memoriei și funcțiilor cognitive.
 **\- Panax Ginseng(Yang)**: protejarea și regenerarea neuronilor, îmbunătățirea fluxului sanguin cerebral, reducerea inflamației și susținerea refacerii memoriei, concentrării și energiei mentale. Nu se ia în caz de hipertensiune.
@@ -42,14 +42,14 @@
 **\- Ulei esențial de Portocală Dulce** – calmează sistemul nervos, reduce anxietatea și sprijină un somn odihnitor, esențial pentru refacerea sinapselor.
 **\-** **Ulei esențial de Cuișoare** – are efect antioxidant și antiinflamator puternic, stimulează circulația sângelui la nivel cerebral și protejează neuronii de stresul oxidativ.
 
-# Mixuri de uleiuri esențiale
+## Mixuri de uleiuri esențiale
 
 **Atenție\!\!\!** *Pentru uzul intern a se folosi doar uleiuri esențiale pe care scrie că sunt destinate uzului intern sau uleiuri ultra-pure de la DoTerra, Young Living, Life.*
 \- Ulei **Antiinflamator** cerebral: **Angelică, Tâmâie, Busuioc, Chiparos, Helichrysum, Cuișoare**. Părți egale din uleiurile anterioare se amestecă într-o sticluță. Se iau **7** picături de 1-2 ori pe zi diluate cu puțină miere sau ulei de măsline extravirgin.
 \- Ulei **Detoxifiant** cerebral: **Lămâie, Ienupăr, Grapefruit**. Părți egale din uleiurile anterioare se amestecă într-o sticluță. Se iau **3** picături de 1-2 ori pe zi diluate cu puțină miere sau ulei de măsline extravirgin.
 \- Ulei **Regenerator1** nervi, neuroni și sinapse: **Lavandă, Ylang-Ylang, Cistus, Helichrysum, Santal Regal Hawaian**. Părți egale din uleiurile anterioare se amestecă într-o sticluță. Se iau **4** picături de 1-2 ori pe zi diluate cu puțină miere sau ulei de măsline extravirgin.
 
-# Alte recomandări
+## Alte recomandări
 
 \- **Cafeaua** este permisă dar doar o ceașcă pe zi dimineața, neindulcită nici măcar cu miere. Excesul de cafea irită sistemul nervos. Poți pune o lingură de **ulei de măsline** în cafea. Uleiul de măsline ajută la reducerea inflamației și protejarea vaselor de sânge, îmbunătățind circulația cerebrală și sprijinind refacerea neuronilor datorită conținutului de antioxidanți și acizi grași mononesaturați.
 \- **Alimente care regenerează neuronii și susțin creierul:** somon, ouă, nuci, semințe de chia, avocado, ulei de măsline extravirgin.

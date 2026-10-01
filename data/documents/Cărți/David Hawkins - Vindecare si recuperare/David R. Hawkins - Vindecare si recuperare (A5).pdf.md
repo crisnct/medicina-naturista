@@ -1,11 +1,8 @@
-[Nu a fost extras text din această pagină.]
+# VINDECARE ȘI RECUPERARE
 
-DAVID R. HAWKINS, M.D. PH.D.
+### DAVID R. HAWKINS, M.D. PH.D.
 
-VINDECARE ȘI RECUPERARE
-
-
-Introducere
+## Introducere
 
 Conferințele despre vindecare și recuperare
 reprezintă integrarea și punerea în concordanță a
@@ -66,6 +63,8 @@ noastre, viața nu poate fi distrusă. Nu poate decât să-și
 schimbe expresia de la o realitate fizică lineară limitată,
 la realitatea spirituală non-lineară nelimitată.
 
+## FIZIOLOGIA ȘI FUNCȚIONAREA CREIERULUI
+
 FIZIOLOGIA ȘI FUNCȚIONAREA CREIERULUI
 
 Sub 200 Peste 200
@@ -100,6 +99,8 @@ funcția creierului și fiziologia corpului și stabilește o
 zonă specifică pentru informațiile spirituale în emisfera
 dreaptă a cortexului prefrontal, fiind în concordanță cu
 creierul eteric (energetic).
+
+## O hartă a conștiinței
 
 Cap. 1 - O hartă a conștiinței
 
@@ -959,6 +960,8 @@ Prin contrast, nivelurile conștiinței peste 200 sunt
 numite „emoții de bună stare ”, acestea fiind pozitive și
 semnificând apariția, și, în final, dominarea ene rgiilor
 spirituale.
+
+## Vindecarea asistată
 
 Cap. 2 - Vindecarea asistată
 
@@ -2082,6 +2085,8 @@ greșit diagnosticată inițial. Obstrucția prostatică nu avea
 nevoie de intervenție chirurgicală, ci doar de renunțarea
 la folosirea decongestionantelor nazale.
 
+## Stresul
+
 Cap. 3 - Stresul
 
 Ca medic psihiatru, cu o practică de peste cincizeci
@@ -3091,6 +3096,8 @@ Când ne oprim din a ne identifica cu evenimentele
 „din afară” și nu le mai dăm lor puter e asupra vieților
 noastre, atunci trăim o pace, o serenitate interioară, ca
 și consecință a transcenderii lumii.
+
+## Sănătatea
 
 Cap. 4 - Sănătatea
 
@@ -4186,6 +4193,8 @@ Buddha: „A fi născut om este un mare dar pentru că
 omul are opțiunea de a câștiga merite karmice și de a-și
 repara karma negativă”.
 
+## Primul ajutor spiritual
+
 Cap. 5 - Primul ajutor spiritual
 
 În continuare vom discuta nevoia pentru primul
@@ -5242,6 +5251,8 @@ care ne intersectăm, izvorâte din chiar recunoștința
 noastră. Criza este chiar un eveniment al vindecării
 spirituale. Din criză apare și vindecarea.
 
+## Sexualitatea
+
 Cap. 6 - Sexualitatea
 
 Aplicând cunoașterea derivată din studiul naturii
@@ -6090,6 +6101,8 @@ inducere a vinovăției, de frustrare, de un eveniment care
 produce anxietate, de o disfuncție de tip neuronal sau că
 este vorba despre este una dintre cele mai mărețe
 experiențe umane.
+
+## Procesul îmbătrânirii
 
 Cap. 7 - Procesul îmbătrânirii
 
@@ -7074,6 +7087,8 @@ de circumstanțele generale inerente condiției umane
 moștenește genomul uman. Există, de asemenea, și
 influențe karmice și înclinații, precum și programe ce
 sunt inerente în conștiința colectivă a omenirii.
+
+## Managementul crizelor majore
 
 Cap. 8 - Managementul crizelor majore
 
@@ -8197,6 +8212,8 @@ vine în viața noastră. Infinita Prezență, ca re este
 întotdeauna cu noi, este mult mai puternică decât voința
 umană și egoul. Sinele (cu „s” mic) aduce durere și
 suferința Sinele (cu „S” mare) radiază vindecare și pace.
+
+## Îngrijorarea, teama și anxietatea
 
 Cap. 9 - Îngrijorarea, teama și anxietatea
 
@@ -9543,6 +9560,8 @@ nostru; de aceea putem să ne și eliberăm d e ea. Ne
 putem elibera de teama de teamă, ca și de teama însăși
 și ne putem apropia de prezența Iubirii.
 
+## Durerea și suferința
+
 Cap. 10 - Durerea și suferința
 
 Capitolul acesta va aborda subiectul alinării durerii
@@ -10648,6 +10667,8 @@ oricărei alic suferințe este ascultarea unei muzici
 frumoase, ceea ce duce în eliberarea de endorfine în
 creier. Faptul că frumusețea are un efect vindecător se
 cunoaște încă de pe timpul lui Hipocrate.
+
+## Pierderea în greutate
 
 Cap. 11 - Pierderea în greutate
 
@@ -11882,6 +11903,8 @@ luăm și corpul cu noi când părăsim planeta Pământ, iar
 considerentele estetice nu co nstituie o prioritate în
 ceruri.
 
+## Depresia
+
 Cap. 12 – Depresia
 
 Depresia și descurajarea care chinuiesc umanitatea
@@ -13027,6 +13050,8 @@ noastre. Admițând faptul că ne aflăm la obârșia ei, vom
 reuși să o transcendem și vom invita în noi vindecarea
 interioară care reprezintă și tema acestui capitol.
 
+## Alcoolismul
+
 Cap. 13 – Alcoolismul
 
 Pentru a înțelege natura alcoolismului și a adicției,
@@ -14152,6 +14177,8 @@ imensă recunoștință și dobândesc o mai cuprinzătoare
 înțelegere a naturii conștiinței însăși. Aceia care I se
 supun lui Dumnezeu, primesc harurile lui Dumnezeu.
 
+## Cancerul
+
 Cap. 14 – Cancerul
 
 Până acum ne-am referit la utilizarea legilor de bază
@@ -15087,6 +15114,8 @@ fiecare zi ca să se îmbarce într -o căutare interioară - că
 moartea fizică este necesarii pentru începerea unui
 travaliu spiritual temeinic.
 
+## Despre moarte și a muri
+
 Cap. 15 - Despre moarte și a muri
 
 Moartea și fenomenul morții ar putea fi considerate
@@ -15891,6 +15920,8 @@ experiențe dificil de descris, așa că este bine să fim
 pregătiți cel puțin pentru trăirea unei frumuseți și a
 unei păci extraordinare.
 
+## ANEXE
+
 ANEXE
 
 A: Harta scalei conștiinței
@@ -15898,9 +15929,9 @@ B: Modul de calibrare a nivelurilor conștiinței
 C: Referințe
 D: Despre autor
 
+### ANEXA A: Harta scalei conștiinței
+
 ANEXA A: Harta scalei conștiinței
-
-
 
 Perceperea lui
 Dumnezeu
@@ -15932,8 +15963,9 @@ speranță Apatie, ură 50 Disperare Abdicare
 Vindicativ Malefic Vină 30 Vinovăție Distrugere
 Disprețuitor Urător Rușine 20 Umilire Eliminare
 
-ANEXA B: Modul de calibrare a nivelurilor conștiinței
+### ANEXA B: Modul de calibrare a nivelurilor conștiinței
 
+ANEXA B: Modul de calibrare a nivelurilor conștiinței
 
 Informații generale
 
@@ -16083,8 +16115,6 @@ calibrează peste 700 ” (D/N). Sau „Hitler calibra peste
 ani” (D/N). „40 de ani ” (D/N). „în momentul morții sale ”
 (D/N).
 
-
-
 Aplicații
 
 Testul kinesiologic nu poate fi utilizat pentru
@@ -16144,9 +16174,6 @@ cum ar fi un post „bun ” pentru care să candidez. „Bun ”
 
 lucru? Ca oportunități de promovare? Prin prisma
 corectitudinii șefului?
-
-
-
 
 Priceperea
 
@@ -16323,13 +16350,6 @@ Kinesiologia cercetării conștiinței operează la nivelul
 600, care se situează la granița dintre dimensiunile
 linearului și nonlinearului
 
-
-
-
-
-
-
-
 Discrepanțe
 
 Calibrări diferite pot fi obținute de-a lungul timpului
@@ -16359,7 +16379,6 @@ exactă. Trebuie să se acorde întâietate dedicație i și
 înclinației către adevăr, în dauna opiniilor personale și a
 încercărilor de a dovedi că acestea sunt „adevărate”.
 
-
 Notă
 
 Deși este cunoscut faptul că metodele kinesiologice
@@ -16378,8 +16397,9 @@ creștere a nivelului conștiinței. Cele al căror nivel se
 situează în jurul valorii de 400 și peste acesta, obțin
 rezultatele cele mai exacte (Jeffrey și Colyer, 2007).
 
-ANEXA D: Despre autor
+### ANEXA D: Despre autor
 
+ANEXA D: Despre autor
 
 Note biografice și autobiografice
 

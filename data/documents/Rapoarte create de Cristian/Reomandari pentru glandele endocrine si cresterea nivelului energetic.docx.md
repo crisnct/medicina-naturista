@@ -1,3 +1,4 @@
+# Reomandari pentru glandele endocrine si cresterea nivelului energetic
 Iată ce am luat eu pentru creșterea nivelului energetic și pentru a-mi face glandele fericite.
 
 - Supliment Alive(multivitamine și multiminerale) timp de 3 luni, un comprimat pe zi.

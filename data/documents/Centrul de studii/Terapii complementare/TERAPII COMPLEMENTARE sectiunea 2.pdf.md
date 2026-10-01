@@ -1,14 +1,6 @@
 1
 
-
-
-
-
-
 PROGRAMA CURSULUI TERAPII COMPLEMENTARE - sectiunea 2
-
-
-
 
 Cursul-10 Reiki
 Cursul-11 Medicina.traditionala.chineza
@@ -21,14 +13,6 @@ Cursul-17 Yoga
 Cursul-18 Naturopatie
 
 2
-
-
-
-
-
-
-
-
 
  Cursul 10
  Reiki
@@ -295,9 +279,6 @@ Nivelul III Reiki - AL III-LEA GRAD
 
 9
 
-
-
-
 THE GREATE BING OF THE UNIVERS sau THE DIVINE WINDOOM,
 de aici pleacă totul. Cuprinde trei simboluri din reiki II, duce la simțiri superioare, iar din
 momentul în care lucrăm cu simbolul IV aducem tot reiki la acest simbol. Tot ceea ce vom face
@@ -318,11 +299,6 @@ Profesor Maestru Reiki
 paralel cu practica se face asistenta pe lângă maestru realizând clar cum se predă acest sistem.
 
 10
-
-
-
-
-
 
  Cursul 11.
  Medicina traditionala chineza. Doctrina celor cinci elemente
@@ -409,7 +385,6 @@ Intarirea puterii de concentrare
 
 12
 
-
 Exercitiul urmator imbunatateste circulatia sangelui si stimuleaza metabolismul in creier: 1. Stati
 drept, pe scaun sau in picioare, si respirati calm. 2. Frecati-va palmele una de alta, pana se
 incalzesc. 3. Puneti-le pe frunte, apoi coborati cu ele pe tample, peste obraji. 4. Frecati-le din
@@ -472,7 +447,6 @@ Aceastã clasificare este tratatã foarte amãnunțit în cel de-al cincilea cap
 fundamentale", prezentând relația meridian - organ - element.
 
 Relațiile dintre cele cinci elemente
-
 
 Legea mișcãrii celor cinci elemente este caracterizatã prin urmãtoarele relații:
 - Generarea unui element din celãlalt
@@ -607,8 +581,6 @@ Vest Condimentat Alb Seceriș Uscãciune Toamnã
 
 18
 
-
-
  Cursul 12
  Apiterapia
 Produsele albinei s -au inscris de la inceputul preistoriei in randul elementelor naturale folosite
@@ -679,7 +651,6 @@ asigura mierii un loc aparte in reglarea functiilor organismului uman.
 
 20
 
-
 Orice tip de miere are proprietati specifice: mierea de levantica lecuieste tusea si durerile de git,
 mierea de tei usureaza s tarile febrile si durerile gastrice, previne migrena, fiind un bun mijloc
 profilactic si remediu in pneumonii, astm bronsic, stari nervoase, tuberculoza; mierea de brad
@@ -736,7 +707,6 @@ substantelor ce degaja mirosuri tari, caci absoarbe mirosurile. Mierea este cont
 diabeticilor si obezilor.
 
 Cum sa ne folosim de miere ca sa fim sanatosi
-
 
 Din vremuri stravechi, omul a descoperit mierea si produsele stupului de albine nu numai ca
 aliment, ci si ca medicament. Apicultura era practicata inca din secolul al VII-lea i.Hr., existind o
@@ -828,8 +798,6 @@ omogenizeaza, dupa care se adauga 50 g suc de lamiie. Se lasa la macerat cinci z
 ia cite o lingura de amestec, de trei ori pe zi.
 
 24
-
-
 
  Cursul 13
  Biorezonanta
@@ -1044,8 +1012,6 @@ acestea fiind de fapt contraindicatii relative.
 
 30
 
-
-
  Cursul 14
  TEHNICA RADIANTA
  Dr. dr. Barbara Ray Weber spunea: „Din momentul in care ne-am privit in ochi, s-a creat
@@ -1156,7 +1122,6 @@ Persoana care mobilizeaza alte 9 persoane pentru seminar, primeste gratuit semin
 vegetal, animal si uman. Se fac 4 acordaje ale palmelor pentru accesarea Energiei Universale.
 
 33
-
 
  Cursul 15
  REFLEXOLOGIA
@@ -1334,15 +1299,8 @@ tendintele trecutului, prezentului si viitorului.
 
 37
 
-
-
-
-
-
  Cursul 16
  Astrologia
-
-
 
  Astrologia (din greacă: άστρον astron: stea, și λόγος logos: știință, teorie, studiu) înglobează un
 ansamblu de cunoștințe, tradiții și credințe, structurate, din punct de vedere geografic, în sisteme
@@ -1457,7 +1415,6 @@ ilustrează practic sintagma : "facă-se Voia Ta, precum în Cer așa și pre P�
 locul Dumnezeului biblic fiind animalele închipuite în stele, chestiune probabil valabilă doar
 pentru cei fragili, influențați de superstiție.
 
-
 Astrologia opereaza cu zodii sau constelatii, planete, case astrologice. Sistemul nostru solar este
 alcatuit dintr-un Soare in jurul caruia graviteaza planetele:in ordinea departarii lor fata de Soare:
 Mercur, Venus, Pamant, (Luna), Marte, Jupiter, Saturn, Kiron, Uranus, Neptun, Pluto.
@@ -1557,7 +1514,6 @@ cuplu (calculul sinastric) și chiar se aventurează să propună strategii pent
 ambiții holistice, încercând să cuprindă toată fenomenologia existenței.
 
 42
-
 
  Cursul 17
  Yoga
@@ -1672,11 +1628,6 @@ compasiuni și a introspecției. yoga este refuzul minti eliberare de ego si aju
 prin disciplina inplicit nu ai suferi nu mai se repeta nastera ai ajuns satarea de sfintemie.
 
 45
-
-
-
-
-
 
  Cursul 18
  Naturopatie

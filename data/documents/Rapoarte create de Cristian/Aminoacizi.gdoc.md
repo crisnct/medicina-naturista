@@ -1,4 +1,4 @@
-**Efectele aminoacizilor asupra sănătății omului**
+Efectele aminoacizilor asupra sănătății omului
 
 | *Denumire* | *Poate fi produs de organism* | *Efecte* | *Admnistrare* | *Efecte secundare, interacțiuni* |
 | :---- | :---- | :---- | :---- | :---- |
@@ -25,4 +25,3 @@
 | Izoleucină | NU | îmbunătățește sistemul imunitar scade rata de degradare a fibrelor musculare ajută la producerea și întreținerea țesutului muscular | | |
 | | | | | |
 
-**Referințe:**

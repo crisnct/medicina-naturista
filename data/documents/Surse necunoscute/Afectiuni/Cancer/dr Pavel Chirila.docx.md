@@ -1,3 +1,5 @@
+# Recomandari naturiste pentru cancer
+
 Prof. dr. Pavel Chirilă: 10 reguli de aur pentru a preveni cancerul
 
 Cartea intitulată „Prevenirea cancerului-un studiu economic comparat” a fost lansată miercuri, 10 septembrie la Biblioteca Județeană Astra Sibiu, în prezența a sute de persoane. Prezentarea cărții a fost făcută chiar de autor, prof. dr. Pavel Chirilă, care a oferit câteva dintre argumentele care dovedesc că nimic nu este mai ușor și mai puțin costisitor decât să prevenim apariția cancerului, argumente pe care le redăm în continuare.

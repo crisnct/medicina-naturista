@@ -1,6 +1,4 @@
-**[Bitter Suedez]{.underline}**
-
-[]{.underline}
+# Bitter suedez
 
 ***Ingrediente:***
 

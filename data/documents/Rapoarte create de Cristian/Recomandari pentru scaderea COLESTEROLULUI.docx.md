@@ -1,10 +1,4 @@
-Recomandări naturiste pentru
-
-eliminarea colesterolului LDL-oxidat de pe vasele de sânge,
-
-pentru prevenirea oxidării colesterolului,
-
-pentru diminuarea colesterolului din sânge
+# Recomandări naturiste pentru eliminarea colesterolului LDL-oxidat de pe vasele de sânge, pentru prevenirea oxidării colesterolului, pentru diminuarea colesterolului din sânge
 
 ### Despre colesterol și grăsimi
 
