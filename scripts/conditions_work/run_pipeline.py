@@ -54,16 +54,27 @@ def merge_batches_inline() -> None:
         for term in parts:
             owner.setdefault(normalize(term), position)
 
-    # folk synonyms: central overrides decide contested names, chunks fill the rest
-    folk: dict[str, str] = {}
-    for path in sorted(WORK.glob("POP_[0-9].txt")):
+    # folk synonyms: central overrides decide contested names, chunks fill the rest.
+    # several folk names per condition are kept, inserted right after the name.
+    folk: dict[str, list[str]] = {}
+
+    def remember_folk(name: str, value: str) -> None:
+        key, term = normalize(name), " ".join(value.split())
+        if not key or not term:
+            return
+        bucket = folk.setdefault(key, [])
+        if normalize(term) not in {normalize(item) for item in bucket}:
+            bucket.append(term)
+
+    # folk names: the single approved source (the user's marked selection plus the
+    # names approved in the earlier session), then the central owner decisions
+    for path in sorted(WORK.glob("POP_clean.txt")):
         for line in read_file(path):
             name, _, value = line.partition("|")
-            name, value = name.strip(), value.strip()
-            if name and value:
-                folk.setdefault(normalize(name), value)
+            if name.strip() and value.strip():
+                remember_folk(name, value)
     for disease, value in OVERRIDES:
-        folk[normalize(disease)] = value
+        remember_folk(disease, value)
 
     # merge the chapter batches
     import merge_logic
@@ -81,23 +92,29 @@ def merge_batches_inline() -> None:
         for term in parts:
             attach_index.setdefault(normalize(term), position)
     attached = 0
+    conditions_with_folk = 0
     skipped: list[tuple[str, str, str]] = []
-    for key, value in folk.items():
+    for key, values in folk.items():
         position = index.get(key)
         if position is None:
             continue
-        value_key = normalize(value)
-        holder = attach_index.get(value_key)
-        if holder is not None and holder != position:
-            skipped.append((rows[position][0], value, rows[holder][0]))
-            continue
         parts = rows[position]
-        if value_key in {normalize(term) for term in parts}:
-            continue
-        rows[position] = [parts[0], value, *parts[1:]]
-        attach_index[value_key] = position
-        attached += 1
-    print(f"  folk synonyms attached  : {attached}")
+        added_here = 0
+        for value in values:
+            value_key = normalize(value)
+            holder = attach_index.get(value_key)
+            if holder is not None and holder != position:
+                skipped.append((parts[0], value, rows[holder][0]))
+                continue
+            if value_key in {normalize(term) for term in parts}:
+                continue
+            parts.insert(1 + added_here, value)
+            attach_index[value_key] = position
+            added_here += 1
+            attached += 1
+        if added_here:
+            conditions_with_folk += 1
+    print(f"  folk names attached     : {attached} (on {conditions_with_folk} conditions)")
     print(f"  folk names left to their existing owner: {len(skipped)}")
     for disease, value, holder in skipped[:10]:
         print(f"    {disease!r}: {value!r} already means {holder!r}")

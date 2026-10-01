@@ -1,0 +1,45 @@
+Hipotiroidism|gusa
+Infarct miocardic|infarct
+Infarct miocardic|atac de cord
+Infarct miocardic|criza de cord
+Infarct miocardic|infarct la inima
+Infarct cerebral silentios|atac cerebral
+Infarct cerebral silentios|trombus la creier
+Infarct cerebral silentios|infarct la cap
+Infarct pulmonar|cheag la plaman
+Insuficienta cardiaca|inima slaba
+Insolatie|lesin de caldura
+Insolatie|lovitura de soare
+Insomnie|nesomn
+Intoxicatie|intoarcere
+Intoxicatie acuta cu alcool|betie
+Intoxicatie acuta cu alcool|beutura
+Intoxicatie cu monoxid de carbon|gazat
+Intoxicatie cu ciuperci|ciumanglilie
+Intoxicatie cu plumb|plumb in sange
+Impetigo|bube
+Icter|galbenare
+Ileus paralitic|ocluzie intestinala
+Litiaza biliara|piatra la fiere
+Litiaza de ureter|piatra la rinichi
+Litiaza de ureter|nisip la rinichi
+Laringita|raguseala
+Laringita acuta la adult|ragu
+Laringita acuta catarala la copil|crup
+Lombalgie|junghi la spate
+Lombalgie|durere de spate
+Luxatie|scaparea
+Luxatie congenitala de sold|sold scapati
+Mahmureala|mahmur
+Malarie|friguri
+Malarie|paludism
+Leucemie|cancer de sange
+Leucoree|poala uda
+Ludopatia|patima jocurilor
+Lipom|buba de grasime
+Lipom|umflatura de grasime
+Leishmanioza cutanata|basicile
+Leishmanioza cutanata|rana de orient
+Hipoglicemie|zahar scazut
+Hipotensiune arteriala|tensiune mica
+Hipotensiune arteriala|presiune mica

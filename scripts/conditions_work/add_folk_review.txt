@@ -1,0 +1,718 @@
+? Arsura solara | arsura; ars de soare
+? Bataturi | bataturi
+? Boala coronavirus 2019 | covid; coronavirus
+? Boala Parkinson | boala tremurului; parkinson
+? Botulism | botulism
+? Bronsita | bronsita cu tuse; bronsita
+? Burnout | epuizare la locul de munca
+? Cancer | cancer
+? Cancer de ficat | cancer la ficat
+? Cancer de pancreas | cancer la pancreas
+? Cancer de prostata | cancer la prostata
+? Cancer de rinichi | cancer la rinichi
+? Cancer de san | cancer la san
+? Cancer de stomac | cancer la stomac
+? Cancer de vezica urinara | cancer la vezica
+? Cangrena | cangrena
+? Cataracta | pata la ochi; cataracta; piatra neagra
+? Cefalee cluster | durere de cap in rafale
+? Celulita | coaja de portocala; celulita
+? Chist hidatic cerebral | chist cu apa la cap
+? Chist hidatic pulmonar | chist cu apa la plaman
+? Chist renal complicat | chist cu apa la rinichi
+? Ciroza hepatica | ficat cirozat; ciroza; ficat cirotic
+? Colici abdominali | colici; dureri de burta
+? Colici infantile | colici la bebelusi; colici la copil; dureri de burta la bebe
+? Condilom acuminat | negii de la partea rusinoasa; creasta de cocos
+? Crampe musculare | crampe; gripa la picior
+? Crize generalizate tonico-clonice | crize
+? Deformitate in gat de lebada | deget in gat de lebada
+? Degeraturi | degeraturi; degete degerate
+? Dependenta de droguri | droguri; drogat; betiv
+? Dependenta de fumat | fumat
+? Diaree | diaree; scurgeala
+? Dizenterie | dizenterie
+? Esotropie | ochi care se abat spre nas
+? Fimoza | piele stransa la capul madularului; cap acoperit
+? Foliculita | bubite la radacina de par
+? Gripa | gripa; races; boala de iarna
+? Gusa | bocitura; cocosul; umflatura la gat; gusa
+? Hidatidoza hepatica | buba cu apa la ficat; chist cu apa la ficat
+? Hidrocel | punga cu apa la testicul
+? Hipercalcemie | prea mult calcar in sange
+? Holera | holera
+? Infarct miocardic | atac de cord; infarct; criza de cord; infarct la inima
+? Insomnie | insomnie; nesomn; lipsa somnului
+? Intepatura de albina | intepatura de albina
+? Leucemie | leucemie; cancer de sange
+? Lupus | lupus
+? Mahmureala | mahmureala; mahmur
+? Matreata | matreata
+? Menopauza | climacteriu; menopauza
+? Mielom multiplu | mielom
+? Migrena | migrena
+? Muscatura de caine | muscatura de caine
+? Muscatura de paianjen | muscatura de paianjen
+? Muscatura de sarpe | muscatura de sarpe
+? Oreion | papusa; oreion
+? Orjelet | orjelet
+? Pleurezie maligna | apa la plamani de cancer
+? Pojar | pojar
+? Reflux gastroesofagian | arseala in gat; intoarcere la gat; fiere in gat; reflux
+? Sarcina pe cicatrice de cezariana | sarcina pe cicatrice
+? Scleroza multipla | scleroza
+? Sindrom de coada de cal | coada de cal
+? Transpiratie excesiva | sudori; transpiratie
+Abces cutanat | buba
+Abces dentar | buba la masea
+Abces gastric | buba la stomac
+Abces hepatic | buba la ficat
+Abces mamar | buba la san
+Abces peritonsilar | buba in gat
+Abces pulmonar | buba la plamani
+Abces renal | buba la rinichi
+Accident vascular cerebral | paralizie; apoplexie
+Acnee | cosuri
+Adeziviune peritoneala | lipituri
+Afte bucale | bube in gura
+Alcoolism | betia; betie
+Alopecie | chelia
+Ambliopie | ochi lenes
+Amigdalita | anghina
+Anafilaxie | soc
+Anemie | sange sarac
+Anemie talasemica | palida
+Angina streptococica | rosu in gat
+Anorexie nervoasa | neinfranata
+Antrax | dalac; carbune
+Anxietate | boala fricii
+Arsura solara | ars de soare
+Arsuri | pirostrii
+Arsuri la stomac | focul la stomac; arseala la stomac
+Artrita | dureri de oase
+Artrita reumatoida | boala de oase
+Artrita tuberculoasa | buba la incheietura
+Artroza | uzura incheieturilor
+Ascaridioza | limbrici
+Ascita | apa in burta; burta cu apa
+Astmul bronsic | naduful
+Atac de panica | criza de nervi
+Avitaminoza | lipsa de vitamine
+Avort spontan | pierdere de sarcina
+Blefarita | pleoape inflamate
+Boala afectiva sezoniera | depresie de iarna
+Boala celiaca | boala glutenului
+Boala coronavirus 2019 | covid
+Boala Graves | gusa exoftalmica
+Boala Lyme | boala capusei
+Boala Meniere | ameala
+Boala Parkinson | boala tremurului
+Boala polichistica renala autozomal dominanta | rinichi polichistic
+Boala Raynaud | degete albe; degete albe la frig
+Boala Wilson | boala cuprului
+Boli autoimune | boala autoimuna
+Boli cu transmitere sexuala | boala rusinoasa
+Bradicardie | puls slab
+Bromhidroza | miros greu al corpului
+Bronhopneumopatie obstructiva cronica | plamani umflati
+Bronsectazie | bronhii largite
+Bronsita | bronsita cu tuse
+Bruceloza | febra malteza
+Bruxism | scrasnit din dinti
+Bufeuri | valuri de caldura
+Bulimie | pofta de mancare; pofta de mancare bolnava
+Calculi prostatici | piatra la prostata
+Calculi renali | pietre la rinichi; piatra la rinichi
+Cancer laringian | cancer la gat
+Cancer ovarian | cancer la ovar
+Cancer pulmonar | cancer la plamani
+Cancer testicular | cancer la testicul
+Cancer tiroidian | cancer la tiroid
+Candidoza | bube albe
+Candidoza vulvovaginala | bube la pasarica
+Cardiomegalie | inima marita
+Carie dentara | masea stricata; carii
+Cataracta | pata la ochi; piatra neagra
+Celulita | coaja de portocala
+Cetoacidoza diabetica | coma diabetica
+Chalazion | urcior la pleoapa
+Cheloid | cicatrice umflata
+Chist de glanda Bartholin | chist la partea rusinoasa
+Chist hepatic | chist la ficat
+Chist ovarian | chist la ovar
+Chist pancreatic | chist la pancreas
+Chist renal simplu | chist la rinichi
+Chlamydia | boala cu chlamydia
+Chorioretinita | pata pe ochi
+Chromhidroza | transpiratie colorata
+Cianoza | vinata; piele vanata
+Cicatrice hipertrofica | rana umflata
+Ciclita | ochi inflamat
+Ciclotimie | schimbari de chec
+Circulatie periferica deficitara | circulatie proasta
+Ciroza alcoolica | ciroza de bautura
+Ciroza hepatica | ficat cirozat; ficat cirotic
+Cistita | arsuri la urinat; arseala la urinat; boala la vezica; pisoare cu usturime
+Cistocel | cascata; matura coborata
+Cistouretrocel | cascata cu vezica
+Claudicatie neurogena | sutit
+Cloasma | masca sarcinii; pata pe obraji
+Coagulare intravasculara diseminata | cheaguri in sange
+Colangita | boala de fiere
+Colecistita | criza de fiere; bila stricata; punga cu piatra
+Coledocolitiaza | piatra pe canal
+Colestaza | fiere infundata
+Colesterol crescut | colesterol mare
+Colica biliara | colica de fiere; durere de fiere
+Colica renala | criza de rinichi; colica de rinichi; durere de rinichi
+Colici abdominali | dureri de burta
+Colici infantile | colici la bebelusi; colici la copil
+Colita | rana la intestine; diaree cu sange
+Colita hemoragica | colita cu sange
+Coma | bezna; pierdut
+Condilom acuminat | creasta de cocos
+Condrom | umflatura la os
+Confuzie mentala | aiureaza
+Conjunctivita | ochi rosu; ochi rosii; ochi lipicios
+Conjunctivita bacteriana | ochi cu puroi
+Conjunctivita neonatala | ochi lipicios la nou-nascut
+Constipatie | scaun tare; inchis la burta; zapacit
+Contractura musculara | muschi incordat
+Convulsii | spasme
+Convulsii neonatale | convulsii la nou-nascut
+Coptura | buboi; buba de la fund
+Cord pulmonar | inima obosita de plamani
+Corectopie | ochi incrucisat
+Coreea Sydenham | dansul Sfantului Vitus
+Crampa scriitorului | crampa la scris
+Crampe musculare | gripa la picior
+Craniolacunia | cap turtit
+Cretinism | cretin; debil mintal
+Criza glaucomatoasa | criza de glaucom; durere de ochi
+Criza hipertensiva | urgenta de tensiune
+Crize partiale simple | absente
+Crup | guster; lesin de gat; tuse cu lesin
+Cutis laxa | piele lasata
+Dactilita | deget umflat
+Daltonism | orb la culori
+Decolament vitrean | ceata in ochi
+Deformare de degete | degete strambe
+Deformitate in butoniera | deget butonat
+Degeraturi | degete degerate
+Deget in ciocan | deget cocosat
+Degete in gheara | degete incovoiate
+Delirium | aiurare; halucineaza
+Delirium tremens | delirul betivilor
+Dementa | ramolire
+Dementa alcoolica | ramolire de la bautura
+Demodicoza | acarieni la fata
+Denga | febra denga
+Dependenta de droguri | drogat; betiv
+Depresie | suparare
+Depresie postnatala | depresie de la nastere; tristetea lauzei; depresie la lauza
+Dermatilomanie | mananca pielea
+Dermatita | rosata; buba la piele
+Dermatita de contact alergica | pata de la otrava
+Dermatita de iarna | piele crapata de frig
+Dermatita de scutec | buba la fundul copilului; oparit
+Dermatita de staza | picioare cu rani
+Dermatita periorala | bube la gura
+Dermatita seboreica faciala | pata pe fata; mancarime la cap
+Dermatofitoza | macai
+Dermatomiozita | boala muschilor
+Dermografism | piele scriitoare
+Dermopatia diabetica | rana diabetului
+Deshidratare | secatuire; uscaciune
+Dezlipire de retina | retina dezlipita; perdea in fata ochilor
+Diabet gestational | zahar la sarcina
+Diabet zaharat | boala de zahar; zahar
+Diabet zaharat tip 1 | diabet de copil
+Diabet zaharat tip 2 cu complicatii | diabet de batran
+Diaree | scurgeala
+Diaree secretorie | diaree apoasa
+Difterie | gusa copilului
+Diplopie | vad dublu
+Disfunctie erectila | impotenta
+Dismenoree | dureri de ciclu
+Dispepsie | greutate la stomac
+Dispnee | lipsa de aer; suflu scurt
+Distimie | stare de tristete
+Dizenterie amibiana | sange cu matreata
+Echimoza | vanatai
+Ectima | rana murdara
+Eczema | jupuitul; bube de piele
+Edem | umflatura; umflaturi
+Efelide | pistrui
+Encefalita letargica | encefalita somnului
+Encopreza | scapatul in izmene
+Endometrioza | dureri de femeie
+Entorsa | suceala; intepatura de picior; intindere
+Enurezis | udarea patului
+Epicondilita | cotul tenismenului
+Epididimita | boala de soldat
+Epilepsie | boala dracului; boala neagra; boala copiilor; boala comitiala
+Erizipel | roseata
+Eructatii | ragait
+Escara | rana de la spital
+Exoftalmie | ochi iesiti
+Exotropie | ochi in afara
+Extrofie de vezica urinara | besica pe afara
+Faringita | durere in gat; usturime in gat
+Faringoamigdalita | amigdale umflate
+Febra | friguri; temperatura marita; febra mare
+Febra tifoida | lingoare; lungoare
+Fibrilatie atriala paroxistica | batai neregulate
+Fibrom uterin | cheag la uter
+Fibroza chistica | boala sarata
+Fibroza pulmonara idiopatica | plamanul betonat
+Fimoza | cap acoperit
+Fistula anala | canal la fund; fund de cur
+Fisura anala | crapatura la fund
+Fisura labiala | buza despicata
+Fisura labiopalatina | gura de lup
+Fisura palatina | cerul gurii crapat
+Flebita | boala de vase; flegmoza
+Flebotromboza | buba de la picior; sange batut
+Fobie sociala | frica de oameni; rusine bolnavoasa
+Fotofobie | frica de lumina
+Fractura | os rupt; os frant; ciobitura de os
+Framboesia | boala framboasei
+Frigiditate | raceala la femei; raceala la pat; frig la femeie; nu simte nimic
+Fuga disociativa | fuga de acasa; ratacirea mintii
+Furtuna tiroidiana | criza de gusa
+Furuncul | buba rea; umflatura cu cep; buba coapta
+Gangrena diabetica | necroza; putregaiul piciorului
+Gangrena gazoasa | gangrena umflata
+Gastrita | arsura la stomac; arsura de stomac; jupuitul stomacului
+Gastroenterita | diaree cu varsaturi
+Gastroptoza | stomac lasat
+Gaura maculara | pata in mijlocul vederii
+Giardiaza | boala de la apa; prapadirea copilului; lambliaza
+Gigantism | urias
+Ginecomastie | sani de barbat
+Gingivita | bube la gingii; buba la gingie; sangerarea gingiilor
+Glaucom | piatra la ochi; apa neagra la ochi
+Globulus faringian | nod in gat
+Glomerulonefrita | rinichi inflamat
+Glosita | limba arsa
+Gonoree | scursoare; bobita; boala de dragoste; blenoragie
+Greata | greturi; scarba
+Greturi matinale | greturi de dimineata
+Gripa | races; boala de iarna
+Gusa | bocitura; cocosul; umflatura la gat
+Guta | boala dasilor; podagra; boala piciorului umflat; jinduitul
+Halitoza | gura rea; miros urat de gura
+Hemangiom | zgaiba; pata rosie din nastere; pata de capsuni
+Hemartroza | sange in incheietura
+Hematocel | punga cu sange
+Hematom epidural | sange la creier
+Hematom subdural | vanatai la cap
+Hematurie | pisoare cu sange; sange in urina
+Hemimelie | membre scurte
+Hemocromatoza | boala bronzata
+Hemofilie | boala sangeranda; boala sangerarii
+Hemoglobinurie | urina neagra
+Hemoliza acuta | sange stricat
+Hemoragie | sangerare; scurgere de sange
+Hemoragie cerebrala lobara | sangerare la creier
+Hemoragie digestiva inferioara | sangerare pe la fund
+Hemoragie digestiva superioara | varsaturi cu sange
+Hemoragie nazala | sangerare din nas; dus cu sange; sange din nas
+Hemoroizi | nade; cui; strugurei; umflaturi la fund
+Hemoroizi trombosati | cheag la fund
+Hepatita A | hepatita molipsitoare
+Hepatita A cu icter | galbeaza molipsitoare
+Hepatita B | hepatita de sange
+Hepatomegalie | ficat marit
+Hepatosplenomegalie | ficat si splina marite
+Hernie de disc | discul rupt
+Hernie diafragmatica | hernie la piept
+Hernie hiatala | hernie la stomac
+Hernie inghinala | hernie la vintre; ruptura; vintre; boala ruptului
+Herpes genital | bube la organe; buba la partea rusinoasa
+Herpes labial | buba de frig; buba la gura; febra la buza; buba rece
+Hidatidoza | chist cu apa
+Hidrocefalie | cap mare; apa la cap
+Hidronefroza | rinichi umflat cu apa; apa la rinichi
+Hipercolesterolemie familiala | colesterol
+Hiperglicemie | zahar mare
+Hipermetropie | vazutul de aproape; vazut de departe
+Hiperparatiroidism | glanda paratiroida bolnava
+Hipersalivatie | bale
+Hipersomnie | somn prea mult
+Hipertensiune arteriala | tensiune mare; presiune mare; tensiune
+Hipertensiune arteriala pulmonara | tensiune la plamani
+Hipertensiune intracraniana benigna | tensiune la cap
+Hipertiroidism | orbalz
+Hipertricoza | par prea mult
+Hipertrigliceridemie | grasimi in sange
+Hiperuricemie | acid uric mare
+Hipoglicemie | zahar mic; zahar scazut
+Hipotensiune arteriala | tensiune mica; presiune mica
+Hipotensiune ortostatica | ameata la sculare
+Hipotiroidism | tiroida lene
+Icter | boala galbena; galbenare; galbeaza
+Impetigo | bube
+Imunitate scazuta | imunitate slaba
+Incontinenta urinara | pisu pe tine
+Infarct cerebral silentios | trombus la creier; infarct la cap
+Infarct miocardic | atac de cord; criza de cord; infarct la inima
+Infarct pulmonar | cheag la plaman
+Infectie urinara | infectie la urina
+Infertilitate | stearpa
+Insolatie | insolat; lesin de caldura; lovitura de soare
+Insomnie | nesomn; lipsa somnului
+Insuficienta cardiaca | inima slaba; inima slabita
+Insuficienta hepatica | ficat slab
+Insuficienta renala | rinichi slabi
+Insuficienta venoasa | vene slabe
+Intoleranta la lactoza | rau la lapte
+Intoxicatie | otravire; intoarcere
+Intoxicatie acuta cu alcool | beutura
+Intoxicatie cu ciuperci | otravire cu ciuperci; ciumanglilie
+Intoxicatie cu monoxid de carbon | gaz; gazat
+Intoxicatie cu plumb | saturatie cu plumb; plumb in sange
+Ischemie | sange oprit
+Laringita | gat infundat; raguseala
+Laringita acuta la adult | ragu
+Lauzie | lauza
+Leishmanioza cutanata | basicile; rana de orient
+Leucemie | cancer de sange
+Leucoree | poale albe; poala uda
+Limfadenopatie | ganglioni umflati
+Lipom | buba de grasime; umflatura de grasime
+Litiaza biliara | pietre la fiere; piatra la fiere
+Litiaza de ureter | nisip la rinichi
+Lombalgie | dureri de spate; junghi la spate; durere de spate; durere de mijloc
+Ludopatia | patima jocurilor
+Luxatie | scranta; scaparea
+Luxatie congenitala de sold | sold scapati
+Mahmureala | mahmur
+Malarie | frigurile; paludism
+Malnutritie | desnutritie; subnutritie
+Marasm | atrofiere
+Mastita | buboaie la san
+Mastoidita | ciupitura urechii
+Megalencefalie | cap prea mare
+Megalocornee | ochi mare
+Melanom | al negru
+Melanonichie | unghie neagra
+Melasma | masa
+Melena | scaun negru
+Menopauza | climacteriu
+Menoragie | ciclu cu sange mult; sangerare menstruala
+Menstruatii neregulate | ciclu neregulat; menstre neregulate
+MERS | virusul camilei
+Meteorism | balonare
+Miastenie | oboseala musculara
+Mica pneumoconioza | plaman negru
+Micoza piciorului | piciorul atletului; ciuperca la picior
+Micoze | ciuperci
+Microcefalie | cap mic
+Miocardita | inima inflamata
+Miodesopsie | musculite
+Miopatie | slabiciune musculara
+Miopatie viscerala intestinala | lene de intestin
+Miopie | ochi slab
+Moarte fetala in utero | fat mort
+Mola hidatiforma | ou clar
+Mononucleoza infectioasa | boala sarutului
+Monturi | bataturi la picioare
+Nanism | pitic; piticul
+Nastere prematura | nastere inainte de vreme
+Nefrita | boala de rinichi
+Nefrita interstitiala | rinichi inflamat cu febra
+Nefropatie diabetica | rinichi de zahar
+Nefroptoza | rinichi cazut
+Negi | neg
+Neoplasm pulmonar malign | cancer la plaman
+Neoplazie intraepiteliala cervicala | leziune precanceroasa
+Neurinom acustic | tumoare pe nervul auzului
+Neuroblastom | tumoare pe nervi
+Neuropatie diabetica | amorteala la picioare; nerv stricat
+Neuropatie periferica | amorteala
+Nevralgie | durere de nervi
+Nevrita | nerv inflamat
+Nevroza | boala de nervi
+Nevus Spitz | albug
+Nictalopie | orbul gainilor
+Noduli tiroidieni | noduri la tiroida; nod la tiroida
+Noduli vocali | noduli la corzi
+Obezitate | gresime; grasime
+Obezitate abdominala | burta mare
+Ochi uscat | ochi sec
+Ocluzie de artera centrala a retinei | orbire brusca
+Ocluzie intestinala | ocol
+Odinofagie | durere la inghitit
+Oftalmopatie tiroidiana | ochi bulbucati
+Oftalmoplegie | paralizie la ochi
+Omfalita | buba la buric
+Omfalocel | buric iesit
+Onicocriptoza | unghie incarnata
+Onicodistrofie | unghii stricate
+Onicogrifoza | unghie groasa
+Onicomicoza | ciuperca la unghii; ciuperca unghiei
+Ooforita | inflamatie la ovar
+Oreion | papusa
+Osteita condensanta | os inflamat
+Osteofit | pinten la calcai
+Osteogenesis imperfecta | oase de sticla
+Osteom | exostoza
+Osteomielita | os putred
+Osteopenie | oase slabe; os subtire
+Osteoporoza | oase fragile
+Osteoporoza senila | oase de batran
+Otita | durere de ureche
+Otita externa | buba la ureche
+Otita externa circumscrisa | furuncul la ureche
+Otita medie | scurgere la ureche
+Otita medie cronica colesteatomatoasa | ureche cu puroi
+Otomastoidita | buba dupa ureche
+Otomicoza | ciuperca la ureche
+Otoscleroza | auz slab
+Ototoxicitate | medicament care surzeste
+Oul oprit in evolutie | ou oprit
+Oxiuroza | viermisori; viermi la cur
+Palpitatii | batai de inima
+Panariciu | buba la unghie
+Panariciu herpetic | buba la deget
+Pancreatita | pricina
+Pancreatita cronica calcifianta | piatra la pancreas
+Paralizie brahiala obstetrica | manuta paralizata
+Paralizie faciala | fata stramba; dambla
+Paralizie intestinala | intestin lenes
+Parazitoze | viermi
+Parazitoze intestinale | viermi la stomac
+Parestezii | furnicaturi
+Parodontoza | dinti stricati
+Pediculoza | paduchi
+Pelagra | boala de maidan
+Pericardita | punga inimii
+Peritonita | junghi la burta
+Peritonita acuta generalizata | burta inflamata
+Persistenta canalului arterial | gaura la inima
+Persistenta de foramen ovale | gaura intre inimi
+Personalitate antisociala | delincvent
+Pete de batranete | pete pe piele
+Pica | pofta de neobisnuit
+Picior plat | talpa plata
+Piele grasa | ten gras
+Piele uscata | piele aspra
+Pielonefrita | infectie la rinichi; rinichi bolnav
+Pinten calcanean | calcai dureros
+Pioderma cutanat | piele cu bube
+Pionefroza | puroi la rinichi
+Pitiriazis versicolor | ciuperca pe piele
+Plaman de mucegai | plaman mucegait
+Plaman de pasari | plaman de pasare
+Pleurezie exudativa | apa pe plaman
+Pneumoconioza | pulbere in plamani
+Pneumoconioza de carbune | plaman de carbune
+Pneumonie | guturai la plamani
+Pneumonie la varstnici | pneumonie la batrani
+Pneumoperitoneu | gaz in burta
+Pneumotorax | aer la plaman
+Poliomielita | paralizie la copil
+Polip biliar | polip la fiere
+Polip intestinal | polipi; polip la intestin
+Polipi nazali | polipi la nas; polipi in nas
+Porfirie intermitenta acuta | boala regala
+Prediabet | diabet la inceput
+Preeclampsie | boala de sarcina
+Preeclampsie severa | toxemia sarcinii
+Presbiopie | ochi batran
+Priapism | pulie sculata; mandrie
+Proctalgie fugace | intepatura la fund
+Prolaps hemoroidal | buba la fund
+Prolaps rectal | iesirea matelor; fundul iesit; matura la fund
+Prolaps uterin | caderea uterului
+Prolaps vaginal | perete coborat
+Prostatita | boala de prostata; prostata inflamata
+Prostatita granulomatoasa | prostata cu noduri
+Prostatodinia | durere de prostata
+Prostatoza | prostata marita; prostata umflata
+Protoporfirie eritropoietica | bubi la lumina
+Prurigo ferox | intepatura de plosnita
+Prurit anal | mancarime la fund
+Pseudoguta | guta falsa; reumatism cu calcar
+Pseudopelada | chelie pe locuri
+Pseudoxanthoma elasticum | piele galbena elastica
+Psihoza | nebunie; boala mintii
+Psihoza alcoolica | nebunie de bautura
+Psihoza comuna | nebunie in doi
+Psihoza postpartum | nebunie la lauza
+Psitacoza | boala papagalilor; febra papagalilor
+Psoriazis | sperlaciune; jupuit; boala solzoasa
+Pterigion | carne la ochi; aripa la ochi
+Ptosis palpebral | pleoapa cazuta; pleoapa lasata
+Pubertate intarziata | creste greu
+Pulpita dentara | durere de masea; nerv la masea
+Pupila Adie | pupila lenesa
+Purpura senila | vanatai la batrani
+Purpura trombocitopenica | boala cu vanatai; boala petelor
+Pustuloza exantematica acuta generalizata | bube cu puroi
+Rabdomioliza | muschi topit; muschi stricat
+Rabdomiom | umflatura la muschi
+Rabie | turbare; boala turbarii
+Rabie furioasa | turbare cu turbare
+Rabie paralitica | turbare linistita
+Raceala | guturai; boala de nas
+Radiculita | junghi la picior
+Radiculopatie | durere de nerv
+Radiculopatie cervicala | junghi la ceafa
+Radiculopatie lombara | junghi la mijloc
+Rahisis | cocoasa; spinarea stramba
+Rahitism | jinduit; boala de crestere; oase moi; boala englezeasca
+Rahitism dependent de vitamina D tip I | rahitism greu
+Rahitism dependent de vitamina D tip II | rahitism fara vindecare
+Rahitism hipofosfatemie autozomal dominant | rahitism de familie
+Rau de miscare | rau de masina; rau de drum; boala masinii; rau de mare
+Reflux gastroesofagian | arseala in gat; intoarcere la gat; fiere in gat
+Reflux vezicoureteral | urina inapoi
+Reinfarct | al doilea infarct
+Retard mintal usor | incet la minte
+Retentie de placenta | placenta oprita
+Retentie de resturi placentare | curatat dupa nastere
+Retentie urinara | nu poate urina
+Reticulohistiocitoza | noduli la incheieturi
+Retinita cu citomegalovirus | retina cu virus
+Retinita pigmentara | vedere de tunel; vedere pe teava
+Retinoblastom | cancer la ochi
+Retinopatie de prematuritate | ochi de prematur
+Retinopatie diabetica | retina de zahar; ochi de diabetic
+Retinopatie hipertensiva | retina de tensiune
+Retinopatie seroasa centrala | pata in ochi
+Retinoschizis | retina crapata
+Retrognatism | barbie lasata
+Retrolisteza | vertebra alunecata
+Reumatism abarticular | reumatism la muschi
+Revarsat pericardic | apa la inima
+Rezistenta la insulina | zahar la limita
+Riduri | zbarcituri
+Rinichi ectopic | rinichi ratacit
+Rinichi in potcoava | rinichi lipiti
+Rinichi supranumerar | rinichi in plus
+Rinita | nas infundat
+Rinita alergica | febra fanului; nas de fan
+Rinita alergica sezoniera | febra de fan
+Rinita atrofica | nas uscat
+Rinita hipertrofica | carne in nas
+Rinofima | nas carnos
+Rinolit | piatra in nas
+Rinoree cerebrospinala | apa la nas
+Rosacea fulminans | fata rosie; roseata pe fata
+Roseola infantum | a sasea boala
+Rubeola | pojar molatic; pojarel; pojarul german
+Ruptura de chist ovarian | chist plesnit
+Ruptura de miocard | inima rupta
+Ruptura de splina | splina rupta
+Ruptura prematura de membrane | apa rupta; apa sparta
+Ruptura uterina | pantec rupt
+Sacroiliita | junghi la fund
+Salmoneloza | boala de oua
+Salpingita | infectie la trompe; anexa inflamata
+Sancroid | buba moale
+Sangerare postcoitala | sange dupa contact
+Sangerare postmenopauza | sangerare la batranete
+Sarcina abdominala | sarcina in burta
+Sarcina extrauterina | sarcina pe afara; sarcina in trompe
+Sarcoidoza | boala cu noduli
+Sarcoidoza ganglionara | ganglioni mariti
+Sarcoidoza hepatica | ficat cu noduli
+Scabie | boala de mancarime; raia; raie
+Scafocefalie | cap lung
+Schistosomiaza | boala melcului
+Schizencefalie | creier crapat
+Schizofrenie | dementa precoce
+Schizofrenie catatonica | nebun rau
+Schizofrenie paranoida | nebun cu ganduri
+Sciatica | junghi la sold; durere de sciatic
+Scleredem | piele intarita
+Sclerodermie | piele de lemn; piele tare
+Scleroedem neonatal | piele tare bebe
+Scleromixedem | piele groasa
+Scleroza de col vezical | gatul vezicii stricat
+Scleroza laterala amiotrofica | boala neuronului motor
+Scleroza valvei aortice | valva stricata
+Scolioza | coloana stramba
+Scorbut | boala marinarilor
+Seminom | cancer la un testicul
+Sepsis puerperal | febra lauzei
+Septicemie | otrava in sange; otravirea sangelui
+Sfarcuri dureroase | sfarcuri crapate
+Sifilid cutanat | bube sifilitice
+Sifilis | boala frantuzeasca; buba frantuzeasca; sfranciuc
+Sifilis congenital | sifilis mostenit
+Sifilis primar | buba tare
+Sifilis secundar | bube pe corp
+Sifilis tertiar | tabes
+Silicoza | plaman de nisip
+Sincopa | lesin
+Sindactilie | degete lipite
+Sindrom Cushing | fata de luna; grasime pe burta
+Sindrom de abstinenta alcoolica | sevraj; chef; beutura oprita
+Sindrom de banda iliotibiala | genunchiul alergatorului
+Sindrom de detresa respiratorie acuta | plaman inundat
+Sindrom de emaciere HIV | slabire de SIDA
+Sindrom de hipermobilitate | incheieturi elastice
+Sindrom de hiperstimulare ovariana | ovare umflate
+Sindrom de iesire toracica | umar blocat
+Sindrom de intestin iritabil cu diaree | colon iritabil cu diaree
+Sindrom de intestin iritabil postinfectios | colon iritabil postinfectie
+Sindrom de intestin scurt | intestin scurtat
+Sindrom de intestin scurt postoperator | intestin scurtat operat
+Sindrom de malabsorbtie | mananca si slabeste
+Sindrom de tunel carpian | bechie
+Sindrom de tunel cubital | bechie la cot
+Sindrom Down | mongolism; boala mongoloida
+Sindrom Marfan | paianjen
+Sindrom metabolic | sindrom X
+Sindrom post-COVID-19 | COVID prelungit; COVID lung
+Sindromul intestinului iritabil | colon iritabil
+Sindromul ovarelor polichistice | chisturi la ovare
+Sindromul picioarelor nelinistite | picioare nelinistite; sindromul picioarelor fara odihna
+Sinuzita | rana de nas
+Somnambulism | boala de luna; lunatism; mers in somn
+Somniloquie | vorbit in somn
+Splenomegalie | boala de splina
+Steatoza hepatica | ficat gras
+Steatoza hepatica alcoolica | ficat de baut
+Stenoza de canal lombar | canal ingust
+Stomatita | buba in gura
+Strabism | ochi stramb; sasiu; ochi incrucisati
+Stres posttraumatic | nevroza de razboi
+Subponderalitate | slabanog
+Surditate | surzenie
+Telangiectazie | vinisoare
+Teniaza | panglica; vierme lat
+Tinea cruris | pecingine
+Tinitus | tiuit in urechi
+Torace in carena | piept de pasare
+Torace infundat | piept de cizmar
+Torticolis | gat intepenit
+Toxiinfectie alimentara | otravire de la mancare
+Toxoplasmoza | boala de la pisica; boala pisicii
+Transpiratie excesiva | sudori
+Traumatisme musculare | intindere musculara
+Tromboza venoasa profunda | cheag la picior; cheag la vena
+Tuberculoza | oftica; ftizie; ciuma alba
+Tuberculoza ganglionara | scrofula
+Tularemie | febra iepurelui
+Tulburare bipolara | boala maniaco-depresiva
+Tulburare de anxietate generalizata | nervi
+Tulburare de conversie | isterie
+Tulburare de identitate disociativa | personalitate multipla
+Tulburare halucinatorie | vedenii
+Tulburare psihotica acuta | criza de nebunie
+Tuse convulsiva | tuse magareasca
+Tuse psihogena | tuse nervoasa
+Ulcer gastric | rana la stomac
+Ulcere ale picioarelor | rane la picioare; rana la picior
+Urticarie | basicute
+Vaginita | poala alba
+Valvulopatie cardiaca | suflu la inima
+Varice | vine vinete; vinele umflate; vene varicoase
+Varicela | varsat de vant; varsat
+Vertij | ameteala
+Vitiligo | pete albe
+Zona zoster | brau
