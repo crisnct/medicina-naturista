@@ -24,6 +24,19 @@ MIN_TERMS = 2
 WORK = Path(__file__).resolve().parent
 DICTIONARY = WORK.parents[1] / "data" / "medical_conditions.txt"
 
+# A run may send every write to a scratch file: the pipeline exports this variable,
+# the stage scripts pick it up, and only a fully verified file replaces the
+# dictionary. Without the variable, writes go straight to DICTIONARY.
+TARGET_ENV = "CONDITIONS_TARGET"
+
+
+def target() -> Path:
+    """The file the current run reads and writes."""
+    import os
+
+    override = os.environ.get(TARGET_ENV)
+    return Path(override) if override else DICTIONARY
+
 BATCH_ORDER = [
     "01_infectioase.txt", "02_neoplasme.txt", "03_sange_imun.txt",
     "04_endocrine_metabolice.txt", "05_psihice.txt", "06_nervos.txt",
