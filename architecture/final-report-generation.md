@@ -109,7 +109,7 @@ După `on_message()` (declanșat de „Trimite” sau de Enter), Gradio rulează
 ## 11. Stocarea și afișarea rezultatului
 
 - **11.1.** Stochează octeții în `session.report_bytes` și un `report_id` aleatoriu (`secrets.token_urlsafe(18)`) în `session.report_id`.
-- **11.2.** Adaugă în chat, în ordine: textul recomandărilor cu bibliografie (`_recommendation_text()`, maximum 14.000 de caractere), panoul de descărcare (`_download_html()`) și oferta de e-mail: „Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit.”
+- **11.2.** Adaugă în chat, în ordine: textul recomandărilor cu bibliografie (`_recommendation_text()`, fără limită de lungime), panoul de descărcare (`_download_html()`) și oferta de e-mail: „Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit.”
 - **11.3.** Golește `session.pending_evidence` și ascunde panoul „Generează rețeta”.
 - **11.4.** Raportul rămâne în memoria procesului până când sesiunea este ștearsă, expiră (inactivitate `SESSION_IDLE_SECONDS` = 3600 s, durată maximă `SESSION_MAX_SECONDS` = 14400 s) sau aplicația este repornită.
 

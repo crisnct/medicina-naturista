@@ -45,6 +45,10 @@ PINNED = dict(
     hf_api_base="https://router.huggingface.co/v1",
     hf_reasoning_effort="",
     hf_max_context_chars=120_000,
+    deepseek_model="deepseek-flash",
+    deepseek_api_base="https://api.deepseek.com",
+    deepseek_reasoning_effort="",
+    deepseek_max_context_chars=None,
     ollama_model="deepseek-v4.1-flash:cloud",
     ollama_api_base="http://localhost:11434/v1",
     ollama_reasoning_effort="",
@@ -173,6 +177,43 @@ class PayloadTest(unittest.TestCase):
         self.assertNotIn("store", calls[0]["json"])
 
 
+class DeepSeekDirectTest(unittest.TestCase):
+    def test_request_uses_responses_api_with_text_format_and_no_store(self):
+        with patch.dict(os.environ, {"DEEPSEEK_API_KEY": "synthetic-ds-key"}):
+            client = create_ai_client(settings_for("deepseek"))
+            calls = capture_post(client, completed('{"ok": true}'))
+            result = client.complete_json("sistem", "utilizator", 777)
+            client.close()
+        self.assertEqual(result, {"ok": True})
+        self.assertEqual(calls[0]["url"], "https://api.deepseek.com/responses")
+        self.assertEqual(calls[0]["headers"]["Authorization"], "Bearer synthetic-ds-key")
+        self.assertEqual(
+            calls[0]["json"],
+            {
+                "model": "deepseek-flash",
+                "input": [
+                    {"role": "system", "content": "sistem"},
+                    {"role": "user", "content": "utilizator"},
+                ],
+                "text": {"format": {"type": "json_object"}},
+                "max_output_tokens": 777,
+            },
+        )
+
+    def test_reasoning_effort_is_sent_only_when_configured(self):
+        with patch.dict(os.environ, {"DEEPSEEK_API_KEY": "synthetic-ds-key"}):
+            client = create_ai_client(settings_for("deepseek", deepseek_reasoning_effort="high"))
+            calls = capture_post(client, completed('{"ok": true}'))
+            client.complete_json("s", "u", 10)
+            client.close()
+        self.assertEqual(calls[0]["json"]["reasoning"], {"effort": "high"})
+
+    def test_budget_defaults_to_the_global_limit(self):
+        client = create_ai_client(settings_for("deepseek", max_context_chars=900_000))
+        client.close()
+        self.assertEqual(client.context_budget(), 900_000)
+
+
 class MissingKeyTest(unittest.TestCase):
     def assert_missing(self, provider: str, variable: str, **overrides):
         with patch.dict(os.environ, {variable: ""}):
@@ -190,6 +231,9 @@ class MissingKeyTest(unittest.TestCase):
 
     def test_huggingface(self):
         self.assert_missing("huggingface", "HF_TOKEN")
+
+    def test_deepseek(self):
+        self.assert_missing("deepseek", "DEEPSEEK_API_KEY")
 
     def test_remote_ollama(self):
         self.assert_missing("ollama", "OLLAMA_API_KEY", ollama_api_base="https://ollama.com/v1")

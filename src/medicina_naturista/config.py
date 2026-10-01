@@ -45,7 +45,7 @@ def _optional_int(name: str, default: int | None = None, minimum: int = 1) -> in
     return value
 
 
-AI_PROVIDERS = ("xai", "huggingface", "ollama")
+AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
 
 
 # Read AI_PROVIDER and reject anything that is not a known provider.
@@ -78,6 +78,10 @@ class Settings:
     ollama_api_base: str = os.getenv("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/")
     ollama_reasoning_effort: str = os.getenv("OLLAMA_REASONING_EFFORT", "").strip()
     ollama_max_context_chars: int | None = _optional_int("OLLAMA_MAX_CONTEXT_CHARS")
+    deepseek_model: str = os.getenv("DEEPSEEK_MODEL", "deepseek-flash")
+    deepseek_api_base: str = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/")
+    deepseek_reasoning_effort: str = os.getenv("DEEPSEEK_REASONING_EFFORT", "").strip()
+    deepseek_max_context_chars: int | None = _optional_int("DEEPSEEK_MAX_CONTEXT_CHARS")
     ai_stream: bool = _bool("AI_STREAM", False)
     ai_max_output_tokens: int = _int("AI_MAX_OUTPUT_TOKENS", 20000)
     ai_read_timeout_seconds: int = _int("AI_READ_TIMEOUT_SECONDS", 300)
@@ -90,7 +94,6 @@ class Settings:
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)
     log_ai_response_text: bool = _bool("LOG_AI_RESPONSE_TEXT", False)
-    log_ai_response_text_max_chars: int = _int("LOG_AI_RESPONSE_TEXT_MAX_CHARS", 8000)
 
     # Reject an unknown provider even when Settings is built directly (tests).
     def __post_init__(self) -> None:
@@ -103,6 +106,10 @@ class Settings:
     # Return the Hugging Face Inference Providers token without surrounding whitespace.
     def hf_token(self) -> str:
         return os.getenv("HF_TOKEN", "").strip()
+
+    # Return the DeepSeek API key without surrounding whitespace.
+    def deepseek_api_key(self) -> str:
+        return os.getenv("DEEPSEEK_API_KEY", "").strip()
 
     # Return the Ollama Cloud API key without surrounding whitespace.
     def ollama_api_key(self) -> str:

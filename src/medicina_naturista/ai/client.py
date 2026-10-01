@@ -254,7 +254,7 @@ class ResponsesClient:
                 logger.info(
                     "ai_response_text chars=%s text=%s",
                     len(content),
-                    content[: self.settings.log_ai_response_text_max_chars],
+                    content,
                 )
             if not content:
                 raise ValueError("empty content")

@@ -214,4 +214,4 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
             f"{number} - {bibliography_label(source)}"
             for number, source in enumerate(references, start=1)
         )
-    return "\n".join(lines)[:14000]
+    return "\n".join(lines)

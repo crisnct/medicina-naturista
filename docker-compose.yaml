@@ -53,6 +53,11 @@ services:
       HF_API_BASE: ${HF_API_BASE:-https://router.huggingface.co/v1}
       HF_REASONING_EFFORT: ${HF_REASONING_EFFORT:-}
       HF_MAX_CONTEXT_CHARS: ${HF_MAX_CONTEXT_CHARS:-120000}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
+      DEEPSEEK_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com}
+      DEEPSEEK_REASONING_EFFORT: ${DEEPSEEK_REASONING_EFFORT:-}
+      DEEPSEEK_MAX_CONTEXT_CHARS: ${DEEPSEEK_MAX_CONTEXT_CHARS:-}
       OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
       OLLAMA_MODEL: ${OLLAMA_MODEL:-deepseek-v4.1-flash:cloud}
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
@@ -75,7 +80,6 @@ services:
       LOG_FRAGMENT_TEXT: ${LOG_FRAGMENT_TEXT:-true}
       LOG_FRAGMENT_TEXT_MAX_CHARS: ${LOG_FRAGMENT_TEXT_MAX_CHARS:-4000}
       LOG_AI_RESPONSE_TEXT: ${LOG_AI_RESPONSE_TEXT:-false}
-      LOG_AI_RESPONSE_TEXT_MAX_CHARS: ${LOG_AI_RESPONSE_TEXT_MAX_CHARS:-8000}
       COOKIE_SECURE: ${COOKIE_SECURE:-true}
       TRUST_PROXY: "true"
       OWNER_KEY: ${OWNER_KEY:-}
@@ -93,7 +97,8 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
-      - "127.0.0.1:7860:7860"
+      # Host port outside the Windows-reserved 7772-7871 range; the container stays on 7860.
+      - "127.0.0.1:${APP_HOST_PORT:-8760}:7860"
     networks: [internal]
   caddy:
     image: caddy:2

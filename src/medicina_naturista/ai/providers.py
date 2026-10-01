@@ -60,6 +60,23 @@ def provider_config(settings: Settings) -> ProviderConfig:
             max_context_chars=None,
             **common,
         )
+    # DeepSeek's own API documents `text.format` and `reasoning.effort`, and
+    # ignores `store` (api-docs.deepseek.com/guides/responses_api).
+    if settings.ai_provider == "deepseek":
+        return ProviderConfig(
+            name="deepseek",
+            label="DeepSeek",
+            base_url=settings.deepseek_api_base,
+            model=settings.deepseek_model,
+            reasoning_effort=settings.deepseek_reasoning_effort or None,
+            api_key=settings.deepseek_api_key,
+            api_key_env="DEEPSEEK_API_KEY",
+            api_key_required=True,
+            json_format="text_format",
+            send_store=False,
+            max_context_chars=settings.deepseek_max_context_chars,
+            **common,
+        )
     # json_format stays None for the two providers below until Phase 0 of
     # architecture/ai-provider-switch-plan.md confirms which field they honor.
     if settings.ai_provider == "huggingface":

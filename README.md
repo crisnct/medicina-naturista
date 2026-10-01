@@ -49,7 +49,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate și descrierea problemei sunt trimise, după `AI_PROVIDER`, către xAI, către DeepInfra prin routerul Hugging Face sau către Ollama (Cloud, cu modelele `:cloud`) pentru redactarea raportului; politicile de retenție ale fiecărui furnizor rămân de verificat înainte de activare. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate și descrierea problemei sunt trimise, după `AI_PROVIDER`, către xAI, direct către DeepSeek (api.deepseek.com, servere în China), către DeepInfra prin routerul Hugging Face sau către Ollama (Cloud, cu modelele `:cloud`) pentru redactarea raportului; politicile de retenție ale fiecărui furnizor rămân de verificat înainte de activare. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -220,7 +220,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 
 | Variabilă | Implicit | Rol |
 |---|---:|---|
-| `AI_PROVIDER` | `xai` | Furnizorul AI pentru generarea raportului: `xai`, `huggingface` sau `ollama`. Valoare necunoscută → eroare la pornire; schimbarea cere repornirea aplicației. |
+| `AI_PROVIDER` | `xai` | Furnizorul AI pentru generarea raportului: `xai`, `huggingface`, `ollama` sau `deepseek`. Valoare necunoscută → eroare la pornire; schimbarea cere repornirea aplicației. |
 | `X_API_KEY` | — | Cheia xAI (necesară cu `AI_PROVIDER=xai`). |
 | `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
@@ -230,6 +230,11 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF (Responses API, beta). |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
 | `HF_MAX_CONTEXT_CHARS` | `120000` | Limita de context prin routerul HF (≈ 64k tokeni); bugetul efectiv este minimul dintre aceasta și `MAX_CONTEXT_CHARS`. De calibrat după Faza 0 din `architecture/ai-provider-switch-plan.md`. |
+| `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com (necesară cu `AI_PROVIDER=deepseek`). |
+| `DEEPSEEK_MODEL` | `deepseek-flash` | Modelul DeepSeek (V4.1 Flash, prin Responses API: `POST {DEEPSEEK_API_BASE}/responses`). |
+| `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
+| `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
+| `DEEPSEEK_MAX_CONTEXT_CHARS` | _(fără limită proprie)_ | Plafon opțional al contextului. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
 | `OLLAMA_MODEL` | `deepseek-v4.1-flash:cloud` | Modelul Ollama (`:cloud` rulează pe serverele Ollama, după `ollama signin`). |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
@@ -252,8 +257,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `LOG_LEVEL` | `INFO` | Nivelul minim al logurilor. |
 | `LOG_FRAGMENT_TEXT` | `true` | Include textul fragmentelor în loguri. |
 | `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
-| `LOG_AI_RESPONSE_TEXT` | `false` | Include textul răspunsului xAI în loguri. |
-| `LOG_AI_RESPONSE_TEXT_MAX_CHARS` | `8000` | Limita textului răspunsului xAI logat. |
+| `LOG_AI_RESPONSE_TEXT` | `false` | Include în loguri textul complet al răspunsului AI, fără limită. |
 | `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă prin Caddy sub `/medicina` (folosit și la build-ul frontend-ului, ca `PUBLIC_BASE_PATH`). |
 | `FRONTEND_DIST_DIR` | `frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
 | `TRUST_PROXY` | `false` (direct) / `true` (Docker Compose) | Folosește primul IP din `X-Forwarded-For` pentru limitarea cererilor când traficul vine prin proxy de încredere. |
