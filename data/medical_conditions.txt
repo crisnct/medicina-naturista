@@ -1336,7 +1336,7 @@ Casexie,sindrom de casexie,emaciere generalizata,emaciere extrema,cachexia,cache
 Cataracta,piatra neagra,opacifierea cristalinului,cataracta senila,cataracta congenitala,cataract,lens opacity,clouding of the lens
 Cataracta diabetica,cataracta la diabetic,cataracta metabolica diabetica,cataracta juvenila diabetica,diabetic cataract,cataract in diabetes,diabetes-associated cataract
 Caverna tuberculoasa pulmonara,caverna ftizica,caverna tuberculoasa,cavitate tuberculoasa pulmonara,tuberculous lung cavity,tuberculous pulmonary cavern,cavitary pulmonary tuberculosis
-Cavernom cerebral,malformatie cavernoasa cerebrala,hemangiom cavernos cerebral,angiom cavernos cerebral,cerebral cavernous malformation,cavernous hemangioma of the brain,cerebral cavernoma
+Cavernom cerebral,malformatie cavernoasa cerebrala,hemangiom cavernos cerebral,angiom cavernos cerebral,cerebral cavernous malformation,cavernous hemangioma of the brain,cerebral cavernoma,cavernoma,Hemangiom cavernos,hemangiom cavitar,angiom cavernos,hemangiom venos,cavernous hemangioma,venous hemangioma,angiom cavernos cutanat,malformatie vasculara cavernoasa,cavernous angioma,cavernous vascular malformation
 Cecita,inflamatia cecului,cecita acuta,tiflita,cecitis,typhlitis,inflammation of the cecum
 Cecitate corticala,orbire corticala,cecitate prin leziune cerebrala,pierderea vederii de origine cerebrala,cortical blindness,cerebral blindness,cortical visual impairment
 Cefalee cervicogena,cefalee de origine cervicala,cefalee cervicala,durere de cap cervicogena,cervicogenic headache,headache of cervical origin,cervical headache
@@ -2492,7 +2492,6 @@ Helicobacter pylori,infectie cu Helicobacter pylori,h pylori,infectie cu helicob
 Hemangioendoteliom,tumora vasculara intermediara,hemangioendoteliom epitelioid,tumora endoteliala vasculara,hemangioendothelioma,epithelioid hemangioendothelioma,vascular endothelial tumor
 Hemangiom,tumora vasculara benigna,angiom benign,hemangiom congenital,hemangioma,benign vascular tumor,benign angioma,hemangioame,angiom,angioma
 Hemangiom capilar,hemangiom plan,hemangiom superficial,pat vascular congenital,capillary hemangioma,superficial hemangioma,flat hemangioma
-Hemangiom cavernos,hemangiom cavitar,angiom cavernos,hemangiom venos,cavernous hemangioma,cavernoma,venous hemangioma,angiom cavernos cutanat,malformatie vasculara cavernoasa,cavernous angioma,cavernous vascular malformation
 Hemangiom coroidal,hemangiom al coroidei,hemangiom circumscris coroidian,angiom coroidian,choroidal hemangioma,hemangioma of the choroid,choroidal angioma
 Hemangiom cutanat,hemangiom al pielii,angiom cutanat,hemangiom dermic,cutaneous hemangioma,skin hemangioma,dermal hemangioma
 Hemangiom hepatic,hemangiom al ficatului,angiom hepatic,tumora vasculara benigna hepatica,hepatic hemangioma,liver hemangioma,hepatic angioma,hemangiom cavernos hepatic,cavernous hemangioma of the liver,tumora vasculara benigna a ficatului
@@ -3337,7 +3336,6 @@ Mielofibroza primara,mielofibroza idiopatica,metaplazie mieloida cu mielofibroza
 Mieloftizie,mieloftizie anemica,insuficienta medulara prin invazie,metastaze medulare cu citopenie,myelophthisis,myelophthisic anemia,bone marrow infiltration
 Mielom multiplu,mielom,cancer al plasmocitelor,boala Kahler,multiple myeloma,myeloma,plasma cell cancer
 Mielom multiplu asimptomatic,mielom smoldering,mielom indolent,mielom multiplu inactiv,smoldering multiple myeloma,asymptomatic plasma cell myeloma,indolent myeloma
-Mielomeningocel,mielomeningocel lombar,spina bifida cistica,spina bifida aperta,myelomeningocele,spina bifida cystica,open spina bifida
 Mielopatia asociata HIV,mielopatia vacuolara HIV,mielopatia HIV,mielita HIV,HIV-associated myelopathy,vacuolar myelopathy,HIV myelopathy
 Mielopatia asociata HTLV-1,mielopatie HTLV-1,parapareza spastica tropicala,mielopatia tropicala spastica,HTLV-1 associated myelopathy,tropical spastic paraparesis,HAM TSP
 Mielopatia cervicala spondilogena,mielopatie cervicala prin spondiloza,compresie medulara cervicala degenerativa,mielopatie cervicala degenerativa,cervical spondylotic myelopathy,spondylotic cervical myelopathy,degenerative cervical myelopathy
@@ -3802,7 +3800,7 @@ Peritonita biliara,peritonita prin bila,peritonita biligena,peritonita prin scur
 Peritonita la dializa peritoneala,peritonita asociata dializei peritoneale,infectie a lichidului de dializa,peritonita in dializa,peritoneal dialysis-associated peritonitis,peritonitis in peritoneal dialysis,PD peritonitis
 Peritonita localizata,peritonita circumscrisa,abces peritoneal localizat,peritonita incapsulata,localized peritonitis,circumscribed peritonitis,encapsulated peritonitis
 Peritonita meconiala,peritonita cu meconiu,peritonita fetala,peritonita neonatala cu meconiu,meconium peritonitis,fetal meconium peritonitis,neonatal meconium peritonitis
-Peritonita tuberculoasa,peritonita cu tuberculoza,tuberculoza peritoneala,peritonita TBC,tuberculous peritonitis,peritoneal tuberculosis,tuberculosis of the peritoneum
+Peritonita tuberculoasa,peritonita cu tuberculoza,tuberculoza peritoneala,peritonita TBC,tuberculous peritonitis,peritoneal tuberculosis,tuberculosis of the peritoneum,ileita tuberculoasa
 Persistenta canalului arterial,ductus arteriosus permeabil,canal arterial persistent,PCA,patent ductus arteriosus,PDA,persistent ductus arteriosus
 Persistenta de foramen ovale,foramen ovale permeabil,FO permeabil,comunicare interatriala prin foramen ovale,patent foramen ovale,PFO,persistent foramen ovale
 Persistenta de urac,chist de urac,fistula uracala,persistenta canalului uracal,urachal cyst,urachal remnant,patent urachus
@@ -4416,7 +4414,6 @@ Sincopa ortostatica,sincopa prin hipotensiune ortostatica,sincopa la ortostatism
 Sincopa situationala,sincopa la mictiune,sincopa la tuse,sincopa situationala reflexa,situational syncope,micturition syncope,cough syncope
 Sincopa vasovagala,sincopa neurocardiogena,sincopa reflexa,lesin vasovagal,vasovagal syncope,neurocardiogenic syncope,reflex syncope
 Sindactilie,degete lipite,degete unite congenital,sindactilia,syndactyly,fused digits,webbed digits,webbed fingers
-Sindroame mielodisplazice,mielodisplazie,sindrom mielodisplazic,displazie medulara,myelodysplastic syndromes,myelodysplasia,myelodysplastic syndrome
 Sindrom Aarskog,sindrom Aarskog-Scott,displazie faciodigitogenitala,sindrom de displazie faciodigitogenitala,Aarskog syndrome,Aarskog-Scott syndrome,faciodigitogenital dysplasia
 Sindrom adrenogenital,sindrom adreno-genital,virilism suprarenal,hiperandrogenism suprarenal,adrenogenital syndrome,adrenogenital disorder,adrenal virilism
 Sindrom Aicardi-Goutieres,encefalopatia interferonica ereditara,leucoencefalopatia cu calcificari ale ganglionilor bazali,boala Aicardi-Goutieres,Aicardi-Goutieres syndrome,interferonopathy Aicardi-Goutieres,basal ganglia calcification leukoencephalopathy
@@ -4954,7 +4951,7 @@ Spasm de acomodatie,spasm al muschiului ciliar,acomodatie excesiva,pseudomiopie 
 Spasm hemifacial,spasm facial unilateral,hemispasm facial,spasm hemifacial esential,hemifacial spasm,unilateral facial spasm,facial hemispasm
 Spasme esofagiene difuze,spasm esofagian difuz,esofag in tirbuson,contractii esofagiene simultane,diffuse esophageal spasm,corkscrew esophagus,simultaneous esophageal contractions
 Spermatocel,chist spermatic,spermatocel epididimar,chist cu spermatozoizi,spermatocele,spermatic cyst,epididymal spermatocele
-Spina bifida,disrafism spinal,defect de inchidere a coloanei vertebrale,malformatie de tub neural spinal,spinal dysraphism,neural tube defect of the spine,spina bifida malformation
+Spina bifida,disrafism spinal,defect de inchidere a coloanei vertebrale,malformatie de tub neural spinal,spinal dysraphism,neural tube defect of the spine,spina bifida malformation,spina bifida aperta,defect de inchidere a tubului neural,myelodysplasia,open spina bifida,Mielomeningocel,mielomeningocel lombar,spina bifida cistica,myelomeningocele,spina bifida cystica,Sindroame mielodisplazice,mielodisplazie,sindrom mielodisplazic,displazie medulara,myelodysplastic syndromes,myelodysplastic syndrome
 Spina bifida oculta,spina bifida inchisa,disrafism spinal ocult,spina bifida oculta lombosacrala,spina bifida occulta,closed spina bifida,occult spinal dysraphism
 Spiradenom,spiradenom ecrin,tumora sudoripara benigna,hidradenom nodular,spiradenoma,eccrine spiradenoma,nodular hidradenoma
 Splenita,inflamatia splinei,splenita acuta,inflamatie a pulpei splenice,splenitis,inflammation of the spleen,acute splenitis
