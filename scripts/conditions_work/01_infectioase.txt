@@ -1,0 +1,437 @@
+Abces amibian cerebral,abces cerebral amibian,amebiaza cerebrala,encefalita amibiana,amoebic brain abscess,cerebral amoebiasis,amebic brain abscess
+Abces amibian pulmonar,abces pulmonar amibian,amebiaza pulmonara,abces pulmonar cu Entamoeba,amoebic lung abscess,pulmonary amoebiasis,amebic lung abscess
+Acrodermatita cronica atrofianta,boala Pick-Herxheimer,acrodermatita atrofica,acrodermatita cronica atrofica,acrodermatitis chronica atrophicans,Pick-Herxheimer disease,chronic atrophic acrodermatitis
+Amebiaza cutanata,ulcer amibian cutanat,leziune cutanata cu Entamoeba histolytica,amebiaza tegumentara,cutaneous amoebiasis,amebic skin infection,cutaneous amebiasis
+Amebom intestinal,amebom,granulom amibian intestinal,tumora inflamatorie amibiana,amoeboma,ameboma,amoebic granuloma of intestine
+Anaplasmoza,infectie cu Anaplasma phagocytophilum,ehrlichioza granulocitara umana,anaplasmoza granulocitara,human granulocytic anaplasmosis,anaplasmosis,Anaplasma phagocytophilum infection
+Ancilostomiaza,uncinarioza,infestare cu Ancylostoma duodenale,infestare cu Necator americanus,hookworm infection,ancylostomiasis,uncinariasis
+Anemie prin ancilostomiaza,anemie hipocroma cu ancilostomi,anemie feripriva tropicala,anemie cu hookworm,hookworm anemia,ancylostomiasis anemia,hookworm disease anemia
+Angina streptococica,faringoamigdalita streptococica,amigdalita cu streptococ beta-hemolitic,angina cu Streptococcus pyogenes,streptococcal pharyngitis,streptococcal tonsillitis,strep throat
+Angiomatoza bacilara,pelioza bacilara,angiomatoza bacilara hepatica,pelioza hepatica cu Bartonella,bacillary angiomatosis,bacillary peliosis,epithelioid angiomatosis
+Angiostrongiloidoza,meningita eozinofilica,infestare cu Angiostrongylus cantonensis,meningoencefalita eozinofilica,angiostrongyliasis,eosinophilic meningitis,Angiostrongylus cantonensis infection
+Anisakidoza,infestare cu Anisakis,granulom eozinofilic intestinal,granulom eozinofilic gastric,anisakiasis,anisakidosis,Anisakis infection
+Antrax cutanat,pustula maligna,carbuncul malign,antrax tegumentar,cutaneous anthrax,malignant pustule,hide porter's disease
+Antrax gastrointestinal,antrax intestinal,antrax orofaringian,infectie digestiva cu Bacillus anthracis,gastrointestinal anthrax,intestinal anthrax,oropharyngeal anthrax
+Antrax injectional,antrax la consumatorii de droguri injectabile,antrax subcutanat la heroinomani,antrax prin injectare,injectional anthrax,injection anthrax,anthrax in injecting drug users
+Antrax meningeal,meningita cu Bacillus anthracis,meningoencefalita antracoida,hemoragie meningeana antracoida,anthrax meningitis,meningeal anthrax,hemorrhagic meningitis due to anthrax
+Antrax pulmonar,antrax inhalator,boala lanarilor,antrax respirator,inhalational anthrax,pulmonary anthrax,woolsorter's disease
+Artrita cu Salmonella,artrita salmonelica,artropatie cu Salmonella,infectie articulara cu Salmonella,salmonella arthritis,salmonellal arthropathy,salmonella joint infection
+Ascaridioza biliara,ascaridioza cailor biliare,colangita ascarian,migrare biliara a Ascaris,biliary ascariasis,ascaris cholangitis,hepatobiliary ascariasis
+Aspergilom pulmonar,aspergilom bronsic,micoza aspergilomatoasa,colonizare aspergilara a cavernelor,pulmonary aspergilloma,aspergilloma,fungus ball of the lung
+Aspergiloza bronsopulmonara alergica,aspergiloza alergica,ABPA,aspergiloza cu hipersensibilitate,allergic bronchopulmonary aspergillosis,allergic bronchopulmonary aspergillus disease,ABPA syndrome
+Aspergiloza cutanata,micoza aspergilara cutanata,ulcer aspergilar cutanat,aspergiloza tegumentara,cutaneous aspergillosis,primary cutaneous aspergillosis,aspergillus skin infection
+Aspergiloza endocardica,endocardita aspergilara,endocardita cu Aspergillus,aspergiloza cardiaca,aspergillus endocarditis,aspergillus cardiac infection,fungal endocarditis due to aspergillus
+Aspergiloza invaziva,aspergiloza diseminata,aspergiloza angioinvaziva,aspergiloza acuta invaziva,invasive aspergillosis,disseminated aspergillosis,angioinvasive aspergillosis
+Aspergiloza sinusala,sinuzita aspergilara,micoza aspergilara a sinusurilor,aspergiloza nazosinusala,aspergillus sinusitis,sinus aspergillosis,fungal sinusitis due to aspergillus
+Babesioza,piroplasmoza umana,infectie cu Babesia,febra cu Babesia,babesiosis,human babesiosis,Babesia infection
+Bacteriemie,germeni in sange,infectie a sangelui cu bacterii,bacteriemie tranzitorie,bacteremia,bacteraemia,bloodstream bacterial infection
+Bacteriemie cu Salmonella,salmoneloza septicemica,septicemie cu Salmonella,infectie salmonelica diseminata,salmonella bacteremia,salmonella septicaemia,salmonella bloodstream infection
+Balantidioza,dizenterie balantidiana,infectie cu Balantidium coli,colita cu Balantidium,balantidiasis,balantidiosis,Balantidium coli infection
+Bartoneloza,boala Carrion,febra Oroya,infectie cu Bartonella bacilliformis,bartonellosis,Carrion's disease,Oroya fever
+Blastocistoza,infectie cu Blastocystis hominis,diaree cu Blastocystis,colita cu Blastocystis,blastocystosis,Blastocystis hominis infection,blastocystis infection
+Blastomikoza,boala Gilchrist,infectie cu Blastomyces dermatitidis,micoza cu Blastomyces,blastomycosis,Gilchrist's disease,Blastomyces dermatitidis infection
+Blastomikoza cutanata,blastomikoza tegumentara,ulcer blastomicotic cutanat,leziuni cutanate cu Blastomyces,cutaneous blastomycosis,blastomycotic skin infection,skin blastomycosis
+Blastomikoza diseminata,blastomikoza sistemica,blastomikoza generalizata,blastomikoza extrapulmonara,disseminated blastomycosis,systemic blastomycosis,extrapulmonary blastomycosis
+Blastomikoza pulmonara,pneumonie blastomicotica,infectie pulmonara cu Blastomyces,granulom pulmonar blastomicotic,pulmonary blastomycosis,blastomyces pneumonia,blastomycotic lung infection
+Boala Chagas,tripanosomiaza americana,miocardita chagasica,megaesofag chagasica,Chagas disease,American trypanosomiasis,Trypanosoma cruzi infection
+Boala coronavirus 2019,COVID-19,infectie cu SARS-CoV-2,pneumonie cu coronavirus,coronavirus disease 2019,COVID-19 disease,SARS-CoV-2 infection
+Boala Creutzfeldt-Jakob varianta,encefalopatia spongiforma bovina transmisa la om,boala vacii nebune la om,encefalopatia spongiforma varianta,variant Creutzfeldt-Jakob disease,new variant Creutzfeldt-Jakob disease,vCJD
+Boala cu virusul Ebola,febra hemoragica Ebola,febra Ebola,boala Ebola,Ebola virus disease,Ebola hemorrhagic fever,Ebola haemorrhagic fever
+Boala cu virusul Marburg,febra hemoragica Marburg,febra Marburg,boala Marburg,Marburg virus disease,Marburg hemorrhagic fever,Marburg haemorrhagic fever
+Boala inflamatorie pelvina cu Chlamydia,salpingita clamidiana,anexita cu Chlamydia,infectie pelvina cu Chlamydia,chlamydial pelvic inflammatory disease,chlamydial salpingitis,chlamydia pelvic infection
+Boala inflamatorie pelvina gonococica,salpingita gonococica,anexita gonococica,infectie gonococica pelvina,gonococcal pelvic inflammatory disease,gonococcal salpingitis,gonococcal adnexitis
+Boala Kuru,boala rasului,tremuratura kuru,encefalopatia kuru,kuru,laughing death,kuru disease
+Boala Lyme tardiva,borelioza tardiva,artrita Lyme cronica,boala Lyme diseminata tardiv,late Lyme disease,late disseminated Lyme borreliosis,chronic Lyme disease
+Boala maini-picioare-gura,exantem cu coxsackie,stomatita cu enterovirus,eruptie veziculoasa la copil,hand foot and mouth disease,HFMD,coxsackievirus infection
+Boala somnului,tripanosomiaza africana,tripanosomiaza cu Trypanosoma brucei,encefalita tripanosomica,sleeping sickness,African trypanosomiasis,human African trypanosomiasis
+Boala zgarieturii de pisica,boala ghearei de pisica,linforeticuloza benigna de inoculare,infectie cu Bartonella henselae,cat scratch disease,cat scratch fever,Bartonella henselae infection
+Bruceloza,febra de Malta,febra ondulanta,boala Bang,brucellosis,Malta fever,undulant fever
+Bruceloza acuta,bruceloza febrila acuta,febra de Malta acuta,bruceloza septica,acute brucellosis,acute Malta fever,acute undulant fever
+Bruceloza cronica,bruceloza de durata,bruceloza persistenta,febra ondulanta cronica,chronic brucellosis,chronic Malta fever,persistent brucellosis
+Bruceloza genitala,orchita bruceliana,epididimita bruceliana,orhoepididimita bruceliana,brucellar orchitis,brucellar epididymitis,genital brucellosis
+Bruceloza osoasa,spondilita bruceliana,osteomielita bruceliana,sacroliita bruceliana,brucellar spondylitis,brucellar osteomyelitis,osteoarticular brucellosis
+Candidoza cutanata,intertrigo candidozic,candidoza a pliurilor pielii,candidoza tegumentara,cutaneous candidiasis,candidal intertrigo,skin candidiasis
+Candidoza diseminata,candidoza sistemica,candidoza invaziva,candidoza cu afectare multipla,disseminated candidiasis,invasive candidiasis,systemic candidiasis
+Candidoza esofagiana,esofagita candidozica,micoza esofagiana,esofagita cu Candida,esophageal candidiasis,candida esophagitis,oesophageal candidiasis
+Candidoza meningeana,meningita candidozica,meningoencefalita candidozica,candidoza a sistemului nervos,candidal meningitis,candida meningitis,candida infection of central nervous system
+Candidoza neonatala,candidoza la nou-nascut,candidoza congenitala,muguet neonatal,neonatal candidiasis,congenital candidiasis,neonatal thrush
+Candidoza orala,muguet,stomatita candidozica,candidoza bucala,oral candidiasis,oral thrush,thrush
+Candidoza pulmonara,pneumonie candidozica,micoza pulmonara cu Candida,pneumonita cu Candida,pulmonary candidiasis,candida pneumonia,candidal pneumonia
+Candidoza renala,micoza renala cu Candida,pielonefrita candidozica,candidoza a cailor urinare,renal candidiasis,candida urinary tract infection,candidal pyelonephritis
+Candidoza unghiala,paronichie candidozica,onichia candidozica,infectie candidozica a unghiei,candidal paronychia,candida nail infection,candidal onychia
+Candidoza vulvovaginala,micoza vaginala,candidoza genitala,vaginita candidozica,vulvovaginal candidiasis,vaginal yeast infection,vulvovaginal candidosis
+Capilarioza,infestare cu Capillaria philippinensis,enteropatia cu Capillaria,capilarioza intestinala,capillariasis,Capillaria philippinensis infection,intestinal capillariasis
+Carbuncul cutanat,carbuncul stafilococic,fuziune de furunculi,carbuncul dermic,skin carbuncle,staphylococcal carbuncle,carbuncle of skin
+Cardiopatie reumatica,boala reumatica a inimii,cardita reumatica cronica,valvulopatie reumatica,rheumatic heart disease,chronic rheumatic heart disease,rheumatic valvular disease
+Cervicita cu Chlamydia,cervicita clamidiana,endocervicita cu Chlamydia,infectie cervicala cu Chlamydia,chlamydial cervicitis,chlamydia cervicitis,chlamydial endocervicitis
+Cervicita gonococica,endocervicita gonococica,gonoree cervicala,infectie gonococica cervicala,gonococcal cervicitis,gonococcal endocervicitis,gonorrheal cervicitis
+Cheratita aspergilara,ulcer cornean aspergilar,cheratita fungica cu Aspergillus,micoza corneana cu Aspergillus,aspergillus keratitis,aspergillus corneal ulcer,fungal keratitis due to aspergillus
+Cheratita cu Acanthamoeba,cheratita amibiana,ulcer cornean cu Acanthamoeba,infectie corneana cu Acanthamoeba,acanthamoeba keratitis,amoebic keratitis,corneal acanthamoeba infection
+Chist hidatic cerebral,echinococoza cerebrala,hidatidoza cerebrala,chist hidatic al creierului,cerebral hydatid cyst,brain hydatid disease,cerebral echinococcosis
+Chist hidatic pulmonar,echinococoza pulmonara,hidatidoza pulmonara,chist hidatic al plamanului,pulmonary hydatid cyst,lung hydatid disease,pulmonary echinococcosis
+Ciclosporoza,infectie cu Cyclospora cayetanensis,diaree cu Cyclospora,enterita cu Cyclospora,cyclosporiasis,Cyclospora cayetanensis infection,cyclospora diarrhea
+Cisticercoza,infestare cu larve de Taenia solium,cisticercoza tisulara,cisticerci in tesuturi,cysticercosis,Taenia solium cysticercosis,cysticercus infection
+Citomegalovirus congenital,boala congenitala cu citomegalovirus,citomegalia congenitala,infectie congenitala cu CMV,congenital cytomegalovirus infection,congenital CMV,cytomegalic inclusion disease of newborn
+Ciuma bubonica,pesta bubonica,ciuma,limfadenita cu Yersinia pestis,bubonic plague,plague,Yersinia pestis infection
+Ciuma pneumonica,pesta pneumonica,ciuma pulmonara,pneumonie cu Yersinia pestis,pneumonic plague,pulmonary plague,plague pneumonia
+Ciuma septicemica,pesta septicemica,ciuma cu sepsis,sepsis cu Yersinia pestis,septicemic plague,septicaemic plague,plague septicaemia
+Clonorhoza,infestare cu Clonorchis sinensis,distomatoza hepatica orientala,distomatoza cu Clonorchis,clonorchiasis,Clonorchis sinensis infection,Chinese liver fluke disease
+Coccidioidomikoza,febra din Valea San Joaquin,infectie cu Coccidioides immitis,micoza cu Coccidioides,coccidioidomycosis,Valley fever,San Joaquin Valley fever
+Coccidioidomikoza diseminata,coccidioidomikoza extrapulmonara,meningita coccidioidomicotica,coccidioidomikoza sistemica,disseminated coccidioidomycosis,extrapulmonary coccidioidomycosis,coccidioidal meningitis
+Coccidioidomikoza pulmonara,pneumonie cu Coccidioides,granulom pulmonar coccidioidomicotic,coccidioidomikoza acuta pulmonara,pulmonary coccidioidomycosis,coccidioidal pneumonia,coccidioides lung infection
+Colita amibiana,colita amebiana,amebiaza intestinala neducenterica,colita cronica cu Entamoeba histolytica,amoebic colitis,amebic colitis,nondysenteric intestinal amoebiasis
+Colita cu citomegalovirus,colita CMV,enterocolita cu CMV,colita virala cu citomegalovirus,cytomegalovirus colitis,CMV colitis,cytomegaloviral colitis
+Complex asociat SIDA,complex relacionat SIDA,limfadenopatia generalizata persistenta,sindrom pre-SIDA,AIDS-related complex,ARC,persistent generalized lymphadenopathy
+Condilom acuminat,negii genitali,condiloame acuminate,vegetatii veneriene,condyloma acuminatum,genital warts,anogenital warts
+Corioencefalita limfocitara,boala Armstrong,corioencefalita limfocitara benigna,infectie cu virusul coriomeningitei limfocitare,lymphocytic choriomeningitis,lymphocytic choriomeningitis virus infection,Armstrong disease
+Criptococoza,toruloza,infectie cu Cryptococcus neoformans,micoza cu Cryptococcus,cryptococcosis,torulosis,Cryptococcus neoformans infection
+Criptococoza cutanata,criptococoza tegumentara,leziuni cutanate cu Cryptococcus,criptococoza a pielii,cutaneous cryptococcosis,cryptococcal skin infection,skin cryptococcosis
+Criptococoza pulmonara,pneumonie cu Cryptococcus,noduli pulmonari criptocococici,criptocococom pulmonar,cryptococcal pneumonia,cryptococcus lung infection,pulmonary cryptococcosis
+Criptosporidioza,infectie cu Cryptosporidium,diaree cu Cryptosporidium,enterita cu Cryptosporidium,cryptosporidiosis,Cryptosporidium infection,cryptosporidium diarrhea
+Cromoblastomikoza,cromomikoza,dermatita verucoasa cromomicotica,micoza verucoasa neagra,chromoblastomycosis,chromomycosis,verrucous dermatitis
+Demodicoza,infestare cu Demodex,acnee demodectica,dermatita cu Demodex,demodicosis,demodex infestation,demodectic mange
+Denga,febra denga,febra dengue,boala denga,dengue,dengue fever,breakbone fever
+Dermatita schistosomica,manarirea inotatorului,dermatita cu cercarii,pruritul inotatorului,swimmer's itch,cercarial dermatitis,schistosome dermatitis
+Dermatofitoza,dermatofitie,infectie cu dermatofiti,micoza dermatofitica,dermatophytosis,tinea,ringworm
+Dicrocelioza,infestare cu Dicrocoelium dendriticum,distomatoza cu Dicrocoelium,distomatoza mica,dicrocoeliasis,Dicrocoelium dendriticum infection,lancet liver fluke infection
+Difilobotrioza,infestare cu Diphyllobothrium latum,tenia lata,botriocefaloza,diphyllobothriasis,fish tapeworm infection,Diphyllobothrium latum infection
+Difterie cutanata,difterie a pielii,difterie tegumentara,ulcer difteric,cutaneous diphtheria,skin diphtheria,dermal diphtheria
+Difterie laringiana,difterie a laringelui,laringita difterica,crup difteric laringian,laryngeal diphtheria,diphtheritic laryngitis,laryngeal diphtheritic obstruction
+Difterie nazala,difterie a nasului,rinita difterica,difterie nazala anterioara,nasal diphtheria,diphtheritic rhinitis,anterior nasal diphtheria
+Dipilidioza,infestare cu Dipylidium caninum,tenia cainelui,teniaza cu Dipylidium,dipylidiasis,dog tapeworm infection,Dipylidium caninum infection
+Dizenterie amibiana,dizenterie amebiana,colita amibiana acuta,amebiaza intestinala acuta,amoebic dysentery,amebic dysentery,acute intestinal amoebiasis
+Dracunculoza,boala viermelui de Guinea,infestare cu Dracunculus medinensis,viermele de Guinea,dracunculiasis,Guinea worm disease,dracontiasis
+Echinococoza alveolara,echinococoza multiloculara,boala cu Echinococcus multilocularis,echinococoza cu Echinococcus alveolaris,alveolar echinococcosis,multilocular echinococcosis,Echinococcus multilocularis infection
+Ectima,ectima contagioasa,piodermita ulcerativa,ectima vulgara,ecthyma,ulcerative pyoderma,ecthyma vulgare
+Ectima gangrenos,ectima cu Pseudomonas,ectima gangrenosum,ulcer necrotic cu Pseudomonas,ecthyma gangrenosum,pseudomonas ecthyma,ecthyma gangraenosum
+Eczema herpeticum,eruptie variceliforma Kaposi,infectie herpetica cutanata diseminata,eruptie variceliforma herpetica,Kaposi varicelliform eruption,herpetic eczema,herpes simplex skin eruption
+Ehrlichioza,anaplasmoza umana,infectie cu Ehrlichia chaffeensis,ehrlichioza monocitara,human ehrlichiosis,ehrlichiosis,Ehrlichia chaffeensis infection
+Encefalita californiana,encefalita La Crosse,infectie cu virusul La Crosse,encefalita cu virusul California,California encephalitis,La Crosse encephalitis,La Crosse virus infection
+Encefalita cu citomegalovirus,encefalita CMV,infectie cerebrala cu citomegalovirus,ventriculita cu CMV,cytomegalovirus encephalitis,CMV encephalitis,cytomegaloviral encephalitis
+Encefalita cu virus varicela-zoster,encefalita postvariceloasa,encefalita zosteriana,encefalita cu VZV,varicella-zoster encephalitis,VZV encephalitis,varicella encephalitis
+Encefalita ecvina estica,encefalomielita ecvina estica,infectie cu virusul EEE,encefalita equina estica,eastern equine encephalitis,eastern equine encephalomyelitis,EEE virus infection
+Encefalita ecvina venezuelana,encefalomielita ecvina venezuelana,infectie cu virusul VEE,encefalita equina venezuelana,Venezuelan equine encephalitis,Venezuelan equine encephalomyelitis,VEE virus infection
+Encefalita ecvina vestica,encefalomielita ecvina vestica,infectie cu virusul WEE,encefalita equina vestica,western equine encephalitis,western equine encephalomyelitis,WEE virus infection
+Encefalita granulomatoasa amibiana,granulomatoza amibiana cerebrala,infectie cerebrala cu Acanthamoeba,encefalita cu Acanthamoeba,granulomatous amoebic encephalitis,acanthamoeba encephalitis,granulomatous amebic encephalitis
+Encefalita herpetica,encefalita cu virus herpes simplex,encefalita necrozanta herpetica,encefalita cu HSV,herpes simplex encephalitis,herpetic encephalitis,HSV encephalitis
+Encefalita japoneza,encefalita B japoneza,encefalita cu virusul japonez,encefalita nipona,Japanese encephalitis,Japanese B encephalitis,Japanese encephalitis virus infection
+Encefalita louping ill,boala louping ill,infectie cu virusul louping ill,encefalomielita louping ill,louping ill,louping ill encephalitis,louping ill virus infection
+Encefalita Murray Valley,encefalita australiana,infectie cu virusul Murray Valley,encefalita din Australia,Murray Valley encephalitis,Australian encephalitis,Murray Valley encephalitis virus infection
+Encefalita postinfectioasa,encefalita autoimuna postinfectioasa,encefalita parainfectioasa,encefalita dupa infectie virala,postinfectious encephalitis,post-infectious encephalomyelitis,parainfectious encephalitis
+Encefalita Powassan,infectie cu virusul Powassan,encefalita de capuse americana,encefalomielita Powassan,Powassan encephalitis,Powassan virus encephalitis,Powassan virus infection
+Encefalita rubeolica,encefalita postrubeolica,complicatie neurologica a rubeolei,encefalomielita rubeolica,rubella encephalitis,postrubella encephalitis,rubella encephalomyelitis
+Encefalita rusa de primavara-vara,encefalita de primavara-vara,infectie cu virusul RSSE,encefalita din Extremul Orient,Russian spring-summer encephalitis,spring-summer encephalitis,Far Eastern tick-borne encephalitis
+Encefalita Saint Louis,encefalita americana,infectie cu virusul St. Louis,encefalita cu virus St. Louis,St. Louis encephalitis,Saint Louis encephalitis,St. Louis encephalitis virus infection
+Encefalita transmisa de capuse,encefalita de capuse,meningoencefalita de capuse,encefalita din Europa Centrala,tick-borne encephalitis,Central European encephalitis,TBE
+Encefalita West Nile,febra West Nile,encefalita cu virusul West Nile,infectie neuroinvaziva cu virus West Nile,West Nile encephalitis,West Nile fever,West Nile virus infection
+Encefalopatie spongiforma bovina,boala vacii nebune,encefalopatia spongiforma a bovinelor,ESB,bovine spongiform encephalopathy,mad cow disease,BSE
+Endocardita bruceliana,endocardita cu Brucella,bruceloza cardiaca,valvulopatia bruceliana,brucellar endocarditis,Brucella endocarditis,cardiac brucellosis
+Endocardita fungica,endocardita cu levuri,endocardita candidozica,endocardita micotica,fungal endocarditis,mycotic endocarditis,candida endocarditis
+Enterocolita cu Salmonella,salmoneloza enterocolitica,gastroenterita salmonelica,enterita cu Salmonella,salmonella enterocolitis,salmonella gastroenteritis,salmonellal enteritis
+Enteropatia HIV,enteropatia asociata HIV,diaree cronica asociata HIV,enterocolita cu HIV,HIV enteropathy,AIDS enteropathy,HIV-associated diarrhea
+Entomophthoromikoza,zigomikoza subtropicala,basidioboloza,conidioboloza,entomophthoromycosis,subcutaneous zygomycosis,basidiobolomycosis
+Eritem infectios,eritem infectios epidermic,a cincea boala,boala cu obraji palmuiti,erythema infectiosum,fifth disease,slapped cheek syndrome
+Eritem migrator,eritem cronic migrator,eritem annular migrator,placa eritematoasa migratorie,erythema migrans,erythema chronicum migrans,erythema migrans rash
+Erizipeloid,erizipeloid Rosenbach,infectie cu Erysipelothrix rhusiopathiae,erizipeloid cutanat,erysipeloid,Erysipelothrix rhusiopathiae infection,Rosenbach's erysipeloid
+Faringita gonococica,gonoree faringiana,infectie gonococica orofaringiana,faringita cu gonococ,gonococcal pharyngitis,gonococcal pharyngeal infection,gonorrhea of the pharynx
+Fasciolopsidoza,infestare cu Fasciolopsis buski,distomatoza intestinala,distomatoza cu Fasciolopsis,fasciolopsiasis,Fasciolopsis buski infection,giant intestinal fluke infection
+Fascioloza,infestare cu Fasciola hepatica,distomatoza hepatica,boala distomului hepatic,fascioliasis,Fasciola hepatica infection,liver fluke disease
+Fascita necrozanta,gangrena streptococica,infectie necrozanta a tesuturilor moi,celulita necrozanta,necrotizing fasciitis,necrotising fasciitis,flesh-eating disease
+Febra aftoasa,aftoza,boala aftoasa,stomatita aftoasa la animale,foot-and-mouth disease,aphthous fever,hoof-and-mouth disease
+Febra butonoasa,febra butonoasa mediteraneana,febra exantematica mediteraneana,infectie cu Rickettsia conorii,boutonneuse fever,Mediterranean spotted fever,Rickettsia conorii infection
+Febra chikungunya,chikungunya,boala chikungunya,artrita chikungunya,chikungunya fever,chikungunya virus infection,chikungunya disease
+Febra de Colorado,febra transmisa de capusele de Colorado,infectie cu virusul Colorado,mialgia de Colorado,Colorado tick fever,Colorado tick fever virus infection,mountain tick fever
+Febra de Haverhill,infectie cu Streptobacillus moniliformis,febra prin muscatura de sobolan cu Streptobacillus,febra epidemiologica prin muscatura de sobolan,Haverhill fever,streptobacillary rat-bite fever,Streptobacillus moniliformis infection
+Febra de transee,febra Quintana,febra celor cinci zile,infectie cu Bartonella quintana,trench fever,Quintan fever,shinbone fever
+Febra de Valea Riftului,febra Rift Valley,hepatita cu virusul Rift Valley,retinita cu virusul Rift Valley,Rift Valley fever,RVF,Rift Valley fever virus infection
+Febra faringoconjunctivala,conjunctivita cu adenovirus si febra,boala faringoconjunctivala,adenofaringoconjunctivita,pharyngoconjunctival fever,pharyngeal conjunctival fever,adenoviral pharyngoconjunctivitis
+Febra galbena,icterul african,febra amarela,hepatita cu virusul febrei galbene,yellow fever,yellow jack,yellow fever virus infection
+Febra hemoragica argentina,maladia Junin,febra hemoragica cu virus Junin,febra hemoragica din Argentina,Argentine hemorrhagic fever,Junin hemorrhagic fever,Argentinian haemorrhagic fever
+Febra hemoragica boliviana,febra Machupo,febra hemoragica cu virus Machupo,tifos negru bolivian,Bolivian hemorrhagic fever,Machupo hemorrhagic fever,black typhus
+Febra hemoragica brasiliana,febra Sabia,febra hemoragica cu virus Sabia,boala Sabia,Brazilian hemorrhagic fever,Sabia hemorrhagic fever,Sabia virus disease
+Febra hemoragica Crimeea-Congo,febra hemoragica din Crimeea,infectie cu virusul Congo,febra hemoragica transmisa de capuse,Crimean-Congo hemorrhagic fever,Crimean-Congo haemorrhagic fever,CCHF
+Febra hemoragica denga,denga hemoragica,febra hemoragica cu virusul dengue,denga cu manifestari hemoragice,dengue hemorrhagic fever,dengue haemorrhagic fever,severe dengue
+Febra hemoragica Omsk,febra hemoragica de primavara-vara Omsk,infectie cu virusul Omsk,febra hemoragica rusa,Omsk hemorrhagic fever,Omsk haemorrhagic fever,Omsk hemorrhagic fever virus infection
+Febra hemoragica venezuelana,febra Guanarito,febra hemoragica cu virus Guanarito,boala Guanarito,Venezuelan hemorrhagic fever,Guanarito hemorrhagic fever,Guanarito virus disease
+Febra Lassa,febra hemoragica Lassa,infectie cu virusul Lassa,boala Lassa,Lassa fever,Lassa hemorrhagic fever,Lassa virus infection
+Febra Mayaro,boala Mayaro,infectie cu virusul Mayaro,artralgia Mayaro,Mayaro fever,Mayaro virus disease,Mayaro virus infection
+Febra muscaturii de sobolan,sodoku,febra prin muscatura de sobolan,infectie cu Spirillum minus,rat-bite fever,spirillary rat-bite fever,Spirillum minus infection
+Febra O'nyong-nyong,boala O'nyong-nyong,infectie cu virusul O'nyong-nyong,poliartrita O'nyong-nyong,O'nyong-nyong fever,onyong-nyong fever,O'nyong-nyong virus infection
+Febra Oropouche,boala Oropouche,infectie cu virusul Oropouche,mialgia Oropouche,Oropouche fever,Oropouche virus disease,Oropouche virus infection
+Febra paratifoida A,paratifoida A,febra paratifica A,infectie cu Salmonella paratyphi A,paratyphoid fever A,Salmonella paratyphi A infection,paratyphoid A
+Febra paratifoida B,paratifoida B,febra paratifica B,infectie cu Salmonella paratyphi B,paratyphoid fever B,Salmonella paratyphi B infection,paratyphoid B
+Febra paratifoida C,paratifoida C,febra paratifica C,infectie cu Salmonella paratyphi C,paratyphoid fever C,Salmonella paratyphi C infection,paratyphoid C
+Febra pustoaselor stancoase,febra exantematica a Muntilor Stancoasi,infectie cu Rickettsia rickettsii,tifos transmis de capuse,Rocky Mountain spotted fever,tick-borne typhus,Rickettsia rickettsii infection
+Febra Q,coxielloza,febra Coxiella burnetii,febra din Queensland,Q fever,Coxiella burnetii infection,query fever
+Febra Q cronica,endocardita cu Coxiella burnetii,coxielloza cronica,febra Q cu endocardita,chronic Q fever,Q fever endocarditis,chronic Coxiella burnetii infection
+Febra recurenta transmisa de capuse,febra recurenta endemica,febra recurenta cu Borrelia duttonii,febra recurenta africana,tick-borne relapsing fever,endemic relapsing fever,Borrelia duttonii infection
+Febra recurenta transmisa de paduchi,febra recurenta epidemica,tifos recurent epidemic,infectie cu Borrelia recurrentis,louse-borne relapsing fever,epidemic relapsing fever,Borrelia recurrentis infection
+Febra Ross River,poliartrita epidemica australiana,infectie cu virusul Ross River,artrita Ross River,Ross River fever,epidemic polyarthritis,Ross River virus infection
+Filarioza,infestare cu filarii,boala filariana,infestare cu nematode filariforme,filariasis,filarial infection,filarial disease
+Filarioza cu Brugia malayi,filarioza malayana,filarioza brugiana,filarioza cu Brugia timori,brugian filariasis,Malayan filariasis,Brugia malayi infection
+Filarioza limfatica,wuchererioza,filarioza cu Wuchereria bancrofti,filarioza bancroftiana,lymphatic filariasis,bancroftian filariasis,Wuchereria bancrofti infection
+Foliculita,foliculita bacteriana,inflamatia foliculilor pilosi,foliculita supurata,folliculitis,bacterial folliculitis,hair follicle inflammation
+Framboesia,yaws,pian,framboesia tropicala,frambesia tropica,polypapilloma tropicum,Treponema pertenue infection
+Fusarioza,infectie cu Fusarium,cheratita cu Fusarium,micoza cu Fusarium,fusariosis,fusarium keratitis,fusarium infection
+Gangrena gazoasa,mionecroza clostridiana,infectie cu Clostridium perfringens,gangrena cu Clostridium,gas gangrene,clostridial myonecrosis,gas gangrene infection
+Gnatostomoza,larva migrans cutanata cu Gnathostoma,infestare cu Gnathostoma,paniculita migratorie,gnathostomiasis,Gnathostoma infection,gnathostomosis
+Gonococia diseminata,infectie gonococica diseminata,artrita-dermatita gonococica,sepsis gonococica,disseminated gonococcal infection,gonococcal bacteremia,disseminated gonorrhoea
+Granulom inghinal,donovanoza,granulom venerian,boala granulomatoasa inghinala,granuloma inguinale,donovanosis,granuloma venereum
+Gripa aviara,influenza aviara,gripa la pasari transmisa la om,gripa cu virus H5N1,avian influenza,bird flu,avian flu
+Gripa porcina,influenza porcina,gripa cu virus A H1N1,gripa pandemica H1N1,swine influenza,swine flu,H1N1 influenza
+Hepatita colestatica,hepatita cu colestaza,sindrom colestatic hepatitic,hepatita colestatica virala,cholestatic hepatitis,hepatitis with cholestasis,cholestatic viral hepatitis
+Hepatita cronica B,hepatita B cronica,infectie cronica cu virusul hepatitei B,hepatita B cu replicare virala,chronic hepatitis B,chronic hepatitis B virus infection,chronic HBV infection
+Hepatita cronica C,hepatita C cronica,infectie cronica cu virusul hepatitei C,hepatita C cu ARN pozitiv,chronic hepatitis C infection,chronic HCV infection,persistent hepatitis C infection
+Hepatita herpetica,hepatita cu virus herpes simplex,necroliza hepatica herpetica,hepatita herpetica neonatala,herpes simplex hepatitis,herpetic hepatitis,HSV hepatitis
+Herpangina,angina herpetica,faringita veziculoasa,vezicule orofaringiene,herpetic angina,vesicular pharyngitis,Coxsackie herpangina
+Herpes esofagian,esofagita herpetica,infectie herpetica esofagiana,ulceratii esofagiene herpetice,herpes esophagitis,herpetic esophagitis,esophageal herpes
+Herpes gladiatorum,herpes de contact la sportivi,herpes traumatic,herpes cutanat al sportivilor,wrestler's herpes,mat herpes,scrumpox
+Herpes neonatal,infectie herpetica neonatala,herpes la nou-nascut,herpes simplex congenital,neonatal herpes,neonatal herpes simplex infection,congenital herpes
+Herpes simplex diseminat,herpes diseminat,infectie herpetica diseminata,herpes visceral,disseminated herpes simplex,disseminated herpes simplex virus infection,systemic herpes simplex infection
+Heterofioza,infestare cu Heterophyes heterophyes,distomatoza cu Heterophyes,distomatoza intestinala cu Heterophyes,heterophyiasis,Heterophyes heterophyes infection,heterophid fluke infection
+Hidatidoza,echinococoza,chist hidatic,boala hidatica,hydatid disease,echinococcosis,hydatidosis
+Hidrosadenita,hidrosadenita supurativa,boala Verneuil,acnee inversa,hidradenitis suppurativa,acne inversa,Verneuil disease
+Himenolepiaza,infestare cu Hymenolepis nana,tenia pitica,teniaza cu Hymenolepis,hymenolepiasis,dwarf tapeworm infection,Hymenolepis nana infection
+Histoplasmoza,boala Darling,infectie cu Histoplasma capsulatum,micoza cu Histoplasma,histoplasmosis,Darling's disease,Histoplasma capsulatum infection
+Histoplasmoza africana,histoplasmoza cu Histoplasma duboisii,histoplasmom cutanat,histoplasmoza cutanata africana,African histoplasmosis,Histoplasma duboisii infection,duboisii histoplasmosis
+Histoplasmoza diseminata,histoplasmoza progresiva,histoplasmoza sistemica,histoplasmoza cu afectare medulara,disseminated histoplasmosis,progressive disseminated histoplasmosis,systemic histoplasmosis
+Histoplasmoza pulmonara,pneumonie histoplasmica,granulomatoza pulmonara cu Histoplasma,histoplasmom pulmonar,pulmonary histoplasmosis,histoplasma pneumonia,histoplasmal lung infection
+Holera El Tor,holera cu Vibrio cholerae El Tor,holera pandemica El Tor,holera biotip El Tor,El Tor cholera,cholera due to Vibrio cholerae El Tor,El Tor biotype cholera
+Impetigo bulos,impetigo cu bule,piodermita buloasa,impetigo bulos contagios,bullous impetigo,impetigo bullosa,bullous impetigo contagiosa
+Infectie acuta cu HIV,infectie primara cu HIV,sindrom retroviral acut,seroconversie HIV acuta,acute HIV infection,acute retroviral syndrome,primary HIV infection
+Infectie cronica cu virus Epstein-Barr,mononucleoza cronica,sindrom de fatigabilitate post-EBV,reactivare cronica EBV,chronic Epstein-Barr virus infection,chronic active EBV infection,chronic mononucleosis
+Infectie cu adenovirus enteric,gastroenterita cu adenovirus,enterita cu adenovirus,diaree cu adenovirus,enteric adenovirus infection,adenovirus gastroenteritis,adenoviral enteritis
+Infectie cu astrovirus,gastroenterita cu astrovirus,diaree cu astrovirus,enterita cu astrovirus,astrovirus infection,astrovirus gastroenteritis,astroviral diarrhea
+Infectie cu bacterii multirezistente,infectie cu germeni multirezistenti,infectie cu bacterii MDR,infectie nosocomiala cu germeni rezistente,multidrug-resistant bacterial infection,MDR bacterial infection,multidrug-resistant organism infection
+Infectie cu citomegalovirus,citomegalovirus,boala incluziilor citomegalice,infectie cu CMV,cytomegalovirus infection,CMV infection,cytomegalic inclusion disease
+Infectie cu E. coli enteroagregativa,colibaciloza enteroagregativa,diaree persistenta prin E. coli,colita cu E. coli enteroagregativa,enteroaggregative E. coli infection,EAEC infection,enteroaggregative Escherichia coli diarrhea
+Infectie cu E. coli enteroinvaziva,colibaciloza enteroinvaziva,dizenterie prin E. coli,invazie intestinala cu E. coli,enteroinvasive E. coli infection,EIEC infection,enteroinvasive Escherichia coli colitis
+Infectie cu E. coli enteropatogena,colibaciloza enteropatogena,diaree infantila prin E. coli,enterita cu E. coli enteropatogena,enteropathogenic E. coli infection,EPEC infection,infantile E. coli diarrhea
+Infectie cu E. coli enterotoxigena,colibaciloza enterotoxigena,diaree a calatorului,colibaciloza cu enterotoxine,enterotoxigenic E. coli infection,ETEC infection,traveler's diarrhea
+Infectie cu E. coli uropatogena,colibaciloza uropatogena,infectie urinara cu E. coli,cistita cu E. coli uropatogen,uropathogenic E. coli infection,UPEC infection,uropathogenic Escherichia coli urinary infection
+Infectie cu hantavirus,febra hemoragica cu sindrom renal,nefropatia epidemica,febra hemoragica cu sindrom renal si hepatic,hantavirus infection,hemorrhagic fever with renal syndrome,epidemic nephropathy
+Infectie cu Mycobacterium avium complex,micobacterioza aviara,infectie diseminata cu Mycobacterium avium,infectie cu MAC,Mycobacterium avium complex infection,MAC infection,avian mycobacteriosis
+Infectie cu Mycoplasma genitalium,uretrita cu Mycoplasma genitalium,micoplasmoza urogenitala,cervicita cu Mycoplasma,mycoplasma genitalium infection,mycoplasma urethritis,mycoplasmal urethritis
+Infectie cu Mycoplasma pneumoniae,pneumonie atipica primara,micoplasmoza respiratorie,pneumonie cu Mycoplasma,Mycoplasma pneumoniae infection,primary atypical pneumonia,mycoplasma pneumonia
+Infectie cu norovirus,gastroenterita cu norovirus,virus Norwalk,diaree cu norovirus,norovirus infection,norovirus gastroenteritis,Norwalk virus infection
+Infectie cu rotavirus,gastroenterita cu rotavirus,diaree cu rotavirus,enterita cu rotavirus,rotavirus infection,rotavirus gastroenteritis,rotavirus enteritis
+Infectie cu Ureaplasma,ureaplasmoza,uretrita cu Ureaplasma,infectie urogenitala cu Ureaplasma,ureaplasma infection,Ureaplasma urealyticum infection,ureaplasma urethritis
+Infectie cu virus Hendra,encefalita Hendra,boala Hendra,infectie respiratorie cu virus Hendra,Hendra virus infection,Hendra encephalitis,Hendra virus disease
+Infectie cu virus Nipah,encefalita Nipah,boala Nipah,encefalita cu virusul Nipah,Nipah virus infection,Nipah encephalitis,Nipah virus disease
+Infectie cu virusul Barmah Forest,febra Barmah Forest,poliartrita cu Barmah Forest,artralgia Barmah Forest,Barmah Forest virus infection,Barmah Forest fever,Barmah Forest disease
+Infectie cu virusul herpes B,boala virusului B,encefalita cu herpesvirus simian,encefalomielita cu virus B,herpes B virus infection,B virus encephalitis,monkey B virus infection
+Infectie cu virusul Zika,febra Zika,boala cu virusul Zika,zika congenitala,Zika virus infection,Zika fever,Zika virus disease
+Infectie de cateter,infectie asociata cateterului venos central,sepsis de cateter,bacteriemie asociata cateterului,catheter-related bloodstream infection,catheter infection,central line-associated bloodstream infection
+Infectie de proteza articulara,infectie periprotetica,infectie pe implant ortopedic,infectie de endoproteza,prosthetic joint infection,periprosthetic joint infection,orthopedic implant infection
+Infectie nosocomiala,infectie asociata asistentei medicale,infectie intraspitaliceasca,infectie dobandita in spital,nosocomial infection,healthcare-associated infection,hospital-acquired infection
+Infectie postoperatorie,infectie de plaga operatorie,infectie postchirurgicala,infectie a plagii postoperatorii,postoperative infection,surgical site infection,post-surgical wound infection
+Infestare cu plosnite,muscaturi de plosnite,dermatita cu plosnite,cimicoza,bedbug infestation,bedbug bites,cimicosis
+Insomnie familiala fatala,insomnia prionica,insomnie letala familiala,boala prionica a talamusului,fatal familial insomnia,familial fatal insomnia,FFI
+Insomnie sporadica fatala,insomnie letala sporadica,insomnie prionica sporadica,insomnie fatala fara istoric familial,sporadic fatal insomnia,sporadic fatal insomnia prion disease,sFI
+Intoxicatie cu Bacillus cereus,toxiinfectie cu Bacillus cereus,intoxicatie alimentara cu Bacillus cereus,sindrom emetic cu Bacillus cereus,bacillus cereus food poisoning,bacillus cereus intoxication,bacillus cereus foodborne illness
+Intoxicatie cu Clostridium perfringens,toxiinfectie cu Clostridium perfringens,enterotoxemie cu Clostridium perfringens,intoxicatie alimentara cu Clostridium perfringens,clostridium perfringens food poisoning,clostridium perfringens enterotoxin poisoning,perfringens foodborne illness
+Intoxicatie cu Staphylococcus aureus,intoxicatie alimentara stafilococica,toxiinfectie stafilococica,enterotoxina stafilococica,staphylococcal food poisoning,staphylococcus aureus food intoxication,staphylococcal enterotoxin poisoning
+Isosporoza,coccidioza intestinala,infectie cu Isospora belli,diaree cu Isospora,isosporiasis,coccidiosis,Isospora belli infection
+Larva migrans cutanata,dermatita serpiginosa,eruptie cutanata migratorie,larva migrans cutanata serpiginosa,cutaneous larva migrans,creeping eruption,ground itch
+Leishmanioza cutanata,buba de Alep,butonul Orientului,leishmanioza cutanata uscata,cutaneous leishmaniasis,oriental sore,Aleppo boil
+Leishmanioza cutanata difuza,leishmanioza difuza,leishmanioza anergica,leishmanioza cutanata diseminata,diffuse cutaneous leishmaniasis,disseminated cutaneous leishmaniasis,anergic cutaneous leishmaniasis
+Leishmanioza mucocutanata,leishmanioza nazofaringiana,leishmanioza americana,ulcer nazofaringian leishmanic,mucocutaneous leishmaniasis,espundia,American mucocutaneous leishmaniasis
+Leishmanioza post-kala-azar,dermatita post-kala-azar,leishmanioza dermica post-viscerala,leishmaniom post-kala-azar,post-kala-azar dermal leishmaniasis,PKDL,dermal leishmanoid
+Leishmanioza viscerala,kala-azar,febra Dum-Dum,leishmanioza infantila,visceral leishmaniasis,Dumdum fever,infantile leishmaniasis
+Lepra,boala Hansen,lepromatoza,infectie cu Mycobacterium leprae,leprosy,Hansen's disease,Mycobacterium leprae infection
+Lepra borderline,lepra dimorfa,lepra intermediara,forma borderline de lepra,borderline leprosy,dimorphous leprosy,borderline tuberculoid leprosy
+Lepra lepromatoasa,leprom,lepra multibacilara,lepromatoza difuza,lepromatous leprosy,multibacillary leprosy,lepromatous Hansen disease
+Lepra tuberculoida,lepra paucibacilara,forma tuberculoida a leprei,lepra cu putini bacili,tuberculoid leprosy,paucibacillary leprosy,tuberculoid Hansen disease
+Leptospiroza,boala Weil,febra icterica hemoragica,infectie cu Leptospira,leptospirosis,Weil's disease,leptospiral infection
+Leptospiroza anicterica,leptospiroza fara icter,febra campului,leptospiroza benigna,anicteric leptospirosis,field fever,mild leptospirosis
+Leptospiroza icterica,sindromul Weil,leptospiroza ictero-hemoragica,hepatonefrita leptospirica,icteric leptospirosis,Weil syndrome,icterohemorrhagic leptospirosis
+Leptospiroza pulmonara,sindrom hemoragic pulmonar leptospiric,pneumonie leptospirica,hemoragie pulmonara cu Leptospira,severe pulmonary hemorrhagic leptospirosis,leptospiral pulmonary hemorrhage,pulmonary leptospirosis
+Limfadenita,adenita,inflamatia ganglionilor limfatici,limfadenita acuta,lymphadenitis,adenitis,inflamed lymph nodes
+Limfangita,limfangita acuta,inflamatia vaselor limfatice,limfangita bacteriana,lymphangitis,acute lymphangitis,lymphatic vessel inflammation
+Limfocitom borrelial,limfocitom cutanat borrelial,limfocitom Lyme,limfadenoza benigna cutanata,borrelial lymphocytoma,Lyme lymphocytoma,lymphadenosis benigna cutis
+Limfogranulom venereu,limfogranulomatoza inghinala,boala Nicolas-Favre,limfogranulomatoza venereana,lymphogranuloma venereum,LGV,Nicolas-Favre disease
+Listerioza,boala listeriozica,infectie cu Listeria monocytogenes,listerioza diseminata,listeriosis,Listeria monocytogenes infection,listeria infection
+Listerioza la gravida,listerioza in sarcina,listerioza gestationala,infectie cu Listeria la gravida,listeriosis in pregnancy,gestational listeriosis,maternal listeriosis
+Listerioza neonatala,listerioza congenitala,sepsis neonatal cu Listeria,granulomatoza infantiseptica,neonatal listeriosis,congenital listeriosis,neonatal Listeria infection
+Loaza,boala cu vierme ocular,edem Calabar,infectie cu Loa loa,loiasis,Loa loa infection,African eye worm
+Malarie cerebrala,neuropaludism,malarie cu coma,malarie cu afectare cerebrala,cerebral malaria,falciparum cerebral malaria,malaria with cerebral involvement
+Malarie congenitala,malarie la nou-nascut,malarie transplacentara,malarie neonatala,congenital malaria,neonatal malaria,congenital plasmodium infection
+Malarie cu Plasmodium falciparum,malarie falciparum,malarie pernicioasa,febra palustra maligna,falciparum malaria,malignant tertian malaria,Plasmodium falciparum malaria
+Malarie cu Plasmodium knowlesi,malarie knowlesi,malarie zoonotica,malarie transmisa de maimute,knowlesi malaria,Plasmodium knowlesi malaria,monkey malaria
+Malarie cu Plasmodium malariae,malarie quartana,febra palustra quartana,malarie cu recaderi tardive,quartan malaria,Plasmodium malariae malaria,malariae malaria
+Malarie cu Plasmodium ovale,malarie ovale,malarie tertiana cu recaderi,febra palustra cu recaderi,ovale malaria,ovale tertian malaria,Plasmodium ovale malaria
+Malarie cu Plasmodium vivax,malarie vivax,malarie tertiana benigna,febra palustra tertiana,vivax malaria,benign tertian malaria,Plasmodium vivax malaria
+Malarie severa,malarie complicata,malarie pernicioasa acuta,malarie cu insuficienta de organ,severe malaria,complicated malaria,severe falciparum malaria
+Mansoneloza,infectie cu Mansonella,filarioza cutanata cu Mansonella,mansoneloza perstans,mansonelliasis,Mansonella infection,mansonellosis
+Melioidoza,boala Whitmore,infectie cu Burkholderia pseudomallei,melioidoza pulmonara,melioidosis,Whitmore's disease,Burkholderia pseudomallei infection
+Meningita aseptica,meningita limfocitara benigna,sindrom meningean acut benign,meningita cu lichid clar,aseptic meningitis,benign lymphocytic meningitis,aseptic meningeal syndrome
+Meningita criptocococica,meningoencefalita criptocococica,criptococoza meningeana,criptococoza a sistemului nervos,cryptococcal meningitis,cryptococcus meningitis,cryptococcal meningoencephalitis
+Meningita cu Listeria,meningita listeriozica,meningoencefalita cu Listeria,infectie meningeana cu Listeria,listeria meningitis,listerial meningitis,meningitis due to Listeria monocytogenes
+Meningita cu Salmonella,meningita salmonelica,meningita prin Salmonella,infectie meningeana cu Salmonella,salmonella meningitis,salmonellal meningitis,meningitis due to salmonella
+Meningita enterovirala,meningita cu enterovirusuri,meningita cu virusuri ECHO,meningita cu coxsackie,enteroviral meningitis,enterovirus meningitis,echovirus meningitis
+Meningita herpetica,meningita cu virus herpes simplex,meningita HSV,meningita cu HSV-2,herpes simplex meningitis,herpetic meningitis,HSV meningitis
+Meningita meningococica,meningita cu Neisseria meningitidis,meningita cerebrospinala epidemia,meningita meningococica epidemica,meningococcal meningitis,epidemic cerebrospinal meningitis,Neisseria meningitidis meningitis
+Meningita postoperatorie,meningita postneurochirurgicala,meningita dupa derivatie ventriculara,meningita asociata shuntului,postoperative meningitis,post-neurosurgical meningitis,shunt meningitis
+Meningita urliana,meningita parotiditica,meningita cu virusul urlian,meningoencefalita urliana,mumps meningitis,mumps meningoencephalitis,meningitis due to mumps virus
+Meningococemie,sepsis meningococic,purpura meningococica fulminanta,meningococcemie cu purpura,meningococcemia,meningococcal sepsis,meningococcal septicaemia
+Meningoencefalita amibiana primara,meningoencefalita amibiana,infectie cu Naegleria fowleri,meningoencefalita cu Naegleria,primary amoebic meningoencephalitis,naegleria fowleri infection,amebic meningoencephalitis
+MERS,sindromul respirator din Orientul Mijlociu,infectie cu coronavirus MERS,gripa de camila,Middle East respiratory syndrome,MERS coronavirus infection,camel flu
+Metagonimoza,infestare cu Metagonimus yokogawai,distomatoza intestinala cu Metagonimus,distomatoza cu Metagonimus,metagonimiasis,Metagonimus yokogawai infection,intestinal fluke infection
+Micetom,piciorul Madurei,maduromikoza,micetom fungic,mycetoma,Madura foot,maduromycosis
+Micobacterioza atipica,infectie cu micobacterii netuberculoase,micobacterioza nontuberculoasa,micobacterioza de mediu,nontuberculous mycobacterial infection,atypical mycobacteriosis,environmental mycobacterial infection
+Microsporidioza,infectie cu microsporidii,enterita cu Enterocytozoon bieneusi,diaree cu microsporidii,microsporidiosis,microsporidia infection,Enterocytozoon bieneusi infection
+Miiaza,infestare cu larve de muste,miaza cutanata,miiaza umana,myiasis,fly larva infestation,cutaneous myiasis
+Mononucleoza cu citomegalovirus,mononucleoza CMV,sindrom mononucleozic cu CMV,hepatita cu citomegalovirus,cytomegalovirus mononucleosis,CMV mononucleosis,CMV mononucleosis syndrome
+Morva,malleus,farcim,infectie cu Burkholderia mallei,glanders,farcy,Burkholderia mallei infection
+Mucormikoza,zigomikoza,ficomikoza,micoza cu mucoracee,mucormycosis,zygomycosis,phycomycosis
+Mucormikoza cutanata,zigomikoza cutanata,infectie cutanata cu mucoracee,mucormikoza tegumentara,cutaneous mucormycosis,cutaneous zygomycosis,mucormycotic skin infection
+Mucormikoza pulmonara,zigomikoza pulmonara,pneumonie mucormicotica,mucormikoza bronsopulmonara,pulmonary mucormycosis,pulmonary zygomycosis,mucormycotic pneumonia
+Mucormikoza rino-orbito-cerebrala,zigomikoza rinocerebrala,mucormikoza a sinusurilor,mucormikoza rinocerebrala,rhinocerebral mucormycosis,rhino-orbito-cerebral mucormycosis,sinus mucormycosis
+Negi perlati,moluscum contagiosum,boala cu molluscum,papule perlate cutanate,molluscum contagiosum,molluscum,water warts
+Neuralgie postherpetica,durere postzosteriana,nevralgie post-zoster,durere neuropatica postherpetica,postherpetic neuralgia,post-zoster neuralgia,postherpetic pain
+Neuroborelioza,borelioza neurologica,boala Lyme neurologica,meningoradiculita Lyme,Lyme neuroborreliosis,neuroborreliosis,Bannwarth syndrome
+Neurobruceloza,bruceloza sistemului nervos,meningita bruceliana,encefalita bruceliana,neurobrucellosis,brucellar meningitis,brucellar encephalitis
+Neurocisticercoza,cisticercoza cerebrala,cisticercoza a sistemului nervos,cisticercoza meningeana,neurocysticercosis,cerebral cysticercosis,cysticercosis of central nervous system
+Neurosifilis,sifilis al sistemului nervos,tabes dorsalis,meningita sifilitica,neurosyphilis,syphilitic meningitis,meningovascular syphilis
+Nevrita leproasa,lepra nervoasa,neuropatia leproasa,nevrita in lepra,leprous neuritis,leprosy neuropathy,neural leprosy
+Nocardioza,infectie cu Nocardia,nocardioza sistemica,nocardioza diseminata,nocardiosis,Nocardia infection,disseminated nocardiosis
+Nocardioza cerebrala,abces cerebral cu Nocardia,nocardioza a sistemului nervos central,meningita cu Nocardia,cerebral nocardiosis,nocardial brain abscess,central nervous system nocardiosis
+Nocardioza pulmonara,pneumonie cu Nocardia,abces pulmonar cu Nocardia,infectie pulmonara cu Nocardia,pulmonary nocardiosis,nocardial pneumonia,Nocardia lung infection
+Oncocercoza,cecitatea raurilor,oncocercom,infectie cu Onchocerca volvulus,onchocerciasis,river blindness,onchocercosis
+Opistorhoza,infestare cu Opisthorchis felineus,distomatoza felina,distomatoza cu Opisthorchis,opisthorchiasis,Opisthorchis felineus infection,cat liver fluke infection
+Osteomielita cu Salmonella,osteomielita salmonelica,infectie osoasa cu Salmonella,osteita cu Salmonella,salmonella osteomyelitis,salmonellal bone infection,salmonella bone disease
+Panariciu,panariciu bacterian,infectie supurata a degetului,abces al pulpei digitale,felon,panaritium,digital pulp abscess
+Panariciu herpetic,infectie herpetica a degetului,panariciu viral,panariciu cu herpes simplex,herpetic whitlow,herpetic felon,herpes simplex whitlow
+Panencefalita sclerozanta subacuta,encefalita postrujeolica,PESS,panencefalita subacuta sclerozanta,subacute sclerosing panencephalitis,SSPE,Dawson encephalitis
+Paracoccidioidomikoza,blastomikoza sud-americana,boala Lutz-Splendore-Almeida,micoza cu Paracoccidioides,paracoccidioidomycosis,South American blastomycosis,Lutz-Splendore-Almeida disease
+Paragonimoza,infestare cu Paragonimus westermani,distomatoza pulmonara,paragonimoza pulmonara,paragonimiasis,Paragonimus westermani infection,lung fluke disease
+Paralizie generala progresiva,paralizie generala,dementa sifilitica,paralizie generala a alienatilor,general paresis,general paresis of the insane,syphilitic dementia
+Pasteureloza,infectie cu Pasteurella multocida,pasteureloza prin muscatura de animal,septicemie pasteurellica,pasteurellosis,Pasteurella multocida infection,pasteurella infection
+Penicilioza,infectie cu Penicillium marneffei,talaromikoza,micoza cu Talaromyces,penicilliosis,Talaromyces marneffei infection,Penicillium marneffei infection
+Peritonita la dializa peritoneala,peritonita asociata dializei peritoneale,infectie a lichidului de dializa,peritonita in dializa,peritoneal dialysis-associated peritonitis,peritonitis in peritoneal dialysis,PD peritonitis
+Phtiriaza,paduchii pubieni,pediculoza pubiana,infestare cu Phthirus pubis,phthiriasis,pubic lice,crab louse infestation
+Pinta,carate,pinta americana,boala pinto,mal del pinto,carate disease,Treponema carateum infection
+Pitiriazis versicolor,tinea versicolor,micoza cu Malassezia,pete hipocrome furfuracee,pityriasis versicolor,tinea flava,Malassezia furfur infection
+Pleurodinia,boala Bornholm,mialgia epidemica,durere toracica epidemica,pleurodynia,Bornholm disease,epidemic myalgia
+Pneumocistoza,pneumonia cu Pneumocystis jirovecii,pneumocistoza pulmonara,pneumonie cu Pneumocystis,pneumocystosis,Pneumocystis jirovecii pneumonia,PCP
+Pneumonie cu Chlamydia trachomatis,pneumonie cu Chlamydia,pneumonie neonatala cu Chlamydia,infectie pulmonara cu Chlamydia,chlamydial pneumonia,chlamydia pneumonia,infant chlamydial pneumonia
+Pneumonie cu Chlamydophila pneumoniae,pneumonie cu Chlamydia pneumoniae,pneumonie atipica cu Chlamydia,infectie respiratorie cu Chlamydia pneumoniae,Chlamydia pneumoniae pneumonia,Chlamydophila pneumoniae infection,atypical pneumonia due to Chlamydia
+Pneumonie cu citomegalovirus,pneumonie CMV,pneumonita cu citomegalovirus,pneumonie virala cu CMV,cytomegalovirus pneumonia,CMV pneumonia,cytomegaloviral pneumonitis
+Pneumonie cu Salmonella,pneumonie salmonelica,infectie pulmonara cu Salmonella,bronhopneumonie cu Salmonella,salmonella pneumonia,salmonellal pneumonia,salmonella lung infection
+Poliomielita non-paralitica,polio non-paralitic,poliomielita abortiva,meningita cu poliovirus,nonparalytic poliomyelitis,abortive poliomyelitis,aseptic meningitis due to poliovirus
+Poliomielita paralitica,polio paralitic,poliomielita anterioara acuta paralitica,paralizie spinala infantila,paralytic poliomyelitis,paralytic polio,acute paralytic poliomyelitis
+Proctita gonococica,gonoree anorectala,infectie gonococica rectala,proctita cu gonococ,gonococcal proctitis,gonococcal anorectal infection,gonorrheal proctitis
+Psitacoza,ornitoza,febra papagalilor,infectie cu Chlamydia psittaci,psittacosis,ornithosis,parrot fever
+Rabie,turbare,hidrofobie,infectie cu virusul rabic,rabies,hydrophobia,lyssavirus infection
+Rabie furioasa,rabie excitata,forma clasica de rabie,rabie cu hiperactivitate,furious rabies,furious form of rabies,classical rabies
+Rabie paralitica,rabie muta,rabie dumb,rabie cu paralizie,paralytic rabies,dumb rabies,silent rabies
+Reactie leproasa,reactie de reversiune leproasa,reactie leproasa tip 1,reactie imunologica in lepra,leprosy reaction,leprosy type 1 reaction,reversal reaction
+Rickettsioza variceliforma,febra eruptiva cu Rickettsia akari,rickettsioza papulara,varicela rickettsiana,rickettsialpox,vesicular rickettsiosis,Rickettsia akari infection
+Roseola infantum,exantem subit,febra de trei zile,eruptie subita,exanthem subitum,sixth disease,baby measles
+Sancroid,sancru moale,ulcer moale venerian,infectie cu Haemophilus ducreyi,chancroid,soft chancre,Haemophilus ducreyi infection
+SARS,sindromul respirator acut sever,pneumonie atipica cu coronavirus,infectie cu SARS-CoV,severe acute respiratory syndrome,SARS coronavirus infection,severe acute respiratory syndrome coronavirus
+Scabie norvegiana,scabie crustoasa,scabie hiperkeratozica,scabie cu cruste,Norwegian scabies,crusted scabies,hyperkeratotic scabies
+Schistosomiaza,bilharzioza,boala bilharziana,infectie cu Schistosoma,schistosomiasis,bilharziasis,snail fever
+Schistosomiaza hepatoesplenica,fibroza hepatica schistosomica,hipertensiune portala schistosomica,schistosomiaza hepatica,hepatosplenic schistosomiasis,schistosomal hepatic fibrosis,schistosomal portal hypertension
+Schistosomiaza intestinala,schistosomiaza cu Schistosoma mansoni,schistosomiaza rectala,schistosomiaza mansoni,intestinal schistosomiasis,Schistosoma mansoni infection,mansonian schistosomiasis
+Schistosomiaza japoneza,schistosomiaza cu Schistosoma japonicum,schistosomiaza asiatica,schistosomiaza orientala,Japanese schistosomiasis,Schistosoma japonicum infection,Asiatic schistosomiasis
+Schistosomiaza urinara,schistosomiaza cu Schistosoma haematobium,hematuria bilharziana,schistosomiaza vesicala,urinary schistosomiasis,Schistosoma haematobium infection,vesical schistosomiasis
+Sechele de encefalita virala,sechele de encefalita,sechele neurologice postencefalitice,deficit neurologic postencefalitic,sequelae of viral encephalitis,postencephalitic sequelae,postencephalitic neurological deficits
+Sechele de meningita,sechele meningeene,hipoacuzie postmeningitica,sechele neurologice postmeningitice,sequelae of meningitis,postmeningitic sequelae,postmeningitic hearing loss
+Sechele de poliomielita,sechele dupa poliomielita,paralizie reziduala post-polio,deficit motor rezidual dupa polio,sequelae of poliomyelitis,post-polio residual paralysis,polio sequelae
+Sechele de tuberculoza,sechele tuberculoase,sechele post-tuberculoase,leziuni reziduale tuberculoase,tuberculosis sequelae,post-tuberculosis sequelae,residual tuberculosis lesions
+Sepsis stafilococic,septicemie stafilococica,sepsis cu Staphylococcus aureus,bacteriemie stafilococica,staphylococcal sepsis,staphylococcal septicaemia,Staphylococcus aureus bloodstream infection
+Sepsis streptococic,septicemie streptococica,sepsis cu Streptococcus pyogenes,infectie generalizata streptococica,streptococcal sepsis,streptococcal septicaemia,Streptococcus pyogenes sepsis
+Shigeloza cu Shigella boydii,dizenterie cu Shigella boydii,shigeloza tip 4,dizenterie cu Boyd,shigella boydii infection,shigellosis type 4,boyd dysentery
+Shigeloza cu Shigella dysenteriae,dizenterie cu Shigella dysenteriae,shigeloza tip 1,dizenterie epidemica,shigella dysenteriae infection,shigellosis type 1,bacillary dysentery type 1
+Shigeloza cu Shigella flexneri,dizenterie cu Shigella flexneri,shigeloza tip 2,dizenterie endemica,shigella flexneri infection,shigellosis type 2,bacillary dysentery type 2
+Shigeloza cu Shigella sonnei,dizenterie cu Shigella sonnei,shigeloza tip 3,dizenterie cu germene Sonne,shigella sonnei infection,shigellosis type 3,sonne dysentery
+Sicoza stafilococica,sicoza barbii,foliculita stafilococica a barbii,sicoza cu Staphylococcus aureus,staphylococcal sycosis,sycosis barbae,folliculitis barbae
+Sifilis cardiovascular,aortita sifilitica,anevrism sifilitic aortic,sifilis al aortei,cardiovascular syphilis,syphilitic aortitis,syphilitic aneurysm
+Sifilis congenital,lues congenital,sifilis prenatal,sifilis congenital precoce,congenital syphilis,prenatal syphilis,congenital lues
+Sifilis congenital tardiv,triada Hutchinson,dinti Hutchinson,cheratita interstitiala sifilitica,late congenital syphilis,Hutchinson triad,Hutchinson teeth
+Sifilis latent precoce,sifilis latent recent,lues latent precoce,sifilis seropozitiv recent,early latent syphilis,recent latent syphilis,early latent stage syphilis
+Sifilis latent tardiv,lues latent tardiv,sifilis latent de lunga durata,sifilis seropozitiv tardiv,late latent syphilis,late latent stage syphilis,long-standing latent syphilis
+Sifilis ocular,uveita sifilitica,cheratita sifilitica,retinita sifilitica,ocular syphilis,syphilitic uveitis,syphilitic keratitis
+Sifilis primar,sifilom initial,ulcer sifilitic,stadiu primar al sifilisului,primary syphilis,syphilitic chancre,primary stage syphilis
+Sifilis secundar,roseola sifilitica,sifilide secundare,stadiu secundar al sifilisului,secondary syphilis,syphilitic roseola,secondary stage syphilis
+Sifilis tertiar,guma sifilitica,sifilom tertiar,sifilis tardiv,tertiary syphilis,late syphilis,gummatous syphilis
+Sindrom de emaciere HIV,sindrom de slabire asociat HIV,emaciere severa asociata HIV,boala slabirii,HIV wasting syndrome,AIDS wasting syndrome,slim disease
+Sindrom de soc denga,soc prin denga,denga cu soc,soc hipovolemic prin denga,dengue shock syndrome,dengue shock,DSS
+Sindrom de soc toxic streptococic,soc toxic streptococic,infectie invaziva cu Streptococcus pyogenes,fasceita streptococica cu soc,streptococcal toxic shock syndrome,toxic shock-like syndrome,STSS
+Sindrom Gerstmann-Straussler-Scheinker,encefalopatie spongiforma familiala,boala prionica familiala,ataxie prionica,Gerstmann-Straussler-Scheinker syndrome,Gerstmann-Straussler syndrome,GSS syndrome
+Sindrom inflamator multisistemic la copil,sindrom inflamator multisistemic pediatric,sindrom inflamator multisistemic post-COVID,MIS-C,multisystem inflammatory syndrome in children,paediatric inflammatory multisystem syndrome,PIMS-TS
+Sindrom Lemierre,tromboflebita septica a venei jugulare,sepsis postanginos,tromboflebita jugulara interna,Lemierre syndrome,Lemierre's syndrome,postanginal septicaemia
+Sindrom post-COVID-19,COVID prelungit,sechele post-COVID,stare post-COVID-19,post-COVID-19 syndrome,long COVID,post-acute COVID-19 syndrome
+Sindrom post-polio,sindrom postpoliomielitic,sechele post-polio,atrofie musculara post-polio,post-polio syndrome,postpoliomyelitis syndrome,post-polio muscular atrophy
+Sindrom pulmonar cu hantavirus,sindromul cardiopulmonar cu hantavirus,boala cu virusul Sin Nombre,edem pulmonar cu hantavirus,hantavirus pulmonary syndrome,hantavirus cardiopulmonary syndrome,HPS
+Sindrom Waterhouse-Friderichsen,insuficienta suprarenala acuta hemoragica,apoplexie suprarenaliana,hemoragie suprarenaliana bilaterala,Waterhouse-Friderichsen syndrome,acute adrenal hemorrhage syndrome,adrenal apoplexy
+Sindromul pielii oparite,dermatita exfoliativa stafilococica,sindromul Ritter,necroliza epidermica toxica stafilococica,staphylococcal scalded skin syndrome,Ritter syndrome,SSSS
+Soc toxic stafilococic,sindrom de soc toxic stafilococic,soc toxic prin toxina stafilococica,boala TSS,staphylococcal toxic shock syndrome,toxic shock syndrome,TSS
+Sparganoza,sparganum,infestare cu larve de Spirometra,sparganoza subcutanata,sparganosis,sparganum infection,Spirometra infection
+Spondilita tuberculoasa,mal de Pott,tuberculoza vertebrala,Pott vertebral,Pott disease,tuberculous spondylitis,spinal tuberculosis
+Sporotrichoza,boala gradinarului,infectie cu Sporothrix schenckii,micoza cu Sporothrix,sporotrichosis,rose gardener's disease,Sporothrix schenckii infection
+Sporotrichoza diseminata,sporotrichoza sistemica,sporotrichoza osteoarticulara,sporotrichoza extracutanata,disseminated sporotrichosis,systemic sporotrichosis,extracutaneous sporotrichosis
+Sporotrichoza limfocutanata,sporotrichoza nodulara limfatica,sporotrichoza cutanata,sporotrichoza fixa,lymphocutaneous sporotrichosis,nodular lymphangitic sporotrichosis,fixed cutaneous sporotrichosis
+Strongiloidoza,infestare cu Strongyloides stercoralis,diaree cu Strongyloides,estrongiloidoza,strongyloidiasis,Strongyloides stercoralis infection,strongyloidosis
+Strongiloidoza diseminata,sindrom de hiperinfectie cu Strongyloides,strongiloidoza severa,hiperinfectie cu Strongyloides,disseminated strongyloidiasis,Strongyloides hyperinfection,hyperinfection syndrome
+Teniaza cu Taenia saginata,infestare cu tenia bovina,teniaza inerma,tenioza saginata,Taenia saginata infection,beef tapeworm infection,unarmed tapeworm infection
+Teniaza cu Taenia solium,infestare cu tenia porcului,teniaza armata,tenioza solium,Taenia solium infection,pork tapeworm infection,armed tapeworm infection
+Tetanos neonatal,tetanos al nou-nascutului,tetanos ombilical,tetanos infantil,neonatal tetanus,tetanus neonatorum,umbilical tetanus
+Tifos endemic,tifos murin,tifos transmis de purici,infectie cu Rickettsia typhi,endemic typhus,murine typhus,Rickettsia typhi infection
+Tifos epidemic,tifos exantematic,tifos transmis de paduchi,infectie cu Rickettsia prowazekii,epidemic typhus,louse-borne typhus,Rickettsia prowazekii infection
+Tifos scrub,tifosul tufisurilor,febra tsutsugamushi,infectie cu Orientia tsutsugamushi,scrub typhus,tsutsugamushi disease,mite-borne typhus
+Tinea barbae,sicoza micozica,micoza barbii,dermatofitoza barbii,barber's itch,ringworm of the beard,beard ringworm
+Tinea capitis,dermatofitoza scalpului,micoza scalpului,infectie dermatofitica a scalpului,scalp ringworm,ringworm of the scalp,tinea of the scalp
+Tinea corporis,dermatofitoza corpului,micoza corpului,herpes circinat,ringworm of the body,body ringworm,tinea circinata
+Tinea faciei,micoza fetei,dermatofitoza faciala,infectie dermatofitica faciala,ringworm of the face,facial ringworm,facial dermatophytosis
+Tinea manuum,dermatofitoza palmelor,micoza mainilor,infectie dermatofitica a mainilor,ringworm of the hands,hand ringworm,hand dermatophytosis
+Tinea nigra,micoza neagra palmara,cladosporioza epidermica,infectie cu Hortaea werneckii,tinea nigra palmaris,keratomycosis nigricans palmaris,Hortaea werneckii infection
+Toxocaroza,larva migrans viscerala,sindrom de larva migrans visceral,toxocaroza viscerala,toxocariasis,visceral larva migrans,Toxocara infection
+Toxoplasmoza cerebrala,encefalita toxoplasmica,abces cerebral toxoplasmic,toxoplasmoza a sistemului nervos,cerebral toxoplasmosis,toxoplasmic encephalitis,toxoplasma encephalitis
+Toxoplasmoza congenitala,toxoplasmoza neonatala,triada Sabin,coriorretinita toxoplasmica congenitala,congenital toxoplasmosis,neonatal toxoplasmosis,Sabin tetrad
+Toxoplasmoza ganglionara,limfadenita toxoplasmica,toxoplasmoza limfatica,toxoplasmoza cu adenopatii,lymphadenopathic toxoplasmosis,toxoplasmic lymphadenitis,glandular toxoplasmosis
+Trichineloza,trichinelioza,infestare cu Trichinella spiralis,boala trichinei,trichinosis,trichinellosis,Trichinella infection
+Tricocefaloza,infestare cu Trichuris trichiura,dizenterie cu Trichuris,trichurioza,trichuriasis,whipworm infection,Trichuris trichiura infection
+Tricomonaza,trichomoniaza,infectie cu Trichomonas vaginalis,vaginita trichomonazica,trichomoniasis,trichomonas vaginalis infection,trichomonal vaginitis
+Tricostrongiloidoza,infestare cu Trichostrongylus,enterita cu Trichostrongylus,diaree cu Trichostrongylus,trichostrongyliasis,Trichostrongylus infection,trichostrongylosis
+Tripanosomiaza africana estica,tripanosomiaza rhodesiana,tripanosomiaza est-africana,boala somnului acuta,East African trypanosomiasis,Rhodesian trypanosomiasis,Trypanosoma brucei rhodesiense infection
+Tripanosomiaza africana vestica,tripanosomiaza gambiana,tripanosomiaza vest-africana,boala somnului cronica,West African trypanosomiasis,Gambian trypanosomiasis,Trypanosoma brucei gambiense infection
+Tuberculom cerebral,tuberculom al sistemului nervos,granulom tuberculos cerebral,tuberculoza cerebrala,tuberculoma of brain,cerebral tuberculoma,central nervous system tuberculoma
+Tuberculom pulmonar,nodul tuberculos pulmonar,granulom tuberculos pulmonar,tuberculom al plamanului,pulmonary tuberculoma,tuberculoma of lung,lung tuberculoma
+Tuberculoza asociata HIV,co-infectie TB-HIV,tuberculoza la pacientul cu HIV,tuberculoza si SIDA,HIV-associated tuberculosis,TB-HIV co-infection,tuberculosis in HIV infection
+Tuberculoza bronhica,tuberculoza traheobronsica,leziuni endobronsice tuberculoase,tuberculoza cailor respiratorii,bronchial tuberculosis,tracheobronchial tuberculosis,endobronchial tuberculosis
+Tuberculoza cutanata,lupus vulgar,tuberculoza pielii,lupus tuberculos,cutaneous tuberculosis,lupus vulgaris,skin tuberculosis
+Tuberculoza epididimara,epididimita tuberculoasa,orchita tuberculoasa,tuberculoza testiculara,tuberculous epididymitis,tuberculous orchitis,male genital tuberculosis
+Tuberculoza ganglionara,limfadenita tuberculoasa,scrofula,tuberculoza limfatica,tuberculous lymphadenitis,cervical tuberculous adenitis,tuberculous adenitis
+Tuberculoza hepatica,tuberculoza ficatului,hepatita tuberculoasa,granulom tuberculos hepatic,hepatic tuberculosis,tuberculosis of liver,tuberculous hepatitis
+Tuberculoza intestinala,enterita tuberculoasa,ileocolita tuberculoasa,ulceratii tuberculoase intestinale,intestinal tuberculosis,tuberculous enteritis,tuberculous enterocolitis
+Tuberculoza laringiana,tuberculoza laringelui,laringita tuberculoasa,tuberculoza de laringe,laryngeal tuberculosis,tuberculous laryngitis,tuberculosis of larynx
+Tuberculoza meningeana,meningita tuberculoasa,meningoencefalita tuberculoasa,tuberculoza meningelor,tuberculous meningitis,meningeal tuberculosis,tuberculous meningoencephalitis
+Tuberculoza miliara,tuberculoza miliara diseminata,tuberculoza diseminata,diseminare miliara tuberculoasa,miliary tuberculosis,disseminated tuberculosis,acute miliary tuberculosis
+Tuberculoza multidrog-rezistenta,TB MDR,tuberculoza rezistenta la medicamente,tuberculoza cu bacili multirezistenti,multidrug-resistant tuberculosis,MDR-TB,drug-resistant tuberculosis
+Tuberculoza oculara,tuberculoza ochiului,uveita tuberculoasa,keratita tuberculoasa,ocular tuberculosis,tuberculous uveitis,tuberculosis of eye
+Tuberculoza otitica,tuberculoza urechii medii,otita medie tuberculoasa,mastoidita tuberculoasa,tuberculous otitis media,tuberculosis of middle ear,tuberculous mastoiditis
+Tuberculoza pericardica,pericardita tuberculoasa,tuberculoza pericardului,pericardita constrictiva tuberculoasa,tuberculous pericarditis,pericardial tuberculosis,tuberculosis of pericardium
+Tuberculoza pleurala,pleurezie tuberculoasa,pleurita tuberculoasa,tuberculoza pleurei,tuberculous pleurisy,tuberculous pleural effusion,pleural tuberculosis
+Tuberculoza renala,nefrita tuberculoasa,tuberculoza rinichiului,tuberculoza urogenitala,renal tuberculosis,tuberculosis of kidney,urogenital tuberculosis
+Tuberculoza splenica,tuberculoza splinei,splenita tuberculoasa,granulom tuberculos splenic,splenic tuberculosis,tuberculosis of spleen,tuberculous splenitis
+Tuberculoza suprarenaliana,tuberculoza suprarenalelor,insuficienta suprarenala tuberculoasa,boala Addison tuberculoasa,tuberculous adrenalitis,adrenal tuberculosis,tuberculosis of adrenal gland
+Tuberculoza tiroidiana,tiroidita tuberculoasa,tuberculoza tiroidei,granulom tuberculos tiroidian,thyroid tuberculosis,tuberculous thyroiditis,tuberculosis of thyroid gland
+Tuberculoza ultrarerzistenta,TB XDR,tuberculoza extrem de rezistenta,tuberculoza extensiv rezistenta,extensively drug-resistant tuberculosis,XDR-TB,extensively resistant tuberculosis
+Tularemie,febra iepurelui,infectie cu Francisella tularensis,boala iepurilor,tularemia,rabbit fever,deer fly fever
+Tularemie oculoglandulara,tularemie oculara,conjunctivita tularemica,sindrom oculoglandular tularemic,oculoglandular tularemia,tularaemic conjunctivitis,ocular tularemia
+Tularemie orofaringiana,tularemie faringiana,angina tularemica,tularemie ganglionara cervicala,oropharyngeal tularemia,pharyngeal tularemia,tularemic pharyngitis
+Tularemie pulmonara,tularemie pneumonica,pneumonie cu Francisella tularensis,tularemie respiratorie,pulmonary tularemia,pneumonic tularemia,respiratory tularemia
+Tularemie tifoidala,forma tifoidala de tularemie,tularemie sistemica,tularemie generalizata,typhoidal tularemia,systemic tularemia,septic tularemia
+Tularemie ulceroglandulara,forma ulceroglandulara de tularemie,tularemie cutanata,ulcer cu adenopatie tularemic,ulceroglandular tularemia,ulceroglandular tularaemia,cutaneous tularemia
+Tungiaza,purecele de nisip,infestare cu Tunga penetrans,leziune cutanata cu Tunga,tungiasis,jigger infestation,Tunga penetrans infection
+Ulcerul Buruli,ulcer Buruli,infectie cu Mycobacterium ulcerans,ulcer necrozant tropical,Buruli ulcer,Mycobacterium ulcerans infection,Bairnsdale ulcer
+Uretrita cu Chlamydia,uretrita cu Chlamydia trachomatis,uretrita negonococica,uretrita clamidiana,chlamydial urethritis,nongonococcal urethritis,chlamydia urethritis
+Uretrita gonococica,blenoragia uretrala,uretrita cu gonococ,uretrita gonoreica,gonococcal urethritis,gonococcal urethral infection,gonorrheal urethritis
+Varicela congenitala,sindromul varicelei congenitale,varicela neonatala,varicela la nou-nascut,congenital varicella syndrome,congenital varicella,neonatal varicella
+Varicela progresiva,varicela hemoragica,varicela maligna,varicela buloasa,progressive varicella,hemorrhagic varicella,malignant varicella
+Yersinioza,yersinioza intestinala,infectie cu Yersinia enterocolitica,enterocolita cu Yersinia,yersiniosis,Yersinia enterocolitica infection,yersinia enterocolitis
+Yersinioza pseudotuberculoasa,pseudotuberculoza,infectie cu Yersinia pseudotuberculosis,adenita mezenterica cu Yersinia,Yersinia pseudotuberculosis infection,pseudotuberculosis,Yersinia pseudotuberculosis enteritis
+Zona zoster diseminata,herpes zoster diseminat,zona zoster generalizata,eruptie zosteriana diseminata,disseminated herpes zoster,disseminated zoster,generalized zoster
+Zona zoster oftalmica,herpes zoster oftalmic,zona oftalmica,keratita zosteriana,herpes zoster ophthalmicus,ophthalmic zoster,ophthalmic herpes zoster

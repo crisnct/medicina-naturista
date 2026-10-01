@@ -1,0 +1,411 @@
+Abces amibian hepatic,abces hepatic amibian,supuratie amibiana a ficatului,abces de ficat cu Entamoeba,amebic liver abscess,amoebic liver abscess,Entamoeba histolytica liver abscess
+Abces dentoalveolar,abces dento-alveolar,abces odontogen,supuratie odontogena,dentoalveolar abscess,odontogenic abscess,tooth socket abscess
+Abces ileocecal,abces al regiunii ileocecale,supuratie ileocecala,colectie purulenta ileocecala,ileocecal abscess,abscess of the ileocecal region,pericecal abscess
+Abces paradontal,abces periodontal lateral,abces parodontal,supuratie parodontala,paradontal abscess,periodontal abscess,lateral periodontal abscess
+Abces periamigdalian,abces amigdalian,supuratie periamigdaliana,flegmon periamigdalian,peritonsillar abscess,quinsy,periamygdalar abscess
+Abces perineal,abces al perineului,supuratie perineala,colectie purulenta perineala,perineal abscess,abscess of the perineum,perineal suppuration
+Abces pulpar,abces al pulpei dentare,supuratie pulpara dentara,abces dentar pulpar,pulp abscess,dental pulp abscess,tooth pulp abscess
+Absces dentar cronic,granulom dentar,granulom periapical,leziune periapicala cronica,dental granuloma,chronic periapical lesion,periapical granuloma
+Absces subfrenic cronic,supuratie subfrenica cronica,colectie purulenta subdiafragmatica,abces subdiafragmatic cronic,chronic subphrenic abscess,chronic subdiaphragmatic abscess,chronic subphrenic suppuration
+Aciditate gastrica scazuta,hipoaciditate gastrica,hipoclorhidrie,secretie gastrica redusa,gastric hypoacidity,hypochlorhydria,decreased stomach acid
+Adenom de canal biliar,adenom al cailor biliare,tumora benigna a cailor biliare,adenom biliar,bile duct adenoma,benign tumor of bile duct,choledochal adenoma
+Adenom de Vater,adenom ampular duodenal,adenom al papilei duodenale,tumora benigna a papilei Vater,adenoma of ampulla of Vater,duodenal papilla adenoma,periampullary adenoma
+Adenomioza vezicii biliare,adenomiomatoza vezicii biliare,hiperplazie adenomatoasa a vezicii biliare,colecist adenomiomatoza,gallbladder adenomyoma,adenomyomatosis of the gallbladder,gallbladder adenomyomatosis
+Aderente pelvine,aderente pelviene,bride pelviene,aderente in pelvis,pelvic adhesions,adhesions in the pelvis,pelvic adhesion syndrome
+Adeziviune peritoneala,aderente peritoneale,bride peritoneale,aderente intraabdominale,peritoneal adhesions,intra-abdominal adhesions,abdominal adhesions
+Agengezie pancreatica,absenta congenitala a pancreasului,lipsa pancreasului din nastere,aplazie pancreatica,pancreatic agenesis,congenital absence of the pancreas,pancreatic aplasia
+Alveolita,alveolita dentara,alveolita postextractionale,osteita alveolara,dry socket,alveolar osteitis,post-extraction alveolitis
+Ameloblastom,tumora amelioblastica,ameloblastom maxilar,tumora odontogena epiteliala,ameloblastoma,adamantinoma of the jaw,ameloblastic tumor
+Amiloidoza hepatica,amiloidoza ficatului,depunere de amiloid in ficat,hepatopatie amiloida,hepatic amyloidosis,liver amyloidosis,amyloid deposition in the liver
+Amiloidoza intestinala,amiloidoza intestinului,depunere de amiloid intestinal,amiloidoza tractului digestiv,intestinal amyloidosis,amyloid deposition in the intestine,gastrointestinal amyloidosis
+Angiodisplazie intestinala,angiodisplazie a intestinului,malformatie vasculara intestinala,ectazie vasculara intestinala,angiodysplasia of the intestine,intestinal angiodysplasia,intestinal vascular malformation
+Anomalie de rotatie intestinala,malrotatie intestinala,rotatie intestinala anormala,pozitionare anormala a intestinului,intestinal malrotation,abnormal intestinal rotation,malrotation of the gut
+Anus imperforat,imperforatie anala,atresie anorectala,lipsa orificiului anal,imperforate anus,anal atresia,anorectal atresia
+Aplazie biliara,atresie biliara,atresie a cailor biliare,lipsa congenitala a cailor biliare,biliary atresia,atresia of the bile ducts,congenital biliary atresia
+Ascita chiloasa,ascita chiliforma,chiloperitoneu,lichid chilos in abdomen,chylous ascites,chyloperitoneum,chyliform ascites
+Ascita refractara,ascita rezistenta la tratament,ascita neresponsiva,ascita recidivanta,refractory ascites,resistant ascites,recurrent ascites
+Atrezie colica,atresie de colon,lipsa congenitala a colonului,obstructie colica congenitala,colonic atresia,atresia of the colon,congenital colonic atresia
+Atrezie duodenala,atresie de duoden,lipsa congenitala a duodenului,obstructie duodenala congenitala,duodenal atresia,atresia of the duodenum,congenital duodenal atresia
+Atrezie intestinala,atresie de intestin,lipsa congenitala a unui segment intestinal,obstructie intestinala congenitala,intestinal atresia,congenital intestinal atresia,atresia of the intestine
+Atrezie jejuno-ileala,atresie de jejun si ileon,atresie intestinala multipla,lipsa congenitala de intestin subtire,jejunoileal atresia,multiple intestinal atresia,congenital small bowel atresia
+Atrofie pancreatica,atrofia pancreasului,pancreas atrofic,atrofie acinara pancreatica,pancreatic atrophy,atrophy of the pancreas,acinar pancreatic atrophy
+Bilirubinemie crescuta,hiperbilirubinemie,crestere a bilirubinei serice,bilirubina mare in sange,hyperbilirubinemia,elevated serum bilirubin,high blood bilirubin
+Boala Behcet intestinala,Behcet cu afectare intestinala,enterita Behcet,ulceratii intestinale in Behcet,intestinal Behcet disease,Behcet disease with intestinal involvement,enteric Behcet syndrome
+Boala Caroli,dilatatie chistica a cailor biliare intrahepatice,boala Caroli congenitala,chisturi ale cailor biliare intrahepatice,caroli disease,congenital intrahepatic bile duct dilatation,intrahepatic bile duct cysts
+Boala Cronkhite-Canada,polipoza Cronkhite-Canada,sindrom Cronkhite-Canada,polipoza generalizata cu pigmentare,Cronkhite-Canada syndrome,Cronkhite-Canada disease,generalized gastrointestinal polyposis
+Boala Dieulafoy,leziune Dieulafoy,ulcer Dieulafoy,malformatie vasculara gastrica Dieulafoy,Dieulafoy lesion,Dieulafoy disease,Dieulafoy vascular malformation
+Boala Gilbert,hiperbilirubinemie benigna,icter Gilbert,sindrom Gilbert,Gilbert syndrome,gilbert's disease,benign familial hyperbilirubinemia
+Boala Hirschsprung,megacolon congenital,aganglionism intestinal congenital,boala Hirschprung,Hirschsprung disease,congenital megacolon,aganglionic megacolon
+Boala inflamatorie intestinala,boli inflamatorii intestinale,enterocolita inflamatorie cronica,afectiune intestinala inflamatorie cronica,inflammatory bowel disease,IBD,chronic inflammatory bowel disease
+Boala polichistica hepatica,polichistoza hepatica,ficat cu chisturi multiple,boala chistica difuza a ficatului,polycystic liver disease,hepatic polycystosis,multiple liver cysts
+Boala veno-ocluziva hepatica,boala venoocluziva a ficatului,sindrom de obstructie sinusoidala hepatica,obstructie venoasa hepatica,hepatic veno-occlusive disease,sinusoidal obstruction syndrome,veno-occlusive disease of the liver
+Bronsita biliara,colangita cronica cu bronsita,bronsita de origine biliara,biliptizia,biliary bronchitis,cholangitic bronchitis,biliptysis
+Bulbita,duodenita bulbara,inflamatia bulbului duodenal,bulbitis,duodenal bulb inflammation,inflammation of the duodenal bulb,bulbar duodenitis
+Calculi de colesterol,litiaza biliara de colesterol,pietre biliare de colesterol,calculi biliari de colesterol,cholesterol gallstones,cholesterol stones,cholesterol biliary calculi
+Calculi pigmentari,litiaza biliara pigmentara,pietre biliare pigmentare,calculi biliari pigmentari,pigment gallstones,pigment stones,pigment biliary calculi
+Cancer de antru gastric,cancer antral,carcinom antral gastric,neoplasm antral,gastric antrum cancer,antral carcinoma,cancer of the gastric antrum
+Cancer de anus,cancer anal,carcinom anal,neoplasm malign anal,anal cancer,anal carcinoma,carcinoma of the anus
+Cancer de apendice,cancer apendicular,carcinom apendicular,tumora maligna apendiculara,appendix cancer,appendiceal carcinoma,cancer of the appendix
+Cancer de canal biliar,colangiocarcinom,cancer al cailor biliare,neoplasm biliar malign,bile duct cancer,cholangiocarcinoma,cancer of the bile ducts
+Cancer de cardia,cancer cardial,carcinom al cardiei gastrice,neoplasm cardial,gastric cardia cancer,cardia carcinoma,cancer of the gastric cardia
+Cancer de cec,cancer cecal,carcinom cecal,neoplasm al cecului,cecal cancer,cecal carcinoma,cancer of the cecum
+Cancer de colon ascendent,cancer al colonului ascendent,carcinom al colonului drept,neoplasm al colonului ascendent,ascending colon cancer,ascending colon carcinoma,cancer of the ascending colon
+Cancer de colon descendent,cancer al colonului descendent,carcinom al colonului stang,neoplasm al colonului descendent,descending colon cancer,descending colon carcinoma,cancer of the descending colon
+Cancer de colon sigmoid,cancer sigmoidian,carcinom al colonului sigmoid,neoplasm sigmoidian,sigmoid colon cancer,sigmoid colon carcinoma,cancer of the sigmoid colon
+Cancer de colon transvers,cancer al colonului transvers,carcinom al colonului transvers,neoplasm al colonului transvers,transverse colon cancer,transverse colon carcinoma,cancer of the transverse colon
+Cancer de duoden,cancer duodenal,carcinom duodenal,neoplasm malign duodenal,duodenal cancer,duodenal carcinoma,cancer of the duodenum
+Cancer de epiploon,cancer omental,carcinom omental,neoplasm malign omental,omental cancer,omental carcinoma,cancer of the omentum
+Cancer de esofag abdominal,cancer al esofagului abdominal,carcinom esofagian abdominal,neoplasm esofagian abdominal,abdominal esophageal cancer,abdominal esophagus carcinoma,cancer of the abdominal esophagus
+Cancer de esofag cervical,cancer al esofagului cervical,carcinom esofagian cervical,neoplasm esofagian cervical,cervical esophageal cancer,cervical esophagus carcinoma,cancer of the cervical esophagus
+Cancer de esofag toracic,cancer al esofagului toracic,carcinom esofagian toracic,neoplasm esofagian toracic,thoracic esophageal cancer,thoracic esophagus carcinoma,cancer of the thoracic esophagus
+Cancer de ficat metastatic,metastaze hepatice,cancer secundar hepatic,neoplasm hepatic secundar,liver metastases,metastatic liver cancer,secondary liver cancer
+Cancer de fund gastric,cancer al fundului gastric,carcinom fundic,neoplasm fundic,gastric fundus cancer,fundic carcinoma,cancer of the gastric fundus
+Cancer de hipofaringe,cancer hipofaringian,carcinom hipofaringian,neoplasm hipofaringian,hypopharyngeal cancer,hypopharyngeal carcinoma,cancer of the hypopharynx
+Cancer de ileon,cancer ileal,carcinom ileal,neoplasm malign ileal,ileal cancer,ileal carcinoma,cancer of the ileum
+Cancer de intestin subtire,cancer intestinal,carcinom al intestinului subtire,neoplasm malign al intestinului subtire,small intestine cancer,small bowel cancer,carcinoma of the small intestine
+Cancer de jejun,cancer jejunal,carcinom jejunal,neoplasm malign jejunal,jejunal cancer,jejunal carcinoma,cancer of the jejunum
+Cancer de orofaringe,cancer orofaringian,carcinom orofaringian,neoplasm orofaringian,oropharyngeal cancer,oropharyngeal carcinoma,cancer of the oropharynx
+Cancer de pancreas metastatic,metastaze pancreatice,cancer pancreatic secundar,neoplasm pancreatic secundar,pancreatic metastases,metastatic pancreatic cancer,secondary pancreatic cancer
+Cancer de peritoneu,carcinom peritoneal,carcinoza peritoneala,neoplasm malign peritoneal,peritoneal cancer,peritoneal carcinomatosis,peritoneal carcinoma
+Cancer de pilor,cancer piloric,carcinom piloric,neoplasm piloric,pyloric cancer,pyloric carcinoma,cancer of the pylorus
+Cancer de rect,cancer rectal,carcinom rectal,neoplasm malign rectal,rectal cancer,rectal carcinoma,cancer of the rectum
+Cancer de vezica biliara,cancer biliar,carcinom al vezicii biliare,neoplasm al vezicii biliare,gallbladder cancer,gallbladder carcinoma,carcinoma of the gallbladder
+Candidomicoza esofagiana,candidoza esofagiana,esofagita candidozica,infectie cu Candida la esofag,esophageal candidiasis,candida esophagitis,esophageal moniliasis
+Candidoza bucala,candidoza orala,stomatita candidozica,sfungar alb in gura,oral candidiasis,oral thrush,oral moniliasis
+Carii dentare multiple,carii multiple,carie dentara extinsa,dinti cu multiple carii,multiple dental caries,extensive tooth decay,widespread cavities
+Cecita,inflamatia cecului,cecita acuta,tiflita,cecitis,typhlitis,inflammation of the cecum
+Celulita perianala,celulita anaeroba perianala,flegmon perianal,infectie necrozanta perianala,perianal cellulitis,anaerobic perianal cellulitis,perianal phlegmon
+Cheilita unghiulara,perlesche,boala perleche,ragade comisurale la coltul gurii,angular cheilitis,perleche,angular stomatitis
+Chelita actinica,cheilita actinica,queilitis actinica,leziune actinica a buzei,actinic cheilitis,actinic cheilitis of the lip,solar cheilitis
+Chilotorax,revarsat chilos pleural,lichid limfatic in pleura,chil in cavitatea pleurala,chylothorax,chylous pleural effusion,chyle in the pleural cavity
+Chist coledocian,chist de canal coledoc,chist congenital al cailor biliare,dilatatie chistica a coledocului,choledochal cyst,bile duct cyst,congenital choledochal cyst
+Chist de canal tiroidian,chist tireoglos,chist al ductului tireoglos,chist median cervical,thyroglossal duct cyst,thyroglossal cyst,median cervical cyst
+Chist de coledoc,chist al coledocului,dilatatie chistica de coledoc,chist biliar congenital,choledochal cyst of the common duct,cyst of the common bile duct,congenital bile duct dilatation
+Chist hepatic,chist de ficat,chist biliar hepatic,formatiune chistica hepatica,liver cyst,hepatic cyst,cyst of the liver
+Chist pancreatic,pseudochist pancreatic,chist al pancreasului,pseudochist al pancreasului,pancreatic cyst,pancreatic pseudocyst,cyst of the pancreas
+Chist salivar,mucocel salivar,chist de glanda salivara,chist mucos salivar,salivary gland cyst,ranula,mucocele of the salivary gland
+Ciroza alcoolica,ciroza hepatica alcoolica,ciroza Laennec,ciroza din alcoolism,alcoholic cirrhosis,laennec cirrhosis,alcoholic liver cirrhosis
+Ciroza biliara primitiva,colangita biliara primitiva,ciroza biliara primara,boala biliara autoimuna,primary biliary cholangitis,primary biliary cirrhosis,autoimmune biliary disease
+Ciroza cardiaca,ciroza congestiva,ficat de staza,ciroza din insuficienta cardiaca,cardiac cirrhosis,congestive cirrhosis,congestive hepatopathy
+Colangita,colangita acuta,infectie a cailor biliare,inflamatia cailor biliare,cholangitis,acute cholangitis,bile duct infection
+Colangita ascendenta,colangita acuta ascendenta,colangita supurativa,infectie ascendenta a cailor biliare,ascending cholangitis,acute ascending cholangitis,suppurative cholangitis
+Colangita sclerozanta primitiva,colangita sclerozanta idiopatica,boala sclerozanta a cailor biliare,colangita sclerozanta primara,primary sclerosing cholangitis,sclerosing cholangitis,idiopathic sclerosing cholangitis
+Colecistita acuta alitiazica,colecistita acuta fara calculi,colecistita acuta necalculosa,inflamatie acuta a vezicii biliare fara pietre,acute acalculous cholecystitis,acalculous cholecystitis,cholecystitis without gallstones
+Colecistita acuta calculoasa,colecistita acuta litiazica,colecistita acuta pe calculi,inflamatie acuta a vezicii biliare cu pietre,acute calculous cholecystitis,acute lithiasic cholecystitis,acute gallstone cholecystitis
+Colecistita emfizematoasa,colecistita gangrenoasa,colecistita cu germeni gazosi,colecistita necrozanta,emphysematous cholecystitis,gangrenous cholecystitis,gas-forming cholecystitis
+Coledocolitiaza,litiaza de coledoc,calculi pe canalul coledoc,pietre la calea biliara principala,choledocholithiasis,common bile duct stones,bile duct calculi
+Colestaza,colestaza hepatica,blocaj biliar,staza biliara,cholestasis,hepatic cholestasis,bile flow obstruction
+Colestaza cronica,colestaza de lunga durata,staza biliara cronica,sindrom colestatic cronic,chronic cholestasis,long-standing cholestasis,chronic cholestatic syndrome
+Colestaza gravidica,colestaza intrahepatica de sarcina,colestaza din sarcina,prurit gravidic cu colestaza,intrahepatic cholestasis of pregnancy,obstetric cholestasis,cholestasis of pregnancy
+Colita actinica,enterita actinica,colita postradioterapie,leziune intestinala radioindusa,radiation colitis,radiation enteritis,actinic colitis
+Colita chimica,colita caustica,colita de contact,leziune chimica a colonului,chemical colitis,caustic colitis,contact colitis
+Colita colagenoasa,colita cu colagen subepitelial,colita colagenica,coloane de colagen in mucoasa,colagenous colitis,collagen colitis,microscopic colitis with collagen
+Colita de radiatii,enterita de radiatii,leziune intestinala postradioterapie,colita actinica cronica,radiation colitis,radiation enteritis,post-radiotherapy bowel injury
+Colita eozinofilica,colita alergica eozinofilica,colita cu eozinofile,inflamatie eozinofilica a colonului,eosinophilic colitis,allergic eosinophilic colitis,eosinophilic inflammation of the colon
+Colita granulomatoasa,colita cu granulom,boala granulomatoasa a colonului,inflamatie granulomatoasa colica,granulomatous colitis,colonic granulomatous disease,granulomatous inflammation of the colon
+Colita limfocitara,colita cu limfocite,colita microscopica limfocitara,limfocitoza intraepiteliala colica,lymphocytic colitis,microscopic lymphocytic colitis,intraepithelial lymphocytosis of the colon
+Colita pseudomembranoasa,colita cu pseudomembrane,colita postantibiotica,enterocolita pseudomembranoasa,pseudomembranous colitis,antibiotic-associated colitis,pseudomembranous enterocolitis
+Colita pseudomembranoasa cu Clostridium difficile,infectie cu Clostridium difficile,colita cu C difficile,diaree asociata Clostridium difficile,Clostridium difficile infection,C difficile colitis,C difficile associated diarrhea
+Colita pseudomembranoasa recidivanta,colita postantibiotica recidivanta,recadere de colita pseudomembranoasa,recurenta pseudomembranoasa,recurrent pseudomembranous colitis,relapsing antibiotic-associated colitis,recurrent C difficile colitis
+Colita ulcerativa cronica,colita ulcerativa de lunga durata,rectocolita ulcero-hemoragica cronica,colita ulcerativa in remisiune,chronic ulcerative colitis,long-standing ulcerative colitis,ulcerative colitis in remission
+Colita ulcerativa distala,colita ulcerativa stanga,rectosigmoidita ulceroasa,colita ulcerativa rectosigmoidiana,distal ulcerative colitis,left-sided ulcerative colitis,ulcerative rectosigmoiditis
+Colita ulcerativa severa,colita ulcerativa fulminanta,rectocolita ulcero-hemoragica severa,colita ulcerativa acuta grava,severe ulcerative colitis,fulminant ulcerative colitis,acute severe ulcerative colitis
+Colita ulcerativa totala,pancolita ulceroasa,colita ulcerativa extinsa,rectocolita ulcerohemoragica totala,total ulcerative colitis,pancolitis,extensive ulcerative colitis
+Complicatie a gastrectomiei,sindrom postgastrectomie,stare postgastrectomie,sechele dupa gastrectomie,postgastrectomy syndrome,post-gastrectomy state,sequelae of gastrectomy
+Criptita,criptita anala,inflamatia criptelor anale,cripta anala infectata,anal cryptitis,cryptitis of the anus,inflamed anal crypts
+Deficit de enterochinaza,deficit de enteropeptidaza,insuficienta de activare a tripsinogenului,boala prin deficit de enterochinaza,enterokinase deficiency,enteropeptidase deficiency,impaired trypsinogen activation
+Dehiscence de perete abdominal,dehiscence a plagii abdominale,ruptura plagii laparotomice,evisceratie postoperatorie,abdominal wound dehiscence,burst abdomen,abdominal fascial dehiscence
+Diaree cronica,diaree persistenta,tranzit intestinal accelerat cronic,diaree de lunga durata,chronic diarrhea,persistent diarrhea,chronic diarrhoeal syndrome
+Diaree functionala,diaree cronica functionala,tranzit intestinal accelerat functional,sindrom diareic functional,functional diarrhea,chronic functional diarrhea,functional diarrhoeal syndrome
+Diaree osmotica,diaree prin malabsorbtie,diaree osmotica cronica,diaree prin substanta neabsorbabila,osmotic diarrhea,osmotic diarrhoea,malabsorptive diarrhea
+Diaree secretorie,diaree apoasa secretorie,diaree prin secretie intestinala crescuta,diaree secretorie cronica,secretory diarrhea,secretory diarrhoea,watery secretory diarrhea
+Diastazis al muschilor drepti,diastazis al dreptilor abdominali,separatie a muschilor abdominali,diastaza rectala,diastasis recti,diastasis of the rectus abdominis,abdominal muscle separation
+Dilatatie de coledoc,dilatatie a cailor biliare,dilatatie biliara,ectazie biliara,bile duct dilatation,dilatation of the bile ducts,biliary ectasia
+Dilatatie gastrica acuta,dilatatie acuta a stomacului,distensie gastrica acuta,atonia gastrica acuta,acute gastric dilatation,acute stomach distension,acute gastric atony
+Disfunctie a sfincterului Oddi,disfunctie de sfincter Oddi,diskinezie a sfincterului Oddi,spasm al sfincterului Oddi,sphincter of Oddi dysfunction,Oddi sphincter dyskinesia,biliary sphincter dysfunction
+Displazie de colon,displazie colica,displazie epiteliala colica,leziune premaligna de colon,colonic dysplasia,dysplasia of the colon,premalignant colonic lesion
+Displazie de esofag,displazie esofagiana,displazie epiteliala esofagiana,leziune premaligna esofagiana,esophageal dysplasia,dysplasia of the esophagus,premalignant esophageal lesion
+Displazie de rect,displazie rectala,displazie epiteliala rectala,leziune premaligna rectala,rectal dysplasia,dysplasia of the rectum,premalignant rectal lesion
+Displazie gastrica,displazie a mucoasei gastrice,displazie epiteliala gastrica,leziune premaligna gastrica,gastric dysplasia,dysplasia of the gastric mucosa,premalignant gastric lesion
+Diverticul al esofagului,diverticul esofagian,diverticul de esofag,formatiune diverticulara esofagiana,esophageal diverticulum,diverticulum of the esophagus,esophageal pouch
+Diverticul duodenal,diverticul de duoden,formatiune diverticulara duodenala,diverticuloza duodenala,duodenal diverticulum,diverticulum of the duodenum,duodenal diverticular disease
+Diverticul gastric,diverticul de stomac,formatiune diverticulara gastrica,diverticuloza gastrica,gastric diverticulum,diverticulum of the stomach,gastric diverticular disease
+Diverticul intestinal,diverticuli intestinali,diverticuloza intestinala,formatiuni diverticulare intestinale,intestinal diverticulum,intestinal diverticulosis,diverticular disease of the intestine
+Diverticul Meckel,diverticulul Meckel,diverticul ileal congenital,persistenta ductului vitelin,Meckel diverticulum,Meckel's diverticulum,ileal diverticulum
+Diverticul uretral,diverticul de uretra,formatiune diverticulara uretrala,diverticuloza uretrala,urethral diverticulum,diverticulum of the urethra,urethral diverticular disease
+Diverticul Zenker,diverticulul Zenker,diverticul faringoesofagian,diverticul de hipofaringe,Zenker diverticulum,pharyngoesophageal diverticulum,Zenker pouch
+Diverticulita acuta,diverticulita colonica acuta,inflamatie acuta a diverticulilor,diverticulita complicata acuta,acute diverticulitis,acute colonic diverticulitis,acute diverticular inflammation
+Diverticulita cronica,diverticulita recidivanta,boala diverticulara cronica,inflamatie cronica a diverticulilor,chronic diverticulitis,recurrent diverticulitis,chronic diverticular disease
+Diverticulita diverticulului Zenker,inflamatia diverticulului faringoesofagian,diverticulita faringoesofagiana,Zenker diverticulitis,inflammation of a Zenker diverticulum,pharyngoesophageal diverticulitis,infected Zenker diverticulum
+Dublura intestinala,duplicatie intestinala,chist enteric duplicat,duplicatura intestinala congenitala,intestinal duplication,duplication cyst of the intestine,congenital enteric duplication
+Duodenita,inflamatia duodenului,duodenita cronica,inflamatie duodenala,duodenitis,inflammation of the duodenum,chronic duodenitis
+Duplicatie esofagiana,chist duplicat esofagian,dublura esofagului,duplicatie congenitala a esofagului,esophageal duplication,duplication cyst of the esophagus,congenital esophageal duplication
+Ectazie vasculara gastrica,ectazie vasculara a stomacului,ectazii vasculare gastrice,leziuni vasculare gastrice,gastric antral vascular ectasia,GAVE,watermelon stomach
+Empiem vezicular,empiem al vezicii biliare,colecistita supurata,piocel vezicular,gallbladder empyema,empyema of the gallbladder,suppurative cholecystitis
+Encefalopatie hepatica,encefalopatie porto-sistemica,coma hepatica,encefalopatie din insuficienta hepatica,hepatic encephalopathy,portosystemic encephalopathy,hepatic coma
+Enterita,inflamatia intestinului subtire,enterita cronica,inflamatie a intestinului subtire,enteritis,small bowel inflammation,inflammation of the small intestine
+Enterita tuberculoasa,tuberculoza intestinala,ileita tuberculoasa,peritonita tuberculoasa,tuberculous enteritis,intestinal tuberculosis,tuberculous peritonitis
+Enterocolita necrozanta,enterocolita ulcero-necrozanta,enterocolita necrozanta neonatala,colita necrozanta a nou-nascutului,necrotizing enterocolitis,necrotising enterocolitis,neonatal necrotizing enterocolitis
+Enteropatia autoimuna,enteropatie autoimuna,boala autoimuna a intestinului subtire,enteropatia autoimuna cronica,autoimmune enteropathy,autoimmune enteritis,chronic autoimmune enteropathy
+Enteropatia pierzatoare de proteine,enteropatie exsudativa,hipoproteinemie prin pierdere intestinala,pierdere intestinala de proteine,protein-losing enteropathy,exudative enteropathy,intestinal protein loss
+Enteropatia sensibila la gluten,enteropatia glutenica,boala celiaca potentiala,boala celiaca seronegativa,gluten-sensitive enteropathy,celiac enteropathy,gluten intolerance enteropathy
+Eozinofilie gastrointestinala,gastroenterita eozinofilica,boala eozinofilica gastrointestinala,infiltratie eozinofilica digestiva,eosinophilic gastroenteritis,gastrointestinal eosinophilia,eosinophilic gastrointestinal disease
+Esofag Barrett,esofagul Barrett,metaplazie columnara esofagiana,epiteliu columnar in esofag,Barrett esophagus,barrett's esophagus,columnar-lined esophagus
+Esofagita,inflamatia esofagului,esofagita acuta,esofagita cronica,esophagitis,inflammation of the esophagus,acute esophagitis
+Esofagita caustica,esofagita prin ingestie de caustice,arsura chimica a esofagului,leziune caustica esofagiana,caustic esophagitis,corrosive esophagitis,chemical burn of the esophagus
+Esofagita de reflux,esofagita peptica,esofagita prin reflux acid,boala de reflux cu esofagita,reflux esophagitis,peptic esophagitis,acid reflux esophagitis
+Esofagita distructiva,esofagita severa eroziva,esofagita ulcerativa,leziune esofagiana severa,destructive esophagitis,erosive esophagitis,ulcerative esophagitis
+Esofagita eozinofilica,esofagita alergica,esofagita cu eozinofile,esofagita eozinofilica primara,eosinophilic esophagitis,allergic esophagitis,esophageal eosinophilia
+Esofagita eozinofilica pediatrica,esofagita eozinofilica a copilului,esofagita alergica a copilului,boala eozinofilica esofagiana pediatrica,pediatric eosinophilic esophagitis,childhood eosinophilic esophagitis,pediatric allergic esophagitis
+Esofagita infectioasa,esofagita microbiana,esofagita virala,esofagita fungica,infectious esophagitis,microbial esophagitis,viral esophagitis
+Esofagita medicamentoasa,esofagita prin medicamente,esofagita pilulara,leziune esofagiana medicamentoasa,drug-induced esophagitis,pill esophagitis,medication-induced esophageal injury
+Esofagita necrozanta,esofagita necrotica,esofagita acuta necrozanta,necroliza mucoasei esofagiene,necrotizing esophagitis,acute necrotizing esophagitis,esophageal mucosal necrosis
+Esofagul hipercontractil,esofag nutcracker,esofag in ciocan pneumatic,spasm esofagian hipercontractil,nutcracker esophagus,jackhammer esophagus,hypertensive esophageal peristalsis
+Estenoza anala,stramtare anala,strictura anala,ingustare a canalului anal,anal stenosis,stricture of the anus,anal stricture
+Estenoza biliara,stramtare a cailor biliare,strictura biliara,ingustare biliara,biliary stricture,stricture of the bile duct,bile duct stenosis
+Estenoza esofagiana,stramtare a esofagului,strictura esofagiana,ingustare esofagiana,esophageal stricture,stricture of the esophagus,esophageal narrowing
+Estenoza intestinala congenitala,stenoza congenitala de intestin,stramtare intestinala din nastere,ingustare intestinala congenitala,congenital intestinal stenosis,stenosis of the intestine,birth intestinal narrowing
+Estenoza pilorica,stenoza pilorului,stramtare pilorica,ingustarea orificiului piloric,pyloric stenosis,stenosis of the pylorus,gastric outlet obstruction
+Estenoza pilorica hipertrofica,stenoza pilorica congenitala,hipertrofia pilorului,boala pilorica a sugarului,hypertrophic pyloric stenosis,congenital pyloric stenosis,infantile pyloric stenosis
+Fasciolioza,distomatoza hepatica,infestare cu Fasciola hepatica,boala cu galbeaza,fascioliasis,liver fluke infection,fasciolosis
+Fascita perianala,infectie necrozanta a perineului,gangrena Fournier,flegmon perianal necrozant,Fournier gangrene,necrotizing perianal fasciitis,necrotizing perineal infection
+Fibroza hepatica,ficat fibrotic,fibroza de ficat,ingrosare fibroasa hepatica,hepatic fibrosis,liver fibrosis,fibrosis of the liver
+Fibroza hepatica congenitala,fibrochistomatoza hepatica,boala fibrochistica hepatica,fibroza hepatica cu chisturi,congenital hepatic fibrosis,hepatic fibrocystic disease,congenital liver fibrosis
+Fibroza pancreatica,fibroza pancreasului,pancreas fibrotic,scleroza pancreatica,pancreatic fibrosis,fibrosis of the pancreas,pancreatic sclerosis
+Fistula anala complexa,fistula perianala complexa,fistula transsfincteriana,fistula anala in doua orificii,complex anal fistula,transsphincteric fistula,complex perianal fistula
+Fistula aortointestinala,fistula aorto-enterica,fistula aorto-intestinala,fistula vasculara intestinala,aortoenteric fistula,aorto-intestinal fistula,aortic graft enteric fistula
+Fistula bronhobiliara,fistula biliobronsica,fistula pleurobiliara,fistula biliaro-bronsica,bronchobiliary fistula,biliobronchial fistula,pleurobiliary fistula
+Fistula colecistoduodenala,fistula colecisto-duodenala,fistula biliaro-digestiva,fistula vezicii biliare in duoden,cholecystoduodenal fistula,biliary enteric fistula,gallbladder duodenal fistula
+Fistula colovesicala,fistula colon-vezica urinara,fistula enterovezicala,fistula intestino-vezicala,colovesical fistula,enterovesical fistula,intestinal bladder fistula
+Fistula gastrocolica,fistula gastro-colica,fistula stomac-colon,fistula enterogastrica,gastrocolic fistula,gastro-colic fistula,stomach to colon fistula
+Fistula gastrojejunala,fistula gastro-jejunala,fistula gastroenterala,fistula stomac-intestin,gastrojejunal fistula,gastrojejunal anastomotic fistula,gastroenteric fistula
+Fistula intestinala,fistula enterica,fistula enterocutanta,fistula digestiva,intestinal fistula,enteric fistula,enterocutaneous fistula
+Fistula rectouretrala,fistula recto-uretrala,fistula anorectal-uretrala,fistula intestin-uretra,rectourethral fistula,recto-urethral fistula,anorectal urethral fistula
+Fistula rectovaginala,fistula recto-vaginala,fistula anorectal-vaginala,fistula intestin-vaginala,rectovaginal fistula,recto-vaginal fistula,anorectal vaginal fistula
+Fisura anala cronica,fisura anala veche,ulcer anal cronic,ragada anala cronica,chronic anal fissure,chronic fissure in ano,old anal fissure
+Fisura labiala,cheiloschizis,buza de iepure,despicatura labiala,cleft lip,cheiloschisis,harelip
+Fitobezoar,bezoar vegetal,fitobezoar gastric,corp strain vegetal in stomac,phytobezoar,vegetable bezoar,gastric phytobezoar
+Gastrinom,ulcer peptic refractar,hipersecretie de gastrina,tumora secretanta de gastrina,gastrinoma,Zollinger-Ellison tumor,gastrin-producing tumor
+Gastrinom malign,gastrinom metastatic,tumora gastrinica maligna,gastrinom cu metastaze,malignant gastrinoma,metastatic gastrinoma,malignant Zollinger-Ellison syndrome
+Gastrita antrala,gastrita de antru,gastrita prepilorica,inflamatia mucoasei antrale,antral gastritis,gastritis of the antrum,prepyloric gastritis
+Gastrita atrofica,gastrita cu atrofie mucoasa,atrofie a mucoasei gastrice,gastrita cronica atrofica,atrophic gastritis,chronic atrophic gastritis,gastric mucosal atrophy
+Gastrita autoimuna,gastrita de tip A,gastrita atrofica autoimuna,gastrita cu anticorpi,autoimmune gastritis,type A gastritis,autoimmune atrophic gastritis
+Gastrita biliara,gastrita de reflux biliar,reflux duodeno-gastric,gastrita cu bila,gastric reflux gastritis,bile reflux gastritis,duodenogastric reflux gastritis
+Gastrita cronica activa,gastrita activa cronica,gastrita cu activitate inflamatorie,gastrita cronica recidivanta,chronic active gastritis,active chronic gastritis,recurrent chronic gastritis
+Gastrita cronica neatrofica,gastrita superficiala cronica,gastrita fara atrofie,antrala cronica neatrofica,chronic non-atrophic gastritis,superficial chronic gastritis,gastritis without atrophy
+Gastrita de stres,gastrita de stress,ulcer de stres,leziuni gastrice de stres,stress gastritis,stress ulcer,stress-induced gastric injury
+Gastrita eozinofilica,boala eozinofilica gastrica,gastrita alergica eozinofilica,infiltratie eozinofilica gastrica,eosinophilic gastritis,allergic eosinophilic gastritis,gastric eosinophilic infiltration
+Gastrita granulomatoasa,gastrita cu granulom,gastrita granulomatoasa izolata,boala granulomatoasa gastrica,granulomatous gastritis,gastric granulomas,isolated granulomatous gastritis
+Gastrita limfocitara,gastrita cu limfocite,boala gastrica limfocitara,limfocitoza gastrica,lymphocytic gastritis,gastric lymphocytosis,lymphocytic gastric disease
+Gastropareza,gastropatia diabetica,intarzierea golirii gastrice,atonia gastrica,gastroparesis,delayed gastric emptying,diabetic gastroparesis
+Gastropatie hipertrofica,gastropatia hipertrofica giganta,boala Menetrier,gastrita hipertrofica,hypertrophic gastropathy,Menetrier disease,giant hypertrophic gastritis
+Gastroptoza,caderea stomacului,ptoza gastrica,gastroptozis,gastroptosis,gastric ptosis,fallen stomach
+Gingivita ulceronecrotica,gingivita necrozanta ulcerativa,gingivostomatita Vincent,boala Vincent,necrotizing ulcerative gingivitis,Vincent gingivitis,trench mouth
+Gingivostomatita herpetica,stomatita herpetica,gingivostomatita cu herpes simplex,infectie herpetica bucala,herpetic gingivostomatitis,herpes simplex gingivostomatitis,herpetic stomatitis
+Globulus faringian,globus faringian,senzatie de nod in gat,globus hystericus,globus pharyngeus,globus sensation,lump in the throat sensation
+Glosita,inflamatia limbii,glosita cronica,inflamatie linguala,glossitis,inflammation of the tongue,chronic glossitis
+Glosita atrofica,glosita Hunter,limba neteda,atrofie a papilelor linguale,atrophic glossitis,hunter glossitis,smooth tongue
+Glosita geometrica,limba geografica,glosita areata benigna,eritem migrator lingual,geographic tongue,benign migratory glossitis,erythema migrans of the tongue
+Glucagonom,tumora cu glucagon,glucagonoma pancreatic,sindrom glucagonom,glucagonoma,glucagon-producing tumor,glucagonoma syndrome
+Hemangiom hepatic,hemangiom cavernos hepatic,angiom hepatic,tumora vasculara benigna a ficatului,hepatic hemangioma,cavernous hemangioma of the liver,liver hemangioma
+Hemoperitoneu,hemoragie intraperitoneala,sange in cavitatea peritoneala,hematocele peritoneal,hemoperitoneum,intraperitoneal hemorrhage,blood in the peritoneal cavity
+Hemoragie digestiva inferioara,hemoragie digestiva joasa,sangerare digestiva inferioara,hemoragie din colon,lower gastrointestinal bleeding,lower GI hemorrhage,colonic bleeding
+Hemoragie digestiva superioara,hemoragie digestiva inalta,hemoragie gastroesofagiana,sangerare digestiva superioara,hematemesis,vomiting blood,blood in vomit
+Hemoroizi de gradul III,hemoroizi prolabati la defecatie,hemoroizi cu prolaps reductibil,hemoroid de gradul trei,grade III hemorrhoids,third degree hemorrhoids,prolapsing reducible hemorrhoids
+Hemoroizi de gradul IV,hemoroizi permanent prolabati,hemoroizi nereductibili,hemoroid de gradul patru,grade IV hemorrhoids,fourth degree hemorrhoids,irreducible prolapsed hemorrhoids
+Hemoroizi trombosati,hemoroizi trombozati,hemoroid trombosat,criza hemoroidala trombotica,thrombosed hemorrhoids,thrombosed piles,hemorrhoidal thrombosis
+Hepatita A cu icter,hepatita A icterica,icter prin hepatita A,hepatita epidemica cu icter,icteric hepatitis A,hepatitis A with jaundice,epidemic hepatitis with jaundice
+Hepatita alcoolica,hepatita etanolica,hepatita din alcool,boala hepatica alcoolica,alcoholic hepatitis,ethanol-induced hepatitis,alcoholic liver disease
+Hepatita autoimuna,hepatita autoimuna cronica,hepatita lupoida,hepatita cu autoanticorpi,autoimmune hepatitis,chronic autoimmune hepatitis,lupoid hepatitis
+Hepatita colestatica,hepatita cu colestaza,hepatita icterica colestatica,hepatita biliara,cholestatic hepatitis,hepatitis with cholestasis,cholestatic liver inflammation
+Hepatita cronica,hepatita cronica persistenta,inflamatie cronica a ficatului,hepatopatie cronica inflamatorie,chronic hepatitis,persistent chronic hepatitis,chronic liver inflammation
+Hepatita cronica activa,hepatita cronica cu activitate,hepatita activa cronica,hepatita cronica inflamatorie,chronic active hepatitis,active chronic hepatitis,chronic inflammatory hepatitis
+Hepatita cronica persistanta,hepatita cronica usoara,hepatita cu inflamatie minima,hepatita cronica fara activitate,chronic persistent hepatitis,mild chronic hepatitis,chronic hepatitis with minimal activity
+Hepatita cu citomegalovirus,hepatita CMV,infectie hepatica cu citomegalovirus,hepatita cu celule gigante,cytomegalovirus hepatitis,CMV hepatitis,cytomegalic inclusion hepatitis
+Hepatita cu virus Epstein-Barr,hepatita EBV,hepatita din mononucleoza infectioasa,hepatita cu virusul Epstein-Barr,Epstein-Barr virus hepatitis,EBV hepatitis,infectious mononucleosis hepatitis
+Hepatita cu virus G,infectie cu virusul hepatitei G,hepatita virala G,virusul hepatitei G,hepatitis G,hepatitis G virus infection,GB virus C hepatitis
+Hepatita D,hepatita delta,infectie cu virusul hepatitei D,hepatita virala D,hepatitis D,delta hepatitis,hepatitis D virus infection
+Hepatita E,hepatita virala E,infectie cu virusul hepatitei E,hepatita non-A non-B enterica,hepatitis E,hepatitis E virus infection,enterically transmitted hepatitis
+Hepatita fulminanta,insuficienta hepatica fulminanta,hepatita acuta fulminanta,necroza hepatica masiva,fulminant hepatitis,acute liver failure,fulminant hepatic necrosis
+Hepatita granulomatoasa,hepatita cu granulom,hepatita granulomatoasa idiopatica,boala granulomatoasa hepatica,granulomatous hepatitis,hepatic granulomas,idiopathic granulomatous hepatitis
+Hepatita herpetica,hepatita cu virus herpes simplex,hepatita herpetiforma,infectie herpetica hepatica,herpes simplex hepatitis,herpetic hepatitis,HSV hepatitis
+Hepatita medicamentoasa,hepatita de cauza medicamentoasa,leziune hepatica indusa de medicamente,hepatotoxicitate medicamentoasa,drug-induced liver injury,medication-induced hepatitis,hepatotoxicity
+Hepatita toxica,hepatita medicamentoasa,hepatita prin toxice,leziune hepatica toxica,toxic hepatitis,drug-induced hepatitis,toxic liver injury
+Hepatita virala cronica cu virus B,hepatita B cronica,infectie cronica cu virus hepatitic B,hepatita cronica B,chronic hepatitis B,chronic HBV infection,hepatitis B virus chronic infection
+Hepatocarcinom fibrolamelar,carcinom hepatocelular fibrolamelar,cancer hepatic fibrolamelar,varianta fibrolamelara a hepatocarcinomului,fibrolamellar hepatocellular carcinoma,fibrolamellar liver cancer,fibrolamellar hepatoma
+Hepatomegalie,ficat marit,marirea ficatului,hepatomegalia,hepatomegaly,enlarged liver,liver enlargement
+Hepatosplenomegalie,marirea ficatului si splinei,hepatosplenomegalia,ficat si splina marite,hepatosplenomegaly,enlarged liver and spleen,liver and spleen enlargement
+Hernie diafragmatica,hernie de diafragm,hernie prin hiatus diafragmatic,ruptura diafragmatica cu herniere,diaphragmatic hernia,herniation through the diaphragm,phrenic hernia
+Hernie epigastrica,hernie de linie alba,hernie epigastrica supraombilicala,hernie a liniei mediane,epigastric hernia,hernia of the linea alba,supraumbilical hernia
+Hernie femurala,hernie crurala,hernie femorala,hernie la inelul femural,femoral hernia,crural hernia,hernia of the femoral canal
+Hernie hiatala paraesofagiana,hernie hiatala prin rostogolire,hernie de hiat tip II,hernie hiatala paraesofagiana rara,paraesophageal hiatal hernia,rolling hiatal hernia,type II hiatal hernia
+Hernie incisionala,hernie postoperatorie,eventratie postoperatorie,hernie pe cicatrice chirurgicala,incisional hernia,postoperative hernia,ventral hernia
+Hernie inghinala strangulata,hernie inghinala incarcerata,hernie strangulata,hernie incarcerata cu ischemie,strangulated inguinal hernia,incarcerated inguinal hernia,strangulated hernia
+Hernie lombara,hernie lombara Grynfelt,hernie de perete abdominal posterior,hernie Petit,lumbar hernia,grynfelt hernia,petit hernia
+Hernie obturatorie,hernie obturatoare,hernie prin canalul obturator,hernie pelvina obturatorie,obturator hernia,hernia through the obturator canal,obturator foramen hernia
+Hernie Richter,hernie de perete abdominal Richter,hernie intestinala partiala,hernie Richter cu incarcerare,Richter hernia,richter's hernia,partial bowel wall hernia
+Hernie Spiegel,hernie Spiegeliana,hernie pe linia semilunara,hernie a aponevrozei Spiegel,Spigelian hernia,hernia of the semilunar line,lateral ventral hernia
+Hidatidoza hepatica,chist hidatic hepatic,echinococoza hepatica,boala hidatica a ficatului,hepatic hydatid cyst,echinococcal liver cyst,liver hydatid disease
+Hidrocolecist,hidrops vezicular,vezica biliara hidropica,distensie chistica a vezicii biliare,gallbladder hydrops,hydrops of the gallbladder,hydropic gallbladder
+Hiperplazie focala nodulara hepatica,hiperplazie nodulara focala a ficatului,tumora hepatica benigna nodulara,hiperplazie focala nodulara,focal nodular hyperplasia,focal nodular hyperplasia of the liver,benign nodular liver tumor
+Hipersalivatie,ptialism,sialoree,secretie salivara excesiva,hypersalivation,ptyalism,sialorrhea
+Hipertensiune portala,hipertensiune a venei porta,cresterea presiunii in vena porta,sindrom de hipertensiune portala,portal hypertension,portal vein hypertension,portal hypertensive syndrome
+Hipertrofie de pilor,piloro spasm,spasm piloric,hipertrofie pilorica,pylorospasm,pyloric spasm,pyloric hypertrophy
+Icter hemolitic,icter prin hemoliza,icter prehepatic,icter hemolitic congenital,hemolytic jaundice,prehepatic jaundice,jaundice due to hemolysis
+Ileita,inflamatia ileonului,ileita cronica,inflamatie ileala,ileitis,inflammation of the ileum,chronic ileitis
+Ileita cronica,ileita de lunga durata,inflamatie cronica a ileonului,enterita cronica ileala,chronic ileitis,long-standing ileitis,chronic inflammation of the ileum
+Ileita de reflux,ileita prin reflux,ileita de fond,reflux ileal,reflux ileitis,backwash ileitis,ileal reflux
+Ileus biliar,ileus prin calculi biliari,obstructie intestinala prin pietre biliare,ileus calculos,gallstone ileus,biliary ileus,calculous intestinal obstruction
+Ileus meconial,ileus cu meconiu,obstructie intestinala cu meconiu,ileus meconial neonatal,meconium ileus,meconium bowel obstruction,neonatal meconium ileus
+Ileus paralitic,ileus adinamic,ileus functional,atonia intestinala,paralytic ileus,adynamic ileus,functional ileus
+Infarct intestinal,infarct mezenteric,necroza intestinala,ischemie intestinala irreversibila,intestinal infarction,mesenteric infarction,bowel infarction
+Insuficienta hepatica acuta,insuficienta acuta de ficat,hepatita acuta grava cu insuficienta,decompensare hepatica acuta,acute liver failure,acute hepatic failure,fulminant hepatic failure
+Insuficienta hepatica cronica,insuficienta hepatica cronica decompensata,decompensare hepatica,insuficienta functionala hepatica,chronic liver failure,decompensated liver disease,hepatic decompensation
+Insuficienta hepato-renala,sindrom hepatorenal,insuficienta renala in boala hepatica,sindrom hepato-renal,hepatorenal syndrome,liver-kidney syndrome,renal failure in liver disease
+Insuficienta pancreatica exocrina,insuficienta exocrina a pancreasului,deficit enzimatic pancreatic,insuficienta digestiva pancreatica,exocrine pancreatic insufficiency,pancreatic exocrine deficiency,pancreatic enzyme deficiency
+Insulinom,insulinom pancreatic,tumora insulino-secretanta,adenom insular,insulinoma,insulin-producing tumor,pancreatic insulinoma
+Invaginatie intestinala,intussusceptie,invaginare intestinala,invaginatie ileocecala,intussusception,intestinal intussusception,ileocecal intussusception
+Ischemie colica,ischemie a colonului,colita ischemica,ischemie intestinala segmentara,ischemic colitis,colonic ischemia,ischemic bowel disease
+Ischemie mezenterica acuta,ischemie intestinala acuta,infarct mezenteric acut,ischemie a intestinului,acute mesenteric ischemia,acute intestinal ischemia,acute mesenteric infarction
+Ischemie mezenterica cronica,angina intestinala,insuficienta vasculara mezenterica cronica,ischemie cronica a intestinului,chronic mesenteric ischemia,intestinal angina,chronic mesenteric vascular insufficiency
+Jejunita,inflamatia jejunului,jejunita cronica,inflamatie jejunala,jejunitis,inflammation of the jejunum,chronic jejunitis
+Leiomioame esofagiene,leiomiom esofagian,tumora benigna musculara esofagiana,leiomiomatoza esofagiana,esophageal leiomyoma,benign esophageal muscle tumor,esophageal leiomyomatosis
+Leiomioame gastrice,leiomiom gastric,tumora benigna musculara gastrica,leiomiomatoza gastrica,gastric leiomyoma,benign gastric muscle tumor,gastric leiomyomatosis
+Leucoplazie orala,leucoplazie bucala,keratoza leucoplazica orala,placa alba bucala,oral leukoplakia,leukoplakia of the oral mucosa,oral keratosis
+Leucoplazie pilosa,leucoplazie pilosa orala,leucoplazie cu virus Epstein-Barr,placi albe pe limba,hairy leukoplakia,oral hairy leukoplakia,EBV oral leukoplakia
+Leziune gastrica acuta,ulcer de stres acut,leziune de mucoasa gastrica acuta,gastropatie acuta de stres,acute gastric mucosal lesion,acute stress ulcer,acute gastric erosive lesion
+Lichen plan oral,lichen plan bucal,lichen planus oral,stomatita lichenoida,oral lichen planus,lichen planus of the oral mucosa,oral lichenoid reaction
+Limfom gastric,limfom MALT gastric,limfom al stomacului,limfom non-Hodgkin gastric,gastric lymphoma,gastric MALT lymphoma,stomach lymphoma
+Limfom intestinal,limfom al intestinului,limfom enteric,limfom digestiv,intestinal lymphoma,enteric lymphoma,lymphoma of the intestine
+Linfangiektazie intestinala,limfangectazie intestinala,dilatatie limfatica intestinala,boala Waldmann,intestinal lymphangiectasia,lymphangiectasia of the intestine,Waldmann disease
+Lipa bucala,sindrom de gura arzanda,sindromul gurii arzande,arsura bucala,burning mouth syndrome,oral burning syndrome,stomatodynia
+Lipom gastric,lipom al stomacului,tumora grasa gastrica benigna,lipomatoza gastrica,gastric lipoma,lipoma of the stomach,gastric lipomatosis
+Lipom intestinal,lipom al intestinului,tumora grasa intestinala benigna,lipomatoza intestinala,intestinal lipoma,lipoma of the intestine,intestinal lipomatosis
+Litiaza de canal hepatic,calculi pe canalul hepatic,litiaza intrahepatica,pietre pe calea biliara intrahepatica,intrahepatic bile duct stones,hepatic duct calculi,intrahepatic cholelithiasis
+Litioza pancreatica,litiaza pancreatica,calculi pancreatici,pietre la pancreas,pancreatic lithiasis,pancreatic calculi,pancreatic stones
+Malabsorbtie de saruri biliare,malabsorbtie biliara,diaree prin acizi biliari,malabsorbtie de acizi biliari,bile acid malabsorption,bile salt malabsorption,bile acid diarrhea
+Malformatie anorectala,malformatii anorectale congenitale,imperforatie anorectala,anomalie congenitala anorectala,anorectal malformation,congenital anorectal anomaly,imperforate anorectal anomaly
+Malformatie intestinala congenitala,malformatii congenitale intestinale,anomalie intestinala congenitala,defect congenital intestinal,congenital intestinal malformation,congenital bowel anomaly,intestinal birth defect
+Malformatie vasculara hepatica,malformatie vasculara a ficatului,angiom hepatic multiplu,malformatie arteriovenoasa hepatica,hepatic vascular malformation,vascular malformation of the liver,arteriovenous malformation of the liver
+Mastocitoza gastrointestinala,mastocitoza digestiva,infiltratie mastocitara intestinala,boala mastocitara digestiva,gastrointestinal mastocytosis,digestive mastocytosis,intestinal mast cell infiltration
+Megacolon,colon dilatat,megacolon dobandit,dilatatie cronica a colonului,acquired megacolon,dilated colon,chronic colonic dilatation
+Megacolon toxic,megacolon acut toxic,dilatatie toxica a colonului,megacolon inflamator,toxic megacolon,acute toxic megacolon,toxic colonic dilatation
+Melanom anorectal,melanom anal,melanom rectal,tumora melanocitara anorectala,anorectal melanoma,anal melanoma,rectal melanoma
+Melanom esofagian,melanom al esofagului,melanom malign esofagian,tumora melanocitara esofagiana,esophageal melanoma,melanoma of the esophagus,malignant esophageal melanoma
+Melena,scaun negru,scaun de culoarea catranului,hemoragie digestiva cu melena,melaena,black tarry stool,tarry stools
+Meningita amibiana,meningoencefalita amibiana,infectie amibiana a sistemului nervos,encefalita cu Naegleria,meningitis due to amoebae,amoebic meningoencephalitis,Naegleria fowleri infection
+Mezenterita,limfadenita mezenterica,adenolimfita mezenterica,inflamatia ganglionilor mezenterici,mesenteric lymphadenitis,mesenteric adenitis,mesenteritis
+Micoza hepatica,candidoza hepatica,infectie fungica a ficatului,hepatita fungica,hepatic mycosis,fungal liver infection,hepatic candidiasis
+Micoza intestinala,candidoza intestinala,infectie fungica intestinala,micoza digestiva,intestinal mycosis,intestinal candidiasis,fungal intestinal infection
+Miopatie viscerala intestinala,miopatia intestinului,visceromiopatie digestiva,tulburare musculara intestinala,intestinal visceral myopathy,visceral myopathy of the gut,enteric myopathy
+Necroza hepatica,necroza a ficatului,necroza hepatocelulara,moarte celulara hepatica,hepatic necrosis,liver necrosis,hepatocellular necrosis
+Necroza pancreatica,pancreatita necrozanta,necroza acuta a pancreasului,pancreonecroza,pancreatic necrosis,necrotizing pancreatitis,acute necrotizing pancreatitis
+Neuropatie viscerala intestinala,neuropatia intestinului,visceroneuropatie digestiva,tulburare nervoasa intestinala,intestinal visceral neuropathy,visceral neuropathy of the gut,enteric neuropathy
+Obstructie biliara,obstructie a cailor biliare,blocaj biliar,obstructie de cale biliara,biliary obstruction,bile duct obstruction,obstruction of the biliary tract
+Obstructie duodenala,obstructie a duodenului,blocaj duodenal,obstructie digestiva inalta,duodenal obstruction,obstruction of the duodenum,duodenal blockage
+Ocluzie intestinala,obstructie intestinala,blocaj intestinal,ileus mecanic,intestinal obstruction,bowel obstruction,mechanical ileus
+Ocluzie intestinala cu strangulare,obstructie intestinala strangulata,ileus mecanic strangulat,obstructie cu strangulare intestinala,strangulated intestinal obstruction,strangulating bowel obstruction,obstructive strangulated ileus
+Ocluzie intestinala prin aderente,obstructie prin bride,ileus prin aderente,obstructie intestinala aderentiala,intestinal obstruction due to adhesions,adhesive small bowel obstruction,adhesional bowel obstruction
+Ocluzie intestinala prin tumora,obstructie intestinala tumorala,blocaj intestinal prin tumora,obstructie neoplazica intestinala,malignant bowel obstruction,tumoral intestinal obstruction,bowel obstruction due to tumor
+Odinofagie,durere la inghitire,deglutitie dureroasa,inghitire dureroasa,odynophagia,painful swallowing,swallowing pain
+Pancreatita acuta recidivanta,pancreatita recidivanta,episoade recurente de pancreatita,pancreatita acuta repetata,recurrent acute pancreatitis,relapsing acute pancreatitis,recurrent pancreatitis
+Pancreatita acuta severa,pancreatita acuta necrozanta,pancreatita acuta grava,pancreatita hemoragica,severe acute pancreatitis,acute necrotizing pancreatitis,hemorrhagic pancreatitis
+Pancreatita acuta usoara,pancreatita acuta edematoasa,pancreatita interstitiala,pancreatita acuta benigna,mild acute pancreatitis,edematous pancreatitis,interstitial pancreatitis
+Pancreatita autoimuna,pancreatita sclerozanta,pancreatita limfoplasmocitara,pancreatita autoimuna cronica,autoimmune pancreatitis,sclerosing pancreatitis,lymphoplasmacytic pancreatitis
+Pancreatita cronica calcifianta,pancreatita cronica cu calculi,pancreatita calcificata,pancreatolitiaza,chronic calcifying pancreatitis,calcific pancreatitis,chronic calcific pancreatitis
+Pancreatita ereditara,pancreatita genetica,pancreatita familiala,pancreatita recidivanta ereditara,hereditary pancreatitis,familial pancreatitis,genetic pancreatitis
+Papilita anala,inflamatia papilei anale,hipertrofie de papila anala,papila anala hipertrofica,anal papillitis,hypertrophied anal papilla,inflamed anal papilla
+Paralizie intestinala,paralizia intestinului,atonie intestinala,ileus paralitic intestinal,intestinal paralysis,intestinal atony,paralytic bowel
+Parodontoza marginala,parodontita marginala,boala marginala parodontala,inflamatie marginala parodontala,marginal periodontitis,marginal periodontal disease,chronic marginal periodontitis
+Pericardita chiloasa,pericardita chiliforma,revarsat chilos pericardic,chilopericard,chylous pericarditis,chylopericardium,chyle in the pericardium
+Periimplantita,periimplantita dentara,infectie periimplantara,mucozita periimplantara,peri-implantitis,periimplant infection,peri-implant mucositis
+Peritonita acuta generalizata,peritonita generalizata acuta,peritonita difuza acuta,peritonita acuta difuza,generalized peritonitis,diffuse peritonitis,acute generalized peritonitis
+Peritonita bacteriana spontana,peritonita spontana a ciroticului,PBS,peritonita asociala a ascitei,spontaneous bacterial peritonitis,SBP,primary bacterial peritonitis
+Peritonita biliara,peritonita prin bila,peritonita biligena,peritonita prin scurgere biliara,biliary peritonitis,bile peritonitis,choleperitoneum
+Peritonita localizata,peritonita circumscrisa,abces peritoneal localizat,peritonita incapsulata,localized peritonitis,circumscribed peritonitis,encapsulated peritonitis
+Peritonita meconiala,peritonita cu meconiu,peritonita fetala,peritonita neonatala cu meconiu,meconium peritonitis,fetal meconium peritonitis,neonatal meconium peritonitis
+Peritonita sclerozanta incapsulata,peritonita sclerozanta,peritonita incapsulata,peritonita fibroasa,encapsulating peritoneal peritonitis,peritoneal encapsulation,abdominal cocoon
+Peritonita tuberculoasa,peritonita cu tuberculoza,tuberculoza peritoneala,peritonita TBC,tuberculous peritonitis,peritoneal tuberculosis,tuberculosis of the peritoneum
+Pica,alotriofagie,apetit pervertit,picacism,allotriophagy,ingestion of non-nutritive substances,ingestion non-nutritive substances
+Piocel,piocel ovarian,piocel tubar,colectie purulenta in anexe,pyosalpinx,pus-filled fallopian tube,ovarian pyocele
+Piodermita gangrenoasa,pioderma gangrenosum,ulcer infectat cutanat,leziune cutanata necrozanta,pyoderma gangrenosum,gangrenous pyoderma,necrotizing skin ulcer
+Pneumatoza intestinala,pneumatoza chistica intestinala,gaz in peretele intestinal,emfizem intestinal,intestinal pneumatosis,pneumatosis intestinalis,intramural intestinal gas
+Pneumoperitoneu,gaz in cavitatea peritoneala,pneumoperitoneu spontan,aer intraperitoneal,pneumoperitoneum,free intraperitoneal gas,gas in the peritoneal cavity
+Polip biliar,polip al vezicii biliare,polipi biliari,formatiune polipoida biliara,gallbladder polyp,polyp of the gallbladder,biliary polyp
+Polip colorectal,polip de colon,polip de rect,polipi colorectali,colorectal polyp,colon polyp,rectal polyp
+Polip gastric,polip de stomac,polipi gastrici,polipoza gastrica,gastric polyp,stomach polyp,gastric polyposis
+Polip intestinal,polip de intestin,polipi intestinali,polipoza intestinala,intestinal polyp,polyp of the intestine,intestinal polyposis
+Polipoza familiala adenomatoasa,polipoza adenomatoasa familiala,polipoza coli adenomatoasa,boala polipoasa ereditara,familial adenomatous polyposis,adenomatous polyposis coli,familial polyposis coli
+Porfirie hepatica,porfirie acuta intermitenta,porfirie variegata,coproporfirie hepatica,hepatic porphyria,acute intermittent porphyria,variegate porphyria
+Proctalgie fugace,proctalgia fugax,spasm rectal dureros,durere anorectala paroxistica,paroxysmal anorectal pain,levator ani syndrome,pain anorectala paroxistica
+Proctita,inflamatia rectului,proctita cronica,inflamatie rectala,proctitis,rectal inflammation,inflammation of the rectum
+Proctita ulcerativa,proctita cu ulceratii,colita ulcerativa distala rectala,rectita ulcerativa,ulcerative proctitis,ulcerative proctitis of the rectum,distal ulcerative proctitis
+Prolaps de valva ileocecala,prolaps ileocecal,invaginatie ileocecala,prolaps al valvei Bauhin,ileocecal valve prolapse,prolapse of the ileocecal valve,ileocecal valve syndrome
+Prolaps hemoroidal,prolaps de hemoroid,hemoroid prolabat,prolaps mucos anal,hemorrhoidal prolapse,prolapsed hemorrhoid,prolapsing piles
+Prurit anal,prurit perianal,manacarime anala,manacarimi la anus,anal itching,pruritus ani,perianal itching
+Pulpita dentara,inflamatia pulpei dentare,pulpita acuta dentara,pulpa dentara infectata,pulpitis,dental pulpitis,inflammation of the dental pulp
+Sialadenita,inflamatia glandei salivare,sialadenita cronica,inflamatie salivara,sialadenitis,salivary gland inflammation,chronic sialadenitis
+Sialoadenita cronica,parotidita cronica,inflamatia cronica a parotidei,sialoadenita recidivanta,chronic sialadenitis,chronic parotitis,recurrent sialadenitis
+Sialolitoza,litiaza salivara,calcul salivar,piatra la glanda salivara,sialolithiasis,salivary calculi,salivary gland stones
+Sifilis hepatic,sifilis al ficatului,hepatita sifilitica,guma sifilitica hepatica,hepatic syphilis,syphilitic hepatitis,liver syphilis
+Sindrom Budd-Chiari,tromboza venelor hepatice,obstructie a venelor hepatice,boala Budd-Chiari,Budd-Chiari syndrome,hepatic vein thrombosis,hepatic vein obstruction
+Sindrom carcinoid,sindromul carcinoid,boala carcinoida,sindrom carcinoide,carcinoid syndrome,carcinoid disease,functioning carcinoid syndrome
+Sindrom de artera mezenterica superioara,compresie duodenala prin artera mezenterica,sindrom Wilkie,obstructie duodenala vasculara,superior mesenteric artery syndrome,Wilkie syndrome,cast syndrome
+Sindrom de compresie celiaca,compresie a trunchiului celiac,durere abdominala prin compresie celiaca,sindrom Dunbar,celiac artery compression syndrome,median arcuate ligament syndrome,Dunbar syndrome
+Sindrom de flexura splenica,sindromul flexurii splenice,discomfort al flexurii splenice,deranjament al unghiului splenic,splenic flexure syndrome,derangement of the splenic flexure,left colonic flexure syndrome
+Sindrom de intestin iritabil cu diaree,colon iritabil diareic,diaree functionala cu dureri abdominale,colon iritabil predominant diareic,irritable bowel syndrome diarrhea predominant,IBS diarrhea subtype,diarrhea-predominant IBS
+Sindrom de intestin iritabil postinfectios,colon iritabil postinfectios,IBS postinfectios,tulburare intestinala functionala postinfectioasa,post-infectious irritable bowel syndrome,postinfectious IBS,post-infectious functional bowel disorder
+Sindrom de intestin scurt,intestin scurt,rezectie intestinala masiva,insuficienta intestinala,short bowel syndrome,short gut syndrome,intestinal failure
+Sindrom de intestin scurt postoperator,insuficienta intestinala postchirurgicala,intestin scurt dupa rezectie,rezectie intestinala extinsa,postoperative short bowel syndrome,surgical short bowel syndrome,post-resection intestinal failure
+Sindrom de vena cava inferioara,compresie de vena cava,obstructie a venei cave inferioare,tromboza de vena cava,inferior vena cava syndrome,inferior vena cava compression,vena cava obstruction
+Sindrom Dieulafoy gastric,leziune Dieulafoy gastrica,hemoragie prin leziune Dieulafoy,malformatie Dieulafoy la stomac,gastric Dieulafoy lesion,Dieulafoy lesion of the stomach,Dieulafoy vascular malformation of the stomach
+Sindrom Gardner,polipoza Gardner,polipoza coli cu tumori extraintestinale,boala Gardner,Gardner syndrome,gardner's syndrome,familial adenomatous polyposis with extracolonic tumors
+Sindrom Mallory-Weiss,ruptura Mallory-Weiss,ruptura mucoasei esogastrice,hemoragie prin ruptura esofagiana,Mallory-Weiss syndrome,mallory-weiss tear,esophagogastric mucosal laceration
+Sindrom Ogilvie,pseudo-obstructie intestinala acuta,pseudo-obstructie colica acuta,dilatatie acuta a colonului,Ogilvie syndrome,acute colonic pseudo-obstruction,acute intestinal pseudo-obstruction
+Sindrom Peutz-Jeghers,polipoza Peutz-Jeghers,pigmentare mucocutanata cu polipoza intestinala,polipoza hamartomatoasa intestinala,Peutz-Jeghers syndrome,peutz-jeghers polyposis,hamartomatous intestinal polyposis
+Sindrom Plummer-Vinson,disfagie sideropenica,sindrom Paterson-Kelly,disfagie cu anemie feripriva,Plummer-Vinson syndrome,Paterson-Kelly syndrome,sideropenic dysphagia
+Sindrom Zollinger-Ellison,sindromul Zollinger-Ellison,hipersecretie gastrica prin gastrinom,ulcer peptic refractar cu gastrinom,Zollinger-Ellison syndrome,Zollinger Ellison disease,gastrinoma syndrome
+Sindromul de pseudo-obstructie intestinala cronica,pseudo-obstructie intestinala cronica,obstructie intestinala cronica idiopatica,boala de motilitate intestinala cronica,chronic intestinal pseudo-obstruction,chronic idiopathic intestinal pseudo-obstruction,chronic intestinal dysmotility
+Sindromul de ulcere recidivante,boala ulceroasa recidivanta,ulcer recidivant,recidiva ulceroasa,recurrent ulcer disease,relapsing peptic ulcer,recurrent peptic ulceration
+Sinus pilonidal,boala pilonidala,chist pilonidal,fistula pilonidala,pilonidal sinus,pilonidal disease,pilonidal cyst
+Sobrecarga bacteriana intestinala,suprapopulare bacteriana intestinala,proliferare bacteriana in intestinul subtire,sindrom de proliferare bacteriana,small intestinal bacterial overgrowth,SIBO,bacterial overgrowth syndrome
+Somatostatinom,tumora cu somatostatina,somatostatinom pancreatic,sindrom somatostatinom,somatostatinoma,somatostatin-producing tumor,pancreatic somatostatinoma
+Spasme esofagiene difuze,spasm esofagian difuz,esofag in tirbuson,contractii esofagiene simultane,diffuse esophageal spasm,corkscrew esophagus,simultaneous esophageal contractions
+Splenomegalie,marirea splinei,splina marita,splenomegalia,splenomegaly,enlarged spleen,spleen enlargement
+Sprue tropical,diaree tropicala cu malabsorbtie,enteropatie tropicala,malabsorbtie tropicala,tropical sprue,tropical enteropathy,tropical malabsorption
+Stare postcolecistectomie,sindrom postcolecistectomie,sechele dupa colecistectomie,tulburari dupa indepartarea vezicii biliare,postcholecystectomy syndrome,post-cholecystectomy state,sequelae of cholecystectomy
+Steatohepatita nealcoolica,steatohepatita nonalcoolica,ficat gras inflamator,steatoza hepatica cu inflamatie,nonalcoholic steatohepatitis,NASH,fatty liver with inflammation
+Steatoza hepatica alcoolica,ficat gras alcoolic,steatoza alcoolica hepatica,degenerescenta grasa alcoolica a ficatului,alcoholic fatty liver,alcoholic hepatic steatosis,alcoholic fatty liver disease
+Stenoza de coledoc,stramtare de coledoc,strictura coledociana,ingustare a coledocului,common bile duct stricture,choledochal stenosis,bile duct stricture
+Stenoza de esofag cicatriceala,stenoza esofagiana postcaustica,strictura cicatriceala de esofag,stenoza de esofag prin arsura chimica,cicatricial esophageal stricture,post-caustic esophageal stenosis,scarring esophageal stricture
+Stenoza duodenala,stramtare duodenala,strictura duodenala,ingustare a duodenului,duodenal stenosis,stricture of the duodenum,duodenal narrowing
+Stenoza intestinala,stramtare intestinala,strictura intestinala,ingustare a intestinului,intestinal stenosis,stricture of the intestine,bowel stricture
+Stenoza intestinala congenitala,stenoza congenitala de intestin,stramtare intestinala din nastere,ingustare intestinala congenitala,congenital intestinal stenosis,stenosis of the intestine,birth intestinal narrowing
+Stomatita aftoasa recidivanta,afta recidivanta,stomatita aftoasa recurenta,ulceratii aftoase recidivante,recurrent aphthous stomatitis,recurrent aphthous ulcers,recurrent oral aphthae
+Stomatita gangrenoasa,stomatita necrozanta,noma,gangrena orala,gangrenous stomatitis,necrotizing stomatitis,cancrum oris
+Stomatita nicotinica,stomatita fumatorului,keratoza nicotinica,leziune bucala la fumatori,nicotinic stomatitis,smoker's palate,nicotine stomatitis
+Strongiloidoza,infestare cu Strongyloides,strongiloidoza intestinala,infectie cu Strongyloides stercoralis,strongyloidiasis,Strongyloides stercoralis infection,threadworm infection
+Telangiectazie intestinala,telangiectazii intestinale,ectazie vasculara intestinala,leziune vasculara intestinala,intestinal telangiectasia,telangiectasia of the intestine,intestinal vascular ectasia
+Toxocaroza,infestare cu Toxocara,larva migrans viscerala,boala larvei migratorii viscerale,toxocariasis,Toxocara infection,visceral larva migrans
+Tricobezoar,bezoar de par,tricobezoar gastric,corp strain din par in stomac,trichobezoar,hair bezoar,gastric trichobezoar
+Tricostrongilidoza,infestare cu Trichostrongylus,tricostrongiloza intestinala,infectie cu Trichostrongylus,trichostrongyliasis,Trichostrongylus infection,trichostrongylosis
+Tromboflebita de vena mezenterica,tromboza venei mezenterice,tromboza mezenterica,cheag in vena mezenterica,mesenteric vein thrombosis,thrombosis of the mesenteric vein,mesenteric venous thrombosis
+Tromboflebita hemoroidala,tromboza hemoroidala,hemoroid trombosat,criza hemoroidala trombotica,thrombosed hemorrhoid,hemorrhoidal thrombosis,thrombosis of a hemorrhoid
+Tromboza venei porta,tromboza portala,obstructie a venei porta,cheag in vena porta,portal vein thrombosis,thrombosis of the portal vein,pylethrombosis
+Tumora carcinoide,tumor carcinoide,tumora carcinoida,tumora celulelor enterocromafine,carcinoid tumor,carcinoid neoplasm,argentaffinoma
+Tumora desmoide,tumora desmoida,desmoid,fibromatoza agresiva,desmoid tumor,desmoid fibromatosis,aggressive fibromatosis
+Tumora neuroendocrina intestinala,tumora neuroendocrina digestiva,carcinoid intestinal,tumora endocrina gastrointestinala,intestinal neuroendocrine tumor,gastrointestinal neuroendocrine tumor,carcinoid tumor of the intestine
+Tumora neuroendocrina pancreatica,tumora neuroendocrina a pancreasului,tumora endocrina pancreatica,NET pancreatic,pancreatic neuroendocrine tumor,pancreatic neuroendocrine neoplasm,islet cell tumor
+Tumora stromala gastrointestinala,GIST,tumora stromala digestiva,tumora mezenchimala gastrointestinala,gastrointestinal stromal tumor,GIST tumor,gastrointestinal stromal neoplasm
+Ulc duodenal cronic,ulcer duodenal vechi,boala ulceroasa duodenala cronica,ulcer duodenal recidivant,chronic duodenal ulcer,long-standing duodenal ulcer,recurrent duodenal ulcer
+Ulc esofagian,ulcer esofagian,ulceratie esofagiana,leziune ulceroasa esofagiana,esophageal ulcer,ulcer of the esophagus,esophageal ulceration
+Ulc gastric cronic,ulcer gastric vechi,boala ulceroasa gastrica cronica,ulcer gastric recidivant,chronic gastric ulcer,long-standing gastric ulcer,recurrent gastric ulcer
+Ulc gastric hemoragic,ulcer gastric sangerand,hemoragie prin ulcer gastric,ulcer gastric complicat cu sangerare,bleeding gastric ulcer,hemorrhagic gastric ulcer,gastric ulcer with hemorrhage
+Ulc gastric perforat,perforatie de ulcer gastric,ulcer gastric cu perforatie,perforatie gastrica peptica,perforated gastric ulcer,gastric ulcer perforation,perforated peptic ulcer
+Ulcer solitar rectal,sindromul ulcerului solitar rectal,ulcer rectal solitar,proctita ulceroasa solitara,solitary rectal ulcer syndrome,solitary rectal ulcer,ulcerative proctitis of the rectum
+Varice esofagiene,varice esofagiene hemoragice,varice de esofag,varice esofagiene sangerande,esophageal varices,bleeding esophageal varices,esophageal variceal hemorrhage
+Varice gastrice,varice gastrice hemoragice,varice de stomac,varice gastrice sangerande,gastric varices,bleeding gastric varices,gastric variceal hemorrhage
+Volvulus gastric,volvulus al stomacului,rasucire a stomacului,volvulus gastric acut,gastric volvulus,volvulus of the stomach,twisted stomach
+Volvulus intestinal,volvulus al intestinului,rasucire intestinala,volvulus de intestin,intestinal volvulus,volvulus of the intestine,bowel volvulus
+Voma biliara,varsatura cu bila,voma verzuie,voma cu bila,bilious vomiting,bile vomiting,bilious emesis
+Xerostomie,gura uscata,uscaciune bucala,hiposalivatie,xerostomia,dry mouth,reduced salivary secretion

@@ -1,0 +1,168 @@
+Acrofobie,teama de inaltime,fobie de inaltime,teama de locuri inalte,acrophobia,fear of heights,height phobia
+Amnezie disociativa,amnezie psihogena,amnezie functionala,pierderea memoriei de cauza psihica,dissociative amnesia,psychogenic amnesia,functional amnesia
+Anxietate de sanatate,anxietate legata de sanatate,ingrijorare excesiva pentru sanatate,preocupare hipocondriaca,health anxiety,illness anxiety disorder,health-related anxiety
+Astenie neurocirculatora,nevroza cardiaca,astenie neurocirculatorie,sindrom neurocirculator,neurocirculatory asthenia,cardiac neurosis,da costa syndrome
+Aversiune sexuala,repulsie sexuala,dezinteres sexual marcat,aversiune fata de contact sexual,sexual aversion disorder,sexual aversion,aversion to sexual contact
+Boala Creutzfeldt-Jakob,dementa spongiforma,encefalopatie spongiforma subacuta,boala cu prioni,creutzfeldt-jakob disease,spongiform encephalopathy,prion disease
+Burnout,epuizare profesionala,sindrom de epuizare profesionala,oboseala cronica de la serviciu,burnout syndrome,occupational burnout,work-related exhaustion
+Ciclotimie,tulburare ciclotimica,ciclotimie afectiva,instabilitate afectiva cronica,cyclothymia,cyclothymic disorder,cyclothymic personality
+Claustrofobie,teama de spatii inchise,fobie de spatii inchise,teama de locuri inchise,claustrophobia,fear of enclosed spaces,closed space phobia
+Cleptomanie,mania furtului,tulburare de furt compulsiv,furt patologic,kleptomania,compulsive stealing,pathological stealing
+Confuzie mentala,stare confuzionala,dezorientare mentala,confuzie psihica,mental confusion,confusional state,disorientation
+Cosmar recurent,cosmaruri repetate,vis urat repetitiv,cosmar cu trezire din somn,recurrent nightmare,nightmare disorder,repeated nightmares
+Criza de identitate,criza existentiala,criza de identitate personala,confuzie privind identitatea personala,identity crisis,existential crisis,personal identity crisis
+Degenerescenta corticobazala,atrofie corticobazala,degenerescenta ganglionara corticobazala,sindrom corticobazal,corticobasal degeneration,corticobasal ganglionic degeneration,corticobasal syndrome
+Delir de gelozie,sindrom Othello,gelozie patologica,delir de infidelitate,delusional jealousy,othello syndrome,pathological jealousy
+Delir erotoman,erotomanie,sindrom Clerambault,delir de iubire,erotomania,clerambault syndrome,de clerambault syndrome
+Delir paranoid,delir de persecutie,tulburare paranoida cu delir,idei de persecutie,paranoid delusion,persecutory delusion,delusion of persecution
+Delirium,deler,stare confuzionala acuta,confuzie acuta cu dezorientare,delirium syndrome,acute confusional state,acute brain failure
+Delirium tremens,delir alcoolic,delirium tremens alcoolic,criza de sevraj alcoolic,alcoholic delirium,delirium tremens syndrome,alcohol withdrawal delirium
+Dementa alcoolica,dementa din alcoolism,dementa etilica,declin cognitiv prin alcool,alcoholic dementia,alcohol-related dementia,ethanol-induced dementia
+Dementa asociata bolii Parkinson,dementa parkinsoniana,dementa in boala Parkinson,declin cognitiv in boala Parkinson,parkinson disease dementia,dementia of parkinson type,parkinsonian dementia
+Dementa cu corpi Lewy,dementa cu corpusculi Lewy,boala difuza cu corpi Lewy,dementa Lewy,lewy body dementia,dementia with lewy bodies,lewy body disease
+Dementa frontotemporala,dementa frontala,dementa de lob frontal,boala Pick,frontotemporal dementia,pick disease,frontotemporal lobar degeneration
+Dementa la HIV,complexul dementa SIDA,dementa asociata SIDA,encefalopatie HIV,hiv-associated dementia,aids dementia complex,hiv encephalopathy
+Dementa mixta,dementa combinata,dementa vasculara si degenerativa,dementa cu cauze multiple,mixed dementia,combined dementia,mixed vascular and degenerative dementia
+Dementa posttraumatica,dementa dupa traumatism cranian,dementa postcoma,encefalopatie traumatica cronica,post-traumatic dementia,dementia due to head trauma,traumatic brain injury dementia
+Dementa vasculara,dementa prin infarcte multiple,dementa multiinfarct,encefalopatie vasculara cronica,vascular dementia,multi-infarct dementia,arteriosclerotic dementia
+Dementia pugilistica,encefalopatie traumatica a boxerului,dementa boxerului,sindrom posttraumatic al boxerului,boxer's dementia,punch-drunk syndrome,chronic traumatic brain injury
+Dependenta de amfetamine,dependenta de metanfetamina,toxicomanie cu amfetamine,adictie la amfetamine,amphetamine dependence,amphetamine addiction,methamphetamine use disorder
+Dependenta de benzodiazepine,dependenta de anxiolitice,toxicomanie cu benzodiazepine,adictie la benzodiazepine,benzodiazepine dependence,benzodiazepine addiction,benzodiazepine use disorder
+Dependenta de cafeina,intoxicatie cu cafeina,cafeinism,adictie la cafeina,caffeine dependence,caffeine intoxication,caffeine use disorder
+Dependenta de canabis,dependenta de marijuana,toxicomanie cu canabis,adictie la canabis,cannabis dependence,marijuana addiction,cannabis use disorder
+Dependenta de cocaina,cocainomanie,toxicomanie cu cocaina,adictie la cocaina,cocaine dependence,cocaine addiction,cocaine use disorder
+Dependenta de halucinogene,dependenta de LSD,toxicomanie cu halucinogene,adictie la psihedelice,hallucinogen dependence,lsd dependence,hallucinogen use disorder
+Dependenta de heroina,heroinomanie,toxicomanie cu heroina,adictie la heroina,heroin dependence,heroin addiction,heroin use disorder
+Dependenta de inhalante,dependenta de substante volatile,toxicomanie cu inhalante,abuz de solventi,inhalant dependence,volatile substance abuse,solvent abuse
+Dependenta de internet,adictie la internet,utilizare patologica a internetului,tulburare de joc pe internet,internet addiction,internet gaming disorder,problematic internet use
+Dependenta de opiacee,dependenta de opioide,toxicomanie cu opiacee,adictie la opioide,opioid dependence,opiate addiction,opioid use disorder
+Dependenta de sedative si hipnotice,dependenta de barbiturice,toxicomanie cu sedative,adictie la hipnotice,sedative hypnotic dependence,barbiturate dependence,sedative use disorder
+Depersonalizare,sindrom de depersonalizare,senzatie de irealitate fata de propria persoana,detasare de sine,depersonalization,depersonalization disorder,feeling of unreality about oneself
+Depresie agitata,depresie cu agitatie psihomotorie,melancolie agitata,depresie anxioasa agitata,agitated depression,depression with agitation,psychomotor agitated depression
+Depresie atipica,depresie cu reactivitate a dispozitiei,depresie hiperfaga,depresie cu somnolenta excesiva,atypical depression,atypical depressive disorder,reverse vegetative depression
+Depresie cu simptome somatice,depresie somatizata,depresie cu manifestari corporale,depresie mascata,somatic depression,depression with somatic symptoms,masked depression
+Depresie melancolica,depresie cu trasaturi melancolice,melancolie,depresie endogena,melancholic depression,melancholia,depression with melancholic features
+Depresie psihotica,depresie cu simptome psihotice,depresie deliranta,depresie halucinatorie,psychotic depression,depression with psychotic features,delusional depression
+Depresie rezistenta la tratament,depresie refractara,depresie fara raspuns la tratament,depresie rezistenta la antidepresive,treatment-resistant depression,refractory depression,antidepressant-resistant depression
+Derealizare,sindrom de derealizare,senzatie de irealitate a mediului,detasare de realitate,derealization,derealization disorder,feeling of unreality about the environment
+Dermatilomanie,tulburare de scarpinare a pielii,scarpinare compulsiva a pielii,leziuni cutanate autoinduse,excoriation disorder,skin picking disorder,dermatillomania
+Discalculie,tulburare de calcul matematic,dificultate la matematica,tulburare de aritmetica,dyscalculia,mathematics disorder,arithmetic learning disorder
+Disfunctie sexuala,tulburare sexuala,tulburari de functie sexuala,insuficienta sexuala,sexual dysfunction,sexual disorder,sexual function disorder
+Disgrafie,tulburare de scriere,dificultate de scriere,tulburare de expresie scrisa,dysgraphia,writing disorder,disorder of written expression
+Dislexie,tulburare de citire,dificultate de citire,tulburare specifica de lectura,dyslexia,reading disorder,developmental reading disorder
+Dispareunie,raport sexual dureros,durere la contactul sexual,durere vaginala la penetrare,dyspareunia,painful intercourse,genital pain during intercourse
+Dispraxie,tulburare de coordonare motorie,tulburare de dezvoltare a coordonarii,dificultate de coordonare la copil,dyspraxia,developmental coordination disorder,clumsy child syndrome
+Encefalopatie hepatica,encefalopatie porto-sistemica,come hepatic,asterixis prin insuficienta hepatica,hepatic encephalopathy,portosystemic encephalopathy,liver encephalopathy
+Encefalopatie metabolica,encefalopatie dismetabolica,disfunctie cerebrala metabolica,encefalopatie prin tulburari metabolice,metabolic encephalopathy,metabolic brain dysfunction,dysmetabolic encephalopathy
+Encefalopatie toxica,encefalopatie prin toxice,leziune cerebrala toxica,toxicitate cerebrala,toxic encephalopathy,toxic brain injury,toxic-metabolic encephalopathy
+Encefalopatie uremica,encefalopatie renala,encefalopatie din insuficienta renala,come uremic,uremic encephalopathy,renal encephalopathy,encephalopathy of kidney failure
+Encefalopatie Wernicke,boala Wernicke,sindrom Wernicke,polioencefalita hemoragica superioara,wernicke encephalopathy,wernicke disease,superior hemorrhagic polioencephalitis
+Encopreza,scaun involuntar,incontinenta fecala la copil,pierderea controlului scaunului,encopresis,fecal incontinence in children,soiling
+Episod maniacal,acces maniacal,mania acuta,episod de manie,manic episode,acute mania,manic attack
+Explozivitate intermitenta,tulburare exploziva intermitenta,crize de furie patologice,agresivitate impulsiva intermitenta,intermittent explosive disorder,explosive rage disorder,intermittent rage attacks
+Fobie de animale,zoofobie,teama de animale,fobie fata de animale,animal phobia,zoophobia,fear of animals
+Fobie sociala,anxietate sociala,tulburare de anxietate sociala,teama de oameni,social phobia,social anxiety disorder,social anxiety
+Fobie specifica,fobie simpla,fobie izolata,teama de un obiect sau situatie specifica,specific phobia,simple phobia,isolated phobia
+Fuga disociativa,fuga psihogena,fuga cu amnezie,calatorie cu amnezie,dissociative fugue,psychogenic fugue,fugue state
+Hemofobie,teama de sange,fobie de sange,teama de sange si injectii,hemophobia,blood phobia,fear of blood
+Hidrocefalie cu presiune normala,hidrocefalie normotensiva,hidrocefalie cu presiune normala la adult,hidrocefalie comunicanta cronica,normal pressure hydrocephalus,chronic communicating hydrocephalus,adult normotensive hydrocephalus
+Hipomanie,episod hipomaniacal,hipomanie usoara,stare hipomaniacala,hypomania,hypomanic episode,mild mania
+Intarziere mentala,deficienta mintala,handicap mental,insuficienta cognitiva,mental retardation,intellectual disability,cognitive impairment
+Intoxicatie acuta cu alcool,ebrietate acuta,stare de ebrietate alcoolica,alcoolizare acuta,acute alcohol intoxication,alcohol poisoning,alcohol intoxication
+Ipohondrie,hipocondrie,teama de boala grava,tulburare hipocondriaca,hypochondria,hypochondriasis,illness anxiety
+Joc patologic,joc compulsiv,joc problema,adictie comportamentala la jocuri,gambling addiction,problem gambling,compulsive gaming behaviour
+Ludopatia,dependenta de jocuri de noroc,joc de noroc compulsiv,joc de noroc patologic,pathological gambling,gambling disorder,compulsive gambling
+Manie cu simptome psihotice,manie deliranta,episod maniacal cu psihoza,manie halucinatorie,manic episode with psychotic features,psychotic mania,delirious mania
+Mutism selectiv,mutism electiv,mutism situational,refuz selectiv de a vorbi,selective mutism,elective mutism,situational mutism
+Neurastenie,nevroza astenica,epuizare nervoasa,astenie nervoasa,neurasthenia,nervous exhaustion,asthenic neurosis
+Nosofobie,teama de imbolnavire,frica de boli,teama de boli,nosophobia,fear of illness,sickness phobia
+Ortorexie,ortoarexie,obsesie pentru alimentatie sanatoasa,preocupare patologica pentru mancare sanatoasa,orthorexia,orthorexia nervosa,obsessive healthy eating
+Paralizie supranucleara progresiva,sindrom Steele-Richardson-Olszewski,oftalmoplegie supranucleara progresiva,atrofie coliculare,progressive supranuclear palsy,steele-richardson-olszewski syndrome,supranuclear palsy
+Parasomnie,tulburari de comportament in timpul somnului,parasomnii,miscari anormale in somn,sleep-related abnormal behaviour,arousal disorder,abnormal behaviour during sleep
+Personalitate antisociala,tulburare de personalitate antisociala,personalitate de tip antisocial,personalitate psihopatica,antisocial personality disorder,antisocial personality,psychopathic personality
+Personalitate borderline,tulburare de personalitate borderline,tulburare limita de personalitate,personalitate instabila emotional,borderline personality disorder,emotionally unstable personality disorder,borderline personality
+Personalitate dependenta,tulburare de personalitate dependenta,personalitate de tip dependent,personalitate pasiv-dependenta,dependent personality disorder,dependent personality,passive-dependent personality
+Personalitate evitanta,tulburare de personalitate evitanta,personalitate de tip evitant,personalitate anxioasa de evitare,avoidant personality disorder,avoidant personality,anxious avoidant personality
+Personalitate histrionica,tulburare de personalitate histrionica,personalitate de tip histrionic,personalitate dramatica,histrionic personality disorder,histrionic personality,dramatic personality disorder
+Personalitate imatura,tulburare de personalitate imatura,personalitate infantila,imaturitate afectiva,immature personality disorder,immature personality,infantile personality
+Personalitate masochista,tulburare de personalitate masochista,personalitate de tip masochist,masochism psihic,masochistic personality disorder,self-defeating personality disorder,masochistic personality
+Personalitate narcisica,tulburare de personalitate narcisica,personalitate de tip narcisic,narcisism patologic,narcissistic personality disorder,narcissistic personality,pathological narcissism
+Personalitate obsesiv-compulsiva,tulburare obsesiv-compulsiva de personalitate,personalitate anancasta,personalitate perfectionista,obsessive-compulsive personality disorder,anancastic personality disorder,obsessive-compulsive personality
+Personalitate paranoida,tulburare de personalitate paranoida,personalitate de tip paranoid,caracter paranoid,paranoid personality disorder,paranoid personality,paranoid character
+Personalitate pasiv-agresiva,tulburare de personalitate pasiv-agresiva,personalitate de tip pasiv-agresiv,comportament pasiv-agresiv patologic,passive-aggressive personality disorder,negativistic personality disorder,passive-aggressive personality
+Personalitate sadica,tulburare de personalitate sadica,personalitate de tip sadic,sadism psihic,sadistic personality disorder,sadistic personality,psychopathic sadism
+Personalitate schizoida,tulburare de personalitate schizoida,personalitate de tip schizoid,detasare afectiva schizoida,schizoid personality disorder,schizoid personality,schizoid character
+Personalitate schizotipala,tulburare de personalitate schizotipala,personalitate de tip schizotipal,excentricitate schizotipala,schizotypal personality,schizotypal personality traits,eccentric personality disorder
+Piromanie,mania aprinderii de foc,tulburare de incendiere patologica,incendiere compulsiva,pyromania,pathological fire setting,compulsive fire setting
+Pseudodementa,pseudodementa depresiva,dementa simulata prin depresie,tablou pseudodemential,pseudodementia,depressive pseudodementia,reversible dementia-like state
+Psihoza alcoolica,psihoza din alcoolism,halucinoza alcoolica,psihoza indusa de alcool,alcoholic psychosis,alcohol-induced psychosis,alcohol hallucinosis
+Psihoza comuna,folie a deux,tulburare psihotica partajata,psihoza de cuplu,shared psychosis,double insanity,communicated insanity
+Psihoza halucinatorie,psihoza cu halucinatii,halucinoza,halucinoza cronica,hallucinatory psychosis,chronic hallucinosis,psychosis with hallucinations
+Psihoza indusa,psihoza prin contagiu,tulburare psihotica indusa,psihoza indusa de o alta persoana,induced psychosis,shared psychotic disorder,induced delusional disorder
+Psihoza postpartum,psihoza puerperala,psihoza dupa nastere,psihoza post-partum,postpartum psychosis,puerperal psychosis,postnatal psychosis
+Psihoza reactiva,psihoza psihogena,psihoza situationala,reactie psihotica la stress,reactive psychosis,psychogenic psychosis,situational psychosis
+Reactie de doliu patologic,doliu patologic,doliu prelungit,tristete patologica de doliu,pathological grief reaction,prolonged grief disorder,complicated grief
+Retard mintal sever,deficienta mintala severa,intarziere mintala severa,handicap mental sever,severe mental retardation,severe intellectual disability,severe intellectual impairment
+Retard mintal usor,deficienta mintala usoara,intarziere mintala usoara,nivel intelectual limita,mild mental retardation,mild intellectual disability,borderline intellectual functioning
+Schizofrenie catatonica,catatonie schizofrenica,schizofrenie cu catatonie,stupor catatonic,catatonic schizophrenia,schizophrenia catatonic type,catatonic stupor
+Schizofrenie hebefrenica,schizofrenie dezorganizata,hebefrenie,schizofrenie de tip dezorganizat,hebephrenic schizophrenia,disorganized schizophrenia,hebephrenia
+Schizofrenie nediferentiata,schizofrenie atipica,schizofrenie de tip nediferentiat,schizofrenie fara subtip,undifferentiated schizophrenia,atypical schizophrenia,schizophrenia undifferentiated type
+Schizofrenie paranoida,schizofrenie de tip paranoid,schizofrenie cu deliruri,schizofrenie halucinatorie,paranoid schizophrenia,schizophrenia paranoid type,delusional schizophrenia
+Schizofrenie reziduala,schizofrenie in faza reziduala,schizofrenie cronica reziduala,defect schizofrenic rezidual,residual schizophrenia,schizophrenia residual type,chronic residual schizophrenia
+Schizofrenie simpla,schizofrenie cu simptome negative,schizofrenie deficitara,schizofrenie de tip simplu,simple schizophrenia,schizophrenia simple type,deficit schizophrenia
+Sindrom amnestic,sindrom amnezic,sindrom de amnezie organica,tulburare amnezica,amnestic syndrome,organic amnestic syndrome,amnesic syndrome
+Sindrom Asperger,tulburare Asperger,autism de inalta functionalitate,asperger,asperger syndrome,asperger's syndrome,asperger disorder
+Sindrom cerebral organic,psihoza organica,tulburare mentala organica,encefalopatie cronica organica,organic brain syndrome,organic mental disorder,chronic organic brain disease
+Sindrom de abstinenta alcoolica,sevraj alcoolic,abstinenta la alcool,intreruperea consumului de alcool,alcohol withdrawal,alcohol withdrawal syndrome,alcohol abstinence syndrome
+Sindrom de epuizare,epuizare nervoasa generala,sindrom de istovire,exhaustie psihofizica,exhaustion syndrome,general exhaustion,psychophysical exhaustion
+Sindrom fetal alcoolic,embriopatie alcoolica,efecte fetale ale alcoolului,spectrul tulburarilor fetale alcoolice,fetal alcohol syndrome,alcohol-related birth defects,alcoholic embryopathy
+Sindrom Ganser,sindromul raspunsurilor alaturi,psihoza Ganser,tulburare disociativa cu raspunsuri aproximative,ganser syndrome,approximate answers syndrome,nonsense syndrome
+Sindrom Korsakoff,psihoza Korsakoff,sindrom amnezic alcoolic,boala Korsakoff,korsakoff syndrome,korsakoff psychosis,alcoholic amnestic syndrome
+Sindrom Landau-Kleffner,afazie epileptica dobandita,afazie cu epilepsie,regresie de limbaj cu epilepsie,landau-kleffner syndrome,acquired epileptic aphasia,epileptic aphasia
+Sindrom Munchausen prin procuratie,tulburare factice prin procuratie,patomimie prin intermediar,simulare prin intermediul copilului,factitious disorder imposed on another,munchausen syndrome by proxy,illness falsification by proxy
+Sindrom postcomotional,sindrom post-traumatic cranian,sechele dupa traumatism cranian,encefalopatie posttraumatica,post-concussion syndrome,post-concussive syndrome,post-traumatic brain syndrome
+Sindrom Rett,tulburare Rett,atrofie cerebrala infantila Rett,regresie psihomotorie dupa varsta de 6 luni,rett syndrome,rett's syndrome,cerebroatrophic hyperammonemia
+Sindrom Wernicke-Korsakoff,encefalopatie Wernicke cu sindrom Korsakoff,psihoza polinevritica,boala Wernicke-Korsakoff,wernicke-korsakoff syndrome,wernicke-korsakoff psychosis,alcoholic encephalopathy with amnesia
+Sindromul picioarelor nelinistite,tulburare de miscare periodica a membrelor,neliniste in picioare seara,disestezie nocturna a membrelor,restless legs syndrome,willis-ekbom disease,nocturnal leg restlessness
+Stare mixta,episod mixt,stare maniaco-depresiva mixta,simptome maniacale si depresive simultane,mixed state,mixed episode,mixed affective episode
+Teroare nocturna,terori nocturne,spaima in somn,trezire brusca cu panica nocturna,night terror,sleep terror,pavor nocturnus
+Transsexualism,transsexualitate,dizforie de gen transexuala,schimbare de sex dorita,transsexuality,transgender identity,gender identity disorder of adulthood
+Tricotilomanie,tulburare de smulgere a parului,smulgerea compulsiva a parului,alopecie prin smulgere,trichotillomania,hair-pulling disorder,compulsive hair pulling
+Tulburare de acumulare,acumulare compulsiva,sindrom de acumulare patologica,colectare patologica de obiecte,hoarding disorder,compulsive hoarding,pathological collecting
+Tulburare de adaptare,tulburare reactiva de adaptare,reactie de adaptare la stres,ajustare dificila la schimbari,adjustment disorder,adjustment reaction,stress response syndrome
+Tulburare de adaptare cu dispozitie depresiva,tulburare de adaptare cu stare depresiva,reactie depresiva de adaptare,depresie reactiva situationala,adjustment disorder with depressed mood,adjustment disorder with depressive reaction,depressive adjustment reaction
+Tulburare de anxietate de separare,anxietate de separare,teama de separare de figura de atasament,anxietate de separare patologica,separation anxiety disorder,separation anxiety,pathological separation anxiety
+Tulburare de anxietate generalizata,anxietate generalizata patologica,anxietate cronica generalizata,anxietate difuza persistenta,chronic anxiety neurosis,anxiety neurosis,free-floating anxiety
+Tulburare de anxietate indusa de substante,anxietate indusa de substante,anxietate din sevraj,tulburare anxioasa toxica,substance-induced anxiety disorder,substance-induced anxiety,drug-induced anxiety
+Tulburare de atasament,tulburare de relationare afectiva,tulburare a atasamentului,atasament dezorganizat,attachment disorder,disinhibited attachment disorder,disinhibited social engagement disorder
+Tulburare de comportament alimentar nocturn,alimentatie nocturna patologica,hiperfagie nocturna,sindrom de alimentatie nocturna,night eating syndrome,nocturnal eating disorder,sleep-related eating disorder
+Tulburare de comportament in somnul REM,tulburare de comportament in faza REM,actiune a viselor in somn,miscari violente in somnul REM,rem sleep behavior disorder,rem sleep behaviour disorder,rapid eye movement sleep behaviour disorder
+Tulburare de conduita,tulburare de comportament la copil,comportament antisocial la copil,tulburare de conduita la adolescent,conduct disorder,childhood conduct disorder,antisocial behaviour disorder
+Tulburare de control al impulsurilor,tulburare de impulsivitate,deficit de autocontrol,impulsivitate patologica,impulse control disorder,impulse dyscontrol,disruptive impulse-control disorder
+Tulburare de conversie,tulburare conversiva,isterie de conversie,simptome neurologice functionale,conversion disorder,functional neurological symptom disorder,hysterical conversion
+Tulburare de durere somatoforma,durere somatoforma persistenta,tulburare somatoforma dureroasa,durere psihogena,somatoform pain disorder,persistent somatoform pain disorder,psychogenic pain disorder
+Tulburare de excitare,tulburare de excitare sexuala feminina,lipsa excitarii sexuale,insuficienta de lubrifiere,sexual arousal disorder,female sexual arousal disorder,lack of sexual arousal
+Tulburare de identitate de gen,disforie de gen,neconcordanta de gen,identitate de gen incongruenta,gender identity disorder,gender dysphoria,gender incongruence
+Tulburare de identitate disociativa,personalitate multipla,tulburare de personalitate multipla,dezordine de identitate disociativa,dissociative identity disorder,multiple personality disorder,split personality
+Tulburare de invatare,tulburare specifica de invatare,dificultati scolare specifice,tulburare de invatare scolara,learning disorder,specific learning disability,learning disability
+Tulburare de limbaj expresiv,tulburare expresiva de limbaj,afazie expresiva de dezvoltare,intarziere de limbaj expresiv,expressive language disorder,developmental expressive aphasia,expressive language impairment
+Tulburare de limbaj receptiv,tulburare receptiva de limbaj,afazie receptiva de dezvoltare,intarziere de intelegere a limbajului,receptive language disorder,developmental receptive aphasia,receptive language impairment
+Tulburare de opozitie sfidare,tulburare opozitionala,tulburare de opozitie si provocare,comportament opozitional la copil,oppositional defiant disorder,oppositional disorder,defiant behaviour disorder
+Tulburare de procesare auditiva,tulburare de procesare auditiva centrala,dificultate de procesare a sunetelor,tulburare auditiva centrala,auditory processing disorder,central auditory processing disorder,auditory processing difficulty
+Tulburare de somatizare,sindrom de somatizare,tulburare somatoforma cu somatizari,nevroza de organ,somatization disorder,briquet syndrome,somatoform disorder
+Tulburare de stres acut,reactie acuta la stres,stres acut traumatic,tulburare acuta de stres,acute stress disorder,acute stress reaction,acute traumatic stress
+Tulburare de tic motor persistent,tulburare cronica de tic motor,tics motorii cronici,tulburare de ticuri persistente,persistent motor tic disorder,chronic motor tic disorder,persistent tic disorder
+Tulburare de trance,tulburare de transa,stare de trance patologica,transa disociativa,trance disorder,dissociative trance disorder,pathological trance
+Tulburare deliranta,tulburare cu idei delirante,psihoza deliranta,parafrenie,delusional disorder,delusional psychosis,paraphrenia
+Tulburare disforica premenstruala,disforie premenstruala,tulburare premenstruala disforica,disforie lunara,premenstrual dysphoric disorder,premenstrual dysphoria,late luteal phase dysphoric disorder
+Tulburare dismorfica corporala,dismorfofobie,teama de deformare corporala,preocupare patologica pentru un defect fizic,body dysmorphic disorder,body dysmorphia,dysmorphophobia
+Tulburare factice,sindrom Munchausen,tulburare factice cu simptome fizice,patomimie,factitious disorder,munchausen syndrome,hospital addiction
+Tulburare halucinatorie,halucinoza organica,tulburare cu halucinatii persistente,halucinatii patologice,hallucinatory disorder,organic hallucinosis,persistent hallucinosis
+Tulburare obsesiv-compulsiva,obsesie compulsie,tulburare obsesiva,nevroza obsesiva,obsessive-compulsive disorder,ocd,anancastic disorder
+Tulburare organica afectiva,tulburare afectiva organica,depresie organica,manie organica,organic affective disorder,organic mood disorder,mood disorder due to brain disease
+Tulburare organica de personalitate,modificare organica de personalitate,personalitate modificata organic,sindrom organic de personalitate,organic personality disorder,organic personality change,personality change due to brain disease
+Tulburare psihotica acuta,psihoza acuta,psihoza acuta polimorfa,bouffee delirante,acute psychotic disorder,acute polymorphic psychosis,acute delusional psychosis
+Tulburare reactiva de atasament,tulburare de atasament reactiv,atasament reactiv patologic,retragere emotionala la copil,reactive attachment disorder of infancy,reactive attachment disorder,attachment disorder of infancy
+Tulburare schizoafectiva,psihoza schizoafectiva,schizofrenie cu simptome afective,schizoafectivitate,schizoaffective disorder,schizoaffective psychosis,schizoaffective schizophrenia
+Tulburare schizotipala,schizotipie,tulburare de tip schizotipal,dezorganizare schizotipala,schizotypal disorder,schizotypal personality disorder,schizotypy
+Vaginism,contractura reflexa a muschilor vaginali,contractura vaginala involuntara,spasm al muschilor vaginali,vaginismus,vaginal spasm,involuntary vaginal contraction

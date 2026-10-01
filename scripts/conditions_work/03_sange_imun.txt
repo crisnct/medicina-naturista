@@ -1,0 +1,180 @@
+Afibrinogenemie,afibrinogenemie congenitala,absenta fibrinogenului,deficit total de fibrinogen,afibrinogenemia,congenital afibrinogenemia,fibrinogen absence
+Agammaglobulinemie,agammaglobulinemie primara,absenta anticorpilor,deficit total de gamaglobuline,agammaglobulinemia,absence of gamma globulins,antibody deficiency disorder
+Amiloidoza ATTR,amiloidoza cu transtiretina,amiloidoza cardiaca senila,amiloidoza senila sistemica,ATTR amyloidosis,transthyretin amyloidosis,senile cardiac amyloidosis
+Anemie de cauza necunoscuta,anemie criptogenetica,anemie fara cauza identificata,anemie de etiologie neprecizata,anemia of unknown cause,cryptogenic anemia,anemia of undetermined cause
+Aplasia eritrocitara pura,aplazia eritrocitara,eritroblastopenie cronica,aplazie cronica de serie rosie,pure red cell aplasia,erythroid aplasia,chronic erythroblastopenia
+Asplenie,lipsa splinei,absenta splinei,asplenie functionala,asplenia,absence of the spleen,functional asplenia
+Ataxie telangiectatica,sindrom Louis-Bar,degenerescenta cerebelo-oculocutana,ataxie cu telangiectazii,ataxia-telangiectasia,Louis-Bar syndrome,ataxia telangiectasia syndrome
+Bazofilie,bazofilie periferica,numar crescut de bazofile,cresterea bazofilelor,basophilia,high basophil count,increased basophils
+Boala Bruton,agammaglobulinemie legata de X,agammaglobulinemie congenitala,deficit de bruton tirosin kinaza,Bruton disease,X-linked agammaglobulinemia,Bruton agammaglobulinemia
+Boala Castleman,hiperplazie limfonodulara angiofoliculara,limfoproliferare angiofoliculara,hiperplazie ganglionara giganta,Castleman disease,angiofollicular lymph node hyperplasia,giant lymph node hyperplasia
+Boala Franklin,boala lanturilor grele,gamapatie cu lanturi grele,boala lantului greu alfa,heavy chain disease,Franklin disease,heavy chain gammopathy
+Boala Glanzmann,trombastenie,deficit de glicoproteina IIb IIIa,trombastenie hemoragipara,Glanzmann thrombasthenia,Glanzmann disease,glycoprotein IIb IIIa deficiency
+Boala granulomatoasa cronica,granulomatoza cronica septica,boala granulomatoasa a copilului,deficit de NADPH oxidaza,chronic granulomatous disease,fatal granulomatous disease of childhood,NADPH oxidase deficiency
+Boala hemoglobinei C,hemoglobinopatia C,boala HbC,anemie hemolitica prin hemoglobina C,hemoglobin C disease,haemoglobin C disease,HbC disease
+Boala hemoglobinei D,hemoglobinopatia D,boala HbD,hemoglobina D anormala,hemoglobin D disease,haemoglobin D disease,HbD disease
+Boala hemoglobinei E,hemoglobinopatia E,boala HbE,hemoglobina E anormala,hemoglobin E disease,haemoglobin E disease,HbE disease
+Boala hemoglobinei H,hemoglobinopatia H,boala HbH,anemie cu hemoglobina H,hemoglobin H disease,haemoglobin H disease,HbH disease
+Boala hemolitica a nou-nascutului,eritroblastoza fetala,izoimunizare Rh,boala hemolitica perinatala,hemolytic disease of the newborn,erythroblastosis fetalis,Rh isoimmunization
+Boala hemoragica a nou-nascutului,boala hemoragica neonatala,hemoragie prin carenta de vitamina K,melena neonatala,hemorrhagic disease of the newborn,vitamin K deficiency bleeding of the newborn,newborn hemorrhagic disease
+Boala Kikuchi,limfadenita necrozanta histiocitara,boala Kikuchi-Fujimoto,limfadenita necrozanta febrila,Kikuchi disease,Kikuchi-Fujimoto disease,histiocytic necrotizing lymphadenitis
+Boala limfoproliferativa legata de X,sindrom Duncan,boala Duncan,limfoproliferare legata de cromozomul X,X-linked lymphoproliferative disease,Duncan disease,X-linked lymphoproliferative syndrome
+Boala limfoproliferativa post-transplant,limfoproliferare post-transplant,sindrom limfoproliferativ post-transplant,boala limfoproliferativa dupa transplant,post-transplant lymphoproliferative disorder,post-transplant lymphoproliferation,PTLD
+Boala Rosai-Dorfman,histiocitoza sinusala cu limfadenopatie masiva,limfadenopatia masiva cu histiocitoza sinusala,histiocitoza sinusala,Rosai-Dorfman disease,sinus histiocytosis with massive lymphadenopathy,SHML
+Boala Shwachman-Diamond,sindrom Shwachman-Diamond,insuficienta pancreatica cu neutropenie,neutropenie cu insuficienta pancreatica,Shwachman-Diamond syndrome,Shwachman syndrome,pancreatic insufficiency with neutropenia
+Boala von Willebrand,boala Willebrand,sindrom von Willebrand,angiohemofilie,von Willebrand disease,von Willebrand syndrome,angiohemophilia
+Boala von Willebrand tip 1,boala von Willebrand clasica,deficit partial de factor von Willebrand,boala von Willebrand usoara,von Willebrand disease type 1,classic von Willebrand disease,partial von Willebrand factor deficiency
+Boala von Willebrand tip 2,boala von Willebrand cu defect functional,defect calitativ al factorului von Willebrand,boala von Willebrand tip II,von Willebrand disease type 2,qualitative von Willebrand factor defect,variant von Willebrand disease
+Boala von Willebrand tip 3,boala von Willebrand severa,deficit total de factor von Willebrand,boala von Willebrand tip III,von Willebrand disease type 3,severe von Willebrand disease,complete von Willebrand factor deficiency
+Boala Waldenstrom,macroglobulinemie Waldenstrom,macroglobulinemie primara,limfom limfoplasmocitic,Waldenstrom macroglobulinemia,Waldenstrom disease,primary macroglobulinemia
+Chist splenic,chist de splina,chisturi splenice,chist splenic congenital,splenic cyst,spleen cyst,cyst of the spleen
+Citopenie,citopenie periferica,scaderea numarului de celule sanguine,deficit de celule sanguine,cytopenia,peripheral cytopenia,blood cell deficiency
+Coagulare intravasculara diseminata,coagulopatie de consum,sindrom de defibrinare,coagulare intravasculara generalizata,disseminated intravascular coagulation,consumption coagulopathy,DIC
+Coagulopatie dobandita,tulburare dobandita de coagulare,diatesa hemoragica dobandita,coagulopatie secundara,acquired coagulopathy,acquired coagulation disorder,acquired bleeding disorder
+Crioglobulinemie,crioglobuline in sange,vasculita crioglobulinemica,purpura crioglobulinemica,cryoglobulinemia,cryoglobulinaemia,cryoglobulinemic vasculitis
+Deficit de acid folic,carenta de folat,hipovitaminoza B9,lipsa acidului folic,folate deficiency,folic acid deficiency,vitamin B9 deficiency
+Deficit de adenozin deaminaza,deficit de ADA,imunodeficienta prin deficit de ADA,carenta de adenozin deaminaza,adenosine deaminase deficiency,ADA deficiency,ADA-SCID
+Deficit de adeziune leucocitara,sindrom de aderenta leucocitara,boala cu deficit de integrine,deficit de CD18,leukocyte adhesion deficiency,leucocyte adhesion defect,CD18 deficiency
+Deficit de alfa-2 antiplasmina,deficienta de alfa-2 antiplasmina,hemoragie prin deficit de antiplasmina,deficit de antiplasmina,alpha-2 antiplasmin deficiency,antiplasmin deficiency,bleeding due to antiplasmin deficiency
+Deficit de antitrombina III,deficit de antitrombina,deficienta de antitrombina III,trombofilie prin deficit de antitrombina,antithrombin III deficiency,antithrombin deficiency,inherited antithrombin deficiency
+Deficit de complement,deficienta de complement,carenta de fractiuni complementare,deficit de componente ale complementului,complement deficiency,complement component deficiency,deficiency of the complement system
+Deficit de factor II,deficit de protrombina,hipoprotrombinemie,deficit congenital de protrombina,prothrombin deficiency,factor II deficiency,hypoprothrombinemia
+Deficit de factor V,deficienta de factor V,boala Owren,parahemofilie,factor V deficiency,Owren disease,parahemophilia
+Deficit de factor VII,deficienta de factor VII,hipoproconvertinemie,deficit congenital de factor VII,factor VII deficiency,hypoproconvertinemia,proconvertin deficiency
+Deficit de factor X,deficienta de factor X,boala Stuart-Prower,deficit de factor Stuart,factor X deficiency,Stuart-Prower factor deficiency,Stuart factor deficiency
+Deficit de factor XII,deficienta de factor XII,boala Hageman,deficit de factor Hageman,factor XII deficiency,Hageman factor deficiency,Hageman trait
+Deficit de factor XIII,deficienta de factor XIII,deficit de factor stabilizator al fibrinei,boala Laki-Lorand,factor XIII deficiency,fibrin stabilizing factor deficiency,Laki-Lorand factor deficiency
+Deficit de fibrinogen,hipofibrinogenemie,deficit congenital de fibrinogen,fibrinogen scazut,fibrinogen deficiency,hypofibrinogenemia,congenital fibrinogen deficiency
+Deficit de mieloperoxidaza,carenta de mieloperoxidaza,deficit enzimatic leucocitar,deficit de MPO,myeloperoxidase deficiency,MPO deficiency,leucocyte enzyme deficiency
+Deficit de plasminogen,deficienta de plasminogen,trombofilie prin deficit de plasminogen,hipoplasminogenemie,plasminogen deficiency,hypoplasminogenemia,plasminogen deficiency thrombophilia
+Deficit de proteina C,deficienta de proteina C,trombofilie prin deficit de proteina C,deficit congenital de proteina C,protein C deficiency,hereditary protein C deficiency,protein C deficiency thrombophilia
+Deficit de proteina S,deficienta de proteina S,trombofilie prin deficit de proteina S,deficit congenital de proteina S,protein S deficiency,hereditary protein S deficiency,protein S deficiency thrombophilia
+Deficit de subclase IgG,deficit de imunoglobulina G,deficit partial de IgG,deficit izolat de subclasa IgG,IgG subclass deficiency,immunoglobulin G deficiency,selective IgG subclass deficiency
+Deficit de vitamina K,carenta de vitamina K,hipovitaminoza K,lipsa vitaminei K,vitamin K deficiency,hypovitaminosis K,vitamin K deficiency state
+Deficit selectiv de IgA,deficit de imunoglobulina A,carenta de IgA,deficit izolat de IgA,selective IgA deficiency,IgA deficiency,isolated IgA deficiency
+Diatesa hemoragica,sindrom hemoragipar,stare hemoragipara,predispozitie la sangerare,hemorrhagic diathesis,bleeding diathesis,hemorrhagic tendency
+Disfibrinogenemie,disfibrinogenemie congenitala,fibrinogen anormal,deficit calitativ de fibrinogen,dysfibrinogenemia,congenital dysfibrinogenemia,abnormal fibrinogen
+Diskeratoza congenitala,sindrom Zinsser-Cole-Engman,diskeratoza congenitala cu pancitopenie,diskeratoza ereditara,dyskeratosis congenita,Zinsser-Cole-Engman syndrome,inherited dyskeratosis
+Eozinofilie,eozinofilie periferica,numar crescut de eozinofile,cresterea eozinofilelor,eosinophilia,peripheral eosinophilia,high eosinophil count
+Eozinofilie pulmonara,pneumonie eozinofilica,infiltrat pulmonar eozinofilic,boala pulmonara eozinofilica,pulmonary eosinophilia,eosinophilic pneumonia,eosinophilic lung disease
+Eritroblastopenia tranzitorie a copilariei,aplazie eritrocitara tranzitorie,anemie hiporegenerativa tranzitorie a copilului,eritroblastopenie tranzitorie,transient erythroblastopenia of childhood,transient red cell aplasia of childhood,TEC
+Eritrocitoza,eritrocitoza absoluta,numar crescut de eritrocite,hematocrit crescut,erythrocytosis,absolute erythrocytosis,high red blood cell count
+Eritromelalgie,boala Mitchell,eritermalgie,dureri arzatoare ale extremitatilor,erythromelalgia,Mitchell disease,erythermalgia
+Fibrinoliza primara,hiperfibrinoliza,fibrinoliza excesiva,sindrom de fibrinoliza crescuta,primary fibrinolysis,hyperfibrinolysis,increased fibrinolysis
+Gammapatie monoclonala,gamapatie monoclonala,imunoglobulina monoclonala crescuta,paraproteinemie,monoclonal gammopathy,paraproteinemia,monoclonal immunoglobulin disorder
+Gammapatie monoclonala de semnificatie nedeterminata,gamapatie monoclonala benigna,gamapatie monoclonala asimptomatica,gamapatie monoclonala de sens necunoscut,monoclonal gammopathy of undetermined significance,MGUS,benign monoclonal gammopathy
+Granulomatoza cu celule gigante,granulom gigantocelular,granulomatoza gigantocelulara,granulom central cu celule gigante,giant cell granulomatosis,giant cell granuloma,central giant cell granuloma
+Granulomatoza eozinofilica cu poliangeita,sindrom Churg-Strauss,angiita eozinofilica granulomatoasa,vasculita eozinofilica,eosinophilic granulomatosis with polyangiitis,Churg-Strauss syndrome,allergic granulomatosis
+Hematopoieza extramedulara,hemopoieza extramedulara,hematopoieza ectopica,focare extramedulare de hematopoieza,extramedullary hematopoiesis,extramedullary haemopoiesis,ectopic hematopoiesis
+Hemofilie A,hemofilie clasica,deficienta de factor VIII,hemofilie prin deficit de factor VIII,hemophilia A,classic hemophilia,factor VIII deficiency
+Hemofilie B,boala Christmas,deficienta de factor IX,hemofilie prin deficit de factor IX,hemophilia B,Christmas disease,factor IX deficiency
+Hemofilie C,deficienta de factor XI,hemofilie prin deficit de factor XI,sindrom Rosenthal,hemophilia C,factor XI deficiency,Rosenthal syndrome
+Hemofilie dobandita,hemofilie autoimuna,hemofilie cu inhibitor de factor VIII,hemofilie prin autoanticorpi,acquired hemophilia,acquired haemophilia,acquired factor VIII inhibitor
+Hemoglobinopatie,hemoglobinopatie ereditara,hemoglobina anormala,hemoglobinopatie congenitala,hemoglobinopathy,haemoglobinopathy,abnormal hemoglobin disease
+Hemoglobinurie,hemoliza urinara,hemoglobina in urina,eliminare de hemoglobina prin urina,hemoglobinuria,haemoglobinuria,hemoglobin in urine
+Hemoglobinurie de efort,hemoglobinurie de mars,hemoglobinurie la alergatori,hemoliza de efort,march hemoglobinuria,exertional hemoglobinuria,exercise-induced hemoglobinuria
+Hemoglobinurie paroxistica la rece,hemoglobinurie a frigului,hemoglobinurie paroxistica la expunerea la frig,boala Donath-Landsteiner,cold hemoglobinuria,paroxysmal cold hemoglobinuria,Donath-Landsteiner syndrome
+Hemoglobinurie paroxistica nocturna,boala Marchiafava-Micheli,sindrom Marchiafava-Micheli,hemoglobinurie matinala,paroxysmal nocturnal hemoglobinuria,paroxysmal nocturnal haemoglobinuria,Marchiafava-Micheli syndrome
+Hemoliza acuta,hemoliza intravasculara,criza hemolitica,hemoliza acuta tranzitorie,acute hemolysis,intravascular hemolysis,hemolytic crisis
+Hipergamaglobulinemie,cresterea gamaglobulinelor,hiperimunoglobulinemie,hipergamaglobulinemie policlonala,hypergammaglobulinemia,increased gamma globulins,polyclonal hypergammaglobulinemia
+Hiperhomocisteinemie,homocisteina crescuta,homocisteinemie crescuta,hiperhomocisteinemie severa,hyperhomocysteinemia,elevated homocysteine,high homocysteine
+Hipersplenism,hiperfunctie splenica,sindrom hipersplenic,hiperactivitate splenica,hypersplenism,splenic hyperfunction,overactive spleen
+Hipogamaglobulinemie,scaderea gamaglobulinelor,deficit de gamaglobuline,gamaglobuline scazute,hypogammaglobulinemia,decreased gamma globulins,low gammaglobulin
+Hiposplenism,functie splenica scazuta,splina hipofunctionala,hipofunctie splenica,hyposplenism,reduced splenic function,hypofunction of the spleen
+Histiocitoza cu celule Langerhans,histiocitoza X,granulomatoza cu celule Langerhans,histiocitoza langerhansiana,Langerhans cell histiocytosis,histiocytosis X,Langerhans cell granulomatosis
+Histiocitoza maligna,histiocitoza cu celule dendritice,sarcom histiocitic,histiocitoza maligna sistemica,malignant histiocytosis,histiocytic sarcoma,dendritic cell sarcoma
+Imunodeficienta severa combinata,deficit imunitar sever combinat,imunodeficienta combinata severa,agammaglobulinemie severa combinata,severe combined immunodeficiency,SCID,severe combined immune deficiency
+Imunodeficienta variabila comuna,imunodeficienta comuna variabila,deficit variabil de anticorpi,imunodeficienta adultului,common variable immunodeficiency,CVID,common variable immune deficiency
+Imunodeficiente primare,imunodeficiente congenitale,deficite imunologice ereditare,imunodeficiente ereditare,primary immunodeficiencies,congenital immunodeficiencies,inherited immune deficiencies
+Imunodeficiente secundare,imunodeficiente dobandite,deficite imune secundare,imunodeficiente asociate bolilor,secondary immunodeficiencies,secondary immune deficiency,acquired immune deficiency
+Infarct splenic,infarct de splina,necroza splenica,obliterare arteriala splenica,splenic infarction,splenic infarct,infarction of the spleen
+Insuficienta medulara,insuficienta maduvei osoase,sindrom de insuficienta medulara,insuficienta hematopoietica,bone marrow failure,bone marrow failure syndrome,marrow failure
+Leucocitoza,hiperleucocitoza,numar crescut de leucocite,cresterea globulelor albe,leukocytosis,high white blood cell count,increased white blood cells
+Leucopenia,leucopenia periferica,numar scazut de leucocite,scaderea globulelor albe,leukopenia,low white blood cell count,decreased white blood cells
+Limfocitoza,limfocitoza periferica,numar crescut de limfocite,cresterea limfocitelor,lymphocytosis,high lymphocyte count,increased lymphocytes
+Limfohistiocitoza hemofagocitara,limfohistiocitoza hemofagocitara familiala,sindrom hemofagocitic,boala hemofagocitara,hemophagocytic lymphohistiocytosis,HLH,hemophagocytic syndrome
+Limfopenie,limfopenie periferica,numar scazut de limfocite,scaderea limfocitelor,lymphopenia,low lymphocyte count,lymphocytopenia
+Lupus anticoagulant,anticoagulant lupic,anticoagulant circulant,inhibitor de tip lupus,lupus inhibitor,circulating anticoagulant,lupus anticoagulant antibody
+Mastocitoza,mastocitoza sistemica,boala mastocitara,proliferare de mastocite,mastocytosis,systemic mastocytosis,mast cell disease
+Mastocitoza cutanata,mastocitoza cutanata difuza,mastocitom cutanat,mastocitoza pielii,cutaneous mastocytosis,urticaria pigmentosa,skin mastocytosis
+Metaplazie mieloida,mieloza splenica,splenomegalie mieloida,metaplazie mieloida idiopatica,myeloid metaplasia,splenic myelosis,agnogenic myeloid metaplasia
+Methemoglobinemie,methemoglobinemie congenitala,methemoglobina crescuta in sange,methemoglobinemie toxica,methemoglobinemia,congenital methemoglobinemia,elevated methemoglobin
+Mielodisplazie,sindrom mielodisplazic,displazie medulara,hematopoieza displazica,myelodysplastic syndrome,myelodysplasia,MDS
+Mielodisplazie secundara,sindrom mielodisplazic secundar,mielodisplazie indusa de tratament,mielodisplazie postchimioterapie,secondary myelodysplastic syndrome,therapy-related myelodysplasia,treatment-related myeloid neoplasm
+Mielofibroza,fibroza maduvei osoase,mieloscleroza,mielofibroza primara,myelofibrosis,bone marrow fibrosis,primary myelofibrosis
+Mieloftizie,mieloftizie anemica,insuficienta medulara prin invazie,metastaze medulare cu citopenie,myelophthisis,myelophthisic anemia,bone marrow infiltration
+Mielosupresie,supresie medulara,deprimare medulara,mielodepresie,myelosuppression,bone marrow suppression,bone marrow toxicity
+Monocitopenie,monocitopenie periferica,numar scazut de monocite,scaderea monocitelor,monocytopenia,low monocyte count,decreased monocytes
+Monocitoza,monocitoza periferica,numar crescut de monocite,cresterea monocitelor,monocytosis,high monocyte count,increased monocytes
+Mutatia factorului V Leiden,rezistenta la proteina C activata,mutatia Leiden a factorului V,trombofilie prin factor V Leiden,factor V Leiden mutation,activated protein C resistance,factor V Leiden thrombophilia
+Neurosarcoidoza,sarcoidoza neurologica,sarcoidoza a sistemului nervos,neurosarcoidoza sistemica,neurosarcoidosis,neurological sarcoidosis,sarcoidosis of the nervous system
+Neutrofilie,neutrofilie periferica,numar crescut de neutrofile,cresterea neutrofilelor,neutrophilia,high neutrophil count,increased neutrophil count
+Neutropenie,neutropenie periferica,numar scazut de neutrofile,scaderea neutrofilelor,neutropenia,low neutrophil count,decreased neutrophil count
+Neutropenie autoimuna,neutropenie imuna,neutropenie prin autoanticorpi,neutropenie autoimuna primara,autoimmune neutropenia,immune neutropenia,autoimmune neutropenia of infancy
+Neutropenie ciclica,neutropenie periodica,agranulocitoza ciclica,neutropenie ciclica congenitala,cyclic neutropenia,periodic neutropenia,cyclic agranulocytosis
+Neutropenie congenitala,neutropenie ereditara,neutropenie constitutionala,neutropenie genetica,congenital neutropenia,hereditary neutropenia,constitutional neutropenia
+Neutropenie cronica benigna,neutropenie benigna a copilariei,neutropenie cronica idiopatica,neutropenie cronica a adultului,chronic benign neutropenia,benign neutropenia of childhood,chronic idiopathic neutropenia
+Neutropenie febrila,neutropenie cu febra,febra neutropenica,episod febril neutropenic,febrile neutropenia,neutropenic fever,fever with neutropenia
+Pancitopenie,pancitopenie periferica,scaderea tuturor seriilor sanguine,citopenie globala,pancytopenia,reduction of all blood cell lines,global cytopenia
+Persistenta ereditara de hemoglobina fetala,hemoglobina F persistenta,persistenta hemoglobinei fetale,HPFH,hereditary persistence of fetal hemoglobin,hereditary persistence of fetal haemoglobin,fetal hemoglobin persistence
+Plasmocitom,plasmocitom osos solitar,mielom solitar,plasmocitom extramedular,plasmacytoma,solitary plasmacytoma,solitary myeloma
+Policitemie,policitemie absoluta,cresterea masei eritrocitare,hemoconcentratie,polycythemia,polycythaemia,raised red cell mass
+Policitemie secundara,policitemie reactiva,eritrocitoza secundara,policitemie de cauza hipoxica,secondary polycythemia,secondary erythrocytosis,reactive polycythemia
+Policitemie vera,policitemia rubra vera,boala Vaquez,policitemie primara,polycythemia vera,polycythaemia rubra vera,Vaquez disease
+Purpura fulminans,purpura necrotica,purpura gangrenoasa,purpura fulminans neonatala,fulminant purpura,necrotizing purpura,purpura gangrenosa
+Purpura Henoch-Schonlein,vasculita IgA,vasculita cu IgA,purpura anafilactoida,Henoch-Schonlein purpura,IgA vasculitis,anaphylactoid purpura
+Purpura hiperglobulinemica,purpura Waldenstrom,purpura benigna hiperglobulinemica,purpura hiperglobulinemica secundara,hyperglobulinemic purpura,Waldenstrom purpura,benign hyperglobulinemic purpura
+Purpura senila,purpura Bateman,purpura actinica,echimoze senile,senile purpura,actinic purpura,Bateman purpura
+Purpura trombocitopenica trombotica,sindrom Moschcowitz,boala Moschcowitz,purpura trombotica trombocitopenica,thrombotic thrombocytopenic purpura,TTP,Moschcowitz syndrome
+Reactie hemolitica transfuzionala,hemoliza posttransfuzionala,incompatibilitate transfuzionala,reactie transfuzionala prin hemoliza,hemolytic transfusion reaction,transfusion hemolysis,blood transfusion incompatibility
+Reactie leucemoida,reactie leucemoida neutrofilica,leucocitoza reactiva extrema,reactie leucemoida limfocitara,leukemoid reaction,leukaemoid reaction,extreme reactive leukocytosis
+Reticulohistiocitoza,reticulohistiocitoza multicentrica,reticulohistiocitom cutanat,reticulohistiocitoza articulara,reticulohistiocytosis,multicentric reticulohistiocytosis,reticulohistiocytoma
+Ruptura de splina,ruptura splenica,ruptura traversei splinei,lezare splenica traumatica,splenic rupture,rupture of the spleen,traumatic splenic rupture
+Sarcoidoza cardiaca,sarcoidoza miocardica,sarcoidoza cu afectare cardiaca,boala sarcoidozica a inimii,cardiac sarcoidosis,myocardial sarcoidosis,sarcoid heart disease
+Sarcoidoza cu implicare hematologica,sarcoidoza cu afectare sanguina,sarcoidoza cu citopenie,sarcoidoza hematologica,sarcoidosis with hematologic involvement,sarcoidosis with blood involvement,hematological sarcoidosis
+Sarcoidoza cutanata,sarcoidoza pielii,lupus pernio,sarcoidoza cutanata nodulara,cutaneous sarcoidosis,skin sarcoidosis,sarcoidosis of the skin
+Sarcoidoza ganglionara,sarcoidoza limfatica,adenopatia sarcoidozica,sarcoidoza cu adenopatii,lymph node sarcoidosis,sarcoid lymphadenopathy,nodal sarcoidosis
+Sarcoidoza hepatica,sarcoidoza ficatului,granulomatoza sarcoidozica hepatica,sarcoidoza cu afectare hepatica,hepatic sarcoidosis,liver sarcoidosis,sarcoidosis of the liver
+Sarcoidoza oculara,sarcoidoza cu afectare oculara,uveita sarcoidozica,iridociclita sarcoidozica,ocular sarcoidosis,sarcoid uveitis,sarcoidosis of the eye
+Sarcoidoza osoasa,sarcoidoza oaselor,sarcoidoza cu afectare osoasa,sarcoidoza scheletica,bone sarcoidosis,osseous sarcoidosis,sarcoidosis of bone
+Sarcoidoza renala,sarcoidoza rinichiului,nefropatie sarcoidozica,sarcoidoza cu afectare renala,renal sarcoidosis,sarcoidosis of the kidney,sarcoid nephropathy
+Sarcoidoza splenica,sarcoidoza splinei,sarcoidoza cu afectare splenica,splenita granulomatoasa,splenic sarcoidosis,sarcoidosis of the spleen,granulomatous splenitis
+Sindrom antifosfolipidic,sindrom Hughes,boala antifosfolipidica,sindrom antifosfolipidic primar,antiphospholipid syndrome,Hughes syndrome,antiphospholipid antibody syndrome
+Sindrom antifosfolipidic catastrofal,sindrom Asherson,insuficienta multipla de organ prin tromboza,catastrofa antifosfolipidica,catastrophic antiphospholipid syndrome,Asherson syndrome,catastrophic APS
+Sindrom Bernard-Soulier,trombocitopatie Bernard-Soulier,distrofie trombocitara hemoragipara,deficit de complex glicoproteic Ib-IX,Bernard-Soulier syndrome,giant platelet syndrome,glycoprotein Ib-IX deficiency
+Sindrom Chediak-Higashi,boala Chediak-Higashi,sindrom Chediak-Steinbrinck-Higashi,albinism cu imunodeficienta,Chediak-Higashi syndrome,Chediak-Higashi disease,Chediak-Steinbrinck-Higashi syndrome
+Sindrom de activare macrofagica,sindrom de activare a macrofagelor,activare macrofagica sistemica,reactie hemofagocitara,macrophage activation syndrome,MAS,reactive hemophagocytic syndrome
+Sindrom de hipervascozitate,hipervascozitate sanguina,hipervascozitate plasmatica,sindrom de vascozitate crescuta,hyperviscosity syndrome,increased blood viscosity,serum hyperviscosity syndrome
+Sindrom de liza tumorala,liza tumorala,sindrom de liza tumorala acuta,liza tumorala acuta,tumor lysis syndrome,tumour lysis syndrome,acute tumor lysis
+Sindrom de reconstituire imuna,sindrom inflamator de reconstituire imuna,reactivare inflamatorie dupa refacerea imunitatii,reactivare imuna paradoxala,immune reconstitution inflammatory syndrome,IRIS,immune reconstitution syndrome
+Sindrom DiGeorge,hipoplazie timica,aplazie timica congenitala,deletie 22q11,DiGeorge syndrome,thymic hypoplasia,22q11.2 deletion syndrome
+Sindrom Evans,boala Evans,citopenie autoimuna combinata,sindrom Evans cu trombocitopenie,Evans syndrome,Evans disease,combined autoimmune cytopenia
+Sindrom Good,imunodeficienta cu timom,hipogamaglobulinemie cu timom,boala Good,Good syndrome,thymoma with immunodeficiency,hypogammaglobulinemia with thymoma
+Sindrom Heerfordt,febra uveoparotidiana,sindrom Heerfordt-Waldenstrom,uveoparotidita febrila,Heerfordt syndrome,uveoparotid fever,Heerfordt-Waldenstrom syndrome
+Sindrom hemolitic uremic,sindrom Gasser,sindrom uremic hemolitic,anemie hemolitica cu insuficienta renala,hemolytic uremic syndrome,haemolytic uraemic syndrome,Gasser syndrome
+Sindrom hiper-IgD,deficit de mevalonat kinaza,febra periodica cu hiperimunoglobulinemie D,hiperimunoglobulinemie D,hyper-IgD syndrome,mevalonate kinase deficiency,HIDS
+Sindrom hiper-IgE,sindrom Job,sindrom Buckley,imunodeficienta cu eozinofilie si IgE crescuta,hyper-IgE syndrome,Job syndrome,Buckley syndrome
+Sindrom hiper-IgM,hiperimunoglobulinemie M,deficit de comutare de clasa a imunoglobulinelor,imunodeficienta cu IgM crescut,hyper-IgM syndrome,hyper-IgM immunodeficiency,immunoglobulin class switch recombination defect
+Sindrom hipereozinofilic,hipereozinofilie,sindrom hipereozinofilic idiopatic,hipereozinofilie idiopatica,hypereosinophilic syndrome,hypereosinophilia,idiopathic hypereosinophilic syndrome
+Sindrom Kasabach-Merritt,coagulopatie de consum cu hemangiom,hemangiom gigant cu trombocitopenie,sindrom hemangiom-trombocitopenie,Kasabach-Merritt syndrome,Kasabach-Merritt phenomenon,hemangioma-thrombocytopenia syndrome
+Sindrom Kostmann,agranulocitoza infantila genetica,agranulocitoza congenitala severa,neutropenie congenitala severa,Kostmann syndrome,severe congenital neutropenia,infantile genetic agranulocytosis
+Sindrom limfoproliferativ autoimun,limfoproliferare autoimuna,boala Canale-Smith,limfoproliferare cronica benigna,autoimmune lymphoproliferative syndrome,ALPS,Canale-Smith syndrome
+Sindrom Lofgren,sarcoidoza acuta cu eritem nodos,sarcoidoza acuta febrila,boala Lofgren,Lofgren syndrome,acute sarcoidosis with erythema nodosum,Lofgren disease
+Sindrom mieloproliferativ cronic,neoplasm mieloproliferativ,boli mieloproliferative cronice,sindrom mieloproliferativ,chronic myeloproliferative neoplasm,myeloproliferative neoplasm,chronic myeloproliferative disease
+Sindrom Nezelof,imunodeficienta cu deficit de limfocite T,displazie timica cu imunoglobuline normale,aplazie timica cu imunoglobuline normale,Nezelof syndrome,T-cell immunodeficiency,thymic dysplasia with normal immunoglobulins
+Sindrom Omenn,reticuloendoteloza familiala,imunodeficienta severa combinata cu hipereozinofilie,boala Omenn,Omenn syndrome,familial reticuloendotheliosis,Omenn disease
+Sindrom POEMS,boala Crow-Fukase,polineuropatie cu organomegalie si endocrinopatie,mielom osteosclerotic,POEMS syndrome,Crow-Fukase syndrome,osteosclerotic myeloma
+Sindrom TAR,trombocitopenie cu absenta radiilor,trombocitopenie cu aplazie radiala,trombocitopenie cu radius absent,TAR syndrome,thrombocytopenia-absent radius syndrome,thrombocytopenia with absent radii
+Sindrom Wiskott-Aldrich,boala Wiskott-Aldrich,imunodeficienta cu trombocitopenie si eczema,deficit de WAS,Wiskott-Aldrich syndrome,WAS,eczema-thrombocytopenia-immunodeficiency syndrome
+Splenomegalie,marirea splinei,splina marita,hipertrofie splenica,splenomegaly,enlarged spleen,enlargement of the spleen
+Sulfhemoglobinemie,sulfhemoglobina in sange,cresterea sulfhemoglobinei,intoxicatie cu sulfhemoglobina,sulfhemoglobinemia,sulphaemoglobinemia,sulfhemoglobin in blood
+Trombocitopatii,tulburari functionale ale trombocitelor,trombocitopatie ereditara,disfunctie plachetara,thrombocytopathy,platelet function disorder,platelet dysfunction
+Trombocitopenie,trombocitopenie periferica,numar scazut de trombocite,plachete scazute,thrombocytopenia,low platelet count,decreased platelet count
+Trombocitopenie amegacariocitara,trombocitopenie congenitala amegacariocitara,amegacariocitoza congenitala,insuficienta megacariocitara,amegakaryocytic thrombocytopenia,congenital amegakaryocytic thrombocytopenia,CAMT
+Trombocitopenie gestationala,trombocitopenie de sarcina,trombocitopenie benigna a sarcinii,trombocitopenie din sarcina,gestational thrombocytopenia,pregnancy-associated thrombocytopenia,thrombocytopenia of pregnancy
+Trombocitopenie indusa de heparina,trombocitopenie prin heparina,trombocitopenie imunologica indusa de heparina,trombocitopenie indusa de tratament cu heparina,heparin-induced thrombocytopenia,HIT,heparin-associated thrombocytopenia
+Trombocitopenie medicamentoasa,trombocitopenie indusa de medicamente,trombocitopenie alergica medicamentoasa,trombocitopenie imunologica medicamentoasa,drug-induced thrombocytopenia,medication-induced thrombocytopenia,drug-induced low platelets
+Trombocitopenie neonatala,trombocitopenie la nou-nascut,scaderea trombocitelor la nou-nascut,trombocitopenie a nou-nascutului,neonatal thrombocytopenia,thrombocytopenia in the newborn,newborn low platelets
+Trombofilie,stare de hipercoagulabilitate,hipercoagulabilitate,tendinta la tromboza,thrombophilia,hypercoagulable state,hypercoagulability
+Trombofilie ereditara,trombofilie familiala,stare de hipercoagulabilitate ereditara,trombofilie genetica,hereditary thrombophilia,inherited thrombophilia,familial thrombophilia
+Xantogranulom juvenil,xantogranulomul sugarului,nevo xantoendotelial,xantogranulom juvenil cutanat,juvenile xanthogranuloma,naevoxanthoendothelioma,juvenile xanthogranuloma of infancy

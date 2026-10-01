@@ -129,6 +129,50 @@ class FileLoadingTests(unittest.TestCase):
         self.assertGreater(len(parsed), 10)
         self.assertTrue(all(len(item.terms) >= 2 for item in parsed))
 
+    def test_shipped_dictionary_has_no_duplicate_conditions(self):
+        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+
+        parsed = parse_conditions(text)
+
+        # one line per disease: the canonical name may not repeat
+        names = [conditions._normalize(item.name) for item in parsed]
+        self.assertEqual(len(names), len(set(names)))
+
+    def test_shipped_dictionary_has_no_shared_terms(self):
+        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+
+        parsed = parse_conditions(text)
+
+        # every term belongs to exactly one condition, so a search never resolves
+        # to two diseases at once
+        owners: dict[str, str] = {}
+        for item in parsed:
+            for term in item.terms:
+                key = conditions._normalize(term)
+                self.assertNotIn(key, owners,
+                                 f"{term!r} is claimed by {item.name!r} and {owners.get(key)!r}")
+                owners[key] = item.name
+
+    def test_shipped_dictionary_lines_are_complete(self):
+        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+        # the dictionary is written without diacritics; plain() also lowercases,
+        # so compare against a diacritics-only translation
+        diacritics = "ăâîșțşţĂÂÎȘȚŞŢ"
+        table = str.maketrans(diacritics, "aaiststAAISTST")
+
+        for number, line in enumerate(text.splitlines(), 1):
+            if not line.strip() or line.strip().startswith("#"):
+                continue
+            with self.subTest(line=number):
+                fields = line.split(",")
+                # canonical name + 3 Romanian + 3 English synonyms, no blank field
+                self.assertGreaterEqual(len(fields), 7)
+                self.assertTrue(all(field.strip() for field in fields))
+                self.assertEqual(line, line.strip())
+                self.assertEqual([field.strip() for field in fields], fields)
+                # no diacritics anywhere in the line
+                self.assertEqual(line, line.translate(table))
+
 
 if __name__ == "__main__":
     unittest.main()
