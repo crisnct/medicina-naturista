@@ -7892,7 +7892,6 @@ si dizenteria, in deranjamente ale ciclului menstrual, in infectii urinare. Semi
 susan alina in suferinte precum hemoroizii, constipatiile, indigestiile. Contribuind la o
 buna digestie, semintele de susan faciliteaza, totodata, si asimilatia. Se afirma despre
 semintele de susan ca ar avea efecte si in boli grele, cum ar fi neuroparaliziile.
-## S
 ### Sofranul
 Denumire stiintifica: Crocus sativus.
 Prezentare. Sofranul face parte din familia iridaceelor si provine din Asia. Este

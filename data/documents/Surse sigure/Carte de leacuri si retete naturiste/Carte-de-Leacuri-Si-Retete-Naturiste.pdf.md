@@ -1,8 +1,3 @@
-`
-„DOAMNE ISUSE HRISTOASE, FIUL LUI DUMNEZEU,
-MILUIESTE-MA PE MINE PACATOASA”
-## CAP
-
 ### Accident vascular
 (reteta manastireasca), radacina spanz de marimea palmei, se toaca, se pun 2 litri de apa calduta, se lasa la caldura camerei la macerat pana face floare deasupra, se filtreaza. Se inmoaie un tifon pus in 4 in lichid, se pune pe cap, se acopera cu un fes timp de 1 ora, apoi se usuca parul la aer. Tratamentul se face o data pe zi timp de 7 zile.
 ### Afte si abcese

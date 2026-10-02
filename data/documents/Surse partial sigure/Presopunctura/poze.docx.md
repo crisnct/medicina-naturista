@@ -2,14 +2,6 @@ _Documentul nu contine text nativ extractibil._
 
 ## Descrieri alternative ale imaginilor
 
-- C:\Documents and Settings\PC2012\Desktop\TIENS\palmE.jpg
-- C:\Documents and Settings\PC2012\Desktop\TIENS\P.jpg
-- C:\Documents and Settings\PC2012\Desktop\TIENS\zonele-reflexogene-reflexoterapie-id85560.jpg
-- C:\Documents and Settings\PC2012\Desktop\TIENS\2a.-Mana_dreapta.png
-- C:\Documents and Settings\PC2012\Desktop\TIENS\1a.-Mana_stanga.png
-- C:\Documents and Settings\PC2012\Desktop\TIENS\1a.-Piciorul_drept.png
-- C:\Documents and Settings\PC2012\Desktop\TIENS\1b.-Piciorul_stang.png
-
 ## Imagini si OCR
 
 ### Imagine 1 image1.jpeg

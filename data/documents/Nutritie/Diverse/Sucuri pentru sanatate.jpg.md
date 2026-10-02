@@ -1,4 +1,3 @@
-# RETETE DE SUCURI
 ## RACEALA:
 morcovi, ananas, ghimbir, usturoi
 
