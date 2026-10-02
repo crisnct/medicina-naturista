@@ -22,9 +22,10 @@ Two families of rules run, in this order:
    quantity ("4.200.000", "150.000-300.000"), a date and an ISBN are never
    treated as a phone number.
 
-2. **The compaction rules** — optionally fold Romanian diacritics to ASCII
-   (currently OFF, see FOLD_DIACRITICS_BY_DEFAULT), then drop page
-   furniture that carries no medical content: contents/index/glossary/
+2. **The compaction rules** — fold the Romanian diacritics to ASCII (ă/â -> a,
+   î -> i, ș -> s, ț -> t, plus the uppercase and legacy cedilla forms; see
+   FOLD_DIACRITICS_BY_DEFAULT, switched off with --no-fold-diacritics), then drop
+   page furniture that carries no medical content: contents/index/glossary/
    bibliography sections (only when their title is unambiguous, they sit where
    such a section belongs and they actually look like a list of entries), book
    colophon lines, lines that hold nothing but a page number, contact details
@@ -152,17 +153,27 @@ _PAGE_NUMBER_ONLY_RE = re.compile(
 _REPEATED_MIN_OCCURRENCES = 5
 
 # Romanian diacritics and the legacy forms the extractors emit, folded to ASCII
-# so the payload tokenizes more cheaply. This does not affect condition
-# matching: the dictionary is written without diacritics and both matching and
-# lexical search already normalize through plain()/unaccent().
+# (ă/â -> a, î -> i, ș -> s, ț -> t) so the payload tokenizes more cheaply. This
+# does not affect condition matching: the dictionary is written without
+# diacritics and both matching and lexical search already normalize through
+# plain()/unaccent().
+#
+# Three groups are folded, all one letter to one letter:
+#   * the five Romanian letters, lower and upper case (ă â î ș ț / Ă Â Î Ș Ț);
+#   * the legacy cedilla spellings a cp1250 source or an old font emits
+#     (ş ţ Ş Ţ) and "ã"/"Ã" — the cp1252 mis-decode of the cp1250 "ă"/"Ă"
+#     that the RTF sources in this corpus carry;
+#   * "ặ"/"Ặ" (a with breve and dot below), the OCR variant of "ă"/"Ă" that
+#     appears 589 times in data/documents and would otherwise stay non-ASCII.
 _DIACRITICS_TABLE = str.maketrans(
-    "ăâîșțĂÂÎȘȚşţŞŢãÃ", "aaistAAISTstSTaA"
+    "ăâîșțĂÂÎȘȚşţŞŢãÃặẶ", "aaistAAISTstSTaAaA"
 )
 
-# TEMPORARY SWITCH: diacritics folding is OFF while the sources are being
-# tested. Set this back to True (or pass --fold-diacritics) to re-enable it; no
-# other rule depends on it either way.
-FOLD_DIACRITICS_BY_DEFAULT = False
+# Diacritic folding is ON: the sources are folded to ASCII before they are
+# indexed. Set this to False (or pass --no-fold-diacritics, or
+# fold_diacritics_to_ascii=False for a programmatic call) to keep the
+# diacritics; no other rule depends on it either way.
+FOLD_DIACRITICS_BY_DEFAULT = True
 
 # A number, as compared by the digit invariant.
 _NUMBER_RE = re.compile(r"\d+(?:[.,]\d+)?")
@@ -453,9 +464,11 @@ def collapse_blank_lines(text: str) -> str:
 
 # ---- Compaction rules ----
 
-# Fold Romanian diacritics (and the legacy cedilla forms) to ASCII. Character
-# count is unchanged; UTF-8 byte count and token count both drop, because
-# ș/ț/ă/â/î take two bytes each and ASCII tokenizes more efficiently.
+# Fold the Romanian diacritics (and the legacy/or OCR variants of them) to
+# ASCII: ă/â -> a, î -> i, ș -> s, ț -> t, upper case kept upper case, plus
+# ã -> a and ặ -> a. Character count is unchanged; UTF-8 byte count and token
+# count both drop, because ș/ț/ă/â/î take two bytes each and ASCII tokenizes
+# more efficiently.
 def fold_diacritics(text: str) -> str:
     return text.translate(_DIACRITICS_TABLE)
 
@@ -963,13 +976,25 @@ def parse_args() -> argparse.Namespace:
         help="List files that would change without writing them",
     )
     parser.add_argument(
-        "--fold-diacritics", action="store_true",
-        help="Fold Romanian diacritics to ASCII (currently off by default)",
+        "--fold-diacritics",
+        action=argparse.BooleanOptionalAction,
+        # Not store_true: the flag has to *default* to the module constant,
+        # otherwise running this script would silently override it.
+        default=FOLD_DIACRITICS_BY_DEFAULT,
+        help="Replace the Romanian diacritics with plain ASCII letters "
+             "(ă/â -> a, î -> i, ș -> s, ț -> t); on by default, "
+             "--no-fold-diacritics keeps them",
     )
     return parser.parse_args()
 
 
 def main() -> int:
+    # A path in this corpus contains a diacritic ("Cărți/..."): on a Windows
+    # console with a legacy code page, printing it raised UnicodeEncodeError and
+    # aborted the run halfway through, leaving the corpus half-cleaned. Same fix
+    # as in extract_pdf_markdown.py / text_to_markdown.py.
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
     arguments = parse_args()
     try:
         clean_documents(

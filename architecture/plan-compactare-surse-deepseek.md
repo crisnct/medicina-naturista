@@ -14,7 +14,7 @@
 
 Diferența dintre −0,33% caractere și −4,20% bytes este efectul folding-ului de diacritice: `ă/â/î/ș/ț` sunt 2 bytes în UTF-8, iar `a/i/s/t` este 1 byte. Tokenii scad mai mult decât caracterele pentru că textul ASCII se tokenizează mai eficient. Defalcare pe reguli: `furniture:toc` 30.650 caractere, `running_header` 18.083, `page_number_line` 7.292, `colofon` 1.731, `inline_cleanup` 1.421, `phone_number` 488, `phone_label` 72, `email` 23.
 
-> **Notă:** folding-ul de diacritice e momentan **dezactivat** (comutator temporar `FOLD_DIACRITICS_BY_DEFAULT = False` în script, din 2 octombrie 2026, cât timp sursele sunt testate). Cifrele din acest tabel sunt pentru folding pornit; fără el, regulile rămase economisesc ~59.000 de caractere în 61 de fișiere. Se reactivează cu `--fold-diacritics` pe o rulare sau schimbând constanta în `True`.
+> **Notă:** folding-ul de diacritice e **pornit** din 2 octombrie 2026 (`FOLD_DIACRITICS_BY_DEFAULT = True`) și se aplică fără niciun steag. Se oprește pe o singură rulare cu `--no-fold-diacritics` (sau `.\scripts\clean_documents.ps1 -KeepDiacritics`). Steagul `--fold-diacritics` rămâne acceptat, dar e redundant.
 
 > **Corecție după un incident real.** Prima versiune a regulii de headere elimina *orice* linie repetată de ≥5 ori. Pe corpusul acesta asta a șters conținut: în `Herbal Antibiotics` au dispărut 20 din 23 de apariții ale subtitlului „Side Effects and Contraindications" (capul secțiunii de siguranță al fiecărei plante), în Balch au dispărut 132 de apariții ale unui antet de tabel („SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII") și 74 de propoziții de conținut repetate. Regula a fost restrânsă: se elimină **doar linia care repetă titlul documentului**, niciodată un titlu Markdown, niciodată o linie cu dozaj. Efectul corectat este 18.083 caractere în **4 fișiere** (ex. „Heal Yourself - The Natural Way", de 461 de ori), iar numărul de tokeni economisiți a scăzut de la −4,92% (care includea ștergeri dăunătoare) la **−4,04%**. Trei teste de regresie păzesc cazurile: subtitlu de șablon, antet de tabel, titlu Markdown repetat.
 
@@ -35,7 +35,7 @@ Diferența dintre −0,33% caractere și −4,20% bytes este efectul folding-ulu
 | Tabele / liste | 3,9% din caractere | nu merită reformatare |
 | Eliminarea liniilor de tip „Sursa:” | 564 caractere | neglijabil |
 
-**Ce ajută** (și e în plan): Cuprinsul (30.650 caractere), antetul de pagină care repetă titlul cărții (18.083), liniile cu număr de pagină (7.292), colofonul (1.731), datele de contact (583) și folding-ul diacriticelor (−176.312 tokeni singur, momentan dezactivat).
+**Ce ajută** (și e în plan): Cuprinsul (30.650 caractere), antetul de pagină care repetă titlul cărții (18.083), liniile cu număr de pagină (7.292), colofonul (1.731), datele de contact (583) și folding-ul diacriticelor (−176.312 tokeni singur, acum pornit).
 
 ---
 

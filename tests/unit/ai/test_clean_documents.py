@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import io
+import sys
 import tempfile
 import unittest
 from unittest import mock
@@ -43,7 +44,8 @@ class CleanDocumentsTests(unittest.TestCase):
         changed = self.clean()
 
         self.assertEqual(changed, 1)
-        self.assertEqual(path.read_text(encoding="utf-8"), "Planta sunătoare ajută la ficat.\n")
+        # The diacritics are folded as well: folding is on by default.
+        self.assertEqual(path.read_text(encoding="utf-8"), "Planta sunatoare ajuta la ficat.\n")
 
     def test_leaves_an_already_compact_file_untouched(self):
         path = self.write("a.md", "Text simplu, fara linkuri sau trimiteri.\n")
@@ -72,7 +74,7 @@ class CleanDocumentsTests(unittest.TestCase):
 
         self.clean()
 
-        self.assertEqual(path.read_bytes().decode("cp1250"), "Coadă aici ajută mult!\n")
+        self.assertEqual(path.read_bytes().decode("cp1250"), "Coada aici ajuta mult!\n")
 
     def test_falls_back_to_utf8_when_comma_below_is_not_encodable(self):
         # The path where the fallback still matters: with folding off the cleaned
@@ -353,17 +355,24 @@ class DiacriticsTests(unittest.TestCase):
             "Coada, soricel, tuica, mana, Romania, Stefan",
         )
 
-    def test_does_not_fold_diacritics_by_default(self):
+    def test_folds_the_ocr_variant_of_a_breve(self):
+        # "ặ" is what the OCR (and the cp1252 mis-decode of "ă") left in
+        # data/documents; it has to fold like "ă" does.
+        self.assertEqual(fold_diacritics("sặngele, mặrul, Ã"), "sangele, marul, A")
+
+    def test_folds_diacritics_by_default(self):
         text = "Coadă și mână, țuică.\n"
 
         cleaned, _ = compact_document(text)
 
-        self.assertEqual(cleaned, text)
-
-    def test_folds_diacritics_when_asked(self):
-        cleaned, _ = compact_document("Coadă și mână, țuică.\n", fold_diacritics_to_ascii=True)
-
         self.assertEqual(cleaned, "Coada si mana, tuica.\n")
+
+    def test_keeps_diacritics_when_asked(self):
+        text = "Coadă și mână, țuică.\n"
+
+        cleaned, _ = compact_document(text, fold_diacritics_to_ascii=False)
+
+        self.assertEqual(cleaned, text)
 
     def test_folding_runs_before_repeated_lines_are_counted(self):
         # The two spellings become identical only after folding: three copies of
@@ -378,17 +387,37 @@ class DiacriticsTests(unittest.TestCase):
         self.assertEqual(len([item for item in removed if item.rule == "running_header"]), 5)
 
 
+class CommandLineTests(unittest.TestCase):
+    # The switch must default to the module constant. When --fold-diacritics was
+    # a plain store_true, running the script defaulted to False and silently
+    # overrode FOLD_DIACRITICS_BY_DEFAULT.
+    def parse(self, *argv):
+        with mock.patch.object(sys, "argv", ["clean_documents.py", *argv]):
+            return clean_documents.parse_args()
+
+    def test_folding_switch_defaults_to_the_module_constant(self):
+        self.assertEqual(
+            self.parse().fold_diacritics, clean_documents.FOLD_DIACRITICS_BY_DEFAULT
+        )
+
+    def test_no_fold_diacritics_switches_folding_off(self):
+        self.assertFalse(self.parse("--no-fold-diacritics").fold_diacritics)
+
+    def test_fold_diacritics_switches_folding_on(self):
+        self.assertTrue(self.parse("--fold-diacritics").fold_diacritics)
+
+
 class ContactDetailTests(unittest.TestCase):
     def test_removes_an_email_address(self):
         text, removed = compact_document("Scrieți la adresa cabinet@exemplu.ro pentru programări.\n")
 
-        self.assertEqual(text, "Scrieți la adresa pentru programări.\n")
+        self.assertEqual(text, "Scrieti la adresa pentru programari.\n")
         self.assertEqual([item.text for item in removed if item.rule == "email"], ["cabinet@exemplu.ro"])
 
     def test_removes_a_labelled_phone_number_and_its_label(self):
         text, removed = compact_document("Programări: tel. 021/637.30.22 sau 0745 123 456.\n")
 
-        self.assertEqual(text, "Programări: sau.\n")
+        self.assertEqual(text, "Programari: sau.\n")
         self.assertEqual(
             sorted(item.rule for item in removed if item.rule.startswith("phone")),
             ["phone_label", "phone_number", "phone_number"],
@@ -424,7 +453,9 @@ class ContactDetailTests(unittest.TestCase):
         for line in untouched:
             with self.subTest(line=line):
                 text, _ = compact_document(line + "\n")
-                self.assertEqual(text, line + "\n")
+                # Folding the diacritics is the only change allowed here: no
+                # rule may drop a dose, a quantity, a date or an ISBN.
+                self.assertEqual(text, fold_diacritics(line) + "\n")
 
         # On a contact line the phone goes and the ISBN stays.
         text, removed = compact_document("Volumul are ISBN 978-606-686-622-4; comenzi la tel. 021 319 6390.\n")

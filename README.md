@@ -120,12 +120,14 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-web.txt
 ```
 
-Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”):
+Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
 
 ```powershell
 .\scripts\clean_documents.ps1 -DryRun   # doar raportează
 .\scripts\clean_documents.ps1           # rescrie fișierele modificate
 ```
+
+Înlocuirea diacriticelor e activă implicit; `.\scripts\clean_documents.ps1 -KeepDiacritics` (sau `--no-fold-diacritics`) le păstrează.
 
 Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`.
 
