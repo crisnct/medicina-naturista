@@ -12,11 +12,13 @@
 | Cifre pierdute | — | **0** | invariantă verificată |
 | Titluri pierdute | — | **0** | structura de fragmentare intactă |
 
-Diferența dintre −0,33% caractere și −4,20% bytes este efectul folding-ului de diacritice: `ă/â/î/ș/ț` sunt 2 bytes în UTF-8, iar `a/i/s/t` este 1 byte. Tokenii scad mai mult decât caracterele pentru că textul ASCII se tokenizează mai eficient. Defalcare pe reguli: `furniture:toc` 30.650 caractere, `running_header` 18.083, `page_number_line` 6.506, `colofon` 2.806, `inline_cleanup` 1.421, `phone_number` 488, `phone_label` 95, `email` 23.
+Diferența dintre −0,33% caractere și −4,20% bytes este efectul folding-ului de diacritice: `ă/â/î/ș/ț` sunt 2 bytes în UTF-8, iar `a/i/s/t` este 1 byte. Tokenii scad mai mult decât caracterele pentru că textul ASCII se tokenizează mai eficient. Defalcare pe reguli: `furniture:toc` 30.650 caractere, `running_header` 18.083, `page_number_line` 7.292, `colofon` 1.731, `inline_cleanup` 1.421, `phone_number` 488, `phone_label` 72, `email` 23.
+
+> **Notă:** folding-ul de diacritice e momentan **dezactivat** (comutator temporar `FOLD_DIACRITICS_BY_DEFAULT = False` în script, din 2 octombrie 2026, cât timp sursele sunt testate). Cifrele din acest tabel sunt pentru folding pornit; fără el, regulile rămase economisesc ~59.000 de caractere în 61 de fișiere. Se reactivează cu `--fold-diacritics` pe o rulare sau schimbând constanta în `True`.
 
 > **Corecție după un incident real.** Prima versiune a regulii de headere elimina *orice* linie repetată de ≥5 ori. Pe corpusul acesta asta a șters conținut: în `Herbal Antibiotics` au dispărut 20 din 23 de apariții ale subtitlului „Side Effects and Contraindications" (capul secțiunii de siguranță al fiecărei plante), în Balch au dispărut 132 de apariții ale unui antet de tabel („SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII") și 74 de propoziții de conținut repetate. Regula a fost restrânsă: se elimină **doar linia care repetă titlul documentului**, niciodată un titlu Markdown, niciodată o linie cu dozaj. Efectul corectat este 18.083 caractere în **4 fișiere** (ex. „Heal Yourself - The Natural Way", de 461 de ori), iar numărul de tokeni economisiți a scăzut de la −4,92% (care includea ștergeri dăunătoare) la **−4,04%**. Trei teste de regresie păzesc cazurile: subtitlu de șablon, antet de tabel, titlu Markdown repetat.
 
-**Stare: implementat.** Regulile sunt în `scripts/clean_documents.py` (44 de teste trec în `tests/unit/ai/test_clean_documents.py`). **Sursele nu sunt modificate de mine**: scriptul se rulează manual, de tine — în proiect nimic nu îl apelează automat (nici `rebuild_index.ps1`, nici aplicația), deci `data/documents/` se schimbă doar când execuți `.\scripts\clean_documents.ps1`.
+**Stare: implementat.** Regulile sunt în `scripts/clean_documents.py` (60 de teste trec în `tests/unit/ai/test_clean_documents.py` și `test_text_cleaning.py`). **Sursele nu sunt modificate de mine**: scriptul se rulează manual, de tine — în proiect nimic nu îl apelează automat (nici `rebuild_index.ps1`, nici aplicația), deci `data/documents/` se schimbă doar când execuți `.\scripts\clean_documents.ps1`.
 
 ---
 
@@ -33,7 +35,7 @@ Diferența dintre −0,33% caractere și −4,20% bytes este efectul folding-ulu
 | Tabele / liste | 3,9% din caractere | nu merită reformatare |
 | Eliminarea liniilor de tip „Sursa:” | 564 caractere | neglijabil |
 
-**Ce ajută** (și e în plan): Cuprinsul (30.650 caractere), antetul de pagină care repetă titlul cărții (18.083), liniile cu număr de pagină (6.506), colofonul (2.806), datele de contact (606) și folding-ul diacriticelor (−176.312 tokeni singur).
+**Ce ajută** (și e în plan): Cuprinsul (30.650 caractere), antetul de pagină care repetă titlul cărții (18.083), liniile cu număr de pagină (7.292), colofonul (1.731), datele de contact (583) și folding-ul diacriticelor (−176.312 tokeni singur, momentan dezactivat).
 
 ---
 
@@ -104,11 +106,13 @@ O secțiune e eliminată **numai dacă toate condițiile sunt adevărate**:
 
 Secțiunea se întinde de la titlu până la primul titlu de nivel egal sau superior (funcția `section_end()`).
 
-### 4.3. Colofon / front-matter — **2.806 caractere**
+### 4.3. Colofon / front-matter — **1.731 caractere**
 
-Se elimină liniile de credit editorial, doar dacă au < 200 caractere și se află în **primele 300 de linii** ale fișierului sau încep cu un tipar puternic (`©`, `(c) 2014`, `ISBN`, `ISSN`, `Descrierea CIP`, `Toate drepturile`, `All rights reserved`, `Tehnoredactare`, `Corector`, `Copertă`, `Redactor`, `Traducere`, `Tipărit`, `Ediția a`).
+Se elimină liniile de credit editorial, doar dacă au < 200 caractere și **încep** cu un marcaj de credit: fie tiparul puternic (`©`, `(c) 2014`, `ISBN`, `ISSN`, `Descrierea CIP`, `Toate drepturile`, `All rights reserved`, `Tehnoredactare`, `Corector`, `Copertă`, `Redactor`, `Traducere`, `Tipărit`, `Ediția a`), fie, doar în **primele 300 de linii**, tiparul de front-matter (`Editura`, `Publicat de/la/prin`, `Distribuit`, `www.`, `http…`, adresă de e-mail, `Copyright`, „orice reproducere”, `Editor:`, `prepress`).
 
-Restricția de poziție e intenționată: fără ea, orice linie de conținut care pomenește „editura” ar fi dispărut. Varianta agresivă ar fi tăiat 42.884 caractere, dar cu risc de a pierde text medical — am ales varianta sigură, cu câștig mic.
+**Ambele tipare sunt ancorate la începutul liniei**, iar cuvintele care pot apărea în interiorul altora au graniță de cuvânt. Lecția a venit din corpus: cu potrivire liberă în linie, regula a șters conținut — linia „-mentinerea unei diete sanatoase in care carbohidratii sa fie **distribuit**i pe parcursul unei zile…” a fost citită ca un credit de distribuție, două intrări bibliografice („1. Banu C. …, **Editura** Tehnică”) și două note de sursă („articol **publicat la**: 25 Aprilie 2002…”). Toate cele șapte linii de conținut sunt acum păstrate, iar regula a scăzut de la 2.806 la 1.731 de caractere; toate cele 49 de eliminări rămase sunt credite reale (copyright, ISBN, traducători, editură).
+
+Restricția de poziție rămâne un al doilea gard: varianta agresivă (fără poziție și fără ancorare) ar fi tăiat 42.884 caractere, cu risc mare de a pierde text medical.
 
 ### 4.4. Linii care conțin doar numărul paginii — **7.296 caractere, 42 de fișiere**
 
@@ -218,6 +222,7 @@ Extindere în `tests/unit/ai/test_clean_documents.py` (testele existente rămân
 6d. titlu Markdown (`# Carte`) repetat → **păstrat** (structura documentului);
 7. `### Pagina 8` → eliminată; `### Pagina de start` → păstrată (deja existent);
 8. linii de colofon în primele 300 de linii → eliminate; aceeași linie la mijlocul fișierului → păstrată;
+8b. linie de conținut care doar *conține* un cuvânt de credit („…carbohidratii sa fie distribuiti…”, „1. Banu C. …, Editura Tehnică”, „articol publicat la: …”) → **păstrată**;
 9. diacritice: `Coadă, șoricel, țuică` → `Coada, soricel, tuica`; cu `--keep-diacritics` → neschimbat;
 10. invarianta cifrelor: caz sintetic construit manual (`before`, `after`, `removed`) în care un număr dispare fără să fie în spans → `check_digit_invariant()` îl raportează;
 11. idempotență: `clean_documents()` rulat de două ori → al doilea apel raportează 0 fișiere modificate și nu atinge `mtime`;
