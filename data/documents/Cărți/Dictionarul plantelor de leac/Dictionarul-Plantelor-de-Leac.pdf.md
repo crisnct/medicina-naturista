@@ -18,18 +18,12 @@ existăm și că nu vom
 exista decât prin
 natură.
 
-Descrierea CIP a Bibliotecii Naționale a României
 Dicționarul plantelor de leac. - Ed. a 2-a, rev. – București:
-Editura Călin, 2008
 Bibliogr.
-ISBN 978-973-7661-08-1
 81'374.2:633.81+633.88=135.1
 
-© Editura Călin
-Editura Călin este marcă înregistrată
 Dicționar realizat de Eugen Mihăescu și colaboratorii
 Concepție grafică – Mihnea Trușcă
-Tehnoredactare – Călin Mihăescu
 Editor – S.C. 5 M Exim SRL – Editura Călin
 București, sector 6, Drumul Taberei nr. 120
  | e-mail:
@@ -42,7 +36,6 @@ plante medicinale renumite
 plante medicinale rare
 plante medicinale exotice
 alimente medicinale
-Editura Călin
 
 Cuprins
 Cuvânt înainte ..................................................................................................... 4

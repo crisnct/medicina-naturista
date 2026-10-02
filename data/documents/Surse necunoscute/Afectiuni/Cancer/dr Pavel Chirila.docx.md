@@ -50,4 +50,3 @@ Prof. dr. Pavel Chirilă este doctor în științe medicale, profesor de Bioetic
 
 ## Subsol 1
 
-3

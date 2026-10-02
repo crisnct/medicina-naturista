@@ -3,10 +3,8 @@ o>? <0
 Nivelul de antioxidanti
 le
 {
-275
 Morcovi
 “4A
-875
 Ceapa
 1,475
 Portocale

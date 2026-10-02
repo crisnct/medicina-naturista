@@ -1,4 +1,3 @@
-1
 SCARLATINA
 
 1. Protocol de diagnostic : - Hemoleucograma
@@ -52,7 +51,6 @@ cefalosporine de generația a III-a.
 - În anginele micotice – se administrează Nistatin 3-→ MU/zi la adult și 1-3 MU/zi la
 copil, 7-10 zile sau Fluconazol →0-100 mg/zi timp de 7-14 zile.
 
-2
 b). Tratament simptomatic – antipiretice, analgezice
 
 3. Durata medie de spitalizare
@@ -108,7 +106,6 @@ tonice cardiovasculare.
 
 c). Tratamentul complicațiilor
 
-3
 ● Bronhopneumonice - sau pneumonii se utilizează betalactamine + aminog licozid
 (ampicilina/oxacilina + gentamicina/amikacina), cefalosp orine de generația a III
 (ceftriaxona, cefatoxim), betalactamine asociate cu inhib itori de betalactamaze,
@@ -164,7 +161,6 @@ suprainfectată
 :
 ● Terapie simptomatică - antipiretice (metamizol, algocalmin), antialgice
 
-4
 ● Chimioterapie antivirală – Acyclovir se folosește în herpesul Zoster și în varicela
 la „grupurile de risc” (imunodeprimați), în doze de 3 0 mg/kg/zi, timp de →, 7, 10,
 14 zile
@@ -217,8 +213,6 @@ Terapie standard
 ● Ampicilină 12 g/zi la adult și 200-300 mg/kg/zi la copil
 ● Cefalosporină de generația a III-a (Ceftriaxonă 4 g/zi la adult și 100 mg/kg/zi la
 copil, sau Cefatoxim 8-12 g/zi, la adult și 200-300 mg/kg/zi la copil
-
-5
 
 Terapie alternativă
 
@@ -277,7 +271,6 @@ Terapie alternativă
 
 ● Cefalosporină de generația a III-a, vancomicină,
 
-6
 Meningita cu Streptoccocus agalactide
 ● Ampicilină sau Penicilină, Cefalosporină de generația a III-a, vancomicină,
 
@@ -330,7 +323,6 @@ boală, timp de 7-10 zile
 - antituberculoase în cvadruplă asociere (Izoniazidă →-10 mg/kg/zi; Rifampicină 10
 mg/kg/zi, Etambutol →-2→ mg/kg/zi, Pirazinamidă 1→-30 mg/kg/zi, Streptomicină
 
-7
 1→ mg/kg/zi) administrată zilnic timp de 3 luni, apoi 3/7 sau 2/7 până la 9 luni, în
 funcție de evoluția clinică și a LCR
 - antituberculoasele de rezervă sunt fluorochinolonele (ciprofloxacina 1-1,→ g/zi,
@@ -382,7 +374,6 @@ cerebrolyzine)
 
 Tratament etiotrop
 
-8
 - Aciclovir în encefalita herpetică, 30 mg/kg/zi intravenos, divizat în 3 prize (la
 8 ore), timp de 10 zile
 - Ribavirină 2 g inițial, apoi 1 g la 6 ore în primel e 4 zile, urmate de 0,→ g la 8
@@ -441,8 +432,6 @@ b). Laborator
 anaerobe
 - prelevare de sânge pentru determinarea T preexistent de anatoxină tetanică
 
-9
-
 c). Tratament
 
 - administrare ATPA, ulterior la 7, 14, 30 zile de la prima injecție
@@ -492,8 +481,6 @@ c). Profilaxie
  – Vaccinarea antigripală
 - chimioprofilaxia cu Amantadina sau Rimantadina
 d). Durata de spitalizare ~ 7 zile
-
-10
 
 MONONUCLEOZA INFECȚIOASĂ
 
@@ -546,8 +533,6 @@ Escherichia Coli – Aminopeniciline
 - Cefalosporine gen. III
 Salmonella – Fluorchinolone
  - Cefalosporine gen. III ~ → zile
-
-11
 
 Shigella – Acid nalidixic
 - Cotrimoxazol ~ → zile
@@ -603,7 +588,6 @@ aminoglicozideentului etiologic
  - Rgf. pulmonară
  - examenul lichidului pleural
 
-12
 - CT toracic + bronhoscopia pentru diferențierea pneumo niilor
 neinfecțioase (ex. neoplasm bronhopulmonar)
 
@@ -660,7 +644,6 @@ Pn. Carini cotrimoxazol Clindamicină + Primachine
 
 ●Pneumonia comunitară a adultului
 
-13
 a). severitate medie (agenți etiologici: pneumococ, H. i nfl., Moraxella, Legionella,
 Chlamidya, My. Pneumoniae)
 
@@ -713,8 +696,6 @@ fungi)
 
 Pneumonia la imunodeprimați
 
-14
-
 1. Neutropenic (Staf. BGN, fungi, virusuri, Pn. Carini)
 
 tratament - Βlactamine antipiocianic + fluorchinolone resp. + aminoglicozide
@@ -764,7 +745,6 @@ II.DIAGNOSTIC ETIOLOGIC
 -serologic-evidentiere IgM antivirus urlian-RFC,Reactie de neutralizare,RIH
 -evidentiere Ac anti virus urlian din LCR-ELISA
 
-15
 II.TRATAMENT
 1.Igieno - dietetic - spitalizare in complicatii,determineri extrasalivare
  - repaus la pat
@@ -813,7 +793,6 @@ prize/zi
 - PEV cu vitamine B1, B6, C, calciu gluconic, reechilib rare volemica, H-E-
 Ringer, ser fiziologic, antiH2inj., antiacide, KCl 1-2 g/zi;
 
-16
 III. Durata medie de spitalizare – 10 zile
 
 PARALIZIA ACUTA FLASCA (PAF)
@@ -863,7 +842,6 @@ pentru a evita pozitii vicioase-sprijin lateral cu saculete de nisip;
 calciu;
 - comprese calde si umede la nivelul zonelor dureroase;
 
-17
 2. Simptomatic - analgezice, sedative usoare, antitermice;
 3. Patogenic - AINS –diclofenac, ketoprofen, ibubrufen;
 - corticoterapie-prednison 1mg/kg/zi 7-10 zile;
@@ -914,7 +892,6 @@ Ac totali anti HVD
 *Ecografie abdominala
 *CT (computer tomograf) abdominal
 
-18
 4.CUANTIFICAREA INCARCATURII VIRALE
 *AND-HVB;AND-HVD;ARN-HCV;
 5.PUNCTIE BIOPSIE HEPATICA-PBH
@@ -964,7 +941,6 @@ I .DIAGNOSTIC PARACLINIC
  -AgHVD
  -AgHBs
 
-19
  * Hepatita virala acuta cu virus C-Ac anti HCV (totali )-apar dupa 7-31 sapt. de la
 infectare; -IgM anti HCV-indisponibili
 
@@ -1013,7 +989,6 @@ gluconic,vitamina C,venostat
 1-2g/kg/zi,Furosemid 1-2 g/kg/zi,1f la 12 h,HHC 400-600mg/zi la 6h
 12.Imunoglobuline specifice umane
 
-20
 13.Interferon α 10 Mux3/sapt-3 luni;lamivudina 100mg/zi 3 luni
 
 III. Durata medie de spitalizare-10 zile(in formele severe:21zile)
@@ -1060,7 +1035,6 @@ clinic
 *Alergici la peniciline-in forme usoare-Doxiciclin100mgx 2/zi-7zile,Tetraciclina 2-
 3g/zi la 6h; -Eritromicina 2-4g/zi la
 
-21
 6h,Claritromicina 1g/zi la 12h-po,iv. –Cloramfenicol
 3g/zi la 8h im,iv.
 3.Tratament patogenic
@@ -1113,8 +1087,6 @@ Diagnostic specific – serologic:
  IDR cu trichinelină (săptămâna a 3-a)
  ± biopsie musculară (săptămâna 3 - 4 de boală)
 
-22
-
 TRATAMENT
 
 1. Etiologic
@@ -1166,7 +1138,6 @@ Categorii de risc pentru animal :
 - minor – animal aparent sănătos, sau provocat, care poate fi urmărit
  10-14 zile
 
-23
 - mediu – animal
 • bolnav
 • dispărut
@@ -1217,7 +1188,6 @@ Confirmarea diagnosticului
 - ecocardiografie
 - ecografie cardiaca transesofagiana
 
-24
 - ecografie abdominala / CT – pentru identificarea dete rminarilor
 septice secundare
 
@@ -1254,7 +1224,6 @@ Aminoglicozid
 Glicopeptide
 +Aminoglicozi
 d
-4
 saptamani
 Digestiv,
 urinar,
@@ -1267,14 +1236,12 @@ Aminoglicozid
 Glicopeptide
 +Aminoglicozi
 d
-6
 saptamani
 Cutanat stafilococ Oxacilina
 Aminoglicozid
 Glicopeptide
 +Aminoglicozi
 d
-4
 saptamani
 Necunoscut
 a*
@@ -1283,7 +1250,6 @@ Aminoglicozid
 Glicopeptide
 +Aminoglicozi
 d
-6
 saptamani
 *
 
@@ -1297,7 +1263,6 @@ Proteza valvulara
 
 Tratamentul de prima intentie : Glicopeptide +Aminoglicozid ± Rifampicina
 (timp de
- 6
 saptamani )
 !! evaluare la o saptamana de tratament ; in caz de evolutie nefavorabila, se
 recomanda schimbarea terapiei ( Cefalosporine gen III + Aminoglicozid ±
@@ -1305,8 +1270,6 @@ antifungic)
 
 • In toate conditiile se va evalua necesitatea interventi ei chirurgicale de
 urgenta (in primele 14 zile)
-
-25
 
 ENDOCARDITA CERTA
 ( cu etiologie demonstrata )
@@ -1378,7 +1341,6 @@ Fluorchinolone +
 aminoglicozid
 Carbapeneme
 
-26
 Bacil piocianic Carbapeneme
 Cefalosporine gen. IV
 Cefalosporine gen. III
@@ -1478,7 +1440,6 @@ Carbapeneme
 14 – 21
 zile *
 
-27
 saprophyticu
 s
 Enterococ
@@ -1607,7 +1568,6 @@ Carbapeneme
 zile inj.
 apoi 2 –
 
-28
 medular * BGN aminoglicozid
 Fluorochinolone inj
  4 sapt
@@ -1652,7 +1612,6 @@ SIRS ( Systemic Inflammatory Response Syndrome)
 SEPSIS = SIRS + dovada clinica / paraclinica a prezentei unei bacterii
 SEPSIS SEVER = SEPSIS + o insuficienta de organ / sistem
 
-29
 Criterii care definesc insuficienta de organ / sistem
 
 Cardio-vascular
@@ -1695,7 +1654,6 @@ Diagnostic bacteriologic
 -culturi din lichide / umori normal sterile ( LCR, lichid pleural, lichid pericardic,
 lichid articular etc.)
 
-30
 -culturi din focarele septice
 
 TRATAMENT
@@ -1724,7 +1682,6 @@ piocianic)
 
 Propuneri de terapie specifica ( dupa izolarea si identificarea agentului etiologic )
 
-31
 AGENTUL
 ETIOLOGIC
 TERAPIE
@@ -1791,7 +1748,6 @@ lactamaze
 Cloramfenicol
 BGN Cefalosporine gen. III Fluorchinolone +
 
-32
 / Tazocin +
 aminoglicozid
 aminoglicozid
@@ -1831,6 +1787,5 @@ D.Tratamentul igieno – dietetic
 - dieta usoara ( in functie de toleranta individuala )
 - asigurarea conditiilor de izolare pentru prevenirea suprainfectiilor
 
-33
 - controlul si igiena integritatii tegumentelor, mucoaselor, a cateterelor si a
 sondelor de abord ( urinara, naso – gastrica etc.)

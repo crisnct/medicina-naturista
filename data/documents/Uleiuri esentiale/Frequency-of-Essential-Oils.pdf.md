@@ -1,4 +1,3 @@
-1
 
 # Frequency of Essential Oils
 
@@ -49,8 +48,6 @@ diseases of lower frequency.
 [For a few examples visit: The Frequency of Health and The
 Assemblage Point
 
-2
-
 ## What Does Hertz Mean?
 
 What Does Hertz Mean?
@@ -100,8 +97,6 @@ Frequency Monitor that is used to study the bio -electrical frequencies of essen
 and their effect on human frequencies when the oils have been applied to the body. It
 is called a BT2 Frequency Counter.
 
-3
-
 ### Frequency findings (Dr. Young / Tainio frequency counter)
 
 In the following tables, some of the frequency findings from the research of Dr. Young
@@ -147,8 +142,6 @@ Harmony 101 3 Wise Men 72
 Hope 98 Valor 47
 Immupower 89 White Angelica 89
 Inspiration 141
-
-4
 
 ## Live Frequency
 
@@ -201,8 +194,6 @@ or technology and will shut down or jail any medical practitioner caught using a
 Frequency Generator. Why??? Because it works! [This is why so many cancer
 treatment clinics have sprung up in Mexico, the Caribbean and Europe]
 
-5
-
 ## Frequencies of the Human Body in MHz
 
 Frequencies of the Human Body in MHz
@@ -231,8 +222,6 @@ Frequencies of the Human Body in MHz
 Human cells start to mutate when their frequency drops below 62 MHz. Low frequency
 also indicates a pH imbalance. Invading pathogenic frequencies including biologicals,
 i.e., anthrax, plagues, etc. are low. Positive beneficial bacterial frequencies are higher.
-
-6
 
 ## Suppressed Bio-Electric Technologies and Therapies
 

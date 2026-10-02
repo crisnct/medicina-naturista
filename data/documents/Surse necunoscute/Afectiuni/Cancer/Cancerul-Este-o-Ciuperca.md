@@ -2,8 +2,6 @@
 
 Articol de **David Icke** din 22 Noiembrie, 2009
 
-Traducere de Mihaela Gheorghita
-
 Cancerul este o ciuperca
 
 !{width="2.942361111111111in" height="1.8430555555555554in"}

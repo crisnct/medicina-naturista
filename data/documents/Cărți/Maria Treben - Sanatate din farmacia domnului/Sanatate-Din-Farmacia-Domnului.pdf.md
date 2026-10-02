@@ -9,18 +9,12 @@ FARMACIA DOMNULUI
 
 B U D A P £ S T
 HUNGALIBRI, Budapesta
-1
 
 MARIA TREBEN
-Traducător: DANIELA ȘTEFĂNESCU
 Ilustrator: VARGA EMMA
 Consultant științific: dr. Petre Stroescu
-Redactor: Paul Drumaru Culegere și
-tehnoredactare computerizată: Cristian-Marius Ghiga
-Traducere după Maria Treben:
 „Gesundheit aus der Apotheke Gottes",
 Verlag Wilhelm Ennsthaler, A-4402 Steyr, ediția a 46-a
-2
 
 Prefață
 Din Sf. Scriptură, Sirach 38, volumul 4: Domnul
@@ -71,7 +65,6 @@ femei cancer mamar, după cum au constatat trei grupe de cer cetători care au l
 independent unele de altele, la Boston, Bristol și Helsinki.
 Aș dori acum să dau acces bolnavilor la forța lecuitoare și acțiunea unor plante im-
 portante, prin experiența mea din ultimii doi ani și jumătate, adică din timpul scurs de la
-3
 
 apariția broșurii „Sănătate din farmacia Domnului", și să le întind mâna pentru a se însănătoși.
 Este înălțător ca omul să poată ieși din disperarea pricinuită de boală, prin propriile sale forțe și
@@ -123,7 +116,6 @@ Aș mai dori să vă îndrum spre broșura „Maria Treben's Heilerfolge" (Vinde
 Și încă ceva: Nu vând plante medicinale și nu prim esc com enzi de plante medicinale!
 Grieskirchen, mai 1980
 MARIA TREBEN
-4
 
 ## PARTEA GENERALA
 
@@ -168,7 +160,6 @@ se așează afinat pe bucăți de cârpă sau de hârtie netipărită și se usu
 porțiuni foarte zemoase ale plantelor este adesea indicată o uscare cu căldură artificială.
 Temperatura nu are voie să depășească 35 grade. Rădăcinile care sunt spălate temeinic,
 vâscul și pufulița ar fi bine să fie tăiate înainte de uscare.
-6
 
 Numai plantele foarte bine uscate pot fi păstrate pentru iarnă. Cele mai indicate în acest
 scop sunt borcanele sau cutiile de carton ce pot fi închise. A se evita recipientele din plastic
@@ -213,7 +204,6 @@ până la gât, fără a se îndesa, iar deasupra se toarnă rachiu de fructe sa
 este lăsată să stea, bine închisă, la loc călduros (cca. 20 grade) 14 zile sau chiar mai mult,
 timp în care se agită des, apoi se strecoară, iar ceea ce rămâne se stoarce bine. Uz intern:
 amestecate cu ceai, tincturile se iau sub formă de picături; uz extern: frecții sau comprese.
-7
 
 ## SUCUL PROASPĂT
 
@@ -263,7 +253,6 @@ turnat în apa de baie. Durata băii - 20 minute. Inima trebuie să stea în afa
 de 1 oră.
 Baie de șezut Pentru 1 baie de șezut se iau numai 1/2 găleată de plante proaspete
 sau aproximativ 100 grame de plante uscate și se procedează ca la baia
-8
 
 completă. Apa trebuie să ajungă până deasupra rinichilor. Trebuie respectate indicațiile de
 la fiecare plantă în parte!
@@ -288,7 +277,6 @@ de vată sau celofibră. Să nu se uite în nici un caz ungerea pielii cu grăsi
 aplicarea compresei! Dacă apar mâncări, ungeți locul cu pomăda de filimică.
 Cu aceste comprese nu este obligatoriu să stați la pat; dacă sunt bine fixate .-poate
 ședea sau chiar umbla cu ele prin casă.
-9
 
 PLANTELE MEDICINALE din farmacia Domnului
 ### BRUSTURELE* (Petasites officinalis)
@@ -332,7 +320,6 @@ ca o roată de caș, de aceea numele de „cașul-popii". Nu există probabil de
 crescuți la țară care n-au mâncat aceste
 Am trecut plantele în ordinea alfabetică a denumirii lor principale românești. Celelalte denumiri populare de circulație mai
 restrânsă sunt enumerate tot în ordine alfabetică, în cadrul subcapitolului rezervat fiecărei plante în parte (n. tr.).
-10
 
 „rotițe de caș" sau nu s-au jucat cu ele. Florile,
 frunzele și tulpinile se culeg din iunie până în

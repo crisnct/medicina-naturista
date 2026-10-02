@@ -1,6 +1,6 @@
 # Miastenie
 
-**MESTINON** - 100 de pastile, produs in Germania, recomandat in miastenia gravis. BACIU ADRIAN - Alba-Iulia, tel. 058/73.94.25)
+**MESTINON** - 100 de pastile, produs in Germania, recomandat in miastenia gravis. BACIU ADRIAN - Alba-Iulia, )
 
 http;//
 

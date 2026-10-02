@@ -1,6 +1,5 @@
 CE INDICA
 POFTELE ALIMENTARE
-i
 Pofta de:
 Ce avem de
 Ce sa mancam in loc:

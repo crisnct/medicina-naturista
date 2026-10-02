@@ -8,485 +8,19 @@
 
 Prescription for Nutritional Healing
 Phyllis A. Balch
-Copyright O 2010 Phyllis A. Balch Revocable Trust
 Ediție publicată prin înțelegere cu Avery, membru al Penguin Group
-Toate drepturile rezervate
-Editura Litera
 O.P 53; C. P 222, sector 4, București, România
-tel. 021 319 6390; 031 425 1619; 0752 548 372
 e-mail: comenzilitera.ro
 Vindecare prin nutriție
 Phyllis A. Balch
-Copyright O 2014, 2019 Grup Media Litera
 pentru versiunea în limba română
-Toate drepturile rezervate
-Traducere din limba engleză: Aurelia Ulici
 Revizie traducere și actualizări: Georgiana Harghel
 Referent de specialitate pentru ediția în limba română:
 conf. univ. dr. Horia Bălan
-Editor: Vidrașcu și fiii
-Redactori: Georgiana Harghel, Ilieș Câmpeanu
-Corector: Georgiana Enache
-Copertă: Vladimir Zmeev, Vlad Panfilov
-Tehnoredactare și prepress: Anca Suciu
-Descrierea CIP a Bibliotecii Naționale a României
 BALCH, PHYLLIS A.
 Vindecare prin nutriție / Phyllis A. Balch; trad.: Aurelia Ulici. — București: Editura Litera, 2014
-ISBN 978-606-686-622-4
 L Ulici, Aurelia (crad.)
-6132
 615.322
-
-## Cuprins
-
-IE £— LUE EEERERESETERESEEUEUEVEVEVEVETUTESESAETERESETETESESTSPS ERETETESEVAVASVSASTEUN
-Cum folosiți această carte............iiiiveieiisttetitsi r ee eee ae eee
-Partea întâi
-Noțiuni fundamentale despre sănătate
-Întroducere......... c cit e t et o tt o aE A AA aă a a a an
-Nurriție, dietă, vitalitate........oeooeeseceeci eee sni o ee s ee s eR nS
-Înțelegerea bazelor nutriției.........-.... ooeiincieiieoaiieeaaeanaaie
-Indicații de bază pentru alegerea
-și prepararea alimentelor.....iomomeoceeiciecicieiee eee eesitniaae 21
-VITamÂNEe...ooieeciei eee eee te e aE eeT OTT A e E a a 26
-A
-Sintetic versus natural..oliciiicicococieieieiriseteeittentatatate a
-a
-Ce se găsește pe rafturi............... liiiiiiiiiiiiiti e ti a iintctnii
-Vitaminele de la A la Z....iiciciei ee e eiei eve ee eee eee ta a 27
-Minerale...........ooco ccc eee eee aE ESR EE 40
-Ce se găsește pe rafturi..........ooooeoeeie eee eee eee a eee 40
-ABC-ul mineralelor...........oiiiiie e i t c aaa a eee 40
-F C SESTETEEETESEEIEESEEEEUESESEEIUEETTITETIEEATEUITEUITESIUEEUEUISERUIAVIUIVUNNA 51
-Ceînseamnă poluarca aerului?......iiscesesieesesesetesesi ee eee 51
-Poluanți majori............iii e e e c toi eee s a eee eee tetee
-V4V 5.: METTEUEELTEETEETEETEUTEETELUPETTETTETIETIETASTETEEEAEA VTSS UST ISUIIEIIESIASIA
-Apa de la robinet...........ioie eeo o ee eee te ee nt eee eee a eee
-Apă îmburteliată........... c eee e e e eee eee eeeR e
-Aminoacizi.....ooeoiiriseote ereteeneta ee aeaant a e a a a a SAT E a eee 60
-Ce se găsește pe rafturi.............. o ol l l l o ol lo ieneeeeenene 62
-ABC-ul aminoacizilor „.imoiiiiieieieieieeeieeeieiiat e atatata a en eee 62
-Patsls[e) <[«—.i41* DOSTETETEUETEUEESAUETETETETETETETETETEUSUSUTETE TE TET TETETETITIAA 71
-|5/57AUs sT EEIT IE USET TUTUTUT TE TELTETTEVEATETEETEUVEVSOTETTETEPTESIU IEAREUREVUAT 78
-Funcții ale enzimelor......isioiiceieieietrarate eee tteoet eeavtetetenenene 78
-Enzime din alimente........... ociiit e ootatt ee tttttt esă tast eeentaee 79
-Ce se găsește pe rafturi..........ociiii e i e ti eee eee ee eaeta 80
-Suplimente alimentare naturale..............osiiiicoiiscti e cicei 82
-Ce se găsește pe rafturi..........oii eee e e eee ee eee e a tneenenene 82
-Plante.......eco eee eee eee ee oo e a ee t a a a a 101
-Fitomedicamente: puterea vindecătoare a plantelor...... 101
-Alte sisteme de vindecare bazate pe plante................... 102
-Folosirea plantelor medicinale.......siisisisesisieninesiiiiaitsena 103
-Sfaturi și precauții „...loireceleieeieieeteiititiaiateteasatntatateara aae 104
-Plantele și utilizarea lor.........ois isit ee stistt s setani e oo e see 105
-Plante medicinale după tipul de acțiune și țintele
-din organism?.......ooiecee cc intane s netenta eee n as a enen ae eee 133
-Înteracțiunea medicamentelor............. eiei c iiiiiiit deă 136
-Partea a doua
-Boli și disfuncții ale organismului
-Întroducere..........iiece itit ostett a sO eT ATT IT ES PDER E TE NRR T3 141
-Detectarea bolilor.......... eee e a eee 142
-V- 5T RUEEUEEEEEUAUIEE ETUUUUUTAEUEUAAEEURVAEEEEUTAEEUTAEEETIAEEUUAAAERETANI 146
-V toi:T=iUEUUUUIEUEUEEEEEEEIEEUUUAUUEUTVAEEUUTAEEEUUVEIEEUUREEETREEEEUAVVEESITI 148
-
-7 Adrenoleucodistrofie.......oiiiieieeiieiieeoeeoeiaaesa eee a ee ea eeă 152
-9 Afcă (ulcerații aftoase)..........oieiieisiieeee oo ea eee s ee 152
-F S-151e7A [REETEETIETETTETIETOSTUEESATEUITEREUISUUSEUUUIETIEURETREVEEUTERIETEEI 154
-AlcaloZă...ocicie ee c isiasa s r as aE ES EE DIRR a a a 154
-Alcoolism...ocieiiec r eee ee eee OOORT eee a t eee 154
-13 Alergie la Însecte.........scoicri ee ee oee eee ntten eee a a a 161
-15 Alergie la înțepături de Însecte..........iiioieieceiriisiiieeevae 162
-15 Alergii Lirieieiitiiiiieteteetntataesea ee a e at eR OADE OO eee 164
-Alergii la substanțe chimice..........ooioieieietesietestateneaeaae 180
-Ambliopie.......irriciaiitaeeeeiienaeaaeeee ee a a 181
-na
-V11 [<.1= F EEGESETETETETETASASTTETETETETESETASVETETETE TE TESETETASTSUSTEVENENE 181
-26 26 Amigdalită.....iici ee e eet eee eveatat a tas a sACE S EE EED 181
-ANEMIe,... iiei s a eee aE ECDER e DET a 183
-ANBÂDĂ Poeiieiiee eee a a A SRR SS OP AEE EET TE ES DA 186
-Anorexie Nervoasă.............iirieeiieiiiseristtet a ae t o eee a ee vana 186
-Apendicită.......iiiiii ee eee eee nee a nen eee eee ntat eee a e a a e a a 189
-Apetit SCĂZUL........... e e e ee tii oeee tteonoe e etta eră ta aaee a a a 190
-Arsură SOJaTĂ....ooioiiec o eee reeit a ranetn ea 848a ee n e p ee o eee ee ADE EAT AE 192
-5SI V< 1155 DERIERIEEIEUEUIIESERIEUEEEUEREEEUEITERIUSTETEUTERTEAEERREARERTRUAURNUNI 195
-54 Arterioscleroză.... oieiiieiieeiiatet r e 0a ee s EAR E IAR e ee eee e a 197
-54 ATTTĂTĂ coliieei eee eee r eeeo ee pR C EEIR C A ES ECI AEE CR a e eee 200
-57 Artrită reumatoidă..........oriioii otee v a e r s ee r e a eee eee ee n e eee eee 210
-V<* a Lo ERIEEOITIUIEERUEETIUURIEUEEEEURIEETEEUUREEEREAITEUAIEEAAIUTTAUURTA 210
-V4 1:-) d[-EURRETIERUEEIEETIUEIIETIUETIEUUEETTETEEEAVUUIUREEATEEUTEAATEVAEAREU 215
-Ataxie Friedreich.....oioiioiieciee c eee a eee vt eee e eee 215
-n
-Ateroscleroză........... s isitiiieti it ee i a s eee a eee a ee r ee 215
-Atrofie multisistemică cu hipotensiune ortostatică....... 215
-AUTISM „ocecceieeete r eve r dae OI ITR OO DEDR EI A RIN EEIR EDE PA DR e eee 215
-AVOLT eee eee aneotaanera a n erAOS OAOADERT VA REDTATR ALOT SANEN FRRR a 219
-Bătături și calusuri........... oce o te eee st s a ata eee a eee 220
-BIefarnită......ooeree ee r eeeeooo ee a ntant e r e a a deR DAD OI ET DE A ROT IA DER RRR 220
-Boala Addison.......oiociee oo ee ieai e iE A EER n eee n eee 220
-Boala Alzheimer.......oiocieiie ee s r tai r s eee eee noa eee ee a et 220
-Boala Binswanger...........iiiiiiiiieiitiitttt ee ttetitnta a atnnae 228
-Boala celiacă........ ocieeiee ee e i e r ee EEI ODERR a eee a 0a 228
-Boala Crohn......isiiiesi ee ee s ee sT E SA EE eeR eee eee a 231
-Boala de inimă.....oomiceee eee c ee siE eee n eee a a 236
-Boala de reflux gastroesofagian (GERD)................oii.. 236
-Boala Graves.......oiieciirieciresniriastt r iER AE AE CE a c a a a eve 238
-Boala hamburger............. e i i o e eee ee eee ee a eee 238
-Boala legionarului............olcile cc e e e os eee eee eee 238
-Boala Lyme.........oieie ee eee eee eee t ee t eee eee eee eee eee 239
-a
-Boala Machado-Joseph (MJD).........oococcieisicisse eee 242
-Boala maniaco-depresivă/tulburare
-Boala Mâniâre........ oo oieiie eee eee oo 245
-Boala osoasă Pager........iiiiiisiiiiii s eee n eee teenenoteneene a 247
-o
-
-Boala Parkinson.......eiiissire ee c eee tesnet ee eee t s a r GR ANR eR A 250
-Boala parodontală........oeiiii e i ee t ee eee tt eee eneietatea 254
-Boala pulmonară obstructivă Cronică........oeoooeoiieiiiiiiii 258
-Boala Raynaud/Fenomenul Raynaud.......................... 258
-Boala WilSon.......iiciseieete ee s eti s t eee ENA G SEeeEE ES EE SE A 259
-Boli afective de sezon (SAD)....iiciiieiieeiiseiieie rr et eee 262
-Boli ale gingiilor.......oiiie e eee eee eee s eee e eee 262
-Boli ale vezicii biliare (colecist)........oooiiiececiciii ee sicnniidi 262
-Boli cardiovasculare.....oomseoiirecireieereiesezeavegeane eee r ee na a 265
-Boli cu transmitere sexuală (BTS)..ooescecesseecctessanevanti vă 278
-Boli de ficat......eciiieec eer nes s eee enee aneee oo na r ee e ee 280
-Boli de gură și de gingie......ooieieieieice eeei i ee eee 280
-c e
-Boli endocrine..........ioiie o r i s eee ee ena eee ee ane r s eee eee ee 280
-Boli rare „ommeiiicieeeseeeisstti s oR IT DIR R SDE ARR E D r 283
-Boli transmise prin alimente și apă........siseseiieisereneeieiei 294 |
-Boli venerice......... e ee c e o e a e eee e a n a 300
-a
-Bronșită...ooieieeeceeeeeiciniaatetntst EA EEIR E SET ET ANA ER EA AI 300
-BruxisM „iiicecieeeeiiisanttran e s asR RS IDE EOT EDET F ADR a eee 304
-Bufeuri....ooiieeriseecisesi s t e oo ee a ee G eeeR E Te EST A OGE SE DER eee 305
-Bulimie „.iiiciiereiseseisaasteat ooT OOO DERT EA P RRR EET RO GR AD 305
-BUISĂtĂ. ol iee eee eee r e s EST E AA VER EA A AA E e RR A aR n 0A r 309
-6=1: 7. — SERIEREREURUEEUREEEURITITEEUUOSUSUUEETOUEUTEEETUUUTUTEUIUTEAVEUISIEE 311
-Autoteste pentru Cancer........o.iooiiiiie e etiist a an a aea 322
-Cancer de piele......eiiiciii s asst ee ee a s e e NAR 331
-Cancer de prOSTată......iiiiieieeeetiteseterete eee eee ratatatae 337 |
-Cancer de SÂN....eecisseiisesos e st ee sOT EET OOO SDEP RT A eT e 343
-Candida deprieesseeiisossttenitenetane ee a e aeee tt eeeR AAR NEA OER 353
-Candidoză.......eeiiiiieceiisnei eee rr s a e n eee r a e a a 353 |
-Cangrenă........ooi e o eee eee a s ee SE 356
-Carență de Cupru...........eii e i i t eee a a a a a eee 358
-Carie dentară..........eeeiiesttttt s ttt s tt o t a eR O T ROT aR ATR SS 4a 359
-Cataractă.....iiieeiieeisieiienei r a r rD rR aRT EDA A A a 362
-Cădere a părului...eiicicisssescreeeint a stat ee eee ee a ee GA 302
-Chelie.... ioiieeeeeei e eeeeee ee t e t a a e EDA OOO OOO RRR OT O OOOT G DERT I OE SR eR e 365
-Chist sebaceu. „..iiciieeiieeiieeiit eeeee ia ee rr EEI eee 365
-Chlamydia.......0. eee eee eee eee ee eee a eee eee 366
-Ciroză hepatică...........oioo eee oo i ee eee a na eee 367
-CĂSTĂTĂ.ovosees s nei ee eve n eee eee a de A PR A DNET ADER E GOT EA SA 372
-Colesterol ridicat......oiieeiiiesecite eee ceete r s eee s t g a eee D ee SS 372
-COlITĂ iieriiesereorisaso r ee r ee Te O ORT GR AEER PRR EA TT A e 375
-Colită ulcerativă... oioiieeeireeiioses r ee căne r ee r eeR D EA EA SA e 375
-Conjunctivită...iiciieiieiie s sessei eeeă a a ee a ee 379
-Conjunctivită epidemicăacută...........oooomoicoceieocenineliiie 379
-Constipație........iiriiisiire s ee s a 8 ET PED NE ES ES 379
-Convulsii......oecei eee ct eee a E EEI EEI IASNER E OOR RRR a 382
-Crampe....ooieciee eee eee oo eee a a a ee eee e 382
-Crampe la picioare.......ioiieoieoecee eee eee eee ee ntt e ta ee eee nea 382
-Crampe menstruale............o de ee e e eee eee oe ae eee 382
-Crampe musculare.......imiecisieisates ee tiesaeteseia eee steaeaeat ee 382
-Crup oo o eee 384
-Degenerescență maculară..........seisiiiisttiiitt eee ae 385
-Dependență de droguri.........ieieiiieii s eee senetisaeneaneonne 385
-Dependență de fumat.............. e c e e ee eee eee ee 389
-Depresie........cicieieieiereie eee a a a a a a a ee 393
-Dermatită.....oocece ccc eee cr o sorieantna a s ttS SAD SOREDAR GE 000R a TER0A 400
-Dezechilibru acid/alcalin....mmoiieecireriresoisteianeeta ee neeta s 402
-
-Dezlipire de retină.........ocoiiiei e s itiiiasaiese eee a eee aeate a 406
-DIiaber........ocecerieeee eee ee eee eee a a a a 406
-DIaree..iiiiieeei c e iiseeeii s eee gen e r eee e RRR AA ADDR ROT aR ER 418
-Disfuncție erectilă......ioeisiceieiei ee ie eee ee ee s tnneeetanan e aane 420
-Dispepsie...........iiieiei i iitti a a otet aaa a eee t a a tatae 423
-DĂstimie....icoieiicsiiaseaaattarenese ră et ES AEE EO EE E EA EE A GA 424
-DĂSstonie...... eeere eee ee a eee 424
-Diverticulită.ooseeesesiseoeosrtit eee eee eee eee E E SS oG aE 424
-Discromatopsie....iiiiiieisiseieeseeieisete s eee a eee 426
-Durere de cap „ocseceiieieiceiei eee iti as rae e s AT a A e 426
-Durere de spate.........oiiiliiieii eeeă a eee a eee 433
-Durere În BÂC.......eieis e r e ie eee t eee a a a eee a ee n a€ 437
-Echimoză (vânătaie)........oseiiseeii s e t eee eee ee e eee ee 439
-BCzemă........ o oo e a a a o ea eee 441
->7« [<. » EURIEEUREEUAEEUURSEUTESEUATEUTUIEUTAEUIUEUUATETIVEUIIURTUATATESVAREUNI 442
-Emfizem......iiiiser e r eee e eee i r s n e A REEA G EDET TER I 1 RRT DERT S 443
-Encefalomielită acută diseminată.........isiisesserisseittiatniă 446
-Endometrioză........iicei eee e i ee aeei ee attt a r e rER EI aRRADR ER SA 446
-Enurezis „ooiieeeeee r eee eee e t eet a eee t e AAT EED EAA EDER EDRR A T 00aR RRR e 450
-Entorse, întinderi și alte traumatisme
-ale mușchilor și ale articulațiilor............. eve iiiiiiini llă 451
-Epilepsie........c.ciii e e t ece eee eee eee s ee eee eee reee 456
-Erupții...erieiieeie ee eee ee a E E e 461
-Erupții cutanate..oliiseiseiseiieiseississiant e ne s eeeR EA ES DNA 464
-DĂ = 11 SEEREEREEAREEURESUREEURTEAEEEUAEERASEUREEAATEAASEUREERAREEAAAERANI 465
-Expunere la radiații „..oiiisosiieieisssii s ntt ee t ES o eee ne 468
-Fasciită plantară......iciciiiiriciririr eee teten ee eteterere rr neea eee 471
-zS +3 DERRREEETESEUREEREAEERASEEUAVERASEEURUEEUTIEEUAEEUTAEUTIEEUREEEAAAEUTRERANI 471
-Febră a fânului.....omicoiiee ere e r eee I a 473
-Febră reumatică........oooiiseciieeciiaeeiaan e a ee a r eeR aR eee 475
-s
-Fenilcetonurie....iiimsieeimiiiesiroteneteneta e a GAS EA EE A SER 478
-Fibrom uterim..........ooli c eee eee a e eee s eee rA e ITR E 0 478
-Fibroză chistică.......iisisesiosesssssesrt e săa eee EA EA O ES EO EO SER 479
-si[< O TE DOSERRISEETRUREEETEUUSETUSTUSEUIUSEEUETVUTEUETISEUUAVIIEEUUVIIEERAIEEUA 483
-Fotofobie.......... o ee r eee eee eee e TET R ee ee nene 483
-Fractură....ooooeciiiee rr eee iE A II ee ee OOT S aR 0a ee 483
-Frigiditate........... c c o eit to eee eee t eee S eee eee ee 485
-Furuncul „.iiieeoiiei ee s s es s AT EE AEE O ES OG eee n eee 486
-Gastroenterită......oooooieii eee iineit eee r o eeT EI I ee D eee 488
-[E;]-—T51=.] 1 EPETETEATETEREE ATT ES ETEUEATETESTETEVETTA SET SRT TSAEAVETIVSAT 488
-GINgIVITĂ.ioiieie eee eee eee eee eee ee eee eee eee eee 488
-GIaucom...oiecilieiiaeitestaei o TeT AI AI NTT TE E O GG3 488
-Glomerulonefrită.......... oo ili ee e ra eee eee a ES ee a ee 491
-Go
-Greață matinală........... c ee ee eee eee eee tt eean ean e s eee net 491
-Greață și VOMă.........imiiei e o niti ee ne e t eee nte r n eer a e st eee 491
-GrIpă. lo eee 491
-GULĂ, eee eee s eee rr eee OORRI OADED O IDT EE EEI ES OS EDET I DERR AEER 495
-Halitoză (respirație urâr mirositoare)................imod06.... 497
-Hemofilie......ocosie c eee r eee ta ee r ee rr RED A OOT SE ANE F RO DAR S 499
-Hemoragie nazală........... o ooeee eee 501
-Hemoroizi...eoeceeie r eseseeneten eee a t aa e rA a t EDAT IDSD EER E EI AA RENR E 502
-ș- »-i5 E SESTETEUSUEETETETETETETETEVETELEUSAVETETETEVETEVESETETSPERTATATEREVENE 506
-Hernie hiatală.......... oo eee ee aea eee s eee oo r a r ee a 509
-Herpes bucal (herpes de febră)............. oo iciiea a 509
-Herpes ZOSTEr........iiesiissiiao eee e eee t eee ee ee eee eee a 511
-
-HipertiroidisMm......riiseieii s e rr at s eeă rA eee 517
-Hipertrofie benignă de prostată.........iiiiieieiiiiiieiiieiene 518
-Hipoglicemie (nivel scăzut al zahărului în sânge)......... 518
-Hipotensiune ortostatică......immiieiiiiiiriteieiierteeieri ee eee 522
-Hipotiroidism........oioiiie ee eee eee eee a r a a€ 522
-HIV/Virus al imunodeficienței umane........................ 525
-| [«« = UREEROREETIUTUATEETEETAEEET EETUSTETITESUUTETIATEU UT UAETETEEUATTIVAEANUI 525
-lederă otrăvitoare/oțetar otrăvitor/sumac otrăvitor
-(OtrĂVITE CU) „esisesssraottase r e SE DADE TE SE NIART D OR EE EGESRe SS E 526
-Indigestie (dispepsie)............oioieie e r re eee teieta eee 528
-Infarct miocardiC........ooseceii s eee ronseert a ttne e r g an eee n r eee a 531
-Înfecție fungică.......iciiiiiieire eee eee eee nee ran a a eta eee 538
-Infecție herpetică............oolirini c itte eaa eaaa ee nt a a eee 540
-Infecție a urechii.......e.eociieiieiei ee titit e eta ee r a tt a aet S 544
-Infecție a tractului urinar...............mimmisiie e tiititiatt a te a 546
-Infecții ale vezicii urinare (CÎSTITĂ)...isisiisisesereirereieieiene 546
-Infecții micotice (vaginită MicoTiCă)....o.omoeneieieieieicinle l 549
-Infertilitate........ ioeecererasc eee e n eee eee a r eeeR ee t ee SR AAR eee 1 549
-Inflamație.......oseie eee eee estete ee eeeă S SA A€ 554
-Încontinență.............. m o ee ie r ii e t a a eee AEET A A ee 556
-Însomnie.......... iise s s s a a a a a A OOO GG 557
-Insuficiență renală........[iiiiicitt c iitte e ră eee a eee a a eee 562
-ÎIntoleranță ereditară la fructoză....iioesesiieieieieeneii eee 565
-Intoleranță la lactoză (deficit de lactază).........ieiosed0iedl 565
-Întoxicație cu arsEniC.......ciseisisiiriiiisesetestnta s nta ee s eee 566
-Intoxicație cu Cadmiu..........imicicit e it eee nt eee ee eee 567
-Întoxicație cu CUPTU.....lmieiececececi eee inieta ee a ee ten a netetae 569
-Intoxicație cu plumb......oococeirieoeioe eee e s a s eee tete r 570
-Întoxicație cu substanțe chimice..........lemiciecicieieiiiieleli 574
-Îmbătrânire.......eieoccect o ccc ociee e s era SE EE EED E EE 575
-Înțepătură de albină.....iieciieeireeei eee r ee v eeT ne r eee ee 585
-Leucodistrofle........iicierieotees e ene eee ee n eee ee eee 586
-LEUCOIEE.... iiiec eee s e s s see e e ee OE ee IEA e eee 586
-Leziuni musculare.....ooeeci e seeii eee oo anet e a e eee nta se eee 586
-|51:31.—1-1 + DISRERETETESEEEETETETETETETETETESTETELETETETETETETESTETETETETETETETES 586
-LUPUS..ieecee eee eee eee eee aT DE AE eee 587
-Malnurtiție.......oeiie e e ta e eee eee e a ee ee ee SA ee 590
-Mastită (infecție a sânului).......oooeieeieieieiei eee ee eee 590
-MĂătreață........siriere e t eee e eee et ee a eee DA D G e eee NA 593
-Melanom..........isieireseeiteroa sav e a ee r aeee rD PSR ED OS ENA AER 594
-N S: T5T-5 1£ MOERSRETETETEREESESETETETETETETETETETEL SE TETETETETETETEZEZETEEeSES 594
-Meralgie parestetică.........osiscieiciiiiieiiteatttitiiei e ittt a ttete 596
-MICOZE „oooiissieeeiiiieesset e t eee a o t e rr AE RR RRR AEERR ee 596
-Migrenă........ii e e t a e tt o a a a eee s e tnat ee a a e 596
-Mononucleoză.........eoiiie o iot a tt ade e eee r eă oa ee nt ee t eee nen a n e 600
-NIIE o- 120 5£ EOERERERESIETETETEVEVETETETETUSTEVETETETETEVETESESTETETETETETETETET 603
-Mușcături de CÂÎne........miicieiete e ta a ee ee na eee eee eee 603
-Mușcături de păianjen și înțepături de scorpion........... 604
-Mugșcături de șarpe......ooocicicieieiei e ti o iet ee et eee 606
-Narcolepsie.......iieies eee eee eee a eee ee e eee ee a a 608
-INEfTĂTĂ... oecce cc o start s n r eee OS oR DA AER ee eee A 611
-INS S ERIESESTETETTETETETELTETETEETSEL IETITIT TETE TITIT IES L ES ETE TE TAZEE EA TRZEZI G1l
-Nervozitate..........oociec iseeiie e ita e a a eee a an e a aR A 613
-Obezitate.......... ooieisesi e rr e eta eee a e t a ee a eee NEA 613
-OFreion.......ieeeieiiiti eee tt ee rtn e an ee e SER SCEP ADET ARR AA 623
-OSsteoartrită „.ooiiiiiiieoiiecieenitsei eee eee eee eee r RO ET EA 625
-
-Osteomalacie.......sooereseestis o oo s t a sR A SET EEI EE EPR EA 025
-OSTeoporoză........iii iti e e iE sO eee neSt e r eee a ee 626
-ONTĂVÂTI lo ise eee s s T AC ECA ee eee 632
-Pancreatită....... ocoirc e onci r ee r o r a eee ee DECE A E P 633
-Paralizie Bell.......o.ociee eee ee s ee s a SS AEE ee eee 635
-n
-Pete Bitot....ooiiccieiiec eee eee iE TE TG A TET ES Te 635
-Pete de bătrânețe............ o ioceciicecotatetetttt e t e ttt e eee nt eee 635
-Picior de atlet.........ooiiee eee s eeet seee eee r ee a t EIFRR C e r eee a 637
-ST -: 51 POSTEETETESTETETETESTE VEE EVETESVETEVETIUTESESTOTETESEATETETETTEAE 638
-Piele uscată........oisireiiieiteeeeit ar i eee e eIe E a 640
-SNR
-Pielonefrită........eooiee c eee o e eni s eee r eee PDE PR LR SA 0 643
-Pierdere a auzului...........iciieeiesie eeie r s a a eee GAS 643
-Pietre la rinichi.........oiieece ee seee eee o ee t a a n e AEET a eR A 648
-Pinten (de călcâi sau de 05)....ooileceiiissseisssari s ee tt a seane a 651
-|IST») <- -PRESERVUEEUUUVIEUTAUTESUTUUEEUUSAEEUITIEEUUUIIESUUAIEUUVIEUTVRAEUTI 653
-PKU iiiiiee s eer e r sriaee r e s a EEST RED EPS AEER AC PAC FR eee 653
-Pneumonie..........iiiiii etti r ee ta a t ee i aR 1GO ECS OAR e I oGoR e 07 653
-e[SESEETSESEETTEETEETESTEETELTEETUETEETUETEETEETOETTESTEUTEUTSPTEUTEUTSEVAETEA 655
-|[+]51+) EOEEEERETEREETEUEREETEUEATETEVE EET EFT TETEVER TET EATETETEATETEREASENE 657
-Probleme ale aparatului circulator................iiiiiciieiicle 659
-Probleme ale pielii........ ccc le e i o ieereeeeeeeeeteateae eee eee 662
-o
-Probleme ale tiroidei.......iocioie ee eee eee e eee s s eee t a eee 662
-Probleme ale unghiilor........... iii e eee eee ee eee eee 662
-Probleme de colesterol..........moiiei it e onn s at eee eee a 665
-Probleme de creștere.............iiiiiiiiiitititti d aă ee ta a e 665
-e
-Probleme de greutate................. c e e it e itiittt eee 667
-Probleme de memorie..............ieci ccc c eee c eee eee eee 667
-Probleme de menopauză și perimenopauză.................. 671
-Probleme de ochi........osscc e sitt c teee o entt ease s e a eee v a eee eee 678
-Probleme de somn..........ooriiise s e tta nos naet să ee re ee TEET ES 03 695
-Probleme de ten.....ooiiiecee r ee serti e enitt a ne e a n ee o eReT 1aR eeeă 695
-Probleme legate de alăptare............ ioie e ee ee eee eee 695
-Probleme legate de histerectomie..................iciciiiiiiiiii 696
-Probleme legate de sarcină...........isiiii i eii e stiitt riaa ee 699
-Nurriție sănătoasă în perioada sarcinii.......misssseieieiiiiiit 709
-Probleme privind presiunea sângelui..........oicisciiiiilleii 713
-Probleme privind zahărul În SÂNge.....oiimiriiereiececieceeieie: 713
-Prolaps Uterin............. s e ii - e. it e să a ă a a ee a a ee a e 713
-Prostatită/Prostată Mărită........----- o oo c ccc ccc eee eee 714
-Psoriazis.....oioiiiiiiereroe eee ee r eeR R OD a eeeR a eee 717
-| 4119011 £ EREREIEATERSETETEETEUEETEREEETETEOTETEETESTEUTETELTETETUETEAUSASSTTSȚI 720
-Rahitism/Osteomalacie..........oosscict c ttt s s t e tt a an a ntctttttt e] 720
-Răceală.....ocosec r eee s sa ee t ee OTR IEA A e e G E AAR S ee 721
-Răceală obișnuită........ilieieiiittt eee ee e a t eee eee nenene 72*
-Răni din cauza mișcării repetitÎve......oiimeoimeiecieieicecii l. 726
-Rău de mișcare........icicicici i i e e a tt a a aă ntnt ee 726
-Respirație rău mirositoare.............iemreieciviieiiitiios e ai l t 727
-Retinită pigmentară.........omooeoecee eee eee eee ttei a t eee 727
-Retinopatie diabetică.............. iiiii ă t eee na ee r 727
-Riduri...iiiieeci eee s eent a n e a e n e a n e eR EE S SER EO aE eeeeee 727
-Rinită alergiCă..iiiiiiiisisicstetitet e s asă eee ee eee eee DDD e 731
-Rozaceea.......oii eee rr itet e ti a ttii ap a R ee SDSDOOO e ORR ANE PAR S AA 731
-Rubeolă (pojărel).......oliceiii eee ee eee ee eee 733
-Sarcom Kaposis..........isiiii o -o e t e ă o a eee n ee 735
-Sâni fibrochistici.........iieiii o oei lee eee e a aen ee et ee caaatnne eee 735
-
-Schizofrenie.........isssceiiii a tenett oe s ee ADE OOTT DRR E ATR RRR AA 738
-SCIATICĂ.,.ooierosecesn eee eee eee TE P EPA EST O E EESE DE GAATT RRR 741
-Scleroză multiplă...........siiiiiiii e t s tt a eee a ee eee 741
-SCOTOML... iieeee s s eee r i s e t D DI O ODRR EED EEDR EDE PAR AA PAR eeR eR ee 746
-T+ +) 1- EREEREEUREERUREETEAUETIUEUUITETUUTETIUTEUITETUUEETITEE TUTU TUSEAIAATNI 746 -
-Senilitate (demență) „.ecisieisieieireiissetetes e eini s eee eee 748
-SIDA (Sindrom al imunodeficienței dobândite)......... 751
-Sindrom al articulației temporo-mandibulare.............. 737
-Sindrom ATM....iiisoiisestsesitnats a tt a a a e nt eOA aRR AA 758
-A
-Sindrom Brown-Sequard..........iiiseieiestiesa s s eee enata e 760
-Sindrom Cushing..iciiiesososeieictetist s a ee rr S ee r ES ee 760
-Sindrom DOWI..oiccicciceecenissit ent a e a ee TE RO GO TR ARR 760
-Sindron de malabsorbție............iiisieii ee ti ee at eăă ae 762
-Sindrom de tahicardie posturală.............. o eciie e eee 765
-Sindrom de tunel carpian.....osscisiiissiiaeisat ee r e s s ee a 765
-Sindrom al imunodeficienței dobândite....................... 769
-Sindrom al intestinului iritabil......... osec eee rr c eerene v ee 769
-Sindrom al oboselii cronice.....omecociseeeiiseeeitestnitnnaenia ee 772
-Sindrom de fibromialgiei...........odosiii e c t s tst o tiiinteieae 777
-Sindromul ÎovV........iceii e ettt c e t e oo eee tt s eee a nVDA I ORee DER 783
-Sindrom premenstrual.............imiiiiiiitti să t a t e s a a eee 783
-Sindrom piriform...euioecieieieeeieoeiesttteteta eeeta e a enant eee 786
-Sindrom Reye.........o c e o t o ti s i eee o a ee eee r e onesaeen e a: 786
-Sindrom Wilson.........mcoiiserite er a eee t eee ee ră eeeT n eee 788
-SÎNuzită...oooocc cc l eee eee eR AAR AEE E I AA ARED IIA A EEDR 788
-Sistem imunitar slăbit......eoiieecieei r eee eee r ee ee r eee ee 791
-Spondilită anchilozantă.......moiiicieieiiieie s eee ee eee tetetetee 797
-STFES Lociiieeieeaaetrt ee a a DE OOL OA A OS EOOLOOO AE AAR EDE E SE EER SDSD O OS S IDS 0a 797
-Subponderalitate/Pierdere în greutate.............imieii... 803
-"Tendinită......oooioeecoce s ett s eee ee DI r EEIT DADE CIT EEI aR t EA 805
-'Tic dUFeros.......ieciriieii eee r e s a eee eee n e a n OT P OS a R 805
-"Tinea CrUTIS....ooocco c eee eee r ee DER IE OO EDDR O O a 805
-TITINUS cooooio eee e eee a E EED DERR a a a a a 805
-TOxicitate „ieseiissseretiesert r a nttee a SST ADERDAA EDET D DEDT AAPRREAD ERR AA 805
-Toxicitate a aluminiului..........oo ee ee ie ee ee ni eee ee eee 805
-'Toxicitate a mediului........ooeeecce eee e o s ttttti ree a s o ttttt e a neti 807
-Toxicitate a mercurului.........oreiesecseseeteest ee a a nte eee a 810
-Toxicitate a nichelului......... socisee eee eee a eee ee eee 812
-Toxiinfecție alimentară................ eee ee oo vaneazee 814
-Transpirație Lisiseiesiisesteressestetarsta e a s ee a eee SET A ER NA 814
-Tromboflebită........ o cece e eee s eee a t e a enen s e r t a st RED ee A aR EA 814
-'Tuberculoză.......ecci r eerei e atee ee r a a n E PA EEIIEA EREI A EDER EA 817
-Tulburare cu deficit de atenție (ADD)/Tulburare NII
-hiperkinetică cu deficit de atenție (ADHD)............. 821
-Tulburări anxioase......oisiieeiseeiteetsattstt ee s ee rr T ee neT ARnte 825
-Tulburări bipolare..........ieiiie eee eee a eee saen a ee 830
-Tulburări de alimentație............ o de eee eee eee eee 830
-TUMOAre....ooosiri o se ee eeeee r EST O DEDT OICT AA OTR EE FeR 830
-6)[« - DIEEOETEEUREETESEVEEUSTEUIURIUSEETITETESUEEUTUTAEUTTEUTIEAVAEVTEASUNTA 833
-Ulcer corneal........oooiciie ee eee ee a a eee ee AA CA e 833
-Ulcere (ulcerații) ale picioarelor.............oiiiciiiiii e itiiiiii 833
-Ulcer peptic.....iisiriirisstiits s eee nsa s es a AEE EE SAR ee 835
-Urcior oliieeeeeiiiieee eee t en eeaRT D D A e 839
-Ureche a înotătorului........oioeeo eee ise v ee s oo a ee t a eee eee a 839 b(+)
-Urticarie....iioeoeeee ee eee EI A OOO OST nE e 839
-0- = MEESUEEEUUUUUUUUUUEUEUTTUTUNUATEEERESEEEEEEEEEEEEEEEUEEEEUEEEUEVERUAAAANI 839
-
-AEI::355l C ERPESTEEEETETETUPETEEETTETTEETEUTEELTEESTEETEEUTSETISETTEEUTEUTEEUUA 839
-Varicelă „emrierieeeiearosssnet s rA E SAT OAEO EPA NSAT E AEE OSE ESOVR A 841
-Vene Varicoase.........iieiiseiiieeii ee r a st iET a PAD DEACS AAR FR GGR a 843
-VErBETULI „iiiieiieiit s ee a e s SS EE DADE e a eee 846
-11) PEEZETETESTETETETIUTETETUETEVEVELUEVETESTETELILVETETESTETEVEEVPVERASTOTENI 846
-Viermi intestinali (paraziți)......isisirieiireiietit eee nene 848
-VIIOZĂ cociceeiee ee ee rr renten e oD OSOE O VAR D OSADE A RENR OOOR RRGERR ea ee 850
-Virus Epstein-Barr..........iisi e ii eee a a a eee 850
-/1:1) (: PRETETETEEETETETETESESESESTETEVETETETETETETESTETETETEVESESESRETEVETEVET 850
-Xeroftalmie....iisi eee rr eee eee eeea ee r ee r ne r ee Fe eeT EET eeT IANS 852
-Zona zoster (herpes ZOSTEI).........oimieieieieieie eee eee 852
-Partea atreia
-Remedii și terapii
-ACUPTESUTĂ „ooooieeei eee r eeee ee ee AIE P EST EE a a rA: 862
-AcCUpunctură...i..iooieoee eee s tesei ee tasanettett eee ee a a eee eee 862
-Analiză a firului de păr.......ooocicce eee ooei o eee a a eee seneten 862
-Aromaterapie și uleiuri esențiale...oisioiieceieiioeiieneeienee 862
-Băi de ȘEZUL......ooeieocieeieiio e eee ee t a eee ee ee eee eee 865
-Biofeedback............. oo i l e cc ena eve r 805
-Chiropractică „..ieiiiiiisisseisstietetesestta o itt eee ee r ana s r senotene 865
-Clisme (folosirea clismei)........oiociiieeoiecieene v neno ee ra ee ea ee 865
-Controlul durerii..oooeleeeeeoeei eee eee eee eee eee t ee n eee eee 868
-Curățarea colonului..........ii eee i s e eteee eee s n eee enenene 875
-Folosirea cataplasmei.............. ooioii eee n eee o a eee 876
-Hidroterapie...........ooiooei e e ee eee eee eee r o ant eee eee 877
-Hipnoterapie....liciecie eee eee eee eee eee e eee 878
-a
-Homeopatie....ioiieieeieieeti s ee eee ee aE E eee 878
-Imagini ghidate....iiiriririieirisiietieiite eee eee anene 879
-ee
-Inhalații cu aburi..........oioe e eee i eee eee eee eee e s ee r ee 879
-Lichide terapeutice.........omeieoeie ee ie eee eee eee eee nenenn e 880
-Magnetoterapie.......oicrecieieeiei r eee SE aă 880
-MASaj ioiiiiiiiiiieieiiei eee 880
-Medicină chineză...........pi o e c c i e t eee iti eee eee tenen eee nene 880
-Meditație........oooieiecic r eee eee eee eee eee aE a 881
-INLTE — (SEEEETEEETEESTEETEEETTEETEEETEETTEETUESTEETETETTEUS EP ETERESAAEEESEAAN, 881
-IC. SETETETETSTSU ST SRTUTETETETET UVVUTIT UUTETESETETERETE E EVSVIVIATETEVETENE 882
-Pregătire pentru operații și refacere postoperatorie...... 884
-Purificare a sângelui........ o oooe e eee ee ee ee eee eee 887
-Remedii ayurvedice.......ooioieiieiereei ee eini ee ia a eee 888
-Spălături cu acid ascorbic..........ooleieeiei eee eee iin eee otanaane 889
-TeE) s PIRERSESERETERTEREVO ER TTE OVU TETEU SE EESERETERTETEVSUTETEVEATEVETIAT 889
-Terapie cu hormon de creștere............cieieiiiiiiiii e iiiiiii 891
-Terapie cu lUmină........ieieieieie eee ee ea ee rr ee eee eee en eee 892
-Terapie cu oxigen hiperbaric............sii e i iiiieietiiiiiieiiie 893
-Terapie DHEA....iiiii ccee eee eee ee eee eee a en eee 893
-Terapie cu hormoni (glandulară).....olioiiieoeiiieeieenneneea 894
-Terapie prin chelare..........ileoietctic e t eee e tt a t at a ee antne e 896
-Terapie prin culori (cromoterapie).........o.ocicicilelieniiiili 899
-Terapie prin pietre și cristale........omoiieieieeeeiieieeeeeeiieieae 900
-Terapie prin sunet și MUZICĂ..........pi ooee ceceet ee ia că ee eee 900
-Terapie TENS..iciecice eee eeiee eee eee s s e ant se tnt a eee at eee 900
-— SUSEUSETUESSEUTEUUEETEUTESTFETUTEEESEETSEUSESIETUTOU TURT TETIEAVEAISAUNUNI 900
-Glosar.ioeiiieeereei ee eee s eea eee o a a teeT aRT EA ES EE OT TT PA 905
 
 ## Prefață
 
@@ -1787,7 +1321,6 @@ pot sănătoasă. Dacă produsul este cerat, curățați-l de coajă,
 cât mai subțire posibil.
 au Cele mai multe fructe și legume ar trebui consumate
 enzime întregi, inclusiv coaja care conține nutrienți importanți.
-23
 
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 Când mâncați citrice, înlăturați coaja, dar mâncați partea
@@ -1981,7 +1514,6 @@ legume, orz, orez brun, ceapă
 uleiuri presate la rece: porumb, șofran, susan,
 uleiuri măsline, soia, floarea-soarelui, rapiță; margarină
 făcută din aceste uleiuri; maioneză fără ou
-25
 
 ## Vitamine
 
@@ -2196,7 +1728,6 @@ de a numărului enzimelor hepatice și mici crăpături și răni pe
 Ul/zi) buze și la colțul gurii. O cantitate excesivă de vitamina A în
 timpul sarcinii este asociată cu defecte din naștere, inclusiv
 de cu palatoschizis și cu disfuncții cardiace. E mai bine ca în
-27
 
 timpul sarcinii să se ia beta-caroten. Dacă aveți o anumită
 boală care necesită doze mari de vitamina A, folosiți emulsia,
@@ -2630,7 +2161,6 @@ de vitamina B,,, precum vârstnicii și cei cu afecțiuni
 intestinale, trebuie să facă analize de sânge. În plus, cei cu
 probleme cognitive ar trebui testați pentru a se vedea dacă
 rare, nu au niveluri scăzute de vitamina B,_.
-31
 
 Vegetarienii stricți trebuie să știe că pot lua vitamina din
 suplimente, pentru că această vitamină se găsește aproape
@@ -5197,7 +4727,6 @@ apă. țevi sunt rar folosite astăzi în construcții, dar pot exista
 fost în clădirile vechi unde nu s-au realizat lucrări de renovare
 extinse. Dar dizolvarea țevilor poate fi o problemă chiar cu
 mod țevile din cupru de astăzi. În apa dedurizată din țevile de
-55
 
 a
 ajunge cantități periculoase de cupru, fier, zinc decât
@@ -6426,7 +5955,6 @@ teci-
 Izoleucină
 Izoleucina, unul dintre aminoacizii esențiali, este necesară
 pentru formarea hemoglobinei, stabilizând și reglând nivelul
-67
 
 de zahăr din sânge și nivelul energiei. Se metabolizează în
 țesutul muscular. Este unul dintre aminoacizii cu trei lan-
@@ -7719,7 +7247,6 @@ mâncare.
 - Digestive Aid £ 34 Food Enzymes conține pancreatină și
 bilă de bou, fiecare tabletă având capacitatea de a ajuta la
 digerarea a 34 g de proteină, 120 g de carbohidrați și 21 g
-80
 
 de grăsimi. Bila de bou este un supliment benefic pentru
 persoanele cu boli ale vezicii biliare.
@@ -8184,7 +7711,6 @@ comestibile. Clorofila din chlorella poate ajuta viteza de
 curățare a fluxului sangvin. Chlorella este foarte bogată în
 ARN și ADN și s-a descoperit că apără de efectele radiațiilor
 ultravioler. Studiile au arătat că este o excelentă sursă
-86
 
 proteină, în special pentru persoanele care nu pot să
 mănânce carne ori care au decis să fie vegetarieni.
@@ -8332,7 +7858,6 @@ femeile îngrijorate de cancerul mamar și pentru bărbații
 preocupați de cancerul de prostată. 7-Keto DHEA este o
 bună alternativă pentru DHEA, fiind mai sigur și având
 aceleași calități.
-87
 
 Dimetilglicină (DMG)
 Dimetilglicina (DMG) este un derivat de glicină, cel mai
@@ -8981,7 +8506,6 @@ neutralizator asupra tractului intestinal.
 din Dacă aveți nevoie de un supliment mineral, lucerna este
 ele, o bună alegere. Face bine suferinzilor de artrită. Lucerna,
 iarba de grâu, ovăzul și spirulina conțin clorofilă și ajută la
-93
 
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 vindecarea ulcerelor intestinale, a gastritelor, a bolilor de de
@@ -9215,7 +8739,6 @@ i- tu se i în ca z u l in f e cț ii l o r Autorități și
 cu vârsta cuprinsă între 2 și 18 ani.
 care | persoane certificat eficiența majorității
 grupuri medicale cunoscute au
-95
 
 împotriva răcelii și a gripei. Mierea oferă o
 preparatelor Este un antiseptic natural și
@@ -10445,7 +9968,6 @@ părului.
 Eficient Sub formă de ceai, are gust
 ca laxativ șicurăță colonul. infestăricu foarte amar.
 de colon, în constipație și În
-107
 
 ### Plantă Substanțe chimice
 
@@ -10496,7 +10018,6 @@ zeaxantină. Nutrienți: aminoacizi,
 calciu, fier, magneziu, mangan,
 fosfor, potasiu, zinc, vitaminele B,,
 B,,B,,B, și C.
-2357
 
 ## --*
 
@@ -10664,7 +10185,6 @@ calciu, acizi grași osențiali, folat,
 fier, magneziu, mangan, fosfor,
 potasiu, seleniu, ZINC, vitaminele
 B, BB și C.
-237
 
 ## m T ț
 
@@ -10736,7 +10256,6 @@ riscul de sindrom Reye,
 o complicație periculoasă
 care afectează ficatul,
 creierul și inima.
-110
 
 ### Substanțe chimice
 
@@ -11021,7 +10540,6 @@ digestia, stimulează a petitul și intensifică
 Ucide plasmodiile (organisme care produc
 și viermii. Bună pentru circulație și
 pancreatite.
-113
 
 NOȚIUNI FUNDAMENTALE DESPRE SĂNĂTATE
 
@@ -11656,8 +11174,6 @@ tanini. Nutrienți: calciu. și
 
 ## EE
 
-120
-
 ### și utilizare Observații
 
 ca laxativ, analgezic șiadjuvant pentru
@@ -11954,7 +11470,6 @@ zeaxantină. Nutrienți: calciu,
 fier, magneziu, mangan, fosfor,
 potasiu, zinc, vitaminele BB
 B,B, și C.
-35
 frunze Substanțe chimice utile: adenină, Acționează
 alantoină, aucubină, apigenin, tractul
 acid benzoic, acid cafeic, acid
@@ -12004,7 +11519,6 @@ problemele cardiovasculare, bolile inflamatorii
 intestinelor, reumatismul, turnorile Și ulcerele.
 Tabebuia avellanedae poate ajuta la e T ET
 refacerea pielii după fu expunerea rr la P fungi și drojdii.
-123
 
 ### Plantă Substanțe chimice
 
@@ -12698,7 +12212,6 @@ cupru, acizi grași,folat, fier, mucoaselor
 magneziu, mangan, fosfor, îngrijire a
 potasiu, seleniu, sulf, zinc, părului
 vitaminele B,,B,, B,, B B C și E.
-23
 bulbi Substanțe chimice utile din Detoxifică
 Usturoi („căței“) plante: alicină, beta-caroten, funcția
 (Allium sativa) beta-sitosterol, acid cafeic, acid ajută circulația.
@@ -12994,7 +12507,6 @@ cascară sagrada, gheara mâței, cedru,
 neagră, schindel, guarana, lemn dulce, muira
 usturoi, ghimbir, gențiană, ștevie galbenă, yerba
 de oregon, pau d'arco, rozmarin,
-133
 
 c i m i f u g a, ț e l i n ă, c h an c a
 Mușchi g h e r g h i n ă, c a s t a n e p o r c
@@ -13136,7 +12648,6 @@ t u k o l a, g u a r a n a, s o v â r f d e a p ă, g u a r a n a, n a l b ă,
 k a v a, a r m u r a r i u, c o a d a v a c i i, u r z i c ă, p ă t r u n j e l,
 m ă c e ș, t r i f o i r o ș u, p a l m i e r p i t i c, p l o p, r ă d ă c i n ă d e
 u i, o r e g a TTTT n o s ă l b a ti c, i g n a m ă s ă l b a t i c ă
-135
 
 ## Interacțiunea medicamentelor
 
@@ -14833,7 +14344,6 @@ zilnic a injecții, folosiți forma de
 fiecare vitamină sublinguală.
 pot varia). administrare
 complexului
-156
 
 sau Vitamina
 administrare Conform indicațiilor Adesea lipsă la alcoolici. cu
@@ -14928,7 +14438,6 @@ cprectaț ea degenerării
 1 200 mg de 3ori Egîttlélgrgtrâsa' împotriva
 e zi înainte de mese. — cirozei
 _
-I
 de Conform indicațiilor Combinații eficiente care
 de pe etichetă. reduc transformările
 ficatului gras,
@@ -15222,7 +14731,6 @@ celulele săbea, chiar după ani de
 a p, A Un fost alcoolic care va reîncepe ficatul ca și cum nu ar fi încetat
 s tă abstinență, își va distruge
 niciodată să consume alcool.
-159
 
 Medicamentul naltrexonă (ReVia) blochează efectele de
 Q plăcute ale opioidelor endogene, substanțe asemănătoare cu
@@ -15276,7 +14784,6 @@ Psychology. atenție au fost de cinci ori mai tentați să folosească droguri
 ilegale, altele decât alcool sau marijuana, la vârste fragede.
 Este o variabilă deosebit de importantă, când este vorba de
 manifestările comportamentale opoziționale și tulburările
-160
 
 conduită. Factorul de risc al lipsei de atenție este legat de
 istoricul familiei ca element de predicție.
@@ -19769,7 +19276,6 @@ unele cazuri, afectează ficatul. Persoanele care îl iau ar tre-
 bui monitorizate îndeaproape. Dacă se prescrie acest medi-
 cament, doctorul va trebui să facă o analiză a enzimelor
 hepatice din sânge.
-209
 
 Q Pentru unele forme de artrită pot fi prescrise medicamen-
 te ca hidroxiclorochina (Plaquenil) și compuși ai aurului
@@ -19822,7 +19328,6 @@ de aer“. Simptomele tipice ale unei crize de astm sunt tuse,
 respirație șuierătoare, senzație de gheară în piept și difi-
 cultate de a respira. O criză poate dura de la câteva minute
 până la câteva ore.
-210
 
 Spasmele care caraterizează atacul acut nusunt cauza bolii,
 ci rezultatul unci inflamații cronice și al hipersensibilității
@@ -20032,7 +19537,6 @@ pentru subțierea sângelui ar trebui să consulte medicul îna-
 inte de a folosi spilcuța, din moment ce combinația poate
 provoca hemoragie internă. Ceaiul verde conține vita-
 mina K, care poate face mai puțin eficiente medicamentele
-212
 
 anticoagulante. Consultați-vă cu medicul dacă le folosiți.
 Cafeina din ceaiul verde poate provoca insomnie, anxietate,
@@ -20194,7 +19698,6 @@ puiul
 astm. (Vezi Stres, Partea a doua, p. 797.)
 și Q Evitați părul de animale, aditivii alimentari, tutunul și
 alte tipuri de fum și aminoacidul triptofan.
-213
 
 Q Dacă suspectați că acarienii din praf sunt vinovați de
 simptomele de astm, încercați să climinați insectele micro- și
@@ -21540,7 +21043,6 @@ Q Studii făcute de Alzheimers Association și studii ale
 Department of Research de la Oakwood College din Hunts-
 ville,Alabama, SUA, au descoperit că extractul lichid maturat
 de usturoi (Kyolic) se poate dovedi util în ameliorarea
-226
 
 simptomelor bolii Alzheimer. Kyolic apără celulele de efec-
 tele toxice ale beta-amiloidei.
@@ -21705,7 +21207,6 @@ produce substanța numită apolipoproteină E4 sau APO-E4
 care transportă colesterolul prin sânge și schimbă forma
 amiloidei în creier. Persoanele care moștenesc o copie a genei
 prezintă un risc de a face boala Alzheimer; cei care moștenesc
-227
 
 două copii din genele alele sunt supuși unui risc chiar și mai
 mare.
@@ -22133,7 +21634,6 @@ Pentru confirmarea bolii Crohn poate fi nevoie de o serie
 de analize. Pot fi făcute teste de sânge pentru determinarea
 care anemiei și/sau a numărului mare de globule albe. Medicul
 poate face o serie de radiografii ale tractului gastrointestinal
-231
 
 superior ca să vadă intestinul subțire sau o colonoscopie,
 prin care investighează interiorul intestinului gros, folosind
@@ -22618,7 +22118,6 @@ dozele recomandate sunt pentru adulți. Pentru copii între
 recomandată. Pentru copii între 6 și 12 ani, folosiți jumătate
 din doza recomandată și,pentru copii sub G ani, folosiți un
 sfert din cantitatea recomandată.
-236
 
 ### NUTRIENȚI
 
@@ -22827,7 +22326,6 @@ picăturile condensate de apă, deși uneori se găsește în zone
 unde s-a excavat pământ și în solurile abia arate. Perioada
 de incubație este între două și 10 zile după expunerea la
 bacterie. Boala nu se transmite de la o persoană la alta.
-238
 
 Primele semne de boală pot semăna cu cele ale gripei —
 dureri musculare, oboseală, dureri de cap și febră moderată.
@@ -23043,7 +22541,6 @@ bacteria care cauzează boala Lyme.) Pot apărea frisoane,
 febră, dureri în gât și vomă.
 . Peste câteva săptămâni sau luni, poate apărea paralizia
 facială care imită paralizia Bell. În acest timp, pot apărea
-240
 
 și aritmie, mărire a mușchiului inimii, mărire a splinei și
 a glandelor limfatice și dureri severe de cap.
@@ -23249,7 +22746,6 @@ bănuiți că este o căpușă de cerb, mergeți la medic imediar.
 . Dacă faceți tratament pentru boala Lyme și nu vă simțiți
 mai bine, repetați testul. Este posibil să fi apărut rezultate
 fals pozitive și să aveți, de fapt, o altă problemă.
-242
 
 **Observații**
 Q Femeile însărcinate trebuie să evite cu mare grijă zonele
@@ -23622,7 +23118,6 @@ urechea internă și, la femei, retenția de lichide în perioada
 premenstruală pot fi legate de boala Mcniere. Pot fi implicate
 și consumul de droguri, fumatul, traumele și sindromul arti-
 culației temporo-mandibulare (ATM).
-245
 
 Boala Miniere afectează, de obicei, adulții (mai mult
 bărbați decât femei) între 30 și 60 de ani. Boala Meniere
@@ -23674,7 +23169,6 @@ plus, retenția de lichid.
 suplimentar,
 vitamina B, 100 mg de 2 ori pe zi.
 (piridoxină)
-246
 
 Vitamina C 3 000-—6 000 mg zilnic, Crește activitatea siste-
 cu în doze împărțite. mului imunitar. Folosiți
@@ -23832,7 +23326,6 @@ se fac raze X sau analize de sânge din alte motive. Cauza
 de nu este cunoscută, totuși unii cercetători bănuiesc o infecție
 o virală a oaselor, care progresează încet. Au fost înregistrate
 cazuri în cadrul aceleiași familii. Totuși, boala Paget nu pare
-247
 
 să fie transmisă de la o generație la alta, o descoperire care o
 face să fie considerată mai degrabă o boală infecțioasă decât
@@ -24048,7 +23541,6 @@ te produce remisia simptomelor în două săptămâni și
 duce la ameliorări în două luni. Cu toate acestea, medi-
 camentul poate duce la afectarea rinichilor și la distru-
 gerea globulelor roșii din sânge.
-249
 
 ## BOALA PAGET A MAMELONULUI
 
@@ -24483,7 +23975,6 @@ of Unele dintre celulele nervoase din creier sunt specializate
 să folosească fie dopamina, fie acetilcolina pentru a trans-
 mite mesaje diferite, în funcție de scopul lor. Controlul
 grave mușchilor netezi are nevoie de un echilibru între dopamină
-253
 
 și acetilcolină. În boala Parkinson, există un dezechilibru și
 între cele două.
@@ -24749,7 +24240,6 @@ să amestecați conținutul cu pasta de dinți sau să utilizați un
 extract lichid în același fel. Asigurați-vă că nu înghițiți pudra
 și clătiți-vă cu atenție gura. După o lună, schimbați marca
 de pastă de dinți. Nu rămâneți la aceeași marcă; unele mărci
-256
 
 Precauții: Nu luați gențiană intern, zilnic, mai mult de o
 săptămână o dată. Nu o folosiți în timpul sarcinii sau dacă
@@ -24971,7 +24461,6 @@ blocanții alfa și beta-adrenergici — produc fenomene similare
 cu cele ale bolii Raynaud ca efecte secundare. Cercetări
 recente au legat fenomenul Raynaud și de alte maladii
 implicând constricția anormală a vaselor de sânge, incluzând
-258
 
 migrenele și angina Prinzmetal, un tip de angină provocată
 spasme ale arterelor coronariene. (Vezi Probleme ale apa-
@@ -25024,7 +24513,6 @@ suplimentele luate.
 Colină Conform indicațiilor Scade colesterolul și
 și de pe etichetă. ajută circulația sangvină.
 inositol
-1
 l
 
 Dimetilglicină 1tabletă de 3 ori pe zi. Îmbunătățește
@@ -25183,7 +24671,6 @@ sunteți însărcinată, nu funcționarea corectă a
 depășiți 40 mcg zilnic. glandelor suprarenale.
 Usturoi Conform indicațiilor Un antioxidant puternic
 de pe etichetă.
-260
 
 Vitamina C 3 000—5 000 mg zilnic, Protejează împotriva
 cu în doze împărțite. inflamațiilor, a anemiei,
@@ -25401,7 +24888,6 @@ na C și de zinc. Cei care suferă de boala Wilson au o mai
 mare nevoie de acești nutrienți.
 Q Boala Wilson nu este provocată numai de nivelul crescut
 de cupru din organism. Nivelurile toxice de cupru pot
-262
 
 atinse și prin expunerea excesivă la acest metal. Dacă
 unui individ cu un nivel ridicat de cupru îi funcționează
@@ -25607,7 +25093,6 @@ pește fript, mere proaspete și sfeclă.
 Q Consumați proteine din surse vegetale. Acest lucru este
 în mod special important pentru bărbați. Fierul (numit
 hem) din carne (pește, pasăre și vită) se acumulează în
-264
 
 Este important și tipul de grăsime consumată prin dietă.
 Un studiu a demonstrat că aceia care mâncau grăsimi
@@ -26047,7 +25532,6 @@ Cupru Conform indicațiilor Carența poate fi
 medicului. asociată cu unele boli
 de inimă.
 ——
-268
 
 Melatonină 2-3 mgzilnic, luați cu Puternic antioxidant
 cel mult 2ore înainte de care poate preveni
@@ -28144,7 +27628,6 @@ intestinal și Boli cardiovasculare.
 Boala Refsum
 Boala Refsum este o boală ereditară a metabolismului gră-
 similor provocată de carența unei enzime care descompune
-287
 
 ## BOLI RARE
 
@@ -28576,7 +28059,6 @@ dis-
 să adoptați o dietă săracă în grăsimi.
 Q Transplantul de măduvă poate fi avantajos pe termen
 des lung pentru băieții care dezvoltă X-ALD timpuriu, dar
-X
 
 recomandat celor cu simptome deja grave sau celor care au
 debutul la maturitate sau în cazul formei neonatale.
@@ -29014,7 +28496,6 @@ de carne sunt sursele cele mai întâlnite ale toxinei. Toxinele
 poate sunt, adesea, rezistente la căldură. Simptomele toxiinfecției
 În cu G. perfringens se limitează la o stare de greață suportabilă
 și vomă pentru cel mult o zi, dar pot deveni o problemă
-295
 
 gravă pentru bătrâni și pentru persoanele cu boala Crohn
 sau HIV.
@@ -29222,7 +28703,6 @@ dacă Precauții: Siropul de ipecac nu trebuie folosit decât cu
 recomandarea medicului.
 sau Q Dacă simptomele de toxiinfecție alimentară sunt grave
 sau prelungite, consultați medicul.
-297
 
 BOLI = ȘI DISFUNCȚII ALE ORGANISMULUI
 
@@ -29947,7 +29427,6 @@ suprarenală suprarenale. (Vezi
 Terapie cu hormoni,
 Partea a treia.)
 —
-304
 
 S-adenozil- Conform indicațiilor Reduce stresul
 metionină de pe etichetă. șiacționează ca
@@ -30108,7 +29587,6 @@ bogate. Unii cercetători au arătat că bulimia poate fi asociată
 cu anumite tulburări în zona temporală dreaptă a creierului.
 Spre deosebire de persoanele cu anorexie, a câror autoîn-
 fometare devine, până la urmă, evidentă, cei cu bulimie își
-306
 
 pot ascunde boala multă vreme, chiar ani, pentru că, de
 obicei, greutatea lor este normală (unii sunt supraponderali,
@@ -30552,7 +30030,6 @@ Util -
 Bor 3 mg zilnic. Pentru oabsorbție mai
 Nu depășiți această bună a calciului.
 cantitate.
-310
 
 Coenzima Au 60 mg zilnic. Bună pentru circulație.
 Complex de 10(Îmgan fiecare Important în refacerea
@@ -31646,7 +31123,6 @@ Cu rol-cheie în sistemul imunitar al organismului,
 sistemul limfatic este făcut dintr-un circuit de vase
 care se ramifică și se răspândesc în toate țesuturile
 corpului — în mare măsură asemenea vaselor de
-320
 
 sânge. Ganglionii limfatici din abdomen, piept, zona
 inghinală, gât și de la subsuoară sunt localizați de-a
@@ -32447,7 +31923,6 @@ a consumat 5 porții de legume și de fructe pe zi nu au avut
 o rată de recurență redusă a bolii. Multe dintre substanțele
 chimice din plante au fost studiate pentru proprietățile
 anticancerigene:
-327
 pentru limfon non-Hodgkin și un altul pentru cancerul
 avansat cu celule non-mici.
 U Hipertermia, o procedură în care țesuturile corpului
@@ -32506,7 +31981,6 @@ Q Cu cât este mai scăzută concentrația în ser a mineralului
 seleniu, cu atât este mai mare riscul asociat cu mai multe
 tipuri de cancer, inclusiv leucemie, cancer esofagian, de
 plămâni, colorectal, de prostată, de sân și ovarian. Cu toate
-3
 
 acestea, conform National Institute of Healths Office of
 Dietary Supplements, SUA, nivelul superior tolerabil pentru
@@ -32561,7 +32035,6 @@ Medicine a arătat că pacienții care au fost tratați de cancer
 colorectal au avut o rată de recurență scăzută când au luat
 în fiecare zi o doză de aspirină și că aspirina reduce creșterea
 polipilor din colon care pot duce la cancer. Oricum, Nursess
-28
 
 Health Study, realizat la Spitalul Brigham din Boston, a ajuns
 la concluzia neașteptată că pentru femeile care iau aspirină de
@@ -32724,7 +32197,6 @@ pasiv regulat poate crește cu 20-30% riscul nefumătorilor
 de a face cancer.
 Q Există și voci care susțin că produsele lactare cresc riscul
 de cancer. Totuși, se pare că mai degrabă grăsimea este
-330
 
 problemă, nu laptele. Laptele de migdale, de orez și de
 soia sunt alternative cu un conținut scăzut de grăsime.
@@ -33588,7 +33060,6 @@ celulare ale cancerului. Dacă vă îmbolnăviți de cancer
 de prostată, doctorul vă va informa asupra scorului și a
 implicațiilor acestuia asupra șanselor de supraviețuire.
 Celulele tumorii, care arată la fel ca și celulele normale,
-338
 
 tind să fie mai puțin agresive, în timp ce acelea care sunt
 distribuite la întâmplare, cu margini neregulate, sunt mult
@@ -35282,7 +34753,6 @@ mentare. Aftele bucale, piciorul de atlet, pecinginea, eczema
 Hebra, infecțiile cu fungi ale unghiilor și chiar dermatita
 de scutec pot apărea ca urmare a unei combinații de alergii
 alimentare și C. albicans. Simptomele alergiei alimentare
-353
 1l Mâncați fibre în fiecare zi — fulgii de ovăz sau semințele
 de in sunt o sursă bună.,
 Q Beți numai apă distilată.
@@ -35679,7 +35149,6 @@ Conform indicațiilor Pentru refacerea
 aminocizi de pe etichetă. țesuturilor.
 esențiali
 în formă liberă
-5
 éuplimentar,
 L-arginină Conform indicațiilor Facilitează sinteza
 de pe etichetă. naturală a oxidului nitric
@@ -36653,7 +36122,6 @@ complex vor varia).
 ajută la însănătoșire.
 Folosiți o formulă
 tamponată.
-6
 
 Vitamina E 200 UI zilnic. Se poate Necesarăpentru
 deschide capsula și protejarea celulelor
@@ -38502,7 +37970,6 @@ tamentul pentru epilepsie, dar administrat și în tulbura-
 rea bipolară de dispoziție de către unii medici, este studiat
 pentru a-i evalua capacitatea de a calma crampele muscu-
 lare. În mod ciudat, cu toate acestea, efectele secundare
-384
 
 ale medicamentului sunt dureri musculare (în afară de
 tulburare a vederii sau de vedere dublă, amețeli, som-
@@ -39722,7 +39189,6 @@ lecitină Conform indicațiilor Precauții: Nu luați
 de pe etichetă. aceste suplimente dacă
 suferiți de tulburare
 maniacală (bipolară).
-395
 
 Acid gama- 750 mg zilnic. Luați cu Are efect tranchilizant,
 aminobutiric 200 mg de niacinamidă la fel ca diazepamul
@@ -39775,7 +39241,6 @@ sau cu accidente vasculare în istoric. Nu folosiți ginseng
 siberian dacă aveți hipoglicemie, hipertensiune arterială sau
 o afecțiune cardiacă.
 l Kava kava calmează și combate depresia.
-396
 
 Precauții: Această plantă poate da somnolență. Nu folosiți
 kava kava dacă sunteți însărcinată, dacă alăptați. Nu ar tre-
@@ -40993,7 +40458,6 @@ rii la adulții între 20 și 74 de ani și 44% din bolnavii cu
 insuficiență renală au diabet. Bolile cardiovasculare sunt de
 din două până la patru ori mai frecvente la persoanele cu dia-
 cu bet și sunt cauza principală a deceselor legate de diabet.
-407
 circulația.' |
 „
 Vanadiu Conform indicațiilor Ajută capacitatea
@@ -42108,7 +41572,6 @@ noisănătoase și
 îmbunătățește
 funcționarea sistemului
 imunitar.
-418
 
 mw Potasiu 99 mg zilnic. Înlocuiește potasiul
 pierdut prin scaunele
@@ -43960,7 +43423,6 @@ Vertebroplastia, pentru fracturile prin compresie verte-
 brală, ajură unele persoane. Este o procedură noninva-
 zivă și necesită inserarea prin piele a unui ac și de acolo,
 în vertebra afectată, a unei substanțe asemănătoare
-436
 
 cu cimentul, numită metilmetacrilat, care completează
 vertebra afectată, iar când se întărește (În cincisprezece—
@@ -48281,7 +47743,6 @@ Coenzima Q,, 30 mg zilnic. Susține sistemul
 imunitar
 și oxigenarea
 țesuturilor.
-478
 
 Extract Conform indicațiilor Pentru întărirea
 maitake de pe etichetă. organismului și
@@ -48707,7 +48168,6 @@ rezultate bune. Curcumina este un inhibitor slab de calciu
 și accelerează mecanismul de transport al energiei în celulă,
 care pare afectat la pacienții cu FC. Cercetătorii atrag atenția
 asupra riscului de a lua supliment de curcumină împreună
-482
 
 tratamentul clasic pentru FC, întrucât interacțiunile nu
 fost încă studiate. Deocamdată, cercetările pentru faza I
@@ -50585,7 +50045,6 @@ coagularea sângelui.
 și I
 magneziu 1 000 mg zilnic. Necesar pentru
 echilibrul cu calciul. Q
-I
 
 Injecții cu extract Tcc odată pe Conține nutrienți vitali
 de ficat săptămână sau pentru coagularea
@@ -50999,7 +50458,6 @@ gaze
 Precauții: Nu luați gențiană intern, zilnic, mai mult de o
 săptămână o dată. Nu o folosiți în timpul sarcinii sau dacă alte
 alăptați și folosiți-o cu grijă dacă sunteți alergic la ambrozie.
-I
 Dacă aveți un istoric de boli cardiovasculare, diabet sau
 glaucom, folosiți-o doar sub supraveghere medicală. ca
 QO pastă făcură din rădăcină de camfor pisată poate
@@ -52031,7 +51489,6 @@ Vitamina B, 50 mgde 3 ori pe zi. Reduce conținutul
 și scade presiunea
 asupra sistemului
 cardiovascular.
-I
 
 ### Plante
 
@@ -52982,7 +52439,6 @@ si enzimâtic
 de tiroidă crud medicului. t|r0|d|șn deficitar. (Vez:
 Terapie cu hormoni,
 Zîșîîtîăîlâl) gé'
-I
 tiroidă, precum Armour
 Desiccated Thyroid
 ;î?}'eăfsgâtneibîgx'
@@ -53827,7 +53283,6 @@ pot să înrăutățească starea. Antiacidele neutralizează acidul
 din stomac, împiedicând o bună digestie și intervenind
 absorbția nutrienților, întreținând indigestia. Antiacidelenu
 folosesc în cazul gazelor și al balonărilor.
-3
 Q Multe antiacide conțin compuși ai aluminiului, carbo-
 nat de calciu, compuși ai magneziului sau bicarbonat
 calciu. Antiacidele pe bază de aluminiu pot da constipație.
@@ -56281,7 +55736,6 @@ O inflamație prea mare poate dăuna, totuși, organismului
 ducând la imobilitate, pierdere a greutății și slăbirea
 țesutului muscular, precum și a capacității de a lupta cu
 boala. Bolile care implică tipuri și/sau localizări specifice
-554
 
 ale inflamației sunt bursita, sindromul de tunel carpian,
 fibromialgia, osteoartrita și tendinita, ca să numim numai
@@ -62782,7 +62236,6 @@ Piruvat Conform indicațiilor Ajută la pierderea
 de pe etichetă. în greutate și poate
 reduce grăsimea din
 COIp.
-616
 
 Taurină Conform indicațiilor Taurina este un
 de pe etichetă. elerment constitutiv
@@ -65876,7 +65329,6 @@ cu bolile de urechi.
 Potasiu 99 mg zilnic. important pentru
 sănătatea sistemului
 nervos și pentru
-25
 transmiterea
 impulsurilor nervoase.
 sau
@@ -74953,7 +74405,6 @@ cu în doze împărțite. imunitară,întărește
 bioflavonoide capilarele și acționează
 ca un antiinflamator
 moderat.
-732
 
 Plante
 Q Lucerna este o sursă bună de clorofilă, care are proprie-
@@ -82612,7 +82063,6 @@ dintoate suplimentele, I
 și
 Acizi grași Conform indicațiilor Elemente extrem de
 esențiali de pe etichetă. importante în dietă.
-804
 
 Complex Conform indicațiilor Pentru apartul de pro-
 de aminoacizi de pe etichetă. teine necesare într-o
@@ -88624,7 +88074,6 @@ ar trebui să fie făcute copiilorsub doi ani.
 de Procedură
 Pentru a prepara soluția pentru clisma cu ceai de iarba mârei,
 puneți 8 linguri de frunze de iarba măâței uscate Într-un vas
-865
 
 emailat sau de sticlă. (Dacă folosiți ceai de iarba mâței la
 plic, utilizați dozele recomandate pe cutie, pentru a face un
@@ -88836,7 +88285,6 @@ Nu vă speriați dacă lichidul nu este eliminat după 15
 minute. Ridicați-vă și mișcați-vă până veți simți nevoia
 mai de a evacua clisma. Nu folosiți acest tip de clismă zilnic.
 Limitați-vă la doar trei utilizări pe an.
-867
 
 ## CONTROLUL DURERII
 
@@ -89062,7 +88510,6 @@ ma- mâinile de-a lungul corpului. În timp ce inspirați adânc,
 că, ridicați mâinile în sus, în formă de V. Apoi expirați încet pe
 gură, revenind în poziția inițială. Reperați de câte ori credeți
 că este necesar sau până vă simțiți mai bine.
-869
 
 La fel ca meditația și vizualizarea, hipnoterapia este o
 metodă prin care un terapeut sau un psiholog poate induce
@@ -89283,7 +88730,6 @@ dere pasivă și mobilizare a țesutului de profunzime.
 pre- Obiectivele masajului sunt să detensioneze musculatura
 a și să promoveze flexibilitatea. Este o metodă eficientă,
 dacă este aplicată înaintea exercițiilor.
-871
 
 - Masajul suedez. Este o tehnică dezvoltată de Peter
 Hendricks Ling, la începutul anilor 1800, folosind fră-
@@ -89506,7 +88952,6 @@ timp după ce s-a vindecat problema de sănătate. Forma
 aceasta de terapie a dus la rezultate foarte bune în probleme
 cronice care nu au răspuns tratamentelor medicinale
 de convenționale.
-873
 
 ## TEHNICI DE RELAXARE
 
@@ -89719,7 +89164,6 @@ Precauții: Nu folosiți salvie indiană zilnic mai mult de o
 săptămână, pentru că utilizarea ei pe termen lung poate duce
 la toxicitate. Lobelia va fi administrată doar sub suprave-
 ghere medicală, pentru că este potențial toxică. Persoancele
-875
 
 cu hipertensiune arterială, boli de inimă, boli hepatice, boli
 renale, boli care se manifestă prin convulsii sau cu probleme
@@ -89937,7 +89381,6 @@ organelor prin intermediul îmbunătățirii circulației.
 Dacă îndepliniți anumite condiții, multe dintre tehnicile
 de hidroterapie pot fi aplicate și acasă. De exemplu, durerile
 musculare, umflăturile provocate de entorse și de întinderi
-877
 
 pot fi atenuate prin aplicarea rapidă a unui obiect rece. Un
 pachet de gheață, alternând o aplicare de 20 de minute cu
@@ -91004,7 +90447,6 @@ Cu Țineți postul timp de trei zile sau așa cum v-a prescris
 medicul/nutriționistul. După ce ați terminat postul, evitați
 gene- făina albă și zahărul — substanțe puternic rafinate și greu de
 de digerat. Stresul la care este supus organismul prin consumul
-887
 
 de astfel de mâncăruri poate anihila tot binele produs prin
 post. Ideal ar fi ca aceste tipuri de alimente să fie evitate tot
@@ -91217,7 +90659,6 @@ Pe însănătoșirea organismului, căruia îi oferă energie.
 Sucurile verzi pot fi făcute din lăstari de lucernă, iarbă
 de orz, varză, varză creață, frunze de păpădie, spanac și alte
 legume verzi, inclusiv iarbă de grâu. Pentru a îndulci și dilua
-889
 
 ## Pregătirea ingredientelor pentru suc
 
@@ -91422,7 +90863,6 @@ Terapia HGH este foarte scumpă, iar un program de
 terapie HGH poate costa peste 20 000 de dolari pe an.
 orez Multe persoane folosesc internetul pentru a cumpăra un
 tratament mai ieftin cu HGH. Din păcate, suplimentele
-891
 
 vândute online care susțin că ar conține HGH pur sunt,
 probabil, contrafăcute și nu-și merită banii. Orice cantitate
@@ -91638,7 +91078,6 @@ demonstrat că dozele mari pot provoca leziuni ale ficatului.
 Din această cauză, atâta timp cât se urmează terapia cu
 în DHEA ecste important să luați suplimente de antioxidanți
 ani. precum vitamina C, vitamina E și seleniu, pentru a preveni
-893
 
 efectul negativ de oxidare asupra ficatului. O sursă mai bună
 de DHEA ar putea fi 7-Keto DHEA. Această substanță
@@ -91850,7 +91289,6 @@ sau unpahar mare de apă. sistemului glandular.
 Cell Guard Conform indicațiilor Un complex de
 de pe etichetă. antioxidanți care
 conține SOD.
-895
 
 Vitamina E 200 UI zilnic. Scapă organismul de
 toxine, atunci când
@@ -92060,7 +91498,6 @@ depășiți 40 mcg zilnic.
 Usturoi 2 capsule de 2 ori Bun agent de chelare
 pe zi, în timpul mesei. și detoxifiant.
 unor
-897
 
 Vitamina A 2o 000UIzilnic. Dacă Ajută la eliminarea
 și carotenoide sunteți însărcinată, mai ușoară a toxinelor.
@@ -92279,7 +91716,6 @@ cu Negrul este culoarea „puterii”. Încercați să purtați haine
 care negre pentru a putea să vă simțiți puternici și încrezători.
 Un Negrul inhibă apetitul. Dacă vreți să scădeți în greutare,
 acoperiți masa cu o față de masă neagră.
-899
 
 ## TERAPIE PRIN PIETRE ȘI CRISTALE
 
@@ -92525,7 +91961,6 @@ puternic și de aceea se recomandă dozajul mai mic.
 sânge Mai multe informații despre suplimentele lichide, câr și
 despre sinergia hranei și practicile tradiționale, puteți afla
 din glosarul atașat acestei secțiuni.
-903
 
 ## "GLOSAR
 
@@ -92620,7 +92055,6 @@ un tip obișnuit de alergie.
 alilsulfide. Substanțe chimice utile care se găsesc în praz,
 ceapă, usturoi și arpagic și care acționează ca detozifianți ai
 organismului.
-905
 
 aminoacid. Oricare dintre cei douăzeci și doi de acizi
 organici care conțin azot (nitrogen), din care sunt făcute
@@ -93035,7 +92469,6 @@ genistein. Izoflavonă (un tip de substanță chimică utilă
 din plante) care se găsește în lăstari de lucernă, broccoli,
 a varză, varză creață și fasole soia. Ajută în perioada de peri-
 menopauză și poate preveni unele forme de cancer.
-909
 
 GERD. Boală de reflux gastroesofagian. Termen
 medical pentru un sindrom caracterizat prin frecvente
@@ -93240,7 +92673,6 @@ că înfundă arterele.
 lecitină. Amestec de fosfolipide compus din acizi grași,
 glicerol, fosfor și colină sau inositol. Toate membranele
 celulelor vii sunt formate, în majoritate, din lecitină.
-911
 
 leucemie. Cancer al țesuturilor care produc sânge,
 în special al măduvei osoase și al nodulilor limfatici,
@@ -93445,7 +92877,6 @@ legate de stres, cum sunt hipertensiunea și bolile de inimă.
 Metodă prin care pot fi reconstituite părți ale creierului
 păs- folosind izotopi radioactivi în scopul diagnosticării. Folo-
 sind mai multe tipuri de izotopi pot fi indentificate fluxul
-913
 
 de sânge cerebral, volumul sângelui, aportul de oxigen,
 transportul de glucoză, metabolismul glucozei.
@@ -93656,7 +93087,6 @@ pentru băi sau cataplasme.
 terapie cu radiații. Tip de tratament, cel mai frecvent
 folosit în cancer, care implică folosirea radiațiilor ionizate,
 de inclusiv raze Ro&ntgen, radiu sau alte substanțe radioactive,
-915
 
 ca să distrugă zonele anumite ale țesutului. Numită și
 radioterapie.
@@ -93846,7 +93276,6 @@ de insecte 142, 183-186, 245, 247, 260,
 713,717, 721,723, 725, 785, 803, 807, 810, 812—813,
 744, 751, 737, 824—-825, 802, 899, 908
 771, 773, 783, 785, Analize pentru apă 56
-917
 
 Anemie 30—33, 44-45, 47, 68, 90, Arsură solară 69, 113,
 94, 142-143, 178, 183-186, 188, 335,717, 727, 850
@@ -93864,14 +93293,12 @@ Angină 120, 143, 186, 197, 200, 512, 516, 517, 585,
 532, 600, 659, 906 Artrită 30, 41, 45,
 Anorexie nervoasă 144, 186-187, 145, 178, 180,
 189, 240, 247, 278, 353,
-667
 Antioxidanți 71, 73, 77, 87,261, 476, 495, 569, 571,
 310, 333, 341, 357, 440, 444, 454, 620, 643, 652, 659,
 482, 567, 388, 603, 682, 730, 735, 835
 895, Artrită reumatoidă
 747, 779, 795, 823, 836, 840,
 " 200, 208-210, 229,
-905
 659, 664, 687, 690,
 Apă 15,26
 873, 909
@@ -93924,7 +93351,6 @@ Biotină 32, 364, 402, 414, 662—663,
 197—198, 200, 265, 746—748, 907
 419—420, 460, Blefarită 220, 681, 692
 661, 667, 722, Boala Addison 220, 229, 281, 283,
-290
 85—86, 93, 142, Boala Alzheimer 24, 28, 39, 64-65,
 200-210, 215, 2235, 73, 83,91, 94, 96, 111, 115,
 367, 378, 403, 142-144, 220-228, 237, 245, 374,
@@ -93934,7 +93360,6 @@ Biotină 32, 364, 402, 414, 662—663,
 44, 86, 91, 122, Boala Binswanger 228, 287
 258, 522, 633, Boala celiacă 64, 143, 219, 228-231,
 695, 760, 793, 553, 565, 667, 721, 740, 748, 762,
-769
 Boala Crohn 37—38, 120, 130,
 66, 174, 290, 143-144, 152, 183, 231-236, 296,
 516, 712, 824 375, 378, 417, 505, 554,762, 772,
@@ -93959,7 +93384,6 @@ Boala legionarului 238
 156, 228, 242, Boala Lyme 143, 162, 164, 200, 210,
 712, 811 239-242, 465, 472, 745, 776, 782
 Boala Machado-Joseph (MJD) 242,
-286
 505, 548, 816 Boala maniaco-depresivă/ -
 220, 662 Tulburare bipolară de dispoziție
 197, 213, 241, 202, 242-243, 245, 307, 387, 395,
@@ -94076,7 +93500,6 @@ osteoporoză 38, 41—42, 44, 390, 678, G80, 682—688
 34, 51, 66, 84, 192, 18, 21,24
 331—337, 664, 803, Cerasomal-cis-9-cetylmyristoleat 86
 Chelie 125, 362, 365
-919
 
 Chiropractică 209, 429, 436—437, Compuși organici
 707, 766, 868—809, 909 Conjunctivită 30, 178,
@@ -94212,7 +93635,6 @@ Dureri în zona coastelor 703 508, 511, 543—545,
 634, 638, 716,
 E 816, 855
 Echimoză (vânătaie) 292, 439, 455, Extracte 101, 103
-910
 Eclampsie și preeclampsie 703 F
 Eczemă 41, 82, 84, 88, 94, 103, 115, Factori de risc
 123, 129, 161, 180, 240-241, 289,
@@ -94266,7 +93688,6 @@ Epilepsie 62, 66—67, 69, 88, 94, 384, Flavonoide 20,71,
 848 Flebită 116, 275, 483, 786, 843, 871
 584 Fluorizare 56, 462
 218, 239, 582, Folat 32-34, 63—67,70, 577, 754,
-765
 71, 75, 336, 363, Folosirea cataplasmei 103, 197, 439,
 632, 682, 7406, 807, 484, 605, 834, 861, 876—877, 915
 Fosfor 21, 23, 40-42, 45—46, 78,
@@ -94302,7 +93723,6 @@ Glaucom 30, 54, 147, 153, 170, 227,
 (PKU) 22-23, 248, 462,
 488—491, 681—682, 687—688,
 478, 628, 635
-692
 143-144, 478-—479, Glomerulonefrită 491, 692
 Glutamină 61, 63, 66, 91, 197, 227,
 37, 142, 144-145,
@@ -94393,7 +93813,6 @@ zahărului în sânge) 42, 63, 68—69, 465—466, 538-542,
 910 116-118, 122,
 
 215, 287, 546—548, 565, 702, 714—715,
-899
 70, 106, 142, Infecții micotice (vaginită micotică)
 281, 353, 364, 85, 540, 549, 786
 522-525, 558, Infertilitate 50, 115, 127, 228, 278,
@@ -94531,13 +93950,11 @@ Obezitate 15, 17, 45, 54, 64, 84, 94,
 522, 596—600, 659,
 318, 330, 341, 344, 375, 379, 403,
 868—870, 873—874, 407, 411, 414, 424, 434, 440, 495,
-906
 503, 512, 537, 550, 553, 556-557,
 169, 191-192,
 225, 237, 253, 595, 613—621, 623, 651, 666, 713,
 746, 753-754, 766, 793, 796, 814,
 276, 283, 304,
-830
 340, 349, 353,
 Ochi dureroși și obosiți 689
 399, 412, 429,
@@ -94728,7 +94145,6 @@ Semințe de in și ulei din semințe de 776, 786—788,
 in 83 Sindrom Wilson
 Senilitate (demență) 569, 577, 748, 788
 Sintetic vs natural
-751
 Sinuzită 27, 88,
 Serină 61—62, 67, 69
 501, 788,
@@ -94804,7 +94220,6 @@ slăbit 197, 286, 439, 890-891
 657, 691, 700, 765, Suplimente alimentare naturale
 788, 790, 824, 832, 82
 878, 882—-883 Susan sălbatic 99
-925
 
 Tai chi 445, 873 826, 848, 908
 Tărâțe de orez 29, 33, 62, 89, Treonină 61, 69

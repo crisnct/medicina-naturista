@@ -686,14 +686,11 @@ Caries ATCC 55730 First year life Infants Reduced prevalence of caries and
 gingivitis score when the kids were
 9 years old
 Stensson et al.,
-2014
 FAP DSM 17938 4 weeks FAP children Significant decrease in the frequency
 and intensity of functional abdominal
 pain
 Weizman et al.,
-2016
 FAP DSM 17938 4 weeks FAP children Significant reduction of pain intensity Romano et al.,
-2014
 Infectious diarrhea DSM 17938 5 days Children Safe and well-tolerated; decreased
 duration of diarrhea
 Dinleyici et al., 2015
@@ -717,16 +714,13 @@ Rosenfeldt et al.,
 Acute diarrhea DSM 17938 3 days Children Decrease in diarrhea frequency,
 duration, and relapse
 Francavilla et al.,
-2012
 Acute diarrhea DSM 17938 5 days Hospitalized
 children
 Effective decrease of the duration of
 acute diarrhea
 Dinleyici et al., 2014
 Diarrhea ATCC 55730 12 weeks Infants Fewer and shorter diarrhea episodes Weizman et al.,
-2005
 Diarrhea DSM 17938 6 months Children Reduced incidence of diarrhea Agustina et al.,
-2012
 Diarrhea DSM 17938 3 months Children Decrease in diarrhea episodes and
 duration; Benefits against respiratory
 infection
@@ -751,7 +745,6 @@ Roos et al., 2013
 Infant colic DSM 17938 21 days Breastfed infants Higher rate of responders and
 reduced median crying time
 Szajewska et al.,
-2013
 Infant colic DSM 17938 1 month Infants No effect on crying time Sung et al., 2014
 Infant colic DSM 17938 90 days Infants Significant reduction of the mean
 crying time
@@ -1272,7 +1265,6 @@ Garcia Rodenas, C. L., Lepage, M., Ngom-Bru, C., Fotiou, A., Papagaroufalis, K.,
 and Berger, B. (2016). Effect of formula containing Lactobacillus reuteri
 DSM 17938 on fecal microbiota of infants born by cesarean-section.
 J. Pediatr. Gastroenterol. Nutr. 63, 681–687. doi: 10.1097/MPG.000000000000
-1198
 Garofoli, F., Civardi, E., Indrio, F., Mazzucchelli, I., Angelini, M., Tinelli, C., et al.
 (2014). The early administration of Lactobacillus reuteri DSM 17938 controls
 regurgitation episodes in full-term breastfed infants. Int. J. Food Sci. Nutr. 65,
@@ -1438,7 +1430,6 @@ Nutr. 2013:481651. doi: 10.5402/2013/481651
 Keller, M. K., Nohr Larsen, I., Karlsson, I., and Twetman, S. (2014). Effect of tablets
 containing probiotic bacteria ( Lactobacillus reuteri ) on early caries lesions in
 adolescents: a pilot study. Benef. Microbes 5, 403–407. doi: 10.3920/BM2013.
-0089
 Kleerebezem, M., Hols, P., Bernard, E., Rolain, T., Zhou, M., Siezen, R. J., et al.
 (2010). The extracellular biology of the lactobacilli. FEMS Microbiol. Rev. 34,
 199–230. doi: 10.1111/j.1574-6976.2010.00208.x
@@ -1504,7 +1495,6 @@ Liu, Y., Tran, D. Q., Fatheree, N. Y., and Marc Rhoads, J. (2014). Lactobacillus
 reuteri DSM 17938 differentially modulates effector memory T cells and
 Foxp3+ regulatory T cells in a mouse model of necrotizing enterocolitis. Am. J.
 Physiol. Gastrointest. Liver Physiol. 307, G177–G186. doi: 10.1152/ajpgi.00038.
-2014
 Livingston, M., Loach, D., Wilson, M., Tannock, G. W., and Baird, M. (2010).
 Gut commensal Lactobacillus reuteri 100-23 stimulates an immunoregulatory
 response. Immunol. Cell Biol. 88, 99–102. doi: 10.1038/icb.2009.71
@@ -1672,7 +1662,7 @@ doi: 10.1097/MPG.0b013e31824d2548
 Raynaud, C., Sarcabal, P., Meynial-Salles, I., Croux, C., and Soucaille, P.
 (2003). Molecular characterization of the 1,3-propanediol (1,3-PD) operon
 of Clostridium butyricum . Proc. Natl. Acad. Sci. U.S.A. 100, 5010–5015.
-doi: 10.1073/pnas.0734105100
+doi: 10.1073/pnas.
 Reid, G., and Burton, J. (2002). Use of Lactobacillus to prevent infection by
 pathogenic bacteria. Microbes Infect. 4, 319–324. doi: 10.1016/S1286-4579(02)
 01544-7

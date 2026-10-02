@@ -305,15 +305,12 @@ _OCR-ul local nu a recuperat text suficient de fiabil din această imagine._
 
 ```text
 cB
-i
-20
 -
 Bu
 5>
 @ 6
 Ke
 >
-1
 ```
 
 ### Imagine 4 image2.jpeg
@@ -379,6 +376,5 @@ _OCR-ul local nu a recuperat text suficient de fiabil din această imagine._
 ```text
 tot?
 &
-ii
 a
 ```

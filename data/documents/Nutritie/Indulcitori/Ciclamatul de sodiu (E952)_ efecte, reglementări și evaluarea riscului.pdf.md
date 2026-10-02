@@ -28,17 +28,7 @@ pe NOAEL de 100 mg/kg (atrofie testiculară). SCF (Comitetul Științific al UE)
 kg în 1985 (temporar). În prezent, EFSA/UE mențin ADI = 7 mg/kg/zi (acid ciclamic) – o evaluare
 actualizată în urma incertitudinilor metabolice. Astfel, ADI-ul UE este mai conservator decât cel JECFA
 1 2
-2
-3
-4
-5
-1
-2
-2
-6
-5
 5 3
-1
 
 . Conform reglementărilor , ciclamatul sodic (E952) este permis în multe produse (băuturi,
 gemuri dietetice, etc.), cu niveluri maxime (ex. în produse de panificație speciale: 1600 mg/kg) sau la
@@ -65,7 +55,6 @@ ciclohexilamină.
 Autor
 (anul) Model Doză (mg/kg) Durată Rezultat principal
 Price et al.,
-1970
 Șobolan
 (♂)
 7.5% ciclamat +
@@ -98,7 +87,6 @@ al., 1985
 (in vitro)
 ciclomatul în
 cultură anaerobă
-8
 săptămâni
 (cultură)
 Metabolizare limitată (2–3% →
@@ -110,14 +98,6 @@ par relevante pentru niveluri reale de expunere umană.
 7 3
 2 1
 5 8
-9
-2
-5
-9
-9
-10
-10
-2
 
 3. Studii clinice și farmacocinetică la om
 Metabolismul ciclamatului la om a fost studiat pentru a evalua potențialul de formare a acidului
@@ -161,21 +141,7 @@ administrarea dietei cu ciclamat la oameni nu a modificat semnificativ numărul 
 fecale .
 Până în prezent, nu există studii clinice ample privind modificările microbiomului uman induse de
 ciclamat. În ansamblu, datele sugerează că efectele in vivo asupra diversității sau populațiilor bacteriene
-4
-4
-4
-11
 12 4
-4
-5
-5
-9
-13
-13
-14
-15
-16
-3
 
 sunt minime la dozele alimentare, deși lipsesc studii de profunzime. Este teoretic posibil ca unii
 metaboliți bacterieni (azoti, acizi organici) să fie influențați de ciclamat, însă semnificația acestor
@@ -219,16 +185,8 @@ aspartamul (E951) 40 mg/kg/zi (EFSA 2013), acesulfamul-K 9 mg/kg/zi, iar sucralo
 mic decât aspartamul sau sucraloza. Toxicologic, profilurile diferă: sacarina a generat tumori vezicale la
 șobolani în experimente in vivo, dar nu a fost asociată cu cancer la om; aspartamul este metabolizat
 rapid în aminoacizi și metanol, principala preocupare fiind fenilketonuria, nu cancerul; sucraloza este în
-16
-8
-8
 5 5
-3
-17
-18
 19 19
-18
-4
 
 mare parte neabsorbită, fără metabolism (și fără semnale de cancerigenitate). În ansamblu, cercetările
 ne indică faptul că nicio cifră de risc special nu este evidentă pentru ciclamat în comparație cu ceilalți
@@ -272,11 +230,7 @@ Weihrauch & Diehl 2004) precum și studii originale privind metabolismul și tox
  stau la baza concluziilor prezentate. Datele citate au fost preluate din publicații de
 referință și rapoarte oficiale, garantând caracterul fundamentat al evaluării de față.
 8 19
-4
-13
-2
 5 12 9 8
-5
 
 apcz.umk.pl
 
@@ -298,9 +252,3 @@ Sodium Cyclamate - an overview | ScienceDirect Topics
 1 10 13 14 15 16
 2 4 5 12 17
 3 18 19
-6
-7
-8
-9
-11
-6

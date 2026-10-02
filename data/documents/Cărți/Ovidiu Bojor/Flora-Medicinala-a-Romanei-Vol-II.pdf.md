@@ -10,7 +10,6 @@ FLORA .
 MEDICINALA
 A ROMANEI
 VQL. ii
-1
 E D ITU R Ă CERES
 B u cu rești, 1 9 9 1
 
@@ -45,7 +44,6 @@ aju tat să definitivăm cel de-al II-lea volum al lucrării „Flora medicinal�
 României" și în mod special entuziastului colectiv al editurii CERES, care
 prin efortul depus ne-au sprijinit la prezentarea acestei lucrări la un nivel
 superior tehnic și științific.
-5
 
 Cel de-al III-lea volum va cuprinde descrierea în ordine sistematică
 a plantelor medicinale începînd cu familiile PYROLACEAE, ERICACEAE,
@@ -97,7 +95,6 @@ sămînța neagră, lucioasă
 Materia primă: Radix Phy-
 tolaccae constituită din rădăcini lungi
 de 20—30 cm, brune-gălbui la exterior, Fi« 1 - Phytolacca americana
-7
 
 albe-murdar la interior, cu pete albicioase dispuse circular, brăzdate de
 zone concentrice, albicioase și mai închise la culoare, vizibile în secțiune
@@ -150,7 +147,6 @@ este m ult mai complexă. Pînă în prezent s-au semnalat autociani de tipul
 betaninei, americanină, acizi organici ca: malic, tanic, acinosalic, aleuritolic,
 alcaloizi etc. Lăstarii tineri conțin 31% protide, 4,8% grăsimi, 44% hidro
 carbonate, 631 mg Ca, 524 mg P, 20,2 mg Fe, 62 mg beta-carotenoide, 0,95 mg
-3
 
 tiamină,, 3,93 mg riboflavină, 14,3 mg niacin și 1,619 mg acid ascorbic la
 IO O g. Datorită, acestei compoziții cu valoare nutritivă ridicată lăstarii tineri
@@ -199,7 +195,6 @@ trigonelină, galactoză și arabinoză, sînt utilizate în țările de origine
 gativ drastic. în trecut tuberculii acestei specii serveau la falsificarea unei
 specii de Convolvulaceae num ită Ipomoea jalapa (Exogonium purga), care
 furniza adevărata „Tubera Jalapae“ tot cu efecte purgative.
-9
 
 ## Fam. PORTULACACEAE
 
@@ -249,7 +244,6 @@ treaga parte aeriană a plantei recoltată în tim pul înfloririi, fără păr�
 benite de la bază. F ără miros și gust.
 Ecologie și răspîndire. Specie m ult răspîndită, cu mare amplitudine
 ecologică, invadantă în grădini, pe lingă și în interiorul serelor, buruiană
-10
 
 în culturi (mai ales de cartofi), pe marginea drumurilor, abundență pe lingă
 fîntîni, locuri cu um iditate crescută.
@@ -299,7 +293,6 @@ aegricioase.
 Materia primă: Radix Gypsophilae panicnlatae sau Raîix Sa-
 ponariae albae, este constituită din rizomi pînă la 8 om grosime și rădăcini
 ^cilindrice de 2 —4 cm grosime, de culoare brună-gălbuie Ia exterior și albă-
-11
 
 gălbuie la interior, cu zbîrcituri longitudinale și transversale. De obicei ma
 teria primă se prezintă sub formă de bucăți de 1 0 — 2 0 cm lungime, întregi
@@ -352,7 +345,6 @@ efectua arătura de bază. Cînd Ipcărigea urmează după o plantă ce eliberea
 Tîrziu terenul arătura de bază se va efectua imediat după recoltarea acesteia,
 în continuare procedîndu-se ca la celelalte premergătoare. înființarea culturii
 pe terenuri nisipoase reduce adîncimea de lucru a arăturii de bază la 2 0 — 2 2 cm .
-22
 
 iar pe terenurile semigrele sau care au fost cultivate cu plante perene ori
 plante rapace se va lucra cu subsolierul la o adîncime de 35—40 cm.
@@ -406,7 +398,6 @@ Plantarea răsadurilor se va efectua prim ăvara în prima decadă a lunii
 aprilie. Pentru a dirija formarea rizamilor cu rădăcinile m ai la suprafața
 solului, la plantare răsadul se introduce oblic pe direcția rîndului la distanța
 de 0,50 m rînd de rînd și la 0,20 cm plantă de plantă pe rînd.
-13
 
 Ipcărigea este o specie sensibilă la buruieni și are o perioadă lungă de
 răsărire, fapt ce ne obligă să o însămînțăm cu o plantă indicatoare, salată
@@ -458,7 +449,6 @@ de uscare este de 4 : 1, rezultă o producție de 2 457,5 kg /ha în stare des
 hidratată.
 Recoltarea rădăcinilor cu rizomi de Ipcărige se execută cu plugul de
 desfundat fără cormană cu putere de străbatere la peste 60 cm adîncime.
-14
 
 Momentul optim de recoltare este la înoeputul perioadei de stagnare a ve
 getației al anului trei de cultură, cînd dimensiunile organelor de recoltat
@@ -512,7 +502,6 @@ Pe cale artificială se usucă la 40 — 50°. Randam ent de uscare 3—5/1.
 Condițiile tehnice de recepție prevăd ca m ateria prim ă să fie sub formă
 de fragmente de 1 0 — 2 0 cm sau felii, de culoare brună-deschis la exterior,
 albicioase la interior. Se admite un conținut maxim de im purități de 3%
-15
 
 (resturi de plantă), corpuri străine organice — max. 1 % și minerale — max.
 1%, um iditate maximă 13%.
@@ -564,7 +553,6 @@ Materia primă: Radix Saponariae rubrae se prezintă fie sub formă
 de fragmente de rizomi și rădăcini cu stoloni de 5—10 (15) cm lungime și
 2 — 8 em grosime, de culoare brună-roșietică pînă la brună-închis la exterior,
 galbenă la interior, fie sub foim ă de m aterie prim ă fragm entată (concis).
-16
 
 La suprafață rizomii au striațiuni longitudinale.
 Stolonn au nodozitați circulare cu cite doi muguri
@@ -617,7 +605,6 @@ germinativ. Pentru creștere, dezvoltare și acumulare de principii active este
 necesar să se realizeze un pat germinativ afînat, foarte bine nivelat și m ărunțit..
 Aceste lucrări se pot obține lucrînd terenul cu nivelatorul urm at de combina
 tor sau de grapa cu discuri în agregat cu grapa cu colți reglabili. Pentru
-17
 
 punerea în contact mai intim a seminței cu patul germinativ atît înainte cit
 și după semănat se va da cu un tăvălug ușor.
@@ -773,7 +760,6 @@ Stdlaria graminea L. (Rocoțea, Buruiana junghiului).
 Specie înaltă pînă la 50 cm, cu tulpini glabre, ramificate, 4-unghiulare, cu
 flori albe pînă la 12 mm în diametru. Comună în toată țara, crește la m ar
 ginea pădurilor, în tufișuri, livezi, locuri înierbate. Partea aeriană a plantei
-20
 
 sub formă de decoct este utilizată pentru comprese ca antiinflamator^
 Cerastium vulgatum L. (C. caespitosum Gilib.) (Struna cocoș u-
@@ -826,7 +812,6 @@ tratam entul rănilor.
 Lychnis viscaria L. (Viscaria vulgaris Rohl ) (Lipicioasă). Plantă,
 înaltă pînă la 1 m, cu flori roșii purpurii. După cum arată și denumirea
 populară tulpina și ramurile plantei sînt lipicioase. Răspîndită în livezi,.
-21
 
 ■coaste înierbate, locuri pietroase, lingă drumuri și margini de păduri. Li
 teratura de specialitate citează utilizarea speciei și a altor specii din acest
@@ -879,7 +864,6 @@ Dianthus carthusianorum L. (Garofiță de cîmp, Scînteiuță).
 Plantă înaltă uneori de aproape 1 m, cu flori frumoase purpurii pînă la roșu-
 închis. Crește pe coline nisipoase, în păduri uscate, stîncării, poieni, rariști
 «de pădure, de la cîmpie pînă în regiunea alpină. Specie utilizată în medicina
-22
 
 tradițională ca antiinflam ator, diaforetic, diuretic și hemostatic. Alte specii
 (D. superbus L .) (Garoafă de munte) erau utilizate în combaterea
@@ -932,7 +916,6 @@ Fam. R ANUN CUL ACE AE
 Familie cu numeroși reprezentanți în flora României, în m ajoritate,,
 plante ierboase anuale sau perene, cu tulpini subterane, puține lemnoase.
 Nu au țesuturi secretoare. Frunze alterne, simple, rar compuse, fără stipele.
-23
 
 Floarea are caractere de inferioritate prin num ărul mare, nedefinit de ele
 mente florale și dispoziție spirociclică; m ajoritatea actinomorfe, dar și cazuri
@@ -981,7 +964,6 @@ a nu mucegăi. Pe cale artificială se usucă la 40—60°. Randam ent de uscare
 3 - 4 /1 .
 Condițiile tehnice de recepție prevăd ca m ateria primă să fie form ată
 din rizomi cu rădăcini și să conțină im purități: max. 5% (alie părți din
-24
 
 ~»antă). corpuri străine organice: max. 0,5% și minerale: max. 1,5%, umidi-
 Titea maximă: 13%. Se adm it rizomi cu rădăcini și de la specia H. odorus
@@ -1030,7 +1012,6 @@ Balcani, Asia Mică și Occidentală, India și Africa de Nord, se cultivă la
 aoi prin grădini, în special în sudul țării. Apare și sălbăticită ca buruiană
 in semănături sau pe coline însorite. Solicită soluri, bogate, afînate. Este
 zcnată în sudul țării, în județele Constanța și Brăila.
-25
 
 Tehnologia de cultură. Negrilică nu are pretenții față de planta premer
 gătoare. Excepție face însă față de premergătoarele uleioase sau față de cele
@@ -1084,7 +1065,6 @@ la întîmplare pe cele două diagonale ale tarlalei supuse analizei. Să presup
 nem că pe m 2 se găsesc 137 plante, cu 96 capsule în medie pe fiecare plantă
 și cu 4 semințe în fiecare capsulă. Cunoscînd că greutatea medie a 1 090 se
 m ințe este echivalentă cu 2 g,. iar um iditatea peste normal în momentul exe
-26
 
 cutării evaluării este de 1 0 % vom concluziona :producția medie la m2 =
 = X ^ X ^ = 106 g Im2. Se scade um iditatea existentă peste normal
@@ -1093,7 +1073,6 @@ din momentul evaluării care în cazul nostru este de 1 0 % respectiv 106 g/m a
 — 106 a. . 0 _ ^ g/m 2 , din care se scad 5 % pierderi la recoltare,
 IO O
 95 4 x 5transport și manipulare 95,4 --------:---------= 90,68 g/m 2. Rezultă că pro-
-100
 ^ • j- , t. j 9 0 -6 8 X 1 0 0 0 0 0 , ,, ductia medie la nectar este d e ---------------------- = 906,8 kg/ha.
 1 000
 Negrilică pe suprafețe m ari se recoltează cu combina C 1 2 reglată și
@@ -1136,7 +1115,6 @@ ditatea normală de păstrare.
 Condițiile tehnice de recepție adm it max. 4% im purități (semințe sfărî-
 mate, neajunse la maturitate,, resturi de capsule), corpuri străine organice:
 max. 2% și minerale: max. 1 % , um iditate: max. 13 %.
-27
 
 Compoziție chimică. Semințele conțin cca 1 % ulei volatil din care a
 fost separat un compus carbonilat nigelona; hederagenină. compus de natură,
@@ -1189,7 +1167,6 @@ medicinală, nu este medicinală, ea conține atizină, o bază cu activitate de
 redusă decît alcaloizii din materia primă oficinala și nici speciile A. vulparia Rchb. sau A.
 toxicum Rchb. nu pot fi utilizate în scop terapeutic datorită alcaloidului licaconitină. extrem
 de toxic, și datorită lipsei alcaloizilor de tip aconitinic în aceste specii.
-28
 
 Fig. 3 — Aconitum calliboltyon (foto orig )
 Materia primă: Tubera Aconiti, asemănătoare la ambele specii,
@@ -1209,7 +1186,6 @@ subalpină și alpină, în general la peste 800— 1 0 0 0 m în întreg lanțu
 (Carpații Orientali: Munții Maramureșului, Țibleșului, Suhardului, Rodnei,
 Călimani, Bistriței, Rarău, Giurgeului, Ceahlău; Carpații Meridionali: M unți,
 înflorire: VII —IX.
-29
 
 P iatra Craiului, Iezer-Păpușa, Bucegi, Făgărașului, Cozia, Lotrului, Căpă
 țînă, Sebeșului, Paringului, Retezatului, Țarcu-Godeanu, M ehedinților; Car
@@ -1263,7 +1239,6 @@ din anul I —IV numai tuberele-fiice, avînd grijă de a lăsa la fiecare cuib
 2 —4 tuberi-mamă nederanjați.
 în cazul recoltării frunzelor, acestea se recoltează înainte de apariția
 florilor, prin luna iunie. în cazul cînd de pe același exemplar se recoltează
-30
 
 și tubări și frunze, atunci acestea din
 cim ă se vor rupe numai spre toam nă
@@ -1317,7 +1292,6 @@ Condițiile tehnice de recepție pentru Tubera Aconiti prevăd la conținutul
 maxim de im purități resturi de tulpini mai lungi de 5 mm — max. 2% și
 tuberi seci sau brunificați — m ax. 5% ; la corpuri străine — max. 0,5%
 a tît pentru cele organice cît și pentru cele minerale, iar um iditate — max. 13%.
-31
 
 Pentru Herba Aconiti (frunze și vîrfuri tulpinale foliate de max. 10 cm):
 im purități — frunze - înnegrite sau brunificate — max. 7%, alte părți din
@@ -1362,7 +1336,6 @@ gram poate omorî un adialt.
 asupra trigemenului are acțiune analgetică și inhibă reflexele de tuse pornite
 din zona laringelui superior. Dozele mici măresc secrețiile digestive, iar cele
 m ari le diminuează. Respirația la doze mici este excitată, urmînd apoi bra-
-32
 
 dipnee. Prin reflexe vagale periferice pornite de la receptorii pulmonari se
 poate declanșa apnee.
@@ -1413,7 +1386,6 @@ lor de culoare violacee, pintenul mai scurt (cel
 m ult 1 cm) și tulpina neramificată. Materia primă
 poartă numele de Flores Calcatrippae cu flori vi
 olete spre deosebire de cea de la specia de bază, 3 — Consolida regalis
-33
 
 num ită Flores Calcatrippae cu flori albastre. Acestea vor fi culese, uscate și
 ambalate separat.
@@ -1467,7 +1439,6 @@ sectate, pețiolul putindu-se transforma în cîrcel
 care se lignifică; 'Florile: grupate In bogate
 Fig. O — Clamați.': v ifa lb a (foto
 orig.)
-34
 
 inflorescențe cimoase, cu periant simplu din 4 foliole albe de 10—12m m ,
 cu peri albi și deși, elemente florale numeroase, receptacul păros; fructele:
@@ -1517,7 +1488,6 @@ brune, membranoase la b ază; frunzele — numeroase, de 2 —4 ori penat sectat
 cu lacinii înguste, late de 1 mm, răsfirate; flori — solitare, m ari pînă la
 8 cm diam etru, cu 5 sepale, 10—20 petale pînă la 4 cm, galbene-aurii stră
 lucitoare, numeroase stamine și p istile; fructul — polinucule; nucule globu-
-35
 
 Fig. 7 — Adonis Virtialis (foto orig.)
 loase de 4 mm diametru, cu suprafața cu verucozități și peri scurți, cu rostru
@@ -1543,7 +1513,6 @@ obișnuite, se ară la 2 0 — 2 2 cm și se menține terenul curat de buruieni 
 la plantare sau însămînțare prin lucrări executate cu grapa cu discuri sau
 cu cultivatorul. O dată cu arătura se încorporează în sol 40—50 kg/ha fosfor
 * în județul Suceava planta este declarată specie ocrotită.
-36
 
 s.a., iar înaintea plantării sau însăm |nțăni se administrează 10—15 kg/ha
 potasiu s.a. și 35— 45 kg /ha azot s.a. Fiind o plantă iubitoare de soluri cal-
@@ -1597,7 +1566,6 @@ recoltat în tim pul înfloririi, fără porțiunea inferioară a tulpinii cu so
 negricioși, fără rădăcină și fără porțiuni lemnificate; im purități: plante
 decolorate — max.5% și fructificații — max. 1% ; corpuri străine organi
 ce — max. 0,5% și minerale — max. 1% ; um iditate — max. 13%.
-37
 
 Compoziție chimică. Părțile aeriene ale plantei recoltate la începutul
 înfloririi conțin cca 1 % glicozide cardiotonice. Extractele apoase conțin
@@ -1643,7 +1611,6 @@ MEDICINALE
 conținut și întrebuințări în medicina populară ca și specia înrudită (H.pur-
 purascens) de care se deosebește prin faptul că are periantul verde sau verde-
 gălbui și nu purpuriu. Vegetează în sudul țării, în păduri de cîmpie.
-38
 
 Nigella arvcnsis L. (N e-
 g r u ș c ă). Mică buruiană
@@ -1697,7 +1664,6 @@ brelor posterioare, antorina paralizează
 membrele anterioare. F ără a fi anti
 dotul aconitinei, antorina are acțiune
 protectoare față de efectele aconiFig. 9 — Caltha tacta
-39
 
 tinei. Utilizarea în scopuri medicinale ale acestei specii est? foarte
 lim itată.
@@ -1751,7 +1717,6 @@ dicina empirică se citează utilizarea florii amestecată cu săpun și sare �
 frigurilor".
 + Ranunculus auricomus L. (Buruian ă-d e-n o u ă-d a t u r i). Plan
 tă din finețe umede, livezi, păduri, cu conținut de anemonină și protoane-
-40
 
 Dionină. Utilizarea sa era recom andată exclusiv în uz extern, pentru băi în.
 diferite dermatoze (îndeosebi eczeme).
@@ -1802,7 +1767,6 @@ pentru acțiunea purgativă fără colici și ca febrifug.
 Tkalictrum minus L. (Rutișor). Mică plantă de pe coaste însorite,
 num ită și Somnoroasă, deoarece se utiliza contra insomniei (pusă în
 băi sau ținută sub cap).
-41
 
 Paeonia officinaUs L. (B u j o r). Plantă ornam entală ale cărei flori și
 rădăcini cu proprietăți antispasmodice au fost utilizate în secolele trecute
@@ -1848,7 +1812,6 @@ sau elipsoidale, de culoare roșu-
 gime și cca 3 mm lățim e, cu un
 disc mic la partea superioară, re-
 Fig. io — Berberis v uigaris. prezentînd restul stigm atului, iar
-42
 
 •
 la bază urmele de inserție a pedicelului. La interior fructele au o pulpă in
@@ -1902,7 +1865,6 @@ gane. în doze mai m ari au acțiune vasodilatatoare și produc bronchocon-
 stricție. în doze mici, stimulează activitatea cardiacă prin acțiune asupra
 coronarelor. Oxiacantina, izolată din scoarța acestei specii, are acțiune vaso
 dilatatoare și hipotensiva.
-43
 
 Cercetările din țara noastră au pus în evidență acțiunea coleretica a ex
 tractelor sau alcaloizilor din Berberis vulgaris, precum și acțiunea spasmolitica,
@@ -1952,7 +1914,6 @@ nești—București a Institutului pentru controlul de stat al medicamentului
 provenit din nordul Iranului.
 Tehnologia de cultură. Macul iranian sau Macul roșu de grădină
 este o specie introdusă în cultură de dată recentă în țara noastră.. Pe b aza
-44
 
 experiențelor efectuate de Stațiunea de cercetări pentru plante medicinale
 și aromatice — Fundulea cît și a rezultatelor obținute în producție de sis
@@ -2006,7 +1967,6 @@ Evaluarea științifică a producției de Mac iranian se face începînd din
 anul al doilea de cultură și pînă la desființarea culturii, care de obicei este
 la circa 5 ani. Evaluarea științifică se face cu 5—7 zile înainte de recoltare,
 ca constînd în prelevarea a 5—7 probe medii obținute pe cele două diagonale
-45
 
 fV • • •
 a parcelei cultivate, o probă reprezentînd producția de Mac iranian recol
@@ -2061,7 +2021,6 @@ scuturarea este m ult prea mare.
 Recoltarea se va începe cînd capsulele au ajuns la m aturitate în pro
 porție de 50% și pentru a nu se deteriora se vor transporta într-un ioc curat,
 aerisit, pe prelate și se vor așeza în strat de 5—7 cm, lopătîndu-se de 2 ori
-46
 
 pe zi. După 5—7 zile se treieră, și se vîntură, se selectează sămînță care se
 păstrează în locuri curate, uscate, și cu luminozitate cît mai mică. La hectar
@@ -2112,7 +2071,6 @@ cele tulpinale sesile, mai reduse, lobate sau dințate; flori: solitare, pe un
 peduncul lung și păros, formate din 2 sepale mari, cu diam etrul pînă la 1 0 cm,
 verzi, păroase, caduce, 4 petale roșii intens cu sau fără p ată neagră la bază,
 iar în centrul fiorii numeroase stamine înconjurînd ovarul; fruct: capsulă
-47
 
 pînă la 2 cm, term inată Cu un disc ste la t; în interior numeroase semințe re-
 niforme, brune-închis.
@@ -2164,7 +2122,6 @@ poppy; G .: Garten M ohn; M .: Term esztett m ak; R .: Mak snatvornîi.
 Caractere de recunoaștere. Planta: Specie ierbacee anuală, ca-e poate
 atinge 1—1,50 m cu partea aeriană în întregime glaucă (culoare specifică
 verde-albăstruie), conține un latex albicios; rădăcina: pivotantă, lungă de
-48
 
 Fig. 11 — Papaver somniferam (foto orig.)
 20—25 cm, groasă de cca 1—2 cm ;|
@@ -2217,7 +2174,6 @@ narcotic, gustul amar, mucilaginos.
 Ecologie, răspîndire și zonare. Plantă exclusiv de cultură, cunoscută ca
 atare încă din neolitic. Răspîndită în țările tem perate, în special în Eurasia
 (pe suprafețe mari în R.P. Chineză, U.R.S.S., India, P akistan, Asia Mică
-49-
 
 Peninsula Balcanică). în condițiile țării noastre, perioada de vegetație va
 riază între 90 și 120 zile.
@@ -2271,7 +2227,6 @@ tele fertilizante existente în sol. Rezultatele cele mai bune s-au obținut cî
 s-a efectuat o îngrășare complexă a solului, încorporîndu-se în sol, plante
 premergătoare, 15—20 t/h a gunoi de grajd bine ferm entat. Macul de gră
 dină este o specie care reacționează negativ la îngrășarea directă a solului
-50
 
 cu gunoi de grajd sau cu gunoi de grajd insuficient ferm entat. La arătura
 de bază se administrează 40—50 kg/ha fosfor s.a. și 40—45 kg/ha potasiu s.a.
@@ -2325,7 +2280,6 @@ unor eventuale buruieni perene. Operațiunile de erbicidare se execută cu
 m așina de stropit M ET-1200 sau cu echipamentul pentru stropit EEP-600.
 Cînd Macul are 3—4 frunze se face buchetatul, care constă în îndepăr
 tarea alternativă a plantelor pe rînd cu săpăligă pe o distanță de 8 —9 cm
-51
 
 intercalată cu o altă distanță de 8—10 cm cu plante pe rînd. La un interval
 de 8 — 1 2 zile de la buchetat se trece la rărirea propriu-zisă a plantelor cu
@@ -2351,7 +2305,6 @@ iar um iditatea peste normal era de 28%. în această situație producția pro
 babilă medie la m 2 va fi: 17x 5 x 7 = 595 g cu um iditate de 28% peste.pre-
 595x28vederile stasului care se va scade (595 g
 --------------= 428 g/m 2). Ope-
-100
 rînd diminuarea coeficientului de siguranță de ia treier și transport de cca 3%
 x 3rezultă o producție de capsule cu semințe la m etrul p ătrat de 428 --------------=
 ! 0 0
@@ -2375,7 +2328,6 @@ treierului. Aceste adaptări constau în montarea a 4 șine de lemn la bătător
 rea cu tablă 1 /3 a dîrmonului mare, introducerea sitei de pleavă de 16 mm la
 curățirea întîia, sita de boabe de 3 mm, sita de buruieni de 0,75 iar la cură
 țirea a doua: prim a sită de 6 mm, sita a doua de 3 mm și cea de a treia oarbă.
-52
 
 Recoltarea m anuală pe suprafețe mai mici se execută cu secera la m a
 ximum 5 cm lungime sub capsulă. în acest caz momentul optim este cînd
@@ -2429,7 +2381,6 @@ au culoare albicioasă apoi brună-roșiatică de fonne neregulate, iar la m atu
 ritate brună-cafenie. Se combate prin lucrări de igienizarea culturii.
 R ar se pot întîlni și bolile: pătarea bacteriană a frun
 zelor produsă de Xanthomonas catnpestris patovar, papavert-aco.la (Brian
-53
 
 et Mc W orther Dye), putregaiul Macului galben produs de Sclerotinia scle-
 'rotiorum (Lib., Sace. et-Troot), putregaiul cenușiu produs de Botryti's tinerea
@@ -2482,7 +2433,6 @@ Viermele sîrmă s a u gîndacul pocnitor — Agrioies sp.
 este de culoare neagră sau brună-închis și în stare de larvă atacă rădăcinile în
 luna aprilie cînd începe să se încălzească. Se combate cu Heclotox 35—50 kg /ha
 toam na sau prim ăvara im ediat după arătură. în anii apariției adulții pot fi
-54
 
 distruși cu ajutorul capcanelor făcute din snopi de diferite graminee stropiți
 cu Pinetox 10 sau Pinetox-50 în concentrație de 0,2% — 15—20 kg/ha.
@@ -2536,7 +2486,6 @@ glucide. Uleiul gras este format din gliceride ale acizilor oleic, linoleic ș.a
 Acțiune farmacodinamică, utilizări terapeutice Capsulele de Mac, dato
 rită alcaloizilor pe care-i conțin, au acțiune similară opiului și morfinei. Ac
 țiunea principală a alcaloizilor din Mac este exercitată asupra cortexului.
-55
 
 în special asupra centrilor durerii. în doze mici are acțiune excitantă, pro-
 ducînd euforie, apoi deprimantă, cu îndepărtarea senzației de durere urm ată
@@ -2585,7 +2534,6 @@ galben intens pînă la galben auriu, stamine numeroase intens galbene; fru c t:
 capsulă silicviformă, lat de numai 2—4 mm și lung de 15—22 cm, liniar
 cilindric și curbat, se deschide de la vîrf în jos prin 2 valve; semințe: nume
 roase, de form ă hemisferică, negre, reticulate la exterior.
-56
 
 înflorire: VI-VIII.
 Materia primă: Herba Glaucii, descrisă la Caractere de re
@@ -2638,7 +2586,6 @@ lizarea solului, solicitînd o îngrășare combinată. Astfel, la im hectar în
 de gradul de fertilizare al solului, se recomandă a se încorpora în sol o dată
 cu arătura de bază cantitatea de 30—50 t gunoi de grajd bine ferm entat,
 40—60 kg s.a. fosfor și 40—60 kg s.a. potasiu. Prim ăvară sub prima prașilă
-57
 
 se vor încorpora 80—120 kg /ha s.a. azot. Pentru culturile' bienale s.au perene
 fertilizarea se va face în fiecare an. Fertilizarea cu fosfor și potasiu se va
@@ -2690,7 +2637,6 @@ la hectar în stare uscată, deoarece consumul specific este de 4,5 kg iarbă î
 proaspătă pentru 1 kg plantă uscată. Să presupunem că de pe 12 m3 s-au
 recoltat 10 800 g materie primă. Media pe m2 este 10.800 g x 12 = 900 g/m 2.
 R aportat la un h ectar: 900 g X 10 000:1 000 = 9 000 kg în stare proaspătă
-58
 
 sau -9 000 : 4.5 = 2 000 kg în stare uscată la o recoltă. în anul întîi fiind
 două recolte producția va fie de 4 000 kg /ha în stare deshidratată, iar în
@@ -2743,7 +2689,6 @@ buie transportat rapid (în max. 3—4 ore) la locul de uscare. Deshidratarea
 se poate face pe cale naturală, în locuri acoperite, în strat subțire, sau la
 uscător, la o tem peratură de 60—80°C.
 Randam entul la uscare: 5—7/1.
-59
 
 Planta uscată se toacă în fragmente de 5—6 cm, care se păstrează în
 saltele de pînză rară, în locuri uscate.
@@ -2769,7 +2714,6 @@ florile: grupate cîte 3—8 în umbele, cu 2 sepale caduce, 4 petale galbene,
 numeroase stamine și un ovar; fruct: capsulă silicviformă, lungă de 3—5 cm
 asemănătoare cu o păstaie, se deschide prin 2 valve.
 Fig. 12 — Chelidonium majus (foto orig.)
-60
 
 Înflorire: IV—IX.
 Materia pr i m ă : Herba Chdidonii — adică ramurile și tulpinile
@@ -2815,7 +2759,6 @@ homochelidonina ( ași (3), oxichelidonina, mezoxichelidonina, cheleritrina,
 sanguinaxina; aicaloizi din grupa protoberberinei: coptizina și tetrahidro-
 coptizina, cantități mici de berberină; aicaloizi din grupa protopinei: proto-
 pina și a, 3 — alocriptopina; cantități mici de sparteină.
-61
 
 COPTUINA
 Sâ NGUINARÎNA
@@ -2900,7 +2843,6 @@ cuțitul sau cu secera întreaga parte aeriană a plantei sau, dacă terenul e
 moale, se smulg plantele și rădăcina se îndepărtează ulterior.
 Pregăcirea materiei prime in vederea prelucrării. Uscarea pe csue naturală
 se face la um bră în strat subțire, fără a se face manipulări, deoarece florile
-63
 
 și frunzele cad ușor. Pe cale artificială uscarea se face la 43—50°0. Randa
 m entul la uscare este 5—6/1.
@@ -2949,7 +2891,6 @@ pnina utilizată în trecut pentru acțiunea asupra
 sistemului nervos central. Acest alcaloid are ac-
 „ țiune anestezică și provoacă imobilitate cata-F ig. 1 3 — Glauctum cormcu- ’ 71
 latum tonică.
-64
 
 ## Fam. BRASSICACEAE (Cruciferae)
 
@@ -3002,7 +2943,6 @@ sau prăsitoarele ce își încheie ciclul de vegetație cel mai tîrziu în lun
 Lucrările de bază pentru înființarea culturii de Hrean vor fi profunde,
 fapt pentru care se va ara Ia 35 — 40 cm adîncimc, in unele cazuri luciîr.du-se
 cu scarificatorul.
-65
 
 După cereale păioase și culturi timpurii pentru masă verde se face o
 arătură de vară Ia 18—20 cm adîncime, iar la cca 18—20 zile, cînd terenul
@@ -3057,7 +2997,6 @@ buruienilor. Hreanul fiind foarte sensibil la buruieni în prim a parte a in
 trării în vegetație, apare ca obligatorie o prașilă oarbă între rînduri și un
 plivit pe rind. în cazul în care s-a format crustă și răsărirea este deranjată
 se recomandă aplicarea unei grăpări cu grapa stelată. După răsărire, la cca
-66
 
 3—4 zile se revine cu o prașilă m anuală superficială pe rînd, la cca 2—3 cm
 adîncime, astfel ca plantele de Hrean să nu fie deranjate deoarece ele suferă
@@ -3111,7 +3050,6 @@ derile inevitabile Ia recoltare, transport și manipulare apreciate la 5%, re-
 ■ t - l x 2 280 g x 10 000 , ,, v ,, ■ ,iar la hectar se va obține: --------5 ------------ = z2 800 kg ca raoacnn de
 1 00 0
 Hrean în stare proaspătă, comercializabilă.
-67
 
 Recoltarea parțială economică a rădăcinilor de Hrean începe în anul
 al treilea de cultură și poate fi executată anual pînă în anul cinci sau șase
@@ -3166,7 +3104,6 @@ cinilor care duce în final la uscarea întregii plante.
 Hreanul este atacat și de putregaiul brun ș i umed a l
 coletului — Phytophtora cactomm. Această ciupercă atacă plantele în
 regiunea coletului provocînd pagube importante prin distrugerea plantelor.
-68
 
 Culturile de Hrean sînt uneori atacate și de rugină — Puccinia sp .,
 a căror pustulă sînt prezente în verile ploioase și calde pe frunze.
@@ -3216,7 +3153,6 @@ Caractere de recunoaștere. Planta : Specie ierboasă, anuală, rar
 bienală, erectă, înaltă de 10—40(60) cm; rădăcina: pivotantă; tulpină:
 erectă, glabră; frunze: cele bâzâie în rozetă, oblanceolate, întregi pm a la
 penat sectate, cele tulpinale ses’le, am plexicaul, de formă sagitată, rare
-69-
 
 și din ce în ce mai mici spre v îrf; flori: grupate în raceme care se alungesc
 pe măsura înfloririi, mici, pe tipul 4, cu petale albe em arginate; înflorirea
@@ -3265,7 +3201,6 @@ uterului. Acțiunea hemostatică uterină a fost atestată și de cercetări rec
 Se poate administra sub formă de infuzie 2 linguri de plantă uscată
 la 200 mi apă, pentru 24 ore sau sub formă de extract fluid 2 lingurițe pe zi.
 Traista ciobanului intră și în produsul fitoterapeutic Normoponderol.
-70
 
 BRASSICA NIGRA (L.) Koch. (Sinapis nigra L.)
 MUȘTAR N E G R U ; F r .: Moutarde noire; E .: Black m ustard; G .:
@@ -3317,7 +3252,6 @@ atît față de climă cît și în privința solului. Deși
 are nevoie de mai m ultă căldură decît celelalte
 două, e m ai sensibil la secetă și preferă soluri
 mai ușoare, mai umede și mai bogate. Cultura Fig. H — Brasf.ca i.igra
-71
 
 de Muștar negru nu va reveni pe aceiași teren, decît după un interval de
 minimum 4 ani.
@@ -3362,16 +3296,12 @@ a 1 000 semințe este de 4,5 grame și umiditatea peste normal este de 12%.
 ----1 — :----:----——— — = 288,3 s m2 . Din
 1 000
 288 3 x Paceasta se scade *12% umiditatea peste normal: 288,3 — -----:------— =
-100
 = 253,7 g/m 2 . Se corectează rezultatul cu cca 5% pierderi la recoltare, treier
 2 'Si ~ v 5si m anipulare 253,7 ----------:--------= 241 g/m 2. Acest rezultat raDortat la
-100
 j j 241X10 000 hectar da o producție medie d e : -------—----------= 2 410 J£g/ha.
-1000
 Momentul optim de recoltare este în funcție de modul de recoltare,
 respectiv mecanic sau manual. Pentru recoltarea mecanică care se poate
 executa cu Combina C-12 reglată corespunzător momentul optim, este
-72
 
 atunci cînd 70—75% din plante au căpătat culoarea galbenă, silicvele sînt
 galbene-murdar, iar semințele la deschiderea silicvelor capătă într-un minut
@@ -3426,7 +3356,6 @@ sînt cilindrice, îngustate la ambele capete, fără rostru și mai mici — de
 diferențierea de semințele de rapiță (Brassica rapa L.) caracterul esențial
 este aspectul tegumentului, care Ia m uștarul negru are rcticulații carac
 teristice, regulate.
-73
 
 Observații. Mai puțin răspîndit în cultură la noi este Brassica juncea
 (L.) Czern. et Coss. (Muștarul vînăt), m ult cultivat în U.R.S.S.
@@ -3486,7 +3415,6 @@ x . y
 " H , •#
 • i
 Fi?. 15 — Sinapis alba
-74
 
 lari, solul va trebui amendat;, bogate în humus și calciu. Sînt contraindi
 cate solurile prea g^eie sau cele nisipoase.
@@ -3541,7 +3469,6 @@ pe prelate. Pe suprafețe mari recoltarea se iace mecanic cu combina. C-12.
 în această situație momentul optim de recoltare este atunci cînd 65—70%
 din plante au ajuns la maturitate, respectiv cînd frunzele de la bază au îngăl
 benit, tulpinile fructifere și silicvele au culoarea galbenă-ruginie. Pentru
-75
 
 evitarea pierderilor și economisirea cheltuielilor de uscare a semințelor se
 recomandă tratarea culturii cu Reglone 3 l/ha înainte de recoltare, fapt
@@ -3596,7 +3523,6 @@ este o boală ce atacă plantele în toate stadiile de vegetație și pe toate o
 nele verzi. Apare sub formă de pete mari, circulare, de culoare brună-vio-
 lacee, cu suprafața zonată concentric. Petele cresc și apoi confluează. Silic
 vele atacate nu se mai dezvoltă, se deformează și se dechid ușor. Pe suprafața
-76
 
 petelor se observă un mucegai brim-negricios, catifelat, constituit din coni
 diofor! și conidiile ciupercii.
@@ -3703,7 +3629,6 @@ Ery simum zvitmanii Zawadski ssp. transillvanicum (Schur.) P.W. Băii.
 (Micsandră sălbatică). Plantă caîcifilă, endemică în Carpați în
 zona montană superioară și subalpină. Planta este relativ mică (20 — 40 c m ) ,
 are flori de culoare galbenă-deschis, parfumată. Conținutul în subst ante
-78
 
 active este asemănător speciei E. diffusitm Ehrh. Pentru valorificarea în
 terapeutică a acestor specii ar fi necesare încercări de introducere în cultură.
@@ -3757,7 +3682,6 @@ caracteristică pădurilor umbroase, în special în făgete. Are flori violet-
 deschis sau violet-alburii. La subsuoara frunzelor are bulbili de culoare neagră-
 vioiacee, prin care se înmulțește pe cale-vegetativă. Rizomui se folosea în
 trecut pentru calmarea colicilor intestinale.
-79
 
 Cardalnine praiensis L. (Stupitul cucului, Paștele calu
 lu i). Plantă cu rizom scurt și gros, înaltă pînă la 50 cm, cu foliole bâzâie
@@ -3811,7 +3735,6 @@ diuretică.
 Coronopus squamatus (Fcrsk) Aschers. sin. Goron opus procumbens Gilib.
 (Talpa stîncii). Plantă înaltă pînă la 40 cm, cu flori mici, dese, albe,
 adunate în raceme dense. Răspîndită prin locuri înierbate, nisipoase sau
-80
 
 pietroase, umede, lingă drumuri și șanțuri. în trecut, părțile aeriene ale plan
 tei (Eerba Coronopi) erau utilizate ca remediu antiscorbutic și diuretic.
@@ -3916,7 +3839,6 @@ sau cilindrice. Florile de tipul 5 (mai rar 4 sau 6), hermafrodite, rareori
 unisexuate, dispuse în inflorescențe terminale variate: cime, spice, panicule.
 Fructele sînt folicule polisperme. De obicei sînt specifice locurilor stîncoase,
 pietroase, din regiunile deluroase pînă în zona alpină.
-32
 
 Sempervivum tectorum L. (Urechelniță). Frunzele conținînd acid
 malic, malat de calciu, au fost utilizate' odinioară ca astringent, antispasmo-
@@ -3966,7 +3888,6 @@ cordate, cele de lîngă flori de culoare galbenă. Crește în locuri umede și
 broase, în păduri, pînă în regiunea subalpină. Planta are proprietăți puternic
 vomitive. în trecut se utiliza ca antiluetic, iar în uzul extern contra erupțiilor
 cutanate.
-83-
 
 Philaddphus coronarius L. (Lămîița, Iasomia de grădină}.
 Arbust ornamental cultivat, cu fiori plăcut.mirositoare, utilizate in medicina
@@ -4071,7 +3992,6 @@ petate cu plugul urm at de discuri și se recomandă folosirea erbicidelor pentr
 combaterea buruienilor perene apărute pe ogor.
 Concomitent cu arătura de bază sau sub penultimul disc se încorporează,
 în sol 30—40 .t/ha gunoi de grajd bine ferm entat. .
-83
 
 Coacăzul negru se înmulțește ușor prin butași care se recoltează toamna
 sau iarna — înainte de dezmugurire. Lungimea butașilor trebuie să fie de
@@ -4125,7 +4045,6 @@ patru ani se ciupește numai vîrful. în toamna anului al patrulea, tufele de
 Coacăz negru trebuie să fie formate și să aibă 15—20 ram uri de diverse
 vîrste, dar nu mai bătrîne de patru sau cinci ani. Tăierile care se fac ul
 terior se rezumă la înlăturarea ramurilor mai bătrîne de patru pînă la șapte
-86
 
 ani, lăsarea a trei sau patru lăstari viguroși de înlocuire anual, care se tra
 tează ca mai sus.
@@ -4179,7 +4098,6 @@ anul urm ător se poate face și concomitent sau imediat după recoltarea,
 fructelor, în iulie.
 Recoltarea se face prin strujire, numai la o parte din ram uri, pentru
 a putea permite vegetarea în continuare a plantei.
-87
 
 Pregătirea materiei prime în vederea prelucrării. Uscarea se face la umbră,
 în strat subțire, în locuri bine aerisite, iar cea artificială la 40—50°C. Ran
@@ -4337,7 +4255,6 @@ de Ia F. ulmaria, frunze cu numeroase foliole — pînă Ia 40 perechi, polifoli
 culă cu fructe nerăsucite în spirală ca la F. ulmaria), cît și ecologice (F. îil-
 ■maria este o plantă de regiuni foarte umede, pe cînd F. hexafietala vegetează
 in j.ocun uscate, .aridey.
-90
 
 ### RUBUS FRUTICOSUS L.
 
@@ -4391,7 +4308,6 @@ Fructele pe lîngă folosirea în scopuri alimentare, sub formă de sirop
 ' : 9) constituie un laxativ ușor ce poate fi administrat și la copil.
 Confuzii. Sub denumirea de „mur" este și specia Rubus caesius L. —
 Murul de miriște, care crește în zona de cîmpie, pe răzoare, pe lingă garduri
-91
 
 pe marginea apelor și ale cărui frunze nu sînt solicitate. Deosebirile morfo
 logice se referă la: — portul plantei — mai redus la cel de miriște, cu lăstari
@@ -4441,7 +4357,6 @@ farmacodinamica specifică frunzele sînt utilizate empiric ca depurativ și
 astringent, iar extern sub formă de gargară în afecțiuni faringiene. Siropul
 obținut din fructele proaspete este utilizat în farmacie corectiv pentru di
 ferite scopuri medicinale. Intră în compoziția Ceaiului aromat.
-92
 
 ### ROSA CANINA L.
 
@@ -4477,7 +4392,6 @@ au arătat că unele dintre aceste specii au o valoare de 2—8 ori mai mare în
 -decît specia R. canina L. Tot în urma acestor cercetări s-a demonstrat că specia R. pcndulina
 T„ are conținutul cel mai ridicat în vitamina C dintre toate speciile din țara ncastră, întrecând
 ■de 10 ori conținutul mediu ai speciei R. canina.
-93
 
 Ecologie, răspîndire și zonare. Specie care nu suportă umbrirea și de
 aceea se instalează numai în rărituri de păduri de foioase sau pe marginea
@@ -4533,7 +4447,6 @@ urină.
 la distanțe de 2 m rînd de rînd și Ia 1—2 m pe rînd, după care se fac gropi
 de 40/40 cm în terenurile desfundate si de 60 x 80 cm în cele nedesfun-
 ’ V
-94
 
 •date. Pentru executarea gardului viu de măceșe, înainte de plantare cu 3—4
 săptămîni, terenul se ară la o adîncime de 30—35 cm, se grăpează bine și
@@ -4588,7 +4501,6 @@ căderii înghețului, măceșii vor fi mușuroiți.
 Un alt sistem de înmulțire, practic și simplu, este prin marcotaj. Pentru
 a obține puieți buni de plantat prin marcotaj, tufele alese pentru acest
 procedeu de înmulțire se îm part în trei părți: o parte din tufă va fi lăsată
-95
 
 să-și continue vegetația în mod normal pentru a hrăni întreaga plantă. A ~
 doua treime va fi pregătită pentru m arcotare în care scop va fi tăiată cît
@@ -4643,7 +4555,6 @@ Făinarea este provocată de ciuperca Sphaerotheca pannosa (Walîr.'y
 Lev. și apare pe frunze sub formă de pulbere foarte fină. Răspîndirea bolii
 e provocată de variația de tem peratură și um iditate. Se combate prin pră
 fuire cu floare de sulf 5 kg /ha în concentrație de 0,4% prim ăvara, de două
-96
 
 ori înainte de înflorire și în caz de apariția bolii se mai repetă prăfuireao
 dată. Se poate combate și cu zeamă bcrdeleză 300 l/h a în concentrație de
@@ -4698,7 +4609,6 @@ nutului în vitam ina C. Lopătarea șe va face numai cu lopeți de lemn pentru
 a se. evita rănirea fructelor care duce la scăderea conținutului în vitam ina C.
 Pentru economie de spațiu se pot păstra în lădițe umplute pe jum ătate care
 se clădesc în' formă de cruce. La 4—5 zile se vîntură dintr-o ladă în alta.
-97
 
 Este de dorit însă ca printr-o organizare bună a preluărilor m ateria prim ă să
 ajungă cît m ai repede la uscătorii, de dorit chiar în ziua în care a fost cu
@@ -4753,7 +4663,6 @@ de 6 —8 cm. După plantare, rîndurile se udă iar butașii se mușuroiesc. Es
 bine ca imediat după plantare să se acopere butașii plantați cu rumeguș
 în grosime de 1—2 cm pentru a se evita uscarea terenului. Se vor face udări
 cu must de bălegar sau se dau 30—40 kg/ha s.a. azot în două-trei etape.
-98
 
 în lună octombrie butașii înrădăcinați se replantează în școala de puieți.
 unde terenul se pregătește din timp. Distanța între rînduri de data aceasta
@@ -4808,7 +4717,6 @@ Acțiune fannacodinamică, utilizări terapeutice. D atorită conținutului ri
 dicat în acid ascorbic și dehidroascorbic care foimează un „sistem redox“
 reversibil, produsele farmaceutice sau alimentare (preparate în recipienț;
 inoxidabili în atmosferă de azot) joacă un rol im portant atît în oxidor edu.
-99
 
 cerile biologice cît și în respirația celulară. D atorită celorlalte vitamine și
 în special vitaminei P au proprietatea de a scădea perm eabilitatea și fragi
@@ -4913,7 +4821,6 @@ nu sînt tăiați vara, iar -terenul dintre rînduri se desfundă adînc. Prim �
 se scurtează coardele, iar plantele se lasă în școală încă un an, îngrijindu-se
 c ît'mai bine, și rămînînd ca toamna să fie replantate în locurile definitive.
 Pentru a obține rezultate bune la altoire, trebuie respectate următoarele con
-101
 
 diții: portaltoiul, în momentul altoirii, trebuie să fie proaspăt, cu sevă și
 curățat la m lajă; coardele pentru altoi să fie coapte, proaspete și cu sevă;
@@ -4968,7 +4875,6 @@ constau într-o bună afinare a terenului și stîrpirea buruienilor.
 așa măsură ca să acopere pămîntul, de aceea se recomandă cultura intercalată
 cu alte plante prășitoare joase ca: Gălbenelele, Crăițe etc., asigurîndu-se
 în acest fel pe această perioadă de tim p o rentabilitate a terenului cultivat.
-102
 
 Toamna, în octombrie, aiît in primul cît și în al doilea an de cultură, terenul
 se eliberează de resturile plantelor cultivate, tufele de trandafiri se exami
@@ -5023,7 +4929,6 @@ bobocilor florali. P entru extragerea uleiului se folosesc petalele de trandafir
 în stare proaspătă, recoltate între orele 4—10 dimineața. în mijlocul zilei
 conținutul în ulei volatil al petalelor scade simțitor și începe a se aduna din
 nou pe la orele 18—20 ajungînd la maximum la orele 4—6 dimineața.
-103
 
 Pentru petalele ce se valorifică în stare uscată, recoltarea se va face
 după ce s-a ridicat roua și numai pe tim p frumos și uscat. Aduîiarea peta
@@ -5078,7 +4983,6 @@ Ca măsuri de combatere se recomandă distrugerea buruienilor în mod
 special Traista ciobanului și mijloace agrofitotehnice.
 Sfredelitorul tulpinilor ș i lăstarilor tineri ai Tran
 dafirului de lună (Agrilus mokrzeckii Obubr. / Adultul este un gîndac ase
-104
 
 m ănător urnii bob de secară, este colorat în verde-închis pîaă Ia negru cu
 nuanțe aurii. Apare la sfîrșitul lunii mai trăind 30—35 zile. Zboară pe distanțe
@@ -5129,7 +5033,6 @@ mici. în prezent în Bulgaria se efectuează cercetări pentru utilizarea uleiu
 lui volatil de trandafir în terapeutică și în alte afecțiuni.
 ■ Utilizarea majoră rămîne în industria paTfumurilor, în cosmetică sau
 ca aromatizant în industria alim entară.
-195
 
 ### AGRIMONIA EUPATORIA L.
 
@@ -5183,7 +5086,6 @@ Pregătirea materiei prime în ve
 derea prelucrării. înainte de uscare se
 îndepărtează fructificațiile m ature, în-
 Fig. 1 9 - Agrimonia cupatcria (foto orig.) gălbenite și tulpinile prea groase, lem-
-106
 
 nificate. Uscarea pe cale naturală se face la umbră, în locuri aerate, în strat
 subțire, pe cale artificială se face în uscătorii la 35°C. Randam entul la us
@@ -5286,7 +5188,6 @@ festate prin greață și vărsături."
 Observații. Uneori se poate recolta și partea aeriană a plantei în perioada
 înfloririi (Herba Gei urbani), care n u -trebuie să conțină' părți de tulpini
 lignificate, frunze decolorate sau brunificate.
-108
 
 Confuzii. în flora României mai sînt și alte specii de Geum care au
 unele asemănări cu specia medicinală, dintre care mai răspîndite sînț:
@@ -5338,7 +5239,6 @@ brunificate sau decolorate și max. 1% tulpini tîrîtoare, corpuri străine ffl
 . râie și organice — înax. 1% pentru fiecare, um iditate — max. 13%.
 Compoziție chimică. Părțile aeriene conțin 7—11% tanin galic și elagio,
 iar cele subterane pînă la 20% taninuri de același tip. în m ateria prim ă se
-109
 
 mai găsesc substanțe amare, mucilagii, ulei volatil, steroli, flavonoizi, săruri
 minerale etc.
@@ -5441,7 +5341,6 @@ Recoltare. Perioada optim ă este îndelungată, din iunie pînă la începutul
 lui octombrie. Se rup frunzele fără pețiolul principal.
 Pregătirea materiei prime în vederea prelucrării. După ce se rup pețiolii
 rămași și se îndepărtează resturile de stoloni, se face uscarea la u m b ri
-Iii
 
 în strat subțire, întorcîndu-se cu m ultă atenție din cînd in cînd, sau arti
 ficial la 40—50°C. Randamentul la uscare este de 4—5/1.
@@ -5488,7 +5387,6 @@ ca materie primă — Foliutn Alchemillae.
 Ecologie și răspîndire. Planta din etajul montan și alpin, de locuri des
 chise, din pășuni, finețe, margini de păduri, tufișuri; în mod particular se
 '* Denumirile populare sînt comune fi pentru specia JUhuntlla m lfatis L.
-112
 
 dezvoltă extrem de abundent pe coaste foarte abrupte, pe albii de torenți,
 rupturi de pantă.
@@ -5540,7 +5438,6 @@ erecte, albe, pe tipul 5, cu petale
 rotunde,- cu un singur ovar (C. mo-
 nogym) sau două ovare (C. levigata) ;
 fructe: ovoide, roșii, de 7—10 mm, Fig. 22 — Crataegus levigat»
-113
 
 cărnoase (partea cărnoasă provine din receptacul, fiind deci fructe false),
 sîmburi — 1 (la C. monogyna) sau 2 (C. levigată).
@@ -5594,7 +5491,6 @@ de flori cu frunze și frunzele se usucă pe cale naturală la umbră, în locur
 c ît mai aerate, de preferat în poduri acoperite cu tablă, în strat subțire,
 astfel încît uscarea să se facă cît mai repede. La uscător se face la ©tem
 peratură pină la 35°C. Fructele se usucă pe cale naturală la soare, în'■strat
-114
 
 subțire, întorcîndu-se din cînd în cînd pentru a se usca uniform, iar pe cale
 artificială la useătorii la 70°C.
@@ -5649,7 +5545,6 @@ intră în compoziția Ceaiurilor antiastm atic și calmant împotriva tulburăr
 cardiace, iar fructele în Ceaiul calmant. Se poate adm inistra sub formă de
 infuzie, o linguriță sau o lingură fructe sau flori cu frunze la o cană de apă
 care se bea în tim pul unei zile. Tinctură se prepară din 20 g plantă la 100 mi
-115
 
 ■alcool de 60°. Se administrează 15—20 picături de 2—3 ori pe zi în puțina
 apă.
@@ -5700,7 +5595,6 @@ remediu util contra artritei, iar dizolvate în apă ca loțiune contra pecingin
 Fructele — în afara importanței alimentare — sînt totodată ușor laxatrve.
 Se menționează și utilizarea frunzelor datorită taninurilor pe care le
 conțin, sub formă de infuzie ca antidiareic.
-316
 
 ### PRUNUS SPINOSA L.
 
@@ -5802,12 +5696,7 @@ flam ator.
 — flori brunificate, % max.
 — resturi de frunze și de crenguțe, % max.
 Călit. I
-8
-5
 Călit. II
-15
-7
-118
 
 ## ALTE SPECII DE ROSACEAE CU UTILIZĂRI MEDICINALE
 
@@ -5863,7 +5752,6 @@ apelor, astringenta și tonică (în unele farmacopee, ca de exemplu în cea ame
 ricană, este oficinală).
 Potentilla cinerea Chaix sin. P. arenaria Borkh. (Buruiana jun
 ghiului). Specie de pe coline aride, locuri nisipoase, num ită și Scrin-
-119
 
 t i t o a r e, datorită utilizării sale în medicina
 populară contra luxațiilor, ca și pentru răni și
@@ -5973,7 +5861,6 @@ de Migdal am ar fiind toxice.
 Primus lauroce-rasus (L.) Mili. sin. Laurocerasus ojficinaiis Rhoem. (L a u-
 rocireș). Specie cultivată în parcuri și grădini în zonele mai calde ale
 rării. Toate organele plantei sînt toxice, conținînd acid cianhidric. în trecut
-121
 
 în farmacie se utiliza Aqiia Lauroccrasi preparată din frunzele acestei specii,
 fiind recomandată ca sedativ și antispastic.
@@ -6021,7 +5908,6 @@ r -F fN lL -B tfC C -P K O N Ă
 ### AMGEWNÂ QUSSCITINÂ
 
 AMGEWNÂ QUSSCITINÂ
-122
 
 gume, mucilagii, compuși polifenolici etc. Derivații flavonici sînt larg răs-
 pîndiți în această familie fapt care ne permite să facem o clasificare a lor.
@@ -6075,7 +5961,6 @@ Acțiune farmacodinamică, utilizări terapeutice. Galactomananul are ac
 țiune antispastică fiind recomandat în ulcer și în astmul bronșic. Triacantina
 are de asemenea acțiune spasmolitica asupra musculaturii netede fiind reco
 m andată în colite spastice, ulcer duodenal și colicistite acute.
-123
 
 Cercetările originale făcute în țara noastră în domeniul medicinii vete
 rinare au dus la concluzia că fructele acestei specii pot fi utilizate cu rezultate
@@ -6127,7 +6012,6 @@ arborii sînt înalți;
 — strujirea bobocilor. Culegătorii
 experimentați recoltează direct din
 Fig. 26 — Soț.h(.ra japonua arbore, legîndu-se cu centuri de sigu-
-124
 
 rariță și avînd prins de mijloc un sac în care pun direct produsul. Colecta
 rea' bobocilor florali recoltați se face obligatoriu în coșuri și nu în saci, unde
@@ -6289,7 +6173,6 @@ pentru fixarea lor. Este cultivat în masive, în sate, la marginea drumurilor,
 de unde poate fi recoltat în special în Oltenia (județele Mehedinți, Dolj, Olt),
 în întreaga Muntenie, sudul Moldovei (județele Galați, Vrancea, Vaslui și
 Iași), vestul Transilvaniei (Satu Mare, Bihor. Arad, Timiș).
-127
 
 Recoltare. în lunile mai-iunie se recoltează inflorescențele, fie direct
 cu mina de pe arbore (cu ajutorul scărilor), fie tăind crenguțele cu ajutorul
@@ -6400,7 +6283,6 @@ n-au dat încă tulpini aeriene. Se fasonează la 15—20 cm, avînd grijă ca
 fiecare fragment de stolon să aibă 2—3 ochi sănătoși. Tăierea în fragm ente
 de 15—20 cm se face atent la un cm depărtare de primul sau de ultimul
 ochi al fragmentului. Stolonii se plantează la adîncimea d3 10—12 cm, la
-129
 
 intervale de 80—IO O cm și la distanța de 30 — 40 cm. Pentru un hectar sînt
 necesari 30 000 — 35 000 butași sau 1 800—2 000 kg material fasonat. Pentru
@@ -6510,7 +6392,6 @@ gliciretic și glabric au pe de o parte proprietăți asemănătoare DOCA-ului
 asupra echilibrului ionic (Naf, K !, CI-), iar pe de altă parte acțiune antiin-
 flamatoare și antiuîceroasă în ulcerul gastric, acțiune potențată de derivații
 flavonici. Acțiunea estrogenă este explicată prin prezența hormonului steroid.
-131
 
 Extractul to+al are acțiune laxativa prin influențarea m otilității gas
 tro-intestinale. In tră în numeroase forme și produse farmaceutice între care
@@ -6564,7 +6445,6 @@ Hauhechel; M. Tovises iglice; R .: Stalnik kaliucii.
 Caractere de recunoaștere. Planta : specie perenă, subarbustivă, cu
 partea bazală lemnificată, erectă, ramificată, spinoasă, înaltă de 30—60 cm;
 partea subterană: rizom care se continuă cu o rădăcină flexibilă, lungă de
-132
 
 25—30 cm (adesea mai lungă) și groasă pînă Ia
 1 cm, de culoare cenușie; tulpina aeriană: lemni-
@@ -6617,7 +6497,6 @@ seci, cioturi, corpuri străine organice — max. 0,5% și minerale — max. 2%,
 um iditate — max. 13%.
 Compoziție chimica, a și B onocerină, ononină și onospină, trifolirizină
 și fitoglutinină — substanță de natură proteică, saponozide de natură triter-
-133-
 
 penică care prin hidroliză dau acid gliciretic, tanozide, flavonoidul gluco-
 zid-7-formononetoI, ulei volatil și ulei gras, zaharuri, acid citric etc.
@@ -6720,7 +6599,6 @@ foliole obovate, ușor alungite, ușor dințate, glabre la
 fața superioară și slab păroase pe d o s; cele teiminale sînt
 pețiolate, lungi de 2—3 cm și k te pe jum ătatea lungimii, Fig 29 _ Trigoneua foe.
 - num-graecum
-135
 
 frunzelor superioare, lungi de 12—18 mm, sînt de țip papilionat, cu
 corola gălbuie sau slab liliachie, au caliciul păros, cu dinții egali cu tubul, iar
@@ -6774,7 +6652,6 @@ Evaluarea producției este similară cu cea a soiei.
 Pentru obținerea materialului de înmulțire se va proceda ia alegerea
 parcelelor cele mai bune, cărora li s-a asigurat o izolare de 1 500—2 000 m
 și li s-au executat lucrările de purificare biologică.
-136
 
 Schinduful la noi fiind de dată recentă nu a prezentat deocamdată beli
 și dăunători specifici, în țările de origine este sensibil la rugină și mană.
@@ -6826,7 +6703,6 @@ culul admis este de max. 1 cm lungime. Miros caracteristic, gustul dulceag.
 Ecologie și răspândire. Plantă specifică pentru pășuni și finețe, precum și în
 rărituri de păduri, buruienișuri de coastă. Altitudinal se întîlnește din zona de
 cîmpie, mai abundentă în pășuni de deal, pînă la munte, unde urcă pînă
-137
 
 ia 2 IO O m. Sînt și forme furajere cultivate. Se poate recolta în toate județele
 țării, cu deosebire în cele de deal și munte.
@@ -6879,7 +6755,6 @@ Se poate recolta în toate județele țării, cu deosebire în cele de deal
 și m unte.
 Recoltare. Perioada de recoltare se întinde în tot cursul înfloririi, dar
 produsul cel mai bun se obține Ia începutul acestei epoci (mai-iuiie), cînd
-138
 
 nu apar în inflorescențe decît puține flori brunificate. Metode de recoltare: —
 m anual, capitul cu capitul sau cu degetele răsfirate ca un pieptene; — cu
@@ -6986,7 +6861,6 @@ paripenate cu 11—17 folioie, cu vîrf obtuz și mucronat, flori în raceme lun
 palid liliacee, fructe păstăi lineare; frecventă prin livezi, pășuni umede,
 pe malul apelor. Partea aeriană (Herba Galegae) conține alcaloidul gale-
 gină și guanidină, derivați flavonici (luteolină, juglanozid, camferol, mela-
-140
 
 noxetol, rutozid, cvercitrozid etc.). Acțiunea galactogogă este cunoscută
 în medicina tradițională. Se mai menționează ca acțiuni secundare cele
@@ -7041,7 +6915,6 @@ ale aparatului urinar și chiar litiază renală. S-a mai recomandat și în st�
 congestive ale ficatului. în uz extern — făina de năut sub formă de cata-
 plasme calde se poate aplica în pleurezie, dar numai pentru atenuarea du
 rerilor, fără a avea efecte particulare. Plantulele de Năut conțin numeroși
-141
 
 flavonoizi între care: biocanol A, biocanol-7-glucozid, biocanol C, daidzeoî,
 formononetol, garbantol, liquiritigenol izoramnetol etc.
@@ -7178,7 +7051,6 @@ Fam. OXALIDACEAE
 Plante mici, ierbacee, din păduri umbroase și umede de Fag, Molid sau
 Brad (Oxalis acetosella L .), originare din America de Nord (O. stricta L.j
 sau unele cultivate în scop ornam entai (O. corniculata L., O. deppei Lodd.),
-144
 
 se întîlnesc uneori subspontane. Frunze trifoliate sau tetrafoliate (O. deppei).
 invers-ovate, fîori actinomorfe pe tipul 5.
@@ -7232,7 +7104,6 @@ Dickwurzeliger Storchschnabei :
 M.: Kandilla golyaorr; R. :
 Gerani krupnocornevișcinaia.
 Fig. 32 — Geranium macrorrhizum
-1455
 
 ■ 6 —10 cm, cele tulpinale m ult mai mici, scurt pețiolate sau sesile și cu numai
 3—5 lobi, lobii în general obovați sau eliptici, la vîrf cu dinți m a ri; florile:
@@ -7285,7 +7156,6 @@ pulară de „Năpraznic" ; rădăcina: pivotantă, sla
 b ă ; tulpina: cilindrică, fragedă, cu îngroșări evi
 dente la noduri, avînd peri glanduioși; frunze:
 cele bâzâie dispuse în rozetă, se trec la m atura
-146
 
 rea plantei, răm înînd porțiuni uscate de pețiol; cele tulpinale opuse, lung-
 p ețio late^ —6 cm), cu 3—5 segmente dublupenat-sectate, avînd peri glandu
@@ -7444,7 +7314,6 @@ Fam. ZYGOPHYLLACEAE
 fiC -
 »,A,t •
 Fig. 34 — Pena guru har mal*
-149
 
 -■dau 50 kg /ha s.a. fosfor, 50—60 kg /ha s.a. azot și 30 — 40 kg /ha s.a.
 .potasiu.
@@ -7483,19 +7352,15 @@ peste normal este de 25%. în această situație producția va fi:
 20 X 8 X 3 = 480 g/m 2 , din care se scade 25% um iditate peste normal.
 *480 X 25
 480 ------------------= 360 g/m 2. La această greutate semințele reprezintă 70%
-100
 deci = 252 g/m 2. Pentru siguranță aplicăm coeficientul de 5%
-100
 pierderi la recoltare, transport și treier rezultînd în final o producție de se-
 .m ințe stas de:
 2^2 x ^252 -----:-----— = 239,4 g/m 2 sau la hectar de:
-100
 239,4 x 10 000 _- = 2 394 kg /ua.
 1 000
 Boli, dăunători și mijloace de combatere. Peganum fiind o specie medici
 nală luată în cercetare și în cultură în ultimul deceniu nu prezintă deocam
 d a t ă boli sau dăunători specifici.
-150
 
 în anumiți ani cu un grad mai mare de um iditate peste vară și cu tem
 peraturi m ai ridicate s-au observat, însă sporadic, urme de atac de făinare
@@ -7650,7 +7515,6 @@ direct cu gunoi de grajd, deoarece din cercetările întreprinse rezultă că ac
 -diminuează producția.
 Prim ăvara, imediat ce terenul permite, o prim ă lucrare este aceea a
 spargerii crustei, după care se trece cu cultivatorul în agregat cu grapa re-
-153
 
 glsbilă în lungul 'ți în latul solei, pentru menținerea terenului curat de bu
 ruieni pînă ia însămînțare.
@@ -7756,7 +7620,6 @@ RICIN ; F r .: R icin ; E .: Castor oii p la n t; G .: R izinus; M .: Ricinus ;
 R .: Kleșcievina abîknavennaia.
 Caractere de recunoaștere. Planta: La noi, specie ierbacee exclusiv
 de cultură (se cultivă ca plantă anuală, în timp ce în țările de origine, cu
-155
 
 climă m ult mai caldă, este arbust sau arbore), înaltă de 1 - 3 m, cu dezvol
 tare luxuriantă; rădăcina: foarte bine dezvoltată, cu 4—7 rădăcini secundare,
@@ -7808,7 +7671,6 @@ ieni și fără crustă prin -lucrări repetate. Cind Ricinul se cultivă după 
 care a fost recoltată tîrziu (porumb sau bumbac) se face o arătură adîncă în
 toamnă la 30—35 cm care se lasă peste iarnă în brazdă crudă. Prim ăvara
 solul se menține afînat și curat de buruieni, pînă la însămînțare, cu cultiva
-156
 
 torul. Ultima lucrare este bine să se facă chiar în ziua semănatului, la adm-
 eimea necesară însămînțării.
@@ -7862,7 +7724,6 @@ face în bune condiții cu grapa stelată, ușoară. Atunci cînd răsăritul pl
 se face cu prășitoarea mecanică sau cu sapa. După 10—15 zile de Ia prim a
 prașilă se face prășilă a doua, folosind de asemenea prășitoarea și sapa. O
 d a tă cu prășilă a doua se face și rărițul ricinului, atunci cînd planta are
-157
 
 3—4 frunze adevărate. în acest caz se Iasă o singură plantă la 45—55 cm,
 dacă s-a semănat cu mașina în rînduri sau o plantă la cuib dacă s-a semănat
@@ -7917,7 +7778,6 @@ cini, Ber Biz, Sclerotinia libertiana Fuck.
 Omidia capsulelor de bumbac — Heliaihis (Chloridea}
 obsoleta F. — are o lungime de circa 4 cm și o culoare variabilă de la verzui
 pînă la roșcat-violet sau chiar brun-închis. Capul cmidei este de culoare
-158
 
 brunie. Omizile apar de 2—3 ori pe an și cauzează pagube m ajorității culturi
 lor. La ricin omizile atacă mugurii și florile, pe care le distrug complet. Com
@@ -7971,7 +7831,6 @@ proaspătă. în medicina 'tradițională planta era utilizată ca galactofug sa
 remediu în hidropizie. Datorită toxicității utilizarea este lim itată.
 Mercurialis perennis L. (Brei). Specie cu utilizări similare ca și
 M. anmie, dar cu toxicitate mai ridicată și deci nerecomandată în fitoterapie.
-159
 
 Fîg. 35 — Euphorbia cyparissias (foto orig.)
 Depășirea cu puțin a dozei terapeutice provoacă diaree sanguinolenta, vărsă
@@ -8049,7 +7908,6 @@ scurt-pețiolate sau sesile, cu flori pe tipul 5, cu petale m ult tim p persiste
 de culoare galbenă. Crește pe coaste aride, pietroase, în special calcaroase.
 în Podișul Transilvaniei, mai răspîndită în Dobrogea. Semințele acestei
 specii erau utilizate în trccut empiric, în hepatite.
-161
 
 Dictapmm albuș L. (Frăsinel). Specie ierboasă din tufărișuri și
 mărăcinișuri din regiunea de cîmpie și deal. Partea subterană (rizomi si
@@ -8098,7 +7956,6 @@ diaforetică și tonic-amară. în medicina tradițională utilizată sub formă
 decoct în lapte, extern „pentru cicatrizarea urmelor de vărsat". Utilizarea
 empirică în boala reumatismală este justificată prin faptul că glicozidul pune
 in libertate salicilat de metil.
-162
 
 ## Fam. ANACARDIACEAE
 
@@ -8150,7 +8007,6 @@ penat-compuse. Flori simetrice, poligame sau dioice, in inflorescențe compuse.
 Florile mascule au un gineceu rudim entar, iar la cele femele gineceul este
 format din două capsule. Fructul este o samară compus din două fructe
 aripate.
-163
 
 Acer campestre L. (Jugastru). Arbore înalt pînă la 15 m, t’ recvent
 în toate regiunile țării prin păduri de amestec de foioase și la marginea păduri
@@ -8201,7 +8057,6 @@ fructe: capsule globuloase de 3—5 cm diametru, țepoase, se deschid prin
 Materia primă: Florei Hippdcastani albi — Flori andro-monoice
 neregulate, albe, pătate cu roșu, de cca 2 cm în diametru. Caliciul cu 4—5
 dinți. Corola ca 4—5 petale albicioase, cu marginea răsfrmtă,, la bază cu-.
-164
 
 cîte o pată roz. De obicei 7 stamine, puțin mai lungi decît corola. Lungimea
 pedunculului: max. 1 cm. Fără miros caracteristic, gust slab, dulceag.
@@ -8253,7 +8108,6 @@ Pe cale artificială florile^se usucă la 30—35C C, frunzele și scoarța la
 50— 60 °C, iar pentrufsem ințeJseJpornește de la 40°, ajungîndu-se la 60 °C.
 Randamentul la uscare: — pentru flori, 6—7/1; pentru frunze, 3,5—4/1;
 — pentru semințe, 1,5—2/1; — pentru scoarță, 2,5—3/1.
-165
 
 Condițiile tehnice de recepție prevăd:
 — la flori nu se adm it corpuri străina organice, ca im purități se admit
@@ -8307,7 +8161,6 @@ parate homeopatice și în medicina veterinară.
 Literatura de specialitate citează intoxicații cu semințe de Castan săl
 batic în special la copii, caracteristizate prin agitație, insomnie, anorexie,
 cefalee, vomă, febră, paralizie facială, paralizie respiratorie centrală, m oarte.
-166
 
 în prezent extractele din această specie intră în numeroase produse
 farmaceutice destinate uzului extern sau cosmetic. Extractul din fructe și
@@ -8362,7 +8215,6 @@ recoltate din aprilie pînă în iulie conțin un glicozid impatiinidozidul, tan
 amidon, zaharuri. rezine, urme de ulei volatil. Acțiunea tincturii preparată
 din frunzele plantei are acțiune astringență și diuretică. Pulberea din frunze
 uscate, bine dozată arc acțiune, laxativa, purgativă și emetică.
-167
 
 ## Fam. AQUIFOLIACEAE
 
@@ -8416,7 +8268,6 @@ Staphylea pinnata L. (Clocotiș). Arbust pînă la 5 m înălțime cu
 lujeri anuali verzi-măslinii sau bruni-roșcați, cu numeroase lenticele albe.
 Frunze opuse, lung-pețiolate, imparipenat-compuse, cu 5—7 foliile. Florile
 dispuse în panicule lung-pedunculate. Corola în formă de clopot cu petale
-168
 
 alungite, albe-gălbui. Fructul capsulă, umflată, sferică pînă la piriforma. Crește
 în zona forestieră de la cimpie pînă la etajul m ontan inferior. în medicină
@@ -8464,7 +8315,6 @@ scoarță sub formă de jgheaburi sau tuburi de lungime și lățime variabilă,
 groase de 0,5—2 mm. Suprafața externă a scoarței este netedă sau prevăzută
 cu striațiuni longitudinale, de culoare brună-cenușie, cu numeroase lenticele
 de culoare cenușie-albicioasă, proeminente și alungite.
-169
 
 Fig. 36 — Frangu!a alr.us (foto c,rig.j
 Suprafața internă este netedă, de culoare galbenă-roșcată, cu siriațiuni
@@ -8498,7 +8348,6 @@ operație trebuie făcută astfel încît să perm ită refacerea arbustului (ma
 fragmente tubulare sau în formă de jgheab; această operație trebuie făcută
 la scurt interval după detașarea ramurilor, deoarece altfel scoarța se desprinde
 cu mare greutate.
-170
 
 Nu este permisă decojirea ram urilor direct pe arbust, întrucît duce îa
 uscarea acestuia.
@@ -8553,7 +8402,6 @@ Scoarța de Crușin intră în compoziția ceaiurilor hepatic nr. 2, laxativ
 antihemproidal, laxativ nr. 2, în pulberea . laxativ-purgativă, pulberea de
 licviriția compusă, în R'aamnolax, Nornnponderol, Ulcerotrat, iar sub form i
 de extract uscat în Carbocif, Cortelax, Laxatin etc.
-171
 
 Confuzii. O specie înrudită este Rhamnus cathartica L. (Verigariu,
 Spinul cerbului), cu care uneori se fac confuzii. Caractere de deosebire:
@@ -8604,7 +8452,6 @@ jarului), avînd cerințe ecologice apropiate cu Prunus spinosa și Crataegus
 monogyna.
 Răspîndit în toate județele de stepă, silvostepă și dealuri ^>ase, în
 cantități mai mari în Transilvania (Bihor, Brașov, Caraș-Severin, Cluj),
-172
 
 Oltenia (Dolj), Muntenia (Ilfov, Teleorman), Moldova (Galați, Iași), Do
 brogea (Constanța).
@@ -8655,7 +8502,6 @@ Fam. VIT ACE AE
 Liane care se agață adesea prin cîrcei. Frunze alterne, palmat-lobate.
 Flori mici, pe țip 5 (rar 4), grupate în panicul compus din dichazii. Fructe-
 bace cărnoase, suculente.
-173
 
 Vitis vinifera L. (Vița de vie). Frunzele de Ia varietățile pigmentare
 în roșu (Alicante-Bouche) conțin tanoizi și autociani, esteri ai acizilor hidro-
@@ -8707,7 +8553,6 @@ Flori galbene-aurii, cu 5 sepale verzi-gălbui, caduce, stelat-tomentoase ;
 petalele. Petalele și parapetalele sînt mai groase decît la celelalte specii.
 Staminele 50— 80 formează 5 grupuri. Ovarul oval, tomentos, pistilul ter
 m inat cu un stigmat globulos, cu 5 lobi.
-174
 
 F L ..Ie speciei T. cor
 data, în număr de 3—9
@@ -8899,7 +8744,6 @@ snecifică, cu altoiul și portaltoiul din aceeași specie.
 Ramurile altoi se recoltează din creșterile anuale din partea de sus și
 de mijloc a coroanei arborilor de tei m aturi, de pe partea însorită. Pentru alto
 irea cu ram ură detașată recoltarea se face spre sfîrșitul iernii, în perioada
-177
 
 în care tem peratura aerului devin2 pozitivă, altoaiele păstrîndu-se pînă Ia
 d a ta altoirii.în nisip reavăn la 1—e°C. Pentru altoirea în oculație recoltarea
@@ -8954,7 +8798,6 @@ festă începind cu a doua parte a lunii iunie sub forma de pete mici, brune-ne-
 gricioase pe lujeri, tulpini și frunze, care apoi se măresc și confluează,- ducînd
 Ia uscarea puietilor, se fac stroDÎri cu zeamă bordelează în concentrație de
 0 ,5 -2 % .
-178
 
 In cîmpul de altoire se execută tăierile de formare a trunchiului și
 coroanei, începînd din anul al doilea de la altoire și continuînd în anul al
@@ -9008,7 +8851,6 @@ ficială (la 8—10 cm), la sfîrșitul verii, între rîndurile de plante.
 sițul verii.
 Anual, o dată cu executarea prășitului, se face și îndepărtarea- lăstarilor
 și a drajonilor apăruți sub punctul de altoire.
-179
 
 Preventiv, contra cercosporiozei teiului produsă de Cer-
 cospora microspor a Sacc., în primii 5 ani de la plantare se fac stropiri cu zeamă
@@ -9061,7 +8903,6 @@ acid galacturonic, arabinoză, galactoză și ram noză; ulei volatil (0,04 —0
 gume, tanin, zahăr, colină și acetilcolină. în uleiul volatil se află un alcool
 alifatic sescviterpenic — famesolul — care imprimă florilor de tei mirosul
 caracteristic.
-180
 
 Scoarța conține polifenol!: floroglucinol, taninuri de natură catehică
 si galică, cantități mici de heterozide cumarinice intre care fraxozid și
@@ -9111,7 +8952,6 @@ frunze: alterne, lung-pețiolate (pînă la 15—25 cm), limb reniform sau rotun
 cu baza cordată, cu 5—7 lobi palmați-ro tuni iți și margine dințată, păroase;
 flori: dispuse la subsuoara frunzelor cîte 1—6, cu pediceli lungi (2—4 cm );
 au caliciu dublu, cu 3 sepale externe mai mici și libere și 5 interne, unite,
-181
 
 petale albe-roz emarginate, lungi de 1—2 cm, în
 mijlocul florii numeroase stamine concrescute
@@ -9161,7 +9001,6 @@ frunze brunificate sau decolorate — max. 1%, frunze atacate de insecte —
 m ax. 1% și frunze atacate de rugină max. 2% corpuri străine organice — .
 max. 0,5% și minerale — max. 1%, um iditate — m ax.—13%.
 Fig. 33 — Malva negiecta
-182
 
 Compoziție chimică. întreaga plantă conține m icilagii, cantități, mici
 de tanoizi, lipide, fitosteroid substanțe minerala în special sărari d i K , Na
@@ -9211,7 +9050,6 @@ de rugină (Puccinia malva-
 c e a r u m) favorizat de unii factori
 nefavorabili de ordin climatic sau
 de tehnologie a culturii. Fi£. 39 - Malva sylvestris (foto o rig.)
-183
 
 Are cerințe moderate față de tem peratură, dar nu suporta primăverile
 Teci sau cu înghețuri tîrzii, curenții reci. ceața, vînturile puternice. F ață de
@@ -9263,7 +9101,6 @@ Evaluarea producției se face înaintea recoltării cît și în tim pul ei.
 Să presupunem că la un m2 s-au găsit 10 plante cu 25 flori și 30 frunze
 în medie pe plantă, iar greutatea a 1 000 flori este de 600 gram e; 1 000
 frunze cîntăresc 650 g.
-184
 
 I. Producția de flori:
 10 pi X 25 flori X 600 g - 150 g/m 3 flori crude.
@@ -9272,14 +9109,12 @@ I. Producția de flori:
 Din 4 kg flori crude rezultînd 1 kg flori uscate, producția de flori uscate
 •este:
 150 g
-4
 Rezultă că producția medie la hectar este de:
 , 375 ks flori „scate/ha.
 1 000 g
 Se scade 1% ce reprezintă pierderile la recoltare, transport și manipulare
 375 ^ |
 375 kg — -----------= 371,25 kg flori uscate/ha la o singură perioadă de
-100
 recoltare de cca 2—3 săptămîni. în 2—3 perioade de recoltare se pot realiza
 >cca 750 — 1 000 kg flori uscate.
 II. Producția de frunze:
@@ -9288,14 +9123,12 @@ II. Producția de frunze:
 Din 5 kg frunze crude, rezultînd 1 kg frunze uscate, producția medie
 < de frunze uscate este:
 = 39 g/m 2 .
-5
 Rezultă că producția medie la hectar este de:
 39 g x 10 000 m 2 , ,,-----5 ------------------- : 390 kg frunze/ha.
 1 000
 Se scade 1% procent ce reprezintă pierderile la recoltare, transport și
 m anipulare:
 390 X 1390 --------------= 386 kg frunze uscate/ha la o singură recoltare. La
-100
 ■doua perioade de recoltare se poate realiza cantitatea de 750 — 850 kg frunze
 uscate la hectar.
 în scopul producerii de semințe se aleg numai acele plante care s-au
@@ -9308,7 +9141,6 @@ m aturitate completă. Se leagă în snopi mici, care se lasă 2—4 zile pe cî
 pentru a se usca. După uscare se treieră, iar semințele vînturate se așază
 într-un loc curat și se lopătează circa 2 zile. Pentru a se desprinde unele de
 altele, semințele se trec prin ciur cu ochiurile de 2—3,5 mm.
-185
 
 Boli, dăunători și mijloace de combatere. Pentru prevenirea ruginii
 (Puccinia malvacearum Bert) se recomandă alegerea de plante rezistente
@@ -9362,7 +9194,6 @@ Bj, B2, C și un principiu cu acțiune ocitocică.
 Acțiune farmacodinamică, utilizări terapeutice. D atorită mucilagiilor și
 produșilor de hidroliză au acțiune emolientă și behică, ușurînd expeetorația
 Florile intră în compoziția speciilor pectorale, în Ceaiul pectoral nr. 2 și în
-186
 
 compoziția siropului expectorant (extract pectoral). Extern — ca emolient
 în inflamațiile mucoaselor bucală, oculară, vaginala și rectala.
@@ -9390,7 +9221,6 @@ stamine numeroase, violet și păroase cu antere roșii, înconjurind pistilul;
 fructe: capsule turtite care se desfac în 13— 20 segmente cu cite o sămînță
 ren:formă tu rtită lateral de 3—4 mm lungime.
 Fi?. J0 — Aliftata nffic'.nzlis [foto ori?.)
-187
 
 înflorire: VII—IX.
 Materia p r imă: Folium Althaeae — frunze scurt-pețiolate, mă?
@@ -9443,7 +9273,6 @@ toare și terenul va fi lucrat continuu cu grapa stelată sau cu cultiva torul
 pînă în toamnă cînd se aplică o arătură executată cu plugul desfuridăt or la
 o adîncime de 30—35 cm (adică la adîncimea maximă permisă de sol) și
 din nou se lucrează cu combina torul sau cu cultivatorul urm at de o grapă,
-188
 
 La arătura adîncă se încorporează în sol 45—50 kg/ha s.a. fosfor și 45—
 .50 kg /ha s.a. potasiu, iar primăvara, înainte de răsărire, se administrează
@@ -9497,7 +9326,6 @@ Dintre dăunători, mai frecvenți- sînt puricii Nalbei (Podagrica
 {virfurile frunzelor, chiar florile). Se combat plin prăfuiri cu Lindatox-J
 10 kg/ha sau Pinetox 12 kg,'ha. De asemenea. în culturile de Nalbă mai
 poste fi întîlnită și gărgărița Nalbei (Afion lo-ngisostris) prezentă _
-189
 
 pe frunză și flori. Se combate cu prăfuiri repetate de 2—3 ori cu Lindatox-3
 10 kg/ha la interval de 6—7 zile.
@@ -9550,7 +9378,6 @@ Compoziție chimică. Rădăcinile conțin 15—25% mucilagii care prin
 hidroliză dau acid galacturonic, ramnoză, arabinoză, glucoză, galactoză, metiî-
 pentoze; cca 30% amidon; 10% zaharuri; 1,5%—2% asparagină; substanțe
 grase, pectine, betaină, tanin, substanțe rezinoase etc.
-590
 
 Frunzele și florile conțin de asemenea importante cantități de mucilagii,
 tanin, flavonoizi etc.
@@ -9602,7 +9429,6 @@ Are cerințe moderate față de um iditate, în schimb este pretențioasă faț�
 de.sol, vegetînd bine pe soluri ușoare, adinei, afinate, revene, bogate în humus,
 bine drenate, căci nu suportă um iditatea în exces, cele mai potrivite fiind
 cernoziomurile și solurile aluvionare. Nu suportă azotul în exces, deoarece
-191
 
 îi mărește sensibilitatea la rugină. Rezistă bine a tit Ia temperaturile. scăzute
 din timpul iernii, cît și la cele ridicate de vară.
@@ -9709,7 +9535,6 @@ flori brunificate sau decolorate și max. 0,5% resturi de caliciu, corpuri stră
 minerale — max. 0,25%, umiditate — max. 11%.
 Observații. La cerere, florile se pot recolta și cu caliciu, obținîndu-se
 produsul Flores Malvae arboreae cum calicibus.
-193
 
 Compoziție chimică. Florile conțin mucilagii, fitosterine, substanțe de
 natură albuminoidă, pigmenți antocianici form ați din glicozide ale delfini-
@@ -9759,7 +9584,6 @@ Recoltare. Planta se recoltează în perioada de
 început a înfloririi (iunie—august), cînd plantele nu
 au fructificații prea multe, tăindu-se cu secera sau
 Fig 41 — Hibiscus irîonum cuțitul toată partea foliata.
-194
 
 Pregătirea materiei prime în vederea prelucrării. După ce se curăță de
 frunze îngălbenite și de fructificații, se pune la uscat la umbră, în locuri
@@ -9862,7 +9686,6 @@ Ecologie și răspîndire- Specie extrem de rezistentă la secetă și ger, nepr
 tențioasă față de sol, dezvoltîndu-se bine pe prundișuri, nisipuri, soiuri crude,
 pe coaste rîpoase pe care le fixează datorită lăstăririi și drajonării puternice.
 Solicită lumină directă.
-196
 
 Altitudinal se dezvoltă din zona
 litorala pînă în zona montană, mai
@@ -9914,7 +9737,6 @@ taminate. Uleiul gras are acțiune antiinflamatoare fiind u til și în arsuri �
 degeraturi.
 Observații. în U.R.S.S. se indică în scopuri medicinale și utilizarea
 frunzelor, bogate în vitamina C.
-197
 Fig. 42 — H if’pophai rhamnoides
 
 ## Fam. PASSIFLORACEAE
@@ -9966,7 +9788,6 @@ cu numeroase punctuații (glande) pe toată suprafața limbului care privit
 prin transparență pare perforat. Florile dispuse în dichazii, au caliciul și
 corola pentamere, sepale lanceolate, petale galbene-aarii cu puncte
 negre. Miros caracteristic balsamic, gust aromatic-amar, rezinos și astringent.
-198
 
 Ecologie, răspîndire și zonare.
 Pînă în prezent planta a fost re
@@ -10158,7 +9979,6 @@ florile în timpul înfloririi, iar frunzele în m artie—aprilie, fără peți
 ciupire cu mina.
 Pregătirea materiei prime in vederea prelucrării. După înlăturarea im
 purităților și corpurilor străine, se usucă la umbră pe ram e sau pe hîrtie.
-202
 
 spa ții aerate. Se păstrează la întuneric pentru a nu se decolora. Uscarea
 artificială se face la 40 °C. Randam entul la uscare este de 4—5/1 pentru frunze,
@@ -10211,7 +10031,6 @@ superioare ale florilor, de obicei de culoare violet-închis sau deschis, mai
 rar albă-gălbuie; cea inferioară aproape triunghiulară este galbenă cu dungi
 de culoare închisă, iar cele laterale ovale, albe, galbene sau violet-albăstrui.
 Fără miros, gust mucilaginos, amărui.
-203
 
 Ecologie, răspîndire și zonare. Plantă de lumină directă, suportînd cei
 m ult semiumbra, cu cerințe destul de mări față de -umiditate. Rezistă bine
@@ -10318,7 +10137,6 @@ Flori actinomorfe pe tipul 5, de obicei galbene. Fructul capsulă.
 Helianthemum nummulariiiM (L.) Mili. (Iarba osului). Specie fo
 losită în medicina tradițională pentru „vătăm ătură și nădușeală". Frunzele
 conțin un heliantemoglicozid, tanin, rezine, acid salicilic, săruri de potasiu
-205
 
 Fig. 45 — Viola arvensis (foto ong.)
 și calciu. Au acțiune vulnerară și diuretică. Cercetările din țara noastră au
@@ -10349,7 +10167,6 @@ tate în septembrie—octombrie au pus în evidență conținutul ridicat în ta
 ninuri, între altele acid galic, esteri ai meticvercetinei, substanțe colorante,
 nitrat de potasiu etc. Acțiunea este in special astringenta, diuretică și dia-
 foretică.
-206
 
 ## Fam. CUCURBITACEAE
 
@@ -10402,7 +10219,6 @@ ruieni. Deoarece se însămînțează direct în cîmp sau se plantează numai d
 ce terenul are tim p de 3—4 zile o tem peratură de 4-10 ... + 1 2 °C și după ce
 a trecut pericolul brumelor tîrzii de prim ăvară solicită o lucrare grădinărească
 a terenului cu obligația de a folosi acele utilaje de mobilizare care conservă
-207
 
 în grad absolut um iditatea din sol, con
 diție obligatorie de reușită deplină a
@@ -10456,7 +10272,6 @@ mai (15—20), înainte ca rădăcinile să iasă afară din ghiveci, la un inte
 de 1,5 m între rînduri și la distanțe de 70 cm între plante pe rînd. în re
 giunile cu climă mai dulce se poate însămînța și direct în cîmp, în cuiburi.
 în cuib se pun 3—4 semințe la o adîncime de 1,5—2 cm. Terenul se ține curat
-208
 
 de buruieni și afinat pe tot timpul vegetației, în care scop se execută cel
 puțin 3 prașile. Pentru o mai bună coacere a fructelor, plantele se pun pe
@@ -10510,7 +10325,6 @@ Ecballium elaterium (L.) A. Rich (Plesnitoare). Plantă anuală,
 care se desprinde la m aturitate foarte brusc de penduncul, fiind aruncat-
 aatorită ^presiunii interioare — la distanță. Acesta conține un glicozid ela-
 terina, ciicurbitacine, hidroelaterină, acid elateric, elaterid, alcaloidul pro-
-209
 
 fetină și era folosită ca purgativ drastic, cu efecte hidragoge. In Anglia se
 recomandă în hidropizie. în uzii extern se utilizează ca vezicator.
@@ -10563,7 +10377,6 @@ tîrîtoare, înrudită cu Pepenele verde, cu fructul de mărimea unei portocale
 cedentă produși de hidroliză ai glicozidului colocintina (colocinteină, elaterină,
 hidroelaterină, glucoză), cucurbitacină E, citrulol, rezine, ulei gras, acizi
 organici etc.
-210
 
 Are acțiune purgativă drastică, iritantă. Este contraindicată în sarcină,
 perioada m enstruală și în perioada alăptării. Are acțiune emetică, puțind
@@ -10617,7 +10430,6 @@ Fam. LYTHRACEAE
 Plante ierboase, viguroase, specifice locurilor umede, cu frunze întregi,
 opuse, flori hermafrodite, grupate în inflorescențe terminale racemoase, cu
 înveliș floral dublu, pe tipul 6 (rar 4); fructul capsulă.
-211
 
 Conțin flavonozide, compuși polifenolici, în special tanoizi care le con
 feră proprietăți astringente.
@@ -10876,7 +10688,6 @@ volatile, alcooli nesaturați și gumirezine.
 Familia Apiaceae este o familie foarte bogată în specii dintre care multe
 au im portanță pentru terapeutică sau pentru obținerea uleiurilor volatile
 utilizate și în scop arom atic sau condimentar.
-216
 
 ### ERYNGIUM PLANUM L.
 
@@ -10981,7 +10792,6 @@ ulei variază între 0,61 și 0,95%, în timp ce în zone mai re c i— Suceava,
 Cluj — acest procent este de numai 0,4 î —0,76%).
 Perioada de vegetație este de 90— 120 zile.
 Solicită lumină m ultă, zile însorite.
-218
 
 F ață de um iditate Coriandral are exigențe mări în timpul răsăririi, se
 ceta în această perioadă puțind compromite recolta, ca și în timpul formării
@@ -11036,7 +10846,6 @@ Pe terenurile curate de buruieni însămînțarea se execută în rînduri dese
 de 45 cm. Însăm înțarea se mai poate face și în rînduri duble. în acest caz,
 între două rînduri apropiate se lasă o distanță de 12 cm, iar între acestea
 și următoarele două rînduri apropiate de 45 cm.
-219
 
 Cantitatea de săm înță necesară însămînțării unui hectar este de 18 kg,
 cu o puritate de 98% și cu o germinație de 80%. Pentru reușita culturii,
@@ -11082,9 +10891,7 @@ port și manipulare:
 1 000
 = 150,65 g 'm2.
 150,65 X 18
-100
 123,54 X 5
-100
 = 6,18 g/m 2; 123,54 g — 6,18 g = 117,36 g/'m2
 = 27,11 g/m 2; 150,65 g — 27-, 1 1 g = 123,54 g/m"- v
 rotunjit 117 g/m 2, iar Ia hectar este de 1 170 k. '■y
@@ -11142,7 +10949,6 @@ Tratam entul termic la 52"C Ia fructelor de coriandru — m aterial de
 însămînțare, se execută prin scufundarea acestora in apă încălzită la 53 — 54 °C,
 urm ată de răcirea semințelor într-un curent de apă.- în lipsa instalațiilor
 pentru, aplicarea tratam entului termic la 52 °C se recomandă tratarea chimică
-221
 
 a materialului de înmulțire înainte de însămînțare cu Formalină 0,25%,
 Tiradin 75 în doze de 4 kg /t de sămînță sau Dithane 0,2% tim p de 15 minute.
@@ -11195,7 +11001,6 @@ pisin M-70, în doze de 5 kg/t de sămînță.
 Mozaicul umbelif erilor s a u mozaicul comun al
 ț e 1 i n e i este o viroză produsă de Apium virus 1 sau Marmor umbdliferarunt
 Holmes. Atacul se produce pe frunze de-a lungul nervurilor sub forma unui
-222
 
 mozaic. Mâi tîrziu pot apărea pete negricioase, brune. Această viroză se trans
 mite prin afide: Myzvs persicae Sulz, Aphis gossypii Glover, Doralis sp.
@@ -11249,7 +11054,6 @@ curățirea I sita boabe: 7 —8 mm, curățirea I sita buruieni: 1,5 oarbă, cu
 țirea II sita I 10—12 mm, curățirea II sita II 7 —10 mm, curățirea II sita
 I I I 1,5 oarbă.
 Fructele destinate consumului se condiționează la selector.
-223
 
 Pentru realizarea unei materii prime de calitate se folosesc următoarele
 site: sita mică cu orificii rotunde de 3—3,5 mm, cu deschizături dreptun
@@ -11302,7 +11106,6 @@ subțire. De culoare cenușiu-verzui sau galbene-cenușii, au miros plăcut,
 caracteristic, aromat, gust dulceag, slab arzător.
 Ecologie și zonare. Mai pretențios la căldură decît alte umbelifere, su-
 portînd totuși înghețurile tîrzii de primăvară. Anasonul încolțește la 6—8°r.
-224
 
 răsărirea durind 16—20 zile (mai accelerată la peste 10°). La temperaturi
 mai reduse în primele faze. de dezvoltare creșterea este înceată și planta este
@@ -11356,7 +11159,6 @@ de 18—22°. Această operație se face în încăperi închise sau deschise. C
 fructele încolțesc într-un procent de 5%, se întind la um bră într-un strat
 subțire de. 5—10 cm și se lopătează periodic pentru a se usca. Tratam entul
 se consideră term inat cînd semințele se dezlipesc ușor. Cînd timpul sau alte
-225
 
 împrejurări nu permit semănatul, semințele se usucă pînă la starea de umi
 ditate inițială. Astfel pot fi păstrate tim p îndelungat; efectul tratam entului
@@ -11409,7 +11211,6 @@ materialului de înmulțire trebuie să fie izolate în spațiu, la o distanță
 de 4—5 km de alte umbelifere și în mod deosebit de Coriandru sau Anason.
 Parcelele pentru producerea materialului de înmulțire la Anason se vor
 purifica biologic prin eliminarea plantelor bolnave, netipice sau slab dez
-226
 
 voltate. Se recoltează și se treieră separat. Greutatea medie a 1 000 boabe
 este de 2,76 g, iar la un gram intră 359 boabe.
@@ -11463,7 +11264,6 @@ Caractere de diferențiere: în primul rînd, Anasonul este o specie exclusiv
 de cultură, Cucuta crește spontan pe locuri necultivate. Fructele de Cucută
 sînt lat-ovoidale, glabre (cele de anason cu peri aspri), de culoare brună-
 verzuie, cu. diametrul de 3—4 mm. Coastele la fructele de Cucută sînt ondulat-
-227
 
 •crestate, cele de Anason, liniare. Fructele de. Anason au gust și miros plăcut,
 aromatic, cele de Cucută s în t: respingătoare: ........ . .
@@ -11513,7 +11313,6 @@ eminente deschise-la culoare.
 Materia primă: Fructus Foeniculi — fructe formate din două
 mericarpe (achene) de obicei libere, glabre, eliptic-oblongi, ușor arcuite sau
 drepte, lungi de 4—10 mm, groase de 1,5—4 mm, cu 5 coaste longitudinal®.
-228
 
 foarte proeminente, dintre care cele două
 marginale mai dezvoltate. La partea superi-. . < 3^
@@ -11615,15 +11414,12 @@ plantă. Greutatea a 1000 fructe este de 5,74 grame.
 Producția medie la m 2 va fi:
 150 pi. X 190 f X 5,74 g . ,-------£--------------------------— _ 163,59 g/m-
 1 000 g
-230
 
 se scade um iditatea peste normal 22% și 5% pierderi la recoltare, trasnport
 și manipulare:
 163 59 g v 22
 ---------------------= 35,98 g/m2; 163,59 g - 35,98 g = 127,61 g/m a
-100
 — — ----------- =■ 6,38 g/m 2; 127,61 g — 6,38 g = 121, 23 g/m 2 .
-100
 Rezultă că producția medie la hectar este de:
 121,23 g x _10 000_m-_ = { 2niQ kgy ha (rotun;lt l 212 kg la hectar).
 1 000 g
@@ -11665,7 +11461,6 @@ gaibenă-verzuie sau cărămizie pînă la portocaliu, care atacă în întregim
 Fenicului, în tot timpul vegetației. Se combate prin însămînțare cu semințe
 bine curățate, asolament de 4 ani, lucrări agrotehnice, distrugerea vetrelor
 și arderea plantelor de lupoaie la marginea tarlalei.
-231
 
 Dintre .dăunători, Fenicului este. atacat de șoarecii de cîmp, om ida' de
 stepă și molia Anasonului.
@@ -11826,7 +11621,6 @@ carvil etc. Dintre sesquiterpene sînt prezente în cantități foarte mici dila
 sulf și sodiu.
 Acțiune farmacodinamică și utilizări terapeutice. Uleiul de Mărar și
 fructele au acțiune carminativă, emenagogă, spasmolitică, hipotensiva și
-234
 
 sedativă. în antichitate era' considerat ca una dintre cele mai utilizate plante
 medicinale. Figurează și în papirusul Ebers și în scrierile lui Dioscoride și
@@ -11878,7 +11672,6 @@ se execută direct arătura adîncă la 25—28 cm. Dacă după recoltarea plant
 premergătoare solul este uscat, de preferat este a se executa mai întîi o lucrare
 superficială cu plugul sau cu grapa cu discuri, urmînd ca arătura de bază să
 se facă imediat ce a "dispărut pericolul de a se realiza un ogor cu bolovani.
-235
 
 în intervalul dintre momentul efectuării lucrării de bază și cel al pregătiri
 patului germinativ se lucrează cu grapa cu discuri, în vederea distrugerii
@@ -11931,7 +11724,6 @@ pe rouă, pentru a evita scuturarea. Treieratul se execută cu Combina C-12
 cu modificările și adaptările descrise pentru Chimion. După treier se selec
 tează de două, trei ori, prima dată cu vîntul deschis la maxim pentru a elibera
 surplusul de umiditate.
--236
 
 Boli, dăunători și mijloace de combatere. Culturile de Țelină sînt atacate
 mai frecvent de următoarele boli: mana morcovului, septorioza țelinei, rîia
@@ -11984,7 +11776,6 @@ se pot prăfui cu Nitroxan 10 kg /ha.
 Musca morcovului — Psila rosae F. este de 4—5 mm lungime
 cu capul brun, toracele și abdomenul negru lucioase și picioarele galbene..
 Oul are 0,5 mm și este de culoare albă.
-237
 
 Larva are corpul aproape cilindric, de 6—8 mm lungime, de culoare
 galbenă-deschis. Are două generații pe an. Atacă de predilecție rădăcinile
@@ -12036,7 +11827,6 @@ specie au o acțiune m ai pronunțată și nu se recomandă utilizarea în scop
 terapeutic. S-a m ai observat că la cei care lucrează în fabricile de conserve
 cu cantități m ari de Țelină apar fotodermatite probabil datorită conținutului
 în bergapten. De aceea se vor lua măsuri speciale de protecție a muncii.
-238
 
 Uleiul volatil de țelină are utilizări și în industria parfumerilor și în
 cantități foarte mici (0,005%) ca aromatizant în industria alimentară și a
@@ -12085,7 +11875,6 @@ cu pînă la 50%. Cantitatea de sămînță necesară este de 8 kg /ha (umiditat
 maximă de 12%), care se dă în amestec cu m aterial inert, cenușă, nisip (de
 3 ori -volumul seminței).
 * Denumirea în limbă egipteană este Kfceîa, iar în spaniolă Visnaga.
-239
 
 Această specie a fost aclimatizată cu bune rezultate în sudul țării la
 Stațiunea experimentală Domnești—București.
@@ -12140,7 +11929,6 @@ Acțiune farmacodinamică, utilizări terapeutice. Furanocromonele din fruc
 tele de Ammi visnaga au acțiune spasmolitică asupra fibrelor musculaturii
 netede (intestinale, uterine, uretrei, bronchiale etc.). Această acțiune este
 foarte evidentă la musculatura netedă vasculară, în special a vaselor corona
-240
 
 riene. Vasodilatația produsă la nivelul vaselor coronare este superioară și
 de m ai lungă durată decît cea produsă de aminofilină. Kelina dă bune re
@@ -12191,7 +11979,6 @@ față de tem peratură, germinînd la 4—10° și suportînd ulterior temperat
 scăzute. Temperaturile ridicate pot duce la ofilirea plantei, mai ales în con
 dițiile unui deficit de apă și a vînturilor uscate.. F ață de lumină, în anul I
 nu are pretenții deosebite, vegetând bine în condiții de semiumbrire (putînd
-241
 
 fi cultivat împreună cu o plantă anuală care să o umbrească), în schimb,
 în anul II — pentru formarea fructului și acumularea uleiurilor volatile —
@@ -12244,7 +12031,6 @@ anul întîi de cultură erbicidarea se face imediat după însămînțarea cu a
 torul mașinii de erbicidat M ET-1200. în anul al doilea de cultură se erbi-
 cidează cu aceeași doză fie înainte, fie imediat după pornirea în vegetație
 a plantelor de Chimion.
-242
 
 înainte de prim ul îngheț. Chimionul din anul I de cultură se prășește
 la o distanță de 10 cm de la rînd și plantele se bilonează pentru a nu degera.
@@ -12299,7 +12085,6 @@ peziciune, prinzînd și inflorescențele, ocupînd tot lanul, care se remarcă 
 departe prin aspectul de cîmp cu plante arse. Boala se transmite prin săm înță
 și prin sol. Se răspîndește în mod special pe tim p umed și cald. Se combate
 prin folosirea de sămînță provenită de la culturi sănătoase, dezinfectarea
-243
 
 semințelor prin expunere la soare tim p de o săptămână sau cu formol 250 g
 la IO O 1 apă la 1 t de sămînță, sau cu sublimat corosiv 1% tim p de 15
@@ -12352,7 +12137,6 @@ Se ccmbate prin adunarea și arderea tuturor umbeliferelor cu omizi
 je ele. Se stropesc culturile cu produse pe bază de nicotină în concentrație
 de 3% și în cantitate de 200 — 250 l/ha. Zeama trebuie dată cu presiune m are
 pentru a pătrunde în locurile cu omizi.
-244
 
 Gîndacul pămîntiu — Opastrum sabulosum L. axe corpul de
 7 —10'mm lungime, de culoare neagră m ată, cu o pubescențăfină pe partea
@@ -12407,7 +12191,6 @@ Condițiile tehnice de recepție prevăd un conținut de im purități de max.
 1% resturi de codițe și alte părți din plantă; max. 2% fructe seci, rupte,
 înnegrite, corpuri străine organice — max. 1,5% și minerale — max. 0,5%,
 um iditate — max. 12%.
-245
 
 Compoziție chimică. Fructele conțin 3—7% ulei volatil format din 50—
 60% carvonă, trans și cis-carveoli, dihidrocarveol, neohidrocarveol, dihidro
@@ -12459,7 +12242,6 @@ zintă uneori sub formă de frag
 mente de 1—3 cm. Mirosul este
 aromat, caracteristic, gustul aro
 m atic, picant, dulceag, amărui.
-246
 
 Ecologie, răspîndire și zonare. Planta există în flora spontană, în zona
 forestieră din etajul m ontan și subalpin, de la 500 pînă la 1 500 m, în locuri
@@ -12514,7 +12296,6 @@ de 40 cm plantă de plantă de rînd. Pentru plantarea fiecărui hectar de An
 gelică trebuie să se producă pe puțin 60 000 de fire de răsad apt de plan
 tare. După fasonare, răsadul se plantează m anual Ia o adîncime m ai m are
 cu 1—2 cm decît cea la care a crescut în straturile reci.
-247
 
 O grijă deosebită, m ai ales în faze timpurii, trebuie acordată culturilor
 realizate prin semănat direct în cîmp, unde se intervine cu prașile manuale,
@@ -12569,7 +12350,6 @@ menul negre lucioase. Larva are 6—7 mm lungime și este de culoare albă.
 Musca apare pe la începutul lunii mai, iar după circa zece zile depune
 ouăle pe partea inferioară a frunzelor care se brunifică. După 6—8 zile apar
 larvele săpînd galerii în frunze, distrugîndu-le și trecînd apoi la următoarele.
-248
 
 Se combate prin prăfuiri cu Nitroxan sau cu D.D.T. în concentrație
 de 2% și doze de 5 —8 kg /ha în tim pul depunerii ouălelor.
@@ -12625,7 +12405,6 @@ comună în întreaga țară ce crește prin lccuri pietroase, nisipoase, aluvio
 rizomii care conțin saponozide, taninuri, zaharuri, acizii cafeic și clorogenic,
 cantități mici de ulei volatil, poliine între care felcarinone și alte substanțe.
 Datorită saponozidelor rădăcinile au acțiune diuretică, recomandate sub
-249
 
 formă de decoct și în calculoză renală și
 vezicala, ca tonic-aperitiv și emenagog.
@@ -12735,7 +12514,6 @@ condimentare, pătrunjelul are și unele utilizări medicinale. în acest scop,.
 se utilizează în special fructele. Ele conțin ulei gras (cca 20%) format din.
 acizi grași nesaturați, între care acidul petroselinic, un heterozid flavonic
 prezent și în țelină: apiozidul, ulei volatil (2,5— 5%) care conține apiol ,miris-
-251
 
 tieină și aliltetrametoxibenzen L a cantități variabile în funcție de proveniență
 carburi terpenice, derivați c amar iniei etc. Frunzele conțin de asemenea ulei
@@ -12789,7 +12567,6 @@ Peucedanum ostruthium (L.) Koch. Rizomul este cunoscut și sub numele
 de „Rhizoma Imperatoriae"'* conține 0,2—1% ulei volatil cu 95% terpene
 (Limonen, felandren, a-pinen), sesquiterpene, acid palmitic. Recoman
 d a t în catar bronșic, afecțiuni hepatice, febră tifoidă.
-252
 
 Pastinaca saliva L. (Păstîrnac). Legumă plăcut aromată, nutritivă,
 bogată în vitamine. Radacina sa îngroșată conține un ulei voltatil ce conține

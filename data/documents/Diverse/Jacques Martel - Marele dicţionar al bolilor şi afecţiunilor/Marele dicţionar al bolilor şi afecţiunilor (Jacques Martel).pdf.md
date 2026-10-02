@@ -20727,7 +20727,6 @@ Accept ↓♥ faptul că, totul este o experiență de viață,
 mă adaptez situațiilor, îmi las emoțiile libere și încetez
 să mai controlez, atât situațiile, cât și persoanele.
 
-III
 Trăiesc multă furie față de viață, deoarece nu îmi
 mai oferă „plăceri dulci”. Vreau să o resping. Am o furie
 imensă, mă simt prizonier față de o persoană sau o

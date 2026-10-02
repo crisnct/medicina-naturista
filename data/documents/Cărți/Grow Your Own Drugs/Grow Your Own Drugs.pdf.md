@@ -38,7 +38,6 @@ THE NON-GARDENER’S GUIDE & RESOURCES
 Index
 Disclaimer
 Acknowledgements
-Copyright
 About the Publisher
 
 ## 1 THE LIFE OF AN ETHNOBOTANIST!
@@ -830,13 +829,10 @@ infection and to promote healing – though they can be used on any kind of burn
 Calendula officinalis
 )
 16 drops lavender essential oil (1 drop per ice cube)
-1
  Peel the fresh aloe leaves (see
 Tip
 ) to give you a gooey mass of gel.
-2
  Put into a blender with the marigold flowers and whizz until smooth.
-3
  Pour the gel into ice-cube trays, adding a drop of lavender essential oil into each individual cube.
 Freeze until solid.
 USE
@@ -867,17 +863,14 @@ ingredients.
 use oils infused with herbs)
 2 tsp vitamin C powder (optional)
 6–12 drops whichever essential oil takes your fancy (optional)
-1
  Combine the beeswax, emulsifying wax and oil together in a pan and heat very gently until the
 waxes fully dissolve.
-2
  Pour the warm water in a thin stream into the oil and wax mixture, whisking vigorously all the time.
 You should see an instant colour change as the mix turns creamy white. Don’t panic however if it
 looks a little thin textured, this will thicken significantly as it cools. Although very simple to get right,
 this is the single most important stage of making a cream. If you simply bung in all the water in one
 go, or don’t whisk the mixture well enough as you are adding it, the two liquids will not combine to
 form the smooth emulsion you are looking for. Slow pouring and vigorous whisking are key.
-3
  Stir in the vitamin C powder (which acts as a natural preservative) and essential oils if desired, and
 bottle up in clean screw-top jars.
 USE
@@ -905,13 +898,11 @@ about 100ml glycerine
 50ml neem oil
 4ml citronella essential oil
 100g aloe vera gel
-1
  Rinse the elder leaves and buds in running water. Pat dry with a paper towel, then bruise with a
 pestle and mortar or rolling pin. Place in a clean, sealable glass jar, then pour on enough glycerine to
 cover the plant material and close the jar. Leave for 2 weeks, shaking occasionally. Strain through
 muslin. The resultant liquid is known as a glycerite (basically an infused glycerine), and is one of the
 easiest ways to extract the best out of a whole range of herbs.
-2
  In another bowl, add the neem oil to the citronella essential oil and stir. Pour in 50ml of the elder
 leaf glycerite and whisk together thoroughly to make a gel. Finally, stir in the aloe vera gel and pour
 into a 300ml bottle.
@@ -976,14 +967,11 @@ To make the cream:
 8g emulsifying wax
 80ml olive oil
 6 drops benzoin or compound benzoin tincture
-1
  Place the herb Robert and rosemary in a large mortar with the manuka honey, and pound to a paste.
 Allow to sit for 10 minutes while the sugar in the honey draws the active ingredients out of the plants.
 Place the sweet paste in clean muslin and squeeze out the juice into a small bowl.
-2
  Take 1½ tablespoons of the sweetened juice and put into a small pan. Heat quickly until it steams
 but doesn’t boil, then turn off the heat immediately. This process greatly increases its shelf life.
-3
  Melt the waxes in the olive oil in a glass heatproof bowl over a pan of boiling water, then remove
 from the heat. Pour the warmed plant juice into the bowl with the melted waxes and oil, then add the
 
@@ -1019,14 +1007,11 @@ repellent oil, with a sweet spicy fragrance that smells wonderful to anyone but 
 4 tsp scented pelargonium ‘Citronella’ leaves (about 15 leaves)
 4 tsp whole cloves
 400ml sunflower oil, to cover
-1
  Wash and chop the lemongrass sticks and pelargonium leaves, and place both in a blender with the
 cloves. Add the oil, then whizz until pulped.
-2
  Place the pulp in a glass heatproof bowl and cover. Put the bowl over a pan of boiling water on a
 low heat, making sure there are no gaps around the bowl, and leave for 1 hour. Keep checking that the
 pan does not boil dry.
-3
  Leave to cool, then strain the citrus- and spice-scented oil through muslin to remove all the fibrous
 bits, and store in a pump spray bottle.
 USE
@@ -1069,10 +1054,8 @@ Marshmallow plants are under threat in the wild, but the good news is they are i
 grow in any back garden. By planting them, you not only get a stunning garden plant and endless
 supplies of flowers and leaves for remedies, but you also do your bit to help conserve a threatened
 species.
-1
  Combine the dried herbs and store in an airtight container. This will make enough for about 5–6
 cups of tea; if you want to make larger amounts, just multiply the quantities.
-2
  To make the tea, use 1–2 teaspoons per cup of boiling water. Cover and leave to infuse for 10
 minutes, before straining and drinking.
 USE
@@ -1100,9 +1083,7 @@ problems.
 300ml water, freshly boiled
 20g marshmallow root
 runny honey to taste
-1
  Put the agrimony in a mug, pour over the water and leave to infuse, covered, until cool. Strain.
-2
  Pour the cold agrimony infusion over the marshmallow root (in a jug if making large amounts) and
 leave in the refrigerator overnight. The next morning, strain off the root and then the tea is ready to
 drink. If you wish to sweeten the tea, stir in a little runny honey until dissolved. Enough to make 2
@@ -1134,14 +1115,11 @@ sprig of mint
 fresh dill leaves
 lime slices
 flat/uncarbonated ginger beer or ginger cordial (or other soft drink of your choice)
-1
  Wash and chop the angelica root and place in a glass jar with the fresh mint, fennel seeds and dried
 chamomile. Pour on the vodka to cover all the plant material. Seal the jar and leave to steep in a cold
 dark place for 10–14 days.
-2
  When ready, strain through muslin, reserving the liquid. This should produce about 400ml of vodka
 tincture.
-3
  Muddle a shot of the angelica tincture (about 35ml) with a sprig of mint, some dill leaves and lime
 slices in a tall glass. Top up with ice and flat or uncarbonated ginger beer or a soft cordial/drink you
 fancy.
@@ -1175,14 +1153,11 @@ Matricaria recutita
 900ml water
 300g honey
 75ml cider vinegar
-1
  Put the peppermint leaves and chamomile flowers in a pan and add the water, then cover and bring
 to the boil. Simmer gently for 15–20 minutes.
-2
  Leave to cool, then strain through a sieve into a measuring jug, pressing the plants with a spoon to
 get all the goodness out. Return the liquid to the pan and simmer gently, uncovered, until it has
 reduced down to 200ml. (Do this very slowly.)
-3
  Stir in the honey and vinegar and continue simmering for 20 minutes, or until thickened, but keep a
 close eye on it, as it can burn. Pour into a clean bottle.
 USE
@@ -1248,13 +1223,10 @@ To decorate
 cloves for eyes
 pumpkin seeds for ears
 string for tails
-1
  Beat the egg whites until frothy but not stiff. Stir in the sieved icing sugar, coconut, fennel seeds and
 peppermint essential oil, and mix until the mixture forms a firm dough. (Feel free to add more sugar if
 the mixture is not stiff enough to hold its shape.)
-2
  Knead in a few drops of colouring (optional).
-3
  Form the dough into 21 little mice shapes – greasing your hands lightly with sunflower oil
 
 beforehand helps immensely with this. Place cloves for eyes, pumpkin seeds for ears and string for
@@ -1278,11 +1250,9 @@ season.
 Matricaria recutita
 ) or 2 tsp dried
 1 tsp locally produced honey, to taste
-1
  Wash the fresh nettles well, then chop roughly with a large knife. Put the nettles, stalks and all, and
 chamomile into a glass teapot. Pour boiling water over and leave to steep for 5 minutes – this will
 also take the sting out of the nettles.
-2
  Strain into a tea cup and serve, adding 1 teaspoon of local honey, or to taste. This makes a pot
 equivalent to 3 cups.
 USE
@@ -1316,11 +1286,8 @@ about 150g fresh nettles (pick fresh young growth)
 about 400g apricots, fresh or dried and stoned
 2 oranges (the more bitter, the better)
 ½ bottle red wine (or equal parts vodka and water), to cover
-1
  Fill half of a glass jar with rinsed, chopped nettles. Fill the other half with chopped apricots.
-2
  Peel the zest from the oranges and add to the mix. Cover with red wine. Leave for 2 weeks.
-3
  Strain the mixture through a sieve or wring it through a clean cloth into a large glass bowl. Press
 hard – the idea is to extract as much liquid as you possibly can. Then decant into sterilized glass
 bottles.
@@ -1354,7 +1321,6 @@ Tagetes
 6 marigold flowerheads
 6 mallow flowers (common or marsh)
 6 rocket flowerheads, nice and peppery
-1
  Wash the flowers and cut off any stalks or tough outer sepals. Sprinkle over a base of salad leaves.
 Dress the salad, and eat at once.
 
@@ -1382,24 +1348,18 @@ may even help prevent and ease the symptoms of cystitis. Makes about 15 pies.
 flour, for dusting
 2 rolls ready-made shortcrust pastry
 icing sugar, to dredge
-1
  Preheat the oven to 180°C (350°F).
-2
  Distribute the cranberries and chopped apple between two roasting tins. Sprinkle over the mixed
 spice and fleck with the butter. Drizzle the maple syrup over. Roast in the oven for 25–30 minutes, or
 until the fruit is slightly shrunken with a golden tan. If using frozen, you might need to roast for longer
 until the juices disappear.
-3
  Remove the roasted cranberries from the oven and place in a bowl. Mix in the sugar, rum or
 Cointreau and candied orange peel.
-4
  Sprinkle flour onto a work surface and roll out the pastry to a thickness of about 3mm. Using a 7cm
 cookie-cutter, cut out discs of pastry and place into a greased mince pie tin. Prick the base of each pie
 with a fork and bake in the oven for 15 minutes.
-5
  Remove from the oven, and spoon the cranberry filling into each pastry cup. Return to the oven to
 cook for another 5 minutes.
-6
  Leave the pies to cool, then dredge with icing sugar.
 USE
  Eat 1 or 2 a day.
@@ -1426,14 +1386,11 @@ the tonic with blueberries?
 water, to cover
 sugar – 100g per 100ml bilberry liquid
 vodka, brandy or whisky – 15ml per 100ml syrup
-1
  Put the bilberries in a pan and cover with cold water. Simmer until the bilberries are soft. Then
 press through a strainer or sieve with a wooden spoon to collect the pulp, discarding the seeds.
-2
  Measure the liquid/pulp and then return to the pan, adding sugar in the ratio of 100g sugar per
 100ml bilberry liquid. Bring slowly to the boil, stirring occasionally, then simmer until thickened,
 usually about 30 minutes.
-3
  Allow to cool slightly, measure the syrup and add 15ml alcohol per 100ml syrup to act as a
 preservative. Bottle in small bottles (it must be used within 2 weeks after opening).
 USE
@@ -1455,7 +1412,6 @@ during the long winter months.
 100g elderberries
 100g rosehips
 cider vinegar, to cover
-1
  Place equal parts of hawthorn berries, elderberries and rosehips into a large, wide-mouthed jar.
 (Do not use jars with metal lids because these will corrode.) Cover generously with cider vinegar
 and allow to macerate for 10–14 days. Strain, label and bottle.
@@ -1519,16 +1475,13 @@ Jasminum grandiflorum
 1 sachet powdered gelatine
 4 tbsp orange blossom honey, or to taste
 juice ½ lime
-1
  Wash the honeysuckle and jasmine flowers. Heat the water until hot (about the temperature of a hot
 bath), but do not allow it to boil. Pour into a jug with the tea leaves and flowers. Cover and leave to
 stand. Once cooled, place in the refrigerator for 24 hours.
-2
  Next day, strain the liquid into a pan, discarding the tea leaves and flowers. Heat the liquid gently
 until just below boiling point. Take off the heat, whisk in the gelatine, honey and lime juice. Pour into
 small tumblers or bowls, then cool and refrigerate until set like a loose jelly. This makes enough for 3
 doses across 1 day.
-3
  Serve in tumblers or small bowls with jasmine and honeysuckle flowers for decoration.
 USE
  Eat the jelly 2–3 times a day, or as required.
@@ -1554,14 +1507,11 @@ For the infused oil:
 For the ointment:
 300ml infused oil
 25g beeswax
-1
  Peel the garlic cloves, and chop roughly. Layer the garlic and thyme in a clean jam jar until three-
 quarters full. Pour over the olive oil to the top of the jar, and seal. Place near a radiator for 10–14
 days, giving the jar a shake and turn each day to let the warmth reach through.
-2
  Strain the oil through muslin or a jelly bag. Store in a clean jar in a cool, dark place. The infused oil
 can be rubbed into the chest, and will last for up to a year.
-3
  To make the ointment, put 300ml infused oil and the beeswax, chopped into small pieces, into a
 glass heatproof bowl, and stand over a saucepan of water. Bring the water to the boil, and simmer
 until the beeswax has melted, stirring occasionally. Remove the bowl from the hot water, cool for a
@@ -1592,26 +1542,20 @@ gifting
  Give a pretty tin of lozenges as a gift for someone feeling under the weather – pour
 the mixture into a baking tray, leave to cool a little, then score it into small squares with a sharp
 knife. Once cool, cut along the scores, roll the lozenges in icing sugar, put in the tin and then label.
-1
  Put the elderflower heads in a bowl and pour over the boiled water to make an infusion. Add the
 linseed and torn or bruised eucalyptus leaves, and leave for about 1 hour. It’s ready when the pure
 watery liquid starts to have a similar consistency to egg white.
-2
  While the elderflower mixture is infusing, use a pestle and mortar to break up the gum arabic into
 the smallest pieces you can – this helps it to dissolve more easily. Add the dried elderberries to the
 mortar and crush.
-3
  Put the gum arabic mixture into a cup with the hot water. Stir until the granules of gum have turned
 into a thick, treacle-like consistency.
-4
  Strain the elderflower infusion, measure out 375ml and put into a pan. Add the gum arabic mixture
 and icing sugar and stir; the sugar acts as a preservative and gives it body.
-5
  Place the pan on a low heat and stir continuously for about 30 minutes, or until the mixture forms a
 very thick, golden syrup-like consistency and starts to come away from the sides of the pan. You can
 test it by dropping a tiny amount from a spoon into a glass of cold water – it’s ready when the drop of
 mixture holds together and doesn’t disperse into the water.
-6
  Pour the mixture onto a baking tray lined with greaseproof paper and leave to set. When hard, bash
 it with a rolling pin to get lozenge-sized pieces. Roll the lozenges in icing sugar to stop them sticking
 together, then store in an airtight tin.
@@ -1634,16 +1578,13 @@ juice of 1 lime
 a few fresh eucalyptus leaves
 whole dried chilli
 500g granulated sugar
-1
  Wash the elderberries and apple. Chop the apple without peeling or coring. Put the elderberries,
 apple (including the core), water, lime juice, eucalyptus leaves and chilli into a pan and simmer for
 15 minutes. Strain through a sieve, pressing with the back of a spoon to extract as much of the pulp as
 possible.
-2
  Place the elderberry liquid in a large pan and add the sugar. Bring to the boil, stirring occasionally
 to stop the sugar from burning, then simmer for another 30 minutes. If you have a jam thermometer to
 hand, the jelly reaches setting point at 105°C/221°F.
-3
  When it’s ready, skim off any scum, then bottle in sterilized jam jars, putting a waxed disc, wax-
 side down, on top. Cover with a round of cellophane and secure with a rubber band or ribbon.
 
@@ -1674,13 +1615,10 @@ Tip
 300ml water
 juice of 1 lime
 100ml dark rum
-1
  Roughly chop the whole apple, skin, core and all. Pop in a pan and add all the remaining
 ingredients except the rum.
-2
  Simmer gently for 5 minutes, then take off the heat and strain through a fine sieve, pushing with the
 back of a spoon to extract as much pulp as possible.
-3
  Stir in the rum and bottle up.
 USE
  For adults, take a little in a glass straight or dilute with hot water and drink as a hot toddy.
@@ -1706,14 +1644,11 @@ Pimpinella anisum
 400ml cold water
 400g sugar (white or brown)
 icing sugar, for rolling
-1
  Put the thyme and aniseeds into a saucepan and cover with the water. Bring to the boil, then take off
 the heat and leave to infuse for 15 minutes.
-2
  Strain and add the white or brown sugar. Bring back to the boil, stirring occasionally, then boil until
 the mix is thick enough to leave a thread coming off the spoon. Be careful because the mixture is very
 hot and can give a nasty burn.
-3
  Drop teaspoonfuls of the mixture into a pan of cold water to form the cough drops. Take out
 immediately and leave to dry on a clean tea towel. Roll in icing sugar and store in a sealed container.
 USE
@@ -1733,13 +1668,10 @@ head colds.
 ¼ tsp ground black pepper
 200g white petroleum jelly
 20 drops peppermint essential oil
-1
  Chop the eucalyptus leaves and ginger and place in a glass heatproof bowl. Add the ground pepper
 and petroleum jelly and mix everything together with your fingers.
-2
  Place the glass bowl, covered, over a pan of boiling water to make a double boiler. Leave to heat
 for 1 hour, making sure the water does not boil dry.
-3
  Take off the heat and strain the mixture. Stir in the peppermint oil and bottle in a wide-mouthed jar.
 USE
  Once a day, rub well into the chest and throat area. The rub can help you get a good night’s
@@ -1784,20 +1716,15 @@ pinch of black pepper
 250ml boiling water
 1 shot (28ml) echinacea-infused rum (see above)
 1 tsp unsalted butter
-1
  To make the echinacea-infused rum, combine the echinacea root and rum and leave to steep in a
 cool, dark place for 2 weeks. Strain out the echinacea and bottle up. The mixture will keep in a cool,
 dark place for up to 1 year.
-2
  To make the hot toddy, strip the needles from the fir branches until you have 120ml.
-3
  Put the needles in a teapot or bowl with the star anise and halved sliced calamondin oranges or
 lime, honey and black pepper, and pour over the freshly boiled water. Cover and leave to steep for
 15 minutes.
-4
  Strain into a pan, and reheat on the stove.
 
-5
  Once reheated, add the echinacea-infused rum and butter until melted. Stir, then serve in a large
 cup.
 USE
@@ -1815,18 +1742,13 @@ like syrup (although light-coloured flowers work just as well!).
 about 20 heaped tbsp hollyhock flowers, depending on the size of your jar
 400g white sugar, approx
 brandy – 15ml per 100ml syrup
-1
  Lightly bruise the hollyhock flowers.
-2
  In a wide-mouthed jar, layer the flowers to a height of 3cm, then top with a layer of sugar, also 3cm
 high. Continue until the jar is full, alternating flowers and sugar, and ending with a sugar layer.
-3
  Leave in a warm place until most of the sugar is dissolved. This can take up to 1 month.
-4
  Strain off the flowers and throw away any undissolved sugar. (Alternatively, use it in cooking – to
 poach fruit, for example.)
 
-5
  Measure the syrup, and add 15ml of brandy per 100ml syrup to preserve. Stir well. Pour into a
 sterilized dark glass bottle.
 USE
@@ -1843,10 +1765,8 @@ will help fight infection and soothe the irritation and discomfort of a sore thr
 juice of 2 lemons
 1 tsp salt
 sprig of parsley
-1
  Chop the onion and chilli finely and place in a bowl. Add the lemon juice and salt. Leave to stand
 for 1 hour in the refrigerator.
-2
  Strain and use as a gargle. After gargling, chew on a sprig of parsley to freshen breath.
 USE
  Gargle daily, as soon as you feel a sore throat coming on, then spit out rather than swallow.
@@ -1874,10 +1794,8 @@ cold coming on.
 1.7 litre water
 1 tbsp meadowsweet flowers
 honey, lemon or brandy, to taste
-1
  Put the cinnamon, ginger, elderberries and water in a large stainless steel pan and bring to the boil.
 Simmer for 30 minutes.
-2
  Turn off the heat, then add the meadowsweet flowers and leave to infuse for 10 minutes. Strain into
 a large bowl. Add honey, lemon or brandy to taste. Pour into a thermos.
 USE
@@ -1893,17 +1811,13 @@ with garlic instead of onion, and it will be just as effective (although a littl
 
 about 2 large onions, depending on jar size
 about 400g sugar (any kind will do)
-1
  Roughly chop the onions, and place a layer in a clean jar (an old sterilized jam jar is fine). Cover
 with a layer of sugar, then continue to layer onion and sugar until the jar is full – you might need more
 or less onion and sugar, depending on the size of your jar. Seal the jar.
-2
  Leave for a few hours or overnight to allow the sugar to draw the liquid out of the onions,
 producing a syrup – at this stage, it’s fun for children to watch the syrup appearing in the jar.
-3
  Next day, if there is still a lot of sugar at the bottom of the jar, add some more onion. Or if the onion
 bits are still fairly large (they will shrink as the moisture is drawn out), add more sugar.
-4
  As soon as there is any liquid, you can start taking the syrup. After about 1 day, strain all the onion
 bits out, and store the syrup in the refrigerator.
 USE
@@ -1928,11 +1842,9 @@ peel of 1 orange
 1 tbsp meadowsweet flowers
 300ml milk
 honey, to taste
-1
  Place the ginger, cinnamon (broken up), peppercorns, cloves, cardamom (broken open) and orange
 peel into a pan with the water. Bring to the boil and reduce by half to about 300ml; this will take
 about 15 minutes at a rolling boil.
-2
  Add the yarrow and meadowsweet flowers and the milk and allow to heat through. Strain, and
 sweeten with honey if required.
 USE
@@ -1959,7 +1871,6 @@ Calendula officinalis
 
 ½ tsp cloves
 200ml vodka
-1
  Put all the herbs into the vodka and seal in a jar. Leave in a warm place for 10–14 days, shaking
 every day. Strain, then bottle.
 USE
@@ -2011,14 +1922,11 @@ few pinches black pepper
 250ml water
 1 tsp black tea leaves
 palm sugar, to taste (or maple syrup or brown sugar)
-1
  Peel and chop the fresh turmeric, if using (being careful not to stain surfaces or hands). Peel and
 grate the ginger. Put into a mortar (with the dried turmeric, if using) and add a few pinches of black
 pepper, then pound with the pestle until you get a smooth paste.
-2
  Combine the paste with the milk, water and tea leaves in a pan and simmer on a low heat for 10–20
 minutes, or until the liquid is reduced by half. Strain. Sweeten with palm sugar to taste, and stir.
-3
  Before drinking, pour the Teh between two containers, holding them the maximum width apart to
 aerate the tea as much as possible and produce a froth on top. Despite not having too much of a
 medicinal effect on the remedy, this is more than just a flamboyant whim. Aerating the mix improves
@@ -2043,7 +1951,6 @@ an airtight tin, and you can take it with you to make up and drink wherever you 
 ½ tsp black pepper
 25g black tea leaves
 140g brown granulated sugar
-1
  Stir all the ingredients together, then store in a dry, airtight tin. Makes 14 cups – or one a day.
 USE
  To make up into a Teh, place 5–6 teaspoons of the mixture in a pan with 250ml whole milk and
@@ -2070,14 +1977,11 @@ swollen joints. The mustard has anaesthetic qualities, so it acts as a local pai
 1½ tbsp black mustard seeds, bruised
 ½ tsp cayenne pepper powder
 400ml vodka (or whisky, if you prefer)
-1
  Grate the horseradish. Take extra care because it makes the eyes stream even more than onions do!
 Place the horseradish and petroleum jelly in a saucepan and heat gently for 30 minutes. Strain through
 a coarse sieve while still warm.
-2
  In a separate saucepan, mix the bruised black mustard seeds and cayenne pepper with the vodka or
 whisky and heat gently for 10 minutes (do not boil).
-3
  Strain the warm vodka/whisky liquid into the petroleum and horseradish wax. Mix together well.
 Pour into wide-mouthed balm pots, and allow to cool before sealing.
 USE
@@ -2100,14 +2004,11 @@ relieving effect.
 1 tbsp whole cloves
 100ml vodka (or whisky, if you prefer)
 a pinch of borax powder (available from pharmacies)
-1
  Fill a jar with the rosemary leaves, then pour the sunflower oil over to cover. Seal and leave in a
 warm place to infuse for 2 weeks, or until the oil has taken on colour. Strain into a bottle.
-2
  Put the cloves and vodka (or whisky) in a pan and heat gently for about 5 minutes to release the oil
 from the cloves. Do not boil; if you can smell the cloves strongly, you are losing the volatile oils.
 Strain the tincture and allow to cool.
-3
  Put 100ml of the infused oil and 100ml of the clove tincture in a bottle. Add a pinch of borax
 powder, which acts as a weak emulsifier, and shake vigorously to mix. Seal.
 USE
@@ -2136,12 +2037,9 @@ Powdered herbs:
 80g rosehips, dried and powdered
 55g gotu kola, dried and powdered
 ¼ whole nutmeg, grated
-1
  Mix together the manuka honey and rosewater in a sterilized, sealable jar, then add the
 marshmallow root. Steep for 2 weeks, shaking or stirring daily until it forms a syrup.
-2
  Strain and squeeze out the syrup through two layers of muslin.
-3
  Measure out 150ml syrup and mix in the powdered herbs. Mould into a ball or giant tablet and
 refrigerate in a sealed container.
 USE
@@ -2169,11 +2067,9 @@ to last you until next spring.
 2 tsp powdered ginger
 100g unsalted butter, at room temperature
 salt and pepper to taste
-1
  On a wooden board, finely chop the feverfew leaves, tarragon and parsley. Add the lemon zest and
 ginger. Mix in the soft butter and salt and pepper to taste, and work until the herbs are evenly
 distributed throughout the butter.
-2
  Place the herb butter on a sheet of greaseproof paper and form into a long sausage shape. Mark
 lightly into seven equal portions (about 15g each), enough for a week’s supply. Roll up the paper and
 seal at both ends.
@@ -2201,13 +2097,10 @@ gallica
 To make the chocolate tincture:
 600g good-quality cocoa nibs (roasted cocoa beans)
 vodka (80% proof or 40% alcohol), to cover
-1
  Using a pestle and mortar, crush 200g of the cocoa nibs to a coarse consistency. (Do not crush to a
 fine powder; the released fat content will make the mix gooey and unusable.)
-2
  Place the nibs in a jam jar and cover with vodka to about 1cm above the level of the cocoa nibs.
 Screw the lid on, set aside, and shake the jar daily for 5 days or more.
-3
  At this point, you will have a weak chocolate tincture. To make it stronger, strain the tincture you
 have made and put to one side, discarding the used cocoa nibs. Repeat Steps 1–2 twice more with the
 remaining cocoa nibs, using the strained alcohol mixture. Do this three times in total – it should take
@@ -2216,14 +2109,11 @@ To make the rose syrup:
 250g pink or red rosebuds or petals
 250ml water
 500g unrefined white sugar
-1
  Remove all stalks and green parts of the rose if using buds (this will remove tannins and create a
 better scent and taste). Rinse the roses under cold water. Pat dry.
-2
  Heat the water, preferably in a glass or ceramic pan, until it begins to boil and then reduce the heat.
 Add the roses to the water and cover. Leave to steep on a gentle heat for 20 minutes. Do not allow to
 boil. Strain through muslin into a jug or bowl.
-3
  Pour the strained infusion back into the original pan. Place the pan on a gentle heat and add the
 sugar. Stir with a wooden spoon until all the sugar is dissolved. Remove from the heat and leave to
 cool. Place in a sterilized bottle and seal.
@@ -2265,17 +2155,13 @@ extra, warming zing.
 2 bunches watercress
 salt and pepper, to taste
 sprinkle of crushed chilli and extra slivers of pear (optional), to garnish
-1
  Chop the spring onions and garlic. Peel and finely grate the ginger (or use a garlic press) to extract
 the juice.
-2
  In a large sauté pan, heat the olive oil and gently fry the spring onions and garlic for 10 minutes.
 Slice the potatoes and add to the pan with the stock. Squeeze in the juice from the grated ginger,
 discarding the fibrous pulp. Simmer for 20 minutes.
-3
  Dice the pears. Wash and chop the watercress. Put the pears and watercress into a blender, add the
 potato stock mix, and purée.
-4
  Add salt and pepper to taste, and serve the soup garnished with pieces of pear and chilli and a dash
 of olive oil.
 
@@ -2302,11 +2188,9 @@ found in damp meadows and along banks and ditches all over Britain.
 10–20 meadowsweet flowerheads
 180ml water
 180g sugar
-1
  Grate the rind from the lemon and squeeze the juice. Place the lemon rind and juice with all the
 other ingredients in a stainless steel pan. Bring gently to the boil, stirring occasionally, then simmer
 for 10 minutes.
-2
  Strain into one or two small sterilized bottles and allow to cool before sealing. (It’s best to make
 small amounts because the syrup can go mouldy within a week of opening.) For a year-round supply,
 simply pop a couple of plastic bottles of the cordial in the freezer, where they will last for at least
@@ -2333,15 +2217,11 @@ the recipe opposite.
 1 orange
 120ml meadowsweet cordial
 2 egg whites
-1
  Peel and stone the peaches and pop them into the blender.
-2
  Add the grated zest and juice of the orange, as well as the meadowsweet cordial, and whizz for a
 few seconds.
-3
  Put in a plastic container and leave in the freezer until just beginning to freeze (about 1 hour,
 depending on your freezer). Remove from the freezer and beat thoroughly.
-4
  Whip the egg whites until stiff, then fold into the peach mixture and freeze until ready to eat.
 USE
  Gorge on as required.
@@ -2363,11 +2243,9 @@ syrup from health food shops.
 4.5 litres water
 brewer’s yeast (use the amount directed on the packet for 4.5 litres liquid)
 a few teaspoons sugar
-1
  Boil the malt syrup, sage leaves, sugar and water together for 30 minutes in a stainless steel pot.
 Strain the liquid into a glass carboy. Once cooled to body temperature, add an extra sprig of fresh
 sage and the yeast. Fit an airlock and allow to ferment until done (about 2 weeks).
-2
  Pour into sterilized 330ml screw-top or swing-top bottles (you’ll need about 6) with ½ teaspoon
 sugar per bottle – this is called ‘priming’ and helps get a nice fizz. Allow to ferment for at least
 another 2 weeks before drinking.
@@ -2391,10 +2269,8 @@ about 250ml olive or almond oil, to cover
 For the rub:
 50ml infused juniper oil
 20 drops rosemary essential oil
-1
  Place the juniper berries in a glass jar and pour over the olive or almond oil, then seal and leave
 for 2 weeks to infuse. Strain.
-2
  Place 50ml infused juniper oil in a small jar, add 20 drops rosemary essential oil and shake well.
 USE
  Massage the lower abdomen with the oil when experiencing period pains. Repeat as often as
@@ -2423,13 +2299,10 @@ Salix
 300g sugar (or to taste)
 zest and juice of 3 limes
 2 tbsp orange blossom water
-1
  In a pan, pour the freshly boiled water over the dried willow bark and simmer for 10 minutes.
-2
  Strain out the bark and return the decoction to the pan, simmering uncovered until reduced to about
 600ml (about 20–30 minutes). At this stage the mixture will be intensely bitter, but do not let that faze
 you; sugar and limes can mask a multitude of sins.
-3
  Take off the heat and stir in the sugar, lime juice, zest and orange blossom water, and leave to cool.
 Once cool, place in a covered ice cream tray and freeze. This makes about 8 doses.
 USE
@@ -2465,9 +2338,7 @@ a pinch of allspice (also known as Pimento)
 3 tsp fresh ginger root, grated
 a mugful of water or milk
 2 tsp German chamomile (Matricaria recutita)
-1
  Combine everything except the chamomile in a pan and simmer for 20 minutes.
-2
  Remove from the heat and add the chamomile. Steep for another 10 minutes. Strain the herbs and
 serve hot. Add milk and/or honey to taste.
 USE
@@ -2485,9 +2356,7 @@ Tilia
  spp.), dried
 honey, to taste
 lemon juice, to taste
-1
  Mix the dried plants together, and store in an airtight tin.
-2
  To make a cup of tea, place 2 teaspoons of Uplift Tea in a mug, pour over freshly boiled water, and
 leave to infuse for 10 minutes. Strain, then add honey and lemon juice to taste.
 USE
@@ -2522,9 +2391,7 @@ Lactuca virosa
 sprinkling grated nutmeg
 300ml milk
 honey or sugar, to taste
-1
  Roughly shred the lettuce leaves. Split open the cardamom pods.
-2
  Place the lettuce, cardamom, grated nutmeg and milk in a pan, and heat gently. Sweeten to taste with
 honey or sugar.
 USE
@@ -2544,16 +2411,12 @@ tummy. This makes enough for two drinks. Citric acid can be bought from pharmaci
 1 tsp citric acid
 2 tsp bicarbonate of soda
 3 tbsp glucose
-1
  Preheat the oven to 80°C (180°F) or its lowest setting.
-2
  Bash the rosehips in a mortar and pestle to break them up slightly. This will split the fruit – remove
 the seeds and discard.
-3
  Add the salt to the split hips and give them another quick bash with the pestle. The goal is just to
 break them up a little, not turn them into mush. Scatter the rosehips on a baking tray and put in the
 oven. Immediately turn off the heat and leave in the oven for 90 minutes.
-4
  Remove the dried hips from the oven and grind to a fine powder in a spice grinder. Mix with all
 other ingredients, then store in an airtight container.
 USE
@@ -2579,16 +2442,12 @@ Ilex paraguariensis
 200g dark chocolate (85% cocoa solids)
 3 tsp soft brown sugar
 1 tsp cocoa powder
-1
  Mix the chilli, vanilla pod, allspice and honey together in pan, then add the yerba mate and boiling
 water. Simmer until the liquid reduces to approximately 150ml – this will take about 45 minutes.
 Strain and leave to cool to room temperature.
-2
  Put the chocolate in a glass heatproof bowl, and melt over a pan of hot water.
-3
  Stir the cooled mate mixture into the melted chocolate, then refrigerate until it takes on a fudge-like
 consistency (about 30 minutes).
-4
  Mix the soft brown sugar and cocoa powder in a shallow bowl. Scoop a teaspoon of the truffle
 mixture and roll into a small ball, then roll in the sugar/cocoa powder to coat. Place each coated
 truffle in a small paper case. Repeat until all the mixture is used.
@@ -2621,12 +2480,9 @@ method
 15ml vodka, whisky or brandy (per 100ml decoction, see
 method
 )
-1
  Wash the roots, then boil them in the water for 30 minutes to make a decoction.
-2
  Strain and measure the liquid into a pan, adding 100g sugar for each 100ml root decoction. Stir,
 then simmer for 10 minutes.
-3
  Allow to cool slightly, then measure the liquid again, adding 15ml alcohol per 100ml syrup, to act
 as a preservative. Bottle and label.
 USE
@@ -2652,12 +2508,10 @@ flu); it’s just a delicious, refreshing summer drink and herbal pick-me-up.
 750g white or golden sugar
 2 tbsp white wine vinegar
 4.5 litres water (spring water to be really tasty)
-1
  Trim the elderflowers from their stems, and gently shake to get rid of any bugs. Zest the lemon and
 chop the rind finely, then squeeze the juice. Put the elderflowers, lemon rind and juice, sugar, vinegar
 and water into an earthenware/plastic pot (don’t use a metal pan or container). Cover with a cloth or
 tea towel and leave to steep for 48 hours.
-2
  Strain the champagne into strong, sterilized screw-top bottles or old-fashioned swing-top bottles
 (you can reuse some beer or lemonade bottles). Don’t use corks or plastic bottles, as they will
 probably explode.
@@ -2687,19 +2541,14 @@ me-up.
 3 eggs
 150ml white rum
 grated fresh nutmeg, to serve
-1
  Pour the milk, bay leaves, saffron, orange rind, golden syrup and cream into a pan, and simmer
 gently for 10 minutes. Strain through a sieve.
-2
  Break the eggs into a glass heatproof bowl, then slowly whisk in the hot milk mixture.
-3
  Place the bowl above a pan of boiling water and heat gently, stirring, until the mixture thickens to a
 custardy consistency. Then take it straight off the heat.
-4
  Whisk in the rum, then pour the mixture into a jug. Cool, then leave to stand in the refrigerator for at
 
 least 8 hours before serving.
-5
  Serve over ice with grated nutmeg.
 USE
  Drink no more than 1 wine glass a day.
@@ -2722,7 +2571,6 @@ Tilia
 15g yarrow flowers
 15g skullcap leaves and flowers
 750ml water
-1
  Put all the plants in a glass bowl, and pour over 750ml freshly boiled water. Leave to infuse for 10
 minutes. Strain. Drink one cup immediately, then pour the rest into a thermos flask for use throughout
 the day. This makes enough for 3 mugs or a day’s supply.
@@ -2747,12 +2595,9 @@ see here
 brandy, to cover
 black cherry concentrate, from health food stores
 honey, optional, to taste
-1
  Mix the ginseng, liquorice and damiana, then cover completely with brandy and seal in an airtight
 jar. Leave in a warm, dark place for 7 weeks.
-2
  Strain, reserving the liquid and the ginseng root.
-3
  Measure the liquid. For each 250ml liquid, add 125ml black cherry concentrate. Pour into a jar and
 add the ginseng root. If you like, add some honey to taste, then place the jar in the refrigerator.
 USE
@@ -2810,12 +2655,9 @@ For dandruff:
 use violet/pansy or lady’s mantle
 For greasy hair:
 use yarrow
-1
  Infuse 2 teaspoons of your chosen plant in a cup of freshly boiled water, and leave covered to steep
 for 10 minutes.
-2
  Measure 90ml of the infusion and pour into a bowl.
-3
  Sprinkle the xanthan gum powder onto the infusion and whisk with an electric hand blender until
 thickened.
 USE
@@ -2834,12 +2676,9 @@ Stockists
 3–4 heaped tbsp fresh or dried olive leaves boiling water, to cover
 4 tbsp clay powder
 14 drops lemon essential oil
-1
  Place the olive leaves in a pan, pour boiling water over to cover and simmer gently for 10 minutes.
-2
  Strain out the leaves and return the liquid to the heat, continuing to simmer until reduced by half
 (about 10 minutes). Measure out 80ml of the olive water.
-3
  Put the clay powder in a bowl. Pour the olive water slowly over the clay powder, stirring well,
 then stir in the lemon essential oil. Bottle.
 USE
@@ -2878,7 +2717,6 @@ nettle, to strengthen brittle hair
 violet, marigold or parsley for dandruff
 rose petals for dry scalp
 for a scented rinse, use rose petals, lavender, lemon balm or jasmine flowers
-1
  Be creative and add more than one plant, and remember always to use enough vinegar to cover
 comfortably the plants you are using.
 USE
@@ -2899,11 +2737,9 @@ bay.
 
 250ml coconut oil
 20 drops peppermint essential oil
-1
  Wash and chop all the plants and place in a glass heatproof bowl. Stir in the coconut oil. Cover the
 bowl with a lid and place over a pan of boiling water to create a double boiler. Heat on a medium to
 low flame for 1 hour. Leave to cool.
-2
  When cool, stir in the peppermint essential oil. Strain and pour the hair oil into bottles.
 USE
  Apply 3 teaspoons to hair and massage well into the scalp. Wrap hair in a towel and leave for
@@ -2933,12 +2769,9 @@ feeling soft and looking clear and bright.
 3 large tbsp sea salt
 10 tbsp fine, dry beach sand (not builder’s sand!)
 15 drops rosemary essential oil
-1
  Soak the kelp and carrageen overnight in the water.
-2
  Next day, roughly cut the kelp with scissors into small pieces. Place the kelp, carrageen and water
 mixture in a pan, bring to the boil and simmer for approximately 30 minutes.
-3
  Place in a blender and whizz. Return the pulp to the pan and heat for 10 minutes more. Stir in the
 salt, sand and essential oil. Bottle in a glass jar.
 USE
@@ -3018,20 +2851,16 @@ Spices you can add (optional):
 aniseed, caraway, cardamom, cinnamon
 You’ll also need:
 enough vodka (80% proof or 40% alcohol) to cover
-1
  Bruise or roughly chop the mint, lavender and lemon balm, along with your choice of other herbs,
 then add the lemon and/or orange peel and place in a wide-mouthed jar. Cover with the vodka and
 seal. Leave in a warm (but not hot) place for 12 hours or overnight. This is long enough to capture the
 volatile oils, but not the tannins.
-2
  Next day, strain and then leave the infused vodka to ‘mature’ like a perfume for a further 2 weeks
 before making a decision about the scent. You may then want to add some more herbs and leave to
 infuse for another 1 2 hours or overnight as before. Strain again.
-3
  Spices add deeper notes and, if you wish to add them, these can be infused now. Add them in small
 amounts. Spices should be left in the vodka for 2 weeks before straining again.
 
-4
  Once you’re happy with the scent, decant into small spray bottles.
 USE
  Spray on as required.
@@ -3052,12 +2881,9 @@ a soothing, moisturizing bath for those with dry or sensitive skin.
 2–3 tbsp oats
 boiling water, to cover
 250–500ml milk
-1
  Place the marshmallow leaves and flowers and the oats in a saucepan and add enough freshly
 boiled water to cover. Place a lid over the pan and leave for 10 minutes to steep.
-2
  Use a potato masher to squash the leaves in the pan so that they release the gooey mucilage.
-3
  Add the milk to the marshmallow goo, then gently heat through. Strain the mixture and add to a hot
 bath.
 USE
@@ -3074,10 +2900,8 @@ yogurt nourishes, leaving skin feeling smooth and soft. Makes enough for 1 face 
 small pot of natural yogurt
 juice of ¼ lime
 1 tbsp oat bran
-1
  Blend the strawberries with the yogurt and lime juice. Stir in the oat bran ½ teaspoon at a time, until
 the mixture thickens slightly. Apply to clean skin, avoiding the eye area. Leave on for 30 minutes.
-2
  Wash off with warm water and a flannel or damp towel.
 USE
  Most effective when used immediately.
@@ -3091,7 +2915,6 @@ myrrh resin has a history of use as an oral antiseptic and breath-freshener.
 1½ tbsp sage leaves, dried
 10g myrrh resin
 200g bicarbonate of soda
-1
  Pound together the sage leaves and myrrh resin in a mortar and pestle until finely ground. Add the
 bicarbonate of soda and mix together. Store in a shallow, wide-mouthed jar with a lid to keep
 airtight.
@@ -3110,7 +2933,6 @@ Equisetum arvense
 )
 30g celery seeds
 220ml water
-1
  Put the chopped horsetail and celery seeds in a bowl. Pour 220ml freshly boiled water over and
 leave to stand for 1 hour. Strain the liquid and store in a wide-necked jar.
 USE
@@ -3131,15 +2953,12 @@ smooth and supple. Good for dry and mature skins.
 2 tsp honey
 2 tsp vitamin C powder
 6–12 drops chamomile essential oil (optional)
-1
  In a pan, heat the water until boiling and then add the oats. Simmer uncovered for 10 minutes. Strain
 the oats, reserving the liquid into a measuring jug – you need 200ml. Put in a pan and keep hot.
-2
  Heat the beeswax and emulsifying wax together very gently in another pan with the almond oil until
 the waxes fully dissolve. Take off the heat and immediately whisk in a little of the hot oat liquid into
 the wax mixture. Keep adding the hot oat liquid, a little at a time, making sure it is well mixed
 between additions, until you have used up all 200ml.
-3
  Stir in the honey and vitamin C powder and, if desired, add in a few drops of chamomile essential
 oil, which acts as a preservative, is anti-inflammatory and adds a delicious scent. (Don’t worry if you
 don’t have chamomile – you can use any essential oil you have around.) Pour the cream into wide-
@@ -3173,18 +2992,13 @@ petals of 12 scented roses
 juice of 1½ lemons
 2 tbsp rosewater (optional, for scent)
 cotton or linen cloth, cut into strips
-1
  Wash the rose petals, gently dab dry, then chop them roughly.
-2
  In a glass jar, layer the sugar with the petals, and leave in a cool, dark place overnight. After 12–24
 hours you will have a thick syrup filled with sugar crystals.
-3
  Pour the rose-infused sugar syrup into a pan. Grind the cloves in a pestle and mortar and add to the
 mix. Heat for a few minutes on a low heat until the sugar crystals melt and disappear – it should be
 clear and the colour of the petals.
-4
  Add the lemon juice and continue on a low heat until the syrup thickens.
-5
  Strain off the petals through a sieve into a second pan. Heat for 20 minutes, or until the syrup
 reduces, thickens and turns a dark caramel colour. Take off the heat and add the rosewater, if using,
 for scent. Bottle in a close-stoppered or sealed container, to stop moisture being absorbed or the
@@ -3222,7 +3036,6 @@ Stockists
 2 tsp ordinary black tea leaves
 2 unfilled tea bags
 small amount of hot water
-1
  Mix the dried eyebright and tea leaves in a small bowl, then spoon into 2 empty tea bags. Seal or
 fold over the bags. Place the bags in a shot glass of hot but not boiling water. Leave for 10 minutes,
 then squeeze out and place one over each eye.
@@ -3239,7 +3052,6 @@ eyes before a night out.
 ½ tsp fennel seeds
 100ml boiling water
 2 eye baths (available cheaply from pharmacies)
-1
  Place the fennel seeds in a ceramic cup; pour over the boiling water to make an infusion. Cover and
 leave for 10 minutes. Strain and allow to cool in a covered bowl.
 USE
@@ -3272,7 +3084,6 @@ for normal skin, chickweed for dry skin, chamomile for sensitive skin
 5ml castor oil
 
 20–25 drops essential oils – choose any scents you like
-1
  Mix all the ingredients together and place in a wide-mouthed jar.
 USE
  Shower first with warm water, then work handfuls of scrub into the skin using circular
@@ -3295,7 +3106,6 @@ a bowl of boiling water
 Anthemis nobilis
 ) flowers, fresh or dried
 3 tbsp lavender flowers, fresh or dried
-1
  Fill a glass or plastic bowl with freshly boiled water. Add the chamomile and lavender flowers.
 USE
  Lean your face over the bowl and create a closed environment by putting a towel around the
@@ -3355,16 +3165,12 @@ peel of 2 grapefruit
 2 tbsp sunflower oil
 3 tsp emulsifying wax
 1 tsp beeswax
-1
  Preheat the oven to 80°C (180°F) or its lowest setting.
-2
  Wash the ivy leaves, pat dry, and chop roughly. Place on a baking tray and put in the oven for 1
 hour.
-3
  Blitz the dried ivy leaves in a blender with the gin, grapefruit peel and juniper essential oil. Strain
 through a sieve into a bowl to remove all fibre, squeezing the pulp with your hands to extract as much
 liquid as possible.
-4
  Heat the sunflower oil, emulsifying wax and beeswax in a heatproof glass bowl above a pan of
 boiling water, until all the wax has melted. Take off the heat and slowly whisk in the ivy liquid, 1
 tablespoon at a time. Pour into glass jars and leave to cool.
@@ -3386,12 +3192,9 @@ peel of 5 oranges or tangerines
 4 tbsp cloves
 400ml sunflower oil
 1 tbsp myrrh resin
-1
  Put the orange peel, cloves and sunflower oil into a blender and whizz until smooth.
-2
  Pour the mixture into a glass heatproof bowl and place over a pan of boiling water. Add the myrrh,
 then cover and leave to simmer for 1 hour, making sure the pan does not boil dry.
-3
  Take off the heat and leave to cool. Strain the mixture and bottle up.
 USE
  Apply as needed to dry skin, or use for massage.
@@ -3412,12 +3215,10 @@ and dissolve it gently away.
 2–3 tbsp fresh or dried mullein flowers
 2–3 tbsp fresh or dried lavender flowers, or a few drops of essential oil of lavender
 250ml extra virgin olive oil
-1
  Wash the mullein flowers. Put into a jar with the lavender flowers (if using) and cover with olive
 oil. Leave to steep for several days in sunlight. Alternatively, if you need to infuse the oil more
 quickly, place the flowers and olive oil in a small pan and warm on the stove on a very gentle heat
 for several hours.
-2
  Strain the infused oil through muslin, add a few drops of lavender essential oil (if using), and
 filter into sterilized dropper bottles.
 USE
@@ -3457,7 +3258,6 @@ here
 1 tbsp natural yogurt
 1 tbsp brewer’s yeast
 1 tsp olive oil or infused oil (such as marigold petal or chickweed)
-1
  Thin down the honey with 2 tsp warm marshmallow leaf infusion, then mix in the yogurt and
 brewer’s yeast until it forms a smooth, thick paste.
 USE
@@ -3483,9 +3283,7 @@ elderflowers, to whiten the hands
 chamomile flowers, for sensitive hands
 marshmallow leaves, for dry hands
 marigold flowers, for chapped hands
-1
  Mix all the ingredients together, adding a little more lemon juice if the mixture is too dry.
-2
  Use as a hand scrub, then rinse off with warm water.
 USE
  Makes enough for 1 scrub, best used immediately.
@@ -3504,12 +3302,9 @@ Matricaria recutita
 40g mint (peppermint, catmint or spearmint)
 600ml water, freshly boiled
 honey, to taste
-1
  Make a strong herbal tea by putting the chamomile and mint in a bowl and pouring the freshly boiled
 water over. Leave to infuse for 15–20 minutes for full flavour. Strain into a jug and leave to cool.
-2
  If you wish to sweeten, add honey to the strained tea, to taste.
-3
  Leave the tea until cold, then pour into ice-lolly moulds (or make into ice cubes) and put in the
 freezer.
 USE
@@ -3537,7 +3332,6 @@ see here
 3 drops eucalyptus essential oil
 3 drops tea tree essential oil
 1 drop anise essential oil
-1
  Put all the ingredients into a glass jar, then shake well.
 USE
  Apply to dry hair, combing through thoroughly (preferably with a nit comb) and rubbing well
@@ -3569,16 +3363,13 @@ To make a 30g jar of balm you’ll need:
 1 ½ dessertspoons emulsifying wax
 10 drops lemon essential oil
 FOR THE GLYCERITE:
-1
  Put the celandine into a jam jar and cover with the glycerine. Leave for 2 weeks, giving the jar a
 shake or stir every so often. The glycerine will turn a deep golden colour.
-2
  Strain the mixture through a sieve or press out through muslin into a bowl. This glycerite forms the
 basis of the balm below.
 NB
  The glycerite won’t keep for more than 1 month.
 FOR THE BALM:
-1
  Put the infused glycerine and wax in a double boiler and heat gently until the wax has completely
 melted. Take off the heat and beat gently until the balm is smooth and pale. Stir in the lemon essential
 oil, then pour into a jar and allow to cool completely – the mixture will solidify as it cools.
@@ -3597,11 +3388,9 @@ during autumn and winter. You can pour it over ice-cream and milky puddings too.
 250g blackcurrants, dried
 500ml distilled water
 125ml honey
-1
  Put the blackcurrants in a pan, add the water and simmer for 15 minutes. Then mash to a pulp with a
 potato masher. Return the pan to the heat to simmer for another 15 minutes. (Don’t heat for too long, to
 retain as much vitamin C as possible!)
-2
  Leave the berry mash to cool to room temperature, then strain through muslin. Stir in the honey. Pour
 into a glass jar and store in the refrigerator.
 USE
@@ -3631,15 +3420,12 @@ also has the benefit of being very cheap, so you can really go crazy and splash 
 for an effective, luxurious and skin-soothing soak.
 For the coconut cream, buy either tins or blocks of creamed coconut and follow the instructions to
 make it up into liquid form.
-1
  Mix the chamomile flowers and sunflower oil together in a glass heatproof bowl. Cover and place
 the bowl above a pan of simmering water. Simmer gently for 1 hour, being careful the pan does not
 boil dry (make sure there is no gap between the pan and bowl), then leave to cool.
-2
  Once cool, strain the oil and discard the spent flowers. Stir in the lavender essential oil. The
 resultant chamomile and lavender-scented oil also makes a brilliant soothing skin and massage oil
 that will keep for up to 1 year.
-3
  To transform the floral oil into a dispersing bath milk: whisk the oil 1 tablespoon at a time into the
 coconut cream, making sure the mixture is thoroughly combined between additions of oil. You should
 end up with a rich milk, about the consistency of double cream. All you’ve got to do then is bottle it
@@ -3707,12 +3493,10 @@ For the cider vinegar, see the recipe
 here
  or use bought.
 
-1
  Put the fruit in a clean jar, and cover with the vinegar. Leave for 10 days to 2 weeks, shaking
 occasionally, then strain through a jelly bag or muslin, mashing the fruit to get the juice out. (You
 could also rub it through a sieve with the back of a wooden spoon, but make sure you leave all the
 pips behind.)
-2
  Pour the liquid into a clean bottle and store in the refrigerator.
 USE
  For adults, and children aged 2–16, this is delicious as a hot drink: put 2-4 teaspoons in a mug,
@@ -3732,15 +3516,12 @@ To each 600ml juice, add:
 450g sugar
 12 cloves or 1 cinnamon stick
 juice of 1 lime
-1
  Place the elderberries in a large pan, and just cover with cold water. Stew the fruit for 20 minutes,
 or until really soft. Strain through muslin, squeezing hard to get out all the juice.
 
-2
  Measure the strained elderberry juice into a pan, and for each 600ml juice add 450g sugar, 12
 cloves or 1 cinnamon stick, and the juice of 1 lime. Bring slowly to the boil, stirring occasionally to
 stop the sugar burning, then boil for 15 minutes. Take off the heat and allow to cool.
-3
  When cold, strain, bottle, and store in the refrigerator.
 USE
  For adults, and children over 6 years: take 1–2 tablespoons in hot water, sipping slowly, up to 3
@@ -3758,7 +3539,6 @@ Matricaria recutita
 ) flowers, fresh or dried
 50g lavender flowers, fresh or dried
 400ml olive oil, or to cover
-1
  Pack the chamomile and lavender flowers loosely in a large jar, and pour the olive oil over to
 cover all plant material. Seal and leave in a warm place for 2 weeks. Then strain, and bottle.
 USE
@@ -3799,10 +3579,8 @@ want to protect.
 Artemisia absinthium
 ) leaves
 2 tbsp dried sage leaves dash of vodka
-1
  Strip the leaves from the plants, and crush them finely. Mix together in an open shallow bowl, and
 sprinkle on a dash of vodka.
-2
  Put a little of the dried herb mixture into the centre of a small muslin square. Tie with raffia or
 string. Repeat until you have used up all the herbs.
 VARIATION SPICY MOTH BAGS
@@ -3834,7 +3612,6 @@ scent freshens the air and banishes smells.
 3ml lemon essential oil
 1ml thyme essential oil
 1ml eucalyptus essential oil
-1
  Mix the oil together in a brown glass dropper bottle. Shake well.
 USE
  Shake, then put 5 drops in an oil burner/vaporizer and heat gently.
@@ -3852,7 +3629,6 @@ a nice smell on the carpet (and in the vacuum cleaner bag!).
 200g bicarbonate of soda
 3–4 tbsp dried lavender flowers
 3–4 tbsp dried thyme leaves
-1
  Mix the bicarbonate of soda, lavender and thyme together in a bowl, then shake over the floor.
 Leave overnight. Vacuum up the next day.
 USE
@@ -3875,19 +3651,14 @@ Rheum rhabarbarum, R. rhaponticum or R. officinale
 30g grated Castile soap
 2 tbsp powdered pine resin
 4ml rosemary essential oil
-1
  First make the rhubarb decoction: put the rhubarb root and water in a pan. Bring to the boil, then
 simmer for 20–30 minutes. Strain, reserving 500ml of the liquid.
 
-2
  Melt the beeswax in a double boiler. Take off the heat and mix in the turpentine; be careful not to be
 near a naked flame, as the turpentine is flammable.
-3
  In another double boiler, gently heat 500ml rhubarb decoction with the soap and pine resin until the
 solids are dissolved.
-4
  Add the rhubarb mixture to the beeswax and turpentine, and stir. Leave to cool slightly.
-5
  While cooling, stir in the essential oil. Then pour the polish into a jar and allow to cool completely.
 USE
  Rub a small amount onto the wood using a cloth, then buff with a soft cloth.
@@ -3906,14 +3677,11 @@ roses – or, at least mint, rosemary and eucalyptus…
 4 tsp bicarbonate of soda
 1ml tea tree essential oil (optional)
 1ml thyme essential oil (optional)
-1
  Place all the dried herbs in a glass bowl and pour over 1 litre freshly boiled water. Cover and
 
 leave to steep for 10 minutes. Strain.
-2
  Dissolve the bicarbonate of soda in the liquid, adding 1ml each of tea tree and thyme essential oils
 (if you like).
-3
  Pour the liquid into a spray pump.
 USE
  Once a week, spray on to pet bedding and allow to air dry.
@@ -4135,26 +3903,21 @@ If you’ve got an old stone seat, wooden bench or even a low wall in your garde
 chamomile seat to relax on.
 Use the bouncy, low-growing, non-flowering chamomile ‘Treneague’: it’s very fragrant, lush and
 otherworldly; you’ll feel as if you’re sitting at the bottom of the sea!
-1
  The first step is to make sure that the surface of your new seat is solid and weight-bearing. It can
 
 be any material, from concrete to brickwork and even wood (as long as it has been treated with a
 good wood preservative). We used a rectangle of wood with a very small lip round the edges (not
 too high, or it would cut into your legs), which we dropped into a brick wall almost like the fabric
 seat of a chair dropping into its frame.
-2
  To ensure good drainage, so the plant roots are not sitting in water for long periods of time,
 spread a layer of gravel over the base, about 2–3cm deep.
-3
  Spread a layer of soil or loam-based compost on top of the gravel, about 3–5cm deep.
-4
  You can buy chamomile as turf (in 1m squares; see
 Stockists
 ) or in trays of small thumb-sized
 plugs, which works out cheaper. The plugs are also great for planting in any crevices you have in
 your paving, releasing their aroma as you walk over them. Lay the turf or plant the plugs about
 15cm apart.
-5
  Site your seat in a sunny area, water well and allow to establish, watching out for weeds. It
 won’t take constant, heavy wear but it will provide you with a beautifully scented garden feature.
 Once established, there’s very little maintenance – perhaps an occasional trim with garden shears.
@@ -5082,16 +4845,12 @@ range of trees is also available year-round in containers. Autumn and spring are
 a fruit tree, but if you can’t resist buying a particularly fine-looking specimen in June, don’t worry –
 it’ll be fine as long as you keep it well watered at the beginning. (That means every day!) Here’s how
 to plant a fruit tree:
-1
  Soak the root ball of your fruit tree in a bucket of water for a good few hours prior to planting.
 
-2
  Dig a large hole, bigger than the size of the root ball of your plant, to make it easier for the roots to
 spread out and establish themselves.
-3
  Add some bulky organic matter, home-made compost, well-rotted manure, mushroom compost or
 similar into the hole and mix in well.
-4
  Check the level of the planting hole against the level that the tree is growing in its pot. This is
 important. The tree must be planted at the same depth as in the pot (or ground if it is a bare-root tree).
 Fruit trees are usually grafted – that is, the top of one tree (grown for its fruit) is joined to the bottom
@@ -5102,21 +4861,16 @@ james’s tip
  Bag up fallen leaves into bin liners and store over winter for a great soil
 improver in the spring. Put the leaves in a shredder first; smaller pieces will rot down much more
 quickly, and you’ll have compost in a hurry!
-5
  Once the hole is the right depth, take the tree out of its pot and stand it nice and straight in the hole.
 (Another pair of hands or eyes is sometimes useful here.) Backfill the hole with soil so the tree is
 stable but not completely planted yet.
-6
  Staking is important. Tree stakes and ties are available at all good garden centres and provide
 support for a young developing tree. Knock a stake into the ground to the side of the root ball (being
 careful not to drive it through the roots, as this will cause damage).
-7
  Backfill the planting hole completely and firm well in with the heel of your boot.
-8
  Tie the tree to its stake. Don’t bend the tree – just take a tree tie or a length of old tights and make a
 figure of eight between the two (this stops rubbing and damage to the trunk). Once the tree has grown
 a bit, you’ll need to check that the ties have not become too tight.
-9
  Water in well and remember to water the tree every day for a while, especially during summer and
 dry weather.
 To espalier a fruit tree
@@ -5124,29 +4878,22 @@ You get much more fruit from branches trained laterally or at an angle against a
 
 makes better use of limited garden space. You can espalier apple, cherry, pear, peach and plum trees,
 though you’ll need a little patience and some TLC to get the best results. Here’s how:
-1
  Before you start planting, put up some strong horizontal wires on the wall to support the tree’s
 framework, about 30–40cm apart.
-2
  Plant a bare-root fruit tree as described opposite. You’ll need what’s called a maiden whip, a
 single-stemmed tree. Push a cane into the ground behind, and tie the stem to it vertically.
-3
  Immediately prune the maiden whip just above the first lateral wire, at a point where there is a bud
 with 2 well-formed buds below it – these will then grow out, one to each side, to produce the first
 espalier tier, while the top bud forms the vertical stem. Tie the top stem in to the vertical cane as it
 grows.
-4
  Tie two canes at an angle of 45° to the stem, one each side, and tie in the first espalier branches as
 they grow. Once the branches are long enough (which might take a few months), drop the canes down
 to an angle of 90° along the wire, and tie in firmly. In winter, prune these branches by about one-third
 to a downward-facing bud.
-5
  The same winter, form the second tier. Cut the leader stem to just above the second lateral wire, to
 a place with a bud with two strong buds below it. Follow Step 4 above. Cut back any other lateral
 branches (apart from the espaliers) to 3–4 leaves.
-6
  Next winter, form the third tier, following Steps 5 and 4 above.
-7
  Next summer, you’ll be able to harvest a wonderful crop of fruit.
 AUTUMN: WILD BERRIES FOR PICKING
 It’s surprising how many berries you can find in the wild in early autumn, for use in health-giving
@@ -5599,31 +5346,23 @@ garden centre. They produce masses of fruit even from a tiny foot-high plant. Al
 in pots as you can move them around throughout the year – to a sunny, sheltered outdoor spot in
 summer, and indoors in winter.
 
-1
  Choose a large pot, at least 60cm in diameter – citrus are quite slow-growing, so this will be its
 home for a few years.
-2
  Plant the tree in a nutrient-rich, loam-based compost. Water in.
-3
  Keep the pot outdoors in a sunny, sheltered spot from the last frosts in late spring until the first in
 early autumn, then bring indoors or into a conservatory or unheated greenhouse.
-4
  Water your citrus regularly through the summer, taking note of the weather: water more in sunny
 periods and less in wet summers.
-5
  Give your citrus a liquid feed regularly (up to once a week) during the growing season (spring and
 summer). This will stop the leaves yellowing, keep the plant growing strongly and make sure the
 fruits form well.
-6
  The beautifully scented, creamy-white waxy flowers bloom in late winter, and the fruit ripens up to
 12 months later. Because fruits take so long to mature (6–8 months), citrus trees can be in flower and
 fruit at the same time.
-7
  Don’t be afraid of pruning your lemon, orange or lime tree; it’ll thank you for it. Cut back congested
 growth in late winter or early spring and tidy up stray growth in the summer to keep the shape you
 like. Remember that if you do a major overhaul you might lose the flowers and fruit for that year. A
 good feed and water after the pruning will help the tree to recover.
-8
  To harvest, cut the fruit off at the stalk with a sharp knife, or give it a quick twist.
 
 james’s tip
@@ -6071,14 +5810,12 @@ Bottles and jars, pump/drop dispensers, clay
 powders, beeswax, vitamin C powder, carrageen
 seaweed and essential oils. Based in Moray.
 G. Baldwin & Co.
-020 7703 5550
 Shop and online shop
 Bottles and jars, pump/drop dispensers, beeswax,
 emulsifying wax, borax powder, kelp powder, pine,
 frankincense and myrrh resin, essential oils.
 Based in London.
 Barwinnock Herbs
-01465 821338
 Online herb nursery shop
 Sells organically grown plants by post.
 Based in Ayrshire.

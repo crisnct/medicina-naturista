@@ -2,7 +2,7 @@ CURSUL 8
 
 Ierburile laxative
 
-# Laxativele 
+# Laxativele
 grăbesc evacuarea intestinală.** **Există diverse produse pe piață în acest scop, substanțe predominant anorganice, care sunt iritante pentru organele sensibile și adesea provoaca deshidratarea.** Acestea sunt cu siguranta dăunătoare procesului funcțional și vibrației în organism: uleiuri minerale, purgative saline (sulfat de magneziu sau sare amara, citrat de magneziu, sulfat de potasiu,tartrat de potasiu, bitartrat de potasiu, sulfat de sodiu sau sare Glauber, fosfat de sodiu, clorură de sodiu, tartrat de sodiu, sulfat de mangan, etc), clorură de mercur sau calomel, etc .
 
 Verifica etichetele de pe produse pentru a le vedea conținutul. Acestea nu ar trebui să fie utilizate în cazul în care sunt dorite rezultate naturale și regenerative. Pot fi utilizate ape minerale naturale de la o sursă organică, cum ar fi **apa Pluto**. Laxativele botanice accelereaza procesele de evacuarea fizica și sunt, de asemenea, vindecători puternici în curățarea, intarirea si tonifierea țesuturilor și organelor defecte. Acești agenți sunt clasificati în mai multe categorii, în funcție de acțiunea lor: **purgativele sau laxativele excita peristaltismul moderat și produc un scaun normal, fără crampe sau iritații.**
@@ -139,7 +139,7 @@ Colectarea:Aduna în iulie, când este în floare.
 
 Plante surori:Semintele de in (Linum usitatissimum, Linaceae), semințe coapte uscate: tuse, bronșită, membranele mucoase inflamate (respiratorii, digestive și ale organelor urinare), iritație renală și vezicală, guturai, dizenterie, pietriș, un decoct din ulei e foarte bun pentru clisme, tuse, astm,pleurezie, etc, foloseste uleiul pentru arsuri, arsuri, hemoroizi, laxativ (corecție pentru purgative), erizipel, suprafețe iritate etc; cataplasmă cu coaja de ulm(Ulmus rubra, U.fulva) și semințe de Lobelia (Lobelia inflata) pentru ulcere, abcese,glande marite, umflaturi, pneumonie, tumori, abcese, rani vechi. Cand e conservat neglijent este supus atacului insectelor, acesta ar trebui să fie utilizat după un an pentru cele mai bune rezultate. Semințele au randament de 30-40% in ulei de in și aproximativ 6% mucilagiu.
 
-# SENNA  Alexandria sau Nubian (Cassia acutifolia, C. Senna;C. emolient, C. officinalis, C. aethiopica, C. Orientalis, LEGUMINOSAE(CAESALPINIOIDEAE subfamilia)SENNA, East Indian sau TINNEVELLY (Cassia angustifolia;C. alungit, C. Medica, LEGUMINOSAE (subfamilia CAESALPINIOIDEAE)
+# SENNA Alexandria sau Nubian (Cassia acutifolia, C. Senna;C. emolient, C. officinalis, C. aethiopica, C. Orientalis, LEGUMINOSAE(CAESALPINIOIDEAE subfamilia)SENNA, East Indian sau TINNEVELLY (Cassia angustifolia;C. alungit, C. Medica, LEGUMINOSAE (subfamilia CAESALPINIOIDEAE)
 
 Denumiri comune: Alexandria Senna, Nubian Senna, Tripoli Senna, Senna Alexandrina,Senna de munte, Sennae Folia (Br.); Sene-d'Alexandrie (Fr.);Alexandrinische Senna (ger.); Senna Jebel (Arab.).2. East Indian Senna, Tinnevelly Senna, arab Senna, Bombay Senna,Mecca Senna, Mocha Senna, Senna Indica; Sene de I'Inde-de Tinnevelly,Feuilles de Sene (Fr.); Folia Sennae, Sennesblaetter, Indische Senna(Ger.).
 

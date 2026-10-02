@@ -174,37 +174,37 @@ Se mai numeste popular si odolean sau gusa porumbelului. Este o planta ierboasa,
 
 Actiune terapeutica:
 
-# Insomnie 
+# Insomnie
 intr-un studiu german efectuat in anul 2001 se afirmau, in mod categoric, urmatoarele: "Multe plante si remedii naturale pot fi recomandate contra insomniei, insa doar in cazul valerianei eficienta poate fi garantata". Intr-adevar, nenumarate teste clinice, facute pe pacienti de toate varstele si care sufereau de diferite tipuri de tulburari de somn, au dovedit eficienta valerianei ca sedativ si somnifer. Administrarea tincturii de valeriana inlatura dificultatea in a adormi, micsoreaza semnificativ procentul de treziri nocturne, favorizeaza aparitia fazei de somn profund fara vise (etapa cea mai odihnitoare a somnului). Cu alte cuvinte, valeriana ajuta la marirea perioadei de somn si \- foarte important \- imbunatateste calitatea acestuia. Se fac tratamente de cate 6 saptamani, in care se administreaza seara, la ora 7, si apoi inainte de culcare, cate o lingurita de tinctura, diluata cu putina apa. Efectele evidente de imbunatatire a somnului apar dupa 3 saptamani de administrare, in cazul valerianei efectul fiind cumulativ.
 
-# Crampe musculare 
+# Crampe musculare
 - valeriana are calitati relaxante asupra muschilor. Se administreaza, atunci cand este nevoie, cate 1-2 cani de infuzie combinata pe zi, pe o perioada nu mai lunga de trei zile. Este eficienta in combaterea contracturii musculare dureroase, care apare datorita supra-efortului fizic si, mai ales, datorita incordarii psihice.
 
-# Gastrite care apar pe fond de stres, de suprasolicitare nervoasa 
+# Gastrite care apar pe fond de stres, de suprasolicitare nervoasa
 - se administreaza infuzie combinata de valeriana, cate o cana (300 ml), care se bea in reprize, pe parcursul unei zile. Un tratament dureaza 12 zile, cu 5-10 zile de pauza. Se foloseste conjunctural, in perioadele cu stres intens, substantele active din valeriana intervenind la nivelul creierului, pentru eliberarea unor substante (neurotransmitatori) care induc stari de calm, multumire, relaxare. De asemenea, are efect sedativ, ajutand la diminuarea durerilor gastrice.
 
-# Spasme gastrointestinale 
+# Spasme gastrointestinale
 valeriana are calitati relaxante asupra musculaturii netede, fiind eficienta in colici si in spasme intestinale. Se administreaza sub forma de infuzie combinata, cate 2 cani pe zi. Tratamentul dureaza 3-7 zile.
 
 # Adjuvant in sindromul premenstrual
 se face un tratament de o saptamana cu tinctura de valeriana, din care se iau cate 2-3 lingurite pe zi. Tratamentul incepe cu aproximativ 5 zile inaintea menstruatiei si se prelungeste pana in a doua zi a ciclului menstrual. Inlatura starile de iritare si de excitabilitate nervoasa, diminueaza durerile de sani, durerile din zona ovarelor, senzatia de tensiune sau de greutate in bazin.
 
-# Crampe in timpul menstrelor 
+# Crampe in timpul menstrelor
 se administreaza o doza soc, de 2 lingurite de tinctura de valeriana, care are efect rapid antispastic si sedativ. Suplimentar, se pot face bai fierbinti cu valeriana la membrele inferioare, ale carei substante active ajunse in circulatia sanguina periferica au efecte antispastice si calmante rapid.
 
-# Aritmie cardiaca, ischemie cardiaca 
+# Aritmie cardiaca, ischemie cardiaca
 cu ajutorul valerianei se trateaza in mod special tulburarile cardiace care apar pe fond de stres si de anxietate. Un studiu efectuat in SUA, pe un lot de 480 de persoane, a demonstrat ca administrarea de valeriana, cate 30 de picaturi de tinctura de trei ori pe zi, diminueaza rata bolilor cardiace care apar pe fond de stres, in special a aritmiei si a ischemiei cardiace. De asemenea, administrarea valerianei a redus sentimentul subiectiv de stres.
 
-# Anghina pectorala 
+# Anghina pectorala
 un studiu facut in China arata ca tratamentul cu valeriana a avut efecte benefice pentru 88% din pacientii supusi testului. Se administreaza de trei ori pe zi cate o lingurita de tinctura, in cure de 40 de zile, cu 7-10 zile de pauza. Valeriana reduce semnificativ frecventa si intensitatea crizelor de anghina pectorala, imbunatateste activitatea inimii (actiune pusa in evidenta prin analizarea evolutiei electrocardiogramelor celor tratati).
 
-# Anxietate 
+# Anxietate
 valeriana este (alaturi de o planta exotica \- kava-kava) cel mai bun remediu natural anti-anxietate. Rezultatele evidente apar dupa 4 saptamani de tratament, care va consta in administrarea unei jumatati de lingurite de pulbere, de 4 ori pe zi. Tratamentul se face vreme de doua luni, cu 14-21 de zile de pauza. Are efecte similare ca intensitate cu cele ale medicamentelor anxiolitice de intensitate slaba si medie, dar fara efectele adverse majore ale acestora.
 
-# Depresie 
+# Depresie
 se recomanda o cura de 15-30 de zile cu valeriana, pentru pacientii ce duc lipsa de exercitiu fizic ori mental, precum si pentru cei care nu au parte de o relaxare adecvata, manifestand din aceasta cauza stres asociat cu depresie si astenie. Se administreaza cate o jumatate de lingurita de pulbere dimineata la ora 8, seara la ora 19 si cu putin timp inainte de culcare.
 
-# Adjuvant in sindromul colonului iritabil 
+# Adjuvant in sindromul colonului iritabil
 se face un amestec in proportii egale de pulbere de radacina de valeriana si de seminte de fenicul. Se administreaza cate o jumatate de lingurita de patru ori pe zi din acest amestec, in cure de cate doua saptamani.
 
 Preparare:
@@ -261,7 +261,7 @@ Mod de preparare:se infuzeazaplanteleîn1-1/2litri deapa fierbinte. Acoperitibin
 
 Dozare: 2 până la 4linguri, de 4 ori pe zi.
 
-# Papucul doamnei (Cypripedium calceolus var. pubescens;  C. reginae; ORCHIDACEAE)
+# Papucul doamnei (Cypripedium calceolus var. pubescens; C. reginae; ORCHIDACEAE)
 
 Papucul doamnei este specie foarte rara de orhidee, cu un aspect delicat si culori impresionante. Planta este originara din America de Nord si apartine genului Cypripedium. Papucul doamnei se intalneste in flora Romaniei si este protejat prin lege.
 

@@ -16,7 +16,6 @@ fifth edition
 by MICHAEL MOORE
 A brief outline of major medicinal plants,giving
 preferred media, strengths, and common dosage ranges
-Copyright 1995 by Michael Moore
 FORMAT EXPLANATION
 * LATIN NAME. These plants are not appropriate in pregnancy, either because
 of their effect on the uterus or the hypothalamus/pituitary axis, their toxic

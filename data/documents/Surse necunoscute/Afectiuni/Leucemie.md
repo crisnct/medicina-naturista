@@ -263,5 +263,5 @@ But when it comes to embryonic stem-cell research, Carpenter said, "It's a perso
 
 "I feel there's a certain point where we're going too far, like cloning people."
 
-Contact Diane Krieger Spivak at 477-6019 or dspivak\@post-trib.com
+Contact Diane Krieger Spivak at or
 

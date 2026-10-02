@@ -1,11 +1,8 @@
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 1
 DISCLAIMER
 
  Conținutul este ©copyright VEDEREPERFECTA.COM - Toate drepturile rezervate.
-
- Publicat de Daniel Dinu.
 
  Nicio parte a acestui document NU poate fi transmisă sau reprodusă sub orice formă, prin
 diferite mijloace (e-mail, fotocopiere, înregistrare și altele) fără permisiunea prealabilă a
@@ -29,8 +26,6 @@ vederea indiferent de stadiul in care se afla ACUM!!
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 2
-
 CUPRINS
 
 Introducere …….……………………………………..……………..……. 3
@@ -41,7 +36,6 @@ Concluzie……………………………..…………..………..………�
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 3
 Introducere…
 Sfaturile din acest PDF se bazeaza pe mai multe cercetari si experimente (pe proprii ochi dar
 si ai altora) care au dat rezultate satisfacatoare, suficient de bune cat sa treaca la urmatorul
@@ -71,7 +65,6 @@ natural o vedere clara prin aplicarea unor tehnici si metode care trebuie sa iti
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 4
 Cum sa previi si sa tratezi cele mai frecvente
 probleme de vedere
 
@@ -107,7 +100,6 @@ asemenea unui cos si se va vindeca fara alte interventii. Dar lasa sa se intampl
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 5
 sine, sa nu cumva sa incerci sa-l spargi tu ca pe un cos. Nu iti recomand asta! Iti recomand sa
 tamponezi cu o vata cu spirt dupa ce ti s-a spart pentru a steriliza locul afectat.
 Pentru cazurile mai serioase, unde urciorul apare pe interiorul pleoapei, s-ar putea sa nu se
@@ -145,7 +137,6 @@ anumiti virusi sau bacterii la nivelul ochilor.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 6
 Alte cauze comune includ:
  Alergiile
  O stropire cu o substanta chimica in ochi
@@ -182,7 +173,6 @@ Evita contactul cu ceilalti si spala-ti mainile des.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 7
 2) Conjunctivitele bacteriene
 O conjunctivita bacteriana dureaza cel putin o saptamana. Poate fi tratata cu alifie sau
 unguent, picaturi sau antibiotice sub forma de pastile. Aplica cu seriozitate tratamentul
@@ -224,7 +214,6 @@ si o roseata la nivelul ochilor. Unii oameni au senzatia ca au o geana sau nisip
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 8
 Aceasta afectiune poate duce totusi la lacrimarea ochilor, deoarece uscaciunea poate
 stimula excesul de lacrimi printr-un reflex, numit reflex lacrimal. In stadiile incipiente,
 sindromul ochiului uscat produce disconfort usor, dar poate deveni foarte inconfortabil
@@ -256,7 +245,6 @@ Sindromul de ochi uscat are mai multe cauze:
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 9
  procesul natural de imbatranire, mai ales in timpul menopauzei; dupa 50 de ani devii
 din ce in ce mai expus la riscurile sindromului de „ochi uscat”. Aproape toti pacientii
 peste 70 de ani au simptome de ochi uscat.
@@ -299,7 +287,6 @@ blefarita
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 10
 6 Dintre Cei Mai Importanti
 Nutrienti ai Vederii
 
@@ -323,8 +310,6 @@ conditii pe timp de noapte. Acest lucru poate fi periculos deoarece se pot cauza
 rutiere pe timp de noapte.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
-
- 11
 
 Daca acomodarea la intuneric, se face in mai mult de un minut, rezulta ca ai deficit de
 vitamina A. Deci, este evident ca vitamina A este o vitamina vitală pentru vedere. Ea este
@@ -362,7 +347,6 @@ Deasemenea, vitamina C poate să protejeze ochiul împotriva luminii solare.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 12
 Vitamina E
 Are rolul de a mentine elasticitatea muschilor oculari si a cristalinelor. Mai ajută ca fluxul
 sanguin să transporte oxigenul necesar și toți nutrienții în toate părțile corpului, inclusiv in
@@ -401,7 +385,6 @@ nocturne, adică daunează la capacitatea vederii de a se adapta la întuneric.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 13
  fructe de mare, în special stridii
  germeni de grâu prăjiți
  ficat, în special cel de vită
@@ -441,7 +424,6 @@ maculara si cataracta. Unii specialisti spun ca mai are rolul de a trata sau a p
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 14
 glaucomul. Zeaxantina se găsește mai ales în zona petei galbene, acolo unde vederea
 este extrem de clară.
 
@@ -472,7 +454,6 @@ vedere sănătoasa.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 15
 Tehnici si Metode naturale de
 imbunatatire a vederii
 
@@ -510,7 +491,6 @@ de-aproape la un anumit nivel de stres si concentrare. Fa din asta un obicei in 
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 16
 cat implementezi mai repede aceasta tactica in viata ta, cu atat mai putine sanse vei avea sa-ti
 inrautatesti vederea prin intermediului activitatilor de-aproape.
 
@@ -558,7 +538,6 @@ privirea.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 17
 Iti recomand sa lucrezi in intervale de 25 de minute cu 5 minute pauza. Vei observa nu doar
 ca iti vei ajuta vederea dar vei fi si mai eficient in ceea ce faci.
 
@@ -606,7 +585,6 @@ In felul acesta nu va mai trebui sa stai cocosat cu ochii foarte apropiati de mo
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 18
 Metoda # 8: Asigura-ti odihna
  Cu totii stim ca somnul este important pentru noi, dar nu toti avem parte de un somn de
 calitate. Dupa un studiu facut la Harvard, reiese ca somnul ne ajuta sa avem o memorie mai
@@ -644,7 +622,6 @@ putin costisitoare sau chiar deloc.
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 19
 Metoda # 11: Clateste-ti ochii
 
 In fiecare dimineata si in fiecare seara clateste-ti ochii cu apa foarte rece de cateva ori, apoi cu
@@ -683,7 +660,6 @@ relaxa muschii oculari, iar acest lucru te va feri de zvacniri sau spasme ale oc
 
 Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
 
- 20
 In concluzie…
 
 Ochii nostri sunt sensibili si predispusi la deteriorare chiar si fara a avea parte de afectiuni

@@ -1864,7 +1864,7 @@ Ajuta la [dezintoxicare](javascript:void(0))
 Alunga energiile negative si cosmarurile\
 Se spunea ca protejeaza de fulger, febra, tristete si necaz](javascript:void(0))
 
-Cabinetul de Terapii Complementare „Anasan", str. Valea Furcii, nr. 8A, sector 6, Bucuresti, tel.: 021.777.71.96, 0722.552.992. Mai multe despre puterile pietrelor pretioase, simboluri, preturi si legende puteti afla din cartea „Magia pietrelor pretioase", scrisa de Antonia Mares si aparuta la editura Cartea de Buzunar.
+Cabinetul de Terapii Complementare „Anasan", str. Valea Furcii, nr. 8A, sector 6, Bucuresti,:,. Mai multe despre puterile pietrelor pretioase, simboluri, preturi si legende puteti afla din cartea „Magia pietrelor pretioase", scrisa de Antonia Mares si aparuta la editura Cartea de Buzunar.
 
 Se cauta punctul de pornire al afectiunii si abia apoi se folosesc pietrele", spune prof. Ana Maria Iliescu de la Cabinetul de Terapii complementare Anasan din Bucuresti. Acest tip de tratament necesita si o dieta speciala: eliminarea toxinelor pentru usurarea functionarii organelor, peste 2 litri de lichide pe zi (exclus bauturi carbogazoase), fara tutun, alcool, carne de porc sau mezeluri.
 

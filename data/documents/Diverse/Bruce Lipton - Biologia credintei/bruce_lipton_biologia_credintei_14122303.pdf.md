@@ -1,23 +1,15 @@
-©Copyright 2005, Bruce Lipton
-all rights reserved
 Htlul original The Biology of Belief, Unleashing the Power of
 Consciousness, Matter and Miracles
 by, Bruce H. Lipton, PhD
-Tehnoredactare Felicia Drăgușin
-Coperta PDG Advertising
-Copyright © 2008, Editura For You
-Descrierea CIP a Bibliotecii Naționale a României
 LIPTON, BRUCE H.
 Biologia credinței - Bruce Lipton, Ph.D-
 București: For You, 2008
-ISBN 978-973-1701-39-4
-28
 Toate drepturila asupra versiunii în limba română aparțin
 Editurii For You. Reproducerea integrală sau parțială, sub orice formă,
 a textului din această carte este posibilă numai cu acordul prealabil al
 Editurii For You.
-Teiyfax. 021/6656223; 0311001455,
-mobile phone 0744352963; 0724212690;
+Teiyfax.,
+mobile phone,
 e-mail ;
 website:
 Printed in Homania ISBN 978-973-1701-39-4
@@ -54,7 +46,6 @@ Recomand această carte, oricui este pregătit și dispus să
 își asume responsabilitatea deplină pentru sine șl pentru
 destinul planetei noastre.
 LeVar Burton, actor șl regizor
-4
 
 ruce Lipton oferă noi perspective și o înțelegere
 nouă în ceea ce privește interfața dintre organis-
@@ -76,7 +67,6 @@ vieții, aceasta este una dintre cele mal importante cărți pe
 care le veți citi vreodată.
 Dennis Perman, D.C.
 Co-fondator, The Master's Clrcle
-I
 n această carte, care spulberă orice paradigme, Bruce
 Lipton îi administrează Vechii Biologii, un KO tehnic.
 Dând cu stânga în dogma darvinisuiulul și cu dreapta în
@@ -87,7 +77,6 @@ torie, o distracție plăcută.
 Ralph Abraham, Ph.D. Profesor de matematici,
 Universitatea California
 Autor al lucrării Haos, Gaia, Eros
-5
 
 uternică! Elegantă! Simplă! într-un stil deopotrivă ac-
 cesibil și plin de înțeles, Dr. Bruce Lipton ne oferă -
@@ -122,7 +111,6 @@ pentru cei dedicați mișcării minte/corp și adevăratei
 esențe a vindecării.
 John F. Demartlni, D.C. Autorul cărților
 Numără-ți binecuvântările, și Experiența revelatorie
-6
 
 t
 ntr-o lume plină de haos, Dr. Lipton îi aduce omenirii
@@ -156,7 +144,6 @@ Joseph Mercola, D.O.
 Fondator al pagina de internet în dome-
 niul sănătății naturale, cu cel mai mare
 număr de vizitatori din lume
-7
 
 ceasta este o carte curajoasă și vizionară, care
 oferă dovezi solide, din biologia cuantică, de na-
@@ -187,7 +174,6 @@ Bruce Lipton - și modul concis în care le exprimă - sunt
 dovada genialității sale absolute.
 Gerard W. Clum, D.C.
 Președinte, Colegiul de chiropractlcă Life, West
-8
 
 Mama noastră a tuturor,
 Să ne ierte păcatele noastre.
@@ -268,7 +254,6 @@ s-a adăpat din izvorul noii științe Ia care lucram, mai întâi
 ca student, iar apoi ca „fiul" meu spiritual. Acum câțiva
 ani, s-a oferit - și eu am acceptat - să creeze o copertă
 pentru carte, oricând avea să apară aceasta.
-11
 
 Bruce H. Lipton, iJn.u
 Bob Mueller este co-fondator și director de creație
@@ -303,9 +288,7 @@ In ceea ce privește producerea acestei cărți la nivel
 fizic, vreau să le mulțumesc sincer editorilor din New
 York, care mi-au refuzat manuscrisul. Fără voi, am putut
 să-mi creez propria mea carte - chiar așa cum voiam eu
-12
 
-Biologia credinței
 să fie. Sunt îndatorat companiei Mountain of Love Pro-
 ductions, Inc., pentru timpul și resursele investite în pu-
 blicarea cărții. în acest sens, îmi exprim aprecierea deo-
@@ -337,7 +320,6 @@ traordinarului Irwin R. Konigsberg, Ph.D., care m-a luat
 sub aripa lui și mi-a fost mentor în perioada de doctorat,
 îmi voi aminti întotdeauna momentele noastre de „evri-
 ka!" și pasiunea pe care o împărtășeam pentru știință.
-13
 
 Bruce H. Lipton, iJn.u
 t
@@ -374,9 +356,7 @@ zației omenești.
 Vreau să-i mulțumesc sincer lui Gregg Braden, pen-
 tru perspective sale științifice, pentru sugestiile sale cu
 i f
-14
 
-Biologia credinței
 privire la publicare și pentru că a furnizat incitantul sub-
 titlu al acestei cărți.
 Fiecare dintre următorii prieteni dragi și de încre-
@@ -409,7 +389,6 @@ Margaret a fost forța propulsoare din spatele scenei, care
 a impulsionat scrierea și materializarea acestei cărți.
 Orice aș scrie și aș spune, draga mea., totul a fost făcut
 cu iubire pentru tine!
-75
 
 JDacă ai putea să fii oricine... cine ai vrea să fiiP"
 Obișnuiam să petrec perioade lungi de timp, gândin-
@@ -436,9 +415,7 @@ principală, am început să gândesc în afara parametrilor
 rigizi de credințe care prevalează în academia conven-
 țională. Departe de turnurile acelea de fildeș, izolat pe o
 insulă de smarald, în azuriul adânc al Mării Caraibelor,
-16
 
-Biologia credinței
 am avut parte de o epifanie științifică, în urma căreia cre-
 dințele mele despre natura vieții s-au dărâmat cu totul.
 Momentul care mi-a schimbat viața s-a petrecut pe
@@ -471,7 +448,6 @@ tre de celule. La fel ca și în cazul unei celule individuale,
 caracterul vieților noastre este determinat nu de genele
 noastre, ci de reacțiile noastre la stimulii din mediu, care
 propulsează viața.
-17
 
 Pe de o parte, noul mod în care înțelegeam natura
 vieții a fost un șoc. Vreme de aproape două decenii, ino-
@@ -505,7 +481,6 @@ această revelație, am știut că mă adusesem singur într-o
 situație de blocaj, deoarece crezusem - în mod falș - că
 eram sortit să am o viață personală spectaculos de nere-
 ușită. Nu există nicio îndoială asupra faptului că ființele
-18
 
 omenești au o mare capacitate, o uriașă pasiune și o
 extraordinară tenacitate de a rămâne prinse în credințe
@@ -539,7 +514,6 @@ mații științifice - de natură să spulbere toate paradig-
 mele - în fața a zeci de grupuri de oameni din Statele
 Unite, Canada, Australia și Noua Zeelandă. Reacțiile
 celor care, ca și mine, au folosit această cunoaștere pen-
-19
 
 Bruce H. Lipton, iJn.u
 tru a își re-scrie scenariile propriei vieți mi-au adus
@@ -559,7 +533,6 @@ bogată și plină de satisfacții - și nu mai pierd vremea,
 întrebându-mă: JDacă aș putea să fiu oricine, cine aș
 mea săfiu?" Pentru că acum, răspunsul e foarte simplu.
 Vreau să fiu eu\
-20
 
 INTRODUCERE
 Magia celulelor
@@ -585,7 +558,6 @@ scopică, o ființă gânditoare și conștientă. Organismul
 acesta unicelular microscopic nu se mișca în jur fără
 țintă, ci, mai degrabă, mi se părea că este într-o misiune
 - deși nu știam ce fel de misiune putea să fie. M-am uitat
-21
 
 Bruce H. Lipton, iJn.u
 în tăcere peste „umărul" parameciului, urmărindu-1 cum
@@ -620,9 +592,7 @@ camera de microscopie electronică a unui laborator este
 ca un rit de trecere. Se intră printr-o ușă rotativă neagră,
 de felul celor care separă camera obscură din atelierele
 foto, de zonele de lucru, pline de lumină.
-22
 
-Biologia credinței
 îmi amintesc când am pășit prima dată în compar-
 timentul ușii rotative și am început să o împing. Mă
 aflam în întuneric, între două lumi - viața mea de stu-
@@ -655,7 +625,6 @@ amintea de ziua aceea din clasa a doua, când văzusem,
 pentru prima oară, o celulă. în sfârșit, pe ecran apăru o
 imagine verde, fluorescentă. Prezența celulelor cu colo-
 rit întunecat abia dacă putea fi deslușită pe secțiunile de
-23
 
 Bruce H. Lipton, iJn.u
 plastic, mărite de aproximativ treizeci de ori față de di-
@@ -690,9 +659,7 @@ citoarhitectura celulei, erau îngropate indicii care aveau
 să ne dezvăluie câte puțin din misterele vieții.
 Pentru o clipă, hublourile microscopului au de-
 venit un glob de cristal. în strălucirea fantomatică și ver-
-24
 
-Biologia credinței
 zuie a ecranului său fluorescent, îmi vedeam viitorul.
 Știam că aveam să fiu biolog specialist în biologie celu-
 lară - și că cercetarea mea avea să se concentreze pe stu-
@@ -725,7 +692,6 @@ Deși aveam la dispoziție unelte mai sofisticate, abordarea
 mea nu se schimbase deloc. Nu îmi pierdusem niciodată
 convingerea de la vârsta de șapte ani - că viețile celulelor
 pe care le studiam aveau un scop.
-25
 
 _brucen. i.iyIUI., ..—
 Din păcate, nu eram la fel de convins că propria
@@ -760,7 +726,6 @@ nii de știință descoperiseră natura „factorilor ereditari"
 despre care scrisese Darwin, în secolul al 19-lea. Ziarele
 au dus vestea despre noua lume a ingineriei genetice, cu
 promisiunea că, de acum, o să avem bebeluși proiectați
-26
 
 la cerere și tratamente medicale miraculoase. îmi amin-
 tesc, de parcă ar fi fost ieri, tidurile cu litere mari, care
@@ -794,7 +759,6 @@ mai aflam și în mijlocul unui divorț, care mă secătuia din
 punct de vedere emoțional și mă ruina din punct de
 vedere economic Resursele mele financiare mi se stre-
 curau printre degete, în încercarea mea de a-i hrăni și a-i
-27
 
 Bruce H. Lipton, iJn.u
 îmbrăca pe cei care depindeau de mine, sub aspect ju-
@@ -827,9 +791,7 @@ Din fericire, am găsit o scăpare, sub forma unui
 scurt concediu profesoral, pe care l-am petrecut la o fac-
 ultate de medicină din Caraibe. Știam că problemele
 mele nu aveau să dispară acolo, însă așa mă simțeam în
-28
 
-Biologia credinței
 avionul care străpungea norii cenușii de deasupra oraș-
 ului Chicago. Mi-am mușcat obrazul pe dinăuntru, ca să
 împiedic zâmbetul ce mi se lățise pe față să se trans-
@@ -862,7 +824,6 @@ soarele apune încet, în mare.
 Pe insula aceea îndepărtată, eram departe de fre-
 nezia orașelor mari, liber să văd lumea fără ochelarii de
 cal ai credințelor dogmatice din civilizație. La început,
-29
 
 Bruce H. Lipton, iJn.u
 mintea îmi derula și îmi critica mereu dezastrul care era
@@ -897,9 +858,7 @@ ene subliniază natura competitivă a vieții.
 Spre necazul colegilor mei de catedră din SUA,
 când am revenit la Wisconsin eram un radical și profer-
 am zgomotos, punând în discuție credințele cruciale și
-30
 
-Biologia credinței
 sacre ale biologiei. Ba am început chiar să îl critic des-
 chis pe Charles Darwin și înțelepciunea teoriei sale evo-
 luționiste. în ochii majorității celorlalți biologi, compor-
@@ -932,7 +891,6 @@ ceva din mediu. Deși știința de graniță a stabilit deja
 acest lucru, oamenii de știință convenționali, orbiți de
 dogma geneticii, l-au ignorat pur și simplu. Criticile
 mele deschise la adresa Dogmei Centrale m-au transfor-
-31
 
 Bruce H. Lipton, iJn.u
 mat într-un eretic încă și mai mare. Nu numai că eram un
@@ -967,9 +925,7 @@ ului în controlarea vieții. De fapt, epigenetica - știința
 care studiază mecanismele moleculărtT^urcâfe mediul
 \ controlează activitatea genelor - reprezintă în prezent
 unul dintre cele mai active domenii ale cercetării științi-
-32
 
-Biologia credinței
 fice. Rolul mediului înconjurător în reglementarea activ-
 ității genelor, subliniat de acest domeniu nou, făcuse
 obiectul cercetărilor mele pe celule, cu douăzeci și cinci
@@ -1001,7 +957,6 @@ supraviețuire.
 Reduse la un nivel elementar, ființele omenești
 sunt, pur și simplu, consecința „conștiinței colective de
 tip amoebă".
-33
 
 Bruce H. Lipton, iJn.u
 Așa cum o națiune reflectă trăsăturile cetățenilor
@@ -1034,9 +989,7 @@ important - putea să facă parte din Rai? Cu femei și
 copii în zdrențe, care trăiesc pe străzi; cu aerul atât de
 gros, încât nu știi niciodată dacă există stele cu adevărat;
 cu râurile și lacurile atât de poluate, că pot adăposti nu-
-34
 
-Biologia credinței
 mai forme de viață inimaginabile, „înfricoșătoare".
 Pământul ăsta să fie Raiul? Aici trăiește Divinitatea? Oare
 cunoaște el, Divinitatea?
@@ -1069,7 +1022,6 @@ duce un medicament în organism, pentru a corecta
 funcția A, acesta dezechilibrează în mod inevitabil
 funcția B, C sau D. Corpul și mintea noastră nu sunt con-
 trolate de hormoni și de neurotransmițători îndrumați
-35
 
 Bruce H. Lipton, iJn.u
 de gene, ci de credințele noastre - ele ne controlează
@@ -1101,9 +1053,7 @@ acumulat o experiență didactică bogată; am prezentat
 principiile Noii Biologii la mii de oameni din toată
 lumea. Prin acele prelegeri, mi-am îmblânzit prezenta-
 rea științifică, redând-o într-un limbaj ușor de înțeles,
-36
 
-Biologia credinței
 ilustrat de planșe colorate - iar multe dintre ele sunt
 reproduse și în această carte.
 în Capitolul 1 discut despre celulele „inteligente" și
@@ -1136,7 +1086,6 @@ Biologia credinței. Gândurile pozitive au un efect pro-
 fund asupra comportamentului și a genelor, însă numai
 atunci când sunt în armonie cu programarea existentă la
 nivelul subconștientului. Iar gândurile negative au un
-37
 
 Bruce H. Lipton, Ph.D
 efect la fel de puternic. Atunci când recunoaștem modul
@@ -1194,7 +1143,6 @@ muzicieni, o călugăriță și chiar un traficant de droguri.
 în ciuda tuturor diferențelor, studenții aveau în
 comun două caracteristici. Una - că toți eșuaseră în pro-
 cesul de selecție foarte competitiv, care completa nu-
-39
 
 Bruce H. Lipton Ph.D
 mărul limitat de locuri de la facultățile de medicină din
@@ -1228,9 +1176,7 @@ legere pentru cursul respectiv. Pentru ca absolvenții fa-
 cultății să poată practica în State, ei trebuie să îndeplin-
 ească cerințele academice stabilite de membrii comisi-
 ilor de examinare americane.
-40
 
-Biologia credinței
 Pentru a patra oară în acel semestru, studenții plic-
 tisiți ascultau un profesor nou. Le-am spus pe scurt des-
 pre pregătirea mea și despre ce așteptări aveam în legă-
@@ -1262,7 +1208,6 @@ fiecare dintre răspunsurile care au urmat a fost însoțit
 de gemete disperate. Cel mai bun rezultat din clasă fu-
 sese de zece răspunsuri corecte, urmat de mai mulți stu-
 denți care răspunseseră corect la șapte întrebări; mai
-41
 
 Bruce H. Lipton, iJn.u
 mult pe ghicite, majoritatea dintre ceilalți nimeriseră
@@ -1297,9 +1242,7 @@ State erau, pur și simplu, mai buni la memorarea meca-
 nică, iar această calitate îi făcea să obțină note mai bune
 la examenele de admitere la facultățile de medicină. De
 asemenea, am încercat din greu să-i conving că histolo-
-42
 
-Biologia credinței
 gia și biologia celulară nu sunt cursuri dificile din punct
 de vedere intelectual. Am explicat că, în eleganța ei, na-
 tura folosește principii de operare foarte simple. Le-am
@@ -1331,7 +1274,6 @@ Desigur, eu răspundeam de materialul pentru toate pre-
 legerile, pentru că eram implicat în orele de laborator
 aferente. Trebuia să fiu la dispoziție și să răspund la orice
 întrebări ale studenților, legate de curs. însă a ști un
-43
 
 Bruce H. Lipton, iJn.u
 material, și a ține o prelegere despre materialul respec-
@@ -1364,9 +1306,7 @@ mi-a reaprins inspirația pentru știință, așa cum o simți-
 sem pe când eram copil. încă mă mai încercam acel
 entuziasm, când eram în laboratorul de cercetare, dar
 nu și atunci când eram prins cu detaliile administrative
-44
 
-Biologia credinței
 ale poziției mele de profesor titular la catedră - printre
 care și nesfârșitele ședințe, dar și ceea ce erau, pentru
 mine, chinuitoarele petreceri de catedră.
@@ -1398,7 +1338,6 @@ ta și apelând la o ipoteză care să arate cum funcționează
 lucrurile. Apoi, fac experimente, pentru a-și testa ideile.
 un vas cilindric, puțin adânc, din sticlă sau plastic, cu capac,
 Pe care biologii îl folosesc pentru culturi de celule. N. tr.
-45
 
 bruce ti. Lipton, ijn.u
 Enunțarea ipotezei și proiectarea experimentelor
@@ -1433,9 +1372,7 @@ me aflate în niveluri inferioare de evoluție.
 Nimic nu poate să fie mai departe de adevăr.
 Atunci când observăm alte ființe omenești ca entități in-
 dividuale, sau când ne vedem pe noi înșine în oglindă ca
-46
 
-Biologia credinței
 organisme individuale, avem dreptate, într-un anumit
 sens - cel puțin, din perspectiva nivelului nostru de
 observație. însă dacă v-aș micșora până la dimensiunea
@@ -1468,7 +1405,6 @@ nale ale țesuturilor și organelor din corpurile noastre.
 Printre ele se numără nucleul, care este organela cea mai
 mare; mitocondriile, corpusculii Golgi și vacuolele.
 Modul tradițional de a preda cursul este să se abordeze
-47
 
 Bruce H. Lipton, iJn.u
 mai întâi aceste structuri celulare, apoi să se treacă la țe-
@@ -1503,7 +1439,6 @@ de stimuli proveniți din micro-mediul în care trăiesc.
 Prin analiza acestor date, celulele își selectează
 reacțiile comportamentale potrivite, care să le asigure
 supraviețuirea.
-48
 
 Prin aceste experiențe în diferite medii, celulele
 individuale pot să învețe și să creeze amintiri celulare,
@@ -1537,7 +1472,6 @@ ușoară mutație, astfel că ea va codifica o proteină-anti-
 corp de o formă ușor diferită. Celula alege varianta de
 genă care produce anticorpul ce se potrivește cel mai
 bine. Această versiune aleasă a genei trece și ea prin mai
-49
 
 Bruce ti. Lipton, rn.u
 multe cicluri de hipermutație somatică, prin care forma
@@ -1569,7 +1503,6 @@ de la prima formare a Pământului. în următorii 2,75 de
 miliarde de ani din istoria Pământului, lumea a fost pop-
 ulată doar de celule individuale, care trăiau în libertate -
 bacterii, alge și protozoare de tipul amoebelor.
-50
 
 vii/jvgia Licujiuci
 Cu aproximativ 750 de milioane de ani în urmă,
@@ -1604,7 +1537,6 @@ conștiență de cel puțin X înmulțit cu numărul de celule
 din colonie.
 Pentru a supraviețui la asemenea densități, celulele
 au creat medii bine structurate. Aceste comunități sofis-
-53
 
 ticate au subdivizat sarcina de lucru, mult mai precis și
 mai eficient decât graficele de organizare care se schim-
@@ -1637,9 +1569,7 @@ tru un apartament cu trei camere, într-un complex de o
 sută de apartamente. Pentru a supraviețui, fiecare celulă
 trebuie să cheltuiască o anumită cantitate de energie.
 Cantitatea de energie conservată de indivizii care trăiesc
-52
 
-Biologia credinței
 într-o comunitate contribuie atât la creșterea avantajelor
 de supraviețuire, cât și la îmbunătățirea calității vieții.
 în capitalismul american, Henry Ford a văzut avan-
@@ -1671,7 +1601,6 @@ dusă de „războiul naturii din foamete și moarte". Puneți
 asta lângă noțiunea lui Darwin, că evoluția se petrece la
 * Originea speciilor Prin selecție naturală sau conservarea ra-
 selor favorite în lupta pentru viață. n.t.
-53
 
 Bruce H. Lipton, iJn.u
 întâmplare și că avem o lume pe care Tennyson o des-
@@ -1703,9 +1632,7 @@ acțiune „instructivă" și de cooperare între organisme și
 mediul lor, care le permite formelor de viață să supravie-
 țuiască și să evolueze într-o lume dinamică.
 * Evoluția și diversitatea vieții, n.t.
-54
 
-Biologia credinței
 Ideea lui era că organismele dobândesc și transmit
 mai departe anumite adaptări, care le sunt necesare pen-
 tru a supraviețui într-un mediu schimbător. Lucru inte-
@@ -1738,7 +1665,6 @@ vărat teoria lui Lamarck. Lamarck sugerase că astfel de
 schimbări evoluționare ar putea să necesite „perioade
 imense de timp", conform biografei L. J. Jordanova. în
 1984, Jordanova scria că teoria lui Lamarck „se sprijină"
-55
 
 Bruce H. Lipton, iJn.u
 pe o serie de „teoreme", printre care și: „legile care gu-
@@ -1773,9 +1699,7 @@ Waddington a scris aceste cuvinte premonitorii,
 acum treizeci de ani Astăzi, teoriile lui Lamarck sunt re-
 evaluate, sub greutatea abordării unei noii științe, care"
 * Evoluția unui evoluționist, n.t.
-56
 
-Biologia credinței
 sugerează că mult-hulitul biolog nu greșise chiar întru
 totul, iar mult-lăudatul Darwin nu avusese dreptate chiar
 în totalitate. Tidul unui articol publicat în prestigiosul
@@ -1807,7 +1731,6 @@ că animalele au co-evoluat și că ele continuă să coexiste
 necesare pentru o sănătate și o dezvoltare normală",
 * Să fi avut Lamarck un pic de dreptate? n.t.
 " Unghiul mort al teoriei lui Darwin. n.L
-57
 
 Bruce H. Lipton, iJn.u
 pe o serie de „teoreme", printre care și: „legile care gu-
@@ -1842,9 +1765,7 @@ Waddington a scris aceste cuvinte premonitorii,
 acum treizeci de ani. Astăzi, teoriile lui Lamarck sunt re-
 evaluate, sub greutatea abordării unei noii științe, care"
 * Evoluția unui evoluționist, n.t.
-56
 
-Biologia credinței
 sugerează că mult-hulitul biolog nu greșise chiar întru
 totul, iar mult-lăudatul Darwin nu avusese dreptate chiar
 în totalitate. Titiul unui articol publicat în prestigiosul
@@ -1876,7 +1797,6 @@ că animalele au co-evoluat și că ele continuă să coexiste
 necesare pentru o sănătate și o dezvoltare normală",
 " Să fi avut Lamarck un pic de dreptate? n.t.
 " Unghiul mort al teoriei lui Darwin. n.t.
-57
 
 Bruce H. Lipton, iJn.u
 după cum scrie într-u articol recent din revista Science,
@@ -1910,9 +1830,7 @@ la membrii unei anumite specii, dar și între membrii
 unor specii diferite. împărtășirea aceasta de informație
 genetică, prin transferul de gene, accelerează evoluția,
 " Ne descurcăm cu puțin ajutor de la micii noștri prieteni, n.t.
-58
 
-Biologia credinței
 întrucât organismele pot să dobândească experiențe
 „învățate" de la alte organisme. [Nitz, ș.a., 2004; Pennisi
 2004; Boucher, ș.a, 2003; Dutta și Pan, 2002; Gogarten
@@ -1945,7 +1863,6 @@ supuse ingineriei genetice și speciile native înconjură-
 toare a dat naștere unor specii extrem de rezistente, con-
 siderate super-buruieni. [Milius 2003; Haygood, ș.a,
 2003; Desplanque, ș.a, 2002; Spencer și Snow 2001]
-59
 
 Bruce H. Lipton, iJn.u
 Specialiștii în inginerie genetică nu au luat niciodată în
@@ -1980,9 +1897,7 @@ torii ipotezei spun că modificarea echilibrului acestui
 super-organism, numit Geea - fie că se întâmplă prin
 distrugerea junglei tropicale, prin golirea stratului de
 ozon, sau prin modificarea organismelor prin inginerie
-60
 
-Biologia credinței
 genetică - poate să pună în pericol supraviețuirea sa și,
 în consecință, a noastră.
 Studii recente finanțate de Consiliul Britanic pen-
@@ -2013,7 +1928,6 @@ urmează un model darwinian - însă mie mi s-a părut
 străduiesc să devină vindecători plini de compasiune.
 Numai că prejudecățile mele despre studenții la
 Medicină s-au răsturnat în timpul șederii mele pe insulă.
-61
 
 bruce ti. Lipion, ru.Lj
 După apelul meu, clasa de nepregătiți a încetat să se mai
@@ -2048,9 +1962,7 @@ gilor lor din Statele Unite. în loc să se ia după deștepții
 de studenți americani la medicină, ei s-au luat după com-
 portamentul celulelor inteligente și s-au adunat în gru-
 puri, ca să devină încă și mai inteligenți. Nu le-am spus
-62
 
-Biologia credinței
 studenților mei să își modeleze viața după viața celule-
 lor, pentru că încă mai eram destul de bine prins în
 pregătirea mea științifică tradițională. însă-mi place să
@@ -2075,7 +1987,6 @@ pe drumul către un mod de a înțelege Noua Biologie,
 care lasă în urmă defetismul programării genetice și pa-
 rentale, împreună cu darwinismul, în-care-supraviețu-
 iește-cel-mai-puternic.
-63
 
 ESTE VORBA DESPRE MEDIU,
 PROSTULE!"
@@ -2100,7 +2011,6 @@ noul cu „Este vorba despre economie, prostule", la sedi-
 ul de campanie al lui Clinton. Deși la vremea aceea nu
 era evident, mi-am dat seama, într-un târziu, că acest sfat
 era o informație esențială pentru a înțelege natura vieții.
-64
 
 M-am convins în repetate rânduri de înțelepciunea sfat-
 ului lui Irv. Când le ofeream celulelor mele un mediu
@@ -2134,7 +2044,6 @@ arăta într-un capitol ulterior - dar, mai important, a
 schimbat și modul în care apreciem viața. Atunci când
 ești convins că genele îți controlează viața și când știi că
 nu ai avut niciun cuvânt de spus, în privința genelor cu
-65
 
 Bruce H. Lipton, Ph.D
 care te-ai „căpătuit" la momentul conceperii, ai o scuză
@@ -2168,9 +2077,7 @@ bui să le dea posibilitatea să trăiască o viață fericită și
 sănătoasă. Bolile care sunt flagelurile zilelor noastre -
 diabetul, bolile cardiace și cancerul - scurtcircuitează o
 viață fericită și sănătoasă. însă aceste boli nu sunt rezul-
-66
 
-Biologia credinței
 tatul unei singure gene, ci al unor interacțiuni complexe
 între mai multe gene și factorii de mediu.
 Atunci, cum rămâne cu toate titiurile acelea de zi-
@@ -2202,7 +2109,6 @@ Ce anume activează genele? Răspunsul a fost expri-
 mat cu eleganță, în 1990, într-o lucrare intitulată
 Metaphors and the Role of Genes and Development",
 * Metaforele și rolul genelor și dezvoltarea n.tr.
-67
 
 Bruce H. Lipton, Ph.D
 de H. F. Nijhout. Autorul prezintă dovezi că noțiunea
@@ -2235,9 +2141,7 @@ foarte mari: polizaharide (zaharuri complexe), lipide
 (grăsimi), acizi nucleici (ADN/ARN) și proteine. Cu toate
 că celula are nevoie de fiecare dintre cele patru tipuri
 moleculare, pentru organismele vii, proteinele sunt com-
-68
 
-Biologia credinței
 ponenta cea mai importantă. în principal, celulele noas-
 tre sunt un ansamblu de unități care produc proteine.
 Astfel, un mod de a ne percepe propriul organism de tril-
@@ -2256,7 +2160,6 @@ ci de molecule de aminoacid pe care le folosesc celulele.
 Deși îmi place analogia cu mărgelele, pentru că toată
 lumea le cunoaște, ea nu este exactă, întrucât fiecare
 aminoacid are o formă ușor diferită. Astfel, ca să fim
-69
 
 Bruce H. Lipton, Ph.D
 foarte preciși, ar trebui să vă gândiți Ia un șirag de
@@ -2271,7 +2174,6 @@ cu acelea ale coloanei vertebrale a unui șarpe. Șira spi-
 nării la șarpe, formată dintr-un mare număr de subunități
 legate - vertebrele - îi permite șarpelui să se contorsio-
 neze într-o mare varietate de forme, de la „ghem" Ia „băț".
-70
 Spre deosebi-
 re de mărgele
 care sunt uni-
@@ -2290,7 +2192,6 @@ tre caracterul unei „coloane vertebrale" făcută din
 mărgele de formă identică și una asamblată din coturi
 de țeavă de forme diferite, ca în ilustrația de mal sus.
 
-Biologia credinței
 Coloanele vertebrale arătate la A șl B de mai sus
 conțin exact același șir de aminoacizi (coturi de
 țeavă), însă sunt de forme (conformații) radical dife-
@@ -2311,7 +2212,6 @@ ping, cu cât ele sunt mai departe una de alta, cu atât
 conformația va fi mai stabilă. Va fi preferată confor-
 mația A, deoarece, în acest caz, sarcinile negative
 sunt mai depărtate decât în cazul conformației B-
-71
 
 Bruce H. Lipton, Ph.D
 Legăturile flexibile (legături pepticlice) dintre
@@ -2346,9 +2246,7 @@ să funcționeze la parametri optimi. Celula marchează
 astfel de proteine aberante, pentru a fi distruse; aminoa-
 cizii din coloanele lor vertebrale sunt dezasamblați și
 reciclați, pentru sintetizarea de noi proteine.
-72
 
-Biologia credinței
 Cum creează proteinele, viața
 Organismele vii se disting de entitățile fără viață,
 prin faptul că se mișcă - sunt animate. Energia ce le
@@ -2379,7 +2277,6 @@ proteină întâlnește o moleculă care este complementară
 cu ea din punct de vedere fizic și energetic, cele două se
 leagă împreună, ca produsele care au roți dințate pentru
 îmbinare (mixerul de ouă, sau un ceas de modă veche).
-73
 
 Bruce H. Lipton, Ph.D
 Figura A arată conformația preferată a coloanei
@@ -2388,9 +2285,7 @@ pingere dintre cei doi aminoacizi din poziția din ca-
 pete, încărcați negativ (indicați prin săgeată) fac co-
 loana vertebrală să se întindă, astfel încât aminoacizii
 negativi să fie cât mai departe cu putință, unul de
-74
 
-Biologia credinței
 celălalt. Figura B prezintă o imagine, de aproape, a
 unui aminoacid de margine. Un semnal - în acest caz,
 o moleculă cu o încărcătură electrică extrem de pozi-
@@ -2424,7 +2319,6 @@ teine complementare.
 ceas mecanic, pentru a reprezenta modul în care funcți-
 onează o celulă. Prima imagine arată un mecanism meta-
 lic, expunând roțile dințate, arcurile, cristalele și carcasa
-75
 
 Bruce H. Lipton, Ph.D
 modelului de ceas. Atunci când Rotița A se învârte, ea
@@ -2445,9 +2339,7 @@ gen; C) O proteină-canal, înfășurată în membrană, cu
 un por gol în centru; D) Subunitate proteinică a „cap-
 sulei" care înconjoară un virus; E) Enzimă sintetizatoa-
 re de ADN, cu o moleculă de ADN spiralat, atașată
-76
 
-Biologia credinței
 în acest „meca-
 nism" de proteine, ne
 putem imagina că Pro-
@@ -2482,7 +2374,6 @@ respiratorii, căile diges-
 tive, căile de contracție
 vjmmv
 VțrnfcMlf
-77
 
 Bruce H. Lipton, Ph.D
 musculară și nenorocim! de ciclu generator de energie
@@ -2515,9 +2406,7 @@ alul ereditar care, credeau ei, controlează viața.
 în 1910, o serie de analize microscopice intensive
 au dezvăluit că informațiile ereditare, ce se transmit de
 la o generație la alta, sunt conținute în cromozomi -
-78
 
-Biologia credinței
 structuri filiforme, care devin vizibile în celulă, chiar îna-
 inte ca aceasta să se dividă în două celule „fiică". Cromo-
 zomii sunt incorporați în cea mai mare organelă a celu-
@@ -2550,7 +2439,6 @@ baze (adenina, timina, citozina și guanina - sau A, T, C și
 G). Descoperirea structurii ADN-ului de către Watson și
 Crick a dus la dezvăluirea că ordinea bazelor A, T, C și G
 ADN reprezintă ordinea aminoacizilor din coloana
-79
 
 Bruce H. Lipton, Ph.D
 vertebrală a unei proteine. Aceste șiruri lungi de mole-
@@ -2585,9 +2473,7 @@ formează armătura fiecărui text științific.
 fășurare a vieții, ADN-ul rămâne de departe în top, ur-
 mat de ARN. ARN-ul este copia la xerox (TM) și de scurtă
 durată a ADN-ului. Ca atare, este cadrul fizic ce codifică
-80
 
-Biologia credinței
 secvența de aminoacizi care formează coloana verte-
 brală a unei proteine. Diagrama cu Supremația ADN-ului
 furnizează logica ce susține Epoca Determinismului
@@ -2618,7 +2504,6 @@ mi omenești.
 cosmică - una dintre acele glume care îi neliniștesc peri-
 odic pe oamenii de știință, convinși că au descoperit se-
 cretele Universului. Gândiți-vă la impactul descoperirii
-81
 
 cruce ti. Lipton, i'n.u
 lui Nicolaus Copernicus, publicată în 1543, că Pământul
@@ -2653,9 +2538,7 @@ nerie genetică pot să repare, cu relativă ușurință, toate
 dilemele noastre biologice. Pur și simplu, nu există sufi-
 cient de multe gene care să poată să răspundă pentru
 complexitatea vieții omenești sau a bolii.
-82
 
-Biologia credinței
 Dogma Centrală. Dogma, numită și Supremația
 ADN-ului, definește fluxul de informație în organis-
 mele biologice. Așa cum este indicat de săgeți, fluxul
@@ -2672,7 +2555,6 @@ de unde și conceptul de supremație a ADN-ului, care,
 literalmente, înseamnă „prima cauză".
 Poate că vorbesc la fel ca Chicken Little și strig în
 gura mare că se prăbușește cerul geneticii. Dar nu tre-
-83
 
 bruce H. Lipton, Ph.D
 buie să mă credeți pe cuvânt. Și Chicken Big* spune
@@ -2706,9 +2588,7 @@ numărul total de gene care există la oameni și acela al
 organismelor primitive. Să aruncăm o privire asupra a
 trei dintre cele mai studiate modele animale în cerceta-
 * personaje din filme de desene animate, n tr.
-84
 
-Biologia credinței
 rea genetică: un nematod microscopic, cunoscut sub nu-
 mele de Ccienorhabditis elegans, drosofila și șoarecele
 de laborator.
@@ -2739,7 +2619,6 @@ celulară - și ceva în plus
 în retrospectivă, oamenii de știință ar fi trebuit să
 știe că genele nu pot să asigure controlul vieții noastre.
 Prin definiție, creierul este organul care răspunde de
-85
 
 bruce H. Lipton, Ph.D
 controlarea și coordonarea fiziologiei și comportamen-
@@ -2774,9 +2653,7 @@ Celulele enucleate viabile nu stau ca niște bucăți de cito-
 plasmă fără creier, susținute de aparate de menținere a
 vieții. Aceste celule ingerează și metabolizează hrana în
 mod activ, își întrețin funcționarea coordonată a siste-
-86
 
-Biologia credinței
 melor fiziologice (respirație, digestie, excreție, motili-
 tate etc.), păstrează capacitatea de a comunica cu alte
 celule și sunt capabile să exprime reacții adecvate la fac-
@@ -2809,7 +2686,6 @@ semnate producției de vaccinuri antivirale.
 Dacă nucleul și genele acestuia nu sunt creierul
 celulei, atunci care anume este contribuția ADN-ului la
 viața celulară? Celulele enucleate mor - nu pentru că
-87
 
 Bruce H. Lipton, Ph.D
 și-au pierdut creierul, ci pentru că și-au pierdut capac-
@@ -2842,9 +2718,7 @@ sunt bătute în cuie la naștere. Genele nu sunt destinul!
 Influențele de mediu, inclusiv alimentația, stresul și
 emoțiile, pot modifica aceste gene, fără a le modifica
 macheta de bază. Iar specialiștii în epigenetică au desco-
-88
 
-Biologia credinței
 perit că aceste modificări pot fi transferate generațiilor
 viitoare, la fel cum tiparele de ADN sunt transferate prin
 dubla spirală. [Reik și Walter 2001; Surani 2001 ]
@@ -2877,7 +2751,6 @@ oneze proteina „mânecă" să-și schimbe forma, adică să
 se desprindă de dubla spirală a ADN-ului și să permită
 citirea genei. Odată ce ADN-ul este dezvelit, celula face o
 copie a genei expuse.
-89
 
 Bruce H. Lipton, Ph.D
 Supremația mediului. Noua știință ne dezvăluie
@@ -2897,9 +2770,7 @@ premiul Nobel, pentru descrierea transcriptazei in-
 verse - mecanismul molecular prin care ARN-ul poate
 rescrie codul genetic Acum, transcriptaza inversă este
 faimoasă, ea fiind folosită de ARN-ul virusului SIDA
-90
 
-Biologia credinței
 pentru a rechiziționa ADN-ul celulei infectate. De ase-
 menea, acum se știe și că modificările la nivelul mole-
 culei de ADN - cum ar fi adăugarea sau îndepărtarea
@@ -2932,7 +2803,6 @@ isme oferă oamenilor de știință un mod de a studia atât
 contribuția naturii (genele), cât și contribuția educației
 (mecanismele epigenetice) la comportamentul ome-
 nesc. Dacă ne concentrăm doar pe schițe - așa cum au
-91
 
 Bruce H. Lipton, Ph.D
 făcut oamenii de știință, vreme de decenii - influența
@@ -2953,9 +2823,7 @@ miezul nopții? După ce programul normal se oprea, pe
 ecran apărea o miră. Cele mai multe astfel de mire arătau
 ca un fel de tablă în care arunci cu săgeți, cu un ochi în
 mijloc, ca în ilustrațiile de mai sus.
-92
 
-Biologia credinței
 Gândiți-vă la tiparul mirei, ca fiind tiparul codificat
 de o anumită genă - să spunem, gena pentru ochi că-
 prui. Rotițele și butoanele televizorului pot face o ajus-
@@ -3021,9 +2889,7 @@ slabi și cu blana maro, deși urmașii aveau și ei aceeași
 genă agouti ca și mamele. Mamele cu gena agouti, care
 nu au primit suplimentele, au născut pui cu blană gal-
 benă, care mâncau mult mal mult decât cei maro. Puii
-94
 
-Biologia credinței
 galbeni au sfârșit prin a cântări aproape de două ori mai
 mult decât omologii lor supli, cu „pseudo-agouti".
 Fotografia oferită de Universitate, de pe pagina
@@ -3055,7 +2921,6 @@ generație la alta. în cartea lor Epigenetic Inheritance
 andEvolution - The Lamarckian Dimension, filosoafa
 Eva Jablonka și bioloaga Marion Lamb scriau: „în ultimii
 * Moștenirea epigenetică și evoluția - Dimensiunea Lamarck
-95
 
 Bruce H. Lipton, Ph.D
 ani, biologia moleculară a arătat că genomul este mult
@@ -3090,7 +2955,6 @@ ADN-ul nu controlează sistemele biologice, iar nucleul în
 sine nu e creierul celulei. La fel ca mine și ca voi, celulele
 sunt modelate în funcție de mediul în care trăiesc.
 Cu alte cuvinte - e vorba despre mediu, prostule!
-96
 
 (SopOMeil) s
 MEMBRANA MAGICĂ
@@ -3118,7 +2982,6 @@ lege mecanismele biologice simple ale membranei
 * Joc de cuvinte în limba engleză: brain (fonetic breiti) =
 creier, membrane (fonetic membrein) ș membrană; membrain
 -membrană-creier (n.t)
-97
 
 pruce n. Lipton, J'h.L)
 magice - mecanismele prin care corpul nostru_traduce
@@ -3153,9 +3016,7 @@ lară, care înconjoară o picătură de citoplasmă de consis-
 tența supei. Deși procariotele reprezintă viața, în cea mai
 primitivă formă a sa, ele au un scop. O bacterie nu saltă
 prin lumea ei, ca o bilă într-un joc de flipere. O bacterie
-98
 
-Biologia credinței
 dezvoltă și ea procesele fiziologice elementare ale vieții,
 la fel ca și celulele mai complicate. O bacterie mănâncă,
 digeră, respiră, excretă deșeuri și are chiar și procese de
@@ -3186,7 +3047,6 @@ din prelegerile mele, studenții din public, care repetau
 cursul, m-au întrebat ce am făcut cu el!
 Iată un experiment ușor, ca să vă arăt cum funcțio-
 nează membrana „sandviș". Faceți un sandviș cu pâine
-99
 
 Bruce H. Lipton, J'h.D
 cu unt (deocamdată, fără măsline). Acest sandviș reprez-
@@ -3215,7 +3075,6 @@ treacă prin barieră, pentru că, în analogia mea cu sandvi-
 șul, vopseaua este un aliment care susține viața Dacă
 7 00
 
-Biologia credinței
 membrana ar fi un simplu sandviș cu pâine cu unt, ea ar
 asigura o barieră ca de fortăreață, care ar ține la distanță
 amestecul de nenumărate semnale moleculare și de
@@ -3248,7 +3107,6 @@ găturile dintre moleculele polarizate au sarcini pozitive
 pozitive și negative ale acestor molecule le fac să se com-
 porte ca niște magneți, care atrag sau resping alte mole-
 cule încărcate.
-101
 
 Bruce H. Lipton, J'h.D
 Micrografie la microscopul electronic, ce pre-
@@ -3273,7 +3131,6 @@ acțiune între moleculele polarizate și cele nepolarizate,
 gândiți-vă la sticla de dressing italian pentru salată, din
 7 02
 
-Biologia credinței
 frigider. Faceți tot ce puteți să agitați sticla, pentru ca
 uleiul și oțetul să se amestece, dar când lăsați sticla jos, ele
 se separi Asta pentru că moleculele - ca și oamenii -
@@ -3306,7 +3163,6 @@ ale celulei sunt formate din molecule polarizate și încăr-
 cate, care nu ar putea să treacă peste formidabila barieră
 nepolarizată, de lipide. La fel, nici celula nu ar putea să-și
 elimine reziduurile polarizate.
-03
 
 Bruce H. Lipton, Ph.D
 Proteine integrale
@@ -3340,9 +3196,7 @@ zate, iar altele sunt nepolarizate, catena de proteină se va
 Există multe proteine integrale de membrană, care
 au multe nume diferite, însă ele pot fi subîmpărțite în
 două grupe funcționale: proteine receptoare și proteine
-104
 
-Biologia credinței
 efectoare. Proteinele receptoare sunt organele de simț
 ale celulei, echivalentul ochilor, urechilor, nasului, al pa-
 pilelor noastre gustative etc. Receptorii funcționează ca
@@ -3375,7 +3229,6 @@ gen legate într-o angrenare perfectă, sarcina electro-
 magnetică a receptorului se schimbă, iar proteina trece
 la conformația ei activă. La fel, receptorii de histamine
 sunt complementari cu forma moleculelor de hista-
-105
 
 bruce H. Lipton, Ph.D
 mine, iar receptorii de insulina sunt complementari cu
@@ -3410,9 +3263,7 @@ reflexă pe care o testează doctorii de obicei, la consulta-
 Atunci când doctorul te lovește cu un ciocănel în
 genunchi, un nerv senzorial preia semnalul. Acest nerv
 transmite imediat informația la un nerv motor, care face
-106
 
-Biologia credinței
 piciorul să se miște. Receptorii membranei sunt echiva-
 lentul nervilor senzoriali, iar proteinele efectoare sunt
 echivalentul nervilor motori care generează acțiunea,
@@ -3445,7 +3296,6 @@ noastre. (A se vedea ilustrația de la pagina 102.) Atunci
 când sarcina electrică a proteinei este modificată, pro-
 teina își schimbă forma, iar această schimbare creează
 un canal, care se deschide prin centrul proteinei. De
-107
 
 Bruce H. Lipton, Ph.D
 fapt, proteinele canal sunt ca două măsline într-una sin-
@@ -3480,9 +3330,7 @@ mii de astfel de proteine în fiecare celulă. Pe măsură ce
 aceste proteine trec prin sute de cicluri pe secundă, in-
 teriorul celulei se încarcă negativ, pe când exteriorul se
 încarcă pozitiv.
-108
 
-Biologia credinței
 Sarcina negativă de sub membrană este cunoscută
 sub denumirea de potențialul membranei. Desigur, lipi-
 dele, adică partea de „unt" a membranei, nu lasă atomii
@@ -3512,7 +3360,6 @@ nalele de mediu preluate de receptorii membranei, sunt
 cele care controlează informația „afișată" de gene, astfel
 încât proteinele uzate să poată fi înlocuite, sau să poată fi
 create noi proteine.
-109
 
 Bruce H. Lipton, Ph.D
 Cum funcționează creierul
@@ -3546,9 +3393,7 @@ Pentru a prezenta un comportament „inteligent",
 celulele au nevoie de o membrană funcțională, care să
 aibă atât proteine receptoare (de conștiență), cât și pro-
 teine efectoare (de acțiune). Aceste complexe de pro-
-110
 
-Biologia credinței
 teine sunt unitățile fundamentale ale inteligenței celu-
 lare. Tehnic, le putem considera unități de „percepție".
 Definiția percepției este: „conștiența asupra ele-
@@ -3581,7 +3426,6 @@ cută toate funcțiile fiziologice fundamentale ale orga-
 nismului - inclusiv digestia, respirația și excreția. Mai
 târziu, în evoluție, porțiuni din membrană, care execută
 aceste funcții fiziologice, se deplasează în interior și for-
-111
 
 Bruce H. Lipton. t'h.V
 mează organelele membranoase, care sunt caracteris-
@@ -3616,7 +3460,6 @@ lulele au inventat un alt mod de a-și mări gradul de con-
 put să se lege unele cu altele, pentru a forma comunități
 pluricelulare, prin care să poată avea o conștiență co-
 mună, așa cum am explicat în Capitolul 1.
-112
 
 oioiogia creainței
 Ca să recapitulăm: funcțiile necesare unui orga-
@@ -3651,7 +3494,6 @@ organismelor unicelulare este un mod instructiv de a
 studia organismele pluricelulare complicate.
 Chiar și organul omenesc cel mai complex, creie-
 rul, își va dezvălui secretele mai repede, atunci când vom
-273
 
 ,1/iUWW < i> ui^/IVIV * II. LS
 ști cât mai mult cu putință despre membrană - echiva-
@@ -3683,9 +3525,7 @@ tem de prelucrare a informațiilor. Atunci am avut un mo-
 ment de revelație ce m-a transformat nu într-un cristal, ci
 într-un biolog concentrat pe membrană, care nu mai
 avea niciun fel de scuze ca să-și rateze viața
-114
 
-Biologia credinței
 La ora aceea timpurie a dimineții, îmi redefineam
 modul în care înțelegeam organizarea structurală a mem-
 branei. Am pornit de la moleculele de fosfolipide, care
@@ -3718,7 +3558,6 @@ branei, am scris: „Membrana este un cristal lichid".
 Apoi am început să mă gândesc că o membrană
 care ar avea numai fosfolipide ar fi, pur și simplu, un
 sandviș de pâine cu unt, fără măsline. în experimentul
-115
 
 Bruce H. Lipton, Ph.D
 descris mai devreme, vopseaua colorată nu ar trece prin
@@ -3753,9 +3592,7 @@ calculator - un Macintosh nou, zâmbitor. Lângă el se afla
 o carte de un roșu strălucitor, cu tidul Să înțelegem un
 microprocesor. Tocmai cumpărasem ghidul acesta de
 buzunar, despre cum funcționează calculatoarele. Am
-116
 
-Biologia credinței
 luat cartea și, în introducere, am găsit o definiție a unui
 cip de calculator, care spunea așa: „Un cip este un semi-
 conductor de cristal, care are porți și canale".
@@ -3788,7 +3625,6 @@ cip de calculator cu afișaj digital.
 Și care-i treaba, întrebați voi?
 Faptul că membrana celulară și un cip de calcula-
 tor sunt omoloage înseamnă că este potrivit și instructiv
-227
 
 Bruce H. Lipton, Ph.D
 să înțelegem mai bine cum lucrează celula, comparând-o
@@ -3823,9 +3659,7 @@ fel cum și Copernicus fusese pregătit ca astronom axat
 pe planeta Pământ, astfel încât mi-au trebuit oarece hur-
 ducături, până mi-am dat seama că nucleul care conține
 genele nu programează celula.
-8
 
-Biologia credinței
 Datele sunt introduse în celulă/calculator prin inter-
 mediul receptorilor membranei, care reprezintă „tas-
 tatura" celulei. Receptorii declanșează proteinele efec-
@@ -3858,7 +3692,6 @@ acest savant nebun, în delir, care tulbura cu sălbăticie tă-
 cerea bibliotecii adormite. Imediat am început să-mi re-
 vărs noua revelație despre celule, folosind jargonul com-
 plex și polisilabic al unui biolog obișnuit, specialist în
-119
 
 Bruce H. Lipton, Ph.D
 biologie celulari Când mi-am terminat explicația și am
@@ -3892,10 +3725,7 @@ ceva incitant pentru mine, însă nu ar fi fost ceva care să
 mă trimită în goană la bibliotecă, strigând în gura mare.
 Momentul din Caraibe nu numai că m-a transformat în-
 tr-un biolog orientat pe membrani dar m-a transformat
-720
-i
 
-Biologia credinței
 și dintr-un om de știință agnostic, într-un mistic deplin^
 care crede că viața eternă transcende corpul. /
 în Epilog, am să ajung la partea spirituală a poveștii. /
@@ -3912,7 +3742,6 @@ Atunci când înțelegem modul în care proteinele j
 integrale de membrană, controlează sistemele biolo- '
 gice, devenim stăpâni ai propriului destin - și nu vie- )
 time ale genelor noastre.
-121
 
 NOUA FIZICĂ: CU AMÂNDOUĂ
 PICIOARELE FERM... ÎN AER
@@ -3938,9 +3767,7 @@ ci minunate, cu care să agăț fetele la petreceri. în zilele
 cântăreților Sonny și Cher, ar fi fost tres chic să spui:
 „Bună, dragă. Eu mă ocup de fizica cuantică - tu în ce zo-
 die ești născută?" Pe de altă parte, s-ar putea ca asta să nu
-122
 
-Biologia credinței
 fie adevărat. N-am văzut niciodată fizicieni specialiști în
 fizica cuantică la petreceri - și, de fapt, niciunde altun-
 deva. Nu cred că ies prea mult în lume.
@@ -3973,7 +3800,6 @@ nucleu și m-am aplecat asupra membranei - tot nu am
 înțeles pe deplin implicațiile acestei treceri. Știam că
 proteinele integrale de membrană se cuplează cu sem-
 nalele de mediu, pentru a alimenta celula. însă, pentru
-123
 
 Bruce H. Lipton, Ph.D
 că nu știam nimic despre universul cuantic, nu aveam o
@@ -4008,7 +3834,6 @@ director răspunzând: „Da, este aici". Am privit în sus, la
 clipa aceea, din cele mai întunecate străfunduri ale vieții
 mele - și am văzut cum telefonul îmi era întins mie. Era
 facultatea de medicină din Caraibe, care mă angajase cu
-124
 
 Biologia credinței.
 doi ani în urmă. Președintele școlii petrecuse două zile
@@ -4041,7 +3866,6 @@ luat-o la goană prin aglomerație, către o librărie. Sarcina
 de a alege o carte din sute de opțiuni, în timp ce vizuali-
 zam posibilitatea ca ușile avionului meu să se închidă și
 să mă lase pe dinafară, aproape că m-a paralizat. într-o
-125
 
 ui ULCT ii. LiyiLUl, 111.LJ
 stare de confuzie, mi-a sărit în ochi o carte, The Cosmic
@@ -4075,9 +3899,7 @@ că fizica cuantică ar avea vreo legătură cu biologia - ști-
 ința organismelor vii. Când avionul a ajuns la Paradise,
 eram într-o stare de șoc intelectual. Mi-am dat seama că
 " Codul cosmic: Fizica cuantică, limbajul naturii, n.t.
-126
 
-Biologia credinței.
 fizica cuantică are legătură cu biologia - și că biologii
 comit o greșeală științifică grosolană, ignorându-i legile.
 La urma urmei, fizica este baza tuturor științelor, deși noi,
@@ -4110,7 +3932,6 @@ Desigur că, pe când mă aflam la catedra facultății de
 medicină, nu luasem în considerare nimic din toate aces-
 tea. Colegii mei și cu mine ne învățam studenții să nu țină
 seama de pretențiile de vindecare atribuite acupunc-
-127
 
 Bruce H. Lipton lJhD
 turii, chiropracticii, terapiei prin masaj, rugăciunii etc.
@@ -4145,7 +3966,6 @@ putul secolului al douăzecilea, a apărut un nou tip de fi-
 zicieni, a căror misiune era să sondeze relația dintre
 U8
 
-Biologia credinței.
 energie și structura materiei. După încă zece ani, fizicienii
 și-au abandonat credința în universul newtonian material,
 deoarece au ajuns să înțeleagă că universul nu este făcut
@@ -4178,7 +3998,6 @@ la școală - cele care aveau mărgele și rulmenți și se în-
 vârteau ca un sistem solar? Să punem imaginea aceea ală-
 turi de structura „fizică" a unui atom, descoperită de fi-
 zicienii specialiști în fizica cuantică.
-129
 
 Bruce H. Lipton, Ph.D
 Nu, nu e o greșeală de tipar, atomii sunt făcuți din
@@ -4203,9 +4022,7 @@ de potențiale de tensiune și lungimi de undă ei prezin-
 tă calitățile și proprietățile energiei (unde). Faptul că
 energia și materia sunt unul și același lucru este exact lu-
 crul de care și-a dat seama Einstein, când a tras concluzia
-130
 
-Biologia credinței.
 că E=mc2. în cuvinte simple, această ecuație spune că:
 Energia (E) = Materia (m, masa) înmulțită cu viteza lu-
 minii (c) și apoi ridicată la pătrat. Einstein dezvăluia fap-
@@ -4236,7 +4053,6 @@ nării lor newtoniene și materialiste, cercetătorii conven-
 în plus, biologii convenționali sunt niște reducțio-
 niști, care cred că mecanismele corpului nostru fizic pot
 fi înțelese dacă luăm fiecare celulă individual și îi stu-
-131
 
 Bruce H. Lipton, Ph.D
 diem „cărămizile" chimice care o compun. Ei cred că
@@ -4271,9 +4087,7 @@ Pe de altă parte, fluxul de informație într-un uni-
 vers cuantic este holistic. Constituenții unei celule sunt
 întrețesuți într-o rețea complexă de comunicări încru-
 cișate, de bucle de comunicare cerere-răspuns (a se ve-
-132
 
-Biologia credinței.
 dea ilustrația de la pagina următoare). O disfuncție bio-
 logică poate să provină dintr-o eroare de comunicare, pe
 oricare dintre rutele fluxului informațional. Pentru a
@@ -4293,7 +4107,6 @@ funcționează boala în timp ce fizica cuantică implică
 existența unor astfel de căi informaționale interconec-
 Fluxul de informație
 Cuantic - Holistic
-133
 
 Bruce H. Lipton, Ph.D
 tate, cercetările recente și uluitoare în domeniul carto-
@@ -4310,7 +4123,6 @@ Factori de
 Domeniul
 zonei G
 Transcriere/
-traducere
 Helicaza
 ARN
 Harta de interacțiuni între o serie foarte mică
@@ -4321,9 +4133,7 @@ moleculelor de ARN. Proteinele înconjurate cu ovale
 sunt grupate după funcțiile specifice pe căile respec-
 tive. Liniile de legătură indică interacțiunile protei-
 ne-proteine. Interconexiunile dintre proteine de pe
-134
 
-Biologia credinței.
 căi diferite arată cum modificarea unei proteine
 poate avea „efecte secundare" profunde asupra ce-
 lorlalte căi. „Efectele secundare" și mai extinse pot fi
@@ -4357,7 +4167,6 @@ dicament este introdus în corp, pentru a trata proasta
 funcționare a unei proteine, medicamentul respectiv in-
 teracționează în mod inevitabil cu cel puțin una și, posi-
 bil, cu multe alte proteine.
-135
 
 prucen. Lipton, lJh.V
 Faptul că sistemele biologice sunt redundante com-
@@ -4392,9 +4201,7 @@ tanțare în pereții vaselor de sânge. Deschiderea acestor
 găuri în peretele vasului de sânge este primul pas în lan-
 sarea unei reacții inflamatorii la nivel local. însă dacă se
 adaugă histamină în vasele de sânge din creier, același
-136
 
-Biologia credinței.
 semnal histaminic mărește fluxul nutritiv către neuroni,
 îmbunătățindu-le creșterea și funcțiile specializate. în
 perioade de stres, fluxul nutritiv crescut, semnalat de
@@ -4427,7 +4234,6 @@ provocată de o iritație alergică, medicamentul ingerat
 este distribuit sistemic. El afectează receptorii de hista-
 mină, indiferent unde sunt localizați aceștia în corp. Da,
 antihistaminicul va struni reacția inflamatoare a vaselor
-137
 
 Bruce H. Lipton, Ph.D
 de sânge și va reduce considerabil simptomele alergice,
@@ -4462,9 +4268,7 @@ lor care contribuie la controversa legată de tratamentul
 cu hormoni, reprezintă motivul esențial pentru care una
 dintre cauzele principale ale mortalității sunt bolile ia-
 trogene, adică bolile rezultate în urma tratamentelor me-
-138
 
-Biologia credinței.
 dicale. Conform estimărilor conservatoare publicate în
 Journal of the American Medical Association, bolile
 iatrogene reprezintă cea de a treia cauză de deces în
@@ -4495,7 +4299,6 @@ punctura, doctorii chinezi testează circuitele de energie
 ale pacienților, la fel cum un inginer electrician „depa-
 nează" un panou de circuite, căutând „situații patolo-
 gice", în rețelele electrice.
-139
 
 ui uic n. uipion, i'tuU
 Doctorii: Țapii ispășitori
@@ -4529,9 +4332,7 @@ acela de ca „în primul rând, să nu faci rău". Corporațiile
 farmaceutice ne-au programat să devenim o națiune de
 drogați care iau medicamente prescrise pe rețetă, cu re-
 zultate tragice. Trebuie să ne dăm un pas înapoi și să in-
-140
 
-Biologia credinței.
 corporăm descoperirile fizicii cuantice în biomedicină,
 astfel încât să putem crea un nou sistem medical, mai
 sigur, care să fie acordat la legile Naturii.
@@ -4562,7 +4363,6 @@ fizicii clasice.
 * Referire la A Day Late And A Dollar Short, albumul din
 1990 al trupei The Queers. [n.t., sursa Wikipedia], având și sensul
 de „ceva ce nu a fost suficient, ca să fie și folositor".
-141
 
 BruceH. Lipton, Ph.D
 Planetele încă se mai mișcă pe căile pe care le-a prezis
@@ -4597,9 +4397,7 @@ Nici biologii din zona tradițională nu au recunos-
 cut încă importanța cărții lui Szent-Gyorgyi, însă cerce-
 tările sugerează că, mai devreme sau mai târziu, vor fi ne-
 voiți să o facă, deoarece greutatea dovezilor științifice
-142
 
-Biologia credinței.
 răstoarnă vechea paradigmă materialistă. Vă amintiți de
 mișcările moleculelor de proteine, care alimentează
 viața? Oamenii de știință au încercat să prezică acele miș-
@@ -4632,7 +4430,6 @@ canismele moleculare care asigură viața cu adevărat
 impact profund asupra fiecărei fațete a reglementării
 biologice. Printre aceste energii se numără microun-
 dele, frecvențele radio, spectrul vizibil de lumină, frec-
-143
 
 Bruce H. Lipton, Ph.D
 vențele extrem de scăzute, frecvențele acustice și chiar
@@ -4667,9 +4464,7 @@ care poate fi transportată este legată direct de energia
 de care dispune o moleculă. însă cuplajul chimic folosit
 pentru transferul de informație al acestor semnale este
 însoțit de o pierdere masivă de energie, datorată căldurii
-144
 
-Biologia credinței.
 generate pentru stabilirea și ruperea legăturilor chimi-
 ce. Deoarece cuplarea termo-chimică folosește cea mai
 mare parte din energia unei molecule, cantitatea mică
@@ -4700,7 +4495,6 @@ nivelul fiziologiei și comportamentului, care variază de
 la o normă ipotetică, drept afecțiuni sau disfuncții indi-
 viduale, iar apoi informează publicul despre pericolele
 acestor afecțiuni amenințătoare. Desigur că simptoma-
-145
 
 BruceH. Lipton, Ph.D
 tologia super-simplificată, folosită în descrierea disfunc-
@@ -4735,9 +4529,7 @@ nalizatorul de la motor" clipea, deși mașina fusese deja
 multe ori. La 4.30, vineri după-amiază, cine vrea să lu-
 creze pentru a remedia o problemă și să se ocupe de un
 client furios? Toată lumea a rămas tăcută, cu excepția
-146
 
-Biologia credinței.
 unui mecanic, care a spus, „Mă ocup eu de ea". A dus ma-
 șina înapoi în atelier, a trecut în spatele bordului, a scos
 beculețul de la semnalizator și 1-a aruncat. Apoi și-a des-
@@ -4771,7 +4563,6 @@ cieni de terapii complementare, doctorii tradiționali nu
 mai pot să-și bage capul în nisip și să spere că aceste
 abordări diferite o să dispară Companiile de asigurări
 chiar au început să plătească pentru servicii pe care altă
-147
 
 Bruce H. Lipton, Ph.D
 dată le considerau șarlatanie, iar spitalele universitare
@@ -4804,9 +4595,7 @@ dispozitive, pentru a citi spectrele de energie emise de
 rile de energie se deplasează cu ușurință prin corpul
 omenesc, aceste dispozitive moderne, cum ar fi apa-
 ratele de tomografie CAT, MRI și PET, pot să detecteze
-148
 
-Biologia credinței.
 bolile? într-un mod neinvaziv. Doctorii pot diagnostica
 problemele interne, diferențiind caracterul energetic
 spectral al țesuturilor sănătoase și al celor bolnave, din
@@ -4828,7 +4617,6 @@ de la fiecare sursă pot să interfereze unele cu altele, for-
 mând valuri compuse, în care converg două sau trei
 unde. Această interferență poate să fie constructivă (să
 amplifice energia), sau distructivă (să o diminueze).
-149
 
 Bruce H. Lipton, Ph.D
 două unde se deplasează pe suprafața apei, una către
@@ -4853,7 +4641,6 @@ valurile se suprapun, puterea combinată a undelor care
 interacționează este dublată - fenomen numit și interfe-
 rență constructivă, sau rezonanță armonică. Atunci când
 aruncarea pietrelor nu este coordonată, undele lor ener-
-750
 
 getice sunt desincronizate. O undă merge în sus, iar cea-
 laltă coboară. La punctul de convergență, aceste unde de
@@ -4879,7 +4666,6 @@ vers. Așa cum se arată în figura 3, valorile de amplitu-
 dine ale fiecărei unde se anulează una pe cealaltă, ast-
 fel încât unda compusă va avea o amplitudine 0, adică
 nu va fi deloc un... val, ci va fi absolut plată!
-151
 
 Bruce H. Lipton, Ph.D
 Comportamentul undelor de energie este impor-
@@ -4914,9 +4700,7 @@ cristal, atomii cupei absorb undele sunetului produs de
 ea Prin mecanismul interferenței constructive, energia
 adunată a undelor de sunet în rezonanță fac atomii cu-
 pei să vibreze mai repede. în cele din urmă, atomii ab-
-152
 
-Biologia credinței.
 sorb atât de multă energie, încât vibrează suficient de ra-
 pid pentru a se elibera de legăturile care îi țin laolaltă.
 Când se întâmplă acest lucru, cupa explodează.
@@ -4949,7 +4733,6 @@ A fost o vreme când în medicină se folosea foarte
 mult electroterapia. La sfârșitul secolului al nouăspreze-
 celea, dezvoltarea bateriilor și a altor dispozitive care
 produc câmpuri electromagnetice a dus la construirea
-153
 
 Bruce H. Lipton, Ph.D
 unor mașinării de vindecat Publicul căuta practicieni ai
@@ -4984,9 +4767,7 @@ nume. Radioesteziștii au dispărut de tot
 în ultimii patruzeci de ani, chiropractica a avansat
 foarte mult, între cadrul artelor vindecării. în 1990, chi-
 ropracticienii au câștigat o bătălie prelungă la tribunal
-154
 
-Biologia credinței.
 împotriva monopolului medical, atunci când Asociația
 Medicală Americană a fost declarată vinovată de tenta-
 tive ilegale de a distruge profesiunea chiropracticii. De
@@ -5019,7 +4800,6 @@ secundare decât medicamentele. însă cercetările nu vor
 face decât să confirme ceea ce savanții și ne-savanții
 „știu" deja, dar poate că nu-și dau seama că știu: toate or-
 ganismele, inclusiv organismul uman, comunică și își ci-
-155
 
 Bruce H. Lipton, Ph.D
 tesc mediul, evaluând câmpuri de energie. Pentru că oa-
@@ -5054,9 +4834,7 @@ mea, treceam prin viață vrând-nevrând, cheltuind ener-
 gie în mod necugetat E ca și cum ai încălzi o casă, în
 toiul iernii, ținând ferestrele și ușile deschise. Am înce-
 put să închid ușile și ferestrele acelea, analizând atent
-156
 
-Biologia credinței.
 unde îmi risipeam energia. îmi era ușor să le închid pe
 unele dintre ele. De exemplu, era ușor să scap de activi-
 tăți consumatoare de energie, cum erau petrecerile ace-
@@ -5075,7 +4853,6 @@ me de când revoluția cuantică în biologie este așteptată
 - dar e aproape. în cele din urmă, instituția medicală va
 fi atrasă cu toată forța - chiar dacă va da din picioare și
 va țipa - în revoluția cuantică.
-157
 
 în 1952, un tânăr doctor britanic a făcut o greșeală.
 Era o greșeală care avea să-i aducă Dr. Albert Mason, pen-
@@ -5100,9 +4877,7 @@ son că băiatul nu suferea de negi, ci de o boală genetică
 letală, numită ihtioză congenitală. Anulând simptomele
 „doar" prin puterea minții, Mason și băiatul reușiseră
 ceea ce, până la acea vreme, fusese considerat imposibil.
-758
 
-Biologia credinței.
 Mason a continuat ședințele de hipnoză, cu rezultatul
 absolut uimitor, că toată pielea băiatului a ajuns să arate
 la fel ca și brațul sănătos și roz de după prima ședință. Bă-
@@ -5134,7 +4909,6 @@ tamentul respectiv să afecteze rezultatul acestuia? Noua
 Biologie sugerează câteva răspunsuri la aceste întrebări.
 Am văzut în capitolul anterior că materia și biologia sunt
 întrețesute. Corolarul logic este că mintea (energie) și
-159
 
 Bruce H. Lipton, Ph.D
 corpul (materie) sunt și ele legate în același fel, deși me-
@@ -5168,9 +4942,7 @@ imaterială Gândurile - energia minții - influențează di-
 Ryle, filozof englez, descrie dualismul minte-corp, din gândirea
 lui Rene Descartes. Sintagma a fost folosită în cartea (Conceptul
 minții), scrisă în 1949. n. tr.
-160
 
-Biologia credinței.
 rect modul în care creierul fizic controlează fiziologia
 corpului. „Energia" gândurilor poate activa sau inhiba
 proteinele producătoare de funcții ale celulelor, prin me-
@@ -5203,7 +4975,6 @@ Din păcate, oamenii de știință mai degrabă neagă,
 decât să analizeze excepțiile. Exemplul meu favorit de
 negare științifică a realității interacțiunilor minte-corp
 se referă la un articol care a fost publicat în revista
-161
 
 Bruce H. Lipton, Ph.D
 Science, despre doctorul german Robert Koch, din seco-
@@ -5238,9 +5009,7 @@ teorie; pur și simplu, excepțiile înseamnă că teoria nu
 este întru totul corectă
 Un exemplu actual de realitate, care pune la încer-
 care credințele bine stabilite ale științei, are legătură cu
-162
 
-Biologia credinței.
 vechea practică religioasă a mersului pe foc Cercetătorii
 se adună ca să împingă și mai departe granițele tărâmuri-
 lor conștienței convenționale, pășind pe covoare de căr-
@@ -5271,7 +5040,6 @@ tările mele legate de celule mi-au dezvăluit revelații
 despre rețeaua de căi minte-corp din organismul nostru,
 trebuie să specific foarte clar faptul că nu cred că doar
 gândind, pur și simplu, nișțej>âiiduri poziîive^sejJoate
-163
 
 Bruce H. Lipton, Ph.D
 ajunge la vindecări fizice. Este nevoie de ceva mai mult
@@ -5306,9 +5074,7 @@ portamental stocat în mintea subconștientă.
 în ceea ce privește pura capacitate de procesare
 11 neurologică mintea subconștientă este de milioane de
 11 ori mai puternică decât mintea conștientă. Dacă dorin-
-164
 
-Biologia credinței.
 țele minții conștiente sunt în conflict cu programele din
 mintea subconștierită - care „minte7' credeți că o să în-
 vingă? "Puîețîsă repetâți la nesfârșit afirmația pozitivă că
@@ -5339,7 +5105,6 @@ dintre semnalele de mediu și proteinele din citoplasmă
 care produc comportamente este membrana celulei.
 Membrana primește stimulii și apoi angrenează reacțiile
 celulare corespunzătoare, care susțin viața Membrana
-165
 
 Bruce H. Lipton, Ph.D
 celulei funcționează ca „creier" al acesteia. Proteinele in-
@@ -5373,9 +5138,7 @@ tr-o populație dispersată de organisme unicelulare. Se-
 cretarea de molecule de semnal în mediu a îmbunătățit
 supraviețuirea organismelor unicelulare, dându-le oca-
 zia să trăiască sub forma unor „comunități" primitive.
-166
 
-Biologia credinței.
 Ameobele unicelulare din mucegaiul mucilaginos
 ne oferă un exemplu al modului în care moleculele de
 semnal duc la formarea unei comunități. Aceste ameobe
@@ -5408,7 +5171,6 @@ tre cele mai timpurii forme de semnale regulatoare se-
 cretate, care controlează comportamentul celular din
 procesul de evoluție. înainte se credea că moleculele
 esențiale de semnal ale omului (adică hormonii, neu-
-167
 
 Bruce H. Lipton, Ph.D
 ropeptidele, citokinele, factorii de creștere), care ne
@@ -5443,9 +5205,7 @@ bere erau folosite și în aceste comunități închise, nou
 apărute. Prin reglementarea strictă a eliberării și distri-
 buirii acestor molecule-semnal cu rol de control asupra
 funcțiilor, comunitatea celulară își putea coordona func-
-168
 
-Biologia credinței.
 țiile și putea acționa ca o singură formă de viață. La orga-
 nismele pluricelulare mai primitive, care nu au un sis-
 tem nervos specializat, fluxul acestor molecule-semnal
@@ -5478,7 +5238,6 @@ de a organiza fluxul moleculelor-semnal regulatoare de
 comportament Aceste celule au asigurat o rețea de
 nervi și un procesor central de informație - un creier.
 Funcția creierului este să coordoneze dialogul molecu-
-169
 
 Bruce H. Lipton, Ph.D
 lelor-semnal, în cadrul comunității. Ca urmare, într-o
@@ -5511,9 +5270,7 @@ omenesc și își dădea seama de mecanismele creierului
 celulei. în Molecules of Emotion*, Pert dezvăluie cum
 studiul ei asupra receptorilor din membrana celulei,
 prin care se prelucrează informația, a condus-o la desco-
-170
 
-Biologia credinței.
 perirea că aceiași receptori de tip „neuronal" sunt pre-
 zenți în majoritatea celulelor corpului - dacă nu în
 toate. Experimentele ei au stabilit că „mintea" nu este
@@ -5545,7 +5302,6 @@ hărăzite să răspundă la o varietate din ce în ce mai mare
 de semnale din mediul extern. Dacă celulele individuale
 pot reacționa la percepții senzoriale simple - cum ar fi
 * Moleculele emoției, n.t
-171
 
 Bruce H. Lipton, Ph.D
 roșu, rotund, aromat, dulce - puterea suplimentară dis-
@@ -5582,7 +5338,6 @@ de învățare condiționată, căile neuronale între stimulii
 declanșatori și reacțiile comportamentale se" "cablează",
 J 72
 
-Biologia credinței.
 pentru a asigura un tipar j;epețițiv. Căile cablate sunt
 „obiceiuri". La animalele inferioare, întregul creier este
 proiectat pentru a se angaja în reacții pur de rutină la
@@ -5614,7 +5369,6 @@ conștient, să modlflce pfogjramul. Putem să alegem, în
 mod constructiv, currrsă răspundem la majoritatea sem-
 nâlelor din mediu și dacă vrem să reacționăm sau nu.
 Capacitatea minții conștiente de a anula comporta-
-174
 
 Bruce H. Lipton, Ph.D
 , i mentele pre-programate ale minții subconșțiente este
@@ -5651,8 +5405,6 @@ minții subconștiente e foarte părtinitor când e vorba
 despre descărcarea rapidă și scoaterea în evidență a per-
 I 74
 
-V
-Biologia credinței
 cepțiilor cu privire la lucrurile din mediu care vă ame-
 nință viața și integritatea. Dacă ați fost învățați că șerpii
 sunt periculoși, de fiecare dată când în apropierea voas-
@@ -5685,7 +5437,6 @@ dorim... odată ce am rezolvat cu puternică minte sub-
 conștientă, despre Care voi discuta mai în profunzime,
 în Capitolul 7. Nu suntem legați pe vecie de genele sau
 comportamentele noastre de autoapărare!
-175
 
 Bruce H. Lipton, Ph.D
 Cum controlează mintea, corpul
@@ -5719,9 +5470,7 @@ similară comportamentului culturilor de celule care se
 găsesc în prezența substanțelor nutritive.
 în continuare, am aflat că adrenalina - care este
 semnalul de reacție de urgență dat de întregul corp - are
-176
 
-Biologia credinței.
 și ea comutatoare dotate cu două tipuri de receptori de
 adrenalină, numiți alfa și beta. Receptorii de adrenalină
 provoacă exact aceleași comportamente celulare ca și
@@ -5754,7 +5503,6 @@ mintea (adică, cea care acționează prin intermediul adre-
 nalinei din sistemul nervos central) anulează corpul
 (care acționează prin semnalul local de histamină) Am
 vrut să expun implicațiile experimentelor mele în ra-
-177
 
 Bruce H. Lipton, Ph.D
 portul de cercetare:, dar colegii mei aproape că au murit
@@ -5787,9 +5535,7 @@ percepțiile noastre, fie că sunt corecte sau incorecte, au
 cât și asupra corpului nostru.
 Astfel că salut efectul credință, ca pe o mărturie ui-
 mitoare a capacității de vindecare a corpului/minții. Cu
-178
 
-Biologia credinței.
 toate acestea, medicina tradițională a legat efectul place-
 bo - „totul e în mintea lor" - în cel mai rău caz de em-
 pirism, sau, în cel mai bun caz, de sugestibilitatea și slăbi-
@@ -5822,7 +5568,6 @@ parte atât de neglijent în medicină nu e doar rezultatul
 unei gândiri dogmatice, ci și al unor considerente finan-
 ciare. Dacă puterea minții voastre poate vindeca un corp
 bolnav,"dece sămefgețTla doctor și - mai important -
-179
 
 Bruce H. Lipton, Ph.D
 de ce să mai cumpărați medicamente? De fapt, m-a întri-
@@ -5857,9 +5602,7 @@ decare a efectului placebo - s-au făcut mai bine cu acele
 tratamente. în lumea de azi, când un doctor îmbrăcat cu
 halat alb aplică medicația cu o atitudine plină de autori-
 tate, pacienții pot să creadă că tratamentul funcționează
-180
 
-Biologia credinței.
 - și chiar așa se și întâmplă, fie că este vorba de un
 medicament adevărat, sau de o pastilă de zahăr.
 Deși, în mare, medicina a ignorat modul în care
@@ -5892,7 +5635,6 @@ iar apoi vorbea și se comporta ca și cum ar fi fost într-o
 operație - chiar stropea cu apă sărată într-un vas, pentru
 a simula sunetul procedurii de spălare a genunchiului.
 După patruzeci de minute, Moseley sutura inciziile, la fel
-181
 
 Bruce H. Lipton, Ph.D
 cum ar fi făcut și în cazul unei intervenții chirurgicale
@@ -5927,9 +5669,7 @@ Alte studii au arătat puterea efectului placebo și în
 tratarea altor boli, printre care astmul și boala Parkin-
 son. Tratamentele placebo sunt vedete între tratamen-
 tele pentru depresie, în așa măsură, încât psihiatrul Wal-
-182
 
-Biologia credinței.
 ter Brown, de la Facultatea de Medicină a Universității
 Brown, a propus pastilele placebo, ca prim tratament
 pentru pacienții cu depresie ușoară sau moderată. Pa-
@@ -5962,7 +5702,6 @@ tratament, a Asociației Psihologice Americane, sub titlul
 „Noile medicamente ale împăratului", profesorul de psi-
 hologie Irving Kirsch, de la Universitatea Connecticut, a
 descoperit că optzeci la sută din efectul antidepresive-
-183
 
 Bruce H. Lipton, Ph.D
 lor, măsurat în testele clinice, ar putea fi atribuit efectu-
@@ -5997,9 +5736,7 @@ designer de interior și care a participat la testele clinice
 pentru eficacitatea medicamentului Effexor, în 1997, a
 fost la fel de „uimită" ca și Perez, când a aflat că lua pas-
 tile placebo. Nu numai că pastilele o scăpaseră de depre-
-184
 
-Biologia credinței.
 sia care o chinuise vreme de peste treizeci de ani, dar to-
 mografiile făcute pe durata studiului au arătat că activi-
 tatea cortexului ei în zona prefrontală se îmbunătățise
@@ -6030,7 +5767,6 @@ efectele negative se numesc efectul nocebo.
 în medicină, efectul nocebo poate fi la fel de puter-
 nic ca și efectul placebo - un lucru pe care ar trebui să-1
 țineți minte, de fiecare dată când intrați în cabinetul
-185
 
 Bruce H. Lipton, Ph.D
 unui doctor. Prin cuvintele și prin comportamentul lor,
@@ -6065,9 +5801,7 @@ va pete pe ficat și una pe plămân, dar nu era nici urmă de
 cancerul la esofag, despre care toată lumea credea că îl
 omorâse. Meador a declarat pentru Discovery Health: „A
 murit de cancer, dar nu avea cancer". De ce murise
-186
 
-Biologia credinței.
 Londe, dacă nu avea cancer la esofag? Oare murise, întru-
 cât credea că avea să moară? Cazul încă îl bântuia pe Mea-
 dor, la treizeci de ani după moartea lui Londe: „Credeam
@@ -6100,7 +5834,6 @@ tic - unele roșii și unele verzi. îi cer publicului să aleagă
 o culoare și apoi să privească prin filtru, la un ecran alb.
 Apoi le cer să spună cu voce tare, dacă imaginea pe care
 o proiecte/ pe ecran generează iubire, sau frică.
-187
 
 Bruce H. Lipton, Ph.D
 Cei care privesc prin filtrul roșu de „credințe" văd o
@@ -6135,9 +5868,7 @@ fost Buddha și Iisus ne spun aceeași poveste, de mii de
 ani încoace. Acum, știința arată și ea în aceeași direcție.
 Nu genele, ci credințele noastre sunt cele care ne con-
 trolează viața...
-188
 
-Biologia credinței.
 Da, dragele noastre credințe!
 Gândul acesta ne face o intrare bună în capitolul
 următor, în care voi detalia în ce fel, a trăi în iubire și a
@@ -6156,7 +5887,6 @@ Cuvintele tale devin acțiunile tale,
 Acțiunile tale devin obiceiurile tale,
 Obiceiurile tale devin valorile tale,
 Valorile tale devin destinul tău.
-189
 
 Evoluția ne-a oferit o mulțime de mecanisme de su-
 praviețuire. în linii mari, acestea pot fi împărțite în două
@@ -6181,9 +5911,7 @@ unde observațiile mele asupra celulelor individuale m-au
 condus, de atâtea ori, la revelații profunde despre cor-
 pul pluricelular al omului. Atunci când clonam celule
 endoteliale omenești, acestea se retrăgeau din calea to-
-190
 
-Biologia credinței.
 xinelor pe care le introduceam în vasul de cultură, la fel
 cum oamenii se dau la o parte din calea leilor din savană
 și a hoților, pe aleile întunecate. De asemenea, celulele
@@ -6216,7 +5944,6 @@ zinte ambele configurații, în același timp.
 Printr-o reacție similară cu cea manifestată de ce-
 lule, oamenii își restricționează, în mod inevitabil, com-
 portamentele de dezvoltare, atunci când trec pe modul
-191
 
 Bruce H. Lipton, Ph.D
 de protecție. Dacă fugi de un leu, nu e o idee prea bună
@@ -6251,9 +5978,7 @@ protecție la organismele pluricelulare nu este o propozi-
 de celule ale noastre trebuie să aibă, în același timp, atât
 funcția de .dezvoltare', cât și cea de «protecție». Propor-
 ția de celule implicate într-o reacție de protecție depin-
-192
 
-Biologia credinței.
 de de gravitatea amenințărilor percepute. Puteți supra-
 viețui cu stresul acestor amenințări, însă inhibarea croni-
 că a mecanismelor de creștere vă compromite serios vi-
@@ -6285,7 +6010,6 @@ HPS - adică axa hipotalamus-pituitară-suprarenale.
 Atunci când nu există nicio amenințare, axa HPS este
 inactivă, iar creșterea ește înfloritoare. însă atunci când
 hipotalamusul percepe o amenințare în mediu, acesta
-193
 
 Bruce H. Lipton, Ph.D
 I mobilizează axa HPS, prin trimiterea unui semnal la
@@ -6322,7 +6046,6 @@ cotropinei. n. tr.
 ** hormon secretat de glanda pituitară. n. tr.
 7 94
 
-Biologia credinței.
 Odată ce a sunat alarma suprarenalei, hormonii de
 stres eliberați în sânge produc contractarea vaselor de
 sânge ale tractului digestiv, obligând sângele aducător
@@ -6337,7 +6060,6 @@ de sânge, organele viscerale nu pot să funcționeze cum
 trebuie. Viscerele își încetează lucrarea de sprijinire a
 vieții, prin digestie, absorbție, excreție și alte funcții care
 asigură creșterea celulelor și producerea rezervelor de
-195
 
 Bruce H. Lipton, Ph.D
 energie ale corpului. Astfel, reacția de stres inhibă pro-
@@ -6372,9 +6094,7 @@ rea mobilizării energiei pentru fuga necesară supravie-
 țuirii unei întâlniri cu leul. Ca urmare, o consecință secu-
 ndară a angajării axei HPS este aceea că această activare
 interferează cu capacitatea noastră de a învinge bolile.
-196
 
-Biologia credinței.
 Activarea axei HPS interferează și cu capacitatea
 noastră de a gândi cu claritate. Prelucrarea informației
 în partea anterioară a creierului, care este centrul rațiu-
@@ -6405,7 +6125,6 @@ picat la testul pe care îl dădusem - echivalentul din fac-
 ultatea de medicină, al unui leu fioros? Dacă studenții
 mei ar fi rămas înghețați în frică, vă pot garanta că la
 testele finale ar fi răspuns deplorabil. Adevărul este sim-
-197
 
 Bruce H. Lipton, Ph.D
 piu: când ți-e frică, ești mai prost. Profesorii văd asta tot
@@ -6440,9 +6159,7 @@ aceștia se ridică în vârful degetelor. Atunci când trec în
 modul: „Fiți gata", corpul lor eliberează adrenalina - hor-
 monul care stimulează fuga și le alimentează mușchii,
 pentru sarcina grea ce îi așteaptă. în timp ce atleții aș-
-198
 
-Biologia credinței.
 teaptă comanda „Start", corpurile lor se tensionează, an-
 ticipând această sarcină. La o cursă normală, tensiunea
 aceasta durează doar o secundă sau două, înainte să se
@@ -6475,7 +6192,6 @@ prinzătoare a procesului de diviziune celulară, în regiu- j
 nea creierului numită hipocampus - o parte a sistemu- •
 Iui nervos care este implicată în procesele de memorie.
 Celulele din hipocampus își reluau diviziunea celulară,
-199
 
 Bruce H. Lipton, Ph.D
 atunci când pacienții începeau să simtă efectul de
@@ -6510,9 +6226,7 @@ contribuie la creșterea comunității, și, de obicei, se înțe-
 leg bine unii cu alții. Fabricile produc cu sârguință, cons-
 tructorii ridică locuințe noi, băcăniile vând alimente, iar
 copiii sunt la școală și învață. Comunitatea este într-o
-200
 
-Biologia credinței.
 stare bună de sănătate și dezvoltare, iar membrii ei inte-
 racționează în mod constructiv, angajați pentru un
 obiectiv comun.
@@ -6545,7 +6259,6 @@ dea dincolo de hotarele orașului New York la toată nați-
 unea, am trăit o amenințare la adresa supraviețuirii noas-
 tre. Impactul proclamațiilor guvernului, care subliniau
 prezența continuă a pericolului în urma atacului, a fost
-201
 
 Bruce H. Lipton, Ph.D
 ca și influența semnalelor de la suprarenale. Membrii
@@ -6579,7 +6292,6 @@ amenințării Războiului Mondial: „Nu avem de ce să ne
 fie frică de altceva, decât de frica însăși". Atunci când
 lăsăm fricile să plece, am făcut primul pas către crearea
 unei vieți mai împlinite și mai plină de satisfacții.
-203
 
 Părinții contează
 Fără îndoială că ați auzit seducătorul argument că,
@@ -6600,7 +6312,6 @@ lor nu am jucat niciun rol. La urma urmei, mă gândeam
 eu, au crescut în același mediu (cu aceeași educație), ast-
 fel că motivul pentru diferența dintre ele trebuia să fie
 natura (genele).
-203
 
 Bruce H. Lipton, Ph.D
 Acum știu că, în realitate, lucrurile stau cu totul alt-
@@ -6634,9 +6345,7 @@ rarea vieții copiilor lor. Sistemul nervos al fătului și al be-
 belușului are capacități senzoriale și de învățare foarte
 extinse, precum și un tip de memorie, pe care specialiștii
 * Viața secretă a copilului nenăscut, n.t.
-204
 
-Biologia credinței.
 în neurologie îl numesc memoriejmplicită. Un alt pio-
 nier în domeniul psihologiefprenâtale și perinatale, Da-
 vid Chamberlain, scrie în cartea sa, The Mind of Your
@@ -6668,7 +6377,6 @@ zice. Miopia genetică este termenul care descrie viziu-
 nea atotcuprinzătoare din prezent, în care sănătatea și
 " Mintea copilului tău nenăscut, n.t.
 " Viața intrauterină: Originea sănătății și a bolii, n.t
-205
 
 Bruce H. Lipton, Ph.D
 destinul în viață sunt controlate numai de genele noas-
@@ -6703,9 +6411,7 @@ de boli cronice la vârste mai înaintate, dacă un individ
 are parte de circumstanțe adverse din punct de vedere
 nutritiv și de mediu, în timpul perioadelor de dezvoltare
 prenatală și neonatală. [Bateson, et al, 2004]
-206
 
-Biologia credinței.
 Aceste influențe epigenetice continuă și după ce se
 naște copilul, deoarece părinții îi influențează, în contin-
 uare, mediul. Există studii recente fascinante, care sub-
@@ -6735,7 +6441,6 @@ motocicletă. Mergeam să țin un curs și am zburat din
 curbă, la viteză mare. Motocicleta a ajuns cu susul în jos.
 Din fericire, purtam cască, pentru că m-am lovit rău la
 * Mintea care se dezvoltă, n.t.
-207
 
 Bruce H. Lipton, Ph.D
 cap, când motocicleta m-a trântit la pământ Am rămas
@@ -6772,7 +6477,6 @@ catedră erau corecte. „Asta e o tâmpenie!" Apoi, chiro-
 practicianul m-a pus să întind brațul și să mă împotri-
 m
 
-Biologia credinței.
 vesc presiunii aplicate, în timp ce spun cu sinceritate:
 „Mă cheamă Mary". Spre uimirea mea, brațul mi s-a în-
 muiat, în ciuda rezistenței mele. „Stai un pic", am spus.
@@ -6805,7 +6509,6 @@ aflat că un chiropractician poate să acceseze puterea
 înnăscută de vindecare a corpului, folosind kineziolo-
 gia, pentru a rezolva deplasările de coloană. După numai
 câteva simple ajustări ale vertebrelor pe masa „șarlatanu-
-209
 
 Bruce H. Lipton, Ph.D
 lui", am fost în stare să ies din dormitor țopăind, simțin-
@@ -6840,9 +6543,7 @@ Organismele superioare pe scara evoluției au siste-
 me nervoase mai complexe, cu creiere din ce în ce mai
 mari, care le permit să dobândească tipare comporta-
 mentale complicate, prin învățarea din experiență (edu-
-210
 
-Biologia credinței
 cație). Complexitatea acestui mecanism de învățare ba-
 zat pe mediu culminează, se pare, cu oamenii, care se
 află în vârful scării - sau, cel puțin, aproape de vârf. Ca
@@ -6875,8 +6576,6 @@ mecanismele fiziologice ale corpului (adică, ritmul car-
 diac, presiunea sanguină, fluxul sanguin și caracteristi-
 cile de coagulare, temperatura corpului) sunt instincte
 programate. Cu toate acestea, yoghinii, precum și oame-
-i
-211
 
 Bruce H. Lipton, Ph.D
 nii obișnuiți care folosesc biofeedbackul pot să învețe să
@@ -6911,9 +6610,7 @@ metru. în cea mai mare parte, craniul său este plin de
 lichid cerebrospinaL"
 Constatările provocatoare ale lui Lorber sugerează
 că ar trebui să ne mai gândim la credințele noastre mai
-212
 
-Biologia credinței.
 vechi, despre modul în care funcționează creierul și des-
 pre baza fizică a inteligenței omenești. în epilogul aces-
 tei cărți, eu susțin că inteligența omenească poate fî înțe-
@@ -6944,7 +6641,6 @@ a creierului". Aceste imagini, din ce în ce mai sofisticate,
 dezvăluie o serie de activități a creierului la ființele uma-
 ne. Atât adulții, cât și copiii prezintă variațiuni ale
 ECGurilor, care se înscriu de la unde delta, de frecvență
-213
 
 Bruce H. Lipton, Ph.D
 joasă, până la unde beta, de frecvență înaltă. Cu toate
@@ -6978,9 +6674,7 @@ zare. Mediile omenești și moravurile sociale se schimbă
 atât de rapid, încât nu ar fi deloc avantajos să transmitem
 comportamente culturale, pe calea unor instincte pro-
 " Electroencefalograme cantitative și neurofeedback-ul, n.t
-214
 
-Biologia credinței.
 gramate genetic. Copiii mici își observă mediul înconju-
 rător cu atenție și descarcă de acolo, direct în memoria
 lor subconștientă, înțelepciunea despre lume pe care
@@ -7013,7 +6707,6 @@ noastra-subconștientă. Odată programate în mintea sub-
 conștient^ ele ne controlează sistemul biologic, pentru
 totjrestulvtețfî... în afară de cazul în care găsim un mod
 de a le reprograma. Dacă vă îndoiți de cât de sofisticat
-215
 
 Bruce H. Lipton, Ph.D
 este acest proces de descărcare a datelor, gândiți-vă la
@@ -7048,9 +6741,7 @@ conștiință calmă. Dacă cele măTmuIte dintre organele
 noastre de simț - cum ar fi ochii, urechile și nasul - ob-
 servă lumea exterioară conștiința seamănă cu un „organ
 de simț", care se comportă ca o oglindă ce reflectă lu-
-216
 
-Biologia credinței
 crările lăuntrice ale comunității celulare a corpului -
 este o conștiență de „sine".
 Pe la vârsta de doisprezece ani, spectrul ECG al co-
@@ -7117,9 +6808,7 @@ acționau automat la stimulii din mediu, angajând com-
 portamente programate genetic (instincte), sau com-
 portamente simple, învățate. Aceste animale nu au astfel
 de comportamente, în mod „conștient" - și, de fapt,
-218
 
-Biologia credinței.
 chiar s-ar putea să nici nu-și dea seama de ele. Com-
 portamentele lor sunt reflexe programate, cum este cli-
 pitul ca reacție la o pală de aer, sau zvâcnetul piciorului,
@@ -7150,7 +6839,6 @@ Cele două minți formează un duo dinamic. Cum
 ele funcționează împreună, mintea conștientă își poate
 folosi resursele, pentru a se concentra pe un element
 specific, cum ar fi petrecerea la care veți merge vineri
-219
 
 Bruce H. Lipton, Ph.D
 seară. în același timp, mintea voastră subconștientă poa-
@@ -7172,9 +6860,7 @@ pentru că abia se vedea). Pe de altă parte, puternica
 minte subconștientă prelucrează toate celelalte in-
 formații care intră în sistem (zona întunecată), în
 aceeași secundă.
-220
 
-Biologia credinței.
 Cele două minți cooperează și pentru a dobândi
 comportamente foarte complexe, care ulterior pot fi ad-
 ministrate la nivel inconștient. Vă amintiți de prima zi în
@@ -7207,7 +6893,6 @@ ai lăsat în urmă un șir de semafoare îndoite și de cutii po-
 ștale răsturnate. Dacă nu tu conduceai mașina în mod
 conștient, în acest răstimp, atunci cine o făcea? Mintea
 subconștientă! Și cât de bine o făcea? Deși nu i-ați obser-
-221
 
 BruceH. Lipton, Ph.D
 vat comportamentul, se pare că mintea subconștientă a
@@ -7242,9 +6927,7 @@ Cele două minți sunt, într-adevăr, un mecanism
 fenomenal, însă iată cum poate el să meargă anapoda
 I Mintea conștientă este „șinele" - vocea propriilor noastre
 I gânduri. Ea poate să aibă viziuni și planuri mărețe despre
-222
 
-Biologia credinței.
 un viitor plin de iubire, sănătate, fericire și prosperitate.
 Dar cine conduce tot spectacolul, în timp ce noi ne con-
 centrăm conștiința pe gânduri fericite? Subconștientul.
@@ -7276,7 +6959,6 @@ plat dacă am fi avut părinți și învățători conștienți, care
 să ne servească drept modele exemplare de viață și să se
 angajeze întotdeauna în relații pline de omenie cu toată
 lumea din comunitate, relații din care toți să aibă doar
-223
 
 Bruce H. Lipton, Ph.D
 de câștigat? Dacă mintea noastră subconștientă ar fi pro-
@@ -7308,9 +6990,7 @@ mintea subconștientă și să abordăm reprogramarea ei în-
 tr-o altă manieră Angajarea subconștientului într-o luptă
 este la fel de inutila ca și lovirea unuTEonomat de muzică,
 în speranța că acesta își va reprograma repertoriul.
-224
 
-Biologia credinței.
 Inutilitatea luptei cu subconștientul este un mesaj
 greu de depășit, pentru că unul dintre programele pe
 care cei mai mulți dintre noi le-am descărcat pe când
@@ -7343,7 +7023,6 @@ lui subconștientă, îngrijorată că a fi vizibil și recunoscut
 la nivel internațional reprezintă o amenințare la viață în
 timp ce Helfgott se străduiește din greu să cânte bine,
 mintea sa conștientă se luptă să-și păstreze controlul, în
-225
 
 Bruce H. Lipton, Ph.D
 timp ce mintea subconștientă, fiindu-i teamă să câștige,
@@ -7377,9 +7056,7 @@ putul vieții, în așa fel încât să ne putem atinge poten-
 buni și conștienți, astfel încât copiii noștri și copiii lor să
 fie și ei părinți conștienți - și astfel reprogramarea să de-
 vină inutilă, pe o planetă mai fericită și mai pașnică?
-226
 
-Biologia credinței.
 O sclipire în ochii părinților voștri:
 Conceperea conștientă și sarcina
 conștientă
@@ -7411,7 +7088,6 @@ descurcă mai bine, atunci când trăiesc într-un mediu
 calm și stabil, fără dependențe și sprijiniți de familie și
 * înainte de a fi părinte: îngrijiți-vă copiii încă de la mo-
 mentul conceperii, n.t.
-227
 
 Bruce H. Lipton, Ph.D
 prieteni." [Verny și Weintraub 2002] Interesant: cultu-
@@ -7446,9 +7122,7 @@ jul, lipsa de acces la o locuință și la servicii de îngrijire a
 sănătății, sau războaiele nesfârșite, care duc tații în ar-
 mată, pot să-i afecteze pe părinți - și astfel, implicit, și pe
 copilul care se dezvoltă.
-228
 
-Biologia credinței.
 Esența atitudinii de părinte conștient este că atât
 mamele, cât și tații, au responsabilități importante în
 crearea unor copii sănătoși, inteligenți, eficienți și plini
@@ -7480,7 +7154,6 @@ este diabetică, precum și cortizonul în exces, sau alți
 hormoni de tip ,luptă sau fugi', dacă mama suferă de
 stres cronic. Acum, cercetările ne oferă informații des-
 pre cum funcționează acest sistem. Dacă mama este stre-
-229
 
 Bruce H. Lipton, Ph.D
 sată, ea își activează axa HPS, care asigură reacții de tipul
@@ -7515,9 +7188,7 @@ de reglementare în dezvoltarea unităților de filtrare ale
 rinichilor - nefronii. Celulele unui nefron au o legătură
 strânsă cu reglementarea echilibrului de sare din corp
 și, ca urmare, sunt importante pentru controlarea tensi-
-230
 
-Biologia credinței.
 unii sanguine. Cortizonul în exces, absorbit de la o
 mamă stresată, modifică formarea nefronilor la făt. Un
 efect suplimentar al cortizonului în exces este acela că el
@@ -7550,7 +7221,6 @@ de inteligență, pe care fanaticii determinismului genetic
 și rasiștii îl legau, pur și simplu, de gene. Dar, în 1997,
 Bernie Devlin, profesor de psihiatrie la Facultatea de me-
 dicină de Ia Universitatea din Pittsburgh, a analizat cu
-231
 
 Bruce H. Lipton, Ph.D
 atenție 212 studii mai vechi, în care se compara coefi-
@@ -7585,9 +7255,7 @@ fi părinte conștient, Associazione Nazionale Educazione
 Prenatale, care ilustrează grafic relația de interdepen-
 dență dintre părinți și copilul lor nenăscut. în acest film,
 mama și tatăl se implică într-o ceartă zgomotoasă, în
-232
 
-Biologia credinței.
 timp ce mamei i se face o sonogramă. Se poate vedea
 clar cum fătul tresaltă, atunci când începe cearta. Fătul
 tulburat își arcuiește trupul și saltă în sus, ca și cum s-ar
@@ -7618,7 +7286,6 @@ noțiunea că trăsăturile noastre - atât cele pozitive, cât și
 cele negative - sunt determinate, în întregime, de ge-
 nele noastre. După cum am văzut, genele sunt modelate
 și îndrumate de experiențele de învățare trăite în medi-
-233
 
 Bruce H. Lipton, Ph.D
 ul înconjurător. Cu toții am fost învățați că talentele artis-
@@ -7652,9 +7319,7 @@ văr, genele sunt importante - dar importanța lor este
 realizată numai prin influența unei atitudini conștiente
 de părinte și prin multitudinea de oportunități pe care
 le oferă mediul.
-234
 
-Biologia credinței.
 A fi mamă și tată, în mod conștient
 Obișnuiam să-mi închei prelegerile publice, cu
 avertismentul că avem responsabilitatea personală pen-
@@ -7686,7 +7351,6 @@ reprograma propriul comportament
 Și, pentru că tot suntem la subiectul legat de mitu-
 rile despre a fi părinte, nu e deloc adevărat că ești același
 fel de părinte pentru toți copiii pe care îi ai. Al doilea
-235
 
 Bruce H. Lipton, Ph.D
 copil nu este o clonă a primului. în lumea ta nu se întâm-
@@ -7720,9 +7384,7 @@ să-i însoțească în lume.
 Este clar că cei mici au nevoie de îngrijire sub for-
 mă de iubire și ocazii prin care să observe cum își desfă
 * Părinte magic - copil magic. n.t.
-236
 
-Biologia credinței.
 șoară adulții viața de zi cu zi. Atunci când, de exemplu,
 copiii din orfelinate sunt ținuți în leagăn și li se dă numai
 mâncare, dar nu au parte de zâmbete și de îmbrățișări in-
@@ -7755,7 +7417,6 @@ culturilor și civilizațiilor umane, pe baza modului în care
 acestea își cresc copiii El a descoperit că societățile în
 care contactul fizic cu copiii era menținut, copiii erau
 iubiți, iar sexualitatea nu era reprimată, erau societăți
-237
 
 Bruce H. Lipton, Ph.D
 pașnice. în culturile pașnice, părinții mențin un contact
@@ -7790,9 +7451,7 @@ tător numea „minunile pline de viață"? De ce unor copii
 le merge bine, în ciuda mediului în care trăiesc? Pentru
 că au gene „mai bune"? Acum deja știți că nu cred asta
 Mai probabil este că părinții acestor „minuni pline de
-238
 
-Biologia credinței.
 viață" le-au oferit un mediu prenatal și perinatal mai pro-
 pice și hrană mai bună, la momentele esențiale în dez-
 voltarea copilului.
@@ -7825,7 +7484,6 @@ teresul intelectual nu este suficient. Asta am încercat și
 eu. La nivel intelectual, eram perfect conștient de tot ce
 este scris în această carte, dar aceste informații nu au
 avut niciun impact asupra vieții mele, înainte ca eu să
-239
 
 Bruce H. Lipton, Ph.D
 fac efortul de a mă schimba. Dacă doar citiți această car-
@@ -7855,7 +7513,6 @@ O viață fără iubire nu are importanță.
 Iubirea e Apa Vieții.
 Bea-o până la fund, cu toată inima,
 din tot sufletul
-240
 
 EPILOG
 SPIRITUL ȘI ȘTIINȚA
@@ -7881,7 +7538,6 @@ scurtă, la sfârșitul unei lucrări, care detaliază soarta per-
 sonajului acesteia... în cazul de față, mof. Atunci când idei-
 le din care a izvorât această carte mi-au apărut în minte
 * Eu, în limba franceză, în original, n. tr.
-241
 
 Bruce H. Lipton, Ph.D
 prima oară, acum douăzeci de ani, am văzut în ele ceva
@@ -7916,9 +7572,7 @@ probabilă și ar trebui luată în considerare prima Noua
 știință despre membrană - creierul magic - alături de
 * un principiu atribuit călugărului franciscan , care a trăit
 în secolul al 14-lea. n.tr.
-242
 
-Biologia credinței.
 principiile fizicii cuantice, ne oferă cea mai simplă expli-
 cație, valabilă nu doar pentru știința medicinii alopate,
 dar și pentru filosofia și practica medicinii complemen-
@@ -7951,7 +7605,6 @@ m-a condus la acel moment de revelație spirituală lăun-
 trică. în cercurile științifice, cuvântul „spirit" este primit
 cu tot atâta căldură ca și cuvântul „evoluție", în cercurile
 fundamentaliste. După cum știți, spiritualiștii și oamenii
-243
 
 Bruce H. Lipton, Ph.D
 de știință abordează viața în moduri foarte diferite. Pen-
@@ -7983,9 +7636,7 @@ lumea Geei, despre care am vorbit în Capitolul 1 - o lume
 în care toată planeta este considerată ca fiind un singur
 organism ce trăiește și respiră și care trebuie protejat de
 lăcomia, ignoranța și de proasta planificare a omului.
-244
 
-Biologia credinței.
 Niciodată n-am avut mai multă nevoie ca acum, de
 dezvăluirile unei asemenea viziuni despre lume. Când
 Știința s-a îndepărtat de Spirit, misiunea acesteia s-a
@@ -8018,7 +7669,6 @@ adus în această lume, în care spiritul este absent, vine
 din filmul lui Disney, Fantasia. Vă amintiți de Mickey
 Mouse, pe când era nefericitul ucenic al unui vrăjitor pu-
 ternic? Vrăjitorul îi spune Iui Mickey să facă toate tre-
-245
 
 Bruce H. Lipton, Ph.D
 burile în laborator, până se întoarce el. Una dintre sarcini
@@ -8053,9 +7703,7 @@ când acestea erau contrare dogmei bisericești. Nicolaus
 Copernicus, un politician iscusit și un astronom talen-
 tat, a fost acela care a inițiat separarea dintre Spirit și Ști-
 ință, atunci când a făcut cunoscut publicului profunda
-246
 
-Biologia credinței.
 sa lucrare, De revolutionibus orbium coelestium (Des-
 pre mișcarea de revoluție a sferelor cerești). Manuscri-
 sul din 1543 declara cu mult curaj că Soarele — și nu
@@ -8087,7 +7735,6 @@ rile" spirituale erau surghiunite în tărâmul religiei și al
 metafizicii. Spiritul și alte concepte metafizice au fost
 devalorizate ca fiind „neștiințifice", deoarece valoarea
 lor de adevăr nu putea fi evaluată, folosind metodele
-247
 
 Bruce H. Lipton, Ph.D
 analitice ale științei. Lucrurile importante despre viață și
@@ -8122,9 +7769,7 @@ tre între legile moralității, neo-darwinismul lui Mayr su-
 gerează că ne trăim viețile după legea junglei. în esență,
 neo-darwinismul conchide că cei care au mai mult, me-
 rită să aibă mai mult. în Occident, noi am acceptat carac-
-248
 
-Biologia credinței.
 terul inevitabil al unei civilizații caracterizată prin „ce
 avem" și „ce nu avem". Nu ne interesează că, în această
 lume, totul are un preț. Din păcate, pe lângă planeta bol-
@@ -8155,7 +7800,6 @@ mai putea să fim complementari cu el... nu ne vom mai
 „potrivi". în acest moment, oamenii modifică planeta în
 mod atât de dramatic, încât ne amenințăm propria su-
 praviețuire, precum și supraviețuirea altor organisme,
-249
 
 Bruce H. Lipton, Ph.D
 care dispar cu repeziciune. Această amenințare îi cu-
@@ -8190,9 +7834,7 @@ Atunci când donați un organ, cu cât mai aproape
 este potrivirea dintre grupa voastră de auto-receptori și
 auto-receptorii persoanei care va primi organul, cu atât
 mai puțin agresivă va fi reacția de respingere lansată de
-250
 
-Biologia credinței.
 sistemul imunitar al primitorului. De exemplu, să spu-
 nem că pentru a vă identifica persoana este folosit un
 set de o sută de auto-receptori pe suprafața fiecărei ce-
@@ -8225,7 +7867,6 @@ tori le dă indivizilor propria lor identitate. Setul unic de
 receptori de identitate ai fiecărei celule se află localizat
 pe suprafața exterioară a membranei, unde acționează
 ca niște „antene" și descarcă semnalele complementare
-251
 
 Bruce H. Lipton, Ph.D
 din mediu. Acești receptori de identitate citesc un sem-
@@ -8260,9 +7901,7 @@ Când am înțeles pe deplin această relație, mi-am
 dat seama că identitatea mea, „Șinele" meu există în me-
 diu, indiferent dacă și corpul meu se află aici, sau nu. La
 fel ca și în analogia cu televizorul, în cazul în care corpul
-252
 
-Biologia credinței.
 meu moare, iar în viitor se va naște un alt individ (un alt
 „televizor" biologic), care are exact același set de recep-
 tori de identitate, acest nou individ mă va,capta'/*? mine.
@@ -8294,7 +7933,6 @@ plare sau coincidență. O tânără a început să aibă coșma-
 * Cu inima schimbată, n.t.
 " Codul inimii: Accesarea înțelepciunii și puterii energiei
 inimii noastre, n.t
-53
 
 Bruce H. Lipton, Ph.D
 ruri legate de o crimă, după un transplant de inimă. Vi-
@@ -8329,9 +7967,7 @@ tr-un alt corp. Discriminarea după sex sau rasă devin ri-
 dicole și imorale, atunci când ne dăm seama că recep-
 torii noștri ar putea să existe la un alb, la un negru, la un
 asiatic, la un bărbat sau la o femeie. Pentru că mediul
-254
 
-Biologia credinței.
 reprezintă „Tot Ceea Ce Este" (Dumnezeu), iar antenele
 noastre auto-receptoare captează doar o bandă îngustă
 din tot spectrul, noi reprezentăm cu toții o mică parte
@@ -8362,7 +7998,6 @@ ință omenească, care are forma unui controlor NASA.
 Practic, controlorul legat de Pământ transmite informa-
 ții care animă naveta spațială Mariner, pe Marte. Dar in-
 formația nu este ca o stradă cu sens unic. Controlorul
-255
 
 Bruce H. Lipton, Ph.D
 NASA află și el informații de la sondă, pentru că vehicu-
@@ -8397,7 +8032,6 @@ albe, este văzută separat, datorită frecvenței ei unice.
 Dacă inversăm acest proces și proiectăm spectrul unui
 curcubeu prin cristal, frecvențele separate se vor combi-
 na din nou și vor forma un fascicul de lumină albă.
-256
 
 Biologia credinței ^ ^
 r' Jf- ~ • JL».
@@ -8420,7 +8054,6 @@ frecvență individuală a Luminii Albe. Atâta timp cât con-
 tinuăm să eliminăm sau să devalorizăm alte ființe ome-
 nești, despre care am decis că nu ne plac, adică să dis-
 trugem frecvențe ale spectrului, nu vom putea să trăim
-257
 
 Bruce H. Lipton, Ph.D
 experiența Luminii Albe. Treaba noastră este să prote-
@@ -8453,9 +8086,7 @@ pentru planetă și pentru noi înșine.
 Cum de sunt așa de sigur? Siguranța mea vine din
 studiul geometriei fractalice. Iată o definiție a geome-
 triei care va explica de ce aceasta este importantă pen-
-258
 
-Biologia credinței.
 tru studiul structurii biosferei noastre. Geometria este o
 evaluare matematică a „modului în care părți diferite ale
 unui lucru se potrivesc în relație unele cu altele". Până în
@@ -8488,7 +8119,6 @@ mulțit cu el însuși, apoi adunat cu numărul inițial. Rezul-
 tatul acelei ecuații este folosit apoi ca punct de pornire
 pentru următoarea ecuație - și așa mai departe. Pro-
 blema este că, deși fiecare ecuație urmează aceeași for-
-259
 
 Bruce H. Lipton, Ph.D
 mulă, aceste ecuații trebuie repetate de milioane de ori,
@@ -8506,7 +8136,6 @@ moasele păpuși rusești Fiecare structură mai mică este o
 miniatură, însă nu neapărat o versiune exactă a formei
 mai mari. Geometria fractalică subliniază relația dintre
 tipare într-o structură întreagă și tiparele văzute ca părți
-I
 ale unei structuri. De exemplu, jiparul^ramurilor pe o
 creangă seamănă cu tiparul crengilor cartTșe formează
 difi trunchi. Tiparul Unui fluviu arată ca și tiparul afluen-
@@ -8526,7 +8155,6 @@ toare-efectoare, ca fiind unitatea fundamentală de conș-
 tiență/inteligență. Ca urmare, cu cât un organism are mai
 Cw toi. CJ^h
 
-Biologia credinței.
 multe proteine receptoare-efectoare (măslinele din mo-
 delul cu sandvișul de pâine cu unt), cu atât poate să fie
 mai conștient și cu atât se află mai sus, pe scara evoluției.
@@ -8559,7 +8187,6 @@ luția - lărgirea conștienței - poate fi definită în mod fi-
 zic, prinjnărireâ suprafeței membranei.
 Studiile matematice au descoperit că geometria
 fractalică este cel mai bun mod de a mări zona de supra-
-261
 
 Bruce H. Lipton, Ph.D
 față (membrana), într-un șpațiu-tridigiensional (celula).
@@ -8594,9 +8221,7 @@ sa supraviețuiască.' Imaginați-va o populație de miliarde
 stare de fericire continuă O astfel de comunitate există -
 ea se numește corpul omenesc sănătos. în mod dar, co-
 munitățile celulare funcționează mai bine decât comu-
-262
 
-Biologia credinței.
 nitățile omenești - în corpul nostru nu există celule lă-
 sătepe dinafară, sau fără casă. Asta, desigur, în afară de ca-
 zul îri^are comunitatea noastră celulară este într-o stare
@@ -8629,7 +8254,6 @@ că a fost un moment absolut înspăimântător! în această
 situație de înghesuială impusă, dar și din cauza schim-
 bărilor de mediu, au început să caute un răspuns eficient
 la constrângerile impuse asupra lor. Aceste constrângeri
-263
 
 Bruce H. Lipton, Ph.D
 au adus o eră nouă și uluitoare în evoluție, în care organ-
@@ -8662,9 +8286,7 @@ Nu! Oamenii nu s-au „căpătuit" pe vecie cu un ca-
 racter competitiv înnăscut - la fel cum nu suntem căpă-
 tuiți pe vecie nici cu gene care ne fac bolnavi sau violenți.
 Cimpanzeii, cei mai apropiați de oameni, din punct de
-264
 
-Biologia credinței.
 vedere genetic, oferă dovezi că violența nu este o parte
 necesară din sistemul nostru biologic. O specie de cim-
 panzei - bonobo - creează comunități pașnice, conduse
@@ -8697,7 +8319,6 @@ zut pe National Geographic, nu există niciun fel de im-
 perativ de genul lupul îl mănâncă pe lup, care să fie obli-
 gatoriu pentru oameni. Noi ne aflăm în vârful lanțului
 trofic. Supraviețuirea noastră depinde de consumarea
-265
 
 Bruce H. Lipton, Ph.D
 unor organisme inferioare în ierarhie, însă nu suntem
@@ -8732,9 +8353,7 @@ selecția partenerului, este relativ redusă. Cel mai adesea,
 violența umană este asociată cu achiziția de posesiuni
 materiale care depășesc necesarul pentru supraviețuire,
 sau cu distribuirea și achiziționarea de medicamente,
-266
 
-Biologia credinței.
 pentru a scăpa de lumea de coșmar pe care am creat-o,
 sau cu maltratarea copiilor și a partenerilor de viață -
 comportamente transmise din generație în generație.
@@ -8767,7 +8386,6 @@ dar și pentru această planetă Folosiți inteligența celu-
 lelor, pentru a propulsa omenirea cu o tieaptă mai sus pe
 scara evoluției, acolo unde cei mai iubitori fac mai mult
 decât doar să supraviețuiască - ei prosperă.
-267
 
 Bruce H. Lipton, Ph.D
 w ¥
@@ -8799,9 +8417,7 @@ unat ce spui, dar cum să facem asta'"
 Pe vremea aceea, nu-mi dădusem seama pe deplin de
 rolul esențial pe care îl joacă mintea subconștientă în pro-
 cesul de schimbare și mă bazam cel mai mult pe încercarea
-268
 
-Biologia credinței.
 de a schimba comportamentele negative, folosind gândi-
 rea pozitivă și puterea voinței. însă știam că succesul meu
 fusese limitat în ceea ce privește obținerea unor schimbări
@@ -8835,7 +8451,6 @@ Apoi, i-a cerut din nou să-i spună publicului ce simțea în
 legătură cu exprimarea în public. Schimbarea era uimi-
 toare. Nu numai că femeia era vizibil mai relaxată, dar chiar
 a început să vorbească cu o voce emoționată, dar plină de
-269
 
 Bruce H. Lipton, Ph.D
 încredere. Ochii publicului s-au făcut cât farfuriile și tutur-
@@ -8871,9 +8486,7 @@ accesează ceea ce Rob numește „mintea supraconștientă",
 pentru a se asigura că obiectivele declarate ale persoanei
 sunt sigure și potrivite. Aceste protecții integrate fac ca
 acest sistem de schimbare personală să poată fi predat
-270
 
-Biologia credinței.
 oricui este interesat să preia controlul asupra propriei sale
 vieți, să părăsească frica și să pătrundă în iubire.
 Eu folosesc PSYCH-K ™ în viața mea. PSYCH-K ™
@@ -8905,7 +8518,6 @@ ologia credinței. Să eliberăm puterea conștiinței, Materia și
 minunile în trei prezentări live remarcabile. Acum puteți să
 aveți biblioteca video care pune laolaltă Știința și Spiritul,
 într-un fel pe care nu l-ați mai văzut niciodată.
-271
 
 Bruce H. Lipton, Ph.D
 Bibliografie
@@ -8940,7 +8552,6 @@ Current Opinion in Immunology 14:235-240.
 Dutta, C. °i A. Pan (2002). „H orizontal gene transfer and bacterial diversity."
 Journal of Biosciences (Bangalore) 27 (1 Supliment 1): 27-33.
 Geaihart, P. J. (2002). „The roots of antobody diversity." Nature 419:29-31,
-272
 
 Gogarten, J. P. (2003). „Gene Transfer: Gene Swapping Crate Reaches
 Eukaiyotes." Current Biology 13:R53-R54.
@@ -8980,7 +8591,6 @@ Ryan, F. (2002). Darwin's Blind Spot: Evolution beyond natural selection.
 New York, Houghton Mifflin.
 Spencer, L. J. °i A. A. Snow (2001). „Fecundity of transgenic wild-crop
 hybrids of Cucurbita pepo (Cucurbitaceae): implications for crop-to-wild gene
-273
 
 Bruce H. Lipton, Ph.D
 flow." Heredity 86-694-702.
@@ -9021,9 +8631,7 @@ Lamarckian Dimention. Oxford, Oxford Univeisity Press.
 Jones, P. A (2001). „Death and methylation." Nature 409:141-144.
 Kling, J. (2003). „Put the Blame on Methylation." The Scientist 27-28.
 Ledeiberg, J. (1994). Honoring Avery, MacLeod, And McCarty: The Team
-274
 
-Biologia credinței.
 That Transformed Genetics. The Scientist 8:11.
 Lipton, B. H., K. G. Bcnsch et al. (1991). „Microvessel Endothelial Cell
 TransdifFerentiation: Phenotypic Characterization." Differentiation 46:117.
@@ -9062,7 +8670,6 @@ CAPITOLUL 4
 Anderson, G. L., H. L. Judd, et aL (2003). .Effects of Estrogen Plus Progestin
 on Gynecologic Cancers and Associated Diagnostic Procedures: The
 Womens' Health Inițiative Randomized Trial." Journal of the American
-275
 
 Bruce H. Lipton, Ph.D
 Medical Association 290(13): 1739-1748.
@@ -9103,9 +8710,7 @@ McQare, C. W. F. (1974). „Resonance in Bioenergetics." Annals of the New
 York Academy of Sciences 227:74-97.
 Nuli, G„ Ph-D., C. Dean, M.D., N.D., et al. (2003). Death by Medicine. New
 Yoik, Nutrition Institute of America.
-276
 
-Biologia credinței.
 Oschman, J. L. (2000). Chapter 9: Vibrational Medicine. Energy Medicine:
 The Scientific Basis. Edinburgh, Harcourt Publishers: 121-137.
 Pagels, H. R. (1982). The Cosmic Code: Quantum PhysicsAsthe Language
@@ -9144,7 +8749,6 @@ Discovery (2003). Placebo: Mind Over Medicine? Medical Mysteries. Silver
 Spring, MD, Discovery Health Channel.
 Greenberg, G. (2003). Js It Prozac? Or Placebo?" MotherJones: 76-81.
 Horgan, J. (1999). Chapter 4: Prvzac and Other Placebos. The Undiscovered
-277
 
 Bruce H. Lipton, Ph.D
 Mind: How the Human Brain Defmes Replication, Medication and
@@ -9185,10 +8789,8 @@ Transdifferentiation: Phenotypic Characterization." Differentiation 46:117-
 McEwen, B. S. °i T. Seeman (1999). JProtective and Damaging Effects of
 Mediators of Stress: Elaborating and Testing the Concepts of Allostasis and
 Aliostatic Load." Annals of the New YorkAcademy ofSciences
-278
 
 r
-Biologia credinței
 CUPRINS
 Mulțumiri 10
 Prolog 16
@@ -9214,8 +8816,6 @@ părinții - specialiști în inginerie genetică 203
 Epilog
 Spiritul și știința 241
 Anexa 268
-i
-279
 
 Bruce H. Lipton, Ph.D
 CĂRȚI PUBLICATE DE EDITURA FOR YOU
@@ -9255,10 +8855,7 @@ Secretul umbrei 12,00 LEI
 John J. Falone
 Frecvența Geniu, 10,00 LEI ***
 ET 101. Manual cosmic cu instrucțiuni
-280
 
-I
-Biologia credinței
 pentru evoluție planetară 3,00 LEI
 Suzanne Ward
 Matei, vorbește-mi despre ral 6,00 LEI
@@ -9297,8 +8894,6 @@ Emisarii luminii 9,00 LEI
 Emisarii Iubirii 7,00 LEI
 Bruce Davis
 Pacea simplă a sufletului 5,50 LEI
-281
-i
 
 Bruce H. Lipton, Ph.D
 Mănăstire fără ziduri 7,50 LEI
@@ -9343,9 +8938,7 @@ BrianTracy
 Succesul în viață 18,00 LEI
 Beata Bishop
 Vremea vindecării 15,00 LEI
-282
 
-Biologia credinței.
 Dianne Lancaster
 Copiii Indigo - de Ia mânie la iubire 15,00 LEI
 Lisette Larkins
@@ -9384,7 +8977,6 @@ Kenneth Wapnick
 Introducere generală la Cursul de miracole 7,00 LEI
 Gloria Wendroff
 Scrisori din cer 13,00 LEI
-283
 
 Bruce H. Lipton, Ph.D
 MaureenMoss
@@ -9425,9 +9017,7 @@ Copiii cei noi și experiențele din preajma moiții 28,00 LEI
 Jonette Crowley
 Vulturul și Condorul 25,00 LEI
 Wolfgang Wallner F
-284
 
-Biologia credinței.
 Elihu 15,00 LEI
 JimTucker
 Viața înainte de viață 15,00 LEI
@@ -9466,4 +9056,3 @@ C.J. Calleman
 Calendarul Mayaș 30,00 LEI
 Bruce Lipton
 Biologia credinței 30,00 lei
-285

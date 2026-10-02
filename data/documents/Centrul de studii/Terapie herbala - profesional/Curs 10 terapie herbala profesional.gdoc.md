@@ -12,16 +12,16 @@ Când diureticele acționeaza asupra solidelor renale (dizolvarea calculilor, pi
 
 Bile: Când bila se arată în urină, trateaza ficatul.
 
-# Enurezisul: 
+# Enurezisul:
 În aproape toate cazurile, aceasta este o condiție nervoasa, nervii sunt uzati și rinichii sunt sensibili.
 
-# Constipatie: 
+# Constipatie:
 iritațiile renale și toxinele pot aparea din cauza constipatiei.
 
-# Hidropizie: 
+# Hidropizie:
 Acesta este un semn ca rinichii sunt parțial paralizati și nu elimina urina suficient, astfel încât agentul diuretic trebuie utilizat in combinație cu un stimulent difuziv precum ghimbir de Jamaica sau chiar Cayenne.
 
-# Probleme ale femeilor, infectie urinara: 
+# Probleme ale femeilor, infectie urinara:
 cauza problemelor urinare la femei poate fi în zona genitala, pentru ca sunt foarte legate între ele, astfel incat trebuie tratata aceasta zona, de asemenea.
 
 # Patrunjelul (Petroselinum crispum, p. sativum, Carum Petroselinum; ApiumPetroselinum; Umbelliferae)
@@ -92,14 +92,14 @@ Băutură verde și ceai de patrunjel: Patrunjelul este teribil atunci când e a
 
 Plantele medicinale sub formă de ceai acționează rapid, în timp ce capsulele sunt mai lente. Dacă utilizezi patrunjel sub formă de suc, se utilizează moderat, este foarte foarte concentrat și puternic și va lucra foarte repede asupra sistemului. Dacă este folosit excesiv poate cauza dereglari grave.
 
-# Piele-Hidropizie: 
+# Piele-Hidropizie:
 Se amestecă părți egale de ceai din rădăcină de pătrunjel și glicerină și se aplică pe zonele umflate, ține pacientul la căldură, în pat, acoperit. Acest lucru scoate apa prin piele și ajută la ameliorarea poverii asupra rinichilor. În același timp, da ceai din rădăcină de pătrunjel fără glicerină ca o băutură, 1/2 ceașcă, dupa fiecare oră.
 
 Lovituri, sâni umflati, glande extinse: Aplica o cataplasma cu frunze zdrobite.
 
 Uscarea laptelui: Aplica o cataplasma de frunze pe sâni.
 
-# Litiaza biliara: 
+# Litiaza biliara:
 30g de pătrunjel, uscat (sau 3 linguri proaspete) (Petroselinum crispum)
 
 15 g ignama salbatica, extract fluid (Dioscorea villosa)
@@ -132,7 +132,7 @@ Mod de preparare: Se amestecă bine, apoi se foloseste o lingurita de amestec la
 
 Dozare: cca.60ml de lichid, de 3 sau 4 ori pe zi.
 
-# Calculi vezicali: 
+# Calculi vezicali:
 1 parte frunze de pătrunjel (Petroselinum crispum)
 
 1 parte Cleaver (Galium aparine)

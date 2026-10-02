@@ -164,6 +164,6 @@ Alte tratamente constau din **comprese calde în zona ficatului** cu tinctură s
 
 \- ptr scaderea burtii : un pumn de aschii de radacina de Dud alb, se pun la macerat in 2 litri de apa timp de o zi. Apoi se fierbe pana cand lichidul scade la jumatate. Se strecoara si se bea in cursul unei zile.
 
-\- d-na Dr. Virginia Faur -- medic naturist care a vindecat cazuri de ciroza hepatica Poate trimite medicamente naturiste prin posta in sistem ramburs. Adresa : Lugoj, jud Timis, str C.A.Loga, nr 36, cod 305500, tel 0256/356696
+\- d-na Dr. Virginia Faur -- medic naturist care a vindecat cazuri de ciroza hepatica Poate trimite medicamente naturiste prin posta in sistem ramburs. Adresa: Lugoj, jud Timis, str C.A.Loga, nr 36, cod 305500, 
 
-\- EUGEN GIURGIU -- a vindecat-o pe mama lui de ciroza hepatica , adresa: Str. Aleea Detunata, Bl. D2, sc. A, ap. 19, Alba-Iulia, cod 510064, tel. 0741.92.88.80
+\- EUGEN GIURGIU -- a vindecat-o pe mama lui de ciroza hepatica, adresa: Str. Aleea Detunata, Bl. D2, sc. A, ap. 19, Alba-Iulia, cod 510064, 

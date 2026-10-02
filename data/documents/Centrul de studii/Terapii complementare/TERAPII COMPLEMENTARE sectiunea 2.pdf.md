@@ -1,4 +1,3 @@
-1
 
 PROGRAMA CURSULUI TERAPII COMPLEMENTARE - sectiunea 2
 
@@ -11,8 +10,6 @@ Cursul-15 Reflexologie
 Cursul-16 Astrologia
 Cursul-17 Yoga
 Cursul-18 Naturopatie
-
-2
 
  Cursul 10
  Reiki
@@ -35,8 +32,6 @@ Mikao Usui nu ar fi redescoperit cheia care duce la refacerea unei tradiții de 
 mii de ani ea apărând încă din vechile scri eri sanscrite până la sfârșitul secolului XIX. Cuvântul
 Reiki înseamnă energie vitală universală. Este definită ca fiind puterea care acționeaza și traiește
 în toată materia creată. Cuvântul se împarte în două. Silaba rei descrie
-
-3
 
 aspectul nemărginit universal al acestei energii, în timp ce ki este el însuși
 parte a rei, fiind energia forței vitale care curge prin toate ființele.
@@ -76,8 +71,6 @@ punem cap la cap, lungimea lor ar atinge mai mult de 120 miliarde km, cam de 800
 distanța dintre pământ și soare. Și totuși toate ace ste lanțuri de AND încap în ceva mai mic decât
 o alună ! Jocul cu figuri și valori ar putea fi continuat până la infinit. Cât de mare poate fi energia
 ca toate aceste forme de viața să se manifeste. Cât de mare trebuie să fie inteligența care dă
-
-4
 
 acestor fo rme viață. Sau universul și viețile noastre apar dintr -un șir de coincidențe? Poate
 materia inconștienta să aducă conștiintă? Poate aduce spiritul? Poate aduce un suflet?
@@ -125,8 +118,6 @@ distrugere radicală a tot ceea ce este vechi. Orice s -ar întâmpla, este deci
 este încurajator faptul că există interes pentru ca adevărul să se răspândească.
  Nivele ale practicii Reiki
 
-5
-
  Clasificarea reiki in nivele este o sursa constantă de discuții între profesorii reiki. Opiniile
 variate au hotărît care este cea mai bună cale de a împarți procesul învațării .
 Reiki tradițional are trei nivele:
@@ -173,8 +164,6 @@ descris in cursul despre pozițiile tradiționale ale mâinii. Solicită atinger
 tuturor practicanților, indiferent de starea lor de sanătate.
 În acest caz compatibilitatea terapeut-pacient este 100%
 
-6
-
 Dupa initiere , studentului i se da sa vorbeasca despre toate subiectele descoperite in curs. Sunt
 luate puncte din știință și metafizică pentr u reiki cu abundenta de cazuri istorice care se afla in
 spatele teoriei.
@@ -220,8 +209,6 @@ din lemnul sau fierul din care este fabricat, ci din credinta oamenilor. Din ace
 care a fost inzestrat de milioane de oameni capata puteri tamaduitoare.‖ Exista insa multe alte
 simboluri, unele cu incarcatura pozitiva, altele cu incarcatura negativa.
 
-7
-
 Simbolurile Reiki creaza legatura cu Constiinta Universala. Ele sunt niste „coduri cosmice‖, cu
 ajutorul carora se poate canaliza energia Reiki peste timp si spatiu. Impreuna c u initierile, aceste
 simboluri fac posibile pentru practicanti tratamentele/canalizarile de energie dincolo de timp si
@@ -252,8 +239,6 @@ pentru pacient, pentru activare.
 
  Simbolul 2-
 
-8
-
  SEI HE KI –Este un simbol cu care se lucrează la nivel mental și
 emoțional, simbolul armoniei, asigură și protejează emisia ta informațională. Am cheia de la
 subconștientul tău. Este , în general cel mai puțin folosit dintre simboluri dar pentru cei ce -l
@@ -277,8 +262,6 @@ reușită. Se folosește pentru tratament la distanță
 Nivelul III Reiki - AL III-LEA GRAD
  Este gradul la care se introduce simbolul - IV- simbolul maestru
 
-9
-
 THE GREATE BING OF THE UNIVERS sau THE DIVINE WINDOOM,
 de aici pleacă totul. Cuprinde trei simboluri din reiki II, duce la simțiri superioare, iar din
 momentul în care lucrăm cu simbolul IV aducem tot reiki la acest simbol. Tot ceea ce vom face
@@ -297,8 +280,6 @@ diagnosticarea reiki prin scanarea ceakrelor.
 Profesor Maestru Reiki
  Acest grad nu se obține decât după practicarea reiki o perioada de 6 luni timp în care în
 paralel cu practica se face asistenta pe lângă maestru realizând clar cum se predă acest sistem.
-
-10
 
  Cursul 11.
  Medicina traditionala chineza. Doctrina celor cinci elemente
@@ -336,8 +317,6 @@ carne de cocos, miel, ghimbir, nucsoara, cardamom, cuisoare aromate. Incalzirea 
 prin foc sporeste calitatile Yang.
 
 Reteta pentru o cura Yang
-
-11
 
 Doi centimetri de radacina curatata de ginseng, 2 cm de lemn-dulce si 4 smochine se fierb 60 de
 minute intr-un litru de apa. Se strecoara si se bea intreaga cantitate intr-o zi. La fel de eficienta
@@ -383,8 +362,6 @@ infierbanta. Exercitiul limpezeste mintea si potoleste durerile de cap.
 
 Intarirea puterii de concentrare
 
-12
-
 Exercitiul urmator imbunatateste circulatia sangelui si stimuleaza metabolismul in creier: 1. Stati
 drept, pe scaun sau in picioare, si respirati calm. 2. Frecati-va palmele una de alta, pana se
 incalzesc. 3. Puneti-le pe frunte, apoi coborati cu ele pe tample, peste obraji. 4. Frecati-le din
@@ -423,8 +400,6 @@ transformãrilor din Naturã. In lucrarea "Colecția de lucruri strãvechi" se s
 "Hrana depinde de apã și foc. Producția depinde de metal și lemn. Pãmântul dã naștere tututor
 lucrurilor. Ele sunt folosite de popor."
 
-13
-
  Deși au caracteristici diferite, cele cinci elemente depind unul de celãlalt și sunt inseparabile.
 Incã din cele mai vechi timpuri, oamenii cunoșteau relațiile dintre ele și le foloseau pentru a
 explica fenomenele lumii naturale.
@@ -451,8 +426,6 @@ Relațiile dintre cele cinci elemente
 Legea mișcãrii celor cinci elemente este caracterizatã prin urmãtoarele relații:
 - Generarea unui element din celãlalt
 - Interacțiune- Dominare
-
-14
 
 - Opoziție
 - Relație tip mamã - fiu
@@ -492,8 +465,6 @@ exista nașterea nu ar mai apãrea creșterea și dezvoltarea; fãrã interacți
 echilibru și coordonare pe durata creșterii și a transformãrii. Echilibrul relativ menținut între
 generare și interacțiune este cel care face posibilã creșterea normalã și dezvoltarea.
 Interacțiunea dintre organele interne presupune faptul cã rinichii (apa) controleazã inima (foc),
-
-15
 
 inima (foc) controleazã plãmânii (metal), pãmânii (metal) controleazã ficatul (lemn), ficatul
 (lemn) controleazã splina (pãmânt), iar splina (pãmânt) va controla rinichii (apa).
@@ -536,8 +507,6 @@ Exces foc: Focul se opune apei
 Exces pãmânt: Pãmântul se opune lemnului
 Exces metal: Metalul se opune focului
 
-16
-
 Relația tip mamã - fiu
 In ciclul celor cinci elemente, fiecare element se "naște" din cel precedent, este "fiul" celui
 dinaintea sa, iar acesta, la rândul sãu, îi este "mamã".
@@ -575,11 +544,7 @@ Est Acru Verde Germinație Vânt Primãvarã
 Sud Amar Roșu Creștere Cãldurã Varã
 Centru Dulce Galben Coacere Umezealã Varã Târzie
 
-17
-
 Vest Condimentat Alb Seceriș Uscãciune Toamnã
-
-18
 
  Cursul 12
  Apiterapia
@@ -614,8 +579,6 @@ dispozitie in afara acesteia si alte produse apicole. Acestea pot fi impărtite 
 1. Produse apicole naturale, directe
 mierea
 
-19
-
 ceara
 propolisul
 polenul
@@ -648,8 +611,6 @@ nutritive. Continutul de microelemente al mierii este similar celui al singelui 
 B1, B2, B6, B12, enzime, flavoane, flavonoide, compusi aromatici, fitohormoni, acizi organici -
 lactic, citric, malic, oxalic, dextrina, compusi ai azotului - in total 435 de substante. Aceasta
 asigura mierii un loc aparte in reglarea functiilor organismului uman.
-
-20
 
 Orice tip de miere are proprietati specifice: mierea de levantica lecuieste tusea si durerile de git,
 mierea de tei usureaza s tarile febrile si durerile gastrice, previne migrena, fiind un bun mijloc
@@ -692,8 +653,6 @@ antiinflamatorii, propolisul isi gaseste tot mai multe utilizari. Este un bun st
 tesuturilor afectate de rani, taieturi si, mai ales arsuri, degeraturi. Este foarte util in vindecarea
 ranilor de la armele de foc, precum si in cicatrizarea operatiilor. Propolisul vindeca mucoasa
 
-21
-
 bucala si este benefic in singera rile gingiilor. Balsamul de propolis protejeaza impotriva
 radiatiilor Roentgen si de alta natura.
 Veninul de albine se foloseste in vindecarea astmului bronsic, a disco patiilor, artritelor,
@@ -732,8 +691,6 @@ produse apicole derivate (cremele cosmetice cu ceara, unguente, tincturi, drageu
 Cum.este.fabricata.mierea?
  Mierea este substanta zaharoasa pe care o produc albinele prin colectarea nectarului floral si
 extrafloral sau a unui alt suc luat de pe plantele vii, prin transformarea lui, sub actiunea
-
-22
 
 enzimatica a salivei si a sucului gastric al albinelor. In timpul depozitarii nectarului in celule, apa
 care este in plus va fi indepartata prin ventilare. Dupa aceea mierea este gata pentru a fi
@@ -780,8 +737,6 @@ ia cite o lingura de amestec (cu putina apa calduta) seara, inainte de culcare.
 
 - In cazul unor afectiuni ale cailor respir atorii (laringite, faringite) guturai si sinuzita, se
 
-23
-
 recomanda mestecarea timp de 15 minute, de una -doua ori pe zi, a unui figure de miere. Seara,
 inainte de culcare, se ia o lingura de miere cu un pahar de ceai sau lapte. Se amesteca sucul de la
 o lamiie cu 100g de miere. Se ia cite o lingura de amestec seara, inainte de culcare, cu ceai sau
@@ -796,8 +751,6 @@ tonic si stimulant al sistemului nervos si endocrin se prepara din aloe, miere s
 iau 75 g frunze de aloe, se toaca si se pun intr -un vas de sticla. Se adauga 125 g de miere, se
 omogenizeaza, dupa care se adauga 50 g suc de lamiie. Se lasa la macerat cinci zile, dupa care se
 ia cite o lingura de amestec, de trei ori pe zi.
-
-24
 
  Cursul 13
  Biorezonanta
@@ -832,8 +785,6 @@ Stromberg, care a aratat ca dezvoltarea flintelor vii este legata de existenta u
 nemateriale".
  In 1973 Dr. Fritz-Albert Pop, demonstreaza emisia de bio-fotoni de catre celulele vii El a
 construit un instrument care masoara energia electromagnetica radiata de celulele corpului.
-
-25
 
 Astfel a putut sa demonstreze ca fiecare celula a corpului proceseaza frecvente rezonante si
 reemite unde electromagnetice. Undele traverseaza spatiul cu viteza luminii, iar comunicarea
@@ -876,8 +827,6 @@ sunt obstructionate la un anumit nivel al organismului de catre structurile func
 ca tesutul corespunzator inceteaza sa se mi conformeze informatiilor patologice existente si
 incepe sa functioneze sub influenta unui nou model informational din exterior.In idea de a fi in
 rezonanta cu diferite organe si sisteme au fost dezvoltate programe computerizate.
-
-26
 
  Prezenta fenomenului de biorezonanta in sistemele biologice este cauzat de urmatorii factori:
 caracteristicile oscilatiilor ( coincidenta spectrului oscilatiilor creste posibilitate aparitiei
@@ -924,8 +873,6 @@ organismului.
 determine cauza imbolnavirilor surprizand astfel boala in stadiul nemanifest si astfel sa incerce o
 influentare terapeutica, mai degraba decit sa aplice masuri paleative bazate pe simptome. Undele
 
-27
-
 radiante se deplaseaza in spatiu transportind cantitati mari de energie si informatie. Tot ce exista
 in univers si pe pamant exista sub forma energo-informationala. Undele energetice de anumita
 frecventa si amplitudine ale organismelor vii contin informatii referitoare la sursa adica ele
@@ -966,8 +913,6 @@ si deci poate fi denumita terapie prin biorezonanta externa.
 Scopul diagnosticului si al tratamentului prin biorezonanta este deci acela de a restabili o
 circulatie optima energo-informationala la nivel de organe si sisteme, in rest natura are grija ca
 
-28
-
 vindecarea sa se produca.In acest proces poate fi luat in considerare si aportul unor preparate
 homeopatice si suplimente nutritionale.
 Numarul sedintelor de tratament variaza dupa vechimea boli si coeficientul de raspuns al
@@ -1001,16 +946,12 @@ R.Rife, V.Ludwig, D.Bar, R.Herber, H.Clark, D.Harvey, R.Staford si altii. Numaru
 sedinte au fost de 10-16, zilnic. In anumite cazuri seria de tratamente a fost repetata dupa 2-3
 saptamini.Alaturi de acest tratament toti pacientii au primit preparate individuale homeopatice
 
-29
-
 create prin transferul frecventelor pe granule inerte homeopate. Merita sa fie mentionat ca
 metoda de terapie prin biorezonanta este compatibile si cu alte metode ale medicinii alternative.
 Ca orice metoda de tratament terapia in cimp electromagnetic, are contrindicatiile sale.Ele sunt
 urmatoarele: sarcina, boli cardiace decompensate, pneumoscleroza cu tendinta la hemoragie,
 infart de miocard cu mai putin de doua luni in urma, boli congenitale ale sistemului nervos, toate
 acestea fiind de fapt contraindicatii relative.
-
-30
 
  Cursul 14
  TEHNICA RADIANTA
@@ -1048,8 +989,6 @@ predecesorii sai de care este totusi in mod profund si vesnic legat. Fiecare din
 veni dupa noi, este in primul rand pazitorul acestei stiinte asa cum este ea – neschimbata. Fiecare
 trebuie sa accepte responsabilitatea de a mentine aceasta stiinta intreaga si in acelasi timp trebuie
 sa se lupte cu multele probleme care apar din dorinta de a o face disponibila si de a mentine
-
-31
 
 integritatea in jurul ei. Unele dintre partile principale ale rolului meu au fost, pana acum, initierea
 instructorilor, identificarea acestei stiinte a energiei Transcedentale si a legaturilor ei cu alte
@@ -1095,8 +1034,6 @@ organismului.
 - Ajuta la vitalizarea si activarea sistemului imunitar, prevenind imbolnavirile.
 - Intareste puterea de adaptare a organismului si la marirea flexibilitatii acestuia.
 
-32
-
 - Ajuta la micsorarea senzatiei de lipsa de ajutor si de putere, dezvoltand increderea in sine.
 - Reduce efectele nocive ale stressului.Dezvolta intr-un mod natural, firesc, calitatile umane, cum
 ar fi: compasiunea, intelegerea, iubirea neconditionata,, increderea in binele vietii.
@@ -1120,8 +1057,6 @@ de 22 de cursanti.
 Persoana care mobilizeaza alte 9 persoane pentru seminar, primeste gratuit seminarul. La gradul
 1, se face o initiere pentru a lucra cu Energia Universalt pe structura viului, in regnurile mineral,
 vegetal, animal si uman. Se fac 4 acordaje ale palmelor pentru accesarea Energiei Universale.
-
-33
 
  Cursul 15
  REFLEXOLOGIA
@@ -1168,8 +1103,6 @@ sa schimbe faptul ca reflexologia da intr-adevar roade.
 Conform primei teorii, preferata de multi dintre primii reflexologi, inclusiv de Eunice Ingham,
 care este considerata cea care a pus bazele reflexologiei moderne, piciorul este direct legat de
 
-34
-
 diferite parti ale corpului prin nenumarate terminatii nervoase. in picior exista un numar foarte
 mare de terminatii nervoase, motiv pentru care picioarele multora dintre noi sunt deosebit de
 sensibile la stimulari fizice precum gadilarea. S-a considerat - si inca se considera - ca diferitele
@@ -1215,8 +1148,6 @@ piciorului s-au sters de pe nisip, amintirea pasului ramane imprimata in talpa, 
 adevar semnificativ in viata persoanei respective.‖
 Analiza Labei Piciorului se sprijina pe principiul ca piciorul ne arata modul in care o
 persoana „trece‖ prin viata‖ Aceasta analiza combina dimensiunile fizice, emotionale, spirituale
-
-35
 
 intr-o singura dimensiune. Perspectiva este holistica iar principiilei metodei se bazeaza pe o
 filozofie.
@@ -1265,8 +1196,6 @@ a definit aceste elemente inca din antichitate, avand aici in vedere filosofia c
 islamismul, iudaismul etc. In cartea de fata, energia a fost impartita in patru elemente, fiecare
 constituind o frecventa a acesteia si alcatuind impreuna intreaga fiinta. Aceste elemente sunt:
 
-36
-
 Pamantul, Apa, Focul si Aerul.Consideram cel de-al cincilea element, chintesenta eterica, drept
 un factor misterios legat de destinul si personalitatea unica a fiecarui individ, elementul care ne
 uneste pe toti intr-un singur cosmos sau ne divide, in indivizi separati.
@@ -1297,8 +1226,6 @@ componentele majore ale analizei labei piciorului. Ce vedem atunci cand analizam
 piciorului? Vedem ceea ce corespunde nivelului fizic, emotional, mental si creative ; vedem
 tendintele trecutului, prezentului si viitorului.
 
-37
-
  Cursul 16
  Astrologia
 
@@ -1328,8 +1255,6 @@ iar separația între astrologie și astronomie s-a produs târziu - în timpul 
 În același timp astrologia a contribuit la apariția și dezvoltarea științelor matematice, la adoptarea
 cifrelor arabe (impropriu numite așa deoarece acest sistem de simboluri și numerație își are
 originea în India).
-
-38
 
  In ceea ce priveste aparitia astrologiei exista doua orientari culturale:una orientala si una
 occidentala. Pentru culturile orientale, în care religiile politeiste sunt dominante (în special
@@ -1377,8 +1302,6 @@ ministrul de finanțe al Regelui Soare (rege care avea patru astrologi de curte)
 Sorbona studiul astrologiei, împreună cu studiul homeopatiei și al alchimiei, iar acest exemplu a
 fost preluat de întreaga Europă.
 
-39
-
  Un reviriment apare către sfârșitul secolului al XIX-lea, dar curând, mulțimea șarlatanilor și a
 impostoarelor compromit din nou ideea de astrologie. O nouă revigorare a interesului pentru
 astrologie are loc pe la mijlocul secolului XX, mai ales ca urmare a preocupărilor spirituale și a
@@ -1424,8 +1347,6 @@ sistemul solar descrie o miscare de rotatie in jurul axului galactic, miscare co
 deplasare rectilinie in directia stelei Vega din constelatia Lyra, cu o viteza de 20 km/sec.
 Considerand Pamantul ca punct de observatie pentru miscarea astrelor observam ca soarele si
 celelalte planete descriu o miscare de rotatie pe un cerc format din 12 constelatii: Berbec, Taur,
-
-40
 
 Gemeni, Rac, Leu, Fecioara, Balanta, Scorpion, Sagetator, Capricorn, Varsator, Pesti. Fiecare
 constelatie are o marime de 30 de grade.
@@ -1475,8 +1396,6 @@ respectiva nu este doar cea vizibila, ci un spectru mai larg de radiatii. Lumina
 au influenta cea mai puternica asupra vietii individuale si generale, fie ea biologica, psihica sau
 spirituala.
 
-41
-
  Planetele Mercur, Venus si Marte (cele mai apropiate de Pamant) sunt considerate planete ale
 detaliilor vietii individuale. Evolutia lor pe cer, comparativ cu astrograma unei persoane, da cele
 mai multe detalii despre evenimentele vietii personale, alaturi de Soare si Luna.
@@ -1513,8 +1432,6 @@ diagnostice și se încumetă chiar să vindece (astrologia medicală), stabile�
 cuplu (calculul sinastric) și chiar se aventurează să propună strategii pentru viitor. Astrologia are
 ambiții holistice, încercând să cuprindă toată fenomenologia existenței.
 
-42
-
  Cursul 17
  Yoga
 
@@ -1547,8 +1464,6 @@ dintr-o rădăcină yeug- (sanscrită yuj-) însemnînd "a se alătura" sau "a s
 latinescul iugum și termenul modern englezesc yoke.
 Termenul este atestat în Rig Veda în sensul unui "act de alăturare, atașament, dedicare", dar și în
 sensul de "ocupație, încercare, performanță". Un sens spiritual de "exercitare, zel, silință" este
-
-43
 
 atestat încă din Mahabharata, și sensul spiritual sau mistic al "contemplării abstracte, al
 meditației" apare în egală masură în Mahabharata, ca și în Upanishade.
@@ -1583,8 +1498,6 @@ energia vitală.
 (8) Samadhi ("Eliberarea"): Starea de iluminare superconștientă (ca opus al
 subconștientului).
 Hatha Yoga Pradipika
-
-44
 
 Hatha Yoga este un sistem aparte de Yoga introdus de Yogi Swatmarama, un yogin înțelept al
 secolului al XV-lea în India, autorul compilației Hatha Yoga Pradipika. Hatha Yoga este o
@@ -1627,8 +1540,6 @@ Scopurile yoga sunt exprimate în mod diferit de către diferite tradiții. Pent
 compasiuni și a introspecției. yoga este refuzul minti eliberare de ego si ajungere la dumnezeu
 prin disciplina inplicit nu ai suferi nu mai se repeta nastera ai ajuns satarea de sfintemie.
 
-45
-
  Cursul 18
  Naturopatie
 Naturopatia este un sistem medical c omplet si coerent care pune accentul pe stimularea
@@ -1661,8 +1572,6 @@ recomanda astfel unui pacient sa consume mai mult salate si fructe proaspete, ma
 sau ceai.
 NATUROPATIA regrupeaza un ansamblu de tehnici naturale care au ca scop prevenirea sau lupta
 contra diverselor dezechilibre generate de viata noastra mondena. DIETETICA, arta restrictiilor
-
-46
 
 alimentare si NUTRITIA, arta echilibrului alimenta r, formeaza o tehnica majora în
 NATUROPATIE. Aceasta din urma nu ar putea sa existe fara actiunea primordiala a unei bune
@@ -1709,8 +1618,6 @@ mijloace.exclusiv.naturale.
 Naturopatia se bazeaza pe o teorie dupa care forta vitala a organismului permite acestuia sa se
 apere si sa se vindece spontan. Ea consta deci in intarirea reactiilor de aparare ale organismului
 
-47
-
 prin diferite masuri de igiena (dietetica, post, de zvoltarea musculaturii prin exercitii fizice,
 relaxare, masaje, termalism, talazoterapie etc.), ajutate doar de agenti naturali (plante, ape, soare,
 aer curat etc.), un tratament medical nefiind necesar decat in caz de urgenta. Un naturopat poate
@@ -1739,4 +1646,3 @@ afectiuni respiratorii implica posibilitatea aparitiei unei eczeme, fenomen care
 eficienta demersului datorit a superficializarii manifestarilor morbide, tratamentui nefiind .
 Incheiat decat atunci cand afectiunea cutanata dispare.
 
-48

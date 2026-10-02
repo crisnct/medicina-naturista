@@ -203,12 +203,12 @@ Mod de preparare: Se toarnă 1 litru de apa clocotita-fierbinte peste plante și
 
 Administrare: Utilizeaza ca pe apa de gura.
 
-# Colici cu oprire a intestinelor: 
+# Colici cu oprire a intestinelor:
 1/2 litru de zmeură frunze de ceai, infuzie puternică (Rubus idaeus),1 lingurita pulbere de Lobelia (Lobelia inflata),1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim), 1/2 lingurita mir, guma (Commiphora myrrha, var. Molmol), 1/2 lingurita radacina de valeriana, pulbere (Valeriana officinalis)
 
 Pregatirea: infuzie puternică de frunze de zmeura, apoi se adaugă alte ingrediente din plante, se amestecă bine și se lasă 1/2 ora (bine acoperita); tulpina.Administrare: Se fac spalaturi la temperatura corpului, se repetă în 4ore , iar restul după încă 4 ore. Aceasta va fi urmată de evacuări fecale frecvente în cursul următoarelor 8 ore. In următoarele câteva zile, ierburile astringente și tonice ar trebui să fie administrate pe cale orală ca stomacul pacientului sa fie capabil să le mențină.
 
-# Constipatie: 
+# Constipatie:
 Frunze de zmeura 14 grame(Rubus idaeus), 14 gramede Mountain (Linum catharticum), 14 grame plop alb sau interiorul cojii Aspen(Tremuloides Populus), 14 grame radacina de papadie (Taraxacum officinale)
 
 Mod de preparare: se fierb incet intr-un litru de apă.

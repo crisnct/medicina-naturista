@@ -2,7 +2,6 @@ Secretele Frumuseti indelungate si Super Potenta - MERITA VAZUT
 o>? <0
 Continut pentru:
 1 vanata = 540g
-24
 cal
 B3
 it.PP
@@ -11,7 +10,6 @@ Niacina
 mg
 Indice
 licemic
-20
 B5
 Acid Pantotenic
 0.30
@@ -27,7 +25,6 @@ Proteine
 4.00
 mg
 Glucide [carbohidrati total]
-570
 B9 -
 Acid folic
 22.00
@@ -46,7 +43,6 @@ Zaharuri
 Lipide [grasimi total]
 0.20
 - Grasimi saturate
-00
 calciu
 9.00
 mg
@@ -61,7 +57,6 @@ simi mononesaturate
 Magneziu
 mg
 Grasimi trans
-00
 Fosfor
 25.00
 mg
@@ -71,11 +66,9 @@ Potasiu
 230.00
 mg
 mg
-5
 Sodiu - Natriu
 2.00
 Acizi grasi
-3
 13.00
 mg
 mg
@@ -123,7 +116,6 @@ K
 meg
 B1
 Tiamina
-00
 mg
 Cofeina
 0.00

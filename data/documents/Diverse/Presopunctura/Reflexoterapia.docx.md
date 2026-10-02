@@ -21,8 +21,6 @@
 
 ## Subsol 1
 
-5
-
 ## Descrieri alternative ale imaginilor
 
 -
@@ -86,15 +84,10 @@ D2
 2)
 \2)
 2)
-10
-10
-1
-4
 2)
 24 (8)
 ay
 35)
-25
 drept
 Picior sang
 ```

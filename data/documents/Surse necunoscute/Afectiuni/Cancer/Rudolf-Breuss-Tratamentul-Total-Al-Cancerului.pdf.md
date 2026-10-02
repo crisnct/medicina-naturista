@@ -7,7 +7,6 @@ de
 
 Rudolf Breuss
 
-© 1999, Editura ANANDAKALI
 OP CP.88 – 2400, SIBIU
 
 ## POATE FI VINDECAT CANCERUL?
@@ -56,8 +55,6 @@ este într-o fază avansată. O distincție adecvată a modificărilor glandelor
 -canceroase sau necanceroase - poate fi f ăcută doar printr-o examinare medical ă
 de specialitate.
 
-21
-
 Sfaturi
 Realizați suficiente exerciții fizice.
 Respirați profund și cu forță aer proaspăt, curat.
@@ -94,7 +91,6 @@ M-am întrebat adesea care ar putea fi acest tratament. În fine, mi-a trecut
 prin minte că sucul de legume ar putea fi r ăspunsul. Astfel am discutat acest fapt
 cu dl ing. Balestrang, director la stațiunea balneară Kneipp.
 
-22
 El mi-a sugerat amestecul mai multor sucuri de legume care pot fi g ăsite în
 Tratamentul Total al Cancerului. Am ales urm ătoarele sucuri de legume: suc de
 sfeclă roșie, deoarece el este cu siguran ță un remediu pentru bolile cancerigene.
@@ -131,7 +127,6 @@ parțial sau total; nici ei nu pot avea suficiente proteine.
 Într-o stare avansat ă a excrescențelor canceroase tumoarea este hr ănită de
 proteine. Consider c ă dieta cu sucuri are urm ătoarele avantaje: f ăcând cura cu
 
-23
 suc, alimentele cu proteine sunt ev itate. Organismul nu este capabil s ă tr ăiască
 fără proteine, astfel încât sângele, înfometat de proteine, devoreaz ă toate
 excrescențele inutile, de șeurile de materie și umfl ăturile. Astfel sângele
@@ -189,8 +184,6 @@ sucul.
 
 <
 
-25
-
 PENTRU A SUPRAVIEȚUI, ESTE NEVOIE DOAR DE
 125 ml PÂNĂ LA 250 ml DE SUC PE ZI!
 
@@ -234,7 +227,6 @@ Puneți o priz ă (cât pute ți cuprinde între degetul mare și două degete) 
 cană cu ap ă fiart ă, (purificat ă sau filtrat ă), l ăsați 10 minute, apoi strecura ți-l și
 păstrați-l separat.
 
-26
 Apoi, mai lua ți dou ă c ăni de apă fierbinte (purificat ă sau filtrat ă) împreună
 cu plantele rămase în sită și puneți-o la fiert la foc mic, timp de 10 minute! Apoi,
 filtrați și amestecați cele două ceaiuri (lichidele obținute în cele două etape).
@@ -285,7 +277,6 @@ salvie, cât doriți, dar totdeauna fără zahăr!
 La prânz:
 Beți 65 ml (aproape 1/2 can ă) de ceai pentru rinichi
 
-27
 (combinația de ceaiuri Breuss).
 Seara:
 Beți 65 ml (aproape 1/2 can ă) de ceai pentru rinichi
@@ -335,8 +326,6 @@ crețișoară și flori de urzică albă moartă (Lamium album), pe zi, cu îngh
 Puneți o priz ă de cre țișoară și una de flori de urzic ă alb ă moartă într-o can ă de
 apă (purificată sau filtrată) fiartă, fierbinte, pentru 10 minute la infuzat.
 
-28
-
 Cancer la palat, buze, limbă, glandele gâtului și laringe
 În completarea Tratamentului Total al Cancerului, be ți ceai de pătrunjel de
 câmp conform recomandărilor pentru difterie.
@@ -385,7 +374,6 @@ peste pânză și întindeți frunzele de varză peste prosop.
 Pacientul se va așeza astfel încât partea afectat ă a corpului s ă
 stea deasupra frunzelor. Înconjura ți corpul cu pânza bine strâns ă,
 
-29
 apoi înconjurați-l cu pătura.
 Trebuie bine strânse de jur împrejur, astfel încât s ă nu se
 desfacă. Trebuie s ă r ămână a șa toat ă noaptea. Dac ă compresa nu
@@ -432,8 +420,6 @@ plămân este eficient ă pentru toate tipurile de cancer. Cu siguran ță
 pot recomanda acest ceai tuturor bolnavilor de cancer, pentru
 prevenirea unei deficiențe de calciu în timpul curei cu suc.
 
-30
-
 Informații interesante în Tratamentul Total al Cancerului
 Obișnuiam s ă spun c ă trebuie s ă face ți Tratamentul Total al Cancerului sub
 supraveghere medicală. Aceasta deoarece doream ca doctorii să aibă posibilitatea
@@ -474,8 +460,6 @@ biodinamic) mâncare nealterată și netratată cu chimicale, etc.
 Totdeauna be ți o jum ătate de can ă cu suc de legume pe zi
 pentru înc ă 2-4 s ăptămâni, cu înghi țituri mici, înainte de
 mese.
-
-31
 
 Tratamentul Total al Cancerului este recomandat și pentru alte boli, diferite de
 cancer
@@ -518,8 +502,6 @@ suferă de cancer și alte boli aparent incurabile, deoarece ei dorm deasupra
 cursurilor subterane de ap ă și pot fi afecta ți de radia țiile telurice. Dac ă vă simțiți
 vizat, este mai sigur s ă chema ți un radiestezist pentru a verifica acest lucru și
 mutați-vă patul în alt loc, dacă este necesar.
-
-32
 
 Explicarea Tratamentului Total al Cancerului
 
@@ -572,7 +554,6 @@ final, contează doar succesul și valoarea invenției pentru rasa umană. Oamen
 știință a r t r e b u i să recunoasc ă aceste succese, indiferent de sursa de la care
 provin.
 
-33
 Adesea, o anumit ă metodologie este testată și cercetată 60 de ani, sau mai
 mult, fără a se ob ține rezultate încununate de succes. În aceste condi ții, dacă o
 persoană neautorizată, dar talentată , descoper ă ce trebuie f ăcut pentru a oferi
@@ -621,7 +602,6 @@ Dacă preferați să beți suc de legume diminea ța, mai bine decât la prânz 
 seara, atunci beți mai mult din el dimineața și mai puțin la prânz sau seara.
 Rudele apropiate ca so ț, copii, prieteni pot fi un suport moral pentru
 
-34
 pacienți.
 Vă rog s ă nu v ă lamentați în leg ătură cu situa ția și cruțați bolnavul de orice
 știre și experiență negativă.
@@ -665,8 +645,6 @@ o can ă plin ă de supă dintr-o dat ă. E mai bine s ă lua ți cam 10
 linguri de sup ă cald ă la fiecare or ă. Be ți și o can ă de ceai de
 pelin pe zi.
 
-35
-
 Prepararea ceaiului de pelin:
 Pentru primele 5-6 zile lua ți o cantitate mic ă de pelin, pune ți-l în ap ă fiartă
 (purificată sau filtrat ă) pentru 10 secunde. Din a 7-a zi, lăsaț i-l doar 3 secunde,
@@ -699,7 +677,6 @@ urmat Tratamentul Total al Cancerului, în ciuda faptului c ă cercetătorii nu
 „45.000 de bolnavi de cancer vindeca ți nu sunt suficien ți?” „Care este
 cunoașterea pe care cercetătorii o caută?”
 
-36
 7. Uneori, exist ă o mare pr ăpastie între cunoa ștere și știință, dar știința
 trebuie să caute cunoașterea întotdeauna.
 8. Ce spun cercetătorii despre asta?
@@ -714,8 +691,6 @@ statistica medicinii ortodoxe.
 10. Desigur, există mulți cercetători atât în tehnologie cât și în medicină care
 au f ăcut fapte mari și au câ știgat merite prin trud ă. Totuși, uneori
 cunoașterea este oprită de acțiunile oamenilor de știință iresponsabili.
-
-37
 
 ## LEUCEMIA
 
@@ -752,7 +727,6 @@ reîncălzită, naftalina. Desigur, este important s ă beți 250 ml de
 suc în fiecare zi, timp de cel pu țin 42 de zile. Bolnavii cu
 depresii severe au nevoie de mult noroc pentru a se vindeca.
 
-39
 Încă o dat ă, este foarte important de men ționat c ă spray-urile
 cu chimicale, odorizantele pentru încăperi, insecticidele, etc., nu
 trebuie să fie ținute în casă.
@@ -843,8 +817,6 @@ de două ori înainte de a acuza pe cineva de ipohondrie. Voi aveți în mâini 
 pacientului. În plus, ipohondria este o boal ă, ce trebuie de asemenea s ă fie
 tratată corect.
 
-44
-
 ## MODALITĂȚILE DE TRATARE A ANUMITOR BOLI
 
 ### Dureri de gât
@@ -890,8 +862,6 @@ foarte bună pentru purificarea sângelui. Și usturoiul este recomandat pentru
 arterioscleroză.
 Vă rog s ă reț ineți: Lua ți aceste trei remedii pentru arterioscleroz ă, dac ă
 tensiunea nu este prea scăzută. Ele tind să o reducă.
-
-45
 
 Comportamentul față de oamenii suferinzi de demență senilă, sau boala Alzheimer
 Oamenii se plâng adesea c ă trec printr-o mul țime de probleme,
@@ -943,7 +913,6 @@ Dormiți numai pe burtă. Doar când dormi ți pe spate, enurezisul (udarea patu
 apare fără știre. Pentru a ține pacientul pe burt ă, legați o pânz ă în jurul taliei cu
 un nod mare la spate. Acesta îi va face inconfortabilă poziția pe spate.
 
-46
 ### Anemia
 
 Anemia
@@ -993,7 +962,6 @@ Ziua XVII mâncați o pară dimineața.
 Asigurați-vă că perele r ămase sunt întotdeauna acoperite cu vin și beți doar
 atâta vin, încât perele să rămână acoperite. Nu beți vin dimineața.
 
-47
 ### Tensiunea crescută
 
 Tensiunea crescută
@@ -1048,7 +1016,6 @@ extract de valerian ă și p ăducel (1.000 mg). În plus, be ți, cu
 înghițituri mici, cam o jum ătate de can ă de suc de țelină în
 timpul dimine ții. Dac ă degetul mare are lunul ă de mărime
 
-48
 normală, dar celelalte degete nu au, lua ți doar păducel, nu și
 valeriană. O lunulă mică sau lipsa ei arată că mușchii inimii sunt
 slăbiți și de aceea tensiunea este mică.
@@ -1102,8 +1069,6 @@ Fierbeți o linguri ță de r ădăcină de pătrunjel de câmp în 250 ml de ap
 cald de lămâie, la fiecare 10-l5 minute. În zilele noastre, difteria este o boală rară
 și poate fi tratată cu un ser.
 
-49
-
 Degete strâmbe
 Există oameni care nu- și pot îndrepta degetele. În cele mai multe cazuri,
 este vorba de inelar și mijlociu. Rareori, sunt afectate degetele mici. Aceast ă
@@ -1155,7 +1120,6 @@ Degerăturile
 Dacă cineva are deger ături, trebuie s ă fiarb ă 20, sau mai multe… castane
 necomestibile, pisate, în 3-5 litri de apă, timp de o oră. Partea afectată trebuie să
 
-50
 fie apoi înmuiat ă în acest amestec timp de o jum ătate de or ă. Acela și amestec
 poate fi re-folosit dac ă nu aveți suficiente castane. Pentru cazuri u șoare ar trebui
 să fie suficiente 3-4 astfel de băi, dar în cazuri severe se fac până la 12 băi.
@@ -1208,7 +1172,6 @@ aveți smântână, atunci folosiți miere de albine.
 Ștergeți întregul corp al bolnavului , de sus în jos, cu o pânză de flanel
 înmuiată în apă rece, de șase ori într-o jumătate de oră.
 
-51
 Acest tratament nu trebuie s ă v ă ia mai mult de 2-3 minute. Dup ă aceea,
 bolnavul trebuie să fie învelit într-un cear șaf mare, ca o mumie egiptean ă, pus în
 pat și acoperit cu o p ătură călduroasă. Asigura ți-vă că nu p ătrunde aer la piele.
@@ -1263,7 +1226,6 @@ diluat. Ca rezultat, acid ul uric vâscos poate ie și din ț esuturi prin evapo
 caz de hidropizie a inimii, acest tratament dureaz ă doar două zile. A doua zi,
 bolnavul va mirosi foarte puternic a urină.
 
-52
 Pentru hidropizie abdominal ă, lua ți o lingur ă de ap ă pur ă din cinci în cinci
 minute. În acest caz, va trece mai mult timp pân ă la apariț ia unor rezultate
 observabile. În loc de ap ă, pute ți bea, acum și pe urmă, ceai de salvie, ceai de
@@ -1320,7 +1282,6 @@ cartofi și mai ales în cele de vi ță-de-vie. Acest ceai trebuie b ăut dintr
 Iarna, prepara ți din frunz ă de urechelni ță în acela și mod. Un copil care
 suferă de această boal ă într-o stare avansat ă și bea ceai, poate înregistra o
 
-53
 îmbunătățire a stării, după una sau două ore.
 Ceaiul de stelu ță este bun și pentru pete pe piele, pe fa ță sau pe corp. În
 acest caz, trebuie s ă îl lua ți o perioad ă mai lung ă de timp. Este foarte bun și
@@ -1372,7 +1333,6 @@ Femeile care sufer ă de crampe menstruale trebuie s ă ia acest remediu cu o
 zi sau două înainte de menstruație și în timpul menstruației. După prima doză, se
 va observa o îmbunăt ățire imediată, după a doua va fi mai bine, dup ă a treia și
 
-54
 mai bine. După a patra nu veți mai suferi de crampe puternice.
 
 ### Vene varicoase la picioare
@@ -1425,8 +1385,6 @@ După baie, r ămâneți lungit cam o jum ătate de or ă și acoperiț i-vă cu
 pătură. O astfel de baie alternativ ă l a p i c i o a r e e s t e r e c o m a n d a tă și pentru
 tulburări menstruale.
 
-55
-
 Mersul prin apă
 Mergeți pe jos, 20 de minute, înainte și dup ă tratament. Aceasta pentru a
 încălzi picioarele înaintea tratamentului și pentru a le ține calde după tratament.
@@ -1475,8 +1433,6 @@ din nou aproape normal ă în întregul bra ț și s-a vindecat. V ă pute ți
 imagina acum, cât de feri cit a fost fermierul… Și eu îi sunt recunosc ător
 și-i mulțumesc domnului Zerlauth, pentru ziua în care mi-a spus aceast ă
 istorioară, din care am învățat foarte mult.
-
-56
 
 ### Gușa
 
@@ -1534,7 +1490,6 @@ De obicei, ceaiul de pelin e f ăcut prea tare. O priz ă mic ă de pelin trebui
 pusă l a i n f u z a t , 3 s e c u n d e , î n t r - o c a nă cu ap ă (purificat ă sau filtrat ă) fiart ă,
 fierbinte, și ceaiul este gata. Ar trebui s ă se disting ă cu greu ceaiul de pelin - de
 
-57
 apă.
 În caz de intoxica ții alimentare, pelinul ar trebui fiert dou ă sau trei minute,
 sau s ă fie l ăsat la infuzat, 10 minute, în ap ă (purificata sau filtrat ă) fiart ă,
@@ -1585,8 +1540,6 @@ lăsată la infuzat, 10 minute, într-o can ă de ap ă (purificată sau filtrat
 fierbinte.
 Trebuie s ă face ți urm ătoarele exerci ții de respira ție: Inspira ți profund pe
 nas. Apoi expirați pe gură scoțând sunetele:
-
-58
 
 I E O U A Ș
 
@@ -1639,8 +1592,6 @@ Pentru a stimula inima și respira ția, stropi ți cu ap ă proasp ătă între
 bolnavului.
 Un efect stimulator are și mirosirea de săruri sau apă de colonie.
 
-59
-
 ### Țiuituri în urechi
 Acestea sunt cauzate, în principal, de o congestie a sângelui în timpan, sau
 de o irita ție a nervilor auditivi. Un alt motiv poate fi rigidizarea timpanului, sau
@@ -1687,8 +1638,6 @@ fosforul.
 Cei care se preg ătesc pentru un examen important trebuie s ă consume
 suficient fosfor cu trei săptămâni înainte. Astfel, vor trece examenul cu ușurință!
 Copiii care mănâncă multe căpșuni și mulți fragi învață mai ușor.
-
-60
 
 Afecțiuni ale prostatei
 În multe cazuri, o afec țiune a prostatei poate degenera în cancer. Un b ărbat
@@ -1743,7 +1692,6 @@ Picăturile trebuie luate ne-diluate. Un efect favorabil apare dup ă trei pic �
 Patru picături sunt prea multe. În acest mod, dizenteria este vindecat ă în 24 de
 ore. Rareori, dizenteria persist ă și a doua zi, iar atunci trebuie s ă mai lua ți
 
-61
 picături. Vindecarea depinde și de modul în care sunt preparate aceste pic ături.
 Dacă cineva are posibilitatea să le prepare singur, este cel mai bine.
 Pentru o tinctur ă de sclipe ți bun ă și eficient ă, r ădăcinile adunate toamna,
@@ -1791,8 +1739,6 @@ pâine. Brânza cu conținut mare de grăsime, sau slănina… absorb acidul gas
 exces. Mâncate cu pâine, produc chiar mai mult acid gastric și arsurile se
 înrăutățesc.
 
-62
-
 ### Bâlbâiala
 Bâlbâiala e o tulburare nervoasă.
 De aceea, be ți una până la trei c ăni de ceai din coji de mere cald sau rece,
@@ -1839,8 +1785,6 @@ naturale. Doresc să spun că o lipsă a voinței este, de asemenea, un motiv pe
 alcoolism, și în aceste cazuri cea mai mică bucurie sau supărare este un motiv de
 a bea.
 
-63
-
 ### Flebită (Inflamație a venelor)
 
 Flebită (Inflamație a venelor)
@@ -1883,8 +1827,6 @@ Trebuie să beți ceai de păst ăi de fasole, frunze de mure, frunze de afin ș
 2-3 căni de apă (purificată sau filtrată) fiartă, fierbinte. Acest ceai trebuie băut cu
 înghițituri mici, peste zi. În plus, trebuie s ă luați 3 picături de tinctură de sclipeți,
 o dată sau de două ori pe zi.
-
-64
 
 ## DESPRE CURA CU ALOE
 
@@ -1980,8 +1922,6 @@ perioadă îndelungată (6 luni - 1 an).
 mai mult de 50%. Frecven ța complicațiilor (renale, cardiovasculare, infec țioase
 etc.) scade foarte mult.
 
-66
-
 Afecțiuni ale tractului gastro-intestinal
 Prin efectul de stimulare al regener ării celulare, permite cicatrizarea rapidă a
 ulcerului gastro-duodenal. Absoar be acidul clorhidric în exces și are efect
@@ -2006,10 +1946,8 @@ Afecțiuni dermatologice
 vindecarea temporar ă a leziunilor. Pentru a evita reapari ția bolii, este necesară
 asocierea aplicațiilor locale cu… cura internă de gel.
 
-Pentru alte informa ții, v ă rog s ă m ă contacta ți la tel. 069-231538 sau pe
+Pentru alte informa ții, v ă rog s ă m ă contacta ți la sau pe
 adresa: Medic Monica Mănișor, O.P. – 1, C.P.88, 2400 – Sibiu
-
-67
 
 ## RECOMANDĂRI GENERAL VALABILE
 
@@ -2059,7 +1997,6 @@ boală nu poate fi vindecată.”
 „Noi am folosit întotdeauna bilele de naftalin ă pentru molii și înc ă n-a fost
 nimeni bolnav în familia noastră!” a spus atunci mama.
 
-68
 Dar, eu știam că nu era lună în care casa noastră să nu fie vizitată de medic!
 Mama mea a suferit de edeme ale picioarelor de când m-am născut și tatăl meu a
 fost un b ăutor. El a promis de nenum ărate ori c ă se va l ăsa de b ăut - adesea
@@ -2095,8 +2032,6 @@ este fără valoare. Este greu digerabil ă, indigestă, nu con ține nutrienți
 vitamine și minerale. Aceast ă mâncare poate umple un gol în stomacul
 dumneavoastră, dar nu va contribui la o bună stare de sănătate.
 Nu uitați: Evitați să mâncați mâncare reîncălzită!
-
-69
 
 ## CÂTEVA SFATURI PENTRU FERMIERI
 

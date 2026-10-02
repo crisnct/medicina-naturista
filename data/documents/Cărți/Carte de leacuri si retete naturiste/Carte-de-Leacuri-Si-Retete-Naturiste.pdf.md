@@ -191,7 +191,7 @@ amestec din scoarță de stejar, flori de tei, în proporție de 2:1. Peste 2 li
 ### Semipareză laringiană
 înghițitul în sec, pentru stimularea mușchilor paralizați. Se masează partea afectată, se poată aplica suc de ghimpir, pe această zonă.
 ### Tiroidặ nodularặ
-tratament alopat cu Eutyrox și Thyreoton, urmat de tratament naturist sub îndrumarea D-nei Serac, tel 021/637.30.22 sau 0722/19.33.00.
+tratament alopat cu Eutyrox și Thyreoton, urmat de tratament naturist sub îndrumarea D-nei Serac, sau.
 ### Usturimi în gât, faringita
 ceai de frunze de salcie. Gargară cu apă
 
@@ -282,7 +282,7 @@ Betaguard, un integrator nutrițional natural, creat pentru cei care lucrează �
 ### Neo pulmonar
 se beau 250 - 300 ml./zi suc de sfeclă. Se face o pastă din praf de pelin (plafar), fagure de miere, miere polifloră, spirt din cereale de 87, se amestecă într-un vas de porțelan cu o lingură de lemn, se pune pe un tifon, compresa se pune pe spate unde este tumoră, se prinde cu un pansament elastic. Pe pat se pune o folie de plastic, ca să nu păteze. Compresa se pune seara și se ia dimineața, se umezește și se folosește timp de 7 zile, după care se prepară altă pastă. Pe zi se mănâncă 5 pere, 20 alune crude dimineața și 20 alune crude seara Sau pulbere de cătină, ½ - 1 linguri ță pe stomacul gol înainte de masă, mărește apetitul și sistemul imunitar. (vezi, medicamente).
 ### Plămân uscat
-din cauza fumatului, preparat care opreș te fumatul numit Mai, se poate procura de la tel. 021/668.51.36.
+din cauza fumatului, preparat care opreș te fumatul numit Mai, se poate procura de la.
 ### T.B.C., bronșită, pleumonie
 tratament Islanda
 ### Lichen de piatra
@@ -447,7 +447,7 @@ puțin, duminică puteți încera o mâncare nouă. Pancreatită, insuficiență
 ## RINICHI
 
 ### Carcinom tranzițional pseudopapilar al vezicii
-George Motorca, Farmacia Verde, Oradea, cartier Nufărul 2, Str. Traian Goga nr. 17, tel. 0259/225252, 467704, tratament cu ceaiuri circa 7 luni. Sau pulbere de cătină, ½ - 1 linguri ță înainte de masă pe stomacul gol, mărește apetitul și sistemul imunitar.(vezi, medicamente.)
+George Motorca, Farmacia Verde, Oradea, cartier Nufărul 2, Str. Traian Goga nr. 17, 467704, tratament cu ceaiuri circa 7 luni. Sau pulbere de cătină, ½ - 1 linguri ță înainte de masă pe stomacul gol, mărește apetitul și sistemul imunitar.(vezi, medicamente.)
 ### Carcinom vezical
 tratament naturist tibetan, prin administrarea în primele 2 – 3 luni a ceaiului antilipemic, Holican și Cordiceps, pentru a stopa creșterea tumorală primară, precum și
 
@@ -560,7 +560,7 @@ o mână de semințe se pun la uscat, se pisează cu coajă cu tot și se prepar
 1 linguriță de ulei seara înainte de culcare Este bine ca fiecar e bărbat începând cu vârsta de 40 de ani, să bea, timp de o lună pe an, ceai din următorul amestec: 10g, ienupăr, 50g. urzică moartă albă, 50g. flori de iarbă neagră, 50g. fumăriță, 50g. paracherniță, se amestecă plantele, la 1 litru de apă se pun 5 lingurițe, se fierbe 5 sec. se lasă la infuzat 15 min.
 
 ### Cancer genital
-clisme cu mărul lupului - 1 lingură pulbere mărul lupului, 1 lingură tătăneasă, 1 lingura mușețel, se lasă la macerat în ½ apă, de seara până diminea ța, se strecoară, apoi planta rămasă după filtrare se pune la fiert cu 1 litru de apă, până când scade la jumătate. Se răcește și se combină cu maceratul se fac spălături. La 3 - 4 zile, iar clismă la 2 zile , lichidul se ține în intestin 10 min. Dacă nu este indicat să se facă clismă se fac zilnic bai de șezut. În fază incipientă este recomandat produsul Cat’s Claw de la firma Heritage, sub formă de capsule, 600 ml Cura cu nặpraznic, de 6 luni, se ia o linguriț ặ de 4 ori/zi, sublingual, 10 min., dupặ care se înghite cu apặ. Tratamentul se poate folosi ca adjuvant în neuplazii uterine, mamare, pulmonare, intestinale sau cu alte localizặri. Cura cu macerat de Aloe Vera, 1;5 Kg. plantặ în vârstặ de 3 – 5 ani, se dặ prin mașina de tocat, se amestecặ cu 2,5 Kg. miere și 3,5 litri vin roșu dulce de 18 – 20 grade. Amestecul se pune într-un vas mare de sticl ặ închis la culoare, într-un loc rặcoros, ferit de luminặ, timp de 5 zile . In primele 5 – 7 zile se ia câte o lingiriț ặ de 3 ori/zi, înainte de mesele principale. Zilele urmặtoare se va adặ uda câte o lingurițặ în plus, la fiecare dozặ. Tratamentul dureazặ 6 sặptặmâni cu o pauzặ de 10 zile, apoi se poate repeta. (Peia Mircea, Timișoara – 0256431891 )..
+clisme cu mărul lupului - 1 lingură pulbere mărul lupului, 1 lingură tătăneasă, 1 lingura mușețel, se lasă la macerat în ½ apă, de seara până diminea ța, se strecoară, apoi planta rămasă după filtrare se pune la fiert cu 1 litru de apă, până când scade la jumătate. Se răcește și se combină cu maceratul se fac spălături. La 3 - 4 zile, iar clismă la 2 zile, lichidul se ține în intestin 10 min. Dacă nu este indicat să se facă clismă se fac zilnic bai de șezut. În fază incipientă este recomandat produsul Cat’s Claw de la firma Heritage, sub formă de capsule, 600 ml Cura cu nặpraznic, de 6 luni, se ia o linguriț ặ de 4 ori/zi, sublingual, 10 min., dupặ care se înghite cu apặ. Tratamentul se poate folosi ca adjuvant în neuplazii uterine, mamare, pulmonare, intestinale sau cu alte localizặri. Cura cu macerat de Aloe Vera, 1;5 Kg. plantặ în vârstặ de 3 – 5 ani, se dặ prin mașina de tocat, se amestecặ cu 2,5 Kg. miere și 3,5 litri vin roșu dulce de 18 – 20 grade. Amestecul se pune într-un vas mare de sticl ặ închis la culoare, într-un loc rặcoros, ferit de luminặ, timp de 5 zile. In primele 5 – 7 zile se ia câte o lingiriț ặ de 3 ori/zi, înainte de mesele principale. Zilele urmặtoare se va adặ uda câte o lingurițặ în plus, la fiecare dozặ. Tratamentul dureazặ 6 sặptặmâni cu o pauzặ de 10 zile, apoi se poate repeta. (Peia Mircea, Timișoara – )..
 ### Cancer de prostată
 vezi cancer genital
 ### Candidoză
@@ -626,7 +626,7 @@ se consolidează mult mai repede când se administrează coada calului, bogată 
 ### Apă la genunchi
 o frunză de brusture se pune pe masă și se zdrobește cu o sticlă, apoi se pune pe o compresă pe genunchi, procedura se face timp de o săptămână de 3ori/zi.
 ### Cancer genunchi
-pe linga tratament cu citostatice si cobaltoterapie, se face tratament naturist, antitumoral cu Tian Xian și Carctol (informații 021/212.62.72)
+pe linga tratament cu citostatice si cobaltoterapie, se face tratament naturist, antitumoral cu Tian Xian și Carctol (informații )
 ### Călcâie crăpate
 rădăcină de tătăneasă în 100ml. alcool 50 - 60 se macerează 3 - 4 zile, apoi se ung tălpile. In fiecare seară după ce v-ați spălat și frecat cu o perie sau piatră ponce, ungeți-le cu ulei de parafină 100g. amestecat cu vitamina A o fiolă, apoi încălțați-vă cu o pereche de șosete. Sau grăsime curată de porc, amestecată cu câteva picături de ulei de măsline.
 ### Circulație periferică
@@ -720,7 +720,7 @@ dormitul pe o suprafață tare. Se fac băi de șezut cu coada calului, în care
 ### Durei articulare
 Bio-seleniu+zinc, Bio-Marin Plus.
 ### Dureri de spate
-tratamentul terapeutului Tiberiu Kovacs tel. 0744/160118, din Zalặu, jud Sặlaj, remediazặ afecțiuni de coloan ặ, mâini, picioare, scoliozặ,hernie de disc, torticolis, dorsargii.
+tratamentul terapeutului Tiberiu Kovacs, din Zalặu, jud Sặlaj, remediazặ afecțiuni de coloan ặ, mâini, picioare, scoliozặ,hernie de disc, torticolis, dorsargii.
 ### Fractura
 ### Hernia de disc
 raze calorice în fața sobei, cu ușa deschisă, când este numai jar, cu spatele gol. Durata unei ședințe este de 20 min. dimineața și 20 min. seara. După 10 - 15 ședințe durerile se diminuează, iar după o lună au dispărut
@@ -984,7 +984,7 @@ alimente și suplimente nutriționale de slăbit
 ### Mierea de albine
 îndulcitor ideal pentru ceai, lapte, cafea, suc. Nu poate fi folosită la prepararea unor prăjituri, nici a cozonacilor, (aluatul îndulcit cu miere nu crește), preparată termic la 70 grade devine toxică.
 ### Zahărul brut
-granule ca zahărul obișnuit dar sunt închise la culoare. Pentru gătit se comportă ca și cel obișnuit, dar are punctul de topire mai jos, face mai puțină spumă. Firma exportatoare Sano-Vita 021.222.03.47, 072237186.
+granule ca zahărul obișnuit dar sunt închise la culoare. Pentru gătit se comportă ca și cel obișnuit, dar are punctul de topire mai jos, face mai puțină spumă. Firma exportatoare Sano-Vita,.
 ### Lămâia
 sucul stimulează pofta de mâncare. 2 lingurițe de suc, neândulcit cu 1 pahar de apă, se bea înainte de masă cu ½ de oră, ajută la stimularea fluxului de salivă și a sucurilor gastrice..
 ### Lenicalm
@@ -1050,7 +1050,7 @@ Intim gel H, pentru fibroamele uterine și a hemoroizilor.
 Adenom-Liz, pentru prostată, sub formă de supozitoare.
 Kerato-Liz, afecțiuni cutanate grave, carcinoame, melanoame și
 alte formațiuni tumorale ale epidermei.
-Sediul în Str. Toamnei nr. 100 tel. 2100082/2103470.
+Sediul în Str. Toamnei nr. 100.
 Macerat gliceric de arin negru; ulcer gastroduodenal.
 ### Morcov
 sucul conține beta-caroten, potasiu și substanțe anticanceroase, fiind cel mai important furnizor de vitamina A, conține fier, în combaterea anemiei și a tulburărilor de creștere, pentru intestine acționează ca un regulator și cicatrizant gastric, în tinerește celulele și stimulează funcțiile hepatice. Se consumă crud ras sau suc.
@@ -1436,7 +1436,7 @@ tratament cu produse de la Natura Medica (Vasile Popa), MULTIFRUCT TOTAL FORTE, 
 PROTEINVEG 1, regim adecvat, ceaiuri, băi de plante cu coada
 calului, coada șoricelului, cimbru și masaje.
 ### Scleroza în plăci
-frunze zdrobite de brânca ursului se aplică pe coloană timp de 3 - 4 ore/zi. Tratamentul se face în timpul verii când planta este verde, în timpul iernii se face masaj cu ulei din brânca ursului (10 linguri pulbere de plantă uscată (vezi frigiditate),se pun în ½ litru de ulei din floarea soarelui, se lasă la macerat timp de 3 săptămâni. Filtratul se păstrează în sticluțe închise la culoare.(vezi epilepsia) Se poate stopa din evoluție prin apifitoterapie, cu venin de albine, precedat și însoțit de o cură pe bază de plante. Tratamentul cu venin se face sub supraveghere medicală și cu scheme terapeutice individualizate – Dr. Cristina Aoșan 0788411941.
+frunze zdrobite de brânca ursului se aplică pe coloană timp de 3 - 4 ore/zi. Tratamentul se face în timpul verii când planta este verde, în timpul iernii se face masaj cu ulei din brânca ursului (10 linguri pulbere de plantă uscată (vezi frigiditate),se pun în ½ litru de ulei din floarea soarelui, se lasă la macerat timp de 3 săptămâni. Filtratul se păstrează în sticluțe închise la culoare.(vezi epilepsia) Se poate stopa din evoluție prin apifitoterapie, cu venin de albine, precedat și însoțit de o cură pe bază de plante. Tratamentul cu venin se face sub supraveghere medicală și cu scheme terapeutice individualizate – Dr. Cristina Aoșan.
 ### SIDA
 pentru creșterea imunității se ia un supliment de alimentație de la firma Calivita Internațional. Produsul este un sirop dintr-o plantă Marinde citrifolia, din Asia, cunoscută mai ales în India și China. Substanța activă este Xeronina. Tratamentul este de 6 luni. Cu rezultate spectaculoase.
 ### Trandafirul
@@ -1458,12 +1458,12 @@ filtrată fizic, apă pură care fierbe la mai puțin de 100C și îngheață la
 ### Arama
 obiectele devin ca noi dacă sunt spălate în zeamă de varză fierbinte și apoi frecate cu cenușă. Ață; când se înoadă sau se rupe, se trece de 2 ori printr-o bucățică de ceară.
 ### Cabinet medical Termodiagnostic TERMOMED
-Str. Vlasdislav Voievod nr. 20 – 22 sec. 2. (Șos. Colentina, mai sus de Obor). Tel o21 242 14 46. Diagnostic, glandă mamară, ORL, gastroenterologie, ficat, plămâni, oncologie, tumori cutanate, metastaze, limfatice, melanom, ginecologie, ap. locomotor
+Str. Vlasdislav Voievod nr. 20 – 22 sec. 2. (Șos. Colentina, mai sus de Obor).. Diagnostic, glandă mamară, ORL, gastroenterologie, ficat, plămâni, oncologie, tumori cutanate, metastaze, limfatice, melanom, ginecologie, ap. locomotor
 ### Climax
 ceai de traista ciobanului, 1 cană dimineața și 1 cană seara, (reglează tensiunea și un adjuvant în cazul tensiunii oscilante), ceai de păducel (echilibrează sistemul neurovegetativ)
 
 ### Clinici de dezalcoolizare
-în Sibiu tel. 0744/860145; 0723/768670, Așezământul Nazaret, din Șura Mică, Str. Principală nr. 405, Jud. Sibiu, cod 2442, tel. 0269/577316.
+în Sibiu, Așezământul Nazaret, din Șura Mică, Str. Principală nr. 405, Jud. Sibiu, cod 2442,.
 ### Cositor
 obiectele se spală în leșie preparată din cenușă de lemn, apoi se freacă cu făină amestecată cu sare.
 ### Extractul de tiroidă
@@ -1494,7 +1494,6 @@ formarea tumorilor, de aceea ar trebui sặ ducặ o viaț ặ sặnặtoasặ.
 Predispoziția la cancer este legat ặ de o asimilare deficitarặ a
 vitaminei A
 ### Maica Violeta Mocanu
-0237/265835, 0725/632867, 0721/259359
 ### Moliile
 boabele de piper, firele de tutun și camforul le alungă Coaje sau ulei aromat de cedru, rặmurele mici de tuia, coji de lặ mâie uscate, semințe de morcov..
 ### Monede

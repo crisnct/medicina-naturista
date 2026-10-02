@@ -4,7 +4,6 @@ Healing Foods
 The Self Help Cancer Cure Book
 The Heal Yourself Series of Self Help books
 
-Copyright © 2010
 by Walter Last
 
 Any part of this book may be freely reproduced for
@@ -22,8 +21,6 @@ By Walter Last.
 
 Includes bibliographical references and index.
 1. Naturopathy. 2. Healing. I. Title.
-
-ISBN 978-0-9803281-7-2
 
 Disclaimer
 
@@ -445,9 +442,6 @@ structure, and using electrical, magnetic, and vibrational medicines and approac
 
 * * * * * * * * * * *
 
-1
-Heal Yourself - The Natural Way
-
 Step 1
 THE ROAD TOWARDS DISEASE
 Become aware of the factors causing your illnesses.
@@ -489,8 +483,6 @@ acids. Here are some further complications:
 • Protein Debris: This accumulates when we eat more protein than we
  metabolize. Small protein fragments clog up capillaries and lymph channels
  through which nutrients move into cells and waste is removed. Current research
-2
-Heal Yourself - The Natural Way
 
 shows that virtually all chronic diseases are strongly associated with protein debris
 accumulating within cells.
@@ -538,8 +530,6 @@ nutritional status of the host. Another interesting study found that viruses bre
 hosts that are deficient in protective nutrients, such as selenium or vitamin E, tend to
 mutate and change from benign into very virulent and lethal forms. With sufficient
 levels of these nutrients, someone may be immune to the benign form of the virus but
-3
-Heal Yourself - The Natural Way
 
 not to the mutated form that is produced within a deficient host. For example, most of
 the influenza epidemics with new virulent strains that periodically sweep the world
@@ -586,8 +576,6 @@ The main problem foods are as follows:
  foods.
 2. Wheat and to a lesser extent the other gluten grains oats, rye and barley (e.g. in
  beer).
-4
-Heal Yourself - The Natural Way
 
 3. Sweet foods, especially sugar, fructose used as sweetener, and synthetic
 sweeteners.
@@ -633,8 +621,6 @@ benefited from a reduced exposure to medical drugs, operations, and other
 technological interventions. There is an abundance of statistics, estimates, and case
 reports of the great number of patients who are in the hospital or worse because of
 disease caused by medical drugs and medical technology.
-5
-Heal Yourself - The Natural Way
 
 Selfish Motivation: Our medical and economic leaders do not want to face
 reality. They brainwash the public into believing that the present health situation is
@@ -650,8 +636,6 @@ come only when more and more people realize that ultimately they harm themselves
 with selfish attitudes. Recognizing this is a first step towards improving your health.
 
 * * * * * * * * * * *
-6
-Heal Yourself - The Natural Way
 
 Step 2
 
@@ -696,8 +680,6 @@ improvement that will effectively reduce the total number of people becoming sic
 and ultimately hinder the development of any disease.
 Eventually, with better genetic stock and improved living conditions, we should
 be able to live an active and enjoyable life until the age of about 120 years and then
-7
-Heal Yourself - The Natural Way
 
 quietly withdraw from the body. This is the presently unknown “natural death.” My
 reason for taking this position is the fact that some individuals have managed to
@@ -745,8 +727,6 @@ lecithin, choline, insulin adrenaline, cholesterol
 sedation, releasing energy stimulation, giving energy
 magnetic south-pointing pole magnetic north-pointing pole
 deep, slow acupressure rapid, light acupressure
-8
-Heal Yourself - The Natural Way
 
 Basic Rules for Healthy Living
 
@@ -795,8 +775,6 @@ before sleeping
 • Press tender points on feet and body; squat for bowel movements; exercise; meditate
 
 A fundamental aim of all healing is to provide the body with more vitality or a A
-9
-Heal Yourself - The Natural Way
 
 The Health Improvement Program: The basic requirements for real healing
 involve the reversal of the factors previously listed (Step 1) as the cause of health
@@ -840,8 +818,6 @@ health improvement efforts as a deadly serious matter, a “life-or-death” str
 everything else in life, they are best conducted in a light and playful way, by exploring
 and enjoying yourself, even if it sometimes hurts. Remember: True healing means
 growing - learning and applying the laws of nature.
-10
-Heal Yourself - The Natural Way
 
 Balancing: An important general principle in healing is to aim for an overall
 balanced condition. Generally, every condition in our body is the result of the
@@ -867,9 +843,6 @@ frequently must endure before we can advance to a higher level of health. This i
 especially the case for those with a chronic degenerative disease.
 
 * * * * * * * * * * *
-
-11
-Heal Yourself - The Natural Way
 
 Step 3
 INTESTINAL SANITATION AND ANTIMICROBIAL THERAPY
@@ -914,8 +887,6 @@ While the intestines are often overactive during childhood due to high bacterial
 activity, with increasing age we tend to become more and more constipated. This is
 largely due to a lack of dietary fibre and a decrease in the bile flow, indicating a
 deficiency of lecithin and choline. The walls of the intestines become weak and
-12
-Heal Yourself - The Natural Way
 
 deformed as with diverticulitis; hard crusts begin to cover the intestinal walls and
 restrict their flexibility.
@@ -963,8 +934,6 @@ If you are constipated or overweight you may take 2 tablespoons when using it
 for the first time to make sure that it quickly comes out at the other end. It tastes less
 bitter if you refrigerate the dissolved Epsom salts overnight. In the morning you crush
 a large clove of garlic, mix and drink it with a small amount of water, and follow this
-13
-Heal Yourself - The Natural Way
 
 with the refrigerated drink and some more water. You may minimize the garlic odour
 by crushing cloves while they are submerged in lemon juice.
@@ -1012,8 +981,6 @@ advantage of containing a wide range of protective microbes and also to work at
 room temperature. I do not recommend using commercial yogurt to sanitise the
 intestinal tract because of the high content of mucus-forming lactose and limited
 strains of lactobacteria.
-14
-Heal Yourself - The Natural Way
 
 Commonly these ferments are rather acidic and may cause digestive problems
 in sensitive individuals. Therefore it is preferable for sensitive individuals to partly
@@ -1061,8 +1028,6 @@ in the stomach) and kill microbes in food. An inadequate amount of hydrochloric 
 undesirable and pathogenic bacteria and fungi. This can cause or contribute to
 malabsorption, intestinal distress, and allergies to products resulting from bacterial
 and fungal breakdown, and in turn it will weaken the immune system.
-15
-Heal Yourself - The Natural Way
 
 Symptoms associated with insufficient gastric acid are belching, discomfort
 after eating or food lying heavily in the stomach, and anaemia. Often the lymphatic
@@ -1109,8 +1074,6 @@ iodine to remove much of your microbial load in a relatively easy way, and with 
 side effects than with MMS. Furthermore, iodine has a special affinity for mucous
 membranes which are also an attractive hiding place for fungi. Iodine is an all-round
 antimicrobial and an excellent fungicide.
-16
-Heal Yourself - The Natural Way
 
 It is commonly used as Lugol's solution with 10% of potassium iodide and 5%
 iodine, and may be called 5% iodine solution. Each drop contains about 6.5 mg of
@@ -1158,8 +1121,6 @@ juice but preferably with a more effective 10% solution of citric acid in water.
 make this yourself by dissolving 1 part of ci tric acid crystals in 9 parts of water. Less
 recommended is white vinegar (but not cider vinegar which can sometimes
 aggravate fungal problems).
-17
-Heal Yourself - The Natural Way
 
 Three to four minutes after adding the acids add half a glass of water or herb
 tea, or juice without added vitamin C, e.g. apple or grape juice but not orange juice.
@@ -1205,8 +1166,6 @@ acute infection you may follow up with a second dose As a general cleanse you ma
 use this or a lower or higher dose for 2 to 3 weeks, best at bedtime. With a persistent
 infection continue on and off for a longer time, you may experiment with one week on
 a high dose of MMS alternated with several weeks on a high antioxidant intake.
-18
-Heal Yourself - The Natural Way
 
 The rectal absorption method is good with problems in this area, such as
 rectal or prostate cancer, irritable bowel, and infections, cysts and cancers of the
@@ -1253,8 +1212,6 @@ Fungi can be controlled with alkalizers. Due to its alkalinity sodium bicarbonat
 is a strong fungicide, and potassium bicarbonate is even stronger. Half to one
 teaspoon of bicarbonate in a glass of water taken on an empty stomach or 2-3 hours
 after meals can be used several times daily to sanitize the intestinal tract and alkalize
-19
-Heal Yourself - The Natural Way
 
 the lymphatic system. Bicarbonate solution is ve ry effective in direct contact such as
 for rinsing out the mouth, sinuses or vagina or as packs over sites of fungal infection
@@ -1301,8 +1258,6 @@ Pau d’arco; Pau d’arco (also called taheebo or lapacho) is a strong fungicid
 from the inner bark of a South American tree. It has the advantage of tasting
 reasonably pleasant. Either use extract or make tea: one tablespoon of bark or a
 heaped teaspoon of powder in a large cup of water. Bring to boil and let simmer or
-20
-Heal Yourself - The Natural Way
 
 steep for 5 to 15 minutes; drink 3 cups a day. Powdered pau d’arco in capsules or
 cold water does not work but you may use the extract in capsules. Use 3 capsules of
@@ -1341,9 +1296,6 @@ approach in which you need to be flexible and take responsibility for your healt
 your actions instead of just following the orders of a doctor.
 
 * * * * * * * * * * *
-
-21
-Heal Yourself - The Natural Way
 
 Step 4
 FASTING & CLEANSING
@@ -1387,8 +1339,6 @@ functions much sooner.
 These waste products impair cellular functions and our overall health in many
 ways: they interfere with the movement of nutrients into the cell and metabolic
 wastes out of the cell, they poison the oxidative energy production or respiratory
-22
-Heal Yourself - The Natural Way
 
 chain of the mitochondria and cause us to be low in energy, they interfere with the
 signalling capacity of nerve cells and the normal function of muscle cells, and they
@@ -1434,8 +1384,6 @@ negative way; a sense of peace and well-being may develop instead. As long as yo
 are still congested during a fast, your tongue will be strongly coated and your breath
 may have a strong odour when you get up in the morning. Conversely, if your breath
 and tongue are clear in the morning, your body is reasonably clean and no more
-23
-Heal Yourself - The Natural Way
 
 fasting is needed. To freshen your breath, you can scrape or brush your tongue clean
 whenever it is heavily coated; use a sharp-edged spoon for scraping.
@@ -1480,8 +1428,6 @@ I recommend that you use this most effective cleanse from time to time,
 perhaps once or twice a year. It is designed to clean out and sanitize your
 gastrointestinal tract, liver, and gallbladder. Eat organic apples only for the first three
 days, as many as you like. Granny Smith or other tart apples are preferable, but if
-24
-Heal Yourself - The Natural Way
 
 you feel that they are too acidic for you, then use a sweeter variety. If organic apples
 are not available, then remove the skin and core of conventionally grown apples.
@@ -1529,8 +1475,6 @@ There are many possible variations of this Basic Cleanse. For instance, if you
 do not have a juice extractor, you can either continue longer with apples or have a
 few small raw salads instead. If you cannot get organic apples but have plenty of
 wheat or barley grass and vegetables for juicing, then you can extend the juice
-25
-Heal Yourself - The Natural Way
 
 schedule from five to eight days; have the castor-oil packs, olive oil, garlic, Epsom
 salt, and acidophilus during the first three or four days. Also highly recommended are
@@ -1577,8 +1521,6 @@ Special inversion equipment, on which you can hang upside down, is available, or
 you can use an inclined board, simply put your legs up against a wall while lying on
 the floor, do the leg motions of bicycling while in the inverted position, or do a
 shoulder stand or headstand as described in hatha yoga.
-26
-Heal Yourself - The Natural Way
 
 THE LONG CLEANSE
 A Long Cleanse of about 6 weeks duration on either a small amount of
@@ -1624,8 +1566,6 @@ to keep the bowels moving. Apple fasts are usually well tolerated, and they are 
 good for children.
 Fasting on freshly pressed vegetable juices is somewhat more severe but
 generally well tolerated. Preferably use plenty of green juice made from wheat or
-27
-Heal Yourself - The Natural Way
 
 barley grass, vegetable leaves, and celery, flavoured with sweet vegetables such as
 carrot, beet root, or pumpkin, and possibly an apple. This juice may be diluted with
@@ -1672,8 +1612,6 @@ force, It is not as difficulty to do as it may sound because after a few days it
 diluted that it just tastes like water. For details see Step 22.
 If you suspect your body is overloaded with chemicals or that your liver’s ability
 to detoxify is reduced, do only mild fasts initially, such as the rice diet and raw food
-28
-Heal Yourself - The Natural Way
 
 diet. Also supply yourself with plenty of sulphur in the form of MSM (see Part 3) or,
 alternatively, use onions, raw egg yolk, and possibly the amino acids cysteine and
@@ -1698,9 +1636,6 @@ mouthful and hold it under the tongue for about two minutes. Then spit it out an
 repeat the process until the cup is empty.
 
 * * * * * * * * * * *
-
-29
-Heal Yourself - The Natural Way
 
 Step 5
 ALLERGY TESTING
@@ -1728,7 +1663,6 @@ an acute allergic reaction or a general inflammatory condition, hyper-excitabili
 increased blood pressure, palpitation, aggressiveness, anxiety or anger, and poor
 digestion. This incidentally, is the basis for the connection between junk food
 consumption and criminality.
-2
 If we continue eating the same problem food nearly every day or continue to be
 plagued by stressful memories or conditions, then the stress becomes permanent
 and the body adapts by releasing anti-inflammatory hormones. The symptoms of the
@@ -1745,8 +1679,6 @@ arthritis, cancer, heart disease, and any of the other diseases typical in our s
 Finally, even this chronic inflammatory condition subsides and we have the stage of
 advanced old age with senility, debility, and the final non-sensitive stages of
 degenerative diseases.
-30
-Heal Yourself - The Natural Way
 
 This sequence of ill health shows us the requirements for genuine health
 improvement. By permanently removing the offending problem food or other chronic
@@ -1793,8 +1725,6 @@ depends mainly on the effort you put into adopting a comprehensive health
 improvement program.
 Types of Allergies: Depending on its severity and mode of manifestation, we
 may distinguish five types of allergy: addictive, cyclic, fixed, multiple, and trigger.
-31
-Heal Yourself - The Natural Way
 
 An addictive allergy induces us to eat our favourite food every day or we are
 threatened with withdrawal symptoms. Therefore, we have a craving for a certain
@@ -1841,8 +1771,6 @@ triggers will help to some degree, but the underlying health deterioration conti
 and a new trigger can readily be adopted.
 Elimination Testing: There are various forms of allergy testing, some
 technical, others a simple skin scratch method, and there is also muscle testing or
-32
-Heal Yourself - The Natural Way
 
 pulse testing. None of these, however, is as reliable as proper elimination testing,
 called the elimination diet. Here’s how to do it:
@@ -1889,8 +1817,6 @@ can check your reading ability with a wall chart; schoolchildren can be tested f
 clarity of writing and speech. Check the range and pain level of impaired joints or
 muscles, and watch for any sign of bodily or emotional discomfort. Keep a detailed
 diary of the pulse rates, measurements, and any unusual happenings, feelings,
-33
-Heal Yourself - The Natural Way
 
 discomforts, and so on. Those with diabetes should also test their blood sugar level,
 and those with hypertension preferably should check their blood pressure (you can
@@ -1921,9 +1847,6 @@ testing or adopt a safe, low-allergen diet. The body can be made less sensitive 
 allergic reactions by making the body more alkaline, as in Step 6.
 
 * * * * * * * * * * *
-
-34
-Heal Yourself - The Natural Way
 
 Step 6
 THE ACID-ALKALINE BALANCE
@@ -1968,8 +1891,6 @@ to test your urine and saliva for acidity.
 The Regulation of Body Acidity: The body tries to keep the blood acidity
 constant within a very narrow band, between pH 7.35 and 7.45. This is actually a
 slightly alkaline condition. The pH is a measure of acidity or alkalinity and indicates
-35
-Heal Yourself - The Natural Way
 
 the hydrogen ion concentration in a fluid. These hydrogen ions are the originators of
 acidity. A pH of 1 indicates the highest hydrogen ion concentration and with this the
@@ -2017,8 +1938,6 @@ at pH 4 purple, pH 6 violet, pH 8 blue, pH 10 blue-green, and pH 12 green-yellow
 Finely chop some red cabbage, pour hot water over it and soak for 10 to 20 minutes,
 then filter through some gauze or tissue. In a small clear glass add a spoonful of
 filtered juice to a similar amount of a test liquid, stir gently and compare with the
-36
-Heal Yourself - The Natural Way
 
 colour chart. Refrigerated the rest of the juice, use within a week or two, or keep
 frozen. Also other purple juices work in a similar way, just experiment.
@@ -2070,8 +1989,6 @@ Stiffness, rigidity Red-rimmed eyes
 Fusion of vertebrae Headaches, nausea
 Arthritic deposits causing bone deformations Acute arthritic attacks
 Arteriosclerosis Allergies, palpitations
-37
-Heal Yourself - The Natural Way
 
 Alkalizing the Body: Fresh green vegetable juices and vegetable broth are
 strongly alkalizing foods, especially the broth of boiled potato peelings. While fresh
@@ -2117,8 +2034,6 @@ The day before all the liquid is used up, start a fresh mixture of dolomite with
 vinegar. You can use apple cider vinegar, preferably organic, but white vinegar is
 adequate for this purpose as well. It is also possible to use lemon juice instead of
 vinegar.
-38
-Heal Yourself - The Natural Way
 
 Table 1-3: Calcium/Phosphorus Ratio of Foods
 You can minimize inflammations by selecting foods with a high ratio of calcium to
@@ -2177,8 +2092,6 @@ Dolomite supplies calcium and magnesium in the generally desirable ratio of
 additional calcium is required, then you can use powdered eggshell, powdered shell
 grit, or commercial calcium carbonate for neutralizing. A 50 ml amount of neutralized
 vinegar carries about 800 mg of calcium into the body.
-39
-Heal Yourself - The Natural Way
 
 If we took calcium carbonate or dolomite powder instead of dissolving it, we
 would use up our precious supply of gastric acid to neutralize and dissolve these
@@ -2219,8 +2132,6 @@ The higher the phosphorus intake, the higher your combined calcium and
 magnesium intake should be.
 
 * * * * * * * * * * *
-40
-Heal Yourself - The Natural Way
 
 Step 7
 LIVING WATER
@@ -2261,8 +2172,6 @@ mountain streams. While it is easy to produce water meeting several of these
 requirements, there are some problems getting all of them in the same water. A main
 problem is the present lack of reliabl e measuring devices for bioenergy and the
 quality and strength of health-promoting vibrations.
-41
-Heal Yourself - The Natural Way
 
 Purity: This is easiest to achieve with readily available filters, distillers, and
 reverse osmosis. I have no strong preference for any particular method as long as
@@ -2309,8 +2218,6 @@ soluble nutrients can become suspended within the water cages and more easily
 absorbed during digestion. Also, various biochemicals, such as lecithin, detergents,
 soaps, and saponins, reduce surface tension, but this is not due to the formation of
 microwater.
-42
-Heal Yourself - The Natural Way
 
 Antioxidant Activity: The principle of antioxidant activity is the availability of
 electrons to neutralize any so-called free radicals, which have oxidizing qualities that
@@ -2356,8 +2263,6 @@ becomes coated with calcium deposits during long ionizing periods and loses its
 effectiveness or frequently needs to be cleaned. While the pH can be very high in
 alkalinity, it is in fact very weak, because the mineral density of ionized water is
 rather low and easily neutralized.
-43
-Heal Yourself - The Natural Way
 
 The negative charge of the alkaline water declines quickly with exposure to
 light and air and in contact with blank metal and soft plastics. However, in closed
@@ -2405,8 +2310,6 @@ inflammatory.
 Another possibility is to expose water overnight to a strong magnet. Water
 exposed to the south-pointing pole is most su itable for pain, cancer, and infectious or
 inflammatory conditions. The north-pointing pole can be used to energize weak
-44
-Heal Yourself - The Natural Way
 
 muscles and the digestive system, provided there is no inflammation or infection. You
 can also combine suitable magnet and color treatments.
@@ -2452,8 +2355,6 @@ in turbulent motion leading to vortex formations. High mineral content, especial
 colloidal silica, helps in retaining a high charge. Another recommended way is to
 leave drinking water for a while in contact with some freshly cut grass or leaves
 before using it.
-45
-Heal Yourself - The Natural Way
 
 The vortex principle is used in biodynamic agriculture for energizing liquid
 preparations. Use a large glass or ceramic container or a plastic bucket half-filled
@@ -2496,9 +2397,6 @@ vegetables fresh, raw, and organic as often as conveniently possible.
 
 * * * * * * * * * * *
 
-46
-Heal Yourself - The Natural Way
-
 Step 8
 THE PRACTICE OF HEALTHY LIVING
 Improve your environment—your house, clothes, even your teeth.
@@ -2540,8 +2438,6 @@ Here are some practical tips:
 • Avoid cooking and heating inside with gas or kerosene except if the combustion
  gases are being efficiently vented. Many people are allergic to these. Wood
  stoves or solar heating are preferable wherever feasible.
-47
-Heal Yourself - The Natural Way
 
 • If you live in a modern house, try to sanitize it by minimizing the use of synthetic
  items that release or outgas chemicals, such as formaldehyde from glued
@@ -2588,8 +2484,6 @@ the same low breast cancer risk as men.
 While this study was not adjusted for other factors, the difference in cancer rate
 is certainly large enough to be significant. A tight bra blocks the lymph circulation in
 the breasts and is much worse than a loose-fitting bra. If you need to wear a bra in
-48
-Heal Yourself - The Natural Way
 
 public, use a loose-fitting one without underwires and minimise using it at home. Also
 do some exercises to stimulate the lymph flow in the breasts, such as circling your
@@ -2636,8 +2530,6 @@ information on health problems due to electricity and many case reports, see:
 EMR exists around power lines, power tools, electric stoves, heaters, boilers,
 freezers, and television sets when in use, extending several feet or yards around the
 appliance. Stay away from them, if possible. Using an electric iron or an electric
-49
-Heal Yourself - The Natural Way
 
 keyboard or working with handheld power tools can quickly drain our energies. When
 working with electrical equipment, we can reduce harmful effects by holding our
@@ -2684,8 +2576,6 @@ Here are some more tips:
  USB modems for wireless broadband are harmless.
 Electro-Proofing Your House: The measures outlined so far will go some way
 towards reducing the harmful effects of EMR on your health. However, often they are
-50
-Heal Yourself - The Natural Way
 
 not enough. There is a simple way to check whether your home and workplace are
 sufficiently safe. You can do this by measuring the electricity that is absorbed by your
@@ -2732,8 +2622,6 @@ reading when you’re lying on a grounded electric blanket than on one without a
 ground connection. In this case, move the ground stake as far away as possible from
 any power sources that can cause this problem and find or create a good grounding
 behind the house where you can reach moist soil with a long ground stake. With a
-51
-Heal Yourself - The Natural Way
 
 short ground stake, try to keep the soil around it moist at all times. It is also possible
 to get a good ground by connecting the wire to a moist part of a tree or large outside
@@ -2777,8 +2665,6 @@ can also cover the area under the bed with several centimetres of quartz sand an
 use additional copper coils; moving the bed is the safest option. You may be able to
 check the bed yourself with a shortwave radio, because over a fault line the reception
 deteriorates; especially dangerous are crossings of fault lines.
-52
-Heal Yourself - The Natural Way
 
 Table 1-4: Teeth–Organ Connections
 Teeth are numbered from 1 to 8 starting at the midline of the upper and lower jaw.
@@ -2822,8 +2708,6 @@ harmless microbes become very dangerous under the anaerobic conditions in dead
 teeth.
 Weston Price, a dentist and former director of research for the American Dental
 Association some years ago, observed that the removal of root-canalled teeth from
-53
-Heal Yourself - The Natural Way
 
 patients with kidney or heart disease would in most cases lead to an improvement in
 those conditions. When he inserted a removed root-canalled tooth (human) under the
@@ -2862,7 +2746,6 @@ techniques than simple filling replacement, due to the body burden of mercury. T
 appears to be due to the migration of mercury not eliminated by simple filling
 replacement into the roots and gums. Mercury in the teeth and gums has direct
 routes to the brain and central nervous system.
-3
 Try to find a dentist who is familiar with safe amalgam removal procedures as
 recommended by holistic dentistry associations. Remove mercury by using high
 doses of vitamin C, Alpha Lipoic Acid, L-cysteine, MSM and chlorella before and
@@ -2872,8 +2755,6 @@ Injections of the mercury chelator DMPS can be administered by qualified health
 professionals. However, this procedure has occasionally lead to complications and
 the oral DMSA is less expensive and apparently safer. Nevertheless, both of these
 chelators can activate very high mercury levels from the bones and cause serious
-54
-Heal Yourself - The Natural Way
 
 problems, especially in sensitive individuals and neurological diseases. Therefore, I
 generally prefer the slower but safer method of using careful cleansing diets together
@@ -2899,9 +2780,6 @@ do not worry. Compensate for any shortcomings here with a better diet and positi
 thinking.
 
 * * * * * * * * * * *
-
-55
-Heal Yourself - The Natural Way
 
 Step 9
 EXERCISE
@@ -2945,15 +2823,10 @@ effort. In one position, press the chin to the chest and pull the abdomen inward
 up; in the other position, drop the head back as far as possible.
 Pull your stomach in with your exhale in the lying position (Fig. 1a); in the
 forward bending position (Fig. 1b); while sitting (Fig. 1c); and with the pelvis raised
-56
-Heal Yourself - The Natural Way
 
 (Fig. 1d). Start with a few exercises daily and gradually increase to 20 of each, but do
 not strain yourself.
 Figure 1-1: Rejuvenation Exercises
-
-57
-Heal Yourself - The Natural Way
 
 For a fifth rejuvenation exercise, spin or whirl 20 times with horizontally
 outstretched arms. In the Northern Hemisphere, the instructions are to spin
@@ -3004,8 +2877,6 @@ especially for those low in energy. You could even bounce on top of one or two
 innerspring mattresses.
 While you may develop a routine with various bounces, you can also use a
 lymphacising program instead of this or in addition to it. This is designed to greatly
-58
-Heal Yourself - The Natural Way
 
 speed up the lymph circulation while energizing your body at the same time. While
 lymphacising, remain with both feet firmly on the rebounder mat. Bounce gently up
@@ -3052,8 +2923,6 @@ standing up, lean forward by having your body follow your head. In this way, ben
 the hips, which creates a momentum that lifts you off the seat and brings you onto
 your feet without any effort. Now you only need to straighten the three lower joints
 and you can stand in front of the chair.
-59
-Heal Yourself - The Natural Way
 
 Exactly the reverse procedure takes place when sitting down. The arms are not
 used in any way to push or swing when you’re standing up or sitting down. When
@@ -3100,8 +2969,6 @@ involuntary movement. A long, gentle exhalation also helps to relax body and min
 and may be used to direct energies and relax specific muscles. Inhale quickly in
 about one or two seconds and then exhale slowly for about ten seconds. During
 exhalation, focus your attention on a specific part of the body and imagine the breath
-60
-Heal Yourself - The Natural Way
 
 energy flowing into it, making it feel warm and expansive. Use this to reduce muscle
 tension and pain or to relax the whole body, starting with the feet and gradually
@@ -3148,8 +3015,6 @@ body cavity in which you want to experience the sound, the deeper or lower you
 should try to make the sound. Initially, use each vowel in turn, then concentrate on
 the ones most appropriate to your condition. Select and use vowels according to
 resonance areas. A high-pitched “I” sound may be used to stimulate the brain as well
-61
-Heal Yourself - The Natural Way
 
 as the pineal and pituitary glands. Imagine the sound vibrating from the centre of
 your brain.
@@ -3179,9 +3044,6 @@ and become fully immersed in the sounds. Feel something inside you moving,
 expanding, rising in resonance with the music. Try singing along.
 
 * * * * * * * * * * *
-
-62
-Heal Yourself - The Natural Way
 
 Step10
 THE HEALING CRISIS
@@ -3226,8 +3088,6 @@ Contrary to the lengthy periods of ill health on the downhill road, the dips on 
 road are usually short and sharp. Such a dip is called a “healing crisis,” although I
 prefer the less dramatic names “healing reaction,” “cleansing reaction,” or simply
 “reaction.”
-63
-Heal Yourself - The Natural Way
 
 After each reaction, we advance to a higher level of health than we had before
 the reaction. Holistic therapists realize that the road to better health follows a definite
@@ -3274,8 +3134,6 @@ At the bioenergetic level, the increased energy flow may cause congestion at
 various places, in the weak body part itself as well as in related acupuncture points
 and zone reflex areas. Excess energy in such places may be noticed as pain, heat,
 or tension - the common symptoms of inflammation. Eventually the body will clear the
-64
-Heal Yourself - The Natural Way
 
 obstruction in the energy flow. We can support this process with specific healing
 methods or by healthy living practices in general. However, trying to suppress any
@@ -3322,8 +3180,6 @@ health.
 Listen to Your Body: Some further problems may develop during your
 program of health improvement. Formerly, the body response may have been dulled
 - it did not even react to harmful foods or drugs - but now the reaction is often
-65
-Heal Yourself - The Natural Way
 
 immediate and forceful. Foods that you may have eaten habitually before going on a
 cleansing diet can now suddenly cause a gastr ointestinal upset, making you feel sick
@@ -3370,8 +3226,6 @@ inflamed area are the price we have to pay for healing.
 However, anti-inflammatory agents and alkalizers have their role in easing the
 discomfort of a chronic inflammation until the body has been nutritionally and
 mentally prepared for a healing reaction. Further, the symptoms during a reaction
-66
-Heal Yourself - The Natural Way
 
 may either be too severe or come at an inopportune time. You can lessen or
 temporarily stop them by adding cooked food to a raw food cleansing diet, by
@@ -3395,8 +3249,6 @@ better health to follow; or we can expect to suffer involuntarily and in an unco
 way from chronic degenerative diseases as we get older. The choice is yours.
 
 * * * * * * * * * * *
-67
-Heal Yourself - The Natural Way
 
 Part 2
 NATURAL HEALING METHODS
@@ -3439,8 +3291,6 @@ Here then is a selection of practical methods you can use to improve your
 health and that of your family and friends.
 
 * * * * * * * * * * *
-68
-Heal Yourself - The Natural Way
 
 Step 11
 GENERAL EXAMINATION
@@ -3486,8 +3336,6 @@ disease, potassium or magnesium deficiency in the heart muscle, or an allergy.
 Sometimes the pulse is irregular only under stress, for example, when standing or
 running. If there appears to be a problem, check again on subsequent days under
 different conditions.
-69
-Heal Yourself - The Natural Way
 
 Blood pressure is measured with a sphygmomanometer and is important for
 body balancing and assessing nutritional requirements. The normal readings are
@@ -3536,8 +3384,6 @@ you may feel sluggish and have difficulty losing weight. To see whether your thy
 is underactive, measure the temperature under your tongue for ten minutes on three
 consecutive mornings before getting out of bed. Premenopausal women should do
 this on the second, third, and fourth day of the menses. The temperature should be
-70
-Heal Yourself - The Natural Way
 
 97.8°F (36.5°C) or higher. If it is consist ently below this, your thyroid is likely
 underactive. You should then consume foods high in iodine, such as seafood and
@@ -3579,8 +3425,6 @@ are as follows:
  need to detoxify.
 • Low sodium, potassium, chromium, and manganese indicate glucose
  intolerance.
-71
-Heal Yourself - The Natural Way
 
 • Elevated calcium and magnesium in the correct ratio indicate nutritionally
  induced hyperparathyroidism (overactive parathyroid glands) due to excess
@@ -3620,8 +3464,6 @@ or brownish coating may indicate liver problems and cracks may be due to
 overacidity, allergies, and deficiencies.
 
 * * * * * * * * * * *
-72
-Heal Yourself - The Natural Way
 
 Step 12
 IRIS DIAGNOSIS
@@ -3667,8 +3509,6 @@ to suffer from reflected weaknesses. White in the iris indicates overactivity, i
 acidity, infection, inflammation or catarrh of the corresponding body part. In some
 eyes the whole iris shows much white; in others it is concentrated in certain areas
 only.
-73
-Heal Yourself - The Natural Way
 
 Generally, a brown discolouration means that cows' milk products, saturated
 fats (all fats that are solid at room tem perature), chemicals and stimulants should be
@@ -3698,8 +3538,6 @@ NERVE WREATH: A strong, white and almost circular outline of the intestinal
 area - the nerve wreath - indicates a good Condition of the autonomic nervous
 system. If this outline is weak, jagged, discoloured, or extends far towards the
 periphery or the pupil, we may assume the autonomic nervous system is in a poor
-74
-Heal Yourself - The Natural Way
 
 condition. The normal position of the nerve wreath is one-third the distance between
 the pupil and the periphery; if the nervous sy stem is tense and overactive, the wreath
@@ -3744,8 +3582,6 @@ your body. You may also be able to help other people if you have this knowledge.
 Experiment and you will soon find iridology a valuable and fascinating tool. The most
 extensive information in book form on iri dology is available from Bernhard Jensen,
 mainly his book Iridology Volume 2.
-75
-Heal Yourself - The Natural Way
 
 Sclerology: In sclera diagnosis or sclerology, the location and shape of the
 blood vessels visible in the sclera, the white of the eye, are interpreted. Generally
@@ -3763,8 +3599,6 @@ stronger the blood vessel is visible and also the more of them are bunching toge
 the worse is the problem. A bluish colour of the sclera indicates under-activity.
 
 * * * * * * * * * * *
-76
-Heal Yourself - The Natural Way
 
 Step 13
 MUSCLE TESTING
@@ -3808,8 +3642,6 @@ Sometimes the tested person feels a pain or strain in the shoulder during a
 weakening test, even if the tester cannot notice a difference. This should be reported.
 Generally the quantity of food held is not critical; it may even remain in a container or
 plastic bag; however, avoid a coloured container or one of semi-rigid plastic.
-77
-Heal Yourself - The Natural Way
 
 If the patient is difficult to test, you may strengthen the arm immediately before
 each test by tracing the acupuncture meridian of the lung or of the glands (triple
@@ -3855,8 +3687,6 @@ be in a good spot, otherwise continue the test by imagining sleeping in a differ
 location until the test becomes strong.
 Another possibility is surrogate testing. You may use this for a small child or
 anyone who cannot be tested directly. If you want to know whether a certain food is
-78
-Heal Yourself - The Natural Way
 
 good for the child, place the food on the child’s abdomen; at the same time touch the
 child with one hand and extend the other arm for your partner to test.
@@ -3897,8 +3727,6 @@ with specific muscles. If the muscle is weak, it indicates a weak organ function
 Meridian tracement may be used to strengthen a weak muscle or organ. Some useful
 organ and muscle tests, as used in Touch for Health by J. F. Thie and M. Marks, are
 given below.
-79
-Heal Yourself - The Natural Way
 
 Adrenals: Lie face up, with one leg up and bent so that the foot is over the
 other leg just below the knee; the tester presses against the heel and the top of the
@@ -3938,8 +3766,6 @@ that only the tested limb moves, not the whole body. Both arms and legs may be
 tested.
 
 * * * * * * * * * * *
-80
-Heal Yourself - The Natural Way
 
 Step 14
 THE ENDOCRINE PATTERN
@@ -3983,8 +3809,6 @@ percent.
 • Measure the length of the lower leg from the middle of the kneecap to the
  middle of the ankle, and the lower arm from the point of the elbow to the middle
  of the wrist bone.
-81
-Heal Yourself - The Natural Way
 
 • Divide each measurement by four and mark the quarter-points between knee and
  ankle, and between elbow and wrist. (This means one quarter of the distance
@@ -4026,8 +3850,6 @@ female hormones in a gender-specific ratio. If there are more male hormones
 produced than normal, the condition is called “andric”; if more female hormones are
 produced, it is “gynic.” To give an example, a woman with a constitutionally high
 oestrogen-testosterone ratio is gynic, while with a low ratio she is andric.
-82
-Heal Yourself - The Natural Way
 
 If the leg-arm ratio is higher than normal, add the difference between actual
 and normal measurement to the normal
@@ -4053,8 +3875,6 @@ information, see Body Chemistry in Health
  and Disease, by M. E. Page.)
 
 * * * * * * * * * * *
-83
-Heal Yourself - The Natural Way
 
 Step 15
 REFLEXOLOGY
@@ -4098,11 +3918,6 @@ sore, press straight down, with only light pressure at first. Gradually increase
 pressure as the pain lessens. Finally, when even strong pressure can be tolerated,
 you may apply the pressure in a slow circular motion in order to relax the deeper
 muscles and ligaments.
-84
-Heal Yourself - The Natural Way
-
-85
-Heal Yourself - The Natural Way
 
 For self-treatment underneath the feet, it will usually be more convenient to
 press or roll the sore points on a golf ball, a stone or another suitable object. To
@@ -4132,8 +3947,6 @@ Further effective areas for treatment are the tongue, the inside wall of the
 mouth, especially the palate (top), under the tongue and the back of the mouth
 (pharynx). You may press with the pad of a finger or thumb or use a suitable
 instrument. Pressure on the tongue may be applied by biting or pressing with the
-86
-Heal Yourself - The Natural Way
 
 handle of a spoon. This is effective for treating problems in other areas of the body
 belonging to the same zone.
@@ -4182,8 +3995,6 @@ start with activating these parts of the brain and then continue with the other 
 and organs.
 In the system of Body Electronics as developed by Dr John Whitman Ray it is
 recommended to work in a certain sequence for regenerating the body. Start with the
-87
-Heal Yourself - The Natural Way
 
 so-called STO-point: press into the valley between the muscles from both sides of
 the spine and then up under the skull (occiput). This is to improve the nerve
@@ -4194,8 +4005,6 @@ gonads (uterus, ovaries, prostate, and testicles), liver, kidneys, gall bladder,
 small intestine, large intestine.
 
 * * * * * * * * * * *
-88
-Heal Yourself - The Natural Way
 
 Step 16
 EAR ACUPUNCTURE
@@ -4242,8 +4051,6 @@ to press-needles. Press-needles are like tiny drawing pins. They are retained in
 ear for one to two weeks, covered with adhesive tape, and stimulated from time to
 time by pressing between thumb and a finger pad. If an acupuncture needle is not
 available, a bead needle or even a fine sewing needle is sometimes used.
-89
-Heal Yourself - The Natural Way
 
 Figure 2-7: Ear Acupuncture Chart.
 
@@ -4251,8 +4058,6 @@ Helix points may be used to reduce inflammation, fever, and oedema. Sanjiao is u
 circulatory, glandular, chest and abdominal problems. Shenmen is used for sedating, as with
 nervous problems, insomnia, mental disorders; it is the main point for pain relief, as in arthritis
 or inflammations; also for dry cough, bronchial asthma, epilepsy and hypertension.
-90
-Heal Yourself - The Natural Way
 
 Sterilise a suitable needle in methylated spirits and rub the ear with a cotton
 bud soaked in methylated spirits (optional). Find the most tender spot in the
@@ -4293,8 +4098,6 @@ buy an electro-acupuncture appliance. These are now available from many health
 food shops and not very expensive.
 
 * * * * * * * * * * *
-91
-Heal Yourself - The Natural Way
 
 Step 17
 COLOUR THERAPY
@@ -4338,8 +4141,6 @@ The following list shows the conditions for which the different colours may be
 used. You may also use muscle testing or a pendulum for individual colour selection.
 Different parts of the body may need different colours. If you are in doubt about which
 area to treat, irradiate 'systemically' - over the whole body. When irradiating the back,
-92
-Heal Yourself - The Natural Way
 
 lie on one side, not on the stomach. For best effects or professional treatments, use
 colour slides with a strong projector in a dark room, and irradiate for one hour or
@@ -4388,8 +4189,6 @@ fever, pain. Use to treat all conditions marked by redness, swelling and heat, a
 acute phases of arthritis, gout and rheumatism. Blue is relaxing and calming, slows
 the pulse, can reduce high blood pressure, and is valuable for underweight and
 overactive people. Use to treat itching, irritation, irritability, insomnia, throbbing
-93
-Heal Yourself - The Natural Way
 
 headaches, speedy brain; sore throat, loss of voice, burns, bruises; diarrhoea,
 dysentery, colitis, neuralgia, sciatica, earache, biliousness and jaundice. Also good
@@ -4434,8 +4233,6 @@ the reaction of the patient. A pendulum may possibly be used for assessing colou
 and exposure times.
 
 * * * * * * * * * * *
-94
-Heal Yourself - The Natural Way
 
 Step 18
 MAGNET THERAPY
@@ -4481,8 +4278,6 @@ As a general rule, apply strong magnetic fields for acute problems and weak
 fields for chronic problems. In both cases, you can apply a magnet either
 continuously or intermittently during the day until the problem is resolved. For acute
 problems, this can be for days and with chr onic problems for weeks or months. While
-95
-Heal Yourself - The Natural Way
 
 it is more convenient just to leave the magnet in place all day long, the effect seems
 to be stronger if you frequently alternate applying and removing the magnet.
@@ -4530,8 +4325,6 @@ part of the body, place the right palm on one pole and the left palm on the othe
 problems in the lower part of the body, place one pole under the right foot and the
 other under the left foot. If mainly one side is affected, the palm can rest on a south
 pole and the foot of the same side on a north pole. Finally, a good general placement
-96
-Heal Yourself - The Natural Way
 
 is to have the right palm on one pole and the left foot on the other pole, or vice versa.
 Start using strong magnets in this way for five minutes and gradually increase to 30
@@ -4579,8 +4372,6 @@ pressed lightly against the abdomen.
 Removing Congested Energy: When the south pole of a magnet, especially a
 strong one, has been applied to a painful or congested area (including one with
 unwanted growths), an effective way to remove it is to place your left hand between
-97
-Heal Yourself - The Natural Way
 
 the magnet and the body while slowly removing the magnet. Keep the hand close to
 the magnet. Then hold the south pole close to a water surface or near running water
@@ -4626,8 +4417,6 @@ left shirt pocket with the north pole near the breastbone. If there is pain, use
 south pole instead. Check your pulse before and afterwards to see whether it
 becomes stronger and more regular. Even if the pulse does not improve, try using it
 the magnet for several days (during the daytime only) to see if you feel better.
-98
-Heal Yourself - The Natural Way
 
 Sexual energy: To increase sexual energy, sit on the north pole of a strong
 magnet. This improves the energy centre at the base of the spine as well as the sex
@@ -4640,8 +4429,6 @@ Overweight: If you are overweight and underactive, apply the north pole to the
 thyroid gland for stimulation; if overactive, use the south pole to slow the metabolism.
 
 * * * * * * * * * * *
-99
-Heal Yourself - The Natural Way
 
 Step 19
 THE ELECTRONIC ZAPPER & MAGNETIC PULSER
@@ -4687,8 +4474,6 @@ moistened with saltwater. With weak hands, the best contact results from dipping
 each hand or foot in a bowl of saltwater along with a partly immersed electrode, but
 only if no electronics are in the handle. After the last treatment of the day, rinse your
 hands and/or feet under running water to remove static electricity.
-100
-Heal Yourself - The Natural Way
 
 If you are treating a local infection or tumor, press one or both electrodes close
 to the problem area; for instance, for a sore throat, press an electrode against each
@@ -4737,8 +4522,6 @@ with headaches. Often the pain did not come back. Also, weak eyes and weak
 muscles often improved. Whether you have a disease or want to improve your
 health, I recommend you use the pulser frequently on any body area where you
 suspect an inflammation or infection. Use it on swollen lymph glands (tonsils) and
-101
-Heal Yourself - The Natural Way
 
 any tooth or jawbone positions that are not completely healthy, e.g., where a tooth
 has been extracted or where there is a filling, a root pocket, or receding gums. Pulse
@@ -4783,8 +4566,6 @@ Dr. Beck and plans to build the zapper and pulser, see ;
  and
 
 * * * * * * * * * * *
-102
-Heal Yourself - The Natural Way
 
 Step 20
 SPINAL THERAPY & MASSAGE
@@ -4828,8 +4609,6 @@ which the treated muscle is most relaxed. The patient should remain passive duri
 the treatment and should not try to help move any body part.
 Give your partner a massage and pressure massage once a week; this is best
 after a bath or shower. This is an excell ent exercise for developing a harmonious
-103
-Heal Yourself - The Natural Way
 
 relationship with a friend or partner. When using long strokes during massaging,
 follow the flow directions of the acupuncture meridians (see Part 7).
@@ -4875,8 +4654,6 @@ muscle. This can generate pain from pressure on a nerve or from an inflammatory
 condition resulting from overacidity in the tissues. The original cause may be an
 injury or overuse of the muscle, but this causes lactic acid accumulation in the
 muscle, which prevents calcium from moving out of the muscle fibres to allow them to
-104
-Heal Yourself - The Natural Way
 
 relax. The blood and lymph circulation through the contracted muscle is greatly
 diminished. Therefore, lactic acid is removed very slowly by the body and oxygen
@@ -4922,8 +4699,6 @@ balance each other. Here are some tips:
  the meridians, see Part 7).
 • Apply ear acupuncture, reflexology, or a strong south-pole magnet to the painful
  area.
-105
-Heal Yourself - The Natural Way
 
 • Press into the tender muscle until the pain eases, then press harder and circle
  the thumb, knuckle, or elbow that is applying the pressure.
@@ -4967,8 +4742,6 @@ Cervical vertebrae:
 7: thyroid, goitre, shoulders, elbows, contracts inner organs, contracts dilated
  heart, normalizes blood pressure; bursitis, nose bleeding, fainting, angina,
  palpitation, tachycardia (fast pulse), lung and kidney diseases, diabetes. (C7 is
-106
-Heal Yourself - The Natural Way
 
 the most prominent vertebra at the base of the neck. Use it as a landmark for
  counting the other vertebrae along the spine.)
@@ -5008,8 +4781,6 @@ Sacrum: hipbones, buttocks; sacroiliac conditions
 Coccyx: rectum, anus; haemorrhoids, pruritus
 Lymph-Drainage Massage: Danish medical doctor E. Vodder developed a
 method of manual lymph-drainage massage in the early 1900’s. It is designed to
-107
-Heal Yourself - The Natural Way
 
 improve lymph flow and accelerate the transport of waste products from the tissues
 into the bloodstream from which it c an be eliminated through the kidneys. A
@@ -5047,8 +4818,6 @@ massaged. Individuals with advanced diseases should activate the organs of
 elimination before using this method. If in doubt, consult your health professional.
 
 * * * * * * * * * * *
-108
-Heal Yourself - The Natural Way
 
 Step 21
 HYDROTHERAPY, PACKS & COLONICS
@@ -5092,8 +4861,6 @@ simulated with overheating baths.
 Start with a very warm bath and slowly add more hot water until the bath
 temperature reaches 108º F (42º C). Initially remain in the tub only up to ten minutes
 at the maximum temperature, but gradually extend this to 20 to 30 minutes. If you
-109
-Heal Yourself - The Natural Way
 
 want to continue with a regular overheating treatment, then increase the temperature
 by 2º F (1º C) each week up to a maximum of 116º F (47º C).
@@ -5139,8 +4906,6 @@ while for relaxation, it can be left in place for a long time. For insomnia and 
 indigestion, place the cold pack on the abdomen.
 Castor-Oil Pack: This is excellent for improving intestinal functions and for
 stimulating the immune system, as well as in problems with the sexual glands and
-110
-Heal Yourself - The Natural Way
 
 the bladder. Castor-oil packs on the abdomen should be used at the beginning of all
 serious attempts at health improvement, espec ially if there are any problems with the
@@ -5188,8 +4953,6 @@ or most of the time for several weeks. It is even more effective if you mix a fe
 of 35 percent hydrogen peroxide with the honey. Try to obtain honey that is not
 runny, as adding hydrogen peroxide makes it more liquid; crystallized honey works
 well.
-111
-Heal Yourself - The Natural Way
 
 Onion Pack: Onion packs are good for asthma, bronchitis, colds, pneumonia,
 and for loosening phlegm in the airways. Wrap a large onion in aluminium foil and
@@ -5236,8 +4999,6 @@ naturopaths. Skin cancers can become inflamed for a few days, then form dry pus
 To reach a tumor under the skin, such as a breast tumor, it may be necessary
 to leave the paste in place for two or three days and reapply fresh paste several
 times as soon as any developing pus has cleared. Keep covered with a Vaseline-
-112
-Heal Yourself - The Natural Way
 
 coated pad that may require frequent changing. Commonly, this procedure causes a
 strong local inflammation with swelling of the breast, redness, and pain for several
@@ -5285,8 +5046,6 @@ keeping the bowels empty is by taking laxative foods, such as ground linseed
 (flaxseed), and periodically having an isotonic flush (a teaspoon of salt in a quart of
 water) or Epsom salt flush (a teaspoon of Epsom salt in a glass of water), preferably
 with some crushed garlic added.
-113
-Heal Yourself - The Natural Way
 
 Early in the twentieth century, a British surgeon became famous for “curing” all
 kinds of incurable diseases by surgically removing the lower part of the large
@@ -5334,8 +5093,6 @@ the rectum elevated, or you can lie in bed in a similar position, or on the righ
 have a plastic sheet underneath you.
 Lubricate the rectal tube and insert it slowly to a depth of about eight or 12
 inches. If there is any pain or discomfort, do not insert it any farther. Expel the first lot
-114
-Heal Yourself - The Natural Way
 
 of water from your intestines when increasing pressure is felt. After that, you should
 be able to hold much more water. When renewed pressure is felt, stop the inflow of
@@ -5382,8 +5139,6 @@ following days, and the patient may temporarily look and feel worse. After this,
 however, there should be considerable improvement. If available, lead ozone through
 a long tube into the rectum with an additional shorter tube as outlet and safety valve.
 For further information on this, see Step 31.
-115
-Heal Yourself - The Natural Way
 
 Vomiting Therapy: Induced vomiting, often called an “upward purge,” can be
 helpful for a wide range of acute and chronic conditions, such as asthma, bronchial
@@ -5402,8 +5157,6 @@ horehound, lobelia (large doses), mustard, ragwort, or vervain. After-wards, dri
 peppermint or mint tea to settle the stomach.
 
 * * * * * * * * * * *
-116
-Heal Yourself - The Natural Way
 
 Step 22
 URINE & UREA THERAPY
@@ -5448,8 +5201,6 @@ against allergies, autoimmune diseases, and other disorders of the immune system
 When drinking urine routinely, say a cupful every morning, allergic reactions
 may not occur at all, thus doing away with the need to identify to which substance
 one has been reacting.
-117
-Heal Yourself - The Natural Way
 
 Benefits of Urea: Urea is an end product of protein metabolism and the main
 ingredient of urine. Only recently has it been discovered that the concentration of
@@ -5463,7 +5214,6 @@ increasing survival times, and preventing metastases or secondary tumours. Dr.
 Danopoulos used 45 g of urea daily in six divided doses for 40 days and then 20 g in
 three doses for two years (45 g correspond to six rounded teaspoons, and 20 g is
 about three teaspoons). He also experimented with injecting urea close to tumors.
-7
 Urea may not just be a waste product or the final state of protein metabolism as
 commonly assumed. Apparently, it can also be used as raw material to synthesize
 amino acids and proteins, as has been shown in patients with kidney failure. These
@@ -5471,7 +5221,6 @@ patients deteriorate quickly on a diet containing normal amounts of protein but 
 much better if the diet is extremely low in protein. They show progressive clinical
 improvement when receiving added urea, wh ich then becomes an important source
 of nitrogen for protein synthesis.
-8
 Urea is the best natural diuretic and is far better than synthetic diuretics. This is
 important for those with oedema or fluid retention (due to kidney or heart weakness)
 and especially for those with fluid pressure on the brain or spinal cord or in the eye,
@@ -5510,8 +5259,6 @@ taste of it, but also to slow down any
 healing reactions. These occur
 commonly with methods that genuinely
 improve our health (see Step 10).
-118
-Heal Yourself - The Natural Way
 
 Reactions may manifest as diarrhoea, vomi ting, nausea, or a temporary flare-up of
 old health problems.
@@ -5558,8 +5305,6 @@ intake also helps to increase lymph flow as explained under lymph-drainage
 massage in Step 20. A main advantage of urine fasting over water fasting is the
 greatly increased amount of energy produced, so that the urine fast can be continued
 for a much longer period than a fast consisting only of water.
-119
-Heal Yourself - The Natural Way
 
 During the urine fast, drink all of your freshly voided urine (and initially some
 added water) to bring the daily intake volume to about five quarts. Gradually increase
@@ -5605,8 +5350,6 @@ An alternative method is even simpler and recommended as an introduction to
 urine therapy or for times when cupfuls of urine are not tolerated or not wanted.
 Dilute one or two spoonfuls of morning urine with five to ten times the same amount
 of unchlorinated water. Shake 50 times with a sharp downward stroke, and drink
-120
-Heal Yourself - The Natural Way
 
 immediately or take a spoonful several times during the day. Keep it in the mouth for
 a minute before swallowing.
@@ -5646,8 +5389,6 @@ other unpleasant fluid is by breathing only through the mouth; you can pinch the
 until your mouth has been rinsed with water or juice, or you can eat a piece of fruit.
 
 * * * * * * * * * * *
-121
-Heal Yourself - The Natural Way
 
 Part 3
 NUTRIENT & REMEDIES
@@ -5686,8 +5427,6 @@ a good maintenance diet, the daily vitamin intake proposed by government agencie
 should be at least doubled.
 
 * * * * * * * * * * *
-122
-Heal Yourself - The Natural Way
 
 Step 23
 VITAMINS
@@ -5733,8 +5472,6 @@ produce a bout of diarrhoea to identify your specific bowel tolerance for vitami
 This can be a successful treatment for infectious diseases, including viral infections,
 which do not respond to antibiotics. The dose of vitamin C is increased until the
 patient develops transient diarrhoea, usually one episode. Then the rate is cut back
-123
-Heal Yourself - The Natural Way
 
 slightly until the bowel tolerates the high vitamin C intake. During serious infections,
 the bowel tolerance is much greater than it is in a healthy state. In normal health, for
@@ -5782,8 +5519,6 @@ therapeutically 25,000 to 100,000 IU are commonly used, and sometimes up to
 oversupply can lead to bone erosion due to a relative deficiency of vitamin D.
 Therefore, supply vitamins A and D together, preferably as cod liver oil, otherwise
 halibut liver oil. One halibut-oil capsule provides 4000 to 5000 IU. Vitamin A is toxic in
-124
-Heal Yourself - The Natural Way
 
 very high doses over long periods and is destroyed by light and oxygen. Symptoms
 of vitamin A toxicity are similar to those of vitamin A deficiency. Do not take very high
@@ -5828,8 +5563,6 @@ osteoporosis, tooth decay, calcium deposits, and hardening of tissues and arteri
 Injections of vitamin K derived from plant sources have been effective in the
 control of strong pain. This vitamin can be obtained from intestinal bacteria (in other
 words, made in the gut), green and especially dark-green vegetables, liver, and egg
-125
-Heal Yourself - The Natural Way
 
 yolk. Vitamin K1 from plants is more effective than K2 from intestinal bacteria; the
 synthetic form (K3) can have toxic effects.
@@ -5875,8 +5608,6 @@ The acid form (niacin or nicotinic acid) causes flushing of the face and it is
 prescribed to dilate blood vessels, decrease blood pressure, reduce cholesterol, or
 increase circulation to the head in cases of acne or migraine. The non-acid
 nicotinamide or niacinamide does not have these effects. In contrast to niacin, high
-126
-Heal Yourself - The Natural Way
 
 amounts of this vitamin can cause depression. Niacin or nicotinamide improves the
 oxidative energy metabolism and can be used to treat many symptoms.
@@ -5920,8 +5651,6 @@ after antibiotics.
 Folic Acid: The RDA is 200/180 mcg, but it is recommended to ingest at least
 400 mcg, and 800 mcg when pregnant. The therapeutic dose is 5–20 mg. Folic acid
 is easily destroyed by light, heat, storage, oxygen, and the contraceptive pill.
-127
-Heal Yourself - The Natural Way
 
 Deficiency Symptoms: These are widespread; most pregnant women are
 deficient. Symptoms include anaemia, corners of mouth cracked, red tongue, greying
@@ -5966,8 +5695,6 @@ grass juice.
 Vitamin-like Substances: These are necessary biochemical substances that
 have not yet been awarded full vitamin status, partly because some can be
 synthesized within the body, and partly because their usefulness is still disputed.
-128
-Heal Yourself - The Natural Way
 
 Bioflavonoids: Bioflavonoids are part of the naturally occurring vitamin-C
 complex. A deficiency causes capillary fragility with purplish or blue skin marks,
@@ -6008,8 +5735,6 @@ U.S.) is used orally or as injections for cancer treatment. To be effective, lae
 be used in conjunction with cleansing, supplements, and correct diet.
 
 * * * * * * * * * * *
-129
-Heal Yourself - The Natural Way
 
 Step 24
 MINERALS
@@ -6054,8 +5779,6 @@ value differs greatly in various foods. Aim for an RDA of 100 mcg of high bio-va
 supplements, such as glucose-tolerance factor or chelated chromium.
 Deficiency Symptoms: Poor blood sugar regulation (diabetes, hypoglycaemia),
 disturbed fat/protein meta-b-olism, alcohol intolerance, impaired growth, high blood
-130
-Heal Yourself - The Natural Way
 
 pressure, arteriosclerosis, weight loss, fatigue, and eye problems (opaque cornea,
 nearsightedness, glaucoma).
@@ -6101,8 +5824,6 @@ Copper (Cu): The RDA is 1.5 to 3 mg, but the recommended intake is 3 to 5
 mg daily. A dietary deficiency of copper is rare; inorganic copper, for example, may
 be oversupplied from copper water pipes. Internal copper deficiency can result from
 insufficient binding capacity within cells.
-131
-Heal Yourself - The Natural Way
 
 Deficiency Symptoms: These include anaemia, especially in infants; bone
 disorders; defective spinal cord, multiple sclerosis; hair greying, hair becoming fine
@@ -6146,8 +5867,6 @@ gravis, drooping eyelids, poor memory, dark-red skin spots, -diabetes,
 hypoglycaemia, atherosclerosis, schizophrenia, epileptic convulsions, bone
 deformities, mucus problems, impotence and/or sterility, ataxia (muscle
 incoordination), poor equilibrium, abnormal inner ear, and retraction of head.
-132
-Heal Yourself - The Natural Way
 
 Best Sources: Grass juice, spinach, parsley, spices (cloves, cardamom,
 ginger), nuts, pea-nuts, and sprouted and fermented seeds.
@@ -6193,8 +5912,6 @@ diabetes, epilepsy, gastric and duodenal ulcers, inflammation of the intestines
 toxaemia, mental problems, increased emotionalism, hyperactivity, learning
 disorders, autism, schizo-phrenia, loss of appetite, anorexia nervosa, and multiple
 allergies.
-133
-Heal Yourself - The Natural Way
 
 Best Sources: Oysters, herrings, sardines, kelp, seafood, oatmeal, liver,
 pumpkin seeds, and sprouted seeds.
@@ -6241,8 +5958,6 @@ their health problems. If magnesium levels are low, the nerves lose control over
 muscle activity, respiration, and mental processes.
 Due to its strong relaxing effect, magnesium helps not only with better sleep but
 is also useful in overcoming headaches and migraines. Nervous fatigue, tics and
-134
-Heal Yourself - The Natural Way
 
 twitches, tremors, irritability, hypersensitivity, muscle spasms, restlessness, anxiety,
 confusion, disorientation, and irregular heartbeat - all these conditions respond to
@@ -6289,8 +6004,6 @@ high magnesium intake of 2.5 to 3 g in these cancer-free populations - ten times
 more than in most Western countries.
 Let’s see how calcium and magnesium are further linked to aging. We use our
 muscles by selectively contracting them; on the biochemical level, muscle contraction
-135
-Heal Yourself - The Natural Way
 
 is triggered by calcium ions flowing into muscle cells. To relax the muscle, calcium is
 pumped out again. However, as we age, more calcium remains trapped in the
@@ -6336,8 +6049,6 @@ gradually increase the doses.
 With acute infections, dissolve eight slightly rounded teaspoons in one quart of
 water. With children, a small glassful or four ounces can be used effectively every six
 hours. Adults can double this dose by drinking this amount every three hours, or
-136
-Heal Yourself - The Natural Way
 
 even more frequently until diarrhea develops; then cut back to a maintenance intake
 just below the level of diarrhea, until the infection has cleared.
@@ -6413,8 +6124,6 @@ hardening arteries, varicose veins, and
 Sufficient intake of MSM is able to reverse these conditions to a significant degree,
 including emphysema. It is believed that the MSM in aloe vera is the active ingredient
 responsible for repairing damaged skin, a quality attributed to this plant.
-137
-Heal Yourself - The Natural Way
 
 Athletes use MSM to increase stamina and minimize sore muscles. Its use for
 this purpose is even more widespread with racehorses and greyhounds. This effect
@@ -6459,8 +6168,6 @@ undesirable pharmacological effects; it can even be safely used to dilute blood.
 body will use what it needs and remove any excess through the kidneys. The water-
 soluble MSM is easily absorbed and provides a therapeutically important source of
 organically bound sulphur.
-138
-Heal Yourself - The Natural Way
 
 The daily maintenance intake commonly ranges from 1 to 10 g taken in two or
 more divided doses. Adjust the dose according to your well-being or observed
@@ -6491,8 +6198,6 @@ eggs, then you might not notice any benefit from
 taking MSM.
 
 * * * * * * * * * * *
-139
-Heal Yourself - The Natural Way
 
 Step 25
 AMINO ACIDS
@@ -6535,8 +6240,6 @@ Carnitine: Carnitine is produced in a healthy liver from lysine, vitamins B1 and
 B6, and iron. Vegetarian diets can be deficient in carnitine, as it is found mainly in
 meat. D--carnitine is harmful. Acetyl-L-carnitine is the form best suited to treat
 neurological conditions.
-140
-Heal Yourself - The Natural Way
 
 • Aids transport of long-chain fatty acids to mitochondria for energy production
 • Helps in weight loss
@@ -6576,8 +6279,6 @@ difficulty gaining weight (as in advanced cancer), 10 g or more can be used dail
 divided doses.
 • Provides about 80 percent of the body’s pool of free nitrogen
 • Reduces cravings for sugar, alcohol, and other drugs
-141
-Heal Yourself - The Natural Way
 
 • Improves absorption of other nutrients, important with inability to gain weight
  (cachexia)
@@ -6615,8 +6316,6 @@ Lysine: An essential amino acid that must be derived from the diet.
 • Needed for proper growth and bone development in children
 • Helps calcium absorption
 • Maintains nitrogen balance
-142
-Heal Yourself - The Natural Way
 
 • Effective against cold sores and herpes viruses, possibly also beneficial with
  other viruses
@@ -6654,8 +6353,6 @@ essential for fat absorption.
 • An inhibitory (sedating) neurotransmitter, helps with epilepsy
 Threonine: This is one of the essential amino acids.
 • Maintains protein balance
-143
-Heal Yourself - The Natural Way
 
 • Needed for the formation of collagen and elastine
 • Aids the liver and fat metabolism
@@ -6678,8 +6375,6 @@ Valine: This is an essential amino acid in muscle protein.
 • Stimulates and promotes mental vigor
 
 * * * * * * * * * * *
-144
-Heal Yourself - The Natural Way
 
 Step 26
 DIGESTIVE ENZYMES
@@ -6724,8 +6419,6 @@ meat, fish, or other protein food by refrigerating it overnight wrapped or mixed
 papaya leaf.
 
 * * * * * * * * * * *
-145
-Heal Yourself - The Natural Way
 
 Step 27
 NUTRITIONAL SUPPLEMENTS
@@ -6770,8 +6463,6 @@ use a low-potency B-complex in addition to vitamin C and cod-liver oil or halibu
 oil capsules. Mineral supplements are often more important than vitamins and can
 contain approximately 15 mg zinc, 5 mg manganese, 100 to 200 mcg selenium, 200
 mcg chromium, 500 mg magnesium, and up to twice this amount of calcium if one’s
-146
-Heal Yourself - The Natural Way
 
 blood pressure is low. Much higher doses, especially of selected vitamins, can be
 used where indicated for therapeutic effects.
@@ -6818,8 +6509,6 @@ stored, and processed without the use of synthetic chemicals. However, in chemis
 “inorganic” means that a chemical is not based on carbon and has ionic bonds.
 Some inorganic chemicals, such as sodium chloride, magnesium chloride, and
 calcium chloride, are ingredients of natural and organic foods and are also essential
-147
-Heal Yourself - The Natural Way
 
 components of our body. Calcium in our blood plasma, for instance, is about half in
 ionized form while the other half is bound to proteins. In this way, taking some
@@ -6866,8 +6555,6 @@ should be taken during a meal containing oily or fatty foods and lecithin. Howev
 many individuals most in need of these vitamins have absorption problems and for
 them oil-filled capsules are not suitable. Therefore, I generally recommend using
 tablets of natural vitamin E rather than oil-filled capsules. If in doubt about your
-148
-Heal Yourself - The Natural Way
 
 digestive abilities, take a halibut oil or other fish oil as a capsule at bedtime and keep
 it in the mouth to be slowly absorbed ov ernight. Other-wise, take all supplements
@@ -6914,8 +6601,6 @@ or dangerous.
 While numerous trials have shown significant health benefits for individuals with
 higher levels of beta-carotene in their blood, clinical trials with synthetic beta-
 carotene and synthetic vitamin E have shown increased rates of death due to cancer.
-149
-Heal Yourself - The Natural Way
 
 Vitamin A has been portrayed as the most “dangerous” supplement, largely
 based on studies with synthetic vitamin A. There are dire warnings that it can cause
@@ -6945,8 +6630,6 @@ load of toxic chemicals and may accelerate our health deterioration. Therefore, 
 any health problem, inform yourself about all available options.
 
 * * * * * * * * * * *
-150
-Heal Yourself - The Natural Way
 
 Step 28
 HERBS
@@ -6991,8 +6674,6 @@ To aid digestion, it is generally beneficial to drink half a cup of bitter herb 
 after a large or cooked meal. Suitable herbs here are centaury, dandelion (not
 roasted), devil’s claw, and gentian; these also help to restore liver function. With any
 lung conditions, including lung cancer, have a daily steam inhalation (with a towel
-151
-Heal Yourself - The Natural Way
 
 over the head) of hot chamomile tea, possibly with the addition of eucalyptus or tea
 tree oil or crushed onion.
@@ -7039,8 +6720,6 @@ adrenal hormones. However, it tends to keep sodium in the body while potassium i
 expelled. Therefore, minimize sodium and maximize potassium intake by consuming
 plenty of vegetable juices; do not use licorice root if your blood pressure is
 dangerously high or with obvious water retention.
-152
-Heal Yourself - The Natural Way
 
 You can select a range of these herbs that are suitable for your condition or
 that are locally available and use them as y our special herb mixture. Alternatively or
@@ -7079,8 +6758,6 @@ vera is most beneficial for those with blood group A; for those with other blood
 groups, check for compatibility or observe effects.
 
 * * * * * * * * * * *
-153
-Heal Yourself - The Natural Way
 
 Step 29
 HOMEOPATHY
@@ -7125,8 +6802,6 @@ commonly used, clinical homeopathy prescribes several remedies in combination to
 be taken several times daily.
 Use Your Own Body Fluids: While for general treatment of common
 symptoms it is more convenient to use established homeopathic remedies, to
-154
-Heal Yourself - The Natural Way
 
 overcome obstinate individual problems it is frequently more effective to prepare
 remedies from your own body fluids. This a form of isopathy known as auto-therapy.
@@ -7172,8 +6847,6 @@ way any undesirable side effects of concentrated herbs are lessened, while speci
 healing effects, especially cleansing actions, are greatly strengthened. You can
 experiment by potentising one part of an unheated herbal extract or tincture with four
 or nine parts water.
-155
-Heal Yourself - The Natural Way
 
 If you use a strong mother tincture of a potent herb, start by taking only one or
 two drops several times daily; keep them in the mouth for a while, and increase the
@@ -7221,8 +6894,6 @@ Which Potency to Use: The most commonly used potencies are 6X, 12X,
 12C, 30C, 200C, l000C (M), l00M (CM), 500M (DM), and 1000M (MM). Sometimes
 the letter C is omitted, and 30 and 200 are used instead of 30C and 200C. In Europe,
 D is used instead of X. After selecting the correct remedy according to your
-156
-Heal Yourself - The Natural Way
 
 symptoms, it is important to choose the correct potency as well. A general rule is that
 the lower potencies affect mainly physical symptoms while the high potencies work at
@@ -7268,8 +6939,6 @@ The 12 Schuessler cell salts and their main indications are:
 • Calc. flour: over-relaxed abdominal wall, piles, varicose veins
 • Calc. phos.: anemia, poor circulation, cramps, rheumatism
 • Calc. sulf.: boils, catarrh, yellow pus, and scabs
-157
-Heal Yourself - The Natural Way
 
 Your Own Home-Remedies Kit
 The following is a list of 15 basic remedies for home use and as a travel kit.
@@ -7319,8 +6988,6 @@ eyestrain, neuralgia, burning eyes, dim vision, and runny eyes.
 URTICA URENS 30C: For burns, rashes, stings, allergie s, and any condition in which burning, stinging pains
 persist. Use for scalds and burns internally when using Hypercal externally. Use urtica for bladder complaints,
 bedwetting, hives, and swollen, painful breasts and genitals.
-158
-Heal Yourself - The Natural Way
 
 • Ferr. phos.: inflammations, low fever, anemia, circulation, wounds
 • Kali. mur.: croup, catarrh, and skin diseases with white discharge
@@ -7363,8 +7030,6 @@ remedies. The keywords for the positive attributes we wish to acquire (the negat
 aspects we wish to overcome are in parentheses) and some of the flower remedies
 indicated are as follows:
 • Attentiveness (being dreamy): Clematis
-159
-Heal Yourself - The Natural Way
 
 • Agrimony: suffering or worry hidden by smiling face
 • Aspen: apprehension, vague fears of unknown origin
@@ -7408,8 +7073,6 @@ Heal Yourself - The Natural Way
 and Star of Bethlehem): use for shock, terror, upsets, fright, accidents; give
 frequently in all emergencies; apply externally on wounds.
 Reference Guide for the Selection of Bach Flower Remedies
-160
-Heal Yourself - The Natural Way
 
 • Certainty (indecision): Scleranthus
 • Courage (terror): Rock Rose
@@ -7424,8 +7087,6 @@ Heal Yourself - The Natural Way
 • Wisdom (foolishness): Cerato
 
 * * * * * * * * * * *
-161
-Heal Yourself - The Natural Way
 
 Step 30
 COLLOIDAL SILVER, COPPER, ZINC & GOLD
@@ -7485,8 +7146,6 @@ before swallowing. During the height of the infection,
 you can double or triple the above amounts for a few
 days. At the beginning of your health improvement
 efforts and several times each year, you can take a
-162
-Heal Yourself - The Natural Way
 
 remedial course of colloidal silver fo r several weeks to keep down any undesirable
 microbes that have arisen in your body. Have a sip or tablespoonful three times daily.
@@ -7533,9 +7192,6 @@ storing the silver water, keep it protected fr om light, which will otherwise pr
 silver and make it ineffective. Make your colloidal silver fresh each day or at least once a
 week.
 For more information on making and using colloidal silver, see the website:
-
-163
-Heal Yourself - The Natural Way
 
 Copper - The Inflammation Fighter: Copper is somewhat of a problem
 mineral. Sometimes there is too much of the inorganic form of copper in drinking
@@ -7585,8 +7241,6 @@ develops a green color; store the solution in a brown bottle in a cool, dark pla
 During storage and sometimes near the end of the heating process, a black
 copper oxide starts forming and accumulates at the bottom. This is due to copper
 being converted from the original one-valence copper (I) salicylate to two-valence
-164
-Heal Yourself - The Natural Way
 
 copper (II) salicylate; here the salicylic acid binds only half of the dissolved copper
 and the rest becomes copper oxide. The effectiveness of the solution does not seem
@@ -7633,8 +7287,6 @@ two quarts of hot water. You can get these ingredients from a pharmacist and hav
 the exact quantities weighed out. However, it is sufficient to use approximate
 amounts. Use two level teaspoons of salicylic acid and half a teaspoon each of boric
 acid and zinc oxide or one level teaspoon of zinc carbonate.
-165
-Heal Yourself - The Natural Way
 
 Use distilled or deionised water and a non-metallic container. Heat the mixture
 for about an hour and stir occasionally with a non-metal spoon until no more of the
@@ -7662,8 +7314,6 @@ periods is experimental and you must be pr epared to take responsibility for any
 unexpected side effects.
 
 * * * * * * * * * * *
-166
-Heal Yourself - The Natural Way
 
 Step 31
 OXYGEN THERAPY
@@ -7708,8 +7358,6 @@ Preferably, use 35-percent food-grade hydrogen peroxide, available from some
 natural therapists and health stores. Otherwise, use any other 35-percent product or
 the three-percent (ten volume) or six-percent (20 volume) peroxide from a
 supermarket or pharmacy. It is best to dilute the peroxide for daily use to about three
-167
-Heal Yourself - The Natural Way
 
 percent; add one part of the 35-percent peroxide to ten parts of water. Start taking a
 few drops in a glass of water, then gradually increase to one teaspoon or more four
@@ -7757,8 +7405,6 @@ while it may be good as a mild laxative, it does not liberate oxygen for oxygen
 therapy.
 Of great benefit are peroxide retention enemas. After a normal enema to clean
 the bowels, insert into the colon a pint of water containing a teaspoon of salt and one
-168
-Heal Yourself - The Natural Way
 
 tablespoon of three-percent hydrogen peroxide; try to hold it inside the large intestine
 for ten minutes or longer. The next day add two tablespoons to this mixture; continue
@@ -7793,8 +7439,6 @@ other old-age symptoms. I assume that beneficial results with this method are la
 due to the elimination of fungi and other microbes in the breathing passages.
 
 * * * * * * * * * * *
-169
-Heal Yourself - The Natural Way
 
 Part 4
 HEALING FOODS
@@ -7839,8 +7483,6 @@ between individuals begin to disappear when an ideal natural diet is adopted.
 Changing our diet to an ideal natural one requires a considerable shift in eating
 habits and a re-education of our taste buds. It often also requires more time for food
 preparation. For most of us this is not easy. While some take to it enthusiastically,
-170
-Heal Yourself - The Natural Way
 
 others need to be driven by the hope of overcoming a debilitating disease; most
 people are content to make minor dietary adjustments or gradual improvements as a
@@ -7881,8 +7523,6 @@ have a strong influence as well, such as our mental and emotional condition, the
 environment, and how we use our body (these are covered in later parts).
 
 * * * * * * * * * * *
-171
-Heal Yourself - The Natural Way
 
 Step 32
 GENERAL DIETARY RULES
@@ -7928,8 +7568,6 @@ peels; strain, discard the peels, and drink the broth. How many of us do it the 
 way around?
 There is a downside to this with some whole foods and seeds. Seeds contain
 reactive proteins, called lectins, which are mainly in the outer hull or bran; individuals
-172
-Heal Yourself - The Natural Way
 
 with certain blood types tend to react to specific lectins. Other food allergies develop
 mainly to the outer parts of seeds removed in refining. If seeds are not sprouted or
@@ -7976,8 +7614,6 @@ degenerative diseases.
 Cooking Foods: Food ideally suited for human nutrition does not require
 cooking, such as sprouted seeds and fresh shoots, ripening seeds (sweet corn,
 green peas), oily seeds and nuts, sweet root vegetables, and fruits. Cooking
-173
-Heal Yourself - The Natural Way
 
 damages many proteins; they coagulat e and harden and their complement of
 digestive enzymes is destroyed, and this makes them more difficult to digest.
@@ -8024,8 +7660,6 @@ still release harmful amounts of nickel, and nickel is implicated in weakening t
 immune system and promoting cancer. Enamel cookware is generally safe, except
 that low-cost Asian imports reportedly may contain high levels of lead; this is also a
 problem with ceramic pots. Glass cookware is the safest.
-174
-Heal Yourself - The Natural Way
 
 Here are some important cooking rules:
 • Avoid baking soda in cooking or baking as it destroys B-vitamins
@@ -8068,8 +7702,6 @@ There is no doubt that taste buds are adaptable and can be re-educated, but
 this comes gradually, so introduce unfamiliar foods and supplements to your diet in
 very small amounts only, interspersed with familiar foods. Be imaginative and
 experiment with new ways to prepare food. Do not eat if you are not hungry, if you
-175
-Heal Yourself - The Natural Way
 
 are agitated or emotionally upset, if you are unwell with a fever or comparable
 condition, or if you are still full from the previous meal. Always prepare food lovingly.
@@ -8113,8 +7745,6 @@ top of this. Remember this if you have proteins and starches in the same meal.
 You can mix a small amount of flavouring vegetables with meat or fish, or eat a
 fruit together with some nuts. Generally it is preferable to have either some fresh
 vegetable juice or a small amount of raw vegetables before a cooked meal.
-176
-Heal Yourself - The Natural Way
 
 For those with a sluggish metabolism, a small amount of sweet food or fruits as
 dessert after a protein meal will provide energy for the digestion of slow-burning,
@@ -8162,9 +7792,6 @@ desirable in order to keep our beneficial bacteria happy, and this is best produ
 with a moderate amount of fibre in the diet. It breaks down at a slow rate and greatly
 helps to maintain regular soft bowel motion.
 
-177
-Heal Yourself - The Natural Way
-
 Fig. 4-1: Food Combining Chart.
 Direct connections between groups indicate good combinations (e.g. starches & neutral
 foods). Connections between groups with one interception are fair (e.g. starches & sub-
@@ -8197,8 +7824,6 @@ separate food high in fibre from sweet food and have the fibre meal after the sw
 meal.
 Therefore, breakfast is safest as a moderately sweet meal, for instance, by
 flavouring cooked rice or sago with banana or apple puree. The evening meal is then
-178
-Heal Yourself - The Natural Way
 
 safe as a fibre meal, such as combining potatoes and other cooked non-sweet
 vegetables with a vegetable salad. Lunch can be a protein food with sweet
@@ -8244,8 +7869,6 @@ pummelling the body all over. Also stimulating are arousing music, skin brushing
 rapid strokes, and cold-water applications.
 Do not rush your breakfast. For many people, it is the most important meal of
 the day. Make it a habit to rise sufficiently early so that you have at least two hours
-179
-Heal Yourself - The Natural Way
 
 Between meat on one end of
 the scale and fruits on the
@@ -8308,8 +7931,6 @@ Meat, on the other hand, makes us more insensitive
 and possibly materialistic, and less emotional and
 intuitive. Red meat especially has a strong “grounding”
 effect and is therefore balancing for those who are
-180
-Heal Yourself - The Natural Way
 
 oversensitive, overemotional, and open to negativ e psychic or occult influences. It is,
 however, unsuitable for those who are already too tense or insensitive either
@@ -8343,8 +7964,6 @@ is to show you in which direction to move in your food selection if you feel tha
 health or emotions are out of balance.
 
 * * * * * * * * * * *
-181
-Heal Yourself - The Natural Way
 
 Step 33
 FOOD GROUPS
@@ -8390,8 +8009,6 @@ pepper, turnip, or red beet, as their sweetness comes mainly from dextrines and 
 release sugars slowly. Most commonly used sugars quickly enter the bloodstream
 and cause a serious strain on blood sugar regulation. It is important for our well-being
 to keep the daily fluctuations in our blood sugar level as small as possible. For
-182
-Heal Yourself - The Natural Way
 
 people with a poor sugar metabolism, this means restricting the intake of sweet foods
 to the barest minimum.
@@ -8438,8 +8055,6 @@ Sucrose consists of one molecule of glucose and one of fructose. Fructose
 produces a strong insulin response that keeps the blood sugar level low partly by
 converting sugar into fat and partly by channelling glucose rapidly into muscle cells.
 Depending on the individual metabolism, the combination of fructose and glucose in
-183
-Heal Yourself - The Natural Way
 
 large amounts either produces overweight or overacidity. In addition, it increasingly
 leads to insulin resistance and Type II diabetes.
@@ -8485,8 +8100,6 @@ health problems, because some people require certain nutrients to be supplied fr
 animal sources (such as taurine, carnitine, or vitamin B12).
 Generally, sensitive people have weak adrenal glands and feel more energetic
 and emotionally balanced by using flesh foods. If these foods are excluded, such
-184
-Heal Yourself - The Natural Way
 
 people should have a high intake of legumes and complex carbohydrates (slow-
 digesting food) in their diet. People with alkaline and insensitive conditions, on the
@@ -8533,8 +8146,6 @@ the better (except if sprayed with pesticides), fruits must be treated with caut
 those with overacidity and poor blood sugar regulation. Use mainly fruits and
 vegetables in season that are grown in your region. Include plenty of green leafy
 vegetables and gradually increase your intake of fresh raw vegetables as in salads.
-185
-Heal Yourself - The Natural Way
 
 Cook or grate root vegetables with their skins left on and use the cooking
 water. Among the root vegetables, red beets are highly recommended for their
@@ -8549,8 +8160,6 @@ with Calcium and Magnesium”). Also they may better tolerate fruits that are no
 ripe; oily fruit such as avocados are usually well tolerated.
 
 * * * * * * * * * * *
-186
-Heal Yourself - The Natural Way
 
 Step 34
 HEALTH DIETS
@@ -8595,8 +8204,6 @@ teaspoon of lecithin, a pinch of cayenne, and some marjoram or mixed herbs. You
 can also blend in some unsprayed lemon or orange skin or a whole lemon. Keep
 refrigerated and shake before using. A small amount of cider vinegar can be used if
 lemon juice is not available.
-187
-Heal Yourself - The Natural Way
 
 Use only a minimum of commercially grown leafy vegetables and cabbage as
 they may have a high exposure to toxic sprays. Instead of greens, you can use
@@ -8642,8 +8249,6 @@ does not increase but helps prevent the risk of heart disease. Alternatively, ea
 soft-boiled or coddled. In view of the high incidence of egg allergy, if you are a
 regular egg eater, I recommend that you test yourself for egg allergy once a year
 after a period of one or more weeks of abstention from eggs.
-188
-Heal Yourself - The Natural Way
 
 The best milk products are yogurt, cottage cheese, and cheese made from
 goat’s milk. Raw goat’s milk can also be used as sour milk or clabber milk. If you are
@@ -8691,8 +8296,6 @@ ripen and are less sweet. Overripe fruit is usually not well tolerated, though a
 generally cause less problems and avocados are usually fine.
 Individuals with insensitive skin and raised blood pressure, on the other hand,
 do well with fruit and may often have fruit alone instead of a regular meal, especially
-189
-Heal Yourself - The Natural Way
 
 for breakfast. Most beneficial for them are acid fruits, such as acid berries, grapefruit,
 acidic oranges, and pineapples.
@@ -8735,8 +8338,6 @@ can be beneficial for those not allergic to wheat, while white bread and cakes a
 devoid of vitamins and minerals and commonly contain added chemicals. However,
 whole grain products sometimes can cause sensitivity reactions, while the
 corresponding refined foods may be tolerated.
-190
-Heal Yourself - The Natural Way
 
 Cautionary Foods
 
@@ -8799,8 +8400,6 @@ migraines, allergies, and neurological problems. Smoked food also contains
 carcinogens. Read the labels and avoid food with added chemicals unless these are
 vitamins, minerals, or carotenes. Beware, for some products, such as bread, are not
 required to have all chemical ingredients listed. Canned food is unhealthy because it
-191
-Heal Yourself - The Natural Way
 
 is precooked and may also contain lead from the soldering and other metals from the
 container, especially if the contents are slightly acidic.
@@ -8848,8 +8447,6 @@ able to remove most of the nitrates and nitrites by soaking the meat, including 
 or minced meat, in warm water for a short time and then discarding the water.
 Individuals with blood group O are best suited to include some meat in their diet;
 those with blood group A are often better on a vegetarian diet.
-192
-Heal Yourself - The Natural Way
 
 Predatory fish such as tuna and shellfish are often high in accumulated
 pesticides and mercury and are not recommended for habitual eating. While sardines
@@ -8896,8 +8493,6 @@ will be strong enough to adopt a complete raw food diet for life, it will be goo
 everyone to have occasional periods on raw foods only.
 Here are the main biochemical and nutritional advantages of raw food as
 compared to cooked food:
-193
-Heal Yourself - The Natural Way
 
 • higher vitamin and mineral content
 • minerals are largely present as biologically active colloids
@@ -8941,8 +8536,6 @@ grated potatoes turn brown or mashed raw plants or fruit deteriorate within hour
 unless refrigerated. Similarly, raw egg white is easier to digest when it is well beaten.
 Goitrogens, which are in some raw foods, interfere with the body’s use of iodine
 and therefore may contribute to the formation of goitre or to an underactive thyroid.
-194
-Heal Yourself - The Natural Way
 
 Goitro-gens are mainly found in the cabbage family, also in soybeans and the skins
 of red-skinned peanuts. Cooking these or adding kelp to the diet can overcome this
@@ -8989,8 +8582,6 @@ meat from a feedlot; also, pork is generally not safe. The safest conventional r
 meat appears to be lamb. (For genuinely free-range, grass-fed beef, bison, and
 ostrich, see: As a further precaution, periodically use an herbal
 anti-parasite program (see Step 44) and possibly an electronic blood purifier (Step
-195
-Heal Yourself - The Natural Way
 
 19). With these precautions, raw meat should be safe and healthy, while I regard all
 cooked meat as more or less unhealthy, partly because of its lack of enzymes, and
@@ -9037,8 +8628,6 @@ Slimming: The high-quality diet and even more so the raw food diet will
 normally ensure gradual weight loss for overweight individuals, while at the same
 time maximizing health improvement. I always put the main emphasis on the health
 aspects of the diet rather than its slimming potential. As we become healthier, we
-196
-Heal Yourself - The Natural Way
 
 automatically find the right weight for our constitution. However, no diet will help if
 your eating problems are emotionally based, so you have to heal your emotions first.
@@ -9081,8 +8670,6 @@ grain products, as well as sweetened food. Try experimenting with these possibil
  burn up more fat.
 • Use a low-allergy diet combined with the correct foods for your blood group
  (see Step 43).
-197
-Heal Yourself - The Natural Way
 
 • Use mind therapy, such as guided imagery and affirmations; look at your belief
  systems; release negative emotions ; and express your emotional needs.
@@ -9128,8 +8715,6 @@ any time.
 Reintroduce fruits to your diet cautiously and with self-observation. Use sweet
 fruits only in the early stages of ripening, before they become too sweet. This applies,
 for example, to bananas and papaya, but do not use fruits that are sour before
-198
-Heal Yourself - The Natural Way
 
 ripening. Subacid fruits, such as apples, cause less problems than sweet-acid fruits,
 such as oranges. Preferably eat fruits only sparingly and as a snack between meals,
@@ -9151,8 +8736,6 @@ symptoms, this diet may be followed strictly or in a more relaxed form and gener
 as part of the high quality diet.
 
 * * * * * * * * * * *
-199
-Heal Yourself - The Natural Way
 
 Step 35
 SPECIAL FOODS
@@ -9197,8 +8780,6 @@ discomfort or allergies in sensitive individuals. This problem is commonly cause
 over gassing the green bananas with ethylene gas shortly before sale to make them
 ripen quickly. Ladyfinger bananas or other small varieties do not normally cause
 digestive problems. Sensitive individuals generally should avoid overripe fruit. Acid
-200
-Heal Yourself - The Natural Way
 
 citrus fruits are excellent for improvi ng liver functions and lowering high blood
 pressure, blood sugar, cholesterol, and fat levels in insensitive individuals.
@@ -9242,8 +8823,6 @@ If seeds do not sprout well, the cause may be as follows:
 • Temperature during sprouting is too high or too low.
 • Seeds were kept too dry or too wet during sprouting; experiment and adjust
  conditions.
-201
-Heal Yourself - The Natural Way
 
 Fermented Foods: The use of fermented foods was widespread in former
 centuries. Well-known examples are yogurt, cheese, cottage cheese, beer, cider and
@@ -9288,8 +8867,6 @@ milk. Most commercial fermented milk products are heat-treated and often very hi
 in lactose, and it is best to avoid them.
 A health food seed cheese or seed yogurt can be used. This is commonly
 made from oily seeds such as nuts, almonds, or sunflower kernels by adding
-202
-Heal Yourself - The Natural Way
 
 acidophilus culture to the soaked and blended seeds. Contamination of the seed
 cheese with yeast can be minimized by washing the seeds in diluted hydrogen
@@ -9336,8 +8913,6 @@ as grape seed extract. The OPC’s have lost their purple color, but this may be
 restored when they are broken down in the body into their individual components. In
 nature, anthocyanidins are bound to different sugars, and during digestion, the
 sugars are split off to release them for absorption.
-203
-Heal Yourself - The Natural Way
 
 The color of black, purple, or red grapes, blackberries, blueberries, red wine,
 and red cabbage consists of anthocyanins, the individual molecules and active form
@@ -9385,9 +8960,6 @@ acrid aftertaste. Taste suspect beets before making salads or juice; cooking the
 fine, and beet tops can also be cooked. Tinned beet has lost most of its pigment and
 is of little nutritional value.
 
-204
-Heal Yourself - The Natural Way
-
 Red beet may be available only seasonally, but you can store a large quantity
 in moist sand. Keep the tops exposed in a cool, shaded place with just enough
 moisture to prevent drying out. After a good root system has developed, you can also
@@ -9429,8 +9001,6 @@ Senna: Pods, powder, or leaves can be added to herb teas.
 Urine: drinking a cupful of your diluted morning urine has a good laxative effect.
 Water: Drinking a large quantity of pure water within a short period will cause part of it to
 rinse the bowels. Take two pints or more of warm water before breakfast (see Step 36).
-205
-Heal Yourself - The Natural Way
 
 Raw Egg: Fresh raw eggs, genuinely free-range from hens fed on greens and
 grains, have health-giving and healing properties. However, egg allergy is
@@ -9476,8 +9046,6 @@ sun. In addition, I recommend unheated extra-virg in olive oil internally as wel
 the skin. This is a good source of squalene, a strong antioxidant that is also important
 for energy production; it is also a key ingredient in the healing properties of shark
 liver oil.
-206
-Heal Yourself - The Natural Way
 
 Regarding the sulphur foods, the main sulphur amino acids are L-cysteine and
 L-methionine. Eggs are a good source of these, but they can easily be produced from
@@ -9496,8 +9064,6 @@ the other hand, can cause a problem in individuals who are deficient in vitamin 
 problems can be avoided by supplementing it together with vitamin B6.
 
 * * * * * * * * * * *
-207
-Heal Yourself - The Natural Way
 
 Step 36
 WATER AND JUICES
@@ -9539,8 +9105,6 @@ mucus and debris.
 Chlorine and added fluoride in drinking water are always harmful. However, if
 the water is high in calcium, then fluoride is less harmful, because calcium fluoride is
 nearly insoluble and not well absorbed. On the other hand, if the water is soft or rich
-208
-Heal Yourself - The Natural Way
 
 in magnesium, iron, or sulphur, then fluoride can be harmful. Avoid chlorinated or
 fluoridated water for drinking or cooking; however, most of the chlorine can be
@@ -9587,8 +9151,6 @@ Bore or spring water in densely populated or farming areas can be used safely
 only if a chemical analysis shows it to be uncontaminated. It should not have high
 amounts of calcium, copper, or iron; otherwise, a filter may have to be used or the
 water boiled to remove excess calcium. The very best water is fresh from a clear,
-209
-Heal Yourself - The Natural Way
 
 uncontaminated, sunlit, shallow, and cascading stream. Preferably try to energize your
 drinking water by exposing it to sunlight or other sources of bioenergy (see Step 7).
@@ -9634,8 +9196,6 @@ and at intervals.
 Often children and some adults can be persuaded to drink the juice only if it is
 flavoured with apple or pineapple. I recommend adding ginger to the juice: either use
 fresh ginger or ginger juice already frozen in ice cube trays. For flavouring, it is
-210
-Heal Yourself - The Natural Way
 
 excellent to stir a few spoonfuls of bee pollen into the juice.
 Start drinking the juice immediately after you have made it, but slowly, and in sips. If
@@ -9682,8 +9242,6 @@ stainless-steel types.
 As a general rule, the slower the speed, expressed as revolutions per minute
 (rpm), the better the quality of the juice. Slow-turning juicers are available as single
 auger or twin-gear machines. Both handle grasses and leaves very well with an rpm
-211
-Heal Yourself - The Natural Way
 
 commonly between 70 and 120 ppm. In comparison, a medium-fast juicer has about
 2,000 rpm and the common centrifugal juicers 8,000 rpm. While low-rpm juicers
@@ -9729,8 +9287,6 @@ Experiment with different varieties of grasses to see which grow best in your
 climate and soil conditions, and find one you like. When using lawn grass, the main
 requirement is that it be grown in good soil without the use of pesticides or chemical
 fertilizers; preferably fence off part of the lawn for this purpose. Often there is some
-212
-Heal Yourself - The Natural Way
 
 How to Grow Grasses Indoors
 1. Soak the wheat or barley for planting overnight
@@ -9809,8 +9365,6 @@ can vary greatly and are highest in young grasses grown in soils rich in mineral
 organic matter.
 While grass juice provides a high amount of easily digestible protein, as well as
 vitamins and minerals of superior quality, even more important are the enzymes,
-213
-Heal Yourself - The Natural Way
 
 Table 4-1: Nutrients in Grass Juice
 Protein 2–5% Fibre 3–6%
@@ -9863,8 +9417,6 @@ cellulose digestion of grass-eating animals. I regard grass juice as the food wi
 greatest healing and rejuvenating potential; it could even sustain us during a famine.
 
 * * * * * * * * * * *
-214
-Heal Yourself - The Natural Way
 
 Step 37
 HEALING RECIPES
@@ -9909,8 +9461,6 @@ buckwheat flour to any baking mix to improve its binding qualities.
 If you use sprouted seeds, it is not necessary to add acidophilus or sourdough
 starter to improve the nutritional quality, but only to lighten the bake. However, if you
 only soak the seeds and, more important still, if your main ingredient is flour, then
-215
-Heal Yourself - The Natural Way
 
 lactic-acid fermentation will greatly improve the nutritional value as well as lighten the
 texture.
@@ -9958,8 +9508,6 @@ keep the butter spread refrigerated.
 Marinated Fish: Dice the fish and cover with lemon juice or diluted cider
 vinegar or a mixture of both. Refrigerate overnight; add cooked or raw onion or herbs
 and spices, and possibly some juice, leaf, or green skin of papaya. Eat with
-216
-Heal Yourself - The Natural Way
 
 vegetables or sprout salad. You can also marinate liver, minced meat, or soft cuts of
 meat.
@@ -10006,8 +9554,6 @@ blender, mix mature green papaya (when it just starts turning yellow and the see
 are already black) with skin, seeds, and flesh, banana and any other fruit in season,
 and a sufficient amount of a suitable liquid such as a juice or yogurt. Eat on its own or
 as part of a meal.
-217
-Heal Yourself - The Natural Way
 
 Grated Potatoes: Bring 1 cup of water to a boil, keep the heat on high, add
 coarsely grated potato, and stir for 2 to 3 minutes. This leaves the potato semi-raw
@@ -10054,8 +9600,6 @@ This recipe may occasionally fail if the barrel is contaminated. To avoid this,
 thoroughly clean the barrel with steam or boiling water before use. To make it easier
 for beneficial bacteria to develop, sprinkle organic cider vinegar into the different
 layers or add acidophilus culture.
-218
-Heal Yourself - The Natural Way
 
 Seed Cheese/Seed Yogurt: Soak oily seeds (almonds, nuts, sesame,
 pumpkin, or sunflower) for 8 to 12 hours. Puree in an electric blender and add
@@ -10102,8 +9646,6 @@ product or yogurt. This can be made from fresh unpasteurized cow’s milk, goat�
 milk, rice milk, homemade soy milk, or a mixture of ingredients based on bee pollen
 and honey. Commercial cow’s milk acidophilus/ bifido yogurt (preferably organic or
 biodynamic) can be used as a starter.
-219
-Heal Yourself - The Natural Way
 
 The commonly used yogurt based on cow’s milk has some problems in that
 many individuals are allergic or sensitive to some ingredients of cow’s milk. It often is
@@ -10151,8 +9693,6 @@ sauce, fresh parsley, coriander, cumin, fresh ginger, onion, and any other herbs
 spices. Form flat burgers and bake crisp in a grill or a non-stick pan.
 
 * * * * * * * * * * *
-220
-Heal Yourself - The Natural Way
 
 Part 5
 PROBLEM FOODS & FOOD PROBLEMS
@@ -10204,8 +9744,6 @@ foods and hence have insufficient enzymes in our diet greatly contributes to the
 development of chronic degenerative diseases and premature aging.
 
 * * * * * * * * * * *
-221
-Heal Yourself - The Natural Way
 
 Step 38
 COW’S MILK PRODUCTS & LACTOSE
@@ -10250,8 +9788,6 @@ child given a vaccination died of crib death, but when fed high doses of vitamin
 before and after vaccinations, not a single child died. Is it a coincidence that New
 Zealand has the highest rates of asthma and crib deaths in the world, but also the
 highest consumption of cow’s milk?
-222
-Heal Yourself - The Natural Way
 
 Crib deaths are uncommon in breast-fed babies. However, even breast-fed
 babies can develop allergies if the mother has a high intake of cow’s milk products or
@@ -10299,8 +9835,6 @@ such as mucus, from areas of vital importance and transport them to the organs o
 elimination. Mucus is too dangerous to dispose of through the kidneys or (with bile)
 through the liver, but it has a special affinity to the mucous membranes that line the
 insides of our body openings. Of prime importance here are the lungs, the respiratory
-223
-Heal Yourself - The Natural Way
 
 tract, the hollow head spaces, the sinuses, and the Eustachian tube (a passage
 between the mouth and the inner ear).
@@ -10347,8 +9881,6 @@ daily.
 The lung irritation caused by accumulated mucus also means that the lungs are
 more prone to be affected by food allergies and chemicals. This could result in
 inflammatory swellings of the bronchial tubes. Mucus accumulating in the lungs
-224
-Heal Yourself - The Natural Way
 
 allows bacteria to infiltrate. Some strains of these bacteria convert sugars into alginic
 acid, another sticky mucus. Often there is Candida albicans or fungal infestation as
@@ -10406,8 +9938,6 @@ and fructose levels may contribute. These simple sugars are reduced to sugar
 alcohols that cause cloudiness in the lens. Another form of cataract is mainly caused
 by a chronic deficiency of vitamins A, B2, C, D, and E, and the minerals chromium
 and selenium. Radiation exposure or drugs can also cause cataracts.
-225
-Heal Yourself - The Natural Way
 
 Besides cataracts, there are other diseases that are usually considered to be
 typical for the aging body, but that occur in infants with galactosaemia. These include
@@ -10427,7 +9957,6 @@ One Scandinavian study showed that no purely breast-fed baby developed
 early middle ear infection and that such babies were protected against it in later life.
 In contrast, early introduction of cow’s milk predisposed children to this and it was
 exclusively found in children who received cow’s milk before the age of six months.
-26
 With lactose-induced mucus congestion, degenerative lung diseases such as
 emphysema can also develop. While smoking is generally considered to be the
 greatest hazard for lung cancer, it may actually rank equal with galactose overload;
@@ -10455,8 +9984,6 @@ minimum, starting today. Review table 5-1 for the lactose content of some common
 dairy products, and see which ones you can avoid.
 With skim-milk powder having a lactose content of 52 percent, you may now
 realize how dangerous is the current fad for using low-fat ice cream, yogurt, cottage
-226
-Heal Yourself - The Natural Way
 
 cheese, and so forth, instead of full-fat products. Such low-fat foods are made from
 skim-milk powder and contain three to five times as much lactose as the equivalent
@@ -10504,8 +10031,6 @@ erodes the intestines’ microvilli through which the food is absorbed, thus res
 malabsorption. Incompletely digested proteins can also pass through the damaged
 intestinal wall into the bloodstream and produce various allergic reactions, such as
 dermatitis or brain irritation.
-227
-Heal Yourself - The Natural Way
 
 A general consequence of such cow’s milk allergy is a weakening of the
 immune system, which in babies is further aggravated by a lack of protective immune
@@ -10552,8 +10077,6 @@ pancreatic beta cells and comes to the surface only during microbial and viral
 infections. At those times, the immune system can mistake it for cow’s milk protein
 and attack it and destroy the beta cells in the process. Bottle-fed infants are very
 susceptible to colds and respiratory and gastrointestinal infections; it is regarded as
-228
-Heal Yourself - The Natural Way
 
 “normal” for them to have six and more infections a year, even though these are rare
 with breast-fed infants.
@@ -10592,8 +10115,6 @@ but pasteurized milk is more likely to cause it. In general, raw butter and crea
 far healthier foods than refined polyunsaturated oils or margarine.
 
 * * * * * * * * * * *
-229
-Heal Yourself - The Natural Way
 
 Step 39
 WHEAT & GLUTEN
@@ -10640,8 +10161,6 @@ The degree of damage to the intestinal wall is proportional to the amount of
 gluten consumed. But even so-called normal and healthy volunteers on high-gluten
 test diets showed a deterioration of their intestinal walls and that their ability to
 absorb nutrients had been reduced.
-230
-Heal Yourself - The Natural Way
 
 Nutrient malabsorption is even more of a problem if white bread is used
 because it has lost about 80 percent of its vitamin and mineral content compared to
@@ -10688,8 +10207,6 @@ labels carefully. Wheat grass, however, is safe to use, but wheat-germ oil needs
 be tested for possible allergic reactions.
 Iris Diagnosis to Detect Wheat Susceptibility: Blue-eyed individuals with
 wheat or gluten intolerance usually have a whitish color in the area of the iris
-231
-Heal Yourself - The Natural Way
 
 denoting the intestines (refer to Step 12). This reflex zone that surrounds the pupil
 indicates the irritation and mucus covering of the intestinal wall. Frequently, the white
@@ -10733,8 +10250,6 @@ rate of multiple sclerosis, with a diet traditionally high in oats and low in vi
 to a lack of sunshine.
 
 * * * * * * * * * * *
-232
-Heal Yourself - The Natural Way
 
 Step 40
 SWEET FOODS
@@ -10779,8 +10294,6 @@ are consumed almost daily, and the only “work” that many modern people do af
 sweet snack is to raise a cup or stare at the television. The combined effect of all
 these negative factors is an erratic blood sugar level. It rises higher and higher after
 the ingestion of sweet food and falls more steeply and lower shortly afterwards.
-233
-Heal Yourself - The Natural Way
 
 Depending on one’s metabolic constitution, this has different effects on different
 people.
@@ -10888,8 +10401,6 @@ How Diabetes Comes into the Picture: The disease most widely associated
 with a breakdown of blood sugar regulation is diabetes. When diabetes develops
 during childhood or in young adults (Type I), the main problem is usually a deficiency
 of the hormone insulin. Produced in the pancreas, insulin is required to channel the
-234
-Heal Yourself - The Natural Way
 
 blood glucose into the cells. Therefore, a deficiency of insulin leads to a rise in the
 blood glucose level.
@@ -10936,8 +10447,6 @@ the overwhelming evidence of recent studies shows a shortened life expectancy an
 more serious complications from using diabetic drugs. In fact, the death rate actually
 doubled in those taking oral diabetic drugs. Most of these same drugs are still in use
 today. From a biochemical point of view, this is only logical and to be expected
-235
-Heal Yourself - The Natural Way
 
 because if sugar levels are lowered without converting them into energy, then they
 have to be converted into fat and cholesterol (collectively called lipids) that then
@@ -10979,13 +10488,10 @@ cholesterol and recommended eating carbohydrates instead, obesity increased from
 continues to rise. Type II diabetes became an epidemic as well. In addition, for the
 first time in history, a large number of obese children developed Type II diabetes. As
 a result, it is now not usually called adult-onset diabetes.
-30
 While exaggerated insulin response and resulting loss of insulin sensitivity are
 most pronounced in obese individuals, they gradually develop also in others after
 prolonged use of sucrose. The damage is greater the more sucrose is eaten in a
 gorging pattern instead of in small meals at intervals.
-236
-Heal Yourself - The Natural Way
 
 Surprisingly, sucrose has a worse effect than eating its two components,
 glucose and fructose, at the same meal. This is called the disaccharide effect and
@@ -11032,8 +10538,6 @@ delinquents, have shown a large drop in the incidence of antisocial behaviour in
 those on diets low in sugar and allergens. While the average improvement rate was
 almost 50 percent, repeat offenders improved by more than 80 percent, and their
 suicide rate fell 100 percent.
-237
-Heal Yourself - The Natural Way
 
 Females, because of their lower adrenaline levels, tend less towards violent
 behaviour. Instead, the effects of the strong blood sugar fluctuations after ingesting
@@ -11080,8 +10584,6 @@ With increasing age, the tissues become more calcified and rigid. In this situat
 eyeball cannot expand with increased intraocular pressure and glaucoma may result.
 Scientific studies have shown that the excretion of calcium in urine increases
 up to fourfold in those with a strong insulin response when given large amounts of
-238
-Heal Yourself - The Natural Way
 
 sugar; this is because plasma calcium levels are increased after eating sugar. The
 most common sources of the calcium excreted are the bones and teeth; this
@@ -11129,8 +10631,6 @@ not only after long-term ingestion of sugar, but even after a single dose. If ta
 an empty stomach, the blood pressure rose 9 to 10 mm Hg for one to two hours.
 After sucrose ingestion, there is also an increase in uric acid levels. Uric acid is
 produced in the liver from breakdown products of fructose. A raised uric acid level in
-239
-Heal Yourself - The Natural Way
 
 the blood is a feature of gout, some forms of arthritis, and heart disease. Men
 generally produce more uric acid after eating than women do.
@@ -11177,8 +10677,6 @@ neuroses, phobias, and panic attacks.
 From a health viewpoint, it is preferable to have sweet food only occasionally
 and with a protein snack or meal. Removing the sweet taste from the tongue as
 quickly as possible helps minimize the insulin overreaction. Alternative sweeteners
-240
-Heal Yourself - The Natural Way
 
 such as the sugar alcohols manitol, sorb itol, and xylitol should only be used in small
 amounts. In larger amounts, they can cause diarrhea or keep the craving for
@@ -11201,8 +10699,6 @@ stomach) must be more strict than reactive hypoglycemics and are advised to avoi
 all sweet food for several years so that the sugar metabolism has time to recover.
 
 * * * * * * * * * * *
-241
-Heal Yourself - The Natural Way
 
 Step 41
 MEAT & FAT
@@ -11248,8 +10744,6 @@ metabolic acids develops and this makes t he whole body too alkaline. With over-
 alkalinity, histamine remains tightly bound to tissue proteins and the skin. In such
 people, even the emotions are sluggish and they often appear unresponsive, with
 little outward expression.
-242
-Heal Yourself - The Natural Way
 
 With low histamine levels, inflammatory responses, which are required for
 many self-healing actions of the body, are suppressed. Allergens entering the
@@ -11295,8 +10789,6 @@ healthy, dogs and cats need a raw-meat diet that includes offal and bones. Free-
 living carnivores not only eat their meat raw, they also eat bones and offal, have a
 very active lifestyle, and efficiently eliminate metabolic residues. If we want to remain
 healthy on a diet high in meat, then we have to adopt similar practices.
-243
-Heal Yourself - The Natural Way
 
 Health problems caused by cookin g and enzyme depletion are aggravated by
 an accumulation of toxic chemicals and hormones. This is due to the common
@@ -11343,8 +10835,6 @@ Many degenerative diseases have been link ed to an excess of saturated fats
 and a subsequent deficiency in EFA’s; these include atherosclerosis, nerve and brain
 disorders, schizophrenia, psychoses and neuroses, rheumatoid arthritis, and multiple
 sclerosis. However, an oversupply of pol yunsaturated oils can have its dangers as
-244
-Heal Yourself - The Natural Way
 
 well, especially if you are deficient in vitamin E. Polyunsaturated oils easily oxidize in
 contact with air to form oxides and peroxides that have a high potential for causing
@@ -11391,8 +10881,6 @@ formed called trans-fatty acids, which the body cannot properly metabolize and w
 interfere with the utilization of essential fatty acids.
 Cardiovascular diseases and an increased incidence of cancer can be a
 frequent outcome of a diet habitually high in red meat and saturated fats, but so is
-245
-Heal Yourself - The Natural Way
 
 fatty degeneration of the liver. The blood becomes more viscous or sluggish after a
 fatty meal. This causes a reduction in tissue oxygenation and an increased
@@ -11439,8 +10927,6 @@ cholesterol content of food is not normally a problem in itself. Most cholestero
 body is formed in the liver from breakdown products of saturated fats, and the more
 cholesterol that is ingested with food, the less is synthesized. Thus the body’s overall
 cholesterol level normally remains stable.
-246
-Heal Yourself - The Natural Way
 
 You may read about HDL and LDL in connection with cholesterol and heart
 disease. HDL is short for high-density lipoproteins and LDL for low-density
@@ -11487,8 +10973,6 @@ cholesterol in the blood in tens of thousands of individuals over many years. Th
 was on average a cholesterol reduction of about ten percent and only a small
 reduction of 14 percent from death of coronary heart disease. However, the total
 number of deaths was significantly higher among those patients who had their
-247
-Heal Yourself - The Natural Way
 
 cholesterol lowered compared to the control group. This included not only higher
 mortality from cancer but on average a 67 percent higher mortality rate from violent
@@ -11534,8 +11018,6 @@ The common oils from warm climate seeds (sunflower, safflower) contain mainly th
 omega-6 series of EFA’s, based on linoleic acid with two unsaturated or double
 bonds. Cold climate plants and fish oils, on the other hand, contain mainly omega-3
 fatty acids. Linolenic acid in linseed (flaxseed) with three double bonds has the
-248
-Heal Yourself - The Natural Way
 
 shortest carbon chain in this group. In fish oils, DHA (docosahexaenoic acid) and
 EPA (eicosapentaenoic acid) predominate.
@@ -11583,8 +11065,6 @@ habitually have cold hands and feet.
 While individuals with deficiency symptoms related to omega-3 EFA's require a
 higher intake for some time, it is generally estimated that a normal diet should
 provide two to three percent of calories from omega-3 and five to ten percent from
-249
-Heal Yourself - The Natural Way
 
 omega-6 fatty acids. In contrast, the average modern diet provides about 0.4 percent
 of calories from omega-3 and ten percent fr om omega-6 fatty acids. You can clearly
@@ -11621,8 +11101,6 @@ contribute to loss of vision or blindness, emphysema and other respiratory probl
 anemia, and problems with the central and peripheral nervous system.
 
 * * * * * * * * * * *
-250
-Heal Yourself - The Natural Way
 
 Step 42
 CHEMICALS IN YOUR FOOS
@@ -11667,8 +11145,6 @@ Heavy use of water-soluble fertilizers allows cropping in poor soils, but plants
 become deficient and offer little resistance to disease and insect attacks. This then
 justifies the liberal use of highly toxic agricultural chemicals, part of which remain in
 the plants and fruits and are eventually ingested by us. The most commonly affected
-251
-Heal Yourself - The Natural Way
 
 are commercially produced fruits. Agricultural chemicals can then accumulate in the
 body, especially in fat tissue, and they can also damage the liver. Organo-phosphate
@@ -11715,8 +11191,6 @@ thought is given to the long-term effects of multiple subclinical deficiencies.
 Meat, poultry, and eggs can contain residues of antibiotics, pesticides, and
 synthetic hormones acting as growth promoters. Hormones are supposed to be
 destroyed during digestion and therefore are regarded as harmless. However, this
-252
-Heal Yourself - The Natural Way
 
 may not be so with synthetic hormones or when the digestive system is weak. In
 addition, a surprising number of nutrients can be absorbed through the mouth tissue,
@@ -11762,8 +11236,6 @@ then neurons fire abnormally, and at higher levels of contamination brain cells 
 to die. Oxygen deficiency and lack of fuel (hypoglycaemia) interfere with the energy
 production of brain cells and make them susceptible to damage by excitotoxins. This
 may be an important factor in the development of neurological diseases.
-253
-Heal Yourself - The Natural Way
 
 Excitatory amino acids cause problems mainly when they are used either in
 high concentrations or in free form; while bound, as they are in most natural foods,
@@ -11810,8 +11282,6 @@ All or most chlorinated organic compounds that have been tested have been
 found to damage our health. It is also a fact that our liver is not equipped to detoxify
 chlorinated chemicals. Putting all of these facts together leads to the inescapable
 conclusion that chlorinated water damages our health to a considerable, although
-254
-Heal Yourself - The Natural Way
 
 unknown, degree. In the next chapter, I provide more information on the connection
 between chlorinated water and cardiovascular disease.
@@ -11858,8 +11328,6 @@ high, fluoride is less toxic. Fluoride causes the most damage in calcium-deficie
 bodies, usually children and hypoglycemics or fast oxidizers.
 Seafood and especially kelp are high in a safe form of fluoride. However, using
 these in addition to fluoridated water and toothpaste might exceed safe fluoride
-255
-Heal Yourself - The Natural Way
 
 intake levels. Caries, and the health problems due to artificial fluoridation, can be
 avoided by using kelp and restricting the use of sweet foods.
@@ -11880,7 +11348,6 @@ tomatoes, cucumber, rhubarb, and beets. Even heating tap water in an aluminium p
 was shown to add 1600 mcg of aluminium per litre of water, which is 3200 percent
 over the recommendation of the World Health Organization, which sets a limit of 50
 mcg per liter.
-33
 In the body, aluminium acts as a neurotoxin, causing brain disorders, though
 symptoms develop slowly. They may include senile dementia (Alzheimer’s disease),
 Parkinson’s disease, reduced memory, slow learning, motor neuron disease,
@@ -11908,8 +11375,6 @@ disorders with serious mental disturbances . Many symptoms are actually the same
 as in multiple sclerosis. The present epidemic of autism has been linked by some
 researchers to a high level of organic mercury compounds used as preservatives in
 some childhood vaccines.
-256
-Heal Yourself - The Natural Way
 
 Case reports for patients after removal of all their amalgam fillings include cure
 of leukaemia and Hodgkin’s disease, regaining vision after 23 years of blindness,
@@ -11917,7 +11382,6 @@ cure of moderate to severe headaches that had persisted for 50 years, cure of
 arthritis, and a reversal of general malaise with fatigue and depression. Minimize
 amalgam-related health problems by refusing any new fillings containing mercury,
 and contemplate replacing any old amalgam fillings; for this, see a holistic dentist.
-34
 For more details on dental health, review Step 8. For practical advice and support,
 contact: for wide-ranging scientific information on the negative
 health effects of amalgam fillings and heavy metals: An
@@ -11958,8 +11422,6 @@ When food is heated above the boiling point, chemical reactions take place that
 create toxic chemicals in the food. For a long time it has been known that
 carcinogenic substances are produced in highly heated meat, but the more recent
 discovery of similar chemicals in heated cereal or grain products has come as a
-257
-Heal Yourself - The Natural Way
 
 shock to the food industry. When foods are heated to above the boiling point,
 advanced glycation end products (AGE’s) are formed, some known as acrylamides.
@@ -12006,8 +11468,6 @@ were noticed after ingesting microwaved food.
 Fortunately, it is easy to protect yourself from the dangers associated with
 cooking: avoid or minimize the use of processed food; heat food only to the boiling
 point; and maximize your intake of raw, fresh, and organic food. Shortly before eating
-258
-Heal Yourself - The Natural Way
 
 heated food, have some fresh, raw food, and more with the cooked meal. In this way,
 digestive leukocytosis can be reduced or even eliminated.
@@ -12054,8 +11514,6 @@ meat require different digestive juices from those needed to process a starch me
 The digestion of starch initiated by the salivary amylase is prematurely stopped if the
 starch is mixed with meat in a meal. Amylase is also inhibited when starches are
 mixed with acids and the release of salivary amylase is suppressed when eating
-259
-Heal Yourself - The Natural Way
 
 sweetened starches. Mixing incompatible foods overloads the pancreas and our
 health suffers.
@@ -12102,8 +11560,6 @@ used to excess. However, smoking is almost always an addiction and has no
 redeeming health features at all.
 If you use a stimulant regularly, more than once or twice a week, I recommend
 that you stop using it for one week every few months and carefully observe yourself
-260
-Heal Yourself - The Natural Way
 
 during abstention and when it is reintroduced for signs of craving, discomfort, or
 allergy. This advice to interrupt stimulant use occasionally does not apply, however,
@@ -12151,8 +11607,6 @@ skins of various fresh fruits.
 A study in the U.K. in 1977 found that moulds and their poisonous mycotoxins
 (fungal toxins) were present in all 318 samples of flour tested. This mould
 contamination was believed due to insufficient drying in the process of combine-
-261
-Heal Yourself - The Natural Way
 
 harvesting of grain. Whole-meal flour, bran, and wheat germ are even more affected
 by mould than is white flour; rice is also frequently contaminated.
@@ -12172,8 +11626,6 @@ bacteria may also be present. I do not recommend habitually eating such meat. As
 general rule, I recommend you avoid meat from commercial animal feedlots.
 
 * * * * * * * * * * *
-262
-Heal Yourself - The Natural Way
 
 Step 43
 METABOLIC TYPES, PATHWAYS, & DIETS
@@ -12218,8 +11670,6 @@ when stimulated, while SNS nerves release norepinephrine, an epinephrine-like
 hormone with opposite effects to those of acetylcholine. SNS dominance leads to
 elevated blood levels of glucose and fatty acids (diabetes, coronary heart disease),
 while with PNS dominance these levels are lowered (hypoglycaemia).
-263
-Heal Yourself - The Natural Way
 
 The Tension-Relaxation Cycle: Overall, each body function should be in
 balance between the opposite forces of the SNS and PNS. However, at any given
@@ -12267,8 +11717,6 @@ Europeans, Dutch, Russians, Polynesians, and New Zealand Maoris, the latter bein
 a traditional hunter society in a warm climate. The S-type, on the other hand, is
 mainly grouped around the Mediterranean and the tropical and subtropical regions of
 Asia. Generally, the P-type originated in cold climates that offered a continuous
-264
-Heal Yourself - The Natural Way
 
 supply of animal products but a lack of plant food in winter, while the S-type evolved
 with a continuous, plentiful supply of plant food. There are, however, no original
@@ -12345,8 +11793,6 @@ rarely has colds, infections, allergies, or
 inflammations, susceptible to chronic
 infections, liver and kidney problems,
 cancer, cardiovascular disease, stroke
-265
-Heal Yourself - The Natural Way
 
 Table 5-3 lists the characteristics of the P-type and S-type. Those of balanced type
 are generally between these opposites. The positive characteristics of the P-type are
@@ -12392,8 +11838,6 @@ dependable, and reliable. If they originate from the basic S-type, they are lean
 more emotional response. Common health problems are hypertension and
 cardiovascular diseases, chronic infections, degenerative liver and kidney diseases,
 stroke, and cancer.
-266
-Heal Yourself - The Natural Way
 
 Figure 5-1: Relationships between Metabolic Types
 
@@ -12413,8 +11857,6 @@ difficulties making decisions. Anemia may be present.
 While S-type individuals can become diabetic on a diet high in sweet foods,
 P-type individuals tend to become hypoglycaemic . Glycolysis (the breakdown of glucose
 inside the cells) is sped up and this is why an individual is called a fast oxidizer.
-267
-Heal Yourself - The Natural Way
 
 Fast oxidizers usually have low blood pressure with low energy levels, especially
 after eating sweet foods and fruits. Often there is a craving for sweet food though they
@@ -12461,8 +11903,6 @@ healing effects of nutrition.
 Glycolysis and Citric Acid Cycle: The main energy-generating mechanism in our
 cells is the Krebs cycle or citric acid cycl e. This is a series of enzymatic steps through
 which a two-carbon molecule (acetyl or acetate) is oxidized to yield carbon
-268
-Heal Yourself - The Natural Way
 
 dioxide and water. All three main food components - glucose, amino acids, and fatty
 acids - can be utilized in this way.
@@ -12509,8 +11949,6 @@ Most of the dietary protein is used as bu ilding blocks and little is available 
 production. The ability to convert pyruvic acid into acetyl coenzyme A is poorly developed
 in P-type individuals. Therefore, oxaloacetic acid is produced in excess, while lack of
 acetyl coenzyme A prevents the citric acid cycle from fully operating. The blockage of
-269
-Heal Yourself - The Natural Way
 
 the citric acid cycle leads to a lack of energy and overacidity from accumulating
 metabolic acids and lactic acid.
@@ -12519,8 +11957,6 @@ Figure 5-2: Cellular Energy Metabolism
 Consuming more proteins and fats (best here is olive oil) is the solution, as fats are
 the most efficient source of acetyl coenzyme A. However, this will be problematic if there
 is malabsorption of fat. Polyunsaturated oils, on the other hand, require additional
-270
-Heal Yourself - The Natural Way
 
 metabolic steps and are not well suited for energy production. In addition, linoleic acid
 may contribute to the frequent oversensitivity of fast oxidizers by forming certain
@@ -12567,8 +12003,6 @@ required for the energy metabolism should be supplied in generous amounts as
 supplements.
 The large buildup of acetyl coenzyme A is reduced in the liver by conversion into
 saturated fatty acids and cholesterol, both of which contribute to the development of
-271
-Heal Yourself - The Natural Way
 
 atherosclerosis. In uncontrolled diabetes, a surplus of fat leads to the production of
 ketones and keto acids from acetyl coenzyme A (ketones are organic chemicals with an
@@ -12616,8 +12050,6 @@ cure” has become famous in this regard; tart apples and acid citrus fruits can
 used. During this time it is essential to flush the intestines daily (using Epsom salt and
 colonics, for example); otherwise the poisons generated by a large, disintegrating tumor
 can cause great distress and even death. At other times, use plenty of red beets, raw,
-272
-Heal Yourself - The Natural Way
 
 juiced, or cooked. The red beet pigments greatly increase the oxygenating ability of the
 cells and normalize metabolism.
@@ -12665,8 +12097,6 @@ minerals, especially trace minerals, should be supplemented; mix lecithin with a
 rubbing the skin with cod-liver oil may be helpful. The idea is to eat easily digested food.
 Diet for Sensitivity Regulation: Certain nutrients make the skin and sometimes
 the brain more sensitive and should be minimized if the skin easily reacts to irritants and
-273
-Heal Yourself - The Natural Way
 
 Table 5-4: Food List for Blood Type Groups
 
@@ -12756,9 +12186,6 @@ Mackerel OK OK OK OK
 Milk, cow Avoid Avoid OK Avoid
 Milk, goat OK OK OK Avoid
 
-274
-Heal Yourself - The Natural Way
-
 if there is emotional and mental instability. Sensitizing nutrients and factors
 include: acidic and sweet foods and fruits, allergens, and a diet high in phosphorus
 and low in calcium and magnesium. Proteins, fats, and oils, complex carbohydrates,
@@ -12804,8 +12231,6 @@ seeds appear to be more acceptable and possibly beneficial even if the same seed
 should be avoided in cooked form. If all is well, then the potentially harmful lectins are
 broken down to amino acids and are harmless; if not, then we must improve
 conditions or avoid these foods. Try to develop your inner food sense and learn to
-275
-Heal Yourself - The Natural Way
 
 listen to your body. It will then let you know by your inner urgings and taste
 preferences which foods to eat.
@@ -12817,8 +12242,6 @@ beneficial. Neutral means that the food does not cause any blood group related
 problems, but it has no other specific advantages to recommend it.
 
 * * * * * * * * * * *
-276
-Heal Yourself - The Natural Way
 
 Part 6
 SPECIFIC HEALTH PROBLEMS
@@ -12848,8 +12271,6 @@ specifically mentioned, or is rather severe, in addition to any of the recommend
 measures, adopt a temporary raw food diet, combined with suitable mind therapy.
 
 * * * * * * * * * * *
-277
-Heal Yourself - The Natural Way
 
 Step 44
 SELF-CARE HELP FOR HEALTH PROBLEMS
@@ -12894,8 +12315,6 @@ Anemia: Consume juice or powder of cereal grasses, organic liver (underdone
 or freeze-dried), and sprouted seeds. Take hydrochloric acid and ascorbic acid with
 proteins and cooked food; minimize intake of sweet food. Vitamins B6, B12, folic
 acid, E, and bioflavonoids are helpful as are chelated or organic forms of iron,
-278
-Heal Yourself - The Natural Way
 
 copper, zinc, manganese, chromium, and selenium. Do a parasite cure with
 wormwood, cloves, and tincture of walnut, and electronic zapper. Practice red color
@@ -12945,8 +12364,6 @@ damp places, moulds, and fungi in air and food. Use natural fibre mattresses or 
 foam mattresses in polyethylene sheeting with only a small opening at the bottom.
 Eliminate systemic parasites and microbes with wormwood, cloves, black
 walnut tincture, and use of the electronic zapper; try colloidal silver, copper, or
-279
-Heal Yourself - The Natural Way
 
 copper salicylate. Vomiting therapy can help: Try to cough up mucus after placing hot
 onion packs on the chest. Make children emotionally secure; try emotional release
@@ -12992,8 +12409,6 @@ Osteoporosis below.
 Cancer: The main aspects of a holistic cancer therapy are strengthening the
 immune system, controlling the cancer microbe, removing accumulated toxins and
 waste products, and dissolving tumours.
-280
-Heal Yourself - The Natural Way
 
 DIET: Start with the Basic Cleanse followed by a juice diet, grape cure, or low-
 protein diet; use additional spirulina and bee pollen for high-quality protein. Maximize
@@ -13041,8 +12456,6 @@ life. Your attitude is the key to your success.
 Candidiasis: This is a fungal infection caused by Candida albicans. The most
 common symptoms are thrush (oral) and vaginal and skin infections. However,
 Candida often invades the body itself, starting with the digestive tract and then
-281
-Heal Yourself - The Natural Way
 
 entering the bloodstream, overwhelming the immune system. In this way, Candida
 has been found to cause or aggravate food allergies, chronic fatigue, digestive-tract
@@ -13091,8 +12504,6 @@ magnesium daily as magnesium chloride or with neutralized ascorbic acid. Other
 helpful minerals are zinc, selenium, chromium, manganese, and copper salicylate;
 but males should minimize calcium. Seriously ill patients can take 5 to 6 g of lysine
 and 2 g of carnitine daily in four divided doses. For herbs, consider bromelain, ginger
-282
-Heal Yourself - The Natural Way
 
 (with most meals), ginkgo biloba, and green tea; also helpful are digestive enzymes
 high in lipase.
@@ -13140,8 +12551,6 @@ ascorbate in two tablespoons of water and from time to time place 20 drops in ea
 nostril.
 Colds can also be stopped if, at the first sign of a coming cold, a few drops of 3
 percent hydrogen peroxide are placed in each ear. Lie on one side while putting the
-283
-Heal Yourself - The Natural Way
 
 drops into the opposite ear, wait a few minutes, then change sides and put the drops
 in the other ear. In addition, gargle frequently with diluted hydrogen peroxide and
@@ -13189,8 +12598,6 @@ diet of only apples, mainly tart varieties (e.g. Granny Smith) with no or only a
 minimum of insulin or drugs. Undertake intestinal sanitation (Epsom salt - garlic flush
 followed by plenty of dairy-free acidophilus cultures). Then gradually introduce non-
 sweet raw foods, especially sprouted seeds, lentils and other legumes, seafood,
-284
-Heal Yourself - The Natural Way
 
 onion, and cooked vegetables. Keep a diary of the blood sugar level after each test
 food (a food that you ingest to see how your blood sugar reacts to it). Continue using
@@ -13238,8 +12645,6 @@ With ulcers and irritable bowel (Crohn’s disease), try slippery elm powder
 before meals; meals with arrowroot can be soothing; and use ginger root often with
 meals. Goldenseal and chamomile are useful as they are anti-inflammatory. Try
 glutamine and zinc sulphate with meals (200 mg/day); also copper salicylate, herbal
-285
-Heal Yourself - The Natural Way
 
 parasite cure, oxygen therapy, and colloidal silver. Magnesium is best taken as
 magnesium chloride; take also high-quality aloe vera juice.
@@ -13286,8 +12691,6 @@ they are found in deep-green, yellow, orange, and red fruits and vegetables, as 
 tomatoes, squash, corn, and spinach. Have a high intake of a wide range of
 bioflavonoids; use the herbs eyebright and bilberry internally and as topical eye rinse.
 Important minerals are magnesium, chromium, manganese, selenium, and zinc.
-286
-Heal Yourself - The Natural Way
 
 Chromium, calcium, and a diet low in sweet food are important with myopia
 (near-sightedness), while magnesium is good for farsightedness. A salty diet is
@@ -13335,8 +12738,6 @@ mg of vitamin K1 (derived from plants). Fibrocystic breast disease and ovarian c
 often disappear with six to eight drops of saturated solution of potassium iodide
 (SSKI) taken daily in some water for two to three months. Prolonged use can inhibit
 thyroid functions, so use with professional supervision; see Thyroid Problems.
-287
-Heal Yourself - The Natural Way
 
 HERBS: For menopause: chamomile, hawthorn, red clover, and sage. Excessive
 bleeding: bayberry bark, red raspberry, shepherd’s purse, and witch hazel.
@@ -13383,8 +12784,6 @@ egg, pork, citrus, soft drinks, artificial food colouring, flavouring, excitotox
 preservatives, chemical sprays, petrochemical fumes, detergents, strong perfumes,
 smoke, stimulants, and aspirin. Avoid fluorescent and flickering lights and games,
 television, and stressful situations. Minimize electromagnetic pollution (see step 8). In
-288
-Heal Yourself - The Natural Way
 
 regard to sweeteners, avoid sucrose or fructose in combination with glucose; see
 “Fructose and the Disaccharide Effect” under Step 40.
@@ -13431,8 +12830,6 @@ Caution: High amounts for more than a few weeks can suppress thyroid function.
 With chest infections, in addition to the above, temporarily take 50,000 IU or
 more of vitamin A (under professional supervision). Try coughing up mucus after
 using a hot onion pack on the chest (see Step 21).
-289
-Heal Yourself - The Natural Way
 
 HERBS: These include echinacea, goldenseal, marigold, olive leaves, pau
 d’arco, prickly ash, and wormwood; also chamomile, elder flowers, and peppermint.
@@ -13480,8 +12877,6 @@ keep it there for several days. This may be phlegm, pus, bloodstained bandage,
 vaginal or nasal discharge, or urine (in bladder or kidney infections). This can
 promote healing by way of secondary contact and can also be used with an extracted
 tooth or any severed part of the body. This method works on the same principle as
-290
-Heal Yourself - The Natural Way
 
 radionics and telepathy with a two-way exchange of information energy between the
 body and any separated part.
@@ -13530,8 +12925,6 @@ activity or exciting movies; clear up any worries. Ask your lower self (the
 subconscious level) for cooperation: Tell it to stop thinking of a particular problem
 and that you will deal with it during the daytime, and then do that. Keep pen and
 paper beside the bed to write down any important thoughts to deal with the next day.
-291
-Heal Yourself - The Natural Way
 
 If you like to experiment, try the Eeman screens: Place metal wire screens
 (approximately 16 inches by 10 inches, from a hardware store) under your head and
@@ -13579,8 +12972,6 @@ goldenseal, or rosemary. Also do the herbal parasite cure. With hepatitis, use t
 therapy for viral infection in Infections and Inflammations above.
 With persistent problems, continue with the castor-oil liver packs. Also effective
 are reflexology, ear acupuncture, and acupun cture meridian therapy. Jaundice can
-292
-Heal Yourself - The Natural Way
 
 be caused by drugs and chemicals, liver infection, gall-duct blockage, and increased
 destruction of red blood cells (protect with high amounts of vitamin E), so try to
@@ -13626,8 +13017,6 @@ hay fever, coughs, sinusitis, running nose, throat infections, and many ear prob
 However, there may also be a mucus covering in the small intestine, causing
 malabsorption and, the worst mucus-related disease, cystic fibrosis. Generally,
 pathological mucus results either from a -lactose/galactose overload or from irritated
-293
-Heal Yourself - The Natural Way
 
 mucous membranes. Such irritation may be due to food, such as gluten, or to food
 allergy or chemical sensitivity; it can result from persistent inhalation of irritants or
@@ -13674,8 +13063,6 @@ steel, preferably in the groin pocket, to improve the mucous membranes of the no
 and throat and to resist colds and congestion. Use systemic lemon (yellow-green)
 color therapy to loosen and expel phlegm, and concentrate it on the chest and upper
 back.
-294
-Heal Yourself - The Natural Way
 
 THE SUGAR CURE: Keep a teaspoon of fine (Caster) sugar in the mouth until it is
 dissolved, then spit it out and take another teaspoonful. Continue with this at intervals
@@ -13724,8 +13111,6 @@ zapper, magnetic pulser, colloidal silver, and oxygen therapy. Also useful are s
 massage, tapping, and adjustment; deep muscle massage; frequent castor-oil packs
 on abdomen and lower back. Improve the liver, gallbladder, kidneys, and endocrine
 glands; press the foot reflex for the pineal gland.
-295
-Heal Yourself - The Natural Way
 
 Get frequent rest periods, avoid stress, have frequent mild sunshine on your
 skin. Remove any dead teeth; replace mercury amalgam fillings; guard against
@@ -13772,8 +13157,6 @@ products. Avoid these and experiment with the following approaches.
  during the day to keep hunger away for hours.
 • Thirty minutes before meals stir one teaspoon of psyllium hulls in a glass of
  water, drink immediately. If still too hungry at mealtime, double the amount to two
-296
-Heal Yourself - The Natural Way
 
 teaspoons in a large glass of water. Drink some more water afterwards. Psyllium
  swells up to 40 times its dry bulk to fill the stomach with a soft gel.
@@ -13816,8 +13199,6 @@ boron; to measure this amount, dissolve one level teaspoon of borax in one quart
 (litre) of water and take a teaspoon twice daily with meals. Frequently expose your
 skin to mild sunlight without using sunscreen. Also, vitamin K is important and
 available from dark-green vegetables.
-297
-Heal Yourself - The Natural Way
 
 Pain: Pain is a warning signal indicating that something is wrong. Therefore it
 is most important to search for and correct the basic cause. The following measures
@@ -13863,8 +13244,6 @@ relieving the condition. Here are a few variations:
 • For pain in abdomen, back, sides, or hips, put fingertips to the left side of the
  spine between shoulder blades.
 • For pain in legs or feet, hold the left side near the centre of the spine.
-298
-Heal Yourself - The Natural Way
 
 Parasites: Parasite infestations combine with fungi, such as Candida, to
 greatly undermine your long-term health. Examples of common parasites are
@@ -13913,8 +13292,6 @@ foti-tieng, gotu kola, licorice (but not with high blood pressure), pau d’arco
 skullcap.
 ADDITIONAL THERAPIES : Cleansing and strengthening of all organs and glands
 with all the methods described in this book are advised. Spinal tapping, spinal
-299
-Heal Yourself - The Natural Way
 
 corrections, rejuvenation exercises, tensing and breathing exercises, and body-mind
 exercises are also helpful. Try regression to discover and release hidden fear.
@@ -13963,8 +13340,6 @@ there are balanced oxidizers with normal histamine levels. In addition, each of 
 may at times display symptoms of overactivity or underactivity. If in doubt about the
 histamine status, under supervision of a qualified health practitioner, take (or give) 50
 mg of niacin with water on an empty stomach. If a strong facial flush develops,
-300
-Heal Yourself - The Natural Way
 
 histamine levels are high; if there is no or only a weak flush, levels are probably
 normal or low. Then try 250 mg of niacin in the same way; if there is still no or only a
@@ -14010,8 +13385,6 @@ and vitamin-B6 deficiency; also white spots on fingernails, loss of dream memory
 sweetish breath odour, stretch marks, inability to tan and sensitivity to sunlight,
 sometimes pain in the upper left abdomen, possibly tremors, spasms, amnesia,
 impotence, menstrual irregularity, and anemia.
-301
-Heal Yourself - The Natural Way
 
 Usually a hypoglycaemia diet is helpful, along with vitamin B6 (up to 3 g daily in
 divided doses), zinc (10 mg) with each meal, vitamin-B12 injections, high intake of
@@ -14058,8 +13431,6 @@ B6, can be added to this as well. Have frequent cleansing periods; regulate bowe
 movements; use colonics. Drink plenty of water and green vegetable juices; use hot
 and cold showers; do skin brushing to activate the skin, but not on the affected areas.
 Include sweating after hot Epsom salt bath.
-302
-Heal Yourself - The Natural Way
 
 Stimulate the kidneys, lungs, circulation, small intestine (especially for
 psoriasis), liver, gallbladder, and endocrine gl ands, especially the thyroid; do lymph-
@@ -14106,8 +13477,6 @@ apply vitamin E, fresh green juice or fresh leaves, especially cabbage.
 Scar tissue: To remove, frequently rub with camphorated oil, MSM solution,
 and vitamin E. In addition, scars can be treated with neural therapy. An anaesthetic
 (Xylocain) is injected into scar tissues that are thought to induce electrical
-303
-Heal Yourself - The Natural Way
 
 interference fields in other areas of the body. Sometimes a health problem of long
 standing disappears instantaneously after an injection. Alternatively, you can prick
@@ -14155,8 +13524,6 @@ grass; moisten with some juice as required to make it stick.
 GENERAL RULES FOR COLOR THERAPY FOR SKIN PROBLEMS : Initial treatment is
 with green; subsequent treatments for dry or scaly skin problems with lemon; for
 obstinate cases, use also yellow or orange. When scales drop and inner skin surface
-304
-Heal Yourself - The Natural Way
 
 appears, treat with turquoise, as for moist or weeping skin disorders. For red, angry
 skin problems, use blue or indigo; for abscesses, boils, carbuncles, and furuncles,
@@ -14204,9 +13571,6 @@ authorities, the advertised benefits are greatly exaggerated. For instance, inci
 of the four leading childhood killer diseases - diphtheria, pertussis, scarlet fever, and
 measles - had already declined 90 to 97 percent before the introduction of vaccines,
 due to improved sanitation and hygiene.
-35
-305
-Heal Yourself - The Natural Way
 
 Another controversy concerns the “shaken baby syndrome.” Independent
 researchers claim that vaccinations can cause spot bleeding in the brain and retina
@@ -14255,8 +13619,6 @@ thumb on any cut for at least seven minutes. Partially severed parts can be pres
 and held together with hand pressure or firm bandages; this usually stops bleeding
 and accelerates healing.
 * * * * * * * * * * *
-306
-Heal Yourself - The Natural Way
 
 Step 45
 DEFICIENCY SYMPTOMS
@@ -14301,9 +13663,6 @@ Haemorrhaging in the back of the eye vitami ns B6, E, C, B2, zinc, copper, magne
 (retinitis, also macular degeneration) bioflavonoids, gluc osamine, cartilage
 Infected, ulcerating eyes (keratomalacia) vita min A (vitamins C, B2, B6, zinc, blue light)
 Itching, burning, watery, sandy eyes vitamin B2 (continued)
-
-307
-Heal Yourself - The Natural Way
 
 Symptom Deficiency/Treatment/Cause
 Nearsightedness (myopia) vitamins C, E, D, calcium, proteins, chromium
@@ -14350,9 +13709,6 @@ impetigo, and so on) tea tree oil packs, propolis)
 Itching vitamins B, C, EFA, alkalizers (allergy testing)
 Jaundice vitamins C, E, B6, B12, A, lecithin, magnesium, zinc (blue
  light therapy, liver cleansing) (continued)
-
-308
-Heal Yourself - The Natural Way
 
 Symptom Deficiency/Treatment/Cause
 Lemon-yellow skin vitamin B12
@@ -14401,9 +13757,6 @@ Greying hair folic acid, pantothenic acid, biotin, minerals/copper
  (weak circulation/adrenals, avoid sweet food, food
  allergies) (continued)
 
-309
-Heal Yourself - The Natural Way
-
 Symptom Deficiency/Treatment/Cause
 Hair loss zinc, vitamin B6, sulphur/MSM, selenium, biotin
 Hangnails vitamin C, folic acid, proteins
@@ -14444,9 +13797,6 @@ Yellowish-brown-coated tongue liver or gallbladder problems
 
 * * * * * * * * * *
 
-310
-Heal Yourself - The Natural Way
-
 Step 46
 CANCER
 If you have cancer, here are some useful suggestions.
@@ -14466,7 +13816,6 @@ Studies appear to show that early intervention is helpful, because pre-
 cancerous lesions are included in early removals that frequently would not become
 cancerous if left untouched. It does not matter how much or how little of a breast is
 removed; the outcome is always the same.
-38
 Researchers say it is complacent to continue subjecting at least 70 percent of
 women with breast cancer to surgery, a futile mutilating procedure. 39 There is no
 evidence that early mastectomy affects survival; if patients knew this, they would
@@ -14480,7 +13829,6 @@ just below the rate where it kills the patient. Instead, he continues, “would 
 more scientific to ask why our approach has failed?” Not too soon to ask this
 question, after a century of mutilating women, I would say. The title of this editorial,
 appropriately, is “Breast cancer: have we lost our way?”
-41
 Basically, all types and combinations of conventional breast cancer treatment
 appear to result in the same low long-term survival rates. The only conclusion that
 can be drawn from this is that conventi onal treatment does not improve long-term
@@ -14488,15 +13836,12 @@ survival rates. Even worse, Michael B aum, M.D., a leading British breast cancer
 surgeon, found that breast cancer surgery tends to increase the risk of relapse or
 death within three years. He also linked surgery to the accelerated spread of cancer,
 which it does by forming metastases in other parts of the body.
-42
 This conclusion confirms an earlier finding by Ernst Krokowski, a German
 professor of radiology. He demonstrated conclusively that metastasis is commonly
 triggered by medical intervention, including sometimes even by a biopsy or surgery
 unrelated to the cancer.
 43 Disturbance of a tumor causes a greatly increased number
 of cancer cells to enter the bloodstream, while most medical intervention, especially
-311
-Heal Yourself - The Natural Way
 
 chemotherapy, suppresses the immune system . This combination is a recipe for
 disaster. It is metastases that kill, while primary tumours in general and those in the
@@ -14547,8 +13892,6 @@ does not matter when cancer is detected; they suggest to me that the conventiona
 methods and the whole multibillion dollar cancer industry are useless.
 Here’s more supportive evidence: A 13-year Canadian study of 40,000
 women compared physical breast examinations with examinations plus
-312
-Heal Yourself - The Natural Way
 
 mammograms. The mammogram group had many more lumpectomies and
 surgeries, and the death rate was 107 deaths in the mammography group and 105 in
@@ -14558,18 +13901,15 @@ mammography; in younger women, 92 percent of all cancers detected by
 mammography are of this type. Nevertheless, on average, 44 percent, and in some
 states 60 percent, of these are treated by mastectomy. As most of these tumours are
 harmless, this greatly improves the survival statistics.
-52
 In contrast, while conventional diagnosis is invasive and may help to spread the
 cancer, a kind of electro-dermal screening, called the Biofield test, was developed by
 a team from eight European hospitals and universities. The Lancet reported it as
 being 99.1 percent accurate in diagnosing malignancy in breast tumors.
-53
 A large meta-analysis of radiotherapy results for lung cancer showed that after
 two years there were 21 percent more deaths in the group that had radiotherapy in
 addition to surgery as compared to those who had surgery alone. Researchers
 contend the rationale is to kill any cancer cells remaining after surgery, but it is a
 shame that the facts do not agree with this theory.
-54
 Chemotherapy for children with leukaemia and Hodgkin’s disease is the proud
 showpiece of the only apparent success of orthodox cancer therapy. Now a long-
 term follow-up study shows that such children develop 18 times more secondary
@@ -14602,8 +13942,6 @@ Why are they doing this? By “they” I am referring to what is commonly called
 the cancer establishment. I believe the answer was given by the eminent medical
 commentator and former editor of New Scientist, Dr. Donald Gould, in his article
 “Cancer: A Conspiracy of Silence.” The subtitle summarizes his position: “The
-313
-Heal Yourself - The Natural Way
 
 commonest cancers are as resistant to treatm ent today as they were 40 or 50 years
 ago. Nothing is to be gained by pretending that the battle against cancer is slowly but
@@ -14637,7 +13975,6 @@ therapy in an evaluation of five-year surv ival rates of 153 melanoma patients. 
 79 percent did so with conventional therapy. With Stage III (regional metastases), the
 figures, respectively, were 70 percent and 41 percent; with Stage IVa (distant
 metastases), 39 percent with Gerson and 6 percent with conventional therapy.
-62
 Now there is actually proof that cancer surgery is the main cause of metastasis
 or secondary organ tumours. About 90% of patients die from metastases while
 primary tumours actively suppress metastasis. Stress as from fear or most medical
@@ -14652,8 +13989,6 @@ remedies. Belief or faith in the chosen method may often have been more importan
 than the method itself. However, fundamental factors that should be addressed for a
 more uniform successful outcome are:
 1. Alkalize the body
-314
-Heal Yourself - The Natural Way
 
 2. Controlling the cancer microbe
 3. Normalizing metabolism
@@ -14700,8 +14035,6 @@ respiration. This can be achieved with certain enzyme supplements and especially
 with the purple pigment of red beets and dark grapes.
 Furthermore, Dr J. Budwig, a German fat researcher, found that flaxseed oil
 and sulphur compounds, especially food high in cysteine (e.g. quark, a fermented
-315
-Heal Yourself - The Natural Way
 
 cottage cheese) were most effective in restoring a normal energy metabolism. The
 importance of a good diet can also be seen from a study of 535 breast cancer
@@ -14745,8 +14078,6 @@ Overcoming Cancer at
  especially guided imagery..
 
 * * * * * * * * * * *
-316
-Heal Yourself - The Natural Way
 
 Step 47
 EMOTIONAL – MENTAL SHOCKS
@@ -14791,8 +14122,6 @@ appears, the target organ CT scan may also show such a concentric lesion.
 According to Dr. Hamer, this happens instantly when the psychic shock hits the
 subconscious level, and this same second is the start of cancer. Also, other diseases
 can be caused by the same mechanism. How severe a disease becomes depends
-317
-Heal Yourself - The Natural Way
 
 on the duration and severity of the conflict-shock, while its nature and location are
 determined by the emotional content of the shock.
@@ -14840,8 +14169,6 @@ financial over-commitment or any other obligation that we are unable to fulfil. 
 target focus is not determined by the event itself, but rather by the psychological
 significance that it has for us at the time of the event. Dr. Hamer illustrates this with
 another example, a woman who finds her husband in bed with another female. As a
-318
-Heal Yourself - The Natural Way
 
 sexual frustration conflict, it can cause uterine cancer. If she instead experiences it
 as a partner conflict, then in a right-handed woman it leads to cancer of the right
@@ -14886,8 +14213,6 @@ Multiple Sclerosis and Paralysis: Inability to escape or continue on, or to hold
 to, or not knowing what to do.
 Psoriasis: Separation conflict concerning mother, father, family, home, friends, or
 pets.
-319
-Heal Yourself - The Natural Way
 
 Relationships between Conflicted Emotions and
 Target Organs
@@ -14972,8 +14297,6 @@ When the conflict resolves, the patient is no longer occupied with the conflict
 content, the appetite returns, hands are warm again, and also normal sleep returns,
 but there may be weakness, fatigue, and a need to rest. These effects show that the
 parasympathetic nervous system is now in control and the healing phase has started.
-320
-Heal Yourself - The Natural Way
 
 During the first part of the healing phase there is water retention and inflammations,
 and the tumor stops growing. This eventually leads to a healing crisis, which Dr.
@@ -15021,8 +14344,6 @@ During the healing phase, this second group tries to fill in the created holes
 through cell proliferation. Bacteria repair tissue necroses and osteolyses (dissolved
 bone) by first forming abscesses, which are then filled in with scar tissue and later
 with granulating tissue to form osteosarcoma, lymphoma, fibroma, and healing cysts.
-321
-Heal Yourself - The Natural Way
 
 Leukaemia occurs during the healing phase after bone marrow damage from
 radiation, chemicals, or bone cancer.
@@ -15069,8 +14390,6 @@ continue your present duties or ordeal for whatever reason, then only increased
 spiritual understanding and acceptance may be able to help. In either case, be aware
 of your vulnerabilities and avoid any further conflict-shocks, but if one does happen,
 get it out of your system is soon as possible.
-322
-Heal Yourself - The Natural Way
 
 I firmly believe that all active conflicts will be terminated and the healing phase
 begin when we are able to strongly feel love and forgiveness within ourselves and
@@ -15118,8 +14437,6 @@ and deserves a Nobel Prize. Nevertheless, the response of prominent oncologists 
 still that it is absurd to assume emotions could be important in the cause and cure of
 cancer and, therefore, Dr. Hamer’s claims must not be tested. (For more information
 on Dr. Hamer and the New Medicine, see:
-323
-Heal Yourself - The Natural Way
 
 Reflections on the New Medicine: My own understanding and experience
 leave no doubt about the primary importance of our emotions and beliefs in the
@@ -15165,8 +14482,6 @@ them to be accepted, then I suggest that you incorporate them into your holistic
 healing program.
 What to Do: Be aware of your vulnerabilities and avoid any further conflict-
 shocks, but if one does happen, get it out of your system as soon as possible. For
-324
-Heal Yourself - The Natural Way
 
 example, if you just got a big shock, minimize or undo its potential to create an illness
 by using any or all of the following methods:
@@ -15179,8 +14494,6 @@ by using any or all of the following methods:
  drowning, swim again as soon as possible
 
 * * * * * * * * * * *
-325
-Heal Yourself - The Natural Way
 
 Step 48
 CANDIDA INFECTIONS
@@ -15227,8 +14540,6 @@ affected. Klebsiella, another type of pathogenic bacteria, produces a molecule t
 similar to a tissue type found in people with this disease. When Klebsiella numbers in
 the gut decrease, related antibodies in the blood decrease and the condition
 improves.
-326
-Heal Yourself - The Natural Way
 
 Rheumatoid arthritis is linked to a bacteria called Proteus. Proteus is also a
 common cause of urinary tract infections. Women suffer urinary tract infections as
@@ -15275,8 +14586,6 @@ Candida actually caused the debilitated condition. He had read that potassium io
 solution could be used to treat Candida infestation of the blood so he put the patient
 on six to eight drops of Lugol’s solution four times a day and soon the patient was
 again completely well.
-327
-Heal Yourself - The Natural Way
 
 Not long afterwards, Dr. Truss had a female patient with a stuffy nose, a
 throbbing headache, vaginitis, and severe depression. To his amazement, all her
@@ -15324,8 +14633,6 @@ aftertaste, but not after the isotonic flush, as it would no longer be isotonic.
 The flush will carry most of the dead microbes and their toxins out of the body
 and minimize any unpleasant reactions. However, if the flush should not be sufficient
 to produce a strong bowel movement within two to three hours, then another flush,
-328
-Heal Yourself - The Natural Way
 
 preferably with Epsom salt, should immediately follow or unpleasant reactions may
 occur.
@@ -15372,8 +14679,6 @@ If the Candida problem is severe or has existed already for a long time,
 chances are that the fungus has alr eady invaded the bloodstream and internal
 organs. In this case, it is best to take an herbal parasite cure and at another time a
 course of Lugol’s solution as explained under Candida and Parasites in Step 44.
-329
-Heal Yourself - The Natural Way
 
 If your blood is contaminated, then you may initially experience a die-off
 reaction of the Candida, causing weakness and possibly headache or nausea. If this
@@ -15385,8 +14690,6 @@ agents from the blood (see Step 19). The magnetic pulser can be used to sanitize
 pockets of Candida infestations inside the mouth, vagina, or underneath the skin.
 
 * * * * * * * * * * *
-330
-Heal Yourself - The Natural Way
 
 Step 49
 CARDIOVASCULAR DISEASE
@@ -15432,8 +14735,6 @@ those with less elevated levels had the highest mortality rate. Cholesterol news
 hit the headlines in 2001 showed that for old men it is best to have a “normal” blood
 cholesterol level because both high as well as low levels lead to an increased rate of
 heart attacks.
-331
-Heal Yourself - The Natural Way
 
 Why We Need Cholesterol: The cholesterol saga started several decades ago
 when researchers found that those dying from heart disease also frequently had
@@ -15480,8 +14781,6 @@ household sugar. There are different forms of sugar. Sucrose is a combination of
 glucose and fructose. In susceptible individuals, fructose has a much greater
 influence on insulin levels than glucose. Enzymes still present in human liver biopsy
 samples converted fructose into fatty acids and cholesterol at rates three to 24 times
-332
-Heal Yourself - The Natural Way
 
 faster than glucose, with the highest rates occurring in those with a disposition to
 atherosclerosis.
@@ -15528,8 +14827,6 @@ Some diseases that were formerly improved with raw milk can now be
 successfully treated with high-level enzyme supplements. Specifically, it is the fat-
 digesting enzyme lipase that works most of the healing miracles. With cardiovascular
 disease, there is a deficiency of lipase in the bloodstream. Lipase released by the
-333
-Heal Yourself - The Natural Way
 
 pancreas helps to digest fats, while lipase in the bloodstream and cells helps to break
 down unwanted fatty deposits.
@@ -15577,8 +14874,6 @@ or exposure to ultraviolet light at no greater expense than with chlorine. Even 
 is very effective, with 99.9 percent of coliforms (pathogenic bacteria) killed within 90
 minutes in one experiment. For sterilizing our individual water supply, we can simply
 add a teaspoon of three-percent hydrogen peroxide (food-grade) to a gallon of
-334
-Heal Yourself - The Natural Way
 
 drinking water or expose it to sunlight in a shallow container or a clear glass bottle for
 several hours.
@@ -15626,8 +14921,6 @@ color are good and especially purple foods, including red wine. In addition to a
 anti-inflammatory effect, these nutrients have an anticoagulant effect and discourage
 the formation of damaging blood clots. With seriously ill patients, the “Pauling
 therapy” is helpful: In addition to other recommended nutrients, use 5 to 10 g of
-335
-Heal Yourself - The Natural Way
 
 vitamin C, 5 to 6 g of the amino acid L-lysine, and 2 g of L-carnitine daily, all in four
 divided doses daily.
@@ -15641,8 +14934,6 @@ Gradually, as the condition improves, the tenderness at the base of the left thu
 diminish. See also the entry on Cardiovascular Disease in Step 44.
 
 * * * * * * * * * * *
-336
-Heal Yourself - The Natural Way
 
 Part 7
 ENERGIES
@@ -15672,8 +14963,6 @@ combination of electromagnetic energy and bioenergy, and in this way we receive
 most of our bioenergy from the sun.
 
 * * * * * * * * * * *
-337
-Heal Yourself - The Natural Way
 
 Step 50
 ELECTROMAGNETIC ENERGIES
@@ -15720,8 +15009,6 @@ feels refreshing, while habitually wearing shoes with rubber or plastic soles is
 tiring.
 The magnetic field of the Earth is about 0.5 gauss, though it has been much
 higher in the past and is presently decreasi ng. Generally, life forms are bigger, more
-338
-Heal Yourself - The Natural Way
 
 vital, and longer living in a stronger magnetic field. Most people will find it best to
 sleep with the head in a northerly direction, while an easterly direction is sometimes
@@ -15769,8 +15056,6 @@ glass is a contributing factor in the dev elopment of degenerative diseases such
 arthritis, cancer and leukaemia, eye diseases, hyperactivity, and sexual problems.
 These harmful effects are reinforced if the glass is inappropriately tinted, in this way
 blocking out a part of the visible spectrum as well.
-339
-Heal Yourself - The Natural Way
 
 Ott demonstrated that the primary effect of light entering our eyes is on the
 endocrine glands of the brain. He also showed that coloured lights have a strong
@@ -15817,8 +15102,6 @@ inner feeling at the time, for instance, dressing in black or gray if we are dep
 thereby reinforcing the negative mood. However, if we want to improve our emotional
 condition, select the opposite colour to our negative feeling. To ward off depression,
 for instance, wear pink or another bright and stimulating colour.
-340
-Heal Yourself - The Natural Way
 
 We can use differently coloured light bulbs, coloured lampshades, or coloured
 cellophane. However, most one-sided colour exposure should be only temporary, for
@@ -15829,8 +15112,6 @@ with possibly one dominant colour that balances our basic condition. For further
 information, see Colour Therapy in Part 2.
 
 * * * * * * * * * * *
-341
-Heal Yourself - The Natural Way
 
 Step 51
 BIOENERGY
@@ -15876,8 +15157,6 @@ despite the denial of its existence by orthodox medicine. Chances of recovery ar
 greatly increased by being regularly exposed to high concentrations of prana.
 For example, Wilhelm Reich in The Cancer Biopathy described his research
 into the effect of prana on cancer development and treatment. With a powerful
-342
-Heal Yourself - The Natural Way
 
 microscope (4,000-times magnification), he could observe how cancer cells
 originated from body cells deficient in prana and how cancer cells were destroyed by
@@ -15924,9 +15203,6 @@ when low in energy, as with cancer, AIDS, and other debilitating diseases. Inste
 they can try Karezza-type (caressing with slow movements) lovemaking or other
 forms of spiritual sex as explained later in Part 7.
 
-343
-Heal Yourself - The Natural Way
-
 Basically, we get bioenergy from:
 • Recharging our etheric body during deep sleep
 • Ingesting fresh raw food, juices, and charged water
@@ -15971,8 +15247,6 @@ strong magnets, electrical acupuncture treatment and pulse-wave machines,
 accidentally received electric shocks, and even contact healing, reflexology, and
 acupressure, especially if a therapist exerts strong pressure on bilateral points. Some
 of these foreign vivaxes can disturb our natural-force flows before they gradually
-344
-Heal Yourself - The Natural Way
 
 disappear. On a certain energy level, we seem to remain linked to everyone we ever
 touched.
@@ -15986,8 +15260,6 @@ the walls and roof. For more information, see Judy Jacka’s “The Vivaxis Conn
 (Hampton Roads, 2000).
 
 * * * * * * * * * * *
-345
-Heal Yourself - The Natural Way
 
 Step 52
 CULTIVATING THE ENERGIES
@@ -16033,8 +15305,6 @@ our chakra functions is important for the healing of specific aspects as well as
 increasing our available energy in general and for becoming whole and balanced.
 The characteristics of the seven main chakras can be seen in table 7-1. In
 addition, there are many more secondary chakras. Those in the palms of the hands
-346
-Heal Yourself - The Natural Way
 
 are commonly used for energy transfer. Each of the higher or finer energy bodies,
 such as the emotional, astral, and mental body, has its own chakra system; different
@@ -16081,8 +15351,6 @@ Hemisphere and counter-clockwise in the Southern Hemisphere. Alternatively,
 imagine feeling it as a pulsating energy field. You can combine all or several of these
 imaginations and use whatever is most su itable for developing a feeling awareness
 of this chakra.
-347
-Heal Yourself - The Natural Way
 
 Figure 7-2: The Stations of the Microcosmic Orbit, from “Bone Marrow Nei Kung”, by
 Mantak Chia.
@@ -16101,8 +15369,6 @@ through the middle of your chest bone. Also try this imaginary breathing through
 and bone with any of the other chakras, but it is easiest to learn it at the heart centre.
 In this way, learn to sense the lower chakras - the solar plexus, pubic, and base
 chakras. Imagine the base chakra as an energy vortex that points to the base of the
-348
-Heal Yourself - The Natural Way
 
 spine. With this, the crown vortex and the base vortex are like an hourglass
 separated by the length of the spine, while all the other chakra vortexes are
@@ -16149,8 +15415,6 @@ well, be it as pressure, warmth, tingling, or any other sensations, lift the ene
 your breath to a point behind the solar plexus centre. If you find that you can lift the
 energy better during exhalations or by paying no attention to the breath at all, that is
 fine as well; experiment and use the method that works best for you.
-349
-Heal Yourself - The Natural Way
 
 Down to the middle
 of the palm.
@@ -16185,8 +15449,6 @@ future use. When needed, this energy can be reactivated with your intention and
 used for healing yourself or others by directi ng it with your mind where you want it to
 go. It can also be used for tasks with high-energy requirements and is the same
 energy that masters of the martial arts aim to cultivate and use.
-350
-Heal Yourself - The Natural Way
 
 In addition to circulating the energy in this “microcosmic orbit,” you can
 sometimes include the extremities in a “m acrocosmic orbit” or “the large heavenly
@@ -16233,8 +15495,6 @@ learn the structured Tai Chi sequence and can experiment with your own slow,
 improvised movements. Widespread, especially in China, is the practice of qigong.
 You draw energy into the body with a combination of breathing, movements, and
 guided imagery. This is especially effective if done in an energized outside area,
-351
-Heal Yourself - The Natural Way
 
 such as standing barefoot on grass, in a park, at the beach, or in the mountains.
 There are many books and websites giving instructions in qigong
@@ -16266,8 +15526,6 @@ individuals have their three lower chakras reasonably well developed. Therefore 
 need to concentrate mainly on developing the four higher chakras.
 
 * * * * * * * * * * *
-352
-Heal Yourself - The Natural Way
 
 Step 53
 ENERGY ACCUMULATORS
@@ -16311,8 +15569,6 @@ must be a non-metal and the innermost one a metal. The basic principle is that t
 organic or non-metal layer tends to attract and hold the bioenergy, while the metal
 layer radiates or reflects it. This causes the energy to drift from the outside of the box
 towards the centre, which is where you sit.
-353
-Heal Yourself - The Natural Way
 
 As an objective measurement of the higher energy charge inside the
 accumulator, there is a measurably higher temperature inside the box as compared
@@ -16377,8 +15633,6 @@ several times and then freezing it. Here’s how to do that: Fill some heavy fab
 as a sock, with sand like a sausage, tie the open end, and boil it for 15 minutes (no
 microwave). Then wrap the “sausage” in additional waxed paper or plastic and freeze
 it solid. When using a pack for the first time, alternate the boiling and freezing several
-354
-Heal Yourself - The Natural Way
 
 times. Before placing it over a diseased part of the body, let it sufficiently cool and
 drain off excess water.
@@ -16425,8 +15679,6 @@ an area below a pyramid (shaped as a mirror pyramid) sedates. Inside, the effect
 appears to be slightly sedating at the base and stimulating higher up.
 Therapeutic pyramids are commonly small-scale replicas of the Great Pyramid
 of Giza in Egypt. One of the four sides of the therapeutic pyramid should face
-355
-Heal Yourself - The Natural Way
 
 magnetic north. The measurements are 1 unit (height), 1.5708 units (base), and
 1.4945 units (sides), measured along the midline, not along the edges. The sides
@@ -16474,8 +15726,6 @@ the pyramid). A stronger force is generated if the cone is more than three feet 
 the ground.
 Covering the head with an open cone or a pyramid-shaped hat can be done to
 use the sedating force below these forms during meditation or to increase psychic
-356
-Heal Yourself - The Natural Way
 
 awareness. Perhaps this is the reason why sorcerers and magicians are often
 depicted with cone-shaped hats. However, when trying to use cones for health
@@ -16519,8 +15769,6 @@ almost double the present life span. Use pure gold and silver (preferably at lea
 percent pure).
 
 * * * * * * * * * * *
-357
-Heal Yourself - The Natural Way
 
 Step 54
 ENERGY HEALING
@@ -16565,8 +15813,6 @@ more energy-giving qualities and the left one has predominantly energy-withdrawi
 qualities. However some people, especially left-handed individuals and sometimes
 women, have the opposite polarity. You can practice energy-giving in a group
 situation such that each one in turn is the “patient.”
-358
-Heal Yourself - The Natural Way
 
 Another method is to place the positiv e or energy-giving hand over the weak
 body area and hold the left hand over the person’s head with your palm facing
@@ -16613,8 +15859,6 @@ strands of wire in a large container of cold water. With the free end of the tub
 a meridian for sedation, or place it over a painful area.
 This implement produces a powerful suction for removing excess energy. Use it
 repeatedly for five to 15 minutes. However, avoid draining energy from the hand by
-359
-Heal Yourself - The Natural Way
 
 holding the tube when in operation. Preferably fasten it to a stand in the desired
 position, otherwise wrap it well with a dry cloth before holding. An even stronger
@@ -16661,8 +15905,6 @@ palms, the deeper the beamed light energy penetrates.
 For overall health improvement and spirit ual cleansing, start with the person’s
 head. Beam from all sides, but mostly with one hand over the top and the other
 towards the base of the brain from the back. After several sessions of beaming the
-360
-Heal Yourself - The Natural Way
 
 head, move to the kidneys and the intestines, one palm directed towards each
 kidney.
@@ -16685,8 +15927,6 @@ spleen, deep indigo-blue for the ears, and orange for the lymphatic system. Viol
 for the teeth and gums, and you beam this into the open mouth.
 
 * * * * * * * * * * *
-361
-Heal Yourself - The Natural Way
 
 Step 55
 MERIDIAN & ACUPRESSURE THERAPY
@@ -16731,8 +15971,6 @@ for selecting points for treatment.
  other end of the meridian will be the related sphere of influence.
 3. For painful, acute conditions, treat mainly -distant-points; for chronic conditions,
  add local-points.
-362
-Heal Yourself - The Natural Way
 
 Figure 7-4: Chart of Acupuncture Meridians. Begin tracing the points marked “start”. Dots
 indicate acupuncture or pressure points. Apply finger pressure when tender. The Governing Meridian
@@ -16746,8 +15984,6 @@ other meridians that have a direct relationship to the problem. Eye problems, fo
 example, are often associated with poor kidney and liver function. Therefore, some
 points on the meridian associated with these organs can be treated as well. Further,
 the points at the shoulders, the shoulder blades, and the base of the neck control the
-363
-Heal Yourself - The Natural Way
 
 circulation to the arms and hands, while the points at the hips, the buttocks, and
 around the base of the spine control the circulation to the legs and feet. Therefore,
@@ -16795,8 +16031,6 @@ gallbladder problem, while arthritis of the shoulders may have its cause in the
 intestines. Gout, affecting the big toes, st ems from the liver, while swollen ankles are
 related to the kidneys. See table 7-2 for the relationship of different diseases or
 health problems to the meridian system.
-364
-Heal Yourself - The Natural Way
 
 Table 7-2: Pathological Symptoms of the Meridians per 24-hour Cycle
 Meridian with time of maximum daily activity Associated symptoms
@@ -16837,9 +16071,6 @@ Gallbladder, 11 p.m.-1 a.m. gallbladder problems, ear diseases, migraine, hip
  problems, dizziness, pain along the meridian
 Governing Meridian spinal problems, mental disorders, fever, nose problems,
  headaches
-
-365
-Heal Yourself - The Natural Way
 
 Each organ-meridian system, except for the conception and governing
 meridians, has a two-hour period of maximum activity and a period of minimum
@@ -16887,8 +16118,6 @@ is done with the north pole in the correct flow direction. If the tracing is str
 the south pole in the correct flow direction, but weak when traced in the opposite
 direction, there is only a moderate amount of overactivity in the meridian or its related
 organ.
-366
-Heal Yourself - The Natural Way
 
 The tracing of meridians associated with painful conditions 20 to 50 times with
 a strong magnet has sometimes provided almost immediate relief from pain, while
@@ -16925,8 +16154,6 @@ inflammation, are commonly most pronounced during the time of maximum activity,
 while underactivity or weakness may become more normal at that time.
 
 * * * * * * * * * * *
-367
-Heal Yourself - The Natural Way
 
 Step 56
 SEXUALITY
@@ -16971,8 +16198,6 @@ attraction, while mature love is a communion in spirit. This transformation of l
 allow the sexual relationship to mature more fully.
 To recapitulate, we can say that during pregnancy and birth the most important
 aspect for the foetus is being wanted. During babyhood, breastfeeding and body
-368
-Heal Yourself - The Natural Way
 
 contact are central. The growing child needs to be immersed in a loving and
 harmonious relationship with the whole family unit with much touching and
@@ -17020,8 +16245,6 @@ feelings.
 Another conflict often arises between the ages of two and six, when parents
 typically suppress any manifestations of infantile sexuality. These can be in the form
 of touching, masturbating, or displaying the genitals, or erotic contact with the parent
-369
-Heal Yourself - The Natural Way
 
 of the opposite sex. Such body contact is pleasurable for the child and necessary for
 identification with its body and development of pleasurable erotic feelings for the
@@ -17068,8 +16291,6 @@ men or women. If we are subconsciously fearful of the opposite sex, then we deve
 a fear of penetration, become impotent, or become susceptible to homosexuality.
 Strong hostility towards the mother can later lead to an inability for a man to have sex
 with a woman unless he humiliates her, possibly in the form of violent rape.
-370
-Heal Yourself - The Natural Way
 
 Pornography is a fantasy outlet for many form s of sexual neurosis, but it is only a
 poor substitute for uninhibited sexual functions.
@@ -17117,8 +16338,6 @@ sexual roles as an adult. We may either act as a son or daughter, as a sister or
 brother, as hero, sweetheart, or romantic ideal, as a father or mother figure.
 However, if we resolved the problem in a natural way, we act as a mature adult,
 encompassing all roles and playing each one as appropriate.
-371
-Heal Yourself - The Natural Way
 
 If the relationship of a girl with her father remains emotionally unresolved, then
 as an adult she tends to act mainly on the daughter level, looking for a father figure
@@ -17165,8 +16384,6 @@ sexual energy beforehand. If the body is generally low in energy, if the energy 
 blocked through armouring, or if there is insufficient foreplay or feeling awareness,
 then there will be only a low charge of sexual energy in the pelvis and consequently a
 weak discharge of energy and feelings.
-372
-Heal Yourself - The Natural Way
 
 A strong field of sexual energy in one partner will help the other to achieve a
 greater charge; if both are fully charged, they will greatly increase each other’s
@@ -17211,8 +16428,6 @@ Bioenergetic exercises are excellent fo r this purpose. These include shaking
 and vibrating the legs, the pelvis, and the whole body; stretching exercises, circling
 the hips, pelvic thrusts, kicking and bicycling exercises, the teachings in the book
 Ancient Secret of the Fountain of Youth, and other yoga exercises (see Step 9).
-373
-Heal Yourself - The Natural Way
 
 With moving exercises, such as circling, bicycling, and pelvic thrusts, the aim is
 not to train and strengthen these muscles, but rather to move them to the point of
@@ -17259,8 +16474,6 @@ of penetration, premature ejaculation, im potence, and any other form of sexual
 disorder. This split explains the observation that “nice men” are often poor lovers.
 In order to heal our split emotions and sexual feelings, we must break through
 the superficial layer of being “nice” and contact our suppressed core feelings. This is
-374
-Heal Yourself - The Natural Way
 
 not easy but can be done with methods such as emotional release therapies
 involving intentional kicking, hitting, screaming, crying, or shouting. Even just
@@ -17308,8 +16521,6 @@ supplementation with folic acid and niacin, both B-group vitamins. Histamine lev
 can be reduced by making the body more alkaline, and also by avoiding foods and
 chemicals to which you are allergic. Therefore, you can acidify or alkalize your body
 according to your sexual requirements.
-375
-Heal Yourself - The Natural Way
 
 The semenal fluid is also high in zinc and requires much vitamin B6 and
 omega-3 fatty acids which are found in fish oils and linseed oil. Deficiency of these is
@@ -17357,8 +16568,6 @@ B6, zinc, and magnesium together are good against premenstrual tension, especial
 if salt, sugar, and fatty foods are also minimized or avoided and hidden food allergies
 corrected. Boron raises the estrogen level in postmenopausal women. Taking good
 care of our bodies will increase the pleasure that we derive from our sexuality.
-376
-Heal Yourself - The Natural Way
 
 Another common problem is vaginal Candida infections, resulting in thrush and
 potentially painful intercourse. In this case, the woman as well as her partner need to
@@ -17406,8 +16615,6 @@ by playful interruptions, by slowing the breath, or temporarily even holding the
 by concentrating the feeling awareness on the heart or, with the penis fully inserted,
 keeping the pubic areas in close contact, increasing and decreasing pressure in
 unison while not moving the penis.
-377
-Heal Yourself - The Natural Way
 
 A somewhat drastic but nevertheless very effective method of preventing
 ejaculation is to tense the whole body while also holding the breath. Alternatively, or
@@ -17454,8 +16661,6 @@ In a long-term relationship, the ideal may be in having mainly sensuous and
 spiritual sex for most of the month and orgasmic intercourse close to ovulation, as
 often as desired. A female in touch with her body will feel when the time is right and
 let her partner know. However, the best time is always when both partners feel like it.
-378
-Heal Yourself - The Natural Way
 
 Alternatives to Sex: Those without a permanent partner may find an
 occasional short-term partner or pay for sex. If all goes well, there is no problem with
@@ -17502,8 +16707,6 @@ possibly leading to what is called “whole body orgasm” or “brain orgasm.�
 Getting to Know Your Partner: Sensitive individuals are often apprehensive
 about the first sexual encounter with a new partner. The man may have anxieties
 about erection, premature ejaculation, and satisfying his partner, while the woman
-379
-Heal Yourself - The Natural Way
 
 may fear penetration, getting emotionally hurt, or not coming to an orgasm. This can
 make the encounter tense and inner fears may become self-fulfilling.
@@ -17551,8 +16754,6 @@ partners.
 Accumulation of sexual tension with its resulting health and emotional problems
 can be prevented even without orgasm, while orgasm alone may not always be
 sufficient. The key to a successful sexual union is the duration, because it takes time,
-380
-Heal Yourself - The Natural Way
 
 usually about half an hour, for these energies to be exchanged by the partners. This
 kind of “sex therapy” is not only effective, but also highly pleasurable, especially for
@@ -17599,8 +16800,6 @@ sensations in the sexual organs and the flow of energy and feelings between your
 bodies. If both partners are sufficiently aroused after a prolonged foreplay, the vagina
 is well lubricated, and the male able to delay ejaculation, then the half-hour waiting
 time outside the vagina is not necessary and immediate penetration is acceptable.
-381
-Heal Yourself - The Natural Way
 
 Should ejaculation occur early, then just remain close together with the soft penis
 inside the vagina until about half an hour has passed from the time of penetration.
@@ -17623,8 +16822,6 @@ achieve a maximum of enjoyment, but it is well worth the effort in terms of impr
 health and personal relationships.
 
 * * * * * * * * * * *
-382
-Heal Yourself - The Natural Way
 
 Part 8
 HEALING YOUR EMOTIONS
@@ -17669,8 +16866,6 @@ Where do we find the beliefs we want? It is not sufficient to try to believe tha
 we will be happy ever after. Our proposed new beliefs must be plausible to be
 acceptable to our conscious and subconscious minds. They must give meaning to
 our life and make sense of it all. Meaning is the opposite of the inner emptiness that
-383
-Heal Yourself - The Natural Way
 
 many of us try to fill with pleasure seeking and power games, causing so much
 emotional trouble in the end and depression if we fail. My proposed solution is a
@@ -17681,8 +16876,6 @@ properly, we must work on all four levels of our being: the biological, emotiona
 mental, and spiritual.
 
 * * * * * * * * * * *
-384
-Heal Yourself - The Natural Way
 
 Step 57
 UNDERSTANDING EMOTIONS AND DISEASE
@@ -17726,8 +16919,6 @@ expectations, beliefs, and memories; they affect the body through brain and
 hormonal changes. Emotions commonly have a positive or negative connotation
 about someone or something: we are angry with someone, afraid of something, in
 love with someone.
-385
-Heal Yourself - The Natural Way
 
 Feelings in a wider sense are what we register as sensations or emotions. We
 say “I feel pain” or “I feel anger.” With this, we focus on the subjective inner
@@ -17775,8 +16966,6 @@ affection.
 Also at an early age, we are trained in the use of social lies and social
 conventions and are discouraged to express ou r true feelings. It is even worse at
 school and university where we are overwhelmed by intellectual activity, usually of an
-386
-Heal Yourself - The Natural Way
 
 unimaginative kind. This inhibits our creativity and intuitive abilities. Many great
 inventors and innovative scientists did not make their discoveries by thinking but
@@ -17824,8 +17013,6 @@ those who reacted to the diagnosis with a fighting spirit were still alive; thos
 reacted with denial had a 50 percent survival rate; those with stoic acceptance had a
 25 percent survival rate; and of those who felt hopeless and helpless only 20 percent
 survived.
-387
-Heal Yourself - The Natural Way
 
 Other findings show that cancer frequently is diagnosed about a year after a
 traumatic event, such as losing a spouse. The negative effect of mental depression
@@ -17871,9 +17058,6 @@ other reasons. As an infant, we may have been afraid of being separated from our
 mother, of being left alone in a strange surrounding, so we tensed up and held our
 breath. Eventually, we had to continue breathing, but we did it in a shallow way, with
 contracted diaphragm and chest muscles.
-
-388
-Heal Yourself - The Natural Way
 
 What Body Language Tells Us About Our Emotions
 
@@ -17950,8 +17134,6 @@ and mental control (continued)
 Narrow, contracted: feeling of inferiority, lack of
 power, unexpressive – learn to communicate,
 to give, chest breathing
-389
-Heal Yourself - The Natural Way
 
 Bent forward: explores the world first in a
 rational way, emotional exhaustion – develop
@@ -18017,8 +17199,6 @@ stuttering and other speech and throat problems.
 The muscle armouring becomes ever stronger with advancing age because we
 tend to repeat our set behaviour patterns. This then forms our distinctive facial
 features, body structures, and our increasing rigidity. There are, of course, other
-390
-Heal Yourself - The Natural Way
 
 factors that contribute to shaping our body and making it more inflexible, such as
 heredity, nutrition, and occupational muscle use.
@@ -18063,8 +17243,6 @@ problems that have helped to shape it and of the corrective measures to be taken
 order to improve ourselves (see Table 7-3 above).
 
 * * * * * * * * * * *
-391
-Heal Yourself - The Natural Way
 
 Step 58
 HEALING RELATIONSHIPS
@@ -18109,8 +17287,6 @@ they arise.
 Intimate Relationships: Our intimate relationships, more than anything else,
 are a testing ground for our feelings and emotions. They can make us feel on top of
 the world or in the depths of depression. How do we cope with these strong feelings
-392
-Heal Yourself - The Natural Way
 
 and emotions? Our intimate relationships are a mirror of our general level of
 consciousness; they show us how well we are able to manifest our ideals in everyday
@@ -18157,8 +17333,6 @@ that this individual needs to realize is that he cannot change his partner by
 demanding or expecting change; each can only change themselves. Depending on
 the nature of the relationship, the partners may talk over how to change track or the
 partner who realizes this may take the first steps alone.
-393
-Heal Yourself - The Natural Way
 
 An example of this is the current movement in the U.S. of “surrendered wives,”
 which started as a counterbalance to the demanding of rights by “liberated”
@@ -18206,8 +17380,6 @@ Looking at this from a spiritual point of view, it is quite natural for a sexual
 attraction between males and females to develop in suitable conditions, while on the
 other hand it is not good for our spiritual and emotional well-being to suppress strong
 longings or desires. This leads to a typical dilemma: We have a choice either to harm
-394
-Heal Yourself - The Natural Way
 
 ourselves through emotional suppression or through feelings of guilt with a possible
 deterioration of our relationship.
@@ -18254,8 +17426,6 @@ years or a lifetime. While married, there was never any unfaithfulness or even a
 desire for it; they did not even have a word for it.
 Marriage breakup was no disaster for the children. The father always remained
 a good friend of the mother and the children. Furthermore, as they did not have the
-395
-Heal Yourself - The Natural Way
 
 concept of a biological father, the maternal uncle always played the role of the father.
 This was a matriarchal society and all property rights went through the mother to the
@@ -18302,8 +17472,6 @@ even pick up a burning branch from a fire and stumble around the thatched huts.
 There were no warning calls and no accidents.
 Neither were the children told when or what to eat or when to sleep or which
 role models to follow. Boys quite naturally picked up bows and arrows from other
-396
-Heal Yourself - The Natural Way
 
 boys and started shooting with sharp arrows without being shown where or what to
 shoot or any safety precautions. They might start doing this at the age of 18 months.
@@ -18335,7 +17503,6 @@ that the amazing abilities and behaviour of these children were not inherited, b
 result of their upbringing, Liedloff reported there was one problem child. This child
 belonged to a Yequana couple who had lived in contact with our Western civilization
 for some time; but this child also learned (belatedly) to fit in.
-69
 Emotional Security in Children: We all are likely to benefit from increased
 levels of emotional security. Emotional security is a nebulous concept that includes
 how we feel about ourselves, how good we feel in relationships with other people
@@ -18351,8 +17518,6 @@ some techniques that I recommend to try to raise the level of emotional security
 children:
 1. Set aside three to five minutes every night for the child. After the child has gone
  to bed, Mom or Dad (take turns) goes in, turns off the light, and sits on the side
-397
-Heal Yourself - The Natural Way
 
 of the child’s bed in the dark. The child is in the security of its own bed, with a
  little body contact with the parent, and no eye contact, because it is dark. Then
@@ -18398,9 +17563,6 @@ of the child’s bed in the dark. The child is in the security of its own bed, w
  feelings so that the child can either accept or work around the worrisome
  feeling.
 
-398
-Heal Yourself - The Natural Way
-
 9. Set aside a short amount of time on a regular basis in which your children can
  have your undivided attention; this could be perhaps ten minutes in the evening,
  or while doing the dishes. This can help avoid the repetitious “in a minute”
@@ -18445,8 +17607,6 @@ problem. Babies easily learn to float. I see less of a chance of a secure child
 drowning in an unfenced pool than an insecure one drowning in a fenced pool. Make
 hidden dangers known to your children through your own behaviour. Children imitate;
 therefore, do not do in their presence what you do not want them to do.
-399
-Heal Yourself - The Natural Way
 
 Antisocial behaviour is a sign of emotional deprivation, especially in early
 childhood. Give your existing children and especially those with antisocial or neurotic
@@ -18493,8 +17653,6 @@ Agriculture, food processing, and energy production would be sustainable and
 in harmony with planetary requirements. A society of self-responsible citizens would
 be based on a maximum of individual freedom and a minimum of bureaucratic
 interference.
-400
-Heal Yourself - The Natural Way
 
 No system of laws and law enforcement will keep a society of deprived and
 ego-centred individuals operating harmoniously, yet emotionally satisfied and
@@ -18542,8 +17700,6 @@ In a mature society, only a fraction of present resources would be required for
 the legal, law enforcement, and prison systems, for the defence and pharmaceutical
 industries, and for the hospital system. Most of these could eventually be phased out.
 On the other hand, much more would be channelled into sustainable agriculture and
-401
-Heal Yourself - The Natural Way
 
 health-friendly food production, into education, training, and community facilities,
 including an appropriate public transportation system.
@@ -18585,8 +17741,6 @@ important to have mature leaders in all areas who then can pick up the pieces an
 show the survivors the way towards building a caring society.
 
 * * * * * * * * * * *
-402
-Heal Yourself - The Natural Way
 
 Step 59
 HEAL IN GROUPS
@@ -18631,8 +17785,6 @@ demonstrations, lectures, and teaching of specific methods.
 There can be group evenings in which you exercise together, while on others
 you discuss interesting topics; someone may read a good book and report on it; or
 there can be meditation evenings, or all of these in varying combinations. You can
-403
-Heal Yourself - The Natural Way
 
 use group therapy for emotional release, do rebirthing and other emotional growth
 work together, and do a lot of hugging. Buy some books about emotional therapies
@@ -18679,8 +17831,6 @@ people of alternating sex standing as closely as possible with their fronts toge
 the whole group can form a ring, each one standing pressed with the front against
 the back of the one in front. The ring may stand still or slowly move. Some of these
 formations can also be tried while lying down.
-404
-Heal Yourself - The Natural Way
 
 LEARNING TO TRUST: After pairing off, couples walk around slowly, intermingling
 with the others, but with one partner of each pair having their eyes tightly closed or
@@ -18709,8 +17859,6 @@ group. This will probably be more suitable for mature-age individuals. Eventuall
 others may join in and then you have your proper healing group.
 
 * * * * * * * * * * *
-405
-Heal Yourself - The Natural Way
 
 Step 60
 LEARNING TO FEEL
@@ -18753,8 +17901,6 @@ need emotional cleansing periods in which we feel safe to release and express ou
 suppressed emotions. This will already partly be achieved and made easier as a
 result of bioenergetic exercises, deep muscle massage, and other methods to relax
 our muscle armouring. Here are three helpful release techniques:
-406
-Heal Yourself - The Natural Way
 
 Forgiveness: The cornerstone of emotional healing is forgiveness. As long as
 we cannot unconditionally forgive ourselves and others, we remain trapped in past
@@ -18800,8 +17946,6 @@ Re-enactment: In many instances an understanding partner may not be
 available for immediate release or the situation is inappropriate. Then it is best to re-
 enact a recent hurtful or otherwise frustrating experience, as long as it is still fresh in
 the memory and the feelings are easily aroused.
-407
-Heal Yourself - The Natural Way
 
 Do this at a convenient time in the privacy of your bedroom or in a car parked
 with closed windows near a busy highway (where nobody will hear you). Recall the
@@ -18847,8 +17991,6 @@ Practice expressing yourself forcefully, even exaggerating gestures and body
 movements. Remember incidents that you did not like and induce and release anger
 by kicking and punching something; cry or scream if possible, then afterwards forgive
 yourself as well as everyone else for past hurts and mistakes.
-408
-Heal Yourself - The Natural Way
 
 Practice expressing emotions and feelings with your body. Read poetry aloud
 with feeling; express feelings through dancing, arm and hand movements, or
@@ -18892,8 +18034,6 @@ high point of your life, as you prepare in prayer and meditation for the liberat
 your soul. After the shocking revelation that you have cancer, you must gradually
 progress to hope, belief, and faith, faith in your spiritual guidance and that all will be
 well. Do your best; the rest is in God’s hands, so there is nothing to be afraid about.
-409
-Heal Yourself - The Natural Way
 
 This inner transformation can be achieved with the indicated mind tools.
 Preferably develop a daily routine that y ou start with prayer, affirmations, and
@@ -18940,8 +18080,6 @@ close to those of another person. Try with the same hands and also with opposite
 hands. Can you feel an energy, a tingling?
 Allow Spontaneous Feelings: Focus your attention on any emotions or
 moods that arise. When you are angry, do not just remain angry in your head. Scan
-410
-Heal Yourself - The Natural Way
 
 your body to detect if you can feel it there. It may be in the form of an energy rushing
 upward from the lower chakras. Is it activating your arm or leg muscles, so you want
@@ -18986,8 +18124,6 @@ The pressure patterns of the seven key emotions are as follows:
 • Anger: Make a jabbing movement away from the body, like hitting out. The
  duration is much less than a second and is accompanied by a sharp exhalation
  and a corresponding sound; the gaze is slightly downwards.
-411
-Heal Yourself - The Natural Way
 
 • Hate: The pressure is stronger than in anger, but develops more and is sustained
  somewhat longer; it ends abruptly, as in anger. The direction is away from the
@@ -19034,8 +18170,6 @@ not derive any more benefits from it, conti nue with those exercises you like. S
 exercises can be combined with other feeling exercises. Such exercises can show
 you that it is not necessary to be a victim of unpleasant feelings. You do not need to
 wait for positive outside influences to produce pleasant feelings within you. Instead,
-412
-Heal Yourself - The Natural Way
 
 with continued practice, you can choose how you want to feel at any given moment,
 how you want to respond emotionally in any situation.
@@ -19083,8 +18217,6 @@ There is now a wide range of New Age music available. Most of it is designed
 for relaxation with sounds of waves and brooks, and some is suitable to generate an
 atmosphere of reverence and emotional uplift. In most instances, however, it
 provides just a pleasant, unobtrusive background for meditation and feeling
-413
-Heal Yourself - The Natural Way
 
 exercises. It would be excellent if a series of tapes could be obtained for inducing
 various defined states of feeling.
@@ -19100,8 +18232,6 @@ being alive. Try to express the various feelings through dancing, such as anger,
 sadness, compassion, joy, love, ecstasy, and so forth.
 
 * * * * * * * * * * *
-414
-Heal Yourself - The Natural Way
 
 Step 61
 TAKE THE LOVE CURE
@@ -19145,8 +18275,6 @@ to generate love or joy in your body.
 Feeling is energy and energy follows thought or consciousness. This means
 the most basic requirement for activating our heart centre is to keep our attention
 focused on it. Later, when it is easy for us to feel, we can just keep a small part of our
-415
-Heal Yourself - The Natural Way
 
 attention there while going about our daily business. Before using these exercises,
 practice the chakra exercises earlier outlined in Step 52.
@@ -19194,8 +18322,6 @@ opportunities.
 It will be easier to feel a love sensation if you are already in a loving
 relationship, a mother with a baby, or an animal lover with puppies or kittens to care
 for. If that is the case, look lovingly at the chosen object while doing the breathing
-416
-Heal Yourself - The Natural Way
 
 exercise, and you may find it easy to convert the warmth in your chest into a feeling
 sensation of love. If you are not so lucky, recall an incident when you felt love. Vividly
@@ -19243,8 +18369,6 @@ eyes open and are engaged in other activities.
 When you are able to feel the pressure or warmth, start smiling inwardly and
 direct this smile to the pituitary gland. As you keep smiling, you may gradually feel a
 sensation of joy and happiness spreading from your head into your body. If you have
-417
-Heal Yourself - The Natural Way
 
 already learned to feel a love sensation in your heart centre, combine this love
 feeling with the joy spreading from your head into a unified feeling of elation.
@@ -19292,8 +18416,6 @@ as much as we need vitamins and minerals, so make sure you obtain plenty of
 “emotional nutrients” each day, as there is nothing better to rejuvenate an aging
 body-mind. Bathe all your cells and organs in tender, loving, or joyful feelings. Focus
 on each part of the body in turn and concentrate longer on those areas most in need
-418
-Heal Yourself - The Natural Way
 
 of improvement. Try to feel the love everywhere, in your fingers as well as your toes.
 Let all your cells feel that you love them.
@@ -19331,8 +18453,6 @@ Out of this tangible feeling of inner peace will then arise the other feelings,
 thoughts, and activities as required and appropriate for each occasion.
 
 * * * * * * * * * * *
-419
-Heal Yourself - The Natural Way
 
 Part 9
 HEALING YOUR MIND
@@ -19379,8 +18499,6 @@ mind or lower mental level; it may be the higher mental level concerned with spi
 creative, and intuitive thinking; or it may be somewhere in between.
 
 * * * * * * * * * * *
-420
-Heal Yourself - The Natural Way
 
 Step 62
 HARNESS THE POWER OF THE MIND
@@ -19412,7 +18530,6 @@ However, instead of any drug, the doctor had just injected water. Again, a few
 months passed and then the newspapers carried stories that the FDA had declared
 Krebiozen to be completely useless and a fraud. As rapidly as he had recovered, the
 patient deteriorated once more and this time his doctor let him die.
-70
 One might think that such a strong mind effect must be very rare, but consider
 this: In a chemotherapy trial, one-third of the placebo patients lost their hair. In this
 rare trial, only half the participants had received chemotherapy and the other half a
@@ -19426,8 +18543,6 @@ improvement came from their belief, but the traumatic effect of real surgery red
 the belief-based success by 11 percent.
 One-third is a figure that corresponds with results from other trials as the
 approximate size of the placebo effect. I take this to mean that typically one-third of
-421
-Heal Yourself - The Natural Way
 
 patients will either die or recover because of their strong belief. This applies equally
 to conventional medicine and natural therapy. Those who believe they will get well
@@ -19473,8 +18588,6 @@ It cannot think logically. It has only an elementary ability to think, similar t
 intelligent domesticated animal or a small child. Therefore, it is dependent on the
 middle self to tell it what to do and, as the faithful servant that it normally is, it willingly
 obeys the middle self.
-422
-Heal Yourself - The Natural Way
 
 However, because it is simpleminded, the lower self is dogmatic. It may take
 our early childhood programming, especially our religious and sex-related teachings,
@@ -19521,8 +18634,6 @@ glasses of our belief systems. We even create our personal world according to ou
 beliefs. We project selected ideas, thoughts, and emotions into our surroundings and
 with these attract or repel people and events. Most notably, we manifest what we
 fear. Negative thoughts harm no one more than us. When a negative thought comes
-423
-Heal Yourself - The Natural Way
 
 into our mind, we can either accept it or immediately block it and replace it with a
 positive thought.
@@ -19570,8 +18681,6 @@ choices.
 Desire tends to rob us of our peace of mind and destroy our inner harmony. We
 must, of course, tend to the needs of our body. A desire for food when we are
 hungry, for rest when we are tired, for sunshine, fresh air, and so forth, are natural. It
-424
-Heal Yourself - The Natural Way
 
 is also good to desire being creative. In addition to these natural desires, most of us
 have numerous desires related to pleasure and social achievements.
@@ -19619,8 +18728,6 @@ It is okay to feel angry, upset, or sad. Go into it. However, in the back of you
 mind, remain aware that you can change the situation and laugh any time you want.
 The more you learn to take yourself less seriously, the easier it will be to laugh about
 your own mistakes, until it simply becomes impossible to be angry or upset. Even
-425
-Heal Yourself - The Natural Way
 
 annoyances created by others may eventually cause you amusement instead of
 ulcers. It is all a question of attitude.
@@ -19668,8 +18775,6 @@ would like to accompany him. However, it is also important to them that they fin
 their own assignments, so they give a little party for their lucky colleague,
 congratulate him, wish him well, and arrange for another bigger party when they are
 all back together at the surface. When the successful diver finally reaches the
-426
-Heal Yourself - The Natural Way
 
 surface, there is another big celebration with all his friends who had remained at the
 surface or had returned before him. What a relief getting out of that heavy diving gear
@@ -19715,8 +18820,6 @@ be able to handle life’s problems without difficulty.
 By adopting this principle of self-responsibility, we also adopt a position of
 power. We are no longer victims of anyone or anything, but rather the masters of our
 destiny.
-427
-Heal Yourself - The Natural Way
 
 We realize that we have to learn anyway, by the long, hard road of suffering
 caused by our ignorance or by an attitude of willing cooperation in our scheme of
@@ -19764,8 +18867,6 @@ The same applies to negative attitudes in an intimate relationship. You may
 think on occasions that your partner is unreasonable. When this happens, try to
 understand his or her position and, like a good defence lawyer, consider all the
 factors in your partner’s favour. He or she may not have received much love and
-428
-Heal Yourself - The Natural Way
 
 security during childhood or had to fight hard for his or her rights, and so forth. Do
 this as a conscious mental exercise whenever you have negative thoughts about
@@ -19813,8 +18914,6 @@ Two bodily activities usually in need of improvement are our posture and our
 breathing. These can be monitored until we perform them automatically in the correct
 way. Something we should always do consciously is eating, keeping our attention on
 the food flavours that develop while placidly chewing.
-429
-Heal Yourself - The Natural Way
 
 We cannot become aware of all of these activities at the same time. Therefore,
 we start with only one, for instance monitoring our attitude for several weeks until we
@@ -19832,8 +18931,6 @@ new habit; then you can relax your attention on it. Gradually, become more and m
 aware of your whole body and everything you do.
 
 * * * * * * * * * * *
-430
-Heal Yourself - The Natural Way
 
 Step 63
 HELPFUL MIND TOOLS
@@ -19877,8 +18974,6 @@ general guidelines:
  and related areas, such as a whole leg or a whole arm, can be relaxed at once.
 • Imagine yourself in a red-coloured room on an upper level of a high-rise
  building. After a while, walk to an elevator and feel yourself going down and
-431
-Heal Yourself - The Natural Way
 
 down until you reach an orange room; then go further down to a yellow room, a
  green one, then blue, indigo, and finally violet.
@@ -19923,8 +19018,6 @@ Add the focus: “It breathes me.” Feel the breath flowing in and out without
 mental control. After a week or two, include the solar plexus (inside the upper
 abdomen) and say: “My solar plexus radiat es warmth” or “My solar plexus is
 streaming warmth.”
-432
-Heal Yourself - The Natural Way
 
 While exhaling, imagine the warmth of the breath accumulating in the stomach
 and abdomen and heating them up. Finally affirm: “My forehead is light and cool.”
@@ -19973,8 +19066,6 @@ you report to your helper. Prompting questions will be used, as with the other
 regression method, to lead you deeper into your emotions.
 Another method, my favourite, goes as follows: Assume that this time you are
 the helper or therapist to regress a friend or patient. Have the friend lie relaxed on
-433
-Heal Yourself - The Natural Way
 
 their back while you give instructions in a soothing voice. The initial aim is to induce
 as deep a relaxation as possible. You can give the suggestions for a normal
@@ -20023,8 +19114,6 @@ Another regression saw her being burned to death in the great fire of London in 
 After this, she was never again afraid of fire.
 Instead of inducing the regression as indicated here, you may find other
 suitable methods and invent your own. To end a regression session, give some
-434
-Heal Yourself - The Natural Way
 
 positive suggestions for coming back into the here and now. If memories become too
 disturbing and emotional, the session c an also be ended with positive suggestions
@@ -20070,8 +19159,6 @@ attracting undue attention. Before you start relating your experience, use crayo
 draw a picture of it, the various feelings represented by appropriate colours. You can
 then change places and your friend can lie down for a session. Repeat from time to
 time as required to release emotional negativity.
-435
-Heal Yourself - The Natural Way
 
 4. Reprogramming: Autosuggestion or reprogramming is one of the most
 effective tools for changing our belief systems and reprogramming our body and
@@ -20120,8 +19207,6 @@ aspects separately and say, for instance, “In spite of my fear of dying . . .�
 “Although I am shocked by my cancer diagnosis . . .”
 In order to make the selected affirmation effective, you tap on selected
 acupuncture points. This temporarily normalizes the energy flow of the tapped
-436
-Heal Yourself - The Natural Way
 
 meridian. Each time, while saying your affirmation, tap each selected point about
 seven times in the order given in the list. Do this firmly with the tips of the index and
@@ -20166,8 +19251,6 @@ not help either, try an elimination diet, as described in part 1. The most commo
 energy toxins are often the foods that we love most, in addition to perfume, herbs
 and spices, wheat, corn, sugar, coffee, tea, caffeine, alcohol, nicotine, and dairy
 products. Try muscle testing to find the source of your problem.
-437
-Heal Yourself - The Natural Way
 
 For more information see: and .
 Dr. Mercola has a good EFT protocol for beginners at: .
@@ -20214,8 +19297,6 @@ general formula, like the one by Coue, in addition to an affirmation for a speci
 problem.
 Affirmations are statements of goals or intentions that you imprint on the mental
 level with the aim of getting them accepted by the inner self. When this is achieved,
-438
-Heal Yourself - The Natural Way
 
 when the inner self believes your statement, it is as good as done. As with prayer,
 the key to success is your faith that your request has already been granted at the
@@ -20262,8 +19343,6 @@ switch on and off.
 6. Guided Imagery: For many problems, visualization or mental imagery is the
 most powerful autosuggestion method. After entering a state of deep relaxation,
 visualize your goal or the desired solution to your problem, and hold the picture in a
-439
-Heal Yourself - The Natural Way
 
 vivid form for as long as possible. Try to feel it at the same time. Alternatively, you
 can produce a “mental movie,” also called a guided reverie. Visualization is usually
@@ -20311,8 +19390,6 @@ The following exercise may show you the power of imagination:
  moving the head physically.
 • Open your eyes and turn your head to each side and note how far you can now
  see behind your back.
-440
-Heal Yourself - The Natural Way
 
 BODY TALK: Guided imagery is even more effective if you combine it with talking
 to your body. Imagine that the body has many different levels of consciousness. Your
@@ -20360,8 +19437,6 @@ manifest. It is not enough to expect tomorrow to be better or upon awakening in 
 morning to expect to have a better day. It is good to expect that, but expectation is
 not enough. During the day, you actually need to act according to your new reality by
 embracing life to the fullest.
-441
-Heal Yourself - The Natural Way
 
 CAUTION: Some individuals may be
 a little unstable, but may not know it.
@@ -20423,8 +19498,6 @@ the request will be granted.
 When you live in close contact with your Higher Self and readily receive
 guidance, you may proceed in a less formal way and communicate with your Higher
 Self in whatever way it deems appropriate. The most effective prayer is a
-442
-Heal Yourself - The Natural Way
 
 thanksgiving for the granted request, knowing t hat it has already started to manifest
 on the spiritual level and will in due time appear in your reality.
@@ -20469,8 +19542,6 @@ disappointed if you cannot feel the warmth and love radiation the very first tim
 keep on practicing. Meditate for 30 minutes or longer, the longer the better.
 Preferably make meditation a regular habit at the same time and in the same location
 each day.
-443
-Heal Yourself - The Natural Way
 
 A Healing and Love Meditation
 
@@ -20561,8 +19632,6 @@ these chakras and remain centred within this integrated feeling awareness.
 When we are centred, we are not only mentally and emotionally poised and
 balanced, but at the same time alert and intuitive. In this way, we can remain in touch
 with our spiritual guidance continuously during our waking activities. When we are
-444
-Heal Yourself - The Natural Way
 
 active while being centred, both sides of our brain work in a balanced way and this is
 reflected in the balance of our whole personality.
@@ -20611,8 +19680,6 @@ symbolic way, then mentally sit back and let the pictures or symbols change of t
 own accord.
 You can do the same thing with an uneasy feeling such as created by a social,
 financial, or other problem. Contact that uneasy feeling, possibly by feeling it as a
-445
-Heal Yourself - The Natural Way
 
 pressure somewhere in your body. If you have a multitude of problems, ask yourself
 which one is the worst and try to feel this one first.
@@ -20661,8 +19728,6 @@ We can compare our stream of life to a newly formed watercourse that seeks
 its way down a gentle mountain slope. Sometimes it winds its way steadily downhill,
 while at other times it encounters a barrier, a hollow or depression in the ground.
 Then it has to wait patiently for a while until the hollow is filled up. It may probe in
-446
-Heal Yourself - The Natural Way
 
 various directions until finally, quite naturally, and without a problem, it finds the
 overflow, the lowest point in the wall of resistance, and happily it continues on its
@@ -20698,8 +19763,6 @@ centred and all your problems will soon melt away in the warmth of your radiatin
 love and a deeply felt inner peace.
 
 * * * * * * * * * * *
-447
-Heal Yourself - The Natural Way
 
 Part 10
 SPIRITUALITY AND HEALTH
@@ -20738,8 +19801,6 @@ sketch of a modern spiritual path that uses health and emotional problems to dev
 the spiritual master-ship that gives us the ability to lead a happy and fulfilled life.
 
 * * * * * * * * * * *
-448
-Heal Yourself - The Natural Way
 
 Step 64
 THE SPIRITUAL DIMENSION
@@ -20785,8 +19846,6 @@ do not otherwise intend to live spiritually, you do so anyway by healing yoursel
 these levels. I am convinced that by living in harmony with the biological, emotional,
 mental, and spiritual laws that govern us, we can be close to perfect; we might even
 personify the risen Christ. Therefore, all imperfections, usually manifesting as
-449
-Heal Yourself - The Natural Way
 
 problems, show us what to do to become more spiritual and, with this, more happy
 and fulfilled.
@@ -20836,8 +19895,6 @@ of a spiritual body. Foremost in these are prayer and meditation, especially as 
 monastic life. In a related form, we have the yoga of devotion and the yoga of action
 in which we dedicate our life to unselfish social work or healing. Rituals, such as
 performed by the Orthodox or Catholic church, metaphysical societies, and New Age
-450
-Heal Yourself - The Natural Way
 
 groups, offer spiritual food. When we deliberately set out to awaken and build a body
 for the inner Christ, we are said to be on the spiritual path.
@@ -20886,8 +19943,6 @@ is most active in the plant kingdom and works to transform the mineral kingdom.
 In the animal kingdom, consciousness becomes dominant at the level of
 feelings and emotions; it is at this level where most of the experimentation and
 creativity are present. The emotional level channels the growth force into more
-451
-Heal Yourself - The Natural Way
 
 individualized forms than those in the plant kingdom. A price for this individualization
 is a more solidified growth force with less regenerative capacity.
@@ -20937,8 +19992,6 @@ role in society and our relationship with guiding forces, and it gives us the st
 follow the spiritual path. Everyone has a ph ilosophy of life, even if they are not
 consciously aware of it. For some, this is just the notion to get as much pleasure as
 possible out of life while trying to avoid suffering. Others, like various Christian saints
-452
-Heal Yourself - The Natural Way
 
 and yogis, have deliberately self-inflicted suffering and denied themselves pleasures
 as part of their philosophy and as a path to their God.
@@ -20984,8 +20037,6 @@ philosophy of the middle path says that we can choose and have what we want, but
 we must firmly believe in it.
 
 * * * * * * * * * * *
-453
-Heal Yourself - The Natural Way
 
 Step 65
 LIFE ON THE PATH
@@ -21029,8 +20080,6 @@ biological, emotional, and mental blockages, you become healthier and happier. L
 will become more satisfying. The fun is not the arrival, but the journey. You do not
 need to make a sharp distinction between working on the biological, etheric,
 emotional, and mental levels. They are all related, though it is easier to talk about
-454
-Heal Yourself - The Natural Way
 
 one level at a time. By concentrating on one level, you affect all the others. It is
 easier to start with the biological level and then focus upwards.
@@ -21075,8 +20124,6 @@ By practicing the Love Cure, you can improve weaknesses and imbalances in
 your chakra system. This will have favourable effects on your health. If you are so
 inclined, use guided chakra meditations available on tape or CD from New Age
 outlets.
-455
-Heal Yourself - The Natural Way
 
 For improving your acupuncture system, see Meridian and Acupressure
 Therapy in Part 7, and after you have learned to feel the energy flows, use mainly
@@ -21124,8 +20171,6 @@ emotional memory conscious, are unconditional love, understanding, and
 forgiveness.
 On this level, you do not need to clean out all hidden negative emotional
 memories, as this would probably be impossible. Aim to uncover and remove all
-456
-Heal Yourself - The Natural Way
 
 those factors that interfere with the flow of energies in your body, with your emotional
 health and enjoyment of life, and with your ability to make decisions.
@@ -21175,8 +20220,6 @@ relationships with people who do not seem to like or appreciate you. Never again
 you need to feel bored when having to wait in an office or anywhere else. Just start
 generating loving and joyful feelings and send them to anyone in sight or in your
 mind.
-457
-Heal Yourself - The Natural Way
 
 Try changing one feeling into another. Start with any emotion you experience at
 the time or generate a warm feeling by breathing into the abdomen or by imagining
@@ -21226,8 +20269,6 @@ means
  finding answers for spiritual or theoretical questions, or solutions for practical
 problems; intuitive thinking means we focus on a question or problem in a meditative
 state and then translate the realization into words.
-458
-Heal Yourself - The Natural Way
 
 Helpful Tips: Any kind of worry is detrimental to your health. Worry is a form of
 fear and that is the opposite of positive expectation and faith. To a large degree, we
@@ -21275,8 +20316,6 @@ Presence, at first in meditation and as gui ded imagery, but gradually in your d
 Imagine your God Presence as an intense white spiritual light over your head, or feel
 or sense it as a protective and loving presence. Initially imagine sending an offering
 of love or devotion through the top of your head straight up to your God Presence or,
-459
-Heal Yourself - The Natural Way
 
 if lying down, send it up through the forehead or from the heart centre. Then imagine
 a strong beam of white light together with an intensified feeling of love and protection
@@ -21318,8 +20357,6 @@ saying: “Before enlightenment he gathered wood and carried water; after
 enlightenment he gathered wood and carried water.”
 
 * * * * * * * * * * *
-460
-Heal Yourself - The Natural Way
 
 A Review of the 65 Steps
 
@@ -21364,4 +20401,3 @@ use breathing exercises to activate these energies in our body and direct them t
 organs in need of healing.
 Part 8 handles another key subject: healing emotions. The goal is to live life in
 a radiant way, filled with love and joy.
-Heal Yourself - The Natural Way

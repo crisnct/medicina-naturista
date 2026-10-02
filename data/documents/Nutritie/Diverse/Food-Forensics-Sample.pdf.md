@@ -1,4 +1,3 @@
-ix
 INTRODUCTION
 T
 o pursue scientific research into food forensics, I oversaw the construc-
@@ -52,7 +51,6 @@ mercury, even in small amounts, may cause serious health problems,
 earning it a spot on the top ten list of the most dangerous chemicals
 to humans. The EPA’s maximum containment level goals for drink-
 ing water for mercury is 2 ppb.
-1
 Tungsten: Cases of acute poisoning by this heavy metal can be
 caused by just 5 mg/L, or approximately 5 ppm. Exposure to high
 levels of tungsten has been linked to an increase in strokes.2
@@ -60,7 +58,6 @@ Lead: While there is no safe blood lead level in children, the U.S.
 Centers for Disease Control and Prevention (CDC) recommends the
 threshold at which a child is deemed to have lead poisoning is 5
 micrograms per deciliter of blood, or 50 ppb.
-3
 Arsenic: Long-term exposure to this heavy metal through drink-
 ing water and food may cause neurotoxicity, cancer, developmental
 
@@ -73,7 +70,6 @@ nausea, vomiting, diarrhea, abdominal cramping, and severe gastro-
 enteritis, according to the Agency for T oxic Substances and Disease
 Registry (ATSDR). The reference dose for dietary exposure to cad-
 mium is 0.001 mg/kg/d.
-5
 In just the first few months of ICP-MS research on samples of foods,
 vitamins, and consumer products, I discovered:
 • More than 500 ppb mercury in cat treats and fish-based dog treats
@@ -194,7 +190,6 @@ Much of our organic food now comes from China, where the term “organic”
 is a cruel joke. Air quality in Beijing was recently recorded as being 1,100 per-
 cent higher than the maximum air pollution limits set by the WHO, reaching
 the astonishing pollution concentration of 268 micrograms per cubic meter.
-6
 Much of our food is now grown on lands where that industrial waste
 is intentionally dumped and used as “fertilizer.” As a result, many foods are
 heavily contaminated with toxic substances. The environmental science can-
@@ -227,7 +222,6 @@ versally recognized by the scientific community and are sourced from orga-
 nizations such as the AOAC (Association of Analytical Communities), the
 EPA, and the FDA. For example, we use a minor variation of AOAC 2013.06
 for testing heavy metals in foods.
-7
 For testing water samples, we use methodology EPA 200.8.
 My lab was accredited in 2016 after two years of preparation, involving
 analytical repeatability determinations, validation of analytical methods, and

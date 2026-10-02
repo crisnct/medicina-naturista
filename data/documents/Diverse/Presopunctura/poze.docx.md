@@ -135,7 +135,6 @@ stanga)
 15. Plaman, bronhii dreapta
 16. Stomac
 17. Duoden
-18
 19 Ficat
 a9
 20. Vezica biliara
@@ -145,7 +144,6 @@ a9
 5)
 24, Suprarenala dreapta
 Ball
-38
 25. Rinichi drept
 27. Vezioa urinara
 28. Colon
@@ -188,7 +186,6 @@ umatatea
 Ochi
 10. Ureche dreapta
 44, Umar stang
-19
 15. Plaman, bronhii
 1G,
 47, Duoden
@@ -198,7 +195,6 @@ By
 22. Splina
 23. Plex solar
 :
-42
 24, Supiaienata
 25. Rinichi stang
 27. Vezica ufinara
@@ -254,7 +250,6 @@ U
 16, Stomac
 a /
 17. Duoden
-38
 18 Pancreas
 19. Ficat
 20 Fiere,
@@ -263,9 +258,7 @@ a /
 25 Rinichi dreapta
 26. Ureter dreapta
 27. Vezica urinara
-X
 28. Colonul transversal
-35
 a4
 29. Colonul ascendent
 32 Intestinul subtire
@@ -326,9 +319,7 @@ DS
 27. Vezica urinara
 28. Colonul transversal
 29. ascendent
-41
 30. Rect
-31
 31. Anus
 32. Intestinul subtire
 33. Genunchiul stang

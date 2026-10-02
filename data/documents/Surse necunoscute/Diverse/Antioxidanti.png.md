@@ -13,20 +13,11 @@ a? <0
 - hepatoprotector
 - procianidine (oligomeri polifenolici)
 Macesele
-1500
 Catina
-670
 Ardeiul iute
-250
 Ardeiul verde
-200
 Coacazele
-200
 Broccoli
-90
 Varza
-80
 Lamaia
-60
-234
 @

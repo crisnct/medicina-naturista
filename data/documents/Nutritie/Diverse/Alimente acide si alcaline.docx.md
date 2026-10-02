@@ -4,8 +4,6 @@ Alimente acide și alcaline
 &
 | te
 @
-i
-10
 w4
 ar)
 Acidic)
@@ -134,7 +132,6 @@ prajite
 - OCR Tesseract eng încredere medie: 87.1%
 
 ```text
-© 2015 THECODE - Programul cel mai complex din Romania de Detox metabolic, Educatie, Nut
 Alcalina
 rare Corp si
 inte.
@@ -155,7 +152,6 @@ Crud este perfect
 larba Alfalfa
 Castraveti
 Anghinare
-10
 Alge de Mare
 Sparanghel
 Kale
@@ -209,7 +205,6 @@ Margarina
 in jur de +/- 7.0 ; pH-ul optim al sangelui uman este de 7,365
 Uleiuri ( mai putin masline )
 Res A
-© 2015
 Lapte de soia
 Spanac gatit
 Cele mai multe
@@ -288,5 +283,4 @@ arti
 iali
 Mancarea de la microunde
 w <2.5
-© 2015 THECODE - Programul cel mai complex din Romania de Detox metabolic, Educatie, Nutritie Alcalina si Echilibrare Corp si Minte.
 ```

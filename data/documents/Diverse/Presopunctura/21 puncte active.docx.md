@@ -88,8 +88,6 @@ Util în probleme ale oboselii și lipsei de energie ale abdomenului inferior da
 
 ## Subsol 1
 
-1
-
 ## Descrieri alternative ale imaginilor
 
 -

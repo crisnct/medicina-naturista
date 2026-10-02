@@ -1,7 +1,6 @@
 title:
 author:
 publisher:
-isbn10 | asin:
 print isbn13:
 ebook isbn13:
 language:
@@ -11,7 +10,6 @@ lcc:
 ddc:
 subject:
 
-Page i
 # Herbal Antibiotics
 ## Natural Alternatives for Treating Drug-Resistant Bacteria
 ### Stephen Harrod Buhner
@@ -23,7 +21,6 @@ Pownal, Vermont 05261
 title:
 author:
 publisher:
-isbn10 | asin:
 print isbn13:
 ebook isbn13:
 language:
@@ -33,7 +30,6 @@ lcc:
 ddc:
 subject:
 
-Page ii
 The mission of Storey Communications is to serve our customers by publishing practical information that
 encourages personal independence in harmony with the environment.
 This publication is intended to provide educational information
@@ -48,8 +44,6 @@ Illustrations by Beverly Duncan, except on pages 1, 23, 33, 57, and 102 by Sarah
 93 by Brigita Fuhrmann; and pages 26, 89, and 91 by Alison Kolesar
 Indexed by Peggy Holloway
 Professional review by David Hoffmann
-Copyright © 1999 by Stephen Harrod Buhner
-All rights reserved. No part of this book may be reproduced without written permission from the publisher,
 except by a reviewer who may quote brief passages or reproduce illustrations in a review with appropriate
 credits; nor may any part of this book be reproduced, stored in a retrieval system, or transmitted in any form or
 by any means electronic, mechanical, photocopying, recording, or other without written permission from the
@@ -59,7 +53,7 @@ without guarantee on the part of the author or Storey Books. The author and publ
 connection with the use of this information. For additional information please contact Storey Books,
 Schoolhouse Road, Pownal, Vermont 05261.
 Storey Books are available for special premium and promotional uses and for customized editions. For further
-information, please call Storey's Custom Publishing Department at 1-800-793-9396.
+information, please call Storey's Custom Publishing Department at.
 Printed in the United States by R.R. Donnelley
 10 9 8 7 6 5 4 3 2 1
 Library of Congress Cataloging-in-Publication Data
@@ -68,14 +62,12 @@ Herbal antibiotics : natural alternatives for treating drug-resistant bacteria /
 Harrod Buhner ; foreword by James A. Duke.
 p. cm. (A medicinal herb guide)
 Includes bibliographical references and index.
-ISBN 1-58017-148-6 (pbk. : alk. paper)
 1. Antibacterial agents. 2. Herbs Therapeutic use. 3. Bacterial infections
 Alternative treatment. 4. Drug resistance in microorganisms. I. Title. II. Series.
 RM409.B84 1999
 616´.014dc21 99-33056
  CIP
 
-Page iii
 Dedication
 Rosemary Gladstar, Susun Weed, and David Hoffmann for
 knowing (and living) that it is essential to risk exposing the deep-
@@ -91,18 +83,13 @@ Treatise on Scurvy. Thanks are also due to Paul Bergner and K. P. Khalsa for the
 work and research, and to Marc Lappé for understanding that bacterial resistance is an ecological and not an
 overuse problem.
 
-Page iv
 Contents
 Foreword
 by James A. Duke, Ph.D v
 Preface vii
-1
 The End of Antibiotics? 1
-2
 Botanical Medicines with the Strongest Antibiotic Properties 18
-3
 The First Line of Defense: Strengthening the Immune System 67
-4
 Making and Using Herbal Medicines 85
 Epilogue 106
 Glossary 107
@@ -112,7 +99,6 @@ Selected Bibliography 110
 General References 127
 Index 128
 
-Page v
 ## Foreword
 by James A. Duke, Ph.D.
 Stephen Buhner has arrived at (and shares with you, the reader) the frightening truth that you won't find in the
@@ -133,7 +119,6 @@ synergies of three or four compounds in their pharmaceutical formulas.
 It is certainly easier to demonstrate how two compounds can work synergistically than it is to figure out how
 200 or 2000 different compounds (and more, as are present in all herbs) can work synergistically.
 
-Page vi
 So, the scientific community will be reluctant to consider the remarkable synergistic suites of compounds that
 have evolved naturally in plants. But we really cannot afford to ignore these. For nature favors synergies among
 beneficial, plant-protective compounds within a plant species (with antibacterial, antifeedant, antifungal,
@@ -168,7 +153,6 @@ vancomycin). Here, eat these bitter herbs. And pray they will help you
 (95 percent of Americans, but only 33 percent of psychologists, are
 reported to pray)."
 
-Page vii
 ## Preface
 I came to herbal medicine as many of us do: I became ill, and modern medicine could not help me. I felt
 betrayed. I was shocked, then angry. Then I began to think about a great many things in new ways.
@@ -186,7 +170,6 @@ the plant world. It was also the catalyst for my interest in epidemic disease an
 In the many years since that painful event, I have continued to deepen my knowledge and interest in such
 bacteria, and to write and speak often about them. They fascinate me. They are also the origin of a
 
-Page viii
 deepening humility. The two great lessons they have taught me are that human arrogance about the natural
 world has an inevitable, unpleasant outcome and that this sacred Earth upon which we live, without fanfare or
 personal aggrandizement, offers to humankind medicines with which to treat the bacterial superbugs that we, in
@@ -196,8 +179,6 @@ This book explores some of the realities of antibiotic-resistant bacteria and so
 medicines with which to treat them. In the coming years, I think many of us will need to understand both. I
 hope that for you, as it has been for me, this knowledge will be useful.
 
-Page 1
-1
 ## 1. The End of Antibiotics?
 
 The End of Antibiotics?
@@ -219,7 +200,6 @@ The man said nothing; for what he was contemplating, there were no words. His ph
 settling her mind. Then she turned and left him, facing once again the long hall filled with the smells of illness,
 rubbing alcohol, fear, hope, and questions for which she had no answer.
 
-Page 2
 Her patient was going to die of something easily curable a few years earlier an enterococcus bacterial infection.
 But this particular bacterium was now resistant to antibiotics; for nine months she had tried every antibiotic in
 her arsenal. The man, weakened as he was by disease, could not fight off bacteria that were impervious to
@@ -246,7 +226,6 @@ interest." Marc Lappé is more blunt: "The period once euphemistically called th
 dead.'' Human-kind now faces the threat of epidemic diseases more powerful, and less treatable, than any
 known before.
 
-Page 3
 Many people are now asking themselves how this could have happened; only a few short years ago, the picture
 seemed decidedly different.
 In the late 1950s and early 1960s, my great-uncle Leroy Burney, then Surgeon General of the United States,
@@ -273,7 +252,6 @@ and by 1995, that figure had jumped to 95 percent. Originally limited to patient
 breeding ground for such bacteria), the resistant strains are now common throughout the world's population.
 And
 
-Page 4
 though many factors influence the growth of resistant bacteria, the most important are ecological.
 Such vehement antipathy toward any corner of the living world should have given
 us pause. Through our related mistakes in the world of higher animals, we should
@@ -299,7 +277,6 @@ treat the survivors of the Coconut Grove restaurant fire. By 1949, 156 thousand 
 penicillin and a new antibiotic, streptomycin, were being produced. By 1992, in the United States alone, this
 figure grew to an incredible 40 million pounds (18,144,000 kg) a year of
 
-Page 5
 scores of antibiotics. Most of these newer antibiotics are synthesized and do not occur naturally. Stuart Levy
 comments that "these antibiotics can remain intact in the environment unless they are destroyed by high
 temperatures or other physical damage such as ultraviolet light from the sun. As active antibiotics they continue
@@ -327,7 +304,6 @@ recorded biologic history? Bacteria, evolving at pretty much a constant pace alo
 changing at an ever faster rate, and they are changing in ways that scientists once insisted were impossible.
 They are,
 
-Page 6
 in fact, developing resistance to the incredible quantities of antibiotics we are pouring into the ecosystem, and
 they are doing so in ways that show they are highly intelligent and adaptable.
 How Bacteria Develop Resistance
@@ -354,7 +330,6 @@ particular disease bacterium in our bodies; there are many, a few of which are n
 antibiotics. Generally, these few resistant bacteria are in competition with their nonresistant cousins (and all the
 other helpful bacteria) for living space in
 
-Page 7
 our bodies. But when antibiotics are used they kill off the nonresistant disease bacteria (and often many or most
 of the other, helpful bacteria), leaving the resistant bacteria to reproduce without competition. The resistant
 bacteria then take over our body without hindrance. As this process occurs with more and more people these
@@ -379,7 +354,6 @@ generally bacterial generations. Here again, however, the bacteria prove to have
 Unlike humans, who produce a new generation every twenty years or so, bacteria produce a new
 generation every twenty minutes, multiplying 500,000 times faster than we do.
 
-Page 8
 And not only do the bacteria, those naturally immune and those mutating, survive the antibiotics, many also
 seem to get stronger so that the diseases they cause are more severe and generate greater mortality than those
 they produced before. We have been, in fact, creating what The New York Times is now calling bacterial
@@ -405,7 +379,6 @@ have never been known to communicate gram-negative and gram-positive bacteria, a
 bacteria, for instance have seemingly learned the art. Bacteria are in fact intelligently communicating to each
 other
 
-Page 9
 how best to fight the weapons we have created to destroy them. As Dr. Richard Wenzel of the University of
 Iowa commented in Newsweek, "They're so much older than we are . . . and wiser."
 If this were the end of it, it would be bad enough, but our intervention into the microbial sphere has created
@@ -432,7 +405,6 @@ Levy to remark that "one begins to see bacteria, not as individual species, but 
 constituents of an integrated microbial world." Or, as former FDA commissioner Donald Kennedy remarked,
 "The evidence indicates that enteric microorganisms
 
-Page 10
 in animals and man, their R plasmids, and human pathogens form a linked ecosystem of their own in which
 action at any one point can affect every other." So wherever pathogenic bacteria encounter the regular use of
 antibiotics, they learn, and adapt, and become resistant.
@@ -455,7 +427,6 @@ New York. Malaria, in fact, is becoming so serious a problem in the United State
 Atlantic Monthly featured an article on the disease as its lead cover story. But still other resistant bacteria have
 entered the human disease picture from a different and nonhuman source: huge agribusiness factory farms.
 
-Page 11
 12 MOST COMMON DRUG-RESISTANT BACTERIA
 All bacteria will eventually learn resistance, and there are thousands if
 not millions of species. These are the most resistant or problematic of
@@ -500,7 +471,6 @@ Staphylococcus aureus, and Streptococcus pneumoniae. The gram-
 negative bacteria are Shigella dysenteriae, Haemophilus influenzae,
 Neisseria gonorrhoeae, and Pseudomonas aeruginosa.
 
-Page 12
 The Growth of Resistant Strains in Factory Farms
 Unknown to most of us, huge agribusinesses took advantage of early experiments that showed that farm
 animals regularly fed subclinical doses of antibiotics experienced faster growth. The pharmaceutical companies,
@@ -525,7 +495,6 @@ Dr. Jeffery Fisher, in his book The Plague Makers, takes this further:
 The resistant bacteria that result from this reckless practice do not stay confined to the animals from
 which they develop. There are no
 
-Page 13
 ''cow bacteria" or "pig bacteria" or "chicken bacteria." In terms of the microbial world, we humans
 along with the rest of the animal kingdom are part of one giant ecosystem. The same resistant bacteria
 that grow in the intestinal tract of a cow or pig can, and do, eventually end up in our bodies.
@@ -551,7 +520,6 @@ What is more troubling than this, however, is that E. coli, a benign and importa
 the gastrointestinal tract of humans and most animals, has been teaching pathogenic bacteria how to resist
 antibiotics. Even more grim, pathogenic bacteria have been
 
-Page 14
 teaching E. coli how to become pathogenic. Though there are several E. coli that now cause sickness, the most
 serious is E. coli O157:H7, which has caused thousands of illnesses and scores of deaths in the past few years.
 Because E. coli are one of the most pervasive and benign of bacteria (they live in the intestinal systems of most
@@ -576,7 +544,6 @@ is completely hard. Because of this many industry and government representatives
 be pasteurized prior to public consumption. Eggs would then come in liquid form in milk-carton-like
 containers. Because of the contamination Fox believes that we are nearing the end of the shell egg as a staple
 
-Page 15
 food for the human species. Shigella, a potent dysenteric bacteria, is quite common on vegetable produce, and
 Campylobacter is increasingly found on poultry. As an example of the severity of the problem: In 1946 there
 were only 723 cases of Salmonella food poisoning in the United States. By 1963, there were 18,696. (By
@@ -603,7 +570,6 @@ temperatures). The trend-setter is the dangerous E. coli bacteria. USA Today rep
 orange juice and apple juice, two acidic media that previously killed E. coli simply from the amount of acid
 present.
 
-Page 16
 Staphylococcus Aureus: The King of Resistant Bacteria
 The most alarming of resistant bacteria, in either farm or hospital, has been Staphylococcus aureus . Over the
 past decades, this particular staph species has learned resistance to one antibiotic after another. (Several
@@ -629,7 +595,6 @@ rate of bacterial evolution is so extreme that new antibiotics (of which few are
 resistance in only a few years instead of the decades that it took previously. It is a frightening future. But there
 are rays of hope.
 
-Page 17
 What We Can Do
 If antibiotics are severely curtailed, if they are not used at all in farm production, if they are only used in
 hospital settings when there is an absolute and verifiable need for them, if general use is strictly confined to
@@ -659,8 +624,6 @@ easily.
 5. Use herbs as antibiotic alternatives; they do not cause resistance
 in bacteria.
 
-Page 18
-2
 ## 2. Botanical Medicines with the Strongest Antibiotic Properties
 
 Botanical Medicines with the Strongest Antibiotic Properties
@@ -681,7 +644,6 @@ to have adequate health care by the year 2000, sources other than Western, techn
 to be used. The report concluded with the recommendation that traditional forms of healing and medicine be
 pursued to meet the emerging needs of a burgeoning world population.
 
-Page 19
 Why Botanical Medicines Offer Promise
 The research resulting from the resolution adopted by WHO and that engaged in by forward-thinking
 companies and scientists in Europe and Asia have revealed that instead of being a quaint quackery of our
@@ -712,7 +674,6 @@ thiosulfinate, propyline sulfide, 2-vinyl-4H-1, 3-tithiin, 3-vinyl-
 cysteine.
 Known active constituents of penicillin: penicillin.
 
-Page 20
 bacteria find it much more difficult to develop resistance or avoid the medicine's impact. Perhaps inevitably,
 scientists are beginning to unconsciously mimic plant medicines. They are finding that combining
 pharmaceutical antibiotics works better; they are using two and sometimes three antibiotics at once. This is still
@@ -748,7 +709,6 @@ Wormwood
 For ease of flow in the text, the scientific studies and references for this chapter can be found at the back of the
 book (see pages 110126).
 
-Page 21
 Acacia (Acacia Spp.)
 Family: Mimosaceae (Leguminosae).
 Part used: All parts of the plant: flowers, resin, bark, leaf, pods, stems, fruit, spines, root, and root bark.
@@ -775,7 +735,6 @@ common. They grow throughout the southern part of the country as far north as Ka
 Florida. The latter two species are southwestern. Acacia, rarely used now in the United States, continues to be a
 primary medicinal plant throughout the rest of the world, especially in Asia and Africa. Researchers have noted
 
-Page 22
 consistent antibacterial activity by every member of this genus that they have tested. The acacia in some South
 American cultures has been considered specific (like echinacea) for venomous stings and bites and has been
 used in much the same manner: the juice of the chewed bark is swallowed, and the chewed bark is placed as a
@@ -811,7 +770,6 @@ Wash: Use tea of leaves, stems, and pods to wash recent or infected wounds.
 Use pods to make wash to treat eyes for conjunctivitis. Add five or six cleaned pods, slightly crushed, to 1 pint
 (475 ml) water, bring to boil, remove from heat, let steep until it reaches temperature of body heat.
 
-Page 23
 Powder: Leaves, stem, pods, bark, thorns powdered may be applied to fungal infections and infected wounds,
 and to stop bleeding of wounds and prevent subsequent infection.
 Gum preparation: Combine 1 part by weight of acacia gum with 3 parts by volume of distilled water. Place in
@@ -833,7 +791,6 @@ Actions: External use: antibacterial, antimicrobial, antiviral, wound healing ac
 antiulcer. Internal use: purgative, stimulates smooth muscle contractions.
 Active against: Staphylococcus aureus, Pseudomonas aeruginosa, herpes simplex 1 and 2.
 
-Page 24
 ### Aloe
 
 About Aloe
@@ -882,7 +839,6 @@ External Use: none.
 Internal Use: hemorrhoids (produces irritation and heat around anus when taken internally), pregnancy
 (stimulates smooth muscle contractions), active gastrointestinal tract inflammation.
 
-Page 25
 Alternatives to Aloe
 Honey is one alternative; less desirable choices include echinacea and St. John's wort for wound healing
 acceleration and to prevent scarring.
@@ -909,7 +865,6 @@ time was 3.3 days in the patients given cryptolepsis and 2.3 days in the patient
 comparable time period. Forty percent of the patients using chloroquine reported unpleasant side effects
 necessitating other medications; those using cryptolepsis reported no side effects.
 
-Page 26
 Preparation and Dosage
 Cryptolepsis is usually used as a powder or in capsules, tea, or tincture.
 External bacterial or fungal infections: Use herb as a finely crushed powder, liberally sprinkled on the site of
@@ -940,7 +895,6 @@ rootbark, stembark, or leaf), garlic vine ( Mansoa standleyi), or the bark of Ci
 was made can be used. Though malaria is resistant to quinine, it does not seem to have developed resistance to
 the more chemically complex Cinchona plant itself.
 
-Page 27
 Echinacea (Echinacea Angustifolia, E. Purpurea)
 Family: Compositae.
 Part used: Flower or root.
@@ -968,7 +922,6 @@ throat. I have found this reliably effective, again if treatment is assertive an
 (including a doubting physician), the throat had been positively cultured for Streptococcus; healing generally
 occurs within 24 hours.
 
-Page 28
 Onset of colds and flu: Echinacea should be used at the very early onset of a cold or flu when you feel just the
 earliest hint of that tingle in the body that signals the approach of symptoms. It is at this point that echinacea is
 most effective, but it must be taken in large doses and frequently to be effective. When it is taken after the full
@@ -1009,7 +962,6 @@ in this most serious of conditions, the eclectic physicians, botanical doctors t
 the twentieth century, used it for this condition, apparently with success. Its proven ability to stimulate white
 blood cell counts appears to support the use of massive doses for this condition.
 
-Page 29
 Preparation and Dosage
 Echinacea may be used as a tincture, tea, powder, poultice, or suppository. To make a tincture, use fresh
 flowerheads of E. purpurea in 1:2 ratio with 95 percent alcohol (for E. angustifolia dry root, use 1:5 in 70
@@ -1037,7 +989,6 @@ Side Effects and Contraindications
 Echinacea is a stimulant. Continued immune stimulation in instances of immune depletion to avoid necessary
 rest or more healthy lifestyle choices will always result in a more severe illness than if the original colds
 
-Page 30
 and flus were allowed to progress. Echinacea should not be used if you are getting sick a lot and are using
 echinacea only to stave off illness without using the time gained to heal the immune system itself through deep
 healing and recuperation. Rarely, joint pain may occur with large doses taken for extended periods of time.
@@ -1062,7 +1013,6 @@ The bark and leaves may be harvested at any time they are available. Generally, 
 shaped leaves and the young branches. Those parts of the tree that have that distinctive eucalyptus odor to the
 strongest degree is what you are looking for.
 
-Page 31
 Actions: Antibacterial, antimalarial, antifungal, antipyretic, antiseptic, stimulates mucous secretions,
 diaphoretic.
 Active against: Malaria, Staphylococcus aureus, Shigella dysenteriae, Haemophilus influenzae, enterobacteria,
@@ -1111,7 +1061,6 @@ essential oil is used as an inhalant for aromatherapy.
 Tea: 1 ounce (25 g) herb in 8 ounces (237 ml) water, steep 30 minutes. Use as external wash for infected
 wounds or up to 6 times a day internally for colds, sore throat, bronchial congestion, fevers, chills.
 
-Page 32
 Powder: Dust on infected skin, wounds, ulcerations as needed.
 Tincture: Fresh herb 1:2 with 95 percent alcohol, dried herb 1:5 in 65 percent alcohol; 10 to 30 drops in water
 for same conditions as tea.
@@ -1137,7 +1086,6 @@ Microbiology noted that essential oils are extremely powerful in the treatment o
 Diane Horne noted that the essential oils of thyme, rosewood, and oregano cause pneumonia-causing antibiotic-
 resistant bacteria to simply "go to pieces."
 
-Page 33
 Garlic (Allium Sativum)
 Family: Liliaceae.
 Part used: The bulb and cloves are used for medicine and food.
@@ -1165,7 +1113,6 @@ and gram-positive bacteria and most major infectious bacteria. Garlic juice dilu
 125,000 has been found to inhibit the growth of bacteria. Clinical studies, such as one in 1984 by Singh and
 Shukla, have repeatedly shown that garlic is active
 
-Page 34
 against strains of bacteria that are highly resistant to antibiotics. Unlike many herbs, garlic is directly effective
 against viruses. Garlic is perhaps the most extensively tested herb in the world; in vitro, in vivo, and human
 trials have shown its powerful effectiveness against bacterial and viral infectious agents.
@@ -1197,7 +1144,6 @@ more effectively. Beyond these potent actions, garlic has also shown repeatable 
 in the treatment of heart disease, high blood pressure, high cholesterol, cancer, stress, fatigue, and aging.
 If only one herb could be used to combat an epidemic spread of antibiotic-resistant bacteria, this would be it.
 
-Page 35
 Preparation and Dosage
 May be taken fresh (as juice or as cloves), in capsules, as tincture, or in food.
 Fresh cloves: Eat 1 clove up to 3 times a day for prevention. The cloves may be diced and mixed with honey
@@ -1222,7 +1168,6 @@ small and increased only as the body shows no signs of adverse reactions. You wo
 but you will want to. When you finally do vomit, it will be with exceptional vigor. A growing number of
 practitioners feel that garlic in capsule form is as effective as fresh or juiced cloves.
 
-Page 36
 Garlic is not suggested for nursing mothers, as it affects the taste of the milk and may interfere with nursing. It
 is excreted from the body through the lungs; this may irritate loved ones and strangers alike.
 Alternatives to Garlic
@@ -1249,7 +1194,6 @@ that it is safe in large quantities and yet tastes quite good. A relatively unkn
 (anticough) action rivals that of codeine, and its strong expectorant and antihistamine actions help thin
 bronchial mucus and move it up and out of the system. This makes it a perfect herb for upper
 
-Page 37
 respiratory infections. Ginger relieves pain, stimulates immune activity, reduces inflammation, and stimulates
 sweating, thus helping lower fevers.
 Enjoying Ginger
@@ -1285,7 +1229,6 @@ Tincture: Fresh root 1:2 with 95 percent alcohol, 10 to 20 drops up to 4 times a
 1:5 in 60 percent alcohol, 20 to 40 drops up to 4 times a day.
 Food: In everything and anything, often.
 
-Page 38
 Side Effects and Contraindications
 Avoid large doses during pregnancy.
 Alternatives to Ginger
@@ -1312,7 +1255,6 @@ been done on goldenseal, and almost no human clinical trials have been conducted
 focused on one constituent of goldenseal: berberine. Here, too, the controversy continues. Goldenseal has
 another major constituent: hydrastine. Some researchers consider this constituent to be
 
-Page 39
 the active one; others, the berberine. All note extensive data to support their positions. Furthermore, several
 respected clinical herbalists support the use of massive doses of goldenseal for systemic bacterial infections,
 whereas others think only tiny amounts should be used. Both sides cite long-term clinical experience to support
@@ -1340,7 +1282,6 @@ When taken internally the herb does not appear to simulate the immune system dir
 functioning of the mucous membranes of the body and, as a result, the level of active immunoglobulin A
 antibodies (IgA) in the mucus. IgA is one of the
 
-Page 40
 antibodies in the human body, and it infuses the mucous membranes in order to fight infections that seek to
 gain a toehold there. Stimulation of the mucous membranes and the IgA antibodies then helps prevent
 infections. Effective functioning or even proper stimulation of the mucous membranes through the use of
@@ -1367,7 +1308,6 @@ and help them serve their function as one of the first lines of defense against 
 Clinical (human) trials using berberine sulfate, a derived constituent of goldenseal, have shown dependable
 effectiveness, surpassing
 
-Page 41
 pharmaceuticals, against diarrhea caused by enterotoxigenic E. coli. Berberine sulfate has been shown to
 significantly inhibit the intestinal secretory response induced by both cholera and E. coli infection in vivo .
 Goldenseal is extensively overused, often for inappropriate conditions. The best results can be obtained if you
@@ -1415,7 +1355,6 @@ hot water, steeped 1 hour, and used as eye drops.
 Snuff: Place two thin lines of root powder on a table and sniff them vigorously, each line into a different nostril,
 up to 3 times a day for up to 7 days.
 
-Page 42
 Side Effects and Contraindications
 Do not use during pregnancy. Some clinicians report abdominal cramping, nervous tremors, and excessive
 drying of the mucous membranes when large doses are used.
@@ -1443,7 +1382,6 @@ under Preparation and Dosage).
 Collection: The seed and peel from the fresh ripe fruit (see comment under Preparation and Dosage); the leaves
 at any time.
 
-Page 43
 Actions: Antibacterial, antimicrobial, antiseptic, antiviral, antifungal, anthelmintic, antiparasitic. Of all herbs, it
 is perhaps the only true "antibiotic," the literal meaning of which is "antilife."
 Active against: GSE is active against a very large number of microorganisms. Most studies on GSE have been
@@ -1471,7 +1409,6 @@ garlic's range by a considerable margin. Furthermore, the broad activity of GSE 
 of the extract, whereas garlic must be taken in relatively large doses to be equivalently effective as a straight
 antibiotic.
 
-Page 44
 GSE is becoming more and more common in industrial applications as an environmentally friendly cleanser
 and antiseptic. It can sterilize cooking pots, surgical instruments nearly anything. There are two clear negatives:
 GSE can kill off intestinal or skin bacteria where garlic will not, whatever the amount consumed, and GSE is
@@ -1496,7 +1433,6 @@ Seeds only: To prepare the closest thing to the commercial preparation, use seed
 Let stand for 24 hours, covered. Add 70 percent vegetable glycerine and 30 percent spring or distilled water in
 a 1:3 ratio.
 
-Page 45
 Specifically, if you have 10 ounces (284 g) grapefruit seeds, then you need 30 ounces (887 ml) liquid, of which
 21 ounces (621 ml) will be vegetable glycerine and 9 ounces (266 ml) will be water. Add the liquid to the
 grapefruit seed and alcohol mixture, mix well, and let stand for 2 weeks. Decant, press the pulp well to extract
@@ -1549,7 +1485,6 @@ increased in especially acute conditions.
 Internal use (human): 3 to 15 drops in citrus juice 2 to 3 times a day. In any disease condition, the minimum
 should be used and the dose only
 
-Page 46
 increased if no adverse reactions occur. The possible side effects and contraindications should be kept in mind.
 Douche: 6 to 12 drops in 1 pint (475 ml) water 2 times a day for up to 1 week.
 Nasal spray: 3 to 5 drops in nasal spray bottle up to 6 times a day.
@@ -1572,7 +1507,6 @@ Garlic. All citrus species, which have shown remarkable antibiotic activity in b
 study. The most powerful appear to be Citrus bergamia, C. limetta, C. limon, C. aurantiifolia, C. grandis, C.
 reticulata, and C. sinensis.
 
-Page 47
 Honey (Concentrated Nectar of Wildflowers of Various Species)
 Part used: The honey syrup itself.
 Collection: In the fall from beehives.
@@ -1600,7 +1534,6 @@ calories (compared with white sugar at 1748 calories), 1.4 grams of protein, 23 
 milligrams of phosphorus, 4.1 milligrams of iron, 1 milligram of niacin, and 16 milligrams of vitamin C, and
 vitamin A, beta carotene,
 
-Page 48
 the complete complex of B vitamins, vitamin D, vitamin E, vitamin K, magnesium, sulfur, chlorine, potassium,
 iodine, sodium, copper, manganese, high concentrations of hydrogen peroxide, and formic acid. Honey, in fact,
 contains more than 75 different compounds. Many of the remaining substances in honey are so complex (4 to 7
@@ -1640,7 +1573,6 @@ honey was effective in improving chronic bronchitis, asthmatic bronchitis, bronc
 allergic rhinitis, and sinusitis. It is effective in the treatment of colds, flu, respiratory infections, and general
 depressed immune problems.
 
-Page 49
 Preparation and Dosage
 Direct application to wounds or internal use for immune stimulation, overall health improvement, treatment of
 colds, flus, and respiratory infections.
@@ -1665,7 +1597,6 @@ Pour 1 cup boiling water over sage and allow to steep for 10
 minutes. Strain out herbs, add remaining ingredients, and
 drink hot.
 
-Page 50
 Side Effects and Contraindications
 External Use: none.
 Internal Use: There are three instances where honey can be harmful.
@@ -1691,7 +1622,6 @@ Actions: Antibacterial, antimicrobial, antiseptic, antifungal, carminative, anti
 Active against: Staphylococcus aureus, Pseudomonas aeruginosa, Shigella dysenteriae, Streptococcus spp.,
 Escherichia coli, Candida albicans, Salmonella spp.
 
-Page 51
 ### Juniper
 
 About Juniper
@@ -1735,7 +1665,6 @@ consumed. As a general preventative and stimulant to the system, drink the tea d
 Wash: A strong decoction of the herb has been traditionally used in many cultures to sterilize brewing
 equipment, cooking utensils, surgical instruments, hands,
 
-Page 52
 counters, etc. The tea is also effective as a wound wash to either prevent or cure infection. Use 1 ounce (25 g)
 herb per 1 quart (1 l) water, boil 30 minutes, let steep overnight.
 Berries: For gastric problems: eat 1 to 5 berries per day for 2 weeks.
@@ -1761,7 +1690,6 @@ have been implicated in scores of diseases such as cancer, Alzheimer's disease, 
 cataracts, heart disease, and stroke. The human immune system uses antioxidants to deactivate and eliminate
 free radicals from our bodies. This antioxidant
 
-Page 53
 from pine bark is one of the strongest known. Furthermore, studies have shown that it powerfully activates the
 vitamin C in pine needles, a potent historical treatment for scurvy, a vitamin C deficiency disease. There is
 some evidence that the barks of other evergreen species also possess this same powerful antioxidant activity.
@@ -1788,7 +1716,6 @@ Generally, it is an immune system stimulant that has impressive antibacterial ac
 of other herbs. One distinct advantage of licorice is its sweetness. Fifty times sweeter than sugar, licorice, when
 used in herbal combinations, helps brighten the awful taste of some herbal formulations, making them
 
-Page 54
 more palatable for children and for adults with a strong inner child. (Stoics usually like their herbal preparations
 bitter.)
 Go for Organic
@@ -1827,7 +1754,6 @@ Used in proper doses in moderation, licorice is one of the most powerful members
 be used for restoring immune function or in active disease conditions. It is especially useful for any mucous
 membrane infection, cancer, radiation treatment, general fatigue, or immune suppression.
 
-Page 55
 Because of the many potential side effects from overuse or large doses, caution should be exercised in its use.
 Preparation and Dosage
 Used as tea, in capsules, as tincture.
@@ -1852,7 +1778,6 @@ effects of extracted constituents.
 Alternatives to Licorice
 The American species, found wild throughout North America, though not sweet can be reliably substituted.
 
-Page 56
 Sage (Salvia Officinalis)
 Family: Labiateae.
 Part used: The leaves.
@@ -1879,7 +1804,6 @@ and drink cold throughout the next day, up to 7 days.
 Tincture: Fresh herb 1:2 with 95 percent alcohol; dry herb 1:5 with 50 percent alcohol. For prevention: 10 to 30
 drops up to 3 times a day. In acute conditions: 30 to 60 drops up to 6 times a day.
 
-Page 57
 Inhalant: 4 ounces (113 g) herb in 1 gallon (41) of water, bring to a boil, inhale steam.
 Smoke: Place herb or tea on stones in sweat lodge or sauna.
 Powder: On all external infected wounds.
@@ -1920,7 +1844,6 @@ Trichomonas, Candida spp., various fungal strains. Generally active against gram
 is supposedly not effective against gram-negative bacteria, one in vitro study found usnea to be specific against
 Salmonella typhimurium, and at least one journal reports effectiveness against Escherichia coli.
 
-Page 58
 ### Usnea
 
 About Usnea
@@ -1949,7 +1872,6 @@ Preparation and Dosage
 May be used externally as a tincture, wash, or powder. May be used internally as a tea, tincture, spray, or
 douche.
 
-Page 59
 External bacterial or fungal infections: As a powder liberally sprinkled on site of infection as frequently as
 needed, except for impetigo (staphylococcal or streptococcal infection of the skin): use the tinture full strength
 or 50 percent dilute tincture applied directly on site of infection with cotton swab.
@@ -1981,7 +1903,6 @@ is toxic to animals, no toxicity has been noted in human use. Usnea also readily
 potentially toxic amounts. This is particularly problematic in far northern latitudes. Generally, the amount of
 usnea taken internally will
 
-Page 60
 not contain sufficient amounts of heavy metals to present a problem. In order to avoid such problems, harvest
 usnea at least 300 feet from roads, factories, and polluted areas.
 Alternatives to Usnea
@@ -2008,7 +1929,6 @@ ground plant is generally used for malaria, for intestinal worms, as a liver and
 flu. Water infusions of the leaf have been shown to produce 89 percent inhibition of malaria at 1 part in 35.
 Regular use as a tea as a preventative was found to prevent acetaminophen-induced liver
 
-Page 61
 disease in mice and rats. Some herbalists do not recommend the use of this herb because of its thujone content.
 However, it is one of the most powerful herbs for the treatment of antibiotic-resistant disease available.
 Millennia of traditional use support its continued place in the herbal dispensatory.
@@ -2057,7 +1977,6 @@ antimalarial (though at twice the dosage for artemesinin).
 Preparation and Dosage
 The above-ground plant may be used as tea, tincture, capsules, smoke, or essential oil, or in whole form.
 
-Page 62
 Tea: Hot tea for antipyretic and diaphoretic effects: 8 ounces (236 ml) of boiling water per 1 or 2 ounces (25 or
 50 g) of herb, steeped for 15 minutes, taken as needed for fevers, colds, flu. Cold tea for use as a tonic: 4
 ounces (113 g) of herb in 1 quart (1 l) hot water, steep overnight, strain, drink throughout the day up to 7 days.
@@ -2085,7 +2004,6 @@ Any artemisia species, cryptolepsis. Any artemisia can be substituted for anothe
 mugwort, is the least strong of the artemisias and will probably prove an ineffective choice for treatment of
 malaria. Dosage will vary depending on species.
 
-Page 63
 HERBAL TREATMENTS FOR 12 COMMON
 ANTIBIOTIC-RESISTANT MICROBES
 MICROBE/
@@ -2156,7 +2074,6 @@ Goldenseal, garlic, grapefruit seed extract,
 Terminalia spp., cryptolepsis, sage, oak
 (chart continued on next page)
 
-Page 64
 (chart continued from previous page)
 HERBAL TREATMENTS FOR 12 COMMON
 ANTIBIOTIC-RESISTANT MICROBES
@@ -2218,7 +2135,6 @@ Garlic, eucalyptus, wormwood, juniper,
 goldenseal, sage, ginger, acacia, grapefruit
 seed extract, Terminalia spp., Punica spp.
 
-Page 65
 Antibacterial Herbs for Food-Borne Pathogens
 As noted in the first chapter, the contamination of our food supply with resistant bacteria is becoming a serious
 problem, and it is likely to worsen as population increases. It turns out, however, that herbs have been used in
@@ -2244,7 +2160,6 @@ lemon or lime juice. All the spices listed in the box on page 66 are noted in th
 NAPRALERT database, one of the most extensive herbal data bases in the world, as showing antibacterial
 activity in in vitro, in vivo, or human trials.
 
-Page 66
 Oddly, even though the researchers note that juniper is used as a spice in every region in which it grows
 (making it one of the top five cooking spices in the world), they did not search the literature for its
 antimicrobial activity. A correlation with its antimicrobial activity would place it in the top six or seven spices
@@ -2261,8 +2176,6 @@ coriander, dill, nutmeg, basil, parsley
 Kill 48 to 25 percent of bacteria: cardamom, pepper, ginger,
 anise seed, celery seed, lemon or lime juice
 
-Page 67
-3
 ## 3. The First Line of Defense: Strengthening the Immune System
 
 The First Line of Defense:
@@ -2282,7 +2195,6 @@ Supporting the Elements of the Immune System
 Some of the specific components of our immune system are the thymus, spleen, lymph system, lymph nodes,
 tonsils, liver, appendix (basically a large lymph node), and bone marrow. The thymus coordinates immune
 
-Page 68
 activity. The spleen processes worn-out red blood cells and platelets and provides a location to engulf and
 destroy invading bacteria. The liver cleans toxins from the blood and produces most of the body's lymph, the
 liquid that flows in the lymph system, basically the body's sewer system. This system runs parallel to the blood
@@ -2310,7 +2222,6 @@ maintaining overall health and vitality. This includes things that can be done t
 suppressed or damaged immune system or keep an already healthy immune system functioning well. Roughly,
 these measures fall into three categories: herbs, foods and vitamins, and lifestyle choices.
 
-Page 69
 Herbs for the Immune System
 Several herbs stand out when it comes to strengthening, rehabilitating, or enhancing the immune system. All of
 them can be used over the long term; few have any side effects. Though some of them are active against
@@ -2339,7 +2250,6 @@ Seeds: hypnotic, diuretic, coagulant.
 Fruit (of related species): immune tonic, antibacterial, alterative.
 Active against: Staphylococcus aureus, Pseudomonas aeruginosa, Salmonella spp.
 
-Page 70
 ### Ashwagandha
 
 About Ashwagandha
@@ -2372,7 +2282,6 @@ herb are not nearly as strong as those of its cousin henbane (Hyoscyamus niger) 
 those of its relative dulcamara (Solanum dulcamara) . The plant is fairly high in nicotine, so those trying to quit
 smoking may find that this herb makes that task more difficult.
 
-Page 71
 Alternatives to Ashwangandha
 Siberian ginseng, astragalus, ginseng (for those over 40), and two other Withania species: W. coagulans and W.
 obtusifolia.
@@ -2401,7 +2310,6 @@ releases of antibodies, and boosts the production of hormonal messenger molecule
 destruction." And as Rob McCaleb noted in HerbalGram 21 (summer 1988) researchers at the University of
 Texas Medical Center
 
-Page 72
 found that astragalus was able to completely restore the function of cancer patients' compromised immune cells.
 Finally, research has also shown that astragalus protects the liver from a variety of liver toxins, such as carbon
 tetrachloride and the anticancer compound stilbenemide. The liver is an important organ in the body's immune
@@ -2435,7 +2343,6 @@ marketers.
 Alterantives to Astragalus
 Ashwagandha, Siberian ginseng, shiitake mushroom.
 
-Page 73
 Astragalus Broth
 Robyn Landis's and K.P Khalsa's recipe in Herbal Defense
 was the original inspiration for this powerful recipe .
@@ -2463,7 +2370,6 @@ and bring to a boil. Reduce heat and simmer until done,
 approximately 1 hour. Use this rice as you would any rice, as a
 base for meals throughout the week.
 
-Page 74
 Boneset (Eupatorium Perfoliatum)
 Family: Compositae.
 Part used: Above-ground plant.
@@ -2493,7 +2399,6 @@ ague-like condition is in fact the specific indication for the use of boneset. D
 a mosquito (one of the "new" old epidemics now making inroads from Mexico into the southern United States),
 is in fact attended by intense pain in the joints and bones, head, eyes, and muscles.
 
-Page 75
 Additionally, there are chills and fever, sore throat, catarrh, and cutaneous eruption. The name boneset attained
 popularity about 1800 from a particularly virulent flu that swept the East Coast and was attended by intense
 bone pain. The herbalist Matthew Wood found a specific reference from the early nineteenth-century physician
@@ -2539,7 +2444,6 @@ and cytotoxic action against cancer cells.
 Increasing numbers of practicing herbalists report that boneset is a reliable and effective immunostimulant,
 especially in infections that just
 
-Page 76
 won't go away. So, if you are sick with a feverish disease with aching bones, get almost well, then relapse over
 and over again, feel weak and debilitated, and have a sense of mental unreality, boneset is indicated. It seems to
 be much better than echinacea for upper respiratory infections that have progressed to full-blown disease.
@@ -2563,7 +2467,6 @@ should be used for tea.
 Alternatives to Boneset
 Echinacea, licorice.
 
-Page 77
 Red Root (Ceanothus Spp.)
 Family: Rhamnaceae.
 Part used: The root.
@@ -2594,7 +2497,6 @@ I have found that the action of echinacea increases dramatically when it is comb
 root and licorice. Historically, red root has also been considered specific for liver inflammation and congestion,
 and it may be of benefit in those conditions.
 
-Page 78
 Preparation and Dosages
 Red root is used as tincture, tea, strong decoction, gargle, or capsules.
 Tincture: Dry root, 1:5 with 50 percent alcohol, 30 to 90 drops up to 4 times a day.
@@ -2629,7 +2531,6 @@ Any red root species. One species, Ceanothus thrysiflorus (California lilac), ha
 the treatment of malignant diphtheria. Other alternatives: cleavers, which is much milder (a food herb), poke
 root, which is much stronger (a drug herb) and should be used with care.
 
-Page 79
 Siberian Ginseng (Eleutherococcus Senticosus)
 Family: Araliaceae.
 Part used: The root.
@@ -2655,7 +2556,6 @@ longer you use it, the better it works. It tends to kick in after 6 weeks or so,
 be seen after 6 months of use. This is especially true in people with pale unhealthy skin, lassitude, and
 depression.
 
-Page 80
 Siberian ginseng is specifically indicated for people with immunode-pression, fatigue, and a lack of vitality and
 perhaps those who get sick a lot. Unlike echinacea, it is not an immune stimulant; rather, it is an immune
 enhancer and helps restore optimum functioning in the immune system. As it is a monoamine oxidase inhibitor,
@@ -2711,7 +2611,6 @@ insomnia.
 Alternatives to Siberian Ginseng
 Ashwagandha, astragalus, shiitake; for men over 40, Asian or American ginseng.
 
-Page 81
 Foods and Vitamins for the Immune System
 Though we have already discussed the importance of garlic, ginger, and onions as herbal antibiotics, studies
 have shown that their regular use in the daily diet helps maintain the overall health of the body. Because garlic
@@ -2740,7 +2639,6 @@ flatulence and diarrhea, though the amount that produces this effect varies for 
 level of vitamin C, take it in increasing amounts until the stools become soft, then reduce the amount slightly
 until they become
 
-Page 82
 firm. An effervescent form of the vitamin is one of the most pleasant forms for use. (Andrew Weil, in his Eight
 Weeks to Optimum Health, suggests the use of three additional vitamins: beta carotene with lycopene included
 [25,000 IU], vitamin E [400 IU under age 40, 800 IU oven], and selenium [200 micrograms].)
@@ -2791,7 +2689,6 @@ have potent antitumor activity, preventing metastasis of cancer to the lungs. In
 activity and aggressiveness of the human immune system against abnormal cells and organisms defined as ''not
 us."
 
-Page 83
 Immune Soup
 Andrew Weil's recipe in Eight Weeks To Optimum Health is
 the original inspiration for this potent immune soup. Like most
@@ -2821,7 +2718,6 @@ hours.
 (just enough so that it just brings out a light sweat).
 *Available from Trinity Herb see Resources
 
-Page 84
 Preparation and Dosage
 Shiitake mushrooms are generally used in capsules or as food.
 Capsules: The capsules are usually commercially produced. Follow the manufacturer's directions. However, if
@@ -2841,8 +2737,6 @@ immune health; additionally, massage stimulates lymph system functioning), posit
 fun to live, there is less unconscious desire to become ill), and diet (reducing commercial factory-farmed meats,
 increasing organic meats, and eating plants that have known effects on overall health).
 
-Page 85
-4
 ## 4. Making and Using Herbal Medicines
 
 Making and Using Herbal Medicines
@@ -2863,7 +2757,6 @@ Making Infusions
 An infusion is made by immersing an herb in either cold or hot, not boiling, water for an extended time.
 (Basically, a tea is a weak
 
-Page 86
 infusion.) The water you use should be the purest you can find, not tap water. Rainwater, distilled water, or
 water from healthy wells or springs is best. Infusions should be kept only a maximum of 3 days if refrigerated,
 1 or 2 days if not refrigerated.
@@ -2891,7 +2784,6 @@ Oil
 Essential Oil
 Whole Plant
 
-Page 87
 ### Hot Infusion for Parasites
 This is a traditional infusion used to eliminate intestinal
 worms. For malaria, it should be twice as strong, and the
@@ -2915,7 +2807,6 @@ Decoctions, prepared with boiling, can be much more potent than infusions and ar
 as compresses, enemas, and syrups. Like infusions, decoctions should be kept only for a maximum of 3 days if
 refrigerated, 1 or 2 days if not refrigerated.
 
-Page 88
 Proportions and Boiling Time
 The standard pharmaceutical approach to decoctions is 1 ounce (25 g) of herb per pint (475 ml) of water boiled
 for 15 minutes and strained when cool; water is then added to bring the total volume back to 1 pint. I approach
@@ -2943,7 +2834,6 @@ To Use: Take 1 tablespoon (15 ml) (cold) to 1 cup (250 ml)
 (hot) as often as needed for the beginning of throat or upper
 respiratory infections.
 
-Page 89
 Making Steams and Washes
 Steams and washes are other easy ways to extract the properties of herbs into water. Steams are especially
 excellent for upper respiratory infections. They can be used as often as desired or needed. Wonderful steams
@@ -2968,7 +2858,6 @@ lungs.
 often as necessary. Add fresh herbs when their strong smell
 begins to noticeably diminish.
 
-Page 90
 Making an Alcohol Tincture
 A tincture is made by immersing a fresh or dried plant in full-strength alcohol or an alcohol and water mixture.
 Alcohol is extractive: it pulls all the water out of plants into itself. The resulting tincture is a mix of both water
@@ -2995,7 +2884,6 @@ others, like mint, contain a great deal. When making a tincture of a dried plant
 water that was present in the plant when it was fresh. Many books list the amount of water that should be added
 back. One good one, and the
 
-Page 91
 one I use, is Michael Moore's Herbal Materia Medica listed in the Resources. Generally dried plants are
 tinctured at a 5:1 ratio, that is, five parts liquid to one part dried herb. For example, echinacea root contains 30
 percent water by weight. If you have 10 ounces (284 g) of powdered echinacea root you would add to it 50
@@ -3019,7 +2907,6 @@ herbal tincture and place up to 10 drops or so in a nasal spray bottle (availabl
 water and spray up nostrils as often as needed. Two drops each of the essential oils of eucalyptus, juniper, sage,
 and rosemary may be substituted for the tinctures.
 
-Page 92
 ### Nasal Spray Formula for Sinus Infections
 5 drops eucalyptus tincture
 5 drops usnea tincture
@@ -3043,7 +2930,6 @@ sun for 2 weeks or bake them in the oven on the lowest heat your oven allows for
 herbalists prefer to simmer the herbs and oil for as many as 10 days at 100°F (38°C) in a slow cooker. When
 the preparation is ready, strain the oil out of the herbs by pressing in a strong cloth with a tight weave.
 
-Page 93
 Using Fresh Herbs
 To make an oil infusion from fresh herbs, place the herbs in a Mason jar and cover them with just enough oil to
 leave no part of the plant is exposed to air. Let sit in the sun for 2 weeks, or cook in a Crock-Pot for 5 days at
@@ -3073,7 +2959,6 @@ Press the oily herb mixture through a cloth to extract the oil.
 6. Store the oil in a sealed glass container out of the sun. It
 does not need to be refrigerated.
 
-Page 94
 ### Formula for a Good Wound Salve
 1 quart (1 l) olive oil
 3/4 ounce (21 g) echinacea, seeds or root, ground fine
@@ -3103,7 +2988,6 @@ essential oil, and stir well.
 label. Note: Make sure your containers are made to withstand
 hot liquids before using them.
 
-Page 95
 Making a Salve
 A salve is really just an oil hardened with beeswax. Make an oil infusion, then put it into a glass or stainless
 steel cooking pan. Heat it gently on top of the stove. Add chopped beeswax to the warmed oil, usually 2 ounces
@@ -3128,7 +3012,6 @@ Powders and Capsules
 Capsules are good for getting a large quantity of herb in whole form into the body. The herb must be powdered
 as finely as possible and then
 
-Page 96
 ### Wound Powder
 1 ounce (25 g) goldenseal root
 1 ounce (25 g) usnea
@@ -3157,7 +3040,6 @@ This same formula can be sprinkled onto feet or into shoes and
 socks for athlete's foot fungal infections. It may also be used
 on babies for diaper rash.
 
-Page 97
 encapsulated a tedious process. I usually try to bribe my son to do it or just buy it ready-made from a retail
 source. Goldenseal is an excellent herb for use in capsules. Sometimes the herbs are powdered and not
 encapsulated. For instance, with stomach ulceration the herbs should be powdered, mixed with liquid, and
@@ -3191,7 +3073,6 @@ its birth in rudimentary form in Europe at that time. Most people buy their esse
 wise women who are reclaiming this long-lost tradition and are distilling their own essences from the plants
 that grow in the fields and valleys near their homes. Most of us, however, buy them ready-made.
 
-Page 98
 ### Five-Step Herbal Regimen for an Ulcerated Stomach
 4 ounces (113 g) dried licorice root
 4 ounces (113 g) dried comfrey root
@@ -3220,7 +3101,6 @@ acacia tinctures. Take 1 teaspoon (5 ml) of the tincture 3 times
 a day for 15 days.
 5. Take 1 tablespoon (15 ml) honey 6 times a day for 30 days.
 
-Page 99
 Essential oils work by directly making contact with bacteria that reside on the mucous membranes of the nose
 and sinuses and by absorption through those mucous linings directly into the system. In this way the active
 principles of the plant bypass the gastrointestinal tract, and go directly into the bloodstream. Because it takes so
@@ -3244,7 +3124,6 @@ of the essential oil blend to 1 ounce (30 ml) distilled water,
 and shake well.
 To Use: Add oil blend to a diffuser.
 
-Page 100
 Essential oils can also be taken in nasal sprays, added to hot water and inhaled, and used in sweat lodges or
 saunas. A few can be taken internally if caution is exercised. Some essential oils, such as wormwood, are so
 strong that internal use is not recommended under any conditions. Essential oils are best used internally under
@@ -3266,7 +3145,6 @@ ear infections (the milk sometimes runs into the ear canal). It is much better t
 their heads higher than their body or, if they can sit, to drink sitting up.
 Dairy products in the diet contribute significantly to the incidence of ear infections.
 
-Page 101
 Children experience many minor infections early in life as part of building their immunity to infectious
 diseases. In most instances, the immune system adjusts and the disease passes. As part of this process, children
 in day care will get significantly more infections than children who stay home.
@@ -3308,7 +3186,6 @@ Children are most susceptible to ear infections from antibiotic-resistant strain
 Staphylococcus aureus, Streptococcus pneumoniae, and Branhamella catarrhalis . The above treatment plan has
 been found highly effective for treating such infections.
 
-Page 102
 ### Oil for Ear Infection
 5 cloves garlic
 4 ounces (118 ml) olive oil
@@ -3336,7 +3213,6 @@ hour per 150 pounds (68 kg) of body weight until symptoms
 cease. Best administered in juice. (See page 103 for children's
 dosages.)
 
-Page 103
 ### Brigitte Mars's Herb Tea for Ear Infections
 1 ounce (25 g) Mormon tea (Ephedra nevadensis)
 1 ounce (25 g) rose hips
@@ -3370,7 +3246,6 @@ Young's Rule: The child's age divided by (12 + age of child). For
 a 3-year-old, it would be 3 divided by (12 + 3), or 15, for a dose
 of 1/5 the adult dose.
 
-Page 104
 Making Herbal Glycerites and Honeys
 Glycerites and honeys are excellent for children because of their wonderful taste. (See caution box on page
 101.) Additionally, honey as an herbal medium adds honey's powerful actions to that of the herb. When making
@@ -3398,7 +3273,6 @@ ounce (30 ml) catnip, is also exceptionally effective in lowering fevers. Finall
 washcloths soaked in cool water is highly effective.
 For diarrhea, a tea and tincture combination is usually effective.
 
-Page 105
 ### Rosemary Gladstar's Tea for Diarrhea
 3 parts blackberry root
 2 parts slippery elm bark
