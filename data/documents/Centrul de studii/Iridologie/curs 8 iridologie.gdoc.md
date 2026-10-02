@@ -32,7 +32,7 @@ Aceasta indreapta atentia spre tractul reproductiv si sistemul urinar. Individul
 
 ## Aplatizare inferioara
 
-Aceasta se refera la pelvis si membrele inferioare. Poate de asemenea sa indice probleme cu eliminarea prin sistemul urinar. Aceasta in schimb poate cauza probleme pentru alte parti ale corpului. In particular, individul poate avea problme cu pielea.
+Aceasta se refera la pelvis si membrele inferioare. Poate de asemenea sa indice probleme cu eliminarea prin sistemul urinar. Aceasta in schimb poate cauza probleme pentru alte parti ale corpului. In particular, individul poate avea probleme cu pielea.
 
 ## Aplatizarea infero- laterala
 
@@ -52,7 +52,7 @@ Se indreapta atentia catre urechi, ameteli, probleme cu gatul. De vreme ce maduv
 
 ## Pupilele ovale
 
-Uneori, intreaga pupila poate fi deformata, mai degraba decat deformatia segmentata a formei, care rezulta in aplatizarea segmentata. Pentru clasificarea pupilei ovale se foloseste intotdeauna partea superiara a ovalului ca numitor. Aceasta este, daca partile superioare sunt indreptate spre interior de linia axului 60- 30 ,atunci acestea sunt considerate ovale mediane; daca sunt indreptate inspre exterior atunci sunt considerate ovale laterale s.a.m.d
+Uneori, intreaga pupila poate fi deformata, mai degraba decat deformatia segmentata a formei, care rezulta in aplatizarea segmentata. Pentru clasificarea pupilei ovale se foloseste intotdeauna partea superioara a ovalului ca numitor. Aceasta este, daca partile superioare sunt indreptate spre interior de linia axului 60- 30 ,atunci acestea sunt considerate ovale mediane; daca sunt indreptate inspre exterior atunci sunt considerate ovale laterale s.a.m.d
 
 ## Ovale verticale
 
@@ -80,11 +80,11 @@ Partea stanga a corpului este intotdeauna la risc. Indica probleme sexuale sau c
 
 ## Deplasarea pupilelor
 
-Pozitia pupilei in iris trebuie sa fie una asezata. In mod normal ar trebui sa fie exact in centru, dar uneori poate fi si in afara centrului. Directia atrasa indica slabiciune sau posibila slabiuciune in acel segment al corpului.
+Pozitia pupilei in iris trebuie sa fie una asezata. In mod normal ar trebui sa fie exact in centru, dar uneori poate fi si in afara centrului. Directia atrasa indica slabiciune sau posibila slabiciune in acel segment al corpului.
 
 In mod evident, o pupila unilateral deplasata poate indica o problema in acea parte a corpului.
 
-Asigura-te, totusi, ca nu e vorba de strabism. Acesta este un lucru destul de difetit, cauzat de slabiciunea muschilor, care controleaza miscarile ochilor. In acest caz pupila va fi in continuare plasata in centrul irisului, dar globul ocular va fi deviat.
+Asigura-te, totusi, ca nu e vorba de strabism. Acesta este un lucru destul de diferit, cauzat de slabiciunea muschilor, care controleaza miscarile ochilor. In acest caz pupila va fi in continuare plasata in centrul irisului, dar globul ocular va fi deviat.
 
 ## Deplasarea superioara
 

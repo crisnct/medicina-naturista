@@ -148,7 +148,7 @@ Imunitare (imunostimulente, tonice asupra sistemului imunitar): Arnica (flori), 
 
 Laxative: Canepa codrului (partea aeriana), cicoarea (intreaga planta), frasinul (frunze \- actiune usoara), ienuparul (frunzele), inul (seminte), schinduful (actiune usoara), toporasul (radacinile si rizomii \- actiune usoara)
 
-Lipotrope: Ienuparul (pseudobacele), rostopasca, sovarvul, turita mare, tuia (terminatiile verzi proapete)
+Lipotrope: Ienuparul (pseudobacele), rostopasca, sovarvul, turita mare, tuia (terminatiile verzi proaspete)
 
 Miotonice (stimulente neoro-musculare): Schinduful
 

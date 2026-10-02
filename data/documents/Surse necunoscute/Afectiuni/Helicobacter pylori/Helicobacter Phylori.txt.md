@@ -50,7 +50,7 @@ o Omeprazol(20mg x o data pe zi)
 - Lacium probiotic - 1 cps dimineata pe stomacul gol.
 - Ceai Sveltaflor - o cana pe saptamana. Il recomand pentru efectul laxativ foarte bun. Se face infuzie dintr-o lingura la o cana de apa si se bea noaptea inainte de somn. A doua zi mergi la baie de cel putin 7 ori. Este ca o clisma.
 
-A se evita urmatoarele alimente deoarece ajuta la dezoltarea bacteriei:
+A se evita urmatoarele alimente deoarece ajuta la dezvoltarea bacteriei:
 
 - zaharul
 - lactatele

@@ -188,4 +188,4 @@ Obstructie menstruala (amenoree, dismenoree)1 parte lemnul domnului planta, zdro
 
 Mod de preparare: 30ml la 1 litru de apa fierbinte, se acopera bine pentru 10-15 minute, se indulceste, se lasa sa se raceasca; se pune in sticla si se pastreaza intr-un loc racoros. Dozare: 60ml de lichid, de 3-4 ori pe zi.
 
-Colectare: se aduna planta atunci cand este in floare sau in luna august (daca nu infloareste). Uscare si conservare: Planta trebuie uscata cu grija, astfel incat sa nu se piarda proprietatile aromatice si volatile. Imediat dupa uscare, planta ar trebui sa fie plasata intr- un container etans, altfel va absorbi circa 12% umiditate din aer.
+Colectare: se aduna planta atunci cand este in floare sau in luna august (daca nu infloreste). Uscare si conservare: Planta trebuie uscata cu grija, astfel incat sa nu se piarda proprietatile aromatice si volatile. Imediat dupa uscare, planta ar trebui sa fie plasata intr- un container etans, altfel va absorbi circa 12% umiditate din aer.

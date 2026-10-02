@@ -14,13 +14,13 @@ Insa cursul vietii doctorului Hamer avea sa se schimbe radical, in luna decembri
 
 !{width="2.0833333333333335in" height="2.4791666666666665in"}
 
-Ajunsese un doctor care trata pancientii de cancer, iar in paralel trebuia sa se trateze pe el insusi de cancer. Era speriat de rata mare de insucces a tratamentelor clasice, pe care ar fi trebuit sa le urmeze si el, insa nu mai avea incredere in ele . Desi pare descurajator, **acest context urma sa-l ajute pe Dr. Hamer sa revolutioneze lumea medicala.**
+Ajunsese un doctor care trata pacientii de cancer, iar in paralel trebuia sa se trateze pe el insusi de cancer. Era speriat de rata mare de insucces a tratamentelor clasice, pe care ar fi trebuit sa le urmeze si el, insa nu mai avea incredere in ele . Desi pare descurajator, **acest context urma sa-l ajute pe Dr. Hamer sa revolutioneze lumea medicala.**
 
 Din moment ce nu fusese niciodata grav bolnav, a suspectat imediat ca dezvoltarea cancerului sau poate avea legatura directa cu tragica pierdere a fiului sau.
 
 Moartea lui Dirk si propria sa experienta cu cancerul l-au facut pe Dr. Hamer sa investigheze **istoricul pacientilor sai de cancer**. A aflat foarte curand ca, la fel ca el, toti au trecut prin experiente extrem de stresante, inainte ca boala sa se instaleze si sa se dezvolte. Observarea conexiunii dintre minte si organism nu a fost surprinzatoare. Numeroase studii aratasera deja ca **atat cancerul, cat si alte bolii sunt foarte des precedate de un eveniment traumatizant.**
 
-Exista o LEGATURA dintre diferitele zone creiereului si anumite organe
+Exista o LEGATURA dintre diferitele zone creierului si anumite organe
 
 Dar Dr. Hamer a dus cercetarile sale cu un pas mai departe. Urmarind ipoteza ca toate evenimentele din organism sunt controlate de creier, **[a analizat tomografiile pacientilor sai]{.underline} si le-a comparat cu istoricul lor medical.**
 

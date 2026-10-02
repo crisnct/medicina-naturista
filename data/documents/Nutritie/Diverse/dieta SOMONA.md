@@ -5,7 +5,7 @@ Alimentele trebuie mestecate incet. Asta te va ajuta la obtinerea senzatiei de s
 \
 In primele 10 zile se slabeste foarte mult pentru ca sunt recomandate in special legume, fructe, proteine si cereale. In partea a doua, care dureaza din ziua a 11-a pana la atingerea greutatii dorite, lista de alimente include pestele si fructele de mare. Ultima treapta este de fapt intrarea in rutina a consumarii numai acestor alimente din primele 2 faze si asigura pastrarea unei greutati constante.\
 \
-Noutatea acestei dieta este faptul ca se indica o anumita marime a farfuriilor si a canilor din care sa se consume. Acest lucru, desi pare ciudat, este foarte util pentru ca nu mai apare vesnica problema: \"Cat de mica e o ceasca?\" sau \"Ce inseamna o farfuriuta?\". Astfel, pentru micul dejun este recomandata o farfurie mica, iar pentru restul meselor, una medie.
+Noutatea acestei dieta este faptul ca se indica o anumita marime a farfuriilor si a cailor din care sa se consume. Acest lucru, desi pare ciudat, este foarte util pentru ca nu mai apare vesnica problema: \"Cat de mica e o ceasca?\" sau \"Ce inseamna o farfuriuta?\". Astfel, pentru micul dejun este recomandata o farfurie mica, iar pentru restul meselor, una medie.
 
 **REGIM DE BAZA\
 **

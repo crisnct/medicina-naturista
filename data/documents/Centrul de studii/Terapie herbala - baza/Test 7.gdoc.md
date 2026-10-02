@@ -1,7 +1,7 @@
 # Test curs 7 herbalism
 
 1. Care este principiul de baza al homeopatiei?
- Principiul de baza al homeopatiei este sa stimuleze puterea naturala de vindecare a corpului prin administrarea de preparatedin plante medicinale in dilutie foarte slaba.
+ Principiul de baza al homeopatiei este sa stimuleze puterea naturala de vindecare a corpului prin administrarea de preparate din plante medicinale in dilutie foarte slaba.
 
 2. In homeopatie, ce remediu este mult mai concentrat, un remediu mic potentat mic sau cu un nivel ridicat?
  Un remediu mic potentat mic. De exemplu 6C este mai concentrat decat 200C.

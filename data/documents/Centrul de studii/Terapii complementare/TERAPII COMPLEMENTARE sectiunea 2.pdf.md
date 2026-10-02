@@ -23,13 +23,13 @@ urma cu mii de ani, tibetanii ajunsesera la o intelegere adanca a naturii spirit
 materiei, utilizand aceasta cunoastere pentru vindecarea trupurilor lor, armonizarea sufletelor si
 conducerea spiritelor catre experienta unitatii. Mai tarziu gasim aceasta cunoastere si in India si,
 de asemenea, gasim forme modificate ale ei in Japonia, China, Egipt si la culturile romane,
-numai ca sa mentionez cateva. Aceasta cunoastere a fost pastrata de misterul scolilor majo ritatii
+numai ca sa mentionez cateva. Aceasta cunoastere a fost pastrata de misterul scolilor majoritatii
 culturilor antice si a fost cunoscuta in intregime numai de cativa oameni, de obicei preoti sau
 conducatori spirituali care in schimb, au transmis-o discipolilor pe cale orala.
-Oamenii de stiinta moderni, de obicei interpreteaza gresit aceasta cu noastere pentru ca
+Oamenii de stiinta moderni, de obicei interpreteaza gresit aceasta cunoastere pentru ca
 ea s -a pastrat in limbaj criptic sau prin simboluri. Cunoasterea Reiki s -ar fi pierdut daca Dr.
 Mikao Usui nu ar fi redescoperit cheia care duce la refacerea unei traditii de vindecare veche de
-mii de ani ea aparand inca din vechile scri eri sanscrite pana la sfarsitul secolului XIX. Cuvantul
+mii de ani ea aparand inca din vechile scrieri sanscrite pana la sfarsitul secolului XIX. Cuvantul
 Reiki inseamna energie vitala universala. Este definita ca fiind puterea care actioneaza si traieste
 in toata materia creata. Cuvantul se imparte in doua. Silaba rei descrie
 
@@ -39,7 +39,7 @@ Multe rase, culturi si religii au fost intotdeauna constiente de existenta unei 
 corespunde intelesului lui ki. Astfel ki este denumit:
 Chi de catre chinezi, Ight sau fantoma Sfanta de catre crestini, Prana de catre hindusi,
 Mana de catre Kahunas si Energie bioplasmica de catre cercetatorii rusi. Si probabil acelasi lucru
-este: Telesma la Hermes Trismegistos, Ka la eg ipteni, Pneuma la greci, Eckankar in limbajul
+este: Telesma la Hermes Trismegistos, Ka la egipteni, Pneuma la greci, Eckankar in limbajul
 Pali, Fluidul vietii la alchimisti, Jesod si cabbala la evrei, Mgebe la pigmeii, Hasina pe insula
 Madagascar, Oki la indienii, Puterea regilor europeni de vindecare prin atingere,Puterea de
 vindecare a naturii la Hippocrate, Puterea odica a Baronului Reichenbach, Energia biocosmica a
@@ -57,7 +57,7 @@ vindecare pe care o cunoastem, dar este, de asemenea, cel mai eficient mod de a 
 energie vitala universala. O data ce o persoana a fost deschisa sa devina un ―canal‖ pentru Reiki,
 energia concentrata a vietii va curge prin mainile sale cu acordul sau propriu si el va ramane cu
 aceasta capacitate pentru tot restul vietii sale.
-Micile diferente intre sistemul Usui c lasic si sistemul folosit acum, au venit de la
+Micile diferente intre sistemul Usui clasic si sistemul folosit acum, au venit de la
 folosirea si diagnosticarea reiki prin scanarea ceakrelor.
 Ce este mai exact aceasta energie vitala universala. Sa ascultam, mai intai ce au de spus
 batranii intelepti si oamenii de stiinta despre acest subiect. Se datoreaza medicinii moderne faptul
@@ -68,11 +68,11 @@ aceasta piatra in comparatie cu intinderea enorma a universului nostru 100.000 d
 alcatuite din ADN. Fiecare din aceasta microscopica celula contine in ea insa si nu mai putin de
 planurile contructiei noastre genetice. Daca ar fi sa desfacem aceste lanturi spiralate si sa le
 punem cap la cap, lungimea lor ar atinge mai mult de 120 miliarde km, cam de 800 de ori
-distanta dintre pamant si soare. Si totusi toate ace ste lanturi de AND incap in ceva mai mic decat
+distanta dintre pamant si soare. Si totusi toate aceste lanturi de AND incap in ceva mai mic decat
 o aluna ! Jocul cu figuri si valori ar putea fi continuat pana la infinit. Cat de mare poate fi energia
 ca toate aceste forme de viata sa se manifeste. Cat de mare trebuie sa fie inteligenta care da
 
-acestor fo rme viata. Sau universul si vietile noastre apar dintr -un sir de coincidente? Poate
+acestor forme viata. Sau universul si vietile noastre apar dintr -un sir de coincidente? Poate
 materia inconstienta sa aduca constiinta? Poate aduce spiritul? Poate aduce un suflet?
 In acest punct pana si stiinta se confrunta cu o problema nerezolvata. Multi oameni de stiinta au
 la momentul in care ar exista o singura explicatie si anume ca exista o forta inteligenta
@@ -85,7 +85,7 @@ fi care contine toata creatia si din care apare viata. Energia acestei stari de 
 lucrurile si aceasta energie universala curge prin mainile noastre in forma concentrata atunci
 cand tratam pe cineva cu Reiki. In termeni practici reiki este deasupra celor holistice. Reiki
 atinge toate nivelurile de existenta si se lupta sa aduca aceste diferite niveluri la o stare de
-echilibru. Terapeutul este numai un canal pen tru aceasta energie, pentru ca acesta nu este al lui,
+echilibru. Terapeutul este numai un canal pentru aceasta energie, pentru ca acesta nu este al lui,
 energia limitata care trece prin el cand isi aseaza mainile pe o persoana, dar mai degraba una
 universala, care il lasa apoi in armonie cu el si mai puternic. De asemenea, Reiki lucreaza in felul
 sau asupra zonei din corp care are nevoie.
@@ -96,7 +96,7 @@ al omenirii este sa traduca aceasta stare in realitate si sa o traiasca. Dragost
 sufletului, acolo unde se intoarce sa fie unita ca picatura cu oceanul nemarginit al fiintei, o stare
 de uniune, cunoastere incomprehensiva si intelepciune, creativitate si armonie ca si realizare,
 dragoste si eterna binecuvantare. Reiki ne poate ajuta sa ne gasim drumul inapoi catre aceasta
-stare de sanatate. Este o metoda de vindecar e in sensul cel mai larg al cuvantului. Dupa cum ati
+stare de sanatate. Este o metoda de vindecare in sensul cel mai larg al cuvantului. Dupa cum ati
 observat deja, Reiki nu are nimic in comun cu spiritismul sau ocultismul in orice forma a lor. De
 asemenea, nu are nimic in comun cu invocarea fantomelor sau a demonilor, nici cu hipnoza sau
 orice alt gen de tehnica psihologica. Darul Reiki nu te face ―magician‖. In tratamentul Reiki, se
@@ -142,13 +142,13 @@ armonie.
  MAESTRU PROFESOR Nivelul III plus abilitatea de a instrui in practica Reiki.
 Multi profesori nu vad acest nivel ca pe un nivel separat de nivelul III, in timp ce altii cer
 instruirea in continuare pentru acest nivel. Acest nivel nu solicita atingerea altor stadii de
-armonie sau altor simboluri. In schimb iti ofera incredere si cuno stinte pentru a conduce o clasa
+armonie sau altor simboluri. In schimb iti ofera incredere si cunostinte pentru a conduce o clasa
 
 este de partea cealalta a mesei.
- Unii profesori adauga alte nivele, informatii din alte traditii si asa mai departe. Acest e alte
+ Unii profesori adauga alte nivele, informatii din alte traditii si asa mai departe. Aceste alte
 nivele nu fac parte din Sistemul traditional Usui de Vindecare Naturala asa cum a fost pastrat de
 catre Dna. Takata. Uneori, aceste alte lucruri se spune ca ar fi bucatele recuperate din
-cunostintele Reiki sau ceva in genul asta. Cu conditia ca prof esorul sa faca distinctia clar intre
+cunostintele Reiki sau ceva in genul asta. Cu conditia ca profesorul sa faca distinctia clar intre
 lucrurile adaugate si invataturile traditionale pentru onorarea corecta a sistemului Usui. Aceste
 alte lucruri pot fi "Reiki" in intelesul larg al cuvantului, dar nu sunt "Reiki" in sensul obisnuit al
 acestui cuvant folosit pentru denumirea "Sistemului Natural de Vindecare Usui".
@@ -158,14 +158,14 @@ semihipnoza intre psihologie si meditatie dirijata, situatie in care problema pa
 in care se datoreaza unei traume psihice se poate rezolva in cateva sedinte.
 
 Nivelul I Reiki - PRIMUL GRAD
- Se bazeaza pe nivelul introductiv. Da acces en ergiei si mana libera vindecarii dupa cum este
+ Se bazeaza pe nivelul introductiv. Da acces energiei si mana libera vindecarii dupa cum este
 descris in cursul despre pozitiile traditionale ale mainii. Solicita atingerea a 4 stadii de armonie.
  Cum este si normal un incepator in practica reiki trebuie sa exerseze autotratamentul, necesar
 tuturor practicantilor, indiferent de starea lor de sanatate.
 In acest caz compatibilitatea terapeut-pacient este 100%
 
 Dupa initiere , studentului i se da sa vorbeasca despre toate subiectele descoperite in curs. Sunt
-luate puncte din stiinta si metafizica pentr u reiki cu abundenta de cazuri istorice care se afla in
+luate puncte din stiinta si metafizica pentru reiki cu abundenta de cazuri istorice care se afla in
 spatele teoriei.
 Se vorbeste deasemenea cum sa faca tratamente sigure, sa trateaza animale si plante si se
 trateaza alti oameni ce se afla in situatii critice . Se intersecteaza cu teoria si sezonul practic in
@@ -174,7 +174,7 @@ gandurile in practica si prima mana a experientei reiki .
 Informativ si placut , primul grad dureaza minim optsprezecezece ore munca. Nu se dau teste sau
 examene deoarece este putin de invatat sau de stiut . Nu este intr -adevar necesar sa se dea prea
 multe explicatii deoarece ceea ce conteaza de fapt este receptarea reiki si folosirea acestuia prin
-punerea mainilor pe corp .Multi profesoi reiki adauga la eceasta filosofia, predau fo arte putin si
+punerea mainilor pe corp .Multi profesoi reiki adauga la aceasta filosofia, predau foarte putin si
 isi focalizeaza
 Intrega munca asupra aplicatiilor practice . Cel mai important este insa autotratamentul. Se spune
 ca, ―Pentru a da reiki trebuie sa fi primit reiki‖ iar pentru inceput cel ce-ti ―da‖ reiki esti tu insuti.
@@ -199,12 +199,12 @@ ne ajuta sa ne „adancim‖ in noi si ofera solutii superioare pentru descoperi
 acestuia. Racordarea de la acest nivel duce la o circulatiei sporita a energiei dar, pe langa planul
 fizic, isi exercita influenta si pe pl an emotional si mental. In urma acestei initieri ies in evidenta
 in primul rand schimbarile sufletesti, spre deosebire de schimbarile fizice de la nivelul I. Nivelul
-II ne ajuta sa ne traim viata constienti, fara incordare/tensiune si sa ne apropiem de fi inta noastra
+II ne ajuta sa ne traim viata constienti, fara incordare/tensiune si sa ne apropiem de fiinta noastra
 reala interioara. Dar inaintarea pe acest drum se poate face doar de unul singur.
 Simbolurile reiki nu pot face rau, nici celui ce -l deseneaza gresit, fizic sau in imaginatie si nici
 celui ce-i este aplicat.
  Simbolul este o forta -energie legata de forma, de o creatie unica. In Europa cel mai cunoscut
-simbol este cel al crestinatat ii – crucea. Puterea simbolului cruce, incarcatura acestuia nu vine
+simbol este cel al crestinatatii – crucea. Puterea simbolului cruce, incarcatura acestuia nu vine
 din lemnul sau fierul din care este fabricat, ci din credinta oamenilor. Din acea incarcatura cu
 care a fost inzestrat de milioane de oameni capata puteri tamaduitoare.‖ Exista insa multe alte
 simboluri, unele cu incarcatura pozitiva, altele cu incarcatura negativa.
@@ -217,11 +217,11 @@ Invatarea simbolurilor Reiki se face la nivelele de grad II si III. Ele sunt inv
 cursurilor, ca sa poate fi vizualizate oricand, in orice imprejurare.
 Precticantii liniei traditionale considera aceste simboluri secrete, de acea ele nu pot avea nici o
 urma scrisa!
-Scolile traditionale nu permit deschideri la mai putin de 28 de zile una de alta, pe ntru ca in
+Scolile traditionale nu permit deschideri la mai putin de 28 de zile una de alta, pentru ca in
 momentul deschiderii si implementarii unui simbol sa aib timpul necesar sa se « asimileze » fara
 a se intersecta energetic cu simbolul urmator..
 Simbolurile gradului II sunt: simbolul fortei (cresterii fortei), simbolul vindecarii spirituale si
-simbolul vindecar ii la distanta. De fiecare simbol se leaga o mantra care mareste
+simbolul vindecarii la distanta. De fiecare simbol se leaga o mantra care mareste
 puterea/eficienta vizualizarii.
 
  Simbolul 1-
@@ -397,7 +397,7 @@ acestea.
  Apa, lemnul, focul, pamantul si metalul sunt considerate ca fiind cinci elemente indispensabile
 pentru mentinerea a tot ce este viu, reprezentand totodata si starile care stau la baza
 transformarilor din Natura. In lucrarea "Colectia de lucruri stravechi" se spune:
-"Hrana depinde de apa si foc. Productia depinde de metal si lemn. Pamantul da nastere tututor
+"Hrana depinde de apa si foc. Productia depinde de metal si lemn. Pamantul da nastere tuturor
 lucrurilor. Ele sunt folosite de popor."
 
  Desi au caracteristici diferite, cele cinci elemente depind unul de celalalt si sunt inseparabile.
@@ -466,7 +466,7 @@ echilibru si coordonare pe durata cresterii si a transformarii. Echilibrul relat
 generare si interactiune este cel care face posibila cresterea normala si dezvoltarea.
 Interactiunea dintre organele interne presupune faptul ca rinichii (apa) controleaza inima (foc),
 
-inima (foc) controleaza plamanii (metal), pamanii (metal) controleaza ficatul (lemn), ficatul
+inima (foc) controleaza plamanii (metal), plamanii (metal) controleaza ficatul (lemn), ficatul
 (lemn) controleaza splina (pamant), iar splina (pamant) va controla rinichii (apa).
  Relatia de interactiune are loc prin intermediul Yin-ului (campului sau fluidelor) organelor
 respective. De exemplu, campul plamanilor controleaza campul ficatului, campul inimii
@@ -478,7 +478,7 @@ Dominarea si opozitia
 aparea relatii anormale de generare si de interactiune, acestea fiind cunoscute prin termenii de
 dominare si de opozitie.
 Dominarea presupune un atac asupra partii care este controlata, din cauza slabirii acesteia. Din
-aceasta cauza, relatiile de control se vor tranforma in relatii de dominare.
+aceasta cauza, relatiile de control se vor transforma in relatii de dominare.
  De exemplu, metalul controleaza lemnul. In situatia in care lemnul este slabit metalul il va
 domina. Atunci cand vorbim despre organele interne, putem specifica faptul ca un camp prea
 puternic al plamanilor (metal), cauzat de o mai slaba functie de deschidere a celulelor plamanilor
@@ -550,7 +550,7 @@ Vest Condimentat Alb Seceris Uscaciune Toamna
  Apiterapia
 Produsele albinei s -au inscris de la inceputul preistoriei in randul elementelor naturale folosite
 pentru completarea si ameliorarea hranei si apoi pentru combaterea si prevenirea durerii si a
-suferintelor omului. Practica traditionala a apiterapiei dateaza din vr emurile imemoriale ale
+suferintelor omului. Practica traditionala a apiterapiei dateaza din vremurile imemoriale ale
 istoriei umane. Primele comunitati mai dense de oameni au aparut pe valea Indului, cam prin
 jurul anului 3000 I.H.
 In cea mai veche carte din India, RIG -VEDA, scrisa intre anii 3000 -2000 I.H., atat mierea cat si
@@ -574,7 +574,7 @@ sanatatii. Ea se poate consuma ca atare, sau ca adaos la ceai, lapte, alte bautu
 tartine. Cu ajutorul mierii se pot prepara prajituri perfect tolerabile, care, dupa opinia
 nutritionistilor, pot inlocui prajiturile obisnuite, care sunt in general stimulatoare ale aciditatii.
 Produse apicole
-Daca in trecut, milenii de -a randul, mierea a fost folosita ca atare in terapeutica, astazi stau l a
+Daca in trecut, milenii de -a randul, mierea a fost folosita ca atare in terapeutica, astazi staul a
 dispozitie in afara acesteia si alte produse apicole. Acestea pot fi impartite in doua categorii:
 1. Produse apicole naturale, directe
 mierea
@@ -600,67 +600,67 @@ larga, cuprinzand drajeuri de laptisor de matca, comprimate de laptisor de matca
 laptisor de matca cu miere si calciu, omogenizat in miere.
 La noi in tara se fabrica si un larg sortiment de produse cosmetice si de ingrijire igienica cum ar
 fi: cremele de fata cu laptisor de matca, cu propolis, cu miere, lotiuni nutritive, demachiante, apa
-de gura si altele. In medicina se foloseste un spray cu propolis pentru tratarea afectiunilo r
+de gura si altele. In medicina se foloseste un spray cu propolis pentru tratarea afectiunilor
 dermatologice, a escarelor, ranilor care nu se mai inchid si care apar pe partile dorsale ale
 bolnavilor care stau mult timp in pat.
 Mierea ca medicament reprezinta doar o parte a apiterapiei. Calitatile extraordinare ale mierii -
-medicament si aliment pretios in acelasi timp - sint cunoscute inca din antichitate. Tracii numeau
+medicament si aliment pretios in acelasi timp - sunt cunoscute inca din antichitate. Tracii numeau
 mierea.hrana.vie.
 Mierea se asimileaza foarte usor de catre organism si ne ofera energie si substante bioactive si
-nutritive. Continutul de microelemente al mierii este similar celui al singelui uman. Vitaminele
+nutritive. Continutul de microelemente al mierii este similar celui al sangelui uman. Vitaminele
 B1, B2, B6, B12, enzime, flavoane, flavonoide, compusi aromatici, fitohormoni, acizi organici -
 lactic, citric, malic, oxalic, dextrina, compusi ai azotului - in total 435 de substante. Aceasta
 asigura mierii un loc aparte in reglarea functiilor organismului uman.
 
 Orice tip de miere are proprietati specifice: mierea de levantica lecuieste tusea si durerile de git,
-mierea de tei usureaza s tarile febrile si durerile gastrice, previne migrena, fiind un bun mijloc
+mierea de tei usureaza starile febrile si durerile gastrice, previne migrena, fiind un bun mijloc
 profilactic si remediu in pneumonii, astm bronsic, stari nervoase, tuberculoza; mierea de brad
-este utila in bolile cailor respiratorii, cea de salcim este un bun calmant si tonic, m ierea de castan
+este utila in bolile cailor respiratorii, cea de salcam este un bun calmant si tonic, mierea de castan
 salbatic creste tensiunea arteriala, mierea de castan comestibil are actiune antimicrobiana, mai
 ales in bolile de stomac, intestinale si renale; mierea de izma este buna ca leac impotriva
 durerilor, antihemoragic, tonifiant, mierea de floarea-soarelui - utila in bronsite si boli de stomac.
 
-Mierea de flori de cimp are o puternica actiune antimicrobiana, cea de livada (de pomi fructiferi)
+Mierea de flori de camp are o puternica actiune antimicrobiana, cea de livada (de pomi fructiferi)
 vindeca afectiunile renale, pulmonare si intestinale. Mierea de munte are calitati deosebite in
 bolile de cai respiratorii si in alergii, fiind o insumare de substante nutritive si curative. Mierea
 este un remediu eficient in diferite boli interne si ale pielii - un excelent tonic pentru copii,
-convalescenti, pentru intarirea sistemului imunitar si pentru gr avide. Luind in mod regulat miere
+convalescenti, pentru intarirea sistemului imunitar si pentru gravide. Luind in mod regulat miere
 - cite o lingurita dimineata, cu o ora inaintea micului dejun; o lingurita la doua ore dupa masa de
 prinz si o lingurita dupa cina - se normalizeaza tensiunea arteriala si digestia, se reduce cantitatea
 de acid gastric. In cazul colitelor si gastritelor, mierea se asimileaza mai bine cu putina apa calda
 in care se dizolva.
 
 Produsele apicole - mierea, laptisorul de matca, polenul, propolisul, veninul de albine si ceara -
-contribuie la intarirea organismului, astfel incit pe rsoanele care le consuma reusesc sa evite
+contribuie la intarirea organismului, astfel incit persoanele care le consuma reusesc sa evite
 aproape in totalitate orice afectiune.
 
 Laptisorul de matca se stie ca are un continut de vitamina din grupa B mai ridicat decit drojdia de
 bere. Are un rol deosebit in metabolismul celular, in activitatea creierului, reduce colesterolul din
-singe, este util in digestie, pentru combaterea insomniei, a anemiei pernicioase si refacerea
+sange, este util in digestie, pentru combaterea insomniei, a anemiei pernicioase si refacerea
 glandelor cu secretie interna.
 Polenul este un aliment proteic deosebit de bogat in elemente necesare existentei plantelor, dar si
-organismelor animale. Intr -un kilogram de polen se contin atitea doze ziln ice de ritin (vitamina
+organismelor animale. Intr -un kilogram de polen se contin atitea doze zilnice de ritin (vitamina
 P), cite ar fi necesare citorva zeci de oameni pentru a preveni un accident vascular la nivelul
 creierului. Un rol important pentru functionarea normala a sistemului nervos revine unei alte
-substante continute in polen - anevrina. In plus, polenul este un stimulent al poftei de mincare,
+substante continute in polen - anevrina. In plus, polenul este un stimulent al poftei de mancare,
 inlesneste digestia, imbunatateste tonusul, alunga oboseala, previne rahitismul, caderea parului si
 chiar face sa creasca mai bine parul, hranindu-i radacinile.
 Propolisul este compus din rasini vegetale, balsam de diferite compozitii, ceara, uleiuri eterice,
 fier, microelemente - cupru, zinc, mangan, cobalt, la care se adauga polen, flavonoide, secretii
-ale gland elor salivare ale albinelor. Propolisul este folosit ca biostimulator, care mareste
+ale glandelor salivare ale albinelor. Propolisul este folosit ca biostimulator, care mareste
 rezistenta fizica si inlatura oboseala. Datorita proprietatilor sale antivirale, antitoxice si
 antiinflamatorii, propolisul isi gaseste tot mai multe utilizari. Este un bun stimulator al refacerii
 tesuturilor afectate de rani, taieturi si, mai ales arsuri, degeraturi. Este foarte util in vindecarea
 ranilor de la armele de foc, precum si in cicatrizarea operatiilor. Propolisul vindeca mucoasa
 
-bucala si este benefic in singera rile gingiilor. Balsamul de propolis protejeaza impotriva
+bucala si este benefic in singerarile gingiilor. Balsamul de propolis protejeaza impotriva
 radiatiilor Roentgen si de alta natura.
-Veninul de albine se foloseste in vindecarea astmului bronsic, a disco patiilor, artritelor,
+Veninul de albine se foloseste in vindecarea astmului bronsic, a discopatiilor, artritelor,
 reumatismului, in tratarea hipertensiunii, a aterosclerozei, ca si pentru atenuarea durerilor
 reumatice, a celor datorate arteritei si ischiemiei.
 Ceara de albine a fost folosita inca in antichitate si tot de atunci i s -au recunoscut virtutile
 terapeutice. Si azi se foloseste ceara de albine la prepararea unor unguente si balsamuri. De
-asemenea, ceara este folosita si in cosmetica. Mierea se pastrea za in vase bine inchise, la rece si
+asemenea, ceara este folosita si in cosmetica. Mierea se pastreaza in vase bine inchise, la rece si
 la intuneric, in incaperi curate si uscate. Atentie, mierea nu se va pastra in apropierea
 substantelor ce degaja mirosuri tari, caci absoarbe mirosurile. Mierea este contraindicata
 diabeticilor si obezilor.
@@ -668,7 +668,7 @@ diabeticilor si obezilor.
 Cum sa ne folosim de miere ca sa fim sanatosi
 
 Din vremuri stravechi, omul a descoperit mierea si produsele stupului de albine nu numai ca
-aliment, ci si ca medicament. Apicultura era practicata inca din secolul al VII-lea i.Hr., existind o
+aliment, ci si ca medicament. Apicultura era practicata inca din secolul al VII-lea i.Hr., existand o
 serie de marturii in acest sens. Tablitele mesopotamiene, ca si papirusurile egiptene,
 mentioneaza, printre altele, faptul ca mierea si ceara de albine erau folosite ca medicament. La
 originea sa, mierea era rara, fiind rezervata la inceput in serviciul religios, pentru a -i venera pe
@@ -676,8 +676,8 @@ zei sau pentru a hrani animalele sacre. Scrierile din antichitatea greco -romana
 mentionari despre mierea de albine si utilizarea ei medicala, fiind creata o adevarata mitologie in
 jurul acesteia si subliniindu -se numeroasele sale proprietati m edicinale: antiseptic, tonifiant,
 sedative, febrigug, aperitiv si digestiv.
-Aristotel, de exemplu, a scris sase volume despre albine si produsele lor, recomandind propolisul
-drept remediu in plagi supurate. Hipocrate, cel mai de seama medic al Antichitatii , mai tirziu
+Aristotel, de exemplu, a scris sase volume despre albine si produsele lor, recomandand propolisul
+drept remediu in plagi supurate. Hipocrate, cel mai de seama medic al Antichitatii , mai tarziu
 Pliniu, Galien si Dioscoride vorbesc, de asemenea, despre miere, folosita intr -o serie de boli.
 In lucrarea sa Despre mijloacele de vindecare, Dioscoride considera mierea un adevarat panaceu,
 indicind-o in boli de urechi, de piept sau rinichi, in vindecarea ranilor si a plagilor.
@@ -695,51 +695,51 @@ extrafloral sau a unui alt suc luat de pe plantele vii, prin transformarea lui, 
 enzimatica a salivei si a sucului gastric al albinelor. In timpul depozitarii nectarului in celule, apa
 care este in plus va fi indepartata prin ventilare. Dupa aceea mierea este gata pentru a fi
 consumata (albinele capacesc fagurii). In acest caz, mierea va contine numai 20 la suta apa, cit
-este normal ca ea sa fie consumata. Pentru a obtine 1 litru de miere sint mecesare 5 kg de nectar.
-Mai adaugam si faptul ca pentru a cara 1 kg de nectar este nevoie de 20.000 pina la 100.000 de
+este normal ca ea sa fie consumata. Pentru a obtine 1 litru de miere sunt necesare 5 kg de nectar.
+Mai adaugam si faptul ca pentru a cara 1 kg de nectar este nevoie de 20.000 pana la 100.000 de
 zboruri. Un roi de albine (30.000 la 60.000) poate fabrica 1 kg de miere pe zi. Calitatea si
-cantitatea de miere sint determ inate de factorii geografici si botanici, precum si de sezon.
+cantitatea de miere sunt determinate de factorii geografici si botanici, precum si de sezon.
 Originea florala a nectarului influenteaza culoarea, gustul si viscozitatea mierii.
 Compozitie.si.actiune.terapeutica
- Mierea este un aliment usor de digerat. Ea cuprinde un amestec de fr uctoza si glucoza intr-o
+ Mierea este un aliment usor de digerat. Ea cuprinde un amestec de fructoza si glucoza intr-o
 forma care, fara a mai fi transformata de organism, se asimileaza direct, constituind o sursa de
 energie.
 100 de grame de miere, care furnizeaza 335 de calorii, contin 17,2 la suta apa si 81,3 la suta
-zaharuri: 38,19 la suta fruct oza, 31,28 la suta glucoza si 5 la suta zaharoza, 6,83 la suta maltoza
+zaharuri: 38,19 la suta fructoza, 31,28 la suta glucoza si 5 la suta zaharoza, 6,83 la suta maltoza
 si alte dizaharide (aceasta in timp ce zaharul contine 0,1 la suta apa si 99,9 la suta zaharoza). La
 acestea se adauga vitamine (B1, B2, B6, C, PP), saruri minerale, oligoelemente,
 substante.bactericide.(3,21.la.suta).
-Actiunile terapeutice ale mierii sint foarte cunoscute, ea avind actiune antibiotica, bacteriostatica,
+Actiunile terapeutice ale mierii sunt foarte cunoscute, ea avand actiune antibiotica, bacteriostatica,
 cicatrizanta, tonicardiaca, calmanta, regeneratoare.Intrebuintari ale mierii de albine in diverse
 afectiuni.- Medicina populara recomanda mierea in tratamentul bolilor de inima, dar nu in
 cantitati mari si cu ceai fierbinte. Cel mai bine este ca mierea sa fie luata in cantitati mici (1 -2
-lingurite, de doua-trei ori pe zi) cu lapte, fructe sau alte produse. Folosirea zilni ca, timp de una -
+lingurite, de doua-trei ori pe zi) cu lapte, fructe sau alte produse. Folosirea zilnica, timp de una -
 doua luni a mierii de albine va duce la imbunatatirea generala a bolnavilor, la normalizarea
-compozitiei.singelui.si.la.cresterea.hemoglobinei.
+compozitiei.sangelui.si.la.cresterea.hemoglobinei.
 - In stenocardie, bolnavii vor lua, de trei ori pe zi, cite o lingura din urmatorul amestec: 100 g suc
 de aloe, 300 g miere, 500 g nuci pisate si sucul de la una -doua.lamii.
 -In hipertonie, medicina populara recomanda ca mierea sa fie luata cu suc de legume: sfecla,
 morcovi, hrean (acesta va fi dat pe razatoare si se va lasa 36 de ore, dupa care se va stoarce) si
-lamiie. Se ia, timp de doua luni, cite o lingura, de doua-trei ori pe zi, cu o ora inainte de masa sau
+lamaie. Se ia, timp de doua luni, cite o lingura, de doua-trei ori pe zi, cu o ora inainte de masa sau
 la doua -trei ore dupa masa. O alta reteta include suc de morcovi, hrean (acesta va fi tinut in
-prealabil in apa), miere si suc de lamiie. Amestecul va fi tinut intr -un borcan de sticla bine
+prealabil in apa), miere si suc de lamaie. Amestecul va fi tinut intr -un borcan de sticla bine
 acoperit.
 - Pentru bolnavii de TBC, medicina populara recomanda mierea cu lapte, sau cu diferite grasimi
 (unt, untura de gisca) si aloe: 100 g miere, 100 g unt, 100 g untura de gisca, 15 g aloe si 10 g
 cacao se pun pe foc, fara a fierbe insa. Se va lua cite o lingura din acest amestec, cu un pahar de
 lapte.cald,.de.doua.ori.pe.zi.(dimineata.si.seara).
 - In caz de raceli, mierea (se recomanda mai ales miere de tei) se va lua, de asemenea, cu lapte
-cald (o lingura de miere la un pahar de lapte), cu suc de lamiie (sucul de la 1/2lamiie la 100g
+cald (o lingura de miere la un pahar de lapte), cu suc de lamaie (sucul de la 1/2lamiie la 100g
 miere). In scop profilactic, se prepara un amestec de miere, suc de ceapa si de hrean, in cantitati
-egale. Din acest amestec se ia cite o lingura, de trei ori pe zi, i nainte de masa. In caz de gripa se
+egale. Din acest amestec se ia cite o lingura, de trei ori pe zi, inainte de masa. In caz de gripa se
 va prepara urmatorul amestec: usturoi dat pe razatoare si amestecat cu miere (proportie 1:1). Se
 ia cite o lingura de amestec (cu putina apa calduta) seara, inainte de culcare.
 
-- In cazul unor afectiuni ale cailor respir atorii (laringite, faringite) guturai si sinuzita, se
+- In cazul unor afectiuni ale cailor respiratorii (laringite, faringite) guturai si sinuzita, se
 
 recomanda mestecarea timp de 15 minute, de una -doua ori pe zi, a unui figure de miere. Seara,
 inainte de culcare, se ia o lingura de miere cu un pahar de ceai sau lapte. Se amesteca sucul de la
-o lamiie cu 100g de miere. Se ia cite o lingura de amestec seara, inainte de culcare, cu ceai sau
+o lamaie cu 100g de miere. Se ia cite o lingura de amestec seara, inainte de culcare, cu ceai sau
 lapte. Se amesteca suc de ridiche neagra cu miere (parti egale) sau se scobeste o ridiche neagra si
 se pune miere inauntru. Se ia cite o lingura, de trei ori pe zi.
 
@@ -747,9 +747,9 @@ Se amesteca suc de hrean si miere (proportii egale) si se ia cite o lingura, de 
 dimineata si seara. Medicul bulgar S. Mladenov recomanda inhalatii cu miere, timp de 15 -20 de
 minute. Pentru gargara se va pregati o infuzie de musetel, la care se adauga o lingurita de miere.
 - In afectiuni ale sistemului nervos se recomanda cite 30 g de miere, de trei ori pe zi. Un bun
-tonic si stimulant al sistemului nervos si endocrin se prepara din aloe, miere si suc de lamiie. Se
+tonic si stimulant al sistemului nervos si endocrin se prepara din aloe, miere si suc de lamaie. Se
 iau 75 g frunze de aloe, se toaca si se pun intr -un vas de sticla. Se adauga 125 g de miere, se
-omogenizeaza, dupa care se adauga 50 g suc de lamiie. Se lasa la macerat cinci zile, dupa care se
+omogenizeaza, dupa care se adauga 50 g suc de lamaie. Se lasa la macerat cinci zile, dupa care se
 ia cite o lingura de amestec, de trei ori pe zi.
 
  Cursul 13
@@ -762,11 +762,11 @@ tratamentelor de medicina complementara.
 Dispozitivele de bioreznanta de ultima generatie concepute in urma nenumaratelor studii
 stiintifice analizeaza procesele biologice ca un tot si trateaza adevaratele cauze ale problemelor
 de sanatate.
- Undele radiante se misca in spatiu ducind cu ele un flux urias de energie si informatie. Totul pe
+ Undele radiante se misca in spatiu ducand cu ele un flux urias de energie si informatie. Totul pe
 pamant si in univers exista intr-un spatiu energo-informational. Cercetatori rusi si germani au
-demonstrat ca organismele vii produc semnale electromagnetice incepind chiar de la nivel
+demonstrat ca organismele vii produc semnale electromagnetice incepand chiar de la nivel
 celular, cu un spectru foarte larg. Aceste semnale dirijeaza toate procesele biochimice din
-organism si sunt responsabile de generarea vietii si de sfirsitul ei. Inceputul oricarei boli se
+organism si sunt responsabile de generarea vietii si de sfarsitul ei. Inceputul oricarei boli se
 produce la nivel functional, al schimburilor de informatie electrica. Desi nu putem inca analiza
 semnalele electromagnetice cele mai subtile, putem sa analizam schimburile bioelectrice la
 nivelul macro al organismului, pe acesta baza putind fi analizata cu mijloace moderne, starea de
@@ -822,7 +822,7 @@ electromagnetic oscilant numit "camp electromagnetic biologic". Fiecare actiune 
 sau raspuns al organismului la stimuli este determinat de variatii ale frecventei de vibratie a
 componentelor celulare, dar aceste variatii ale frecventei trebuie sa se intample numai intr-un
 interval biologic, asa numita "fereastra biologica"
-Termenul "rezonanta biologica" este inteles ca pocesul in care aceste frecvente ca impact extrior
+Termenul "rezonanta biologica" este inteles ca procesul in care aceste frecvente ca impact exterior
 sunt obstructionate la un anumit nivel al organismului de catre structurile functional organice si
 ca tesutul corespunzator inceteaza sa se mi conformeze informatiilor patologice existente si
 incepe sa functioneze sub influenta unui nou model informational din exterior.In idea de a fi in
@@ -833,32 +833,32 @@ caracteristicile oscilatiilor ( coincidenta spectrului oscilatiilor creste posib
 fenomenului de biorezonanta); frecventa (pentru ca efectul sa apara, frecventa oscilatiilor
 aplicate trebuie sa corespunda cu frecventa insasi a sistemului) ampltudinea ( cu cat amplitudinea
 este mai mare cu atit mai mult creste posibilitatea raspunsului rezonant) Savanti rusi si germani
-au dovedit faptul ca receptorii cimpului electromagnetic sunt reprezentati de sistemul de
+au dovedit faptul ca receptorii campului electromagnetic sunt reprezentati de sistemul de
 meridiane si punctele de acupunctura.In cursul cercetarilor experimentale, in zonele indicate s-au
 evidentiat curenti si unde electromagnetice de joasa frecventa care aveau un indice maxim de
-amplituine intr-o zona de frecvente discrete in limita 1-10 Hz. S-a descoperit ca atunci cind
+amplituine intr-o zona de frecvente discrete in limita 1-10 Hz. S-a descoperit ca atunci cand
 senzorul este detasat de zona punctului de acupunctura, amplitudinea undelor descreste
 semnificativ iar distributia spatiala in zona de proiectie a punctului are caracter aleatoriu.Undele
 inregistrate in zona corpului in afara punctului biologic activ, aveau caracter de zgomot de fond
 iar amplitudinea era de 5-10 ori mai scazuta decit in zona de proiectie a punctului In lucrarile
 cercetatorilor americani (Rife, Clark, Statford etc.), se evidentiaza ca frecventele d rezonanta nu
 se limiteaza la spectrul 1-100 Hz. A fost dovedit ca frecventele de rezonanta pot varia de la 0,1
-Hz pina la mai multe milioana de Hz. Toate organismele vii au tendinta de acumulare de
+Hz pana la mai multe milioana de Hz. Toate organismele vii au tendinta de acumulare de
 informatii patologice. de acea este intodeuna necesar sa fie distruse numai acele oscilatii care
 exista la un anumit moment si sunt influentabile. Inrucit informatiile sunt acumulate intr-un mod
 constant vor apare din nou alte informatii patologic. In consecinta daca o boala se afla in stadiu
 acut sunt necesare 3-5 sesiuni. Daca dimpotriva boala s-a cronicizat pot fi necesare 8-20 de
 sedinte de tratament biorezonant. Spre deosebire de tratamentul prin impusuri electrice metoda
-de tratament prin frecvente trapeutice create de un cimp electromagnetic are mai multe avantaje:
+de tratament prin frecvente terapeutice create de un camp electromagnetic are mai multe avantaje:
 sedintele de terapie se executa fara ca pacientul sa aiba vreo senzatie neplacuta si lucrul cel mai
-imporatant supradozarea tratamentului este imposibila. Se cunoaste ca spectru de frecventa al
-preparatelor homeopatice sunt urmatoarele: potentele joase (pina la dilutia D6) au spectrul de
-pina la 300 Hz, cele medii (D6-D7) au de la 300-1000 Hz, iar potentele inalte (D12-D200) au de
+important supradozarea tratamentului este imposibila. Se cunoaste ca spectru de frecventa al
+preparatelor homeopatice sunt urmatoarele: potentele joase (pana la dilutia D6) au spectrul de
+pana la 300 Hz, cele medii (D6-D7) au de la 300-1000 Hz, iar potentele inalte (D12-D200) au de
 la 1000 la 10.000 Hz. In consecinta anumite analogii pot fi stabilite in legatura cu tratamentul pe
 baza de oscilatii electromagnetice.
 "Fenomenologia electromagnetica nu este un epifenomen, un efect "aditional", rezultat al
 fenomenelor biochimice, ci se manifesta specific si chiar, uneori, cvasiindependent (nu
-intodeauna superpozabil celui biochimic cu care este asociat). Organismele vii, ca sisteme
+intotdeauna superpozabil celui biochimic cu care este asociat). Organismele vii, ca sisteme
 deschise, cibernetice, adaptative si informationale, comunica si se autoregleaza prin fenomene
 biochimice, unele dintre acestea bine cunoscute, dar si prin fenomene electromagnetice,
 tranziente(descarcari rapide, variabile, impulsuri) abordate sporadic..TERAPIA PRIN
@@ -944,11 +944,11 @@ limitat la 15 Hz, pentru un tratament complet a fost nevoie sa se foloseasca fre
 Pentru a se compune combinatii de frecvente au fost folosite lucrarile lui R.Voll, P.Schmidt,
 R.Rife, V.Ludwig, D.Bar, R.Herber, H.Clark, D.Harvey, R.Staford si altii. Numarul mediu de
 sedinte au fost de 10-16, zilnic. In anumite cazuri seria de tratamente a fost repetata dupa 2-3
-saptamini.Alaturi de acest tratament toti pacientii au primit preparate individuale homeopatice
+saptamani.Alaturi de acest tratament toti pacientii au primit preparate individuale homeopatice
 
 create prin transferul frecventelor pe granule inerte homeopate. Merita sa fie mentionat ca
 metoda de terapie prin biorezonanta este compatibile si cu alte metode ale medicinii alternative.
-Ca orice metoda de tratament terapia in cimp electromagnetic, are contrindicatiile sale.Ele sunt
+Ca orice metoda de tratament terapia in camp electromagnetic, are contrindicatiile sale.Ele sunt
 urmatoarele: sarcina, boli cardiace decompensate, pneumoscleroza cu tendinta la hemoragie,
 infart de miocard cu mai putin de doua luni in urma, boli congenitale ale sistemului nervos, toate
 acestea fiind de fapt contraindicatii relative.
@@ -1035,7 +1035,7 @@ organismului.
 - Intareste puterea de adaptare a organismului si la marirea flexibilitatii acestuia.
 
 - Ajuta la micsorarea senzatiei de lipsa de ajutor si de putere, dezvoltand increderea in sine.
-- Reduce efectele nocive ale stressului.Dezvolta intr-un mod natural, firesc, calitatile umane, cum
+- Reduce efectele nocive ale stresului.Dezvolta intr-un mod natural, firesc, calitatile umane, cum
 ar fi: compasiunea, intelegerea, iubirea neconditionata,, increderea in binele vietii.
 - Este una dintre cele mai moderne si apreciate suplimente alimentare la moda, fiindca foloseste
 o enegie de cea mai pura calitate care hraneste, in mod abundent, toate cele 7 planuri de vibratie
@@ -1136,7 +1136,7 @@ Prin urmare, energiile noastre interne si gandirea sunt inseparabile - formeaza 
 relatie deosebit de intima si dependenta. De fapt, desi nu observam acest lucru, gandurile si
 sentimentele noastre calatoresc o data cu propriile noastre energii interioare. Daca avem energie
 tala interioara pozitiva, ne este mai usor sa dezvoltam stari de spirit pozitive si, in general,
-atragem experiente de ata pozitive si fecemjFata mafusor ploblemelor. De asemenea, daca
+atragem experiente de ata pozitive si fecemjFata mafusor problemelor. De asemenea, daca
 incercam in mod constient sa dezvoltam stari sufletesti pozitive, precum incredere, bunatate si
 intelepciune, acest lucru va ameliora calitatea energiilor noastre interioare si, prin urmare, ne va
 imbunatati sanatatea si multe alte aspecte ale vietii noastre.
@@ -1460,7 +1460,7 @@ in jurul a 3.500 de ani. Upanishad-ele, (800-100 i.Hr.), Bhagavad Gita (400-100 
 Sutras apartinand lui Patanjali (200 i.Hr.) deasemenea abordeaza conceptele si invataturile yoga.
 Etimologie
 In limba sanscrita Format:IAST este o derivare a termenului pre-indo-europpean yugam,
-dintr-o radacina yeug- (sanscrita yuj-) insemnind "a se alatura" sau "a se uni"; inrudit cu
+dintr-o radacina yeug- (sanscrita yuj-) insemnand "a se alatura" sau "a se uni"; inrudit cu
 latinescul iugum si termenul modern englezesc yoke.
 Termenul este atestat in Rig Veda in sensul unui "act de alaturare, atasament, dedicare", dar si in
 sensul de "ocupatie, incercare, performanta". Un sens spiritual de "exercitare, zel, silinta" este
@@ -1538,14 +1538,14 @@ Yoga in alte traditii
 Scopurile yoga sunt exprimate in mod diferit de catre diferite traditii. Pentru o persoana normala,
 inca depare de iluminare, yoga poate fi o cale de crestere a pregatirii spirituale sau, de cultivare a
 compasiuni si a introspectiei. yoga este refuzul minti eliberare de ego si ajungere la dumnezeu
-prin disciplina inplicit nu ai suferi nu mai se repeta nastera ai ajuns satarea de sfintemie.
+prin disciplina inplicit nu ai suferi nu mai se repeta nastera ai ajuns starea de sfintemie.
 
  Cursul 18
  Naturopatie
-Naturopatia este un sistem medical c omplet si coerent care pune accentul pe stimularea
+Naturopatia este un sistem medical complet si coerent care pune accentul pe stimularea
 mecanismelor naturale de autovindecare a corpului. Interventiile naturopatului se axeaza pe
 activarea, sustinerea si intarirea acestor mecanisme, decat pe tratarea simptomelor sau pe
-atacarea directa a age ntilor patogeni. Aceste interventii se .doresc.a.fi.pe.cat.posibil.noninvazive.
+atacarea directa a agentilor patogeni. Aceste interventii se .doresc.a.fi.pe.cat.posibil.noninvazive.
 
 Printre metodele utilizate cu precadere in naturopatie, se numara fitoterapia, dietoterapia,
 homeopatia, acupunctura, tehnicile de gestiune a stresului, etc.
@@ -1554,12 +1554,12 @@ Desi nu dispunem de studii clinice care sa demonstreze eficacitatea naturopatiei
 si metode tipic naturopatice - in special in domeniul dietoterapiei si fitoterapiei .si-
 au.dovedit.eficienta.terapeutica.
 
-O vizita la naturopat poate fi comparata cu un consu lt medical clasic. In general, naturopatul va
+O vizita la naturopat poate fi comparata cu un consult medical clasic. In general, naturopatul va
 pune intrebari legate de starea generala de sanatate, modul de viata, obiceiurile alimentare si
 nivelul de stres la locul de munca. In plus, el va incerca sa descopere cauzele profunde ale bolii
 sau afectiunii inainte de a interveni. De exemplu, o durere de cap recurenta nu va fi tratata cu
 medicamente analgezice. Inainte de a prescrie un tratament, naturopatul va cerceta originea
-durerii: o afectiune a sistemului muscular sau osos, o problema nutritionala (niv el scazut de
+durerii: o afectiune a sistemului muscular sau osos, o problema nutritionala (nivel scazut de
 glucide, de exemplu), lipsa de somn, stres excesiv, etc.
 Totalitatea practicilor care vizeaza ajutarea organismului sa se vindece de la sine
 prin.mijloace.exclusiv.naturale.
@@ -1573,7 +1573,7 @@ sau ceai.
 NATUROPATIA regrupeaza un ansamblu de tehnici naturale care au ca scop prevenirea sau lupta
 contra diverselor dezechilibre generate de viata noastra mondena. DIETETICA, arta restrictiilor
 
-alimentare si NUTRITIA, arta echilibrului alimenta r, formeaza o tehnica majora in
+alimentare si NUTRITIA, arta echilibrului alimentar, formeaza o tehnica majora in
 NATUROPATIE. Aceasta din urma nu ar putea sa existe fara actiunea primordiala a unei bune
 igiene alimentare. Acest an, in intregime on -line sau email, controlat prin numeroase teme, va
 permite sa obtineti cunostinte suficiente in acest domeniu.
@@ -1618,7 +1618,7 @@ mijloace.exclusiv.naturale.
 Naturopatia se bazeaza pe o teorie dupa care forta vitala a organismului permite acestuia sa se
 apere si sa se vindece spontan. Ea consta deci in intarirea reactiilor de aparare ale organismului
 
-prin diferite masuri de igiena (dietetica, post, de zvoltarea musculaturii prin exercitii fizice,
+prin diferite masuri de igiena (dietetica, post, dezvoltarea musculaturii prin exercitii fizice,
 relaxare, masaje, termalism, talazoterapie etc.), ajutate doar de agenti naturali (plante, ape, soare,
 aer curat etc.), un tratament medical nefiind necesar decat in caz de urgenta. Un naturopat poate
 recomanda astfel unui pacient sa consume mai mult salate si fructe proaspete, mai putina cafea
@@ -1627,9 +1627,9 @@ NATUROPATIE, s. f. / naturopathie, s. f. / naturopathy, na -turopathic medicine.
 naturd, gr. pathos = fioaia.} Sistem terapeutic care se bazeaza doar pe remedii naturale, ca aerul,
 apa, soarele si, eventual, unele metode kinetoterapice, fiind exclusa utilizarea medicamentelor.
 Adeptii considera ca organismul poate lupta impotriva maladiilor prin propriile mijioace,
-deoarece poseda o capacitate de v indecare naturala, aflata In stransa relatie cu forta sa vitala. In
+deoarece poseda o capacitate de vindecare naturala, aflata In stransa relatie cu forta sa vitala. In
 acest sens, bolile nu reprezinta nimic altceva decat efortui de vindecare exercitat de forta vitala si
-exprimat prin semne si sim -ptome care sunt barometrul acestei forte. Din punctui de v edere al
+exprimat prin semne si sim -ptome care sunt barometrul acestei forte. Din punctui de vedere al
 naturopatiei., suprimarea manifestarilor unei afectiuni acute precum gripa Inseamna eradicarea
 capacitatilor defensive proprii organismului .si,.in.consecinta,.inducerea. unei vulnerabilitati.
 Gripa sau bolile infectioase infantile sunt privite ca fenomene normale, prin care forta vitala
@@ -1637,10 +1637,10 @@ restabileste echilibrul organismului si amorseaza capacitatea sa de aparare. Dim
 considera ca vaccinoterapia interfera procesele sus -mentionate, slabind apararea si internalizand
 dezechilibrele, fapt argumentat de cresterea incidentei bolilor autoimune si neurodegenerative In
 zonele In care a fost introdusa vaccinarea. Naturopatiile isi bazeaza practica pe "legea
-vindecarii", potrivit careia procesul de vindecare, expresie a actiunii fortei vitale, evacuea za
+vindecarii", potrivit careia procesul de vindecare, expresie a actiunii fortei vitale, evacueaza
 maladia de la interior catre exterior si de sus In jos, simptomele disparand In ordinea inversa a
 aparitiei lor. Terapia nu urmareste eradicarea simptomelor, ci amplificarea fortei vitale In sensul
-dictat de aceste simptome prin alegerea remediilor spec ifice. In cursul tratamentului exista
+dictat de aceste simptome prin alegerea remediilor specifice. In cursul tratamentului exista
 posibilitatea aparitiei unor simptome noi sau revenirii altora mai vechi, De exemplu terapia unei
 afectiuni respiratorii implica posibilitatea aparitiei unei eczeme, fenomen care semnaleaza
 eficienta demersului datorit a superficializarii manifestarilor morbide, tratamentui nefiind .

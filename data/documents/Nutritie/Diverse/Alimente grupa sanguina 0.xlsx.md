@@ -17,7 +17,7 @@ column_count: 11
 - row_12: - Carne de gasca | - | - Hrisca | 0 | 10. Fructe | | - Curry | + | | |
 - row_13: - Ficat | + | - Mei | 0 | - Afine | 0 | - Cimbru | - | | |
 - row_14: - Carne de vita | + | - Faina de porumb | - | - Mere | 0 | - Scortisoara | - | | |
-- row_15: - Carne de iepure | 0 | - Fulgi de prorumb | - | - Ananas | 0 | - Zahar alb | 0 | | |
+- row_15: - Carne de iepure | 0 | - Fulgi de porumb | - | - Ananas | 0 | - Zahar alb | 0 | | |
 - row_16: - Carne de curcan | 0 | - Faina de secara | 0 | - Prune uscate | + | - Otet de vin alb | - | | |
 - row_17: - Slanina | - | - Paste cu spanac | - | - Banane | 0 | - Piper alb | - | | |
 - row_18: - Carne de vanat | + | - Fulgi de soia | - | - Lamai | 0 | - Piper negru macinat | - | | |

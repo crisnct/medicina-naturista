@@ -540,7 +540,7 @@ vede numai unul .
 |---|---|---|---|
 | Cataracta (opacifierea cristalinului) | Dupa boli ca: artrita, arterioscleroza, diabet, de obicei la batrani | Tulburari de vedere, colorarea cenusiu sau alb a pupilei | Igiena vederii, evitarea factorilor nocivi, ochelari de soare |
 | Glaucom | Cresterea tensiunii intraoculare | Reducerea campului vizual, dureri oculare, tulburari de vedere, pupile de culoare galben-verzui | Igiena vederii, evitarea factorilor nocivi, ochelari de soare |
-| Cojunctivita (inlamatia cojuctivei globului ocular) | Infectioasa / alergica | Inflamarea pleoapelor, roseata in jurul ochilor, secretie lacrimala, senzatie de corp strain in ochi | Igiena vederii, evitarea factorilor nocivi, ochelari de soare |
+| Cojunctivita (inflamatia cojuctivei globului ocular) | Infectioasa / alergica | Inflamarea pleoapelor, roseata in jurul ochilor, secretie lacrimala, senzatie de corp strain in ochi | Igiena vederii, evitarea factorilor nocivi, ochelari de soare |
 
 ### Analizatorul olfactiv
 
@@ -612,7 +612,7 @@ olfactiva este prea umeda sau prea uscata.Un exemplu il constituie guturaiul,can
 abundenta a mucoasei olfactive poate provoca disparitia temporara a senzatiei de miros.
 Sensibilitatea olfactiva reprezinta fenomenul de adaptare care consta in scaderea treptata,pana
 la disparitie,a intensitatii senzatiei olfactive pentru anumite substante care actioneaza timp
-indelungat saupra celulelor olfactive. Sensibilitatea olfactiva pentru aceste substante reapare
+indelungat asupra celulelor olfactive. Sensibilitatea olfactiva pentru aceste substante reapare
 insa daca excitarea receptorilor este intrerupta pentru o perioada de timp prin inlaturarea
 
 substantei excitante.Adaptarea este specifica pentru fiecare substanta in parte.
@@ -789,7 +789,7 @@ timpul contractiei. Neuronii motori ai fibrelor aferente gama sunt influentati d
 - **periferic** – organul lui Scarpa
 - **conducere** – protoneuron – ganglionul Scarpa
  - deutoneuronul - nucleii bulbari/axonii trimit colaterale
- - catre cerebel,scoarata cereb,nerv crani III IV VI
+ - catre cerebel,scoarta cereb,nerv crani III IV VI
  - al 3lea neuron – talamus
 - **central** – se presupune ca e localiz in lobul temporal
 

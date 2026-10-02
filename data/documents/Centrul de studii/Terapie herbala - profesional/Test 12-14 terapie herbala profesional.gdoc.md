@@ -17,7 +17,7 @@ Test herbalism profesional
 4. Alcatuiti o formula pentru o pulbere antispasmodica
  56g pulbere de gura-lupului
  56g de pulberebitter stomacal
- 28g pulbereradacinade Valeriana
+ 28g pulbere radacina de Valeriana
  7g pulbere deLobeliapraf
  7g scortisoara pudra
  7g de Cayenne

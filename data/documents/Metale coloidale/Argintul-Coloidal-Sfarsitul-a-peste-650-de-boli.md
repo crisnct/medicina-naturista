@@ -72,7 +72,7 @@ Noi obtinem argintul si toate metalele din corp prin alimentele pe care le manca
 
 Sanatatea umanitatii a beneficiat de proprietatile curative ale argintului pentru mii de ani. In Grecia si Roma antica, oamenii utilizau vase de argint pentru a pastra apa proaspata. Colonistii Americani din Vest adesea puneau o moneda de argint in lapte pentru a intarzia stricarea acestuia. La inceputul secolului, doctorii eliberau retete de nitrat de argint pentru tratarea ulcerelor de stomac, si era o practica comuna sa puna cateva picaturi de solutie de argint in ochii unui copil nou nascut pentru a distruge eventualele bacterii care ar fi putut provoca orbirea. Un compus al argintului, cunoscut sub numele de sulfadiazina a fost utilizata in 70% din centrele de arsi din U.S.A. Acest compus opreste actiunea virusului care provoaca herpesul. Nota: ***Nu argintul din plombele dentare este cel care este toxic ci mercurul care este o otrava mortala**.*
 
-**CARE ESTE ISTORIA ARGINTULUI COLIDAL?**
+**CARE ESTE ISTORIA ARGINTULUI COLOIDAL?**
 
 Acesta a fost larg utilizat cu 60, 70 de ani in urma cand, apoi, printre alte motive, costul acestuia a devenit prea ridicat -- aproximativ \$100 per 30 de grame, la valoarea dolarului din 1930. Antibioticele, realizate mult mai repede, cu actiune specifica si imediata au devenit predominante in anii 1940. Dar acum Argintul Coloidal poate fi preparat acasa, de catre oricine, la un pret foarte, foarte ieftin.
 

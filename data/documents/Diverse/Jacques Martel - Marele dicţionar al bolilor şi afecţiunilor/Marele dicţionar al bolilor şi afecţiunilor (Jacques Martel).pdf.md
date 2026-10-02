@@ -476,7 +476,7 @@ Stiu ca daca o tehnica era valabila pentru toata lumea,
 aceasta ar fi singura folosita. Dar nu este cazul, caci
 fiinta umana este animalul de pe planeta care are cele
 mai multe posibilitati dar si cea mai mare complexitate.
-Acesta e motivul pentru care trebuie sa incerc sa
+Acesta emotivul pentru care trebuie sa incerc sa
 inteleg de unul singur ceea ce traiesc ajutat de ceilalti,
 la nevoie, in domeniul respectiv competentei lor. Acelasi
 autor pe care l-am mentionat si mai sus scria o data:
@@ -2772,7 +2772,7 @@ exterioare.
 ## ARSURI LA STOMAC
 
 70. ARSURI LA STOMAC Vezi: STOMAC -
-ARSURILA STOMAC
+ARSURI LA STOMAC
 ## ARTERE
 
 71. ARTERE Vezi: SANGE - ARTERE
@@ -3235,7 +3235,7 @@ afectata. Este o suferinta sufleteasca, interiorizata de-a
 lungul vietii. Astenia se instaleaza pe mai multe niveluri
 [pe plan fizic si interior]; exista mai multe stari sau
 sentimente profunde care apar la suprafata: tristete,
-frica, emotivitate crescuta, remuscari fata de exeperiente
+frica, emotivitate crescuta, remuscari fata de experiente
 din trecut si chiar suparare. Refuz viata pe care o duc.
 Ma simt descurajat si nu vreau sa incep nimic. Chiar
 daca astenia, fie ca este somatica, psihica sau
@@ -3250,7 +3250,7 @@ pasiva, sa incerc sa evit efortul.
 
 84. ASTIGMATISM Vezi: OCHI - ASTIGMAT1SM
 
-[AFECTIUNILA...], RESPIRATIE
+[AFECTIUNI LA...], RESPIRATIE
 Astmul este o afectiune respiratorie, caracterizata
 printr-o dificultate de a respira, care poate duce la
 sufocare. In timpul unei crize de astm, reactia
@@ -5270,7 +5270,7 @@ inlocuiesc cu intelegere si deschidere a spiritului.
 ## CANCER LA INTESTINUL SUBTIRE
 
 183. CANCER LA INTESTINUL SUBTIRE Vezi:
-INTESTINUL SUBTIRE [DURERELA...]
+INTESTINUL SUBTIRE [DURERE LA...]
 ## CANCER LA LARINGE
 
 184. CANCER LA LARINGE Vezi: FUMAT, GAT
@@ -5420,7 +5420,7 @@ copil. Musc din viata cu toata pofta!
 ## CANCER LA PROSTATA
 
 193. CANCER LA PROSTATA Vezi: PROSTATA
-[DUREREDE...]
+[DURERE DE...]
 ## CANCER LA RECT
 
 194. CANCER LA RECT Vezi: INTESTINE - RECT
@@ -5698,9 +5698,9 @@ de a vedea si a evalua ceea ce se intampla si accept^ ♥
 iubirea, deschiderea si rabdarea din interiorul meu,
 precum si in cazul partenerului meu.
 
-## CANDID OZA VAGINITA
+## CANDIDOZA VAGINITA
 
-201. CANDID OZA Vezi: CANDIDA, INFLAMATII
+201. CANDIDOZA Vezi: CANDIDA, INFLAMATII
 VAGINITA
 
 CANDIDA, GAT, INFECTII
@@ -5819,7 +5819,7 @@ nivelul fruntii, are legatura cu o situatie la nivel
 profesional sau cu rolul meu pe plan social; daca
 durerea se situeaza la tample, in partile laterale ale
 capului, este afectata mai mult latura emotionala
-[familia, cuplul}. Indiferent care este cauza care t o
+[familia, cuplul}. Indiferent care este cauza caret o
 provoaca, durerea de cap, are legatura directa cu
 individualitatea mea si trebuie sa invat sa fiu mai
 
@@ -7218,9 +7218,9 @@ Accept ↓♥ sa am incredere in puterea divina din
 interiorul meu care ma conduce spre solutii ce ma vor
 ajuta sa-mi descopar adevaratul potential.
 
-## CREIERACCIDENT VASCULAR CEREBRAL
+## CREIER ACCIDENT VASCULAR CEREBRAL
 
-292. CREIERACCIDENT VASCULAR CEREBRAL
+292. CREIER ACCIDENT VASCULAR CEREBRAL
 
 GENERAL ] / ARTERE / CIRCULATIA SANGUINA,
 TENSIUNE ARTERIALA - HIPERTENSIUNE
@@ -11745,7 +11745,7 @@ mai mult adevarul prin aceasta cale de comunicare, cu
 atat mai mult voi comunica mai armonios cu cei din
 jurul meu.
 
-INFIAMATIA MUCOASELOR
+INFLAMATIA MUCOASELOR
 Cu ajutorul gatului imi inghit experientele
 emotionale si realitatea. Prin gat pot respira, pot bea si
 ma pot hrani. Gatul reprezinta puterea si forta mea
@@ -13433,7 +13433,7 @@ ceilalti si cu iubirea de care ma inconjor, ma voi elibera
 de aceasta durere si de nevoia de protectie.
 
 STRANUT, FEBRA, MUSCHI, RESPIRATIE,
-REPIRATIE [BOLI DE...], CAP [DURERE DE...]
+RESPIRATIE [BOLI DE...], CAP [DURERE DE...]
 Gripa defineste o stare cauzata de un virus care
 produce febra, frisoane, dureri de cap, dureri
 
@@ -15579,7 +15579,7 @@ interioara stie ce este mai bun pentru mine.
 ## INSUFICIENTA CARDIACA
 
 602. INSUFICIENTA CARDIACA Vezi: INIMA ♥
-[PROBLEMECARDIACE]
+[PROBLEME CARDIACE]
 
 COLON/LA INTESTIN/ COLITA/
 Intestinul este centrul absorbtiei si integrarii
@@ -17160,7 +17160,7 @@ Mancarimea vaginala este legata de sexualitate si de
 principiul feminin. Daca am o astfel de afectiune,
 inseamna ca exista ceva legat de relatiile mele sexuale,
 care ma deranjeaza, de exemplu partenerul meu ma
-grabeste. La fel ca si in celelate cazuri de mancarime,
+grabeste. La fel ca si in celelalte cazuri de mancarime,
 ma intreb ce anume ma irita, ma deranjeaza si ma
 agaseaza.
 Accept ↓♥ sa aflu cauza acestor mancarimi, invat sa
@@ -17294,7 +17294,7 @@ adevarat. Este tineretea inimii, nu a corpului.
 
 ## MENISC
 
-693. MENISC Vezi: GENUNCHI [DUREREDE...]
+693. MENISC Vezi: GENUNCHI [DURERE DE...]
 ## MENSTRUATIE-AMENOREE
 
 694. MENSTRUATIE-AMENOREE
@@ -19242,7 +19242,7 @@ viata. Astfel imi voi crea in mod liber viitorul.
 ## OBRAZ [a-si roade interiorul obrazului...]
 
 780. OBRAZ [a-si roade interiorul obrazului...]
-Vezi: GURA [AFECTIUNIALE...]
+Vezi: GURA [AFECTIUNILE...]
 ## OBSESIE
 
 781. OBSESIE
@@ -21121,7 +21121,7 @@ aspiratiile mele cele mai inalte.
 
 ## PAR [pierderea...]
 
-842. PAR [pierderea...] Vezi: PAR - CAL VITIE
+842. PAR [pierderea...] Vezi: PAR - CALVITIE
 
 [PIERDEREA...]
 Parul de pe corp are o dubla functie: de a proteja si
@@ -25298,7 +25298,7 @@ Am incredere in viata, care se ocupa sa imi procure
 toate lucrurile de care am nevoie. Imi ascult intuitia care
 imi dicteaza in ce directie sa aleg.
 
-INFIAMATIE, FRICA
+INFLAMATIE, FRICA
 Termenul de nefrita defineste, la modul general,
 ansamblul bolilor de rinichi. In acelasi timp, termenul se
 foloseste pentru a desemna o inflamatie a rinichilor
@@ -27253,7 +27253,7 @@ spre idei noi, astfel imi regasesc entuziasmul!
 ## SENECTUTE
 
 1070. SENECTUTE Vezi: BATRANETE
-[AFECTIUNIDE...]
+[AFECTIUNI DE...]
 ## SENILITATE
 
 1071. SENILITATE
@@ -27443,7 +27443,7 @@ timpul unei transfuzii de sange, printr-o seringa
 infectata sau o rana care intra in contact cu sangele
 infectat etc.] sau prin contact sexual. Glanda timus
 [situata in fata traheii] locul in care se formeaza celulele
-de tip T este afectata de boala si astfel energia inimii? si
+de tip Teste afectata de boala si astfel energia inimii? si
 intreg corpul vor fi afectate. Difuzarea celulelor infectate
 in lichidul extracelular, mai ales in sange, corespunde
 energiei emotionale. Sangele in legatura cu inima?
@@ -27596,9 +27596,9 @@ devine tot mai calma si mai luminoasa.
 
 1088. SINDROMUL IMUNODEFICIENTEI
 DOBANDITE Vezi: SIDA
-## SINDRMUL MARFAN
+## SINDROMUL MARFAN
 
-1089. SINDRMUL MARFAN
+1089. SINDROMUL MARFAN
 Boala de tip ereditar, care atinge fibrele tesutului
 conjunctiv, responsabil de anomaliile ocular si cardiac.
 Aceasta boala se intalneste la persoanele de talie inalta
@@ -30086,7 +30086,7 @@ iubire si voi avea relatii sanatoase si durabile.
 
 ## TARTRU
 
-1151. TARTRU Vezi: DINTI [AFCTIUNI ALE...]
+1151. TARTRU Vezi: DINTI [AFECTIUNI ALE...]
 ## TAIETURA
 
 1152. TAIETURA Vezi: ACCIDENT
@@ -30509,7 +30509,7 @@ TESTICULE [IN GENERAL]
 
 1173. TORTICOLIS Vezi: GAT - TORTICOUS
 
-FUMAT, COMPULSIE NERVOASA, DEPENDANTA,
+FUMAT, COMPULSIE NERVOASA, DEPENDENTA,
 DROGURI, PLAMANI [IN GENERAL]
 Toxicomania se caracterizeaza prin consumul abuziv
 de diverse, produse toxice, legale sau nu, printre care se
@@ -30620,9 +30620,9 @@ BUERGER [BOALA LUI...]
 
 1184. TROMBOZA CORONARIANA Vezi: INIMA ♥ -
 TROMBOZA CORONARIANA
-## TROMPA UTERINA [INFECTIAUNEI...] LSALPINGITA
+## TROMPA UTERINA [INFECTIA UNEI...] LSALPINGITA
 
-1185. TROMPA UTERINA [INFECTIAUNEI...] Vezi:
+1185. TROMPA UTERINA [INFECTIA UNEI...] Vezi:
 LSALPINGITA
 
 [AFECTIUNI ALE...]
@@ -31695,7 +31695,7 @@ schimbare.
 1216. URINA [INFECTII URINARE] SAU CISTITA
 
 GENERAL], LEUCOREE, VAGIN - VAGINITA, VEZICA
-[AFECTIUNIALE...]
+[AFECTIUNILE...]
 Urina simbolizeaza vechile mele emotii, de care nu
 mai am nevoie si pe care le elimin din sistemul meu. O
 inflamatie a vezicii urinare [cistita] provoaca o durere la
@@ -32139,7 +32139,7 @@ vindecarea mea.
 ## VERUCI [in general]
 
 1240. VERUCI [in general] Vezi: PIELE – VERUCI
-[INGENERAL]
+[IN GENERAL]
 ## VERUCI PLANTARE
 
 1241. VERUCI PLANTARE Vezi: PICIOARE -
@@ -32400,7 +32400,7 @@ ma respect pe mine insumi pentru ca si ceilalti sa ma
 respecte la randul lor. Doar daca voi experimenta
 iubirea, in fiecare gest pe care il fac, voi putea
 experimenta fericirea, in fiecare moment. Astfel, pot sa
-contribui la imbunatatitea constiintei familiei mele:
+contribui la imbunatatirea constiintei familiei mele:
 sentimentele de inferioritate, de neputinta, de victima,
 pe care le pot trai unii membri ai familiei mele, vor fi
 

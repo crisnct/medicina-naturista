@@ -28,7 +28,7 @@ Acum, dupa 40 de ani, putem vedea cata acuratete exista in spusele dr-lui. Day p
 
 "Acum putem trata aproape orice forma de cancer. Informatiile se gasesc in dosar la Institutul Rockefeller, daca se va decide vreodata ca sa fie dat publicitatii".
 
-Richard Day spunea ca lasand oamenii sa moara de cancer se va incetini cresterea numarului populatiei. "E ok.. oricum trabuie sa mori de ceva.. asa ca de ce sa nu fie cancer pana la urma urmei?" Cam asa gandesc acesti oameni care nu au suflet si de aceea fac ceea ce fac.
+Richard Day spunea ca lasand oamenii sa moara de cancer se va incetini cresterea numarului populatiei. "E ok.. oricum trebuie sa mori de ceva.. asa ca de ce sa nu fie cancer pana la urma urmei?" Cam asa gandesc acesti oameni care nu au suflet si de aceea fac ceea ce fac.
 
 Cartelurile farmaceutice (Big Pharma) nu au nici cea mai mica dorinta sa trateze cancerul cand ei castiga sume imense din vanzarile de medicamente, citostatice care trateaza doar niste simptome in acelasi timp omorand si celulele sanatoase si chiar si oamenii cu aceasta otrava -- chimioterapia. Dar nici macar nu este vorba de bani in primul rand. Familiile elitiste care conduc lumea, de fapt vor ca oamenii sa sufere si sa moara mai devreme decat le este vremea aceasta fiind o metoda de reducere a populatiei.
 
@@ -64,7 +64,7 @@ Frustrarile si tristetea lui din cauza a ceea ce vedea l-au determinat sa caute 
 
 *Cati oare mai trebuie sa sufere pana cand oamenii vor inceta sa se mai uite la medici ca la **zei a tot stiutori** realizand scara imensa a ignorantei care are loc?*
 
-Simoncini a realizat ca toate cancerele se comporta la fel indiferent de localizarea in corp. Toate cancerele au un numitor comun. El deasemenea a realizat ca toate tumorile canceroase sunt intodeauna albe.
+Simoncini a realizat ca toate cancerele se comporta la fel indiferent de localizarea in corp. Toate cancerele au un numitor comun. El deasemenea a realizat ca toate tumorile canceroase sunt intotdeauna albe.
 
 Ce altceva mai este alb? Candida.
 
@@ -112,7 +112,7 @@ Sistemul lor imunitar este acum mult slabit si este doar o chestiune de timp pan
 
 Chimioterapia de fapt, omoara oamenii pe care ar fi trebuit sa-i trateze.
 
-Cand Simoncini a realizat ca boala de cancer este de fapt o infectie sau infestare fungala, el a inceput sa caute ceva, o substanta care poate sa omoare aceasta ciuperca astfel inlaturand cancerul. El si-a dat seama ca medicamentele antifungale nu dau rezultate, pentru ca fungii pot muta foarte repede pentru a se apara si chiar incep sa se hraneasca cu medicametele prescrise care aveau scopul de a-i omora.
+Cand Simoncini a realizat ca boala de cancer este de fapt o infectie sau infestare fungala, el a inceput sa caute ceva, o substanta care poate sa omoare aceasta ciuperca astfel inlaturand cancerul. El si-a dat seama ca medicamentele antifungale nu dau rezultate, pentru ca fungii pot muta foarte repede pentru a se apara si chiar incep sa se hraneasca cu medicamentele prescrise care aveau scopul de a-i omora.
 
 !{width="2.5006944444444446in" height="2.5006944444444446in"}
 
@@ -134,7 +134,7 @@ El a fost supus unor campanii feroce de ridiculizare si condamnare duse de mijlo
 
 Organizatiile medicale spun ca declaratiile lui cu privire la bicarbonatul de sodiu sunt nebunesti si periculoase. Un medic Italian "de referinta", in mod exagerat a inclus bicarbonatul de sodiu in clasa drogurilor periculoase care pot cauza moartea si afectiuni grave in corp.
 
-In tot acest timp, milioane de pacienti mureau de cancer si care ar fi putut fi tratati in mod efficient. Dar acestor oameni, de la putere, nu le pasa.
+In tot acest timp, milioane de pacienti mureau de cancer si care ar fi putut fi tratati in mod eficient. Dar acestor oameni, de la putere, nu le pasa.
 
 !{width="2.2909722222222224in" height="2.908333333333333in"}
 
@@ -188,7 +188,7 @@ Test simplu pentru a verifica nivelul de Candida in corpul tau
 
 Pune seara un pahar cu apa pe noptiera unde dormi. Dimineata cand te trezesti, scuipa in pahar. Dar nu te forta sa aduni scuipat ci elimina doar ce ai, chiar daca este foarte putin.
 
-Lasa sa stea 2 minuate dupa care analizeaza continutul la lumina. Daca scuipatul ramane la suprafata sau se dizolva esti OK.
+Lasa sa stea 2 minute dupa care analizeaza continutul la lumina. Daca scuipatul ramane la suprafata sau se dizolva esti OK.
 
 Daca apa se tulbura ai indicator de prezenta Candidei.
 

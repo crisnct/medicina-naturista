@@ -11,7 +11,7 @@ Iti aduc la cunostinta ca oamenii de pe planeta se impart in 2 categorii:
 Asadar nici NU se pune problema organismului neinfestat.
 Suntem cu totii mult prea expusi, cu atat mai mult in aceste vremuri cu aer poluat, apa murdara si mancare infestata.
 Partea buna este ca…
-…daca ai un stil de viata sanataos si echilibrat, care-ti asigura un sistem imunitar puternic, corpul tau este capabil sa tina cat de cat sub control majoritatea parazitilor cu care te infestezi, INSA daca nu ai grija de sanatate, ai toate sansele ca mai devreme sau mai tarziu parazitii sa-ti produca o gramada de boli.
+…daca ai un stil de viata sanatos si echilibrat, care-ti asigura un sistem imunitar puternic, corpul tau este capabil sa tina cat de cat sub control majoritatea parazitilor cu care te infestezi, INSA daca nu ai grija de sanatate, ai toate sansele ca mai devreme sau mai tarziu parazitii sa-ti produca o gramada de boli.
 Legatura dintre Paraziti si BOLI
 Dupa mai multe experimente, cercetatoarea Hulda Clark a ajuns la concluzia ca multe din bolile cu care se confrunta omenirea in zilele noastre sunt produse de un anume parazit. Ea a scris si despre aceste descoperiri revolutionare in cartea “Vindecarea tuturor formelor de cancer” – pe care v-o recomand chiar daca nu aveti cancer.
 Cercetatoarea a descoperit in experimente ca:
@@ -20,7 +20,7 @@ Cercetatoarea a descoperit in experimente ca:
 + TOTI pacientii cu acnee rosacee erau puternic infestati cu parazitul Leishmania.
 + TOTI diabeticii aveau trematodul pancreatic al bovinelor – Eurytrema.
 + TOTI cei care sufera de migrene au nematodul Strongyloides.
-+ personele cu ASTM au ascarizii in plamani.
++ persoanele cu ASTM au ascarizii in plamani.
 + Multe persoane care fac infarct au viermi in inima(foto 2).
 + Parazitii care ajung la creier produc BOLI PSIHICE, in special schizofrenia
 + Persoanele care transpira excesiv noaptea sunt supra-infestate cu ascarazi.
@@ -56,18 +56,18 @@ Desi este cunoscut pentru calitatile anti-parazitare, anti fungice, anti bacteri
 Eu de exemplu in ultimii 2 ani n-am luat niciun medicament alopat, indiferent ca am avut ferba 39-40. De fiecare data cand racesc imi fac un suc de lamaie si mananc cativa catei de USTUROI. In acesti 2 ani n-am fost racit niciodata mai mult de 3 zile, iar tratamentul nu a dat niciodata gres.
 2. Argila
 Un alt supliment MIRACULOS. Si nu exageraz deloc. E unul din cele mai bune remedii pentru paraziti, insa are multe alte benefiii.
-Curata intreg oganismul de toxine si metale grele, purifica sangele, detoxifica ficatul, detoxifica intestinele, echilibreaza glandele endocrine, ajuta flora intestinala, are efect anti-depresiv si anti-stress, repara leziuniile din intreg tubul digestiv( de la gingivita, rosu in gat, gastrita, intestin iritabil…pana la hemoroizi), si foarte multe alte beneficii.
+Curata intreg organismul de toxine si metale grele, purifica sangele, detoxifica ficatul, detoxifica intestinele, echilibreaza glandele endocrine, ajuta flora intestinala, are efect anti-depresiv si anti-stress, repara leziuniile din intreg tubul digestiv( de la gingivita, rosu in gat, gastrita, intestin iritabil…pana la hemoroizi), si foarte multe alte beneficii.
 Administrare: Desi se gaseste si sub forma de capsule, eu recomand argila pulbere sau granule – care se lasa intr-o cana cu apa de seara pana dimineata. Dimineata se amesteca si se bea apa argiloasa tulbure.
 Nu uita ca Dumnezeu ne-a facut din tarana.
 3. Nuca de cocos
 Este plin internetul de articole despre beneficiile antiparazitare, antibacteriene si in special antifungice ale uleiului de cocos. Se poate consuma ulei de cocos natural, insa eu recomand nuca de cocos intreaga pentru rezultate mai bune.
-Tin minte ca am citit pe un forum despre unu baiat relativ sanataos, care a decis sa faca o cura de 2 saptamani cu ulei de cocos, deoarece auzise ca este sanatos. In timpul celor 2 saptamani ii s-a intamplat de 2 ori sa defecheze un pumn de viermi. Groaznic asa-i? )
+Tin minte ca am citit pe un forum despre unu baiat relativ sanatos, care a decis sa faca o cura de 2 saptamani cu ulei de cocos, deoarece auzise ca este sanatos. In timpul celor 2 saptamani ii s-a intamplat de 2 ori sa defecheze un pumn de viermi. Groaznic asa-i? )
 4. Seminte CRUDE de dovleac
-Aproximativ 50 de seminte de dovleac dimineata pe stomacul gol, era cura importiva parazitilor recomandata de regretatul Valeriu Popa.
+Aproximativ 50 de seminte de dovleac dimineata pe stomacul gol, era cura impotriva parazitilor recomandata de regretatul Valeriu Popa.
 Acest remediu are capacitatea sa omoare cele mai comune specii de paraziti.
 5. Fibrele vegetale
 Este esential sa elimini regulat materiile fecale.
-Constipatia(=neeliminarea fecalelor la mai mult de 48 de ore) duce inevitabil la dezvoltarea si inmultirea parazitilor, deoarece le oferi mediul perfect pentru devzoltare.
+Constipatia(=neeliminarea fecalelor la mai mult de 48 de ore) duce inevitabil la dezvoltarea si inmultirea parazitilor, deoarece le oferi mediul perfect pentru dezvoltare.
 Mai multe despre fibre am scris in articolul despre Detoxifierea Colonului 100% Natural.
 6. Probioticele si Prebioticele
 Flora intestinala este bareiera dintre parazitii, bacteriile daunatoare si virusii din intestin si restul organismului. O flora intestinala echilibrata si sanatoasa va lasa doar nutrientii necesari sa treaca in organism , blocand orice altceva.

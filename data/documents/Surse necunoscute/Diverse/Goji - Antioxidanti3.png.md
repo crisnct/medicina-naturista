@@ -19,7 +19,7 @@ fi sintetizati de organism, motiv pentru care trebuie procurati din alimente.
 acizi grasi - importanti pentru diete sanatoase, fiind necesari organismului deoarece ajuta la transportul oxigenului prin sange catre toate
 zonele corpului, contribuind la dezvoltarea si intarirea tesuturilor si deci, a organelor.
 ~ alte substante importante:
-* beta-sisterol - are efect antiimflamator si un rol semnificativ in scaderea nivelului de colesterol;
+* beta-sisterol - are efect antiinflamator si un rol semnificativ in scaderea nivelului de colesterol;
 * fisalina - intareste sistemul imunitar, are efect antiviral;
 * betaina - actioneaza benefic in caz de tulburari nervoase, imbunatateste memoria, protejeaza ficatul;
 * ciperona - are un rol important in controlul tensiunii arteriale;

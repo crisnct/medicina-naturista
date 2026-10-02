@@ -77,7 +77,7 @@ Ralph Abraham, Ph.D. Profesor de matematici,
 Universitatea California
 Autor al lucrarii Haos, Gaia, Eros
 
-uternica! Eleganta! Simpla! intr-un stil deopotriva ac-
+puternica! Eleganta! Simpla! intr-un stil deopotriva ac-
 cesibil si plin de inteles, Dr. Bruce Lipton ne ofera -
 nici mai mult, nici mai putin - „veriga lipsa" dintre viata
 sl constiinta. Astfel, el afla raspuns la cele mai vechi intre-
@@ -384,7 +384,7 @@ dintre aceia care isi cautau propria putere. iti multu-
 mesc, dragul meu frate.
 Aceste multumiri nu ar fi complete, fara un
 multumesc foarte special adresat tie, Margaret Horton.
-Margaret a fost forta propulsoare din spatele scenei, care
+Margareta fost forta propulsoare din spatele scenei, care
 a impulsionat scrierea si materializarea acestei carti.
 Orice as scrie si as spune, draga mea., totul a fost facut
 cu iubire pentru tine!
@@ -530,7 +530,7 @@ Aceste informatii sunt foarte puternice. Stiu ca
 sunt. Viata pe care am creat-o, folosindu-le, este mult mai
 bogata si plina de satisfactii - si nu mai pierd vremea,
 intrebandu-ma: JDaca as putea sa fiu oricine, cine as
-mea safiu?" Pentru ca acum, raspunsul e foarte simplu.
+mea safiu?" Pentru ca acum, raspunsule foarte simplu.
 Vreau sa fiu eu\
 
 INTRODUCERE
@@ -627,7 +627,7 @@ rit intunecat abia daca putea fi deslusita pe sectiunile de
 
 Bruce H. Lipton, iJn.u
 plastic, marite de aproximativ treizeci de ori fata de di-
-mensiunea lor initiala.
+tensiunea lor initiala.
 Apoi, treptat, imaginea s-a amplificat si mai mult.
 Mai intai de o suta de ori, apoi de o mie de ori, apoi de
 zece mii de ori. Cand am ajuns, in sfarsit, la limita de
@@ -1849,7 +1849,7 @@ recent, disperseaza aceste amintiri, influentand astfel su-
 pravietuirea tuturor organismelor care formeaza comu-
 nitatea de viata. Acum, ca suntem constienti de acest
 mecanism de transfer genetic intre si in interiorul spe-
-ciilor, pericolele ingineriei genetice devi^i foarte clare.
+cailor, pericolele ingineriei genetice devi^i foarte clare.
 De exemplu, modificarea genelor unei rosii s-ar putea sa
 nu se opreasca la rosia respectiva, ci sa afecteze intreaga
 biosfera, in moduri pe care nu le putem prevedea. Deja
@@ -1885,7 +1885,7 @@ lutia devine o chestiune de supravietuire a grupurilor
 celor mai pregatite - mai degraba decat a indivizilor ce-
 lor mai pregatiti. intr-un articol din 1998, din revista
 Nature, Lenton scria ca, mai degraba decat sa ne concen-
-tram pe indivizi si pe rolul acestora in evolutie „...
+trampe indivizi si pe rolul acestora in evolutie „...
 Trebuie sa luam in considerare totalitatea organismelor
 si mediul lor material, pentru a intelege pe deplin care
 trasaturi vor persista si vor domina".
@@ -1920,7 +1920,7 @@ pe la spate, mai mult decat o gramada de avocati. Ei man-
 ifesta din plin lupta darwiniana, incercand din rasputeri
 sa fie „cel mai tare" care va ajunge impleticindu-se pana
 la absolvire, dupa patru ani istovitori la medicina. Fara
-ibdoiala ca goana incapatanata dupa note impresionante,
+indoiala ca goana incapatanata dupa note impresionante,
 fara a-i baga in seama pe ceilalti studenti din jurul tau,
 urmeaza un model darwinian - insa mie mi s-a parut
 intotdeauna o goana ciudata, pentru niste oameni care se
@@ -1941,7 +1941,7 @@ Pana la urma, a fost si un bonus: un sfarsit fericit, ca
 la Hollywood. La examenul final, le-am dat studentilor
 mei exact acelasi test ca si cel pe care il dadusem celor de
 la Wisconsin. Practic, nu exista nicio diferenta intre per-
-formanta acestor „rebuturi" si omologii lor „de elita", din
+formata acestor „rebuturi" si omologii lor „de elita", din
 State. Ulterior, multi dintre studenti mi-au relatat ca, atun-
 ci cand s-au dus acasa si s-au intalnit cu colegi care urma-
 sera cursurile facultatilor de medicina americane, au
@@ -1984,7 +1984,7 @@ care imi clarificase felul de a intelege si de a vedea celu-
 lele si lectiile pe care acestea le dau oamenilor, eram deja
 pe drumul catre un mod de a intelege Noua Biologie,
 care lasa in urma defetismul programarii genetice si pa-
-rentale, impreuna cu darwinismul, in-care-supravietu-
+renale, impreuna cu darwinismul, in-care-supravietu-
 ieste-cel-mai-puternic.
 
 ESTE VORBA DESPRE MEDIU,
@@ -2298,7 +2298,7 @@ itiva in exces. Cum sarcinile pozitive si cele negative se
 atrag, aminoacizii din coloana vertebrala se vor roti in
 jurul legaturilor lor, astfel incat terminatiile pozitive si
 cele negative sa fie mai aproape unele de altele. Figura
-C arata schimbarea proteinei de la conformatia A, la
+Carata schimbarea proteinei de la conformatia A, la
 conformatia B. Modificarea de conformatie genereaza
 miscare, iar miscarea este utilizata pentru a face anu-
 mite lucrari, alimentand functii cum ar fi digestia, res-
@@ -3455,7 +3455,7 @@ tie, organismele unicelulare au fost singurele organisme
 existente pe planeta.
 Aceasta situatie s-a schimbat, numai atunci cand ce-
 lulele au inventat un alt mod de a-si mari gradul de con-
-stienta. Pentru a deveni mai inteligente, celulele au ince-
+stiinta. Pentru a deveni mai inteligente, celulele au ince-
 put sa se lege unele cu altele, pentru a forma comunitati
 pluricelulare, prin care sa poata avea o constienta co-
 muna, asa cum am explicat in Capitolul 1.
@@ -4581,7 +4581,7 @@ Vibratii bune, vibratii proaste
 si limbajul energiei
 Desi medicina conventionala inca nu s-a concen-
 trat pe rolul pe care il joaca, in sistemele biologice, ener-
-gia ca „informatie", e o ironie faptul ca ea a imbratisat
+giaca „informatie", e o ironie faptul ca ea a imbratisat
 tehnologii de scanare neinvazive, care citesc astfel de
 campuri de energie. Fizicienii specialisti in fizica cuan-
 tica au creat dispozitive de scanare a energiei, care pot
@@ -4772,7 +4772,7 @@ Medicala Americana a fost declarata vinovata de tenta-
 tive ilegale de a distruge profesiunea chiropracticii. De
 atunci, chiropractica si-a largit sfera de influenta, fiind
 acceptata chiar si in unele spitale. in ciuda trecutului pa-
-tat al electroterapiei, specialistii in neurologie desfasoa-
+tatal electroterapiei, specialistii in neurologie desfasoa-
 ra noi proiecte de cercetare foarte incitante, in dome-
 niul terapiilor energetice vibrationale.
 Creierul a fost recunoscut de multa vreme ca fiind
@@ -4805,7 +4805,7 @@ tesc mediul, evaluand campuri de energie. Pentru ca oa-
 menii depind atat de mult de limbajul vorbit si scris, noi
 ne-am neglijat sistemul de comunicare prin care simtim
 energia. La fel ca si in cazul oricarei functii biologice,
-neutilizarea duce la atrofiere. Interesant e ca aborigenii
+neutilizarea duce la atrofiere. Interesante ca aborigenii
 inca isi mai folosesc aceasta capacitate hipersenzoriala,
 in viata de zi cu zi. Pentru ei nu a existat nicio atrofiere
 „senzoriala". De exemplu, aborigenii din Australia pot sa
@@ -5038,11 +5038,11 @@ bila putere a mintii noastre si a modului in care cerce-
 tarile mele legate de celule mi-au dezvaluit revelatii
 despre reteaua de cai minte-corp din organismul nostru,
 trebuie sa specific foarte clar faptul ca nu cred ca doar
-gandind, pur si simplu, nistej>aiiduri poziiive^sejJoate
+gandind, pur si simplu, nistej>aiiduri pozitive^sejJoate
 
 Bruce H. Lipton, Ph.D
 ajunge la vindecari fizice. Este nevoie de ceva mai mult
-deeaCgandirea pozjtiva"^ervtrujy3eft asu-
+deeaCgandirea pozitiva"^ervtrujy3eft asu-
 h pracorpului si vietii voastre. Este important, pentru sa-
 "ftaratea si Duna:starea voastra, sa va transferati energia
 mintii catre ganduri pozitive, generatoare de viata si sa
@@ -5226,7 +5226,7 @@ indepartate, mai ales in mediul din afara intregului orga-
 nism. Oare o celula de ficat care traieste ingropata in
 viscere si reactioneaza la semnalele din mediul ei local,
 poate sa elaboreze o reactie informata cu privire la con-
-secintele aparitiei unui talhar in mediul vostru? Comple-
+semintele aparitiei unui talhar in mediul vostru? Comple-
 xele strategii de control comportamental, necesare pen-
 tru a asigura supravietuirea unei organizatii pluricelu-
 lare, sunt incorporate in sistemul sau centralizat de pre-
@@ -5304,7 +5304,7 @@ pot reactiona la perceptii senzoriale simple - cum ar fi
 
 Bruce H. Lipton, Ph.D
 rosu, rotund, aromat, dulce - puterea suplimentara dis-
-ponibila in creierul animalelor pluricelulare le da posibi-
+posibila in creierul animalelor pluricelulare le da posibi-
 litatea sa combine aceste senzatii simple, la un nivel supe-
 rior de complexitate si, astfel, sa perceapa un „mar".
 Comportamentele reflexe fundamentale, doban-
@@ -5314,7 +5314,7 @@ mai mari, cu o populatie de celule neuronale mai mare,
 le-a oferit organismelor oportunitatea sa nu se bazeze
 doar pe comportamente instinctive, ci sa invetg_sj din ex-
 perientele de viata. invatarea de comportamente reflexe
-noi este7 inesenta, unprodus al conditionarii. Astfel, sa
+noi este7 in esenta, un produs al conditionarii. Astfel, sa
 luam exemplul clasiC al lui Pavlov, care si:a dresat cainii
 sa saliveze la auzul sunetului de clopotel. Mai intai i-a
 dresat sunand din clopotel si cupland stimulul acela cu
@@ -6142,7 +6142,7 @@ concrete, pe care sa le putem identifica cu usurinta, sa
 reactionam la ele si sa trecem mai departe. in mod con-
 stant suntem asaltati de o multitudine de griji de nere-
 zolvat cu privire la viata noastra personala, la locul nos-
-tru de munca si la comunitatea noastra planetara, sfasia-
+trude munca si la comunitatea noastra planetara, sfasia-
 ta de razboaie. Astfel de griji nu ne ameninta supravietui-
 rea imediata, insa tot pot sa activeze axa HPS si sa pro-
 voace un nivel cronic ridicat al hormonilor de stres.
@@ -6227,7 +6227,7 @@ tructorii ridica locuinte noi, bacaniile vand alimente, iar
 copiii sunt la scoala si invata. Comunitatea este intr-o
 
 stare buna de sanatate si dezvoltare, iar membrii ei inte-
-ractioneaza in mod constructiv, angajati pentru un
+actioneaza in mod constructiv, angajati pentru un
 obiectiv comun.
 Dintr-o data, sunetul unei sirene de raid aerian zgu-
 duie orasul. Toata lumea opreste lucrul si o ia Ia goana,
@@ -7479,7 +7479,7 @@ Remarcati ca nu spun ca parintii trebuie sa citeasca
 o gramada de carti despre cum sa fie parinti. Am intalnit
 o multime de oameni care, la nivel intelectual, sunt
 atrasi de ideile pe care le prezint in aceasta carte. insa in-
-teresul intelectual nu este suficient. Asta am incercat si
+terenul intelectual nu este suficient. Asta am incercat si
 eu. La nivel intelectual, eram perfect constient de tot ce
 este scris in aceasta carte, dar aceste informatii nu au
 avut niciun impact asupra vietii mele, inainte ca eu sa
@@ -7903,7 +7903,7 @@ fel ca si in analogia cu televizorul, in cazul in care corpul
 
 meu moare, iar in viitor se va naste un alt individ (un alt
 „televizor" biologic), care are exact acelasi set de recep-
-tori de identitate, acest nou individ ma va,capta'/*? mine.
+toride identitate, acest nou individ ma va,capta'/*? mine.
 Voi fi prezent in lume, inca o data. Atunci cand corpul
 meu fizic moare, transmisiunea ramane. Identitatea mea
 este o semnatura complexa, continuta in vasta informatie
@@ -7936,7 +7936,7 @@ inimii noastre, n.t
 Bruce H. Lipton, Ph.D
 ruri legate de o crima, dupa un transplant de inima. Vi-
 sele ei erau atat de reale, incat au dus la capturarea uci-
-gasului care il ucisese pe donator.
+gatului care il ucisese pe donator.
 O teorie despre modul in care aceste noi comporta-
 mente sunt implantate in cel care primeste transplantul,
 odata cu organul, este „memoria celulara", adica ideea ca
@@ -7973,11 +7973,11 @@ din tot spectrul, noi reprezentam cu totii o mica parte
 din intreg... o mica parte din Dumnezeu.
 Sonde spatiale pentru studierea Pamantului
 Analogia cu televizorul este utila, dar nu este com-
-pleta, pentru ca televizorul e doar un dispozitiv de re-
+pleta, pentru ca televizorule doar un dispozitiv de re-
 dare. in decursul vietii, ceea ce facem, modifica mediul.
 Noi modificam mediul, prin simplul fapt ca suntem aici.
 Astfel ca, un mod mai complet de a intelege relatia noas-
-tra cu Spiritul este prin compararea unui om cu vehicu-
+tracu Spiritul este prin compararea unui om cu vehicu-
 lele robotice „Spirit" sau „Opportunity", trimise catre
 Marte, sau cu alte sonde NASA, trimise pe Luna si pe
 Marte. Oamenii inca nu sunt capabili sa ajunga fizic pe
@@ -8178,7 +8178,7 @@ dvis, cu atat sandvisul va fi mai destept. Cine are o capa-
 citate de inteligenta mai mare - o felie de paine de seca-
 ra cu seminte, sau o bucala mare dc paine de aluat dos-
 pit? Raspunsul este simplu: cu cat e mai mare suprafata
-painii, cu atat e mai mare numarul de masline care pot fi
+painii, cu atate mai mare numarul de masline care pot fi
 puse pe sandvis. in analogie cu constienta biologica - cu
 cat suprafata membranei este mai mare, cu atat celula
 poate sa aiba mai multe „masline" proteine. Atunci, evo-
@@ -8538,7 +8538,7 @@ Balter, M. (2000). „Was Lamarck Just a Little Bit Right?" Science 288:38.
 Blanden, R V. °i E. J. Steele (1998). ,A unifying hypothesis for the
 molecular mechanism of somatic mutation and gene conversion in rearranged
 immunoglobulin variable genes." Immunology and Cell Biology 76(3):288.
-Boucher, Y., C. J. Douady, et al. (2003). „Lateral Gene Transfer and the
+Boucher, Y., C. J. Douady, et al. (2003). „Lateral Gene Transferand the
 Origins of Prokaryotic Groups." Armual Review of Genetics 37:283-328.
 Darwin, Charles (1859) (Publicata original de Chaiies Murray in 1859,
 Londra) The Origin of Species by Means of Natural Selection: or The
@@ -8548,7 +8548,7 @@ Desplanque, B., N. Hautekeete, et al. (2002). „Transgenic weed beets:
 possible, probable, avoidableT Journal of Applied Ecology 39(4):561-571
 Diaz, M. °i P. Casali (2002). „Somatic immunoglobulin hypermutation."
 Current Opinion in Immunology 14:235-240.
-Dutta, C. °i A. Pan (2002). „H orizontal gene transfer and bacterial diversity."
+Dutta, C. °i A. Pan (2002). „H orizontal gene transferand bacterial diversity."
 Journal of Biosciences (Bangalore) 27 (1 Supliment 1): 27-33.
 Geaihart, P. J. (2002). „The roots of antobody diversity." Nature 419:29-31,
 

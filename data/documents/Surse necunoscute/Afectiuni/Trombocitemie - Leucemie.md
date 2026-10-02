@@ -6,7 +6,7 @@
 
 **legume recomandate**: rosii,salata, **[urzici]{.underline}**, marar, [patrunjel]{.underline}, **[leustean]{.underline}** ,spanac, [stevie,]{.underline} ceapa.
 
-**fructe recomadate**: [kiwi]{.underline}, [piersici]{.underline}, [caise uscate]{.underline}, [coacaze uscate]{.underline}, [curmale]{.underline}, smochine, [stafide]{.underline}, mere, lamai.
+**fructe recomandate**: [kiwi]{.underline}, [piersici]{.underline}, [caise uscate]{.underline}, [coacaze uscate]{.underline}, [curmale]{.underline}, smochine, [stafide]{.underline}, mere, lamai.
 
 **cereale**: cel mai recomandat este a se consuma fierte (grau+porumb+ovaz+secara); alt mod de folosire este urmatorul: se fac turte din faina de grau, orez, secara si se lasa la uscat. Dintre toate tipurile de paine existente in comert sunt recomandate cele de tip graham, secara si integrala. Painea alba este total contraindicata !
 

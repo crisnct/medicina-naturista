@@ -4,7 +4,7 @@ Dieta ketogenica cere ca din totalul caloriilor zilnice 65% sa provina din grasi
 
 Acestia ajung in sange, sunt tranferati in mitocondrie – uzina energetica a celulei, unde sunt oxidati si se formeaza ketone, pe care le poate folosi organismul pentru energie.
 
-Dieta keto este utila ca tratament in sindromul metabolic, steatoza hepatica, diabet de tip II, dislipidemie, epilepsie, Parkinson, scleroza multipla, Alzheimer, poate previni cancerul conform unor studii recente.
+Dieta keto este utila ca tratament in sindromul metabolic, steatoza hepatica, diabet de tip II, dislipidemie, epilepsie, Parkinson, scleroza multipla, Alzheimer, poate preveni cancerul conform unor studii recente.
 
 Alimente permise:
 

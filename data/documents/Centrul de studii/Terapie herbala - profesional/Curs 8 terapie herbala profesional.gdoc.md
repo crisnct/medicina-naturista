@@ -137,7 +137,7 @@ Caracteristicile de crestere: Anual, creste in reziuduri si turbarii, pajisti, p
 
 Colectarea:Aduna in iulie, cand este in floare.
 
-Plante surori:Semintele de in (Linum usitatissimum, Linaceae), seminte coapte uscate: tuse, bronsita, membranele mucoase inflamate (respiratorii, digestive si ale organelor urinare), iritatie renala si vezicala, guturai, dizenterie, pietris, un decoct din ulei e foarte bun pentru clisme, tuse, astm,pleurezie, etc, foloseste uleiul pentru arsuri, arsuri, hemoroizi, laxativ (corectie pentru purgative), erizipel, suprafete iritate etc; cataplasma cu coaja de ulm(Ulmus rubra, U.fulva) si seminte de Lobelia (Lobelia inflata) pentru ulcere, abcese,glande marite, umflaturi, pneumonie, tumori, abcese, rani vechi. Cand e conservat neglijent este supus atacului insectelor, acesta ar trebui sa fie utilizat dupa un an pentru cele mai bune rezultate. Semintele au randament de 30-40% in ulei de in si aproximativ 6% mucilagiu.
+Plante surori:Semintele de in (Linum usitatissimum, Linaceae), seminte coapte uscate: tuse, bronsita, membranele mucoase inflamate (respiratorii, digestive si ale organelor urinare), iritatie renala si vezicala, guturai, dizenterie, pietris, un decoct din uleie foarte bun pentru clisme, tuse, astm,pleurezie, etc, foloseste uleiul pentru arsuri, arsuri, hemoroizi, laxativ (corectie pentru purgative), erizipel, suprafete iritate etc; cataplasma cu coaja de ulm(Ulmus rubra, U.fulva) si seminte de Lobelia (Lobelia inflata) pentru ulcere, abcese,glande marite, umflaturi, pneumonie, tumori, abcese, rani vechi. Cand e conservat neglijent este supus atacului insectelor, acesta ar trebui sa fie utilizat dupa un an pentru cele mai bune rezultate. Semintele au randament de 30-40% in ulei de in si aproximativ 6% mucilagiu.
 
 # SENNA Alexandria sau Nubian (Cassia acutifolia, C. Senna;C. emolient, C. officinalis, C. aethiopica, C. Orientalis, LEGUMINOSAE(CAESALPINIOIDEAE subfamilia)SENNA, East Indian sau TINNEVELLY (Cassia angustifolia;C. alungit, C. Medica, LEGUMINOSAE (subfamilia CAESALPINIOIDEAE)
 
@@ -159,7 +159,7 @@ Pulbere: verde deschis.
 
 Flori Alexandria: mari, galbene, grupate la apex.
 
-East Indian: similiare cu cele ale alexandriei.
+East Indian: similare cu cele ale alexandriei.
 
 Fructe Alexandria: Putine, leguminoase, 2 cm lungime, 3/4 inch latime, subtiri, in general eliptice, in forma de rinichi , de culoare verde inchis, membranoase, netede, 6-7unicelulare, fiecare cu o samanta in forma de inima, de culoare cenusie. East Indian: similare cu cele ale Alexandriei, cu exceptia faptului ca sunt mai lungi si mai inguste, mai inchise si au o baza proeminenta pe marginea superioara.
 

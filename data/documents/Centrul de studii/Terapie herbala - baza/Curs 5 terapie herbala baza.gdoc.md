@@ -18,7 +18,7 @@ Actiune: Aceste alge marine sunt bogate in iod si alte minerale. Ele au fost fol
 
 Ca tonic este bun pentru conditii caracterizate prin tembelism, congestie si ceea am descris deja ca fiind conditii de frig.
 
-Metoda: Acesta este disponibil in magazinele naturiste, sub forma de comprimate. Cu toate acsetea, nu se da un tratament prelungit. Se ia maxim o luna , facand apoi o pauza de cel putin inca o luna. Pot fi luate pana la trei tablete pe zi, in doza de 5-10 grame echivalentul plantei uscate. In constipatie, extractul praf poate fi luat intr-o doza de 5ml , pana la trei linguri pe zi.
+Metoda: Acesta este disponibil in magazinele naturiste, sub forma de comprimate. Cu toate acestea, nu se da un tratament prelungit. Se ia maxim o luna , facand apoi o pauza de cel putin inca o luna. Pot fi luate pana la trei tablete pe zi, in doza de 5-10 grame echivalentul plantei uscate. In constipatie, extractul praf poate fi luat intr-o doza de 5ml , pana la trei linguri pe zi.
 
 ### Lemnul dulce (Glycyrrhiza glabra)
 

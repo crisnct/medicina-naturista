@@ -250,7 +250,7 @@ Poate laptele matern sa creasca inteligenta?
 
 Se pare ca da. Intr-un studiu remarcabil publicat in revista “Lancet” in 1992 (Vol. 339, p. 261-4), un grup de cercetatori englezi , a pus la intamplare bebelusi prematuri in doua grupuri. Un grup a primit o formula speciala pentru bebelusi , iar celalalt lapte matern. Amandoua fluidele au fost administrate prin tub stomacal. Acesti copii au fost supravegheati timp de 10 ani, iar copii hraniti cu lapte matern au punctat in testele de inteligenta cu 10 puncte mai mult decat ceilalti. Multe alte studii facute pe aceasta tema au scos la iveala deficienta laptelui de vaca in acizii grasi esentiali, necesari pentru dezvoltarea neurologica a noilor nascuti. Astfel in 1982, Ralph Holman a descris un caz in care un bebelus care era hranit intravenos cu lichide ce contineau numai acid linoleic prezenta probleme neurologice grave, pana cand i s-a administrat si acid alpha linoleic, iar atunci problemele au disparut.
 
-Multi sunt cei care cred ca datorita pasteurizarii, laptele devine curat si sigur de consumat. Cel mai bun contraexemplu vine din experimentul facut de doctroul John Thomson din Edinburgh, ilustrat in cartea “Hrana este cel mai bun medicament” scrisa de cunoscutul doctor Henry Bieler .Astfel , Thomson a studiat efectele laptelui pasteurizat pe doi vitei gemeni. Pe unul l-a hranit exclusiv cu lapte pasteurizat iar pe celalalt l-a lasat sa suga lapte de la mama sa. Rezultatul? Cel care a supt de la mama sa a crescut puternic si sanatos, iar cel hranit cu lapte pasteurizat a murit in 60 de zile. Din pacate pentru vitei dar mai ales pentru noi, acest rezultat s-a repetat si in alte experimente.
+Multi sunt cei care cred ca datorita pasteurizarii, laptele devine curat si sigur de consumat. Cel mai bun contraexemplu vine din experimentul facut de doctorul John Thomson din Edinburgh, ilustrat in cartea “Hrana este cel mai bun medicament” scrisa de cunoscutul doctor Henry Bieler .Astfel , Thomson a studiat efectele laptelui pasteurizat pe doi vitei gemeni. Pe unul l-a hranit exclusiv cu lapte pasteurizat iar pe celalalt l-a lasat sa suga lapte de la mama sa. Rezultatul? Cel care a supt de la mama sa a crescut puternic si sanatos, iar cel hranit cu lapte pasteurizat a murit in 60 de zile. Din pacate pentru vitei dar mai ales pentru noi, acest rezultat s-a repetat si in alte experimente.
 
 Oua
 
@@ -376,11 +376,11 @@ se vor consuma 1 pana la 3 lingurite pe zi
 
 Planul alimentar dupa detoxifiere
 
-Daca vei continuasa consumi alimente procesate cu multi aditivi alimentari sau bauturi racoritoare nu te vei alege cu niciun beneficiu de pe urma curei de detoxifiere. Este momentul sa aplici cateva reguli de alimentatie sanatoasa care merita mentinute pe toata perioada vietii. Le stii cu siguranta pe cateva dintre ele, insa nu te-ai ambitionat suficient pana acum ca sa le si respecti\!
+Daca vei continua sa consumi alimente procesate cu multi aditivi alimentari sau bauturi racoritoare nu te vei alege cu niciun beneficiu de pe urma curei de detoxifiere. Este momentul sa aplici cateva reguli de alimentatie sanatoasa care merita mentinute pe toata perioada vietii. Le stii cu siguranta pe cateva dintre ele, insa nu te-ai ambitionat suficient pana acum ca sa le si respecti\!
 
 Poti consuma:
 
-fructe (crude, congelate, uscate, suc prosapat stors in casa);
+fructe (crude, congelate, uscate, suc proaspat stors in casa);
 
 legume si leguminoase (crude, congelate, conservate in apa);
 

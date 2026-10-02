@@ -123,7 +123,7 @@ Administrare: 1-5 lingurite x 2-3 ori / zi
 
 \- sirop de Hrean
 
-\- tincura de Coada-calului, Propolis
+\- tinctura de Coada-calului, Propolis
 
 \- ulei volatil de Musetel, Cimbru
 
@@ -193,7 +193,7 @@ Acnee. Recomandari
 
 Dureri de spate. Recomandari
 
-\- se palica o pasta facuta din Ghimbir si apa, iar apoi se unge pielea cu ulei de Eucalipt
+\- se aplica o pasta facuta din Ghimbir si apa, iar apoi se unge pielea cu ulei de Eucalipt
 
 ## Raceala. Recomandari
 
@@ -467,7 +467,7 @@ Clorul
 
 Zincul
 
-\- favorizeaza difestia si sinteza proteinelor
+\- favorizeaza digestia si sinteza proteinelor
 
 \- participa la formarea si degradarea depozitelor de glucoza
 
@@ -811,7 +811,7 @@ Vitamina A
 
 \- este utila pentru cresterea in greutate
 
-\- in prezenta colinei se accelereaza consumarea de pozitului de vitamina A din ficat
+\- in prezenta colinei se accelereaza consumarea depozitului de vitamina A din ficat
 
 \- uleiul de Catina contine o foarte mare cantitate de vitamina A
 
@@ -1143,7 +1143,7 @@ Recomadari culinare:
 
 \- fructele se vor consuma numai pe stomacul gol
 
-\- dulciurile provoaca neliniste si agitatie; este recomandat a se consuma numaiatunci cand se depune un efort fizic mai mare; sunt incompatibile cu proteinele
+\- dulciurile provoaca neliniste si agitatie; este recomandat a se consuma numai atunci cand se depune un efort fizic mai mare; sunt incompatibile cu proteinele
 
 Glicerina:
 
@@ -1705,7 +1705,7 @@ Caisele
 
 Visinele
 
-\- sunt utile in anemie, coinstipatie, boli de plamani, dizenterie
+\- sunt utile in anemie, constipatie, boli de plamani, dizenterie
 
 Capsunile
 
@@ -1999,7 +1999,7 @@ ziua\~d\~p\~s
 
 11\~25\~25\~25
 
-Dupa 11 zile se reia tratamentul si se procedeaza similar pana la terminarea cantitatii de tinctura. Picaturile se iau ianinte de masa cu un sfert de ora.Cura se poate repeta peste 5 ani.
+Dupa 11 zile se reia tratamentul si se procedeaza similar pana la terminarea cantitatii de tinctura. Picaturile se iau inainte de masa cu un sfert de ora.Cura se poate repeta peste 5 ani.
 
 Acest tratament curata organsimul de depozitele de lipide si calciu, iar vasele sanguine devin mai elastice prin scaderea colesterolului LDL
 

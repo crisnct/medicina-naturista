@@ -20,7 +20,7 @@ In formele toxico-septice de scarlatina :
 
 b). Tratament patogenic
  – in formele severe, hipertoxice, se asociaza
-antibioterapiei, corticoterapie (hemisuccinat de hidrocor tizon 10 mg/kg/zi sau
+antibioterapiei, corticoterapie (hemisuccinat de hidrocortizon 10 mg/kg/zi sau
 dexametazona 0,→ mg/kg/zi), imunoglobuline standard.
 
 c). Tratament simptomatic
@@ -87,7 +87,7 @@ RUJEOLA
 Pulmonare Ex. ORL in erupul rujeolic, otite
 - Punctie lombara in encefalita rujeolica, examen de
 fund de ochi, examen neurologic
-- Examen oftalmologic in cazul aparitiei complicatiilo r
+- Examen oftalmologic in cazul aparitiei complicatiilor
 oculare
 - Coprocultura in cazul aparitiei scaunelor diareice
 
@@ -101,14 +101,14 @@ a). Medicatie simptomatica
 ● antiemetice
 
 b). Formele severe
- – beneficiaza de corticoterapie, imunoglobuline standa rd,
+ – beneficiaza de corticoterapie, imunoglobuline standard,
 tonice cardiovasculare.
 
 c). Tratamentul complicatiilor
 
 ● Bronhopneumonice - sau pneumonii se utilizeaza betalactamine + aminog licozid
 (ampicilina/oxacilina + gentamicina/amikacina), cefalosp orine de generatia a III
-(ceftriaxona, cefatoxim), betalactamine asociate cu inhib itori de betalactamaze,
+(ceftriaxona, cefatoxim), betalactamine asociate cu inhibitori de betalactamaze,
 macrolide.
 ● Crupul rujeolic
  beneficiaza de corticoterapie (dexametazona 0,→ mg/kg /zi,
@@ -168,7 +168,7 @@ la „grupurile de risc” (imunodeprimati), in doze de 3 0 mg/kg/zi, timp de �
 (prednison, dexametazona)
 ● Vitaminoterapia din grupul B (B1, B6)
 ● Nevralgie postzosteriana beneficiaza de antialgice, neuroleptice
-● In encefalita variceloasa se folosesc antiedematoase cere brale (manitol 20%,
+● In encefalita variceloasa se folosesc antiedematoase cerebrale (manitol 20%,
 solutii de glucoza 10%), dexametazona, neurotrofice
 
 3. Durata medie de spitalizare
@@ -285,11 +285,11 @@ b). Terapia patogenica
 hemisuccinat de hidrocortizon 10 mg/kg/zi)
 - antiinflamatorii nesteroidiene (aspirina, diclofenac, indometacin, paracetamol)
 - depletive (manitol 20% 1-2 mg/kg/zi, glucoza hipertona 10-20%, furosemid)
-- prevenirea si combaterea convulsiilor prin administrar e de diazepam,
+- prevenirea si combaterea convulsiilor prin administrare de diazepam,
 fenobarbital
 - asigurarea aportului energetic, reechilibrare hidroe lectrolitica si acidobazica cu
 glucoza →-10%, ser fiziologic, bicarbonat de sodiu 8,4%
-- sustinerea functiilor vitale (respiratorie si cardiova sculara) este necesara in
+- sustinerea functiilor vitale (respiratorie si cardiovasculara) este necesara in
 formele comatoase, oxigenoterapie
 - vitamine neurotrope de grup B (B
 1, B 6, B 12 ), piracetam
@@ -330,7 +330,7 @@ ofloxacina 1-1,→ g/zi), cicloserina 10-20 mg/kg/zi, Et hionamida 1→-20 mg/kg
 Capreomicina 1→ mg/kg/zi
 Terapia patogenica
  – asociaza din prima luna de tratament corticoterapia
-(dexametazona 0,→ mg/kg/zi sau hemisuccinat de hidrocor tizon (10 mg/kg/zi),
+(dexametazona 0,→ mg/kg/zi sau hemisuccinat de hidrocortizon (10 mg/kg/zi),
 continuat apoi cu prednison (1 mg/kg/zi)
 - depletive (manitol 20% 1-2 mg/kg/zi, glucoza 10-20%)
 - neurotrofice (vit. B1, B6, piracetam, cerebrolyzine, tanakan)
@@ -362,7 +362,7 @@ piogeni si pentru BK, latexoglutinare
 2. Protocol de tratament
 
 Medicatia patogenica
-- Antiedematoase cerebrale (Manitol 20% 1-2 g/kg/zi, gl ucoza hipertona,
+- Antiedematoase cerebrale (Manitol 20% 1-2 g/kg/zi, glucoza hipertona,
 furosemid)
 - Corticoterapie (dexametazona 0,→ mg/kg/zi timp de 10-28 zile)
 - Anticonvulsivante (diazepam, fenobarbital)
@@ -376,12 +376,12 @@ Tratament etiotrop
 
 - Aciclovir in encefalita herpetica, 30 mg/kg/zi intravenos, divizat in 3 prize (la
 8 ore), timp de 10 zile
-- Ribavirina 2 g initial, apoi 1 g la 6 ore in primel e 4 zile, urmate de 0,→ g la 8
+- Ribavirina 2 g initial, apoi 1 g la 6 ore in primele 4 zile, urmate de 0,→ g la 8
 ore alte 6 zile sau aciclovir intravenos 10 mg/kg/zi l a 8 ore 10 zile in
 encefalitele acute determinate de arbovirusuri
 
 In neurobolioza Ceftriaxona 2 g/zi la adult si →0-8 0 mg/kg/zi la copil, timp de 14
-zile sau penicilina G intravenos (20-24 mil/zi la adul t, 300-400.000 UI/kg/zi la
+zile sau penicilina G intravenos (20-24 mil/zi la adult, 300-400.000 UI/kg/zi la
 copil)
 
 3. Durata medie de spitalizare
@@ -389,7 +389,7 @@ copil)
 
 BOTULISM
 
-a). Diagnostic clinic – aparitia unor paralizii simetrice, fara atingere se nzitiva,
+a). Diagnostic clinic – aparitia unor paralizii simetrice, fara atingere senzitiva,
 sistem de afebrilitate, fara tulburari de constienta, aparute in contextul consumului
 unui aliment susceptibil de a putea contine toxina botulinica.
 
@@ -408,7 +408,7 @@ deglutitiei. Aparitia tulburarilor de ventilatie – necesita ventilatie pe sond
 nasotraheala.
  - specific
  – ser antibotulinic polivalent (A + B + E) cand nu se
-cunoaste tipul toxinei sau bivalent (A + B), cand alime ntul nu a fost pestele – cu
+cunoaste tipul toxinei sau bivalent (A + B), cand alimentul nu a fost pestele – cu
 desensibilizare in prealabil.
  - antibiotic
  – in caz de suprainfectie (β loctamine)
@@ -428,7 +428,7 @@ a). Diagnostic clinic – prezenta plagii tetanigene
 
 b). Laborator
  – HLG
-- evidentierea bacil tetanic in secretia din plaga si ins amantarea pe medii
+- evidentierea bacil tetanic in secretia din plaga si insamantarea pe medii
 anaerobe
 - prelevare de sange pentru determinarea T preexistent de anatoxina tetanica
 
@@ -440,13 +440,13 @@ unguente
 - internarea pacientului pe TI (in conditii speciale, liniste, semiintuneric)
 - terapie antibiotica Penicilina 2-4 mil UI/zi i.v., 7- 10 zile – adult; 100.000
 UI/kg/zi – copil
-- administrare antitoxine tetanice sub forma de imunoglo buline umane specifice
+- administrare antitoxine tetanice sub forma de imunoglobuline umane specifice
 antitetanice 3000 – 6000 UI i.m.) in absenta acesteia, se administreaza ser
 imun heterolog antitetanic →0.000 UI – 100.000 UI la adult, 10.000 UI la nou-
 nascut, efectuandu-se in prealabil desensibilizarea
-- combaterea sindromului de contractura – Diazepam sau Fen obarbital (30-300
+- combaterea sindromului de contractura – Diazepam sau Fenobarbital (30-300
 mg/zi Diazepam la adult).
-- in forme severe cu contracturi paroxistice, apnee, spasm p lastic – se indica
+- in forme severe cu contracturi paroxistice, apnee, spasm plastic – se indica
 traheostomie si asistenta respiratorie.
 - Terapia patogenica – asigurarea aportului energetic, corectarea dezechilibrelor,
 oxigenoterapie.
@@ -464,14 +464,14 @@ a). Investigatii : - HLG, evaluarea bilantului metabolic, CRP
  - Rgf. Pulmonara (in caz de suprainfectie)
 b). Tratament
  – repaus la pat
- b1. Simptomatic (antitermic, antitusive, oxigenoterap ia sau ventilatia
+ b1. Simptomatic (antitermic, antitusive, oxigenoterapia sau ventilatia
 asistata in caz de insuficienta respiratorie severa)
  b2. Antibiotic (in cazul suprainfectiilor bacteriene) – Penicilina +
  inhibitori de
 beta-lactamaze + aminoglicozide
  - fluorchinolone
  - cefalosporine gen. III
- b3. Corticoterapie (in formele severe cu insuficienta ci rculatorie, in
+ b3. Corticoterapie (in formele severe cu insuficienta circulatorie, in
 complicatii tip crup sau complicatii neurologice)
  - 1-2 mg/kg cPDN sau HHC 100-200 mg/zi la adult sau 10- 20 mg/kg/zi la
 copil
@@ -493,7 +493,7 @@ b). Tratament
 :
 - repaus la pat
 - tratament simptomatic (AINS, antitermice, antalgice)
-- in caz de complicatii: 1. Suprainfectiile bacterien e se trateaza cu Penicilina sau
+- in caz de complicatii: 1. Suprainfectiile bacteriene se trateaza cu Penicilina sau
 macrolide
 2. Obstructia cailor respiratorii necesita traheostomie si
 corticoterapie PDN 1-1,→ mg/kg/zi
@@ -588,18 +588,18 @@ aminoglicozideentului etiologic
  - Rgf. pulmonara
  - examenul lichidului pleural
 
-- CT toracic + bronhoscopia pentru diferentierea pneumo niilor
+- CT toracic + bronhoscopia pentru diferentierea pneumoniilor
 neinfectioase (ex. neoplasm bronhopulmonar)
 
 Tratament
-: a). simptomatic (antitermic, antalgic, hidratare pent ru fluidificarea
+: a). simptomatic (antitermic, antalgic, hidratare pentru fluidificarea
 secretiilor)
 
 ● Forme usoare la pacientii fara factori de risc – tratament ambulator
 ● Pacientii cu factori de risc se spitalizeaza
 ● Pacientii cu forme severe (cu factori de gravitate: fr ecv. respiratorii >30/min, TA
 sist.< 90 mHg, semne de insuficienta respiratorie severa, prezenta metastazei
-septice, PAO < 60 mHg, tulburari de coagulare cu prezen ta PDF, CID) – necesita
+septice, PAO < 60 mHg, tulburari de coagulare cu prezenta PDF, CID) – necesita
 internare pe sectie TI
 
 b). etiologic
@@ -651,7 +651,7 @@ cefalosporine gen. III/Amoxicilina – inhibitori de beta – lactamaze/
 Tratament Ertapenem + Azitromicina/Claritromicina
 fluorchinolone respiratorii
 
-b). ce necesita internare pe TI (agenti etiologici: pne umococ, H. infl., Moraxella,
+b). ce necesita internare pe TI (agenti etiologici: pneumococ, H. infl., Moraxella,
 legionella, Chlamidya, My. Pneumoniae, BGN, Staf. Auriu)
 
 Beta-lactamine antipiocianic (cefalosporine gen. III, IV,
@@ -727,7 +727,7 @@ Voriconazol/
 Amfotericina B
 bk tuberculostatice
 
-INTFECTIA URLIANA
+INFECTIA URLIANA
 
 I.DIAGNOSTIC PARACLINIC
 1.INVESTIGATII NESPECIFICE
@@ -790,7 +790,7 @@ zile
  - furosemid 1-2mg/kg/zi, 1f la 12 h, 2-3
 prize/zi
  - glucoza 10 %, sulfat de Mg
-- PEV cu vitamine B1, B6, C, calciu gluconic, reechilib rare volemica, H-E-
+- PEV cu vitamine B1, B6, C, calciu gluconic, reechilibrare volemica, H-E-
 Ringer, ser fiziologic, antiH2inj., antiacide, KCl 1-2 g/zi;
 
 III. Durata medie de spitalizare – 10 zile
@@ -799,13 +799,13 @@ PARALIZIA ACUTA FLASCA (PAF)
 (POLIOMELITA POSTVACCINALA)
 
 I. CRITERII EPIDEMIOLOGICE, ANAMNESTICE, CLINICE
-1. Boala sa apara cel mai devreme dupa 4 zile de la v accinare (numai dupa vaccin
+1. Boala sa apara cel mai devreme dupa 4 zile de la vaccinare (numai dupa vaccin
 administrat oral)
-2. Boala sa apara cel mai tarziu la 30 zile de la va ccinare(pentru receptorii directi)
+2. Boala sa apara cel mai tarziu la 30 zile de la vaccinare(pentru receptorii directi)
 sau la 60 zile la contacti;
 3. Paralizia sa nu apara mai devreme de 6 zile de la vaccinare
 4. Paralizia sa aiba toate caracterele afectarii de neuron motor periferic;
-→. Datele de laborator sa confirme infectia (pot fi i mplicate alte virusuri
+→. Datele de laborator sa confirme infectia (pot fi implicate alte virusuri
 paralitogene);
 6. Sa apara in plina campanie de vaccinare cu virus viu atenuat;
 7. Deficiente imune la receptor sau la contact;
@@ -836,7 +836,7 @@ recolatat la 14 zile de la serul I);
 III. TRATAMENT
 1. Igieno-dietetic - spitalizare obligatorie,izolare ,repaus la pat 10-14 zile,evitare
 efort fizic, injectii intramusculare, traumatisme;
-- segmentele afectate sprijinite in pozitii anatomice i ntre perne;
+- segmentele afectate sprijinite in pozitii anatomice intre perne;
 pentru a evita pozitii vicioase-sprijin lateral cu saculete de nisip;
 - dieta-hidratare, asigurare calorii necesare, minerale , vitamine,
 calciu;
@@ -851,7 +851,7 @@ piritinol;
 - PEV de echilibrare volemica, H-E-glucoza, ser fiziologic, Ringer;
 - vasodilatatoare-acid nicotinic, tolazolin
 
-4. Recuperator - dupa 14 zile de la debutul paralizi ei recuperare + reeducare
+4. Recuperator - dupa 14 zile de la debutul paraliziei recuperare + reeducare
 musculara in serviciile de NPI+BFT
 * Impachetari umede-calde
 * Kineziterapie dirijata - miscari pasive la nivelul membrului lezat
@@ -906,7 +906,7 @@ II.TRATAMENT
  -aminoacizi-Infesol,Aminosteril,Aminoven
  -hepatoprotectoare-iv-Aspatofort,Arginina-Sorbitol
  -hepatoprotectoare orale
-metaspar,hepatonplus,sargenor,LIV→2,silimarina,farcovit,essentiale,acid
+metaspar,hepatonplus,sargenor,LIV→2,silimarina,farcovit,esentiale,acid
 orotic,antioxidant,polivitamine –Pharmaton,Supradyn
  -coleretice-colebil,bilichol,metoclopramid
  -vitamina K-in formele cu IQ→,trombocitopenii,sangerari
@@ -1188,7 +1188,7 @@ Confirmarea diagnosticului
 - ecocardiografie
 - ecografie cardiaca transesofagiana
 
-- ecografie abdominala / CT – pentru identificarea dete rminarilor
+- ecografie abdominala / CT – pentru identificarea determinarilor
 septice secundare
 
 Diagnostic etiologic
@@ -1268,7 +1268,7 @@ saptamani )
 recomanda schimbarea terapiei ( Cefalosporine gen III + Aminoglicozid ±
 antifungic)
 
-• In toate conditiile se va evalua necesitatea interventi ei chirurgicale de
+• In toate conditiile se va evalua necesitatea interventiei chirurgicale de
 urgenta (in primele 14 zile)
 
 ENDOCARDITA CERTA

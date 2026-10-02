@@ -196,7 +196,7 @@ Mai multe informatii aici:
 
 - fructoza este carbohidratul care ingrasa cel mai tare.
 
-- daca nu s-ar fi inventat niciodata tigarile, cancerul pulmonar ar fi fost o boala rara. La fel daca nu am consuma alimente bogate in carbohidrati, obezitatea ar fi o afecsiune rara.
+- daca nu s-ar fi inventat niciodata tigarile, cancerul pulmonar ar fi fost o boala rara. La fel daca nu am consuma alimente bogate in carbohidrati, obezitatea ar fi o afectiune rara.
 
 - cu cat esti mai gras cu atat ai un creier mai mic.
 

@@ -336,7 +336,7 @@ Ciocuri pe coloana, lombosciatica
 
 Dupa filtrare, se pune lichidul intr-un vas, pe foc mic, se adauga 50 gr ceara de albine si se amesteca continuu, pana se topeste. Dupa racire, se pastreaza la rece. Se fac frictionari de-a lungul coloanei vertebrale, in fiecare seara.
 
-\- Se prepara o tinctura din urmatoarele plante: 70 gr. marullupului, 10 gr. ghimbir, 10 gr. tataneasa, 10 gr. cimbru. Se pun toate plantele intr-un borcan si se adauga 500 ml alcool sanitar. Borcanul se inchide etans si se tine la macerat 15 zile, agitandu-se din cand in cand. Se filtreaza si se pastreaza in sticle de culoare inchisa.
+\- Se prepara o tinctura din urmatoarele plante: 70 gr. marul lupului, 10 gr. ghimbir, 10 gr. tataneasa, 10 gr. cimbru. Se pun toate plantele intr-un borcan si se adauga 500 ml alcool sanitar. Borcanul se inchide etans si se tine la macerat 15 zile, agitandu-se din cand in cand. Se filtreaza si se pastreaza in sticle de culoare inchisa.
 
 Cu aceasta tinctura, se pun comprese pe zonele afectate, de seara pana dimineata.
 
@@ -659,7 +659,7 @@ Cura se face 14 zile consecutiv cu pauza de 7 zile, dupa care se reia tratamentu
 
 Afectiuni ale intestinelor
 
-30 gr. frunze uscate de pelin se pun la macerat 24 de ore in 60 ml alcool de 60o, dupa care se adauga 100 ml de vin alb. Dupa 10 zile se strecoara si se beau cate 10 ml/zi, dimineta pe stomacul gol.
+30 gr. frunze uscate de pelin se pun la macerat 24 de ore in 60 ml alcool de 60o, dupa care se adauga 100 ml de vin alb. Dupa 10 zile se strecoara si se beau cate 10 ml/zi, dimineata pe stomacul gol.
 
 ### Boli hepatice
 
@@ -763,7 +763,7 @@ A doua zi se face o noua portie. Intotdeauna se consuma ceai proaspat.
 
 In cazul ascitei, se face tratament pana cand abdomenul ajunge la volumul normal, dupa care se face o pauza de 2 saptamani si apoi se reia.
 
-Pentru celelalte boli, tratmentul se face cate 2 saptamani cu pauza de 2 saptamani, pana la 3 luni. Se reia dupa 3 luni.
+Pentru celelalte boli, tratamentul se face cate 2 saptamani cu pauza de 2 saptamani, pana la 3 luni. Se reia dupa 3 luni.
 
 ### Dizolvarea calculilor biliari si renali
 
@@ -866,7 +866,7 @@ Se poate repeta dupa 3 saptamani.
 
 Hepatita, icter, adjuvant in ciroza hepatica, alcoolism
 
-Se administreza sublingual sub forma de pulbere fina obtinuta din radacina de gentiana (rasnita- 2 parti si pulbere de pedicuta --1 parte, de 3 ori pe zi cate o lingurita, inaintea meselor. Pulberea se tine sub limba 15 minute, dupa care se inghite cu un pahar de ceai hepatic.
+Se administreaza sublingual sub forma de pulbere fina obtinuta din radacina de gentiana (rasnita- 2 parti si pulbere de pedicuta --1 parte, de 3 ori pe zi cate o lingurita, inaintea meselor. Pulberea se tine sub limba 15 minute, dupa care se inghite cu un pahar de ceai hepatic.
 
 Tratamentul se face 3 saptamani, pauza o saptamana, dupa care se poate relua pana la 6 luni.
 

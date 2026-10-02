@@ -45,7 +45,7 @@ Cuprins
 #### CauzeSus
 
 Diabetul zaharat tip 1 apare ca urmare a distrugerii autoimune a celulelor beta-pancreatice care secreta insulina.\
-Ereditatea joaca un rol important in patogenia diabetul zaharat tip 1. Totusi, un numar mare de pacienti cu diabetul zaharat tip 1 nu au antecedente familiale de diabet insulino-dependent. De aceea, specialistii considera ca un rol important in etiologia diabetului il au, pe langa predispozitia genetica, anumiti factori de mediu. Unul din factorii de mediu implicat in producerea diabetul zaharat, este de obicei, un agent infectios cum ar fi virusul coxackie b. Relatia intre declansarea diabetului si vaccinerea impotriva infectiei cu haemophilus influenzae tip b nu a fost demonstrata desi s-a formulat aceasta ipoteza.
+Ereditatea joaca un rol important in patogenia diabetul zaharat tip 1. Totusi, un numar mare de pacienti cu diabetul zaharat tip 1 nu au antecedente familiale de diabet insulino-dependent. De aceea, specialistii considera ca un rol important in etiologia diabetului il au, pe langa predispozitia genetica, anumiti factori de mediu. Unul din factorii de mediu implicat in producerea diabetul zaharat, este de obicei, un agent infectios cum ar fi virusul coxackie b. Relatia intre declansarea diabetului si vaccinarea impotriva infectiei cu haemophilus influenzae tip b nu a fost demonstrata desi s-a formulat aceasta ipoteza.
 
 #### SimptomeSus
 

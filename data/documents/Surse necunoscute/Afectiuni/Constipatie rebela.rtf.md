@@ -1,5 +1,5 @@
 # Constipatie rebela
-1.	Alimente ce trebuiesc evitate: ciocolata, cacao, painea alba, paste fa inoase
+1.	Alimente ce trebuiesc evitate: ciocolata, cacao, painea alba, paste fainoase
 
  carnea, branzeturi sarate oale.
 

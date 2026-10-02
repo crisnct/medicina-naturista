@@ -40,7 +40,7 @@ Fitoterapie- utilizarea ierburilor si plantelor in medicina. Acesta este un term
 
 ## Botanica de baza
 
-Atat animalele cat si plantele respira. Asta inseamna ca ele iau oxigen din atmosfera. Ele il folosesc in diferse proese metabolice pentru a produce dioxid de carbon, apa si energie. Dioxidul de carbon este un deseu al metabolismului. Animalele mai evoluate absorb oxigenul in plamani atunci cand inspira si elibereaza dioxid de carbon atunci cand expira. Plantele absorb oxigen prin porii minusculi din frunzele lor si, de asemenea, elibereaza dioxidul de carbon tot prin pori.
+Atat animalele cat si plantele respira. Asta inseamna ca ele iau oxigen din atmosfera. Ele il folosesc in diverse proese metabolice pentru a produce dioxid de carbon, apa si energie. Dioxidul de carbon este un deseu al metabolismului. Animalele mai evoluate absorb oxigenul in plamani atunci cand inspira si elibereaza dioxid de carbon atunci cand expira. Plantele absorb oxigen prin porii minusculi din frunzele lor si, de asemenea, elibereaza dioxidul de carbon tot prin pori.
 
 Respiratia poate fi sintetizata prin ecuatia urmatoare:
 
@@ -166,7 +166,7 @@ Aceasta planta este un relaxant excelent. Te ajuta sa dormi, calmeaza nervii si 
 
 Tataneasa creste in pajisti si zone umede si poate fi plantata in propria dumneavoastra gradina de ierburi. Cea mai mare valoare a sa este de unguent. Are o tulpina lunga, frunzoasa, acoperita cu fire de par.Frunzele au pana la 24 cm lungime si sunt, de asemenea, paroase.Are flori galbene sau mov.
 
-Aceasta planta se cultiva in gradinile manastirilor.I s-au dat cateva denumiri populare in diferite tari, ca de exemplu Knitbone (Leaga-oase), Boneset (Fixeaza-oase), Bruisewort (Folositoare pentru rani).Toate aceste denumiri se refera la proprietatile sale vindecatoare.Intr-adevar, accelereaza dramatic proesul de vindecare.Previne extinderea ranii, amelioreaza incheieturile dureroase, alina muschii incordati si ajuta la videcarea varicelor de la picioare.De asemenea accelereaza sudarea oaselor.
+Aceasta planta se cultiva in gradinile manastirilor.I s-au dat cateva denumiri populare in diferite tari, ca de exemplu Knitbone (Leaga-oase), Boneset (Fixeaza-oase), Bruisewort (Folositoare pentru rani).Toate aceste denumiri se refera la proprietatile sale vindecatoare.Intr-adevar, accelereaza dramatic procesul de vindecare.Previne extinderea ranii, amelioreaza incheieturile dureroase, alina muschii incordati si ajuta la videcarea varicelor de la picioare.De asemenea accelereaza sudarea oaselor.
 
 Tataneasca era un remediu intern obisnuit, dar in ziua de azi as recomanda sa fie folosit strict ca unguent. Poate fi cumparat din orice farmacie sau plafar si ar trebui sa fie o adaugare la tratamentul medicamentos. Mai tarziu in acest curs o sate invat cum sa il faci singur. Atunci cand il folosesti se aplica de 3 ori pe zi, sau mai des daca rana e foarte dureroasa. Vei fi uimit de eficacitatea lui.
 

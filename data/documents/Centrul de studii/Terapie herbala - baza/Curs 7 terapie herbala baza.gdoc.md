@@ -14,7 +14,7 @@ Remediul homeopat nu este dat in puterea deplina, cu toate acestea este dat intr
 
 Doua scari de potenta sunt utilizate.Scara zecimala si scara centezimala.Scara zecimala inseamna ca, la fiecare potentare, caile de atac sunt diluate 1:10.Scara centezimala inseamna ca remediile se dilueaza pana la 1:100 cu fiecare potentare. Caile de atac la scara zecimale sunt disponibile in mai multe magazine de profil. Remediile sunt etichetate ca un D sau un X. De obicei se vede un remediu etichetat ca 6D sau X. Acest lucru inseamna ca a trecut prin sase concentratii pe scara zecimala. Se vad, de asemenea, remediile centezimale etichetate cu un C. Remediile centezimale cel mai frecvent utilizate sunt 6C, 30C si 200C.Cel mai frecvent vandut in farmacie este remediul 6C. In invatarea si folosirea homeopatiei remedii simple, nu se poate merge prea departe gresind 6X sau 6C.
 
-Homeopatia este utilizata pentru a trata individul, nu starea. Mai mult, aceasta este utilizatapentru a trata experienta individuala a bolii.Vom explica acest lucru printr-un exemplu. Sa presupunem ca ai avut cinci persoane care sufera de artrita. Un medic ortodox ar putea da aceleasi cinci medicamente tuturor. Un homeopat s-ar uita lamodul in care boala i-a afectat pe cei cinci oameni si sa dea un remediu adecvat individului. Pentru a face acest lucru, el s-ar uita la tipul de durere, lucrurile care au facut mai bine, cele care au adancit-o si asa mai departe. Unii oameni s-au simtit mai bine miscandu-se, altii mai bine stand pe loc. Cele doua tipuri ar avea nevoie de cai de atac foarte diferite.
+Homeopatia este utilizata pentru a trata individul, nu starea. Mai mult, aceasta este utilizata pentru a trata experienta individuala a bolii.Vom explica acest lucru printr-un exemplu. Sa presupunem ca ai avut cinci persoane care sufera de artrita. Un medic ortodox ar putea da aceleasi cinci medicamente tuturor. Un homeopat s-ar uita lamodul in care boala i-a afectat pe cei cinci oameni si sa dea un remediu adecvat individului. Pentru a face acest lucru, el s-ar uita la tipul de durere, lucrurile care au facut mai bine, cele care au adancit-o si asa mai departe. Unii oameni s-au simtit mai bine miscandu-se, altii mai bine stand pe loc. Cele doua tipuri ar avea nevoie de cai de atac foarte diferite.
 
 ## AROMOTERAPIE
 
@@ -232,7 +232,7 @@ Pentru tipurile creative, care viseaza pe zi, par indiferenti si absenti.
 Pentru auto-dezgust, rusine .
 
 ### Ulm
-Pentru cei care se simt coplesiti de responsabilitati. Un bun remediu pentruun sentiment de inadecvare temporara.
+Pentru cei care se simt coplesiti de responsabilitati. Un bun remediu pentru un sentiment de inadecvare temporara.
 
 ### Gentiana
 Pentru dezamagire si descurajare.
@@ -250,7 +250,7 @@ Pentru gelozie, furie, ura, razbunare, toate emotiile distructive extreme. Poate
 Cei care privesc mereu inapoi in trecut, simt dor de casa. Ei traiesc in trecut, cu amintirile lor.
 
 ### Carpen
-Pentru senimentul de luni dimineata. Pentru starea mentala negativa, epuizanta ca o noua zi dificila incepe.
+Pentru sentimentul de luni dimineata. Pentru starea mentala negativa, epuizanta ca o noua zi dificila incepe.
 
 ### Impatiens
 Pentru iritabilitate si nerabdare. Nervozitate, intotdeauna in graba

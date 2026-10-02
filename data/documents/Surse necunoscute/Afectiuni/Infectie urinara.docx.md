@@ -1,4 +1,4 @@
-# Prevenirea si tratatea infectiilor urinare cu remedii din plante; infectie urinara
+# Prevenirea si tratarea infectiilor urinare cu remedii din plante; infectie urinara
 
 - Ceai de sanziene: 4 cesti pe zi
 

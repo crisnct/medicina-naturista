@@ -1517,7 +1517,7 @@ Solutia se pune intr-un vas de metal si se aprinde.
 
 \- taninurile precipita cu gelatina si cu alcaloizii. In prezenta amoniacului se coloreaza in rosu.
 
-\- simburii de struguri contin 3,5% tanin
+\- samburii de struguri contin 3,5% tanin
 
 \- este o materie fenolica cu proprietati care impiedica putrezirea pielii
 
@@ -1867,7 +1867,7 @@ OAM = orele la care organul respectiv are activitatea maxima
  ulei de Masline(nerafinat) 2000
  untura de porc 1000
  ulei de Cocos 940
- ulei din simburi de Palmier 600 - 950
+ ulei din samburi de Palmier 600 - 950
  ulei de Palmier(rafinat) 370
 ## Uleiurile grase
 

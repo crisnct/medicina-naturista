@@ -16,7 +16,7 @@ Exerci?ii:
 
 2. Clipe?ti strans de cinci ori consecutiv. Este indicat de facut asta in fiecare diminea?a ?i seara inainte de culcare. Se elibereaza toata tensiunea oculara reziduala ramasa din ziua anterioara, respectiv cea acumulata in cursul zilei. Dupa o saptamana ai sa vezi ca dependen?a de ochelari e mai scazuta ?i ochelarii care ii por?i o sa ?i se para prea tari.
 
-3. Exerci?iul de energizare. Pui degetele aratatoare ?i mijlocii pe obraji, de o parte ?i de alta a nasului. Retragi degetele mijlocii ?i cu aratatoarele mi?ti de zece ori in sens circular intr-o direc?ie ?i de zece ori in sens circular in cealalta direc?ie. Ar trebui sa sim?i o senza?ie de racoare sau de caldura.
+3. Exerci?iul de energizare. Pui degetele aratatoare ?i mijlocii pe obraji, de o parte ?i de alta a nasului. Retragi degetele mijlocii ?i cu aratatoarele mi?ti de zece ori in sens circular intr-o direc?ie ?i de zece ori in sens circular in cealalta direc?ie. Ar trebui sasim?i o senza?ie de racoare sau de caldura.
 
 Flavius a remarcat ca ?i alimenta?ia este foarte importanta. Alimenta?ia este un sponsor energetic al starii interioare. Daca ai, un stil de via?a sanatos, efectul exerci?iilor este mult mai rapid. Vitamina A ?i C sunt cele mai importante. Caisele uscate con?in foarte multa vitamina A, goji con?in foarte multa vitamina C. Vitaminele din fructe ?i legume se absorb ?i se sintetizeaza mult mai bine.
 
@@ -26,7 +26,7 @@ Tanarul facea exerci?ii, manca sanatos ?i, totu?i, sim?ea ca mai este ceva. In 1
 
 Gandurile se transforma, in timp, in convingeri care se manifesta in corpul fizic. Toate gandurile ne afecteaza. De exemplu, daca mergi la servici ?i tot i?i zici ca nu mai vrei sa-l vezi pe ?eful tau, pana la urma corpul tau asculta dorin?ele tale. Mul?i elevi cand au praguri de trecut in ?coala, de la gimnaziu la liceu sau de la liceu la facultate sau cand termina facultatea, ajung sa poarte ochelari.
 
-“Receptorii i?i schimba forma pentru ca nu sa nu mai vezi ceea ce nu vrei sa vezi. Trebuie ca noi sa controlam gindurile, nu ele pe noi. A vedea inseamna a privi cu dragoste. ?i atunci cand prive?ti cu dragoste nu vrei sa mai schimbi nimic. Daca nu vrei sa faci o schimbare la ceea ce vezi, nu ai cum sa ai probleme cu vederea. E bine sa generam ganduri de iubire, pace, compasiune, in?elegere, acceptare. Noi ne identificam cu activi?a?ile nostre, ne luam energia din ele. Cand suntem indragosti?i, sau copiii cand se joaca, nu mai exista senza?ia de foame. Noi avem emo?ii tot timpul. Cuvantul “emo?ie” vine din fran?uzescul “emotion”( “e” inseamna “energie” ?i “motion” inseamna “mi?care”)”, adauga Flavius.
+“Receptorii i?i schimba forma pentru ca nu sa nu mai vezi ceea ce nu vrei sa vezi. Trebuie ca noi sa controlam gandurile, nu ele pe noi. A vedea inseamna a privi cu dragoste. ?i atunci cand prive?ti cu dragoste nu vrei sa mai schimbi nimic. Daca nu vrei sa faci o schimbare la ceea ce vezi, nu ai cum sa ai probleme cu vederea. E bine sa generam ganduri de iubire, pace, compasiune, in?elegere, acceptare. Noi ne identificam cu activi?a?ile nostre, ne luam energia din ele. Cand suntem indragosti?i, sau copiii cand se joaca, nu mai exista senza?ia de foame. Noi avem emo?ii tot timpul. Cuvantul “emo?ie” vine din fran?uzescul “emotion”( “e” inseamna “energie” ?i “motion” inseamna “mi?care”)”, adauga Flavius.
 
 Problemele de vedere nu sunt ereditare. Nu informa?ia genetica se copiaza, ci acela?i tipar de gandire, acela?i mediu in care traim. Copiii mici care poata ochelari, in primul rand, pentru ca duc lipsa de afec?iune, aten?ie, sau, daca parin?ii se cearta, ei nu in?eleg asta, nu vor sa vada a?a ceva, nu le place, incearca sa iasa din acea realitate.
 
@@ -36,7 +36,7 @@ Miopia apare in urma unei frici legate de viitor, in ceea ce prive?te partea pro
 
 “Fiecare organ este ca un hard disk, iar mintea este memoria RAM. Cand memoria e prea plina, informa?ia se stocheaza pe hard disk. De aceea, trebuie sa ne eliberam mintea, sa ne relaxam ?i, cel mai simplu facem asta prin tehnici de respira?ie. Nu degeaba cand se face un transplant de organe, persoana careia i se pune un nou organ are stari, trairi, pe care nu le avea inainte, pentru ca organul aduce cu el informa?ii de la persoana anterioara. In func?ie de strategiile noastre de a reac?iona cu mediul inconjurator, strategii copiate de la parin?i, in primul rand, suntem mai predispu?i sa fim mai vizuali, mai chinestezici, mai pozitivi sau mai olfactivi”, spune Flavius.
 
-Zece gre?eli ce deterioreaza vederea:
+Zece gre?elice deterioreaza vederea:
 
 1. Folosirea ochelarilor de vedere chiar si atunci cand nu sunt necesari. 2. Utilizarea ochelarilor sau lentilelor de contact care corecteaza 100% din viciul de refrac?ie. 3. Folosirea incorecta a ochelarilor cu protec?ie la calculator 4. Alimenta?ia gre?ita a organismului 5. Lipsa pauzei in timpul lucrului.
 

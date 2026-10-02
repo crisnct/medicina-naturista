@@ -39,7 +39,7 @@ Tratamentul cu aceste tincturi se va urma aproximativ 3 saptamani.
 
 **Peste**: peste alb slab, rasol sau perisoare de peste fierte la aburi.
 
-**Oua**: zdrente de albus in supa, omleta dietetica numai din albus cu zahar, crema de albus cu lapte, bezele. Galbenusul e permis numai o data sau de doua ori pe saptamana in preparate.
+**Oua**: zdrente de albus in supa, omleta dietetica numai din albus cu zahar, crema de albus cu lapte, bezele. Galbenusule permis numai o data sau de doua ori pe saptamana in preparate.
 
 **Branzeturi**: branza de vaci, telemea desarata (indicata numai la bolnavii fara edeme sau ascita), urda, cas slab nesarat si nefermentat.
 

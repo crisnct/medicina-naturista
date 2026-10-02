@@ -52,7 +52,7 @@ Amestecul se pune la macerat intr-o sticla de 2l la intuneric si caldura timp de
 - comprimate cu siliciu
 - must de Struguri rosii
 - sirop de Hrean
-- tincura de Coada-calului, Propolis
+- tinctura de Coada-calului, Propolis
 - ulei volatil de Musetel, Cimbru
 - 300g frunze Aloe + apa. Dupa ce s-a macerat se adauga 1l vin negru si 300g miere de salcam
 - infuzie de Hamei si Troscot
@@ -96,7 +96,7 @@ Amestecul se pune la macerat intr-o sticla de 2l la intuneric si caldura timp de
 
 ## Dureri de spate. Recomandari
 
-- se palica o pasta facuta din Ghimbir si apa, iar apoi se unge pielea cu ulei de Eucalipt
+- se aplica o pasta facuta din Ghimbir si apa, iar apoi se unge pielea cu ulei de Eucalipt
 
 ## Raceala. Recomandari
 
@@ -280,7 +280,7 @@ Aliment~DZR alune~300g boabe de fasole fierte~1kg nuci~300g seminte de Floarea-s
 
 ### Zincul
 
-- favorizeaza difestia si sinteza proteinelor
+- favorizeaza digestia si sinteza proteinelor
 - participa la formarea si degradarea depozitelor de glucoza
 - stimuleaza secretia de leucocite
 
@@ -390,7 +390,7 @@ Aliment~DZR frunze de Sfecla fierte~100g fulgi de Porumb~100g Pepene gaLben~200g
 
 - este contrara cu vitamina B1
 - este utila pentru cresterea in greutate
-- in prezenta colinei se accelereaza consumarea de pozitului de vitamina A din ficat
+- in prezenta colinei se accelereaza consumarea depozitului de vitamina A din ficat
 - uleiul de Catina contine o foarte mare cantitate de vitamina A
 
 ### Vitaminele liposolubile
@@ -479,7 +479,7 @@ Recomadari culinare:
 - se recomanda a nu se consuma fructe, legume, seminte, plante care inca nu au ajuns la maturitate
 - la o masa nu se vor combina glucidele, proteinele si verdeturile
 - fructele se vor consuma numai pe stomacul gol
-- dulciurile provoaca neliniste si agitatie; este recomandat a se consuma numaiatunci cand se depune un efort fizic mai mare; sunt incompatibile cu proteinele
+- dulciurile provoaca neliniste si agitatie; este recomandat a se consuma numai atunci cand se depune un efort fizic mai mare; sunt incompatibile cu proteinele
 
 Glicerina:
 
@@ -782,7 +782,7 @@ Scortisoara:
 
 ### Visinele
 
-- sunt utile in anemie, coinstipatie, boli de plamani, dizenterie
+- sunt utile in anemie, constipatie, boli de plamani, dizenterie
 
 ### Capsunile
 
@@ -950,7 +950,7 @@ Varsta~Nr doze medicamente/tincturi/ceaiuri.... 1 - 2~1/12 - 1/8 2 - 3~1/8 - 1/4
 
 - pasta de usturoi 200g + alcool rafinat de 96 grade 200ml. Se macerea 10 zile. Se pastreaza la frigider. Picaturile se iau dupa urmatorul tabel
 
-ziua~d~p~s 1~2~2~2 2~4~5~6 3~7~8~9 4~10~11~12 5~13~14~15 6~15~14~13 7~12~11~10 8~9~8~7 9~6~5~4 10~3~2~1 11~25~25~25 Dupa 11 zile se reia tratamentul si se procedeaza similar pana la terminarea cantitatii de tinctura. Picaturile se iau ianinte de masa cu un sfert de ora.Cura se poate repeta peste 5 ani. Acest tratament curata organsimul de depozitele de lipide si calciu, iar vasele sanguine devin mai elastice prin scaderea colesterolului LDL
+ziua~d~p~s 1~2~2~2 2~4~5~6 3~7~8~9 4~10~11~12 5~13~14~15 6~15~14~13 7~12~11~10 8~9~8~7 9~6~5~4 10~3~2~1 11~25~25~25 Dupa 11 zile se reia tratamentul si se procedeaza similar pana la terminarea cantitatii de tinctura. Picaturile se iau inainte de masa cu un sfert de ora.Cura se poate repeta peste 5 ani. Acest tratament curata organsimul de depozitele de lipide si calciu, iar vasele sanguine devin mai elastice prin scaderea colesterolului LDL
 
 ### Gel de hidrocarburi
 

@@ -104,7 +104,7 @@ A urmat o perioada de refacere, un alt timp de durere, nesiguranta, temeri ,dar 
 
 **O noua Emilia.**
 
-Incepand cu data de 21.sept.2004, Emiliei i se administreaza din nou tratamentul cu citostatice, tratament care dureaza pana pe data de 28.sept. In timpul tratamentului, Emilia face din nou hemoragie, de aceasta data externa. La un moment dat , intr-o seara, Emiliei incepe sa-i curga sange din nas, dar intervenindu-se, hemoragia ii este oprita pentru moment. Hemoragia se porneste din nou in cursul noptii si dupa multe eforturi ale medicilor, ea se opreste abia spre seara. Cu toate acestea, Domnul o pazeste si dupa aceasta perioada de tratament, Emilia ajunge din nou acasa pentru o perioada de doua saptamani. Ea nu mai este la fel, dar este aceiasi. Infatisarea ei este schimbata mult; din cauza tratamentului parul i-a cazut si este foarte slabita. Cu toate acestea, Emilia este aceiasi.....zambetul si bucuria nu ii pierise. Ea spune familiei ca in sfarsit poate afirma cu tarie aceleasi cuvinte pe care le spune si apostolul Pavel in Filipeni 1:21: „Caci pentru mine a trai este Hristos si a muri este un cas tig." Intre 26. octombrie si 01. noiembrie, Emilia urmeaza o alta cura de citostatice la Clinica de Hematologie din Cluj, starea ei intarindu-se simtitor.
+Incepand cu data de 21.sept.2004, Emiliei i se administreaza din nou tratamentul cu citostatice, tratament care dureaza pana pe data de 28.sept. In timpul tratamentului, Emilia face din nou hemoragie, de aceasta data externa. La un moment dat , intr-o seara, Emiliei incepe sa-i curga sange din nas, dar intervenindu-se, hemoragia ii este oprita pentru moment. Hemoragia se porneste din nou in cursul noptii si dupa multe eforturi ale medicilor, ea se opreste abia spre seara. Cu toate acestea, Domnul o pazeste si dupa aceasta perioada de tratament, Emilia ajunge din nou acasa pentru o perioada de doua saptamani. Ea nu mai este la fel, dar este aceiasi. Infatisarea ei este schimbata mult; din cauza tratamentului parul i-a cazut si este foarte slabita. Cu toate acestea, Emilia este aceiasi.....zambetul si bucuria nu ii pierise. Ea spune familiei ca in sfarsit poate afirma cu tarie aceleasi cuvinte pe care le spune si apostolul Pavel in Filipeni 1:21: „Caci pentru mine a trai este Hristos si a muri este un castig." Intre 26. octombrie si 01. noiembrie, Emilia urmeaza o alta cura de citostatice la Clinica de Hematologie din Cluj, starea ei intarindu-se simtitor.
 
 **Cu familia aproape.**
 
@@ -168,7 +168,7 @@ Ajunsa din nou acasa, Emilia merge impreuna cu o parte din familie la Bucuresti 
 
 24.03 Va face o endoscopie, sonografie , i se va verifica functia plamanilor si inca o serie de raze.
 
-04.04 Va fi intrenata in spital unde va face timp de trei zile iradieri.
+04.04 Va fi antrenata in spital unde va face timp de trei zile iradieri.
 
 07-09.04 Va face un tratament citostatic (chimeoterapie), foarte puternic, care ii va distruge maduva in totalitate, iar sistemul imunitar va ajunge la 0.
 

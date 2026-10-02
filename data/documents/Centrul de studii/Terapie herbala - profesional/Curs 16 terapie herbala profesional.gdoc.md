@@ -2,7 +2,7 @@ Curs 16
 
 Ierburile tonice
 
-Tonicele cresc permanent tonul de-a lungul intregului sistem, crescand vigoarea, energia si puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, racoritoare si consolideaza permanent fiecareorgan al corpului. Ele lucreaza in principal in cadrul sistemului digestiv, dar toate organele sunt influentate pozitiv. Ele produc ton normal tesuturilor unui organ, rezultand un muschi sanatos si functional. Aceste plante sporesc pofta de mancare, promoveaza eliminarea mai buna a resturilor, ajuta la digestie, alina stomacul si, treptat, construiesc forta, energia si sanatatea. Ca o regula, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te ca pacientul a trecut de faza acuta a bolii inainte dea-i administra ierburi tonice.
+Tonicele cresc permanent tonul de-a lungul intregului sistem, crescand vigoarea, energia si puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, racoritoare si consolideaza permanent fiecare organ al corpului. Ele lucreaza in principal in cadrul sistemului digestiv, dar toate organele sunt influentate pozitiv. Ele produc ton normal tesuturilor unui organ, rezultand un muschi sanatos si functional. Aceste plante sporesc pofta de mancare, promoveaza eliminarea mai buna a resturilor, ajuta la digestie, alina stomacul si, treptat, construiesc forta, energia si sanatatea. Ca o regula, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te ca pacientul a trecut de faza acuta a bolii inainte dea-i administra ierburi tonice.
 
 # **Dracila**
 
@@ -77,7 +77,7 @@ Intotdeauna radacina se dezgroapa pe vreme uscata, iar partea sa suculenta se cu
 
  1 lingura Calumba pulbere (Jateorhiza palmata)
 
-1 lingurapudra de ghimbir (Zingiber officinalis)
+1 lingura pudra de ghimbir (Zingiber officinalis)
 
 1 lingurita praf de Senna (Cassia angustifolia)
 
@@ -131,7 +131,7 @@ Dozare: 2-3 linguri, de 3 pana la 4 ori pe zi.
 
 # ***GOLDEN SEAL- Gentiana**(Hydrastis Canadensis;RANUNCULACEAE)*
 
-Caracteristici de identificare:Planta medicinala care creste in tara noastra in zona alpina, pe stanci si in pasuni (este ocrotita de lege). Frunzele au dimenisuni mari, forma ovala. Florile au culoare galbena si sunt strabatute de puncte brune.
+Caracteristici de identificare:Planta medicinala care creste in tara noastra in zona alpina, pe stanci si in pasuni (este ocrotita de lege). Frunzele au dimensiuni mari, forma ovala. Florile au culoare galbena si sunt strabatute de puncte brune.
 
 Actiune terapeutica:
 
@@ -173,9 +173,9 @@ Util dupa abuz de Clorat de Potasiu pentru durere de gat.
 
 Doza. De la tinctura pana la potenta 30\. Local, tinctura-mama sau extract fluid.
 
-Planta contine principrii amare, alcaloizi. In scop fitoterapeutic se utilizeaza radacina. Gentiana infloreste din luna iulie pana in septembrie. Radacina se recolteaza dinluna august pana in luna octombrie.
+Planta contine principii amare, alcaloizi. In scop fitoterapeutic se utilizeaza radacina. Gentiana infloreste din luna iulie pana in septembrie. Radacina se recolteaza dinluna august pana in luna octombrie.
 
-Are calitati stomahice, carminative, laxative, antimicrobiene, hepatice, imunostimulatoare, vermifuge, antipiretic, antipsihotice, antibiotice, expectorante, antiiflamatoare.
+Are calitati stomahice, carminative, laxative, antimicrobiene, hepatice, imunostimulatoare, vermifuge, antipiretic, antipsihotice, antibiotice, expectorante, antiinflamatoare.
 
 Uz intern:
 
@@ -295,7 +295,7 @@ Nervi spinali si epilepsie
 
 2 parti Scullcap (Scutellaria lateriflora)
 
-Mod de preparare: ierburile se amesteca impreuna si se infuzeaza folosind 1 lingurita deingrediente pentru fiecare ceasca de apa clocotita sau 56g de plante in 1-1/2 litri deapa clocotita, se acopera bine pana e aproape rece, se strecoara sau se amesteca compusul bine sub forma de pulbere si se pune in \# 0 capsule.
+Mod de preparare: ierburile se amesteca impreuna si se infuzeaza folosind 1 lingurita de ingrediente pentru fiecare ceasca de apa clocotita sau 56g de plante in 1-1/2 litri deapa clocotita, se acopera bine pana e aproape rece, se strecoara sau se amesteca compusul bine sub forma de pulbere si se pune in \# 0 capsule.
 
 Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, dupa caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (dupa caz ) la fiecare 2 ore.
 

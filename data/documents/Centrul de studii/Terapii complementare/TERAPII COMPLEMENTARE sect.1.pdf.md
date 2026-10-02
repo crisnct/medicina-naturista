@@ -175,7 +175,7 @@ secolul al XVI-lea."
 
 Jean Jacques Rousseau (n. 28 iunie 1712 - d. 2 iulie 1778) a fost un filozof francez de origine
 geneveza, scriitor si compozitor, unul dintre cei mai ilustri ganditori ai Iluminismului. A
-influentat hotaritor, alaturi de V oltaire si Diderot, spiritul revolutionar, principiile de drept si
+influentat hotaritor, alaturi de Voltaire si Diderot, spiritul revolutionar, principiile de drept si
 constiinta sociala a epocii; ideile lui se regasesc masiv in schimbarile promovate de Revolutia
 franceza din 1789. A enuntat principiul „Inapoi la natura”, „Totul este bun asa cum se naste
 prin mana creatorului lucrurilor. Totul se denatureaza sub mana omeneasca.”
@@ -564,7 +564,7 @@ sunt susceptibili de a intra in taramuri supranaturale pentru a obtine raspunsur
 din comunitatea lor. De-a lungul a zeci de mii de ani , strabunii nostri din toate regiunile
 planetei au descoperit moduri de a maximiza abilitatile spiritului si mintii umane pentru
 vindecare si rezolvarea de probleme . Minunatul sistem de metode dezvoltat de ei este
-cunoascut azi sub denumirea de " shamanism " - cuvant de provenienta tribala siberiana care
+cunoscut azi sub denumirea de " shamanism " - cuvant de provenienta tribala siberiana care
 denumeste practicantii acestui sistem .
 Shamanii sunt un tip de vindecatori care se disting de alte tipuri prin folosirea calatoriei in
 lumile ascunse , lumi care ne sunt indeobste cunoscute in principal prin mituri ,vise si
@@ -580,7 +580,7 @@ practica cvasiuniversala , pentru ca - si aceasta este o veste buna - mintea si 
 sunt aceleasi peste tot in spatiu si in timp .
 Asa cum Don Juan Matus , " un caballero sin caballo " ii spunea ucenicului Carlito ,
 cunoasterea se poate obtine din interactiunea directa si plina de respect si iubire cu tot ceea ce
-se afla in jurul tau si in tine . V orbitul - literalmente - cu plantele a creat botanisti si biologi de
+se afla in jurul tau si in tine . Vorbitul - literalmente - cu plantele a creat botanisti si biologi de
 frunte , precum si vindecatori de mare succes ,de mare eficienta . Atunci cand planta insasi te
 invata la ce sa o folosesti , se redescopera vechi secrete si miraculosul devine posibil . Intr-
 adevar , aceasta poate explica succesul terapeutic al unor vindecatori care deseori nu stiu sa
@@ -631,7 +631,7 @@ comunicarea intre vii si morti s-a facut auzit pana in esenta artei baroce, nu p
 desenele care ilustrau o ayahuasca, o peyota sau un mezcal. Cele mai fidele reproduceri se
 gasesc in tablourile lui Boch. Ceea ce, mai tarziu s-au numit droguri in lumea civilizata, aveau
 cu totul alta intrebuintare pentru shamanii Americii Latine. Ei legau cunoasterea absoluta de
-ajutorul acestor palnte care mutau puterea spiritului pe frecventa lumilor nevazute. O alta
+ajutorul acestor plante care mutau puterea spiritului pe frecventa lumilor nevazute. O alta
 dovada ca aceste substante erau folosite in scop sacru, chiar religios o regasim in „Don
 Quijote", unde Cervantes il descrie pe Clavileno, in clipa in care aiuritul cavaler trebuie sa
 plece in aventura calare pe un cal de lemn, alaturi de dolofanul Sancho Panza, caruia ii spune:
@@ -717,7 +717,7 @@ viziune , care , desi e personala , este deasemeni specifica posturii adoptate .
 cu toate ca viziunea este personala , ea se conformeaza unui cadru anume. Ritualul are o mare
 putere in aceasta realitate , este un mod de a combina inima,mintea , spiritul si trupul intr-o
 singura actiune fizica si o singura intentie.
-Religiile de peste tot din lume au recunoscut de mult importanta ritualului . Ritualul e un mod
+Religiile de peste tot din lume au recunoscut de mult importanta ritualului . Ritualule un mod
 de comunicare intre spirite si noi insine , este un mod prin care spiritele pot traversa din lumea
 lor , in a noastra . In societatea vestica , noi am uitat ca realitatea ordinara si cea non-ordinara
 sunt surori , ca sunt jumatati ale unui singur intreg.
@@ -832,7 +832,7 @@ biologice si spirituale. Hranindu-ne sinele spiritual si explorand conexiunea cu
 biologica putem deveni intregi si ne putem imputernici pe noi insine. Stramosii nostri
 indepartati, dar si cei mai apropiati in timp, erau mai putin limitati in ceea ce priveste
 experimentarea propriilor vieti. Aveau o intelegere bogata a numeroaselor dimensiuni si
-realitati, manifestind un interes profund pentru acestea.
+realitati, manifestand un interes profund pentru acestea.
 Populatiile indigene din lumea intreaga sunt astazi in masura sa ofere conexiuni directe cu
 practicile lor culturale shamanice. David Suzuki ne-a facut tuturor cunoscuta puterea
 cunoasterii indigene prin programele sale de televiziune intitulate Natura lucrurilor (The
@@ -847,7 +847,7 @@ timp ce toate traditiile shamanice sunt practicate in cadrul unei anumite cultur
 
 stransa prin abordarea antropologica ne ofera accesul la o viziune mai ampla a practicilor si
 ideilor legate de pamant, care strabate aceste culturi. Traditiile shamanice pornesc in general
-de la trei premise de baza: sintem cu totii un intreg, primim invatatura de la toate fiintele si
+de la trei premise de baza: suntem cu totii un intreg, primim invatatura de la toate fiintele si
 cautam armonia cu toate fiintele din toate dimensiunile. Stramosii nostri shamani aveau o
 cosmologie pe care o exprimau intr-una din versiunile despre lumea de jos, cea de sus si
 lumea de mijloc.
@@ -862,13 +862,13 @@ Conditiile climaterice ale Daciei, corelate cu bogatia celor geografice (ses, de
 curgatoare si tezaure minerale) au favorizat existenta in acest spatiu a unei incredibile
 diversitati de specii vegetale, multe fiind endemice, adica locale.
 Inca de pe vremea dacilor, o serie de plante ce cresc pe teritoriul de astazi al Romaniei erau
-intrebuintate ca ierburi de leac. Chiar expresiile neaos romanesti a lecui, leac, o leaca (intim
+intrebuintate ca ierburi de leac. Chiar expresiile neaos romanesti a lecui, leac, oleaca (intim
 inrudite cu grecescul oligo - putin) trimit la remedii in aparenta infime (cantitativ vorbind),
 care insa pot vindeca sau mentine sanatatea celor care le cunosc adevarata intrebuintare.
 Renumele unora dintre aceste plante merge pana acolo incat si astazi ele apar in perceptia
 populara ca fiind inzestrate cu virtuti vindecatoare magice, extraordinare, legate de o
 adevarata mitologie vegetala.
-Multe dintre plante sint considerate sfinte, precum Busuiocul (Ocimum basilicum), unele
+Multe dintre plante sunt considerate sfinte, precum Busuiocul (Ocimum basilicum), unele
 facand candva obiectul unui cult specific, asa cum este cazul Matragunei, al carei nume este
 cu totul consonant, in mod uimitor, cu doua cuvinte din vocabularul mistic al Vedelor (matra
 si guna). Acest cult urmareste intotdeauna rezultate din domeniul medicinei magice, cum este
@@ -984,7 +984,7 @@ Laptele
  Un leac stravechi, intaritor
 Laptele, foarte gras si hranitor, este considerat un leac cu actiune lenta, dar sigura pentru
 multe suferinte. Se dovedeste eficient pentru ca fortifica organismul si intareste imunitatea
-naturala in bolile insotite de anemie, lipsa poftei de mincare si stari depresive: TBC (in special
+naturala in bolile insotite de anemie, lipsa poftei de mancare si stari depresive: TBC (in special
 cu localizare pulmonara), anemii, dezechilibre hormonale cu pierdere in greutate, cancere in
 forme incipiente, convalescente, afectiuni paratiroidiene care genereaza spasmofilii rebele la
 tratamente clasice, atrofii musculare, astenie de primavara.
@@ -997,17 +997,17 @@ Vindeca: boli oftalmologice conjunctivita, cataracta, bolile urechilor, ulcerati
 Esente de conifere
 Era folosita ca frectie pentru efect deopotriva tonic si reconfortant, pentru a elimina stresul si
 
-a intari sistemul imunitar in fata bolilor, esentele de conifere erau la indemina oricui. Foarte
+a intari sistemul imunitar in fata bolilor, esentele de conifere erau la indemana oricui. Foarte
 eficienta este si o fiertura de cetina.
 Urzica, detoxifiant si intaritor
 De-a lungul timpului, ceaiul de urzici a fost utilizat ca un detoxifiant al sistemului circulator,
-avind darul de a purifica singele si de a inlatura toxinele din organism. Mai mult, este un
-foarte bun reglator al nivelul zaharului din singe.Cel mai bun pentru curatirea sangelui este
+avand darul de a purifica sangele si de a inlatura toxinele din organism. Mai mult, este un
+foarte bun reglator al nivelul zaharului din sange.Cel mai bun pentru curatirea sangelui este
 ceaiul obtinut dintr-un amestec de frunze uscate de urzica, papadie si mesteacan.Pentru
 anemici, ca intaritor, foarte bun este un amestec din frunze uscate de urzica si menta.
-Tintaura, numita popular si "fierea pamintului", se folosea numai partea aeriana a plantei, care
+Tintaura, numita popular si "fierea pamantului", se folosea numai partea aeriana a plantei, care
 se recolteaza in timpul infloririi. Efectul acestui remediu este de marire a contractiei veziculei
-biliare si de scaderea febrei., regla functionarea mecanismului de eliminare a bilei, asigurind
+biliare si de scaderea febrei., regla functionarea mecanismului de eliminare a bilei, asigurand
 circulatia bilei de la vezicula spre duoden. La fel de bun pentru rezolvarea unor probleme
 biliare era vinul tonic preparat din tintaura. Siropul se administra in caz de dezechilibre biliare
 atit la copii - 50 ml, cit si la adulti –
@@ -1016,10 +1016,10 @@ Leacuri populare impotriva racelii
 Ceapa
 Ceapa taiata marunt se pun apa calduta cu miere si se lasa la infuzat . In cazul nasului infundat
 se puneau in nas picaturi din aceasta solutie. In cazuri de angina ceapa taiate marunt, pusa la
-fiert in lapte pina se cu un pahar de miere. sau se poate face gargara cu o emulsie de suc de
+fiert in lapte pana se cu un pahar de miere. sau se poate face gargara cu o emulsie de suc de
 ceapa intr-o solutie de apa cu sare.
 Impotriva tusei, se curata 2 cepe de dimensiuni medii, se taie marunt, se adauga un sfert de
-pahar de zahar tos, 3-4 pahare de apa si se fierb pina se obtine un sirop gros. Se ia cite o
+pahar de zahar tos, 3-4 pahare de apa si se fierb pana se obtine un sirop gros. Se ia cite o
 lingura la fiecare 3 ore. In caz de angina, se fac inhalatii cu aburii emisi de acest amestec.
 Durata tratamentului este de 30-40 de zile, iar dupa o luna de pauza, se repeta terapia.
 Inhalarea aburilor de ceapa vindeca, de asemenea, guturaiul. Ca mijloc de inhalare, terciul din
@@ -1034,7 +1034,7 @@ dimineata, la prinz si seara. Sucul de ceapa si usturoi, , se folosea pentru inh
 afectiunile cailor respiratorii: bronsite, laringite, traheite.
 Printre remediile naturale contra indigestiei si arsurilor stomacale se afla sucul de morcovi si
 sfecla alba. Dintre ceaiuri, se remarca infuzia de menta, ceaiul de musetel, scoarta de ulm si
-ceaiul de ghimbir. Sucul proaspat de cartof, carbune medicinal sint, de asemenea, foarte utile.
+ceaiul de ghimbir. Sucul proaspat de cartof, carbune medicinal sunt, de asemenea, foarte utile.
 Pentru a scapa de arsurile la stomac pot fi utilizati fulgii de hrisca prajiti. Impotriva arsurilor
 stomacale, un mijloc de tratament extraordinar era coaja de ou uscata si pisata si rozmarin,frunze de
 sunatoare si coada soricelului.\
@@ -1075,7 +1075,7 @@ Eczeme, infectii ale pielii, hemoroizi - rasina de brad se amesteca cu o cantita
 incins si, eventual, cu putina ceara curata de albine, dupa care se lasa la racit. Se obtinea o
 unsoare cu efecte calmante si cicatrizante exceptionale, cu care se ungeau zonele afectate o
 data sau de doua ori pe zi.
-Frunzele de fierea pamintului inlatura gazele din stomac, acizii daunatori, mentine si
+Frunzele de fierea pamantului inlatura gazele din stomac, acizii daunatori, mentine si
 imbunatateste sucul gastric si influenteaza pozitiv ficatul si rinichii.
 Punerea capului deasupra unei oale cu apa fierbinte sau ceai fierbinte ce degaja aburi era un
 bun tratament pentru piele, boli de urechi, sa spunem ca erau „tratamente cu abur”.
@@ -1099,7 +1099,7 @@ Frectii cu otet pentru febra sau dureri abdominale.
 Mierea era folosita la boli de stomac, gastrite si ulcer.
 Dar, cum am vorbit la inceputul cursului, leacurile pentru a avea efect trebuie sa fie insotite de
 „chemarea supranaturalului” prin descantece.
-Descantecul e o forma de magie. Are efect doar cu "uneltele" vrajitoarei.
+Descantecule o forma de magie. Are efect doar cu "uneltele" vrajitoarei.
 Se spune ca arta descantecului "se fura", nu se invata. Ca femeile cunoscatoare nu au voie sa
 explice descantecul, ci doar sa-l rosteasca, insotit de alte cateva elemente magice. Transmise
 de la o femeie initiata catre novice, doar prin viu grai,
@@ -1624,9 +1624,9 @@ dihidrocarveol, 10-20% lipide, 20% substante albuminoide, 5-6% substante mineral
 glucide, rezine, tanoizi etc.
 CIMBRUL
 Numit si buruiana-de-balsam, cimbrusor, cimbru-de-cimp, cimbru-salbatic, iarba-cucului,
-lamaita, sarpun, tamiita, timian, cimbru creste pe pasune insorite, pe povarnisuri si pe liziere
-inguste si prefera musuroiul mic de furnici de pe cimpii. Are nevoie de multa cladura si mult
-soare; de aceea ii plac suprafetele pietroase si pasunile alpine unde caldura pamintului radiaza
+lamaita, sarpun, tamaita, timian, cimbru creste pe pasune insorite, pe povarnisuri si pe liziere
+inguste si prefera musuroiul mic de furnici de pe campii. Are nevoie de multa caldura si mult
+soare; de aceea ii plac suprafetele pietroase si pasunile alpine unde caldura pamantului radiaza
 in mod special. In arsita soarelui amezii, din pernitele florilor violete se revarsa un parfum
 foarte aromat care atrage insecte si albine. Au o mireasma cu totul aparte.
 Cimbrul a venit la noi in secolul al XI-lea din tarile mediteraneene, iar speciile cultivate si
@@ -1666,8 +1666,8 @@ la 16% acid salicilic, care o face atat de pretioasa. Planta care creste pe tere
 chimic nu trebuie utilizata. Coada-calului cu ramurile cele mai fine - Coada-calului-de-
 padure, Equisetum sylvaticum, care creste pe marginile padurilor si crangurilor, are, de
 asemenea, proprietati medicinale.
-COADA SORICELUILUI
-Alte denumri: alunele, braditel, ciuresica, crestatea, crivalnic, garva, iarba-oilor, iarba-
+COADA SORICELULUI
+Alte denumri: alunele, braditel, ciuresica, crestatea, crivalnic, grava, iarba-oilor, iarba-
 stranutatoare, prisnel, rotatele-albe, sorocina. Coada-soricelului este o planta medicinala
 careia nu putem sa nu-i rezervam un loc in viata noastra. Desi ea constituie sprijinul nostru de
 baza in unele maladii grave, este considerata in primul rand o planta de leac pentru femei. Ea
@@ -1763,7 +1763,7 @@ salbatic, aiuti, aliu, aliu-de-iunie, leoarda sau leorda, face parte dintre aces
 primaverii. Frunzele, de un verde proaspat, lanceolate, lucioase, asemanatoare celor ale
 lacramioarei, ies dintr-un bulb lunguiet care este inconjurat de membrane albe, transparente.
 Tulpina neteda, de un verde deschis, impreuna cu potirul alb ajung la o inaltime de 30 de
-centimetri. Leurda creste numai in cimpii bogate in humus si umede, sub tufisuri, in paduri de
+centimetri. Leurda creste numai in campii bogate in humus si umede, sub tufisuri, in paduri de
 foioase si alpine. I se simte puternicul miros de usturoi chiar inainte de a zari planta. El i-a si
 adus in popor numele de „ai” – salbatic, de padure – insemnand usturoi; acest miros exclude
 fara nici o indoiala orice confuzie cu frunzele lacramioarei sau cu otravitoarea brandusa de
@@ -1818,7 +1818,7 @@ Casul-popii cu frunze mici (M. vulgaris) – numit si banuti, cas, colacel, covr
 salbatica, nalba-rotunda, turtele – creste pe langa garduri, margini de drum, ziduri vechi si
 grohotisuri de panta, insa numai in imediata apropiere a unei regiuni populate. Daca este gasit
 vreodata departe de orice asezare omeneasca, este sigur ca acolo a fost odata o casa, o ferma
-sau o curte. Casul-popii cu frunze mari (Malva grandifolia – M. silvestris) este genreal
+sau o curte. Casul-popii cu frunze mari (Malva grandifolia – M. silvestris) este general
 cunoscut sub numele de nalba, eventual nalba-alba, nalba-de-camp, nalba-mica. Aceste plante,
 
 ca si alte varietati de la Malva, sunt raspandite prin gradinile de flori si zarzavat. Ele contin in
@@ -1871,7 +1871,7 @@ iernii, o acopar usor cu crengi de molid, deoarece este deosebit de sensibila la
 subspecie, Salvia pratensis, cunoscuta sub denumirile de buruiana-milcedului, coada-vacii,
 gavat, jale, jales, jales-salbatic, jales-de-cimp, jales-de-padure, salvie, salvie-de-cimpuri,
 salvie-salbatica, se gaseste pe povarnisuri, pasuni si campii. De departe se vad stralucind
-florile-i albastrui-violete care raspindesc o mireasma plina de arome.
+florile-i albastrui-violete care raspandesc o mireasma plina de arome.
 SANZIENELE
 Exista mai multe soiuri de Galium: lipicioasa (Galium aparine), numita si asprisoara, cornatei,
 iarba-lipitoare, turtita, este raspandita pe ogoare, campii si de-a lungul gardurilor, fiind de
@@ -1879,7 +1879,7 @@ aceea combatuta de tarani cu ierbicide. Atinge o inaltime de 60-160 centimetri, 
 frunzelor verticilata (asezata in jurul unei axe in acelasi nivel) si umbele alb-verzui
 pedunculate. Datorita tulpinii cu par aspru, aceasta planta este o „cataratoare”, fiind numita de
 aceea „lipicioasa” sau „iarba-lipitoare”. Dragaica (Galium verum), numita si floarea-lui-
-Sf.Ion, inchegatoare, sanziene, sanziene- galbene, smintinica, prefera inaltimile, se tine drept,
+Sf.Ion, inchegatoare, sanziene, sanziene- galbene, smantanica, prefera inaltimile, se tine drept,
 ajunge la o inaltime de 30-60 cetimetrii si are flori galben-aurii cu mireasma puternica de
 miere. Planta inflorita este culeasa in iulie. Sanzienele (Galium mollugo), numite si dragaica,
 peteala-reginei, sanziana-alba, au florile
@@ -1902,7 +1902,7 @@ culoare neagra-violacee, lucioase, cu diametrul de 3-5 mm in stare uscata, de ob
 seminte ovoidale, brune in interior. Mirosul este caracteristic iar gustul dulceag, slab acrisor.
 SUNATOAREA
 Aceasta planta care infloreste la margine de drumuri si paduri, pe dealuri si campii, din iulie
-pina in septembrie, se mai numeste in limbaj popular si buruiana-de-naduf, buruiana-de-pe-
+pana in septembrie, se mai numeste in limbaj popular si buruiana-de-naduf, buruiana-de-pe-
 rozor, crucea-voinicului, drobisor, floarea-lui-loan, hemei-de-pamant, lemnie, inchegatoare,
 osul-iepurelui, pojar, pojarnita, sburatoare, sunaica, sovarvarita. Planta atinge o inaltime de
 25-60 centimetri, are o tulpina lunga si ramificata si infloreste in cime galben-aurii. Pentru a o
@@ -1949,7 +1949,7 @@ pamant - mai ales cand se construiesc case - si imediat apare, aproape peste noa
 ciobanului. In limbajul popular i se mai zice si arior, buruiana-de-friguri, coada-pisicii,
 pasatel, pascuta, pastele-cailor, punga-babei, punga-popii, pungulita, rapan, straita-popii sau
 tasculita. Frunzele zimtate neregulat formeaza - asemanator papadiei - o rozeta. Tulpina
-ajunge pina la o inaltime de 40 centimetri. Perioada de inflorire: martie-noiembrie. Florile,
+ajunge pana la o inaltime de 40 centimetri. Perioada de inflorire: martie-noiembrie. Florile,
 foarte mici, de un alb murdar, sunt umbeliforme, alcatuind o inflorescenta in forma de
 ciorchine; de tulpinitele subtiri atarna micile pastai (fruct capsula) sub forma de inimioare si
 amintind la pipait de pielea prelucrata. -Orataniile au o preferinta speciala pentru traista-
@@ -1966,15 +1966,15 @@ URZICA
 Un medic a aratat odata intr-un discurs la radio ca urzica - numita si urzica-creata, urzica-
 mare sau urzica-de-padure - este una dintre cele mai bune plante de leac pe care le avem. Deci
 
-daca oamenii ar sti ce efect tamaduitor are, n-ar mai cultiva decti urzici. Din pacate sint foarte
-putini cet care cunosc acest lucru. Urzica este curativa incepind de la radacina, continuind cu
+daca oamenii ar sti ce efect tamaduitor are, n-ar mai cultiva decti urzici. Din pacate sunt foarte
+putini cet care cunosc acest lucru. Urzica este curativa incepand de la radacina, continuind cu
 tulpina si frunzele si terminind cu florile. Inca din antichitate se bucura de multa apreciere.
 VISCUL
 Cine nu cunoaste acea planta care traieste ca semiparazit pe foioase si conifere, fixata cu
 ajutorul radacinilor sale sugatoare si imprastiate si pe care n-o mai putem indeparta din viata
 noastra gratie puterii sale tamaduitoare? Ea creste sferic pe ramurile plantei-gazda. Frunzele
 vesnic verzi sunt pieloase. Fructele, in forma unor bobite, sunt albicioase, putin sticloase, in
-interior viscoase si lipicioase. Pasarile raspindesc saminta cleioasa, frecand-o cu ciocul de
+interior viscoase si lipicioase. Pasarile raspandesc saminta cleioasa, frecand-o cu ciocul de
 crengi sau eliminind-o nedigerata in excremente. Numai asa este posibila inmultirea plantei,
 caci s-a dovedit ca saminta ei nu ajunge sa incolteasca nici pusa in apa, nici in pamant. Viscul
 se mai intalneste in popor si sub alte denumiri, cum ar fi: stoletnic, vase, vasc-de-par, vasc-de-
@@ -2022,7 +2022,7 @@ Aromoterapie, cuvant olosit pentru intaia data in1928 de catre chimistul francez
 Maurice Gattefosse in cartea sa „Aromoterapia” .
 Uleiurile volatile sunt extrase din diferire parti ale plantelor, seminte, radacina, scoarta
 etc. Cel mai utilizat procedeu de obtinere este distilarea. Alte metode ar fi: extragere cu
-ajutorul grasimilor , presare, sublimare si absortie. Necesita o cantitate mare de plante, de
+ajutorul grasimilor , presare, sublimare si absorbtie. Necesita o cantitate mare de plante, de
 exemplu:
 - 1 kg de aroma de chimen se obtine din 20 kg de chimen.
 - 1 kg de aroma de levantica se obtine din 100 kg de vlastar.
@@ -2034,7 +2034,7 @@ Caracteristicile uleiurilor volatile
 Ele se pot clasifica in trei tipuri dupa gradul de volatilitate:
 1.Primul tip: puternic volatile
  Sunt cele mai volatile substante
- Adesea se obtin din citrice, de exemplu: lamiie, portocala, mandarine, lamiie verde.
+ Adesea se obtin din citrice, de exemplu: lamaie, portocala, mandarine, lamaie verde.
  Se evapora cel mai repede
  Au un miros puternic
  Au efect stimulator
@@ -2042,12 +2042,12 @@ Ele se pot clasifica in trei tipuri dupa gradul de volatilitate:
  Dureaza putin.
 2. Al doilea tip: mediu volatile
  Se mentin timp 2-3 ore inainte de a se evapora
- De obicei se obtin din flori si plante cum sint lavanda, geraniul, maghiran
+ De obicei se obtin din flori si plante cum sunt lavanda, geraniul, maghiran
  Se evapora moderat
  Au efect asupra organelor.
 3. Al treilea tip: slab volatile
  Au cel mai scazut grad de volatilitate
- Se obtin adesea din lemn si rasini, cum sint santalul, mirtul, tamiia
+ Se obtin adesea din lemn si rasini, cum sunt santalul, mirtul, tamaia
  Se evapora foarte greu
  Au o aroma puternica de lemn
  Au un efect relaxant
@@ -2082,7 +2082,7 @@ sunt iritante pentru piele si mucoase. Astfel, pentru o baie se pun 4-6 picaturi
 apoi se toarna in cada si se amesteca bine. Baia va dura 10-20 minute.
 Comprese
 O compresa fierbinte este un mod eficient de a trata multe probleme ale pielii, ca de exemplu
-injectiile, sau durerile mulsculare de natura reumatica.
+injectiile, sau durerile musculare de natura reumatica.
 Pentru a pregati o compresa se toarna apa fierbinte (cam o jumatate de litru) intr-un bol, si se
 adauga ulei esential. Cantitatea de ulei depinde de suprafata pielii pe care aplicati compresia:
 2 picaturi pentru suprafete mici, 6-8 picaturi pentru suprafete mari. Se agita bine, apoi se
@@ -2136,7 +2136,7 @@ puternic ori sa se striveasca intre degete o frunza pentru a se obtine o aromati
 6. Ienupar (Juniperus communis) - In vechime, ienuparul era ars, la fel ca si tamaia, pentru
 alungarea spriritelor rele. Uleiul de ienupar are un efect de reechilibrare si calmare in plan
 
-psihic, fiind tonic al nervilor. Elimina starile depresive, anixietatea, stresul, grijile excesive.
+psihic, fiind tonic al nervilor. Elimina starile depresive, anxietatea, stresul, grijile excesive.
 Confera o stare de forta interioara, incredere in sine. Regleaza viata sentimentala si ne
 scuteste de oscilatii. Este foarte recomandat persoanelor care trec cu usurinta de la o stare de
 entuziasm la o stare astenica.
@@ -2220,7 +2220,7 @@ clinice puncte specifice de tensiune in corp, care atunci cand sunt manipulate a
 deosebit de amaliorare a durerii musculo-scheletale. Locatia acestor puncte se coreleaza in
 mod remarcabil cu punctele de acupunctura din medicina traditionala chineza.
 Explicatia medicinei orientale
-In Japonia, medicina orientala este numita medciina energiei vitale. Explicatia eficientei sale
+In Japonia, medicina orientala este numita medicina energiei vitale. Explicatia eficientei sale
 se bazeaza pe un model energetic (in timp ce in medicina vestica se pune accent pe un model
 biochimic). Medicii asiatici din antichitate au stabilit ca aceasta energie vitala (Qi, in chineza)
 circula in organism de-a lungul unor meridiane si leaga intre ele organele si diversele parti ale
@@ -2442,12 +2442,12 @@ Importanta ambelor dimensiuni presupune investigatii anuale, pentru a fi sigur c
 ul spatial al usilor si camerelor de acasa ori de la birou nu are de suferit de pe urma
 perturbarilor anuale, legate de timp.
 Feng Shui este si o practica creativa si trebuie sa imprimam putin din energia proprie
-in spatiul nostru, pentru ca Feng Shui-ul sa ne fie efficient. Pentru a crea un spatiu fericit, nu
+in spatiul nostru, pentru ca Feng Shui-ul sa ne fie eficient. Pentru a crea un spatiu fericit, nu
 
 trebuie folosit nimic, nici o culoare in zugravire, nici un obiect de arta, daca nu ne place.
 Fiecare colt din casa va avea de castigat daca ii acordam atentie. Daca facem fericite colturile
 locuintei, acestea ne vor rasplati inmiit.
-Urmand metoda Pa Kua, se folosesc 2 notiuni, si anume: Tai-chi mare si tai chi mic.
+Urmand metoda Pa Kua, se folosesc 2 notiuni, si anume: Tai-chi mare si tai chimic.
 Tai-chi mare se aplica macrocomosului, deci intregii case (se suprapune Pa Kua peste planul
 intregii case, orientandu-ne in functie de punctele cardinale). Locuinta este privita ca o
 entitate spatiala unica. Tai-chi mic se aplica microcosmosului, deci fiecarei camere in parte.

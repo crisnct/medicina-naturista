@@ -32,7 +32,7 @@ Tabelul contine dozele zilnic recomandate (DZR) alaturi de dozele maxim admise (
  potasiu g 1,0
  fluor mg 1,0
  fosfor mg 800,0 700,0
- magnesiu mg 300,0 400,0
+ magneziu mg 300,0 400,0
  iod mg 150,0 200,0
  cobalt mg 10,0
  litiu mg 1,0

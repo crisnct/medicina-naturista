@@ -34,7 +34,7 @@ Si acest lucru este important. In studiul bitter-ului, de exemplu, ai vazut ca e
 
  Otetul este extrem de util in bucatarie. Cu toate acestea, oamenii de multe ori se limiteaza la otetul din malt. Acesta are intr-adevar o utilizare limitata, eventual numai pentru peste si chips-uri\!
 
-Otetul din cidru de mere este un lucru bun si sanatos sa-l ai in bucatarie, deoarece este un medicament foarte fin. Unii oameni sustin ca un pahar mic in fiecare dimineata, combinat cu o linguritade miere, ca un tonic general e un ajutor pentru suferinzii reumatici. Trebuie luat cu grija, desigur, in cazul in care persoana respectiva sufera de indigestie sau arsuri la stomac. Otetul de vin este minunat, versatil, dar mai scump.
+Otetul din cidru de mere este un lucru bun si sanatos sa-l ai in bucatarie, deoarece este un medicament foarte fin. Unii oameni sustin ca un pahar mic in fiecare dimineata, combinat cu o lingurita de miere, ca un tonic generale un ajutor pentru suferinzii reumatici. Trebuie luat cu grija, desigur, in cazul in care persoana respectiva sufera de indigestie sau arsuri la stomac. Otetul de vin este minunat, versatil, dar mai scump.
 
 Ca vanzator de plante medicinale, ar trebui sa incepi sa faci o multime de oteturi pe baza de plante. Acestea sunt foarte usor de facut si distractiv de utilizat. Ia o jumatate de litru de vin sau otet de cidru de mere si incalzeste-l pana cand acesta este pe cale de a fierbe. Apoi toarna-l peste o jumatate de cana de frunze proaspete dorite, care au asteptat deja intr-un borcan. In mod ideal, borcanul ar trebui sa fie sub forma de sticla cu dop. Borcanul este bine agitat, apoi pus intr-un loc insorit (acoperit). In fiecare zi trebuie agitat. Dupa 3 saptamani ar trebui sa fie gata. Practic, orice planta de gradina pot fi preparata intr-un astfel de otet.
 
@@ -76,9 +76,9 @@ Pachetele de plante merita, de asemenea, sa fie folosite. Pe acestea le toci mar
 
 ## PAINE
 
- Painea din faina integrala este excelenta pentru sanatate. Ai vazut mai devreme ca este bogata in antioxidanti. Daca o prepari singur, atunci vei controla ingredientele. Painea facuta acasa este de obicei superioara painii produse in masa.|Te incurajez sa incepi sa o faci acasa. Oamenii reununta de multe ori la ideea de a face paine, deoarece ei cred ca exista un secret pentru ea, ca si cand aceastaar fi o arta care poate fi invatata doar prin traditie. Nu este insa cazul. Ai nevoie doar de un cuptor bun fierbinte si ingredientele necesare.
+ Painea din faina integrala este excelenta pentru sanatate. Ai vazut mai devreme ca este bogata in antioxidanti. Daca o prepari singur, atunci vei controla ingredientele. Painea facuta acasa este de obicei superioara painii produse in masa.|Te incurajez sa incepi sa o faci acasa. Oamenii renunta de multe ori la ideea de a face paine, deoarece ei cred ca exista un secret pentru ea, ca si cand aceastaar fi o arta care poate fi invatata doar prin traditie. Nu este insa cazul. Ai nevoie doar de un cuptor bun fierbinte si ingredientele necesare.
 
- Poti varia cantitatile cum doresti, dar sunt sigur ca pofta de mancare (si a celor din familie) va cere ,incurand, aprovizionarea regulata cu paine. Pentru aceasta ai nevoie de:
+ Poti varia cantitatile cum doresti, dar sunt sigur ca pofta de mancare (si a celor din familie) va cere ,in curand, aprovizionarea regulata cu paine. Pentru aceasta ai nevoie de:
 
 100 de grame de drojdie proaspata
 
@@ -100,7 +100,7 @@ Se toarna faina intr-un castron mare de copt si se adauga cele 8 linguri de sare
 
 Apoi se adauga aproximativ 200 ml de apa calda si se amesteca pasta cu o lingura din lemn. Vei vedea ca amestecul va incepe sa fermenteze aproape imediat. Arunca un varf de cutit de faina pe suprafata amestecului de drojdie. Acest lucru va face ca aluatul sa inceapa sa se formeze rapid si sa faca bule in spuma foarte fina. Pune acest amestec pe partea de sus a cuptorului sau intr-un loc cald pana cand creste cu cel putin un centimetru deasupra suprafetei \- de preferinta doi centimetri.
 
-Dupa ce amestecul de drojdie este gata, se amesteca cu faina, cu lingura de lemn. Dupa aceea, se toarna cele patru linguri de ulei demasline. Se amesteca din nou aceasta, apoi se adauga restul de apa calda, cate putin, amestecand tot timpul. Odata ce amestecul incepe sa se miste bine, poti incepe sa folosesti mainile pentru a framanta aluatul in castron. Daca e prea multa apa aluatul va fi, evident, prea umed si se va lipi de maini ca lipiciul. In acest caz, adauga faina si framanta bine. Pe de alta parte, in cazul in care nu exista suficienta apa, aluatul va fragmentat. Adauga mai multa apa, in consecinta.
+Dupa ce amestecul de drojdie este gata, se amesteca cu faina, cu lingura de lemn. Dupa aceea, se toarna cele patru linguri de ulei de masline. Se amesteca din nou aceasta, apoi se adauga restul de apa calda, cate putin, amestecand tot timpul. Odata ce amestecul incepe sa se miste bine, poti incepe sa folosesti mainile pentru a framanta aluatul in castron. Daca e prea multa apa aluatul va fi, evident, prea umed si se va lipi de maini ca lipiciul. In acest caz, adauga faina si framanta bine. Pe de alta parte, in cazul in care nu exista suficienta apa, aluatul va fragmentat. Adauga mai multa apa, in consecinta.
 
 Dupa ce aluatul se framanta bine, se scoate din castron si se continua framantarea pe o suprafata neteda, presarata cu faina. Framanta timp de cinci minute si apoi inlocuieste bila de aluat in bol. Acopera vasul cu un prosop umed si lasa la dospit pentru aproximativ douazeci de minute, pana se ridica la aproape dublul dimensiunii sale. Scoate aluatul si adu-l inapoi la dimensiunea sa originala. Apoi taie in 4 bucati egale. Framant-o pe fiecare pentru cateva minute, apoi pune-o intr-o tava de copt unsa cu ulei. .Aluatul va continua sa creasca. Ia un cutit ascutit si fa mai multe dungi pe diagonala paralele pe partea de sus a painii. Daca nu faci acest lucru, painea se va umfla si va depasi tava.
 

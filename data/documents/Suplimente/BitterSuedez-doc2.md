@@ -30,7 +30,7 @@
 
 Acest amestec se pune intr-o sticla de 2 litri cu gatul larg si se pune la loc intunecat si calduros timp de 14 zile. In fiecare zi se agita foarte bine sticla. Dupa 14 zile lichidul se strecoara si se pune in sticle mici care se inchid ermetic si se pastreaza la racoare. Sticla trebuie agitata bine inainte de intrebuintare!
 
-Reteta a fost gasita dupa moartea renumitului medic suedez, rectorul Facultatii de medicina, dr. Samst, printre scrisorile sale. Dr. Samst a murit intr-un accident de calarie la virsta de 104 ani. Parintii si bunicii lui atinsesera si ei o varsta venerabila.
+Reteta a fost gasita dupa moartea renumitului medic suedez, rectorul Facultatii de medicina, dr. Samst, printre scrisorile sale. Dr. Samst a murit intr-un accident de calarie la varsta de 104 ani. Parintii si bunicii lui atinsesera si ei o varsta venerabila.
 
 **Pentru uz intern**
 
@@ -112,57 +112,57 @@ Pentru uz extern, va fi folosit sub forma de comprese, dupa ce se da in prealabi
 
 **Alte recomandari:**
 
-1\. Daca se miroase sau se trage pe nas mai des, se umezeste vertebra cervicala, se pune o cirpa umeda pe cap, alunga **durerea si ameteala, intaresc memoria si creierul**, \
-2. Ajuta contra **ochilor tulburi,** inlaturindu-le **roseata** si toate durerile, chiar cind ochii sunt injectati, impaienjeniti. Ele alunga chiar petele si cataracta, daca se umezeste coada ochilor la timp sau se pune o cirpa umeda pe ochii fnchisi. \
+1\. Daca se miroase sau se trage pe nas mai des, se umezeste vertebra cervicala, se pune o carpa umeda pe cap, alunga **durerea si ameteala, intaresc memoria si creierul**, \
+2. Ajuta contra **ochilor tulburi,** inlaturindu-le **roseata** si toate durerile, chiar cand ochii sunt injectati, impaienjeniti. Ele alunga chiar petele si cataracta, daca se umezeste coada ochilor la timp sau se pune o carpa umeda pe ochii fnchisi. \
 3. **Pustulele de varsat si eruptiile** de tot felul, de asemenea crusteie din nas sau de oriunde pe trup sunt vindecate, daca stnt umezite des si bine. \
-4. In caz de **dureri de dinti**, se pune in putina apa o lingura plina cu aceste picaturi si se tine citva timp acest lichid in gura sau se umezeste dintele dureros cu o bucata de cirpa. Durerea dispare si infectia se retrage treptat. \
+4. In caz de **dureri de dinti**, se pune in putina apa o lingura plina cu aceste picaturi si se tine citva timp acest lichid in gura sau se umezeste dintele dureros cu o bucata de carpa. Durerea dispare si infectia se retrage treptat. \
 5. **Basicile de pe limbi** sau alte leziuni care apar pe limba sunt umezite sistematic cu aceste picaturi, drept care se vor vindeca in scurt timp. \
-6. Daca **gitut este infierbintat sau ranit,** incit cineva numai cu greu poate inghiti mincarea si bautura, sa ia dimineata si seara din picaturi. Sa fie lasate sa alunece si ele vor lua fierbinteala si vor vindeca gitlejul. \
+6. Daca **gitut este infierbintat sau ranit,** incit cineva numai cu greu poate inghiti mancarea si bautura, sa ia dimineata si seara din picaturi. Sa fie lasate sa alunece si ele vor lua fierbinteala si vor vindeca gitlejul. \
 7. Cine are **crampe stomacaie** sa ia la o criza o lingura plina. \
-8. In **colici** sa se ia trei linguri piine, incet, una dupa alta, curind se va simti alinarea. \
+8. In **colici** sa se ia trei linguri piine, incet, una dupa alta, curand se va simti alinarea. \
 9. Picaturile risipesc in organism gazele si potolesc ficatul, izgonesc toate bolile de stomac si pe cele ale matelor si ajuta in constipatie. \
-10. Sunt si un **leac excelent pentru stomac**, daca acesta digera prost si nu pastreaza mincarurile. \
-11. Tot asa ajuta si in **durerile veziculei biliare.** Zilnic dimineata si seara o lingura plina, iar noaptea comprese cu picaturi si toate dureriie vor pieri curind. \
-12. In caz de **hidropizie** sa se ia sase saptamini la rind dimineata si seara o lingura plina in vin alb. \
+10. Sunt si un **leac excelent pentru stomac**, daca acesta digera prost si nu pastreaza mancarurile. \
+11. Tot asa ajuta si in **durerile veziculei biliare.** Zilnic dimineata si seara o lingura plina, iar noaptea comprese cu picaturi si toate dureriie vor pieri curand. \
+12. In caz de **hidropizie** sa se ia sase saptamani la rand dimineata si seara o lingura plina in vin alb. \
 13. La **durerile de urechi si la vijiitul in urechi** sa se umezeasca un tampon mic si sa se vire in ureche. Ajuta foarte bine si readuce chiar si auzul pierdut. \
-14. Daca o femeie are **dureri postnatale** sa i se dea trei zile la rind dimineata o lingura plina in vin rosu, sa fie pusa sa faca dupa o jumatate de ora o plimbare, dupa aceea poate sa manince de dimineata, dar sa nu ia lapte. Sa nu fie luate picaturile cind se bea lapte. \
-15. Daca se ia in ultimeie 14 zile de sarcina dimineata si seara o lingura, se **grabeste nasterea**. Pentru a scapa mai usor de placenta, se da lauzei o data la doua ore o lingurita plina, pina ce placenta este expulzata fara dureri. \
+14. Daca o femeie are **dureri postnatale** sa i se dea trei zile la rand dimineata o lingura plina in vin rosu, sa fie pusa sa faca dupa o jumatate de ora o plimbare, dupa aceea poate sa manance de dimineata, dar sa nu ia lapte. Sa nu fie luate picaturile cand se bea lapte. \
+15. Daca se ia in ultimeie 14 zile de sarcina dimineata si seara o lingura, se **grabeste nasterea**. Pentru a scapa mai usor de placenta, se da lauzei o data la doua ore o lingurita plina, pana ce placenta este expulzata fara dureri. \
 16. Daca dupa nastere apar **inflamatii la venirea laptelui**, ele sunt indepartate rapid prin aplicarea cirpelor umede. \
-17. Ele izgonesc **varicela** din copii. Sa se dea copiilor in functie de virsta din aceste picaturi difuate in apa. Cind bubulitele incep sa se usuce, sa fie umezite mai des \
-cu picaturi, atunci nu vor ramine semne de la varsat. \
-18. Picaturile folosesc copiilor si adultilor impotriva **viermilor**, chiar si **tenia** este alungata de ele, numai ca ele trebuie administrate copiilor in functie de virsta. Sa se lege o cirpa umezita cu picaturi pe buric, sa se tina mereu umeda. \
-19. Toate suparariie provocate de **icter** sunt date curind deoparte, daca se ia de trei ori pe zi o lingura din aceste picaturi si se pun comprese pe ficatul umflat. \
+17. Ele izgonesc **varicela** din copii. Sa se dea copiilor in functie de varsta din aceste picaturi difuate in apa. Cind bubulitele incep sa se usuce, sa fie umezite mai des \
+cu picaturi, atunci nu vor ramane semne de la varsat. \
+18. Picaturile folosesc copiilor si adultilor impotriva **viermilor**, chiar si **tenia** este alungata de ele, numai ca ele trebuie administrate copiilor in functie de varsta. Sa se lege o carpa umezita cu picaturi pe buric, sa se tina mereu umeda. \
+19. Toate suparariie provocate de **icter** sunt date curand deoparte, daca se ia de trei ori pe zi o lingura din aceste picaturi si se pun comprese pe ficatul umflat. \
 20. Descongestioneaza toti **hemoroizii**, **vindeca rinichii**, elimina lichidele ipohondrice din organism fara alta cura, indeparteaza melancolia si depresiunile si stimuleaza apetitul si digestia. \
 21. Se descongestioneaza **hemoroizii** si pe dinauntru, daca sunt umeziti la inceput mai des si sunt muiati prin administrarea interna a picaturilor, in special inainte de \
-culcare. Sa se puna extern un mic tampon umed cu picaturi. Face surplusul de singe sa curga si ajuta contra usturimilor. \
+culcare. Sa se puna extern un mic tampon umed cu picaturi. Face surplusul de sange sa curga si ajuta contra usturimilor. \
 22. Daca cineva a **lesinat**, i se deschide la nevoie gura, i se toarna o lingura de picaturi si bolnavul isi va reveni. \
 23. Prin administrare interna, acest mijloc goneste si durerea convulsiilor (spasrnelor), asa ca vor inceta cu timpul. \
-24. In caz de **tuberculoza pulmonara** sa se ia zilnic aceste picaturi pe stomacul gol si sa se continue cura timp de sase saptamini. \
+24. In caz de **tuberculoza pulmonara** sa se ia zilnic aceste picaturi pe stomacul gol si sa se continue cura timp de sase saptamani. \
 25. Daca o femeie isi pierde ciclul lunar sau acesta este prea abundent, ia aceste picaturi trei zile si repeta asta de douazeci de ori. Ele vor potoli ce este prea mult \
 si vor echilibra ce este prea putin. \
 26. Acest leac ajuta si contra **poalei albe**. \
-27. Daca cineva sufera de **epilepsie**, trebuie sa i se dea imedtat picaturi. Bolnavul sa ia apoi exclusiv acest leac, caci el fortifica atit nervii atacati cit si organismul si inlatura toate bolile. \
+27. Daca cineva sufera de **epilepsie**, trebuie sa i se dea imediat picaturi. Bolnavul sa ia apoi exclusiv acest leac, caci el fortifica atit nervii atacati cit si organismul si inlatura toate bolile. \
 28. Ele vindeca **paraliziile**, alunga **ametelile** si **greturile**. \
 29. Vindeca si variola, si erizipelul. \
 30. Daca cineva are febra - friguri mari sau intermitente - si este total lipsit de vlaga, \
-sa i se dea o lingura cu picaturi si bolnavul, daca nu si-a impovarat trupul cu alte mijloace de leac, isi va reveni curind, pulsul va fncepe sa bata normal si, oricit de mare ar fi fost febra, ei se va simti curind mai bine. \
-31. Picaturile vindeca si **cancerul**, **pustulele** **vechi** **si** **negii**, miinile crapate. Daca o rana este veche si purulenta sau are excrescente (muguri), atunci sa se spele totul bine cu vin alb, dupa care sa se puna pe ea o cirpa umezita cu picaturi. Ea \
+sa i se dea o lingura cu picaturi si bolnavul, daca nu si-a impovarat trupul cu alte mijloace de leac, isi va reveni curand, pulsul va fncepe sa bata normal si, oricit de mare ar fi fost febra, ei se va simti curand mai bine. \
+31. Picaturile vindeca si **cancerul**, **pustulele** **vechi** **si** **negii**, mainile crapate. Daca o rana este veche si purulenta sau are excrescente (muguri), atunci sa se spele totul bine cu vin alb, dupa care sa se puna pe ea o carpa umezita cu picaturi. Ea \
 inlatura umflaturile si durerile, ca si mugurii si rana incepe sa se vindece. \
-32. Vindeca fara alt pericol **toate ranile**, ca ar fi tost facute prin lovire sau intepare, daca sunt umezite de mai multe ori cu aceste picaturi. Se ia o cirpa, se inmoaie in ele si se acopera ranile cu ea. Ele inlatura in scurt timp durerea, nu permit nici arsura, nici necrozarea si vindeca si ranile vechi capatate printr-o ranire prin impuscare. Daca exista si gauri, atunci sa se pulverizeze picaturile in rana care nu trebuie neaparat curatata inainte. Prin sistematica aplicare cu o cirpa umezita, vindecarea va veni curind. \
+32. Vindeca fara alt pericol **toate ranile**, ca ar fi tost facute prin lovire sau intepare, daca sunt umezite de mai multe ori cu aceste picaturi. Se ia o carpa, se inmoaie in ele si se acopera ranile cu ea. Ele inlatura in scurt timp durerea, nu permit nici arsura, nici necrozarea si vindeca si ranile vechi capatate printr-o ranire prin impuscare. Daca exista si gauri, atunci sa se pulverizeze picaturile in rana care nu trebuie neaparat curatata inainte. Prin sistematica aplicare cu o carpa umezita, vindecarea va veni curand. \
 33. Ele indeparteaza toate **cicatricele**, chiar daca sunt vechi, semnele ranilor si taieturile, daca acestea sunt umezite cu ele puna la de 40 de ori. Toate ranile care sunt vindecate cu ajutorul acestor picaturi nu lasa cicatrice. \
 34. Vindeca din temelie si toate **fistulele**, chiar daca par incurabile; raul poate fi oricit de veehi. \
 35. Vindeca toate **ranile de pe urma arsurilor**, de-or proveni de la foc, de la apa fierbinte sau de la grasime incinsa, daca ranile sunt umezite sistematic. Nu se formeaza nici basici, fierbinteala este trasa afara, chiar si basicile purulente sunt \
 vindecate complet. \
-36. Servesc contra **umflaturilor si vinatailor**, chiar daca provin dintr-o lovitura sau bataie. \
-37. Daca cineva nu poate sa manince cu pofta, ii readuc gustul pierdut. \
-38. In **anemie** puternica, readuc si culoarea pierduta, daca sunt luate o vreme dimineata. Curata singele si formeaza unul nou, si stimuleaza si circulatia. \
-39. **Durerile reumatice** din madulare sint indepartate, daca se iau picaturi dimineata \
+36. Servesc contra **umflaturilor si vanatailor**, chiar daca provin dintr-o lovitura sau bataie. \
+37. Daca cineva nu poate sa manance cu pofta, ii readuc gustul pierdut. \
+38. In **anemie** puternica, readuc si culoarea pierduta, daca sunt luate o vreme dimineata. Curata sangele si formeaza unul nou, si stimuleaza si circulatia. \
+39. **Durerile reumatice** din madulare sunt indepartate, daca se iau picaturi dimineata \
 si seara si se pun cirpe umede pe locurile dureroase. \
-40. Ele vindeca **miinile si picioarele inghetate**, chiar daca ar exista rani deschise. Cit se poate de des, insa mai cu seama noaptea, sa se aplice cirpe umezite cu aceste picaturi. \
+40. Ele vindeca **mainile si picioarele inghetate**, chiar daca ar exista rani deschise. Cit se poate de des, insa mai cu seama noaptea, sa se aplice cirpe umezite cu aceste picaturi. \
 41. Pe **bataturi** sa se puna un mic tampon umezit cu aceste picaturi, iar locul suferind sa se tina mereu umed. Dupa trei zile vor cadea de la sine sau vor putea fi indepartate fara durere. \
-42. Daca sunt inghitite, vindeca si **muscaturile ciinilor turbati** si ale altor animale, caci tamaduiesc tot si distrug toate otravurile. Sa se aplice si o cirpa umeda pe rani. \
+42. Daca sunt inghitite, vindeca si **muscaturile cainilor turbati** si ale altor animale, caci tamaduiesc tot si distrug toate otravurile. Sa se aplice si o carpa umeda pe rani. \
 43. In caz de **ciuma** sau alte boli contagioase este bine daca se ia in timpul zilei de mai multe ori din aceste picaturi, caci ele vindeca buboaiele si pustulele de ciuma, chiar daca s-ar afla deja in git. \
-44. Cine **nu poate dormi bine noaptea** sa ia din aceste picaturi inainte sa se duca ia culcare. In caz de insomnie nervoasa, sa se puna pe inima o cirpa umezita cu \
+44. Cine **nu poate dormi bine noaptea** sa ia din aceste picaturi inainte sa se duca ia culcare. In caz de insomnie nervoasa, sa se puna pe inima o carpa umezita cu \
 picaturi diluate. \
 45. Un om beat poate fi **trezit pe loc din betie** cu doua linguri de picaturi. \
-46. Cine ia zilnic aceste picaturi dimineata si seara n-are nevoie de alta doctorie, caci ele fortifica trupul, **improspateaza nervii si** **singele**, inlatura tremurul miinilor si al picioarelor. Pe scurt, gonesc absolut toate bolile. Trupul ramine viguros, obrazul tinar si frumos.
+46. Cine ia zilnic aceste picaturi dimineata si seara n-are nevoie de alta doctorie, caci ele fortifica trupul, **improspateaza nervii si** **sangele**, inlatura tremurul mainilor si al picioarelor. Pe scurt, gonesc absolut toate bolile. Trupul ramane viguros, obrazul tinar si frumos.

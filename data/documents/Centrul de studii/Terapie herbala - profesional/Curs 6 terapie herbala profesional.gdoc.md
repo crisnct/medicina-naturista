@@ -109,7 +109,7 @@ Caracteristicile de crestere : perena, creste aproape peste tot in lume, din Sta
 
 Se colecteaza planta atunci cand este in floare, din iunie pana in septembrie .
 
-Uscare si conservarea: Planta trebuie uscatacu grija, astfel incat proprietatile aromatice si volatile sa nu fie pierdute. Imediat dupa uscare, planta ar trebui sa fie plasata intr- un recipient etans, altfel va absorbi aproximativ 12% din umiditate aerului.
+Uscare si conservarea: Planta trebuie uscata cu grija, astfel incat proprietatile aromatice si volatile sa nu fie pierdute. Imediat dupa uscare, planta ar trebui sa fie plasata intr- un recipient etans, altfel va absorbi aproximativ 12% din umiditate aerului.
 
 # RODII (Punica granatum, p. legrellei, p. sempervirehs;PUNICACEAE)
 Denumiri comune : rodie, coaja de rodie, grenadier, granat de mere, mar carthiginian; Granati Cortex (Br.); Ecore do
@@ -166,7 +166,7 @@ Administrare
 
 Oral \-viermi (banda, rotund, pin): Urmeaza procedura din paginile urmatoare sau foloseste decoctul antihelmintic. Pulberea poate fi utilizata, dar este de preferat decoctul.
 
-Diaree, hemoragie, ulceratii canceroase si de alta natura,ale gurii, gatului, uter si rect, dizenterie cronica: Foloseste coaja, fructele sauflorile.
+Diaree, hemoragie, ulceratii canceroase si de alta natura,ale gurii, gatului, uter si rect, dizenterie cronica: Foloseste coaja, fructele sau florile.
 
 Piele-Durere in gat: Foloseste coaja , fructele sau florile ca o gargara.
 
@@ -268,7 +268,7 @@ Febra, friguri, raceli: doze mici si frecvente de infuzie calda.
 
 Probleme cardiace, palpitatii: Se face un decoct de plante medicinale, se fierb 10minute, se iau cca 60ml de lichid de 4 pana la 5 ori pe zi.
 
-Spasme, flatulenta, tulburari gastrice: ia infuzie, asigurandu-te ca se pastreaza uleiurileesentiale volatile care poseda o mare parte din potenta medicamentului.
+Spasme, flatulenta, tulburari gastrice: ia infuzie, asigurandu-te ca se pastreaza uleiurile esentiale volatile care poseda o mare parte din potenta medicamentului.
 
 Guta: infuzie de planta verde (cum este indicat), sau o infuzie de seminte si flori uscate (1 lingurita de 2 pana la 3 ori pe zi) sau sirop de decoct din radacina, se tine post in timpul tratamentului.
 

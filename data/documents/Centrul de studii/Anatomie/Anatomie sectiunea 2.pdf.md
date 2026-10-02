@@ -99,7 +99,7 @@ face prin ingrosarea fibrelor, ca urmare a cresterii catitatii de sarcoplasma si
 continutului fibrilar.
  Fibrele pot traversa longitudinal intreg muschiul, sau se pot opri undeva in masa
 acestuia, efilandu-se. In general, circa 98% din fibre sunt inervate de o singura placa
-neuro-musculara, situata la mijocul acestora, dar sunt si cazuri cand o placa neuro-
+neuro-musculara, situata la mijlocul acestora, dar sunt si cazuri cand o placa neuro-
 musculara inerveaza mai multe fibre.
  Fibra musculara este alcatuita din: membrana, numita sarcolema, citoplasma
 (sarcoplasma), si aparat fibrilar.
@@ -197,7 +197,7 @@ aerob al metabolismului celular, reunind cam 50% din proteinele solubile din mus
 ## Tipuri de fibre musculare
 
 Dupa cantitatea de sarcoplasma, mioglobina („hemoglobina musculara“),
-rezerva de oxigen, avem urmatorele tipuri de fibre musculare:
+rezerva de oxigen, avem urmatoarele tipuri de fibre musculare:
 
 - fibre rosii, cu un continut mai ridicat in mioglobina, cu contractii lente (peste 3,5
 ms), puternice, functionand aproape continuu si obosind greu (muschii
@@ -430,11 +430,11 @@ proteolitica, activa in mediu acid (pH optim 1,8 - 3,5), care incepe procesul de
 digestie al proteinelor; la valori ale pH-ului mai mari de 5, activitatea sa proteolitica
 
 scade, devenind in scurt timp inactiva. Pepsinogenul este activat de contactul cu
-HC1 sau cu pepsina ante rior formata. Pepsina scindeaza proteinele in proteoze
+HC1 sau cu pepsina anterior formata. Pepsina scindeaza proteinele in proteoze
 (albumoze), peptone si polipeptide mari. Numai 20 - 30% din digestia totala a
 proteinelor are loc in stomac, cea mai mare parte desfasurandu-se in portiunea
 proximala a intestinului subtire. Pepsina este deosebit de importanta pentru
-capacitatea ei de a digera colagenul, acesta fiind putin atacat de cele lalte proteinaze
+capacitatea ei de a digera colagenul, acesta fiind putin atacat de celelalte proteinaze
 digestive.
 Labfermentul este secretat numai la copilul mic, in perioada de alaptare. Rolul
 sau este de a coagula laptele, pregatindu-l pentru digestia ulterioara. Sub actiunea
@@ -473,7 +473,7 @@ intestinului subtire este determinata de frecventa undelor lente din peretele in
 Miscarile de propulsie. Chimul este propulsat la acest nivel de undele
 peristaltice, care apar in orice parte a intestinului subtire si se deplaseaza in directie
 anala cu o viteza de 0,5 - 2 cm/secunda, mult mai rapid in intestinul proximal si mai
-lent in intestinul termi nal. Totusi, ele sunt in mod normal foarte slabe si de obicei se
+lent in intestinul terminal. Totusi, ele sunt in mod normal foarte slabe si de obicei se
 sting dupa ce traverseaza 3-5 cm, astfel incat deplasarea chimului se face cu
 aproximativ 1 cm/secunda, ceea ce inseamna ca timpul necesar chimului pentru a
 trece de la pilor pana la valva ileocecala este de 3 - 5 ore.
@@ -506,7 +506,7 @@ amiloza. Celuloza un alt polizaharid vegetal, prezent in dieta in cantitati mari
 poate fi digerat, deoarece in tractul gastrointestinal uman nu exista enzime care sa o
 digere. Aportul de glucide este de 250 - 800 g/zi, care reprezinta 50 - 60% din dieta.
 Pentru a fi absorbite din tractul gastrointestinal, glucidele trebuie digerate pana la
-stadiul de monozaharide. Digestia amido nului, inceputa in cavitatea bucala, sub
+stadiul de monozaharide. Digestia amidonului, inceputa in cavitatea bucala, sub
 actiunea a amilazei salivare, are loc in cea mai mare parte in intestinul subtire, sub
 actiunea a amilazei pancreatice (care degradeaza glucidele pana la stadiul de
 oligozaharide) si sub actiunea dizaharidazelor (maltaza, sucraza, lactaza) de la
@@ -519,7 +519,7 @@ Dupa ce au fost absorbite in enterocite, monozaharidele sunt transportate prin
 membrana bazolaterala a acestora prin difuziune facilitata; apoi, difuzeaza din
 interstitiul intestinal in capilarele din vilozitatile intestinale. Absorbtia glucidelor nu
 este reglata. Intestinul poate absorbi peste 5 kg sucroza zilnic.
-Proteinele. Dieta proteica zilnica necasara unui adult este de 0,5 - 0,7 g/kg corp.
+Proteinele. Dieta proteica zilnica necesara unui adult este de 0,5 - 0,7 g/kg corp.
 Proteinele ajunse in intestin provin din doua surse: endogena (30 - 40 g/zi, sunt
 proteine secretorii si componentele proteice ale celulelor descuamate) si exogena
 (proteinele din dieta). Pentru a fi absorbite, proteinele trebuie transformate in
@@ -531,7 +531,7 @@ cide si de proteine, lipidele se absorb din tractul gastro-intestinal prin difuz
 pasiva. Pentru a putea fi absorbite, ele trebuie sa devina solubile in apa. Pentru
 
 solubilizarea lipidelor sunt necesare sarurile biliare. Inainte de a fi digerate, lipidele
-trebuie emulsionate (transfor mate in picaturi cu diametru sub un micron) de catre
+trebuie emulsionate (transformate in picaturi cu diametru sub un micron) de catre
 acizii biliari si lecitina.
 Produsii digestiei lipidice (monogliceride, colesterol) trebuie sa formeze micelii
 cu sarurile biliare pentru a putea fi absorbiti. Miceliile sunt agregate sferice mici, cu

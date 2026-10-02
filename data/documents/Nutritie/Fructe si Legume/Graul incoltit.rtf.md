@@ -2,11 +2,11 @@
 
  Graul incoltit are capacitatea de a stimula extrem de puternic activitatea
 
- organizmului . Dupa o saptamana sau doua de tratament cu grau incoltit, in multe boli
+ organismului . Dupa o saptamana sau doua de tratament cu grau incoltit, in multe boli
 
  se va constata o vizibila inbunatatire a stari fizice si o ameliorare a boli .
 
- Cateva domeni in care s-au optinut rezultate : Caderea parului, intarirea vederii, vindecarea durerilor de cap, bronsitelor, tronboflebitelor, boli ale sangelui, boli
+ Cateva domeni in care s-au obtinut rezultate : Caderea parului, intarirea vederii, vindecarea durerilor de cap, bronsitelor, tronboflebitelor, boli ale sangelui, boli
 
  ale stomacului, boli intestinale, boli ginecologice, boli de ochi, boli de rinichi, arterite,
 

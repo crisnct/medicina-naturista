@@ -1,7 +1,7 @@
 # Test final fitoterapie baza
 
 1. Definiti "Botanica de baza".
- Plantele absorb oxigen din atmosfera, prin intemediul porilor de pe frunze, si il folosesc la diferite procese metabolice, si elibereaza dioxid de carbon tot prin pori.
+ Plantele absorb oxigen din atmosfera, prin intermediul porilor de pe frunze, si il folosesc la diferite procese metabolice, si elibereaza dioxid de carbon tot prin pori.
 
 2. Explicati procesul de "fotosinteza".
  Plantele, absorb apa prin radacini, dioxidul de carbon din atmosfera (prin pori), si capteaza energia solara cu ajutorul clorofilei. Astfel ele produc compusi organici, necesari lor insasi, si oxigen.

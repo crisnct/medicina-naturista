@@ -20,11 +20,11 @@ Ce este tensiunea arteriala, ce se intampla cand este inalta?
 
 Sangele este transportat de inima la tesuturile organismului prin vase numite artere, presiunea sangelui reprezentand forta cu care impinge sangele in peretii arterelor. La fiecare bataie a inimii (60-70 batai pe minut in repaus), se pompeaza sange in artere. Presiunea arteriala este maxima in momentul contractiei inimii si pomparii sangelui. Aceasta se numeste presiune arteriala sistolica. Cand inima se relaxeaza, intre batai, presiunea arteriala scade. Aceasta reprezinta presiunea arteriala diastolica.
 
-Presiunea arteriala este caracterizata de aceste doua valori, presiunea sistolica si diastolica. Amandoua sint importante. De regula sint scrise una dupa alta, de exemplu 120/80 mm Hg, prima valoare reprezentand presiunea sistolica, in timp ce valoarea mai mica reprezinta presiunea diastolica.
+Presiunea arteriala este caracterizata de aceste doua valori, presiunea sistolica si diastolica. Amandoua sunt importante. De regula sunt scrise una dupa alta, de exemplu 120/80 mm Hg, prima valoare reprezentand presiunea sistolica, in timp ce valoarea mai mica reprezinta presiunea diastolica.
 
-Anumite activitati fac ca presiunea arteriala sa creasca sau sa scada. De exemplu, daca alergati dupa autobuz presiunea arteriala creste. Cand dormiti presiunea arteriala scade. Aceste variatii ale presiunii arteriale sint normale.
+Anumite activitati fac ca presiunea arteriala sa creasca sau sa scada. De exemplu, daca alergati dupa autobuz presiunea arteriala creste. Cand dormiti presiunea arteriala scade. Aceste variatii ale presiunii arteriale sunt normale.
 
-Unele persoane au o presiune arteriala ce sta majoritatea timpului la valori ridicate. Sangele acestor persoane impinge in peretii arterelor cu o forta mai mare decat in mod normal. In lipsa tratamentului se poate ajunge la probleme medicale seriose cum ar fi:
+Unele persoane au o presiune arteriala ce sta majoritatea timpului la valori ridicate. Sangele acestor persoane impinge in peretii arterelor cu o forta mai mare decat in mod normal. In lipsa tratamentului se poate ajunge la probleme medicale serioase cum ar fi:
 
 Ateroscleroza (ingrosarea arterelor). Presiuni ridicate ale sangelui lezeaza peretii arterelor facandu-i grosi si rigizi. Astfel, este accelerat procesul de depunere a colesterolului si grasimilor pe peretii vaselor sangvine, ca "rugina pe teava", ceea ce impiedica curgerea normala a sangelui in corp si in timp poate duce la infarct de miocard sau accident vascular cerebral.
 
@@ -54,13 +54,13 @@ Functioneaza astfel: o manseta este infasurata in jurul bratului si umflata pana
 
 Ce reprezinta diferitele valori ale tensiunii arteriale?
 
-Tensiunea arteriala este expresia a doua numere ce reprezinta presiunea sistolica si diastolica. Valorile sint notate in milimetrii (mm) de coloana de mercur (Hg). Prima este notata presiunea sistolica si apoi cea diastolica. De exemplu 120/80 mm Hg, ce este enuntata verbal ca 120 cu 80 sau 12 cu 8.
+Tensiunea arteriala este expresia a doua numere ce reprezinta presiunea sistolica si diastolica. Valorile sunt notate in milimetrii (mm) de coloana de mercur (Hg). Prima este notata presiunea sistolica si apoi cea diastolica. De exemplu 120/80 mm Hg, ce este enuntata verbal ca 120 cu 80 sau 12 cu 8.
 
-Daca presiunea arteriala este mai mica de 140 cu 90 mm Hg se considera normala. Oricum, o tensiune arteriala de 120 cu 80 mm Hg este mai benefica pentru inima dumneavoastra. Unele studii considera ca tensiunile arteriale scazute (de exemplu 105 cu 65 mm Hg ) sint daunatoare. Cu exceptia catorva rase, acest lucru nu este adevarat. Valorile ridicate considerate hipertensiune sunt clasificate pe stadii si sunt cu atat mai periculoase cu cit valorile sint mai ridicate.
+Daca presiunea arteriala este mai mica de 140 cu 90 mm Hg se considera normala. Oricum, o tensiune arteriala de 120 cu 80 mm Hg este mai benefica pentru inima dumneavoastra. Unele studii considera ca tensiunile arteriale scazute (de exemplu 105 cu 65 mm Hg ) sunt daunatoare. Cu exceptia catorva rase, acest lucru nu este adevarat. Valorile ridicate considerate hipertensiune sunt clasificate pe stadii si sunt cu atat mai periculoase cu cit valorile sunt mai ridicate.
 
 ### Cauzele ce determina aparitia hipertensiunii arteriale
 
-La majoritatea persoanelor nu exista o cauza determinanta pentru aparitia hipertensiunii arteriale. Acest gen de presiune arteriala crescuta se numeste hipertensiune arteriala esentiala sau primara. Alta serie de persoane sufera de HTA determinata de o serie de cauze cunoscute cum ar fi: tumori de suprarenala, boli cronice de rinichi, exces de pilule contraceptive sau sarcina la femei, etc. Aceasta este numita hipertensiune arteriala secundara si este in general curabila daca sint corectate cauzele determinante.
+La majoritatea persoanelor nu exista o cauza determinanta pentru aparitia hipertensiunii arteriale. Acest gen de presiune arteriala crescuta se numeste hipertensiune arteriala esentiala sau primara. Alta serie de persoane sufera de HTA determinata de o serie de cauze cunoscute cum ar fi: tumori de suprarenala, boli cronice de rinichi, exces de pilule contraceptive sau sarcina la femei, etc. Aceasta este numita hipertensiune arteriala secundara si este in general curabila daca sunt corectate cauzele determinante.
 
 --------------------------------------------------------------------------------- Analiza
 
@@ -77,20 +77,20 @@ Randamentul inimii este redus prin betaclocheri cu 20-40% si acest lucru va duce
 - oboseala cronica
 - infectii in sange datorita lipsei de oxigen si de sange proaspat in extremitati
 - slabirea sistemului imunitar
-- slabirea tutoror organelor (toate organele sunt alimentate si intarite cu sangele pompat de inima.
-- capacitate celebrala scazuta
+- slabirea tuturor organelor (toate organele sunt alimentate si intarite cu sangele pompat de inima.
+- capacitate cerebrala scazuta
 
-Alte medicamante date impreuna cu betablocherii sunt medicamente care "subtiaza" sangele, adica care altereaza in mod artificial consistenta lui sau medicamente care dilata arterele.
+Alte medicamente date impreuna cu betablocherii sunt medicamente care "subtiaza" sangele, adica care altereaza in mod artificial consistenta lui sau medicamente care dilata arterele.
 
-Intrebarea 1: Daca hipertensiunea nu are de a face cu inima - dupa cunostintele actuale ale medicinii - de ce se dau totusi medicamenete care reduc puterea inimii ?
+Intrebarea 1: Daca hipertensiunea nu are de a face cu inima - dupa cunostintele actuale ale medicinii - de ce se dau totusi medicamente care reduc puterea inimii ?
 
 Pentru ca prin aceste medicamente se obtine cel mai rapid efect de reducere a hipertensiunii - efect dorit si de pacienti. Insa cu medicamente se produc efecte nefaste si ireparabile asupra sanatatii de care vor profita la urma cel mai mult tot fabricantii de medicamente.
 
-Intrebarea 2: Betablocherii vindeca hipertensiunea arteriala ? Bineinteles ca nu vindeca nimic pentru ca inima are de a face cu tensinea arteriala la fel de mult ca si un robinet cu un furtun infundat care este conectat la el. Prin inchiderea robinetului nu se curata furtunul chiar daca presiunea din acesta scade.
+Intrebarea 2: Betablocherii vindeca hipertensiunea arteriala ? Bineinteles ca nu vindeca nimic pentru ca inima are de a face cu tensiunea arteriala la fel de mult ca si un robinet cu un furtun infundat care este conectat la el. Prin inchiderea robinetului nu se curata furtunul chiar daca presiunea din acesta scade.
 
 Intrebarea 3: De ce se dau totusi betablocherii la hipertensiunea arteriala daca nu vindeca nimic? Tocmai fiindca nu vindeca se dau aceste medicamente. Daca medicamentele ar vindeca ceva cine ar mai cumpara aceste medicamente decenii intregi ? Scopul industriei farmaceutice este profitul si nu vindecarea. Cu vindecarea nu se fac bani.
 
-Intrebarea 4: De ce doctorii nu cauta o alternativa mai buna ? Industria farmaceutica nu produce alte medicamente contra acestei afectiuni si ca urmare doctorii nu au ce sa aleaga. Betablocherii funtioneaza rapid (desi distrug inima si slabesc intregul organism) si acest lucru le este mai mult decat suficient celor mai multi "doctori". Un doctor adevarat insa va cauta cauza bolii si va incerca sa o inlature, dar un astfel de doctor este mai rar decat 7 cifre la lotto.
+Intrebarea 4: De ce doctorii nu cauta o alternativa mai buna ? Industria farmaceutica nu produce alte medicamente contra acestei afectiuni si ca urmare doctorii nu au ce sa aleaga. Betablocherii functioneaza rapid (desi distrug inima si slabesc intregul organism) si acest lucru le este mai mult decat suficient celor mai multi "doctori". Un doctor adevarat insa va cauta cauza bolii si va incerca sa o inlature, dar un astfel de doctor este mai rar decat 7 cifre la lotto.
 
 Intrebarea 5: Care este de fapt cauza adevarata a hipertensiunii arteriale ? Daca privim sistemul cardio-vascular il putem compara cu o pompa de apa care tine apa in circulatie intr-un lac artificial. Acest sistem format dintr-o pompa (inima), furtun (vase sanguine), un filtru (rinichii). Pompa de apa este aleasa de asa natura sa garanteze circulatia ideala a apei.
 
@@ -106,9 +106,9 @@ Cei mai multi oameni incep sa fac hipertensiune arteriala dupa un deces sau o su
 
 Si conflictele si enervarile zilnice la oameni care nu sunt tristi sau depresivi duc la hipertensiune arteriala, insa acest lucru este cauzat nu numai de randamentul slabit al rinichilor (cei mai multi oamenii au rinichii slabiti si infundati) ci mai mult de ficat, care are o functie compensatoare la volumul de sange aflat in circulatie in organism. Enervearea afecteaza in mod direct ficatul sau caile biliare sau colecistul. Exista si o tensiune emotionala care strange arteriile, dar asta nu este de durata.
 
-Ca urmare voia buna si echilibrul emotional si lipsa de frica sunt factorii care vindeca cel mai usor hipertensiunea arteriala. Fiindca pacientii nu stiu acest lucru, de indata ce au aflat ca sufera de aceasta afectiune, ei vor lua medicamentele precrise de medic ani de zile - chiar daca necesitatea lor dispare - fiind convinsi ca boala este nevindecabila si ca trebuie sa ia aceste medicamente o viata intreaga.
+Ca urmare voia buna si echilibrul emotional si lipsa de frica sunt factorii care vindeca cel mai usor hipertensiunea arteriala. Fiindca pacientii nu stiu acest lucru, de indata ce au aflat ca sufera de aceasta afectiune, ei vor lua medicamentele prescrise de medic ani de zile - chiar daca necesitatea lor dispare - fiind convinsi ca boala este nevindecabila si ca trebuie sa ia aceste medicamente o viata intreaga.
 
-Un alt factor important la hipertensiune este ficatul. Ficatul actioneaza ca un rezervor de sange care mentine cantitatea de sange din organism la nivelul necesar - asemanator cu rezervoarele de dilatare folosite la instalatiile de incalzire Oricine a vazut un ficat de animal isi poate da seama usor ca acesta este asemanator unui burete care contine mult sange. La miscare muschii trebuie alimentati cu sange si acestea este eliberat de ficat care il aduna in timpul repausului. Si la enervare sau emotii puternice ficatul elibereaza acest sange care se duce in zonele necesare, mai ales la cap unde se creeaza o congestie. La un om cu fiactul sanatos sangele se retrage repede inapoi in ficat dupa efort sau eneervare, pe cand la unul cu ficatul afectat acest lucru nu se mai petrece in mod rapid.
+Un alt factor important la hipertensiune este ficatul. Ficatul actioneaza ca un rezervor de sange care mentine cantitatea de sange din organism la nivelul necesar - asemanator cu rezervoarele de dilatare folosite la instalatiile de incalzire Oricine a vazut un ficat de animal isi poate da seama usor ca acesta este asemanator unui burete care contine mult sange. La miscare muschii trebuie alimentati cu sange si acestea este eliberat de ficat care il aduna in timpul repausului. Si la enervare sau emotii puternice ficatul elibereaza acest sange care se duce in zonele necesare, mai ales la cap unde se creeaza o congestie. La un om cu ficatul sanatos sangele se retrage repede inapoi in ficat dupa efort sau eneervare, pe cand la unul cu ficatul afectat acest lucru nu se mai petrece in mod rapid.
 
 Din cauza afectiunilor ficatului care, ca si cele la rinichi le are aproape orice om din ziua de azi mai mult sau mai putin datorita la mai multi factori (alimentatie nesanatoasa, lipsa de miscare, toxine acumulate, calculi renali si bliari) ficatul nu mai poate indeplini aceasta functie in mod ideal iar compensarea cantitatii de sange din arterii nu mai poate fi facuta in timp util ducand la valori marite de tensiune.
 
@@ -128,7 +128,7 @@ Pentru a vindeca hipertensiunea exista un singur mod real si eficient: trebuie v
 
 In cazul hipertensiunii trebuie tratate cu remedii naturiste atat organele (rinichii si ficatul) care duca la cresterea ei dar mai ales cauzele psihice care duc la dereglarea acestor organe: supararea, depresia si enervarea. Acest lucru se poate face cel mai efectiv si precis cu ajutorul remediilor homeopate.
 
-Tratamentul cu betabocheri si subtietori de sange aduce numai daune intregului organsim si nu avizeaza deloc cauza adevarata a bolii facand bolnavii dependenti de aceste medicamente pentru decenii intregi. In plus in acest caz este evident faprul ca doctorii dau la hipertensiune un mediicament pentru inima cand de fapt cauza bolii nu este cunoscuta si nici atribuita inimii ! Acest tratament este tot asa o mare prostie ca si reducerea randamentului pompei de apa in loc de desfundarea filtrului pentru un instalator. Daca un instalator ar face asa ceva ar fi concediat imediat. Doctorii fac acest lucru de decenii intregi fara nici macar sa se intrebe de care este cauza acestei boli.
+Tratamentul cu betabocheri si subtietori de sange aduce numai daune intregului organsim si nu avizeaza deloc cauza adevarata a bolii facand bolnavii dependenti de aceste medicamente pentru decenii intregi. In plus in acest caz este evident faprul ca doctorii dau la hipertensiune un medicament pentru inima cand de fapt cauza bolii nu este cunoscuta si nici atribuita inimii ! Acest tratament este tot asa o mare prostie ca si reducerea randamentului pompei de apa in loc de desfundarea filtrului pentru un instalator. Daca un instalator ar face asa ceva ar fi concediat imediat. Doctorii fac acest lucru de decenii intregi fara nici macar sa se intrebe de care este cauza acestei boli.
 
 Multi bolnavi care au reusit sa depaseasca stadiul depresiv nu mai hipertensiune si nu mai au ca urmare nici nevoie de medicamente dar se iau mai departe din obsinuinta sau din cauza ca doctorii lor nu le spun ca nu mai sunt necesare. Frica de "a se intampla ceva" este mentinuta si innoculata de sistemul medical si acesti betablocheri se dau in cele mai multe cazuri decenii intregi desi necesitatea lor dispare des de la sine in multe cazuri.
 
@@ -172,7 +172,7 @@ Medicamente cu Ramipril : RAMIPRIL-AC, Delix , Hypren , Lannapril , Ramicard , R
 
 Ce se intampla in mod logic daca se scade in mod fortat presiunea arteriala necesara organismului ?
 
-a)	Sangele nu mai ajunge la creier (ameteli, dureri de cap, lesin, randament mental scazut) b)	Sangele nu mai ajunge la periferie (maini si picioare reci, probleme legate de potenta, nas rece sau vanat, buze vinete, amorteli in membre, infarct) c)	Oxigenarea defectuoasa a sangelui si slabirea tuturor organelor caci toate au nevoie de sange. Ca urmare se mareste pericolul de infectii, apare obosela cronica, scade randamentul organelor.
+a)	Sangele nu mai ajunge la creier (ameteli, dureri de cap, lesin, randament mental scazut) b)	Sangele nu mai ajunge la periferie (maini si picioare reci, probleme legate de potenta, nas rece sau vanat, buze vinete, amorteli in membre, infarct) c)	Oxigenarea defectuoasa a sangelui si slabirea tuturor organelor caci toate au nevoie de sange. Ca urmare se mareste pericolul de infectii, apare oboseala cronica, scade randamentul organelor.
 
 Pe langa aceste lucruri si asa destul de grave, substanta activa nu este singura si izolata in medicament, ci pe langa aceasta sau legata de aceasta se afla o multime de alte molecule (toxice) care trebuie annihilate sau transformate de corp pentru a nu periclita viata. In general substantele toxice care nu poti fi eliminate prin urina trebuie eliminate prin piele.
 
@@ -184,11 +184,11 @@ In urma acumularii acestei substante in corp mai apar si alte efecte secundare c
 - Atacuri astmatice
 - Urticarie, iritatii de piele
 
-Pe barbati probabil ca cel mai mult ii afecteaza scadereea inevitabila a potentei datorita scaderii presiunii sangelui. Sau poate reducerea capacitatii mentale, ameteli sau dureri de cap.
+Pe barbati probabil ca cel mai mult ii afecteaza scaderea inevitabila a potentei datorita scaderii presiunii sangelui. Sau poate reducerea capacitatii mentale, ameteli sau dureri de cap.
 
 Insa efectul cel mai grav este de fapt distrugerea si ingrosarea arteriilor care in urma joculul permanent de dilatare-contractare primesc crapaturi pe care corpul este nevoit sa le cicatrizeaze permanent.
 
-Oare cine ar mai lua aceste pastille daca ar sti sau intelege ce inseamna de fapt sa fi muscat zilnic de un sarpe care iti dilate arteriile in mod fortat la care trebuie adaugate efectele toxice ale celorlate substante din medicament.
+Oare cine ar mai lua aceste pastile daca ar sti sau intelege ce inseamna de fapt sa fi muscat zilnic de un sarpe care iti dilate arteriile in mod fortat la care trebuie adaugate efectele toxice ale celorlate substante din medicament.
 
 Cauza hipertensiunii nu este inlaturata de nici un medicament dat la pacientii cu hipertensiune. Tot ce se face este largirea arterelor sau slabirea muschilor inimii, care nu este decat o scadere fortat dar nicidecum buna deoarece sangele trebuie a ajunga in aceeasi cantitate la organe.
 

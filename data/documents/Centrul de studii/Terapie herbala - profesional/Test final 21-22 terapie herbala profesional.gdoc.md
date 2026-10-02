@@ -33,7 +33,7 @@ Graul integral scade riscul de diabet, imbunatateste controlul glucozei in sange
 
 **Plante utilizate in afectiunile aparatului digestiv**: Matraguna, Menta, Roinita sau cu aceleasi efecte Mataciunea, Musetelul, Coada racului, Chimenul si Captalanul. Majoritatea dintre acestea, excluzind Matraguna, isi bazeaza actiunea farmacodinamica si aplicatiile terapeutice pe componentele uleiurilor volatile sau a unor derivati terpenici pe care aceste specii le contin ca principii active.
 
-**Plante utilizate in afectiuni cronice stomacale si duodenale**: Ghintura, Fierea pamintului, Obligeana, Trifoistea, Angelica, Schinelul, Pelinul, Coada soricelului, Musetelul, Lemnul dulce, Matraguna, Crusinul. Fie sub forma de suc celular proaspat, fie sub forma unor produse farmaceutice, varza alba da rezultate bune in ulcerul gastric si duodenal.
+**Plante utilizate in afectiuni cronice stomacale si duodenale**: Ghintura, Fierea pamantului, Obligeana, Trifoistea, Angelica, Schinelul, Pelinul, Coada soricelului, Musetelul, Lemnul dulce, Matraguna, Crusinul. Fie sub forma de suc celular proaspat, fie sub forma unor produse farmaceutice, varza alba da rezultate bune in ulcerul gastric si duodenal.
 
 **Plante utilizate in meteorism**: Anasonul, Chimenul, Coriandrul, Feniculul, Maghiranul si alte specii bogate in uleiuri volatile.
 
@@ -73,13 +73,13 @@ BOALA VARICOASA SI HEMOROIZII
 Preparatele pe baza de castan salbatic \- Variterpul sau preparatele cu troxerutin \- Venoruton sau Troxevasin. Un ceai combinat, util in astfel de situatii, se poate prepara din flori de coada-soricelului, frunze de patlagina, urzica si flori de musetel, in parti egale. Se prepara o infuzie din 100 g de amestec de plante uscate, la 1 litru de apa si se foloseste sub forma de comprese, spalaturi sau bai locale de 2 ori pe zi.
 
 BOLILE REUMATICE
-Un ceai combinat recomandat in bolile reumatice se prepara amestecind urmatoarele plante, astfel: frunze de mesteacan \- 2 parti, coada-calului \- 1 parte, frunze de frasin \- 2 parti, lemn-dulce \- 1 parte, teci de fasole \- 1 parte, scoarta de salcie maruntita \- 2 parti, flori de soc \- 1 parte. Se pun 2 lingurite din amestecul de plante in 1 cana cu apa clocotita si se fierbe cca 2 minute dupa care se lasa in repaus inca 15 minute. Se strecoara si se beau 2-3 cani pe zi.
+Un ceai combinat recomandat in bolile reumatice se prepara amestecand urmatoarele plante, astfel: frunze de mesteacan \- 2 parti, coada-calului \- 1 parte, frunze de frasin \- 2 parti, lemn-dulce \- 1 parte, teci de fasole \- 1 parte, scoarta de salcie maruntita \- 2 parti, flori de soc \- 1 parte. Se pun 2 lingurite din amestecul de plante in 1 cana cu apa clocotita si se fierbe cca 2 minute dupa care se lasa in repaus inca 15 minute. Se strecoara si se beau 2-3 cani pe zi.
 
 INAPETENTA
-Un ceai combinat recomandat in situatii de scadere a poftei de mincare se prepara amestecind urmatoarele plante, astfel: albastrele- 2 parti, virfuri inflorite de pelin \- 2 parti, schinel \- 2 parti, fructe de coriandru \- 1 parte si macese \- 2 parti. Se infuzeaza 2-3 lingurite din amestecul uscat de plante la 1 cana cu apa si se administreaza 2 linguri cu 30 de minute inainte de masa.
+Un ceai combinat recomandat in situatii de scadere a poftei de mancare se prepara amestecand urmatoarele plante, astfel: albastrele- 2 parti, virfuri inflorite de pelin \- 2 parti, schinel \- 2 parti, fructe de coriandru \- 1 parte si macese \- 2 parti. Se infuzeaza 2-3 lingurite din amestecul uscat de plante la 1 cana cu apa si se administreaza 2 linguri cu 30 de minute inainte de masa.
 
 ULCERUL GASTRIC SI DUODENAL
-Folosirea sucului de varza, simplu sau in combinatie cu sucul de telina grabeste vindecarea ulcerului. Pe linga tratamentul de baza igienico-ditetetic si medicamentos se pot folosi urmatoarele specii de plante: fructele de afin, uleiul de catina alba, galbenelele, lemnul-dulce, musetelul, obligeana, sunatoarea. Un ceai combinat, util in ulcerul gastric si duodenal, se prepara din urmatoarele plante astfel: flori de galbenele \- 2 parti, flori de musetel \- 2 parti, flori de coada-soricelului \- 2 parti, papadie \- 3 parti, radacina de valeriana maruntita \- 1 parte. Se pun 2 lingurite de plante uscate la infuzat in 1 cana cu apa. Se beau 1-2 cani pe zi timp de 4-6 saptamini.
+Folosirea sucului de varza, simplu sau in combinatie cu sucul de telina grabeste vindecarea ulcerului. Pe linga tratamentul de baza igienico-ditetetic si medicamentos se pot folosi urmatoarele specii de plante: fructele de afin, uleiul de catina alba, galbenelele, lemnul-dulce, musetelul, obligeana, sunatoarea. Un ceai combinat, util in ulcerul gastric si duodenal, se prepara din urmatoarele plante astfel: flori de galbenele \- 2 parti, flori de musetel \- 2 parti, flori de coada-soricelului \- 2 parti, papadie \- 3 parti, radacina de valeriana maruntita \- 1 parte. Se pun 2 lingurite de plante uscate la infuzat in 1 cana cu apa. Se beau 1-2 cani pe zi timp de 4-6 saptamani.
 
 METEORISMUL ABDOMINAL
 .Dintre plantele utile in combaterea starilor de meteorism amintim: anasonul, anghinarea, busuiocul, coriandrul, feniculul, maghiranul, roinita, salvia, sovirvul, ghimberul.
@@ -89,7 +89,7 @@ Un ceai combinat, utilizat in enterocolite insotite de scaune diareice, este pre
 In caz de diaree mai severa, mai ales la copii, este necesara o rehidratare orala. Pentru aceasta se recomanda prepararea urmatorului amestec: 1/2 lingurita de sare de bucatarie \+ 1 lingurita de bicarbonat de sodiu \+ 1/2 lingurita de clorura de potasiu \+ 3 linguri de zahar. Toate acestea se amesteca intr-un litru de apa fiarta. Se vor administra 50-100 ml de solutie pe ora (daca apar varsaturi, se micsoreaza cantitatea pentru ca ingestia de lichid sa fie mai bine tolerata).
 
 ARSURILE RETROSTERNALE
-Ceaiurile cu actiune antiacida pot fi administrate numai in prima parte a zilei si fractionat in cantitati mici: musetelul, florile de salcim, sunatoarea, floarea-patimilor.
+Ceaiurile cu actiune antiacida pot fi administrate numai in prima parte a zilei si fractionat in cantitati mici: musetelul, florile de salcam, sunatoarea, floarea-patimilor.
 
 AFECTIUNILE HEPATO-BILIARE
 Plante utile in bolile inflamatorii si degenerative ale ficatului sunt urmatoarele: armurariul, anghinarea, catina-alba, cicoarea, coada-soricelului, musetelul, papadia, rostopasca, siminocul, sunatoarea, turmericul.
@@ -114,19 +114,19 @@ Studii efectuate asupra unei plante din India, Gymnema sylvestre au aratat ca ac
 Un ceai combinat cu actiune antidiabetica se prepara din amestecul urmatoarelor plante: frunze de afin \- 4 parti, frunze de dud \- 2 parti, frunze de nuc \- 1 parte, frunze de urzica \- 1 parte, teci de fasole \- 2 parti. Se prepara o infuzie din 1 lingura de plante la 1 cana cu apa si se beau 2 cani zilnic, timp de 7-10 zile.
 
 OBEZITATEA
-Abordarea obezitatii prin marirea diurezei sau a sudoratiei, nu este nici ea o strategie mai rationala ori lipsita de riscuri. In sfirsit, ceaiurile care reduc pofta de mincare, desi se incadreaza in linia tolerata de practica medicala curenta, sufera de aceeasi ineficienta pe termen mediu si lung de care sufera si interventia cu medicamente anorexigene.
+Abordarea obezitatii prin marirea diurezei sau a sudoratiei, nu este nici ea o strategie mai rationala ori lipsita de riscuri. In sfarsit, ceaiurile care reduc pofta de mancare, desi se incadreaza in linia tolerata de practica medicala curenta, sufera de aceeasi ineficienta pe termen mediu si lung de care sufera si interventia cu medicamente anorexigene.
 
 INSOMNIA
 Cauzele insomniei sunt numeroase: unele boli somatice (boli de inima, hipertensiune arteriala etc), nevrozele, mesele copioase servite seara tarziu, sedentarismul, consumul de cafea, ceai, bauturi Cola, lectura unor carti sau vizionarea unor filme, zgomotul, caldura sau frigul excesiv etc.
 
 DEPRESIA
-Administrarea ceaiului de sunatoare in combaterea depresiei va fi pe termen lung, nu numai datorita caracterului cronic al starilor depresive, dar si pentru ca actiunea antidepresiva a sunatoarei nu se instaleaza decit dupa 2-3 saptamini de la inceperea administrarii. Pe toata durata tratamentului, bolnavul trebuie sa evite expunerea la razele solare intense.
+Administrarea ceaiului de sunatoare in combaterea depresiei va fi pe termen lung, nu numai datorita caracterului cronic al starilor depresive, dar si pentru ca actiunea antidepresiva a sunatoarei nu se instaleaza decit dupa 2-3 saptamani de la inceperea administrarii. Pe toata durata tratamentului, bolnavul trebuie sa evite expunerea la razele solare intense.
 
 MIGRENA SI CEFALEEA SIMPLA
 Dintre plantele administrate pentru combaterea cefaleei si a migrenelor amintim arborele templier (Ginkgo), cornul-secarei (preparat farmceutic Ergoceps), levantica, salcia si menta.
 
 DEFICIENTELE SISTEMULUI IMUNITAR
-Cea mai renumita planta cu efecte benefice asupra sistemului imunitar este fara indoiala echinacea. Alte plante care pot ajuta la refacerea rezistentei imunologice sunt: usturoiul, sunatoarea, isopul, lemnul-dulce, galbenelele, iarba-mare, luminarica, teiul, cimbrisorul.
+Cea mai renumita planta cu efecte benefice asupra sistemului imunitar este fara indoiala echinacea. Alte plante care pot ajuta la refacerea rezistentei imunologice sunt: usturoiul, sunatoarea, isopul, lemnul-dulce, galbenelele, iarba-mare, lumanarica, teiul, cimbrisorul.
 
 CANCERUL
 Plante utile: lignanii din semintele de in, alil-sulfatii din usturoi si ceapa, acidul elagic din fructele de padure, substantele triterpenice si calconele din radacina de lemn-dulce, curcumina din turmeric, gingerolul din ghimber, acidul ursolic si diterpenoidele din salvie, anasonul, chimenul, coriandrul, feniculul si altele inrudite cu morcovul, sunt un adevarat tezaur de ftalati, flavonoizi, carotenoide, cumarine, terpenoide si alte substante fitochimice care au proprietati in sensul prevenirii cancerului.

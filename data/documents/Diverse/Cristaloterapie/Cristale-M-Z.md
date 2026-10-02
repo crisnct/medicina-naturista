@@ -174,7 +174,7 @@ SANATATE: Benefic pentru [inima](javascript:void(0)) , plamani, respiratie, gat,
 In plan psihologic, nefritul stabilizeaza personalitatea si integreaza mintea in corp. Favorizeaza autosuficienta. In plan mental, alunga gandurile negative si calmeaza spiritul. Stimuleaza ideile si face sarcinile sa para mai putin complexe, favorizand dezvoltarea lor.\
 \"Piatra viselor\" in plan emotional. Plasat pe frunte, suscita vise intuitive. favorizeaza eliberarea emotionala, in special a iritabilitatii.\
 In paln spiritual, nefritul va incurajeaza sa fiti voi insiva, sa va simtiti si fiinte spirituale intr-un corp uman. Suscita trezirea cunoasterii ascunse.\
-In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si organele excretoare. este prin excelenta benefic rinchilor. Jadeitul si nefritul au aceleasi proprietati curative, dar jadul de diverse cuori are caracteristici specifice.*(citeste mai mult despre jad)*\
+In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si organele excretoare. este prin excelenta benefic rinichilor. Jadeitul si nefritul au aceleasi proprietati curative, dar jadul de diverse cuori are caracteristici specifice.*(citeste mai mult despre jad)*\
 \
 **EFECTE TAMADUITOARE.** Trateaza rinichii si glandele suprarenale, elimina toxinele, reface sistemul celular si scheletul, accelereaza cicatrizarea ranilor. Favorizeaza fertilitatea si usureaza nasterea. Actioneaza asupra splinei si a coapselor. Echilibreaza fluidele corporale si nivelurile apa-saruri/acid-alcalin.\
 \
@@ -193,11 +193,11 @@ In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si org
 **CARACTERISTICI.** Obsidianul este o roca magmatica efuziva, care se formeaza prin racirea brusca a lavei. nu are o structura cristalina. Piatra fara frontiere, actioneaza rapid si puternic. Calitatile sale de oglinda care releva adevarul scot in evidenta defectele, slabiciunile si blocajele. nu puteti ascunde nimic de obsidian. Aratand cum se inlatura starile distructive, obsidianul obliga la crestere si ofera sprijinul in cursul acestui proces.\
  Trebuie manevrat cu grija, de preferinta sub indrumarea unui terapeut experimentat, deoarece poate sa aduca la suprafata emotii negative si adevaruri neplacute. Bine dirijat, calitatile sale cathartice sunt extrem de valoroase. Vindeca profund sufletul. Obsidianul faciliteaza intoarcerea in vietile antrioare pentru a tamadui emotiile sau traumele transmise in prezent.\
  Obsidianul este o piatra extrem de protectoare, care formeaza un scut impotriva negativitatii. Furnizeaza o coarda de ancorare din chakra radacina pana in centrul pamantului, abosoarbe energiile negative din mediul inconjurator si fortifica daca este cazul. Util pentru persoanele foarte sensibile. Blocheaza atacul psihic si indeparteaza influentele spirituale negative.\
- O bucata mare de obsidian este foarte eficace contra stresului geopatic sau pentru a absorbi poluarea din mediul inconjurator. Dar tendinta sa naturale de a revela adevarul trebuie luata in calcul. Multi considera efectele sale puternice coplesitoare si prefera sa foloseasca o piatra mai moderata. El este totusi extrem de util pentru terapeuti si sfatuitori deoarce, in afara de faptul ca permite atingerea esentei problemei, obsidianul purifica si energiile eliberate. Obsidianul negru sau acaju este cel mai potrivit pentru acest lucru al doilea fiind ceva mai bland.\
+ O bucata mare de obsidian este foarte eficace contra stresului geopatic sau pentru a absorbi poluarea din mediul inconjurator. Dar tendinta sa naturale de a revela adevarul trebuie luata in calcul. Multi considera efectele sale puternice coplesitoare si prefera sa foloseasca o piatra mai moderata. El este totusi extrem de util pentru terapeuti si sfatuitori deoarece, in afara de faptul ca permite atingerea esentei problemei, obsidianul purifica si energiile eliberate. Obsidianul negru sau acaju este cel mai potrivit pentru acest lucru al doilea fiind ceva mai bland.\
  De asemenea, un obsidian plasat langa pat sau sub perna elimina stresul mental si tensiunea. El va calma, dar va pune in evidenta si motivele stresului. Motive cu care trebuie sa va confruntati inainte ca pacea sa revina: obsidianul va rezolva problema pentru totdeauna in loc de a avea doar un efect pailativ. Formele cele mai moderate, precum obsidianul lacrima-de-apas sau obsidianul fulgi-de-zapada, se folosesc in acest scop. Deoarece obsidianul este atat de eficace in absorbtia energiilor negative, este esentiala curatarea pietrei sub jet de apa dupa fiecare utilizare.\
  In plan spiritual, obsidianul vitalizeaza obiectivul imaterial, elimina blocajele energetice si trateaza tensiunea, integrand umbra psihologica in ansamblu inainte de a ajunge la integritate spirituala. Stimuleaza cresterea pe toate planurile, indeamna la explorarea necunoscutului si deschide noi orizonturi.\
  Obsidianul ofera claritate intelectului, indeparteaza confuzia si credintele opresive, precizand foarte clar ceea ce se gaseste in spatele raului sau al deznadejdii mentale. Largeste constiinta, intrand cu incredere si curaj in necunoscut.\
- In plan psihologic, obsidianul va permite sa constientizati ceea ce sunteti de fapt. Pune individul in fata laturii sale intunecate si il ivata cum sa o integreze. Ajuta la identificarea tiparelor comportamentale depasite, inlatura blocajele emotionale si vindeca vechile traume, conferind emotiilor profunzime si luciditate. Promoveaza compasiunea si forta.\
+ In plan psihologic, obsidianul va permite sa constientizati ceea ce sunteti de fapt. Pune individul in fata laturii sale intunecate si il viata cum sa o integreze. Ajuta la identificarea tiparelor comportamentale depasite, inlatura blocajele emotionale si vindeca vechile traume, conferind emotiilor profunzime si luciditate. Promoveaza compasiunea si forta.\
 \
 **EFECTE TAMADUITOARE.** Da posibilitatea unei vederi de ansamblu asupra cauzei raului. Ajuta la asimilarea a tot ceea ce este dificil de acceptat si usureaza digestia. detoxifica, inlatura blocajele si tensiunea corpurilor subtile si a corpului fizic, inclusiv din arterele ingrosate. Atenueaza durerea provocata de artrita, de afectiunile articulare, crampe si rani.\
 \
@@ -207,7 +207,7 @@ In plan fizic, nefritul este o piatra de purificare, favorizand filtrarea si org
 
 **INFORMATII\
 Descriere: ** este o sticla naturala, formata din lava vulcanica**\
-Culori: variate -** negru (varietatea \"fulg de nea\"), maro (varietatea \"mahon\"), cu nuante de alb sau cafeniu, diverse alte culori (verde, auriu, albastrru, rosu etc), cu pete sau cu dungi, opac.**\
+Culori: variate -** negru (varietatea \"fulg de nea\"), maro (varietatea \"mahon\"), cu nuante de alb sau cafeniu, diverse alte culori (verde, auriu, albastru, rosu etc), cu pete sau cu dungi, opac.**\
 Duritate:** 5-6 (din 10)
 
 **Piatra recomandata pentru:\
@@ -481,7 +481,7 @@ Echilibreaza emotional, controleaza emotiile extreme\
 MEDALION OPAL ROZ**\
 \
 **CARACTERISTICI.** Piatra delicata, dotata cu o vibratie subtila, intensifica constiinta cosmica si induce viziuni psihice si mistice. Stimuland originalitatea si creativitatea dinamica, pune individul in contact cu veritabilul sau eu care poate fi exprimat. Absorbant si reflectant, intelege gandurile si sentimentele, le amplifica si le retrimite la sursa. Piatra karmica, invata ca ceea ce respingem se va intoarce. Bine programata, va permite sa treceti neobservat. Poate fi utilizat cand va aventurati in locuri periculoase, dar si in ritualurile samanice secrete.\
- In plan psihologic, amplifica caracteristicile si le scoate la suprafata in vederea transformarii. Intarind condtiinta propriei valori a individului, favorizeaza intelegerea deplina a potentialului sau. In plan mental, confera claritate si spontaneitate. Incurajeaza interesul pentru arte.\
+ In plan psihologic, amplifica caracteristicile si le scoate la suprafata in vederea transformarii. Intarind constiinta propriei valori a individului, favorizeaza intelegerea deplina a potentialului sau. In plan mental, confera claritate si spontaneitate. Incurajeaza interesul pentru arte.\
  Din punct de vedere emotional, opalul a fost mereu asociat iubirii, pasiunii, dorintei, erotismului. Este o piatra a seductiei care intensifica starile emotionale si elimina inhibitiile. Actioneaza ca stabilizator emotional. Poate sa dsipeze energia: utilizatorul trebuie sa fie bine centrat inainte de a folosi opalul pentru a explora sau induce sentimente, ori sa utilizeze alte pietre pentru a facilita integrarea. O bijuterie din opal confera loialitate, fidelitate si spontaneitate, desi risca sa intensificenestatornicia daca tendinta naturala este deja prezenta. Cunoscut pentru refacerea campului energetic terestru, ameliorarea starilor de epuizare, reancarcarea cu energie si stabilirea unei retele.\
 \
 **EFECTE TAMADUITOARE.** Intareste dorinta de a trai. Trateaza boala Parkinson, infectiile, reduce febra. imbunatateste memoria. Purifica sangele si rinichii, regleaza nivelul de insulina, amelioreaza simptomele sindromului premenstrual. Benefic pentru ochi.\
@@ -565,7 +565,7 @@ SANATATE: benefic pentru vaz, auz, dureri de cap](javascript:void(0))
  In plan psihologic, peridotul atenueaza gelozia, resentimentele, invidia, mania si diminueaza stresul. Intareste increderea si confirmarea, fara agresivitate. Motivand cresterea, suscita schimbarea necesara. Permite intoarcerea in trecut pentru descoperirea lectiei continute in propriile experiente, invatandu-va cum sa va iertati. Favorizeaza claritatea si buna dispozitie psihologica. Peridotul este acordat la descoperirea adevarului spiritual. Dirijeaza ciclurile vietii.\
  In plan mental, peridotul ascute intelectul, deschizandu-l spre noi planuri de constiinta. Inlatura apatia, orientand atentia spre toate lucrurile neglijate, constient sau nu. Datorita ajutorului sau, individul isi poate asuma greselile si poate merge mai departe. Faciliteaza asumarea responsabilitatii pentru propria viata, mai ales cand sunteti convinsi ca \"totul este din vina altora\". Peridotul imbunatateste relatiile dificile.\
 \
-**EFECTE TAMADUITOARE.** Peridotul are un efect tonic. Ingrijeste si regenereaza tesuturile, echilibreaza metabolismul si este benefic pielii. Ajuta inima, timusul, plamanii, vezica bilara, splina, tractul instestinal, vindeca ulcerele, imbunatateste vederea. Plasat pe abdomen, usureaza nasterea marind contractiile musculare si atenuand durerea. Energia sa echilibreaza tulburarile bipolare si invinge ipohondria.\
+**EFECTE TAMADUITOARE.** Peridotul are un efect tonic. Ingrijeste si regenereaza tesuturile, echilibreaza metabolismul si este benefic pielii. Ajuta inima, timusul, plamanii, vezica bilara, splina, tractul intestinal, vindeca ulcerele, imbunatateste vederea. Plasat pe abdomen, usureaza nasterea marind contractiile musculare si atenuand durerea. Energia sa echilibreaza tulburarile bipolare si invinge ipohondria.\
 \
 **POZITIONARE.** Purati-l la gat. Asezati-l unde este nevoie, indeosebi pe ficat, in contact cu pielea.
 
@@ -603,7 +603,7 @@ Stimuleaza abilitatile psihice, clarviziunea, memoria, renasterea, schimbarea, n
 Este o piatra a succesului financiar\
 Este o piatra vizionara, ajuta la conectarea cu destinul personal, la intelegerea menirii fiecaruia\
 Simbol al prosperitatii si fericirii\
-Alunga gelozia, invidia, depresia, frica, furia, anxetatea, starea de confuzie, tracul\
+Alunga gelozia, invidia, depresia, frica, furia, anxietatea, starea de confuzie, tracul\
 **Sanatate:** efect tonic. regenerator, revigorant asupra [organismului](javascript:void(0)) , benefic pentru pancreas, splina, circulatie, ficat, tiroida, inima, prostata, benefic in caz de colici, pietre la [rinichi](javascript:void(0)) , febra, ulcer, regenerarea tesuturilor, induce somnul, previne [cancerul](javascript:void(0)), mareste lactatia in perioada de alaptare, benefic la nastere
 
 [ ]{.underline}
@@ -708,7 +708,7 @@ Talisman de prosperitate\
 Calmeaza, linisteste\
 Bun pentru meditatie si rugaciune\
 Are efect maxim daca este purtata fara alte cristale\
-**SANATATE:** Daca se bea apa in care au stat timp de o noapte cateva perle, apa are efect tonic asupra [organismului](javascript:void(0)), protejeaza nasterea, sanatatea femeii, mareste vitalitatea, fertilitatea, longevitatea, stimuleaza digestia, activitatea inestinelor, ficatului, rinichilor, stomacului, globulelor albe, diafragmei, splinei, muschilor, pancreasului, scade sangerarea, ulcerul
+**SANATATE:** Daca se bea apa in care au stat timp de o noapte cateva perle, apa are efect tonic asupra [organismului](javascript:void(0)), protejeaza nasterea, sanatatea femeii, mareste vitalitatea, fertilitatea, longevitatea, stimuleaza digestia, activitatea intestinelor, ficatului, rinichilor, stomacului, globulelor albe, diafragmei, splinei, muschilor, pancreasului, scade sangerarea, ulcerul
 
 ## Piatra Sangelui (Heliotrop, Matostat, Jasp de sange)
 
@@ -764,7 +764,7 @@ Se spune ca protejeaza de muscaturile se sarpe si scorpion.](javascript:void(0))
 ***ASPECT:*** cristal transparent sau opac, cu reflexii iridiscente\
 \
 **CARACTERISTICI.** Piatra vesela, aduce lumina, induce bucuria de a trai si bunatatea inimii, ascute intuitia. Daca viata si-a pierdut farmecul, piatra Soarelui il va restabili si va va ajuta sa aveti grija de dumneavoastra. Purificand toate chakrele si oferind lumina si energie, aceasta piatra permite veritabilului eu sa iasa la iveala cu bucurie. In mod traditional, era asociata zeilor binevoitor, norocului si sansei. Piatra alchimica, favorizeaza o conexiune subtila cu lumina si puterea regeneratoare a soarelui in timpul meditatiei si in viata cotidiana.\
- Extrem de utila pentru a retrage \"carligele\" altora, plante in chakre sau in aura, din plan menatal sau emotional, de la parinti, copii sau parteneri posesivi. Aceste carlige epuizeaza energia, dar piatra Soarelui le retrimite cu afectiunile proprietarului. Foarte benefica pentru a rupe legaturile. Daca va este greu sa spuneti \"nu\" si daca va sacrificati tot timpul pentru altii, trebuie sa aveti mereu cu dumneavoastra o piatra a Soarelui. Eliminand codependenta, ea facillteaza autoancarcarea cu energie, independenta si vitalitate. Daca aveti tendinta sa lasati totul pentru maine, piatra Soarelui o va neutraliza.\
+ Extrem de utila pentru a retrage \"carligele\" altora, plante in chakre sau in aura, din plan mental sau emotional, de la parinti, copii sau parteneri posesivi. Aceste carlige epuizeaza energia, dar piatra Soarelui le retrimite cu afectiunile proprietarului. Foarte benefica pentru a rupe legaturile. Daca va este greu sa spuneti \"nu\" si daca va sacrificati tot timpul pentru altii, trebuie sa aveti mereu cu dumneavoastra o piatra a Soarelui. Eliminand codependenta, ea facillteaza autoancarcarea cu energie, independenta si vitalitate. Daca aveti tendinta sa lasati totul pentru maine, piatra Soarelui o va neutraliza.\
  In plan emotional, piatra Soarelui actioneaza ca antidepresiv si alunga starile de spirit sumbre. Eficace in special pentru tulburarile afective sezoniere, luminand obscuritatea iernii. Detaseaza de sentimentul de a fi criticat, dezavantajat si abandonat. Inlaturand inhibitiile si complexele, piatra Soarelui elimina sentimentul esecului, mareste constiinta propriei valori si increderea in sine. Incurajand optimismul si entuziasmul, induce o abordare pozitiva a evenimentelor. Chiar si cel mai mare pesimist reactioneaza la o piatra a Soarelui plasata pe plexul solar, care elimina emotiile refulate si le transforma.\
 \
 **EFECTE TAMADUITOARE.** Stimuleaza puterile de autovindecare, regleaza sistemul nervos autonom si armonizeaza toate organele. Trateaza durerile de gat cronice, ulcerul gastric. Foarte buna pentru tulburarile afective sezoniere, inlatura depresia. Creand o retea in jurul corpului, vindeca afectiunile cartilajelor, reumatismul si amelioreaza durerea de orice natura.\
@@ -818,7 +818,7 @@ Recomandabil a se purta in urma marilor socuri ale sortii](javascript:void(0))\
  Piatra foarte pozitiva, invinge inertia si sentimentul de inadecvare. Stimuleaza ideile, pune in evidenta abilitatile si potentialul. Un cristal de pirita pus pe birou incarca cu energie camera.\
  Utila in momentul stabilirii liniilor directoare in afaceri. Va invata sa vedeti dincolo de aparente si promoveaza diplomatia.\
  In plan psihologic, pirita trateaza anxietatea si frustarea, favorizeaza constientizarea propriilor valori si a increderii in sine. Barbatilor care sufera de complex de inferioaritate le creste increderea in ei si in virilitatea lor. Prea puternica insa pentru \"machos\", care risca sa devina agresivi. Ajuta femeile sa-si invinga complexele de servitudine si inferioritate.\
- Pirita stimuleaza activitatea mentala, deoarce aceasta mareste aportul de sange catre creier. Imbunatateste memoria si capacitatea de a aduce aminte. Pirita cubica largeste si structureaza capacitatile mentale, echilibrand instinctul cu intuitia, creativitatea cu analiza.\
+ Pirita stimuleaza activitatea mentala, deoarece aceasta mareste aportul de sange catre creier. Imbunatateste memoria si capacitatea de a aduce aminte. Pirita cubica largeste si structureaza capacitatile mentale, echilibrand instinctul cu intuitia, creativitatea cu analiza.\
  In plan emotional, atenueaza melancolia si disperarea. Fizic, pirita de fier energizeaza si inlatura oboseala. Blocheaza pierderile energetice ale corpului si aurei. Creste gradul de oxigenare a sangelui si fortifica sistemul circulator. Promoveaza idealul de sanatate si stare de bine. Vindeca rapid, dezvaluind cauzele starii de rau. Utila in special pentru a invinge sursele raului karmic si psihosomatic.\
 **EFECTE TAMADUITOARE.** Trateaza oasele si stimuleaza formarea celulelor, repara ADN-ul deterioarat, aliniaza meridianele si calmeaza somnul perturbat de afectiuni. Fortifica tractul digestiv, neutralizeaza toxinele ingerate, benefica pentru sistemul circulator, creste gradul de oxigenare a sangelui. Utila pentru plamani, calmeaza crizele de astm si bronsita.\
 \
@@ -863,7 +863,7 @@ Piatra a prosperitatii\
 \
 **CARACTERISTICI.** Piatra serena a iubirii neconditionate, tamaduieste tamaduitorul. Intensifica procesul de vizualizare si induce o meditatie profunda in timpul careia se atinge eul superior. Meditand asupra acestui cristal, intram in contact cu reteaua energetica a universului. Prehinitul dezvolta precognitia si introspectia. Va ajuta sa fiti intotdeauna pregatiti pentru ceea ce urmeaza. Datorita calitatii sale de a pune in acord cu energiile divine, prehnitul valorizeaza harul profetiei si arata calea catre evolutia spirituala.\
  Acest cristal inchide campul auric intr-un scut proterctor de energie divina. Util pentru a forma retele datorita capacitatii sale de a calma mediul inconjurator si a oferi pace si protectie. Perfect pentru a fi pus in gradina. Ajuta la transformarea casei intr-un sanctuar vindecator. Va invata cum sa intrati in armonie cu natura si cu fortele elementare, revitalizand si reannoind ceea ce va inconjoara.\
- O buna piatra ***Feng Shui***, prehnitul contribuie la \"eliminarea harababurii\", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers si sifletul se crede iar in manifestarea divina.\
+ O buna piatra ***Feng Shui***, prehnitul contribuie la \"eliminarea harababurii\", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers si sufletul se crede iar in manifestarea divina.\
  In plan psihologic, prehnitul inlatura cosmarurile, fobiile si fricile profunde, identificand si vindecand raul care le provoaca. Benefic copiilor hiperactivi si cauzelor karmice ascunse.\
 **EFECTE TAMADUITOARE.** Util in diagnosticare. Trateaza rinichii, vezica urinara, timusl, umerii, pieptul si plamanii. Vindeca guta si tulburarile hematologice, reface tesutul conjunctiv si stabilizeaza malignitatea.\
 **POZITIONARE.** Plasati-l sau tineti-l unde este nevoie. Pentru profetie, vizualizare si ghidare, plasati cristalul pe al treilea ochi.
@@ -917,7 +917,7 @@ Puternic rol protector:** impotriva rautatii, pericolelor si gandurilor negative
  Piatra util pentru \"primul ajutor\", rodonitul trateaza socul emotional si panica, conferind sufletului o energie pozitiva in timpul acestui proces. Foarte benefic in cazurile de autodistrugere emotionala, de codependenta si anuz. Elimina ranilie si cicatricile emotionale din trecut - oricare ar fi - si aduce la suprafata pentru pentru transmutare emotiile dureroase, precum resentimentele si mania. Aceasta piatra rezoneaza puternic cu iertarea, sustinand reconcilierea dupa o durere sau un abuz indelungat. Poate fi folosit in vindecarea vietilor anterioare, in legatura cu tradarea si abandonul. Datorita capacitatii sale de a promova iubirea altruista de sine si iertarea, ajuta la recunoasterea propriilor defecte fara a-i acuza pe altii pe propriile greseli.\
  Rodonitul respinge insultele si previne represaliile, admitand ca razbunarea este autodistrugatoare si indemnand la calm in situatii periculoase si stresante. Echilibreaza si integreaza energiile fizice si mentale, crescand increderea si eliminand confuzia.\
 \
-**EFECTE TAMADUITOARE.** Ingrijeste ranile, intepaturile de insecte, estompeaza cicatricile. Benefic pentru dezvoltarea scheletului, pentru organele auditive, regland cu precizie vibratiile sonore. Stimuleaza fertilitatea. Trateaza emfizemul, imflamatiile articulare si srtrita, bolile autoimune, ulcerul gastric si scleroza in placi.\
+**EFECTE TAMADUITOARE.** Ingrijeste ranile, intepaturile de insecte, estompeaza cicatricile. Benefic pentru dezvoltarea scheletului, pentru organele auditive, regland cu precizie vibratiile sonore. Stimuleaza fertilitatea. Trateaza emfizemul, inflamatiile articulare si artrita, bolile autoimune, ulcerul gastric si scleroza in placi.\
 \
 **POZITIONARE.** Unde este nevoie. Pe inima pentru ranile emotionale, pe piele pentru cele externe ssau interne.\
 \
@@ -966,7 +966,7 @@ Este piatra dragostei, piatra a muzicienilor, dezvoltand talentele vocale\
  Din punct de vedere emotional, rubinul este dinamic, alimenteaza pasiunea si starneste entuziasmul. Piatra sociabila, imbunatateste activitatea sexuala.\
  In plan fizic, inlatura epuizarea si apatia si confera putere si vigoare. Pe de alta parte, calmeaza hiperactivitatea.\
 \
-**EFECTE TAMADUITOARE.** Detoxifica corpul, sangele si limfa, reduce febra, trateaza bolile infectioase si imbunatateste circulatia sanguina. Foarte benefic pentru inima si sitemul circulator. Stimuleaza suprarenalele, rinichii, organele reproducatoare si splina.\
+**EFECTE TAMADUITOARE.** Detoxifica corpul, sangele si limfa, reduce febra, trateaza bolile infectioase si imbunatateste circulatia sanguina. Foarte benefic pentru inima si sistemul circulator. Stimuleaza suprarenalele, rinichii, organele reproducatoare si splina.\
 \
 **POZITIONARE.** Pe inima, pe deget, pe glezna.
 
@@ -1018,9 +1018,9 @@ Amplifica si imbunatateste viata sexuala**\
 ***ASPECT:*** stralucitor, transparent cand este slefuit\
 \
 **CARACTERISTICI.** Safirul este o piatra a intelepciunii, fiecare culoare posedand una particulara. Foclaizeaza si calmeaza mintea, alunga gandurile negative si tensiunea intelectuala. Conferind pace spiritului si serenitate, safirul aliniaza planurile fizice, mentale si spirituale si restabileste echilibrele in corp.\
- Aceasta piatra inlatura depresia si confuzia spirtituala, stimuleaza concentrarea, aduce prosperitate si atrage toate harurile. Plasat pe gat, safirul alunga frustrarea imbunatateste exprimarea.\
+ Aceasta piatra inlatura depresia si confuzia spirituala, stimuleaza concentrarea, aduce prosperitate si atrage toate harurile. Plasat pe gat, safirul alunga frustrarea imbunatateste exprimarea.\
 \
-**EFECTE TAMDUITOARE.** Calmeaza sitemul corporal hiperactiv si regleaza glandele. Ingrijeste ochii, indepartand impuritatile si eliminand stresul. Trateaza tulburarile hematologice, opreste samgerarile abundente, fortifica venele si creste elasticitatea acestora.\
+**EFECTE TAMDUITOARE.** Calmeaza sistemul corporal hiperactiv si regleaza glandele. Ingrijeste ochii, indepartand impuritatile si eliminand stresul. Trateaza tulburarile hematologice, opreste samgerarile abundente, fortifica venele si creste elasticitatea acestora.\
 \
 **POZITIONARE:** In contact cu corpul. Purtatil pe degent *(inel)* sau plasati-l unde este nevoie.\
 \
@@ -1034,7 +1034,7 @@ Fiecare culoare poseda proprietati particulare, in afara caracterisiticilor gene
 \
 **Safirul verde** imbunatateste vizuinnele, interioare si exterioare, precum si amintirea viselor. Stimuleaza chakra inimii, aducand loialitate, fidelitate si integritate. Mareste compasiunea si intelegerea slabiciunilor si a calitatilor exceptionale ale semenilor.\
 **Safirul roz** actioneaza ca un magnet pentru a aduce in viata dvs. toate harurile de care aveti nevoie pentru a evolua. Actioneaza rapid, va invata cum sa stapaniti emotiile, elimina blocajele emotionale si integreaza energiile transformate.\
-**Safirul violet** trezeste. util in meditatie, stimuleaza ascensiunea kundalini si chakra coroana si deschide spiritualitatea. Activeaza epifiza datorita raportului sau cu abilitatile psihice si stimlueaza calitati vizionare. Calmant pentru persoanele instabile emotional.\
+**Safirul violet** trezeste. util in meditatie, stimuleaza ascensiunea kundalini si chakra coroana si deschide spiritualitatea. Activeaza epifiza datorita raportului sau cu abilitatile psihice si stimuleaza calitati vizionare. Calmant pentru persoanele instabile emotional.\
 **Safirul regal** elimina energiile negative ala chakrelor si stimuleaza ce de-al treilea ochi pentru accesul la informatiile necesare dezvoltarii. Promoveaza asumarea responsabilitatii pentru propriile ganduri si sentimente. Trateaza tulburarile cerebrale, inclusiv dislexia.\
 **Safirul stea** ascunde in profunzimea sa o formatie de stea cu cinci varfuri. Aceasta piatra rara trimite individul in adancurile sale si deschide intuitia. Favorizeaza focalizarea gandurilor si faciliteaza anticiparea intentiilor celorlalti.\
 \
@@ -1093,7 +1093,7 @@ Se spune ca protejeaza de orbire si surzenie\
  Aduce o fericire durabila, confera stabilitate in casnicie si parteneriate, atrage prietenii si norocul. Poate servi la crearea de retele de aparare in jurul casei si al gradinii. Cate un cristal de sardonix ar trebui sa fie plasat in toate colturile casei, la usi si la ferestre. Un radiestezist va va indica locul potrivit.\
  In plan psihologic, mareste vointa si fortifica caracterul. Creste vigoarea, robustetea si stapanirea de sine. Alunga depresia si ezitarile. In plan mental, imbunatateste perceptia, faciliteaza procesul de osmoza si procesarea informatiei.\
 \
-**EFECTE TAMADUITOARE.** Vindeca plamanii si oasele, resensibilizeaza organle de simt. Regleaza metabolismul fluidelor si celulelor, fortifica sistemul imunitar, creste absorbita substantelor nutritive si favorizeaza excretia.\
+**EFECTE TAMADUITOARE.** Vindeca plamanii si oasele, resensibilizeaza organele de simt. Regleaza metabolismul fluidelor si celulelor, fortifica sistemul imunitar, creste absorbita substantelor nutritive si favorizeaza excretia.\
 \
 **POZITIONARE.** peste tot mai ales pe stomac.\
 \
@@ -1517,7 +1517,7 @@ Protejeaza de spiritele rele\
 
 **[TURCOAZ]{.underline}**
 
-Foarte eficace, ofera confort spiritului si buna dispozitie corpului. Piatra protectoare, a fost utilizata pentru amulete din cele mai vechi timpuri. Cunoscuta pentru schimbarea culori in caz de infidelitate. Favorizeaza armonia spirituala si creeaza posibiliatea comunicarii cu lumea fizica si lumile spirituale.
+Foarte eficace, ofera confort spiritului si buna dispozitie corpului. Piatra protectoare, a fost utilizata pentru amulete din cele mai vechi timpuri. Cunoscuta pentru schimbarea culori in caz de infidelitate. Favorizeaza armonia spirituala si creeaza posibilitatea comunicarii cu lumea fizica si lumile spirituale.
 
 **\
 Cunoscut si sub numele de: Turcoaza, Peruzea**
@@ -1925,7 +1925,7 @@ Potrivit yoghinilor, energia Universului sustine toate procesele vitale si patru
 ### Chakrele: centri energetici
 
  **Chakrele: centri energetici**\
-In cartea amintita mai sus, se spune: „Chakrele celor mai multi dintre noi au un diametru de cca. 10 cm si in fiecare astfel de centru energetic sunt prezente toate vibratiile coloristice, insa dominanta ramane o culoare care corespunde rolului principal al chakrelor\". In cazul unui om e voluat spiritual, chakrele se dilata, frecventa vibratiilor sporeste, iar culorile corespunzatoare devin mai clare. De buna functionare a chakrelor depinde starea de sanatate a intregului organism. Pentru deblocarea chakrelor exista mai multe metode, printre care: meditatia, terapia prin sunete, terapia prin culori, terapia prin cristale. La aceasta din urma ne vom referi in randurile de mai jos.
+In cartea amintita mai sus, se spune: „Chakrele celor mai multi dintre noi au un diametru de cca. 10 cm si in fiecare astfel de centru energetic sunt prezente toate vibratiile coloristice, insa dominanta ramane o culoare care corespunde rolului principal al chakrelor\". In cazul unui om evoluat spiritual, chakrele se dilata, frecventa vibratiilor sporeste, iar culorile corespunzatoare devin mai clare. De buna functionare a chakrelor depinde starea de sanatate a intregului organism. Pentru deblocarea chakrelor exista mai multe metode, printre care: meditatia, terapia prin sunete, terapia prin culori, terapia prin cristale. La aceasta din urma ne vom referi in randurile de mai jos.
 
 #### Sistemul chakrelor si cristalele
 
@@ -2157,7 +2157,7 @@ In primul rand, trebuie stiut ca un cristal este translucid sau transparent; opa
 Forma sa pura, duritatea mare, transparenta, au facut din cuart cristalul privilegiat, inzestrat cu puterea de a \'\'citi\'\' energia organismului si de a a actiona in sensul vindecarii unor afectiuni. Cuartul este folosit si in zilele noastre de catre bioenergoterapeuti in special pentru determinarea starii punctelor de energie ale corpului.\
 Cristalul este legat de un lant si lasat sa atarne peste principalele zone energetice: cap, frunte, gat, inima, abdomen si zona genitala. In functie de miscarile sale, terapeutul isi da seama daca zona energetica functioneaza normal, daca primeste fluxurile de energie din exterior si daca transmite de asemenea energie.\
 Din antichitate, pietrele pretiose si semipretioase au fost purtate pe rand ca amulete, podoabe ale claselor privilegiate (regi, razboinici, preoti), obiecte investite cu puteri magice. Stralucirea lor a devenit un simbol al bogatiei, culorile sub care erau gasite au capatat in timp diferite atributii (rubinele si safirele erau considerate simboluri regale).\
-La fel si cele semipretioase: jadul pentru chinezi reprezenta nemurirea, lapis lazuli era piatra regilor si a intelepciunii conducatorilor mayasi, ametistul, prin culoarea sa violeta, a devenit simbol al spiritualitatii (prelatii catolici poarta robe violete, asa cum purtau si unii preoti antici pentru a semnala puterea spirtituala si sacralitatea).\
+La fel si cele semipretioase: jadul pentru chinezi reprezenta nemurirea, lapis lazuli era piatra regilor si a intelepciunii conducatorilor mayasi, ametistul, prin culoarea sa violeta, a devenit simbol al spiritualitatii (prelatii catolici poarta robe violete, asa cum purtau si unii preoti antici pentru a semnala puterea spirituala si sacralitatea).\
 Pietrele semipretioase, prin marea lor varietate, au fost puse in concordanta cu semnele zodiacului si cu fiecare zona energetica si organ guvernat de zodia respectiva. Culorile pietrelor si semnificatiile pe care le are fiecare confera purtatorului caracteristicile mineralului respectiv.\
 Astfel, carneolul este piatra zodiilor Berbec, Rac, Fecioara; ametistul este piatra Pestilor; lapis lazuli si agatele - pentru Tauri; cuartul de stanca pentru Capricorni si Sagetatori; hematitul pentru Scorpioni.\
 Pietrele semipretioase au puterea de a activa functiile organelor pe care le guverneaza, de a elibera energiile pozitive in functie de fiecare semn zodiacal si de a induce o stare de bine purtatorului. Chiar si metalele si pietrele pretioase au aceasta inraurire asupra organismului. De exemplu, nu oricine ar trebui sa poarte aur (aurul poate fi purtat de zodiile de foc: Leu, Sagetator, Berbec). Safirul, iarasi, este piatra Taurilor, pentru care culoarea albastra este benefica.\
@@ -2212,7 +2212,7 @@ Magnetitul rosu -- atrage dragostea, prietenia, mareste fidelitatea.\
 \
 Malachitul -- atrage prosperitatea, protejeaza impotriva pericolelor\
 \
-Moldavitul -- mareste puterea altor pietre, mijloceste comunicarea cu subconstientul. Se crede ca are legaturi cu energiile extraterestre, deorece este facut din ramasitele unui meteorit care a lovit Pamantul cu mii de nai in urma. Este din ce in ce mai rar si se gaseste numai intr-o regiune a Rusiei.\
+Moldavitul -- mareste puterea altor pietre, mijloceste comunicarea cu subconstientul. Se crede ca are legaturi cu energiile extraterestre, deoarece este facut din ramasitele unui meteorit care a lovit Pamantul cu mii de nai in urma. Este din ce in ce mai rar si se gaseste numai intr-o regiune a Rusiei.\
 \
 Obsidianul -- se foloseste in divinatie, mareste puterea spirituala.\
 \
@@ -2535,7 +2535,7 @@ Biblia Ortodoxa cautare \| talcuiri \| resurse \| contact
  35\. Si acesta va fi pe Aaron in timpul slujbei, cand va intra in cortul sfant, inaintea Domnului, si cand va iesi, ca sa se auda sunetul clopoteilor si sa nu moara.
  36\. Sa faci dupa aceea o tablita slefuita, de aur curat, si sa sapi pe ea, cum se sapa pe pecete, cuvintele: \"Sfintenia Domnului\",
  37\. Si s-o prinzi cu snur de matase violeta de chidar, asa ca sa vina in partea de dinainte a chidarului.
- 38\. Aceasta va fi pe fruntea lui Aaron si Aaron va purta pe fruntea sa neajunsurile prinoaselor afierosite de fiii lui Israel si ale tuturor darurilor aduse de ei; ea va fi pururea pe fruntea lui, pentru a atrage bunavointa Domnului spre ei.
+ 38\. Aceasta va fi pe fruntea lui Aaron si Aaron va purta pe fruntea sa neajunsurile prin oaselor afierosite de fiii lui Israel si ale tuturor darurilor aduse de ei; ea va fi pururea pe fruntea lui, pentru a atrage bunavointa Domnului spre ei.
  39\. Hitonul sa-l faci de in si tot de in sa faci si mitra, iar cingatoarea sa o faci brodata cu matase de felurite culori.
  40\. Sa faci de asemenea si fiilor lui Aaron hitoane si cingatori; si sa le faci si turbane pentru cinste si podoaba.
  41\. Sa imbraci cu acestea pe fratele tau Aaron si impreuna cu el si pe fiii lui, sa-i ungi, sa-i intaresti in slujbele lor si sa-i sfintesti, ca sa-Mi fie preoti.

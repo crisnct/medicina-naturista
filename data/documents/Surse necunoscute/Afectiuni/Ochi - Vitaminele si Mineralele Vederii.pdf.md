@@ -23,7 +23,7 @@ Astazi suntem asaltati de numeroasele informatii despre mancare si diete
 dar cel mai important lucru este sa intelegem care sunt elementele esentiale
 pentru o buna dezvoltare a organismului si implicit ale ochilor tai.
 Exista o pastila care sa suplineasca toate vitaminele? Trebuie sa stii ca sup-
-limentele de vitamine si minerale nu pot inlocui o alimentatie deficitara.
+alimentele de vitamine si minerale nu pot inlocui o alimentatie deficitara.
 Nu exista o pastila magica care va inlatura si va diminua efectele nocive
 ale unei diete bogate in grasimi animale, mancaruri prajite si dulciuri in exces.
 Ce inseamna o alimentatie bogata in nutrienti? O alimentatie sanatoasa
@@ -442,7 +442,7 @@ fructe proaspete ce au un continut ridicat de vitamine de orice fel.
 Vazul este un proces complex, consumator de energie, iar pentru acest lucru
 consuma zilnic cereale care iti ofera necesarul de vitamine B.
 In lipsa vitaminei D, vitaminele si mineralele nu se fixeaza corespunzator
-in organism, iar la nivelul ochiilor tai pot aparea depozite de calciu in exces ceea
+in organism, iar la nivelul ochilor tai pot aparea depozite de calciu in exces ceea
 ce determina ca muschii extraoculari sa fie rigizi si blocati - fapt ce determina
 ca globul ocular sa isi schimbe forma.
 Cea mai buna modalitate de obtinere a vitaminei D este sa te expui zilnic
@@ -794,7 +794,7 @@ Pentru ca daca laptele este doar bun, asta nu inseamna ca automat este si
 sanatos pentru corpul tau. In majoritatea cazurilor un produs bun nu este si
 sanatos. Iar daca nu este sanatos, atunci iti blocheaza procesul de imbunatatire
 a vederii tale.
-T otusi ce intelegi tu prin “acest aliment este bun”?
+Totusi ce intelegi tu prin “acest aliment este bun”?
 Un aliment care are un gust bun, adica gustos, crezi ca prin continutul
 “ridicat” de nutrienti pe care il contine, acesta iti hraneste vederea?
 Majoritatea oamenilor au o convingere gresita si o intelegere gresita asupra

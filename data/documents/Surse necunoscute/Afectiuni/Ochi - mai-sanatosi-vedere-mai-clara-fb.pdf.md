@@ -114,7 +114,7 @@ Conjunctivita sau „ochii rosii”
 Aceasta afectiune este o inflamatie a conjunctivei. Conjunctiva este o membrana formata din
 mucus care acopera sclerotica (albul ochiului) si se afla la marginile interioare ale ochilor.
 Conjunctiva ajuta la lubrifierea ochiului producand mucus si lacrimi. De asemenea mai
-contribuie la imunitatea locala si ajuta la prevenirea intrarii bacterilor in ochi.
+contribuie la imunitatea locala si ajuta la prevenirea intrarii bacteriilor in ochi.
 Conjunctivita poate fi foarte contagioasa si se poate raspandi rapid si la celalalt ochi daca nu
 este tratata. Si aceasta este o afectiune minora deoarece chiar daca ochiul poate arata
 foarte rosu, intr-o stare total neplacuta, nu provoaca leziuni la nivelul ochiului.
@@ -147,7 +147,7 @@ doctorul sa-ti poata prescrie tipul de tratament pe care trebuie sa-l faci. In f
 sa-ti identifice si tipul de conjunctivita. Mai jos ai cateva tipuri de conjunctivita.
 1. Conjunctivitele virale
 
-Acestea sunt cauzate de infectii ale cailor respiratorii superioare si raceli. Afecteaza deobicei
+Acestea sunt cauzate de infectii ale cailor respiratorii superioare si raceli. Afecteaza de obicei
 un ochi dar ii poate afecta pe amandoi. Conjunctivitele virale produc lacrimari excesive.
 Acest tip de conjunctivita tinde sa fie mai contagioasa decat tipul bacterian al acesteia.
 
@@ -167,7 +167,7 @@ Cum sa previi si sa tratezi conjunctivitele
 
 1) Conjunctivitele virale
 
-O conjunctivita virala, deobicei dureaza intre patru si sapte zile. Conjunctivitele virale
+O conjunctivita virala, de obicei dureaza intre patru si sapte zile. Conjunctivitele virale
 pot fi foarte contagioase asa ca, cauta tratament specializat de la un medic oftalmolog.
 Evita contactul cu ceilalti si spala-ti mainile des.
 

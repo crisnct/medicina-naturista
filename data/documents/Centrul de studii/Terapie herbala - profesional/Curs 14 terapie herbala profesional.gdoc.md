@@ -14,7 +14,7 @@ Acestea nu ar trebui sa fie confundate cu narcoticele anorganice sau opiaceele f
 
 Antispasticele previn sau diminueaza contractiile excesive (spasmele) din muschi,voluntare sau involuntare, in orice parte a corpului. Multe au functii de stimulare a centrilor nervosi superiori, centrilor de coordonare si de putere (a nervinelor);altele prin apasarea tuturor functiilor vitale (Lobelia, americanspanz,etc), precum si un numar de stimulare a fibrelor musculare ale intestinelor pentru a expulza acumularile de gaze(asafoetida, valeriana, ignamasalbatica, cajuput, etc).
 
-Majoritatea acestor plante vindeca nervii deteriorati sau suprasolicita si amelioreaza tensiunea nervoasa si iritabilitatea cauzate de actiunea neregulata si dureroasa a muschilor. Aceste plante sunt cele mai eficientein cazurile de blocare a articulatiilor, astfel incat acestea sunt utile mai ales ca agenti anti-tetanos.
+Majoritatea acestor plante vindeca nervii deteriorati sau suprasolicita si amelioreaza tensiunea nervoasa si iritabilitatea cauzate de actiunea neregulata si dureroasa a muschilor. Aceste plante sunt cele mai eficiente in cazurile de blocare a articulatiilor, astfel incat acestea sunt utile mai ales ca agenti anti-tetanos.
 
 Lobelia(Lobelia inflata; LOBELIACEAE)
 
@@ -46,7 +46,7 @@ Tinctura se administreaza 10-20 picaturi de 2-3 ori pe zi
 
 56g de pulberebitter stomacal(Bayberry)
 
-28g pulbereradacinade Valeriana(Valeriana officinalis)
+28g pulbere radacina de Valeriana(Valeriana officinalis)
 
 7g pulbere deLobeliapraf(Lobelia inflata)
 
@@ -62,7 +62,7 @@ Dozare: 1linguritalaocana de apa fierbinte, la fiecare ora, daca este necesar.
 
 28g gura-lupului(Scutellaria lateriflora)
 
-14g de radacinade Pleurezia (Asclepias tuberosa)
+14g de radacina de Pleurezia (Asclepias tuberosa)
 
 Pregatire: se infuzeaza timp de20 minutein1litru de apafiarta, seindulcestesibeacalda.
 
@@ -120,7 +120,7 @@ Dozare : cca.60 ml de lichid, la fiecare 2 la 3 ore, in timpul zilei .
 
 Mod de preparare: se infuza primele 5 plante intr-un litru de apa . Acopera cu atentie si
 
-pastreaza cald in cuptor timp de 1 ora , apoi strecuara peste Cayenne si Bayberry .
+pastreaza cald in cuptor timp de 1 ora , apoi strecoara peste Cayenne si Bayberry .
 
 Indulceste, puneti in sticla si pastreaza intr \-un loc racoros .
 
@@ -138,7 +138,7 @@ Insomnie (mai alesdependenta demorfina)
 
 1parteBlack Cohosh(Cimicifuga racemosa)
 
-Mod de preparare:Se amestecaierburile impreuna. Utilizeaza 1linguritadeamestec deplante laoceascade apa fierbinte, se acopera timpde 15- 20 de minute.
+Mod de preparare:Se amesteca ierburile impreuna. Utilizeaza 1linguritadeamestec de plante laoceascade apa fierbinte, se acopera timpde 15- 20 de minute.
 
 Dozare: se bea ceaiulcaldinainte de culcare.
 
@@ -154,7 +154,7 @@ Dozare: se bea ceaiulcaldinainte de culcare.
 
 Mod de preparare:Utilizati cainfuziesausirop.
 
-Dozare: 2linguritedupa mese si laculcare(sirop);
+Dozare: 2linguritedupa mese si la culcare(sirop);
 
 3linguridupa mese(infuzie).
 
@@ -247,7 +247,7 @@ In doze normale, valeriana da foarte rar reactii adverse, care constau in somnol
 
 Mod de preparare:se infuzeazaierburiletimp de 1 orain2litri deapa fierbinte, se acopera binesise tine la cald. Se lasasa se raceasca, apoise strecoara.
 
-Dozare: 2lingurila fiecare 2 ore(se adauga 10 picaturi detinctura antispasmodicalafiecare doza).
+Dozare: 2lingurila fiecare 2 ore(se adauga 10 picaturi de tinctura antispasmodicalafiecare doza).
 
 Neliniste, insomnie, isterie, nevralgii
 
@@ -291,11 +291,11 @@ Infuzie de papucul doamnei
 
 1-1/4litride apadistilata
 
-Mod de preparare:Se pune apala fiertsi se toarnapesteplanta. Se acoperasi se tine asatimp de 15 minute, se strecoara si seindulcestedupa gust.
+Mod de preparare:Se pune apala fiertsi se toarna peste planta. Se acopera si se tine asatimp de 15 minute, se strecoara si seindulcestedupa gust.
 
 Dozare: 60ml de lichid, de3 pana la 4ori pe zi, de preferatinainte de masa.
 
-Copii: de la 2linguritea1lingurita, in functie devarsta sistare.
+Copii: de la 2linguritea1lingurita, in functie de varsta sistare.
 
 Inflamatia apendicelui
 
@@ -303,7 +303,7 @@ Inflamatia apendicelui
 
 1/2lingurita deplantaLobelia(Lobelia inflata)
 
-Se amesteca ierburileinforma de pulbereintr-oceascadeapa fierbinte, se acopera cuofarfurietimp de catevaminute.
+Se amesteca ierburile in forma de pulbereintr-oceascadeapa fierbinte, se acopera cuofarfurietimp de cateva minute.
 
 Dozare: 1ceasca plina lafiecare1/2ora.
 

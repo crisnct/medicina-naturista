@@ -158,7 +158,7 @@ Uz:Intern:- infuzie din 1-2 doze la 200 ml apa fierbinte. Se beau trei ceaiuri p
 
  Extern:- se fac spalaturi vaginale cu infuzie sau decoct de Ceai Ginecologic din 4-6 doze ceai la 1 litru apa, in care se adauga 1 lingura Tinctura Ginecologica. Tinctura Ginecologica si Ceaiul Ginecologic se poate asocia sau inlocui cu capsule Hyper Gin.In caz de tricomoniaza se mai aduga la infuzie 1 lingura Tinctura Galbenele.
 
-Recomandari:Adjuvant in : metroragii (hemoragii uterine), metrite (inflamtii ale uterului), anexite (inflamatii ale ovarelor), dismenoree, leucoree, vaginite, infectii cu Trichomonas vaginalis si pentru mentinerea unei igiene locale.
+Recomandari:Adjuvant in : metroragii (hemoragii uterine), metrite (inflamatii ale uterului), anexite (inflamatii ale ovarelor), dismenoree, leucoree, vaginite, infectii cu Trichomonas vaginalis si pentru mentinerea unei igiene locale.
 
 7.Ceai flori de fan
 
@@ -214,7 +214,7 @@ Proprietati:- diuretica, depurativa, dezinfectanta a cailor urinare, calmanta.
 
 Uz:- infuzie din 1-2 lingurite plante(1-2 doze) la 200 ml apa fierbinte. Se beau 2 \-3 ceaiuri pe zi. In ceaiul fierbinte se adauga 1 lingurita Tinctura Diuretica.Tratamentul se poate combina cu capsule Hyper Dep-Diu.
 
-Recomandari: Adjuvant inafectiuni renale (nefrite, pielite, cistite, pietre), leziuni cardio-renale (edeme), hepatite.
+Recomandari: Adjuvant in afectiuni renale (nefrite, pielite, cistite, pietre), leziuni cardio-renale (edeme), hepatite.
 
 12\. Ceai pentru slabit
 
@@ -284,7 +284,7 @@ Recomandari: Ceaiul mareste secretiile bronsice, usurand expectoratia. Reduce in
 
 Compozitie:Scorus- de- munte-Sorbus aucuparia, Catina- alba-Hippophea rhamnoides, Paducel-Crataegus monogyna, Mesteacan-Betula verrucosa, Papadie-Taraxacum officinale, Brusture-Arctium lappa, Schinduf-Trigonella foeunum-graecum;
 
-Proprietati:- hipocolesterolemiant, intarzie si previne procesul de ateromatoza si ateroscleroza, in special in arterele coronare si cerebrale, impiedicand aparitia unor boli vasculare grave cum ar fi infarctul miocardic si hemoragiile cerebrale; datorita continutului de antioxidnti si bioflavonoide creste productia de HDL( colesterol bun) si scade productia de LDL(colesterol rau); fluidifica sangele si normalizeaza circulatia sangvina, produce vasodilatatie si coronaro-dilatatie; regleaza metabolismul general, hipotensiv, diuretic si depurativ.
+Proprietati:- hipocolesterolemiant, intarzie si previne procesul de ateromatoza si ateroscleroza, in special in arterele coronare si cerebrale, impiedicand aparitia unor boli vasculare grave cum ar fi infarctul miocardic si hemoragiile cerebrale; datorita continutului de antioxidanti si bioflavonoide creste productia de HDL( colesterol bun) si scade productia de LDL(colesterol rau); fluidifica sangele si normalizeaza circulatia sangvina, produce vasodilatatie si coronaro-dilatatie; regleaza metabolismul general, hipotensiv, diuretic si depurativ.
 
 Uz:- infuzie din 1-2 doze la 200 ml apa, se beau 3 ceaiuri pe zi, inainte de masa, in cure de lunga durata. Ceaiul Hipocolesterolemiant se poate asocia sau inlocui cu capsule Hipocolesterolemiant.
 
@@ -454,7 +454,7 @@ Recomandari: Adjuvant in scaderea glicemiei la persoanele cu glicemia crescuta(h
 
 Compozitie:- extract hidroalcoolic din: Pelin-Artemisa absinthium, Ghintura-Gentiana asclepiadea, Tintaura-Centaurium erythrea, Cicoare-Cichorium intybus, Iarba mare-Inula helenium, Crusin-Frangula alnus, Cimbrisor-Thymus serpyllum, Musetel-Matricaria chamomilla, Vetrice-Tanacetum vulgare;
 
-Proprietati:- antihelmintica, vermifuga si vermicida, antiinflamatore, diuretica.
+Proprietati:- antihelmintica, vermifuga si vermicida, antiinflamatoare, diuretica.
 
 Uz:- pentru copii sub 4 ani se recomanda cate 10 picaturi, de 3 ori pe zi, dizolvate in 100 ml Ceai Antihelmintic; pentru copii peste 4 ani se recomanda cate 30 picaturi, de 3 ori pe zi, dizolvate in 100 ml Ceai Antihelmintic; pentru adulti se recomanda cate 100 de picaturi, de 3 ori pe zi dizolvate in 100 ml Ceai Antihelmintic; Se administreaza inainte de masa cu 15 minute. Cura dureaza 2 saptamani. La nevoie se poate repeta dupa o pauza de 10 zile.
 
@@ -568,7 +568,7 @@ Compozitie:- extract hidroalcoolic din : Salcie-Salix alba, Musetel-Matricaria c
 
 Proprietati:- astringenta, antiinflamatoare, antiseptica, cicatrizanta, calmanta, hemostatica, stimulenta a circulatiei periferice.
 
-Uz:Intern: 1 ligurita Tinctura Antihemoroidala, dizolvata in ceai sau apa, de 3 ori pe zi, in cure de 6 saptamani. Extern:- bai locale si comprese cu tinctura dizolvata in Ceai Antihemoroidal;
+Uz:Intern: 1 lingurita Tinctura Antihemoroidala, dizolvata in ceai sau apa, de 3 ori pe zi, in cure de 6 saptamani. Extern:- bai locale si comprese cu tinctura dizolvata in Ceai Antihemoroidal;
 
 Recomandari:Tinctura Antihemoroidala are rol adjuvant in tratarea hemoroizilor care sunt niste tumefieri dureroase sanguinolente ale venelor regiunii recto-anale, datorate procesului inflamator.
 

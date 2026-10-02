@@ -36,5 +36,5 @@
 
  Pentru adulti : faceti o infuzie din 50 gr de cinbru, rupt in bucati, intr-un
 
- litru de apa . Beti-o in decursul unei zile, iar daca efectul nu este ime diat, continuati inca trei zile
+ litru de apa . Beti-o in decursul unei zile, iar daca efectul nu este imediat, continuati inca trei zile
 

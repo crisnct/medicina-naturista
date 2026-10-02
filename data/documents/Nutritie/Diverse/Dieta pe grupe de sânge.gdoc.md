@@ -4,7 +4,7 @@
 
 Exista un alt argument in favoarea cunoasterii grupei tale de sange, care spune ca daca mananci anumite alimente (recomandate pentru fiecare grupa sangvina in parte: A, B, AB si 0), acestea iti pot oferi multe beneficii pentru sanatate.
 
-Popularizate de medicul Peter J. D'Adamo, dietele bazate pe grupa de sange incearca sa iti aduca o stare generala de sanatate buna si un risc redus de a dezvolta anumite boli. Pe langa anumite alimente, D'Adamo recomanda diferite suplimente pentru fiecare grupa de sange. Este recomandat un amestec special de multivitamine, multiminerale, blocant de lectina si probiotic/prebiotic pentru fiecare grupa de sange.
+Popularizate de medicul Peter J. D'Adamo, dietele bazate pe grupa de sange incearca sa iti aduca o stare generala de sanatate buna si un risc redus de a dezvolta anumite boli. Pe langa anumite alimente, D'Adamo recomanda diferite suplimente pentru fiecare grupa de sange. Este recomandat un amestec special de multivitamine, multiminerale, blocant de lecitina si probiotic/prebiotic pentru fiecare grupa de sange.
 
 ## Caracteristicile persoanelor cu grupa de sange 0
 

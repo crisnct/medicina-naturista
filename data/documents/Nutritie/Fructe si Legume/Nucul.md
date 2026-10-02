@@ -8,10 +8,10 @@ Coaja de pe ramurile tinere pisata si aplicata pe bataturi fac ca acestia sa dis
 
 **Colesterol**
 
-Luati in fiecare dimineata pe stomacul gol o lingurita de ulei de nuca , daca intestinul va permite . Dupa ce ati inghitit-o , clatiti-va gura cu sucul unei feli de lamaie pe care o sugeti
+Luati in fiecare dimineata pe stomacul gol o lingurita de ulei de nuca , daca intestinul va permite . Dupa ce ati inghitit-o , clatiti-va gura cu sucul unei felide lamaie pe care o sugeti
 
 **Ciclu menstrual cu probleme**
 
-Lasati la macerat timp de 10 zile intrun litru de vin rosu 40 grame frunze de nuc uscate si maruntite . Beti un pahar de vin asfel optinut in timpul meselor , in perioada menstruatiei
+Lasati la macerat timp de 10 zile intrun litru de vin rosu 40 grame frunze de nuc uscate si maruntite . Beti un pahar de vin asfel obtinut in timpul meselor , in perioada menstruatiei
 
 \[ DACA AVETI DURERI SAU CICLU NU ESTE REGULAT \]

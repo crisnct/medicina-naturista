@@ -469,10 +469,10 @@ Daca nu ai cancer si vrei sa-I previi, mananca 7-10 samburi de caisa zilnic (inc
 mica 1-2 pe zi si ajungand in timp la 7-10 pe zi)
 Stai departe de zaharul rafinat (zaharul alimenteaza cancerul), de cafeina (daunator pentru ficat
 si rinichi) si de faina alba (organismul il transforma foarte usor in zahar)
-Fara lactate, cascavalul e ok
+Fara lactate, cascavalule ok
 Citeste cu atentie etichetele informationale de pe ambalajele alimentelor si i-a in considerare
 ingredientele listate. Consuma cat mai multe cruditati si ferestete de alimentele procesate.
-Reduce sau elimina carnea din alimentatia zilnica. Carnea scoate din organism enzimeledigestive
+Reduce sau elimina carnea din alimentatia zilnica. Carnea scoate din organism enzimele digestive
 necesare pentru a distruge peretele proteinic ce inconjoara celulele canceroase.
 Incepe tratamentul cu vitamina B17 si cu samburii de caisa in cantitate mica, crescand apoi doza zilnica.
 Sistemul digestive trebuie sa se acomodeze cu doza zilnica, in plus este si enzima pancreatica care ajuta
@@ -1639,7 +1639,7 @@ ta
 lon de
 \\ \
 Cy
-ovare, testicu le
+ovare, testicule
 Piciorul drept
 Piciorul stang
 ```

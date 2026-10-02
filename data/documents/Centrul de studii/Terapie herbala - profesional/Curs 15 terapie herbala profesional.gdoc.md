@@ -88,11 +88,11 @@ Mod de preparare: se fierbe timp de 10 minute intr-un recipient inchis, se pune 
 
 Mod de preparare: se pune Cayenne in ceaiul de salvie, apoi se amesteca cu restul de ingrediente
 
-. Dozare: gargara de la 4 pana la 12 ori pe zi. Ia o lingura sau doua oral dupa gargara. Ia amestectul pe cale orala cate ori este nevoie, dar dupa gargara.
+. Dozare: gargara de la 4 pana la 12 ori pe zi. Ia o lingura sau doua oral dupa gargara. Ia amestecul pe cale orala cate ori este nevoie, dar dupa gargara.
 
 # GHIMBIR (Zingiber officinalis; ZINGIBERACEAE)
 
-Ghimbirul (Zingiber officinale), denumit popular si „ghimber” sau „gingiber”, este numele dat unei plante erbacee din regiunile tropicale, cu rizom aromatic bogat in uleiuri eterice. Este o specie perena care are nevoie de o temperatura ridicata si constanta precum si de o umiditate permanenta pentru a se dezvolta corespunzator. Rizomul de ghimbir are o forma neregulata, contorsionata si e noduros, atingand pana la 5-6 centimetri in lungime. Ghimbirul e deosebit de pretuit in bucatariile orientale din India, Malaezia, Nepal, Bangladesh etc. Un nume alternativ al ghimbirului, introdus de turci in Moldova si Muntenia a fost cel de 'piper alb'. Denumirea de ghimbir a fost folosita mai ales in Banat si Ardeal provenind din maghiarul gyömber, iar apoi s-a impus in intreaga tara. In fostele colonii britanice, cum ar fi Canada, Australia, Jamaica, Kenia, se consuma o asa-zisa "bere" din ghimber (ginger beer) care de fapt este o bautura ne-alcoolica, racoritoare. Substantele active importante pe care le contine ghimbirul sunt compusi specifici numiti gingeroli, fenoli, ulei volatil.
+Ghimbirul (Zingiber officinale), denumit popular si „ghimber” sau „gingiber”, este numele dat unei plante erbacee din regiunile tropicale, cu rizom aromatic bogat in uleiuri eterice. Este o specie perena care are nevoie de o temperatura ridicata si constanta precum si de o umiditate permanenta pentru a se dezvolta corespunzator. Rizomul de ghimbir are o forma neregulata, contorsionata si e noduros, atingand pana la 5-6 centimetri in lungime. Ghimbirule deosebit de pretuit in bucatariile orientale din India, Malaezia, Nepal, Bangladesh etc. Un nume alternativ al ghimbirului, introdus de turci in Moldova si Muntenia a fost cel de 'piper alb'. Denumirea de ghimbir a fost folosita mai ales in Banat si Ardeal provenind din maghiarul gyömber, iar apoi s-a impus in intreaga tara. In fostele colonii britanice, cum ar fi Canada, Australia, Jamaica, Kenia, se consuma o asa-zisa "bere" din ghimber (ginger beer) care de fapt este o bautura ne-alcoolica, racoritoare. Substantele active importante pe care le contine ghimbirul sunt compusi specifici numiti gingeroli, fenoli, ulei volatil.
 
 Cuvantul "ghimbir" provine, asemenea altor denumiri ale plantei in mai multe limbi europene (”Ingwer” in germana, ”gingembre” in franceza, ”ghimbir” in romana, ”zenzero” in italiana, ”ginger” in engleza etc.) din latinescul ”zingiber”, imprumutat si el din greaca veche (”zingiberis”).
 
@@ -158,7 +158,7 @@ In scopuri medicinale se recolteaza in perioada de inflorire, frunzele.
 
 Raspandire: Temperatura ridicata determina continutul in ulei volatil al mentei. Creste la lumina, in umiditate. Dupa prima recoltare excesul de umiditate este daunator. Creste pe soluri usoare, afanate, mai ales in Campia de Vest, Campia Olteniei, Campia Burnazului, Campia Baraganului, Campia Dobrogei, in zone din Tara Barsei, in sudul si centrul Moldovei (Judetele Bacau, Neamt, Galati, Vrancea).
 
-Componenti esentiali: Ulei volatil (cu componenta principala, mentolul), mentone, mento-furan, alfa pinen, fenandren, limonen, cadinen, cincol, aldehida acetica, alcool (amilic si izomilic), carvacrol, timol, tanin, substante antibiotice, substante minerale, hipericina, acid piruvic, polifenoli.
+Componenti esentiali: Ulei volatil (cu componenta principala, mentolul), mentine, mento-furan, alfa pinen, fenandren, limonen, cadinen, cincol, aldehida acetica, alcool (amilic si izomilic), carvacrol, timol, tanin, substante antibiotice, substante minerale, hipericina, acid piruvic, polifenoli.
 
 Proprietati medicinale: antiseptic, gastrointestinal, bacteriostatic si carminativ, colagog, sudorific, diuretic
 

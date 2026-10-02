@@ -10,7 +10,7 @@ Partea II: Miscarea si vederea buna
 6. Odihneste-ti ochii 16
 7. Evita sa tii ochii ficsi 17
 8. Nu vizualiza cu ochii deschisi 19
-Partea III: Alimentatia si Imbunatatirea V ederii
+Partea III: Alimentatia si Imbunatatirea Vederii
 9. Alimenteaza-te sanatos 22
 10. Hraneste-ti corpul cu apa 25
 11. Clateste-ti ochii cu apa calda si rece 27
@@ -82,7 +82,7 @@ toxicitate in cazul in care depasesti doza.
 Desigur ca nu te sfatuiesc sa stai o zi intreaga la soare, ci sa nu eviti soarele.
 Moderatia este buna pentru oricine. Pielea, cel mai mare organ al nostru iti
 va oferi si cea mai buna protectie prin aceasta vitamina.
-Vitamina D este stalpul sanatatii tale. Prin vitamina D atat calciul, mag-
+Vitamina D este stalpul sanatatii tale. Prin vitamina Datat calciul, mag-
 neziul cat si restul vitaminelor de care are nevoie intregul organism se fixeaza
 mai bine in organism.
 Pielea ta functioneaza ca o imensa fabrica de medicamente doar pentru tine.
@@ -314,7 +314,7 @@ In decursul unei zile, mai ales daca activitatea de lucru este la calculator,
 corpul nostru acumuleaza multa tensiune. Daca tensiunea nu este eliminata,
 ea va afecta nervii, iar acestia vor incorda muschii din corp.
 Atunci cand lucrezi mai mult in fata calculatorului sau stai mult timp pe
-scaun sau intr-o pozitie FIXA si RIGIDA timp de mai multe ore mu schii
+scaun sau intr-o pozitie FIXA si RIGIDA timp de mai multe ore muschii
 din jurul gatului, umerilor vor acumula cea mai mare parte a tensiunii. Acest
 lucru iti poate provoca dureri de cap, ameteli, nu te mai poti concentra la ce
 trebuie sa faci si ochii te vor durea foarte tare.

@@ -4,7 +4,7 @@
 
 In lectia anterioara am vazut doua remedii foarte vechi. Ele ar trebui sa se regaseasca in fiecare casa, dupa parerea mea, deoarece sunt simbolul a ceea ce inseamna vindecarea naturala.
 
-Medicina herbala este despre vindecare. In ultima lectie am folosit termenul de „tonic”. L-am folosit intentionat, deoarece pune accentul pe ceea ce incercam sa facem in medicina herbala. Incercam sa restabilim balanta si armonia. Incercam sa stimulam puterea naturala a organismului de a se vindeca singur. Marele medic grec Hipocrate numeste acceasta putere de vindecare Vis Medicatrix Naturae.
+Medicina herbala este despre vindecare. In ultima lectie am folosit termenul de „tonic”. L-am folosit intentionat, deoarece pune accentul pe ceea ce incercam sa facem in medicina herbala. Incercam sa restabilim balanta si armonia. Incercam sa stimulam puterea naturala a organismului de a se vindeca singur. Marele medic grec Hipocrate numeste aceasta putere de vindecare Vis Medicatrix Naturae.
 
 Desi nu vreau sa crezi ca medicina herbala vine in contradictie cu medicina traditionala, vreau sa apreciezi acolo unde sunt diferente. In principal este vorba de modelul de sanatate.
 
@@ -56,9 +56,9 @@ In continuare vom analiza problema echilibrului.
 
 **Modelul „cald si rece”** este probabil el mai vechi model de echilibru al sanatatii din lume. El se bazeaza pe ideea sanatatii ca o stare de echilibru intre cele doua principii opuse de rece si cald.
 
-In acest context, rece si cald nu sunt vazute ca temperaturi, ci ca efecte atribuibile calitatilor inerente tuturor substatelor, fie animale, vegetale sau minerale. Ele se refera la dualitatea universului, un echilibru intre doua forte dinamice opuse. Sanatatea este echilibrul, in timp ce boala este distrugerea echilibrului printr-un exces de rece sau cald. Tratamentul isi propune sa restabileasca echilibrul folosind principiile opuse.
+In acest context, rece si cald nu sunt vazute ca temperaturi, ci ca efecte atribuibile calitatilor inerente tuturor substantelor, fie animale, vegetale sau minerale. Ele se refera la dualitatea universului, un echilibru intre doua forte dinamice opuse. Sanatatea este echilibrul, in timp ce boala este distrugerea echilibrului printr-un exces de rece sau cald. Tratamentul isi propune sa restabileasca echilibrul folosind principiile opuse.
 
-Acest concept presupune teoria ca o persoana poate fi afectata de rece sau de cald intern sau extern. Intern implica ajungerea in corp a mancarii sau bauturii care este exesiv calda sau rece. Extern implica resultatul unei activitati fizice sau o expunere la elemente.
+Acest concept presupune teoria ca o persoana poate fi afectata de rece sau de cald intern sau extern. Intern implica ajungerea in corp a mancarii sau bauturii care este exesiv calda sau rece. Extern implica rezultatul unei activitati fizice sau o expunere la elemente.
 
 Toti factorii interni, de exemplu mancarea si bautura, sunt clasificati in functie de calitatile lor de rece sau cald. Luand din una din ele putin mai mult decat din cealalta nu va provoca neaparat o boala. Daca elementul cald va fi luat la o ora nepotrivita, de exemplu atunci cand soarele este la amiaza, poate rezulta o febra. La fel, luand o cantitate in exces de rece atunci cand scade temperatura va rezulta o indispozitie generala.
 

@@ -67,7 +67,7 @@ Fagul, Fasolea, Feciorica, Feniculul, Feriga, Feriguta, Floarea pastelui, Floare
 soarelui, Fluieratoarea, Foaia grasa, Fragul, Frasinul, Fucusul/Alga fucus, Fumarita.
 G ........................................................................................................................ 53
 Galbajoara, Galbenelele, Galbinelele, Gentianele (Ghintura galbena, Ghintura patata,
-Ghintura albastra, Ghintura violeta), Ghimberul, Ghim pele, Ghiocelul, Ghizdeiul, Ginko
+Ghintura albastra, Ghintura violeta), Ghimberul, Ghimpele, Ghiocelul, Ghizdeiul, Ginko
 biloba, Ginsengul, Grape-fruitul/Grepfrutul, Graul, Gutuiul.
 H ........................................................................................................................ 59
 Hameiul, Hibiscus, Hreanul, Hrisca.
@@ -84,11 +84,11 @@ de stejar, Liliacul, Limba boului, Limba broastei, Limba mielului, Linarita, Lin
 Lintea, Lumanarica.
 M ....................................................................................................................... 74
 Macul de camp, Macul de gradina, Mandarinul, Mango, Mangoldul, Mate, Mazarea,
-Macesul, Macrisul, Macrisul iepu relui, Maghiranul, Mararul, Margelusele, Marul, Marul
+Macesul, Macrisul, Macrisul iepurelui, Maghiranul, Mararul, Margelusele, Marul, Marul
 lupului, Maselarita, Maslinul, Mataciunea, Matraguna, Meiul, Merisorul, Mesteacanul,
 
 Mielareaua, Mierea ursului, Migdalul, Mirtul, Mojdreanul, Morcovul de gradina,
-Morcovul salbatic, Mosmonul, Murul, M uschiul de munte, Musetelul, Musetelul roman,
+Morcovul salbatic, Mosmonul, Murul, Muschiul de munte, Musetelul, Musetelul roman,
 Mustarul alb, Mustarul negru, Mutatoarea, Mutulica.
 N ........................................................................................................................ 90
 Nalba mare, Nalba neagra, Napul, Napraznicul, Nasturelul, Nautul, Negrilica,
@@ -107,7 +107,7 @@ Rachita rosie, Rachitanul, Raculetul, Reventul, Ricinul, Ridichea, Rodiul/Rodia,
 Rodul pamantului, Rogozul, Roiba, Roinita, Rostopasca, Roua cerului, Rozmarinul,
 Ruscuta de primavara.
 S ..................................................................................................................... 118
-Salata verde, Salba moale, Salcamul, Salcamu l japonez, Salvia, Saschiul, Sanisoara,
+Salata verde, Salba moale, Salcamul, Salcamul japonez, Salvia, Saschiul, Sanisoara,
 Sapunarita, Sanzienele, Scaiul dracului, Scaiul ghimpos, Scaiul magaresc, Scaiul vanat,
 Scara Domnului, Scanteiuta, Schinduful, Schinelul, Sclipetii, Scortisoara/Arborele
 de scortisoara/Scortisorul, Scorusul de munte , Scumpia, Secara, Sfecla rosie, Silurul,
@@ -176,21 +176,21 @@ radacinile de afin, din care se prepara un decoct. Alt preparat obtinut din afin
 tinctura.
 Substante active importante care se gasesc in fructele, dar mai ales in frunzele
 de afin: tanin, mirtilina, neomirtilina. Datorita mirtilinei s i neomirtilinei, afinul poate fi
-considerat o sursa exceptionala de insulina – insulina vegetala. Taninul se gase ste
-nu numai in frunze, ci si in fructe. Fructele contin pectine, zaharuri, provi tamina A,
+considerat o sursa exceptionala de insulina – insulina vegetala. Taninul se gaseste
+nu numai in frunze, ci si in fructe. Fructele contin pectine, zaharuri, provitamina A,
 acizi, vitamina C.
 Intrebuintari. In tratamente naturiste, dar si pentru consum in gospodarie.
 Pentru tratamente se utilizeaza mai ales frunzele, dar nu sunt de neglijat nici fructele.
 Acrisoare, afinele sunt placute la gust, si pot fi consumate ca orice fruct. Frunzele
 de afin se remarca printr -o importanta actiune bacteriostatica si sunt considerate
 a fi principalul agent terapeutic din structura acestei plante. Atat frunzele, cat si
-fructele de afin au actiune astringenta si contribuie la reduc erea zaharului din sange
+fructele de afin au actiune astringenta si contribuie la reducerea zaharului din sange
 (diabet). De altfel, afinul este cunoscut ca un insotitor benefic in tratamentele privind
 diabetul. Afinul este, totodata, si un activ agent antidiareic, diuretic, dezinfectant
 intern, antihemoragic. Specialistii afirma ca tratamentul cu ceaiuri de afin contribuie la
 cresterea acuitatii vizuale, mai ales pe timp de noapte. Preparatele din aceasta planta
 au efecte pozitive si in enterocolite, guta, afectiuni reumatice, tulburari ale circulatiei
-sangelui, coronarita, sechele de infarc t, faringite, stomatite. Produsul principal pentru
+sangelui, coronarita, sechele de infarct, faringite, stomatite. Produsul principal pentru
 tratament este ceaiul, ceaiul de frunze, folosit – la nevoie – s i in combinatie cu alte
 plante medicinale. S-au observat efecte pozitive si in utilizarea afinului sub forma de
 unguent, in micoze.
@@ -209,12 +209,12 @@ Denumire stiintifica: Ribes uva-crispa sau Ribes grossularia.
 Denumire populara: pomusoare.
 Prezentare. Agrisul este un arbust cu o inaltime, la maturitate, cuprinsa intre 60
 si 150 cm. Apartine familiei saxifragaceelor. Ramurile sale sunt spinoase, iar frunzele,
-paroase, au forma lobata. Florile, de culoare v erzuie sau roscata, de mici dimensiuni,
+paroase, au forma lobata. Florile, de culoare verzuie sau roscata, de mici dimensiuni,
 apar la baza frunzelor in lunile aprilie si mai. Fructele, cunoscute sub numele de
-agrise, sunt comestibile, gustul fiind dulce -acrisor. Reduse ca dimensiune, agri sele
+agrise, sunt comestibile, gustul fiind dulce -acrisor. Reduse ca dimensiune, agrisele
 au forma ovoidala sau chiar sferica. Culoarea lor poate fi verzuie, galbuie sau chiar
-rosiatica. Recoltarea agri selor se face pe tot parcursul verii. Agri sul cres te in zona
-montana si subalpina, prin tufari suri si paduri. Apare si sub forma cultivata, agri sele
+rosiatica. Recoltarea agriselor se face pe tot parcursul verii. Agrisul creste in zona
+montana si subalpina, prin tufari suri si paduri. Apare si sub forma cultivata, agrisele
 
 6 DICTIONARUL PLANTELOR DE LEAC
 fiind prelucrate, cu succes, in industria alimentara. Agris ele au si o mare valoare
@@ -226,7 +226,7 @@ fosfor, acizi – mai ales acidul citric, dar si acidul malic sau tartric, pecti
 Intrebuintari. Agrisele sunt fructe mult cautat de naturi sti. Datorita continutului
 lor, foarte bogat in vitamine si saruri minerale, sunt recomandate in alimentatia copiilor,
 fiind socotite „fructul vacantelor de vara” petrecute la munte (agrisele sunt un excelent
-tonic-aperitiv, dar si un bun digestiv). In practica medicinala curenta, agri sele sunt
+tonic-aperitiv, dar si un bun digestiv). In practica medicinala curenta, agrisele sunt
 utilizate datorita calitatilor lor laxative si depurative. Au efecte, de asemenea, si in
 suferintele reumatice, in guta, in afectiunile cardiace. Totodata, sunt un bun regulator
 al activitatii digestive si hepatice, precum si un diuretic natural si eficient. Agrisele sunt
@@ -236,10 +236,10 @@ Denumirea stiintifica: Centaurea cyanus.
 Denumiri populare: maturica, vinetea, floarea paiului, floarea graului, tatai sa
 vanata, iarba frigurilor.
 Prezentare. Albastrelele sunt plante erbacee din familia compozitelor, inalte de
-pana la un metru – inaltimea lor fiind, in mod obi snuit, de 50 – 60 cm. La maturitate,
+pana la un metru – inaltimea lor fiind, in mod obisnuit, de 50 – 60 cm. La maturitate,
 tulpina albastrelelor este paioasa, lemnificata, paroasa, ramificata. In varful tulpinii
 se dezvolta capitule cu flori in nuante de albastru -violet, purpurii, roze si chiar albe –
-mai exact spus ni ste maciulii care sunt asemenea unei explozii de petale, ce se pot
+mai exact spus niste maciulii care sunt asemenea unei explozii de petale, ce se pot
 inchide seara si deschide dimineata. Albastrelele smaltuiesc fanetele, lanurile de grau
 si secara, taluzurile drumurilor. Prefera locurile uscate si insorite, chiar si atunci cand
 conditiile de viata sunt dificile. Infloresc din iunie si pana in septembrie. In mod obisnuit,
@@ -254,7 +254,7 @@ poate readuce si pofta de mancare.
 Potrivit specialistilor, produsul terapeutic pe baza de albastrele actioneaza pe trei
 directii: calmant, diuretic, astringent. Celelalte efecte in plan terapeutic se obtin, sau se
 potenteaza, in combinatie cu alte plante medicinale.
-In mod obi snuit, albastrelele sunt utilizate in tratamentele legate de inflamatiile
+In mod obisnuit, albastrelele sunt utilizate in tratamentele legate de inflamatiile
 ochilor.
 ### Aloea
 Denumire stiintifica: Aloe vulgaris.
@@ -263,7 +263,7 @@ Are frunze foarte groase, consistente, carnoase. Florile, dispuse in forma de sp
 galbene sau rosii. Aloea provine din zona mediteraneana. Datorita conditiilor climatice,
 in Romania se gaseste numai cultivata.
 Importanta pentru practica medicinala au frunzele, din care se extrage sucul de
-aloe. Acest suc se gase ste si in alte parti ale plantei, dar in cantitati mai mici. Pentru
+aloe. Acest suc se gaseste si in alte parti ale plantei, dar in cantitati mai mici. Pentru
 aplicatii medicinale se prepara: pulbere, pilule laxative, granule. Sucul se poate utiliza,
 insa, si in stare proaspata.
 Substante active importante: doi compusi specifici – barbaioina si emodina.
@@ -295,7 +295,7 @@ hemolitice, in timp ce extractul de frunze si coji sau de ramuri tinere este con
 eficient in periflebite. Cu proprietati astringente, florile de alun (matisorii) pot fi utilizate
 in prepararea ceaiurilor sudorifice.
 Consumul alunelor este foarte important nu numai in terapii, ci si in mentinerea
-unei stari generale bune. In mod obi snuit, alunele sunt asimilate repede si aproape in
+unei stari generale bune. In mod obisnuit, alunele sunt asimilate repede si aproape in
 totalitate de organism, fiind foarte hranitoare. Pentru practica gastronomica naturista
 au fost puse la punct peste 20 de retete pe baza de alune.
 Ca planta medicinala, alunul se remarca si prin puterea sa depurativa (de curatire
@@ -306,7 +306,7 @@ Denumire populara: soparlita.
 Prezentare. Amareala este o erbacee de mici dimensiuni – maximum 20 cm – cu
 flori ce pot fi albe, violete, albastre, cel mai adesea albastre. Modesta planta cunoscuta
 sub numele de amareala apartine de familia poligalaceelor. Rizomul este scurt, iar
-partea aeriana a acestei plante se prezinta sub forma de tufa. Inflore ste la sfar situl
+partea aeriana a acestei plante se prezinta sub forma de tufa. Infloreste la sfarsitul
 primaverii si aproape toata vara. Amareala creste prin fanete, pe marginea drumurilor,
 pe terenuri intelenite. Fructul este o capsula.
 In cazul amarelii, valoare medicinala are toata planta, gustul ei fiind, dupa cum
@@ -329,7 +329,7 @@ bandaj gastric, deoarece poate irita tractul digestiv.
 Denumire stiintifica: Ananas sativus.
 Prezentare. Ananasul este o planta tropicala originara din America. Marele
 navigator Cristofor Columb a vazut ananasi in Guadelupa, in 1493. Surprinzator pentru
-cei din regiunile mai reci ale planetei, ananasu l este o erbacee. Este o planta perena,
+cei din regiunile mai reci ale planetei, ananasul este o erbacee. Este o planta perena,
 apartinand familiei bromeliaceelor. Are frunze lungi si o tulpina scurta ce poarta, in varf,
 o inflorescenta sub forma de spic. Fructul de ananas, as a cum il stim noi de la piata
 este, de fapt, o combinatie (o aglutinare) de fructe produse de mai multe flori alaturate.
@@ -372,7 +372,7 @@ proportie de 2-3%, si substante grase – in proportie de 18-20%. Semintele de
 anason sunt bogate in vitamine, tot complexul de vitamine B, dar si in vitamina A,
 precum si in calciu si fosfor. Acesti compusi se gasesc si in alte parti ale plantei, dar in
 concentratii mai reduse.
-Intrebuintari. Utilizat in terapia unor boli importante, anasonul e ste un bun
+Intrebuintari. Utilizat in terapia unor boli importante, anasonule ste un bun
 stabilizator si regulator al pancreasului, avand si proprietati antispastice si carminative.
 Totodata, anasonul stimuleaza pofta de mancare, regleaza secretiile pancreatice si
 intestinale, regleaza activitatea intestinala, stimuleaza lactatia la femeile care alapteaza,
@@ -390,10 +390,10 @@ revigoreaza activitatea pancreasului.
 Denumire stiintifica: Angelica archangelica.
 Denumire populara: angelina, iarba ingerilor, bucinis.
 Prezentare. Angelica este o planta erbacee aromatica. Face parte din familia
-umbeliferelor. La maturitate poat e avea inaltimi cuprinse intre 50 cm si 1,5 metri.
+umbeliferelor. La maturitate poate avea inaltimi cuprinse intre 50 cm si 1,5 metri.
 Frunzele acestei plante sunt mari, penate, iar florile alb -verzui. Folositoare in aplicatii
 medicinale este planta in intregul ei, dar radacina si semintele au cea mai mare valoare
-medicinala. Din aceste p arti se prepara infuzie, tinctura, praf de radacina, vin tonic,
+medicinala. Din aceste parti se prepara infuzie, tinctura, praf de radacina, vin tonic,
 
 DICTIONARUL PLANTELOR DE LEAC 9
 crema.
@@ -405,7 +405,7 @@ de angelica este un bun tonic digestiv, fiind cunoscut, de asemenea, ca antispas
 carminativ, sudorific, diuretic, expectorant.
 Afectiuni in care se pot utiliza preparatele de angelica: tuberculoza, afectiuni
 respiratorii, tulburari menstruale, rahitism, lipsa de pofta de mancare, reumatism. Cu
-preparate de angelica se combat starea de sfar seala, starea de oboseala generala,
+preparate de angelica se combat starea de sfarseala, starea de oboseala generala,
 lipsa de pofta de viata, slabiciunea fizica si chiar scorbutul.
 Candva, angelica era socotita planta-minune, radacina ei fiind numita Radacina
 Sfantului Spirit. Exista fel de fel de legende si chiar adevaruri despre aceasta planta
@@ -443,7 +443,7 @@ Denumirea stiintifica: Cynara scolymus.
 Prezentare. Anghinarea este o planta perena, cu frunze mari, spinoase-sticloase-
 albicioase. Apartine familiei compozitelor. Datorita calitatilor sale, medicinale s i nu
 numai, aceasta specie de anghinare este cultivata. Poate atinge doi metri inaltime
-si are, de obicei, multe ramificatii. Florile sunt mari, asemanatoare cu ni ste capitule,
+si are, de obicei, multe ramificatii. Florile sunt mari, asemanatoare cu niste capitule,
 colorate in rosu-violaceu. Anghinarea provine din zona Marii Mediterane. Receptaculii
 florali si solzii carnosi ai inflorescentei sunt folositi in bucatarie, la gatit, fiind considerati
 legume, zarzavaturi. Pentru terapii se recolteaza in primul rand florile, dar si limbul
@@ -451,7 +451,7 @@ frunzelor. Preparatul principal care se obtine din anghinare este infuzia. Efici
 tratamente este si tinctura de anghinare.
 Substante active importante: cinarina, oxidaze, polifenoli, flavone, vitaminele A,
 B, C, mangan, fosfor, fier, lipide, zaharuri.
-Intrebuintari. Anghinarea se folose ste in gastronomie, in terapii, dar poate fi
+Intrebuintari. Anghinarea se foloseste in gastronomie, in terapii, dar poate fi
 intalnita si ca planta ornamentala. Naturistii recomanda ca anghinarea sa fie consumata
 cruda, fiind usor digerabila si avand reale proprietati dietetice (este antitoxica, elimina
 surplusul de colesterol). Anghinarea ajuta la buna functionare a bilei si a ficatului,
@@ -463,8 +463,8 @@ anghina pectorala, ateroscleroza, hepatitele cronice, cirozele hepatice, infecti
 intestinale, surmenajul.
 Anghinarea din flora spontana (Scolymus hispanicus) ajunge pana la un metru
 inaltime, are tulpina ramificata, frunze spinoase, flori galbene, radacina carnoasa
-si aromata. Inflore ste din iunie pana in septembrie. Florile sunt recomandate in
-tratamentul insuficientei hepatice, precu m si in tratamentul eczemelor cronice. Au si
+si aromata. Infloreste din iunie pana in septembrie. Florile sunt recomandate in
+tratamentul insuficientei hepatice, precum si in tratamentul eczemelor cronice. Au si
 efecte diuretice. Forma pentru tratament – ceaiul.
 Actionand asupra organelor care se ocupa de chimia organismului, anghinarea
 este o planta medicinala des utilizata, fiind si un bun detoxifiant. De altfel, anghinarea
@@ -496,7 +496,7 @@ Denumire stiintifica: Capsicum annuum.
 Prezentare. Ardeiul iute este o planta anuala din familia solanaceelor. Are o
 talie redusa si o serie de particularitati care, uneori, uimesc. Florile ardeiului iute, mici
 si numeroase, sunt grupate si au culoarea alba, ro sie, galbena sau violeta. In mod
-obisnuit, in culturile mari, ardeiul inflore ste din iunie si pana in septembrie. Fructele,
+obisnuit, in culturile mari, ardeiul infloreste din iunie si pana in septembrie. Fructele,
 binecunoscute tuturor din bucatarie si din farfuria cu mancare, sunt verzi, galbene sau
 rosii.
 O planta familiara, deci, celor mai multi dintre noi, dar care inca ascunde destul de
@@ -511,7 +511,7 @@ si vitaminele A, B1, B2. Contine o substanta care-i da iuteala, numita capsicain
 Intrebuintari. Folosit drept condiment, ardeiul iute a ajuns sa fie pretuit, de-a
 lungul timpului, si ca planta medicinala. Daca e folosit in cantitati moderate, ardeiul iute
 regularizeaza digestia. Consumat in cantitati mai mari, ardeiul iute creeaza disconfort,
-dar efectele purgative sunt ins emnate. Se spune ca gargara cu decoct de ardei iute
+dar efectele purgative sunt insemnate. Se spune ca gargara cu decoct de ardei iute
 ajuta la intarirea, la tonifierea, la revigorarea corzilor vocale. Remarcabila e tinctura
 de ardei iute deoarece poate vindeca de etilism cronic (cate 10 – 30 de picaturi de
 tinctura puse intr-un ceai amar, care se ia in loc de alcool). Ardeiul iute poate fi folositor
@@ -529,7 +529,7 @@ Prezentare. Arinul negru este un arbore puternic, apartinand familiei betulaceel
 Poate ajunge pana la 28 de metri inaltime. In tinerete, scoarta acestui copac este
 cenusie, devenind cu timpul bruna-negricioasa si crapata. Frunzele, aproape rotunde,
 sunt lipicioase. Florile au forma unor mati sori, fiind asemanatoare cu florile nucului
-sau ale mesteacanului. Arinul negru cre ste pe terenuri umede, in zavoaie, in paduri
+sau ale mesteacanului. Arinul negru creste pe terenuri umede, in zavoaie, in paduri
 cu arboret amestecat.
 Pentru uz medicinal se recolteaza frunzele verzi si scoarta, din care se prepara
 pulbere, decoct si cataplasme.
@@ -554,7 +554,7 @@ se ridica o tija ce poate atinge o inaltime de 1,5 metri si care poarta pe e a f
 frumos colorata in purpuriu, dar impodobita si cu spini, ca mijloc de aparare.
 Pentru nevoi medicinale se culeg semintele. Se mai folosesc si frunzele. Din
 frunze se prepara o tinctura, iar din seminte se fac fainuri, tincturi, extracte.
-Substante active importante: in frunze, si nu numai, se gase ste o substanta
+Substante active importante: in frunze, si nu numai, se gaseste o substanta
 specifica, numita silimarin. Alta substanta activa medicinal este cnicina. Agentul
 medicinal cu proprietati remarcabile este, insa, silimarinul.
 Intrebuintari. Armurariul este pretuit datorita efectelor sale in tratarea bolilor de
@@ -584,8 +584,8 @@ Denumiri populare: carul padurarilor, carul zanelor, podbal de munte.
 Prezentare. Arnica este o erbacee si apartine familiei compozitelor. Planta
 perena, inaltime 15-70 cm. Infloreste in lunile iunie, iulie si august. Florile, de culoare
 galben-portocalie, formeaza capitule. Fructele au culoare neagra. Arnica seamana
-cu alte plante de pe paji ste, dar poate fi depistata us or daca se ia o petala si se
-striveste putin – mirosul specific, de arnica, va fi puternic. Cre ste in zona montana
+cu alte plante de pe pajiste, dar poate fi depistata us or daca se ia o petala si se
+striveste putin – mirosul specific, de arnica, va fi puternic. Creste in zona montana
 si subalpina, prin lumini suri, pajisti, pasuni, locuri virane. Ca planta medicinala este
 cunoscuta din timpuri stravechi. In practica terapeutica se folosesc florile (petalele).
 Specialisti recunoscuti in tratamente cu plante medicinale sustin ca putem gasi principii
@@ -599,7 +599,7 @@ planta medicinala cu virtuti antiseptice, cicatrizante si decongestive recunoscu
 fi socotita si ca un sedativ natural, cu efecte importante asupra centrilor nervosi.
 Specialistii naturi sti recomanda precautie in utilizarea acestei plante, chiar
 asistenta din partea medicului, deoarece poate fi toxica daca nu e folosita in cunostinta
-de c auza. Din acest motiv, in mod curent arnica nu se utilizeaza intern, ci numai
+de cauza. Din acest motiv, in mod curent arnica nu se utilizeaza intern, ci numai
 extern.
 Ca planta medicinala, arnica este „doctorul” oricarui traumatism – echimoze,
 contuzii, hematoame, luxatii si chiar rupturi musculare.
@@ -610,8 +610,8 @@ Prezentare. Asmatuiul este o erbacee din familia umbeliferelor. In varianta
 din flora spontana (Anthriscus silvestris) are o inaltime cuprinsa intre 30 si 210 cm.
 Tulpina este ramificata, iar frunzele au forma triunghiulara si sunt de mari dimensiuni.
 Infloreste in partea a doua a verii. Florile sunt albe, uneori galbui. In flora spontana,
-asmatuiul creste in padurile umbroase si umede, pe marginea raurilor sau in paji stile
-cu umez eala. Este cultivat pentru mirosul sau, fiind folosit in bucatarie. De altfel,
+asmatuiul creste in padurile umbroase si umede, pe marginea raurilor sau in pajistile
+cu umezeala. Este cultivat pentru mirosul sau, fiind folosit in bucatarie. De altfel,
 asmatuiul este considerat in primul rand o „verdeata” condimentara.
 Pentru uz medicinal se recolteaza, de obicei, frunzele si lastarii, dar este utila
 chiar si planta in intregul ei. Din asmatui se prepara diferite ceaiuri.
@@ -620,7 +620,7 @@ minerale, substante azotoase.
 Intrebuintari. Datorita calitatilor sale medicinale, asmatuiul produce o relaxare
 generala a organismului, contribuind, la detoxifierea acestuia. Actioneaza si ca un bun
 antiseptic respirator. Cercetari recente indica faptul ca asmatuiul are si calitati ce-l fac
-util in prevenirea cancerului. In mod frecvent, asmatuiul este folosit pent ru stimularea
+util in prevenirea cancerului. In mod frecvent, asmatuiul este folosit pentru stimularea
 digestiei. Cu extracte de asmatui se trateaza si unele afectiuni ale pielii, cum ar fi
 dermatozele, fiind utilizat si in proceduri cosmetice, mai ales in cele privind ingrijirea
 fetii.
@@ -644,7 +644,7 @@ luat in seama. Consumul de bame face bine suferinzilor de traheite, laringite, b
 precum si bolnavilor cu deranjamente si infectii gastro-intestinale.
 ### Bananierul
 Denumirea stiintifica: Musa paradisiaca; Musa sapietus.
-Prezentare: Bananierul este o planta anuala ce cre ste in zonele tropicale. Face
+Prezentare: Bananierul este o planta anuala ce creste in zonele tropicale. Face
 parte din familia musaceelor. Tulpina, ierboasa, poate ajunge pana la opt metri inaltime.
 Frunzele din varful tulpinii sunt cu adevarat uria se – pot avea si trei metri lungime. O
 inflorescenta de bananier ajunge, la randu-i, pana la un metru lungime. Bananierul are
@@ -663,7 +663,7 @@ enzime.
 Intrebuintari. Se spune despre banana ca este tot atat de hranitoare cat si
 carnea. Si, cu toate acestea, potrivit dr. Ovidiu Bojor, banana nu este un aliment complet
 deoarece contine putine substante grase si azotate. Cu toate acestea, bananele au o
-multime de aplicatii medicinale. Cu exceptia celor bolnavi de diabet (care, totu si, pot
+multime de aplicatii medicinale. Cu exceptia celor bolnavi de diabet (care, totusi, pot
 consuma flori fierte de bananier), banana poate fi consumata de oricine si mai ales
 de catre cei care depun efort fizic si intelectual sustinut. Cenusa obtinuta prin arderea
 plantei este folosita pentru calmarea durerilor de burta, regland activitatea din tractul
@@ -709,8 +709,8 @@ Denumire stiintifica: Erigeron canadensis.
 Prezentare. Batranisul este o planta anuala, erbacee. Originara din America,
 acum este prezenta in toata Europa. Invazia acestei plante in Europa a inceput inca din
 secolul al XVII-lea. Face parte din marea familie a compozitelor. Frunzele batranisului
-sunt lanceolate, iar tulpina ramificata. Inflores te in lunile iulie, august si septembrie,
-florile avand culori diverse, cum ar fi alb -galbui, albastru, liliachiu. Cres te, ca oric e
+sunt lanceolate, iar tulpina ramificata. Infloreste in lunile iulie, august si septembrie,
+florile avand culori diverse, cum ar fi alb -galbui, albastru, liliachiu. Creste, ca orice
 buruiana nedorita, in culturi, dar si pe terenuri paraginite, parloage, pe marginile
 drumurilor, in liziere. Apare si in varianta cultivata, mai ales ca planta ornamentala.
 Pentru uz medicinal se recolteaza planta intreaga, o importanta deosebita
@@ -731,19 +731,19 @@ leucocitelor.
 ### Bobornicul
 Denumirea stiintifica: Veronica beccabunga.
 Prezentare. Bobornicul este o erbacee perena, apartinand familiei scrofulariaceelor.
-Ca planta medicinala, bobornicul este mai putin cunoscut, de si se gase ste lesne in
-flora Romaniei, de la campie pana sub munte. Iubes te umezeala si de aceea va fi
+Ca planta medicinala, bobornicul este mai putin cunoscut, de si se gaseste lesne in
+flora Romaniei, de la campie pana sub munte. Iubeste umezeala si de aceea va fi
 gasit in preajma lacurilor, a apelor curgatoare, pe langa izvoare. Bobornicul dezvolta
 un rizom lung, tarator, expus si nu prea consistent, tulpinile aeriene avand intre 10 si
-60 cm. Inflore ste in mai si iunie, florile fiind albastre, albastru-deschis, semanand,
+60 cm. Infloreste in mai si iunie, florile fiind albastre, albastru-deschis, semanand,
 intrucatva, cu cele de urzica moarta. Fructul de bobornic este o capsula.
 Pentru aplicatii medicinale se culeg florile, fructele, tulpinile.
 Substante active importante: un ulei volatil si glucozide.
 Intrebuintari. Uleiul volatil de bobornic are efecte calmante si expectorante.
 Se spune ca extractul de frunze proaspete este un vechi remediu pentru curatirea
-sangelui, pentru purificarea sanguina. Potrivit medicinii populare, bobornicul e folosit
+sangelui, pentru purificarea sanguina. Potrivit medicinii populare, bobornicule folosit
 in bolile de astm, tuberculoza si boli ale ficatului. Cercetari recente asupra virtutilor
-acestei plante arata ca este an tiscorbutica si ca poate fi utilizata cu bune rezultate
+acestei plante arata ca este antiscorbutica si ca poate fi utilizata cu bune rezultate
 in durerile de mijloc si de spate, precum si in scrofuloza. Sunt cunoscute si efectele
 diuretice ale acestei plante, sucul din bobornic avand, de altfel, insemnate proprietati
 depurative. Un fapt deosebit de interesant – extrasul din bobornic, precum si tocatura,
@@ -785,7 +785,7 @@ prostata. In mod surprinzator, bobul este recomandat si in afectiuni reumatismal
 ### Bozul
 Denumire stiintifica: Sambucus ebulus.
 Denumire populara: bozie.
-Prezentare. Bozul este o erbacee din fa milia caprifoliaceelor, fiind inrudita cu
+Prezentare. Bozul este o erbacee din familia caprifoliaceelor, fiind inrudita cu
 socul. La maturitate poate ajunge pana la doi metri inaltime. Creste, adesea, in colonii,
 formand adevarate paduri in locuri umede, pe terenuri virane, prin parloage, pe pasuni,
 la marginea padurilor, in locuri parasite. Are frunze mari, cu miros neplacut. Bozul
@@ -808,7 +808,7 @@ Denumirea stiintifica: Abies alba.
 Prezentare. Bradul face parte din familia pinaceelor. Este un arbore foarte
 cunoscut si de aceea nu are nevoie de o prezentare extinsa. Arbore de mari dimensiuni,
 bradul poate ajunge pana la o inaltime de 50 metri. Frunzele au forma de ace si, dupa
-cum se stie, nu cad in anotimpul rece. In mod discret, bradul inflore ste in lunile mai -
+cum se stie, nu cad in anotimpul rece. In mod discret, bradul infloreste in lunile mai -
 iunie.
 Pentru tratamente medicinale se foloseste uleiul volatil de brad, dar se utilizeaza
 si coaja si rasina.
@@ -820,7 +820,7 @@ nervos, in afectiunile articulatiilor (reumatism), in nevralgii. Uleiul de brad 
 utilizat si ca expectorant.
 Nota: efecte terapeutice identice se obtin si cu scoarta, ras ina si uleiul volatil
 recoltate de la molid sau de la bradul rosu (Picea abies).
-### Bradi sorul
+### Bradisorul
 Denumire stiintifica: Licopodium clavatum.
 Denumire populara: pedicuta, barba ursului, palamida.
 Prezentare. Bradisorul sau pedicuta este o feriga, cu o tulpina lunga de pana la
@@ -834,15 +834,15 @@ poate folosi chiar si planta in intregime.
 Substante active importante: substante specifice (clavatina, anotina), flavone,
 saruri minerale.
 Intrebuintari. Din sporii de bradisor se face un preparat necesar, in primul rand, in
-tratarea unor afectiuni dermatologice. Pulberea astfel obtinuta se folose ste in tratarea
+tratarea unor afectiuni dermatologice. Pulberea astfel obtinuta se foloseste in tratarea
 eritemului sugarilor, in intertrigo, precum si in arsuri, dermatite, rani deschise – mai
 ales la copii. In uz intern, pentru afectiuni cum ar fi litiazele, hepatitele, se utilizeaza
 un preparat obtinut din intreaga planta. Unii speciali sti in medicina naturista sunt de
-parere ca preparatele de bradi sor (pedicuta) sunt benefice si in tra tamente impotriva
+parere ca preparatele de bradisor (pedicuta) sunt benefice si intra tamente impotriva
 tabagismului si alcoolismului.
 ### Branca
 Denumirea stiintifica: Lobularia pulmonaria.
-Prezentare. Branca este un lichen care poate fi intalnit cu us urinta si in tara
+Prezentare. Branca este un lichen care poate fi intalnit cu usurinta si in tara
 noastra, de la deal pana la munte. Copacii-gazda sunt indeosebi fagul si ar tarul,
 rareori molidul, lemnele cazute, pietrele. Branca poate atinge o lungime de 40 cm.
 Acest lichen se prezinta ca un lob valurit, altfel spus un lob cu un relief pronuntat,
@@ -853,12 +853,12 @@ Intrebuintari. Medicina populara a introdus, din timpuri stravechi, aceasta plan
 modesta in randul celor cu efecte curative. Astfel, practica d e sute sau poate mii de
 ani a dovedit ca preparatele din lichenul de branca combat bolile respiratorii, dand
 rezultate in procedeele terapeutice asupra astmului bron sic si a tusei. Substanta sau
-substantele active pe care le contine branca produc efecte po zitive si in cazul bolilor
+substantele active pe care le contine branca produc efecte pozitive si in cazul bolilor
 de plamani.
 ### Brancuta
 Denumirea stiintifica: Sisymbrium officinale.
 Prezentare. Brancuta este o planta erbacee apartinatoare familiei crucifereior.
-Are tulpina paroasa si flori galbene. Inaltimea sa poate ajunge pana la 70 cm. Pen tru
+Are tulpina paroasa si flori galbene. Inaltimea sa poate ajunge pana la 70 cm. Pentru
 medicatie se culeg frunzele, partile tinere ale plantei, varfurile cu tot florile de pe ele.
 Brancuta este o planta medicinala traditionala.
 Substanta activa importanta: esenta alilica.
@@ -868,7 +868,7 @@ daca, cumva, nu ne convin medicamentele moderne. Cu brancuta se trateaza coardel
 vocale bolnave sau obosite, precum si laringitele si faringitele, fiind un antiinflamator
 eficient. Cel mai cunoscut preparat din brancuta este sub forma de infuzie, dar se
 poate folosi si sucul de brancuta, cu conditia ca acesta sa fie proaspat. Pentru ca
-sucul de brancuta sa aiba un gust cat de cat acceptabil se va di zolva in el lapte, fiind
+sucul de brancuta sa aiba un gust cat de cat acceptabil se va dizolva in el lapte, fiind
 bune si siropul sau mierea. Utila in practica medicinala este si tinctura de brancuta,
 deocamdata mai putin cunoscuta si utilizata.
 
@@ -903,7 +903,7 @@ brandusa de toamna se folosea ca insecticid.
 ### Brebenelul
 Denumire stiintifica: Corydalis cava.
 Denumiri populare: brebenea, breaban.
-Prezentare. Brebenelul este o planta care inflore ste primavara, acoperind s olul
+Prezentare. Brebenelul este o planta care infloreste primavara, acoperind solul
 padurilor de la deal si campie cu un strat vegetal viu, multicolor si frumos mirositor. Sub
 numele de brebenel sunt cunoscute mai multe specii de plante cu trasaturi comune,
 adica sunt erbacee perene, au structura asemanatoare si relativ aceia si compusi
@@ -924,7 +924,7 @@ compusii sai activi arata ca merita toata atentia.
 ### Broccoli
 Denumire stiintifica: Brassica oleracea, var. botrytis.
 Denumire populara: conopida broccoli.
-Prezentare. Broccoli se deosebe ste de conopida prin partea comestibila care
+Prezentare. Broccoli se deosebeste de conopida prin partea comestibila care
 nu este atat de aglomerata, ci mai rara, precum un chiorchine. Prin urmare, am putea
 spune ca broccoli este o conopida cu inflorescenta mai rara. Aceasta inflorescenta
 poate fi verde, galbena sau violeta, neexistand deosebiri in ceea ce priveste continutul
@@ -935,7 +935,7 @@ multe retete, bine puse la punct), dar si gatita cu carne, cu paste, cu oua, cu 
 18 DICTIONARUL PLANTELOR DE LEAC
 cu orez.
 Substante active importante: continut mare de vitamina C, vitamina K, beta -
-caroten, saruri minerale, celuloza, glucide. Recent s-au descoperit doi compu si
+caroten, saruri minerale, celuloza, glucide. Recent s-au descoperit doi compusi
 – sulforafan si indol -carbinol – care atesta broccoli ca o leguma utila in profilaxia
 cancerului de stomac si de san.
 Intrebuintari. Preparatele din broccoli sunt recomandate in avitaminoze, anemii,
@@ -949,7 +949,7 @@ Prezentare. Dictionarele spun despre cuvantul brusture ca este autohton. De
 fapt nu este vorba despre o singura planta, ci despre un grup de plante din acela si
 gen – Lappa, care se numesc brusturi si fac parte din familia compozitelor. Brusturele
 se remarca prin frunzele mari, late, groase, consistente, de un verde adesea intunecat,
-cat si prin inaltime – pana la 1,3 metri. Florile sunt aproape ro sii sau violete si sunt
+cat si prin inaltime – pana la 1,3 metri. Florile sunt aproape rosii sau violete si sunt
 dispuse in inflorescente sferice inconjurate de tepi. Cand se usuca, inflorescenta
 devine scaiete. Brusturele este o planta maiestuoasa, puternica, cu un ciclu de viata de
 doi ani. Poate fi intalnit pretutindeni in arealul romanesc, de la campie pana la munte.
@@ -963,7 +963,7 @@ despre care se spune ca este tot atat de eficient cat si penicilina.
 Intrebuintari. Radacina de brusture este un medicament natural cu efecte
 benefice in cazul bolilor de splina si ficat. Este, de asemenea, un bun depurativ.
 Reduce glicemia si se manifesta ca un veritabil agent antimicrobian. Preparatele din
-brusture sunt recunoscute si ca un bun tonic pentru par, stimuland cre sterea parului.
+brusture sunt recunoscute si ca un bun tonic pentru par, stimuland cresterea parului.
 Tot la capitolul cosmetica mentionam: cu preparatele de brusture se trateaza tenurile
 grase, putand fi folosite, deci, si ca un excelent agent de curatire a tenului. Brus turele
 este eficient si in tratarea acneei, eczemelor si furunculozei.
@@ -983,7 +983,7 @@ Prezentare. Bujorul de munte, numit uneori si smardar, este un subarbust a carui
 inaltime abia ajunge la 50 cm. Face parte din familia ericaceelor, fiind o planta cu
 o tulpina mult ramificata. Radacina este, de asemenea, foarte dezvoltata. Frunzele,
 lucioase, consistente si de mici dimensiuni, sunt dispuse altern. Florile, de culoare
-rosie, rareori roz sau alba, au un miros placut. Bujorul de munte inflores te pe toata
+rosie, rareori roz sau alba, au un miros placut. Bujorul de munte infloreste pe toata
 durata verii. Fructul este o capsula.
 Pentru uz medicinal se recolteaza frunzele, ramurile tinere cu tot cu flori, florile.
 Se prepara infuzie, decoct, extract.
@@ -1013,7 +1013,7 @@ Prezentare. Buruiana de tranji este o planta perena, saprofita (adica se hranest
 cu resturi de plante aflate in descompunere). Face parte din familia orhideelor, fiind,
 de fapt, o orhidee de padure. Fiind o planta saprofita, buruiana de tranji creste pe solul
 bogat in putregaiuri al padurilor, mai ales al padurilor de foioase. Datorita modului sau
-de hranire, radacinile sunt carnoase, dezvoltate, incalcite. Buruiana de tranj i nu are
+de hranire, radacinile sunt carnoase, dezvoltate, incalcite. Buruiana de tranji nu are
 clorofila. Florile au culoare inchisa, bruna si miros a miere de padure. Planta infloreste
 in lunile mai, iunie si iulie. Fructul este o capsula.
 Intrebuintari. In medicina populara romaneasca, buruiana de tranji este
@@ -1036,9 +1036,9 @@ antifungic, stomahic, carminativ, antispastic. Naturistii il recomanda in tulbur
 intestinale, in inflamatii ale cailor respiratorii si ca diuretic. Interesanta este si utilizarea
 infuziei de busuioc in afectiuni pe fond nervos, altfel greu de vindecat. Chiar migrenele,
 tot cu busuioc se trateaza si, deci, nu intamplator, in casele de la tara, pe vremuri, in
-grinda trona busuiocul pe toata durata iernii. De asemenea, busuiocul se folose ste
+grinda trona busuiocul pe toata durata iernii. De asemenea, busuiocul se foloseste
 pentru calmarea durerilor in urma intepaturilor de viespi si albine.
-Dar iata lista afectiunilor tratate cu busuioc: gripa, voma, raceala, bron site, colici
+Dar iata lista afectiunilor tratate cu busuioc: gripa, voma, raceala, bronsite, colici
 si balonari intestinale, nevralgii, lipsa poftei de mancare, in reglarea lactatiei la femeile
 care alapteaza. Mai exista inca o afectiune care se trateaza cu busuioc – neplacutele
 afte. In acest caz se face gargara cu decoct concentrat de busuioc, punandu-se doua
@@ -1064,7 +1064,7 @@ pentru suflet.
 ## C
 ### Cacao / Arborele de cacao
 Denumire stiintifica: Theobroma cacao.
-Prezentare. Arborele de cacao este unul dintre cei mai frumosi s i mai pitore sti
+Prezentare. Arborele de cacao este unul dintre cei mai frumosi s i mai pitoresti
 copaci. Florile si fructele il impodobesc incepand de la baza tulpinii si pana pe ramurile
 indepartate ale bogatei sale coroane. Arborele de cacao are o inaltime maxima de 15
 metri, in mod obisnuit ajungand la circa 10 metri. Apartine familiei malvaceelor si isi are
@@ -1091,7 +1091,7 @@ cardiovascular, respirator si digestiv. Potrivit unor cercetari de data recenta,
 de cacao au rol detoxifiant si depurativ, contribuind, de exemplu, la eliminarea clorurilor,
 a lichidului seros din spatiul intracelular si din cavitatea abdominala.
 In realitate, efectele medicinale ale preparatelor de cacao sunt, insa, mult
-mai complexe si mai diverse, datorita numarului mare de compu si pe care il contin
+mai complexe si mai diverse, datorita numarului mare de compusi pe care il contin
 semintele acestui arbore.
 Se recomanda, totusi, consumarea cu moderatie a preparatelor de cacao, inclusiv
 sub forma de alimente, deoarece in cantitati mari pot provoca ameteli sau chiar dureri
@@ -1109,19 +1109,19 @@ Frunzele arborelui de cafea sunt alungite, cu nervuri puternice, cu suprafata
 aproape lucioasa, fiind carnoase si consistente. Florile apar la subsuoara frunzelor si
 
 DICTIONARUL PLANTELOR DE LEAC 21
-au culoarea alba. Interesant e fructul, care are forma unei cire se. In dezvoltarea sa,
+au culoarea alba. Interesante fructul, care are forma unei cirese. In dezvoltarea sa,
 acest fruct parcurge trei stadii de culoare – verde, rosie si, in cele din urma, violeta,
-in fiecare asemenea „cirea sa” „fsdfsd” a arborelui de cafea se gasesc doua boabe
+in fiecare asemenea „cireasa” „fsdfsd” a arborelui de cafea se gasesc doua boabe
 tainice, miraculoase.
-In cazul arborelui de ca fea, valoare medicinala au, in primul rand, boabele.
+In cazul arborelui de cafea, valoare medicinala au, in primul rand, boabele.
 Totusi, se pare ca au virtuti medicinale si frunzele, si chiar coaja. Modul de preparare
 al boabelor de cafea este cel bine stiut de sute de ani – decoct si infuzie. Din boabe se
 extrage cafeina, care este un adevarat medicament.
 Substante active importante: foarte cunoscutul alcaloid numit cafeina, apoi
 cafeona, tanin.
 Intrebuintari. Cafeaua, mai exact spus extractul apos al semintelor arborelui de
-cafea, este un tonic puternic al sistemului nervos cen tral, in primul rand al scoartei
-cerebrale. Cafeaua este si un bun diuretic. S-a constat si faptul ca imbunatate ste
+cafea, este un tonic puternic al sistemului nervos central, in primul rand al scoartei
+cerebrale. Cafeaua este si un bun diuretic. S-a constat si faptul ca imbunatateste
 circulatia sangelui, ca dilata caile respiratorii, ca fluidizeaza mucoasele de pe caile
 respiratorii s i ca echilibreaza compozitia sucului gastric. Cafeaua este, totodata, un
 adevarat accelerator al inimii. Combate astenia si are o anume influenta benefica chiar
@@ -1138,7 +1138,7 @@ Un consum mare de cafea – mai mult de trei cesti pe zi – poate crea dependen
 sau chiar probleme de sanatate. Speciali stii sunt de parere ca exista o anumita
 sensibilitate la cafea si in functie de varsta, copiii fiind, de exemplu, foarte sensibili. Din
 acest motiv, copiilor le este interzis consumul cafelei. Cat despre efectele cancerigene
-ale cafelei, nimic nu e dovedit, in schimb e foarte posibil ca acest aliment-medicament
+ale cafelei, nimic nu e dovedit, in schimbe foarte posibil ca acest aliment-medicament
 sa elimine pericolul imbolnavirilor de cancer de intestin gros.
 Componenta a vietii moderne, cafeaua contribuie in mod cert, prin efectele sale
 psihoenergizante, la buna conditie fizica si psihica a tuturor celor care apeleaza la ea,
@@ -1149,7 +1149,7 @@ Prezentare. Caisul este, de multa vreme, un arbore comun in spatiul romanesc.
 Pom fructifer, face parte din familia rozaceelor. Originar din China, caisul s-a raspandit
 in toata lumea, fiind aclimatizat, de foarte multa vreme, si in Europa de sud- est. Este
 un arbore de inaltime mai degraba redusa – circa 10 metri. Frunzele sunt de forma
-ovala, cu marginile fin crestate. Caisul inflore ste primavara, aspectul sau fiind foarte
+ovala, cu marginile fin crestate. Caisul infloreste primavara, aspectul sau fiind foarte
 frumos, de strai de sarbatoare. Se spune ca nu numai simpla vedere a acestui arbore
 inflorit are efecte benefice asupra sufletului omului, ci si mireasma florilor sale. Fructele,
 aromate si apetisante, sunt deja bune pentru consum in iunie-iulie. Florile caisului sunt
@@ -1185,7 +1185,7 @@ infuzie, pulbere, extracte, mixturi, cataplasme, tincturi.
 Substante active importante: doua substante specifice – tanacetona si
 tanacetina, ulei eteric, flavone, tanozoide, substante amare.
 Intrebuintari. Preparatele pe baza de calomfir sunt cunoscute ca vermifuge. Ele
-au, insa, si alte propr ietati, fiind antispasmodice, tonice, antiseptice. Unii speciali sti
+au, insa, si alte proprietati, fiind antispasmodice, tonice, antiseptice. Unii speciali sti
 recomanda preparatele de calomfir in afectiuni renale si digestive. Preparatele
 de calomfir sunt eficiente, de asemenea, in stimularea digestiei si in reechilibrarea
 ficatului. Potrivit unor observatii mai vechi, aceste preparate au efecte si in dureri de
@@ -1194,7 +1194,7 @@ hemoragia menstruala).
 Legat de aceasta ultima recomandare, trebuie mentionat si faptul ca preparatele
 din calomfir pot provoca avortul. Totodata, se stie, prin traditie, ca preparatele de
 calomfir contribuie activ la asigurarea echilibrului psihic si nervos al femeilor aflate
-in suferinte specifice, combatand starile de spirit confuze, de isterie, de tensi une
+in suferinte specifice, combatand starile de spirit confuze, de isterie, de tensiune
 nervoasa, migrenele.
 Calomfirul este o planta ce va fi utilizata cu precautie, deoarece prin supradozare
 poate avea efecte toxice. Este interzisa utilizarea calomfirului in timpul sarcinii.
@@ -1205,8 +1205,8 @@ terapii se utilizeaza tulpina si frunzele. Extractul care se obtine – aflat in
 numele de ulei camforat – este un produs vestit.
 Substante active importante: camfor, borneol.
 Intrebuintari. Camforul are efect relaxant pentru caile respiratorii si pentru
-sistemul nervos. Practic, extractele de camfor repun intreg organismul in mi scare
-prin faptul ca activeaza fluidele si stimuleaza centrii nervo si vasomotori si respiratori.
+sistemul nervos. Practic, extractele de camfor repun intreg organismul in miscare
+prin faptul ca activeaza fluidele si stimuleaza centrii nervosi vasomotori si respiratori.
 Aceasta influenta revitalizanta provoaca pofta de mancare, calmeaza reumatismele si
 alte dureri din organism, linisteste activitatea din stomac si din intestinul subtire.
 Cu decoct preparat din arbore de camfor se trateaza gingivitele, gripa, spasmele
@@ -1215,9 +1215,9 @@ stomacale, oboseala complexa.
 Denumire stiintifica: Petasites hybridus.
 Prezentare. Captalanul este o erbacee perena din familia compozitelor. Cu o
 inaltime la maturitate de pana la 40 cm, captalanul are frunze mari, late, consistente,
-usor carnoase. Inflore ste inainte de infrunzire, prin martie- aprilie. Rizomul, adica
+usor carnoase. Infloreste inainte de infrunzire, prin martie- aprilie. Rizomul, adica
 tulpina subpamanteana, este puternic, gros, asemanator rizomilor care traiesc in locuri
-umede. Captalanul poate fi gasit pe malul lacurilor, al raurilor, prin zone mla stinoase,
+umede. Captalanul poate fi gasit pe malul lacurilor, al raurilor, prin zone mlastinoase,
 fiind iubitor de apa.
 Pentru aplicatii in medicina naturista se recolteaza rizomii, frunzele si florile.
 Rizomii se culeg toamna, la sfarsitul perioadei de vegetatie.
@@ -1225,7 +1225,7 @@ Substante active importante. Pana in prezent, in captalan au fost evidentiate
 doua substante, cu totul deosebite ca efect terapeutic: petazina si inulina (un
 polizaharid).
 Intrebuintari. Sub forma de infuzie, preparatele de captalan au efecte antispastice,
-calmante, expectorante, vasodilatatoare, analgezice. Ceaiul de captalan se fo loseste
+calmante, expectorante, vasodilatatoare, analgezice. Ceaiul de captalan se foloseste
 in calmarea crampelor neuro- musculare, in relaxarea si regularizarea activitatii cailor
 respiratorii, in bolile de inima – fiind un bun vasodilatator – s i, mai nou, se incearca
 
@@ -1239,10 +1239,10 @@ Denumire stiintifica: Solanum tuberosum.
 Denumiri populare: baraboi, barabula.
 Prezentare. Cartoful – o planta erbacee anuala din familia solanaceelor – provine
 din America. Adus si aclimatizat in Europa, cartoful a fost folosit, o vreme, ca hrana
-pentru animale. In secolul al XVIII -lea, f armacistul francez Parmentier introduce
+pentru animale. In secolul al XVIII -lea, farmacistul francez Parmentier introduce
 cartoful in alimentatia oamenilor. Datorita calitatilor sale nutritive, cartoful a devenit
 foarte repede hrana de baza pentru popoare intregi.
-In pamant, cartoful are o tulpina care se ingroa sa sub forma de tuberculi si
+In pamant, cartoful are o tulpina care se ingroasa sub forma de tuberculi si
 radacini. Tulpina aeriana este muchiata si suculenta. Florile cartofului sunt albe sau
 violete.
 In alimentatie, dar si pentru terapii, se utilizeaza tuberculul.
@@ -1254,8 +1254,8 @@ grupul B (B1, B2, B6), vitaminele A si C, acid folic, acid citric, acid malic. T
 arata importanta de exceptie a cartofului pentru alimentatie, oferind, practic, o hranire
 completa. Mai mult decat atat, cartoful este foarte usor digerabil.
 Intrebuintari. Preparatele din cartofi combat aciditatea gastrica, precum si iritatiile
-interne si ulcerele gastrice si duodenale. Naturis tii recomanda consumul de cartofi
-celor care sufera de diabet, obezitate (cartofii nu ingra sa!), litiaze biliare, disfunctii
+interne si ulcerele gastrice si duodenale. Naturistii recomanda consumul de cartofi
+celor care sufera de diabet, obezitate (cartofii nu ingrasa!), litiaze biliare, disfunctii
 intestinale, hepatite, dischinezii biliare, artrite. Decoctul de cartofi fierti in coaja are
 proprietati alcalinizante si remineralizante.
 Cel mai sanatos mod de preparare a cartofului este coacerea sau fierberea in
@@ -1278,7 +1278,7 @@ Prezentare. Castanul este un arbore puternic si maiestuos. I si are originea in
 peninsula Balcanica. Inalt pana la 30 de metri, castanul se remarca si prin valoarea
 sa ornamentala. Frunzele castanului au un petiol lung de 10 – 20 cm, fiecare grupare
 de frunze avand mai multe foliole. Aceste foliole sunt dispuse dupa marime, cea mai
-mare fiind foliola mijlocie. Castanul inflore ste in mai si iunie, florile – ca si frunzele –
+mare fiind foliola mijlocie. Castanul infloreste in mai si iunie, florile – ca si frunzele –
 contribuind la frumusetea acestui arbore. Fructul castanului este o capsula carnoasa,
 verde, cu ghimpi, mult mai mare decat o nuca. In momentul coacerii, coaja verde cu
 ghimpi plesneste si apar semintele, adica ceea ce in mod obisnuit numim castane.
@@ -1368,13 +1368,13 @@ impotriva deochiului, precum si in descantece.
 ### Calinul
 Denumire stiintifica: Viburnum opulus.
 Denumire populara: bulgare de zapada.
-Prezentare. Calinul este un arbust ce cre ste in flora spontana, dar poate fi si
+Prezentare. Calinul este un arbust ce creste in flora spontana, dar poate fi si
 cultivat, ca planta ornamentala. Face parte din familia caprifoliaceelor. Calinul are o
 inaltime medie de doi – trei metri, rareori ajungand pana la cinci metri. Frunzele au
-mai multi lobi, maximum cinci. Florile sunt grupate, avand culoarea alba. Inflore ste la
+mai multi lobi, maximum cinci. Florile sunt grupate, avand culoarea alba. Infloreste la
 sfarsitul primaverii si la inceputul verii. Fructele, dispuse in ciorchini, au culoarea rosie
 si sunt pline de suc, nefiind comestibile. Calinul creste prin paduri, liziere, tufaris uri. In
-parcuri, este prezent sub forma unor tufi suri ornamentale, cunoscute sub numele de
+parcuri, este prezent sub forma unor tufisuri ornamentale, cunoscute sub numele de
 bulgare de zapada (boule de neige).
 Pentru uz medicinal se recolteaza coaja. Se prepara sub forma de tinctura,
 decoct, extract fluid.
@@ -1412,19 +1412,19 @@ putin studiate. De asemenea, se poate prepara un vin de catina, precum si lichio
 Se poate, deci, spune despre catina ca nu doar trateaza, ci si hraneste.
 
 26 DICTIONARUL PLANTELOR DE LEAC
-### Catu snica
+### Catusnica
 Denumirea stiintifica: Nepeta cataria.
 Prezentare. Catusnica este o planta erbacee melifera din familia labiatelor. Poate
-atinge inaltimea de un metru. Raspande ste un miros specific, placut, iar florile sunt
+atinge inaltimea de un metru. Raspandeste un miros specific, placut, iar florile sunt
 albe sau in nuante spre ros u. Pentru medicatie, pentru tratamente prezinta interes
 partea aeriana a plantei.
-Intrebuintari. Pentru terapii, catus nica este prelucrata sub forma de infuzie,
-sirop si vin medicinal. In mod ciudat, catus nica are proprietati calmante, dar si tonice,
+Intrebuintari. Pentru terapii, catusnica este prelucrata sub forma de infuzie,
+sirop si vin medicinal. In mod ciudat, catusnica are proprietati calmante, dar si tonice,
 excitante – o adevarata contradictie rezolvata, iata, de o banala planta medicinala.
 Catusnica este, totodata, un antispastic si un regulator al activitatii gastro -intestinale.
 Se foloseste si pentru combaterea tusei, mai ales a tusei convulsive si a tusei tabagice.
-Desi cunoscuta ca un excitant, catu snica are darul de a calma chiar si chinuitoarele
-dureri de dinti sau de masele. In acest caz, frunzele de catu snica vor fi mestecate
+Desi cunoscuta ca un excitant, catusnica are darul de a calma chiar si chinuitoarele
+dureri de dinti sau de masele. In acest caz, frunzele de catusnica vor fi mestecate
 precum guma.
 Rolul de excitant al aceste plante este cunoscut de multa vreme in medicina
 populara, fiind folosita in vechime pentru revigorarea vietii de cuplu.
@@ -1434,7 +1434,7 @@ Prezentare. Canepa cultivata este o planta anuala, originara din India. Se
 remarca prin tulpina sa dreapta, inalta de aproape un metru, uneori chiar mai mult.
 La maturitate, tulpina de canepa este total lemnificata. Frunzele, mari, sunt impartite
 in foliole lanceolate , cu marginea crestata. Florile, de culoare galben -verzuie, sunt
-grupate in inflorescente asemanatoare cu un spic. Canepa inflore ste in lunile iulie si
+grupate in inflorescente asemanatoare cu un spic. Canepa infloreste in lunile iulie si
 august, existand plante de canepa femele si plante de canepa masculine. Fructul este
 o nucula brun-cenusie, neteda, asemanatoare cu o mica rola de rulment.
 Canepa apartine familiei canabinaceelor, fiind o planta aromatica.
@@ -1445,7 +1445,7 @@ cercetarilor, actiune medicinala semnificativa are tetrahidrocanabinolul.
 Intrebuintari. Preparatele medicinale din canepa au efecte sedative si de aceea
 sunt utilizate in terapii din domeniile neurologic si psihiatric. Desigur, intrebuintarile
 medicinale ale canepii nu se opresc aici. Preparatele din canepa au, de asemenea,
-influenta relaxanta asupra organelor interne si a mu schilor in general, precu m si
+influenta relaxanta asupra organelor interne si a muschilor in general, precum si
 actiune analgezica. Datorita acestor proprietati, preparatele din canepa sunt folosite in
 afectiuni gastrice grave (cancere), in ulcere gastrice, in afectiuni ale cailor respiratorii
 – astm, emfizem, bronsita cronica, in nevralgii si in boli psihice.
@@ -1466,7 +1466,7 @@ Valoare alimentara, dar si medicinala, au frunzele ceaiului. Preparatul care se
 obtine este o infuzie – binecunoscutul ceai. Pentru a nu-i fi afectate calitatile, ceaiul se
 prepara – potrivit naturistilor – intr-un ceainic de pamant, smaltuit.
 Substante active importante: teofilina, cafeina, vitaminele C, P si B2, saruri
-minerale, tanin. Cercetari recente arata ca unii dintre compu sii cei mai importanti ai
+minerale, tanin. Cercetari recente arata ca unii dintre compusii cei mai importanti ai
 ceaiului sunt polifenolii, mai ales flavonele si catehinele.
 Intrebuintari. Infuzia de ceai are proprietati tonice, excitante, revitalizante,
 vasodilatatoare, diuretice. Ceaiul este si un bun antioxidant. Se pare ca unul dintre
@@ -1479,7 +1479,7 @@ radicalii liberi actioneaza ca agenti cancerigeni. Datorita teofilinei, ceaiul e
 si in bolile respiratorii sau in suferinte ale rinichiului. Consumarea ceaiului chinezesc
 (sau rusesc), determina o mai buna activitate la nivelul sistemului nervos central, al
 scoartei cerebrale, precum si in structurile musculare ale organismului. Nu trebuie uitat
-nici faptul ca preparatul de ceai contribuie si la o digestie u soara, scutind organismul
+nici faptul ca preparatul de ceai contribuie si la o digestie usoara, scutind organismul
 de o serie intreaga de eforturi si disfunctionalitati.
 Numerosi specialisti echivaleaza efectele ceaiului cu cele ale cafelei, motivand,
 astfel, efectele de dependenta ce pot aparea in conditiile unui consum mare si
@@ -1516,16 +1516,16 @@ Denumire stiintifica: Geum urbanum.
 Denumiri populare: ridichioara, caltunul doamnei, cuisorita, floarea mandrei.
 Prezentare. Cerentelul este o planta zvelta, puternica, apartinand familiei
 rozaceelor. Are flori galbene, plasate in partea de sus a plantei, prezentandu- se ca
-niste mici capitule. Fructele sunt ni ste achene. Cerentelul poate fi intalnit la marginea
+niste mici capitule. Fructele sunt niste achene. Cerentelul poate fi intalnit la marginea
 padurilor, pe marginea drumurilor, pe taluzuri, pe maidanele unde cresc balarii.
-Pentru uz me dicinal se recolteaza tulpina aflata in plin proces de vegetatie,
+Pentru uz medicinal se recolteaza tulpina aflata in plin proces de vegetatie,
 dar mai ales radacina. Se prepara sub forma de decoct, infuzie, tinctura, macerat,
 pulbere.
 Substante active importante. Radacina de cerentel contine o substanta numita
 eugenol, o enzima, amidon, gumirezina, ulei volatil, tanin, zaharuri. Uleiul de cerentel
 degaja un placut parfum de garoafa.
 Intrebuintari. Decoctul de tulpina, dar mai ales cel de radacina de cerentel are
-proprietati excitante si astringente. Este un bun dezinfectant si un ca lmant intestinal
+proprietati excitante si astringente. Este un bun dezinfectant si un calmant intestinal
 activ. Are si efecte analgezice, antiseptice, hemostatice.
 Ca planta medicinala, cerentelul este folosit pentru tratamente in enterite
 infectioase, menstre cu dureri, plagi, gingivite sangerande, amigdalite, abcese dentare.
@@ -1570,18 +1570,18 @@ Chimenul are si o intensa actiune diuretica. Cu preparatele din seminte de chime
 se trateaza colicii gastrici, bronsitele, enterocolitele, blocajele secretiilor bronhice. De
 asemenea, chimenul contribuie si la usurarea unor suferinte si dificultati ginecologice,
 cum ar fi ciclurile intarziate sau amenoreea. Tot cu ceaiurile de chimen se stimuleaza
-si lactatia la fe meile care alapteaza. Chimenul este indicat si in demersurile pentru
+si lactatia la femeile care alapteaza. Chimenul este indicat si in demersurile pentru
 cresterea poftei de mancare.
 Din semintele de chimen se poate prepara si o apa de gura, produs care nu numai
-ca indeparteaza mirosurile neplacute, dar are si efecte majore in ceea ce priv este
+ca indeparteaza mirosurile neplacute, dar are si efecte majore in ceea ce priveste
 mentinerea igienei bucale.
 Chimenul este considerat a fi „direct raspunzator” de linistea, de tihna abdomenului
 omenesc.
 ### Chinina / Arborele de chinina
 Denumire stiintifica: Cinchona officinalis.
-Prezentare. Arborele de chinina cre ste in padurea ecuatoriala, fiind intalnit in
+Prezentare. Arborele de chinina creste in padurea ecuatoriala, fiind intalnit in
 marile masive vegetale din America de Sud. Apartine familiei rubiaceelor. In prezent,
-arborele de chinina se gase ste si in plantatii, aria sa de cultura fiind extinsa si in alte
+arborele de chinina se gaseste si in plantatii, aria sa de cultura fiind extinsa si in alte
 zone cu climat ecuatorial.
 Partea care contine chinina este scoarta, obtinerea ei fiind relativ simpla: arborii
 sunt doborati si apoi se cojesc. Se prepara pulbere, macerat, pilule, ca sete, extract,
@@ -1595,7 +1595,7 @@ DICTIONARUL PLANTELOR DE LEAC 29
 in terapii este, insa, mult mai larga, chinina contribuind la intensificarea activitatii
 digestive, la reducerea febrei, la combaterea infectiilor si a parazitilor. Chinina are
 efecte benefice, cunoscute de foarte multa vreme, in afectiuni precum tuberculoza,
-diabetul, infectiile grave. Este recomandata si in anem ii, astenii, convalescente,
+diabetul, infectiile grave. Este recomandata si in anemii, astenii, convalescente,
 afectiuni cardiace. Combate oboseala si mareste capacitatea de munca.
 Alte varietati ale arborelui de chinina: Cinchona calisaya si Cinchona succirubra.
 ### Cicoarea
@@ -1604,20 +1604,20 @@ Denumiri populare: floricica, andiva, andivie.
 Prezentare. Cicoarea se intalneste atat in cultura, cat si in flora spontana, fiind
 o reprezentanta a familiei compozitelor. Este o planta perena, cu tulpina ramificata si
 radacina groasa. Poate atinge o inaltime de 1,20 metri. Infloreste in lunile iulie, august,
-septembrie. Florile sunt de culoare albastra. In flora spontana, cicoarea se intalne ste
+septembrie. Florile sunt de culoare albastra. In flora spontana, cicoarea se intalneste
 in fanete, pe marginea drumurilor, pe pasuni, in alte locuri necultivate si in care cresc
 fel de fel de ierburi.
-Pentru aplicatii in medicina naturista se folose ste toata planta, inclusiv radacina.
+Pentru aplicatii in medicina naturista se foloseste toata planta, inclusiv radacina.
 In mod curent, radacina este folosita pentru producerea surogatului de cafea numit
 cicoare. Partile aeriene din planta se recolteaza in mai -iunie, iar radacinile toamna,
 atunci cand planta ajunge la sfarsitul perioadei de vegetatie. Printre cele mai importante
 preparate medicinale obtinute din cicoare se numara decoctul.
 Substante active importante. Cicoarea contine un ulei volatil, dar si compusi
-amari, colina, inulina (un polizaharid), tanin. Pe langa aces ti compusi, in radacina de
-cicoare, dar si in partea aeriana, se gase ste fosfor. Cercetari mai noi mentioneaza
+amari, colina, inulina (un polizaharid), tanin. Pe langa acesti compusi, in radacina de
+cicoare, dar si in partea aeriana, se gaseste fosfor. Cercetari mai noi mentioneaza
 descoperirea de insulina in radacina de cicoare, fapt ce da o noua dimensiune utilizarii
 acestei plante in medicina naturista si, desigur, sperante diabeticilor.
-Intrebuintari. Ca planta medicinala, cicoarea se folose ste in tratamente privind
+Intrebuintari. Ca planta medicinala, cicoarea se foloseste in tratamente privind
 hepatita cronica, dischinezia biliara, constipatia cronica, in aplicatii dermatologice
 (furunculoze, acnee), in anemii, digestie lene sa, pietre la rinichi si la vezica, litiaze,
 infectii urinare. Altfel spus, decoctul de cicoare revigoreaza activitatea ficatului si
@@ -1625,7 +1625,7 @@ a rinichiului, regularizeaza digestia, produce diureza, este un bun agent laxati
 si depurativ (curata organismul de toxine, purifica sangele). Tonic general bun, o
 contributie importanta avand-o fosforul.
 Cicoarea de gradina (Cichorium endivia) este o planta bienala de la care se
-consuma frunzele. Prin mu suroire, frunzele de la baza tulpinii se ingroa sa si-si pierd
+consuma frunzele. Prin musuroire, frunzele de la baza tulpinii se ingroasa si-si pierd
 clorofila, obtinandu-se andivele. Deci, andivele nu sunt altceva decat muguri si frunze
 ce provin de la cicoarea de gradina. Din pacate, andiva – considerata un produs
 alimentar de inalta clasa – nu are calitatile terapeutice ale suratei sale salbatice. Totusi,
@@ -1639,16 +1639,16 @@ faneata, cimbrul salbatic.
 Prezentare: Cimbri sorul este o planta perena, membra a familiei labiatelor.
 Frunzele cimbrisorului au miros placut, aromat. Planta are un pronuntat rizom tarator,
 de pe care se ridica ramuri. Ramurile au flori in partea superioara, inaltimea acestor
-ramuri fiind de circa sapte centimetri. Cimbri sorul inflore ste din iunie si pana in
+ramuri fiind de circa sapte centimetri. Cimbri sorul infloreste din iunie si pana in
 septembrie. Creste in flora spontana – pe pajisti, sub forma de tufe, adevarate colonii
 ce raspandesc, sub soarele verii, o aroma unica si agreabila.
 Pentru utilizari in scopuri medicinale, se recolteaza partea aeriana a plantei si
 se usuca.
-Intrebuintari. Din cimbrisor se prepara o inf uzie. Se folose ste si in bucatarie,
+Intrebuintari. Din cimbrisor se prepara o infuzie. Se foloseste si in bucatarie,
 pentru aromatizarea unor mancaruri. Cimbri sorul este un antiseptic redutabil, avand
 o actiune antiinflamatoare intensa. Folosit la mancaruri, dar si ca infuzie, contribuie
-la fluidizarea circuitului gastric, inlesne ste r espiratia si are actiune tonica asupra
-intregului organism. Candva, cimbris orul insotea busuiocul in grinda casei, pentru a
+la fluidizarea circuitului gastric, inlesneste respiratia si are actiune tonica asupra
+intregului organism. Candva, cimbrisorul insotea busuiocul in grinda casei, pentru a
 asigura impreuna o primenire a aerului in timpul iernii, mireasma sa persistenta fiind
 un calmant. Cimbri sorul este intrebuintat si de apicultori, in activitatea lor de ingrijire
 
@@ -1664,7 +1664,7 @@ lumina puternica.
 Pentru terapii obisnuite se recolteaza toata planta. In scopul obtinerii de preparate
 foarte puternice se culege, insa, doar partea superioara a plantei, mai frageda si cu
 flori.
-Substante active importante: ulei eteric, cineol, timol, compu si amari,
+Substante active importante: ulei eteric, cineol, timol, compusi amari,
 carvacrol.
 Intrebuintari. Cimbrul de cultura este un agent antiseptic si antispastic (cu efecte
 notabile in reglarea activitatii stomacale si intestinale), precum si un expectorant
@@ -1679,19 +1679,19 @@ Prezentare. Este una dintre cele mai longevive plante. Poate trai pana la 600 de
 ani. Nu prea inalt (maximum sapte metri), cimisirul este un arbust intalnit in paduri, mai
 ales in cele aflate in zone calcaroase. Chiar si frunzele acestui venerabil sunt deosebite,
 adica nu sunt intotdeauna verzi, culoarea lor fiind, uneori, ro sie sau portocalie. Deci,
-daca veti intalni in padure un asemenea arbust, trebuie sa stiti ca el nu veste ste
+daca veti intalni in padure un asemenea arbust, trebuie sa stiti ca el nu vesteste
 toamna, ci ca asa ii este felul. Cimisirul face parte din familia celastraceelor.
 Valente terapeutice au radacinile, coaja si frunzele. Din acestea se prepara
 infuzie, decoct sau tinctura.
 Substante active importante: vitamine (vitamina C, in primul rand), rasina, tanin
 si mai ales o substanta rara – buxenina.
-Intrebuintari. Ceaiul pe baza de cimi sir este recomandat pentru combaterea
+Intrebuintari. Ceaiul pe baza de cimisir este recomandat pentru combaterea
 asteniei de primavara. Este folositor si in terapii privind ficatul. Combate febra
-si actioneaza si ca sedativ. Rolul cel mai important al ac estei plante medicinale,
+si actioneaza si ca sedativ. Rolul cel mai important al acestei plante medicinale,
 exceptional rol am putea spune, este in blocarea cancerului. Datorita buxeninei, care
 este un alcaloid, dezvoltarea celulelor canceroase poate fi oprita. Potrivit dr. Alexander
 Reinhardt, faptul acesta a fost dovedit in laborator. Tot dr. Reinhardt propune si o
-reteta: decoctul necesar tratamentului cu cimi sir se face din 30 de g radacina sau 50
+reteta: decoctul necesar tratamentului cu cimisir se face din 30 de g radacina sau 50
 g frunze uscate (daca frunzele sunt verzi, se pun 80 g), care se adauga la un litru de
 apa. Se beau trei cesti de ceai in fiecare zi, fara a se depasi doza – tratamentul putand
 deveni toxic. Daca apar semne de toxicitate chiar si cazul in care se beau doar trei
@@ -1705,16 +1705,16 @@ Denumiri stiintifice: Cerasus avium (Ciresul); Prunus cerasus (Visinul).
 Prezentare. Atat ciresul, cat si visinul – pomi fructiferi binecunoscuti – fac parte din
 aceeasi familie de plante – rozaceele. Ciresul poate ajunge pana la 12 metri inaltime, in
 timp ce visinul rar trece de 10 metri.
-Pentru uz medicinal se recolteaza coditele de vi sine si de cire se, din care se
+Pentru uz medicinal se recolteaza coditele de vi sine si de cirese, din care se
 prepara un decoct.
 Substante active importante: derivati flavonici, tanin si mai ales saruri de
 potasiu.
-Intrebuintari. Decoctul de codite de vi sin sau de cire s (sau in amestec) este
+Intrebuintari. Decoctul de codite de vi sin sau de cires (sau in amestec) este
 
 DICTIONARUL PLANTELOR DE LEAC 31
 bun pentru tratamente in bolile de rinichi, fiind, totodata, un diuretic activ. Acest ceai
 este recomandat pentru reglarea activitatii intestinale. De asemenea, este indicat si in
-afectiuni cum ar fi diareea, pielita, pielonefrita, cistita. Ceaiul de codit e de vi sin si de
+afectiuni cum ar fi diareea, pielita, pielonefrita, cistita. Ceaiul de codite de vi sin si de
 cires poate fi consumat, insa, nu numai pentru a ameliora o afectiune sau alta, ci si
 pentru mentinerea unei stari generale bune.
 Efecte medicinale, desigur nu de amploarea celor pe care le au coditele, au si
@@ -1728,11 +1728,11 @@ Denumiri populare: tata vacii, tata oii, anglicea.
 Prezentare. Este vorba, de fapt, despre doua plante perene, cu un rizom viguros,
 radacini albe, tulpina cu o inaltime de maximum 20 cm. Ambele fac parte din familia
 primulaceelor.
-Ciubotica cucului inflore ste in aprilie si mai. Florile sunt galbene, dispuse sub
+Ciubotica cucului infloreste in aprilie si mai. Florile sunt galbene, dispuse sub
 forma de umbela si au un miros abia perceptibil, dar placut, tonic. Ciubotica cucului
 creste in zonele de stepa, la deal si munte, in luminisuri, pe pajisti, pe fanete.
 Pentru terapii se recolteaza florile si rizomii, cu tot cu radacini. Au valoare
-medicinala si frunzele, care sunt moi, ingro sate si bogate in vitamina C. Din partile
+medicinala si frunzele, care sunt moi, ingrosate si bogate in vitamina C. Din partile
 medicinale ale acestei plante se prepara decoct, infuzie, se fac comprese si potiuni
 expectorante. Cele mai cunoscute si mai utilizate preparate din ciubotica cucului sunt
 infuzia si decoctul.
@@ -1762,7 +1762,7 @@ au fost constructii, pe maidane, la marginea platformelor de gunoi. Radacina giu
 este foarte dezvoltata (intre 30 si 50 centimetri lungime si intre doi si cinci centimetri
 grosime). Tulpina se ramifica, iar in varful fiecarei ramuri apare o floare. Frunzele sunt
 de mari dimensiuni, in jur de 25 – 30 cm lungime si 20 – 25 cm latime, iar florile, albe,
-au forma de palnie. Ciumafaia inflore ste in partea a doua a verii, prin iulie-august.
+au forma de palnie. Ciumafaia infloreste in partea a doua a verii, prin iulie-august.
 intreaga planta de ciumafaie are un miros specific, neplacut. Fructul este o capsula
 ovoidala, cu tepi moi, asemanatoare cu fructul castanului salbatic.
 Datorita importantei sale medicinale, ciumafaia poate fi intalnita si in cultura
@@ -1790,7 +1790,7 @@ Denumire populara: scrantitoare.
 Prezentare. Ciumareaua este o erbacee perena, intalnita atat in flora spontana,
 cat si sub forma de culturi. Apartine familiei leguminoaselor. In flora spontana,
 ciumareaua poate fi intalnita mai ales in zone cu umezeala, in liziere, tufari suri, in
-partile joase ale terenurilor virane, livezilor, pas unilor, in santuri si in vegetatia de pe
+partile joase ale terenurilor virane, livezilor, pasunilor, in santuri si in vegetatia de pe
 marginea apelor. In mod obisnuit, ciumareaua creste sub forma unor tufe cu inaltimea
 de circa un metru. Tulpinile ii sunt ramificate, iar la maturitate se lemnifica. Ciumareaua
 infloreste pe toata perioada verii. Florile, dispuse in raceme, au culoare liliachie. Fructul
@@ -1805,7 +1805,7 @@ deosebite: este galactagoga (stimuleaza secretia laptelui la femeile care alapte
 si are, totodata, importante efecte hipoglicemiante (antidiabetica). Compusul cu rol
 hipoglicemiant este galegina, care se gaseste in semintele de ciumarea. Alte afectiuni
 in care este indicata ciumareaua: epilepsie, viermi intestinali.
-Ciumareaua poate fi folosita si ca plant a furajera, fiind, totu si, toxica pentru oi.
+Ciumareaua poate fi folosita si ca planta furajera, fiind, totusi, toxica pentru oi.
 Datorita efectelor galactagoge (de sporire de cantitatii de lapte), poate fi folosita si in
 zootehnie.
 ### Coacazul negru
@@ -1824,7 +1824,7 @@ Pentru uz medicinal se culeg nu numai fructele, ci si frunzele, din care se prep
 infuzie, dar si decoct, tinctura, extract fluid.
 Substante active importante: vitamina C – in cantitate foarte mare, chiar si in
 frunze, apoi potasiu, magneziu, calciu, pectina, emulsina.
-Intrebuintari. Coacazul negru este folosit in tratarea unor boli cro nice, cum ar fi
+Intrebuintari. Coacazul negru este folosit in tratarea unor boli cronice, cum ar fi
 reumatismul, artrita, guta, afectiunile ficatului, dar si in tratamente menite sa revigoreze
 intregul organism in caz de oboseala mare, de epuizare nervoasa.
 Coacazul auriu. Fructele acestui arbust sunt galbui si au, la randu-le, o mare
@@ -1838,7 +1838,7 @@ aurii.
 ### Coada calului
 Denumirea stiintifica: Equisetum arvense.
 Denumiri populare. Aceasta planta are nu mai putin de sapte denumiri populare,
-dintre care mentionam: bradi sor, barba ursului, coada manzului, parul porcului.
+dintre care mentionam: bradisor, barba ursului, coada manzului, parul porcului.
 Multimea denumirilor demonstreaza ca este foarte cunoscuta si ca oamenii o cauta
 si o utilizeaza.
 Prezentare. Coada calului este o feriga ce apartine familiei equisetaceelor.
@@ -1902,11 +1902,11 @@ si externe.
 Substante active importante. De remarcat faptul ca preparatele din coada
 soricelului sunt un antiseptic tot atat de bun cat si musetelul. Preparatele din coada
 soricelului contin foarte multe substante active, coada soricelului fiind, poate, una dintre
-cele mai complexe plante in ceea ce prives te compozitia (cel putin 12 constituen ti
+cele mai complexe plante in ceea ce priveste compozitia (cel putin 12 constituenti
 descoperiti pana in prezent). Coada soricelului contine mai multe uleiuri volatile,
 azulena, achileina, acid formic, acid acetic, acid valerianic, alcool etilic, alcool metilic si
 chiar substante cu efect antibiotic.
-Intrebuintari. Chiar si o simpla cit ire a listei compu silor acestei plante ne da
+Intrebuintari. Chiar si o simpla citire a listei compusilor acestei plante ne da
 o idee despre importanta ei in terapii. Coada soricelului este stomahica, antiseptica,
 hemostatica, antiinflamatoare, antispasmodica, bronhodilatatoare, cicatrizanta.
 Preparatele din coada soricelului contribuie semnificativ la reactivarea functiei
@@ -1926,7 +1926,7 @@ Prezentare. Coada zmeului este o planta iubitoare de mare umezeala si de aceea
 poate fi intalnita in mlastini si in ape statatoare sau lin curgatoare. Dimensiunile acestei
 plante sunt reduse, rareori trecand de 35 cm. Tulpina este taratoare. Coada zmeului se
 remarca prin rizomul foarte dezvoltat, dar si prin frunzele mari, lucioase, consistente,
-puternice. Infloreste la sfar situl primaverii s i inceputul verii, fructele fiind nis te bobite
+puternice. Infloreste la sfarsitul primaverii s i inceputul verii, fructele fiind nis te bobite
 rosii. Coada zmeului face parte din familia araceelor.
 Ca planta medicinala nu are o importanta deosebita. Pentru uz medicinal se
 recolteaza rizomul, care are gust acru si este toxic.
@@ -1954,11 +1954,11 @@ DICTIONARUL PLANTELOR DE LEAC 35
 ### Cocotierul
 Denumire stiintifica: Cocos nucifera.
 Prezentare. Cocotierul este un arbore a carui inaltime poate ajunge pana la
-25 de metri. Ca semn distinctiv, are un smoc de frunze urias e in varf, de trei – cinci
-metri lungime fiecare. Cocoti erul este, fara indoiala, un arbore simbol pentru zonele
+25 de metri. Ca semn distinctiv, are un smoc de frunze uriase in varf, de trei – cinci
+metri lungime fiecare. Cocotierul este, fara indoiala, un arbore simbol pentru zonele
 tropicale din Africa, Asia, America, Australia. Fructul sau este nuca de cocos, care
 contine laptele de cocos, un compus sub forma solida in partea dinspre coaja si sub
-forma lichida in interior. Nuca de cocos nu are numai valoare alimentara obi snuita, ca
+forma lichida in interior. Nuca de cocos nu are numai valoare alimentara obisnuita, ca
 orice fruct, ci si valoare medicinala.
 Substante active importante: glucoza, fructoza, fosfor, colina, uleiuri, acizi
 (lauric, palmitic, oleic, butiric, caproic), glicerina, proteina. Multe dintre aceste substante
@@ -1974,8 +1974,8 @@ eliminare.
 Denumire stiintifica: Cola acuminata; Cola nitida, Cola verticillata.
 Prezentare. Cola este un arbore exotic ce poate ajunge pana la 15 metri inaltime.
 Creste in zonele tropicale si apartine familiei sterculiaceelor. Fructele acestui arbore
-sunt ni ste nuci de culoare alba sau ro sie, cunoscute sub numele de nuci de cola.
-Aceste nuci, consumate dintotdeauna de catre ba stinasi pentru efectul lor stimulant,
+sunt niste nuci de culoare alba sau ro sie, cunoscute sub numele de nuci de cola.
+Aceste nuci, consumate dintotdeauna de catre bastinasi pentru efectul lor stimulant,
 sunt astazi baza unei mari industrii – industria racoritoarelor.
 Importante sunt insa si efectele pur medicinale ale preparatelor de cola. Astfel,
 din semintele din nucile de cola se prepara, in mod curent, pulbere, tinctura, extract
@@ -1993,15 +1993,15 @@ Cea mai importanta calitate a preparatelor pe baza de cola – acestea sunt un
 tonic al sistemului nervos central si creeaza, asemenea cafelei, o stare generala de
 bine. De unde si convingerea potrivit careia nucile, semintele, frunzele si preparatele
 de cola constituie un element important in sporirea apetitului sexual.
-### Colaceii bab ei
+### Colaceii babei
 Denumire stiintifica: Malva silvestris; Malva rotundifolia.
 Denumiri populare: nalba salbatica, nalba de padure.
 Prezentare. Planta numita colaceii babei este bienala sau perena si face parte din
-familia malvaceelor, fiind una dintre multele specii de n alba. Radacina acestei plante
-este puternica, are culoare alba si este consistenta, carnoasa. Poate cre ste pana la
+familia malvaceelor, fiind una dintre multele specii de nalba. Radacina acestei plante
+este puternica, are culoare alba si este consistenta, carnoasa. Poate creste pana la
 1,25 metri inaltime, tulpinile fiind paroase. Frunzele au forma de rinichi si cuprind mai
 multi lobi, maximum sapte. Florile sunt mari si au o culoare placuta, rosu spre violaceu.
-Planta, destul de comuna in flora din Romania, inflore ste toata vara si o buna bucata
+Planta, destul de comuna in flora din Romania, infloreste toata vara si o buna bucata
 de toamna, din iunie si pana in octombrie. Poate fi si cultivata. In flora spontana poate
 fi gasita in locuri batatorite, umblate, pe langa drumuri, garduri, pe zonele drumurilor,
 chiar prin pasuni sau in culturile de cartofi si de sfecla mai putin ingrijite.
@@ -2019,7 +2019,7 @@ Intrebuintari. Preparatele din colaceii babei au proprietati emoliente, laxative
 expectorante, diuretice, calmante. Sunt cunoscute ceaiurile pectorale, dar si cateva
 preparate expectorante. Aplicatiile medicinale sunt atat de uz intern, cat si extern.
 Lista de afectiuni in care aceasta planta medicinala are efecte pozitive este destul
-de cuprinzatoare: faringita, brons ita, gripa, astm, enterocolite, stomatite, dermatoze,
+de cuprinzatoare: faringita, bronsita, gripa, astm, enterocolite, stomatite, dermatoze,
 tumori, vaginite, afte, colite, afectiuni urinare, eczeme.
 ### Coriandrul
 Denumire stiintifica: Coriandrum sativum.
@@ -2042,9 +2042,9 @@ Prezentare. Cornaciul este o planta de apa, cu tulpini foarte lungi, ce pot ajun
 pana la patru metri. O buna parte din frunze, de forma romboidala, se afla sub apa.
 Celelalte frunze, de la nivelul apei si de deasupra apei, sunt dispuse in forma de
 rozeta. Florile au o conformatie specifica, continand o incapere plina cu aer. Cornaciul
-infloreste in lunile iulie si august. Poate fi intalnit in balti, iazuri, locuri mla stinoase cu
+infloreste in lunile iulie si august. Poate fi intalnit in balti, iazuri, locuri mlastinoase cu
 lumina multa.
-Pentru preparate medicinale se recolteaza fructele, care sunt tari si au ni ste
+Pentru preparate medicinale se recolteaza fructele, care sunt tari si au niste
 prelungiri, niste coarne. Semintele de cornaci sunt comestibile, fiind foarte hranitoare.
 Se consuma crude, fierte si chiar se macina, obtinandu -se o faina din care se face
 paine.
@@ -2060,8 +2060,8 @@ Denumire stiintifica: Cornus mas.
 Prezentare. Cornul este un arbust cu o inaltime cuprinsa intre patru si opt
 metri, statura sa fiind, uneori, asemanatoare cu cea a unui adevarat arbore. Face
 parte din familia cornaceelor si este cunoscut pentru lemnul sau foarte tare, pentru
-fructele gustoase, ro sii, precum si pentru faptul ca la v enirea primaverii este printre
-cei dintai arbori care inflore ste. Florile de corn apar in martie, rareori in aprilie, fiind
+fructele gustoase, rosii, precum si pentru faptul ca la venirea primaverii este printre
+cei dintai arbori care infloreste. Florile de corn apar in martie, rareori in aprilie, fiind
 mici, multe si de un galben foarte placut. Frunzele sunt ovale, aspre, cu intrebuintari
 in vopsitoria textila. Cornul creste in paduri, in tufarisuri si chiar si in parcuri, ca arbust
 de ornament.
@@ -2081,9 +2081,9 @@ racoritoare sau alcoolice.
 Denumire stiintifica: Claviceps purpurea.
 Denumire populara: pintenul secarei.
 Prezentare. Cornul secarei este o ciuperca ce se dezvolta in ovarul diferitelor
-graminee si, mai ales, dupa cum ii spune si numele, pe spicele (f lorile) de secara.
+graminee si, mai ales, dupa cum ii spune si numele, pe spicele (florile) de secara.
 Aceasta dezvoltare a ciupercii provoaca o boala a spicului. Prin urmare, pe spic apar
-niste diformitati tari, de culoare brun-negricioasa sau violaceu -negricioasa, ni ste
+niste diformitati tari, de culoare brun-negricioasa sau violaceu -negricioasa, niste
 saculeti alungiti numiti scleroti.
 Cornul secarei apare in culturi aflate in preajma padurilor, precum si in zone cu
 umiditate peste medie, fiind utilizat in numeroase terapii medicinale, dar si in industria
@@ -2105,15 +2105,15 @@ Au fost inventariate nu mai putin de 22 de afectiuni in care preparatele de corn
 secarei au influente benefice.
 In prezent, extractele de cornul secarei intra in compozitia multor medicamente
 (DH-Ergotoxin, Cofedoi, Distonocalm si altele).
-Intoxicatiile cu cornul secarei duc la o afectiune grava care se nume ste
+Intoxicatiile cu cornul secarei duc la o afectiune grava care se numeste
 ergotism.
-### Coroni stea
+### Coronistea
 Denumire stiintifica: Coronilla varia.
-Prezentare. Coronistea este o erbacee perena ce cre ste sub forma de
+Prezentare. Coronistea este o erbacee perena ce creste sub forma de
 tufa. In conditii prielnice ajunge la o inaltime de 1,30 metri. Face parte din familia
 leguminoaselor. Frunzele sunt compuse, iar tulpinile, aglomerate, as a cum s-a spus,
 in tufe, sunt drepte. Florile au culoarea roz sau roz -alburiu, cu o nuanta de violet.
-Coronistea infloreste in a doua parte a verii, in lunile iulie si august. Cres te in flora
+Coronistea infloreste in a doua parte a verii, in lunile iulie si august. Creste in flora
 spontana de la munte, prin fanete, tufari suri, poieni, margini de paduri, fiind iubitoare
 de soluri si locuri calcaroase.
 Pentru uz medicinal se pot recolta florile, dar si planta intreaga.
@@ -2121,7 +2121,7 @@ Substante active importante: o glucozida numita coronilina – specifica acestei
 plante, tanin.
 Intrebuintari. Coronistea este considerata o planta toxica. Si, ca orice planta cu o
 asemenea structura chimica, preparatele pe baza de coroniste, mai ales cele obtinute
-din frunze, contribuie la ameliorarea suferintelor cardiace. Coroni stea este si un bun
+din frunze, contribuie la ameliorarea suferintelor cardiace. Coronistea este si un bun
 laxativ, avand si proprietati depurative.
 Proprietatile medicinale ale acestei plante sunt inca putin studiate. Se stie doar
 ca decoctul facut din tulpinile coronistei poate fi extrem de toxic, actionand ca o otrava
@@ -2129,13 +2129,13 @@ mortala. De aceea, manevrarea acestei plante se va face, intotdeauna, cu mare
 atentie.
 
 38 DICTIONARUL PLANTELOR DE LEAC
-### Cretisorul, creti soara
+### Cretisorul, cretisoara
 Denumire stiintifica: Alchemilla vulgaris.
 Prezentare. Cretisoara este o planta erbacee perena, apartinand familiei
 rozaceelor. Se remarca prin rizomi puternici si frunze palmat -lobate. Face parte din
-familia rozaceelor si creste pana la 40 cm inaltime. Inflores te din primavara si pana
-in toamna, florile fiind mici, de culoare galben-verzui. Cretis oara cre ste in zonele
-montane si in regiunile de sub munte, in fanete, pe paji sti, pe grohotisuri, in terenu ri
+familia rozaceelor si creste pana la 40 cm inaltime. Infloreste din primavara si pana
+in toamna, florile fiind mici, de culoare galben-verzui. Cretisoara creste in zonele
+montane si in regiunile de sub munte, in fanete, pe paji sti, pe grohotisuri, in terenuri
 puternic framantate.
 Importanta medicinala au florile si rizomii, dar si cozile frunzelor. Florile si rizomii
 se pot utiliza si in stare proaspata, aplicandu -se direct pe zona afectata, sau se
@@ -2145,7 +2145,7 @@ substante amare, multi dintre compusii ei fiind inca necunoscuti in momentul de 
 Intrebuintari. Planta (florile si rizomii) se utilizeaza de mult timp i n medicina
 populara pentru tratarea diareilor, a sangerarilor, a calculilor renali, pentru vindecarea
 intepaturilor de insecte si a abceselor. Importante din punct de vedere terapeutic sunt
-si cozile frunzelor de creti soara, din care se prepara infuzie. Co zile acestor frunze
+si cozile frunzelor de cretisoara, din care se prepara infuzie. Co zile acestor frunze
 constituie materie prima si pentru industria farmaceutica, fiind utilizate in producerea
 unor medicamente sau de compusi ai unor medicamente.
 In Evul Mediu, aceasta planta se bucura de mare atentie din partea alchimistilor,
@@ -2157,9 +2157,9 @@ Prezentare. Cretusca este o planta melifera bine cunoscuta de apicultori. Mierea
 obtinuta de la florile acestei plante are calitati terapeutice de exceptie. Cretu sca este
 o erbacee perena, din familia rozaceelor. Se dezvolta destul de mult, ajungand pana
 la 1,20 metri inaltime, tulpinile aeriene fiind rasfirate. Tulpina subpamanteana, adica
-rizomul, este aproape pietroasa. Cretus ca inflore ste in lunile iulie si august, florile
+rizomul, este aproape pietroasa. Cretus ca infloreste in lunile iulie si august, florile
 fiind, de obicei, albe, uneori avand nuante spre galben. Planta prefera sol calcaros,
-crescand in zonele umede, mla stini, iazuri, lacuri. Este raspandita mai ales in zona
+crescand in zonele umede, mlastini, iazuri, lacuri. Este raspandita mai ales in zona
 montana si submontana.
 Pentru practici medicinale se recolteaza florile, rizomii, frunzele. Cel mai
 intrebuintat preparat este infuzia.
@@ -2175,9 +2175,9 @@ de bere si vin, dandu-le acestor bauturi un parfum special.
 ### Crinul de padure
 Denumire stiintifica: Lilium margaton.
 Prezentare. Crinul de padure este o planta perena din familia liliaceelor, cu o
-tulpina erecta si o inaltime de pana la 1,50 metri. La baza, pl anta are un bulb ovoidal.
+tulpina erecta si o inaltime de pana la 1,50 metri. La baza, planta are un bulb ovoidal.
 Frunzele, inguste, alungite, sunt dispuse grupat, cate cinci – sase, spre mijlocul tulpinii.
-Crinul de padure inflore ste in lunile mai si iunie. Florile sunt roz, ro sii sau violete si
+Crinul de padure infloreste in lunile mai si iunie. Florile sunt roz, rosii sau violete si
 sunt patate cu un rosu aprins. Fructul acestei plante este o capsula ovoidala. Crinul de
 padure creste in locuri umbroase si relativ umede, in padurile de foioase.
 Pentru nevoi medicinale se recolteaza florile si bulbul, din care se fac cataplasme
@@ -2197,7 +2197,7 @@ Prezentare. Crusanul este un arbust din familia ramnaceelor. Daca are conditii
 cat de cat favorabile, poate ajunge la inaltimea de trei metri. Florile acestui arbust
 sunt alb-verzui. Este un melifer recunoscut. Fructele au culoarea ro sie, dar in timp se
 innegresc.
-Pentru terapii se folose ste coaja, dar nu pr oaspata, ci dupa un an, timp in care
+Pentru terapii se foloseste coaja, dar nu proaspata, ci dupa un an, timp in care
 pierde din toxicitate. Preparatul medicina! care se obtine este un decoct.
 Substante active importante: compusii antrachinonici.
 Intrebuintari. Decoctul de coaja de crusan are proprietati laxative (sau purgative)
@@ -2220,7 +2220,7 @@ albe-galbui, mici, adunate in inflorescente. Cucuta infloreste in a doua jumatat
 intreaga planta raspandeste un miros neplacut. Creste in locuri parasite, in gunoisti, pe
 marginea drumurilor si a padurilor, in liziere – in locuri umede si cu sol bogat.
 Cei care umbla printre plantele de cucuta, sau pun mana pe lujeri, flori sau frunze
-de cucuta verde, trebuie sa se a stepte la dureri de cap, ameteli, planta fiind foarte
+de cucuta verde, trebuie sa se astepte la dureri de cap, ameteli, planta fiind foarte
 toxica.
 Pentru uz medicinal se culeg frunzele si semintele de cucuta, folosite in
 tratamente sub forma de pulbere de seminte, extract, tinctura din frunze sau din
@@ -2230,7 +2230,7 @@ conhidrina. Datorita substantelor pe care le contine, cucuta poate – in doze m
 paraliza muschii si poate opri respiratia.
 Intrebuintari. Preparatele de cucuta au efecte sedative, analgezice,
 antispamodice, anafrodiziace (diminueaza impulsurile sexuale). Tratamentele de
-cucuta sunt indicate in catatonii (in cazuri de intepenire, de blocare a mu schilor),
+cucuta sunt indicate in catatonii (in cazuri de intepenire, de blocare a muschilor),
 in diverse spasme (tuse convulsiva, astm, spasme esofagiene, biliare, intestinale,
 uterine), in tensiuni musculare, precum si in unele forme de cancer (in combinatie
 cu alte plante medicinale). Tratamentele cu preparate de cucuta se fac numai sub
@@ -2240,13 +2240,13 @@ Cucuta este o planta cu o serie de intrebuintari si in industria medicamentelor.
 Denumire stiintifica: Cicuta virosa.
 Prezentare. Cucuta de apa este o erbacee perena inalta (ajunge pana la doi
 metri). Apartine familiei umbeliferelor. Dupa cum i i spune si numele, este iubitoare de
-apa si de aceea cres te in preajma apelor si mlastinilor, si chiar in interiorul acestor
-habitate. Frunzele sunt mari, penat -sectate. Cucuta de apa inflores te in lunile iulie si
+apa si de aceea creste in preajma apelor si mlastinilor, si chiar in interiorul acestor
+habitate. Frunzele sunt mari, penat -sectate. Cucuta de apa infloreste in lunile iulie si
 august, florile fiind albe.
 Cucuta de apa este o planta extrem de toxica, cu atat mai periculoasa cu cat
 frunzele si ramurile tinere au miros de telina s i patrunjel si se pot confunda cu aceste
 zarzavaturi, iar rizomul sau poate fi confundat cu napul sau pastarnacul. Studii facute
-la nivel europea n sustin ca aceasta cucuta este planta cea mai toxica dintre toate
+la nivel european sustin ca aceasta cucuta este planta cea mai toxica dintre toate
 
 40 DICTIONARUL PLANTELOR DE LEAC
 umbeliferele.
@@ -2300,7 +2300,7 @@ ciclocurcumina, ulei esential, camfor.
 Intrebuintari. Preparatele pe baza de curcuma au proprietati tonice, depurative,
 bactericide. Specialistii sunt de parere ca aceste preparate au efecte anticancerigene,
 fiind recomandate in profilaxia tumorilor. De asemenea, curcuma asigura o buna
-functionare a tractului digestiv, impulsioneaza activitatea bilei, potole ste insistenta si
+functionare a tractului digestiv, impulsioneaza activitatea bilei, potoleste insistenta si
 persistenta reumatismelor, combate infectiile urinare, contribuie la dizolvarea pietrelor
 de la bila.
 Forma cea mai frecventa sub care se intalneste curcuma la noi este condimentul
@@ -2310,12 +2310,12 @@ ar fi, de pilda, mustarul. Curry contine circa 15% extract de curcuma.
 DICTIONARUL PLANTELOR DE LEAC 41
 ### Curmalul
 Denumire stiintifica: Phoenix dactylifera.
-Prezentare. Curmalul este un palmier. Evident, cre ste si mai ales rode ste in
+Prezentare. Curmalul este un palmier. Evident, creste si mai ales rodeste in
 zonele calde, de la cele subtropicale si pana la cele ecuatoriale. Face parte din familia
 aracaceelor, fiind originar din oazele Egiptului si ale Peninsulei Arabice. Poate atinge
 inaltimea de 25 de metri. Este golas pana in varf, unde are un manunchi de frunze de
 doi-trei metri lungime fiecare. Tulpina are scoarta aramie, cu multe crapaturi.
-Curmalele sunt produse de palmierii femele, fiind ni ste fructe foarte hranitoare.
+Curmalele sunt produse de palmierii femele, fiind niste fructe foarte hranitoare.
 De aici si importanta curmalelor in mentinerea sanatatii oamenilor, care, neobositi, si-
 au pus la treaba fantezia si in acest caz, realizand chiar si un vin de curmale. Uscate si
 prelucrate, curmalele sunt macinate, rezultand o faina din care se face paine.
@@ -2333,18 +2333,18 @@ fructe exotice regleaza functionarea sistemului respirator si au actiune antiinf
 antianemica, revitalizanta. Sunt cunoscute si ca favorizante ale expectoratiei, avand
 efecte in bolile de piept.
 Curmalele sunt recomandate copiilor, sportivilor, gravidelor, convalescentilor.
-### Curpenul de padur e
+### Curpenul de padure
 Denumire stiintifica: Clematis vitalba.
 Prezentare. Curpenul de padure este o liana lemnoasa, cu lungimi intre sase si
 10 metri. Este o planta perena si face parte din familia ranunculaceelor. Se evidentiaza
 printr-un rizom puternic. Florile sunt albe, iar fructul este o achena. Curpenul de padure
-infloreste din iunie pana in septembrie. Cres te in zona de deal si de campie, prin
+infloreste din iunie pana in septembrie. Creste in zona de deal si de campie, prin
 vegetatia mare, adica in paduri, tufarisuri, in flora din lunci.
 Pentru uz medicinal se recolteaza frunzele si florile, care se usuca, pentru a fi
 preparate sub forma de infuzie. Din frunzele verzi se poate prepara un suc.
 Intrebuintari. Sucul din frunzele verzi ale curpenului de padure este recomandat
 in bolile reumatismale si in sciatica, in dureri intercostale, junghiuri sau chiar in dureri
-din zona capului. Ceva mai puternica, infuzia de curpen se folose ste in tratamentul
+din zona capului. Ceva mai puternica, infuzia de curpen se foloseste in tratamentul
 paraliziilor, dar si in reglarea sistemului respirator. Folosita cu sampon, aceasta infuzie
 contribuie la intarirea parului, stimulandu-i cresterea.
 Preparatele din curpen de padure sunt eficiente si in tratarea tusei.
@@ -2352,11 +2352,11 @@ Preparatele din curpen de padure sunt eficiente si in tratarea tusei.
 ### Dafinul
 Denumire stiintifica: Laurus nobilis.
 Denumire populara: laur.
-Prezentare. Dafinul este planta gloriei, a g lorio silor, a invingatorilor. Cunoscut
+Prezentare. Dafinul este planta gloriei, a gloriosilor, a invingatorilor. Cunoscut
 si sub numele de laur, dafinul a facut istorie in Antichitate, fiind considerat o planta
 nobila. Este un arbore de mica inaltime – maximum 10 metri – ce-si are originile in zona
 Mediteranei. Apartine familiei lauraceelor, fiind reprezentativ pentru aceasta grupare
-de plante. Frunzele d afinului au forma ovala, margini ondulate, sunt consistente si
+de plante. Frunzele dafinului au forma ovala, margini ondulate, sunt consistente si
 lucioase. Pe fata, frunzele au o culoare verde inchis, cerata. Florile dafinului sunt mici,
 de culoare alb-galbuie. Fructul este o boaba alungita.
 Intreaga planta, dar mai ales frunzele, emana un miros specific, placut. Motiv
@@ -2364,7 +2364,7 @@ Intreaga planta, dar mai ales frunzele, emana un miros specific, placut. Motiv
 42 DICTIONARUL PLANTELOR DE LEAC
 pentru care frunzele de dafin poposesc, de multa vreme, nu numai pe capul celor
 atinsi de aripa gloriei, ci si in oalele de gatit, ale noastre, ale tuturor. Dafinul este,
-in prezent, un condiment recunoscut de bucataria universala (obis nuitele frunze de
+in prezent, un condiment recunoscut de bucataria universala (obisnuitele frunze de
 dafin). Dincolo de aceasta calitate, dafinul are, insa, si o serie de proprietati medicinale
 semnificative.
 Pentru uz medicinal se culeg frunzele si fructele, din care se prepara infuzie,
@@ -2374,9 +2374,9 @@ alina durerile. Uleiul de dafin este intrebuintat si in industria farmaceutica.
 Substante active importante: uleiul eteric si derivatele acestuia.
 Intrebuintari. Dafinul face bine pe intreg traiectul gastro -intestinal, precum si
 in sistemele respirator, muscular si chiar nervos. Mai mult decat atat, dafinul este si
-un diuretic activ, contribuind chiar si la declan sarea ciclului menstrual. Dafinul, sub
+un diuretic activ, contribuind chiar si la declansarea ciclului menstrual. Dafinul, sub
 forma de infuzie sau decoct, revigoreaza activitatea stomacala si intestinala, asigurand
-echilibru la acest nivel, fiind folosit si in combaterea bron sitele cronice, a gripei,
+echilibru la acest nivel, fiind folosit si in combaterea bronsitele cronice, a gripei,
 insomniilor, infectiilor buco-faringiene, durerilor de piept, sinuzitelor.
 Desigur, dafinul are asemenea efecte si atunci cand este folosit drept condiment,
 numai ca amploarea e mai redusa, data fiind cantitatea mica de frunze, puse in
@@ -2432,7 +2432,7 @@ Prezentare. Degetarul galben este o erbacee a carei inaltime ajunge la un metru.
 Face parte din familia scrofulariaceelor si este o planta toxica, otravitoare. Planta
 perena, degetarul galben are un rizom nu prea dezvoltat, tulpina aeriana fiindu-i, in
 schimb, puternica. Infloreste vara, in lunile iulie si august. Florile au o culoare galben-
-pal sau un ro su-pal. Degetarul galben cre ste in paduri, in lumini suri, la marginea
+pal sau un ro su-pal. Degetarul galben creste in paduri, in lumini suri, la marginea
 padurilor, in general in zonele cu vegetatie aglomerata si sol hranitor.
 Substante active importante. Plantele din aceasta familie, a scrofulariaceelor,
 contin un glicozid toxic. De fapt, degetarul galben contine o serie intreaga de glicozide
@@ -2441,8 +2441,8 @@ Intrebuintari. Degetarul galben este o planta cu actiune cardiotonica. Digitalin
 digitonina, digitofilina au efecte asupra functionarii inimii si modifica circulatia sangelui.
 Din aceste motive, sunt utilizate pentru producerea de medicamente necesare in bolile
 cardiace.
-Dat fiind caracterul otravitor al acestei plante, adm inistrarea ei in terapii se va
-face numai sub supravegherea medicului, a specialistului care cunoas te dozajul
+Dat fiind caracterul otravitor al acestei plante, administrarea ei in terapii se va
+face numai sub supravegherea medicului, a specialistului care cunoaste dozajul
 necesar. Atunci cand nu exista recomandarea medicului se vor folosi plante medicinale
 alternative, care nu au contraindicatii sau nu este nevoie, in utilizarea lor, de atatea
 masuri de precautie.
@@ -2452,7 +2452,7 @@ inimii si a sangelui este notabila.
 Denumire stiintifica: Soldanella montana.
 Denumire populara: potirase.
 Prezentare. Degetarelele sunt o erbacee perena din familia primulaceelor. Planta
-cu acest nume are o inaltime de pana la 25 cm. Inflore ste in lunile mai si iunie, florile
+cu acest nume are o inaltime de pana la 25 cm. Infloreste in lunile mai si iunie, florile
 avand forma de clopot. Fructul este o capsula. Planta aceasta frumoasa creste in zonele
 muntoase, in general descoperite, in lumini suri, la marginea padurii. In Romania, se
 gaseste in Carpatii Orientali.
@@ -2462,7 +2462,7 @@ medicina traditionala, acest preparat este folosit in primul rand ca purgativ.
 ### Degetelul lanos
 Denumire stiintifica: Digitalis lanata.
 Denumire populara: degetarita, degetelul de camp.
-Prezentare. Degetelul lanos este o planta er bacee, indeobste bienala, dar in
+Prezentare. Degetelul lanos este o planta erbacee, indeobste bienala, dar in
 anumite conditii poate fi perena. Face parte din familia scrofulariaceelor. La maturitate,
 tulpina degetelului poate ajunge pana la 1,20 metri inaltime, ramificandu -se mult spre
 varf. Partea superioara a plantei este, in mod obisnuit, paroasa, de unde si numele de
@@ -2470,12 +2470,12 @@ degetel lanos. Frunzele sunt lungi (pot avea pana la 20 cm lungime), cu marginil
 crestate. Dispuse in varful ramurilor, florile se constituie intr -un spic alungit, galbui -
 inchis, uneori rosu-inchis. Degetelul lanos infloreste pe tot timpul verii. Fructul este o
 capsula ovoida.
-Degetelul lanos cres te prin tufari suri, lumini suri de padure, in pietri suri si
+Degetelul lanos creste prin tufari suri, lumini suri de padure, in pietrisuri si
 grohotisuri. Datorita solicitarilor industriei farmaceutice, degetelul lanos apare si ca
 planta cultivata.
 Pentru uz medicinal se folosesc, de obicei, frunzele, recoltate atunci cand planta
 este in perioada maxima a dezvoltarii sale, adica la inflorire. Din degetel lanos se pot
-obtine urmatoarele preparate: infuzie, tinctura, solutie de digitalina, mac erat, pulbere.
+obtine urmatoarele preparate: infuzie, tinctura, solutie de digitalina, macerat, pulbere.
 Mai nou, se fabrica si cateva tipuri de pilule.
 Degetelul lanos este o planta toxica.
 Substante active importante: lanatozida, digoxina, neodigoxina, diginatina. Cel
@@ -2487,10 +2487,10 @@ Intrebuintari. Preparatele din frunze de degetel lanos au o foarte importanta
 actiune cardiotonica, fiind utilizate mai ales in insuficienta cardiaca. Aceste preparate
 actioneaza puternic asupra organismului si de aceea vor fi utilizate, in terapii medicinale,
 cu precautie si numai sub indrumarea medicului. Cercetarile au dovedit ca preparatele
-si extractele din degetel au efecte benefice nu numai in caz de insuficie nta cardiaca
+si extractele din degetel au efecte benefice nu numai in caz de insuficienta cardiaca
 (insuficienta cardiaca cronica), rezultate pozitive dand si in terapii privind cazuri de
 hidropizie si edeme.
-Datorita compu silor sai, degetelul lanos este o planta realmente vitala pentru
+Datorita compusilor sai, degetelul lanos este o planta realmente vitala pentru
 cardiaci. Marele farmacist dr. Ovidiu Bojor sublinia, in una dintre scrierile sale de
 specialitate, ca fara plante ca degetelul ros u si degetelul lanos, „probabil ca milioane
 de vieti s-ar pierde anual”.
@@ -2511,7 +2511,7 @@ Intrebuintari. Dentita poate fi utilizata in afectiuni interne, dar si externe, 
 principala pentru terapie fiind infuzia. In tratamentele de uz intern are influenta pozitiva
 in cazul multor afectiuni, cele mai insemnate dintre acestea fiind cele ce tin de circulatia
 arteriala si de functionarea (contractia) inimii. Preparatele din dentita sunt un sedativ
-recunoscut, avand si calitati diuretice, sudorifice, laxative. Dentita este r ecomandata
+recunoscut, avand si calitati diuretice, sudorifice, laxative. Dentita ester recomandata
 si in scrofuloza si urticarii, putand fi utilizata si ca agent in tratarea ranilor, calmand
 durerile si cicatrizand.
 Dentita se va utiliza sub indrumarea specialistului, a medicului.
@@ -2533,10 +2533,10 @@ foloseste si pulpa dovleacului turcesc (Cucurbita maxima), care se poate gati pu
 simplu sau din care se poate obtine un suc.
 In general, pentru decocturi se folosesc semintele de dovleac turcesc, cultivat
 special pentru a fi folosit in hrana oamenilor, la prepararea unor produse de patiserie
-sau de alte mancaruri delicioase. Dovleacul turcesc se recunoa ste usor, avand coaja
+sau de alte mancaruri delicioase. Dovleacul turcesc se recunoaste usor, avand coaja
 gri, spre deosebire de dovleacul comun care are coaja galbena atunci cand este copt.
 Substante active importante. Pulpa de dovleac contine saruri minerale, vitamina
-A, enzime, hidrati de carbon. Semintele sunt bogate in uleiuri (circa 33%), l ecitina,
+A, enzime, hidrati de carbon. Semintele sunt bogate in uleiuri (circa 33%), lecitina,
 enzime, protide, fitosterine.
 Intrebuintari. Pulpa de dovleac, mai ales cea a dovleacului turcesc – intrat de
 mult timp in alimentatia oamenilor – are certe proprietati diuretice, laxative si chiar
@@ -2544,15 +2544,15 @@ sedative. Semintele au calitati vermifuge, laxative, diuretice, sedative, antiin
 
 DICTIONARUL PLANTELOR DE LEAC 45
 Cea mai importanta afectiune in care se aplica terapii medicinale cu seminte de
-dovleac este adenomul de prostata. Bolile in care dovleacul se dovede ste benefic
-sunt: insuficienta renala, enterita, diabetul, infec tiile urinare, insomniile, chiar unele
+dovleac este adenomul de prostata. Bolile in care dovleacul se dovedeste benefic
+sunt: insuficienta renala, enterita, diabetul, infectiile urinare, insomniile, chiar unele
 afectiuni cardiace, parazitozele intestinale, retentiile hidrice. Un colectiv condus de dr.
 Pavei Chirila, mare specialist naturist, relateaza despre necesitatea unor adevarate
-„zile de dovleac”, despre cure de dovlea c. Astfel, pulpa de dovleac turcesc (1,5 -2
+„zile de dovleac”, despre cure de dovleac. Astfel, pulpa de dovleac turcesc (1,5 -2
 kg) se fierbe cu lapte, se amesteca si se face un terci gros, care se poate indulci si
 aromatiza, fara sa se adauge sare. Acest terci este foarte util pentru cei care sufera
 de retentii hidrice.
-Dovleacul are rolul de a u sura, de a alina si de a ameliora o serie de suferinte,
+Dovleacul are rolul de a usura, de a alina si de a ameliora o serie de suferinte,
 dintre care cea mai importanta, si in care semintele de dovleac si-au dovedit realmente
 eficienta, este adenomul de prostata (prostatita cronica).
 Proprietati asemanatoare are si dovlecelul (Cucurbita pepo, var. oblonga), fructul
@@ -2565,8 +2565,8 @@ Prezentare. Dracila este un arbust foarte spinos, cu o inaltime de pana la trei 
 Face parte din familia berberidaceelor. Dracila dezvolta niste radacini foarte puternice,
 de un galben intens la interior si galben-maro la nivelul coajei. Aceste radacina o ajuta
 sa se regenereze, chiar daca este distrusa. Tulpina este ramuroasa si bine inarmata
-cu spini cafenii sau galbeni. Frunzele sunt alterne. Florile, grupate in ni ste ciorchini
-de circa sase centimetri lungime, au culoarea galbena. Dracila inflore ste la sfar situl
+cu spini cafenii sau galbeni. Frunzele sunt alterne. Florile, grupate in niste ciorchini
+de circa sase centimetri lungime, au culoarea galbena. Dracila infloreste la sfarsitul
 primaverii si inceputul verii. Fructul sau este o bobita alungita, comestibila, cu gust
 acru, astringent. Dracila este prezenta mai ales in zonele deluroase, prin tufari suri,
 la marginea padurilor, pe camp in zonele accidentate. Prefera locurile insorite. Este
@@ -2595,7 +2595,7 @@ in lunile iunie si iulie, fructul fiind o pastaie.
 Florile si crengutele cu flori de drobita au valoare medicinala. Din ramurile tinere
 se poate obtine, prin fierbere, un colorant galben, utilizat la vopsitul textilelor.
 Intrebuintari. Infuzia de flori de drobita contribuie la normalizarea activitatii
-stomacului si a intestinelor, stimulind secretiile gastrice. De asemenea, cu preparate
+stomacului si a intestinelor, stimuland secretiile gastrice. De asemenea, cu preparate
 de drobita se trateaza afectiuni ale ficatului si splinei, precum si hipotiroidia. Drobita are
 capacitati depurative, fiind un agent activ in eliminarea toxinelor din organism.
 ### Drobul
@@ -2623,7 +2623,7 @@ Intrebuintari. Preparatele obtinute din drob sunt considerate a fi un foarte act
 tonic cardiac, reviogorand, resuscitand structura nervoasa a inimii. Aceasta proprietate
 este data de principalul produs continut de planta de drob – sparteina. Cu sparteina se
 trateaza si tahicardiile, precum si aritmiile cardiace.
-Preparatele de drob sunt eficiente, de asemenea, in u surarea si grabirea
+Preparatele de drob sunt eficiente, de asemenea, in usurarea si grabirea
 nasterilor, avand actiune tonica asupra uterului. Alte proprietati ale drobului – antitoxic,
 antiveninos, vasoconstrictor, diuretic.
 Alte afectiuni in care se utilizeaza in mod frecvent preparatele sau extractele
@@ -2634,12 +2634,12 @@ aparea reactii adverse.
 Drobul sau matura verde este considerata planta cu adrenalina.
 ### Drobu sorul
 Denumirea stiintifica: Isatis tinctoria.
-Prezentare. Aceasta planta, perena sau anuala, ce face parte din fam ilia
+Prezentare. Aceasta planta, perena sau anuala, ce face parte din familia
 cruciferelor, poate ajunge usor pana la inaltimea de un metru. Are frunze de dimensiuni
 si forme diferite, in functie de pozitia lor pe tulpina. Astfel, frunzele de la baza sunt
 petiolate, iar cele superioare devin sesile (adica fara petiol). Culoarea frunzelor este
 albastru-brumat, din ele obtinandu -se, prin fermentare, un frumos pigment albastru,
-bun pentru vopsitorie textila. Drobu sorul infloreste din mai si pana la sfar situl verii.
+bun pentru vopsitorie textila. Drobu sorul infloreste din mai si pana la sfarsitul verii.
 Florile au culoarea galbena. Fiind o planta salbatica, drobusorul creste, laolalta cu alte
 plante salbatice, pe stancarii, pe pajisti, pe marginea drumurilor sau a cailor ferate.
 Pentru practici medicinale se recolteaza si se usuca florile, din care se face, in
@@ -2673,7 +2673,7 @@ de bere in combaterea unor agenti patogeni intestinali si, din acest motiv, acea
 folosita in afectiuni intestinale rebele, precum si pentru refacerea florei intestinale.
 Unul dintre cele mai importante domenii in care drojdia de bere are efecte pozitive
 este cel al glandelor endocrine. Drojdia de bere contribuie la reechilibrarea activitatii
-acestor glande si, in consecinta, la armonizarea tuturor siste melor din organismul
+acestor glande si, in consecinta, la armonizarea tuturor sistemelor din organismul
 uman.
 Desi drojdia de bere e considerata o adevarata minune pentru sanatate, specialistii
 considera ca in consumul si aplicatiile terapeutice cu aceasta e nevoie sa se faca si
@@ -2722,12 +2722,12 @@ remarcandu-se si efecte sale antiseptice.
 ## E
 ### Eucaliptul
 Denumire stiintifica: Eucalyptus globulus; Eucalyptus amygdalina.
-Prezentare. Eucaliptul este un arbore gigant care cre ste in regiunile tropicale si
+Prezentare. Eucaliptul este un arbore gigant care creste in regiunile tropicale si
 subtropicale. Ajunge la inaltimi uria se, fiind adevaratul copac zgarie-nori. Eucaliptul
 australian si cel californian, de pilda, sunt cei mai inalti arbori din lume, atingand 150
 de metri si peste 150 de metri. Toate speciile de eucalipt cresc foarte repede, in jur
 de patru metri pe an, oprindu-se din crestere abia pe la 80 de ani. Si nici atunci nu se
-opresc definitiv din cre stere, continuand sa creasca in grosime. Eucaliptul face parte
+opresc definitiv din crestere, continuand sa creasca in grosime. Eucaliptul face parte
 din familia mirtaceelor. Frunzele sale sunt consistente, carnoase, iar florile sunt mici si
 au culoare galben-verzuie.
 Pentru nevoi medicinale se recolteaza frunzele eucaliptului, in speciai cele de pe
@@ -2771,7 +2771,7 @@ DICTIONARUL PLANTELOR DE LEAC 49
 Pentru tratamente se folosesc tecile de la pastai, in special tecile de la soiurile
 care au pastaia alba. Din aceste teci se prepara un decoct nu prea placut la gust.
 Substante active importante. Tecile contin aminoacizi, substante minerale,
-vitamina C, tirozida, triptofan.
+vitamina C, tiroida, triptofan.
 Intrebuintari. Decoctul de teci de fasole este un bun diuretic si are eficienta in
 diabetul zaharat (reduce cantitatea de zahar din sange). Curata organismul de toxine si
 mai ales igienizeaza rinichii. In combinatie cu alte plante, din teci rezulta un ceai folosit
@@ -2779,7 +2779,7 @@ in mod eficient impotriva reumatismului (se toarna in cada de baie). Cunoscatori
 recomanda decoctul sau ceaiul de teci de fasole si in aplicatii impotriva eczemelor,
 eruptiilor cutanate, acneei si chiar a TBC-ului pulmonar.
 Decoctul de teci de fasole are efecte pozitive verificate in tratarea afectiunilor
-rinichilor si a cailor urinare. Spec ialistii sustin ca se pot obtine rezultate notabile si in
+rinichilor si a cailor urinare. Specialistii sustin ca se pot obtine rezultate notabile si in
 aplicatiile terapeutice impotriva hidropiziei.
 ### Feciorica
 Denumire stiintifica: Herniaria glabra.
@@ -2787,11 +2787,11 @@ Denumire populara: sapunas.
 Prezentare. Feciorica este o planta medicinala erbacee, anuala sau bienal a,
 uneori chiar perena. Apartine familiei cariofilaceelor. Tulpina este taratoare si lipsita
 de peri (exista si o alta specie, paroasa, Herniaria hirsuta, cu aproximativ aceleasi
-proprietati medicinale), cu o lungime maxima de circa 30 cm. Frunzele de feci orica
+proprietati medicinale), cu o lungime maxima de circa 30 cm. Frunzele de feciorica
 au forma eliptica sau chiar lanceolata. Florile au o culoare galben- verzuie si apar in
-partea a doua verii si in septembrie. Aceasta planta se gase ste in flora spontana din
+partea a doua verii si in septembrie. Aceasta planta se gaseste in flora spontana din
 apropierea apelor curgatoare, preferand solul umed si nisipos.
-Pentru nevoi m edicinale se recolteaza varfurile inflorite, din care se prepara
+Pentru nevoim medicinale se recolteaza varfurile inflorite, din care se prepara
 infuzie. Se utilizeaza si planta proaspata din care, prin presare, se obtine un suc.
 Substante active importante: saponine, cumarina, ulei esential, precum si o
 substanta specifica numita herniarina.
@@ -2821,7 +2821,7 @@ Denumire stiintifica: Dryopteris filix-mas sau Polypodiumfilix-mas sau Aspidium
 filix-mas.
 Denumiri populare: ferega, iarba sarpelui.
 Prezentare. Aceasta feriga comuna este o planta criptogama (planta lipsita de
-flori, se inmulte ste prin spori), perena, parte a familiei polipodiaceelor. Rizomul are
+flori, se inmulteste prin spori), perena, parte a familiei polipodiaceelor. Rizomul are
 pozitie orizontala si este de mari dimensiuni, fiind solzos si acoperit de resturi mai vechi
 ale plantei. Din rizom cresc radacinile, dar ies si mugurii din care cresc frunzele tipice
 de feriga. Frunzele au o lungime medie de un metru, petiolul avand 20 – 30 cm lungime.
@@ -2850,7 +2850,7 @@ Denumire populara: iarba dulce.
 Prezentare. Feriguta este o planta perena cu o lungime de maximum 30
 cm. Rizomul este dezvoltat – cat un creion – s i are gust dulce. Frunzele au forma
 binecunoscuta a frunzelor de feriga, adica penat -sectata, fiind prinse direct de rizom.
-Sporii de formeaza in lunile august si septembrie. Feriguta cres te din abundenta in
+Sporii de formeaza in lunile august si septembrie. Feriguta creste din abundenta in
 zonele montane si submontane, in locuri umbroase si umede.
 Important din punct de vedere terapeutic este rizomul, dar, in anumite cazuri, se
 utilizeaza si frunzele.
@@ -2869,7 +2869,7 @@ ajunge la inaltimea de 25 cm. Are un rizom tarator, frunze bracteriforme, adanc 
 flori albe sau roz-liliachiu pal. Infloreste in toate cele trei luni de primavara. Florile sunt
 albe sau roz -violete. Creste prin paduri, tufari suri, in vegetatii salbatice amestecate,
 in luminisuri.
-Pentru terapii se folose ste toata planta, dar cu precadere rizomul si florile. In
+Pentru terapii se foloseste toata planta, dar cu precadere rizomul si florile. In
 stare proaspata, planta este toxica. In compozitia sa se gaseste un alcaloid toxic numit
 anemonina.
 Intrebuintari. Planta este utilizata in medicatiile naturiste impotriva paraliziei,
@@ -2901,9 +2901,9 @@ glucide, gliceride, carotenoide, fitosteroli, vitamina E, fiind foarte hranitoar
 Intrebuintari. Petalele de floarea-soarelui sunt preparate sub forma de tinctura,
 utilizata in combaterea febrei, a frigurilor s i a bolilor de splina. Cercetari mai noi arata
 ca aceste flori au efecte in tratarea afectiunilor cailor respiratorii. Efecte medicinale
-asemanatoare au, insa, si preparatele din frunze si tulpini tinere. In ceea ce prive ste
+asemanatoare au, insa, si preparatele din frunze si tulpini tinere. In ceea ce priveste
 uleiul de floarea -soarelui, sunt cunoscute de multa vreme efectele benefice ale
-acestuia in arterioscleroze, in hipertensiune, in tratarea vezicii biliare lenes e, in stari
+acestuia in arterioscleroze, in hipertensiune, in tratarea vezicii biliare lenese, in stari
 febrile, in afectiuni pulmonare. De asemenea, uleiul de floarea -soarelui contribuie la
 buna functionare a tractului gastro-intestinal, fiind un bandaj si un stimulator. Uleiul de
 floarea-soarelui se foloseste si extern, in tratarea locala a reumatismelor, a arsurilor,
@@ -2920,12 +2920,12 @@ mai ales la femei, dar se pare ca au efecte si in cazul barbatilor.
 Denumire stiintifica: Tamus communis.
 Prezentare. Fluieratoarea, o alcatuire vegetala impunatoare, cu o inaltime de
 pana la patru metri, radacina consistenta, frunze alterne, flori galben-verzui si fructe de
-culoare rosie este o planta perena. Inflore ste in mai-iunie, iar fructul sau este baca (o
+culoare rosie este o planta perena. Infloreste in mai-iunie, iar fructul sau este baca (o
 boaba). Fluieratoarea creste la marginea padurilor, in liziere, in tufarisuri si in vegetatie
 amestecata.
 Pentru preparate medicinale se culeg lastarii tineri si radacinile. De altfel,
 radacinile si lastarii sunt partile comestibile ale acestei plante.
-Intrebuintari. In medicina traditionala, preparatele de fluieratoa re erau folosite
+Intrebuintari. In medicina traditionala, preparatele de fluieratoare erau folosite
 in tratamentul reumatismului si al gutei, dar si in acela al ranilor de sub piele, adica in
 vindecarea contuziilor si a echimozelor. Fluieratoarea este si un bun revigorant.
 ### Foaia grasa
@@ -2935,13 +2935,13 @@ parte din grupa plantelor carnivore. Este o erbacee pitica, avand o inaltime max
 de 15 cm. Apartine familiei lentibuiariaceelor. Tulpinile ii sunt foarte scurte, practic la
 nivelul solului, iar frunzele formeaza o rozeta. Din aceasta rozeta se inalta florile, care
 au un peduncul lung. Frunzele sunt mari, consistente, carnoase, grase. Au si o functie
-digestiva – secreta o substanta digestiva si alti compus i mucilagino si si diz olvanti,
-necesari consumarii materiilor organice, adica a insectelor. Foaia grasa inflore ste de
+digestiva – secreta o substanta digestiva si alti compus i mucilaginosi si dizolvanti,
+necesari consumarii materiilor organice, adica a insectelor. Foaia grasa infloreste de
 la sfarsitul primaverii si pana in iulie. Florile au o culoare puternica, albastra -violacee.
 Aceasta planta ciudata creste in zonele montane si submontane, in locuri umede, mai
 ales pe paji sti, in poieni, la margini de padure, in turbarii si mlastini. Foaia grasa se
 aseamana mult cu roua cerului, mai ales in privinta proprietatilor medicinale.
-Pentru uz medicinal se recolteaza frunzele, din care se prepara un ext ract fluid.
+Pentru uz medicinal se recolteaza frunzele, din care se prepara un extract fluid.
 Impreuna cu alte extracte, extractul de foaie grasa intra si in compozitia unei importante
 mixturi, eficienta in multe si grele afectiuni.
 Substante active importante: taninuri, mucilagii, enzime, acizi.
@@ -2989,7 +2989,7 @@ aromatice, acid malic.
 Intrebuintari. Preparatele din frunze de frasin au efecte laxative si diuretice, fiind,
 totodata, cicatrizante (in cazul ranilor si abceselor), precum si bune antiinflamatoare
 la nivel intestinal.
-Infuzia de frunze de frasin se folose ste mult si in tratarea deranjamentelor
+Infuzia de frunze de frasin se foloseste mult si in tratarea deranjamentelor
 stomacale si intestinale, a ulcerului gastric si duodenal, a plagilor greu vindecabile,
 a hemoroizilor, arsurilor, eczemelor, dar si in tratarea unor afectiuni ginecologice.
 Cunoscatorii afirma ca efectele febrifuge (de reducere a febrei) de catre infuzia din
@@ -3015,16 +3015,16 @@ atrag atentia asupra faptului ca lipidele lipsesc, in general, din aceasta alga.
 Intrebuintari. Terapiile cu alga fucus au succes in curele de slabire, asigurand
 o reducere a obezitatii fara ca organismul sa se dezechilibreze functional sau sa se
 epuizeze fizic si psihic.
-Studiile speciali stilor au dovedit ca aceasta alga poate stimula functionarea
+Studiile specialistilor au dovedit ca aceasta alga poate stimula functionarea
 glandei tiroide.
-Datorita proprietatilor dietetice si abundentei de compu si, aceasta alga este
+Datorita proprietatilor dietetice si abundentei de compusi, aceasta alga este
 folosita si in alimentatia curenta.
 ### Fumarita
 Denumire stiintifica: Fumaria officinalis.
 Prezentare. Fumarita este o mica planta erbacee, din familia papaveraceelor.
 Frunzele sunt bipenate, iar florile, de dimensiuni reduse, au culoarea ros ie sau alba.
 Fructele sunt globuloase. Atat planta, cat si fructele, au un gust pronuntat amar. Pentru
-aplicatii medicinale se folose ste intreaga planta, recomandata fiind, insa, partea
+aplicatii medicinale se foloseste intreaga planta, recomandata fiind, insa, partea
 aeriana.
 Intrebuintari. Infuzia de fumarita – care este amara – se comporta ca un adevarat
 factor de echilibru in functionarea bilei, mentinand in permanenta functionarea acesteia
@@ -3047,15 +3047,15 @@ o lungime maxima de 60 cm. Frunzele sunt aproximativ rotunde, us or lucioase,
 carnoase. Infloreste in mai, iunie si iulie. Florile sunt galbene, iar fructul este o capsula.
 Galbajoara creste in zonele de deal si campie, in locuri umede.
 Pentru utilizari medicinale se culeg florile si se face infuzie.
-Intrebuintari. Tratamentele cu galbajoara se doved esc eficiente in durerile
+Intrebuintari. Tratamentele cu galbajoara se dovedesc eficiente in durerile
 agresive, cum ar fi cele de dinti, precum si in tratarea erizipelului. Galbajoara este
-recomandata si in aplicatiile medicinale privind cre sterea parului si intarirea radacinii
+recomandata si in aplicatiile medicinale privind cresterea parului si intarirea radacinii
 parului.
 ### Galbenelele
 Denumire stiintifica: Calendula officinalis.
 Denumiri populare: rujulita, calinica, filimica, ochi galben.
 Prezentare. Galbenelele sunt plante anuale ce pot fi cultivate pretutindeni in
-Romania, fara sa apara probleme de clima sau de sol. Aceste plante sunt, totu si,
+Romania, fara sa apara probleme de clima sau de sol. Aceste plante sunt, totusi,
 iubitoare de lumina. Fac parte din familia compozitelor. Tulpina este puternic ramificata,
 
 54 DICTIONARUL PLANTELOR DE LEAC
@@ -3096,7 +3096,7 @@ Puse pe carbuni incinsi sau pe o suprafata incinsa, aceste tincturi degaja un fu
 alunga si chiar va distruge mustele.
 ### GENTIANELE / Ghintura galbena / Ghintura patata
 Denumire stiintifica: Gentiana lutea; Gentiana punctata.
-Denumiri populare: fierea pamantului, intura, ghimbere de munte, tintura. Aceste
+Denumiri populare: fierea pamantului, intura, ghimbere de munte, tinctura. Aceste
 denumiri sunt atribuite ghinturei galbene.
 Ghintura galbena si ghintura patata, precum si ghintura albastra si cea violeta,
 sunt plante cunoscute si sub numele de gentiane.
@@ -3112,18 +3112,18 @@ centimetri inaltime, cu o durata de viata perena. Rizomul este scurt, tulpina ae
 fiind, insa, ceva mai dezvoltata. Florile, de culoare galbena, au raspandite pe ele
 numeroase puncte rosii, grena sau maro. Ghintura patata infloreste din iunie si pana in
 septembrie. Fructul sau este o capsula. Aceasta planta creste in zonele muntoase.
-In practica medicinala se folose ste sub forma de infuzie. Infuzia de ghintura
+In practica medicinala se foloseste sub forma de infuzie. Infuzia de ghintura
 patata este un tonic activ si persistent, revigorand si remineralizand organismul. Din
-acest motiv se folose ste cu bune rezultate in timpul convalescentelor, in perioade de
+acest motiv se foloseste cu bune rezultate in timpul convalescentelor, in perioade de
 
 DICTIONARUL PLANTELOR DE LEAC 55
 epuizare, pentru revenirea poftei de mancare si... de viata. Tot cu infuzia de ghintura
 patata se poate interveni pentru buna functionare a bilei, precum si pentru combaterea
 viermilor intestinali.
 ### Ghintura albastra / Ghintura violeta
-Prezentare. Ghintura albastra (Gentiana asclepiadea) se mai nume ste si
+Prezentare. Ghintura albastra (Gentiana asclepiadea) se mai numeste si
 Lumanarica pamantului. Este o planta inalta de circa un metru, cu o tulpina groasa si
-cu un rizom de asemenea puternic. Inflore ste tarziu, in august si septembrie. Florile,
+cu un rizom de asemenea puternic. Infloreste tarziu, in august si septembrie. Florile,
 de culoare albastra spre violet sau spre bleu-ciel, au forma de clopot si sunt plasate in
 partea superioara a plantei, la subsuoara frunzelor, solitare sau grupate cate doua sau
 trei. Ghintura albastra poate fi gasita pe o arie foarte larga, de la campie pana in zona
@@ -3137,7 +3137,7 @@ intestinali. Aceste preparate sunt recomandate, de asemenea, in tratarea gastrit
 hipoacide, in general in tulburari digestive si in reglarea activitatii stomacului, in
 anorexie.
 Ghintura albastra este cunoscuta ca fiind remediul natural al gastritei acide.
-Ghintura violeta (Gentiana cruciata) se mai nume ste si Ochinaceea. Este mai
+Ghintura violeta (Gentiana cruciata) se mai numeste si Ochinaceea. Este mai
 scunda decat lumanarica pamantului (Gentiana asclepiadea), ajungand doar pana la
 60 cm inaltime. Florile au forma de clopot, fiind de culoare albastru -verzuie, cu bleu
 spre interior. Chiar si tulpina imprumuta ceva din culoarea florilor si este, la randu -i,
@@ -3187,7 +3187,7 @@ Alta specie de ghimpe este cel paduret (Ruscus aculeatus) , ale carui virtuti
 medicinale sunt, totusi, reduse si care este ocrotit de lege, recoltarea lui fiind interzisa.
 Pentru a nu se face confuzii, mentionam ca ghimpele paduret este un subarbust, mereu
 verde. Face parte din familia liliaceelor. Are flori verzui, in forma de stea, si fructe bace,
-niste bobite ro sii. Ramurile au, in varf, un spin. Spre deosebire de ghimpele comun,
+niste bobite rosii. Ramurile au, in varf, un spin. Spre deosebire de ghimpele comun,
 ghimpele paduret creste in locuri putin umblate, prin paduri, lumini suri, in zone unde
 omul ajunge mai rar.
 In mod traditional, preparatele din ghimpe erau folosite in tratamentul bolilor de
@@ -3198,7 +3198,7 @@ Prezentare. Putini stiu ca ghiocelul, vestitorul primaverii, este nu numai o pla
 de pus in cea mai mica si mai delicata vaza din casa, ci si un remediu medicinal.
 Apartine familiei amarilidaceelor.
 Ghiocelul este o planta perena formata dintr -un bulb, doua frunze lineare si o
-floare alba. Inflore ste in mustul zapezii, in februarie si martie, uneori mai devreme.
+floare alba. Infloreste in mustul zapezii, in februarie si martie, uneori mai devreme.
 Poate fi intalnit de la campie si pana in zona alpina, in paduri, parcuri, pajisti, pasuni.
 Au valoare terapeutica atat bulbul, cat si florile si frunzele.
 Intrebuintari. Preparatele pe baza de ghiocel actioneaza benefic in afectiuni
@@ -3238,23 +3238,23 @@ DICTIONARUL PLANTELOR DE LEAC 57
 Ginkgo biloba creste in flora spontana din China si Japonia.
 In secolul ai XVIII-lea, arborele de ginkgo biloba a fost adus in Europa, unde se
 cultiva ca planta de ornament.
-Pentru aplicatii medicinale se utilizeaza inveli sul samburelui, inveli s care nu
+Pentru aplicatii medicinale se utilizeaza inveli sul samburelui, invelis care nu
 miroase prea placut, precum si frunzele.
 Din partile cu valoare medicinala ale arborelui ginkgo biloba se prepara mai multe
-extracte, celebre pe plan mondial, cat si o in fuzie. Ginkgo biloba este o planta de
+extracte, celebre pe plan mondial, cat si o infuzie. Ginkgo biloba este o planta de
 referinta in medicina traditionala chineza si japoneza.
 Substante active importante: flavonoli, acizi organici, pinitol, terpene. Substante
 specifice acestui arbore – acid ginkgolic, acid ginkgolinic, bilobol, ginkgol. Desi trezeste
 un interes atat de mare, arborele ginkgo biloba este inca putin studiat in ceea ce
 priveste substantele active si benefice pe care le contine, mai ales in fructe si frunze.
-Intrebuintari. Preparatele obtinute din frunzele si fructul arborelu i ginkgo
+Intrebuintari. Preparatele obtinute din frunzele si fructul arborelui ginkgo
 biloba intra in compozitia a cel putin 25 de produse medicamentoase. La modul
 general, arbore-minune ginkgo biloba are o serie intreaga de calitati medicinale: este
 expectorant, sedativ, antifungic, antispasmodic, vasodilatator, antiinflamator, antibiotic,
 vermifug.
 Preparatele din frunzele de ginkgo biloba au, in special, importante efecte in ceea
 ce priveste circulatia periferica si micro circulatia sangelui, fiind indicate in afectiuni
-de mare dificultate, cum ar fi accidentele vasculare cerebra le, trombozele, varicele.
+de mare dificultate, cum ar fi accidentele vasculare cerebrale, trombozele, varicele.
 Specialistii subliniaza faptul ca aceste preparate sunt recomandate mai ales in profilaxia
 accidentelor vasculare. Cu ginkgo biloba se actioneaza, cu bune rezultate, si in diabet.
 Inflamatiile, spasmele musculare, contractiile si tensiunea din organism pot fi, de
@@ -3272,20 +3272,20 @@ cuprinzand nordul Chinei si chiar zone din Siberia. Fiind foarte cautat, ginseng
 cultivat intens nu numai in China si Coreea, ci si in Japonia, Rusia, Vietnam, SUA,
 Canada. Frunzele ginsengului sunt lung -petiolate. In general, planta are o dezvoltare
 specifica, inscriindu -se printre plantele originare din Orientul indepartat ale caror
-evolutii sunt mai putin obi snuite. De pilda, ginsengul ajunge la inflorire dupa cativa
+evolutii sunt mai putin obisnuite. De pilda, ginsengul ajunge la inflorire dupa cativa
 ani – cel putin patru -, iar radacina este buna de recoltat tot dupa cel putin patru ani.
 lata si un fapt surprinzator – radacina de ginseng are un contur asemanator cu cel al
 fiintei omenesti. Chiar cuvantul „ginseng” inseamna, potrivit unor cunoscatori, „esenta
 umana”.
 Se gaseste in flora spontana, cat si sub forma cultivata.
 Pentru aplicatii si tratamente se recolteaza radacina.
-In practica medicinala se folose ste indeosebi radacina de ginseng cultivat,
+In practica medicinala se foloseste indeosebi radacina de ginseng cultivat,
 ginsengul salbatic fiind, la ora actuala, o planta ocrotita de lege. Radacina de ginseng
 poate ajunge la un metru lungime si o grosime cuprinsa intre cinci si 10 cm. Din radacina
 de ginseng se prepara o tinctura si se produc, pe cale industriala, comprimate. Se
 foloseste si radacina de ginseng ca atare, uscata si curatata. In general, o radacina
 de ginseng salbatic, de un inalt nivel calitativ, trebuie sa provina de la o planta cu o
-varsta de cel putin 10 ani. Pentru gins engul cultivat nu e nevoie, totus i, de un interval
+varsta de cel putin 10 ani. Pentru ginsengul cultivat nu e nevoie, totusi, de un interval
 de timp atat de mare, fiind necesara doar o perioada de dezvoltare cuprinsa intre patru
 si sase ani.
 Multa vreme, ginsengul a fost considerat un remediu eficient in tratarea tuturor
@@ -3299,10 +3299,10 @@ mai ales intr-o mare varietate, fiind identificati circa 30 de derivati.
 Intrebuintari. Planta miraculoasa in sensul cel mai credibil al cuvantului, ginsengul
 
 58 DICTIONARUL PLANTELOR DE LEAC
-contribuie la sporirea randamentului fizic si mental, intare ste memoria, fortifica
+contribuie la sporirea randamentului fizic si mental, intareste memoria, fortifica
 sistemul nervos central si periferic si, mai ales, celulele nervoase, dezvolta imunitatea
 organismului, stimuland activitatea factorilor de imunitate, faciliteaza circulatia sangelui
-si insanato seste sangele, actioneaza pentru intarirea si insanatos irea aparatului
+si insanatoseste sangele, actioneaza pentru intarirea si insanatosirea aparatului
 cardiovascular.
 Unii cercetatori afirma ca ginsengul ar fi si un bun agent impotriva cancerului. Un
 alt aspect care a determinat cresterea interesului oamenilor pentru aceasta planta tine
@@ -3312,7 +3312,7 @@ reducand glicemia.
 Pe lista de virtutilor medicinale ale ginsengului se afla si cele privind calitatile sale
 de afrodiziac (actioneaza asupra glandelor corticosuprarenale), precum si de tonic al
 organelor interne.
-Potrivit unei stravec hi traditii, ginsengul este considerat si un eficient
+Potrivit unei stravechi traditii, ginsengul este considerat si un eficient
 antireumatic.
 Datorita acestor calitati, ginsengul a generat de-a lungul istoriei sale, de peste
 1500 de ani, numeroase legende. Dincolo de acestea, cercetatorii sustin ca ginsengul,
@@ -3322,10 +3322,10 @@ Ginsengul este un medicament natural aproape complet, cu atat mai mult cu
 cat nu creeaza dependenta, nu are contraindicatii importante sau numeroase si nu-si
 cumuleaza, in timp, efectele posibil negative. Totusi, dozele prea mari pot crea unele
 neajunsuri si, de aceea, se impune atentie in utilizarea lui, putand provoca hipoglicemie,
-nervozitate, iritabilitate. Cat despre contraindicatii, trebuie mentionat, totus i, ca nu se
+nervozitate, iritabilitate. Cat despre contraindicatii, trebuie mentionat, totusi, ca nu se
 recomanda celor suferinzi de hipertensiune arteriala.
 Sub denumirea de ginseng este cunoscuta si planta numita Eleutherococcus
-senticosus. Aceasta planta cres te in flora spontana din Siberia, fiind identificata
+senticosus. Aceasta planta creste in flora spontana din Siberia, fiind identificata
 sub numele curent de ginseng siberian sau shigako. Cercetarile efectuate pe
 baze stiintifice au demonstrat ca extractele obtinute din aceasta planta contribuie,
 intr-o maniera semnificativa, la sporirea imunitatii organismului, proband si calitati
@@ -3349,10 +3349,10 @@ pericarpul.
 ### Graul
 Denumire stiintifica: Triticum aestivum (vulgare, sativum).
 Prezentare. Graul este una dintre cele mai vechi plante cultivate de om. Erbacee
-anuala, graul face parte din familia gramineelor. In mod obi snuit, radacina de grau
+anuala, graul face parte din familia gramineelor. In mod obisnuit, radacina de grau
 coboara foarte adanc in pamant, chiar si pana la un metru. Tulpina este dreapta, cu
 noduri la anumite distante, goala pe dinauntru. Frunzele sunt lanceolate. Inflorescenta
-graului este binecunoscutul spic, iar fructul este bobul de grau, in limbajul botani stilor
+graului este binecunoscutul spic, iar fructul este bobul de grau, in limbajul botanistilor
 denumit cariopsa.
 Pentru alimentatie, pentru industrie, dar si pentru uz medicinal se folosesc
 boabele de grau. Ca preparate medicinale mentionam: painea neagra, taratele, terciul
@@ -3394,12 +3394,12 @@ seminte si frunze se prepara infuzie.
 Substante active importante: saruri minerale, vitaminele A, B, C si PP; substante
 mucilaginoase, amigdalina, acizi organici, tanin, pectine, glucide, protide.
 Prezentare. Preparatele de gutui (din flori, frunze, pulpa fructului, seminte)
-sunt utile in nea steptat de multe aplicatii medicinale. De exemplu, pulpa fructului are
+sunt utile in neasteptat de multe aplicatii medicinale. De exemplu, pulpa fructului are
 proprietati antidiareice si antihemoragice, fiind utilizata inclusiv in tratarea hemoragiilor
 uterine. De asemenea, consumate in mod curent, gutuile contribuie in mod decisiv la
 imbunatatirea activitatii din tractul gastro-intestinal si mai ales la relansarea activitatii
 ficatului, notabile fiind efectele benefice in caz de insuficienta hepatica. Semintele
-de gutui actioneaza in calmarea tusei, in bron site, in faringite, in revigorarea corzilor
+de gutui actioneaza in calmarea tusei, in bronsite, in faringite, in revigorarea corzilor
 vocale, in amigdalite, stomatite, guturai, afectiuni ale pielii, in hidratarea si curatirea
 pielii. Frunzele de gutui, preparate sub forma de infuzie, au rol insemnat in reglarea si
 reechilibrarea activitatii intestinale.
@@ -3410,7 +3410,7 @@ Denumiri populare: maiuga, mamluga, tofolean, himel.
 Prezentare. Hameiul este o planta perena, cataratoare, ierboasa, de mari
 dimensiuni, apartinatoare familiei moraceelor. Ca dezvoltare in spatiu, hameiul
 seamana, intrucatva, cu vita de vi e. Florile au o frumoasa si ciudata culoare galben -
-verzuie. Hameiul cre ste in flora spontana, fiind intalnit in lunci, in paduri tinere, in
+verzuie. Hameiul creste in flora spontana, fiind intalnit in lunci, in paduri tinere, in
 tufarisuri.
 Pentru utilizarea pe scara larga in industria berii, hameiul este cultivat pe mari
 
@@ -3418,16 +3418,16 @@ Pentru utilizarea pe scara larga in industria berii, hameiul este cultivat pe ma
 suprafete si ingrijit dupa metode stiintifice.
 Valoroase din punct de vedere economic si medicinal sunt inflorescentele femele,
 care contin o substanta aromatica numita lupulina, utilizata in procesul de fabricare
-a berii. Inflorescentele (conurile), rareori si partile tiner e ale plantei, sunt utilizate si
+a berii. Inflorescentele (conurile), rareori si partile tinere ale plantei, sunt utilizate si
 in aplicatiile medicinale. Se prepara infuzie (in mod frecvent), dar si decoct, tinctura,
 extract, cataplasme.
 Substante active importante: lupulina, humolina, tanin, substante estrogene,
 ulei esential, substante minerale.
 Intrebuintari. Infuzia de hamei se foloseste atat in tratamente interne, cat si externe,
 fiind un produs medicinal antiseptic, bacteriostatic, antituberculos si antispastic. De
-altfel, preparatele de hamei sau pe baza de hamei sunt recunoscute ca ni ste sedative
+altfel, preparatele de hamei sau pe baza de hamei sunt recunoscute ca niste sedative
 usoare, placute, eficiente. Hameiul regleaza secretia gastripa si activitatea intestinala
-in general, spore ste pofta de mancare, diminueaza excitabilitatea sistemului nervos,
+in general, sporeste pofta de mancare, diminueaza excitabilitatea sistemului nervos,
 reduce durerile menstruale, fluidizeaza circulatia sangelui. Actioneaza si in crizele
 de guta si reumatism. Hameiul este recunoscut si ca un remediu pentru reducerea
 excitabilitatii sexuale (anafrodiziac). Cu infuzie de hamei se fac aplicatii in nevroze,
@@ -3445,7 +3445,7 @@ De ce atata importanta acordata acestei plante? Ce este hibiscusul?
 Hibiscusul este un arbore tropical, parte a familiei malvaceelor. In general, speciile
 de hibiscus sunt cunoscute si la noi, fiind cultivate mai ales ca plante ornamentale.
 In preparate si combinatii medicinale, hibiscusul utilizat in mod curent, sub forma
-de flori, apartine, in mod obi snuit, speciei Hibiscus sabdariffa , provenita din zona
+de flori, apartine, in mod obisnuit, speciei Hibiscus sabdariffa , provenita din zona
 Orientului si a Asiei. Din florile acestui hibiscus se obtin infuzii si decocturi cu proprietati
 racoritoare si reconfortante, realizandu -se o serie intreaga de bauturi. Se spune ca
 efectele stimulatoare ale acestei specii de hibiscus sunt tot atat de mari cat si cele ale
@@ -3453,7 +3453,7 @@ cafelei.
 Substante active importante: cateva substante specifice – acidul hibiscic,
 hibiscina, hibiscitrina, precum si mai multi acizi (citric, ascorbic, malic, tartric, oxalic),
 un ulei.
-Intrebuintari. Ceaiurile din flori de hibiscus sunt diuretice, tonic e, reconfortante,
+Intrebuintari. Ceaiurile din flori de hibiscus sunt diuretice, tonice, reconfortante,
 laxative. Pot tine locul cafelei de dimineata, avand, totodata, si o benefica actiune
 de combatere a hipertensiunii arteriale si a stresului. Aceste ceaiuri sunt indicate, de
 asemenea, in deranjamente digestive, precum si in stari de oboseala fizica si psihica
@@ -3471,9 +3471,9 @@ cultivata. Rizomul de hrean este cilindric, gros, alb pe dinauntru, foarte lung,
 50 – 60 cm. Acest rizom este partea valoroasa a plantei, nu numai din punct de
 vedere gastronomic, ci si medicinal. Se recolteaza in lunile septembrie-octombrie, dar
 si primavara. Importanta medicinala au si frunzele, utilizate de naturi sti mai ales in
-meniurile lor cu hrana vie. Hreanul se folose ste sub forma rasa, dar si sub forma de
+meniurile lor cu hrana vie. Hreanul se foloseste sub forma rasa, dar si sub forma de
 suc sau chiar salate.
-Substante active importante: peroxidaza, vitamina C, saruri min erale, acizi,
+Substante active importante: peroxidaza, vitamina C, saruri minerale, acizi,
 
 DICTIONARUL PLANTELOR DE LEAC 61
 uleiuri volatile.
@@ -3483,7 +3483,7 @@ perioada rece a anului, fiind un factor de antrenare, de mobilizare a organismul
 Hreanul are influente binefacatoare in afectiuni precum astmul, reumatismul, guta,
 litiaza urinara, leucoreea. Se evidentiaza ca un preparat medicinal benefic si in afectiuni
 cardiace, precum si in mentinerea unei bune functionari a tractului gastro-intestinal.
-Specialistii recomanda hreanul si in brons ite, precum si in alte afectiuni ale
+Specialistii recomanda hreanul si in bronsite, precum si in alte afectiuni ale
 sistemului respirator, cum ar fi cele pulmonare.
 Hreanul este diuretic si expectorant. Un mare specialist, dr. Alexander Reinhard,
 recomanda hreanul ca un mijloc de prevenire a cancerului, deoarece contine peroxidaza
@@ -3493,11 +3493,11 @@ spune ca ar provoca tumorile canceroase.
 Denumire stiintifica: Fagopyrum sagittatum; Fagopyrum esculentum.
 Denumire populara: grau negru.
 Prezentare. Hrisca este o erbacee anuala, intalnita mai ales sub forma cultivata.
-Face parte din familia poligonaceelor si este originara din Asia. Tulpina de hri sca
+Face parte din familia poligonaceelor si este originara din Asia. Tulpina de hrisca
 poate ajunge, la maturitate, pana la inaltimea de 60 cm, fiind muchiata. Frunzele sunt
 triunghiulare sau sagitat-cordate. Hrisca infloreste o perioada foarte lunga de timp, cel
 putin 50 de zile, din iulie si pana la sfarsitul lui august sau chiar inceputul lui septembrie.
-Florile sunt roz, ro sii sau albe. Semintele de hris ca au o culoare negricioasa, fiind
+Florile sunt roz, rosii sau albe. Semintele de hrisca au o culoare negricioasa, fiind
 foarte bogate in amidon.
 Hrisca este si o planta melifera de mare valoare. Se cultiva, cu succes, in zonele
 nordice, hrisca rezistand unor conditii climatice mai dificile.
@@ -3506,32 +3506,32 @@ utilitate deosebita, atat in plan medicinal, cat si economic, au, in primul rand
 de hrisca.
 Substante active importante: din punct de vedere farmaceutic, cel mai important
 compus este rutina (rutozida). Alti compusi identificati in hrisca sunt: histidina, arginina,
-lizina, cistina, fagopirina, saruri minerale. Bobul de hri sca este bogat nu numai in
+lizina, cistina, fagopirina, saruri minerale. Bobul de hrisca este bogat nu numai in
 amidon, ci si in calciu. Cantitatea de calciu este mai mare decat cea din bobul de
 grau.
-Intrebuintari. Preparatele de hri sca au calitati vasodilatatoare, antiseptice,
+Intrebuintari. Preparatele de hrisca au calitati vasodilatatoare, antiseptice,
 chiar revulsive, fiind indicate in suferinte legate de proasta circulatie a sangelui, mai
 ales la nivel periferic, in aplicatii interne pentru reducerea varicelor si a hemoroizilor,
 in hemoragii interne (inclusiv cele de la nivel renal), in tratamente externe aplicate
 varicelor si hemoroizilor. Preparatele utilizate in aceste afectiuni au la baza rutozida,
 compus care are rolul de a fortifica sistemul vascular si care este folosit si in industria
 farmaceutica.
-Faina de hri sca este considerata un aliment foarte consistent. De exemplu, pe
+Faina de hrisca este considerata un aliment foarte consistent. De exemplu, pe
 baza de hrisca se prepara laptele de hrisca, administrat celor care au lipsa de calciu in
 organism. Faina de hrisca are si o mare valoare energetic a. Se spune ca boabele de
 hrisca, decorticate, au o valoare nutritiva insemnata, asemanatoare cu cea a orezului.
 ## I
-### Iarba broa stelor
+### Iarba broastelor
 Denumirea stiintifica: Hydrocharis morsus ranae.
 Prezentare. Iarba broastelor este o planta de apa, plutitoare, cu stoloni dezvoltati.
 Are dimensiuni reduse. Frunzele sunt aproape rotunde si au petiolul lung. Iarba
-broastelor inflore ste toata vara, florile fiind dispuse sub forma de umbela. Pentru
+broastelor infloreste toata vara, florile fiind dispuse sub forma de umbela. Pentru
 a inflori, planta are nevoie de mult soare. Inmultirea se face prin mugurii bogati in
 amidon, care cad pe fundul apei si din care primavara rasar noi plante. Iarba broastelor
 creste in ape statatoare, in mlastini, dar si in ape care curg foarte incet.
 
 62 DICTIONARUL PLANTELOR DE LEAC
-Intrebuintari. Iarba broa stelor se folose ste, in mod obi snuit, ca vegetatie in
+Intrebuintari. Iarba broastelor se foloseste, in mod obisnuit, ca vegetatie in
 acvarii. Are, insa, si virtuti medicinale, fiind folosita ca materie prima la producerea unui
 emolient cu calitati foarte bune, capabil sa inmoaie, sa flexibilizeze si sa reconditioneze
 si cele mai aspre tesuturi.
@@ -3539,7 +3539,7 @@ si cele mai aspre tesuturi.
 Denumire stiintifica: Portulaca oieracea.
 Denumiri populare: troscot gras, floare de piatra.
 Prezentare. Aceasta planta apartine familiei portulacaceelor si este considerata
-o buruiana oarecare ce cres te prin culturi, pe marginea drumurilor, in locuri parasite.
+o buruiana oarecare ce creste prin culturi, pe marginea drumurilor, in locuri parasite.
 Frunzele si tulpina sunt consistente, carnoase, pline de suc. Tulpina este ramificata
 inca de la nivelul solului. Frunzele, de mici dimensiuni, sunt plasate mai ales spre varful
 ramurilor. De culoare galbena, florile de iarba grasa sunt active timp de circa cinci luni
@@ -3556,7 +3556,7 @@ de iarba grasa se obtin rezultate pozitive si in tratarea gingivitelor.
 ### Iarba lui Cristofor
 Denumire stiintifica: Cimicifuga racemosa; Actaea racemosa; Actaea spicata.
 Denumire populara: cohosul negru.
-Prezentare. Iarba lui Cristofor este o planta perena. Cre ste in paduri sau la
+Prezentare. Iarba lui Cristofor este o planta perena. Creste in paduri sau la
 marginea padurilor si apartine familiei ranunculaceelor. Poate atinge inaltimea de un
 metru si, datorita aspectului sau general, dar mai ales datorita florilor, iarba lui Cristofor
 este cultivata si ca planta decorativa.
@@ -3567,11 +3567,11 @@ cardiace), mai indicate fiind extractele.
 Substante active importante: cimicifugina, precum si un principiu asemanator
 hormonilor estrogeni. Iarba lui Cristofor este o planta toxica.
 Intrebuintari. Preparatele realizate din iarba lui Cristofor au proprietati
-tranchilizante, laxative, narcotice. Au efecte de echilibrare in ceea ce prive ste
-functionarea sistemelor circulator si respi rator. Iarba lui Cristofor este indicata in
-nevralgii, hipertensiune, cefalee, astm, spasme musculare, bron site, tuse cronica,
+tranchilizante, laxative, narcotice. Au efecte de echilibrare in ceea ce priveste
+functionarea sistemelor circulator si respirator. Iarba lui Cristofor este indicata in
+nevralgii, hipertensiune, cefalee, astm, spasme musculare, bronsite, tuse cronica,
 spasme pe tractul gastro-intestinal.
-Dincolo de aceste intrebuintari medicinale obi snuite, iarba lui Cristofor este o
+Dincolo de aceste intrebuintari medicinale obisnuite, iarba lui Cristofor este o
 planta utilizata de multa vreme de femei, nu numai in perioada fertila a vietii lor, ci
 si dupa aceea. Se stie ca preparatele din iarba lui Cristofor contribuie la rezolvarea
 unor probleme dificile legate de menstruatie. De pilda, cu aceasta planta se atenueaza
@@ -3579,7 +3579,7 @@ durerile ovariene si spasmele uterului in perioada premergatoare menstruatiei si
 timpul menstruatiei. Importanta in tratamentele asupra bolilor femeie sti este in primul
 rand radacina acestei plante – Radix Christiphoriana, despre care se afirma ca ar
 contine hormoni estrogeni. Iarba lui Cristofor este si un agent de fortificare a organelor
-de reproducere femeie sti. Totodata, contribuie la declan sarea menstrelor intarziate,
+de reproducere femeie sti. Totodata, contribuie la declansarea menstrelor intarziate,
 la usurarea nasterilor, la restabilirea femeii in perioada lauziei. Iarba lui Cristofor este
 folosita si de femeile aflate la menopauza, fiind administrata ca tonic.
 In cantitati mari, preparatele din aceasta planta pot provoca avortul.
@@ -3598,7 +3598,7 @@ Substante active importante: uleiuri volatile, inulina, heienina, camfor, alanto
 saruri de potasiu, calciu, magneziu, principii amare.
 Intrebuintari. Iarba mare este considerata o componenta esentiala a ceaiului
 antibronsic. Potenteaza activitatea vezicii biliare si favorizeaza menstruatia.
-Stimuleaza apetitul si digestia. Preparatele de iarba mare sunt diuretice, antispa stice,
+Stimuleaza apetitul si digestia. Preparatele de iarba mare sunt diuretice, antispastice,
 bronsice si expectorante, antihelmintice (actioneaza impotriva viermilor intestinali). Din
 rizom se face un decoct cu care se trateaza dischineziiie biliare cu hipotonie, guta,
 bronsitele, oxiuraza. Preparatele de iarba mare se folosesc atat in aplicatii interne, cat
@@ -3608,7 +3608,7 @@ Denumire stiintifica: Erica cinerea; Caluna vulgaris.
 Prezentare. Surprinzator, iarba neagra nu este nicidecum o iarba, ci un arbust
 ce apartine familiei ericaceelor. Este o planta cu tulpini lemnoase, putand ajunge pana
 la o inaltime de un metru. Datorita acestei inaltimi reduse, iarba neagra face parte
-din categoria arbu stilor foarte scunzi. Cre ste pe soluri parasite, dificile, pe terenuri
+din categoria arbustilor foarte scunzi. Creste pe soluri parasite, dificile, pe terenuri
 considerate grele si pe care nu multe alte plante vegeteaza. Este vorba despre terenuri
 silicoase si acide, care astfel au sansa unei reconditionari pe cale naturala.
 Pentru folosinta in terapii medicinale se recolteaza varfurile tinere, cu tot cu frunze
@@ -3625,9 +3625,9 @@ caile urinare, fiind antiseptice, depurative, astringente.
 Denumire stiintifica: Polygonum persicaria.
 Denumiri populare: ardeias, iarba amara.
 Prezentare. Iarba rosie este o planta iubitoare de umezeala. Are un ciclu de viata
-anual si face parte din familia poligonaceelor. Tulpina, noduroasa, nu depa seste, in
+anual si face parte din familia poligonaceelor. Tulpina, noduroasa, nu depaseste, in
 mod obisnuit, inaltimea de un metru. Frunzele ii sunt lanceolate, iar florile au forma
-unor spice cilindrice. Iarba ro sie infloreste din iunie si pana in septembrie. Cre ste in
+unor spice cilindrice. Iarba ro sie infloreste din iunie si pana in septembrie. Creste in
 locuri umede, in zone mlastinoase, prin santuri.
 Pentru terapii medicinale se recolteaza partea aeriana a plantei, din care se face
 o infuzie.
@@ -3641,7 +3641,7 @@ abundent picioarele.
 ### Iarba sarpelui
 Denumire stiintifica: Echium vulgare.
 Prezentare. Iarba sarpelui este o erbacee deosebita, in primul rand prin culoarea
-ei care este gri -deschis. Are tu lpina simpla sau ramificata. Dimensiunile acestei
+ei care este gri -deschis. Are tulpina simpla sau ramificata. Dimensiunile acestei
 plante sunt demne de luat in seama – poate atinge 1,20 metri inaltime. Frunzele sunt
 lanceolate, iar florile au culoare albastra, rosie sau alba. Iarba sarpelui infloreste timp de
 aproape patru luni pe an, din iunie si pana in septembrie, fiind o iarba melifera. Creste
@@ -3649,7 +3649,7 @@ pretutindeni unde e loc pentru vegetatie salbatica, de la terenurile parasite di
 pana in parloage sau pe marginea drumurilor. Face parte din familia boraginaceelor.
 
 64 DICTIONARUL PLANTELOR DE LEAC
-Pentru uz medicin al se recolteaza varfurile tinere, cu tot cu flori si frunze. Se
+Pentru uz medicinal se recolteaza varfurile tinere, cu tot cu flori si frunze. Se
 prepara o infuzie.
 Substante active importante: saruri minerale (mai ales saruri de potasiu si
 calciu), taninuri, mucilagii.
@@ -3674,7 +3674,7 @@ mare, preparatele de iarba de soaldina pot fi toxice.
 Intrebuintari. Preparatele din iarba de soaldina au importante virtuti medicinale,
 fiind antiepileptice, antiscorbutice, antisudorifice, antiulceroase si chiar anticanceroase.
 Aceasta planta poate contribui, prin efectele sale medicinale, la combaterea
-scorbutului, a starilor febrile, a unor boli de piele (de exemp lu, ulcerele cutanate, dar
+scorbutului, a starilor febrile, a unor boli de piele (de exemplu, ulcerele cutanate, dar
 si micozele, pistruii, abcesele), a ranilor greu vindecabile, a ulceratiilor gurii, si chiar
 a bataturilor. Potrivit unor cercetari ceva mai noi, infuzia de iarba de soaldina este
 indicata in tratamentul sclerozei si al hipertensiunii. Poate fi utila in cancerul de piele si
@@ -3698,7 +3698,7 @@ benefica si in circulatia sangelui, precum si in hipertensiune.
 ### Ienuparul
 Denumire stiintifica: Juniperus communis.
 Denumiri populare: cetena, bradisor, jireapan, jneap, turtei.
-Prezentare. Ienuparul este un arbust care cre ste in flora spontana de deal si
+Prezentare. Ienuparul este un arbust care creste in flora spontana de deal si
 munte. Face parte din familia cupresaceelor. Poate fi intalnit, grupat sau izolat, in
 paduri, in preajma padurilor, in zone de tufari suri, in turbarii. Este un arbust ramificat,
 frunzele fiind ascutite, asemanatoare cu acele bradului. Infloreste in aprilie-mai, fructul
@@ -3708,12 +3708,12 @@ Substante active importante: ulei volatil (0,2 – 2%), zaharuri, ienuperina, ac
 organici, saruri de potasiu si calciu. Fructul de ienupar contine multe alte substante,
 
 DICTIONARUL PLANTELOR DE LEAC 65
-unele inca neidentificate. Aceasta multitudine de compu si il fac foarte util pentru
+unele inca neidentificate. Aceasta multitudine de compusi il fac foarte util pentru
 terapiile medicinale.
 Intrebuintari. Ienuparul contine un ulei utilizat in industria farmaceutica. Ca
 planta medicinala are calitati diuretice, carminative, analgezice si bronho-dilatatoare.
 Ienuparul este utilizat in tratarea deranjamentelor stomacale si intestinale, a gutei,
-reumatismului, a bron sitelor acute si cronice. Este eficient in tratarea unor afectiuni
+reumatismului, a bronsitelor acute si cronice. Este eficient in tratarea unor afectiuni
 mai grele, cum ar fi edemele (umflaturile) renale si cirotice. De asemenea, este indicat
 in anorexie, contribuind la recastigarea poftei de mancare.
 Preparatele medicinale de ienupar se vor lua numai dupa recomandarile
@@ -3734,7 +3734,7 @@ semintele, dar si restul plantei, contin o ciano-glucozida.
 Intrebuintari. In terapia medicinala se folosesc semintele ca atare, semintele
 macerate si decoctul. In combinatie cu alte plante medicinale, semintele de in pot fi
 utilizate si sub forma de cataplasme. Semintele de in au calitati de agent purgativ,
-emolient, antiseptic, sedativ, laxativ. Inul este folosit in cazul cons tipatiilor, a cistitelor,
+emolient, antiseptic, sedativ, laxativ. Inul este folosit in cazul constipatiilor, a cistitelor,
 abceselor si furunculelor, precum si pentru a trata inflamatiile tubului digestiv. Pentru a
 beneficia de cunoscutele efecte laxative ale inului se vor ingurgita seminte intregi, in
 timp ce pentru a trata inflamatiile intestinale se vor lua seminte macerate.
@@ -3746,7 +3746,7 @@ cariofilaceelor. Dezvolta un rizom foarte puternic, grosimea acestuia ajungand c
 la opt centimetri. Tulpinile sunt mult ramificate, planta formand tufe mari cu inaltimea
 de circa un metru. Frunzele sunt lanceolate. Florile au culoarea alba sau ro sietica,
 ipcarigea inflorind din iunie si pana in septembrie. Fructul este o capsula ce contine
-seminte brun-negricioase, turtite. Ipcarigea cre ste in flora spontana, uneori alaturi de
+seminte brun-negricioase, turtite. Ipcarigea creste in flora spontana, uneori alaturi de
 multele ierburi medicinale intalnite pe marginea drumurilor. Rareori, ipcarigea apare si
 in forme cultivate.
 Pentru uz medicinal se recolteaza radacinile si mai ales rizomii. Se prepara
@@ -3762,7 +3762,7 @@ precum si in alte industrii – la fabricarea detergentilor, la prelucrarea piei
 unor produse cosmetice.
 ### Isopul
 Denumirea stiintifica: Hyssopus officinalis.
-Prezentare. Isopul este un mic arbust, cu obars ii exotice. Apartine de familia
+Prezentare. Isopul este un mic arbust, cu obarsii exotice. Apartine de familia
 labiatelor. Frunzele de isop sunt alungite si aromate. Florile au culoare albastra, insa,
 uneori, pot fi rosii sau chiar albe. Isopul este folosit si ca planta ornamentala, mai ales
 
@@ -3775,14 +3775,14 @@ Intrebuintari. Isopul se manifesta ca un agent sedativ, sudorific, hipotensiv,
 expectorant, antispasmodic, fiind si un bun regulator al digestiei. Totodata, infuzia de
 isop determina o mai buna circulatie a sangelui, inclusiv la nivelul capilarelor, fiind
 un bun vasodilatator. Preparatele pe baz a de isop sunt recomandate si in tratamente
-privind traheita, bron sita, astmul, hipertensiunea arteriala, ficatul (contribuie la
+privind traheita, bronsita, astmul, hipertensiunea arteriala, ficatul (contribuie la
 mentinerea ficatului in stare de buna functionare).
-### Izma broa stei
+### Izma broastei
 Denumirea stiintifica: Mentha aquatica.
 Denumire populara: izma de balta.
 Prezentare. Izma broastei este o planta de mari dimensiuni. Poate ajunge pana
 la 1,20 metri inaltime. Este perena si se remarca printr-o tulpina in patru muchii,
-deseori ramificata. Frunzele au petiol si sunt sub forma de elipsa. Izma broa stei
+deseori ramificata. Frunzele au petiol si sunt sub forma de elipsa. Izma broastei
 infloreste din iulie si pana in octombrie, fiind o planta melifera. Florile, dispuse in spic
 in varful ramurilor, au culoare roz. Izma broastei poate fi intalnita in locuri umede, chiar
 mlastinoase, lacuri de padure, balti, malurile raurilor.
@@ -3841,7 +3841,7 @@ Prezentare. Jneapanul este un arbust conifer ce poate fi intalnit in zona subalp
 dar mai ales in regiunile alpine. Face parte din familia pinaceelor. Inaltimea maxima
 – trei metri. In general, tulpinile jneapanului sunt taratoare, varfuri le acestora fiind,
 insa, ascendente. In forma de ace, frunzele sunt dese si lungi de trei-sase centimetri,
-aflandu-se plasate in teci micute, doua cate doua. Jneapanul inflore ste in mai -iunie.
+aflandu-se plasate in teci micute, doua cate doua. Jneapanul infloreste in mai -iunie.
 Fiind conifer, acest arbust are conuri, dispuse solitar sau grupat.
 Pentru uz medicinal se pot folosi mugurii si, mai rar, conurile tinere.
 Substante active importante: ulei eteric, rasina.
@@ -3861,7 +3861,7 @@ aceasta planta este neramificata. La rupere, tulpina secreta un suc laptos, cu m
 specific. Acest suc pateaza pielea. Laptele cainelui infloreste din aprilie si pana in iulie.
 Face parte din familia euforbiaceelor.
 Pentru uz medicinal se recolteaza planta intreaga, atunci cand este inflorita, si
-semintele. Se prepara decoct. Pentru aplicatiile externe, locale, se folose ste, in mod
+semintele. Se prepara decoct. Pentru aplicatiile externe, locale, se foloseste, in mod
 direct, laptele secretat de planta.
 Substante active importante: doua substante specifice – acid euforbic si
 euforbina, dar si proteine, ulei volatil, lipide, latex. Laptele cainelui este o planta
@@ -3870,8 +3870,8 @@ Intrebuintari. Datorita toxicitatii sale, aceasta planta nu se administreaza in 
 privind afectiunile interne. Prin traditie, laptele cainelui este folosit pentru tratarea unor
 afectiuni ale pielii, cum ar fi negii, pecinginea, pistruii, petele de pe piele (mai ales cele
 de pe fata). Preparata sub forma de decoct, aceasta planta da rezultate pozitive in
-tratarea fenomenelor de calvitie (opre ste caderea parului si fortifica radacina parului).
-Extern, local, se folose ste si pentru tratarea unor dureri cauzate de suferintele unor
+tratarea fenomenelor de calvitie (opreste caderea parului si fortifica radacina parului).
+Extern, local, se foloseste si pentru tratarea unor dureri cauzate de suferintele unor
 nervi, cum ar fi nervul sciatic.
 
 68 DICTIONARUL PLANTELOR DE LEAC
@@ -3889,7 +3889,7 @@ Rizomul, tulpina si florile sunt folosite in aplicatii medicinale si in industri
 farmaceutica, precum si in cea a parfumurilor. Pentru terapii medicinale se prepara
 extract, tinctura, infuzie, pulbere.
 Substante active importante: glucozide toxice – convalotoxina, convalozida,
-convalotoxol, saponina, majalina, acizi diver si, esente parfumate si carbonat de
+convalotoxol, saponina, majalina, acizi diversi, esente parfumate si carbonat de
 calciu.
 Intrebuintari. Substantele active obtinute din lacrimioara au o actiune
 asemanatoare cu aceea a digitalinei, fiind toxice daca sunt utilizate in cantitate mare.
@@ -3914,7 +3914,7 @@ Substante active importante: ulei volatil, limonina, pectine, flavonoide (in coa
 de lamaie), protide, lipide, glucide, saruri minerale, vitaminele B1, B2, PP s i mai ales
 C, alcooli, citrol, acizi (in miezul de lamaie).
 Intrebuintari. Din punct de vedere medicinal, lamaia are un sir intreg de utilizari.
-Lamaia este simbolul reu sitei in combaterea scorbutului, o boala grava care facea
+Lamaia este simbolul reusitei in combaterea scorbutului, o boala grava care facea
 ravagii in trecut. Si tot lamaia este, adesea, identificata cu vitamina C, vitamina pe
 care unii o socotesc un medicament bun pentru toate afectiunile. Consumul de lamaie
 inseamna si o pavaza impotriva oricarei infectii si, mai ales, impotriva bolilor infectioase.
@@ -3937,7 +3937,7 @@ la trei metri. Face parte din familia solanaceelor. Rizomul sau este foarte pute
 DICTIONARUL PLANTELOR DE LEAC 69
 lemnos, iar tulpina, agatatoare, poate deveni taratoare. Frunzele, petiolate, au forma
 de elipsa. Lasniciorul infloreste in lunile de vara. Florile, de culoare violeta, sunt grupate
-in inflorescente. Fructele, niste bobite rosii (bace), sunt otravitoare. Lasniciorul cre ste
+in inflorescente. Fructele, niste bobite rosii (bace), sunt otravitoare. Lasniciorul creste
 in locurile umede, de la campie pana la munte.
 In practica medicinala se folosesc tulpinile, frunzele, fructele. Din acestea, pentru
 uz medicinal, se prepara decoct, extract apos, cataplasme. Pentru aplicatii pe piele se
@@ -3945,15 +3945,15 @@ folosesc si frunzele verzi, zdrobite.
 Substante active importante: solanina, solanidina, glucozide, acid dulcamaric.
 Intrebuintari. Preparatele din tulpinile de lasnicior au capacitatea de a curata
 sangele, de a igieniza sistemul circulator, de a reduce durerile si crizele de reumatism,
-de a combate bron sitele, tusea pe fond nervos si astmul. De asemenea, lasniciorul
+de a combate bronsitele, tusea pe fond nervos si astmul. De asemenea, lasniciorul
 este recomandat in tratarea gutei, a epilepsiei, in cicatrizarea ranilor.
 De precizat faptul ca tratamentul cu lasnicior se face numai sub indrumarea
-specialistului, fiind o planta otravitoare. Planta se mai numes te si „dulce -amar”
+specialistului, fiind o planta otravitoare. Planta se mai numeste si „dulce -amar”
 deoarece, la inceput, cand este gustata, are un gust amarui, pentru ca – sub influenta
 salivei – sa devina dulce.
 ### Lemnul cainesc
 Denumire stiintifica: Ligustrum vulgare.
-Denumiri populare: lemn cainesc, cununita, malin negru, cire s de padure,
+Denumiri populare: lemn cainesc, cununita, malin negru, cires de padure,
 tulichioara.
 Prezentare. Lemnul cainesc este un arbust ce poate ajunge pana la inaltimea de
 cinci metri. Este o planta lemnoasa, cu o ramificatie foarte puternica. Face parte din
@@ -3967,9 +3967,9 @@ prepara infuzie, decoct si tinctura. Cea mai mare valoare medicinala o au frunze
 Substante active importante: siringina, tanin, zaharuri, vitamina C si o substanta
 specifica, aflata in fructe, numita ligulina.
 Intrebuintari. Preparatele obtinute din lemn cainesc au actiune cicatrizanta,
-astringenta, antii nflamatoare, antialgica. Cu decoctul de frunze de lemn cainesc se
+astringenta, antiinflamatoare, antialgica. Cu decoctul de frunze de lemn cainesc se
 trateaza blocajele gastro-intestinale, dar si hemoroizii, aftele, stomatitele, chiar celulita
-si bolile reumatismale. Aceleas i rezultate se obtin si prin administrarea preparatelor
+si bolile reumatismale. Aceleasi rezultate se obtin si prin administrarea preparatelor
 de flori. Scoarta de lemn cainesc are, la randu -i, importante virtuti medicinale, fiind
 benefica in afectiuni ale gurii (paradontopatiile, de exemplu), dar si in unele afectiuni
 cutanate (eczemele). Coaja acestei plante este, totodata, si un bun antiscorbutic.
@@ -3987,7 +3987,7 @@ Pentru uz medicinal se culeg frunzele si ramurile tinere. Din acestea se prepara
 infuzie, dar si o lotiune cu un puternic efect dezinfectant.
 Substante active importante: uleiuri aromatice, flavone, eucaliptol, principii
 amare, acizi, cumarina, precum si o substanta specifica numita abrotina.
-Intrebuintari. Lemnul Domnului are proprietati tonice, c icatrizante, digestive.
+Intrebuintari. Lemnul Domnului are proprietati tonice, cicatrizante, digestive.
 Preparatele din Lemnul Domnului combat viermii intestinali. Sunt indicate, de
 asemenea, in calmarea durerilor in cazul menstruatiilor dureroase, in digestie lene sa,
 in ulceratii ale pielii, in vindecarea ranilor vechi. Lemnul Domnului are efecte pozitive si
@@ -4000,14 +4000,14 @@ stomacului, ale ficatului, bilei si cailor urinare.
 ### Lemnul dulce
 Denumire stiintifica: Glycyrrhiza glabra.
 Denumire populara: iarba dulce, iarba tare, radacina dulce, firuta.
-Prezentare. Lemnul dulce cres te sub forma unei tufe, fiind o planta perena,
+Prezentare. Lemnul dulce creste sub forma unei tufe, fiind o planta perena,
 cu o inaltime de pana la 1,50 metri. Subarbust, lemnul dulce face parte din familia
 leguminoaselor. Frunzele sunt dispuse perechi in jurul tulpinii, iar florile, de culoare
 albastru-violet, au dimensiuni reduse. Fructele au o conformatie de spin si au pe ele
 perisori.
 Pentru uz medicinal se culeg si se utilizeaza radacinile secundare si rizomii
-laterali. In aplicatii medicinale, lemnul dulce se folose ste mai ales sub forma infuzie,
-dar si sub forma de macerat, decoct, mixtura sau pulbere. Atentie, recoltarea par tilor
+laterali. In aplicatii medicinale, lemnul dulce se foloseste mai ales sub forma infuzie,
+dar si sub forma de macerat, decoct, mixtura sau pulbere. Atentie, recoltarea partilor
 medicinale ale plantei se face in al treilea an de dezvoltare, dupa incheierea perioadei
 de vegetatie. Lemnul dulce este o planta cultivata de om, dar creste si in flora spontana,
 in locuri adapostite si pustii.
@@ -4019,8 +4019,8 @@ Actioneaza, de asemenea, si asupra inflamatiilor articulatiilor. Preparatele de 
 dulce au efecte estrogene – stimuland functiile organelor sexuale.
 Efecte benefice ale preparatelor de lemn dulce s -au inregistrat si in cazul
 inflamatiilor gastrice (combat gastrita hiperacida), fiind un bun bandaj pentru intreg
-traiectul gastro -intestinal. In mod obi snuit, preparatele de lemn dulce actioneaza in
-afectiuni precum ulcerul gastric, traheita, faringita, bron sita, calculii renali si bil iari,
+traiectul gastro -intestinal. In mod obisnuit, preparatele de lemn dulce actioneaza in
+afectiuni precum ulcerul gastric, traheita, faringita, bronsita, calculii renali si biliari,
 dismenoreea, artrita.
 Concluzionand, putem spune ca lemnul dulce este un remediu insemnat in
 suferintele de ulcer gastric, in gastrite. Pentru asemenea suferinte a fost pus la punct
@@ -4033,8 +4033,8 @@ Denumirea stiintifica: Allium ursinum.
 Denumire populara: usturoita.
 Prezentare. Leurda este o planta erbacee cu miros si gust de usturoi. Face parte
 din familia liliaceelor. Inaltimea maxima pe care o poate atinge – 1,50 metri. In pamant,
-leurda are un bulb ovoidal, format din solzi gro si, asemanatori cateilor de usturoi.
-Tulpina este insotita de doua frunze. Leurda inflore ste in aprilie si mai, rareori si in
+leurda are un bulb ovoidal, format din solzi grosi, asemanatori cateilor de usturoi.
+Tulpina este insotita de doua frunze. Leurda infloreste in aprilie si mai, rareori si in
 iunie. Florile se aduna intr-o inflorescenta sub forma de umbela, ce cuprinde intre cinci
 si 20 de flori de un alb stralucitor. Fructul este o capsula. Leurda poate inlocui usturoiul
 si poate fi conservata. Creste in toate zonele Romaniei.
@@ -4050,7 +4050,7 @@ Prezentare. Leusteanul este o planta perena cultivata, dar care in anumite
 conditii se poate salbatici. Apartine familiei umbeliferelor. Leusteanul are un rizom gros
 si o tulpina aeriana dreapta si ramificata. Frunzele au forma de elipsa, fiind crestate si
 consistente; uneori au forma rombica. Sunt prinse de planta prin petiol si au un miros
-foarte puternic, specific. Leu steanul infloreste pe tot parcursul verii si poate cre ste
+foarte puternic, specific. Leu steanul infloreste pe tot parcursul verii si poate creste
 pana la un metru, uneori chiar mai mult. Este foarte apreciat in bucatarie.
 Virtuti medicinale are intreaga planta, importante fiind, insa, rizomul, frunzele si
 
@@ -4060,7 +4060,7 @@ si uscat, pentru infuzii, sau sub forma de tincturi sau pulbere.
 Substante active importante: uleiuri eterice, terpinol (compusul cel mai
 important), vitamine, acizi organici, saruri minerale.
 Intrebuintari. Leusteanul este recomandat de specialisti ca diuretic, expectorant,
-carminativ, sedativ, regulator al tractului intestinal. Se folose ste in tratarea unor
+carminativ, sedativ, regulator al tractului intestinal. Se foloseste in tratarea unor
 afectiuni curente, cum ar fi colicile abdominale la copii, edemele cardiace, edemele
 renale, bronsitele, traheitele, constipatiile, durerile menstruale.
 ### Levantica
@@ -4078,7 +4078,7 @@ Substante active importante: ulei volatil, linalol, geraniol, cumarina, acetat d
 linaloj.
 Intrebuintari. Din florile de levantica se face infuzie, o bautura eficienta in
 relaxarea sistemului nervos, dar si cu calitati antimicrobiene, antispasmodice,
-carminative, cicatrizante. In fuzia de flori de levantica este diuretica si dezinfectanta.
+carminative, cicatrizante. Infuzia de flori de levantica este diuretica si dezinfectanta.
 Da rezultate bune in boli de inima pe fond nervos, in tulburari stomacale si abdominale,
 in cefalee si migrene, in afectiuni renale, precum si in reumatism si stari de agitatie, de
 neliniste, de hiperexcitabilitate, in insomnii. Interesant de observat – infuzia de levantica
@@ -4102,7 +4102,7 @@ medicina traditionala, acest lichen nu are virtuti in neutralizarea virusului tu
 Denumire stiintifica: Everina prunasteri.
 Prezentare. Lichenul de stejar este un tal care se prinde de arborele gazda cu un
 disc adeziv. Seamana cu o tufa mai mica, este flexibil si are o lungime maxima de 10
-cm. Are culoare cenusie sau cenusie-verzuie, depinde de anotimp. Lobii sunt ca ni ste
+cm. Are culoare cenusie sau cenusie-verzuie, depinde de anotimp. Lobii sunt ca niste
 benzi inguste. Acest lichen poate fi intalnit nu numai pe scoarta stejarului, ci si pe cea
 a fagului, aninului, mesteacanului, teiului si chiar pe scoarta pomilor fructiferi, precum
 si pe stanci sau pietre.
@@ -4131,7 +4131,7 @@ Denumire populara: miruta.
 Prezentare. Limba boului este o erbacee din flora spontana comuna, inaltimea sa
 maxima fiind de 80 cm. Face parte din familia boraginaceelor. Tulpina, dezvoltata, se
 ramifica in partea superioara. Frunzele sunt paroase, iar florile au culoarea albastra,
-rareori fiind de culoare roz. Limba boului inflore ste in lunile mai si iunie. In peisaj,
+rareori fiind de culoare roz. Limba boului infloreste in lunile mai si iunie. In peisaj,
 aceasta planta iese in evidenta prin culoarea ei ciudata, cenusie.
 Pentru practici medicinale se recolteaza planta in intregul ei. Se prepara: infuzie
 (mai ales din flori), decoct (din frunze), extracte, combinatii de ceaiuri.
@@ -4143,29 +4143,29 @@ si dureri de cap, i n reumatisme si raceli mari, in afectiuni pulmonare, in tulb
 functionarii inimii, in retentii urinare, in cazuri de febra. Preparatele din limba boului
 au si importante proprietati depurative, contribuind la detoxifierea organismului, la
 eliminarea multor substante toxice, mai ales prin urina.
-### Limba broa stei
+### Limba broastei
 Denumire stiintifica: Alisma plantago aquatica.
 Denumire populara: limbarita.
 Prezentare. Limba broastei este o planta de apa, erbacee, perena, cu o inaltime
 de pana la 70 cm. Dezvolta un rizom gros, iar tulpina exterioara este ramificata.
-Frunzele, cu o forma de elipsa, au un petiolul lung. Limba broa stei infloreste din mai
+Frunzele, cu o forma de elipsa, au un petiolul lung. Limba broastei infloreste din mai
 pana in septembrie. Florile, de mici dimensiuni, au culoare alba sau roz. Aceasta
 planta banala creste in locuri umede sau cu apa statuta, chiar si in meandrele raurilor,
 cand apa devine statatoare.
 Din punct de vedere medicinal, au importanta rizomii si radacinile.
 Intrebuintare. Limba broastei este o planta medicinala cu efecte antiinflamatoare,
-antiseptice, calman te. Este eficienta in afectiuni precum hidropizia si nefritele. In
+antiseptice, calmante. Este eficienta in afectiuni precum hidropizia si nefritele. In
 medicina traditionala era folosita pentru blocarea secretiei laptelui matern, atunci cand
 se intarcau copiii. Tot in medicina traditionala, cu preparatele din radacini de limba
-broastei se tratau cazurile de turbare. Preparatele de limba broa stei sunt folosite si in
+broastei se tratau cazurile de turbare. Preparatele de limba broastei sunt folosite si in
 homeopatie.
 ### Limba mielului
 Denumire stiintifica: Borrago officinalis.
-Prezentare. Limba mielului este o e rbacee din familia boraginaceelor. Are
+Prezentare. Limba mielului este o erbacee din familia boraginaceelor. Are
 o tulpina ramificata care, in prima perioada de vegetatie a plantei, este suculenta.
 Frunzele, de forma eliptica, petiolate, u sor ingrosate, au un gust deosebit, ceva intre
 macris si stevie, si pot fi folosite la salata. Florile sunt plasate in varful ramurilor.
-Pentru uz medicinal se reco lteaza, in luna mai, intreaga planta, dar mai ales
+Pentru uz medicinal se recolteaza, in luna mai, intreaga planta, dar mai ales
 ramurile tinere cu flori, precum si frunzele. Din aceste parti ale plantei se prepara
 infuzie (mai ales din flori), decoct (din frunze), precum si extracte apoase sau fluide.
 Substante active importante : saruri minerale pe baza de magneziu, calciu,
@@ -4173,7 +4173,7 @@ Substante active importante : saruri minerale pe baza de magneziu, calciu,
 DICTIONARUL PLANTELOR DE LEAC 73
 potasiu, sodiu, fosfor in cantitate mare, rasini.
 Intrebuintari. Limba mielului se utilizeaza in medicina traditionala sub forma
-de infuzie. Potrivit unor observatii mai noi ale speciali stilor, ale naturi stilor, limba
+de infuzie. Potrivit unor observatii mai noi ale specialistilor, ale naturistilor, limba
 mielului are efecte medicinale semnificative daca este consumata cruda, sub forma
 de salata sau inclusa in salate. De asemenea, se recomanda utilizarea plantei, sub
 forma zdrobita si macerata, la imbunatatirea vinului, limba mielului facand din vin , cu
@@ -4186,10 +4186,10 @@ Denumire stiintifica: Linaria vulgaris.
 Denumiri populare: bumbac de camp, inisor, bumbacarita.
 Prezentare. Linarita este o erbacee din flora spontana, remarcata atat datorita
 florilor sale galbene, cat si numarului foarte mare de frunze in forma lanceolata.
-Apartine familiei scrofulariaceelor. Linarita inflores te incepand din partea a doua a
-verii si pana toamna tarziu. Cre ste de-a lungul drumurilor, cailor ferate, prin terenuri
+Apartine familiei scrofulariaceelor. Linarita infloreste incepand din partea a doua a
+verii si pana toamna tarziu. Creste de-a lungul drumurilor, cailor ferate, prin terenuri
 intelenite, la marginea pasunilor si a padurilor, in locuri parasite.
-Pentru terapii medicinale se folose ste partea aeriana a plantei, dar mai ales
+Pentru terapii medicinale se foloseste partea aeriana a plantei, dar mai ales
 varfurile cu flori, din care se prepara infuzie, decoct, extract.
 Substante active importante: o substanta specifica – linarita, apoi flavonoide,
 alcaloizi, acizi organici, saruri minerale.
@@ -4198,7 +4198,7 @@ remineralizante. De -a lungul timpului s -a constatat ca aceste preparate au un 
 deosebit in fortificarea peretilor arterelor. Linarita este recomandata in tratarea pietrelor
 vezicale, hemoroizilor, afectiunilor cutanate (acnee, furuncule), precum si in afectiuni
 hepato-biliare si ale cailor urinare.
-Preparatele pe baza de linarita sunt eficiente si in tra tamentele de echilibrare a
+Preparatele pe baza de linarita sunt eficiente si intra tamentele de echilibrare a
 activitatii gastro-intestinale.
 ### Lingureaua
 Denumire stiintifica: Cochlearia officinalis.
@@ -4211,11 +4211,11 @@ planta e in prima perioada de vegetatie si, deci, este frageda, se poate utiliza
 parte aeriana. Se prepara suc, sirop, infuzie.
 Substante active importante: calciu, potasiu, fosfor, iod, vitamina C,
 cochlearina.
-Intrebuintari. Tratamentul cu aceasta planta se aplica in avitaminoze, an emii,
+Intrebuintari. Tratamentul cu aceasta planta se aplica in avitaminoze, anemii,
 stare generala proasta. Preparatele din lingurea stimuleaza activitatea rinichiului, a
 ficatului, fiind recomanda si in afectiuni cum ar fi scorbutul, bolile de plamani sau ale
 cailor respiratorii. Cu infuzia de lingurea se trateaza inflamatiile bron sice si edemul
-pulmonar. Infuzia de lingurea serve ste si la tratamente in boli cronice de ficat sau de
+pulmonar. Infuzia de lingurea serveste si la tratamente in boli cronice de ficat sau de
 rinichi.
 Frunzele pot fi consumate si sub forma de salata sau de suc (situatie in care se
 pot folosi toate partile fragede ale plantei).
@@ -4235,12 +4235,12 @@ Substante active importante: hidrati de carbon, saruri minerale, mangan,
 celuloza, amidon, sodiu (in cantitate insemnata), vitaminele A, B1, B2 si C, protei ne
 in proportie de 24%. Potrivit farm. dr. Ovidiu Bojor, lintea are mai multe proteine chiar
 si decat carnea.
-Intrebuintari. Lintea este un aliment aproape ie sit din obis nuintele bucatariei
+Intrebuintari. Lintea este un aliment aproape ie sit din obisnuintele bucatariei
 moderne, desi este un adevarat izvor de energie (394 kcal la 100 g linte). Fiind un
 aliment energetic, lintea este recomandata celor care se refac dupa boala, astenicilor,
 celor care depun un efort mare, mai ales intelectual. Cataplasmele preparate din faina
 de linte grabesc vindecarea ranilor si a abceselor.
-Potrivit un ei vechi practici de medicina populara, consumul de linte spore ste
+Potrivit un ei vechi practici de medicina populara, consumul de linte sporeste
 laptele la femeile care alapteaza.
 In terapiile naturiste se utilizeaza, cu succes, lintea germinata, baza a multor
 retete foarte nutritive.
@@ -4263,15 +4263,15 @@ medicinale interne si externe. Intern, preparatele de lumanarica sunt folosite i
 calmarea tusei iritante, a tusei convulsive. Aceste preparate faciliteaza expectoratia,
 diminueaza crampele si au efecte antiinflamatoare. Lumanarica este un bun remediu
 si pentru laringite si bronsite acute.
-Extern, lumanarica se foloses te pentru tratarea abceselor si a hemoroizilor.
-In ceea. ce prive ste frunzele de lumanarica, din acestea se prepara cataplasme
+Extern, lumanarica se foloseste pentru tratarea abceselor si a hemoroizilor.
+In ceea. ce priveste frunzele de lumanarica, din acestea se prepara cataplasme
 emoliente, utilizate in aplicatii terapeutice de lunga durata.
 ## M
 ### Macul de camp
 Denumirea stiintifica: Papaver rhoeas.
 Denumiri populare: mac iepuresc, macul cucului.
-Prezentare. Macul de camp este o planta anuala ce cre ste in flora spontana,
-decorand pajistile, parloagele, fanetele, culturile de cereal e, taluzurile soselelor si ale
+Prezentare. Macul de camp este o planta anuala ce creste in flora spontana,
+decorand pajistile, parloagele, fanetele, culturile de cereale, taluzurile soselelor si ale
 cailor ferate, terenurile abandonate. Inaltimea macului de camp poate ajunge pana
 la un metru. Tulpinile sunt paroase, iar frunzele – groase si carnoase – au forma oval-
 alungita. Macul de camp infloreste din primavara si pana in toamna. Florile au petalele
@@ -4288,7 +4288,7 @@ DICTIONARUL PLANTELOR DE LEAC 75
 Intrebuintari. Ceaiul de petale de mac de camp este un bun agent antibronsic si
 antitusiv. Petalele de mac fac parte din reteta celebrului ceai din patru flori, utilizat in
 bolile de piept.
-Ceaiul din petale de mac de camp este indicat in bron sita acuta, laringita acuta,
+Ceaiul din petale de mac de camp este indicat in bronsita acuta, laringita acuta,
 angine pectorale si in gripa. Cu preparat de mac se trateaza si inflamatiile pleoapelor.
 Infuzia de petale de mac este revigoranta si actioneaza eficient impotriva contractiilor,
 a spasmelor.
@@ -4314,7 +4314,7 @@ Valoare medicinala au semintele de mac, frunzele si, mai ales, latexul, un produ
 obtinut din peretii capsulei inainte de uscarea acesteia. Acest latex contine opiul –
 substanta folosita intens in medicina. Din opiu, dar si din cojile uscate de mac de
 gradina, se obtine o alta substanta – poate tot atat de importanta cat si opiul – morfina.
-De fapt, opiul e un amestec de circa 25 de alcaloizi, dintre care cel mai important este
+De fapt, opiule un amestec de circa 25 de alcaloizi, dintre care cel mai important este
 morfina.
 Semintele de mac de gradina contin un ulei, considerat a avea calitati de
 exceptie.
@@ -4324,7 +4324,7 @@ Datorita numarului mare de substante toxice, macul de gradina este considerat
 o planta periculoasa, utilizarea preparatelor pe baza de mac urmand a se face cu
 precautie.
 Substante active importante: papaverina, narcotina, laudanina, morfina,
-codeina, tebaina. Ace sti compu si se gasesc in latex (opiu). Morfina este, a sa cum
+codeina, tebaina. Ace sti compusi se gasesc in latex (opiu). Morfina este, a sa cum
 s-a spus, principala componenta a opiului. In mac se mai gasesc acidul lactic, acidul
 acetic, heroina, zaharuri.
 Intrebuintari. Compusii obtinuti din mac sunt indicati in calmarea oricarei dureri din
@@ -4350,7 +4350,7 @@ Prezentare. Mandarinul este un arbust cu flori albe, inalt de trei -patru metri,
 cu frunze ovale, consistente, carnoase, originar din China. A fost adaptat cu succes
 in zona mediteraneana. Face parte din familia rutaceelor si este ruda apropiata cu
 portocalul, avand proprietati alimentare si medicinale asemanatoare.
-Pentru uz m edicinal, de la mandarin se recolteaza frunzele, florile, pericarpul si
+Pentru uz medicinal, de la mandarin se recolteaza frunzele, florile, pericarpul si
 pulpa fructului. Din acestea se prepara infuzie, decoct si suc.
 Substante active importante: ulei volatil, saruri minerale, protide, lipide,
 glicozide, acizi si mai ales brom.
@@ -4390,7 +4390,7 @@ in vitamina C, potasiu, calciu, fosfor.
 Intrebuintari. Frunzele de mangold sunt un aliment excelent pentru cei care au
 lipsa de potasiu, calciu, fosfor. Petiolul este recomandat celor care au nevoie de sodiu
 si potasiu, acesta semanand, in multe privinte, cu sparanghelul si conopida. Mangoldul
-– aceasta varietate de sfe cla – faciliteaza digestia. Are, de asemenea, proprietati
+– aceasta varietate de sfecla – faciliteaza digestia. Are, de asemenea, proprietati
 antiinfectioase si contribuie la mai buna circulatie a sangelui. Mai nou, e posibil ca
 preparatele de mangold sa aiba si efecte antitumorale.
 ### Mate
@@ -4415,7 +4415,7 @@ tonic si revitalizant pentru convalescenti, fiind cunoscut si pentru influenta s
 asupra activitatii stomacale si intestinale. Traditia spune ca frunzele de mate pot fi
 utilizate si ca afrodiziac.
 Desi nu are efectele nocive ale cafelei sau ale ceaiului chinezesc, mate devine
-toxic in doze mari, mai ales pentru ficat, dar poat e provoca si insomnie, agitatie,
+toxic in doze mari, mai ales pentru ficat, dar poate provoca si insomnie, agitatie,
 palpitatii.
 Nu trebuie uitat faptul ca mate este un puternic stimulent nervos. In ceea ce
 priveste caracterul sau energizant, specialistii nu confirma intrutotul aceasta calitate.
@@ -4438,7 +4438,7 @@ energie. Cercetarile au dovedit ca mazarea nu este un simplu aliment, e adevarat
 nutritiv, energetic si usor digerabil, ci si un agent de maxima importanta in reactivarea
 maduvei spinarii. Aceasta proprietate este data de un principiu numit hemaglutina,
 care se gaseste in special in mazarea verde.
-### Mace sul
+### Macesul
 Denumire stiintifica: Rosa canina.
 Denumiri populare: trandafir salbatic, cacadar, rasura, rug salbatic.
 Prezentare. Macesul face parte din familia rozaceelor. Este un arbust puternic
@@ -4449,8 +4449,8 @@ ghimpi. Frunzele macesului sunt aproape rotunde, zimtate, cu petiol subtire, dar
 rezistent. Florile au culori diferite fiind, de obicei, roz, rareori rosii sau albe. Floarea de
 maces se aseamana foarte mult cu cea a trandafirului. Diferenta consta in faptul ca
 floarea de maces are doar un singur rand de petale. Macesul infloreste in lunile mai
-si iunie. Fructul mace sului este un receptacul de culoare ro sie, ce contine semintele.
-Macesul creste de la campie pana la munte, in locuri expuse soarelui, fiind u sor de
+si iunie. Fructul macesului este un receptacul de culoare ro sie, ce contine semintele.
+Macesul creste de la campie pana la munte, in locuri expuse soarelui, fiindu sor de
 recunoscut.
 Pentru uz medicinal se recolteaza fructele si petalele de flori. Fructele de maces
 se culeg in perioada in care devin portocalii. Au o valoare medicinala foarte mare si
@@ -4458,16 +4458,16 @@ se consuma ca atare sau sub forma unor preparate. Cele mai frecvente preparate
 medicinale de maces sunt infuzia si decoctul.
 Substante active importante: vitamine (B1, B2, P, si mai ales C), zaharuri, acid
 citric, acid malic, pectine, ulei gras volatil, lecitina, vanilina.
-Intrebuintari. Forma principala sub care se utilizeaza fructele de mace s in
+Intrebuintari. Forma principala sub care se utilizeaza fructele de maces in
 terapiile medicinale este decoctul. Acest produs are actiune tonica, vasodilatatoare,
-diuretica, antiinflamatoare, antihelmintica. Stimuleaza activitatea ficatului si a b ilei.
+diuretica, antiinflamatoare, antihelmintica. Stimuleaza activitatea ficatului si a bilei.
 Contribuie la tratarea avitaminozelor, enterocolitelor, a calculozei renale. Este utilizat,
 totodata, in cazuri de anemii, in revigorarea circulatiei periferice a sangelui, in dilatarea
 arterelor, precum si impotriva viermilor intestinali.
 
 78 DICTIONARUL PLANTELOR DE LEAC
 Pus la rece, decoctul poate fi utilizat si ca bautura racoritoare. Din fructele de
-maces se prepara si un vin medici nal. De asemenea, fructele de mace s sunt folosite
+maces se prepara si un vin medicinal. De asemenea, fructele de maces sunt folosite
 la prepararea prajiturilor.
 Ca vermifug (antihelmintic), macesul se dovedeste nu numai eficient, dar si placut
 la consum atunci cand fructele, curatate de seminte si peri, se amesteca cu miere.
@@ -4477,11 +4477,11 @@ macesul este planta medicinala cea mai potrivita in avitaminoze.
 Denumire stiintifica: Rumex acetosella.
 Denumire populara: macrisul marunt.
 Prezentare. Este o planta perena ce creste in flora spontana. Exista si o specie
-cultivata (Rumex acetosa), avand, insa, dimensiuni mai reduse. Tulpina de macri s
+cultivata (Rumex acetosa), avand, insa, dimensiuni mai reduse. Tulpina de macris
 este dreapta, avand culoarea verde. La maturitate, aceasta tulpina se lemnifica. Poate
 ajunge pana la un metru inaltime. Frunzele, cu un gust acru pronuntat, au culoarea
 verde inchis si sunt in mare parte lanceolate. Macri sul infloreste in lunile mai si iunie.
-Florile sunt mici si verzui, cu o dunga ro sie. Macrisul creste prin fanetele, paji stile si
+Florile sunt mici si verzui, cu o dunga ro sie. Macrisul creste prin fanetele, pajistile si
 poienile din zonele de campie, deal si zona subalpina.
 Pentru uz medicinal se recolteaza partea aeriana a plantei.
 Substante active importante: o mare cantitate de oxalat de calciu (toata planta
@@ -4498,7 +4498,7 @@ Denumiri populare: macrisul caprei.
 Prezentare. Apartinand familiei oxalidaceelor, macri sul caprei este o planta
 perena de mici dimensiuni (pana la 15 cm inaltime). Are un rizom dezvoltat si ramificat.
 Frunzele, acoperite cu peri sori, sunt asemanatoare celor de trifoi si au gust acris or.
-Macrisul caprei inflore ste in lunile mai si iunie. Florile sunt mici si albe, uneori ro sii,
+Macrisul caprei infloreste in lunile mai si iunie. Florile sunt mici si albe, uneori rosii,
 liliachii sau albastre. Aceasta planta creste in padurile din toata emisfera nordica, deci
 si in tara noastra.
 Pentru aplicatii medicinale se culeg frunzele fragede, din care se fac salate sau
@@ -4522,7 +4522,7 @@ Din punct de vedere medicinal, importanta este partea aeriana a maghiranului.
 Substante active importante: cantitati mari din vitaminele A si C, ulei volatil.
 Intrebuintari. Din maghiran se face infuzie. Tratamentul cu acest ceai are efecte
 diuretice, carminative, sedative, antiseptice. Maghiranul regleaza activitatea gastro -
-intestinala, diminueaza colicile stomacale, spore ste aciditatea, calmeaza spasmele
+intestinala, diminueaza colicile stomacale, sporeste aciditatea, calmeaza spasmele
 
 DICTIONARUL PLANTELOR DE LEAC 79
 intestinale, reduce starile de incordare si stres, alunga insomniile si starile de anxietate.
@@ -4548,19 +4548,19 @@ organism este asemanator cu acela al aerisirii generale facute intr-o locuinta. 
 fond, mararul determina si o relaxare a organismului, fiind cunoscut si ca somnifer.
 Mararul face parte din alimentatia sanatoasa, naturista, fiind un participant la
 salate si la alte mancaruri bazate pe cruditati.
-### Margelu sele
+### Margelusele
 Denumire stiintifica: Lithospermum officinale.
 Denumire populara: mei pasaresc.
 Prezentare. Planta aceasta, cunoscuta sub numele de margeluse, este o erbacee
-perena. Apartine familiei boraginaceelor. Are o radacina puternica si groasa. Tul pina
+perena. Apartine familiei boraginaceelor. Are o radacina puternica si groasa. Tulpina
 – care poate ajunge pana la maximum un metru inaltime – este ramificata si acoperita
-de peri. Frunzele sunt lanceolate. Margelu sa infloreste in mai si iunie, florile fiind alb -
+de peri. Frunzele sunt lanceolate. Margelusa infloreste in mai si iunie, florile fiind alb -
 galbui. Poate fi intalnita in flora spontana, in cele mai diverse locuri, in general mai
 putin umblate, prin tufarisuri, in liziere, pe marginea apelor, a drumurilor.
 Pentru uz medicinal se recolteaza planta intreaga si semintele. Se prepara infuzie,
 iar pentru aplicatii contraceptive se pregateste un macerat.
 Substante active importante: acid litospermic, conina.
-Intrebuintari. Preparatele din margelu se actioneaza impotriva febrei, a
+Intrebuintari. Preparatele din margeluse actioneaza impotriva febrei, a
 deranjamentelor stomacale, in litiaze, reumatism, guta. Au si proprietati diuretice.
 Importanta lor consta, insa, in faptul ca inhiba activitatea hormonilor hipofizei,
 provocand, la femei, sterilitate temporara.
@@ -4592,7 +4592,7 @@ muscular si nervos. Marul este utilizat cu succes in caderile organismului ca ur
 a unor afectiuni sau, pur si simplu, in caz de oboseala fizica si intelectuala, anemie,
 demineralizare. La fel de important este marul si in cazul in care organismul este supus
 la eforturi semnificative, cum ar fi sarcina, performanta sportiva, maratonul intelectual.
-Marul este un bun bandaj pentru tractul gastro-intestinal. Ut ilizat si in obezitate,
+Marul este un bun bandaj pentru tractul gastro-intestinal. Utilizat si in obezitate,
 marul este eficient sub forma de cure de mere verzi.
 Marul are efecte dintre cele mai importante in afectiunile cardiovasculare, fiind
 un agent de reducere a colesterolului, influentand, de asemenea, in bine, tensiunea,
@@ -4607,17 +4607,17 @@ insemnate si daca este consumat ca atare, fiind hranitor pentru piele si aparand
 agresivitatea mediului.
 Marul salbatic sau marul paduret (Malus sylvestris) este mai inalt decat marul
 cultivat, fructele sale fiind mici si astringente. Valoarea medicinala a acestor fructe este
-semnificativa, dar in mod obi snuit nu sunt utilizate, preferandu -se folosirea marului
+semnificativa, dar in mod obisnuit nu sunt utilizate, preferandu -se folosirea marului
 paduret doar ca portaltoi pentru marul cultivat.
 ### Marul lupului
 Denumire stiintifica: Aristolochia clematitis.
 Denumire populara: cucurbetica.
 Prezentare. Marul lupului este o erbacee perena. Nu prea inalta (maximum 70
 cm), planta numita marul lupului are frunze aproape ovale, flori galbene si fructe sub
-forma de para. Inflore ste la sfar situl primaverii s i inceputul verii. Cre ste prin locuri
+forma de para. Infloreste la sfarsitul primaverii s i inceputul verii. Creste prin locuri
 parasite, prin parloage, pe marginea drumurilor.
 Marul lupului apartine familiei aristolochiaceelor.
-Pentru uz medicinal se folose ste partea aeriana, mai exact spus frunzele si
+Pentru uz medicinal se foloseste partea aeriana, mai exact spus frunzele si
 varfurile tinere. Uneori se intrebuinteaza si radacina, sau chiar semintele. Se prepara
 infuzie, decoct, tinctura, unguent.
 Marul lupului este o planta toxica.
@@ -4625,10 +4625,10 @@ Substante active importante: substante specifice cum ar fi acizii aristolochici,
 aristolactama, aristolochina, apoi tanin, ulei volatil, alantoina, principii amare, flavone,
 acid citric.
 Intrebuintari. Preparatele din marul lupului sunt antireumatice, antigutoase,
-calmante, diuretice, antiinflamatoare, cicatrizante. Aceste preparate au o ac tiune
+calmante, diuretice, antiinflamatoare, cicatrizante. Aceste preparate au o actiune
 foarte puternica asupra organismului, acidul aristolochic provocand, potrivit prof. univ.
 dr. Gabriel Racz, intoxicatie la nivelul capilarelor.
-Datorita toxicitatii sale, marul lupului se folose ste in mod deosebit in tratamente
+Datorita toxicitatii sale, marul lupului se foloseste in mod deosebit in tratamente
 externe, pentru vindecarea ranilor vechi, rani infectate, ulcere ale pielii. Razboinicii de
 altadata aveau mereu grija sa poarte cu ei preparate de marul lupului, cel mai adesea
 sub forma de unguent. Se pare ca marul lupului are in compozitia sa si un principiu
@@ -4640,7 +4640,7 @@ dezvoltarii si evolutiei celulelor, fiind utilizate in tratamentele cu citostati
 hidrocortizon. Se sustine chiar ca baile cu preparate apoase din marul lupului au efecte
 asupra cancerului din zona rectului.
 Marul lupului este o planta medicinala foarte veche. Datorita multitudinii compusilor
-sai, unii foarte activi, marul lupului trezes te interesul multor herbali sti si specialisti in
+sai, unii foarte activi, marul lupului trezeste interesul multor herbali sti si specialisti in
 tratamente naturiste.
 
 DICTIONARUL PLANTELOR DE LEAC 81
@@ -4683,12 +4683,12 @@ organici, acizi grasi, alcooli, ulei esential, saponine. Maslinele au in continu
 saruri minerale, vitaminele A, B1, B2, C si E, celuloza si, mai ales, ulei. Maslinele au o
 valoare calorica mare – 224 kcal la 100 g masline si 900 kcal la 100 g ulei.
 Intrebuintari. Frunzele maslinului produc dilatarea retelei circulatorii periferice,
-provoaca diureza, reduc febra, regleaza activitatea ficatului, au ef ecte pozitive in
+provoaca diureza, reduc febra, regleaza activitatea ficatului, au efecte pozitive in
 reducerea glicemiei si a colesterolului, in curele de slabire. Preparatele din frunze sunt
 indicate si in hipertensiune, arterioscleroza, litiaza urinara, angina pectorala, diabet,
 abcese cutanate. Indicatii si efecte asemanatoare au si maslinele.
 Uleiul de masline este indicat in bolile ficatului, inclusiv pentru eliminarea calculilor
-biliari. Se foloses te si ca pansament gastric si intestinal, fiind si u sor laxativ. Este
+biliari. Se foloseste si ca pansament gastric si intestinal, fiind si u sor laxativ. Este
 celebra practica prin care, in fiecare dimineata, se bea cate o lingura de ulei de masline.
 Uleiul de masline este folosit si pentru tratarea arsurilor, amestecat cu albus de ou. Se
 utilizeaza cu bune rezultate si in combaterea ulcerelor gastroduodenale, a blocajelor
@@ -4711,17 +4711,17 @@ cafeic.
 Intrebuintari. Preparatele de mataciune actioneaza, in principal, pentru reglarea
 activitatii in tractul gastro -intestinal, potolind durerile abdominale. Contribuie, de
 asemenea, la buna functionare a bilei si echilibreaza activitatea ficatului. Cu preparatele
-de mataciune s-au obtinut rezultate pozitive si in tratarea spasmelor mu schilor netezi
-si chiar ale organelor interne. Preparatele de mataciune se manifesta si ca a gent
+de mataciune s-au obtinut rezultate pozitive si in tratarea spasmelor muschilor netezi
+si chiar ale organelor interne. Preparatele de mataciune se manifesta si ca agent
 antiseptic.
 ### Matraguna
 Denumire stiintifica: Atropa belladona.
 Denumiri populare: cireasa lupului, doamna codrului, doamna mare, beladona.
 Prezentare. Matraguna este o erbacee puternica, inalta de 1,5 metri, perena.
 Apartine familiei solanaceelor. Radacinile sunt ramificate si bine ancorate in sol. Partea
-aeriana a matragunei este o tufa impresionanta. Matraguna inflore ste in lunile iulie
+aeriana a matragunei este o tufa impresionanta. Matraguna infloreste in lunile iulie
 si august. Florile sunt brune, violete, ro scate, iar in interior sunt galbui. Fructele sunt
-modeste, ni ste bobite sferice, negre. Matraguna cre ste in flora spontana de pe tot
+modeste, niste bobite sferice, negre. Matraguna creste in flora spontana de pe tot
 cuprinsul tarii – la marginea padurilor, in luminisuri, in tufarisuri, in zone cu arbusti.
 Matraguna poate fi intalnita si sub forma cultivata, preparatele si extractele din
 aceasta planta fiind intrebuintate nu numai in terapii traditionale sau in medicina, ci si
@@ -4730,10 +4730,10 @@ Substante active importante: atropina, scopolamina, beladonina – care sunt
 niste alcaloizi. De fapt, in totalitatea ei, aceasta planta contine, in cantitate mare,
 alcaloizi, care sunt puternic toxici, foarte otravitori.
 Intrebuintari. Matraguna este o planta medicinala importanta, avand actiune
-antispastica, antiasmatica, vasodilatanta. Se folose ste in tratamente privind buna
+antispastica, antiasmatica, vasodilatanta. Se foloseste in tratamente privind buna
 functionare a cailor biliare si urinare, astmul brons ic, ulcerul gastric si duodenal,
 boala lui Parkinson. Este utilizata si in tratarea bolilor cardio- vasculare, precum si in
-oftalmologie. Toate extractele din aceasta planta actioneaza in mod radical asup ra
+oftalmologie. Toate extractele din aceasta planta actioneaza in mod radical asupra
 sistemului nervos.
 Utilizarea matragunei, a extractelor sau a oricarui preparat pe baza de matraguna
 poate fi mortala fara indrumarea medicului. De aceea, matraguna nu se va utiliza decat
@@ -4742,12 +4742,12 @@ de maxima securitate.
 ### Meiul
 Denumire stiintifica: Millium effusum; Letaria italica; Panicum miliaceum.
 Prezentare. Apartinand familiei gramineelor meiul este o planta erbacee
-cultivata. Mult timp, meiul a facut parte din hrana oamenilo r, astazi fiind cultivat mai
+cultivata. Mult timp, meiul a facut parte din hrana oamenilor, astazi fiind cultivat mai
 mult pentru furaj. Ajunge pana la 1,5 metri inaltime. Are frunze liniare, late, aspre pe
 partea inferioara. Boabele au forma rotunda, rareori ovala si sunt mici.
 Boabele de mei au si valoare medicinala.
 Substante active importa nte: cantitati semnificative de fosfor si magneziu,
-vitamjna A, acid salicilic, lipide, protide, aminoacizi.
+vitamina A, acid salicilic, lipide, protide, aminoacizi.
 Intrebuintari. Datorita valorii sale nutritive, meiul este recomandat astenicilor
 si celor aflati in convalescenta. Este un bun agent de sustinere si refacere in caz
 de oboseala intelectuala. Alimentele pe baza de mei sunt recomandate si femeilor
@@ -4781,7 +4781,7 @@ Coaja sa este alba, neteda si se poate desprinde sub forma de fasii circulare. F
 lucioase si subtiri, sunt romboidale sau triunghiulare. Florile de mesteacan au forma
 de amenti (matisori asemanatori cu cei de nuc). Mesteacanul infloreste in lunile aprilie
 si mai.
-In Romania, acest arbore cre ste pe o arie cuprinzatoare, pornind de la campie
+In Romania, acest arbore creste pe o arie cuprinzatoare, pornind de la campie
 si ajungand pana in zona subalpina. In Rusia, Belarus si Finlanda, mesteacanul
 formeaza paduri uriase.
 Importanta medicinala au, in cazul mesteacanului, mugurii, seva, coaja si, mai
@@ -4794,7 +4794,7 @@ frunzele). Compusii specifici sunt betulina, betulalbina, acidul betulalbinic.
 Intrebuintari. Aria de utilizari medicinale a mesteacanului este foarte larga. Una
 dintre cele mai eficiente utilizari ale infuziei de frunze de mesteacan este in tratarea
 hipercolesterolemiei, adica un astfel de preparat elimina colesterolul. De asemenea,
-infuzia de frunze de mesteacan se foloses te in tratarea reumatismului articular, a
+infuzia de frunze de mesteacan se foloseste in tratarea reumatismului articular, a
 edemelor cardiace sau renale, a nefritei cronice si a gutei. De remarcat si actiunea
 benefica a infuziei de mesteacan in bolile de inima, in tratarea hipertensiunii arteriale.
 Totodata, cunoscatorii sustin ca tratamentul cu mesteacan (in acest caz e vorba
@@ -4802,8 +4802,8 @@ despre coaja de mesteacan, folosita ca decoct) ajuta ca depurativ, ducand la inn
 organismului, curatind mai ales sistemul circulator si chiar sangele.
 Seva de mesteacan este indicata in tratamentul artrozelor, in eliminarea pietrelor
 de la rinichi, a acidului uric si ureei, fiind un diuretic puternic.
-Mugurii de mesteacan – care se culeg in fe bruarie – sunt recomandati, sub
-forma de decoct, in dizolvarea calculilor renali. Decoctul de muguri se folose ste si
+Mugurii de mesteacan – care se culeg in februarie – sunt recomandati, sub
+forma de decoct, in dizolvarea calculilor renali. Decoctul de muguri se foloseste si
 in tratamentul reumatismului si al gutei. Gudronul, obtinut prin distilarea scoartei de
 mesteacan si a lemnului de mesteacan, este un remediu in bolile de piele.
 Mesteacanul intra si in compozitia unor ceaiuri medicinale complexe.
@@ -4831,9 +4831,9 @@ manastiri, pentru linistirea calugarilor.
 In general, mielareaua a fost si este utilizata de femei, preparatele din aceasta
 planta contribuind la buna conditie fizica si psihica a femeii (nu neaparat din punct de
 vedere sexual, si nu neaparat cu scop d e sporire a apetitului sexual). De exemplu,
-mielareaua se folose ste, cu succes, in cazul in care apar stari proaste si suferinte
+mielareaua se foloseste, cu succes, in cazul in care apar stari proaste si suferinte
 inaintea menstruatiei sau in timpul menopauzei. Mielareaua are capacitatea de a
-regla nivelul hormonilor feminini din sange, no rmalizand si stimuland si activitatea
+regla nivelul hormonilor feminini din sange, normalizand si stimuland si activitatea
 glandei pituitare. Altfel, dereglarea hormonala poate duce la un sir intreg de disfunctii,
 afectiuni, simptoame, inclusiv in plan psihic. Mielareaua regleaza ciclurile menstruale,
 reface echilibrele hormonale, practic aduce la normal tabloul femeii aflate in suferinta,
@@ -4845,21 +4845,21 @@ Denumire populara: cuscrisor, plamanarica.
 Prezentare. Mierea ursului este o erbacee perena, din familia boranginaceelor.
 Tulpina este dreapta si suculenta. Frunzele au diferite dimensiuni si au pe ele perisori si
 picatele albe. Din acest motiv, plantei de mierea ursului i se mai spune si plamanarica.
-Florile sunt ro sii, iar in ultima faza de dezvoltare, dupa polenizare, devin albastre.
+Florile sunt rosii, iar in ultima faza de dezvoltare, dupa polenizare, devin albastre.
 Planta creste in flora spontana – la marginea padurilor, pe fanete si pajisti, in luminisuri,
 pe marginea drumurilor.
 Pentru uz medicinal se recolteaza partea aeriana a plantei. Aceasta se culege
 in momentul cand planta este inflorita in totalitate sau aproape in totalitate. Cele mai
-active din punct de vedere medicinal sunt frunzele si, de aceea, in mod obi snuit se
+active din punct de vedere medicinal sunt frunzele si, de aceea, in mod obisnuit se
 renunta la celelalte parti ale plantei si se pastreaza doar frunzele.
 Substante active importante: acid salicic, calciu, potasiu, magneziu, saponine,
 alantoina, vitamina C.
 Intrebuintari. Pentru aplicatii cu mierea ursului se foloseste infuzia.
 Acest preparat are efect depurativ, fiind folosit cu succes in tratamentele de
 detoxificare. Este, de asemenea, analgetic, antidiareic, cicatrizant. Actioneaza si
-asupra cailor respiratorii, fiind utilizat in tratarea astmului, a bron sitelor, laringitelor si
+asupra cailor respiratorii, fiind utilizat in tratarea astmului, a bronsitelor, laringitelor si
 chiar a unor boli de plamani.
-Uneori, este recoman data folosirea plantei sub forma de decoct. Acesta este
+Uneori, este recomandata folosirea plantei sub forma de decoct. Acesta este
 indicat si in anemii, fiind revigorant si remineralizant, cat si in afectiuni renale, ulcer
 gastric si duodenal, reumatism.
 ### Migdalul
@@ -4878,7 +4878,7 @@ Intrebuintari. Preparatele din frunze, flori sau coji de migdal se folosesc in
 insuficiente hepatice si in caz de tuse, chiar tuse convulsiva. Aceste preparate, precum
 si cele obtinute din samburii de migdal, au proprietati diuretice, emoliente, calmante,
 vermifuge, febrifuge.
-Cea mai semnificativa valoa re terapeutica o au migdalele amare, care nu pot fi
+Cea mai semnificativa valoare terapeutica o au migdalele amare, care nu pot fi
 consumate de oameni. Bune pentru consum uman sunt, insa, migdalele dulci. Migdalele
 si semintele lor sunt atat de folositoare pentru om, incat vechii evrei considerau acest
 arbore, cu tot cu fructele sale , ca pe un dar al lui Dumnezeu. Fructe foarte nutritive,
@@ -4917,17 +4917,17 @@ Denumire stiintifica: Fraxinus ornus.
 Denumiri populare: frasin de munte, frasin negru.
 Prezentare. Mojdreanul este un arbore din familia oleaceelor, avand dimensiuni
 relativ reduse – poate ajunge la 10 metri inaltime. Frunzele mojdreanului sunt compuse,
-iar florile, albe si mirositoare, formeaza ni ste panicule. Mojdreanul inflores te in lunile
-aprilie s i mai. Cre ste in sudul Romaniei, fiind o specie caracteristica pentru sudul
+iar florile, albe si mirositoare, formeaza niste panicule. Mojdreanul infloreste in lunile
+aprilie s i mai. Creste in sudul Romaniei, fiind o specie caracteristica pentru sudul
 Europei.
-Surprinzator, pentru terapii medicinale nu se recolteaza nici fr unzele, nici florile,
+Surprinzator, pentru terapii medicinale nu se recolteaza nici frunzele, nici florile,
 si nici coaja. Valoare medicinala are sucul, care se obtine conform aceluiasi procedeu
 prin care se recolteaza latexul din arborii de cauciuc – se cresteaza scoarta copacilor
 tineri. Sucul astfel obtinut are valoare de medicament. Pentru a fi conservat, se usuca
 in conditii naturale, fiind cunoscut sub numele de manna.
 Substante active importante: manita, polizaharide, rezina, rasina, cumarina.
 Intrebuintari. Sucul de mojdrean este folosit pentru combaterea constipatiilor,
-chiar si la copii, dovedindu -se un purgativ u sor de administrat si de suportat. Unii
+chiar si la copii, dovedindu -se un purgativu sor de administrat si de suportat. Unii
 specialisti sunt de parere ca si scoarta acestui copac ar avea valori medicinale datorita
 fraxinei, o glicozida cu proprietati diuretice ce stimuleaza eliminarea acidului uric. Se
 atribuie calitati medicinale si frunzelor de mojdrean, utilizate in guta, reumatism, dar
@@ -4955,7 +4955,7 @@ cicatrizant gastric, antianemic, diuretic, depurativ si laxativ. Dar aceste prop
 nu sunt nicidecum singurele, preparatele din morcov fiind si bactericide, vermifuge,
 stimulatoare hepatice si renale, analgezice, hemostatice. Este cunoscuta importanta
 morcovului pentru intarirea vederii, pentru marirea acuitatii vizuale si, in general,
-pentru insanatos irea ochiului. Bron sitele cronice si astmul pot fi combatute si prin
+pentru insanatosirea ochiului. Bronsitele cronice si astmul pot fi combatute si prin
 consumul sustinut de morcov. Au fost puse in evidenta si capacitatile de vasodilatator
 ale morcovului, precum si efectele pozitive in diabet.
 Morcovul este si un detoxifiant activ, prevenind chiar si imbatranirea prematura,
@@ -4965,7 +4965,7 @@ este cunoscuta si capacitatea morcovului de a limita efectele icterului.
 Cat despre utilizarile sale externe, morcovul actioneaza pentru vindecarea ranilor,
 a ulceratiilor, eczemelor, arsurilor, degeraturilor, a petelor de pe piele. Cu preparatele
 pe baza de morcov s-au obtinut rezultate bune si in tratarea cancerului de san.
-Morcovul ajuta si la dezvoltarea globulelor ro sii, a hemoglobinei. Are, totodata,
+Morcovul ajuta si la dezvoltarea globulelor rosii, a hemoglobinei. Are, totodata,
 efecte vitaminizate si remineralizante, fortificand organismul in lupta cu infectiile. Mai
 rar folosite, semintele de morcov contin ulei volatil, avand efecte de reechilibrare a
 sistemului digestiv.
@@ -4979,7 +4979,7 @@ Prezentare. Morcovul salbatic este o planta cu dezvoltare anuala, remarcandu -
 se prin radacina sa pivotanta, suculenta, de culoare galbena. Uneori, aceasta specie
 de morcov are o dezvoltare perena. Tulpina – cu o inaltime de pana la 80 cm – este
 rezistenta, ramificata si acoperita de perisori. Ramificatiile apar in partea superioara a
-tulpinii. Frunzele au un contur triunghiular sau ovoid. Morcovul salbatic inflore ste din
+tulpinii. Frunzele au un contur triunghiular sau ovoid. Morcovul salbatic infloreste din
 iunie si pana in septembrie. Inflorescenta este sub forma de umbela. Acest morcov
 creste in toate zonele tarii noastre. Face parte din familia umbeliferelor.
 Pentru uz medicinal se recolteaza radacina si semintele, uneori florile si
@@ -5020,13 +5020,13 @@ Intrebuintari. Preparatele de mosmon au actiune astringenta pronuntata, fiind in
 acelasi timp diuretice si revitalizante. Din acest motiv, cu preparatele de mosmon se
 pot trata chiar si diareile si enteritele rebele, deranjamentele stomacale si intestinale
 majore, refacandu-se, in acelasi timp, mucoasa intestinala. In mod curent, preparatele
-de mo smon sunt folosite in facilitarea digestiei, in boli articulare (reumatisme), in
+de mosmon sunt folosite in facilitarea digestiei, in boli articulare (reumatisme), in
 afectiuni ale rinichilor (litiaze).
 ### Murul
 Denumire stiintifica: Rubus fructicosus.
 Denumiri populare: rug de mure, mur salbatic, mure.
 Prezentare. Murul apartine familiei rozaceelor. Este un arbust cu tulpina lunga,
-subtire si spinoasa, agatatoare, dar de cele mai multe ori taratoare. Se intalne ste in
+subtire si spinoasa, agatatoare, dar de cele mai multe ori taratoare. Se intalneste in
 flora spontana, dar se si cultiva pentru fructele sale comestibile, de culoare neagra.
 Frunzele sunt palmat-compuse. Murul infloreste toata vara. Florile sunt albe sau roz.
 Pentru uz medicinal se culeg frunzele, din care se face infuzie. Proprietati
@@ -5047,15 +5047,15 @@ Denumiri populare: muschiul de piatra, muschi cret.
 Prezentare. Muschiul de munte este un lichen al carui tal seamana cu o tufa de
 mici dimensiuni. Lobii sunt mari si au cili. Fata superioara a talului este lucioasa si
 are culori diferite, legate de perioada din an in care se afla, precum si de locul in care
-se dezvolta planta. Astfel, mu schiul poate fi brun, verde-brun, cenu siu-brun, verde-
+se dezvolta planta. Astfel, muschiul poate fi brun, verde-brun, cenu siu-brun, verde-
 cenusiu sau chiar brun spre negru. Fata inferioara este mai deschisa la culoare, uneori
 cu pete albicioase. In zona de prindere, muschiul are o culoare rosietica. Acest muschi
 creste in zonele subalpine si alpine, pe stanci.
 Preparat medicinal: se recolteaza toata planta si se marunteste.
 Substante active importante: lichenina, acid cetraric, zaharuri.
-Intrebuintari. Infuzia de mu schi de munte este indicata in afectiuni ale
+Intrebuintari. Infuzia de muschi de munte este indicata in afectiuni ale
 pancreasului, in boli de piept, in anorexie (lipsa de pofta de mancare). Preparatul din
-acest mu schi are proprietati tonice, analeptice (actioneaza asupra centrilor nervo si
+acest muschi are proprietati tonice, analeptice (actioneaza asupra centrilor nervosi
 respiratorii s i circulatori), emoliente si calmante (pentru aparatul respirator si cel
 digestiv), antibiotice.
 Muschiul de munte este considerat un aliment, fiind utilizat in zonele nordice ale
@@ -5067,8 +5067,8 @@ substanta specifica – lichenina – fiind un polizaharid.
 Denumire stiintifica: Matricaria chamommilla.
 Denumiri populare: romanita, moruna.
 Prezentare. Musetelul apartine familiei compozitelor. Creste, in mod obisnuit, in
-flora spontana de pe tot cuprinsul Romaniei. Totu si, data fiind importanta sa pentru
-industria alimentara si farmaceutica, mu setelul a devenit planta de cultura. Poate
+flora spontana de pe tot cuprinsul Romaniei. Totusi, data fiind importanta sa pentru
+industria alimentara si farmaceutica, musetelul a devenit planta de cultura. Poate
 creste pana la inaltimea de 40 cm, dar sub forma cultivata ajunge si pana la 80 cm.
 Musetelul este o planta anuala, cu o tulpina ramificata si flori galben -aurii, cu petale
 albe. Musetelul infloreste pe toata durata verii. Fructul este o achena.
@@ -5078,30 +5078,30 @@ careia acestei plante ar trebui sa i se spuna nu musetel, ci „Buna ziua, docto
 Substante active importante: ulei volatil, azulena, camazulena, matricina, acizi
 (printre care si acidul clorogenic), rezine si multe alte substante cu efecte dintre cele
 mai benefice asupra organismului omenesc.
-Intrebuintari. Ca planta medicinala, mu setelul are sase calitati principale. Este
+Intrebuintari. Ca planta medicinala, musetelul are sase calitati principale. Este
 antispastic, antiseptic, bacteriostatic, antiinflamator, dezinfectant si anestezic. Totodata,
-preparatele pe baza de mus etel au si calitati de tonic capilar, fiind, de asemenea,
+preparatele pe baza de musetel au si calitati de tonic capilar, fiind, de asemenea,
 emoliente, carminative, cicatrizante, sudorifice.
 Infuzia de musetel este utilizata in multe afectiuni, dar cu precadere in gastrite,
 enterocolite, colite, deci in afectiuni ale stomacului sau intestinelor, precum si ale
-ficatului, rinichiului si bilei. In mod curent, infuzia de mu setel da rezultate bune in
+ficatului, rinichiului si bilei. In mod curent, infuzia de musetel da rezultate bune in
 tratamentul diareei, colicilor, balonarilor, bolilor de ficat, de rinichi, astmului bron sic
 la copii, starilor gripale, racelilor, dismenoreei, conjunctivitei, abceselor dentare,
 stomatitelor, laringitelor, amigdalitelor, dermatozelor inflamatorii, inflamatiilor
 hemoroidale, inflamatiilor vaginale, pruritului vulvar.
-Musetelul se folose ste mai ales sub forma de infuzie, pentru uz intern, dar se
+Musetelul se foloseste mai ales sub forma de infuzie, pentru uz intern, dar se
 foloseste si extern (aplicatii locale) in stomatite, afte, ulceratii, eczeme, hemoroizi, rani
 vechi, arsuri. Tot pentru uz extern se mai folosesc tinctura si uleiul de musetel.
 In combinatie cu menta, musetelul rezolva in mod decisiv crampele stomacale.
-Foarte numeroase sunt aplicatiile mus etelului in tratamente cosmetice, cele mai
+Foarte numeroase sunt aplicatiile musetelului in tratamente cosmetice, cele mai
 la indemana dintre acestea fiind baile in infuzie de musetel.
 ### Musetelul roman
 Denumire stiintifica: Anthemis nobilis; Chamaemelum nobile.
 Denumiri populare: romanitoi, romanita mare, romanita nobila.
 Prezentare. Musetelul roman este o erbacee originara din zona mediteraneana.
 Datorita calitatilor sale medicinale a devenit planta de cultura. Face parte din familia
-compozitelor. Mu setelul roman cre ste sub forma de tufe, ajungand pana la 50 cm
-inaltime. Florile sale sunt mult mai mari decat cele ale mu setelului obisnuit, capitulele
+compozitelor. Musetelul roman creste sub forma de tufe, ajungand pana la 50 cm
+inaltime. Florile sale sunt mult mai mari decat cele alemu setelului obisnuit, capitulele
 avand pana la trei centimetri in diametru. Aceste flori, asemanatoare cu acelea ale
 musetelului comun, apar in lunile iunie si iulie. Intreaga planta prezinta un miros placut,
 specific.
@@ -5110,13 +5110,13 @@ infuzie, decoct, extracte, cataplasme.
 Substante active importante: ulei esential, azulene, substante amare, colina,
 flavone, cumarina. Uleiul esential are o mare importanta – nu numai medicinala,
 farmaceutica, ci si in cosmetica.
-Intrebuintari. Preparatele de mu setel roman au proprietati antiinfectioase,
+Intrebuintari. Preparatele de musetel roman au proprietati antiinfectioase,
 antispastice, sedative, analgezice, antiparazitare, antimicrobiene. Sunt utilizate in
 tratamente gastrice si intestinale (spasme, enterite, enterocolite), in gripa, afectiuni
-cutanate, stres si urmarile acestuia in plan nervos si vegetativ. Mu setelul roman are
+cutanate, stres si urmarile acestuia in plan nervos si vegetativ. Musetelul roman are
 efecte si in combaterea viermilor intestinali, a varicelor si hemoroizilor, in gingivite
-si alte afectiuni buco -dentare, in amigdalite. Mu setelul se remarca si prin faptul ca
-detoxifica ficatul si stimuleaza activitatea acestuia. Nu trebuie uitate baile cu mu setel,
+si alte afectiuni buco -dentare, in amigdalite. Musetelul se remarca si prin faptul ca
+detoxifica ficatul si stimuleaza activitatea acestuia. Nu trebuie uitate baile cu musetel,
 care asigura sanatate si curatenie pielii, regenerand-o si tonifiind-o.
 Desi este realmente valoros, acestui musetel i se acorda o importanta redusa in
 practicile naturiste de la noi, fiind numit, uneori, musetel prost.
@@ -5126,9 +5126,9 @@ DICTIONARUL PLANTELOR DE LEAC 89
 Denumire stiintifica: Sinapis alba.
 Denumiri populare: mustar de gradina, rapita alba, rapita de gradina.
 Prezentare. Mustarul alb este o erbacee anuala ce apartine de familia cruciferelor.
-Se intalneste in culturi, unde poate ajunge la inaltimea de un metru. Mu starul alb are
+Se intalneste in culturi, unde poate ajunge la inaltimea de un metru. Mustarul alb are
 tulpinile ramificate, florile sale fiind galbene. Semintele sunt alb-galbui si au intrebuintari
-in industria alimentara (condiment). Semintele de mu star alb sunt folosite, cu succes,
+in industria alimentara (condiment). Semintele de mustar alb sunt folosite, cu succes,
 si in aplicatii medicinale, mustarul fiind un remediu din medicina traditionala.
 Substante active importante. Mustarul alb contine, printre altele, cateva
 substante specifice: sinalbina, mirozina, mirozinatul de potasiu.
@@ -5140,7 +5140,7 @@ pofta de mancare.
 In legatura cu principala utilizare medicinala – combaterea constipatiei – reteta e
 simpla: seara, inainte de culcare, se inghit seminte intregi, pe o durata de 7 – 8 zile. Se
 incepe cu o lingurita de seminte si, in functie de necesitati, se ajunge pana la o lingura
-pe seara. Pentru a putea fi inghitite, semintele de mu star se iau cu putina apa sau
+pe seara. Pentru a putea fi inghitite, semintele de mustar se iau cu putina apa sau
 cu putin lapte. Apoi, aplicatia este intrerupta printr -o pauza de o saptamana, cel mult
 doua, dupa care, numai in caz de nevoie, cura se reia.
 ### Mustarul negru
@@ -5170,14 +5170,14 @@ articulare, a reumatismului.
 ### Mutatoarea
 Denumire stiintifica: Bryonia alba; Bryonia dioica.
 Denumiri populare: mutatoare cu poame rosii, mutatoare cu poame negre; mai
-poate fi intalnita si sub numele de imparateasa; mutatoarea cu poame ro sii se mai
+poate fi intalnita si sub numele de imparateasa; mutatoarea cu poame rosii se mai
 numeste si cireasa cainelui.
 Prezentare. Mutatoarea este o planta perena, agatatoare, foarte vitala. Poate
 fi intalnita in flora spontana – prin tufisuri, prin alte vegetatii sau amenajari lemnoase
 de mica inaltime. Face parte din familia cucurbitaceelor. Radacina este pivotanta.
 Tulpinile, in lungime de trei -patru metri, se agata cu ajutorul carceilor. Frunzele sunt
-palmat-lobate. F lorile de mutatoare, mascule si femele, sunt dispuse in forma de
-ciorchine, culoarea lor fiind alba sau galben- verzuie. Mutatoarea inflore ste din iunie
+palmat-lobate. Florile de mutatoare, mascule si femele, sunt dispuse in forma de
+ciorchine, culoarea lor fiind alba sau galben- verzuie. Mutatoarea infloreste din iunie
 si pana in august.
 Pentru aplicatii medicinale se recolteaza radacinile, inainte sau dupa perioada
 
@@ -5197,7 +5197,7 @@ maniera radicala. Efecte notabile are si in bolile reumatismale.
 Pentru uz intern, preparatele din aceasta planta sunt indicate in hipertensiune,
 congestii, raceli, pneumonie, dispepsii, dizenterie, tuse convulsiva, parazitoze
 intestinale. Aceste preparate au si calitati emetice (provoaca greturi, varsaturi).
-In aplicatii externe se folose ste radacina data prin razatoare, cunoscuta si sub
+In aplicatii externe se foloseste radacina data prin razatoare, cunoscuta si sub
 numele de untul pamantului. Un tratament asemanator se poate face si cu maceratul
 de mutatoare, un produs obtinut prin pastrarea radacinii acestei plante in alcool.
 In aplicatii externe, mutatoarea actioneaza impotriva micozelor cutanate, ulcerelor
@@ -5213,7 +5213,7 @@ Prezentare. Mutulica este o erbacee de talie medie, inaltimea ei ajungand pana l
 gros si consistent si, mai ales, bogat in alcaloizi. Tulpina de mutulica este dreapta,
 ramificandu-se in partea superioara. Frunzele au forma oval -alungita, iar florile sunt
 de culoare galben-verzuie, violacee sau roscata. Aceste flori apar primavara, in lunile
-aprilie si mai. Planta cre ste in flora spontana, in paduri, in tufari suri, pe locurile unde
+aprilie si mai. Planta creste in flora spontana, in paduri, in tufari suri, pe locurile unde
 au fost paduri, in general in locuri umbroase si umede.
 Pentru uz medicinal se recolteaza rizomul, radacinile si chiar frunzele. Mutulica
 este o planta toxica.
@@ -5232,13 +5232,13 @@ scopolamina.
 Denumirea stiintifica: Althaea officinalis.
 Denumiri populare: ruja, nalba buna.
 Prezentare. Nalba mare este o planta perena, erbacee. Face parte din familia
-malvaceelor. Se gases te in flora spontana, dar se si cultiva ca planta decorativa si
+malvaceelor. Se gaseste in flora spontana, dar se si cultiva ca planta decorativa si
 pentru nevoi medicinale. Radacina este rotunda si cenusie, iar tulpina ajunge pana
-la o inaltime de 1,5 metri. Si tulpina si frunzele sunt paroase. Nalba mare inflore ste
+la o inaltime de 1,5 metri. Si tulpina si frunzele sunt paroase. Nalba mare infloreste
 
 DICTIONARUL PLANTELOR DE LEAC 91
 in perioada iulie -septembrie. Florile apar la subsuoara frunzelor din partea de sus a
-plantei si au culoarea, de obicei, alb -roza, uneori alba. Nalba mare cre ste pe terenuri
+plantei si au culoarea, de obicei, alb -roza, uneori alba. Nalba mare creste pe terenuri
 nisipoase, saraturoase, pe marginea apelor curgatoare.
 Pentru uz medicinal se recolteaza radacina, in primul rand, dar si florile si
 frunzele.
@@ -5252,8 +5252,8 @@ decoct, infuzie, dar se si macereaza. Preparatele pe baza de nalba mare impulsio
 activitatea plamanilor, determina expectoratia, au influenta antiinflamatoare asupra
 aparatului respirator, asupra rinichilor si a tractului gastro-intestinal.
 Infuzia de radacina se utilizeaza intern si extern. In utilizari interne se trateaza
-infectiile cailor respiratorii (brons ite si laringite acute), precum si infectiile renale – in
-general infectiile. Extern se folose ste ca emolient (refacerea, reconditionarea tenului
+infectiile cailor respiratorii (bronsite si laringite acute), precum si infectiile renale – in
+general infectiile. Extern se foloseste ca emolient (refacerea, reconditionarea tenului
 uscat), dar si pentru gargara (in afectiuni ale taringelui) sau pentru spalaturi vaginale.
 In cazul unor afectiuni dermatologice, sau al unor infectii la nivelul pielii, se folosesc si
 cataplasme de frunze si flori de nalba.
@@ -5262,12 +5262,12 @@ tratamentele pentru combaterea tenului uscat si a ridurilor.
 ### Nalba neagra
 Denumire stiintifica: Althaea rosea, var. nigra.
 Denumire populara: nalba de gradina.
-Prezentare. Nalba neagra este o planta ornamentala, intalnita in mod obi snuit
+Prezentare. Nalba neagra este o planta ornamentala, intalnita in mod obisnuit
 prin gradini. Apartine familiei malvaceelor, fiind una dintre cele mai mari specii de
 nalba. Tulpina ajunge, la maturitate, pana la inaltimea de trei metri, fiind dreapta,
 neramificata, paroasa. Florile sunt, de asemenea, de mari dimensiuni, inflorescenta
 avand un diametru cuprins intre sase si 10 cm. Culoarea acestor flori se intinde pe
-un spectru larg, de la ro su purpuriu la negru- violet. Naiba neagra i nfloreste o lunga
+un spectru larg, de la ro su purpuriu la negru- violet. Naiba neagra infloreste o lunga
 perioada de timp, cinci luni pe an, din iunie si pana in octombrie.
 Pentru uz medicinal se recolteaza petalele florilor si chiar inflorescenta cu totul.
 Uneori este utilizata si samanta de nalba neagra. Cel mai adesea se prepara o infuzie
@@ -5275,7 +5275,7 @@ sau un decoct, dar se prepara si cataplasme.
 Substante active importante: mirtilina, pigmenti antocianici, mucilagii.
 Intrebuintari. Preparatele din nalba neagra au proprietati descongestionante,
 laxative, diuretice, antiinflamatoare. Au, de asemenea, efecte dintre cele mai favorabile
-in tratarea bron sitelor, a durerilor de piept. Sunt demne de luat in seama si efectele
+in tratarea bronsitelor, a durerilor de piept. Sunt demne de luat in seama si efectele
 detoxifiante ale nalbei negre, regland activitatea rinichiului si pe cea din tractului
 gastro-intestinal. Din acest motiv, nalba neagra este folosita si in industria alimentara,
 colorantii sai neavand efecte toxice. Un produs important obtinut din nalba neagra este
@@ -5287,7 +5287,7 @@ Prezentare. Napul este o planta erbacee bienala, apartinand de familia
 cruciferelor. Poate ajunge pana la inaltimea de un metru. Cea mai importanta parte
 de plantei este radacina, de forma aproape sferica, neteda. Frunzele sunt ascutite,
 lanceolate, iar florile au culoare galbena.
-Pentru nevoi medicinale se folose ste nu numai radacina, valoroase fiind, de
+Pentru nevoi medicinale se foloseste nu numai radacina, valoroase fiind, de
 asemenea, frunzele si semintele. Semintele contin un ulei comestibil. Din radacina de
 nap se extrage un suc, iar din frunze se prepara infuzie sau decoct.
 Substante active importante: vitaminele C, PP, B1, B2, saruri minerale, proteine,
@@ -5306,7 +5306,7 @@ alimentatia convalescentilor si a anemicilor.
 ### Napraznicul
 Denumire stiintifica: Geranium robertianum.
 Prezentare. Napraznicul este o erbacee de mici dimensiuni (poate ajunge pana
-la 40 cm inaltime). Cres te in flora spontana si face parte din familia geraniaceelor.
+la 40 cm inaltime). Creste in flora spontana si face parte din familia geraniaceelor.
 Tulpina este dreapta si paroasa, iar frunzele sunt palmate si au petiolul lung. Florile
 sunt de culoare roz-rosietica, dar uneori pot fi si roz sau chiar rosii. Planta are un miros
 specific.
@@ -5325,7 +5325,7 @@ Denumire stiintifica: Nasturtium officinale.
 Denumire populara: cardama.
 Prezentare. Nasturelul este o erbacee din familia cruciferelor, remarcandu- se
 prin tulpina sa taratoare, ramificata. Frunzele sunt alterne, iar florile mici si adunate
-intr-o inflorescenta de culoare alba. Nasturelul cre ste in apele curgatoare. Datorita
+intr-o inflorescenta de culoare alba. Nasturelul creste in apele curgatoare. Datorita
 importantei sale, s-a trecut si la cultivarea acestei plante.
 Pentru terapii se foloseste intreaga planta, cruda, din care se prepara un suc sau
 se face salata. Nasturelul se consuma mai ales in luna mai, cand planta este frageda
@@ -5333,7 +5333,7 @@ in intregul ei.
 Substante active importante: un complex de vitamine (A, C, B2, PP), saruri
 minerale, printre care cea de iod.
 Intrebuintari. Nasturelul este un diuretic foarte activ. Are asupra organismului
-actiune tonica, fortifianta, depurativa. In mod obi snuit, nasturelul este un regularizator
+actiune tonica, fortifianta, depurativa. In mod obisnuit, nasturelul este un regularizator
 al proceselor metabolice. Un pahar de suc de nasturel, amestecat cu miere, poate fi
 considerat un adevarat flacon cu vitamine si saruri esentiale. Nasturelul poate fi utilizat
 in fortificarea organismului aflat in momente dificile – datorita unor afectiuni – sau in
@@ -5401,7 +5401,7 @@ Denumire stiintifica: Juglans reggia.
 Prezentare. Nucul este un arbore impunator, inaltimea sa ajungand frecvent
 pana la 30 de metri. Apartine familiei juglandaceelor. Scoarta nucului este neteda, cu
 o placuta culoare cenusiu-argintie. Frunzele sunt penat-compuse, iar florile se prezinta
-sub forma de amenti (matisori). Nucul inflore ste in luna mai. Fructele sunt o drupa
+sub forma de amenti (matisori). Nucul infloreste in luna mai. Fructele sunt o drupa
 sferica (binecunoscutele nuci). Nucul este un arbore cultivat, dar poate fi intalnit si in
 amestec, in padurile de foioase.
 Frunzele nucului, inveli sul verde al nucilor si amentii (mati sorii) au valoare
@@ -5416,7 +5416,7 @@ hidrojuglona.
 Intrebuintari. Preparatele din frunze sau coji de nuc au efecte dezinfectante,
 
 94 DICTIONARUL PLANTELOR DE LEAC
-astringente, hipoglicemiante (mic soreaza cantitatea de glucoza din sange),
+astringente, hipoglicemiante (micsoreaza cantitatea de glucoza din sange),
 antiinflamatoare, precum si efecte us or hipotensive si antialergice. Aceste preparate
 sunt, de asemenea, un agent antidiareic si se utilizeaza si ca antiseptic intestinal. Prin
 urmare, preparatele de frunze si coji de nuc imbunatatesc functionarea tractului gastro-
@@ -5458,10 +5458,10 @@ planta fiind folosita, in vechime, ca talisman in calatoriile lungi.
 ### Nufarul galben
 Denumire stiintifica: Nuphar lutea.
 Prezentare. Nufarul galben este o planta bine reprezentata, avand un rizom
-foarte gros (circa 10 cm grosime) si foarte lung (circa trei met ri lungime). Frunzele au
+foarte gros (circa 10 cm grosime) si foarte lung (circa trei metri lungime). Frunzele au
 un petiol de asemenea lung – pana la suprafata apei, unde plutesc. Florile sunt mari,
-galbene si apar in perioada verii, din iunie si pana in august. Nufarul galben cre ste in
-apele lin curgatoare si in apele statatoare mai putin fr ecventate de oameni si animale
+galbene si apar in perioada verii, din iunie si pana in august. Nufarul galben creste in
+apele lin curgatoare si in apele statatoare mai putin frecventate de oameni si animale
 mari. Apartine familiei nimfaceelor.
 Utilizari medicinale au rizomii, folositi sub forma de cataplasme, dar si florile – din
 care se face infuzie.
@@ -5482,10 +5482,10 @@ care, pe langa faptul ca sunt foarte bune, au si proprietati medicinale.
 Denumirea stiintifica: Myosotis scorpioides.
 Denumire populara: miozotis, ochii pasaruicii.
 Prezentare. Planta de nu-ma-uita este o erbacee perena si face parte din familia
-boraginaceelor. Inaltimea obisnuita a acestei plante este in jur de 30 cm. Are frun ze
+boraginaceelor. Inaltimea obisnuita a acestei plante este in jur de 30 cm. Are frunze
 paroase, in forme eliptice sau lanceolate. Infloreste din mai si pana in iulie, florile fiind
 mai ales albastre, uneori roz sau albe. Planta de nu-ma-uita creste in flora spontana –
-in zonele umede, in mla stini, pe langa lacuri, ape curgatoare, in locur i joase care pot
+in zonele umede, in mlastini, pe langa lacuri, ape curgatoare, in locuri joase care pot
 aduna si pastra umezeala. Se intalneste si sub forma cultivata, ca planta ornamentala,
 ipostaza in care este cunoscuta mai ales sub numele de miozotis.
 Planta de nu -ma-uita are certe virtuti medicinale. Pentru terapii se recolteaza
@@ -5501,9 +5501,9 @@ Denumiri populare: speteaza pestrita, speteaza tarcata, calin, calmuz.
 Prezentare. Obligeana este o planta iubitoare de umezea la. Aceasta planta
 erbacee, perena, cu un miros specific foarte puternic, provine din India, fiind adusa in
 Europa in 1574. Dezvolta un rizom spongios si, totusi, consistent, de culoare alba sau
-roz in interior. Tulpina poate ajunge pana la 1,5 metri inalt ime. Frunzele sunt foarte
+roz in interior. Tulpina poate ajunge pana la 1,5 metri inaltime. Frunzele sunt foarte
 alungite, chiar liniare, iar florile au o culoare galben -verzuie. Obligeana este o planta
-de cultura, dar poate fi intalnita si in salbaticie, prin mlas tini. Se remarca prin marea
+de cultura, dar poate fi intalnita si in salbaticie, prin mlastini. Se remarca prin marea
 sa putere aromatica.
 Cea mai valoroasa parte a ace stei plante sunt rizomii, folositi ca aromatic in
 industria cosmeticelor, dar si in cea alimentara. De asemenea, rizomii sunt folositi
@@ -5569,9 +5569,9 @@ medicului. In conditii de utilizare nesupravegheata, preparatele de odolean pot 
 dependenta, precum si dereglari fiziologice si de comportament.
 ### Omagul
 Denumire stiintifica: Aconitum napellus.
-Prezentare. Omagul este o planta decorativa de mare efect. Cre ste si in flora
+Prezentare. Omagul este o planta decorativa de mare efect. Creste si in flora
 spontana, fiind iubitoare de munte, dar si de umezeala. Apartine familiei ranunculaceelor.
-Este o planta cu un rizom mare, bogat in substante nutritive, rizom i nlocuit in fiecare
+Este o planta cu un rizom mare, bogat in substante nutritive, rizom inlocuit in fiecare
 an cu unul sau doi rizomi noi. Tulpina este scurta si se ramifica la nivelul inflorescentei.
 Frunzele au intre cinci si sapte limburi, fiind crestate si ascutite. Omagul infloreste in
 partea a doua a verii si in septembrie, florile fiind albastre, galbene sau violacee.
@@ -5599,14 +5599,14 @@ Denumire stiintifica: Lathyrus tuberosus.
 Prezentare. Oresnita este o planta perena, erbacee, apartinatoare de familia
 leguminoaselor. Este originara din Orient, in prezent crescand in flora spontana, de la
 campie si pana la munte. Radacina oresnitei este ingrosata, iar rizomul este dezvoltat
-si prezinta, la randu -i, ingro sari tuberculiforme. Unele dintre aceste ingro sari sunt
+si prezinta, la randu -i, ingrosari tuberculiforme. Unele dintre aceste ingrosari sunt
 mari cat alunele. Tulpina, cu muchii, este agatatoare si are o lungime de maximum un
 metru. In varful frunzelor se gasesc carceii. Florile au o culoare rosu intens, sunt placut
-mirositoare si se dezvolta pe toata perioada verii, fiind melifere. Fructul de ore snita
+mirositoare si se dezvolta pe toata perioada verii, fiind melifere. Fructul de oresnita
 este o pastaie.
 Valoare medicinala si alimentara au rizomii, tuberculii si chiar radacinile.
 Substante active importante: mucilagii, tanin.
-Intrebuintari. Preparatele de ore snita au efecte insemnate asupra functionarii
+Intrebuintari. Preparatele de oresnita au efecte insemnate asupra functionarii
 sistemului digestiv, redandu-i echilibrul. Din acest motiv, au fost utilizate multa vreme
 impotriva dizenteriei si a deranjamentelor intestinale grave. Din rizom, radacina si bulbi
 de oresnita se extrage un ulei care este comestibil. Deshidratati, rizomii si bulbii de
@@ -5627,9 +5627,9 @@ decoct cu tot cu orez, orez fiert.
 Substante active importante: vitamine (B1, B2, B6, A, PP), 12 saruri minerale,
 caroten, protide, lipide, glucide.
 Intrebuintari. Din punct de vedere medicinal, orezul este eficient, prin
-traditie, in tratarea der anjamentelor gastro -intestinale, precum si in unele afectiuni
+traditie, in tratarea deranjamentelor gastro -intestinale, precum si in unele afectiuni
 dermatologice. Cercetari mai noi arata ca orezul si preparatele medicinale din orez
-reduc hipertensiunea, favorizeaza cre sterea, combat asteniile. De asemenea, orezul
+reduc hipertensiunea, favorizeaza cresterea, combat asteniile. De asemenea, orezul
 potenteaza activitatea rinichiului, sporind si imbunatatind calitativ intreaga activitatea
 de la nivelul rinichilor si a cailor renale. Prin compozitia deosebit de complexa si de
 echilibrata, orezul si preparatele medicinale din orez favorizeaza procesele de crestere
@@ -5639,7 +5639,7 @@ anticanceros.
 ### Orzul
 Denumire stiintifica: Hordeum sativum.
 Denumiri populare: orz de primavara, orz de toamna.
-Prezentare. In mod obi snuit, orzul este cultivat ca planta furajera si industriala.
+Prezentare. In mod obisnuit, orzul este cultivat ca planta furajera si industriala.
 Anumite calitati ale sale il fac sa fie, insa, consumat si de oameni. Astfel, orzul este
 folosit la fabricarea berii, a surogatului de cafea, a alcoolului. Arpacasul este un produs
 obtinut si din orz. Tot din orz se prepara si maltul.
@@ -5701,14 +5701,14 @@ si de la aspectul sau deosebit de placut. Cunoscut de multa vrerne ca un energiz
 exceptie pentru cai, ovazul a intrat in ultimele decenii si in alimentatia oamenilor. Si nu
 degeaba, si nu intamplator.
 Ovazul este o planta erbacee anuala. Tulpina este dreapta, neteda, inalta
-uneori peste 1,50 metri. Adesea infrate ste sau se ramifica incepand chiar de la
+uneori peste 1,50 metri. Adesea infrateste sau se ramifica incepand chiar de la
 baza. Inflorescenta ovazului este un ciorchine format din mai multe spiculete cu flori.
 Perioada de inflorire a ovazului este iunie – august.
 Pentru preparate medicinale se folosesc, in mod frecvent, boabele de ovaz, care
-au un aspect paios. Se mai folose ste si partea aeriana a ovazului, care se recolteaza
+au un aspect paios. Se mai foloseste si partea aeriana a ovazului, care se recolteaza
 atunci cand planta este verde si mustoasa.
 Din tulpini verzi si frunze verzi de ovaz se prepara decoct si supa de ovaz. Potrivit
-medicinii populare, valoare medicinala au si pleava si tulpinile. In mod obi snuit, din
+medicinii populare, valoare medicinala au si pleava si tulpinile. In mod obisnuit, din
 
 DICTIONARUL PLANTELOR DE LEAC 99
 ovaz se prepara decoct, faina, macerat, tinctura si, fireste, fulgii de ovaz.
@@ -5717,7 +5717,7 @@ de sapte substante minerale, carotan, vitaminele B1, B2, PP, A, D, amidon, gluci
 saponine, lecitina, enzime, ulei, protide, saruri de calciu, fosfor, hidrati de carbon si
 chiar un principiu hormonal de tipul foliculinei.
 Intrebuintari. Ovazul este considerat un bun depurativ pentru piele, fiind utilizat
-sub forma de lapte de ovaz. Datorita compozitiei sale exceptionale, ovazul hrane ste,
+sub forma de lapte de ovaz. Datorita compozitiei sale exceptionale, ovazul hraneste,
 intretine si tonifica pielea.
 Preparatele de ovaz sunt cunoscute si ca un agent natural si eficace in buna
 functionare a tiroidei. De altfel, efectele preparatelor de ovaz se simt imediat in
@@ -5734,7 +5734,7 @@ Fibrele vegetale continute de ovaz contribuie la reducerea colesterolului si la
 reglarea activitatii inimii.
 Fulgii sunt forma principala sub care oamenii consuma ovazul. Cu ace sti fulgi,
 consumati indeosebi la micul dejun, se pot produce ameliorari in cazul multor afectiuni,
-cum ar fi cele renale, respiratorii (bron site, astm), digestive, hepatice. Fulgii de ovaz
+cum ar fi cele renale, respiratorii (bronsite, astm), digestive, hepatice. Fulgii de ovaz
 sunt indicati si pentru cei care sufera de diabet zaharat sau de hiperlipidemie, fiind,
 totodata, un bun pansament pentru stomac. Lesne de consumat, usor digerabili, fulgii
 de ovaz pot face parte din alimentatia tuturor, fara nici o restrictie.
@@ -5751,7 +5751,7 @@ din paie de ovaz.
 ### Papaia
 Denumire stiintifica: Carica papaya.
 Prezentare. Papaia este o planta din padurea ecuatoriala. Apartine familiei
-caricaceelor. Cre ste in America Centrala si in insulele din marile sudului. Se mai
+caricaceelor. Creste in America Centrala si in insulele din marile sudului. Se mai
 numeste si arborele de pepene. Fructele, de mari dimensiuni, cresc in partea superioara
 a tulpinii, in zona in care arborele incepe sa se ramifice.
 Pentru nevoi medicinale se recolteaza latexul acestei plante, cunoscut sub numele
@@ -5759,7 +5759,7 @@ de papaina. Valoare medicinala au si semintele, fructele, coaja, radacina, frunz
 Substanta activa importanta: o enzima numita papaina, obtinuta in acelasi mod
 in care se recolteaza latexul de la arborele de cauciuc.
 Intrebuintari. Papaina este cunoscuta pentru eficienta ei in tratarea bolilor
-digestive. Specialistii sunt de parere ca se pot obti ne rezultate importante si in alte
+digestive. Specialistii sunt de parere ca se pot obtine rezultate importante si in alte
 afectiuni, chiar in boli grele, chinuitoare, cum ar fi, de pilda, hernia de disc. Pornind de
 aici s-a ajuns la concluzia ca papaina poate fi un medicament exceptional. Deocamdata,
 insa, se stie ca papaina are efecte pozitive in terapii asupra tractului gastro-intestinal,
@@ -5791,11 +5791,11 @@ Denumire stiintifica: Crataegus monogyna; Crataegus laevigata; Crataegus
 oxyacantha.
 Denumiri populare: gherghinar, malai moale, maracine alb, maracine.
 Prezentare. Sub denumirea de paducel sunt identificate cateva specii de arbusti
-foarte asemanatori, apartinand familiei rozaceelor. In mod obi snuit, paducelul poate
+foarte asemanatori, apartinand familiei rozaceelor. In mod obisnuit, paducelul poate
 ajunge la trei-patru metri inaltime. Unele specii, cu inaltimea de pana la opt metri, au
 chiar infatisare de arbori. Paducelul este un arbust ramuros, ghimpos, cu frunze mici si
 flori albe. Infloreste primavara, in aprilie-mai. Fructele au culoarea rosie.
-Paducelul c reste in zone ceva mai deschise si libere, adica pe la marginea
+Paducelul creste in zone ceva mai deschise si libere, adica pe la marginea
 padurilor, pe campuri, pe dealuri, in perdele vegetale de protectie, pe terenuri
 framantate, singuratic sau in grupuri mari ce pot forma spinarii. Varietatile cu flori roz
 pot fi intalnite si sub forma cultivata, mai ales pentru ornament.
@@ -5822,16 +5822,16 @@ Denumiri populare: laptuca, papalunga, gusa gainii, floarea turcului.
 Prezentare. Papadia este o erbacee perena. Face parte din familia compozitelor si
 poate atinge inaltimea de 15 – 20 cm. Rizomul papadiei este vertical. Tulpina, care este
 foarte scurta, formeaza la baza o rozeta de frunze. Florile, grupate intr-o inflorescenta
-colorata in galben auriu, au un parfum dulce. Papadia inflore ste din aprilie si pana in
+colorata in galben auriu, au un parfum dulce. Papadia infloreste din aprilie si pana in
 octombrie. Intreaga planta contine un suc laptos.
 
 DICTIONARUL PLANTELOR DE LEAC 101
-Papadia cre ste pretutindeni in Romania – pe paji sti, pe fanete, pe terenurile
+Papadia creste pretutindeni in Romania – pe paji sti, pe fanete, pe terenurile
 necultivate, pe maidane, pe marginea drumurilor, fiind o planta melifera.
 Valoare medicinala au radacinile si frunzele de papadie, din care se prepara, in
 primul rand, infuzie si decoct. In practica medicinala curenta, papadia se utilizeaza si
 sub alte forme.
-Substante active importante: taraxacina si taraxosterina – c ompusi specifici,
+Substante active importante: taraxacina si taraxosterina – compusi specifici,
 pectina, glucide, vitaminele A, B, C si D, inulina, rezine, fitosteroil, acizi. Radacina este
 foarte bogata in latex, substanta care contine, desigur, cauciuc.
 Intrebuintari. Papadia este una dintre cele mai la indemana si mai cunoscute
@@ -5858,7 +5858,7 @@ Prezentare. Papalaul – o planta mai putin cunoscuta, este o erbacee perena ce
 face parte din familia solanaceelor. Tulpina subpamanteana este un rizom, iar tulpina
 aeriana este uneori simpla, alteori ramificata. La maturitate, aceasta tulpina are intre
 25 si 60 cm inaltime. Frunzele, de forma ovala, sunt paroase ca si tulpina. Florile sunt
-alb-galbui, iar fructul este o baca ro sie-portocalie, de dimensiunile unei cir ese. Florile
+alb-galbui, iar fructul este o baca ro sie-portocalie, de dimensiunile unei cirese. Florile
 apar pe tot parcursul verii. Fructele sunt singura parte netoxica a papalaului. Intalnita
 cu usurinta in flora spontana din tara noastra, papalaul creste pe terenuri in paragina,
 in lizierele padurilor, pe langa tufisuri, in terenuri accidentate.
@@ -5895,7 +5895,7 @@ protide, celuloza, pectine, saruri minerale, vitamine.
 Intrebuintari. Preparatele din frunze, flori si coaja de par determina eliminarea
 acidului uric, fiind si un depurativ general. Au, de asemenea, efecte pozitive in afectiunile
 urinare, in prostate, in tratarea unor afectiuni si ulcere ale pielii. Preparatele din frunze,
-flori si coaja de par au si proprietati diuretice, antiseptice, cicatrizante, seda tive, fiind
+flori si coaja de par au si proprietati diuretice, antiseptice, cicatrizante, sedative, fiind
 recomandate si in bolile de rinichi, ale cailor urinare, in general ale aparatului uro-
 genital, precum si in guta si reumatism.
 Perele sunt importante prin continutul lor complex, fiind recomandat a se consuma
@@ -5913,11 +5913,11 @@ raspandit. Intreaga planta are un miros specific.
 Importanta medicinala au radacinile pastarnacului, dar si frunzele. Se prepara
 un decoct. Pastarnacul isi pastreaza proprietatile terapeutice chiar si atunci cand este
 prezent in diverse mancaruri.
-Substante active importante: saruri minerale (in special p otasiu), ulei volatil,
+Substante active importante: saruri minerale (in special potasiu), ulei volatil,
 vitaminele A, B1, B2, C. Pastarnacul este considerat o planta foarte nutritiva, importanta
 si datorita efectelor sale medicinale.
 Intrebuintari. Preparatele pe baza de pastarnac au proprietati diuretice, tonifiante,
-depurative, antir eumatismale. Majoritatea speciali stilor consemneaza importanta
+depurative, antireumatismale. Majoritatea specialistilor consemneaza importanta
 pastarnacului in reechilibrarea activitatii menstruale, agenti determinanti, in acest caz,
 fiind mai ales componentele din uleiul volatil. Pastarnacul combate lenea vezicii biliare,
 febra, infectiile, inapetenta. Are rol profilactic in bolile vasculare, fiind si un stimulator al
@@ -5929,7 +5929,7 @@ Prezentare. Pastita este o planta erbacee perena, de mi ci dimensiuni, cu
 o inaltime maxima de 25 cm. Face parte din familia ranunculaceelor. Are un rizom
 pronuntat, de culoare bruna. Frunzele de pa stita au forme diferite. Florile apar pe tot
 parcursul primaverii, din martie si pana in mai. In numar de una sau doua la fiecare
-planta, florile au culoare galben -aurie si sunt elementul care deosebe ste pa stita de
+planta, florile au culoare galben -aurie si sunt elementul care deosebeste pa stita de
 floarea pastilor (Anemone nemorosa). Pastita creste in toate regiunile Romaniei – prin
 paduri, liziere, tufarisuri, pe marginea drumurilor – preferand locuri umbroase.
 Intrebuintari. Infuzia de pastita are efecte sedative si chiar soporifice (somnifer,
@@ -5955,14 +5955,14 @@ si radacinile, semintele si, de asemenea, restul plantei.
 Substante active importante: pectine, carotene, pentazone, saruri alcaline,
 tanin, planteoza. Unele substante aflate in compozitia patlaginei sunt bactericide si
 antiinflamatoare.
-Intrebuintari. In practica medicinala, patlagina se folose ste in tratarea unor
+Intrebuintari. In practica medicinala, patlagina se foloseste in tratarea unor
 afectiuni interne, dar se aplica si extern. Prin traditie, patlagina a fost s i este folosita
 ca expectorant (cunoscutul sirop de patlagina), precum si pentru cicatrizarea
 ranilor, deoarece are proprietati emoliente si bactericide. Alte calitati ale patlaginei –
 hemostatica, antidiareica, hipotensiva. De asemenea, patlagina contribuie la scaderea
 colesterolului din sange.
-Afectiuni in care se fac tratamente cu patlagina: bron site cronice, astm bron sic,
-diaree, ulcer gastroduodenal, laringite, traheite, conju nctivite, ulcer varicos, ulceratii
+Afectiuni in care se fac tratamente cu patlagina: bronsite cronice, astm bron sic,
+diaree, ulcer gastroduodenal, laringite, traheite, conjunctivite, ulcer varicos, ulceratii
 cutanate, tuse. Preparatele de patlagina se dovedesc utile si in hipertensiunea
 arteriala.
 In aplicatiile externe se fac nu numai bai si spalaturi cu patlagina, ci se aplica si
@@ -5986,36 +5986,36 @@ forma de suc.
 Substante active importante: o substanta specifica numita licopin a, sodiu,
 potasiu, calciu, fosfor, fier, magneziu, zinc, cupru, iod, vitaminele A, C, E si K, hidrati de
 carbon, protide, acizi organici – citric, malic, pectic.
-Intrebuintari. Studiile facute de specialis ti au dovedit ca patlagica ro sie are un
+Intrebuintari. Studiile facute de specialisti au dovedit ca patlagica ro sie are un
 rol importa nt in profilaxia bolilor cardiovasculare si chiar in ameliorarea acestora.
 Patlagelele rosii sunt utilizate si in curele de slabire, in diete impotriva dislipidemiilor, in
 inapetenta, avitaminoze, stari congestive, hipervascozitate sanguina, guta, reumatism,
 afectiuni ale tractului gastro-intestinal. Mai nou, s-a descoperit ca licopina are si actiune
 anticancerigena, fiind un puternic antioxidant si inhibitor al radicalilor liberi, cei care
 provoaca boala canceroasa.
-Rosia este reconfortanta si remineralizanta. Fiind un aliment u sor, nu solicita
-intens sistemul digestiv si nici celelalte sisteme ale organismului. Totus i, specialistii
+Rosia este reconfortanta si remineralizanta. Fiind un alimentu sor, nu solicita
+intens sistemul digestiv si nici celelalte sisteme ale organismului. Totusi, specialistii
 recomanda ca terapiile cu patlagele rosii sa nu depaseasca o luna.
-Preparatele din patlagele ro sii sunt folosite si in tratamente dermatologice si
+Preparatele din patlagele rosii sunt folosite si in tratamente dermatologice si
 aplicatii cosmetice. De exemplu, acneea se poate combate si prin aplicarea de felii de
 patlagele rosii pe fata.
 ### Patlagica vanata
 Denumire stiintifica: Solanum meiongena.
 Denumire populara: vanata.
 Prezentare. Patlagica vanata, pe scurt vanata, este originara din subcontinentul
-indian si apartine de familia solanaceelor. Vanata are o infati sare viguroasa,
+indian si apartine de familia solanaceelor. Vanata are o infatisare viguroasa,
 caracteristica plantelor din zonele calde. Dezvoltarea acestei plante este anuala.
 
 104 DICTIONARUL PLANTELOR DE LEAC
 Tulpina ei creste pana la 1,20 metri inaltime. Frunzele sunt mari si carnoase, iar florile
-au culoare violet. Vanata inflore ste pe toata perioada verii. Fructul este acea baca
+au culoare violet. Vanata infloreste pe toata perioada verii. Fructul este acea baca
 foarte mare si consistenta, cunoscuta sub numele de vanata.
 Valoare medicinala au fructul si frunzele. Fructele se gatesc, iar din frunze se
 prepara cataplasme, utilizate in tratarea unor afectiuni dermatologice.
 Substante active importante: potasiu (in cantitate mare), sodiu, calciu, fosfor,
 fier, sulf, mangan, cupru, iod, vitaminele C, A, B1, B2, glucide, lipide, protide. Daca nu
 este indeajuns de coapta, vanata contine o substanta toxica numita solanina, substanta
-care se gaseste si in cartofii lasati la lumina (aces tia capata culoarea verde), precum
+care se gaseste si in cartofii lasati la lumina (acestia capata culoarea verde), precum
 si in germenii de cartofi.
 Intrebuintari. Patlagica vanata are o serie de proprietati medicinale, reduse, e
 adevarat, dar nu de neglijat, mai ales ca este vorba despre un aliment accesibil si
@@ -6031,7 +6031,7 @@ organismul, fiind un stimulent al multor functii importante, inclusiv cea digest
 Denumire stiintifica: Petroselinum hortense.
 Prezentare. Patrunjelul, o planta bienala aromatica, apartine familiei umbeliferelor.
 Are o radacina pivotanta, consistenta, uneori ingrosata, lunga pana la 30 cm. Frunzele
-sunt penat-sectate, carnoase si onctuoase, petiolate. Patrunjelul inflores te pe intreg
+sunt penat-sectate, carnoase si onctuoase, petiolate. Patrunjelul infloreste pe intreg
 parcursul verii celui de- al doilea an de vegetatie. Inflorescenta este o umbela. Planta
 cultivata, patrunjelul, asemenea mararului, se poate salbatici.
 Pentru uz medicinal, ca si pentru alimentatie, se recolteaza frunzele si radacina.
@@ -6053,7 +6053,7 @@ de tub, culoarea lor fiind alb-verzuie. Fructul este o bobita de culoare neagra,
 Pecetea lui Solomon creste in locuri adapostite, umede, in paduri, in tufarisuri, in locuri
 cu vegetatie bogata.
 Pentru uz medicinal se recolteaza rizomul.
-Substante active importante: glucozide, acizi, ulei volatil. Compu sii acestei
+Substante active importante: glucozide, acizi, ulei volatil. Compusii acestei
 plante au fost putin studiati, dar un lucru este cat se poate de cert – sunt toxici.
 Intrebuintari. Extrasul obtinut din aceasta planta este sedativ, antibacterian,
 antiinflamator, purgativ. Fiind revulsiv, poate fi folosit in tratarea reumatismului si a
@@ -6066,7 +6066,7 @@ Denumire stiintifica: Artemisia absinthium.
 Denumiri populare: pelinas, pelinita, iarba fecioarelor.
 
 DICTIONARUL PLANTELOR DE LEAC 105
-Prezentare. Pelinul este o planta perena ce cre ste in flora spontana. Poate
+Prezentare. Pelinul este o planta perena ce creste in flora spontana. Poate
 ajunge la peste un metru inaltime. Frunzele sunt de un cenusiu-matuit, uneori albicios,
 si au peri mici. Intreaga planta are un miros puternic, specific. Un miros si mai puternic
 au frunzele care, proaspete fiind, se freaca intre palme – pentru a se crea o senzatie
@@ -6080,7 +6080,7 @@ Intrebuintari. Pelinul – utilizat de foarte multa vreme ca un tonic amar, este
 bun agent revitalizant, gastric si intestinal, contribuind la marirea secretiilor gastrice si
 la reluarea activitatii gastro-intestinale. Pelinul este un stimulent digestiv garantat. De
 asemenea, este cunoscut ca diuretic, laxativ si tonic al sistemului nervos.
-Actiunea sa pe caile gastro -intestinale este compl exa, infuzia de pelin facand
+Actiunea sa pe caile gastro -intestinale este complexa, infuzia de pelin facand
 curatenie generala – distruge inclusiv viermii intestinali. In mod curent, pelinul este
 intrebuintat in afectiuni precum edeme renale, anorexie, gastrite hipoacide, hemoroizi,
 constipatii, rani cu dificultati de vindecare, oxiuraza. Infuzia de pelin este indicata si in
@@ -6102,14 +6102,14 @@ galben are o tulpina taratoare, acoperita cu peri. Frunzele au forma palmata, ia
 sunt mici si au culoarea galbena. Fructul, oarecum asemanator cu al dovleacului, este
 deosebit de placut la consum, desi valoarea sa nutritiva nu este mare.
 In cazul pepenelui galben, valoare medicinala au fructul si semintele.
-Substante active importante: vitaminele A, B, C, zaharuri, celuloza, cenu si,
+Substante active importante: vitaminele A, B, C, zaharuri, celuloza, cenusi,
 lipide, protide, saruri minerale.
 Intrebuintari. Pepenele galben este un nutrient de sezon, fiind cunoscut si prin
 efectele sale medicinale. Este laxativ si diuretic si regleaza foarte bine activitatea
 tractului gastro-intestinal, a cailor renale si urinare, a rinichiului si ficatului. Consumul
 de pepene galben duce la ameliorari si in alte afectiuni, cum ar fi cel e de guta,
 reumatism, bila lene sa, anemie. Pepenele galben si preparatele de pepene galben
-combat infectiile intestinale. Datorita compozitiei sale u soare, pepenele galben este
+combat infectiile intestinale. Datorita compozitiei saleu soare, pepenele galben este
 recomandat si diabeticilor. Pulpa fructului, dar si extractele de seminte, se folosesc si
 in aplicatii externe – in cosmetica, de exemplu – dar si pentru tratarea unor afectiuni ale
 pielii (inflamatii, arsuri, rani rebele).
@@ -6141,7 +6141,7 @@ un petiol micut si sunt ascutite. Piciorul lupului infloreste in lunile iulie si
 fiind albe cu puncte rosii, Piciorul lupului creste in locuri joase si umede, in mlastini, pe
 marginea apelor, in tufarisuri si paduri tinere.
 Intrebuintari. Preparatele obtinute din planta numita piciorul lupului pot contribui
-la buna activitate a t ractului gastro -intestinal, curatindu -l s i aducandu-l, si prin
+la buna activitate a tractului gastro -intestinal, curatindu -l s i aducandu-l, si prin
 provocarea si marirea secretiilor gastrice, la o activitate normala. Aceste preparate
 se folosesc si in tratamente privind afectiuni ale cailor respiratorii, dilatand si tonifiind
 aceste traiecte, efecte avand si in caz de tuse. Piciorul lupului mai este cunoscut si ca
@@ -6171,7 +6171,7 @@ de piersica, ocrotiti de un invelis lemnos foarte dur, raman inca putin cercetat
 se pare, unele asemanari, din punct de vedere terapeutic, cu samburii de migdale.
 ### Pinul
 Denumire stiintifica: Pinus montana; Pinus sylvestris.
-Prezentare. Pinul este un conifer de mari dimensiuni. Apartine, fire ste, familiei
+Prezentare. Pinul este un conifer de mari dimensiuni. Apartine, fireste, familiei
 pinaceelor (abietaceelor), fiind reprezentativ pentru aceasta familie. Inaltimea sa
 maxima este de 50 metri (Pinus sylvestris). Are o frumoasa coroana piramidala. Coaja
 este rosie-alburie-caramizie si se exfoliaza. Frunzele au forma de ace. Pinul infloreste
@@ -6180,9 +6180,9 @@ Pinul creste in zonele alpine si sub alpine.
 Pentru uz medicinal se recolteaza mugurii de pin, din care se prepara infuzie,
 decoct, extract. In aplicatii medicinale, cel mai utilizat preparat este infuzia.
 Substanta activa importanta: uleiul volatil. Mugurii sunt bogati si in vitamina
-C. Acel e de pin contin pinosolvina, un compus care are proprietati bactericide si
+C. Acele de pin contin pinosolvina, un compus care are proprietati bactericide si
 tuberculostatice.
-Intrebuintari. Infuzia din muguri de pin este indicata in tratarea bron sitelor si
+Intrebuintari. Infuzia din muguri de pin este indicata in tratarea bronsitelor si
 a reumatismului. Totodata, aceasta infuzie calmeaza inflamatiile pulmonare si ale
 
 DICTIONARUL PLANTELOR DE LEAC 107
@@ -6212,7 +6212,7 @@ arteriala.
 ### Piperul negru
 Denumire stiintifica: Piper nigrum.
 Prezentare. Condiment aproape indispensabil, piperul este, ca planta, o liana
-perena. Apartine familiei piperaceelor si cre ste in zonele tropicale, fiind intalnit, in
+perena. Apartine familiei piperaceelor si creste in zonele tropicale, fiind intalnit, in
 culturi, si in Orientul Mijlociu. Tulpina piperului este lunga si subtire. Daca nu are de
 ce sa se prinda, se intinde pe pamant, asemenea rugilor de mure. Florile sunt mici
 si albe, dispuse in ciorchine, iar fructele au forma unor boabe, de culoare neagra la
@@ -6238,7 +6238,7 @@ Prezentare. Piretrul, foarte cunoscut datorita flacoanelor cu spray pentru
 combaterea insectelor, este o planta perena din familia compozitelor. In pamant,
 piretrul are un rizom scurt si gros. Tulpina, de culoare argintie spre verzui, are o inaltime
 medie pentru o erbacee – circa 40 cm, fiind ramificata. Florile se prezinta sub forma
-unor capitule, fiind albe la exterior si galbene la interior. Piretrul inflore ste mai ales la
+unor capitule, fiind albe la exterior si galbene la interior. Piretrul infloreste mai ales la
 sfarsitul primaverii s i inceputul verii, dar poate avea flori si mai tarziu. Este o planta
 iubitoare de uscaciune si lumina, originara din Croatia. Se si cultiva, fiind utilizata in
 producerea insecticidelor.
@@ -6267,7 +6267,7 @@ Intrebuintari. Pirul, o buruiana foarte daunatoare pentru culturi, este, in schi
 o valoroasa planta medicinala. Preparatele din rizomii de pir au actiune diuretica,
 antimicrobiana, detoxifianta, febrifuga. In urma tratamentului cu pir se remarca, de
 asemenea, evolutii remineralizante, mai ales la nivelul sistemului osos. Ceaiurile de pir
-sunt laxative, fiind recomandate diabeti cilor. Pirul actioneaza intr -o serie intreaga de
+sunt laxative, fiind recomandate diabeticilor. Pirul actioneaza intr -o serie intreaga de
 afectiuni: reumatism, guta, bronsite, raceli, boli de rinichi.
 Rizomii de pir sunt recoltati si pentru utilizari in industria farmaceutica sau in cea
 alimentara. De pilda, in industria alimentara, din rizomi de pir se fac siropuri, bere, un
@@ -6288,7 +6288,7 @@ din tara noastra, fiind de gasit doar in sudul Dobrogei, pe litoralul Marii Negr
 Pentru terapii se utilizeaza fructele verzi, din care se extrage sucul.
 Substante active importante: elaterina (substanta care face fructul sa explodeze
 si sa arunce semintele, cuvantul vine de la grecestul elater = care impinge)
-Intrebuintari. Cu extractele din aceasta planta se trateaza o bo ala grea, numita
+Intrebuintari. Cu extractele din aceasta planta se trateaza o boala grea, numita
 hidropizie. Aceasta boala se manifesta prin acumulare nefireasca de lichid (apa) in
 cavitatile naturale ale organismului sau in unele organe.
 ### Plopul negru
@@ -6297,7 +6297,7 @@ Denumire populara: plop plutas.
 Prezentare. Plopul apartine familiei salicaceelor si este unul dintre cei mai inalti
 arbori din Romania. Tulpina sa este dreapta si puternica, iar ramurile sunt apropiate
 de tulpina. Coaja este cenu sie-argintie, iar frunzele, cu petiol lung, sunt ovale si usor
-lanceolate. Florile au forma de amenti (mati sori). Plopul inflore ste in lunile martie si
+lanceolate. Florile au forma de amenti (mati sori). Plopul infloreste in lunile martie si
 aprilie.
 In flora din Romania se intalnesc trei feluri de plopi: plopul alb (Populus alba),
 plopul tremurator (Populus tremula) si plopul negru (Populus nigra), acesta din urma
@@ -6309,8 +6309,8 @@ obtin si alte preparate: tinctura, sirop, extract moale, unguent, macerat.
 Substante active importante: glucozizi, ulei volatil, crisina, salicina, taninuri.
 Intrebuintari. Preparatele de plop negru sunt cicatrizante, antiinflamatoare,
 expectorante, diuretice, antiseptice. Mugurii de plop revitalizeaza organismul si
-contribuie la buna desfa surare a proceselor digestive. Cu preparatele de plop negru
-se obtin rezultate in tratarea bron sitelor acute, a hemoroizilor, a bolilor de rinichi si
+contribuie la buna desfasurare a proceselor digestive. Cu preparatele de plop negru
+se obtin rezultate in tratarea bronsitelor acute, a hemoroizilor, a bolilor de rinichi si
 arsurilor. Plopul este, totodata, un bun antireumatic si un dezinfectant al cailor urinare.
 Se foloseste si in caz de sciatica, nevralgii, inflamatii ale cailor respiratorii.
 ### Pochivnicul
@@ -6319,7 +6319,7 @@ Denumiri populare: popalnic, piperul lupului.
 Prezentare. Pochivnicul este o erbacee perena, de mici dimensiuni, din familia
 aristolochiaceelor. Rizomul acestei plante este tarator, iar tulpina aeriana – dreapta si
 scurta. Frunzele sunt mari, in numar de doua, si au forma de rinichi. In varful tulpinii
-se afla floarea, de culoare grena. Pochivnicul cre ste in locuri umede, pe soluri bogate
+se afla floarea, de culoare grena. Pochivnicul creste in locuri umede, pe soluri bogate
 in calcar.
 Rizomul si frunzele sunt partea din planta de pochivnic care prezinta interes
 din punct de vedere medicinal. In anumite conditii, rizomul se macina si se obtine o
@@ -6328,9 +6328,9 @@ de stranutat (in combinatie cu pulberi de la alte plante medicinale), sirop expe
 pulbere de rizomi.
 Substante active importante: uleiul eteric, asarita, asarona. Asarona este o
 substanta toxica si, de aceea, preparatele obtinute din pochivnic vor fi manevrate cu
-atentie, urmand a fi folosite numai sub indrumarea speciali stilor. Efectul terapeutic al
+atentie, urmand a fi folosite numai sub indrumarea specialistilor. Efectul terapeutic al
 pochivnicului este puternic.
-Intrebuintari. Pochivnicul este vomitiv, purgativ si expectorant. Se folose ste in
+Intrebuintari. Pochivnicul este vomitiv, purgativ si expectorant. Se foloseste in
 tratarea bronsitelor cronice, a astmului, in tuse convulsiva. Cu pochivnic se intervine si
 in alte afectiuni pulmonare, relaxand si igienizand zona pulmonara. Produce stranut,
 contribuind astfel la curatarea si aerisirea cailor respiratorii, dar s i la o anume reglare
@@ -6349,7 +6349,7 @@ ale plantei de podbal se obtin urmatoarele preparate: infuzie, decoct, macerat, 
 de planta. De asemenea, se obtin sirop, suc sau ceai realizate in combinatie cu alte
 plante medicinale.
 Substante active importante: inulina, tanin, steroli, dextrina, substante
-albuminoide si bactericide, numeroase saruri min erale, compusul specific fiind
+albuminoide si bactericide, numeroase saruri minerale, compusul specific fiind
 tusilagina.
 Intrebuintari. Podbalul este utilizat in terapii deoarece este emolient si fluidizant,
 expectorant (puternic), antiseptic si antispastic. Are actiune antiseptica asupra
@@ -6370,8 +6370,8 @@ Denumire stiintifica: Hepatica nobilis.
 Denumire populara: trei rai.
 Prezentare. Popalnicul iepuresc este o planta micuta, acoperita de perisori. Face
 parte din familia ranunculaceelor. Frunzele sale, impartite in trei lobi, raman verzi si in
-anotimpul rece. Popalnicul iepuresc inflore ste in martie si aprilie, florile fiind albastre,
-cu petale mari. Este o planta cu aspect foarte placut. Cre ste in flora spontana din
+anotimpul rece. Popalnicul iepuresc infloreste in martie si aprilie, florile fiind albastre,
+cu petale mari. Este o planta cu aspect foarte placut. Creste in flora spontana din
 zonele mai inalte, chiar montane, preferand terenurile calcaroase.
 Substante active importante: anemonina, zaharuri, taninuri.
 Intrebuintari. Din punct de vedere al virtutilor medicinale, popalnicul iepuresc
@@ -6383,20 +6383,20 @@ Denumire stiintifica: Citrus aurantium.
 Prezentare. Portocalul este o planta de clima blanda, fiind, alaturi de lamai,
 reprezentativ pentru zona mediteraneana. Este un arbore originar din Orientul
 indepartat. A fost aclimatizat in Europa in primele secole de dupa anul 1000. Portocalul
-face parte din familia rutaceel or. Este un arbore cu inaltime redusa, avand, in mod
+face parte din familia rutaceelor. Este un arbore cu inaltime redusa, avand, in mod
 obisnuit, in jur de patru -sase metri. Frunzele portocalului sunt mici, carnoase, u sor
 cerate. Florile au culoare alba si miros foarte placut, fiind folosite, cu succes, la
 prepararea unui ceai cu totul deosebit.
 Pentru uz medicinal se recolteaza frunzele, florile, pulpa fructului si coaja acestuia.
 Din frunze, flori si coaja fructului se prepara infuzie, solutii apoase, potiuni, iar pulpa
-fructului se consuma ca atare, se folose ste pentru extragerea sucul ui sau chiar se
+fructului se consuma ca atare, se foloseste pentru extragerea sucul ui sau chiar se
 gateste.
 Substante active importante: in portocale – hidrati de carbon, saruri minerale,
 vitamine (mai ales vitamina C), proteine; in flori si coaja portocalelor – uleiuri volatile;
 in frunze – hesperida.
 Intrebuintari. Preparatele pe baza de portocal dau rezultate pozitive in afectiuni
-cardiace, deranjamente stomacale, spasme, stari de agitatie u soara, obezitate,
-stomatite, gingivite, febra. Consumul de portocale spore ste rezistenta fata de bolile
+cardiace, deranjamente stomacale, spasme, stari de agitatie usoara, obezitate,
+stomatite, gingivite, febra. Consumul de portocale sporeste rezistenta fata de bolile
 infectioase, intareste capilarele si usureaza circulatia periferica. Pulpa de portocala are
 si proprietati antihemoragice, laxative, depurative.
 Preparatele pe baza de frunze, flori si coaja de portocala sunt indicate, cu
@@ -6432,7 +6432,7 @@ bautura alcoolica.
 Denumire stiintifica: Zea mays.
 Denumiri populare: cucuruz, papusoi.
 Prezentare. Porumbul este una dintre cele mai cunoscute plante. Poate atinge
-o inaltime de 2,50 metri. Inflore ste in lunile iunie, iulie sau chiar august. Florile sunt
+o inaltime de 2,50 metri. Infloreste in lunile iunie, iulie sau chiar august. Florile sunt
 unisexuate si au forma de inflorescente. Floarea din varful porumbului, ramificata, este
 floarea masculina. Floarea femela este stiuletele, care are niste terminatii lungi. Aceste
 terminatii lungi, aceste flori lungi nu sunt altceva decat matasea de porumb.
@@ -6443,23 +6443,23 @@ contine surprinzator de multe substante: ulei volatil, manita, vitaminele C, E s
 de potasiu si calciu, bioxid de siliciu, saponine, zaharuri, acizi.
 Intrebuintari. Din punct de vedere medicinal, matasea de porumb are o serie
 intreaga de calitati – este diuretica, sudorifica, hemostatica, sedativa. De asemenea,
-matasea de porumb are si un puternic efect colagog, adica face bila mai acti va, mai
+matasea de porumb are si un puternic efect colagog, adica face bila mai activa, mai
 harnica. Infuzia din matase de porumb este un stimulent si pentru activitatea ficatului.
 Afectiunile in care se poate utiliza infuzia de matase de porumb: boli hepatice,
-dischinezie biliara, calculoza renala, metrite, guta, cistita, reumatism, metr oragii,
+dischinezie biliara, calculoza renala, metrite, guta, cistita, reumatism, metroragii,
 tulburari de menstruatie, tulburari digestive si chiar insuficienta cardiaca.
 Principalul domeniu de tratament cu matasea de porumb – afectiunile renale si
 cele ale aparatului urinar.
 ### Prazul
 Denumire stiintifica: Allium porrum.
-Prezentare. Prazul e ste o planta legumicola ce apartine de familia liliaceelor.
+Prezentare. Prazule ste o planta legumicola ce apartine de familia liliaceelor.
 Originea prazului este in zona Mediteranei. Traditia culinara bazata si pe consumul
 de praz este foarte veche in zona Marii Mediterane si in regiunile din apropierea
 acesteia.
 Prazul este o planta bienala, remarcandu -se prin tulpina sa groasa, frageda,
 suculenta, formata din frunze rasucite, inalta pana la 40 – 50 cm. Frunzele sunt lungi-
 lanceolate. In pamant, prazul are un bulb.
-Pentru consum alimentar, cat si pentru uz medicinal se foloses te toata planta.
+Pentru consum alimentar, cat si pentru uz medicinal se foloseste toata planta.
 Pentru uz medicinal se prepara sirop, decoct, macerat.
 Substante active importante: proteine, substante grase, saruri minerale, vitamina
 C, caroten, celuloza, oligoelemente, vitaminele B1, B2, PP, ulei volatil, mucilagii.
@@ -6480,7 +6480,7 @@ Denumire populara: perj.
 Prezentare. Prunul este un arbore foarte cunoscut si foarte pretuit, pruna fiind,
 asemenea marului, un adevarat fruct minune. Prunul i si are originile in Caucaz si in
 Persia. Face parte din familia rozaceelor, inaltimea sa fiind de maximum 10 metri.
-Frunzele sunt eliptice, cu marginile fin cr estate. Florile, albe sau alb- verzui, apar in
+Frunzele sunt eliptice, cu marginile fin crestate. Florile, albe sau alb- verzui, apar in
 aprilie, fiind cautate de albine. Mierea de prun este un adevarat medicament, avand si
 
 112 DICTIONARUL PLANTELOR DE LEAC
@@ -6529,7 +6529,7 @@ Frunzele sunt lanceolate, cu mici crestaturi pe margine. Florile au forma unor a
 (matisori) mici, aurii, care se dezvolta in perioada martie-aprilie. Rachita rosie creste in
 locuri umede, in preajma apelor, in lunci si zavoaie, pe malul apelor curgatoare, dar si
 pe locuri pietroase. Este u sor de identificat dupa culoarea galben spre ro su sau chiar
-rosie a ramurilor tinere. Rachita ro sie se gase ste in flora spontana, dar se si poate
+rosie a ramurilor tinere. Rachita ro sie se gaseste in flora spontana, dar se si poate
 cultiva, pentru utilitati mestesugaresti (impletituri).
 Pentru uz medicinal se recolteaza coaja, mai ales de pe ramurile tinere,
 in perioada de la mijlocul primaverii, deci cand planta este plina de seva. Valoare
@@ -6547,7 +6547,7 @@ cicatrizanta, astringenta, antidiareica, analgezica.
 Datorita compusilor din coaja ei, rachita rosie este un antireumatic foarte eficient,
 o forma de terapie placuta si eficienta fiind, in asemenea caz, baile cu decoct de coaja
 de rachita ro sie. Acest tratament va fi cu mult mai eficient daca rachita ro sie se va
-combina cu alte plante medic inale antireumatice. Cat despre calitatile antitermice ale
+combina cu alte plante medicinale antireumatice. Cat despre calitatile antitermice ale
 acestei plante, sa mentionam faptul ca multa vreme a fost utilizata ca principal mijloc
 de reducere a temperaturii si a tulburarilor generate de febra, fiind socotita ca un fel de
 chinina. Acest fapt a fost si este posibil datorita salicilinei din coaja de rachita rosie, un
@@ -6558,15 +6558,15 @@ doua specii se gasesc, de obicei, in locurile unde creste si rachita rosie.
 ### Rachitanul
 Denumire stiintifica: Lythrum salicarial
 Denumiri populare: floarea zanei, lemnusca.
-Prezentare. Apartinand familiei litraceelor, rac hitanul este o specie de erbacee
+Prezentare. Apartinand familiei litraceelor, rachitanul este o specie de erbacee
 perena. Inaltimea sa, ca erbacee, este impresionanta – peste 2,50 metri. Are un rizom
 lemnificat, tulpina puternica, muchiata, frunze opuse – in cea mai mare parte lanceolate.
 Rachitanul infloreste pe toata perioada verii, precum si in septembrie. Florile au culori
 rosu-violet sau roz, uneori fiind aproape albe, si se afla la subsuoara frunzelor, de cele
 mai multe ori grupate. Planta este mult cautata de albine, fiind o melifera cunoscuta.
-Creste in locuri umede, in mla stini, pe marginea apelor, in terenuri accidentate cu
+Creste in locuri umede, in mlastini, pe marginea apelor, in terenuri accidentate cu
 umezeala multa.
-Pentru nevoi medicinale se folose ste toata planta, inclusiv rizomul, din care se
+Pentru nevoi medicinale se foloseste toata planta, inclusiv rizomul, din care se
 prepara infuzie, decoct, extract.
 Substante active importante: ulei volatil, colina, glucozide, derivati flavonici.
 Intrebuintari. Preparatele din rachitan au calitati antiseptice, hemostatice,
@@ -6575,11 +6575,11 @@ inclusiv in reglarea activitatii gastro-intestinale. Aceste preparate sunt efici
 caz de dizenterie, ulcere, hemoragii gastro-intestinale.
 In anumite zone ale Romaniei, varfurile tinere, frunzele tinere si rizomii de rachitan
 se utilizeaza ca zarzavaturi, deja adoptate si de naturisti, pentru salate.
-### Racu letul
+### Raculetul
 Denumire stiintifica: Polygonum bistorta.
 Prezentare. Raculetul este o erbacee taratoare, perena, intalnita in flora spontana
 din zonele subalpine si alpine. Apartine familiei poligonaceelor. Rizomul este gros si
-bine dezvoltat, iar tulpina poate aju nge pana la un metru lungime. Florile sunt alb -
+bine dezvoltat, iar tulpina poate ajunge pana la un metru lungime. Florile sunt alb -
 rosietice si sunt dispuse in partea terminala a plantei, intr -o inflorescenta sub forma
 de spic.
 Partea medicinala a plantei este rizomul, care se recolteaza in luna mai. Din acest
@@ -6587,7 +6587,7 @@ rizom si din radacini se prepara decoct, un extract, faina, un vin medicinal.
 Substante active importante: acizi, amidon si foarte mult tanin.
 Intrebuintari. Preparatele din raculet au calitati diuretice deosebite. In general,
 efectele medicinale ale plantei tin de sectorul curatenie interna si detoxificare a
-organismului. Raculetul se foloses te, prin urmare, ca depurativ general, asigurand o
+organismului. Raculetul se foloseste, prin urmare, ca depurativ general, asigurand o
 primenire a organismului, revitalizandu-l si echilibrandu-l.
 ### Reventul
 Denumire stiintifica: Rheum officinale; Rheum palmatum.
@@ -6595,7 +6595,7 @@ Denumire populara: rubarba, rabarbura.
 Prezentare. Reventul este o leguma mai putin cunoscuta, celebra fiind, in
 schimb, pentru proprietatile sale medicinale. Isi are originea in Asia, fiind intalnit in flora
 spontana din nordul Chinei. In Romania, reventul apare numai sub forma cultivata. Este
-o erbacee perena ce apartine de familia poligonaceelor. Traie ste circa 10 ani si este
+o erbacee perena ce apartine de familia poligonaceelor. Traieste circa 10 ani si este
 
 114 DICTIONARUL PLANTELOR DE LEAC
 avantajoasa pentru utilizare in bucatarie, putand fi recoltata din primavara si pana in
@@ -6607,26 +6607,26 @@ formeaza un panicul si au culoarea purpurie. Fructul de revent este o nucula.
 Pentru utilizari medicinale se recolteaza radacinile si rizomii, din care se prepara
 o pulbere. Radacinile si rizomii reventului au un gust foarte amar. Pentru consum
 alimentar se utilizeaza petiolul frunzelor si, foarte rar, dar si cu multa precautie, frunzele
-– cand sunt tinere si mici. Unii specialis ti nu recomanda frunzele de revent pentru
+– cand sunt tinere si mici. Unii specialisti nu recomanda frunzele de revent pentru
 consum alimentar.
 Substante active importante: cantitati semnificative de zahar, vitamine, acizi
 organici, precum si o substanta specifica numita reina. Reventul contine vitaminele
 B1, B2 si C, microelemente, proteine, acid malic, lactic, citric, oxalic, ulei volatil, tanin .
 Specialistii considera ca fiind foarte importanta prezenta acidului lactic. In radacina
-se gasesc compu si antrachinonici (acid crizofanic, crizofaneina, emodina, fiscion,
+se gasesc compusi antrachinonici (acid crizofanic, crizofaneina, emodina, fiscion,
 reocrisina), acestia fiind principalul agent laxativ.
 Intrebuintari. Rizomii si radacinile se recolteaza indeosebi de la plantele care au
 trecut de sase ani. Pentru a se obtine preparate medicinale de buna calitate, rizomii
 vor fi curatati de coaja. Traditia medicinii populare situeaza rizomii de revent printre
-cele mai importante remedi i utilizate in bolile de rinichi si de stomac. Radacina de
+cele mai importante remedii utilizate in bolile de rinichi si de stomac. Radacina de
 revent este cunoscuta ca un bun agent laxativ si purgativ. Reventul este folosit si in
-alte afectiuni, cum ar fi impotenta, stomacul lene s, lipsa de pofta de viata, parazitii
+alte afectiuni, cum ar fi impotenta, stomacul lenes, lipsa de pofta de viata, parazitii
 intestinali, dizenteria.
 ### Ricinul
 Denumire stiintifica: Ricinus communis.
 Denumire populara: capusa.
 Prezentare. Ricinul este o planta erbacee, anuala, cu o inaltime de pana la doi
-metri. Face parte din familia euforbiaceelor. Originar din Af rica, ricinul a fost aclimatizat
+metri. Face parte din familia euforbiaceelor. Originar din Africa, ricinul a fost aclimatizat
 si se cultiva si in Romania. Are o radacina pivotanta, puternica. Frunzele sunt palmat-
 lobate, cu petiolul lung, iar florile apar grupate. Florile de ricin sunt de diferite culori –
 verzi, rosii, violete. Fructul, sub forma de capsula cu ghimpi, contine seminte bogate in
@@ -6641,7 +6641,7 @@ Intrebuintari. Uleiul (untul) de ricin este un purgativ foarte eficient.
 Denumire stiintifica: Raphanus sativus (ridichea ro sie); Raphanus niger
 (ridichea neagra).
 Prezentare. Ridichea este o erbacee bienala. Apartine de familia cruciferelor
-si este caracterizata printr-o radacina ingro sata, a lungita sau sferica, neagra, ro sie
+si este caracterizata printr-o radacina ingrosata, a lungita sau sferica, neagra, ro sie
 sau alba. Frunzele de ridiche sunt fragede si crestate, petiolul fiind lung si puternic.
 Ridichea este una dintre cele mai vechi plante cultivate, in Antichitate fiind considerata
 o adevarata delicatesa la masa, dar si un remediu in multe afectiuni, printre care
@@ -6653,7 +6653,7 @@ sau pentru a se prepara un bandaj, utilizat in aplicatii locale. Combinate cu mi
 sucurile de ridiche pot fi usor de consumat.
 Substante active importante: foarte mult potasiu, vitamina C, microelemente,
 ulei volatil, vitaminele A, B1, B2, rafanol, tocoferol, hidrati de carbon, proteine.
-Intrebuintari. Preparatele de ridiche contribuie, in mod obi snuit, la buna
+Intrebuintari. Preparatele de ridiche contribuie, in mod obisnuit, la buna
 functionare a ficatului, bilei, rinichilor, fiind recomandate suferinzilor de litiaza biliara
 sau renala, dischinezie, colecist, astm bron sic, tuse, reumatisme, guta. Ridichea
 actioneaza asupra organelor interne si din exterior, fiind un adevarat agent revulsiv.
@@ -6676,7 +6676,7 @@ Ridichea salbatica este o buruiana care creste, adesea, prin culturile de grau.
 Denumire stiintifica: Punica granatum.
 Prezentare. Usor de gasit in zona mediteraneana, rodiul este un arbust din
 familia punicaceelor. Isi are originea in Persia si Mesopotamia. Rodiul este spinos si
-are frunze lucioase, lanceolate, inaltimea sa obi snuita fiind de trei- cinci metri. Florile,
+are frunze lucioase, lanceolate, inaltimea sa obisnuita fiind de trei- cinci metri. Florile,
 in numar mare, au culoarea ros ie, fiind deosebit de frumoase. Din acest motiv, rodiul
 este o planta ornamentala foarte apreciata. Fructul sau este original ca structura, se
 numeste rodie si mai este cunoscut si sub numele de granata.
@@ -6702,9 +6702,9 @@ Prezentare. Rodul pamantului este o erbacee perena. Aceasta planta are in sol
 un tubercul bine dezvoltat, de forma cilindrica, rareori de forma ovoidala. Frunzele sunt
 mari, groase, lucioase, puternic clorofilate, cu petiolul lung. Inflorescenta este un spic
 alb-galbui care se dezvolta in lunile aprilie, mai si iunie. Fructele de rodul pamantului
-sunt ni ste boabe ro sii. Rodul pamantului cre ste prin paduri, in zone umbroase si
+sunt niste boabe rosii. Rodul pamantului creste prin paduri, in zone umbroase si
 umede.
-Pentru nevoi medicinale se folose ste radacina (tuberculul), care se recolteaza
+Pentru nevoi medicinale se foloseste radacina (tuberculul), care se recolteaza
 primavara foarte devreme. Unii specialisti recomanda, pentru preparate medicinale, si
 fructul bine maturizat.
 Substante active importante: o substanta specifica numita aroina, amidon,
@@ -6722,12 +6722,12 @@ Prezentare. Rogozul, o planta din familia ciperaceelor, este o erbacee iubitoare
 de umezeala. Cartile de herbalistica descriu nu mai putin de opt specii de rogoz.
 Caracteristic pentru toate aceste plante este faptul ca au tulpina muchiata. Rogozul
 este o planta inalta – peste un metru – cu florile grupate in spic terminal. Multi naturisti
-considera rogozul o planta fara prea mare importanta medicinala. Totu si, marele
+considera rogozul o planta fara prea mare importanta medicinala. Totusi, marele
 specialist francez Jean Valnet, include rogozul in categoria plantelor medicinale.
-Potrivit lui Valnet, rogozul are propri etati depurative, diuretice si sudorifice, fiind util,
+Potrivit lui Valnet, rogozul are proprietati depurative, diuretice si sudorifice, fiind util,
 sub forma de fiertura (decoct), in boli ale articulatiilor, reumatisme, boli ale pielii. Mai
 mult decat atat, au fost identificate chiar si proprietati anticancerigene ale preparatelor
-obtinute din aceasta planta. In acest sens, Jean Valnet aminte ste de un tratament in
+obtinute din aceasta planta. In acest sens, Jean Valnet aminteste de un tratament in
 cazul unui cancer de limba.
 ### Roiba
 Denumire stiintifica: Rubia tinctorum.
@@ -6736,7 +6736,7 @@ Prezentare. Roiba este o planta erbacee intalnita in flora spontana. Apartine
 familiei rubiaceelor. Rizomul sau este mediu dezvoltat, iar tulpina, care poate ajunge la
 maximum un metru inaltime, are patru muchii. Frunzele sunt lanceolat-eliptice. Florile,
 marunte, au culoarea galben-palid si apar in lunile iunie si iulie. Fructul de roiba este
-o baca brun-roscata, uneori neagra. Aceasta planta cres te pe parloage, in pamanturi
+o baca brun-roscata, uneori neagra. Aceasta planta creste pe parloage, in pamanturi
 intelenite, pe taluzurile drumurilor, pe marginea terenurilor cultivate.
 Pentru nevoi medicinale se recolteaza radacina, care are culoare rosie, si rizomul.
 Din acestea se prepara infuzie, pulbere, extracte.
@@ -6756,17 +6756,17 @@ in bolile articulatiilor, anemie, lipsa de pofta de mancare, rahitism.
 ### Roinita
 Denumire stiintifica: Melissa officinalis.
 Denumiri populare: iarba roiului, busuiocul stupului, roiste.
-Prezentare. Roinita este o planta erbacee perena, apartina nd familiei labiatelor.
+Prezentare. Roinita este o planta erbacee perena, apartinand familiei labiatelor.
 Rizomul, de culoare brun -galbuie, este lemnificat. Tulpina are muchii si se ramifica,
 ajungand pana la 80 cm inaltime. Frunzele au forma ovala si sunt paroase, ca de
 altfel intreaga parte superioara a tulpinii. Florile formeaza o inflorescenta, culoarea lor
 schimbandu-se pe masura ce floarea evolueaza – la inceput este galbuie, pentru ca
 mai apoi sa devina alba sau usor liliachie. Roinita infloreste toata vara, fiind cunoscuta
-ca o planta melifera. Cre ste pretutindeni in flora sponta na din Romania, in zonele de
+ca o planta melifera. Creste pretutindeni in flora spontana din Romania, in zonele de
 campie si deal, in lumini suri, pe paji sti, pe fanete si poieni, pe marginea drumurilor,
 preferand locurile uscate si adapostite. Mireasma acestei plante este foarte placuta –
 roinita raspandeste o aroma de lamaie.
-Uleiul volatil extras din frunzele de roinita se foloses te in industria
+Uleiul volatil extras din frunzele de roinita se foloseste in industria
 medicamentelor.
 Din punct de vedere medicinal, valoroase sunt frunzele, varfurile tinere cu frunze
 si flori, uneori numai florile, din care se prepara infuzie, decoct, tinctura, suc.
@@ -6781,7 +6781,7 @@ frunze de roinita sunt indicate in colite cronice, spasme si colici pe traiectul
 DICTIONARUL PLANTELOR DE LEAC 117
 intestinal, dischinezii biliare, tulburari neurovegetative, lipsa de pofta de mancare,
 voma, diaree. Preparatele de roinita stimuleaza secretia celulei hepatice, amplifica
-secretia biliara, diminueaza starile de agitatie si nelini ste, imbunatatesc activitatea
+secretia biliara, diminueaza starile de agitatie si neliniste, imbunatatesc activitatea
 stomacului, faciliteaza digestia. De asemenea, combat ametelile, pierderile scurte de
 constiinta, migrenele, blocajele digestive.
 Roinita este o planta foarte cautata de albine, mierea obtinuta fiind un adevarat
@@ -6791,7 +6791,7 @@ Denumire stiintifica: Chelidonium majus.
 Denumire populara: negelarita.
 Prezentare. Rostopasca este o erbacee perena, din familia papaveraceelor.
 Planta aceasta – usor de identificat deoarece atunci cand este rupta elimina un lichid
-galben, acru si otravitor – cres te sub forma unei tufe bogate. Tulpinile, puternice, au
+galben, acru si otravitor – creste sub forma unei tufe bogate. Tulpinile, puternice, au
 peri lungi, iar frunzele, palmate, au o culoare ciudata – verde batand spre albastrui.
 Florile, intre doua si opt pe fiecare planta, sunt adunate intr -o inflorescenta sub forma
 de umbela, culoarea lor fiind galben -aurie. Rostopasca prefera locurile umbroase si
@@ -6806,7 +6806,7 @@ printre altele, si despre cativa alcaloizi de mare importanta in terapiile medic
 dintre ei, printre care si chelidonina, sunt toxici.
 Intrebuintari. Administrarea preparatelor de rostopasca se face intern si extern.
 Extern, de exemplu, se folosesc in combaterea unei afectiuni teribile – tuberculoza pielii,
-preparatul de rostopasca fiind hranitor si antiseptic. Intern, rostopasca se folose ste in
+preparatul de rostopasca fiind hranitor si antiseptic. Intern, rostopasca se foloseste in
 afectiuni cardiace (insuficienta cardiaca, anghina pectorala), in tratarea tusei spastice,
 precum si in afectiuni ale bilei si ficatului. Rostopasca se foloseste si in unele cazuri de
 cancer, avand, se spune, efecte antitumorale. Are influenta, de asemenea, si asupra
@@ -6833,10 +6833,10 @@ Substante active importante: chinona, taninuri, acizi, enzime.
 Intrebuintari. Roua cerului este utilizata ca planta medicinala de multa vreme.
 Substantele pe care le contine au efecte antispastice, antitusive, antibiotice. Chinona,
 de exemplu, impiedica dezvoltarea bacteriilor. Extractul de roua cerului calmeaza si
-destinde mu schii, reduce glicemia, combate gu turaiul s i provoaca o buna diureza.
+destinde muschii, reduce glicemia, combate guturaiul s i provoaca o buna diureza.
 Roua cerului este cunoscuta si ca planta oratorilor, avand capacitatea de a combate
 raguseala si de a reface coardele vocale. Aceasta planta este folosita si in industria
-farmaceutica, mai ales pentru prepararea medicame ntelor necesare in tratamentul
+farmaceutica, mai ales pentru prepararea medicamentelor necesare in tratamentul
 tusei convulsive.
 
 118 DICTIONARUL PLANTELOR DE LEAC
@@ -6846,14 +6846,14 @@ Prezentare. Rozmarinul este un subarbust din familia labiatelor, intalnit in flo
 spontana din zona mediteraneana. In Romania, rozmarinul este cultivat ca arbust
 ornamental sau ca planta medicinala. Inaltimea acestei frumoase plante poate atinge,
 cel mult, doi metri. Frunzele rozmarinului, de forma aciculara, pieloase, raman mereu
-verzi. Florile au culoarea albastra, rareori alba, violacee sau ch iar rosie. Rozmarinul
+verzi. Florile au culoarea albastra, rareori alba, violacee sau chiar rosie. Rozmarinul
 infloreste in lunile aprilie, mai si iunie.
 Pentru intrebuintari medicinale se recolteaza frunzele si tulpinile tinere de rozmarin,
 acestea din urma cu tot cu frunze si flori. Preparatele si extractele de rozmarin sunt
 utilizate si in industria parfumurilor, rozmarinul fiind o planta aromatica.
 Substante active importante: ulei esential (in frunze, in proportie de 12%),
 cetone, camfor, cineol, tanin, acid rozmarinic.
-Intrebuintari. Uleiul de rozmarin este un calmant recomandat in durer ile
+Intrebuintari. Uleiul de rozmarin este un calmant recomandat in durerile
 reumatismale, ale articulatiilor, in nevralgii sau in hemiplegii. Este tonifiant si revitalizant,
 fiind folosit in anemii, astenie, oboseala indelungata, boli cardiovasculare. Uleiul de
 rozmarin are si proprietati antiseptice.
@@ -6865,7 +6865,7 @@ rozmarin se poate combate matreata.
 Denumire stiintifica: Adonis vernalis.
 Prezentare. Ruscuta de primavara este o mica planta perena, cu o inaltime de
 maximum 40 cm. Face parte din familia ranunculaceelor. Radacinile au o conformatie
-fibroasa, iar frunzel e sunt sesile, penat -sectate. Ruscuta inflore ste in lunile aprilie si
+fibroasa, iar frunzele sunt sesile, penat -sectate. Ruscuta infloreste in lunile aprilie si
 mai. Florile sunt solitare, galben- aurii, lucioase. Planta poate fi culeasa de pe pas uni,
 fanete, terenuri framantate, locuri lasate in paragina.
 Valoare medicinala au florile, din care se prepara infuzie si tinctura.
@@ -6891,14 +6891,14 @@ Frunzele se consuma ca atare sau se prepara sub forma de suc, decoct, cataplasme
 lotiuni. Din seminte se prepara infuzie si decoct.
 Substante active importante: cateva substante specifice – lactuarina, lactucina,
 acid lactucic, apoi potasiu, calciu, fosfor, fier, vitaminele A, B1, B2, C si E, hidrati de
-carbon, caroten. Potasiul, calciul, fosfo rul si vitaminele A si C se gasesc in cantitati
+carbon, caroten. Potasiul, calciul, fosforul si vitaminele A si C se gasesc in cantitati
 
 DICTIONARUL PLANTELOR DE LEAC 119
 semnificative.
 Intrebuintari. Salata este unul dintre cele mai vechi sedative cunoscute. Parintii
 medicinii si farmaciei ii cunosteau, acum mai bine de 2000 de ani, proprietatile calmante
 si antispastice. In mod curent, salata verde este recomandata celor care sufera de
-oboseala nervoasa, de insomnie, de bron sita si astm. Salata verde contribuie la
+oboseala nervoasa, de insomnie, de bronsita si astm. Salata verde contribuie la
 macinarea calculilor renali si hepatici, avand si rolul de a reduce inflamatiile din aceste
 importante organe. D e asemenea, salata verde reduce hiperexcitabilitatea sexuala,
 fiind, deci, anafrodiziaca. Are efecte benefice si in afectiuni precum guta, durerile
@@ -6913,16 +6913,16 @@ Denumire stiintifica: Evonymus europeea; Evonymus latifolius.
 Denumire populara: lemnul cainelui, vonicer.
 Prezentare. Salba moale este un arbust des tul de inalt (ajunge pana la sase
 metri inaltime), raspandit in spatiul romanesc prin paduri, locuri in care a fost padure,
-tufarisuri, pamanturi parasite. Cre ste, in mod obi snuit, in zonele de campie si deal,
+tufarisuri, pamanturi parasite. Creste, in mod obisnuit, in zonele de campie si deal,
 uneori si la munte. Face parte din familia celastraceelor. Ramurile tinere ale arbustului
 de salba moale sunt muchiate, iar frunzele – lanceolate sau eliptice. Florile au o culoare
-amestecata, de verde cu galben, un galben -pal spre verzui. Salba moale inflore ste la
+amestecata, de verde cu galben, un galben -pal spre verzui. Salba moale infloreste la
 sfarsitul primaverii si inceputul verii. Fructul este o capsula.
 Pentru uz medicinal se recolteaza frunzele, florile, scoarta. Partea cu cele mai
 puternice efecte medicinale este scoarta.
 Substante active importante: doua substante specifice – evatrozida si
 evatromonozida, plus o grupare de heterozoide.
-Intrebuintari. Datorita compu silor sai deosebit de activi, salba moale este o
+Intrebuintari. Datorita compusilor sai deosebit de activi, salba moale este o
 planta care poate sa faca bine inimii si sistemului vascular, mai ales in hipertensiune.
 Este indicata si in insuficienta cardiaca, preparatele de salba moale fiind un tonic al
 inimii si al sistemului circulator. Se foloseste si in tratarea vezicii biliare, intensificandu-i
@@ -6937,10 +6937,10 @@ Denumiri populare: brebene, lemn alb, salcam alb, acacie.
 Prezentare. Salcamul, atat de cunoscut la noi, este un arbore exotic, originar
 din America. Face parte din familia leguminoaselor si poate atinge inaltimea de 30 de
 metri, uneori si mai mult. Scoarta salcamului este puternic crestata. Frunzele sunt usor
-carnoase, mici si au forma de elipsa. Salcamul inflore ste in lunile mai si iunie, florile
+carnoase, mici si au forma de elipsa. Salcamul infloreste in lunile mai si iunie, florile
 fiind alb -verzui sau roz deschis, grupate sub forma unui ciorchine. Florile au miros
-frumos, sunt placute la gust si au o mare valoare melifera. Fructele sunt ni ste pastai
-de maximum 10 cm lungime. Salcamul cre ste in zonele de campie si deal, mai putin
+frumos, sunt placute la gust si au o mare valoare melifera. Fructele sunt niste pastai
+de maximum 10 cm lungime. Salcamul creste in zonele de campie si deal, mai putin
 la munte. Este cultivat sau poate fi intalnit in flora spontana – in paduri amestecate, in
 paduri de salcam sau ca arbori singuratici.
 Pentru nevoi medicinale se recolteaza florile, dar pentru unele tratamente se
@@ -6950,7 +6950,7 @@ Substante active importante: doi compusi specifici – robinina si acaciina, apo
 uleiul volatil si glucozidele flavonice.
 Intrebuintari. Preparatele de flori de salcam sunt un antitusiv eficient. Scoarta
 este folosita in prepararea unei infuzii necesare in diminuarea hiperaciditatii gastro -
-intestinale si a u lcerului. Infuzia de salcam este recomandata in gastrite hiperacide,
+intestinale si a ulcerului. Infuzia de salcam este recomandata in gastrite hiperacide,
 ulcer gastroduodenal, arsuri gastrice, insomnii, migrene, afectiuni ale tractului
 respirator.
 
@@ -6960,19 +6960,19 @@ consumate proaspete, mai ales in salate sau in amestec cu miere de albine.
 ### Salcamul japonez
 Denumire stiintifica: Sophora japonica.
 Denumiri populare: salcam boieresc, sofora.
-Prezentare. Salcamul japonez, un arbore din f amilia papilionaceelor, este cultivat
+Prezentare. Salcamul japonez, un arbore din familia papilionaceelor, este cultivat
 ca arbore ornamental – putina lume cunoscandu-i proprietatile sale medicinale. Este un
 copac puternic, ce poate ajunge la 30 de metri inaltime. Frunzele sale, penat-compuse,
 sunt ceva mai mari decat ale salcamului obisnuit, fiind paroase pe partea inferioara si,
 totodata, mai deschise la culoare pe aceasta parte. Florile, de culoare alba cu reflexe
 verzui, sunt grupate. Fructul salcamului japonez este o pastaie mare.
 Valoare medicinala, in cazul salcamului japonez, au florile, culese cu putin timp
-inainte de a inf lori. Bobocii florali ai acestui salcam contin circa 20% rutozide – un
+inainte de a inflori. Bobocii florali ai acestui salcam contin circa 20% rutozide – un
 compus deosebit de important in tratarea afectiunilor circulatorii.
 Substante active importante: glicozide flavonice, alcaloizi, pectine, mucilagii,
 ulei eteric, rutozide.
 Intrebuintari. Preparatele din florile si bobocii de salcam japonez sunt remedii
-pentru o serie intreaga de afectiuni cardiovasculare. Bogatia de compu si face din
+pentru o serie intreaga de afectiuni cardiovasculare. Bogatia de compusi face din
 salcamul japonez un leac deosebit de util pentru tratamente privind imbunatatirea
 circulatiei periferice, hemoroizii, tulburarile de circulatie la nivelul articulatiilor,
 hipertensiunea arteriala, glaucomul, unele afectiuni ale ficatului. Potrivit unor
@@ -6985,7 +6985,7 @@ Prezentare. Salvia, un foarte pretuit arbust din familia labiatelor, are o talie
 si cunoaste, in dezvoltarea sa, mai multe varietati. Sub numele de salvie se intalnesc
 mai multe specii, valoare medicinala avand, insa, cea numita Salvia officinalis.
 Arbustul de Salvia officinalis are tulpina semilemnoasa si o inaltime cuprinsa intre
-30 si 100 cm. Frunzele au forma ovala, iar florile sunt de c ulori diferite – albastru, alb,
+30 si 100 cm. Frunzele au forma ovala, iar florile sunt de culori diferite – albastru, alb,
 galben sau violet. Salvia este cultivata nu numai ca planta medicinala, ci si ca arbust
 ornamental, fiind o planta ce raspandeste un miros placut.
 Pentru terapii medicinale se recolteaza frunzele, in perioada de maxima vegetatie.
@@ -6993,7 +6993,7 @@ Preparatul principal care se obtine din salvie este infuzia. Se mai prepara, in 
 de necesitati, decoct, comprese, lotiuni, infuzie pentru bai, ceai medicinal – acesta in
 asociere cu alte plante medicinale.
 Substante active importante. Valoarea terapeutica a salviei este data si
-de numero sii sai compus i: ulei volatil, camfor, borneol, terpene, cineol, compu si
+de numerosii sai compus i: ulei volatil, camfor, borneol, terpene, cineol, compusi
 estrogeni.
 Intrebuintari. Preparatele din frunze de salvie au nu mai putin de 13 efecte in
 plan medicinal, salvia fiind, printre altele, expectoranta, carminativa, febrifuga, tonic
@@ -7005,7 +7005,7 @@ propus de dr. Chirila: infuzie timp de 10 minute, dupa ce s -au pus 1 – 2 ling
 planta la o cana de apa. Se bea ceaiul, de doua-trei ori pe zi, dupa mese. Pentru
 gargara se prepara o infuzie concentrata, adica se pun 15 g de planta la o cana de
 apa.
-Salvia se folose ste si in aplicatii medicinale externe. Tratamentele externe cu
+Salvia se foloseste si in aplicatii medicinale externe. Tratamentele externe cu
 preparate medicinale din salvie vizeaza rani vechi, rosaturi ale pielii, iritatii, facandu-se
 spalaturi locale sau aplicandu-se comprese si lotiuni.
 ### Saschiul
@@ -7016,7 +7016,7 @@ Prezentare. Saschiul este o planta erbacee perena, apartinand familiei
 DICTIONARUL PLANTELOR DE LEAC 121
 apocinaceelor. Tulpina principala a saschiului se dezvolta pe sol si poate ajunge la
 un metru lungime. Din ea se desprind tulpinile secundare, pe care se dezvolta florile.
-Frunzele, lucioase, au forma de elipsa. Saschiul inflore ste in lunile martie si aprilie.
+Frunzele, lucioase, au forma de elipsa. Saschiul infloreste in lunile martie si aprilie.
 Florile sunt colorate in albastru, violet sau ro su spre roz, uneori sunt albe. Saschiul
 creste in flora spontana – in paduri, la marginea padurilor, pe liziere, in tufarisuri. Planta
 este deosebit de frumoasa si se cultiva pentru decor.
@@ -7027,7 +7027,7 @@ Substante active importante: o substanta specifica – vincamina, acizi, hidrati
 carbon, saruri minerale, vincosida, pectina.
 Intrebuintari. Saschiul are proprietati sedative si antispastice. Este relaxant,
 vasodilatator, depurativ, contribuind la descongestionarea tesuturilor. Preparatele de
-saschiu se utilizeaza, cu precadere, in afectiuni c ardiace, precum si in cele legate de
+saschiu se utilizeaza, cu precadere, in afectiuni cardiace, precum si in cele legate de
 circulatia sangelui, fiind folosit in tratamente impotriva arterosclerozei si hipertensiunii
 – este vasodilatator, vasoregulator, tonic al circulatiei coronariene si periferice,
 favorizeaza oxigenarea creierului, reduce tonusul arterial.
@@ -7036,16 +7036,16 @@ magice. Si tot din acele timpuri, saschiul este cunoscut ca un remediu de nadejd
 caz de cefaleele sau de ameteli.
 Datorita, in primul rand, compusul ui numit vincamina, saschiul este folosit si in
 industria farmaceutica.
-### Sani soara
+### Sanisoara
 Denumire stiintifica: Sanicula europaea.
-Prezentare. Sanisoara este o e rbacee de numai 30 – 40 cm, iubitoare de
-umezeala si umbra, intalnita prin padurile de la munte. Aparti ne familiei umbeliferelor.
+Prezentare. Sanisoara este o erbacee de numai 30 – 40 cm, iubitoare de
+umezeala si umbra, intalnita prin padurile de la munte. Apartine familiei umbeliferelor.
 Sanisoara se remarca printr-o tulpina aeriana dreapta si destul de rezistenta. Frunzele,
 dotate cu un petiol lung, sunt dispuse in rozeta. Florile, de culoare alb-ro sietica, mici,
 se grupeaza intr-un fel de capitul. Apar in mai, iunie si iulie.
 Pentru aplicatii medicinale se recolteaza partea aeriana a plantei, in special partea
 dinspre varf, sau chiar varful, cu tot cu frunze tinere si flori. Valoare medicinala au si
-semintele de sani soara, precum si radacinile. Se prepara infuzie, decoct, extracte,
+semintele de sanisoara, precum si radacinile. Se prepara infuzie, decoct, extracte,
 comprese.
 Substante active importante: florile, tulpinile si frunzele contin foarte multe
 substante active, printre care saruri minerale, flavone, glucide, saponine, ulei volatil,
@@ -7060,7 +7060,7 @@ Denumiri populare: vacarita, sapunel, berbecei, odogaci.
 Prezentare. Sapunarita – o erbacee perena din familia cariofilaceelor – are o
 inaltime de pana la 70 cm, frunzele in forma de elipsa si florile de culoare roz, rareori
 alba.
-Pentru uz medicinal se recolteaza radacina, care se marunte ste, se macereaza
+Pentru uz medicinal se recolteaza radacina, care se marunteste, se macereaza
 sau se foloseste la decoct. Marii specialisti in plante medicinale (Jean Valnet, de pilda),
 recomanda utilizarea intregii plante. Din aceasta se poate prepara un suc medicinal, iar
 partea frageda a plantei (varful cu frunze si flori) se striveste si se aplica sub forma de
@@ -7071,7 +7071,7 @@ minerale, substante albuminoide, rasini.
 Intrebuintari. Radacina de sapunarita are actiune diuretica, sudorifica,
 expectoranta, vermifuga, cicatrizanta. Este recomandata in afectiuni ale cailor
 respiratorii (bronsite), dischinezii biliare, viermi intestinali. Extern, cu preparatele de
-sapunarita se trateaza ranile, afectiunile dermatologice, oxiuri aza. Pentru tratarea
+sapunarita se trateaza ranile, afectiunile dermatologice, oxiuriaza. Pentru tratarea
 oxiuriazei se fac bai si clisme. Sapunarita se foloseste si impotriva tusei.
 
 122 DICTIONARUL PLANTELOR DE LEAC
@@ -7096,7 +7096,7 @@ este infuzia.
 Substante active importante: ulei volatil, cumarina, tanin, glucide.
 Intrebuintari. Calitatile medicinale ale sanzienelor sunt inca putin puse in
 evidenta. Se stie, de exemplu, ca sanziana galbena (Galium verum) este un agent
-activ de curatare a r inichilor, a cailor urinare s i a ficatului. De asemenea, sanzienele
+activ de curatare a rinichilor, a cailor urinare s i a ficatului. De asemenea, sanzienele
 contribuie la diminuarea spasmelor, precum si la sporirea laptelui in cazul femeilor care
 alapteaza. Unii speciali sti in domeniu afirma ca sanzienele pot fi utilizate in tratarea
 celor bolnavi de epilepsie sau de guta.
@@ -7107,13 +7107,13 @@ trebui sa lipseasca in nici o zi din dieta persoanelor nervoase. Si sanziana alb
 folosita in epilepsie, precum si in diabet.
 ### Scaiul dracului
 Denumire stiintifica: Eryngium maritimum.
-Prezentare. Acest scai, intalnit mai rar, este o planta ce cre ste la malul marilor,
+Prezentare. Acest scai, intalnit mai rar, este o planta ce creste la malul marilor,
 fiind prezent si pe nisipul Marii Negre. Apartine familiei umbeliferelor. Are dezvoltare
 bienala sau perena, in functie de clima. Se prezinta ca o tufa sferica, a carei inaltime nu
 trece de 30 – 40 cm. Frunzele au forme diferite si sunt crestate, aparent la intamplare.
 Florile de scaiul dracului apar in lunile iulie si august, sunt micute, au culoare albastruie
 si formeaza o inflorescenta asemanatoare cu un capitul. Scaiul dracului este o planta
-frumoasa, avand un aspect impresionant. Din acest motiv a si fost distrusa de turi stii
+frumoasa, avand un aspect impresionant. Din acest motiv a si fost distrusa de turistii
 aflati la mare, in prezent fiind pe cale de disparitie.
 Pentru uz medicinal se recolteaza radacina, din care se prepara decoct, sirop
 diuretic, extract fluid. In asociere cu alte plante medicinale, se obtine o mixtura.
@@ -7130,24 +7130,24 @@ din tara noastra.
 Denumire stiintifica: Centaurea calcitrapa.
 Denumire populara: maturi, ghimpe, scaiete.
 Prezentare. Scaiul ghimpos face parte din familia compozitelor si este o planta
-puternica, bienala, cu tulpina dreapta. Cres te sub forma unor tufe cu peri aspri,
+puternica, bienala, cu tulpina dreapta. Creste sub forma unor tufe cu peri aspri,
 inaltimea tufei de scai ghimpos poate ajunge pana la 60 cm. Frunzele sunt spinoase si
 
 DICTIONARUL PLANTELOR DE LEAC 123
-adanc crestate, impartite in lobi. Tufa de scai ghimpos inflore ste toata vara si chiar si
+adanc crestate, impartite in lobi. Tufa de scai ghimpos infloreste toata vara si chiar si
 in septembrie, florile avand culoarea rosie-roza. Pe marginea florii, de jur- imprejur, se
 gasesc spini. Fructele scaiului ghimpos au forma de achena. Scaiul ghimpos creste pe
 pasuni, pe pajisti, pe marginea drumurilor, in locuri uscate sau aflate in paragina.
-Pentru uz medicinal se folose ste toata planta, recomandate fiind, insa, frunzele
+Pentru uz medicinal se foloseste toata planta, recomandate fiind, insa, frunzele
 si florile. Din scai ghimpos se prepara infuzie, decoct, suc si vin medicinal, cel mai
 frecvent preparat fiind infuzia.
 Intrebuintari. Preparatele din scai ghimpos sunt tonice, revitalizante, diuretice.
 Curata organismul si, mai ales, tractul gastro-intestinal. Sunt folosite in raceli, in primul
 rand pentru reducerea febrei.
 Intrebuintari medicinale asemanatoare are si scaiul galben (Centaurea solstitialis).
-Acest scai este si mai bine dotat cu spini, aces tia fiind ascutiti, lungi, de culoare
+Acest scai este si mai bine dotat cu spini, acestia fiind ascutiti, lungi, de culoare
 galbena. De altfel, toate ramificatiile tulpinii scaiului galben sunt pline de spini. Scaiul
-galben infloreste din iunie si pana in octombrie, fiind u sor de recunoscut dupa florile
+galben infloreste din iunie si pana in octombrie, fiindu sor de recunoscut dupa florile
 galbene, inconjurate de spini. Poate fi intalnit in aceleasi locuri in care creste si scaiul
 ghimpos.
 ### Scaiul magaresc
@@ -7156,7 +7156,7 @@ Denumire populara: ghimpe mare.
 Prezentare. Scaiul magaresc este o erbacee puternica, inalta, cu frunze mari,
 impodobite cu spini. Apartine familiei compozitelor. Tulpina este groasa si foarte
 rezistenta la rupere. Intreaga planta este impodobita cu spini galbeni si lungi. Culoarea
-tulpinii si a frunzelor este albicioasa. Scaiul magaresc inflore ste tarziu, spre sfar situl
+tulpinii si a frunzelor este albicioasa. Scaiul magaresc infloreste tarziu, spre sfarsitul
 verii. Florile sunt ros ii sau violet -rosietice. Aceasta planta poate fi intalnita in locuri
 uscate si insorite, pe marginea drumurilor, pe terenuri necultivate, in locuri salbatice.
 Pentru preparate medicinale se recolteaza partea aeriana a plantei, cu precadere
@@ -7176,12 +7176,12 @@ maidanele. Face parte din familia umbeliferelor. Scaiul vanat poate ajunge pana 
 inaltimea de 60 cm. Tulpina este dreapta, iar in partea superioara se ramifica sub
 forma sferica. Frunzele sunt mici si dintate, iar florile, dispuse in capitule, au culoare
 violacee. Planta infloreste pe tot parcursul verii si la inceputul toamnei.
-In practica medic inala se prelucreaza toata planta, mai ales sub forma de
+In practica medicinala se prelucreaza toata planta, mai ales sub forma de
 decoct.
 Substante active importante: saponinele.
 Intrebuintari. Scaiul vanat are actiune benefica in cazul afectiunilor cailor
-respiratorii, fiind un expectorant puternic si un calmant local. Decoctu l de scai vanat
-fluidizeaza secretia bron sica si, de aceea, este recomandat in brons ite si in tuse
+respiratorii, fiind un expectorant puternic si un calmant local. Decoctul de scai vanat
+fluidizeaza secretia bron sica si, de aceea, este recomandat in bronsite si in tuse
 convulsiva. Scaiul vanat este folosit si in realizarea unor ceaiuri compuse din mai multe
 plante, ceaiuri ale caror efecte medicinale sunt, adesea, remarcabile.
 ### Scara Domnului
@@ -7226,7 +7226,7 @@ Prezentare. Schinduful este o planta erbacee anuala, originara din zona Marii
 Mediterane. Face parte din familia leguminoaselor. Tulpina – ramificata, cilindri ca,
 poate ajunge la maximum 75 cm inaltime. Frunzele sunt alterne, trifoliate. Florile au
 culoare usor galbuie sau liliachie si apar in lunile iunie si iulie. Fructul de schinduf este
-o pastaie cu boabe brun-galbui. Schinduful are un miros specific, putern ic. Poate fi
+o pastaie cu boabe brun-galbui. Schinduful are un miros specific, puternic. Poate fi
 intalnit, ca buruiana, prin semanaturi, dar se si cultiva pentru nutret sau chiar pentru
 intrebuintari in bucatarie.
 Schinduful este una dintre cele mai vechi plante medicinale, fiind utilizat, de multa
@@ -7252,7 +7252,7 @@ omului obisnuit. In orice caz, seamana intrucatva cu sofranul de cultura.
 Pentru uz medicinal se recolteaza si se prelucreaza varfurile tinere, cu tot cu flori,
 
 DICTIONARUL PLANTELOR DE LEAC 125
-din care, in mod obi snuit, se face infuzie. Alte preparate medicinale realizate pe baza
+din care, in mod obisnuit, se face infuzie. Alte preparate medicinale realizate pe baza
 de schinel: decoct, tinctura, extract, pilule.
 Substante active importante: benedictina si cnicina – substante specifice, ulei
 volatil, tanin.
@@ -7273,8 +7273,8 @@ Prezentare. Sclipetii sunt o erbacee perena. Fiind o planta care apartine famili
 rozaceelor, sclipetii au o floare foarte frumoasa, de culoare galbena. Rizomul este
 cilindric, consistent, gros de circa doi centimetri. Din acest rizom bogat cresc tulpinile
 aeriene, grupate, cu o inaltime redusa (maximum 50 cm). Frunzele au forma lanceolata,
-fiind dintate. Aceasta planta inflore ste din mai si pana la sfarsitul verii. Cre ste in
-flora spontana – pe dealuri, in regiunile subalpine, dar si prin Muntii Maramure sului,
+fiind dintate. Aceasta planta infloreste din mai si pana la sfarsitul verii. Creste in
+flora spontana – pe dealuri, in regiunile subalpine, dar si prin Muntii Maramuresului,
 Sebesului, Bihorului, precum si in Carpatii Meridionali.
 Valoare medicinala au rizomii de sclipeti, care se recolteaza primavara devreme
 sau toamna, dupa ce planta i si inceteaza perioada de vegetatie. Din ace sti rizomi de
@@ -7291,23 +7291,23 @@ febra, au actiune astringenta si tonica.
 Denumire stiintifica: Cinnamomum ceylanicum; Cinnamomum cassia;
 Cinnamomum zeylanicum.
 Prezentare. Scortisorul este un arbust exotic, intalnit in flora din Indochina si
-Australia. Face parte din familia lauraceelor. Frunzele scorti sorului au forma ovala si
-sunt consistente, putern ice, uniform cerate. Florile de scorti sor au un miros placut,
+Australia. Face parte din familia lauraceelor. Frunzele scortisorului au forma ovala si
+sunt consistente, puternice, uniform cerate. Florile de scortisor au un miros placut,
 foarte persistent.
 Produsul de interes economic, dar si medicinal, care se obtine de la acest arbust,
 este scortisoara. Aceasta nu este altceva decat coaja care se recolteaza de pe ramurile
-tinere ale arborelui de scorti soara. Aceasta coaja are, atunci cand este recoltata, un
+tinere ale arborelui de scortisoara. Aceasta coaja are, atunci cand este recoltata, un
 gust acru-dulceag, mirosul fiind intepator si aromat. Prin uscare intensa, aceasta coaja
 devine ceea ce cunoastem noi sub numele de scortisoara. Pentru nevoi medicinale se
 prepara infuzie sau decoct, mai ales decoct – simplu sau in combinatie cu alte ceaiuri,
 sucuri sau vin.
 Substante active importante: ulei eteric, rezine, glucide, mucilagii, pectine,
 taninuri.
-Intrebuintari. Scortisoara are efecte relaxante, tonice, ant imicrobiene,
+Intrebuintari. Scortisoara are efecte relaxante, tonice, antimicrobiene,
 antiparazitare, cicatrizante, aperitive. Este folosita pentru ameliorarea unor afectiuni
 ale aparatului genital feminin, fiind considerata, potrivit unor practici medicinale
-stravechi, si un bun afrodiziac. Scorti soara face bine si pancreasului, fiind indicata
-celor suferinzi cu pancreasul. Uleiul esential de scortis oara se folose ste pentru a
+stravechi, si un bun afrodiziac. Scortisoara face bine si pancreasului, fiind indicata
+celor suferinzi cu pancreasul. Uleiul esential de scortisoara se foloseste pentru a
 face pofta de mancare, pentru calmarea spasmelor stomacale si intestinale, pentru
 
 126 DICTIONARUL PLANTELOR DE LEAC
@@ -7325,9 +7325,9 @@ padurile de munte, dar nu in zonele de mare inaltime.
 Valoare medicinala au fructele, cunoscute sub numele de scoruse.
 Substante active importante – vitamina C in cantitate mare, sorbina, sorbit, acid
 specific.
-Intrebuintari. Sub forma de ceai (decoct), fructul de scoru s este indicat ca
+Intrebuintari. Sub forma de ceai (decoct), fructul de scorus este indicat ca
 adjuvant in tratamentele diabeticilor. Se foloseste si ca agent pentru pofta de mancare,
-in anemii, in boli reumatice. Fructul de scoru s are un rol important in dinamizarea si
+in anemii, in boli reumatice. Fructul de scorus are un rol important in dinamizarea si
 regularizarea activitatii gastro-intestinale.
 ### Scumpia
 Denumire stiintifica: Cotinus coggygria; Rhus cotinus.
@@ -7336,7 +7336,7 @@ Prezentare. Scumpia este un arbust din familia anacardiaceelor, cu o inaltime
 destul de redusa, in jur de cinci metri. Tulpina si ramurile au o interesanta, surprinzatoare,
 culoare galbena. Frunzele – plasate altern, au petiolul lung si sunt de forma ovala,
 ceva mai rotunjite la varf. Florile sunt mici si au culoare galbuie sau verzuie. Scumpia
-infloreste in luna mai. Sucul din f runze si lastari are un miros specific, de morcov.
+infloreste in luna mai. Sucul din frunze si lastari are un miros specific, de morcov.
 Scumpia creste in zonele de deal si la munte, formand adevarate tufarisuri.
 Pentru nevoi medicinale se recolteaza coaja, frunzele si lastarii tineri.
 Substante active importante: gumirezina, miricetina, taninuri.
@@ -7349,11 +7349,11 @@ Denumire stiintifica: Secale cereale.
 Prezentare. Secara este o erbacee anuala si face parte din familia gramineelor.
 Tulpina secarei poate ajunge chiar si la doi metri inaltime, fiind dreapta, cu frunze
 linear-lanceolate. Inflorescenta este sub forma de spic, format, la randu-i, din mai multe
-spiculete comprimate. Secara inflores te tarziu, prin iulie-august. Aceasta graminee,
+spiculete comprimate. Secara infloreste tarziu, prin iulie-august. Aceasta graminee,
 cultivata in regiunile cu clima mai aspra si terenuri sarace, este folosita adesea ca furaj
 verde pentru hranirea animalelor. Atunci cand, insa, este lasata sa ajunga la maturitate,
 boabele sunt utilizate in consumul oamenilor si in industrie.
-Pentru nevoi medicinale se recoma nda boabele, care sunt, totodata, si foarte
+Pentru nevoi medicinale se recomanda boabele, care sunt, totodata, si foarte
 hranitoare. Din boabele de secara se face faina si, uneori, un decoct. Painea de secara
 este principala forma sub care oamenii consuma aceasta cereala.
 Substante active importante: saruri minerale, amidon, proteine, glucide, lipide,
@@ -7367,7 +7367,7 @@ cum ar fi cele de ficat, arterioscleroza, hipertensiunea, alte boli de inima cu 
 dificila si imprevizibila. Consumul de paine de secara este recomandat si celor care fac
 munci de birou sau alte munci sedentare. Se spune ca secara are avea, in asociere cu
 alte produse, un rol benefic in combaterea unei boli foarte grave – scleroza in placi,
-In ceea ce prives te folosirea secarei in industria alimentara, cunoscatorii
+In ceea ce priveste folosirea secarei in industria alimentara, cunoscatorii
 
 DICTIONARUL PLANTELOR DE LEAC 127
 mentioneaza faptul ca din secara se face si whisky, whisky-ul adevarat.
@@ -7375,7 +7375,7 @@ mentioneaza faptul ca din secara se face si whisky, whisky-ul adevarat.
 Denumire stiintifica: Beta rubra.
 Prezentare. Sfecla rosie este o planta bienala. Apartine de familia chenopodiaceelor
 si se remarca printr -o radacina foarte dezvoltata. In primul an de vegetatie, partea
-aeriana a sfeclei ro sii se prezinta sub forma de frunze lung petiol ate. In al doilea an,
+aeriana a sfeclei rosii se prezinta sub forma de frunze lung petiol ate. In al doilea an,
 sfecla dezvolta o tulpina puternica, aproape lemnoasa, ramificata in partea superioara.
 Pe aceasta tulpina apar florile, de culoare alb-verzuie.
 Pentru uz medicinal se prepara si se consuma radacina, bine cunoscuta in orice
@@ -7391,7 +7391,7 @@ glutamic, betacianina, colina, hidrati de carbon, protide. In cantitati insemnat
 gaseste potasiul.
 Intrebuintari. Cercetari mai noi au evidentiat faptul ca sucul de sfecla ro sie are
 proprietati antigripale si antiinfectioase. Datorita continutului sau complex, sfecla rosie
-este un aliment nutritiv si energizant, revigorant, reconfortant, remineralizant, fiin d
+este un aliment nutritiv si energizant, revigorant, reconfortant, remineralizant, fiind
 recomandata celor care se simt slabiti fizic si psihic, convalescentilor, anemicilor, dar
 si celor care au probleme circulatorii. De altfel, sfecla ros ie este indicata in consumul
 celor care au probleme cu tensiunea arteriala (hipertensiune). Determinand formarea
@@ -7413,7 +7413,7 @@ Prezentare. Silurul este o micuta erbacee, apartinand familiei scrofulariaceelor
 Frunzele silurului sunt marunte si dintate, iar florile, de culori diferite – violacee, liliachii,
 albe – se grupeaza in niste inflorescente sub forma de spic, situate in varful plantei.
 Pentru uz medicinal se recolteaza planta in intregimea ei.
-Substante active importante: aneubina – un compus specific, tanin, ra sina
+Substante active importante: aneubina – un compus specific, tanin, rasina
 aromatica.
 Intrebuintari. Infuzia, decoctul sau tinctura de silur au proprietati astringente,
 sedative, antiinflamatoare, antimicrobiene. Afectiuni in care preparatele de silur pot
@@ -7429,14 +7429,14 @@ Siminocul infloreste din iunie si pana in septembrie, florile sale, de culoare g
 prezentandu-se sub forma unor mici capitule. Taiata, planta i si pastreaza forma si
 
 128 DICTIONARUL PLANTELOR DE LEAC
-culoarea timp indelungat – de aici si denumirea de flori de paie. Siminocul cre ste in
+culoarea timp indelungat – de aici si denumirea de flori de paie. Siminocul creste in
 locuri uscate si luminoase, in flora spontana – in zonele de campie si deal.
 Pentru uz medicinal se folosesc florile si partile tinere ale plantei, mai ales atunci
 cand aceste parti tinere au flori pe ele.
-Intrebuintari. Siminocul este folosit in proceduri medicinale dive rse, cu
+Intrebuintari. Siminocul este folosit in proceduri medicinale diverse, cu
 precadere, insa, in afectiuni ale rinichiului si ale aparatului urinar, ale ficatului si ale
 bilei, ale articulatiilor s i ale proceselor metabolice. Cu preparatele de siminoc se
-trateaza colecistitele cronice, bolile vezicii biliare, guta, reumatis mul. Preparatele pe
+trateaza colecistitele cronice, bolile vezicii biliare, guta, reumatismul. Preparatele pe
 baza de siminoc (infuzie, decoct) au o evidenta actiune depurativa si diuretica. Se pot
 folosi si pentru combaterea viermilor intestinali.
 ### Slabanogul
@@ -7465,11 +7465,11 @@ specific, placut, sunt mari, cu o forma palmat-lobata. Smochinul are florile fem
 mascule grupate, fiori ce formeaza o inflorescenta adapostita intr-un receptacul floral.
 Acest receptacul se va transforma in smochina.
 Pentru cure, pentru hranire curenta, pentru aplicatii medicinale se folosesc
-smochinele bine coapte, care se consuma ca atare sau sub forma de s irop, decoct,
+smochinele bine coapte, care se consuma ca atare sau sub forma de sirop, decoct,
 macerat. Exista si aplicatii medicinale in care nu se folosesc fructele, ci frunzele si
 latexul de smochin.
 Substante active importante: saruri minerale, vitaminele A, B1, B2, C s i PP,
-proteine, glucide (intre 15 si 18%). Printre cei mai impo rtanti compusi din smochina –
+proteine, glucide (intre 15 si 18%). Printre cei mai importanti compusi din smochina –
 o
 enzima asemanatoare cu sucul pancreatic. Smochina are o valoare calorica ridicata –
 250 calorii la 100 g fructe uscate.
@@ -7477,7 +7477,7 @@ Exista chiar si o smochina medicinala, culoarea ei fiind un albastru spre violet
 Intrebuintari. Smochina este tonica, reconfortanta, mineralizanta, reconstitutiva,
 fiind indicata celor care fac efort fizic si psihic, celor cu un consum mare de energie,
 anemicilor, convalescentilor, copiilor. Smochinele au proprietatea de a relaxa si de a
-deschide caile respiratorii (sunt utile in brons ite, laringite, traheite). Sunt, totodata,
+deschide caile respiratorii (sunt utile in bronsite, laringite, traheite). Sunt, totodata,
 indicate in optimizarea traficului digestiv, fiind si un bun pansament pentru peretii
 stomacali si intestinali. Smochinele sunt cunoscute, de asemenea, si ca antibactericid
 si antiinflamator, reducand chiar si unele inflamatii interne, cum ar fi cele de pe caile
@@ -7496,7 +7496,7 @@ frunze imparipenat-compuse si flori alb-galbui sau chiar albe, dispuse in inflor
 Apartinand familiei caprifoliaceelor, socul face parte din genul Sambucus, gen care
 cuprinde o serie intreaga de arbori si arbusti. Scoarta socului este crapata, accidentata.
 Planta se remarca prin maduva alba, aflata in cantitate mare in interiorul tulpinilor,
-in detrimentul partii lemnoase. Inflore ste in lunile iunie si iulie. Fructele au culoarea
+in detrimentul partii lemnoase. Infloreste in lunile iunie si iulie. Fructele au culoarea
 neagra sau rosie. Socul creste in paduri, in luminisuri si poieni, in tufarisuri, in zone cu
 vegetatie amestecata.
 Socul are o importanta medicinala deosebita. Au valoare medicinala florile,
@@ -7521,7 +7521,7 @@ pneumonie.
 Denumire stiintifica: Glycine hispida; Soja hispida.
 Prezentare. Soia isi are originile in China si Japonia, fiind – alaturi de orez –
 una dintre cele mai hranitoare plante. Apartine familiei leguminoaselor, fiind o erbacee
-anuala. Soia are frunzele paripenat-compuse, moi, de un verde int ens pe fata expusa
+anuala. Soia are frunzele paripenat-compuse, moi, de un verde intens pe fata expusa
 la soare. Florile sunt mici si au culoare alba sau violeta. Fructul este o pastaie, care
 contine boabe. Aceste boabe, folosite in alimentatia curenta, dar si in industrie, au si
 proprietati medicinale. Pentru uz medicinal se prepara lapte de soia, faina de soia,
@@ -7530,19 +7530,19 @@ Substante active importante: in boabe – protide (34 – 39%), aminoacizi
 esentiali, lipide (12 – 25%), glucide (10 – 15%), saruri minerale – calciu, fier, fosfor,
 magneziu, potasiu, natriu, vitaminele A, B1, B2, C, D si E, enzime, lecitina, rezine; in
 ulei – acizi grasi nesaturati, acid oleic, acid linoleic, acid linolenic, acizi grasi saturati.
-Recent, in soia s -au descoperit ni ste substante asemanatoare hormonilor feminini,
+Recent, in soia s -au descoperit niste substante asemanatoare hormonilor feminini,
 numite izoflavone.
 Toti acesti compusi demonstreaza ca soia este, intr-adevar, o minune a naturii,
 procentul de proteine din soia fiind, de pilda, cu mult mai mare decat in cazul carnii
 (soia – maximum 39%, carnea – maximum 20%).
 Intrebuintari. Asemenea altor alimente cu o compozitie deosebit a, nici soia
 si nici preparatele de soia nu actioneaza ca un medicament in sensul adevarat al
-cuvantului. Si, totu si, efectele pot fi asemanatoare cu acelea ale medicamentelor
-atunci cand se stabile ste si se respecta un program alimentar riguros, o dieta, unul
+cuvantului. Si, totusi, efectele pot fi asemanatoare cu acelea ale medicamentelor
+atunci cand se stabileste si se respecta un program alimentar riguros, o dieta, unul
 sau mai multe principii de hranire. Fiind un aliment complet, soia are un important rol
 profilactic in multe afectiuni sau grupe de afectiuni, cu precadere, insa, in afectiunile
 cardiovasculare.
-Soia actioneaza ca un mineralizant foarte important si f raneaza sau chiar
+Soia actioneaza ca un mineralizant foarte important si franeaza sau chiar
 impiedica, intr -o anumita masura, procesele de imbatranire. Combate scleroza si
 colesterolul, asigurand o functionare normala sistemelor esentiale ale organismului.
 Celor suferinzi cu ficatul, sau care au afectiuni vasculare, li se recomanda sa consume
@@ -7555,7 +7555,7 @@ digestive si de asimilare. Consumarea produselor pe baza de soia duce si la un m
 bun reglaj in ceea ce priveste ciclurile menstruale.
 Unele cercetari mai noi facute asupra preparatelor de soia au evidentiat faptul ca
 acestea ar avea efecte in prevenirea si combaterea cancerului mamar.
-Izoflavonele, adica acei compu si asemanatori hormonilor feminini, contribuie
+Izoflavonele, adica acei compusi asemanatori hormonilor feminini, contribuie
 la echilibrarea organismului femeilor aflate la menopauza, precum si la combaterea
 efectelor menopauzei – osteoporoza, bufeuri, stari psihice contradictorii, circulatie
 proasta.
@@ -7568,19 +7568,19 @@ aeriana este dreapta si se ramifica in partea superioara. La baza tulpinii, frun
 formeaza o rozeta, in timp ce pe restul plantei acestea sunt dispuse pe un petiol lung,
 asa cum sunt asezate frunzele de salcam. In varfurile ramurilor apar florile, sub forma
 de capitule. Culoarea florilor este mov spre ro su purpuriu. Sorbestreaua infloreste pe
-tot parcursul verii. Fructul ei este o nucula. Cres te mai ales in zonele montane, fiind
+tot parcursul verii. Fructul ei este o nucula. Creste mai ales in zonele montane, fiind
 frecventa in fanetele de pe munte si de sub munte, mai ales in locuri umede, precum
 si prin tufarisuri.
 Din punct de vedere medicinal, se valorifica planta in intregul ei. Se prepara:
 decoct, infuzie, extracte, pudra, tinctura, cataplasme.
-Substante active importante: ulei esen tial, tanin, saponina si, mai ales, o
+Substante active importante: ulei esential, tanin, saponina si, mai ales, o
 substanta specifica numita sanguisorbina.
 Intrebuintari. Preparatele din sorbestrea au proprietati sudorifice, digestive,
 antiinflamatoare, diuretice, cicatrizante. Gargara cu infuzie de sorbestrea combate
 inflamatiile dentare, gingivitele, opreste sangerarile bucale. Pudra de sorbestrea este
 eficace in sangerarile nazale.
 Sorbestreaua se utilizeaza in terapii privind enteritele, diareile copiilor, dizenteriile,
-digestia defectuoasa. Destul de putin cercetata, aceasta p lanta are – dupa parerea
+digestia defectuoasa. Destul de putin cercetata, aceasta planta are – dupa parerea
 unor specialisti – si proprietati relaxante, adica ar conferi, celui care o consuma, buna
 dispozitie, pofta de viata.
 Planta de faneata, sorbestreaua este cautata de naturisti, Acestia o intrebuinteaza
@@ -7592,8 +7592,8 @@ Denumire stiintifica: Origanum vulgare.
 Denumiri populare: busuioc de padure, trifoiste.
 Prezentare. Sovarvul este o erbacee perena a carei inaltime, la maturitate, nu
 trece de 60 cm. Face parte din familia labiatelor. Tulpina sovarvului este dreapta si
-paroasa, cu ni ste ramificatii in partea superioara ce poarta pe ele florile. Acestea au
-culoare rozalie spre ro su, uneori fiind si de culoare alba. Inflorirea se desfa soara pe
+paroasa, cu niste ramificatii in partea superioara ce poarta pe ele florile. Acestea au
+culoare rozalie spre ro su, uneori fiind si de culoare alba. Inflorirea se desfasoara pe
 tot parcursul verii. Sovarvul, planta aromatica si melifera, creste in flora spontana de la
 marginea padurilor, pe pajisti, pe marginea drumurilor si a cailor ferate, pe fanete.
 Planta aceasta si-a castigat de multa vreme locul ei in bucatarie si are si o valoare
@@ -7604,7 +7604,7 @@ Intrebuintari. Infuzia de sovarv se administreaza atat intern, cat si extern.
 Acest preparat are rol sedativ, bronhodilatator si antispatic. Prin urmare, este un
 bun expectorant, dar contribuie s i la combaterea carceilor musculari. Infuzia de
 sovarv dezinfecteaza si curata caile respiratorii s i caile digestive, iar in zona externa
-regenereaza podoaba capilara. Cu aceasta infuzie se pot trata bron sitele, tusea
+regenereaza podoaba capilara. Cu aceasta infuzie se pot trata bronsitele, tusea
 convulsiva, astmul bron sic, gastritele hipoacide, colitele, precum si infectiile urinare.
 De obicei, in tratamente externe se foloseste infuzie concentrata, facandu-se bai locale
 sau aplicandu-se cataplasme – in caz de rani, eczeme, dureri de articulatii, nevralgii.
@@ -7638,8 +7638,8 @@ acneea, anemia. Preparatele de spanac sunt recomandate celor care se refac dupa 
 boala grea, precum si in stari de oboseala si epuizare. I se atribuie spanacului si rolul
 de activator al secretiilor pancreatice si, mai mult decat atat, de agent anticancerigen.
 Studii recente arata ca spanacul este recomandat gravidelor, contribuind la buna
-dezvoltare a fatului. Potr ivit acelorasi studii, spanacul contribuie la fortificarea vaselor
-de sange, a i nimii si a ochilor. In mod obi snuit, spanacul este, totodata, laxativ si
+dezvoltare a fatului. Potrivit acelorasi studii, spanacul contribuie la fortificarea vaselor
+de sange, a inimii si a ochilor. In mod obisnuit, spanacul este, totodata, laxativ si
 depurativ. Datorita faptului ca este depurativ (curata organismul de toxine), spanacul se
 foloseste intens in curele de primavara. Semintele de spanac sunt utile in combaterea
 constipatiei.
@@ -7653,7 +7653,7 @@ are un rizom puternic, pe care apar mugurii din care cresc lastari. Din acest ri
 si radacinile, care sunt dezvoltate, carnoase, consistente. Frunzele au forma unor solzi
 luciosi. Ramurile sparanghelului, de culoare verde, filiforme, au functie de asimilare.
 Pentru preparate alimentare din sparanghel se culeg lastarii, mai ales cei obtinuti
-prin cres tere la intuneric. Recoltarea acestor lastari se face in fiecare primavara,
+prin crestere la intuneric. Recoltarea acestor lastari se face in fiecare primavara,
 incepand cu anul trei de vegetatie. Sparanghelul se consuma ca atare, dar si sub
 forma de salate si preparate alimentare dietetice.
 Pentru nevoi medicinale se folosesc atat lastarii, cat si radacinile si rizomii,
@@ -7678,7 +7678,7 @@ Denumire populara: spant.
 Prezentare. Spanzul face parte din familia ranunculaceelor, fiind o planta
 erbacee, perena, toxica. Rizomul este gros, puternic, ramificat. Tulpina, de tip florifer,
 este dreapta si apare inainte de ivirea frunzelor. Frunzele sunt palmate, iar florile
-au culoare ro sietica, uneori verzuie. Spanzul inflore ste in mart ie si aprilie. Cre ste in
+au culoare ro sietica, uneori verzuie. Spanzul infloreste in mart ie si aprilie. Creste in
 zonele de deal si munte, in flora spontana – in zonele mai libere din paduri, in tufarisuri,
 la marginea poienelor si a padurilor.
 Pentru uz medicinal uman se foloseste rizomul, iar pentru intrebuintari veterinare
@@ -7696,7 +7696,7 @@ Denumire stiintifica: Solidago virga aurea.
 Prezentare. Splinuta este o erbacee perena. Face parte din familia compozitelor
 si poate ajunge pana la un metru inaltime. Tulpina este dreapta si paroasa, iar frunzele
 au forme diferite, cele mai multe fiind ovale. Florile, dispuse in ciorchine, sunt galbene.
-Din acest motiv, splinuta se mai nume ste si varga de aur. Splinuta este o planta
+Din acest motiv, splinuta se mai numeste si varga de aur. Splinuta este o planta
 melifera.
 In cazul splinutei, valoare medicinala au varfurile inflorite. Se poate recolta si
 planta intreaga.
@@ -7715,13 +7715,13 @@ drumurilor de tara, pe parloage, pe terenuri intelenite. Frunzele sunt petiolate
 cu forme diferite, in functie de pozitia lor pe tulpina plantei. Florile, de mici dimensiuni,
 grupate in spic, au culoare ro sie sau violeta, uneori alba. Sporiciul infloreste cinci luni
 pe an, din iunie si pana in octombrie.
-Pentru uz medicinal se folose ste partea aeriana a plantei, din care se prepara
+Pentru uz medicinal se foloseste partea aeriana a plantei, din care se prepara
 infuzie, decoct, extras, tinctura.
 Substante active importante: doua substante specifice – verbalina si
-verbenozida, apoi taninuri, substante amare, revulsina, invertina. D atorita acestor
+verbenozida, apoi taninuri, substante amare, revulsina, invertina. Datorita acestor
 compusi foarte activi, sporiciul se va folosi numai sub asistenta de specialitate.
 Intrebuintari. Preparatele din sporici sunt recomandate in afectiuni digestive
-(dispepsii), hepatice si renale (colici), respiratorii (bron sita, astma). Au si influenta
+(dispepsii), hepatice si renale (colici), respiratorii (bronsita, astma). Au si influenta
 calmanta, chiar sedativa, fiind utilizate in terapii impotriva insomniilor, nevralgiilor,
 reumatismelor, asteniei. Se spune ca sporiciul ar avea actiune benefica si in ceea ce
 priveste intarirea radacinii firului de par. De altfel, sporiciul es te un puternic stimulator
@@ -7744,7 +7744,7 @@ astringente, cicatrizante, antidiareice, hemostatice, antibacteriene, antitoxice
 de stejar se utilizeaza in regim intern (in enterite, diaree, deranjamente stomacale si
 intestinale), dar si extern – sub forma de gargara, bai, spalaturi locale (in faringite,
 gingivite, arsuri, hemoroizi, degeraturi, rani greu vindecabile).
-In practica m edicinala se intrebuinteaza uneori si ghinda, sub forma prajita si
+In practicam medicinala se intrebuinteaza uneori si ghinda, sub forma prajita si
 macinata, pentru prepararea unei „cafele”. Acest surogat de cafea are un rol important
 in reechilibrarea sistemului digestiv.
 Efecte medicinale asemanatoare are si coaja de gorun (Quercus petraea) ,
@@ -7793,7 +7793,7 @@ fiind interzisa. Din acest motiv, toti specialistii naturisti recomanda folosire
 Denumire stiintifica: Phragmites communis.
 Prezentare. Stuful, cunoscut si sub numele de trestie de balta, este o graminee
 cu o inaltime impresionanta, avand tulpina dreapta, terminata cu o inflorescenta sub
-forma de panicul. Frunzele sunt lungi, lanceolate, fibroase, aspre, cu margin i taioase.
+forma de panicul. Frunzele sunt lungi, lanceolate, fibroase, aspre, cu margini taioase.
 Florile au culoare violeta sau galbuie. Stuful creste in spatii inundate, in balti, in lacuri
 si in preajma lacurilor, pe marginea raurilor. In Romania, cel mai cunoscut loc cu
 stufarisuri este Delta Dunarii.
@@ -7805,11 +7805,11 @@ reumatismelor, a febrei, a gutei. Au efecte pozitive si in unele afectiuni derma
 mai ales atunci cand aceste afectiuni au cauze interne.
 ### Sulfina
 Denumire stiintifica: Melilotus officinalis.
-Denumiri populare: sulcina, surcina.
+Denumiri populare: sulcina, sarcina.
 Prezentare. Sulfina este o planta erbacee bienala, apartinatoare de familia
 leguminoaselor. Este o planta dezvoltata, avand o tulpina puternica si ramificatii largi.
 Poate ajunge la 1,5 metri inaltime, uneori si mai mult. Frunzele sunt trifoliate, iar
-florile, de culoare galb ena, au un miros placut. Sulfina este o planta melifera. Cres te
+florile, de culoare galbena, au un miros placut. Sulfina este o planta melifera. Creste
 in locuri insorite si uscate – in fanete, pe pajisti, pe terenuri accidentate, prin tufarisuri,
 pe marginea drumurilor.
 Pentru uz medicinal se recolteaza varfurile – cand sunt inflorite, cu tot cu flori.
@@ -7837,7 +7837,7 @@ Sulfina se poate folosi si sub forma de bai medicinale, cataplasme, gargara,
 spalaturi bucale.
 Sulfina are si alte utilizari interesante. De exemplu, un buchet de sulfina uscata
 poate actiona ca un eficient dezodorizant pentru o intreaga incapere. De asemenea,
-sulfina poate fi un aditiv aromatic pentru branzeturi si ca scaval. Naturi stii folosesc
+sulfina poate fi un aditiv aromatic pentru branzeturi si cascaval. Naturi stii folosesc
 partile tinere ale plantei pentru salate.
 ### Sunatoarea
 Denumire stiintifica: Hypericum perforatum.
@@ -7848,7 +7848,7 @@ planta medicinala, ci si o planta cu proprietati magice. Insasi denumirea ei –
 DICTIONARUL PLANTELOR DE LEAC 135
 – care vine din latina, inseamna vindecatoarea.
 Sunatoarea face parte din familia hipericaceelor, dezvoltandu -se ca o planta
-perena ce poate ajunge chiar si la un metru inaltime, dimensiunea ei obi snuita fiind,
+perena ce poate ajunge chiar si la un metru inaltime, dimensiunea ei obisnuita fiind,
 insa, de 20 – 30 cm. Tulpina este lemnificata sau se lemnifica destul de repede in
 procesul de vegetatie. Frunzele, micute, au forme diferite, cele mai multe fiind ovale.
 Sunatoarea infloreste din iunie si pana in septembrie, florile, numeroase, fiind galbene
@@ -7864,19 +7864,19 @@ Intrebuintari. In medicina populara se stie ca sunatoarea (pojarnita) este buna
 in tratamente privind astmul, tensiunea, sciatica, ranile, deranjamentele stomacale si
 intestinale, viermii intestinali.
 Infuzia de pojarnita actioneaza ca antiseptic, cicatrizant, antiinflamator hepatic
-si intestinal, antibiotic, antidiareic, coleretic, s edativ, revigorant si remineralizant.
+si intestinal, antibiotic, antidiareic, coleretic, sedativ, revigorant si remineralizant.
 Sunatoarea are efecte pozitive in bolile de ficat, in hepatite cronice, precum si in
 hepatitele evolutive, in dischinezii biliare si colecistite, avand rol in stimularea celulei
-hepatice. Intern – sunatoarea este un ba ndaj bun, dar si un reechilibrant, in ulcere,
+hepatice. Intern – sunatoarea este un bandaj bun, dar si un reechilibrant, in ulcere,
 gastrite, enterite. Extern, cu sunatoare se fac aplicatii terapeutice in cazuri de arsuri,
 rani, inflamatii bucale.
 Cu preparat de sunatoare se trateaza si podoaba capilara, pentru intarirea firului
-de par si a radacinii de par. Mai nou, sunatoarea se folose ste si in tratamente asupra
+de par si a radacinii de par. Mai nou, sunatoarea se foloseste si in tratamente asupra
 tenului, fiind un regenerator si un fortifiant al acestuia.
 ### Susanul
 Denumire stiintifica: Sesamum indicum.
 Prezentare. Susanul este o erbacee anuala care -si are originea in regiuni le
-tropicale. Cre ste si in zona mediteraneana. Face parte din familia pedaliaceelor.
+tropicale. Creste si in zona mediteraneana. Face parte din familia pedaliaceelor.
 Tulpina de susan poate ajunge la 1,5 metri inaltime, fiind paroasa. Frunzele, care
 acopera planta de sus si pana jos, sunt dantelate. Susanul are flori galbene.
 Pentru alimentatie si pentru terapii se recolteaza semintele. Acestea se folosesc
@@ -7893,7 +7893,7 @@ susan alina in suferinte precum hemoroizii, constipatiile, indigestiile. Contrib
 buna digestie, semintele de susan faciliteaza, totodata, si asimilatia. Se afirma despre
 semintele de susan ca ar avea efecte si in boli grele, cum ar fi neuroparaliziile.
 ## S
-### S ofranul
+### Sofranul
 Denumire stiintifica: Crocus sativus.
 Prezentare. Sofranul face parte din familia iridaceelor si provine din Asia. Este
 o erbacee perena de mici dimensiuni. Tulpina sofranului este consistenta, u sor
@@ -7912,10 +7912,10 @@ Intrebuintari. Preparatele obtinute din sofran se utilizeaza atat pentru afectiu
 interne, cat si externe. Sofranul este un tonic recomandat atat pentru tractul gastro -
 intestinal, cat si pentru sistemul nervos central. Are actiune si asupra spasmelor. De
 asemenea, preparatele pe baza de sofran au rol insemnat in reglarea menstruatiei.
-De remarcat faptul ca preparatele de sofran sunt, in acelas i timp, tonice si sedative,
+De remarcat faptul ca preparatele de sofran sunt, in acelasi timp, tonice si sedative,
 calitati ce echilibreaza functiile si activitatea intregului organism. De altfel, prin traditie,
 sofranul este considerat un agent al starii de bine, chiar al bunei dispozitii. Printre
-altele, sofranul „topeste” mancarurile grele din stomac, u surand digestia. Este indicat
+altele, sofranul „topeste” mancarurile grele din stomac, usurand digestia. Este indicat
 si in tuse violenta prelungita, in astm si spasme bronhice. Femeile cu experienta
 considera sofranul drept un remediu de incredere intr -o afectiune chinuitoare, tipic
 feminina – menstrele dureroase, insotite de dureri lombare.
@@ -7925,7 +7925,7 @@ Sofranul are aplicatii si in stomatologie. Astfel, el poate insoti pasta de dint
 intretinerea si tratarea gingiilor si a radacinilor dintilor. De pilda, se recomanda sofranul
 in frectiile gingivale, pentru revigorarea gingiilor, precum si in calmarea unor dureri si
 corectarea unor anomalii din cavitatea bucala.
-Sofranul se foloseste si pentru condimentarea mancarurilor, precu m si pentru a
+Sofranul se foloseste si pentru condimentarea mancarurilor, precum si pentru a
 colora unele produse alimentare, fiind un colorant natural foarte sanatos, cu atat mai
 mult cu cat are virtuti medicinale de exceptie.
 Calitati medicinale are si sofranasul (Carthamus tinctorius), o erbacee din familia
@@ -7934,7 +7934,7 @@ de asemenea, puteri medicinale (in intarirea imunitatii organismului, de exemplu
 Semintele sofranelului sunt insa mult mai importante prin faptul ca au in continutul
 lor circa 35 – 40% substante uleioase, folosite in industrie, dar si in programele de
 alimentatie sanatoasa, naturista.
-### S tevia
+### Stevia
 Denumire stiintifica: Rumex patientia.
 Denumiri populare: dragomir, macris de gradina.
 Prezentare. Stevia, o planta ce apartine de familia poligonaceelor, este o erbacee
@@ -7960,7 +7960,7 @@ fiind considerata si un antiscorbutic important. Capacitatea steviei de a combat
 scorbutul trebuie luata in seama si in ziua de azi.
 Stevia este recomandata si in restabilirea echilibrelor gastrice, fiind alcalinizanta.
 Preparatele din radacina – aceasta fiind partea cu adevarat medicinala a steviei – au
-eficienta in tratarea unor boli de piele (cum ar fi peci nginea, bubele dulci), epuizare
+eficienta in tratarea unor boli de piele (cum ar fi pecinginea, bubele dulci), epuizare
 fizica si nervoasa, reumatism, guta, insuficienta hepatica, icter, infectii ale pielii.
 Preparatele din seminte, sub forma de decoct, sunt folosite ca laxativ, ca
 
@@ -7970,7 +7970,7 @@ Tot ca purgativ este folosita si stevia stanelor sau macrisul cailor (Rumex alpi
 o specie de stevie care creste mai ales in zonele montane, pe locurile unde au poposit
 turmele de oi sau pe locul stanelor. Stevia stanelor are o tulpina subpamanteana de
 forma unui rizom, pentru nevoi medicinale prelucr andu-se acest rizom si radacinile
-sale. Aceasta stevie a stanelor are si un rol notabil in declans area peristaltismului
+sale. Aceasta stevie a stanelor are si un rol notabil in declansarea peristaltismului
 intestinal.
 Stevia si radacina de stevie sunt contraindicate celor suferinzi de afectiuni
 pulmonare si ale cailor respiratorii, celor cu stomac sensibil, reumaticilor s i bolnavilor
@@ -7989,7 +7989,7 @@ Denumire stiintifica: Leonurus cardiaca.
 Denumiri populare: catusnita, talpa lupului, laba lupului, somnisor.
 Prezentare. Talpa gastei este o erbacee perena, puternica, inalta de circa un
 metru. Frunzele sunt lungi, crestate, petiolate. Florile, dispuse la subsuoara frunzelor,
-au culoare roz sau rosie violacee. Talpa ga stei este o planta melifera. Cre ste in
+au culoare roz sau rosie violacee. Talpa gastei este o planta melifera. Creste in
 flora spontana de la campie si deal, prin liziere, pe maidane intelenite, pe marginea
 drumurilor, prin tufarisuri si foste exploatari forestiere.
 Pentru utilizari medicinale se recolteaza partea aeriana a plantei, cu precadere
@@ -7999,15 +7999,15 @@ Substante active importante: ulei volatil, alcaloizi, tanin, glucozide (cu efect
 cardiotonic), vitamine (A, C, E), leonurina – un compus specific.
 Intrebuintari. Se spune despre talpa gastei ca poate avea efecte de trei ori mai
 puternice decat ale valerianei. Preparatele din talpa gastei au influenta directa asupra
-sistemului nervos central. Influenteaza, to todata, si activitatea inimii, temperandu-i
-functionarea oscilatorie, fluctuanta. Talpa ga stei este un sedativ ce actioneaza si
+sistemului nervos central. Influenteaza, totodata, si activitatea inimii, temperandu-i
+functionarea oscilatorie, fluctuanta. Talpa gastei este un sedativ ce actioneaza si
 asupra fiecarui organ in parte, reechilibrandu -l, reducandu-i starea de incordare, de
-excitatie nervoasa. Prin compu sii ei diver si s i deosebit de activi, talpa ga stei este
+excitatie nervoasa. Prin compusii ei diversi s i deosebit de activi, talpa gastei este
 indicata in stari depresive, in tulburari de menopauza, in reglarea presiunii sangelui,
 in hipertensiune, in tulburari neuro-vegetative. Talpa gastei este, de asemenea, un bun
 factor stabilizator al activitatii stomacale si intestinale.
 Preparatele din aceasta planta se folosesc si in aplicatii externe, fiind cicatrizante
-si antiinflamatoare. In aceste cazuri, infuzia de talpa ga stei se utilizeaza la comprese,
+si antiinflamatoare. In aceste cazuri, infuzia de talpa gastei se utilizeaza la comprese,
 dar si pentru bai si spalaturi locale.
 Potrivit medicinii traditionale, talpa gastei este una dintre plantele medicinale de
 cea mai mare importanta in tratamentul unor afectiuni greu de stapanit – bolile de inima
@@ -8073,7 +8073,7 @@ Denumiri populare: tataneata, barba tatei, iarba intaritoare.
 Prezentare. Tataneasa este o planta erbacee dezvoltata, apartinand familiei
 boraginaceelor. Tulpina este ramuroasa si acoperita cu peri. De fapt, intreaga planta
 este aparata de o retea puternica de peri. Frunzele sunt mari si alungite, suprafata
-lor fiind aspra. Florile au culoarea ro sie spre violaceu. Tataneasa cres te in locuri
+lor fiind aspra. Florile au culoarea ro sie spre violaceu. Tataneasa creste in locuri
 mai izolate, pe terenuri argiloase, planta fiind iubitoare de apa si, totodata, adapta ta
 conditiilor grele de vegetatie.
 Valoarea medicinala a acestei plante este data de radacinile sale, din care se
@@ -8086,7 +8086,7 @@ amidon.
 Intrebuintari. Decoctul de tataneasa are proprietati emoliente, astringente,
 cicatrizante, antiinflamatoare, hemostatice, expectorante. Se foloseste atat intern, cat
 si extern.
-Tataneasa este indicata in ulcer gastric, cancer gastric, diaree, bron site, tuse,
+Tataneasa este indicata in ulcer gastric, cancer gastric, diaree, bronsite, tuse,
 alte afectiuni respiratorii, enterite, hemoragii interne, tuberculoza, dizenterie. Pentru uz
 extern, decoctul de tataneasa este utilizat in tratamente privind plagi, arsuri, ulceratii
 ale pielii, inflamatii ale articulatiilor, precum si in luxatii sau chiar fracturi.
@@ -8101,18 +8101,18 @@ Prezentare. Teiul alb este un arbore inalt – poate atinge si inaltimea de 30 d
 metri. Apartine familiei tiliaceelor. Lemnul sau are culoare alb-ros ietica, fiind us or si
 omogen. Coroana teiului este bogata si plina de ramuri. Frunzele au conturul inimii
 si sunt petiolate. Florile, alb -galbui, sunt melifere si placut mirositoare, mierea de tei
-fiind un aliment exceptional. Teiul cre ste in paduri, in gradini, in parcuri, ca arbore de
+fiind un aliment exceptional. Teiul creste in paduri, in gradini, in parcuri, ca arbore de
 ornament pe aliniamentul strazilor si soselelor, pretutindeni in zonele de campie si de
 deal.
 Pentru uz medicinal se recolteaza florile, din care face infuzie. Tot din flori de tei
 se prepara si decoctul, atat de cunoscut tuturor acelora care beau ceai de tei. Alte
-preparate din flori de tei – mixtura, extract fluid, hidrolat, prec um si minunata infuzie
+preparate din flori de tei – mixtura, extract fluid, hidrolat, precum si minunata infuzie
 mixta din flori de tei si flori de portocal.
 Substante active importante: glucide, steroli, taninuri, oxidaza, vitamina C, ulei
 volatil, zahar, colina, acetilcolina, un compus specific numit tilirozida.
 Intrebuintari. Preparatul din flori de tei este hipnotic, sudorific, diuretic,
 antispasmodic, antiinflamator, emolient, antitermic, calmant general. Infuzia de tei
-are si proprietatea de a fluidiza sangele, de a pune sangele in mi scare, ceea ce
+are si proprietatea de a fluidiza sangele, de a pune sangele in miscare, ceea ce
 are ca efect si curatirea sangelui si, pr in urmare, reducerea toxicitatii din organism.
 Pentru aplicatii terapeutice interne, infuzia de tei este necesara in cazuri de gripa,
 raceala, bronsite, tuse convulsiva, insomnii, stari de ipohondrie, stari de nervozitate,
@@ -8120,7 +8120,7 @@ oboseala accentuata a creierului, tulburari digestive pe fond nervos, dureri mus
 arterioscleroza, dureri de rinichi.
 Extern, teiul este folosit pentru refacerea intregului organism (bai in infuzie de tei),
 dar si pentru tratarea amigdalitelor si a afectiunilor bucale (se face gargara).
-### Topora sii
+### Toporasii
 Denumire stiintifica: Viola odorata.
 Denumiri populare: tamaioara, zambila de gradina, viorea.
 Prezentare. Sub denumire de toporas i identificam o mica si sensibila planta de
@@ -8157,7 +8157,7 @@ Pentru uz medicinal se recolteaza partea aeriana a plantei, din care se prepara
 infuzie, decoct, tinctura, macerat.
 Substante active importante: saruri de potasiu, acid malic, citric, acetic,
 glucozide, amine, bursina (un alcaloid).
-Intrebuintari. Preparatul de traista c iobanului are proprietati hemostatice,
+Intrebuintari. Preparatul de traista ciobanului are proprietati hemostatice,
 hipotensive, analgezice, astringente. Are capacitatea de a sfarama calculii urinari si
 de a echilibra ciclul menstrual. Cu traista ciobanului se trateaza (sau se amelioreaza,
 dupa caz) hipertensiunea arteriala, hemoragiile uterine, anghina pectorala, sangerarile
@@ -8192,8 +8192,8 @@ planta, apartinand de familia violaceelor, poate fi anuala sau perena. Inaltimea
 poate ajunge, la maturitate, la maximum 25 cm. Frunzele au forma de elipsa. Petalele
 florilor de trei frati patati sunt de mari dimensiuni, rotunjite si frumos colorate, putand
 fi monocrome (galbene, albe sau violete) sau intr -un amestec de trei culori, de unde
-si numele de trei frati patati. Planta de trei frati patati inflore ste pe parcursul intregii
-perioade de vegetatie. Cre ste in flora spontana – pe marginea drumurilor, pe pante
+si numele de trei frati patati. Planta de trei frati patati infloreste pe parcursul intregii
+perioade de vegetatie. Creste in flora spontana – pe marginea drumurilor, pe pante
 insorite, pe parloage, pe terenuri intelenite, pe pajisti.
 Datorita virtutilor sale medicinale, trei frati patati a devenit planta cultivata inca
 din secolul al XVI-lea. Pentru uz medicinal se culeg partile aeriene ale plantei, din care
@@ -8233,7 +8233,7 @@ intestinal. Infuzia de trifoi ste de balta revigoreaza activitatea ficatului si 
 reechilibreaza activitatea gastro -intestinala. Alte proprietati, nu lipsite de importanta
 – preparatul de trifoi ste de balta este febrifug, antiscorbutic, tonic si depurativ.
 ### Afectiuni
-in care se poate folosi, in mod obi snuit, trifoistea de balta: migrene, anemie, lipsa de
+in care se poate folosi, in mod obisnuit, trifoistea de balta: migrene, anemie, lipsa de
 pofta de mancare, rahitism, scorbut, reumatism, pecingine, menstre dereglate, febra.
 Infuzia amara facuta din frunze uscate de trifoi ste de balta are capacitatea de a
 remineraliza si revitaliza organismul, de a stimula procesele benefice din sange, de a
@@ -8241,9 +8241,9 @@ curata sistemul circulator.
 ### Trifoiul ro su
 Denumire stiintifica: Trifolium pratense.
 Prezentare. Trifoiul rosu este o erbacee perena, cu o tulpina ce poate atinge
-pana la un metru inaltime, fiind muchiata si doar putin ramificata. Cres te sub forma
+pana la un metru inaltime, fiind muchiata si doar putin ramificata. Creste sub forma
 de tufe. Trifoiul ro su face parte din familia leguminoaselor. Este o planta furajera
-suculenta si hranitoare pentru animale si, din acest motiv, se cultiva. Fire ste, frunzele
+suculenta si hranitoare pentru animale si, din acest motiv, se cultiva. Fireste, frunzele
 acestei plante au forma binecunoscuta a frunzei de trifoi, adica sunt trifoliate. Florile au
 culoarea rosie, violacee sau albastruie, fiind grupate in capitule ovale. Trifoiul infloreste
 timp indelungat, din mai si pana in octombrie. Creste nu numai in culturi, ci si in stare
@@ -8283,7 +8283,7 @@ recomanda, in primul rand, radacina troscotului, care este puternica si ramifica
 Substante active importante: ulei esential (mai ales in radacina), tanin, siliciu,
 rezine, o substanta specifica – avicularozida.
 Intrebuintari. Preparatele din troscot sunt folosite adesea de catre cei suferinzi,
-fiind hipotensive, astringente, hemostati ce, antidiabetice. De asemenea, aceste
+fiind hipotensive, astringente, hemostatice, antidiabetice. De asemenea, aceste
 preparate regleaza activitatea intestinala si functionarea rinichiului si a vezicii urinare.
 Infuzia de troscot (cel mai cunoscut si cel mai la indemana preparat din troscot) este
 folosita ca adjuvant in tratamentul tuberculozei pulmonare, in oprirea sangerarilor, fiind
@@ -8302,12 +8302,12 @@ covor la suprafata apei. Pe fata fiecareia dintre ele se afla o pata, care seama
 V. Troscotul de balta infloreste din iunie si pana in august. Florile, de culoare roz, sunt
 adunate intr-o inflorescenta bogata. Troscotul de balta creste in ape statatoare, in iazuri,
 in mlastini cu ochiuri de apa, in ape lin curgatoare. Este intalnit si in locuri uscate, lacuri
-secate, balti sezoniere. Poate cunoa ste o dezvoltare rapida, planta inmultindu- se, in
+secate, balti sezoniere. Poate cunoaste o dezvoltare rapida, planta inmultindu- se, in
 mod surprinzator, nu numai prin seminte sau rizomi, ci si prin fragmente de tulpina.
 Rizomul este partea din planta cu cea mai mare valoare medicinala. Se prepara
 sub forma de decoct sau infuzie.
 Substante active importante: taninuri, vitamina C, substante diuretice.
-Intrebuintari. Troscotul de balta se folose ste in tratamentul avitaminozelor,
+Intrebuintari. Troscotul de balta se foloseste in tratamentul avitaminozelor,
 anemiilor, lipsei de pofta de mancare. Este diuretic, hemostatic, cicatrizant,
 antiinflamator si poate contribui la reechilibrarea activitatii gastrice si intestinale.
 Troscotul de balta este indicat si in uz extern, de exemplu pentru tratarea plagilor
@@ -8349,7 +8349,7 @@ Intrebuintari. Fiind foarte toxice, preparatele de tulichina nu se administreaza
 decat extern, efectele fiind dintre cele mai interesante. De pilda, cu preparatele de
 tulichina se franeaza procesul de imbatranire a pielii si se trateaza diferite afectiuni
 dermatologice. Rezultate pozitive se obtin, de asemenea, in terapii impotriva
-suferintelor reumatismale. Preparatele de tulichina sunt indi cate si in tratamente
+suferintelor reumatismale. Preparatele de tulichina sunt indicate si in tratamente
 impotriva nevralgiilor, a sciaticii, a durerilor pricinuite de curentii de aer reci.
 Extractele de tulichina sunt folosite la fabricarea unor medicamente.
 ### Turita mare
@@ -8358,7 +8358,7 @@ Denumiri populare: cornatel, buruiana de friguri.
 Prezentare. La maturitate aceasta planta poate avea o inaltime cuprinsa intre
 30 cm si un metru. Este o erbacee perena si face parte din familia rozaceelor. Se
 remarca prin faptul ca este foarte paroasa. Rizomul este de mici dimensiuni, iar tulpina
-are forma de nuia. Frunzele sunt mari si dintate. Turita mare inflores te o perioada
+are forma de nuia. Frunzele sunt mari si dintate. Turita mare infloreste o perioada
 foarte lunga, din mai si pana in septembrie sau chiar octombrie. Florile, de culoare
 galben-aurie, se aduna intr-o inflorescenta. Aceasta planta creste laolalta cu multe alte
 plante din flora spontana – pe marginea drumurilor, pe pajisti, in luminisuri de padure,
@@ -8368,16 +8368,16 @@ florile), care se prepara in mod obisnuit sub forma de infuzie. Alte preparate m
 obtinute din turita mare: decoct, tinctura, vin medicinal.
 Substante active importante: ulei volatil, tanin, siliciu, acizi, vitamina K, guma,
 fitosterina.
-Intrebuintari. Un lucru foarte important e bine de stiut despre aceasta planta
+Intrebuintari. Un lucru foarte importante bine de stiut despre aceasta planta
 medicinala – dezintegreaza calculii biliari. Totodata, stimuleaza contractiile vezicii
-biliare. Infuzia de turita mare se folose ste si in tulburari gastro-intestinale (mai ales in
+biliare. Infuzia de turita mare se foloseste si in tulburari gastro-intestinale (mai ales in
 caz de diaree), regland activitatea gastro-intestinala si reechilibrand sucurile gastrice.
 Este indicata, de asemenea, in lipsa de pofta de mancare.
 Preparatele de turita mare se folosesc si in terapii externe (sub forma de gargara,
 spalaturi, cataplasme), vizand afectiuni precum angine, stomatite, afte, rani felurite,
 contuzii.
 Medicina traditionala utiliza preparatele de turita mare si in afectiuni oftalmologice
-(cum ar fi albeata) sau impotriva mu scaturilor de s erpi. Cartile moderne de plante si
+(cum ar fi albeata) sau impotriva muscaturilor de serpi. Cartile moderne de plante si
 tratamente medicinale nu mai fac referiri la asemenea aplicatii si afectiuni, semn ca
 
 144 DICTIONARUL PLANTELOR DE LEAC
@@ -8427,7 +8427,7 @@ procesul de preparare a unor ceaiuri cu efect medicinal sporit.
 Substante active importante: vitaminele A, B si C, saruri minerale, colina,
 tirazina, acid glutamic, anhidrida sedanomica si sedanolida (compusi specifici telinei).
 Intrebuintari. Telina are virtuti medicinale indiscutabile. Este recomandata in
-tratamente externe, dar si interne, lista afec tiunilor in care telina este utila fiind foarte
+tratamente externe, dar si interne, lista afectiunilor in care telina este utila fiind foarte
 lunga. Telina actioneaza in organism ca un bun agent digestiv, diuretic, antiasmatic,
 carminativ, expectorant. Prin urmare, telina poate fi utilizata ca adjuvant, sau ca
 mijloc direct de tratament, in litiaza renala, edeme, hidropizie, bronsite cronice, astm,
@@ -8453,7 +8453,7 @@ Denumiri populare: fierea pamantului, floare de friguri, centaura.
 Prezentare. Tintaura sau centaura este o micuta planta erbacee, anuala, ce creste
 alaturi de alte plante in flora spontana. Face parte din familia gentianaceelor si are o
 inaltime maxima de 50 cm. Tulpina este dreapta si se ramifica in partea superioara,
-fiecare ramificatie avand in varf inflorescenta cu flori ro sii (uneori albe). Planta are un
+fiecare ramificatie avand in varf inflorescenta cu flori rosii (uneori albe). Planta are un
 gust amar accentuat, de unde si numele de fierea pamantului. Infloreste indelung, din
 iunie si pana in septembrie. Fructul este o capsula plina cu seminte.
 Pentru uz medicinal s e recolteaza partea aeriana a plantei, tintaura fiind una
@@ -8479,11 +8479,11 @@ superioara, rezistent la schimbari de temperatura si la seceta. Apartine familie
 amentaceelor. Frunzele, aspre si cu multe nervuri, au forma de elipsa. Ulmul infloreste
 primavara, inainte de a infrunzi, a sa cum se intampla cu multi alti arbori din padure.
 Florile au o nuanta verde-ro sietica si se dezvolta in manunchiuri, iar fructele sunt
-aripate. Ulmul cre ste in padurile de deal si de campie, dar si in parcuri sau chiar
+aripate. Ulmul creste in padurile de deal si de campie, dar si in parcuri sau chiar
 singuratic, pe camp deschis.
 Pentru uz medicinal, de la ulm se recolteaza scoarta, din care se face un decoct.
 Substante active importante: se stie putin despre compozitia cojii de ulm,
-dar, din practica, se cunoas te ca infuzia de coaja de ulm este astringenta, sudorifica,
+dar, din practica, se cunoaste ca infuzia de coaja de ulm este astringenta, sudorifica,
 depurativa, tonica, diuretica.
 Intrebuintari. De remarcat faptul ca preparatul din coaja de ulm are o proprietate
 ceva mai rara – este revulsiv, fapt ce permite tratarea unor afectiuni la care se ajunge
@@ -8515,8 +8515,8 @@ galic precum si o substanta specifica – marubia.
 Intrebuintari. Preparatele de unguras sunt emoliente, expectorante, astringente,
 antispastice, stomahice. In uz extern, ungura sul este indicat pentru spalarea si
 bandajarea ranilor si ulceratiilor pielii. Pentru uz intern se recomanda in tratarea
-afectiunilor cailor respiratorii, precum si ale bilei, ungura sul f acand bila mai activa.
-Ungurasul are si proprietatea de a readuce pofta de mancare, de a r evitaliza
+afectiunilor cailor respiratorii, precum si ale bilei, ungura sul facand bila mai activa.
+Ungurasul are si proprietatea de a readuce pofta de mancare, de a revitaliza
 organismul, de a interveni in anemii, fiind antitoxic, antiseptic, diuretic. Contribuie la
 reducerea febrei, fiind indicat, de asemenea, si in corectarea ritmului cardiac.
 Domenii principale de terapie: afectiuni biliare, afectiuni ale cailor respiratorii,
@@ -8537,14 +8537,14 @@ pentru bai.
 Substante active importante: doi compusi specifici – acid ficaric si ficarina.
 Intrebuintari. Untisorul are virtuti analgezice, descongestionante, revitalizante.
 Extractul din aceasta planta este valoros pentru terapii medicinale externe – afectiuni
-ale pielii, rani, ulceratii, hemoroizi. Se foloses te, de asemenea, in av itaminoze, mai
+ale pielii, rani, ulceratii, hemoroizi. Se foloseste, de asemenea, in avitaminoze, mai
 ales in caz de scorbut.
 Potrivit specialistilor, aceasta planta medicinala da rezultate bune in tratamentul
 hemoroizilor.
 ### Untul vacii
 Denumire stiintifica: Orchis morio.
 Denumire populara: poroinic.
-Prezentare. Untul vacii este o erbacee per ena a carei inaltime nu trece decat
+Prezentare. Untul vacii este o erbacee perena a carei inaltime nu trece decat
 arareori de 40 cm. Face parte din familia orhideelor. In sol formeaza, pe langa radacini,
 doi tuberculi. Frunzele acestei plante sunt lanceolate, iar florile, grupate sub forma de
 ciorchine la varful tulpinii, au culori diferite – purpuriu intunecat, roz, liliachiu sau alb.
@@ -8556,7 +8556,7 @@ Pentru uz medicinal se recolteaza tuberculii.
 Substante active importante: amidon, zaharuri, protide, mucilagii, glucoza.
 Intrebuintari. Din tuberculii de untul vacii se prepara salepul, un produs care se
 administreaza copiilor cu probleme de dezvoltare si convalescentilor, pentru intarire,
-pentru for tificare. Salepul este obtinut prin macinarea tuberculilor de untul vacii
+pentru fortificare. Salepul este obtinut prin macinarea tuberculilor de untul vacii
 deshidratati, faina rezultata fiind fiarta cu lapte sau apa, uneori adaugandu -se miere.
 Amidonul si celelalte substante active din tuberculi favorizeaza si echilibreaza digestia
 si intreaga activitate din tractul gastro -intestinal. Din acest motiv, pentru combaterea
@@ -8600,7 +8600,7 @@ organismului.
 Denumire stiintifica: Urtica dioica.
 Denumiri populare: urzica de padure, urzica creata.
 Prezentare. Urzica este o erbacee perena din familia urticaceelor. Tulpina si
-frunzele sunt acoperite cu peri sori urticanti, a caror atingere provoaca ba sicarea pielii
+frunzele sunt acoperite cu peri sori urticanti, a caror atingere provoaca basicarea pielii
 si mancarimi. Poate ajunge si pana la un metru inaltime. La maturitate, tulpina de
 urzica este fibroasa. Urzica poate fi intalnita pe terenuri virane mai putin expuse la
 soare, la marginea padurilor, prin gardurile dintre gospodarii, in locuri parasite joase
@@ -8626,12 +8626,12 @@ hipoglicemiante, cicatrizante, declorurante, antitusive, dar si hranitoare. In t
 afectiunilor in care urzica are aplicatii terapeutice sunt cuprinse nu mai putin de 20 de
 denumiri, fapt rar intalnit printre plantele medicinale.
 Urzica este, practic, una dintre cele mai complete plante medicinale. O
-descoperire importanta este cea privind rolul urzicii in stimularea cre sterii parului, in
+descoperire importanta este cea privind rolul urzicii in stimularea cresterii parului, in
 revigorarea podoabei capilare. Cu suc de frunze proaspete de urzica se poate face
 o detoxifiere majora a organismului. De asemenea, urzica impulsioneaza activitatea
 ficatului, precum si pe cea din tractul gastro-intestinal.
 Preparatele de urzica se aplica in dizenterie, reumatism, litiaza renala, guta,
-bronsite, hemoroizi, hemoragii interne, hem oragii uterine, tulburari digestive,
+bronsite, hemoroizi, hemoragii interne, hemoragii uterine, tulburari digestive,
 avitaminoze, diabet zaharat, rani greu vindecabile, ulcer varicos, supuratii, obezitate,
 eczeme rebele, psoriazis, seboree, matreata, precum si in cura depurativa si
 revitalizanta de primavara.
@@ -8652,8 +8652,8 @@ infuzie si decoct.
 Substante active importante: saruri de potasiu, acid galic, ulei volatil, saponine,
 tanin glucozide.
 Intrebuintari. Preparatul de urzica moarta este astringent, diuretic, usor sedativ,
-expectorant, emolient, vasoconstrictor, antiinflamator, depurativ. Se folose ste in
-curele de tratament impotriva hipertrofierii prostatei, in curele impo triva insomniei,
+expectorant, emolient, vasoconstrictor, antiinflamator, depurativ. Se foloseste in
+curele de tratament impotriva hipertrofierii prostatei, in curele impotriva insomniei,
 in bronsite, abcese, ulcere, cistita, menstruatii dureroase (spalaturi vaginale), varice,
 plagi supurante.
 Urzica moarta este utilizata atat in tratamente medicinale, cat si in industria
@@ -8681,7 +8681,7 @@ anticoagulant, combate hipertensiunea, stimuleaza circulatia sanguina, echilibre
 activitatea bilei, cicatrizant gastro-intestinal, actioneaza impotriva parazitilor intestinali,
 previne unele forme de cancer (cancerul de stomac, de colon, de piele). Usturoiul
 este considerat foarte eficient in prevenirea si combaterea infectiilor pulmonare.
-De asemenea, descongestioneaza ficatul si ii potenteaza activitatea. Contribui nd
+De asemenea, descongestioneaza ficatul si ii potenteaza activitatea. Contribuind
 la scaderea tensiunii arteriale, usturoiul este si un agent foarte activ impotriva
 arteriosclerozei. Trebuie retinut si faptul ca usturoiul intervine si in regularizarea
 activitatii gastro-intestinale, stimuland-o.
@@ -8709,7 +8709,7 @@ insa, la mirosul si calitatile pe care le cunosc consumatorii, numai daca fructu
 supus fermentatiei.
 Pentru preparate medicinale se folosesc fructele.
 Substante active importante: vanilozida, piperonal.
-Intrebuintari. Vanilia are efecte tonice, stim ulative si afrodiziace. Tonifica
+Intrebuintari. Vanilia are efecte tonice, stimulative si afrodiziace. Tonifica
 activitatea gastro -intestinala, intensifica activitatea bilei, impulsioneaza activitatea
 rinichilor si a cailor urinare, fiind, totodata, si un dezinfectant activ. Vanilia este cunoscuta
 si ca depurativ pentru caile respiratorii, imbunatatind functionarea acestora.
@@ -8728,11 +8728,11 @@ de capatana.
 
 150 DICTIONARUL PLANTELOR DE LEAC
 Varza creata se foloseste mult in salate, dar si in preparate culinare.
-Pentru aplicatii medicinale se prepara sucul de varza creata, folosi t in forma
+Pentru aplicatii medicinale se prepara sucul de varza creata, folosit in forma
 necombinata, sau in combinatie cu alte plante si legume care au, si ele, calitati
 medicinale.
 Substante active importante: proteine, glucide, vitaminele A, B1, B2, C, K, F,
-PP, potasiu, calciu, sodiu, fier, rezine, amidon. Potasiul, calciul, fie rul si vitamina C se
+PP, potasiu, calciu, sodiu, fier, rezine, amidon. Potasiul, calciul, fierul si vitamina C se
 gasesc in cantitati insemnate.
 Intrebuintari. Foarte utile sunt curele cu suc de varza creata, benefice in
 afectiuni precum gastrita, colita, ulcerul gastric, arterioscleroza, racelile, afectiuni ale
@@ -8755,8 +8755,8 @@ produs recomandat in alimentatia diabeticilor.
 Specialistii au identificat, la toate speciile de varza, calitati antianemice, antialgice,
 sedative, cicatrizante. Observatii facute asupra celor care consuma varza arata ca
 acesti oameni au o viata mai lunga.
-Exista si o informatie istorica ce inca i si as teapta confirmarea: se spune ca
-puternicele si victori oasele legiuni romane aveau ca hrana de baza nu carnea, ci
+Exista si o informatie istorica ce inca i si asteapta confirmarea: se spune ca
+puternicele si victorioasele legiuni romane aveau ca hrana de baza nu carnea, ci
 varza.
 Desi recunoscuta din vechime si pentru proprietatile sale terapeutice, varza,
 indiferent de specie, furnizeaza si in ziua de azi noi surprize in privinta capacitatii sale
@@ -8774,7 +8774,7 @@ Substante active importante: saponine, tanin, mucilagii.
 Intrebuintari. Preparatele de vatamatoare au proprietati antiseptice, astringente,
 laxative, sedative. Sunt utilizate, prin traditie, pentru vindecarea ranilor, a eczemelor,
 a echimozelor, a umflaturilor, de unde si numele de vatamatoare. Vatamatoarea este
-indicata si pentru pofta de mancare, precum si pentru com baterea starilor de greata
+indicata si pentru pofta de mancare, precum si pentru combaterea starilor de greata
 si a indigestiilor. Ca laxativ, vatamatoarea combate constipatia, regland tranzitul in
 intestinul gros.
 In unele tari europene se considera ca vatamatoarea apara de deochi, iar la noi
@@ -8790,8 +8790,8 @@ anului. Vascul infloreste in martie-aprilie, florile fiind unisexuate – mascul
 DICTIONARUL PLANTELOR DE LEAC 151
 Fructul este o bobita de culoare alba sau galbuie.
 Vascul cu proprietati medicinale (a se deosebi de vascul de stejar (Loranthus
-europaeus) care nu are asemenea calitati) cre ste pe frasin, trandafir, mar, brad,
-mesteacan, par, cire s, prun. Pentru a nu se face confuzii, vascul se recolteaza in
+europaeus) care nu are asemenea calitati) creste pe frasin, trandafir, mar, brad,
+mesteacan, par, cires, prun. Pentru a nu se face confuzii, vascul se recolteaza in
 perioada de iarna, vascul medicinal fiind mai usor de identificat deoarece isi pastreaza
 frunzele iarna, in timp ce vascul de stejar si le pierde in anotimpul rece.
 Pentru uz medicinal se utilizeaza frunzele si ramurile tinere. Se considera ca
@@ -8841,7 +8841,7 @@ Denumire stiintifica: Rhamnus cathartica.
 Denumire populara: spinul cerbului.
 Prezentare. Apartinand familiei ramnaceelor, verigariul sau spinul cerbului creste
 sub forma de arbust in padurile de fag, dar si in alte paduri de foioase, precum si prin
-tufarisuri. In mod obi snuit, verigariul are circa trei metri inaltime, dar poate ajunge si
+tufarisuri. In mod obisnuit, verigariul are circa trei metri inaltime, dar poate ajunge si
 pana la o inaltime de sase metri. Crengile care cresc pe parcursul unei perioade de
 vegetatie sunt terminate, intotdeauna, cu un spin. Frunzele au forma de elipsa. Florile
 de verigariu sunt mici si au culoarea galben-verzuie, fructul fiind o bobita neagra.
@@ -8874,10 +8874,10 @@ Substante active importante: cumarina, taninuri, glucozide, compusi amari.
 Intrebuintari. Vinarita este cunoscuta ca un eficient somnifer si, din acest motiv,
 a fost multa vreme utilizata pentru a aduce lini stea si odihna copiilor si a batranilor.
 Datorita calitatilor sale tranchilizante, sedative, vinarita este utilizata si in stari de
-neurastenie, melancolie, isterie. Preparatele pe baza de vinarita au, de asemen ea,
+neurastenie, melancolie, isterie. Preparatele pe baza de vinarita au, de asemenea,
 un rol insemnat in terapiile privind restabilirea ritmului cardiac, fiind eficiente si in
 dizolvarea si sfaramarea calculilor renali, in icter, precum si in hidropizie, litiaza urinara,
-scarlatina, rujeola. Vinarita se administreaza si in indigestii, f iind un agent de curatire
+scarlatina, rujeola. Vinarita se administreaza si in indigestii, fiind un agent de curatire
 si revigorare a sistemului gastro-intestinal.
 Ca planta medicinala, vinarita iese in evidenta prin calitatile sale de somnifer, cat
 si prin efectele sale in privinta calculilor renali.
@@ -8890,7 +8890,7 @@ si radacini numeroase. In perioada de maxima vegetatie, tulpina – uneori ramif
 partea superioara – ajunge pana la un metru inaltime si este acoperita cu peri. Frunzele
 au un petiol pronuntat, forma lor fiind eliptica sau lanceolata. Florile, de culoare purpurie,
 apar din mai si pana in august si sunt dispuse grupat, in forma de spic. Vindeceaua
-este o planta melifera. Cre ste in locuri cu mult soare, cu multa lumina, cu umezeala
+este o planta melifera. Creste in locuri cu mult soare, cu multa lumina, cu umezeala
 putina – pe pajisti, pe dealuri.
 Pentru nevoi medicinale se recolteaza partea aeriana a plantei, din care se
 prepara infuzie si decoct.
@@ -8905,7 +8905,7 @@ In cantitati mari, preparatele de vindecea pot fi toxice, afectand mai ales fica
 ### Vinerita
 Denumire stiintifica: Ajuga reptans.
 Denumire populara: vinetica.
-Prezentare. Vinerita este o planta de munte, fiind u sor de intalnit in fanete, pe
+Prezentare. Vinerita este o planta de munte, fiindu sor de intalnit in fanete, pe
 
 DICTIONARUL PLANTELOR DE LEAC 153
 pajisti sau la marginea padurilor. Face parte din familia labiatelor. Este o erbacee cu un
@@ -8933,7 +8933,7 @@ Virnantul este cunoscut si ca planta aromatica. Mirosul sau – specific, persis
 este prea placut.
 Pentru uz medicinal se culeg frunzele, ramurile cu flori, dar poate fi utilizata si
 planta in intregul ei. Se prepara infuzie, pulbere, decoct, extract.
-Substante active importante: o su bstanta specifica – rutina, cumarina, ulei
+Substante active importante: o substanta specifica – rutina, cumarina, ulei
 esential, saruri minerale, alcaloizi. Una dintre cele mai active substante este uleiul de
 virnant.
 Virnantul este o planta otravitoare. Chiar si la o simpla atingere a plantei, pielea
@@ -8957,7 +8957,7 @@ taratoare, agatatoare. Aceste ramuri se mai numesc si lujeri. Frunzele vitei de 
 forma de inima, rareori fiind lobate. Vita de vie infloreste primavara, inflorescentele
 fiind sub forma de racem. Florile au, de obicei, o culoare galben -verzuie. Fructele nu
 sunt altceva decat binecunoscutele bobite (bace), dispuse in struguri. Partea strict
-medicinala a vitei de vie nu sunt, totu si, strugurii, desi si acestia au, potrivit ultimelor
+medicinala a vitei de vie nu sunt, totusi, strugurii, desi si acestia au, potrivit ultimelor
 descoperiri, proprietati medicinale exceptionale – vinul insusi fiind considerat, de multa
 vreme, aliment si medicament.
 Valoare medicinala au frunzele vitei de vie, din care se prepara mai multe feluri de
@@ -8978,7 +8978,7 @@ si agenti cu efecte medicinale dintre cele mai favorabile.
 Denumire stiintifica: Anthoxanthum odoratum.
 Denumire populara: parangina, iarba fanului.
 Prezentare. Vitelarul – planta mai putin cunoscuta chiar si in cercurile naturistilor
-– este o erbacee perena din familia gramineelor. Cre ste sub forma unei tufe galbui
+– este o erbacee perena din familia gramineelor. Creste sub forma unei tufe galbui
 (circa 50 cm inaltime), cu flori in forma de spiculete. Florile apar in lunile mai si iunie.
 Vitelarul este o planta aromatica – miroase placut si persistent a cumarina, adica a fan.
 Creste pe pajisti, in poieni si luminisuri de padure, pe terenuri intelenite.
@@ -8988,7 +8988,7 @@ Substante active importante: cumarina, ulei volatil, substante amare.
 Intrebuintari. Infuzia si decoctul de vitelar au efecte calmante asupra organismului.
 Baile cu infuzie sau decoct de vitelar aduc pacea fizica si psihica celor profund obositi
 sau care au trecut prin momente grele. Substantele volatile si amare din preparatele de
-vitelar au efecte benefice in ceea ce prive ste circulatia sangelui si functionarea inimii.
+vitelar au efecte benefice in ceea ce priveste circulatia sangelui si functionarea inimii.
 Parfumul de cumarina contribuie si la intensificarea si reglarea respiratiei s i, deci, la
 mai buna oxigenare si hranire a sangelui. In medicina populara, flo rile de vitelar sunt
 un remediu pentru bolile de ficat si de splina.
@@ -9040,7 +9040,7 @@ unor afectiuni cardiace.
 ### Yucca
 Denumire stiintifica: Yucca schidigera.
 Prezentare. Yucca – un arbust din familia liliaceelor (agavaceele) – creste in
-America Centrala. Numele ii vine de la pozitia florilor, a sezate ca un pendul. Yucca
+America Centrala. Numele ii vine de la pozitia florilor, asezate ca un pendul. Yucca
 este o planta verde in permanenta. Inflorescenta de yucca are forma unui racem foarte
 dezvoltat. Tulpinile au inaltime redusa, frunzele fiind situate in varful ramuri lor, sub
 forma de buchet.
@@ -9059,13 +9059,13 @@ Denumire populara: macul ciorii.
 Prezentare. Zamosita este o erbacee din familia maivaceelor. Tulpina, ramificata
 de la baza, ajunge pana la 80 cm inaltime, fiind acoperita cu peri sori tari. Frunzele,
 paroase si petiolate, au forma lobata sau penata. Florile, care se dezvolta din iunie
-si pana in septembrie, au culoarea galben-deschis si mijlocul p urpuriu. Fructul este
+si pana in septembrie, au culoarea galben-deschis si mijlocul purpuriu. Fructul este
 o capsula. Aceasta planta care este, de fapt, o buruiana, apare indeosebi in culturile
 legumicole, dar si in parloage sau pe terenuri intelenite.
 Pentru uz medicinal se recolteaza partile aeriene ale plantei. Se prepara infuzie,
 decoct, extract.
 Substante active importante: flavone, saruri minerale, arabinoza, ramnoza.
-Intrebuintari. Preparatele pe baza de zamo sita au proprietati depurative,
+Intrebuintari. Preparatele pe baza de zamosita au proprietati depurative,
 laxative, diuretice, antiinfectioase si antiinflamatoare. Cel mai cunoscut preparat –
 ceaiul de zamosita – este recomandat in boli ale rinichiului si ale cailor urinare (mai
 ales pentru combaterea depunerilor, pietrelor), in afectiuni reumatice, cistite, abcese.
@@ -9076,15 +9076,15 @@ Denumire stiintifica: Rubus idaeus.
 
 156 DICTIONARUL PLANTELOR DE LEAC
 Denumire populara: malina.
-Prezentare. Zmeurul este un arbust ghimpos ce cre ste sub forma unui tufan a
+Prezentare. Zmeurul este un arbust ghimpos ce creste sub forma unui tufan a
 carui inaltime poate trece, uneori, chiar si de doi metri. Face parte din familia rozaceelor.
-Ramurile zmeurului sunt subtiri si pline de ghim pi. Frunzele sunt aproape albe (argint ii)
+Ramurile zmeurului sunt subtiri si pline de ghimpi. Frunzele sunt aproape albe (argint ii)
 pe fata inferioara si verde-deschis pe fata superioara. Florile au culoare alba si se
 aduna in inflorescente bogate. Zmeurul infloreste din luna mai si pana in luna august.
 Fructele au culoare rosie, fiind gustoase si aromate. Zmeurul este un arbust de padure,
 facandu-si loc, printre marii arbori, pe o arie geografica intinsa – de la campie si pana
 in zona subalpina. Acest arbust poate fi intalnit, insa, si in forma cultivata, data fiind,
-mai ales, importanta sa economica. In ceea ce prive ste calitatea fructelor, se pare ca
+mai ales, importanta sa economica. In ceea ce priveste calitatea fructelor, se pare ca
 fructele zmeurului din flora spontana au calitati mai pronuntate si sunt cu mult mai
 aromate.
 Valoare medicinala au, desigur, fructele zmeurului, dar, in primul rand, frunzele,
@@ -9106,14 +9106,14 @@ Prezentare. Zorelele sunt specii de plante ornamentale agatatoare. Fac parte din
 familia convolvulaceelor si au, de obicei, o dezvoltare anuala. Tulpina, subtire, poate
 avea o lungime de trei metri. Frunzele au forma de inima si sunt de un verde inchis.
 Florile, in forma de palnie, au culori diferite, mai ales albastru si mov-roscat. Aceste
-plante isi au obar sia in z ona Americii Centrale. Importanta lor, din punct de vedere
+plante isi au obarsia in z ona Americii Centrale. Importanta lor, din punct de vedere
 medicinal, este data de radacina – din care se prepara pulbere, tinctura si o rasina.
 Substante active importante: rasina, convolvulina, saruri minerale. Compusii
 zorelelor sunt inca putin cercetati.
 Intrebuintari. Preparatul de zorele este descongestionant, vermifug, laxativ
-si chiar purgativ. Se folose ste in terapii ce vizeaza anumite afectiuni din categoria
+si chiar purgativ. Se foloseste in terapii ce vizeaza anumite afectiuni din categoria
 hidropiziilor, in congestii cerebrale, in unele blocaje ale sangelui in organism (inclusiv
-menstre blocate), in deranjamente intestinale. Potrivit speciali stilor, nu se va folosi
+menstre blocate), in deranjamente intestinale. Potrivit specialistilor, nu se va folosi
 preparat de zorele in cazul unor inflamatii intestinale si nici in caz de sarcina sau
 alaptare.
 

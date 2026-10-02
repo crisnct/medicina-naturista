@@ -66,7 +66,7 @@ cele 4 colturi ale locuintei, pe laturi si 2 (unul cu varful in sus, unul cu var
 centrul tavanului, prinse pe lustra. Cu un cristal de cuart lasat intr-un vas putem purifica apa
 potabila. O astfel de apa accentueaza efectul medicamentelor (efect homeopatic), in special a
 celor de origine naturala.
-Prin plasarea a doua cristale sub perna, unul cu virful in sus si celalalt cu varful in jos,
+Prin plasarea a doua cristale sub perna, unul cu varful in sus si celalalt cu varful in jos,
 vibratiile acestora ajuta si orienteaza subconstientul in timpul calatoriilor sale astrale si va
 asigura protectia.
 Cristalele, clusterele, geodele, sferele din cristal, asezate in casa reprezinta o oaza de
@@ -202,7 +202,7 @@ mental, fizic. Adevarata vindecare are loc numai cand persoana supusa tratamentu
 accepta pe deplin adevarata sa natura (refacand constient legatura cu lumina divina).
  In urma studierii diverselor modalitati de tratament cu cristale, am conceput o metoda
 originala de tratament, care combina elemente de radiestezie activa, piramidologie si cristale
-de quartz. Folosind tehnicile de radiestezie (biodetectie), pacienul este investigat din punct de
+de quartz. Folosind tehnicile de radiestezie (biodetectie), pacientul este investigat din punct de
 
 vedere energetic, stabilindu-se un diagnostic (energetic), gasind blocajele si deficientele
 energetice ale pacientului spre a le inlatura, deci spre vindecare.
@@ -341,7 +341,7 @@ diabet, obezitate, oboseala cronica si stress etc.
 Acupunctura provine din stravechea practica medicala chineza de inteparea cu ace sau
 presarea a anumitor puncte de pe corp care au proprietati specifice. Acupunctura se aplica
 extensiv pentru o varietate de scopuri medicale mergand de la prevenirea si tratamentul
-afectiunilor acute sau cronice, pana la alinarea dureilor si anestezia in interventiile
+afectiunilor acute sau cronice, pana la alinarea durerilor si anestezia in interventiile
 chirurgicale.
 Acupunctura este principala practica in sistemul de medical chinez din ultimii 5.000 de ani.
 In perioada Neolitica (10.000-4.000 AD) Samanii au fost principalii detinatori ai secretelor
@@ -391,7 +391,7 @@ persoana la alta, functie de inaltime si constitutie. El poate fi usor diferit c
 persoana, functie de partea corpului care este masurata.
 Fiecare punct de acupunctura este localizat dupa lungimea in "cun" astfel obtinuta, a
 segmentului dintre punct si alt reper de acupunctura. De exemplu, pe antebrat, distanta intre
-plica (cuta) cotului si cea a incheieturii miinii masoara 12 cun. Punctul Neiguan (Pe6) se
+plica (cuta) cotului si cea a incheieturii mainii masoara 12 cun. Punctul Neiguan (Pe6) se
 afla pe partea interna a antebratului la 2 cun deasupra mijlocului pliului de flexiune.
 
 Aceasta metoda permite o localizare precisa. a punctelor. Ea poate fi aplicata atit la adulti cit
@@ -404,7 +404,7 @@ Capul
 - intre linia parului celor doua regiuni temporale - 9 cun
 Regiunea toraco-abdominala
 - distanta intre cele doua mameloane - 8 cun;
-- de la extremitatea inferiara a sternuluila ombilic - 8 cun;
+- de la extremitatea inferioara a sternuluila ombilic - 8 cun;
 - de la ombilic la marginea superioara a simfizei pubiene - 5 cun;
 - de la axila la coasta XI (pe lateralul cosului pieptului) - 12 cun;
 Regiunea lombo-dorsala
@@ -432,7 +432,7 @@ Localizarea functie de reperele anatomice
 Se localizeaza punctele in functie de reperele anatomice de pe suprafata corpului. De
 exemplu, pentru a localiza punctele de pe cap, se iau in cosiderare pozitiile organele de simt,
 sprancenele, si extremitatea fruntii, pentru punctele dorsale se iau iau ca repere apofizele
-spinale ale vertebrelor, omoplatul (spina omoplatului este situata la niveaul apofizei spinale a
+spinale ale vertebrelor, omoplatul (spina omoplatului este situata la nivelul apofizei spinale a
 celei de-a 3-a vertebre dorsale si unghiul sau inferior la nivelul apofizei spinale a celei de-a
 
 7-a vertebra dorsala), coastele (extremitattea inferioara a arcului costal este la nivelul celei
@@ -468,7 +468,7 @@ efectelor secundare ale acestora.
 Datorita complexitatii acestui sistem bioenergetic indicatiile acupuncturii nu au practic
 limite, orice afectiune putand beneficia de acest tratament."
 Ca metoda de stress management, acupunctura poate induce o relaxare profunda ajutand
-astfel la vndecarea multor afectiuni rezultate din stress sau din probleme emotionala.
+astfel la vindecarea multor afectiuni rezultate din stress sau din probleme emotionala.
 Principala intrebare legata de acupunctura este legata de durerea care poate aparea la
 intepare. Se spune ca nu doare (cel putin asa pretind pacientii care au incercat-o!), desi
 uneori, la contactul acului cu pielea se poate simti o mica durere. Unii pacienti spun ca simt
@@ -522,7 +522,7 @@ consolidarea sau refacerea functiilor unor parti ale corpului uman afectate de b
 traumatisme.
 Kinetoterapia se defineste ca terapie prin miscare efectuata prin programe de recuperare
 medicala care urmaresc refacerea unor functii diminuate sau cresterea nivelului functional in
-diverse suferinte. Kinetoterapia este o forma terapeutica individualizata care, plecind de la
+diverse suferinte. Kinetoterapia este o forma terapeutica individualizata care, plecand de la
 programe de exercitii fizice statice si dinamice, se poate folosi in programele terapeutice
 profilactice (de prevenire), curative si de recuperare. Astfel, kinetoterapia isi gaseste aria de
 utilizare in cele trei sectiuni de asistenta medicala, putindu-se descrie:
@@ -562,7 +562,7 @@ apare initial in plan frontal, apoi fiind insotita de rotatia vertebrelor. Scoli
 multe tipuri: scolioza C stinga, scolioza C dreapta si scolioza cu mai multe curburi. Aceste
 deviatii ale coloanei vertebrale pot fi de natura functionala, adica acele scolioze prin
 deprindere care au o evolutie lenta si este pastrata mobilitatea coloanei vertebrale, scoliozele
-profesionale si statice, sau de natura patologica, asa cum sint scoliozele congenitale,
+profesionale si statice, sau de natura patologica, asa cum sunt scoliozele congenitale,
 rahitice, paralitice, traumatice, reumatice s.a. De la inceput trebuie mentionat faptul ca
 tratamentul prin gimnastica medicala urmareste sa opreasca evolutia scoliozelor, sa
 corecteze deviatiile coloanei vertebrale si sa mentina aceasta corectare (prevenirea
@@ -575,12 +575,12 @@ gibozitatii costale prin mobilizarea coloanei vertebrale si detorsionarea corpur
 vertebrale, redresarea bazinului si echilibrarea centurii scapulare, dezvoltarea mobilitatii
 cutiei toracice, crearea unui reflex de postura corecta. Mijloacele folosite constau in exercitii
 statice si exercitii dinamice executate prin miscari ale trunchiului, ale membrelor superioare
-si inferioare, exercitii de respiratie, exercitii aplicative de tirire si de echlibru, exercitii de
-redresare si relaxare. Exercitiile cu obiecte portative sint des folosite in corectarea scoliozei.
+si inferioare, exercitii de respiratie, exercitii aplicative de tirire si de echilibru, exercitii de
+redresare si relaxare. Exercitiile cu obiecte portative sunt des folosite in corectarea scoliozei.
 Dintre aceste obiecte se folosesc bastonul, mingea medicinala, gantera, extensorul.
-Cifozele sint deviatii ale coloanei vertebrale in plan sagital cu convexitatea curburii
-indreptata inapoi. Cifozele functionale sint deviatii tipice, provocate si intretinute de
-tulburarile functionale ale coloanei vertebrale care se accentueaza atunci cind nu sint
+Cifozele sunt deviatii ale coloanei vertebrale in plan sagital cu convexitatea curburii
+indreptata inapoi. Cifozele functionale sunt deviatii tipice, provocate si intretinute de
+tulburarile functionale ale coloanei vertebrale care se accentueaza atunci cand nu sunt
 corectate corespunzator si la timp, fiind insotite de unele modificari in forma si structura
 oaselor si a articulatiilor vertebrale. Aceste deviatii se pot intilni sub forma atitudinii cifotice
 sau cifozei profesionale. Cifozele patologice pot fi congenitale, rahitice, paralitice,
@@ -590,17 +590,17 @@ anterioara a trunchiului, corectarea deficientelor secundare care insotesc cifoz
 cap si git inclinat inainte, omoplati departati si desprinsi, umeri adusi in fata, torace infundat
 sau in flexiune, stoparea reflexului de atitudine gresita a trunchiului si formarea unui reflex
 de postura corect si stabil in activitatile statice si dinamice ale corpului. Pentru realizarea
-acestor scopuri, mijloacele folosite sint exercitiile statice si exercitiile dinamice care constau
+acestor scopuri, mijloacele folosite sunt exercitiile statice si exercitiile dinamice care constau
 
 in miscari active libere sau ingreunate care sa redreseze coloana vertebrala si celelalte
 deficiente secundare ale cifozei.
 Accidentele vasculare cerebrale rezulta din restrictia sanguina catre creier si cauzeaza
-leziunea neuronilor si deficit neurologic. Clinic, sint posibile o varietate de deficite: motor,
+leziunea neuronilor si deficit neurologic. Clinic, sunt posibile o varietate de deficite: motor,
 senzitiv, mental perceptual si de limbaj. Deficitul motor este caracterizat de paralizie
 (hemiplegie) sau scadere partiala de forta (hemipareza) si este situat pe partea corpului
-opusa sediului leziunii cerebrale. Acesti bolnavi sint denumiti cu termenul generic de
+opusa sediului leziunii cerebrale. Acesti bolnavi sunt denumiti cu termenul generic de
 hemiplegici. Rata incidentei este de 1-2 persoane la 1.000 de persoane/an. Incidenta creste
-dramatic cu virsta, frecventa maxima fiind la 55 de ani. Cauzele cele mai comune sint:
+dramatic cu varsta, frecventa maxima fiind la 55 de ani. Cauzele cele mai comune sint:
 tromboza, embolismul, hemoragia cerebrala. Ateroscleroza este factorul major care duce la
 obstructia arterelor cerebrale, fapt ce provoaca ischemia si infarctul cerebral.
 Embolia este data de materii care se deplaseaza prin vasele sanguine. Acestia pot fi trombi,
@@ -610,36 +610,36 @@ cerebral cu inundarea creierului si se datoreaza hipertensiunii arteriale, ruper
 anevrism. Cind hemoragia este masiva moartea apare in citeva ore. Factorii de risc sint:
 functia cardiaca deficitara, diabetul, obezitatea, fumatul, sedentarismul, stresul,
 contraceptionalele orale, cresterea colesterolului sanguin, predispozitia genetica.
-Recuperarea trebuie sa inceapa din stadiul acut cit mai devreme posibil, cind pacientul este
+Recuperarea trebuie sa inceapa din stadiul acut cit mai devreme posibil, cand pacientul este
 stabilizat medical, tipic dupa 24-36 de ore. Hemoragiile cerebrale pot sa amine inceperea
-tratamentului kinetic pina la stabilizarea hemoragiei, adica in medie pina la 10 zile.
+tratamentului kinetic pana la stabilizarea hemoragiei, adica in medie pana la 10 zile.
 Cind nu mai exista contraindicatii medicale, pacientul trebuie imediat antrenat sa se ridice la
 marginea patului si in ortostatism. Aceasta va duce la grabirea recuperarii, scaderea
 confuziei si imbunatatirea functiilor vitale. Tratamentul trebuie sa se bazeze pe cistigarea
 controlului central al miscarii. Exercitiile trebuie sa aiba o motivatie legata de activitatea
 functionala de zi cu zi si de cea profesionala proprie. Pacientul trebuie sa inteleaga ceea ce
-face si sa inteleaga logica exercitiilor, terapeutul avind obligatia sa explice permanent
+face si sa inteleaga logica exercitiilor, terapeutul avand obligatia sa explice permanent
 miscarile de executat. Exercitiile trebuie executate corect deoarece persistenta unei practici
-incorecte va intirzia progresul, miscarile incorecte fiind mult mai greu de inlocuit cu unele
+incorecte va intarzia progresul, miscarile incorecte fiind mult mai greu de inlocuit cu unele
 corecte. O importanta foarte mare o are numarul repetitiilor, care trebuie sa fie destul de
 mare pentru a invata o miscare coordonata, precisa, cu acuratete. Pacientul trebuie sa
 participe activ si nu sa se insiste pe mobilizari pasive.
 Terapeutul trebuie sa-l ajute pe pacient cu necesarul minim. Exercitiile nu trebuie sa fie
 plictisitoare, deoarece pacientul poate sa oboseasca si mental, nu numai fizic. Pacientul
 trebuie sa invete sa-si inhibe musculatura inutila care se contracta intr-un exercitiu.
-Exercitiile cu rezistenta nu sint de dorit la hemiplegici, deoarece nu este un obiectiv
+Exercitiile cu rezistenta nu sunt de dorit la hemiplegici, deoarece nu este un obiectiv
 cistigarea fortei musculare, ci aparitia activitatii contractile, a controlului motor in muschiul
 respectiv.
 Entorsa este o leziune traumatica a ligamentelor si articulatiilor. Entorsa se observa in
 special la adult, este foarte rara la copil, unde ligamentele suple si elastice se lasa destinse
-fara a se rupe, precum si la batrini, unde acelasi traumatism determina mai frecvent o
-fractura. Localizarea cea mai frecventa a entorselor se afla la nivelul gleznei, urmind entorsa
+fara a se rupe, precum si la batrani, unde acelasi traumatism determina mai frecvent o
+fractura. Localizarea cea mai frecventa a entorselor se afla la nivelul gleznei, urmand entorsa
 genunchiului. Entorsa, prin marea ei raspindire si prin gravitatea urmarilor pe care le are
 asupra aparatului locomotor si circulator, constituie o cauza majora de scadere a capacitatii
 partiale de munca, de aceea importanta aplicarii unui tratament corespunzator precoce si
 specific kinetoterapeutic asociat cu orteze. Scopul tratamentului este revenirea rapida a
 pacientului in executarea activitatilor zilnice si specifice profesiei. Acest lucru este deosebit
-de important, deoarece orice intirziere in aplicarea tratamentului poate periclita activitatea
+de important, deoarece orice intarziere in aplicarea tratamentului poate periclita activitatea
 socio-profesionala a acestuia. Aspectul membrului afectat se schimba, intrucit atrofia este
 
 progresiva si cuprinde muschii extensori, iar neglijarea ei, ca si persistenta sa, ar constitui
@@ -650,11 +650,11 @@ Fractura se produce la nivelul unui os in urma unui traumatism, de obicei, viole
 fractura apare dupa un traumatism de mai mica importanta, care actioneaza asupra unui os
 fragilizat printr-o suferinta anterioara (osteoporoza, tumoare osoasa). Numarul fracturilor
 este deosebit de mare, mai ales in conditiile vietii moderne. Se apreciaza ca fracturile
-reprezinta 10 la suta din totalul traumatismelor si ca sint de 10 ori mai frecvente decit
-luxatiile. Fracturile se intilnesc la toate virstele, dar incidenta cea mai mare se situeaza intre
+reprezinta 10 la suta din totalul traumatismelor si ca sunt de 10 ori mai frecvente decit
+luxatiile. Fracturile se intilnesc la toate varstele, dar incidenta cea mai mare se situeaza intre
 20 si 40 de ani. Tratamentul fracturilor are ca obiectiv principal obtinerea restabilirii functiei
 si, pe cit posibil, chiar a formei membrului. Refacerea osului fracturat se obtine corijind
-deplasarile, deci facind reducerea fracturii si imobilizind-o prin aparat ghipsat pina la
+deplasarile, deci facand reducerea fracturii si imobilizind-o prin aparat ghipsat pana la
 formarea unui calus solid. Mentinerea in stare functionala a articulatiilor, a muschilor si a
 circulatiei membrului sau restabilirea cit mai rapida a acestora se realizeaza prin reducerea
 timpului de imobilizare la minimum, dar necesar pentru consolidarea fracturii. De asemenea,
@@ -670,12 +670,12 @@ fizic, apar in organism efecte locale sau generale, imediate sau tardive, trecat
 durata, care imbunatatesc structura si functionalitatea corpului uman. Orice activitate cu
 caracter fizic constituie si o stimulare pentru muschi, carora le imbunatateste proprietatile
 fiziologice si calitatile fizice.
-Una dintre cele mai frecvente cauze ale deficientelor fizice sint tulburarile tonusului
+Una dintre cele mai frecvente cauze ale deficientelor fizice sunt tulburarile tonusului
 muscular; corectarea acestora se bazeaza pe efectele exercitiului fizic asupra muschiului. Din
-punct de vedere al rolului educativ, exercitiul fizic are efect benefic la orice virsta, dar mai
-ales in perioada de crestere, cind miscarile nu sint inca bine definite, cind cresterea oaselor
+punct de vedere al rolului educativ, exercitiul fizic are efect benefic la orice varsta, dar mai
+ales in perioada de crestere, cand miscarile nu sunt inca bine definite, cand cresterea oaselor
 nu este incheiata, prin repetarea corecta a unor miscari se ajunge la eliminarea miscarilor
-incoerente si la stapinirea celor necoordonate. Stimularea factorilor morali si volitionali
+incoerente si la stapanirea celor necoordonate. Stimularea factorilor morali si volitionali
 contribuie la corectarea atitudinilor gresite. Omul are nevoie de multa miscare in aer liber, de
 exercitii, pe care sa le integreze sistematic in programul sau de activitate zilnica.
 Notiunea de 'kinetoterapie' are pentru unii dintre voi conotatii asemanatoare terapiilor
@@ -690,21 +690,21 @@ Inca din Evul Mediu, vindecatorii si vrajitorii recurgeau adesea la cromoterapie
 mijloc de combatere a diverselor maladii. In zilele noastre, cercetatorii recunosc ca intr-
 adevar culorile au efecte puternice asupra psihicului uman, iar prin intermediul psihicului
 asupra dispozitiei si sanatatii.
-Culori ce stimuleaza si culori ce frineaza
+Culori ce stimuleaza si culori ce franeaza
 Unele culori stimuleaza activitatea biologica a organismului, altele, dimpotriva, o franeaza.
 In acest context, un exemplu este anotimpul toamna, detestat de multi din cauza ploilor
 frecvente si a noroiului. Se sustine ca acestea atrag proasta dispozitie si sanatate precara.
-Este cunoscuta expresia melancolia de toamna, cind omul isi pierde interesul fata de tot si de
+Este cunoscuta expresia melancolia de toamna, cand omul isi pierde interesul fata de tot si de
 toate, ii este somn in permanenta, ii scade apetitul sexual, iar functiile cerebrala si
-locomotorie sint mult incetinite. Aceste simptome se observa mai ales la femei. Conform unor
-statistici, femeile sint de aproximativ patru ori mai afectate decit barbatii de indispozitii si
+locomotorie sunt mult incetinite. Aceste simptome se observa mai ales la femei. Conform unor
+statistici, femeile sunt de aproximativ patru ori mai afectate decit barbatii de indispozitii si
 chiar stari depresive.
 Cauzele: zona lipsei de lumina solara si a culorilor deschise
 In realitate, cauzele, motivele melancoliei de toamna trebuie cautate in zona lipsei de lumina
 solara si a culorilor deschise. Fiind privati de o mare parte dintre excitantii cromatici cu care
 ne-am obisnuit in timpul verii, psihicul nostru, mai exact constientul si subconstientul nostru,
 luate impreuna, transmit mai putine impulsuri de comanda sistemului endocrin, care, la
-rindul sau, emite mai putini hormoni care stimuleaza procesele vitale din organism. Totodata,
+randul sau, emite mai putini hormoni care stimuleaza procesele vitale din organism. Totodata,
 din cauza faptului ca sistemul imunitar functioneaza la jumatate din capacitatea sa, se reduce
 la jumatate rezistenta organismului si se agraveaza bolile cronice. Putem oare da un colorit
 mai aprins toamnei triste? Pentru aceasta este nevoie sa indestulam lumea noastra cu unele
@@ -721,7 +721,7 @@ toamna purtarea unor haine de culoare rosie. In subconstientul nostru, culoarea 
 asociata cu energia si puterea; ca urmare, il binedispune pe om. Astfel, culoarea rosie alunga
 tristetea si emotiile negative, are efecte stimulatoare asupra organelor interne si a muschilor,
 in special asupra picioarelor. Desigur, in zilele noastre nu este la moda sa mergi la serviciu
-imbracat in rosu, dar atunci cind vii seara acasa este bine sa-ti pui ceva rosu pe tine, o
+imbracat in rosu, dar atunci cand vii seara acasa este bine sa-ti pui ceva rosu pe tine, o
 camasa sau o rochie sau cel putin sa te legi cu un baticut rosu. De asemenea, este indicat ca
 masa de la bucatarie sa fie asternuta cu o fata de masa sau cu o musama in carouri rosii.
 Este foarte util sa faci rost de o ceasca de culoare rosie, iar gospodinele sa-si cumpere
@@ -734,7 +734,7 @@ Efectul inviorator al culorii rosii este completat de efectul de insanatosire a 
 care este extrem de util in tratarea dereglarilor aparatului digestiv, a bolilor de inima,
 precum si a disfunctiilor sistemului endocrin. Oranjul are efecte asupra rinichilor si vezicii
 urinare. Purtarea hainelor de nuanta oranj in casa te ajuta sa scapi de tristete si de spaime,
-previne caderile nervoase si ajuta la cresterea poftei de mincare, care dispare de cele mai
+previne caderile nervoase si ajuta la cresterea poftei de mancare, care dispare de cele mai
 multe ori in perioada toamnei.
 Culoarea verde este benefica pentru vedere
 Culoarea verde este benefica pentru vedere, pentru sistemul nervos si epiderma. Verdele este
@@ -742,22 +742,22 @@ un minunat vindecator, care ajuta organismul sa elimine toxinele si sa scape de 
 Aceasta culoare mai este considerata culoarea recoltei, contribuind la buna circulatie a
 limfei in organism, eliminarea sucului gastric si a transpiratiei. In acelasi timp, culoarea
 verde intareste sistemul nervos central, stimuleaza activitatea cerebrala, perceptia
-informatiilor si o gindire coerenta si precisa. Cind in camera exista obiecte de culoare verde
+informatiilor si o gandire coerenta si precisa. Cind in camera exista obiecte de culoare verde
 deschis, atunci in dispozitia persoanelor aflate in acest loc se simte o nota de veselie. Din
 toata gama de culori cea mai armonioasa este verdele, care contribuie la solutionarea unor
 probleme destul de dificile. Totodata, actiunea sa favorabila mareste functiile inimii si
-plaminilor. De aceea, oamenii se simt confortabil cind in incapere exista pete de culoare
-verde, chiar daca ele nu sint foarte mari sau foarte deschise - acestea oricum au efect
+plamanilor. De aceea, oamenii se simt confortabil cand in incapere exista pete de culoare
+verde, chiar daca ele nu sunt foarte mari sau foarte deschise - acestea oricum au efect
 odihnitor asupra ochiului.
 Efectul curativ al culorii albastre
 Extrem de puternic este efectul curativ al culorii albastre, care calmeaza stresul si emotiile,
 scade tensiunea arteriala, micsoreaza durerile in cazul sciaticii si al ulcerului la stomac.
 Daca un bolnav de pneumonie priveste indelung un obiect de culoare albastra, atunci acesta
 se vindeca mult mai repede. Multa lume care sufera de insomnie nu stie ca daca citeste la o
-lampa cu abajur albastru somnul nu va intirzia sa apara. Efectul va fi acelasi daca in camera
+lampa cu abajur albastru somnul nu va intarzia sa apara. Efectul va fi acelasi daca in camera
 in care dormim punem pe perete un covor de culoare albastra sau bleu. Trebuie sa facem in
 asa fel ca toamna la birou si acasa ochiul nostru sa se bucure de intreaga gama de culori.
-Veti vedea atunci ca melancolia de toamna va ramine doar o stare... poetica.
+Veti vedea atunci ca melancolia de toamna va ramane doar o stare... poetica.
 
 Un alt fel de cromoterapie
 "Culoarea, aceasta fermecatoare insusire a tot ce ne inconjoara, poate aduce in sufletul
@@ -765,18 +765,18 @@ nostru bucurie sau tristete, caldura sau raceala, agitatie sau liniste. Ea ne fa
 mai aproape sau mai departe de noi insine, iar de felul in care ne pricepem sa o utilizam
 depinde, in mare masura, echilibrul nostru, linistea interioara proprie, bogatia trairilor
 noastre afective dar si starea noastra fiziologica".
-Lasind la o parte culorile zugravite pe peretii camerelor, acestea avind si ele o foarte mare
+Lasind la o parte culorile zugravite pe peretii camerelor, acestea avand si ele o foarte mare
 importanta, dra Camelia Ene, specialista in cromoterapie, ne-a vorbit despre culorile florilor
 si cele din vestimentatie: "Atit florile, cit si hainele pe care le purtam, au culori care pot fi
 receptate de noi sau de altii de linga noi si ca un posibil mesaj purtator de semnificatii
 inteligibile. Numai ca, marea varietate de culori a naturii si a obiectelor de vestimentatie este
 vazuta, simtita si apoi codificata si decodificata intr-un anumit fel, in functie de experienta,
 gustul estetic si preferintele fiecaruia".
-Astfel, spune dra Ene, rosul florilor poate declansa efecte calorice, stimulind comportamentul
+Astfel, spune dra Ene, rosul florilor poate declansa efecte calorice, stimuland comportamentul
 de lupta. Desi este o culoare foarte calda, rosul este un stimulator general: excita, irita,
 provoaca, mobilizeaza, incita la actiune. In acelasi timp, culoarea rosie este si un foarte bun
-stimulator intelectual, insufletind, activind si facilitind asociatiile de idei. Privind rosul
-aprins al florilor ne creste presiunea sanguina si ni se activeaza respiratia, avind senzatia de
+stimulator intelectual, insufletind, activand si facilitand asociatiile de idei. Privind rosul
+aprins al florilor ne creste presiunea sanguina si ni se activeaza respiratia, avand senzatia de
 caldura.
 Florile albastre ofera liniste interioara si genereaza o placuta ambianta afectiva si
 meditativa. Indeamna la calm si reverie. In schimb, in exces, conduc la depresie, dind
@@ -787,12 +787,12 @@ fiziologic, scade presiunea sanguina si dilata vasele capilare. Florile galbene 
 caldura, intimitate, satisfactie, admiratie si inviorare. Pot fi un bun calmant al
 psihonevrozelor, sporind atentia si predispunind la comunicativitate.
 Dar si culorile hainelor pe care le imbracam pot avea efect asupra starii noastre de sanatate.
-"Hainele albe au o nota de prospetime, pace si echilibru. Cele de culoare rosie sint benefice
+"Hainele albe au o nota de prospetime, pace si echilibru. Cele de culoare rosie sunt benefice
 pentru persoanele cu tensiunea scazuta, lipsite de energie. Vesmintele de culoare albastra au
-efect linistitor, protector. Galbenul din vestimentatie are efect asupra ficatului, stimulind
+efect linistitor, protector. Galbenul din vestimentatie are efect asupra ficatului, stimuland
 functia hepatica. Este culoarea altruismului si detasarii de lucruri materiale. Fiind situat la
 mijlocul spectrului, verdele este culoarea echilibrului, a armoniei, hainele de culoare verde
-avind un efect minunat asupra echilibrului nostru interior", spune dra Camelia Ene. Desigur
+avand un efect minunat asupra echilibrului nostru interior", spune dra Camelia Ene. Desigur
 ca toate aceste sugestii nu pot fi epuizate aici. Sa retinem doar ca atit florile pe care le oferim
 sau le primim in dar, cit si hainele imbracate zilnic, ne pot ajuta sa trecem peste neplacerile
 create de diverse probleme de sanatate.
@@ -1101,7 +1101,7 @@ medicamente, nu anihileaza actiunea acestora.
 Pe de alta parte, priza de medicamente homeopatice nu este incompatibila cu alte
 medicamente, in special alopate, actiunea lor nesituandu-se la acelasi nivel, dar permitand
 adesea o sinergie terapeutica.
-ISTORIA HOMEOP ATIEI IN ROMANIA
+ISTORIA HOMEOPATIEI IN ROMANIA
 Voi incerca sa punctez cateva “Momente din drumul homeopatiei romanesti”, asa cum au fost
 prezentate de catre doamna farmacist Cezarina Tuchel in cadrul Conferintei nationale de
 Homeopatie de la Bucuresti din 25-26 octombrie 1991:
@@ -1391,7 +1391,7 @@ medicinale
 existente atat in tara noastra, cat si pretudindeni in lume.
  COADA-RACULUI
  Coada-racului (Poten-tilla anserina) apartine familiei rosaceelor si are o serie intreaga de
-specii. strans inrudite, majoritaea cu proprietati medicinale.
+specii. strans inrudite, majoritatea cu proprietati medicinale.
  CORIANDRUL
  Coriandrul (Coriandrum sativum) este o planta ierboasa, inalta de cca o jumatate de metru,
 din familia umbeliferelor.
@@ -1404,7 +1404,7 @@ erectd) apartin familiei compozitelor si sunt originare din Mexic.
 fanete, la marginea padurilor in zonele de munte.
  CRETUSCA
  Cretusca (Filipendula ulmaria) este o planta ierboasa, inalta, din familia Rosaceae. In unele
-parti e cunoscuta sub numele de sanziana.
+partie cunoscuta sub numele de sanziana.
  CRUSINUL
  Crusinul (Rhamnus frangula) este un arbust care creste prin poieni, pe malul raurilor si mai
 este cunoscut si sub alte denumiri: lemn-cainesc, patachina.
@@ -1425,7 +1425,7 @@ papadia.
  EUCALIPTUL
  Eucaliptul (Eucalyptus globulus) este un arbore originar din Australia si Tasmania, cultivat
 in regiunea mediteraneana si in Asia.
- F ASOLEA
+ FASOLEA
  Fasolea (Phaseolus vulgaris) este o planta leguminoasa bine cunoscuta in alimentatie
 .
  FENICULUL
@@ -1474,7 +1474,7 @@ in zona de munte si de deal.
  IARBA-MATEI
  larba-matei (Nepeta cataria) este o planta ierboasa, care creste in mod spontan prin fanete
 sau pe marginea drumurilor, dar este si cultivata.
- IENUP ARUL
+ IENUPARUL
  lenuparul (Juniperus communis), numit si ienibahar, este un arbust conifer care creste
 spontan in zona de munte.
  IPECA
@@ -1542,13 +1542,13 @@ din Asia, adusa pe continentul nostru in secolul al XHI-lea, se pare, de tatari.
  OSUL-IEPURELUI
  Osul-iepurelui (Ononis spinosa) face parte din familia leguminoaselor si este o planta cu
 flori foarte atragatoare, de culoare roz.
- P ADUCELUL
+ PADUCELUL
  Paducelul este un arbust spinos foarte raspandit la marginea padurilor incepand din zona de
 campie si pana in cea de munte.
  P AP ADIA
  Papadia (Taraxacum officinale) este o planta ierboasa care creste peste tot in locurile
 necultivate.
- P ATLAGINA
+ PATLAGINA
  Patlagina este o planta ierboasa, cu frunze mai alungite sau mai scurte, in functie de specie.
  PELINUL
  Pelinul, sau pelinul alb (Artemisia absinthium) este o planta ierboasa, aromatica, inalta de
@@ -1598,7 +1598,7 @@ inalte de aproximativ o jumatate de metru.
  ROSCOVUL
  Roscovul (Ceratonia siliqud) este un arbore din familia leguminoaselor, originar din
 regiunea mediteraneana.
- ROSTOP ASCA
+ ROSTOPASCA
  Rostopasca (Chelidonium majus) este o planta ierboasa, care creste prin locuri umbroase,
 prin paduri, tufarisuri, gradini, pe langa ruine, garduri, ziduri, de la campie pana in zonele
 montane, la altitudinea maxima de 800-1.000 m.

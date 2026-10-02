@@ -14,7 +14,7 @@
 
 Infloreste in masa in lunile VI-IX.
 
-**Materia prima:** Herba Millefolii -- partile aeriene cu inflorescente dispuse pe o tulpina de cel mult 20 cm, provenind de la speciile A. millefolium L., A collina Beker, A.pannonica Scheele, A. critmifolia W.etK si A.stricta Sch., ce se recolteaza de multe ori impreuna; se recunosc usor dupa frunzele penat sectate, glabre sau paroase, cu lacinii netede, uniform distribuite, cele terminale ingust sau liniar lanceolate.Florile marginale sunt albe, uneori rozee, cu ligule obovate.Mirosul slab aromat, gustul amar, usor sarat, astringent.Se recolteaza si numai inflorescentele -- Flores Millefolii.
+**Materia prima:** Herba Millefolii -- partile aeriene cu inflorescente dispuse pe o tulpina de cel mult 20 cm, provenind de la speciile A. millefolium L., A colina Beker, A.pannonica Scheele, A. critmifolia W.etK si A.stricta Sch., ce se recolteaza de multe ori impreuna; se recunosc usor dupa frunzele penat sectate, glabre sau paroase, cu lacinii netede, uniform distribuite, cele terminale ingust sau liniar lanceolate.Florile marginale sunt albe, uneori rozee, cu ligule obovate.Mirosul slab aromat, gustul amar, usor sarat, astringent.Se recolteaza si numai inflorescentele -- Flores Millefolii.
 
 **Ecologie si raspandire:** Planta cu amplitudine ecologica foarte larga, fiind raspandita atat in locuri insorite cat si umbrite din zona de ses pana in cea montana, in intreaga tara, prin fanete, poieni, margini de paduri, drumuri si cai ferate, cu predilectie pe soluri nisipoase usoare.Se recomanda sa se valorifice planta din zonele mai joase si mai sudice, unde sintetizeaza o cantitate mai mare de uleiuri eterice.
 
@@ -32,7 +32,7 @@ Semintele germineaza in sol in 45-60 de zile, iar primele 2 frunze adevarate apa
 
 Ca lucrari de intretinere se executa doua prasile manuale si tot atatea mecanice, in functie de starea de imburuienare a terenului.Raritul se executa cand plantele au 5-8 cm latime si se lasa o distanta de 12-15 cm intre plante pe rand.
 
-Cultura poate fi mentinuta timp de 4-5 ani, rarindu-se dupa necesitate la 10-15 cm ptentru a preveni alungirea exagerata a tulpinilor, cat si pentru a evita in felul acesta culcarea tulpinilor sub actiunea unor ploi torentiale sau a vanturilor puternice.
+Cultura poate fi mentinuta timp de 4-5 ani, rarindu-se dupa necesitate la 10-15 cm pentru a preveni alungirea exagerata a tulpinilor, cat si pentru a evita in felul acesta culcarea tulpinilor sub actiunea unor ploi torentiale sau a vanturilor puternice.
 
 Evaluarea productiei de inflorescente se face ca la florile de nalba, iar cea a partilor aeriene inflorite este similara celei de maghiran.
 
@@ -115,7 +115,7 @@ O alta boala este putregau\\iul radacinilor si al coletului (Sclerotina scleroti
 
 Unele ciuperci produc patarea frunzelor imbatranite (Ascochyta digitalis Fuck si Septoria digitalis Pass.).Se combat recoltand frunzele la maturitatea tehnica.Sunt si unele viroze care ataca degetelul rosu.Acestea se recunosc dupa petele galbene-deschis mozaicat care apar pe frunze si uneori le rasucesc.
 
-Dintre daunatori semanalam coropisnitele, larvele carbusului de mai, viermele sarma etc.Combaterea lor este cea indeobste cunoscuta si descrisa la celelate plante.
+Dintre daunatori semanalam coropisnitele, larvele carbusului de mai, viermele sarma etc.Combaterea lor este cea indeobste cunoscuta si descrisa la celelalte plante.
 
 **Pregatirea produsului in vederea prelucrarii:** Uscarea frunzelor se face pe cale naturala, intainzandu-le in poduri in incaperi amenajate in acest scop.Stratul trebuie sa fie subtire.Un produs cu aspect frumos se obtine intinzand produsul frunza cu frunza pe rame sau pe o podea acoperita cu hartie.Pe o rama de uscat de 1/0,70 m se pot pune 2-3 kg frunze in stare proaspata.Uscarea la temperatura normala dureaza 5-6 zile.Prelungirea acestei operatii din cauza unui timp ploios sau a unei temperaturi scazute are ca rezultat o pierdere considerabila a principiilor active din frunze.In acest caz sunt recomandate uscatoriile cu aer incalzit la maximum 40 grade.Frunzele sunt uscate atunci cand nervura principala se rupe cu zgomot.
 
@@ -127,7 +127,7 @@ Conditiile tehnice de receptie prevad ca produsul sa fie format din frunze de ce
 
 Grupa A -- avand ca genina gigitoxigenina, din care fac parte:
 
-- purpureaglicozidul A (desacetillanatozid A) este un heterozid care se gasaste in special in planta proaspata si care prin hidroliza enzimatica da o molecula de digitoxina si una de glucoza.
+- purpureaglicozidul A (desacetillanatozid A) este un heterozid care se gaseste in special in planta proaspata si care prin hidroliza enzimatica da o molecula de digitoxina si una de glucoza.
 
 - digitoxina (digitalina Nativelle), primul heterozid extras in stare pura din frunzele de Digitalis purpureae.Prin hidroliza da o molecula de digitoxigenina si 3 molecule de digitoxoza.
 
@@ -147,6 +147,6 @@ Frunzele de Digitalis purpurea mai contin cca 10% substante minerale bogate in K
 
 **Actiune farmacodinamica -- utilizari terapeutice:** Prin actiunea lor specifica, heterozidele cardiotonice produc o crestere a puterii de contractie a miocardului, care este urmata de o rarire a batailor inimii, prelungirea conducerii influxului nervos prin miocard si o usoara crestere a excitabilitatii centrilor heterotropi cardiaci.Prin aceste efecte, frunzele de D. purpurea produc o ameliorare a circulatiei generale a sangelui, cresterea oxigenarii tesuturilor, inlaturarea stazei si a edemelor si marirea diurezei.
 
-Datorita prezentei saponozidelor, resorbtia heterozidelor cardiotonice este marita la nivelul intestinului subtire.Existenta in frunze a mai multor grupe de heterozide cardiotonice si a celorlalte prioncipii active contribuie la potentarea actiunii farmacodinamice ca intensitate si durata.Mecanismul de actiune a acestor glicozide consta probabil in cresterea utilizarii glucozei la nivelul fibrei miocardice mai ales prin marirea continutlui in A.T.P. necesar transformarilor acetomiozinei.
+Datorita prezentei saponozidelor, resorbtia heterozidelor cardiotonice este marita la nivelul intestinului subtire.Existenta in frunze a mai multor grupe de heterozide cardiotonice si a celorlalte principii active contribuie la potentarea actiunii farmacodinamice ca intensitate si durata.Mecanismul de actiune a acestor glicozide consta probabil in cresterea utilizarii glucozei la nivelul fibrei miocardice mai ales prin marirea continutlui in A.T.P. necesar transformarilor acetomiozinei.
 
-Indicatiile majore ale frunzelor de Digitalis purpurea sunt insuficienta cardiaca de diferite tipuri si in cea insotota de fibrilatie atriala.Datorita faptului ca exista si numeroase contraindicatii pentru tratamentul digitalic (insuficiente cardiace produse de pericarditele sclerozante, tahicardie ventriculara, tromboza coronariana etc.), acesta va fi aplicat numai sub supravegherea medicului specialist.
+Indicatiile majore ale frunzelor de Digitalis purpurea sunt insuficienta cardiaca de diferite tipuri si in cea insotita de fibrilatie atriala.Datorita faptului ca exista si numeroase contraindicatii pentru tratamentul digitalic (insuficiente cardiace produse de pericarditele sclerozante, tahicardie ventriculara, tromboza coronariana etc.), acesta va fi aplicat numai sub supravegherea medicului specialist.

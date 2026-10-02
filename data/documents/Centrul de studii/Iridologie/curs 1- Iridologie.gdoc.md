@@ -42,7 +42,7 @@ Fondatorul Iridologiei moderne a fost Dr. Ignaz von Peczely (1822-1911), un medi
 
 Cand von Peczely a devenit medic, a cautat cu sarguinta legatura intre bolile interne, efectele accidentelor si chirurgiei si starea irisului. Concluziile sale au fost publicate in 1881 in marea sa lucrare : „Descoperiri in campul Stiintei Naturale si Medicinei: Instruirea in studiul diagnosticarii ochiului.” In aceasta carte si-a prezentat principiile de baza ale localizarii irisului si producerea unei harti de invatare a irisului.
 
-## Drumul e deschis
+## Drumule deschis
 
 Contempoaran cu von Peczely a fost pastorul suedez Liljequist, care aparent a dedus un sistem destul de independent de diagnosticare al irisului. In 1893 acesta a publicat : „Om Oegendiagnosen” , o carte care contine peste 250 de placi monocrome ale irisurilor.
 

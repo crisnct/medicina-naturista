@@ -32,7 +32,7 @@ Trebuie sa stim ca, pe langa nenumaratele beneficii pe care le aduc, plantele po
 
 ### Ardeiul iute
 
-- **Ardeiul iute** nu se administreaza in acelasi timp cu medicamentele antihipertensive sau antidepresive. Nu se recomanda la copii sub 2 ani, in sarcina, alaptare, la iritatii cutanate (eritem, eroziune) sau afectiuni gastrice. In supradozaj poate da alergie, discomfort gastro-intesinal, arsura sau curgerea nasului.
+- **Ardeiul iute** nu se administreaza in acelasi timp cu medicamentele antihipertensive sau antidepresive. Nu se recomanda la copii sub 2 ani, in sarcina, alaptare, la iritatii cutanate (eritem, eroziune) sau afectiuni gastrice. In supradozaj poate da alergie, disconfort gastro-intesinal, arsura sau curgerea nasului.
 
 ### Arnica
 
@@ -92,7 +92,7 @@ Precautii si reactii adverse: hematurie la administrare indelungata (ca urmare a
 
 - petalele sunt mai putin toxice decat restul plantei
 
-- preparatele din radaina de bujor trebuiesc prescrise de un specialist
+- preparatele din radacina de bujor trebuiesc prescrise de un specialist
 
 - supradoza poate da gastroenterita
 
@@ -224,7 +224,7 @@ NU se recomanda in litiaza biliara, , in blocajul cailor biliare, obstructii int
 
 Contraindicatii:Uleiul de cuisoarele irita foarte tare pielea si trebuie folosit in dilutie de mai putin de 1% cu un ulei vegetal; deci nu se foloseste in exces, deoarece poate avea efect coroziv asupra mucoaselor ;
 
-Ceaiul este bines a fie folosit in compinatie cu alte plante
+Ceaiul este bines a fie folosit in combinatie cu alte plante
 
 ### CUCURMA
 
@@ -316,9 +316,9 @@ Atentie: inainte de a incepe terapia naturista cu plante medicinale pentru ferti
 
 ### GHEARA PISICII - CAT'S CLAW
 
-A nu se folosi inaintea unui transplant de organe sau oase. Are proprietati antifertilitate. Reduce agregatia placilor (celulelor) sangvine si subtiaza singele. A nu se depasi dozajul indicat, caci continutul de tanini este destul de ridicat, si este necesar destul de mult acid in tractul gastro-intestinal pentru a prelucra substantele
+A nu se folosi inaintea unui transplant de organe sau oase. Are proprietati antifertilitate. Reduce agregatia placilor (celulelor) sangvine si subtiaza sangele. A nu se depasi dozajul indicat, caci continutul de tanini este destul de ridicat, si este necesar destul de mult acid in tractul gastro-intestinal pentru a prelucra substantele
 
-### GALBENLELE
+### GALBENELE
 
 - pt da alergie
 
@@ -550,7 +550,7 @@ Contraindicatii:Mararul folosit timp indelungat si in cantitati mari, scade apet
 
 Contraindicatii:consumate in exces constituie un impediment pentru femeile care vor sa
 
-ramina insarcinate.
+ramana insarcinate.
 
 - uleiul essential nu se foloseste la copii mici, in sarcina si alaptare, colecistita, litiaza biliara, reflux esofagian
 
@@ -672,7 +672,7 @@ Printre medicamentele cu care interactioneaza bauturile amintite se numara cele 
 
 Copiilor
 
-In timpul sarciniiin timpul alaptarii
+In timpul sarcinii in timpul alaptarii
 
 In caz de hiperaciditate gastrica
 
@@ -688,7 +688,7 @@ In caz de hiperaciditate gastrica
 
 nu se va administra copiilor sub 12 ani, femeilor gravide sau care alapteaza
 
-se floseste cu prudenta, deoarece este toxica; nu depasiti cantitatea si timpul prescrise
+se foloseste cu prudenta, deoarece este toxica; nu depasiti cantitatea si timpul prescrise
 
 - nu se administreaza mai mult de 2-3 saptamani
 

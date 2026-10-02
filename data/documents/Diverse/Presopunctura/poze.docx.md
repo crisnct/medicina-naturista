@@ -108,7 +108,7 @@ a
 lon de
 \
 Cy
-ovare, testicu le
+ovare, testicule
 Piciorul drept
 Piciorul stang
 ```
@@ -197,7 +197,7 @@ By
 :
 24, Supiaienata
 25. Rinichi stang
-27. Vezica ufinara
+27. Vezica urinara
 28. Colon
 as
 32. Intestin subtire

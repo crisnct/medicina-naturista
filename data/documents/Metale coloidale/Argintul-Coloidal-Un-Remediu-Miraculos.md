@@ -164,7 +164,7 @@ Durerea si boala rezulta dintr-o intrerupere a biocurentului care curge in mod n
 
 Putem spune ca argintul coloidal este un fel de baterie mobila independenta, ale carei particule se misca prin corp, refacand forta vietii peste tot pe unde ajung.
 
-Intr-o inghititura de apa energizata cu nano-argint coloidal exista trilioane de ioni de argint. In urma ingerarii, se produce o crestere generala a energiei electrice pozitive a corpului, oxigenul si alti nutrieti putand astfel sa patrunda mai usor in celule, unde optimizeaza functiile celulare si declanseaza procese de detoxifiere. De asemenea, cercetarile doctorului american Robert Becker au evidentiat ca argintul are efectul de a readuce celulele canceroase, incarcate negativ, la starea lor normala, de celule sanatoase.
+Intr-o inghititura de apa energizata cu nano-argint coloidal exista trilioane de ioni de argint. In urma ingerarii, se produce o crestere generala a energiei electrice pozitive a corpului, oxigenul si alti nutrienti putand astfel sa patrunda mai usor in celule, unde optimizeaza functiile celulare si declanseaza procese de detoxifiere. De asemenea, cercetarile doctorului american Robert Becker au evidentiat ca argintul are efectul de a readuce celulele canceroase, incarcate negativ, la starea lor normala, de celule sanatoase.
 
 Valoarea terapeutica a argintului coloidal
 

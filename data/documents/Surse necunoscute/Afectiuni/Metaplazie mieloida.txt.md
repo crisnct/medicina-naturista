@@ -2,7 +2,7 @@
 
 Sa stii ca ajuta foarte mult in aceasta afectiune (care deocamdata este incurabila, desi eu cred ca se poate vindeca cu ajutorul unui regim natural) consumul de cruditati (fructe, legume, seminte si carne semipreparata sau cruda).
 
-Se recomnada in special ficatul si splina de vita in stare cruda sau fierte 1-2 minute.
+Se recomanda in special ficatul si splina de vita in stare cruda sau fierte 1-2 minute.
 
 legume recomandate: rosii,salata, urzici, marar, patrunjel, leustean ,spanac, stevie, ceapa.
 

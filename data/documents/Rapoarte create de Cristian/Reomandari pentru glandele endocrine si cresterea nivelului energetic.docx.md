@@ -23,7 +23,7 @@ Iata ce am luat eu pentru cresterea nivelului energetic si pentru a-mi face glan
 
 - te accepti asa cum esti si te iubesti mult constientizand ca tu nu iti apartii tie insusi, ci apartii tuturor, apartii universului. Corpul ti-a fost dat in administrare dar nu e al tau. Si precum te iubesti pe tine ii iubesti si pe ceilalti, si ii iubesti mult.
 
-- ii judeci cu dragoste si intelegere pe toti ceilati.
+- ii judeci cu dragoste si intelegere pe toti ceilalti.
 
 - te rasfeti si iti acorzi timp si pentru distractie.
 

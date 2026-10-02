@@ -1,12 +1,12 @@
 ## LECTIA 2 IRIDIOLOGIE
 
-Irisulpoatesaitispunamultedespre un individ. Dacaarunciunochipe o harta a irisuluipotiobtineinformatiiimportante. Caoricedisciplinanoua, pare complicata la inceputdar nu estedelocasa.
+Irisulpoatesaitispunamultedespre un individ. Dacaarunciunochipe o harta a irisuluipotiobtineinformatiiimportante. Caoricedisciplinanoua, pare complicata la inceput dar nu estedelocasa.
 
 Deci, permite-mi sa spun sa nu mergiprearepede cu iridologia. Doaravand o harta a irisului nu inseamnacastiisacitestiirisul. Suntdiferitesemnepe iris care au diferitesemnificatii.Dacaincercisa sari direct la sfarsit o sa-tidaiseamacaincurcilucrurilesicaesticonfuz. Primullucrupe care artrebuisa-l facicandteuiti la iris estesaevaluezi“fundalul”. Acestlucruestefoarte important deoarece in acel moment tuevaluezitipulindividului.
 
 ## CONSTITUTIA
 
-Istoria medicinei ilustreaza diferite idei despre natura umana. Hipocrate din Cos, adesea mentionat ca parintele medicinei, a dezvoltataideeacacelepatruelementemetafizice( pamanat, apa, aer ,foc, a nu se confunda cu elementelechimice din stiintamoderna), candsuntactionate de fortavitaladevin activate in umorisaufluidevitaleodataceele au fostasimilatesiabsorbite de organism.
+Istoria medicinei ilustreaza diferite idei despre natura umana. Hipocrate din Cos, adesea mentionat ca parintele medicinei, a dezvoltataideeacacelepatruelementemetafizice( pamanat, apa, aer ,foc, a nu se confunda cu elementelechimice din stiintamoderna), candsuntactionate de forta vitala devin activate in umorisaufluidevitaleodataceele au fostasimilatesiabsorbite de organism.
 
 Conformteorieiluiexistapatrufluidevitale: sange, flegma, bilaneagrasibilagalbena.
 
@@ -16,7 +16,7 @@ Aristotel a adaugat la acesata teorie ideea ca elementele ar fi legate de 4 cali
 
 De exemplu focul care este cald si uscat plus apa care este rece si umeda ar putea pierde uscaciune si raceala pentru a forma pamanat care este rece si uscat si aer care este umed si cald.
 
-In secolul al doilea, medicul Claudius Galen, rafineazasimaimultaceastateorieprincorelarealichidelorvitalesauumorilorsi a calitatilor cu tesuturilecorpului. De aiciaaparutmaideparteideeacalichidelevitale pot fi corelate cu temperamentuluman. S-a considerat a fi patrutemperamente de baza: sanguin, flegmatic, melancolicsicoleric. In plus,deoareceacestea au fostasociate cu calitatilepereche, predominantauneiadintrecalitatiar conduce la patru sub tipuri, precumsila unul care ar fi echilibrul din celepatru. Prin urmare noua tipuri constitutionale de oameni sau noua temperamente au fostrecunoscute.
+In secolul al doilea, medicul Claudius Galen, rafineazasimaimultaceastateorieprincorelarealichidelorvitalesauumorilorsi a calitatilor cu tesuturile corpului. De aiciaaparutmaideparteideeacalichidelevitale pot fi corelate cu temperamentuluman. S-a considerat a fi patrutemperamente de baza: sanguin, flegmatic, melancolicsicoleric. In plus,deoarece acestea au fostasociate cu calitatilepereche, predominantauneiadintrecalitatiar conduce la patru sub tipuri, precum si la unul care ar fi echilibrul din celepatru. Prin urmare noua tipuri constitutionale de oameni sau noua temperamente au fostrecunoscute.
 
 Temperamentul pur colericeste, in general, considerat increzator, irascibil, sensibil si mandru. Ambitia a fost de obicei bine dezvoltatasiacolopoate fi aroganta.
 
@@ -26,19 +26,19 @@ Temperamentul sanguinesteexcitabil, impresionabil, impulsivsiuneorinesigur. Poat
 
 Temperamentul melancolicesteprecaut, serios, harnic, solitar. Exista, desigur, o tendinta de a devenideprimat.
 
-Este perfect posibilsaadapteziacestvechisistemal tipurilorconstitutionalepentru a face treababuna.Intr-adevar, pemasuracedevii adept aiiridologiei, aiputealua inconsiderare cat de bine observisipreziciacestecaracteristici din ochi. Gandireamedicalamodernapropuneca, constituireaunuiindivideste un amestecintremosteniregeneticasicaracteristicidobandite. Din pacate, desiortodoxiaobisnuiasaaccepteconcepteletipurilorconstitutionale, in zilelenoastre s-a opritchiar din a le mailua in considerare. Aceastaeste o mare rusinepentrucaexistamultelucruri care pot fi prezise cu privire la punctele forte sipuncteleslabeale unuiindividdoarstudiindochiilui.
+Este perfect posibilsaadapteziacestvechisistemal tipurilorconstitutionalepentru a face treababuna.Intr-adevar, pemasuracedevii adept aiiridologiei, aiputealua inconsiderare cat de bine observisipreziciacestecaracteristici din ochi. Gandireamedicalamodernapropuneca, constituireaunuiindivideste un amestecintremosteniregeneticasicaracteristicidobandite. Din pacate, desiortodoxiaobisnuiasaaccepteconcepteletipurilorconstitutionale, in zilele noastre s-a opritchiar din a le mailua in considerare. Aceastaeste o mare rusinepentrucaexistamultelucruri care pot fi prezise cu privire la punctele forte sipuncteleslabeale unuiindividdoarstudiindochiilui.
 
 In timpceveistudiasubiectul in mai mare profunzime, veigasicaexistamaimulteteorii cu privire la acesteconstitutii. Diferitescoli- americane, australiene, europene, englezeinvatasistemediferite care in cele din urma se suprapun.Unelesuntfoarte complicate.
 
-Deoarecescopulnostrude la CentrulInternational de StudiipentruMedicinaComplementara/Alternativaeste de a produce celemai simple sieficientemetode de predarevomincepecu o consideratie fata de culoareairisului.
+Deoarecescopulnostrude la CentrulInternational de StudiipentruMedicinaComplementara/Alternativaeste de a produce celemai simple si eficiente metode de predarevomincepecu o consideratie fata de culoarea irisului.
 
 ## CULOAREA IRISULUI
 
- Complexitateaunuiindivideste o parte foarte mare din constitutialui.Complexitateaesteformata din culoareaparului, a ochilor, a tenului. Acestlucruestepentru a face circulatie, pigmentare, profile hormonalesi tip genetic.
+ Complexitateaunuiindivideste o parte foarte mare din constitutialui.Complexitateaesteformata din culoarea parului, a ochilor, a tenului. Acestlucruestepentru a face circulatie, pigmentare, profile hormonalesi tip genetic.
 
 Culori de baza ale irisului:
 
-Iris albastru –asociat cu parul blond sipieleacurata.
+Iris albastru –asociat cu parul blond si pielea curata.
 
 Iris gri- asociat cu caracteristici mixte
 
@@ -50,23 +50,23 @@ Motivul fundamental pentru care noi, iridologiistudiemconstitutiapacientiloreste
 
 ## IRISUL ALBASTRU
 
-Irisulalbastrueste in general asociat cu o constitutielimfatica. Acestaestedenumituneoriconstitutialimfatico-reumatica –tuberculoasa. Acesta este asociatcuotendinta de a dezvoltaprobleme ale sistemuluilimfatic. Astfel, glandele limfatice din gat, axile, sunt toate caracteristici ale acestei constitutii. Copiii fac amigdalita de la aceste glande mari. Daca sunt mai mari pot face febra glandulara sau pot avea splina marita. Ei sunt intotdeauna sensibili, pot face adenoidita si polipi nazali. In plus si glanda tiroida este asociata, asadar pot suferi mai tarziu in viata de hipotiroidism.
+Irisulalbastrueste in general asociat cu o constitutielimfatica. Acestaestedenumituneoriconstitutialimfatico-reumatica –tuberculoasa. Acesta este asociatcuotendinta de a dezvolta probleme ale sistemuluilimfatic. Astfel, glandele limfatice din gat, axile, sunt toate caracteristici ale acestei constitutii. Copiii fac amigdalita de la aceste glande mari. Daca sunt mai mari pot face febra glandulara sau pot avea splina marita. Ei sunt intotdeauna sensibili, pot face adenoidita si polipi nazali. In plus si glanda tiroida este asociata, asadar pot suferi mai tarziu in viata de hipotiroidism.
 
 Exista o predispozitie mostenita la tuberculoza. Desi aceasta conditie este rar vazuta in aceste zile, modelul tuberculos inca mai exista. Individul poate fi predispus la tuse seaca, hemoptizie(tuse de sange), pleurezie, bronsita uscata si voce ragusita. Durerile reumatice sunt comune ca si durerile nevralgice ascutite. Ele pot asimila cristale de acid uric cu riscul de guta.
 
 Poate exista o tendinta de a dezvolta ateroscleroza producand hipertensiune arteriala si care afecteaza inima si rinichi mai tarziu in viata. Poate aparea formarea cataractei.
 
 ## IRISUL GRI
-Acest tip constitutional este aproape cu cel albastru dar sunt mai multe predispozitii la reumatism si probleme arteriale. Acesta estedenumit uneoricaconstitutiareumatico-catarala. Individul poatefi predispus laambele,artrita reumatoida, osteoartritasiartropatiiseronegative, cum ar fi artropatie psoriazica. Pielea este adesea afectata, produce eczeme, psoriazis, afectiuni septice ale pielii si acnee.
+Acest tip constitutional este aproape cu cel albastru dar sunt mai multe predispozitii la reumatism si probleme arteriale. Acesta este de numit uneoricaconstitutiareumatico-catarala. Individul poatefi predispus la ambele,artrita reumatoida, osteoartritasiartropatiiseronegative, cum ar fi artropatie psoriazica. Pielea este adesea afectata, produce eczeme, psoriazis, afectiuni septice ale pielii si acnee.
 Guturaiul este o mare problema.
 Aceasta poate fi catar respirator superior, care afecteaza in principal sinusurile, urechile si nasul. Poate existaotendintadeosebit desuparatoarepentru infectii in pieptcarepersistacumucus gros, tenace.
 Guturaiulpoate fi de asemeneasuparatorsi sub alteforme. Mucusuliritamaimultecelule ale intestinului care producmaimultiarastapredispuneindividul la sindromul de colon iritabilsicolita
 
 ## IRISUL MARO
 
-Acestaindica o acumulare de pigment siun model de ansamblu de congestie. Acesta estedenumit uneoriconstitutiagastrico-bila-carcinomatoasa. Acest lucru este asociat cu tot felul de tulburari digestive si ale sistemului hepatic. Esecul trecerii celulelor vitale cauzeaza congestie in celulele sistemului. Acest lucru duce la functionarea defectuoasa, umflarea celulelor si in cele din urma la deteriorare daca nu este ameliorare.
+Acestaindica o acumulare de pigment siun model de ansamblu de congestie. Acesta este de numit uneoriconstitutiagastrico-bila-carcinomatoasa. Acest lucru este asociat cu tot felul de tulburari digestive si ale sistemului hepatic. Esecul trecerii celulelor vitale cauzeaza congestie in celulele sistemului. Acest lucru duce la functionarea defectuoasa, umflarea celulelor si in cele din urma la deteriorare daca nu este ameliorare.
 
-Ulcerul gastric, dispepsie, arsuri la stomac, greata, litiaza biliara, colici, boala diverticularamai tarziu in viatasi problemelepe tot parcursul vietiicu constipatie-toatesunt posibile.
+Ulcerul gastric, dispepsie, arsuri la stomac, greata, litiaza biliara, colici, boala diverticularamai tarziu in viatasi problemele pe tot parcursul vietii cu constipatie-toatesunt posibile.
 
 Exista o tendinta de a lua in greutate, a retine lichide si de a avea perioade grele si dureroase. Sindromul premenstrual este comun ca si migrenele premenstruale. Din cauzaeseculuide a transferafluide, poate existaotendinta de a dezvoltaneoplasme, saucresteri. Acesteapotfiatat benigne cat simaligne.
 

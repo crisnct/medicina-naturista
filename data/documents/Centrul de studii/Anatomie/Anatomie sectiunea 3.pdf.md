@@ -142,7 +142,7 @@ b. glandulotropi: actioneaza asupra glandelor endocrine reglandu-le activitatea
 
 - tirotropina (TSH) stimuleaza secretia glandei tiroide
 - corticotropina (ACTH) stimuleaza secretia corticosuprarenalei
-- hormonii gonadotropi foliculostimulant (FSH) regleaza activitatea goandelor si
+- hormonii gonadotropi foliculostimulant (FSH) regleaza activitatea glandelor si
  secretia de hormoni sexuali
 - luteinizant (LH)
 
@@ -187,7 +187,7 @@ are forma musculara H. Secreta:
 - triiodotironina (T3)
 - tiroxina (T4)
 
-Hormonii tiroidieni: exercita o actiune de ansamblu asupra organismului, stimulaeaza
+Hormonii tiroidieni: exercita o actiune de ansamblu asupra organismului, stimuleaza
 cresterea si dezvoltarea organismului
 la copil; diferentiaza sistemul nervos al corpului; stimuleaza consumul de O2 in
 tesuturile metabolic active.
@@ -319,21 +319,21 @@ Sistemul respirator este compus din organele care transporta oxigenul la
 sistemul circulator care il duce la celulele corpului. Oxigenul este esential pentru
 celule, care folosesc aceasta substanta vitala pentru eliberarea energiei necesare
 activitatilor celulare. In afara de transportarea oxigenului, sistemul respirator ajuta la
-scoaterea dioxidului de carbon din oraganism, prevenind intoxicarea tesuturilor cu
+scoaterea dioxidului de carbon din organism, prevenind intoxicarea tesuturilor cu
 aceasta substanta nefolositoare. Fara a fi constienti de acest lucru, sistemul
 respirator isi duce actiunile ce ne mentin in viata. Daca sistemul respirator este oprit
 
 pentru mai multe minute, deteriorari grave, ireversibile apar in tesuturi, urmate de
 oprirea activitatii tuturor sistemelor, in sfarsit moartea.
  In timp ce inhalarea oxigenului si eliminarea dioxidului de carbon sunt
-functiiile primare ale sistemului respirator, acesta joaca si alte roluri importante in
+functiile primare ale sistemului respirator, acesta joaca si alte roluri importante in
 organism. Sistemul respirator ajuta la reglarea acizilor si bazelor din tesuturi, un
 proces crucial pentru functionarea normala a celulelor. Acesta protejeaza corpul
 impotriva organismelor ce produc imbolnavirea si impotriva substantelor toxice
 inspirate cu aerul. Sistemul respirator are in structura si celule ce detecteaza mirosul
 si care asista la producerea de sunete .
 Organele sistemului respirator se intind de la nas pana la plamani si se divid in tractul
-respiartor superior si inferior. Tractul respirator superior consista din nas si faringe,
+respirator superior si inferior. Tractul respirator superior consista din nas si faringe,
 sau gatul. Tractul respirator inferior include laringele, sau cutia vocala; traheea si
 bifurcatiile acesteia, bronhiile, mici ramificatii ale bronhiilor numite bronhiole si
 plamanii, niste organe buretoase. Nasul, faringele, laringele, traheea, bronhiile si
@@ -731,7 +731,7 @@ energie este ATP-ul (acid adenozin-trifosforic).
 Degradarea substantelor alimentare in procesele metabolice conduce in proportie de
 45% la formarea de ATP (R. M. Albu).
 Cele mai importante substante implicate in metabolismul intermediar si energetic,
-sunt glucidele, protinele si lipidele.
+sunt glucidele, proteinele si lipidele.
 
 ### Metabolismul intermediar si energetic glucidic
 
@@ -927,7 +927,7 @@ mediu bazic se comporta ca acizi). Acest lucru se datoreaza ramificatiilor care 
 atat grupari carboxilice ( functii acide) cat si grupari aminice (functii bazice). In mediu
 acid proteinele se comporta ca baze slabe, ele acceptand protoni (H+), iar in mediu
 bazic se comporta ca acizi slabi cedand protoni (H+). Multumita caracterului amfoter,
-proteinele pot neutraliza substante acide sau alcaline, mentinand astfel echlibrul
+proteinele pot neutraliza substante acide sau alcaline, mentinand astfel echilibrul
 acido-bazic.
 75% din capacitatea de tamponare a plasmei este determinata de protide.
 Cele mai multe protide sunt solubile in apa. In alte solutii, dizolvabilitatea protidelor
@@ -1313,7 +1313,7 @@ lombara a cavitatii abdominale si din a-3-a luna a vietii intrauterine incepe sa
 coboare, strabate peretele anterior al abdomenului in regiunea inghinala si la nastere
 ajunge in scrot.
 Testiculul este invelit intr-o membrana fibroasa ,albughineea.
-In partea superioara a testiculului,albughineea prezita o condensare ca un con
+In partea superioara a testiculului,albughineea prezinta o condensare ca un con
 fibros,denumit mediastinul testiculului,strabatuta de canale excretoare,vase de sange
 si nervii testiculari.Din aceasta ingrosare pornesc spre interior septuri conjunctive
 care impart testiculul in 200-300 de lobuli.

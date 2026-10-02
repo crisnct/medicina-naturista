@@ -34,7 +34,7 @@ Tinctura \- 1/2 ml de tinctura de trei ori pe zi
 
 Lobelia este o planta perena care are radacina groasa, alba si fibroasa, tulpina lemnoasa la baza si ramificata, de culoare rosiatica, este subtire si flexibila, inalta de 40-70 cm, acoperita cu mici perisori fini. Frunzele sunt petiolate, alternative, de culoare verde-inchis, iar florile mici, numeroase si tubulare, in nuante de culori deschise albastre sau violet-rozii.Fructele contin numeroase mici seminte maronii. Perioada de inflorire este in lunile iunie si iulie, iar de coacere a fructelor la sfarsitul lunii august.
 
-Planta este bogata in alcaloizi, de aceea in scop terapeutic traditional se folosesc frunzele, mugurii, tulpina, florile si semintele. Toate partile plantei se pun la uscat in locuri uscate si bine aerisite, la umbra, apoi produsul uscat se depoziteaza in saculeti de hartie astfel rezistand timp de 2 ani. Mugurii uscati de la lobelia sunt un bun remediu in tratamentul unor afectiunirespiratorii, astmului, bronsitei, tusei convulsive, in stimularea functiei glandelor suprarenale a unor boli de natura infectioasa. Planta este utilizata pentru uz intern dar si extern.
+Planta este bogata in alcaloizi, de aceea in scop terapeutic traditional se folosesc frunzele, mugurii, tulpina, florile si semintele. Toate partile plantei se pun la uscat in locuri uscate si bine aerisite, la umbra, apoi produsul uscat se depoziteaza in saculeti de hartie astfel rezistand timp de 2 ani. Mugurii uscati de la lobelia sunt un bun remediu in tratamentul unor afectiuni respiratorii, astmului, bronsitei, tusei convulsive, in stimularea functiei glandelor suprarenale a unor boli de natura infectioasa. Planta este utilizata pentru uz intern dar si extern.
 
 # Lobelia spicata
 
@@ -78,7 +78,7 @@ Pentru a va prepara propria tinctura pentru astm, puneti 4 linguri cu frunze de 
 
 Recunoscut in homeopatie
 
-Tutunul indian nu este folosit doar ca remediu naturist, ci este folosit si in alte ramuri complementare, printre care si homeopatia. In principal lobelia este indicata in cazul lipsei de aer datorata constrictiei la mijlocul toracelui, agravata de expunerea la frig, dar si pentru a trata incordarea si a induce o stare de relaxare. In homeopatie este folosita in diverse afectiuni, dar este recomandata cu incredere celor care dorescsa renunte la fumat. Asadar, daca ati incercat sa renuntati la fumat si stiti cat de dificil este, va este teama ca va veti ingrasa sau ca nu veti face fata stresului in lipsa tigarilor, este cazul sa incercati lobelia ca remediu homeopat, desigur sub supravegherea unui specialist. Combinatia Nux Vomica-Lobelia Inflata va poate ajuta sa scapati de acest obicei neplacut.
+Tutunul indian nu este folosit doar ca remediu naturist, ci este folosit si in alte ramuri complementare, printre care si homeopatia. In principal lobelia este indicata in cazul lipsei de aer datorata constrictiei la mijlocul toracelui, agravata de expunerea la frig, dar si pentru a trata incordarea si a induce o stare de relaxare. In homeopatie este folosita in diverse afectiuni, dar este recomandata cu incredere celor care doresc sa renunte la fumat. Asadar, daca ati incercat sa renuntati la fumat si stiti cat de dificil este, va este teama ca va veti ingrasa sau ca nu veti face fata stresului in lipsa tigarilor, este cazul sa incercati lobelia ca remediu homeopat, desigur sub supravegherea unui specialist. Combinatia Nux Vomica-Lobelia Inflata va poate ajuta sa scapati de acest obicei neplacut.
 
 Iata cateva instructiuni:
 
@@ -100,7 +100,7 @@ Atentie\!
 
 Tinctura de lobelia pentru astm bronsic
 
-Se prepara un amestec din 4 frunze de lobelia si 4 linguri de smantana de lobelia(obtinuta prin macinarea plantei). Acest amestec se va pune la macerat 14 zile in 4 cani de otet de zmeura. Din amestecul rezultat prin filtrare se ia cate o lingurita atunci cand apare criza astmatica. In cazul in care criza este puternica, se poate administra cate o lingura la fiecare 10 minute. Nu consuma lobelia in exces pentru ca supradozajul duce la scadarea tensiunii arteriale si chiar la coma\!
+Se prepara un amestec din 4 frunze de lobelia si 4 linguri de smantana de lobelia(obtinuta prin macinarea plantei). Acest amestec se va pune la macerat 14 zile in 4 cani de otet de zmeura. Din amestecul rezultat prin filtrare se ia cate o lingurita atunci cand apare criza astmatica. In cazul in care criza este puternica, se poate administra cate o lingura la fiecare 10 minute. Nu consuma lobelia in exces pentru ca supradozajul duce la scaderea tensiunii arteriale si chiar la coma\!
 
 Amestec cu lobelia pentru astm
 
@@ -184,4 +184,4 @@ Amesteca toate plantele bine. Adauga jumatate de cana de mixtura in 2 litri de a
 
 Remediu natural pentru acrofobie
 
-Remediile din plante si homeopate pot oferi ajutor eficient pentru simptomele asociate cu acrofobia fara riscul de efecte secundare. Aceste remediiofera o alternativa naturala si sigura.Cocculus indicus, Lobelia inflata, Gelsemium si Bryonia alba pot ajuta la ameliorarea senzatiilor de ameteala, greata, dezorientare si transpiratie – de cele mai multe ori fiind asociate cu atacurile de panica.
+Remediile din plante si homeopate pot oferi ajutor eficient pentru simptomele asociate cu acrofobia fara riscul de efecte secundare. Aceste remedii ofera o alternativa naturala si sigura.Cocculus indicus, Lobelia inflata, Gelsemium si Bryonia alba pot ajuta la ameliorarea senzatiilor de ameteala, greata, dezorientare si transpiratie – de cele mai multe ori fiind asociate cu atacurile de panica.

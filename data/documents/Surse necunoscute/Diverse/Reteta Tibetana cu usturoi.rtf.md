@@ -27,7 +27,7 @@ i timp organismul este purificat de calorii ºi depuneri adipoase, imbunataþeº
 
  foarte bine 350gr de usturoi, apoi se piseaza marunt intr-o piuliþa de lemn. Dupa ce este bine pisat se iau cu o linguriþa 200gr din aceasta compoziþie [partea mai suculenta] ºi se introduce intr-un vas ce conþ
 
-ine 200ml alcool rafinat de 96 grade. Vasul se inchide ermetic ºi se þine la rece, timp de 10 zile. Se strecoara maceratul prin tifon, se pune intr-o sticl
+ine 200ml alcool rafinat de 96 grade. Vasul se inchide ermetic ºi se þinela rece, timp de 10 zile. Se strecoara maceratul prin tifon, se pune intr-o sticl
 
 a bine inchisa ºi se mai þine inca 3 zile.
 

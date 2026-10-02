@@ -127,7 +127,7 @@ la alegere: un pumn de ALUNE, un pumn de MIGDALE, un pumn de FISTIC, 10 MASLINE 
  Articolul acesta mi se pare cel mai bun articol pe care l-am citit despre diete pana acum. Chiar m-am hotarat sa il salvez si sa-l recitesc de cate ori e nevoie.\
  Nu sunt o persoana grasa, dar ca orice fata imi place sa arat bine.\
  Criza asta cu dietele mi se pare o porcarie. Consider ca daca pastrezi masura alimentelor si esti atent la ce mananci, dar mai ales rezervi putin timp seara si gimnasticii nu ai cum sa dai gres.\
- Daca te apuci de o dieta care iti promite ca slabesti nu stiu cate kilograme in 3 zile , sigur e posibil sa te faci la loc, sau chiar mai bine... cand revi la alimentatia normala. In timpul in care revi la alimentatia normala organismul considera ca are nevoie de provizii pt vremuri grele cum a fost dieta si te trezesti ca acumulezi tot ce mananci cu pofta de data asta...
+ Daca te apuci de o dieta care iti promite ca slabesti nu stiu cate kilograme in 3 zile , sigure posibil sa te faci la loc, sau chiar mai bine... cand revi la alimentatia normala. In timpul in care revi la alimentatia normala organismul considera ca are nevoie de provizii pt vremuri grele cum a fost dieta si te trezesti ca acumulezi tot ce mananci cu pofta de data asta...
 
 2. []{#comment-1184 .anchor}*simona* Says:\
  > February 15th, 2009 at 11:56 pm
@@ -150,7 +150,7 @@ la alegere: un pumn de ALUNE, un pumn de MIGDALE, un pumn de FISTIC, 10 MASLINE 
  Nu ma consider grasa, doar ca as dori sa scap de vreo 3 kg, mai ales din zona abdomenului.\
  Imbin acesta "cura" cu alergat in fiecare seara si abdomene.\
  Nu m-am cantarit deloc in aceasta perioada si nici nu o sa ma cantaresc, o sa ma "opresc" cand o sa-mi placa cum arat.\
- As dori foarte mult sa devina un mod de viata pentru mine acesta alimentaie, deoarece sincer va zic ca ma simt mult mai bine fara sucuri, prajeli, paine si alte alea...trebuie sa recunosc ca as manca o prajitura...\
+ As dori foarte mult sa devina un mod de viata pentru mine acesta alimentatie, deoarece sincer va zic ca ma simt mult mai bine fara sucuri, prajeli, paine si alte alea...trebuie sa recunosc ca as manca o prajitura...\
  Mult succes pentru cei ce vor sa arate cum doresc:)
 
 5. []{#comment-1617 .anchor}*mimi* Says:\

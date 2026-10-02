@@ -7,7 +7,7 @@ In trecut, medicii recomandau cuisoarele impotriva oboselii si a pierderilor de 
 Are si proprietati afrodisiace, stimulative, tonifiante, actionand prin grupul de compusi numiti gingeroli, asupra sistemului nervos. Alte proprietati ale ghimberului: antitoxic, hipotensiv, antitusiv.
 
 # CAYENNE
-Este util in caz de apoplexie, tuse, turberculoza, congestie pulmonara, entorse, durere in gat.
+Este util in caz de apoplexie, tuse, tuberculoza, congestie pulmonara, entorse, durere in gat.
 
 2. Scrieti despre unele dintre utilizarile agrisei(Bayberry).
 

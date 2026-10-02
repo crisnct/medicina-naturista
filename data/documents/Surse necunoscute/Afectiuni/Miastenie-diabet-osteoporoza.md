@@ -10,7 +10,7 @@ Medicament
 
 Prednisolone
 
-Usage: Prednisolone is one of the most effective drugs of glucocorticoid group expressing inflammatory, desensibilic and anti-allergic activity. It is widely used in a therapy of different diseases - rheumatism, inflectional non-specific arthritis, asthma, lymphatic leucome, infectional mononucleosis, neurodermites, etc. The data were reported on effective prednisolone application at liver cirrhosis, chronicle glomerulonephritis, miasteny, etc.
+Usage: Prednisolone is one of the most effective drugs of glucocorticoid group expressing inflammatory, desensibilic and anti-allergic activity. It is widely used in a therapy of different diseases - reumatism, inflectional non-specific arthritis, asthma, lymphatic leucome, infectional mononucleosis, neurodermites, etc. The data were reported on effective prednisolone application at liver cirrhosis, chronicle glomerulonephritis, miasteny, etc.
 
 Prednisolone is applied as API in drug formulations in forms of tablets, creams, eye and/or ear drops, injection solutions (as a hemisuccinate).
 
@@ -81,8 +81,8 @@ Diagnostic: Diabet zaharat tip II.\
 1982 - pensionarea, la scurt timp creste iar glicemia (Meguanul nu are efect); glicozurie; se administreaza Manimil. Glicemia continua sa creasca (in 3 - 4 ani depaseste 200 mg %.).\
 1990 - glicemie= 190mg%; glicozuria = 5mg%; (tratament cu Manimil).\
 1994, octombrie - (glicemia 209mg%); se interneaza la Spitalul Fundeni pentru al III-lea infarct miocardic (intre timp, din 1968 apar succesiv alte boli manifestate); la externare se recomanda tratament cu Maycor, Cordoram, Furosemid, Miofilin, Lanatozid.\
-1995, mai - afla de la televizor de alternativa tratamentului naturist; hrana naturala (legume si fructe) timp de trei saptamini. Dimineata zarzavaturi de deasupra pamintului, la pranz radacinoase, seara fructe; intre care luni, miercuri, vineri, pauza alimentara cu ceaiuri.\
-- a urmat timp de 14 zile o cura de 450 g. sucuri plus ceaiuri; de atunci alimentatie naturala (legume, fructe crude) la care se adauga lapte crud, brinza proaspata.\
+1995, mai - afla de la televizor de alternativa tratamentului naturist; hrana naturala (legume si fructe) timp de trei saptamani. Dimineata zarzavaturi de deasupra pamantului, la pranz radacinoase, seara fructe; intre care luni, miercuri, vineri, pauza alimentara cu ceaiuri.\
+- a urmat timp de 14 zile o cura de 450 g. sucuri plus ceaiuri; de atunci alimentatie naturala (legume, fructe crude) la care se adauga lapte crud, branza proaspata.\
 1995 (30 iunie) - (la inceputul tratamentului naturist); glicemie 205mg%, glicozurie 10mg% in conditiile tratamentului cu Manimil (3 comprimate pe zi)\
 1995, 6 iulie - renunta definitiv latoate medicamentele.\
 1995, 20 iulie - glicemie 144mg%, glicozurie=0mg% (fara nici un medicament)\
@@ -95,7 +95,7 @@ Diagnostic: Diabet zaharat tip II.\
 
 *Alimente recomandate:*
 
-Oua crude, proaspete, lapte batut, smantana, unt, brinza dulce, telemea, miere (2-3 lingurite zilnic, in preparate naturale).
+Oua crude, proaspete, lapte batut, smantana, unt, branza dulce, telemea, miere (2-3 lingurite zilnic, in preparate naturale).
 
 Radacinoase: morcovi, telina, pastarnac, patrunjel, cartof crud, ridichi.
 
@@ -113,7 +113,7 @@ Lichide: ceaiuri naturale (macerate), bere, vin, ulei presat la rece.
 
 *Alimente nerecomandate*:
 
-carne de orice fel, mezeluri, peste, cascaval, brinza topita, branzeturi fermentate, urda, cartofi fierti, prajiti, fasole, mazare, ulei rafinat, zahar, sare, alcool distilat(votca, coniac etc), miere (80% glucide) in exces, stafide (71%), smochine (58%), vinul dulce, mustul, cola etc.
+carne de orice fel, mezeluri, peste, cascaval, branza topita, branzeturi fermentate, urda, cartofi fierti, prajiti, fasole, mazare, ulei rafinat, zahar, sare, alcool distilat(votca, coniac etc), miere (80% glucide) in exces, stafide (71%), smochine (58%), vinul dulce, mustul, cola etc.
 
 **Aloe Vera Gel** (efect antiinflamator si de stimulare a sistemului digestiv si a pancreasului, factor de control in cazul de asociere cu arteroscleroza) 2 linguri dimineata si 2 seara pe stomacul gol, cu 30 minute inainte de masa, se bea cu inghitituri mici pentru n facilita absorbtia la nivelul mucoasei bucale.
 

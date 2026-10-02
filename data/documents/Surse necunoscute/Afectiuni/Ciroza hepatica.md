@@ -60,7 +60,7 @@ Consumati sucuri de fructe, cereale si produse lactate
 
 **Peste**: peste alb slab, rasol sau perisoare de peste fierte la aburi.
 
-**Oua**: zdrente de albus in supa, omleta dietetica numai din albus cu zahar, crema de albus cu lapte, bezele. Galbenusul e permis numai o data sau de doua ori pe saptamana in preparate.
+**Oua**: zdrente de albus in supa, omleta dietetica numai din albus cu zahar, crema de albus cu lapte, bezele. Galbenusule permis numai o data sau de doua ori pe saptamana in preparate.
 
 **Branzeturi**: branza de vaci, telemea desarata (indicata numai la bolnavii fara edeme sau ascita), urda, cas slab nesarat si nefermentat.
 
@@ -114,11 +114,11 @@ O alta planta eficienta in tratarea cirozei hepatice este **anghinarea** (Cynara
 
 Efecte hepatoprotectoare deosebite se obtin si prin aportul de **silimarina** din **fructele de armurariu.** Acestea se consuma sub forma de infuzie -- 2 ceaiuri/zi, timp de 20 de zile, sau pulbere -- 1-2 g/zi, in 2 reprize, cu 30 minute inainte de mesele de prinz si de seara. La fel de bun este sucul proaspat de rostopasca obtinut prin presare la rece. Se ia cite o lingurita pe zi, intr-un pahar cu apa, baut in mai multe reprize.
 
-Un amestec din plante recomandat este din radacini de pir (80 g), pelin alb (40 g), cicoare (80 g), radacini de leustean (40 g), frunze de dud alb (350 g), dud negru (250 g), patlagina (60 g), troscot (60 g) si urzica vie (40 g). Se prepara un decoct din 1 kg amestec, uscat si macinat, la 5 litri de apa. Se fierbe pina cind volumul extractului scade la 3 litri, se strecoara, iar cantitatea rezultata se bea in decurs de 2 zile, prin inghitituri rare. Tratamentul se desfasoara pe o perioada de 2-3 luni.
+Un amestec din plante recomandat este din radacini de pir (80 g), pelin alb (40 g), cicoare (80 g), radacini de leustean (40 g), frunze de dud alb (350 g), dud negru (250 g), patlagina (60 g), troscot (60 g) si urzica vie (40 g). Se prepara un decoct din 1 kg amestec, uscat si macinat, la 5 litri de apa. Se fierbe pana cand volumul extractului scade la 3 litri, se strecoara, iar cantitatea rezultata se bea in decurs de 2 zile, prin inghitituri rare. Tratamentul se desfasoara pe o perioada de 2-3 luni.
 
 2 cesti cu infuzie de **pedicuta**, una bauta dimineata, pe stomacul gol si cealalta seara, 1/2 ora inainte de cina, ajuta atit in caz de ciroza hepatica, cit si de boala maligna a ficatului. Insuficienta respiratorie care survine la aceste doua boli este astfel eliminata dintr-un foe. La 1/4 litru de apa se pune 1 lingurita de plante. In plus, se iau 6 inghitituri de ceai de **radacini de obligeana** (a se cauta ia articolul despre obligeana} si 2-3 cesti cu ceai de **urzici**. Ar trebui sa fie puse pe regiunea ficatului, pe parcursul zilei timp de 4 ore, comprese cu bitter suedez, iar compresele cu aburi de **coada-calului** (a se vedea pentru ambele comprese) sa fie aplicate pe cit posibil dimineata si dupa-amiaza cite 2 ore, stind in pat, ca si in timpul noptii.
 
-Toate compresele trebuie acoperite cu bucati calde de pinza, ca sa nu se produca o senzatie de frig din cauza evaporarii!
+Toate compresele trebuie acoperite cu bucati calde de panza, ca sa nu se produca o senzatie de frig din cauza evaporarii!
 
 **Regim**
 
@@ -156,7 +156,7 @@ Toate compresele trebuie acoperite cu bucati calde de pinza, ca sa nu se produca
 
 \- anuntati pesoanele cu care intretineti relatii aprobiate ca sunteti purtator de virus hepatic B , C sau B si C. si modalitatile de transmiterea a bolii.
 
-\- nu ezitati sa intrebati medicul curant despre orice problema legata de boala dumnavoastra.
+\- nu ezitati sa intrebati medicul curant despre orice problema legata de boala dumneavoastra.
 
 Pacientii sunt sfatuiti de asemenea sa se vaccineze impotriva hepatitei A si B, sa evite analgezicele si alte medicamente care pot afecta ficatul.
 

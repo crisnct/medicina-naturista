@@ -27,7 +27,7 @@
  * 4 linguri de **frunze de frasin**
  * o jumatate lingura de **cretusca**
  * Se opreste focul si se acopera vasul pentru 15 min. Se beau doua cani pe zi timp de trei saptamani.
-- **Ceai de mesteacan:** noaptea inainte de somn se pune 500ml apa la fiert. Dupa ce apa a dat in clocot se adauga 4 linguri de frunze uscate de **mesteacan** si se acopera vasul pentru 15min, Se ia jos capacul de pe vas iar cand temperatura ceaiului a ajuns la 40°C se adauga un sfert de linguritta de bicarbonat de sodiu, se amesteca bine, se pune inapoi capacul si se lasa peste noapte. A doua zi se strecoara iar cantitatea de ceai se imparte in doua si se bea la 4 ore interval.
+- **Ceai de mesteacan:** noaptea inainte de somn se pune 500ml apa la fiert. Dupa ce apa a dat in clocot se adauga 4 linguri de frunze uscate de **mesteacan** si se acopera vasul pentru 15min, Se ia jos capacul de pe vas iar cand temperatura ceaiului a ajuns la 40°C se adauga un sfert de lingurita de bicarbonat de sodiu, se amesteca bine, se pune inapoi capacul si se lasa peste noapte. A doua zi se strecoara iar cantitatea de ceai se imparte in doua si se bea la 4 ore interval.
 - **Radacina de papadie(pulbere)****:** 1 lingurita inainte de masa principala a zilei.
 - Macerat la rece di**n brusture**: o lingurita rasa de radacina uscata de brusture se pune seara la macerat intr-o cana de apa. A doua zi se incalzeste si se bea dimineata cu inghitituri mici.
 - **Ceai de Batranis****:** 2 lingurite de planta maruntita se pune la 250 ml apa clocotita. Se acopera pentru 10 minute, apoi se strecoara. Se pot consuma 2-3 cani pe zi. Preparatele obtinute din Batranis au, in primul rand, efecte diuretice, contribuind la eliminarea acidului uric. Sunt, totodata, tonifiante. Potrivit specialistilor, uleiurile esentiale obtinute din aceasta planta au un rol deosebit in afectiuni ale sangelui, determinand dezvoltarea globulelor albe. Ceaiurile de batranis sunt adevarate pansamente intestinale, contribuind, in caz de hemoragii, la refacerea tractului gastro-intestinal. Totodata, batranisul combate parazitii intestinali si reduce inflamatiile care apar in sistemul urinar. Este indicat, de asemenea, in reumatisme si guta. Notabila ramane contributia sa in procesul de dezvoltare si intarire a leucocitelor.
@@ -71,7 +71,7 @@
  * **Zilnic** a se consuma **fructe**.
  * A se reduce cantitatea de zahar din alimentatie.
  * **Socata**
- * In caz de criza zdrobiti 100g de capsuni cu putin zahar. Apoi adagati putina apa calda si beti.
+ * In caz de criza zdrobiti 100g de capsuni cu putin zahar. Apoi adaugati putina apa calda si beti.
  * **Alimente interzise complet:** carne, macris, spanac, fructe de mare, bauturi carbogazoase, fructoza pura.
  * **Cafeaua** ajuta la diminuarea nivelului de acid uric.
  * **Smoothie din 4 legaturi de patrunjel si sucul de la o lamaie.**

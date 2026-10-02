@@ -79,7 +79,7 @@ poate manca?" De aceea sunt necesare cateva precizari:
  1 informatiile sunt prezentate in mod analitic si neutru insistandu-se asupra cat mai
 multor efecte negative a multora dintre alimente, datorita gravitatii situatiei in acest moment;
  2 a consuma in proportie de 100% alimente naturale este aproape imposibil, mai ales in
-mediu urban. De aceea este foarte nesesar (platind tribut normalitatii) sa consumam cat mai
+mediu urban. De aceea este foarte necesar (platind tribut normalitatii) sa consumam cat mai
 multe alimente naturale si sanatoase in asa fel incat ele sa reprezinte cea mai mare parte a
 hranei zilnice.
  3 important este sa constientizam ce mancam si sa incercam sa eliminam din dieta
@@ -161,7 +161,7 @@ amestecata cu glucoza sau alte substante ce au efecte negative asupra organismul
 cristalizare a lui, mierea poate fi incalzita periodic; unii producatori apeleaza la aceasta
 metoda pentru ca se vinde mai usor, multa lume considerand ca mierea limpede este
 superioara celei cristalizate. Supusa unei temperaturi ridicate mierea mai pastreaza
-aproximativ 30% din propietatile sale, enzimele fiind distruse, in general, prin tratament
+aproximativ 30% din proprietatile sale, enzimele fiind distruse, in general, prin tratament
 termic. Cristalizarea mierii nu este decat un semn al faptului ca ea este naturala.
  2. Faina alba.
  A. Obtinerea fainii albe prin prelucrarea graului reprezinta un alt proces prin care unul
@@ -330,7 +330,7 @@ pentru a fi "gata gatite" si bune de mancat, ele sunt complet distruse; lasate m
 ele devin cenusa.)
  Anormalitatea, nefirescul, denaturarea consta in faptul ca, tratandu-le termic, omul
 consuma alimente lipsite in mare parte de viata, omul mananca alimente "moarte".
-Problema tratarii termice este extrem de controversata, deorece foarte putine studii
+Problema tratarii termice este extrem de controversata, deoarece foarte putine studii
 consistente au fost consacrate acestui mod de a obtine hrana cea de toate zilele. Marturii ale
 consumarii alimentelor "netrecute prin foc" exista din timpurile mitice, cand acest mod de a
 intelege alimentatia era considerat ideal. Ea aducea cu sine multe beneficii prin efectele ei
@@ -370,7 +370,7 @@ stiintifica pentru a demonstra un lucru foarte simplu: tratat termic, orice alim
 perfectiunea.
  Din alt punct de vedere fara a umbri cele afirmate mai sus se poate spune ca din
 toate procesele la care sunt supuse alimentele pentru a deveni hrana, tratarea termica este
-cea mai putin daunatoare. Efectele alimentelor obtinute prin administrarea exceviva de
+cea mai putin daunatoare. Efectele alimentelor obtinute prin administrarea excesiva de
 pesticide si ingrasaminte chimice, al celor pline de aditivi alimentari, sau al produselor
 obtinute prin rafinare (zahar, ulei, faina alba) sunt cu mult mai grave decat efectele unei
 alimentatii tratate termic, dar straine de tot ceea ce inseamna artificial, sintetic.
@@ -648,7 +648,7 @@ longevitatii, adevarate comori ce "distrug" foarte multi microbi;
  7. mierea de albine - o adevarata minune ce trebuie consumata la modul moderat; se
 poate combina excelent cu seminte (nuci, alune etc) si cu nenumarate fructe pentru a obtine
 deserturi diverse si delicate;
- 8. graul - incoltit este unul din cele mai binefacatoare alimente; isi pastreaza propietatile
+ 8. graul - incoltit este unul din cele mai binefacatoare alimente; isi pastreaza proprietatile
 si sub forma de fulgi netratati termic;
  9. sucurile de fructe si legume -100% naturale, facute "in casa" si "private" de
 prezenta zaharului rafinat sau a indulcitorilor sintetici sunt adevarata "apa vie";
@@ -699,7 +699,7 @@ Agar-agar E 406; Acid alginic
 E 400; Guma de carruba E
 410 ;Guma arabica E 414
 Pectina E 440; Caragenan E
-407; Carboximetil celuloza E
+407; Carboximetilceluloza E
 466; Metil celuloza E 461;
 budinci, produse lactate,
 inghetata, branzeturi, serbeturi,

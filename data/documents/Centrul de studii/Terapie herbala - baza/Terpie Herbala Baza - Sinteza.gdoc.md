@@ -554,7 +554,7 @@ Pentru auto-dezgust, rusine .
 
 ### Ulm
 
-Pentru cei care se simt coplesiti de responsabilitati. Un bun remediu pentruun sentiment de inadecvare temporara.
+Pentru cei care se simt coplesiti de responsabilitati. Un bun remediu pentru un sentiment de inadecvare temporara.
 
 ### Gentiana
 
@@ -578,7 +578,7 @@ Cei care privesc mereu inapoi in trecut, simt dor de casa. Ei traiesc in trecut,
 
 ### Carpen
 
-Pentru senimentul de luni dimineata. Pentru starea mentala negativa, epuizanta ca o noua zi dificila incepe.
+Pentru sentimentul de luni dimineata. Pentru starea mentala negativa, epuizanta ca o noua zi dificila incepe.
 
 ### Impatiens
 

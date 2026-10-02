@@ -14,6 +14,6 @@ ta
 lon de
 \\ \
 Cy
-ovare, testicu le
+ovare, testicule
 Piciorul drept
 Piciorul stang

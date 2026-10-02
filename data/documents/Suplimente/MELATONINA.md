@@ -37,10 +37,10 @@
 | |
 | #### **3**!{width="7.291666666666667e-2in" height="7.291666666666667e-2in"} Melatonina cu actiune de prevenire la bolile coronariene |
 | |
-| #### 4!{width="7.291666666666667e-2in" height="7.291666666666667e-2in"} Melatonina in tratamentul somnului si inbunatatirea calitatii de somn odihnit la oamenii in virsta |
+| #### 4!{width="7.291666666666667e-2in" height="7.291666666666667e-2in"} Melatonina in tratamentul somnului si imbunatatirea calitatii de somn odihnit la oamenii in varsta |
 | |
 | ------------------------------------------------------------------------------- |
-| Melatonina in tratamentul somnului si inbunatatirea calitatii de somn odihnit |
+| Melatonina in tratamentul somnului si imbunatatirea calitatii de somn odihnit |
 | ------------------------------------------------------------------------------- |
 | |
 | ------------------------------------------- |

@@ -51,7 +51,7 @@ Se consuma 2-7 linguri dimineata pe stomacul gol.
 \- Lactobacillus Reuteri in cantitati prea mari poate omori bacteriile bune din familiile lactobacillus si bifidobacterium.
 
 **Link-uri utile:**
-\- How to make L.Reuteri Fermented Dairy (yogurt)
+\- Howto make L.Reuteri Fermented Dairy (yogurt)
 
 # \- A surprising solution for social isolation
 

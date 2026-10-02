@@ -22,21 +22,21 @@ Data viata cum sa va alcatuiti meniul sau ce sa consumati pentrua nu va mai ingr
 IFISA DE IDENTITATE SOMATICA pe care daca o completati si o trimiteti inapoi, lao adresa indicata,noiva vom
 aspunde cu ointerpretare a cazului dvs.
 "otin acest coletmai-aveti un tabelcare descrie schematic O Z1OBISNLJTfA din viatadvs. plusmedicamentele pe care le
-olositi zilnic etc.Dacadoritisa-I completati sisa-I trimiteti inapoi, impreuna cu FISA DE IDENTITATE SOMATICA pe
+folositi zilnic etc.Dacadoritisa-I completati sisa-I trimiteti inapoi, impreuna cu FISA DE IDENTITATE SOMATICA pe
 dresa indicata acolo,noiva raspundem printr-o interpretare a cazului dvs.din punctul nostru de vedere .
-zlaiaveti incolet si PROSPECTUL MODULULUI 1 din care aflaticum sava preparati doza zilnicade ceai, folosind si
-inctura OBESSTOP 1, precum si PROSPECTUL MODULULUI 2 din care aflati cum sa continuati tratamentul cu tinctura
+zlaiaveti incolet si PROSPECTUL MODULULUI 1 din care aflaticum sava preparati doza zilnica de ceai, folosind si
+tinctura OBESSTOP 1, precum si PROSPECTUL MODULULUI 2 din care aflati cum sa continuati tratamentul cu tinctura
 )BESSTOP 2 inluna a doua.
 fa recomandam sa urmati tratament cu Modulul 1 pana se termina tinctura Obesstop l.(aproximativ 4 saptamani) si apoi sa
 receti la tratament cu Modulul 2 si de la inceput sa urmati regimul dietetic obligatoriu la ambele module pana obtineti
-labirea recomandabila.Mai primiti deci in coletREGIMUL DIETETICalMODULELOR 1 si 2 si o completare al acestuiacu
+labirea recomandabila.Mai primiti deci in coletREGIMUL DIETETICalMODULELOR 1 si 2 si o completare al acestuia cu
 itlul: ALTE REGULI DE DIETA.
-;i fiindcauneori topirea grasimilor poate stagna din motive chiar necunoscute va mai trimitem un ajutor intitulat :
+;i fiind ca uneori topirea grasimilor poate stagna din motive chiar necunoscute va mai trimitem un ajutor intitulat :
 mpORNIREA TOPIRII GRASIMILOR DUPA O STAGNARE
-'recum o sa vedeti in acest regim nu sunt date cantitatileexacte la gramaj sau lacalorii fiindca nu asta conteaza. Atuncise
+'recum o sa vedeti in acest regim nu sunt date cantitatileexacte la gramaj sau la calorii fiindca nu asta conteaza. Atuncise
 nme intrebarea:
 :at sa mancati?
-fa recomand samancati doar atat cat sa dispara senzatia de foamesi nu atat catatiputea manca si in nici un caz sa nu va
+fa recomand sa mancati doar atat cat sa dispara senzatia de foamesi nu atat catatiputea manca si in nici un caz sa nu va
 .hiftuiti.Senzatia de satietate cere ceva timp pana se poate simti,deaceea opriti-vadin cand in cand din mancat.
 De fapt dupa 3 zile de tratament pofta de mancare scade foarte mult) Dar sa nu rabdati foame,ci sa luati3 mese pe zi,chiar
 ntre mese se poate lua cate ogustare asa cum e descrisin formularul: ,,Alte reguli de dieta."Tineti cont ca acest regim este
@@ -44,7 +44,7 @@ atiosdar sanu rnancati cantitati mai mari din el,ci dimpotriva samancaticat mai 
 )upa 3 zile de la inceperea acestui regim, din a 4-a zi dimineataurinati intr-unrecipient curat. Scoateti un betigasde plastic
 lincutiace atiprimit-o in colet siinmuiatiin urinacapatul cu cele doua placute colorateapoi culcati betigasul pe orizontala
 imp de un minut(deci primul minut dupa inmuierea in urina urmariti schimbareade culoare a placutei bej).
-" Scoala de slabiredin grasime dr.Veress" -Cursuri Ia distanta
+" Scoala de slabire din grasime dr.Veress" -Cursuri Ia distanta
 Modulul 1si2, 2008
 
 Placuta verde nu ne intereseaza. (la diabeticii care au zahar in urina aceasta se coloreaza in maro).
@@ -56,7 +56,7 @@ iejse inchide la culoare pana la mov si mov inchis.Eu recomand sa mentineti culo
 .u fitocatalizatori primite, si tineti regimul cu toata atentia.Slabirea lenta, dar sigura si sanatoasa, se mentine pe tot timpul
 ratamentului de doua luni.Astfel puteti slabi 1O-15kg in cele 2 luni de tratament.Daca ati comis o incalcare sau nu ati putut
 ine tratamentul o zi, testul de urina va arata acest lucru,iar placuta de hartie bej nu se va mai colora in mov. Reveniti la
-ratamentul corect si reactia de culoare se va produce din nou.Astfel aveti la indemana un instrument de control obiectiv
+tratamentul corect si reactia de culoare se va produce din nou.Astfel aveti la indemana un instrument de control obiectiv
 isuprapropriului dvs. comportament.Nu este obligatorie testarea zilnica a urinii pe parcursul tratamentului daca totul decurge
 iormal, dar daca o faceti, atunci in fiecare zi sa fie la aceasi ora. Tratamentul cu fitocatalizatori ai slabirii din grasime si
 egimul dietetic asociat poate fi strict supravegheat cu testul de urina descris, mai ales la inceput. '
@@ -66,7 +66,7 @@ nai energiei pe parcursul zilei, chiar fara cafea, lipsa somnolentei si a apatie
 oate bauturile alcoolice, fiindca organismul incepe sa arda alcoolul pentru energie in loc sa arda grasimea de pe burta.
 :ontra constipatiei: sa folositi seminte de in 2-3 linguritelzi.(Semintele se pun la inmuiat in apa cu cateva ore inainte de a fi
 ngerate), sa consumati cantitatea de salata prescrisa pentru o zi la pagina "Alte reguli de dieta", peste care sa presarati 1-2
-ingurite de tarate de grau; sa se consume 1-3 linguri de ulei de masline.
+lingurite de tarate de grau; sa se consume 1-3 linguri de ulei de masline.
 ;ru va faceti probleme si nu va fie teama ca nu veti putea tine regimul, adica sa va despartiti de mancarurile preferate "dulci ",
 le prajituri, batoane de ciocolata, etc., fructe si legume. Odata cu aceste ceaiuri si acest regim, organismul dvs. va deveni o
 nasinade ars propriile grasimi lucru ce va face sa va dispara pofta imperioasa de dulce, capriciile poftirilor, o sa va scada si
@@ -74,7 +74,7 @@ nasinade ars propriile grasimi lucru ce va face sa va dispara pofta imperioasa d
 )upa o luna de tratament veti fi slabit in medie 5-7kg, mai ales hainele la brau vor arata acest lucru. Daca doriti sa mai slabiti,
 rebuie sa continuati tratamentul cu Modulul 2. Daca doriti sa va opriti din slabit, sa nu o faceti in nici-un caz asa cum credeti,
 iindca este nevoie de o tatonare a tolerantei la
-carbehidrati,Reintroducerea in meniu a "dulce lui" (adica a.carbohidratilor)
+carbohidrati,Reintroducerea in meniu a "dulce lui" (adica a.carbohidratilor)
 ere o anumita perioada de testare, care este descrisa in Modulul 3. Cu acest modul se si incheie Scoala de slabire din grasime
 cursuri la distanta. Acest modul va inarmeaza cu toate informatiile necesare pentru mentinerea definitiva a greutatii optime
 entru sanatate, evitarea ingrasarii la loc si un stil de viata sanatos. Dvs. nu urmati un regim de slabire, ci o scoala care va
@@ -93,7 +93,7 @@ vs. de familie. Toti pacientii nostri care datorita cursurilor de la scoala de s
 reutatea optima se vor vindeca de boala de diabet zaharat de tip 2 si nu vor mai avea nevoie de tabletele hipoglicemiante
 :ata vreme cat continua sa respecte cele invatate pana acum si nu se reangrasa. Consideram ca acest fapt merita sa fie
 .msemnat si de medicul dvs.de familie,care nu va mai fi nevoit sa va prescrie acele medicamente. Totodata se va rezolva
-roblema grasimilor din sange care vor reveni la valori normale si nu va trebui sa mai inghititi medicamente
+problema grasimilor din sange care vor reveni la valori normale si nu va trebui sa mai inghititi medicamente
 ipolipemiante.(foarte scumpe si foarte indoielnice). In timpul acestui tratament este recomandat sa luati de 2xllzi vitamine
 in complexul B si cate 3xllzi vitamina C. Se pot folosi si saruri de potasiu si de magneziu cate 1-2 tabletelzi din preparatul
 »nercial romanesc Aspacardin pentru prevenirea aparitiei de crampe in gambe.
@@ -106,7 +106,7 @@ arpagic
 broccoli
 ceapa
 conopida
-dobleac
+dovleac
 dovlecei
 fasole verde
 frunze de papadie
@@ -130,7 +130,7 @@ Nu mai mult de: 100glzi de frisca neindulcita din lapte integral;
 -10-20Izi masline;
 - 30 g/zismantana.
 • Legume de salata-l max. 2 cani pe zi(o cana are 200 de rnl)
-salataverde
+salata verde
 frunze de telina
 frunze de telina
 patrunjel
@@ -142,7 +142,7 @@ castraveti. .CIUperCI
 ridichi
 • Alte legume- daca ati mancat 2 cani de legume de salata din cele de mai sus, ati
 terminat portia pe 24 ore.
-Daca ati-mancat doar-1cana din cele de mai sus atuncise mai poate manca inca o
+Daca ati-mancat doar-1cana din cele de mai sus atunci se mai poate manca inca o
 cana de alte legume aratate mai jos- dar portia trebuie masurata instare cruda la
 unele ca spanacul.
 • Adaosuri lasalate:
@@ -176,7 +176,7 @@ catre noi.Puteti linistit pastra in frigider si consuma ziua urmatoare ciorba,su
 care a ramas.
 Tot astfel puteti schimba anumite ciorbe sau supe sa gatiti altele cu respectarea restrictiei
 de carbohidrati. Unii din dvs. nu puteti consuma anumite carnuri de -exemplu.Puteti schimba
-siconsuma carnea care nu va deranjeaza.Alegeti din regimul dat ceea ce va place cel mai
+si consuma carnea care nu va deranjeaza.Alegeti din regimul dat ceea ce va place cel mai
 mult.Regimul propus a fost gandit si pentru marii obezi care au cite 1SO-200kg si care
 mananca mult.Pentru cei mai multi Insa cantitatile par prea mari.Nu este obligatoriu sa
 consumati tot ce scrie, ci sa consumati cat mai putin din ce scrie in regim.
@@ -190,12 +190,12 @@ plac.Daca aveti rezerve de zahar si faina alba stocate in camara puteti linistit
 saracii care nu sunt grasi.
 Inzilele cand constatati ostagnare in slabire ca regula generala faceti mai mult efort
 muscular daca nu sport, mancati cat mai putin din dieta propusa (dar niciodata sa nusariti
-peste vreo masa sau sa va infometati); mariti cantitateade grasimi fata de cea de carne(cu
+peste vreo masa sau sa va infometati); mariti cantitatea de grasimi fata de cea de carne(cu
 srnantana.maioneza.untura ...),nu luati medicamente care franeaza slabirea.
-"Scoala de slabire dingrasime dr.Veress"-Cursuri18 distanta2008
+"Scoala de slabire din grasime dr.Veress"-Cursuri18 distanta2008
 
 Regimul dietetic alModulelor 1 si2,::
-Acest regim estecontraindicat si chiar interzis bolnavilor care fac tratament cuinjectii de
+Acest regim estecontraindicat si chiar interzis bolnavilor care fac tratament cu injectii de
 INSULINA de orice fel, precum si bolnavilor de Guta,femeilor gravide si celor care
 alapteaza.
 LUN1
@@ -274,12 +274,12 @@ exceptia unei limonade preparata din suc de lamaie.cubucati de gheata si indulci
 artificiali de tip cic1amat,zaharina (dar nu mai multde 6 tb/zi) sau cea mai recent
 disponibila si la noi in comert pe baza de sucraloza numita Splenda.Acest indulcitor este de
 preferat si din motivul ca se gaseste si sub forma de praf granulat si poate fi folosit la gatit
-ca sizaharul.Este interzis si consumul de cafeacu continutde cofeina,chiar daca este
+ca si zaharul.Este interzis si consumul de cafeacu continut de cofeina,chiar daca este
 indulcita rara zahar sau miere,fiindca cofeina produce variatii aleglicemiei adica a
 poftelor,si pentru dulce.
 Inacest stadiu toate bauturile alcoolice sunt interzisefiindca opresc arderea grasimilor.
 Acest regim va fi mentinut tot timpul tratamentului pana se obtineslabirea recomandabila.
-Ulterior regimul va fi imbogatit treptat,cu legumesi fructe in cadrulModulului 3 in careva fi
+Ulterior regimul va fi imbogatit treptat,cu legume si fructe in cadrulModulului 3 in careva fi
 invatata mentinerea greutatii obtinute.
 Infiecare zi pe langa cele 3 cani de ceai de tratament Mensunob se vor consuma inca 3
 pahare de 200ml de apa. Pentru alte informatii,despre regim cititisi la pagina Alte reguli
@@ -301,7 +301,7 @@ Lactate
 140 g branza mozzarella
 Y2cana de perlute de branza cu smantana
 Y2cana de smantana integrala
-Nuci, alune siseminte
+Nuci, alune si seminte
 30 g de:
 Nuci (aproximativ 14 jumatati)
 Migdale (aproximativ 24_de bucati} __ --~~~_-_- __ ._
@@ -318,7 +318,7 @@ Sucuri
 IA cana de suc de lamaie verde
 V2 cana de suc de rosii
 
-Cantitatile de mai jos continca te 10 gr de Carbohidrati
+Cantitatile de mai jos contin ca te 10 gr de Carbohidrati
 Nuci, alune si seminte
 Y2cana de migdale
 IA cana alune de caju
@@ -364,7 +364,7 @@ IAcana de boabe de porumb
 1/3 cana de cereale din faina integrala de grau
 IA cana de spanac
 
-ALIMENT GRAME CARBOHIDRA TI
+ALIMENT GRAME CARBOHIDRATI
 LAPTE, SMANTANA SIUNT
 Frisca din lapte integral(2 linguri) 0,8
 Iaurt(din lapte integral, simplu,Icana) 11,4
@@ -408,7 +408,7 @@ Napolitana tipvafa(de casa,18cm diametru) 24,7
 Orez (alb,fiert, 1cana) 22,3
 Paste fainoase (fierte, jumate de cana) 19,8
 Continut in dulciuritHt.')
-ALIMENT GRAME CARBOHIDRA TI
+ALIMENT GRAME CARBOHIDRATI
 Paste fainoase(din fainaintegrala,
 fierte.jumate de cana) 18,6
 Pernute de grau (cereale, I cana) 11,1
@@ -430,7 +430,7 @@ CONDIMEN1E,SOSURI SI MIRODENII
 Praf de ardei iute (1lingurita) 1,4
 Gem (1 lingurita) 4,6
 [Radacina de grurntnr (taiataIn felii, 1 nngura) 0,9
-Ketchup(llingura) - 4,2
+Ketchup(lingura) - 4,2
 Masline (verzi,5) 2,5
 Miere (l lingurita) 5,8
 Mustar de Dijon(1 lingurita) 0,6
@@ -441,7 +441,7 @@ Sos de friptura tip barbecue (2 linguri) 4
 Sos de friptura (la cutie.unsfert de cana) 3,2
 Sos de marinata (un sfert de cana) 5,1
 Sos de merisor (2 linguri) 13,5
-Sos de soia (llingura) 1
+Sos de soia (lingura) 1
 Sos dulce si acru(un sfert de cana) 15,1
 Sos olandez (2linguri) 0,3
 Sostartar(2 linguri) 1,2
@@ -454,11 +454,11 @@ Anghinare (1) 13,4
 Ardei (jumate de cana) 4,8
 Sparanghel (6 fire) 3,8
 Bame(l20g) 7,5
-"Scoala de slabire dingrasime dr.Veress"- Cursuri
-ladistanta, 2008
+"Scoala de slabire din grasime dr.Veress"- Cursuri
+la distanta, 2008
 /-----
 
-ALIMENT GRAME CARBOHIDRA TI
+ALIMENT GRAME CARBOHIDRATI
 Broccoli (jumate de cana) 3,9
 Cartofi(albi, jumate de cana) 15,4
 Castravete (jumate dintr-unulmic) 2,5
@@ -489,7 +489,7 @@ Carne, peste (200 g) O, eventual urme
 Oua(I) 0,6
 Salam de vita (75 g) 2,4
 Ficat de vita(200 g) 10,4
-FR UCTE DE MARE
+FRUCTE DE MARE
 Calmar (200 g) 7
 Crevete (200 g) O
 Homar (200 g) 2.2
@@ -506,11 +506,11 @@ Fasole Lima (jumatede cana) 21,2
 Fasole aiba uscata (jumatede cana) 23,9
 Fasoleneagra (jumate de cana) 20,4
 Fasole rosie (jumatede cana) 19,8
-ALIMENT GRAME CARBOHIDRA TI
+ALIMENT GRAME CARBOHIDRATI
 Linte (jumate de cana) 19;9
 Naut(jumate de cana) 22;5
 Soia(jumate de cana) 9;9
-FRUCTE SISUCURI DE FRUCTE
+FRUCTE SI SUCURI DE FRUCTE
 Afine (un sfert de cana) 5,1
 Ananas (un sfert de cana) 4..8
 Avocado(l, mic) 14;9
@@ -537,22 +537,22 @@ Struguri (un sfert de cana) 7,1
 Mandarine (1) 7,8
 Zmeura (un sfertde cana) 3,6
 PRODUSE CARE INGRASA, BOGATE IN
-CARBOHIDRA TI
+CARBOHIDRATI
 Bere (350 mI) 13,2
 Cheeseburger cu chifla (120 g) 33
-Chipsuri dinfaina de porumb 11;3
+Chipsuri din faina de porumb 11;3
 Ciocolata(amaruie, 30 g) 17;9
 Covrigei sarati(10 bucati) 47,5
 Croissant 27
 Gogoasa (glazurata) 26,6
 Hot dog 24
 Inghetatade ciocolata (jumate de cana) 18,6
-Macaroane cu brinza (1 cana) 40
+Macaroane cu branza (1 cana) 40
 Rondele de ceapa 33
 Pizza(1 felie) 24
 Placinta cu mere (1/8 dintr-o placinta cu 57,5diametrul de 22,5 cm)
 Prajiturele de ovaz (jumate de cana) 12,4
 Rulada cu ou (1) 30
 Tort de ciocolata (100 g) 38
-"Scoala de slabire dingrasime dr.Veress"- Cursuri
-ladistanta,2008
+"Scoala de slabire din grasime dr.Veress"- Cursuri
+la distanta,2008

@@ -2,7 +2,7 @@ Curs 12
 
 Ierburi expectorante si calmante
 
-Multe dintre ierburile emoliente si in special expectorante sunt , de asemenea, anti \- catarale si acestea sunt deosebit de valoroase pentru a purifica si curata organismul. S-a spus de multe ori a ca “guturaiul este cel mai mare blestem al omenirii " . El poate fi o mare problema pentru multi oameni , dar nu suntem pregatiti sa spunem ca acesta este cel mai mare blestem . De fapt , el poate fi una dintre cele mai mari binecuvantari , pentru ca iritatia provoacata ne atrage atentia asupra necesitatii de a ne curata corpul . Guturaiul este un semnal de avertizare al naturii ca este nevoie de o curatare temeinica.
+Multe dintre ierburile emoliente si in special expectorante sunt , de asemenea, anti \- catarale si acestea sunt deosebit de valoroase pentru a purifica si curata organismul. S-a spus de multe ori a ca “guturaiul este cel mai mare blestem al omenirii " . El poate fi o mare problema pentru multi oameni , dar nu suntem pregatiti sa spunem ca acesta este cel mai mare blestem . De fapt , el poate fi una dintre cele mai mari binecuvantari , pentru ca iritatia provocata ne atrage atentia asupra necesitatii de a ne curata corpul . Guturaiul este un semnal de avertizare al naturii ca este nevoie de o curatare temeinica.
 
 **Mucusul in exces** in organism rezulta de multe ori din descompunerea partiala a plasmei sangelui, ca urmare a unui deficit nutritional de clorura de potasiu ,elementul care permite fibrinei sa ramana in solutia sangelui .In toate procesele inflamatorii , exista un exudat de transpiratie din fibrina din sange in tesutul din jur . Acest emanat de fibrina devine nefunctional si insolubil . Nicio fibrina noua nu poate fi formata fara ajutorul clorurii de potasiu . Cand exudarea fibrinei se face din mucoasa membranei , este numita catar . Stadiile avansate de exudat fibrinos in diferite organe si tesuturi sunt denumite diferit, cistite , chisturi , aderente , etc.
 
@@ -171,7 +171,7 @@ Pasta fierbinte (arde, entorse, rani, etc)
 
 Miere suficienta si ulei de germeni de grau (parti egale)
 
-Mod de preparare: Se amesteca mierea si uleiul din germeni de grau in blender, adaugand treptat prima tataneasa, apoi lobelia, pana se formeaza o pasta consistenta. Se acopera si se pastreza la rece. Pasta poate fi conservata prin adaugarea unui strop de glicerina dar rezultate mai bune se obtin atunci cand esteproaspat facuta.
+Mod de preparare: Se amesteca mierea si uleiul din germeni de grau in blender, adaugand treptat prima tataneasa, apoi lobelia, pana se formeaza o pasta consistenta. Se acopera si se pastreza la rece. Pasta poate fi conservata prin adaugarea unui strop de glicerina dar rezultate mai bune se obtin atunci cand este proaspat facuta.
 
 Administrare: Aplicati pasta fierbinte extern, pe zona afectata. Intern, se bea un ceai de tataneasa sau de ananas si tataneasa.
 
@@ -251,7 +251,7 @@ Combinatii bune: pentru conditiile ulcerate (intern si extern), radacina de tata
 
 # Luminarica sau Coada Vacii(Verbascum thapsus; SCROPHULARIACEAE)
 
-Carcteristici generale: Dioscoride recomanda aceasta planta in cazul intepaturilor de scorpion, al afectiunilor oculare, durerilor de diti, anginei si tusei. Pliniu se limiteaza la a-i remarca actiunea asupra leziunilor iritatiilor pulmonare.In secolul al XIII-lea, sfinta Hildegarde de Bingen o prescria impotriva raguselii. In perioada urmatoare, planta a continuat sa fie folosita vreme indelungata in tratarea tusei (ea intra in compozitia traditionalului “ceai de patru flori”) si, cu un succes mai modest, a tuberculozei. In Irlanda, pentru aceasta se folosea un decoct de frunze proaspete de luminarica in lapte (considerat benefic impotriva tuberculozei).
+Carcteristici generale: Dioscoride recomanda aceasta planta in cazul intepaturilor de scorpion, al afectiunilor oculare, durerilor de diti, anginei si tusei. Pliniu se limiteaza la a-i remarca actiunea asupra leziunilor iritatiilor pulmonare.In secolul al XIII-lea, sfanta Hildegarde de Bingen o prescria impotriva raguselii. In perioada urmatoare, planta a continuat sa fie folosita vreme indelungata in tratarea tusei (ea intra in compozitia traditionalului “ceai de patru flori”) si, cu un succes mai modest, a tuberculozei. In Irlanda, pentru aceasta se folosea un decoct de frunze proaspete de lumanarica in lapte (considerat benefic impotriva tuberculozei).
 
 Partea utilizata: frunzele si florile.
 
@@ -259,9 +259,9 @@ Florile sunt recoltate in timpul infloririi, iar frunzele in al doilea an, inain
 
 Moduri de utilizare
 
-Decoct de frunze: o jumatate, pina la o mina la un litru; lasa sa fiarba 10 min.
+Decoct de frunze: o jumatate, pana la o mina la un litru; lasa sa fiarba 10 min.
 
-Decoct de flori: trei linguri, pina la o mina la un litru; lasa sa fiarba 10 min.
+Decoct de flori: trei linguri, pana la o mina la un litru; lasa sa fiarba 10 min.
 
 Atentie\!Filtreaza infuzia sau decoctul printr-o sita, pentru a ne debarasa de firisoarele provenite de la calciu si stamine, acestea provoaca iritatii la git si la tubul digestiv.
 
@@ -271,7 +271,7 @@ Aceasta planta are efecte benefice in cazul problemelor respiratorii, in plus ex
 
 Actiune calmanta :
 
-Ceaiul de luminarica favorizeaza somnul, calmeaza colitele spasmodice de origine nervoasa
+Ceaiul de lumanarica favorizeaza somnul, calmeaza colitele spasmodice de origine nervoasa
 
 Pentru uz extern
 
@@ -285,7 +285,7 @@ CEAIULUI DE PATRU FLORI
 
 La un litru de apa clocotita se adauga:
 
-\- 1 lingura de luminarica;
+\- 1 lingura de lumanarica;
 
 \- 1 lingura de petale de mac-de-cimp;
 
@@ -419,7 +419,7 @@ Administrare: Scoate plantele si aplica o cataplasma pe cat de calda posibil la 
 
 Mod de preparare: se fierb primele 4 plante incet timp de 20 minute in 1 litru de apa; se toarna fierbinte peste ardei si se adauga tinctura de mir cand se raceste.
 
- Dozare: 1-2 lingurite la fiecare ora, pana cand se amelioreaza starea si apoi de 4 pana la 5 ori pe zi. Administrare: Vezi care intestinefunctioneaza corect (foloseste tonicul pentru intestinului mic si, daca este necesar, o clisma cu Iarba Matei). Sucul de lamaie nediluat si neindulcit este excelent pentru toate tipurile de dureri de gat sau sucul de ananas proaspat.
+ Dozare: 1-2 lingurite la fiecare ora, pana cand se amelioreaza starea si apoi de 4 pana la 5 ori pe zi. Administrare: Vezi care intestine functioneaza corect (foloseste tonicul pentru intestinului mic si, daca este necesar, o clisma cu Iarba Matei). Sucul de lamaie nediluat si neindulcit este excelent pentru toate tipurile de dureri de gat sau sucul de ananas proaspat.
 
 # Emollient
 

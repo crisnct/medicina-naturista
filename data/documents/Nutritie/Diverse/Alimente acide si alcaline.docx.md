@@ -178,7 +178,7 @@ Mere
 Migdale
 Avocado
 Majoritatea
-Porumb proapat
+Porumb proaspat
 Napi
 Masline
 Boabe de
@@ -186,7 +186,7 @@ alimentelor devin
 Ardei grasi
 Hrean
 Rubarba
-mai acide cand sint
+mai acide cand sunt
 Ananas
 Cirese
 Caise

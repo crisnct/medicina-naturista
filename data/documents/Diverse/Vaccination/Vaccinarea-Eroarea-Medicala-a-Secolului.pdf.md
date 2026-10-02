@@ -2020,7 +2020,7 @@ atribuit aceasta descoperire. Din 1866, Bechamp descoperire intr-adevar cauzele 
 de matase si preconizase ingrijirile necesare pentru a salva sericicultura. Cat despre Pasteur,
 numit expert oficial, retribuit de stat si trimis pe teren, cu asistenti, de catre j. B. Dumas, senator
 de Gard, el marturisea ca nu intelege nimic, ajungand chiar sa-i trateze drept nebuni pe Bechamp
-si pe prietenul sau, doctorul Alfred Estor cand acestia au publicat in Mesagerul Sudului ca
+si pe prietenul sau, doctorul Alfred Estorcand acestia au publicat in Mesagerul Sudului ca
 epidemia se datora corpusculului vibrant parazit exterior viermelui. In 1868, fara nici un fel de
 jena, Pasteur isi atribuie meritul fericitelor rezultate in scrisoarea din 10 decembrie 1868 adresata
 Ministrului Agriculturii !!!
@@ -4985,7 +4985,7 @@ exista virusi ascunsi preexistenti manipularilor genetice, fie ca aceste culturi
 momentul unei re-injectari.
 Acumularea de vaccinuri de toate genurile, in toate directiile, fara cel mai mic interes
 curativ sau preventiv, epuizeaza si innebuneste sistemul imunitar, ceea ce este baza
-indispensabila instalarii bolii SIDA. Acest nou vaccin contra hepatitei B risca in mare masura sa
+indispensabila instalarii bolii SIDA. Acest nou vaccin contra hepatitei Brisca in mare masura sa
 fie picatura care umple paharul. Si vom putea constata foarte curand propagarea acestei boli
 ingrozitoare pe cai perfect banale, cum ar fi contactul cutanat (strangerea de mana) sau micro-
 picaturile de saliva. Cosmarul va deveni total. Toate acestea pentru a preveni o boala complet
@@ -5058,7 +5058,7 @@ Este arhicunoscut faptul ca virusii numiti adventices se gasesc in loturile de c
 decelarea si eliminarea lor nu este usoara. Problemele legate de cultura virusilor utilizati pentru
 fabricarea vaccinurilor sunt extrem de complexe din cauza ca virusii nu pot sa se dezvolte intr-un
 mediu hranitor, precum microbii. Lor le trebuie o celula pentru a creste, pentru a prospera si a se
-reproduce. Ori aceste celule contin virusi apartinand organului speciei animale ufilizate. Astfel,
+reproduce. Ori aceste celule contin virusi apartinand organului speciei animale utilizate. Astfel,
 de exemplu, virusul SV 40, cancerigen, a fost decelat in rinichii de maimute servind la pregatirea
 vaccinului antipoliomielitic. Aceasta a fost descoperit in 1960 de Sweet si Hilleman. Ori,
 milioane de indivizi au fost vaccinati, timp de decenii, cu un vaccin produs in acest mod. Ne

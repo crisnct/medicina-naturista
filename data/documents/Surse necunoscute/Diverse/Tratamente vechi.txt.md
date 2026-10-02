@@ -8,7 +8,7 @@ Boabele fierte se pun calde - dar nu fierbinti - pe un prosop mai mare pe pat ia
 
 ### Ceai de salvie
 
-« diminuazea paralizia (reumatismul) din om. “ Se bea caldut. Inima difterica, inima reumatica cu daune la risichi, reumatism Inhalatii sau sauna cu radacina de tei (Linden)
+« diminuazea paralizia (reumatismul) din om. “ Se bea caldut. Inima difterica, inima reumatica cu daune la rinichi, reumatism Inhalatii sau sauna cu radacina de tei (Linden)
 
 “Un om care sufera cu inima sa ia partea de mijloc din radacina unui tei, (sa o usuce) si sa o pulverizeze. Sa manance acest praf des cu paine si asta ii va face inima lui mai usoara.” Caldura mare a teiului se gaseste in radacina, scrie Hildegard si ea recomanda acest praf si ca praf de pus in sauna in caz de reumatism (praful fiert in apa se arunca peste pietrele incinse din baia cu aburi (sauna)).
 
@@ -26,7 +26,7 @@ Uleiul de dafin sa se foloseasca numai dupa ce s-a facut un test de alergie cu e
 
 Cel mai bun si eficient remediu de guta si reumatism de la Hildegard ! 60 g seminte de telina (Sellerie) , 20 g ruta de gradina (Weinrute) 15 g nucsoara , 10 g cuisoare, 5 g frasinel (Diptam)
 
-Seminte de telina, ruta de gradina, nucsoara, cuisoarele si frasinelul se pulverizeaza si acest praf se ia inainte si dupa masa cu ceva paine. Se mesteca bine si nu se inghite cu apa, pentru ca substantele sa fie amestecate bine cu saliva. Se ia pe stomacul gol de doua ori pe zi (dimeneata si seara) cate o lingurita inainte de masa si de trei ori pe zi cate o lingurita dupa masa. Se ia timp de 6-8 saptamani. In cazuri mai usoare ajung 1-2 lingurite pe zi.
+Seminte de telina, ruta de gradina, nucsoara, cuisoarele si frasinelul se pulverizeaza si acest praf se ia inainte si dupa masa cu ceva paine. Se mesteca bine si nu se inghite cu apa, pentru ca substantele sa fie amestecate bine cu saliva. Se ia pe stomacul gol de doua ori pe zi (dimineata si seara) cate o lingurita inainte de masa si de trei ori pe zi cate o lingurita dupa masa. Se ia timp de 6-8 saptamani. In cazuri mai usoare ajung 1-2 lingurite pe zi.
 
 Hildgard “acesta este cel mai bun remediu pentru guta (reumatism).” Deja dupa putin timp durerile inceteaza, cel tarziu dupa 8 zile de la inceperea tratamentului. Dureri reumatice, endocardita (?) reumatica, junghiuri la inima Alifie din frunze si coaja de arbore de maslin
 
@@ -126,7 +126,7 @@ Ceva suc de patlagina stors proaspat si filtrat printr-o panza se pune in vin cu
 
 Compresa cu patrunjel, ruta de gradina si ulei de masline.
 
-„Cine are carnea moale si reumatism din cauza bauturii (alcool) sa ia patrunjel si de patru ori mai mult ruta de gradina care sa le infierbinte intr-o oala cu un pic de ulei de masline. Sa puna terciul asta de plante cald ca compresa pe locul unde il doare si ii va fi mai bine”
+„Cine are carnea moale si reumatism din cauza bauturii (alcool) sa ia patrunjel si de patru ori mai mult ruta de gradina care sa le in fierbinte intr-o oala cu un pic de ulei de masline. Sa puna terciul asta de plante cald ca compresa pe locul unde il doare si ii va fi mai bine”
 
 Reteta: 10g patrunjel, 40 g ruta de gradina si 50ml ulei de masline se incalzeac un pic intr-o tigaie, se strecoara frunzele printr-o sita si se pun ca compresa (panza de in este cea mai buna). Compresa de frasinel, urechelnita si urzica
 
@@ -212,7 +212,7 @@ Prin mestecarea zilnica de 3-4 cuisoare dispar durerile reumatice si umflaturile
 
 Praful se amesteca bine si se pune cate o lingurita in ceva miere. Aceasta miere se pune in ceai sau pe paine si ia dupa masa. Reumatism, dureri de mijloc, dureri la picioare, circulatie slaba, digestie slaba Praf de bertram cu vin
 
-« cine are dureri in picoare sa-si puna ventuze (care trag sangele) cand boala nu este prea veche. Cand este veche insa sa ia praf de betram si un sfert din el ghimbir si ceva piper si sa faca un praf pe care sa-l ia pe stomacul gol cu un pic de vin “. (Vinul poate sa fie diluat in prealabil cu apa )
+« cine are dureri in picioare sa-si puna ventuze (care trag sangele) cand boala nu este prea veche. Cand este veche insa sa ia praf de betram si un sfert din el ghimbir si ceva piper si sa faca un praf pe care sa-l ia pe stomacul gol cu un pic de vin “. (Vinul poate sa fie diluat in prealabil cu apa )
 
 Reteta: 30g Betram, 10g ghimbir, 5g piper (negru sau alb)
 
@@ -220,7 +220,7 @@ Se ia cu ceva vin inainte de mese. (Fara vin nu mai are acelasi efect !)
 
 Reumatism, pareza, comotie cerebrala si surzenie subita Vin de tintaura (Tausendgüldenkraut / Centarium erytheaea) 1 lingura de tintaura se fierbe intr-un sfert de litru de vin timp de 1 minut. Se bea un paharel de tuica (20 ml) inainte de mese pana cand se observa o inbunatatire. Reumatism, scleroza, lupus, boli de nervi. pareza, comotie cerebrala Elixir din porumbar
 
-“un om care este asa de reumatic incat i se atenueaza simturile si innebuneste sau la care se intepenesc membrele sa ia porumbar cu tepi uscati sau proaspate si sa faca din ea cenusa fara sa puna un alt lemn. Cenusa asta sa o amestece cu praf de cuisoare si cu o cantitate dubla de scortisoara si cu ceva miere si vin sa faca o bautura limpede. Sa bea inainte de masa din ea si boala va iesi afara din el. Mai scumpa ca aurul este bautura asta.”
+“un om care este asa de reumatic incat i se atenueaza simturile si innebuneste sau la care se intepenesc membrele sa ia porumbar cu tepi uscati sau proaspete si sa faca din ea cenusa fara sa puna un alt lemn. Cenusa asta sa o amestece cu praf de cuisoare si cu o cantitate dubla de scortisoara si cu ceva miere si vin sa faca o bautura limpede. Sa bea inainte de masa din ea si boala va iesi afara din el. Mai scumpa ca aurul este bautura asta.”
 
 40g cenusa de ramuri si frunze de porumbar uscate sau verzi 30g praf de cuisoare, 60 g de scortisoara 100g de miere data in fiert si cu spuma aruncata 2 litri de vin curat (daca se poate mai vechi de 2 ani si facut in damigeana de sticla si nu in butoi de stejar)
 

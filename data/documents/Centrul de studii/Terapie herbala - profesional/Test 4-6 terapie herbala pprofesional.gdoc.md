@@ -18,7 +18,7 @@ Radacina de rodie se foloseste ca antihelmitic, astringent, anti-canceros. Semin
 
 5 Scrie pe scurt despre ierburile antihelmitice
 
-Exemplu de ierburi antihelmitice: usuturoi, coada-soricelului, rodie, feriga, pelin, ghimbir, coaja de nuca verde
+Exemplu de ierburi antihelmitice: usturoi, coada-soricelului, rodie, feriga, pelin, ghimbir, coaja de nuca verde
 
 6 Scrie despre vermicide
 

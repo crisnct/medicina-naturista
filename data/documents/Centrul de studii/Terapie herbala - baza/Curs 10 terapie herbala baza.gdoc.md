@@ -52,7 +52,7 @@ Baie de sezut cu hammamelis de doua sau de trei ori pe saptamana.
 Poate fi de ajutor o baie rece de sezut prin adaugarea unei plante de racire, de trei ori pe saptamana. O baie de sezut rece este constituita dintr-un loc racoros in baia principala si o baie de picioare fierbinte.
 
 ### Mancarime
-Acest lucru poate fi ajutat de o baie rece de sezut si adaugarea de urizici, de trei ori pe saptamana.
+Acest lucru poate fi ajutat de o baie rece de sezut si adaugarea de urzici, de trei ori pe saptamana.
 
 ### Dureri in timpul menstruatiei
 Musetel, menta si frunze de zmeura intr-o baie de sezut.

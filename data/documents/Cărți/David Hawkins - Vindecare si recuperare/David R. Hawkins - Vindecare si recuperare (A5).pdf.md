@@ -45,7 +45,7 @@ pana la Iluminarea Totala.
 Campurile sub nivelul 200 potenteaza boala. Cele
 aflate deasupra nivelului 200 sprijina vindecarea,
 incluzand stiinta medicala care calibreaza la 400.
-Puterea spirituala a ni velurilor constiintei cuprinse in
+Puterea spirituala a nivelurilor constiintei cuprinse in
 palierul 500 faciliteaza recuperari ce nu pol fi posibile
 altfel.
 Toate bolile sun t fizice, mentale si spirituale, iar
@@ -54,11 +54,11 @@ adresarii celor trei domenii simultan, intelegand ca
 fiecare dintre ele au o importanta egala. Intentia si
 contextualizarea spirituala sporesc rata raspunsurilor
 pozitive la tratamentul medical. Totusi, intrinsec
-conditiei um ane, exista limitari, datorate design -ului
-evolutiei, d intre care unele pot fi transcense, iar altele
+conditiei umane, exista limitari, datorate design -ului
+evolutiei, dintre care unele pot fi transcense, iar altele
 nu. Prin urmare, speranta si credinta trebuie sa fie
 acompaniate de predarea si acceptarea unei Vointe Mai
-inalte. Dupa cum a fost validat in urma cerceta rii
+inalte. Dupa cum a fost validat in urma cercetarii
 noastre, viata nu poate fi distrusa. Nu poate decat sa-si
 schimbe expresia de la o realitate fizica lineara limitata,
 la realitatea spirituala non-lineara nelimitata.
@@ -109,7 +109,7 @@ diferitelor probleme ale omului din perspectiva
 constiintei, probleme cum ar fi stresul, alcoolismul,
 diferite boli, depresia, frica, pierderile majore, ca sa
 numim cateva. Ne vom referi deseori la Harta Constiintei
-in discutiile noastre pentru a explica rela tia dintre corp,
+in discutiile noastre pentru a explica relatia dintre corp,
 minte si spirit, atat de important a fi inteleasa atunci
 cand este vorba de autovindecare. Pentru a intelege
 valoarea Hartii Constiintei insasi, fara a face referire la o
@@ -188,7 +188,7 @@ viziune lipsita de speranta a lumii, iar Dumnezeul unei
 omeniri fara speranta ar fi mort sau non - existent. Sunt
 multi sceptici, atei si filozofi care justifica, in mod
 inconstient, orice pozitie ce neaga Realitatea si incearca
-sa o gandeas ca rational, sa o apere, sa o faca sa para
+sa o gandeasca rational, sa o apere, sa o faca sa para
 mai logica (vezi Adevar vs. Falsitate). Ideea ca Dumnezeu
 este mort si ca omul si viata sa sunt fara de speranta
 anuleaza valoarea vietii si, prin urmare, sunt distructive.
@@ -217,7 +217,7 @@ caracterizat emotional prin regret si sentimentele de
 pierdere si deznadejde. Procesul care are loc in
 constiinta este descurajarea, demoralizarea. Durerea
 este pierderea energiei vietii, a spiritului si a vointei de a
-trai. Cand vo inta de a trai este pierduta, atunci energia
+trai. Cand vointa de a trai este pierduta, atunci energia
 din univers este pierduta, conducand inspre depresie.
 Oamenii aflati in Durere vad o lume trista si un
 Dumnezeu care ii ignora.
@@ -256,7 +256,7 @@ proiectarii sursei puterii in afara noastra.
 Depresia accentuata este teama ca cineva a pierdut
 ceva, pentru ca durerea are de-a face cu pierderea. Daca
 reusim sa ajutam o persoana sa dea piept cu frica si sa o
-rezolve, dr ept rezultat vom observa depasirea acesteia
+rezolve, drept rezultat vom observa depasirea acesteia
 foarte rapid. Mai tarziu vom observa cum este frica
 vazuta de constiinta si vom prezenta o anume tehnica
 despre cum sa ne debarasam de rezistenta pe care o
@@ -271,7 +271,7 @@ dorinta, tanjire, care sunt parte din campul
 dependentelor si care pot deveni obsesii si vicii.
 Procesul care are loc in constiinta este cel de
 prindere-captivitate- fixare. Persoana este stapanita si
-condusa de ceea ce isi do reste, de dorintele sale, iar
+condusa de ceea ce isi doreste, de dorintele sale, iar
 sursa fericirii sale este in exterior. Publicitatea profita de
 aceasta creand dorinte prin intermediul unei conexiuni
 inconstiente; ceea ce creeaza dorinta este simbolizarea
@@ -300,7 +300,7 @@ aprinde dorinta, ii conduce la frustrare si furie,
 culminand in acea energie ce este folosita pentru a crea
 toate miscarile sociale, schimbarile legislative si chiar
 schimbari constructive in societate. Astfel, furia poate fi
-utilizata pentru a energiza capacit atea de a face si
+utilizata pentru a energiza capacitatea de a face si
 gasirea de solutii.
 Furia pe care o observam sau o traim in viata zilnica
 se manifesta de obicei in forma resentimentului. La un
@@ -330,7 +330,7 @@ Spunem ca o persoana aflata la acest nivel al
 Mandriei tine capul pe sus, nu -i ajungi cu prajina la
 nas, este inabordabila, n -ai cum s -o inveti nimic, nu
 poate auzi, sau are o minte inchisa. Acest nivel al
-constiintei conduce catre o pozitie polarizata a pa rerilor,
+constiintei conduce catre o pozitie polarizata a parerilor,
 ceea ce pune persoana, in mod constant, in postura
 celui care se apara pentru ca „are dreptate ”, asa ca
 lumea este cea care n-are dreptate. Energia este disipata
@@ -341,7 +341,7 @@ poate renunta si la mandrie. Aceste campuri negative au
 tendinta de a -si da putere unul altuia. Rareori se
 manifesta singure.
 Unul predomina, dar toate celelalte se hranesc unul
-de la altul, astfel ca d urerea se manifesta peste furia
+de la altul, astfel ca durerea se manifesta peste furia
 altuia, unul este furios pe mandria altuia, unul are
 teama fata de durerea altuia, astfel ca o suparare este,
 de obicei, compusa dintr -o combinatie a tuturor acestor
@@ -410,7 +410,7 @@ victima. Persoana are acum o mare putere si nu mai este
 dominata de aversiuni sau de dorinte mistuitoare.
 Partea buna poate a fi aceasta atitudine de „O.K”. fata de
 viata; partea proasta a „neatasamentului” pot fi
-detasarea indiferenta sau pla titudinea. La nivelul
+detasarea indiferenta sau platitudinea. La nivelul
 Neutralitatii nu se mai pot trai emotii puternice ale
 suferintei si acum persoana se simte libera. Prin urmare,
 se afla intr -o stare de putere mai mare. Felul in care
@@ -430,7 +430,7 @@ intentia. O persoana aflata la nivelul Neutralitatii,
 intrebata daca ar vrea sa mearga la un film, ar raspunde
 „Este O.K. daca mergem, este O.K. si daca nu mergem ”.
 - un raspuns care da dovada de lipsa de entuziasm si de
-insufletire si, chiar daca este inca dep arte de insufletire,
+insufletire si, chiar daca este inca departe de insufletire,
 este in mod sigur mult mai confortabil decat sa fii atasat
 de frica, durere, apatie sau manie. Persoana care devine
 binevoitoare aduce insufletirea si intentia de a spune da,
@@ -440,7 +440,7 @@ renunta la opunerea rezistentei.
 Urmatorul nivel este denumit Acceptare, la 350.
 Este un camp energetic foarte puternic, unul in care
 cineva este capabil, adaptat si increzator. Acesta este
-inceputul transformaril or in constiinta. Transformarea
+inceputul transformarilor in constiinta. Transformarea
 are de-a face cu repunerea in drepturi, cu intelegerea ca
 fiecare este sursa propriei sale fericiri si ca puterea se
 afla inauntrul sau. O persoana la acest nivel este
@@ -468,7 +468,7 @@ transforma lamaia in limonada, ceea ce se manifesta din
 perspectiva unei pozitii sau a unui fel de a fi re -
 imputernicit cu propria putere. Actionand astfel, se
 ajunge la un mod de a privi si a fi relaxat, oamenii la
-acest nivel nefiind usor de tulburat. O reimpute rnicire
+acest nivel nefiind usor de tulburat. O reimputernicire
 constanta si o reciclare a energiei in univers (prin
 actiuni voluntare pentru binele altora) muta persoana la
 nivelul urmator, cel al Ratiunii, la 400.
@@ -484,7 +484,7 @@ cu faptele impersonale.
 Folosirea ratiunii transcende limitarile distorsiunilor
 narcisist-emotionale caracteristice copilariei cat si
 emotionalitatea personala rezultata in urma
-atotpatrunzatoarelor reactii si c ategorisiri in lucrurile
+atotpatrunzatoarelor reactii si categorisiri in lucrurile
 care-mi plac si cele ce nu-mi plac, precum si a dorintelor
 
 ce nu se mai termina. Facand liniste iii emotionalitatea
@@ -504,12 +504,12 @@ occidentale” este o serie de cincizeci si patru de volume
 publicate pentru prima data in SUA, in 1952, de
 Encyclopedia Britanica Inc. In cea de -a doua editie, din
 1990, acestei serii i s -au adaugat inca sase volume ) din
-care vedem ca evolutia intelectului a atins zeni tul in
+care vedem ca evolutia intelectului a atins zenitul in
 timpul Greciei Antice. A revenit pe piscuri mult mai
 tarziu, prin aparitia si dominatia unei reformari istorice
 din care s -a nascut stiinta moderna. Abandonarea in
 filosofie este denumita „retorica”, ceea ce reflecta
-manipularea non-integra a ratiun ii, fapt demonstrat de
+manipularea non-integra a ratiunii, fapt demonstrat de
 declinul nivelului filosofiei academice din ultimele
 decenii, si de emergenta teoriilor relativismului (cal. 190)
 si discordia sociala provocata de acestea (vezi cap. 12
@@ -519,7 +519,7 @@ o verificare sporita a realitatii si a unui respect non -
 emotional pentru adevar, precum si mijloacele pentru a-l
 discerne. Aceasta poate evolua chiar mai mult, in iubirea
 de Adevar de dragul adevarului. Aceasta conduce pana
-la urma catr e un salt paradigmatic la nivelul 500 al
+la urma catre un salt paradigmatic la nivelul 500 al
 constiintei (Iubirea). In timp ce ratiunea este lineara si
 
 obiectiva, Iubirea este o dimensiune diferita pentru ca
@@ -535,12 +535,12 @@ inceputul unei revelatii. Neurotransmitatorii creierului
 se schimba, incepand sa elibereze endorfine, ceea ce
 produce
  deschiderea a milioane de banci de neuroni care au
-asteptat pana acum acest camp energe tic care sa -i
+asteptat pana acum acest camp energetic care sa -i
 activeze. Oamenii de stiinta cerceteaza in prezent
 domeniul endorfinelor (oxitocina, de exemplu, este
 asociata cu ingrijorarea pentru altii si cu socializarea).
 Iubirea Neconditionata ce calibreaza la nivelul 540
-este campul energetic al vind ecarii si, de asemenea, al
+este campul energetic al vindecarii si, de asemenea, al
 grupurilor in 12 pasi. Exista o crestere in intensitate a
 campului care da viata, insufleteste, asa ca e preferabil
 sa fim in preajma acestor oameni deoarece ei ne fac sa
@@ -572,7 +572,7 @@ oameni aflati la nivelul 500; acestia nu trebuie sa caute
 ei slujbe sau relatii pentru ca angajatorii doresc sa -i
 angajeze pe ei . I i suna si spun: „N-ai vrea sa lucrezi
 pentru noi? N -ai vrea sa fii vice -presedintele
-departamentului marketing din com pania noastra? ”
+departamentului marketing din compania noastra? ”
 Angajatorii cauta astfel de persoane aflate la niveluri
 superioare.
 Nivelul Rata
@@ -603,7 +603,7 @@ spectaculoasa a constiintei si o cunoastere interioara ce
 conduc catre stari de iluminare (starea de sfintenie este
 la nivelul 570) pe masura ce se apropie de nivelul 600.
 Campul energetic al Compasiunii este unul care
-poate fi ales. Putem sa ne devotam i ubirii ca unui mod
+poate fi ales. Putem sa ne devotam iubirii ca unui mod
 de a fi, aceasta neavand nevoie de vreo credinta in
 Dumnezeu sau de orice alt sistem teologic spiritual de
 credinta. Este un juramant si un devotament fata de
@@ -618,7 +618,7 @@ constienta despre inceputul declinului separatiei dintre
 un sine ca individ si un alt sine ca individ. Este aproape
 inceputul unitatii inimii, o cunoastere - nu un proces al
 gandirii, ci un mod de a fi.
-Nivelul revelatiei in pali erul superior al valorii 500
+Nivelul revelatiei in palierul superior al valorii 500
 deschide calea catre transfigurare si compasiune care
 conduce la extaz, iar starea se incheie la nivelul 600.
 Acestea sunt stari de feerie, extaz si inceputul starilor de
@@ -663,7 +663,7 @@ gandire a emisferei stangi - cauzalitatea lineara - este
 scopul complet al muncii spirituale, adica indepartarea
 norilor pentru ca o persoana sa traiasca experienta
 stralucirii Sinelui.
-Campurile energetice sunt atat de puter nice incat
+Campurile energetice sunt atat de puternice incat
 ele ne domina perceptia. Ele sunt adevarate portaluri
 prin care vedem lumea. Deseori auzim ca lumea este
 facuta din oglinzi si ca tot ceea ce experimentam este
@@ -679,7 +679,7 @@ persoana care merge pe strada se uita in jur si vede
 numai suferinta. Cand deschide ziarul vede, de
 asemenea, o suferinta fara sfarsit a omenirii.
 Oamenii care se afla in campul energetic al lipsei de
-speranta si dezna dejdii (cal.50) vad literalmente o lume
+speranta si deznadejdii (cal.50) vad literalmente o lume
 fara speranta. Cand deschid ziarul vad acelasi lucru: o
 stare fara speranta a omenirii, nesfarsitele razboaie,
 saracia si crima. Ei traiesc la nivelul perceptiilor vizuale
@@ -713,7 +713,7 @@ Avand mai multa politie nu ajuta cu adevarat,
 pentru ca unde va fi politia atunci cand este jefuita o
 casa? Bineinteles ca se va afla la celalalt capat al
 orasului, asa ca asta nu ajuta . Incercand sa schimbam
-lumea nu vom diminua energ ia fricii pentru ca aceasta
+lumea nu vom diminua energia fricii pentru ca aceasta
 vine din propriul camp energetic al persoanei.
 Campul aflat deasupra Fricii este cel al Dorintei (cal.
 125) si reprezinta o lume frustrata de dorinte fara
@@ -722,7 +722,7 @@ ca au o fixatie l a nivelul plexului solar, asa ca merg pe
 strada si vad exact ceea ce vor ei sa vada. Vad masina pe
 care si -o doresc, frumusetea pe care o doresc, pozitia,
 statutul pe care si-l doresc, cladirile pe care si le doresc.
-Ei se simt frustrati pentru ca dorintel e nesfarsite si din
+Ei se simt frustrati pentru ca dorintele nesfarsite si din
 ce in ce mai multele milioane de dolari nu le aduc
 fericirea. Faptul de a avea cincizeci de milioane de dolari
 nu ajuta, pentru ca dorinta pentru si mai multa putere
@@ -732,7 +732,7 @@ devin frustrate si nervoase. O persoana nervoasa vede o
 lume a competitiei, o lume a conflictului si a razboiului,
 o lume „eu impotriva ta ”. Aceasta persoana se uita in
 padure si gandeste ca pomii inalti sunt in competitie cu
-pomii scunzi pentru doband irea luminii soarelui.
+pomii scunzi pentru dobandirea luminii soarelui.
 Aceasta este matricea viziunii politico -sociale a calaului-
 victimei culturale. Acest concept este apoi proiectat intr -
 un camp unde nu se petrece niciun lucru asemanator
@@ -748,7 +748,7 @@ in care si-ar dori sa locuiasca. Totul este clasificat dupa
 criteriul rangului social si sunt preocupati de imaginea
 sociala.
 Cand cineva atinge nivelul Adevarului si al
-Curajului (cal.200) lumea ap are ca un loc al sanselor.
+Curajului (cal.200) lumea apare ca un loc al sanselor.
 Este un loc incitant, provocator, cu multe ocazii pentru
 dezvoltare si crestere. Persoana deschide ziarul si vede
 nenumarate posibilitati pentru cresterea omului, pentru
@@ -774,7 +774,7 @@ lume a cooperarii pentru ca detin cooperarea in propriul
 lor camp energetic. Aceasta ii ajuta sa avanseze la
 
 nivelul Entuziasmului (cal.390) si apoi al Iubirii (500) si
-sa experim enteze nesfarsita iubire care sprijina totul,
+sa experimenteze nesfarsita iubire care sprijina totul,
 nelimitata prezenta a acelei energii pline de iubire din
 univers.
 Stadiile Iluminarii (de la 600 in sus) reveleaza
@@ -784,7 +784,7 @@ incredibila frumusete a tuturor expresiilor vietii. Nu este
 doar o frumusete estetica care ne multumeste simturile,
 ci o frumusete intrinseca a Creatiei. Cand paseste pe
 aceasta cale, care, pentru ochiul neiluminatului ar parea
-urata, p ersoana experimenteaza incredibila perfectiune
+urata, persoana experimenteaza incredibila perfectiune
 si frumusete a viului vietii si incepe a vedea cum se
 desfasoara viata. Nu vede imperfectiunea, ci procesul.
 Aceasta persoana vede intregul univers ca pe o
@@ -809,12 +809,12 @@ care pedepseste si se razbuna mereu, si pentru ca
 acestea merg mana in mana, Dumnezeu apare chiar ca
 
 un demon, un Dumnezeu care ne uraste de fapt, si care
-ne ameninta ca ne va aru nca in iad. El este
+ne ameninta ca ne va arunca in iad. El este
 distrugatorul final, cel care pedepseste, care se razbuna
 si care este gelos. Este o descriere antropomorfica a unui
 dumnezeu care este gelos, „uraste pacatosii ” si se
 manifesta la extremele emotiei distructivitatii.
-Cand ajungem la niv elul Mandriei, apar doua
+Cand ajungem la nivelul Mandriei, apar doua
 directii datorate ego -ului umflat in pene si arogantei
 sale. Ateistul se afla de-o parte, si zelotul, bigotul si
 extremistul dezechilibrat, de cealalta parte.
@@ -835,7 +835,7 @@ fi apoi libera sa patrunda in Dumnezeul experientei si
 intelegerii personale interioare.
 La nivelul Neutralitatii persoana incepe sa
 experimenteze o lume a „ok”-ului, iar pe Dumnezeu - ca
-libertate. I ncepe sa descopere ca nu exista nici un
+libertate. Incepe sa descopere ca nu exista nici un
 Dumnezeu care pedepseste, care uraste, un Dumnezeu
 negativ, pentru ca a iesit din aceste campuri de energie
 negativa. In schimb, Dumnezeu este vazut ca absoluta,
@@ -889,7 +889,7 @@ impresionant ceea ee au altii.
 La nivelurile joase posesiunile sunt dorite si stimate,
 dar pe masura ce avansam in evolutia constiintei nu mai
 sunt atat de impresionante pentru ca oricine stie ca,
-daca cineva lucreaza sapte zile pe saptama na, avand
+daca cineva lucreaza sapte zile pe saptamana, avand
 doua servicii, poate avea orice isi doreste, asa ca a avea
 nu mai este un lucru asa de respectat. Pe masura ce
 avanseaza inspre varful Hartii, nu mai conteaza ce are
@@ -918,7 +918,7 @@ loc sa-i condamnam, putem spune: „inteleg ca exista un
 temei solid pentru acest lucru in acest moment”.
 De exemplu, in loc sa ne rusinam ca am fost nervosi
 sau am trait ura, ne spunem noua insine: „A fost
-inevitabila furia in acel m oment”, pentru ca o persoana
+inevitabila furia in acel moment”, pentru ca o persoana
 care n-a urat niciodata, nu va putea ura la nivelul Iubirii
 de vreme ce nu le-a pasat atat de mult de viata vreodata.
 Daca cuiva nu -i pasa prea mult de viata, astfel incat sa
@@ -958,7 +958,7 @@ nivelul 200 se observa predominarea adrenalinei si a
 raspunsurilor instinctuale -animalice de supravietuire.
 Prin contrast, nivelurile constiintei peste 200 sunt
 numite „emotii de buna stare ”, acestea fiind pozitive si
-semnificand aparitia, si, in final, dominarea ene rgiilor
+semnificand aparitia, si, in final, dominarea energiilor
 spirituale.
 
 ## Vindecarea asistata
@@ -968,7 +968,7 @@ Cap. 2 - Vindecarea asistata
 In capitolul anterior am explorat utilizarea
 cunoasterii ce apare in urma studierii naturii constiintei
 insasi si aplicatiile acesteia la problemele omenirii, in
-special in domeniul suferintei. Acum vom e xplora
+special in domeniul suferintei. Acum vom explora
 originea bolii si cum putem renunta la ea.
 Nu vom face filosofie, nu vom teoretiza, ci ne vom
 ocupa de ceea ce poate fi verificat clinic in experientele
@@ -1008,7 +1008,7 @@ sensul complex al cuvintelor englezesti in contextul
 lucrarii de fata) in interiorul mintii.
 Pe cat de surprinzator poate parea, mintea nu se
 poate experimenta pe sine. Un gand nu poate
-experimenta existenta sa ca gand; un sen timent nu
+experimenta existenta sa ca gand; un sentiment nu
 poate cunoaste existenta sa ca sentiment; memoria nu
 poate experimenta memoria. Toate trebuie sa fie
 experimentate, traite, in ceva mai mare decat mintea.
@@ -1042,7 +1042,7 @@ cum sa le aplicam. De asemenea, ne vom concentra
 asupra principiilor de baza, cum ar fi felul in care sursa
 bolii este deseori o vina inconstienta la care se adauga
 un anumit sistem de credinte care este agravat de
-emotiile suprimate. Voi d escrie cum am folosit aceste
+emotiile suprimate. Voi descrie cum am folosit aceste
 tehnici - si tot ce-am inteles in urma aplicarii lor -
 pentru a ma vindeca de mai mult de douazeci de boli
 cronice, unele de nedepistat si care au fost total
@@ -1098,7 +1098,7 @@ sistemul credintelor noastre, sau cum sa nu ne lasam
 cuceriti de un sistem de gandire. Mintea este atat de
 puternica incat ceea ce crede ea tinde sa se manifeste.
 Un articol interesant aparut in numarul din ianuarie
-1987 al revistei Brain-Mind Bulletin si in titulat
+1987 al revistei Brain-Mind Bulletin si intitulat
 „Asteptarile: Ceea ce vezi este ceea ce vor ei sa vezi ”.
 (Expectations: What You See Is What They Give You .), un
 studiu de cercetare realizat de Princeton University,
@@ -1119,7 +1119,7 @@ Vom merge la nivelul cauzei in loc sa mergem la cel al
 efectului. Corpul este efectul a ceea ce este retinut -
 pastrat-continut in minte. Daca vrem sa stim ce avem in
 mintea noastra, tot ceea ce trebuie sa facem este sa
-privim la ce se int ampla in corpul nostru si sa-i
+privim la ce se intampla in corpul nostru si sa-i
 observam comportamentul, ceea ce ne va spune ce
 credem, ce gandim noi. Daca ne uitam in memoria
 noastra, de multe ori nu ne vom putea aminti ca am
@@ -1133,13 +1133,13 @@ nu am adus chestia asta in viata mea in mod constient”.
 Cu toate acestea, daca ne intoarcem in copilarie,
 aproape invariabil vom descoperi lin astfel de sistem de
 gandire. Iar alergiile isi fac aparitia la inceputul vietii, de
-obicei la varsta de 2 -3 ani. Cop ilul aude o remarca
+obicei la varsta de 2 -3 ani. Copilul aude o remarca
 facuta de cineva din familie de genul: „Alergiile se
 mostenesc in familia noastra ”. I n clipa in care a auzit
 
 acest lucru, il adopta si, bineinteles, il crede, devenind
 astfel un program operativ.
-Vedem exprimate in corpul adultului o mu ltime de
+Vedem exprimate in corpul adultului o multime de
 fenomene ce au fost preluate chiar de la inceputul vietii
 sale din astfel de remarci intamplatoare, auzite la
 televizor, sau ceva neinteles dintr-o carte, ori o afirmatie
@@ -1194,12 +1194,12 @@ ale bolii. De aceea este important sa intelegem ca exista
 boala si exista persoana care are o boala. Persoana care
 are o boala trebuie sa se schimbe pentru ca boala sa
 dispara. Vom invata despre recuperarea dintr -o boala,
-inclusiv cum sa tratam evenimentu l pe toate planurile,
+inclusiv cum sa tratam evenimentul pe toate planurile,
 fizic, psihologic, emotional si mental, si cum trebuie sa
 ne schimbam ca fiinta astfel incat vindecarea sa devina
 automata.
 Harta Constiintei ne arata ca toate emotiile negative
-faciliteaza boala si toate emotiile pozitive tind sa vin dece
+faciliteaza boala si toate emotiile pozitive tind sa vindece
 boala. Odata ce trecem deasupra Nivelului Curajului, un
 nivel la care putem ajunge spunand adevarul despre
 lucruri, devenind detasati, se deschide un alt spatiu
@@ -1256,7 +1256,7 @@ Ce inseamna sa fii „o fiinta infinta si sa nu mai fii
 supus acelui lucru ”? Inseamna ca suntem limitati doar
 de propriile sisteme de credinta, si daca renuntam la ele,
 cu ce sunt acestea inlocuite? Daca forma este eliminata
-din consti inta, ce mai ramane? Ceea ce nu are forma
+din constiinta, ce mai ramane? Ceea ce nu are forma
 ramane, iar experienta interioara a ceea ce ramane este
 infinitul, fara de granite, fara inceput si fara sfarsit.
 Ceea ce este fara forma este natura fundamentala a
@@ -1320,7 +1320,7 @@ este doar 10 la puterea 100 , o foarte mare diferenta.
 A ajunge in campul energetic de la 540 inseamna
 automat sa ne vindecam singuri. Un gand plin de iubire
 vindeca, iar un gand negativ creeaza boala. Alegand sa
-devenim o persoana iubi toare are drept rezultat
+devenim o persoana iubitoare are drept rezultat
 eliberarea endorfinelor din creier, ceea ce are un profund
 efect asupra sanatatii si fericirii corpului (vezi Graficul
 Fiziologia Creierului). Fericirea apare din dorinta si
@@ -1329,7 +1329,7 @@ a permite iubirii sa inlocuiasca negativitatea in
 constiinta, pentru ca natura fundamentala a constiintei,
 cu conditia sa nu fie afectata, este iubirea. Observam
 asta in copilul mic care este doar inocenta, iar iubirea
-este expresia esentei n aturii umane. Este ca si cum
+este expresia esentei naturii umane. Este ca si cum
 copilul nu a fost inca programat sa intre in frica,
 indoiala sau limitare.
 Este esential sa captam acea expresie fundamentala
@@ -1375,7 +1375,7 @@ acupunctura si sistemul nervos autonom. Aceasta
 altereaza si destabilizeaza procesele subtile electrice si
 chimice care au loc in celule, avand rezultat schimbari
 patologice in anatomie si disfunctii care se manifesta
-prin accident e coronariene, boli de inima sau atac de
+prin accidente coronariene, boli de inima sau atac de
 cord . Partial, atacul de cord apare ca rezultat al
 atitudinilor mentale negative de -a lungul anilor. Mintea
 si-ar dori sa puna vina pe colesterol, stres, stilul de
@@ -1390,7 +1390,7 @@ deoarece mintea este cea care are puterea. Chiar si un
 gand neutru poate avea consecinte majore. De exemplu,
 cineva poate gandi „Eu cred ca voi merge in Hawai ”.
 Acest gand energizeaza finantele persoanei si determina
-ceea ce urmeaza sa faca persoana in urmatoar ele sase
+ceea ce urmeaza sa faca persoana in urmatoarele sase
 luni pentru a se pregati pentru aceasta excursie. Gandul
 pastrat in minte determina ceea ce face cu banii, intreg
 comportamentul, impachetatul si chiar deplasarea
@@ -1420,7 +1420,7 @@ sa le scriu pe o hartie ca sa mi le amintesc, pentru ca
 jumatate dintre ele fusesera uitate chiar daca toate au
 durat multi, multi ani. De exemplu, am avut un ulcer
 duodenal refractar. Pe cand eram student la facultatea
-de medicina, am fac ut toate tratamentele
+de medicina, am facut toate tratamentele
 medicamentoase posibile, psihanaliza si o multime de
 alte lucruri. Douazeci de ani mai tarziu inca aveam
 ulcer, si nu numai ulcer, dar se transformase in alt tip
@@ -1430,7 +1430,7 @@ de pancreatita recurente. Am avut si colita cu hemoragie
 diverticulara. De fapt, diverticuloza era atat de grava, ca
 am ajuns la spital de mai multe ori si a trebuit sa mi se
 faca transfuzii. Am sangerat pana aproape de moarte.
-In plus, aveam migrene severe. Psihanaliza m -a
+In plus, aveam migrene severe. Psihanalizam -a
 ajutat pana la un punct; m -au consultat neurologi
 faimosi si experti din toata lumea, dar nu exista nici un
 ajutor pentru migrenele mele care erau asociate si cu
@@ -1450,17 +1450,17 @@ toate astea. Aveam artrita, iar pe bancheta din spate a
 masinii aveam intotdeauna un baston si medicamente.
 Va imaginati cum este sa cari cu tine un baston si
 
-medicamente pentru ca, at unci cand apar, crizele de
+medicamente pentru ca, atunci cand apar, crizele de
 guta se petrec foarte repede cu o durere care
 paralizeaza? Am tinut bastonul acela in masina multi
 ani.
 In acelasi timp, aveam o hipoglicemie severa. Nu
 puteam manca zahar, dulciuri sau amidon. Asa ca, pe
-langa toate alergiile, u lcer, diverticuloza, alte probleme
+langa toate alergiile, ulcer, diverticuloza, alte probleme
 gastrointestinale, pancreatita si crize de fiere, erau foarte
 putine lucruri pe care puteam sa le mananc. Cand
 mergeam, rar, la un restaurant, singurul lucru pe care il
-puteam manca fara riscuri era salata verde. Nu putea m
+puteam manca fara riscuri era salata verde. Nu puteam
 manca rosii din cauza semintelor care puteau agrava
 diverticuloza, ceea ce ar fi presupus spitalizarea
 imediata si transfuzii de sange. Peste toate astea eram si
@@ -1521,7 +1521,7 @@ interiorul tau produce o vinovatie inconstienta legata de
 limitele personale omenesti.
 
 Originea acestor tendinte mentale se gasea in
-copilarie in forma scrupulozit atii morale si a fricii de
+copilarie in forma scrupulozitatii morale si a fricii de
 pacat. A trebuit sa ma deplasez inspre bunavointa si
 disponibilitatea de a accepta, iubi si ierta propria -mi
 „omenie”, omenescul din mine, sa inteleg ca este
@@ -1532,17 +1532,17 @@ de a pri vi ceea ce este in miezul si esenta omenescului.
 Aceasta m-a condus catre o inocenta intrinseca in chiar
 constiinta insasi. Am cautat apoi natura constiintei.
 Cum poate copilul, in inocenta si lipsa sa de
-negativitate, sa se aleaga cu atatea programe in mi ntea
+negativitate, sa se aleaga cu atatea programe in mintea
 sa care sa creeze toate aceste boli?
 Putem gasi raspunsul cand cercetam natura
 inocentei si urmarim ce se intampla cu ea in copil.
 Inocenta copilului poate fi, de asemenea, comparata cu
 hardware-ul unui computer. Hardware -ul este inocent.
-Ceea ce cree aza un rezultat este software -ul instalat pe
+Ceea ce creeaza un rezultat este software -ul instalat pe
 acest hardware. Totusi, hardware -ul nu este afectat de
 software. Ne uitam la copil si vedem inocenta constiintei
 sale. Cum apare toata aceasta programare negativa in
-copil? Intra in el datorita inocentei. Copilu l crede orice i
+copil? Intra in el datorita inocentei. Copilul crede orice i
 se spune.
 Din iubire si incredere in parintii sai, in prietenii sai,
 in lumea televiziunii, a reclamelor si a societatii copilul
@@ -1557,7 +1557,7 @@ care ramane in constiinta noastra de -a lungul intregii
 
 vietii. Se manifesta intotdeauna. Din cauza acelei
 inocente gresim, insa inocenta interioara insasi este
-nepatata. Trebuie sa ne intoarcem la r ecunoasterea
+nepatata. Trebuie sa ne intoarcem la recunoasterea
 acelei inocente interioare pentru a ne ierta pe noi insine
 si pentru a-i ierta pe altii.
 Acea inocenta interioara ne permite sa invatam orice
@@ -1567,7 +1567,7 @@ aceste cuvinte in clipa asta. Ea nu se schimba niciodata;
 ramane la fel de increzatoare, gata sa creada si sa spere
 ca aude adevarul si sa fie deschisa catre adevar,
 inocenta continua. Chiar si daca nu credeti ce cititi
-acum, acest fapt se dat oreaza programului opus din
+acum, acest fapt se datoreaza programului opus din
 interiorul mintii voastre care spune: „Nu avea incredere”.
 Iar inocenta voastra este cea care a crezut in programul
 „Nu avea incredere in nimeni”.
@@ -1627,7 +1627,7 @@ spunand: „parerea mea e buna si parerea ta e rea”.
 
 Deoarece corpul exprima ceea ce mintea crede,
 hotararea aceasta incepe sa afecteze corpul. Putem
-verifica acest mecanism prin testarea mus culara. Cand
+verifica acest mecanism prin testarea musculara. Cand
 avem in minte un gand iubitor sau ne imaginam o
 persoana gandind frumos despre si inspre ea, intr -o
 maniera iubitoare, atunci bratul nostru este puternic la
@@ -1638,7 +1638,7 @@ mintea.
 Alegand sa fim iertatori si sa avem compasiune, sa
 fim ceea ce ajuta si hraneste viata in loc sa o
 condamnam sau sa o limitam la atitudinea
-moralizatoare si sa intram in scenariu l „sa nu gresesc ”,
+moralizatoare si sa intram in scenariul „sa nu gresesc ”,
 pe masura ce avansam in renuntarea totala la „sa nu
 cumva sa gresesc ”, renuntam de fapt la auto -
 condamnarea noastra pentru ca suntem bolnavi. Unii
@@ -1652,7 +1652,7 @@ intelege ca orice se intampla in viata noastra se intampla
 astfel pentru ca noi sa ajungem sa ne vindecam.
 In loc sa ne fie rusine ca suntem niste cautatori
 spirituali cu o boala fizica, trebuie sa devenim
-recunoscatori si sa spunem: „Aha! Iata ceva ce tre buie
+recunoscatori si sa spunem: „Aha! Iata ceva ce trebuie
 vindecat”. Ne dorim acea capacitate de a descoperi acele
 lucruri ce trebuie vindecate. Astfel, acesta este un semn
 de progres, nu de regres. Putem fi fericiti ca avem sansa
@@ -1698,7 +1698,7 @@ renunta, s -au vindecat prin propria lor natura ca
 rezultat al vindecarii formelor -gand din minte. Toate
 vindecarile sunt rezultatul bunavointei de a renunta la
 condamnarea de sine si a altora, renuntarea la criticism,
-autocompatimire, ranchiuna si toate energi ile negative
+autocompatimire, ranchiuna si toate energiile negative
 aflate sub nivelul 200, inclusiv regretul, ingrijorarea,
 anxietatea, doleanta, condamnarea si ura de sine.
 Renuntarea la aceste lucruri a determinat schimbarea
@@ -1708,7 +1708,7 @@ de hipoglicemie si guta. Cum aparea o manifestare a
 acestei credinte o anulam si spuneam: „Nu mai cred in
 asta. Eu nu mai sunt subiectul acestui lucru. Acesta e
 rezultatul a ceea ce cred eu, iar eu am puterea de a
-anula aceste cr edinte”. Astfel, incepem sa detinem
+anula aceste credinte”. Astfel, incepem sa detinem
 puterea de a refuza, de a respinge, de a nu crede, a
 nega. „Am puterea de a refuza. Nu sunt obligat sa cred
 in asta”.
@@ -1744,7 +1744,7 @@ Sistemul credintelor noastre elucideaza totul despre
 boala.
 Daca nu credem in ea, boala dispare din corp . I n
 acelasi timp, ne debarasam de sursele vinovatiei
-inconstiente si oprim intarirea bolil or care se face prin
+inconstiente si oprim intarirea bolilor care se face prin
 etichetarea si propagarea lor, prin urmare oprim
 aducerea la implinire a propriilor auto-profetii si temeri.
 Nu putem permite mintii sa vina cu un sistem de
@@ -1752,7 +1752,7 @@ credinte fara sa verificam aceste credinte. Daca mintea a
 lucrat impotriva noastra in mod inconstient, si noi n -am
 fost constienti de puterea ei, putem sa schimbam acest
 fapt si sa folosim aceasta putere in folosul nostru.
-Aceeasi putere care a lucrat impotriva noastra poa te sa
+Aceeasi putere care a lucrat impotriva noastra poate sa
 lucreze acum pentru noi atunci cand folosim constient
 puterea mintii. Acum, cand apare gandul „eu am
 hipoglicemie” il opresc, il anulez si rostesc adevarul: „Nu
@@ -1762,7 +1762,7 @@ Hipoglicemia este un exemplu bun pentru ca mi -a
 luat o gramada de timp sa desfac acest lucru. Si, dupa
 aceea, am tinut multe conferinte pe aceasta tema. A fost
 o adevarata realitate fizica pentru ca functiona clinic in
-mine. Am studiat foarte mult nu tritia, in special relatia
+mine. Am studiat foarte mult nutritia, in special relatia
 dintre ea si dependenta, si a alcoolismului in special. A
 
 fost o problema foarte importanta. Eram un ferm
@@ -1787,12 +1787,12 @@ am mai avut alte simptome ale hipoglicemiei, pur si
 simplu a disparut din viata mea.
 Exista, insa, principiul vigilentei. Deoarece mintea
 este atat de puternica, nu o putem lasa sa scape cu un
-sistem de cred inte negative nici macar o singura data.
+sistem de credinte negative nici macar o singura data.
 De fiecare data cand apare gandul „sunt alergic”, trebuie
 sa fie imediat contracarat si anulat.
 Un singur gand puternic este suficient sa creeze
 realitatea aceea in planul fizic, asa ca nu putem sa fim
-neglijenti. T rebuie sa fim foarte atenti in interiorul
+neglijenti. Trebuie sa fim foarte atenti in interiorul
 nostru.
 Nu exista nici o ierarhie a dificultatilor in vindecarea
 acestor boli. Asta inseamna ca de ceea ce lumea
@@ -1813,12 +1813,12 @@ mintea voastra o poate crea, atunci mintea voastra o
 poate si anula. Noi incepem sa folosim puterea mintii
 noastre inspre binele nostru.
 Procesul autovindecarii este condus la nivelul
-detaliului prin chiar renuntarea la op unerea rezistentei
+detaliului prin chiar renuntarea la opunerea rezistentei
 de a trai, experimenta si apoi anula formele -gand.
 Vindecarea se petrece pe cai mai puternice si generale
 datorita vointei noastre de a renunta la tot criticismul si
 intentia de a ataca, dimpreuna cu inceperea procesului
-de iubire a omen escului din noi si din altii si retrezirea
+de iubire a omenescului din noi si din altii si retrezirea
 constientei asupra inocentei noastre.
 Dar ce putem spune despre cel de-al treilea nivel, cel
 al tratamentului medical traditional? Ce rol joaca el in
@@ -1864,7 +1864,7 @@ semintele din alte legume imi agravau diverticuloza, iar
 acizii imi agravau ulcerul. Nu puteam manca rosii sau
 orice altceva de genul tomatelor, si, bineinteles nimic ce
 continea zahar. Nu puteam manca paste, sau orice alt
-fel de fainoase, deserturi sau ca rne. Trebuia sa le evit
+fel de fainoase, deserturi sau carne. Trebuia sa le evit
 pentru ca imi cresteau nivelul acidului uric, agravand
 guta. Sincer, erau foarte putine lucruri pe planeta asta
 pe care le puteam manca.
@@ -1883,7 +1883,7 @@ avut crize de guta. Toate aceste lucruri au devenit
 corolarul sistemelor de credinte.
 Daca avem un sistem de credinte despre guta,
 atunci vom avea tot ceea ce presupune si include acesta,
-inclusiv credinta ca anumite produse din ca rne produc
+inclusiv credinta ca anumite produse din carne produc
 guta, cum ar fi heringul marinat, care mie imi place
 foarte mult (iar acum pot manca aproape zilnic). Am
 avut o guta atat de severa incat, daca maneam doar o
@@ -1894,14 +1894,14 @@ tigaie plina de ficatei si rinichi pentru pisica mea,
 crezand ca ei ii va placea. Si -a varat nasul in mancare,
 dar nu a putut man ca. Era o ditamai cratita, mirosea
 delicios, fiind gatite cu ceapa si putina costita. Chiar am
-pus si putina menta speciala pent ru pisici, dar Kitty nu
+pus si putina menta speciala pentru pisici, dar Kitty nu
 era interesata. Dintr-odata am inteles ca limitarile dietei
-mele nu erau altceva decat un sistem de cred inte nebun
+mele nu erau altceva decat un sistem de credinte nebun
 pe care il pastram in mintea mea si mi-am spus: „Sunt o
 fiinta infinita. Eu nu sunt supus acestui lucru. Adica
 vreau sa spun ca este absurd ”. Asa ca m -am asezat si
 am mancat aproape toata tigaia cu rinichi si ficatei, si,
-probabil ca nici nu tre buie sa va mai spun, nu am avut
+probabil ca nici nu trebuie sa va mai spun, nu am avut
 nici o criza de guta atunci si nici de atunci incoace.
 
 Reusisem sa anulez acel sistem de credinte. Era o
@@ -1916,7 +1916,7 @@ face cu ceea ce a vem in mintea noastra. Cand ne
 redobandim si ne oprim din a nega puterea mintii
 noastre, incepem a intelege ca noi suntem sursa bolii
 sau a sanatatii. Ce vreau sa spun cand spun „Eu sunt
-sursa”? I nteleg prin asta constiinta mea, fiinta mea
+sursa”? Inteleg prin asta constiinta mea, fiinta mea
 infinita.
 Sa con sideram acum campurile energetice care
 explica cum functioneaza acest lucru. Care sunt
@@ -1933,7 +1933,7 @@ propriul sine individual.
 Pe masura ce ne redobandim pe noi insine si
 avansam in nivelurile constiintei incepem sa intelegem
 ca suntem subiectii oricaror lucruri pe care le detinem in
-mintea noastra si ca s istemele de credinta si formele
+mintea noastra si ca sistemele de credinta si formele
 gand pe care le credem au fost sursa sau „cauza” a ceea
 ce am experimentat. Lumea nu are vreo putere de a crea
 vreunul din aceste lucruri. Are o bucata de rinichi o
@@ -1961,7 +1961,7 @@ Am avut un prieten care spunea ca ouale ma vor
 ucide. Adio oua. Colesterolul ma va ucide. Adio
 colesterol. Apa ma va ucide. Produsele lactate ma vor
 ucide, carnea ma va ucide. Ei, atunci mananc fructe!
-Ok. Dar fructel e sunt pline de pesticide. Pe naiba!
+Ok. Dar fructele sunt pline de pesticide. Pe naiba!
 Maneam fructe, dar cand ajungeam la povestea cu
 pesticidele, adio fructe. Apoi legumele. Oh! Legumele
 sunt pline de pesticide si ele! Sunt stropite in toate
@@ -2011,7 +2011,7 @@ persoane-in-balon care sufera de alergii la mediul
 inconjurator, care pot trai doar intr -un balon care ii
 protejeaza si in care respira un aer purificat.
 Toate acestea se petrec in constiinta noastra, in
-mintea noastra. Nu se pet rec nicaieri altundeva in
+mintea noastra. Nu se petrec nicaieri altundeva in
 realitate. Numai crezand din nou in adevarul puterii
 deciziei noastre, putem anula tot sindromul. Nu suntem
 supusi acelui lucru. Suntem fiinte infinite care sunt
@@ -2025,7 +2025,7 @@ transmis alergii nave. Bunica mea era alergica, la fel si
 mama si sora mea. Toata lumea are alergie la fan, la
 rugina, la praf si la cai. Ca o consecinta, si eu am avut
 toate aceste alergii, umflandu -mi-se ochii, avand
-mancarimi la ochi si tot restul de si mptome. Cu totii
+mancarimi la ochi si tot restul de simptome. Cu totii
 traiam inghitind antihistaminice . I n plus, eram foarte
 alergic la iedera si am ajuns la spital cu o dermatita
 generalizata cauzata de iedera. Nu a raspuns la nici un
@@ -2038,7 +2038,7 @@ abia ce fusese curatata si dezinfectata si am stiut brusc
 ca nu mai eram supus acelei credinte.
 Dupa aceasta descoperire uluitoare, m -am trezit
 intr-o zi cu intelegerea ca nu mai sufeream nici de
-alergia la iedera otravito are, asa ca am iesit afara, am
+alergia la iedera otravitoare, asa ca am iesit afara, am
 cules cateva frunze, le -am plantat intr -un ghiveci si am
 inceput sa ma joc cu ele. Era miraculos! Am carat
 ghiveciul cu mine mergand pe la familie si prieteni sa le
@@ -2048,12 +2048,12 @@ urma, au inteles ca viata mea s -a schimbat si ca toate
 credintele negative au disparut una dupa alta . I n
 consecinta, am pierdut si in greutate (douazeci si cinci
 de kg) si am simtit o siguranta totala in legatura cu viata
-mea fizica. Realizarea, intelegerea fap tului ca avem
+mea fizica. Realizarea, intelegerea faptului ca avem
 aceasta putere asupra propriilor noastre vieti aduce cu
 sine o reducere in tot ceea ce priveste anxietatea
 generala si un sens nou al starii de bine si al vietii.
 Orice boala este fizica, mentala si spirituala si, prin
-urmare, este bine sa ut ilizam toate modalitatile in
+urmare, este bine sa utilizam toate modalitatile in
 sprijinul recuperarii. Exista insa si factori necunoscuti
 care influenteaza recuperarea, cum ar fi inclinatiile
 karmice. Astfel, unele boli pot persista, asteptand in
@@ -2094,7 +2094,7 @@ de ani, am lucrat in domeniile psihanalizei,
 psihoterapiei, terapiei de grup si psihodinamicii ale
 multor scoli . I n plus, au fost ani de cercetare in
 domeniul nutritiei si al relatiei acesteia cu chimia
-creierului, bolile mental e si emotiile, ceea ce s -a
+creierului, bolile mentale si emotiile, ceea ce s -a
 concretizat in lucrarea Psihiatria ortomoleculara (scrisa
 impreuna cu Linus Pauling, castigator al Premiului
 Nobel). Am studiat intensiv si am folosit si modalitati
@@ -2118,7 +2118,7 @@ stres, precum si relatia dintre minte si felul in care se
 raporteaza ea la spirit.
 Stresul rezulta din mentinerea unui punct de vedere
 - din ceea ce avem in minte - si din atitudinile si
-credintele noastre. Stresul emotional izvoraste in p rimul
+credintele noastre. Stresul emotional izvoraste in primul
 rand din noi insine si nu din lume. Nu exista un
 asemenea lucru precum scaparea de stres pentru ca
 
@@ -2133,12 +2133,12 @@ despre ce se intampla in lume. Folclorul nostru stie
 intuitiv asta pentru ca ne spune: „Ce pe tine te hraneste
 , pe altul il otraveste ”. Acest proverb contine secretul
 despre care vorbim. Puterea nu este in eveniment sau in
-altceva aflat „acolo, afara ”. Pu terea de a crea toate
+altceva aflat „acolo, afara ”. Puterea de a crea toate
 evenimentele din viata noastra sta in fiecare dintre noi.
 Astfel, redobandindu-ne puterea, vom putea invata cum
 sa prevenim stresul.
 Exista metode pentru a preintampina stresul in loc
-sa-l tratam ulterior. Programele de reducere a str esului
+sa-l tratam ulterior. Programele de reducere a stresului
 care sunt disponibile in general in societatea noastra
 sunt metode de a controla efectele stresului odata ce
 acesta si -a facut aparitia, cum ar fi programele de
@@ -2152,13 +2152,13 @@ Cu ceva timp in urma am primit o brosura intitulata
 program de credinte. Articolul promova ideea ca stresul
 este ceva „din afara”, ca este ceva inerent in viata si ca
 rezultatul stresului va afecta inima in toate intelesurile
-simbolice pentru noi. Numeroase a rticole in pamflet
+simbolice pentru noi. Numeroase articole in pamflet
 tratau boia de inima si consecintele stresului ce trece
 prin fiziologia noastra si se manifesta in corp datorita
 faptului ca toate lucrurile sunt experimentate in
 
 interiorul constiintei. Este esential sa aruncam din nou
-o privire catre r elatia dintre corp, minte si spirit.
+o privire catre relatia dintre corp, minte si spirit.
 Urmeaza sa discutam despre lucruri pe care le putem
 verifica prin experienta noastra, impreuna cu experienta
 clinic verificabila derivata dintr -un punct de vedere, si
@@ -2220,7 +2220,7 @@ capacitatile de a preintampina sursele stresului.
 Constiinta este un model numeric bazat pe campuri de
 energie si niveluri de constiinta. Campurile de energie
 sunt calibrate la relativa lor putere, etichetate conform
-experientei umane obisnuite, in c oncluzie usor de
+experientei umane obisnuite, in concluzie usor de
 inteles. La baza scalei se afla „Vinovatia”, care este o
 forma de ura de sine si este o emotie negativa. De pe
 pozitia Vinovatiei lumea este vazuta ca un loc al
@@ -2231,7 +2231,7 @@ calibreaza la zero. Dobandirea unei constiinte suficient
 de inalte pentru a deveni iluminat se afla la valoarea 600
 si peste aceasta valoare.
 Vina, apatia, durerea, frica, dorinta, furia si mandria
-sunt toate campuri de energ ie negativa care au efecte
+sunt toate campuri de energie negativa care au efecte
 distructive si prin urmare au un numar mic de calibrare.
 De exemplu, Apatia, la 50, are mai putina energie decat
 Frica, ce calibreaza la 100. Frica, la 100, are mai putina
@@ -2245,7 +2245,7 @@ cand cineva gandeste ceva cu furie, are un gand despre
 ceva ce regreta sau este trist in legatura cu acel ceva,
 sau un gand despre ceva de care se teme. Cand este
 testat bratul unei persoane care are un asemenea gand,
-acesta va slabi instantaneu. Em isferele cerebrale devin
+acesta va slabi instantaneu. Emisferele cerebrale devin
 desincronizate, sistemul energetic de acupunctura iese
 din starea de aliniere, iar persoana pierde instantaneu
 putere si energie.
@@ -2268,11 +2268,11 @@ automat pana cand, in final, se atinge bucuria de a fi viu
 si o placere exceptionala a trupului. La nivelul 540,
 campul energetic al Iubirii Neconditionate si al
 vindecarii, corpul incepe sa-si vindece bolile, in functie
-de predilectiile intrinseci si de limitari (cum sunt k arma,
+de predilectiile intrinseci si de limitari (cum sunt karma,
 atat individuala, cat si umana).
 In legatura cu stresul este esential sa cunoastem
 conditiile preexistente in constiinta unei persoane;
-acestea stabilesc t rairea vietii acelei persoane intr -un
+acestea stabilesc trairea vietii acelei persoane intr -un
 mod stresant. Este evident ca o persoana care s -a
 identificat cu atitudinile unor experiente apartinand
 unui camp de energie joasa va experimenta si va percepe
@@ -2333,7 +2333,7 @@ zgomotului si a caldurii. Ea traia intr -o situatie pe care
 altcineva ar fi putut-o considera stresanta.
 
 Multi oameni pot considera acel cartier ca fiind unul
-de speriat. Ceea ce ea experim enta ca siguranta - sa fie
+de speriat. Ceea ce ea experimenta ca siguranta - sa fie
 in mijlocul oamenilor, cu sunetele tomberoanelor de
 gunoi si ale masinilor de gunoi care faceau zarva de la
 ora 5 dimineata era, pentru ea, ceva linistitor care ii
@@ -2372,7 +2372,7 @@ era pregatit pentru aceasta experienta, beneficiind din
 plin de ea si largindu-si constiinta, ceilalti pasageri au
 reactionat diferit. A fost interesant de observat cum sase
 persoane au avut sase reactii diferite. Doi dintre ei nu
-erau prea pregatiti pe ntru o asemenea experienta si au
+erau prea pregatiti pentru o asemenea experienta si au
 reactionat la ea ca la un stres datorita noului si
 stranietatii. Altii s -au simtit stresati pentru o perioada,
 dar apoi s -au adaptat si au acceptat acest fel de rai in
@@ -2384,7 +2384,7 @@ intoarca la „lumea reala”. Toti acesti oameni au aratat o
 reactie nu fata de locul unde se aflau, ci fata de pozitiile
 lor individuale. Experientele lor nu se refereau la mediul
 inconjurator, ci la propriul nivel de constiinta.
-Odata plecam din Ec uador. Nu erau decat doua
+Odata plecam din Ecuador. Nu erau decat doua
 zboruri pe saptamana din Quito. Ajunsesem cu zborul
 de joi si facusem rezervare pentru el cu multe luni in
 avans, si totusi, cand am ajuns sa fac imbarcarea,
@@ -2419,7 +2419,7 @@ totusi statea acolo nemiscat. Se facuse amiaza, ora la
 care totul se inchide pentru siesta, asa ca nu numai ca
 avionul nu plecase joi, dar nici sambata nu a decolat la
 ora anuntata, 11:45, ci mult mai tarziu, la ora 15:00.
-Avionul a stat pe pist a pana cand toata lumea si -a facut
+Avionul a stat pe pista pana cand toata lumea si -a facut
 siesta. Cand s -a terminat, cu totii ne -am luat bagajele,
 ne-am urcat in avion si am plecat. Nimeni nu s -a
 suparat, toata lumea era foarte relaxata. Iata ca este
@@ -2429,12 +2429,12 @@ In aceste experiente se gaseste cheia intelegerii
 stresului, deoarece cand vorbim despre stres, vorbim, de
 fapt, despre experienta a ceea ce ne streseaza in
 interiorul nostru, in constiinta noastra. Considerarea
-corpului ca parte a rasp unsului la stres inseamna
+corpului ca parte a raspunsului la stres inseamna
 raspunsul pe care corpul il da la ceea ce este in mintea
 noastra. Modificand ceea ce tinem in minte - asteptarile
 noastre, felul nostru de a vedea viata - putem
 preintampina dezvoltarea stresului. Nu a trebuit sa
-mergem intr -un pr ogram de relaxare pentru a rezolva
+mergem intr -un program de relaxare pentru a rezolva
 stresul datorat intarzierii cu trei zile a zborului
 
 planificat. Nu a trebuit sa urmam nici un program de
@@ -2484,7 +2484,7 @@ trista, simtind ca Dumnezeul acestei lumi ii ignora. Prin
 contrast, persoana care se gaseste in campul energetic
 al Fricii, priveste viata cu o ingrijorare intensa si cu
 anxietate, si experimenteaza viata ca fiind
-inspaimantatoare. Regretul izvoraste din agatar ea de
+inspaimantatoare. Regretul izvoraste din agatarea de
 trecut, iar frica rezulta din trairea in viitor.
 Ce este viata? Include asupra lumii si un punct de
 vedere despre noi si despre altii, la fel si asteptari legate
@@ -2520,7 +2520,7 @@ inspaimantatoare pun lacate duble si inchid de doua ori
 masina, aflata in garajul inchis de doua ori, aflat in
 curtea lor dintr -un cartier in care nu s -a intamplat
 niciodata o spargere.
-Frica vine dinauntrul n ostru si proiecteaza in afara
+Frica vine dinauntrul nostru si proiecteaza in afara
 o infatisare inspaimantatoare a lumii. Daca avem niste
 ochelari colorati in culoarea fricii totul arata a frica, si
 daca il cautam pe Dumnezeu, vom gasi un Dumnezeu de
@@ -2565,7 +2565,7 @@ ochelarilor furiei pe care ii poarta acesti oameni, atunci
 cand deschid un ziar, stomacul lor se umple de manie,
 indignare si furie fata de evenimentele care se petrec.
 Daca merg pe strada vad multe lucruri pentru care
-se infurie - starea indicatoarelor stradal e, a strazii
+se infurie - starea indicatoarelor stradale, a strazii
 insasi, inclusiv ziarele aruncate peste tot pe strada.
 Uitandu-se la copii si la batrani se gandesc la propria lor
 situatie si asta ii enerveaza. Traiesc intr -o lume a
@@ -2603,7 +2603,7 @@ sunt „corecte” si ei traiesc intr-o lume a binelui si raului,
 a castigului sau pierderii. Prin urmare, stresul apare
 intotdeauna intr-o asemenea persoana pentru ca ea vede
 toate relatiile, interactiunile si tranzactiile in termenii
-castig-pierdere, ceea ce reflecta importanta stat utului
+castig-pierdere, ceea ce reflecta importanta statutului
 perceput si se refera la proprietate. Cand aceste
 persoane citesc ziarul, ele observa statutul tuturor celor
 implicati impreuna cu statutul persoanei care a scris
@@ -2614,7 +2614,7 @@ despre viata devin un statut, iar acesti oameni devin
 
 interesati despre cine sunt altii din punct de vedere al
 statutului, al pozitiei lor, al situatiei lor.
-Toate acestea sunt pozi tionari vulnerabile, in mod
+Toate acestea sunt pozitionari vulnerabile, in mod
 evident, care reflecta o mentalitate de victima, pentru ca
 toate pozitiile de sub nivelul adevarului proiecteaza
 sursa fericirii in afara persoanei. De fapt, agatandu -se
@@ -2738,7 +2738,7 @@ si universul experientei este acum perceput ca
 promitator, datator de sperante si ingaduitor, si nu
 trebuie sa se mai teama de El. Acesti oameni se simt
 increzatori si multumiti.
-Companiile isi doresc sa an gajeze astfel de persoane
+Companiile isi doresc sa angajeze astfel de persoane
 care sa se ocupe de contractele importante. Acest tip de
 persoana este capabil sa accepte suisurile si
 coborasurile realitatilor vietii, precum si propriile sale
@@ -2773,7 +2773,7 @@ iubire. Acele emotii nascute din proprietatea posesiva
 asupra altei persoane, din controlul si lupta pentru
 putere care apar si ele, din cuvintele unui cantec care
 spune: Daca ma parasesti, ma sinucid ” nu sunt
-elemente ale Iu birii. Acestea sunt consecintele mai
+elemente ale Iubirii. Acestea sunt consecintele mai
 degraba ale unui atasament decat ale unei iubiri
 adevarate.
 Iubirea Neconditionata este un mod de a fi in viata
@@ -2788,7 +2788,7 @@ trupul in lume. Drept urmare, lumea incepe sa apara ca
 avand toate calitatile pentru a fi iubita. O asemenea
 persoana merge pe strada simtindu -se bine dispusa. Ea
 vede iubirea pe sub trivialitatile aparente ale vietii si tine
-la un loc, imbratiseaza intreaga omenire. Perso ana trece
+la un loc, imbratiseaza intreaga omenire. Persoana trece
 astfel intr -un nivel superior, intr -un camp energetic
 superior.
 A vedea viata armonioasa si iubitoare inseamna a
@@ -2802,7 +2802,7 @@ Oamenii se vad diferit pe ei insisi prin contrast cu
 asprimea perfectionistului care se afla intotdeauna la
 nivelul stresului. Persoana care este neiertatoare, cu
 tendinta de a judeca si condamna, poarta in ea si ura de
-sine si vinovatia, pentru ea pana si res piratia fiind o
+sine si vinovatia, pentru ea pana si respiratia fiind o
 stare de stres. Daca se trezeste mai tarziu, se uraste pe
 sine pentru asta. Stresul apare din perfectionism,
 inflexibilitate si predilectia pentru auto -condamnare si
@@ -2825,7 +2825,7 @@ din seninatatea interioara. Constienta frumusetii
 incredibile si a perfectiunii creste impreuna cu
 experimentarea unitatii. Cand o persoana mai evoluata
 deschide ziarul vede si traieste totalitatea iubirii
-oamenilor. Dincolo de limi tarile omenescului, ceea ce
+oamenilor. Dincolo de limitarile omenescului, ceea ce
 face ca toate articolele din ziar sa para pozitive, este o
 expresie a miscarii continue si a evolutiei constiintei
 umane. Cand o persoana evoluata merge pe strada ea
@@ -2844,7 +2844,7 @@ Pe masura ce vorbim despre aceste campuri
 energetice ca niveluri ale constiintei este evident ca ele
 determina modul in care traim, in care experimentam
 viata. Acestea determina felul Dumnezeului despre care
-credem ca exista in univers, prec um si ce fel de emotii
+credem ca exista in univers, precum si ce fel de emotii
 exprimam. Toata aceasta expresie este un proces
 continuu care are loc in constiinta. Acum este clar ca nu
 exista nimic „acolo, in afara ” care are puterea de a crea
@@ -2863,7 +2863,7 @@ pare rau pentru cea suparata si ii poate spune: „Stii, nu
 trebuie sa fii asa de suparat. Pana la urma nu este decat
 o bara. Amandoi avem asigurare. Nu e chiar o problema
 asa mare. In realitate, neplacut este ca va trebui sa duci
-masina la service ca sa o repare, dar nu e c hiar asa o
+masina la service ca sa o repare, dar nu e chiar asa o
 mare problema ”. Persoana evoluata doreste sa vindece
 supararea ivita in campul constiintei.
 Nu evenimentele arunca o persoana in starea de
@@ -2877,8 +2877,8 @@ usurarea anxietatii sau fricii altuia se ivesc din ceea ce a
 devenit persoana. Nu exista ca atare undeva in afara, in
 lume. Aripa zgariata nu are cu adevarat putere asupra
 vietii cuiva. Nu exista alta „cauza” a emotiilor decat cea
-interioara. I ntelegerea acestui fapt determina
-redobandirea put erii, dobandirea autonomiei si
+interioara. Intelegerea acestui fapt determina
+redobandirea puterii, dobandirea autonomiei si
 eliberarea din iluzia victimizarii.
 Pacea interioara apare automat din dorinta noastra
 de a renunta la anumite pozitionalitati, cum ar fi
@@ -2905,10 +2905,10 @@ crescut spectaculos in acest grup de persoane care, in
 fata lumii, au obtinut tot ceea ce si -au dorit. Motivul
 pentru care au jucat la loterie a fost castigul.
 In jocul castig-pierdere, a castiga in sine, inseamna
-sa-i invingi pe cei care pierd . I nfrangerea altora aduce
+sa-i invingi pe cei care pierd . Infrangerea altora aduce
 vinovatia. Prin urmare, acea persoana nu poate fi fericita
 nici macar atunci cand castiga pentru ca, intr -un
-context al castigului -pierderii, unul ca stiga si altul
+context al castigului -pierderii, unul castiga si altul
 pierde, astfel nascandu-se vinovatia. In competitie exista
 frici inconstiente, cum ar fi frica de adversar. Exista si
 frica, atunci cand apare un castig de bani, ca vor aparea
@@ -2928,7 +2928,7 @@ si castiga si daca nu vine un prieten la ea acasa. Daca
 vine in vizita, se gandeste cat de mult se va bucura de
 prietenia si prezenta sa cel care face vizita . I n acelasi
 timp, stie ca daca prietenul sau nu poate veni, este in
-regula, de asemenea. As tfel ca cealalta persoana castiga
+regula, de asemenea. Astfel ca cealalta persoana castiga
 oricum ar fi. Daca vine la cina, suntem incantati de
 prezenta ei. Daca nu vine la cina, atunci ne vom bucura
 stiind ca a folosit timpul liber pentru a aduce o
@@ -2973,7 +2973,7 @@ Am petrecut cateva saptamani pregatindu -ma
 pentru audit. Am cumparat caiete dragute, am pus
 hartiile despre care contabilul mi-a spus ca s -ar putea
 sa intrebe cei de la IRS in mape de plastic si am
-etichetat totul. Cand a ve nit agentul, cafeaua era gata,
+etichetat totul. Cand a venit agentul, cafeaua era gata,
 iar eu l-am tratat ca pe un oaspete de onoare. L -am
 condus Im biblioteca, l-am asezat la cel mai bun birou,
 i-am dat cea mai buna cafea, in cea mai buna ceasca,
@@ -2982,7 +2982,7 @@ din respect pentru pozitia sa, pentru ca am vazut cat de
 dureros poate fi sa fii un inspector de taxe.
 Din toata inima mi-am dorit ca baiatul asta sa aiba
 o zi buna. A fost, intr-adevar, foarte multumit si pe
-masura ce a trecut ziua, lin are dintre noi a avut oca zia
+masura ce a trecut ziua, lin are dintre noi a avut ocazia
 sa priveasca lucrurile in felul sau. Am avut o conversatie
 frumoasa si am facut schimb de idei. Facandu-i o zi
 frumoasa lui, si eu am avut o zi placuta. A spus: „stii,
@@ -3007,9 +3007,9 @@ binevenite. Sta in capacitatea noastra sa creem o
 experienta placuta atunci cand suntem prinsi in trafic,
 pentru ca avem timp sa citim, sa ne bucuram cu
 adevarat de viata.
-Ce i nseamna atunci cand intrand intr -un cartier
+Ce inseamna atunci cand intrand intr -un cartier
 vedem un indicator care spune „Interzis copiilor si
-animalelor”? I nseamna ca oamenii care locuiesc acolo
+animalelor”? Inseamna ca oamenii care locuiesc acolo
 considera copiii si animalele de casa stresanti, aducatori
 de stres. Alti oameni ar putea considera chiar opusul, ca
 a nu avea copii sau animale de casa ar fi un stres. Unii
@@ -3022,12 +3022,12 @@ zgomot de fond constant care ar interfera cu
 concentrarea lor.
 Stresul poate sa apara si din ceea ce nu este
 asteptat. O persoana cu o minte deschisa va vedea
-alternativele pentru ce s - ar putea inta mpla intr -o
+alternativele pentru ce s - ar putea intampla intr -o
 situatie si planuieste in avans cum sa rezolve
 neasteptatul, inainte ca acesta sa se petreaca. Daca
 cineva se gandeste la partea negativa a unei situatii in
 avans, de exemplu: „daca nu se mai realizeaza
-contractul” sau „daca nu mai vine persoan a cu care
+contractul” sau „daca nu mai vine persoana cu care
 
 trebuie sa ma intalnesc la coltul strazii ”, si planuieste o
 actiune alternativa pentru situatia in care neasteptatul
@@ -3053,7 +3053,7 @@ contine, atitudinea si sistemul credintelor sale
 determina efectul anumitor stimuli.
 Unii oameni spun ca muzica tare ii innebuneste.
 Altii, dimpotriva. Ganditi -va la adolescentii care isi pun
-castile pe u rechi, dau drumul la muzica tare si intra
+castile pe urechi, dau drumul la muzica tare si intra
 intr-o stare de incantare. Este muzica tare un motiv de
 stres sau nu? Principiul de baza este ca noi
 experimentam stresul atunci cand nu ne dorim o
@@ -3078,12 +3078,12 @@ Oamenii cu probleme sunt ca Don Quijote - se lupta
 cu propriile lor proiectii despre lume. Comedia este baza
 umorului; putem rade de aceste calitati ale vietii,
 pastrandu-le pe o pozitie nuc prezinta paradoxul, pentru
-ca umorul apare din cap acitatea de a vedea paradoxul.
+ca umorul apare din capacitatea de a vedea paradoxul.
 Dintr-o decizie interioara alegem sa traim viata ca pe o
 bucurie, armonioasa si linistita, sau ca pe un inamic,
 incepem sa admiram, in loc sa invidiem oamenii
 capabili, ceea ce inseamna acceptare si adaptare. A te
-simti adecv at si a avea rezultate palpabile rezulta din
+simti adecvat si a avea rezultate palpabile rezulta din
 intelegerea faptului ca noi suntem sursa modului in care
 viata este traita.
 Putem sa fim sefi si chiar daca nu apare omul care
@@ -3093,7 +3093,7 @@ experienta inauntrul constiintei noastre. Fericirea
 rezulta din experienta existentei noastre si din bucuria
 de a trai trairea noastra interioara.
 Cand ne oprim din a ne identifica cu evenimentele
-„din afara” si nu le mai dam lor puter e asupra vietilor
+„din afara” si nu le mai dam lor putere asupra vietilor
 noastre, atunci traim o pace, o serenitate interioara, ca
 si consecinta a transcenderii lumii.
 
@@ -3141,7 +3141,7 @@ Nu numai ca aceste campuri de energie au niveluri
 diferite de putere, dar putem observa si ca exista un
 anumit sens, o directie in care se indreapta campurile
 energetice. La nivelul Curajului, scala progreseaza in
-sus, dincolo de nivelul energetic 200, catre Ne utralitate,
+sus, dincolo de nivelul energetic 200, catre Neutralitate,
 Bunavointa, Acceptare si Iubire. Aceste campuri dau
 energie, hranesc si sprijina viata si adevarul, astfel
 crescandu-se starea de a fi. La baza Hartii (sub 200)
@@ -3159,7 +3159,7 @@ care este expresia unui camp de energie. Corpul exprima
 si se supune celor ce sunt in mintea noastra, in functie
 de gradul in care este mentinuta in minte negativitatea,
 efectul ei observandu-se proportional in sanatatea fizica
-a corpului. Dimpotriva, cu cat este mai mare energ ia
+a corpului. Dimpotriva, cu cat este mai mare energia
 pozitiva a celor ce sunt mentinute in minte, cu atat mai
 puternic pozitiv este campul energetic al vietii. Aceasta
 cunoastere pune la dispozitie un instrument ce
@@ -3175,12 +3175,12 @@ sine, lipsei de speranta, disperarii, regretului,
 deprimarii, ingrijorarii, nelinistii, poftei, resentimentului,
 urii si arogantei. Aceste emotii negative insotesc boala.
 Procesul care are loc in constiinta poate fi observat
-aparand din stari e motionale de tipul distrugerii,
+aparand din stari emotionale de tipul distrugerii,
 pierderii de energie si spirit, descresterii, capturarii,
 expansiunii exagerate, o infatuare exagerata si o
 pierdere a puterii.
 Din punct de vedere spiritual, lumea pe care o
-traieste cineva aflat in aceste stari mentale neg ative este
+traieste cineva aflat in aceste stari mentale negative este
 una a pacatului si a suferintei, a deznadejdii, tristetii,
 fricii, frustrarii, competitiei si luptei dupa un statut.
 Asemenea oameni conceptualizeaza un Dumnezeu
@@ -3225,7 +3225,7 @@ minte si corp, pentru ca este foarte importanta in
 domeniul sanatatii si pentru ceva ce nu este cu adevarat
 cunoscut. Un principiu de baza, demonstrat clinic, este
 ca suntem subiectul numai a ceea ce mentinem in
-mintea noastra. Acesta este un principiu al vi ndecarii si
+mintea noastra. Acesta este un principiu al vindecarii si
 al sanatatii, cu ambele fete ale monedei - o fata fiind
 boala, iar cealalta, sanatatea. Ele sunt partile opuse ale
 aceleiasi monede avand aceeasi intelegere care vindeca
@@ -3255,7 +3255,7 @@ transa in fata televizorului. Nu exista o amintire
 constienta a programului, acesta doar a intrat, iar acum
 persoana este sub comanda lui pentru tot restul vietii.
 Datorita amneziei din copilarie multi oameni nu-si
-pot aminti ceea ce fi s-a intamplat inai nte de varsta de
+pot aminti ceea ce fi s-a intamplat inainte de varsta de
 cinci ani, iar unii au amintiri foarte putine sau chiar
 deloc despre intreaga lor copilarie. Chiar si la oamenii cu
 amintiri bune din copilarie exista zone largi de uitare . In
@@ -3264,7 +3264,7 @@ exprimate in diverse forme prin boli, cum ar fi „bolile de
 inima se mostenesc in familie ”. Supraponderalitatea se
 trage din familie ”. „Alergiile se mostenesc din familie ”.
 Sau, „toata lumea din familia noastra are alergie la fan ”.
-Aceste ganduri devin un program ce i ntra in minte;
+Aceste ganduri devin un program ce intra in minte;
 putem observa ca este la fel ca si in situatia cu persoana
 care a fost hipnotizata. Pana cand programul nu este
 adus in mintea constienta si anulat, ramane operativ in
@@ -3289,7 +3289,7 @@ anormalitati le fizice vor fi aduse in realitate. Devin
 reale.
 Reversul acestei situatii se petrece atunci cand
 pleaca personalitatea respectiva, ceea ce se poate
-intampla prin intoxicatie sau schimbar i de natura
+intampla prin intoxicatie sau schimbari de natura
 emotionala ori circumstante ale vietii, si atunci, cealalta
 personalitate se manifesta in corp. Datorita faptului ca
 cea din urma nu are asemenea credinte, corpul se
@@ -3332,7 +3332,7 @@ persoana face diabet si spune „nu-mi amintesc sa se fi
 spus vreodata ceva de genul asta in familia mea. Nimeni
 din familie nu are diabet. Nu vad de unde ar fi putut
 rasari in mintea mea ”. Stim ca undeva, in inconstientul
-colectiv, exista credinta despr e diabet si tot ceea ce este
+colectiv, exista credinta despre diabet si tot ceea ce este
 legat de el. Daca facem un studiu individual cu
 pacientul, pentru o perioada suficient de lunga, vom
 descoperi originea acestui program care confirma faptul
@@ -3352,7 +3352,7 @@ este din Iubire calibreaza de la 500 in sus. Spiritul
 domina la nivelul 500 si devine din ce in ce mai
 constient ca este Spirit. Prin urmare, intelectul nu este
 cea mai inalta facultate a omului, contrar epocii ratiunii,
-asa cum a fost exprimat in alte lu crari pe care le -am
+asa cum a fost exprimat in alte lucrari pe care le -am
 invatat sau cum am auzit de la alti Intelectuali care cred
 ca intelectul este atributul cel mai inalt al omului.
 Intelectul este cuprins doar in nivelul lui 400. Energia
@@ -3382,7 +3382,7 @@ ceva pentru a se justifica. Deseori o anumita boala
 devine faimoasa prin intermediul televiziunii, deoarece
 persoane celebre impartasesc experienta lor despre ea.
 Aceasta este urmata de o epidemie a acelei boli,
-epidemie datorata sugestiei. Mintea in tra in programul
+epidemie datorata sugestiei. Mintea intra in programul
 unei anumite boli, in sistemul de credinte si
 particularitatile acelei boli. Vinovatia inconstienta ii da
 putere prin exprimarea sa in sistemul nervos autonom si
@@ -3434,7 +3434,7 @@ ceea ce mintea ii spune sa faca. Prin urmare, daca
 mintea spune „am aceasta boala ”, atunci corpul
 cedeaza, se supune ei.
 Putem astfel intelege importanta faptului de a nu
-crede progr amele ce sunt doar limitari ale adevarului.
+crede programele ce sunt doar limitari ale adevarului.
 Putem intelege importanta anularii constiente a
 programelor limitate, spunand in loc ceva ce este
 adevarat. Adevarul este ca „eu sunt o fiinta infinita care
@@ -3450,11 +3450,11 @@ oua.
 Am avut un nivel foarte crescut al colesterolului si
 am inceput sa anulez acel sistem de credinte,
 spunandu-mi in mod repetat: „Sunt o fiinta infinita; nu
-sunt s ubiectul acestui lucru. Ma supun numai acelor
+sunt subiectul acestui lucru. Ma supun numai acelor
 lucruri pe care le tin in mintea mea. Acest lucru nu are
 efect asupra mea, si, prin urmare, il anulez si il refuz”.
 Daca mintea te poate programa cu un sistem de credinte
-negative, se poate si schimba in sens i nvers, nu? Deci
+negative, se poate si schimba in sens invers, nu? Deci
 incepem sa ne spunem noua insine ca sistemul de
 credinte respective nu are efect asupra noastra, ca este
 doar un sistem de credinte si ca nu trebuie sa-l credem,
@@ -3479,7 +3479,7 @@ preia o energie negativa atunci cand se intoarce moneda
 pe partea cealalta, devenind cea mai joasa energie. Ce
 alta arie ar fi mai buna pentru a crea o epidemie care sa
 instituie aceasta credinta? Este vinovatia inconstienta,
-ca sa nu mai spu nem si despre vinovatia personala
+ca sa nu mai spunem si despre vinovatia personala
 constienta legata de acest subiect al sexualitatii,
 
 tristetea asociata acesteia, suferinta si frica de boala,
@@ -3494,7 +3494,7 @@ In cazul experimentului despre colesterol am anulat
 gandul de fiecare data cand imi aparea. Dupa un timp
 scurt, nivelul colesterolului a scazut iar acum pot manca
 la micul dejun trei oua, branza si chiar alte alimente cu
-un colesterol ridicat si totusi nive lul colesterolului meu
+un colesterol ridicat si totusi nivelul colesterolului meu
 ramane scazut, uneori chiar si mai scazut decat ar
 trebui pentru o persoana de varsta mea.
 Corpul va face intocmai cum crede mintea. Dar aici
@@ -3505,7 +3505,7 @@ inconstientului care creeaza sansa ca acel lucru sa aiba
 loc. Persoana este inclinata „accidentului” deoarece acea
 credinta a preluat controlul in mintea ei. Inconstient,
 persoana se ocupa doar sa -si aduca corpul in locul
-potrivit si la timpul potrivit pent ru a fi lovit de spoilerul
+potrivit si la timpul potrivit pentru a fi lovit de spoilerul
 unei masini sau sa alunece pe scari ori sa se loveasca la
 cap. Nu trebuie sa se ingrijoreze, pentru ca mintea sa va
 gasi o cale. Oamenii aluneca intr -un fel de transa
@@ -3523,7 +3523,7 @@ s-ar fi imbolnavit datorita puterii virusului. Ce se
 intampla, insa, este ca poate doar 65% vor face boala,
 pentru ca restul nu cred in ea . I n acestia exista
 suficienta indoiala in minte, impreuna cu o insuficienta
-vina inconstienta. Pentru acea pe rsoana nu este
+vina inconstienta. Pentru acea persoana nu este
 acceptabil sa exprime acest lucru in aceasta forma, asa
 ca nimic nu este universal.
 Acelasi lucru poate fi intalnit in vindecare.
@@ -3563,12 +3563,12 @@ atunci cand intram intr-un proces de negare si de
 blamare a unei cauze exterioare pentru existenta unei
 boli.
 Campurile energetice sub nivelul 200 potenteaza
-devenirea victimei. Sub niv elul 200 oamenii si -au dat
+devenirea victimei. Sub nivelul 200 oamenii si -au dat
 puterea si au pus-o in ceva din afara lor. La nivelurile
 joase oamenii si-au spus lor insisi in mod inconstient ca
 sursa fericirii si a supravietuirii lor apare din ceva ce
 este in afara lor.
-Cand avanseaza in nivelurile superioa re valorii de
+Cand avanseaza in nivelurile superioare valorii de
 200, spre adevar, acestea sunt pozitive si putem observa
 cum incep sa -si redobandeasca puterea. Ei spun acum:
 „eu si numai eu am puterea de a crea fericirea si de a
@@ -3614,7 +3614,7 @@ faptul ca ei au o boala, si daca au o boala inseamna ca
 nu au o atitudine mentala pozitiva.
 Ce se intelege printr-o atitudine mentala si prin rolul
 pe care il joaca aceasta in sanatate si in eliberarea de
-boala si sufe rinta? In primul rand, in persoana care nu
+boala si suferinta? In primul rand, in persoana care nu
 este sanatoasa exista o vinovatie inconstienta. Cura
 pentru aceasta este bunavointa de a fi iertator, chiar
 pana la punctul in care, daca e nevoie, sa participi la un
@@ -3634,7 +3634,7 @@ Vinovatia inconstienta contribuie la energia negativa
 ce se exprima pe sine nefavorabil prin intermediul
 sistemului nervos autonom si prin sistemul energetic de
 acupunctura. Totusi, simultan exista si puterea de a
-refuza, put erea de a nega acest sistem de credinte.
+refuza, puterea de a nega acest sistem de credinte.
 Pentru a redobandi puterea personala cineva trebuie sa
 inteleaga ca mintea insasi este cauza bolii sale. Acest
 adevar are nevoie de bunavointa de a renunta la pozitia
@@ -3652,13 +3652,13 @@ asa ca vreau sa vad daca e adevarat, pentru ca sunt
 deschis”. Pe masura ce ne deschidem mintea si dorim sa
 acceptam, intentia noastra se aliniaza si incepem sa ne
 deplasam catre acceptarea celor pe care le descoperim.
-Incepem sa aflam ca apropiindu -ne de iub ire ne
+Incepem sa aflam ca apropiindu -ne de iubire ne
 apropiem de vindecare, ca aceasta are un efect curativ.
 Cum este dobandita? Dorinta de a ierta ne poate avansa
 
 catre bunavointa de a intelege inocenta din toate
 lucrurile, ceea ce coincide cu bunavointa de a ierta. Din
-compasiune si intentie apar pu terea si capacitatea de a
+compasiune si intentie apar puterea si capacitatea de a
 vedea cu adevarat in inimile altora si de a descoperi
 inocenta copilului.
 In absolut fiecare exista acea inocenta intrinseca ce
@@ -3695,7 +3695,7 @@ mai bine. Am crezut ca asa era corect sa fac, sa judec,
 sa condamn oamenii, sa -i impart in buni si rai. Acum
 inteleg ca toate astea m -au imbolnavit, asa ca voi
 renunta la ele”. Oamenii care au dorit sa priveasca astfel
-si sa intre in procesul descris, au re usit vindecari totale
+si sa intre in procesul descris, au reusit vindecari totale
 ale bolilor lor.
 Capacitatea de a fi iertator este inauntrul nostru .
 Impreuna cu capacitatea de a avea compasiune. Din
@@ -3705,7 +3705,7 @@ omenescul din noi cu ochi iertatori si incepem sa ne
 iertam pe noi insine, precum si pe altii pentru toate
 lucrurile care au fost limitari sau renegari ale
 adevarului. Toate lucrurile aflate in nivelurile joase sub
-200 sunt renegari ale adevarului. Toate cele aflat e peste
+200 sunt renegari ale adevarului. Toate cele aflate peste
 nivelul 200 sunt acceptarea a ceea ce este adevarat si
 pozitiv. Deoarece corpul reflecta ceea ce mintea
 gandeste, iar mintea reflecta pozitia noastra spirituala,
@@ -3720,7 +3720,7 @@ dezvoltam o constienta a negativitatii si sa o
 recunoastem asa cum e. Scapam de falsa umilinta si
 incepem sa ne punem la indoiala remarci de genul: „stii,
 nu sunt prea destept ” sau „scrisul meu e urat” sau „iau
-in greutate, desi manan c aceeasi cantitate de mancare
+in greutate, desi mananc aceeasi cantitate de mancare
 ca si oamenii slabi”. In clipa in care devenim constienti
 de faptul ca spunem sau gandim astfel de lucruri
 limitative, ganduri care ne ataca chiar pe noi, ganduri
@@ -3775,7 +3775,7 @@ atenti la ce urmeaza, cum ar fi ideea ca „Eu nu sunt
 bun. Nu sunt bun deloc. Niciodata n -am fost bun la
 carti”. Daca avem aceasta credinta, ca nu suntem buni
 la jocul de carti, exact asta este operational i n viata
-noastra, fiind reimpute rnicita in sistemul nostru de
+noastra, fiind reimputernicita in sistemul nostru de
 credinte care si el devine auto -re-imputernicit, „auto-
 profetizator”. O credinta care este mentinuta in mod
 neintentionat se poate manifesta in viata noastra
@@ -3789,13 +3789,13 @@ energie superioare. Campurile de la 540 in sus sunt
 niveluri ale recunostintei, iertarii si vindecarii.
 Bunavointa de a ierta si de a fi recunoscator - aceasta
 buna-vointa in sine incepe automat i procesul vindecarii.
-Devenind o fiinta iubitoare in campu l energiei iubirii nu
+Devenind o fiinta iubitoare in campul energiei iubirii nu
 inseamna sentimentalism sau emotionalism. Ceea ce
 lumea numeste iubire este de fapt, cel mai adesea,
 dependenta, control, sentimentalism si emotionabilitate.
 
 Este un atasament emotional si sentimental in care
-controlul se perinda inai nte si inapoi, este satisfactie si
+controlul se perinda inainte si inapoi, este satisfactie si
 dorinta de ambele parti. Aceasta este versiunea
 hollywoodiana a iubirii.
 Cand auzi pe cineva spunand „L-am iubit pe George,
@@ -3829,7 +3829,7 @@ Anonimi. Iubirea neconditionata nu este interesata de
 ceea ce posezi sau de trecutul tau.
 
 Oamenii de la nivelurile inferioare ale constiintei
-sunt foart e preocupati cu a avea, cu posesiunile, si ii
+sunt foarte preocupati cu a avea, cu posesiunile, si ii
 coteaza pe altii in functie de ce au. Pe la mijlocul Hartii,
 oamenii sunt preocupati cu a face, iar statutul cotatiei
 lor depinde de ce fac, de ce realizeaza si de titlurile
@@ -3947,11 +3947,11 @@ frumusetea corpului nostru, ne simtim vulnerabili.
 Vulnerabilitatea este in inconstient si stocheaza o mare
 cantitate de frica. Drept rezultat, vietile noastre devin
 concentrate la nesfarsit pe revigorarea si protejarea
-noastra in urma pi erderii acestor lucruri pe care ne -am
+noastra in urma pierderii acestor lucruri pe care ne -am
 bazat supravietuirea.
 Persoanele sanatoase realizeaza adevarata natura a
 lor, cine sunt de fapt, si ca sunt mult mai mult decat
-atat. I nteleg ca ei sunt cei care dau valoare acestor
+atat. Inteleg ca ei sunt cei care dau valoare acestor
 lucruri si distractiei temporare, dar ca supravietuirea lor
 nu depinde de acestea. S -a spus inainte c a atunci cand
 oamenii avanseaza in campul energetic al acceptarii, ei
@@ -3971,7 +3971,7 @@ lume, ori de ceea ce mananc”. Ceea ce realizeaza in final
 este ca incep sa transcende si nu se mai gasesc sub
 efectul tuturor acestor false sisteme de credinte.
 Oare ce fel de viata devine posibila atunci? Ce fel de
-viata se poate dezvolta anuland sistemele de credi nta?
+viata se poate dezvolta anuland sistemele de credinta?
 Mintea spune: „Uh! Oh, daca voi anula aceste sisteme de
 credinte, atunci voi avea mari probleme. „Exista o stare
 a mintii care isi plaseaza securitatea sa in venerarea
@@ -3981,7 +3981,7 @@ care este in viata.
 Cand suntem motivati de bunavointa de a ne
 accepta si de a lua in stapanire puterea mintii, apare si
 bunavoita de a ne repara greselile, de a fi iertatori si
-plini de compasiune, apare intelegerea ca noi ne face m
+plini de compasiune, apare intelegerea ca noi ne facem
 victime atunci cand plasam sursa fericirii noastre in
 afara noastra. Pe masura ce incepem a ne
 recontextualiza viata, ne intrebam: „Ce da sens si
@@ -3996,10 +3996,10 @@ ca viata este importanta si ca noi insemnam ceva in
 lume. Nu avem nevoie de atentia pe care ne -o aduce
 boala pentru ca sentimentul importantei noastre vine
 din realizarea maretiei Sinelui nostru cel Adevarat.
-Cresterea globala in domeni ul spiritual aduce cu sine o
+Cresterea globala in domeniul spiritual aduce cu sine o
 stare a sanatatii si o poate modifica chiar repede daca ne
 schimbam atitudinea renuntand la anumite credinte
-limitative. Nu dureaza deloc mult . I ntai este realizarea
+limitative. Nu dureaza deloc mult . Intai este realizarea
 faptului ca noi avem puterea sa facem astfel. Apoi este
 bunavointa de a incerca, de a verifica prin propria
 
@@ -4043,7 +4043,7 @@ aducerea sa i n campul vindecatorului interior. De
 exemplu, daca o boala este caracterizata de schiopatat,
 iertati in voi insiva ceea ce este capabil sa produca
 schipatatul altora. Daca la inceput acest proces poate sa
-para speculativ, rezultatele pozitive sunt uluitoar e.
+para speculativ, rezultatele pozitive sunt uluitoare.
 Vindecarea decurge din bunavointa de a accepta puterea
 mintii si de a nu permite niciodata mintii sa spuna ceva
 negativ fara de a contracara si a inlocui acel lucru cu
@@ -4058,11 +4058,11 @@ Precum soarele, Sinele interior este intotdeauna
 stralucitor, dar datorita norilor negativi noi nu putem
 trai soarele. Nu este necesar sa ne programam cu
 adevarul, este necesar numai sa indepartam ceea ce este
-fals. I ndepartarea norilor din cer, pentru a ilumina
+fals. Indepartarea norilor din cer, pentru a ilumina
 negativul, ne permite sa experimentam campurile
 energetice ale pozitivului. Nu este necesar altceva decat
 indepartarea negativitatii - bunavointa de a renunta la
-obiceiurile gandirii negative, indep artarea obstacolelor
+obiceiurile gandirii negative, indepartarea obstacolelor
 pentru a experimenta aceasta vointa va avea drept
 rezultat un sens crescator al viului, al vietii, si o bucurie
 pentru propria existenta. Pe masura ce apare aceasta
@@ -4073,7 +4073,7 @@ Pe masura ce evolueaza catre nivelurile mai inalte
 ale fericirii, apare veselia. Corpul este privit ca o sursa
 de placere si este mentinut ca o experienta placuta. Mai
 
-sus, catre niveluril e cele mai inalte ale constiintei,
+sus, catre nivelurile cele mai inalte ale constiintei,
 experienta corpului incepe sa se diminueze. Exista o
 experienta atotpatrunzatoare a unei bucurii difuze,
 laolalta cu o stare de serenitate interioara insotita de un
@@ -4116,7 +4116,7 @@ pozitiv care este intarit de buna vointa noastra de a ne
 dedica compasiunii si iertarii. Ceea ce sunt include
 corpul, dar nu este limitat la el. Ceea ce sunt alege sa -l
 iubeasca, sa -l pretuiasca, sa -l aprecieze, sa -i fie
-recunoscator si sa se bucure de si mtamantul de a fi in
+recunoscator si sa se bucure de simtamantul de a fi in
 viata.
 Ajungem, pana la urma, la nivelul „experimentarii
 experientei”. Devenim constienta bucuriei si a
@@ -4124,9 +4124,9 @@ gratitudinii pentru existenta noastra si pentru existenta
 constiintei noastre. Corpul este apoi inclus in campul
 constiintei insasi . Ajungem din nou la surprinzatorul
 gand ca corpul este in interiorul mintii. Cei ma i multi
-oameni cu un sistem de credinte limitate cred ca min tea
+oameni cu un sistem de credinte limitate cred camin tea
 este undeva „aici sus” in capul lor. De fapt, atunci cand
-este experimentata, se descopera ca mintea este pe ste
+este experimentata, se descopera ca mintea este peste
 tot. Cand un gand este experimentat, este experimentat
 peste tot. Gandul caic pare ca rasare „inauntru” este un
 sistem de credinte in sine asa cum este, de fapt,
@@ -4146,7 +4146,7 @@ adevarului, invatarea cu emisfera dreapta inseamna a
 deveni familiar cu si a ne re -expune constant aceluiasi
 punct de vedere pana cand devine ceva natural. Este
 dificil atunci cand avem de -a face cu vindecarea si cu
-sanatatea pentru ca noi chiar ne inversa m credinta in
+sanatatea pentru ca noi chiar ne inversam credinta in
 cauzalitate. Spunem ca fizicalitatea este expresia
 mentalului si nu vice-versa. Lumea ar vrea sa ne spuna
 ca este invers, „cauza” este inauntrul lumii, inauntrul
@@ -4158,7 +4158,7 @@ cercetarea stiintifica asupra naturii fenomenului
 placebo. In general, placebo vindeca 35% din oamenii cu
 orice fel de boala. Doar sugestia ca o pastila va vindeca o
 boala si in 35% din cazuri si este suficient pentru a se
-realiza vindecarea . I ntelegerea faptului ca noi facem
+realiza vindecarea . Intelegerea faptului ca noi facem
 marea schimbare in constiinta noastra ne ajuta sa
 pretuim cunoasterea noastra despre boala si sa o
 folosim ca pe un izvor pentru cresterea si dezvoltarea
@@ -4231,7 +4231,7 @@ de importante?
 
 Pe masura ce vom discuta toate aceste lucruri, ne
 vom referi din nou la Harta Constiintei. Aceasta contine
-cercetarea mai multor indi vizi si a grupurilor de studiu
+cercetarea mai multor indivizi si a grupurilor de studiu
 de-a lungul multor ani. Este un model matematic ce
 reprezinta niveluri stratificate ale constiintei pe care le
 experimenteaza in mod obisnuit oamenii. Nivelurile au
@@ -4245,12 +4245,12 @@ apoi, mai departe, catre cele mai inalte niveluri ale
 Iluminarii ce calibreaza la nivelul 1000, ceea ce este
 nivelul maxim pentru domeniul uman.
 Modalitatea prin care au fost calibrate la inceput
-aceste campuri de energie apartine unui dome niu de
+aceste campuri de energie apartine unui domeniu de
 cercetare in sine. Este posibil sa confirmam calibrarile
 folosind metoda testarii musculare. Dupa cum probabil
 stiti deja, este o metoda simpla de testare a rezistentei
 bratului. Subiectul tine bratul intins, iar cel care
-testeaza apasa pe incheietu ra mainii. Daca in minte se
+testeaza apasa pe incheietura mainii. Daca in minte se
 afla un gand de furie, ura sau spaima, care se afla sub
 nivelul 200 in Harta Constiintei, bratul va slabi. Aceasta
 denota non-integritatea campului de energie, iar sensul
@@ -4266,12 +4266,12 @@ puteti intreba care este nivelul Suferintei si sa obtineti
 
 75, ceea ce inseamna ca suferinta are mult mai putina
 energie decat furia.
-Acestea sunt calibrari foarte fol ositoare care ne
+Acestea sunt calibrari foarte folositoare care ne
 arata lucruri foarte importante despre sensul energiei,
 daca are un efect distructiv, negativ asupra vietii
 noastre, asupra constiintei noastre si asupra capacitatii
 de a intelege si a reflecta adevarul, Calibrarile au un
-efect foarte pozi tiv pe care il vom observa cand ne vom
+efect foarte pozitiv pe care il vom observa cand ne vom
 urca mai departe spre Iluminare si Constiinta Cristica.
 Pe masura ce ne apropiem de Adevar, ne apropiem de
 Dumnezeu. Pe masura ce ne apropiem de baza scalei ne
@@ -4299,12 +4299,12 @@ indepartat si mai mult de adevar decat era inainte de a
 citi. Aproape jumatate din cartile dintr -o librarie
 spirituala sunt de fapt pura fictiune.
 
-Drept urmare, a trebuit sa studiem valo area
+Drept urmare, a trebuit sa studiem valoarea
 cercetarii insasi si am descoperit ca nu existau niste
 reguli pentru abordarea muncii spirituale pentru o
 persoana aflata la inceput de drum. Si nici pentru o
 persoana care s-ar intoarce mai tarziu spre acea cale, cu
-un interes nou. Fiecare abordare s ustinea ca ea
+un interes nou. Fiecare abordare sustinea ca ea
 reprezinta adevarul, dar revendicarile acestea nu
 reprezentau un indiciu asupra validitatii adevarului. Am
 descoperit, de asemenea, ca numarul de adepti, bogatiile
@@ -4325,7 +4325,7 @@ credinta ale omenirii, creand un nou pamant si un
 context complet nou impreuna cu un nou set de valori
 deoarece puterea si energia din cuvintele lor erau de un
 inalt calibru.
-Vom di scuta despre crize, conflicte, natura unei
+Vom discuta despre crize, conflicte, natura unei
 suparari si modurile de a rezolva, de a transcende si a
 trece prin ele, impreuna cu masuri practice pentru
 cautatorii spirituali. Vom descoperi ca toate supararile
@@ -4396,7 +4396,7 @@ Nivelul Durerii este unul al pierderii, regretului,
 deznadejdii si pierderii spiritului. Vede o lume a tristetii
 si, din nou, un dumnezeu care este nepasator si
 neiubitor, care a creat o lume trista si fara de speranta.
-Deasupra nivelului Durerii este Fric a, un camp
+Deasupra nivelului Durerii este Frica, un camp
 energetic ce are un sens distructiv. Acest nivel este
 caracterizat de ingrijorare, anxietate, panica si teroare.
 Inseamna restrangere, diminuare, micsorare, lumea
@@ -4428,11 +4428,11 @@ razbunator si furios, cel mai mare razbunator.
 Deasupra Furiei este nivelul Mandriei, iar aplicarea
 sa in munca spirituala defineste Orgoliul Spiritual la
 175. Se poate vedea ca pe masura ce o persoana urca pe
-scara co nstiintei, va gasi mai multa putere. Campurile
+scara constiintei, va gasi mai multa putere. Campurile
 incep sa se simta mai bine, dar Mandria este totusi o
 emotie distructiva, dupa cum se recunoaste in toata
 literatura spirituala. Este caracterizata de aroganta si
-sfidare, acestea fiind conduse de negare. Proc esul care
+sfidare, acestea fiind conduse de negare. Procesul care
 se petrece in constiinta la acest nivel este unul de
 emfaza. Datorita arogantei si sfidarii o persoana cu astfel
 de atitudine despre munca sa spirituala nu va dori sa
@@ -4448,7 +4448,7 @@ omului, si deci ratiunea va decide daca Dumnezeu exista
 sau nu. Se poate sa fie si de pe pozitia zelotului sau a
 bigotului care pretinde ca detine toata cunoasterea
 asupra subiectului, care este intr -o stare de mandrie,
-aroganta si sf idare fata de orice alta pozitie (de ex.
+aroganta si sfidare fata de orice alta pozitie (de ex.
 „moarte necredinciosilor”). Aceasta vine in mod evident
 dintr-un ego exagerat. Toate pozitiile peste acest nivel se
 afla sub linia integritatii la nivelul 200.
@@ -4457,7 +4457,7 @@ nivelul 2 00, nivelul Curajului si al Adevarului, nivelul
 unde testul tariei musculare arata ca nu mai exista
 slabiciune? Acum persoana este capabila sa se uite
 deschis la intrebari deoarece are puterea sa o Iaca.
-Nivelul Curajului este unul al sansei, al mintii des chise
+Nivelul Curajului este unul al sansei, al mintii deschise
 si al deschiderii oricaror straturi pentru acele persoane
 care sunt chiar serioase in ceea ce priveste munca
 spirituala.
@@ -4487,7 +4487,7 @@ negativ, care era mai mult demonic, amenintator si
 razbunator. La nivelul Bunavointei gasim un Dumnezeu
 care devine prieten, unul in care se poate avea incredere.
 Acesta este inceputul unui Dumnezeu iubitor,
-deschiderea ce permite cuiva, ce are ac easta dorinta, sa-
+deschiderea ce permite cuiva, ce are aceasta dorinta, sa-
 l vada pe Dumnezeu intr-un aspect pozitiv.
 De acolo incepe miscarea ascendenta inspre
 Acceptare la 350 unde persoana incepe sa simta o
@@ -4528,12 +4528,12 @@ miscare in capacitatea de a -l vedea pe Dumnezeu din
 punctul de vedere al intregului si al Unitatii.
 Deplasarea in sus spre nivelul 600 poarta persoana
 catre nivelurile pe care lumea le numeste Iluminare.
-Apare o pierdere progre siva a identificarii cu micul sine,
+Apare o pierdere progresiva a identificarii cu micul sine,
 pe care lumea il numeste „ego” si la care ne referim de
 obicei prin „Eu” sau „Mine”, deoarece este identificat cu
 diverse campuri de energie si cu tot felul de
 comportamente din care decurge. Cand se renunta la
-aceste pu ncte de vedere si la identificare se petrece o
+aceste puncte de vedere si la identificare se petrece o
 expansiune, contextul experientei persoanei se largeste
 si aceasta se muta mai sus inspre varful scarii si catre
 identificarea cu adevaratul Sine.
@@ -4567,7 +4567,7 @@ ani. Cuvintele lor sunt inca active si puternice si
 continua sa transforme constiinta omenirii si mii de ani
 mai tarziu, chiar dupa ce corpurile lor au parasit
 planeta. Cand calibram campurile energetice ale lucrarii
-lor gasim ca au o putere eno rma, astfel intelegem ca nu
+lor gasim ca au o putere enorma, astfel intelegem ca nu
 e numai puterea a ceea ce este spus, ci este vorba si
 despre puterea fiintei care a rostit acele invataturi.
 S-a descoperit ca din punct de vedere istoric nu a
@@ -4586,17 +4586,17 @@ copilului nu are posibilitati si mijloace de a discerne. Are
 nevoie de o modalitate de a determina ceea ce poate fi
 benefic, (vezi lista cu invatatorii Spirituali din Capitolul
 17 al cartii Adevar versus Falsitate).
-Este evident ca daca cineva este implica t intr -un
+Este evident ca daca cineva este implicat intr -un
 invatamant care are un nivel sub 200, va avea
 experiente negative. Din contra, daca invatatura are un
 camp energetic pozitiv si calibreaza la un nivel inalt, ne
 va conduce inspre iubire, ceea ce reprezinta cea mai
-mare asigurare impotriva catastr ofelor spirituale. Putem
+mare asigurare impotriva catastrofelor spirituale. Putem
 intreba daca invatamantul, invatatorul care preda acele
 invataturi sau cartile in care se regasesc au un nivel
 inalt. Asta nu inseamna ca intrebam daca e bine sau e
 rau. Este benefic si de ajutor sa stabilim nivelul lor.
-Daca invat aturile calibreaza sub nivelul 200,
+Daca invataturile calibreaza sub nivelul 200,
 precum Ura, aceasta va spune, de exemplu, ca
 Dumnezeu te uraste, uraste comportamentul tau,
 impulsurile tale, omenescul din tine. Astfel, acesta este
@@ -4605,7 +4605,7 @@ calibrand la valori de genul 20, 30 sau 40. La acel nivel
 se afla ura, uciderea altora si suicidul. Acesta este mai
 degraba un Dumnezeu al mortii decat al vietii. Ura de
 sine si sentimentul interior al distrugerii provine din
-aceasta invatatura. Daca cineva isi doreste sa u rmeze
+aceasta invatatura. Daca cineva isi doreste sa urmeze
 aceasta cale, macar sa mearga pe ea cu ochii deschisi
 (de exemplu terorismul).
 Acestea sunt invataturile existentialismului care se
@@ -4631,12 +4631,12 @@ dincolo de cuvinte, deconectate de la cuvinte. Cand
 testam, acest tip de persoane ne slabesc musculatura,
 indicand ca ceea ce este predat nu este Adevarul.
 Cercetarea arata ca Dumnezeu nu este la baza scarii;
-toate invataturile urii si fr icii care provin de la baza
+toate invataturile urii si fricii care provin de la baza
 scarii indica opusul.
 Pe masura ce urcam spre Furie vedem aceste pozitii
 care promoveaza furia, conflictul, ura si razboaiele
 religioase deoarece ele contin competitia si, de obicei, un
-campion este considerat un dumnezeu al raz bunarii, al
+campion este considerat un dumnezeu al razbunarii, al
 revansei. Pentru ca este o pozitie polarizata, dumnezeu
 va pedepsi intotdeauna pe cei necredinciosi, ceea ce
 reprezinta una din invataturile traditionale. Este
@@ -4691,7 +4691,7 @@ periculoasa poate deveni o invatatura - e ca si cum te-ai
 urca pe masa de operatie si te -ai lasa taiat pe abdomen
 de un chirurg care nu are abilitatea de a se descurca cu
 ceea ce va gasi acolo dupa ce va deschide abdomenul.
-Nu permitem unui student in anul doi la me dicina sa
+Nu permitem unui student in anul doi la medicina sa
 deschida un abdomen pe masa de operatii. Aceasta se
 face de cineva care are mai multa putere. Aceste
 campuri energetice au putere. Iti trebuie multa putere si
@@ -4707,7 +4707,7 @@ intelegere si adevarata compasiune. Dumnezeul unui
 astfel de camp energetic va fi unul care ne iubeste
 pentru ca vindecarea apare numai prin iubire, iar
 iubirea Lui va fi fiind neconditionata.
-Daca inteleg em cu adevarat natura lui Dumnezeu,
+Daca intelegem cu adevarat natura lui Dumnezeu,
 intelegem ca ceea ce este dumnezeiesc este
 neconditionat. Ceea ce este conditionat este, cu alte
 cuvinte, limitat prin definitie si nu poate fi numit
@@ -4740,7 +4740,7 @@ oricare dintre aspectele sale. Cum se poate? De exemplu,
 nu banii, ci felul in care ii pastram in mintea noastra
 conteaza. Nu sunt evenimentele din viata, ci felul in care
 cineva se raporteaza la ele.
-Marile invataturi care au un sens pozitiv, prezi nta
+Marile invataturi care au un sens pozitiv, prezinta
 principii fundamentale prin care cineva poate
 experimenta adevarul despre sine insusi prin
 intermediul propriei lucrari spirituale. Crearea unui loc
@@ -4764,7 +4764,7 @@ de viata, viata personala sau buzunarele oamenilor. De
 fapt, multi dintre ei refuza sa raspunda la intrebari din
 acest palier . I n schimb, exemplifica si vorbesc despre
 principii. Este apoi la latitudinea studentului sau a
-adeptului sa discea rna felul in care sa aplice acel
+adeptului sa discearna felul in care sa aplice acel
 principiu intr -o situatie data. C a urmare, nu exista
 „gresit”, ci numai o invatatura intr-un context larg din
 care se pastreaza acea experienta de viata.
@@ -4780,11 +4780,11 @@ Vom folosi banii ca exemplu, pentru ca deseori
 aceasta este sursa de conflict printre cautatorii
 spirituali, cel putin la inceput.
 Cum ar putea cineva sa se uite la bani? Depinde de
-campul de energie al invataturilor sau al invatato rului.
+campul de energie al invataturilor sau al invatatorului.
 Ar putea sa fie ceva pentru care cineva sa se simta
 vinovat sau pacatos ca ii are. Dumnezeu ne va distruge
 daca avem bani si noi ne vom uri pe noi insine pentru ca
-ii avem . I ntregul proces este distructiv deoarece face
+ii avem . Intregul proces este distructiv deoarece face
 
 parte dintr -un camp de energie cu o calibrare foarte
 joasa in comparatie cu Adevarul.
@@ -4806,10 +4806,10 @@ Cand mergem mai sus, gasim oameni neatasati de
 bani. Sunt eliberati de acest camp si nu sunt „condusi”
 de bani. Este in regula sa ai bani pentru ca Dumnezeul
 acestor niveluri ale campurilor de energie este un
-Dumnezeu al libertatii. Dumneze u nu este ingrijorat
+Dumnezeu al libertatii. Dumnezeu nu este ingrijorat
 daca cineva are bani.
 Pe masura ce avansam pe scara inspre Acceptare,
-devenim doritori sa vedem acest aspect diferit . I nspre
+devenim doritori sa vedem acest aspect diferit . Inspre
 campurile de energie ale Iubirii si Recunostintei, la
 nivelul 540, banii ar putea fi vazuti drept un dar de la
 Dumnezeu pentru care suntem recunoscatori. Banii ar
@@ -4821,12 +4821,12 @@ inceputul unei revelatii, pentru ca in creier este eliberata
 endorfina, astfel ca banii sunt intelesi ca ceva pozitiv si o
 cale de a -i ajuta pe altii. La acest nivel intentia din
 
-.palele banilor si modul in care este mentinuta in m inte
+.palele banilor si modul in care este mentinuta in minte
 va conduce persoana sa vada banii ca pe o
 binecuvantare, o responsabilitate, un mod de a ajuta si
 de a-i sluji pe altii. Banii vor fi folositi in folosul omenirii
 si nu ca un gest egoist care ar aduce numele cuiva pe o
-placa de arama oferita de organi zatia careia i-a daruit.
+placa de arama oferita de organizatia careia i-a daruit.
 Banii vor fi folositi ca un dar, iar sursa lor va fi
 necunoscuta a fi iubirea lui Dumnezeu. Tot ce inseamna
 Creatie apartine lui Dumnezeu, inclusiv banii asupra
@@ -4836,7 +4836,7 @@ intregului si al perfectiunii, observam ca toate lucrurile
 sunt aspecte ale lui Dumnezeu si ca Dumnezeu este Tot
 Ceea Ce Este. Persoana incepe sa vada Divinitatea in
 toate lucrurile si ca asta se aplica tuturor celor din viata.
-Acum, in loc sa ve dem banii ca pe ceva pacatos, banii
+Acum, in loc sa vedem banii ca pe ceva pacatos, banii
 sunt considerati un instrument pe care Dumnezeu ni l-a
 dat astfel incat iubirea sa poata fi exprimata intr -un
 camp si mai larg si care poate ajuta segmente mai largi
@@ -4850,7 +4850,7 @@ din compasiunea pentru eliberarea din suferinta. Banii
 devin atunci un instrument care permite cuiva sa ajute
 usurarea suferintei din lume. Proprietatile sunt intelese
 ca daruri de la Dumnezeu, iar darurile sunt apoi folosite
-pentru a aduce o cunoa stere sporita a omului si pentru
+pentru a aduce o cunoastere sporita a omului si pentru
 vindecarea suferintei ce apare de -a lungul procesului
 progresiv al cunoasterii Adevarului de catre om.
 Dupa problema legata de bani, urmatoarea este cea
@@ -4860,7 +4860,7 @@ sexului si vom intelege cum conflictele ce apar in jurul
 acestui subiect depind de campul de energie. Sexul, ca
 eveniment in viata umana si parte a omenescului, ar
 putea fi inteles de la baza scarii (pofta trupeasca
-dependenta). Invatatura care ar izvori din aces t camp de
+dependenta). Invatatura care ar izvori din acest camp de
 energic ar fi perceputa ca negativa si asociata cu pacatul
 si suferinta. Dumnezeul acelui nivel fiind un mare
 distrugator, procesul fiind unul al distrugerii, urii de
@@ -4874,7 +4874,7 @@ baza scarii omul este inteles doar ca un corp. Dupa ce
 depasim linia Adevarului (200), omul este vazut din ce in
 ce mai putin ca un trup si, progresiv, apare intelegerea
 ca este un spirit. Totusi, cei care vad omul ca pe un corp
-il condamna si sunt tri sti ca omul este un asemenea
+il condamna si sunt tristi ca omul este un asemenea
 animal. Cei care sunt dominati de frica ar vedea
 sexualitatea cu ingrijorare, teama si panica. Ar trata
 intregul subiect ca fiind inspaimantator si ar crede ca ar
@@ -4912,7 +4912,7 @@ energie cotat in 500 si deasupra acestei valori, se face
 dintr-un loc al iubirii si .1! recunostintei. Este privit ca o
 expresie a hranirii si ingrijirii, a ajutorului si vindecarii,
 iar a face dragoste este un act al vindecarii si iertarii. Cei
-care s -au certat si s-au batut ina inte, se topesc acum
+care s -au certat si s-au batut inainte, se topesc acum
 intr-o imbratisare, iertandu -se, avand grija si
 vindecandu-se unul pe altul. Ei isi reafirma valoarea
 unul altuia. Sexualitatea este astfel un dar si o expresie
@@ -4947,7 +4947,7 @@ toate expresiile sale. Toate intentiile, impulsurile,
 biologia, psihologia si chiar ambitiile spirituale si dorinta
 de a deveni un cautator spiritual pot fi invalidate pentru
 ca, in mod sigur, exista un sceptic care va decide astfel.
-Putem sa iesim in afa ra acestei situatii intelegand
+Putem sa iesim in afara acestei situatii intelegand
 clar ca in lume exista evenimente, exista viata insasi, ca
 natura umana este ceea ce este si ca exista o modalitate
 de a se trai cu asta si de a intelege tot ceea ce manifesta,
@@ -4981,7 +4981,7 @@ ceea ce facem noi si acestea sunt rezultatele. Daca
 continui sa bei, acestea vor fi rezultatele. Nu exista o
 afirmatie de genul „asta e gresit ” sau o invalidare.
 Nimeni nu cauta nici un fel de putere si nici nu-si
-doresc sa exploateze pe nimeni. AA nu are prop rietati,
+doresc sa exploateze pe nimeni. AA nu are proprietati,
 nu are drepturi de autor, nu are guvern, cladiri sau
 stralucire. Este doar un principiu pur spiritual ce
 permite individului sa aiba libertatea de a vedea
@@ -4992,7 +4992,7 @@ calibreaza la 540, asa cum ne asteptam. Un camp
 energetic care vindeca ar trebui sa fie o invatatura cu o
 directie pozitiva si care calibreaza cel putin la 540. AA
 este un exemplu pentru vindecare, fiind bazat pe
-aspectele fizice, me ntale si spirituale ale omului. Se
+aspectele fizice, mentale si spirituale ale omului. Se
 spune ca nu se poate obtine o vindecare, de orice tip de
 
 adictie, daca nu se produce o crestere si o dezvoltare
@@ -5008,7 +5008,7 @@ constient: conceptia despre sine ca ceva ce este separat
 de Dumnezeu. La baza scalei este reprezentarea
 separatiei totale de Dumnezeu.
 Agonia si ura de sine cuprinse in simtamantul,
-sentimentul pacatului nu au adus descope rirea
+sentimentul pacatului nu au adus descoperirea
 Dumnezeului din interiorul pacatului, ci, in schimb, au
 adus predarea, capitularea. In absolut fiecare caz exista
 experienta agonizanta a existentei atat de departe de
@@ -5026,7 +5026,7 @@ in inconstientul lor. A trebuit sa ajunga sa-si recunoasca
 posesia propriei umbre, au trecut prin analiza lucrurilor
 pe care le -au tinut in ei insisi ca fiind cele pe care le
 urau mai mult si apoi au ajuns sa renunte la ele
-(“noaptea neagra a sufletului”). Renun tarea la ceea ce
+(“noaptea neagra a sufletului”). Renuntarea la ceea ce
 era cel mai indepartat de adevar, de la nivelul acelor
 pozitii de la baza scalei, renuntarea la aceste
 
@@ -5072,7 +5072,7 @@ este poarta de iesire inapoi spre Adevar, astfel incat sa
 nu ne pierdem in mlastina.
 Cum putem vedea acea inocenta si sa -i stim
 prezenta? Stim ca fiintele iluminate spun ca toate sunt
-una cu Du mnezeu, deci, ceea ce este inocent intrinsec
+una cu Dumnezeu, deci, ceea ce este inocent intrinsec
 este inauntrul nostru tot timpul. Cunoasterea poate sa
 apara ca rezultat al revelatiei sau intelegerii.
 Daca privim constiinta unui copil vedem inocenta
@@ -5114,7 +5114,7 @@ cu adevarat o „greseala” din punct de vedere spiritual.
 Totul este intentionat odata ce ne -am stabilit intentia de
 a dobandi o intelegere a adevarului si de a fi deschisi
 Gratiei, astfel incat adevarul sa ni se reveleze in orice
-mod ne dorim sau pastram in mintea noastra, in oric e
+mod ne dorim sau pastram in mintea noastra, in orice
 expresie pe care o consideram cea mai potrivita. Este
 important sa retinem ca noi am cerut sa ni se arate tot
 ceea ce este eronat (ignoranta, de exemplu) astfel incat,
@@ -5126,7 +5126,7 @@ noastra ca persoana, ci este inocenta constiintei
 deoarece, ca persoana noi de-abia putem reflecta asupra
 celor universale, cum este si constiinta insasi. Ceea ce s-
 a petrecut, s-a petrecut ca rezultat al naturii constiintei;
-prin u rmare, nu are nici un sens nici sa ne
+prin urmare, nu are nici un sens nici sa ne
 autocondamnam si, reversul medaliei, nici sa ne
 atribuim singuri lauri pentru asta.
 Descoperind natura constiintei insasi si privind in
@@ -5145,7 +5145,7 @@ aceasta inocenta de copil. Indiferent care este varsta
 corpului constiinta ramane neschimbata. Putem asculta
 inima unui copil intr -un trup de adult spunand: „nu”,
 „nu voi face asta ”, „nu vreau ” si asa mai departe.
-Inocenta copi lului vorbeste. Trebuie sa urmarim acest
+Inocenta copilului vorbeste. Trebuie sa urmarim acest
 lucru pentru a preveni crizele spirituale. Vindecam
 conflictele pe masura ce ele apar.
 Reafirmarea inocentei noastre se realizeaza
@@ -5155,13 +5155,13 @@ constiinta sociala si programarea ne -au fost
 supraimpuse, suprapuse peste ceea ce nu este ego ci
 este chiar adevarul si constiinta. Toate crizele spirituale
 apar intr -un sens contextual, legate fiind de modul in
-care este ceva mentinut in cons tiinta noastra. Daca noi
+care este ceva mentinut in constiinta noastra. Daca noi
 credem ca dieta noastra este nespirituala sau ca stilul
 nostru de viata sau cum ne castigam existenta sunt
 nespirituale, toate acestea reflecta un nivel de
 constiinta.
 Cei care au atins niveluri inalte de constiinta nu
-condamna nim ic. Totusi, ei vor spune ca anumite
+condamna nimic. Totusi, ei vor spune ca anumite
 niveluri de constiinta vor avea anumite consecinte, ca
 un anumit stil de viata, unul al vanzarii adevarului
 despre sine, va aduce durere interioara si suferinta. Este
@@ -5180,7 +5180,7 @@ si daca ne poate avertiza ca stari de constiinta foarte
 agonizante, foarte dureroase pot aparea ca urmare a
 anumitor comportamente.
 Intreaga experienta interioara a constiintei umane,
-inclusiv intreaga lucrare spirit uala, reprezinta o
+inclusiv intreaga lucrare spirituala, reprezinta o
 pozitionare, un fel de a fi, o cale de a pastra ceea ce
 vorbim. Chiar daca consideram ca vorbim despre lumea
 exterioara, este de fapt vorba despre o pozitionalitate
@@ -5190,7 +5190,7 @@ ceva, iar durerile si agoniile ce pot rezulta din agatarea
 noastra pun supravietuirea noastra pe seama a ceva ce
 nu este adevarul. Durerea ne spune ca ne -am pus
 supravietuirea in ceva ce este o violare a principiului
-costiintei. Despre asta e vorba in munca, in lucrarea
+constiintei. Despre asta e vorba in munca, in lucrarea
 spirituala.
 Durerea progresiva rezultata din aceste
 pozitionalitati ne spune ca acestea sunt departe de
@@ -5286,7 +5286,7 @@ domeniu important al comportamentului uman.
 Initial vom trece in revista din nou natura relatiei
 dintre corp, minte si spirit. Vom revedea unde este
 experientizata acea experienta umana si vom discuta si
-demistifica insas i constiinta, reveland-o, facand astfel
+demistifica insasi constiinta, reveland-o, facand astfel
 
 incat sa poata fi inteleasa. Ne vom referi la Harta
 Constiintei, ceea ce va fi foarte folositor pentru
@@ -5296,7 +5296,7 @@ mentionat anterior, trupul nu se poate experientiza pe
 sine. Cand vorbesc despre sexualitate, toti, automat, se
 gandesc la corp si la imaginea corpului, la fizicalitatea si
 forma lui. Cand cineva il studiaza, constata cu suficienta
-surprindere ca trupul este nesi mtitor in sensul in care
+surprindere ca trupul este nesimtitor in sensul in care
 nu se poate experientiza pe sine. Bratul nu-si poate trai
 „bratosenia/starea-calitatea de a fi brat ”, piciorul nu-si
 poate trai „piciorenia/starea-calitatea de a fi picior ”.
@@ -5345,7 +5345,7 @@ noastra, dar putem determina cum dorim sa fim noi in
 relatie cu ele. De aceea, poate ca este mult mai
 importanta experienta relatiei cu evenimentele decat
 evenimentele insele. Cu totii stim ca atunci cand suntem
-intr-o anumita disp ozitie, o mica iritare poate fi banala.
+intr-o anumita dispozitie, o mica iritare poate fi banala.
 Totusi, cand suntem intr -o alta dispozitie, acelasi
 eveniment se poate agrava sau chiar ne poate arunca in
 furie. Prin urmare, modul in care contextualizam
@@ -5365,7 +5365,7 @@ intelegem lucrurile. Fiecare nivel are o directie a
 campului de energie, fie pozitiva, fie negativa. Din aceste
 campuri de energie apar emotiile, impreuna cu un
 anumit mod de a privi lumea si de a relationa cu ceea ce
-este mai mare decat sinele nostru individual . I ntregul
+este mai mare decat sinele nostru individual . Intregul
 proces are loc in constiinta.
 Toate vor prinde contur atunci cand vom pune
 problema comparatiei dintre actul sexual de energie
@@ -5410,7 +5410,7 @@ sau al campului de energie joasa.
 Sa ne amintim de povestea din Gradina Edenului.
 Barbat si femeie erau intr -o stare de inocenta intr -un
 camp de energie nonlinear foarte inalt; fiind in acest
-camp ei au mancat din copacul linear al cunoaste rii,
+camp ei au mancat din copacul linear al cunoasterii,
 copacul binelui si raului. Au adus astfel in lume
 dualitatea. In lumea Iubirii nu exista dualitate. In iubire,
 iubirea doar este. Inima nu spune nimic, inima doar
@@ -5436,7 +5436,7 @@ dorinta se afla aversiunea, asa ca sexualitatea este
 caracterizata de dorinta si de aversiune, iar oamenii
 incearca evitarea acestui camp, nedorindu -si sa aiba
 nicio legatura cu el, luand atitudinea moralista prin care
-cineva este superior atunci cand intelege sexualiatea ca
+cineva este superior atunci cand intelege sexualitatea ca
 pe o functie fizica, animalica. Ba chiar degradeaza
 termenul „animal” denumindu-l „carnal”, ca si cum
 lumea animalelor, care a fost si ea creata de Dumnezeu,
@@ -5445,7 +5445,7 @@ in sexualitate, ci in mod constant in interiorul
 constiintei. Aceasta intelegere apare in constiinta din
 modul in care mintea priveste sexualitatea si defineste
 aceste relatii.
-Prin studierea acestor campur i de constiinta am
+Prin studierea acestor campuri de constiinta am
 aflat ca nivelul denumit Curaj are un camp de energie la
 valoarea 200. Sageata este in punctul neutru,
 nemaifiind un sens negativ. Tot ceea ce se afla sub 200
@@ -5475,7 +5475,7 @@ Industria marketingului utilizeaza dorinta,
 frustrarea, lipsa si sentimentul de separatie si incearca
 sa controleze si sa manipuleze oamenii. Vedem o fata
 draguta stand pe bancheta unei masini; dar ce are de -a
-face masina cu fata draguta? Reclama ince arca sa le
+face masina cu fata draguta? Reclama incearca sa le
 conecteze pe cele doua. Daca eu imi iau masina asta,
 sau samponul asta, sau ma coafez in felul asta, sau ma
 dau cu parfumul asta, atunci voi depasi aceasta
@@ -5496,7 +5496,7 @@ promiscuitatea de a merge in pat cu oricine care este
 
 disponibil/a, aceasta dorinta aparand din nevoia de a -si
 dovedi ca este dorit/a.
-Pe partea dreapta a Hartii Constii ntei putem vedea
+Pe partea dreapta a Hartii Constiintei putem vedea
 ca procesul care se petrece la nivelul constiintei in acest
 camp de energie este acela al prinderii in cursa . I n
 constiinta, la acest nivel, odata ce o persoana isi doreste
@@ -5505,9 +5505,9 @@ a vrea c eva incepe sa conduca viata persoanei.
 Gratificatiile temporare esueaza in a fi suficiente datorita
 negativitatii campului, si conduc catre o frustrare fara
 margini, catre dorinta infocata si lascivitate. Nu exista
-nicio implinire, nici un sentiment de fin alitate sau de
+nicio implinire, nici un sentiment de finalitate sau de
 fericire, nu exista decat robia si adictia sexuala.
-Adevarata fer icire nu prevaleaza pana cand
+Adevarata fericire nu prevaleaza pana cand
 persoana nu ajunge in campuri de energie mai inalta;
 prin urmare, incercand sa gasesti fericirea printr -o
 satisfactie care nu are sfarsit, iar pri n ciclica dorinta,
@@ -5531,7 +5531,7 @@ recunoscator pentru ea si recunoscand ca este intrinsec
 frumoasa atunci cand nu este judecata sau mentinuta
 intr-o maniera degradanta.
 Cum poate cineva sa iasa din acest ciclu de
-experienta a sexualitatii intr-un camp de ene rgie diferit
+experienta a sexualitatii intr-un camp de energie diferit
 si sa se vindece acolo? Cum poate cineva sa renunte la a
 fi „sub efectul ” sau controlat de, dominat de acest
 instinct si condus de procesul repetitiv al recircularii
@@ -5559,7 +5559,7 @@ statutului, atractia sexuala devine un simbol iluzoriu al
 „puterii”, iar infrumusetarea omului devine, de
 asemenea, un simbol al conditiei sale, si o alta cale de a
 controla, manipula, de a incerca sa influenteze
-aprecierea valorii personale . I ngrijorarea, anxietatea,
+aprecierea valorii personale . Ingrijorarea, anxietatea,
 rusinea, starea de a vrea mereu ceva, resentimentul
 izvorasc din acest camp care, deseori, conduce catre
 
@@ -5603,7 +5603,7 @@ care, insa, elimina doar vinovatia. Ei ori trebuie sa
 renunte la perspectiva fata de Dumnezeu si religie, ori sa
 renunte la sexualitate. Petru unii oameni acesta este un
 conflict imposibil de rezolvat si multi dintre ei sfarsesc
-prin a deveni atei pen tru ca nu gasesc alta cale de
+prin a deveni atei pentru ca nu gasesc alta cale de
 rezolvare a omenescului din ei si a credintei lor fata de
 Dumnezeu.
 Cum poate iesi cineva de sub dominatia acestui
@@ -5644,7 +5644,7 @@ Exista o tehnica ce a functionat cu problemele de
 greutate, cu durerile si cu o mare varietate de boli.
 Principiul de baza functioneaza la fel, indiferent d e
 problema. Cand apar energia, sentimentul, expresia sau
-dorinta, mai inta i renuntati la a o mai eticheta sau
+dorinta, mai intai renuntati la a o mai eticheta sau
 denumi in vreun fel. Renuntati la fantezie, la imagini,
 poze si, in loc, permiteti -va sa experimentati ceea ce se
 intampla si senzatiile care apar. Renuntand la a va
@@ -5658,11 +5658,11 @@ inauntru cu sentimentul ca -ti doresti, cu dorinta
 puternica de a avea, cu pofta aducatoare de frustrare.
 Daca ne uitam la situatie si anulam continutul, ce
 anume ne dorim, fie ca sunt diamante, o haina de blana
-sau corpul altei persoane, intelegem ca experi enta in
+sau corpul altei persoane, intelegem ca experienta in
 sine nu este placuta. A dori si a nu avea, in special in
 acel moment, nu este deloc placut. A dori o friptura si
 ari simti mirosul, dar a nu fi capabil sa o si mananci
-este foarte f rustrant. Daca tinem o friptura in fata
+este foarte frustrant. Daca tinem o friptura in fata
 nasului unui caine caruia nu i se permite sa o manance,
 ce se petrece cu el? Este fericit? Este bucuros ca este in
 viata? Daca acest lucru continua suficient de mult timp,
@@ -5692,11 +5692,11 @@ fost rasplatit, gratificat, acum, in locul lor, exista starea
 de pace.
 Acelasi lucru se intampla cand renuntam la a mai
 opune rezistenta pentru poftele alimentare tot timpul.
-Pana la urma l acomia cedeaza. Sunt multe feluri de
+Pana la urma lacomia cedeaza. Sunt multe feluri de
 lacomie. Poate fi lacomia dupa un lucru exterior. Ceea ce
 lumea denumeste sexualitate deseori este de fapt o
 aviditate, o dorinta de a avea, o nesfarsita stare de a dori
-care se manifesta, conduce si domina oamenii si vie tile
+care se manifesta, conduce si domina oamenii si vietile
 lor.
 In locul acestei stari apare o stare de pace interioara
 si seninatate. E ca si cum s -ar fi rezolvat intreaga
@@ -5732,18 +5732,18 @@ guma de mestecat sau orice altceva vinde fata cea
 draguta. Vointa de a transcende limitarile ne muta mai
 sus catre acceptare si ne permite sa ne simtim bine in
 pielea noastra si increzatori. A te simti corespunzator
-apare dintr -o cunoastere interio ara ca, intr -un fel,
+apare dintr -o cunoastere interioara ca, intr -un fel,
 cumva, viata ne-a dat un raspuns la o intrebare.
 Acolo unde era frustrare acum exista libertatea si
 sentimentul de multumire de sine ca fiinta umana si cu
 mult mai multa incredere. Apare vointa de a incepe
 
-mutarea in iubire. Lumea ince pe sa para mai
+mutarea in iubire. Lumea incepe sa para mai
 prietenoasa. Daca sexul este dorit si suntem frustrati de
 a nu -l trai, lumea nu poate parea prea prietenoasa.
 Dupa ce renuntam la dorinta si la imaginile si fanteziile
 mentale asociate ei, lumea incepe sa para mult mai
-armonioasa, mai priete noasa, permitandu -ne libertatea
+armonioasa, mai prietenoasa, permitandu -ne libertatea
 de a ne bucura de sansele exprimarii sexuale.
 Iesind din taramul dorintei inspre acceptare, ne
 mutam intr - un camp de energie unde incepem sa ne
@@ -5767,7 +5767,7 @@ schimbul intre a da si a primi, astfel ca auzim expresii
 despre viata sexuala provenind de la baieti adolescenti
 atunci cand se aduna intr -un vestiar de tipul: „Ai
 obtinut ceva asta-noapte?”
-Pe masura ce ne distantam de campurile de ener gie
+Pe masura ce ne distantam de campurile de energie
 joasa ale lui a da si a primi descoperim campul de
 energie mediu al lui „a face”. In acest caz oamenii sunt
 preocupati cu actiunea sexului ”. Hai s -o facem ” este
@@ -5808,7 +5808,7 @@ a vrea, acestea vor disparea din viata noastra.
 Cercetarea, experienta si experienta clinica
 demonstreaza ca este chiar pe dos. Starea de a dori
 
-neaparat si de a vrea determina aparitia unei rez istente,
+neaparat si de a vrea determina aparitia unei rezistente,
 astfel ca ceea ce ne dorim va crea o stare de opunere a
 rezistentei in cealalta persoana. Cand un vanzator se
 adreseaza oamenilor in binecunoscutul stil al agentilor
@@ -5836,12 +5836,12 @@ posibil sa experimenteze o incredibilii frumusete,
 perfectiune si, intr-adevar, sacralitatea expresiei fiintarii
 noastre - emotia, bucuria si experienta campului
 energiei viului nostru, starii de a fi vii. Astfel se traieste
-ca o sexualitate a iubirii, iar iu birea sexualitatii ca o
+ca o sexualitate a iubirii, iar iubirea sexualitatii ca o
 expresie a iubirii.
 Prin contrast, starea de a dori pare sa aduca cu ea
 un camp de energie care include vinovatia, apatia sau
 suferinta si apoi, frustrarea, frica, furia, mandria si
-anxietatea legata de performanta. Cand suntem libe ri de
+anxietatea legata de performanta. Cand suntem liberi de
 
 starea de dorinta extrema, suntem eliberati si de
 vinovatie si repros, de anticiparile ca poale n -o sa se
@@ -5852,7 +5852,7 @@ mai importanta, crescand aprecierea pentru fericirea
 celeilalte persoane. La niveluri joase de constiinta,
 oamenii nu au experienta energici celeilalte persoane; ei
 traiesc doar energia lor. Atractivitatea sexuala, pe cat de
-uluitor p oate parea, nu isi are originea in lumea
+uluitor poate parea, nu isi are originea in lumea
 exterioara. Este ceva proiectat de catre o persoana
 asupra lumii, intr -o societate poate sa fie extrem de
 atragator sa fii slab, in alta a fi plinut este atragator, ori
@@ -5867,11 +5867,11 @@ Din starea de iubire se naste dorinta de a
 experimenta energia celeilalte persoane . I n acel spatiu
 clar masculinitatea si feminitatea sunt ambele atractive.
 E ca si cum barbatul universal este cu femeia
-universala, tre cand dincolo de personalitate . I n locul
+universala, trecand dincolo de personalitate . I n locul
 unei experiente fizice locale acum se traiesc sentimente
 mult diferite, sentimentul de expansiune si cel de unire
 ce apar din experienta de a fi cu energia celeilalte
-persoane. Poate cu doar o secunda inainte nu exis ta
+persoane. Poate cu doar o secunda inainte nu exista
 niciun gand despre sex in mintea nici unuia. Cuplul
 asteapta sa sara felia de paine din prajitorul de paine. Si
 apoi apare o imbratisare realizata intr-un camp care este
@@ -5885,7 +5885,7 @@ energia acelei persoane. Spontaneitatea acestui lucru nu
 se naste din starea de a dori, ci din spatiul esential al
 vietii si din energia „fiitului” impreuna cu cealalta
 persoana. Este o experienta difuza si cuprinzatoare, este
-o bucurie si o recunostinta p entru oportunitatea de a fi
+o bucurie si o recunostinta pentru oportunitatea de a fi
 impreuna cu acea energie . I nalta bucurie si placere a
 acestui fapt aduce un sens al totalitatii si
 completitudinii. In clipa cand apare o asemenea dorinta
@@ -5903,19 +5903,19 @@ privinta reducerii greutatii corporale, daca renuntam si
 dispare starea de foame, dorinta pentru mancare si
 starea de a ne lasa condusi de foame, sensul dorintei de
 a manca apare acum chiar in timpul procesului de a
-manca. Cand ne asezam la masa nu mai e xista vreo
+manca. Cand ne asezam la masa nu mai exista vreo
 senzatie de foame sau pofta, dar, pe masura ce mancam,
 ne bucuram de aceasta placere. Daca, totusi, suna
 soneria chiar in clipa in care mancam o friptura, putem
 renunta la masa sa fim impreuna cu prietenul sosit, fara
-sa avem sentimentul pierder ii sau al lipsei. Este ca si
+sa avem sentimentul pierderii sau al lipsei. Este ca si
 cum completitudinea insoteste bucuria noastra . I n loc
 de a veni dintr-o stare de a vrea, de a ravni, venim dintr-
 o stare in care am experimentat deja ceea ce am dorit si
 
 mergem mai departe. Stim cum este asta in sex, cum
 este in actul de a manca - anticipam mereu urmatoarea
-inghititura, urmatoarea senzatie . I ntotdeauna
+inghititura, urmatoarea senzatie . Intotdeauna
 anticipam. Este ca si cum am ajunge acolo unde exista
 acel cure nt interior intre ceea ce se intampla chiar in
 aceasta clipa si ceea c e ne dorim, ravnim, tanjim sa se
@@ -5928,7 +5928,7 @@ sentimentul pierderii. Intr-o stare foarte inalta de energie
 a bucuriei si extazului nu exista sentimentul pierderii.
 Cineva poate inchide televizorul la care ne uitam fara sa
 traim sentimentul pierderii. Si asta pentru ca
-experientizam fara controlul exe rcitat de anticipatie.
+experientizam fara controlul exercitat de anticipatie.
 Natura experientizarii apare din completitudinea fiecarui
 moment. A fi cu acea persoana acum, a se simti una cu
 energia ei, a simti acceptarea, a simti „viiciunea” acelei
@@ -5937,7 +5937,7 @@ experiente. Nu exista nici un „trebuie sa ” pentru a
 continua experienta ca o consecinta a proiectarii
 completitudinii intr -un viitor anticipat. Placerea de a
 manca este perfecta fara de anticiparea urmatoarei
-inghitituri. In campurile joase de energie ale constiint ei
+inghitituri. In campurile joase de energie ale constiintei
 viata este experimentata ca o trecere de la incomplet la
 complet. In campurile inalte ale constiintei viata se muta
 de la complet la complet.
@@ -5963,7 +5963,7 @@ ceea ce gandim ca suntem si ceea ce ne dorim. Starea de
 a dori si ce ne dorim sunt separate in mod dualist ca
 fiind subiectul si obiectul. Pe masura ce renuntam si ne
 eliberam, incepem sa experimentam viata ca ceva care
-se desfasoara spontan de la sine . I ncepem sa avem
+se desfasoara spontan de la sine . Incepem sa avem
 recunostinta si respect pentru natura acestei experiente.
 Devine precum starea descrisa de mistici. Ce este un
 mistic? Este o persoana care a renuntat cu adevarat la
@@ -5996,7 +5996,7 @@ este nelimitata pentru ca iubirea este nelimitata.
 Daca privim injur observam expresia iubirii oriunde.
 Nu are inceput si nu are sfarsit. Nu are nicio limitare.
 Singurul lucru care o limiteaza este dorinta noastra de a
-o exp erimenta si de a fi deschisi catre ea. Este ca un
+o experimenta si de a fi deschisi catre ea. Este ca un
 ocean infinit, asa ca, atunci cand devenim deschisi,
 renuntand la ceea ce i se opune, devenim noi insine o
 expresie a acelei iubiri. Este traita in continuare ca un
@@ -6027,7 +6027,7 @@ expresie a unitatii lor realizate din acel intens sentiment
 al „viiciunii” si al bucuriei. Recontextualizarea rezolva
 problemele despre care a vorbit omul si care au de-a face
 cu sexualitatea pentru ca, in plan subtil, in aceasta
-experienta interioara se realizeaza reconectar ea cu
+experienta interioara se realizeaza reconectarea cu
 bucuria inocentei noastre . Intreaga chestiune legata de
 dilema cu privire la Dumnezeu - daca aproba sau nu
 sexul - dispare Traind experienta acelei „viiciuni a vietii”,
@@ -6036,10 +6036,10 @@ de pace interioara si completitudine (pentru ca aceasta
 este completitudinea: pacea), descoperim ca pacea este
 acel simtamant de unitate absoluta si de reunire cu ceea
 ce este unitatea . I n cadrul sexualitatii ce izvoras te din
-inima regasim intoarcerea la experienta de a fi compl et
+inima regasim intoarcerea la experienta de a fi complet
 Aceasta este calitatea mistica a transcendentei, un
 simtamant de a fi peste tot, oriunde, nelimitat. Cand
-apare acest simtaman t al unitatii este ca si cum am
+apare acest simtamant al unitatii este ca si cum am
 transcende toate timpurile, ca si cum am fi fost toti
 barbatii si toate femeile dintotdeauna. Suntem acum
 stapanii sursei, suntem ceea ce determina aparitia
@@ -6058,7 +6058,7 @@ fizicalitatea locala a corpului este cea a tehnicii
 traditionale de meditatie prin care concentrarea atentiei
 se face asupra unui punct aflat la 2 centimetri sub
 ombilic si pastrarea atentiei in acel punct pe durata
-intregii experiente . I ncercati. Acesta este un punct pe
+intregii experiente . Incercati. Acesta este un punct pe
 care japonezii il denumesc „hara”. Este folosit in artele
 martiale cand cineva se concentreaza sau se centreaza.
 In loc sa fiti atenti la miscarile corpului, la manipulari,
@@ -6073,7 +6073,7 @@ concentrati pe local, experimentati acum dintr -un camp
 mult mai general . Incercati asta ca modalitate de a iesi
 din experienta zonala, inaltandu-va catre inima. Mutati -
 va in acel punct denumit „hara” si observati schimbarea
-calitatii experie ntei. Cand depasim localizarea, intram
+calitatii experientei. Cand depasim localizarea, intram
 intr-un camp diferit de energie, intreaga experienta
 devine una a expansiunii, o experienta expandata cu
 mult mai multa intensitate, mult mai multe impliniri si
@@ -6110,17 +6110,17 @@ Cum se coreleaza relatia dintre corp, minte si suflet
 cu procesul imbatranirii? Vom afla cum sa ne
 identificam cu aspectul real din noi si sa lasam deoparte
 acele identificari cu ceea ce nu este real.
-Unde experimenteaza/traieste un om experi enta?
+Unde experimenteaza/traieste un om experienta?
 Cand am atins acest domeniu in cercetarea noastra, am
 descoperit ca noi nu suntem subiectul multora dintre
 lucrurile pe care lumea le crede ca fiind inevitabile.
 Imbatranirea este o serie de identificari precum si de
-programe, stereotipii, tipare com portamentale si
+programe, stereotipii, tipare comportamentale si
 scenarii. Ceea ce experientizeaza viata nu are varsta si
 nu este subiectul imbatranirii. Trebuie sa ne intrebam
 daca suntem ceea ce experientizam sau daca suntem cei
 care experientizeaza. Sunt de luat in considerare
-miturile legate de varst a de mijloc, tiparele de sanatate,
+miturile legate de varsta de mijloc, tiparele de sanatate,
 tiparele sexuale si problemele legate de greutatea
 corporala despre care se spune ca apar la varsta de
 mijloc, precum si afirmatia ca trupul face ceea ce mintea
@@ -6137,13 +6137,13 @@ impartasire face o mare si importanta diferenta. Exista
 experimente de hipnoza pe care le vom trece in revista,
 impreuna cu lucruri ciudate care s -au petrecut in
 domeniul stiintific, inclusiv un exemplu clinic denumit
-„progeria”. I mbatranirea va fi considerata ca facand
+„progeria”. Imbatranirea va fi considerata ca facand
 
 parte din categoria fenomenelor. Vom studia, de
 asemenea, relatia sexului cu varsta. Intregul domeniu al
 imbatranirii preocupa pe toata lumea pe masura ce
 inainteaza in varsta, iar faptele si fanteziile pot fi
-examinate si redefinite utilizand cunoa sterea naturii
+examinate si redefinite utilizand cunoasterea naturii
 constiintei insasi.
 Harta Constiintei ne pune din nou la dispozitie o
 orientare despre subiectul comportamentul uman si
@@ -6152,7 +6152,7 @@ numeric ce arata valori relative, directii ale campurilor
 de energie ale nivelurilor constiintei, precum si relativa
 lor putere, incepand cu moartea, calibrata la zero si
 Extazul calibrat la 600, de exemplu. Apatia la 50 este
-mai slaba ca frica la 100. Frica are mai putina energi e
+mai slaba ca frica la 100. Frica are mai putina energie
 decat Curajul calibrat la 200.
 La nivelul Neutralitatii totul este in regula si totusi
 exista mai putina energie fata de nivelul Iubirii, 500.
@@ -6165,7 +6165,7 @@ mentin sacra.
 Campurile de energie sub valoarea 200 se opun
 vietii, nu sprijina viata si, de fapt, la baza scalei ele devin
 chiar foarte distructive. Pierderea de energie, pierderea
-sufletului, deflatia, prinderea in capcana, inga mfarea si
+sufletului, deflatia, prinderea in capcana, ingamfarea si
 infatuarea sunt toate procese negative ce conduc spre o
 viziune negativa despre lume. Conduc, de asemenea, si
 spre a-l vedea pe Dumnezeu intr -un mod foarte negativ
@@ -6179,7 +6179,7 @@ intelegem prin reflectare interioara si contemplare ca
 trupul nu este capabil sa se experientizeze pe sine. Nu
 putem repeta acest lucru atat de des pe cat am vrea.
 Corpul nu are capacitatea de a se experimenta/ trai/
-experientiza pe sine. Cu noasterea despre corp si ce se
+experientiza pe sine. Cunoasterea despre corp si ce se
 petrece cu el apare din senzatiile lui, dar senzatiile, prin
 ele insele, nu au capacitatea de a se experientiza
 singure. Aceasta experienta trebuie ca are loc in alta
@@ -6299,7 +6299,7 @@ exista optiuni si ca ceea ce credem, cele in care ne
 punem increderea si lucrurilor carora le permitem sa ne
 programeze devin sursa, programul si scenariul nostru,
 iar acest scenariu incepe sa se exprime pe sine la nivel
-fizic. Cand il observam la nivel fizic, m intea, datorita
+fizic. Cand il observam la nivel fizic, mintea, datorita
 naivitatii sale, trage concluzia ca situatia se petrece la
 nivelul fizic. Mintea naiva vede cauzalitatea la nivelul
 planului fizic A ce cauzeaza pe B care il cauzeaza pe C in
@@ -6319,7 +6319,7 @@ care este cauza lui C. Nu suspecteaza niciodata ca
 aceasta cauzalitate a lui ABC apare simultan si deodata
 dintr-un alt si diferit nivel.
 Nivelul cauzei, acolo unde este puterea, este nivelul
-mintii Lumea fizica este lumea efectului. Cr eeaza pe
+mintii Lumea fizica este lumea efectului. Creeaza pe
 ABC. Daca mentinem un tipar in minte despre cum
 arata imbatranirea si credem ca asta trebuie sa se
 intample, cream la nivel fizic pe ABC - oamenii decrepiti
@@ -6329,7 +6329,7 @@ cineva atunci cand are 80 de ani, asa ca, si noi vom
 arata la fel atunci cand vom avea 80 de ani. Daca ar fi sa
 ne uitam inapoi in mintea unei persoane batrane si am
 putea vedea imaginile pe care ea le avea despre cum
-arata un om batr an, am putea observa ca acea imagine
+arata un om batran, am putea observa ca acea imagine
 arata exact la fel cum arata batranul din fata noastra
 pentru ca aceea este imaginea lui despre cum arata
 batranetea.
@@ -6368,7 +6368,7 @@ Crede in orice top, in orice reclama si in fiecare remarca
 pe care o fac oamenii. Crede ceea ce vede. Nu are nicio
 modalitate de evaluare si nu are discernamant. Trebuie
 sa incepem sa ne asumam responsabilitatea si sa
-spunem: „Observ ca mintea mea este intrinsec inoce nta,
+spunem: „Observ ca mintea mea este intrinsec inocenta,
 si pentru ca inocenta mintii copilului se afla in
 continuare in mine, de -a lungul vietii, trebuie sa incep
 sa fiu atent la ce a crezut pana acum”.
@@ -6407,18 +6407,18 @@ intregului corp - arata ce crede el despre ce aduce cu ea
 batranetea.
 Primul lucru pe care trebuie sa -l intelegem este ca
 avem optiuni. Putem alege sa fim diferiti si sa renuntam
-la sistemele de credinte din familia noastra. Pute m privi
+la sistemele de credinte din familia noastra. Putem privi
 inapoi si putem gasi de unde provin sistemele de
 credinte referitoare la varsta de mijloc si la procesul de
 imbatranire. Ce le formeaza? Putem privi in copilaria
 noastra si sa vedem relatia cu parintii nostri, si, de
-asemenea, sa ne uitam la perioa da in care parintii se
+asemenea, sa ne uitam la perioada in care parintii se
 aflau la varsta de mijloc. Cand studiem perioada varstei
 mijlocii la parintii nostri putem sa ne amintim tiparul ce
 poate fi vazut exact ca o fotografie.
 
 Pentru unii barbati, varsta de mijloc inseamna burta
-umflata de bere, stand aca sa obosit si descurajat,
+umflata de bere, stand acasa obosit si descurajat,
 uitandu-se la televizor, plangandu-se de viata cu remarci
 precum „Nu mai am aceeasi energie ca pe vremuri ” sau
 auzind gandul „ei, pai ai trecut de creasta ”, iar barbatii
@@ -6487,9 +6487,9 @@ Bineinteles, pastram in mintea noastra lucrurile de
 care ne temem, iar ceea ce mentinem in minte tinde sa
 se manifeste. Asa ca, frica de batranete, acele lucruri de
 
-care incepem sa ne teme m sunt exact acele lucruri care
+care incepem sa ne temem sunt exact acele lucruri care
 incep sa se manifeste. Este de ajutor sa ne intoarcem la
-intelegerea ca exista o optiune astfel i ncat sa nu credem
+intelegerea ca exista o optiune astfel incat sa nu credem
 in aceste imagini. In oricare imagine credem, aceea se va
 manifesta in viata noastra, de aceea trebuie sa fim atenti
 in ce ne incredem. Trebuie sa devenim gardianul mintii
@@ -6508,7 +6508,7 @@ amnezici pe care o avem in legatura cu remarcile pe care
 le-am auzit de la altii in timpul copilariei noastre.
 Oamenii cauta printre amintirile lor si spun: „Nu-mi
 amintesc sa fi crezut vreodata asa un lucru”. De fapt, nu
-suntem constienti majori tatea vietii noastre si suferim
+suntem constienti majoritatea vietii noastre si suferim
 de amnezie despre mai toata viata noastra din cauza
 milioanelor de lucruri pe care ni le amintim. Ceea ce nu
 intelegem este cum de exista atatea secunde intr -o
@@ -6517,13 +6517,13 @@ secunda a fiecarei zile? Suntem norocosi daca ne putem
 aminti ce am mancat ieri dimineata. De aceea, mare
 parte din ceea ce s -a petrecut in viata noastra este uitat
 si nu este disponibil pentru o reamintire imediata.
-Privind corpul putem observa ce programe au fost al ese;
+Privind corpul putem observa ce programe au fost alese;
 ce sisteme de credinte au existat, ce s -a crezut a fi de
 valoare sau a fost iubit, ori viceversa, si care au fost
 
 temerile ce au ajuns a fi aduse in manifestare datorita
 faptului ca frica a fost mentinuta in minte.
-Tiparele imbatranirii urmeaza, de as emenea, o
+Tiparele imbatranirii urmeaza, de asemenea, o
 anumita categorie de fenomene, iar imaginea varstei si
 imbatranirii contine in ea si pe cea a unei mari
 longevitati. Este foarte normal pentru oamenii din ziua
@@ -6597,7 +6597,7 @@ aspiratii si poate analiza avantajele programelor diferite.
 Acesta este unul din motivele pentru care le alegem.
 Este necesar sa cautam sa intelegem daca suntem
 dispusi sa renuntam la acele programe care nu ne sunt
-benefice pentru castigul sau be neficiul pe care l-am
+benefice pentru castigul sau beneficiul pe care l-am
 primi in urma lor.
 Viata noastra, corpul nostru si ceea ce se petrece in
 viata sunt proiectii ale lucrurilor pe care le-am pastrat in
@@ -6617,7 +6617,7 @@ este necesar sa le anulam si sa insistam asupra
 adevarului. Constiinta colectiva, campul de energie al
 lumii trebuie sa fie luat in considerare in mod constant
 pentru ca lumea ne reprogrameaza mereu. S -ar putea
-chiar ca o credinta sa se rei nstaleze in urma auzirii in
+chiar ca o credinta sa serei nstaleze in urma auzirii in
 trecere a unei remarci. Avem nevoie de multa vigilenta
 pentru a desface toate sistemele de credinte din
 interiorul mintii.
@@ -6643,7 +6643,7 @@ slabeasca pe masura ce trece prin varsta de mijloc si ca
 vom avea nevoie de lentile bifocale. Iar la sfarsitul
 perioadei acesteia, vom avea nevoie de lentile trifocale cu
 siguranta.
-La vremea stadiului trifocal eram implicat in aces t
+La vremea stadiului trifocal eram implicat in acest
 tip de studiu si cercetare. I ntr-o zi, impartaseam
 studentilor despre toate bolile fizice la care a trebuit sa
 renunt folosind aceste tehnici de constiinta - era o lista
@@ -6663,7 +6663,7 @@ saptamani ce au urmat, mobilitatea mea a fost oarecum
 limitata de incapacitatea de a vedea mai mult decat la
 un metru in fata mea. Eram miop si nu vedeam la
 distanta si aveam, de asemenea, si astigmatism. Nu
-puteam citi nimi c si nici nu puteam vedea ceva la
+puteam citi nimic si nici nu puteam vedea ceva la
 distanta.
  Dupa aproape 6 saptamani de constanta si
 constienta renuntare la aceasta limitare, m-am predat ei
@@ -6678,7 +6678,7 @@ Care este voia lui Dumnezeu pentru noi? Voia Iui
 Dumnezeii pentru noi este completa si totala fericire,
 intregire si unitate. Dupa ce m -am predat voii lui
 Dumnezeu, dintr -odata, intr -o singura clipa, vederea
-mea a revenit si, dupa o viata de purta t ochelari, era
+mea a revenit si, dupa o viata de purtat ochelari, era
 absolut perfecta.
 Nu are importanta cat timp pastram un sistem de
 credinte. Acesta fusese prezent intreaga mea viata si
@@ -6705,7 +6705,7 @@ mod de a ii si de a decide in avans pentru cum ne vom
 simti in legatura cu acel eveniment, acea hotarare sau
 acel fapt.
 Referindu-ne la Harta Constiintei putem observa ca
-exista diverse campuri de energ ie si niveluri de
+exista diverse campuri de energie si niveluri de
 constiinta. Baza scalei reprezinta cel mai inconstient
 nivel care este cel mai indepartai de adevar si cel mai
 apropiat de moarte . I n varful scalei, datorita sporirii
@@ -6730,12 +6730,12 @@ suferintei. Chiar se teme de moarte pentru ca, din
 vinovatia sa, vede un Dumnezeu foarte punitiv. Exista si
 frica de batranete, laolalta cu parerea ca este un proces
 
-al distrugerii care vine din acest si stem de credinte din
+al distrugerii care vine din acest sistem de credinte din
 viata lor care le permite sa cada in domeniul acestei
 perspective distrugatoare.
 Un camp de energie putin mai inalt, dar inca foarte
 aproape de sinuciderea pasiva este acela in care isi
-permite sa moara prin faptul ca nu-i pasa suficie nt de
+permite sa moara prin faptul ca nu-i pasa suficient de
 sine. Acesta este campul Apatiei cu un nivel calibrat la
 50. Este o atitudine negativa, una de lipsa de speranta si
 disperare in care apare pierderea energiei. Din aceasta
@@ -6745,7 +6745,7 @@ harnasamentul are putere asupra noastra si pare ca
 batranetea si tot ce tine de ea, precum elementele fizice
 sunt fara de speranta. Se manifesta o pierdere de
 energie in aceasta atitudine fata de lume. Iar pierderea
-energiei inseamna ca, da torita lipsei de speranta si a
+energiei inseamna ca, datorita lipsei de speranta si a
 disperarii, nu mai avem putere, energie sa ne descurcam
 cu viata. Prin urmare ne vedem propria viata si viata in
 lume ca pe ceva lipsit de speranta, iar pe Dumnezeu il
@@ -6759,12 +6759,12 @@ sexuale, pierderea atractiei fizice si abilitatilor de
 seductie sexuala, pierderea acuitatii mentale, a posturii
 si a puterii in lume. Nesfarsita jelire a acestor lucruri
 pierdute are efect in aparitia regretului, perspectiva vietii
-de mijloc si a bat ranetii fiind una a declinului. Oamenii
+de mijloc si a batranetii fiind una a declinului. Oamenii
 devin lipsiti de umor si chef de viata in general. Varsta
 de mijloc este una a tristetii. Ei privesc viata, viitorul si
 imbatranirea progresiva ca pe ceva trist. Li se pare ca
 
-Dumnezeu ii ignora si nu ii pasa de proc esul
+Dumnezeu ii ignora si nu ii pasa de procesul
 imbatranirii.
 La urmatorul nivel de energie intalnim Frica, iar
 aceasta energie poate fi utilizata intr-un mod pozitiv. De
@@ -6784,7 +6784,7 @@ ravnirea intensa si dorinta mare de a schimba toate
 astea. Un aspect al acesteia este dependenta dobandita
 fata de starea a fi tanar si viziunea ca viata exista acolo
 unde exista tineretea. Apare cultul tineretii, ceea ce
-exprima frica de imbatranir e, manifestat intr -o dorinta
+exprima frica de imbatranire, manifestat intr -o dorinta
 nebuneasca de a se agata de tinerete. Unii oameni sunt
 incapabili sa imbatraneasca cu gratie, avand
 comportamente neadecvate datorita incapacitatii lor de a
@@ -6794,7 +6794,7 @@ prezenta oricand. Aceeasi energie de viata dintr -un copil
 se afla si intr-un batran.
 Urmatorul nivel de energie este acela al Furiei. La
 gandul ca este supus imbatranirii si este victima
-intregului proces, ca timpul calend aristic are putere
+intregului proces, ca timpul calendaristic are putere
 asupra sa, asupra vietii sale, apare furia. Acestea sunt
 campuri de energie negativa, iar in practica ele sunt, de
 obicei, amestecate cu alte niveluri. Foarte rar se
@@ -6838,7 +6838,7 @@ observam ca oamenii incep sa-si redobandeasca puterea.
 Bunavointa de a accepta adevarul schimba acum
 campul de energie de la sensul negativ la cel pozitiv.
 Adevarul este ca noi suntem sursa celor ce se petrec in
-viata noastra. Noi suntem sursa datorita calitat ii de a
+viata noastra. Noi suntem sursa datorita calitatii de a
 crede si de a fi posesorii acestor sisteme de credinte. Noi
 le aducem in viata noastra. Adevarul este ca avem de
 ales. In clipa in care intelegem ca avem optiuni, putem
@@ -6849,7 +6849,7 @@ Putem avansa la starea de iubire si incepem sa ne
 asumam responsabilitatea pentru a ne iubi cu adevarat
 pe noi insine.
 Putem incepe sa ne purtam de grija, sa ne ajutam si
-sa ne iertam pe noi insine pent ru caderea in aceste
+sa ne iertam pe noi insine pentru caderea in aceste
 tipare de gandire. De ce aluneca oamenii in asemenea
 tipare de gandire? Din cauza inocentei si a naivitatii. Noi
 credem ca aceasta este calea, nu exista niciun gand pe
@@ -6865,7 +6865,7 @@ vine ca un fel de revelatie, o deschidere brusca a mintii.
 Calea de a evita limitarea este de a incepe sa avem o
 minte deschisa si o bunavointa de a vedea optiunile, de
 a vedea ca avem cu adevarat optiuni. Apoi lumea devine
-mai buna . I ncepem sa iubim peisajele pentru ca
+mai buna . Incepem sa iubim peisajele pentru ca
 incepem sa intelegem avantajele varstei mijlocii si pe
 
 cele ale varstei a treia. Sunt multi oameni care se uita
@@ -6931,7 +6931,7 @@ mai repede. Rezultatul a fost ca tot ce inseamna sindrom
 premenstrual, retinerea apei in tesuturi, luarea in
 greutate, balonarea, eructatiile, durerile si colicile
 abdominale - toate cele de care se plang femeile - s-au
-petrecut cu doua saptamani mai devrem e pentru ca ele
+petrecut cu doua saptamani mai devreme pentru ca ele
 au pastrat in mintea lor aceasta idee. Aceasta
 demonstreaza intensitatea sugestibilitatii, intregul
 sistem de credinte in sindromul premenstrual si
@@ -6970,7 +6970,7 @@ ceea ce a fost descoperit - ca avem o optiune, ca putem
 alege si ca nu suntem victime. Felul in care iesim din
 asta este sa alegem sa mergem mai sus pe scara,
 avansand inspre varful Hartii Constiintei si sa realizam
-ca nu este fara spera nta. Prin instruire, auzind si stiind
+ca nu este fara speranta. Prin instruire, auzind si stiind
 despre asta, incepem sa intelegem ca viata nu este fara
 
 de speranta, desi mintea o sa vrea si ea sa se scuze, sa
@@ -6997,7 +6997,7 @@ ce facem. A face este foarte important, iar ceea ce facem
 este inteles ca o cauza. De vreme ce suntem importanti
 pentru ceea ce facem, se pune un mare accent pe
 „facere”. Ne dorim sa ramanem in a face ca efect, mai
-degraba decat ca si cauza. Ceea ce f acem provine din
+degraba decat ca si cauza. Ceea ce facem provine din
 ceea ce pastram in mintea noastra sau in tiparele
 credintelor noastre, asa ca actiunea este rezultatul si nu
 cauza.
@@ -7050,7 +7050,7 @@ vedem ca poate fi fericit facand ceea ce face cu foarte
 putin efort.
 Renuntand la toate sistemele de convingeri negative
 despre boala putem deveni doritori a renunta la toate
-acele luc ruri precum imbatranirea, ne putem bucura
+acele lucruri precum imbatranirea, ne putem bucura
 treptat de un corp din ce in ce mai sanatos. Corpul se va
 bucura acum si va deveni considerabil mai sanatos
 decat era cu 30 de ani in urma. Odata cu avansarea in
@@ -7130,7 +7130,7 @@ adevarul.
 In timpul unor experiente catastrofale viata devine
 brusc un cosmar, iar persoana este dintr-odata covarsita
 de o furtuna di emotii. Totusi, exista tehnici pentru a ne
-rezolva aces te evenimente acute, pentru a le scurta
+rezolva aceste evenimente acute, pentru a le scurta
 durata, pentru a usura durerea si suferinta si a diminua
 stresul la minimum.
 Toate aceste experiente majore de viata au ce va in
@@ -7138,12 +7138,12 @@ comun prin faptul ca ele, toate, reprezinta o pierdere
 grava, catastrofal a pentru minte si o amenintare la
 supravietuire, indica o schimba re majora si mai au in
 comun sentimentul de lipsa de putere ivit din natura
-finalitatii si a permanentei lor. Mi ntea percepe ca es te
+finalitatii si a permanentei lor. Mintea percepe ca es te
 oprita si nu poate face nimic in legatura cu aceste
 evenimente. Se petrece acel fenomen datorita caruia ea
 este permanent oprita, este lipsita de putere si nu poate
 schimba evenimentul care contribuie la intensitatea
-acelei mari supara ri. Felul in care rezolva aceasta
+acelei mari suparari. Felul in care rezolva aceasta
 problema va depinde de orientarea individului fata de
 subiect si de cunoasterea sa despre intregul camp al
 constiintei.
@@ -7151,7 +7151,7 @@ Toate aceste experiente declanseaza o furtuna de
 stari negative cum ar fi socul, neincrederea, negarea ,
 furia, vinovatia tensionarea, autoblamarea,
 resentimentul, sentimentul de a fi abandonat sau furia
-pe Dumnezeu si pe sine, autocompatimir ea, mania pe
+pe Dumnezeu si pe sine, autocompatimirea, mania pe
 lume si pe familie. Toate aceste emotii negative ies la
 suprafata deodata, uneori una dupa alta, alteori in
 combinatie, dar, in general toate experientele au in
@@ -7165,7 +7165,7 @@ persoana la alta; secventierea este imateriala.
 Semnificatia este ca acestea descatuseaza tot ceea ce se
 afla la baza Hartii Constiintei.
 Campurile de energie de la baza hartii au o directie
-negativa, iar atu nci cand unul dintre aceste campuri
+negativa, iar atunci cand unul dintre aceste campuri
 devine puternic are tendinta de a trage dupa el, in jos,
 tot restul campurilor aflate sub nivelul 200, Durerea in
 urma unei pierderi pare ca aduce cu ea si vinovatia,
@@ -7209,7 +7209,7 @@ mintea. Constienta noastra despre ce se petrece in corp
 apare doar pentru ca este raportata si experimentata in
 interiorul mintii.
 Mintea nu are capacitatea de a se experimenta pe
-sine. Pare un gand socant, insa o amintire nu isi poat e
+sine. Pare un gand socant, insa o amintire nu isi poate
 experimenta propria „amintiritate” / stare-calitate de a fi
 amintire, un gand nu isi poate experimenta propria
 „gandiritate” / stare-calitate de a fi gand, iar
@@ -7217,34 +7217,34 @@ sentimentele nu-si pot experimenta propria
 „sentimentalitate” / stare-calitate de a fi sentiment. Si
 asta pentru c a ele sunt experimentate in cadrul a ceva
 mult mai mare decat mintea, si anume constiinta insasi.
-Datorita constiintei cineva este consti ent de ce se
-petrece in minte. Mintea raporteaza despre ce se petr ece
+Datorita constiintei cineva este constient de ce se
+petrece in minte. Mintea raporteaza despre ce se petrece
 cu senzatiile, iar acestea dau raportul despre ce se
 petrece cu corpul. Prin urmare experientizarea/trairea
 se afla la multe niveluri in afara corpului insusi. Aliniata
 cu acest proces, constiinta insasi nu se poate trai pe
-sine. Putem afla ce se petrec e in constiinta noastra
+sine. Putem afla ce se petrece in constiinta noastra
 datorita campului de energie al constient ei. Aceasta da
 informatii despre ce se intampla cu senzatiile, apoi ce se
 intampla cu corpul . I n consecinta, locul unde
 
 experimentam experientele este mult in afara corpului
 fizic.
-Datorita fa ptului ca trairea constienta,
+Datorita faptului ca trairea constienta,
 experientizarea, so petrece in interiorul constiintei
 putem trimite solutiile pentru problemele umane direct
-in campul constiintei, in felul ac esta scurtand efectiv
+in campul constiintei, in felul acesta scurtand efectiv
 drumul si calmand durerea si suferinta, obtinand un
 rezultat mult mai eficient. Rezultatele acestei tehnici si
 abordarea sa au fost demonstrate in ceea ce priveste
 rezolvarea durerilor fizice, a bolilor, suferintelor,
 depresiei, anxietatii si fricii. Aceeasi tehnica va functiona
-si in intampinarea acestor urgente em otionale acute de
+si in intampinarea acestor urgente emotionale acute de
 vreme ce locul unde traieste cu adevarat cineva este in
 experientizarea propriei experiente.
 O persoana gandeste: „Pai, eu traiesc in lume. Eu
 experimentez lumea”, dar ce se inregistreaza cu adevarat
-este experienta a ceea ce experimentea za cineva. Ne
+este experienta a ceea ce experimenteaza cineva. Ne
 putem descurca cu orice, putem rezolva orice daca i ne
 adresam exact cu aceasta concentrare, cu acest obiectiv.
 Daca ne concentram asupra locului unde experimentam
@@ -7269,7 +7269,7 @@ locul unde se petrece experienta. Nu se intampla undeva
 in lume, in piciorul cuiva sau in stomacul cuiva. Se
 petrece in interiorul constiintei. Pe masura ce se
 examineaza locul unde se experimenteaza experienta, se
-descopera faptul ca este pe ste tot. O persoana nu
+descopera faptul ca este peste tot. O persoana nu
 experimenteaza lucruri intr-un punct focalizat, acesta
 este sistemul de credinte al mintii. De exemplu, intreb
 pe cineva cine este constient de asta. „I lude ai tu
@@ -7279,7 +7279,7 @@ sistem de credinte - gandurile cuiva despre ganduri.
 Crede ca gandurile sunt in capul sau, dar acesta nu este
 decat un gand. Unde anume gandeste gandul despre
 care crede ca este gandul din cap? Daca chiar
-analizeaza, con templa si reflecteaza asupra acestei
+analizeaza, contempla si reflecteaza asupra acestei
 intrebari, persoana va observa ca experienta reala este
 difuza si ca se petrece oriunde. N-ar putea pune degetul
 in niciun loc anumit unde s-ar petrece experienta. Este
@@ -7294,7 +7294,7 @@ jumatate de duzina de crize si voi impartasi experienta
 adevarului acestor situatii deoarece pe toate le putem
 trai doar inauntrul nostru.
 Este surprinzator ca singurul lucru care trebuie
-gestionat in c adrul acestor evenimente catastrofale este
+gestionat in cadrul acestor evenimente catastrofale este
 energia emotiilor. Daca studiem experienta, observam ca
 
 nu evenimentul care s -a petrecut sau despre care
@@ -7305,12 +7305,12 @@ reactia emotionala la acestea. Faptul, evenimentul in
 sine este doar un fapt, un „nimic”. Felul in care „simtim”
 despre acel fapt este singurul lucru pe care trebuie sa -l
 rezolvam in toate evenimentele de viata.
-Sentimentele noastre vin din atitudinile noastr e, din
+Sentimentele noastre vin din atitudinile noastre, din
 credintele noastre, din modul nostru de a fi cu ele,
-modul nost ru de a ne vedea pe noi in lume, astfel
+modul nostru de a ne vedea pe noi in lume, astfel
 manifestand o varietate de emotii. Totusi, atunci cand
 persoana se afla intr -o stare de coplesire problema
-consta doar in rezolvarea energiei emot iei insasi. Nici
+consta doar in rezolvarea energiei emotiei insasi. Nici
 macar nu trebuie sa rezolvam emotia, ci doar energia
 emotiilor. „Da” spune cineva, „dar ce spui despre
 evenimente? Ce o sa ma fac eu acum fara niciun ban?
@@ -7364,7 +7364,7 @@ putem face? Apare largul, negocierea, incercarea de a
 manipula, cearta cu Dumnezeu si targuiala cu
 Dumnezeu: „Oh, Doamne, daca lasi in viata pe... voi face
 asta si ailalta”. Apoi urmeaza furia, mania pe viata si pe
-natura ei, iar furia este imprastiata asupra oa menilor
+natura ei, iar furia este imprastiata asupra oamenilor
 din viata noastra, cu siguranta este vina cuiva. Toate
 
 aceste energii negative izbucnesc, de obicei, deodata, si,
@@ -7408,13 +7408,13 @@ Observati, mai intai, ca sentimentul este simtit intr -
 un mod general si ca in spatele lui se afla o energie. Este
 ca si cum constiinta lucreaza in felul acesta, ca si cum
 exista un corp de energie difuza care nu are niciun
-nume. Cineva poate denu mi aceasta energie energia
+nume. Cineva poate denumi aceasta energie energia
 emotionalismului, energia din spatele sentimentalitatii.
-La un anumit mo ment, acest difuz, nenumi t corp de
+La un anumit moment, acest difuz, nenumit corp de
 energie incepe sa ia forma, de exemplu, a durerii, furiei,
 maniei, indignarii, autocompatimirii sau geloziei. Acest
 camp emotional, la inceput difuz si fara forma, incepe sa
-semene ni forma durerii, dar contine, de asemen ea, si
+semene ni forma durerii, dar contine, de asemenea, si
 ceva frica si furie in el. Este energia emotionalitatii la
 modul general.
 Daca dureaza o secunda mai mult, va lua forma
@@ -7455,7 +7455,7 @@ energia emotionala ca si cum asta va reduce durerea. De
 fapt, durerea vine din opunerea rezistentei la experienta.
 Pentru a rezolva aceasta, persoana trebuie sa se aseze si
 sa renunte la a se opune, alegand, in loc de a se opune,
-participarea la exp erienta. Cu cat se deschide mai
+participarea la experienta. Cu cat se deschide mai
 repede, cu atat mai repede va iesi energia si cu atat mai
 repede se va incheia si experienta. Toata aceasta energie
 poate fi eliberata in loc sa i se permita sa continue la
@@ -7493,7 +7493,7 @@ adevar. Este un termen general pentru ca es te foarte
 greu sa spui care emotie reprezinta supararea. De obicei,
 persoana traieste initial un fel de soc, o amortire, o
 paralizare si neincrederea ca acel lucru s -ar fi intamplat
-cu adevarat. Aces ta este momentul in care treb uie
+cu adevarat. Acesta este momentul in care trebuie
 inceputa aceasta tehnica. Daca persoana stie despre
 tehnica dinainte, atunci e pregatita.
 Cu cativa ani in urma am trecut printr -o asemenea
@@ -7514,7 +7514,7 @@ vreau mai mult!”
 Pana la urma vom intelege ca aceasta este o mare
 sansa. Cauza tuturor durerilor si suferintelor este
 acumularea din ac est camp de energie comprimata, iar
-evenimentele de viata ne ofe ra o scuza. Deschid poarta
+evenimentele de viata ne ofera o scuza. Deschid poarta
 astfel incat ne permitem sa simtim o parte din aceasta
 energie. De exemplu, cineva ne loveste bara din spate a
 masinii. Toata furia suprimata si acumulat a de-a lungul
@@ -7548,7 +7548,7 @@ traieste in emotia, in sentimentele sale fata de acel
 eveniment. Evenimentul in sine este un „nimic”.
 Dimineata poate parea o catastrofa, dar la pranz s -ar
 putea sa para amuzant. Evenimentul in sine nu s -a
-schimbat deloc. Bara lovita, la mo mentul in care s -a
+schimbat deloc. Bara lovita, la momentul in care s -a
 petrecut lovitura, poate sa dea nastere unei izbucniri de
 indignare. In clipa in care incepem sa ne gandim la el,
 incepem sa ne simtim vinovati. Stim foarte bine ca ne -
@@ -7566,7 +7566,7 @@ acest lucru. Oamenii nu traiesc niciodata spoilere
 sparte, ci doar emotiile lor legate de acestea.
 Cand privim din aceasta perspectiva, lucrurile nu
 sunt atat de rele si coplesitoare. Singurul lucru pe care
-trebuie sa -l rezolvam este energia, ac eeasi energie,
+trebuie sa -l rezolvam este energia, aceeasi energie,
 sentimentul subtil, interior si apoi sa renuntam la
 opunerea rezistentei fata de el, sa-l primim cu
 bunavointa. A spune da sentimentului face ca energia sa
@@ -7575,7 +7575,7 @@ minute sau chiar si o ora (depinde de cat de convinsi
 suntem de aceasta metoda - unii o inteleg imediat, altora
 le trebuie ceva practic a) nu mai este nevoie sa rezolvam
 sau sa traim experiente de acest gen. Ceea ce era frica
-dispare si nu mai este traita ca atare. Fu ria nu mai este
+dispare si nu mai este traita ca atare. Furia nu mai este
 
 resimtita ca furie, vinovatia nu mai este vinovatie in
 sine. Emotia este simtita ca o curgere coplesitoare de
@@ -7615,7 +7615,7 @@ Cateva secunde . De exemplu, cand mi -am taiat din
 greseala degetul, am folosit imediat aceasta tehnica si au
 curs exact opt picaturi de sange. Eliberarea instantanee
 a durerii si renuntarea la opunerea rezistentei fata de
-covarsitorul eveniment a facut p osibil ca sangerarea sa
+covarsitorul eveniment a facut posibil ca sangerarea sa
 se opreasca spontan.
 Oamenii care au incercat aceasta tehnica au avut
 aceeasi experienta la nivel fizic, demonstrand adevarul
@@ -7640,7 +7640,7 @@ directioneaza atentia si concentrarea sa intr -acolo, cu
 precizie, reuseste sa anuleze ceea ce s -ar fi putut
 prelungi intr-o experienta dureroasa. Aceasta este oprita
 brusc.
-Ce se intampla daca continua m sa renuntam la
+Ce se intampla daca continuam sa renuntam la
 aceasta energie? Ce se intampla daca ii uram bun venit?
 Ce s -ar intampla daca am spune : „ Ce sansa
 extraordinara de a decomprima totul? ” Ce vom
@@ -7659,7 +7659,7 @@ Toata agonia se opreste deodata . In locul ei apare o
 liniste, o infinita prezenta, o stare de infinita pace, ceva
 mult mai mare decat orice experienta poate avea o
 persoana in viata sa. Odata trecuta prin asta, persoana
-nu mai este la fel. Din acel momen t este mai luminoasa,
+nu mai este la fel. Din acel moment este mai luminoasa,
 mai usoara, mai libera si mai putin subiectul durerii
 continute in experientele sale emotionale.
 Din punct de vedere clinic, ceea ce se petrece de
@@ -7675,7 +7675,7 @@ Primeste acest nou val ca pe o sansa pretioasa, si, de
 vreme ce nu se va intampla de prea multe ori in viata,
 este cu atat mai mult valoroasa. Valoarea sa vine doar
 atunci cand persoana trece de partea cealalta a
-experientei si se poate uita in urma cu int elepciunea pe
+experientei si se poate uita in urma cu intelepciunea pe
 care a castigat -o, intelegand ca mintea nu a fost de
 ajutor in experienta aceea. Si asta pentru ca mintea se
 uita intr-o directie gresita si spune: „Daca as putea
@@ -7686,7 +7686,7 @@ foarte bune pentru ilustrarea acestui lucru.
 Cazul unei femei care a primit o telegrama in care i
 se anunta moartea fiului sau in Vietnam . In urma acelei
 telegrame femeia nu a mai vorbit, a ramas asezata in
-balansoar, langa fe reastra si a continuat sa se legene,
+balansoar, langa fereastra si a continuat sa se legene,
 uitandu-se pe fereastra fara reactie. Era intr -o stare
 denumita apatie, cu o pierdere completa de energie.
 Lumea devenise fara de speranta pentru ea, iar
@@ -7751,7 +7751,7 @@ gandului si impulsului de „a face ceva ” in exterior
 pentru a incerca sa schimbam situatia. De -abia apoi
 apare vointa de a renunta la etichetare si la
 
-determinarea energiei emo tiei sa ia o forma. Completa
+determinarea energiei emotiei sa ia o forma. Completa
 predare, renuntare, capitulare in fata energiei insasi ne
 poarta catre o stare interioara din ce in ce mai profunda,
 renuntand sa mai gandim ca ceva experimenteaza, ca
@@ -7760,13 +7760,13 @@ Este ca si cum sinele personal se retrage si tot ceea ce
 putem spune este ca energia este rezolvata.
 Cei care se roaga in aceasta directie devin constienti
 de ceea ce rezolva experienta deoarece, pe masura ce
-mergem mai in profunzime in capitularea in experi enta,
+mergem mai in profunzime in capitularea in experienta,
 realizam ca se ocupa altcineva de ea. Ca si cum un
 camp de energie, ceva ca un mod de existenta infinit, un
 aspect al firii se ocupa de asta. Apoi apare
 surprinzatoarea intelegere ca oricum noi nu ne -am
 ocupat de asta de fapt niciodata, ca a fost un fel de iluzie
-care ne -a proiecta t acolo, care i -a dat forma si s -a
+care ne -a proiectat acolo, care i -a dat forma si s -a
 identificat cu ceea ce cauza durerea. Durerea vine din
 opunerea rezistentei si din insistenta sinelui personal si
 a tuturor aspectelor sale ca trebuie sa rezolve, ca trebuie
@@ -7786,7 +7786,7 @@ Cum arata asta pentru voi?
 Unii oameni, care au petrecut multi ani astfel, au
 spus ca vad o persoana ingenunchind si rugandu-se, ori
 
-ca vad o persoana in biserica. Altii vad o persoa na la o
+ca vad o persoana in biserica. Altii vad o persoana la o
 intrunire in care to ti participantii se iau de mana si
 rostesc „Om”, sau vad o lumina in centrul cercului. Unii
 isi imagineaza ca stau ascultand inregistrari cu lectori
@@ -7804,7 +7804,7 @@ urgenta si s-au rezolvat sarcinile.
 Este ca si cum nu vedem cu adevarat esenta muncii,
 lucrarii spirituale. Nu intelegem ca lucrarea spirituala
 insasi ne aduce la aceste crize acute, ne aduce in ele, si
-ca aces tea sunt niste sanse. Aici, in acest context, are
+ca acestea sunt niste sanse. Aici, in acest context, are
 loc lucrarea spirituala. Pana aici a fost pregatirea,
 adunarea de informatii si experienta, stabilirea directiei
 si acumularea de cunoastere spirituala. Apoi, vine dintr -
@@ -7830,7 +7830,7 @@ munca spirituala”. Acum ne confruntam cu adevarat cu
 adevarata munca spirituala. Nu cu lectura placuta a
 unor fraze frumoase dintr -o carte sau cu privitul unei
 fotografii fericite. Ci suntem chiar in mijlocul
-spiritualitatii. Sunte m intre dintii ei. Dintii muncii
+spiritualitatii. Suntem intre dintii ei. Dintii muncii
 spirituale apar atunci cand ne confruntam cu ceea ce nu
 putem evita. Directa confruntare este ceea ce solicita un
 salt in constiinta.
@@ -7842,7 +7842,7 @@ posibilitatea unui salt urias in evolutia noastra, un
 avans real in intelepciune, cunoastere si constienta.
 Adica, cele despre care citim in carti, devin experienta
 noastra interioara.
-In spatele emotiilor exista experientizarea ener giei.
+In spatele emotiilor exista experientizarea energiei.
 Este ca si cum ai fi manevrat de ceva mai mare decat
 sinele personal. Daca ar fi prezent doar micul sine, am fi
 complet maturati, stersi de energia eliberata in timpul
@@ -7863,7 +7863,7 @@ Intr-o stare de mare coplesire exista constienta ca
 putem rezolva cu adevarat experientele. O parte din
 panica vine din intelegerea ca ceea ce gandim, aceea
 suntem - lipsa noastra de putere, limitarea sinelui nu se
-potrivesc cu puterea experientei pr ezente. Exact asta se
+potrivesc cu puterea experientei prezente. Exact asta se
 intampla - sinele personal, individual, limitat nu poate
 rezolva starea de coplesire in care ne gasim. Tocmai
 aceasta este valoarea spirituala a experientei. Ce vrem
@@ -7891,7 +7891,7 @@ drumul ei. Prin urmare, socul si intelegerea tuturor
 acestora sunt la fel in toate experientele, la fel si faptul
 
 ca este neschimbat si permanent. Acesta este socul. Este
-ca si cum venim cu toata v iteza intr-un zid de caramida
+ca si cum venim cu toata viteza intr-un zid de caramida
 si de fiecare data cand facem asta, se elibereaza acelasi
 camp de energie.
 Daca ati trecut prin mai mult de o experienta de
@@ -7926,7 +7926,7 @@ preda lucrarii ce trebuie facuta acum. Cum putem sti
 
 cand s -a terminat? Atunci cand ne descoperim dintr -
 odata intr-o stare de pace interioara.
-Stim ca oamenii co ntinua sa aiba resentimente si
+Stim ca oamenii continua sa aiba resentimente si
 furie multi ani dupa ce s -a petrecut un eveniment, ca
 sunt inca prinsi in aspecte ale campului de energie
 negativa, deoarece evenimentele nu au fost rezolvate de
@@ -7935,18 +7935,18 @@ opreasca si sa le rezolve pana la capat. Oamenii nu vor
 sa faca asta pentru ca este implicata durerea si pentru
 ca nu cunosc aceasta tehnica. De fiecare data cand se
 intorc asupra problemei reiau incercarile de a schimba
-evenimentele si de a gestiona gandurile. Intelectu l si
+evenimentele si de a gestiona gandurile. Intelectul si
 mintea incearca sa gaseasca solutii, iar persoana ajunge
 in acelasi impas. Lucrarea ramane neterminata pentru
 ca nu exista instrumentul eficient care sa rezolve
 evenimentele.
 Ce se petrece cu o lucrare neterminata si cu emotiile
-ce nu au fost eliberat e? Ceea ce ramane nefacut incepe
+ce nu au fost eliberate? Ceea ce ramane nefacut incepe
 sa se exprime in atitudini emotionale si, in corp, sub
 forma bolilor. Vinovatia inconstienta ca nu a putut
 depasi acea catastrofa care s-a intamplat cu multi ani in
 urma vine prin sistemul nervos autonom si prin
-sistemul en ergetic de acupunctura si se conecteaza cu
+sistemul energetic de acupunctura si se conecteaza cu
 ceva ce exista in minte. Campul de energie al intelectului
 si al gandirii este la valoarea de 400. Campul energetic
 al vinovatiei, fricii sau furiei se cupleaza cu oarece
@@ -7955,18 +7955,18 @@ drept urmare aparitia bolii fizice . I n psihanaliza ar fi
 denumita psihosomatica, iar in acest caz, contributia
 elementului psihologic este la suprafata si chiar usor
 vizibil. Rezultatul final al nerezolvarii emotiilor asociate
-cu o catastro fa este deseori o boala ce poate aparea ani
+cu o catastrofa este deseori o boala ce poate aparea ani
 mai tarziu. De exemplu, durerea ca a ramas ceva
 nefacut la momentul mortii unui membru al familiei cu
 
 20 de ani in urma, se poate exprima in prezent sub
 forma unui atac de inima.
-Cand apare pacea si ne simtim int regi inseamna ca
+Cand apare pacea si ne simtim intregi inseamna ca
 ceva s-a rezolvat. Nu va reaparea si nici nu va aduce la
 suprafata durere a atunci cand ne vom gandi la acel
 lucru; ne simtim impacati. S-ar putea sa existe un regret
 ca a trebuit sa trecem prin acel lucru, dar. cumva, iesim
-pe partea ceala lta fiind o persoana diferita, si, avand
+pe partea cealalta fiind o persoana diferita, si, avand
 aceasta cunoastere, se manifesta si un anumit
 sentiment de pace care ne face sa stim ca totul s -a
 rezolvat.
@@ -8007,7 +8007,7 @@ bine cunoscut in tratarea multor probleme grave, cum ar
 fi alcoolismul, si inseamna renuntarea completa.
 Intr-o situatie critica, grava mintea incearca sa se
 agate de ceea ce ii este cunoscut . Incearca sa scape, sa
-distraga atentia, cau ta tranchilizante, droguri si alcool,
+distraga atentia, cauta tranchilizante, droguri si alcool,
 precum si multe alte cai pentru a incerca sa amelioreze
 situatia mai degraba decat sa o priveasca drept in fata si
 sa treaca prin ea.
@@ -8017,7 +8017,7 @@ sinele personal. Trecerea totala printr-o experienta grava
 ne pune in conexiune si ne aduce intelegerea faptului ca
 exista ceva in interiorul nostru care are puterea sa ne
 sustina, indiferent de cat de catastrofal a pare sa fie
-experienta. Rezultatul este ca iesim pe partea cealal ta
+experienta. Rezultatul este ca iesim pe partea cealalta
 mai mari, ca persoane ce au constienta faptului ca in
 interiorul nostru exista Prezenta, o calitate sau un
 aspect al vietii di n interior care are puterea de a ne
@@ -8056,7 +8056,7 @@ interioara profunda. Din aceasta convingere interioara
 apare vointa de a reintra in viata, de a participa la ea si
 de a-si asuma riscuri.
 Care este experienta interioara a atingerii butonului,
-a declansatorului? Aceasta se iveste din sent imentul
+a declansatorului? Aceasta se iveste din sentimentul
 disperarii si al lipsei de speranta. Sinele cel mic al
 persoanei spune: „Eu, pe cont propriu, nu pot sa rezolv
 asta”. Atunci, din cauza lipsei de speranta persoana se
@@ -8081,7 +8081,7 @@ sa ne ajute pe noi toti, ne asteapta pe noi sa spunem
 „da”. Este intoarcerea brusca de la fundul butoiului
 catre dorinta si disponibilitatea de a accepta ca exista
 ceva mai maret decat noi insine inspre care ne putem
-indrepta. Cand persoana spune „daca e xista un
+indrepta. Cand persoana spune „daca exista un
 Dumnezeu, il rog acum sa ma ajute ”, atunci se petrec
 marile experiente transformatoare ce au fost inregistrate
 in intreaga istorie de la inceputuri si pana azi.
@@ -8114,7 +8114,7 @@ muncii spirituale permanente. Persoana care este
 implicata intr-o munca spirituala cauta intotdeauna sa
 vada ce se intampla in viata, observand ca un profesor,
 considerand situatia a fi macinisul pentru moara. Ceea
-ce se intampl a reprezinta obiectul de studiu, astfel ca o
+ce se intampla reprezinta obiectul de studiu, astfel ca o
 criza majora nu poate fi decat o continuare a procesului
 care se petrece oricum. Drept urmare, persoana care
 este serios implicata in munca spirituala va vedea totul
@@ -8136,7 +8136,7 @@ apare mult mai frecvent.
 In urma acestei experiente apare o si mai mare
 vointa de a ne baza pe acea Prezenta interioara, avand
 din ce in ce mai putina incredere in micul sine. Persoana
-solicita din ce in ce mai ra r micul sine pentru a rezolva
+solicita din ce in ce maira r micul sine pentru a rezolva
 problemele vietii, existand in ea aceasta vointa de a se
 preda Sinelui Superior. Pierderea progresiva a
 identificarii cu micul sine si cresterea identificarii cu
@@ -8151,12 +8151,12 @@ rezolvat si sa rezolvam la nivelul experientei in cadrul
 campului energetic al constiintei insasi. Apare dorinta
 de a se preda si de a renunta la a voi sa schimbam ceea
 ce se petrece „acolo, in lume ”. Apare renuntarea la
-control, prin insasi gandirea despre c ontrol, si la
+control, prin insasi gandirea despre control, si la
 incercarea de a manevra viata cu ajutorul intelectului si
 a emotiilor. Apare dorinta de a se preda esentei
 experientei fara a o denumi in vreun fel, ori a o eticheta.
 Apare dorinta de a da piept cu campul de energie al
-experientei si de a int ra direct in inima ei. Cel care se
+experientei si de a intra direct in inima ei. Cel care se
 preda experientei interioare deschide poarta pentru a
 experimenta ceva mai mare decat micul sine.
 Fiecare catastrofa este o repetitie si o reprezentare a
@@ -8194,7 +8194,7 @@ in situatii catastrofale pentru a fi capabili sa ne dorim a
 ne preda din ce in ce mai profund. Transformarea
 personalitatii, intreaga schimbare in nivelul spiritual al
 persoanei, apare, in mod traditional, din aceasta predare
-in profunzime. Ce inseamna sa te predai in profunzim e?
+in profunzime. Ce inseamna sa te predai in profunzime?
 Cum putem sa ne predam in profunzime fara sa ne
 punem in situatii criti ce, sa trecem prin catastrofe
 emotionale pentru a desavarsi aceeasi lucrare
@@ -8205,7 +8205,7 @@ in toate expresiile sale. Apoi apare bunavointa ce es te
 
 experimentata ca o stare interioara de a fi in viata - de a
 fi viu. Din aceasta bunavointa se naste vointa de a
-incerca, de a ris ca, pentru ca acum stim ca suntem
+incerca, de a risca, pentru ca acum stim ca suntem
 insotiti de ceva mult mai mar e decat sinele personal. Nu
 sinele personal trebuie sa aiba grija si sa rezolve ceea ce
 vine in viata noastra. Infinita Prezenta, ca re este
@@ -8258,12 +8258,12 @@ senzatiile pot fi experientizate doar prin intermediul
 mintii. Este interesant c a mintea nu se poate
 experimenta pe sine. Un gand nu se poale experimenta
 pe sine, calitatea -starea de a fi gand, o amintire nu isi
-poate experimenta exi stenta sa in memorie, iar o
+poate experimenta existenta sa in memorie, iar o
 inchipuire nu isi poate experimenta imaginatia. Ceea ce
 se petrece in minte trebuie experimentat intr -un camp
 de energie mai cuprinzator decat acela al memoriei
 insasi, camp numit „constiinta”.
-Constiinta/Constientizarea ne perm ite sa ne dam
+Constiinta/Constientizarea ne permite sa ne dam
 seama de ceea ce se petrece in minte si constituie
 motivul principal pentru care se recurge la anestezie.
 Odata cu anestezia, dispare si stare a de constientizare,
@@ -8278,7 +8278,7 @@ general decat cel imaginat de noi si intr -un camp de
 experimentare de ansamblu, aproape difuz. Este
 aproape ca si cand acesta ar exista pretutindeni in
 spatiu, deci inclusiv in interiorul constiintei insasi.
-Este un e xperiment interesant, acela de a descoperi
+Este un experiment interesant, acela de a descoperi
 unde avem noi impresia ca se manifesta, in realitate,
 gandul. Cei mai multi oameni considera ca in propria
 minte, dar acesta nu este decat un gand referitor la alt
@@ -8321,7 +8321,7 @@ a acestor emotii si care are un suport fiziologic. O sursa
 frecventa a furiei si a altor emotii negative o constituie
 
 problema fiziologica a „hipoglicemiei functionale” (nivel
-scazut al glicemiei in sange), care este aso ciata cu o
+scazut al glicemiei in sange), care este asociata cu o
 reactie excesiva a organismului la ingerarea zaharului
 din alimente. Mai este denumita si „hiperinsulinism” - o
 reactie excesiva la glucoza si zaharoza. Scaderea brusca
@@ -8334,7 +8334,7 @@ verifica printr -un test de cinci ore de toleranta la
 glucoza. La persoana sanatoasa nivelurile de glucoza
 mai intai cresc rapid, apoi scad lent. Patternul
 hipoglicemic, insa, indica o scadere rapida a nivelului
-glucozei in sange, iar aceas ta descrestere poate provoca
+glucozei in sange, iar aceasta descrestere poate provoca
 usoare pana la foarte puternice emotii negative, tremur,
 slabiciune sau chiar lesin. Ar mai putea avea drept
 consecinta o nevoie acuta de alcool sau sedative. Acest
@@ -8345,7 +8345,7 @@ Sugar Blues de William Duffy (1986).
 Cand persoane suferinde s -au programat la
 cabinetul meu le-am sfatuit sa inceteze orice ingestie de
 zahar (si de alcool) pan a vor veni la consultatie. De -a
-lungul anilor, 25% din pacien ti s-au „vindecat ” (au
+lungul anilor, 25% din pacienti s-au „vindecat ” (au
 devenit asimptomatici) chiar inainte ca eu sa fi ajuns sa-
 i consult. Ca urmare a ratei ridicate de prevalenta a
 acestei tulburari clinice si a numeroaselor sale forme de
@@ -8360,7 +8360,7 @@ frecventa a conflictelor maritale sau sociale, a
 neintelegerilor familiale si a tulburarilor de
 comportament.
 In cadrul clinicii, aveam un laborator de diagnostic
-si efectuam frecv ent teste de toleranta la glucoza (care
+si efectuam frecvent teste de toleranta la glucoza (care
 durau cinci ore). Dupa vreo trei -patru ore, numerosi
 pacienti incepeau sa manifeste reactii emotionale
 negative. O femeie, de exemplu, s -a dezbracat dintr -
@@ -8402,12 +8402,12 @@ foarte putin de facut in aceasta privinta. De fapt, nici nu
 s-ar putea face mare lucru. Atat timp cat se perpetueaza
 convingerea ca frica izvoraste de undeva din exterior,
 oamenii vor continua sa fie victimele sale pana in
-momentul in care vor incep e sa -si dea seama ca frica
+momentul in care vor incepe sa -si dea seama ca frica
 este o stare prezenta in interiorul lor si ca ei insisi stau
 la originea fricii pe care o proiecteaza in lume.
 Bineinteles ca sunt convinsi ca o sesizeaza „undeva in
 afara lor”, din moment ce tocmai au proiectat-o acolo.
-Cand o a nalizam, ne dam seama cat de
+Cand o analizam, ne dam seama cat de
 atotpenetranta poate ti frica. Daca reusim sa sesizam ca
 ea este un nivel al constiintei, atunci vom intelege si ca
 teama se poate atasa de orice, incercarea de a invinge
@@ -8428,7 +8428,7 @@ Putem observa ca, pe Harta Constiintei, Frica se
 situeaza la nivelul constiintei 100, ceea ce ne arata ca
 este o emotie negativa, asa cum o indica, de altfel, si
 directia sagetii. Ne dam seama de for ta relativa a fricii
-din modelul sau matematic, care desem neaza energiile
+din modelul sau matematic, care desemneaza energiile
 calibrate ale diferitelor campuri. Pe masura ce inaintam
 pe scala emotiilor negative la 30, 50, 75, ajungand la
 emotiile pozitive care incep de la 200, vom constata ca,
@@ -8436,7 +8436,7 @@ sub aspect fizic, forta lor, de fapt, sporeste.
 Cand ne indreptam atentia spre campul de energie
 al Fricii, incepem sa ne dam seama ca atitudinea
 tematoare se poate atasa de tot si de orice exista in viata
-noastra. Nimic din experien ta noastra generala de viata
+noastra. Nimic din experienta noastra generala de viata
 ca fiinta umana nu se afla la adapost de teama. Ne
 iubim mama si, dintr -odata, se iveste teama la gandul
 „Dar daca am pierde-o?” Ne iubim trupul si, dintr-odata,
@@ -8445,7 +8445,7 @@ banii si, dintr-odata, se iveste teama de pierderea lor sau
 ca vom fi acuza ti ca suntem hrapareti. Indiferent la ce
 ne-am gandi, teama isi poate face simtita prezenta. Ne
 place masina pe care o avem si, din tr-o odata, se iveste
-teama de accident. O persoana tematoare p oate lega
+teama de accident. O persoana tematoare poate lega
 teama de orice, motiv pentru care tot ce ii vine in minte
 isi face aparitia intr -un camp de energie al fricii,
 capatand in felul acesta culorile sale. Exista chiar si o
@@ -8476,7 +8476,7 @@ ca va fi muscat de un caine. Cand o resimtim, teama se
 manifesta de fiecare data la fel - ca o unica si mereu
 aceeasi emotie.
 Elementul comun al tuturor celor descrise mai sus
-este campul de energ ie denumit Frica. Frica de „ceva ”
+este campul de energie denumit Frica. Frica de „ceva ”
 anume este, de fapt, lipsita de consistenta. Trebuie sa
 invatam sa ne delimitam de gand si sa analizam, in
 schimb, sentimentul. De fapt, este nevoie sa privim chiar
@@ -8511,7 +8511,7 @@ frici atotpenetrante.
 Problema nu o constituie teama in sine, ci campul
 sau de energie. Din moment ce noi insine ne aflam la
 originea ei, ne putem da seama cand am reusit sa o
-controlam. I ncepem prin a recunoaste adevarul ca „ eu
+controlam. Incepem prin a recunoaste adevarul ca „ eu
 insumi ma aflu la originea emotiei mele de teama ”. Stim
 ca o stare de spirit diferita face ca lucrul de care ne
 temem sa nu ni se mai para chiar de temut. Daca
@@ -8524,7 +8524,7 @@ undeva, in lume, in afara noastra.
 Este cu neputinta de invins teama cuiva de ceva
 existent in lume, pentru ca lumea nu poate fi tinuta sub
 control, astfel inc at temerile cuiva sa ia sfarsit in felul
-acesta; frica nu poate fi inlaturata nici prin sc himbarea
+acesta; frica nu poate fi inlaturata nici prin schimbarea
 societatii in care traim, a legilor sau a regulilor dupa
 care ne conducem. Originea temerii se a fla, asa cum am
 mai spus, in noi insine.
@@ -8548,12 +8548,12 @@ facut in cazul unei experiente inspiratoare de teama este
 sa incetam sa acordam atentie gandului care o inspira.
 Un singur sentiment de teama va da, efectiv, nastere la
 milioane de alte ganduri. Gandurile acestea instigatoare
-de teama nu au sfarsit, fiindca provin din insusi ca mpul
+de teama nu au sfarsit, fiindca provin din insusi campul
 de energie al fricii, care genereaza o succesiune infinita
 de ganduri. In termeni clinici, gestionarea fiecarui gand
 de teama in parte are o utilitate limitata; teama nu face
 decat sa genereze inca si mai multe ganduri, asa ca
-dorim sa recurgem la o t ehnicii ce va gestiona teama
+dorim sa recurgem la o tehnicii ce va gestiona teama
 insasi.
 Imaginati-va ceva din propria viata, ceva de care va
 temeti si urmeaza sa se intample, sau tocmai s -a
@@ -8579,7 +8579,7 @@ rezistenta la uscaciunea din gura. Sa o lasam sa existe
 si sa-i intampinam aparitia cu bucurie. Sa nu mai
 opunem rezistenta la senzatia de fluturi in stomac, la
 tremurarea mainilor si a picioarelor. Cand procedam in
-felul acesta, ne mutam a tentia de la ceea ce ni se
+felul acesta, ne mutam atentia de la ceea ce ni se
 intampla. Nu mai opunem niciun fel de rezistenta si ne
 lasam in voia acelor senzatii. Renuntarea aceasta aduce,
 pe undeva, cu o salcie care se indoaie in bataia vantului.
@@ -8588,7 +8588,7 @@ nu se indoaie cand bate vantul, risca sa se franga mai
 repede decat salcia, care, aplecandu-se in vant, reuseste
 sa supravietuiasca intemperiilor. Asemenea salciei, si
 noi ne mladiem odata cu fiecare experienta pe care o
-traim. O lasam sa se manifeste, ne cont opim cu ea si o
+traim. O lasam sa se manifeste, ne contopim cu ea si o
 intampinam cu bucurie. Spunem „Bine, haide s-o
 savuram!” Vom descoperi astfel, spre marea noastra
 uimire, ca senzatia de teama nu dureaza la nesfarsit.
@@ -8616,13 +8616,13 @@ corespunzatoare acestei temeri se acumuleaza.
 Presiunea energiei care sta in spatele fricii creste, iar
 cand ajunge la un anumit nivel este ca si cand acul
 indicator ar arata liniuta rosie pe cadra n: presiunea
-incepe, din acest moment, sa se faca simtita. Tasnest e,
+incepe, din acest moment, sa se faca simtita. Tasneste,
 se revarsa in propria noastra viata si incepe sa o
 afecteze. Daca nu o analizam cu atentie, vom considera
 ca teama vine dinspre lumea exterioara, pe care o vom
 acuza pentru aceasta. Vom credea ca in afara se petrece
 ceva inspaimantator. Nici macar nu vom banui ca ceea
-ce se proiecteaza in exterior este numai si num ai frica
+ce se proiecteaza in exterior este numai si numai frica
 noastra.
 Apoi ne dam seama ca sursa acestei frici ne apartine
 si ca ea este, de fapt, propria noastra teama acumulata
@@ -8636,10 +8636,10 @@ ar atinti o arma spre inima noastra si ne -ar soma „Viata
 
 sau banii!”, ce senzatii ne -ar incerca? Ne -am simti gura
 uscata, genunchii tremurand si senzatia aceea familiara
-si binecunoscuta de flutur i in sto mac. Daca un tanc
+si binecunoscuta de flutur i in stomac. Daca un tanc
 inamic ar trece peste casa noastra, daramand -o, ar
 rasuci teava tunului si ar atinti -o drept sp re fruntea
-noastra, ce am simti? Acelasi lucru pe care l -am si mti
+noastra, ce am simti? Acelasi lucru pe care l -am simti
 daca cineva ar tine un soarece suspendat deasupra
 capului nostru . Ne vom simt i gura uscata, vom avea
 crampe in stomac si muschii ne vor tresari.
@@ -8663,7 +8663,7 @@ Daca aplicam cu multa constiinciozitate aceasta
 tehnica sau doar renuntam la a mai opune rezistenta
 fricii, vom ajunge, ulterior, sa ne concentram asupra
 campului de energie . In spatele temerii exista o energie,
-iar noi renuntam sa ne mai opune m eliberarii si
+iar noi renuntam sa ne mai opunem eliberarii si
 descarcarii treptate de aceasta energie. Ne eliberam, in
 felul acesta, de teama de teama, care inceteaza sa mai
 fie groaza cumplita care ne trezea in mijlocul noptii. Nu
@@ -8674,7 +8674,7 @@ intreba „Sa fie, oare, adevarat ca imi pot controla
 senzatia de uscaciune a gurii? Fireste ca da”.
 O alta tehnica pentru eliminarea emotiilor negative o
 constituie renuntarea la imaginile lor mentale asociate,
-care atra g si amplifica emotiile ce le corespund. Nu
+care atrag si amplifica emotiile ce le corespund. Nu
 trebuie decat sa respingeti imaginea respectiva si sa
 rezistati tentatiei de a va complacea in ea.
 In timpul cercetarilor si experimentarii acestei
@@ -8688,7 +8688,7 @@ simteam panicat chiar si atunci cand vedeam pe
 altcineva apropiindu -se de buza canionului. Utilizam
 deja tehnica descrisa anterior ori de cate ori mi se ivea
 prilejul si eram multumit de progresul pe care -l
-facusem, dar nu ajunsesem nici pe departe sa l ucrez cu
+facusem, dar nu ajunsesem nici pe departe sa lucrez cu
 teama mea de inaltime. Abordasem, pana atunci, teama
 din toate celelalte surse ale trairilor mele. Am revenit la
 Marele Canion la vreo doi ani dupa acea intamplare si,
@@ -8699,7 +8699,7 @@ sa folosesc tehnica inca vreun an sau doi, dupa care m-
 am intors la Canion. Spre surpriza mea, am fost in stare
 sa m erg chiar pana pe marginea lui. Mai apoi am
 calatorit, fara niciun fel de angoasa, intr-un balon cu aer
-cald. Am ramas foarte placu t impresionat de aceasta
+cald. Am ramas foarte placut impresionat de aceasta
 confirmare a principiului ca, de fapt, ma eliberasem de
 presiunea si energia acumulata de teama pe care o
 stransesem de -a lungul vietii. Asemenea unui vas sub
@@ -8713,7 +8713,7 @@ energie negativa care calibreaza la 100 si care ne
 imobilizeaza in campul ei. Nu o putem depasi, motiv
 pentru care, daca nu admitem ca suntem noi insine
 sursa acestora, devenim victima propriilor noastre
-temeri. Cata vreme apelam la ratiune ca sa afi rmam ca
+temeri. Cata vreme apelam la ratiune ca sa afirmam ca
 sursa fricii se a fla „undeva, in afara noastra ”, nu o
 putem depasi. Indata ce incepem sa recunoastem ca noi
 suntem cei care o resimtim, ca noi stabilim modul in
@@ -8757,7 +8757,7 @@ fi apucat sa va povestesc toate acestea, imi insusisem
 tehnica despre care v -am vorbit. Mi-am dat instantaneu
 seama ca viata mea depindea cu adevarat de utilizarea
 ei, asa ca am trecut automat la aplicarea tehnicii. Am
-abandonat instantaneu do rinta de a incerca sa fac ceva
+abandonat instantaneu dorinta de a incerca sa fac ceva
 in privinta fricii, dorinta de a schimba ceva legat de
 situatie. Am apelat, in schimb, la Sinele meu interior si
 am permis acestei trairi interioare sa se manifeste fara
@@ -8783,12 +8783,12 @@ care experimenta, odata cu mine, instalarea starii de
 serenitate. Starea aceasta profunda avea o asemene a
 forta incat domina atat constiinta sarpelui, cat si
 personalitatea celui care va relateaza intamplarea.
-Sarpele m -a privit cu curiozit ate, probabil fiindca nu
+Sarpele m -a privit cu curiozitate, probabil fiindca nu
 vazuse nicio fiinta omeneasca pana atunci cu atat mai
-putin una care se afla la nici 30 cm dist anta de el; eu l -
+putin una care se afla la nici 30 cm distanta de el; eu l -
 am privit cu aceeasi vie curiozitate si m -am gandit la el
 ca la un frate. Faceam amandoi parte din aceeasi
-unicitate a unui spat iu care continea fiintarea
+unicitate a unui spatiu care continea fiintarea
 amandurora intr-o stare de extrema intimitate. Aceasta
 s-a soldat cu un fel de bucur ie interioara si am simtit
 fata de sarpe o iubire nascuta dintr -un camp al
@@ -8817,7 +8817,7 @@ control intreaga experienta . In felul acesta, atat sarpele
 cat si eu insumi am depasit frica si am patruns intr -o
 stare de pace atemporala. Sarpele parca era vrajit. Ne -
 am uitat unul la altul minute in sir, iar eu n-aveam nicio
-tragere de inima sa rup vr aja prin plecarea mea. Intr-un
+tragere de inima sa rup vraja prin plecarea mea. Intr-un
 tarziu, sarpele s -a indepartat de mine fara sa -si mai
 agite coada nici macar o data.
 Acesta a fost un bun exemplu pentru a ilustra
@@ -8862,7 +8862,7 @@ fata de propria lor vietuire sau din iubire fata de propriul
 lor trup. De ce nu am face diverse lucruri pentru corpul
 nostru din dragoste fata de el, si nu din teama de cine
 stie ce consecinte? De ce sa nu ni-l pastram sanatos si
-fericit pent ru ca il iubim si -l pretuim, nu fiindca ne
+fericit pentru ca il iubim si -l pretuim, nu fiindca ne
 temem de un atac de cord sau de altceva?
 Exista si o alta tehnica de a ne elibera de inca si mai
 multa frica, tehnica pe care eu am denumit-o „in cel mai
@@ -8882,7 +8882,7 @@ ceea ce gandim. Daca analizam teama si continuam sa
 ne punem intrebarea ce alta teama aduce ea dupa sine,
 precum si ce noua teama sta la baza celei din urma, vom
 ajunge, in final, la cazul cel mai rau.
-Sa spunem, de e xemplu, ca angoasele noastre
+Sa spunem, de exemplu, ca angoasele noastre
 financiare se refera la faptul ca vom ramane fara niciun
 ban, ca nu vom mai avea un acoperis deasupra capului,
 nici bani pentru hrana si imbracaminte si ca vom sfarsi
@@ -8912,7 +8912,7 @@ linisti si vom putea sa ne oprim asupra a ceea ce -i mai
 cunoscutii trecand pe langa acesta ca sa ne aduca un
 ultim omagiu. Aceasta este ceea ce -si inchipuie cei mai
 
-multi ca s -ar putea inta mpla „in cel mai rau caz ”:
+multi ca s -ar putea intampla „in cel mai rau caz ”:
 moartea fizica.
 Este raspandita convingerea ca ne identificam cu
 trupul fizic si ca asta este tot ceea ce suntem. Mai
@@ -8959,29 +8959,29 @@ permanenta. Gandul ca putem castiga din ce in ce mai
 multi bani, pe care sa -i acumulam la banca, este
 zadarnic. Cunosc pe cineva care, desi stransese saizeci
 de milioane de dolari, a sfarsit prin a intra in faliment si
-a trebuit sa-si vanda toate bunurile persona le pentru a-
+a trebuit sa-si vanda toate bunurile personale pentru a-
 si achita datoriile.
 Ar putea saizeci de milioane de dolari sa ne protejeze
 de ceea ce ne temem? Bineinteles ca nu. Banii nu ne vor
 asigura niciun fel de protectie, la fel cum nu vor putea
 sa o faca ni ci baricadele, nici sase lacate la usa si nici
-angajarea mai multo r forte de ordine. Singura noastra
+angajarea mai multor forte de ordine. Singura noastra
 modalitate de aparare este s a recunoastem ca noi ne
 aflam la originea propriilor noastre experiente, ca
-detinem controlul asupra lor, ca le putem man evra si ca
+detinem controlul asupra lor, ca le putem manevra si ca
 suntem mai presus de ele.
-Fireste ca m intea incearca, de fiecare data, sa ne
+Fireste ca mintea incearca, de fiecare data, sa ne
 justifice teama: ea sopteste „Ei, au loc o multime de
 jafuri, deci frica me a este indreptatita”. Ce ratiune de a
 exista are o „frica indreptatita ”? Cine are nevoie de asa
-ceva? De ce nu ne -am indrepta spre casa, din p roprie
+ceva? De ce nu ne -am indrepta spre casa, din proprie
 alegere, intr -un fel despre care stim ca nu va abate
 niciun atac asupra ei? Din iubire fata de propria
 persoana? Din bucuria de a ne trai viata si din pretuirea
 ei intr-atat incat sa nu dorim sa ne -o riscam, daca asa
 alegem?
 
-Supravietuirea nu depind e de teama de a fi jefuit
+Supravietuirea nu depinde de teama de a fi jefuit
 sau talharit. Depinde de o ante-alegere facuta de o minte
 netematoare. Datorita acestei lipse de teama sunt, eu
 insumi, inca in viata. N u frica l-a oprit pe sarpele acela
@@ -8991,7 +8991,7 @@ sa ne aflam in situatii extrem de critice, de periculoase
 (cum ar fi cel de -al doilea Razboi Mondial etc.) si totusi
 sa resimtim doar bucurie, fericire si incredere in acele
 imprejurari. M-am aflat, la un moment dat, in mijlocul
-unei bande de inf ractori care ar fi atacat imediat o
+unei bande de infractori care ar fi atacat imediat o
 persoana fricoasa, si ar fi facut acest lucru avand un
 zambet de satisfactie intiparit pe fa ta. Au „jubilat” cand
 cineva ca mine a trecut chiar prin mijlocul lor, in timp ce
@@ -9008,12 +9008,12 @@ felul acesta, ne vom da seama ca ceva a instaurat teama
 aceea in interiorul nostru. Odata ce am scapat de teama
 de teama, cand isi mai face aparitia nu ne ramane decat
 sa o ocolim. Am reusit, la un moment dat, sa ocolesc
-teama timp de doua saptaman i incheiate. Cu senzatia
+teama timp de doua saptamani incheiate. Cu senzatia
 aceea de tremur nervos intens care -mi strabatea corpul,
 mi-am vazut de treaba si am lasat teama sa -si faca de
 cap; stiam ca avea sa se epuizeze. Am putea realiza,
 insa, pe masura ce procedam in felul acesta, ca in
-spatele fricii or iginare se ascunde inca o sursa care o
+spatele fricii originare se ascunde inca o sursa care o
 alimenteaza, si anume vinovatia.
 
 Abia acum incepem sa intelegem valoarea travaliului
@@ -9036,7 +9036,7 @@ impotriva noastra. Aflam ca teama incepe sa scada pe
 masura ce ne eliberam de manie, ostilitate, criticism si
 ganduri care -i condamna pe ceilalti. Aflam cat de
 valoroasa este renuntarea la gandurile care fac rau altor
-oameni. I ncepem sa -i pretuim si sa-i iubim pe acestia
+oameni. Incepem sa -i pretuim si sa-i iubim pe acestia
 pentru simplul fapt ca exista, pentru ceea ce sunt.
 Incepem sa ne privim pe noi insine cu alti ochi, si, in
 felul acesta, ii vedem si pe ceilalti intr -un mod diferit.
@@ -9053,7 +9053,7 @@ copilului ajunge sa poata fi programata. Copilul inocent
 
 crede tot ce -i spun parintii, educatorii, isi insuseste
 chiar si conditionarea politica/sociala care este
-propagata prin intermediul programelor de televiziu ne si
+propagata prin intermediul programelor de televiziune si
 sistemul de convingeri specific tarii sale.
 Cine sau ce a avut incredere in toate sistemele de
 convingeri pe care si le -a insusit mintea noastra? Cine a
@@ -9062,11 +9062,11 @@ noastre? Mintea acelei fiinte inocente dinlauntrul
 nostru, desigur, fiindca mintea acelui copil inocent,
 natura insasi a constiintei, au ramas neschimbate din
 momentul in care am venit pe lume. Cea care citeste
-chiar acum ace ste randuri este constiinta inocenta a
+chiar acum aceste randuri este constiinta inocenta a
 copilului, care sopteste „Cred tot ce este scris aici . Imi
 insusesc aceste lucruri ”. Copilul inocent din noi nu
 moare niciodata; inocenta aceea este in ca prezenta.
-Asistam, in lumea de azi, la faptele unor tineri nest iutori
+Asistam, in lumea de azi, la faptele unor tineri nestiutori
 si susceptibili care sunt programati sa urasca (in mod
 paradoxal prin intermediul religiei); apoi considera ca
 ura si uciderea celor nevinovati sunt „bune ”, sau chiar
@@ -9093,7 +9093,7 @@ necunostinta de cauza. Ca urmare a inocentei acestei
 necunoasteri crede el ceea ce crede. Pe cale de
 consecinta, suntem dispusi sa -i iertam pe ceilalti, si, in
 loc sa-i condamnam, sa-i intelegem.
-Din aceasta intele gere ia nastere o anumita
+Din aceasta intelegere ia nastere o anumita
 compasiune. O persoana plina de compasiune este
 lipsita de temeri. De ce ar trebui sa ne temem intr -o
 lume plina de compasiune, din moment ce noi suntem la
@@ -9135,7 +9135,7 @@ Ceea ce incepem sa pretuim de acum inainte este
 viata, fara sa ne mai obsedeze sfarsitul ei; de aceea,
 ajungem la o perspectiva diferita asupra modului in care
 ne traim viata si referitor la cine suntem. Suntem aceia
-in care poate avea loc aceasta experimen tare. Atunci,
+in care poate avea loc aceasta experimentare. Atunci,
 asa cum o ilustreaza tablourile cu manarea vitelor, in loc
 sa fim tarati, cu genunchii zdreliti si hainele in zdrente,
 impotriva vointei noastre, de bivolul fricii, putem priponi
@@ -9147,10 +9147,10 @@ identificam, astfel, cu ceea ce suntem in realitate si
 incetam sa mai fim niste victime.
 Victimizarea provine di n inconstient si inseamna ca
 nu suntem constienti de schema de joc care are loc in
-mintea noas tra. Simplul fapt ca incepem sa ne dam
+mintea noastra. Simplul fapt ca incepem sa ne dam
 seama de ea inseamna c a de pe acum, ne situam in
 afara jocului. Pana veti termina de citit cartea aceasta,
-deja veti fi inc etat sa mai fiti o victima; veti re usi sa
+deja veti fi incetat sa mai fiti o victima; veti re usi sa
 legati bivolul de copac. Pe masura practicarii tehnici lor
 descrise pana acum, in scurt timp veti putea sta pe
 spinarea animalului.
@@ -9164,25 +9164,25 @@ realizeaza vastitatea temerilor lor pana cand acestea nu
 incep sa dispara, iar atunci sunt uluiti. Spun: „Nu mi-as
 fi imaginat niciodata ca eram o persoana atat de
 fricoasa”. Toate acestea sunt, poate, mai usor de inteles
-daca le raportam la Harta Co nstiintei, astfel incat sa
-putem face legatura int re campurile de energie si modul
+daca le raportam la Harta Constiintei, astfel incat sa
+putem face legatura intre campurile de energie si modul
 in care experimentam lumea.
 Mintea este atat de puternica, incat modul in care
 retine experienta noastra ne determina, efectiv,
 experienta. Teama da nastere unui anumit fel de a vedea
-lumea si tinde sa se transform e intr-o profetie
-autoimplinita. Cercetari universitare de dal a recenta, ca
+lumea si tinde sa se transforme intr-o profetie
+autoimplinita. Cercetari universitare dedal a recenta, ca
 si propriile noastre cercetari, au aratat ca ceea ce retine
 o persoana in minte tinde sa se manifeste in experienta
-di viata a persoanei re spective. Lumea experientelor
+di viata a persoanei respective. Lumea experientelor
 noastre individuale devine, astfel, reprezentarea
 exterioara a ceea ce a stocat mintea, asa ca viata noastra
 este, efectiv, o lume a oglinzilor. Ceea ce vedem si traim
 in prezent este o proiectie a propriului nostru nivel de
-constiinta. Este ceva greu de crezu t s i de sesizat in
+constiinta. Este ceva greu de crezut s i de sesizat in
 totalitate, insa pentru a reusi sa ne facem fie si o id ee
 despre acest lucru, ar trebui sa ne familiarizam cu un
-intreg domeniu de studiu in sine . I nteleptul Ramana
+intreg domeniu de studiu in sine . Inteleptul Ramana
 Maharshi ne a invatat ca lumea pe care o vedem
 (perceptia) nici macar nu exista, ea fiind o iluzie („Maya ”
 buddhista).
@@ -9255,7 +9255,7 @@ plexului solar, apar dorinta mistuitoare, nevoia de a
 avea si tot ceea ce -l ambitioneaza pe om sa actioneze,
 fara, insa, sa obtina vreodata ceea ce si -a dorit.
 Indiferent ce reuseste sa realizeze, tot nu-i este de ajuns.
-Milionarul are cincizeci de milioan e de dolari, dar isi
+Milionarul are cincizeci de milioane de dolari, dar isi
 doreste saizeci de milioane. Cand are saizeci de milioane
 de dolari, doreste sa aiba saptezeci de milioane. Nu
 ajunge niciodata la capatul drumului, pentru ca nu
@@ -9266,7 +9266,7 @@ convins ca toata lumea conspira impotriva lui, si nu
 pricepe in ruptul capului de ce nu este fericit. Dar
 fericirea se afla la nivelul 500, nu la 125.
 Individul este prins in capcana aviditatii si a dorintei
-de nestapan it de a avea din ce in ce mai mult, motiv
+de nestapanit de a avea din ce in ce mai mult, motiv
 pentru care lumea i se pare plina de frustrari. Cand
 cineva isi doreste in permanenta un lucru sau altul,
 lumea pare sa ii puna tot timpul piedici in calea
@@ -9275,7 +9275,7 @@ lacomia i se trezeste si -si doreste cu disperare bijuteriile
 acelea, este absolut innebunit sa le aiba. Astfel de
 oameni vor s a simta dorinta insasi. Daca obtin lucrul
 dupa care tanjeau, nu sunt fericiti; simt doar satisfactie,
-si inca o satisfactie vre melnica. Pana la urma, ce fel de
+si inca o satisfactie vremelnica. Pana la urma, ce fel de
 Dumnezeu este acela care ii refuza cuiva ceea ce-si
 doreste cel mai mult? Urmeaza ca individul se simte
 separat de Dumnezeu, daca o fi existand unul. Individul
@@ -9345,7 +9345,7 @@ nivel sunt apti sa faca fata realitatii, sa se descurce, sa
 rezolve probleme si devin din ce in ce mai puternici
 fiindca au inceput sa spuna adevarul despre ei insisi . La
 acest nivel, individul merge pe strada din exemplul
-anterior si vede o lume de oportunit ati stimulatoare si
+anterior si vede o lume de oportunitati stimulatoare si
 palpitante. O lume care -ti taie rasuflarea cu ocazii
 favorabile pentru a evolua, a invata, a -ti largi sfera
 preocuparilor si a asista la evolutia altora. O bucurie
@@ -9359,13 +9359,13 @@ Ce fel de Dumnezeu intalnim la acest nivel al
 constiintei? Persoana aflata la acest nivel beneficiaza,
 pentru intaia oara, de o minte deschisa. Nu considera,
 cu mandrie, ca detine toate raspunsurile. Nu se afla in
-armonie cu negativitatea razbunatoare. Ea cug eta,
+armonie cu negativitatea razbunatoare. Ea cugeta,
 pentru prima data „Ma intreb daca exista o asemenea
 fiinta. Ma intreb daca exista ceva mai presus de sinele
 individual imi manifest deschiderea in fata acestei
 cunoasteri”. Apoi trateaza chestiunea existentei Iui
 
-Dumnezeu in acelasi mod in care tratea za chestiunea
+Dumnezeu in acelasi mod in care trateaza chestiunea
 lumii, ca pe o ocazie palpitanta de a o explora si
 descopera ca cercetarea spirituala este captivanta si ca
 lucrurile dezvaluite pe aceasta cale intriga si sunt
@@ -9389,7 +9389,7 @@ echitate interioara relativ la Dumnezeu. „Daca exista un
 Dumnezeu, El va fi drept, iar eu voi afla despre acest
 lucru la timpul potrivit; daca nu exista, accept si asta”.
 La nivelul Bunavointei, nivel care calibreaza la 310,
-individul isi face deja cunoscuta intent ia si spune „da ”
+individul isi face deja cunoscuta intentia si spune „da ”
 vietii. „Da, ma alatur; da, ma asociez; da, sunt de acord
 cu aceste lucruri”. Individul incepe sa resimta dorinta de
 a fi de folos, impreuna cu o anumita fericire, si percepe
@@ -9419,7 +9419,7 @@ fauritorii fericirii din viata noastra, iar aceasta
 transformare petrecuta in constiinta aduce dupa sine un
 sentiment de adecvare si de incredere; percepem
 actualmente o lume armonioasa. Cand mergem pe
-strada, remarcam natur aletea subtila si plina de
+strada, remarcam naturaletea subtila si plina de
 frumusete cu care interactioneaza lucrurile intre ele,
 cum totul se afla exact acolo unde ar trebui sa fie si cum
 toti oamenii vor sa fie exact ceea ce sunt. Femeia aceea
@@ -9428,7 +9428,7 @@ nevoiasa; nimeni nu a fortat -o sa ajunga in postura
 aceea. Ea singura a ales sa fie ceea ce este . Incetam sa
 dam vina pe alte lucruri si incepem sa simtim ca lumea
 emana armonie in masura in care noi insine suntem
-dispusi sa admitem adevarul despre noi ins ine si sa-l
+dispusi sa admitem adevarul despre noi insine si sa-l
 exprimam. Intregul tablou este armonios, iar Dumnezeu
 incepe acum sa semene cu Dumnezeul milostiv si
 iertator al unei lumi pline de armonie.
@@ -9438,8 +9438,8 @@ acceptarii, nimic nu mai sta in calea folosirii ratiunii,
 discernamantului si intelectului fara interferenta
 emotiilor stresante precum teama privind supravietuirea
 fizica, furia si celelalte. Libera de distorsiuni si
-diversiuni, mintea devine suficient de limpede inca t sa
-intrebuinteze logica si benefi ciile educatiei si ale
+diversiuni, mintea devine suficient de limpede incat sa
+intrebuinteze logica si beneficiile educatiei si ale
 invatamantului superior, inclusiv cel universitar, dar si
 gandirea abstracta - care reprezinta acel nivel al mintii
 situat in plaja de calibrare a valorilor din jurul cifrei de
@@ -9448,17 +9448,17 @@ paradigma newtoniana a probarilor stiintifice, a
 demonstratiei si a legilor cauzei si efectului. Valorile
 situate in jurul cifrei de 400 includ Great Books of the
 Western Worl d („Carti de seama ale lumii occidentale ”
-este o serie de cincizeci si patru de vo lume publicate
+este o serie de cincizeci si patru de volume publicate
 pentru prima data in SUA, in 1952, de Encyclop ædia
 Britannica Inc. in cea de-a doua editie, din 1990, acestei
 serii i s -au adaugat inca sase volume ), precum si genii
 ilustre ca Newton, Einstein si Freud.
-In jurul valorii de 400, forta person ala sporeste
+In jurul valorii de 400, forta personala sporeste
 considerabil datorita utilizarii la maxim a cortexului
 prefrontal al creierului, prin intermediul caruia teama,
 ingrijorarea si anxietatea pot fi manevrate mai usor cu
 ajutorul instrumentelor logicii si ratiunii decat prin
-intermediul emotiilo r primare . I n felul acesta, lumea
+intermediul emotiilor primare . I n felul acesta, lumea
 pare mai putin de temut pentru ca riscurile aferente ei
 sunt intelese de la un nivel mai inalt, mai matur, si nu
 prin prisma emotionalitatii necoapte a copilului. Mintea
@@ -9481,7 +9481,7 @@ favorabile pentru evoluarea constiintei catre niveluri
 spirituale mai inalte, care calibreaza la aproximativ 600,
 ce coincide cu nivelul Extazului spiritual si al Pacii.
 Pe masura intensificarii dorintei de a ne pune in
-serviciul acestei lumi, predispozitia noastra spre iu bire
+serviciul acestei lumi, predispozitia noastra spre iubire
 se transforma in Iubire Neconditionata, care protejeaza
 si sustine viata. Acum suntem dispusi sa iertam si
 incepe sa se manifeste revelatia. Datorita eliberarii
@@ -9597,7 +9597,7 @@ Constiintei, care ne dezvaluie nivelurile calibrate de
 energie, relativa lor forta si directie, componenta
 emotionala a fiecarui nivel, procesul care se desfasoara
 
-in consti inta la fiecare nivel in parte, cum ne
+in constiinta la fiecare nivel in parte, cum ne
 influenteaza toate acestea viziunea despre lume si
 Dumnezeu si cum poate fi gasita o rezolvare in cazul in
 care nu credem in divinitate.
@@ -9607,11 +9607,11 @@ utilizand ac este tehnici, precum si strategii care au
 functionat in cazul al tor persoane. Cu ajutorul acestor
 experimente clinice putem demonstra principii ale
 constiintei benefice pentru viata noastra, a tuturor. Ceea
-ce ne insusim din studierea unui exemplu izola t isi
+ce ne insusim din studierea unui exemplu izolat isi
 poate gasi ulterior alte aplicatii; vom constata, astfel,
 cum dupa ploaie, vine soare. Vom invata sa
 transformam ceva considerat cumplit - respectiv durerea
-crancena - in ceva diferit cum sa beneficiem de ac easta
+crancena - in ceva diferit cum sa beneficiem de aceasta
 durere si cum sa traim o viata d plenitudine in urma
 cunoasterii acumulate dintr-o experienta anume. Pentru
 a ajunge aici, trebuie, insa, sa aflam cate cev a despre
@@ -9633,7 +9633,7 @@ trebuie sa-l intelegem este ca trupul nu are capacitatea
 de a se experiment a pe sine. Este surprinzator, din
 
 moment ce noi consideram ca ne simtim corpul, toti ne
-identificam cu propriul corp. Po ate, insa, corpul sa se
+identificam cu propriul corp. Poate, insa, corpul sa se
 simta pe sine? Mana, de exemplu, nu are nici o
 modalitate de a-si percepe propria existenta; piciorul nu
 are cum sti ca este picior. Partile corpului sunt
@@ -9656,7 +9656,7 @@ datorita constiintei insasi.
 Continutul mintii si ceea ce se petrece inlauntrul ei
 se dezvaluie prin intermediul constiintei; iata de ce
 experimentarea acestora are loc in constiinta. Realizam
-ce se petrece in inte riorul propriei constiinte. Daca, de
+ce se petrece in interiorul propriei constiinte. Daca, de
 exemplu, se inlatura o portiune din creier, atunci partea
 aceea a mintii nu mai este operationala in sfera fizica.
 Daca portiunea inlaturata corespunde ariei senzoriale,
@@ -9688,7 +9688,7 @@ respectiva? Exista o arie anume de localizare a
 constiintei? O putem gasi intr -un amplasament concret
 sau o zona anume?
 Este interesant de cunoscut acest lucru: constiinta
-nu detine un loc anum e, nu este circumscrisa unei arii
+nu detine un loc anume, nu este circumscrisa unei arii
 fizice si nu are limite. Ne imaginam, indeobste, ca „Ceea
 ce resimtim este un produs al mintii”. De fapt, lucrurile
 nu stau asa. Unde resimtim gandul? Nicaieri; el nu are
@@ -9698,17 +9698,17 @@ de forma. Continutul sau nu are o forma anume, insa
 campul constiintei insasi este asemenea unui spatiu,
 lipsit d e o localizare precisa. Acest lucru isi va dovedi
 importanta mai tarziu, cand vom discuta despre una
-dintre tehnicile de abo rdare a durerii care poate fi
+dintre tehnicile de abordare a durerii care poate fi
 adresata atat sub aspect local, cat si sub aspect general.
 
 Exista cateva modalitati de a manevra durerea -
 senzatia specifica si resimtirea ei. Pozitia pe care ne
 situam, ca fiinta omeneasca, fata de experimentarea
 durerii si modul in care evolueaza propria noastra
-constiinta vor determina daca dur erea implica si
+constiinta vor determina daca durerea implica si
 suferinta sau nu. Durerea este ceva, suferinta este
 altceva.
-Primul lucru care trebuie eliminat este convi ngerea
+Primul lucru care trebuie eliminat este convingerea
 ca durerea si suferinta sunt unul si acelasi lucru, fiindca
 aceasta antreneaza o serie intreaga de programe care
 trebuie, apoi demontate. Sa discutam putin despre
@@ -9746,7 +9746,7 @@ de constientizare pe care am inceput sa le aplic asupra
 durerii. Durerea resimtita a inceput sa scada si, spre
 marea mea surprindere, am reusit sa merg la dentist si
 sa simt doar o durere suportabila in locul uneia
-chinuitoare. Treptat, aceasta s -a tra nsformat intr -o
+chinuitoare. Treptat, aceasta s -a transformat intr -o
 durere usoara si, ulterior, in disconfort . In prezent, nu
 mai simt nici macar disconfort la dentist. Parca nu se
 scurge nici macar un minut de cand ma asez pe scaunul
@@ -9756,7 +9756,7 @@ Spre sfarsitul acestui capitol, va voi prezenta cateva
 tehnici de autohipnoza, un gen de autosugestie care sa
 intareasca ce ne am insusit deja, respectiv cum sa facem
 uz, in propriul beneficiu, de o stare modificata de
-constienta, cum sa p urcedem dintr -un spatiu
+constienta, cum sa purcedem dintr -un spatiu
 sugestionabil pentru a reusi sa invatam mai rapid sa
 atenuam durerea si cum poate constitui acest spatiu un
 mediu propice pentru a ne educa intr -un ritm mai
@@ -9786,7 +9786,7 @@ de obicei. Mintea se opune, de regula, unei experiente,
 fiindca se afla in expectativa suferintei . I n ea se
 desfasoara deja programul : „ Durerea inseamna
 suferinta, deci ma voi opu n acesteia”. Ne imaginam, in
-mod g resit, ca daca ii opunem rezistenta, durerea va
+mod gresit, ca daca ii opunem rezistenta, durerea va
 disparea.
 Primul lucru pe care trebuie sa -l stim este ca
 durerea s i suferinta sunt alinate rapid daca facem
@@ -9797,7 +9797,7 @@ preluate din tehnici complet diferite de cele pe care le
 utilizeaza mintea, de obicei, in situatii obisnuite.
 A renunta sa mai opunem rezistenta inseamna sa
 traim profund evenimentul si sa ne abandonam cu totul
-senzatiei pe care o simtim . I nseamna sa nu luam in
+senzatiei pe care o simtim . Inseamna sa nu luam in
 seama gandurile legate de ceea ce ni se intampla . In loc
 de asta, sa trecem la traire a nemijlocita a senzatiei si sa
 renuntam complet la a -i opune rezistenta. Daca, de
@@ -9826,7 +9826,7 @@ pansament compresiv sau chiar o cizma ghipsata pentru
 vreo sase saptamani. Eu m -am asezat doar pe o banca
 din parc, am inchis ochii si m -am lasat in voia durerii;
 simteam valuri peste valuri de durere sfasietoare. Daca
-m-as fi opus, as fi s farsit cu glezna in ghips. Cu alte
+m-as fi opus, as fi sfarsit cu glezna in ghips. Cu alte
 cuvinte, daca se opune rezistenta durerii, o senzatie de
 durere acuta se poate transforma intr -o afectiune
 cronica. Eu am stat pe banca aceea si am lasat-o sa ma
@@ -9851,12 +9851,12 @@ inapoi pe ringul de dans. Piciorul meu n -a stat niciun
 moment imobilizat in ghips; tot ce am facut a fost sa
 renunt, in mod constient, la a opune rezistenta
 experientei respective.
-Dupa un timp, am suferit o leziune care a treb uit sa
+Dupa un timp, am suferit o leziune care a trebuit sa
 se soldeze cu o amputare. Am avut un nou soc, dupa
 care am stiut cum sa procedez si in acest caz: sa nu
 opun rezistenta, sa nu ma opun senzatiilor de durere.
 Comportandu-ma astfel, chiar in fata ochilor mei s -a
-intamplat ceva ce lumea ar numi un mir acol. Primul
+intamplat ceva ce lumea ar numi un miracol. Primul
 lucru pe care l -am facut dupa ce mi -am taiat din
 greseala degetul mare de la mana cu ferastraul circular,
 a fost sa incetez imediat sa ma opun acestei experiente.
@@ -9871,7 +9871,7 @@ Un prieten, care se arsese grav in bucatarie, a stat
 linistit si a decis in mod constient sa nu se opuna
 durerii pe care o simtea, peste un minut sau doua,
 durerea a incetat. Nu s -au format nici macar basici in
-urma arsurii . I n mod normal, ar fi tr ebuit sa apa ra o
+urma arsurii . I n mod normal, ar fi trebuit sa apara o
 basica mare cu lichid care s-ar fi vindecat in luni de zile,
 dar tot ce i s -a intamplat lui a fost o decolorare a
 portiunii respective.
@@ -9900,7 +9900,7 @@ facand-o sa dispara.
 In lucrul cu constiinta, procesul este cunoscut sub
 denumirea de „disparitie”. Renuntand complet la a
 opune rezistenta unui eveniment, il facem sa dispara din
-realitatea noastra. Se poa te constata cum, urmare a
+realitatea noastra. Se poate constata cum, urmare a
 rezistentei pe care i-o opunem, experienta se prelungeste
 in timp. Atata vreme cat opunem rezistenta unui lucru si
 ne cramponam de el, acesta continua sa existe. Opozitia
@@ -9941,7 +9941,7 @@ aparitia un camp de energie negativa care calibreaza in
 jurul valorii de 150. Este cam acelasi nivel cu acela al
 emotiilor de genul resentimentelor sau al suferintei
 morale, in care respingem durerea si ne deranjeaza
-existenta ei. Daca ab andonam opunerea rezistentei la
+existenta ei. Daca abandonam opunerea rezistentei la
 durere, daca avem curajul sa utilizam aceasta tehnica si
 suntem dispusi s -o incercam fara rezerve, atunci
 
@@ -9953,19 +9953,19 @@ experimentez”. Manifestarea bunavointei ne propulseaza
 intr-un camp de energie care calibreaza la 310, unde
 spunem un „da ” neechivoc vietii si evenimentelor sale,
 unde ne manifestam acordul si ne aliniem la aceasta
-energie, si unde viata se exprima pe sine ca intenti e
+energie, si unde viata se exprima pe sine ca intentie
 pozitiva.
 In loc sa opunem rezistenta vietii, ne lasam purtati
 de ea si ne supunem lui Dumnezeu. Aceasta este
 intelepciunea lui Tao, care ne invata ca salcia se indoaie
 in vant dar stejarul, care nu se apleaca, se rupe . In loc
-sa ne opunem la ceea ce se int ampla atunci cand ne
+sa ne opunem la ceea ce se intampla atunci cand ne
 julim barbia, nu trebuie decat sa fim ca o salcie in vant
 si sa urmam cursul evenimentelor, renuntand a le
 opune rezistenta . I n felul acesta, parasim un camp de
 energie negativ si plin de durere, de resentimente, manie
 si teama. Teama se situeaza la nivelul de minus 100, un
-camp de energie joasa afla t la mare distanta de bucurie.
+camp de energie joasa aflat la mare distanta de bucurie.
 Cu cat valoarea este mai mare, cu atat sentimentul de
 fericire este mai intens. Atunci putem, in sfarsit, sa
 facem alegeri, sa manifestam bunavointa si chiar s a
@@ -9974,7 +9974,7 @@ trebuie ca sa facem fata situatiei; toate acestea ne vor
 propulsa la nivelul 380 — un camp cu energie foarte
 inalta.
 Cand alegem sa fim in armonie cu viata - indiferent
-daca nimerim peste un sarpe sau p este alta provocare -
+daca nimerim peste un sarpe sau peste alta provocare -
 si ne abandonam acestei experiente, noi, de fapt, invitam
 si cream, din noi insine, o putere superioara, o energie
 mai inalta. Cei care au recurs la tehnica descrisa au
@@ -10009,7 +10009,7 @@ renunta la orice opozitie.
 Vindecarea de durerea acuta, care survine automat
 dupa utilizarea acestei tehnici, poate fi resimtita de
 oricine. Mie mi s -a intamplat de nenumarate ori pana
-acum, ca si altor persoane care au incercat acest luc ru.
+acum, ca si altor persoane care au incercat acest lucru.
 Numerosi oameni au avut aceasta ocazie. I mi aduc
 aminte ca descriam aceasta tehnica intr -o duminica, la
 un curs seral, si, in cursul saptamanii care i -a urmat,
@@ -10020,7 +10020,7 @@ providentiala pentru ei. Le -a permis, efectiv, sa treaca
 peste acele intamplari cumplite cu bine. La scurt timp,
 un prieten masiv, extrem de corpolent, mi -a facut o
 vizita si m-a imbratisat cu atata forta incat mi-a rupt trei
-coaste. Le-am simtit p lesnind, dar n -am spus nimic
+coaste. Le-am simtit plesnind, dar n -am spus nimic
 pentru ca omul s -ar fi simtit vinovat. Coastele s -au
 vindecat, dar ceva mai tarziu, in aceeasi iarna, un alt
 prieten mi-a tras o imbratisare zdravana care a dus la
@@ -10029,12 +10029,12 @@ este nevoie sa mai spun ca nici atunci n -am scos vreun
 cuvant (destul, insa, despre „karma coastelor”).
 Cum poate fi utilizata tehnica aceasta pentru a face
 fata durerii cronice, care este diferita de durerea acuta?
-La fel ca in cazul celei din urma, numai ca proce dam
+La fel ca in cazul celei din urma, numai ca procedam
 intr-un mod usor diferit. Asa cum am amintit anterior,
 toate experientele au loc in constiinta. Mai intai, vedem
 unde simtim durerea - de exemplu, la degetul mare, cel
 care a fost retezat cu ferastraul. Initial, am putea fi
-tentati sa afirmam ca ne doa re degetul, dar unde se
+tentati sa afirmam ca ne doare degetul, dar unde se
 manifesta durerea de fapt? Sa ne deplasam, pentru
 moment, atentia de la deget. Daca spunem „imi deplasez
 centrul atentiei la crestetul capului”, atunci, din punctul
@@ -10054,13 +10054,13 @@ un fel de exercitiu pe care alegem sa-l facem - incepem
 sa resimtim durerea din locul respectiv . Constatam ca
 durerea pare a fi generalizata, dupa care recurgem la
 aceeasi tehnica pe care am folosit -o pentru a face fata
-durerii acute: renu ntam sa ne opunem acestei senzatii
+durerii acute: renuntam sa ne opunem acestei senzatii
 pe care o resimtim pretutindeni, fiindca ea nu este
 localizata undeva anume.
 Este de dorit sa facem o departajare clara intre
 sentiment, senzatie sau experienta ca atare si ganduri.
 Vom continua sa ne vedem de viata, cu toate problemele
-ce tin de ea - in special boal a fizica -, dar cu o senzatie
+ce tin de ea - in special boala fizica -, dar cu o senzatie
 extraordinara data de ceea ce traim in realitate. Apoi,
 mintea incepe sa brodeze in legatura cu experienta pe
 care o traim, o eticheteaza si-i ataseaza diferite concepte.
@@ -10083,7 +10083,7 @@ Cand un animal simte o durere, el nu are cum s -o
 descrie in cuvinte; este doar ceva care i se intampla in
 acel moment. De ce nu am face apel la natura noastra
 animalica, alcatuind un tot din ceea ce traim, fara sa -l
-mai zugravim in cuvinte? Toa te aceste ganduri aduc cu
+mai zugravim in cuvinte? Toate aceste ganduri aduc cu
 
 ele programe si sisteme de convingeri complicate, iar noi
 devenim, dupa aceea, subiectul efectelor acestor
@@ -10135,7 +10135,7 @@ si cand durerea ar fi circumscrisa unui spatiu de
 manifestare, iar noi incepem sa n e detasam de aceasta
 dureri localizata. Este ca atunci cand simtim efectul
 morfinei care ne-a fost administrata in cazul unei glezne
-rupte. La inceput dur erea este prezenta, dupa care
+rupte. La inceput durerea este prezenta, dupa care
 simtim ca ne distantam de ea. Nu mai este cu noi, nu
 mai este a noastra . In exemplul anterior, narcoticul
 actioneaza asa cum am explicat ca poate proceda
@@ -10146,14 +10146,14 @@ fara ca acesta sa fie declansat de o substanta narcotica.
 In trecut, a trebuit sa fac acest lucru. Ani la rand
 am suferii de alergii severe la orice fel de analgezic,
 narcotic sau anestezii si in acel rastimp am avut tot felul
-de afectiuni si accidente grav e, la care s -au adaugat
-interventii chirurgicale fara anestezie. Sili t de
+de afectiuni si accidente grave, la care s -au adaugat
+interventii chirurgicale fara anestezie. Silit de
 imprejurari, in loc sa recurg la metodele obisnuite de
 tratare a durerii, a trebuit sa fac investigatii si sa
 descopar capacitatile si forta constiintei insasi. Mi -am
 dat seama ca unicul rol al analgezicelor era sa-i permita
-constiintei sa -si exercite propri a forta. Iata de ce pot,
-acum, sa afirm ca aceasta constiinta deti ne forta
+constiintei sa -si exercite propria forta. Iata de ce pot,
+acum, sa afirm ca aceasta constiinta detine forta
 
 necesara obtinerii acelorasi rezultate in lipsa oricarui tip
 de analgezic.
@@ -10161,7 +10161,7 @@ Incepem sa ne distantam de durere, renuntand sa -i
 mai opunem rezistenta si nedorind sa mai schimbam
 ceva in privinta ei. Lasam senzatiile dureroase sa fie
 prezente si modificam felul nostru de a reactiona la ele,
-ajungand sa nu ne mai pese daca acestea exis ta sau nu.
+ajungand sa nu ne mai pese daca acestea exista sau nu.
 Poate parea bizara aceasta nepasare, dar de fapt este
 foarte simplu . I n viata, ne -au deranjat multe lucruri .
 Simteam ca trebuia sa facem ceva in privinta lor, dar la
@@ -10195,12 +10195,12 @@ experienta, utilizand aceasta tehnica.
 Am suferit, candva, de o afectiune care a avut nevoie
 de peste un an de zile de renuntare consecventa la a -i
 opune rezistenta, de eliberare continua de ea si de
-neintrerupta abandonare in fata ei, inainte ca, in sfarsi t,
+neintrerupta abandonare in fata ei, inainte ca, in sfarsit,
 sa dispara; stiu, asadar, ca senzatiile dureroase vor
 disparea la un moment dat, insa nu incerc sa fortez
 acest lucru. Ar insemna sa fac eforturi sa schimb o stare
 de fapt, sa scap de ea. Din observatiile mele clinice, stiu
-ca pe masura ce individul ren unta sa mai opuna
+ca pe masura ce individul renunta sa mai opuna
 rezistenta la durere, ajunge in punctul in care nu -i mai
 pasa daca durerea continua sa fie prezenta sau nu; la
 un moment dat, intr -o dimineata, la trezire, constata ca
@@ -10218,13 +10218,13 @@ incercam, ca sa ne dam seama ca el functioneaza. Nu
 trebuie, insa, sa si suferim din cauza unei dureri,
 indiferent de natura acesteia. Durerea este ceva, pe cand
 suferinta este cu totul altceva. Trebuie sa ne repetam cat
-putem d e des acest lucru si sa incepem sa u tilizam
+putem d e des acest lucru si sa incepem sa utilizam
 tehnicile descrise. Alun atunci ne vom da seama ca
 exista un „eu” separat de durere, este ca si cand nu am
 mai fi conectati la ea, ca si cand am depasi in maretie
 ceea ce ne doare si am fi situati deasupra durerii insasi.
 
-Care este semnificatia exp erientelor de viata?
+Care este semnificatia experientelor de viata?
 Semnificatia stabileste modul in care le traim,
 sentimentele pe care le nutrim in legatura cu ele... nu -i
 asa? Nu are absolut nicio importanta ce se petrece in
@@ -10234,7 +10234,7 @@ raportam noi insine la evenimentele exterioare. Cei care
 sunt suficient de evoluati spiritual, se pot afla in situatii
 cumplit de dramatice si, totusi, sa nu fie afectati de
 acestea.
-Unul din lucrurile pe care le putem, t otusi, face in
+Unul din lucrurile pe care le putem, totusi, face in
 privinta durerii este sa ne perfectionam in mod constient
 actiunea asupra propriei noastre constientizari si sa ne -
 o dezvoltam. Predispozitia spre durere apare ca urmare a
@@ -10243,7 +10243,7 @@ de ganduri si sentimente negative. Travaliul spiritual si
 evolutia au o valoare generala. Pana de curand,
 fenomenul iertarii nu fusese cu adevarat receptat decat
 de religie, iar acum a devenit aproape un fenomen social.
-In prezent, cand ne vedem de viata sociala obis nuita si
+In prezent, cand ne vedem de viata sociala obisnuita si
 intervine cineva cu un sentiment ostil, ceilalti vor
 remarca persoana respectiva si vor sti ca urmatorul pas
 pe care-l au de facut este sa invete cum sa -i ierte fapta;
@@ -10252,12 +10252,12 @@ Durerea si suferinta apar ca rezultat a ceea ce
 retinem in minte. De ce sunt anumite persoane atat de
 susceptibile la durere si suferinta, pe cand pentru altele
 acestea sunt doar experiente trecatoare? Durerea si
-suferinta le afecteaza doar la suprafata, fara a patru nde
+suferinta le afecteaza doar la suprafata, fara a patrunde
 in profunzimea lor; ceva le poate necaji foarte tare in
 aparenta, dar ceea ce sunt ele in interior ramane
 netulburat. Pe undeva, exista o diferenta intre ceea ce
 persoana este si ceea ce persoana traieste ca eveniment
-exterior. Adevaratul Sine este com plet neafectat si
+exterior. Adevaratul Sine este complet neafectat si
 
 permite experientei sa ajunga la sine. Supararea -
 conflictul emotional sau orice s-ar intampla sa fie - poate
@@ -10277,7 +10277,7 @@ energie al Vinovatiei, care calibreaza la nivelul 130.
 Sentimentele de vinovatie excesive si care se prelungesc
 in timp ne predispun la imbolnavire, accidente, durere si
 suferinta. Perspectiva asupra lumii care rezulta din
-vinovatie se traduce prin pred ispozitia constanta spre
+vinovatie se traduce prin predispozitia constanta spre
 pacatuire, suferinta si ura de sine. Procesul care urc loc
 in constiinta la acest nivel este unul de autodistrugere si
 decurge, in mod firesc, din ura de sine. Drept urmare,
@@ -10286,7 +10286,7 @@ renuntat este acela ca vinovatia si suferinta ar avea o
 anume valoare. Pe masura ce trecem in revista
 campurile de energie, observam ca cei care se apropie de
 cele corespunzatoare sfintilor si fiintelor ilustre, se
-apropie totodata si din ce in ce mai mult de D umnezeu,
+apropie totodata si din ce in ce mai mult de Dumnezeu,
 indepartandu-se de vinovatie, durere si suferinta. Cand
 soseste momentul trairii Realitatii Ultime, traversam
 pragul unei iubiri din ce in ce mai mari, pentru ca
@@ -10294,7 +10294,7 @@ iubirea sporeste si se extinde pe masura ce fiinta trece
 de la starea de bucurie si extaz, la cea de liniste
 interioara.
 
-Trebuie sa renuntam la a mai adora zeul suferi ntei.
+Trebuie sa renuntam la a mai adora zeul suferintei.
 Crestinii nu trebuie decat sa renunte la adorarea
 Dumnezeului rastignit, a lui Iisus rastignit, adoptandu-l,
 in schimb, pe Iisus inviat. Mesajul sau n-a fost niciodata
@@ -10316,13 +10316,13 @@ cum, vreun beneficiu spiritual major. La drept vorbind,
 toti acei mii de oameni pe care i -am tratat in mediul
 clinic de-a lungul a peste cincizeci de ani si care acuzau
 dureri cronice, sentimente de vinovatie, se considerau
-pacatosi si sufereau, erau persoanele cele mai egois te si
+pacatosi si sufereau, erau persoanele cele mai egoiste si
 egocentrice pe care mi -a fost dat vreodata sa le
 intalnesc. Durerea cronica si suferinta nu fac d in
 oameni fiinte iluminate si pline de iubire. De obicei, le
 face artagoase, uracioase, egoiste si egocentrice, ceea ce
 le aduce la nivelul urmator, acela al autocompatimirii.
-Cei mai multi oameni care sufera de dure ri cronice isi
+Cei mai multi oameni care sufera de dureri cronice isi
 plang de mila, se jelesc, se autocompatimesc si se tem in
 continuu de perpetuarea starii in care se afla,
 intrebandu-se daca nu cumva aceasta se va inrautati . Ii
@@ -10334,7 +10334,7 @@ campurile de energie negativa. La acest nivel, oamenii
 sunt foarte, foarte maniosi. Supararea celor care indura
 dureri cronice este extrem de mare si sunt blocati in
 starea aceasta. Unii sunt chiar mandri nevoie mare ca n-
-a reusit nimeni, pana in acel moment, sa ii aj ute.
+a reusit nimeni, pana in acel moment, sa ii ajute.
 Relateaza plini de inversunare despre toti doctorii la care
 au fost, toate tratamentele pe care le -au urmat si cum
 nimic din toate acestea nu a dat rezultate in cazul lor.
@@ -10418,11 +10418,11 @@ acesta, putem avansa ulterior catre un camp de energie
 numit Iubire sau chiar Bucurie. Referitor la ceea ce se
 inscrie in aria posibilului, nu ma pot raporta decat la
 experienta personala. Abia cand cineva ne impartaseste
-propriile experie nte, realizam ce este cu adevarat cu
+propriile experiente, realizam ce este cu adevarat cu
 putinta sa se petreaca in constiinta umana.
 Cand mi s -a intamplat accidentul acela cu degetul,
 am facui apel la o Forta superioara propriei mele
-persoane. Am persista t sa ma las in voia durerii,
+persoane. Am persistat sa ma las in voia durerii,
 remitand-o acelei Forte. Mi-aduc aminte ca m-am dus la
 camera de garda si i-am informat pe cei de acolo ca nu
 puteau sa-mi administreze nici un fel de anestezic sau
@@ -10437,13 +10437,13 @@ rezistenta. Am apelat la Dumnezeu asa cum il
 intelegeam eu, la acel aspect la Sinelui meu mai inalt.
 Putem crede in existenta unui camp de energie superior
 sinelui individual si care detine o putere nemarginita,
-asa ca m -am lasat tot timpul cat a dura t interventia in
+asa ca m -am lasat tot timpul cat a durat interventia in
 voia lui Dumnezeu . I ntr-o situatie de acest gen, cand
 suntem coplesiti de o durere ingrozitoare si suferim din
 toti porii, ne dam seama in ce credem cu adevarat; este o
 ocazie extraordinara de evoluare spirituala.
 Cand ma abandonam si incet am sa mai opun
-rezistenta experientei, am simtit la un momen t dat ca
+rezistenta experientei, am simtit la un moment dat ca
 am iesit din corpul meu si m-au cuprins o profunda
 pace interioara, o incredibila stare de liniste, o
 inexprimabila serenitate interioara si o imensa bucurie.
@@ -10469,7 +10469,7 @@ abordam dintr-un unghi care sa le faca mai inteligibile .
 In jurul nivelului 540, incepe sa se manifeste
 vindecarea, iar in creier sunt eliberate endorfine - niste
 
-substante neurochimice pe care cre ierul le elibereaza si
+substante neurochimice pe care creierul le elibereaza si
 atunci cand sunt utilizate narcotice.
 Ulterior acestei experiente, imi dadeam seama ca in
 interiorul meu „ceva ” se ocupa de durere, ceva ce nu
@@ -10496,17 +10496,17 @@ mintii. Desigur ca, in acelasi timp, ne dorim sa facem tot
 ce ne sta in putinta si la nivel fizic. Din proprie
 experienta, pot afirma ca acupunctura s-a dovedit a avea
 o mare eficienta. Am suferit douazeci si cinci de ani de
-un ulc er duodenal nabadaios si incurabil. Urmasem
-toate tratamentele medicale c unoscute si era doar o
+un ulcer duodenal nabadaios si incurabil. Urmasem
+toate tratamentele medicale cunoscute si era doar o
 chestiune de timp pana cand a r fi trebuit sa fiu supus
 unei operatii de gastrectomie totala si chirurgie
 gastrointestinala reparatorie, deci o interventie
 chirurgicala majora. Atunci am incercat acupunctura si
-cam pe la a treia sedin ta durerea si suferinta au
+cam pe la a treia sedinta durerea si suferinta au
 
 disparut, iar radiografii le aratau ca ulcerul meu
 duodenal cronic se vindecase. (Si n -a mai aparut de
-atunci). Prin prisma experientei mele personale, asada r
+atunci). Prin prisma experientei mele personale, asadar
 v-as sugera fara rezerve acupunctura ca tratament al
 unei afectiuni cronice si incurabile.
 Stim ca recurgerea la analgezice are cel putin doua
@@ -10517,12 +10517,12 @@ confera intreaga putere pastilei, o putere care ii apartine
 de fapt constientului lui. Cand se intampla lucrul
 acesta, evolutia personala inceteaza. Al doilea efect
 negativ il constituie dependenta progresiva de analgezice
-si narcotice, care creeaza si complica intreaga chest iune
+si narcotice, care creeaza si complica intreaga chestiune
 prin adaugarea unui element care se poate dovedi mai
 greu de tratat decat problema initiala.
 O alta tehnica utila in vindecare este hipnoza.
 Medicina alternativa este, actualmente, foarte interesata
-de hipnoza, ca si de acupunctura. Cea mai utila form a
+de hipnoza, ca si de acupunctura. Cea mai utila forma
 de hipnoza este autohipnoza. Din considerente ce tin de
 progresul constiintei, este mai bine sa v -o insusiti
 singuri decat sa apelati la altcineva care sa aplice
@@ -10547,12 +10547,12 @@ felul de pareri si intelesuri, ne vom referi la o stare de
 relaxare extrema care se manifesta in conditii de
 sugestionabilitate si capacitate de concentrare marite.
 Nu trebuie decat sa va asezati sau sa va intindeti intr -o
-pozitie cat mai conf ortabila si, treptat, sa incepeti sa va
+pozitie cat mai confortabila si, treptat, sa incepeti sa va
 relaxati. Imaginati - va coborand zece trepte si spuneti
 „Nivelul 1”. Aceasta anunta ca sunteti pe punctul de a
 incepe procedura. Spuneti, apoi „Nivelul 2”, relaxandu-
 va inca si mai mult.
-Primul pas este inceputul exp erientei, iar cel de -al
+Primul pas este inceputul experientei, iar cel de -al
 doilea permite o perioada de relaxare pentru toti muschii
 capului. Pe masura ce procedati in felul acesta, veti
 simti crisparea din muschii fetei si ai maxilarelor, care
@@ -10688,7 +10688,7 @@ kilograme, pe care nu le -am mai pus la loc, folosind
 exact aceasta tehnica simpla pe care am descoperit -o in
 timpul cercetarilor despre constiinta.
 Solutionarea unei probleme de greutate ar trebui sa
-fie necomplicata, directa, la obiect, efe ctul sa dureze un
+fie necomplicata, directa, la obiect, efectul sa dureze un
 timp indelungat si sa nu coste nimic. Dietele nu
 functioneaza, in general, pe termen lung. Metodele
 obisnuite la care se apeleaza se soldeaza, de obicei, cu
@@ -10720,7 +10720,7 @@ invatam sa abordam chestiunea d in inima - nu din
 minte - si din iubire, in loc s -o abordam din stomac.
 Mintea ne critica fiindca stomacul ne c ere sa mancam .
 Singurul mod de a rezolva aceasta dilema este sa
-implicam inim a in proces. Ne vom simti, atunci, mai
+implicam inima in proces. Ne vom simti, atunci, mai
 impacati in legatura cu subiectul acesta care pe multi ii
 deranjeaza destul de tare impacarea aceasta este data de
 faptul ca mancam; autoacuzarea si vinovatia isi vor face
@@ -10737,19 +10737,19 @@ Informatiile care vor urma , i nsa, s -ar putea sa nu fie
 neaparat in acord cu gandirea medicala conventionala.
 Daca schema de gandire a acesteia din urma si calculul
 caloriilor ar fi dat rezultate in cazul vostru, n -ati mai fi
-interesati de ceea ce urmeaza. Va voi relata luc ruri pe
+interesati de ceea ce urmeaza. Va voi relata lucruri pe
 
 care le-am observat in context clinic si despre care stiu
 ca sunt reale.
 Travaliul cu constiinta se adreseaza adevarului
 propriei noastre trairi launtrice. Nu are nimic de -a face
 cu teorii, ipoteze, rationamente stiintifice sau cu logica.
-Are, in s chimb, de -a face cu trairea adevarului
+Are, in schimb, de -a face cu trairea adevarului
 dinauntrul nostru.
 Primul lucru pe care -l avem de facut este sa
 demolam unele convingeri despre diete si alimente care
 au contribuit din plin la problema noastra din prezent.
-Initial, nutrim convingeri si ganduri de g enul „Ei, in
+Initial, nutrim convingeri si ganduri de genul „Ei, in
 familia mea sunt multi supraponderali genele sunt de
 vina”. Sau „Este din cauza tiroidei ”, „Este fiindca in
 copilarie eram supraponderal si asta a dus la aparitia de
@@ -10772,13 +10772,13 @@ drum. Mai exista si alti factori, cum ar fi ritmul
 miscarilor peristaltice; se stie, cu cat alimentele se
 deplaseaza mai accelerat de -a lungul Pactului digestiv,
 cu atat absorbtia este mai lenta. Acesti factori, diferiti de
-calculul caloriilor, trebuie luati in consid erare; vom
+calculul caloriilor, trebuie luati in considerare; vom
 
 ajunge astfel la un mod de abordare care nu va mai
 implica deloc calculul caloriilor.
 Mai exista si unele trucuri alimentare utile in faza
 de inceput, pana cand travaliul pe care -l vom efectua
-asupra noastra va reusi sa regleze senzatiile de foa me si
+asupra noastra va reusi sa regleze senzatiile de foame si
 de satietate, prin centrul de control neuronal situat in
 regiunea creierului numita hipotalamus. Este nevoie de
 o zi sau doua pentru resetarea acestui centru neuronal,
@@ -10788,7 +10788,7 @@ incepe sa se materializeze in planul fizic. Este important
 sa intelegem puterea mintii asupra corpului, precum si
 faptul ca gandurile pe care le nutrim fac corpul sa fie
 asa cum este, nu vice-versa.
-Trebuie sa rastu rnam „bunul -simt” conventional al
+Trebuie sa rasturnam „bunul -simt” conventional al
 logicii emisferei stangi a creierului, care afirma ca trupul
 configureaza mintea si sa luam in considerare exact
 opusul, respectiv ca ceea ce gandim se manifesta in
@@ -10798,11 +10798,11 @@ fenomenele din jurul lor ne afecteaza greutatea. Cunosc
 ceea ce va voi relata in continuare din cazuistica
 pacientilor cu personalitati multiple. Una dintre
 personalitati se instaleaza in pacientul pe nume Richard
-si pune stapanire pe const iinta acestuia. Richard nu
+si pune stapanire pe constiinta acestuia. Richard nu
 sufera de niciun fel de tulburari de alimentatie si nu are
 probleme cu greutatea corporala si mananca, de fapt,
 foarte putin, este energic, activ si cata vreme Richard
-ramane in propriul corp, ac esta din urma pierde in
+ramane in propriul corp, acesta din urma pierde in
 greutate si ajunge suplu.
 Apoi Richard intra in stare de transa sau ajunge
 intr-o sta re de intoxicare si in corp isi face aparitia
@@ -10813,7 +10813,7 @@ inregistreaza un salt brusc. Asa ne putem da seama ca,
 de fapt, corpul reactioneaza la ce -i dicteaza mintea, la
 mentalitate, la convingeri si atitudini mentale, ca si la
 modul in care individul concepe in minte relatia cu
-propriul corp. Min tea regleaza f oamea si satietatea; de
+propriul corp. Mintea regleaza foamea si satietatea; de
 aceea, utilizarea mentala a tehnicilor de lucru cu
 constiinta ne va scapa de problemele d e greutate si vom
 incepe sa slabim aproape automat.
@@ -10920,7 +10920,7 @@ sau la serviciu, ba chiar si in timp ce conduceti masina
 spre ori dinspre serviciu. Metoda se incadreaza perfect in
 viata voastra si se adapteaza cu usurinta la rutina
 zilnica. Nu este nevoie sa va dati viata peste cap pentru
-a o utiliza. Pentru ca ceva sa se dovedeasca a fi eficien t,
+a o utiliza. Pentru ca ceva sa se dovedeasca a fi eficient,
 trebuie sa se potriveasca stilului vostru de viata. Am
 constatat ca orice fel de tehnica de modificare
 comportamentala da rezultate daca este in armonie cu
@@ -10949,7 +10949,7 @@ reflex conditionat pe care acum vrem sa -l anulam. Cum
 il putem anula, cat timp dureaza asta si cat de mult
 efort trebuie depus?
 
-Un efo rt minim si foarte putin timp. Cand apare
+Un efort minim si foarte putin timp. Cand apare
 senzatia pe care am denumit -o „foame” in trecut (acum
 mi-e „foame”), trebuie doar sa nu o etichetam si sa nu-i
 opunem rezistenta. O acceptam, consimtim sa existe,
@@ -10982,7 +10982,7 @@ Este, poate, o idee buna sa incepeti procesul acesta
 intr-un week-end, cand sunteti acasa si va puteti
 intrerupe din ceea ce faceti ca sa va asezati, sau, inca si
 mai bine, sa va intindeti in pa t si sa va concentrati
-asupra senzatiei de foame. Daca nu l asam nimic sa ne
+asupra senzatiei de foame. Daca nu lasam nimic sa ne
 
 distraga atentia de la ea, aceasta va disparea brusc, in
 doar cateva minute. Apoi ne putem continua activitatile
@@ -10997,7 +10997,7 @@ In momentul aparitiei sale, dorim sa intrerupem
 ciclul etichetarii senzatiei ca „foame ”, urmata de
 satisfacerea sa prin consumul de alimente. Altfel,
 lasandu-ne in voia acestui sablon comportamental, nu
-reusim decat sa incurajam c ercul vicios care ne
+reusim decat sa incurajam cercul vicios care ne
 transforma in victime. Sinele, in schimb, se eschiveaza
 de in aceasta senzatie si incepe sa o stapaneasca, astfel
 incat sa nu i mai simtim efectul; acum ne exercitam noi
@@ -11007,7 +11007,7 @@ picturi, avand ca tema manarea bivolilor . In prima, este
 infatisat un calugar care se agata de o franghie de care
 este prins un bivol, iar animalul il taraste pe calugar
 dupa el. Genunchii ii sunt juliti, urechile ii sangereaza
-si, in general, c alugarul este ca vai de el . In urmatoarea
+si, in general, calugarul este ca vai de el . In urmatoarea
 scena, calugarul a reusit sa lege bivolul de un copia cu
 ajutorul franghiei; a priponit animalul, a identificat
 problema in cea de -a treia pictura, calugarul calareste
@@ -11083,7 +11083,7 @@ posibilitatea sa si atipim putin. Dup a ce motaim vreo
 douazeci de minute, ne vom simti nemaipomenit . Daca
 ne indopam cu mancare douazeci de minute, nu ne vom
 simtim deloc extraordinar, ci ingrozitor. Tocmai am dat
-gata pa tru Milky Ways, o inghetata de caramel si am
+gata patru Milky Ways, o inghetata de caramel si am
 infulecat o felie de branza, iar acum, in loc sa ne simtim
 fericiti, ne bantuie un sentiment de vinovatie.
 Ca sa nu ne mai simtim vinovati de acum inainte,
@@ -11091,7 +11091,7 @@ este bine sa stim ca avem la indemana o tehnica foarte
 
 simpla. Este simpla dar exact asta o face sa fie eficienta.
 Lucrurile extrem di complicate sunt, in general, departe
-de adevar; adevarul este, de obicei, surprin zator de
+de adevar; adevarul este, de obicei, surprinzator de
 simplu. Asa cum au descoperit cei cum urmeaza
 programele de la Alcoolicii Anonimi, ei se abtin de la un
 pahar de bautura zi dupa zi. Pare prea simplu. Ratiunea
@@ -11115,12 +11115,12 @@ asta dureaza vreo cinci minute, poate chiar mai putin).
 Este posibil sa trebuiasca sa repetam procedura, daca
 ne am facut de cap cativa ani buni.
 Cand actionam in felul acesta, se mai intampla ceva.
-In hipotalamus, la baza creierului, exista un ce ntru
+In hipotalamus, la baza creierului, exista un centru
 neuronal numit „appestat”. Acesta regleaza pragul de
 satietate si nivelul de satietate pe care ni-l dorim. Cu cat
 mancam mai putin, cu atat setam appestatul la o
 valoare mai mica. Satietatea este inca un fenomen
-destul de putin inteles de medicina con ventionala
+destul de putin inteles de medicina conventionala
 stiintifica. Medicina stiintifica se refera la calorii ca si
 cand o calorie ar fi similara cu o alta calorie. Noi insa
 
@@ -11150,9 +11150,9 @@ Consumarea de zahar pe stomacul gol este extrem
 de daunatoare pentru obiectivele unui program de
 slabire. De ce? Corpul asimileaza zaharul atat de repede,
 incat acesta este absorbit intr-un interval scurt si nu
-poate fi metabolizat imediat asa ca tre buie stocat ca
+poate fi metabolizat imediat asa catre buie stocat ca
 grasime in interiorul organismului. Un lucru pe care -l
-avem de facut spre binele nostru, daca dori m sa avem
+avem de facut spre binele nostru, daca dorim sa avem
 grija de noi si ne iubim, este sa evitam zaharul si
 dulciurile atunci cand urmam programul de fata. La
 inceput, ne dorim sa obtinem cat mai repede rezultate si
@@ -11181,15 +11181,15 @@ hiperproteica.
 Tehnica ce trebuie aplicata este aceeasi: a nu mai
 opune rezistenta senzatiei de foame, disparitia senzatiei
 si a poftei de mancare. Astfel, ajungem sa traim intr -un
-univers in care ac easta lege nu se mai aplica. Ne -am
+univers in care aceasta lege nu se mai aplica. Ne -am
 obisnuit sa urmam un cerc vicios hranire in exces,
 aparitia sentimentului de vinovatie, incercarea de a tine
-sub control obisnuintele alimentare. Apoi apare senzat ia
+sub control obisnuintele alimentare. Apoi apare senzatia
 de foame, odata cu aceasta se ivesc, succesiv, vinovatia
 si pofta de mancare, dupa care, in asteptarea senzatiei
 de satietate, ne ingaduim unele excese, iar ulterior,
 inevitabil, ne invinovatim . Iata cum se pune in miscare
-un ciclu nesfarsit contrar pro priilor interese. Singurul
+un ciclu nesfarsit contrar propriilor interese. Singurul
 mod de a iesi din el este sa ne ridicam deasupra lui, sa -l
 depasim si sa ajungem sa -l dominam. Odata cu
 distrugerea sa, vom descoperi ca pofta de mancare si
@@ -11223,7 +11223,7 @@ dimpotriva, cred cu tarie ca ele ar trebui sa se
 intensifice. Acum dispunem, asadar, atat de delectarea
 si placerea de a manca, precum si de bucuria,
 multumirea si mandria indreptatita de a avea un corp
-mai apropiat de cerintele noastre estet ice, de felul in
+mai apropiat de cerintele noastre estetice, de felul in
 care ne dorim sa aratam.
 Primul lucru de care trebuie sa ne ocupam este
 alternarea actului de a manca si aparitia senzatiei de
@@ -11244,14 +11244,14 @@ Am achizitionat aceste modele comportamentale in
 copilarie, prin conditionare sociala; asta este tot. Vom
 discuta despre rolul pe care -l joaca copilul din noi in
 aceasta situatie si vom ajunge sa privim cu totul altfel
-intregul sablon de hranir e. Mintea este aceea care
+intregul sablon de hranire. Mintea este aceea care
 resimte existenta corpului, iar constiinta experimenteaza
 existenta mintii; de aceea, noi, de fap t, experimentam in
 propria constiinta ceva indeobste cunoscut sub
 denumirea de „foame”. Unde este aceasta localizata? Veti
 vedea ca in stomac se resimte doar efectul unui sistem
 de convingeri, si ca aceasta experimentare are loc intr -
-un mod generaliza t, oarecum pretutindeni. Ideea ca
+un mod generalizat, oarecum pretutindeni. Ideea ca
 simtim foamea in stomac este doar un sistem de
 convingeri pe care l -am preluat in copilarie Asa cum am
 mentionat deja, corpul nu poate resimti nimic prin el
@@ -11299,7 +11299,7 @@ al alimentarii, la nivelul 250, ne eliberam in sfarsit de
 sub dominatia sa . I n aceasta faza, ne detasam si de
 procesul din constiinta noastra. Deoarece campul de
 
-energie are acum o directie ascen denta, manifestam si
+energie are acum o directie ascendenta, manifestam si
 noi un sentiment pozitiv, constructiv, de adecvare, care
 ne face sa ne simtim mai bine. Este un camp foarte
 puternic.
@@ -11328,7 +11328,7 @@ detasam de aceste senzatii, incepem sa ne simtim bine
 privitor la noi insine. De fapt, predispozitia noastra spre
 acest lucru se manifesta la nivelul 310, la care vom avea
 sentimente inca si m ai pozitive in aceasta privinta .
-Incepem sa acceptam faptul c a senzatiile aces tea nu
+Incepem sa acceptam faptul c a senzatiile acestea nu
 sunt altceva decat un fenomen, o serie d e vibratii ce se
 manifesta in constiinta si care nu au nicio legaturii cu
 alimentele sau corpul insusi. Sunt doar niste programe.
@@ -11341,9 +11341,9 @@ Mai exista un aspect foarte interesant care se
 desfasoara in constiinta noastra si care ne va fi, de
 asemenea, foarte util. Il puteti constata in voi insiva;
 este ceva ce am observat la mi ne insumi si am urmarit
-cum se manifesta . In trecut, ciclul era dirija t de foame,
+cum se manifesta . In trecut, ciclul era dirijat de foame,
 apetit, satietate si, ulterior, de sentimentele de vinovatie.
-Toate bunele mele intentii cu privire la urmarea u nei
+Toate bunele mele intentii cu privire la urmareau nei
 diete si la scaderea in greutate zburau deodata pe
 fereastra si dispareau undeva. Dupa ce ma indopam cu
 mult mai multa mancare decat stiam ca aveam nevoie,
@@ -11358,7 +11358,7 @@ de fapt, in aceste situatii? Am observat ca atunci cand o
 persoana se asaza la masa doar adultul din ea este
 preocupat de scaderea in greutate, pe cand „copilul din
 interior” este de fiecare data flamand.
-In trecut, dr. Eric Be rne, autorul cartii „Jocuri
+In trecut, dr. Eric Berne, autorul cartii „Jocuri
 pentru adulti ” (Titlul original in limba engleza: Games
 People Play (n. t.)) fondatorul analizei tranzactionale,
 impreuna cu alti specialisti din domeniu, s -au referit la
@@ -11396,7 +11396,7 @@ In acest moment ne aflam sub influenta parintelui
 din interiorul nostru, care este suparat pe noi si ne
 admonesteaza. Pe cine admonesteaza el, insa? Pe copilul
 din noi. Unde era adultul in tot acest timp? Fusese
-redus la tacere. Adultul nu a fost pr ezent nici in timpul
+redus la tacere. Adultul nu a fost prezent nici in timpul
 mesei, nici la sfarsitul ei. Copilul si parintele au preluat
 intregul interval de servire a mesei, lucru firesc din
 moment ce acesta este contextul in care sunt stabilite,
@@ -11408,7 +11408,7 @@ si parintele alterneaza la dirijarea tiparului nostru de
 alimentare.
 Pentru a contracara situatia pe care v -am descris-o,
 trebuie sa ne dam sea ma ca acest tipar se afla in
-desfasurare. I nsusi faptul ca devenim constienti de
+desfasurare. Insusi faptul ca devenim constienti de
 existenta lui il determina deja sa se modifice. Acum
 putem scrie un biletel pe care sa ni -l adresam noua
 insine, sa-l asezam pe masa sau pe frigider si sa facem
@@ -11416,7 +11416,7 @@ apel, in felul acesta, la adultul din noi pentru a -i spune
 copilului: „De acum inainte, acesta este locul adultului
 pentru ca eu, cel care am devenit adult, sunt foarte
 constient de modul in care ma alimentez ”. Adultul este
-informat cu privire la calorii, diete si schem e de
+informat cu privire la calorii, diete si scheme de
 alimentatie sanatoasa . I l chem cu buna stiinta pe
 adultul din mine sa participe la masa aceasta. Spun:
 „Adultul din mine se afla, acum, aici ” si resping
@@ -11463,12 +11463,12 @@ voi. Veti descoperi ca si adultilor le place foarte mult sa
 manance, numai ca ei nu o iau razna atat de repede ca
 un copil.
 Cand incepem sa aplicam programul acesta, este
-important sa evitam, pe cat posibil, fluctuatiile ni velului
+important sa evitam, pe cat posibil, fluctuatiile nivelului
 de zahar din sange pentru ca, in subconstient, o scadere
 a acestui nivel este adesea asociata cu foamea si cu
 senzatiile aferente acesteia. Daca, de exemplu, mancam
 o inghetata pe stomacul gol, glicemia inregistreaza un
-salt brusc, imediat este eli berata insulina, iar glicemia
+salt brusc, imediat este eliberata insulina, iar glicemia
 are tendinta sa scada foarte repede. Sub aspect
 comportamental, toate acestea au fost asociate pana
 acum cu senzatia de foame; numai ca noua, in realitate,
@@ -11505,13 +11505,13 @@ de acestea, dupa care oscilam in directia opusa, catre
 vinovatie si privare cu instrument de autopedepsire.
 Privarea nu este calea spre fericire; nici
 autoindulgenta. Este de preferat utilizarea unor tehnici
-de lucru cu constiinta pentru a le depasi pe fiec are in
-parte si pentru a stabili un oareca re echilibru, astfel
+de lucru cu constiinta pentru a le depasi pe fiecare in
+parte si pentru a stabili un oarecare echilibru, astfel
 
-incat sa rezolvam aceasta problema odata pen tru
+incat sa rezolvam aceasta problema odata pentru
 totdeauna si sa lasam adultul prezent in noi sa preia
 conducerea in acest fel, intregul proces devine usor si
-placut. Traim un sentiment foarte a greabil cand ne dam
+placut. Traim un sentiment foarte agreabil cand ne dam
 seama ca am reusit sa solutionam si sa depasim ceva ce
 ne-a chinuit o viata intreaga.
 Prima data cand am incercat asta, cred ca m -am
@@ -11524,7 +11524,7 @@ mult de o ora, in total, pentru utilizarea acestei tehnici.
 Se poate folosi un cronometru pe care il declansati cand
 incepeti sa utilizati tehnic a si il opriti cand senzatia de
 foame a incetat. Probabil ca nu veti acumula mai mult
-de o ora in circa zece ani de practica, asada r tehnica nu
+de o ora in circa zece ani de practica, asadar tehnica nu
 presupune in niciun caz mult efort si nici nu implic a
 suferinta.
 Nici de vointa nu este nevoie; in locul ei se apeleaza
@@ -11534,12 +11534,12 @@ opozitie, care este un camp de energie negativa de joasa
 forta ce calibreaza la valoare a 125. Folosim, in schimb,
 bunavointa si acceptarea, care duc la fericire (calibreaza
 in jurul valorii de 500). Ajungem sa ne simtim veseli si
-sa avem sentimente frumoase fata de prop ria persoana.
+sa avem sentimente frumoase fata de propria persoana.
 Corpul insusi devine armonios sub aspect fizic si
 incepem sa-l percepem in mod pozitiv.
 O alta modalitate de a accelera obtinerea aceluiasi
 efect este supravegherea propriilor activitati. Exercitiile
-fizice sunt nemaipomenite, dar in cate dim ineti ne vom
+fizice sunt nemaipomenite, dar in cate dimineti ne vom
 trezi mai devreme ca sa facem gimnastica ritmica?
 Indiferent cat de atragatoare p are persoana care le
 
@@ -11592,7 +11592,7 @@ avea. Apoi amintiti -va un eveniment din viata voastra
 cand v-ati simtit bucurosi si multumiti de voi insiva.
 Imaginati- va din nou corpul asa cum vi -l doriti si treziti
 in voi sentimentul de bucurie. Daca va doriti sa fiti
-suplu, inchipuiti -va ca su nteti astfel si incepeti sa va
+suplu, inchipuiti -va ca sunteti astfel si incepeti sa va
 atasati emotional de aceasta imagine indragiti aceasta
 proiectie a corpului vostru si apoi alungati-o din minte,
 stiind ca ati pus in functiune un program. Ati stabilit, in
@@ -11627,7 +11627,7 @@ fara, insa, a fi corpul insusi.
 Am afirmat, la inceput, ca trupul nu se poate
 percepe pe sine; el poate fi perceput numai de minte.
 Mintea poate fi experimentata doar de catre constiinta,
-iar constiinta insasi poa te fi perceputa doar de campul
+iar constiinta insasi poate fi perceputa doar de campul
 care a fost denumit „constiinta universala”; prin urmare,
 noi suntem acel ceva constient ca poseda un corp,
 precum si acel ceva care transcende corpul . Realitatea
@@ -11636,7 +11636,7 @@ care oglindeste continutul constiintei. De aceea,
 problema nu o constituie propriul corp, ci ceea ce avem
 intiparit in constiinta.
 Sarcina care ne revine este, de fapt, aceea de a
-modifica tiparele vibrationale din i nteriorul constiintei.
+modifica tiparele vibrationale din interiorul constiintei.
 Corpul va executa automat ceea ce i se va cere. El nu
 poate gandi, pentru ca nu are o minte proprie. Aceea ce
 suntem beneficiaza de minte; rolul corpului este doar de
@@ -11680,7 +11680,7 @@ Sunt persoane care au recurs chiar si la sinucidere
 din cauza problemelor de greutate si a autoindulgentei.
 Chiar daca nu abordeaza chestiunea de la nivelul
 Vinovatiei, ajung doar putin mai sus, la nivelul
-Disperarii. Starea aceasta, corespunzato are unui camp
+Disperarii. Starea aceasta, corespunzatoare unui camp
 de energie de 50, este insotita de deznadejde, care s-ar
 
 traduce prin: „Sunt un caz disperat: am incercat toate
@@ -11696,7 +11696,7 @@ putea manifesta teama de problema cu care ne
 confruntam si de consecintele pe care le-ar putea avea
 aceasta. La acest nivel apar sentimente negative de
 genul: „Voi muri de un atac de cord. Excesul de greutate
-ma va omori”. I ntalnim, de asemenea, ingrijorare,
+ma va omori”. Intalnim, de asemenea, ingrijorare,
 anxietate si panica „Problema asta o sa -mi distruga
 relatiile sentimentale si viitorul. Bineinteles ca stima de
 sine este redusa, ceea ce face ca persoanele care sufera
@@ -11710,13 +11710,13 @@ afecteaza emotiile.
 Am discutat deja despre Dorinta, care calibreaza la
 nivelul 125 si presupune dorinta de a avea un lucru,
 necesitatea de a avea, dorinta mistuitoare si sentimentul
-de a fi prins in capca na care sta la baza tuturor celor
+de a fi prins in capcana care sta la baza tuturor celor
 dinainte.
 Urmatorul camp, in ordine crescatoare, este acela al
 Maniei. Stim ca persoana care are o problema de
 greutate este suparata d in aceasta cauza. Are
 resentimente la adresa sa si este vindicativa. Cu toate ca
-nivelul de energie de 150 este unul mai efic ace, aceste
+nivelul de energie de 150 este unul mai eficace, aceste
 
 persoane pot avea mai mult succes daca -si folosesc
 mania, in loc de vinovatie sau de disperare. Daca cineva
@@ -11737,7 +11737,7 @@ moment, nu am stiut sa abordam aceste chestiuni. Daca
 am fi stiut, am fi facut-o deja.
 Pe masura ce utilizam aceste tehnici de renuntare,
 ne detasam de problema pe care o avem. Daca greutatea
-corporala continua sa fie in exces, lu crul acesta nu ne
+corporala continua sa fie in exces, lucrul acesta nu ne
 deranjeaza; daca se reduce, nu are nicio importanta.
 Prin urmare, ne simtim bine si avansam la nivelul
 Bunavointei.
@@ -11768,17 +11768,17 @@ diferite. Trebuie, asadar, sa invatam sa iubim acest corp
 acum, sa incepem sa -l apreciem cu adevarat si sa ne
 dam seama ca el este doar o mica, dar simpatica
 marioneta.
-Modul in care este bine sa ne rap ortam la corp este
+Modul in care este bine sa ne raportam la corp este
 acela de a-l privi ca pe o marioneta fericita care isi vede
 de treaba ei. La acest nivel, putem incepe sa ne amuzam
-putin, sa fim chi ar zburdalnici. In timp ce corpul topaie
+putin, sa fim chiar zburdalnici. In timp ce corpul topaie
 de colo -colo, ajungem sa fim doar vag constienti de el
-pentru c a experimentam exist enta dintr-un loc al
+pentru c a experimentam existenta dintr-un loc al
 Totalitatii. Odata ce ne dam seama unde pare sa se
 desfasoare trairea noastra, realizam ca aceasta „traire ”
 este o stare nelocalizata, difuza si subiectiva. Incepem sa
 ne identificam cu „pretutindeniul”, in loc sa n e
-identificam cu durerea de stom ac, cu proeminenta
+identificam cu durerea de stomac, cu proeminenta
 abdomenului sau cu ulcerul - toate aceste probleme
 localizate -, si sa realizam ca acela care afirma „eu sunt”
 este, de fapt, o fiinta constienta.
@@ -11805,7 +11805,7 @@ ciclul apetit/senzatie de foame, tot restul se petrece
 automat. Stim ca nu este nevoie sa facem nimic in plus.
 Daca tinem sa dam dovada de o judecata san atoasa si
 sa trecem pe Cola dietetica in loc de Co la obisnuita
-pentru a reduce cu cateva sute numarul calori ilor
+pentru a reduce cu cateva sute numarul caloriilor
 consumate, ei bine, asta este o chestiune de bun simt.
 Este un ges t ce ramane la latitudinea noastra, ceva
 complet diferit de situatia in care ne aflam noi la
@@ -11846,17 +11846,17 @@ Esti cat se poate de amuzant ”. Atunci vom intelege ca,
 de fapt, corpul functioneaza aproape automat si de la
 sine. Vom realiza si ca egoul ne juca o festa. Noi
 credeam ca luam o decizie, iar corpul o ducea la
-indeplinire cand, in realitate, el acti ona cu de la sine
+indeplinire cand, in realitate, el actiona cu de la sine
 putere pentru ca era „pe pilot automat ”. Odata eliberat
 de un tipar negativ de comportament, corpul se va
 descurca si singur cat se poate de bine.
 In experimentele stiintifice in care subiectii sunt
-copii mici, daca li se permite sa -si se lecteze singuri
+copii mici, daca li se permite sa -si selecteze singuri
 alimentele ei vor alege in mod instinctiv un regim
 echilibrat. Permitand corpului nostru sa fie intrucatva el
 insusi, vom incepe sa ne recapatam increderea in
 natura. Esenta a ceea ce este originar in corp se va
-ocupa in mod automat de nevo ile de nutritie ale
+ocupa in mod automat de nevoile de nutritie ale
 
 acestuia. Cand ne eliberam de constrangerile
 conditionarilor sociale, ceea ce este de-la-sine-vindecator
@@ -11900,7 +11900,7 @@ sa amintim doar cativa. Este preferabil sa fim trupesi,
 fericiti si sa ignoram intru totul problema greutatii
 corporale, decat sa ajungem ca ea sa ne obsedeze. Nu
 luam si corpul cu noi cand parasim planeta Pamant, iar
-considerentele estetice nu co nstituie o prioritate in
+considerentele estetice nu constituie o prioritate in
 ceruri.
 
 ## Depresia
@@ -11954,7 +11954,7 @@ Cand ne referim la depresie, creierul, hormonii,
 neurotransmitatorii si fiziologia constituie teme de
 interes. Care sunt adevaratele cauze ale depresiei? Vom
 consulta din nou Harta Constiintei, care arata nivelurile
-constiintei de la valoarea zero pana la va lorile cele mai
+constiintei de la valoarea zero pana la valorile cele mai
 mari, corespunzatoare nivelurilor starii de bucurie, si
 chiar dincolo de acestea, la starea de constiinta
 cunoscuta sub denumirea de Iluminare. Putem
@@ -11964,26 +11964,26 @@ resimtim un anumit eveniment ca pe ceva pozitiv, care
 ne infrumuseteaza viata, sau ca pe ceva negativ, nociv
 pentru noi. Spre mijlocul Hartii avem nivelul Curajului,
 care este campul de energie ce calibreaza la 200,
-respectiv ni velul Adevarului. Sub valoarea de 200
+respectiv nivelul Adevarului. Sub valoarea de 200
 energiile sunt negative, iar peste aceasta valoare campul
 de energie este directionat ascendent, indicand un camp
 de energie care sustine viata.
 In continuare, incepand din partea inferioara a
-Hartii, vom recapitula tr airile omenesti denumite
+Hartii, vom recapitula trairile omenesti denumite
 Vinovatie, Apatie si Suferinta. Campurile acestea se
 exprima prin emotii precum ura de sine,
 autoincriminarea, deznadejdea, disperarea si
 
 descurajarea. Toate acestea sunt insotite de sentimente
 de regret, pierdere si depresie.
-In c ampurile de energie ale depresiei, viziunea
+In campurile de energie ale depresiei, viziunea
 noastra despre lume este aceea a unui loc plin de
 tristete si lipsit de speranta, al pacatului si suferintei. Ni
 l-am reprezenta pe Dumnezeul unei astfel de lumi ca pe
 unul care ne ignora, insensibil si nepasator , unul de
 care suntem separati. Din cauza vinovatiei care ne
 incearca, a lipsei noastre de valoare si a pacatoseniei,
-Dumnezeu poate fi imaginat ca avand atribu te umane
+Dumnezeu poate fi imaginat ca avand atribute umane
 negative (antropomorfism).
 Cand luam in considerare procesul din constiinta ce
 are loc in campurile de energie mai joasa, la nivelul
@@ -12010,7 +12010,7 @@ rar ca una dintre aceste emotii sa apara de una singura.
 In general, o emotie negativa tinde sa atraga dupa sine,
 
 intr-o oarecare masura, alte cateva. Pe langa depresie
-coexista s entimente de autoinvinovatire, ura de sine si
+coexista sentimente de autoinvinovatire, ura de sine si
 devalorizare. Acestea sunt emotii asociate nivelului
 deznadejdii si disperarii. Sunt, de asemenea, prezente
 regretele legate de trecut si temerile privind viitorul;
@@ -12045,7 +12045,7 @@ sau cand imi voi cumpara haina aceea de blana sau
 masina aceea noua; sau cand voi obtine diploma de
 
 masterat; sau cand voi fi in relatii intime cu persoana X;
-sau daca as pu tea schimba felul de a fi al persoanei Y;
+sau daca as putea schimba felul de a fi al persoanei Y;
 sau daca as reusi s -o fac pe matusa mea sa nu mai bea
 alcool; sau daca firma la care lucrez si-ar achita datoriile
 si ar functiona iarasi ca inainte... atunci as considera ca
@@ -12079,7 +12079,7 @@ in exteriorul nostru. Pierderea fericirii aduce dupa sine
 dispret si ura fata de propria persoana. Nu ne -a mai
 ramas, acum, nimic de iubit in noi insine, pentru ca
 
-ceea ce iubiseram fusese co nsiderat ca fiindu -ne
+ceea ce iubiseram fusese considerat ca fiindu -ne
 exterior.
 In stadiul Apatiei, care ni se face cunoscut prin
 absenta sperantei si prin deznadejde, se manifesta o
@@ -12102,7 +12102,7 @@ stare de completa lipsa a iubirii, avand sentimentul ca
 nu sunt iubiti.
 Experienta clinica ne -a aratat ca cele trei stari
 inferioare ale deznadejdii si neajutorarii, pe care le -am
-denumit generic descurajare si dep resie, apar in urma
+denumit generic descurajare si depresie, apar in urma
 esecului in manevrarea campului de energie de la nivelul
 superior, anume acela al Fricii. Individul nu se
 confrunta cu frica sa latenta deoarece depresia izvoraste
@@ -12153,10 +12153,10 @@ vestea, ca continua sa se legene in balansoar, privind
 inexpresiv pe fereastra. „Mama, mama ”, exclama
 membrii familiei in timp ce o scutura, n-ai auzit? Joey
 nu a murit! Este bine, este in viata! Sc afla in tabara
-R&R (R&R - Rest and Recreation , inseamna o scurta
+R&R (R&R - Restand Recreation , inseamna o scurta
 perioada de vacanta si de refacere a fortelor cadrelor
 militare americane dupa un stagiu de serviciu cu durata
-de un an d e zile in Vietnam, (n. t.)) din Vi etnam”. Cu
+de un an d e zile in Vietnam, (n. t.)) din Vietnam”. Cu
 toate acestea, femeia nu-si inceteaza leganatul.
 I se intamplase ceva. Campul de energie in care se
 afla, starea pe care, in mod evident, o adoptase era
@@ -12220,7 +12220,7 @@ suferit-o pierderea locului de munca, pierderea
 vitalitatii, pierderea tineretii, pierderea unor oportunitati
 
 etc. Oamenii devin deprimati pe la mijlocul vietii fiindca
-au impresia ca viata a trecu t pe lan ga ei si incep sa
+au impresia ca viata a trecut pe langa ei si incep sa
 simta ca au ratat definitiv o multime de oportunitati.
 Unei femei de varsta mijlocie, de exemplu, pentru care
 infatisarea a avut o mare importanta intreaga viata,
@@ -12240,15 +12240,15 @@ din urma se raporteaza la viitor: „Cum pot sa mai traiesc
 fara ceea ce a dai sens vietii mele?” Fenomenul acesta se
 poate observa in cazul adicti ilor, de exemplu. Se poate
 spune ca toti cei care sufera de depresii sunt dependenti
-de plasarea responsabilitatii pen tru propria
+de plasarea responsabilitatii pentru propria
 supravietuire in ceva din afara lor.
 In adictii, daca amenintam cu interzicerea accesului
-la drogul pe care individul il consi dera ca fiind sursa
+la drogul pe care individul il considera ca fiind sursa
 supravietuirii si fericirii sale, observam cum se
 instaleaza groaza - nu doa r frica, ci efectiv groaza.
 Persoana dependenta nutreste convingerea ca ii va fi cu
 neputinta sa traiasca fara a avea acces la substanta in
-cauza, asa ca o dete rminam sa-si analizeze fric a si apoi
+cauza, asa ca o determinam sa-si analizeze frica si apoi
 sa utilizeze tehnicile clinice pe care le -am descoperit
 pentru a o gestiona; dupa aceea, trezim in ea
 disponibilitatea de a admite prezenta fricii - prin
@@ -12291,7 +12291,7 @@ acesta.
 
 Dupa aceea continui:
 - Nu te mai opune senzatiei de furnicaturi in
-picioare. Ia sa vedem, cum stam cu cr ampele
+picioare. Ia sa vedem, cum stam cu crampele
 abdominale? Ai putea incerca sa nu le mai opui
 rezistenta? Poti sa nu le mai numesti „crampe”?
 Observa, doar, ceea ce simti si inceteaza sa te mai
@@ -12303,7 +12303,7 @@ aceea de contractie a stomacului? Poti s-o tolerezi?
 dar sa incetezi sa o mai etichetezi drept „crampe
 abdominale”? Sa vedem, acum, ce se intampla cu ritmul
 pulsului tau. Ai pute a incerca sa nu -i mai opui
-rezistenta? Lasa in ima sa bata cum doreste. Sa ne
+rezistenta? Lasa inima sa bata cum doreste. Sa ne
 ocupam si de senzatia de gura uscata.
 Individul ajunge sa-si dea seama:
 - Da, le pot tolera. Pot suporta toate aceste senzatii,
@@ -12345,7 +12345,7 @@ mi-a povestit despre Babau. Mama a luat in ras
 Baubaul, fantomele si celelalte asemenea lor, insa, pe
 undeva, ca urmare a puterii de convingere a acelui pusti
 mai mare (care chiar parea sa stie ce spune), s-a
-strecurat in mine teama de Ba ubau. Atunci, mama m -a
+strecurat in mine teama de Baubau. Atunci, mama m -a
 luat de mana si m-a dus in subsolul intunecos, unde, cu
 lanternele aprinse, l-am cautat pe Babau prin toate
 cotloanele. Nu l -am gasit nici acolo, nici prin sifoniere,
@@ -12353,7 +12353,7 @@ nici in spatele draperiilor si nici nicaieri altundeva in
 casa sau in pod.
 Este bine sa avem pe cineva langa noi atunci cand
 ne analizam teama, pentru ca aceasta este resimtita de
-copilul care rezida in subconstientul nostru. Co pilul din
+copilul care rezida in subconstientul nostru. Copilul din
 interiorul nostru nu intelege natura adevaratei vieti din
 lumea aceasta, asa ca iese la suprafata si afirma; „Vai de
 mine, fara lucrul acesta nu voi putea supravietui!”
@@ -12369,7 +12369,7 @@ aruncam la toaleta stocul de droguri, este cuprinsa de o
 criza de furie. Ne este foarte clar acum ce i -a declansat
 furia, nu -i asa? La originea ei se afla exact aceeasi
 fantasma ca in cazul convingerii ca sursa fericirii se afla
-in af ara sa, fiind plasata intr -un obiect exterior: o alta
+in afara sa, fiind plasata intr -un obiect exterior: o alta
 fiinta, un loc sau un obiect. Atunci cand plasam sursa
 fericirii noastre in afara noastra, se creeaza un camp de
 energie negativa pentru ca aceasta este, de fapt, o
@@ -12378,7 +12378,7 @@ Doar atunci cand admitem ca noi insine suntem
 sursa propriei fericiri, se orienteaza campul de energie
 intr-o directie pozitiva. Suntem capabili sa ajutam o
 persoana sa scape de depresie si de descurajare, sa o
-facem sa -si infrunte temer ile, sa o determinam sa -si
+facem sa -si infrunte temerile, sa o determinam sa -si
 doreasca ceva mai bun si sa -i deturnam mania, astfel
 incat sa fie furioasa pentru ca este o victima in loc sa se
 infurie din cauza pierderii vreunui lucru.
@@ -12417,7 +12417,7 @@ putea mandri cu faptul ca am devenit dispusi sa
 analizam starea de fapt, iar cu aceasta ocazie sa
 avansam la nivelul Curajului de a spune adevarul
 despre toate aceste lucruri. Iar adevarul este ca ceva din
-adancul constiint ei noastre ne predispune la
+adancul constiintei noastre ne predispune la
 vulnerabilitate.
 Atunci cand incepem sa ne asumam
 responsabilitatea si recunoastem: „Modul in care am
@@ -12474,7 +12474,7 @@ Abordand lucrurile din perspectiva holistica, deci
 din perspectiva corpului, a mintii si a sufletului, dorim
 sa facem apel la cunostintele de baza pentru a crea
 premisele imunizarii in fata innoirii episoadelor acestei
-experiente epuizante cunoscuta d rept depresie.
+experiente epuizante cunoscuta drept depresie.
 Acceptarea inseamna a ne observa propria alcatuire
 interna fara a ne invinovati si fara a cadea in capcana
 scenariului „e ceva in neregula aici ”. Nu este nimic in
@@ -12486,12 +12486,12 @@ decat sa ni le transmita mai departe. Este un fenomen
 care se perpetueaza inca din vremurile biblice, cand
 intalnim descrieri ale unor depresii foarte severe; acestea
 si-au facut, asadar, aparitia in constiinta colectiva
-mostenita, care contine in prezent un progr am identic:
+mostenita, care contine in prezent un program identic:
 acela ca, intr-un fel sau altul, fericirea si izvorul acestei
 fericiri este situat undeva in afara noastra.
 Pe masura ce progresam catre nivelul 310, animati
 de dorinta de a spune adevarul si de a-l analiza, vom
-observa ca forta acestui camp cr este pana la valoarea
+observa ca forta acestui camp creste pana la valoarea
 350 - nivelul Acceptarii. Aici, campul de energie este
 pozitiv in loc de negativ pentru ca, odata depasit nivelul
 Curajului, individul inceteaza sa proiecteze sursa
@@ -12529,7 +12529,7 @@ Cat timp dureaza iesirea din depresie? Dureaza
 pana deveniti dispusi sa admiteti adevarul celor
 intamplate. Detinem in noi resursele necesare pentru a
 accepta ce s -a petrecut, pentru a ne da seama ca
-suntem sursa propriei fericiri si pent ru a ne decide sa
+suntem sursa propriei fericiri si pentru a ne decide sa
 nu mai lasam aceasta fericire la latitudinea altora.
 Recunoasterea faptului ca avem aceasta capacitate
 
@@ -12554,7 +12554,7 @@ ce? Diferenta consta in semnificatia pe care o acordam
 intamplarilor.
 Cine sau ce a creat intelesul care a conferit acestui
 lucru din exteriorul nostru forta si semnificatie? Noi
-suntem creatorii semnificatiilor si aceia care de cidem ce
+suntem creatorii semnificatiilor si aceia care decidem ce
 inteles sa acordam unui eveniment. Iata de ce trebuie sa
 examinam modul in care ne -am insusit constiinta
 sociala. Trebuie sa analizam valorile prin intermediul
@@ -12570,7 +12570,7 @@ Atunci cand stim ca noi si numai noi suntem cei care
 
 facem alegerile si care detinem puterea, ne inunda o
 stare de bucurie interioara. Noi suntem cei care stabilim
-semnificatiile evenimentelor si cei care acc eptam ca
+semnificatiile evenimentelor si cei care acceptam ca
 aceste lucruri sa ne influenteze; de aceea este absolut
 posibil sa ne revenim din dezamagirea, suferinta,
 tristetea si mania provocate de un eveniment, ba chiar
@@ -12589,7 +12589,7 @@ chiar daca din perspectiva clinica depresia este absenta,
 asumarea faptului ca suntem vulnerabili impiedica
 instalarea acelei stari d e necrezut numita pacea lui
 Dumnezeu - certitudinea ca nu suntem separati de
-sursa niciunui lucru, ca, dimpotriva, sunt em conectati
+sursa niciunui lucru, ca, dimpotriva, suntem conectati
 la aceasta sursa si ca ne aflam permanent in prezenta
 Lui Dumnezeu.
 Cum poate, totusi, cineva avea experienta a ceea ce
@@ -12610,7 +12610,7 @@ care va vorbesc. Propria mea calatorie interioara a
 presupus o perioada de grava, serioasa, agonizanta
 depresie, care m -a aruncat de -a dreptul in chinurile
 iadului. In starea aceea de deznadejde suprema in care
-parca se oprise pana si timpul, t ribulatia parea sa
+parca se oprise pana si timpul, tribulatia parea sa
 dureze de eoni si eoni. ( In depresia severa, perceperea
 timpului este alterata si fiecare secunda pare o
 eternitate.) In rastimpul acela nu se zarea nicio raza de
@@ -12654,17 +12654,17 @@ fi redescoperit chiar in abisul durerii pe care o resimtim:
 inocenta inerenta constiintei insasi, inocenta imanenta a
 propriului sine interior. Ne putem da seama de aceasta
 in doua moduri. Mai intai, prin atingerea starii de
-compasiune accedem la un asemenea nivel al constiin tei
+compasiune accedem la un asemenea nivel al constiintei
 incat putem vedea, efectiv, in inimile celorlalti; pur si
 simplu, remarcam si recunoastem aceasta inocenta. A
 doua modalitate este perceperea prin introspectie a
 modalitatii prin care si-a facut aparitia aceasta inocenta.
-Sa remarcam inocenta primordia la a copilului, care
+Sa remarcam inocenta primordiala a copilului, care
 este increzator din nastere. Copilul are incredere in
 integritatea adultilor si nici prin minte nu -i trece sa se
 indoiasca de adevarul celor ce i se spun. Copilul mic isi
 iubeste parintii si iubeste, de asemenea, acele prelungiri
-ale p arintilor care poarta denumirea de profesori,
+ale parintilor care poarta denumirea de profesori,
 membri ai familiei, copii de aceeasi varsta, prieteni de
 joaca, emisiunile si reclamele de la televizor. Copilul, ca
 urmare a firii sale increzatoare, a deschiderii sale, a
@@ -12674,13 +12674,13 @@ reclama comerciala ea fiind tot atat de adevarata ca si
 spusele propriilor parinti. Mintea sa inocenta si
 increzatoare este usor de programat, ceea ce face ca,
 data fiind aceasta inocenta, el sa creada ca tot ce aude
-este in adevarat. Co pilul ii considera pe cei pe care -i
-iubeste ca f acand parte dintr -o mare familie. Din
+este in adevarat. Copilul ii considera pe cei pe care -i
+iubeste ca facand parte dintr -o mare familie. Din
 momentul in care incep sa i se imprime in minte
 conditionarile, puritatea copilului, datorita inocentei sale
 imanente, devine la randul ei conditiona ta. Inocenta il
 determina sa creada afirmatii de genul: „Toti suferim de
-alergii”, „Afectiunile cardiace sunt ereditare in famili a
+alergii”, „Afectiunile cardiace sunt ereditare in familia
 noastra” sau „Membrii familiei noastre au probleme de
 greutate corporala”.
 Un copil inocent asimileaza toate conditionarile
@@ -12698,7 +12698,7 @@ atat de inocenta, cu aceeasi puritate a intentiilor si
 avand capacitatea de a ramane curata indiferent de
 natura conditionarilor strecurate in ea. Constiinta, in
 esenta ei, ramane neschimbata in noi toti. Este exact ca
-in acest moment, cand parcur gem aceste randuri.
+in acest moment, cand parcurgem aceste randuri.
 Constiinta noastra de copil, cu puritatea si nevinovatia
 sa nealterate, este aceea care citeste expunerea de fata;
 nici individul, nici personalitatea sa nu fac asta, ci
@@ -12713,7 +12713,7 @@ sau vreo intamplare soldata cu o dezamagire, fixeaza
 aceasta conditionare in mintea lui: „Nu crede chiar tot ce
 auzi”. Asadar, daca acum gandim: „Nu cred nimic din ce
 spune Hawkins ”, se intampla astfel deoarece aceasta
-conditionare ne-a fost indusa ca ur mare a inocentei
+conditionare ne-a fost indusa ca urmare a inocentei
 noastre copilaresti. „Singurul mod in care putem fi in
 siguranta in lumea aceasta este sa fim neincrezatori,
 sceptici si sa nu credem nimic din ce auzim, fiindca
@@ -12771,7 +12771,7 @@ varsta de mijloc, cand vom detine locuinta aceea
 spatioasa sau Cadillac -ul pe care ni -l dorim. Pentru ca
 se situeaza intotdeauna candva in viitor, suntem to t
 timpul separati de ceea ce ne face fericiti si nu ne simtim
-niciodata intre gi. I ntelegerea faptului ca noi insine
+niciodata intregi. Intelegerea faptului ca noi insine
 constituim sursa propriei fericiri si ca o putem crea in
 orice moment, ne daruieste un sentiment de implinire.
 Sentimentul de implinire se manifesta concomitent cu
@@ -12785,7 +12785,7 @@ desavarsita. Asa cum m-am priceput mai bine, am spus
 exact ceea ce-mi doream sa va comunic. In clipa aceasta,
 traiesc bucuria de a fi facut tot ce -mi statea in putinta
 pentru a o duce la bun sfarsit. Actiunea insasi este
-insotita de bucurie. Nu exista un „maine ”, fiindc a
+insotita de bucurie. Nu exista un „maine ”, fiindca
 sentimentul de implinire se manifesta in prezent. Daca ii
 place cuiva lucrarea mea, cu atat mai bine, insa este
 nesemnificativ - asta n-ar fi decat cireasa de pe tort.
@@ -12799,7 +12799,7 @@ separatie intre actiunea in sine si desavarsirea ei.
 Devenim, astfel, constienti de iubirea care transcende
 orice experienta; este maniera noastra de a ne raporta la
 aceasta. Ea presupune iubirea vietii sub toate aspectele,
-inclusiv a dezamagirilor pe care le prov oaca. Urcusurile
+inclusiv a dezamagirilor pe care le provoaca. Urcusurile
 si coborasurile ei, procesul de invatare continua din
 savarsirea greselilor si, ulterior, tragerea de invataminte
 in urma lor, toate acestea sunt orice altceva in afara de
@@ -12809,7 +12809,7 @@ modalitatea pr in care natura, Dumnezeu sau propriul
 nostru psihic ne atrag atentia ca felul in care percepem
 viata nu este cel corect; corpul, mintea si sufletul nostru
 ne avertizeaza: „Fii atent la ce se intampla, fii atent la
-ceea ce trebuie remediat . I ntelege, te rog , prin prisma
+ceea ce trebuie remediat . Intelege, te rog , prin prisma
 
 compasiunii tale ce se petrece cu mine si ajuta -ma sa
 ma vindec; indreapta tot ce functioneaza defectuos ”.
@@ -12825,15 +12825,15 @@ desavarsirea si obtinerea satisfactiei in viitor, la
 indeplinirea uneia sau alteia dintre dorinte.
 Sub aspect clinic, evenimentul precipitat care duce
 la suicid sau depresie difera adesea in functie de gen.
-Barbatii resim t frecvent Prezenta lui Dumnezeu sau
+Barbatii resimt frecvent Prezenta lui Dumnezeu sau
 legatura cu Dumnezeu sub forma fortei. Cele trei
 atribute clasice ale lui Dumnezeu sun t omniprezenta,
 omniscienta si omnipotenta, astfel incat Dumnezeu este
-deseori experimentat in inconstientul barbatilo r ca o
+deseori experimentat in inconstientul barbatilor ca o
 conexiune la forta. Ei sunt, de altfel, in cautarea ei si de
 multe ori evenimentul precipitat care le provoaca
 depresia este sentimentul de separare de sursa fortei lor.
-Aceasta din urma se afla, de obice i, undeva in lumea
+Aceasta din urma se afla, de obicei, undeva in lumea
 exterioara, putand fi pierdere a unei titulaturi, a unei
 afaceri sau a simbolurilor statusului care semnifica
 puterea; sentimentul de separare si de vulnerabilitate,
@@ -12896,17 +12896,17 @@ douazeci de ani, ca sa ajunga sa moara in urma unei
 supradoze? Se cunosc cazuri de farmacisti care si-au
 pregatit de mii de ori singuri dozele de medicamente si
 care au murit ca urmare a supradozarii; au fost numite
-„morti accidentale”. I n cazul unui accident de m asina
+„morti accidentale”. I n cazul unui accident de masina
 provocat de un sofer neatent, adevarata cauza o
 constituie lipsa dorintei de a mai trai. Neglijenta in a
 urma recomandarile medicului sau de a avea grija de
 propria sanatate, ori de bunurile personale, dezvaluie o
-epuizare a energiei care are drept c onsecinta o lipsa de
+epuizare a energiei care are drept consecinta o lipsa de
 insufletire ce porneste din sentimentul de a fi prins in
 capcana. Isi face aparitia deprecierea propriei persoane,
 dupa care individul se descurajeaza si incepe sa caute
 instinctiv o cale de iesire pentru a nu se simti vinovat.
-Nu te s imti vinovat daca mori in urma unei come
+Nu te simti vinovat daca mori in urma unei come
 diabetice. Nici daca nu te straduiesti in niciun fel sa -ti
 schimbi stilul de viata pentru a preveni un atac de cord.
 Daca ne dam seama ca ceea ce cautam, de fapt, este
@@ -12936,7 +12936,7 @@ Aceasta mai inseamna ca trebuie sa ne traim viata
 intr-un alt context, sa analizam tot ce contine ea si sa ne
 intrebam: „Cum sa abordez lucrul acesta astfel incat,
 fiindca il pretuiesc atat de mul t, daca s-ar intampla sa
-dispara din viata mea sa c onsider, in continuare, ca
+dispara din viata mea sa consider, in continuare, ca
 viata merita traita? Caruia dintre aceste idealuri sa -mi
 dedic viata? Ce anume din activitatea mea profesionala ii
 confera acesteia rost si semnificatie? Cum sa consider
@@ -12996,9 +12996,9 @@ persoana este distincta de evenimentul in sine. De noi
 depinde cum dorim sa-l consideram, ce valoare acordam
 relatiei respective si cum dorim sa-l configuram. Trebuie
 sa ne hotaram daca dorim sa-i conferim putere asupra
-propriei vieti. Do rim sa acordam banilor atat de multa
+propriei vieti. Dorim sa acordam banilor atat de multa
 forta asupra vietii noastre incat, daca am ramane fara ei,
-sa nu ne mai dorim nici sa traim? Do rim sa le acordam
+sa nu ne mai dorim nici sa traim? Dorim sa le acordam
 posesiunilor, titlurilor, gradelor sau masini lor noastre
 puterea aceasta? Ganditi -va la toate lucrurile la cum
 oamenii tin mai presus de propria viata si va veti da
@@ -13012,11 +13012,11 @@ Trebuie sa reevaluam importanta si sensul propriei
 vieti, intrebandu-ne ce anume are o valoarea suficient de
 semnificativa pentru noi ca sa ne protejeze in fata
 oricarui fel de pierdere? Din acea intelegere interioara
-porneste apoi reevaluarea relatiei din tre corp, minte si
+porneste apoi reevaluarea relatiei dintre corp, minte si
 suflet, fiindca mintea este aceea care ne stabileste
 telurile si obiectivele.
-Daca incepem sa ne pune m intrebari despre
-propriile valo ri si sa ne repozitionam in raport cu
+Daca incepem sa ne punem intrebari despre
+propriile valori si sa ne repozitionam in raport cu
 acestea, fie ca agream acest termen sau nu,
 intreprindem de fapt un travaliu spiritual. Ce este
 sufletul? Cum este energia vietii insasi? Avem de luat o
@@ -13029,7 +13029,7 @@ depinde de alegerea noastra interioara. Prin simpla
 constatare ca de noi depinde sa hotaram ce anume
 consideram a fi de pret, intram din nou in posesia fortei
 noastre. Din victima, devenim sursa si incepem sa
-acceptam preluar ea propriei forte, pe care o cedasem
+acceptam preluarea propriei forte, pe care o cedasem
 lumii exterioare. Odata cu aceasta asumare se instaleaza
 si o stare de seninatate interioara, data de intelegerea
 valorii pe care o are existenta noastra, de cunoasterea
@@ -13039,13 +13039,13 @@ acestei stari. Nu este nevoie sa ne pavoazam casa cu
 trofee pentru a -i aprecia valoarea, fiindca ii cunoastem
 valoarea in sinea noastra. Acceptam, cu multumiri, ceea
 ce ni se ofera. Pretuim, cu recunostinta, esenta a ceea ce
-suntem, fara sa pretindem din partea lumii sa ne ofer e
+suntem, fara sa pretindem din partea lumii sa ne ofere
 ceva din ceea ce i-am cerut.
 Astfel, ne situam intr -o pozitie de invulnerabilitate.
 Nu mai suntem predispusi la dezamagiri, suparare,
 furie, nici sa ne sabotam nutrind ganduri de sinucidere,
 respectiv ideea disperata si absolut gresita ca prin
-uciderea t rupului vom anihila si cauza suferintei
+uciderea trupului vom anihila si cauza suferintei
 noastre. Admitand faptul ca ne aflam la obarsia ei, vom
 reusi sa o transcendem si vom invita in noi vindecarea
 interioara care reprezinta si tema acestui capitol.
@@ -13089,7 +13089,7 @@ aplica aceasta cunoastere la fenomenul adictiei. Vom
 
 studia adevarata natura a adictie i si valoarea sa, care a
 ramas neobservata pentru societate deoarece
-cunostintele despre adictie erau aproape inexisten te
+cunostintele despre adictie erau aproape inexistente
 pana la aparitia Alcoolicilor Anonimi (AA). Inainte de AA,
 procentul de insanatosire in urma adictiilor era zero si
 rareori se auzea despre vindecarea cuiva care suferise de
@@ -13111,7 +13111,7 @@ poate fi aplica ta aceasta cunoastere la intelegerea
 fenomenului alcoolismului, a adictiilor, cat si importanta
 sa in procesul vindecarii.
 Vom accentua insemnatatea pe care o are contextul
-sau modul general in care ne atasam de un lu cru si
+sau modul general in care ne atasam de un lucru si
 paradigma din care intelegem o tema anume. Contextul
 este generator de sens si clarifica intelegerea adictiei.
 Asa cum am descris anterior valorile Hartii
@@ -13127,7 +13127,7 @@ campul respectiv in viata de fiecare zi. La dreapta lor
 sunt notate procesele care au loc in constiinta insasi.
 Campul de energie mai stabileste felul in care
 experimentam si vedem lumea, precum si modul in care
-il percepem pe D umnezeu, toate acestea ca urmare a
+il percepem pe Dumnezeu, toate acestea ca urmare a
 delimitarii campului de energie.
 Campul de energie al sentimentului Rusinii
 calibreaza la nivelul 20, iar al Vinovatiei la nivelul 30.
@@ -13142,7 +13142,7 @@ de Rusine sunt campurile cu energia cea mai joasa si
 care contin foarte putina forta.
 Cand avansam catre campul de energie care
 calibreaza la 50, descoperim un camp al disperarii si
-deznadejdii. Este cel i ntalnit in cazul doamnei descrise
+deznadejdii. Este cel intalnit in cazul doamnei descrise
 anterior, care se legana in balansoar privind inexpresiv
 pe fereastra, dupa ce fusese anuntata de Departamentul
 de Aparare ca fiul ii fusese ucis in misiune. Familia ei a
@@ -13187,18 +13187,18 @@ inexpresiv pe fereastra. Daca am reusi sa -i insuflam
 energie pana la nivelul Suferintei, ea ar izbucni brusc in
 plans. Manifestarea acelei emotii ne -ar arata ca incepe
 sa se simta mai bine.
-Este interesant ca aceste doua stari ale en ergiei isi
+Este interesant ca aceste doua stari ale energiei isi
 fac aparitia ca urmare a incapacitatii de a face fata
 campului de energie imediat superior, acela al Fricii.
 Energia campului Fricii - care calibreaza la nivelul 100 -
 
 continua sa fie o emotie negativa, asa cum o indica
-orientarea sagetii. De fr ica, suntem in stare sa
+orientarea sagetii. De frica, suntem in stare sa
 parcurgem in fuga o distanta mare, asa ca, desi forma
 pe care o imbraca emotia in sine nu este una
 constructiva, energia pe care o inglobeaza poate fi
 utilizata intr-un mod foarte pozitiv. Toate aceste campuri
-de energie au propriil e avantaje si dezavantaje.
+de energie au propriile avantaje si dezavantaje.
 Dezavantajele ne afecteaza negativ; avantajele, in
 schimb, pot avea un rol cat se poate de constructiv in
 viata noastra. In general, in viata de fiecare zi resimtim
@@ -13208,7 +13208,7 @@ paralizanta.
 Suferinta se refera la trecut, pe cand teama are de -a
 face cu viitorul. Procesul care are loc in constiinta este
 unul de descurajare. Animalul caruia ii este teama, se
-ghemuieste si se ascund e. Cand eram copii de clasa a
+ghemuieste si se ascunde. Cand eram copii de clasa a
 treia, de exemplu, si invatatorul ne punea o intrebare,
 ne ghemuiam si ne ascundeam in spatele colegului din
 fata. Si in prezent ne facem mici si ne „dezumflam ”, iar
@@ -13255,11 +13255,11 @@ sau un sampon care ne va face sa aratam mai bine, vom
 fi dominati de aceasta. Vom renunta la banii nostri si ne
 vom risipi energia pentru a cumpara aceste produse.
 Absenta oricarei dorinte, insa, ne face sa
-consideram l umea ca fiind foarte frustrant a.
+consideram lumea ca fiind foarte frustrant a.
 Impedimentul dorintei mistuitoare de a detine ceva este
 ca acest gen de impulsuri ii poate stapani pe oameni o
 viata intreaga, ceea ce provoaca frustrare si, in acelasi
-timp, resentimente, pentru ca aceasta nevoie de posesi e
+timp, resentimente, pentru ca aceasta nevoie de posesie
 nu dispare in clipa satisfacerii sale; ea nu duce decat la
 
 inmultirea dorintelor. Ravnirea, in si prin sine, nu este
@@ -13271,7 +13271,7 @@ ceea ce ne dorim ne starneste cu usurinta mania, care
 constituie chiar nivelul urmator.
 La nivelul 150, mania, asa cum cunoaste toata
 lumea, detine o rezerva apreciabila de energie. Continua
-sa ramana o emoti e negativa avand o latura distructiva,
+sa ramana o emotie negativa avand o latura distructiva,
 insa energia maniei - in conditiile in care se cunoaste
 modalitatea sa de abordare - poale fi extrem de utila . In
 viata de fiecare zi resimtim energia maniei sub forma
@@ -13309,7 +13309,7 @@ daca persoanele acelea au nevoie de substanta X, eu nu
 am. Eu sunt diferit”. Este ceva ce decurge din procesul
 de exacerbare care are loc in constiinta. Egoul reflecta
 un simt exagerat al sinelui, ce ea ce reprezinta o
-atitudine cat se poate de periculoasa. De acee a
+atitudine cat se poate de periculoasa. De aceea
 observam cum, uneori, mandria poate duce la
 distrugerea unor persoane consumatoare de droguri si
 care au, totodata, mult succes in viata sociala. Mandria
@@ -13330,7 +13330,7 @@ asupra lui Dumnezeu? Relatia cu Dumnezeu va imbraca
 unul sau altul din doua aspecte. Din aroganta
 intelectului se poate ivi prezumtia ca emisfera stanga a
 creierului are capacitatea de a cunoaste intreg adevarul,
-de aici rezultand adoptarea unei atitu dini ateiste.
+de aici rezultand adoptarea unei atitudini ateiste.
 
 Ateismul inseamna negarea adevarului a ceea ce poate fi
 experimentat prin traire umana sau poate lua forma
@@ -13345,7 +13345,7 @@ tot mandria constituind substratul tuturor razboaielor
 religioase. Mandria are, insa, si potentialul de a fi o
 energie folositoare - asa cum au descoperit si Marine
 Corps (United States Marine Corps (abreviat USMC) este
-numele oficial al infanteriei marin e a Statelor Unite ale
+numele oficial al infanteriei marine a Statelor Unite ale
 Americii) - dovedindu-si utilitatea in parcurgerea acestui
 nivel pana la campul de energie mai inalta denumit
 campul Curajului.
@@ -13355,7 +13355,7 @@ directie neutra, ceea ce inseamna ca si campul de
 energie corespunzator acelui nivel al constiintei a
 devenit neutru. Este ca si cand antena can era orientata
 spre „negativ ”, ar fi acum fixata pe „neutru ”. Nivelul
-curajului inceteaza sa mai atraga catre e l experi ente
+curajului inceteaza sa mai atraga catre e l experiente
 negative. Campul sau de energie este 200, ceea ce
 inseamna ca detine multa forta. Curajul are suficienta
 energie in el cat sa ajunga tuturor Statelor Unite ale
@@ -13396,7 +13396,7 @@ universului, se numeste Dumnezeu, asadar mintea sa se
 deschide pentru prima data Individul incepe sa puna
 intrebarile clasice care au dus dintotdeauna la realizarea
 ultima a adevarului: „Exista Dumnezeu? Poate fi El
-resimtit? Este Divinitatea o Puter e Superioara pe care o
+resimtit? Este Divinitatea o Putere Superioara pe care o
 pot experimenta in mine insumi? Dumnezeu este ceva
 care se afla „undeva, in exterior ” sau in mine insumi?
 Cum se manifesta pe sine o Putere Superioara? Si cum
@@ -13425,7 +13425,7 @@ de directia in care evolueaza situatia. Un individ aflat la
 acest nivel al energiei ar spune, atunci: „Daca obtin
 jobul acesta este foarte bine, daca nu -l obtin este la fel
 de bine, pentru ca voi gasi un altul”. Sau: „Daca aceasta
-relatie sentimentala nu se d ovedeste a fi ceea ce mi -am
+relatie sentimentala nu se dovedeste a fi ceea ce mi -am
 dorit, imi voi gasi pe altcineva”.
 Isi fac aparitia un sentiment de impacare cu
 intreaga lume si senzatia ca la originea libertatii noastre
@@ -13449,14 +13449,14 @@ astfel ivindu -se un inceput de entuziasm si o energie
 foarte pozitiva. Spunem: „Da, suntem de acord.
 Consimtim”. Consimtirea aceasta mai inlatura din
 indiferenta, platitudine si detasare, iar noi incepem sa
-resimtim lumea ca pe un loc prietenos . I ntrebarile
+resimtim lumea ca pe un loc prietenos . Intrebarile
 referitoare la Dumnezeu si la viata insasi incep sa
 gaseasca raspunsuri promitatoare si pline de speranta,
 pentru ca acum incepem sa spunem „da ” vietii.
 Bunavointa lasa cale deschisa oportunitatii avansarii la
 nivelul urmator, respectiv a trecerii de la Bunavointa, la
 nivelul Acceptarii.
-Acceptarea calibreaz a la 380, iar individul aflat la
+Acceptarea calibreaza la 380, iar individul aflat la
 acest nivel este adaptat, increzator si capabil. Aceasta
 transformare a constiintei are loc pe masura ce incepem
 sa ne recunoastem din nou propria forta. Toate
@@ -13475,12 +13475,12 @@ si ca aceasta poate fi atinsa doar daca le este „oferita” de
 catre ceva sau de catre altcineva. Toate acestea sunt
 manifestari ale lipsei, in care fericirea este dependenta,
 spre exemplu, de achizitionarea unui automobil titlu, loc
-de munca, unor relatii sentimentale, diplo me, sume de
+de munca, unor relatii sentimentale, diplome, sume de
 bani sau orice altceva, ea aflandu -se intotdeauna
 undeva in afara noastra . I n adictii, fericirea se
 transforma in: „Daca as obtine o doza suficienta din
 substanta aceea...” Gandul ca sursa fericirii noastre este
-in exterior insoteste toate aces te stari de slabiciune si
+in exterior insoteste toate aceste stari de slabiciune si
 victimizare.
 Datorita disponibilitatii sale si a renuntarii de a mai
 opune rezistenta, individul aflat la nivelul Acceptarii a
@@ -13546,7 +13546,7 @@ promitatoare si datatoare de speranta este inceputul
 intelegerii unui Dumnezeu al milosteniei si iertarii. Ca
 urmare a acceptarii si a admiterii puterii care ne este
 specifica, dar si datorita apropierii de adevar, se
-manifesta disponibilitatea de a deveni cu ade varat
+manifesta disponibilitatea de a deveni cu adevarat
 iubitori. Aceasta ne proiecteaza in campul de intensa
 energie de la nivelul 500, campul Iubirii insasi.
 La nivelul Iubirii predomina fericirea. Este limpede
@@ -13565,7 +13565,7 @@ Neconditionata de la nivelul 540.
 Iubirea este un camp de energie stabil care intretine
 si constituie suportul vietii, din care se manifesta
 iertarea si de unde incep sa -si faca aparitia revelatiile
-despre adevarul vietii . In cazul campului de en ergie de
+despre adevarul vietii . In cazul campului de energie de
 500, si cu atat mai mult cand acesta atinge valoarea de
 540, in creier are loc o eliberare de endorfine, care
 reprezinta corelarea iubirii pe plan fizic cu chimia
@@ -13581,16 +13581,16 @@ Grupurile care lucreaza cu programe de doisprezece
 pasi bazate pe principii spirituale calibreaza la un camp
 de energie de 540, un nivel critic din moment ce el este
 campul de energie al vindecarii si al iubirii
-neconditionate. Reprezinta angajame ntul si alinierea.
+neconditionate. Reprezinta angajamentul si alinierea.
 Iertarea survine automat deoarece, ca efect al revelatiei,
 aceasta este lumea care ni se arata, iar din aceasta
 intelegere izvoraste compasiunea. Capacitatea si dorinta
 de a intelege devin predominante si ceea ce ni se
-reveleaza capata i mportanta cea mai mare. Daca cineva
+reveleaza capata importanta cea mai mare. Daca cineva
 si-a fracturat un brat, putin mai conteaza daca are sau
 nu dreptate intr -o anumita privinta. Nu mai conteaza
 decat sa-si vindece bratul. Tot astfel, iubirea, in intentia
-sa de a intelege, imbraca forma vindecarii si vind eca
+sa de a intelege, imbraca forma vindecarii si vindeca
 datorita puterii ei de compasiune.
 Este un camp de energie diferit de cel pe care lumea
 obisnuieste sa il numeasca „iubire” si care inseamna, cel
@@ -13610,7 +13610,7 @@ eveniment nefericit, grupul reactioneaza fara a-l critica,
 acordandu-i sprijin. Iubirea aceea neconditionata ia
 nastere deoarece grupul raspunde la existenta in sine a
 
-persoanei. Este iubit sinele autentic al acelei pers oane.
+persoanei. Este iubit sinele autentic al acelei persoane.
 Astfel se manifesta trecerea de la sinele cu s mic, la
 Sinele mai mare. Campul de energie sustinator,
 alimentator, vindecator al grupurilor de lucru in
@@ -13633,7 +13633,7 @@ chiar tragica. Data fiind natura vindecatoare a acestui
 camp de energie, ca urmare a bunavointei noastre de a fi
 iertatori si intelegatori, incep sa apara a stari de bucurie
 caracterizate de compasiune si de dorinta de a vindeca
-prin mai buna intelegere a lucrurilor. Tranzitia ac easta
+prin mai buna intelegere a lucrurilor. Tranzitia aceasta
 marcheaza inceputul transfigurarii in constiinta
 individului, debutul perceperii perfectiunii lumii in care
 traim si sesizarea unitatii tuturor fiintelor si a
@@ -13650,7 +13650,7 @@ stari de bine expansive, prin senzatia de a fi una cu
 totul, prin sentimente generoase de iubire si iertare, ca
 si printr-o stare euforica de voluptate interioara. Aceasta
 stare de beatitudine este esentiala in intelegerea
-adictiilor, fiindca trairea sa interio ara este cea mai
+adictiilor, fiindca trairea sa interioara este cea mai
 spectaculoasa dintre toate experientele umane. Este
 reprezentativa pentru ceea ce se poate petrece in
 interiorul Sinelui.
@@ -13665,7 +13665,7 @@ Existenta individului se modifica, de cele mai multe ori,
 semnificativ in urma acestei experiente. Multi oameni isi
 abandoneaza stilul de viata de pana atunci in favoarea
 unuia cu totul diferit, orientat spre purificare spirituala
-si inlaturar ea a tot ceea ce sta in calea experimentarii
+si inlaturarea a tot ceea ce sta in calea experimentarii
 acestei stari. Acelasi lucru se intampla si in cazul celor
 care au trait experiente in apropierea mortii (NDE), chiar
 in momentul in care erau declarati decedati in sala de
@@ -13680,7 +13680,7 @@ bine, aceeasi situatie (cu Ronald Coleman in versiunea
 originala). Poate va mai amintiti ca, atunci cand
 protagonistul ajunge in Shangri -La (o stare de iubire
 
-neconditionata care c alibreaza la circa 600), el resimte
+neconditionata care calibreaza la circa 600), el resimte
 aceasta stare a constiintei. Cand revine in lumea
 obisnuita, care calibreaza injur de 200, vede o lume a
 activitatii tumultoase si a castigurilor soldate cu succes.
@@ -13699,7 +13699,7 @@ este aceea care face experienta corpului. Aceasta, la
 randul ei, este experimentata de catre constiinta; altfel,
 n-ar avea cum sa stie ce se petrece in interiorul mintii.
 Experienta se manifesta in sfera campului de energic al
-constiintei si tocmai aceast a experienta interioara in
+constiintei si tocmai aceasta experienta interioara in
 constiinta a starii de extaz fascineaza oameni care nu s -
 au atins, pana atunci, in viata lor de droguri.
 Putem, acum, intelege ce se intampla in cazul
@@ -13723,7 +13723,7 @@ energie si permite experimentarea fara oprelisti a unuia
 cu energie mai inalta. Asa se face ca, la sfarsitul zilei, o
 persoana plina de temeri, suferinta si anxietate care se
 opreste undeva sa bea doua martini -uri, face deodata,
-pentru scurt timp, saltul peste campurile de joas a
+pentru scurt timp, saltul peste campurile de joasa
 energie, ajungand la nivelul de energie de circa 500 (care
 poate fi numit si „ametire”).
 Ametirea aceea reprezinta, de fapt, acel camp de
@@ -13733,13 +13733,13 @@ toti copiii n e iubesc cand ne aflam in starea aceasta; in
 general, cumparam jucarii copiilor de acasa si flori
 sotiei. Este starea energiei care se doreste a fi obtinuta
 prin consumul de droguri, pentru ca ea blocheaza
-nivelurile de energie mai joasa. Asa cum am mentio nat
+nivelurile de energie mai joasa. Asa cum am mentionat
 anterior, aceste experiente sunt adictive pentru ca
 mintea, odata ce a resimtit aceasta stare, isi doreste
 insistent sa revina la ea.
 Cand ii cerem persoanei care a avut o problema
 legata de consumul de alcool sau de droguri sa descrie
-ce cauta sa obti na in acest fel, sa -si examineze trairea
+ce cauta sa obtina in acest fel, sa -si examineze trairea
 care s-a transformat in obicei si la care revine din nou si
 din nou indiferent de pretul pe care -l plateste pentru
 asta, aflam ca ea se afla in cautarea unei stari interioare
@@ -13808,7 +13808,7 @@ constiinta Filmul Lost Horizon ne relateaza povestea
 instalarii unei adictii, aratand dorinta de a sacrifica totul
 in viata pentru atingerea unei anumite stari de
 constiinta.
-Exista o cu noastere interioara a ceea ce este
+Exista o cunoastere interioara a ceea ce este
 adevarat, i ar adictia reprezinta un start fals in
 experimentarea adevarului, pentru ca ea nu-si atinge
 scopul. Asadar, motivul pentru care se renunta la adictie
@@ -13820,10 +13820,10 @@ alaturi de adversitatile si negativitatea campurilor de
 energie corespunzatoare. Este inceput ul trairii unor
 evenimente extrem de negative in viata individului. Poate
 
-constitui debutul pierde rii de relatii sentimentale, carti
+constitui debutul pierderii de relatii sentimentale, carti
 de credit, status social, sanatate fizica sau
 functionalitatii unor organe ale corpului, ceea ce
-inseamna o adevarata degri ngolada provocata de
+inseamna o adevarata degringolada provocata de
 negarea adevarului. De la nivelul 200 in jos, negarea
 adevarului este cauzata de plasarea fortei in exteriorul
 propriei persoane. Mai mult decat atat, prin proiectarea
@@ -13842,7 +13842,7 @@ diagnostic de discernere a adevarului de falsitate, am
 testat propozitia: „Drogul are capacitatea de a declansa o
 experienta spirituala inalta ” si, fara exceptie, suta la
 suta din subiecti au inregistrat un moment de slabiciune
-fata de aceasta afirmatie, dem onstrand astfel ca este o
+fata de aceasta afirmatie, demonstrand astfel ca este o
 minciuna. Drogul nu are niciun fel de putere. Apoi le-am
 prezentat conceptul contrar si le-am cerut cursantilor sa
 se concentreze asupra frazei: „Drogul blocheaza
@@ -13909,19 +13909,19 @@ rau sunt insotite de sentimente de autocompatimire si
 de mahnire pentru ca individul a ajuns intr -un centru
 de dezintoxicare sau in postura in care se afla in
 momentul acela. Resimte tristete cand se gandeste la
-viata lui, la dependen ta de care sufera si se simte
+viata lui, la dependenta de care sufera si se simte
 complet abandonat de Dumnezeu.
 La nivelul acesta se manifesta regretul in privinta
 trecutului, asa ca deplasam campul de energie al
 individului la nivelul urmator, acela al Fricii. Aici,
-dependenta incepe sa -i inspi re teama, insotita de
+dependenta incepe sa -i inspire teama, insotita de
 ingrijorare si neliniste. Teama se refera la viitor.
 Individul nu se mai afla intr -o stare de negare
 autosuficienta ci, dimpotriva, este descurajat. Lumea
 apare ca fiind inspaimantatoare si poate avea impresia
 ca Dumnezeu il pedepseste pentru pacate din trecut.
-Interpreteaza gresit adictia ca pe o ped eapsa divina,
-temandu-se de pedepse inca si mai crun te ca si de
+Interpreteaza gresit adictia ca pe o pedeapsa divina,
+temandu-se de pedepse inca si mai crunte ca si de
 posibile pierderi viitoare. Energia oricareia dintre stari in
 poate ajuta sa ne deplasam la urmatorul nivel, superior.
 
@@ -13931,7 +13931,7 @@ mistuitoare de o anumita substanta . Toate acestea il
 aduc la nivelul Maniei.
 Mania - nu manifestarea maniei in sine, ci energia
 maniei care face ca o persoana sa se infurie din cauza
-situatiei dificile in care a ajuns si fi indca s-a saturat sa
+situatiei dificile in care a ajuns si fiindca s-a saturat sa
 fie victima acesteia – contin o mare cantitate de energie
 utila. Ea poate fi folosita intr -un mod constructiv, ca un
 punct de cotitura in renuntarea la defetism. Mai buna
@@ -13945,7 +13945,7 @@ Putem observa efectul puternic al primului din cei
 doisprezece pasi ai programului AA - admiterea propriei
 neputinte in fata alcoolului sau a drogurilor - care ne
 permite sa infruntam situatia, sa-i facem fata, sa-i gasim
-o solutie si sa fim autentici in privinta ei. Ac easta
+o solutie si sa fim autentici in privinta ei. Aceasta
 inseamna sa preluam din nou puterea. Lumea incepe sa
 fie privita ca o oportunitate si, pentru intaia oara,
 beneficiem de faptul de a avea o minte deschisa;
@@ -13969,7 +13969,7 @@ sunt percepute, apoi, ca fiind promitatoare si datatoare
 de speranta, iar individul incepe sa creada ca are sanse
 de reabilitare. Acceptarea este un camp foarte puternic
 de energie, in care oamenii isi dau scama ca au
-capacitatea de a lua acest gen de decizii . I ncrederea,
+capacitatea de a lua acest gen de decizii . Increderea,
 sentimentul de adecvare si transformarea sunt posibile
 datorita convingerii ca lumea este un loc plin de
 armonie. Pe de o parte, avem un individ care are o
@@ -14080,7 +14080,7 @@ inseamna asumarea responsabilitatii pentru procesul de
 evoluare spirituala si angajarea pe aceasta cale ca mod
 de viata.
 Pasul al unsprezecelea este interesant deoarece
-atesta fap tul ca, daca o persoana parcurge cu
+atesta faptul ca, daca o persoana parcurge cu
 constiinciozitate pasii de la unu la zece, va restabili
 legatura cu ceea ce cautase initial prin intermediul
 drogurilor si al alcoolului. Mai afirma ca rugaciune a si
@@ -14101,7 +14101,7 @@ plina de bucurie, similara cu ceea ce incercam sa
 
 obtinem de la bun inceput prin apelarea la alcool si
 droguri.
-Pasul al doispreze celea ne dezvaluie despre ce este
+Pasul al doisprezecelea ne dezvaluie despre ce este
 vorba in procesul adictiv si care este natura sa in
 campul constiintei. Pasul al doisprezecelea afirma ca
 trezirea spirituala - care survine in urma parcurgerii
@@ -14114,7 +14114,7 @@ sale vieti. Pasul al doisprezecelea ne lamureste ca scopul
 real al fenomenului de adictie a fost acela de a face sa ne
 trezim spiritual si sa ne ajute sa ne deplasam de la un
 nivel al constiintei inferior, la unul superior; ne-a ajutat
-sa fim treji, constienti, vigilenti sp iritual si responsabili,
+sa fim treji, constienti, vigilenti spiritual si responsabili,
 in loc sa fim adormiti si in necunostinta de cauza; sa
 depasim starea de inconstienta, iresponsabilitate si de
 victima neajutorata, pentru a recunoaste fata de noi
@@ -14128,7 +14128,7 @@ drept o persoana trezita spiritual.
 Avem, de data aceasta, un context diferit in care sa
 asezam intregul fenomen adictiv al miscarii constiintei,
 al evolutiei sale si al trezirii spirituale; alcoolismul si
-drogurile ii cer, asadar, individului sa fie mai constie nt
+drogurile ii cer, asadar, individului sa fie mai constient
 pentru a putea supravietui. Adictiile au o evolutie cel
 mai adesea fatala si singurul mod de a ne vindeca de ele
 este sa devenim, treptat, mai avansati in spiritualitate si
@@ -14169,7 +14169,7 @@ si modul ei de manifestare - ceea ce are drept rezultat
 constientizarea faptului ca individul n -ar fi reusit
 nicicum sa ajunga la o intelegere de asemenea
 
-anvergura pe alta cale. Unii oameni trebuie neapa rat sa
+anvergura pe alta cale. Unii oameni trebuie neaparat sa
 o experimenteze in felul acesta. Egoul este nevoit sa se
 loveasca de pragul de jos pentru a capitula si a-l gasi pe
 Dumnezeu. Aceia care reusesc, sunt cuprinsi de o
@@ -14202,7 +14202,7 @@ spiritual, neuitand sa tinem seama de inerentele limitari
 umane.
 Toti pacientii sau persoanele pe care le-am cunoscut
 si care s-au vindecat de aceste maladii cronice si foarte
-grave (multi dintre acestia fiind co nsiderati bolnavi
+grave (multi dintre acestia fiind considerati bolnavi
 incurabili de catre medicii lor curanti si de comunitatea
 medicala in general) au reusit acest lucru prin
 contemplarea unei definitii mai vaste a adevarului
@@ -14246,7 +14246,7 @@ pentru ca, daca ne adresam acestui nivel, ne vom adresa
 nivelului cel mai puternic. Daca biologicul este
 consecinta mentalului, iar mentalul es te consecinta
 spiritualului, atunci trebuie sa i ne adresam in sfera
-care se numeste c onstiinta. Din perspectiva clinica,
+care se numeste constiinta. Din perspectiva clinica,
 acesta reprezinta un adevar. Cei care se adreseaza
 
 nemijlocit nivelului constiintei pot fi martorii
@@ -14262,7 +14262,7 @@ se experimenteze pe sine. Bratele, de exemplu, nu se pot
 experimenta pe ele insele, nu-si pot simti propria
 existenta, pozitia in spatiu sau chiar senzatiile pe care le
 incearca. Nu au, pur si simplu, capacitatea necesara de
-a face toate aceste lu cruri, si asta datorita prezentei a
+a face toate aceste lucruri, si asta datorita prezentei a
 ceva superior corpului fizic, si anume a ceva ce numim
 minte. Toate manifestarile fizice care au loc in corp,
 inclusiv senzatiile, sunt experimentate in dimensiunea
@@ -14293,17 +14293,17 @@ detine cea mai mare putere. Constatam, astfel, ca
 energia gandului este mult mai puternica decat
 nivelurile de energie ale corpului fizic.
 In capitolele anterioare am descris cateva tehnici
-care det ermina autovindecarea. Aducand in discutie
+care determina autovindecarea. Aducand in discutie
 natura constiintei, cream contextul de care avem nevoie
 pentru a intelege modalitatile de autovindecare pe care
 le vom detalia in cele ce urmeaza.
 Pentru inceput, sa invatam cum sa reactionam si
-cum sa gandim refe ritor la faptul ca suferim de o
+cum sa gandim referitor la faptul ca suferim de o
 posibila maladie letala, precum cancerul. Avem doua
 posibilitati: cea de a avansa si cea de a regresa. Orice
 gen de situatie problematica, cum ar fi un deces in
 familie, o maladie grava sau o dificultate serioasa pe
-plan per sonal, reprezinta o alegere. Putem alege sa ne
+plan personal, reprezinta o alegere. Putem alege sa ne
 consideram victime si sa ne plangem de mila, sa ne
 autocompatimim, sa intram in depresie, sa ne lasam
 cuprinsi de disperare, sau putem alege sa privim
@@ -14313,13 +14313,13 @@ Aceste situatii problematice isi fac loc in mod repetat
 in viata noastra, pana sesizam sansa pe care o
 reprezinta si ne dam seama ca ele sunt o rampa de
 lansare spre o constientizare superioara. De ce se petrec
-lucrurile in felul acesta? Fiindca intamplar ile obisnuite
+lucrurile in felul acesta? Fiindca intamplarile obisnuite
 din viata noastra nu au nici puterea, nici energia
 necesare pentru producerea aceluiasi efect. Oamenii au
 nevoie de maxima constrangere pentru a se opri din
 activitatea lor si a incepe sa puna sub semnul intrebarii
 
-adevarul despre tot ce au c rezut pana in acel moment .
+adevarul despre tot ce au crezut pana in acel moment .
 In general, mintea nu-si cheltuieste resursele de energie
 pentru a se reorienta in vederea dobandirii unei
 perspective diferite asupra vietii si a ceea ce ofera ea,
@@ -14368,12 +14368,12 @@ ne vom referi din nou la Harta Constiintei, datorita
 careia intelegem acum toate principiile de autovindecare.
 Avem, poate, prilejul sa constatam ca nu mai suntem
 persoana care eram cand am facut cunostinta pentru
-prima oara cu aceasta Harta. Fieca re parcurgere a sa
+prima oara cu aceasta Harta. Fiecare parcurgere a sa
 este ca un fel de invatare pas cu pas. O retinem datorita
 familiarizarii crescande cu ea. Emisfera stanga a
 creierului este lineara, logica si invata lucrurile
 secvential, bucata cu bucata. Emisfera dreapta
-analizeaza lucrurile in ansamb lu si intelege ce se
+analizeaza lucrurile in ansamblu si intelege ce se
 intampla prin expunere repetata si familiarizare cu
 situatia.
 Ne vom opri in cele ce urmeaza asupra fenomenelor
@@ -14384,7 +14384,7 @@ sa ne fie util.
 Revenind la Harta Constiintei, aceasta reprezinta
 egoul, sinele cu „s” mic la care se refera oamenii atunci
 cand spun „eu” sau „eu insumi”. Sinele este o colectie de
-concepte, impresii, opinii, senza tii (constiente si
+concepte, impresii, opinii, senzatii (constiente si
 inconstiente) al caror ansamblu alcatuieste ceea ce un
 individ intelege atunci cand se refera la „eu ” sau la „eu
 insumi”.
@@ -14395,7 +14395,7 @@ pana la cel mai inalt. Toate au fost calibrate cu ocazia
 cercetarilor pe care le -am intreprins. La inceput, am
 descoperit orientarea campului de energie. De la nivelul
 Curajului si sub acesta, campurile sunt orientate in jos,
-indicand astfel ca au energii distruga toare, nefavorabile
+indicand astfel ca au energii distrugatoare, nefavorabile
 vietii.
 Urcand de la nivelul Curajului spre nivelurile
 superioare, energia este orientata in sus. Iubirea este in
@@ -14420,18 +14420,18 @@ energie negativa este distructiv pentru toate aceste
 aspecte, ajungand chiar pana la nivelul biochimic. Ca sa
 ne dam seama ce emotie este implicata, pentru a sti ce
 camp de energie ne corespunde, tot ce avem de facut
-este sa analizam Harta. Daca luam a utocompatimirea,
+este sa analizam Harta. Daca luam autocompatimirea,
 de exemplu, aflam ca ne situam intr-un camp de energie
 
 negativ care calibreaza la 50, adica un camp foarte slab
 prin comparatie cu Iubirea care calibreaza ia 500.
 Astfel, putem constata ca este foarte important sa ne
-eliberam de energia ne gativa si de gandurile negative.
+eliberam de energia negativa si de gandurile negative.
 Energia negativa a sentimentului sau a gandului se
 transmite, prin cele douasprezece meridiane, la sistemul
 de energie al punctelor de acupunctura si se
 translateaza direct in organele si celulele corpului. Daca
-uram pe cin eva, celulele corpului recept eaza energia
+uram pe cin eva, celulele corpului recepteaza energia
 urii. Mania are capacitatea de a aduce modific ari
 campului de energie din corp, precum si forta de a
 schimba programarea fiziologica a corpului.
@@ -14439,7 +14439,7 @@ Mintea are o forta extraordinar de mare asupra
 oricarui aspect al functiilor corpului, pana la cea mai
 mica molecula si la cel mai mic atom. S -a descoperit ca
 fiecare atom si celula din corp sunt influentate de
-nivelurile constiintei si de convingerile noa stre. Fiecare
+nivelurile constiintei si de convingerile noastre. Fiecare
 schimb fiziologic si chimic din organism este rezultatul
 unui tipar preexistent in constiinta. Toate acestea pot,
 insa, fi modificate aducand schimbari in constiinta.
@@ -14453,7 +14453,7 @@ trei la suta dintre persoane afirma ca le face bine,
 continua sa le fie vandute consumatorilor numeroase
 preparate medicamentoase de -a dreptul inerte (remedii
 dubioase). Tot atat de usor de observat este efectul
-„nocebo”, prin care un sistem de convingeri negat ive
+„nocebo”, prin care un sistem de convingeri negative
 relative la efectele unor medicamente poate avea drept
 consecinta imbolnaviri reale. Este mecanismul prin care
 aproximativ o treime dintre pacienti pot acuza efecte
@@ -14499,7 +14499,7 @@ mass-media).
 Gandirea colectiva a atribuit cancerului o mare
 cantitate de energie emotionala: teama asociata cu el,
 conotatiile negative, formele-gand. Asa se face ca ceea ce
-purtam in noi nu este cancer, ci fr ica insasi, adica un
+purtam in noi nu este cancer, ci frica insasi, adica un
 camp de energie negativa. Daca acumulam prea multa
 teama inconstienta, aceasta favorizeaza patrunderea in
 mintea inconstienta a acelor lucruri care inspira teama,
@@ -14541,7 +14541,7 @@ energie negativ. Acesta este secretul vindecarii.
 O analogie folosita pentru a intelege mai bine
 fenomenul este aceea ca anumite bacterii se vor inmulti
 intr-un mediu de cultura doar in conditii specifice - o
-anume temperatura, luminoz itate si ambient. La
+anume temperatura, luminozitate si ambient. La
 modificarea conditiilor, bacteriile nu vor mai supravietui
 in vasul Petri si vor disparea. Iata cum ceea ce este
 distructiv si ceea ce ii este necesar inconstientului
@@ -14580,7 +14580,7 @@ Cu ajutorul ei putem testa forta cuiva, ceea ce ne va
 arata ca atunci cand individul retine in minte ganduri
 negative, forta sa musculara slabeste. Cand se intampla
 lucrul acesta, inseamna ca exista o deficienta in
-sistemul punctelor de acupunctur a - care este conectat
+sistemul punctelor de acupunctura - care este conectat
 la diversele organe ale corpului. Mai apar schimb ari in
 patternul chimic si de reproducere al celulelor.
 Singura posibilitate de a ne vindeca este sa trecem
@@ -14608,7 +14608,7 @@ deznadejde. El devine victima campului de energie care
 favorizeaza evolutia cancerului.
 Campul de deasupra sa este acela al Suferintei.
 Cand fi se aduce la cunostinta un diagnostic, oamenii,
-mai ales daca sunt ti neri, se vor intreba, in mod firesc:
+mai ales daca sunt tineri, se vor intreba, in mod firesc:
 „De ce tocmai eu? ” Apoi vot fi cuprinsi de regrete, de
 sentimentul pierderii si de descurajare. Lumea si viata
 incep sa para triste, iar ei cad victime acestui camp de
@@ -14632,7 +14632,7 @@ decat sa fim niste victime. Toti cei pe care -i cunosc si
 care s-au vindecat de boli grave nu s-au resemnat sa fie
 victime. Dimpotriva, au inceput sa aspire spre ceva mai
 
-bun. Au considerat ca trebuie sa existe o so lutie cu un
+bun. Au considerat ca trebuie sa existe o solutie cu un
 final mai fericit, asadar au purces sa investigheze si sa
 intreprinda cercetari in afara sferei medicinii
 conventionale. Au inceput prin a spune „Ei, doctore,
@@ -14662,10 +14662,10 @@ ideea sa incepem sa o cautam. Poate ca ea consta in
 felul in care am privit viata si ne -am construit sistemele
 de convingere, ca si in modul in care gandim despre
 propria persoana.
-La nivelul Curajului, i ncepem sa avem mintea
+La nivelul Curajului, incepem sa avem mintea
 deschisa. Viziunea despre lume se schimba si
 patrundem intr -o lume a oportunitatilor in care usile
-incep sa se deschida . I nainte, aveam mintile obtuze.
+incep sa se deschida . Inainte, aveam mintile obtuze.
 
 Mintea considera ca deja cunoaste raspunsul, ins a cand
 dispunem de curajul necesar incepe sa se deschida si sa
@@ -14718,7 +14718,7 @@ vom intoarce). Ne impacam cu ideea ca protoplasma este
 inerent vremelnica.
 Este, cu siguranta, o atitudine mai comoda decat sa
 fim ingrijorati in legatura cu deznodamantul situatiei,
-sau sa ne plangem de mila, sa ne lasa m cuprinsi de
+sau sa ne plangem de mila, sa ne lasam cuprinsi de
 manie, resentimente, aroganta sau sa negam adevarul.
 Bolnavii pot chiar nega ca sufera de cancer. Vor veni cu
 ideea ca s -au vindecat, fara sa fi intreprins ceea ce era
@@ -14790,7 +14790,7 @@ de energie care calibreaza in jurul valorii de 540 -
 campul de energie al inimii.
 Cum facem sa se manifeste autovindecarea? Trebuie
 sa ne desprindem, in primul rand, de vinovatia
-inconstienta. Este, de asem enea, necesar sa descoperim
+inconstienta. Este, de asemenea, necesar sa descoperim
 cum sa aducem la suprafata faptele care ne fac sa ne
 simtim vinovati, asadar se impune sa incepem un proces
 de auto interogare . I n acest punct, individul este de
@@ -14804,7 +14804,7 @@ sentimente pe masura ce acestea isi fac aparitia. Pentru
 inceput, ne trebuie un context, un mod de a gestiona tot
 ce rezulta din acest proces de autoinvestigare si care
 inseamna a intelege tot ce a stat la baza
-comportamentului nostru intreaga v iata. I n contextul
+comportamentului nostru intreaga viata. I n contextul
 
 potrivit pentru analizarea acestor adevaruri, vinovatia
 este automat alungata de o intelegere superioara, care
@@ -14842,7 +14842,7 @@ rezistenta.
 
 Este important sa nu scapam din vedere faptul ca,
 in realitate, constiinta in sine este fundamental
-inocenta. Natura consti intei este inocenta copilului.
+inocenta. Natura constiintei este inocenta copilului.
 Cum am ajuns sa ne formam, pe masura inaintarii in
 varsta, convingerile din prezent? Privim un copil si
 constatam cat este de inocent si de naiv; este complet
@@ -14852,7 +14852,7 @@ Aceasta inocenta primara devine constiinta de mai
 tarziu a adultului, deoarece conditionarile pe care
 copilul si le insuseste sunt, de fapt, reprogramabile
 datorita naturii insasi a acestei inocente. Deoarece
-copilul este inocent si naiv, el incepe sa cread a tot ce
+copilul este inocent si naiv, el incepe sa creada tot ce
 aude, inclusiv ideile care se vor concretiza mai tarziu in
 boala canceroasa; ii vor ramane in minte ganduri care
 au de-a face cu blamarea de sine si cu teama, ganduri
@@ -14861,12 +14861,12 @@ manifestari ale limitarilor umane.
 Pentru vindecarea cancerului, avem nevoie de
 dorinta de a ne vindeca noi insine prin compasiune, care
 ne parvine de la Sinele mai vast, mai inalt. Trebuie sa
-intelegem si ca toate aceste slabiciuni au izv orat - ca
+intelegem si ca toate aceste slabiciuni au izvorat - ca
 urmare a inocentei noastre - din sistemul de convingeri
 care s -a exprimat in viata de fiecare zi sub forma
 certitudinii ca, daca procedam intr -un anumit mod sau
 reusim sa obtinem un anumit lucru, vom fi fericiti.
-Suferinta sau pierderile ne afect eaza deoarece am
+Suferinta sau pierderile ne afecteaza deoarece am
 considerat ca ceva anume se va constitui in sursa
 fericirii noastre si ne pare rau dupa ceea ce credeam a fi
 aceasta sursa. Ne suparam fiindca intalnim obstacole
@@ -14878,9 +14878,9 @@ vinovatie.
 Revenind la Harta Constiintei, ne putem intreba: „Ce
 iluzie am hranit in constiinta si se manifesta acum sub
 forma cancerului?” Toate aceste niveluri, de la a cela al
-Curajului in jos, favoriz eaza manifestarea unui camp de
+Curajului in jos, favorizeaza manifestarea unui camp de
 energie negativa in care cancerul se poate dezvolta.
-Iluzia pe care ne -am facut-o este aceea ca surs a fericirii
+Iluzia pe care ne -am facut-o este aceea ca sursa fericirii
 noastre se situeaza in exterior, ca ceva din afara noastra
 are capacitatea de a ne face fericiti . I n clipa in care
 renuntam la forta pe care o detinem si o proiectam in
@@ -14890,7 +14890,7 @@ Unul dintre obiectivele inconstiente ale egoului este
 acela de a demonstra ca suntem victime, iar incercarea
 pe care o constituie imbolnavirea de cancer ne cere sa
 decidem daca vom continua sau nu sa credem lucrul
-acesta, asa cum fac atatia alti oam eni din lumea
+acesta, asa cum fac atatia alti oameni din lumea
 aceasta. Egoul prefera sa aiba dreptate, chiar daca asta
 ne-ar costa viata, decat sa renunte la atitudinea ca el
 este victima inocenta, iar raufacatorul este ceva din
@@ -14931,14 +14931,14 @@ dimineata - inainte chiar de a ne da seama unde ne
 aflam, in ce zi suntem, inainte de a ne aminti ce avem de
 facut in ziua respectiva.
 Cand ne trezim in acea stare de constiinta, suntem
-mult mai aproap e de adevarul propriului nostru sine
+mult mai aproape de adevarul propriului nostru sine
 mai inalt. Ne dam seama ca acesta din urma este cu
 desavarsire neafectat di evenimentele vietii si mai presus
 de ele. Doar atunci cand constiinta coboara in lumea
 gandirii concrete, ne spunem: „O, da, azi este luni” si „O,
 da, trebuie sa plec ”. Si chiar asta facem, ne indepartam
-de adevarata noastra fiinta, care se situea za deasupra
-acestor detalii . I nvatam sa ne insusim din nou
+de adevarata noastra fiinta, care se situeaza deasupra
+acestor detalii . Invatam sa ne insusim din nou
 capacitatea de a hotari ce atitudine sa adoptam in
 legatura cu intamplarile din viata noastra si fata de toate
 lucrurile acelea care aduc dupa o sine o imensa
@@ -14951,7 +14951,7 @@ invatatura despre iubire, iertare si eliberare de teama.
 Multi dintre cei pe care -i cunosc, oameni care s -au
 vindecat de cancer, sclero za multipla si alte afectiuni
 debilitante, au reusit acest lucru in urma acestui curs
-sau a altora simil are. Toate acestea sunt menite sa ne
+sau a altora similare. Toate acestea sunt menite sa ne
 arate cum sa ne schimbam perspectiva, cum sa
 renuntam sa ne mai invinovatim pe noi insine sau pe
 alte persoane, cum sa renuntam la vinovatie si la frica,
@@ -14961,7 +14961,7 @@ De aici se naste dorinta de a intelege; in
 autovindecare aproape ca este nevoie sa ne luam pe noi
 insine in brate, devenind plini de compasiune si capabili
 sa ne vindecam pentru ca in noi toti exista un
-vindecator. Purcedem apoi la vindecarea o menescului.
+vindecator. Purcedem apoi la vindecarea omenescului.
 Cum ne debarasam de ego ? I n niciun caz facandu -ni-l
 dusman, incercand sa -l agresam sau adoptand o
 atitudine adversa fata de el, ci iubindu -l pentru simplul
@@ -14982,7 +14982,7 @@ de la nivelul 500 ne este accesibila tuturor. Este un fel
 
 de angajament pe care ni -l luam fata de iubirea
 neconditionata. Dar ce este genul acesta de iubire? Nu
-vorbim despre emotivitatea, sentim entalismul,
+vorbim despre emotivitatea, sentimentalismul,
 atasamentul, dependenta si controlul celuilalt, gen
 Hollywood. Ne referim, in schimb, la intentia - cel mai
 bine descrisa ca o atitudine plina de iubire - de a ne
@@ -15051,7 +15051,7 @@ afectiunea de care suferim ne ofera o lectie sau un mesaj
 
 foarte individualizate. Boala se va ameliora, insa in
 organism va ramane o urma a sa, ori este posibil sa
-recidiveze. Aceste fenomene au loc pentru a ne averti za
+recidiveze. Aceste fenomene au loc pentru a ne avertiza
 constiinta ca a fost omis un mesaj ascuns importa nt si
 ca ne-a mai ramas ceva de invatat; aceasta este adesea
 consecinta unui tipar karmic.
@@ -15068,16 +15068,16 @@ dezvoltare spirituala.
 Atunci cand boala constituie un impuls pentru
 dezvoltarea spirituala, ea debuteaza adesea la nivelul
 fricii, caruia i se asociaza suparare si pareri de rau
-insotite de sentimen te de vinovatie. Odata cu
+insotite de sentimente de vinovatie. Odata cu
 resemnarea si acceptarea bolii, acestea incep sa se
 atenueze, iar dezvoltarea spirituala este pretuita pentru
 ea insasi. In final, odata cu profunda renuntare, soseste
 si momentul in care este abandonata renuntarea insasi,
-iar ins anatosirea este lasata in voia lui Dumnezeu.
+iar insanatosirea este lasata in voia lui Dumnezeu.
 Etapa aceasta poate, de asemenea, sa aduca la lumina
 conceptele si intelegerea naturii karmei, care constituie
 ea insasi un studiu plin de subtilitate. Care este, insa,
-semnificatia notiunii de „karma ” din persp ectiva
+semnificatia notiunii de „karma ” din perspectiva
 pragmatica? Sa fie doar o simpla teorie sau o realitate
 demonstrabila?
 In sensul generic cel mai larg, karma exprima
@@ -15103,7 +15103,7 @@ spunandu-i: „iti multumesc pentru ca imi oferi forta
 necesara pentru transformarea constiintei si pentru
 dezvoltarea spirituala”, in final vom ajunge sa fim extrem
 de recunoscatori. Numerosi oameni care s -au vindecat
-de acest gen de afectiuni priv esc la ceea ce li s-a
+de acest gen de afectiuni privesc la ceea ce li s-a
 intamplat in trecut si spun: „Cat sunt de recunoscator
 pentru ca boala aceea s-a manifestat in viata mea! A fost
 declansatorul trezirii mele spirituale ”. Un beneficiu al
@@ -15137,7 +15137,7 @@ implicati in travaliul spiritual le pricep imediat, fara cea
 mai mica problema.
 Vom apela, pe parcurs, la Harta Constiintei
 deoarece, abordand tematica mortii si a fenomenului
-mortii, ne vom referi la constiinta si la doua dint re
+mortii, ne vom referi la constiinta si la doua dintre
 lucrurile care ii inspaimanta cu adevarat pe oameni.
 Unul este experienta fizica in sine, iar celalalt este ceea
 ce-si imagineaza ei a fi pierderea constiintei a ceea ce se
@@ -15147,13 +15147,13 @@ Vom aminti din nou nivelurile constiintei care
 figureaza pe Harta. Imaginea prezinta egoul uman sau
 sinele cu „s ” mic la care obisnuim sa ne referim cand
 spunem „eu” sau „eu insumi ”. In mijlocul scalei se afla
-nivelul cunoscut sub numele de Curaj. Dedesub tul sau
+nivelul cunoscut sub numele de Curaj. Dedesubtul sau
 sagetile tuturor starilor emotionale sunt orientate in
 sens negativ, calibrate in functie de energia si forta lor
 
 relative. Apatia, de exemplu, are mult mai putina energie
 decat Frica, ce calibreaza la 100. Sentimentul de
-Vinovatie calibreaza la ni velul 30, Apatia sau
+Vinovatie calibreaza la nivelul 30, Apatia sau
 deznadejdea la 50, Suferinta si parerea de rau la 75,
 Teama - sub forma ingrijorarii si anxietatii - calibreaza la
 100. Dorinta, dorinta mistuitoare si necesitatea de a
@@ -15168,7 +15168,7 @@ cunoaste faptul ca adevarata viata urmeaza dupa viata
 si ca ea este indestructibila. Asemenea materiei si
 energiei, viata isi poate schimba doar modalitatea de
 expresie (calibreaza ca fiind adevarat). Cand spunem
-adevarul, con statam cum campul de energie negativa
+adevarul, constatam cum campul de energie negativa
 incepe sa se orienteze in sus, in sens pozitiv. P e masura
 ce avansam spre constientizarea mai deplina a Sursei
 vietii insasi, ajungem la starile superioare ale Iubirii si
@@ -15177,7 +15177,7 @@ apare o tranzitie catre o paradigma diferita si
 experimentarea unei stari de a fi in care nu ne mai
 identificam cu un corp fizic separat, individual, incepem
 sa descoperim adevarul cu privire la cine suntem cu
-adevarat. Largirea constiintei depa seste limitele sinelui
+adevarat. Largirea constiintei depaseste limitele sinelui
 individual finit.
 In partea dreapta a nivelurilor de constiinta, pe
 Harta sunt trecute emotiile corespunzatoare fiecarui
@@ -15188,7 +15188,7 @@ asociaza cu deznadejdea si disperarea, iar in constiinta
 
 are loc o pierdere de energie. Suferinta se asociaza cu
 regretele, sentimentul pierderii si cu descurajarea.
-Procesul can are loc in c onstiinta este sentimentul de a
+Procesul can are loc in constiinta este sentimentul de a
 se simti abatut. Frica se asociaza cu ingrijorarea si
 anxietatea; frica se refera la viitor, ceea ce are drept
 consecinta un proces de contractie . In general, cand se
@@ -15202,23 +15202,23 @@ Mandrie, care calibreaza la 175. La acest nivel ne simtim
 mult mai bine decat in starile inferioare, numai ca, din
 nefericire, mandria este insotita de negare. Trebuie sa
 invatam cum sa depasim o parte din aceasta negare. Ea
-se naste din teama, insa odata ce teama este intelea sa,
+se naste din teama, insa odata ce teama este inteleasa,
 negarea dispare si individul poate inainta pana la nivelul
 Curajului, care, calibrand la 200, are o forta mult mai
 mare.
 Campul de energie al Curajului reprezinta
 capacitatea emotionala de a face fata situatiei, de a ne
-adapta la ea si de a solutiona e venimentele de viata,
+adapta la ea si de a solutiona evenimentele de viata,
 deoarece a spune adevarul despre un lucru ne face mai
 puternici. Mentinerea unei atitudini constant pozitive ne
 poate face sa avansam la starea de Bunavointa
 (calibreaza la 310), in care afirmam: „Vreau sa cunosc
-adevarul in aceasta p rivinta de dragul adevarului
+adevarul in aceasta privinta de dragul adevarului
 insusi”. I n aceasta situatie, campul de energie se
 intensifica fiindca in interiorul sau se manifesta intentia
 de a afla mai mult despre un tel si capacitatea de a
 accepta conditiile sale predominante.
-Mai jos de nivelul consti intei de 200 se renunta la
+Mai jos de nivelul constiintei de 200 se renunta la
 forta personala, ceea ce are drept consecinta resimtirea
 
 de indoieli si diminuarea increderii in propria persoana.
@@ -15238,7 +15238,7 @@ tendinta de a fi iertator. Odata cu ele se naste revelatia
 cu privire la un camp de energie numit al Bucuriei, care
 calibreaza la 540, fiind asociat cu vindecarea si
 recunostinta. Bucuria aduce dupa sine seninatate
-interioara si se caracteri zeaza prin compasiune, care
+interioara si se caracterizeaza prin compasiune, care
 reprezinta abilitatea de a vedea ce se ascunde in inimile
 altora. Se manifesta, de asemenea, predispozitia de a
 iubi si de a nu judeca critic viata sub toate manifestarile
@@ -15254,7 +15254,7 @@ Importanta pe care i -o acordam corpului dispare, iar
 acesta devine irelevant. Uitam de el deoarece corpul se
 asociaza cu identificarea cu un sine separat, limitat . In
 starile mai i luminate se manifesta o uimitoare
-expansiune a constiintei si lips a identificarii atat cu
+expansiune a constiintei si lipsa identificarii atat cu
 
 trupul, cat si cu sinele personal. La campuri de energie
 de peste 600, se intalnesc stari in care te simti complet,
@@ -15284,7 +15284,7 @@ moartea, asteptandu-ne ca toate acestea sa fie pozitive.
 Dumnezeu devine, de data aceasta, promitator si datator
 de speranta. Acum putem considera moarte a ca pe o
 imensa eliberare si o patrundere intr -o mult mai ma re
-expansiune a consti intei si a constiintei universale,
+expansiune a constiintei si a constiintei universale,
 cunoscuta sub denumirea de Rai. (Adevarurile recent
 dezvaluite de cercetarile asupra constiintei arata ca
 Raiul are numeroase sfere)
@@ -15297,14 +15297,14 @@ si faca aparitia revelatiile si constiinta faptului ca
 intreaga viata emana iubire. Ne dam seama ca iubirea
 este prezenta pretutindeni, motiv pentru care la acest
 nivel il percepem pe Dumnezeu ca fiind milostiv si o
-intruchipare a iubirii ce nu pune conditii . I ntelegerea
+intruchipare a iubirii ce nu pune conditii . Intelegerea
 faptului ca iubirea este o realitate fundamentala duce la
 starea de bucurie interioara din care ia nastere
 compasiunea si transfigurarea constiintei, care ne
 dezvaluie perfectiunea intregii creatii. Sesizam unitatea
 vietii in ansamblul sau, ceea ce duce la aparitia starii de
 beatitudine. La acest nivel se manifesta si stari de extaz
-si iluminare, in care individul devine l ucid si constient
+si iluminare, in care individul devine lucid si constient
 de unitate si unicitate.
 La nivelul 600, trecem de la campurile constiintei
 obisnuite la cele denumite neliniare . I n jurul valorii de
@@ -15350,7 +15350,7 @@ seninatate si desavarsita. Nimic nu lipsea, nimic nu
 fusese omis si nu mai era nimic de adaugat. Era o stare
 de adanca Iubire, Seninatate si implinire indescriptibila.
 A inceput cu un sentiment interior de usurare,
-urmat de b ucurie tacuta si extaz, apoi a trecut dincolo
+urmat de bucurie tacuta si extaz, apoi a trecut dincolo
 chiar si de extaz. A depasit starea de beatitudine si s-a
 transformat intr-o stare eterna, infinita, lasand mult in
 urma constiinta obisnuita . I n mod surprinzator, Sinele
@@ -15374,12 +15374,12 @@ Pe atunci nu existau carti care sa descrie
 „experiente in apropierea mortii ”. Filmul Resurrection a
 aparut pe piata abia in ultima decada. (Apropo, el reda
 cu multa acuratete fenomenele clinice.) Toti cei care au
-trecut prin acest gen de experiente atesta adevarul celo r
+trecut prin acest gen de experiente atesta adevarul celor
 relatate de personajul feminin din film. Femeia
 respectiva murise intr -un accident de masina. Este
 povestea adevarata a unei persoane care a fost declarata
 in moarte clinica pe masa de operatie; ea si -a parasit
-corpul si a experimentat aceeasi stare incr edibila,
+corpul si a experimentat aceeasi stare incredibila,
 infinita, pe care am descris-o si eu.
 Tatal meu si cu mine nu aveam niciun sistem de
 referinta in care sa fi incadrat aceasta intamplare, deci
@@ -15396,7 +15396,7 @@ Zaceam intins, in stare grava, aproape muribund, si
 deodata, spre marea mea surpriza, m -am pomenit la
 
 vreo trei metri deasupra trupului meu fizic. Iata -ma
-undeva in spa tiu, intr -un corp neafectat de boala,
+undeva in spatiu, intr -un corp neafectat de boala,
 transparent si eteric. Eram imponderabil si -mi
 pastrasem toate facultatile: puteam gandi, rationa, vedea
 si auzi. M -am uitat in jos, la corpul fizic care zacea in
@@ -15415,7 +15415,7 @@ iar starea de sanatate mi s-a deteriorat din nou. De data
 aceasta era foarte grav; chiar ma aflam in pragul mortii.
 Ma simteam in culmea deznadejdii, eram intr -o stare
 infernala, de completa neajutorare, de disperare
-absoluta si aveam impresia ca nu ma despa rteau decat
+absoluta si aveam impresia ca nu ma desparteau decat
 cateva clipe de parasirea, o data in plus, a trupului fizic.
 Pe atunci, eram agnostic de vreo douazeci de ani. Cu
 toate aceste experiente incredibile in care fusesem
@@ -15435,7 +15435,7 @@ lui, eram in deplina siguranta si neclintit ca o stanca . In
 acelasi timp, simteam o extrema blandete si duiosie care
 ma tineau in imbratisarea lor infinita si iubitoare.
 Corpul se deplasa spontan, ca si cand n-ar fi existat in
-el o vointa individuala, o minte sau o e ntitate de genul
+el o vointa individuala, o minte sau o entitate de genul
 sinelui individual. Am trait in starea aceasta cateva luni
 si tot nu imi dadeam seama ce se intampla cu mine. Nu
 am vorbit nimanui despre asta fiindca nu stiam cum as
@@ -15454,7 +15454,7 @@ la suta din populatie isi aminteste sa fi trait experiente
 in apropierea mortii sau calatorii in afara corpului.
 Mai tarziu, am descoperit ca era o tehnica pe care
 puteam invata sa o reproducem dupa dorinta. Am aflat
-ca existau o multime de oameni care isi p araseau corpul
+ca existau o multime de oameni care isi paraseau corpul
 spontan sau intentionat. Unii se nasteau cu acest har,
 pe cand altii se asezau sa mediteze si experimentau
 aproape imediat acest fenomen.
@@ -15480,7 +15480,7 @@ Cele mai inspirate scrieri pe tema mortii si a
 fenomenului mortii sunt acelea ale Elisabethei Kubler -
 Ross (Despre moarte si a muri), care deschid pentru
 intaia oara acest subiect discutiei si permit
-familiarizarea cu ceea ce era cons iderat pana atunci un
+familiarizarea cu ceea ce era considerat pana atunci un
 subiect tabu. Stadiile enuntate de ea sunt, acum, destul
 de bine cunoscute.
 Fireste ca la inceput negarea este des intalnita - ca
@@ -15506,16 +15506,16 @@ recurge apoi la stadiul „negocierii ”, cand existenta lui
 Dumnezeu este recunoscuta, iar acesta este implorat sa
 intervina in favoarea egoului. Mania erupe odata cu
 pierderea controlului si cu infruntarea esentei egoului
-narcisic, a carui voi nta infantila intalneste un obstacol
+narcisic, a carui vointa infantila intalneste un obstacol
 insurmontabil, neputand face ceea ce si-ar dori. Nu pare
-corect ca dorintele acestuia sa nu fie luate in s eama, ba
+corect ca dorintele acestuia sa nu fie luate in seama, ba
 chiar sa fie negate. Toate acestea trezesc suferinta si
 jelirea pierderii unui viitor anticipat - continuarea la
 nesfarsit a existentei individuale.
 La baza tuturor reactiilor anticipative sta
 identificarea cu sinele si cu existenta sa in interiorul
 corpului fizic ca si conditie sine qua non a existentei.
-Astfel, semnificatia pe care i -o dam corpului da nast ere
+Astfel, semnificatia pe care i -o dam corpului da nastere
 la opunerea rezistentei in fata perspectivei decesului
 sau. Perspectiva mortii fizice aduce teama de uitare,
 incetarea constiintei si a constientizarii, precum si a
@@ -15530,7 +15530,7 @@ increderii in invataturile spirituale si permit
 transformarea constiintei pana la nivelurile cele mai
 profunde, proces aducator de liniste interioara.
 Acceptarea este inlesnita de intelegerea faptului ca
-moartea este un fenomen universal si ca el se apli ca in
+moartea este un fenomen universal si ca el se aplica in
 cazul tuturor fiintelor vii din prezent si din vremurile
 trecute. De aceea, impartasirea acestor experiente
 
@@ -15576,7 +15576,7 @@ corp: cand ne parasim corpul, uitam intr-o clipa tot ce s-
 a petrecut in timp ce ne aflam in el, deci nu ne mai
 aducem aminte nici ce s-a intamplat in viata noastra, nu
 ne mai amintim nici macar propriul nume. Toate acestea
-devin irelevante si nu mai au niciun fel de i mportanta,
+devin irelevante si nu mai au niciun fel de importanta,
 semnificatie sau existenta reala . I n schimb, individul
 incepe sa experimenteze ceea ce este el in realitate, la
 care se adauga aceleasi sentimente de incredibila liniste,
@@ -15590,7 +15590,7 @@ pe posesiuni. Pe masura ce avansam la nivelurile care
 detin mai multa forta, respectiv acelea ale curajului,
 capacitatii si inzestrarii, preocuparea isi schimba
 directia inspre lucrurile pe care le realizam. Odata cu
-inaintarea spre partea superioara a scal ei, se mai
+inaintarea spre partea superioara a scalei, se mai
 pastreaza doar constientizarea si valorizarea a ceea ce
 am devenit si suntem. Ne devine indiferent ceea ce
 posedam sau ceea ce realizam. Eu mi -am dat seama ca,
@@ -15640,7 +15640,7 @@ aceea, am simtit exact ce simtea si ea . I si amanase
 parasirea corpului pana in momentul in care ajunsesem
 
 eu acolo, astfel incat ambele noastre dorinte se unisera
-acum in cunoasterea ac estei trairi. A vrut sa trec prin
+acum in cunoasterea acestei trairi. A vrut sa trec prin
 aceasta experienta odata cu ea, asa incat am impartasit
 impreuna acea stare de extaz atotcuprinzatoare, infinita,
 absoluta, pe masura ce o resimtea ea insasi. Cred ca
@@ -15681,7 +15681,7 @@ iubire infinita, pe care l -am trait de numeroase ori cand
 am iesit din corp, si datile in care am iesit din corp fara
 sa simt nimic . I n niciuna din situatii, la parasirea
 corpului nu traim, de fapt, moartea fizica; in experienta
-in care nu s imtim „nimic ”, redesteptarea va avea loc
+in care nu simtim „nimic ”, redesteptarea va avea loc
 intr-un alt corp.
 In actuala viata, cand aveam trei ani, am invins
 uitarea si am devenit brusc constient de propriul corp.
@@ -15701,12 +15701,12 @@ Mai intai, am simtit ca ma aflam pe un camp de lupta si
 mi-am dat seama ca in jurul meu erau oameni
 muribunzi, iar eu eram constient de agonia, de frica si
 de durerea lor fizica. Deodata, simteam o iubire infinita
-si o stare de existenta neintrerupta ala turi de cel care
+si o stare de existenta neintrerupta alaturi de cel care
 murea. Acesta se transforma sub privirile mele: isi
 parasea corpul fizic si toate ranile i se vindecau. Iubirea
 mea, ingemanata cu iubirea lui Dumnezeu - ca si cand
 mi-as fi indreptat inima spre Dumnezeu si campul de
-energie al fiintelor a ngelice, care sunt iubire pura - se
+energie al fiintelor angelice, care sunt iubire pura - se
 
 revarsau in inima mea, desi partea constienta din mine
 continua sa se afle acolo, langa persoana care murea.
@@ -15721,7 +15721,7 @@ divin pentru el si ca eu eram lipsit de orice forma.
 Aceeasi experienta mi s-a intamplat si in viata curenta.
 Cand atingem stari de constiinta superioare in care
 nu ne mai identificam cu corpul fizic, ne dam seama ca
-oamenii vad ceea ce pr oiecteaza in acestea. Muribundul
+oamenii vad ceea ce proiecteaza in acestea. Muribundul
 va deschide ochii si ne va vedea ca pe reprezentarea cea
 mai semnificativa pentru el, din moment ce noi suntem
 lipsiti de forma. Uneori suntem perceputi ca mama, ca
@@ -15730,12 +15730,12 @@ cauza au tinut foarte mult in timpul vietii. Alteori vor
 vedea o figura divina, dar acest lucru se intampla in
 cadrul mintii insasi; este doar o proiectie a mintii.
 Individul percepe ceea ce este cel mai alinator pentru el.
-Am descoperit o cale de a depasi fr ica de moarte, si
+Am descoperit o cale de a depasi frica de moarte, si
 anume incercarea de a ne inchipui noi insine ca am
 murit si de a proceda in acelasi mod cu oamenii care se
 sting din viata. Modalitatea in care ne putem depasi
 propria frica de moarte este aceea de a ne imagina ca ne
-aflam „de partea ceal alta”, asemenea unei statii de
+aflam „de partea cealalta”, asemenea unei statii de
 receptie de prim -ajutor. Ne deschidem inimile si cerem
 sa intram in legatura cu fortele angelice, dupa care ne
 contopim cu acestea. Apoi ne imaginam ca ajungem la
@@ -15750,7 +15750,7 @@ imaginam pe noi insine. Putem incepe sa procedam in
 felul acesta chiar acum, cu orice persoana, pentru ca pe
 aceasta planeta traiesc peste sase miliarde de oameni.
 Mii si mii dintre acestia mor, ora de ora. Alegem pe
-cineva fata de care credem ca am n utri mai multa iubire
+cineva fata de care credem ca am nutri mai multa iubire
 - un sugar, un adolescent care tocmai a fost accidentat
 de o masina, cineva de pe campul de lupta care este
 ciuruit de gloante, o mama care moare la nastere sau un
@@ -15789,7 +15789,7 @@ acasa, avem grija de ei, sunt iubiti enorm de Dumnezeu.
 La randul lor, acestia incep sa perceapa experienta
 interioara a adevarului. Ne lasam deoparte sinele
 individual, pentru ca in aceasta situatie nu avem nevoie
-de el. Nu avem nevoie de personalitate, cu si mpatiile si
+de el. Nu avem nevoie de personalitate, cu simpatiile si
 antipatiile sale, cu aversiunile si preferintele sale.
 Suntem doar energia care strabate inima.
 Datorita bunavointei noastre, energia vindecatoare
@@ -15824,7 +15824,7 @@ prin asta. Faceti ce trebuie facut ”. M-am intins pe spate
 si am inceput sa ma abandonez senzatiilor care ma
 inundau, fara sa opun rezistenta durerii si fara sa o
 etichetez. Am renuntat intru totul la vointa personala. In
-timp ce procedam in felul acesta, am trait o exp erienta
+timp ce procedam in felul acesta, am trait o experienta
 profunda de aceeasi factura: parca as fi fost lasat in grija
 unor fiinte angelice care m -au ridicat din corp cu atata
 blandete si gingasie, incat atingerea unui fulg ar parea
@@ -15843,7 +15843,7 @@ o pace infinita. Eram absolut protejat de iubirea
 universala, de Dumnezeu si de stralucirea Divinitatii.
 Cand ne aplecam asupra experientei mortii, ne dam
 seama ca ea inseamna, de fapt, renuntare la a opune
-rezistenta si lasa re in voia evenimentelor . I nseamna
+rezistenta si lasa re in voia evenimentelor . Inseamna
 disponibilitatea de a ne deschide inima pentru a le oferi
 celorlalti iubire. Daca reflectam asupra mortii si
 procedam cum am aratat inainte, dimineata, la trezire, ii
@@ -15883,7 +15883,7 @@ acelasi lucru: m -a strabatut aceeasi energie puternica.
 Energia a radiat spontan de -a lungul soselei din fata
 mea si, la o noua curba, mi -a aparut in fata un alt
 
-accident; inca un au tovehicul rasturnat. De data
+accident; inca un autovehicul rasturnat. De data
 aceasta, la fata locului se afla o masina de politie si,
 dupa ce am depasit masina rasturnata, energia a
 continuat sa se indrepte in directia opusa sensului meu
@@ -15902,7 +15902,7 @@ si constiinta noastra sa fie utilizate de fortele angelice.
 Sinele nostru Infinit este tot ce exista; mai mult decat
 atat, el este conectat la sferele angelice. Cand
 recunoastem starea aceasta angelica in interiorul nostru
-si ne dam seama ca fieca re dintre noi are capacitatea de
+si ne dam seama ca fiecare dintre noi are capacitatea de
 a o simti prin simpla ei acceptare, ca fiecare dintre noi
 putem sa ne lasam in voia acelei energii si sa ajungem la
 cei care au murit, sau care se afla pe punctul de a muri,
@@ -15992,7 +15992,7 @@ apasa cu doua degete pe incheietura mainii intinse,
 aplicand o presiune usoara . I n general, subiectul tine,
 cu mana cealalta, deasupra plexului sau solar,
 substanta care urmeaza a fi testata prin tehnica aceasta.
-Examinatorul ii spune su biectului pe care -l testeaza:
+Examinatorul ii spune subiectului pe care -l testeaza:
 „Rezista” si, daca substanta testata este benefica pentru
 subiect, bratul va opune rezistenta la apasare, in cazul
 in care nu este benefica sau va avea efecte adverse,
@@ -16000,7 +16000,7 @@ bratul va deveni moale. Reactia musculara este foarte
 rapida si de scurta durata. Este important de mentionat
 
 ca pentru a se obtine raspunsuri corecte, atat intentia,
-cat si examinatorul si persoa na testata trebuie sa
+cat si examinatorul si persoana testata trebuie sa
 calibreze peste 200.
 Experienta dobandita din grupurile de discutii
 online a aratat ca numeroase persoane obtin raspunsuri
@@ -16017,17 +16017,17 @@ detasare clinica, rostind orice formulare insotita de
 formularea premergatoare: „in numele binelui cel mai
 inalt, calibreaza ca fiind adevarat. Peste 100. Peste 200”.
 etc. Expresia „intru binele cel mai inalt ” creste
-acuratetea fiindca transce nde interesele personale si
+acuratetea fiindca transcende interesele personale si
 motivatiile individualiste.
 Multa vreme s -a crezut ca testul reda o reactie
 localizata a punctelor de acupunctura ale corpului sau a
 sistemului imunitar. Cercetarile de mai tarziu au
-dezvaluit, totusi, ca reactia nu era nicidecu m o reactie
+dezvaluit, totusi, ca reactia nu era nicidecum o reactie
 localizata a corpului, ci un raspuns general al constiintei
 insasi la energia unei substante sau a unei afirmatii. Tot
 ceea ce este adevarat, benefic sau favorabil vietii trimite
 un raspuns pozitiv care izvoraste din campul impersonal
-al consti intei, prezent in orice fiinta vie. Raspunsul
+al constiintei, prezent in orice fiinta vie. Raspunsul
 pozitiv este indicat de incordarea musculaturii corpului,
 fiind asociat cu reactia pupilara (pupilele se dilata in
 cazul falsitatii si se contracta in cazul adevarului) si cu
@@ -16045,12 +16045,12 @@ serveste binelui cel mai inalt”.
 Daca o afirmatie este falsa sau o substanta
 vatamatoare, muschii se vor destinde rapid ca raspuns
 la comanda „Rezista ”. Aceasta arata ca stimulul este
-negativ, neadevarat, nefavor abil vietii sau ca raspunsul
+negativ, neadevarat, nefavorabil vietii sau ca raspunsul
 este „nu”. Raspunsul vine rapid si este de scurta durata.
 Corpul isi va reveni imediat dupa aceea si se va intoarce
 la tensiunea musculara obisnuita.
 Sunt trei metode de efectuare a testului. Cea folosita
-in cercetare si, de as emenea, cea la care se recurge cel
+in cercetare si, de asemenea, cea la care se recurge cel
 mai frecvent, necesita doua persoane: persoana care
 efectueaza testul si subiectul testarii. Este de preferat
 un fundal insonor, fara muzica de fond. Subiectul testat
@@ -16122,12 +16122,12 @@ prevestirea viitorului; in afara de asta, intrebarile care se
 pot pune sunt nelimitate. Constiinta nu are limite nici in
 timp, nici in spatiu; cu toate acestea, permisiunea de a
 pune intrebari poate fi refuzata. Toate evenimentele
-curente sau istorice permi t intrebari. Raspunsurile sunt
+curente sau istorice permit intrebari. Raspunsurile sunt
 impersonale si nu depind de sistemul de convingeri al
 examinatorului sau ale subiectului testat. De exemplu,
 protoplasma se retrage din fata actiunii stimulilor
 vatamatori, iar tesuturile sangereaza. Acestea sunt
-insusirile m aterialelor folosite la teste, si ele sunt
+insusirile materialelor folosite la teste, si ele sunt
 impersonale. Constiinta nu cunoaste altceva decat
 adevarul, pentru ca numai adevarul exista. Nu raspunde
 la falsitate, fiindca falsitatea nu are niciun fel de
@@ -16143,7 +16143,7 @@ cand utilizam termenul de „inchis”, vrem doar sa aratam
 ca curentul electric nu mai este prezent . In realitate, nu
 exista ceva care sa se poata numi „inchidere ”. Aceasta
 este o afirmatie subtila, dar de importanta capitala
-pentru inte legerea naturii constiintei. Constiinta este
+pentru intelegerea naturii constiintei. Constiinta este
 capabila sa recunoasca doar Adevarul. Ea este de -a
 dreptul incapabila sa raspunda la falsitate . I n mod
 similar, o oglinda reflecta o imagine doar daca in fata ei
@@ -16181,7 +16181,7 @@ Familiarizarea cu testul aduce dupa sine, treptat,
 priceperea, intrebarile „corecte ” care trebuie puse incep
 sa se iveasca singure si acestea pot deveni aproape
 ciudat de exacte. Daca acelasi examinator si acelasi
-subiect testat lucreaza impreuna o perioad a de timp, fie
+subiect testat lucreaza impreuna o perioada de timp, fie
 unul dintre ei, fie amandoi vor dezvolta ceva ce se poate
 transforma intr-o exactitate si o capacitate uimitoare de
 a indica cu precizie exact intrebarile care ar trebui puse,
@@ -16261,7 +16261,7 @@ Testul kinesiologic este independent de opiniile sau
 convingerile personale, fiind un raspuns impersonal al
 campului constiintei, tot asa cum protoplasma este
 impersonala in raspunsurile pe care le ofera. Aceasta se
-poate demonstra prin observatia ca raspu nsurile la test
+poate demonstra prin observatia ca raspunsurile la test
 sunt aceleasi, indiferent daca afirmatiile sunt exprimate
 cu voce tare sau rostite in tacere, doar in minte.
 Subiectul testarii nu este, deci, influentat de intrebare,
@@ -16288,7 +16288,7 @@ Descalificari
 Atat scepticismul (calibreaza la 160), cat si cinismul
 si ateismul calibreaza sub 200 deoarece reflecta
 prejudecati negative. Spre deosebire de acestea,
-cautarea sincera necesita o minte deschi sa si onestitate
+cautarea sincera necesita o minte deschisa si onestitate
 lipsita de vanitate intelectuala. Studiile negative de
 kinesiologie comportamentala calibreaza, toate, sub 200
 (in general, 160), la fel ca si investigatorii insisi.
@@ -16313,26 +16313,26 @@ trebui” sa primeasca rezultate negative si exact asta se
 intampla, ceea ce, in mod paradoxal, dovedeste precizia
 cu care testul detecteaza diferenta dintre integritatea
 impartiala si lipsa integritatii.
-Orice noua descoperire poate strica planuril e cuiva
+Orice noua descoperire poate strica planurile cuiva
 si poate fi perceputa ca o amenintare la status quo -ul
 sistemelor de convingeri predominante. Faptul ca si -a
 facut aparitia o stiinta clinica a constiintei care valideaza
 Realitatea spirituala va precipita, bineinteles, opunerea
-rezistentei, din mo ment ce este, in realitate, o
+rezistentei, din moment ce este, in realitate, o
 confruntare directa cu domeniul nucleului narcisic al
 egoului insusi, care este implicit arogant si incapatanat.
 Sub nivelul constiintei de 200, intelegerea este
 limitata de dominarea Mintii Inferioare, care este
-capabila sa r ecunoasca faptele, dar inca nu reuseste sa
+capabila sa recunoasca faptele, dar inca nu reuseste sa
 sesizeze intelesul notiunii de „adevar ” (confunda res
 interna cu res externa ) si nu-si da seama ca adevarul
 este insotit de manifestari psihologice diferite de cele ale
-falsitatii. Mai mult decat atat, adevarul po ate fi intuit,
+falsitatii. Mai mult decat atat, adevarul poate fi intuit,
 asa cum o demonstreaza analiza vocii, studiul limbajului
 corpului, reactia pupilara, modificarile EEG ale
 creierului, fluctuatiile respiratiei si ale presiunii
 sanguine, reactia galvanica a tegumentului,
-masuratorile radiestezice si chiar te hnica Huna de
+masuratorile radiestezice si chiar tehnica Huna de
 masurare a distantei pana la care radiaza aura corpului.
 Unele persoane intrebuinteaza o tehnica foarte simpla,
 care foloseste corpul ce sta in pozitie verticala si in
@@ -16344,7 +16344,7 @@ invins de falsitate, tot asa cum lumina nu poate fi
 invinsa de intuneric. Nonlinearul nu face subiectul
 limitarilor linearului. Adevarul apartine unei paradigme
 
-diferite de logica, fiind, astfel, „de nedov edit”, caci ceea
+diferite de logica, fiind, astfel, „de nedovedit”, caci ceea
 ce poate fi dovedit calibreaza doar la nivelul de 400.
 Kinesiologia cercetarii constiintei opereaza la nivelul
 600, care se situeaza la granita dintre dimensiunile
@@ -16370,7 +16370,7 @@ anumit context si ramane fidel unei anumite metode,
 utilizate cu predilectie. Aceeasi echipa care foloseste in
 mod constant aceeasi tehnica va obtine rezultate interne
 consistent asemanatoare. Priceperea isi face aparitia
-odata cu exe rsarea. Mai sunt, totusi, si persoane
+odata cu exersarea. Mai sunt, totusi, si persoane
 
 incapabile de o atitudine stiintifica, detasata, carora le
 este imposibil sa fie obiective si pentru care metoda
@@ -16392,7 +16392,7 @@ sub aspect karmic pe cel care le neaga, tot asa cum ura
 inseamna negarea iubirii.
 Tot de data recenta este si descoperirea ca abilitatile
 de obtinere de rezultate exacte la testele de calibrare a
-constiintei, aduc persoanelor i mplicate in testare o
+constiintei, aduc persoanelor implicate in testare o
 crestere a nivelului constiintei. Cele al caror nivel se
 situeaza in jurul valorii de 400 si peste acesta, obtin
 rezultatele cele mai exacte (Jeffrey si Colyer, 2007).
@@ -16412,7 +16412,7 @@ inregistrarile conferintelor sale au fost recunoscute pe
 scara larga drept unice, prin aceea ca o stare foarte
 avansata de constientizare spirituala a avut loc intr -o
 persoana cu pregatire stiintifica si clinica ce a fost
-ulterior capabila sa exp rime si sa explice fenomenele
+ulterior capabila sa exprime si sa explice fenomenele
 acelea neobisnuite intr-o maniera limpede si inteligibila.
 Tranzitia de la starea de ego obisnuita a mintii pana
 la eliminarea acesteia de catre Prezenta apare descrisa
@@ -16441,7 +16441,7 @@ esentiala a unei tehnici care, pentru prima data in
 istoria umanitatii, oferea un mijloc de a deosebi adevarul
 de falsitate.
 Importanta dizertatiei initiale a fost recunoscuta
-prin recenzia foarte favorabila si de dimensiu ni
+prin recenzia foarte favorabila si de dimensiuni
 generoase aparuta in Brain/Mind Bulletin si cu ocazia
 unor prezentari ulterioare precum Conferinta
 internationala despre stiinta si constiinta. Numeroase alte
@@ -16452,7 +16452,7 @@ strainatate, inclusiv la Forumul Oxford, in Anglia . I n
 Orientul indepartat, dr. Hawkins este un „invatator al
 Caii catre Iluminare ” recunoscut („Tae Ryoung Sun Kak
 Dosa”).
-Ca ra spuns la observatia sa ca o mare parte a
+Ca raspuns la observatia sa ca o mare parte a
 adevarului spiritual a fost gresit inteleasa de -a lungul
 timpului din cauza lipsei explicatiilor, dr. Hawkins a
 sustinut seminarii lunare care au oferit lamuriri
@@ -16491,7 +16491,7 @@ intreaga, inclusiv la Westminster Abbey, universitatile
 din Argentina, Notre Dame si Michigan, la universitatile
 Fordham si Harvard, precum si la Forumul Oxford - in
 Anglia. A sustinut Seminarul Anual Landsberg la
-Universitatea California si la Scoala Me dicala din San
+Universitatea California si la Scoala Medicala din San
 Francisco. El este, de asemenea, consultant al
 guvernelor straine pe probleme de diplomatie
 internationala si si-a adus contributia la solutionarea
@@ -16506,7 +16506,7 @@ Ioan Botezatorul” de Ierusalim, ordin intemeiat in anul
 
 Nota autobiografica
 
-Cu toate ca ad evarurile relatate in aceasta carte au
+Cu toate ca adevarurile relatate in aceasta carte au
 fost obtinute pe cale stiintifica si prezentate cu
 obiectivitate, la fel ca toate adevarurile, ele au fost mai
 intai experimentate personal. O succesiune de o viata a
@@ -16525,7 +16525,7 @@ constientizare constienta; in aceeasi clipa a luat nastere
 sinele individual, iar dualitatea lui „Este ” si „Nu este” a
 patruns in constientizarea mea subiectiva.
 Pe parcursul copilariei si al adolescentei timpurii,
-paradoxul existentei si chestiunea realitat ii sinelui au
+paradoxul existentei si chestiunea realitatii sinelui au
 ramas o preocupare constanta. Sinele individual incepea
 in rastimpuri sa alunece inapoi, intr-un Sine impersonal
 mai cuprinzator, iar teama initiala de nonexistenta,
@@ -16534,18 +16534,18 @@ In 1939, ca baiat distribuitor de ziare care avea de
 parcurs un drum de vreo douazeci si cinci de kilometri
 cu bicicleta in suburbiile orasului Wisconsin, am fost
 surprins intr-o noapte intunecoasa de iarna, la kilometri
-distanta de casa, de un viscol cu temperaturi de minu s
+distanta de casa, de un viscol cu temperaturi de minus
 
 20 de grade. Bicicleta a alunecat pe gheata si a cazut,
 iar vantul aprig a smuls ziarele din cosul de pe ghidon si
 Ie-a imprastiat pe solul nins si acoperit cu gheata. Ma
 podidisera lacrimile de frustrare si de epuizare, iar
-hainele imi erau inghetate bo cna. Ca sa ma adapostesc
+hainele imi erau inghetate bocna. Ca sa ma adapostesc
 din calea vantului, am spart pojghita de gheata a unui
 morman inalt de zapada, am sapat in el un mic adapost
 si ra -am ghemuit acolo . I n scurt timp, tremuratul a
 incetat si am fost cuprins de o caldura placuta, iar dupa
-aceea de o s tare de liniste de nedescris. Aceasta a fost
+aceea de o stare de liniste de nedescris. Aceasta a fost
 insotita de o revarsare de lumina si de prezenta iubirii
 infinite, fara de-nceput si fara de sfarsit, nediferentiata
 de propria mea esenta. Corpul fizic si tot ce ma
@@ -16571,7 +16571,7 @@ despre experiente spirituale, altele decat acelea descrise
 in hagiografiile sfintilor . I n urma acestei experiente,
 insa, realitatea acceptata a lumii a inceput sa para doar
 
-un prov izorat; invataturile traditionale religioase si -au
+un provizorat; invataturile traditionale religioase si -au
 pierdut semnificatia si, in mod paradoxal, am devenit
 agnostic. I n comparatie cu lumina Divinitatii care
 iluminase intreaga existenta, dumnezeul religiilor
@@ -16580,7 +16580,7 @@ spiritualitatea a inlocuit religia.
 In timpul celui de-al doilea Razboi Mondial, serviciul
 militar plin de riscuri pe un dragor de mine aducea
 deseori intalniri de aproape cu moartea, dar nu -mi era
-teama de asta. Era ca si cand moartea si -ar fi pierdu t
+teama de asta. Era ca si cand moartea si -ar fi pierdut
 autenticitatea. La sfarsitul razboiului, fascinat de
 complexitatea mintii si dorind sa studiez psihiatria, am
 reusit sa -mi croiesc drum spre facultatea de medicina.
@@ -16606,7 +16606,7 @@ transformare de o asemenea amploare, incat am ramas
 mut de uluire.
 
 Persoana care fusesem incetase sa mai existe. Nu
-mai era nici sine individ ual, nici ego, ci doar o Prezenta
+mai era nici sine individual, nici ego, ci doar o Prezenta
 Infinita de o putere atat de nemarginita incat aceasta era
 tot ce mai exista.
 Aceasta Prezenta inlocuise ceea ce fusesem „eu ”, iar
@@ -16643,7 +16643,7 @@ practica medicala a fost reluata, devenind, pana la
 urma, una de foarte mari proportii.
 Veneau oameni de pe intreg teritoriul Statelor Unite.
 Cabinetul ajunsese sa aiba doua mii de pacienti externi,
-ceea ce necesita peste cincizec i de terapeuti si alti
+ceea ce necesita peste cincizeci de terapeuti si alti
 angajati, o suita de douazeci si cinci de birouri, precum
 si laboratoare de cercetare si laboratoare destinate
 encefalogramelor. Se inregistrau o mie de noi pacienti pe
@@ -16662,12 +16662,12 @@ energie pe care il simteam urcand continuu de -a lungul
 sirei spinarii, pana la creier, unde dadea nastere unei
 senzatii intense de placere neintrerupta. Totul, in viata
 mea, se intampla prin sincronicitate si se desfasura intr-
-o desavarsita armonie; miraculosu l devenise un loc
+o desavarsita armonie; miraculosul devenise un loc
 comun. Originea a ceea ce oamenii numeau miracole era
 Prezenta, si nu sinele individual. Ceea ce mai ramasese
 din „eul ” individual nu era decat martor la aceste
 fenomene. Un „Eu ” mai mare, mai profund decat sinele
-sau gandurile mele dinai nte, determina tot ce se
+sau gandurile mele dinainte, determina tot ce se
 intampla.
 Starile care ma incercau fusesera relatate de altii in
 decursul istoriei si asta a dus la investigarea
@@ -16678,17 +16678,17 @@ invatatori mult mai recenti precum Ramana Maharshi si
 Nisargadatta Maharaj. Am avut astfel confirmarea ca
 experientele acestea nu erau singulare. Acum intelegeam
 pe deplin Bhagavad-Gita. I n rastimpuri se manifesta
-acelasi extaz spiritual care fusese descr is de Sri
+acelasi extaz spiritual care fusese descris de Sri
 Ramakrishna si de sfintii crestini.
 Absolut tot ce exista in lume si toate fiintele erau
 luminoase si minunat de frumoase. Erau Radiante si
 exprimau aceasta Radianta in tacere si splendoare. Era
-evident ca intreaga umanitate este, in realitate, m otivata
+evident ca intreaga umanitate este, in realitate, motivata
 de iubirea interioara, dar ca ea nu mai este, pur si
 simplu, constienta de acest lucru; cele mai multe vieti
 sunt, parca, traite de indivizi care dorm si care nu s-au
 trezit inca la constiinta realitatii a ceea ce sunt ei cu
-adevarat. Oamenii din j urul meu aratau ca si cand ar fi
+adevarat. Oamenii din jurul meu aratau ca si cand ar fi
 fost adormiti si erau incredibil de frumosi. Era ca si cum
 as fi fost indragostit de toata lumea.
 Era cazul sa intrerup practica mea obisnuita de
@@ -16702,7 +16702,7 @@ parasesc starea aceea, ca sa ma intorc in lume.
 Frumusetea de necrezut a tuturor lucrurilor stralucea in
 intreaga sa desavarsire, iar acolo unde lumea vedea
 uratenie nu era decat frumusete nesfarsita. Iubirea
-aceasta spirituala coplesea intreaga percepti e si toate
+aceasta spirituala coplesea intreaga perceptie si toate
 frontierele dintre aici si acolo, atunci si acum, precum si
 orice separare au disparut.
 In rastimpul anilor petrecuti in tacere interioara,
@@ -16713,7 +16713,7 @@ individual devenise instrumentul Prezentei Infinite si se
 comporta, actiona dupa cum se voia. Oamenii percepeau
 o liniste extraordinara in aura acelei Prezente. Cautatorii
 se aflau in cautarea raspunsurilor, insa din moment ce
-nu mai exista nicio individ ualitate cu numele de David,
+nu mai exista nicio individualitate cu numele de David,
 acestia dobandeau, de fapt, raspunsurile de la propriul
 lor Sine, care nu era in niciun fel diferit de al meu. Din
 ochii fiecarei persoane razbatea acelasi Sine.
@@ -16728,7 +16728,7 @@ inspre locul vreunei calamitati. Odata, in timp ce
 conduceam pe o autostrada, aceasta splendida energie a
 inceput sa-mi tasneasca din piept. Cand masina a trecut
 de o curba, am vazut un accident de circulatie; roti le
-autovehiculului care se rastu rnase inca se mai
+autovehiculului care se rasturnase inca se mai
 invarteau. Energia a trecut cu mare intensitate in
 pasagerii masinii respective si apoi a incetat de la sine.
 Altadata, cand ma plimbam pe strazile unui oras strain,
@@ -16753,11 +16753,11 @@ iluzia existentei unui „eu ” distinct supus nasterii si
 mortii. Pe masura ce sinele fals si limitat se dizolva in
 Sinele universal al adevaratei sale origini, aparea
 sentimentul inefabil al intoarcerii acasa, la o stare de
-liniste desav arsita si de absolvire de orice suferinta.
+liniste desavarsita si de absolvire de orice suferinta.
 Exista numai iluzia unei individualitati care ar sta la
 obarsia oricarei suferinte. Din momentul in care
 individul realizeaza ca este insusi universul, intreg si
-totuna cu Tot Ceea Ce Este, nesfarsit pentru totdea una,
+totuna cu Tot Ceea Ce Este, nesfarsit pentru totdeauna,
 orice suferinta viitoare devine imposibila.
 Pacientii soseau din toate tarile lumii, iar unii dintre
 ei erau cei mai disperati dintre disperati. Grotesti,
@@ -16772,7 +16772,7 @@ perceptiei obisnuite, incat el sau ea devenisera cu totul
 neiubiti in lumea aceasta.
 Intr-una din zile imi fu adusa o pacienta catatonica
 si muta, in camasa de forta. Suferea de o grava
-tulburare neu rologica si era incapabila sa stea in
+tulburare neurologica si era incapabila sa stea in
 picioare. Zvarcolindu -se pe jos, a fost cuprinsa de
 spasme si si-a dat ochii peste cap. Parul ii era incalcit,
 isi sfasiase toata imbracamintea si scotea sunete
@@ -16783,7 +16783,7 @@ nenumarati medici si specialisti renumiti din lumea
 intreaga. Se incercasera toate tratamentele asupra ei si
 fusese declarata de breasla medicala drept un caz fara
 speranta.
-O intrebare scurta, neexprimata in cu vinte, isi facu
+O intrebare scurta, neexprimata in cuvinte, isi facu
 aparitia: „Care este voia Ta, Doamne, in legatura cu ea? ”
 Atunci am primit revelatia ca nu avea nevoie decat sa fie
 iubita, asta era tot. Din privire ii razbatea sinele interior,
@@ -16842,22 +16842,22 @@ de vigoare in fata stimulilor negativi, cum ar fi luminile
 fluorescente, pesticidele si indulcitorii artificiali,
 discipolii disciplinelor spirituale care reusisera sa -si
 inalte nivelul de constientizare nu erau vlaguiti, asa cum
-se intamp la cu oamenii obisnuiti. Ceva important si
+se intampla cu oamenii obisnuiti. Ceva important si
 hotarator se modificase in constiinta lor. Se parea ca
 aceasta se intamplase atunci cand realizasera ca nu se
 aflau la bunul plac al lumii, ci ca erau, mai degraba,
-influentati doar de ceea ce considerau ei in min tea lor.
+influentati doar de ceea ce considerau ei in mintea lor.
 Poate ca s -ar fi putut arata ca insusi procesul de
 
 inaintare spre iluminare ducea la cresterea capacitatii
 omului de a rezista in fata vicisitudinilor existentei,
 inclusiv a bolii.
 Sinele detinea capacitatea de a schimba lucrurile in
-lume prin sim pla lor imaginare; Iubirea schimba lumea
-de fiecare data cand inlocuia non -iubirea. I ntreaga
+lume prin simpla lor imaginare; Iubirea schimba lumea
+de fiecare data cand inlocuia non -iubirea. Intreaga
 alcatuire a civilizatiei putea fi profund modificata prin
 concentrarea acestei puteri a iubirii intr- un punct foarte
-specific. Ori de cate ori s -a intamplat lucru l acesta,
+specific. Ori de cate ori s -a intamplat lucrul acesta,
 istoria a apucat pe noi cai.
 Acum se parea ca aceste descoperiri epocale nu
 numai ca puteau fi comunicate lumii, dar puteau fi si
@@ -16913,7 +16913,7 @@ totul isi are propria existenta si experienta. Este de o
 blandete infinita si, totusi, are taria stancii. Cu ea, orice
 frica dispare. Bucuria spirituala isi face aparitia la un
 nivel calm, de un extaz inexprimabil. Pentru ca
-perceperea timpului inceteaz a, nu exista nici temere,
+perceperea timpului inceteaza, nu exista nici temere,
 nici regret, nici suferinta, nici anticipare; izvorul
 bucuriei este nesfarsit si atotprezent. Fara de -nceput si
 fara de sfarsit, nu exista nici pierdere, nici mahnire, nici
@@ -16934,7 +16934,7 @@ Oamenii se intreaba „Cum poate fi atinsa starea de
 constientizare?”, insa putini sunt aceia care parcurg
 pasii necesari, tocmai fiindca sunt asa de simpli. Initial,
 dorinta de a atinge starea aceea era intensa. Apoi am
-inceput sa ma antrenez sa ac tionez in toate situatiile,
+inceput sa ma antrenez sa actionez in toate situatiile,
 fara exceptie, cu o constanta si universala iertare si
 blandete. Individul trebuie sa manifeste compasiune fata
 de tot ce-l inconjoara, inclusiv fata de propriul sine si de
@@ -16948,7 +16948,7 @@ apoi la idei si la concepte. Pe masura ce individul
 renunta la dorinta de a se afla in posesia acestor
 ganduri, ele nu mai ajung sa fie atat de elaborate si
 incep sa se fragmenteze cat timp sunt doar pe jumatate
-formate. I n final, reusea m sa deturnez energia din
+formate. I n final, reuseam sa deturnez energia din
 spatele gandului insusi inainte chiar ca aceasta sa se
 transforme intr-un gand.
 
@@ -16963,7 +16963,7 @@ proces lipsit de orice efort. Intregul proces seamana cu o
 racheta ce-si ia zborul de pe pamant. Initial are nevoie
 de o energie uriasa, apoi, pe masura ce se desprinde din
 campul gravitational al pamantului, consuma din ce in
-ce mai putina energie si, in final, ajunge sa se dep laseze
+ce mai putina energie si, in final, ajunge sa se deplaseze
 prin spatiu datorita propriului ei moment cinetic.
 Dintr-odata, fara niciun semn prevestitor, a
 intervenit o modificare in constientizare si Prezenta s -a
@@ -17046,12 +17046,12 @@ insuportabile, incat durerea cumplita pe care o produc il
 impulsioneaza pe individ spre savarsirea efortului
 extrem necesar pentru surmontarea lor. Cand oscilarea
 intre rai si iad devine de nesuportat, trebuie renuntat
-pana si la dorinta de a exista. Odata reus it acest lucru,
+pana si la dorinta de a exista. Odata reusit acest lucru,
 individul poate, in sfarsit, sa treaca dincolo de dualitatea
 Totului versus nimic, dincolo de existenta sau de non -
 existenta. Culminarea aceasta a lucrarii interioare
 reprezinta etapa cea mai dificila, cea din urma cumpana,
-cea in care ind ividul este categoric constient ca iluzia
+cea in care individul este categoric constient ca iluzia
 existentei odata depasita aici, este irevocabil depasita.
 Din acest punct nu exista intoarcere, iar spectrul acesta
 
